@@ -1,3 +1,3 @@
-# guide
+# Guide
 
 Welcome to the guide!
