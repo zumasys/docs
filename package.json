@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/zumasys/docs/issues"
   },
-  "homepage": "https://github.com/zumasys/docs#readme"
+  "homepage": "https://github.com/zumasys/docs#readme",
+  "dependencies": {
+    "vuepress": "^1.2.0"
+  }
 }
