@@ -1,0 +1,9 @@
+# GOSUB
+
+Description Transfer execution of the script to a specified label, but as a subroutine call. Program execution will continue with the next line after 'gosub' after the subroutine completes execution, usually with a RETURN statement. gosub label where label is the label to which execution should transfer.  An example of use may be as:  gosub loadprog  
+
+**Created At:** 8/30/2018 1:30:16 PM  
+**Updated At:** 5/16/2019 6:28:02 PM  
+
+**Tags:**
+<badge text='program profiling' vertical='middle' />
