@@ -1,7 +1,21 @@
 # WAKE
 
-Description The WAKE statement wakes a suspended process, which has executed a PAUSE statement. It takes the general form: WAKE PortNumber Where: PortNumber is a reference to awaken the target port. The WAKE statement has no effect on processes, which do not execute the PAUSE statement.  Go back to jBASE BASIC.  
-
 **Created At:** 10/4/2017 10:22:28 AM  
 **Updated At:** 1/5/2018 6:30:40 PM  
 
+
+# Description
+
+The **WAKE** statement wakes a suspended process, which has executed a [PAUSE](277627-pause) statement. It takes the general form:
+
+```
+WAKE PortNumber
+```
+
+Where:
+
+PortNumber is a reference to awaken the target port. The **WAKE** statement has no effect on processes, which do not execute the [PAUSE](277627-pause) statement.
+
+
+
+Go back to [jBASE BASIC](263498-jbase-basic).

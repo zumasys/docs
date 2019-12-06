@@ -1,7 +1,36 @@
 # Uses of Class com.jbase.jremote.JAuthenticationException (jremote API)
 
-JavaScript is disabled on your browser. Uses of Classcom.jbase.jremote.JAuthenticationException No usage of com.jbase.jremote.JAuthenticationException Back to jREMOTE API  
-
 **Created At:** 9/25/2017 11:38:42 AM  
 **Updated At:** 4/5/2018 12:28:23 AM  
 
+<script type="text/javascript"><!--
+    try {
+        if (location.href.indexOf('is-external=true') == -1) {
+            parent.document.title="Uses of Class com.jbase.jremote.JAuthenticationException (jremote   API)";
+        }
+    }
+    catch(err) {
+    }
+//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
+<!--   -->
+
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //--></script>
+<!--   -->
+<!-- ========= END OF TOP NAVBAR ========= -->
+## Uses of Class
+com.jbase.jremote.JAuthenticationException
+
+No usage of com.jbase.jremote.JAuthenticationException
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<!--   -->
+
+
+Back to [jREMOTE API](com_jbase_jremote_package-summary)
