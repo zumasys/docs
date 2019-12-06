@@ -3,58 +3,50 @@
 **Created At:** 9/25/2017 10:54:43 AM  
 **Updated At:** 8/17/2018 2:25:53 AM  
 
-<noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+&amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;gt;
+
 
 # Class JbaseJDBCCallableStatement
 
-<dt><strong>All Implemented Interfaces:</strong></dt><dd><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals" title="interface in com.jbase.jdbc">JBaseJDBCGlobals</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true" title="class or interface in java.lang">AutoCloseable</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true" title="class or interface in java.sql">Wrapper</a></dd>
+**All Implemented Interfaces:**[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc"), [AutoCloseable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true "class or interface in java.lang"), [CallableStatement](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true "class or interface in java.sql"), [PreparedStatement](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true "class or interface in java.sql"), [Statement](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true "class or interface in java.sql"), [Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")
 ```
 public class JbaseJDBCCallableStatement
 extends JBaseJDBCPreparedStatement
 implements CallableStatement
 ```
 
-<!--   -->
-
 # 
 
 
 # Nested Class Summary
 
-<!--   -->
+
 
 ## Nested classes/interfaces inherited from interface com.jbase.jdbc.JBaseJDBCGlobals
-`JBaseJDBCGlobals.TYPES`<!-- =========== FIELD SUMMARY =========== -->
-<!--   -->
+`JBaseJDBCGlobals.TYPES`
+
 
 # 
 
 
 # Field Summary
 
-<!--   -->
+
 
 ## Fields inherited from class com.jbase.jdbc.JBaseJDBCPreparedStatement
 `parameters`
 
-<!--   -->
-
 ## Fields inherited from class com.jbase.jdbc.JBaseJDBCSocketStatement
 `batchRequestsList`
 
-<!--   -->
-
 ## Fields inherited from interface java.sql.Statement
 `CLOSE_ALL_RESULTS, CLOSE_CURRENT_RESULT, EXECUTE_FAILED, KEEP_CURRENT_RESULT, NO_GENERATED_KEYS, RETURN_GENERATED_KEYS, SUCCESS_NO_INFO`
-
-<!--   -->
 
 ## Fields inherited from interface com.jbase.jdbc.JBaseJDBCGlobals
 `AM, CHAR_AM, CHAR_SM, CHAR_VM, SHORT_AM, SHORT_CHAR_AM, SHORT_CHAR_SM, SHORT_CHAR_VM, SHORT_SM, SHORT_VM, SM, VM`
 
 
-<!--   -->
+
 
 # 
 
@@ -68,8 +60,8 @@ implements CallableStatement
 
 
 
-<!-- ========== METHOD SUMMARY =========== -->
-<!--   -->
+
+
 
 # Method Summary
 
@@ -159,7 +151,7 @@ implements CallableStatement
 | <br>`boolean`<br> | <br>wasNull()<br> | <br> |
 
 
-<!--   -->
+
 
 ## 
 
@@ -167,22 +159,16 @@ implements CallableStatement
 ## Methods inherited from class com.jbase.jdbc.JBaseJDBCPreparedStatement
 `addBatch, clearParameters, close, countParameters, CRT, execute, execute, execute, executeQuery, getMetaData, getParameterMetaData, getResultSet, main, setArray, setAsciiStream, setBigDecimal, setBinaryStream, setBlob, setBoolean, setByte, setBytes, setCharacterStream, setClob, setDate, setDate, setDouble, setFloat, setInt, setLong, setNull, setNull, setObject, setObject, setObject, setRef, setShort, setString, setTime, setTime, setTimestamp, setTimestamp, setUnicodeStream, setURL`
 
-<!--   -->
-
 ## Methods inherited from class com.jbase.jdbc.JBaseJDBCSocketStatement
 `addBatch, cancel, clearBatch, clearWarnings, execute, executeBatch, executeQuery, executeUpdate, executeUpdate, executeUpdate, executeUpdate, freeId, getConnection, getFetchDirection, getFetchSize, getGeneratedKeys, getId, getMaxFieldSize, getMaxRows, getMoreResults, getMoreResults, getQueryTimeout, getResultSetConcurrency, getResultSetHoldability, getResultSetType, getUpdateCount, getWarnings, setCursorName, setEscapeProcessing, setFetchDirection, setFetchSize, setId, setMaxFieldSize, setMaxRows, setQueryTimeout`
-
-<!--   -->
 
 ## Methods inherited from class java.lang.Object
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-<!--   -->
-
 ## Methods inherited from interface java.sql.CallableStatement
 `getCharacterStream, getCharacterStream, getNCharacterStream, getNCharacterStream, getNClob, getNClob, getNString, getNString, getObject, getObject, getRowId, getRowId, getSQLXML, getSQLXML, registerOutParameter, registerOutParameter, registerOutParameter, registerOutParameter, registerOutParameter, registerOutParameter, setAsciiStream, setAsciiStream, setBinaryStream, setBinaryStream, setBlob, setBlob, setBlob, setCharacterStream, setCharacterStream, setClob, setClob, setClob, setNCharacterStream, setNCharacterStream, setNClob, setNClob, setNClob, setNString, setObject, setObject, setRowId, setSQLXML`
 
-<!--   -->
+
 
 ## 
 
@@ -190,19 +176,11 @@ implements CallableStatement
 ## Methods inherited from interface java.sql.PreparedStatement
 `addBatch, clearParameters, executeLargeUpdate, executeQuery, getMetaData, getParameterMetaData, setArray, setAsciiStream, setAsciiStream, setAsciiStream, setBigDecimal, setBinaryStream, setBinaryStream, setBinaryStream, setBlob, setBlob, setBlob, setBoolean, setByte, setBytes, setCharacterStream, setCharacterStream, setCharacterStream, setClob, setClob, setClob, setDate, setDate, setDouble, setFloat, setInt, setLong, setNCharacterStream, setNCharacterStream, setNClob, setNClob, setNClob, setNString, setNull, setNull, setObject, setObject, setObject, setObject, setObject, setRef, setRowId, setShort, setSQLXML, setString, setTime, setTime, setTimestamp, setTimestamp, setUnicodeStream, setURL`
 
-<!--   -->
-
 ## Methods inherited from interface java.sql.Statement
 `addBatch, cancel, clearBatch, clearWarnings, close, closeOnCompletion, execute, execute, execute, execute, executeBatch, executeLargeBatch, executeLargeUpdate, executeLargeUpdate, executeLargeUpdate, executeLargeUpdate, executeQuery, executeUpdate, executeUpdate, executeUpdate, executeUpdate, getConnection, getFetchDirection, getFetchSize, getGeneratedKeys, getLargeMaxRows, getLargeUpdateCount, getMaxFieldSize, getMaxRows, getMoreResults, getMoreResults, getQueryTimeout, getResultSet, getResultSetConcurrency, getResultSetHoldability, getResultSetType, getUpdateCount, getWarnings, isClosed, isCloseOnCompletion, isPoolable, setCursorName, setEscapeProcessing, setFetchDirection, setFetchSize, setLargeMaxRows, setMaxFieldSize, setMaxRows, setPoolable, setQueryTimeout`
 
-<!--   -->
-
 ## Methods inherited from interface java.sql.Wrapper
 `isWrapperFor, unwrap`
-
-<!-- ========= CONSTRUCTOR DETAIL ======== -->
-
-<!--   -->
 
 # Constructor Detail
 
@@ -212,28 +190,31 @@ implements CallableStatement
 public JbaseJDBCCallableStatement(JBaseJDBCSocketConnection connection, String sql)
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Throws:**`SQLException`
 
 
 
 
 
-<!-- ============ METHOD DETAIL ========== -->
-<!--   -->
+
+
 
 # Method Detail
-<!--   -->
+
 #### **execute**
 
 ```
 public boolean execute()
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true#execute--" title="class or interface in java.sql">execute</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Overrides:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCPreparedStatement#execute--">execute</a></code> in class <code><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCPreparedStatement" title="class in com.jbase.jdbc">JBaseJDBCPreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+
+**Specified by:**`execute` in interface `PreparedStatement`
+**Overrides:**`execute` in class `JBaseJDBCPreparedStatement`
+**Throws:**`SQLException`
 
 
 
-<!--   -->
+
 
 
 #### **executeUpdate**
@@ -244,9 +225,12 @@ public int executeUpdate()
 ```
 
 Executes the SQL statement in this PreparedStatement object, which must be an SQL INSERT, UPDATE or DELETE statement; or an SQL statement that returns nothing, such as a DDL statement.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true#executeUpdate--" title="class or interface in java.sql">executeUpdate</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Overrides:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCPreparedStatement#executeUpdate--">executeUpdate</a></code> in class <code><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCPreparedStatement" title="class in com.jbase.jdbc">JBaseJDBCPreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">either (1) the row count for INSERT, UPDATE, or DELETE statements or (2) 0 for SQL statements that return nothing</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the SQL statement returns a ResultSet object</dd></dl>
+**Specified by:**`executeUpdate` in interface `PreparedStatement`
+**Overrides:**`executeUpdate` in class `JBaseJDBCPreparedStatement`
+**Returns:**either (1) the row count for INSERT, UPDATE, or DELETE statements or (2) 0 for SQL statements that return nothing
+**Throws:**`SQLException` - if a database access error occurs or the SQL statement returns a ResultSet object
 
-<!--   -->
+
 
 
 #### **registerOutParameter**
@@ -257,9 +241,12 @@ public void registerOutParameter(int parameterIndex, int sqlType)
 ```
 
 Registers the OUT parameter in ordinal position parameterIndex to the JDBC type sqlType. All OUT parameters must be registered before a stored procedure is executed. The JDBC type specified by sqlType for an OUT parameter determines the Java type that must be used in the get method to read the value of that parameter. If the JDBC type expected to be returned to this output parameter is specific to this particular database, sqlType should be java.sql.Types.OTHER. The method getObject(int) retrieves the value.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#registerOutParameter-int-int-" title="class or interface in java.sql">registerOutParameter</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>parameterIndex</code> - - the first parameter is 1, the second is 2, and so on</dd><dd style="margin-left: 60px;"><code>sqlType</code> - - the JDBC type code defined by java.sql.Types. If the parameter is of JDBC type NUMERIC or DECIMAL, the version of registerOutParameter that accepts a scale value should be used.</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also</strong>:</span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Types.html?is-external=true" title="class or interface in java.sql"><code>Types</code></a></dd></dl>
+**Specified by:**`registerOutParameter` in interface `CallableStatement`
+**Parameters:**`parameterIndex` - - the first parameter is 1, the second is 2, and so on`sqlType` - - the JDBC type code defined by java.sql.Types. If the parameter is of JDBC type NUMERIC or DECIMAL, the version of registerOutParameter that accepts a scale value should be used.
+Throws:`SQLException` - - if a database access error occurs
+**See Also**:[`Types`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Types.html?is-external=true "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **registerOutParameter**
@@ -270,9 +257,12 @@ public void registerOutParameter(int parameterIndex, int sqlType, int scale)
 ```
 
 Registers the parameter in ordinal position parameterIndex to be of JDBC type sqlType. This method must be called before a stored procedure is executed. The JDBC type specified by sqlType for an OUT parameter determines the Java type that must be used in the get method to read the value of that parameter. This version of registerOutParameter should be used when the parameter is of JDBC type NUMERIC or DECIMAL.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#registerOutParameter-int-int-int-" title="class or interface in java.sql">registerOutParameter</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>parameterIndex</code> - - the first parameter is 1, the second is 2, and so on</dd><dd style="margin-left: 60px;"><code>sqlType</code> - - the SQL type code defined by java.sql.Types.</dd><dd style="margin-left: 60px;"><code>scale</code> - - the desired number of digits to the right of the decimal point. It must be greater than or equal to zero.</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd><dt style="margin-left: 40px;"><br><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Types.html?is-external=true" title="class or interface in java.sql"><code>Types</code></a></dd></dl>
+Specified by:`registerOutParameter` in interface `CallableStatement`
+**Parameters:**`parameterIndex` - - the first parameter is 1, the second is 2, and so on`sqlType` - - the SQL type code defined by java.sql.Types.`scale` - - the desired number of digits to the right of the decimal point. It must be greater than or equal to zero.
+**Throws:**`SQLException` - - if a database access error occurs
+See Also:[`Types`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Types.html?is-external=true "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **wasNull**
@@ -281,9 +271,10 @@ Registers the parameter in ordinal position parameterIndex to be of JDBC type sq
 public boolean wasNull()
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#wasNull--" title="class or interface in java.sql">wasNull</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`wasNull` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getString**
@@ -292,9 +283,10 @@ public boolean wasNull()
 public String getString(int arg0)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getString-int-" title="class or interface in java.sql">getString</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getString` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getBoolean**
@@ -303,9 +295,10 @@ public String getString(int arg0)
 public boolean getBoolean(int arg0)
                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getBoolean-int-" title="class or interface in java.sql">getBoolean</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getBoolean` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **getByte**
@@ -314,9 +307,10 @@ public boolean getBoolean(int arg0)
 public byte getByte(int arg0)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getByte-int-" title="class or interface in java.sql">getByte</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getByte` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### getShort
@@ -325,9 +319,10 @@ public byte getByte(int arg0)
 public short getShort(int i)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getShort-int-" title="class or interface in java.sql">getShort</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getShort` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **getInt**
@@ -336,9 +331,10 @@ public short getShort(int i)
 public int getInt(int i)
            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getInt-int-" title="class or interface in java.sql">getInt</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`getInt` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **getLong**
@@ -347,9 +343,10 @@ public int getInt(int i)
 public long getLong(int i)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getLong-int-" title="class or interface in java.sql">getLong</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`getLong` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **getFloat**
@@ -358,9 +355,10 @@ public long getLong(int i)
 public float getFloat(int i)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getFloat-int-" title="class or interface in java.sql">getFloat</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getFloat` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **getDouble**
@@ -369,9 +367,10 @@ public float getFloat(int i)
 public double getDouble(int i)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getDouble-int-" title="class or interface in java.sql">getDouble</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getDouble` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getBigDecimal**
@@ -380,9 +379,10 @@ public double getDouble(int i)
 public BigDecimal getBigDecimal(int arg0, int arg1)
                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getBigDecimal-int-int-" title="class or interface in java.sql">getBigDecimal</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><strong><br></strong><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getBigDecimal` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getBytes**
@@ -391,9 +391,10 @@ public BigDecimal getBigDecimal(int arg0, int arg1)
 public byte[] getBytes(int arg0)
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getBytes-int-" title="class or interface in java.sql">getBytes</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getBytes` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### getDate
@@ -402,9 +403,10 @@ public byte[] getBytes(int arg0)
 public Date getDate(int arg0)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getDate-int-" title="class or interface in java.sql">getDate</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`getDate` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **getTime**
@@ -413,9 +415,10 @@ public Date getDate(int arg0)
 public Time getTime(int arg0)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getTime-int-" title="class or interface in java.sql">getTime</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`getTime` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getTimestamp**
@@ -424,9 +427,10 @@ public Time getTime(int arg0)
 public Timestamp getTimestamp(int arg0)
                        throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getTimestamp-int-" title="class or interface in java.sql">getTimestamp</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getTimestamp` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **getObject**
@@ -435,9 +439,10 @@ public Timestamp getTimestamp(int arg0)
 public Object getObject(int arg0)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getObject-int-" title="class or interface in java.sql">getObject</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`getObject` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **getBigDecimal**
@@ -446,9 +451,10 @@ public Object getObject(int arg0)
 public BigDecimal getBigDecimal(int i)
                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getBigDecimal-int-" title="class or interface in java.sql">getBigDecimal</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getBigDecimal` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getObject**
@@ -457,9 +463,10 @@ public BigDecimal getBigDecimal(int i)
 public Object getObject(int arg0, Map arg1)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getObject-int-java.util.Map-" title="class or interface in java.sql">getObject</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getObject` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **getRef**
@@ -468,9 +475,10 @@ public Object getObject(int arg0, Map arg1)
 public Ref getRef(int arg0)
            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getRef-int-" title="class or interface in java.sql">getRef</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getRef` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **getBlob**
@@ -479,9 +487,10 @@ public Ref getRef(int arg0)
 public Blob getBlob(int arg0)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getBlob-int-" title="class or interface in java.sql">getBlob</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`getBlob` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### getClob
@@ -490,9 +499,10 @@ public Blob getBlob(int arg0)
 public Clob getClob(int arg0)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getClob-int-" title="class or interface in java.sql">getClob</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`getClob` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **getArray**
@@ -501,9 +511,10 @@ public Clob getClob(int arg0)
 public Array getArray(int arg0)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getArray-int-" title="class or interface in java.sql">getArray</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getArray` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **getDate**
@@ -512,9 +523,10 @@ public Array getArray(int arg0)
 public Date getDate(int arg0, Calendar arg1)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getDate-int-java.util.Calendar-" title="class or interface in java.sql">getDate</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getDate` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getTime**
@@ -523,9 +535,10 @@ public Date getDate(int arg0, Calendar arg1)
 public Time getTime(int arg0, Calendar arg1)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getTime-int-java.util.Calendar-" title="class or interface in java.sql">getTime</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getTime` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **getTimestamp**
@@ -534,9 +547,10 @@ public Time getTime(int arg0, Calendar arg1)
 public Timestamp getTimestamp(int arg0, Calendar arg1)
                        throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getTimestamp-int-java.util.Calendar-" title="class or interface in java.sql">getTimestamp</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getTimestamp` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### registerOutParameter
@@ -545,9 +559,10 @@ public Timestamp getTimestamp(int arg0, Calendar arg1)
 public void registerOutParameter(int arg0, int arg1, String arg2)
                           throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#registerOutParameter-int-int-java.lang.String-" title="class or interface in java.sql">registerOutParameter</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`registerOutParameter` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### registerOutParameter
@@ -556,9 +571,10 @@ public void registerOutParameter(int arg0, int arg1, String arg2)
 public void registerOutParameter(String arg0, int arg1)
                           throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#registerOutParameter-java.lang.String-int-" title="class or interface in java.sql">registerOutParameter</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`registerOutParameter` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **registerOutParameter**
@@ -567,9 +583,10 @@ public void registerOutParameter(String arg0, int arg1)
 public void registerOutParameter(String arg0, int arg1, int arg2)
                           throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#registerOutParameter-java.lang.String-int-int-" title="class or interface in java.sql">registerOutParameter</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`registerOutParameter` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **registerOutParameter**
@@ -578,9 +595,10 @@ public void registerOutParameter(String arg0, int arg1, int arg2)
 public void registerOutParameter(String arg0, int arg1, String arg2)
                           throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#registerOutParameter-java.lang.String-int-java.lang.String-" title="class or interface in java.sql">registerOutParameter</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`registerOutParameter` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### getURL
@@ -589,9 +607,10 @@ public void registerOutParameter(String arg0, int arg1, String arg2)
 public URL getURL(int arg0)
            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getURL-int-" title="class or interface in java.sql">getURL</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`getURL` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setURL**
@@ -600,9 +619,10 @@ public URL getURL(int arg0)
 public void setURL(String arg0, URL arg1)
             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setURL-java.lang.String-java.net.URL-" title="class or interface in java.sql">setURL</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setURL` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **setNull**
@@ -611,9 +631,10 @@ public void setURL(String arg0, URL arg1)
 public void setNull(String arg0, int arg1)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setNull-java.lang.String-int-" title="class or interface in java.sql">setNull</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setNull` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **setBoolean**
@@ -622,9 +643,10 @@ public void setNull(String arg0, int arg1)
 public void setBoolean(String arg0,  boolean arg1)
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setBoolean-java.lang.String-boolean-" title="class or interface in java.sql">setBoolean</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setBoolean` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **setByte**
@@ -633,9 +655,10 @@ public void setBoolean(String arg0,  boolean arg1)
 public void setByte(String arg0, byte arg1)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setByte-java.lang.String-byte-" title="class or interface in java.sql">setByte</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`setByte` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setShort**
@@ -644,9 +667,10 @@ public void setByte(String arg0, byte arg1)
 public void setShort(String arg0, short arg1)
               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setShort-java.lang.String-short-" title="class or interface in java.sql">setShort</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setShort` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setInt**
@@ -655,9 +679,10 @@ public void setShort(String arg0, short arg1)
 public void setInt(String arg0, int arg1)
             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setInt-java.lang.String-int-" title="class or interface in java.sql">setInt</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`setInt` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setLong**
@@ -666,9 +691,10 @@ public void setInt(String arg0, int arg1)
 public void setLong(String arg0, long arg1)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setLong-java.lang.String-long-" title="class or interface in java.sql">setLong</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`setLong` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **setFloat**
@@ -677,9 +703,10 @@ public void setLong(String arg0, long arg1)
 public void setFloat(String arg0, float arg1)
               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setFloat-java.lang.String-float-" title="class or interface in java.sql">setFloat</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`setFloat` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setDouble**
@@ -688,9 +715,10 @@ public void setFloat(String arg0, float arg1)
 public void setDouble(String arg0, double arg1)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setDouble-java.lang.String-double-" title="class or interface in java.sql">setDouble</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setDouble` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setBigDecimal**
@@ -699,9 +727,10 @@ public void setDouble(String arg0, double arg1)
 public void setBigDecimal(String arg0, BigDecimal arg1)
                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setBigDecimal-java.lang.String-java.math.BigDecimal-" title="class or interface in java.sql">setBigDecimal</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`setBigDecimal` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **setString**
@@ -710,9 +739,10 @@ public void setBigDecimal(String arg0, BigDecimal arg1)
 public void setString(String arg0,  String arg1)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setString-java.lang.String-java.lang.String-" title="class or interface in java.sql">setString</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`setString` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### setBytes
@@ -721,9 +751,10 @@ public void setString(String arg0,  String arg1)
 public void setBytes(String arg0, byte[] arg1)
               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setBytes-java.lang.String-byte:A-" title="class or interface in java.sql">setBytes</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setBytes` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### setDate
@@ -732,9 +763,10 @@ public void setBytes(String arg0, byte[] arg1)
 public void setDate(String arg0, Date arg1)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setDate-java.lang.String-java.sql.Date-" title="class or interface in java.sql">setDate</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setDate` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### setTime
@@ -743,9 +775,10 @@ public void setDate(String arg0, Date arg1)
 public void setTime(String arg0, Time arg1)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setTime-java.lang.String-java.sql.Time-" title="class or interface in java.sql">setTime</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setTime` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### setTimestamp
@@ -754,9 +787,10 @@ public void setTime(String arg0, Time arg1)
 public void setTimestamp(String arg0, Timestamp arg1)
                   throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setTimestamp-java.lang.String-java.sql.Timestamp-" title="class or interface in java.sql">setTimestamp</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setTimestamp` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setAsciiStream**
@@ -765,9 +799,10 @@ public void setTimestamp(String arg0, Timestamp arg1)
 public void setAsciiStream(String arg0, InputStream arg1, int arg2)
                     throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setAsciiStream-java.lang.String-java.io.InputStream-int-" title="class or interface in java.sql">setAsciiStream</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`setAsciiStream` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setBinaryStream**
@@ -776,9 +811,10 @@ public void setAsciiStream(String arg0, InputStream arg1, int arg2)
 public void setBinaryStream(String arg0, InputStream arg1, int arg2)
                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setBinaryStream-java.lang.String-java.io.InputStream-int-" title="class or interface in java.sql">setBinaryStream</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setBinaryStream` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **setObject**
@@ -787,9 +823,10 @@ public void setBinaryStream(String arg0, InputStream arg1, int arg2)
 public void setObject(String arg0, Object arg1, int arg2, int arg3)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setObject-java.lang.String-java.lang.Object-int-int-" title="class or interface in java.sql">setObject</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setObject` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### setObject
@@ -798,9 +835,10 @@ public void setObject(String arg0, Object arg1, int arg2, int arg3)
 public void setObject(String arg0, Object arg1, int arg2)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setObject-java.lang.String-java.lang.Object-int-" title="class or interface in java.sql">setObject</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setObject` in interface `CallableStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **setObject**
@@ -809,9 +847,10 @@ public void setObject(String arg0, Object arg1, int arg2)
 public void setObject(String arg0, Object arg1)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setObject-java.lang.String-java.lang.Object-" title="class or interface in java.sql">setObject</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`setObject` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setCharacterStream**
@@ -820,9 +859,10 @@ public void setObject(String arg0, Object arg1)
 public void setCharacterStream(String arg0, Reader arg1, int arg2)
                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setCharacterStream-java.lang.String-java.io.Reader-int-" title="class or interface in java.sql">setCharacterStream</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setCharacterStream` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setDate**
@@ -831,9 +871,10 @@ public void setCharacterStream(String arg0, Reader arg1, int arg2)
 public void setDate(String arg0, Date arg1, Calendar arg2)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setDate-java.lang.String-java.sql.Date-java.util.Calendar-" title="class or interface in java.sql">setDate</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`setDate` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setTime**
@@ -842,9 +883,10 @@ public void setDate(String arg0, Date arg1, Calendar arg2)
 public void setTime(String arg0, Time arg1, Calendar arg2)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setTime-java.lang.String-java.sql.Time-java.util.Calendar-" title="class or interface in java.sql">setTime</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setTime` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setTimestamp**
@@ -853,9 +895,10 @@ public void setTime(String arg0, Time arg1, Calendar arg2)
 public void setTimestamp(String arg0, Timestamp arg1, Calendar arg2)
                   throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setTimestamp-java.lang.String-java.sql.Timestamp-java.util.Calendar-" title="class or interface in java.sql">setTimestamp</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setTimestamp` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setNull**
@@ -864,9 +907,10 @@ public void setTimestamp(String arg0, Timestamp arg1, Calendar arg2)
 public void setNull(String arg0, int arg1, String arg2)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#setNull-java.lang.String-int-java.lang.String-" title="class or interface in java.sql">setNull</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setNull` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getString**
@@ -875,9 +919,10 @@ public void setNull(String arg0, int arg1, String arg2)
 public String getString(String arg0)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getString-java.lang.String-" title="class or interface in java.sql">getString</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getString` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getBoolean**
@@ -886,9 +931,10 @@ public String getString(String arg0)
 public boolean getBoolean(String arg0)
                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getBoolean-java.lang.String-" title="class or interface in java.sql">getBoolean</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getBoolean` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getByte**
@@ -897,9 +943,10 @@ public boolean getBoolean(String arg0)
 public byte getByte(String arg0)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getByte-java.lang.String-" title="class or interface in java.sql">getByte</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getByte` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getShort**
@@ -908,9 +955,10 @@ public byte getByte(String arg0)
 public short getShort(String arg0)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getShort-java.lang.String-" title="class or interface in java.sql">getShort</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getShort` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getInt**
@@ -919,9 +967,10 @@ public short getShort(String arg0)
 public int getInt(String arg0)
            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getInt-java.lang.String-" title="class or interface in java.sql">getInt</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getInt` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getLong**
@@ -930,9 +979,10 @@ public int getInt(String arg0)
 public long getLong(String arg0)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getLong-java.lang.String-" title="class or interface in java.sql">getLong</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getLong` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getFloat**
@@ -941,9 +991,10 @@ public long getLong(String arg0)
 public float getFloat(String arg0)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getFloat-java.lang.String-" title="class or interface in java.sql">getFloat</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getFloat` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getDouble**
@@ -952,9 +1003,10 @@ public float getFloat(String arg0)
 public double getDouble(String arg0)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getDouble-java.lang.String-" title="class or interface in java.sql">getDouble</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getDouble` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getBytes**
@@ -963,9 +1015,10 @@ public double getDouble(String arg0)
 public byte[] getBytes(String arg0)
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getBytes-java.lang.String-" title="class or interface in java.sql">getBytes</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getBytes` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getDate**
@@ -974,9 +1027,10 @@ public byte[] getBytes(String arg0)
 public Date getDate(String arg0)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getDate-java.lang.String-" title="class or interface in java.sql">getDate</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getDate` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getTime**
@@ -985,9 +1039,10 @@ public Date getDate(String arg0)
 public Time getTime(String arg0)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getTime-java.lang.String-" title="class or interface in java.sql">getTime</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getTime` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getTimestamp**
@@ -996,9 +1051,10 @@ public Time getTime(String arg0)
 public Timestamp getTimestamp(String arg0)
                        throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getTimestamp-java.lang.String-" title="class or interface in java.sql">getTimestamp</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getTimestamp` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getObject**
@@ -1007,9 +1063,10 @@ public Timestamp getTimestamp(String arg0)
 public Object getObject(String arg0)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getObject-java.lang.String-" title="class or interface in java.sql">getObject</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getObject` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getBigDecimal**
@@ -1018,9 +1075,10 @@ public Object getObject(String arg0)
 public BigDecimal getBigDecimal(String arg0)
                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getBigDecimal-java.lang.String-" title="class or interface in java.sql">getBigDecimal</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getBigDecimal` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getObject**
@@ -1029,9 +1087,10 @@ public BigDecimal getBigDecimal(String arg0)
 public Object getObject(String arg0, Map arg1)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getObject-java.lang.String-java.util.Map-" title="class or interface in java.sql">getObject</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getObject` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getRef**
@@ -1040,9 +1099,10 @@ public Object getObject(String arg0, Map arg1)
 public Ref getRef(String arg0)
            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getRef-java.lang.String-" title="class or interface in java.sql">getRef</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getRef` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getBlob**
@@ -1051,9 +1111,10 @@ public Ref getRef(String arg0)
 public Blob getBlob(String arg0)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getBlob-java.lang.String-" title="class or interface in java.sql">getBlob</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getBlob` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getClob**
@@ -1062,9 +1123,10 @@ public Blob getBlob(String arg0)
 public Clob getClob(String arg0)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getClob-java.lang.String-" title="class or interface in java.sql">getClob</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getClob` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getArray**
@@ -1073,9 +1135,10 @@ public Clob getClob(String arg0)
 public Array getArray(String arg0)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getArray-java.lang.String-" title="class or interface in java.sql">getArray</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getArray` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getDate**
@@ -1084,9 +1147,10 @@ public Array getArray(String arg0)
 public Date getDate(String arg0, Calendar arg1)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getDate-java.lang.String-java.util.Calendar-" title="class or interface in java.sql">getDate</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getDate` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getTime**
@@ -1095,9 +1159,10 @@ public Date getDate(String arg0, Calendar arg1)
 public Time getTime(String arg0, Calendar arg1)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getTime-java.lang.String-java.util.Calendar-" title="class or interface in java.sql">getTime</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getTime` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getTimestamp**
@@ -1106,9 +1171,10 @@ public Time getTime(String arg0, Calendar arg1)
 public Timestamp getTimestamp(String arg0, Calendar arg1)
                        throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getTimestamp-java.lang.String-java.util.Calendar-" title="class or interface in java.sql">getTimestamp</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getTimestamp` in interface `CallableStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getURL**
@@ -1117,6 +1183,7 @@ public Timestamp getTimestamp(String arg0, Calendar arg1)
 public URL getURL(String arg0)
            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true#getURL-java.lang.String-" title="class or interface in java.sql">getURL</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/CallableStatement.html?is-external=true" title="class or interface in java.sql">CallableStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+**Specified by:**`getURL` in interface `CallableStatement`
+**Throws:**`SQLException`
+
+

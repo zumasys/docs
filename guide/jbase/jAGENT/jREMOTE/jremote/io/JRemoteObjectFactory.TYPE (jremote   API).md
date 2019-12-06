@@ -3,18 +3,11 @@
 **Created At:** 9/25/2017 11:52:33 AM  
 **Updated At:** 2/15/2018 8:02:15 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="JRemoteObjectFactory.TYPE (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JRemoteObjectFactory.TYPE (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39250-io/com_jbase_jremote_io_package-summary)
 - Class
@@ -37,15 +30,7 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -58,14 +43,12 @@ jremote <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= --><!-- ======== START OF CLASS DATA ======== -->
+
 com.jbase.jremote.io
 
 ## Interface JRemoteObjectFactory.TYPE
 
-- <dl><dt>Enclosing class:</dt>
-<dd><a href="/39250-io/com_jbase_jremote_io_JRemoteObjectFactory" title="class in com.jbase.jremote.io">JRemoteObjectFactory</a></dd></dl>
+- Enclosing class:[JRemoteObjectFactory](/39250-io/com_jbase_jremote_io_JRemoteObjectFactory "class in com.jbase.jremote.io")
 * * *
 
 
@@ -73,12 +56,10 @@ com.jbase.jremote.io
 public static interface JRemoteObjectFactory.TYPE
 ```
 
-- <!-- =========== FIELD SUMMARY =========== -->
-    - <!--   -->
-### Field Summary
+- - ### Field Summary
 
 
-<caption><span>Fields</span><span class="tabEnd"> </span></caption>| Modifier and Type | Field and Description |
+Fields | Modifier and Type | Field and Description |
 | --- | --- |
 | `static int` | `BeginTransactionRequest`  |
 | `static int` | `ClearFileRequest`  |
@@ -126,417 +107,369 @@ public static interface JRemoteObjectFactory.TYPE
 | `static int` | `XAStartTransactionRequest`  |
 | `static int` | `XAXid`  |
 
-- <!-- ============ FIELD DETAIL =========== -->
-    - <!--   -->
-### Field Detail
-<!--   -->
+- - ### Field Detail
+
         - #### ReadRecordRequest
 
 ```
 static final int ReadRecordRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ReadRecordRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ReadRecordRequest)
 
-<!--   -->
+
         - #### WriteRecordRequest
 
 ```
 static final int WriteRecordRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.WriteRecordRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.WriteRecordRequest)
 
-<!--   -->
+
         - #### DeleteRecordRequest
 
 ```
 static final int DeleteRecordRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.DeleteRecordRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.DeleteRecordRequest)
 
-<!--   -->
+
         - #### ExistsRecordRequest
 
 ```
 static final int ExistsRecordRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ExistsRecordRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ExistsRecordRequest)
 
-<!--   -->
+
         - #### OpenFileRequest
 
 ```
 static final int OpenFileRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.OpenFileRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.OpenFileRequest)
 
-<!--   -->
+
         - #### CloseFileRequest
 
 ```
 static final int CloseFileRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.CloseFileRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.CloseFileRequest)
 
-<!--   -->
+
         - #### ClearFileRequest
 
 ```
 static final int ClearFileRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ClearFileRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ClearFileRequest)
 
-<!--   -->
+
         - #### SelectFileRequest
 
 ```
 static final int SelectFileRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SelectFileRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SelectFileRequest)
 
-<!--   -->
+
         - #### RemoteSubroutineRequest
 
 ```
 static final int RemoteSubroutineRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.RemoteSubroutineRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.RemoteSubroutineRequest)
 
-<!--   -->
+
         - #### BeginTransactionRequest
 
 ```
 static final int BeginTransactionRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.BeginTransactionRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.BeginTransactionRequest)
 
-<!--   -->
+
         - #### CommitTransactionRequest
 
 ```
 static final int CommitTransactionRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.CommitTransactionRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.CommitTransactionRequest)
 
-<!--   -->
+
         - #### RollbackTransactionRequest
 
 ```
 static final int RollbackTransactionRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.RollbackTransactionRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.RollbackTransactionRequest)
 
-<!--   -->
+
         - #### XAStartTransactionRequest
 
 ```
 static final int XAStartTransactionRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.XAStartTransactionRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.XAStartTransactionRequest)
 
-<!--   -->
+
         - #### XAEndTransactionRequest
 
 ```
 static final int XAEndTransactionRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.XAEndTransactionRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.XAEndTransactionRequest)
 
-<!--   -->
+
         - #### XAPrepareTransactionRequest
 
 ```
 static final int XAPrepareTransactionRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.XAPrepareTransactionRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.XAPrepareTransactionRequest)
 
-<!--   -->
+
         - #### XACommitTransactionRequest
 
 ```
 static final int XACommitTransactionRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.XACommitTransactionRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.XACommitTransactionRequest)
 
-<!--   -->
+
         - #### XARollbackTransactionRequest
 
 ```
 static final int XARollbackTransactionRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.XARollbackTransactionRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.XARollbackTransactionRequest)
 
-<!--   -->
+
         - #### DateTimeRequest
 
 ```
 static final int DateTimeRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.DateTimeRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.DateTimeRequest)
 
-<!--   -->
+
         - #### RemoteExecuteRequest
 
 ```
 static final int RemoteExecuteRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.RemoteExecuteRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.RemoteExecuteRequest)
 
-<!--   -->
+
         - #### ReadCommonRequest
 
 ```
 static final int ReadCommonRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ReadCommonRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ReadCommonRequest)
 
-<!--   -->
+
         - #### EISMetaDataRequest
 
 ```
 static final int EISMetaDataRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.EISMetaDataRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.EISMetaDataRequest)
 
-<!--   -->
+
         - #### ConvRequest
 
 ```
 static final int ConvRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ConvRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ConvRequest)
 
-<!--   -->
+
         - #### SwitchAccountRequest
 
 ```
 static final int SwitchAccountRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SwitchAccountRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SwitchAccountRequest)
 
-<!--   -->
+
         - #### ReleaseRecordLockRequest
 
 ```
 static final int ReleaseRecordLockRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ReleaseRecordLockRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ReleaseRecordLockRequest)
 
-<!--   -->
+
         - #### StatementExecuteQueryRequest
 
 ```
 static final int StatementExecuteQueryRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.StatementExecuteQueryRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.StatementExecuteQueryRequest)
 
-<!--   -->
+
         - #### StatementFetchRequest
 
 ```
 static final int StatementFetchRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.StatementFetchRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.StatementFetchRequest)
 
-<!--   -->
+
         - #### MonitoringRequest
 
 ```
 static final int MonitoringRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.MonitoringRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.MonitoringRequest)
 
-<!--   -->
+
         - #### SelectListFetchRequest
 
 ```
 static final int SelectListFetchRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SelectListFetchRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SelectListFetchRequest)
 
-<!--   -->
+
         - #### SelectListCommitRequest
 
 ```
 static final int SelectListCommitRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SelectListCommitRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SelectListCommitRequest)
 
-<!--   -->
+
         - #### SelectListCloseRequest
 
 ```
 static final int SelectListCloseRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SelectListCloseRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SelectListCloseRequest)
 
-<!--   -->
+
         - #### JediResponse
 
 ```
 static final int JediResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.JediResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.JediResponse)
 
-<!--   -->
+
         - #### RemoteExecuteResponse
 
 ```
 static final int RemoteExecuteResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.RemoteExecuteResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.RemoteExecuteResponse)
 
-<!--   -->
+
         - #### TransactionResponse
 
 ```
 static final int TransactionResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.TransactionResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.TransactionResponse)
 
-<!--   -->
+
         - #### SubroutineResponse
 
 ```
 static final int SubroutineResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SubroutineResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SubroutineResponse)
 
-<!--   -->
+
         - #### DateTimeResponse
 
 ```
 static final int DateTimeResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.DateTimeResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.DateTimeResponse)
 
-<!--   -->
+
         - #### ReadCommonResponse
 
 ```
 static final int ReadCommonResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ReadCommonResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ReadCommonResponse)
 
-<!--   -->
+
         - #### ConvResponse
 
 ```
 static final int ConvResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ConvResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.ConvResponse)
 
-<!--   -->
+
         - #### SwitchAccountResponse
 
 ```
 static final int SwitchAccountResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SwitchAccountResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SwitchAccountResponse)
 
-<!--   -->
+
         - #### StatementFetchResponse
 
 ```
 static final int StatementFetchResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.StatementFetchResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.StatementFetchResponse)
 
-<!--   -->
+
         - #### MonitoringResponse
 
 ```
 static final int MonitoringResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.MonitoringResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.MonitoringResponse)
 
-<!--   -->
+
         - #### EISMetaDataResponse
 
 ```
 static final int EISMetaDataResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.EISMetaDataResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.EISMetaDataResponse)
 
-<!--   -->
+
         - #### SelectListFetchResponse
 
 ```
 static final int SelectListFetchResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SelectListFetchResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SelectListFetchResponse)
 
-<!--   -->
+
         - #### XAXid
 
 ```
 static final int XAXid
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.XAXid">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.XAXid)
 
-<!--   -->
+
         - #### SelectList
 
 ```
 static final int SelectList
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SelectList">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.SelectList)
 
-<!--   -->
+
         - #### JDBCResponse
 
 ```
 static final int JDBCResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.JDBCResponse">Constant Field Values</a></dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JRemoteObjectFactory.TYPE.JDBCResponse)
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39250-io/com_jbase_jremote_io_package-summary)
 - Class
@@ -559,15 +492,7 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -580,6 +505,5 @@ jremote <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

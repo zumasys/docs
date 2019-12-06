@@ -5,7 +5,7 @@
 
 
 # Interface JConnection
-<dl><dt>All Known Subinterfaces:</dt><dd><a href="jxaconnection" title="interface in com.jbase.jremote">JXAConnection</a></dd></dl><dl><dt>All Known Implementing Classes:</dt><dd><a href="jconnectionimpl" title="class in com.jbase.jremote.io">JConnectionImpl</a>, <a href="wrappedjconnection" title="class in com.jbase.jremote.jca">WrappedJConnection</a></dd></dl>
+All Known Subinterfaces:[JXAConnection](jxaconnection "interface in com.jbase.jremote")All Known Implementing Classes:[JConnectionImpl](jconnectionimpl "class in com.jbase.jremote.io"), [WrappedJConnection](wrappedjconnection "class in com.jbase.jremote.jca")
 ```
 public interface JConnection
 ```
@@ -13,7 +13,8 @@ public interface JConnection
 
 
 The connection to a remote jBASE instance.
-<dl><dt><br></dt></dl>
+
+
 
 
 #  
@@ -72,7 +73,8 @@ The connection to a remote jBASE instance.
 ```
 static final String JBASE_DEFAULT_ENCODING
 ```
-<dl><dt style="margin-left: 40px;"><br><strong>See Also:</strong></dt><dd style="margin-left: 40px;"><a href="299736-constant-values" title="">Constant Field Values</a></dd></dl>
+
+**See Also:**[Constant Field Values](299736-constant-values)
 
 
 
@@ -149,7 +151,10 @@ boolean switchAccount(String user, String account, String password)
 
 
 Log into the specified jBASE account.
-<dl><dt style="margin-left: 40px;"><br><strong>Parameters:</strong></dt><dd style="margin-left: 60px;"><code>user</code> - username that belongs to the account</dd><dd style="margin-left: 60px;"><code>account</code> - name of the account to log into</dd><dd style="margin-left: 60px;"><code>password</code> - password of the account to log into</dd><dt style="margin-left: 40px;"><br><strong>Returns:</strong></dt><dd style="margin-left: 40px;">boolean</dd><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+
+**Parameters:**`user` - username that belongs to the account`account` - name of the account to log into`password` - password of the account to log into
+**Returns:**boolean
+**Throws:**`JRemoteException`
 
 
 
@@ -164,7 +169,8 @@ void close()
 
 
 Close any resources used by this connection.
-<dl><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+
+**Throws:**`JRemoteException`
 
 
 
@@ -179,7 +185,10 @@ JFile open(String fileName)
 
 
 Attempts to open a jBASE file or returns null if the file does not exist.
-<dl><dt style="margin-left: 40px;"><br><strong>Parameters:</strong></dt><dd style="margin-left: 40px;"><code>&nbsp; &nbsp; fileName</code> -&nbsp;</dd><dt style="margin-left: 40px;"><br><strong>Returns:</strong></dt><dd style="margin-left: 40px;">JFile</dd><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+
+**Parameters:**`    fileName` - 
+**Returns:**JFile
+**Throws:**`JRemoteException`
 
 
 
@@ -194,7 +203,10 @@ JSubroutineParameters call(String subroutineName, JSubroutineParameters paramete
 
 
 Call a jBASE subroutine.
-<dl><dt style="margin-left: 40px;"><br><strong>Parameters:</strong></dt><dd style="margin-left: 60px;"><code>subroutineName</code> -&nbsp;</dd><dd style="margin-left: 60px;"><code>parameters</code> -</dd><dt style="margin-left: 40px;"><br><strong>Returns:</strong></dt><dd style="margin-left: 40px;">the result parameters from subroutine call</dd><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JSubroutineNotFoundException" title="class in com.jbase.jremote">JSubroutineNotFoundException</a></code></dd><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+
+**Parameters:**`subroutineName` - `parameters` -
+**Returns:**the result parameters from subroutine call
+**Throws:**`JSubroutineNotFoundException``JRemoteException`
 
 
 
@@ -209,7 +221,10 @@ JExecuteResults execute(String command)
 
 
 Execute a jBASE command.
-<dl><dt style="margin-left: 40px;"><br><strong>Parameters:</strong></dt><dd style="margin-left: 60px;"><code>command</code> -&nbsp;</dd><dt style="margin-left: 40px;"><br><strong>Returns:</strong></dt><dd style="margin-left: 40px;">the execute results</dd><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+
+**Parameters:**`command` - 
+**Returns:**the execute results
+**Throws:**`JRemoteException`
 
 
 
@@ -224,7 +239,10 @@ JExecuteResults execute(String command, JSelectList selectList)
 
 
 Execute a jBASE command using an existing select list as a filter.
-<dl><dt style="margin-left: 40px;"><br><strong>Parameters:</strong></dt><dd style="margin-left: 60px;"><code>command</code> -&nbsp;</dd><dd style="margin-left: 60px;"><code>selectList</code> -&nbsp;</dd><dt style="margin-left: 40px;"><br><strong>Returns:</strong></dt><dd style="margin-left: 40px;">the execute results</dd><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+
+**Parameters:**`command` - `selectList` - 
+**Returns:**the execute results
+**Throws:**`JRemoteException`
 
 
 
@@ -241,7 +259,9 @@ void begin()
 Begin a jBASE transaction.
 
 If a transaction already exists then no action will be taken.
-<dl><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd><dt style="margin-left: 40px;"><br><strong>See Also:</strong></dt><dd style="margin-left: 40px;"><a href="com_jbase_jremote_JConnection" title=""><code>commit()</code></a>, &nbsp;<a href="com_jbase_jremote_JConnection" title=""><code>rollback()</code></a></dd></dl>
+
+**Throws:**`JRemoteException`
+**See Also:**[`commit()`](com_jbase_jremote_JConnection),  [`rollback()`](com_jbase_jremote_JConnection)
 
 
 
@@ -258,7 +278,9 @@ void commit()
 Commit all pending jBASE operations performed in transaction  and mark as complete.
 
 If no transaction exists then no action will be taken.
-<dl><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd><dt style="margin-left: 40px;"><br><strong>See Also:</strong></dt><dd style="margin-left: 40px;"><a href="com_jbase_jremote_JConnection" title=""><code>begin()</code></a></dd></dl>
+
+**Throws:**`JRemoteException`
+**See Also:**[`begin()`](com_jbase_jremote_JConnection)
 
 
 
@@ -275,7 +297,9 @@ void rollback()
 Rollback all jBASE operations performed in transaction and mark as complete.
 
 If no transaction exists then no action will be taken.
-<dl><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd><dt style="margin-left: 40px;"><br><strong>See Also:</strong></dt><dd style="margin-left: 40px;"><a href="com_jbase_jremote_JConnection" title=""><code>begin()</code></a></dd></dl>
+
+**Throws:**`JRemoteException`
+**See Also:**[`begin()`](com_jbase_jremote_JConnection)
 
 
 
@@ -290,7 +314,10 @@ int date()
 
 
 Return the jBASE internal date.  Epoch Dec 31, 1967.
-<dl><dt style="margin-left: 40px;"><br><strong>Returns:</strong></dt><dd style="margin-left: 40px;">int internal date</dd><p style="margin-left: 40px;"><br></p><dt style="margin-left: 40px;"><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+
+**Returns:**int internal date
+
+**Throws:**`JRemoteException`
 
 
 
@@ -305,7 +332,9 @@ int time()
 
 
 Return the jBASE internal time.  Seconds since midnight.
-<dl><dt style="margin-left: 40px;"><br><strong>Returns:</strong></dt><dd style="margin-left: 40px;">int internal time</dd><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+
+**Returns:**int internal time
+**Throws:**`JRemoteException`
 
 
 
@@ -320,7 +349,10 @@ JDynArray getCommon(String name)
 
 
 Return the value of the named common with the supplied name.
-<dl><dt style="margin-left: 40px;"><br><strong>Parameters:</strong></dt><dd style="margin-left: 40px;"><code>name</code> -&nbsp;</dd><dt style="margin-left: 40px;"><br><strong>Returns:</strong></dt><dd style="margin-left: 40px;">JDynArray value</dd><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+
+**Parameters:**`name` - 
+**Returns:**JDynArray value
+**Throws:**`JRemoteException`
 
 
 
@@ -335,7 +367,9 @@ EISMetaDataRepository getMetaData()
 
 
 Return meta data of the connected jBASE instance.
-<dl><dt style="margin-left: 40px;"><br><strong>Returns:</strong></dt><dd style="margin-left: 40px;">EISMetaDataRepository meta data repository</dd><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+
+**Returns:**EISMetaDataRepository meta data repository
+**Throws:**`JRemoteException`
 
 
 #### **iconv**
@@ -348,7 +382,8 @@ String iconv(String data, String conversion)
 
 
 Converts data in external format to internal format.
-<dl><dt style="margin-left: 40px;"><strong><br>Parameters:</strong></dt><dd style="margin-left: 60px;"><code>data</code> - data to be converted</dd><dd style="margin-left: 60px;"><code>conversion</code> - the conversion command</dd><dt style="margin-left: 40px;"><strong><br>Returns:</strong></dt><dd style="margin-left: 40px;">String the converted data</dd><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+**Parameters:**`data` - data to be converted`conversion` - the conversion command**Returns:**String the converted data
+**Throws:**`JRemoteException`
 
 
 
@@ -363,7 +398,10 @@ String oconv(String data, String conversion)
 
 
 Converts internal representations of data to their external form.
-<dl><dt style="margin-left: 40px;"><br><strong>Parameters:</strong></dt><dd style="margin-left: 60px;"><code>data</code> - data to be converted</dd><dd style="margin-left: 60px;"><code>conversion</code> - the conversion command</dd><dt style="margin-left: 40px;"><br><strong>Returns:</strong></dt><dd style="margin-left: 40px;">String the converted data</dd><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+
+**Parameters:**`data` - data to be converted`conversion` - the conversion command
+**Returns:**String the converted data
+**Throws:**`JRemoteException`
 
 
 
@@ -378,7 +416,9 @@ JStatement createStatement()
 
 
 Create a statement object that enables queries to be executed and a JResultSet returned.
-<dl><dt style="margin-left: 40px;"><br><strong>Returns:</strong></dt><dd style="margin-left: 40px;">JStatement jBase statement object</dd><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+
+**Returns:**JStatement jBase statement object
+**Throws:**`JRemoteException`
 
 
 
@@ -393,7 +433,10 @@ JSelectList createSelectList(JDynArray jd)
 
 
 Create a select list object from an existing dynamic array containing a list of keys separated by attribute markers.
-<dl><dt style="margin-left: 40px;"><br><strong>Parameters:</strong></dt><dd style="margin-left: 40px;"><code>&nbsp; &nbsp; jd</code> - dynamic array containing the keys</dd><dt style="margin-left: 40px;"><br><strong>Returns:</strong></dt><dd style="margin-left: 40px;">JSelectList select list</dd><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+
+**Parameters:**`    jd` - dynamic array containing the keys
+**Returns:**JSelectList select list
+**Throws:**`JRemoteException`
 
 
 
@@ -408,7 +451,10 @@ boolean echo(int length)
 
 
 Sends an echo and waits for it's response
-<dl><dt style="margin-left: 40px;"><br><strong>Parameters:</strong></dt><dd style="margin-left: 40px;"><code>&nbsp; &nbsp; length</code> - of echo packet to send.</dd><dt style="margin-left: 40px;"><br><strong>Returns:</strong></dt><dd style="margin-left: 40px;">True = success</dd><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code> - if echo fails</dd></dl>
+
+**Parameters:**`    length` - of echo packet to send.
+**Returns:**True = success
+**Throws:**`JRemoteException` - if echo fails
 
 
 
@@ -423,4 +469,7 @@ String monitoring(String command)
 
 
 Sends an monitoring command and waits for it's response
-<dl><dt style="margin-left: 40px;"><br><strong>Parameter</strong>s:</dt><dd style="margin-left: 40px;"><code>&nbsp; &nbsp; command</code> - to send</dd><dt style="margin-left: 40px;"><br><strong>Returns:</strong></dt><dd style="margin-left: 40px;">respose string</dd><dt style="margin-left: 40px;"><br><strong>Throws:</strong></dt><dd style="margin-left: 40px;"><code><a href="com_jbase_jremote_JRemoteException" title="class in com.jbase.jremote">JRemoteException</a></code> - if monitoring command fails</dd></dl>
+
+**Parameter**s:`    command` - to send
+**Returns:**respose string
+**Throws:**`JRemoteException` - if monitoring command fails

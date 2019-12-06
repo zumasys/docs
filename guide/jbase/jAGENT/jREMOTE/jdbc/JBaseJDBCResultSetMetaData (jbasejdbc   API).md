@@ -3,10 +3,11 @@
 **Created At:** 9/25/2017 10:55:40 AM  
 **Updated At:** 2/15/2018 8:02:44 AM  
 
-<noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../overview-summary.html)
 - [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
 - Class
@@ -42,8 +43,7 @@ jbasejdbc <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= --><!-- ======== START OF CLASS DATA ======== -->
+
 com.jbase.jdbc
 
 ## Class JBaseJDBCResultSetMetaData
@@ -52,10 +52,7 @@ com.jbase.jdbc
 - - com.jbase.jdbc.JBaseJDBCResultSetMetaData
 
 
-- <dl><dt>All Implemented Interfaces:</dt>
-<dd>
-<a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals" title="interface in com.jbase.jdbc">JBaseJDBCGlobals</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true" title="class or interface in java.sql">Wrapper</a>
-</dd></dl>
+- All Implemented Interfaces:[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc"), [ResultSetMetaData](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true "class or interface in java.sql"), [Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")
 * * *
 
 
@@ -65,33 +62,26 @@ extends Object
 implements ResultSetMetaData, JBaseJDBCGlobals
 ```
 
-- <!-- ======== NESTED CLASS SUMMARY ======== -->
-    - <!--   -->
-### Nested Class Summary
+- - ### Nested Class Summary
 
-        - <!--   -->
-### Nested classes/interfaces inherited from interface com.jbase.jdbc.[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc")
+        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc")
 `JBaseJDBCGlobals.TYPES`
 
-<!-- =========== FIELD SUMMARY =========== -->
-    - <!--   -->
-### Field Summary
 
-        - <!--   -->
-### Fields inherited from interface java.sql.[ResultSetMetaData](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true "class or interface in java.sql")
+    - ### Field Summary
+
+        - ### Fields inherited from interface java.sql.[ResultSetMetaData](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true "class or interface in java.sql")
 `columnNoNulls, columnNullable, columnNullableUnknown`
 
 
-        - <!--   -->
-### Fields inherited from interface com.jbase.jdbc.[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc")
+        - ### Fields inherited from interface com.jbase.jdbc.[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc")
 `AM, CHAR_AM, CHAR_SM, CHAR_VM, SHORT_AM, SHORT_CHAR_AM, SHORT_CHAR_SM, SHORT_CHAR_VM, SHORT_SM, SHORT_VM, SM, VM`
 
-<!-- ========== METHOD SUMMARY =========== -->
-    - <!--   -->
-### Method Summary
+
+    - ### Method Summary
 
 
-<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd"> </span></span><span id="t1" class="tableTab"><span><a href="javascript:show(1);">Static Methods</a></span><span class="tabEnd"> </span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd"> </span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">Concrete Methods</a></span><span class="tabEnd"> </span></span></caption>| Modifier and Type | Method and Description |
+All Methods [Static Methods](javascript:show%281%29;) [Instance Methods](javascript:show%282%29;) [Concrete Methods](javascript:show%288%29;) | Modifier and Type | Method and Description |
 | --- | --- |
 | `String` | `getCatalogName(int column)`<br>Gets the designated column's table's catalog name.<br> |
 | `String` | `getColumnClassName(int column)`<br>TODO: Returns the fully-qualified name of the Java class whose instances are manufactured<br> if the method ResultSet.getObject is called to retrieve a value from the column.<br> |
@@ -117,19 +107,15 @@ implements ResultSetMetaData, JBaseJDBCGlobals
 | `static int` | `translateJDBCTypeToJbaseType(int jdbcType)`  |
 
 
-        - <!--   -->
-### Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
+        - ### Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
 
-        - <!--   -->
-### Methods inherited from interface java.sql.[Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")
+        - ### Methods inherited from interface java.sql.[Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")
 `isWrapperFor, unwrap`
 
-- <!-- ============ METHOD DETAIL ========== -->
-    - <!--   -->
-### Method Detail
-<!--   -->
+- - ### Method Detail
+
         - #### getColumnCount
 
 ```
@@ -138,17 +124,9 @@ public int getColumnCount()
 ```
 
 Returns the number of columns in this ResultSet object.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#getColumnCount--" title="class or interface in java.sql">getColumnCount</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>int the number of columns</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`getColumnCount` in interface `ResultSetMetaData`Returns:int the number of columnsThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### getColumnDisplaySize
 
 ```
@@ -157,20 +135,9 @@ public int getColumnDisplaySize(int column)
 ```
 
 Indicates the designated column's normal maximum width in characters.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#getColumnDisplaySize-int-" title="class or interface in java.sql">getColumnDisplaySize</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>the normal maximum number of characters allowed as the width of the designated column</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`getColumnDisplaySize` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:the normal maximum number of characters allowed as the width of the designated columnThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### getColumnType
 
 ```
@@ -179,27 +146,16 @@ public int getColumnType(int column)
 ```
 
 Retrieves the designated column's SQL type.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#getColumnType-int-" title="class or interface in java.sql">getColumnType</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>SQL type from JBaseJDBCGlobals.TYPES (not from java.sql.Types !)</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`getColumnType` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:SQL type from JBaseJDBCGlobals.TYPES (not from java.sql.Types !)Throws:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### translateJDBCTypeToJbaseType
 
 ```
 public static int translateJDBCTypeToJbaseType(int jdbcType)
 ```
 
-<!--   -->
+
         - #### getPrecision
 
 ```
@@ -208,20 +164,9 @@ public int getPrecision(int column)
 ```
 
 Get the designated column's number of decimal digits.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#getPrecision-int-" title="class or interface in java.sql">getPrecision</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>precision</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`getPrecision` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:precisionThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### getScale
 
 ```
@@ -230,20 +175,9 @@ public int getScale(int column)
 ```
 
 Gets the designated column's number of digits to right of the decimal point.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#getScale-int-" title="class or interface in java.sql">getScale</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>scale</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`getScale` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:scaleThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### isNullable
 
 ```
@@ -252,20 +186,9 @@ public int isNullable(int column)
 ```
 
 TODO: Indicates the nullability of values in the designated column.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#isNullable-int-" title="class or interface in java.sql">isNullable</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>the nullability status of the given column; one of columnNoNulls, columnNullable or columnNullableUnknown</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`isNullable` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:the nullability status of the given column; one of columnNoNulls, columnNullable or columnNullableUnknownThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### isAutoIncrement
 
 ```
@@ -274,20 +197,9 @@ public boolean isAutoIncrement(int column)
 ```
 
 TODO: Indicates whether the designated column is automatically numbered, thus read-only.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#isAutoIncrement-int-" title="class or interface in java.sql">isAutoIncrement</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>true if so; false otherwise</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`isAutoIncrement` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:true if so; false otherwiseThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### isCaseSensitive
 
 ```
@@ -296,20 +208,9 @@ public boolean isCaseSensitive(int column)
 ```
 
 Indicates whether a column's case matters.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#isCaseSensitive-int-" title="class or interface in java.sql">isCaseSensitive</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>true if so; false otherwise</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`isCaseSensitive` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:true if so; false otherwiseThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### isCurrency
 
 ```
@@ -318,20 +219,9 @@ public boolean isCurrency(int column)
 ```
 
 TODO: (?) Indicates whether the designated column is a cash value.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#isCurrency-int-" title="class or interface in java.sql">isCurrency</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>true if so; false otherwise</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`isCurrency` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:true if so; false otherwiseThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### isDefinitelyWritable
 
 ```
@@ -340,20 +230,9 @@ public boolean isDefinitelyWritable(int column)
 ```
 
 Indicates whether a write on the designated column will definitely succeed.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#isDefinitelyWritable-int-" title="class or interface in java.sql">isDefinitelyWritable</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>true if so; false otherwise</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`isDefinitelyWritable` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:true if so; false otherwiseThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### isReadOnly
 
 ```
@@ -362,20 +241,9 @@ public boolean isReadOnly(int column)
 ```
 
 TODO: Indicates whether the designated column is definitely not writable.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#isReadOnly-int-" title="class or interface in java.sql">isReadOnly</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>true if so; false otherwise</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`isReadOnly` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:true if so; false otherwiseThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### isSearchable
 
 ```
@@ -384,20 +252,9 @@ public boolean isSearchable(int column)
 ```
 
 Indicates whether the designated column can be used in a where clause.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#isSearchable-int-" title="class or interface in java.sql">isSearchable</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>true if so; false otherwise</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`isSearchable` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:true if so; false otherwiseThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### isSigned
 
 ```
@@ -406,20 +263,9 @@ public boolean isSigned(int column)
 ```
 
 TODO (?): Indicates whether values in the designated column are signed numbers.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#isSigned-int-" title="class or interface in java.sql">isSigned</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>true if so; false otherwise</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`isSigned` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:true if so; false otherwiseThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### isWritable
 
 ```
@@ -428,20 +274,9 @@ public boolean isWritable(int column)
 ```
 
 Indicates whether it is possible for a write on the designated column to succeed.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#isWritable-int-" title="class or interface in java.sql">isWritable</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>true if so; false otherwise</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`isWritable` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:true if so; false otherwiseThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### getCatalogName
 
 ```
@@ -450,20 +285,9 @@ public String getCatalogName(int column)
 ```
 
 Gets the designated column's table's catalog name.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#getCatalogName-int-" title="class or interface in java.sql">getCatalogName</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>the name of the catalog for the table in which the given column appears or "" if not applicable</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`getCatalogName` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:the name of the catalog for the table in which the given column appears or "" if not applicableThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### getColumnClassName
 
 ```
@@ -472,22 +296,9 @@ public String getColumnClassName(int column)
 ```
 
 TODO: Returns the fully-qualified name of the Java class whose instances are manufactured<br> if the method ResultSet.getObject is called to retrieve a value from the column.<br> ResultSet.getObject may return a subclass of the class returned by this method.<br> <br> jBASE Note: Currently always return "java.lang.Object"
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#getColumnClassName-int-" title="class or interface in java.sql">getColumnClassName</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>the fully-qualified name of the class in the Java programming language that would be used
-         by the method ResultSet.getObject to retrieve the value in the specified column.
-         This is the class name used for custom mapping.</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`getColumnClassName` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:the fully-qualified name of the class in the Java programming language that would be used<br>         by the method ResultSet.getObject to retrieve the value in the specified column.<br>         This is the class name used for custom mapping.Throws:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### getColumnLabel
 
 ```
@@ -496,20 +307,9 @@ public String getColumnLabel(int column)
 ```
 
 Gets the designated column's suggested title for use in printouts and displays.<br> <br> NOTE: Currently it always returns the same as @see getColumnName
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#getColumnLabel-int-" title="class or interface in java.sql">getColumnLabel</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>the suggested column title</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`getColumnLabel` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:the suggested column titleThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### getColumnName
 
 ```
@@ -518,20 +318,9 @@ public String getColumnName(int column)
 ```
 
 Get the designated column's name.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#getColumnName-int-" title="class or interface in java.sql">getColumnName</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>column name</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`getColumnName` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:column nameThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### getColumnTypeName
 
 ```
@@ -540,20 +329,9 @@ public String getColumnTypeName(int column)
 ```
 
 Retrieves the designated column's database-specific type name.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#getColumnTypeName-int-" title="class or interface in java.sql">getColumnTypeName</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>type name used by the database. If the column type is a user-defined type, then a fully-qualified type name is returned [NOT yet implemented].</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`getColumnTypeName` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:type name used by the database. If the column type is a user-defined type, then a fully-qualified type name is returned [NOT yet implemented].Throws:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### getSchemaName
 
 ```
@@ -562,20 +340,9 @@ public String getSchemaName(int column)
 ```
 
 Get the designated column's table's schema.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#getSchemaName-int-" title="class or interface in java.sql">getSchemaName</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>schema name or "" if not applicable</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+Specified by:`getSchemaName` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:schema name or "" if not applicableThrows:`SQLException` - if a database access error occurs
 
-<!--   -->
+
         - #### getTableName
 
 ```
@@ -584,22 +351,10 @@ public String getTableName(int column)
 ```
 
 Gets the designated column's table name.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true#getTableName-int-" title="class or interface in java.sql">getTableName</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true" title="class or interface in java.sql">ResultSetMetaData</a></code>
-</dd>
-<dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>column</code> - the first column is 1, the second is 2, ...</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>table name or "" if not applicable</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+Specified by:`getTableName` in interface `ResultSetMetaData`Parameters:`column` - the first column is 1, the second is 2, ...Returns:table name or "" if not applicableThrows:`SQLException` - if a database access error occurs
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../overview-summary.html)
 - [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
 - Class
@@ -635,6 +390,5 @@ jbasejdbc <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

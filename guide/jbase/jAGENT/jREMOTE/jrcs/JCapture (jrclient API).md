@@ -3,8 +3,8 @@
 **Created At:** 9/25/2017 11:28:22 AM  
 **Updated At:** 9/20/2018 12:54:53 PM  
 
-<script type="text/javascript"><!-- try { if (location.href.indexOf('is-external=true') == -1) { parent.document.title="JCapture (jrclient API)"; } } catch(err) { } //--> var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10}; var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]}; var altColor = "altColor"; var rowColor = "rowColor"; var tableTab = "tableTab"; var activeTableTab = "activeTableTab"; </script><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!-- try { if (location.href.indexOf('is-external=true') == -1) { parent.document.title="JCapture (jrclient API)"; } } catch(err) { } //--> var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10}; var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]}; var altColor = "altColor"; var rowColor = "rowColor"; var tableTab = "tableTab"; var activeTableTab = "activeTableTab"; &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+
 
 ## Class JCapture
 
@@ -16,9 +16,6 @@ com.jbase.jrcs.JCapture
 
 extends Object
 Represents a capture object designed to incrementally fetch results of program execution.
-<dl><p><br></p></dl>
-
-<!--   -->
 
 ## Constructor Summary
 
@@ -27,8 +24,8 @@ Represents a capture object designed to incrementally fetch results of program e
 | --- | --- |
 | protected<br> | JCapture(int handle, [JConnection](com_jbase_jrcs_jconnection "class in com.jbase.jrcs") conn)<br> |
 
-<!-- ========== METHOD SUMMARY =========== -->
-<!--   -->
+
+
 
 ### 
 
@@ -48,15 +45,11 @@ Represents a capture object designed to incrementally fetch results of program e
 
 
 
-<!--   -->
-
 ## Methods inherited from class java.lang.Object
 [clone](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true#clone-- "class or interface in java.lang"), [equals](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true#equals-java.lang.Object- "class or interface in java.lang"), [getClass](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true#getClass-- "class or interface in java.lang"), [hashCode](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true#hashCode-- "class or interface in java.lang"), [notify](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true#notify-- "class or interface in java.lang"), [notifyAll](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true#notifyAll-- "class or interface in java.lang"), [toString](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true#toString-- "class or interface in java.lang"), [wait](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true#wait-- "class or interface in java.lang"), [wait](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true#wait-long- "class or interface in java.lang"), [wait](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true#wait-long-int- "class or interface in java.lang")
 
-<!--   -->
-
 ## Constructor Detail
-<!--   -->
+
 #### JCapture
 
 ```
@@ -66,11 +59,11 @@ protected JCapture(int handle, JConnection conn)
 
 
 
-<!-- ============ METHOD DETAIL ========== -->
-<!--   -->
+
+
 
 ## Method Detail
-<!--   -->
+
 #### **nextBlock**
 
 ```
@@ -176,12 +169,13 @@ Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 
 
 
-<!--   -->
+
 #### **finalize**
 
 ```
 protected void finalize()
 ```
-<dl><p style="margin-left: 60px;">Overides: <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true#finalize--" title="class or interface in java.lang">finalize</a> in class <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></p></dl>
-<!-- ========= END OF CLASS DATA ========= -->
+
+Overides: [finalize](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true#finalize-- "class or interface in java.lang") in class [Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
+
 

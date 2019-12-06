@@ -13,14 +13,14 @@ Another option which I do in addition to a VM snapshot when performing work on a
 1. Right click the VM and select “Create Snapshot”.
 
 
-<!--[if !vml]--><!--[endif]--><!--[if !vml]--><!--[endif]--><!--[if !vml]--><!--[endif]-->![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3397/128791/img1.png)
+![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3397/128791/img1.png)
 
 1. Select the desired options. (In most cases you probably don’t need to snapshot memory)
 
 
-<!--[if !vml]--><!--[endif]-->![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3397/128792/img2.png)
+![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3397/128792/img2.png)
 
-1. Wait for the process to Complete.![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3397/128793/img3.png)<!--[if !vml]--><!--[endif]-->
+1. Wait for the process to Complete.![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3397/128793/img3.png)
 2. If you need to revert or are done with maintenance and ready to remove the snapshot, right click the VM again and select the option you need.
 
 

@@ -3,26 +3,14 @@
 **Created At:** 9/25/2017 12:05:28 PM  
 **Updated At:** 4/6/2018 12:19:31 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="JRemoteManagedConnection (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JRemoteManagedConnection (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
+
 
 ## Class JRemoteManagedConnection
 
-<dl><dt>All Implemented Interfaces:</dt><dd>javax.resource.spi.ManagedConnection</dd></dl>
+All Implemented Interfaces:javax.resource.spi.ManagedConnection
 * * *
 
 
@@ -33,9 +21,6 @@ implements javax.resource.spi.ManagedConnection
 ```
 
 The application server considers this managed connection to be the physical connection to a remote jBASE instance.
-<dl><dt><br></dt></dl>
-
-<!--   -->
 
 ### Constructor Summary
 
@@ -48,7 +33,7 @@ The application server considers this managed connection to be the physical conn
 
 
 
-<!--   -->
+
 
 ### Method Summary
 
@@ -82,13 +67,11 @@ The application server considers this managed connection to be the physical conn
 | `void`<br> | `setLogWriter(PrintWriter out)` <br> |
 
 
-- <!--   -->Methods inherited from class java.lang.Object
+- Methods inherited from class java.lang.Object
     - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-<!--   -->
-
 ### Constructor Detail
-<!--   -->
+
 #### JRemoteManagedConnection
 
 ```
@@ -96,7 +79,7 @@ protected JRemoteManagedConnection()
 ```
 
 Constructor for JRemoteManagedConnection
-<!--   -->
+
 #### 
 
 
@@ -108,20 +91,20 @@ protected JRemoteManagedConnection(JConnection connection,
 ```
 
 Constructor for JRemoteManagedConnection
-<!-- ============ METHOD DETAIL ========== -->
-<!--   -->
+
+
 
 ### 
 
 
 ### Method Detail
-<!--   -->
+
 #### getConnection
 
 ```
 public JConnection getConnection()
 ```
-<!--   -->
+
 #### 
 
 
@@ -130,7 +113,7 @@ public JConnection getConnection()
 ```
 protected Subject getSubject()
 ```
-<!--   -->
+
 #### 
 
 
@@ -141,7 +124,7 @@ public Object getConnection(Subject subject,
                             javax.resource.spi.ConnectionRequestInfo cxRequestInfo)
                      throws javax.resource.ResourceException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>getConnection</code> in interface <code>javax.resource.spi.ManagedConnection</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>ManagedConnection.getConnection(Subject, ConnectionRequestInfo)</code></dd></dl><!--   -->
+Specified by:`getConnection` in interface `javax.resource.spi.ManagedConnection`Throws:`javax.resource.ResourceException`See Also:`ManagedConnection.getConnection(Subject, ConnectionRequestInfo)`
 #### 
 
 
@@ -150,7 +133,7 @@ public Object getConnection(Subject subject,
 ```
 public void closeHandle(WrappedJConnection handle)
 ```
-<!--   -->
+
 #### 
 
 
@@ -160,7 +143,7 @@ public void closeHandle(WrappedJConnection handle)
 public void destroy()
              throws javax.resource.ResourceException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>destroy</code> in interface <code>javax.resource.spi.ManagedConnection</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>ManagedConnection.destroy()</code></dd></dl><!--   -->
+Specified by:`destroy` in interface `javax.resource.spi.ManagedConnection`Throws:`javax.resource.ResourceException`See Also:`ManagedConnection.destroy()`
 #### 
 
 
@@ -172,7 +155,7 @@ public void cleanup()
 ```
 
 Put the connection into a state where it may be reused. All transactions should be rolledback, all state reset, and connection specific resources released.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>cleanup</code> in interface <code>javax.resource.spi.ManagedConnection</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>ManagedConnection.cleanup()</code></dd></dl><!--   -->
+Specified by:`cleanup` in interface `javax.resource.spi.ManagedConnection`Throws:`javax.resource.ResourceException`See Also:`ManagedConnection.cleanup()`
 #### 
 
 
@@ -182,7 +165,7 @@ Put the connection into a state where it may be reused. All transactions should 
 public void associateConnection(Object handle)
                          throws javax.resource.ResourceException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>associateConnection</code> in interface <code>javax.resource.spi.ManagedConnection</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>ManagedConnection.associateConnection(Object)</code></dd></dl><!--   -->
+Specified by:`associateConnection` in interface `javax.resource.spi.ManagedConnection`Throws:`javax.resource.ResourceException`See Also:`ManagedConnection.associateConnection(Object)`
 #### 
 
 
@@ -191,7 +174,7 @@ public void associateConnection(Object handle)
 ```
 public void addConnectionEventListener(javax.resource.spi.ConnectionEventListener listener)
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>addConnectionEventListener</code> in interface <code>javax.resource.spi.ManagedConnection</code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>ManagedConnection.addConnectionEventListener(ConnectionEventListener)</code></dd></dl><!--   -->
+Specified by:`addConnectionEventListener` in interface `javax.resource.spi.ManagedConnection`See Also:`ManagedConnection.addConnectionEventListener(ConnectionEventListener)`
 #### 
 
 
@@ -200,7 +183,7 @@ public void addConnectionEventListener(javax.resource.spi.ConnectionEventListene
 ```
 public void removeConnectionEventListener(javax.resource.spi.ConnectionEventListener listener)
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>removeConnectionEventListener</code> in interface <code>javax.resource.spi.ManagedConnection</code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>ManagedConnection.removeConnectionEventListener(ConnectionEventListener)</code></dd></dl><!--   -->
+Specified by:`removeConnectionEventListener` in interface `javax.resource.spi.ManagedConnection`See Also:`ManagedConnection.removeConnectionEventListener(ConnectionEventListener)`
 #### 
 
 
@@ -210,7 +193,7 @@ public void removeConnectionEventListener(javax.resource.spi.ConnectionEventList
 public XAResource getXAResource()
                          throws javax.resource.ResourceException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>getXAResource</code> in interface <code>javax.resource.spi.ManagedConnection</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>ManagedConnection.getXAResource()</code></dd></dl><!--   -->
+Specified by:`getXAResource` in interface `javax.resource.spi.ManagedConnection`Throws:`javax.resource.ResourceException`See Also:`ManagedConnection.getXAResource()`
 #### 
 
 
@@ -220,7 +203,7 @@ public XAResource getXAResource()
 public javax.resource.spi.LocalTransaction getLocalTransaction()
                                                         throws javax.resource.ResourceException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>getLocalTransaction</code> in interface <code>javax.resource.spi.ManagedConnection</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>ManagedConnection.getLocalTransaction()</code></dd></dl><!--   -->
+Specified by:`getLocalTransaction` in interface `javax.resource.spi.ManagedConnection`Throws:`javax.resource.ResourceException`See Also:`ManagedConnection.getLocalTransaction()`
 #### 
 
 
@@ -230,7 +213,7 @@ public javax.resource.spi.LocalTransaction getLocalTransaction()
 public javax.resource.spi.ManagedConnectionMetaData getMetaData()
                                                          throws javax.resource.ResourceException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>getMetaData</code> in interface <code>javax.resource.spi.ManagedConnection</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>ManagedConnection.getMetaData()</code></dd></dl><!--   -->
+Specified by:`getMetaData` in interface `javax.resource.spi.ManagedConnection`Throws:`javax.resource.ResourceException`See Also:`ManagedConnection.getMetaData()`
 #### 
 
 
@@ -240,7 +223,7 @@ public javax.resource.spi.ManagedConnectionMetaData getMetaData()
 public void setLogWriter(PrintWriter out)
                   throws javax.resource.ResourceException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>setLogWriter</code> in interface <code>javax.resource.spi.ManagedConnection</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>ManagedConnection.setLogWriter(PrintWriter)</code></dd></dl><!--   -->
+Specified by:`setLogWriter` in interface `javax.resource.spi.ManagedConnection`Throws:`javax.resource.ResourceException`See Also:`ManagedConnection.setLogWriter(PrintWriter)`
 #### 
 
 
@@ -250,7 +233,7 @@ public void setLogWriter(PrintWriter out)
 public PrintWriter getLogWriter()
                          throws javax.resource.ResourceException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>getLogWriter</code> in interface <code>javax.resource.spi.ManagedConnection</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>ManagedConnection.getLogWriter()</code></dd></dl><!--   -->
+Specified by:`getLogWriter` in interface `javax.resource.spi.ManagedConnection`Throws:`javax.resource.ResourceException`See Also:`ManagedConnection.getLogWriter()`
 #### 
 
 
@@ -259,7 +242,7 @@ public PrintWriter getLogWriter()
 ```
 public TransactionManager getTransactionManager()
 ```
-<!--   -->
+
 #### 
 
 
@@ -271,7 +254,7 @@ protected void begin()
 ```
 
 Provided as a callback method for the LocalTransaction object. The LocalTransaction object should call this method when starting a transaction to allow the connection event listeners to be notified.
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd></dl><!--   -->
+Throws:`javax.resource.ResourceException`
 #### 
 
 
@@ -283,7 +266,7 @@ protected void commit()
 ```
 
 Provided as a callback method for the LocalTransaction object. The LocalTransaction object should call this method when committing a transaction to allow the connection event listeners to be notified.
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd></dl><!--   -->
+Throws:`javax.resource.ResourceException`
 #### 
 
 
@@ -295,7 +278,7 @@ protected void rollback()
 ```
 
 Provided as a callback method for the LocalTransaction object. The LocalTransaction object should call this method when rolling a transaction back to allow the connection event listeners to be notified.
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd></dl><!--   -->
+Throws:`javax.resource.ResourceException`
 #### 
 
 
@@ -306,7 +289,7 @@ protected boolean isAlive()
 ```
 
 Test physical connection is alive.
-<dl><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">boolean Is connection alive</dd></dl><!--   -->
+Returns:boolean Is connection alive
 #### 
 
 
@@ -315,7 +298,7 @@ Test physical connection is alive.
 ```
 protected boolean isInitialised()
 ```
-<!--   -->
+
 #### 
 
 
@@ -324,7 +307,7 @@ protected boolean isInitialised()
 ```
 protected void setInitialised(boolean init)
 ```
-<!--   -->
+
 #### 
 
 
@@ -334,7 +317,7 @@ protected void setInitialised(boolean init)
 protected void notify(EventNotifier notifier,
                       javax.resource.spi.ConnectionEvent event)
 ```
-<!--   -->
+
 #### 
 
 
@@ -343,7 +326,7 @@ protected void notify(EventNotifier notifier,
 ```
 protected javax.resource.spi.ConnectionEvent getLocalTransactionStartedEvent()
 ```
-<!--   -->
+
 #### 
 
 
@@ -352,7 +335,7 @@ protected javax.resource.spi.ConnectionEvent getLocalTransactionStartedEvent()
 ```
 protected javax.resource.spi.ConnectionEvent getLocalTransactionCommittedEvent()
 ```
-<!--   -->
+
 #### 
 
 
@@ -361,8 +344,5 @@ protected javax.resource.spi.ConnectionEvent getLocalTransactionCommittedEvent()
 ```
 protected javax.resource.spi.ConnectionEvent getLocalTransactionRolledbackEvent()
 ```
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
-
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

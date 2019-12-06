@@ -24,7 +24,7 @@ Disk /dev/mapper/vg00-dbms: 32.2 GB, 32208060416 bytes, 62906368 sectors
 
 ## reboot and see them
 
-[root@dbejbase01 ~]# ***fdisk -l | grep GB &lt;Enter&gt;***YOUR DRIVE?  /dev/sd<u>b___</u>
+[root@dbejbase01 ~]# ***fdisk -l | grep GB &lt;Enter&gt;***YOUR DRIVE?  /dev/sdb\_\_\_
 
 Disk /dev/sdb: 161.1 GB, 161061273600 bytes, 314572800 sectors
 
@@ -40,7 +40,7 @@ Disk /dev/mapper/vg00-dbms: 32.2 GB, 32208060416 bytes, 62906368 sectors
 
 ## List physical volume groups
 
-[root@dbejbase01 ~]# ***pvs &lt;Enter&gt;***YOUR VG  \_<u>vg00</u>\_\_\_\_\_\_
+[root@dbejbase01 ~]# ***pvs &lt;Enter&gt;***YOUR VG  \_vg00\_\_\_\_\_\_
 
 PV         VG     Fmt  Attr PSize  PFree
 
@@ -52,7 +52,7 @@ PV         VG     Fmt  Attr PSize  PFree
 
 ## List logical volume groups
 
-[root@dbejbase01 ~]# ***lvs &lt;Enter&gt;***YOUR LOGICAL NAME \_\_\_<u>dbms</u>\_\_\_\_\_\_
+[root@dbejbase01 ~]# ***lvs &lt;Enter&gt;***YOUR LOGICAL NAME \_\_\_dbms\_\_\_\_\_\_
 
 LV   VG     Attr       LSize  Pool Origin Data%  Meta%  Move Log Cpy%Sync Convert
 
@@ -66,7 +66,7 @@ dbms vg00   -wi-ao---- 30.00g
 
 ## Add new partition to expanded disk
 
-[root@dbejbase01 ~]# ***fdisk /dev/<u>sdb</u><u>&nbsp; </u> &lt;Enter&gt;***/dev/sdb because it relates to vg00 which is
+[root@dbejbase01 ~]# ***fdisk /dev/sdb   &lt;Enter&gt;***/dev/sdb because it relates to vg00 which is
                                                        where the /dbms is located.  The pvs command
                                                        showed /dev/sdb1 vg00 and the lvs command
                                                        showed dbms logical volume is on vg00
@@ -148,7 +148,7 @@ Syncing disks.
 
 ## Check with fdisk
 
-[root@dbejbase01 ~]# ***fdisk -l /dev/sdb &lt;Enter&gt;***New partition   \_<u>/dev/sdb2</u>\_\_\_\_\_
+[root@dbejbase01 ~]# ***fdisk -l /dev/sdb &lt;Enter&gt;***New partition   \_/dev/sdb2\_\_\_\_\_
 
 Disk /dev/sdb: 161.1 GB, 161061273600 bytes, 314572800 sectors
 

@@ -3,26 +3,14 @@
 **Created At:** 9/25/2017 11:51:39 AM  
 **Updated At:** 12/24/2018 8:43:31 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="JBaseObjectWriter (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":6,"i1":6,"i2":6,"i3":6,"i4":6,"i5":6,"i6":6};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JBaseObjectWriter (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":6,"i1":6,"i2":6,"i3":6,"i4":6,"i5":6,"i6":6};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
+
 
 ## Interface JBaseObjectWriter
 
-<dl><dt>All Known Implementing Classes:</dt><dd><a href="com_jbase_jremote_io_abstractjbaseobjectwriter" title="class in com.jbase.jremote.io">AbstractJBaseObjectWriter</a>, <a href="com_jbase_jremote_io_iojbaseobjectwriter" title="class in com.jbase.jremote.io">IOJBaseObjectWriter</a>, <a href="com_jbase_jremote_io_niojbaseobjectwriter" title="class in com.jbase.jremote.io">NIOJBaseObjectWriter</a></dd></dl>
+All Known Implementing Classes:[AbstractJBaseObjectWriter](com_jbase_jremote_io_abstractjbaseobjectwriter "class in com.jbase.jremote.io"), [IOJBaseObjectWriter](com_jbase_jremote_io_iojbaseobjectwriter "class in com.jbase.jremote.io"), [NIOJBaseObjectWriter](com_jbase_jremote_io_niojbaseobjectwriter "class in com.jbase.jremote.io")
 * * *
 
 
@@ -31,9 +19,6 @@ public interface JBaseObjectWriter
 ```
 
 Serializes objects to jBASE JDBC format.
-<dl><dt><br></dt></dl>
-
-<!--   -->
 
 ### Method Summary
 
@@ -48,17 +33,15 @@ Serializes objects to jBASE JDBC format.
 | `void`<br> | `writeObject(String o)` <br> |
 | `void`<br> | `writeRootObject(JBaseSerializable o)` <br> |
 
-<!--   -->
-
 ### Method Detail
-<!--   -->
+
 #### writeInt
 
 ```
 void writeInt(int i)
        throws IOException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl><!--   -->
+Throws:`IOException`
 #### 
 
 
@@ -68,7 +51,7 @@ void writeInt(int i)
 void writeObject(JBaseSerializable o)
           throws IOException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl><!--   -->
+Throws:`IOException`
 #### 
 
 
@@ -78,7 +61,7 @@ void writeObject(JBaseSerializable o)
 void writeObject(String o)
           throws IOException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl><!--   -->
+Throws:`IOException`
 #### 
 
 
@@ -88,7 +71,7 @@ void writeObject(String o)
 void writeObject(byte[] o)
           throws IOException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl><!--   -->
+Throws:`IOException`
 #### 
 
 
@@ -98,7 +81,7 @@ void writeObject(byte[] o)
 void writeObject(IByteObject o)
           throws IOException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl><!--   -->
+Throws:`IOException`
 #### 
 
 
@@ -108,7 +91,7 @@ void writeObject(IByteObject o)
 void writeRootObject(JBaseSerializable o)
               throws IOException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl><!--   -->
+Throws:`IOException`
 #### 
 
 
@@ -118,9 +101,6 @@ void writeRootObject(JBaseSerializable o)
 void close()
     throws IOException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
-
+Throws:`IOException`
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

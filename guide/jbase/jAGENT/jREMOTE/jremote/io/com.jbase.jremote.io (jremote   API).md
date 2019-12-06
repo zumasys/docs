@@ -3,18 +3,11 @@
 **Created At:** 9/25/2017 11:53:38 AM  
 **Updated At:** 2/15/2018 8:02:56 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="com.jbase.jremote.io (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="com.jbase.jremote.io (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - Package
 - Class
@@ -37,20 +30,11 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 # Package com.jbase.jremote.io
 
-- <caption><span>Interface Summary</span><span class="tabEnd"> </span></caption>| Interface | Description |
+- Interface Summary | Interface | Description |
 | --- | --- |
 | [IByteObject](/39250-io/com_jbase_jremote_io_ibyteobject "interface in com.jbase.jremote.io") | <br>This interface allows a client to optimise the serialization of byte buffers.<br> |
 | [JBaseObjectReader](/39250-io/com_jbase_jremote_io_jbaseobjectreader "interface in com.jbase.jremote.io") | <br>Deserializes objects sent from the jsqld server.<br> |
@@ -58,7 +42,7 @@ jremote <br>
 | [JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io") | <br>Interface which must be implemented by objects which take part in the<br> JDBC driver  jbase\_agent communication.<br> |
 | [JBaseSerializable.TYPE](/39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE "interface in com.jbase.jremote.io") |   |
 | [JRemoteObjectFactory.TYPE](/39250-io/com_jbase_jremote_io_JRemoteObjectFactory.TYPE "interface in com.jbase.jremote.io") |   |
-- <caption><span>Class Summary</span><span class="tabEnd"> </span></caption>| Class | Description |
+- Class Summary | Class | Description |
 | --- | --- |
 | [AbstractJBaseObjectReader](/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader "class in com.jbase.jremote.io") | <br>Deserializes JBaseSerializable objects sent from the jbase\_agent server,<br> or any other source of serialized JCF objects.<br> |
 | [AbstractJBaseObjectWriter](/39250-io/com_jbase_jremote_io_abstractjbaseobjectwriter "class in com.jbase.jremote.io") |   |
@@ -88,10 +72,9 @@ jremote <br>
 | [PrefixByteBuffer](/39250-io/com_jbase_jremote_io_PrefixByteBuffer "class in com.jbase.jremote.io") |   |
 | [Response](/39250-io/com_jbase_jremote_io_response "class in com.jbase.jremote.io") | <br>Represents a response from jsqld.<br> |
 | [SQLError](/39250-io/com_jbase_jremote_io_sqlerror "class in com.jbase.jremote.io") |   |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - Package
 - Class
@@ -114,15 +97,6 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

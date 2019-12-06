@@ -3,26 +3,14 @@
 **Created At:** 9/25/2017 10:51:53 AM  
 **Updated At:** 4/3/2018 10:17:43 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="RequestListenerThread (jbasejdbc   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="RequestListenerThread (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
+
 
 # Class RequestListenerThread
 
-<dl><dt>All Implemented Interfaces:</dt><dd>Runnable, javax.resource.spi.work.Work</dd></dl>
+All Implemented Interfaces:Runnable, javax.resource.spi.work.Work
 ```
 public class RequestListenerThread
 extends Thread
@@ -33,17 +21,13 @@ implements javax.resource.spi.work.Work
 
 
 
-<!-- ======== NESTED CLASS SUMMARY ======== -->
-
-
-
-# <!--   -->
+# 
 
 # Nested Class Summary
 
 
 
-## <!--   -->
+## 
 
 ## Nested classes/interfaces inherited from class java.lang.Thread
 `Thread.State, Thread.UncaughtExceptionHandler`
@@ -52,10 +36,10 @@ implements javax.resource.spi.work.Work
 
 
 
-<!-- =========== FIELD SUMMARY =========== -->
 
 
-# <!--   -->
+
+# 
 
 # 
 
@@ -64,17 +48,17 @@ implements javax.resource.spi.work.Work
 
 
 
-## <!--   -->
+## 
 
 ## Fields inherited from class java.lang.Thread
 `MAX_PRIORITY, MIN_PRIORITY, NORM_PRIORITY`
 
 
 
-<!-- ======== CONSTRUCTOR SUMMARY ======== -->
 
 
-# <!--   -->
+
+# 
 
 # 
 
@@ -89,8 +73,8 @@ implements javax.resource.spi.work.Work
 
 
 
-<!-- ========== METHOD SUMMARY =========== -->
-<!--   -->
+
+
 
 ### 
 
@@ -107,7 +91,7 @@ implements javax.resource.spi.work.Work
 
 
 
-# <!--   -->
+# 
 
 # 
 
@@ -121,22 +105,18 @@ implements javax.resource.spi.work.Work
 
 
 
-# <!--   -->
+# 
 
 # Methods inherited from class java.lang.Object
 `equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`
 
-<!-- ========= CONSTRUCTOR DETAIL ======== -->
-
-
-
-# <!--   -->
+# 
 
 # 
 
 
 # Constructor Detail
-<!--   -->
+
 
 
 #### **RequestListenerThread**
@@ -148,7 +128,7 @@ public RequestListenerThread(RequestListenerService rls, RequestHandler h, Socke
 
 
 
-<!--   -->
+
 
 
 #### 
@@ -164,15 +144,21 @@ public RequestListenerThread(RequestListenerService rls, RequestHandler h, Socke
 ```
 
 Construct a request listener that will block for the supplied number of milliseconds.
-<dl><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>rls</code> -</dd><dd style="margin-left: 60px;"><code>h</code> -</dd><dd style="margin-left: 60px;"><code>s</code> -</dd><dd style="margin-left: 60px;"><code>socketTimeout</code> -</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/net/Socket.html?is-external=true#setSoTimeout-int-" title="class or interface in java.net"><code>Socket.setSoTimeout(int)</code></a></dd><p style="margin-left: 40px;"><br></p><p style="margin-left: 40px;"><br></p></dl>
+
+**Parameters:**`rls` -`h` -`s` -`socketTimeout` -
+**See Also:**[`Socket.setSoTimeout(int)`](http://java.sun.com/j2se/1.5.0/docs/api/java/net/Socket.html?is-external=true#setSoTimeout-int- "class or interface in java.net")
 
 
 
-<!-- ============ METHOD DETAIL ========== -->
-<!--   -->
+
+
+
+
+
+
 
 # **M****ethod Detail**
-<!--   -->
+
 
 
 #### **run**
@@ -180,11 +166,13 @@ Construct a request listener that will block for the supplied number of millisec
 ```
 public void run()
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Runnable.html?is-external=true#run--" title="class or interface in java.lang">run</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Runnable.html?is-external=true" title="class or interface in java.lang">Runnable</a></code></dd><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Overrides:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Thread.html?is-external=true#run--" title="class or interface in java.lang">run</a></code> in class <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Thread.html?is-external=true" title="class or interface in java.lang">Thread</a></code></dd></dl>
+
+**Specified by:**`run` in interface `Runnable`
+**Overrides:**`run` in class `Thread`
 
 
 
-<!--   -->
+
 
 
 #### 
@@ -198,9 +186,10 @@ public void run()
 ```
 public void release()
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>release</code> in interface <code>javax.resource.spi.work.Work</code></dd></dl>
 
-<!--   -->
+**Specified by:**`release` in interface `javax.resource.spi.work.Work`
+
+
 
 
 #### 
@@ -214,5 +203,5 @@ public void release()
 ```
 public boolean isClosed()
 ```
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+

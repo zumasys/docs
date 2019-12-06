@@ -43,25 +43,36 @@ Some ACCOUNT-SAVE tapes provide two or more tape files before the account data p
 
 ROS QIC Example - No Preceding tape files.
 
-<samp>T-ATT SCT0 LABEL=ROS SIZE=8192<br>ACCOUNT-RESTORE &ndash;b4</samp>
+T-ATT SCT0 LABEL=ROS SIZE=8192
+ACCOUNT-RESTORE –b4
 
 
 
 R83 QIC Example - Preceding tape files.
 
-<samp>T-ATT SCT0 LABEL=R83,8192 SIZE=8192<br>T-FWD<br>T-FWD<br>ACCOUNT-RESTORE &ndash;b8</samp>
+T-ATT SCT0 LABEL=R83,8192 SIZE=8192
+T-FWD
+T-FWD
+ACCOUNT-RESTORE –b8
 
 
 
 SEQUOIA DAT Example - Preceding tape files.
 
-<samp>T-ATT DAT0 LABEL=R83<br>T-FWD<br>T-FWD<br>T-FWD<br>ACCOUNT-RESTORE</samp>
+T-ATT DAT0 LABEL=R83
+T-FWD
+T-FWD
+T-FWD
+ACCOUNT-RESTORE
 
 
 
 AP DAT Example - Preceding tape files.
 
-<samp>T-ATT DAT0 LABEL=R83,-2<br>T-FWD<br>T-FWD<br>ACCOUNT-RESTORE &ndash;b8 -C</samp>
+T-ATT DAT0 LABEL=R83,-2
+T-FWD
+T-FWD
+ACCOUNT-RESTORE –b8 -C
 
 Note: The -2 effectively means that the block size for the label should be taken from the default attachment size specified in DAT0, i.e. 16384, or the SIZE parameter if supplied.
 

@@ -3,18 +3,10 @@
 **Created At:** 9/25/2017 11:28:16 AM  
 **Updated At:** 9/20/2018 12:59:28 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="Uses of Class com.jbase.jrcs.JSelectList (jrclient   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript style=""><div>JavaScript is disabled on your browser.</div></noscript>
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jrcs.JSelectList (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
 
 
-<!--   -->
 
 ## Uses of [JSelectList](/jrcs/com_jbase_jrcs_jselectlist "class in com.jbase.jrcs") in [com.jbase.jrcs](/jrcs/com_jbase_jrcs_package-summary)
 
@@ -48,5 +40,5 @@
 | <br>Constructor and Description<br> |
 | --- |
 | <br>[JExecuteResults](/jrcs/com_jbase_jrcs_jexecuteresults#JExecuteResults-java.lang.String-com.jbase.jrcs.JCapture-java.lang.String-com.jbase.jrcs.JSelectList-)(String capturing, [JCapture](/jrcs/com_jbase_jrcs_jcapture "class in com.jbase.jrcs") captureObj, String returning, [JSelectList](/jrcs/com_jbase_jrcs_jselectlist "class in com.jbase.jrcs") returnList)<br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+

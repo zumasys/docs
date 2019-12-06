@@ -6,7 +6,7 @@
 
 ## Interface JCursor
 
-- <dl><dt>All Superinterfaces:</dt><dd><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true" title="class or interface in java.lang">Iterable</a>&lt;<a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;, <a href="file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JSelectList.html" title="interface in com.jbase.jremote">JSelectList</a></dd></dl><dl><dt>All Known Implementing Classes:</dt><dd><a href="file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/io/JCursorImpl.html" title="class in com.jbase.jremote.io">JCursorImpl</a></dd></dl>
+- All Superinterfaces:[Iterable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true "class or interface in java.lang")&lt;[String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang")&gt;, [JSelectList](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JSelectList.html "interface in com.jbase.jremote")All Known Implementing Classes:[JCursorImpl](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/io/JCursorImpl.html "class in com.jbase.jremote.io")
 ```
 public interface JCursor
 extends JSelectList
@@ -18,7 +18,7 @@ A cursor to a jBASE file. This object represents a list of jBASE file records.
 
 | Modifier and Type | Method and Description |
 | --- | --- |
-<caption>All Methods <a href="javascript%3Ashow(2);">Instance Methods</a> <a href="javascript%3Ashow(4);">Abstract Methods</a>&nbsp;</caption>| `JDynArray` | `getRecord()` Returns the current record.<br> |
+All Methods [Instance Methods](javascript%3Ashow%282%29;) [Abstract Methods](javascript%3Ashow%284%29;) | `JDynArray` | `getRecord()` Returns the current record.<br> |
 | `void` | `setRecord(JDynArray record)` Modifies the current record.<br> |
 | `void` | `update()` Update changes.<br> |
 
@@ -35,19 +35,19 @@ A cursor to a jBASE file. This object represents a list of jBASE file records.
 JDynArray getRecord()
 ```
 
-Returns the current record.<dl><dt>Returns:</dt><dd>record value</dd></dl>
+Returns the current record.Returns:record value
     - - #### setRecord
 
 ```
 void setRecord(JDynArray record)
 ```
 
-Modifies the current record. Changes are not applied until methods update() or close() are called.<dl><dt>Parameters:</dt><dd><code>record</code> -&nbsp;</dd></dl>
+Modifies the current record. Changes are not applied until methods update() or close() are called.Parameters:`record` -
     - - #### update
 
 ```
 void update()      throws JRemoteException
 ```
 
-Update changes. This method will apply all pending changes to the cursor.<dl><dt>Throws:</dt><dd><code><a href="file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JRemoteException.html" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Update changes. This method will apply all pending changes to the cursor.Throws:`JRemoteException`
 

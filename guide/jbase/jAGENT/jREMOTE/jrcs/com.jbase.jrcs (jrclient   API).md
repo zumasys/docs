@@ -3,16 +3,9 @@
 **Created At:** 9/25/2017 11:29:38 AM  
 **Updated At:** 9/20/2018 1:06:31 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="com.jbase.jrcs (jrclient   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="com.jbase.jrcs (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 ## Package com.jbase.jrcs
 
 
@@ -46,7 +39,7 @@
 | Exception<br> | Description |
 | --- | --- |
 | [JException](/jrcs/com_jbase_jrcs_JException "class in com.jbase.jrcs")<br> | <br>Represents an exception thrown by all JClient classes<br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+
 
 

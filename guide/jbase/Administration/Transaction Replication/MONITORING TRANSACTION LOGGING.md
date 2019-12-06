@@ -125,7 +125,7 @@ NOTE: The message is designated INFORMATION, WARNING or FATAL ERROR. This design
 | <br> | Admin. Log Notify Program REMOVED<br> | Yes<br> |
 | <br> | Extended Record Status now set to *on|off*<br> | Yes<br> |
 | <br> | Log set switch detected, was set *n1*, now set *n2*<br> | No<br> |
-| <br> | Kill initiated on jlogdup process id *pid*: Process id <u>pid</u> from port *n*<br> | Yes<br> |
+| <br> | Kill initiated on jlogdup process id *pid*: Process id pid from port *n*<br> | Yes<br> |
 | <br> | First record read from set *n*<br> | Yes<br> |
 | <br> | Termination  Statistics:   usr   *x*,   sys   *y*,   elapsed *z r*records read from current log set number *n*: *r*records, *b*blocks, *rb*record bytes , *e*errors in *file*<br> | Yes<br> |
 | WARNING<br> | Journal Log Files now at *p*% capacity<br> | No<br> |

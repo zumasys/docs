@@ -3,18 +3,11 @@
 **Created At:** 9/25/2017 10:23:43 AM  
 **Updated At:** 2/15/2018 8:02:35 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="com.jbase.framework.io.charset (framework   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="com.jbase.framework.io.charset (framework   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
@@ -37,20 +30,11 @@ framework <br>
 - [All Classes](../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 # Package com.jbase.framework.io.charset
 
-- <caption><span>Class Summary</span><span class="tabEnd"> </span></caption>| Class | Description |
+- Class Summary | Class | Description |
 | --- | --- |
 | [JbaseCharset](/39221-charset/com_jbase_framework_io_charset_JbaseCharset "class in com.jbase.framework.io.charset") |   |
 | [JbaseCharsetDecoder](/39221-charset/com_jbase_framework_io_charset_JbaseCharsetDecoder "class in com.jbase.framework.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE charset into a sequence of sixteen-bit Unicode characters.<br> |
@@ -58,10 +42,9 @@ framework <br>
 | [JbasePrivateUseCharset](/39221-charset/com_jbase_framework_io_charset_JbasePrivateUseCharset "class in com.jbase.framework.io.charset") |   |
 | [JbasePrivateUseCharsetDecoder](/39221-charset/com_jbase_framework_io_charset_JbasePrivateUseCharsetDecoder "class in com.jbase.framework.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE private use charset into a sequence of sixteen-bit<br> Unicode characters.<br> |
 | [JbasePrivateUseCharsetEncoder](/39221-charset/com_jbase_framework_io_charset_JbasePrivateUseCharsetEncoder "class in com.jbase.framework.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE private use charset into a sequence of sixteen-bit<br> Unicode characters.<br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
@@ -84,15 +67,6 @@ framework <br>
 - [All Classes](../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

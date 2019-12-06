@@ -3,12 +3,12 @@
 **Created At:** 9/25/2017 12:09:19 PM  
 **Updated At:** 12/24/2018 7:11:55 PM  
 
-<noscript>&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
+
 
 ## Class JDynArray
 
-<dl><dt>All Implemented Interfaces:</dt><dd><a href="/39250-io/com_jbase_jremote_io_IByteObject" title="interface in com.jbase.jremote.io">IByteObject</a></dd></dl>
+All Implemented Interfaces:[IByteObject](/39250-io/com_jbase_jremote_io_IByteObject "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -19,9 +19,6 @@ implements IByteObject
 ```
 
 The JDynArray is a jBASE type that implements a dynamic string array where attribute, value, and subvalue delimiters mark the array indices.
-<dl><dt><br></dt></dl>
-
-<!--   -->
 
 ### Constructor Summary
 
@@ -37,7 +34,7 @@ The JDynArray is a jBASE type that implements a dynamic string array where attri
 
 
 
-<!--   -->
+
 
 ### Method Summary
 
@@ -105,13 +102,11 @@ The JDynArray is a jBASE type that implements a dynamic string array where attri
 | `String`<br> | `toString()`<br>Create a String from a JDynArray.<br> |
 
 
-- <!--   -->Methods inherited from class java.lang.Object
+- Methods inherited from class java.lang.Object
     - `clone, finalize, getClass, notify, notifyAll, wait, wait, wait`
 
-<!--   -->
-
 ### Constructor Detail
-<!--   -->
+
 #### JDynArray
 
 ```
@@ -141,7 +136,7 @@ public JDynArray(String strElement)
 ```
 
 Construct a JDynArray from a String. This is equivalent to JDynArray.replace("Your String", 1)
-<dl><dt style="margin-left: 20px;"><span class="paramLabel">Parameters:</span></dt><dd style="margin-left: 20px;"><code>strElement</code> -</dd></dl>
+Parameters:`strElement` -
 #### 
 
 #### 
@@ -169,10 +164,10 @@ public JDynArray(CharsetEncoder encoder,
 
 
 
-<!--   -->
+
 
 ### Method Detail
-<!--   -->
+
 #### setCharset
 
 ```
@@ -259,7 +254,7 @@ public byte[] getBytes()
 Description copied from interface: `IByteObject`
 
 Return the bytes backing this IByteObject.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_IByteObject#getBytes--">getBytes</a></code> in interface <code><a href="/39250-io/com_jbase_jremote_io_IByteObject" title="interface in com.jbase.jremote.io">IByteObject</a></code></dd></dl>
+Specified by:`getBytes` in interface `IByteObject`
 #### 
 
 #### 
@@ -273,7 +268,7 @@ public ByteBuffer getByteBuffer()
 ```
 
 Internal use only - IByteBuffer provide access to internal storage for serialization
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_IByteObject#getByteBuffer--">getByteBuffer</a></code> in interface <code><a href="/39250-io/com_jbase_jremote_io_IByteObject" title="interface in com.jbase.jremote.io">IByteObject</a></code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Specified by:`getByteBuffer` in interface `IByteObject`Throws:`IOException`
 #### 
 
 #### 
@@ -287,7 +282,7 @@ public void setByteBuffer(ByteBuffer byteBuffer)
 ```
 
 Internal use only - IByteBuffer provides access to internal storage for serialization
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_IByteObject#setByteBuffer-java.nio.ByteBuffer-">setByteBuffer</a></code> in interface <code><a href="/39250-io/com_jbase_jremote_io_IByteObject" title="interface in com.jbase.jremote.io">IByteObject</a></code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Specified by:`setByteBuffer` in interface `IByteObject`Throws:`IOException`
 #### 
 
 #### 
@@ -300,7 +295,7 @@ public String toString()
 ```
 
 Create a String from a JDynArray.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Overrides:</span></dt><dd style="margin-left: 20px;"><code>toString</code> in class <code>Object</code></dd></dl>
+Overrides:`toString` in class `Object`
 #### 
 
 #### 
@@ -322,7 +317,7 @@ public int getNumberOfAttributes()
 ```
 public int getNumberOfValues(int attribute)
 ```
-<!--   -->
+
 #### 
 
 
@@ -343,7 +338,7 @@ public int getNumberOfSubValues(int attribute,
 ```
 public String get(int attribute)
 ```
-<!--   -->
+
 #### 
 
 
@@ -353,7 +348,7 @@ public String get(int attribute)
 public String get(int attribute,
                   int value)
 ```
-<!--   -->
+
 #### 
 
 
@@ -364,7 +359,7 @@ public String get(int attribute,
                   int value,
                   int subvalue)
 ```
-<!--   -->
+
 #### 
 
 
@@ -373,7 +368,7 @@ public String get(int attribute,
 ```
 protected byte[] getBytes(int attribute)
 ```
-<!--   -->
+
 #### 
 
 
@@ -383,7 +378,7 @@ protected byte[] getBytes(int attribute)
 protected byte[] getBytes(int attribute,
                           int value)
 ```
-<!--   -->
+
 #### 
 
 
@@ -394,7 +389,7 @@ protected byte[] getBytes(int attribute,
                           int value,
                           int subvalue)
 ```
-<!--   -->
+
 #### 
 
 
@@ -403,7 +398,7 @@ protected byte[] getBytes(int attribute,
 ```
 public void delete(int attribute)
 ```
-<!--   -->
+
 #### 
 
 
@@ -413,7 +408,7 @@ public void delete(int attribute)
 public void delete(int attribute,
                    int value)
 ```
-<!--   -->
+
 #### 
 
 
@@ -424,7 +419,7 @@ public void delete(int attribute,
                    int value,
                    int subvalue)
 ```
-<!--   -->
+
 #### 
 
 
@@ -434,7 +429,7 @@ public void delete(int attribute,
 public void insert(String str,
                    int attribute)
 ```
-<!--   -->
+
 #### 
 
 
@@ -445,7 +440,7 @@ public void insert(String str,
                    int attribute,
                    int value)
 ```
-<!--   -->
+
 #### 
 
 
@@ -457,7 +452,7 @@ public void insert(String str,
                    int value,
                    int subvalue)
 ```
-<!--   -->
+
 #### 
 
 
@@ -467,7 +462,7 @@ public void insert(String str,
 protected void insertBytes(byte[] b,
                            int attribute)
 ```
-<!--   -->
+
 #### 
 
 
@@ -478,7 +473,7 @@ protected void insertBytes(byte[] b,
                            int attribute,
                            int value)
 ```
-<!--   -->
+
 #### 
 
 
@@ -490,7 +485,7 @@ protected void insertBytes(byte[] b,
                            int value,
                            int subvalue)
 ```
-<!--   -->
+
 #### 
 
 
@@ -499,7 +494,7 @@ protected void insertBytes(byte[] b,
 ```
 protected void insertBytes(byte[] newBytes)
 ```
-<!--   -->
+
 #### 
 
 
@@ -509,7 +504,7 @@ protected void insertBytes(byte[] newBytes)
 public void replace(String str,
                     int attribute)
 ```
-<!--   -->
+
 #### 
 
 
@@ -520,7 +515,7 @@ public void replace(String str,
                     int attribute,
                     int value)
 ```
-<!--   -->
+
 #### 
 
 
@@ -532,7 +527,7 @@ public void replace(String str,
                     int value,
                     int subvalue)
 ```
-<!--   -->
+
 #### 
 
 
@@ -542,7 +537,7 @@ public void replace(String str,
 protected void replaceBytes(byte[] b,
                             int attribute)
 ```
-<!--   -->
+
 #### 
 
 
@@ -553,7 +548,7 @@ protected void replaceBytes(byte[] b,
                             int attribute,
                             int value)
 ```
-<!--   -->
+
 #### 
 
 
@@ -565,7 +560,7 @@ protected void replaceBytes(byte[] b,
                             int value,
                             int subvalue)
 ```
-<!--   -->
+
 #### 
 
 
@@ -577,7 +572,7 @@ public int count(String token,
 ```
 
 Return the number of tokens found in the supplied attribute.
-<!--   -->
+
 #### 
 
 
@@ -588,7 +583,7 @@ public int count(String token,
                  int attribute,
                  int value)
 ```
-<!--   -->
+
 #### 
 
 
@@ -600,7 +595,7 @@ public int count(String token,
                  int value,
                  int subvalue)
 ```
-<!--   -->
+
 #### 
 
 
@@ -610,7 +605,7 @@ public int count(String token,
 protected int count(byte token,
                     int attribute)
 ```
-<!--   -->
+
 #### 
 
 
@@ -621,7 +616,7 @@ protected int count(byte token,
                     int attribute,
                     int value)
 ```
-<!--   -->
+
 #### 
 
 
@@ -633,7 +628,7 @@ protected int count(byte token,
                     int value,
                     int subvalue)
 ```
-<!--   -->
+
 #### 
 
 
@@ -643,7 +638,7 @@ protected int count(byte token,
 protected int count(byte[] token,
                     int attribute)
 ```
-<!--   -->
+
 #### 
 
 
@@ -654,7 +649,7 @@ protected int count(byte[] token,
                     int attribute,
                     int value)
 ```
-<!--   -->
+
 #### 
 
 
@@ -666,7 +661,7 @@ protected int count(byte[] token,
                     int value,
                     int subvalue)
 ```
-<!--   -->
+
 #### 
 
 
@@ -676,7 +671,7 @@ protected int count(byte[] token,
 protected void insertElement(byte token,
                              int newIndex)
 ```
-<!--   -->
+
 #### 
 
 
@@ -686,7 +681,7 @@ protected void insertElement(byte token,
 protected void replaceElement(byte token,
                               int newIndex)
 ```
-<!--   -->
+
 #### 
 
 
@@ -696,7 +691,7 @@ protected void replaceElement(byte token,
 protected static byte[] dups(int size,
                              byte token)
 ```
-<!--   -->
+
 #### 
 
 
@@ -705,7 +700,7 @@ protected static byte[] dups(int size,
 ```
 protected void resetCursor()
 ```
-<!--   -->
+
 #### 
 
 
@@ -715,7 +710,7 @@ protected void resetCursor()
 protected boolean moveCursorToElement(byte token,
                                       int element)
 ```
-<!--   -->
+
 #### 
 
 
@@ -728,7 +723,7 @@ public static int index(ByteBuffer bArray,
                         int startIndex,
                         int endIndex)
 ```
-<!--   -->
+
 #### 
 
 
@@ -741,7 +736,7 @@ public static int index(ByteBuffer bArray,
                         int startIndex,
                         int endIndex)
 ```
-<!--   -->
+
 #### 
 
 
@@ -765,7 +760,7 @@ protected static int count(ByteBuffer bArray,
                            int startIndex,
                            int endIndex)
 ```
-<!--   -->
+
 #### 
 
 
@@ -777,7 +772,7 @@ protected static int count(ByteBuffer bArray,
                            int startIndex,
                            int endIndex)
 ```
-<!--   -->
+
 #### 
 
 
@@ -789,7 +784,7 @@ protected static int dcount(ByteBuffer bArray,
                             int startIndex,
                             int endIndex)
 ```
-<!--   -->
+
 #### 
 
 
@@ -812,7 +807,7 @@ protected static int dcount(ByteBuffer bArray,
 ```
 public boolean equals(Object other)
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Overrides:</span></dt><dd style="margin-left: 20px;"><code>equals</code> in class <code>Object</code></dd></dl>
+Overrides:`equals` in class `Object`
 #### 
 
 #### 
@@ -823,9 +818,6 @@ public boolean equals(Object other)
 ```
 public int hashCode()
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Overrides:</span></dt><dd style="margin-left: 20px;"><code>hashCode</code> in class <code>Object</code></dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
-
+Overrides:`hashCode` in class `Object`
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

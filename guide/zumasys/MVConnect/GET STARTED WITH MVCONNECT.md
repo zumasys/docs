@@ -4,7 +4,7 @@
 **Updated At:** 11/23/2019 12:41:42 AM  
 
 
-<iframe src="//www.youtube.com/embed/7Nu7cRn4Wc4?wmode=opaque" allowfullscreen="" frameborder="0" height="360" width="640" class="fr-draggable"></iframe>
+
 
 
 

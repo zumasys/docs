@@ -3,14 +3,18 @@
 **Created At:** 9/25/2017 11:40:30 AM  
 **Updated At:** 12/24/2018 7:24:57 PM  
 
-<noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+
 
 ## Class DefaultJConnectionFactory
 
 ### 
 
-<dl><p><strong>All Implemented Interfaces:</strong></p><p><a href="/39248-jremote/com_jbase_jremote_jconnectionfactory" title="interface in com.jbase.jremote">JConnectionFactory</a></p></dl>
+
+**All Implemented Interfaces:**
+
+[JConnectionFactory](/39248-jremote/com_jbase_jremote_jconnectionfactory "interface in com.jbase.jremote")
+
 * * *
 
 
@@ -21,7 +25,21 @@ implements JConnectionFactory
 ```
 
 The default implementation of a JConnectionFactory that will connect to a remote jBASE instance using a host and a port.
-<dl><h3>Field Summary</h3><h3><table border="0" cellpadding="3" cellspacing="0" class="memberSummary" summary="Field Summary table, listing fields, and an explanation"><thead><tr><th class="colFirst" scope="col">Modifier and Type<br></th><th class="colLast" scope="col">Field and Description<br></th></tr></thead><tbody><tr class="altColor"><td class="colFirst">static boolean<br></td><td class="colLast"><span class="memberNameLink">DEFAULT_ENABLE_COMPRESSION</span>&nbsp;<br></td></tr><tr class="rowColor"><td class="colFirst">static boolean<br></td><td class="colLast"><span class="memberNameLink">DEFAULT_ENABLE_NAIVETRUSTMANAGER</span>&nbsp;<br></td></tr><tr class="altColor"><td class="colFirst">static boolean<br></td><td class="colLast"><span class="memberNameLink">DEFAULT_ENABLE_SSL</span>&nbsp;<br></td></tr><tr class="rowColor"><td class="colFirst">static int<br></td><td class="colLast"><span class="memberNameLink">DEFAULT_PORT</span>&nbsp;<br></td></tr><tr class="altColor"><td class="colFirst">static String<br></td><td class="colLast"><span class="memberNameLink">JBASE_PRODUCT_JREMOTEJAVA</span>&nbsp;<br></td></tr></tbody></table></h3></dl>
+
+### Field Summary
+
+### 
+
+| Modifier and Type<br> | Field and Description<br> |
+| --- | --- |
+| static boolean<br> | DEFAULT\_ENABLE\_COMPRESSION <br> |
+| static boolean<br> | DEFAULT\_ENABLE\_NAIVETRUSTMANAGER <br> |
+| static boolean<br> | DEFAULT\_ENABLE\_SSL <br> |
+| static int<br> | DEFAULT\_PORT <br> |
+| static String<br> | JBASE\_PRODUCT\_JREMOTEJAVA <br> |
+
+
+
 
 ### 
 
@@ -33,7 +51,7 @@ The default implementation of a JConnectionFactory that will connect to a remote
 | `DefaultJConnectionFactory()` <br> |
 
 
-<!--   -->
+
 
 ### 
 
@@ -71,16 +89,14 @@ The default implementation of a JConnectionFactory that will connect to a remote
 
 
 
-<!--   -->
-
 ### Field Detail
-<!--   -->
+
 #### DEFAULT\_PORT
 
 ```
 public static final int DEFAULT_PORT
 ```
-<dl><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="299736-constant-values" title="">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](299736-constant-values)
 
 
 #### DEFAULT\_ENABLE\_SSL
@@ -88,7 +104,7 @@ public static final int DEFAULT_PORT
 ```
 public static final boolean DEFAULT_ENABLE_SSL
 ```
-<dl><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="299736-constant-values" title="">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](299736-constant-values)
 
 
 #### DEFAULT\_ENABLE\_NAIVETRUSTMANAGER
@@ -96,7 +112,7 @@ public static final boolean DEFAULT_ENABLE_SSL
 ```
 public static final boolean DEFAULT_ENABLE_NAIVETRUSTMANAGER
 ```
-<dl><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="299736-constant-values" title="">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](299736-constant-values)
 
 
 #### DEFAULT\_ENABLE\_COMPRESSION
@@ -104,7 +120,7 @@ public static final boolean DEFAULT_ENABLE_NAIVETRUSTMANAGER
 ```
 public static final boolean DEFAULT_ENABLE_COMPRESSION
 ```
-<dl><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="299736-constant-values" title="">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](299736-constant-values)
 
 
 #### JBASE\_PRODUCT\_JREMOTEJAVA
@@ -112,13 +128,13 @@ public static final boolean DEFAULT_ENABLE_COMPRESSION
 ```
 public static final String JBASE_PRODUCT_JREMOTEJAVA
 ```
-<dl><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="299736-constant-values" title="">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](299736-constant-values)
 
 
-<!--   -->
+
 
 ### Constructor Detail
-<!--   -->
+
 
 
 #### DefaultJConnectionFactory
@@ -131,10 +147,10 @@ public DefaultJConnectionFactory()
 
 
 
-<!--   -->
+
 
 ### Method Detail
-<!--   -->
+
 
 
 #### getConnection
@@ -147,7 +163,7 @@ public JConnection getConnection()
 Description copied from interface: `JConnectionFactory`
 
 Get a connection to a remote jBASE instance.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_JConnectionFactory#getConnection--">getConnection</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jconnectionfactory" title="interface in com.jbase.jremote">JConnectionFactory</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">JConnection The connection</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Specified by:`getConnection` in interface `JConnectionFactory`Returns:JConnection The connectionThrows:`JRemoteException`
 
 
 #### getConnection
@@ -161,7 +177,7 @@ public JConnection getConnection(String user,
 Description copied from interface: `JConnectionFactory`
 
 Get a connection to a remote jBASE instance.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_JConnectionFactory#getConnection-java.lang.String-java.lang.String-">getConnection</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jconnectionfactory" title="interface in com.jbase.jremote">JConnectionFactory</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">JConnection The connection</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Specified by:`getConnection` in interface `JConnectionFactory`Returns:JConnection The connectionThrows:`JRemoteException`
 
 
 #### getConnection
@@ -176,7 +192,7 @@ public JConnection getConnection(String user,
 Description copied from interface: `JConnectionFactory`
 
 Get a connection to a remote jBASE instance.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_JConnectionFactory#getConnection-java.lang.String-java.lang.String-java.util.Properties-">getConnection</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jconnectionfactory" title="interface in com.jbase.jremote">JConnectionFactory</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">JConnection The connection</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Specified by:`getConnection` in interface `JConnectionFactory`Returns:JConnection The connectionThrows:`JRemoteException`
 
 
 #### getConnection
@@ -191,7 +207,7 @@ public JConnection getConnection(String user,
 Description copied from interface: `JConnectionFactory`
 
 Get a connection to a remote jBASE account.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_JConnectionFactory#getConnection-java.lang.String-java.lang.String-java.lang.String-">getConnection</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jconnectionfactory" title="interface in com.jbase.jremote">JConnectionFactory</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">JConnection The connection</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Specified by:`getConnection` in interface `JConnectionFactory`Returns:JConnection The connectionThrows:`JRemoteException`
 
 
 #### getConnection
@@ -204,7 +220,7 @@ public JConnection getConnection(JConnectionCallbackHandler handler)
 Description copied from interface: `JConnectionFactory`
 
 Get a connection to a remote jBASE instance, in a managed environment the callback handler provides ancillary connection initialization.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_JConnectionFactory#getConnection-com.jbase.jremote.JConnectionCallbackHandler-">getConnection</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jconnectionfactory" title="interface in com.jbase.jremote">JConnectionFactory</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">JConnection The connection</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Specified by:`getConnection` in interface `JConnectionFactory`Returns:JConnection The connectionThrows:`JRemoteException`
 
 #### getConnectionProperties
 
@@ -299,7 +315,7 @@ public void disableCompression()
 ```
 public boolean isEnabledCompression()
 ```
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+
 
 Return to [jREMOTE API](com_jbase_jremote_package-summary)

@@ -219,7 +219,7 @@ This will force the Java jRemote Client to trust all server certificates.
 
 **#C:**
 
-C# jRemote Clients require users to <u>install a valid certificate into the <em>Trusted Root Certification Authorities</em></u> store. The same certificate created to start jAgent in SSL mode can be used for this purpose. Utilities such as e.g. *certmgr.exe* included in .NET Frameworks can be used to install and manage certificates.
+C# jRemote Clients require users to install a valid certificate into the *Trusted Root Certification Authorities* store. The same certificate created to start jAgent in SSL mode can be used for this purpose. Utilities such as e.g. *certmgr.exe* included in .NET Frameworks can be used to install and manage certificates.
 
 C# jRemote Clients must supply the following property to specify the Common Name (CN) of the Distinguished Name (DN) section in the certificate:
 

@@ -3,12 +3,14 @@
 **Created At:** 9/25/2017 12:09:26 PM  
 **Updated At:** 12/24/2018 7:50:03 PM  
 
-<noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+
+JavaScript is disabled on your browser.
+
+
 
 ## Class JExecuteResults
 
-<dl><dt>All Implemented Interfaces:</dt><dd><a href="/39250-io/com_jbase_jremote_io_jbaseserializable" title="interface in com.jbase.jremote.io">JBaseSerializable</a></dd></dl>
+All Implemented Interfaces:[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -18,13 +20,12 @@ extends JRemoteResponse
 ```
 
 The results from an executed command.
-<dl><dt><br></dt><dt><span class="seeLabel">See Also:</span></dt><dd><code>JConnection.execute(java.lang.String)</code></dd></dl>
 
-<!--   -->
+See Also:`JConnection.execute(java.lang.String)`
 
 ### Nested Class Summary
 
-<!--   -->
+
 
 - Nested classes/interfaces inherited from interface com.jbase.jremote.io.JBaseSerializable
     - `JBaseSerializable.TYPE`
@@ -34,7 +35,7 @@ The results from an executed command.
 
 
 
-<!--   -->
+
 
 ### Constructor Summary
 
@@ -47,7 +48,7 @@ The results from an executed command.
 
 
 
-<!--   -->
+
 
 ### Method Summary
 
@@ -64,13 +65,11 @@ The results from an executed command.
 | `void`<br> | `writeObject(JBaseObjectWriter writer, int version)` <br> |
 
 
-- <!--   -->Methods inherited from class java.lang.Object
+- Methods inherited from class java.lang.Object
     - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-<!--   -->
-
 ### Constructor Detail
-<!--   -->
+
 
 
 #### JExecuteResults
@@ -89,22 +88,22 @@ public JExecuteResults(JSelectListProt selectListProt,
 
 
 
-<!--   -->
+
 
 ### Method Detail
-<!--   -->
+
 #### getType
 
 ```
 public int getType()
 ```
-<dl><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">type id of the objects, used during the serialization</dd></dl>
+Returns:type id of the objects, used during the serialization
 #### getVersion
 
 ```
 public int getVersion()
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>getVersion</code> in interface <code><a href="/39250-io/com_jbase_jremote_io_jbaseserializable" title="interface in com.jbase.jremote.io">JBaseSerializable</a></code></dd><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Overrides:</span></dt><dd style="margin-left: 20px;"><code>getVersion</code> in class <code><a href="/39270-protocol/com_jbase_jremote_protocol_jremoteresponse" title="class in com.jbase.jremote.protocol">JRemoteResponse</a></code></dd></dl>
+Specified by:`getVersion` in interface `JBaseSerializable`Overrides:`getVersion` in class `JRemoteResponse`
 #### writeObject
 
 ```
@@ -112,7 +111,7 @@ public void writeObject(JBaseObjectWriter writer,
                         int version)
                  throws IOException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>IOException</code></dd></dl>
+Throws:`IOException`
 #### readObject
 
 ```
@@ -121,7 +120,7 @@ public void readObject(JBaseObjectReader reader,
                 throws IOException,
                        ClassNotFoundException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>IOException</code></dd><dd style="margin-left: 20px;"><code>ClassNotFoundException</code></dd></dl>
+Throws:`IOException``ClassNotFoundException`
 #### getReturnList
 
 ```
@@ -129,7 +128,7 @@ public JSelectList getReturnList()
 ```
 
 
-<!--   -->
+
 #### getCursor
 
 ```
@@ -137,7 +136,7 @@ public JCursor getCursor()
 ```
 
 
-<!--   -->
+
 #### getSettingVar
 
 ```
@@ -145,14 +144,14 @@ public JDynArray getSettingVar()
 ```
 
 
-<!--   -->
+
 #### getCapturingVar
 
 ```
 public JDynArray getCapturingVar()
 ```
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+
 
 
 

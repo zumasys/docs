@@ -83,7 +83,7 @@ The options are as:
 An example of use may be as:
 
 
-| <samp>File . , Record .jedrc &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Insert &nbsp; 17:17:17<br>Command-&gt;<br>001 set delete_line = ^D<br>002 set noexit_record<br>003 set toggle_insert = \006<br>004 set escape = \033:\117:\101<br>-------------------------------- End Of Record -------------------------------<br></samp> |
+| File . , Record .jedrc                                       Insert   17:17:17<br>Command-&gt;<br>001 set delete\_line = ^D<br>002 set noexit\_record<br>003 set toggle\_insert = \006<br>004 set escape = \033:\117:\101<br>-------------------------------- End Of Record -------------------------------<br> |
 
 
 where:

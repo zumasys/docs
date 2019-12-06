@@ -8,20 +8,20 @@
 
 - [java.lang.Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
 - - com.jbase.jremote.JDynArray
-- <dl><dt>All Implemented Interfaces:</dt><dd><a href="../../../com/jbase/jremote/io/IByteObject.html" title="interface in com.jbase.jremote.io">IByteObject</a></dd></dl>
+- All Implemented Interfaces:[IByteObject](../../../com/jbase/jremote/io/IByteObject.html "interface in com.jbase.jremote.io")
 ```
 public class JDynArray
 extends Object
 implements IByteObject
 ```
 
-The JDynArray is a jBASE type that implements a dynamic string array where attribute, value, and subvalue delimiters mark the array indices.<dl><dt>Author:</dt><dd>aphethean</dd></dl>
+The JDynArray is a jBASE type that implements a dynamic string array where attribute, value, and subvalue delimiters mark the array indices.Author:aphethean
 - - ### Constructor Summary
 
 
 | Constructor and Description |
 | --- |
-<caption>Constructors </caption>| `JDynArray()`  |
+Constructors | `JDynArray()`  |
 | `JDynArray(byte[] dynArray)`  |
 | `JDynArray(CharsetEncoder encoder, CharsetDecoder decoder, String strElement)`  |
 | `JDynArray(Charset cs, String strElement)`  |
@@ -31,7 +31,7 @@ The JDynArray is a jBASE type that implements a dynamic string array where attri
 
 | Modifier and Type | Method and Description |
 | --- | --- |
-<caption>All Methods <a href="javascript%3Ashow(1);">Static Methods</a><a href="javascript%3Ashow(2);">Instance Methods</a><a href="javascript%3Ashow(8);">Concrete Methods</a>&nbsp;</caption>| `protected int` | `count(byte[] token, int attribute)`  |
+All Methods [Static Methods](javascript%3Ashow%281%29;)[Instance Methods](javascript%3Ashow%282%29;)[Concrete Methods](javascript%3Ashow%288%29;) | `protected int` | `count(byte[] token, int attribute)`  |
 | `protected int` | `count(byte[] token, int attribute, int value)`  |
 | `protected int` | `count(byte[] token, int attribute, int value, int subvalue)`  |
 | `protected static int` | `count(ByteBuffer bArray, byte[] token, int startIndex, int endIndex)`  |
@@ -112,7 +112,7 @@ public JDynArray(byte[] dynArray)
 public JDynArray(String strElement)
 ```
 
-Construct a JDynArray from a String. This is equivalent to JDynArray.replace("Your String", 1)<dl><dt>Parameters:</dt><dd><code>strElement</code> -</dd></dl>
+Construct a JDynArray from a String. This is equivalent to JDynArray.replace("Your String", 1)Parameters:`strElement` -
         - #### JDynArray
 
 ```
@@ -167,28 +167,28 @@ public byte[] getBytes()
 ```
 
 Description copied from interface: `IByteObject`
-Return the bytes backing this IByteObject.<dl><dt>Specified by:</dt><dd><code><a href="../../../com/jbase/jremote/io/IByteObject.html#getBytes--">getBytes</a></code> in interface <code><a href="../../../com/jbase/jremote/io/IByteObject.html" title="interface in com.jbase.jremote.io">IByteObject</a></code></dd></dl>
+Return the bytes backing this IByteObject.Specified by:`getBytes` in interface `IByteObject`
         - #### getByteBuffer
 
 ```
 public ByteBuffer getByteBuffer()                          throws IOException
 ```
 
-Internal use only - IByteBuffer provide access to internal storage for serialization<dl><dt>Specified by:</dt><dd><code><a href="../../../com/jbase/jremote/io/IByteObject.html#getByteBuffer--">getByteBuffer</a></code> in interface <code><a href="../../../com/jbase/jremote/io/IByteObject.html" title="interface in com.jbase.jremote.io">IByteObject</a></code></dd><dt>Throws:</dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Internal use only - IByteBuffer provide access to internal storage for serializationSpecified by:`getByteBuffer` in interface `IByteObject`Throws:`IOException`
         - #### setByteBuffer
 
 ```
 public void setByteBuffer(ByteBuffer byteBuffer)                    throws IOException
 ```
 
-Internal use only - IByteBuffer provides access to internal storage for serialization<dl><dt>Specified by:</dt><dd><code><a href="../../../com/jbase/jremote/io/IByteObject.html#setByteBuffer-java.nio.ByteBuffer-">setByteBuffer</a></code> in interface <code><a href="../../../com/jbase/jremote/io/IByteObject.html" title="interface in com.jbase.jremote.io">IByteObject</a></code></dd><dt>Throws:</dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Internal use only - IByteBuffer provides access to internal storage for serializationSpecified by:`setByteBuffer` in interface `IByteObject`Throws:`IOException`
         - #### toString
 
 ```
 public String toString()
 ```
 
-Create a String from a JDynArray.<dl><dt>Overrides:</dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true#toString--" title="class or interface in java.lang">toString</a></code> in class <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></code></dd></dl>
+Create a String from a JDynArray.Overrides:`toString` in class `Object`
         - #### getNumberOfAttributes
 
 ```
@@ -426,11 +426,11 @@ protected static int dcount(ByteBuffer bArray,                             byte[
 ```
 public boolean equals(Object other)
 ```
-<dl><dt>Overrides:</dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true#equals-java.lang.Object-" title="class or interface in java.lang">equals</a></code> in class <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></code></dd></dl>
+Overrides:`equals` in class `Object`
         - #### hashCode
 
 ```
 public int hashCode()
 ```
-<dl><dt>Overrides:</dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true#hashCode--" title="class or interface in java.lang">hashCode</a></code> in class <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a></code></dd></dl>
+Overrides:`hashCode` in class `Object`
 

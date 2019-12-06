@@ -5,9 +5,9 @@
 
 
 
-| [<u>Terminal Independence</u>](terminal-independence) | How terminal independence is achieved. |
+| [Terminal Independence](terminal-independence) | How terminal independence is achieved. |
 | --- | --- |
-| [<u>Terminal Type</u>](terminal-type) | Terminal type support. |
-| [<u>Keyboard independence</u>](keyboard-independence) | How keyboard independence is achieved. |
-| [<u>Terminal Extensions</u>](terminal-extensions) | Extending terminal definitions. |
+| [Terminal Type](terminal-type) | Terminal type support. |
+| [Keyboard independence](keyboard-independence) | How keyboard independence is achieved. |
+| [Terminal Extensions](terminal-extensions) | Extending terminal definitions. |
 

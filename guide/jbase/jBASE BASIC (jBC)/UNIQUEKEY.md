@@ -24,7 +24,7 @@ Any process that continues to execute throughout this period will continue to pr
 
 A process that starts up during this period and is given the process ID of a process that terminated during the period, may possibly generate a duplicate key until the period ends.
 
-**<u>Note</u>**
+**Note**
 
 Change **5\_20431** changed the '+' and '/' to '^' and '\_' respectively.
 

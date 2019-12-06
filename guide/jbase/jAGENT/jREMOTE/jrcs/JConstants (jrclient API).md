@@ -3,16 +3,10 @@
 **Created At:** 9/25/2017 11:28:42 AM  
 **Updated At:** 9/20/2018 1:03:41 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="JConstants (jrclient   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JConstants (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
+
 
 ## Class JConstants
 com.jbase.jrcs.JConstants
@@ -23,8 +17,7 @@ extends Object
 ```
 
 Common constants for all JClient classes
-<dl><dt><br></dt></dl>
-<!--   -->
+
 
 # Field Summary
 
@@ -39,7 +32,7 @@ Common constants for all JClient classes
 
 
 
-<!--   -->
+
 
 # Constructor Summary
 
@@ -48,23 +41,21 @@ Common constants for all JClient classes
 | --- |
 | JConstants()<br> |
 
-<!-- ========== METHOD SUMMARY =========== -->
-<!--   -->
+
+
 
 ### 
 
 
 # Method Summary
 
-<!--   -->
+
 
 ## Methods inherited from class java.lang.Object
 `    clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-<!--   -->
-
 # Field Detail
-<!--   -->
+
 #### JRCS\_PORT
 
 ```
@@ -78,7 +69,7 @@ See Also: [Constant Field Values](299736-constant-values)
 
 
 
-<!--   -->
+
 #### AM
 
 ```
@@ -104,7 +95,7 @@ public static final char VM
 Default value mark character
 
 See Also: [Constant Field Values](299736-constant-values#com.jbase.jrcs.JConstants.VM)
-<!--   -->
+
 #### 
 
 
@@ -125,14 +116,14 @@ See Also: [Constant Field Values](299736-constant-values#com.jbase.jrcs.JConsta
 
 
 
-<!--   -->
+
 
 # Constructor Detail
-<!--   -->
+
 #### JConstants
 
 ```
 public JConstants()
 ```
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
+
 

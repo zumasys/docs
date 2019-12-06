@@ -3,12 +3,14 @@
 **Created At:** 9/25/2017 12:10:07 PM  
 **Updated At:** 12/24/2018 7:55:16 PM  
 
-<noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+
+JavaScript is disabled on your browser.
+
+
 
 ## Interface JStatement
 
-<dl><dt>All Known Implementing Classes:</dt><dd><a href="/39250-io/com_jbase_jremote_io_jstatementimpl" title="class in com.jbase.jremote.io">JStatementImpl</a></dd></dl>
+All Known Implementing Classes:[JStatementImpl](/39250-io/com_jbase_jremote_io_jstatementimpl "class in com.jbase.jremote.io")
 * * *
 
 
@@ -17,9 +19,6 @@ public interface JStatement
 ```
 
 A jBASE statement object for executing queries.
-<dl><dt><br></dt></dl>
-
-<!--   -->
 
 ### Method Summary
 
@@ -32,10 +31,8 @@ A jBASE statement object for executing queries.
 | `JResultSet`<br> | `execute(String query, JSelectList selectList)`<br>Execute query using an existing select list as a filter.<br> |
 | `void`<br> | `setFetchSize(int rows)`<br>Sets the fetch size.<br> |
 
-<!--   -->
-
 ### Method Detail
-<!--   -->
+
 #### execute
 
 ```
@@ -44,7 +41,7 @@ JResultSet execute(String query)
 ```
 
 Execute query.
-<dl><dt style="margin-left: 20px;"><span class="paramLabel">Parameters:</span></dt><dd style="margin-left: 20px;"><code>query</code> - as a string</dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">result set</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Parameters:`query` - as a stringReturns:result setThrows:`JRemoteException`
 
 
 #### execute
@@ -56,7 +53,7 @@ JResultSet execute(String query,
 ```
 
 Execute query using an existing select list as a filter.
-<dl><dt style="margin-left: 20px;"><span class="paramLabel">Parameters:</span></dt><dd style="margin-left: 20px;"><code>query</code> - as a string</dd><dd style="margin-left: 20px;"><code>selectList</code> -</dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">result set</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Parameters:`query` - as a string`selectList` -Returns:result setThrows:`JRemoteException`
 
 
 #### execute
@@ -67,7 +64,7 @@ JResultSet execute(JDynArray queries)
 ```
 
 Execute query.
-<dl><dt style="margin-left: 20px;"><span class="paramLabel">Parameters:</span></dt><dd style="margin-left: 20px;"><code>queries</code> - query as a dynamic array</dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">result set</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Parameters:`queries` - query as a dynamic arrayReturns:result setThrows:`JRemoteException`
 
 
 #### execute
@@ -79,7 +76,7 @@ JResultSet execute(JDynArray queries,
 ```
 
 Execute query using an existing select list as a filter.
-<dl><dt style="margin-left: 20px;"><span class="paramLabel">Parameters:</span></dt><dd style="margin-left: 20px;"><code>queries</code> - query as a dynamic array</dd><dd style="margin-left: 20px;"><code>selectList</code> -</dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">result set</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Parameters:`queries` - query as a dynamic array`selectList` -Returns:result setThrows:`JRemoteException`
 
 
 #### setFetchSize
@@ -89,8 +86,8 @@ void setFetchSize(int rows)
 ```
 
 Sets the fetch size.
-<dl><dt style="margin-left: 20px;"><span class="paramLabel">Parameters:</span></dt><dd style="margin-left: 20px;"><code>rows</code> -</dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+Parameters:`rows` -
+
+
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

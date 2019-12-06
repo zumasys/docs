@@ -3,18 +3,11 @@
 **Created At:** 9/25/2017 12:20:28 PM  
 **Updated At:** 2/15/2018 8:03:04 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="com.jbase.jremote.protocol Class Hierarchy (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="com.jbase.jremote.protocol Class Hierarchy (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39270-protocol/com_jbase_jremote_protocol_package-summary)
 - Class
@@ -37,17 +30,8 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 # Hierarchy For Package com.jbase.jremote.protocol
 Package Hierarchies:
 - [All Packages](../../../../overview-tree.html)
@@ -111,10 +95,9 @@ Package Hierarchies:
             - com.jbase.jremote.protocol.[SwitchAccountResponse](/39270-protocol/com_jbase_jremote_protocol_switchaccountresponse "class in com.jbase.jremote.protocol")
             - com.jbase.jremote.protocol.[TransactionResponse](/39270-protocol/com_jbase_jremote_protocol_transactionresponse "class in com.jbase.jremote.protocol")
     - com.jbase.jremote.protocol.[XAXid](/39270-protocol/com_jbase_jremote_protocol_xaxid "class in com.jbase.jremote.protocol") (implements com.jbase.jremote.io.[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io"))
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39270-protocol/com_jbase_jremote_protocol_package-summary)
 - Class
@@ -137,15 +120,6 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

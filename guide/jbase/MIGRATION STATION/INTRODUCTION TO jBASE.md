@@ -346,8 +346,8 @@ CREATE-FILE DATA SAMPLE 11 101
 
 - **DICT -**This is an optional keyword to specify dictionary section creation only. Leave this keyword out to create both dictionary and data file.
 - **DATA -**This is an optional keyword to specify data section creation only. Leave this keyword out to create both dictionary and data file.
-- **<u>FileName</u> -**This is the name to be used for the created file. The name can include absolute or relative path information.
-- **<u>NumBuckets</u> -**<u>NumBuckets</u> specifies the number of hashing buckets to allocate to the file.
+- **FileName -**This is the name to be used for the created file. The name can include absolute or relative path information.
+- **NumBuckets -**NumBuckets specifies the number of hashing buckets to allocate to the file.
 
 
 ### Note:
@@ -864,7 +864,7 @@ jbackup -Options <filepath>
 
 | **Option** | **Description** |
 | -v       | verbose mode     |
-| -e <u>EncMode</u>  | encryption mode (-E extended). <u>EncMode</u> can be: RC2, BASE64, DES, 3DES, BLOWFISH, AES, sha256 |
+| -e EncMode  | encryption mode (-E extended). EncMode can be: RC2, BASE64, DES, 3DES, BLOWFISH, AES, sha256 |
 | -f           | specify where the backup is stored |
 
 
@@ -943,9 +943,9 @@ jrestore -Options <filepath>
 | -d"DirRE"   | restore directory files matching regular expression |
 | -f Device   | restore from device file, default stdin |
 | -h"HashRE"   | restore hash files matching regular expression |
-| -H <u>FileList</u>  | restore files using only file names from <u>FileList</u> file |
+| -H FileList  | restore files using only file names from FileList file |
 | -i"ItemRE   | restore hash file items matching regular expression |
-| -I <u>ItemList</u>  | restore hash file items using only item ids from <u>ItemList</u> file |
+| -I ItemList  | restore hash file items using only item ids from ItemList file |
 | -l"LnkdRE"   | restore links matching regular expression |
 | -n           | control info files not restored |
 | -N           | control info files restored and indexes rebuilt |

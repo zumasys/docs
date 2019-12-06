@@ -10,7 +10,7 @@ The Introduction to System Manager document serves as a starting point for Admin
 
 ## PREREQUISITES
 
-In order for System Manger to connect to a jBASE server, JRCS ([<u>jBase Remote Connectivity Services</u>](http://www.jbase.com/products/jbase-multivalue-database/jrcs-jbase-remote-connectivity-services/)) must be installed and running on the jBASE server, and SQL Server 2014 Local DB and the .NET Framework v4.5.2 must be installed on the same machine as System Manager.
+In order for System Manger to connect to a jBASE server, JRCS ([jBase Remote Connectivity Services](http://www.jbase.com/products/jbase-multivalue-database/jrcs-jbase-remote-connectivity-services/)) must be installed and running on the jBASE server, and SQL Server 2014 Local DB and the .NET Framework v4.5.2 must be installed on the same machine as System Manager.
 
 ## SYSTEM MANAGER SYNOPSIS
 
@@ -26,21 +26,21 @@ System Manager also ensures the optimal health of your critical application; pro
 
 The latest version of System Manager can be found at the following URL:
 
-<u><a href="https://jsmstore.blob.core.windows.net/system-manager/release">https://jsmstore.blob.core.windows.net/system-manager/release</a></u>
+[https://jsmstore.blob.core.windows.net/system-manager/release](https://jsmstore.blob.core.windows.net/system-manager/release)
 
 The installer depends on, and will attempt to also install SQL Server 2014 Local DB and the .NET Framework v4.5.2, should they not be present on the machine. Should the prerequisite install fail for any reason, you can install them yourself by downloading the installers from the following locations:
 
 · SQL Server 2014 Local DB (32-bit):
 
-o <u><a href="http://care.dlservice.microsoft.com/dl/download/E/A/E/EAE6F7FC-767A-4038-A954-49B8B05D04EB/LocalDB%2032BIT/SqlLocalDB.msi">http://care.dlservice.microsoft.com/dl/download/E/A/E/EAE6F7FC-767A-4038-A954-49B8B05D04EB/LocalDB%2032BIT/SqlLocalDB.msi</a></u>
+o [http://care.dlservice.microsoft.com/dl/download/E/A/E/EAE6F7FC-767A-4038-A954-49B8B05D04EB/LocalDB%2032BIT/SqlLocalDB.msi](http://care.dlservice.microsoft.com/dl/download/E/A/E/EAE6F7FC-767A-4038-A954-49B8B05D04EB/LocalDB%2032BIT/SqlLocalDB.msi)
 
 · SQL Server 2014 Local DB (64-bit):
 
-o <u><a href="http://care.dlservice.microsoft.com/dl/download/E/A/E/EAE6F7FC-767A-4038-A954-49B8B05D04EB/LocalDB%2064BIT/SqlLocalDB.msi">http://care.dlservice.microsoft.com/dl/download/E/A/E/EAE6F7FC-767A-4038-A954-49B8B05D04EB/LocalDB%2064BIT/SqlLocalDB.msi</a></u>
+o [http://care.dlservice.microsoft.com/dl/download/E/A/E/EAE6F7FC-767A-4038-A954-49B8B05D04EB/LocalDB%2064BIT/SqlLocalDB.msi](http://care.dlservice.microsoft.com/dl/download/E/A/E/EAE6F7FC-767A-4038-A954-49B8B05D04EB/LocalDB%2064BIT/SqlLocalDB.msi)
 
 · .NET Framework 4.5.2:
 
-o <u><a href="https://www.microsoft.com/en-us/download/details.aspx?id=42642">https://www.microsoft.com/en-us/download/details.aspx?id=42642</a></u>
+o [https://www.microsoft.com/en-us/download/details.aspx?id=42642](https://www.microsoft.com/en-us/download/details.aspx?id=42642)
 
 After installation, you’ll have a link to System Manger in the start menu, under “Programs” -&gt; “Zumasys, Inc”, which will open your browser to the System Manager page. You can also click the link at the bottom of the final page of the installer.
 
@@ -173,13 +173,13 @@ Provide your SMTP server address and port, an email address to be used as the �
 
 ### SLACK
 
-Provide a slack token and channel to post notifications in, and whether or not to post the notifications as the user of the slack token. Clicking the test button will post a test message to slack using the information as it is populated in the slack settings. For more information about how to obtain slack tokens, [<u>visit their API documentation.</u>](https://api.slack.com/)
+Provide a slack token and channel to post notifications in, and whether or not to post the notifications as the user of the slack token. Clicking the test button will post a test message to slack using the information as it is populated in the slack settings. For more information about how to obtain slack tokens, [visit their API documentation.](https://api.slack.com/)
 
 ![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3397/99739/blob)
 
 ### TWILIO
 
-Provide an account SID, authorization token, a number the SMS will appear from, and a recipient number. Non-numeric characters will be stripped, so parenthesis and dashes will be fine to leave in, but you must provide fully qualified phone numbers, including the country code. The leading + is optional. Clicking the test button will send a test SMS using the information as it is currently populated in the Twilio settings. For more information about obtaining your account SID or auth token, [<u>visit their API documentation</u>](https://www.twilio.com/api).
+Provide an account SID, authorization token, a number the SMS will appear from, and a recipient number. Non-numeric characters will be stripped, so parenthesis and dashes will be fine to leave in, but you must provide fully qualified phone numbers, including the country code. The leading + is optional. Clicking the test button will send a test SMS using the information as it is currently populated in the Twilio settings. For more information about obtaining your account SID or auth token, [visit their API documentation](https://www.twilio.com/api).
 
 ![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3397/99740/blob)
 

@@ -4,7 +4,7 @@
 **Updated At:** 9/3/2019 11:00:23 PM  
 
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/R8vsMx2Uq7k?&wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable"></iframe>
+
 
 Profiles define a terminal session, and are analogous to the session configuration files (.atsp, .atcf) used by AccuTerm Desktop. A profile defines the server name or IP to connect to, terminal type, color theme, function keys, screen size, and other settings. The .atsp file used by AccuTerm 8 Desktop is essentially a profile, and in the future you will be able to upload an .atsp file created by AccuTerm 8 Desktop as a profile to use with AccuTerm Web. Each profile must be assigned to one or more roles.
 

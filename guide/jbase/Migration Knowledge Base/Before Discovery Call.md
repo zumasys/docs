@@ -252,32 +252,110 @@ RAN boxes, serial direct connection, portserver
 | <br> |
 
 
-the standard is email from server with Esker for faxing<u><br><!--[if !supportLineBreakNewLine]--><br></u>
-
-<u>&nbsp;</u>
-
-## <u><a name="_Toc437860044">Printers</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</u>
-
-<u>&nbsp;</u>
+the standard is email from server with Esker for faxing
 
 
-| <br> |
+
+## Printers           
 
 
-<u>&nbsp;</u>
-
-<u>On Universe &ldquo;cat /var/spool/uv/sp.config&rdquo;<br>Find out if serial printers on RAN or other proprietary boxes are going to be converted to Portserves, Printservers or combination of the two. &nbsp;Parallel Printers (not on a printserver) need to have a printserver and possibly some proprietary such as Genicom will need special adapter.</u>
-
-<u>&nbsp;</u>
-
-## <u><a name="_Toc437860045">What user or users will be needed to test shims on the system</a></u>
-
-<u>&nbsp;</u>
 
 
 | <br> |
 
-<u>&nbsp;<p>Get the linux login, shims login and passwords and prompts needed</p>&nbsp;<h2>Accounts to be converted and not converted</h2>&nbsp;<table border="1" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" width="719"><br></td></tr></tbody></table>&nbsp;<p>On AIX &ldquo;du -sk /dbms/*&rdquo;, on Linux &ldquo;du -sh /dbms/*&rdquo; gives list of account directories and space<br>cd /usr/lpp/iv ; /usr/lpp/uv/bin/uv then &lt;esc&gt; from menu and LIST-ITEM UV.ACCOUNT for list of accounts</p>&nbsp;<h2>If converting to on-site server, is UPS sufficient for new server?</h2>&nbsp;<table border="1" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" width="719"><br></td></tr></tbody></table>&nbsp;<h2><a name="_Toc437860046">Hardware and Software needs discovered?</a></h2>&nbsp;<table border="1" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" width="719"><br></td></tr></tbody></table>&nbsp;<p>Printservers, PortServers, Terminal Emulators, Firewall clients, UPS, etc</p>&nbsp;<h2><a name="_Toc437860047">How do they handle these common errors&hellip;.</a></h2>&nbsp;<p>JBASE_ERRMSG_DIVIDE_ZERO &nbsp; Divide by zero !!-- ZERO returned</p>&nbsp;<p>JBASE_ERRMSG_NON_NUMERIC &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Non-numeric value -- ZERO USED</p>&nbsp;<p>JBASE_ERRMSG_ZERO_USED &nbsp; &nbsp; &nbsp;Invalid or uninitialised variable -- ZERO USED</p>&nbsp;<h1><a name="_Toc456104484">Third Party Product List</a></h1>&nbsp;<p>Licensing, installation and transfer of third party products is the responsibility of the customer. &nbsp;However, third party products are important elements of your system and must be address during the migration project planning. &nbsp;While Zumasys does not control or take responsibility for Third Party Products, we will incorporate these dependencies into the overall project plan and help to manage these elements.</p>&nbsp;&nbsp;<p>The following table can be used to identify and plan for the migration of third party products:</p>&nbsp;&nbsp;<table border="1" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" width="112">Product Name<br></td><td valign="top" width="86">Vendor<br></td><td valign="top" width="104">Contact<br></td><td valign="top" width="175">License/Transfer Fee<br></td><td valign="top" width="147">Installation/Services<br></td></tr><tr><td valign="top" width="112"><br></td><td valign="top" width="86"><br></td><td valign="top" width="104"><br></td><td valign="top" width="175"><br></td><td valign="top" width="147"><br></td></tr><tr><td valign="top" width="112"><br></td><td valign="top" width="86"><br></td><td valign="top" width="104"><br></td><td valign="top" width="175"><br></td><td valign="top" width="147"><br></td></tr><tr><td valign="top" width="112"><br></td><td valign="top" width="86"><br></td><td valign="top" width="104"><br></td><td valign="top" width="175"><br></td><td valign="top" width="147"><br></td></tr><tr><td valign="top" width="112"><strong>&nbsp;</strong><br></td><td valign="top" width="86"><br></td><td valign="top" width="104"><br></td><td valign="top" width="175"><br></td><td valign="top" width="147"><br></td></tr><tr><td valign="top" width="112"><br></td><td valign="top" width="86"><br></td><td valign="top" width="104"><br></td><td valign="top" width="175"><br></td><td valign="top" width="147"><br></td></tr><tr><td valign="top" width="112"><br></td><td valign="top" width="86"><br></td><td valign="top" width="104"><br></td><td valign="top" width="175"><br></td><td valign="top" width="147"><br></td></tr><tr><td valign="top" width="112"><br></td><td valign="top" width="86"><br></td><td valign="top" width="104"><br></td><td valign="top" width="175"><br></td><td valign="top" width="147"><br></td></tr><tr><td valign="top" width="112"><br></td><td valign="top" width="86"><br></td><td valign="top" width="104"><br></td><td valign="top" width="175"><br></td><td valign="top" width="147"><br></td></tr></tbody></table>&nbsp;<p>Insert additional rows as required</p>&nbsp;&nbsp;<h2><a name="_Toc456104485">List of common third party products</a></h2>&nbsp;<ul><li>Parts catalogs</li><li>Shipping Systems</li><li>Tax calculation systems</li><li>Address verification systems</li><li>EDI</li><li>Pricing</li><li>Customer portals</li><li>Document management/imaging</li><li>Faxing</li><li>Bulk Email</li><li>FTP servers</li><li>Web Services</li></ul>&nbsp;&nbsp;<h2>Items left for future discovery?</h2>&nbsp;<table border="1" cellpadding="0" cellspacing="0"><tbody><tr><td valign="top" width="719"><u>&nbsp;</u><br></td></tr></tbody></table>&nbsp;&nbsp;<p><u>&nbsp;</u></p>&nbsp;</u>
+
+
+
+On Universe “cat /var/spool/uv/sp.config”
+Find out if serial printers on RAN or other proprietary boxes are going to be converted to Portserves, Printservers or combination of the two.  Parallel Printers (not on a printserver) need to have a printserver and possibly some proprietary such as Genicom will need special adapter.
+
+
+
+## What user or users will be needed to test shims on the system
+
+
+
+
+| <br> |
+
+ 
+Get the linux login, shims login and passwords and prompts needed
+ 
+## Accounts to be converted and not converted
+ 
+
+| <br> |
+
+ 
+On AIX “du -sk /dbms/\*”, on Linux “du -sh /dbms/\*” gives list of account directories and space
+cd /usr/lpp/iv ; /usr/lpp/uv/bin/uv then &lt;esc&gt; from menu and LIST-ITEM UV.ACCOUNT for list of accounts
+ 
+## If converting to on-site server, is UPS sufficient for new server?
+ 
+
+| <br> |
+
+ 
+## Hardware and Software needs discovered?
+ 
+
+| <br> |
+
+ 
+Printservers, PortServers, Terminal Emulators, Firewall clients, UPS, etc
+ 
+## How do they handle these common errors….
+ 
+JBASE\_ERRMSG\_DIVIDE\_ZERO   Divide by zero !!-- ZERO returned
+ 
+JBASE\_ERRMSG\_NON\_NUMERIC              Non-numeric value -- ZERO USED
+ 
+JBASE\_ERRMSG\_ZERO\_USED      Invalid or uninitialised variable -- ZERO USED
+ 
+# Third Party Product List
+ 
+Licensing, installation and transfer of third party products is the responsibility of the customer.  However, third party products are important elements of your system and must be address during the migration project planning.  While Zumasys does not control or take responsibility for Third Party Products, we will incorporate these dependencies into the overall project plan and help to manage these elements.
+  
+The following table can be used to identify and plan for the migration of third party products:
+  
+
+| Product Name<br> | Vendor<br> | Contact<br> | License/Transfer Fee<br> | Installation/Services<br> |
+| <br> | <br> | <br> | <br> | <br> |
+| <br> | <br> | <br> | <br> | <br> |
+| <br> | <br> | <br> | <br> | <br> |
+|  <br> | <br> | <br> | <br> | <br> |
+| <br> | <br> | <br> | <br> | <br> |
+| <br> | <br> | <br> | <br> | <br> |
+| <br> | <br> | <br> | <br> | <br> |
+| <br> | <br> | <br> | <br> | <br> |
+
+ 
+Insert additional rows as required
+  
+## List of common third party products
+ 
+- Parts catalogs
+- Shipping Systems
+- Tax calculation systems
+- Address verification systems
+- EDI
+- Pricing
+- Customer portals
+- Document management/imaging
+- Faxing
+- Bulk Email
+- FTP servers
+- Web Services
+
+  
+## Items left for future discovery?
+ 
+
+|  <br> |
+
+  
+
+ 
 
 
 

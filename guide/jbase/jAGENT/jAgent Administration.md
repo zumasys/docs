@@ -67,7 +67,7 @@ JEDIFILEPATH=$HOME
 JEDIFILENAME_MD=$HOME/MD 
 ```
 
-*Note: <u>APPDIR</u> and <u>CURDIR</u> if not set refer to the  location of the **jbase\_agent** executable and the current directory respectively.*
+*Note: APPDIR and CURDIR if not set refer to the  location of the **jbase\_agent** executable and the current directory respectively.*
 
 #### jAgent Environment Variables
 

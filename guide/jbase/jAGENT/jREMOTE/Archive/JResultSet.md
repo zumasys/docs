@@ -6,18 +6,18 @@
 
 ## Interface JResultSet
 
-- <dl><dt>All Known Implementing Classes:</dt><dd><a href="file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/io/JResultSetImpl.html" title="class in com.jbase.jremote.io">JResultSetImpl</a></dd></dl>
+- All Known Implementing Classes:[JResultSetImpl](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/io/JResultSetImpl.html "class in com.jbase.jremote.io")
 ```
 public interface JResultSet
 ```
 
-Allows iteration of a result set fetched in blocks.<dl><dt>Author:</dt><dd>aphethean</dd></dl>
+Allows iteration of a result set fetched in blocks.Author:aphethean
 - - ### Method Summary
 
 
 | Modifier and Type | Method and Description |
 | --- | --- |
-<caption>All Methods <a href="javascript%3Ashow(2);">Instance Methods</a> <a href="javascript%3Ashow(4);">Abstract Methods</a>&nbsp;</caption>| `JDynArray` | `getRow()`  |
+All Methods [Instance Methods](javascript%3Ashow%282%29;) [Abstract Methods](javascript%3Ashow%284%29;) | `JDynArray` | `getRow()`  |
 | `boolean` | `next()`  |
 - - ### Method Detail
  
@@ -26,7 +26,7 @@ Allows iteration of a result set fetched in blocks.<dl><dt>Author:</dt><dd>aphet
 ```
 boolean next()       throws JRemoteException
 ```
-<dl><dt>Throws:</dt><dd><code><a href="file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JRemoteException.html" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Throws:`JRemoteException`
     - - #### getRow
 
 ```

@@ -4,7 +4,7 @@
 **Updated At:** 8/28/2018 6:34:35 AM  
 
 
-<!--[if !supportLineBreakNewLine]-->
+
 
 # Prerequisites
 
@@ -146,7 +146,7 @@ Considering the above example, 5 months worth of sales for a client would be as:
 - Month 5 – $2,340
 
 
-With this structure, it is easy to determine sales for a quarter (1<sup>st</sup> qtr - $1,700), year-to-date sales ($4,190.50), year-to-date as of any month (YTD through month 4 - $1,850.50).
+With this structure, it is easy to determine sales for a quarter (1st qtr - $1,700), year-to-date sales ($4,190.50), year-to-date as of any month (YTD through month 4 - $1,850.50).
 
 
 
@@ -563,7 +563,7 @@ User directories that may exist on any installation could include the following:
 
 
 
-### The <u>Optional</u> MD
+### The Optional MD
 
 MD or VOC references files and commands. jBASE uses environment variables to define search paths.
 

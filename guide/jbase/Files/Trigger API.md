@@ -27,7 +27,7 @@ The subroutine can used to define ancillary updates that need to occur as a resu
 The arguments of a trigger subroutine are generally assigned by the database management system at the time the subroutine is invoked, but there are exceptions.  The subroutine can in turn assign or reassign argument values if the trigger was created with the **-a** option.  The table below summarizes the state of each argument at the time the subroutine is invoked, according to each trigger type.  Note that there are three cases where *record* is null even though the record key is assigned, *i.e.*, pre- and post-delete and pre-read.  This is so for the read event because there is no need to read a record *before* reading a record, and in the case of the delete events, because the attempt to delete a non-existent record warrants no further action.  If an application requires a record to be verified prior to deleting it, then that operation that should be performed at a higher level.
 
 
-| **<u>Trigger Type</u>**<br> | filevar<br> | event<br> | prerc<br> | flags<br> | recordkey<br> | record<br> | userrc<br> |
+| **Trigger Type**<br> | filevar<br> | event<br> | prerc<br> | flags<br> | recordkey<br> | record<br> | userrc<br> |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | **Pre-Write**<br> | ASSIGNED\*<br> | ASSIGNED<br> | ASSIGNED<br> | NOT USED<br> | ASSIGNED<br> | ASSIGNED<br> | USER DEFINABLE<br> |
 | **Post-Write**<br> | ASSIGNED\*<br> | ASSIGNED<br> | ASSIGNED<br> | NOT USED<br> | ASSIGNED<br> | ASSIGNED<br> | USER DEFINABLE<br> |

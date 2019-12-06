@@ -3,22 +3,10 @@
 **Created At:** 9/25/2017 12:07:47 PM  
 **Updated At:** 4/5/2018 11:45:13 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="ConnectionHolder (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="ConnectionHolder (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
+
 
 ## Class ConnectionHolder
 
@@ -26,8 +14,6 @@ var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is dis
 public class ConnectionHolder
 extends org.springframework.transaction.support.ResourceHolderSupport
 ```
-
-<!--   -->
 
 ### Constructor Summary
 
@@ -39,7 +25,7 @@ extends org.springframework.transaction.support.ResourceHolderSupport
 
 
 
-<!--   -->
+
 
 ### Method Summary
 
@@ -49,33 +35,30 @@ extends org.springframework.transaction.support.ResourceHolderSupport
 | `JConnection`<br> | `getJConnection()` <br> |
 
 
-- <!--   -->Methods inherited from class org.springframework.transaction.support.ResourceHolderSupport
+- Methods inherited from class org.springframework.transaction.support.ResourceHolderSupport
     - `clear, getDeadline, getTimeToLiveInMillis, getTimeToLiveInSeconds, hasTimeout, isOpen, isRollbackOnly, isSynchronizedWithTransaction, released, requested, reset, setRollbackOnly, setSynchronizedWithTransaction, setTimeoutInMillis, setTimeoutInSeconds`
-- <!--   -->Methods inherited from class java.lang.Object
+- Methods inherited from class java.lang.Object
     - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-<!--   -->
-
 ### Constructor Detail
-<!--   -->
+
 #### ConnectionHolder
 
 ```
 public ConnectionHolder(JConnection connection)
 ```
-<!-- ============ METHOD DETAIL ========== -->
-<!--   -->
+
+
 
 ### 
 
 
 ### Method Detail
-<!--   -->
+
 #### getJConnection
 
 ```
 public JConnection getJConnection()
 ```
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

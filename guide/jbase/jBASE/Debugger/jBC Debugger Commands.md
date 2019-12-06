@@ -157,7 +157,7 @@ The following commands allow this feature:
 
 
 | **v | pg**<br> | Pipe through the **pg** filter<br> |
-| **v X&lt;3&gt; | hd**<br> | Show field 3 in <u>hex&nbsp;</u>mode<br> |
+| **v X&lt;3&gt; | hd**<br> | Show field 3 in hex mode<br> |
 | **t *var* &gt;&gt; *file***<br> | Set trace for *var*(redirect to ***file***)<br> |
 | **s -t 999**<br> | Assuming trace above, each step will display the value of *var* and append the output to file ***file***<br> |
 | **t &gt; *file***<br> | redirect trace points to ***file***<br> |

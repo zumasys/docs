@@ -73,7 +73,7 @@ Where option may be:
 | -D**nn** <br> | If no records are processed by a jlogdup process (or if there is no jlogdup process active), then after **nn** minutes of inactivity an error message is displayed. The error message is repeated every **nn** minutes the jlogdup process(es) are inactive.<br> |
 | -E<br> | If the jlogdup program reports an error, this option causes jlogmonitor to also display an error. The actual nature of the error can only be viewed by either looking at the screen where the jlogdup process is active, or by listing the jlogdup error message file (assuming the –eERRFILE option was used).<br> |
 | -h<br> | display help<br> |
-| -l**nn** <br> | The status of the journaler can be ACTIVE , INACTIVE or SUSPENDED. Should the status of the journaler be set to either INACTIVE or SUSPENDED (with <u>jlogadmin</u>) for more than **nn** minutes, then an error message will be displayed. The error message will be repeated every **nn** minutes that the journaler is not active<br> |
+| -l**nn** <br> | The status of the journaler can be ACTIVE , INACTIVE or SUSPENDED. Should the status of the journaler be set to either INACTIVE or SUSPENDED (with jlogadmin) for more than **nn** minutes, then an error message will be displayed. The error message will be repeated every **nn** minutes that the journaler is not active<br> |
 | -S**nn** <br> | This option is used to determine if any updates are being applied to the journal logs. If there are no updates applied to the current journal log set for **nn** minutes then an error message is displayed. The error message is repeated for every **nn** minutes that the system is inactive.<br> |
 
 

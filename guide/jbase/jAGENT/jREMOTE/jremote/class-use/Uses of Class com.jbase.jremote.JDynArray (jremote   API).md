@@ -3,18 +3,11 @@
 **Created At:** 9/25/2017 11:39:13 AM  
 **Updated At:** 2/15/2018 8:02:57 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="Uses of Class com.jbase.jremote.JDynArray (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.JDynArray (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/30312-jagent/jremote-api)
 - [Class](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote")
@@ -37,21 +30,12 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 ## Uses of Class
 com.jbase.jremote.JDynArray
 
-- <caption><span>Packages that use <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Package | Description |
+- Packages that use [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Package | Description |
 | --- | --- |
 | com.jbase.jremote |   |
 | com.jbase.jremote.io |   |
@@ -59,11 +43,10 @@ com.jbase.jremote.JDynArray
 | com.jbase.jremote.jca.cci |   |
 | com.jbase.jremote.jca.inflow |   |
 | com.jbase.jremote.protocol |   |
-- - <!--   -->
-### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote](/30312-jagent/jremote-api)
+- - ### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote](/30312-jagent/jremote-api)
 
 
-<caption><span>Methods in <a href="/30312-jagent/jremote-api">com.jbase.jremote</a> that return <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote](/30312-jagent/jremote-api) that return [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JDynArray` | JExecuteResults.`getCapturingVar()`  |
 | `JDynArray` | JConnection.`getCommon(String name)`<br>Return the value of the named common with the supplied name.<br> |
@@ -78,7 +61,7 @@ com.jbase.jremote.JDynArray
 
 
 
-<caption><span>Methods in <a href="/30312-jagent/jremote-api">com.jbase.jremote</a> with parameters of type <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote](/30312-jagent/jremote-api) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JSelectList` | JConnection.`createSelectList(JDynArray jd)`<br>Create a select list object from an existing dynamic array<br> containing a list of keys separated by attribute markers.<br> |
 | `JResultSet` | JStatement.`execute(JDynArray queries)`<br>Execute query.<br> |
@@ -89,14 +72,13 @@ com.jbase.jremote.JDynArray
 
 
 
-<caption><span>Constructors in <a href="/30312-jagent/jremote-api">com.jbase.jremote</a> with parameters of type <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Constructor and Description |
+Constructors in [com.jbase.jremote](/30312-jagent/jremote-api) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Constructor and Description |
 | --- |
 | `JExecuteResults(JSelectListProt selectListProt,<br>               JDynArray capturingVar,<br>               JDynArray settingVar)`  |
-    - <!--   -->
-### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
+    - ### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
 
 
-<caption><span>Methods in <a href="/39250-io/com_jbase_jremote_io_package-summary">com.jbase.jremote.io</a> that return <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) that return [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JDynArray` | JConnectionImpl.`getCommon(String name)`<br>Return the value of the named common with the supplied name.<br> |
 | `JDynArray` | JCursorImpl.`getRecord()`  |
@@ -108,7 +90,7 @@ com.jbase.jremote.JDynArray
 
 
 
-<caption><span>Methods in <a href="/39250-io/com_jbase_jremote_io_package-summary">com.jbase.jremote.io</a> with parameters of type <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JSelectList` | JConnectionImpl.`createSelectList(JDynArray jd)`  |
 | `JResultSet` | JStatementImpl.`execute(JDynArray queries)`  |
@@ -119,14 +101,13 @@ com.jbase.jremote.JDynArray
 
 
 
-<caption><span>Constructors in <a href="/39250-io/com_jbase_jremote_io_package-summary">com.jbase.jremote.io</a> with parameters of type <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Constructor and Description |
+Constructors in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Constructor and Description |
 | --- |
 | `JSelectListImpl(AbstractJRemoteConnection connection,<br>               JDynArray keys)`<br>Constructs a select list from specified dynamic array.<br> |
-    - <!--   -->
-### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary)
+    - ### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary)
 
 
-<caption><span>Methods in <a href="/39258-jca/com_jbase_jremote_jca_package-summary">com.jbase.jremote.jca</a> that return <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) that return [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JDynArray` | WrappedJConnection.`getCommon(String name)`<br>Return the value of the common with supplied name.<br> |
 | `JDynArray` | WrappedJConnection.`newJDynArray()`  |
@@ -136,42 +117,39 @@ com.jbase.jremote.JDynArray
 
 
 
-<caption><span>Methods in <a href="/39258-jca/com_jbase_jremote_jca_package-summary">com.jbase.jremote.jca</a> with parameters of type <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JSelectList` | WrappedJConnection.`createSelectList(JDynArray jd)`  |
 | `boolean` | WrappedJFile.`write(String recordKey,<br>     JDynArray record)`  |
 | `boolean` | WrappedJFile.`writeU(String recordKey,<br>      JDynArray record,<br>      boolean blockedWrite)`  |
-    - <!--   -->
-### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote.jca.cci](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
+    - ### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote.jca.cci](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
 
 
-<caption><span>Methods in <a href="/39259-cci/com_jbase_jremote_jca_cci_package-summary">com.jbase.jremote.jca.cci</a> that return <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca.cci](/39259-cci/com_jbase_jremote_jca_cci_package-summary) that return [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected JDynArray` | CCIJRemoteDynamicArrayRecord.`getJDynArray()`  |
-    - <!--   -->
-### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+    - ### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
 
 
-<caption><span>Methods in <a href="/39262-inflow/com_jbase_jremote_jca_inflow_package-summary">com.jbase.jremote.jca.inflow</a> that return <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary) that return [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JDynArray` | JRemoteMessageListener.`onMessage(JDynArray dynArray)`  |
 
 
 
-<caption><span>Methods in <a href="/39262-inflow/com_jbase_jremote_jca_inflow_package-summary">com.jbase.jremote.jca.inflow</a> with parameters of type <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JDynArray` | JRemoteMessageListener.`onMessage(JDynArray dynArray)`  |
-    - <!--   -->
-### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary)
+    - ### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary)
 
 
-<caption><span>Fields in <a href="/39270-protocol/com_jbase_jremote_protocol_package-summary">com.jbase.jremote.protocol</a> with type parameters of type <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Field and Description |
+Fields in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary) with type parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Field and Description |
 | --- | --- |
 | `protected List<JDynArray>` | JSelectListProt.`records`  |
 
 
 
-<caption><span>Methods in <a href="/39270-protocol/com_jbase_jremote_protocol_package-summary">com.jbase.jremote.protocol</a> that return <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary) that return [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JDynArray` | JediResponse.`getData(CharsetEncoder encoder,<br>       CharsetDecoder decoder)`  |
 | `JDynArray` | InputOutputResponse.`getOutput()`  |
@@ -181,21 +159,20 @@ com.jbase.jremote.JDynArray
 
 
 
-<caption><span>Methods in <a href="/39270-protocol/com_jbase_jremote_protocol_package-summary">com.jbase.jremote.protocol</a> with parameters of type <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | JSelectListProt.`setRecord(JDynArray record)`<br>Modifies the value of the current record<br> |
 
 
 
-<caption><span>Constructors in <a href="/39270-protocol/com_jbase_jremote_protocol_package-summary">com.jbase.jremote.protocol</a> with parameters of type <a href="/39248-jremote/com_jbase_jremote_jdynarray" title="class in com.jbase.jremote">JDynArray</a></span><span class="tabEnd"> </span></caption>| Constructor and Description |
+Constructors in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Constructor and Description |
 | --- |
 | `JSelectListProt(JDynArray keys)`<br>Constructs a select list from specified dynamic array.<br> |
 | `StatementExecuteQueryRequest(JDynArray queries,<br>                            JSelectListProt selectList)`  |
 | `WriteRecordRequest(int writeMode,<br>                  String fileName,<br>                  String recordKey,<br>                  JDynArray data)`  |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/30312-jagent/jremote-api)
 - [Class](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote")
@@ -218,15 +195,6 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

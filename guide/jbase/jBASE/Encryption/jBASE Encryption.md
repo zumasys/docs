@@ -16,13 +16,13 @@ Once the policy is decided, jBASE will then operate exactly as before with barel
 
 ## Key components
 
-**<u>System-wide encryption</u>**. Keys are stored, in encrypted form, in shared memory and apply to the entire system.
+**System-wide encryption**. Keys are stored, in encrypted form, in shared memory and apply to the entire system.
 
-**<u>New class libraries</u>**. The $file library will be extended and a new class $security will add application usable encryption and decryption routines as well as methods to read and update the security policy.
+**New class libraries**. The $file library will be extended and a new class $security will add application usable encryption and decryption routines as well as methods to read and update the security policy.
 
-**<u>jsecurity</u>**. A new command line utility which will allow the administrator to perform security policy operations. Must be run by root/administrator user.
+**jsecurity**. A new command line utility which will allow the administrator to perform security policy operations. Must be run by root/administrator user.
 
-**<u>&lt;JBASERELEASE&gt;/config/jsecurity</u>**. A new Security Policy File in the jBASE release which contains the security policy and all the passwords. This file will be encrypted with a key only known to the user.
+**&lt;JBASERELEASE&gt;/config/jsecurity**. A new Security Policy File in the jBASE release which contains the security policy and all the passwords. This file will be encrypted with a key only known to the user.
 
 ## Basic Operation
 

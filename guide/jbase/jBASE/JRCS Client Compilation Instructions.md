@@ -50,12 +50,9 @@ Start with installing the JDK and Eclipse. The Eclipse distro contains a distrib
 - Unzip the source into a directory of your choice. Preserve the paths in the archive as you unzip.
 - Open Eclipse and create a blank workspace (or use the default workspace).
 - From the File menu select Import.
-- <!--[if !vml]--><!--[endif]-->In the Import dialog select General/Existing Projects into Workspace as shown below:
-<!--[if !vml]-->
+- In the Import dialog select General/Existing Projects into Workspace as shown below:
 - Click Next. In the “Select root directory” line select the directory where you unzipped the source. Eclipse should pick up the project and display it in the list of projects as shown below:
-<!--[if !vml]--><!--[endif]-->
-<!--[if !supportLineBreakNewLine]-->
-- <!--[if !vml]--><!--[endif]--><!--[if !vml]--><!--[endif]-->Make sure that “JRClient” is checked and click Finish. The project will be imported into workspace. If an error comes up regarding the missing YGUARD variable, disregard it. It will be fixed in the next step.
+- Make sure that “JRClient” is checked and click Finish. The project will be imported into workspace. If an error comes up regarding the missing YGUARD variable, disregard it. It will be fixed in the next step.
 - Open the Preferences dialog from the Window menu. In the tree on the left hand side select Run/Debug, then String Substitution. On the right hand side add a new variable called YGUARD (all uppercase) and set its value to the lib subfolder of the yGuard installation folder. Here is an example:
 
 

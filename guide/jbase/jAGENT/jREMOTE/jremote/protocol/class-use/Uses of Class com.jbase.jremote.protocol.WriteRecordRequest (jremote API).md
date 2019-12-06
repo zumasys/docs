@@ -3,34 +3,16 @@
 **Created At:** 9/25/2017 12:17:07 PM  
 **Updated At:** 4/5/2018 11:18:19 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="Uses of Class com.jbase.jremote.protocol.WriteRecordRequest (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.protocol.WriteRecordRequest (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+
+
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 ## Uses of Class
 com.jbase.jremote.protocol.WriteRecordRequest
 
 No usage of com.jbase.jremote.protocol.WriteRecordRequest
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
-
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

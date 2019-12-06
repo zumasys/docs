@@ -4,7 +4,7 @@
 **Updated At:** 5/24/2019 7:14:40 PM  
 
 
-## <iframe width="640" height="360" class="fr-draggable" src="https://www.youtube.com/embed/KsVIBNmAmQ0?wmode=opaque" frameborder="0" allowfullscreen=""></iframe>
+## 
 
 
 ## What do I start with? 

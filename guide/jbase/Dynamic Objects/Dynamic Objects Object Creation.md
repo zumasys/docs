@@ -42,7 +42,7 @@ args = new object("$vararg")
 
 
 
-When an object is created, it automatically calls its <u><a href="dynamic-objects-instance-methods" title="">Constructor</a></u> method.
+When an object is created, it automatically calls its [Constructor](dynamic-objects-instance-methods) method.
 
 If an object will not have any methods then it is not necessary to give the object a name, or use the built-in [**$jbase**](dynamic-objects-jbase-class) class, in which case it can be created in any of these ways:
 
@@ -73,4 +73,4 @@ crt the_answer->$tojson()      ;* Displays the original json string
 
 Under the covers, the built-in **$fromjson()** method uses **new object()**.
 
-Refer to the [<u>Instance Methods</u>](dynamic-objects-instance-methods) documentation for additional examples.
+Refer to the [Instance Methods](dynamic-objects-instance-methods) documentation for additional examples.

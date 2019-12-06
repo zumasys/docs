@@ -9,7 +9,7 @@
 <badge text='converting from d3' vertical='middle' />
 <badge text='jbase conversion' vertical='middle' />
 
-<iframe width="640" height="360" class="fr-draggable" src="https://www.youtube.com/embed/pBZkxtmgWTU?wmode=opaque" frameborder="0" allowfullscreen=""></iframe>
+
 
 This article and accompanying video will provide you with an overview of steps and questions or a checklist to be reviewed an answered as preparation for a migration to jBASE.
 

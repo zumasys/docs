@@ -3,22 +3,8 @@
 **Created At:** 9/25/2017 11:29:14 AM  
 **Updated At:** 9/20/2018 1:05:57 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="JFile (jrclient   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JFile (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";&amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;gt;
+
 
 ## Class jFile
 
@@ -31,8 +17,7 @@ extends Object
 ```
 
 Represents a jBASE file variable
-<dl><dt><br></dt></dl>
-<!--   -->
+
 
 ## Constructor Summary
 
@@ -45,7 +30,7 @@ Represents a jBASE file variable
 
 
 
-<!--   -->
+
 
 ## Method Summary
 
@@ -81,7 +66,7 @@ Represents a jBASE file variable
 | void<br> | writeV(String key, [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs") data, int attrib, boolean unlock)<br> | Writes a record attribute to the file optionally releasing the lock<br> |
 
 
-<!--   -->
+
 
 ### 
 
@@ -89,23 +74,21 @@ Represents a jBASE file variable
 ## Methods inherited from class java.lang.Object
 `clone, equals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-<!--   -->
-
 ## Constructor Detail
-<!--   -->
+
 #### **JFile**
 
 ```
 protected JFile(int handle, String name, JConnection conn)
 ```
-<!-- ============ METHOD DETAIL ========== -->
-<!--   -->
+
+
 
 ### 
 
 
 ## Method Detail
-<!--   -->
+
 #### **clearFile**
 
 ```
@@ -117,7 +100,7 @@ throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 Clears the file
 
 Throws: `JException `
-<!--   -->
+
 #### 
 
 
@@ -156,7 +139,7 @@ Parameters:
 
 `key` - Record key.
 
-Throws: `JException `<!--   -->
+Throws: `JException `
 
 #### 
 
@@ -181,7 +164,7 @@ Parameters:
 Returns: JDynArray object with index information.
 
 Throws: `JException`
-<!--   -->
+
 #### 
 
 
@@ -205,7 +188,7 @@ Parameters:
 Returns: JIndex object representing the resulting index variable.
 
 Throws: `JException`
-<!--   -->
+
 #### 
 
 
@@ -225,7 +208,7 @@ Retrieves the file path.
 Returns: File path
 
 Throws: `JException`
-<!--   -->
+
 #### **read**
 
 ```
@@ -245,7 +228,7 @@ Parameters:
 Returns: JDynArray with record data.
 
 Throws: `JException`
-<!--   -->
+
 #### **read**
 
 ```
@@ -265,7 +248,7 @@ Parameters:
 Returns: JDynArray with record data.
 
 Throws: `JException`
-<!--   -->
+
 #### **read**
 
 ```
@@ -283,7 +266,7 @@ Parameters:
 Returns: JDynArray with record data.
 
 Throws: `JException`
-<!--   -->
+
 #### **readV**
 
 ```
@@ -307,7 +290,7 @@ Parameters:
 Returns: JDynArray with attribute data.
 
 Throws: `JException`
-<!--   -->
+
 #### **readV**
 
 ```
@@ -329,7 +312,7 @@ Parameters:
 Returns: JDynArray with attribute data.
 
 Throws: `JException`
-<!--   -->
+
 #### **readV**
 
 ```
@@ -349,7 +332,7 @@ Parameters:
 Returns: JDynArray with attribute data.
 
 Throws: `JException`
-<!--   -->
+
 #### **release**
 
 ```
@@ -365,7 +348,7 @@ Parameters:
 `key` - Record key.
 
 Throws: `JException`
-<!--   -->
+
 #### **releaseAll**
 
 ```
@@ -377,7 +360,7 @@ throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 Releases all locks held by the current session on the given file.
 
 Throws: `JException`
-<!--   -->
+
 #### **select**
 
 ```
@@ -391,7 +374,7 @@ Selects all keys in the file in hash order.
 Returns: JSelectList representing the resulting select list.
 
 Throws: `JException`
-<!--   -->
+
 #### **sselect**
 
 ```
@@ -405,7 +388,7 @@ Selects all keys in the file in ascending sorted order.
 Returns: JSelectList representing the resulting select list.
 
 Throws: `JException`
-<!--   -->
+
 #### **write**
 
 ```
@@ -425,7 +408,7 @@ Parameters:
 `unlock` - If true, unlocks the record after writing. Otherwise a WRITEU is performed and the lock is kept.
 
 Throws: `JException`
-<!--   -->
+
 #### **write**
 
 ```
@@ -441,7 +424,7 @@ Parameters:` `
 `data` - Record data.
 
 Throws: `JException `
-<!--   -->
+
 #### 
 
 
@@ -469,7 +452,7 @@ Parameters:
 `unlock` - If true, unlocks the record after writing. Otherwise a WRITEVU is performed and the lock is kept.
 
 Throws: `JException`
-<!--   -->
+
 #### **readNamedField**
 
 ```
@@ -493,7 +476,7 @@ Parameters:
 Returns: JDynArray with attribute data.
 
 Throws: `JException`
-<!--   -->
+
 #### **readNamedField**
 
 ```
@@ -515,7 +498,7 @@ Parameters:
 Returns: JDynArray with attribute data.
 
 Throws: `JException`
-<!--   -->
+
 #### **readNamedField**
 
 ```
@@ -535,7 +518,7 @@ Parameters:
 Returns: JDynArray with attribute data.
 
 Throws: `JException`
-<!--   -->
+
 #### **writeNamedField**
 
 ```
@@ -557,7 +540,7 @@ Parameters:
 `unlock` - If true, unlocks the record after writing. Otherwise a WRITEVU is performed and the lock is kept.
 
 Throws: `JException`
-<!--   -->
+
 #### **writeNamedField**
 
 ```
@@ -583,7 +566,7 @@ Throws: `JException`
 
 
 
-<!--   -->
+
 #### **writeV**
 
 public void writeV(String key, [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs") data, int attrib)
@@ -607,13 +590,13 @@ Throws: `JException`
 
 
 
-<!--   -->
+
 #### **getHandle**
 
 ```
 protected int getHandle()
 ```
-<!--   -->
+
 #### 
 
 
@@ -627,5 +610,5 @@ protected void finalize()
 ```
 
 Overrides: `finalize` in class `Object`
-<!-- ========= END OF CLASS DATA ========= -->
+
 

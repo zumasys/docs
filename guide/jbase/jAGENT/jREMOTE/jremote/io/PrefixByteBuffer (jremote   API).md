@@ -3,24 +3,11 @@
 **Created At:** 9/25/2017 11:54:03 AM  
 **Updated At:** 2/15/2018 8:02:16 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="PrefixByteBuffer (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="PrefixByteBuffer (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39250-io/com_jbase_jremote_io_package-summary)
 - Class
@@ -43,15 +30,7 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -64,8 +43,7 @@ jremote <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= --><!-- ======== START OF CLASS DATA ======== -->
+
 com.jbase.jremote.io
 
 ## Class PrefixByteBuffer
@@ -82,30 +60,26 @@ public class PrefixByteBuffer
 extends Object
 ```
 
-- <!-- =========== FIELD SUMMARY =========== -->
-    - <!--   -->
-### Field Summary
+- - ### Field Summary
 
 
-<caption><span>Fields</span><span class="tabEnd"> </span></caption>| Modifier and Type | Field and Description |
+Fields | Modifier and Type | Field and Description |
 | --- | --- |
 | `static int` | `CHUNK_SIZE`  |
 
-<!-- ======== CONSTRUCTOR SUMMARY ======== -->
-    - <!--   -->
-### Constructor Summary
+
+    - ### Constructor Summary
 
 
-<caption><span>Constructors</span><span class="tabEnd"> </span></caption>| Constructor and Description |
+Constructors | Constructor and Description |
 | --- |
 | `PrefixByteBuffer()`  |
 
-<!-- ========== METHOD SUMMARY =========== -->
-    - <!--   -->
-### Method Summary
+
+    - ### Method Summary
 
 
-<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd"> </span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd"> </span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">Concrete Methods</a></span><span class="tabEnd"> </span></span></caption>| Modifier and Type | Method and Description |
+All Methods [Instance Methods](javascript:show%282%29;) [Concrete Methods](javascript:show%288%29;) | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | `clear()`<br>Method:         clear()<br><br> Description:   Reset buffer to its empty state.<br> |
 | `void` | `flip()`<br>Method:         flip()<br><br> Description:   Similar the ByteBuffer.flip() but the position must be<br> set back to the start of the prefix.<br> |
@@ -130,43 +104,37 @@ extends Object
 | `void` | `writeTo(OutputStream os)`<br>Method:                 writeTo()<br><br> Description:   Write data to a given OutputStream.<br> |
 
 
-        - <!--   -->
-### Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
+        - ### Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-- <!-- ============ FIELD DETAIL =========== -->
-    - <!--   -->
-### Field Detail
-<!--   -->
+- - ### Field Detail
+
         - #### CHUNK\_SIZE
 
 ```
 public static final int CHUNK_SIZE
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.PrefixByteBuffer.CHUNK_SIZE">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.PrefixByteBuffer.CHUNK_SIZE)
 
-<!-- ========= CONSTRUCTOR DETAIL ======== -->
-    - <!--   -->
-### Constructor Detail
-<!--   -->
+
+    - ### Constructor Detail
+
         - #### PrefixByteBuffer
 
 ```
 public PrefixByteBuffer()
 ```
 
-<!-- ============ METHOD DETAIL ========== -->
-    - <!--   -->
-### Method Detail
-<!--   -->
+
+    - ### Method Detail
+
         - #### length
 
 ```
 public int length()
 ```
 
-<!--   -->
+
         - #### flip
 
 ```
@@ -175,7 +143,7 @@ public void flip()
 
 Method:         flip()<br><br> Description:   Similar the ByteBuffer.flip() but the position must be<br> set back to the start of the prefix.
 
-<!--   -->
+
         - #### clear
 
 ```
@@ -184,7 +152,7 @@ public void clear()
 
 Method:         clear()<br><br> Description:   Reset buffer to its empty state. Since we will need it again do not loose<br> the backing array.
 
-<!--   -->
+
         - #### writeTo
 
 ```
@@ -193,17 +161,16 @@ public void writeTo(OutputStream os)
 ```
 
 Method:                 writeTo()<br><br> Description:   Write data to a given OutputStream. Must be fast so don't<br>                                        use get().
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Throws:`IOException`
 
-<!--   -->
+
         - #### writeTo
 
 ```
 public void writeTo(ByteBuffer buf)
 ```
 
-<!--   -->
+
         - #### readFrom
 
 ```
@@ -213,10 +180,9 @@ public void readFrom(InputStream is,
 ```
 
 Method:                 readFrom()<br><br> Description:           Reads a given number of bytes from a given input stream.
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Throws:`IOException`
 
-<!--   -->
+
         - #### readFrom
 
 ```
@@ -225,7 +191,7 @@ public void readFrom(ByteBuffer buf)
 
 Method:                 readFrom()<br><br> Description:           Read a BufferBuffer into self as if it had been received<br>                                        from an InputStream.<br><br> Note:                  USED ONLY FOR UNIT TESTING.
 
-<!--   -->
+
         - #### getBackingArray
 
 ```
@@ -234,14 +200,14 @@ public byte[] getBackingArray()
 
 Method:                 getBackingArray()<br><br> Description:   Returns a pointer to the backing array<br><br> Note:                  DANGEROUS. DO NOT MODIFY RETURNED ARRAY.
 
-<!--   -->
+
         - #### getStartOffset
 
 ```
 public int getStartOffset()
 ```
 
-<!--   -->
+
         - #### putByte
 
 ```
@@ -250,31 +216,30 @@ public void putByte(int b)
 
 Write bytes to end methods
 
-<!--   -->
+
         - #### putBytes
 
 ```
 public void putBytes(byte[] b)
 ```
 
-<!--   -->
+
         - #### putUTF8
 
 ```
 public void putUTF8(String s)
              throws IOException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Throws:`IOException`
 
-<!--   -->
+
         - #### putInt
 
 ```
 public void putInt(int v)
 ```
 
-<!--   -->
+
         - #### pushByte
 
 ```
@@ -283,67 +248,63 @@ public void pushByte(int b)
 ```
 
 Write bytes to start methods
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/nio/BufferOverflowException.html?is-external=true" title="class or interface in java.nio">BufferOverflowException</a></code></dd></dl>
+Throws:`BufferOverflowException`
 
-<!--   -->
+
         - #### pushBytes
 
 ```
 public void pushBytes(byte[] b)
                throws BufferOverflowException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/nio/BufferOverflowException.html?is-external=true" title="class or interface in java.nio">BufferOverflowException</a></code></dd></dl>
+Throws:`BufferOverflowException`
 
-<!--   -->
+
         - #### pushInt
 
 ```
 public void pushInt(int v)
 ```
 
-<!--   -->
+
         - #### getByte
 
 ```
 public byte getByte()
 ```
 
-<!--   -->
+
         - #### getInt
 
 ```
 public int getInt()
 ```
 
-<!--   -->
+
         - #### getBytes
 
 ```
 public void getBytes(byte[] buf)
 ```
 
-<!--   -->
+
         - #### getBytes
 
 ```
 public void getBytes(ByteBuffer bBuf)
 ```
 
-<!--   -->
+
         - #### getUTF8
 
 ```
 public String getUTF8()
                throws IOException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+Throws:`IOException`
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39250-io/com_jbase_jremote_io_package-summary)
 - Class
@@ -366,15 +327,7 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -387,6 +340,5 @@ jremote <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

@@ -757,7 +757,12 @@ The first line of each description gives one or more names (separated by a | cha
 The terminal name is followed by a list of capabilities that describe the functionality available with it.
 
 There are three types of terminfo definitions:
-<dl><ul><li>Booleans to indicate what features of the terminfo system the particular terminal supports such as: margin; color; erase; tabs.</li><li>Numerics to indicate magnitudes such as numbers of columns per line,numbers of lines in the display.</li><li>Strings For example, cursor, italics, carriage return, keyboard definitions.</li></ul></dl>
+
+- Booleans to indicate what features of the terminfo system the particular terminal supports such as: margin; color; erase; tabs.
+- Numerics to indicate magnitudes such as numbers of columns per line,numbers of lines in the display.
+- Strings For example, cursor, italics, carriage return, keyboard definitions.
+
+
 The jED editor is affected mainly by the definitions of key strokes in the strings section. If the terminfo definition for a  terminal does not define the keyboard sequences for the jED editor (F1 - F10 keys, Cursor keys, etc.),  the definition may be customized as:
 
 ```

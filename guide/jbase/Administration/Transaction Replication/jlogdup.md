@@ -41,7 +41,7 @@ The jLOGDUP program will process transaction logs and replicate those transactio
 | blockmax=nnn (S)<br> | the maximum size, in blocks, of a serial device<br> |
 | blocksize=nnn<br> | the block size to read/write to TTY/SERIAL device or file<br> |
 | device=file%dev (S)<br> | the file name for SERIAL device. Can be more than one<br> |
-| end=<u>timespec</u> (I)<br> | time in log set at which to stop restore/duplication<br> |
+| end=timespec (I)<br> | time in log set at which to stop restore/duplication<br> |
 | noflush=true (O)<br> | suppress flush of output at end of transaction. (default false)<br> |
 | notrans=true (O)<br> | ignore transaction boundaries. (default false)<br> |
 | prompt=true<br> | prompt when switching serial devices or files<br> |
@@ -58,7 +58,7 @@ The jLOGDUP program will process transaction logs and replicate those transactio
 | set=stdout (OT)<br> | the output data is directed to the terminal stdout<br> |
 | set=tty (T)<br> | the input is from stdin or the output is to stdout<br> |
 | set=logset (OL)<br> | the output is directed to the current log set as an update<br> |
-| start=<u>timespec</u> (I)<br> | time in log set at which to start restore/duplication<br> |
+| start=timespec (I)<br> | time in log set at which to start restore/duplication<br> |
 | terminate=eof (I)<br> | terminate restore/duplication at eof of eldest log set<br> |
 | terminate=eos (I)<br> | terminate restore/duplication at end of current log set<br> |
 | terminate=wait (I)<br> | switch to elder log sets as required and wait for new updates<br> |
@@ -153,7 +153,7 @@ NOTE: The message is designated INFORMATION, WARNING or FATAL ERROR. This design
 | <br> | Admin. Log Notify Program REMOVED<br> | Yes<br> |
 | <br> | Extended Record Status now set to *on|off*<br> | Yes<br> |
 | <br> | Log set switch detected, was set *n1*, now set *n2*<br> | No<br> |
-| <br> | Kill initiated on jlogdup process id *pid*: Process id <u>pid</u> from port *n*<br> | Yes<br> |
+| <br> | Kill initiated on jlogdup process id *pid*: Process id pid from port *n*<br> | Yes<br> |
 | <br> | First record read from set *n*<br> | Yes<br> |
 | <br> | Termination  Statistics:   usr   *x*,   sys   *y*,   elapsed *z r*records read from current log set number *n*: *r*records, *b*blocks, *rb*record bytes , *e*errors in *file*<br> | Yes<br> |
 | WARNING<br> | Journal Log Files now at *p*% capacity<br> | No<br> |

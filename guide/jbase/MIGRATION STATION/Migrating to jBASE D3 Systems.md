@@ -13,7 +13,7 @@
 <badge text='d3 conversion ' vertical='middle' />
 <badge text='d3 backup' vertical='middle' />
 
-<iframe width="640" height="360" class="fr-draggable" src="https://www.youtube.com/embed/ZpRmYE59hOg?wmode=opaque" frameborder="0" allowfullscreen=""></iframe>
+
 
 This article and accompanying video will provide you with a walkthrough of how to prepare your D3 data to be migrated to jBASE.  You will configure your D3 backup, execute the backup and run a restore of your D3 data onto a jBASE system.
 

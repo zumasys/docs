@@ -82,7 +82,7 @@ The subroutine is called each time a record is read from or written to the DISTC
 
 It can be noted from the example that the part numbers consist of 1, 2, 3, 4 and 99. This illustrates an important feature. It is not a requirement that the part numbers be sequential or continuous. This could be used to allow additional part files to be added to the distributed file collection without the necessity of renumbering.
 
-Take special care when writing this subroutine to account for all possibilities*.* If for any reason the PartNo cannot be determined, either a READ\_ERROR or WRITE\_ERROR will be noticed at the point of failure. Here is one such example where there are 11 part files. The part number is determined based on the last character of the key, the last character is assumed to be numeric but, if it's not, it will be placed in the 11<sup>th</sup> part file:
+Take special care when writing this subroutine to account for all possibilities*.* If for any reason the PartNo cannot be determined, either a READ\_ERROR or WRITE\_ERROR will be noticed at the point of failure. Here is one such example where there are 11 part files. The part number is determined based on the last character of the key, the last character is assumed to be numeric but, if it's not, it will be placed in the 11th part file:
 
 
 

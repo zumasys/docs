@@ -3,15 +3,7 @@
 **Created At:** 9/25/2017 11:28:10 AM  
 **Updated At:** 9/20/2018 1:01:39 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="Uses of Interface com.jbase.jrcs.JIOHandler (jrclient   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript style="">&amp;lt;div&amp;gt;JavaScript is disabled on your browser.s.JIOHandler</noscript>
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Interface com.jbase.jrcs.JIOHandler (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&lt;div&gt;JavaScript is disabled on your browser.s.JIOHandler
 ## Uses of [JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs") in [com.jbase.jrcs](/jrcs/com_jbase_jrcs_package-summary)
 
 **Classes in [com.jbase.jrcs](/jrcs/com_jbase_jrcs_package-summary) that implement [JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs")**
@@ -39,5 +31,5 @@
 | <br>Modifier and Type<br> | <br>Method<br> | <br>Description<br> |
 | --- | --- | --- |
 | <br>void<br> | <br>JConnection.[setTermIOHandler](/jrcs/com_jbase_jrcs_JConnection#setTermIOHandler-com.jbase.jrcs.JIOHandler-)([JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs") handler)<br> | <br>Sets a terminal I/O handler.<br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+

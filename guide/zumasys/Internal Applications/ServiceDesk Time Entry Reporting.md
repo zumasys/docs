@@ -12,7 +12,7 @@ To get started click the following link: [https://app.powerbi.com/groups/me/repo
 
 **For individual users:**
 
-If you are mostly looking for a way to track and confirm your personal time entries, the best place to do it is the tab titled <u>TimeByEmployee</u>. When the report first loads it will show all employees by default.
+If you are mostly looking for a way to track and confirm your personal time entries, the best place to do it is the tab titled TimeByEmployee. When the report first loads it will show all employees by default.
 
 ![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3556/direct/1536260661578-1536260661578.jpg)
 

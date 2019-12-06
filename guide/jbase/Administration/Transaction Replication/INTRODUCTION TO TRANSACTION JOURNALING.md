@@ -10,7 +10,7 @@
 <badge text='transaction journalingt' vertical='middle' />
 <badge text='replication' vertical='middle' />
 
-<iframe width="640" height="360" class="fr-draggable" src="https://www.youtube.com/embed/AprrDMIgvUg?wmode=opaque" frameborder="0" allowfullscreen=""></iframe>
+
 
 ## DOCUMENT SCOPE
 

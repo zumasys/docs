@@ -3,26 +3,12 @@
 **Created At:** 9/25/2017 11:52:13 AM  
 **Updated At:** 12/24/2018 8:50:47 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="JCursorImpl (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript>&amp;amp;amp;amp;lt;div&amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JCursorImpl (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";&amp;amp;amp;lt;div&amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+
 
 ## Class JCursorImpl
 
-<dl><dt>All Implemented Interfaces:</dt><dd><a href="/39248-jremote/com_jbase_jremote_jcursor" title="interface in com.jbase.jremote">JCursor</a>, <a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a>, Iterable&lt;String&gt;</dd></dl>
+All Implemented Interfaces:[JCursor](/39248-jremote/com_jbase_jremote_jcursor "interface in com.jbase.jremote"), [JSelectList](/39248-jremote/com_jbase_jremote_jselectlist "interface in com.jbase.jremote"), Iterable&lt;String&gt;
 * * *
 
 
@@ -35,17 +21,15 @@ implements JCursor
 A cursor to a jBASE file.
 This object represents a list of jBASE file records.
 
-<!--   -->
-
 ### Field Summary
 
-- <!--   -->Fields inherited from class com.jbase.jremote.io.JSelectListImpl
+- Fields inherited from class com.jbase.jremote.io.JSelectListImpl
     - `connection, cursorStartPos, data, FETCH_BACKWARD, FETCH_FORWARD, fetchSize`
 
 
 
 
-<!--   -->
+
 
 ### Constructor Summary
 
@@ -57,7 +41,7 @@ This object represents a list of jBASE file records.
 
 
 
-<!--   -->
+
 
 ### Method Summary
 
@@ -74,21 +58,19 @@ This object represents a list of jBASE file records.
 | `void`<br> | `update()`<br>Update changes.<br> |
 
 
-- <!--   -->Methods inherited from class com.jbase.jremote.io.JSelectListImpl
+- Methods inherited from class com.jbase.jremote.io.JSelectListImpl
     - `fetchNext, fetchPrevious, getData, getFetchSize, getKey, getPosition, goToPosition, hasNext, hasPrevious, iterator, next, previous, setConnection, setFetchSize`
-- <!--   -->Methods inherited from class java.lang.Object
+- Methods inherited from class java.lang.Object
     - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
 
-- <!--   -->Methods inherited from interface com.jbase.jremote.JSelectList
+- Methods inherited from interface com.jbase.jremote.JSelectList
     - `getFetchSize, getKey, getPosition, goToPosition, iterator, setFetchSize`
-- <!--   -->Methods inherited from interface java.lang.Iterable
+- Methods inherited from interface java.lang.Iterable
     - `forEach, spliterator`
 
-<!--   -->
-
 ### Constructor Detail
-<!--   -->
+
 
 
 #### JCursorImpl
@@ -99,15 +81,15 @@ public JCursorImpl(AbstractJRemoteConnection connection,
 ```
 
 Constructs a cursor from a serializable select list.
-<dl><dt style="margin-left: 20px;"><span class="paramLabel">Parameters:</span></dt><dd style="margin-left: 20px;"><code>connection</code> - Connection handle used to fetch records from the server</dd><dd style="margin-left: 20px;"><code>data</code> - Serializable select list</dd></dl>
+Parameters:`connection` - Connection handle used to fetch records from the server`data` - Serializable select list
 
 
 
 
-<!--   -->
+
 
 ### Method Detail
-<!--   -->
+
 
 
 #### next
@@ -118,7 +100,7 @@ public boolean next()
 ```
 
 Move cursor to next item
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#next--">next</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Overrides:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_JSelectListImpl#next--">next</a></code> in class <code><a href="/39250-io/com_jbase_jremote_io_jselectlistimpl" title="class in com.jbase.jremote.io">JSelectListImpl</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">true if OK, false otherwise</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jselectlist#next--"><code>JSelectList.next()</code></a></dd></dl>
+Specified by:`next` in interface `JSelectList`Overrides:`next` in class `JSelectListImpl`Returns:true if OK, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.next()`](/39248-jremote/com_jbase_jremote_jselectlist#next--)
 
 
 #### previous
@@ -129,7 +111,7 @@ public boolean previous()
 ```
 
 Move cursor to previous item
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#previous--">previous</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Overrides:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_JSelectListImpl#previous--">previous</a></code> in class <code><a href="/39250-io/com_jbase_jremote_io_jselectlistimpl" title="class in com.jbase.jremote.io">JSelectListImpl</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">true if OK, false otherwise</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jselectlist#previous--"><code>JSelectList.previous()</code></a></dd></dl>
+Specified by:`previous` in interface `JSelectList`Overrides:`previous` in class `JSelectListImpl`Returns:true if OK, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.previous()`](/39248-jremote/com_jbase_jremote_jselectlist#previous--)
 
 
 #### hasNext
@@ -140,7 +122,7 @@ public boolean hasNext()
 ```
 
 Returns whether it is possible to move the cursor forwards.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#hasNext--">hasNext</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Overrides:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_JSelectListImpl#hasNext--">hasNext</a></code> in class <code><a href="/39250-io/com_jbase_jremote_io_jselectlistimpl" title="class in com.jbase.jremote.io">JSelectListImpl</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">true if YES, false otherwise</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jselectlist#hasNext--"><code>JSelectList.hasNext()</code></a></dd></dl>
+Specified by:`hasNext` in interface `JSelectList`Overrides:`hasNext` in class `JSelectListImpl`Returns:true if YES, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.hasNext()`](/39248-jremote/com_jbase_jremote_jselectlist#hasNext--)
 
 
 #### hasPrevious
@@ -151,7 +133,7 @@ public boolean hasPrevious()
 ```
 
 Returns whether it is possible to move the cursor backwards.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#hasPrevious--">hasPrevious</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Overrides:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_JSelectListImpl#hasPrevious--">hasPrevious</a></code> in class <code><a href="/39250-io/com_jbase_jremote_io_jselectlistimpl" title="class in com.jbase.jremote.io">JSelectListImpl</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">true if YES, false otherwise</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jselectlist#hasPrevious--"><code>JSelectList.hasPrevious()</code></a></dd></dl>
+Specified by:`hasPrevious` in interface `JSelectList`Overrides:`hasPrevious` in class `JSelectListImpl`Returns:true if YES, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.hasPrevious()`](/39248-jremote/com_jbase_jremote_jselectlist#hasPrevious--)
 
 #### close
 
@@ -161,7 +143,7 @@ public void close()
 ```
 
 Close cursor. Applies all pending changes and request the server to release all resources associated to this cursor.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#close--">close</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Overrides:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_JSelectListImpl#close--">close</a></code> in class <code><a href="/39250-io/com_jbase_jremote_io_jselectlistimpl" title="class in com.jbase.jremote.io">JSelectListImpl</a></code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jselectlist#close--"><code>JSelectList.close()</code></a></dd></dl>
+Specified by:`close` in interface `JSelectList`Overrides:`close` in class `JSelectListImpl`Throws:`JRemoteException`See Also:[`JSelectList.close()`](/39248-jremote/com_jbase_jremote_jselectlist#close--)
 
 
 
@@ -174,7 +156,7 @@ public JDynArray getRecord()
 Description copied from interface: `JCursor`
 
 Returns the current record.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jcursor#getRecord--">getRecord</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jcursor" title="interface in com.jbase.jremote">JCursor</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">record value</dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jcursor#getRecord--"><code>JCursor.getRecord()</code></a></dd></dl>
+Specified by:`getRecord` in interface `JCursor`Returns:record valueSee Also:[`JCursor.getRecord()`](/39248-jremote/com_jbase_jremote_jcursor#getRecord--)
 
 
 #### setRecord
@@ -186,7 +168,7 @@ public void setRecord(JDynArray record)
 Description copied from interface: `JCursor`
 
 Modifies the current record. Changes are not applied until methods update() or close() are called.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jcursor#setRecord-com.jbase.jremote.JDynArray-">setRecord</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jcursor" title="interface in com.jbase.jremote">JCursor</a></code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jcursor#setRecord-com.jbase.jremote.JDynArray-"><code>JCursor.setRecord(com.jbase.jremote.JDynArray)</code></a></dd></dl>
+Specified by:`setRecord` in interface `JCursor`See Also:[`JCursor.setRecord(com.jbase.jremote.JDynArray)`](/39248-jremote/com_jbase_jremote_jcursor#setRecord-com.jbase.jremote.JDynArray-)
 
 #### update
 
@@ -198,8 +180,8 @@ public void update()
 Description copied from interface: `JCursor`
 
 Update changes. This method will apply all pending changes to the cursor.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jcursor#update--">update</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jcursor" title="interface in com.jbase.jremote">JCursor</a></code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jcursor#update--"><code>JCursor.update()</code></a></dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+Specified by:`update` in interface `JCursor`Throws:`JRemoteException`See Also:[`JCursor.update()`](/39248-jremote/com_jbase_jremote_jcursor#update--)
+
+
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

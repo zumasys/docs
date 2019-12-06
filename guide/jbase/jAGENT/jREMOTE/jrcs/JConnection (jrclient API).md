@@ -3,7 +3,7 @@
 **Created At:** 9/25/2017 11:28:35 AM  
 **Updated At:** 9/20/2018 1:03:24 PM  
 
-<script type="text/javascript"><!-- try { if (location.href.indexOf('is-external=true') == -1) { parent.document.title="JConnection (jrclient API)"; } } catch(err) { } //--> var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10,"i27":10,"i28":10,"i29":10,"i30":10,"i31":10,"i32":10,"i33":10,"i34":10,"i35":10,"i36":10,"i37":10,"i38":10}; var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]}; var altColor = "altColor"; var rowColor = "rowColor"; var tableTab = "tableTab"; var activeTableTab = "activeTableTab"; </script><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript>
+<!-- try { if (location.href.indexOf('is-external=true') == -1) { parent.document.title="JConnection (jrclient API)"; } } catch(err) { } //--> var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10,"i27":10,"i28":10,"i29":10,"i30":10,"i31":10,"i32":10,"i33":10,"i34":10,"i35":10,"i36":10,"i37":10,"i38":10}; var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]}; var altColor = "altColor"; var rowColor = "rowColor"; var tableTab = "tableTab"; var activeTableTab = "activeTableTab"; &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
 
 
 # Class JConnection
@@ -14,8 +14,6 @@ public final class JConnection
 ```
 
 Represents a connection to a jBASE host.
-
-<!--   -->
 
 ## Field Summary
 
@@ -29,8 +27,8 @@ Represents a connection to a jBASE host.
 | <br>static int<br> | <br>EXEC\_GET\_RETURNLIST<br> | <br>Passed to execute() or executeAndStore() to retrieve the list returned by executed command.<br> |
 | <br>static int<br> | EXEC\_GET\_RETURNSTRING<br> | <br>Passed to execute() or executeAndStore() to retrieve the return string of executed command.<br> |
 
-<!-- ======== CONSTRUCTOR SUMMARY ======== -->
-<!--   -->
+
+
 
 ### 
 
@@ -47,7 +45,7 @@ Represents a connection to a jBASE host.
 
 
 
-<!--   -->
+
 
 ## Method Summary
 
@@ -99,15 +97,13 @@ Represents a connection to a jBASE host.
 
 
 
-<!--   -->
+
 
 ## Methods inherited from class java.lang.Object
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-<!--   -->
-
 ## Field Detail
-<!--   -->
+
 #### **EXEC\_GET\_CAPTURE**
 
 ```
@@ -116,7 +112,7 @@ public static final int EXEC_GET_CAPTURE
 
 Passed to execute() or executeAndStore() to retrieve the capture string returned by executed command
 
-<!--   -->
+
 #### 
 
 
@@ -127,7 +123,9 @@ public static final int EXEC_GET_RETURNSTRING
 ```
 
 Passed to execute() or executeAndStore() to retrieve the return string of executed command
-<dl><dt style="margin-left: 40px;"><br><br></dt></dl><!--   -->
+
+
+
 #### **EXEC\_GET\_RETURNLIST**
 
 ```
@@ -135,7 +133,8 @@ public static final int EXEC_GET_RETURNLIST
 ```
 
 Passed to execute() or executeAndStore() to retrieve the list returned by executed command
-<dl><dt style="margin-left: 40px;"><br></dt></dl><!--   -->
+
+
 #### 
 
 
@@ -146,7 +145,8 @@ public static final int ENC_REQUIRED
 ```
 
 Encryption required
-<dl><dt style="margin-left: 40px;"><br></dt></dl><!--   -->
+
+
 #### 
 
 
@@ -157,7 +157,8 @@ public static final int ENC_SUPPORTED
 ```
 
 Encryption supported
-<dl><dt style="margin-left: 40px;"><br></dt></dl><!--   -->
+
+
 #### 
 
 
@@ -168,24 +169,23 @@ public static final int ENC_OFF
 ```
 
 Encryption off
-<dl><dt style="margin-left: 40px;"><br><br></dt></dl>
-<!--   -->
+
+
+
+
 
 ## Constructor Detail
-<!--   -->
+
 #### **JConnection**
 
 ```
 public JConnection()
 ```
-<!-- ============ METHOD DETAIL ========== -->
 
 
-
-<!--   -->
 
 ## Method Detail
-<!--   -->
+
 #### **abortTransaction**
 
 ```
@@ -196,7 +196,7 @@ Aborts the active transaction
 
 Parameters: `transText` - Text to be stored in the transaction file. This parameter can be a blank string ("")
 
-Throws: `JException `<!--   -->
+Throws: `JException `
 
 
 
@@ -216,7 +216,7 @@ Returns: Attribute mark character
 
 
 
-<!--   -->
+
 
 #### **getVM**
 
@@ -270,7 +270,7 @@ Throws: `JException `
 
 
 
-<dd style="margin-left: 40px;"><a name="call-java.lang.String-java.lang.String:A-"></a></dd>
+
 
 #### **call**
 
@@ -292,7 +292,6 @@ The number of parameters must exactly match the jBC signature of the  subroutin
 
 Throws: `JException `
 
-<!--   -->
 #### **call**
 
 ```
@@ -312,7 +311,7 @@ Throws:` ``JException ```
 
 
 
-<!--   -->
+
 #### **call**
 
 ```
@@ -377,7 +376,7 @@ Throws: `JException `
 
 
 
-``<!--   -->
+``
 
 #### **deleteList**
 
@@ -395,7 +394,6 @@ Parameters:
 
 Throws:`JException `
 
-<!--   -->
 #### **endTransaction**
 
 ```
@@ -415,7 +413,7 @@ Throws: `JException `
 
 
 
-<!--   -->
+
 #### **getList**
 
 ```
@@ -433,7 +431,7 @@ Parameters: `        `
 Returns: JSelectList object representing the list read
 
 Throws:` JException  `
-<!--   -->
+
 #### 
 
 
@@ -457,7 +455,7 @@ Parameters:
 `code` - Conversion code Returns:Converted string
 
 Throws:`JException   ```
-<!--   -->
+
 #### 
 
 
@@ -477,7 +475,7 @@ Retrieves the version of jBASE database connected to this JConnection object
 Returns: jBASE version as a dynamic array
 
 Throws: `JException `
-<!--   -->
+
 #### 
 
 
@@ -495,7 +493,7 @@ throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 Reserved for future use
 
 Throws:`    JException`
-<!--   -->
+
 #### 
 
 
@@ -519,7 +517,7 @@ Parameters:`        `
 `code` - Conversion code Returns: Converted string
 
 Throws: `JException `
-<!--   -->
+
 #### 
 
 
@@ -601,7 +599,7 @@ Parameters:
 Returns: JFile object representing the open file.
 
 Throws: `JException`
-<!--   -->
+
 #### 
 
 
@@ -621,7 +619,7 @@ Returns the jBASE port number (PIB) assigned to the logged on session
 Returns: Port (PIB) number corresponding to the current session.
 
 Throws:`JException `
-<!--   -->
+
 #### 
 
 
@@ -645,7 +643,7 @@ Parameters:
 `transText` - Text to be stored in  the transaction file. It is possible to specify an empty string ("")
 
 Throws: `JException `
-<!--   -->
+
 #### 
 
 
@@ -665,7 +663,7 @@ Retrieves the current server time as an integer in internal format.
 Returns: Current server time.
 
 Throws:` JException`
-<!--   -->
+
 #### 
 
 
@@ -679,7 +677,7 @@ protected com.jbase.jrcs.JConnector getConnector()
 ```
 
 Throws:`JException`
-<!--   -->
+
 #### 
 
 
@@ -712,7 +710,7 @@ Parameters:
 
 Returns: JExecuteResults object with requested execution results.
 
-Throws**:**`JException`<!--   -->
+Throws**:**`JException`
 
 #### 
 
@@ -739,7 +737,7 @@ Parameters:
 Returns: JExecuteResults object with requested execution results.
 
 Throws:` JException`
-<!--   -->
+
 #### 
 
 
@@ -944,7 +942,7 @@ Throws: `JException` - Encryption level specified is invalid or connection is a
 
 
 
-<!--   -->
+
 #### **getPasswordEncryptionLevel**
 
 ```

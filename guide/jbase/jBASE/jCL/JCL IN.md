@@ -36,8 +36,8 @@ When the command has been completed, the buffer pointer will be positioned at th
 
 | Input <br> | SIB Before <br> | SIB After <br> |
 | --- | --- | --- |
-| <samp>ABC</samp><br> | <samp>^</samp><br> | <samp>ABC</samp><br> |
-| <br> | <samp>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ^</samp><br> | <samp>^</samp><br> |
+| ABC<br> | ^<br> | ABC<br> |
+| <br> |               ^<br> | ^<br> |
 
 
 
@@ -47,8 +47,8 @@ When the command has been completed, the buffer pointer will be positioned at th
 
 | Input <br> | SIB Before <br> | SIB After <br> |
 | --- | --- | --- |
-| <samp>ABC DEF</samp><br> | <samp>XYZ</samp><br> | <samp>ABC^DEF</samp><br> |
-| <br> | <samp>^</samp><br> | <samp>^</samp><br> |
+| ABC DEF<br> | XYZ<br> | ABC^DEF<br> |
+| <br> | ^<br> | ^<br> |
 
 
 
@@ -58,8 +58,8 @@ When the command has been completed, the buffer pointer will be positioned at th
 
 | Input<br> | SIB Before<br> | SIB After <br> |
 | --- | --- | --- |
-| <samp>&lt;ENTER&gt;</samp><br> | <samp>WWW^XXX</samp><br> | <br> |
-| <br> | <samp>^</samp><br> | <samp>^</samp><br> |
+| &lt;ENTER&gt;<br> | WWW^XXX<br> | <br> |
+| <br> | ^<br> | ^<br> |
 
 
 

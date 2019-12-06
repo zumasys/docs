@@ -10,7 +10,7 @@ Each AccuTerm user, whether a Desktop or Web user (and eventually Mobile users),
 
 
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/MuB-cyfq4z0?&wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable"></iframe>
+
 
 ### Info
 
@@ -36,7 +36,7 @@ Prior to creating a user, you will need to have already created your [Customer P
 
 
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/WWglbVvpfmg?&wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable"></iframe>
+
 
 ### Info
 

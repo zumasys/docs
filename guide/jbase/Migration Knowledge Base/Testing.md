@@ -58,7 +58,7 @@ You will define a test plan that includes all critical work flows involving the 
 - Data purge
 - Networking
 - communication with branches
-- 3<sup>rd</sup> Party/EDI Services/processes
+- 3rd Party/EDI Services/processes
 - third party integration with shims
 - SHIMS-SET
 - SCHMITT PRICE BOOKS

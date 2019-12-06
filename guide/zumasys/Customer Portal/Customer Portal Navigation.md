@@ -24,4 +24,4 @@ On the upper-right side of the screen will show your account's email address and
 
 ### Info
 
-If you simply close the window or tab your session credentials will still be active. You must select the <u>Sign Out</u> link to completely log out of the Portal!
+If you simply close the window or tab your session credentials will still be active. You must select the Sign Out link to completely log out of the Portal!

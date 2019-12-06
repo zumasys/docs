@@ -85,8 +85,8 @@ IH \ creates a new null parameter at the position pointed to by the input buffer
 
 | Command  |  PIB Before | PIB After  |
 | --- | --- | --- |
-| <samp>IHXXX</samp><br> | <samp>AB^CD^YY^ZZ</samp><br> | <samp>AB^CD^XXX^ZZ</samp><br> |
-| <br> | <samp>&nbsp; &nbsp; &nbsp; ^</samp><br> | <samp>&nbsp; &nbsp; &nbsp; ^</samp><br> |
+| IHXXX<br> | AB^CD^YY^ZZ<br> | AB^CD^XXX^ZZ<br> |
+| <br> |       ^<br> |       ^<br> |
 
 
 ### EXAMPLE 2
@@ -94,8 +94,8 @@ IH \ creates a new null parameter at the position pointed to by the input buffer
 
 | Command  | PIB Before  | PIB After  |
 | --- | --- | --- |
-| <samp>IH GH IJ</samp><br> | <samp>AB^CD^EF</samp><br> | <samp>AB^CD^EF^GH^IJ</samp><br> |
-| <br> | <samp>&nbsp; &nbsp; &nbsp; &nbsp; ^</samp><br> | <samp>&nbsp; &nbsp; &nbsp; ^</samp><br> |
+| IH GH IJ<br> | AB^CD^EF<br> | AB^CD^EF^GH^IJ<br> |
+| <br> |         ^<br> |       ^<br> |
 
 
 ### EXAMPLE 3
@@ -105,8 +105,8 @@ IH \ creates a new null parameter at the position pointed to by the input buffer
 
 | Command | PIB Before | PIB After |
 | --- | --- | --- |
-| <samp>IH%3:D2:</samp><br> | <samp>AB^CD^9873^GH</samp><br> | <samp>AB^11^JAN^95^9873^GH</samp><br> |
-| <br> | <samp>&nbsp; &nbsp;^</samp><br> | <samp>&nbsp; &nbsp;^</samp><br> |
+| IH%3:D2:<br> | AB^CD^9873^GH<br> | AB^11^JAN^95^9873^GH<br> |
+| <br> |    ^<br> |    ^<br> |
 
 
 ### EXAMPLE 4
@@ -114,8 +114,8 @@ IH \ creates a new null parameter at the position pointed to by the input buffer
 
 | Command  | PIB Before  | PIB After  |
 | --- | --- | --- |
-| <samp>IH%4</samp><br> | <samp>AB^CD^EF^GH IJ^</samp><br> | <samp>AB^CD^EF^GH^IJ^</samp><br> |
-| <br> | <samp>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;^</samp><br> | <samp>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;^</samp><br> |
+| IH%4<br> | AB^CD^EF^GH IJ^<br> | AB^CD^EF^GH^IJ^<br> |
+| <br> |          ^<br> |          ^<br> |
 
 
 This example demonstrates how, in effect, you can replace a space with a field mark within a parameter. The 4th parameter of the PIB is copied back into the same location but the space is replaced by a field mark.
@@ -125,8 +125,8 @@ This example demonstrates how, in effect, you can replace a space with a field m
 
 | Command  | PIB Before | PIB After |
 | --- | --- | --- |
-| <samp>IH\</samp><br> | <samp>AB^CD^EF^GH</samp><br> | <samp>AB^CD^^GH</samp><br> |
-| <br> | <samp>&nbsp; &nbsp; &nbsp;^</samp><br> | <samp>&nbsp; &nbsp; &nbsp;^</samp><br> |
+| IH\<br> | AB^CD^EF^GH<br> | AB^CD^^GH<br> |
+| <br> |      ^<br> |      ^<br> |
 
 
 ### EXAMPLE 6
@@ -134,9 +134,9 @@ This example demonstrates how, in effect, you can replace a space with a field m
 
 | Command  | PIB Before | PIB After |
 | --- | --- | --- |
-| <samp>S(7)</samp><br> | <br> | <br> |
-| <samp>IH\</samp><br> | <samp>AB^CDEFGH^IJK</samp><br> | <samp>AB^CDE^IJK</samp><br> |
-| <br> | <samp>&nbsp; &nbsp; &nbsp; ^</samp><br> | <samp>&nbsp; &nbsp; &nbsp; ^</samp><br> |
+| S(7)<br> | <br> | <br> |
+| IH\<br> | AB^CDEFGH^IJK<br> | AB^CDE^IJK<br> |
+| <br> |       ^<br> |       ^<br> |
 
 
 This example demonstrates how to truncate a parameter.
@@ -146,8 +146,8 @@ This example demonstrates how to truncate a parameter.
 
 | Command | PIB Before | PIB After |
 | --- | --- | --- |
-| <samp>IH \</samp><br> | <samp>AB^CD^EF^GH</samp><br> | <samp>AB^CD^^EF^GH</samp><br> |
-| <br> | <samp>&nbsp; &nbsp; &nbsp;^</samp><br> | <samp>&nbsp; &nbsp; &nbsp;^</samp><br> |
+| IH \<br> | AB^CD^EF^GH<br> | AB^CD^^EF^GH<br> |
+| <br> |      ^<br> |      ^<br> |
 
 
 ### EXAMPLE 8
@@ -155,8 +155,8 @@ This example demonstrates how to truncate a parameter.
 
 | Command  | PIB Before | PIB After |
 | --- | --- | --- |
-| <samp>IH \</samp><br> | <samp>AB^CDEFGH^IJK</samp><br> | <samp>AB^CDE^^FGH^IJK</samp><br> |
-| <br> | <samp>&nbsp; &nbsp; &nbsp; ^</samp><br> | <samp>&nbsp; &nbsp; &nbsp; ^</samp><br> |
+| IH \<br> | AB^CDEFGH^IJK<br> | AB^CDE^^FGH^IJK<br> |
+| <br> |       ^<br> |       ^<br> |
 
 
 Back to [JCL Commands](jcl-commands)

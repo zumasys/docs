@@ -3,11 +3,11 @@
 **Created At:** 9/25/2017 10:56:08 AM  
 **Updated At:** 12/10/2018 7:09:00 PM  
 
-<noscript>&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+
+
+
 # Package com.jbase.jdbc
 
 ## 
@@ -39,5 +39,5 @@
 | [JBaseJDBCSocketStatement](/39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketStatement "class in com.jbase.jdbc")<br> |  <br> |
 | [ResultSetAdapter](/39228-jdbc/com_jbase_jdbc_ResultSetAdapter "class in com.jbase.jdbc")<br> | <br>This class represents ResultSet objects which need to provide additional data not provided by the server.<br> |
 | [ResultSetMetaDataAdapter](/39228-jdbc/com_jbase_jdbc_ResultSetMetaDataAdapter "class in com.jbase.jdbc")<br> | <br>This class represents ResultSetMetaData objects which need to provide additional data not provided by the server.<br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+

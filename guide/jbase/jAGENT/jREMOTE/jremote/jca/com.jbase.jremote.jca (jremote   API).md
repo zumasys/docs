@@ -3,18 +3,11 @@
 **Created At:** 9/25/2017 12:06:59 PM  
 **Updated At:** 2/15/2018 8:02:33 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="com.jbase.jremote.jca (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="com.jbase.jremote.jca (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - Package
 - Class
@@ -37,23 +30,14 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 # Package com.jbase.jremote.jca
 
-- <caption><span>Interface Summary</span><span class="tabEnd"> </span></caption>| Interface | Description |
+- Interface Summary | Interface | Description |
 | --- | --- |
 | [EventNotifier](/39258-jca/com_jbase_jremote_jca_eventnotifier "interface in com.jbase.jremote.jca") | <br>The interface for event notifcation.<br> |
-- <caption><span>Class Summary</span><span class="tabEnd"> </span></caption>| Class | Description |
+- Class Summary | Class | Description |
 | --- | --- |
 | [DefaultConnectionManager](/39258-jca/com_jbase_jremote_jca_defaultconnectionmanager "class in com.jbase.jremote.jca") | <br>This class provides the default implementation of the ConnectionManager<br> for non managed use.<br> |
 | [JRemoteConnectionFactoryImpl](/39258-jca/com_jbase_jremote_jca_jremoteconnectionfactoryimpl "class in com.jbase.jremote.jca") | <br>The concrete implementation of a remote jBASE connection factory.<br> |
@@ -66,10 +50,9 @@ jremote <br>
 | [TransactionManager](/39258-jca/com_jbase_jremote_jca_transactionmanager "class in com.jbase.jremote.jca") |   |
 | [WrappedJConnection](/39258-jca/com_jbase_jremote_jca_wrappedjconnection "class in com.jbase.jremote.jca") | <br>Implementation of a connection to a remote jBASE instance.<br> |
 | [WrappedJFile](/39258-jca/com_jbase_jremote_jca_wrappedjfile "class in com.jbase.jremote.jca") | <br>Provide an interface to remote jBASE files and ensures connection<br> validity.<br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - Package
 - Class
@@ -92,15 +75,6 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

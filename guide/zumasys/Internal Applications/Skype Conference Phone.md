@@ -14,11 +14,11 @@ You can book meetings on it like a regular resource room and it should auto-acce
 
 When setting up a new meeting click on the "Rooms..." button in Outlook meeting invite
 
-<!--[if !vml]--><!--[endif]--><!--[if !vml]--><!--[endif]--><!--[if !vml]--><!--[endif]-->![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3556/direct/1531242107180-pic1.png)
+![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3556/direct/1531242107180-pic1.png)
 
 You should get a list of rooms available - one of which will be "San Clemente Conference Room" - double-click on that and hit OK
 
-<!--[if !vml]--><!--[endif]--><!--[if !vml]--><!--[endif]-->![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3556/direct/1531242120154-pic2.png)
+![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3556/direct/1531242120154-pic2.png)
 
 Enable the meeting as a Skype meeting and you should be good to go.
 

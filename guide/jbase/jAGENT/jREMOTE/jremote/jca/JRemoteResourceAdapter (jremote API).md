@@ -3,26 +3,14 @@
 **Created At:** 9/25/2017 12:05:55 PM  
 **Updated At:** 4/6/2018 12:13:03 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="JRemoteResourceAdapter (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JRemoteResourceAdapter (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
+
 
 ## Class JRemoteResourceAdapter
 
-<dl><dt>All Implemented Interfaces:</dt><dd>javax.resource.spi.ResourceAdapter</dd></dl>
+All Implemented Interfaces:javax.resource.spi.ResourceAdapter
 * * *
 
 
@@ -31,8 +19,6 @@ public class JRemoteResourceAdapter
 extends Object
 implements javax.resource.spi.ResourceAdapter
 ```
-
-<!--   -->
 
 ### Constructor Summary
 
@@ -44,7 +30,7 @@ implements javax.resource.spi.ResourceAdapter
 
 
 
-<!--   -->
+
 
 ### Method Summary
 
@@ -63,39 +49,37 @@ implements javax.resource.spi.ResourceAdapter
 | `void`<br> | `stop()` <br> |
 
 
-- <!--   -->Methods inherited from class java.lang.Object
+- Methods inherited from class java.lang.Object
     - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-<!--   -->
-
 ### Constructor Detail
-<!--   -->
+
 #### JRemoteResourceAdapter
 
 ```
 public JRemoteResourceAdapter()
 ```
-<!-- ============ METHOD DETAIL ========== -->
-<!--   -->
+
+
 
 ### 
 
 
 ### Method Detail
-<!--   -->
+
 #### start
 
 ```
 public void start(javax.resource.spi.BootstrapContext ctx)
            throws javax.resource.spi.ResourceAdapterInternalException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>start</code> in interface <code>javax.resource.spi.ResourceAdapter</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.spi.ResourceAdapterInternalException</code></dd></dl><!--   -->
+Specified by:`start` in interface `javax.resource.spi.ResourceAdapter`Throws:`javax.resource.spi.ResourceAdapterInternalException`
 #### stop
 
 ```
 public void stop()
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>stop</code> in interface <code>javax.resource.spi.ResourceAdapter</code></dd></dl><!--   -->
+Specified by:`stop` in interface `javax.resource.spi.ResourceAdapter`
 #### endpointActivation
 
 ```
@@ -103,53 +87,50 @@ public void endpointActivation(javax.resource.spi.endpoint.MessageEndpointFactor
                                javax.resource.spi.ActivationSpec activationSpec)
                         throws javax.resource.ResourceException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>endpointActivation</code> in interface <code>javax.resource.spi.ResourceAdapter</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd></dl><!--   -->
+Specified by:`endpointActivation` in interface `javax.resource.spi.ResourceAdapter`Throws:`javax.resource.ResourceException`
 #### endpointDeactivation
 
 ```
 public void endpointDeactivation(javax.resource.spi.endpoint.MessageEndpointFactory messageEndpointFactory,
                                  javax.resource.spi.ActivationSpec activationSpec)
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>endpointDeactivation</code> in interface <code>javax.resource.spi.ResourceAdapter</code></dd></dl><!--   -->
+Specified by:`endpointDeactivation` in interface `javax.resource.spi.ResourceAdapter`
 #### getXAResources
 
 ```
 public XAResource[] getXAResources(javax.resource.spi.ActivationSpec[] arg0)
                             throws javax.resource.ResourceException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>getXAResources</code> in interface <code>javax.resource.spi.ResourceAdapter</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd></dl><!--   -->
+Specified by:`getXAResources` in interface `javax.resource.spi.ResourceAdapter`Throws:`javax.resource.ResourceException`
 #### setCreateWorkerPerClient
 
 ```
 public void setCreateWorkerPerClient(boolean clientWorkers)
 ```
-<!--   -->
+
 #### setCreateWorkerPerClient
 
 ```
 public void setCreateWorkerPerClient(Boolean clientWorkers)
 ```
-<!--   -->
+
 #### setListenHost
 
 ```
 public void setListenHost(String host)
 ```
-<!--   -->
+
 #### setListenPort
 
 ```
 public void setListenPort(int port)
 ```
-<!--   -->
+
 #### setListenPort
 
 ```
 public void setListenPort(Integer port)
 ```
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
-
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
 

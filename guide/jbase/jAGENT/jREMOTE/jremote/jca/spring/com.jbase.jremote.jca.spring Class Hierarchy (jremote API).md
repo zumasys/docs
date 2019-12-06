@@ -3,28 +3,13 @@
 **Created At:** 9/25/2017 12:08:22 PM  
 **Updated At:** 4/5/2018 11:51:35 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="com.jbase.jremote.jca.spring Class Hierarchy (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="com.jbase.jremote.jca.spring Class Hierarchy (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+
+
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 # Hierarchy For Package com.jbase.jremote.jca.spring
 Package Hierarchies:
 - [All Packages](../../../../../overview-tree.html)
@@ -37,5 +22,5 @@ Package Hierarchies:
     - com.jbase.jremote.jca.spring.JConnectionFactoryUtils
     - org.springframework.transaction.support.ResourceHolderSupport
         - com.jbase.jremote.jca.spring.ConnectionHolder
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+

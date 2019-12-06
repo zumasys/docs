@@ -3,26 +3,14 @@
 **Created At:** 9/25/2017 11:52:53 AM  
 **Updated At:** 12/24/2018 6:09:47 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="JSelectListImpl (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JSelectListImpl (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
+
 
 ## Class JSelectListImpl
 
-<dl><dt>All Implemented Interfaces:</dt><dd><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a>, Iterable&lt;String&gt;</dd></dl><dl><dt>Direct Known Subclasses:</dt><dd><a href="/39250-io/com_jbase_jremote_io_jcursorimpl" title="class in com.jbase.jremote.io">JCursorImpl</a></dd></dl>
+All Implemented Interfaces:[JSelectList](/39248-jremote/com_jbase_jremote_jselectlist "interface in com.jbase.jremote"), Iterable&lt;String&gt;Direct Known Subclasses:[JCursorImpl](/39250-io/com_jbase_jremote_io_jcursorimpl "class in com.jbase.jremote.io")
 * * *
 
 
@@ -34,8 +22,6 @@ implements JSelectList
 
 A select list to a jBASE file.
 This object represents a list of record keys to a jBASE file.
-
-<!--   -->
 
 ### Field Summary
 
@@ -52,7 +38,7 @@ This object represents a list of record keys to a jBASE file.
 
 
 
-<!--   -->
+
 
 ### Constructor Summary
 
@@ -65,7 +51,7 @@ This object represents a list of record keys to a jBASE file.
 
 
 
-<!--   -->
+
 
 ### Method Summary
 
@@ -93,21 +79,19 @@ This object represents a list of record keys to a jBASE file.
 | `void`<br> | `setFetchSize(int fetchSize)`<br>Sets the fetch size.<br> |
 
 
-- <!--   -->Methods inherited from class java.lang.Object
+- Methods inherited from class java.lang.Object
     - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
-- <!--   -->Methods inherited from interface java.lang.Iterable
+- Methods inherited from interface java.lang.Iterable
     - `forEach, spliterator`
 
-<!--   -->
-
 ### Field Detail
-<!--   -->
+
 #### connection
 
 ```
 protected AbstractJRemoteConnection connection
 ```
-<!--   -->
+
 #### 
 
 
@@ -116,7 +100,7 @@ protected AbstractJRemoteConnection connection
 ```
 protected JSelectListProt data
 ```
-<!--   -->
+
 #### 
 
 
@@ -125,7 +109,7 @@ protected JSelectListProt data
 ```
 protected int fetchSize
 ```
-<!--   -->
+
 #### 
 
 
@@ -134,7 +118,7 @@ protected int fetchSize
 ```
 protected int cursorStartPos
 ```
-<!--   -->
+
 #### 
 
 
@@ -143,7 +127,7 @@ protected int cursorStartPos
 ```
 protected static final int FETCH_FORWARD
 ```
-<dl><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="299736-constant-values" title="">Constant Field Values</a></dd></dl><!--   -->
+See Also:[Constant Field Values](299736-constant-values)
 #### 
 
 
@@ -152,14 +136,14 @@ protected static final int FETCH_FORWARD
 ```
 protected static final int FETCH_BACKWARD
 ```
-<dl><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="299736-constant-values" title="">Constant Field Values</a></dd></dl><!-- ========= CONSTRUCTOR DETAIL ======== -->
-<!--   -->
+See Also:[Constant Field Values](299736-constant-values)
+
 
 ### 
 
 
 ### Constructor Detail
-<!--   -->
+
 #### JSelectListImpl
 
 ```
@@ -168,7 +152,7 @@ public JSelectListImpl(AbstractJRemoteConnection connection,
 ```
 
 Constructs a select list from specified dynamic array.
-<dl><dt style="margin-left: 20px;"><span class="paramLabel">Parameters:</span></dt><dd style="margin-left: 20px;"><code>connection</code> - Connection handle used to fetch items from server</dd><dd style="margin-left: 20px;"><code>keys</code> - Dynamic array containing keys separated by attribute markers.</dd></dl><!--   -->
+Parameters:`connection` - Connection handle used to fetch items from server`keys` - Dynamic array containing keys separated by attribute markers.
 #### 
 
 
@@ -180,14 +164,14 @@ public JSelectListImpl(AbstractJRemoteConnection connection,
 ```
 
 Constructs a select list from a serializable select list.
-<dl><dt style="margin-left: 20px;"><span class="paramLabel">Parameters:</span></dt><dd style="margin-left: 20px;"><code>connection</code> - Connection handle used to fetch items from server</dd><dd style="margin-left: 20px;"><code>data</code> - Serializable select list</dd></dl><!-- ============ METHOD DETAIL ========== -->
-<!--   -->
+Parameters:`connection` - Connection handle used to fetch items from server`data` - Serializable select list
+
 
 ### 
 
 
 ### Method Detail
-<!--   -->
+
 #### getKey
 
 ```
@@ -197,7 +181,7 @@ public String getKey()
 Description copied from interface: `JSelectList`
 
 Returns the current key
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#getKey--">getKey</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">key</dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jselectlist#getKey--"><code>JSelectList.getKey()</code></a></dd></dl><!--   -->
+Specified by:`getKey` in interface `JSelectList`Returns:keySee Also:[`JSelectList.getKey()`](/39248-jremote/com_jbase_jremote_jselectlist#getKey--)
 #### 
 
 
@@ -210,7 +194,7 @@ public int getFetchSize()
 Description copied from interface: `JSelectList`
 
 Returns the fetch size. This value represents the number of items fetched simultaneously from the server.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#getFetchSize--">getFetchSize</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">fetch size</dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jselectlist#getFetchSize--"><code>JSelectList.getFetchSize()</code></a></dd></dl><!--   -->
+Specified by:`getFetchSize` in interface `JSelectList`Returns:fetch sizeSee Also:[`JSelectList.getFetchSize()`](/39248-jremote/com_jbase_jremote_jselectlist#getFetchSize--)
 #### 
 
 
@@ -223,7 +207,7 @@ public void setFetchSize(int fetchSize)
 Description copied from interface: `JSelectList`
 
 Sets the fetch size.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#setFetchSize-int-">setFetchSize</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="paramLabel">Parameters:</span></dt><dd style="margin-left: 20px;"><code>fetchSize</code> - fetch size</dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jselectlist#setFetchSize-int-"><code>JSelectList.setFetchSize(int)</code></a></dd></dl><!--   -->
+Specified by:`setFetchSize` in interface `JSelectList`Parameters:`fetchSize` - fetch sizeSee Also:[`JSelectList.setFetchSize(int)`](/39248-jremote/com_jbase_jremote_jselectlist#setFetchSize-int-)
 #### 
 
 
@@ -234,7 +218,7 @@ public void setConnection(AbstractJRemoteConnection connection)
 ```
 
 Attaches a connection handle to this select list. A connection is required to fetch items from the server.
-<dl><dt style="margin-left: 20px;"><span class="paramLabel">Parameters:</span></dt><dd style="margin-left: 20px;"><code>connection</code> - Connection handle</dd></dl><!--   -->
+Parameters:`connection` - Connection handle
 #### 
 
 
@@ -245,7 +229,7 @@ public JSelectListProt getData()
 ```
 
 Obtains a reference to the serializable part of the select list
-<dl><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">serializable select list</dd></dl><!--   -->
+Returns:serializable select list
 #### 
 
 
@@ -259,7 +243,7 @@ public boolean next()
 Description copied from interface: `JSelectList`
 
 Move to next item
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#next--">next</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">true if OK, false otherwise</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jselectlist#next--"><code>JSelectList.next()</code></a></dd></dl><!--   -->
+Specified by:`next` in interface `JSelectList`Returns:true if OK, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.next()`](/39248-jremote/com_jbase_jremote_jselectlist#next--)
 #### 
 
 
@@ -273,7 +257,7 @@ public boolean previous()
 Description copied from interface: `JSelectList`
 
 Move to previous item
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#previous--">previous</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">true if OK, false otherwise</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jselectlist#previous--"><code>JSelectList.previous()</code></a></dd></dl><!--   -->
+Specified by:`previous` in interface `JSelectList`Returns:true if OK, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.previous()`](/39248-jremote/com_jbase_jremote_jselectlist#previous--)
 #### 
 
 
@@ -287,7 +271,7 @@ public boolean hasNext()
 Description copied from interface: `JSelectList`
 
 Returns whether it is possible to move forward.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#hasNext--">hasNext</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">true if YES, false otherwise</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jselectlist#hasNext--"><code>JSelectList.hasNext()</code></a></dd></dl><!--   -->
+Specified by:`hasNext` in interface `JSelectList`Returns:true if YES, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.hasNext()`](/39248-jremote/com_jbase_jremote_jselectlist#hasNext--)
 #### 
 
 
@@ -301,7 +285,7 @@ public boolean hasPrevious()
 Description copied from interface: `JSelectList`
 
 Returns whether it is possible to move backwards.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#hasPrevious--">hasPrevious</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">true if YES, false otherwise</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jselectlist#hasPrevious--"><code>JSelectList.hasPrevious()</code></a></dd></dl><!--   -->
+Specified by:`hasPrevious` in interface `JSelectList`Returns:true if YES, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.hasPrevious()`](/39248-jremote/com_jbase_jremote_jselectlist#hasPrevious--)
 #### 
 
 
@@ -311,7 +295,7 @@ Returns whether it is possible to move backwards.
 protected boolean next(boolean fetchData)
                 throws JRemoteException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl><!--   -->
+Throws:`JRemoteException`
 #### 
 
 
@@ -321,7 +305,7 @@ protected boolean next(boolean fetchData)
 protected boolean previous(boolean fetchData)
                     throws JRemoteException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl><!--   -->
+Throws:`JRemoteException`
 #### 
 
 
@@ -331,7 +315,7 @@ protected boolean previous(boolean fetchData)
 protected boolean hasNext(boolean fetchData)
                    throws JRemoteException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl><!--   -->
+Throws:`JRemoteException`
 #### 
 
 
@@ -341,7 +325,7 @@ protected boolean hasNext(boolean fetchData)
 protected boolean hasPrevious(boolean fetchData)
                        throws JRemoteException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl><!--   -->
+Throws:`JRemoteException`
 #### 
 
 
@@ -354,7 +338,7 @@ public int getPosition()
 Description copied from interface: `JSelectList`
 
 Returns the current position. The first item in the list has position 1.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#getPosition--">getPosition</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">position</dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jselectlist#getPosition--"><code>JSelectList.getPosition()</code></a></dd></dl><!--   -->
+Specified by:`getPosition` in interface `JSelectList`Returns:positionSee Also:[`JSelectList.getPosition()`](/39248-jremote/com_jbase_jremote_jselectlist#getPosition--)
 #### 
 
 
@@ -368,7 +352,7 @@ public void goToPosition(int targetPos)
 Description copied from interface: `JSelectList`
 
 Move to the specified position. The first item in the list has position 1.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#goToPosition-int-">goToPosition</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>com.jbase.jremote.JSelectList#goToPosition()</code></dd></dl><!--   -->
+Specified by:`goToPosition` in interface `JSelectList`Throws:`JRemoteException`See Also:`com.jbase.jremote.JSelectList#goToPosition()`
 #### 
 
 
@@ -378,7 +362,7 @@ Move to the specified position. The first item in the list has position 1.
 protected JSelectListProt fetchNext(boolean fetchData)
                              throws JRemoteException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl><!--   -->
+Throws:`JRemoteException`
 #### 
 
 
@@ -388,7 +372,7 @@ protected JSelectListProt fetchNext(boolean fetchData)
 protected JSelectListProt fetchPrevious(boolean fetchData)
                                  throws JRemoteException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl><!--   -->
+Throws:`JRemoteException`
 #### 
 
 
@@ -402,7 +386,7 @@ public void close()
 Description copied from interface: `JSelectList`
 
 Close select list. Requests server to release all resources associated to this object.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#close--">close</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jselectlist#close--"><code>JSelectList.close()</code></a></dd></dl><!--   -->
+Specified by:`close` in interface `JSelectList`Throws:`JRemoteException`See Also:[`JSelectList.close()`](/39248-jremote/com_jbase_jremote_jselectlist#close--)
 #### 
 
 
@@ -415,7 +399,6 @@ public Iterator<String> iterator()
 Description copied from interface: `JSelectList`
 
 Returns an iterator to the select list
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jselectlist#iterator--">iterator</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jselectlist" title="interface in com.jbase.jremote">JSelectList</a></code></dd><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true#iterator--" title="class or interface in java.lang">iterator</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true" title="class or interface in java.lang">Iterable</a>&lt;<a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true" title="class or interface in java.lang">String</a>&gt;</code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">iterator</dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39248-jremote/com_jbase_jremote_jselectlist#iterator--"><code>JSelectList.iterator()</code></a></dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+Specified by:`iterator` in interface `JSelectList`Specified by:`iterator` in interface `Iterable<String>`Returns:iteratorSee Also:[`JSelectList.iterator()`](/39248-jremote/com_jbase_jremote_jselectlist#iterator--)
+
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

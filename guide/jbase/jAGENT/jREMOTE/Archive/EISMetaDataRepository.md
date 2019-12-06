@@ -19,14 +19,14 @@ Wrapper class for EISMetaDataResponse object representing a meta data repository
 
 | Constructor and Description |
 | --- |
-<caption>Constructors </caption>| `EISMetaDataRepository()`  |
+Constructors | `EISMetaDataRepository()`  |
 | `EISMetaDataRepository(EISMetaDataResponse mdRespository)`  |
     - ### Method Summary
 
 
 | Modifier and Type | Method and Description |
 | --- | --- |
-<caption>All Methods <a href="javascript%3Ashow(2);">Instance Methods</a> <a href="javascript%3Ashow(8);">Concrete Methods</a>&nbsp;</caption>| `JDynArray` | `getRepositoryEntry(String key)`Obtain the value of a repository entry<br> |
+All Methods [Instance Methods](javascript%3Ashow%282%29;) [Concrete Methods](javascript%3Ashow%288%29;) | `JDynArray` | `getRepositoryEntry(String key)`Obtain the value of a repository entry<br> |
 
 
         - ### Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
@@ -51,5 +51,5 @@ public EISMetaDataRepository(EISMetaDataResponse mdRespository)
 public JDynArray getRepositoryEntry(String key)
 ```
 
-Obtain the value of a repository entry<dl><dt>Parameters:</dt><dd><code>key</code> - key of the repository entry</dd><dt>Returns:</dt><dd>value of the repository entry</dd></dl>
+Obtain the value of a repository entryParameters:`key` - key of the repository entryReturns:value of the repository entry
 

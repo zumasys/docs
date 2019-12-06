@@ -8,13 +8,13 @@
 
 jBASE provides support for the legacy user exit construct. In addition to providing a number of [standard user exits](324980-supported-user-exits), jBASE allows the user to create custom user exits. This has been done to cater for the more obscure user exits that are sometimes used in legacy code. It is recommended that custom user exits are **not** created for new applications.
 
-A user-exit can be called by a user application via the "U" conversion code in an ICONV or an OCONV function. For example, the j<u>BC</u> code might be:
+A user-exit can be called by a user application via the "U" conversion code in an ICONV or an OCONV function. For example, the jBC code might be:
 
 ```
 user = OCONV("","U50BB")
 ```
 
-In this example, the user-exit 50BB is a historic user-exit and is already supplied by the <u>jBASE</u> development system (it returns the port number and name of the user).
+In this example, the user-exit 50BB is a historic user-exit and is already supplied by the jBASE development system (it returns the port number and name of the user).
 
 In the above example, the value "50BB" is a description of the user exit number and is split into two components. The first character is historically called the entry-point, and in this case the entry-point is "5". The next 3 characters are historically called the frame-id which in this case is "0BB".
 

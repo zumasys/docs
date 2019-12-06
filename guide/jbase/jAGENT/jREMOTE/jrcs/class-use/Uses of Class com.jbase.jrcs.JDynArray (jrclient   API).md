@@ -3,15 +3,7 @@
 **Created At:** 9/25/2017 11:27:37 AM  
 **Updated At:** 12/24/2018 7:20:14 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="Uses of Class com.jbase.jrcs.JDynArray (jrclient   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript>&amp;amp;lt;div&amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;lt;/div&amp;amp;gt;</noscript>
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jrcs.JDynArray (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&amp;lt;div&amp;gt;JavaScript is disabled on your browser.&amp;lt;/div&amp;gt;
 ## Uses of [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs") in [com.jbase.jrcs](com_jbase_jrcs_package-summary)
 
 
@@ -85,5 +77,5 @@
 
 
 
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+

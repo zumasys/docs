@@ -244,7 +244,6 @@ RSYNC\_WARN\_PERCENT              80                         
 RSYNC\_LIVE\_DIR                              /dbms/                 Base directory of directories (Accounts) to be synchronized
 RSYNC\_BACKUP\_DIR                      /u/dbmsbu         Directory which is to be synchronized
 RSYNC\_ARCHIVE\_DIR                     /u/archives         Location of tar files of prior synchronized data
-<!--[if !supportLineBreakNewLine]-->
 
 ## ZUMFILE {Account} {Filename}
 

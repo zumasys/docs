@@ -167,7 +167,7 @@ JEDIFILEPATH=$HOME
 JEDIFILENAME_MD=$HOME/MD 
 ```
 
-*Note: <u>APPDIR</u> and <u>CURDIR</u> if not set refer to the  location of the **jbase\_agent** executable and the current directory respectively.*
+*Note: APPDIR and CURDIR if not set refer to the  location of the **jbase\_agent** executable and the current directory respectively.*
 
 #### jAgent Environment Variables
 
@@ -681,58 +681,58 @@ Prior to executing the resource handler program defined in the WDB.RESOURCE reco
 
 WDB.RESOURCE - The WDB.RESOURCE file is used to register a REST service handler program with a URL path.
 
-[<u>WSETCONTENTTYPE</u>](/34473-docs/257603-wsetcontenttype) - The WSETCONTENTTYPE subroutines sets the Content-Type header.  This is a alternative to using WSETHEADER subroutine.
+[WSETCONTENTTYPE](/34473-docs/257603-wsetcontenttype) - The WSETCONTENTTYPE subroutines sets the Content-Type header.  This is a alternative to using WSETHEADER subroutine.
 
-[<u>WSETHEADER</u>](/35689-mv-rest-api/257604-wsetheader) - The WSETHEADER subroutines allows you to set return headers.
+[WSETHEADER](/35689-mv-rest-api/257604-wsetheader) - The WSETHEADER subroutines allows you to set return headers.
 
-[<u>WGETBODY</u>](/35689-mv-rest-api/257606-wgetbody) - The WGETBODY gets the raw body sent in the web request if the web request is not a x-www-form-urlencoded.  This is primarily used to get XML or JSON sent in Rest services.
+[WGETBODY](/35689-mv-rest-api/257606-wgetbody) - The WGETBODY gets the raw body sent in the web request if the web request is not a x-www-form-urlencoded.  This is primarily used to get XML or JSON sent in Rest services.
 
-[<u>WGETHEADER</u>](/35689-mv-rest-api/257607-wgetheader) - The WGETHEADER subroutine allows you to retrieve sent headers.
+[WGETHEADER](/35689-mv-rest-api/257607-wgetheader) - The WGETHEADER subroutine allows you to retrieve sent headers.
 
-[<u>WSEND</u>](/35689-mv-rest-api/257608-wsend) - The WSEND subroutines send body data back to the client.  This is usually HTML or JSON.
+[WSEND](/35689-mv-rest-api/257608-wsend) - The WSEND subroutines send body data back to the client.  This is usually HTML or JSON.
 
-[<u>WGETCOOKIE</u>](wgetcookie) - The WGETCOOKIE retrieves cookies sent in the web request.
+[WGETCOOKIE](wgetcookie) - The WGETCOOKIE retrieves cookies sent in the web request.
 
-[<u>WGETINFO</u>](/34473-docs/258354-wgetinfo) - The WGETINFO subroutines allows you return directly information from WWW.INFO common
+[WGETINFO](/34473-docs/258354-wgetinfo) - The WGETINFO subroutines allows you return directly information from WWW.INFO common
 
-[<u>WWW.INFO</u>](/34473-docs/258357-www-info) - WWW.INFO is a common variable that stores all the web information.
+[WWW.INFO](/34473-docs/258357-www-info) - WWW.INFO is a common variable that stores all the web information.
 
-[<u>WSETSTATUS</u>](wsetstatus) - The WSETSTATUS subroutine allows you to modify the response code.
+[WSETSTATUS](wsetstatus) - The WSETSTATUS subroutine allows you to modify the response code.
 
-[<u>WGETVAR</u>](wgetvar) - The WGETVAR returns the value of a request variable. Request variables are normally passed in the “query string” part of the request URL, but may also be fields in an HTML form.
+[WGETVAR](wgetvar) - The WGETVAR returns the value of a request variable. Request variables are normally passed in the “query string” part of the request URL, but may also be fields in an HTML form.
 
-[<u>WSETCOOKIE</u>](wsetcookie) - The WSETCOOKIE sets the value of a cookie to be sent to the client in the Cookie header of the response.
+[WSETCOOKIE](wsetcookie) - The WSETCOOKIE sets the value of a cookie to be sent to the client in the Cookie header of the response.
 
-[<u>WGETPARAM</u>](wgetparam) - Returns the value of a REST parameter. REST parameters are passed in the path of URL of the request, and begin with 3rd element in the URL path after the server name. The 4th element in the path is parameter number 2, etc.
+[WGETPARAM](wgetparam) - Returns the value of a REST parameter. REST parameters are passed in the path of URL of the request, and begin with 3rd element in the URL path after the server name. The 4th element in the path is parameter number 2, etc.
 
-[<u>WGETCONFIG</u>](wgetconfig) - WGETCONFIG returns the value of a configuration item.
+[WGETCONFIG](wgetconfig) - WGETCONFIG returns the value of a configuration item.
 
-[<u>WPARSEJSON</u>](wparsejson) - Parse a string which is in JSON format.  Very simple and can only do single level JSON objects at this time.
+[WPARSEJSON](wparsejson) - Parse a string which is in JSON format.  Very simple and can only do single level JSON objects at this time.
 
-[<u>WBUILDJSON</u>](wbuildjson) - WBUILDJSON is a very basic JSON string builder.  JSON is the actual string and is basically a JSON string being built.  You can override and actually just append to JSON at any time.
+[WBUILDJSON](wbuildjson) - WBUILDJSON is a very basic JSON string builder.  JSON is the actual string and is basically a JSON string being built.  You can override and actually just append to JSON at any time.
 
 [WOBJ](305297-wobj) - The WOBJ subroutine is a basic object library for consuming and creating JSON objects.
 
-[<u>WENCODEJSON</u>](wencodejson) - Convert IN.STR to OUT.STR, escaping any problematic characters.
+[WENCODEJSON](wencodejson) - Convert IN.STR to OUT.STR, escaping any problematic characters.
 
-[<u>WSEND</u>](wsend) - WSEND sends a response to the client.  Be sure to set any headers or cookies prior to calling WSEND.
+[WSEND](wsend) - WSEND sends a response to the client.  Be sure to set any headers or cookies prior to calling WSEND.
 
-[<u>WDEBUG</u>](291290-wdebug) - WDEBUG program is a debugging tool for REST services.
+[WDEBUG](291290-wdebug) - WDEBUG program is a debugging tool for REST services.
 
 ## EXAMPLES:
 
 - Starting jAgent on default port (20002): 
     - ***jbase\_agent***
 - Starting jAgent using a configuration file: 
-    - ***jbase\_agent --config=c:\jbase\<u>CurrentVersion</u>\config\jagent\_config***
+    - ***jbase\_agent --config=c:\jbase\CurrentVersion\config\jagent\_config***
 - Starting jAgent on port 20003 and configure tracing to display errors only 
     - ***jbase\_agent -p 20003 -L 6***
 - Starting jAgent with SSL encryption using certificate *mycert.cer* and private key *mypk.pk* 
     - ***jbase\_agent -c c:\certs\mycert.cer -k c:\certs\mypk.pk***
 - Installing and starting jAgent as a Windows Service with default service name (jBASE jAgent Server) on default port 
     - ***jbase\_agent install jbase\_agent start***
-- Installing and starting jAgent as a Windows Service with service name <u>MyAgent1</u>, port 20003, and user authentication 
-    - ***jbase\_agent install -n <u>MyjAgent1</u> -p 20003 -A user jbase\_agent start***
+- Installing and starting jAgent as a Windows Service with service name MyAgent1, port 20003, and user authentication 
+    - ***jbase\_agent install -n MyjAgent1 -p 20003 -A user jbase\_agent start***
 - Starting jAgent as a Unix daemon on port 20003 and redirecting logging messages to text files. 
     - ***jbase\_agent start -p 20003 -F***
 

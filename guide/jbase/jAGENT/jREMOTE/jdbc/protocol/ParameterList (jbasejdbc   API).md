@@ -3,24 +3,11 @@
 **Created At:** 9/25/2017 11:03:05 AM  
 **Updated At:** 2/15/2018 8:02:53 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="ParameterList (jbasejdbc   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10,"i27":10,"i28":10,"i29":10,"i30":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="ParameterList (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10,"i27":10,"i28":10,"i29":10,"i30":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
 - Class
@@ -43,15 +30,7 @@ jbasejdbc <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -64,8 +43,7 @@ jbasejdbc <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= --><!-- ======== START OF CLASS DATA ======== -->
+
 com.jbase.jdbc.protocol
 
 ## Class ParameterList
@@ -74,10 +52,7 @@ com.jbase.jdbc.protocol
 - - com.jbase.jdbc.protocol.ParameterList
 
 
-- <dl><dt>All Implemented Interfaces:</dt>
-<dd>
-<a href="/39232-io/com_jbase_jdbc_io_jbaseserializable" title="interface in com.jbase.jdbc.io">JBaseSerializable</a>, <a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals" title="interface in com.jbase.jdbc">JBaseJDBCGlobals</a>
-</dd></dl>
+- All Implemented Interfaces:[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io"), [JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc")
 * * *
 
 
@@ -88,47 +63,38 @@ implements JBaseJDBCGlobals, JBaseSerializable
 ```
 
 ParameterList represents list of parameters to be bound to<br> a PreparedStatement or CallableStatement.<br><br> The number of parameters hold by ParameterList must be determined when it's created<br> and cannot change (this is what we need in PreparedStatement & CallableStatement).
-<dl><dt><span class="simpleTagLabel">Author:</span></dt>
-<dd>Peter Kuchta</dd></dl>
+Author:Peter Kuchta
 
-- <!-- ======== NESTED CLASS SUMMARY ======== -->
-    - <!--   -->
-### Nested Class Summary
+- - ### Nested Class Summary
 
-        - <!--   -->
-### Nested classes/interfaces inherited from interface com.jbase.jdbc.[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc")
+        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc")
 `JBaseJDBCGlobals.TYPES`
 
 
-        - <!--   -->
-### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
 `JBaseSerializable.TYPE`
 
-<!-- =========== FIELD SUMMARY =========== -->
-    - <!--   -->
-### Field Summary
 
-        - <!--   -->
-### Fields inherited from interface com.jbase.jdbc.[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc")
+    - ### Field Summary
+
+        - ### Fields inherited from interface com.jbase.jdbc.[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc")
 `AM, CHAR_AM, CHAR_SM, CHAR_VM, SHORT_AM, SHORT_CHAR_AM, SHORT_CHAR_SM, SHORT_CHAR_VM, SHORT_SM, SHORT_VM, SM, VM`
 
-<!-- ======== CONSTRUCTOR SUMMARY ======== -->
-    - <!--   -->
-### Constructor Summary
+
+    - ### Constructor Summary
 
 
-<caption><span>Constructors</span><span class="tabEnd"> </span></caption>| Constructor and Description |
+Constructors | Constructor and Description |
 | --- |
 | `ParameterList()`  |
 | `ParameterList(int n)`<br>Constructor.<br> |
 | `ParameterList(ParameterList pl)`<br>Constructor.<br> |
 
-<!-- ========== METHOD SUMMARY =========== -->
-    - <!--   -->
-### Method Summary
+
+    - ### Method Summary
 
 
-<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd"> </span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd"> </span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">Concrete Methods</a></span><span class="tabEnd"> </span></span></caption>| Modifier and Type | Method and Description |
+All Methods [Instance Methods](javascript:show%282%29;) [Concrete Methods](javascript:show%288%29;) | Modifier and Type | Method and Description |
 | --- | --- |
 | `boolean` | `allBound()`  |
 | `void` | `clear()`<br>Clear the parameter list.<br> |
@@ -163,21 +129,18 @@ ParameterList represents list of parameters to be bound to<br> a PreparedStateme
 | `void` | `writeObject(JBaseObjectWriter writer,<br>           int version)`<br>Implementation of JBaseSerializable.<br> |
 
 
-        - <!--   -->
-### Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
+        - ### Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-- <!-- ========= CONSTRUCTOR DETAIL ======== -->
-    - <!--   -->
-### Constructor Detail
-<!--   -->
+- - ### Constructor Detail
+
         - #### ParameterList
 
 ```
 public ParameterList()
 ```
 
-<!--   -->
+
         - #### ParameterList
 
 ```
@@ -185,11 +148,9 @@ public ParameterList(int n)
 ```
 
 Constructor.
-<dl><dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>n</code> - How many parameters the list will hold.</dd></dl>
+Parameters:`n` - How many parameters the list will hold.
 
-<!--   -->
+
         - #### ParameterList
 
 ```
@@ -197,14 +158,11 @@ public ParameterList(ParameterList pl)
 ```
 
 Constructor. Creates a copy of the given ParameterList.
-<dl><dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>pl</code> - ParameterList to be copied</dd></dl>
+Parameters:`pl` - ParameterList to be copied
 
-<!-- ============ METHOD DETAIL ========== -->
-    - <!--   -->
-### Method Detail
-<!--   -->
+
+    - ### Method Detail
+
         - #### getType
 
 ```
@@ -212,25 +170,17 @@ public int getType()
 ```
 
 Implementation of JBaseSerializable.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39232-io/com_jbase_jdbc_io_jbaseserializable#getType--">getType</a></code> in interface <code><a href="/39232-io/com_jbase_jdbc_io_jbaseserializable" title="interface in com.jbase.jdbc.io">JBaseSerializable</a></code>
-</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>type id of the objects, used during the serialization</dd></dl>
+Specified by:`getType` in interface `JBaseSerializable`Returns:type id of the objects, used during the serialization
 
-<!--   -->
+
         - #### getVersion
 
 ```
 public int getVersion()
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39232-io/com_jbase_jdbc_io_jbaseserializable#getVersion--">getVersion</a></code> in interface <code><a href="/39232-io/com_jbase_jdbc_io_jbaseserializable" title="interface in com.jbase.jdbc.io">JBaseSerializable</a></code>
-</dd></dl>
+Specified by:`getVersion` in interface `JBaseSerializable`
 
-<!--   -->
+
         - #### writeObject
 
 ```
@@ -240,14 +190,9 @@ public void writeObject(JBaseObjectWriter writer,
 ```
 
 Implementation of JBaseSerializable.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39232-io/com_jbase_jdbc_io_jbaseserializable#writeObject-com.jbase.jdbc.io.JBaseObjectWriter-int-">writeObject</a></code> in interface <code><a href="/39232-io/com_jbase_jdbc_io_jbaseserializable" title="interface in com.jbase.jdbc.io">JBaseSerializable</a></code>
-</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Specified by:`writeObject` in interface `JBaseSerializable`Throws:`IOException`
 
-<!--   -->
+
         - #### readObject
 
 ```
@@ -258,40 +203,32 @@ public void readObject(JBaseObjectReader reader,
 ```
 
 Not implemented yet (currently ParameterList is only being sent from the client to the server).
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39232-io/com_jbase_jdbc_io_jbaseserializable#readObject-com.jbase.jdbc.io.JBaseObjectReader-int-">readObject</a></code> in interface <code><a href="/39232-io/com_jbase_jdbc_io_jbaseserializable" title="interface in com.jbase.jdbc.io">JBaseSerializable</a></code>
-</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/ClassNotFoundException.html?is-external=true" title="class or interface in java.lang">ClassNotFoundException</a></code></dd></dl>
+Specified by:`readObject` in interface `JBaseSerializable`Throws:`IOException``ClassNotFoundException`
 
-<!--   -->
+
         - #### count
 
 ```
 public int count()
 ```
-<dl><dt><span class="returnLabel">Returns:</span></dt>
-<dd>numer of parameters kept in this ParameterList.</dd></dl>
+Returns:numer of parameters kept in this ParameterList.
 
-<!--   -->
+
         - #### get
 
 ```
 public Object get(int i)
 ```
 
-<!--   -->
+
         - #### allBound
 
 ```
 public boolean allBound()
 ```
-<dl><dt><span class="returnLabel">Returns:</span></dt>
-<dd>true if all parameters have been bound, false otherwise.</dd></dl>
+Returns:true if all parameters have been bound, false otherwise.
 
-<!--   -->
+
         - #### clear
 
 ```
@@ -300,7 +237,7 @@ public void clear()
 
 Clear the parameter list. After calling this method all parameters will be unbound.
 
-<!--   -->
+
         - #### setString
 
 ```
@@ -310,10 +247,9 @@ public void setString(int parameterIndex,
 ```
 
 This and following methods gets called from<br> equivalent methods in @see JBaseJDBCPreparedStatement
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setNull
 
 ```
@@ -324,10 +260,9 @@ public void setNull(int parameterIndex,
 ```
 
 Sets the parameter number parameterIndex to NULL of sqlType type and typeName name.<br><br> FIXME: the type codes (sqlType) we use, adopted from jDP, are different<br> then standard JDBC ones.
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setObject
 
 ```
@@ -335,10 +270,9 @@ public void setObject(int parameterIndex,
                       Object x)
                throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setBlob
 
 ```
@@ -346,10 +280,9 @@ public void setBlob(int parameterIndex,
                     Blob x)
              throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setByte
 
 ```
@@ -357,10 +290,9 @@ public void setByte(int parameterIndex,
                     byte x)
              throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setDouble
 
 ```
@@ -368,10 +300,9 @@ public void setDouble(int parameterIndex,
                       double x)
                throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setFloat
 
 ```
@@ -379,10 +310,9 @@ public void setFloat(int parameterIndex,
                      float x)
               throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setInt
 
 ```
@@ -390,10 +320,9 @@ public void setInt(int parameterIndex,
                    int x)
             throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setNull
 
 ```
@@ -401,10 +330,9 @@ public void setNull(int parameterIndex,
                     int sqlType)
              throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setLong
 
 ```
@@ -412,10 +340,9 @@ public void setLong(int parameterIndex,
                     long x)
              throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setShort
 
 ```
@@ -423,10 +350,9 @@ public void setShort(int parameterIndex,
                      short x)
               throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setBoolean
 
 ```
@@ -434,10 +360,9 @@ public void setBoolean(int parameterIndex,
                        boolean x)
                 throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setDate
 
 ```
@@ -446,10 +371,9 @@ public void setDate(int parameterIndex,
                     Calendar cal)
              throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setTime
 
 ```
@@ -458,10 +382,9 @@ public void setTime(int parameterIndex,
                     Calendar cal)
              throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setTimestamp
 
 ```
@@ -470,10 +393,9 @@ public void setTimestamp(int parameterIndex,
                          Calendar cal)
                   throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setDate
 
 ```
@@ -481,10 +403,9 @@ public void setDate(int parameterIndex,
                     Date x)
              throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setBytes
 
 ```
@@ -492,10 +413,9 @@ public void setBytes(int parameterIndex,
                      byte[] x)
               throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setObject
 
 ```
@@ -505,10 +425,9 @@ public void setObject(int parameterIndex,
                       int scale)
                throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setBigDecimal
 
 ```
@@ -516,10 +435,9 @@ public void setBigDecimal(int parameterIndex,
                           BigDecimal x)
                    throws SQLException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Throws:`SQLException`
 
-<!--   -->
+
         - #### setParametersType
 
 ```
@@ -527,7 +445,7 @@ public void setParametersType(int parameterIndex,
                               int sqlType)
 ```
 
-<!--   -->
+
         - #### setScale
 
 ```
@@ -535,7 +453,7 @@ public void setScale(int parameterIndex,
                      int scale)
 ```
 
-<!--   -->
+
         - #### setRegisterAsOutParameter
 
 ```
@@ -543,16 +461,15 @@ public void setRegisterAsOutParameter(int parameterIndex,
                                       boolean b)
 ```
 
-<!--   -->
+
         - #### copyFrom
 
 ```
 public void copyFrom(ParameterList other)
 ```
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
 - Class
@@ -575,15 +492,7 @@ jbasejdbc <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -596,6 +505,5 @@ jbasejdbc <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

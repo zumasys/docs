@@ -5,7 +5,7 @@
 
 
 # Interface JBaseSerializable.TYPE
-<dl><dt>Enclosing interface:</dt><dd><a href="com_jbase_jdbc_io_jbaseserializable" title="interface in com.jbase.jdbc.io">JBaseSerializable</a>&nbsp;</dd></dl>
+Enclosing interface:[JBaseSerializable](com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io") 
 ```
 public static interface JBaseSerializable.TYPE
 ```
@@ -49,13 +49,14 @@ public static interface JBaseSerializable.TYPE
 ```
 static final int INVALID_TYPE
 ```
-<dl><dt style="margin-left: 40px;"><a name="Null">&nbsp;</a>&nbsp;</dt></dl>
+ 
 #### **Null**
 
 ```
 static final int Null
 ```
-<dl><dt style="margin-left: 40px;"><br></dt></dl>
+
+
 
 
 #### **AuthenticationRequest**
@@ -63,7 +64,8 @@ static final int Null
 ```
 static final int AuthenticationRequest
 ```
-<dl><dt style="margin-left: 40px;"><br></dt></dl>
+
+
 
 
 #### **ErrorResponse**
@@ -71,7 +73,8 @@ static final int AuthenticationRequest
 ```
 static final int ErrorResponse
 ```
-<dl><dt style="margin-left: 40px;"><br></dt></dl>
+
+
 
 
 #### **ParameterList**
@@ -79,7 +82,8 @@ static final int ErrorResponse
 ```
 static final int ParameterList
 ```
-<dl><dt style="margin-left: 40px;"><br></dt></dl>
+
+
 
 
 #### **UserCredentials**
@@ -87,7 +91,8 @@ static final int ParameterList
 ```
 static final int UserCredentials
 ```
-<dl><dt style="margin-left: 40px;"><br></dt></dl>
+
+
 
 
 #### **AccountUserCredentials**
@@ -95,7 +100,8 @@ static final int UserCredentials
 ```
 static final int AccountUserCredentials
 ```
-<dl><dt style="margin-left: 40px;"><br></dt></dl>
+
+
 
 
 #### **RemoteInputRequest**
@@ -103,7 +109,8 @@ static final int AccountUserCredentials
 ```
 static final int RemoteInputRequest
 ```
-<dl><dt style="margin-left: 40px;"><br></dt></dl>
+
+
 
 
 #### **SetPropertiesRequest**
@@ -111,7 +118,8 @@ static final int RemoteInputRequest
 ```
 static final int SetPropertiesRequest
 ```
-<dl><dt style="margin-left: 40px;"><br></dt></dl>
+
+
 
 
 #### **InputOutputResponse**
@@ -119,7 +127,8 @@ static final int SetPropertiesRequest
 ```
 static final int InputOutputResponse
 ```
-<dl><dt style="margin-left: 40px;"><br></dt></dl>
+
+
 #### 
 
 
@@ -128,7 +137,8 @@ static final int InputOutputResponse
 ```
 static final int SetPropertiesResponse
 ```
-<dl><dt style="margin-left: 40px;"><br></dt></dl>
+
+
 
 
 #### **SQLError**
@@ -136,7 +146,8 @@ static final int SetPropertiesResponse
 ```
 static final int SQLError
 ```
-<dl><dt style="margin-left: 40px;"><br></dt></dl>
+
+
 
 
 #### **LoggingRequest**
@@ -144,13 +155,16 @@ static final int SQLError
 ```
 static final int LoggingRequest
 ```
-<dl><dt style="margin-left: 40px;"><br><br></dt></dl>
+
+
+
 #### **OKResponse**
 
 ```
 static final int OKResponse
 ```
-<dl><dt style="margin-left: 40px;"><br></dt></dl>
+
+
 
 
 #### **EchoRequest**
@@ -158,7 +172,8 @@ static final int OKResponse
 ```
 static final int EchoRequest
 ```
-<dl><dt style="margin-left: 40px;"><br></dt></dl>
+
+
 
 
 #### **EchoResponse**
@@ -166,7 +181,8 @@ static final int EchoRequest
 ```
 static final int EchoResponse
 ```
-<dl><dt style="margin-left: 40px;"><br></dt></dl>
+
+
 
 
 #### **TestType**
@@ -174,4 +190,4 @@ static final int EchoResponse
 ```
 static final int TestType
 ```
-<dl><dt style="margin-left: 40px;"><br></dt></dl>
+

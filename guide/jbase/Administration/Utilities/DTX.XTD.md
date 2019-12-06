@@ -14,14 +14,14 @@ Several utilities are provided to convert, add, multiply, subtract and divide nu
 
 | Command<br> | Description<br> | Example<br> | Result<br> | <br> |
 | --- | --- | --- | --- | --- |
-| ADDD<br> | Add decimal<br> | <samp>ADDD 10 20</samp><br> | <samp>30</samp><br> | <br> |
-| ADDX<br> | Add hexadecimal<br> | <samp>ADDX A 14</samp><br> | <samp>1E</samp><br> | <br> |
-| SUBD<br> | Subtract decimal<br> | <samp>SUBD 20 10</samp><br> | <samp>10</samp><br> | <br> |
-| SUBX<br> | Subtract hexadecimal<br> | <samp>SUBX 14 A</samp><br> | <samp>A</samp><br> | <br> |
-| DIVD<br> | Divide decimal<br> | <samp>DIVD 20 10</samp><br> | <samp>2</samp><br> | <br> |
-| DIVX<br> | Divide hexadecimal<br> | <samp>DIVX 14 A</samp><br> | <samp>2</samp><br> | <br> |
-| MULD<br> | Multiply decimal<br> | <samp>MULD 20 10</samp><br> | <samp>200</samp><br> | <br> |
-| MULX<br> | Multiply hexadecimal<br> | <samp>MULX 14 A</samp><br> | <samp>C8</samp><br> | <br> |
-| DTX<br> | Convert decimal to hex<br> | <samp>DTX 10</samp><br> | <samp>A</samp><br> | <br> |
-| XTD<br> | Convert hex to decimal<br> | <samp>XTD A</samp><br> | <samp>10</samp><br> |
+| ADDD<br> | Add decimal<br> | ADDD 10 20<br> | 30<br> | <br> |
+| ADDX<br> | Add hexadecimal<br> | ADDX A 14<br> | 1E<br> | <br> |
+| SUBD<br> | Subtract decimal<br> | SUBD 20 10<br> | 10<br> | <br> |
+| SUBX<br> | Subtract hexadecimal<br> | SUBX 14 A<br> | A<br> | <br> |
+| DIVD<br> | Divide decimal<br> | DIVD 20 10<br> | 2<br> | <br> |
+| DIVX<br> | Divide hexadecimal<br> | DIVX 14 A<br> | 2<br> | <br> |
+| MULD<br> | Multiply decimal<br> | MULD 20 10<br> | 200<br> | <br> |
+| MULX<br> | Multiply hexadecimal<br> | MULX 14 A<br> | C8<br> | <br> |
+| DTX<br> | Convert decimal to hex<br> | DTX 10<br> | A<br> | <br> |
+| XTD<br> | Convert hex to decimal<br> | XTD A<br> | 10<br> |
 

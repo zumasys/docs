@@ -10,7 +10,7 @@
 <badge text='migration' vertical='middle' />
 <badge text='migrating' vertical='middle' />
 
-<iframe width="640" height="360" class="fr-draggable" src="https://www.youtube.com/embed/PMElm478fv4?wmode=opaque" frameborder="0" allowfullscreen=""></iframe>
+
 
 This article and accompanying video will provide you with a walkthrough of how to prepare your Universe data to be migrated to jBASE.  You will configure your Universe backup, execute the backup and run a restore of your Universe data onto a jBASE system.
 

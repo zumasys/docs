@@ -3,11 +3,79 @@
 **Created At:** 12/3/2019 4:22:00 PM  
 **Updated At:** 12/4/2019 1:08:33 PM  
 
-<article><p><br></p><p>When the SELECT statement is used with an index variable (created with the <a href="/36868-jbase-basic/277541-openindex" title="">OPENINDEX</a> statement) then it can be extended to the following syntax:</p><pre><strong>SELECT indexvariable {TO select-def} {ATKEY index-key{,record-key{,vmcount}}}</strong></pre><p><br></p><p>This form of the SELECT statement allows the use of the index data in conjunction with an index definition variable created with an OPENINDEX statement.&nbsp;</p><p>In its simplest form the following example shows how you can display all the record keys within a file that have a secondary index (in ascending sequence**) called &quot;NAME&quot; and thus the record keys will be displayed according to the sorted order of the index definition for &quot;NAME&quot;:</p><pre><code>OPENINDEX &quot;CUSTOMERS&quot;, &quot;NAME&quot; TO index.var ELSE STOP 201,&quot;NAME in CUSTOMERS&quot;
+
+
+
+When the SELECT statement is used with an index variable (created with the [OPENINDEX](/36868-jbase-basic/277541-openindex) statement) then it can be extended to the following syntax:
+
+```
+SELECT indexvariable {TO select-def} {ATKEY index-key{,record-key{,vmcount}}}
+```
+
+
+
+This form of the SELECT statement allows the use of the index data in conjunction with an index definition variable created with an OPENINDEX statement.
+
+In its simplest form the following example shows how you can display all the record keys within a file that have a secondary index (in ascending sequence\*\*) called "NAME" and thus the record keys will be displayed according to the sorted order of the index definition for "NAME":
+
+```
+OPENINDEX "CUSTOMERS", "NAME" TO index.var ELSE STOP 201,"NAME in CUSTOMERS"
  SELECT index.var
  LOOP WHILE READNEXT record.key DO
      CRT record.key
- REPEAT</code></pre><p>You can use the normal &quot;TO select-def&quot; to perform the selection to a numbered list or a variable instead of to the default select list.</p><p>The use of the &quot;ATKEY index-key{,record-key{,vmcount}} is optional and allows you to position yourselves at a specific point in the index. In its minimal form you specify the index key at which to start your selection. As each index key may contain many record keys you can further sub-specify at which record key to within that index to position yourselves. Finally each record may be multi-valued with the same index data, you can finally sub-position yourselves at the value mark within the record key.</p><p>The SELECT .. ATKEY statement uses raw data whereas the key-select and query-index programs assume the index specification is in external representation and pass it though any defined lookup code.</p><p>**When no starting index value is specified, the default value is &#39;null&#39;.&nbsp;</p><p>This works as expected for an ascending sort as &#39;null&#39; always sorts before all other values. However, a default value of &#39;null&#39; is hardly desirable for a descending sort, so it is necessary to use the &quot;ATKEY&quot; extension of the SELECT statement to force the select to start at the &#39;beginning&#39; of a descending index. For example, if the &quot;NAME&quot; index was sorted in descending sequence then the statement</p><pre><code>SELECT index.var ATKEY CHAR(127)</code></pre><p>would place you at the beginning of the index.&nbsp;</p><p>This will work for descending numeric index keys as well.</p><p>Consider the following records written to a file with a simple left justified index created on a multi-valued attribute 1:</p><table style="width: 100%;"><tbody><tr><td style="width: 14.6018%;"><strong>Record Key</strong></td><td style="width: 85.3982%;"><strong>Data in attribute 1</strong></td></tr><tr><td style="width: 14.6018%;">A</td><td style="width: 85.3982%;">COOPER]SMITH]JONES]COOPER]COOPER</td></tr><tr><td style="width: 14.6018%;">B</td><td style="width: 85.3982%;">COOPER]CLARK</td></tr><tr><td style="width: 14.6018%;">C</td><td style="width: 85.3982%;">JONES</td></tr></tbody></table><p>The following index data will now have been created for the above data:</p><table style="width: 100%;"><tbody><tr><td style="width: 14.7788%;"><strong>Index key</strong></td><td style="width: 85.2212%;"><strong>Index data</strong></td></tr><tr><td style="width: 14.7788%;">CLARK</td><td style="width: 85.2212%;">Key &quot;B&quot; at multi-value 2</td></tr><tr><td style="width: 14.7788%;">COOPER</td><td style="width: 85.2212%;">Key &quot;A&quot; at multi-value 1</td></tr><tr><td style="width: 14.7788%;"><br></td><td style="width: 85.2212%;">Key &quot;A&quot; at multi-value 4</td></tr><tr><td style="width: 14.7788%;"><br></td><td style="width: 85.2212%;">Key &quot;A&quot; at multi-value 5</td></tr><tr><td style="width: 14.7788%;"><br></td><td style="width: 85.2212%;">Key &quot;B&quot; at multi-value 1</td></tr><tr><td style="width: 14.7788%;">JONES</td><td style="width: 85.2212%;">Key &quot;A&quot; at multi-value 3</td></tr><tr><td style="width: 14.7788%;"><br></td><td style="width: 85.2212%;">Key &quot;C&quot; at multi-value 1</td></tr><tr><td style="width: 14.7788%;">SMITH</td><td style="width: 85.2212%;">Key &quot;A&quot; at multi-value 2</td></tr></tbody></table><p><br></p><p>The following are examples of jBC code using the above data and the resultant screen output along with comments on the action.</p><p><em>Example 1 - Select the entire index</em></p><pre><code>OPENINDEX filename,&quot;INDEX1&quot; TO index.var ELSE STOP 201,&quot;INDEX1 in &quot;:filename
+ REPEAT
+```
+
+You can use the normal "TO select-def" to perform the selection to a numbered list or a variable instead of to the default select list.
+
+The use of the "ATKEY index-key{,record-key{,vmcount}} is optional and allows you to position yourselves at a specific point in the index. In its minimal form you specify the index key at which to start your selection. As each index key may contain many record keys you can further sub-specify at which record key to within that index to position yourselves. Finally each record may be multi-valued with the same index data, you can finally sub-position yourselves at the value mark within the record key.
+
+The SELECT .. ATKEY statement uses raw data whereas the key-select and query-index programs assume the index specification is in external representation and pass it though any defined lookup code.
+
+\*\*When no starting index value is specified, the default value is 'null'.
+
+This works as expected for an ascending sort as 'null' always sorts before all other values. However, a default value of 'null' is hardly desirable for a descending sort, so it is necessary to use the "ATKEY" extension of the SELECT statement to force the select to start at the 'beginning' of a descending index. For example, if the "NAME" index was sorted in descending sequence then the statement
+
+```
+SELECT index.var ATKEY CHAR(127)
+```
+
+would place you at the beginning of the index.
+
+This will work for descending numeric index keys as well.
+
+Consider the following records written to a file with a simple left justified index created on a multi-valued attribute 1:
+
+
+| **Record Key** | **Data in attribute 1** |
+| --- | --- |
+| A | COOPER]SMITH]JONES]COOPER]COOPER |
+| B | COOPER]CLARK |
+| C | JONES |
+
+
+The following index data will now have been created for the above data:
+
+
+| **Index key** | **Index data** |
+| CLARK | Key "B" at multi-value 2 |
+| COOPER | Key "A" at multi-value 1 |
+| <br> | Key "A" at multi-value 4 |
+| <br> | Key "A" at multi-value 5 |
+| <br> | Key "B" at multi-value 1 |
+| JONES | Key "A" at multi-value 3 |
+| <br> | Key "C" at multi-value 1 |
+| SMITH | Key "A" at multi-value 2 |
+
+
+
+
+The following are examples of jBC code using the above data and the resultant screen output along with comments on the action.
+
+*Example 1 - Select the entire index*
+
+```
+OPENINDEX filename,"INDEX1" TO index.var ELSE STOP 201,"INDEX1 in ":filename
  SELECT index.var
  LOOP WHILE READNEXT key DO
      CRT key
@@ -21,7 +89,9 @@
  B
  A
  C
- A</code></pre></article>
+ A
+```
+
 
 
 Note that the order of the record keys (B,A,A,A,B,A,C,A) is identical to the table of index information shown.

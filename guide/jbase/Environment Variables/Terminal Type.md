@@ -8,7 +8,7 @@ jBASE provides support for a terminal type cross reference mechanism that enable
 
 A synonym name exists when the name is entirely numeric or the name is a 1 character alpha and the name exists as the first field in this cross reference database.
 
-If the synonym is found, then jBASE uses the synonym name in things like the TERM command, and the <u>SYSTEM(7)</u> function. However, it maintains the UNIX environment variable "TERM" to be the name given in the second field in the entry and uses those definitions in the terminfo database.
+If the synonym is found, then jBASE uses the synonym name in things like the TERM command, and the SYSTEM(7) function. However, it maintains the UNIX environment variable "TERM" to be the name given in the second field in the entry and uses those definitions in the terminfo database.
 
 For example, if the BASIC source uses the following statement.
 

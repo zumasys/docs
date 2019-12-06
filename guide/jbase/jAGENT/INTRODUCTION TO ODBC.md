@@ -53,7 +53,7 @@ These run-time libraries can be downloaded from Microsoft and are supplied with 
 
 Note that these run-time components are already included in:
 
-***Microsoft .NET Framework 2.0 SP1 <u>or higher</u>***
+***Microsoft .NET Framework 2.0 SP1 or higher***
 
 Installation of the Visual C++ 2005 SP1 redistributable package is not required if this version of .NET has already been installed.
 

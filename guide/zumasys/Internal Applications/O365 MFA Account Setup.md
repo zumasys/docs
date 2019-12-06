@@ -27,7 +27,7 @@ Select **Receive notifications for verification**
 Click **Set up** to setup the Mobile Authenticator app
 
 
-<!--[endif]--><!--[if !vml]--><!--[endif]--><!--[if !vml]-->
+
 ![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3556/direct/1546525058539-1546525058539.jpg)
 
 ### Info
@@ -66,7 +66,7 @@ You’ll be prompted to sign in again, this time by verifying the login using th
 
 There are at least 2 ways for a user to access their already-configured MFA settings:
 
-<u>Method 1</u>
+Method 1
 
 - Browse to [https://myapps.microsoft.com](https://myapps.microsoft.com) and sign in with your O365 credentials.
 - Click on your name in the top right corner, and click **Profile**
@@ -79,9 +79,9 @@ There are at least 2 ways for a user to access their already-configured MFA sett
 - Click on **Additional security verification**
 
 
-<u><img class="fr-dib" src="https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3556/direct/1546525228902-1546525228902.jpg" style="width: truepx;"></u>
+![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3556/direct/1546525228902-1546525228902.jpg)
 
-<u>Method 2</u>
+Method 2
 
 - While signed in to the Office 365 portal, click on your user name in the top right corner, then click **My account**, and then click on **Manage security & privacy**
 
@@ -96,11 +96,11 @@ There are at least 2 ways for a user to access their already-configured MFA sett
 - Click on **Update your phone numbers used for account security**
 
 
-<!--[if !vml]--> ![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3556/direct/1546525269438-1546525269438.jpg)
+![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3556/direct/1546525269438-1546525269438.jpg)
 
 
 
-<u>Regardless of which method you used, you should now be at the settings page.</u>
+Regardless of which method you used, you should now be at the settings page.
 
 - On this page, you can choose again whether to “Notify me through app” (the most convenient, as you cell phone prompts and you just tap Approve) or “Use verification code from app” (less convenient, because you have to open the Microsoft Authenticator app on your phone to find the  6-digit code you have to type into the login screen).
 - All other authentication methods are disabled for Zumasys other than the **Authenticator app**.  You can click Configure on this screen if you need to reconfigure the Mobile Authenticator app.

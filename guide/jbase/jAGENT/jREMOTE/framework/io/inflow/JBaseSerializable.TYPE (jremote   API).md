@@ -3,18 +3,11 @@
 **Created At:** 9/25/2017 11:51:51 AM  
 **Updated At:** 2/15/2018 8:02:59 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="JBaseSerializable.TYPE (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JBaseSerializable.TYPE (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39250-io/com_jbase_jremote_io_package-summary)
 - Class
@@ -37,15 +30,7 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -58,14 +43,12 @@ jremote <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= --><!-- ======== START OF CLASS DATA ======== -->
+
 com.jbase.jremote.io
 
 ## Interface JBaseSerializable.TYPE
 
-- <dl><dt>Enclosing interface:</dt>
-<dd><a href="/39250-io/com_jbase_jremote_io_jbaseserializable" title="interface in com.jbase.jremote.io">JBaseSerializable</a></dd></dl>
+- Enclosing interface:[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -73,12 +56,10 @@ com.jbase.jremote.io
 public static interface JBaseSerializable.TYPE
 ```
 
-- <!-- =========== FIELD SUMMARY =========== -->
-    - <!--   -->
-### Field Summary
+- - ### Field Summary
 
 
-<caption><span>Fields</span><span class="tabEnd"> </span></caption>| Modifier and Type | Field and Description |
+Fields | Modifier and Type | Field and Description |
 | --- | --- |
 | `static int` | `AccountUserCredentials`  |
 | `static int` | `AuthenticationRequest`  |
@@ -98,165 +79,145 @@ public static interface JBaseSerializable.TYPE
 | `static int` | `TestType`  |
 | `static int` | `UserCredentials`  |
 
-- <!-- ============ FIELD DETAIL =========== -->
-    - <!--   -->
-### Field Detail
-<!--   -->
+- - ### Field Detail
+
         - #### INVALID\_TYPE
 
 ```
 static final int INVALID_TYPE
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.INVALID_TYPE">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.INVALID_TYPE)
 
-<!--   -->
+
         - #### Null
 
 ```
 static final int Null
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.Null">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.Null)
 
-<!--   -->
+
         - #### AuthenticationRequest
 
 ```
 static final int AuthenticationRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.AuthenticationRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.AuthenticationRequest)
 
-<!--   -->
+
         - #### ErrorResponse
 
 ```
 static final int ErrorResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.ErrorResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.ErrorResponse)
 
-<!--   -->
+
         - #### ParameterList
 
 ```
 static final int ParameterList
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.ParameterList">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.ParameterList)
 
-<!--   -->
+
         - #### UserCredentials
 
 ```
 static final int UserCredentials
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.UserCredentials">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.UserCredentials)
 
-<!--   -->
+
         - #### AccountUserCredentials
 
 ```
 static final int AccountUserCredentials
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.AccountUserCredentials">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.AccountUserCredentials)
 
-<!--   -->
+
         - #### RemoteInputRequest
 
 ```
 static final int RemoteInputRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.RemoteInputRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.RemoteInputRequest)
 
-<!--   -->
+
         - #### SetPropertiesRequest
 
 ```
 static final int SetPropertiesRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.SetPropertiesRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.SetPropertiesRequest)
 
-<!--   -->
+
         - #### InputOutputResponse
 
 ```
 static final int InputOutputResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.InputOutputResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.InputOutputResponse)
 
-<!--   -->
+
         - #### SetPropertiesResponse
 
 ```
 static final int SetPropertiesResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.SetPropertiesResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.SetPropertiesResponse)
 
-<!--   -->
+
         - #### SQLError
 
 ```
 static final int SQLError
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.SQLError">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.SQLError)
 
-<!--   -->
+
         - #### LoggingRequest
 
 ```
 static final int LoggingRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.LoggingRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.LoggingRequest)
 
-<!--   -->
+
         - #### OKResponse
 
 ```
 static final int OKResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.OKResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.OKResponse)
 
-<!--   -->
+
         - #### EchoRequest
 
 ```
 static final int EchoRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.EchoRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.EchoRequest)
 
-<!--   -->
+
         - #### EchoResponse
 
 ```
 static final int EchoResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.EchoResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.EchoResponse)
 
-<!--   -->
+
         - #### TestType
 
 ```
 static final int TestType
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.TestType">Constant Field Values</a></dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jremote.io.JBaseSerializable.TYPE.TestType)
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39250-io/com_jbase_jremote_io_package-summary)
 - Class
@@ -279,15 +240,7 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -300,6 +253,5 @@ jremote <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

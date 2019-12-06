@@ -54,8 +54,8 @@ fields one, two, and three, of file buffer 2 will be replaced with "AA", "BB", a
 
 | Command<br> | PIB Before<br> | Input<br> | PIB After<br> |
 | --- | --- | --- | --- |
-| <samp>IP?</samp><br> | <samp>AAA^BBB</samp><br> | <samp>CCC</samp><br> | <samp>AAA^BBB^CCC</samp><br> |
-| <br> | <samp>&nbsp; &nbsp; &nbsp; &nbsp;^</samp><br> | <br> | <samp>&nbsp; &nbsp; &nbsp; ^</samp><br> |
+| IP?<br> | AAA^BBB<br> | CCC<br> | AAA^BBB^CCC<br> |
+| <br> |        ^<br> | <br> |       ^<br> |
 
 
 
@@ -65,8 +65,8 @@ fields one, two, and three, of file buffer 2 will be replaced with "AA", "BB", a
 
 | Command<br> | PIB Before<br> | Input<br> | PIB After<br> |
 | --- | --- | --- | --- |
-| <samp>IP?</samp><br> | <samp>AA^BB^CC</samp><br> | <samp>XX X</samp><br> | <samp>AA^XX^X^CC</samp><br> |
-| <br> | <samp>&nbsp; &nbsp;^</samp><br> | <br> | <samp>&nbsp; &nbsp;^</samp><br> |
+| IP?<br> | AA^BB^CC<br> | XX X<br> | AA^XX^X^CC<br> |
+| <br> |    ^<br> | <br> |    ^<br> |
 
 
 
@@ -76,8 +76,8 @@ fields one, two, and three, of file buffer 2 will be replaced with "AA", "BB", a
 
 | Command<br> | PIB Before<br> | Input<br> | PIB After<br> |
 | --- | --- | --- | --- |
-| <samp>IP?</samp><br> | <samp>ABC^DEF^GHI</samp><br> | <samp>&lt;ENTER&gt;</samp><br> | <samp>ABC^^GHI</samp><br> |
-| <br> | <samp>&nbsp; &nbsp;^</samp><br> | <br> | <samp>&nbsp; &nbsp;^</samp><br> |
+| IP?<br> | ABC^DEF^GHI<br> | &lt;ENTER&gt;<br> | ABC^^GHI<br> |
+| <br> |    ^<br> | <br> |    ^<br> |
 
 
 
@@ -87,10 +87,10 @@ fields one, two, and three, of file buffer 2 will be replaced with "AA", "BB", a
 
 | Command<br> | File Buffer 2 Before<br> | Input<br> | File Buffer 2 After<br> |
 | --- | --- | --- | --- |
-| <samp>IP:&amp;2.2</samp><br> | <samp>000 Key</samp><br> | <samp>BBB</samp><br> | <samp>000 Key</samp><br> |
-| <br> | <samp>001 AAA</samp><br> | <br> | <samp>001 AAA</samp><br> |
-| <br> | <samp>002 XXX</samp><br> | <br> | <samp>002 BBB</samp><br> |
-| <br> | <samp>003 CCC</samp><br> | <br> | <samp>003 CCC</samp><br> |
+| IP:&2.2<br> | 000 Key<br> | BBB<br> | 000 Key<br> |
+| <br> | 001 AAA<br> | <br> | 001 AAA<br> |
+| <br> | 002 XXX<br> | <br> | 002 BBB<br> |
+| <br> | 003 CCC<br> | <br> | 003 CCC<br> |
 
 
 
@@ -100,11 +100,11 @@ fields one, two, and three, of file buffer 2 will be replaced with "AA", "BB", a
 
 | Command<br> | File Buffer 2 Before<br> | Input<br> | File BUffer 2 After<br> |
 | --- | --- | --- | --- |
-| <samp>IP:&amp;2.2</samp><br> | <samp>000 Key</samp><br> | <samp>BB CC DD</samp><br> | <samp>000 Key</samp><br> |
-| <br> | <samp>001 AAA</samp><br> | <br> | <samp>001 AAA</samp><br> |
-| <br> | <samp>002 XXX</samp><br> | <br> | <samp>002 BB</samp><br> |
-| <br> | <samp>003 DDD</samp><br> | <br> | <samp>003 CC</samp><br> |
-| <br> | <br> | <br> | <samp>004 DD</samp><br> |
+| IP:&2.2<br> | 000 Key<br> | BB CC DD<br> | 000 Key<br> |
+| <br> | 001 AAA<br> | <br> | 001 AAA<br> |
+| <br> | 002 XXX<br> | <br> | 002 BB<br> |
+| <br> | 003 DDD<br> | <br> | 003 CC<br> |
+| <br> | <br> | <br> | 004 DD<br> |
 
 
 

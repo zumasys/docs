@@ -3,18 +3,11 @@
 **Created At:** 9/25/2017 11:57:31 AM  
 **Updated At:** 2/15/2018 8:02:19 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="SubroutineParametersRecord (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="SubroutineParametersRecord (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../overview-summary.html)
 - [Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
 - Class
@@ -37,15 +30,7 @@ jremote <br>
 - [All Classes](../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -58,18 +43,12 @@ jremote <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= --><!-- ======== START OF CLASS DATA ======== -->
+
 com.jbase.jremote.jca.cci
 
 ## Interface SubroutineParametersRecord
 
-- <dl><dt>All Superinterfaces:</dt>
-<dd>
-<a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Cloneable.html?is-external=true" title="class or interface in java.lang">Cloneable</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/util/Collection.html?is-external=true" title="class or interface in java.util">Collection</a>, javax.resource.cci.IndexedRecord, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true" title="class or interface in java.lang">Iterable</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>, javax.resource.cci.Record, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>, javax.resource.cci.Streamable</dd></dl><dl><dt>All Known Implementing Classes:</dt>
-<dd>
-<a href="/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteDynamicArrayRecord" title="class in com.jbase.jremote.jca.cci">CCIJRemoteDynamicArrayRecord</a>, <a href="../../../../../com/jbase/jremote/jca/cci/CCIJRemote/39259-cci/com_jbase_jremote_jca_cci_SubroutineParametersRecord" title="class in com.jbase.jremote.jca.cci">CCIJRemoteSubroutineParametersRecord</a>
-</dd></dl>
+- All Superinterfaces:[Cloneable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Cloneable.html?is-external=true "class or interface in java.lang"), [Collection](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Collection.html?is-external=true "class or interface in java.util"), javax.resource.cci.IndexedRecord, [Iterable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true "class or interface in java.lang"), [List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util"), javax.resource.cci.Record, [Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"), javax.resource.cci.StreamableAll Known Implementing Classes:[CCIJRemoteDynamicArrayRecord](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteDynamicArrayRecord "class in com.jbase.jremote.jca.cci"), [CCIJRemoteSubroutineParametersRecord](../../../../../com/jbase/jremote/jca/cci/CCIJRemote/39259-cci/com_jbase_jremote_jca_cci_SubroutineParametersRecord "class in com.jbase.jremote.jca.cci")
 * * *
 
 
@@ -78,37 +57,29 @@ public interface SubroutineParametersRecord
 extends javax.resource.cci.IndexedRecord, javax.resource.cci.Streamable
 ```
 
-- <!-- ========== METHOD SUMMARY =========== -->
-    - <!--   -->
-### Method Summary
+- - ### Method Summary
 
-        - <!--   -->
-### Methods inherited from interface javax.resource.cci.Record
+        - ### Methods inherited from interface javax.resource.cci.Record
 `clone, equals, getRecordName, getRecordShortDescription, hashCode, setRecordName, setRecordShortDescription`
 
 
-        - <!--   -->
-### Methods inherited from interface java.util.[List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util")
+        - ### Methods inherited from interface java.util.[List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util")
 `add, add, addAll, addAll, clear, contains, containsAll, equals, get, hashCode, indexOf, isEmpty, iterator, lastIndexOf, listIterator, listIterator, remove, remove, removeAll, replaceAll, retainAll, set, size, sort, spliterator, subList, toArray, toArray`
 
 
-        - <!--   -->
-### Methods inherited from interface java.util.[Collection](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Collection.html?is-external=true "class or interface in java.util")
+        - ### Methods inherited from interface java.util.[Collection](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Collection.html?is-external=true "class or interface in java.util")
 `parallelStream, removeIf, stream`
 
 
-        - <!--   -->
-### Methods inherited from interface java.lang.[Iterable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true "class or interface in java.lang")
+        - ### Methods inherited from interface java.lang.[Iterable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true "class or interface in java.lang")
 `forEach`
 
 
-        - <!--   -->
-### Methods inherited from interface javax.resource.cci.Streamable
+        - ### Methods inherited from interface javax.resource.cci.Streamable
 `read, write`
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../overview-summary.html)
 - [Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
 - Class
@@ -131,15 +102,7 @@ jremote <br>
 - [All Classes](../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -152,6 +115,5 @@ jremote <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

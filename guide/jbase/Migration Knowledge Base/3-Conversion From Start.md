@@ -158,4 +158,4 @@ jsh&gt;ZUMRECAT                                           �
 
 Work on the programs as shown in the ZUMGB ALL lists concentrating on the ones in the BADCAT.xxx LISTS
 
-***<u>YOU ARE DONE. &nbsp; Ready for testing &nbsp; </u>***
+***YOU ARE DONE.   Ready for testing***

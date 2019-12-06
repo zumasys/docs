@@ -23,7 +23,9 @@ where:
 ## Note: 
 
 
-> If the debugger is invoked during SLEEP and then execution **c**ontinued, the user will be prompted:<samp><br>Continue with SLEEP (Y/N) ?<br></samp>If "N" is the response, the SLEEP will terminate.
+> If the debugger is invoked during SLEEP and then execution **c**ontinued, the user will be prompted:
+> Continue with SLEEP (Y/N) ?
+> If "N" is the response, the SLEEP will terminate.
 
 
 An example of use may be:

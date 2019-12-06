@@ -3,18 +3,11 @@
 **Created At:** 9/25/2017 10:48:35 AM  
 **Updated At:** 2/15/2018 8:02:50 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="Uses of Class com.jbase.jdbc.io.exception.UnknownTypeException (jbasejdbc   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jdbc.io.exception.UnknownTypeException (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../../overview-summary.html)
 - [Package](/39236-exception/com_jbase_jdbc_io_exception_package-summary)
 - [Class](/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException "class in com.jbase.jdbc.io.exception")
@@ -37,37 +30,26 @@ jbasejdbc <br>
 - [All Classes](../../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 ## Uses of Class
 com.jbase.jdbc.io.exception.UnknownTypeException
 
-- <caption><span>Packages that use <a href="/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException" title="class in com.jbase.jdbc.io.exception">UnknownTypeException</a></span><span class="tabEnd"> </span></caption>| Package | Description |
+- Packages that use [UnknownTypeException](/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException "class in com.jbase.jdbc.io.exception") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.io |   |
-- - <!--   -->
-### Uses of [UnknownTypeException](/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException "class in com.jbase.jdbc.io.exception") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary)
+- - ### Uses of [UnknownTypeException](/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException "class in com.jbase.jdbc.io.exception") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary)
 
 
-<caption><span>Methods in <a href="/39232-io/com_jbase_jdbc_io_package-summary">com.jbase.jdbc.io</a> that throw <a href="/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException" title="class in com.jbase.jdbc.io.exception">UnknownTypeException</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) that throw [UnknownTypeException](/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException "class in com.jbase.jdbc.io.exception") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected JBaseSerializable` | ObjectFactory.`createGenericObjects(int objectType)`<br>Creates any generic (i.e common to all framework clients) objects.<br> |
 | `protected abstract JBaseSerializable` | ObjectFactory.`createObject(int objectType)`<br>Create JBaseSerializable object from the supplied object type.<br> |
 | `protected JBaseSerializable` | JBaseJDBCObjectFactory.`createObject(int objectType)`  |
 | `protected abstract ObjectFactory` | AbstractJBaseObjectReader.`getObjectFactory()`<br>This method must be implemented by concrete ObjectReaders.<br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../../overview-summary.html)
 - [Package](/39236-exception/com_jbase_jdbc_io_exception_package-summary)
 - [Class](/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException "class in com.jbase.jdbc.io.exception")
@@ -90,15 +72,6 @@ jbasejdbc <br>
 - [All Classes](../../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

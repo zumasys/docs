@@ -3,33 +3,18 @@
 **Created At:** 9/25/2017 12:20:16 PM  
 **Updated At:** 4/5/2018 11:08:43 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="com.jbase.jremote.protocol (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="com.jbase.jremote.protocol (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+
+
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 # Package com.jbase.jremote.protocol
 
 | Class<br> | Description<br> |
 | --- | --- |
-<caption>&nbsp;<span>Class Summary</span><span class="tabEnd">&nbsp;</span>&nbsp;</caption>| [AccountAuthenticationRequest](/39270-protocol/com_jbase_jremote_protocol_accountauthenticationrequest "class in com.jbase.jremote.protocol")<br> | <br>Request for authentication.<br> |
+ Class Summary  | [AccountAuthenticationRequest](/39270-protocol/com_jbase_jremote_protocol_accountauthenticationrequest "class in com.jbase.jremote.protocol")<br> | <br>Request for authentication.<br> |
 | [AccountAuthenticationRequest.AccountUserCredentials](/39270-protocol/com_jbase_jremote_protocol_AccountAuthenticationRequest.AccountUserCredentials "class in com.jbase.jremote.protocol")<br> |  <br> |
 | [AuthenticationRequest](/39270-protocol/com_jbase_jremote_protocol_authenticationrequest "class in com.jbase.jremote.protocol")<br> | <br>Request for authentication.<br> |
 | [AuthenticationRequest.UserCredentials](/39270-protocol/com_jbase_jremote_protocol_AuthenticationRequest.UserCredentials "class in com.jbase.jremote.protocol")<br> |  <br> |
@@ -84,7 +69,7 @@
 | [XARollbackTransactionRequest](/39270-protocol/com_jbase_jremote_protocol_xarollbacktransactionrequest "class in com.jbase.jremote.protocol")<br> | <br>Request jBASE rollback an XA transaction.<br> |
 | [XAStartTransactionRequest](/39270-protocol/com_jbase_jremote_protocol_xastarttransactionrequest "class in com.jbase.jremote.protocol")<br> | <br>Request jBASE start an XA transaction.<br> |
 | [XAXid](/39270-protocol/com_jbase_jremote_protocol_xaxid "class in com.jbase.jremote.protocol")<br> |  <br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
+
 
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

@@ -43,7 +43,7 @@ If you are going to be utilizing jBASE accounts (in SYSTEM) then the better appr
 028 /dbms/MYACCOUNT/MD]D
 ```
 
-&lt;refer to [<u>jBASE Accounts and the SYSTEM file</u>](317964-system-file) for more information&gt;
+&lt;refer to [jBASE Accounts and the SYSTEM file](317964-system-file) for more information&gt;
 
 
 

@@ -3,18 +3,11 @@
 **Created At:** 9/25/2017 10:28:30 AM  
 **Updated At:** 2/15/2018 8:02:42 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="Uses of Class com.jbase.framework.io.inflow.RequestHandlerException (framework   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.framework.io.inflow.RequestHandlerException (framework   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../../overview-summary.html)
 - [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
 - [Class](/39226-inflow/com_jbase_framework_io_inflow_RequestHandlerException "class in com.jbase.framework.io.inflow")
@@ -37,35 +30,24 @@ framework <br>
 - [All Classes](../../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 ## Uses of Class
 com.jbase.framework.io.inflow.RequestHandlerException
 
-- <caption><span>Packages that use <a href="/39226-inflow/com_jbase_framework_io_inflow_RequestHandlerException" title="class in com.jbase.framework.io.inflow">RequestHandlerException</a></span><span class="tabEnd"> </span></caption>| Package | Description |
+- Packages that use [RequestHandlerException](/39226-inflow/com_jbase_framework_io_inflow_RequestHandlerException "class in com.jbase.framework.io.inflow") | Package | Description |
 | --- | --- |
 | com.jbase.framework.io.inflow |   |
-- - <!--   -->
-### Uses of [RequestHandlerException](/39226-inflow/com_jbase_framework_io_inflow_RequestHandlerException "class in com.jbase.framework.io.inflow") in [com.jbase.framework.io.inflow](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
+- - ### Uses of [RequestHandlerException](/39226-inflow/com_jbase_framework_io_inflow_RequestHandlerException "class in com.jbase.framework.io.inflow") in [com.jbase.framework.io.inflow](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
 
 
-<caption><span>Methods in <a href="/39226-inflow/com_jbase_framework_io_inflow_package-summary">com.jbase.framework.io.inflow</a> that throw <a href="/39226-inflow/com_jbase_framework_io_inflow_RequestHandlerException" title="class in com.jbase.framework.io.inflow">RequestHandlerException</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Method and Description |
+Methods in [com.jbase.framework.io.inflow](/39226-inflow/com_jbase_framework_io_inflow_package-summary) that throw [RequestHandlerException](/39226-inflow/com_jbase_framework_io_inflow_RequestHandlerException "class in com.jbase.framework.io.inflow") | Modifier and Type | Method and Description |
 | --- | --- |
 | `byte[]` | RequestHandler.`handleRequest(ClientHandle handle,<br>             byte[] request)`<br>Called when a client has sent a request.<br> |
 | `void` | RequestHandler.`handleResponse(ClientHandle handle,<br>              byte[] response)`<br>Send a response to the supplied client (sessionId).<br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../../overview-summary.html)
 - [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
 - [Class](/39226-inflow/com_jbase_framework_io_inflow_RequestHandlerException "class in com.jbase.framework.io.inflow")
@@ -88,15 +70,6 @@ framework <br>
 - [All Classes](../../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

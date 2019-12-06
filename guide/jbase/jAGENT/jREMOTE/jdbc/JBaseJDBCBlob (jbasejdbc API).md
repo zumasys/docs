@@ -3,16 +3,21 @@
 **Created At:** 9/25/2017 10:54:36 AM  
 **Updated At:** 8/17/2018 2:25:53 AM  
 
-<noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+
+JavaScript is disabled on your browser.
+
+
 
 # Class JBaseJDBCBlob
-<dl><dt><strong>All Implemented Interfaces:</strong></dt><dd><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true" title="class or interface in java.sql">Blob</a></dd><pre>public class <span class="typeNameLabel">JBaseJDBCBlob</span>
-extends <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true" title="class or interface in java.lang">Object</a>
-implements <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true" title="class or interface in java.sql">Blob</a></pre></dl>
+**All Implemented Interfaces:**[Blob](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true "class or interface in java.sql")
+```
+public class JBaseJDBCBlob
+extends Object
+implements Blob
+```
+
 jBASE Blob object
-<dl><dt><br></dt></dl>
-<!--   -->
+
 
 # Constructor Summary
 
@@ -26,8 +31,8 @@ jBASE Blob object
 
 
 
-<!-- ========== METHOD SUMMARY =========== -->
-<!--   -->
+
+
 
 # Method Summary
 
@@ -46,7 +51,7 @@ jBASE Blob object
 | <br>void<br> | <br>truncate(long len)<br><br>java.sql.Blob#truncate()<br> |
 
 
-<!--   -->
+
 
 ## 
 
@@ -55,17 +60,13 @@ jBASE Blob object
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
 
-<!--   -->
+
 
 ## Methods inherited from interface java.sql.Blob
 `free, getBinaryStream`
 
-<!-- ========= CONSTRUCTOR DETAIL ======== -->
-
-<!--   -->
-
 # Constructor Detail
-<!--   -->
+
 #### **JBaseJDBCBlob**
 
 ```
@@ -75,7 +76,7 @@ protected JBaseJDBCBlob()
 
 
 
-<!--   -->
+
 #### **JBaseJDBCBlob**
 
 ```
@@ -85,11 +86,11 @@ protected JBaseJDBCBlob(byte[] bytes)
 
 
 
-<!-- ============ METHOD DETAIL ========== -->
-<!--   -->
+
+
 
 # Method Detail
-<!--   -->
+
 #### **length**
 
 ```
@@ -98,9 +99,10 @@ public long length()
 ```
 
 java.sql.Blob#length()
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true#length--" title="class or interface in java.sql">length</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true" title="class or interface in java.sql">Blob</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`length` in interface `Blob`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getBytes**
@@ -111,9 +113,10 @@ public byte[] getBytes(long pos, int length)
 ```
 
 java.sql.Blob#getBytes()
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true#getBytes-long-int-" title="class or interface in java.sql">getBytes</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true" title="class or interface in java.sql">Blob</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getBytes` in interface `Blob`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getBinaryStream**
@@ -124,9 +127,10 @@ public InputStream getBinaryStream()
 ```
 
 java.sql.Blob#getBinaryStream()
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true#getBinaryStream--" title="class or interface in java.sql">getBinaryStream</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true" title="class or interface in java.sql">Blob</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getBinaryStream` in interface `Blob`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **position**
@@ -137,9 +141,10 @@ public long position(byte[] pattern, long start)
 ```
 
 java.sql.Blob#position()
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true#position-byte:A-long-" title="class or interface in java.sql">position</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true" title="class or interface in java.sql">Blob</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`position` in interface `Blob`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **position**
@@ -150,9 +155,10 @@ public long position(Blob pattern, long start)
 ```
 
 java.sql.Blob#position()
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true#position-java.sql.Blob-long-" title="class or interface in java.sql">position</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true" title="class or interface in java.sql">Blob</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`position` in interface `Blob`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setBytes**
@@ -163,9 +169,10 @@ public int setBytes(long pos, byte[] bytes)
 ```
 
 java.sql.Blob#setBytes()
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true#setBytes-long-byte:A-" title="class or interface in java.sql">setBytes</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true" title="class or interface in java.sql">Blob</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setBytes` in interface `Blob`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setBytes**
@@ -176,9 +183,10 @@ public int setBytes(long pos, byte[] bytes, int offset, int len)
 ```
 
 java.sql.Blob#setBytes()
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true#setBytes-long-byte:A-int-int-" title="class or interface in java.sql">setBytes</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true" title="class or interface in java.sql">Blob</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setBytes` in interface `Blob`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setBinaryStream**
@@ -189,9 +197,10 @@ public OutputStream setBinaryStream(long pos)
 ```
 
 java.sql.Blob#setBinaryStream()
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true#setBinaryStream-long-" title="class or interface in java.sql">setBinaryStream</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true" title="class or interface in java.sql">Blob</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setBinaryStream` in interface `Blob`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **truncate**
@@ -202,7 +211,8 @@ public void truncate(long len)
 ```
 
 java.sql.Blob#truncate()
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true#truncate-long-" title="class or interface in java.sql">truncate</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Blob.html?is-external=true" title="class or interface in java.sql">Blob</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl><!--   -->
+**Specified by:**`truncate` in interface `Blob`
+**Throws:**`SQLException`
 
 
 
@@ -212,5 +222,5 @@ java.sql.Blob#truncate()
 ```
 protected static ByteBuffer checkBuffer(ByteBuffer buffer, int newDataLength)
 ```
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+

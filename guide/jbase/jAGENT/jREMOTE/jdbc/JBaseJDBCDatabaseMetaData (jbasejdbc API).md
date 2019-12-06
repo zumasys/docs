@@ -3,13 +3,13 @@
 **Created At:** 9/25/2017 10:54:56 AM  
 **Updated At:** 8/17/2018 2:25:53 AM  
 
-<noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+
 
 # Class JBaseJDBCDatabaseMetaData
 
 **All Implemented Interfaces:**
-<dd>DatabaseMetaData, Wrapper</dd>
+DatabaseMetaData, Wrapper
 ```
 public class JBaseJDBCDatabaseMetaData
 extends Object
@@ -20,11 +20,9 @@ This class implements the java.sql.DatabaseMetaData interface which defines a se
 
 
 
-<!--   -->
-
 # Field Summary
 
-## <!--   -->
+## 
 
 ## Fields inherited from interface java.sql.DatabaseMetaData
 `attributeNoNulls, attributeNullable, attributeNullableUnknown, bestRowNotPseudo, bestRowPseudo, bestRowSession, bestRowTemporary, bestRowTransaction, bestRowUnknown, columnNoNulls, columnNullable, columnNullableUnknown, functionColumnIn, functionColumnInOut, functionColumnOut, functionColumnResult, functionColumnUnknown, functionNoNulls, functionNoTable, functionNullable, functionNullableUnknown, functionResultUnknown, functionReturn, functionReturnsTable, importedKeyCascade, importedKeyInitiallyDeferred, importedKeyInitiallyImmediate, importedKeyNoAction, importedKeyNotDeferrable, importedKeyRestrict, importedKeySetDefault, importedKeySetNull, procedureColumnIn, procedureColumnInOut, procedureColumnOut, procedureColumnResult, procedureColumnReturn, procedureColumnUnknown, procedureNoNulls, procedureNoResult, procedureNullable, procedureNullableUnknown, procedureResultUnknown, procedureReturnsResult, sqlStateSQL, sqlStateSQL99, sqlStateXOpen, tableIndexClustered, tableIndexHashed, tableIndexOther, tableIndexStatistic, typeNoNulls, typeNullable, typeNullableUnknown, typePredBasic, typePredChar, typePredNone, typeSearchable, versionColumnNotPseudo, versionColumnPseudo, versionColumnUnknown`
@@ -45,7 +43,7 @@ This class implements the java.sql.DatabaseMetaData interface which defines a se
 
 
 
-<!--   -->
+
 
 # Method Summary
 
@@ -223,7 +221,7 @@ This class implements the java.sql.DatabaseMetaData interface which defines a se
 | boolean<br> | usesLocalFiles()<br> | <br> |
 
 
-<!--   -->
+
 
 ### 
 
@@ -232,24 +230,22 @@ This class implements the java.sql.DatabaseMetaData interface which defines a se
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
 
-## <!--   -->
+## 
 
 ## Methods inherited from interface java.sql.[DatabaseMetaData](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true "class or interface in java.sql")
 `autoCommitFailureClosesAllResultSets, generatedKeyAlwaysReturned, getClientInfoProperties, getFunctionColumns, getFunctions, getMaxLogicalLobSize, getPseudoColumns, getRowIdLifetime, getSchemas, supportsRefCursors, supportsStoredFunctionsUsingCallSyntax`
 
 
-## <!--   -->
+## 
 
 ## Methods inherited from interface java.sql.[Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")
 `isWrapperFor, unwrap`
-
-<!--   -->
 
 # 
 
 
 # Constructor Detail
-<!--   -->
+
 #### **JBaseJDBCDatabaseMetaData**
 
 ```
@@ -257,15 +253,15 @@ public JBaseJDBCDatabaseMetaData(JBaseJDBCSocketConnection connection)
 ```
 
 Constructor.
-<dl><dt style="margin-left: 40px;"><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>connection</code> - The connection used to retrieve the meta data</dd></dl>
+**Parameters:**`connection` - The connection used to retrieve the meta data
 
 
 
-<!-- ============ METHOD DETAIL ========== -->
-<!--   -->
+
+
 
 # Method Detail
-<!--   -->
+
 
 
 #### **setDbmdCatalog**
@@ -275,11 +271,11 @@ public void setDbmdCatalog(ResultSet rs, int numEntries)
 ```
 
 Sets the database meta data catalog to be used.
-<dl><dt style="margin-left: 40px;"><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>rs</code> - The dbmd catalog (as a ResultSet object)</dd><dd style="margin-left: 60px;"><code>numEntries</code> - number of dbmd catalog entries</dd></dl>
+**Parameters:**`rs` - The dbmd catalog (as a ResultSet object)`numEntries` - number of dbmd catalog entries
 
 
 
-<!--   -->
+
 
 
 #### **getDatabaseMajorVersion**
@@ -288,9 +284,10 @@ Sets the database meta data catalog to be used.
 public int getDatabaseMajorVersion()
                             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getDatabaseMajorVersion</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getDatabaseMajorVersion` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getDatabaseMinorVersion**
@@ -299,9 +296,10 @@ public int getDatabaseMajorVersion()
 public int getDatabaseMinorVersion()
                             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getDatabaseMinorVersion</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getDatabaseMinorVersion` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getDefaultTransactionIsolation**
@@ -310,9 +308,10 @@ public int getDatabaseMinorVersion()
 public int getDefaultTransactionIsolation()
                                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getDefaultTransactionIsolation</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getDefaultTransactionIsolation` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getDriverMajorVersion**
@@ -320,9 +319,9 @@ public int getDefaultTransactionIsolation()
 ```
 public int getDriverMajorVersion()
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getDriverMajorVersion</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd></dl>
+**Specified by:**`getDriverMajorVersion` in interface `DatabaseMetaData`
 
-<!--   -->
+
 
 
 #### **getDriverMinorVersion**
@@ -330,9 +329,9 @@ public int getDriverMajorVersion()
 ```
 public int getDriverMinorVersion()
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getDriverMinorVersion</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd></dl>
+**Specified by:**`getDriverMinorVersion` in interface `DatabaseMetaData`
 
-<!--   -->
+
 
 
 #### **getJDBCMajorVersion**
@@ -341,9 +340,10 @@ public int getDriverMinorVersion()
 public int getJDBCMajorVersion()
                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getJDBCMajorVersion</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getJDBCMajorVersion` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getJDBCMinorVersion**
@@ -352,9 +352,10 @@ public int getJDBCMajorVersion()
 public int getJDBCMinorVersion()
                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getJDBCMinorVersion</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getJDBCMinorVersion` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxBinaryLiteralLength**
@@ -363,9 +364,10 @@ public int getJDBCMinorVersion()
 public int getMaxBinaryLiteralLength()
                               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxBinaryLiteralLength</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxBinaryLiteralLength` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxCatalogNameLength**
@@ -374,9 +376,10 @@ public int getMaxBinaryLiteralLength()
 public int getMaxCatalogNameLength()
                             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxCatalogNameLength</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxCatalogNameLength` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxCharLiteralLength**
@@ -385,9 +388,10 @@ public int getMaxCatalogNameLength()
 public int getMaxCharLiteralLength()
                             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxCharLiteralLength</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxCharLiteralLength` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxColumnNameLength**
@@ -396,9 +400,10 @@ public int getMaxCharLiteralLength()
 public int getMaxColumnNameLength()
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxColumnNameLength</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxColumnNameLength` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxColumnsInGroupBy**
@@ -407,9 +412,10 @@ public int getMaxColumnNameLength()
 public int getMaxColumnsInGroupBy()
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxColumnsInGroupBy</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxColumnsInGroupBy` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxColumnsInIndex**
@@ -418,9 +424,10 @@ public int getMaxColumnsInGroupBy()
 public int getMaxColumnsInIndex()
                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxColumnsInIndex</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxColumnsInIndex` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxColumnsInOrderBy**
@@ -429,9 +436,10 @@ public int getMaxColumnsInIndex()
 public int getMaxColumnsInOrderBy()
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxColumnsInOrderBy</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxColumnsInOrderBy` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxColumnsInSelect**
@@ -440,9 +448,10 @@ public int getMaxColumnsInOrderBy()
 public int getMaxColumnsInSelect()
                           throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxColumnsInSelect</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxColumnsInSelect` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxColumnsInTable**
@@ -451,9 +460,10 @@ public int getMaxColumnsInSelect()
 public int getMaxColumnsInTable()
                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxColumnsInTable</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxColumnsInTable` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxConnections**
@@ -462,9 +472,10 @@ public int getMaxColumnsInTable()
 public int getMaxConnections()
                       throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxConnections</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxConnections` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxCursorNameLength**
@@ -473,9 +484,10 @@ public int getMaxConnections()
 public int getMaxCursorNameLength()
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxCursorNameLength</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxCursorNameLength` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxIndexLength**
@@ -484,9 +496,10 @@ public int getMaxCursorNameLength()
 public int getMaxIndexLength()
                       throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxIndexLength</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxIndexLength` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxProcedureNameLength**
@@ -495,9 +508,10 @@ public int getMaxIndexLength()
 public int getMaxProcedureNameLength()
                               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxProcedureNameLength</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxProcedureNameLength` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxRowSize**
@@ -506,9 +520,10 @@ public int getMaxProcedureNameLength()
 public int getMaxRowSize()
                   throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxRowSize</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxRowSize` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxSchemaNameLength**
@@ -517,9 +532,10 @@ public int getMaxRowSize()
 public int getMaxSchemaNameLength()
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxSchemaNameLength</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxSchemaNameLength` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxStatementLength**
@@ -528,9 +544,10 @@ public int getMaxSchemaNameLength()
 public int getMaxStatementLength()
                           throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxStatementLength</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxStatementLength` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxStatements**
@@ -539,9 +556,10 @@ public int getMaxStatementLength()
 public int getMaxStatements()
                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxStatements</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxStatements` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxTableNameLength**
@@ -550,9 +568,10 @@ public int getMaxStatements()
 public int getMaxTableNameLength()
                           throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxTableNameLength</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxTableNameLength` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMaxTablesInSelect**
@@ -561,18 +580,22 @@ public int getMaxTableNameLength()
 public int getMaxTablesInSelect()
                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxTablesInSelect</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxTablesInSelect` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-**<!--   -->**
+
+
+
 #### **getMaxUserNameLength**
 
 ```
 public int getMaxUserNameLength()
                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxUserNameLength</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMaxUserNameLength` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getResultSetHoldability**
@@ -581,9 +604,10 @@ public int getMaxUserNameLength()
 public int getResultSetHoldability()
                             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getResultSetHoldability</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getResultSetHoldability` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getSQLStateType**
@@ -592,9 +616,10 @@ public int getResultSetHoldability()
 public int getSQLStateType()
                     throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getSQLStateType</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getSQLStateType` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **allProceduresAreCallable**
@@ -603,9 +628,10 @@ public int getSQLStateType()
 public boolean allProceduresAreCallable()
                                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>allProceduresAreCallable</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`allProceduresAreCallable` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **allTablesAreSelectable**
@@ -614,9 +640,10 @@ public boolean allProceduresAreCallable()
 public boolean allTablesAreSelectable()
                                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>allTablesAreSelectable</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`allTablesAreSelectable` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **dataDefinitionCausesTransactionCommit**
@@ -625,9 +652,10 @@ public boolean allTablesAreSelectable()
 public boolean dataDefinitionCausesTransactionCommit()
                                               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>dataDefinitionCausesTransactionCommit</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`dataDefinitionCausesTransactionCommit` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **dataDefinitionIgnoredInTransactions**
@@ -636,9 +664,10 @@ public boolean dataDefinitionCausesTransactionCommit()
 public boolean dataDefinitionIgnoredInTransactions()
                                             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>dataDefinitionIgnoredInTransactions</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`dataDefinitionIgnoredInTransactions` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **doesMaxRowSizeIncludeBlobs**
@@ -647,9 +676,10 @@ public boolean dataDefinitionIgnoredInTransactions()
 public boolean doesMaxRowSizeIncludeBlobs()
                                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>doesMaxRowSizeIncludeBlobs</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`doesMaxRowSizeIncludeBlobs` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **isCatalogAtStart**
@@ -658,9 +688,10 @@ public boolean doesMaxRowSizeIncludeBlobs()
 public boolean isCatalogAtStart()
                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>isCatalogAtStart</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`isCatalogAtStart` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **isReadOnly**
@@ -669,9 +700,10 @@ public boolean isCatalogAtStart()
 public boolean isReadOnly()
                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>isReadOnly</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`isReadOnly` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **locatorsUpdateCopy**
@@ -680,9 +712,10 @@ public boolean isReadOnly()
 public boolean locatorsUpdateCopy()
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>locatorsUpdateCopy</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`locatorsUpdateCopy` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **nullPlusNonNullIsNull**
@@ -691,9 +724,11 @@ public boolean locatorsUpdateCopy()
 public boolean nullPlusNonNullIsNull()
                               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>nullPlusNonNullIsNull</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#nullPlusNonNullIsNull--" title="class or interface in java.sql"><code>DatabaseMetaData.nullPlusNonNullIsNull()</code></a></dd></dl>
+**Specified by:**`nullPlusNonNullIsNull` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
+**See Also:**[`DatabaseMetaData.nullPlusNonNullIsNull()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#nullPlusNonNullIsNull-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **nullsAreSortedAtEnd**
@@ -702,9 +737,10 @@ public boolean nullPlusNonNullIsNull()
 public boolean nullsAreSortedAtEnd()
                             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>nullsAreSortedAtEnd</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`nullsAreSortedAtEnd` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **nullsAreSortedAtStart**
@@ -713,9 +749,10 @@ public boolean nullsAreSortedAtEnd()
 public boolean nullsAreSortedAtStart()
                               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>nullsAreSortedAtStart</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`nullsAreSortedAtStart` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **nullsAreSortedHigh**
@@ -724,9 +761,10 @@ public boolean nullsAreSortedAtStart()
 public boolean nullsAreSortedHigh()
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>nullsAreSortedHigh</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`nullsAreSortedHigh` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **nullsAreSortedLow**
@@ -735,9 +773,10 @@ public boolean nullsAreSortedHigh()
 public boolean nullsAreSortedLow()
                           throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>nullsAreSortedLow</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`nullsAreSortedLow` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **storesLowerCaseIdentifiers**
@@ -746,9 +785,10 @@ public boolean nullsAreSortedLow()
 public boolean storesLowerCaseIdentifiers()
                                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>storesLowerCaseIdentifiers</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`storesLowerCaseIdentifiers` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **storesLowerCaseQuotedIdentifiers**
@@ -757,9 +797,10 @@ public boolean storesLowerCaseIdentifiers()
 public boolean storesLowerCaseQuotedIdentifiers()
                                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>storesLowerCaseQuotedIdentifiers</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`storesLowerCaseQuotedIdentifiers` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **storesMixedCaseIdentifiers**
@@ -768,9 +809,10 @@ public boolean storesLowerCaseQuotedIdentifiers()
 public boolean storesMixedCaseIdentifiers()
                                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>storesMixedCaseIdentifiers</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`storesMixedCaseIdentifiers` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **storesMixedCaseQuotedIdentifiers**
@@ -779,9 +821,10 @@ public boolean storesMixedCaseIdentifiers()
 public boolean storesMixedCaseQuotedIdentifiers()
                                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>storesMixedCaseQuotedIdentifiers</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`storesMixedCaseQuotedIdentifiers` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **storesUpperCaseIdentifiers**
@@ -790,9 +833,10 @@ public boolean storesMixedCaseQuotedIdentifiers()
 public boolean storesUpperCaseIdentifiers()
                                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>storesUpperCaseIdentifiers</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`storesUpperCaseIdentifiers` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **storesUpperCaseQuotedIdentifiers**
@@ -801,9 +845,10 @@ public boolean storesUpperCaseIdentifiers()
 public boolean storesUpperCaseQuotedIdentifiers()
                                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>storesUpperCaseQuotedIdentifiers</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`storesUpperCaseQuotedIdentifiers` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsANSI92EntryLevelSQL**
@@ -812,9 +857,10 @@ public boolean storesUpperCaseQuotedIdentifiers()
 public boolean supportsANSI92EntryLevelSQL()
                                     throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsANSI92EntryLevelSQL</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsANSI92EntryLevelSQL` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsANSI92FullSQL**
@@ -823,9 +869,10 @@ public boolean supportsANSI92EntryLevelSQL()
 public boolean supportsANSI92FullSQL()
                               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsANSI92FullSQL</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsANSI92FullSQL` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsANSI92IntermediateSQL**
@@ -834,9 +881,11 @@ public boolean supportsANSI92FullSQL()
 public boolean supportsANSI92IntermediateSQL()
                                       throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsANSI92IntermediateSQL</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsANSI92IntermediateSQL` in interface `DatabaseMetaData`
 
-<!--   -->
+**Throws:**`SQLException`
+
+
 
 
 #### supportsAlterTableWithAddColumn
@@ -845,9 +894,10 @@ public boolean supportsANSI92IntermediateSQL()
 public boolean supportsAlterTableWithAddColumn()
                                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsAlterTableWithAddColumn</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsAlterTableWithAddColumn` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsAlterTableWithDropColumn**
@@ -856,9 +906,10 @@ public boolean supportsAlterTableWithAddColumn()
 public boolean supportsAlterTableWithDropColumn()
                                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsAlterTableWithDropColumn</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsAlterTableWithDropColumn` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsBatchUpdates**
@@ -867,9 +918,10 @@ public boolean supportsAlterTableWithDropColumn()
 public boolean supportsBatchUpdates()
                              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsBatchUpdates</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsBatchUpdates` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsCatalogsInDataManipulation**
@@ -878,9 +930,10 @@ public boolean supportsBatchUpdates()
 public boolean supportsCatalogsInDataManipulation()
                                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsCatalogsInDataManipulation</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsCatalogsInDataManipulation` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsCatalogsInIndexDefinitions**
@@ -889,9 +942,10 @@ public boolean supportsCatalogsInDataManipulation()
 public boolean supportsCatalogsInIndexDefinitions()
                                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsCatalogsInIndexDefinitions</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsCatalogsInIndexDefinitions` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsCatalogsInPrivilegeDefinitions**
@@ -900,9 +954,10 @@ public boolean supportsCatalogsInIndexDefinitions()
 public boolean supportsCatalogsInPrivilegeDefinitions()
                                                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsCatalogsInPrivilegeDefinitions</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsCatalogsInPrivilegeDefinitions` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsCatalogsInProcedureCalls**
@@ -911,9 +966,10 @@ public boolean supportsCatalogsInPrivilegeDefinitions()
 public boolean supportsCatalogsInProcedureCalls()
                                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsCatalogsInProcedureCalls</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsCatalogsInProcedureCalls` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsCatalogsInTableDefinitions**
@@ -922,9 +978,10 @@ public boolean supportsCatalogsInProcedureCalls()
 public boolean supportsCatalogsInTableDefinitions()
                                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsCatalogsInTableDefinitions</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsCatalogsInTableDefinitions` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsColumnAliasing**
@@ -935,9 +992,11 @@ public boolean supportsColumnAliasing()
 ```
 
 Retrieves whether this database supports column aliasing. If so, the SQL AS clause can be used to provide names for computed columns or to provide alias names for columns as required.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsColumnAliasing</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">true if so; false otherwise</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`supportsColumnAliasing` in interface `DatabaseMetaData`
+**Returns:**true if so; false otherwise
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **supportsConvert**
@@ -946,9 +1005,10 @@ Retrieves whether this database supports column aliasing. If so, the SQL AS clau
 public boolean supportsConvert()
                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsConvert</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsConvert` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsCoreSQLGrammar**
@@ -957,9 +1017,10 @@ public boolean supportsConvert()
 public boolean supportsCoreSQLGrammar()
                                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsCoreSQLGrammar</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsCoreSQLGrammar` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsCorrelatedSubqueries**
@@ -968,9 +1029,10 @@ public boolean supportsCoreSQLGrammar()
 public boolean supportsCorrelatedSubqueries()
                                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsCorrelatedSubqueries</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsCorrelatedSubqueries` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsDataDefinitionAndDataManipulationTransactions**
@@ -979,9 +1041,10 @@ public boolean supportsCorrelatedSubqueries()
 public boolean supportsDataDefinitionAndDataManipulationTransactions()
                                                               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsDataDefinitionAndDataManipulationTransactions</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsDataDefinitionAndDataManipulationTransactions` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsDataManipulationTransactionsOnly**
@@ -990,9 +1053,10 @@ public boolean supportsDataDefinitionAndDataManipulationTransactions()
 public boolean supportsDataManipulationTransactionsOnly()
                                                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsDataManipulationTransactionsOnly</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsDataManipulationTransactionsOnly` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsDifferentTableCorrelationNames**
@@ -1001,9 +1065,10 @@ public boolean supportsDataManipulationTransactionsOnly()
 public boolean supportsDifferentTableCorrelationNames()
                                                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsDifferentTableCorrelationNames</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsDifferentTableCorrelationNames` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsExpressionsInOrderBy**
@@ -1012,9 +1077,10 @@ public boolean supportsDifferentTableCorrelationNames()
 public boolean supportsExpressionsInOrderBy()
                                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsExpressionsInOrderBy</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsExpressionsInOrderBy` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsExtendedSQLGrammar**
@@ -1023,9 +1089,10 @@ public boolean supportsExpressionsInOrderBy()
 public boolean supportsExtendedSQLGrammar()
                                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsExtendedSQLGrammar</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsExtendedSQLGrammar` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsFullOuterJoins**
@@ -1034,9 +1101,10 @@ public boolean supportsExtendedSQLGrammar()
 public boolean supportsFullOuterJoins()
                                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsFullOuterJoins</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsFullOuterJoins` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsGetGeneratedKeys**
@@ -1045,9 +1113,10 @@ public boolean supportsFullOuterJoins()
 public boolean supportsGetGeneratedKeys()
                                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsGetGeneratedKeys</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsGetGeneratedKeys` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsGroupBy**
@@ -1056,9 +1125,10 @@ public boolean supportsGetGeneratedKeys()
 public boolean supportsGroupBy()
                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsGroupBy</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsGroupBy` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsGroupByBeyondSelect**
@@ -1067,9 +1137,10 @@ public boolean supportsGroupBy()
 public boolean supportsGroupByBeyondSelect()
                                     throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsGroupByBeyondSelect</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsGroupByBeyondSelect` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsGroupByUnrelated**
@@ -1078,9 +1149,10 @@ public boolean supportsGroupByBeyondSelect()
 public boolean supportsGroupByUnrelated()
                                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsGroupByUnrelated</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsGroupByUnrelated` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsIntegrityEnhancementFacility**
@@ -1089,9 +1161,10 @@ public boolean supportsGroupByUnrelated()
 public boolean supportsIntegrityEnhancementFacility()
                                              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsIntegrityEnhancementFacility</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsIntegrityEnhancementFacility` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsLikeEscapeClause**
@@ -1100,9 +1173,10 @@ public boolean supportsIntegrityEnhancementFacility()
 public boolean supportsLikeEscapeClause()
                                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsLikeEscapeClause</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsLikeEscapeClause` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsLimitedOuterJoins**
@@ -1111,9 +1185,10 @@ public boolean supportsLikeEscapeClause()
 public boolean supportsLimitedOuterJoins()
                                   throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsLimitedOuterJoins</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsLimitedOuterJoins` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsMinimumSQLGrammar**
@@ -1122,9 +1197,10 @@ public boolean supportsLimitedOuterJoins()
 public boolean supportsMinimumSQLGrammar()
                                   throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsMinimumSQLGrammar</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsMinimumSQLGrammar` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsMixedCaseIdentifiers**
@@ -1133,9 +1209,10 @@ public boolean supportsMinimumSQLGrammar()
 public boolean supportsMixedCaseIdentifiers()
                                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsMixedCaseIdentifiers</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsMixedCaseIdentifiers` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsMixedCaseQuotedIdentifiers**
@@ -1144,9 +1221,10 @@ public boolean supportsMixedCaseIdentifiers()
 public boolean supportsMixedCaseQuotedIdentifiers()
                                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsMixedCaseQuotedIdentifiers</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsMixedCaseQuotedIdentifiers` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsMultipleOpenResults**
@@ -1155,9 +1233,10 @@ public boolean supportsMixedCaseQuotedIdentifiers()
 public boolean supportsMultipleOpenResults()
                                     throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsMultipleOpenResults</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsMultipleOpenResults` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsMultipleResultSets**
@@ -1166,9 +1245,10 @@ public boolean supportsMultipleOpenResults()
 public boolean supportsMultipleResultSets()
                                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsMultipleResultSets</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsMultipleResultSets` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsMultipleTransactions**
@@ -1179,9 +1259,12 @@ public boolean supportsMultipleTransactions()
 ```
 
 Retrieves whether this database allows having multiple transactions open at once (on different connections).
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsMultipleTransactions</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">true if so; false otherwise</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#supportsMultipleTransactions--" title="class or interface in java.sql"><code>DatabaseMetaData.supportsMultipleTransactions()</code></a></dd></dl>
+**Specified by:**`supportsMultipleTransactions` in interface `DatabaseMetaData`
+**Returns:**true if so; false otherwise
+**Throws:**`SQLException` - - if a database access error occurs
+**See Also:**[`DatabaseMetaData.supportsMultipleTransactions()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#supportsMultipleTransactions-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **supportsNamedParameters**
@@ -1190,9 +1273,10 @@ Retrieves whether this database allows having multiple transactions open at once
 public boolean supportsNamedParameters()
                                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsNamedParameters</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsNamedParameters` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsNonNullableColumns**
@@ -1201,9 +1285,10 @@ public boolean supportsNamedParameters()
 public boolean supportsNonNullableColumns()
                                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsNonNullableColumns</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsNonNullableColumns` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsOpenCursorsAcrossCommit**
@@ -1212,9 +1297,10 @@ public boolean supportsNonNullableColumns()
 public boolean supportsOpenCursorsAcrossCommit()
                                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsOpenCursorsAcrossCommit</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsOpenCursorsAcrossCommit` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### supportsOpenCursorsAcrossRollback
@@ -1223,9 +1309,10 @@ public boolean supportsOpenCursorsAcrossCommit()
 public boolean supportsOpenCursorsAcrossRollback()
                                           throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code>supportsOpenCursorsAcrossRollback</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`supportsOpenCursorsAcrossRollback` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsOpenStatementsAcrossCommit**
@@ -1234,9 +1321,10 @@ public boolean supportsOpenCursorsAcrossRollback()
 public boolean supportsOpenStatementsAcrossCommit()
                                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsOpenStatementsAcrossCommit</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsOpenStatementsAcrossCommit` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsOpenStatementsAcrossRollback**
@@ -1245,9 +1333,10 @@ public boolean supportsOpenStatementsAcrossCommit()
 public boolean supportsOpenStatementsAcrossRollback()
                                              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsOpenStatementsAcrossRollback</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsOpenStatementsAcrossRollback` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsOrderByUnrelated**
@@ -1256,9 +1345,10 @@ public boolean supportsOpenStatementsAcrossRollback()
 public boolean supportsOrderByUnrelated()
                                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsOrderByUnrelated</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsOrderByUnrelated` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### supportsOuterJoins
@@ -1267,9 +1357,10 @@ public boolean supportsOrderByUnrelated()
 public boolean supportsOuterJoins()
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsOuterJoins</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsOuterJoins` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsPositionedDelete**
@@ -1278,9 +1369,10 @@ public boolean supportsOuterJoins()
 public boolean supportsPositionedDelete()
                                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsPositionedDelete</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsPositionedDelete` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsPositionedUpdate**
@@ -1289,9 +1381,10 @@ public boolean supportsPositionedDelete()
 public boolean supportsPositionedUpdate()
                                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsPositionedUpdate</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsPositionedUpdate` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsSavepoints**
@@ -1300,9 +1393,10 @@ public boolean supportsPositionedUpdate()
 public boolean supportsSavepoints()
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsSavepoints</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsSavepoints` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsSchemasInDataManipulation**
@@ -1311,9 +1405,10 @@ public boolean supportsSavepoints()
 public boolean supportsSchemasInDataManipulation()
                                           throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsSchemasInDataManipulation</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsSchemasInDataManipulation` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsSchemasInIndexDefinitions**
@@ -1322,9 +1417,10 @@ public boolean supportsSchemasInDataManipulation()
 public boolean supportsSchemasInIndexDefinitions()
                                           throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsSchemasInIndexDefinitions</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsSchemasInIndexDefinitions` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsSchemasInPrivilegeDefinitions**
@@ -1333,9 +1429,10 @@ public boolean supportsSchemasInIndexDefinitions()
 public boolean supportsSchemasInPrivilegeDefinitions()
                                               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsSchemasInPrivilegeDefinitions</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsSchemasInPrivilegeDefinitions` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsSchemasInProcedureCalls**
@@ -1344,9 +1441,10 @@ public boolean supportsSchemasInPrivilegeDefinitions()
 public boolean supportsSchemasInProcedureCalls()
                                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsSchemasInProcedureCalls</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsSchemasInProcedureCalls` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsSchemasInTableDefinitions**
@@ -1355,9 +1453,10 @@ public boolean supportsSchemasInProcedureCalls()
 public boolean supportsSchemasInTableDefinitions()
                                           throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsSchemasInTableDefinitions</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsSchemasInTableDefinitions` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsSelectForUpdate**
@@ -1366,9 +1465,10 @@ public boolean supportsSchemasInTableDefinitions()
 public boolean supportsSelectForUpdate()
                                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsSelectForUpdate</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsSelectForUpdate` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsStatementPooling**
@@ -1377,9 +1477,10 @@ public boolean supportsSelectForUpdate()
 public boolean supportsStatementPooling()
                                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsStatementPooling</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsStatementPooling` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsStoredProcedures**
@@ -1388,9 +1489,11 @@ public boolean supportsStatementPooling()
 public boolean supportsStoredProcedures()
                                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsStoredProcedures</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#supportsStoredProcedures--" title="class or interface in java.sql"><code>DatabaseMetaData.supportsStoredProcedures()</code></a></dd></dl>
+**Specified by:**`supportsStoredProcedures` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
+**See Also:**[`DatabaseMetaData.supportsStoredProcedures()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#supportsStoredProcedures-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **supportsSubqueriesInComparisons**
@@ -1399,9 +1502,10 @@ public boolean supportsStoredProcedures()
 public boolean supportsSubqueriesInComparisons()
                                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsSubqueriesInComparisons</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsSubqueriesInComparisons` in interface `DatabaseMetaData`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsSubqueriesInExists**
@@ -1410,9 +1514,10 @@ public boolean supportsSubqueriesInComparisons()
 public boolean supportsSubqueriesInExists()
                                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsSubqueriesInExists</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsSubqueriesInExists` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsSubqueriesInIns**
@@ -1421,9 +1526,10 @@ public boolean supportsSubqueriesInExists()
 public boolean supportsSubqueriesInIns()
                                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsSubqueriesInIns</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsSubqueriesInIns` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsSubqueriesInQuantifieds**
@@ -1432,9 +1538,10 @@ public boolean supportsSubqueriesInIns()
 public boolean supportsSubqueriesInQuantifieds()
                                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsSubqueriesInQuantifieds</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsSubqueriesInQuantifieds` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsTableCorrelationNames**
@@ -1443,9 +1550,10 @@ public boolean supportsSubqueriesInQuantifieds()
 public boolean supportsTableCorrelationNames()
                                       throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsTableCorrelationNames</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsTableCorrelationNames` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsTransactions**
@@ -1454,9 +1562,10 @@ public boolean supportsTableCorrelationNames()
 public boolean supportsTransactions()
                              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsTransactions</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsTransactions` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsUnion**
@@ -1465,9 +1574,10 @@ public boolean supportsTransactions()
 public boolean supportsUnion()
                       throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsUnion</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsUnion` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsUnionAll**
@@ -1476,9 +1586,10 @@ public boolean supportsUnion()
 public boolean supportsUnionAll()
                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsUnionAll</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsUnionAll` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **usesLocalFilePerTable**
@@ -1487,9 +1598,10 @@ public boolean supportsUnionAll()
 public boolean usesLocalFilePerTable()
                               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>usesLocalFilePerTable</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`usesLocalFilePerTable` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **usesLocalFiles**
@@ -1498,9 +1610,10 @@ public boolean usesLocalFilePerTable()
 public boolean usesLocalFiles()
                        throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>usesLocalFiles</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`usesLocalFiles` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **deletesAreDetected**
@@ -1509,9 +1622,10 @@ public boolean usesLocalFiles()
 public boolean deletesAreDetected(int type)
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>deletesAreDetected</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`deletesAreDetected` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **insertsAreDetected**
@@ -1520,9 +1634,10 @@ public boolean deletesAreDetected(int type)
 public boolean insertsAreDetected(int type)
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>insertsAreDetected</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`insertsAreDetected` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **othersDeletesAreVisible**
@@ -1531,9 +1646,10 @@ public boolean insertsAreDetected(int type)
 public boolean othersDeletesAreVisible(int type)
                                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>othersDeletesAreVisible</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`othersDeletesAreVisible` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **othersInsertsAreVisible**
@@ -1542,9 +1658,10 @@ public boolean othersDeletesAreVisible(int type)
 public boolean othersInsertsAreVisible(int type)
                                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>othersInsertsAreVisible</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`othersInsertsAreVisible` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **othersUpdatesAreVisible**
@@ -1553,9 +1670,10 @@ public boolean othersInsertsAreVisible(int type)
 public boolean othersUpdatesAreVisible(int type)
                                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>othersUpdatesAreVisible</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`othersUpdatesAreVisible` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **ownDeletesAreVisible**
@@ -1564,9 +1682,10 @@ public boolean othersUpdatesAreVisible(int type)
 public boolean ownDeletesAreVisible(int type)
                              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>ownDeletesAreVisible</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`ownDeletesAreVisible` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **ownInsertsAreVisible**
@@ -1575,9 +1694,10 @@ public boolean ownDeletesAreVisible(int type)
 public boolean ownInsertsAreVisible(int type)
                              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>ownInsertsAreVisible</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`ownInsertsAreVisible` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### ownUpdatesAreVisible
@@ -1586,9 +1706,10 @@ public boolean ownInsertsAreVisible(int type)
 public boolean ownUpdatesAreVisible(int type)
                              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code>ownUpdatesAreVisible</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`ownUpdatesAreVisible` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsResultSetHoldability**
@@ -1597,9 +1718,10 @@ public boolean ownUpdatesAreVisible(int type)
 public boolean supportsResultSetHoldability(int holdability)
                                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsResultSetHoldability</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsResultSetHoldability` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsResultSetType**
@@ -1608,9 +1730,10 @@ public boolean supportsResultSetHoldability(int holdability)
 public boolean supportsResultSetType(int type)
                               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsResultSetType</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsResultSetType` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsTransactionIsolationLevel**
@@ -1619,9 +1742,10 @@ public boolean supportsResultSetType(int type)
 public boolean supportsTransactionIsolationLevel(int level)
                                           throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsTransactionIsolationLevel</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsTransactionIsolationLevel` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **updatesAreDetected**
@@ -1630,9 +1754,10 @@ public boolean supportsTransactionIsolationLevel(int level)
 public boolean updatesAreDetected(int type)
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updatesAreDetected</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`updatesAreDetected` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **supportsConvert**
@@ -1641,9 +1766,10 @@ public boolean updatesAreDetected(int type)
 public boolean supportsConvert(int fromType, int toType)
                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsConvert</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsConvert` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### supportsResultSetConcurrency
@@ -1652,9 +1778,10 @@ public boolean supportsConvert(int fromType, int toType)
 public boolean supportsResultSetConcurrency(int type, int concurrency)
                                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>supportsResultSetConcurrency</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`supportsResultSetConcurrency` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getCatalogSeparator**
@@ -1663,9 +1790,10 @@ public boolean supportsResultSetConcurrency(int type, int concurrency)
 public String getCatalogSeparator()
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getCatalogSeparator</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getCatalogSeparator` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getCatalogTerm**
@@ -1674,9 +1802,10 @@ public String getCatalogSeparator()
 public String getCatalogTerm()
                       throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getCatalogTerm</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getCatalogTerm` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getDatabaseProductName**
@@ -1685,9 +1814,10 @@ public String getCatalogTerm()
 public String getDatabaseProductName()
                               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getDatabaseProductName</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getDatabaseProductName` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getDatabaseProductVersion**
@@ -1696,9 +1826,10 @@ public String getDatabaseProductName()
 public String getDatabaseProductVersion()
                                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getDatabaseProductVersion</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getDatabaseProductVersion` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getDriverName**
@@ -1709,9 +1840,12 @@ public String getDriverName()
 ```
 
 Retrieves the name of this JDBC driver.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getDriverName</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">JDBC driver name</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getDriverName--" title="class or interface in java.sql"><code>DatabaseMetaData.getDriverName()</code></a></dd></dl>
+**Specified by:**`getDriverName` in interface `DatabaseMetaData`
+**Returns:**JDBC driver name
+**Throws:**`SQLException` - - if a database access error occurs
+**See Also:**[`DatabaseMetaData.getDriverName()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getDriverName-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **getDriverVersion**
@@ -1722,9 +1856,12 @@ public String getDriverVersion()
 ```
 
 Retrieves the version number of this JDBC driver as a String.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getDriverVersion</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">JDBC driver version</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getDriverVersion--" title="class or interface in java.sql"><code>DatabaseMetaData.getDriverVersion()</code></a></dd></dl>
+**Specified by:**`getDriverVersion` in interface `DatabaseMetaData`
+**Returns:**JDBC driver version
+**Throws:**`SQLException` - - if a database access error occurs
+**See Also:**[`DatabaseMetaData.getDriverVersion()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getDriverVersion-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### getExtraNameCharacters
@@ -1735,9 +1872,12 @@ public String getExtraNameCharacters()
 ```
 
 Retrieves all the "extra" characters that can be used in unquoted identifier names (those beyond a-z, A-Z, 0-9 and \_).
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getExtraNameCharacters</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the string containing the extra characters</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getExtraNameCharacters--" title="class or interface in java.sql"><code>DatabaseMetaData.getExtraNameCharacters()</code></a></dd></dl>
+**Specified by:**`getExtraNameCharacters` in interface `DatabaseMetaData`
+**Returns:**the string containing the extra characters
+**Throws:**`SQLException` - - if a database access error occurs
+**See Also:**[`DatabaseMetaData.getExtraNameCharacters()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getExtraNameCharacters-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **getIdentifierQuoteString**
@@ -1746,9 +1886,11 @@ Retrieves all the "extra" characters that can be used in unquoted identifier nam
 public String getIdentifierQuoteString()
                                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getIdentifierQuoteString</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getIdentifierQuoteString--" title="class or interface in java.sql"><code>DatabaseMetaData.getIdentifierQuoteString()</code></a></dd></dl>
+**Specified by:**`getIdentifierQuoteString` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
+**See Also:**[`DatabaseMetaData.getIdentifierQuoteString()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getIdentifierQuoteString-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **getNumericFunctions**
@@ -1759,9 +1901,12 @@ public String getNumericFunctions()
 ```
 
 Retrieves a comma-separated list of math functions available with this database. These are the Open /Open CLI math function names used in the JDBC function escape clause. jBASE Note: The jBASE JDBC driver does not support escaping at present.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getNumericFunctions</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the list of math functions supported by this database</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getNumericFunctions--" title="class or interface in java.sql"><code>DatabaseMetaData.getNumericFunctions()</code></a></dd></dl>
+**Specified by:**`getNumericFunctions` in interface `DatabaseMetaData`
+**Returns:**the list of math functions supported by this database
+**Throws:**`SQLException` - - if a database access error occurs
+**See Also:**[`DatabaseMetaData.getNumericFunctions()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getNumericFunctions-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **getProcedureTerm**
@@ -1770,9 +1915,10 @@ Retrieves a comma-separated list of math functions available with this database.
 public String getProcedureTerm()
                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getProcedureTerm</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getProcedureTerm` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getSQLKeywords**
@@ -1783,9 +1929,11 @@ public String getSQLKeywords()
 ```
 
 Gets a comma-separated list of all a database's SQL keywords that are NOT also SQL92 keywords.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getSQLKeywords</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the list</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd></dl>
+**Specified by:**`getSQLKeywords` in interface `DatabaseMetaData`
+**Returns:**the list
+**Throws:**`SQLException` - - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **getSchemaTerm**
@@ -1794,9 +1942,10 @@ Gets a comma-separated list of all a database's SQL keywords that are NOT also S
 public String getSchemaTerm()
                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getSchemaTerm</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getSchemaTerm` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getSearchStringEscape**
@@ -1805,9 +1954,10 @@ public String getSchemaTerm()
 public String getSearchStringEscape()
                              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code>getSearchStringEscape</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`getSearchStringEscape` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getStringFunctions**
@@ -1818,9 +1968,12 @@ public String getStringFunctions()
 ```
 
 Retrieves a comma-separated list of string functions available with this database. These are the Open Group CLI string function names used in the JDBC function escape clause.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getStringFunctions</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the list of string functions supported by this database</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getStringFunctions--" title="class or interface in java.sql"><code>DatabaseMetaData.getStringFunctions()</code></a></dd></dl>
+**Specified by:**`getStringFunctions` in interface `DatabaseMetaData`
+**Returns:**the list of string functions supported by this database
+**Throws:**`SQLException` - - if a database access error occurs
+**See Also:**[`DatabaseMetaData.getStringFunctions()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getStringFunctions-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **getSystemFunctions**
@@ -1831,9 +1984,12 @@ public String getSystemFunctions()
 ```
 
 NOT IMPLEMENTED YET Retrieves a comma-separated list of system functions available with this database. These are the Open Group CLI system function names used in the JDBC function escape clause.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getSystemFunctions</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">a list of system functions supported by this database</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getSystemFunctions--" title="class or interface in java.sql"><code>DatabaseMetaData.getSystemFunctions()</code></a></dd></dl>
+**Specified by:**`getSystemFunctions` in interface `DatabaseMetaData`
+**Returns:**a list of system functions supported by this database
+**Throws:**`SQLException` - - if a database access error occurs
+**See Also:**[`DatabaseMetaData.getSystemFunctions()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getSystemFunctions-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **getTimeDateFunctions**
@@ -1844,9 +2000,12 @@ public String getTimeDateFunctions()
 ```
 
 NOT IMPLEMENTED YET Retrieves a comma-separated list of the time and date functions available with this database.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getTimeDateFunctions</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the list of time and date functions supported by this database</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getTimeDateFunctions--" title="class or interface in java.sql"><code>DatabaseMetaData.getTimeDateFunctions()</code></a></dd></dl>
+**Specified by:**`getTimeDateFunctions` in interface `DatabaseMetaData`
+**Returns:**the list of time and date functions supported by this database
+**Throws:**`SQLException` - - if a database access error occurs
+**See Also:**[`DatabaseMetaData.getTimeDateFunctions()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getTimeDateFunctions-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **getURL**
@@ -1855,9 +2014,10 @@ NOT IMPLEMENTED YET Retrieves a comma-separated list of the time and date functi
 public String getURL()
               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getURL</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getURL` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getUserName**
@@ -1866,9 +2026,10 @@ public String getURL()
 public String getUserName()
                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getUserName</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getUserName` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getConnection**
@@ -1877,9 +2038,10 @@ public String getUserName()
 public Connection getConnection()
                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getConnection</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getConnection` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getCatalogs**
@@ -1888,9 +2050,10 @@ public Connection getConnection()
 public ResultSet getCatalogs()
                       throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getCatalogs</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getCatalogs` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getSchemas**
@@ -1899,9 +2062,10 @@ public ResultSet getCatalogs()
 public ResultSet getSchemas()
                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getSchemas</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getSchemas` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getTableTypes**
@@ -1910,9 +2074,10 @@ public ResultSet getSchemas()
 public ResultSet getTableTypes()
                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getTableTypes</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getTableTypes` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getTypeInfo**
@@ -1921,9 +2086,11 @@ public ResultSet getTableTypes()
 public ResultSet getTypeInfo()
                       throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getTypeInfo</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getTypeInfo--" title="class or interface in java.sql"><code>DatabaseMetaData.getTypeInfo()</code></a></dd></dl>
+**Specified by:**`getTypeInfo` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
+**See Also:**[`DatabaseMetaData.getTypeInfo()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getTypeInfo-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **getExportedKeys**
@@ -1934,9 +2101,11 @@ public ResultSet getExportedKeys(String catalog, String schema, String table)
 ```
 
 Foreign keys not used as we only have 1 primary key per table
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getExportedKeys</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getExportedKeys-java.lang.String-java.lang.String-java.lang.String-" title="class or interface in java.sql"><code>DatabaseMetaData.getExportedKeys(java.lang.String, java.lang.String, java.lang.String)</code></a></dd></dl>
+**Specified by:**`getExportedKeys` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
+**See Also:**[`DatabaseMetaData.getExportedKeys(java.lang.String, java.lang.String, java.lang.String)`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getExportedKeys-java.lang.String-java.lang.String-java.lang.String- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **getImportedKeys**
@@ -1947,9 +2116,11 @@ public ResultSet getImportedKeys(String catalog, String schema, String table)
 ```
 
 Foreign keys not used as we only have 1 primary key per table
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getImportedKeys-java.lang.String-java.lang.String-java.lang.String-" title="class or interface in java.sql">getImportedKeys</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getImportedKeys-java.lang.String-java.lang.String-java.lang.String-" title="class or interface in java.sql"><code>DatabaseMetaData.getImportedKeys(java.lang.String, java.lang.String, java.lang.String)</code></a></dd></dl>
+**Specified by:**`getImportedKeys` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
+**See Also:**[`DatabaseMetaData.getImportedKeys(java.lang.String, java.lang.String, java.lang.String)`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getImportedKeys-java.lang.String-java.lang.String-java.lang.String- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **getPrimaryKeys**
@@ -1958,9 +2129,10 @@ Foreign keys not used as we only have 1 primary key per table
 public ResultSet getPrimaryKeys(String catalog, String schema, String table)
                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getPrimaryKeys</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getPrimaryKeys` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getProcedures**
@@ -1969,9 +2141,10 @@ public ResultSet getPrimaryKeys(String catalog, String schema, String table)
 public ResultSet getProcedures(String catalog, String schemaPattern, String procedureNamePattern)
                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getProcedures</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getProcedures` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### getSuperTables
@@ -1982,9 +2155,11 @@ public ResultSet getSuperTables(String catalog, String schemaPattern, String tab
 ```
 
 This method is currently not supported
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getSuperTables</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getSuperTables-java.lang.String-java.lang.String-java.lang.String-" title="class or interface in java.sql"><code>DatabaseMetaData.getSuperTables(java.lang.String, java.lang.String, java.lang.String)</code></a></dd></dl>
+**Specified by:**`getSuperTables` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
+**See Also:**[`DatabaseMetaData.getSuperTables(java.lang.String, java.lang.String, java.lang.String)`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getSuperTables-java.lang.String-java.lang.String-java.lang.String- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **getSuperTypes**
@@ -1995,9 +2170,11 @@ public ResultSet getSuperTypes(String catalog, String schemaPattern, String type
 ```
 
 This method is currently not supported
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getSuperTypes</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getSuperTypes-java.lang.String-java.lang.String-java.lang.String-" title="class or interface in java.sql"><code>DatabaseMetaData.getSuperTypes(java.lang.String, java.lang.String, java.lang.String)</code></a></dd></dl>
+**Specified by:**`getSuperTypes` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
+**See Also:**[`DatabaseMetaData.getSuperTypes(java.lang.String, java.lang.String, java.lang.String)`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getSuperTypes-java.lang.String-java.lang.String-java.lang.String- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### getTablePrivileges
@@ -2006,9 +2183,10 @@ This method is currently not supported
 public ResultSet getTablePrivileges(String catalog, String schemaPattern, String tableNamePattern)
                              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getTablePrivileges</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getTablePrivileges` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### getVersionColumns
@@ -2017,9 +2195,10 @@ public ResultSet getTablePrivileges(String catalog, String schemaPattern, String
 public ResultSet getVersionColumns(String catalog, String schema, String table)
                             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getVersionColumns</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getVersionColumns` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getBestRowIdentifier**
@@ -2028,9 +2207,10 @@ public ResultSet getVersionColumns(String catalog, String schema, String table)
 public ResultSet getBestRowIdentifier(String catalog, String schema, String table, int scope, boolean nullable)
                                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getBestRowIdentifier</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getBestRowIdentifier` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getIndexInfo**
@@ -2039,9 +2219,10 @@ public ResultSet getBestRowIdentifier(String catalog, String schema, String tabl
 public ResultSet getIndexInfo(String catalog, String schema, String table, boolean unique, boolean approximate)
                        throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getIndexInfo</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getIndexInfo` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getUDTs**
@@ -2052,9 +2233,11 @@ public ResultSet getUDTs(String catalog, String schemaPattern, String typeNamePa
 ```
 
 This method is currently not supported.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getUDTs</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getUDTs-java.lang.String-java.lang.String-java.lang.String-int:A-" title="class or interface in java.sql"><code>DatabaseMetaData.getUDTs(java.lang.String, java.lang.String, java.lang.String, int[])</code></a></dd></dl>
+**Specified by:**`getUDTs` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
+**See Also:**[`DatabaseMetaData.getUDTs(java.lang.String, java.lang.String, java.lang.String, int\[\])`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getUDTs-java.lang.String-java.lang.String-java.lang.String-int:A- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **getAttributes**
@@ -2065,9 +2248,11 @@ public ResultSet getAttributes(String catalog, String schemaPattern, String type
 ```
 
 This method is currently not supported.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getAttributes</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><span class="throwsLabel"><strong>&nbsp;</strong></span><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getAttributes-java.lang.String-java.lang.String-java.lang.String-java.lang.String-" title="class or interface in java.sql"><code>DatabaseMetaData.getAttributes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)</code></a></dd></dl>
+**Specified by:**`getAttributes` in interface `DatabaseMetaData` 
+**Throws:**`SQLException`
+**See Also:**[`DatabaseMetaData.getAttributes(java.lang.String, java.lang.String, java.lang.String, java.lang.String)`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getAttributes-java.lang.String-java.lang.String-java.lang.String-java.lang.String- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **getColumnPrivileges**
@@ -2076,9 +2261,10 @@ This method is currently not supported.
 public ResultSet getColumnPrivileges(String catalog, String schema, String table, String columnNamePattern)
                               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getColumnPrivileges</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getColumnPrivileges` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### getColumns
@@ -2087,9 +2273,10 @@ public ResultSet getColumnPrivileges(String catalog, String schema, String table
 public ResultSet getColumns(String catalog, String schemaPattern, String tableNamePattern, String columnNamePattern)
                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getColumns</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getColumns` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### getProcedureColumns
@@ -2098,9 +2285,10 @@ public ResultSet getColumns(String catalog, String schemaPattern, String tableNa
 public ResultSet getProcedureColumns(String catalog, String schemaPattern, String procedureNamePattern, String columnNamePattern)
                               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getProcedureColumns</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getProcedureColumns` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getTables**
@@ -2109,9 +2297,10 @@ public ResultSet getProcedureColumns(String catalog, String schemaPattern, Strin
 public ResultSet getTables(String catalog, String schemaPattern, String tableNamePattern, String[] types)
                     throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getTables</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws</strong>:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getTables` in interface `DatabaseMetaData`
+**Throws**:`SQLException`
 
-<!--   -->
+
 
 
 #### **getCrossReference**
@@ -2123,9 +2312,11 @@ public ResultSet getCrossReference(String primaryCatalog, String primarySchema, 
 ```
 
 Foreign keys are not used as we only have 1 primary key per table
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getCrossReference</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true" title="class or interface in java.sql">DatabaseMetaData</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getCrossReference-java.lang.String-java.lang.String-java.lang.String-java.lang.String-java.lang.String-java.lang.String-" title="class or interface in java.sql"><code>DatabaseMetaData.getCrossReference(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)</code></a></dd></dl>
+**Specified by:**`getCrossReference` in interface `DatabaseMetaData`
+**Throws:**`SQLException`
+**See Also:**[`DatabaseMetaData.getCrossReference(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true#getCrossReference-java.lang.String-java.lang.String-java.lang.String-java.lang.String-java.lang.String-java.lang.String- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **getDriverBuildDate**
@@ -2135,9 +2326,9 @@ public String getDriverBuildDate()
 ```
 
 Obtain the build-date of the JDBC driver
-<dl><dt style="margin-left: 40px;"><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">String</dd></dl>
+**Returns:**String
 
-<!--   -->
+
 
 
 #### **getDriverVendor**
@@ -2147,9 +2338,9 @@ public String getDriverVendor()
 ```
 
 Obtain the vendor of the JDBC driver
-<dl><dt style="margin-left: 40px;"><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">String</dd></dl>
+**Returns:**String
 
-<!--   -->
+
 
 
 #### **getJavaSqlType**
@@ -2157,5 +2348,5 @@ Obtain the vendor of the JDBC driver
 ```
 public int getJavaSqlType(String dataType)
 ```
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+

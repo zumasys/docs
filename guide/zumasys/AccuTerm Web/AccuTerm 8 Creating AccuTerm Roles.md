@@ -4,7 +4,7 @@
 **Updated At:** 9/3/2019 10:59:29 PM  
 
 
-<iframe width="640" height="360" src="https://www.youtube.com/embed/SGalXzJl4HU?&wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable"></iframe>
+
 
 Roles are used to partition users into related groups. Every user must be assigned one or more roles. Examples of roles are administrator, user, warehouse, customer service, developer, etc. As noted below, each user has a role, and each profile is assigned to specific roles. It is the intersection of user roles and profile roles that determines which profile(s) a user is able to open.
 

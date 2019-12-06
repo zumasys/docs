@@ -3,18 +3,11 @@
 **Created At:** 9/25/2017 10:22:13 AM  
 **Updated At:** 2/15/2018 8:02:35 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="Uses of Class com.jbase.framework.io.charset.JbaseCharset (framework   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.framework.io.charset.JbaseCharset (framework   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../../overview-summary.html)
 - [Package](/39221-charset/com_jbase_framework_io_charset_package-summary)
 - [Class](/39221-charset/com_jbase_framework_io_charset_JbaseCharset "class in com.jbase.framework.io.charset")
@@ -37,35 +30,24 @@ framework <br>
 - [All Classes](../../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 ## Uses of Class
 com.jbase.framework.io.charset.JbaseCharset
 
-- <caption><span>Packages that use <a href="/39221-charset/com_jbase_framework_io_charset_JbaseCharset" title="class in com.jbase.framework.io.charset">JbaseCharset</a></span><span class="tabEnd"> </span></caption>| Package | Description |
+- Packages that use [JbaseCharset](/39221-charset/com_jbase_framework_io_charset_JbaseCharset "class in com.jbase.framework.io.charset") | Package | Description |
 | --- | --- |
 | com.jbase.framework.io.charset |   |
-- - <!--   -->
-### Uses of [JbaseCharset](/39221-charset/com_jbase_framework_io_charset_JbaseCharset "class in com.jbase.framework.io.charset") in [com.jbase.framework.io.charset](/39221-charset/com_jbase_framework_io_charset_package-summary)
+- - ### Uses of [JbaseCharset](/39221-charset/com_jbase_framework_io_charset_JbaseCharset "class in com.jbase.framework.io.charset") in [com.jbase.framework.io.charset](/39221-charset/com_jbase_framework_io_charset_package-summary)
 
 
-<caption><span>Constructors in <a href="/39221-charset/com_jbase_framework_io_charset_package-summary">com.jbase.framework.io.charset</a> with parameters of type <a href="/39221-charset/com_jbase_framework_io_charset_JbaseCharset" title="class in com.jbase.framework.io.charset">JbaseCharset</a></span><span class="tabEnd"> </span></caption>| Constructor and Description |
+Constructors in [com.jbase.framework.io.charset](/39221-charset/com_jbase_framework_io_charset_package-summary) with parameters of type [JbaseCharset](/39221-charset/com_jbase_framework_io_charset_JbaseCharset "class in com.jbase.framework.io.charset") | Constructor and Description |
 | --- |
 | `JbaseCharsetDecoder(JbaseCharset charset)`  |
 | `JbaseCharsetEncoder(JbaseCharset charset)`  |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../../overview-summary.html)
 - [Package](/39221-charset/com_jbase_framework_io_charset_package-summary)
 - [Class](/39221-charset/com_jbase_framework_io_charset_JbaseCharset "class in com.jbase.framework.io.charset")
@@ -88,15 +70,6 @@ framework <br>
 - [All Classes](../../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

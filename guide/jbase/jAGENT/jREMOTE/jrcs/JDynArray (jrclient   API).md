@@ -3,34 +3,20 @@
 **Created At:** 9/20/2017 7:58:52 PM  
 **Updated At:** 9/20/2018 12:54:09 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="JDynArray (jrclient   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10,"i27":10,"i28":10,"i29":10,"i30":10,"i31":10,"i32":10,"i33":10,"i34":10,"i35":10,"i36":10,"i37":10,"i38":10,"i39":10,"i40":10,"i41":10,"i42":10,"i43":10,"i44":10,"i45":10,"i46":10,"i47":10,"i48":10,"i49":10,"i50":10,"i51":10,"i52":10,"i53":10,"i54":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JDynArray (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10,"i27":10,"i28":10,"i29":10,"i30":10,"i31":10,"i32":10,"i33":10,"i34":10,"i35":10,"i36":10,"i37":10,"i38":10,"i39":10,"i40":10,"i41":10,"i42":10,"i43":10,"i44":10,"i45":10,"i46":10,"i47":10,"i48":10,"i49":10,"i50":10,"i51":10,"i52":10,"i53":10,"i54":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+
 
 # Class JDynArray
-<dl><p style="margin-left: 20px;"><strong>All Implemented Interfaces:</strong></p><dd style="margin-left: 20px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/Externalizable.html?is-external=true" title="class or interface in java.io">Externalizable</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Cloneable.html?is-external=true" title="class or interface in java.lang">Cloneable</a></dd></dl>
+
+**All Implemented Interfaces:**
+[Externalizable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Externalizable.html?is-external=true "class or interface in java.io"), [Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"), [Cloneable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Cloneable.html?is-external=true "class or interface in java.lang")
 ```
 public final class JDynArray
 extends Object
 implements Cloneable, Externalizable
 ```
 
-Represents a jBASE dynamic array<dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="295038-serialized-form" title="">Serialized Form</a></dd>
-
-<!--   -->
+Represents a jBASE dynamic arraySee Also:[Serialized Form](295038-serialized-form)
 
 # 
 
@@ -49,7 +35,7 @@ Represents a jBASE dynamic array<dt style="margin-left: 20px;"><span class="seeL
 
 
 
-<!--   -->
+
 
 # Method Summary
 
@@ -118,15 +104,13 @@ Represents a jBASE dynamic array<dt style="margin-left: 20px;"><span class="seeL
 ### 
 
 
-<!--   -->
+
 
 ## Methods inherited from class java.lang.Object
 `equals, finalize, getClass, hashCode, notify, notifyAll, wait`
 
-<!--   -->
-
 # Constructor Detail
-<!--   -->
+
 #### JDynArray 
 
 ```
@@ -138,12 +122,6 @@ throws [JException](/jrcs/com_jbase_jrcs_JException "class in com.jbase.jrcs")
 Default constructor
 
 Throws: [JException](/jrcs/com_jbase_jrcs_JException "class in com.jbase.jrcs")
-
-
-
-
-
-<!--   -->
 
 #### JDynArray 
 
@@ -176,8 +154,9 @@ Constructs a dynamic array from another dynamic array
 Parameters: src - Source dynamic array
 
 Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
-<!--   -->
-#### <dd style="margin-left: 20px;"><br></dd><dd style="margin-left: 20px;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</dd>
+
+#### 
+            
 
 # Method Detail
 
@@ -195,7 +174,7 @@ Parameters:  src - Source dynamic array
 
 Throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 
-<dt style="margin-left: 20px;"><a href="com_jbase_jrcs_jexception" title="class in com.jbase.jrcs"></a></dt>
+
 
 
 
@@ -273,7 +252,7 @@ Counts the number of fields separated by the given character
 Parameters: delim - Delimiter char
 
 Returns: Field count
-<dd><span class="throwsLabel">Throws:</span><a href="com_jbase_jrcs_jexception" title="class in com.jbase.jrcs">&nbsp;JException</a></dd>
+Throws:[JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 
 
 #### 
@@ -292,7 +271,7 @@ Counts the number of fields separated by the given delimiter
 Parameters: delim - Delimiter string
 
 Returns: Field count
-<dd><span class="throwsLabel">Throws:&nbsp;</span><a href="com_jbase_jrcs_jexception" title="class in com.jbase.jrcs">JException</a></dd>
+Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 
 
 
@@ -383,7 +362,32 @@ Throws: [JException](com_jbase_jrcs_jexception)
 
 
 
-<dl><h4 style="margin-left: 80px;">EXTRACTDA&nbsp;</h4><pre style="margin-left: 80px;">public JDynArray extractDA(int amc, int vmc) </pre><p style="margin-left: 80px;">throws <a href="com_jbase_jrcs_jexception" title="class in com.jbase.jrcs">JException</a>&nbsp;</p><p style="margin-left: 80px;">Extracts the specified attribute or value as a dynamic array&nbsp;</p><p style="margin-left: 80px;"><span class="paramLabel">Parameters:&nbsp;</span>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</p><p style="margin-left: 100px;">amc - Attribute &nbsp; &nbsp; &nbsp; &nbsp;</p><p style="margin-left: 100px;">vmc - Value. This parameter can be 0&nbsp;</p><p style="margin-left: 80px;"><span class="returnLabel">Returns:</span>&nbsp; JDynArray containing the data extracted&nbsp;</p><p style="margin-left: 80px;"><span class="throwsLabel">Throws:&nbsp;</span><a href="com_jbase_jrcs_jexception" title="class in com.jbase.jrcs">JException</a><a name="extractDA-int-"></a></p><p style="margin-left: 80px;"><br></p><p style="margin-left: 80px;"><br></p><h4 style="margin-left: 40px;">&nbsp; &nbsp; &nbsp; EXTRACTDA&nbsp;</h4></dl>
+#### EXTRACTDA 
+
+```
+public JDynArray extractDA(int amc, int vmc) 
+```
+
+throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+
+Extracts the specified attribute or value as a dynamic array
+
+Parameters:
+
+amc - Attribute
+
+vmc - Value. This parameter can be 0
+
+Returns:  JDynArray containing the data extracted
+
+Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+
+
+
+
+
+####       EXTRACTDA 
+
 ```
 public JDynArray extractDA(int amc) 
 ```
@@ -404,8 +408,8 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 
 
 
-<dd style="margin-left: 40px;"><a href="/jrcs/com_jbase_jrcs_JException" title="class in com.jbase.jrcs"></a></dd>
-<!--   -->
+
+
 ####        extract
 
 ```
@@ -426,7 +430,7 @@ svmc - Sub-value. This parameter can be 0
 
 Returns: Extracted data
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")<!--   -->
+Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 
 #### 
 
@@ -455,7 +459,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 
 
 
-<!--   -->
+
 #### extract
 
 ```
@@ -477,7 +481,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 
 
 
-<!--   -->
+
 #### Field
 
 ```
@@ -598,7 +602,7 @@ See Also:  insert(JDynArray, int)
 
 
 
-<!--   -->
+
 #### INSERT
 
 ```
@@ -668,7 +672,7 @@ data - Dynamic array to insert
 amc - Attribute. This parameter can be -1 to append data at the end of the dynamic array
 
 Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
-<!--   -->
+
 #### 
 
 
@@ -757,7 +761,13 @@ throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 Returns the length, in characters, of a dynamic array
 
 Returns: Length of the dynamic array
-<dl><p>Throws: &nbsp;<a href="com_jbase_jrcs_jexception" title="class in com.jbase.jrcs">JException</a>&nbsp;</p><p><br></p><p><br></p></dl>
+
+Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+
+
+
+
+
 #### replaceDA
 
 ```
@@ -832,7 +842,7 @@ amc - Attribute. This parameter can be -1 to append data at the end of the dynam
 
 Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 
-<s>S</s>ee Also: replace(JDynArray, int)
+See Also: replace(JDynArray, int)
 
 
 
@@ -1026,7 +1036,7 @@ Parameters:  index - Character index
 
 Returns:  Character at the given position in the dynamic array
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs") <!--   -->
+Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 
 #### 
 
@@ -1075,7 +1085,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 
 
 
-<!--   -->
+
 #### locate
 
 ```
@@ -1103,7 +1113,9 @@ order - Order of the array, interpreted as follows:
 
 
 Returns: Positive index of matching attribute or negative index of insertion point if a match is not found. If order is specified as a blank string, the function always returns -1 to indicate that the string was not found.
-<dd>Throws: <a href="com_jbase_jrcs_jexception" title="class in com.jbase.jrcs">JException</a></dd><dl><dt style="margin-left: 40px;"><br><br></dt></dl><!--   -->
+Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+
+
 #### locate
 
 ```
@@ -1135,9 +1147,11 @@ order - Order of values, interpreted as follows:
 Returns: Positive index of matching value or negative index of insertion point if a match is not found. If order is specified as a blank string, the function always returns -1 to indicate that the string was not found.
 
 Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
-<dt><br><br></dt>
 
-<!--   -->
+
+
+
+
 #### locate
 
 ```
@@ -1171,9 +1185,11 @@ order - Order of values, interpreted as follows:
 Returns:  Positive index of matching sub-value or negative index of insertion point if a match is not found. If order is specified as a blank string, the function always returns -1 to indicate that the string was not found.
 
 Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
-<dt style="margin-left: 40px;"><br><br></dt>
 
-<!--   -->
+
+
+
+
 #### locate
 
 ```
@@ -1189,7 +1205,9 @@ Parameters:
 start - Start position of the search
 
 Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
-<dl><dt style="margin-left: 40px;"><br><br></dt></dl><!--   -->
+
+
+
 #### locate
 
 ```
@@ -1205,7 +1223,8 @@ Parameters:  start - Start position of the search
 Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 
 
-<dl><dt style="margin-left: 40px;"><br></dt></dl><!--   -->
+
+
 #### locateIgnoreCase
 
 ```
@@ -1217,7 +1236,9 @@ throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 Similar to: locate(String), but performs a case-insensitive comparison
 
 Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
-<dl><dt style="margin-left: 40px;"><br><br></dt></dl><!--   -->
+
+
+
 #### locateIgnoreCase
 
 ```
@@ -1229,7 +1250,9 @@ throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 Similar to: locate(String, String), but performs a case-insensitive comparison
 
 Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
-<dl><dt style="margin-left: 40px;"><br><br></dt></dl><!--   -->
+
+
+
 #### locateIgnoreCase
 
 ```
@@ -1241,7 +1264,9 @@ throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 Similar to: locate(String, int, String), but performs a case-insensitive comparison
 
 Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
-<dl><dt style="margin-left: 40px;"><br><br></dt></dl><!--   -->
+
+
+
 #### locateIgnoreCase
 
 ```
@@ -1253,7 +1278,9 @@ throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 Similar to: locate(String, int, int, String), but performs a case-insensitive comparison
 
 Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
-<dl><dt style="margin-left: 40px;"><br><br></dt></dl><!--   -->
+
+
+
 #### locateIgnoreCase
 
 ```
@@ -1265,7 +1292,9 @@ throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 Similar to: locate(String, int, String, int), but performs a case-insensitive comparison
 
 Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
-<dl><dt style="margin-left: 40px;"><br><br></dt></dl><!--   -->
+
+
+
 #### locateIgnoreCase
 
 ```
@@ -1277,7 +1306,9 @@ throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 Similar to: locate(String, int, int, String, int), but performs a case-insensitive comparison
 
 Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
-<dl><dt style="margin-left: 40px;"><br><br></dt></dl><!--   -->
+
+
+
 #### clone
 
 ```
@@ -1289,7 +1320,7 @@ Overides: [clone](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?
 
 
 
-<!--   -->
+
 #### readExternal
 
 ```
@@ -1305,7 +1336,7 @@ Throws: [IOException](http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOExceptio
 
 
 
-<!--   -->
+
 #### writeExternal
 
 ```
@@ -1317,5 +1348,5 @@ throws [IOException](http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException
 Specified by: writeExternal in interface [Externalizable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Externalizable.html?is-external=true "class or interface in java.io")
 
 Throws:  [IOException](http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true "class or interface in java.io")
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+

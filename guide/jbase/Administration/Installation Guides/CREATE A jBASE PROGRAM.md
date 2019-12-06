@@ -12,10 +12,12 @@ The following guide is an instructional walkthrough on creating a standard hash 
 
 
 
+```
+CREATE-FILE MYDATA 1 13
 
-| <br>```<br>CREATE-FILE MYDATA 1 13<br><br>[ 417 ] File MYDATA]D created , type = J4<br>[ 417 ] File MYDATA created , type = J4<br>```<br> |
-| --- |
-
+[ 417 ] File MYDATA]D created , type = J4
+[ 417 ] File MYDATA created , type = J4
+```
 
 Display the newly created file using LISTFILES command
 
@@ -40,9 +42,12 @@ The new file can also be seen in windows explorer
 
 
 
+```
+CREATE-FILE BP TYPE=UD
 
-| <br>```<br>CREATE-FILE BP TYPE=UD<br><br>[ 417 ] File BP]D created , type = UD<br>[ 417 ] File BP created , type = UD<br>```<br> |
-
+[ 417 ] File BP]D created , type = UD
+[ 417 ] File BP created , type = UD
+```
 
 Display the newly created file using LISTFILES command
 

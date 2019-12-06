@@ -10,13 +10,13 @@
 - - [com.jbase.jremote.io.Response](../../../com/jbase/jremote/io/Response.html "class in com.jbase.jremote.io")
     - - [com.jbase.jremote.protocol.JRemoteResponse](../../../com/jbase/jremote/protocol/JRemoteResponse.html "class in com.jbase.jremote.protocol")
         - - com.jbase.jremote.JExecuteResults
-- <dl><dt>All Implemented Interfaces:</dt><dd><a href="../../../com/jbase/jremote/io/JBaseSerializable.html" title="interface in com.jbase.jremote.io">JBaseSerializable</a></dd></dl>
+- All Implemented Interfaces:[JBaseSerializable](../../../com/jbase/jremote/io/JBaseSerializable.html "interface in com.jbase.jremote.io")
 ```
 public class JExecuteResults
 extends JRemoteResponse
 ```
 
-The results from an executed command.<dl><dt>Author:</dt><dd>aphethean</dd><dt>See Also:</dt><dd><a href="../../../com/jbase/jremote/JConnection.html#execute-java.lang.String-"><code>JConnection.execute(java.lang.String)</code></a></dd></dl>
+The results from an executed command.Author:aphetheanSee Also:[`JConnection.execute(java.lang.String)`](../../../com/jbase/jremote/JConnection.html#execute-java.lang.String-)
 - - ### Nested Class Summary
 
         - ### Nested classes/interfaces inherited from interface com.jbase.jremote.io.[JBaseSerializable](../../../com/jbase/jremote/io/JBaseSerializable.html "interface in com.jbase.jremote.io")
@@ -26,14 +26,14 @@ The results from an executed command.<dl><dt>Author:</dt><dd>aphethean</dd><dt>S
 
 | Constructor and Description |
 | --- |
-<caption>Constructors </caption>| `JExecuteResults()`  |
+Constructors | `JExecuteResults()`  |
 | `JExecuteResults(JSelectListProt selectListProt, JDynArray capturingVar, JDynArray settingVar)`  |
     - ### Method Summary
 
 
 | Modifier and Type | Method and Description |
 | --- | --- |
-<caption>All Methods <a href="javascript%3Ashow(2);">Instance Methods</a> <a href="javascript%3Ashow(8);">Concrete Methods</a>&nbsp;</caption>| `JDynArray` | `getCapturingVar()`  |
+All Methods [Instance Methods](javascript%3Ashow%282%29;) [Concrete Methods](javascript%3Ashow%288%29;) | `JDynArray` | `getCapturingVar()`  |
 | `JCursor` | `getCursor()`  |
 | `JSelectList` | `getReturnList()`  |
 | `JDynArray` | `getSettingVar()`  |
@@ -64,25 +64,25 @@ public JExecuteResults(JSelectListProt selectListProt,                        JD
 ```
 public int getType()
 ```
-<dl><dt>Returns:</dt><dd>type id of the objects, used during the serialization</dd></dl>
+Returns:type id of the objects, used during the serialization
         - #### getVersion
 
 ```
 public int getVersion()
 ```
-<dl><dt>Specified by:</dt><dd><code><a href="../../../com/jbase/jremote/io/JBaseSerializable.html#getVersion--">getVersion</a></code> in interface <code><a href="../../../com/jbase/jremote/io/JBaseSerializable.html" title="interface in com.jbase.jremote.io">JBaseSerializable</a></code></dd><dt>Overrides:</dt><dd><code><a href="../../../com/jbase/jremote/protocol/JRemoteResponse.html#getVersion--">getVersion</a></code> in class <code><a href="../../../com/jbase/jremote/protocol/JRemoteResponse.html" title="class in com.jbase.jremote.protocol">JRemoteResponse</a></code></dd></dl>
+Specified by:`getVersion` in interface `JBaseSerializable`Overrides:`getVersion` in class `JRemoteResponse`
         - #### writeObject
 
 ```
 public void writeObject(JBaseObjectWriter writer,                         int version)                  throws IOException
 ```
-<dl><dt>Throws:</dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Throws:`IOException`
         - #### readObject
 
 ```
 public void readObject(JBaseObjectReader reader,                        int version)                 throws IOException,                        ClassNotFoundException
 ```
-<dl><dt>Throws:</dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/ClassNotFoundException.html?is-external=true" title="class or interface in java.lang">ClassNotFoundException</a></code></dd></dl>
+Throws:`IOException``ClassNotFoundException`
         - #### getReturnList
 
 ```

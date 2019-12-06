@@ -3,34 +3,19 @@
 **Created At:** 9/25/2017 11:39:45 AM  
 **Updated At:** 4/5/2018 12:39:50 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="Uses of Class com.jbase.jremote.JRemoteException (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.JRemoteException (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+
+
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 ## Uses of Class
 com.jbase.jremote.JRemoteException
 
 | Package<br> | Description<br> |
 | --- | --- |
-<caption>&nbsp;<span>Packages that use <a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></span><span class="tabEnd">&nbsp;</span>&nbsp;</caption>| com.jbase.jremote<br> |  <br> |
+ Packages that use [JRemoteException](/39248-jremote/com_jbase_jremote_jremoteexception "class in com.jbase.jremote")  | com.jbase.jremote<br> |  <br> |
 | com.jbase.jremote.io<br> |  <br> |
 | com.jbase.jremote.jca<br> |  <br> |
 | com.jbase.jremote.jca.spring<br> |  <br> |
@@ -38,14 +23,14 @@ com.jbase.jremote.JRemoteException
 
 
 
-<!--   -->
+
 
 ### Uses of [JRemoteException](/39248-jremote/com_jbase_jremote_jremoteexception "class in com.jbase.jremote") in [com.jbase.jremote](/30312-jagent/jremote-api)
 
 
 | Modifier and Type<br> | Class and Description<br> |
 | --- | --- |
-<caption>&nbsp;<span>Subclasses of <a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a> in <a href="/30312-jagent/jremote-api">com.jbase.jremote</a></span><span class="tabEnd">&nbsp;</span>&nbsp;</caption>| `class `<br> | `JAuthenticationException`<br>A exception thrown when authentication fails.<br> |
+ Subclasses of [JRemoteException](/39248-jremote/com_jbase_jremote_jremoteexception "class in com.jbase.jremote") in [com.jbase.jremote](/30312-jagent/jremote-api)  | `class `<br> | `JAuthenticationException`<br>A exception thrown when authentication fails.<br> |
 | `class `<br> | `JRecordLockedException`<br>A generic jBASE record locked exception.<br> |
 | `class `<br> | `JRecordNotFoundException`<br>A generic jBASE record not found exception.<br> |
 | `class `<br> | `JSubroutineNotFoundException`<br>This exception is thrown when a call is made to a non existent subroutine.<br> |
@@ -54,7 +39,7 @@ com.jbase.jremote.JRemoteException
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
-<caption>&nbsp;<span>Methods in <a href="/30312-jagent/jremote-api">com.jbase.jremote</a> that throw <a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></span><span class="tabEnd">&nbsp;</span>&nbsp;</caption>| `void`<br> | JConnection.`begin()`<br>Begin a jBASE transaction.<br> |
+ Methods in [com.jbase.jremote](/30312-jagent/jremote-api) that throw [JRemoteException](/39248-jremote/com_jbase_jremote_jremoteexception "class in com.jbase.jremote")  | `void`<br> | JConnection.`begin()`<br>Begin a jBASE transaction.<br> |
 | `JSubroutineParameters`<br> | JConnection.`call(String subroutineName, JSubroutineParameters parameters)`<br>Call a jBASE subroutine.<br> |
 | `boolean`<br> | JFile.`clear()`<br>Delete all records from the file.<br> |
 | `void`<br> | JSelectList.`close()`<br>Close select list.<br> |
@@ -112,14 +97,14 @@ com.jbase.jremote.JRemoteException
 
 
 
-<!--   -->
+
 
 ### Uses of [JRemoteException](/39248-jremote/com_jbase_jremote_jremoteexception "class in com.jbase.jremote") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
-<caption>&nbsp;<span>Methods in <a href="/39250-io/com_jbase_jremote_io_package-summary">com.jbase.jremote.io</a> that throw <a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></span><span class="tabEnd">&nbsp;</span>&nbsp;</caption>| `void`<br> | AbstractJRemoteConnection.`authenticate(String user, String password)`<br>Send data for authentication to the server.<br> |
+ Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) that throw [JRemoteException](/39248-jremote/com_jbase_jremote_jremoteexception "class in com.jbase.jremote")  | `void`<br> | AbstractJRemoteConnection.`authenticate(String user, String password)`<br>Send data for authentication to the server.<br> |
 | `void`<br> | AbstractJRemoteConnection.`authenticate(String user, String account, String password)`<br>Send data for authentication to the server, the server must be configured to authenticate jBASE account connections.<br> |
 | `void`<br> | JConnectionImpl.`begin()` <br> |
 | `JSubroutineParameters`<br> | JConnectionImpl.`call(String subroutineName, JSubroutineParameters parameters)` <br> |
@@ -193,20 +178,20 @@ com.jbase.jremote.JRemoteException
 
 | Constructor and Description<br> |
 | --- |
-<caption>&nbsp;<span>Constructors in <a href="/39250-io/com_jbase_jremote_io_package-summary">com.jbase.jremote.io</a> that throw <a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></span><span class="tabEnd">&nbsp;</span>&nbsp;</caption>| `JRemoteSocketConnection(String host, int port)` <br> |
+ Constructors in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) that throw [JRemoteException](/39248-jremote/com_jbase_jremote_jremoteexception "class in com.jbase.jremote")  | `JRemoteSocketConnection(String host, int port)` <br> |
 | `JRemoteSocketConnection(String host, int port, Properties info)` <br> |
 
 
 
 
-<!--   -->
+
 
 ### Uses of [JRemoteException](/39248-jremote/com_jbase_jremote_jremoteexception "class in com.jbase.jremote") in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary)
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
-<caption>&nbsp;<span>Methods in <a href="/39258-jca/com_jbase_jremote_jca_package-summary">com.jbase.jremote.jca</a> that throw <a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></span><span class="tabEnd">&nbsp;</span>&nbsp;</caption>| `void`<br> | WrappedJConnection.`begin()` <br> |
+ Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) that throw [JRemoteException](/39248-jremote/com_jbase_jremote_jremoteexception "class in com.jbase.jremote")  | `void`<br> | WrappedJConnection.`begin()` <br> |
 | `JSubroutineParameters`<br> | WrappedJConnection.`call(String subroutineName, JSubroutineParameters parameters)`<br>Call jBASE subroutine.<br> |
 | `protected void`<br> | WrappedJConnection.`checkStatus()`<br>In a managed environment the `checkStatus` method checks that this handle has not been closed.<br> |
 | `boolean`<br> | WrappedJFile.`clear()` <br> |
@@ -250,31 +235,30 @@ com.jbase.jremote.JRemoteException
 
 
 
-<!--   -->
+
 
 ### Uses of [JRemoteException](/39248-jremote/com_jbase_jremote_jremoteexception "class in com.jbase.jremote") in [com.jbase.jremote.jca.spring](/39268-spring/com_jbase_jremote_jca_spring_package-summary)
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
-<caption>&nbsp;<span>Methods in <a href="/39268-spring/com_jbase_jremote_jca_spring_package-summary">com.jbase.jremote.jca.spring</a> that throw <a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></span><span class="tabEnd">&nbsp;</span>&nbsp;</caption>| `static JConnection`<br> | JConnectionFactoryUtils.`getConnection(JConnectionFactory cf)`<br>Obtain a JConnection from the given JConnectionFactory.<br> |
+ Methods in [com.jbase.jremote.jca.spring](/39268-spring/com_jbase_jremote_jca_spring_package-summary) that throw [JRemoteException](/39248-jremote/com_jbase_jremote_jremoteexception "class in com.jbase.jremote")  | `static JConnection`<br> | JConnectionFactoryUtils.`getConnection(JConnectionFactory cf)`<br>Obtain a JConnection from the given JConnectionFactory.<br> |
 
 
 
 
-<!--   -->
+
 
 ### Uses of [JRemoteException](/39248-jremote/com_jbase_jremote_jremoteexception "class in com.jbase.jremote") in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary)
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
-<caption>&nbsp;<span>Methods in <a href="/39270-protocol/com_jbase_jremote_protocol_package-summary">com.jbase.jremote.protocol</a> that throw <a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></span><span class="tabEnd">&nbsp;</span>&nbsp;</caption>| `boolean`<br> | JSelectListProt.`hasNext()`<br>Returns whether it is possible to move forward.<br> |
+ Methods in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary) that throw [JRemoteException](/39248-jremote/com_jbase_jremote_jremoteexception "class in com.jbase.jremote")  | `boolean`<br> | JSelectListProt.`hasNext()`<br>Returns whether it is possible to move forward.<br> |
 | `boolean`<br> | JSelectListProt.`hasPrevious()`<br>Returns whether it is possible to move backwards.<br> |
 | `boolean`<br> | JSelectListProt.`next()`<br>Move to next item.<br> |
 | `boolean`<br> | JSelectListProt.`previous()`<br>Move to previous item.<br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
 
 

@@ -9,7 +9,7 @@ The jBC debugger is a fully featured, interactive diagnostic utility that gives 
 
 
 
-<iframe width="640" height="360" class="fr-draggable" src="https://www.youtube.com/embed/mHxvaH1Mvik?wmode=opaque" frameborder="0" allowfullscreen=""></iframe>
+
 
 - Set and delete breakpoints to halt program execution. These can be simple line number breaks or based upon the result of an evaluated expression.
 - Set and delete the tracking and display of variable contents.

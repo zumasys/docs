@@ -3,23 +3,19 @@
 **Created At:** 9/25/2017 10:56:01 AM  
 **Updated At:** 8/17/2018 2:25:53 AM  
 
-<noscript>&amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+&amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;gt;
+
 
 # Class JBaseJDBCSocketStatement
 
-<dt>All Implemented Interfaces:</dt><dd><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true" title="class or interface in java.lang">AutoCloseable</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true" title="class or interface in java.sql">Wrapper</a></dd>
+All Implemented Interfaces:[AutoCloseable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true "class or interface in java.lang"), [Statement](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true "class or interface in java.sql"), [Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")
 
-<dl><dt>Direct Known Subclasses:</dt><dd><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCPreparedStatement" title="class in com.jbase.jdbc">JBaseJDBCPreparedStatement</a></dd></dl>
+Direct Known Subclasses:[JBaseJDBCPreparedStatement](/39228-jdbc/com_jbase_jdbc_JBaseJDBCPreparedStatement "class in com.jbase.jdbc")
 ```
 public class JBaseJDBCSocketStatement
 extends Object
 implements Statement
 ```
-
-<!-- =========== FIELD SUMMARY =========== -->
-
-<!--   -->
 
 # Field Summary
 
@@ -29,7 +25,7 @@ implements Statement
 | <br>protected [List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util")&lt;[SQLStartRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLStartRequest "class in com.jbase.jdbc.protocol")&gt;<br> | <br>batchRequestsList<br> |
 
 
-<!--   -->
+
 
 ### 
 
@@ -41,8 +37,8 @@ implements Statement
 
 
 
-<!-- ======== CONSTRUCTOR SUMMARY ======== -->
-<!--   -->
+
+
 
 # Constructor Summary
 
@@ -53,8 +49,8 @@ implements Statement
 
 
 
-<!-- ========== METHOD SUMMARY =========== -->
-<!--   -->
+
+
 
 # Method Summary
 
@@ -102,15 +98,13 @@ implements Statement
 | <br>void<br> | <br>setMaxRows(int max)<br> | <br>Sets the limit for the maximum number of rows that any ResultSet object can contain to the given number.<br> |
 | <br>void<br> | <br>setQueryTimeout(int seconds)<br> | <br>Sets the number of seconds the driver will wait for a Statement object to execute to the given number of seconds.<br> |
 
-<!--   -->
-
 ### 
 
 
 ## Methods inherited from class java.lang.Object
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-<!--   -->
+
 
 ## 
 
@@ -118,7 +112,7 @@ implements Statement
 ## Methods inherited from interface java.sql.Statement
 `closeOnCompletion, executeLargeBatch, executeLargeUpdate, executeLargeUpdate, executeLargeUpdate, executeLargeUpdate, getLargeMaxRows, getLargeUpdateCount, isClosed, isCloseOnCompletion, isPoolable, setLargeMaxRows, setPoolable`
 
-<!--   -->
+
 
 ## 
 
@@ -126,12 +120,8 @@ implements Statement
 ## Methods inherited from interface java.sql.Wrapper
 `isWrapperFor, unwrap`
 
-<!-- ============ FIELD DETAIL =========== -->
-
-<!--   -->
-
 # Field Detail
-<!--   -->
+
 #### **batchRequestsList**
 
 ```
@@ -143,8 +133,8 @@ protected List<SQLStartRequest> batchRequestsList
 
 
 
-<!-- ========= CONSTRUCTOR DETAIL ======== -->
-<!--   -->
+
+
 
 # Constructor Detail
 
@@ -157,11 +147,11 @@ public JBaseJDBCSocketStatement(JBaseJDBCSocketConnection connection)
 
 
 
-<!-- ============ METHOD DETAIL ========== -->
-<!--   -->
+
+
 
 # Method Detail
-<!--   -->
+
 #### **getFetchDirection**
 
 ```
@@ -171,12 +161,14 @@ public int getFetchDirection()
 
 Retrieves the direction for fetching rows from database tables that is the default for result sets generated from this Statement object. If this Statement object has not set a fetch direction by calling the method setFetchDirection, the return value is implementation-specific.
 
-<dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getFetchDirection</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the default fetch direction for result sets generated from this Statement object</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+**Specified by:**`getFetchDirection` in interface `Statement`
+**Returns:**the default fetch direction for result sets generated from this Statement object
+**Throws:**`SQLException` - if a database access error occurs
 
 
 
 
-<!--   -->
+
 
 
 #### **getFetchSize**
@@ -187,9 +179,11 @@ public int getFetchSize()
 ```
 
 Retrieves the number of result set rows that is the default fetch size for ResultSet objects generated from this Statement object. If this Statement object has not set a fetch size by calling the method setFetchSize, the return value is implementation-specific.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getFetchSize</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the default fetch size for result sets generated from this Statement object</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`getFetchSize` in interface `Statement`
+**Returns:**the default fetch size for result sets generated from this Statement object
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **getMaxFieldSize**
@@ -200,9 +194,11 @@ public int getMaxFieldSize()
 ```
 
 Retrieves the maximum number of bytes that can be returned for character and binary column values in a ResultSet object produced by this Statement object. This limit applies only to BINARY, VARBINARY, LONGVARBINARY, CHAR, VARCHAR, and LONGVARCHAR columns. If the limit is exceeded, the excess data is silently discarded.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxFieldSize</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the current column size limit for columns storing character and binary values; zero means there is no limit</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`getMaxFieldSize` in interface `Statement`
+**Returns:**the current column size limit for columns storing character and binary values; zero means there is no limit
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **getMaxRows**
@@ -213,9 +209,11 @@ public int getMaxRows()
 ```
 
 Retrieves the maximum number of rows that a ResultSet object produced by this Statement object can contain. If this limit is exceeded, the excess rows are silently dropped.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMaxRows</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the current maximum number of rows for a ResultSet object produced by this Statement object; zero means there is no limit</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`getMaxRows` in interface `Statement`
+**Returns:**the current maximum number of rows for a ResultSet object produced by this Statement object; zero means there is no limit
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **getQueryTimeout**
@@ -226,9 +224,11 @@ public int getQueryTimeout()
 ```
 
 Retrieves the number of seconds the driver will wait for a Statement object to execute. If the limit is exceeded, a SQLException is thrown.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getQueryTimeout</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the current query timeout limit in seconds; zero means there is no limit</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`getQueryTimeout` in interface `Statement`
+**Returns:**the current query timeout limit in seconds; zero means there is no limit
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **getResultSetConcurrency**
@@ -239,9 +239,11 @@ public int getResultSetConcurrency()
 ```
 
 Retrieves the result set concurrency for ResultSet objects generated by this Statement object.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getResultSetConcurrency</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">either ResultSet.CONCUR_READ_ONLY or ResultSet.CONCUR_UPDATABLE</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`getResultSetConcurrency` in interface `Statement`
+**Returns:**either ResultSet.CONCUR\_READ\_ONLY or ResultSet.CONCUR\_UPDATABLE
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **getResultSetHoldability**
@@ -252,9 +254,11 @@ public int getResultSetHoldability()
 ```
 
 Retrieves the result set holdability for ResultSet objects generated by this Statement object.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getResultSetHoldability</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">either ResultSet.HOLD_CURSORS_OVER_COMMIT or ResultSet.CLOSE_CURSORS_AT_COMMIT</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd></dl>
+**Specified by:**`getResultSetHoldability` in interface `Statement`
+**Returns:**either ResultSet.HOLD\_CURSORS\_OVER\_COMMIT or ResultSet.CLOSE\_CURSORS\_AT\_COMMIT
+**Throws:**`SQLException` - - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **getResultSetType**
@@ -265,9 +269,11 @@ public int getResultSetType()
 ```
 
 Retrieves the result set type for ResultSet objects generated by this Statement object.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getResultSetType</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">one of ResultSet.TYPE_FORWARD_ONLY, ResultSet.TYPE_SCROLL_INSENSITIVE, or ResultSet.TYPE_SCROLL_SENSITIVE</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`getResultSetType` in interface `Statement`
+**Returns:**one of ResultSet.TYPE\_FORWARD\_ONLY, ResultSet.TYPE\_SCROLL\_INSENSITIVE, or ResultSet.TYPE\_SCROLL\_SENSITIVE
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **getUpdateCount**
@@ -278,9 +284,11 @@ public int getUpdateCount()
 ```
 
 Retrieves the current result as an update count; if the result is a ResultSet object or there are no more results, -1 is returned. This method should be called only once per result.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getUpdateCount</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the current result as an update count; -1 if the current result is a ResultSet object or there are no more results</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`getUpdateCount` in interface `Statement`
+**Returns:**the current result as an update count; -1 if the current result is a ResultSet object or there are no more results
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **cancel**
@@ -291,9 +299,10 @@ public void cancel()
 ```
 
 Cancels this Statement object if both the DBMS and driver support aborting an SQL statement. This method can be used by one thread to cancel a statement that is being executed by another thread.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>cancel</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`cancel` in interface `Statement`
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **clearBatch**
@@ -304,9 +313,10 @@ public void clearBatch()
 ```
 
 Empties this Statement object's current list of SQL commands. NOTE: This method is optional.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>clearBatch</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the driver does not support batch updates</dd></dl>
+**Specified by:**`clearBatch` in interface `Statement`
+**Throws:**`SQLException` - if a database access error occurs or the driver does not support batch updates
 
-<!--   -->
+
 
 
 #### **clearWarnings**
@@ -317,9 +327,10 @@ public void clearWarnings()
 ```
 
 Clears all the warnings reported on this Statement object. After a call to this method, the method getWarnings will return null until a new warning is reported for this Statement object.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>clearWarnings</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`clearWarnings` in interface `Statement`
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **close**
@@ -331,10 +342,12 @@ public void close()
 
 Releases this Statement object's database and JDBC resources immediately instead of waiting for this to happen when it is automatically closed. It is generally good practice to release resources as soon as you are finished with them to avoid tying up database resources. Calling the method close on a Statement object that is already closed has no effect. Note: A Statement object is automatically closed when it is garbage collected [TODO: not yet implemented]. [TODO:] When a Statement object is closed, its current ResultSet object, if one exists, is also closed.
 
-<dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>close</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true" title="class or interface in java.lang">AutoCloseable</a></code></dd><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>close</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+**Specified by:**`close` in interface `AutoCloseable`
+**Specified by:**`close` in interface `Statement`
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **getMoreResults**
@@ -345,9 +358,11 @@ public boolean getMoreResults()
 ```
 
 Moves to this Statement object's next result, returns true if it is a ResultSet object, and implicitly closes any current ResultSet object(s) obtained with the method getResultSet. There are no more results when the following is true: // stmt is a Statement object ((stmt.getMoreResults() == false) && (stmt.getUpdateCount() == -1))
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMoreResults</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">true if the next result is a ResultSet object; false if it is an update count or there are no more results</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`getMoreResults` in interface `Statement`
+**Returns:**true if the next result is a ResultSet object; false if it is an update count or there are no more results
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **executeBatch**
@@ -362,10 +377,12 @@ A value of SUCCESS\_NO\_INFO -- indicates that the command was processed success
 A value of EXECUTE\_FAILED -- indicates that the command failed to execute successfully and occurs only if a driver continues to process commands after a command fails
 A driver is not required to implement this method. The possible implementations and return values have been modified in the Java 2 SDK, Standard Edition, version 1.3 to accommodate the option of continuing to proccess commands in a batch update after a BatchUpdateException obejct has been thrown.
 
-<dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>executeBatch</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">an array of update counts containing one element for each command in the batch. The elements of the array are ordered according to the order in which commands were added to the batch.</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the driver does not support batch statements.</dd><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/BatchUpdateException.html?is-external=true" title="class or interface in java.sql">BatchUpdateException</a></code> - (a subclass of SQLException) if one of the commands sent to the database fails to execute properly or attempts to return a result set.</dd>
+**Specified by:**`executeBatch` in interface `Statement`
+**Returns:**an array of update counts containing one element for each command in the batch. The elements of the array are ordered according to the order in which commands were added to the batch.
+**Throws:**`SQLException` - if a database access error occurs or the driver does not support batch statements.`BatchUpdateException` - (a subclass of SQLException) if one of the commands sent to the database fails to execute properly or attempts to return a result set.
 
 
-<!--   -->
+
 
 
 #### **setFetchDirection**
@@ -376,9 +393,11 @@ public void setFetchDirection(int direction)
 ```
 
 Gives the driver a hint as to the direction in which rows will be processed in ResultSet objects created using this Statement object. The default value is ResultSet.FETCH\_FORWARD. Note that this method sets the default fetch direction for result sets generated by this Statement object. Each result set has its own methods for getting and setting its own fetch direction.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setFetchDirection</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 40px;"><code>direction</code> - the initial direction for processing rows</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the given direction is not one of ResultSet.FETCH_FORWARD, ResultSet.FETCH_REVERSE, or ResultSet.FETCH_UNKNOWN</dd></dl>
+**Specified by:**`setFetchDirection` in interface `Statement`
+**Parameters:**`direction` - the initial direction for processing rows
+**Throws:**`SQLException` - if a database access error occurs or the given direction is not one of ResultSet.FETCH\_FORWARD, ResultSet.FETCH\_REVERSE, or ResultSet.FETCH\_UNKNOWN
 
-<!--   -->
+
 
 
 #### **setFetchSize**
@@ -389,9 +408,12 @@ public void setFetchSize(int rows)
 ```
 
 Gives the JDBC driver a hint as to the number of rows that should be fetched from the database when more rows are needed. The number of rows specified affects only result sets created using this statement. If the value specified is zero, then the hint is ignored. The default value is zero.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setFetchSize</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>rows</code> - the number of rows to fetch</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs, or the condition 0 &lt;= rows &lt;= this.getMaxRows() is not satisfied.</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getFetchSize--" title="class or interface in java.sql"><code>Statement.getFetchSize()</code></a></dd></dl>
+**Specified by:**`setFetchSize` in interface `Statement`
+**Parameters:**`rows` - the number of rows to fetch
+**Throws:**`SQLException` - if a database access error occurs, or the condition 0 &lt;= rows &lt;= this.getMaxRows() is not satisfied.
+**See Also:**[`Statement.getFetchSize()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getFetchSize-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **setMaxFieldSize**
@@ -402,9 +424,12 @@ public void setMaxFieldSize(int max)
 ```
 
 Sets the limit for the maximum number of bytes in a ResultSet column storing character or binary values to the given number of bytes. This limit applies only to BINARY, VARBINARY, LONGVARBINARY, CHAR, VARCHAR, and LONGVARCHAR fields. If the limit is exceeded, the excess data is silently discarded. For maximum portability, use values greater than 256.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setMaxFieldSize</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>max</code> - the new column size limit in bytes; zero means there is no limit</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the condition max &gt;= 0 is not satisfied</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getMaxFieldSize--" title="class or interface in java.sql"><code>Statement.getMaxFieldSize()</code></a></dd></dl>
+**Specified by:**`setMaxFieldSize` in interface `Statement`
+**Parameters:**`max` - the new column size limit in bytes; zero means there is no limit
+**Throws:**`SQLException` - if a database access error occurs or the condition max &gt;= 0 is not satisfied
+**See Also:**[`Statement.getMaxFieldSize()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getMaxFieldSize-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **setMaxRows**
@@ -415,9 +440,12 @@ public void setMaxRows(int max)
 ```
 
 Sets the limit for the maximum number of rows that any ResultSet object can contain to the given number. If the limit is exceeded, the excess rows are silently dropped.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setMaxRows</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>max</code> - the new max rows limit; zero means there is no limit</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the condition max &gt;= 0 is not satisfied</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getMaxRows--" title="class or interface in java.sql"><code>Statement.getMaxRows()</code></a></dd></dl>
+**Specified by:**`setMaxRows` in interface `Statement`
+**Parameters:**`max` - the new max rows limit; zero means there is no limit
+**Throws:**`SQLException` - if a database access error occurs or the condition max &gt;= 0 is not satisfied
+**See Also:**[`Statement.getMaxRows()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getMaxRows-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **setQueryTimeout**
@@ -428,9 +456,12 @@ public void setQueryTimeout(int seconds)
 ```
 
 Sets the number of seconds the driver will wait for a Statement object to execute to the given number of seconds. If the limit is exceeded, an SQLException is thrown.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setQueryTimeout</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>seconds</code> - - the new query timeout limit in seconds; zero means there is no limit</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the condition seconds &gt;= 0 is not satisfied</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getQueryTimeout--" title="class or interface in java.sql"><code>Statement.getQueryTimeout()</code></a></dd></dl>
+**Specified by:**`setQueryTimeout` in interface `Statement`
+**Parameters:**`seconds` - - the new query timeout limit in seconds; zero means there is no limit
+**Throws:**`SQLException` - if a database access error occurs or the condition seconds &gt;= 0 is not satisfied
+**See Also:**[`Statement.getQueryTimeout()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getQueryTimeout-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **getMoreResults**
@@ -441,9 +472,12 @@ public boolean getMoreResults(int current)
 ```
 
 Moves to this Statement object's next result, deals with any current ResultSet object(s) according to the instructions specified by the given flag, and returns true if the next result is a ResultSet object. There are no more results when the following is true: // stmt is a Statement object ((stmt.getMoreResults() == false) && (stmt.getUpdateCount() == -1))
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMoreResults</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>current</code> - one of the following Statement constants indicating what should happen to current ResultSet objects obtained using the method getResultSet: Statement.CLOSE_CURRENT_RESULT, Statement.KEEP_CURRENT_RESULT, or Statement.CLOSE_ALL_RESULTS</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">true if the next result is a ResultSet object; false if it is an update count or there are no more results</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the argument supplied is not one of the following: Statement.CLOSE_CURRENT_RESULT, Statement.KEEP_CURRENT_RESULT, or Statement.CLOSE_ALL_RESULTS</dd></dl>
+**Specified by:**`getMoreResults` in interface `Statement`
+**Parameters:**`current` - one of the following Statement constants indicating what should happen to current ResultSet objects obtained using the method getResultSet: Statement.CLOSE\_CURRENT\_RESULT, Statement.KEEP\_CURRENT\_RESULT, or Statement.CLOSE\_ALL\_RESULTS
+**Returns:**true if the next result is a ResultSet object; false if it is an update count or there are no more results
+**Throws:**`SQLException` - if a database access error occurs or the argument supplied is not one of the following: Statement.CLOSE\_CURRENT\_RESULT, Statement.KEEP\_CURRENT\_RESULT, or Statement.CLOSE\_ALL\_RESULTS
 
-<!--   -->
+
 
 
 #### **setEscapeProcessing**
@@ -455,10 +489,12 @@ public void setEscapeProcessing(boolean enable)
 
 Sets escape processing on or off. If escape scanning is on (the default), the driver will do escape substitution before sending the SQL statement to the database. Note: Since prepared statements have usually been parsed prior to making this call, disabling escape processing for PreparedStatements objects will have no effect.
 
-<dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setEscapeProcessing</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>enable</code> - - true to enable escape processing; false to disable it</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd>
+**Specified by:**`setEscapeProcessing` in interface `Statement`
+**Parameters:**`enable` - - true to enable escape processing; false to disable it
+**Throws:**`SQLException` - - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **executeUpdate**
@@ -470,10 +506,13 @@ public int executeUpdate(String sql)
 
 Executes the given SQL statement, which may be an INSERT, UPDATE, or DELETE statement or an SQL statement that returns nothing, such as an SQL DDL statement.
 
-<dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>executeUpdate</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>sql</code> - an SQL INSERT, UPDATE or DELETE statement or an SQL statement that returns nothing</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">either the row count for INSERT, UPDATE or DELETE statements, or 0 for SQL statements that return nothing</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the given SQL statement produces a ResultSet object</dd>
+**Specified by:**`executeUpdate` in interface `Statement`
+**Parameters:**`sql` - an SQL INSERT, UPDATE or DELETE statement or an SQL statement that returns nothing
+**Returns:**either the row count for INSERT, UPDATE or DELETE statements, or 0 for SQL statements that return nothing
+**Throws:**`SQLException` - if a database access error occurs or the given SQL statement produces a ResultSet object
 
 
-<!--   -->
+
 
 
 #### **addBatch**
@@ -485,10 +524,13 @@ public void addBatch(String sql)
 
 Adds the given SQL command to the current list of commmands for this Statement object. The commands in this list can be executed as a batch by calling the method executeBatch. NOTE: This method is optional.
 
-<dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>addBatch</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>sql</code> - - typically this is a static SQL INSERT or UPDATE statement</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs, or the driver does not support batch updates</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#executeBatch--" title="class or interface in java.sql"><code>Statement.executeBatch()</code></a></dd>
+**Specified by:**`addBatch` in interface `Statement`
+**Parameters:**`sql` - - typically this is a static SQL INSERT or UPDATE statement
+**Throws:**`SQLException` - - if a database access error occurs, or the driver does not support batch updates
+**See Also:**[`Statement.executeBatch()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#executeBatch-- "class or interface in java.sql")
 
 
-<!--   -->
+
 
 
 #### **setCursorName**
@@ -500,10 +542,12 @@ public void setCursorName(String name)
 
 Sets the SQL cursor name to the given String, which will be used by subsequent Statement object execute methods. This name can then be used in SQL positioned update or delete statements to identify the current row in the ResultSet object generated by this statement. If the database does not support positioned update/delete, this method is a noop. To insure that a cursor has the proper isolation level to support updates, the cursor's SELECT statement should have the form SELECT FOR UPDATE. If FOR UPDATE is not present, positioned updates may fail. Note: By definition, the execution of positioned updates and deletes must be done by a different Statement object than the one that generated the ResultSet object being used for positioning. Also, cursor names must be unique within a connection.
 
-<dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setCursorName</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>name</code> - the new cursor name, which must be unique within a connection</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+**Specified by:**`setCursorName` in interface `Statement`
+**Parameters:**`name` - the new cursor name, which must be unique within a connection
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **getId**
@@ -512,10 +556,11 @@ Sets the SQL cursor name to the given String, which will be used by subsequent S
 public StatementID getId()
 ```
 
-This is a jBASE JDBC driver's private method, not part of the JDBC API.<dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>a string uniquely identifying this statement object.</dd>
+This is a jBASE JDBC driver's private method, not part of the JDBC API.
+**Returns:**a string uniquely identifying this statement object.
 
 
-<!--   -->
+
 
 
 #### **setId**
@@ -524,9 +569,10 @@ This is a jBASE JDBC driver's private method, not part of the JDBC API.<dt><br><
 public void setId(StatementID _statementId)
            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Throws:**`SQLException`
+
+
 
 
 #### **freeId**
@@ -535,9 +581,10 @@ public void setId(StatementID _statementId)
 public void freeId()
             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Throws:**`SQLException`
+
+
 
 
 #### **execute**
@@ -549,10 +596,13 @@ public boolean execute(String sql)
 
 Executes the given SQL statement, which may return multiple results. In some (uncommon) situations, a single SQL statement may return multiple result sets and/or update counts. Normally you can ignore this unless you are: (1) executing a stored procedure that you know may return multiple results or (2) you are dynamically executing an unknown SQL string. The execute method executes an SQL statement and indicates the form of the first result. You must then use the methods getResultSet or getUpdateCount to retrieve the result, and getMoreResults to move to any subsequent result(s).
 
-<dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>execute</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>sql</code> - any SQL statement</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">true if the first result is a ResultSet object; false if it is an update count or there are no results.</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd>
+**Specified by:**`execute` in interface `Statement`
+**Parameters:**`sql` - any SQL statement
+**Returns:**true if the first result is a ResultSet object; false if it is an update count or there are no results.
+**Throws:**`SQLException` - - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **executeUpdate**
@@ -564,10 +614,13 @@ public int executeUpdate(String sql, int autoGeneratedKeys)
 
 Executes the given SQL statement and signals the driver with the given flag about whether the auto-generated keys produced by this Statement object should be made available for retrieval.
 
-<dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>executeUpdate</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>sql</code> - must be an SQL INSERT, UPDATE or DELETE statement or an SQL statement that returns nothing</dd><dd style="margin-left: 60px;"><code>autoGeneratedKeys</code> - a flag indicating whether auto-generated keys should be made available for retrieval; one of the following constants: Statement.RETURN_GENERATED_KEYS Statement.NO_GENERATED_KEYS</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">either the row count for INSERT, UPDATE or DELETE statements, or 0 for SQL statements that return nothing</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs, the given SQL statement returns a ResultSet object, or the given constant is not one of those allowed</dd>
+**Specified by:**`executeUpdate` in interface `Statement`
+**Parameters:**`sql` - must be an SQL INSERT, UPDATE or DELETE statement or an SQL statement that returns nothing`autoGeneratedKeys` - a flag indicating whether auto-generated keys should be made available for retrieval; one of the following constants: Statement.RETURN\_GENERATED\_KEYS Statement.NO\_GENERATED\_KEYS
+**Returns:**either the row count for INSERT, UPDATE or DELETE statements, or 0 for SQL statements that return nothing
+**Throws:**`SQLException` - if a database access error occurs, the given SQL statement returns a ResultSet object, or the given constant is not one of those allowed
 
 
-<!--   -->
+
 
 
 #### **execute**
@@ -579,10 +632,14 @@ public boolean execute(String sql, int autoGeneratedKeys)
 
 Executes the given SQL statement, which may return multiple results, and signals the driver that any auto-generated keys should be made available for retrieval. The driver will ignore this signal if the SQL statement is not an INSERT statement. In some (uncommon) situations, a single SQL statement may return multiple result sets and/or update counts. Normally you can ignore this unless you are (1) executing a stored procedure that you know may return multiple results or (2) you are dynamically executing an unknown SQL string. The execute method executes an SQL statement and indicates the form of the first result. You must then use the methods getResultSet or getUpdateCount to retrieve the result, and getMoreResults to move to any subsequent result(s).
 
-<dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>execute</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>sql</code> - any SQL statement</dd><dd style="margin-left: 60px;"><code>autoGeneratedKeys</code> - a constant indicating whether auto-generated keys should be made available for retrieval using the method getGeneratedKeys; one of the following constants: Statement.RETURN_GENERATED_KEYS or Statement.NO_GENERATED_KEYS</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">true if the first result is a ResultSet object; false if it is an update count or there are no results</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the second parameter supplied to this method is not Statement.RETURN_GENERATED_KEYS or Statement.NO_GENERATED_KEYS.</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getResultSet--" title="class or interface in java.sql"><code>Statement.getResultSet()</code></a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getUpdateCount--" title="class or interface in java.sql"><code>Statement.getUpdateCount()</code></a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getMoreResults--" title="class or interface in java.sql"><code>Statement.getMoreResults()</code></a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getGeneratedKeys--" title="class or interface in java.sql"><code>Statement.getGeneratedKeys()</code></a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#execute-java.lang.String-int-" title="class or interface in java.sql"><code>Statement.execute(java.lang.String, int)</code></a></dd>
+**Specified by:**`execute` in interface `Statement`
+**Parameters:**`sql` - any SQL statement`autoGeneratedKeys` - a constant indicating whether auto-generated keys should be made available for retrieval using the method getGeneratedKeys; one of the following constants: Statement.RETURN\_GENERATED\_KEYS or Statement.NO\_GENERATED\_KEYS
+**Returns:**true if the first result is a ResultSet object; false if it is an update count or there are no results
+**Throws:**`SQLException` - if a database access error occurs or the second parameter supplied to this method is not Statement.RETURN\_GENERATED\_KEYS or Statement.NO\_GENERATED\_KEYS.
+**See Also:**[`Statement.getResultSet()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getResultSet-- "class or interface in java.sql"), [`Statement.getUpdateCount()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getUpdateCount-- "class or interface in java.sql"), [`Statement.getMoreResults()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getMoreResults-- "class or interface in java.sql"), [`Statement.getGeneratedKeys()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getGeneratedKeys-- "class or interface in java.sql"), [`Statement.execute(java.lang.String, int)`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#execute-java.lang.String-int- "class or interface in java.sql")
 
 
-<!--   -->
+
 
 
 #### **executeUpdate**
@@ -593,9 +650,12 @@ public int executeUpdate(String sql, int[] columnIndexes)
 ```
 
 Executes the given SQL statement and signals the driver that the auto-generated keys indicated in the given array should be made available for retrieval. The driver will ignore the array if the SQL statement is not an INSERT statement.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>executeUpdate</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>sql</code> - an SQL INSERT, UPDATE or DELETE statement or an SQL statement that returns nothing, such as an SQL DDL statement</dd><dd style="margin-left: 60px;"><code>columnIndexes</code> - an array of column indexes indicating the columns that should be returned from the inserted row</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">either the row count for INSERT, UPDATE, or DELETE statements, or 0 for SQL statements that return nothing</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs, the SQL statement returns a ResultSet object, or the second argument supplied to this method is not an int array whose elements are valid column indexes</dd></dl>
+**Specified by:**`executeUpdate` in interface `Statement`
+**Parameters:**`sql` - an SQL INSERT, UPDATE or DELETE statement or an SQL statement that returns nothing, such as an SQL DDL statement`columnIndexes` - an array of column indexes indicating the columns that should be returned from the inserted row
+**Returns:**either the row count for INSERT, UPDATE, or DELETE statements, or 0 for SQL statements that return nothing
+**Throws:**`SQLException` - if a database access error occurs, the SQL statement returns a ResultSet object, or the second argument supplied to this method is not an int array whose elements are valid column indexes
 
-<!--   -->
+
 
 
 #### **execute**
@@ -607,10 +667,14 @@ public boolean execute(String sql, int[] columnIndexes)
 
 Executes the given SQL statement, which may return multiple results, and signals the driver that the auto-generated keys indicated in the given array should be made available for retrieval. This array contains the indexes of the columns in the target table that contain the auto-generated keys that should be made available. The driver will ignore the array if the given SQL statement is not an INSERT statement. Under some (uncommon) situations, a single SQL statement may return multiple result sets and/or update counts. Normally you can ignore this unless you are (1) executing a stored procedure that you know may return multiple results or (2) you are dynamically executing an unknown SQL string. The execute method executes an SQL statement and indicates the form of the first result. You must then use the methods getResultSet or getUpdateCount to retrieve the result, and getMoreResults to move to any subsequent result(s).
 
-<dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>execute</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>sql</code> - any SQL statement</dd><dd style="margin-left: 60px;"><code>columnIndexes</code> - an array of the indexes of the columns in the inserted row that should be made available for retrieval by a call to the method getGeneratedKeys</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">true if the first result is a ResultSet object; false if it is an update count or there are no results</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the elements in the int array passed to this method are not valid column indexes</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getResultSet--" title="class or interface in java.sql"><code>Statement.getResultSet()</code></a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getUpdateCount--" title="class or interface in java.sql"><code>Statement.getUpdateCount()</code></a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getMoreResults--" title="class or interface in java.sql"><code>Statement.getMoreResults()</code></a></dd>
+**Specified by:**`execute` in interface `Statement`
+**Parameters:**`sql` - any SQL statement`columnIndexes` - an array of the indexes of the columns in the inserted row that should be made available for retrieval by a call to the method getGeneratedKeys
+**Returns:**true if the first result is a ResultSet object; false if it is an update count or there are no results
+**Throws:**`SQLException` - if a database access error occurs or the elements in the int array passed to this method are not valid column indexes
+**See Also:**[`Statement.getResultSet()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getResultSet-- "class or interface in java.sql"), [`Statement.getUpdateCount()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getUpdateCount-- "class or interface in java.sql"), [`Statement.getMoreResults()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getMoreResults-- "class or interface in java.sql")
 
 
-<!--   -->
+
 
 
 #### **getConnection**
@@ -622,10 +686,12 @@ public Connection getConnection()
 
 Retrieves the Connection object that produced this Statement object.
 
-<dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getConnection</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the connection that produced this statement</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+**Specified by:**`getConnection` in interface `Statement`
+**Returns:**the connection that produced this statement
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **getGeneratedKeys**
@@ -635,10 +701,13 @@ public ResultSet getGeneratedKeys()
                            throws SQLException
 ```
 
-Retrieves any auto-generated keys created as a result of executing this Statement object. If this Statement object did not generate any keys, an empty ResultSet object is returned.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getGeneratedKeys</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>a ResultSet object containing the auto-generated key(s) generated by the execution of this Statement object</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd>
+Retrieves any auto-generated keys created as a result of executing this Statement object. If this Statement object did not generate any keys, an empty ResultSet object is returned.
+**Specified by:**`getGeneratedKeys` in interface `Statement`
+**Returns:**a ResultSet object containing the auto-generated key(s) generated by the execution of this Statement object
+**Throws:**`SQLException` - - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **getResultSet**
@@ -648,10 +717,13 @@ public ResultSet getResultSet()
                        throws SQLException
 ```
 
-Retrieves the current result as a ResultSet object. This method should be called only once per result.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getResultSet</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>the current result as a ResultSet object or null if the result is an update count or there are no more results</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves the current result as a ResultSet object. This method should be called only once per result.
+**Specified by:**`getResultSet` in interface `Statement`
+**Returns:**the current result as a ResultSet object or null if the result is an update count or there are no more results
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **getWarnings**
@@ -661,10 +733,13 @@ public SQLWarning getWarnings()
                        throws SQLException
 ```
 
-Retrieves the first warning reported by calls on this Statement object. Subsequent Statement object warnings will be chained to this SQLWarning object. The warning chain is automatically cleared each time a statement is (re)executed. This method may not be called on a closed Statement object; doing so will cause an SQLException to be thrown. Note: If you are processing a ResultSet object, any warnings associated with reads on that ResultSet object will be chained on it rather than on the Statement object that produced it.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getWarnings</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>the first SQLWarning object or null if there are no warnings</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or this method is called on a closed statement</dd>
+Retrieves the first warning reported by calls on this Statement object. Subsequent Statement object warnings will be chained to this SQLWarning object. The warning chain is automatically cleared each time a statement is (re)executed. This method may not be called on a closed Statement object; doing so will cause an SQLException to be thrown. Note: If you are processing a ResultSet object, any warnings associated with reads on that ResultSet object will be chained on it rather than on the Statement object that produced it.
+**Specified by:**`getWarnings` in interface `Statement`
+**Returns:**the first SQLWarning object or null if there are no warnings
+**Throws:**`SQLException` - if a database access error occurs or this method is called on a closed statement
 
 
-<!--   -->
+
 
 
 #### **executeUpdate**
@@ -674,10 +749,14 @@ public int executeUpdate(String sql, String[] columnNames)
                   throws SQLException
 ```
 
-Executes the given SQL statement and signals the driver that the auto-generated keys indicated in the given array should be made available for retrieval. The driver will ignore the array if the SQL statement is not an INSERT statement.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>executeUpdate</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>sql</code> - an SQL INSERT, UPDATE or DELETE statement or an SQL statement that returns nothing</dd><dd style="margin-left: 20px;"><code>columnNames</code> - an array of the names of the columns that should be returned from the inserted row</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>either the row count for INSERT, UPDATE, or DELETE statements, or 0 for SQL statements that return nothing</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs, the SQL statement returns a ResultSet object, or the second argument supplied to this method is not a String array whose elements are valid column names</dd>
+Executes the given SQL statement and signals the driver that the auto-generated keys indicated in the given array should be made available for retrieval. The driver will ignore the array if the SQL statement is not an INSERT statement.
+**Specified by:**`executeUpdate` in interface `Statement`
+**Parameters:**`sql` - an SQL INSERT, UPDATE or DELETE statement or an SQL statement that returns nothing`columnNames` - an array of the names of the columns that should be returned from the inserted row
+**Returns:**either the row count for INSERT, UPDATE, or DELETE statements, or 0 for SQL statements that return nothing
+**Throws:**`SQLException` - if a database access error occurs, the SQL statement returns a ResultSet object, or the second argument supplied to this method is not a String array whose elements are valid column names
 
 
-<!--   -->
+
 
 
 #### **execute**
@@ -687,10 +766,15 @@ public boolean execute(String sql, String[] columnNames)
                 throws SQLException
 ```
 
-Executes the given SQL statement, which may return multiple results, and signals the driver that the auto-generated keys indicated in the given array should be made available for retrieval. This array contains the names of the columns in the target table that contain the auto-generated keys that should be made available. The driver will ignore the array if the given SQL statement is not an INSERT statement. In some (uncommon) situations, a single SQL statement may return multiple result sets and/or update counts. Normally you can ignore this unless you are (1) executing a stored procedure that you know may return multiple results or (2) you are dynamically executing an unknown SQL string. The execute method executes an SQL statement and indicates the form of the first result. You must then use the methods getResultSet or getUpdateCount to retrieve the result, and getMoreResults to move to any subsequent result(s).<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>execute</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>sql</code> - any SQL statement</dd><dd style="margin-left: 20px;"><code>columnNames</code> - an array of the names of the columns in the inserted row that should be made available for retrieval by a call to the method getGeneratedKeys</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>true if the next result is a ResultSet object; false if it is an update count or there are no more results</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the elements of the String array passed to this method are not valid column names</dd><dt><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getResultSet--" title="class or interface in java.sql"><code>Statement.getResultSet()</code></a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getUpdateCount--" title="class or interface in java.sql"><code>Statement.getUpdateCount()</code></a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getMoreResults--" title="class or interface in java.sql"><code>Statement.getMoreResults()</code></a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getGeneratedKeys--" title="class or interface in java.sql"><code>Statement.getGeneratedKeys()</code></a></dd>
+Executes the given SQL statement, which may return multiple results, and signals the driver that the auto-generated keys indicated in the given array should be made available for retrieval. This array contains the names of the columns in the target table that contain the auto-generated keys that should be made available. The driver will ignore the array if the given SQL statement is not an INSERT statement. In some (uncommon) situations, a single SQL statement may return multiple result sets and/or update counts. Normally you can ignore this unless you are (1) executing a stored procedure that you know may return multiple results or (2) you are dynamically executing an unknown SQL string. The execute method executes an SQL statement and indicates the form of the first result. You must then use the methods getResultSet or getUpdateCount to retrieve the result, and getMoreResults to move to any subsequent result(s).
+**Specified by:**`execute` in interface `Statement`
+**Parameters:**`sql` - any SQL statement`columnNames` - an array of the names of the columns in the inserted row that should be made available for retrieval by a call to the method getGeneratedKeys
+**Returns:**true if the next result is a ResultSet object; false if it is an update count or there are no more results
+**Throws:**`SQLException` - if a database access error occurs or the elements of the String array passed to this method are not valid column names
+**See Also:**[`Statement.getResultSet()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getResultSet-- "class or interface in java.sql"), [`Statement.getUpdateCount()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getUpdateCount-- "class or interface in java.sql"), [`Statement.getMoreResults()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getMoreResults-- "class or interface in java.sql"), [`Statement.getGeneratedKeys()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getGeneratedKeys-- "class or interface in java.sql")
 
 
-<!--   -->
+
 
 
 #### **executeQuery**
@@ -700,6 +784,10 @@ public ResultSet executeQuery(String sql)
                        throws SQLException
 ```
 
-Executes the given SQL statement, which returns a single ResultSet object.<dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>executeQuery</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>sql</code> - - an SQL statement to be sent to the database, typically a static SQL SELECT statement</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">a ResultSet object that contains the data produced by the given query; never null</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the given SQL statement produce anything other than a single ResultSet object</dd>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+Executes the given SQL statement, which returns a single ResultSet object.
+**Specified by:**`executeQuery` in interface `Statement`
+**Parameters:**`sql` - - an SQL statement to be sent to the database, typically a static SQL SELECT statement
+**Returns:**a ResultSet object that contains the data produced by the given query; never null
+**Throws:**`SQLException` - if a database access error occurs or the given SQL statement produce anything other than a single ResultSet object
+
+

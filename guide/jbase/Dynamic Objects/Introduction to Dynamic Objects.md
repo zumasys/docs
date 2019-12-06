@@ -50,7 +50,7 @@ obj = new object("Classname")
 myarray = new array("Arrayname")
 ```
 
-Instances of objects and arrays are initially void unless properties have been assigned by a <u><a href="dynamic-objects-object-creation" title="">constructor</a></u>.
+Instances of objects and arrays are initially void unless properties have been assigned by a [constructor](dynamic-objects-object-creation).
 
 Class names are only necessary if you intend to create methods for the Class or Array, e.g.
 

@@ -100,7 +100,7 @@ SAVESTACK
 
 No.  We recommend visiting the knowledgebase:
 
-<u><a href="http://www.jbase.com/support/knowledgebase/">http://www.jbase.com/support/knowledgebase/</a></u>
+[http://www.jbase.com/support/knowledgebase/](http://www.jbase.com/support/knowledgebase/)
 
 
 

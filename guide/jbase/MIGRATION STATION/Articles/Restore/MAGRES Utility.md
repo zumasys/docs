@@ -34,9 +34,9 @@ The utility will create data files and subdirectories in the current working dir
 ### EXAMPLE
 
 
-| <samp>mkdir restoredir</samp><br> | Create restore directory<br> |
-| <samp>cd restoredir</samp><br> | Change to restore directory<br> |
-| <samp>T-ATT DAT0 LABEL=NONE SIZE=4096</samp><br> | Attach device with label identification suppressed<br> |
-| <samp>T-FWD</samp><br> | Skip first tape file<br> |
-| <samp>magres -Q</samp><br> | Restore data<br> |
+| mkdir restoredir<br> | Create restore directory<br> |
+| cd restoredir<br> | Change to restore directory<br> |
+| T-ATT DAT0 LABEL=NONE SIZE=4096<br> | Attach device with label identification suppressed<br> |
+| T-FWD<br> | Skip first tape file<br> |
+| magres -Q<br> | Restore data<br> |
 

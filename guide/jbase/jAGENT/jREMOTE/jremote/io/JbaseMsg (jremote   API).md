@@ -3,24 +3,11 @@
 **Created At:** 9/25/2017 11:51:26 AM  
 **Updated At:** 2/15/2018 8:02:59 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="JbaseMsg (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":6,"i2":6,"i3":10,"i4":6,"i5":6,"i6":6,"i7":6,"i8":6,"i9":6,"i10":6,"i11":6,"i12":6,"i13":6,"i14":6,"i15":6,"i16":6,"i17":6,"i18":6,"i19":6,"i20":6,"i21":10,"i22":6,"i23":6,"i24":6,"i25":6,"i26":6,"i27":6,"i28":6,"i29":6,"i30":6,"i31":6,"i32":6,"i33":6,"i34":6,"i35":6,"i36":6,"i37":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JbaseMsg (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":6,"i2":6,"i3":10,"i4":6,"i5":6,"i6":6,"i7":6,"i8":6,"i9":6,"i10":6,"i11":6,"i12":6,"i13":6,"i14":6,"i15":6,"i16":6,"i17":6,"i18":6,"i19":6,"i20":6,"i21":10,"i22":6,"i23":6,"i24":6,"i25":6,"i26":6,"i27":6,"i28":6,"i29":6,"i30":6,"i31":6,"i32":6,"i33":6,"i34":6,"i35":6,"i36":6,"i37":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39250-io/com_jbase_jremote_io_package-summary)
 - Class
@@ -43,15 +30,7 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -64,8 +43,7 @@ jremote <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= --><!-- ======== START OF CLASS DATA ======== -->
+
 com.jbase.jremote.io
 
 ## Class JbaseMsg
@@ -94,25 +72,21 @@ This is the base message class for jBASE messages.  This class<br> has knowledge
 
 ## Data
 <br>   .-------------------------------+-------------------------------.<br>   | Data \* (see data length)                                      |<br>   `---------------------------------------------------------------'<br>
-<dl><dt><span class="simpleTagLabel">Author:</span></dt>
-<dd>aphethean</dd></dl>
+Author:aphethean
 
-- <!-- ======== CONSTRUCTOR SUMMARY ======== -->
-    - <!--   -->
-### Constructor Summary
+- - ### Constructor Summary
 
 
-<caption><span>Constructors</span><span class="tabEnd"> </span></caption>| Constructor and Description |
+Constructors | Constructor and Description |
 | --- |
 | `JbaseMsg()`  |
 | `JbaseMsg(byte[] message)`  |
 
-<!-- ========== METHOD SUMMARY =========== -->
-    - <!--   -->
-### Method Summary
+
+    - ### Method Summary
 
 
-<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd"> </span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd"> </span></span><span id="t3" class="tableTab"><span><a href="javascript:show(4);">Abstract Methods</a></span><span class="tabEnd"> </span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">Concrete Methods</a></span><span class="tabEnd"> </span></span></caption>| Modifier and Type | Method and Description |
+All Methods [Instance Methods](javascript:show%282%29;) [Abstract Methods](javascript:show%284%29;) [Concrete Methods](javascript:show%288%29;) | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected void` | `construct(byte[] message)`  |
 | `abstract byte[]` | `getBuffer()`  |
@@ -154,299 +128,294 @@ This is the base message class for jBASE messages.  This class<br> has knowledge
 | `protected byte[]` | `toBytes()`  |
 
 
-        - <!--   -->
-### Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
+        - ### Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-- <!-- ========= CONSTRUCTOR DETAIL ======== -->
-    - <!--   -->
-### Constructor Detail
-<!--   -->
+- - ### Constructor Detail
+
         - #### JbaseMsg
 
 ```
 public JbaseMsg()
 ```
 
-<!--   -->
+
         - #### JbaseMsg
 
 ```
 public JbaseMsg(byte[] message)
 ```
 
-<!-- ============ METHOD DETAIL ========== -->
-    - <!--   -->
-### Method Detail
-<!--   -->
+
+    - ### Method Detail
+
         - #### getMagic
 
 ```
 public abstract int getMagic()
 ```
 
-<!--   -->
+
         - #### getFunction
 
 ```
 public abstract int getFunction()
 ```
 
-<!--   -->
+
         - #### getError
 
 ```
 public abstract int getError()
 ```
 
-<!--   -->
+
         - #### getUser0
 
 ```
 public abstract int getUser0()
 ```
 
-<!--   -->
+
         - #### getUser1
 
 ```
 public abstract int getUser1()
 ```
 
-<!--   -->
+
         - #### getUser2
 
 ```
 public abstract int getUser2()
 ```
 
-<!--   -->
+
         - #### getUser3
 
 ```
 public abstract int getUser3()
 ```
 
-<!--   -->
+
         - #### getUser4
 
 ```
 public abstract int getUser4()
 ```
 
-<!--   -->
+
         - #### getUser5
 
 ```
 public abstract int getUser5()
 ```
 
-<!--   -->
+
         - #### getUser6
 
 ```
 public abstract int getUser6()
 ```
 
-<!--   -->
+
         - #### getUser7
 
 ```
 public abstract int getUser7()
 ```
 
-<!--   -->
+
         - #### getUser8
 
 ```
 public abstract int getUser8()
 ```
 
-<!--   -->
+
         - #### getUser9
 
 ```
 public abstract int getUser9()
 ```
 
-<!--   -->
+
         - #### getUser10
 
 ```
 public abstract int getUser10()
 ```
 
-<!--   -->
+
         - #### getUser11
 
 ```
 public abstract int getUser11()
 ```
 
-<!--   -->
+
         - #### getBuffer
 
 ```
 public abstract byte[] getBuffer()
 ```
 
-<!--   -->
+
         - #### getData
 
 ```
 public abstract byte[] getData()
 ```
 
-<!--   -->
+
         - #### setMagic
 
 ```
 public abstract void setMagic(int m)
 ```
 
-<!--   -->
+
         - #### setFunction
 
 ```
 public abstract void setFunction(int f)
 ```
 
-<!--   -->
+
         - #### setError
 
 ```
 public abstract void setError(int e)
 ```
 
-<!--   -->
+
         - #### setUser0
 
 ```
 public abstract void setUser0(int u)
 ```
 
-<!--   -->
+
         - #### setUser1
 
 ```
 public abstract void setUser1(int u)
 ```
 
-<!--   -->
+
         - #### setUser2
 
 ```
 public abstract void setUser2(int u)
 ```
 
-<!--   -->
+
         - #### setUser3
 
 ```
 public abstract void setUser3(int u)
 ```
 
-<!--   -->
+
         - #### setUser4
 
 ```
 public abstract void setUser4(int u)
 ```
 
-<!--   -->
+
         - #### setUser5
 
 ```
 public abstract void setUser5(int u)
 ```
 
-<!--   -->
+
         - #### setUser6
 
 ```
 public abstract void setUser6(int u)
 ```
 
-<!--   -->
+
         - #### setUser7
 
 ```
 public abstract void setUser7(int u)
 ```
 
-<!--   -->
+
         - #### setUser8
 
 ```
 public abstract void setUser8(int u)
 ```
 
-<!--   -->
+
         - #### setUser9
 
 ```
 public abstract void setUser9(int u)
 ```
 
-<!--   -->
+
         - #### setUser10
 
 ```
 public abstract void setUser10(int u)
 ```
 
-<!--   -->
+
         - #### setUser11
 
 ```
 public abstract void setUser11(int u)
 ```
 
-<!--   -->
+
         - #### setBuffer
 
 ```
 public abstract void setBuffer(byte[] buffer)
 ```
 
-<!--   -->
+
         - #### setData
 
 ```
 public abstract void setData(byte[] data)
 ```
 
-<!--   -->
+
         - #### setDataLength
 
 ```
 public void setDataLength(int length)
 ```
 
-<!--   -->
+
         - #### getDataLength
 
 ```
 public int getDataLength()
 ```
 
-<!--   -->
+
         - #### toBytes
 
 ```
 protected byte[] toBytes()
 ```
 
-<!--   -->
+
         - #### construct
 
 ```
 protected void construct(byte[] message)
 ```
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39250-io/com_jbase_jremote_io_package-summary)
 - Class
@@ -469,15 +438,7 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -490,6 +451,5 @@ jremote <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

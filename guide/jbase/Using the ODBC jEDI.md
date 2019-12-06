@@ -38,7 +38,7 @@ To generate a valid csv mapping file, and map it into your desired *RDBMS,*do th
 
 ### Note
 
-You can create other dictionaries for reporting purposes but you should use <u>S</u> (for classic PICK style) or <u>V</u> / <u>I</u> for Prime/Universe style.
+You can create other dictionaries for reporting purposes but you should use S (for classic PICK style) or V / I for Prime/Universe style.
 
 3. **jCreateCSV****{-O} -D*type* *filename* *table**name*****.csv**
 

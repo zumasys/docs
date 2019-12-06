@@ -3,18 +3,11 @@
 **Created At:** 9/25/2017 10:46:48 AM  
 **Updated At:** 2/15/2018 8:02:49 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="Uses of Interface com.jbase.jdbc.io.JBaseObjectReader (jbasejdbc   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Interface com.jbase.jdbc.io.JBaseObjectReader (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../overview-summary.html)
 - [Package](/39232-io/com_jbase_jdbc_io_package-summary)
 - [Class](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io")
@@ -37,29 +30,19 @@ jbasejdbc <br>
 - [All Classes](../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 ## Uses of Interface
 com.jbase.jdbc.io.JBaseObjectReader
 
-- <caption><span>Packages that use <a href="/39232-io/com_jbase_jdbc_io_jbaseobjectreader" title="interface in com.jbase.jdbc.io">JBaseObjectReader</a></span><span class="tabEnd"> </span></caption>| Package | Description |
+- Packages that use [JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.io |   |
 | com.jbase.jdbc.protocol |   |
-- - <!--   -->
-### Uses of [JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary)
+- - ### Uses of [JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary)
 
 
-<caption><span>Classes in <a href="/39232-io/com_jbase_jdbc_io_package-summary">com.jbase.jdbc.io</a> that implement <a href="/39232-io/com_jbase_jdbc_io_jbaseobjectreader" title="interface in com.jbase.jdbc.io">JBaseObjectReader</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Class and Description |
+Classes in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) that implement [JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `AbstractJBaseObjectReader`<br>Deserializes JBaseSerializable objects sent from the jbase\_agent server,<br> or any other source of serialized JCF objects.<br> |
 | `class` | `IOJBaseObjectReader`<br>jBase object reader based on the DataInputStream.<br> |
@@ -67,17 +50,16 @@ com.jbase.jdbc.io.JBaseObjectReader
 
 
 
-<caption><span>Methods in <a href="/39232-io/com_jbase_jdbc_io_package-summary">com.jbase.jdbc.io</a> with parameters of type <a href="/39232-io/com_jbase_jdbc_io_jbaseobjectreader" title="interface in com.jbase.jdbc.io">JBaseObjectReader</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) with parameters of type [JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | SQLError.`readObject(JBaseObjectReader reader,<br>          int version)`<br>Method :                readObject()<br><br> Description:   Read object off the wire.<br> |
 | `void` | OKResponse.`readObject(JBaseObjectReader reader,<br>          int version)`  |
 | `void` | JBaseSerializable.`readObject(JBaseObjectReader reader,<br>          int version)`  |
 | `void` | ErrorResponse.`readObject(JBaseObjectReader reader,<br>          int version)`  |
-    - <!--   -->
-### Uses of [JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+    - ### Uses of [JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
 
 
-<caption><span>Methods in <a href="/39240-protocol/com_jbase_jdbc_protocol_package-summary">com.jbase.jdbc.protocol</a> with parameters of type <a href="/39232-io/com_jbase_jdbc_io_jbaseobjectreader" title="interface in com.jbase.jdbc.io">JBaseObjectReader</a></span><span class="tabEnd"> </span></caption>| Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary) with parameters of type [JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | TransactionStartRequest.`readObject(JBaseObjectReader reader,<br>          int version)`  |
 | `void` | TransactionRequest.`readObject(JBaseObjectReader reader,<br>          int version)`  |
@@ -107,10 +89,9 @@ com.jbase.jdbc.io.JBaseObjectReader
 | `void` | AuthenticationRequest.UserCredentials.`readObject(JBaseObjectReader reader,<br>          int version)`  |
 | `void` | AccountAuthenticationRequest.`readObject(JBaseObjectReader reader,<br>          int version)`  |
 | `void` | AccountAuthenticationRequest.AccountUserCredentials.`readObject(JBaseObjectReader reader,<br>          int version)`  |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../overview-summary.html)
 - [Package](/39232-io/com_jbase_jdbc_io_package-summary)
 - [Class](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io")
@@ -133,15 +114,6 @@ jbasejdbc <br>
 - [All Classes](../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

@@ -3,10 +3,11 @@
 **Created At:** 9/25/2017 10:56:19 AM  
 **Updated At:** 2/15/2018 8:02:45 AM  
 
-<noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../overview-summary.html)
 - [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
 - Class
@@ -28,10 +29,6 @@ jbasejdbc <br>
 
 - [All Classes](../../../allclasses-noframe.html)
 
-
-
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
 # Hierarchy For Package com.jbase.jdbc
 Package Hierarchies:
 - [All Packages](../../../overview-tree.html)
@@ -59,10 +56,9 @@ Package Hierarchies:
 
 - com.jbase.jdbc.[JBaseJDBCDriverConstants](/39228-jdbc/com_jbase_jdbc_JBaseJDBCDriverConstants "interface in com.jbase.jdbc")
 - com.jbase.jdbc.[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc")
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../overview-summary.html)
 - [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
 - Class
@@ -84,8 +80,4 @@ jbasejdbc <br>
 
 - [All Classes](../../../allclasses-noframe.html)
 
-
-
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

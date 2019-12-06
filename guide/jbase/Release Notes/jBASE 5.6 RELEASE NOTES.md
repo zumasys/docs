@@ -38,7 +38,7 @@ Get built-in data security and protection with the standard jBASE product for no
 
 3rd Party Components
 
-The jBASE 5.6 installation process includes installation of the following 3<sup>rd</sup> party components.
+The jBASE 5.6 installation process includes installation of the following 3rd party components.
 
 JAVA RUNTIME ENGINE
 

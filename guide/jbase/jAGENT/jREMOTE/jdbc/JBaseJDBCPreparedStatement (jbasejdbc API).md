@@ -3,30 +3,27 @@
 **Created At:** 9/25/2017 10:55:33 AM  
 **Updated At:** 8/17/2018 2:25:53 AM  
 
-<noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+&amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;gt;
 # Class JBaseJDBCPreparedStatement
 
-<dl><dt>All Implemented Interfaces:</dt><dd><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals" title="interface in com.jbase.jdbc">JBaseJDBCGlobals</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true" title="class or interface in java.lang">AutoCloseable</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true" title="class or interface in java.sql">Wrapper</a></dd></dl><dl><dt>Direct Known Subclasses:</dt><dd><a href="/39228-jdbc/com_jbase_jdbc_JbaseJDBCCallableStatement" title="class in com.jbase.jdbc">JbaseJDBCCallableStatement</a></dd></dl>
+All Implemented Interfaces:[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc"), [AutoCloseable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true "class or interface in java.lang"), [PreparedStatement](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true "class or interface in java.sql"), [Statement](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true "class or interface in java.sql"), [Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")Direct Known Subclasses:[JbaseJDBCCallableStatement](/39228-jdbc/com_jbase_jdbc_JbaseJDBCCallableStatement "class in com.jbase.jdbc")
 ```
 public class JBaseJDBCPreparedStatement
 extends JBaseJDBCSocketStatement
 implements PreparedStatement, JBaseJDBCGlobals
 ```
 
-<!--   -->
-
 # Nested Class Summary
 
-<!--   -->
+
 
 ## Nested classes/interfaces inherited from interface com.jbase.jdbc.JBaseJDBCGlobals
 `JBaseJDBCGlobals.TYPES`
 
 
 
-<!-- =========== FIELD SUMMARY =========== -->
-<!--   -->
+
+
 
 ### 
 
@@ -36,10 +33,10 @@ implements PreparedStatement, JBaseJDBCGlobals
 
 | Modifier and Type<br> | Field and Description<br> |
 | --- | --- |
-<caption>&nbsp;&nbsp;</caption>| `protected ParameterList`<br> | `parameters` <br> |
+  | `protected ParameterList`<br> | `parameters` <br> |
 
 
-<!--   -->
+
 
 ## 
 
@@ -55,12 +52,12 @@ implements PreparedStatement, JBaseJDBCGlobals
 `CLOSE_ALL_RESULTS, CLOSE_CURRENT_RESULT, EXECUTE_FAILED, KEEP_CURRENT_RESULT, NO_GENERATED_KEYS, RETURN_GENERATED_KEYS, SUCCESS_NO_INFO`
 
 
-<!--   -->
+
 
 ## Fields inherited from interface com.jbase.jdbc.JBaseJDBCGlobals
 `AM, CHAR_AM, CHAR_SM, CHAR_VM, SHORT_AM, SHORT_CHAR_AM, SHORT_CHAR_SM, SHORT_CHAR_VM, SHORT_SM, SHORT_VM, SM, VM`
 
-<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+
 # 
 
 
@@ -73,7 +70,7 @@ implements PreparedStatement, JBaseJDBCGlobals
 | JBaseJDBCPreparedStatement([JBaseJDBCSocketConnection](/39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketConnection "class in com.jbase.jdbc") connection, [String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") sql)<br> |
 
 
-<!--   -->
+
 
 # 
 
@@ -130,7 +127,7 @@ implements PreparedStatement, JBaseJDBCGlobals
 | void<br> | setURL(int parameterIndex, [URL](http://java.sun.com/j2se/1.5.0/docs/api/java/net/URL.html?is-external=true "class or interface in java.net") x)<br> | <br> |
 
 
-<!--   -->
+
 
 ### 
 
@@ -141,7 +138,7 @@ implements PreparedStatement, JBaseJDBCGlobals
 
 
 
-<!--   -->
+
 
 ## Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
@@ -149,7 +146,7 @@ implements PreparedStatement, JBaseJDBCGlobals
 
 
 
-<!--   -->
+
 
 ## Methods inherited from interface java.sql.[PreparedStatement](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true "class or interface in java.sql")
 `executeLargeUpdate, setAsciiStream, setAsciiStream, setBinaryStream, setBinaryStream, setBlob, setBlob, setCharacterStream, setCharacterStream, setClob, setClob, setNCharacterStream, setNCharacterStream, setNClob, setNClob, setNClob, setNString, setObject, setObject, setRowId, setSQLXML`
@@ -165,17 +162,15 @@ implements PreparedStatement, JBaseJDBCGlobals
 
 
 
-<!--   -->
+
 
 ## Methods inherited from interface java.sql.[Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")
 `isWrapperFor, unwrap`
 
 
 
-<!--   -->
-
 # Field Detail
-<!--   -->
+
 
 
 #### **parameters**
@@ -188,10 +183,10 @@ protected ParameterList parameters
 
 
 
-<!--   -->
+
 
 # Constructor Detail
-<!--   -->
+
 
 
 #### **JBaseJDBCPreparedStatement**
@@ -200,23 +195,25 @@ protected ParameterList parameters
 public JBaseJDBCPreparedStatement(JBaseJDBCSocketConnection connection)
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+
+**Throws:**`SQLException`
 
 
-<!--   -->
+
 #### JBaseJDBCPreparedStatement
 
 ```
 public JBaseJDBCPreparedStatement(JBaseJDBCSocketConnection connection, String sql)
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!-- ============ METHOD DETAIL ========== -->
-<!--   -->
+**Throws:**`SQLException`
+
+
+
 
 # Method Detail
-<!--   -->
+
 
 
 #### **CRT**
@@ -226,7 +223,7 @@ public static void CRT(String s)
 ```
 
 
-<!--   -->
+
 
 
 #### **main**
@@ -236,7 +233,7 @@ public static void main(String[] args)
 ```
 
 
-<!--   -->
+
 
 
 #### **countParameters**
@@ -246,7 +243,7 @@ protected static int countParameters(String sqlTemplate)
 ```
 
 
-<!--   -->
+
 
 
 #### **executeUpdate**
@@ -257,9 +254,12 @@ public int executeUpdate()
 ```
 
 Executes the SQL statement in this PreparedStatement object, which must be an SQL INSERT, UPDATE or DELETE statement; or an SQL statement that returns nothing, such as a DDL statement.
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>executeUpdate</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">either (1) the row count for INSERT, UPDATE, or DELETE statements or (2) 0 for SQL statements that return nothing</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the SQL statement returns a ResultSet object</dd></dl>
 
-<!--   -->
+**Specified by:**`executeUpdate` in interface `PreparedStatement`
+**Returns:**either (1) the row count for INSERT, UPDATE, or DELETE statements or (2) 0 for SQL statements that return nothing
+**Throws:**`SQLException` - if a database access error occurs or the SQL statement returns a ResultSet object
+
+
 
 
 #### **addBatch**
@@ -268,9 +268,10 @@ Executes the SQL statement in this PreparedStatement object, which must be an SQ
 public void addBatch()
               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>addBatch</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`addBatch` in interface `PreparedStatement`
+Throws:`SQLException`
 
-<!--   -->
+
 
 
 #### clearParameters
@@ -279,9 +280,9 @@ public void addBatch()
 public void clearParameters()
                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true#clearParameters--" title="class or interface in java.sql">clearParameters</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`clearParameters` in interface `PreparedStatement`**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **execute**
@@ -290,9 +291,10 @@ public void clearParameters()
 public boolean execute()
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>execute</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`execute` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getResultSet**
@@ -305,9 +307,12 @@ public ResultSet getResultSet()
 Description copied from class: `JBaseJDBCSocketStatement`
 
 Retrieves the current result as a ResultSet object. This method should be called only once per result.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getResultSet</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Overrides:</strong></span></dt><dd style="margin-left: 40px;"><code>getResultSet</code> in class <code><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketStatement" title="class in com.jbase.jdbc">JBaseJDBCSocketStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the current result as a ResultSet object or null if the result is an update count or there are no more results</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`getResultSet` in interface `Statement`
+**Overrides:**`getResultSet` in class `JBaseJDBCSocketStatement`
+**Returns:**the current result as a ResultSet object or null if the result is an update count or there are no more results
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **execute**
@@ -320,9 +325,13 @@ public boolean execute(String sql)
 Description copied from class: `JBaseJDBCSocketStatement`
 
 Executes the given SQL statement, which may return multiple results. In some (uncommon) situations, a single SQL statement may return multiple result sets and/or update counts. Normally you can ignore this unless you are: (1) executing a stored procedure that you know may return multiple results or (2) you are dynamically executing an unknown SQL string. The execute method executes an SQL statement and indicates the form of the first result. You must then use the methods getResultSet or getUpdateCount to retrieve the result, and getMoreResults to move to any subsequent result(s).
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>execute</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Overrides:</strong></span></dt><dd style="margin-left: 40px;"><code>execute</code> in class <code><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketStatement" title="class in com.jbase.jdbc">JBaseJDBCSocketStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>sql</code> - any SQL statement</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">true if the first result is a ResultSet object; false if it is an update count or there are no results.</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd></dl>
+**Specified by:**`execute` in interface `Statement`
+**Overrides:**`execute` in class `JBaseJDBCSocketStatement`
+**Parameters:**`sql` - any SQL statement
+**Returns:**true if the first result is a ResultSet object; false if it is an update count or there are no results.
+**Throws:**`SQLException` - - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **execute**
@@ -335,9 +344,14 @@ public boolean execute(String sql, int autoGeneratedKeys)
 Description copied from class: `JBaseJDBCSocketStatement`
 
 Executes the given SQL statement, which may return multiple results, and signals the driver that any auto-generated keys should be made available for retrieval. The driver will ignore this signal if the SQL statement is not an INSERT statement. In some (uncommon) situations, a single SQL statement may return multiple result sets and/or update counts. Normally you can ignore this unless you are (1) executing a stored procedure that you know may return multiple results or (2) you are dynamically executing an unknown SQL string. The execute method executes an SQL statement and indicates the form of the first result. You must then use the methods getResultSet or getUpdateCount to retrieve the result, and getMoreResults to move to any subsequent result(s).
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>execute</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Overrides:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketStatement#execute-java.lang.String-int-">execute</a></code> in class <code><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketStatement" title="class in com.jbase.jdbc">JBaseJDBCSocketStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters</strong>:</span></dt><dd style="margin-left: 60px;"><code>sql</code> - any SQL statement</dd><dd style="margin-left: 60px;"><code>autoGeneratedKeys</code> - a constant indicating whether auto-generated keys should be made available for retrieval using the method getGeneratedKeys; one of the following constants: Statement.RETURN_GENERATED_KEYS or Statement.NO_GENERATED_KEYS</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">true if the first result is a ResultSet object; false if it is an update count or there are no results</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the second parameter supplied to this method is not Statement.RETURN_GENERATED_KEYS or Statement.NO_GENERATED_KEYS.</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getResultSet--" title="class or interface in java.sql"><code>Statement.getResultSet()</code></a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getUpdateCount--" title="class or interface in java.sql"><code>Statement.getUpdateCount()</code></a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getMoreResults--" title="class or interface in java.sql"><code>Statement.getMoreResults()</code></a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getGeneratedKeys--" title="class or interface in java.sql"><code>Statement.getGeneratedKeys()</code></a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#execute-java.lang.String-int-" title="class or interface in java.sql"><code>Statement.execute(java.lang.String, int)</code></a></dd></dl>
+**Specified by:**`execute` in interface `Statement`
+**Overrides:**`execute` in class `JBaseJDBCSocketStatement`
+**Parameters**:`sql` - any SQL statement`autoGeneratedKeys` - a constant indicating whether auto-generated keys should be made available for retrieval using the method getGeneratedKeys; one of the following constants: Statement.RETURN\_GENERATED\_KEYS or Statement.NO\_GENERATED\_KEYS
+**Returns:**true if the first result is a ResultSet object; false if it is an update count or there are no results
+**Throws:**`SQLException` - if a database access error occurs or the second parameter supplied to this method is not Statement.RETURN\_GENERATED\_KEYS or Statement.NO\_GENERATED\_KEYS.
+**See Also:**[`Statement.getResultSet()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getResultSet-- "class or interface in java.sql"), [`Statement.getUpdateCount()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getUpdateCount-- "class or interface in java.sql"), [`Statement.getMoreResults()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getMoreResults-- "class or interface in java.sql"), [`Statement.getGeneratedKeys()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getGeneratedKeys-- "class or interface in java.sql"), [`Statement.execute(java.lang.String, int)`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#execute-java.lang.String-int- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### execute
@@ -350,9 +364,14 @@ public boolean execute(String sql, int[] columnIndexes)
 Description copied from class: `JBaseJDBCSocketStatement`
 
 Executes the given SQL statement, which may return multiple results, and signals the driver that the auto-generated keys indicated in the given array should be made available for retrieval. This array contains the indexes of the columns in the target table that contain the auto-generated keys that should be made available. The driver will ignore the array if the given SQL statement is not an INSERT statement. Under some (uncommon) situations, a single SQL statement may return multiple result sets and/or update counts. Normally you can ignore this unless you are (1) executing a stored procedure that you know may return multiple results or (2) you are dynamically executing an unknown SQL string. The execute method executes an SQL statement and indicates the form of the first result. You must then use the methods getResultSet or getUpdateCount to retrieve the result, and getMoreResults to move to any subsequent result(s).
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>execute</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Overrides:</strong></span></dt><dd style="margin-left: 40px;"><code>execute</code> in class <code><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketStatement" title="class in com.jbase.jdbc">JBaseJDBCSocketStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>sql</code> - any SQL statement</dd><dd style="margin-left: 60px;"><code>columnIndexes</code> - an array of the indexes of the columns in the inserted row that should be made available for retrieval by a call to the method getGeneratedKeys</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">true if the first result is a ResultSet object; false if it is an update count or there are no results</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the elements in the int array passed to this method are not valid column indexes</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getResultSet--" title="class or interface in java.sql"><code>Statement.getResultSet()</code></a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getUpdateCount--" title="class or interface in java.sql"><code>Statement.getUpdateCount()</code></a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getMoreResults--" title="class or interface in java.sql"><code>Statement.getMoreResults()</code></a></dd></dl>
+**Specified by:**`execute` in interface `Statement`
+**Overrides:**`execute` in class `JBaseJDBCSocketStatement`
+**Parameters:**`sql` - any SQL statement`columnIndexes` - an array of the indexes of the columns in the inserted row that should be made available for retrieval by a call to the method getGeneratedKeys
+**Returns:**true if the first result is a ResultSet object; false if it is an update count or there are no results
+**Throws:**`SQLException` - if a database access error occurs or the elements in the int array passed to this method are not valid column indexes
+**See Also:**[`Statement.getResultSet()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getResultSet-- "class or interface in java.sql"), [`Statement.getUpdateCount()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getUpdateCount-- "class or interface in java.sql"), [`Statement.getMoreResults()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#getMoreResults-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **close**
@@ -365,9 +384,12 @@ public void close()
 Description copied from class: `JBaseJDBCSocketStatement`
 
 Releases this Statement object's database and JDBC resources immediately instead of waiting for this to happen when it is automatically closed. It is generally good practice to release resources as soon as you are finished with them to avoid tying up database resources. Calling the method close on a Statement object that is already closed has no effect. Note: A Statement object is automatically closed when it is garbage collected [TODO: not yet implemented]. [TODO:] When a Statement object is closed, its current ResultSet object, if one exists, is also closed.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true#close--" title="class or interface in java.lang">close</a></code> in interface <code>AutoCloseable</code></dd><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true#close--" title="class or interface in java.sql">close</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true" title="class or interface in java.sql">Statement</a></code></dd><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Overrides:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketStatement#close--">close</a></code> in class <code><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketStatement" title="class in com.jbase.jdbc">JBaseJDBCSocketStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`close` in interface `AutoCloseable`
+**Specified by:**`close` in interface `Statement`
+**Overrides:**`close` in class `JBaseJDBCSocketStatement`
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **setByte**
@@ -376,9 +398,10 @@ Releases this Statement object's database and JDBC resources immediately instead
 public void setByte(int parameterIndex, byte x)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setByte</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setByte` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setDouble**
@@ -387,9 +410,10 @@ public void setByte(int parameterIndex, byte x)
 public void setDouble(int parameterIndex, double x)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setDouble</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setDouble` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setFloat**
@@ -398,9 +422,10 @@ public void setDouble(int parameterIndex, double x)
 public void setFloat(int parameterIndex, float x)
               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setFloat</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setFloat` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setInt**
@@ -409,9 +434,10 @@ public void setFloat(int parameterIndex, float x)
 public void setInt(int parameterIndex, int x)
             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setInt</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setInt` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setNull**
@@ -420,9 +446,10 @@ public void setInt(int parameterIndex, int x)
 public void setNull(int parameterIndex, int sqlType)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setNull</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setNull` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setLong**
@@ -431,9 +458,10 @@ public void setNull(int parameterIndex, int sqlType)
 public void setLong(int parameterIndex, long x)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setLong</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setLong` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setShort**
@@ -442,9 +470,10 @@ public void setLong(int parameterIndex, long x)
 public void setShort(int parameterIndex, short x)
               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setShort</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setShort` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setBoolean**
@@ -453,9 +482,10 @@ public void setShort(int parameterIndex, short x)
 public void setBoolean(int parameterIndex, boolean x)
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setBoolean</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setBoolean` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setBytes**
@@ -464,9 +494,10 @@ public void setBoolean(int parameterIndex, boolean x)
 public void setBytes(int parameterIndex, byte[] x)
               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setBytes</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setBytes` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setAsciiStream**
@@ -475,9 +506,10 @@ public void setBytes(int parameterIndex, byte[] x)
 public void setAsciiStream(int parameterIndex, InputStream x, int length)
                     throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setAsciiStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setAsciiStream` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setBinaryStream**
@@ -486,9 +518,10 @@ public void setAsciiStream(int parameterIndex, InputStream x, int length)
 public void setBinaryStream(int parameterIndex, InputStream x, int length)
                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setBinaryStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setBinaryStream` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setUnicodeStream**
@@ -497,9 +530,10 @@ public void setBinaryStream(int parameterIndex, InputStream x, int length)
 public void setUnicodeStream(int parameterIndex, InputStream x, int length)
                       throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setUnicodeStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setUnicodeStream` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setCharacterStream**
@@ -508,9 +542,10 @@ public void setUnicodeStream(int parameterIndex, InputStream x, int length)
 public void setCharacterStream(int parameterIndex, Reader reader, int length)
                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 40px;"><code>setCharacterStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+Specified by:`setCharacterStream` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setObject**
@@ -521,9 +556,11 @@ public void setObject(int parameterIndex, Object x)
 ```
 
 Sets the value of the designated parameter using the given object. The second parameter must be of type Object; therefore, the java.lang equivalent objects should be used for built-in types. The JDBC specification specifies a standard mapping from Java Object types to SQL types. The given argument will be converted to the corresponding SQL type before being sent to the database. Note that this method may be used to pass datatabase- specific abstract data types, by using a driver-specific Java type. If the object is of a class implementing the interface SQLData, the JDBC driver should call the method SQLData.writeSQL to write it to the SQL data stream. If, on the other hand, the object is of a class implementing Ref, Blob, Clob, Struct, or Array, the driver should pass it to the database as a value of the corresponding SQL type. This method throws an exception if there is an ambiguity, for example, if the object is of a class implementing more than one of the interfaces named above.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setObject</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>parameterIndex</code> - the first parameter is 1, the second is 2, ...</dd><dd style="margin-left: 60px;"><code>x</code> - the object containing the input parameter value</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the type of the given object is ambiguous</dd></dl>
+**Specified by:**`setObject` in interface `PreparedStatement`
+**Parameters:**`parameterIndex` - the first parameter is 1, the second is 2, ...`x` - the object containing the input parameter value
+**Throws:**`SQLException` - if a database access error occurs or the type of the given object is ambiguous
 
-<!--   -->
+
 
 
 #### **setObject**
@@ -532,9 +569,10 @@ Sets the value of the designated parameter using the given object. The second pa
 public void setObject(int parameterIndex, Object x, int targetSqlType)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setObject</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setObject` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setObject**
@@ -543,9 +581,10 @@ public void setObject(int parameterIndex, Object x, int targetSqlType)
 public void setObject(int parameterIndex, Object x, int targetSqlType, int scale)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setObject</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setObject` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setNull**
@@ -554,9 +593,10 @@ public void setObject(int parameterIndex, Object x, int targetSqlType, int scale
 public void setNull(int parameterIndex, int sqlType, String typeName)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setNull</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setNull` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setString**
@@ -565,9 +605,10 @@ public void setNull(int parameterIndex, int sqlType, String typeName)
 public void setString(int parameterIndex, String x)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setString</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setString` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setBigDecimal**
@@ -576,9 +617,10 @@ public void setString(int parameterIndex, String x)
 public void setBigDecimal(int parameterIndex, BigDecimal x)
                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setBigDecimal</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setBigDecimal` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### setURL
@@ -587,9 +629,10 @@ public void setBigDecimal(int parameterIndex, BigDecimal x)
 public void setURL(int parameterIndex, URL x)
             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setURL</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setURL` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setArray**
@@ -598,9 +641,10 @@ public void setURL(int parameterIndex, URL x)
 public void setArray(int i, Array x)
               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setArray</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setArray` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setBlob**
@@ -609,9 +653,10 @@ public void setArray(int i, Array x)
 public void setBlob(int parameterIndex, Blob x)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setBlob</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setBlob` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setClob**
@@ -620,9 +665,10 @@ public void setBlob(int parameterIndex, Blob x)
 public void setClob(int i, Clob x)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setClob</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setClob` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### setDate
@@ -631,9 +677,10 @@ public void setClob(int i, Clob x)
 public void setDate(int parameterIndex, Date x)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setDate</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setDate` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getParameterMetaData**
@@ -642,9 +689,10 @@ public void setDate(int parameterIndex, Date x)
 public ParameterMetaData getParameterMetaData()
                                        throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getParameterMetaData</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getParameterMetaData` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setRef**
@@ -653,9 +701,10 @@ public ParameterMetaData getParameterMetaData()
 public void setRef(int i, Ref x)
             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setRef</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setRef` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **executeQuery**
@@ -664,9 +713,10 @@ public void setRef(int i, Ref x)
 public ResultSet executeQuery()
                        throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>executeQuery</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`executeQuery` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getMetaData**
@@ -679,9 +729,10 @@ public ResultSetMetaData getMetaData()
 Description copied from class: `JBaseJDBCSocketStatement`
 
 A jBASE JDBC driver's private method.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMetaData</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getMetaData` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setTime**
@@ -690,9 +741,10 @@ A jBASE JDBC driver's private method.
 public void setTime(int parameterIndex, Time x)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setTime</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setTime` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setTimestamp**
@@ -701,9 +753,10 @@ public void setTime(int parameterIndex, Time x)
 public void setTimestamp(int parameterIndex, Timestamp x)
                   throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setTimestamp</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setTimestamp` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setDate**
@@ -714,9 +767,11 @@ public void setDate(int parameterIndex, Date x, Calendar cal)
 ```
 
 Sets the designated parameter to the given java.sql.Date value, using the given Calendar object. The driver uses the Calendar object to construct an SQL DATE value, which the driver then sends to the database. With a Calendar object, the driver can calculate the date taking into account a custom timezone. If no Calendar object is specified, the driver uses the default timezone, which is that of the virtual machine running the application.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setDate</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>parameterIndex</code> - - the first parameter is 1, the second is 2, ...</dd><dd style="margin-left: 60px;"><code>x</code> - - the parameter value</dd><dd style="margin-left: 60px;"><code>cal</code> - - the Calendar object the driver will use to construct the date</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd></dl>
+**Specified by:**`setDate` in interface `PreparedStatement`
+**Parameters:**`parameterIndex` - - the first parameter is 1, the second is 2, ...`x` - - the parameter value`cal` - - the Calendar object the driver will use to construct the date
+**Throws:**`SQLException` - - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **setTime**
@@ -725,9 +780,10 @@ Sets the designated parameter to the given java.sql.Date value, using the given 
 public void setTime(int parameterIndex, Time x, Calendar cal)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setTime</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setTime` in interface `PreparedStatement`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setTimestamp**
@@ -736,4 +792,5 @@ public void setTime(int parameterIndex, Time x, Calendar cal)
 public void setTimestamp(int parameterIndex, Timestamp x, Calendar cal)
                   throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setTimestamp</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true" title="class or interface in java.sql">PreparedStatement</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`setTimestamp` in interface `PreparedStatement`
+**Throws:**`SQLException`

@@ -25,7 +25,11 @@ where :
 
 
 The subroutine can be called as a conversion (attribute 7 of the dictionary item) or as a correlative (attribute 8 of the dictionary item). Data is passed to and from the subroutine with named COMMON elements. In each subroutine the following line must be included:
-<dl><pre>INCLUDE qbasiccommonpick</pre></dl>
+
+```
+INCLUDE qbasiccommonpick
+```
+
 For ex-Sequoia users, It is possible to INCLUDE the file **qbasiccommonseq**, which provides compatibility with that platform.
 
 The INCLUDE file defines the named common that is used by jQL. The named common consists of 2 arrays: ***access*** and ***newpick***.
@@ -64,13 +68,21 @@ By default jBASE will only call a subroutine once per item. This is normally des
 **newpick(12)** - On entry to the subroutine this will contain the value of the data passed from jQL to the subroutine. By default, this will be **all** the *data defined by the calling dictionary item*(i.e. all values and sub values). However if **jql\_mv\_subcall = true**is set, then the subroutine is called for every value/sub value and **newpick(12)** contains just each value or sub value as it is processed.
 
 It is worth noting that a subroutine can be called as part of a multi-valued correlative. For example, the calling dictionary item could look like:
-<dl><samp><pre>&lt;1&gt;S
-&lt;2&gt;17
-&lt;8&gt;F;&quot;ABCD&quot;]CALL SUB1</pre></samp></dl>
+
+```
+<1>S
+<2>17
+<8>F;"ABCD"]CALL SUB1
+```
+
 In this instance, the data defined by the calling dictionary item is "ABCD". But if the calling dictionary item is...
-<dl><samp><pre>&lt;1&gt;S
-&lt;2&gt;17
-&lt;8&gt;CALL SUB1</pre></samp></dl>
+
+```
+<1>S
+<2>17
+<8>CALL SUB1
+```
+
 ...then the data passed to the subroutine in newpick(12) is simply the contents of attribute 17 of the current item, which may be multi/sub valued.
 
 On exit of the subroutine, newpick(12) contains the value used by jQL.

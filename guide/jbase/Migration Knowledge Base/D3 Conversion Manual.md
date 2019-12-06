@@ -64,11 +64,11 @@ jspform\_deflt\_mmddyy\_hhmmss copy of prior jspform\_deflt(s)
 
 
 
-*<u>YourMachineName\</u>*    - This would be an entity or a company’s “virtual machine” directory
+*YourMachineName\*    - This would be an entity or a company’s “virtual machine” directory
 
 Created using D3.MAKE.MACHINE
 
-Synonymous with the SYSPROG/DM account for *<u>YourMachineName</u>*
+Synonymous with the SYSPROG/DM account for *YourMachineName*
 
 This directory will contain:
 
@@ -92,7 +92,7 @@ POINTER-FILE – List file for machine if “machine” based lists
 
 Backup of the MACHINES directory tree will backup all entity related data.
 
-Entities (as *<u>YourMachineName</u>*) represent actual physical machines in the Multi-Value arena complete with SYSTEM and SYSPROG/DM Account.
+Entities (as *YourMachineName*) represent actual physical machines in the Multi-Value arena complete with SYSTEM and SYSPROG/DM Account.
 
 You can have multiple entities “virtual machines” on one physical server.
 
@@ -211,7 +211,7 @@ All files are located using the MD and/or JEDIFILEPATH. In traditional D3 you ca
 
 Example:
 
-With the environment variable set: (if *<u>YourMachineName</u>* was AMC and you were in the AR1 Account)
+With the environment variable set: (if *YourMachineName* was AMC and you were in the AR1 Account)
 
 JEDIFILEPATH = .;C:\JBASE5\D3MACHINES\AMC\AR2;C:JBASE5\D3MACHINES\AMC\AR3
 
@@ -309,9 +309,9 @@ c:\...&gt; **D3.MACH.DEF &lt;Enter&gt;**
 
 ### *5. Create the “MACHINE” using D3.MAKE.MACHINE*
 
-c:\...&gt;**D3.MAKE.MACHINE &lt;Enter&gt; *(<u>YourMachineName</u> = \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ )***
+c:\...&gt;**D3.MAKE.MACHINE &lt;Enter&gt; *(YourMachineName = \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ )***
 
-Machine Name :***<u>YourMachineName</u>*****&lt;Enter&gt;**
+Machine Name :***YourMachineName*****&lt;Enter&gt;**
 
 Machine Parent Directory (&lt;Enter&gt; = C:\jBASE5\D3MACHINES) :**&lt;Enter&gt;**
 
@@ -359,9 +359,9 @@ Password:**password (not echoed) &lt;Enter&gt;**
 
 ### 8. Attach the tape drive (see TAPE section for details)
 
-***<u>C:\tmp\D3pseudofloppy</u>*** would be the full path to the D3 backup file.  If this is “compressed” on D3, then you would need to gunzip it prior to attaching it.
+***C:\tmp\D3pseudofloppy*** would be the full path to the D3 backup file.  If this is “compressed” on D3, then you would need to gunzip it prior to attaching it.
 
-jsh.. à**T-ATT FILE1 DEVICE=*<u>C:\TMP\D3pseudofloppy</u>* {LABEL=R83,500} &lt;Enter&gt;**
+jsh.. à**T-ATT FILE1 DEVICE=*C:\TMP\D3pseudofloppy* {LABEL=R83,500} &lt;Enter&gt;**
 
 **Your command : \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_**
 
@@ -994,9 +994,9 @@ GLOBAL\_CATALOG file format for a PICK/MV standard program/subroutine
 
 000 Base Account @ Filename @ Program/Sub ID
 
-001 ***<u>NULL</u>***These are used for groups of programs (a typical PATH driven program)
+001 ***NULL***These are used for groups of programs (a typical PATH driven program)
 
-002 ***<u>NULL</u>***These are used for groups of subroutines (a typical PATH driven subroutine)
+002 ***NULL***These are used for groups of subroutines (a typical PATH driven subroutine)
 
 003 Account Name(s) [multi-valued]             i.e. COMMON-FIP]ORDERS]GL
 
@@ -1018,7 +1018,7 @@ GLOBAL\_CATALOG item for a group or standard O/S type program/subroutine
 
 Then, when D3.CATALOG is run on the BP file...
 
-003 ***<u>NULL</u>*** This is used for account based  Account Name(s) [multi-valued]  i.e. COMMON-FIP]ORDERS]GL
+003 ***NULL*** This is used for account based  Account Name(s) [multi-valued]  i.e. COMMON-FIP]ORDERS]GL
 
 004 Status of last CATALOG                        i.e. GOOD
 
@@ -1070,17 +1070,17 @@ Use D3.ADD.USER to create new users for this or other accounts
 
 ## D3.ADD.USER
 
-### Create User for *<u>YourMachineName</u>*
+### Create User for *YourMachineName*
 
 ### Enter user name : BOB*&lt;Enter&gt;*
 
-Enter the user name for the user on the *<u>YourMachineName</u>* "machine".  This process must be run from SYSPROG/DM of the "machine".
+Enter the user name for the user on the *YourMachineName* "machine".  This process must be run from SYSPROG/DM of the "machine".
 
 ### Enter Account name to LOGTO or &lt;Enter&gt; for NONE :*&lt;Enter&gt;*
 
 Enter the account name that this user will initially log into.  If no account name is entered then the user will be prompted for "master dictionary" and optionally password when they login.
 
-### This will setup user "BOB" for *<u>YoutMachineName</u>*.
+### This will setup user "BOB" for *YoutMachineName*.
 
 ### Is this OKAY? (Y/N/X) : *Y&lt;Enter&gt;*
 
@@ -1098,7 +1098,7 @@ Retype the same password to verify it was entered correctly.
 
 The D3.REMOVE.USER program will allow you to remove a user by specifying the name after the command.
 
-### jsh--&gt;*D3.REMOVE.USER <u>WindowsUser</u>&lt;Enter&gt;*
+### jsh--&gt;*D3.REMOVE.USER WindowsUser&lt;Enter&gt;*
 
 This will delete the following users:
 

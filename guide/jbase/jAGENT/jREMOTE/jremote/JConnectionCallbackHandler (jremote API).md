@@ -3,8 +3,10 @@
 **Created At:** 9/25/2017 12:09:02 PM  
 **Updated At:** 12/24/2018 7:41:27 PM  
 
-<noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+
+JavaScript is disabled on your browser.
+
+
 
 ## Interface JConnectionCallbackHandler
 
@@ -15,8 +17,6 @@
 public interface JConnectionCallbackHandler
 ```
 
-<!--   -->
-
 ### Method Summary
 
 
@@ -26,10 +26,8 @@ public interface JConnectionCallbackHandler
 | `boolean`<br> | `reinitialise(Subject subject, JConnection connection)`<br>The Subject intends to use a connection that was previously initialised for another Subject.<br> |
 | `boolean`<br> | `reuse(Subject subject, JConnection connection)`<br>The Subject is reusing the supplied connection.<br> |
 
-<!--   -->
-
 ### Method Detail
-<!--   -->
+
 
 
 #### initialise
@@ -62,6 +60,5 @@ boolean reinitialise(Subject subject,
 ```
 
 The Subject intends to use a connection that was previously initialised for another Subject.
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

@@ -3,16 +3,8 @@
 **Created At:** 9/25/2017 11:00:55 AM  
 **Updated At:** 4/3/2018 10:10:55 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="Uses of Class com.jbase.jdbc.protocol.SQLStartRequest (jbasejdbc   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript>&amp;amp;amp;amp;lt;div&amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-# <!--   -->Uses of Class com.jbase.jdbc.protocol.SQLStartRequest
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jdbc.protocol.SQLStartRequest (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&amp;amp;amp;lt;div&amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+# Uses of Class com.jbase.jdbc.protocol.SQLStartRequest
 
 
 
@@ -26,7 +18,7 @@
 
 
 
-<!--   -->
+
 
 ## Uses of [SQLStartRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLStartRequest "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc](/39228-jdbc/com_jbase_jdbc_package-summary)
 
@@ -40,7 +32,7 @@
 | <br>protected [List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util")&lt;[SQLStartRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLStartRequest "class in com.jbase.jdbc.protocol")&gt;<br> | <br>JBaseJDBCSocketStatement.[batchRequestsList](../../../../../com/jbase/jdbc/JBaseJDBCSocketStatement.html#batchRequestsList)<br> |
 
 
-<!--   -->
+
 
 ### 
 
@@ -67,5 +59,5 @@
 | <br>class<br> | <br>[ReleaseRequest](/39240-protocol/com_jbase_jdbc_protocol_ReleaseRequest "class in com.jbase.jdbc.protocol")<br> | <br> |
 | <br>class<br> | <br>[SetPropertiesRequest](/39240-protocol/com_jbase_jdbc_protocol_SetPropertiesRequest "class in com.jbase.jdbc.protocol")<br> | <br> |
 | <br>class<br> | <br>[SQLRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLRequest "class in com.jbase.jdbc.protocol")<br> | <br>``Base class of all SQL driver's requests.<br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+

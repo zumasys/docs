@@ -3,24 +3,11 @@
 **Created At:** 9/25/2017 12:11:12 PM  
 **Updated At:** 2/15/2018 8:03:02 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="AuthenticationRequest.UserCredentials (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="AuthenticationRequest.UserCredentials (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39270-protocol/com_jbase_jremote_protocol_package-summary)
 - Class
@@ -43,15 +30,7 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -64,8 +43,7 @@ jremote <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= --><!-- ======== START OF CLASS DATA ======== -->
+
 com.jbase.jremote.protocol
 
 ## Class AuthenticationRequest.UserCredentials
@@ -74,9 +52,7 @@ com.jbase.jremote.protocol
 - - com.jbase.jremote.protocol.AuthenticationRequest.UserCredentials
 
 
-- <dl><dt>All Implemented Interfaces:</dt>
-<dd><a href="/39250-io/com_jbase_jremote_io_jbaseserializable" title="interface in com.jbase.jremote.io">JBaseSerializable</a></dd></dl><dl><dt>Enclosing class:</dt>
-<dd><a href="/39270-protocol/com_jbase_jremote_protocol_authenticationrequest" title="class in com.jbase.jremote.protocol">AuthenticationRequest</a></dd></dl>
+- All Implemented Interfaces:[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")Enclosing class:[AuthenticationRequest](/39270-protocol/com_jbase_jremote_protocol_authenticationrequest "class in com.jbase.jremote.protocol")
 * * *
 
 
@@ -86,41 +62,35 @@ extends Object
 implements JBaseSerializable
 ```
 
-- <!-- ======== NESTED CLASS SUMMARY ======== -->
-    - <!--   -->
-### Nested Class Summary
+- - ### Nested Class Summary
 
-        - <!--   -->
-### Nested classes/interfaces inherited from interface com.jbase.jremote.io.[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")
+        - ### Nested classes/interfaces inherited from interface com.jbase.jremote.io.[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")
 `JBaseSerializable.TYPE`
 
-<!-- =========== FIELD SUMMARY =========== -->
-    - <!--   -->
-### Field Summary
+
+    - ### Field Summary
 
 
-<caption><span>Fields</span><span class="tabEnd"> </span></caption>| Modifier and Type | Field and Description |
+Fields | Modifier and Type | Field and Description |
 | --- | --- |
 | `int` | `failedLoginAttempts`  |
 | `String` | `password`  |
 | `String` | `seed`  |
 | `String` | `userName`  |
 
-<!-- ======== CONSTRUCTOR SUMMARY ======== -->
-    - <!--   -->
-### Constructor Summary
+
+    - ### Constructor Summary
 
 
-<caption><span>Constructors</span><span class="tabEnd"> </span></caption>| Constructor and Description |
+Constructors | Constructor and Description |
 | --- |
 | `UserCredentials(String userName,<br>               String password)`<br>Constructors.<br> |
 
-<!-- ========== METHOD SUMMARY =========== -->
-    - <!--   -->
-### Method Summary
+
+    - ### Method Summary
 
 
-<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd"> </span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd"> </span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">Concrete Methods</a></span><span class="tabEnd"> </span></span></caption>| Modifier and Type | Method and Description |
+All Methods [Instance Methods](javascript:show%282%29;) [Concrete Methods](javascript:show%288%29;) | Modifier and Type | Method and Description |
 | --- | --- |
 | `int` | `getType()`  |
 | `int` | `getVersion()`  |
@@ -128,45 +98,41 @@ implements JBaseSerializable
 | `void` | `writeObject(JBaseObjectWriter writer,<br>           int version)`  |
 
 
-        - <!--   -->
-### Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
+        - ### Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-- <!-- ============ FIELD DETAIL =========== -->
-    - <!--   -->
-### Field Detail
-<!--   -->
+- - ### Field Detail
+
         - #### userName
 
 ```
 public String userName
 ```
 
-<!--   -->
+
         - #### password
 
 ```
 public String password
 ```
 
-<!--   -->
+
         - #### seed
 
 ```
 public String seed
 ```
 
-<!--   -->
+
         - #### failedLoginAttempts
 
 ```
 public int failedLoginAttempts
 ```
 
-<!-- ========= CONSTRUCTOR DETAIL ======== -->
-    - <!--   -->
-### Constructor Detail
-<!--   -->
+
+    - ### Constructor Detail
+
         - #### UserCredentials
 
 ```
@@ -176,23 +142,17 @@ public UserCredentials(String userName,
 
 Constructors.
 
-<!-- ============ METHOD DETAIL ========== -->
-    - <!--   -->
-### Method Detail
-<!--   -->
+
+    - ### Method Detail
+
         - #### getType
 
 ```
 public int getType()
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39250-io/com_jbase_jremote_io_jbaseserializable#getType--">getType</a></code> in interface <code><a href="/39250-io/com_jbase_jremote_io_jbaseserializable" title="interface in com.jbase.jremote.io">JBaseSerializable</a></code>
-</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>type id of the objects, used during the serialization</dd></dl>
+Specified by:`getType` in interface `JBaseSerializable`Returns:type id of the objects, used during the serialization
 
-<!--   -->
+
         - #### readObject
 
 ```
@@ -201,15 +161,9 @@ public void readObject(JBaseObjectReader reader,
                 throws IOException,
                        ClassNotFoundException
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39250-io/com_jbase_jremote_io_jbaseserializable#readObject-com.jbase.jremote.io.JBaseObjectReader-int-">readObject</a></code> in interface <code><a href="/39250-io/com_jbase_jremote_io_jbaseserializable" title="interface in com.jbase.jremote.io">JBaseSerializable</a></code>
-</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/ClassNotFoundException.html?is-external=true" title="class or interface in java.lang">ClassNotFoundException</a></code></dd></dl>
+Specified by:`readObject` in interface `JBaseSerializable`Throws:`IOException``ClassNotFoundException`
 
-<!--   -->
+
         - #### writeObject
 
 ```
@@ -217,27 +171,18 @@ public void writeObject(JBaseObjectWriter writer,
                         int version)
                  throws IOException
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39250-io/com_jbase_jremote_io_jbaseserializable#writeObject-com.jbase.jremote.io.JBaseObjectWriter-int-">writeObject</a></code> in interface <code><a href="/39250-io/com_jbase_jremote_io_jbaseserializable" title="interface in com.jbase.jremote.io">JBaseSerializable</a></code>
-</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Specified by:`writeObject` in interface `JBaseSerializable`Throws:`IOException`
 
-<!--   -->
+
         - #### getVersion
 
 ```
 public int getVersion()
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39250-io/com_jbase_jremote_io_jbaseserializable#getVersion--">getVersion</a></code> in interface <code><a href="/39250-io/com_jbase_jremote_io_jbaseserializable" title="interface in com.jbase.jremote.io">JBaseSerializable</a></code>
-</dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+Specified by:`getVersion` in interface `JBaseSerializable`
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39270-protocol/com_jbase_jremote_protocol_package-summary)
 - Class
@@ -260,15 +205,7 @@ jremote <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -281,6 +218,5 @@ jremote <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

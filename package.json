@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Zumasys Documentation",
   "scripts": {
-    "build": "node --max_old_space_size=8192 ./node_modules/vuepress/cli.js build",
+    "build": "vuepress build",
     "dev": "node --max_old_space_size=8192 ./node_modules/vuepress/cli.js dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

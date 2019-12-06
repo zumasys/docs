@@ -6,7 +6,7 @@
 
 ## ODBC jEDI File Stub
 
-When you create a file of type *ODBC,*a small file (*stub*) is generated. This stub instructs the jBASE file interface that it's interacting with an ODBC jEDI type file. When a jBASE program or command interacts with an ODBC type file, the *jEDI* driver parses the stub and uses the **connect** parameter (see example stub below) to retrieve the *DSN connection information string* from the <u><strong>jEDIdrivers.ini</strong></u> file. It then checks an internal *RDBMS*map to determine if a connection has already been made to the target *RDBMS*. If not, a new connection is established. Connections are persisted until the last file for a given connection is closed.
+When you create a file of type *ODBC,*a small file (*stub*) is generated. This stub instructs the jBASE file interface that it's interacting with an ODBC jEDI type file. When a jBASE program or command interacts with an ODBC type file, the *jEDI* driver parses the stub and uses the **connect** parameter (see example stub below) to retrieve the *DSN connection information string* from the **jEDIdrivers.ini** file. It then checks an internal *RDBMS*map to determine if a connection has already been made to the target *RDBMS*. If not, a new connection is established. Connections are persisted until the last file for a given connection is closed.
 
 ### Note
 

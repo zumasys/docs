@@ -5,7 +5,7 @@
 
 
 # Interface JXAConnection
-<dl><dt>All Superinterfaces:</dt><dd><a href="com_jbase_jremote_JConnection" title="interface in com.jbase.jremote">JConnection</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/javax/transaction/xa/XAResource.html?is-external=true" title="class or interface in javax.transaction.xa">XAResource</a></dd></dl><dl><dt>All Known Implementing Classes:</dt><dd><a href="com_jbase_jremote_io_JConnectionImpl" title="class in com.jbase.jremote.io">JConnectionImpl</a></dd></dl>
+All Superinterfaces:[JConnection](com_jbase_jremote_JConnection "interface in com.jbase.jremote"), [XAResource](http://java.sun.com/j2se/1.5.0/docs/api/javax/transaction/xa/XAResource.html?is-external=true "class or interface in javax.transaction.xa")All Known Implementing Classes:[JConnectionImpl](com_jbase_jremote_io_JConnectionImpl "class in com.jbase.jremote.io")
 ```
 public interface JXAConnection
 extends JConnection, XAResource

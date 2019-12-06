@@ -3,26 +3,14 @@
 **Created At:** 9/25/2017 11:48:20 AM  
 **Updated At:** 12/24/2018 8:20:42 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="IByteObject (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":6,"i1":6,"i2":6};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="IByteObject (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":6,"i1":6,"i2":6};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
+
 
 ## Interface IByteObject
 
-<dl><dt>All Known Implementing Classes:</dt><dd><a href="/39250-io/com_jbase_jremote_io_byteobject" title="class in com.jbase.jremote.io">ByteObject</a>, <a href="/39248-jremote/com_jbase_jremote_JDynArray" title="class in com.jbase.jremote">JDynArray</a></dd></dl>
+All Known Implementing Classes:[ByteObject](/39250-io/com_jbase_jremote_io_byteobject "class in com.jbase.jremote.io"), [JDynArray](/39248-jremote/com_jbase_jremote_JDynArray "class in com.jbase.jremote")
 * * *
 
 
@@ -31,8 +19,6 @@ public interface IByteObject
 ```
 
 This interface allows a client to optimise the serialization of byte buffers. This may be neccessary to avoid unneccessary copying or creation of byte arrays.
-
-<!--   -->
 
 ### Method Summary
 
@@ -43,10 +29,8 @@ This interface allows a client to optimise the serialization of byte buffers. Th
 | `byte[]`<br> | `getBytes()`<br>Return the bytes backing this IByteObject.<br> |
 | `void`<br> | `setByteBuffer(ByteBuffer byteBuffer)`<br>Allow the internal storage to be replaced, as it may be reallocated externally.<br> |
 
-<!--   -->
-
 ### Method Detail
-<!--   -->
+
 #### getByteBuffer
 
 ```
@@ -55,7 +39,7 @@ ByteBuffer getByteBuffer()
 ```
 
 This method should return a ByteBuffer set to the position to start writing into it. NOTE - if reading data the ByteBuffer will be expanded to fit the amount of data being read.
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>IOException</code></dd></dl>
+Throws:`IOException`
 #### setByteBuffer
 
 ```
@@ -64,7 +48,7 @@ void setByteBuffer(ByteBuffer byteBuffer)
 ```
 
 Allow the internal storage to be replaced, as it may be reallocated externally.
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>IOException</code></dd></dl>
+Throws:`IOException`
 
 
 #### getBytes
@@ -74,6 +58,5 @@ byte[] getBytes()
 ```
 
 Return the bytes backing this IByteObject.
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

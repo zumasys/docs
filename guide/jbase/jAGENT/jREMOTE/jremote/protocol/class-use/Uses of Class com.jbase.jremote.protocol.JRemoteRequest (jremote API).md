@@ -3,46 +3,31 @@
 **Created At:** 9/25/2017 12:14:05 PM  
 **Updated At:** 4/5/2018 11:17:39 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="Uses of Class com.jbase.jremote.protocol.JRemoteRequest (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.protocol.JRemoteRequest (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+
+
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 ## Uses of Class
 com.jbase.jremote.protocol.JRemoteRequest
 
 | Package<br> | Description<br> |
 | --- | --- |
-<caption>&nbsp;<span>Packages that use <a href="/39270-protocol/com_jbase_jremote_protocol_jremoterequest" title="class in com.jbase.jremote.protocol">JRemoteRequest</a></span><span class="tabEnd">&nbsp;</span>&nbsp;</caption>| com.jbase.jremote.io<br> |  <br> |
+ Packages that use [JRemoteRequest](/39270-protocol/com_jbase_jremote_protocol_jremoterequest "class in com.jbase.jremote.protocol")  | com.jbase.jremote.io<br> |  <br> |
 | com.jbase.jremote.protocol<br> |  <br> |
 
 
 
-<!--   -->
+
 
 ### Uses of [JRemoteRequest](/39270-protocol/com_jbase_jremote_protocol_jremoterequest "class in com.jbase.jremote.protocol") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
-<caption>&nbsp;<span>Methods in <a href="/39250-io/com_jbase_jremote_io_package-summary">com.jbase.jremote.io</a> with parameters of type <a href="/39270-protocol/com_jbase_jremote_protocol_jremoterequest" title="class in com.jbase.jremote.protocol">JRemoteRequest</a></span><span class="tabEnd">&nbsp;</span>&nbsp;</caption>| `void`<br> | JRemoteSocketConnection.`send(JRemoteRequest request)` <br> |
+ Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) with parameters of type [JRemoteRequest](/39270-protocol/com_jbase_jremote_protocol_jremoterequest "class in com.jbase.jremote.protocol")  | `void`<br> | JRemoteSocketConnection.`send(JRemoteRequest request)` <br> |
 | `void`<br> | InterceptorConnection.`send(JRemoteRequest request)` <br> |
 | `abstract void`<br> | AbstractJRemoteConnection.`send(JRemoteRequest request)` <br> |
 | `Response`<br> | JConnectionImpl.`sendWaitForResponse(JRemoteRequest req)`<br>Uses underlying connection to send a request and wait for the response.<br> |
@@ -51,14 +36,14 @@ com.jbase.jremote.protocol.JRemoteRequest
 
 
 
-<!--   -->
+
 
 ### Uses of [JRemoteRequest](/39270-protocol/com_jbase_jremote_protocol_jremoterequest "class in com.jbase.jremote.protocol") in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary)
 
 
 | Modifier and Type<br> | Class and Description<br> |
 | --- | --- |
-<caption>&nbsp;<span>Subclasses of <a href="/39270-protocol/com_jbase_jremote_protocol_jremoterequest" title="class in com.jbase.jremote.protocol">JRemoteRequest</a> in <a href="/39270-protocol/com_jbase_jremote_protocol_package-summary">com.jbase.jremote.protocol</a></span><span class="tabEnd">&nbsp;</span>&nbsp;</caption>| `class `<br> | `AccountAuthenticationRequest`<br>Request for authentication.<br> |
+ Subclasses of [JRemoteRequest](/39270-protocol/com_jbase_jremote_protocol_jremoterequest "class in com.jbase.jremote.protocol") in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary)  | `class `<br> | `AccountAuthenticationRequest`<br>Request for authentication.<br> |
 | `class `<br> | `AuthenticationRequest`<br>Request for authentication.<br> |
 | `class `<br> | `BeginTransactionRequest`<br>Request to start transaction.<br> |
 | `class `<br> | `CallSubroutineRequest` <br> |
@@ -93,8 +78,5 @@ com.jbase.jremote.protocol.JRemoteRequest
 | `class `<br> | `XAPrepareTransactionRequest`<br>Request jBASE prepare an XA transaction.<br> |
 | `class `<br> | `XARollbackTransactionRequest`<br>Request jBASE rollback an XA transaction.<br> |
 | `class `<br> | `XAStartTransactionRequest`<br>Request jBASE start an XA transaction.<br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
-
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

@@ -3,27 +3,13 @@
 **Created At:** 9/25/2017 12:05:15 PM  
 **Updated At:** 4/6/2018 1:24:40 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="JRemoteConnectionFactoryImpl (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript>&amp;amp;amp;amp;lt;div&amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JRemoteConnectionFactoryImpl (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";&amp;amp;amp;lt;div&amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+
 
 ## Class JRemoteConnectionFactoryImpl
 
 **All Implemented Interfaces:**
-<dd><a href="/39248-jremote/com_jbase_jremote_jconnectionfactory" title="interface in com.jbase.jremote">JConnectionFactory</a>, Serializable, Referenceable</dd>
+[JConnectionFactory](/39248-jremote/com_jbase_jremote_jconnectionfactory "interface in com.jbase.jremote"), Serializable, Referenceable
 * * *
 
 
@@ -43,8 +29,6 @@ The non managed environment will use a default ConnectionManager that offers lit
 
 
 
-<!--   -->
-
 ### Constructor Summary
 
 
@@ -57,7 +41,7 @@ The non managed environment will use a default ConnectionManager that offers lit
 
 
 
-<!--   -->
+
 
 ### Method Summary
 
@@ -74,13 +58,11 @@ The non managed environment will use a default ConnectionManager that offers lit
 | `void`<br> | `setReference(Reference reference)` <br> |
 
 
-- <!--   -->Methods inherited from class java.lang.Object
+- Methods inherited from class java.lang.Object
     - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-<!--   -->
-
 ### Constructor Detail
-<!--   -->
+
 #### JRemoteConnectionFactoryImpl
 
 ```
@@ -88,7 +70,7 @@ public JRemoteConnectionFactoryImpl()
 ```
 
 Construct a connection factory for use in a non managed environment using the default connection manager.
-<dl><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39258-jca/com_jbase_jremote_jca_DefaultConnectionManager" title="class in com.jbase.jremote.jca"><code>DefaultConnectionManager</code></a></dd></dl>
+See Also:[`DefaultConnectionManager`](/39258-jca/com_jbase_jremote_jca_DefaultConnectionManager "class in com.jbase.jremote.jca")
 
 
 #### JRemoteConnectionFactoryImpl
@@ -98,7 +80,7 @@ public JRemoteConnectionFactoryImpl(javax.resource.spi.ManagedConnectionFactory 
 ```
 
 Construct a connection factory for use in a non managed environment using the default connection manager.
-<dl><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="/39258-jca/com_jbase_jremote_jca_DefaultConnectionManager" title="class in com.jbase.jremote.jca"><code>DefaultConnectionManager</code></a></dd></dl>
+See Also:[`DefaultConnectionManager`](/39258-jca/com_jbase_jremote_jca_DefaultConnectionManager "class in com.jbase.jremote.jca")
 
 #### JRemoteConnectionFactoryImpl
 
@@ -109,10 +91,10 @@ public JRemoteConnectionFactoryImpl(javax.resource.spi.ManagedConnectionFactory 
 
 Constructor for managed connection factory. The application server will use this constructor and supply a configured ManagedConnectionFactory and ConnectionManager. This class will hook into the application server connection pool via the supplied ConnectionManager.
 
-<!--   -->
+
 
 ### Method Detail
-<!--   -->
+
 
 
 #### getConnection
@@ -125,7 +107,7 @@ public JConnection getConnection()
 Description copied from interface: `JConnectionFactory`
 
 Get a connection to a remote jBASE instance.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_JConnectionFactory#getConnection--">getConnection</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jconnectionfactory" title="interface in com.jbase.jremote">JConnectionFactory</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">JConnection The connection</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Specified by:`getConnection` in interface `JConnectionFactory`Returns:JConnection The connectionThrows:`JRemoteException`
 
 
 #### getConnection
@@ -139,7 +121,7 @@ public JConnection getConnection(String user,
 Description copied from interface: `JConnectionFactory`
 
 Get a connection to a remote jBASE instance.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_JConnectionFactory#getConnection-java.lang.String-java.lang.String-">getConnection</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jconnectionfactory" title="interface in com.jbase.jremote">JConnectionFactory</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">JConnection The connection</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Specified by:`getConnection` in interface `JConnectionFactory`Returns:JConnection The connectionThrows:`JRemoteException`
 
 
 #### getConnection
@@ -154,7 +136,7 @@ public JConnection getConnection(String user,
 Description copied from interface: `JConnectionFactory`
 
 Get a connection to a remote jBASE instance.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_JConnectionFactory#getConnection-java.lang.String-java.lang.String-java.util.Properties-">getConnection</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jconnectionfactory" title="interface in com.jbase.jremote">JConnectionFactory</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">JConnection The connection</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Specified by:`getConnection` in interface `JConnectionFactory`Returns:JConnection The connectionThrows:`JRemoteException`
 
 #### getConnection
 
@@ -168,7 +150,7 @@ public JConnection getConnection(String user,
 Description copied from interface: `JConnectionFactory`
 
 Get a connection to a remote jBASE account.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_JConnectionFactory#getConnection-java.lang.String-java.lang.String-java.lang.String-">getConnection</a></code> in interface <code><a href="/39248-jremote/com_jbase_jremote_jconnectionfactory" title="interface in com.jbase.jremote">JConnectionFactory</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">JConnection The connection</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Specified by:`getConnection` in interface `JConnectionFactory`Returns:JConnection The connectionThrows:`JRemoteException`
 
 
 
@@ -182,7 +164,7 @@ public JConnection getConnection(JConnectionCallbackHandler handler)
 Description copied from interface: `JConnectionFactory`
 
 Get a connection to a remote jBASE instance, in a managed environment the callback handler provides ancillary connection initialisation.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>getConnection</code> in interface <code>JConnectionFactory</code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">JConnection The connection</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>JRemoteException</code></dd></dl>
+Specified by:`getConnection` in interface `JConnectionFactory`Returns:JConnection The connectionThrows:`JRemoteException`
 
 
 
@@ -195,14 +177,14 @@ protected JConnection getConnection(String user,
                                     JConnectionCallbackHandler handler)
                              throws JRemoteException
 ```
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>JRemoteException</code></dd></dl>
+Throws:`JRemoteException`
 
 #### setReference
 
 ```
 public void setReference(Reference reference)
 ```
-<dl><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>Referenceable.setReference(Reference)</code></dd></dl>
+See Also:`Referenceable.setReference(Reference)`
 
 #### getReference
 
@@ -210,7 +192,9 @@ public void setReference(Reference reference)
 public Reference getReference()
                        throws NamingException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>getReference</code> in interface <code>Referenceable</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>NamingException</code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>Referenceable.getReference()</code></dd><p style="margin-left: 20px;"><br></p></dl>
+Specified by:`getReference` in interface `Referenceable`Throws:`NamingException`See Also:`Referenceable.getReference()`
+
+
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+

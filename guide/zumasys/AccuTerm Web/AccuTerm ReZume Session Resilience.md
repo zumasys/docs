@@ -90,7 +90,7 @@ The examples below show simple commands, usually without arguments. However, any
 
 The examples assume that 'atsr' is installed in the default location; if you have installed in a different location, adjust the path to reflect your installation directory.
 
-**<u>d3</u>**
+**d3**
 
 change
 
@@ -106,7 +106,7 @@ to
 
 
 
-**<u>jBASE</u>**
+**jBASE**
 
 change
 
@@ -122,7 +122,7 @@ to
 
 
 
-**<u>QM</u>**
+**QM**
 
 change
 
@@ -138,7 +138,7 @@ to
 
 
 
-**<u>Unidata</u>**
+**Unidata**
 
 change
 
@@ -154,7 +154,7 @@ to
 
 
 
-**<u>UniVerse</u>**
+**UniVerse**
 
 change
 

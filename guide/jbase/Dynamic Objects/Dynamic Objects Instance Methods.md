@@ -33,7 +33,7 @@ Methods that return a value can call other methods in a chain-like fashion.
 
 A program's local variable names will not conflict with the names of properties of an object.
 
-Please refer to the [<u>Object Creation</u>](dynamic-objects-object-creation) section for additional information.
+Please refer to the [Object Creation](dynamic-objects-object-creation) section for additional information.
 
 
 

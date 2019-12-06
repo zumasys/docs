@@ -11,7 +11,7 @@
     - - [java.util.AbstractList](http://java.sun.com/j2se/1.5.0/docs/api/java/util/AbstractList.html?is-external=true "class or interface in java.util")&lt;E&gt;
         - - [java.util.ArrayList](http://java.sun.com/j2se/1.5.0/docs/api/java/util/ArrayList.html?is-external=true "class or interface in java.util")&lt;[JDynArray](../../../com/jbase/jremote/JDynArray.html "class in com.jbase.jremote")&gt;
             - - com.jbase.jremote.JSubroutineParameters
-- <dl><dt>All Implemented Interfaces:</dt><dd><a href="../../../com/jbase/jremote/io/JBaseSerializable.html" title="interface in com.jbase.jremote.io">JBaseSerializable</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true" title="class or interface in java.io">Serializable</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Cloneable.html?is-external=true" title="class or interface in java.lang">Cloneable</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true" title="class or interface in java.lang">Iterable</a>&lt;<a href="../../../com/jbase/jremote/JDynArray.html" title="class in com.jbase.jremote">JDynArray</a>&gt;, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/util/Collection.html?is-external=true" title="class or interface in java.util">Collection</a>&lt;<a href="../../../com/jbase/jremote/JDynArray.html" title="class in com.jbase.jremote">JDynArray</a>&gt;, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true" title="class or interface in java.util">List</a>&lt;<a href="../../../com/jbase/jremote/JDynArray.html" title="class in com.jbase.jremote">JDynArray</a>&gt;, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/util/RandomAccess.html?is-external=true" title="class or interface in java.util">RandomAccess</a></dd></dl>
+- All Implemented Interfaces:[JBaseSerializable](../../../com/jbase/jremote/io/JBaseSerializable.html "interface in com.jbase.jremote.io"), [Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"), [Cloneable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Cloneable.html?is-external=true "class or interface in java.lang"), [Iterable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true "class or interface in java.lang")&lt;[JDynArray](../../../com/jbase/jremote/JDynArray.html "class in com.jbase.jremote")&gt;, [Collection](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Collection.html?is-external=true "class or interface in java.util")&lt;[JDynArray](../../../com/jbase/jremote/JDynArray.html "class in com.jbase.jremote")&gt;, [List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util")&lt;[JDynArray](../../../com/jbase/jremote/JDynArray.html "class in com.jbase.jremote")&gt;, [RandomAccess](http://java.sun.com/j2se/1.5.0/docs/api/java/util/RandomAccess.html?is-external=true "class or interface in java.util")
 ```
 public class JSubroutineParameters
 extends ArrayList<JDynArray> implements JBaseSerializable
@@ -27,7 +27,7 @@ JSubroutineParameters is based on ArrayList and its typical usage is as follows:
     subroutineParams.add(new JDynArray()); 
     subroutineParams.add(new JDynArray("five")); 
 
-Adding null elements is permitted and the above example will provide five parameters to a subroutine.<dl><dt>Author:</dt><dd>aphethean</dd><dt>See Also:</dt><dd><a href="../../../com/jbase/jremote/JConnection.html#call-java.lang.String-com.jbase.jremote.JSubroutineParameters-"><code>JConnection.call(java.lang.String, com.jbase.jremote.JSubroutineParameters)</code></a>, <a href="../../../serialized-form.html#com.jbase.jremote.JSubroutineParameters">Serialized Form</a></dd></dl>
+Adding null elements is permitted and the above example will provide five parameters to a subroutine.Author:aphetheanSee Also:[`JConnection.call(java.lang.String, com.jbase.jremote.JSubroutineParameters)`](../../../com/jbase/jremote/JConnection.html#call-java.lang.String-com.jbase.jremote.JSubroutineParameters-), [Serialized Form](../../../serialized-form.html#com.jbase.jremote.JSubroutineParameters)
 - - ### Nested Class Summary
 
         - ### Nested classes/interfaces inherited from interface com.jbase.jremote.io.[JBaseSerializable](../../../com/jbase/jremote/io/JBaseSerializable.html "interface in com.jbase.jremote.io")
@@ -41,13 +41,13 @@ Adding null elements is permitted and the above example will provide five parame
 
 | Constructor and Description |
 | --- |
-<caption>Constructors </caption>| `JSubroutineParameters()`  |
+Constructors | `JSubroutineParameters()`  |
     - ### Method Summary
 
 
 | Modifier and Type | Method and Description |
 | --- | --- |
-<caption>All Methods <a href="javascript%3Ashow(2);">Instance Methods</a> <a href="javascript%3Ashow(8);">Concrete Methods</a>&nbsp;</caption>| `int` | `getType()`  |
+All Methods [Instance Methods](javascript%3Ashow%282%29;) [Concrete Methods](javascript%3Ashow%288%29;) | `int` | `getType()`  |
 | `int` | `getVersion()`  |
 | `void` | `readObject(JBaseObjectReader reader, int version)`  |
 | `void` | `writeObject(JBaseObjectWriter writer, int version)`  |
@@ -79,23 +79,23 @@ public JSubroutineParameters()
 ```
 public int getType()
 ```
-<dl><dt>Specified by:</dt><dd><code><a href="../../../com/jbase/jremote/io/JBaseSerializable.html#getType--">getType</a></code> in interface <code><a href="../../../com/jbase/jremote/io/JBaseSerializable.html" title="interface in com.jbase.jremote.io">JBaseSerializable</a></code></dd><dt>Returns:</dt><dd>type id of the objects, used during the serialization</dd></dl>
+Specified by:`getType` in interface `JBaseSerializable`Returns:type id of the objects, used during the serialization
         - #### getVersion
 
 ```
 public int getVersion()
 ```
-<dl><dt>Specified by:</dt><dd><code><a href="../../../com/jbase/jremote/io/JBaseSerializable.html#getVersion--">getVersion</a></code> in interface <code><a href="../../../com/jbase/jremote/io/JBaseSerializable.html" title="interface in com.jbase.jremote.io">JBaseSerializable</a></code></dd></dl>
+Specified by:`getVersion` in interface `JBaseSerializable`
         - #### writeObject
 
 ```
 public void writeObject(JBaseObjectWriter writer,                         int version)                  throws IOException
 ```
-<dl><dt>Specified by:</dt><dd><code><a href="../../../com/jbase/jremote/io/JBaseSerializable.html#writeObject-com.jbase.jremote.io.JBaseObjectWriter-int-">writeObject</a></code> in interface <code><a href="../../../com/jbase/jremote/io/JBaseSerializable.html" title="interface in com.jbase.jremote.io">JBaseSerializable</a></code></dd><dt>Throws:</dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Specified by:`writeObject` in interface `JBaseSerializable`Throws:`IOException`
         - #### readObject
 
 ```
 public void readObject(JBaseObjectReader reader,                        int version)                 throws IOException,                        ClassNotFoundException
 ```
-<dl><dt>Specified by:</dt><dd><code><a href="../../../com/jbase/jremote/io/JBaseSerializable.html#readObject-com.jbase.jremote.io.JBaseObjectReader-int-">readObject</a></code> in interface <code><a href="../../../com/jbase/jremote/io/JBaseSerializable.html" title="interface in com.jbase.jremote.io">JBaseSerializable</a></code></dd><dt>Throws:</dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/ClassNotFoundException.html?is-external=true" title="class or interface in java.lang">ClassNotFoundException</a></code></dd></dl>
+Specified by:`readObject` in interface `JBaseSerializable`Throws:`IOException``ClassNotFoundException`
 

@@ -3,24 +3,11 @@
 **Created At:** 9/25/2017 10:30:11 AM  
 **Updated At:** 2/15/2018 8:02:41 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="RequestListenerService (framework   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10,"i27":10,"i28":10,"i29":10,"i30":10,"i31":10,"i32":10,"i33":10,"i34":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="RequestListenerService (framework   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10,"i22":10,"i23":10,"i24":10,"i25":10,"i26":10,"i27":10,"i28":10,"i29":10,"i30":10,"i31":10,"i32":10,"i33":10,"i34":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../overview-summary.html)
 - [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
 - Class
@@ -43,15 +30,7 @@ framework <br>
 - [All Classes](../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -64,8 +43,7 @@ framework <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= --><!-- ======== START OF CLASS DATA ======== -->
+
 com.jbase.framework.io.inflow
 
 ## Class RequestListenerService
@@ -75,9 +53,7 @@ com.jbase.framework.io.inflow
     - - com.jbase.framework.io.inflow.RequestListenerService
 
 
-- <dl><dt>All Implemented Interfaces:</dt>
-<dd>
-<a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean" title="interface in com.jbase.framework.io.inflow">RequestListenerServiceMBean</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Runnable.html?is-external=true" title="class or interface in java.lang">Runnable</a>, javax.resource.spi.work.Work</dd></dl>
+- All Implemented Interfaces:[RequestListenerServiceMBean](/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean "interface in com.jbase.framework.io.inflow"), [Runnable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Runnable.html?is-external=true "class or interface in java.lang"), javax.resource.spi.work.Work
 * * *
 
 
@@ -87,39 +63,32 @@ extends Thread
 implements RequestListenerServiceMBean, javax.resource.spi.work.Work
 ```
 
-- <!-- ======== NESTED CLASS SUMMARY ======== -->
-    - <!--   -->
-### Nested Class Summary
+- - ### Nested Class Summary
 
-        - <!--   -->
-### Nested classes/interfaces inherited from class java.lang.[Thread](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Thread.html?is-external=true "class or interface in java.lang")
+        - ### Nested classes/interfaces inherited from class java.lang.[Thread](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Thread.html?is-external=true "class or interface in java.lang")
 `Thread.State, Thread.UncaughtExceptionHandler`
 
-<!-- =========== FIELD SUMMARY =========== -->
-    - <!--   -->
-### Field Summary
 
-        - <!--   -->
-### Fields inherited from class java.lang.[Thread](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Thread.html?is-external=true "class or interface in java.lang")
+    - ### Field Summary
+
+        - ### Fields inherited from class java.lang.[Thread](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Thread.html?is-external=true "class or interface in java.lang")
 `MAX_PRIORITY, MIN_PRIORITY, NORM_PRIORITY`
 
-<!-- ======== CONSTRUCTOR SUMMARY ======== -->
-    - <!--   -->
-### Constructor Summary
+
+    - ### Constructor Summary
 
 
-<caption><span>Constructors</span><span class="tabEnd"> </span></caption>| Modifier | Constructor and Description |
+Constructors | Modifier | Constructor and Description |
 | --- | --- |
 | `protected` | `RequestListenerService()`<br>Provided to allow tests to mock out methods of this class<br> |
 | `` | `RequestListenerService(RequestProcessingAbstractFactory requestProcessingFactory,<br>                      javax.resource.spi.XATerminator xaTerminator,<br>                      String host,<br>                      int port)`<br>Construct service that will not create new threads for client connections.<br> |
 | `` | `RequestListenerService(RequestProcessingAbstractFactory requestProcessingFactory,<br>                      javax.resource.spi.XATerminator xaTerminator,<br>                      javax.resource.spi.work.WorkManager workManager,<br>                      String host,<br>                      int port,<br>                      boolean threadPerConnection)`<br>Supply a work manager and optionally create a new thread to handle<br> each client connection.<br> |
 
-<!-- ========== METHOD SUMMARY =========== -->
-    - <!--   -->
-### Method Summary
+
+    - ### Method Summary
 
 
-<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd"> </span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd"> </span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">Concrete Methods</a></span><span class="tabEnd"> </span></span></caption>| Modifier and Type | Method and Description |
+All Methods [Instance Methods](javascript:show%282%29;) [Concrete Methods](javascript:show%288%29;) | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | `decrementActiveConnections()`  |
 | `protected boolean` | `doAccept(SelectionKey key)`  |
@@ -158,19 +127,15 @@ implements RequestListenerServiceMBean, javax.resource.spi.work.Work
 | `void` | `stopStatistics()`<br>Stop recording statistics and reset any existing statistical data.<br> |
 
 
-        - <!--   -->
-### Methods inherited from class java.lang.[Thread](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Thread.html?is-external=true "class or interface in java.lang")
+        - ### Methods inherited from class java.lang.[Thread](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Thread.html?is-external=true "class or interface in java.lang")
 `activeCount, checkAccess, clone, countStackFrames, currentThread, destroy, dumpStack, enumerate, getAllStackTraces, getContextClassLoader, getDefaultUncaughtExceptionHandler, getId, getName, getPriority, getStackTrace, getState, getThreadGroup, getUncaughtExceptionHandler, holdsLock, interrupt, interrupted, isAlive, isDaemon, isInterrupted, join, join, join, resume, setContextClassLoader, setDaemon, setDefaultUncaughtExceptionHandler, setName, setPriority, setUncaughtExceptionHandler, sleep, sleep, start, stop, stop, suspend, toString, yield`
 
 
-        - <!--   -->
-### Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
+        - ### Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
 `equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`
 
-- <!-- ========= CONSTRUCTOR DETAIL ======== -->
-    - <!--   -->
-### Constructor Detail
-<!--   -->
+- - ### Constructor Detail
+
         - #### RequestListenerService
 
 ```
@@ -179,7 +144,7 @@ protected RequestListenerService()
 
 Provided to allow tests to mock out methods of this class
 
-<!--   -->
+
         - #### RequestListenerService
 
 ```
@@ -190,17 +155,9 @@ public RequestListenerService(RequestProcessingAbstractFactory requestProcessing
 ```
 
 Construct service that will not create new threads for client connections.
-<dl><dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>requestProcessingFactory</code> - </dd>
-<dd>
-<code>xaTerminator</code> - </dd>
-<dd>
-<code>host</code> - </dd>
-<dd>
-<code>port</code> - </dd></dl>
+Parameters:`requestProcessingFactory` - `xaTerminator` - `host` - `port` -
 
-<!--   -->
+
         - #### RequestListenerService
 
 ```
@@ -213,80 +170,67 @@ public RequestListenerService(RequestProcessingAbstractFactory requestProcessing
 ```
 
 Supply a work manager and optionally create a new thread to handle<br> each client connection.
-<dl><dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>requestProcessingFactory</code> - </dd>
-<dd>
-<code>xaTerminator</code> - </dd>
-<dd>
-<code>workManager</code> - </dd>
-<dd>
-<code>host</code> - </dd>
-<dd>
-<code>port</code> - </dd>
-<dd>
-<code>threadPerConnection</code> - </dd></dl>
+Parameters:`requestProcessingFactory` - `xaTerminator` - `workManager` - `host` - `port` - `threadPerConnection` -
 
-<!-- ============ METHOD DETAIL ========== -->
-    - <!--   -->
-### Method Detail
-<!--   -->
+
+    - ### Method Detail
+
         - #### isRunning
 
 ```
 public boolean isRunning()
 ```
 
-<!--   -->
+
         - #### isListening
 
 ```
 public boolean isListening()
 ```
 
-<!--   -->
+
         - #### setRunning
 
 ```
 public void setRunning(Boolean running)
 ```
 
-<!--   -->
+
         - #### getRequestHandler
 
 ```
 protected RequestHandler getRequestHandler()
 ```
 
-<!--   -->
+
         - #### getXATerminator
 
 ```
 public javax.resource.spi.XATerminator getXATerminator()
 ```
 
-<!--   -->
+
         - #### getWorkManager
 
 ```
 public javax.resource.spi.work.WorkManager getWorkManager()
 ```
 
-<!--   -->
+
         - #### getExecutionContext
 
 ```
 public javax.resource.spi.work.ExecutionContext getExecutionContext(String sessionId)
 ```
 
-<!--   -->
+
         - #### removeExecutionContext
 
 ```
 public javax.resource.spi.work.ExecutionContext removeExecutionContext(String sessionId)
 ```
 
-<!--   -->
+
         - #### setExecutionContext
 
 ```
@@ -294,88 +238,76 @@ public void setExecutionContext(String sessionId,
                                 javax.resource.spi.work.ExecutionContext ec)
 ```
 
-<!--   -->
+
         - #### startListener
 
 ```
 protected void startListener()
 ```
 
-<!--   -->
+
         - #### startIOListener
 
 ```
 protected void startIOListener()
                         throws IOException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Throws:`IOException`
 
-<!--   -->
+
         - #### startNIOListener
 
 ```
 protected void startNIOListener()
                          throws IOException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Throws:`IOException`
 
-<!--   -->
+
         - #### release
 
 ```
 public void release()
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code>release</code> in interface <code>javax.resource.spi.work.Work</code>
-</dd></dl>
+Specified by:`release` in interface `javax.resource.spi.work.Work`
 
-<!--   -->
+
         - #### run
 
 ```
 public void run()
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Runnable.html?is-external=true#run--" title="class or interface in java.lang">run</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Runnable.html?is-external=true" title="class or interface in java.lang">Runnable</a></code>
-</dd>
-<dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
-<dd>
-<code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Thread.html?is-external=true#run--" title="class or interface in java.lang">run</a></code> in class <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Thread.html?is-external=true" title="class or interface in java.lang">Thread</a></code>
-</dd></dl>
+Specified by:`run` in interface `Runnable`Overrides:`run` in class `Thread`
 
-<!--   -->
+
         - #### doAccept
 
 ```
 protected boolean doAccept(SelectionKey key)
 ```
 
-<!--   -->
+
         - #### doRead
 
 ```
 protected boolean doRead(SelectionKey key)
 ```
 
-<!--   -->
+
         - #### doWrite
 
 ```
 protected boolean doWrite(SelectionKey key)
 ```
 
-<!--   -->
+
         - #### doClose
 
 ```
 protected void doClose(SelectionKey key)
 ```
 
-<!--   -->
+
         - #### send
 
 ```
@@ -383,21 +315,21 @@ public void send(SocketChannel channel,
                  byte[] response)
 ```
 
-<!--   -->
+
         - #### incrementActiveConnections
 
 ```
 public void incrementActiveConnections()
 ```
 
-<!--   -->
+
         - #### decrementActiveConnections
 
 ```
 public void decrementActiveConnections()
 ```
 
-<!--   -->
+
         - #### getActiveConnections
 
 ```
@@ -407,14 +339,9 @@ public int getActiveConnections()
 Description copied from interface: `RequestListenerServiceMBean`
 
 Return the number clients that are currently connected.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean#getActiveConnections--">getActiveConnections</a></code> in interface <code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean" title="interface in com.jbase.framework.io.inflow">RequestListenerServiceMBean</a></code>
-</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>int</dd></dl>
+Specified by:`getActiveConnections` in interface `RequestListenerServiceMBean`Returns:int
 
-<!--   -->
+
         - #### setDefaultReceiveBufferSize
 
 ```
@@ -424,45 +351,33 @@ public void setDefaultReceiveBufferSize(int bytes)
 Description copied from interface: `RequestListenerServiceMBean`
 
 Modify the TCP buffer settings to maximize the performance<br> for the client network.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean#setDefaultReceiveBufferSize-int-">setDefaultReceiveBufferSize</a></code> in interface <code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean" title="interface in com.jbase.framework.io.inflow">RequestListenerServiceMBean</a></code>
-</dd></dl>
+Specified by:`setDefaultReceiveBufferSize` in interface `RequestListenerServiceMBean`
 
-<!--   -->
+
         - #### getDefaultReceiveBufferSize
 
 ```
 public int getDefaultReceiveBufferSize()
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean#getDefaultReceiveBufferSize--">getDefaultReceiveBufferSize</a></code> in interface <code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean" title="interface in com.jbase.framework.io.inflow">RequestListenerServiceMBean</a></code>
-</dd></dl>
+Specified by:`getDefaultReceiveBufferSize` in interface `RequestListenerServiceMBean`
 
-<!--   -->
+
         - #### setDefaultSendBufferSize
 
 ```
 public void setDefaultSendBufferSize(int bytes)
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean#setDefaultSendBufferSize-int-">setDefaultSendBufferSize</a></code> in interface <code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean" title="interface in com.jbase.framework.io.inflow">RequestListenerServiceMBean</a></code>
-</dd></dl>
+Specified by:`setDefaultSendBufferSize` in interface `RequestListenerServiceMBean`
 
-<!--   -->
+
         - #### getDefaultSendBufferSize
 
 ```
 public int getDefaultSendBufferSize()
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean#getDefaultSendBufferSize--">getDefaultSendBufferSize</a></code> in interface <code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean" title="interface in com.jbase.framework.io.inflow">RequestListenerServiceMBean</a></code>
-</dd></dl>
+Specified by:`getDefaultSendBufferSize` in interface `RequestListenerServiceMBean`
 
-<!--   -->
+
         - #### getActiveTransactions
 
 ```
@@ -472,14 +387,9 @@ public int getActiveTransactions()
 Description copied from interface: `RequestListenerServiceMBean`
 
 Return the number of transactions that are currently being processed.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean#getActiveTransactions--">getActiveTransactions</a></code> in interface <code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean" title="interface in com.jbase.framework.io.inflow">RequestListenerServiceMBean</a></code>
-</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>int</dd></dl>
+Specified by:`getActiveTransactions` in interface `RequestListenerServiceMBean`Returns:int
 
-<!--   -->
+
         - #### getTotalActivations
 
 ```
@@ -489,14 +399,9 @@ public long getTotalActivations()
 Description copied from interface: `RequestListenerServiceMBean`
 
 Return the total number of activation requests processed.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean#getTotalActivations--">getTotalActivations</a></code> in interface <code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean" title="interface in com.jbase.framework.io.inflow">RequestListenerServiceMBean</a></code>
-</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>long</dd></dl>
+Specified by:`getTotalActivations` in interface `RequestListenerServiceMBean`Returns:long
 
-<!--   -->
+
         - #### getActivationsPerMinute
 
 ```
@@ -506,35 +411,30 @@ public int getActivationsPerMinute()
 Description copied from interface: `RequestListenerServiceMBean`
 
 Returns the number of activation processed per<br> minute from the time statistics were activated.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean#getActivationsPerMinute--">getActivationsPerMinute</a></code> in interface <code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean" title="interface in com.jbase.framework.io.inflow">RequestListenerServiceMBean</a></code>
-</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>int</dd></dl>
+Specified by:`getActivationsPerMinute` in interface `RequestListenerServiceMBean`Returns:int
 
-<!--   -->
+
         - #### getElapsedMinutes
 
 ```
 protected double getElapsedMinutes(long startedTime)
 ```
 
-<!--   -->
+
         - #### getNowTime
 
 ```
 protected long getNowTime()
 ```
 
-<!--   -->
+
         - #### getActivationsProcessedInLastMinute
 
 ```
 public int getActivationsProcessedInLastMinute(StatisticsCounter statisticType)
 ```
 
-<!--   -->
+
         - #### incrementActivationCount
 
 ```
@@ -542,11 +442,9 @@ public void incrementActivationCount(StatisticsCounter statisticType)
 ```
 
 A RequestHandler is able to call back to this RequestListenerService to<br> track what it considers an activation.  In general the RequestListenerService<br> knows nothing more than the fact that input is ready for processing.  This<br> may be one or more activations, therefore we delegate the responsibility to<br> the RequestHandler.
-<dl><dt><span class="paramLabel">Parameters:</span></dt>
-<dd>
-<code>statisticType</code> - </dd></dl>
+Parameters:`statisticType` -
 
-<!--   -->
+
         - #### startStatistics
 
 ```
@@ -556,12 +454,9 @@ public void startStatistics()
 Description copied from interface: `RequestListenerServiceMBean`
 
 Start recording statistics and reset any existing statistical data.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean#startStatistics--">startStatistics</a></code> in interface <code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean" title="interface in com.jbase.framework.io.inflow">RequestListenerServiceMBean</a></code>
-</dd></dl>
+Specified by:`startStatistics` in interface `RequestListenerServiceMBean`
 
-<!--   -->
+
         - #### stopStatistics
 
 ```
@@ -571,14 +466,10 @@ public void stopStatistics()
 Description copied from interface: `RequestListenerServiceMBean`
 
 Stop recording statistics and reset any existing statistical data.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean#stopStatistics--">stopStatistics</a></code> in interface <code><a href="/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean" title="interface in com.jbase.framework.io.inflow">RequestListenerServiceMBean</a></code>
-</dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+Specified by:`stopStatistics` in interface `RequestListenerServiceMBean`
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../overview-summary.html)
 - [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
 - Class
@@ -601,15 +492,7 @@ framework <br>
 - [All Classes](../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -622,6 +505,5 @@ framework <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

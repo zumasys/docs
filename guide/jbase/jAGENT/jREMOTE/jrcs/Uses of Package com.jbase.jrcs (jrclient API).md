@@ -9,7 +9,8 @@
 
 | Class<br> |  Description<br> |
 | --- | --- |
-<caption><br></caption>| [JCapture](com_jbase_jrcs_jcapture)<br> | Represents a capture object designed to incrementally fetch results of program execution<br> |
+
+| [JCapture](com_jbase_jrcs_jcapture)<br> | Represents a capture object designed to incrementally fetch results of program execution<br> |
 | [JCommon](com_jbase_jrcs_jcommon)<br> | Represents a jBASE common block<br> |
 | [JConnection](com_jbase_jrcs_jconnection)<br> | Represents a connection to a jBASE host<br> |
 | [JDynArray](com_jbase_jrcs_jdynarray)<br> | Represents a jBASE dynamic array<br> |

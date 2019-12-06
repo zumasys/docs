@@ -39,7 +39,7 @@ To compile and catalog programs and subroutines, a ‘C’ compiler must be inst
 
 jBASE recommends the use of the following compilers, depending on your operating system platform.
 
-<u>Platform</u> <u>Compiler</u>
+Platform Compiler
 
 AIX XL C/C++
 
@@ -184,13 +184,13 @@ jruntime.multisession=5FLY3q6e4P6vTff9AETIQYwyjTnxDVK6sS1uFVfPeFQ=
 
 For further information on jBASE licensing see the jBASE Knowledgebase:
 
-[<u>jBASE 5 Licensing</u>](jbase-5-licensing)
+[jBASE 5 Licensing](jbase-5-licensing)
 
 ## Configure jBASE Environment Variables
 
 The following settings will allow you to create a basic jBASE environment. For further information on the available environment variables in jBASE see the jBASE Knowledgebase
 
-[<u>Environment Variables</u>](environment-variables)
+[Environment Variables](environment-variables)
 
 ```
 # vi /opt/jbase5/5.6/jbase_env.sh

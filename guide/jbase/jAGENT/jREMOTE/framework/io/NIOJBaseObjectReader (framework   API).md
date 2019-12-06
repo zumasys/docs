@@ -3,24 +3,11 @@
 **Created At:** 9/25/2017 10:31:44 AM  
 **Updated At:** 2/15/2018 8:02:36 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="NIOJBaseObjectReader (framework   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="NIOJBaseObjectReader (framework   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39220-io/com_jbase_framework_io_package-summary)
 - Class
@@ -43,15 +30,7 @@ framework <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -64,8 +43,7 @@ framework <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= --><!-- ======== START OF CLASS DATA ======== -->
+
 com.jbase.framework.io
 
 ## Class NIOJBaseObjectReader
@@ -75,8 +53,7 @@ com.jbase.framework.io
     - - com.jbase.framework.io.NIOJBaseObjectReader
 
 
-- <dl><dt>All Implemented Interfaces:</dt>
-<dd><a href="/39220-io/com_jbase_framework_io_JBaseObjectReader" title="interface in com.jbase.framework.io">JBaseObjectReader</a></dd></dl>
+- All Implemented Interfaces:[JBaseObjectReader](/39220-io/com_jbase_framework_io_JBaseObjectReader "interface in com.jbase.framework.io")
 * * *
 
 
@@ -86,38 +63,32 @@ extends AbstractJBaseObjectReader
 ```
 
 jBase object reader based on the new Java IO.
-<dl><dt><span class="simpleTagLabel">Author:</span></dt>
-<dd>aphethean</dd></dl>
+Author:aphethean
 
-- <!-- =========== FIELD SUMMARY =========== -->
-    - <!--   -->
-### Field Summary
+- - ### Field Summary
 
 
-<caption><span>Fields</span><span class="tabEnd"> </span></caption>| Modifier and Type | Field and Description |
+Fields | Modifier and Type | Field and Description |
 | --- | --- |
 | `static long` | `READ_TIMEOUT`<br>The temporary selectors read timeout.<br> |
 
 
-        - <!--   -->
-### Fields inherited from class com.jbase.framework.io.[AbstractJBaseObjectReader](/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader "class in com.jbase.framework.io")
+        - ### Fields inherited from class com.jbase.framework.io.[AbstractJBaseObjectReader](/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader "class in com.jbase.framework.io")
 `log`
 
-<!-- ======== CONSTRUCTOR SUMMARY ======== -->
-    - <!--   -->
-### Constructor Summary
+
+    - ### Constructor Summary
 
 
-<caption><span>Constructors</span><span class="tabEnd"> </span></caption>| Constructor and Description |
+Constructors | Constructor and Description |
 | --- |
 | `NIOJBaseObjectReader(ObjectFactory factory,<br>                    SocketChannel channel)`  |
 
-<!-- ========== METHOD SUMMARY =========== -->
-    - <!--   -->
-### Method Summary
+
+    - ### Method Summary
 
 
-<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd"> </span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd"> </span></span><span id="t4" class="tableTab"><span><a href="javascript:show(8);">Concrete Methods</a></span><span class="tabEnd"> </span></span></caption>| Modifier and Type | Method and Description |
+All Methods [Instance Methods](javascript:show%282%29;) [Concrete Methods](javascript:show%288%29;) | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected void` | `checkBuffer(int newDataLength)`  |
 | `void` | `close()`  |
@@ -133,19 +104,15 @@ jBase object reader based on the new Java IO.
 | `void` | `setSocketChannel(SocketChannel socketChannel)`  |
 
 
-        - <!--   -->
-### Methods inherited from class com.jbase.framework.io.[AbstractJBaseObjectReader](/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader "class in com.jbase.framework.io")
+        - ### Methods inherited from class com.jbase.framework.io.[AbstractJBaseObjectReader](/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader "class in com.jbase.framework.io")
 `bufferedRead, checkBuffer, readByteObject, readBytes, readInt, readJBaseSerializableObject, readObject, readObject, readObject, readRootObject, readString`
 
 
-        - <!--   -->
-### Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
+        - ### Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-- <!-- ============ FIELD DETAIL =========== -->
-    - <!--   -->
-### Field Detail
-<!--   -->
+- - ### Field Detail
+
         - #### READ\_TIMEOUT
 
 ```
@@ -153,13 +120,11 @@ public static final long READ_TIMEOUT
 ```
 
 The temporary selectors read timeout.  30 seconds.
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.framework.io.NIOJBaseObjectReader.READ_TIMEOUT">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.framework.io.NIOJBaseObjectReader.READ_TIMEOUT)
 
-<!-- ========= CONSTRUCTOR DETAIL ======== -->
-    - <!--   -->
-### Constructor Detail
-<!--   -->
+
+    - ### Constructor Detail
+
         - #### NIOJBaseObjectReader
 
 ```
@@ -167,10 +132,9 @@ public NIOJBaseObjectReader(ObjectFactory factory,
                             SocketChannel channel)
 ```
 
-<!-- ============ METHOD DETAIL ========== -->
-    - <!--   -->
-### Method Detail
-<!--   -->
+
+    - ### Method Detail
+
         - #### getObjectFactory
 
 ```
@@ -180,116 +144,72 @@ public ObjectFactory getObjectFactory()
 Description copied from class: `AbstractJBaseObjectReader`
 
 This method must be implemented by concrete ObjectReaders.
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader#getObjectFactory--">getObjectFactory</a></code> in class <code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader" title="class in com.jbase.framework.io">AbstractJBaseObjectReader</a></code>
-</dd>
-<dt><span class="returnLabel">Returns:</span></dt>
-<dd>an instance of a class implementing JBaseSerializable</dd></dl>
+Specified by:`getObjectFactory` in class `AbstractJBaseObjectReader`Returns:an instance of a class implementing JBaseSerializable
 
-<!--   -->
+
         - #### close
 
 ```
 public void close()
            throws IOException
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39220-io/com_jbase_framework_io_JBaseObjectReader#close--">close</a></code> in interface <code><a href="/39220-io/com_jbase_framework_io_JBaseObjectReader" title="interface in com.jbase.framework.io">JBaseObjectReader</a></code>
-</dd>
-<dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader#close--">close</a></code> in class <code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader" title="class in com.jbase.framework.io">AbstractJBaseObjectReader</a></code>
-</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Specified by:`close` in interface `JBaseObjectReader`Specified by:`close` in class `AbstractJBaseObjectReader`Throws:`IOException`
 
-<!--   -->
+
         - #### getByte
 
 ```
 protected byte getByte()
                 throws IOException
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader#getByte--">getByte</a></code> in class <code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader" title="class in com.jbase.framework.io">AbstractJBaseObjectReader</a></code>
-</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Specified by:`getByte` in class `AbstractJBaseObjectReader`Throws:`IOException`
 
-<!--   -->
+
         - #### getInt
 
 ```
 protected int getInt()
               throws IOException
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader#getInt--">getInt</a></code> in class <code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader" title="class in com.jbase.framework.io">AbstractJBaseObjectReader</a></code>
-</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Specified by:`getInt` in class `AbstractJBaseObjectReader`Throws:`IOException`
 
-<!--   -->
+
         - #### getBytes
 
 ```
 protected int getBytes(byte[] buf)
                 throws IOException
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader#getBytes-byte:A-">getBytes</a></code> in class <code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader" title="class in com.jbase.framework.io">AbstractJBaseObjectReader</a></code>
-</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Specified by:`getBytes` in class `AbstractJBaseObjectReader`Throws:`IOException`
 
-<!--   -->
+
         - #### getBytes
 
 ```
 protected int getBytes(ByteBuffer bBuf)
                 throws IOException
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader#getBytes-java.nio.ByteBuffer-">getBytes</a></code> in class <code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader" title="class in com.jbase.framework.io">AbstractJBaseObjectReader</a></code>
-</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Specified by:`getBytes` in class `AbstractJBaseObjectReader`Throws:`IOException`
 
-<!--   -->
+
         - #### inBytes
 
 ```
 protected int inBytes(int numberOfBytesToRead)
                throws IOException
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader#inBytes-int-">inBytes</a></code> in class <code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader" title="class in com.jbase.framework.io">AbstractJBaseObjectReader</a></code>
-</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Specified by:`inBytes` in class `AbstractJBaseObjectReader`Throws:`IOException`
 
-<!--   -->
+
         - #### readUTF
 
 ```
 protected String readUTF()
                   throws IOException
 ```
-<dl><dt><span class="overrideSpecifyLabel">Specified by:</span></dt>
-<dd>
-<code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader#readUTF--">readUTF</a></code> in class <code><a href="/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader" title="class in com.jbase.framework.io">AbstractJBaseObjectReader</a></code>
-</dd>
-<dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Specified by:`readUTF` in class `AbstractJBaseObjectReader`Throws:`IOException`
 
-<!--   -->
+
         - #### doRead
 
 ```
@@ -298,33 +218,31 @@ protected int doRead(int numberOfBytes)
 ```
 
 Read bytes using the read a temporary Selector
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Throws:`IOException`
 
-<!--   -->
+
         - #### checkBuffer
 
 ```
 protected void checkBuffer(int newDataLength)
 ```
 
-<!--   -->
+
         - #### isClosed
 
 ```
 public boolean isClosed()
 ```
 
-<!--   -->
+
         - #### setSocketChannel
 
 ```
 public void setSocketChannel(SocketChannel socketChannel)
 ```
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39220-io/com_jbase_framework_io_package-summary)
 - Class
@@ -347,15 +265,7 @@ framework <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -368,6 +278,5 @@ framework <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

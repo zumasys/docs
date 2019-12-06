@@ -14,7 +14,7 @@ public interface JConnectionCallbackHandler
 
 | Modifier and Type | Method and Description |
 | --- | --- |
-<caption>All Methods <a href="javascript%3Ashow(2);">Instance Methods</a> <a href="javascript%3Ashow(4);">Abstract Methods</a>&nbsp;</caption>| `boolean` | `initialise(Subject subject,           JConnection connection)` Initialise a connection for the supplied Subject.<br> |
+All Methods [Instance Methods](javascript%3Ashow%282%29;) [Abstract Methods](javascript%3Ashow%284%29;) | `boolean` | `initialise(Subject subject,           JConnection connection)` Initialise a connection for the supplied Subject.<br> |
 | `boolean` | `reinitialise(Subject subject,             JConnection connection)` The Subject intends to use a connection that was previously  initialised for another Subject.<br> |
 | `boolean` | `reuse(Subject subject,      JConnection connection)` The Subject is reusing the supplied connection.<br> |
 - - ### Method Detail

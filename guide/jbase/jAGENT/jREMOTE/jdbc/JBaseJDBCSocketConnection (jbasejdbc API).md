@@ -3,11 +3,11 @@
 **Created At:** 9/25/2017 10:55:46 AM  
 **Updated At:** 8/17/2018 2:25:53 AM  
 
-<noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+
 
 # Class JBaseJDBCSocketConnection
-<dl><dt><strong>All Implemented Interfaces:</strong></dt><dd><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals" title="interface in com.jbase.jdbc">JBaseJDBCGlobals</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true" title="class or interface in java.lang">AutoCloseable</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true" title="class or interface in java.sql">Wrapper</a></dd></dl>
+**All Implemented Interfaces:**[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc"), [AutoCloseable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true "class or interface in java.lang"), [Connection](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true "class or interface in java.sql"), [Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")
 ```
 public class JBaseJDBCSocketConnection
 extends JBaseJDBCConnection
@@ -16,37 +16,33 @@ implements JBaseJDBCGlobals
 
 
 
-<!-- ======== NESTED CLASS SUMMARY ======== -->
-
-<!--   -->
-
 # Nested Class Summary
 
-<!--   -->
+
 
 ## Nested classes/interfaces inherited from interface com.jbase.jdbc.JBaseJDBCGlobals
 `JBaseJDBCGlobals.TYPES`
 
 
 
-<!-- =========== FIELD SUMMARY =========== -->
-<!--   -->
+
+
 
 # Field Summary
 
-<!--   -->
+
 
 ## Fields inherited from interface com.jbase.jdbc.JBaseJDBCGlobals
 `CHAR_AM, CHAR_SM, CHAR_VM, SHORT_AM, SHORT_CHAR_AM, SHORT_CHAR_SM, SHORT_CHAR_VM, SHORT_SM, SHORT_VM`
 
 
-<!--   -->
+
 
 ## Fields inherited from interface java.sql.Connection
 `TRANSACTION_NONE, TRANSACTION_READ_COMMITTED, TRANSACTION_READ_UNCOMMITTED, TRANSACTION_REPEATABLE_READ, TRANSACTION_SERIALIZABLE`
 
-<!-- ======== CONSTRUCTOR SUMMARY ======== -->
-<!--   -->
+
+
 
 # Constructor Summary
 
@@ -57,8 +53,8 @@ implements JBaseJDBCGlobals
 
 
 
-<!-- ========== METHOD SUMMARY =========== -->
-<!--   -->
+
+
 
 # Method Summary
 
@@ -118,7 +114,7 @@ implements JBaseJDBCGlobals
 
 
 
-<!--   -->
+
 
 ## 
 
@@ -127,30 +123,28 @@ implements JBaseJDBCGlobals
 `createBlob`
 
 
-<!--   -->
+
 
 ## Methods inherited from class java.lang.Object
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
 
-<!--   -->
+
 
 ## Methods inherited from interface java.sql.Connection
 `abort, createArrayOf, createClob, createNClob, createSQLXML, createStruct, getClientInfo, getClientInfo, getNetworkTimeout, getSchema, isValid, setClientInfo, setClientInfo, setNetworkTimeout, setSchema`
 
 
-<!--   -->
+
 
 ## Methods inherited from interface java.sql.Wrapper
 `isWrapperFor, unwrap`
-
-<!--   -->
 
 # 
 
 
 # Constructor Detail
-<!--   -->
+
 
 
 #### **JBaseJDBCSocketConnection**
@@ -163,18 +157,20 @@ public JBaseJDBCSocketConnection(String url, Properties info)
 
 
 
-<!-- ============ METHOD DETAIL ========== --><!--   -->
+
 # Method Detail
-<!--   -->
+
 #### **doConnection**
 
 ```
 public void doConnection()
                   throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>doConnection</code> in class <code><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCConnection" title="class in com.jbase.jdbc">JBaseJDBCConnection</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`doConnection` in class `JBaseJDBCConnection`
+**Throws:**`SQLException`
+
+
 
 
 #### **authenticate**
@@ -183,9 +179,9 @@ public void doConnection()
 protected void authenticate()
                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **authenticate**
@@ -194,9 +190,10 @@ protected void authenticate()
 protected void authenticate(String account)
                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Throws:**`SQLException`
+
+
 
 
 #### **sendProperties**
@@ -205,9 +202,10 @@ protected void authenticate(String account)
 protected void sendProperties()
                        throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Throws:**`SQLException`
+
+
 
 
 #### **isSSLRequired**
@@ -217,7 +215,7 @@ protected boolean isSSLRequired()
 ```
 
 
-<!--   -->
+
 
 
 #### **isCompressionRequired**
@@ -227,7 +225,7 @@ protected boolean isCompressionRequired()
 ```
 
 
-<!--   -->
+
 
 
 #### **compressionThreshold**
@@ -237,7 +235,7 @@ protected int compressionThreshold()
 ```
 
 
-<!--   -->
+
 
 
 #### **getInfo**
@@ -247,7 +245,7 @@ protected Properties getInfo()
 ```
 
 
-<!--   -->
+
 
 
 #### **getIsolationLevel**
@@ -257,7 +255,7 @@ protected int getIsolationLevel()
 ```
 
 
-<!--   -->
+
 
 
 #### **getConnectionInfo**
@@ -266,10 +264,11 @@ protected int getIsolationLevel()
 protected String getConnectionInfo()
 ```
 
-Debugging tool.<dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>traceback or another connection info string.</dd>
+Debugging tool.
+**Returns:**traceback or another connection info string.
 
 
-<!--   -->
+
 
 
 #### **connect**
@@ -280,9 +279,10 @@ protected void connect(String host, int port)
                        UnknownHostException,
                        IOException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/security/NoSuchAlgorithmException.html?is-external=true" title="class or interface in java.security">NoSuchAlgorithmException</a></code></dd><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/net/UnknownHostException.html?is-external=true" title="class or interface in java.net">UnknownHostException</a></code></dd><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
 
-<!--   -->
+**Throws:**`NoSuchAlgorithmException``UnknownHostException``IOException`
+
+
 
 
 #### **isEnabledNaiveTrustManager**
@@ -292,7 +292,7 @@ public boolean isEnabledNaiveTrustManager()
 ```
 
 
-<!--   -->
+
 
 
 #### **getHoldability**
@@ -301,9 +301,11 @@ public boolean isEnabledNaiveTrustManager()
 public int getHoldability()
                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getHoldability</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getHoldability` in interface `Connection`
+**Throws:**`SQLException`
+
+
 
 
 #### **getTransactionIsolation**
@@ -312,9 +314,11 @@ public int getHoldability()
 public int getTransactionIsolation()
                             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getTransactionIsolation</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getTransactionIsolation` in interface `Connection`
+**Throws:**`SQLException`
+
+
 
 
 #### **clearWarnings**
@@ -323,9 +327,11 @@ public int getTransactionIsolation()
 public void clearWarnings()
                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>clearWarnings</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`clearWarnings` in interface `Connection`
+**Throws:**`SQLException`
+
+
 
 
 #### **close**
@@ -334,9 +340,12 @@ public void clearWarnings()
 public void close()
            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>close</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true" title="class or interface in java.lang">AutoCloseable</a></code></dd><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>close</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`close` in interface `AutoCloseable`
+**Specified by:**`close` in interface `Connection`
+**Throws:**`SQLException`
+
+
 
 
 #### **commit**
@@ -347,9 +356,10 @@ public void commit()
 ```
 
 Makes all changes made since the previous commit/rollback permanent and releases any database locks currently held by this Connection object. This method should be used only when auto-commit mode has been disabled.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>commit</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or this Connection object is in auto-commit mode</dd></dl>
+**Specified by:**`commit` in interface `Connection`
+**Throws:**`SQLException` - if a database access error occurs or this Connection object is in auto-commit mode
 
-<!--   -->
+
 
 
 #### **rollback**
@@ -360,9 +370,10 @@ public void rollback()
 ```
 
 Undoes all changes made in the current transaction and releases any database locks currently held by this Connection object. This method should be used only when auto-commit mode has been disabled.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>rollback</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or this Connection object is in auto-commit mode</dd></dl>
+**Specified by:**`rollback` in interface `Connection`
+**Throws:**`SQLException` - if a database access error occurs or this Connection object is in auto-commit mode
 
-<!--   -->
+
 
 
 #### **getAutoCommit**
@@ -373,9 +384,13 @@ public boolean getAutoCommit()
 ```
 
 Retrieves the current auto-commit mode for this Connection object.
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getAutoCommit</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the current state of this Connection object&#39;s auto-commit mode</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true#getAutoCommit--" title="class or interface in java.sql"><code>Connection.getAutoCommit()</code></a></dd></dl>
 
-<!--   -->
+**Specified by:**`getAutoCommit` in interface `Connection`
+**Returns:**the current state of this Connection object's auto-commit mode
+**Throws:**`SQLException` - if a database access error occurs
+**See Also:**[`Connection.getAutoCommit()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true#getAutoCommit-- "class or interface in java.sql")
+
+
 
 
 #### isClosed
@@ -384,9 +399,11 @@ Retrieves the current auto-commit mode for this Connection object.
 public boolean isClosed()
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>isClosed</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`isClosed` in interface `Connection`
+**Throws:**`SQLException`
+
+
 
 
 #### **isReadOnly**
@@ -397,9 +414,11 @@ public boolean isReadOnly()
 ```
 
 Retrieves whether this Connection object is in read-only mode.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>isReadOnly</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">true if this Connection object is read-only; false otherwise</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`isReadOnly` in interface `Connection`
+**Returns:**true if this Connection object is read-only; false otherwise
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **setHoldability**
@@ -408,9 +427,11 @@ Retrieves whether this Connection object is in read-only mode.
 public void setHoldability(int holdability)
                     throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setHoldability</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`setHoldability` in interface `Connection`
+**Throws:**`SQLException`
+
+
 
 
 #### **setTransactionIsolation**
@@ -419,9 +440,11 @@ public void setHoldability(int holdability)
 public void setTransactionIsolation(int level)
                              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setTransactionIsolation</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`setTransactionIsolation` in interface `Connection`
+**Throws:**`SQLException`
+
+
 
 
 #### **setAutoCommit**
@@ -432,9 +455,12 @@ public void setAutoCommit(boolean autoCommit)
 ```
 
 Sets this connection's auto-commit mode to the given state. If a connection is in auto-commit mode, then all its SQL statements will be executed and committed as individual transactions. Otherwise, its SQL statements are grouped into transactions that are terminated by a call to either the method commit or the method rollback. By default, new connections are in auto-commit mode. The commit occurs when the statement completes or the next execute occurs, whichever comes first. In the case of statements returning a ResultSet object, the statement completes when the last row of the ResultSet object has been retrieved or the ResultSet object has been closed. In advanced cases, a single statement may return multiple results as well as output parameter values. In these cases, the commit occurs when all results and output parameter values have been retrieved. NOTE: If this method is called during a transaction, the transaction is committed.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setAutoCommit</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>autoCommit</code> - true to enable auto-commit mode; false to disable it</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true#setAutoCommit-boolean-" title="class or interface in java.sql"><code>Connection.setAutoCommit(boolean)</code></a></dd></dl>
+**Specified by:**`setAutoCommit` in interface `Connection`
+**Parameters:**`autoCommit` - true to enable auto-commit mode; false to disable it
+**Throws:**`SQLException` - - if a database access error occurs
+**See Also:**[`Connection.setAutoCommit(boolean)`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true#setAutoCommit-boolean- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **setReadOnly**
@@ -445,9 +471,11 @@ public void setReadOnly(boolean readOnly)
 ```
 
 Puts this connection in read-only mode as a hint to the driver to enable database optimizations. Note: This method cannot be called during a transaction.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true#setReadOnly-boolean-" title="class or interface in java.sql">setReadOnly</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>readOnly</code> - true enables read-only mode; false disables it</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or this method is called during a transaction</dd></dl>
+**Specified by:**`setReadOnly` in interface `Connection`
+**Parameters:**`readOnly` - true enables read-only mode; false disables it
+**Throws:**`SQLException` - if a database access error occurs or this method is called during a transaction
 
-<!--   -->
+
 
 
 #### **getCatalog**
@@ -458,9 +486,12 @@ public String getCatalog()
 ```
 
 Retrieves this Connection object's current catalog name.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getCatalog</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the current catalog name or null if there is none</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true#getCatalog--" title="class or interface in java.sql"><code>Connection.getCatalog()</code></a></dd></dl>
+**Specified by:**`getCatalog` in interface `Connection`
+**Returns:**the current catalog name or null if there is none
+**Throws:**`SQLException` - if a database access error occurs
+**See Also:**[`Connection.getCatalog()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true#getCatalog-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### setCatalog
@@ -471,9 +502,11 @@ public void setCatalog(String catalog)
 ```
 
 Sets the given catalog name in order to select a subspace of this Connection object's database in which to work. If the driver does not support catalogs, it will silently ignore this request. jBASE NOTE: We don't support catalogs at the moment.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true#setCatalog-java.lang.String-" title="class or interface in java.sql">setCatalog</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>catalog</code> - the name of a catalog (subspace in this Connection object&#39;s database) in which to work</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`setCatalog` in interface `Connection`
+**Parameters:**`catalog` - the name of a catalog (subspace in this Connection object's database) in which to work
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **getMetaData**
@@ -484,9 +517,11 @@ public DatabaseMetaData getMetaData()
 ```
 
 Retrieves a DatabaseMetaData object that contains metadata about the database to which this Connection object represents a connection. The metadata includes information about the database's tables, its supported SQL grammar, its stored procedures, the capabilities of this connection, and so on.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMetaData</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">a DatabaseMetaData object for this Connection object</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`getMetaData` in interface `Connection`
+**Returns:**a DatabaseMetaData object for this Connection object
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **getWarnings**
@@ -497,9 +532,12 @@ public SQLWarning getWarnings()
 ```
 
 Retrieves the first warning reported by calls on this Connection object. If there is more than one warning, subsequent warnings will be chained to the first one and can be retrieved by calling the method SQLWarning.getNextWarning on the warning that was retrieved previously. This method may not be called on a closed connection; doing so will cause an SQLException to be thrown. Note: Subsequent warnings will be chained to this SQLWarning. jBASE NOTE: Currently jSQL does not support warnings; this method will always return null.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getWarnings</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the first SQLWarning object or null if there are none</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or this method is called on a closed connection</dd><dt style="margin-left: 40px;"><br></dt></dl>
+**Specified by:**`getWarnings` in interface `Connection`
+**Returns:**the first SQLWarning object or null if there are none
+**Throws:**`SQLException` - if a database access error occurs or this method is called on a closed connection
 
-<!--   -->
+
+
 
 
 #### **setSavepoint**
@@ -512,9 +550,12 @@ public Savepoint setSavepoint()
 jBASE NOTE: Currently jSQL does no support savepoints.
 
 Creates an unnamed savepoint in the current transaction and returns the new Savepoint object that represents it.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setSavepoint</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the new Savepoint object</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or this Connection object is currently in auto-commit mode</dd><dt style="margin-left: 40px;"><br></dt></dl>
+**Specified by:**`setSavepoint` in interface `Connection`
+**Returns:**the new Savepoint object
+**Throws:**`SQLException` - if a database access error occurs or this Connection object is currently in auto-commit mode
 
-<!--   -->
+
+
 
 
 #### **releaseSavepoint**
@@ -526,10 +567,13 @@ public void releaseSavepoint(Savepoint savepoint)
 
 jBASE NOTE: Currently jSQL does no support savepoints.
 
-Removes the given Savepoint object from the current transaction. Any reference to the savepoint after it has been removed will cause an SQLException to be thrown.<dt><strong><br></strong><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>releaseSavepoint</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>savepoint</code> - the Savepoint object to be removed</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the given Savepoint object is not a valid savepoint in the current transaction</dd>
+Removes the given Savepoint object from the current transaction. Any reference to the savepoint after it has been removed will cause an SQLException to be thrown.
+**Specified by:**`releaseSavepoint` in interface `Connection`
+**Parameters:**`savepoint` - the Savepoint object to be removed
+**Throws:**`SQLException` - if a database access error occurs or the given Savepoint object is not a valid savepoint in the current transaction
 
 
-<!--   -->
+
 
 
 #### **rollback**
@@ -540,9 +584,12 @@ public void rollback(Savepoint savepoint)
 ```
 
 Undoes all changes made after the given Savepoint object was set. This method should be used only when auto-commit has been disabled.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true#rollback-java.sql.Savepoint-" title="class or interface in java.sql">rollback</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 40px;"><code>savepoint</code> - the Savepoint object to roll back to</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs, the Savepoint object is no longer valid, or this Connection object is currently in auto-commit mode</dd><dt style="margin-left: 40px;"><br></dt></dl>
+**Specified by:**`rollback` in interface `Connection`
+**Parameters:**`savepoint` - the Savepoint object to roll back to
+**Throws:**`SQLException` - if a database access error occurs, the Savepoint object is no longer valid, or this Connection object is currently in auto-commit mode
 
-<!--   -->
+
+
 
 
 #### **createStatement**
@@ -553,9 +600,11 @@ public Statement createStatement()
 ```
 
 Creates a Statement object for sending SQL statements to the database. SQL statements without parameters are normally executed using Statement objects. If the same SQL statement is executed many times, it may be more efficient to use a PreparedStatement object. Result sets created using the returned Statement object will by default be type TYPE\_FORWARD\_ONLY and have a concurrency level of CONCUR\_READ\_ONLY.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>createStatement</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">a new default Statement object</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`createStatement` in interface `Connection`
+**Returns:**a new default Statement object
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **createStatement**
@@ -566,9 +615,12 @@ public Statement createStatement(int resultSetType, int resultSetConcurrency)
 ```
 
 TODO: Creates a Statement object that will generate ResultSet objects with the given type and concurrency. This method is the same as the createStatement method above, but it allows the default result set type and concurrency to be overridden.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>createStatement</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>resultSetType</code> - a result set type; one of ResultSet.TYPE_FORWARD_ONLY, ResultSet.TYPE_SCROLL_INSENSITIVE, or ResultSet.TYPE_SCROLL_SENSITIVE,</dd><dd style="margin-left: 60px;"><code>resultSetConcurrency</code> - a concurrency type; one of ResultSet.CONCUR_READ_ONLY or ResultSet.CONCUR_UPDATABLE.</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">a new Statement object that will generate ResultSet objects with the given type and concurrency</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the given parameters are not ResultSet constants indicating type and concurrency</dd></dl>
+**Specified by:**`createStatement` in interface `Connection`
+**Parameters:**`resultSetType` - a result set type; one of ResultSet.TYPE\_FORWARD\_ONLY, ResultSet.TYPE\_SCROLL\_INSENSITIVE, or ResultSet.TYPE\_SCROLL\_SENSITIVE,`resultSetConcurrency` - a concurrency type; one of ResultSet.CONCUR\_READ\_ONLY or ResultSet.CONCUR\_UPDATABLE.
+**Returns:**a new Statement object that will generate ResultSet objects with the given type and concurrency
+**Throws:**`SQLException` - if a database access error occurs or the given parameters are not ResultSet constants indicating type and concurrency
 
-<!--   -->
+
 
 
 #### **createStatement**
@@ -579,9 +631,17 @@ public Statement createStatement(int resultSetType, int resultSetConcurrency, in
 ```
 
 TODO: Creates a Statement object that will generate ResultSet objects with the given type, concurrency, and holdability. This method is the same as the createStatement method above, but it allows the default result set type, concurrency, and holdability to be overridden.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>createStatement</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><p style="margin-left: 40px;"><br></p><dt style="margin-left: 40px;"><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>resultSetType</code> - one of the following ResultSet constants: ResultSet.TYPE_FORWARD_ONLY, ResultSet.TYPE_SCROLL_INSENSITIVE, or ResultSet.TYPE_SCROLL_SENSITIVE,</dd><dd style="margin-left: 60px;"><code>resultSetConcurrency</code> - one of the following ResultSet constants: ResultSet.CONCUR_READ_ONLY or ResultSet.CONCUR_UPDATABLE,</dd><dd style="margin-left: 60px;"><code>resultSetHoldability</code> - one of the following ResultSet constants: ResultSet.HOLD_CURSORS_OVER_COMMIT or ResultSet.CLOSE_CURSORS_AT_COMMIT.</dd><p style="margin-left: 40px;"><br></p><dt style="margin-left: 40px;"><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">a new Statement object that will generate ResultSet objects with the given type, concurrency, and holdability</dd><p style="margin-left: 40px;"><br></p><dt style="margin-left: 40px;"><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the given parameters are not ResultSet constants indicating type, concurrency, and holdability</dd><p style="margin-left: 40px;"><br></p><dt style="margin-left: 40px;"><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql"><code>ResultSet</code></a></dd></dl>
+**Specified by:**`createStatement` in interface `Connection`
 
-<!--   -->
+**Parameters:**`resultSetType` - one of the following ResultSet constants: ResultSet.TYPE\_FORWARD\_ONLY, ResultSet.TYPE\_SCROLL\_INSENSITIVE, or ResultSet.TYPE\_SCROLL\_SENSITIVE,`resultSetConcurrency` - one of the following ResultSet constants: ResultSet.CONCUR\_READ\_ONLY or ResultSet.CONCUR\_UPDATABLE,`resultSetHoldability` - one of the following ResultSet constants: ResultSet.HOLD\_CURSORS\_OVER\_COMMIT or ResultSet.CLOSE\_CURSORS\_AT\_COMMIT.
+
+**Returns:**a new Statement object that will generate ResultSet objects with the given type, concurrency, and holdability
+
+**Throws:**`SQLException` - if a database access error occurs or the given parameters are not ResultSet constants indicating type, concurrency, and holdability
+
+**See Also:**[`ResultSet`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true "class or interface in java.sql")
+
+
 
 
 #### **getTypeMap**
@@ -592,9 +652,10 @@ public Map<String,Class<?>> getTypeMap()
 ```
 
 TODO: Retrieves the Map object associated with this Connection object. Unless the application has added an entry, the type map returned will be empty.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getTypeMap</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`getTypeMap` in interface `Connection`
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **setTypeMap**
@@ -605,9 +666,12 @@ public void setTypeMap(Map map)
 ```
 
 TODO: Installs the given TypeMap object as the type map for this Connection object. The type map will be used for the custom mapping of SQL structured types and distinct types.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setTypeMap</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>map</code> - the java.util.Map object to install as the replacement for this Connection object&#39;s default type map</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the given parameter is not a java.util.Map object</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also</strong>:</span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true#getTypeMap--" title="class or interface in java.sql"><code>Connection.getTypeMap()</code></a></dd></dl>
+**Specified by:**`setTypeMap` in interface `Connection`
+**Parameters:**`map` - the java.util.Map object to install as the replacement for this Connection object's default type map
+**Throws:**`SQLException` - if a database access error occurs or the given parameter is not a java.util.Map object
+**See Also**:[`Connection.getTypeMap()`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true#getTypeMap-- "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **nativeSQL**
@@ -618,9 +682,12 @@ public String nativeSQL(String sql)
 ```
 
 Converts the given SQL statement into the system's native SQL grammar. A driver may convert the JDBC SQL grammar into its system's native SQL grammar prior to sending it. This method returns the native form of the statement that the driver would have sent. jBASE NOTE: This method returns its actual parameter unchanged.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true#nativeSQL-java.lang.String-" title="class or interface in java.sql">nativeSQL</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>sql</code> - an SQL statement that may contain one or more &#39;?&#39; parameter placeholders</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the native form of this statement</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`nativeSQL` in interface `Connection`
+**Parameters:**`sql` - an SQL statement that may contain one or more '?' parameter placeholders
+**Returns:**the native form of this statement
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **prepareCall**
@@ -631,9 +698,12 @@ public CallableStatement prepareCall(String sql)
 ```
 
 TODO: Creates a CallableStatement object for calling database stored procedures. The CallableStatement object provides methods for setting up its IN and OUT parameters, and methods for executing the call to a stored procedure. Note: This method is optimized for handling stored procedure call statements. Some drivers may send the call statement to the database when the method prepareCall is done; others may wait until the CallableStatement object is executed. This has no direct effect on users; however, it does affect which method throws certain SQLExceptions. Result sets created using the returned CallableStatement object will by default be type TYPE\_FORWARD\_ONLY and have a concurrency level of CONCUR\_READ\_ONLY.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>prepareCall</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>sql</code> - an SQL statement that may contain one or more &#39;?&#39; parameter placeholders. Typically this statement is a JDBC function call escape string.</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">a new default CallableStatement object containing the pre-compiled SQL statement</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`prepareCall` in interface `Connection`
+**Parameters:**`sql` - an SQL statement that may contain one or more '?' parameter placeholders. Typically this statement is a JDBC function call escape string.
+**Returns:**a new default CallableStatement object containing the pre-compiled SQL statement
+**Throws:**`SQLException` - if a database access error occurs
 
-<!--   -->
+
 
 
 #### **prepareCall**
@@ -644,9 +714,12 @@ public CallableStatement prepareCall(String sql, int resultSetType, int resultSe
 ```
 
 TODO: Creates a CallableStatement object that will generate ResultSet objects with the given type and concurrency. This method is the same as the prepareCall method above, but it allows the default result set type and concurrency to be overridden.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>prepareCall</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>sql</code> - a String object that is the SQL statement to be sent to the database; may contain on or more ? parameters</dd><dd style="margin-left: 60px;"><code>resultSetType</code> - a result set type; one of ResultSet.TYPE_FORWARD_ONLY, ResultSet.TYPE_SCROLL_INSENSITIVE, or ResultSet.TYPE_SCROLL_SENSITIVE</dd><dd style="margin-left: 60px;"><code>resultSetConcurrency</code> - a concurrency type; one of ResultSet.CONCUR_READ_ONLY or ResultSet.CONCUR_UPDATABLE</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">a new CallableStatement object containing the pre-compiled SQL statement that will produce ResultSet objects with the given type and concurrency</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the given parameters are not ResultSet constants indicating type and concurrency</dd></dl>
+**Specified by:**`prepareCall` in interface `Connection`
+**Parameters:**`sql` - a String object that is the SQL statement to be sent to the database; may contain on or more ? parameters`resultSetType` - a result set type; one of ResultSet.TYPE\_FORWARD\_ONLY, ResultSet.TYPE\_SCROLL\_INSENSITIVE, or ResultSet.TYPE\_SCROLL\_SENSITIVE`resultSetConcurrency` - a concurrency type; one of ResultSet.CONCUR\_READ\_ONLY or ResultSet.CONCUR\_UPDATABLE
+**Returns:**a new CallableStatement object containing the pre-compiled SQL statement that will produce ResultSet objects with the given type and concurrency
+**Throws:**`SQLException` - if a database access error occurs or the given parameters are not ResultSet constants indicating type and concurrency
 
-<!--   -->
+
 
 
 #### **prepareCall**
@@ -658,10 +731,13 @@ public CallableStatement prepareCall(String sql, int resultSetType, int resultSe
 
 TODO: Creates a CallableStatement object that will generate ResultSet objects with the given type and concurrency. This method is the same as the prepareCall method above, but it allows the default result set type, result set concurrency type and holdability to be overridden.
 
-**Specified by:**<dd style="margin-left: 40px;"><code>prepareCall</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>sql</code> - a String object that is the SQL statement to be sent to the database; may contain on or more ? parameters</dd><dd style="margin-left: 20px;"><code>resultSetType</code> - one of the following ResultSet constants: ResultSet.TYPE_FORWARD_ONLY, ResultSet.TYPE_SCROLL_INSENSITIVE, or ResultSet.TYPE_SCROLL_SENSITIVE</dd><dd style="margin-left: 20px;"><code>resultSetConcurrency</code> - one of the following ResultSet constants: ResultSet.CONCUR_READ_ONLY or ResultSet.CONCUR_UPDATABLE</dd><dd style="margin-left: 20px;"><code>resultSetHoldability</code> - one of the following ResultSet constants: ResultSet.HOLD_CURSORS_OVER_COMMIT or ResultSet.CLOSE_CURSORS_AT_COMMIT</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>a new CallableStatement object, containing the pre-compiled SQL statement, that will generate ResultSet objects with the given type, concurrency, and holdability</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the given parameters are not ResultSet constants indicating type, concurrency, and holdability</dd>
+**Specified by:**`prepareCall` in interface `Connection`
+**Parameters:**`sql` - a String object that is the SQL statement to be sent to the database; may contain on or more ? parameters`resultSetType` - one of the following ResultSet constants: ResultSet.TYPE\_FORWARD\_ONLY, ResultSet.TYPE\_SCROLL\_INSENSITIVE, or ResultSet.TYPE\_SCROLL\_SENSITIVE`resultSetConcurrency` - one of the following ResultSet constants: ResultSet.CONCUR\_READ\_ONLY or ResultSet.CONCUR\_UPDATABLE`resultSetHoldability` - one of the following ResultSet constants: ResultSet.HOLD\_CURSORS\_OVER\_COMMIT or ResultSet.CLOSE\_CURSORS\_AT\_COMMIT
+**Returns:**a new CallableStatement object, containing the pre-compiled SQL statement, that will generate ResultSet objects with the given type, concurrency, and holdability
+**Throws:**`SQLException` - if a database access error occurs or the given parameters are not ResultSet constants indicating type, concurrency, and holdability
 
 
-<!--   -->
+
 
 
 #### **prepareStatement**
@@ -674,9 +750,13 @@ public PreparedStatement prepareStatement(String sql)
 Creates a PreparedStatement object for sending parameterized SQL statements to the database.
 
 A SQL statement with or without IN parameters can be pre-compiled and stored in a PreparedStatement object. This object can then be used to efficiently execute this statement multiple times. Note: This method is optimized for handling parametric SQL statements that benefit from precompilation. If the driver supports precompilation, the method prepareStatement will send the statement to the database for precompilation. Some drivers may not support precompilation. In this case, the statement may not be sent to the database until the PreparedStatement object is executed. This has no direct effect on users; however, it does affect which methods throw certain SQLException objects. Result sets created using the returned PreparedStatement object will by default be type TYPE\_FORWARD\_ONLY and have a concurrency level of CONCUR\_READ\_ONLY.
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>prepareStatement</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>sql</code> - an SQL statement that may contain one or more &#39;?&#39; IN parameter placeholders</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">a new default PreparedStatement object containing the pre-compiled SQL statement</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
 
-<!--   -->
+**Specified by:**`prepareStatement` in interface `Connection`
+**Parameters:**`sql` - an SQL statement that may contain one or more '?' IN parameter placeholders
+**Returns:**a new default PreparedStatement object containing the pre-compiled SQL statement
+**Throws:**`SQLException` - if a database access error occurs
+
+
 
 
 #### **prepareStatement**
@@ -687,9 +767,12 @@ public PreparedStatement prepareStatement(String sql, int autoGeneratedKeys)
 ```
 
 Creates a default PreparedStatement object that has the capability to retrieve auto-generated keys. The given constant tells the driver whether it should make auto-generated keys available for retrieval. This parameter is ignored if the SQL statement is not an INSERT statement. Note: This method is optimized for handling parametric SQL statements that benefit from precompilation. If the driver supports precompilation, the method prepareStatement will send the statement to the database for precompilation. Some drivers may not support precompilation. In this case, the statement may not be sent to the database until the PreparedStatement object is executed. This has no direct effect on users; however, it does affect which methods throw certain SQLExceptions. Result sets created using the returned PreparedStatement object will by default be type TYPE\_FORWARD\_ONLY and have a concurrency level of CONCUR\_READ\_ONLY.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>prepareStatement</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 60px;"><code>sql</code> - - an SQL statement that may contain one or more &#39;?&#39; IN parameter placeholders</dd><dd style="margin-left: 60px;"><code>autoGeneratedKeys</code> - - a flag indicating whether auto-generated keys should be returned; one of Statement.RETURN_GENERATED_KEYS or Statement.NO_GENERATED_KEYS</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">a new PreparedStatement object, containing the pre-compiled SQL statement, that will have the capability of returning auto-generated keys</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs or the given parameter is not a Statement constant indicating whether auto-generated keys should be returned</dd></dl>
+**Specified by:**`prepareStatement` in interface `Connection`
+**Parameters:**`sql` - - an SQL statement that may contain one or more '?' IN parameter placeholders`autoGeneratedKeys` - - a flag indicating whether auto-generated keys should be returned; one of Statement.RETURN\_GENERATED\_KEYS or Statement.NO\_GENERATED\_KEYS
+**Returns:**a new PreparedStatement object, containing the pre-compiled SQL statement, that will have the capability of returning auto-generated keys
+**Throws:**`SQLException` - - if a database access error occurs or the given parameter is not a Statement constant indicating whether auto-generated keys should be returned
 
-<!--   -->
+
 
 
 #### **prepareStatement**
@@ -698,9 +781,10 @@ Creates a default PreparedStatement object that has the capability to retrieve a
 public PreparedStatement prepareStatement(String sql, int resultSetType, int resultSetConcurrency)
                                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>prepareStatement</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`prepareStatement` in interface `Connection`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **prepareStatement**
@@ -709,9 +793,10 @@ public PreparedStatement prepareStatement(String sql, int resultSetType, int res
 public PreparedStatement prepareStatement(String sql, int resultSetType, int resultSetConcurrency, int resultSetHoldability)
                                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>prepareStatement</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`prepareStatement` in interface `Connection`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **prepareStatement**
@@ -720,9 +805,10 @@ public PreparedStatement prepareStatement(String sql, int resultSetType, int res
 public PreparedStatement prepareStatement(String sql, int[] columnIndexes)
                                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>prepareStatement</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`prepareStatement` in interface `Connection`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **setSavepoint**
@@ -735,9 +821,13 @@ public Savepoint setSavepoint(String name)
 jBASE NOTE: Currently jSQL does no support savepoints.
 
 Creates a savepoint with the given name in the current transaction and returns the new Savepoint object that represents it.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>setSavepoint</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 40px;"><code>&nbsp; &nbsp; name</code> - a String containing the name of the savepoint</dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the new Savepoint object</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or this Connection object is currently in auto-commit mode</dd><dt style="margin-left: 40px;"><br><span class="seeLabel"><strong>See Also:</strong></span></dt><dd style="margin-left: 40px;"><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Savepoint.html?is-external=true" title="class or interface in java.sql"><code>Savepoint</code></a></dd></dl>
+**Specified by:**`setSavepoint` in interface `Connection`
+**Parameters:**`    name` - a String containing the name of the savepoint
+**Returns:**the new Savepoint object
+**Throws:**`SQLException` - if a database access error occurs or this Connection object is currently in auto-commit mode
+**See Also:**[`Savepoint`](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Savepoint.html?is-external=true "class or interface in java.sql")
 
-<!--   -->
+
 
 
 #### **prepareStatement**
@@ -746,11 +836,12 @@ Creates a savepoint with the given name in the current transaction and returns t
 public PreparedStatement prepareStatement(String sql, String[] columnNames)
                                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>prepareStatement</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true" title="class or interface in java.sql">Connection</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`prepareStatement` in interface `Connection`
+**Throws:**`SQLException`
 
 
 
-<!--   -->
+
 
 
 #### **getResponse**
@@ -761,6 +852,7 @@ protected Response getResponse()
 ```
 
 Reads response from the server. Handles InputOutputResponse on its own.
-<dl><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+**Throws:**`SQLException`
+
+

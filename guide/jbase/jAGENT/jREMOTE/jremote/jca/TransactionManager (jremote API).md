@@ -3,26 +3,14 @@
 **Created At:** 9/25/2017 12:08:35 PM  
 **Updated At:** 4/6/2018 12:10:25 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="TransactionManager (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="TransactionManager (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
+
 
 ## Class TransactionManager
 
-<dl><dt>All Implemented Interfaces:</dt><dd>javax.resource.spi.LocalTransaction</dd></dl>
+All Implemented Interfaces:javax.resource.spi.LocalTransaction
 * * *
 
 
@@ -31,8 +19,6 @@ public class TransactionManager
 extends Object
 implements javax.resource.spi.LocalTransaction
 ```
-
-<!--   -->
 
 ### Constructor Summary
 
@@ -44,7 +30,7 @@ implements javax.resource.spi.LocalTransaction
 
 
 
-<!--   -->
+
 
 ### Method Summary
 
@@ -57,26 +43,24 @@ implements javax.resource.spi.LocalTransaction
 | `void`<br> | `rollback()`<br>Rollback a transaction on this connection.<br> |
 
 
-- <!--   -->Methods inherited from class java.lang.Object
+- Methods inherited from class java.lang.Object
     - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-<!--   -->
-
 ### Constructor Detail
-<!--   -->
+
 #### TransactionManager
 
 ```
 protected TransactionManager(JRemoteManagedConnection managedConnection)
 ```
-<!-- ============ METHOD DETAIL ========== -->
-<!--   -->
+
+
 
 ### 
 
 
 ### Method Detail
-<!--   -->
+
 #### begin
 
 ```
@@ -85,7 +69,7 @@ public void begin()
 ```
 
 Begin a transaction on this connection. Performs a callback to the managed connection begin.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>begin</code> in interface <code>javax.resource.spi.LocalTransaction</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>#begin()</code></dd></dl><!--   -->
+Specified by:`begin` in interface `javax.resource.spi.LocalTransaction`Throws:`javax.resource.ResourceException`See Also:`#begin()`
 #### commit
 
 ```
@@ -94,7 +78,7 @@ public void commit()
 ```
 
 Commit a transaction on this connection. Performs a callback to the managed connection commit.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>commit</code> in interface <code>javax.resource.spi.LocalTransaction</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>#commit()</code></dd></dl><!--   -->
+Specified by:`commit` in interface `javax.resource.spi.LocalTransaction`Throws:`javax.resource.ResourceException`See Also:`#commit()`
 #### rollback
 
 ```
@@ -103,14 +87,14 @@ public void rollback()
 ```
 
 Rollback a transaction on this connection. Performs a callback to the managed connection rollback.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>rollback</code> in interface <code>javax.resource.spi.LocalTransaction</code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code>javax.resource.ResourceException</code></dd><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><code>#rollback()</code></dd></dl><!--   -->
+Specified by:`rollback` in interface `javax.resource.spi.LocalTransaction`Throws:`javax.resource.ResourceException`See Also:`#rollback()`
 #### isManagedTransaction
 
 ```
 protected boolean isManagedTransaction()
 ```
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
 

@@ -3,18 +3,11 @@
 **Created At:** 9/25/2017 10:29:43 AM  
 **Updated At:** 2/15/2018 8:02:41 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="Uses of Package com.jbase.framework.io.inflow (framework   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Package com.jbase.framework.io.inflow (framework   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../overview-summary.html)
 - [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
 - Class
@@ -37,26 +30,15 @@ framework <br>
 - [All Classes](../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 # Uses of Package
 com.jbase.framework.io.inflow
 
-- <caption><span>Packages that use <a href="../../../../../com/jbase/framework/io/inflow//39226-inflow/com_jbase_framework_io_inflow_package-summary">com.jbase.framework.io.inflow</a></span><span class="tabEnd"> </span></caption>| Package | Description |
+- Packages that use [com.jbase.framework.io.inflow](../../../../../com/jbase/framework/io/inflow//39226-inflow/com_jbase_framework_io_inflow_package-summary) | Package | Description |
 | --- | --- |
 | com.jbase.framework.io.inflow |   |
-- <!--   -->
-
-<caption><span>Classes in <a href="../../../../../com/jbase/framework/io/inflow//39226-inflow/com_jbase_framework_io_inflow_package-summary">com.jbase.framework.io.inflow</a> used by <a href="../../../../../com/jbase/framework/io/inflow//39226-inflow/com_jbase_framework_io_inflow_package-summary">com.jbase.framework.io.inflow</a></span><span class="tabEnd"> </span></caption>| Class and Description |
+- Classes in [com.jbase.framework.io.inflow](../../../../../com/jbase/framework/io/inflow//39226-inflow/com_jbase_framework_io_inflow_package-summary) used by [com.jbase.framework.io.inflow](../../../../../com/jbase/framework/io/inflow//39226-inflow/com_jbase_framework_io_inflow_package-summary) | Class and Description |
 | --- |
 | [ClientHandle](../../../../../com/jbase/framework/io/inflow/class-use/ClientHandle.html#com.jbase.framework.io.inflow)<br>This class holds a reference to the object the RequestServiceListener<br> uses to send reponses to clients.<br> |
 | [RequestHandler](../../../../../com/jbase/framework/io/inflow/class-use/RequestHandler.html#com.jbase.framework.io.inflow)<br>Handle incoming requests received by the RequestServiceListener.<br> |
@@ -65,10 +47,9 @@ com.jbase.framework.io.inflow
 | [RequestListenerServiceMBean](../../../../../com/jbase/framework/io/inflow/class-use/RequestListenerServiceMBean.html#com.jbase.framework.io.inflow)<br>Expose information about the current state of the<br> inbound request processor.<br> |
 | [RequestProcessingAbstractFactory](../../../../../com/jbase/framework/io/inflow/class-use/RequestProcessingAbstractFactory.html#com.jbase.framework.io.inflow)  |
 | [StatisticsCounter](../../../../../com/jbase/framework/io/inflow/class-use/StatisticsCounter.html#com.jbase.framework.io.inflow)<br>A StatisticsCounter provides the ability to get statistics for a custom type.<br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../overview-summary.html)
 - [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
 - Class
@@ -91,15 +72,6 @@ framework <br>
 - [All Classes](../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

@@ -3,12 +3,14 @@
 **Created At:** 9/25/2017 12:10:01 PM  
 **Updated At:** 12/24/2018 8:05:09 PM  
 
-<noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+
+JavaScript is disabled on your browser.
+
+
 
 ## Interface JSelectList
 
-<dl><dt>All Superinterfaces:</dt><dd>Iterable&lt;String&gt;</dd></dl><dl><dt>All Known Subinterfaces:</dt><dd><a href="/39248-jremote/com_jbase_jremote_jcursor" title="interface in com.jbase.jremote">JCursor</a></dd></dl><dl><dt>All Known Implementing Classes:</dt><dd><a href="/39250-io/com_jbase_jremote_io_jcursorimpl" title="class in com.jbase.jremote.io">JCursorImpl</a>, <a href="/39250-io/com_jbase_jremote_io_JSelectListImpl" title="class in com.jbase.jremote.io">JSelectListImpl</a></dd></dl>
+All Superinterfaces:Iterable&lt;String&gt;All Known Subinterfaces:[JCursor](/39248-jremote/com_jbase_jremote_jcursor "interface in com.jbase.jremote")All Known Implementing Classes:[JCursorImpl](/39250-io/com_jbase_jremote_io_jcursorimpl "class in com.jbase.jremote.io"), [JSelectListImpl](/39250-io/com_jbase_jremote_io_JSelectListImpl "class in com.jbase.jremote.io")
 * * *
 
 
@@ -19,8 +21,6 @@ extends Iterable<String>
 
 A select list to a jBASE file.
 This object represents a list of record keys to a jBASE file.
-
-<!--   -->
 
 ### Method Summary
 
@@ -40,13 +40,11 @@ This object represents a list of record keys to a jBASE file.
 | `void`<br> | `setFetchSize(int fetchSize)`<br>Sets the fetch size.<br> |
 
 
-- <!--   -->Methods inherited from interface java.lang.Iterable
+- Methods inherited from interface java.lang.Iterable
     - `forEach, spliterator`
 
-<!--   -->
-
 ### Method Detail
-<!--   -->
+
 
 
 #### iterator
@@ -56,7 +54,7 @@ Iterator<String> iterator()
 ```
 
 Returns an iterator to the select list
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code>iterator</code> in interface <code>Iterable&lt;String&gt;</code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">iterator</dd></dl>
+Specified by:`iterator` in interface `Iterable<String>`Returns:iterator
 
 
 
@@ -68,7 +66,7 @@ String getKey()
 ```
 
 Returns the current key
-<dl><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">key</dd></dl>
+Returns:key
 
 
 #### getFetchSize
@@ -78,7 +76,7 @@ int getFetchSize()
 ```
 
 Returns the fetch size. This value represents the number of items fetched simultaneously from the server.
-<dl><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">fetch size</dd></dl>
+Returns:fetch size
 
 
 #### setFetchSize
@@ -88,7 +86,7 @@ void setFetchSize(int fetchSize)
 ```
 
 Sets the fetch size.
-<dl><dt style="margin-left: 20px;"><span class="paramLabel">Parameters:</span></dt><dd style="margin-left: 20px;"><code>fetchSize</code> - fetch size</dd></dl>
+Parameters:`fetchSize` - fetch size
 
 
 #### next
@@ -99,7 +97,7 @@ boolean next()
 ```
 
 Move to next item
-<dl><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">true if OK, false otherwise</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Returns:true if OK, false otherwiseThrows:`JRemoteException`
 
 
 #### previous
@@ -110,7 +108,7 @@ boolean previous()
 ```
 
 Move to previous item
-<dl><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">true if OK, false otherwise</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Returns:true if OK, false otherwiseThrows:`JRemoteException`
 
 
 #### hasNext
@@ -121,7 +119,7 @@ boolean hasNext()
 ```
 
 Returns whether it is possible to move forward.
-<dl><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">true if YES, false otherwise</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Returns:true if YES, false otherwiseThrows:`JRemoteException`
 
 
 #### hasPrevious
@@ -132,7 +130,7 @@ boolean hasPrevious()
 ```
 
 Returns whether it is possible to move backwards.
-<dl><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">true if YES, false otherwise</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Returns:true if YES, false otherwiseThrows:`JRemoteException`
 
 
 #### getPosition
@@ -142,7 +140,7 @@ int getPosition()
 ```
 
 Returns the current position. The first item in the list has position 1.
-<dl><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">position</dd></dl>
+Returns:position
 
 
 #### goToPosition
@@ -153,7 +151,7 @@ void goToPosition(int targetPos)
 ```
 
 Move to the specified position. The first item in the list has position 1.
-<dl><dt style="margin-left: 20px;"><span class="paramLabel">Parameters:</span></dt><dd style="margin-left: 20px;"><code>targetPos</code> -</dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
+Parameters:`targetPos` -Throws:`JRemoteException`
 
 
 #### close
@@ -164,8 +162,8 @@ void close()
 ```
 
 Close select list. Requests server to release all resources associated to this object.
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="/39248-jremote/com_jbase_jremote_jremoteexception" title="class in com.jbase.jremote">JRemoteException</a></code></dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+Throws:`JRemoteException`
+
+
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

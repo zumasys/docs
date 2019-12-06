@@ -3,11 +3,13 @@
 **Created At:** 9/25/2017 12:10:46 PM  
 **Updated At:** 12/24/2018 8:00:03 PM  
 
-<noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
 
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+JavaScript is disabled on your browser.
+
+
+
+
+
 #
 
 Packages that use com.jbase.jremote
@@ -111,7 +113,7 @@ Classes in com.jbase.jremote used by com.jbase.jremote.protocol
 | JDynArray<br>The JDynArray is a jBASE type that implements a dynamic string array where attribute, value, and subvalue delimiters mark the array indices.<br> |
 | JRemoteException<br>A generic exception thrown when an unexpected error occurs whilst communicating with the remote jBASE instance.<br> |
 | JSubroutineParameters<br>A list of parameters to pass to a jBASE subroutine.<br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

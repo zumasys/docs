@@ -3,18 +3,11 @@
 **Created At:** 9/25/2017 10:52:33 AM  
 **Updated At:** 2/15/2018 8:02:51 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="JBaseJDBCObjectFactory.TYPE (jbasejdbc   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JBaseJDBCObjectFactory.TYPE (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39232-io/com_jbase_jdbc_io_package-summary)
 - Class
@@ -37,15 +30,7 @@ jbasejdbc <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -58,14 +43,12 @@ jbasejdbc <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= --><!-- ======== START OF CLASS DATA ======== -->
+
 com.jbase.jdbc.io
 
 ## Interface JBaseJDBCObjectFactory.TYPE
 
-- <dl><dt>Enclosing class:</dt>
-<dd><a href="/39232-io/com_jbase_jdbc_io_jbasejdbcobjectfactory" title="class in com.jbase.jdbc.io">JBaseJDBCObjectFactory</a></dd></dl>
+- Enclosing class:[JBaseJDBCObjectFactory](/39232-io/com_jbase_jdbc_io_jbasejdbcobjectfactory "class in com.jbase.jdbc.io")
 * * *
 
 
@@ -73,12 +56,10 @@ com.jbase.jdbc.io
 public static interface JBaseJDBCObjectFactory.TYPE
 ```
 
-- <!-- =========== FIELD SUMMARY =========== -->
-    - <!--   -->
-### Field Summary
+- - ### Field Summary
 
 
-<caption><span>Fields</span><span class="tabEnd"> </span></caption>| Modifier and Type | Field and Description |
+Fields | Modifier and Type | Field and Description |
 | --- | --- |
 | `static int` | `BindRequest`  |
 | `static int` | `CallSubroutineRequest`  |
@@ -107,246 +88,217 @@ public static interface JBaseJDBCObjectFactory.TYPE
 | `static int` | `TransactionRollbackRequest`  |
 | `static int` | `TransactionStartRequest`  |
 
-- <!-- ============ FIELD DETAIL =========== -->
-    - <!--   -->
-### Field Detail
-<!--   -->
+- - ### Field Detail
+
         - #### CompileRequest
 
 ```
 static final int CompileRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.CompileRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.CompileRequest)
 
-<!--   -->
+
         - #### PrecompileRequest
 
 ```
 static final int PrecompileRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.PrecompileRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.PrecompileRequest)
 
-<!--   -->
+
         - #### ExecuteRequest
 
 ```
 static final int ExecuteRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.ExecuteRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.ExecuteRequest)
 
-<!--   -->
+
         - #### BindRequest
 
 ```
 static final int BindRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.BindRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.BindRequest)
 
-<!--   -->
+
         - #### FetchRequest
 
 ```
 static final int FetchRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.FetchRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.FetchRequest)
 
-<!--   -->
+
         - #### MetaDataRequest
 
 ```
 static final int MetaDataRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.MetaDataRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.MetaDataRequest)
 
-<!--   -->
+
         - #### ReleaseStatementRequest
 
 ```
 static final int ReleaseStatementRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.ReleaseStatementRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.ReleaseStatementRequest)
 
-<!--   -->
+
         - #### LoadSubroutineRequest
 
 ```
 static final int LoadSubroutineRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.LoadSubroutineRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.LoadSubroutineRequest)
 
-<!--   -->
+
         - #### CallSubroutineRequest
 
 ```
 static final int CallSubroutineRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.CallSubroutineRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.CallSubroutineRequest)
 
-<!--   -->
+
         - #### TransactionStartRequest
 
 ```
 static final int TransactionStartRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.TransactionStartRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.TransactionStartRequest)
 
-<!--   -->
+
         - #### TransactionCommitRequest
 
 ```
 static final int TransactionCommitRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.TransactionCommitRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.TransactionCommitRequest)
 
-<!--   -->
+
         - #### TransactionRollbackRequest
 
 ```
 static final int TransactionRollbackRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.TransactionRollbackRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.TransactionRollbackRequest)
 
-<!--   -->
+
         - #### CompileAndExecuteRequest
 
 ```
 static final int CompileAndExecuteRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.CompileAndExecuteRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.CompileAndExecuteRequest)
 
-<!--   -->
+
         - #### DatabaseMetaDataRequest
 
 ```
 static final int DatabaseMetaDataRequest
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.DatabaseMetaDataRequest">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.DatabaseMetaDataRequest)
 
-<!--   -->
+
         - #### ResultSetMetaData
 
 ```
 static final int ResultSetMetaData
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.ResultSetMetaData">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.ResultSetMetaData)
 
-<!--   -->
+
         - #### ColumnMetaData
 
 ```
 static final int ColumnMetaData
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.ColumnMetaData">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.ColumnMetaData)
 
-<!--   -->
+
         - #### ResultSet
 
 ```
 static final int ResultSet
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.ResultSet">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.ResultSet)
 
-<!--   -->
+
         - #### Row
 
 ```
 static final int Row
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.Row">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.Row)
 
-<!--   -->
+
         - #### LastElement
 
 ```
 static final int LastElement
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.LastElement">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.LastElement)
 
-<!--   -->
+
         - #### SQLResponse
 
 ```
 static final int SQLResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.SQLResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.SQLResponse)
 
-<!--   -->
+
         - #### SQLOKResponse
 
 ```
 static final int SQLOKResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.SQLOKResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.SQLOKResponse)
 
-<!--   -->
+
         - #### SQLUpdateResponse
 
 ```
 static final int SQLUpdateResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.SQLUpdateResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.SQLUpdateResponse)
 
-<!--   -->
+
         - #### SQLResultResponse
 
 ```
 static final int SQLResultResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.SQLResultResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.SQLResultResponse)
 
-<!--   -->
+
         - #### SQLRSMDResponse
 
 ```
 static final int SQLRSMDResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.SQLRSMDResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.SQLRSMDResponse)
 
-<!--   -->
+
         - #### SQLParamsResponse
 
 ```
 static final int SQLParamsResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.SQLParamsResponse">Constant Field Values</a></dd></dl>
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.SQLParamsResponse)
 
-<!--   -->
+
         - #### SQLErrorResponse
 
 ```
 static final int SQLErrorResponse
 ```
-<dl><dt><span class="seeLabel">See Also:</span></dt>
-<dd><a href="../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.SQLErrorResponse">Constant Field Values</a></dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE.SQLErrorResponse)
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39232-io/com_jbase_jdbc_io_package-summary)
 - Class
@@ -369,15 +321,7 @@ jbasejdbc <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -390,6 +334,5 @@ jbasejdbc <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

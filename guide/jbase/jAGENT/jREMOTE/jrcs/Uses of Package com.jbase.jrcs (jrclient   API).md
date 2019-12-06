@@ -22,5 +22,5 @@
 | [JIndex](/jrcs/com_jbase_jrcs_jfile#com.jbase.jrcs)<br> | <br>Represents a jBASE index variable.<br> |
 | [JIOHandler](/jrcs/com_jbase_jrcs_jiohandler#com.jbase.jrcs)<br> | <br>The jRCS I/O handler interface, which a class must implement to replace the default JClient I/O handler.<br> |
 | [JSelectList](/jrcs/com_jbase_jrcs_jiohandler#com.jbase.jrcs)<br> | <br>Represents a jBASE select list variable.<br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+

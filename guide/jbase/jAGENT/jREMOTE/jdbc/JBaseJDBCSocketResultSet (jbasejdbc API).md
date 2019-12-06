@@ -3,48 +3,46 @@
 **Created At:** 9/25/2017 10:55:54 AM  
 **Updated At:** 4/3/2018 11:03:17 PM  
 
-<noscript>&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-# <!--   -->
+&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;gt;
+# 
 
 # Class JBaseJDBCSocketResultSet
 
-<dl><dt>All Implemented Interfaces:</dt><dd><a href="/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals" title="interface in com.jbase.jdbc">JBaseJDBCGlobals</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true" title="class or interface in java.lang">AutoCloseable</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a>, <a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true" title="class or interface in java.sql">Wrapper</a></dd></dl>
+All Implemented Interfaces:[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc"), [AutoCloseable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true "class or interface in java.lang"), [ResultSet](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true "class or interface in java.sql"), [Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")
 ```
 public class JBaseJDBCSocketResultSet
 extends Object
 implements ResultSet, JBaseJDBCGlobals
 ```
 
-<!--   -->
-
 # 
 
 
 # Nested Class Summary
 
-<!--   -->
+
 
 ## Nested classes/interfaces inherited from interface com.jbase.jdbc.JBaseJDBCGlobals
-`JBaseJDBCGlobals.TYPES`<!-- =========== FIELD SUMMARY =========== -->
-<!--   -->
+`JBaseJDBCGlobals.TYPES`
+
 
 # 
 
 
 # Field Summary
 
-<!--   -->
+
 
 ## Fields inherited from interface java.sql.ResultSet
 `CLOSE_CURSORS_AT_COMMIT, CONCUR_READ_ONLY, CONCUR_UPDATABLE, FETCH_FORWARD, FETCH_REVERSE, FETCH_UNKNOWN, HOLD_CURSORS_OVER_COMMIT, TYPE_FORWARD_ONLY, TYPE_SCROLL_INSENSITIVE, TYPE_SCROLL_SENSITIVE`
 
 
 
-<!--   -->
+
 
 ## Fields inherited from interface com.jbase.jdbc.JBaseJDBCGlobals
 `AM, CHAR_AM, CHAR_SM, CHAR_VM, SHORT_AM, SHORT_CHAR_AM, SHORT_CHAR_SM, SHORT_CHAR_VM, SHORT_SM, SHORT_VM, SM, VM`
-<!--   -->
+
 
 ### 
 
@@ -195,7 +193,7 @@ implements ResultSet, JBaseJDBCGlobals
 | <br>boolean<br> | <br>wasNull()<br> | <br>Reports whether the last column read had a value of SQL NULL.<br> |
 
 
-<!--   -->
+
 
 ## 
 
@@ -203,7 +201,7 @@ implements ResultSet, JBaseJDBCGlobals
 ## Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-<!--   -->
+
 
 ## 
 
@@ -211,7 +209,7 @@ implements ResultSet, JBaseJDBCGlobals
 ## Methods inherited from interface java.sql.[ResultSet](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true "class or interface in java.sql")
 `getHoldability, getNCharacterStream, getNCharacterStream, getNClob, getNClob, getNString, getNString, getObject, getObject, getRowId, getRowId, getSQLXML, getSQLXML, isClosed, updateAsciiStream, updateAsciiStream, updateAsciiStream, updateAsciiStream, updateBinaryStream, updateBinaryStream, updateBinaryStream, updateBinaryStream, updateBlob, updateBlob, updateBlob, updateBlob, updateCharacterStream, updateCharacterStream, updateCharacterStream, updateCharacterStream, updateClob, updateClob, updateClob, updateClob, updateNCharacterStream, updateNCharacterStream, updateNCharacterStream, updateNCharacterStream, updateNClob, updateNClob, updateNClob, updateNClob, updateNClob, updateNClob, updateNString, updateNString, updateObject, updateObject, updateObject, updateObject, updateRowId, updateRowId, updateSQLXML, updateSQLXML`
 
-<!--   -->
+
 
 # 
 
@@ -219,10 +217,8 @@ implements ResultSet, JBaseJDBCGlobals
 ## Methods inherited from interface java.sql.[Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")
 `isWrapperFor, unwrap`
 
-<!--   -->
-
 # Method Detail
-<!--   -->
+
 #### **getConcurrency**
 
 ```
@@ -231,10 +227,12 @@ public int getConcurrency()
 ```
 
 Retrieves the concurrency mode of this ResultSet object. The concurrency used is determined by the Statement object that created the result set.
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getConcurrency</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd style="margin-left: 40px;">the concurrency type, either ResultSet.CONCUR_READ_ONLY or ResultSet.CONCUR_UPDATABLE</dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd></dl>
+**Specified by:**`getConcurrency` in interface `ResultSet`
+**Returns:**the concurrency type, either ResultSet.CONCUR\_READ\_ONLY or ResultSet.CONCUR\_UPDATABLE
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 
@@ -245,10 +243,13 @@ public int getFetchDirection()
                       throws SQLException
 ```
 
-Retrieves the fetch direction for this ResultSet object.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true#getFetchDirection--" title="class or interface in java.sql">getFetchDirection</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>the current fetch direction for this ResultSet object</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves the fetch direction for this ResultSet object.
+**Specified by:**`getFetchDirection` in interface `ResultSet`
+**Returns:**the current fetch direction for this ResultSet object
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **getFetchSize**
@@ -258,10 +259,13 @@ public int getFetchSize()
                  throws SQLException
 ```
 
-Retrieves the fetch size for this ResultSet object.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getFetchSize</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>the current fetch size for this ResultSet object</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves the fetch size for this ResultSet object.
+**Specified by:**`getFetchSize` in interface `ResultSet`
+**Returns:**the current fetch size for this ResultSet object
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **getRow**
@@ -271,10 +275,13 @@ public int getRow()
            throws SQLException
 ```
 
-Retrieves the current row number. The first row is number 1, the second number 2, and so on.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getRow</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><strong><br></strong><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>the current row number; 0 if there is no current row</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves the current row number. The first row is number 1, the second number 2, and so on.
+**Specified by:**`getRow` in interface `ResultSet`
+**Returns:**the current row number; 0 if there is no current row
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **getType**
@@ -284,10 +291,12 @@ public int getType()
             throws SQLException
 ```
 
-Retrieves the type of this ResultSet object. The type is determined by the Statement object that created the result set.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getType</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><strong><br><span class="returnLabel">Returns:</span></strong></dt><dd>ResultSet.TYPE_FORWARD_ONLY, ResultSet.TYPE_SCROLL_INSENSITIVE, or ResultSet.TYPE_SCROLL_SENSITIVE</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves the type of this ResultSet object. The type is determined by the Statement object that created the result set.
+**Specified by:**`getType` in interface `ResultSet`**Returns:**ResultSet.TYPE\_FORWARD\_ONLY, ResultSet.TYPE\_SCROLL\_INSENSITIVE, or ResultSet.TYPE\_SCROLL\_SENSITIVE
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **afterLast**
@@ -297,10 +306,12 @@ public void afterLast()
                throws SQLException
 ```
 
-Moves the cursor to the end of this ResultSet object, just after the last row. This method has no effect if the result set contains no rows.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>afterLast</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the result set type is TYPE_FORWARD_ONLY</dd>
+Moves the cursor to the end of this ResultSet object, just after the last row. This method has no effect if the result set contains no rows.
+**Specified by:**`afterLast` in interface `ResultSet`
+**Throws:**`SQLException` - if a database access error occurs or the result set type is TYPE\_FORWARD\_ONLY
 
 
-<!--   -->
+
 
 
 #### **beforeFirst**
@@ -310,10 +321,12 @@ public void beforeFirst()
                  throws SQLException
 ```
 
-Moves the cursor to the front of this ResultSet object, just before the first row. This method has no effect if the result set contains no rows.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true#beforeFirst--" title="class or interface in java.sql">beforeFirst</a></code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the result set type is TYPE_FORWARD_ONLY</dd>
+Moves the cursor to the front of this ResultSet object, just before the first row. This method has no effect if the result set contains no rows.
+**Specified by:**`beforeFirst` in interface `ResultSet`
+**Throws:**`SQLException` - if a database access error occurs or the result set type is TYPE\_FORWARD\_ONLY
 
 
-<!--   -->
+
 
 
 #### **cancelRowUpdates**
@@ -323,10 +336,12 @@ public void cancelRowUpdates()
                       throws SQLException
 ```
 
-Cancels the updates made to the current row in this ResultSet object. This method may be called after calling an updater method(s) and before calling the method updateRow to roll back the updates made to a row. If no updates have been made or updateRow has already been called, this method has no effect.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>cancelRowUpdates</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or if this method is called when the cursor is on the insert row</dd>
+Cancels the updates made to the current row in this ResultSet object. This method may be called after calling an updater method(s) and before calling the method updateRow to roll back the updates made to a row. If no updates have been made or updateRow has already been called, this method has no effect.
+**Specified by:**`cancelRowUpdates` in interface `ResultSet`
+**Throws:**`SQLException` - if a database access error occurs or if this method is called when the cursor is on the insert row
 
 
-<!--   -->
+
 
 
 #### **clearWarnings**
@@ -336,10 +351,12 @@ public void clearWarnings()
                    throws SQLException
 ```
 
-Clears all warnings reported on this ResultSet object. After this method is called, the method getWarnings returns null until a new warning is reported for this ResultSet object.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>clearWarnings</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Clears all warnings reported on this ResultSet object. After this method is called, the method getWarnings returns null until a new warning is reported for this ResultSet object.
+**Specified by:**`clearWarnings` in interface `ResultSet`
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **close**
@@ -349,10 +366,13 @@ public void close()
            throws SQLException
 ```
 
-Releases this ResultSet object's database and JDBC resources immediately instead of waiting for this to happen when it is automatically closed. Note: A ResultSet object is automatically closed by the Statement object that generated it when that Statement object is closed, re-executed, or is used to retrieve the next result from a sequence of multiple results. A ResultSet object is also automatically closed when it is garbage collected.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>close</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true" title="class or interface in java.lang">AutoCloseable</a></code></dd><dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>close</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Releases this ResultSet object's database and JDBC resources immediately instead of waiting for this to happen when it is automatically closed. Note: A ResultSet object is automatically closed by the Statement object that generated it when that Statement object is closed, re-executed, or is used to retrieve the next result from a sequence of multiple results. A ResultSet object is also automatically closed when it is garbage collected.
+**Specified by:**`close` in interface `AutoCloseable`
+**Specified by:**`close` in interface `ResultSet`
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **deleteRow**
@@ -362,10 +382,12 @@ public void deleteRow()
                throws SQLException
 ```
 
-Deletes the current row from this ResultSet object and from the underlying database. This method cannot be called when the cursor is on the insert row.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>deleteRow</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or if this method is called when the cursor is on the insert row</dd>
+Deletes the current row from this ResultSet object and from the underlying database. This method cannot be called when the cursor is on the insert row.
+**Specified by:**`deleteRow` in interface `ResultSet`
+**Throws:**`SQLException` - if a database access error occurs or if this method is called when the cursor is on the insert row
 
 
-<!--   -->
+
 
 
 #### insertRow
@@ -375,10 +397,12 @@ public void insertRow()
                throws SQLException
 ```
 
-Inserts the contents of the insert row into this ResultSet object and into the database. The cursor must be on the insert row when this method is called.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>insertRow</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs, if this method is called when the cursor is not on the insert row, or if not all of non-nullable columns in the insert row have been given a value</dd>
+Inserts the contents of the insert row into this ResultSet object and into the database. The cursor must be on the insert row when this method is called.
+**Specified by:**`insertRow` in interface `ResultSet`
+**Throws:**`SQLException` - if a database access error occurs, if this method is called when the cursor is not on the insert row, or if not all of non-nullable columns in the insert row have been given a value
 
 
-<!--   -->
+
 
 
 #### **moveToCurrentRow**
@@ -388,10 +412,12 @@ public void moveToCurrentRow()
                       throws SQLException
 ```
 
-Moves the cursor to the remembered cursor position, usually the current row. This method has no effect if the cursor is not on the insert row.<dt><strong><br></strong><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>moveToCurrentRow</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><strong><br></strong><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the result set is not updatable</dd>
+Moves the cursor to the remembered cursor position, usually the current row. This method has no effect if the cursor is not on the insert row.
+**Specified by:**`moveToCurrentRow` in interface `ResultSet`
+**Throws:**`SQLException` - if a database access error occurs or the result set is not updatable
 
 
-<!--   -->
+
 
 
 #### **moveToInsertRow**
@@ -401,10 +427,12 @@ public void moveToInsertRow()
                      throws SQLException
 ```
 
-Moves the cursor to the insert row. The current cursor position is remembered while the cursor is positioned on the insert row. The insert row is a special row associated with an updatable result set. It is essentially a buffer where a new row may be constructed by calling the updater methods prior to inserting the row into the result set. Only the updater, getter, and insertRow methods may be called when the cursor is on the insert row. All of the columns in a result set must be given a value each time this method is called before calling insertRow. An updater method must be called before a getter method can be called on a column value.<dt><br><span class="overrideSpecifyLabel">Specified by:</span></dt><dd><code>moveToInsertRow</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the result set is not updatable</dd>
+Moves the cursor to the insert row. The current cursor position is remembered while the cursor is positioned on the insert row. The insert row is a special row associated with an updatable result set. It is essentially a buffer where a new row may be constructed by calling the updater methods prior to inserting the row into the result set. Only the updater, getter, and insertRow methods may be called when the cursor is on the insert row. All of the columns in a result set must be given a value each time this method is called before calling insertRow. An updater method must be called before a getter method can be called on a column value.
+Specified by:`moveToInsertRow` in interface `ResultSet`
+**Throws:**`SQLException` - if a database access error occurs or the result set is not updatable
 
 
-<!--   -->
+
 
 
 #### **refreshRow**
@@ -414,10 +442,12 @@ public void refreshRow()
                 throws SQLException
 ```
 
-Refreshes the current row with its most recent value in the database. This method cannot be called when the cursor is on the insert row. The refreshRow method provides a way for an application to explicitly tell the JDBC driver to refetch a row(s) from the database. An application may want to call refreshRow when caching or prefetching is being done by the JDBC driver to fetch the latest value of a row from the database. The JDBC driver may actually refresh multiple rows at once if the fetch size is greater than one. All values are refetched subject to the transaction isolation level and cursor sensitivity. If refreshRow is called after calling an updater method, but before calling the method updateRow, then the updates made to the row are lost. Calling the method refreshRow frequently will likely slow performance.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>refreshRow</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or if this method is called when the cursor is on the insert row</dd>
+Refreshes the current row with its most recent value in the database. This method cannot be called when the cursor is on the insert row. The refreshRow method provides a way for an application to explicitly tell the JDBC driver to refetch a row(s) from the database. An application may want to call refreshRow when caching or prefetching is being done by the JDBC driver to fetch the latest value of a row from the database. The JDBC driver may actually refresh multiple rows at once if the fetch size is greater than one. All values are refetched subject to the transaction isolation level and cursor sensitivity. If refreshRow is called after calling an updater method, but before calling the method updateRow, then the updates made to the row are lost. Calling the method refreshRow frequently will likely slow performance.
+**Specified by:**`refreshRow` in interface `ResultSet`
+**Throws:**`SQLException` - if a database access error occurs or if this method is called when the cursor is on the insert row
 
 
-<!--   -->
+
 
 
 #### **updateRow**
@@ -427,10 +457,12 @@ public void updateRow()
                throws SQLException
 ```
 
-Updates the underlying database with the new contents of the current row of this ResultSet object. This method cannot be called when the cursor is on the insert row.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>updateRow</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or if this method is called when the cursor is on the insert row</dd>
+Updates the underlying database with the new contents of the current row of this ResultSet object. This method cannot be called when the cursor is on the insert row.
+**Specified by:**`updateRow` in interface `ResultSet`
+**Throws:**`SQLException` - if a database access error occurs or if this method is called when the cursor is on the insert row
 
 
-<!--   -->
+
 
 
 #### **first**
@@ -440,10 +472,13 @@ public boolean first()
               throws SQLException
 ```
 
-Moves the cursor to the first row in this ResultSet object.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>first</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>true if the cursor is on a valid row; false if there are no rows in the result set</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the result set type is TYPE_FORWARD_ONLY</dd>
+Moves the cursor to the first row in this ResultSet object.
+**Specified by:**`first` in interface `ResultSet`
+**Returns:**true if the cursor is on a valid row; false if there are no rows in the result set
+**Throws:**`SQLException` - if a database access error occurs or the result set type is TYPE\_FORWARD\_ONLY
 
 
-<!--   -->
+
 
 
 #### **isAfterLast**
@@ -453,10 +488,13 @@ public boolean isAfterLast()
                     throws SQLException
 ```
 
-Retrieves whether the cursor is after the last row in this ResultSet object.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>isAfterLast</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>true if the cursor is after the last row; false if the cursor is at any other position or the result set contains no rows</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves whether the cursor is after the last row in this ResultSet object.
+**Specified by:**`isAfterLast` in interface `ResultSet`
+**Returns:**true if the cursor is after the last row; false if the cursor is at any other position or the result set contains no rows
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **isBeforeFirst**
@@ -466,10 +504,13 @@ public boolean isBeforeFirst()
                       throws SQLException
 ```
 
-Retrieves whether the cursor is before the first row in this ResultSet object.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>isBeforeFirst</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>true if the cursor is before the first row; false if the cursor is at any other position or the result set contains no rows</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves whether the cursor is before the first row in this ResultSet object.
+**Specified by:**`isBeforeFirst` in interface `ResultSet`
+**Returns:**true if the cursor is before the first row; false if the cursor is at any other position or the result set contains no rows
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **isFirst**
@@ -479,10 +520,13 @@ public boolean isFirst()
                 throws SQLException
 ```
 
-Retrieves whether the cursor is on the first row of this ResultSet object.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>isFirst</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>true if the cursor is on the first row; false otherwise</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves whether the cursor is on the first row of this ResultSet object.
+**Specified by:**`isFirst` in interface `ResultSet`
+**Returns:**true if the cursor is on the first row; false otherwise
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **isLast**
@@ -492,10 +536,13 @@ public boolean isLast()
                throws SQLException
 ```
 
-Retrieves whether the cursor is on the last row of this ResultSet object. Note: Calling the method isLast may be expensive because the JDBC driver might need to fetch ahead one row in order to determine whether the current row is the last row in the result set.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>isLast</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>true if the cursor is on the last row; false otherwise</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves whether the cursor is on the last row of this ResultSet object. Note: Calling the method isLast may be expensive because the JDBC driver might need to fetch ahead one row in order to determine whether the current row is the last row in the result set.
+**Specified by:**`isLast` in interface `ResultSet`
+**Returns:**true if the cursor is on the last row; false otherwise
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **last**
@@ -505,10 +552,13 @@ public boolean last()
              throws SQLException
 ```
 
-Moves the cursor to the last row in this ResultSet object.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>last</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>true if the cursor is on a valid row; false if there are no rows in the result set</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the result set type is TYPE_FORWARD_ONLY</dd>
+Moves the cursor to the last row in this ResultSet object.
+**Specified by:**`last` in interface `ResultSet`
+**Returns:**true if the cursor is on a valid row; false if there are no rows in the result set
+**Throws:**`SQLException` - if a database access error occurs or the result set type is TYPE\_FORWARD\_ONLY
 
 
-<!--   -->
+
 
 
 #### **next**
@@ -518,10 +568,13 @@ public boolean next()
              throws SQLException
 ```
 
-Moves the cursor down one row from its current position. A ResultSet cursor is initially positioned before the first row; the first call to the method next makes the first row the current row; the second call makes the second row the current row, and so on. If an input stream is open for the current row, a call to the method next will implicitly close it. A ResultSet object's warning chain is cleared when a new row is read.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>next</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>true if the new current row is valid; false if there are no more rows</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Moves the cursor down one row from its current position. A ResultSet cursor is initially positioned before the first row; the first call to the method next makes the first row the current row; the second call makes the second row the current row, and so on. If an input stream is open for the current row, a call to the method next will implicitly close it. A ResultSet object's warning chain is cleared when a new row is read.
+**Specified by:**`next` in interface `ResultSet`
+**Returns:**true if the new current row is valid; false if there are no more rows
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **previous**
@@ -531,10 +584,13 @@ public boolean previous()
                  throws SQLException
 ```
 
-Moves the cursor to the previous row in this ResultSet object.<dt><strong><br></strong><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>previous</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><strong><br></strong><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>true if the cursor is on a valid row; false if it is off the result set</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the result set type is TYPE_FORWARD_ONLY</dd>
+Moves the cursor to the previous row in this ResultSet object.
+**Specified by:**`previous` in interface `ResultSet`
+**Returns:**true if the cursor is on a valid row; false if it is off the result set
+**Throws:**`SQLException` - if a database access error occurs or the result set type is TYPE\_FORWARD\_ONLY
 
 
-<!--   -->
+
 
 
 #### **rowDeleted**
@@ -544,10 +600,13 @@ public boolean rowDeleted()
                    throws SQLException
 ```
 
-Retrieves whether a row has been deleted. A deleted row may leave a visible "hole" in a result set. This method can be used to detect holes in a result set. The value returned depends on whether or not this ResultSet object can detect deletions.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>rowDeleted</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>true if a row was deleted and deletions are detected; false otherwise</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves whether a row has been deleted. A deleted row may leave a visible "hole" in a result set. This method can be used to detect holes in a result set. The value returned depends on whether or not this ResultSet object can detect deletions.
+**Specified by:**`rowDeleted` in interface `ResultSet`
+**Returns:**true if a row was deleted and deletions are detected; false otherwise
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **rowInserted**
@@ -557,10 +616,13 @@ public boolean rowInserted()
                     throws SQLException
 ```
 
-Retrieves whether the current row has had an insertion. The value returned depends on whether or not this ResultSet object can detect visible inserts.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>rowInserted</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>true if a row has had an insertion and insertions are detected; false otherwise</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves whether the current row has had an insertion. The value returned depends on whether or not this ResultSet object can detect visible inserts.
+**Specified by:**`rowInserted` in interface `ResultSet`
+**Returns:**true if a row has had an insertion and insertions are detected; false otherwise
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### rowUpdated
@@ -570,10 +632,13 @@ public boolean rowUpdated()
                    throws SQLException
 ```
 
-Retrieves whether the current row has been updated. The value returned depends on whether or not the result set can detect updates.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>rowUpdated</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>true if both (1) the row has been visibly updated by the owner or another and (2) updates are detected</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves whether the current row has been updated. The value returned depends on whether or not the result set can detect updates.
+**Specified by:**`rowUpdated` in interface `ResultSet`
+**Returns:**true if both (1) the row has been visibly updated by the owner or another and (2) updates are detected
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **wasNull**
@@ -583,10 +648,13 @@ public boolean wasNull()
                 throws SQLException
 ```
 
-Reports whether the last column read had a value of SQL NULL. Note that you must first call one of the getter methods on a column to try to read its value and then call the method wasNull to see if the value read was SQL NULL.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>wasNull</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>true if the last column value read was SQL NULL and false otherwise</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Reports whether the last column read had a value of SQL NULL. Note that you must first call one of the getter methods on a column to try to read its value and then call the method wasNull to see if the value read was SQL NULL.
+**Specified by:**`wasNull` in interface `ResultSet`
+**Returns:**true if the last column value read was SQL NULL and false otherwise
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **getByte**
@@ -596,10 +664,14 @@ public byte getByte(int columnIndex)
              throws SQLException
 ```
 
-Retrieves the value of the designated column in the current row of this ResultSet object as a byte in the Java programming language.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getByte</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd><code>columnIndex</code> - the first column is 1, the second is 2, ...</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>the column value; if the value is SQL NULL, the value returned is 0</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves the value of the designated column in the current row of this ResultSet object as a byte in the Java programming language.
+**Specified by:**`getByte` in interface `ResultSet`
+**Parameters:**`columnIndex` - the first column is 1, the second is 2, ...
+**Returns:**the column value; if the value is SQL NULL, the value returned is 0
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **getDouble**
@@ -608,9 +680,11 @@ Retrieves the value of the designated column in the current row of this ResultSe
 public double getDouble(int columnIndex)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><strong><br></strong><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getDouble</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getDouble` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getFloat**
@@ -619,9 +693,11 @@ public double getDouble(int columnIndex)
 public float getFloat(int columnIndex)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel">S<strong>pecified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getFloat</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><strong><br></strong><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+S**pecified by:**`getFloat` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getInt**
@@ -630,9 +706,11 @@ public float getFloat(int columnIndex)
 public int getInt(int columnIndex)
            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getInt</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getInt` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getLong**
@@ -641,9 +719,11 @@ public int getInt(int columnIndex)
 public long getLong(int columnIndex)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getLong</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getLong` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getShort**
@@ -652,9 +732,11 @@ public long getLong(int columnIndex)
 public short getShort(int columnIndex)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getShort</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getShort` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **setFetchDirection**
@@ -664,10 +746,13 @@ public void setFetchDirection(int direction)
                        throws SQLException
 ```
 
-Gives a hint as to the direction in which the rows in this ResultSet object will be processed. The initial value is determined by the Statement object that produced this ResultSet object. The fetch direction may be changed at any time.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>setFetchDirection</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>direction</code> - an int specifying the suggested fetch direction; one of ResultSet.FETCH_FORWARD, ResultSet.FETCH_REVERSE, or ResultSet.FETCH_UNKNOWN</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the result set type is TYPE_FORWARD_ONLY and the fetch direction is not FETCH_FORWARD</dd>
+Gives a hint as to the direction in which the rows in this ResultSet object will be processed. The initial value is determined by the Statement object that produced this ResultSet object. The fetch direction may be changed at any time.
+**Specified by:**`setFetchDirection` in interface `ResultSet`
+**Parameters:**`direction` - an int specifying the suggested fetch direction; one of ResultSet.FETCH\_FORWARD, ResultSet.FETCH\_REVERSE, or ResultSet.FETCH\_UNKNOWN
+**Throws:**`SQLException` - if a database access error occurs or the result set type is TYPE\_FORWARD\_ONLY and the fetch direction is not FETCH\_FORWARD
 
 
-<!--   -->
+
 
 
 #### **setFetchSize**
@@ -677,10 +762,13 @@ public void setFetchSize(int rows)
                   throws SQLException
 ```
 
-Gives the JDBC driver a hint as to the number of rows that should be fetched from the database when more rows are needed for this ResultSet object. If the fetch size specified is zero, the JDBC driver ignores the value and is free to make its own best guess as to what the fetch size should be. The default value is set by the Statement object that created the result set. The fetch size may be changed at any time.<dt><br><span class="overrideSpecifyLabel">S<strong>pecified by:</strong></span></dt><dd><code>setFetchSize</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>rows</code> - the number of rows to fetch</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs or the condition 0 &lt;= rows &lt;= Statement.getMaxRows() is not satisfied</dd>
+Gives the JDBC driver a hint as to the number of rows that should be fetched from the database when more rows are needed for this ResultSet object. If the fetch size specified is zero, the JDBC driver ignores the value and is free to make its own best guess as to what the fetch size should be. The default value is set by the Statement object that created the result set. The fetch size may be changed at any time.
+S**pecified by:**`setFetchSize` in interface `ResultSet`
+**Parameters:**`rows` - the number of rows to fetch
+**Throws:**`SQLException` - if a database access error occurs or the condition 0 &lt;= rows &lt;= Statement.getMaxRows() is not satisfied
 
 
-<!--   -->
+
 
 
 #### **updateNull**
@@ -690,10 +778,13 @@ public void updateNull(int columnIndex)
                 throws SQLException
 ```
 
-Gives a nullable column a null value. The updater methods are used to update column values in the current row or the insert row. The updater methods do not update the underlying database; instead the updateRow or insertRow methods are called to update the database.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>updateNull</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>columnIndex</code> - the first column is 1, the second is 2, ...</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Gives a nullable column a null value. The updater methods are used to update column values in the current row or the insert row. The updater methods do not update the underlying database; instead the updateRow or insertRow methods are called to update the database.
+**Specified by:**`updateNull` in interface `ResultSet`
+**Parameters:**`columnIndex` - the first column is 1, the second is 2, ...
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **absolute**
@@ -703,10 +794,14 @@ public boolean absolute(int row)
                  throws SQLException
 ```
 
-Moves the cursor to the given row number in this ResultSet object. If the row number is positive, the cursor moves to the given row number with respect to the beginning of the result set. The first row is row 1, the second is row 2, and so on. If the given row number is negative, the cursor moves to an absolute row position with respect to the end of the result set. For example, calling the method absolute(-1) positions the cursor on the last row; calling the method absolute(-2) moves the cursor to the next-to-last row, and so on. An attempt to position the cursor beyond the first/last row in the result set leaves the cursor before the first row or after the last row. Note: Calling absolute(1) is the same as calling first(). Calling absolute(-1) is the same as calling last().<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>absolute</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>row</code> - the number of the row to which the cursor should move. A positive number indicates the row number counting from the beginning of the result set; a negative number indicates the row number counting from the end of the result set</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>true if the cursor is on the result set; false otherwise</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs, or the result set type is TYPE_FORWARD_ONLY</dd>
+Moves the cursor to the given row number in this ResultSet object. If the row number is positive, the cursor moves to the given row number with respect to the beginning of the result set. The first row is row 1, the second is row 2, and so on. If the given row number is negative, the cursor moves to an absolute row position with respect to the end of the result set. For example, calling the method absolute(-1) positions the cursor on the last row; calling the method absolute(-2) moves the cursor to the next-to-last row, and so on. An attempt to position the cursor beyond the first/last row in the result set leaves the cursor before the first row or after the last row. Note: Calling absolute(1) is the same as calling first(). Calling absolute(-1) is the same as calling last().
+**Specified by:**`absolute` in interface `ResultSet`
+**Parameters:**`row` - the number of the row to which the cursor should move. A positive number indicates the row number counting from the beginning of the result set; a negative number indicates the row number counting from the end of the result set
+**Returns:**true if the cursor is on the result set; false otherwise
+**Throws:**`SQLException` - if a database access error occurs, or the result set type is TYPE\_FORWARD\_ONLY
 
 
-<!--   -->
+
 
 
 #### **getBoolean**
@@ -716,10 +811,14 @@ public boolean getBoolean(int columnIndex)
                    throws SQLException
 ```
 
-Retrieves the value of the designated column in the current row of this ResultSet object as a boolean in the Java programming language.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getBoolean</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd><code>&nbsp; &nbsp; columnIndex</code> - the first column is 1, the second is 2, ...</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>the column value; if the value is SQL NULL, the value returned is false</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves the value of the designated column in the current row of this ResultSet object as a boolean in the Java programming language.
+**Specified by:**`getBoolean` in interface `ResultSet`
+**Parameters:**`    columnIndex` - the first column is 1, the second is 2, ...
+**Returns:**the column value; if the value is SQL NULL, the value returned is false
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **relative**
@@ -729,10 +828,14 @@ public boolean relative(int rows)
                  throws SQLException
 ```
 
-Moves the cursor a relative number of rows, either positive or negative. Attempting to move beyond the first/last row in the result set positions the cursor before/after the the first/last row. Calling relative(0) is valid, but does not change the cursor position. Note: Calling the method relative(1) is identical to calling the method next() and calling the method relative(-1) is identical to calling the method previous().<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>relative</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>rows</code> - an int specifying the number of rows to move from the current row; a positive number moves the cursor forward; a negative number moves the cursor backward</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>true if the cursor is on a row; false otherwise</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs, there is no current row, or the result set type is TYPE_FORWARD_ONLY</dd>
+Moves the cursor a relative number of rows, either positive or negative. Attempting to move beyond the first/last row in the result set positions the cursor before/after the the first/last row. Calling relative(0) is valid, but does not change the cursor position. Note: Calling the method relative(1) is identical to calling the method next() and calling the method relative(-1) is identical to calling the method previous().
+**Specified by:**`relative` in interface `ResultSet`
+**Parameters:**`rows` - an int specifying the number of rows to move from the current row; a positive number moves the cursor forward; a negative number moves the cursor backward
+**Returns:**true if the cursor is on a row; false otherwise
+**Throws:**`SQLException` - if a database access error occurs, there is no current row, or the result set type is TYPE\_FORWARD\_ONLY
 
 
-<!--   -->
+
 
 
 #### **getBytes**
@@ -742,10 +845,14 @@ public byte[] getBytes(int columnIndex)
                 throws SQLException
 ```
 
-Retrieves the value of the designated column in the current row of this ResultSet object as a byte array in the Java programming language. The bytes represent the raw values returned by the driver.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getBytes</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>columnIndex</code> - the first column is 1, the second is 2, ...</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>the column value; if the value is SQL NULL, the value returned is null</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves the value of the designated column in the current row of this ResultSet object as a byte array in the Java programming language. The bytes represent the raw values returned by the driver.
+**Specified by:**`getBytes` in interface `ResultSet`
+**Parameters:**`columnIndex` - the first column is 1, the second is 2, ...
+**Returns:**the column value; if the value is SQL NULL, the value returned is null
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **updateByte**
@@ -755,10 +862,13 @@ public void updateByte(int columnIndex, byte x)
                 throws SQLException
 ```
 
-Updates the designated column with a byte value. The updater methods are used to update column values in the current row or the insert row. The updater methods do not update the underlying database; instead the updateRow or insertRow methods are called to update the database. <dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>updateByte</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>columnIndex</code> - the first column is 1, the second is 2, ...</dd><dd style="margin-left: 20px;"><code>x</code> - the new column value</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Updates the designated column with a byte value. The updater methods are used to update column values in the current row or the insert row. The updater methods do not update the underlying database; instead the updateRow or insertRow methods are called to update the database. 
+**Specified by:**`updateByte` in interface `ResultSet`
+**Parameters:**`columnIndex` - the first column is 1, the second is 2, ...`x` - the new column value
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **updateDouble**
@@ -770,12 +880,13 @@ public void updateDouble(int columnIndex, double x)
 
 Updates the designated column with a double value. The updater methods are used to update column values in the current row or the insert row. The updater methods do not update the underlying database; instead the updateRow or insertRow methods are called to update the database.
 
-<dt><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>updateDouble</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd>
+**Specified by:**`updateDouble` in interface `ResultSet`
 
-<dt><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>columnIndex</code> - the first column is 1, the second is 2, ...</dd><dd style="margin-left: 20px;"><code>x</code> - the new column value</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+**Parameters:**`columnIndex` - the first column is 1, the second is 2, ...`x` - the new column value
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **updateFloat**
@@ -784,9 +895,12 @@ Updates the designated column with a double value. The updater methods are used 
 public void updateFloat(int columnIndex, float x)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateFloat</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><p><br></p><dt style="margin-left: 40px;"><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateFloat` in interface `ResultSet`
+
+**Throws:**`SQLException`
+
+
 
 
 #### **updateInt**
@@ -795,9 +909,11 @@ public void updateFloat(int columnIndex, float x)
 public void updateInt(int columnIndex, int x)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateInt</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateInt` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateLong**
@@ -806,9 +922,11 @@ public void updateInt(int columnIndex, int x)
 public void updateLong(int columnIndex, long x)
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateLong</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateLong` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateShort**
@@ -817,9 +935,11 @@ public void updateLong(int columnIndex, long x)
 public void updateShort(int columnIndex, short x)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateShort</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateShort` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateBoolean**
@@ -829,9 +949,11 @@ public void updateBoolean(int columnIndex,
                           boolean x)
                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateBoolean</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateBoolean` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateBytes**
@@ -840,9 +962,11 @@ public void updateBoolean(int columnIndex,
 public void updateBytes(int columnIndex, byte[] x)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateBytes</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateBytes` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getAsciiStream**
@@ -852,10 +976,14 @@ public InputStream getAsciiStream(int columnIndex)
                            throws SQLException
 ```
 
-Retrieves the value of the designated column in the current row of this ResultSet object as a stream of ASCII characters. The value can then be read in chunks from the stream. This method is particularly suitable for retrieving large LONGVARCHAR values. The JDBC driver will do any necessary conversion from the database format into ASCII. Note: All the data in the returned stream must be read prior to getting the value of any other column. The next call to a getter method implicitly closes the stream. Also, a stream may return 0 when the method InputStream.available is called whether there is data available or not.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getAsciiStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd><code>&nbsp; &nbsp; columnIndex</code> - the first column is 1, the second is 2, ...</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>a Java input stream that delivers the database column value as a stream of one-byte ASCII characters; if the value is SQL NULL, the value returned is null</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves the value of the designated column in the current row of this ResultSet object as a stream of ASCII characters. The value can then be read in chunks from the stream. This method is particularly suitable for retrieving large LONGVARCHAR values. The JDBC driver will do any necessary conversion from the database format into ASCII. Note: All the data in the returned stream must be read prior to getting the value of any other column. The next call to a getter method implicitly closes the stream. Also, a stream may return 0 when the method InputStream.available is called whether there is data available or not.
+**Specified by:**`getAsciiStream` in interface `ResultSet`
+**Parameters:**`    columnIndex` - the first column is 1, the second is 2, ...
+**Returns:**a Java input stream that delivers the database column value as a stream of one-byte ASCII characters; if the value is SQL NULL, the value returned is null
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **getBinaryStream**
@@ -865,10 +993,14 @@ public InputStream getBinaryStream(int columnIndex)
                             throws SQLException
 ```
 
-Retrieves the value of the designated column in the current row of this ResultSet object as a binary stream of uninterpreted bytes. The value can then be read in chunks from the stream. This method is particularly suitable for retrieving large LONGVARBINARY values. Note: All the data in the returned stream must be read prior to getting the value of any other column. The next call to a getter method implicitly closes the stream. Also, a stream may return 0 when the method InputStream.available is called whether there is data available or not.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getBinaryStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>columnIndex</code> - the first column is 1, the second is 2, ...</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>a Java input stream that delivers the database column value as a stream of uninterpreted bytes; if the value is SQL NULL, the value returned is null</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves the value of the designated column in the current row of this ResultSet object as a binary stream of uninterpreted bytes. The value can then be read in chunks from the stream. This method is particularly suitable for retrieving large LONGVARBINARY values. Note: All the data in the returned stream must be read prior to getting the value of any other column. The next call to a getter method implicitly closes the stream. Also, a stream may return 0 when the method InputStream.available is called whether there is data available or not.
+**Specified by:**`getBinaryStream` in interface `ResultSet`
+**Parameters:**`columnIndex` - the first column is 1, the second is 2, ...
+**Returns:**a Java input stream that delivers the database column value as a stream of uninterpreted bytes; if the value is SQL NULL, the value returned is null
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **getUnicodeStream**
@@ -881,10 +1013,14 @@ public InputStream getUnicodeStream(int columnIndex)
 Deprecated. use getCharacterStream in place of getUnicodeStream
 
 Retrieves the value of the designated column in the current row of this ResultSet object as as a stream of two-byte Unicode characters. The first byte is the high byte; the second byte is the low byte. The value can then be read in chunks from the stream. This method is particularly suitable for retrieving large LONGVARCHARvalues. The JDBC driver will do any necessary conversion from the database format into Unicode. Note: All the data in the returned stream must be read prior to getting the value of any other column. The next call to a getter method implicitly closes the stream. Also, a stream may return 0 when the method InputStream.available is called, whether there is data available or not.
-<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getUnicodeStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>columnIndex</code> - the first column is 1, the second is 2, ...</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>a Java input stream that delivers the database column value as a stream of two-byte Unicode characters; if the value is SQL NULL, the value returned is null</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+
+**Specified by:**`getUnicodeStream` in interface `ResultSet`
+**Parameters:**`columnIndex` - the first column is 1, the second is 2, ...
+**Returns:**a Java input stream that delivers the database column value as a stream of two-byte Unicode characters; if the value is SQL NULL, the value returned is null
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **updateAsciiStream**
@@ -894,10 +1030,13 @@ public void updateAsciiStream(int columnIndex, InputStream x, int length)
                        throws SQLException
 ```
 
-Updates the designated column with an ascii stream value. The updater methods are used to update column values in the current row or the insert row. The updater methods do not update the underlying database; instead the updateRow or insertRow methods are called to update the database.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>updateAsciiStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>columnIndex</code> - the first column is 1, the second is 2, ...</dd><dd style="margin-left: 20px;"><code>x</code> - the new column value</dd><dd style="margin-left: 20px;"><code>length</code> - the length of the stream</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Updates the designated column with an ascii stream value. The updater methods are used to update column values in the current row or the insert row. The updater methods do not update the underlying database; instead the updateRow or insertRow methods are called to update the database.
+**Specified by:**`updateAsciiStream` in interface `ResultSet`
+**Parameters:**`columnIndex` - the first column is 1, the second is 2, ...`x` - the new column value`length` - the length of the stream
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **updateBinaryStream**
@@ -907,10 +1046,13 @@ public void updateBinaryStream(int columnIndex, InputStream x, int length)
                         throws SQLException
 ```
 
-Updates the designated column with a binary stream value. The updater methods are used to update column values in the current row or the insert row. The updater methods do not update the underlying database; instead the updateRow or insertRow methods are called to update the database.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>updateBinaryStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>columnIndex</code> - the first column is 1, the second is 2, ...</dd><dd style="margin-left: 20px;"><code>x</code> - the new column value</dd><dd style="margin-left: 20px;"><code>length</code> - the length of the stream</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Updates the designated column with a binary stream value. The updater methods are used to update column values in the current row or the insert row. The updater methods do not update the underlying database; instead the updateRow or insertRow methods are called to update the database.
+**Specified by:**`updateBinaryStream` in interface `ResultSet`
+**Parameters:**`columnIndex` - the first column is 1, the second is 2, ...`x` - the new column value`length` - the length of the stream
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **getCharacterStream**
@@ -920,10 +1062,14 @@ public Reader getCharacterStream(int columnIndex)
                           throws SQLException
 ```
 
-Retrieves the value of the designated column in the current row of this ResultSet object as a java.io.Reader object.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getCharacterStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>columnIndex</code> - the first column is 1, the second is 2, ...</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>a java.io.Reader object that contains the column value; if the value is SQL NULL, the value returned is null in the Java programming language.</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves the value of the designated column in the current row of this ResultSet object as a java.io.Reader object.
+**Specified by:**`getCharacterStream` in interface `ResultSet`
+**Parameters:**`columnIndex` - the first column is 1, the second is 2, ...
+**Returns:**a java.io.Reader object that contains the column value; if the value is SQL NULL, the value returned is null in the Java programming language.
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **updateCharacterStream**
@@ -933,10 +1079,13 @@ public void updateCharacterStream(int columnIndex, Reader x, int length)
                            throws SQLException
 ```
 
-Updates the designated column with a character stream value. The updater methods are used to update column values in the current row or the insert row. The updater methods do not update the underlying database; instead the updateRow or insertRow methods are called to update the database.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>updateCharacterStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>columnIndex</code> - the first column is 1, the second is 2, ...</dd><dd style="margin-left: 20px;"><code>x</code> - the new column value</dd><dd style="margin-left: 20px;"><code>length</code> - the length of the stream</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Updates the designated column with a character stream value. The updater methods are used to update column values in the current row or the insert row. The updater methods do not update the underlying database; instead the updateRow or insertRow methods are called to update the database.
+**Specified by:**`updateCharacterStream` in interface `ResultSet`
+**Parameters:**`columnIndex` - the first column is 1, the second is 2, ...`x` - the new column value`length` - the length of the stream
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **getObject**
@@ -946,10 +1095,14 @@ public Object getObject(int columnIndex)
                  throws SQLException
 ```
 
-Gets the value of the designated column in the current row of this ResultSet object as an Object in the Java programming language. This method will return the value of the given column as a Java object. The type of the Java object will be the default Java object type corresponding to the column's SQL type, following the mapping for built-in types specified in the JDBC specification. If the value is an SQL NULL, the driver returns a Java null. This method may also be used to read database-specific abstract data types. In the JDBC 2.0 API, the behavior of method getObject is extended to materialize data of SQL user-defined types. When a column contains a structured or distinct value, the behavior of this method is as if it were a call to: getObject(columnIndex, this.getStatement().getConnection().getTypeMap()).<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getObject</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>columnIndex</code> - the first column is 1, the second is 2, ...</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>a java.lang.Object holding the column value</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Gets the value of the designated column in the current row of this ResultSet object as an Object in the Java programming language. This method will return the value of the given column as a Java object. The type of the Java object will be the default Java object type corresponding to the column's SQL type, following the mapping for built-in types specified in the JDBC specification. If the value is an SQL NULL, the driver returns a Java null. This method may also be used to read database-specific abstract data types. In the JDBC 2.0 API, the behavior of method getObject is extended to materialize data of SQL user-defined types. When a column contains a structured or distinct value, the behavior of this method is as if it were a call to: getObject(columnIndex, this.getStatement().getConnection().getTypeMap()).
+**Specified by:**`getObject` in interface `ResultSet`
+**Parameters:**`columnIndex` - the first column is 1, the second is 2, ...
+**Returns:**a java.lang.Object holding the column value
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **updateObject**
@@ -958,9 +1111,11 @@ Gets the value of the designated column in the current row of this ResultSet obj
 public void updateObject(int columnIndex, Object x)
                   throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateObject</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateObject` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateObject**
@@ -969,9 +1124,10 @@ public void updateObject(int columnIndex, Object x)
 public void updateObject(int columnIndex, Object x, int scale)
                   throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateObject</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`updateObject` in interface `ResultSet`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### **getCursorName**
@@ -980,9 +1136,11 @@ public void updateObject(int columnIndex, Object x, int scale)
 public String getCursorName()
                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getCursorName</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getCursorName` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getString**
@@ -991,9 +1149,11 @@ public String getCursorName()
 public String getString(int columnIndex)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getString</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getString` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateString**
@@ -1002,9 +1162,11 @@ public String getString(int columnIndex)
 public void updateString(int columnIndex, String x)
                   throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateString</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateString` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getByte**
@@ -1013,9 +1175,11 @@ public void updateString(int columnIndex, String x)
 public byte getByte(String columnName)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getByte</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getByte` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getDouble**
@@ -1024,9 +1188,11 @@ public byte getByte(String columnName)
 public double getDouble(String columnName)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getDouble</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getDouble` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getFloat**
@@ -1035,9 +1201,11 @@ public double getDouble(String columnName)
 public float getFloat(String columnName)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getFloat</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getFloat` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **findColumn**
@@ -1046,9 +1214,11 @@ public float getFloat(String columnName)
 public int findColumn(String columnName)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>findColumn</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`findColumn` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getInt**
@@ -1057,9 +1227,11 @@ public int findColumn(String columnName)
 public int getInt(String columnName)
            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getInt</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getInt` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getLong**
@@ -1068,9 +1240,11 @@ public int getInt(String columnName)
 public long getLong(String columnName)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getLong</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getLong` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getShort**
@@ -1079,9 +1253,11 @@ public long getLong(String columnName)
 public short getShort(String columnName)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getShort</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getShort` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateNull**
@@ -1090,9 +1266,11 @@ public short getShort(String columnName)
 public void updateNull(String columnName)
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateNull</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateNull` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getBoolean**
@@ -1101,9 +1279,11 @@ public void updateNull(String columnName)
 public boolean getBoolean(String columnName)
                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getBoolean</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getBoolean` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getBytes**
@@ -1113,10 +1293,14 @@ public byte[] getBytes(String columnName)
                 throws SQLException
 ```
 
-Retrieves the value of the designated column in the current row of this ResultSet object as a byte array in the Java programming language. The bytes represent the raw values returned by the driver.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getBytes</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel">Parameters:</span></dt><dd style="margin-left: 20px;"><code>columnName</code> - the SQL name of the column</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>the column value; if the value is SQL NULL, the value returned is null</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves the value of the designated column in the current row of this ResultSet object as a byte array in the Java programming language. The bytes represent the raw values returned by the driver.
+**Specified by:**`getBytes` in interface `ResultSet`
+Parameters:`columnName` - the SQL name of the column
+**Returns:**the column value; if the value is SQL NULL, the value returned is null
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **updateByte**
@@ -1126,10 +1310,13 @@ public void updateByte(String columnName, byte x)
                 throws SQLException
 ```
 
-Updates the designated column with a byte value. The updater methods are used to update column values in the current row or the insert row. The updater methods do not update the underlying database; instead the updateRow or insertRow methods are called to update the database.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>updateByte</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>columnName</code> - the name of the column</dd><dd style="margin-left: 20px;"><code>x</code> - the new column value</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Updates the designated column with a byte value. The updater methods are used to update column values in the current row or the insert row. The updater methods do not update the underlying database; instead the updateRow or insertRow methods are called to update the database.
+**Specified by:**`updateByte` in interface `ResultSet`
+**Parameters:**`columnName` - the name of the column`x` - the new column value
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **updateDouble**
@@ -1138,9 +1325,11 @@ Updates the designated column with a byte value. The updater methods are used to
 public void updateDouble(String columnName, double x)
                   throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by</strong>:</span></dt><dd style="margin-left: 40px;"><code>updateDouble</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by**:`updateDouble` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### updateFloat
@@ -1149,9 +1338,11 @@ public void updateDouble(String columnName, double x)
 public void updateFloat(String columnName, float x)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateFloat</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateFloat` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### updateInt
@@ -1160,9 +1351,11 @@ public void updateFloat(String columnName, float x)
 public void updateInt(String columnName, int x)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateInt</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateInt` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateLong**
@@ -1171,9 +1364,11 @@ public void updateInt(String columnName, int x)
 public void updateLong(String columnName, long x)
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateLong</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateLong` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateShort**
@@ -1182,9 +1377,11 @@ public void updateLong(String columnName, long x)
 public void updateShort(String columnName, short x)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateShort</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateShort` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### updateBoolean
@@ -1193,9 +1390,11 @@ public void updateShort(String columnName, short x)
 public void updateBoolean(String columnName, boolean x)
                    throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateBoolean</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateBoolean` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateBytes**
@@ -1204,9 +1403,11 @@ public void updateBoolean(String columnName, boolean x)
 public void updateBytes(String columnName, byte[] x)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateBytes</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateBytes` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getBigDecimal**
@@ -1215,9 +1416,11 @@ public void updateBytes(String columnName, byte[] x)
 public BigDecimal getBigDecimal(int columnIndex)
                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getBigDecimal</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getBigDecimal` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getBigDecimal**
@@ -1226,9 +1429,11 @@ public BigDecimal getBigDecimal(int columnIndex)
 public BigDecimal getBigDecimal(int columnIndex, int scale)
                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getBigDecimal</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getBigDecimal` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateBigDecimal**
@@ -1237,9 +1442,11 @@ public BigDecimal getBigDecimal(int columnIndex, int scale)
 public void updateBigDecimal(int columnIndex, BigDecimal x)
                       throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateBigDecimal</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateBigDecimal` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getURL**
@@ -1248,9 +1455,11 @@ public void updateBigDecimal(int columnIndex, BigDecimal x)
 public URL getURL(int columnIndex)
            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getURL</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getURL` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getArray**
@@ -1259,9 +1468,11 @@ public URL getURL(int columnIndex)
 public Array getArray(int i)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getArray</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getArray` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateArray**
@@ -1270,9 +1481,11 @@ public Array getArray(int i)
 public void updateArray(int columnIndex, Array x)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateArray</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateArray` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getBlob**
@@ -1281,9 +1494,11 @@ public void updateArray(int columnIndex, Array x)
 public Blob getBlob(int columnIndex)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getBlob</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getBlob` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### updateBlob
@@ -1292,9 +1507,11 @@ public Blob getBlob(int columnIndex)
 public void updateBlob(int columnIndex, Blob x)
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateBlob</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateBlob` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getClob**
@@ -1303,9 +1520,11 @@ public void updateBlob(int columnIndex, Blob x)
 public Clob getClob(int i)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getClob</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getClob` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateClob**
@@ -1314,9 +1533,11 @@ public Clob getClob(int i)
 public void updateClob(int columnIndex, Clob x)
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateClob</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateClob` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getDate**
@@ -1325,9 +1546,11 @@ public void updateClob(int columnIndex, Clob x)
 public Date getDate(int columnIndex)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getDate</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getDate` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateDate**
@@ -1336,9 +1559,11 @@ public Date getDate(int columnIndex)
 public void updateDate(int columnIndex, Date x)
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateDate</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateDate` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getRef**
@@ -1347,9 +1572,11 @@ public void updateDate(int columnIndex, Date x)
 public Ref getRef(int i)
            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getRef</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getRef` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### updateRef
@@ -1358,9 +1585,11 @@ public Ref getRef(int i)
 public void updateRef(int columnIndex, Ref x)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateRef</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateRef` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getMetaData**
@@ -1369,9 +1598,11 @@ public void updateRef(int columnIndex, Ref x)
 public ResultSetMetaData getMetaData()
                               throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getMetaData</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getMetaData` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getWarnings**
@@ -1380,9 +1611,11 @@ public ResultSetMetaData getMetaData()
 public SQLWarning getWarnings()
                        throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getWarnings</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getWarnings` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### getStatement
@@ -1392,10 +1625,13 @@ public Statement getStatement()
                        throws SQLException
 ```
 
-Retrieves the Statement object that produced this ResultSet object. If the result set was generated some other way, such as by a DatabaseMetaData method, this method returns null.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getStatement</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>the Statment object that produced this ResultSet object or null if the result set was produced some other way</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Retrieves the Statement object that produced this ResultSet object. If the result set was generated some other way, such as by a DatabaseMetaData method, this method returns null.
+**Specified by:**`getStatement` in interface `ResultSet`
+**Returns:**the Statment object that produced this ResultSet object or null if the result set was produced some other way
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **getTime**
@@ -1405,10 +1641,14 @@ public Time getTime(int columnIndex)
              throws SQLException
 ```
 
-Retrieves the value of the designated column in the current row of this ResultSet object as a java.sql.Time object in the Java programming language.<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getTime</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>columnIndex</code> - - the first column is 1, the second is 2, ...</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>the column value; if the value is SQL NULL, the value returned is null</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - - if a database access error occurs</dd>
+Retrieves the value of the designated column in the current row of this ResultSet object as a java.sql.Time object in the Java programming language.
+**Specified by:**`getTime` in interface `ResultSet`
+**Parameters:**`columnIndex` - - the first column is 1, the second is 2, ...
+**Returns:**the column value; if the value is SQL NULL, the value returned is null
+**Throws:**`SQLException` - - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### updateTime
@@ -1417,9 +1657,11 @@ Retrieves the value of the designated column in the current row of this ResultSe
 public void updateTime(int columnIndex, Time x)
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateTime</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateTime` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getTimestamp**
@@ -1428,9 +1670,11 @@ public void updateTime(int columnIndex, Time x)
 public Timestamp getTimestamp(int columnIndex)
                        throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getTimestamp</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getTimestamp` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateTimestamp**
@@ -1439,9 +1683,11 @@ public Timestamp getTimestamp(int columnIndex)
 public void updateTimestamp(int columnIndex, Timestamp x)
                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateTimestamp</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateTimestamp` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getAsciiStream**
@@ -1450,9 +1696,11 @@ public void updateTimestamp(int columnIndex, Timestamp x)
 public InputStream getAsciiStream(String columnName)
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getAsciiStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getAsciiStream` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getBinaryStream**
@@ -1461,9 +1709,11 @@ public InputStream getAsciiStream(String columnName)
 public InputStream getBinaryStream(String columnName)
                             throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getBinaryStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getBinaryStream` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getUnicodeStream**
@@ -1472,9 +1722,11 @@ public InputStream getBinaryStream(String columnName)
 public InputStream getUnicodeStream(String columnName)
                              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getUnicodeStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getUnicodeStream` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateAsciiStream**
@@ -1483,9 +1735,11 @@ public InputStream getUnicodeStream(String columnName)
 public void updateAsciiStream(String columnName, InputStream x, int length)
                        throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateAsciiStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateAsciiStream` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateBinaryStream**
@@ -1494,9 +1748,11 @@ public void updateAsciiStream(String columnName, InputStream x, int length)
 public void updateBinaryStream(String columnName, InputStream x, int length)
                         throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateBinaryStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateBinaryStream` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getCharacterStream**
@@ -1505,9 +1761,11 @@ public void updateBinaryStream(String columnName, InputStream x, int length)
 public Reader getCharacterStream(String columnName)
                           throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getCharacterStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getCharacterStream` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateCharacterStream**
@@ -1516,9 +1774,11 @@ public Reader getCharacterStream(String columnName)
 public void updateCharacterStream(String columnName, Reader reader, int length)
                            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateCharacterStream</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateCharacterStream` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getObject**
@@ -1528,10 +1788,14 @@ public Object getObject(String columnName)
                  throws SQLException
 ```
 
-Gets the value of the designated column in the current row of this ResultSet object as an Object in the Java programming language. This method will return the value of the given column as a Java object. The type of the Java object will be the default Java object type corresponding to the column's SQL type, following the mapping for built-in types specified in the JDBC specification. If the value is an SQL NULL, the driver returns a Java null. This method may also be used to read database-specific abstract data types. In the JDBC 2.0 API, the behavior of the method getObject is extended to materialize data of SQL user-defined types. When a column contains a structured or distinct value, the behavior of this method is as if it were a call to: getObject(columnIndex, this.getStatement().getConnection().getTypeMap()). jBASE note: We adopt data types defined for jDP, $JBASEHOME/include/DTYPEID.H,<dt><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd><code>getObject</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt><br><span class="paramLabel"><strong>Parameters:</strong></span></dt><dd style="margin-left: 20px;"><code>columnName</code> - the SQL name of the column</dd><dt><br><span class="returnLabel"><strong>Returns:</strong></span></dt><dd>a java.lang.Object holding the column value</dd><dt><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code> - if a database access error occurs</dd>
+Gets the value of the designated column in the current row of this ResultSet object as an Object in the Java programming language. This method will return the value of the given column as a Java object. The type of the Java object will be the default Java object type corresponding to the column's SQL type, following the mapping for built-in types specified in the JDBC specification. If the value is an SQL NULL, the driver returns a Java null. This method may also be used to read database-specific abstract data types. In the JDBC 2.0 API, the behavior of the method getObject is extended to materialize data of SQL user-defined types. When a column contains a structured or distinct value, the behavior of this method is as if it were a call to: getObject(columnIndex, this.getStatement().getConnection().getTypeMap()). jBASE note: We adopt data types defined for jDP, $JBASEHOME/include/DTYPEID.H,
+**Specified by:**`getObject` in interface `ResultSet`
+**Parameters:**`columnName` - the SQL name of the column
+**Returns:**a java.lang.Object holding the column value
+**Throws:**`SQLException` - if a database access error occurs
 
 
-<!--   -->
+
 
 
 #### **updateObject**
@@ -1540,9 +1804,11 @@ Gets the value of the designated column in the current row of this ResultSet obj
 public void updateObject(String columnName, Object x)
                   throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateObject</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateObject` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateObject**
@@ -1551,9 +1817,11 @@ public void updateObject(String columnName, Object x)
 public void updateObject(String columnName, Object x, int scale)
                   throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateObject</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateObject` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getObject**
@@ -1562,9 +1830,11 @@ public void updateObject(String columnName, Object x, int scale)
 public Object getObject(int i, Map map)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getObject</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getObject` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getString**
@@ -1573,9 +1843,11 @@ public Object getObject(int i, Map map)
 public String getString(String columnName)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getString</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getString` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### updateString
@@ -1584,9 +1856,11 @@ public String getString(String columnName)
 public void updateString(String columnName, String x)
                   throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateString</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateString` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getBigDecimal**
@@ -1595,9 +1869,11 @@ public void updateString(String columnName, String x)
 public BigDecimal getBigDecimal(String columnName)
                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getBigDecimal</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getBigDecimal` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### getBigDecimal
@@ -1606,9 +1882,11 @@ public BigDecimal getBigDecimal(String columnName)
 public BigDecimal getBigDecimal(String columnName, int scale)
                          throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getBigDecimal</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getBigDecimal` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### updateBigDecimal
@@ -1617,9 +1895,11 @@ public BigDecimal getBigDecimal(String columnName, int scale)
 public void updateBigDecimal(String columnName, BigDecimal x)
                       throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateBigDecimal</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateBigDecimal` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getURL**
@@ -1628,9 +1908,11 @@ public void updateBigDecimal(String columnName, BigDecimal x)
 public URL getURL(String columnName)
            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getURL</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getURL` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getArray**
@@ -1639,9 +1921,11 @@ public URL getURL(String columnName)
 public Array getArray(String colName)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getArray</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getArray` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateArray**
@@ -1650,9 +1934,11 @@ public Array getArray(String colName)
 public void updateArray(String columnName, Array x)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateArray</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateArray` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getBlob**
@@ -1661,9 +1947,11 @@ public void updateArray(String columnName, Array x)
 public Blob getBlob(String columnName)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getBlob</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getBlob` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### updateBlob
@@ -1672,9 +1960,11 @@ public Blob getBlob(String columnName)
 public void updateBlob(String columnName, Blob x)
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateBlob</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateBlob` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getClob**
@@ -1683,9 +1973,11 @@ public void updateBlob(String columnName, Blob x)
 public Clob getClob(String colName)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getClob</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getClob` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### updateClob
@@ -1694,9 +1986,11 @@ public Clob getClob(String colName)
 public void updateClob(String columnName, Clob x)
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateClob</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateClob` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getDate**
@@ -1705,9 +1999,11 @@ public void updateClob(String columnName, Clob x)
 public Date getDate(String columnName)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getDate</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getDate` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **updateDate**
@@ -1716,9 +2012,11 @@ public Date getDate(String columnName)
 public void updateDate(String columnName, Date x)
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateDate</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateDate` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getDate**
@@ -1727,9 +2025,11 @@ public void updateDate(String columnName, Date x)
 public Date getDate(int columnIndex, Calendar cal)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getDate</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getDate` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getRef**
@@ -1738,9 +2038,11 @@ public Date getDate(int columnIndex, Calendar cal)
 public Ref getRef(String colName)
            throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getRef</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getRef` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### updateRef
@@ -1749,9 +2051,11 @@ public Ref getRef(String colName)
 public void updateRef(String columnName, Ref x)
                throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateRef</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateRef` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getTime**
@@ -1760,9 +2064,10 @@ public void updateRef(String columnName, Ref x)
 public Time getTime(String columnName)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getTime</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
+**Specified by:**`getTime` in interface `ResultSet`
+**Throws:**`SQLException`
 
-<!--   -->
+
 
 
 #### updateTime
@@ -1771,9 +2076,11 @@ public Time getTime(String columnName)
 public void updateTime(String columnName, Time x)
                 throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateTime</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateTime` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getTime**
@@ -1782,9 +2089,11 @@ public void updateTime(String columnName, Time x)
 public Time getTime(int columnIndex, Calendar cal)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getTime</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getTime` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getTimestamp**
@@ -1793,9 +2102,11 @@ public Time getTime(int columnIndex, Calendar cal)
 public Timestamp getTimestamp(String columnName)
                        throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getTimestamp</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getTimestamp` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### updateTimestamp
@@ -1804,9 +2115,11 @@ public Timestamp getTimestamp(String columnName)
 public void updateTimestamp(String columnName, Timestamp x)
                      throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>updateTimestamp</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`updateTimestamp` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getTimestamp**
@@ -1815,9 +2128,11 @@ public void updateTimestamp(String columnName, Timestamp x)
 public Timestamp getTimestamp(int columnIndex, Calendar cal)
                        throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getTimestamp</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getTimestamp` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getObject**
@@ -1826,9 +2141,11 @@ public Timestamp getTimestamp(int columnIndex, Calendar cal)
 public Object getObject(String colName, Map map)
                  throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getObject</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getObject` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getDate**
@@ -1837,9 +2154,11 @@ public Object getObject(String colName, Map map)
 public Date getDate(String columnName, Calendar cal)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getDate</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getDate` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getTime**
@@ -1848,9 +2167,11 @@ public Date getDate(String columnName, Calendar cal)
 public Time getTime(String columnName, Calendar cal)
              throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getTime</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
 
-<!--   -->
+**Specified by:**`getTime` in interface `ResultSet`
+**Throws:**`SQLException`
+
+
 
 
 #### **getTimestamp**
@@ -1859,6 +2180,8 @@ public Time getTime(String columnName, Calendar cal)
 public Timestamp getTimestamp(String columnName, Calendar cal)
                        throws SQLException
 ```
-<dl><dt style="margin-left: 40px;"><br><span class="overrideSpecifyLabel"><strong>Specified by:</strong></span></dt><dd style="margin-left: 40px;"><code>getTimestamp</code> in interface <code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true" title="class or interface in java.sql">ResultSet</a></code></dd><dt style="margin-left: 40px;"><br><span class="throwsLabel"><strong>Throws:</strong></span></dt><dd style="margin-left: 40px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLException.html?is-external=true" title="class or interface in java.sql">SQLException</a></code></dd></dl>
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
+**Specified by:**`getTimestamp` in interface `ResultSet`
+**Throws:**`SQLException`
+
+

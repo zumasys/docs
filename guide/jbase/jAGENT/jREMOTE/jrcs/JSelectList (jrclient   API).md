@@ -4,22 +4,8 @@ JSelectList (jrclient   API)
 **Created At:** 9/25/2017 11:29:32 AM  
 **Updated At:** 9/20/2018 1:06:51 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="JSelectList (jrclient   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript>&amp;amp;amp;amp;lt;div&amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JSelectList (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";&amp;amp;amp;lt;div&amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;lt;/div&amp;amp;amp;gt;
+
 
 ## Class JSelectList
 com.jbase.jrcs.JSelectList
@@ -30,7 +16,9 @@ extends Object
 ```
 
 Represents a jBASE select list variable
-<dl><h2><br>Constructor Summary</h2></dl>
+
+## 
+Constructor Summary
 
 | Modifier<br> | Constructor and Description<br> |
 | --- | --- |
@@ -38,7 +26,7 @@ Represents a jBASE select list variable
 
 
 
-<!--   -->
+
 
 ## Method Summary
 
@@ -61,28 +49,26 @@ Represents a jBASE select list variable
 ### 
 
 
-<!--   -->
+
 
 ## Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
 `clone, equals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-<!--   -->
-
 ## Constructor Detail
-<!--   -->
+
 #### **JSelectList**
 
 ```
 protected JSelectList(int handle, boolean indexVar, JConnection conn)
 ```
-<!-- ============ METHOD DETAIL ========== -->
-<!--   -->
+
+
 
 # 
 
 
 ## Method Detail
-<!--   -->
+
 #### **bol**
 
 ```
@@ -96,7 +82,7 @@ Indicates whether the select list is at its beginning.
 Returns: true if the select list is at the beginning.
 
 Throws: `JException `
-<!--   -->
+
 #### 
 
 
@@ -120,7 +106,7 @@ Throws: `JException `
 
 
 
-<!--   -->
+
 #### **getIndexKey**
 
 ```
@@ -132,7 +118,7 @@ throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 Returns: Index key
 
 Throws: `JException `
-<!--   -->
+
 #### 
 
 
@@ -152,7 +138,7 @@ Indicates whether this select list was generated from a jBASE index.
 Returns: true if the select list was generated from an index variable.
 
 Throws: `JException `
-<!--   -->
+
 #### 
 
 
@@ -172,7 +158,7 @@ Reads the next key from the select list.
 Returns: Next key read or blank ("") if the list is exhausted.
 
 Throws: `JException `
-<!--   -->
+
 #### 
 
 
@@ -192,7 +178,7 @@ Retrieves the record key.
 Returns: Record key.
 
 Throws: `JException `
-<!--   -->
+
 #### 
 
 
@@ -234,7 +220,7 @@ Retrieves the multi-value index for the current key.
 Returns: Multi-value index.
 
 Throws: `JException `
-<!--   -->
+
 #### 
 
 
@@ -264,7 +250,7 @@ Throws: `JException `
 ```
 protected int getHandle()
 ```
-<!--   -->
+
 #### 
 
 
@@ -278,5 +264,5 @@ protected void finalize()
 ```
 
 Overrides: `finalize` in class `Object`
-<!-- ========= END OF CLASS DATA ========= -->
+
 

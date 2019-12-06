@@ -3,11 +3,11 @@
 **Created At:** 9/25/2017 12:10:30 PM  
 **Updated At:** 8/31/2018 5:48:46 PM  
 
-<noscript>&amp;lt;div&amp;gt;JavaScript is disabled on your browser.&amp;lt;/div&amp;gt;</noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+
+
+
 # Package com.jbase.jremote
 
 ## Interface Summary
@@ -47,7 +47,7 @@
 | [JRecordNotFoundException](/39248-jremote/com_jbase_jremote_JRecordNotFoundException "class in com.jbase.jremote")<br> | <br>A generic jBASE record not found exception.<br> |
 | [JRemoteException](/39248-jremote/com_jbase_jremote_JRemoteException "class in com.jbase.jremote")<br> | <br>A generic exception thrown when an unexpected error occurs whilst communicating with the remote jBASE instance.<br> |
 | [JSubroutineNotFoundException](/39248-jremote/com_jbase_jremote_JSubroutineNotFoundException "class in com.jbase.jremote")<br> | <br>This exception is thrown when a call is made to a non existent subroutine.<br> |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
+
 
 
 

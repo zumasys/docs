@@ -3,26 +3,14 @@
 **Created At:** 9/25/2017 11:53:12 AM  
 **Updated At:** 12/24/2018 9:03:37 PM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="NIOJBaseObjectReader (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="NIOJBaseObjectReader (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
+
 
 ## Class NIOJBaseObjectReader
 
-<dl><dt>All Implemented Interfaces:</dt><dd><a href="/39250-io/com_jbase_jremote_io_jbaseobjectreader" title="interface in com.jbase.jremote.io">JBaseObjectReader</a></dd></dl>
+All Implemented Interfaces:[JBaseObjectReader](/39250-io/com_jbase_jremote_io_jbaseobjectreader "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -32,9 +20,6 @@ extends AbstractJBaseObjectReader
 ```
 
 jBASE object reader based on the new Java IO.
-<dl><dt><br></dt></dl>
-
-<!--   -->
 
 ### Field Summary
 
@@ -44,13 +29,13 @@ jBASE object reader based on the new Java IO.
 | `static long`<br> | `READ_TIMEOUT`<br>The temporary selectors read timeout.<br> |
 
 
-- <!--   -->Fields inherited from class com.jbase.jremote.io.AbstractJBaseObjectReader
+- Fields inherited from class com.jbase.jremote.io.AbstractJBaseObjectReader
     - `log`
 
 
 
 
-<!--   -->
+
 
 ### Constructor Summary
 
@@ -62,7 +47,7 @@ jBASE object reader based on the new Java IO.
 
 
 
-<!--   -->
+
 
 ### Method Summary
 
@@ -83,15 +68,13 @@ jBASE object reader based on the new Java IO.
 | `void`<br> | `setSocketChannel(SocketChannel socketChannel)` <br> |
 
 
-- <!--   -->Methods inherited from class com.jbase.jremote.io.AbstractJBaseObjectReader
+- Methods inherited from class com.jbase.jremote.io.AbstractJBaseObjectReader
     - `bufferedRead, checkBuffer, readByteObject, readBytes, readInt, readJBaseSerializableObject, readObject, readObject, readObject, readRootObject, readString`
-- <!--   -->Methods inherited from class java.lang.Object
+- Methods inherited from class java.lang.Object
     - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
-<!--   -->
-
 ### Field Detail
-<!--   -->
+
 #### READ\_TIMEOUT
 
 ```
@@ -99,28 +82,28 @@ public static final long READ_TIMEOUT
 ```
 
 The temporary selectors read timeout. 30 seconds.
-<dl><dt style="margin-left: 20px;"><span class="seeLabel">See Also:</span></dt><dd style="margin-left: 20px;"><a href="299736-constant-values" title="">Constant Field Values</a></dd></dl><!-- ========= CONSTRUCTOR DETAIL ======== -->
-<!--   -->
+See Also:[Constant Field Values](299736-constant-values)
+
 
 ### 
 
 
 ### Constructor Detail
-<!--   -->
+
 #### NIOJBaseObjectReader
 
 ```
 public NIOJBaseObjectReader(ObjectFactory factory,
                             SocketChannel channel)
 ```
-<!-- ============ METHOD DETAIL ========== -->
-<!--   -->
+
+
 
 ### 
 
 
 ### Method Detail
-<!--   -->
+
 #### getObjectFactory
 
 ```
@@ -130,7 +113,7 @@ public ObjectFactory getObjectFactory()
 Description copied from class: `AbstractJBaseObjectReader`
 
 This method must be implemented by concrete ObjectReaders.
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader#getObjectFactory--">getObjectFactory</a></code> in class <code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader" title="class in com.jbase.jremote.io">AbstractJBaseObjectReader</a></code></dd><dt style="margin-left: 20px;"><span class="returnLabel">Returns:</span></dt><dd style="margin-left: 20px;">an instance of a class implementing JBaseSerializable</dd></dl><!--   -->
+Specified by:`getObjectFactory` in class `AbstractJBaseObjectReader`Returns:an instance of a class implementing JBaseSerializable
 #### 
 
 
@@ -140,7 +123,7 @@ This method must be implemented by concrete ObjectReaders.
 public void close()
            throws IOException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_jbaseobjectreader#close--">close</a></code> in interface <code><a href="/39250-io/com_jbase_jremote_io_jbaseobjectreader" title="interface in com.jbase.jremote.io">JBaseObjectReader</a></code></dd><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader#close--">close</a></code> in class <code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader" title="class in com.jbase.jremote.io">AbstractJBaseObjectReader</a></code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl><!--   -->
+Specified by:`close` in interface `JBaseObjectReader`Specified by:`close` in class `AbstractJBaseObjectReader`Throws:`IOException`
 #### 
 
 
@@ -150,7 +133,7 @@ public void close()
 protected byte getByte()
                 throws IOException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader#getByte--">getByte</a></code> in class <code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader" title="class in com.jbase.jremote.io">AbstractJBaseObjectReader</a></code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl><!--   -->
+Specified by:`getByte` in class `AbstractJBaseObjectReader`Throws:`IOException`
 #### 
 
 
@@ -160,7 +143,7 @@ protected byte getByte()
 protected int getInt()
               throws IOException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader#getInt--">getInt</a></code> in class <code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader" title="class in com.jbase.jremote.io">AbstractJBaseObjectReader</a></code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl><!--   -->
+Specified by:`getInt` in class `AbstractJBaseObjectReader`Throws:`IOException`
 #### 
 
 
@@ -170,7 +153,7 @@ protected int getInt()
 protected int getBytes(byte[] buf)
                 throws IOException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader#getBytes-byte%3AA-">getBytes</a></code> in class <code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader" title="class in com.jbase.jremote.io">AbstractJBaseObjectReader</a></code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl><!--   -->
+Specified by:`getBytes` in class `AbstractJBaseObjectReader`Throws:`IOException`
 #### 
 
 
@@ -180,7 +163,7 @@ protected int getBytes(byte[] buf)
 protected int getBytes(ByteBuffer bBuf)
                 throws IOException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader#getBytes-java.nio.ByteBuffer-">getBytes</a></code> in class <code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader" title="class in com.jbase.jremote.io">AbstractJBaseObjectReader</a></code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl><!--   -->
+Specified by:`getBytes` in class `AbstractJBaseObjectReader`Throws:`IOException`
 #### 
 
 
@@ -190,7 +173,7 @@ protected int getBytes(ByteBuffer bBuf)
 protected int inBytes(int numberOfBytesToRead)
                throws IOException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader#inBytes-int-">inBytes</a></code> in class <code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader" title="class in com.jbase.jremote.io">AbstractJBaseObjectReader</a></code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl><!--   -->
+Specified by:`inBytes` in class `AbstractJBaseObjectReader`Throws:`IOException`
 #### 
 
 
@@ -200,7 +183,7 @@ protected int inBytes(int numberOfBytesToRead)
 protected String readUTF()
                   throws IOException
 ```
-<dl><dt style="margin-left: 20px;"><span class="overrideSpecifyLabel">Specified by:</span></dt><dd style="margin-left: 20px;"><code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader#readUTF--">readUTF</a></code> in class <code><a href="/39250-io/com_jbase_jremote_io_abstractjbaseobjectreader" title="class in com.jbase.jremote.io">AbstractJBaseObjectReader</a></code></dd><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl><!--   -->
+Specified by:`readUTF` in class `AbstractJBaseObjectReader`Throws:`IOException`
 #### 
 
 
@@ -212,7 +195,7 @@ protected int doRead(int numberOfBytes)
 ```
 
 Read bytes using the read a temporary Selector
-<dl><dt style="margin-left: 20px;"><span class="throwsLabel">Throws:</span></dt><dd style="margin-left: 20px;"><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl><!--   -->
+Throws:`IOException`
 #### 
 
 
@@ -221,7 +204,7 @@ Read bytes using the read a temporary Selector
 ```
 protected void checkBuffer(int newDataLength)
 ```
-<!--   -->
+
 #### 
 
 
@@ -230,7 +213,7 @@ protected void checkBuffer(int newDataLength)
 ```
 public boolean isClosed()
 ```
-<!--   -->
+
 #### 
 
 
@@ -239,8 +222,5 @@ public boolean isClosed()
 ```
 public void setSocketChannel(SocketChannel socketChannel)
 ```
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
-
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

@@ -29,7 +29,7 @@ This protocol is currently implemented by the following jBASE components:
 
 # RESOURCES
 
-<iframe src="//www.youtube.com/embed/7Nu7cRn4Wc4?wmode=opaque" allowfullscreen="" frameborder="0" height="360" width="640" class="fr-draggable"></iframe>
+
 
 # CONFIGURING jAGENT
 
@@ -199,7 +199,7 @@ SocketAcceptor.h +63
 
 6. Keep the terminal session open and open an Internet browser and browse to:
 
-- [<u>http://localhost:20002/api/helloworld</u>](http://localhost:20002/api/helloworld)
+- [http://localhost:20002/api/helloworld](http://localhost:20002/api/helloworld)
 
 
 7. Once finished, close the browser and enter Ctrl + C to terminate jAgent session

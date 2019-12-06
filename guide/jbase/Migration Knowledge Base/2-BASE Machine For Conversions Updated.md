@@ -20,7 +20,7 @@ CHECKLIST.   Use this to be sure all steps are completed as documented.
 
 \_\_\_\_\_\_ Install latest jBASE with 5.5 installer
 
-\_\_\_**<u>&radic;</u>**\_\_\_ webmin for user/printer/shutdown/reboot web based tools (not to be installed)
+\_\_\_**√**\_\_\_ webmin for user/printer/shutdown/reboot web based tools (not to be installed)
 
 \_\_\_\_\_\_ samba (For testpdf printers and other windows shares)
 
@@ -90,7 +90,7 @@ bash Linux\_jBASE\_5.5.0\_64bit.bin
 
 Copy the /opt/jbase/CurrentVersion/config/Config\_EMULATE from a shims customer to this box so that it has the UVSHIMS emulation if  a “shims” conversion.  Add the jbased3 by duplicating the d3 definition if this is a D3 case-insensitive box.
 
-***<s>webmin for user/printer/shutdown/reboot web based tools</s>***  (be sure to be at the root shell prompt. #)
+***webmin for user/printer/shutdown/reboot web based tools***  (be sure to be at the root shell prompt. #)
 
 wget http://prdownloads.sourceforge.net/webadmin/webmin-1.750-1.noarch.rpm
 yum install -y perl perl-CPAN perl-Net-SSLeay perl-IO-Socket-SSL

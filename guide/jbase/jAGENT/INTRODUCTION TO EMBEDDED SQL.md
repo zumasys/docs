@@ -139,9 +139,9 @@ e.g.
  CRT PartNo, PartName
 ```
 
-In this example, the table Parts is selected returning values for the columns [[<u>PartNo</u>](http://10.10.17.22/PartNo)], [[<u>PartName</u>](http://10.10.17.22/PartName)].
+In this example, the table Parts is selected returning values for the columns [[PartNo](http://10.10.17.22/PartNo)], [[PartName](http://10.10.17.22/PartName)].
 
-Each subsequent call to [FETCH] will then populate the jBC variables [[<u>PartNo</u>](http://10.10.17.22/PartNo)], [[<u>PartName</u>](http://10.10.17.22/PartName)]
+Each subsequent call to [FETCH] will then populate the jBC variables [[PartNo](http://10.10.17.22/PartNo)], [[PartName](http://10.10.17.22/PartName)]
 
 ### CLOSE
 
@@ -321,7 +321,7 @@ UNTIL no_more_data DO REPEAT
 . . .
 ```
 
-[OPEN] will triggered, [SELECT [<u>PartNo</u>](http://10.10.17.22/PartNo), [<u>PartName</u>](http://10.10.17.22/PartName) FROM Parts;] to be ran on the SQL database.
+[OPEN] will triggered, [SELECT [PartNo](http://10.10.17.22/PartNo), [PartName](http://10.10.17.22/PartName) FROM Parts;] to be ran on the SQL database.
 
 ### SELECT
 
@@ -695,7 +695,7 @@ rc = connection_status_auto_commit(connection)
 To run,
 
 - create an ODBC DSN called zumasys
-- on server, create table called Parts, two columns [<u>PartNo</u>](http://10.10.17.22/PartNo), [<u>PartName</u>](http://10.10.17.22/PartName)
+- on server, create table called Parts, two columns [PartNo](http://10.10.17.22/PartNo), [PartName](http://10.10.17.22/PartName)
 - Add some data
 
 

@@ -3,24 +3,11 @@
 **Created At:** 9/25/2017 10:31:19 AM  
 **Updated At:** 2/15/2018 8:02:27 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="JBaseSerializable (framework   API)";
-        }
-    }
-    catch(err) {
-    }
-//-->
-var methods = {"i0":6,"i1":6,"i2":6,"i3":6};
-var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"]};
-var altColor = "altColor";
-var rowColor = "rowColor";
-var tableTab = "tableTab";
-var activeTableTab = "activeTableTab";</script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JBaseSerializable (framework   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":6,"i1":6,"i2":6,"i3":6};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39220-io/com_jbase_framework_io_package-summary)
 - Class
@@ -43,15 +30,7 @@ framework <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -64,16 +43,12 @@ framework <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= --><!-- ======== START OF CLASS DATA ======== -->
+
 com.jbase.framework.io
 
 ## Interface JBaseSerializable
 
-- <dl><dt>All Known Implementing Classes:</dt>
-<dd>
-<a href="/39220-io/com_jbase_framework_io_ErrorResponse" title="class in com.jbase.framework.io">ErrorResponse</a>, <a href="/39220-io/com_jbase_framework_io_OKResponse" title="class in com.jbase.framework.io">OKResponse</a>, <a href="/39220-io/com_jbase_framework_io_Response" title="class in com.jbase.framework.io">Response</a>, <a href="/39220-io/com_jbase_framework_io_SQLError" title="class in com.jbase.framework.io">SQLError</a>
-</dd></dl>
+- All Known Implementing Classes:[ErrorResponse](/39220-io/com_jbase_framework_io_ErrorResponse "class in com.jbase.framework.io"), [OKResponse](/39220-io/com_jbase_framework_io_OKResponse "class in com.jbase.framework.io"), [Response](/39220-io/com_jbase_framework_io_Response "class in com.jbase.framework.io"), [SQLError](/39220-io/com_jbase_framework_io_SQLError "class in com.jbase.framework.io")
 * * *
 
 
@@ -82,34 +57,28 @@ public interface JBaseSerializable
 ```
 
 Interface which must be implemented by objects which take part in the<br> JDBC driver  jbase\_agent communication.<br><br> Note: the interface is not compatible with standard Java<br> java.io.Serializable. This is because we do not intend to implement Java<br> serialization protocol for our purposes (note: this is about Java  C++ communication).<br><br> Each class implementing this interface should have a counterpart<br> on the server side with compatible serializing/deserializing protocol.
-<dl><dt><span class="simpleTagLabel">Author:</span></dt>
-<dd>Peter Kuchta</dd></dl>
+Author:Peter Kuchta
 
-- <!-- ======== NESTED CLASS SUMMARY ======== -->
-    - <!--   -->
-### Nested Class Summary
+- - ### Nested Class Summary
 
 
-<caption><span>Nested Classes</span><span class="tabEnd"> </span></caption>| Modifier and Type | Interface and Description |
+Nested Classes | Modifier and Type | Interface and Description |
 | --- | --- |
 | `static interface` | `JBaseSerializable.TYPE`  |
 
-<!-- ========== METHOD SUMMARY =========== -->
-    - <!--   -->
-### Method Summary
+
+    - ### Method Summary
 
 
-<caption><span id="t0" class="activeTableTab"><span>All Methods</span><span class="tabEnd"> </span></span><span id="t2" class="tableTab"><span><a href="javascript:show(2);">Instance Methods</a></span><span class="tabEnd"> </span></span><span id="t3" class="tableTab"><span><a href="javascript:show(4);">Abstract Methods</a></span><span class="tabEnd"> </span></span></caption>| Modifier and Type | Method and Description |
+All Methods [Instance Methods](javascript:show%282%29;) [Abstract Methods](javascript:show%284%29;) | Modifier and Type | Method and Description |
 | --- | --- |
 | `int` | `getType()`  |
 | `int` | `getVersion()`  |
 | `void` | `readObject(JBaseObjectReader reader,<br>          int version)`  |
 | `void` | `writeObject(JBaseObjectWriter writer,<br>           int version)`  |
 
-- <!-- ============ METHOD DETAIL ========== -->
-    - <!--   -->
-### Method Detail
-<!--   -->
+- - ### Method Detail
+
         - #### writeObject
 
 ```
@@ -117,10 +86,9 @@ void writeObject(JBaseObjectWriter writer,
                  int version)
           throws IOException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd></dl>
+Throws:`IOException`
 
-<!--   -->
+
         - #### readObject
 
 ```
@@ -129,29 +97,25 @@ void readObject(JBaseObjectReader reader,
          throws IOException,
                 ClassNotFoundException
 ```
-<dl><dt><span class="throwsLabel">Throws:</span></dt>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true" title="class or interface in java.io">IOException</a></code></dd>
-<dd><code><a href="http://java.sun.com/j2se/1.5.0/docs/api/java/lang/ClassNotFoundException.html?is-external=true" title="class or interface in java.lang">ClassNotFoundException</a></code></dd></dl>
+Throws:`IOException``ClassNotFoundException`
 
-<!--   -->
+
         - #### getType
 
 ```
 int getType()
 ```
-<dl><dt><span class="returnLabel">Returns:</span></dt>
-<dd>type id of the objects, used during the serialization</dd></dl>
+Returns:type id of the objects, used during the serialization
 
-<!--   -->
+
         - #### getVersion
 
 ```
 int getVersion()
 ```
-<!-- ========= END OF CLASS DATA ========= --><!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../overview-summary.html)
 - [Package](/39220-io/com_jbase_framework_io_package-summary)
 - Class
@@ -174,15 +138,7 @@ framework <br>
 - [All Classes](../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 - Summary:
 - Nested |
@@ -195,6 +151,5 @@ framework <br>
 - Field |
 - Constr |
 - Method
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*

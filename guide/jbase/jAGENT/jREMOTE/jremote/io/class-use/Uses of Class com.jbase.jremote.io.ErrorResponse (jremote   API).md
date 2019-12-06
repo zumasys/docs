@@ -3,18 +3,11 @@
 **Created At:** 9/25/2017 11:43:49 AM  
 **Updated At:** 2/15/2018 8:02:27 AM  
 
-<script type="text/javascript"><!--
-    try {
-        if (location.href.indexOf('is-external=true') == -1) {
-            parent.document.title="Uses of Class com.jbase.jremote.io.ErrorResponse (jremote   API)";
-        }
-    }
-    catch(err) {
-    }
-//--></script><noscript><div>JavaScript is disabled on your browser.</div></noscript><!-- ========= START OF TOP NAVBAR ======= -->
-<!--   -->
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.io.ErrorResponse (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../overview-summary.html)
 - [Package](/39250-io/com_jbase_jremote_io_package-summary)
 - [Class](/39250-io/com_jbase_jremote_io_errorresponse "class in com.jbase.jremote.io")
@@ -37,34 +30,23 @@ jremote <br>
 - [All Classes](../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_top");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ========= END OF TOP NAVBAR ========= -->
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
 ## Uses of Class
 com.jbase.jremote.io.ErrorResponse
 
-- <caption><span>Packages that use <a href="/39250-io/com_jbase_jremote_io_errorresponse" title="class in com.jbase.jremote.io">ErrorResponse</a></span><span class="tabEnd"> </span></caption>| Package | Description |
+- Packages that use [ErrorResponse](/39250-io/com_jbase_jremote_io_errorresponse "class in com.jbase.jremote.io") | Package | Description |
 | --- | --- |
 | com.jbase.jremote |   |
-- - <!--   -->
-### Uses of [ErrorResponse](/39250-io/com_jbase_jremote_io_errorresponse "class in com.jbase.jremote.io") in [com.jbase.jremote](/30312-jagent/jremote-api)
+- - ### Uses of [ErrorResponse](/39250-io/com_jbase_jremote_io_errorresponse "class in com.jbase.jremote.io") in [com.jbase.jremote](/30312-jagent/jremote-api)
 
 
-<caption><span>Constructors in <a href="/30312-jagent/jremote-api">com.jbase.jremote</a> with parameters of type <a href="/39250-io/com_jbase_jremote_io_errorresponse" title="class in com.jbase.jremote.io">ErrorResponse</a></span><span class="tabEnd"> </span></caption>| Constructor and Description |
+Constructors in [com.jbase.jremote](/30312-jagent/jremote-api) with parameters of type [ErrorResponse](/39250-io/com_jbase_jremote_io_errorresponse "class in com.jbase.jremote.io") | Constructor and Description |
 | --- |
 | `JRemoteException(ErrorResponse response)`  |
-<!-- ======= START OF BOTTOM NAVBAR ====== -->
-<!--   -->
+
 Skip navigation links
-<!--   -->
+
 - [Overview](../../../../../overview-summary.html)
 - [Package](/39250-io/com_jbase_jremote_io_package-summary)
 - [Class](/39250-io/com_jbase_jremote_io_errorresponse "class in com.jbase.jremote.io")
@@ -87,15 +69,6 @@ jremote <br>
 - [All Classes](../../../../../allclasses-noframe.html)
 
 
-<script type="text/javascript"><!--
-  allClassesLink = document.getElementById("allclasses_navbar_bottom");
-  if(window==top) {
-    allClassesLink.style.display = "block";
-  }
-  else {
-    allClassesLink.style.display = "none";
-  }
-  //--></script>
-<!--   -->
-<!-- ======== END OF BOTTOM NAVBAR ======= -->
-<small>			<center>			<i>Copyright © 2017 jBASE, Inc.. All Rights Reserved.</i>		</center></small>
+<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+
+*Copyright © 2017 jBASE, Inc.. All Rights Reserved.*
