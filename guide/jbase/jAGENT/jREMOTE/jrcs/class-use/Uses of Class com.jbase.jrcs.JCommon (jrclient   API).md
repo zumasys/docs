@@ -1,0 +1,26 @@
+# Uses of Class com.jbase.jrcs.JCommon (jrclient   API)
+
+**Created At:** 9/25/2017 11:27:12 AM  
+**Updated At:** 9/20/2018 12:56:45 PM  
+
+<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jrcs.JCommon (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
+JavaScript is disabled on your browser.
+
+
+
+
+
+## Uses of [JCommon](com_jbase_jrcs_JCommon "class in com.jbase.jrcs") in [com.jbase.jrcs](com_jbase_jrcs_package-summary)
+
+
+
+**Methods in [com.jbase.jrcs](com_jbase_jrcs_package-summary) that return [JCommon](com_jbase_jrcs_JCommon "class in com.jbase.jrcs")**
+
+
+| Modifier and Type<br> | Method<br> | Description<br> |
+| --- | --- | --- |
+| [JCommon](com_jbase_jrcs_JCommon "class in com.jbase.jrcs")<br> | JConnection.[attachCommon](/jrcs/com_jbase_jrcs_JConnection#attachCommon-)(int numVars, String name)<br> | Attaches a common block by name with a given number of variables<br> |
+
+
+
+

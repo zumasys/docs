@@ -1,0 +1,54 @@
+# JResultSet (jremote API)
+
+**Created At:** 9/25/2017 12:09:55 PM  
+**Updated At:** 12/24/2018 7:52:41 PM  
+
+
+JavaScript is disabled on your browser.
+
+
+
+## Interface JResultSet
+
+All Known Implementing Classes:[JResultSetImpl](/39250-io/com_jbase_jremote_io_jresultsetimpl "class in com.jbase.jremote.io")
+* * *
+
+
+```
+public interface JResultSet
+```
+
+Allows iteration of a result set fetched in blocks.
+
+### Method Summary
+
+
+| Modifier and Type<br> | Method and Description<br> |
+| --- | --- |
+| `JDynArray`<br> | `getRow()` <br> |
+| `boolean`<br> | `next()` <br> |
+
+### Method Detail
+
+
+
+#### next
+
+```
+boolean next()
+      throws JRemoteException
+```
+Throws:`JRemoteException`
+
+
+
+
+#### getRow
+
+```
+JDynArray getRow()
+```
+
+Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+

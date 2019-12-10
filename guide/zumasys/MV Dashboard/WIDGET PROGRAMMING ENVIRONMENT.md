@@ -1,0 +1,31 @@
+# WIDGET PROGRAMMING ENVIRONMENT
+
+**Created At:** 9/25/2017 9:52:52 PM  
+**Updated At:** 11/21/2017 6:03:59 AM  
+
+
+Developing dashboard widgets requires the creation of a BASIC program to provide the following information:
+
+1. The type of widget to be displayed, e.g., a chart, map, table, preformatted text, or HTML.
+2. The widget title that will appear in the title bar of the widget that is displayed.
+3. The width of the widget (i.e. 1=Narrow, 2=Medium, or 3=Wide)
+4. The data used to formulate the chart or map, table, the raw HTML, or the preformatted text depending on the type of widget being created.
+
+
+Additionally, the program may provide information to invoke other behaviors of the widget such as links, icons, or input prompts to appear in the widget display.
+
+
+
+[Technical Description](widget-technical-overview)
+
+[General Widget Definition](general-widget-definition)
+
+[Defining Links in a Widget](defining-links-in-a-widget)
+
+[Drill Down Widgets](drill-down-widgets)
+
+[External Links](external-links)
+
+[User Input](user-input)
+
+[Additional Features](additional-features)

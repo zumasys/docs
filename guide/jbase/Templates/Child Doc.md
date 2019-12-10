@@ -1,0 +1,51 @@
+# Child Doc
+
+**Created At:** 3/22/2018 2:11:59 PM  
+**Updated At:** 3/23/2018 4:40:17 PM  
+
+
+## Description 
+
+A brief description of the matter at hand
+
+
+
+### Subheading 
+
+Goes into the details of the subject. Any tables used for illustration may take the form:
+
+
+| Heading 1<br> | Heading 2<br> | Heading 3<br> | Heading 4<br> |
+| --- | --- | --- | --- |
+| Table element<br> | Table element<br> | Table element<br> | Table element<br> |
+
+
+
+
+If any code samples,
+
+```
+code samples may take this form
+```
+
+
+
+results of running the code samples if any,
+
+```
+this is what came off the previously run code 
+```
+
+
+
+
+
+
+> ### Notes: 
+> 
+> Notes if any may take this form.
+
+
+
+
+Link to parent document here

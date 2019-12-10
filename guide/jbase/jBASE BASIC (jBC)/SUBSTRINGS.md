@@ -1,0 +1,43 @@
+# SUBSTRINGS
+
+**Created At:** 9/28/2017 2:13:24 PM  
+**Updated At:** 1/5/2018 6:24:32 PM  
+
+
+# Description
+
+The**SUBSTRINGS** function returns a dynamic array of elements, which are sub-strings of the corresponding elements in a supplied dynamic array.
+
+```
+SUBSTRINGS(dynarr, Start, Length)
+```
+
+Where:
+
+dynarr should evaluate to a dynamic array.
+
+Start specifies the position from which characters are extracted from each array element. It should evaluate to an integer greater than zero.
+
+Length specifies the number of characters to extract from each dynamic array element. If the length specified exceeds the number of characters remaining in an array element then all characters from the Start position are extracted.
+
+# **INTERNATIONAL MODE**
+
+When using the **SUBSTRINGS** function in International Mode, the function will use the ‘start’ and length’ parameters to the function as character count values, rather than bytecount
+
+The following example shows how each element of a dynamic array can be changed.
+
+```
+t = ""
+t<1> = "AAAAA"
+t<2> = "BBBBB" : @VM: "CCCCC" : @SVM: "DDDDD"
+t<3> = "EEEEE":@VM:@SVM
+r1 = SUBSTRINGS (t,3,2)
+r2 = SUBSTRINGS(t,4,20)
+r3 = SUBSTRINGS(t,0,1)
+```
+
+The above program creates 3 dynamic arrays. v represents a value mark. s represents a sub-value mark.
+
+
+
+Go back to [jBASE BASIC](263498-jbase-basic).
