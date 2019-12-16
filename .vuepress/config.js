@@ -29,7 +29,6 @@ module.exports = {
       ["/docs/zumasys/MVConnect/", "MV Connect"]
     ],
     repo: "https://github.com/zumasys/docs",
-    docsDir: "docs",
     docsBranch: "master",
     editLinks: true,
     nextLinks: false,
