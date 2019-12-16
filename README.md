@@ -4,7 +4,7 @@ heroImage: /assets/img/logo-grey.png
 heroText: Beta Documentation
 tagline: Welcome to the future
 actionText: Get Started →
-actionLink: /guide/
+actionLink: /docs/
 features:
   - title: First Feature
     details: Come read about the first feature here.
