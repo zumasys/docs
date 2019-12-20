@@ -1,1 +1,0 @@
-# AccuTerm Mobile

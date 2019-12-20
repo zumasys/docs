@@ -5,6 +5,8 @@ Welcome to the docs!
 ## Todo List
 
 - [ ] Add sidebar links matching docs directory structure
+- [ ] Clean up directory structure under the Zumasys folder (i.e. AccuTerm folder -> Mobile and Web)
+- [ ] Clean up root directory (move docs project into sub-dir)
 - [ ] Add [Table of Contents](https://vuepress.vuejs.org/guide/markdown.html#table-of-contents)
 - [ ] More [config](https://vuepress.vuejs.org/config/)
 - [ ] More [theme config](https://vuepress.vuejs.org/theme/default-theme-config.html)

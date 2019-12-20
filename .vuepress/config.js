@@ -21,12 +21,12 @@ module.exports = {
       "/",
       ["/docs/", "Docs"],
       ["/docs/jbase/", "jBASE"],
-      ["/docs/zumasys/AccuTerm Mobile/", "AccuTerm Mobile"],
-      ["/docs/zumasys/AccuTerm Web/", "AccuTerm Web"],
-      ["/docs/zumasys/Customer Portal/", "Customer Portal"],
-      ["/docs/zumasys/Internal Applications/", "Internal Applications"],
-      ["/docs/zumasys/MV Dashboard/", "MV Dashboard"],
-      ["/docs/zumasys/MVConnect/", "MV Connect"]
+      ["/docs/zumasys/accuterm-mobile/", "AccuTerm Mobile"],
+      ["/docs/zumasys/accuterm-web/", "AccuTerm Web"],
+      ["/docs/zumasys/customer-portal/", "Customer Portal"],
+      ["/docs/zumasys/internal-applications/", "Internal Applications"],
+      ["/docs/zumasys/mv-dashboard/", "MV Dashboard"],
+      ["/docs/zumasys/mvconnect/", "MV Connect"]
     ],
     repo: "https://github.com/zumasys/docs",
     docsBranch: "master",
