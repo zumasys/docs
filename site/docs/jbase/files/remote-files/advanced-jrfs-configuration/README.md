@@ -2,6 +2,7 @@
 
 **Created At:** 9/14/2018 9:47:00 AM  
 **Updated At:** 4/24/2019 10:17:06 PM  
+**Original Doc:** [advanced-jrfs-configuration](https://docs.jbase.com/44204-remote-files/advanced-jrfs-configuration)  
 
 **Tags:**
 <badge text='linux advanced jrfs config' vertical='middle' />

@@ -2,6 +2,7 @@
 
 **Created At:** 9/15/2017 10:07:02 AM  
 **Updated At:** 11/27/2018 8:23:32 AM  
+**Original Doc:** [276942-lower](https://docs.jbase.com/36868-jbase-basic/276942-lower)  
 
 **Tags:**
 <badge text='delimeters' vertical='middle' />

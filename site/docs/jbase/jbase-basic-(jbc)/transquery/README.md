@@ -2,6 +2,7 @@
 
 **Created At:** 9/29/2017 2:22:40 PM  
 **Updated At:** 1/5/2018 6:26:59 PM  
+**Original Doc:** [278972-transquery](https://docs.jbase.com/36868-jbase-basic/278972-transquery)  
 
 
 # Description

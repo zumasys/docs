@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:47:54 AM  
 **Updated At:** 2/15/2018 8:02:43 AM  
+**Original Doc:** [com_jbase_jremote_io_exception_package-use](https://docs.jbase.com/39254-exception/com_jbase_jremote_io_exception_package-use)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Package com.jbase.jremote.io.exception (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

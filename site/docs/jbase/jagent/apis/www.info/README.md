@@ -2,6 +2,7 @@
 
 **Created At:** 6/8/2017 3:39:31 PM  
 **Updated At:** 11/23/2017 7:05:56 PM  
+**Original Doc:** [258357-www-info](https://docs.jbase.com/34473-docs/258357-www-info)  
 
 
 WWW.INFO is a common variable that stores all the web information.  It is not recommended you directly access the common due to platform/emulation issues.  Instead you can use the WGETINFO function to gain access to any of the commons

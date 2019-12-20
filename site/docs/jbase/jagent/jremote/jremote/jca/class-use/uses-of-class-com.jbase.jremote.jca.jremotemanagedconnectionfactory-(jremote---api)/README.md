@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:58:13 AM  
 **Updated At:** 2/15/2018 8:02:24 AM  
+**Original Doc:** [com_jbase_jremote_jca_class-use_JRemoteManagedConnectionFactory](https://docs.jbase.com/39261-class-use/com_jbase_jremote_jca_class-use_JRemoteManagedConnectionFactory)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.jca.JRemoteManagedConnectionFactory (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

@@ -2,6 +2,7 @@
 
 **Created At:** 3/21/2018 7:09:35 AM  
 **Updated At:** 12/24/2018 6:30:04 PM  
+**Original Doc:** [monitoring-transaction-replication](https://docs.jbase.com/43995-transactional-journaling/monitoring-transaction-replication)  
 
 **Tags:**
 <badge text='tj' vertical='middle' />

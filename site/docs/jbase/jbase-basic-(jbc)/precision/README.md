@@ -2,6 +2,7 @@
 
 **Created At:** 9/22/2017 1:46:19 PM  
 **Updated At:** 11/27/2018 9:42:38 AM  
+**Original Doc:** [277629-precision](https://docs.jbase.com/36868-jbase-basic/277629-precision)  
 
 **Tags:**
 <badge text='mathematical operations' vertical='middle' />

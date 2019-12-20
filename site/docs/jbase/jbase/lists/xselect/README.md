@@ -2,6 +2,7 @@
 
 **Created At:** 7/9/2018 12:32:27 PM  
 **Updated At:** 7/13/2018 9:36:46 AM  
+**Original Doc:** [xselect](https://docs.jbase.com/47026-lists/xselect)  
 
 **Tags:**
 <badge text='lists' vertical='middle' />

@@ -2,6 +2,7 @@
 
 **Created At:** 7/9/2018 12:27:46 PM  
 **Updated At:** 12/20/2018 10:07:32 AM  
+**Original Doc:** [delete-list](https://docs.jbase.com/47026-lists/delete-list)  
 
 
 ## Description 

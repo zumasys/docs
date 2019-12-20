@@ -2,6 +2,7 @@
 
 **Created At:** 8/11/2017 12:10:36 AM  
 **Updated At:** 11/21/2017 2:38:35 PM  
+**Original Doc:** [4-refresh-data](https://docs.jbase.com/36040-migration-knowledge-base/4-refresh-data)  
 
 
 # Data Refresh Process

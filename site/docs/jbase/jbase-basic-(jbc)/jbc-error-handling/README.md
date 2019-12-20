@@ -2,6 +2,7 @@
 
 **Created At:** 5/21/2018 12:21:10 PM  
 **Updated At:** 8/27/2019 10:16:04 AM  
+**Original Doc:** [jbc-error-handling](https://docs.jbase.com/36868-jbase-basic/jbc-error-handling)  
 
 
 ## Description 

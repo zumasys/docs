@@ -2,6 +2,7 @@
 
 **Created At:** 6/8/2017 3:50:15 PM  
 **Updated At:** 11/21/2017 4:23:47 AM  
+**Original Doc:** [wsetstatus](https://docs.jbase.com/34473-docs/wsetstatus)  
 
 
 The WSETSTATUS subroutine allows you to modify the response code.

@@ -2,6 +2,7 @@
 
 **Created At:** 9/18/2018 10:12:57 AM  
 **Updated At:** 1/24/2019 9:00:57 AM  
+**Original Doc:** [339629-print-job-numbers](https://docs.jbase.com/44205-spooler/339629-print-job-numbers)  
 
 
 ## Assigning the Job Number

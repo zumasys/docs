@@ -2,6 +2,7 @@
 
 **Created At:** 9/14/2017 12:46:46 PM  
 **Updated At:** 11/27/2018 8:45:16 AM  
+**Original Doc:** [276773-5-jqlcompile](https://docs.jbase.com/36868-jbase-basic/276773-5-jqlcompile)  
 
 **Tags:**
 <badge text='records handling' vertical='middle' />

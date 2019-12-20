@@ -2,6 +2,7 @@
 
 **Created At:** 4/20/2017 2:52:23 PM  
 **Updated At:** 7/23/2019 6:50:55 PM  
+**Original Doc:** [expected-differences-between-d3-and-jbase](https://docs.jbase.com/34463-mv-migration-station/expected-differences-between-d3-and-jbase)  
 
 
 # Overview

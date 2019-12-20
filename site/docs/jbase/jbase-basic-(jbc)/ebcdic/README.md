@@ -2,6 +2,7 @@
 
 **Created At:** 9/6/2017 8:27:32 AM  
 **Updated At:** 10/30/2018 1:23:03 PM  
+**Original Doc:** [276030-ebcdic](https://docs.jbase.com/36868-jbase-basic/276030-ebcdic)  
 
 **Tags:**
 <badge text='character conversion' vertical='middle' />

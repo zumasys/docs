@@ -2,6 +2,7 @@
 
 **Created At:** 7/20/2018 1:55:55 PM  
 **Updated At:** 8/23/2018 1:26:44 PM  
+**Original Doc:** [jcomp](https://docs.jbase.com/42462-distributed-files/jcomp)  
 
 **Tags:**
 <badge text='comparing records' vertical='middle' />

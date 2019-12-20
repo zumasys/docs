@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 12:09:14 PM  
 **Updated At:** 12/24/2018 7:44:44 PM  
+**Original Doc:** [com_jbase_jremote_jcursor](https://docs.jbase.com/39248-jremote/com_jbase_jremote_jcursor)  
 
 
 JavaScript is disabled on your browser.

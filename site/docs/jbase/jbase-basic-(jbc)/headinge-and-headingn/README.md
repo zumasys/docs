@@ -2,6 +2,7 @@
 
 **Created At:** 9/6/2017 3:00:47 PM  
 **Updated At:** 1/5/2018 1:59:10 PM  
+**Original Doc:** [276080-headinge-and-headingn](https://docs.jbase.com/36868-jbase-basic/276080-headinge-and-headingn)  
 
 
 The **HEADINGE**statement is the same as the [HEADING](276079-heading) statement, which causes a page eject with the [HEADING](276079-heading) statement.

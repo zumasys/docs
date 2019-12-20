@@ -2,6 +2,7 @@
 
 **Created At:** 6/12/2018 11:46:18 AM  
 **Updated At:** 6/12/2018 2:48:21 PM  
+**Original Doc:** [321556-system-parameter-operands](https://docs.jbase.com/46351-conversion-processing/321556-system-parameter-operands)  
 
 **Tags:**
 <badge text='operand' vertical='middle' />

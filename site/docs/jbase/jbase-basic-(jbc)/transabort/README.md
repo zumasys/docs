@@ -2,6 +2,7 @@
 
 **Created At:** 9/29/2017 2:20:31 PM  
 **Updated At:** 1/5/2018 6:26:47 PM  
+**Original Doc:** [278971-transabort](https://docs.jbase.com/36868-jbase-basic/278971-transabort)  
 
 
 # Description

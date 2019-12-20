@@ -2,6 +2,7 @@
 
 **Created At:** 5/20/2018 10:56:04 PM  
 **Updated At:** 5/20/2018 10:57:19 PM  
+**Original Doc:** [317567-wsetcookie](https://docs.zumasys.com/36566-mv-connect-api/317567-wsetcookie)  
 
 
 The WSETCOOKIE subroutine will set a cookie to be sent back to the browser.

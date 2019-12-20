@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:27:57 AM  
 **Updated At:** 9/20/2018 1:01:12 PM  
+**Original Doc:** [com_jbase_jrcs_class-use_jfile](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jfile)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jrcs.JFile (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 ## 

@@ -2,6 +2,7 @@
 
 **Created At:** 11/3/2017 3:15:53 PM  
 **Updated At:** 11/3/2017 3:27:16 PM  
+**Original Doc:** [terminal-support](https://docs.jbase.com/41717-environment-variables/terminal-support)  
 
 
 

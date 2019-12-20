@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 10:59:12 AM  
 **Updated At:** 4/3/2018 10:14:13 PM  
+**Original Doc:** [com_jbase_jdbc_protocol_class-use_precompilerequest](https://docs.jbase.com/39241-class-use/com_jbase_jdbc_protocol_class-use_precompilerequest)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jdbc.protocol.PrecompileRequest (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

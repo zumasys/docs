@@ -2,6 +2,7 @@
 
 **Created At:** 9/26/2017 12:16:10 PM  
 **Updated At:** 11/21/2017 6:01:43 AM  
+**Original Doc:** [pie-charts](https://docs.zumasys.com/36577-mv-dashboard/pie-charts)  
 
 
 A pie chart widget can be created using the following widget types:

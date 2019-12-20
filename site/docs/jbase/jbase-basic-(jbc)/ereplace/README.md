@@ -2,6 +2,7 @@
 
 **Created At:** 11/6/2017 1:26:14 PM  
 **Updated At:** 1/5/2018 6:48:24 PM  
+**Original Doc:** [284336-ereplace](https://docs.jbase.com/36868-jbase-basic/284336-ereplace)  
 
 
 # Description

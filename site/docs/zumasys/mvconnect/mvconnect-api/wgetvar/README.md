@@ -2,6 +2,7 @@
 
 **Created At:** 6/24/2017 12:56:05 AM  
 **Updated At:** 11/24/2017 6:46:57 PM  
+**Original Doc:** [wgetvar](https://docs.zumasys.com/36566-mv-connect-api/wgetvar)  
 
 
 The WGETVAR subroutine allows you to retrieve variables sent in the web request.

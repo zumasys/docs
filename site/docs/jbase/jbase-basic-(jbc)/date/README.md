@@ -2,6 +2,7 @@
 
 **Created At:** 8/14/2017 10:27:22 AM  
 **Updated At:** 4/19/2019 8:09:53 AM  
+**Original Doc:** [266870-date](https://docs.jbase.com/36868-jbase-basic/266870-date)  
 
 **Tags:**
 <badge text='today format' vertical='middle' />

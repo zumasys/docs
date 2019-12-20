@@ -2,6 +2,7 @@
 
 **Created At:** 9/18/2018 8:48:34 AM  
 **Updated At:** 10/1/2018 3:53:06 PM  
+**Original Doc:** [t-status](https://docs.jbase.com/49399-tape/t-status)  
 
 **Tags:**
 <badge text='spooler tape status' vertical='middle' />

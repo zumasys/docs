@@ -2,6 +2,7 @@
 
 **Created At:** 9/27/2017 2:49:33 PM  
 **Updated At:** 11/27/2018 10:04:21 AM  
+**Original Doc:** [278662-readt](https://docs.jbase.com/36868-jbase-basic/278662-readt)  
 
 **Tags:**
 <badge text='tape devices' vertical='middle' />

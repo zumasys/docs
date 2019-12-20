@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 12:02:42 PM  
 **Updated At:** 2/15/2018 8:03:01 AM  
+**Original Doc:** [com_jbase_jremote_jca_inflow_protocol_class-use_JRemoteXid](https://docs.jbase.com/39265-class-use/com_jbase_jremote_jca_inflow_protocol_class-use_JRemoteXid)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.jca.inflow.protocol.JRemoteXid (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

@@ -2,6 +2,7 @@
 
 **Created At:** 9/14/2018 7:57:28 AM  
 **Updated At:** 4/24/2019 10:16:11 PM  
+**Original Doc:** [client-connections](https://docs.jbase.com/44204-remote-files/client-connections)  
 
 
 ## Description 

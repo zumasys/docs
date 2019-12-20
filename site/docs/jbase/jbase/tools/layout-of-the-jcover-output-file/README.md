@@ -2,6 +2,7 @@
 
 **Created At:** 8/30/2018 12:35:01 PM  
 **Updated At:** 8/30/2018 12:49:35 PM  
+**Original Doc:** [layout-of-the-jcover-output-file](https://docs.jbase.com/48399-tools/layout-of-the-jcover-output-file)  
 
 **Tags:**
 <badge text='jbase tools' vertical='middle' />

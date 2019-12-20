@@ -2,6 +2,7 @@
 
 **Created At:** 9/20/2018 9:21:13 AM  
 **Updated At:** 10/31/2018 8:12:35 AM  
+**Original Doc:** [transactions](https://docs.jbase.com/49273-transactions/transactions)  
 
 
 

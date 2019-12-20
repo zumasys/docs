@@ -2,6 +2,7 @@
 
 **Created At:** 4/5/2018 1:24:56 PM  
 **Updated At:** 1/24/2019 8:49:35 AM  
+**Original Doc:** [306486-sp-clear](https://docs.jbase.com/44205-spooler/306486-sp-clear)  
 
 
 ## Description 

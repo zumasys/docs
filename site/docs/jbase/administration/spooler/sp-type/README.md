@@ -2,6 +2,7 @@
 
 **Created At:** 4/4/2018 2:01:05 PM  
 **Updated At:** 1/24/2019 8:14:27 AM  
+**Original Doc:** [306290-sp-type](https://docs.jbase.com/44205-spooler/306290-sp-type)  
 
 
 ## Description 

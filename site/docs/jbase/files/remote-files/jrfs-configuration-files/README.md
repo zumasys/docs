@@ -2,6 +2,7 @@
 
 **Created At:** 4/2/2018 11:43:43 PM  
 **Updated At:** 4/19/2018 12:18:18 PM  
+**Original Doc:** [306076-jrfs-configuration-files](https://docs.jbase.com/44204-remote-files/306076-jrfs-configuration-files)  
 
 **Tags:**
 <badge text='remote files' vertical='middle' />

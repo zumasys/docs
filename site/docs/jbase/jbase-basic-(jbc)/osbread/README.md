@@ -2,6 +2,7 @@
 
 **Created At:** 9/21/2017 2:05:45 PM  
 **Updated At:** 11/27/2018 9:46:16 AM  
+**Original Doc:** [277546-osbread](https://docs.jbase.com/36868-jbase-basic/277546-osbread)  
 
 **Tags:**
 <badge text='file handling' vertical='middle' />

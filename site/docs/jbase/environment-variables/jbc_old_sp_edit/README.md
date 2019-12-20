@@ -2,6 +2,7 @@
 
 **Created At:** 7/13/2018 2:38:37 PM  
 **Updated At:** 7/19/2018 10:02:27 AM  
+**Original Doc:** [jbc_old_sp_edit](https://docs.jbase.com/41717-environment-variables/jbc_old_sp_edit)  
 
 **Tags:**
 <badge text='spooler' vertical='middle' />

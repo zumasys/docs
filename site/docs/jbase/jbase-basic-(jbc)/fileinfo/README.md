@@ -2,6 +2,7 @@
 
 **Created At:** 8/31/2017 7:25:43 AM  
 **Updated At:** 10/25/2018 7:47:21 AM  
+**Original Doc:** [271548-fileinfo](https://docs.jbase.com/36868-jbase-basic/271548-fileinfo)  
 
 **Tags:**
 <badge text='file operations' vertical='middle' />

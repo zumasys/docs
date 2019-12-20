@@ -2,6 +2,7 @@
 
 **Created At:** 9/14/2018 12:09:27 PM  
 **Updated At:** 10/31/2018 8:13:55 AM  
+**Original Doc:** [creating-distributed-files](https://docs.jbase.com/44203-distributed-files/creating-distributed-files)  
 
 **Tags:**
 <badge text='distributed files' vertical='middle' />

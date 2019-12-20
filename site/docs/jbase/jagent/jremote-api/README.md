@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 12:10:30 PM  
 **Updated At:** 8/31/2018 5:48:46 PM  
+**Original Doc:** [jremote-api](https://docs.jbase.com/30312-jagent/jremote-api)  
 
 &lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 

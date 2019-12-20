@@ -2,6 +2,7 @@
 
 **Created At:** 6/14/2018 2:08:08 PM  
 **Updated At:** 7/19/2018 12:12:16 PM  
+**Original Doc:** [ph-clear](https://docs.jbase.com/46465-background-processing/ph-clear)  
 
 
 ## Description 

@@ -2,6 +2,7 @@
 
 **Created At:** 6/8/2018 2:04:42 PM  
 **Updated At:** 7/13/2018 10:13:16 AM  
+**Original Doc:** [sselect](https://docs.jbase.com/46350-jql/sselect)  
 
 
 ## Description

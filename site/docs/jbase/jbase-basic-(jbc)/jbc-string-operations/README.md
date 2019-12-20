@@ -3,6 +3,7 @@ jBC String Operations
 
 **Created At:** 9/26/2018 12:48:52 PM  
 **Updated At:** 10/31/2018 8:08:37 AM  
+**Original Doc:** [jbc-string-operations](https://docs.jbase.com/36868-jbase-basic/jbc-string-operations)  
 
 **Tags:**
 <badge text='substrings' vertical='middle' />

@@ -2,6 +2,7 @@
 
 **Created At:** 9/15/2017 12:33:46 PM  
 **Updated At:** 11/27/2018 9:50:48 AM  
+**Original Doc:** [276970-matwriteu](https://docs.jbase.com/36868-jbase-basic/276970-matwriteu)  
 
 **Tags:**
 <badge text='dimensioned arrays' vertical='middle' />

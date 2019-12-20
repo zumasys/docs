@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 12:09:44 PM  
 **Updated At:** 12/24/2018 7:51:46 PM  
+**Original Doc:** [com_jbase_jremote_jrecordnotfoundexception](https://docs.jbase.com/39248-jremote/com_jbase_jremote_jrecordnotfoundexception)  
 
 
 JavaScript is disabled on your browser.

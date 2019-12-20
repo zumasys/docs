@@ -2,6 +2,7 @@
 
 **Created At:** 9/28/2017 9:18:00 AM  
 **Updated At:** 1/5/2018 6:16:10 PM  
+**Original Doc:** [278804-sendx](https://docs.jbase.com/36868-jbase-basic/278804-sendx)  
 
 
 # Description

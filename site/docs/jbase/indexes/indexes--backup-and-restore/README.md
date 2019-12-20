@@ -2,6 +2,7 @@
 
 **Created At:** 8/16/2018 10:36:49 AM  
 **Updated At:** 1/21/2019 1:38:12 PM  
+**Original Doc:** [indexes-backup-and-restore](https://docs.jbase.com/48152-indexes/indexes-backup-and-restore)  
 
 **Tags:**
 <badge text='restore' vertical='middle' />

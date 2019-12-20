@@ -2,6 +2,7 @@
 
 **Created At:** 9/6/2017 12:38:20 PM  
 **Updated At:** 10/30/2018 1:22:49 PM  
+**Original Doc:** [276053-fsub](https://docs.jbase.com/36868-jbase-basic/276053-fsub)  
 
 **Tags:**
 <badge text='mathematical operations' vertical='middle' />

@@ -2,6 +2,7 @@
 
 **Created At:** 9/14/2017 2:19:44 PM  
 **Updated At:** 11/27/2018 10:12:28 AM  
+**Original Doc:** [276857-lens](https://docs.jbase.com/36868-jbase-basic/276857-lens)  
 
 **Tags:**
 <badge text='dynamic arrays' vertical='middle' />

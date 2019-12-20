@@ -2,6 +2,7 @@
 
 **Created At:** 9/22/2017 2:29:31 PM  
 **Updated At:** 11/27/2018 9:15:45 AM  
+**Original Doc:** [277639-prompt](https://docs.jbase.com/36868-jbase-basic/277639-prompt)  
 
 **Tags:**
 <badge text='terminal input' vertical='middle' />

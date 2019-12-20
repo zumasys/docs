@@ -2,6 +2,7 @@
 
 **Created At:** 9/26/2017 5:12:49 PM  
 **Updated At:** 11/21/2017 10:57:10 AM  
+**Original Doc:** [optional-parameters-for-line-bar-area-column-pie-and-doughnut-charts-2d-3d](https://docs.zumasys.com/36577-mv-dashboard/optional-parameters-for-line-bar-area-column-pie-and-doughnut-charts-2d-3d)  
 
 
 # Background Properties

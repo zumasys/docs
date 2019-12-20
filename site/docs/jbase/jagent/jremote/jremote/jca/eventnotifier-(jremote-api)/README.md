@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:59:08 AM  
 **Updated At:** 4/6/2018 12:04:39 AM  
+**Original Doc:** [com_jbase_jremote_jca_eventnotifier](https://docs.jbase.com/39258-jca/com_jbase_jremote_jca_eventnotifier)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="EventNotifier (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":6};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 

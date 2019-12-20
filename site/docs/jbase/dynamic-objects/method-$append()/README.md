@@ -2,6 +2,7 @@
 
 **Created At:** 2/15/2018 1:51:27 PM  
 **Updated At:** 2/11/2019 8:48:12 AM  
+**Original Doc:** [method-append](https://docs.jbase.com/42948-dynamic-objects/method-append)  
 
 
 ## Description

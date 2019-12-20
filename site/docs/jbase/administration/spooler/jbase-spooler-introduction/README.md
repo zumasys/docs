@@ -2,6 +2,7 @@
 
 **Created At:** 9/20/2018 9:04:42 AM  
 **Updated At:** 1/24/2019 8:06:06 AM  
+**Original Doc:** [jbase-spooler-introduction](https://docs.jbase.com/44205-spooler/jbase-spooler-introduction)  
 
 **Tags:**
 <badge text='spooler' vertical='middle' />

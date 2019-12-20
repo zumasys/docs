@@ -2,6 +2,7 @@
 
 **Created At:** 6/8/2018 2:06:10 PM  
 **Updated At:** 7/13/2018 10:13:40 AM  
+**Original Doc:** [sort-label](https://docs.jbase.com/46350-jql/sort-label)  
 
 **Tags:**
 <badge text='jql' vertical='middle' />

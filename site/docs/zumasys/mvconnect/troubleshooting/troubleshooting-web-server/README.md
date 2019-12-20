@@ -3,6 +3,7 @@
 
 **Created At:** 5/18/2018 8:46:02 PM  
 **Updated At:** 1/2/2019 5:19:39 PM  
+**Original Doc:** [317533-troubleshooting-jagent-mvconnect](https://docs.zumasys.com/45719-troubleshooting/317533-troubleshooting-jagent-mvconnect)  
 
 
 This document explains how the MV Connect web server works and how to diagnose when things are not working.

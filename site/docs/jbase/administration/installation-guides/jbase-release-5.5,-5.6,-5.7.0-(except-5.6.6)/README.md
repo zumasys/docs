@@ -2,6 +2,7 @@
 
 **Created At:** 9/21/2018 6:38:52 PM  
 **Updated At:** 9/24/2018 4:11:19 PM  
+**Original Doc:** [jbase-release-55-56-570-except-566](https://docs.jbase.com/36690-installation-guides/jbase-release-55-56-570-except-566)  
 
 
 The compiler installer for jBASE release 5.5, 5.6 and 5.7.0 which is invoked by the jBASE installer is not functional at this time, and should not be used to install the compiler for these releases. Instead, an updated compiler installer [jbase\_compiler\_update\_64bit.exe](https://s3.amazonaws.com/helpjuice-static/helpjuice_production%2Fuploads%2Fupload%2Fimage%2F3397%2Fdirect%2F1534457477362-jbase_compiler_update_64bit.exe) should be used.

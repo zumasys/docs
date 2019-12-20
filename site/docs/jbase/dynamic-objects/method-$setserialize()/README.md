@@ -2,6 +2,7 @@
 
 **Created At:** 3/15/2018 1:49:08 PM  
 **Updated At:** 4/23/2018 10:22:36 AM  
+**Original Doc:** [method-setserialize](https://docs.jbase.com/42948-dynamic-objects/method-setserialize)  
 
 
 ## Description

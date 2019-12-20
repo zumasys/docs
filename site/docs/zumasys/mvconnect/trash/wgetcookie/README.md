@@ -2,6 +2,7 @@
 
 **Created At:** 6/26/2017 11:58:15 PM  
 **Updated At:** 6/27/2017 11:06:28 PM  
+**Original Doc:** [261261-wgetcookie](https://docs.zumasys.com/36617-trash/261261-wgetcookie)  
 
 
 The WGETCOOKIE subroutine retrieves cookies sent in the web request.

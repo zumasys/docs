@@ -2,6 +2,7 @@
 
 **Created At:** 9/21/2017 1:35:34 PM  
 **Updated At:** 11/27/2018 9:41:56 AM  
+**Original Doc:** [277543-openseq](https://docs.jbase.com/36868-jbase-basic/277543-openseq)  
 
 **Tags:**
 <badge text='records handling' vertical='middle' />

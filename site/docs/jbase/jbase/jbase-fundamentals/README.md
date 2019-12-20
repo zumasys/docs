@@ -2,6 +2,7 @@
 
 **Created At:** 4/27/2017 7:40:13 PM  
 **Updated At:** 8/28/2018 6:34:35 AM  
+**Original Doc:** [jbase-fundamentals](https://docs.jbase.com/30301-jbase/jbase-fundamentals)  
 
 
 

@@ -2,6 +2,7 @@
 
 **Created At:** 9/28/2017 9:35:30 AM  
 **Updated At:** 1/5/2018 6:17:58 PM  
+**Original Doc:** [278810-smul](https://docs.jbase.com/36868-jbase-basic/278810-smul)  
 
 
 # Description

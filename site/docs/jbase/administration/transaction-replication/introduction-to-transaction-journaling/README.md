@@ -2,6 +2,7 @@
 
 **Created At:** 3/21/2018 7:20:44 AM  
 **Updated At:** 3/21/2019 10:49:41 PM  
+**Original Doc:** [introduction-to-transactional-journaling](https://docs.jbase.com/43995-transactional-journaling/introduction-to-transactional-journaling)  
 
 **Tags:**
 <badge text='journaling' vertical='middle' />

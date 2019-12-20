@@ -2,6 +2,7 @@
 
 **Created At:** 9/12/2018 9:05:57 PM  
 **Updated At:** 4/19/2019 7:58:01 AM  
+**Original Doc:** [introduction-to-environment-variables](https://docs.jbase.com/41717-environment-variables/introduction-to-environment-variables)  
 
 
 ## SETTING/GETTING

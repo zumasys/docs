@@ -2,6 +2,7 @@
 
 **Created At:** 9/21/2017 12:30:45 PM  
 **Updated At:** 4/24/2019 4:27:09 PM  
+**Original Doc:** [277537-open](https://docs.jbase.com/36868-jbase-basic/277537-open)  
 
 **Tags:**
 <badge text='fileopen' vertical='middle' />

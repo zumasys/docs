@@ -2,6 +2,7 @@
 
 **Created At:** 6/27/2017 8:01:27 PM  
 **Updated At:** 11/25/2017 10:58:08 AM  
+**Original Doc:** [wgetbody](https://docs.zumasys.com/36566-mv-connect-api/wgetbody)  
 
 
 The WGETBODY gets the raw body sent in the web request.  Only certain content types pass the raw body.  See the config file to determine which ones.

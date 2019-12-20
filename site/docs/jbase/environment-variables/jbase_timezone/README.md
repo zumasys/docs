@@ -2,6 +2,7 @@
 
 **Created At:** 11/3/2017 3:10:39 PM  
 **Updated At:** 4/24/2019 4:24:12 PM  
+**Original Doc:** [jbase_timezone](https://docs.jbase.com/41717-environment-variables/jbase_timezone)  
 
 **Tags:**
 <badge text='get time offset' vertical='middle' />

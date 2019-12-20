@@ -2,6 +2,7 @@
 
 **Created At:** 11/22/2019 7:47:42 PM  
 **Updated At:** 11/26/2019 6:35:20 PM  
+**Original Doc:** [structure-of-odbc-jedi-initialization-files](https://docs.jbase.com//structure-of-odbc-jedi-initialization-files)  
 
 
 ## jEDIdrivers.ini File Structure

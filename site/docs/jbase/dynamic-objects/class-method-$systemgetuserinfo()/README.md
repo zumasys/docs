@@ -2,6 +2,7 @@
 
 **Created At:** 5/4/2018 9:54:09 AM  
 **Updated At:** 5/4/2018 9:58:03 AM  
+**Original Doc:** [class-method-system-getuserinfo](https://docs.jbase.com/42948-dynamic-objects/class-method-system-getuserinfo)  
 
 
 ## Description

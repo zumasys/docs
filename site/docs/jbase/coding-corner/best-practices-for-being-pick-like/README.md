@@ -2,6 +2,7 @@
 
 **Created At:** 5/23/2018 1:00:11 PM  
 **Updated At:** 5/29/2018 10:36:54 PM  
+**Original Doc:** [318006-best-practices-for-being-pick-like](https://docs.jbase.com/coding-corner/318006-best-practices-for-being-pick-like)  
 
 
 ## 

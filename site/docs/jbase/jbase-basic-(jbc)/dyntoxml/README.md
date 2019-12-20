@@ -2,6 +2,7 @@
 
 **Created At:** 9/6/2017 8:19:23 AM  
 **Updated At:** 4/19/2019 8:00:45 AM  
+**Original Doc:** [276029-dyntoxml](https://docs.jbase.com/36868-jbase-basic/276029-dyntoxml)  
 
 **Tags:**
 <badge text='xmlto' vertical='middle' />

@@ -2,6 +2,7 @@
 
 **Created At:** 6/24/2017 1:06:40 AM  
 **Updated At:** 11/25/2017 10:59:10 AM  
+**Original Doc:** [wbuildjson](https://docs.zumasys.com/36566-mv-connect-api/wbuildjson)  
 
 
 The WBUILDJSON is a very simple jSON building subroutine.  It basically handles encoding of your values.  This subroutine has been replaced by WOBJ.

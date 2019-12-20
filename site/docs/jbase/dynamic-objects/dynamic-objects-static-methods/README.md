@@ -2,6 +2,7 @@
 
 **Created At:** 2/24/2018 12:29:05 PM  
 **Updated At:** 3/13/2018 9:44:04 AM  
+**Original Doc:** [dynamic-objects-static-methods](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-static-methods)  
 
 
 A **Static Method** is one that can be used without creating an object. This means the calling object (identified as **this-&gt;**) is either illegal or inconsequential.

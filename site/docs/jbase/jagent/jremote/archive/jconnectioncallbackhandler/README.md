@@ -2,6 +2,7 @@
 
 **Created At:** 9/13/2017 7:55:03 PM  
 **Updated At:** 9/13/2017 7:55:47 PM  
+**Original Doc:** [jconnectioncallbackhandler](https://docs.jbase.com/39719-archive/jconnectioncallbackhandler)  
 
 
 ## Interface JConnectionCallbackHandler

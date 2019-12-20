@@ -2,6 +2,7 @@
 
 **Created At:** 4/12/2017 4:54:46 PM  
 **Updated At:** 7/8/2019 8:38:49 PM  
+**Original Doc:** [jremote](https://docs.jbase.com/30312-jagent/jremote)  
 
 **Tags:**
 <badge text='connect to db' vertical='middle' />

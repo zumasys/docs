@@ -2,6 +2,7 @@
 
 **Created At:** 5/31/2019 4:26:19 PM  
 **Updated At:** 5/31/2019 4:26:45 PM  
+**Original Doc:** [create-an-encrypted-spooler-queue](https://docs.jbase.com/encryption/create-an-encrypted-spooler-queue)  
 
 
 ## 

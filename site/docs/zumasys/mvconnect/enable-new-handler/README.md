@@ -2,6 +2,7 @@
 
 **Created At:** 2/27/2018 10:26:47 PM  
 **Updated At:** 5/29/2018 8:44:57 PM  
+**Original Doc:** [300756-enable-new-handler](https://docs.zumasys.com/36307-mv-connect/300756-enable-new-handler)  
 
 
 To enable a new handler, in addition to the WDB.RESOURCE record, you need to modify the mv\_appsvr.conf file:

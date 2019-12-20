@@ -2,6 +2,7 @@
 
 **Created At:** 9/22/2017 1:51:46 PM  
 **Updated At:** 11/27/2018 9:42:51 AM  
+**Original Doc:** [277631-print](https://docs.jbase.com/36868-jbase-basic/277631-print)  
 
 **Tags:**
 <badge text='printing' vertical='middle' />

@@ -2,6 +2,7 @@
 
 **Created At:** 10/25/2017 1:56:25 PM  
 **Updated At:** 11/13/2019 8:09:12 AM  
+**Original Doc:** [282982-system-functions](https://docs.jbase.com/36868-jbase-basic/282982-system-functions)  
 
 **Tags:**
 <badge text='jbcglobaldir' vertical='middle' />

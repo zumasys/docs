@@ -2,6 +2,7 @@
 
 **Created At:** 11/3/2017 2:33:12 PM  
 **Updated At:** 1/5/2018 6:47:16 PM  
+**Original Doc:** [284140-bitreset](https://docs.jbase.com/36868-jbase-basic/284140-bitreset)  
 
 
 # Description

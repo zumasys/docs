@@ -2,6 +2,7 @@
 
 **Created At:** 9/13/2017 1:19:16 PM  
 **Updated At:** 11/27/2018 8:08:18 AM  
+**Original Doc:** [276611-isdigit](https://docs.jbase.com/36868-jbase-basic/276611-isdigit)  
 
 **Tags:**
 <badge text='string handling' vertical='middle' />

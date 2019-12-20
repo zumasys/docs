@@ -2,6 +2,7 @@
 
 **Created At:** 3/28/2018 8:55:01 PM  
 **Updated At:** 3/30/2018 3:48:18 PM  
+**Original Doc:** [305765-monitoring-transaction-logging](https://docs.jbase.com/43995-transactional-journaling/305765-monitoring-transaction-logging)  
 
 
 ## Overview

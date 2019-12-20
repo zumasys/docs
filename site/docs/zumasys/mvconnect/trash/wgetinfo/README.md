@@ -2,6 +2,7 @@
 
 **Created At:** 6/27/2017 12:02:12 AM  
 **Updated At:** 6/27/2017 11:07:52 PM  
+**Original Doc:** [261265-wgetinfo](https://docs.zumasys.com/36617-trash/261265-wgetinfo)  
 
 
 The WGETINFO subroutine allows you return directly information from WWW.INFO common.

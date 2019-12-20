@@ -2,6 +2,7 @@
 
 **Created At:** 12/4/2019 12:24:05 PM  
 **Updated At:** 12/16/2019 11:11:40 AM  
+**Original Doc:** [dynamic-objects-inheritance](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-inheritance)  
 
 
 Inheritance is a fundamental Object Oriented concept. Dynamic Objects implements inheritance in 2 ways:

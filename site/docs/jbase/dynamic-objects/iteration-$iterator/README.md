@@ -2,6 +2,7 @@
 
 **Created At:** 2/15/2018 2:34:48 PM  
 **Updated At:** 3/22/2018 6:01:25 PM  
+**Original Doc:** [iteration-iterator](https://docs.jbase.com/42948-dynamic-objects/iteration-iterator)  
 
 
 ## Description

@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 12:08:28 PM  
 **Updated At:** 4/5/2018 11:59:51 PM  
+**Original Doc:** [com_jbase_jremote_jca_spring_package-use](https://docs.jbase.com/39268-spring/com_jbase_jremote_jca_spring_package-use)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Package com.jbase.jremote.jca.spring (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

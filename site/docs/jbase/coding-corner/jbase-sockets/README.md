@@ -2,6 +2,7 @@
 
 **Created At:** 1/19/2019 4:26:09 PM  
 **Updated At:** 1/19/2019 4:33:43 PM  
+**Original Doc:** [358589-jbase-sockets](https://docs.jbase.com/coding-corner/358589-jbase-sockets)  
 
 
 jBASE offers some internal functions to gain access to Sockets.  jBASE socket functions are built in C based functions and can be accessed by using DEFC and importing the functions.

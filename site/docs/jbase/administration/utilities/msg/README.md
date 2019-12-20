@@ -2,6 +2,7 @@
 
 **Created At:** 9/7/2018 12:18:25 PM  
 **Updated At:** 12/28/2018 2:10:48 PM  
+**Original Doc:** [msg](https://docs.jbase.com/46963-utilities/msg)  
 
 **Tags:**
 <badge text='message' vertical='middle' />

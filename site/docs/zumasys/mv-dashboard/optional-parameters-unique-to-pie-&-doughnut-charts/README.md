@@ -2,6 +2,7 @@
 
 **Created At:** 9/26/2017 6:17:21 PM  
 **Updated At:** 11/20/2017 9:21:47 PM  
+**Original Doc:** [optional-parameters-unique-to-pie-doughnut-charts](https://docs.zumasys.com/36577-mv-dashboard/optional-parameters-unique-to-pie-doughnut-charts)  
 
 
 # Generic Properties

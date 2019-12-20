@@ -2,6 +2,7 @@
 
 **Created At:** 8/29/2018 1:49:08 AM  
 **Updated At:** 11/13/2019 1:53:53 AM  
+**Original Doc:** [336525-jagent-administration](https://docs.jbase.com/30312-jagent/336525-jagent-administration)  
 
 
 # 

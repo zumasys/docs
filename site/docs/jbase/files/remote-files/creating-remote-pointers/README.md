@@ -2,6 +2,7 @@
 
 **Created At:** 4/13/2018 10:43:07 AM  
 **Updated At:** 4/15/2019 7:52:28 AM  
+**Original Doc:** [307821-creating-remote-pointers](https://docs.jbase.com/44204-remote-files/307821-creating-remote-pointers)  
 
 
 ## Description 

@@ -2,6 +2,7 @@
 
 **Created At:** 6/12/2018 7:53:22 AM  
 **Updated At:** 6/12/2018 2:49:51 PM  
+**Original Doc:** [321522-n-field-name-operand](https://docs.jbase.com/46351-conversion-processing/321522-n-field-name-operand)  
 
 **Tags:**
 <badge text='field operand' vertical='middle' />

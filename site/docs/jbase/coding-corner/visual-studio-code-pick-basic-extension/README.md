@@ -2,6 +2,7 @@
 
 **Created At:** 5/15/2018 6:06:44 PM  
 **Updated At:** 12/22/2018 12:32:02 AM  
+**Original Doc:** [316972-visual-studio-pick-basic-extension](https://docs.jbase.com/coding-corner/316972-visual-studio-pick-basic-extension)  
 
 
 ## Description

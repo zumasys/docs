@@ -2,6 +2,7 @@
 
 **Created At:** 10/30/2017 10:04:01 AM  
 **Updated At:** 10/30/2017 10:48:20 AM  
+**Original Doc:** [how-to-write-a-qa-test](https://docs.jbase.com/40575-jbase-development/how-to-write-a-qa-test)  
 
 
 ## 

@@ -2,6 +2,7 @@
 
 **Created At:** 7/17/2018 12:54:46 PM  
 **Updated At:** 8/20/2018 1:09:39 PM  
+**Original Doc:** [jbcscreen_depth](https://docs.jbase.com/41717-environment-variables/jbcscreen_depth)  
 
 **Tags:**
 <badge text='terminal' vertical='middle' />

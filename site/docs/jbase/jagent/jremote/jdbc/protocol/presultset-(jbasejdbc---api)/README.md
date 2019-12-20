@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:03:25 AM  
 **Updated At:** 2/15/2018 8:02:23 AM  
+**Original Doc:** [com_jbase_jdbc_protocol_PResultSet](https://docs.jbase.com/39240-protocol/com_jbase_jdbc_protocol_PResultSet)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="PResultSet (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
 JavaScript is disabled on your browser.

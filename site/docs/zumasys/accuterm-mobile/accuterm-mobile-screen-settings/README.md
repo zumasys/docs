@@ -2,6 +2,7 @@
 
 **Created At:** 11/15/2019 6:52:59 PM  
 **Updated At:** 11/15/2019 7:32:18 PM  
+**Original Doc:** [494604-accuterm-mobile-screen-settings](https://docs.zumasys.com/accutermmobile/494604-accuterm-mobile-screen-settings)  
 
 
 

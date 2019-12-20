@@ -3,6 +3,7 @@
 
 **Created At:** 8/18/2018 7:06:26 PM  
 **Updated At:** 9/26/2018 10:45:15 PM  
+**Original Doc:** [create-index](https://docs.jbase.com/48152-indexes/create-index)  
 
 
 ## Description 

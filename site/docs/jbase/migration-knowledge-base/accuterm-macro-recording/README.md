@@ -2,6 +2,7 @@
 
 **Created At:** 6/26/2017 9:25:53 PM  
 **Updated At:** 8/11/2017 12:03:37 AM  
+**Original Doc:** [261242-accuterm-macro-recording](https://docs.jbase.com/36040-migration-knowledge-base/261242-accuterm-macro-recording)  
 
 
 # Accuterm Macro Recording

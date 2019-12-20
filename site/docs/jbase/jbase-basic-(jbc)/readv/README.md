@@ -2,6 +2,7 @@
 
 **Created At:** 9/28/2017 6:41:53 AM  
 **Updated At:** 11/27/2018 9:35:38 AM  
+**Original Doc:** [278772-readv](https://docs.jbase.com/36868-jbase-basic/278772-readv)  
 
 **Tags:**
 <badge text='record handling' vertical='middle' />

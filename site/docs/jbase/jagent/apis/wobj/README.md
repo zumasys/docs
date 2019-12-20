@@ -2,6 +2,7 @@
 
 **Created At:** 3/26/2018 10:01:16 PM  
 **Updated At:** 4/19/2018 8:58:41 AM  
+**Original Doc:** [wobj](https://docs.jbase.com/34473-docs/wobj)  
 
 
 The WOBJ subroutine is a basic object library for consuming and creating JSONobjects.

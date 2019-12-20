@@ -2,6 +2,7 @@
 
 **Created At:** 5/23/2018 2:57:49 PM  
 **Updated At:** 6/1/2018 5:14:13 PM  
+**Original Doc:** [318037-time-and-date](https://docs.jbase.com/45792-jcl/318037-time-and-date)  
 
 
 The following commands provide a simple way of putting the current system time and date into the currently active input buffer:

@@ -2,6 +2,7 @@
 
 **Created At:** 3/19/2018 9:37:39 AM  
 **Updated At:** 5/31/2018 10:20:01 AM  
+**Original Doc:** [class-method-development-crash](https://docs.jbase.com/42948-dynamic-objects/class-method-development-crash)  
 
 
 ## Description

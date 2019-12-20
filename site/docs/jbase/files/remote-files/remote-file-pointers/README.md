@@ -2,6 +2,7 @@
 
 **Created At:** 9/14/2018 7:54:33 AM  
 **Updated At:** 4/24/2019 10:15:09 PM  
+**Original Doc:** [339364-remote-file-pointers](https://docs.jbase.com/44204-remote-files/339364-remote-file-pointers)  
 
 **Tags:**
 <badge text='daemons' vertical='middle' />

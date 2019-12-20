@@ -2,6 +2,7 @@
 
 **Created At:** 7/9/2018 12:26:38 PM  
 **Updated At:** 7/13/2018 9:25:19 AM  
+**Original Doc:** [list-storage](https://docs.jbase.com/47026-lists/list-storage)  
 
 
 ## Description 

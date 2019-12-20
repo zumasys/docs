@@ -2,6 +2,7 @@
 
 **Created At:** 7/6/2017 10:07:47 PM  
 **Updated At:** 11/20/2017 9:13:59 PM  
+**Original Doc:** [manual-installation-of-jdls-service](https://docs.jbase.com/30301-jbase/manual-installation-of-jdls-service)  
 
 
 

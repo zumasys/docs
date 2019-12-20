@@ -2,6 +2,7 @@
 
 **Created At:** 9/15/2017 10:12:15 AM  
 **Updated At:** 11/27/2018 8:34:29 AM  
+**Original Doc:** [276943-maketimestamp](https://docs.jbase.com/36868-jbase-basic/276943-maketimestamp)  
 
 **Tags:**
 <badge text='system time' vertical='middle' />

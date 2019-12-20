@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 12:03:31 PM  
 **Updated At:** 4/5/2018 12:21:40 AM  
+**Original Doc:** [com_jbase_jremote_jca_inflow_protocol_class-use_workscheduledresponse](https://docs.jbase.com/39265-class-use/com_jbase_jremote_jca_inflow_protocol_class-use_workscheduledresponse)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.jca.inflow.protocol.WorkScheduledResponse (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 

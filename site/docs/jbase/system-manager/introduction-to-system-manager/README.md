@@ -2,6 +2,7 @@
 
 **Created At:** 3/10/2017 5:35:25 PM  
 **Updated At:** 11/2/2018 3:15:23 PM  
+**Original Doc:** [introduction-to-system-manager](https://docs.jbase.com/30318-system-manager/introduction-to-system-manager)  
 
 
 # DOCUMENT SCOPE

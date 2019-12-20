@@ -2,6 +2,7 @@
 
 **Created At:** 9/18/2018 9:55:19 AM  
 **Updated At:** 1/24/2019 8:57:28 AM  
+**Original Doc:** [339625-rest-spooler](https://docs.jbase.com/44205-spooler/339625-rest-spooler)  
 
 
 ## Description 

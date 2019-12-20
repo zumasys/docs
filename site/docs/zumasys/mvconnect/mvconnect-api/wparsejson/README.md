@@ -2,6 +2,7 @@
 
 **Created At:** 6/24/2017 1:05:20 AM  
 **Updated At:** 11/24/2017 4:11:22 AM  
+**Original Doc:** [wparsejson](https://docs.zumasys.com/36566-mv-connect-api/wparsejson)  
 
 
 The WPARSEJSON is a simple jSON parsing subroutine.  It has been been replaced with WOBJ.

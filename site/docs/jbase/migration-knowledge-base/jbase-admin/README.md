@@ -2,6 +2,7 @@
 
 **Created At:** 6/26/2017 9:47:45 PM  
 **Updated At:** 8/11/2017 12:03:46 AM  
+**Original Doc:** [261245-jbase-admin](https://docs.jbase.com/36040-migration-knowledge-base/261245-jbase-admin)  
 
 
 ## Changing Linux Passwords

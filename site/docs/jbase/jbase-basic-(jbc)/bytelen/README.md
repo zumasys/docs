@@ -2,6 +2,7 @@
 
 **Created At:** 8/14/2017 10:26:31 AM  
 **Updated At:** 10/25/2018 7:08:31 AM  
+**Original Doc:** [266869-bytelen](https://docs.jbase.com/36868-jbase-basic/266869-bytelen)  
 
 
 # Description

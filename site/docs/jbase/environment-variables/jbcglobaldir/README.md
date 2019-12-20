@@ -2,6 +2,7 @@
 
 **Created At:** 11/3/2017 3:40:30 PM  
 **Updated At:** 7/17/2018 1:50:41 PM  
+**Original Doc:** [jbcglobaldir](https://docs.jbase.com/41717-environment-variables/jbcglobaldir)  
 
 **Tags:**
 <badge text='directories' vertical='middle' />

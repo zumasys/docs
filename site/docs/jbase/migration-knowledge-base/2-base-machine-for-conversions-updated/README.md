@@ -2,6 +2,7 @@
 
 **Created At:** 8/11/2017 12:01:45 AM  
 **Updated At:** 8/11/2017 12:02:25 AM  
+**Original Doc:** [2-base-machine-for-conversions-updated](https://docs.jbase.com/36040-migration-knowledge-base/2-base-machine-for-conversions-updated)  
 
 
 ## In preparation, be sure you have a valid evaluation or active license for jBASE

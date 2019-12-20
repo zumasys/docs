@@ -2,6 +2,7 @@
 
 **Created At:** 9/15/2017 8:18:22 AM  
 **Updated At:** 11/27/2018 10:12:52 AM  
+**Original Doc:** [276932-lendp](https://docs.jbase.com/36868-jbase-basic/276932-lendp)  
 
 **Tags:**
 <badge text='string handling' vertical='middle' />

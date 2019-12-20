@@ -2,6 +2,7 @@
 
 **Created At:** 9/22/2017 2:48:11 PM  
 **Updated At:** 4/19/2019 8:11:08 AM  
+**Original Doc:** [quote-dquote-squote](https://docs.jbase.com/36868-jbase-basic/quote-dquote-squote)  
 
 **Tags:**
 <badge text='dqoute' vertical='middle' />

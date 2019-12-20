@@ -2,6 +2,7 @@
 
 **Created At:** 12/28/2018 8:52:29 AM  
 **Updated At:** 12/28/2018 9:01:24 AM  
+**Original Doc:** [term-command](https://docs.jbase.com/46963-utilities/term-command)  
 
 
 The **TERM**command enables users to specify different terminal types to handle terminal characteristics.

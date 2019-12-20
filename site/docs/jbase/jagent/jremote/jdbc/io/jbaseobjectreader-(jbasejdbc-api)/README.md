@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 10:52:47 AM  
 **Updated At:** 8/17/2018 2:25:53 AM  
+**Original Doc:** [com_jbase_jdbc_io_jbaseobjectreader](https://docs.jbase.com/39232-io/com_jbase_jdbc_io_jbaseobjectreader)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JBaseObjectReader (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":6,"i1":6,"i2":6,"i3":6,"i4":6,"i5":6,"i6":6,"i7":6};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
 JavaScript is disabled on your browser

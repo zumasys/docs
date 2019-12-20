@@ -2,6 +2,7 @@
 
 **Created At:** 4/19/2018 6:43:59 PM  
 **Updated At:** 6/28/2019 11:24:35 AM  
+**Original Doc:** [311280-windows-telnet-telnetd-exe](https://docs.jbase.com/30301-jbase/311280-windows-telnet-telnetd-exe)  
 
 
 ## Description

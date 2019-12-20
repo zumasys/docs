@@ -2,6 +2,7 @@
 
 **Created At:** 6/8/2018 1:55:18 PM  
 **Updated At:** 7/13/2018 10:08:58 AM  
+**Original Doc:** [count](https://docs.jbase.com/46350-jql/count)  
 
 **Tags:**
 <badge text='jql' vertical='middle' />

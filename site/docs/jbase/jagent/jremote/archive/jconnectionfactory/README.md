@@ -2,6 +2,7 @@
 
 **Created At:** 9/13/2017 7:56:11 PM  
 **Updated At:** 9/13/2017 7:56:55 PM  
+**Original Doc:** [jconnectionfactory](https://docs.jbase.com/39719-archive/jconnectionfactory)  
 
 
 ## Interface JConnectionFactory

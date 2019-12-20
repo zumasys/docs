@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:44:45 AM  
 **Updated At:** 4/5/2018 10:54:13 PM  
+**Original Doc:** [com_jbase_jremote_io_class-use_jbaseobjectwriter](https://docs.jbase.com/39253-class-use/com_jbase_jremote_io_class-use_jbaseobjectwriter)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Interface com.jbase.jremote.io.JBaseObjectWriter (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 

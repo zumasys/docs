@@ -2,6 +2,7 @@
 
 **Created At:** 11/15/2019 7:25:36 PM  
 **Updated At:** 11/15/2019 7:32:18 PM  
+**Original Doc:** [accuterm-mobile-keydocszumasyscom-board-clipboard-settings](https://docs.zumasys.com/accutermmobile/accuterm-mobile-keydocszumasyscom-board-clipboard-settings)  
 
 
 The Keyboard Settings panel is to specify keyboard options and open the keyboard programming window.

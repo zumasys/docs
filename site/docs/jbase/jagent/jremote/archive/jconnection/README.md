@@ -2,6 +2,7 @@
 
 **Created At:** 9/13/2017 7:45:49 PM  
 **Updated At:** 4/3/2018 9:50:36 PM  
+**Original Doc:** [jconnection](https://docs.jbase.com/39719-archive/jconnection)  
 
 
 # Interface JConnection

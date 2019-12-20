@@ -2,6 +2,7 @@
 
 **Created At:** 11/3/2017 3:09:41 PM  
 **Updated At:** 8/8/2018 7:56:12 AM  
+**Original Doc:** [jbase_locale](https://docs.jbase.com/41717-environment-variables/jbase_locale)  
 
 
 ## Description

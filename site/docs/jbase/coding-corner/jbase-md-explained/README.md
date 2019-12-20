@@ -2,6 +2,7 @@
 
 **Created At:** 3/13/2018 8:40:30 PM  
 **Updated At:** 4/19/2019 8:27:57 AM  
+**Original Doc:** [304066-jbase-md-explained](https://docs.jbase.com/coding-corner/304066-jbase-md-explained)  
 
 
 ## jBASE and the MD / VOC file

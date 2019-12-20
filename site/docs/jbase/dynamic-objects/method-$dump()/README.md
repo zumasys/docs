@@ -2,6 +2,7 @@
 
 **Created At:** 2/15/2018 2:22:25 PM  
 **Updated At:** 4/23/2018 10:09:41 AM  
+**Original Doc:** [method-dump](https://docs.jbase.com/42948-dynamic-objects/method-dump)  
 
 
 ## Description

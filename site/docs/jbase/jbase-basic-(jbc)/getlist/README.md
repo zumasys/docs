@@ -2,6 +2,7 @@
 
 **Created At:** 9/6/2017 12:46:50 PM  
 **Updated At:** 1/5/2018 1:49:53 PM  
+**Original Doc:** [276058-getlist](https://docs.jbase.com/36868-jbase-basic/276058-getlist)  
 
 
 # Description

@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:40:49 AM  
 **Updated At:** 4/5/2018 11:08:32 PM  
+**Original Doc:** [com_jbase_jremote_io_abstractjbaseobjectwriter](https://docs.jbase.com/39250-io/com_jbase_jremote_io_abstractjbaseobjectwriter)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="AbstractJBaseObjectWriter (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":6,"i1":6,"i2":6,"i3":6,"i4":6,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
 JavaScript is disabled on your browser.

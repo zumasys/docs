@@ -2,6 +2,7 @@
 
 **Created At:** 3/10/2017 5:06:50 PM  
 **Updated At:** 12/21/2018 8:14:03 PM  
+**Original Doc:** [jbase-56-windows-installation-guide](https://docs.jbase.com/36690-installation-guides/jbase-56-windows-installation-guide)  
 
 **Tags:**
 <badge text='installing jbase on windows' vertical='middle' />

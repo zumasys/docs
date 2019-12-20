@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:27:37 AM  
 **Updated At:** 12/24/2018 7:20:14 PM  
+**Original Doc:** [com_jbase_jrcs_class-use_jdynarray](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jdynarray)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jrcs.JDynArray (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&amp;lt;div&amp;gt;JavaScript is disabled on your browser.&amp;lt;/div&amp;gt;
 ## Uses of [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs") in [com.jbase.jrcs](com_jbase_jrcs_package-summary)

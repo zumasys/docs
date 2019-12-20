@@ -2,6 +2,7 @@
 
 **Created At:** 3/4/2019 7:04:27 AM  
 **Updated At:** 3/4/2019 8:46:22 AM  
+**Original Doc:** [customizing-the-jed-editor](https://docs.jbase.com/46994-editor/customizing-the-jed-editor)  
 
 
 ## Description 

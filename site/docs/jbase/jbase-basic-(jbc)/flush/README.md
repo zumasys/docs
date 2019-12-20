@@ -2,6 +2,7 @@
 
 **Created At:** 9/5/2017 3:01:06 PM  
 **Updated At:** 1/5/2018 1:29:16 PM  
+**Original Doc:** [275993-flush](https://docs.jbase.com/36868-jbase-basic/275993-flush)  
 
 
 # Description

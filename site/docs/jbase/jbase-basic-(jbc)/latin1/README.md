@@ -2,6 +2,7 @@
 
 **Created At:** 9/14/2017 1:38:42 PM  
 **Updated At:** 11/27/2018 8:41:18 AM  
+**Original Doc:** [276805-latin1](https://docs.jbase.com/36868-jbase-basic/276805-latin1)  
 
 **Tags:**
 <badge text='character set' vertical='middle' />

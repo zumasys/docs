@@ -2,6 +2,7 @@
 
 **Created At:** 9/6/2018 6:52:17 PM  
 **Updated At:** 9/6/2018 7:13:14 PM  
+**Original Doc:** [servicedesk-time-entry-reporting](https://docs.zumasys.com/47150-internal-applications/servicedesk-time-entry-reporting)  
 
 
 In order to provide the best metrics possible - all primary reporting for ServiceDesk will be done through PowerBI.

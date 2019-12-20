@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 10:29:16 AM  
 **Updated At:** 2/15/2018 8:02:41 AM  
+**Original Doc:** [com_jbase_framework_io_inflow_ClientHandle](https://docs.jbase.com/39226-inflow/com_jbase_framework_io_inflow_ClientHandle)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="ClientHandle (framework   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
 JavaScript is disabled on your browser.

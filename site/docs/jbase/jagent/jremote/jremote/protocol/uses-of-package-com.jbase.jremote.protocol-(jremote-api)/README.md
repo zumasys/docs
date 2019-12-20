@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 12:20:34 PM  
 **Updated At:** 4/5/2018 11:54:40 PM  
+**Original Doc:** [com_jbase_jremote_protocol_package-use](https://docs.jbase.com/39270-protocol/com_jbase_jremote_protocol_package-use)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Package com.jbase.jremote.protocol (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 

@@ -2,6 +2,7 @@
 
 **Created At:** 11/3/2017 5:25:11 PM  
 **Updated At:** 8/7/2018 2:49:51 PM  
+**Original Doc:** [jdiag](https://docs.jbase.com/41717-environment-variables/jdiag)  
 
 **Tags:**
 <badge text='diagnosis' vertical='middle' />

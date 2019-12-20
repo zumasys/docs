@@ -2,6 +2,7 @@
 
 **Created At:** 9/28/2017 10:27:49 AM  
 **Updated At:** 4/13/2018 5:23:16 PM  
+**Original Doc:** [278818-spooler](https://docs.jbase.com/36868-jbase-basic/278818-spooler)  
 
 
 # Description

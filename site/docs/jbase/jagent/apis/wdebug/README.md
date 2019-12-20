@@ -2,6 +2,7 @@
 
 **Created At:** 12/14/2017 7:02:02 PM  
 **Updated At:** 12/21/2017 6:02:37 PM  
+**Original Doc:** [291290-wdebug](https://docs.jbase.com/34473-docs/291290-wdebug)  
 
 
 The WDEBUG program is a debugging tool for REST services.

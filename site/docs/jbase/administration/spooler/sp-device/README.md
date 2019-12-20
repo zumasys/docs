@@ -2,6 +2,7 @@
 
 **Created At:** 4/4/2018 2:45:41 PM  
 **Updated At:** 1/24/2019 8:14:51 AM  
+**Original Doc:** [306299-sp-device](https://docs.jbase.com/44205-spooler/306299-sp-device)  
 
 
 ## Description 

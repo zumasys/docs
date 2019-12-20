@@ -2,6 +2,7 @@
 
 **Created At:** 9/22/2017 2:32:07 PM  
 **Updated At:** 11/27/2018 9:18:10 AM  
+**Original Doc:** [putenv](https://docs.jbase.com/36868-jbase-basic/putenv)  
 
 **Tags:**
 <badge text='setting environment variables' vertical='middle' />

@@ -2,6 +2,7 @@
 
 **Created At:** 5/28/2018 10:52:52 AM  
 **Updated At:** 6/11/2018 4:20:56 AM  
+**Original Doc:** [318672-jcl-f-write](https://docs.jbase.com/45792-jcl/318672-jcl-f-write)  
 
 **Tags:**
 <badge text='buffer' vertical='middle' />

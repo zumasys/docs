@@ -2,6 +2,7 @@
 
 **Created At:** 7/9/2018 12:32:05 PM  
 **Updated At:** 7/13/2018 9:35:48 AM  
+**Original Doc:** [sort-list](https://docs.jbase.com/47026-lists/sort-list)  
 
 **Tags:**
 <badge text='lists' vertical='middle' />

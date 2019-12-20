@@ -2,6 +2,7 @@
 
 **Created At:** 7/24/2017 1:14:34 PM  
 **Updated At:** 10/24/2018 10:59:00 PM  
+**Original Doc:** [264329-chars](https://docs.jbase.com/36868-jbase-basic/264329-chars)  
 
 
 # Description

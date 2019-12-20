@@ -2,6 +2,7 @@
 
 **Created At:** 6/20/2017 4:13:08 PM  
 **Updated At:** 11/24/2017 3:52:58 AM  
+**Original Doc:** [uninstall-mv-dashboard-windows](https://docs.zumasys.com/36577-mv-dashboard/uninstall-mv-dashboard-windows)  
 
 
 This topic presents instructions for uninstalling MV Dashboard and optionally deleting the account and user.

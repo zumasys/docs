@@ -2,6 +2,9 @@ module.exports = {
   head: [["link", { rel: "icon", href: "/assets/img/favicon.ico" }]],
   title: "Beta Documentation",
   description: "New home for docs!",
+  markdown: {
+    lineNumbers: true
+  },
   plugins: [
     [
       "@vuepress/search",
@@ -14,8 +17,7 @@ module.exports = {
     logo: "/assets/img/logo-grey.png",
     nav: [
       { text: "Home", link: "/" },
-      { text: "Docs", link: "/docs/" },
-      { text: "Old Docs", link: "https://docs.zumasys.com" }
+      { text: "Docs", link: "/docs/" }
     ],
     sidebar: [
       "/",
@@ -30,6 +32,7 @@ module.exports = {
     ],
     repo: "https://github.com/zumasys/docs",
     docsBranch: "master",
+    docsDir: "site",
     editLinks: true,
     nextLinks: false,
     prevLinks: false,

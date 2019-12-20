@@ -2,6 +2,7 @@
 
 **Created At:** 6/2/2017 6:04:00 PM  
 **Updated At:** 11/22/2017 7:47:24 AM  
+**Original Doc:** [wgetvar](https://docs.jbase.com/34473-docs/wgetvar)  
 
 
 The WGETVAR subroutine allows you to retrieve variables sent in the web request.

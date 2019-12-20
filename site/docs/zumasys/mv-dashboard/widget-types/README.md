@@ -2,6 +2,7 @@
 
 **Created At:** 9/26/2017 12:11:44 PM  
 **Updated At:** 11/21/2017 6:01:52 AM  
+**Original Doc:** [widget-types](https://docs.zumasys.com/36577-mv-dashboard/widget-types)  
 
 
 

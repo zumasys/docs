@@ -2,6 +2,7 @@
 
 **Created At:** 6/2/2017 6:21:31 PM  
 **Updated At:** 11/27/2017 11:19:11 PM  
+**Original Doc:** [wgetheader](https://docs.jbase.com/34473-docs/wgetheader)  
 
 
 The WGETHEADER subroutine allows you to retrieve sent headers.

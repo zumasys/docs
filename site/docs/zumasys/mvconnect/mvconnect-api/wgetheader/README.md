@@ -2,6 +2,7 @@
 
 **Created At:** 6/27/2017 8:04:00 PM  
 **Updated At:** 11/25/2017 10:58:14 AM  
+**Original Doc:** [wgetheader](https://docs.zumasys.com/36566-mv-connect-api/wgetheader)  
 
 
 The WGETHEADER subroutine allows you retrieve headers sent by the client.

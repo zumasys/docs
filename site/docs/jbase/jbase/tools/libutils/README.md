@@ -2,6 +2,7 @@
 
 **Created At:** 8/30/2018 2:25:23 PM  
 **Updated At:** 5/17/2019 9:49:58 PM  
+**Original Doc:** [libutils](https://docs.jbase.com/48399-tools/libutils)  
 
 **Tags:**
 <badge text='terminal independence' vertical='middle' />

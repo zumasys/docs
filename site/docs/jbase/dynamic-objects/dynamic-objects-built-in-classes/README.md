@@ -2,6 +2,7 @@
 
 **Created At:** 3/12/2018 1:51:12 PM  
 **Updated At:** 4/3/2018 11:06:23 AM  
+**Original Doc:** [dynamic-objects-built-in-classes](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-built-in-classes)  
 
 
 Dynamic Objects provides the following built-in classes.

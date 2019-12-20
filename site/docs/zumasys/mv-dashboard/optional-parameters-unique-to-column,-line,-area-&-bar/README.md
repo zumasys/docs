@@ -2,6 +2,7 @@
 
 **Created At:** 9/26/2017 5:24:20 PM  
 **Updated At:** 11/22/2017 1:05:09 AM  
+**Original Doc:** [optional-parameters-unique-to-column-line-area-bar](https://docs.zumasys.com/36577-mv-dashboard/optional-parameters-unique-to-column-line-area-bar)  
 
 
 # Canvas Properties for 2D Charts ONLY 

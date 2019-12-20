@@ -2,6 +2,7 @@
 
 **Created At:** 8/20/2018 8:49:09 AM  
 **Updated At:** 8/31/2018 10:47:08 AM  
+**Original Doc:** [char](https://docs.jbase.com/48399-tools/char)  
 
 
 ##  Description

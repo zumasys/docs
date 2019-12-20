@@ -2,6 +2,7 @@
 
 **Created At:** 8/14/2017 9:26:14 AM  
 **Updated At:** 10/24/2018 10:59:16 PM  
+**Original Doc:** [266854-clearinput](https://docs.jbase.com/36868-jbase-basic/266854-clearinput)  
 
 
 # Description

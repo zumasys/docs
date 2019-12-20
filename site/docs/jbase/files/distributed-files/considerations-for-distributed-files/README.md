@@ -2,6 +2,7 @@
 
 **Created At:** 9/14/2018 12:21:36 PM  
 **Updated At:** 10/31/2018 8:14:05 AM  
+**Original Doc:** [considerations-for-distributed-files](https://docs.jbase.com/44203-distributed-files/considerations-for-distributed-files)  
 
 **Tags:**
 <badge text='distributed files' vertical='middle' />

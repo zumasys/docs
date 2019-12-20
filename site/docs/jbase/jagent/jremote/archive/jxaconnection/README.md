@@ -2,6 +2,7 @@
 
 **Created At:** 9/13/2017 7:46:43 PM  
 **Updated At:** 4/3/2018 9:33:33 PM  
+**Original Doc:** [jxaconnection](https://docs.jbase.com/39719-archive/jxaconnection)  
 
 
 # Interface JXAConnection

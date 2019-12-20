@@ -2,6 +2,7 @@
 
 **Created At:** 4/5/2018 5:13:42 PM  
 **Updated At:** 4/5/2018 5:18:05 PM  
+**Original Doc:** [logging-settings](https://docs.jbase.com/44253-profiles/logging-settings)  
 
 
 ## Description 

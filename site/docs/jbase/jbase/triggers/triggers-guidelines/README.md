@@ -2,6 +2,7 @@
 
 **Created At:** 8/16/2018 2:33:24 PM  
 **Updated At:** 9/5/2018 11:37:34 AM  
+**Original Doc:** [triggers-guidelines](https://docs.jbase.com/48168-triggers/triggers-guidelines)  
 
 **Tags:**
 <badge text='use of triggers' vertical='middle' />

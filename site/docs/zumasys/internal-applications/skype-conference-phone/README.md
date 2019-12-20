@@ -2,6 +2,7 @@
 
 **Created At:** 7/10/2018 4:58:52 PM  
 **Updated At:** 7/10/2018 5:04:02 PM  
+**Original Doc:** [skype-conference-phone](https://docs.zumasys.com/47150-internal-applications/skype-conference-phone)  
 
 
 ## Document Scope

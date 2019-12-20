@@ -2,6 +2,7 @@
 
 **Created At:** 2/8/2018 10:03:55 AM  
 **Updated At:** 4/3/2018 9:52:04 PM  
+**Original Doc:** [298154-interface-jbaseserializable-type-jbasejdbc-api](https://docs.jbase.com/39232-io/298154-interface-jbaseserializable-type-jbasejdbc-api)  
 
 
 # Interface JBaseSerializable.TYPE

@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:40:05 AM  
 **Updated At:** 2/15/2018 8:02:58 AM  
+**Original Doc:** [com_jbase_jremote_class-use_JStatement](https://docs.jbase.com/39249-class-use/com_jbase_jremote_class-use_JStatement)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Interface com.jbase.jremote.JStatement (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

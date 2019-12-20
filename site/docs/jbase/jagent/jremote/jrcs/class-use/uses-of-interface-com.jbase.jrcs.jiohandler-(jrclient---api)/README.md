@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:28:10 AM  
 **Updated At:** 9/20/2018 1:01:39 PM  
+**Original Doc:** [com_jbase_jrcs_class-use_jiohandler](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jiohandler)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Interface com.jbase.jrcs.JIOHandler (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&lt;div&gt;JavaScript is disabled on your browser.s.JIOHandler
 ## Uses of [JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs") in [com.jbase.jrcs](/jrcs/com_jbase_jrcs_package-summary)

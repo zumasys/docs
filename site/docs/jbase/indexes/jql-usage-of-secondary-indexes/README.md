@@ -2,6 +2,7 @@
 
 **Created At:** 8/17/2018 9:28:52 AM  
 **Updated At:** 9/26/2018 10:48:02 PM  
+**Original Doc:** [jql-usage-of-secondary-indexes](https://docs.jbase.com/48152-indexes/jql-usage-of-secondary-indexes)  
 
 **Tags:**
 <badge text='jql' vertical='middle' />

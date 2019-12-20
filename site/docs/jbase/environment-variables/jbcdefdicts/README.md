@@ -2,6 +2,7 @@
 
 **Created At:** 6/8/2018 12:24:45 PM  
 **Updated At:** 8/22/2018 8:46:34 AM  
+**Original Doc:** [jbcdefdicts](https://docs.jbase.com/41717-environment-variables/jbcdefdicts)  
 
 **Tags:**
 <badge text='environment variables' vertical='middle' />

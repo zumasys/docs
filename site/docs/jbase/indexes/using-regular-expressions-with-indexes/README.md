@@ -2,6 +2,7 @@
 
 **Created At:** 8/16/2018 1:40:11 PM  
 **Updated At:** 5/16/2019 6:15:46 PM  
+**Original Doc:** [334526-using-regular-expressions-with-indexes](https://docs.jbase.com/48152-indexes/334526-using-regular-expressions-with-indexes)  
 
 **Tags:**
 <badge text='indexes in queries' vertical='middle' />

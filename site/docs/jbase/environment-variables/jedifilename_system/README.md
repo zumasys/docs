@@ -2,6 +2,7 @@
 
 **Created At:** 11/3/2017 4:06:10 PM  
 **Updated At:** 1/15/2019 10:42:50 AM  
+**Original Doc:** [jedifilename_system](https://docs.jbase.com/41717-environment-variables/jedifilename_system)  
 
 
 ## **Description**

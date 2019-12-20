@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:00:55 AM  
 **Updated At:** 4/3/2018 10:10:55 PM  
+**Original Doc:** [com_jbase_jdbc_protocol_class-use_sqlstartrequest](https://docs.jbase.com/39241-class-use/com_jbase_jdbc_protocol_class-use_sqlstartrequest)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jdbc.protocol.SQLStartRequest (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&amp;amp;amp;lt;div&amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;lt;/div&amp;amp;amp;gt;
 # Uses of Class com.jbase.jdbc.protocol.SQLStartRequest

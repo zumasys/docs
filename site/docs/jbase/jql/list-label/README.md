@@ -2,6 +2,7 @@
 
 **Created At:** 6/8/2018 1:59:55 PM  
 **Updated At:** 7/13/2018 10:11:22 AM  
+**Original Doc:** [list-label](https://docs.jbase.com/46350-jql/list-label)  
 
 **Tags:**
 <badge text='jql' vertical='middle' />

@@ -2,6 +2,7 @@
 
 **Created At:** 8/10/2017 11:48:09 PM  
 **Updated At:** 8/11/2017 3:14:51 PM  
+**Original Doc:** [before-discovery-call](https://docs.jbase.com/36040-migration-knowledge-base/before-discovery-call)  
 
 
 # 

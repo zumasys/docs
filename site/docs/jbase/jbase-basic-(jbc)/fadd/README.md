@@ -2,6 +2,7 @@
 
 **Created At:** 8/28/2017 8:52:18 AM  
 **Updated At:** 10/25/2018 7:47:30 AM  
+**Original Doc:** [269203-fadd](https://docs.jbase.com/36868-jbase-basic/269203-fadd)  
 
 **Tags:**
 <badge text='floating point operations' vertical='middle' />

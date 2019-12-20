@@ -2,6 +2,7 @@
 
 **Created At:** 9/28/2017 6:43:36 AM  
 **Updated At:** 11/8/2019 8:23:23 PM  
+**Original Doc:** [278773-readseq](https://docs.jbase.com/36868-jbase-basic/278773-readseq)  
 
 **Tags:**
 <badge text='record handling' vertical='middle' />

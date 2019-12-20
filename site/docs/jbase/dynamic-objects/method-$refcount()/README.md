@@ -2,6 +2,7 @@
 
 **Created At:** 2/16/2018 12:08:24 PM  
 **Updated At:** 4/23/2018 10:20:20 AM  
+**Original Doc:** [method-refcount](https://docs.jbase.com/42948-dynamic-objects/method-refcount)  
 
 
 ## Description

@@ -2,6 +2,7 @@
 
 **Created At:** 9/6/2017 2:17:53 PM  
 **Updated At:** 10/30/2018 9:58:12 AM  
+**Original Doc:** [goto](https://docs.jbase.com/36868-jbase-basic/goto)  
 
 **Tags:**
 <badge text='program control' vertical='middle' />

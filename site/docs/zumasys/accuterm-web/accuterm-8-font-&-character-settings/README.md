@@ -2,6 +2,7 @@
 
 **Created At:** 8/16/2019 6:07:31 PM  
 **Updated At:** 11/15/2019 6:14:24 PM  
+**Original Doc:** [accuterm-8-font-character-set](https://docs.zumasys.com/accuterm/accuterm-8-font-character-set)  
 
 
 ## Font

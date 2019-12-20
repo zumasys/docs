@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 10:46:28 AM  
 **Updated At:** 2/15/2018 8:02:42 AM  
+**Original Doc:** [com_jbase_jdbc_io_class-use_JBaseJDBCObjectFactory](https://docs.jbase.com/39235-class-use/com_jbase_jdbc_io_class-use_JBaseJDBCObjectFactory)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jdbc.io.JBaseJDBCObjectFactory (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

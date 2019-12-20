@@ -2,6 +2,7 @@
 
 **Created At:** 11/3/2017 3:46:07 PM  
 **Updated At:** 7/26/2018 2:11:54 PM  
+**Original Doc:** [jbcemulate](https://docs.jbase.com/41717-environment-variables/jbcemulate)  
 
 **Tags:**
 <badge text='environment variables' vertical='middle' />

@@ -2,6 +2,7 @@
 
 **Created At:** 3/27/2018 3:13:00 PM  
 **Updated At:** 9/9/2018 7:17:44 AM  
+**Original Doc:** [method-fromfile](https://docs.jbase.com/42948-dynamic-objects/method-fromfile)  
 
 
 ## Description

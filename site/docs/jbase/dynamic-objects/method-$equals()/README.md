@@ -2,6 +2,7 @@
 
 **Created At:** 3/28/2018 11:11:36 AM  
 **Updated At:** 4/23/2018 10:26:09 AM  
+**Original Doc:** [method-equals](https://docs.jbase.com/42948-dynamic-objects/method-equals)  
 
 
 ## Description

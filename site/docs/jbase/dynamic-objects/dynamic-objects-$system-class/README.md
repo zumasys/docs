@@ -2,6 +2,7 @@
 
 **Created At:** 3/12/2018 2:33:31 PM  
 **Updated At:** 5/4/2018 9:58:55 AM  
+**Original Doc:** [dynamic-objects-system-class](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-system-class)  
 
 
 The following methods can be utilized from the **$system**class:

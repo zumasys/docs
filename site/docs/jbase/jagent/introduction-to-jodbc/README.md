@@ -2,6 +2,7 @@
 
 **Created At:** 4/12/2017 10:18:10 PM  
 **Updated At:** 4/12/2017 10:27:29 PM  
+**Original Doc:** [251032-introduction-to-jodbc](https://docs.jbase.com/30312-jagent/251032-introduction-to-jodbc)  
 
 
 # Introduction

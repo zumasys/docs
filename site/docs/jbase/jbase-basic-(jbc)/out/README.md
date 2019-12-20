@@ -2,6 +2,7 @@
 
 **Created At:** 9/22/2017 12:02:18 PM  
 **Updated At:** 1/31/2019 4:56:05 PM  
+**Original Doc:** [277625-out](https://docs.jbase.com/36868-jbase-basic/277625-out)  
 
 **Tags:**
 <badge text='output' vertical='middle' />

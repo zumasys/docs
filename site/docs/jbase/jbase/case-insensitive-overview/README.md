@@ -2,6 +2,7 @@
 
 **Created At:** 6/1/2018 5:17:53 PM  
 **Updated At:** 1/21/2019 1:38:12 PM  
+**Original Doc:** [320473-case-insensitive-overview](https://docs.jbase.com/30301-jbase/320473-case-insensitive-overview)  
 
 
 ## Document Scope

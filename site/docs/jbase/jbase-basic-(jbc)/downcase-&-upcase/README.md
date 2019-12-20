@@ -2,6 +2,7 @@
 
 **Created At:** 8/23/2017 2:14:41 PM  
 **Updated At:** 10/25/2018 7:48:17 AM  
+**Original Doc:** [268490-downcase-upcase](https://docs.jbase.com/36868-jbase-basic/268490-downcase-upcase)  
 
 **Tags:**
 <badge text='string casing' vertical='middle' />

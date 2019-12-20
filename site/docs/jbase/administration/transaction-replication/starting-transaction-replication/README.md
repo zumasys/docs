@@ -2,6 +2,7 @@
 
 **Created At:** 3/21/2018 6:45:06 AM  
 **Updated At:** 6/28/2018 1:46:47 PM  
+**Original Doc:** [configuring-transaction-replication](https://docs.jbase.com/43995-transactional-journaling/configuring-transaction-replication)  
 
 
 ## Overview

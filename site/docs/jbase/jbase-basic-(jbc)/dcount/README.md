@@ -2,6 +2,7 @@
 
 **Created At:** 8/14/2017 10:28:38 AM  
 **Updated At:** 10/25/2018 7:10:03 AM  
+**Original Doc:** [266871-dcount](https://docs.jbase.com/36868-jbase-basic/266871-dcount)  
 
 
 ## Description

@@ -2,6 +2,7 @@
 
 **Created At:** 12/13/2017 10:26:27 PM  
 **Updated At:** 11/27/2018 12:13:37 AM  
+**Original Doc:** [291166-debugger-commands](https://docs.jbase.com/41693-debugger/291166-debugger-commands)  
 
 
 This section details all the commands available to the user from the jBC debug prompt.

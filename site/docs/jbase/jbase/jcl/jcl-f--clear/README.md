@@ -2,6 +2,7 @@
 
 **Created At:** 5/28/2018 10:25:06 AM  
 **Updated At:** 6/11/2018 4:21:49 AM  
+**Original Doc:** [318628-jcl-f-clear](https://docs.jbase.com/45792-jcl/318628-jcl-f-clear)  
 
 **Tags:**
 <badge text='file' vertical='middle' />

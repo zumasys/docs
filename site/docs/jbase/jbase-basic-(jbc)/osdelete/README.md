@@ -2,6 +2,7 @@
 
 **Created At:** 9/22/2017 11:53:17 AM  
 **Updated At:** 11/27/2018 9:45:04 AM  
+**Original Doc:** [277622-osdelete](https://docs.jbase.com/36868-jbase-basic/277622-osdelete)  
 
 **Tags:**
 <badge text='file handling' vertical='middle' />

@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:28:48 AM  
 **Updated At:** 9/20/2018 1:03:54 PM  
+**Original Doc:** [com_jbase_jrcs_jdefaultiohandler](https://docs.jbase.com/jrcs/com_jbase_jrcs_jdefaultiohandler)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JDefaultIOHandler (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 

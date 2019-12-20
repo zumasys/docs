@@ -2,6 +2,7 @@
 
 **Created At:** 8/16/2018 12:47:54 PM  
 **Updated At:** 5/30/2019 3:10:45 PM  
+**Original Doc:** [indexing-within-a-program](https://docs.jbase.com/48152-indexes/indexing-within-a-program)  
 
 **Tags:**
 <badge text='indexing in jbc' vertical='middle' />

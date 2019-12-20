@@ -2,6 +2,7 @@
 
 **Created At:** 9/13/2017 1:17:13 PM  
 **Updated At:** 10/30/2018 9:42:32 AM  
+**Original Doc:** [276610-iscntrl](https://docs.jbase.com/36868-jbase-basic/276610-iscntrl)  
 
 **Tags:**
 <badge text='string manipulation' vertical='middle' />

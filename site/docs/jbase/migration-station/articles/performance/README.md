@@ -2,6 +2,7 @@
 
 **Created At:** 10/31/2017 10:24:23 PM  
 **Updated At:** 12/24/2018 6:33:50 PM  
+**Original Doc:** [performance](https://docs.jbase.com/44497-articles/performance)  
 
 
 # 

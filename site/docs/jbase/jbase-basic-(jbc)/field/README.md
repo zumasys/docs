@@ -2,6 +2,7 @@
 
 **Created At:** 8/28/2017 8:55:00 AM  
 **Updated At:** 10/25/2018 7:22:20 AM  
+**Original Doc:** [field](https://docs.jbase.com/36868-jbase-basic/field)  
 
 **Tags:**
 <badge text='string operations' vertical='middle' />

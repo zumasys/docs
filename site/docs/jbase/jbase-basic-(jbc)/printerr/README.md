@@ -2,6 +2,7 @@
 
 **Created At:** 9/22/2017 2:09:19 PM  
 **Updated At:** 11/27/2018 10:04:39 AM  
+**Original Doc:** [277633-printerr](https://docs.jbase.com/36868-jbase-basic/277633-printerr)  
 
 **Tags:**
 <badge text='printing' vertical='middle' />

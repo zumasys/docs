@@ -2,6 +2,7 @@
 
 **Created At:** 9/28/2017 10:01:14 AM  
 **Updated At:** 1/5/2018 6:19:36 PM  
+**Original Doc:** [278815-spaces](https://docs.jbase.com/36868-jbase-basic/278815-spaces)  
 
 
 # Description

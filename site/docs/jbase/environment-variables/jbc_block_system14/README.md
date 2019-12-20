@@ -2,6 +2,7 @@
 
 **Created At:** 11/3/2017 5:19:15 PM  
 **Updated At:** 8/20/2018 5:18:08 PM  
+**Original Doc:** [jbc_block_system14](https://docs.jbase.com/41717-environment-variables/jbc_block_system14)  
 
 **Tags:**
 <badge text='environment variables' vertical='middle' />

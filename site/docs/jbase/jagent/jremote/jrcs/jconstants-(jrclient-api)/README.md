@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:28:42 AM  
 **Updated At:** 9/20/2018 1:03:41 PM  
+**Original Doc:** [com_jbase_jrcs_jconstants](https://docs.jbase.com/jrcs/com_jbase_jrcs_jconstants)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JConstants (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

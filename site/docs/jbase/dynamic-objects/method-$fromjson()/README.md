@@ -2,6 +2,7 @@
 
 **Created At:** 2/15/2018 2:25:30 PM  
 **Updated At:** 4/23/2018 10:10:08 AM  
+**Original Doc:** [method-fromjson](https://docs.jbase.com/42948-dynamic-objects/method-fromjson)  
 
 
 ## Description

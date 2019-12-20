@@ -2,6 +2,7 @@
 
 **Created At:** 4/13/2018 12:22:37 PM  
 **Updated At:** 4/19/2018 12:22:35 PM  
+**Original Doc:** [307836-jrfs-example](https://docs.jbase.com/44204-remote-files/307836-jrfs-example)  
 
 
 ## Description 

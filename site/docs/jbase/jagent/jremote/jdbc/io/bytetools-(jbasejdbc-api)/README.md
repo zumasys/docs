@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 10:43:22 AM  
 **Updated At:** 8/17/2018 2:25:53 AM  
+**Original Doc:** [com_jbase_jdbc_io_bytetools](https://docs.jbase.com/39232-io/com_jbase_jdbc_io_bytetools)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="ByteTools (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":9,"i1":9,"i2":9,"i3":9};<br>var tabs = {65535:["t0","All Methods"],1:["t1","Static Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";&amp;amp;amp;lt;div&amp;amp;amp;gt;JavaScript is disabled on your brow
 

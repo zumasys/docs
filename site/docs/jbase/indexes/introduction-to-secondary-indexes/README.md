@@ -2,6 +2,7 @@
 
 **Created At:** 8/16/2018 10:28:36 AM  
 **Updated At:** 9/26/2018 10:45:36 PM  
+**Original Doc:** [introduction-to-secondary-indexes](https://docs.jbase.com/48152-indexes/introduction-to-secondary-indexes)  
 
 **Tags:**
 <badge text='file indexing' vertical='middle' />

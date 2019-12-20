@@ -2,6 +2,7 @@
 
 **Created At:** 5/22/2018 9:46:33 PM  
 **Updated At:** 5/29/2018 10:39:26 PM  
+**Original Doc:** [317962-organizing-program-compiled-objects](https://docs.jbase.com/coding-corner/317962-organizing-program-compiled-objects)  
 
 
 ## Flexibility is a Dual-Edged Sword

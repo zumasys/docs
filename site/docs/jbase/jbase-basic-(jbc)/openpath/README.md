@@ -2,6 +2,7 @@
 
 **Created At:** 9/21/2017 1:25:59 PM  
 **Updated At:** 11/27/2018 9:39:43 AM  
+**Original Doc:** [277542-openpath](https://docs.jbase.com/36868-jbase-basic/277542-openpath)  
 
 **Tags:**
 <badge text='records handling' vertical='middle' />

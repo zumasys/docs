@@ -2,6 +2,7 @@
 
 **Created At:** 7/1/2019 12:28:04 AM  
 **Updated At:** 7/22/2019 3:46:56 PM  
+**Original Doc:** [401126-quick-start-on-dynamic-objects](https://docs.jbase.com/42948-dynamic-objects/401126-quick-start-on-dynamic-objects)  
 
 
 This article is designed to get you started on created database/object classes for your business objects.  We will be using the NorthWinds sample database from [https://github.com/zumasys/z2018](https://github.com/zumasys/z2018).  The purpose of this article is to show how you can build reusable classes that handle all extract, transform and load ([ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load)) work in and out of a PICK object.

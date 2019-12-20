@@ -2,6 +2,7 @@
 
 **Created At:** 10/30/2017 9:57:24 AM  
 **Updated At:** 10/30/2017 10:47:15 AM  
+**Original Doc:** [jbc-coding-guidelines](https://docs.jbase.com/40575-jbase-development/jbc-coding-guidelines)  
 
 
 # 

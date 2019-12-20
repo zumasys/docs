@@ -2,6 +2,7 @@
 
 **Created At:** 9/14/2017 1:29:30 PM  
 **Updated At:** 11/27/2018 8:44:06 AM  
+**Original Doc:** [276792-jqlputproperty](https://docs.jbase.com/36868-jbase-basic/276792-jqlputproperty)  
 
 **Tags:**
 <badge text='record handling' vertical='middle' />

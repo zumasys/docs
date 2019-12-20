@@ -2,6 +2,7 @@
 
 **Created At:** 10/2/2017 11:49:27 PM  
 **Updated At:** 4/3/2018 7:26:16 PM  
+**Original Doc:** [introduction-to-jdbc-driver](https://docs.jbase.com/38991-jremote/introduction-to-jdbc-driver)  
 
 
 The jBASE JDBC 2.0 Driver is a jBASE component implementing the JDBC API. The JDBC API is part of the JavaTM 2 Platform Standard Edition 5.0 (J2SETM).

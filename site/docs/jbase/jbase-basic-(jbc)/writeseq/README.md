@@ -2,6 +2,7 @@
 
 **Created At:** 10/4/2017 11:59:54 AM  
 **Updated At:** 1/5/2018 6:32:13 PM  
+**Original Doc:** [279570-writeseq](https://docs.jbase.com/36868-jbase-basic/279570-writeseq)  
 
 
 # Description

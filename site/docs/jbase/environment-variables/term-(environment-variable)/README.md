@@ -2,6 +2,7 @@
 
 **Created At:** 11/3/2017 3:14:45 PM  
 **Updated At:** 12/28/2018 8:51:42 AM  
+**Original Doc:** [term-environment-variable](https://docs.jbase.com/41717-environment-variables/term-environment-variable)  
 
 **Tags:**
 <badge text='terminal' vertical='middle' />

@@ -2,6 +2,7 @@
 
 **Created At:** 2/15/2018 3:11:18 PM  
 **Updated At:** 4/23/2018 10:18:24 AM  
+**Original Doc:** [method-tojson](https://docs.jbase.com/42948-dynamic-objects/method-tojson)  
 
 
 ## Description

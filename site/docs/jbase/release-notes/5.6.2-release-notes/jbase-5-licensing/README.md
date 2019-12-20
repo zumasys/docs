@@ -2,6 +2,7 @@
 
 **Created At:** 6/9/2017 6:33:57 PM  
 **Updated At:** 10/7/2019 1:16:15 PM  
+**Original Doc:** [jbase-5-licensing](https://docs.jbase.com/36526-5-6-2-release-notes/jbase-5-licensing)  
 
 
 ## Description 

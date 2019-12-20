@@ -3,6 +3,7 @@ jBASE Independent Metrics Integration (JIMI)
 
 **Created At:** 8/30/2018 2:07:25 PM  
 **Updated At:** 9/7/2018 7:09:24 AM  
+**Original Doc:** [jbase-independent-metrics-integration-jimi](https://docs.jbase.com/48399-tools/jbase-independent-metrics-integration-jimi)  
 
 **Tags:**
 <badge text='performance monitoring' vertical='middle' />

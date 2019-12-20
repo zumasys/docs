@@ -2,6 +2,7 @@
 
 **Created At:** 8/15/2019 10:31:23 PM  
 **Updated At:** 8/15/2019 10:46:31 PM  
+**Original Doc:** [accuterm-8-terminal-screen-options](https://docs.zumasys.com/accuterm/accuterm-8-terminal-screen-options)  
 
 
 Use the Screen Settings panel to specify the size of the terminal screen, the number of screen pages, the number of history rows, the status line, and other options.

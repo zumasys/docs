@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:54:09 AM  
 **Updated At:** 4/4/2018 11:27:50 PM  
+**Original Doc:** [com_jbase_jremote_io_response](https://docs.jbase.com/39250-io/com_jbase_jremote_io_response)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Response (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 

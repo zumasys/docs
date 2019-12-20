@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 12:09:26 PM  
 **Updated At:** 12/24/2018 7:50:03 PM  
+**Original Doc:** [com_jbase_jremote_jexecuteresults](https://docs.jbase.com/39248-jremote/com_jbase_jremote_jexecuteresults)  
 
 
 JavaScript is disabled on your browser.

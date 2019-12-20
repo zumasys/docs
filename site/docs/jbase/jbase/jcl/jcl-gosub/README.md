@@ -2,6 +2,7 @@
 
 **Created At:** 5/28/2018 10:54:51 AM  
 **Updated At:** 6/11/2018 4:28:13 AM  
+**Original Doc:** [318681-jcl-gosub](https://docs.jbase.com/45792-jcl/318681-jcl-gosub)  
 
 **Tags:**
 <badge text='go' vertical='middle' />

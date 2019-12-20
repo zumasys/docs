@@ -2,6 +2,7 @@
 
 **Created At:** 9/26/2017 12:41:15 AM  
 **Updated At:** 11/21/2017 6:03:40 AM  
+**Original Doc:** [appendix-iii-pdf-generation](https://docs.zumasys.com/36577-mv-dashboard/appendix-iii-pdf-generation)  
 
 
 MV Dashboard can be configured to generate PDF versions of most widgets. An external PDF conversion utility is used to transform widget HTML into a PDF file, which is then sent to the user's browser for display or saving.

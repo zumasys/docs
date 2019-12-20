@@ -2,6 +2,7 @@
 
 **Created At:** 2/15/2018 3:07:25 PM  
 **Updated At:** 2/16/2018 11:00:51 AM  
+**Original Doc:** [method-size](https://docs.jbase.com/42948-dynamic-objects/method-size)  
 
 
 ## Description

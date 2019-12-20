@@ -2,6 +2,7 @@
 
 **Created At:** 6/27/2017 7:42:10 PM  
 **Updated At:** 11/22/2017 1:16:31 PM  
+**Original Doc:** [wgetparam](https://docs.jbase.com/34473-docs/wgetparam)  
 
 
 The WSETPARAM subroutine will retrieve additional URI parameters.

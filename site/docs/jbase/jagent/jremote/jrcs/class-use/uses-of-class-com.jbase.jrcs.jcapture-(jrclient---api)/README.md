@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:27:02 AM  
 **Updated At:** 9/20/2018 12:53:39 PM  
+**Original Doc:** [com_jbase_jrcs_class-use_jcapture](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jcapture)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jrcs.JCapture (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

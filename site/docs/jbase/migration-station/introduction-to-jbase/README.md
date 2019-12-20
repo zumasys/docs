@@ -1,7 +1,8 @@
 # INTRODUCTION TO jBASE
 
 **Created At:** 3/10/2017 4:57:22 PM  
-**Updated At:** 6/27/2019 9:58:06 PM  
+**Updated At:** 12/20/2019 10:45:27 PM  
+**Original Doc:** [introduction-to-jbase](https://docs.jbase.com/34463-mv-migration-station/introduction-to-jbase)  
 
 **Tags:**
 <badge text='new to jbase' vertical='middle' />
@@ -104,10 +105,10 @@ CUSTOMER
 = VIEW & SET jBASE ENVIRONMENT VARIABLES LINUX= **Linux environment variables needed for all users can be set in /etc/profile**
 
 - This is where UNIX global variables are set
-- With jBASE 5, the default environment can be setup here.
+- With jBASE 5, the default environment can be set up here.
 
 
-**User specific environment variables are set in the home directory .profile**
+**User-specific environment variables are set in the home directory.profile**
 
 - Often times they are set in a separate item and sourced into the individual .profile items
 
@@ -209,9 +210,9 @@ The variable **return\_code** will be a boolean to indicate success or failure t
 
 The jsh command invokes jSHELL - the jBASE shell. It can be invoked as your login shell by using the normal system administration software supplied with the platform. Either via .bat files (Windows) or .profiles (Unix ).
 
-jSHELL has been designed to ease migration from older systems and to overcome some of the differences between various platform command line environments. The more primitive features seen on some older platforms (such as the "dot" command stacker) have been replaced with easier to use and more functional equivalents.
+jSHELL has been designed to ease migration from older systems and to overcome some of the differences between various platform command-line environments. The more primitive features seen on some older platforms (such as the "dot" command stacker) have been replaced with easier to use and more functional equivalents.
 
-The most noticeable difference between jSHELL and other command line shells, such as the Unix Korn shell (ksh), is that command line arguments such as"\*" and "?" are not expanded by the shell but passed directly to the command that has been invoked. In the same manner, quoted strings(such as "quoted string") are passed directly to the command with quotes intact. This enables query language statements such as:
+The most noticeable difference between jSHELL and other command-line shells, such as the Unix Korn shell (ksh), is that command line arguments such as"\*" and "?" are not expanded by the shell but passed directly to the command that has been invoked. In the same manner, quoted strings(such as "quoted-string") are passed directly to the command with quotes intact. This enables query language statements such as:
 
 ```
 SSELECT <filename> = "[SPROUT]" BY *A1
@@ -276,7 +277,7 @@ jshow -Options <programname/filename>
 
 | **Option** | **Description** |
 | -a           | display subroutine names in dll/shared object (note: under Unix, this must be the complete path to the shared object) |
-| -c           | display compile time and source file |
+| -c           | display compile-time and source file |
 | -f           | file name only search |
 | -h           | display this help screen |
 | -p           | program name only search |
@@ -355,10 +356,6 @@ CREATE-FILE DATA SAMPLE 11 101
 Since the introduction of dynamic files in jBASE 5.7, the default file created in jBASE is a dynamic file and does not require the size of the file to be set.  Dynamic files do not require resizing.  Additional information about dynamic files can be found [here](306073-dynamic-files).
 
 
-
-**jPLUS or JP**
-
-jPLUS files provide large file support on 64 bit UNIX and Windows platforms, such that Hash files can extend beyond the normal 2GB operating system limit. In addition, jPLUS files provide configurable levels of data flushing (see JEDI\_SECURE\_LEVEL) to ensure file integrity in the case of a system failure. Some Operating Systems require large file support to be enabled when the file system is created. Refer to your System Administration Guide for your specific platform.
 
 **OPTIONS -**
 
@@ -517,10 +514,10 @@ Attribute 0010 - Is specifying the text length as 15 characters
 | 001 | D/CODE<br> |
 | 002   | FMC (field-mark count)<br> |
 | 003 | Column heading |
-| 004 |  Controlling/Dependent Attributes |
-| 005 - 006 |  Not used |
+| 004 | Controlling/Dependent Attributes |
+| 005 - 006 | Not used |
 | 007 | Input/Output Conversion Codes |
-| 008<br> | Pre-process Conversion Codes<br> |
+| 008 | Pre-process Conversion Codes |
 | 009 | Format |
 | 010 | Width |
 
@@ -561,7 +558,7 @@ jstat -Options <filename>
 
 
 | **Option** | **Description** |
-| -DChr       | specify alternate delimiter for -m option (default is tab) |
+| -DChr       | specify the alternate delimiter for -m option (default is tab) |
 | -f           | free space display |
 | -m           | machine mode output |
 | -r           | record Display mode |
@@ -615,17 +612,17 @@ jchmod -Options <filename>
 | -S           | remove secure mode updates (j3 only) |
 | -T       | remove transaction boundary support |
 | +A           | auto-detect if a file is network friendly |
-| +B           | add backup of file using jbackup |
+| +B           | add a backup of the file using jbackup |
 | +C           | add control file usage flag |
 | +L           | add logging of file |
-| +N           | add the network friendly flag |
+| +N           | add the network-friendly flag |
 | +S           | add secure mode updates (j3 only) |
 | +T           | add transaction boundary support |
-| +Rspec           | add restore spec , used during jrestore |
+| +Rspec           | add restore spec, used during jrestore |
 
 
 **Remove Backup Flag of SAMPLE**
-1. Enter jchmod command with the option to remove backup of file using jbackup.
+1. Enter jchmod command with the option to remove backup of a file using jbackup.
 
 ```
 jchmod -B SAMPLE
@@ -640,7 +637,7 @@ Backup = NO, Log = NO, Rollback = YES, Secure updates = YES
 ...
 ```
 
-3. Enter jchmod command with the option to add backup of file using jbackup.
+3. Enter jchmod command with the option to add a backup of a file using jbackup.
 
 ```
 jchmod +B SAMPLE 
@@ -681,8 +678,8 @@ jrf {-options} *
 | D     | allow downsize of file |
 | E     | Resize empty files |
 | I     | Ignore empty files |
-| L     | Do not transaction log the temporary file created during process |
-| Mn     | Allow the hash method to be overridden when resizing the file. In normal operationthe default hash method for the file should be used, however the -M option allows experimentation with different hash methods, which may have a small benefit dependent upon the nature of the record key, 'n' specifies the hash method, 1,2,3,4 or 5. |
+| L     | Do not transaction log the temporary file created during the process |
+| Mn     | Allow the hash method to be overridden when resizing the file. In normal operation the default hash method for the file should be used, however, the -M option allows experimentation with different hash methods, which may have a small benefit dependent upon the nature of the record key, 'n' specifies the hash method, 1,2,3,4 or 5. |
 | N | Decrypt the file |
 | O | Encrypt the file |
 | R     | Reporting only (do not actually resize). Displays suggested resize parameters |
@@ -690,7 +687,7 @@ jrf {-options} *
 | U | Convert to Case Insensitive |
 | V     | Verbose display |
 | V1     | Very verbose display |
-| Sm{,s{,i}} | Size to parameter, where n is modulo<br>m - modulo,  s - separation,  i - ingroupmaxsz |
+| Sm{,s{,i}} | Size to a parameter, where n is modulo<br>m - modulo,  s - separation,  i - ingroupmaxsz |
 | h or ? | displays syntax and options |
 
 
@@ -823,11 +820,11 @@ Main program executables by default are copied in the home directory "bin" direc
 
 Subroutine object files are collated into evenly sized shared libraries and then by default placed in the home directory "lib" directory.
 
-In order to be able to rebuild a shared library the object file is retained in the "objdir" subdirectory of the "lib" directory. These object files are no longer required once all the shared libraries have been debugged and ready to release.
+In order to be able to rebuild a shared library, the object file is retained in the "objdir" subdirectory of the "lib" directory. These object files are no longer required once all the shared libraries have been debugged and ready to release.
 
 The **CATALOG**command invokes the jBASE jBuildSLib command with the subroutine object file to construct the shared libraries. The jBuildSLib command then links several object files together with relevant references to other required libraries and creates a shared library/DD.
 
-It should be noted that every time a subroutine is cataloged, jBuildSLib is invoked to rebuild the shared library/DLL. However when the **CATALOG**command is issued with an active select list of program names, the rebuilding is deferred until the list has been fully processed. This means that each shared object/DLL is only rebuilt once, as opposed to once for each subroutine. So when cataloging subroutines, it is much faster to work from an active select list. The same is true when decataloging subroutines.
+It should be noted that every time a subroutine is cataloged, jBuildSLib is invoked to rebuild the shared library/DLL. However, when the **CATALOG**command is issued with an active select list of program names, the rebuilding is deferred until the list has been fully processed. This means that each shared object/DLL is only rebuilt once, as opposed to once for each subroutine. So when cataloging subroutines, it is much faster to work from an active select list. The same is true when decataloging subroutines.
 
 **COMMAND SYNTAX:**
 
@@ -886,8 +883,8 @@ sh JBASEDEMO ~ -->
 jfind <ACCOUNT LOCATION>  - print | jbackup -v -f <BACKUP LOCATION & NAME>  
 ```
 
-- **ACCOUNT LOCATION -** The account we are looking to backup.  The account's location will be located and piped to jbackup.  In our example below we will be using C:\JBASE\JBASEDEMO.
-- **BACKUP LOCATION & NAME -**The directory that you wish to store your backup in and the name you wish to call your backup.  In our example below we will be using C:\JBASE\BACKUPS\MYBACKUP.  \*\*Directory is case sensitive and must be created prior to jbackup being run\*\*
+- **ACCOUNT LOCATION -** The account we are looking to backup.  The account's location will be located and piped to jbackup.  In our example below, we will be using C:\JBASE\JBASEDEMO.
+- **BACKUP LOCATION & NAME -**The directory that you wish to store your backup in and the name you wish to call your backup.  In our example below, we will be using C:\JBASE\BACKUPS\MYBACKUP.  \*\*Directory is case sensitive and must be created prior to jbackup being run\*\*
 - **OPTIONS -**We will enable verbose backup (-v) and specify where the backup will be stored (-f).
 
 

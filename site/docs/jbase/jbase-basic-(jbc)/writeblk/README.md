@@ -2,6 +2,7 @@
 
 **Created At:** 9/27/2017 2:52:44 PM  
 **Updated At:** 1/5/2018 6:12:12 PM  
+**Original Doc:** [278663-writeblk](https://docs.jbase.com/36868-jbase-basic/278663-writeblk)  
 
 
 # Description

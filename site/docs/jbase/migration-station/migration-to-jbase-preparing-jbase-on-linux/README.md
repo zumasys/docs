@@ -2,6 +2,7 @@
 
 **Created At:** 2/11/2019 7:59:34 PM  
 **Updated At:** 4/5/2019 2:16:38 PM  
+**Original Doc:** [setting-up-jbase-on-linux-for-your-conversion](https://docs.jbase.com/34463-mv-migration-station/setting-up-jbase-on-linux-for-your-conversion)  
 
 **Tags:**
 <badge text='preparing' vertical='middle' />

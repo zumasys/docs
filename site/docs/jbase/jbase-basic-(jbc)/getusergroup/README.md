@@ -2,6 +2,7 @@
 
 **Created At:** 9/6/2017 1:47:12 PM  
 **Updated At:** 1/5/2018 1:50:52 PM  
+**Original Doc:** [276069-getusergroup](https://docs.jbase.com/36868-jbase-basic/276069-getusergroup)  
 
 
 # Description

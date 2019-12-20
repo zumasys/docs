@@ -2,6 +2,7 @@
 
 **Created At:** 9/14/2017 1:01:14 PM  
 **Updated At:** 11/27/2018 10:13:05 AM  
+**Original Doc:** [276783-jqlexecute](https://docs.jbase.com/36868-jbase-basic/276783-jqlexecute)  
 
 **Tags:**
 <badge text='records handling' vertical='middle' />

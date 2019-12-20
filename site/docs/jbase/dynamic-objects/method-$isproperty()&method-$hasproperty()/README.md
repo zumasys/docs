@@ -3,6 +3,7 @@ Method: $hasproperty()
 
 **Created At:** 2/15/2018 2:32:30 PM  
 **Updated At:** 12/1/2019 1:05:09 PM  
+**Original Doc:** [method-isproperty](https://docs.jbase.com/42948-dynamic-objects/method-isproperty)  
 
 
 ## Description

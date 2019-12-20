@@ -2,6 +2,7 @@
 
 **Created At:** 2/15/2018 3:40:49 PM  
 **Updated At:** 4/23/2018 10:18:59 AM  
+**Original Doc:** [method-delete](https://docs.jbase.com/42948-dynamic-objects/method-delete)  
 
 
 ## Description

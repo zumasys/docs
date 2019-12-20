@@ -2,6 +2,7 @@
 
 **Created At:** 11/3/2017 5:08:01 PM  
 **Updated At:** 8/20/2018 1:18:00 PM  
+**Original Doc:** [jedienableq2q](https://docs.jbase.com/41717-environment-variables/jedienableq2q)  
 
 **Tags:**
 <badge text='pointer resolution' vertical='middle' />

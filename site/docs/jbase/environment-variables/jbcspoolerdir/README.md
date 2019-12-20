@@ -2,6 +2,7 @@
 
 **Created At:** 11/6/2017 2:19:01 PM  
 **Updated At:** 8/8/2018 8:01:07 AM  
+**Original Doc:** [jbcspoolerdir](https://docs.jbase.com/41717-environment-variables/jbcspoolerdir)  
 
 **Tags:**
 <badge text='jspooler' vertical='middle' />

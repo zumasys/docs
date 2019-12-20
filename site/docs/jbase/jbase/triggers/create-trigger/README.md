@@ -3,6 +3,7 @@ CREATE-TRIGGER
 
 **Created At:** 8/16/2018 2:34:52 PM  
 **Updated At:** 9/5/2018 11:37:54 AM  
+**Original Doc:** [334575-create-trigger](https://docs.jbase.com/48168-triggers/334575-create-trigger)  
 
 
 ## Description 

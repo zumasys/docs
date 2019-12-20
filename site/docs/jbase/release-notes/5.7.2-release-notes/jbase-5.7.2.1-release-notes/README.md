@@ -2,6 +2,7 @@
 
 **Created At:** 3/8/2019 8:34:33 AM  
 **Updated At:** 4/10/2019 4:19:12 PM  
+**Original Doc:** [jbase-572-release-notes](https://docs.jbase.com/5-7-2-release-notes/jbase-572-release-notes)  
 
 
 # Patches

@@ -2,6 +2,7 @@
 
 **Created At:** 1/17/2018 1:22:05 PM  
 **Updated At:** 9/20/2018 1:02:22 PM  
+**Original Doc:** [uses-of-package-comjbasejrcs-jrclient-api](https://docs.jbase.com/jrcs/uses-of-package-comjbasejrcs-jrclient-api)  
 
 
 ## Classes in com.jbase.jrcs used by com.jbase.jrcs

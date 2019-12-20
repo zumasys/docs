@@ -1,20 +1,30 @@
 # jBASE Encryption - Database Security
 
 **Created At:** 6/17/2018 8:49:36 AM  
-**Updated At:** 7/8/2019 3:53:10 PM  
+**Updated At:** 12/20/2019 10:17:21 PM  
+**Original Doc:** [jbase-encryption-database-security](https://docs.jbase.com/30301-jbase/jbase-encryption-database-security)  
 
 
 ## Abstract
 
-This document covers the administration, creation, and maintenance of encrypted files on jBASE.
-
-
+jBASE 5.6 introduced a native encryption option that was later enhanced in jBASE 5.7.2 to better adhere to compliance and regulatory requirements. The feature allows jBASE to encrypt data files at rest, such that only parties with the decryption key can decode and read the data. This document covers the administration, creation, and maintenance of encrypted files on jBASE.
 
 ## Administration
 
-The **jsecurity** command is used to create an encryption profile. At the present time, only one profile per system is allowed.
+The **jsecurity** command is used to create an encryption profile. At the present time, only one profile per system is allowed. The default encryption type is Advanced Encryption Standard (AES) 256-bit encryption algorithm, an encryption cipher that uses the same secret key to encrypt and decrypt data.
 
-***\*\*\*Most options of the*****jsecurity*****command require root/administrator privileges\*\*\****
+The data encryption process includes:
+
+- Create a database security profile or master key.
+- Create an encryption key or passphrase for files.
+- Encrypt data with the encryption keys.
+
+
+
+
+### Info
+
+Most options of the jsecurity command require root/administrator privileges
 
 ```
 jsh ~ -->jsecurity -h
@@ -72,14 +82,18 @@ New security profile successfully created.
 jsh ~ -->
 ```
 
-#### NOTES:
+#### 
 
-- The**filename**used with the **-f** option can be a full or relative. If the **-f** option is not used then the default is **$JBCRELEASEDIR/config/filesecurity**.
-- The **AES** cipher is **AES256**
+
+### Info
+
+- The**filename**used with the **-f** option can be full or relative. If the **-f** option is not used then the default is **$JBCRELEASEDIR/config/filesecurity**.
+- The **AES** cipher is **AES256**
 - [**PBKDF2**](https://en.wikipedia.org/wiki/PBKDF2) is a way of obscuring the password
 
 
-The last step is to **load** the profile into shared memory. ***This needs to be done EACH TIME the system is rebooted or a new security profile needs to be activated.***
+
+The last step is to **load** the profile into shared memory. ***This needs to be done EACH TIME the system is rebooted or a new security profile needs to be activated.***
 
 ```
 jsh ~ -->jsecurity load
@@ -92,9 +106,13 @@ Enter encryption key for security file :
 File encryption type : AES
 ```
 
-There is no maximum length for the encryption key for jBASE data files when using **PBKDF2**to derive the actual key. This is the default. However, if number of iterations is 0, the maximum key size is 32 characters.
+There is no maximum length for the encryption key for jBASE data files when using **PBKDF2**to derive the actual key. This is the default. However, if number of iterations is 0, the maximum key size is 32 characters.
 
-**Caveat!**On Windows, the shared memory that jBASE creates is unloaded when the last jBASE process terminates. This means that you must have at least 1 running jBASE process in order for the security profile to remain loaded. The best way to accomplish this is to start **jDLS**beforehand which will allow shared memory to persist.
+
+
+### Warning
+
+On Windows, the shared memory that jBASE creates is unloaded when the last jBASE process terminates. This means that you must have at least 1 running jBASE process in order for the security profile to remain loaded. The best way to accomplish this is to start **jDLS**beforehand which will allow shared memory to persist.
 
 To determine whether or not the security profile has been loaded:
 
@@ -122,7 +140,7 @@ The status can also be obtained programmatically :
 
 ## Create Encrypted Files
 
-To create an encrypted file, use the **CREATE-FILE** command with the **ENCRYPTED=TRUE** option:
+To create an encrypted file, use the **CREATE-FILE** command with the **ENCRYPTED=TRUE** option:
 
 ```
 jsh ~ -->create-file efile 1 1 encrypted=true
@@ -161,7 +179,7 @@ jsh ~ -->had efile
 
 When files are created in this manner, the entire record including the record key (item ID) is encrypted, as shown by the hex dump above.
 
-Type **UD**files (directories) can also be created as encrypted.
+Type **UD**files (directories) can also be created as encrypted.
 
 ```
 jsh ~ -->create-file data ebp type=ud encrypted=true
@@ -171,7 +189,7 @@ jsh ~ -->
 
 
 
-**jBC**(BASIC) programs can be created  and compiled in an encrypted **UD**type file.
+**jBC**(BASIC) programs can be created  and compiled in an encrypted **UD**type file.
 
 ```
 ed ebp goodbye.b
@@ -197,7 +215,7 @@ jsh ~ -->goodbye
 Goodbye, cruel world!
 ```
 
-Note however that when you create an encrypted **UD** file type the record key (item ID) is not encrypted because certain characters (like "/" which is a BASE64 character) are illegal in file names.
+Note however that when you create an encrypted **UD** file type the record key (item ID) is not encrypted because certain characters (like "/" which is a BASE64 character) are illegal in file names.
 
 ```
 jsh ~\ebp -->jdir
@@ -216,7 +234,7 @@ jsh ~\ebp -->
 
 
 
-**jcompile**will not work on an encrypted file. This won’t be done, **jcompile**doesn’t use JEDI to get its files, so it won’t ever work. If you have an encrypted source code file, you will have to use the **BASIC**command on it.
+**jcompile**will not work on an encrypted file. This won’t be done, **jcompile**doesn’t use JEDI to get its files, so it won’t ever work. If you have an encrypted source code file, you will have to use the **BASIC**command on it.
 
 ## 
 
@@ -235,7 +253,7 @@ jsh ~\ebp -->
 - Dynamic Files can be created as encrypted (jBASE 5.7 only)
 - **create-file**with **type=jbc** recognizes the **encrypted=true**option, e.g. **create-file data bp type=ud encrypted=true** (jBASE 5.7 only)
 - At this time, the logs created by **[Audit Logging](introduction-to-audit-logging)** are not encrypted. This will be implemented in a future release.
-- The following code, which uses a feature of [**Dynamic Objects**](dynamic-objects), can be use to programmatically determine if a file is encrypted:
+- The following code, which uses a feature of [**Dynamic Objects**](dynamic-objects), can be used to programmatically determine if a file is encrypted:
 
 
 ```
@@ -253,7 +271,7 @@ jsh ~\ebp -->
 
 ## Create an Encrypted Spooler Queue
 
-To protect data that is sent to spooler, jobs can be encrypted but only when using device types of **PROG**or **FILE**when the spooler queue is initially created.
+To protect data that is sent to the spooler, jobs can be encrypted but only when using device types of **PROG**or **FILE**when the spooler queue is initially created.
 
 **COMMAND SYNTAX:**
 

@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 10:23:43 AM  
 **Updated At:** 2/15/2018 8:02:35 AM  
+**Original Doc:** [com_jbase_framework_io_charset_package-summary](https://docs.jbase.com/39221-charset/com_jbase_framework_io_charset_package-summary)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="com.jbase.framework.io.charset (framework   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

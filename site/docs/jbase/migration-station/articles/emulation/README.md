@@ -2,6 +2,7 @@
 
 **Created At:** 10/31/2017 10:00:45 PM  
 **Updated At:** 2/19/2019 10:35:08 AM  
+**Original Doc:** [emulation](https://docs.jbase.com/44497-articles/emulation)  
 
 **Tags:**
 <badge text='configuration' vertical='middle' />

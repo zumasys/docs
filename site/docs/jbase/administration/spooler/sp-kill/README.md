@@ -2,6 +2,7 @@
 
 **Created At:** 4/5/2018 1:08:24 PM  
 **Updated At:** 1/24/2019 8:41:18 AM  
+**Original Doc:** [306475-sp-kill](https://docs.jbase.com/44205-spooler/306475-sp-kill)  
 
 
 ## Description 

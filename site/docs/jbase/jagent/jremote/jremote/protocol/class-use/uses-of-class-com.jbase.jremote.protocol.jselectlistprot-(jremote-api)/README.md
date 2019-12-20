@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 12:14:20 PM  
 **Updated At:** 4/4/2018 9:50:22 PM  
+**Original Doc:** [com_jbase_jremote_protocol_class-use_jselectlistprot](https://docs.jbase.com/39271-class-use/com_jbase_jremote_protocol_class-use_jselectlistprot)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.protocol.JSelectListProt (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 

@@ -2,6 +2,7 @@
 
 **Created At:** 7/17/2018 2:56:44 PM  
 **Updated At:** 1/10/2019 9:42:50 AM  
+**Original Doc:** [copy](https://docs.jbase.com/42462-distributed-files/copy)  
 
 
 ## Description 

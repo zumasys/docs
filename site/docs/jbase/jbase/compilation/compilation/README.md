@@ -2,6 +2,7 @@
 
 **Created At:** 9/26/2018 1:01:49 PM  
 **Updated At:** 6/6/2019 8:20:56 AM  
+**Original Doc:** [compilation](https://docs.jbase.com/49435-compilation/compilation)  
 
 **Tags:**
 <badge text='compilation of basic programs' vertical='middle' />

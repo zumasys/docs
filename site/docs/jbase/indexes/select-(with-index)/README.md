@@ -2,6 +2,7 @@
 
 **Created At:** 12/3/2019 4:22:00 PM  
 **Updated At:** 12/4/2019 1:08:33 PM  
+**Original Doc:** [select-with-index](https://docs.jbase.com/48152-indexes/select-with-index)  
 
 
 

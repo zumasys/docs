@@ -2,6 +2,7 @@
 
 **Created At:** 9/27/2017 2:23:15 PM  
 **Updated At:** 11/26/2018 10:18:07 PM  
+**Original Doc:** [278658-readlist](https://docs.jbase.com/36868-jbase-basic/278658-readlist)  
 
 **Tags:**
 <badge text='lists handling' vertical='middle' />

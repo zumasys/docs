@@ -2,6 +2,7 @@
 
 **Created At:** 9/15/2017 12:49:16 PM  
 **Updated At:** 11/27/2018 9:51:04 AM  
+**Original Doc:** [276976-minimum](https://docs.jbase.com/36868-jbase-basic/276976-minimum)  
 
 **Tags:**
 <badge text='dynamic arrays' vertical='middle' />

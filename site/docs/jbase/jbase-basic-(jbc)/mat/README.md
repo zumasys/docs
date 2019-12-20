@@ -2,6 +2,7 @@
 
 **Created At:** 9/15/2017 10:15:39 AM  
 **Updated At:** 11/27/2018 9:49:56 AM  
+**Original Doc:** [276944-mat](https://docs.jbase.com/36868-jbase-basic/276944-mat)  
 
 **Tags:**
 <badge text='array operations' vertical='middle' />

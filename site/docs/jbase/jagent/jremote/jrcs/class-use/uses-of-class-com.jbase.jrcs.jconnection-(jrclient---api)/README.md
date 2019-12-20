@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:27:18 AM  
 **Updated At:** 9/20/2018 12:57:38 PM  
+**Original Doc:** [com_jbase_jrcs_class-use_jconnection](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jconnection)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jrcs.JConnection (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

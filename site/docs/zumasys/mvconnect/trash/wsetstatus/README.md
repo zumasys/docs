@@ -2,6 +2,7 @@
 
 **Created At:** 6/27/2017 12:08:44 AM  
 **Updated At:** 6/27/2017 11:08:40 PM  
+**Original Doc:** [261269-wsetstatus](https://docs.zumasys.com/36617-trash/261269-wsetstatus)  
 
 
 The WSETSTATUS subroutine allows you to modify the response code.

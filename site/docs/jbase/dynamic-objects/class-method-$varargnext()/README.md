@@ -2,6 +2,7 @@
 
 **Created At:** 3/13/2018 11:10:44 AM  
 **Updated At:** 7/5/2019 9:52:53 AM  
+**Original Doc:** [class-method-vararg-next](https://docs.jbase.com/42948-dynamic-objects/class-method-vararg-next)  
 
 
 ## Description

@@ -2,6 +2,7 @@
 
 **Created At:** 6/24/2017 1:07:56 AM  
 **Updated At:** 11/25/2017 10:59:15 AM  
+**Original Doc:** [wencodejson](https://docs.zumasys.com/36566-mv-connect-api/wencodejson)  
 
 
 The WENCODEJSON subroutine will encode a string to properly be in a JSON value.

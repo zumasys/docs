@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:05:48 AM  
 **Updated At:** 2/15/2018 8:02:44 AM  
+**Original Doc:** [com_jbase_jdbc_ResultSetMetaDataAdapter.ColumnMetaData](https://docs.jbase.com/39228-jdbc/com_jbase_jdbc_ResultSetMetaDataAdapter.ColumnMetaData)  
 
 
 JavaScript is disabled on your browser.

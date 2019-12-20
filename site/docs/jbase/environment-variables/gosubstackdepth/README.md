@@ -2,6 +2,7 @@
 
 **Created At:** 6/10/2019 8:57:31 AM  
 **Updated At:** 6/10/2019 9:25:08 AM  
+**Original Doc:** [394817-gosubstackdepth](https://docs.jbase.com/41717-environment-variables/394817-gosubstackdepth)  
 
 
 ## Description

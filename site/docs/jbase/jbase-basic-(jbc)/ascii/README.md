@@ -2,6 +2,7 @@
 
 **Created At:** 11/3/2017 1:42:22 PM  
 **Updated At:** 1/5/2018 6:45:04 PM  
+**Original Doc:** [284128-ascii](https://docs.jbase.com/36868-jbase-basic/284128-ascii)  
 
 
 # Description 

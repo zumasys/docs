@@ -2,6 +2,7 @@
 
 **Created At:** 9/14/2018 2:03:33 PM  
 **Updated At:** 9/26/2018 10:54:25 PM  
+**Original Doc:** [indexes](https://docs.jbase.com/48152-indexes/indexes)  
 
 
 

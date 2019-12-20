@@ -2,6 +2,7 @@
 
 **Created At:** 8/16/2018 2:51:27 PM  
 **Updated At:** 11/11/2018 11:32:26 AM  
+**Original Doc:** [como](https://docs.jbase.com/46963-utilities/como)  
 
 **Tags:**
 <badge text='record i/o' vertical='middle' />

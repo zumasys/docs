@@ -2,6 +2,7 @@
 
 **Created At:** 8/14/2017 9:27:02 AM  
 **Updated At:** 10/24/2018 10:59:24 PM  
+**Original Doc:** [266855-clearselect](https://docs.jbase.com/36868-jbase-basic/266855-clearselect)  
 
 
 # Description 

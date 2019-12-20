@@ -2,6 +2,7 @@
 
 **Created At:** 8/11/2017 12:08:30 AM  
 **Updated At:** 8/11/2017 3:31:48 PM  
+**Original Doc:** [266644-accuterm-screen-capture](https://docs.jbase.com/36040-migration-knowledge-base/266644-accuterm-screen-capture)  
 
 
 **RECORDING A SESSION**

@@ -2,6 +2,7 @@
 
 **Created At:** 12/5/2019 11:16:33 AM  
 **Updated At:** 12/16/2019 10:18:09 AM  
+**Original Doc:** [method-inherit-class](https://docs.jbase.com/42948-dynamic-objects/method-inherit-class)  
 
 
 The traditional way to implement inheritance is with a class hierarchy.

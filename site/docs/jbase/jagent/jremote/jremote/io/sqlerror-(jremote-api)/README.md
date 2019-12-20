@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:54:16 AM  
 **Updated At:** 4/4/2018 11:35:53 PM  
+**Original Doc:** [com_jbase_jremote_io_sqlerror](https://docs.jbase.com/39250-io/com_jbase_jremote_io_sqlerror)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="SQLError (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
 JavaScript is disabled on your browser.

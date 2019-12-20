@@ -2,6 +2,7 @@
 
 **Created At:** 5/29/2018 8:52:40 PM  
 **Updated At:** 5/30/2018 12:59:40 PM  
+**Original Doc:** [319019-mv-connect-1-6-3-release-notes](https://docs.zumasys.com/36307-mv-connect/319019-mv-connect-1-6-3-release-notes)  
 
 
 # Patches

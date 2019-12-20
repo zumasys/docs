@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 10:54:50 AM  
 **Updated At:** 8/17/2018 2:25:53 AM  
+**Original Doc:** [com_jbase_jdbc_jbasejdbcconnection](https://docs.jbase.com/39228-jdbc/com_jbase_jdbc_jbasejdbcconnection)  
 
 &lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 # Class JBaseJDBCConnection

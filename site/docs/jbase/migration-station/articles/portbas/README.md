@@ -2,6 +2,7 @@
 
 **Created At:** 10/31/2017 10:03:16 PM  
 **Updated At:** 11/23/2017 1:16:52 PM  
+**Original Doc:** [portbas](https://docs.jbase.com/44497-articles/portbas)  
 
 
 PortBas is a migration tool used to parse BASIC source code. PortBas scans each supplied BASIC program for the use of [reserved keywords](keywords) which are not allowed in the jBC program language.

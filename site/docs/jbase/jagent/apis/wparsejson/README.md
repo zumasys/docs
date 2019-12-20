@@ -2,6 +2,7 @@
 
 **Created At:** 6/27/2017 7:46:07 PM  
 **Updated At:** 11/24/2017 7:26:49 PM  
+**Original Doc:** [wparsejson](https://docs.jbase.com/34473-docs/wparsejson)  
 
 
 The WPARSEJSON is a simple jSON parsing subroutine.  It has been been replaced with WOBJ.

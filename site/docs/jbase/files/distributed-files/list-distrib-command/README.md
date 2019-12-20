@@ -2,6 +2,7 @@
 
 **Created At:** 11/29/2017 7:24:28 AM  
 **Updated At:** 12/1/2017 11:23:42 PM  
+**Original Doc:** [289268-list-distrib](https://docs.jbase.com/44203-distributed-files/289268-list-distrib)  
 
 
 The LIST-DISTRIB command displays all partition information pertaining to a distributed file. It takes the general form:

@@ -2,6 +2,7 @@
 
 **Created At:** 9/13/2017 8:05:38 PM  
 **Updated At:** 9/13/2017 8:06:00 PM  
+**Original Doc:** [jexecuteresults](https://docs.jbase.com/39719-archive/jexecuteresults)  
 
 
 ## Class JExecuteResults

@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:44:38 AM  
 **Updated At:** 4/5/2018 10:46:55 PM  
+**Original Doc:** [com_jbase_jremote_io_class-use_jbaseobjectreader](https://docs.jbase.com/39253-class-use/com_jbase_jremote_io_class-use_jbaseobjectreader)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Interface com.jbase.jremote.io.JBaseObjectReader (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

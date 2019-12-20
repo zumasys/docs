@@ -2,6 +2,7 @@
 
 **Created At:** 11/3/2017 3:22:48 PM  
 **Updated At:** 12/24/2018 4:17:54 PM  
+**Original Doc:** [terminal-extensions](https://docs.jbase.com/41717-environment-variables/terminal-extensions)  
 
 
 

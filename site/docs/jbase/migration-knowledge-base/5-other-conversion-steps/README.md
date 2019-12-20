@@ -2,6 +2,7 @@
 
 **Created At:** 8/11/2017 12:11:42 AM  
 **Updated At:** 11/21/2017 2:43:59 PM  
+**Original Doc:** [5-other-conversion-steps](https://docs.jbase.com/36040-migration-knowledge-base/5-other-conversion-steps)  
 
 
 ## 1.. Firewalls and VPNS

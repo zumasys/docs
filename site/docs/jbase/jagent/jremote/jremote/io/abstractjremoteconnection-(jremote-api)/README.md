@@ -2,6 +2,7 @@
 
 **Created At:** 9/25/2017 11:40:56 AM  
 **Updated At:** 4/5/2018 11:27:17 PM  
+**Original Doc:** [com_jbase_jremote_io_abstractjremoteconnection](https://docs.jbase.com/39250-io/com_jbase_jremote_io_abstractjremoteconnection)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="AbstractJRemoteConnection (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":6,"i3":10,"i4":10,"i5":10,"i6":6,"i7":6,"i8":10,"i9":10,"i10":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 

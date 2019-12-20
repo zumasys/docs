@@ -2,6 +2,7 @@
 
 **Created At:** 8/16/2018 1:57:01 PM  
 **Updated At:** 8/31/2018 11:53:22 AM  
+**Original Doc:** [query-index](https://docs.jbase.com/48152-indexes/query-index)  
 
 **Tags:**
 <badge text='key-select' vertical='middle' />

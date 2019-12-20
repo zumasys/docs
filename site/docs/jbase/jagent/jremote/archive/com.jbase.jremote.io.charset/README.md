@@ -2,6 +2,7 @@
 
 **Created At:** 9/13/2017 7:31:30 PM  
 **Updated At:** 4/3/2018 9:51:35 PM  
+**Original Doc:** [comjbasejremoteiocharset](https://docs.jbase.com/39719-archive/comjbasejremoteiocharset)  
 
 
 # Classes

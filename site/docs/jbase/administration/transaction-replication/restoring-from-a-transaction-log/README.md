@@ -2,6 +2,7 @@
 
 **Created At:** 3/21/2018 7:11:08 AM  
 **Updated At:** 4/18/2018 8:11:53 PM  
+**Original Doc:** [restoring-from-a-transaction-log](https://docs.jbase.com/43995-transactional-journaling/restoring-from-a-transaction-log)  
 
 
 ## Selective Restores 
