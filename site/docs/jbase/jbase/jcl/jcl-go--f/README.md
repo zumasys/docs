@@ -55,4 +55,4 @@ The GO  F command on line 5 causes the program to be scanned from line 6, looki
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

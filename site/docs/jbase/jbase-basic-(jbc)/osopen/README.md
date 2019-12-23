@@ -31,7 +31,7 @@ ELSE statements Executes if the read is not successful or the record (or ID) do
 
 > Read/write access mode is the default. Omitting READONLY and WRITEONLY will by default specify this access mode.
 > 
-> After opening a sequential file with **OSOPEN**, use [OSBREAD](277546-osbread) to read a block of data from the file, or [OSBWRITE](277539-osbwrite) to write a block of data to the file. You also can use [READSEQ](278773-readseq) to read a record from the file, or [WRITESEQ](279570-writeseq) or [WRITESEQF](279571-writeseqf) to write a record to the file, if the file is not a named pipe. ([READSEQ](278773-readseq), [WRITESEQ](279570-writeseq), [WRITESEQF](279571-writeseqf) are line-oriented commands that use CHAR (10) as the line delimiter.)
+> After opening a sequential file with **OSOPEN**, use [OSBREAD](./../osbread) to read a block of data from the file, or [OSBWRITE](./../osbwrite) to write a block of data to the file. You also can use [READSEQ](./../readseq) to read a record from the file, or [WRITESEQ](./../writeseq) or [WRITESEQF](./../writeseqf) to write a record to the file, if the file is not a named pipe. ([READSEQ](./../readseq), [WRITESEQ](./../writeseq), [WRITESEQF](./../writeseqf) are line-oriented commands that use CHAR (10) as the line delimiter.)
 
 
 An example of use would be a program statement that opens the file ‘MYSLIPPERS’ as SLIPPERS.
@@ -42,4 +42,4 @@ OSOPEN 'MYSLIPPERS' TO SLIPPERS ELSE STOP
 
 
 
-Go back to[jBASE BASIC](263498-jbase-basic).
+Go back to[jBASE BASIC](./../jbase-basic-programmers-reference-guide).

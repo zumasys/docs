@@ -15,7 +15,7 @@ RND(expression)
 
 Where:
 
-expression should evaluate to a numeric integer value or a runtime error will occur. The absolute value of expression is used by the function. The highest number expression can be on Windows is [PWR](277641-pwr)(2,15) - 1. The highest number on UNIX is [PWR](277641-pwr)(2,31) - 1.
+expression should evaluate to a numeric integer value or a runtime error will occur. The absolute value of expression is used by the function. The highest number expression can be on Windows is [PWR](./../pwr)(2,15) - 1. The highest number on UNIX is [PWR](./../pwr)(2,31) - 1.
 
 The function will return a random integer number between 0 and the value of expression-1.
 
@@ -31,8 +31,8 @@ to print 20 random numbers in the inclusive range 0 to 99.
 
 
 
-See also: [ABS](263503-abs).
+See also: [ABS](./../abs).
 
-Go back to  [jBASE BASIC](263498-jbase-basic).
+Go back to  [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

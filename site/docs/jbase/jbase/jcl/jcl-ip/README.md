@@ -110,4 +110,4 @@ fields one, two, and three, of file buffer 2 will be replaced with "AA", "BB", a
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

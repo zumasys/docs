@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/30312-jagent/jremote-api)
-- [Class](/39248-jremote/com_jbase_jremote_eismetadatarepository "class in com.jbase.jremote")
+- [Package](./../../../../jremote-api)
+- [Class](./../../eismetadatarepository-%28jremote-api%29 "class in com.jbase.jremote")
 - Use
-- [Tree](/39248-jremote/com_jbase_jremote_package-tree)
+- [Tree](./../../com.jbase.jremote-class-hierarchy)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/class-use//39249-class-use/com_jbase_jremote_class-use_EISMetaDataRepository)
-- [No Frames](/39249-class-use/com_jbase_jremote_class-use_EISMetaDataRepository)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -36,43 +36,43 @@ jremote <br>
 ## Uses of Class
 com.jbase.jremote.EISMetaDataRepository
 
-- Packages that use [EISMetaDataRepository](/39248-jremote/com_jbase_jremote_eismetadatarepository "class in com.jbase.jremote") | Package | Description |
+- Packages that use [EISMetaDataRepository](./../../eismetadatarepository-%28jremote-api%29 "class in com.jbase.jremote") | Package | Description |
 | --- | --- |
 | com.jbase.jremote |   |
 | com.jbase.jremote.io |   |
 | com.jbase.jremote.jca |   |
-- - ### Uses of [EISMetaDataRepository](/39248-jremote/com_jbase_jremote_eismetadatarepository "class in com.jbase.jremote") in [com.jbase.jremote](/30312-jagent/jremote-api)
+- - ### Uses of [EISMetaDataRepository](./../../eismetadatarepository-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)
 
 
-Methods in [com.jbase.jremote](/30312-jagent/jremote-api) that return [EISMetaDataRepository](/39248-jremote/com_jbase_jremote_eismetadatarepository "class in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote](./../../../../jremote-api) that return [EISMetaDataRepository](./../../eismetadatarepository-%28jremote-api%29 "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `EISMetaDataRepository` | JConnection.`getMetaData()`<br>Return meta data of the connected jBASE instance.<br> |
-    - ### Uses of [EISMetaDataRepository](/39248-jremote/com_jbase_jremote_eismetadatarepository "class in com.jbase.jremote") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
+    - ### Uses of [EISMetaDataRepository](./../../eismetadatarepository-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) that return [EISMetaDataRepository](/39248-jremote/com_jbase_jremote_eismetadatarepository "class in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) that return [EISMetaDataRepository](./../../eismetadatarepository-%28jremote-api%29 "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `EISMetaDataRepository` | JConnectionImpl.`getMetaData()`  |
-    - ### Uses of [EISMetaDataRepository](/39248-jremote/com_jbase_jremote_eismetadatarepository "class in com.jbase.jremote") in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary)
+    - ### Uses of [EISMetaDataRepository](./../../eismetadatarepository-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) that return [EISMetaDataRepository](/39248-jremote/com_jbase_jremote_eismetadatarepository "class in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29) that return [EISMetaDataRepository](./../../eismetadatarepository-%28jremote-api%29 "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `EISMetaDataRepository` | WrappedJConnection.`getMetaData()`  |
 
 
 
-Constructors in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) with parameters of type [EISMetaDataRepository](/39248-jremote/com_jbase_jremote_eismetadatarepository "class in com.jbase.jremote") | Constructor and Description |
+Constructors in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29) with parameters of type [EISMetaDataRepository](./../../eismetadatarepository-%28jremote-api%29 "class in com.jbase.jremote") | Constructor and Description |
 | --- |
 | `JRemoteManagedConnectionMetaData(EISMetaDataRepository mdRepository)`  |
 
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/30312-jagent/jremote-api)
-- [Class](/39248-jremote/com_jbase_jremote_eismetadatarepository "class in com.jbase.jremote")
+- [Package](./../../../../jremote-api)
+- [Class](./../../eismetadatarepository-%28jremote-api%29 "class in com.jbase.jremote")
 - Use
-- [Tree](/39248-jremote/com_jbase_jremote_package-tree)
+- [Tree](./../../com.jbase.jremote-class-hierarchy)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -83,8 +83,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/class-use//39249-class-use/com_jbase_jremote_class-use_EISMetaDataRepository)
-- [No Frames](/39249-class-use/com_jbase_jremote_class-use_EISMetaDataRepository)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

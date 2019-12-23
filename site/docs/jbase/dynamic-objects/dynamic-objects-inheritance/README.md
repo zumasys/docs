@@ -16,8 +16,8 @@ Inheritance is a fundamental Object Oriented concept. Dynamic Objects implements
 
 Inheritance is recursive, meaning that an object can inherit properties and methods from other objects or classes and those classes can, in turn, inherit properties and methods from other classes, and so on. This is illustrated in the following topics:
 
-- [Tutorial](inheritance-tutorial)
-- [$inherit()](method-inherit-class) - Class Inheritance
-- [$inherit()](method-inherit-object-inheritance) - Object Inheritance
+- [Tutorial](./../inheritance-tutorial)
+- [$inherit()](./../method-$inherit%28%29---class-inheritance) - Class Inheritance
+- [$inherit()](./../method-$inherit%28%29---object-inheritance) - Object Inheritance
 - $global() - Globally available methods [TBD]
 

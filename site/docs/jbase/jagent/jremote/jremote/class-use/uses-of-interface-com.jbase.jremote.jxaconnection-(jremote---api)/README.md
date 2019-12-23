@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/30312-jagent/jremote-api)
-- [Class](/39248-jremote/com_jbase_jremote_jxaconnection "interface in com.jbase.jremote")
+- [Package](./../../../../jremote-api)
+- [Class](./../../jxaconnection-%28jremote-api%29 "interface in com.jbase.jremote")
 - Use
-- [Tree](/39248-jremote/com_jbase_jremote_package-tree)
+- [Tree](./../../com.jbase.jremote-class-hierarchy)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/class-use//39249-class-use/com_jbase_jremote_class-use_JXAConnection)
-- [No Frames](/39249-class-use/com_jbase_jremote_class-use_JXAConnection)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -36,23 +36,23 @@ jremote <br>
 ## Uses of Interface
 com.jbase.jremote.JXAConnection
 
-- Packages that use [JXAConnection](/39248-jremote/com_jbase_jremote_jxaconnection "interface in com.jbase.jremote") | Package | Description |
+- Packages that use [JXAConnection](./../../jxaconnection-%28jremote-api%29 "interface in com.jbase.jremote") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.io |   |
-- - ### Uses of [JXAConnection](/39248-jremote/com_jbase_jremote_jxaconnection "interface in com.jbase.jremote") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
+- - ### Uses of [JXAConnection](./../../jxaconnection-%28jremote-api%29 "interface in com.jbase.jremote") in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29)
 
 
-Classes in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) that implement [JXAConnection](/39248-jremote/com_jbase_jremote_jxaconnection "interface in com.jbase.jremote") | Modifier and Type | Class and Description |
+Classes in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) that implement [JXAConnection](./../../jxaconnection-%28jremote-api%29 "interface in com.jbase.jremote") | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `JConnectionImpl`<br>The connection to a remote jBASE instance implemented<br> using a IO messages over an abstract connection.<br> |
 
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/30312-jagent/jremote-api)
-- [Class](/39248-jremote/com_jbase_jremote_jxaconnection "interface in com.jbase.jremote")
+- [Package](./../../../../jremote-api)
+- [Class](./../../jxaconnection-%28jremote-api%29 "interface in com.jbase.jremote")
 - Use
-- [Tree](/39248-jremote/com_jbase_jremote_package-tree)
+- [Tree](./../../com.jbase.jremote-class-hierarchy)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -63,8 +63,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/class-use//39249-class-use/com_jbase_jremote_class-use_JXAConnection)
-- [No Frames](/39249-class-use/com_jbase_jremote_class-use_JXAConnection)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

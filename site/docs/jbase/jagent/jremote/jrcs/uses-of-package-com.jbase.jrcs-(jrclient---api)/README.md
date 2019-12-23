@@ -9,7 +9,7 @@
 
 
 
-**Classes in [com.jbase.jrcs](/jrcs/com_jbase_jrcs_package-summary) used by [com.jbase.jrcs](/jrcs/com_jbase_jrcs_package-summary)**
+**Classes in [com.jbase.jrcs](./../com.jbase.jrcs-%28jrclient---api%29) used by [com.jbase.jrcs](./../com.jbase.jrcs-%28jrclient---api%29)**
 
 | Class<br> |  Description<br> |
 | --- | --- |

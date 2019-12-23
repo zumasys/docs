@@ -18,7 +18,7 @@ IN{c}
 
 where c is an optional prompt character which, once used, remains in effect until a new IBN, IBP, IN or IP command is issued. If c is not specified, the prompt character will default to the last prompt character used, or to a colon (:).
 
-The new data replaces the content of the SIB, and the SIB will remain active until an [RI](http://jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/jcl2_JCL.RI.htm), S(n) or MV %n source command is used.
+The new data replaces the content of the SIB, and the SIB will remain active until an [RI](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jcl2_JCL.RI.htm), S(n) or MV %n source command is used.
 
 
 
@@ -65,4 +65,4 @@ When the command has been completed, the buffer pointer will be positioned at th
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

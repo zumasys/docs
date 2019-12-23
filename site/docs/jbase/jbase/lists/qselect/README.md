@@ -59,4 +59,4 @@ Creates a list containing the values from field 3 of records ABC, DEF and GHI in
 
 
 
-Back to [List Processing](325912-list-processing)
+Back to [List Processing](./../list-processing)

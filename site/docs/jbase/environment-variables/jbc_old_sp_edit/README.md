@@ -73,6 +73,6 @@ SET JBC_OLD_SP_EDIT=1
 
 
 
-See also the behavior of the [standard SP-EDIT](306467-sp-edit).
+See also the behavior of the [standard SP-EDIT](./../../administration/spooler/sp-edit).
 
 

@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
+- [Package](./../jbase-jdbc-api)
 - Class
-- [Use](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCGlobals)
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Use](./../class-use/uses-of-interface-com.jbase.jdbc.jbasejdbcglobals-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../deprecated-list.html)
 - [Help](../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39228-jdbc/com_jbase_jdbc_JBaseJDBCErrors "class in com.jbase.jdbc")
-- [Next Class](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals.TYPES "class in com.jbase.jdbc")
+- [Prev Class](./../jbasejdbcerrors-%28jbasejdbc---api%29 "class in com.jbase.jdbc")
+- [Next Class](./. "class in com.jbase.jdbc")
 
 
-- [Frames](../../../index.html?com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals)
-- [No Frames](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../allclasses-noframe.html)
@@ -49,7 +49,7 @@ com.jbase.jdbc
 
 ## Interface JBaseJDBCGlobals
 
-- All Known Implementing Classes:[JbaseJDBCCallableStatement](/39228-jdbc/com_jbase_jdbc_jbasejdbccallablestatement "class in com.jbase.jdbc"), [JBaseJDBCPreparedStatement](/39228-jdbc/com_jbase_jdbc_jbasejdbcpreparedstatement "class in com.jbase.jdbc"), [JBaseJDBCResultSetMetaData](/39228-jdbc/com_jbase_jdbc_JBaseJDBCResultSetMetaData "class in com.jbase.jdbc"), [JBaseJDBCSocketConnection](/39228-jdbc/com_jbase_jdbc_jbasejdbcsocketconnection "class in com.jbase.jdbc"), [JBaseJDBCSocketResultSet](/39228-jdbc/com_jbase_jdbc_jbasejdbcsocketresultset "class in com.jbase.jdbc"), [ParameterList](/39240-protocol/com_jbase_jdbc_protocol_ParameterList "class in com.jbase.jdbc.protocol")
+- All Known Implementing Classes:[JbaseJDBCCallableStatement](./../jbasejdbccallablestatement-%28jbasejdbc-api%29 "class in com.jbase.jdbc"), [JBaseJDBCPreparedStatement](./../jbasejdbcpreparedstatement-%28jbasejdbc-api%29 "class in com.jbase.jdbc"), [JBaseJDBCResultSetMetaData](./../jbasejdbcresultsetmetadata-%28jbasejdbc---api%29 "class in com.jbase.jdbc"), [JBaseJDBCSocketConnection](./../jbasejdbcsocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc"), [JBaseJDBCSocketResultSet](./../jbasejdbcsocketresultset-%28jbasejdbc-api%29 "class in com.jbase.jdbc"), [ParameterList](./../protocol/parameterlist-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 * * *
 
 
@@ -180,22 +180,22 @@ static final String SHORT_SM
 Skip navigation links
 
 - [Overview](../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
+- [Package](./../jbase-jdbc-api)
 - Class
-- [Use](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCGlobals)
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Use](./../class-use/uses-of-interface-com.jbase.jdbc.jbasejdbcglobals-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../deprecated-list.html)
 - [Help](../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39228-jdbc/com_jbase_jdbc_JBaseJDBCErrors "class in com.jbase.jdbc")
-- [Next Class](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals.TYPES "class in com.jbase.jdbc")
+- [Prev Class](./../jbasejdbcerrors-%28jbasejdbc---api%29 "class in com.jbase.jdbc")
+- [Next Class](./. "class in com.jbase.jdbc")
 
 
-- [Frames](../../../index.html?com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals)
-- [No Frames](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../allclasses-noframe.html)

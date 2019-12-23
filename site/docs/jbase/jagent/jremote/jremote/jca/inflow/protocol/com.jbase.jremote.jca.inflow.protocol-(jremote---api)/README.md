@@ -12,20 +12,20 @@ Skip navigation links
 - [Overview](../../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-use)
-- [Tree](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
+- [Use](./../uses-of-package-com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.inflow.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Package](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
-- [Next Package](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
+- [Prev Package](./../../com.jbase.jremote.jca.inflow-%28jremote---api%29)
+- [Next Package](./../../../mbean/com.jbase.jremote.jca.mbean-%28jremote---api%29)
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/inflow/protocol//39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
-- [No Frames](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -37,39 +37,39 @@ jremote <br>
 
 - Interface Summary | Interface | Description |
 | --- | --- |
-| [InboundRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol") |   |
-| [ObjectTypes](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_ObjectTypes "interface in com.jbase.jremote.jca.inflow.protocol") |   |
+| [InboundRequest](./../inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol") |   |
+| [ObjectTypes](./../objecttypes-%28jremote---api%29 "interface in com.jbase.jremote.jca.inflow.protocol") |   |
 - Class Summary | Class | Description |
 | --- | --- |
-| [ActivationRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_activationrequest "class in com.jbase.jremote.jca.inflow.protocol") |   |
-| [ActivationResponse](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_activationresponse "class in com.jbase.jremote.jca.inflow.protocol") | <br>The reply from JRemote when an activation is requested.<br> |
-| [CommitTransactionRequest](/39270-protocol/com_jbase_jremote_protocol_committransactionrequest "class in com.jbase.jremote.jca.inflow.protocol") |   |
-| [JRemoteXid](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_JRemoteXid "class in com.jbase.jremote.jca.inflow.protocol") |   |
-| [NoEndpointActivatedResponse](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_noendpointactivatedresponse "class in com.jbase.jremote.jca.inflow.protocol") | <br>The reply from JRemote when no endpoint could be found for activation.<br> |
-| [RollbackTransactionRequest](/39270-protocol/com_jbase_jremote_protocol_rollbacktransactionrequest "class in com.jbase.jremote.jca.inflow.protocol") |   |
-| [StartTransactionRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_starttransactionrequest "class in com.jbase.jremote.jca.inflow.protocol") |   |
-| [TransactionOperation](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_transactionoperation "class in com.jbase.jremote.jca.inflow.protocol") |   |
-| [WorkScheduledResponse](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_workscheduledresponse "class in com.jbase.jremote.jca.inflow.protocol") | <br>The reply from JRemote when an activation request (Work instance) has<br> been passed to the work manager.<br> |
+| [ActivationRequest](./../activationrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") |   |
+| [ActivationResponse](./../activationresponse-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") | <br>The reply from JRemote when an activation is requested.<br> |
+| [CommitTransactionRequest](./../../../../protocol/committransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") |   |
+| [JRemoteXid](./../jremotexid-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow.protocol") |   |
+| [NoEndpointActivatedResponse](./../noendpointactivatedresponse-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") | <br>The reply from JRemote when no endpoint could be found for activation.<br> |
+| [RollbackTransactionRequest](./../../../../protocol/rollbacktransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") |   |
+| [StartTransactionRequest](./../starttransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") |   |
+| [TransactionOperation](./../transactionoperation-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") |   |
+| [WorkScheduledResponse](./../workscheduledresponse-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") | <br>The reply from JRemote when an activation request (Work instance) has<br> been passed to the work manager.<br> |
 
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-use)
-- [Tree](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
+- [Use](./../uses-of-package-com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.inflow.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Package](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
-- [Next Package](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
+- [Prev Package](./../../com.jbase.jremote.jca.inflow-%28jremote---api%29)
+- [Next Package](./../../../mbean/com.jbase.jremote.jca.mbean-%28jremote---api%29)
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/inflow/protocol//39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
-- [No Frames](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

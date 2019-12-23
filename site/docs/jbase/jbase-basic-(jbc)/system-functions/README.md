@@ -16,9 +16,9 @@ The following system functions are supported by jBASE:
 - **SYSTEM(1)** Return 1 if output directed to printer
 - **SYSTEM(2)** Return page width
 - **SYSTEM(3)** Return page depth
-- **SYSTEM(4)** Return number of lines to print in current page. ([HEADING](276079-heading) statement)
-- **SYSTEM(5)** Return current page number ([HEADING](276079-heading) statement)
-- **SYSTEM(6)** Return current line number ([HEADING](276079-heading) statement)
+- **SYSTEM(4)** Return number of lines to print in current page. ([HEADING](./../heading) statement)
+- **SYSTEM(5)** Return current page number ([HEADING](./../heading) statement)
+- **SYSTEM(6)** Return current line number ([HEADING](./../heading) statement)
 - **SYSTEM(7)**Return terminal type
 - **SYSTEM(8)**Return record length for tape channel 0
 - **SYSTEM(9)** Return CPU milliseconds
@@ -28,7 +28,7 @@ The following system functions are supported by jBASE:
 - **SYSTEM(13)** Release time slice
 - **SYSTEM(14)** Returns the number of characters available in input buffer. Invoking **SYSTEM(14)** can cause a slight delay in program execution.
 - **SYSTEM(15)** Return bracket options used to invoke command
-- **SYSTEM(16)**Return current [PERFORM/EXECUTE](269198-execute) level
+- **SYSTEM(16)**Return current [PERFORM/EXECUTE](./../execute) level
 - **SYSTEM(17)** Return stop code of child process
 - **SYSTEM(18)** Return port number or JBCPORTNO
 - **SYSTEM(19)**Return login name or JBASICLOGNAME. If the **system\_19\_timedate**emulation option is set then returns the number of seconds since midnight December 31, 1967. If **system\_19\_timedate\_unique** emulation option is set then a suffix is appended if it is called more than once per second, effectively returning a unique value.
@@ -46,7 +46,7 @@ The following system functions are supported by jBASE:
 - **SYSTEM(27)** Returns 1 if executed by PROC
 - **SYSTEM(28)** Reserved.
 - **SYSTEM(29)** Reserved.
-- **SYSTEM(30)** Returns 1 if paging is in effect ([HEADING statement](276079-heading))
+- **SYSTEM(30)** Returns 1 if paging is in effect ([HEADING statement](./../heading))
 - **SYSTEM(31)** Reserved
 - **SYSTEM(32)**Reserved
 - **SYSTEM(33)** Reserved
@@ -108,7 +108,7 @@ The following system functions are supported by jBASE:
     - 1- full profiling is active
     - 2 - short profiling is active
     - 3 - jCOVER profiling is active
-- **SYSTEM (1023)** Used by [STATUS](278661-status-function)
+- **SYSTEM (1023)** Used by [STATUS](./../status-function)
 - **SYSTEM(1024)**Retrieves details about last signals
 - **SYSTEM(1025)** Returns value of International mode for thread
 - **SYSTEM(1026)**Total amount of memory in use formatted with commas
@@ -231,7 +231,7 @@ status = "Error!! Status unknown"
 &lt;52&gt; User defined thread data &lt;threadnext &gt;
 
 - **SYSTEM(1028)** Logged in database name
-- **SYSTEM(1029)**Shows the [CALL](263580-call) stack history so that in error conditions the application, such as database I/O statistics, programs being performed and so on. Can be used with @USERSTATS.
+- **SYSTEM(1029)**Shows the [CALL](./../call) stack history so that in error conditions the application, such as database I/O statistics, programs being performed and so on. Can be used with @USERSTATS.
 - **SYSTEM(1030)** This new entry into the **SYSTEM()** function returns the current perform level in the  range 1 to 32. This is similar to **SYSTEM(16)**, which returns the nested execute level. The difference is that **SYSTEM(16)** does not include any procs, paragraphs or shells and returns the relative application program level. **SYSTEM(1030)** returns the relative program level including all the proc interpreters, paragraph interpreters and shells.
 - **SYSTEM(1031)** Number of free bytes on the current file system
 - **SYSTEM(1032)** Returns default frame size
@@ -242,4 +242,4 @@ status = "Error!! Status unknown"
 - **SYSTEM(2092)** Return current prompt character(s) (D3 emulation)
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

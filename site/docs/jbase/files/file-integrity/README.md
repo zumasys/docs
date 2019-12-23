@@ -25,9 +25,9 @@ The following commands can be used to help in the general maintenance of hash fi
 
 | Command  | Description |
 | --- | --- |
-| [jstat](jstat)<br> | displays hash file statistics<br> |
-| [jcheck](jcheck)<br> | check hash file integrity<br> |
-| [jchmod](jchmod)<br> | modifies hash file parameters<br> |
-| [jrf](jrf)<br> | resizes hash files<br> |
-| [jcomp](jcomp)<br> | compare hash file contents<br> |
+| [jstat](./../jstat)<br> | displays hash file statistics<br> |
+| [jcheck](./../jcheck)<br> | check hash file integrity<br> |
+| [jchmod](./../../administration/utilities/jchmod)<br> | modifies hash file parameters<br> |
+| [jrf](./../jrf)<br> | resizes hash files<br> |
+| [jcomp](./../jcomp)<br> | compare hash file contents<br> |
 

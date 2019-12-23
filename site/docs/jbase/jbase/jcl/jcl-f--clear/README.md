@@ -46,4 +46,4 @@ Clear file buffer 1. Set the record key to "Key" and the first field to "Field 1
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

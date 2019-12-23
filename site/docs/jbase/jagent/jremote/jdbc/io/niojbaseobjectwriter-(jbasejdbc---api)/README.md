@@ -10,7 +10,7 @@
 # Class NIOJBaseObjectWriter
 
 All Implemented Interfaces:
-[JBaseObjectWriter](/39232-io/com_jbase_jdbc_io_jbaseobjectwriter "interface in com.jbase.jdbc.io")
+[JBaseObjectWriter](./../jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 
 
 ```

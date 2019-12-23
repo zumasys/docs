@@ -27,9 +27,9 @@ Deserializes objects sent from the jsqld server. Clients of classes implementing
 | <br>byte[]<br> | <br>readBytes()<br> | <br> |
 | <br>int<br> | <br>readInt()<br> | <br>Reads a 32 bits integer from the underlying InputStream.<br> |
 | <br>[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")<br> | <br>readObject()<br> | <br>Reads/deserializes next object.<br> |
-| <br>[IByteObject](/39232-io/com_jbase_jdbc_io_IByteObject "interface in com.jbase.jdbc.io")<br> | <br>readObject([IByteObject](/39232-io/com_jbase_jdbc_io_IByteObject "interface in com.jbase.jdbc.io") o)<br> | <br>Reads/deserializes next byte object, a new IByteObject should be created and returned if a null argument is passed in.<br><br> |
-| <br>[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")<br> | <br>readObject([JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io") o)<br> | Reads/deserializes next object, a JBaseSerializable object should be created and returned if a null argument is passed in.<br> |
-| <br>[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")<br> | <br>readRootObject()<br> | <br>Deserializes a root object.<br> |
+| <br>[IByteObject](./../ibyteobject-%28jbasejdbc---api%29 "interface in com.jbase.jdbc.io")<br> | <br>readObject([IByteObject](./../ibyteobject-%28jbasejdbc---api%29 "interface in com.jbase.jdbc.io") o)<br> | <br>Reads/deserializes next byte object, a new IByteObject should be created and returned if a null argument is passed in.<br><br> |
+| <br>[JBaseSerializable](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")<br> | <br>readObject([JBaseSerializable](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") o)<br> | Reads/deserializes next object, a JBaseSerializable object should be created and returned if a null argument is passed in.<br> |
+| <br>[JBaseSerializable](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")<br> | <br>readRootObject()<br> | <br>Deserializes a root object.<br> |
 | <br>[String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang")<br> | <br>readString()<br> | <br>Reads a java.lang.String.<br> |
 
 # Method Detail

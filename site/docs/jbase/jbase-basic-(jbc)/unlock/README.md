@@ -7,7 +7,7 @@
 
 # Description
 
-The **UNLOCK** statement releases a previously [LOCK](276940-lock)ed execution lock. It takes the general form:
+The **UNLOCK** statement releases a previously [LOCK](./../lock)ed execution lock. It takes the general form:
 
 ```
 UNLOCK{expression}
@@ -31,6 +31,6 @@ UNLOCK
 
 Locks are in memory only and will not persist across a server reboot or jBASE service restart.
 
-See also: [LOCK](276940-lock).
+See also: [LOCK](./../lock).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

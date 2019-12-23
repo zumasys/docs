@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
+- [Package](./../com.jbase.jremote.jca-%28jremote---api%29)
 - Class
-- [Use](/39261-class-use/com_jbase_jremote_jca_class-use_JRemoteManagedConnectionFactory)
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.jremotemanagedconnectionfactory-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39258-jca/com_jbase_jremote_jca_jremotemanagedconnection "class in com.jbase.jremote.jca")
-- [Next Class](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionMetaData "class in com.jbase.jremote.jca")
+- [Prev Class](./../jremotemanagedconnection-%28jremote-api%29 "class in com.jbase.jremote.jca")
+- [Next Class](./../jremotemanagedconnectionmetadata-%28jremote---api%29 "class in com.jbase.jremote.jca")
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/jca//39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionFactory)
-- [No Frames](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -53,7 +53,7 @@ com.jbase.jremote.jca
 - - com.jbase.jremote.jca.JRemoteManagedConnectionFactory
 
 
-- All Implemented Interfaces:[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"), javax.resource.spi.ManagedConnectionFactory, javax.resource.spi.ValidatingManagedConnectionFactoryDirect Known Subclasses:[CCIJRemoteManagedConnectionFactory](../../../../com/jbase/jremote/jca/cci/CCI/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionFactory "class in com.jbase.jremote.jca.cci")
+- All Implemented Interfaces:[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"), javax.resource.spi.ManagedConnectionFactory, javax.resource.spi.ValidatingManagedConnectionFactoryDirect Known Subclasses:[CCIJRemoteManagedConnectionFactory](./. "class in com.jbase.jremote.jca.cci")
 * * *
 
 
@@ -478,22 +478,22 @@ public String getEnvVariables()
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
+- [Package](./../com.jbase.jremote.jca-%28jremote---api%29)
 - Class
-- [Use](/39261-class-use/com_jbase_jremote_jca_class-use_JRemoteManagedConnectionFactory)
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.jremotemanagedconnectionfactory-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39258-jca/com_jbase_jremote_jca_jremotemanagedconnection "class in com.jbase.jremote.jca")
-- [Next Class](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionMetaData "class in com.jbase.jremote.jca")
+- [Prev Class](./../jremotemanagedconnection-%28jremote-api%29 "class in com.jbase.jremote.jca")
+- [Next Class](./../jremotemanagedconnectionmetadata-%28jremote---api%29 "class in com.jbase.jremote.jca")
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/jca//39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionFactory)
-- [No Frames](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

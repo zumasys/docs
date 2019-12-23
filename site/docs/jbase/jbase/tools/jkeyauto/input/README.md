@@ -9,7 +9,7 @@
 
 ## Description
 
-Pass data to one or all programs loaded through the [PROGRAM](program) statement so the programs see this as though it were input from the keyboard.
+Pass data to one or all programs loaded through the [PROGRAM](./../program) statement so the programs see this as though it were input from the keyboard.
 
 When the characters in "expression" are piped to the program , there will be a delay of 0.1 seconds between each character and this is used to simulate a typical keyboard entry rate. This value can be changed with the TYPEDELAY statement. If the data to send begins with a 0x02 or a 0x1b, then this is assumed to be the start of a function key sequence and the first 4 characters will not have a type delay associated with them. In a string constant a 0x02 would be "~002" and a 0x1b would be "~027".
 

@@ -15,7 +15,7 @@ CALL WGETINFO(WWW.INFO.VALUE,WWW.INFO.POS)
 
 ### **SYNTAX ELEMENTS**
 
-The WGETINFO subroutine take [WWW.INFO.POS](258357-www-info) as a input paramenter and outputs WWW.INFO.VALUE.
+The WGETINFO subroutine take [WWW.INFO.POS](./../www.info) as a input paramenter and outputs WWW.INFO.VALUE.
 
 #### EXAMPLE
 

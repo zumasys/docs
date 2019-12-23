@@ -34,9 +34,9 @@ The user will then enter the fromqueue from which the the print is to be suspend
 
 > ### Note: 
 > 
-> To resume despooling use the RESUME PRINTING option or the [SP-RESUME](306460-untitled-question) command.
+> To resume despooling use the RESUME PRINTING option or the [SP-RESUME](./../sp-resume) command.
 
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

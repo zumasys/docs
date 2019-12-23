@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
-- [Class](/39259-cci/com_jbase_jremote_jca_cci_CCILocalTransactionManager "class in com.jbase.jremote.jca.cci")
+- [Package](./../../com.jbase.jremote.jca.cci-%28jremote---api%29)
+- [Class](./../../ccilocaltransactionmanager-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
 - Use
-- [Tree](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/cci/class-use//39260-class-use/com_jbase_jremote_jca_cci_class-use_CCILocalTransactionManager)
-- [No Frames](/39260-class-use/com_jbase_jremote_jca_cci_class-use_CCILocalTransactionManager)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.jremote.jca.cci.CCILocalTransactionManager
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
-- [Class](/39259-cci/com_jbase_jremote_jca_cci_CCILocalTransactionManager "class in com.jbase.jremote.jca.cci")
+- [Package](./../../com.jbase.jremote.jca.cci-%28jremote---api%29)
+- [Class](./../../ccilocaltransactionmanager-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
 - Use
-- [Tree](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/cci/class-use//39260-class-use/com_jbase_jremote_jca_cci_class-use_CCILocalTransactionManager)
-- [No Frames](/39260-class-use/com_jbase_jremote_jca_cci_class-use_CCILocalTransactionManager)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

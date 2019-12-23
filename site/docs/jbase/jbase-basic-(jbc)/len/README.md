@@ -24,7 +24,7 @@ The **LEN()**function when used in International Mode will return the number of 
 ## Note: 
 
 
-> If the byte is specifically required then it is recommended that the [BYTELEN](266869-bytelen) function be used in place of the **LEN** function. It is also not recommended to use programs manipulating byte counts in International Mode.
+> If the byte is specifically required then it is recommended that the [BYTELEN](./../bytelen) function be used in place of the **LEN** function. It is also not recommended to use programs manipulating byte counts in International Mode.
 
 
 An example of use may be as:
@@ -38,4 +38,4 @@ to display **6**.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

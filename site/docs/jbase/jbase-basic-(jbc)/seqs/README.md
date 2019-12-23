@@ -38,4 +38,4 @@ The **SEQ** function will return numeric values beyond 255 for UTF-8 byte sequen
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -23,7 +23,7 @@ Represents a capture object designed to incrementally fetch results of program e
 
 | Modifier<br> | Constructor and Description<br> |
 | --- | --- |
-| protected<br> | JCapture(int handle, [JConnection](com_jbase_jrcs_jconnection "class in com.jbase.jrcs") conn)<br> |
+| protected<br> | JCapture(int handle, [JConnection](./../jconnection-%28jrclient-api%29 "class in com.jbase.jrcs") conn)<br> |
 
 
 
@@ -71,13 +71,13 @@ protected JCapture(int handle, JConnection conn)
 public String nextBlock() 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Fetches next block of captured output
 
 Block:  Next block of captured output
 
-Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws:  [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -91,13 +91,13 @@ Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int getBlockSize() 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Sets the block size for nextBlock operation
 
 Returns: Size of blocks fetched by the nextBlock() method The blocks are at least the length of this block size, but may be longer to include everything up to and including the next attribute mark.
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -109,13 +109,13 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void setBlockSize(int blockSize) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs") Gets the block size for the nextBlock method
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs") Gets the block size for the nextBlock method
 
 Parameters:
 
 blockSize - Size of block fetched by the nextBlock method The blocks are at least the length of this block size, but may be longer to include everything up to and including the next attribute mark.
 
-Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws:  [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -127,13 +127,13 @@ Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public boolean atEnd()  
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Indicates whether the captured output is exhausted
 
 Returns:  true is the output is exhausted and no more lines can be fetched
 
-Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws:  [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -145,11 +145,11 @@ Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void rewind() 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Returns:  the current position in the saved output to the beginning of the output stream.
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -161,11 +161,11 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void close() 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Closes the object and releases its server-side handle
 
-Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws:  [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 

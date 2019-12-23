@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
+- [Package](./../../com.jbase.jremote.io-%28jremote---api%29)
 - [Class](/39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE "interface in com.jbase.jremote.io")
 - Use
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Tree](./../../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -41,10 +41,10 @@ No usage of com.jbase.jremote.io.JBaseSerializable.TYPE
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
+- [Package](./../../com.jbase.jremote.io-%28jremote---api%29)
 - [Class](/39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE "interface in com.jbase.jremote.io")
 - Use
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Tree](./../../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 

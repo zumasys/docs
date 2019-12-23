@@ -5,6 +5,6 @@
 **Original Doc:** [284375-readselect](https://docs.jbase.com/36868-jbase-basic/284375-readselect)  
 
 
-See also: [READLIST](278658-readlist).
+See also: [READLIST](./../readlist).
 
-Go back to  [jBASE BASIC](263498-jbase-basic).
+Go back to  [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

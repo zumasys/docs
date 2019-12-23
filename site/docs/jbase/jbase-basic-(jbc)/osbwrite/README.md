@@ -32,10 +32,10 @@ ON ERROR statements specifies statements to execute if the **OSBWRITE** statemen
 
 > - **OSBWRITE** immediately writes a file segment out to the UNIX, Windows NT, or Windows 2000 file.
 > - It is not necessary to specify a length expression because the number of bytes in expr is written to the file.
-> - Before **OSBWRITE** is used, the file of interest must be open first using either the [OSOPEN](277623-osopen) or [OPENSEQ](277543-openseq) command.
-> - jBASE uses the ASCII 0 character [CHAR (0)] as a string-end delimiter. Therefore, ASCII 0 cannot be used in any string variable within jBASE. If jBASE reads a string that contains CHAR(0) characters by using [OSBREAD](277546-osbread), those characters are converted to CHAR(128).
+> - Before **OSBWRITE** is used, the file of interest must be open first using either the [OSOPEN](./../osopen) or [OPENSEQ](./../openseq) command.
+> - jBASE uses the ASCII 0 character [CHAR (0)] as a string-end delimiter. Therefore, ASCII 0 cannot be used in any string variable within jBASE. If jBASE reads a string that contains CHAR(0) characters by using [OSBREAD](./../osbread), those characters are converted to CHAR(128).
 > - **OSBWRITE** converts CHAR (128) back to CHAR(0) when writing a block of characters.
-> - After execution of **OSBWRITE**, the [STATUS](278661-status-function) function returns either 0 or a failure code:
+> - After execution of **OSBWRITE**, the [STATUS](./../status-function) function returns either 0 or a failure code:
 > 
 > 
 > 
@@ -53,4 +53,4 @@ OSBWRITE Data ON MYPIPE AT 0
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

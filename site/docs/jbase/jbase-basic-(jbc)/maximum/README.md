@@ -31,6 +31,6 @@ to display the number 12.
 
 
 
-See also: [MINIMUM](276976-minimum).
+See also: [MINIMUM](./../minimum).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

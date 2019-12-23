@@ -36,6 +36,6 @@ The above should display the date in internal format.
 
 
 
-See also: [OCONV](277483-oconv).
+See also: [OCONV](./../oconv).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

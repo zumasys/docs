@@ -6,11 +6,11 @@
 
 
 
-| [TRANSACTION PROCESSING](transaction-processing) | Overview of transaction processing. |
+| [TRANSACTION PROCESSING](./../transaction-processing) | Overview of transaction processing. |
 | --- | --- |
-| [TRANSTART](278973-transtart) | Marks the beginning of a transaction |
-| [TRANSEND](278974-transend) | Marks the end of a successfully completed transaction. |
-| [TRANSABORT](278971-transabort) | Aborts the current transaction and reverses any updates to the database |
-| [TRANSQUERY](278972-transquery) | Detects whether or not a transaction is active on the current process |
+| [TRANSTART](./../../../jbase-basic-%28jbc%29/transtart) | Marks the beginning of a transaction |
+| [TRANSEND](./../../../jbase-basic-%28jbc%29/transend) | Marks the end of a successfully completed transaction. |
+| [TRANSABORT](./../../../jbase-basic-%28jbc%29/transabort) | Aborts the current transaction and reverses any updates to the database |
+| [TRANSQUERY](./../../../jbase-basic-%28jbc%29/transquery) | Detects whether or not a transaction is active on the current process |
 | [TRANSACTION JOURNALING](transaction-journaling-index) | Overview of transaction journaling. |
 

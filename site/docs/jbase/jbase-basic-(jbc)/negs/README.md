@@ -20,4 +20,4 @@ If the value of an element is negative, the returned value is positive. If **dyn
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

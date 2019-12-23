@@ -12,20 +12,20 @@ Skip navigation links
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39266-mbean/com_jbase_jremote_jca_mbean_package-use)
-- [Tree](/39266-mbean/com_jbase_jremote_jca_mbean_package-tree)
+- [Use](./../uses-of-package-com.jbase.jremote.jca.mbean-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.mbean-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Package](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
-- [Next Package](/39268-spring/com_jbase_jremote_jca_spring_package-summary)
+- [Prev Package](./../../inflow/protocol/com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
+- [Next Package](./../../spring/com.jbase.jremote.jca.spring-%28jremote-api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/mbean//39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
-- [No Frames](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -37,30 +37,30 @@ jremote <br>
 
 - Class Summary | Class | Description |
 | --- | --- |
-| [JRemoteStatisticsCounter](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter "class in com.jbase.jremote.jca.mbean") |   |
+| [JRemoteStatisticsCounter](./../jremotestatisticscounter-%28jremote---api%29 "class in com.jbase.jremote.jca.mbean") |   |
 - Enum Summary | Enum | Description |
 | --- | --- |
-| [JRemoteStatisticsCounter.Types](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types "enum in com.jbase.jremote.jca.mbean") |   |
+| [JRemoteStatisticsCounter.Types](./../jremotestatisticscounter-%28jremote---api%29 "enum in com.jbase.jremote.jca.mbean") |   |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39266-mbean/com_jbase_jremote_jca_mbean_package-use)
-- [Tree](/39266-mbean/com_jbase_jremote_jca_mbean_package-tree)
+- [Use](./../uses-of-package-com.jbase.jremote.jca.mbean-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.mbean-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Package](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
-- [Next Package](/39268-spring/com_jbase_jremote_jca_spring_package-summary)
+- [Prev Package](./../../inflow/protocol/com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
+- [Next Package](./../../spring/com.jbase.jremote.jca.spring-%28jremote-api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/mbean//39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
-- [No Frames](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

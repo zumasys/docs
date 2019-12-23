@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
+- [Package](./../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 - Class
-- [Use](/39235-class-use/com_jbase_jdbc_io_class-use_AbstractJBaseObjectReader)
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.io.abstractjbaseobjectreader-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -21,11 +21,11 @@ Skip navigation links
 jbasejdbc <br>
 
 - Prev Class
-- [Next Class](/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectWriter "class in com.jbase.jdbc.io")
+- [Next Class](./../abstractjbaseobjectwriter-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/io//39232-io/com_jbase_jdbc_io_AbstractJBaseObjectReader)
-- [No Frames](/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectReader)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -53,7 +53,7 @@ com.jbase.jdbc.io
 - - com.jbase.jdbc.io.AbstractJBaseObjectReader
 
 
-- All Implemented Interfaces:[JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io")Direct Known Subclasses:[IOJBaseObjectReader](/39232-io/com_jbase_jdbc_io_IOJBaseObjectReader "class in com.jbase.jdbc.io"), [NIOJBaseObjectReader](/39232-io/com_jbase_jdbc_io_niojbaseobjectreader "class in com.jbase.jdbc.io")
+- All Implemented Interfaces:[JBaseObjectReader](./../jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")Direct Known Subclasses:[IOJBaseObjectReader](./../iojbaseobjectreader-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io"), [NIOJBaseObjectReader](./../niojbaseobjectreader-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")
 * * *
 
 
@@ -64,7 +64,7 @@ implements JBaseObjectReader
 ```
 
 Deserializes JBaseSerializable objects sent from the jbase\_agent server,<br> or any other source of serialized JCF objects.<br><br> The clients of the class use readRootObject method to read deserialized<br> JBaseSerializable objects, @see JBaseSerializable.<br><br> Application classes implementing JBaseSerializable use JBaseObjectReader's methods<br> readObject, readInt, readString, readBytes, etc., in their readFrom method.<br> Application classes must not use readRootObject in readFrom method.<br><br> Interface of this class is simillar to the one of java.io.ObjectInputStream.<br> It does not extend java.io.ObjectInputStream because that would require<br> handling of the original Java'a serialization protocol on the jsqld server.<br><br> Concrete classes extending AbstractJBaseObjectReader should implement method createObject,
-Author:Peter KuchtaSee Also:[`and NIOJBaseObjectReader.`](/39232-io/com_jbase_jdbc_io_IOJBaseObjectReader "class in com.jbase.jdbc.io")
+Author:Peter KuchtaSee Also:[`and NIOJBaseObjectReader.`](./../iojbaseobjectreader-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
 
 - - ### Field Summary
 
@@ -325,10 +325,10 @@ Throws:`IOException`
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
+- [Package](./../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 - Class
-- [Use](/39235-class-use/com_jbase_jdbc_io_class-use_AbstractJBaseObjectReader)
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.io.abstractjbaseobjectreader-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -336,11 +336,11 @@ Skip navigation links
 jbasejdbc <br>
 
 - Prev Class
-- [Next Class](/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectWriter "class in com.jbase.jdbc.io")
+- [Next Class](./../abstractjbaseobjectwriter-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/io//39232-io/com_jbase_jdbc_io_AbstractJBaseObjectReader)
-- [No Frames](/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectReader)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

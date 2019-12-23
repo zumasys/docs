@@ -19,7 +19,7 @@ variable is the variable in which the list is held.
 
 expression should evaluate to the required list name. If expression is null, it writes the list to the default external list.
 
-If the SETTING clause is specified and the write fails, it sets setvar to one of t[hese values](277647-increamental-file-errors).
+If the SETTING clause is specified and the write fails, it sets setvar to one of t[hese values](./../incremental-file-errors).
 
 An example of use is as:
 
@@ -29,6 +29,6 @@ WRITELIST MyList ON "MyList"
 
 
 
-See also: [DELETELIST](268475-deletelist), [READLIST](278659-readnext), [FORMLIST](275992-formlist)
+See also: [DELETELIST](./../deletelist), [READLIST](./../readnext), [FORMLIST](./../formlist)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

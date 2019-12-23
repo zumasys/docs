@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39251-charset/com_jbase_jremote_io_charset_package-summary)
+- [Package](./../com.jbase.jremote.io.charset-%28jremote---api%29)
 - Class
-- [Use](/39252-class-use/com_jbase_jremote_io_charset_class-use_JbaseCharset)
-- [Tree](/39251-charset/com_jbase_jremote_io_charset_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.io.charset.jbasecharset-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.io.charset-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -21,11 +21,11 @@ Skip navigation links
 jremote <br>
 
 - Prev Class
-- [Next Class](/39251-charset/com_jbase_jremote_io_charset_JbaseCharsetDecoder "class in com.jbase.jremote.io.charset")
+- [Next Class](./../jbasecharsetdecoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/charset//39251-charset/com_jbase_jremote_io_charset_JbaseCharset)
-- [No Frames](/39251-charset/com_jbase_jremote_io_charset_JbaseCharset)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -188,10 +188,10 @@ Specified by:`newEncoder` in class `Charset`
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39251-charset/com_jbase_jremote_io_charset_package-summary)
+- [Package](./../com.jbase.jremote.io.charset-%28jremote---api%29)
 - Class
-- [Use](/39252-class-use/com_jbase_jremote_io_charset_class-use_JbaseCharset)
-- [Tree](/39251-charset/com_jbase_jremote_io_charset_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.io.charset.jbasecharset-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.io.charset-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -199,11 +199,11 @@ Skip navigation links
 jremote <br>
 
 - Prev Class
-- [Next Class](/39251-charset/com_jbase_jremote_io_charset_JbaseCharsetDecoder "class in com.jbase.jremote.io.charset")
+- [Next Class](./../jbasecharsetdecoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/charset//39251-charset/com_jbase_jremote_io_charset_JbaseCharset)
-- [No Frames](/39251-charset/com_jbase_jremote_io_charset_JbaseCharset)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

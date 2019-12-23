@@ -52,8 +52,8 @@ If JBCLISTFILE is not set but POINTER-FILE can be opened, then lists are stored 
 
 Otherwise lists have an id of the form ListName unless JBCLISTID=1, in which case the item id is SEL\*UserName\*ListName. Note that on Windows asterisks cannot be part of file names. So if JBCLISTFILE points to a directory, the asterisk separator is represented as ]2a.
 
-When lists have the user name as part of the id, then the user name can be specified as an optional argument to [GET-LIST](get-list) and [EDIT-LIST](edit_list).
+When lists have the user name as part of the id, then the user name can be specified as an optional argument to [GET-LIST](./../../jbase/lists/get-list) and [EDIT-LIST](edit_list).
 
 
 
-See also: [JBCLISTFILE](326531-jbclistfile) and [List Storage](325913-list-storage) for how lists are stored.
+See also: [JBCLISTFILE](./../jbclistfile) and [List Storage](./../../jbase/lists/list-storage) for how lists are stored.

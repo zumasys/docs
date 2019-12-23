@@ -80,4 +80,4 @@ The 2-parameter version replaces spaces with attribute marks, CHAR(254). The 3-p
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

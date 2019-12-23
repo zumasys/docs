@@ -51,10 +51,10 @@ Such files may include:
 
 [INSTALLING THE COMPILER](installing-the-windows-compiler)
 
-[MANUAL INSTALLATION OF JDLS SERVICE](manual-installation-of-jdls-service)
+[MANUAL INSTALLATION OF JDLS SERVICE](./../../../jbase/manual-installation-of-jdls-service)
 
-[CREATING ACCOUNTS AND USERS](create-accounts-and-users)
+[CREATING ACCOUNTS AND USERS](./../create-accounts-and-users)
 
-[MANUAL LICENSE KEY INSTALLATION](manual-license-key-installation)
+[MANUAL LICENSE KEY INSTALLATION](./../manual-license-key-installation)
 
-[MANUAL INSTALLATION OF JDLS SERVICE](manual-installation-of-jdls-service)
+[MANUAL INSTALLATION OF JDLS SERVICE](./../../../jbase/manual-installation-of-jdls-service)

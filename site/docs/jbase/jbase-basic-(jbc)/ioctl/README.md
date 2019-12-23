@@ -15,7 +15,7 @@ IOCTL(filevar, command, parameter)
 
 Where:
 
-- **filevar**Is a variable that has had a file opened against it using the [OPEN](277537-open) statement. However, if the default file variable is preferred for use, **-1** should be placed in this position. For example:
+- **filevar**Is a variable that has had a file opened against it using the [OPEN](./../open) statement. However, if the default file variable is preferred for use, **-1** should be placed in this position. For example:
 
 
 ```
@@ -237,7 +237,7 @@ This command will find out if a record exists on a file without the need to actu
 
 This can provide large performance gains in certain circumstances.
 
-Before writing out a control record, make sure it doesn't already exist. As the control record is quite large, it will provide performance gains to simply test if the output record already exists, rather than reading it in using the [READ](277646-read) statement to see if it exists
+Before writing out a control record, make sure it doesn't already exist. As the control record is quite large, it will provide performance gains to simply test if the output record already exists, rather than reading it in using the [READ](./../read) statement to see if it exists
 
 ```
 001     INCLUDE JBC.h
@@ -308,7 +308,7 @@ For jBASE hashed files, j4 and jPlus, each record is pseudo-randomly written to 
 - The number of buckets in the file (or modulo)
 
 
-This **IOCTL()** function shows which bucket number the record would be found in, given the input record key. The bucket number is in the range 0 to (b-1) where b is the number of buckets in the file specified when the file was created (probably using [CREATE-FILE](267387-create)).
+This **IOCTL()** function shows which bucket number the record would be found in, given the input record key. The bucket number is in the range 0 to (b-1) where b is the number of buckets in the file specified when the file was created (probably using [CREATE-FILE](./../create)).
 
 The command only returns the expected bucket number, as is no indication that the record actually exists in the file.
 
@@ -366,7 +366,7 @@ Lock a record in a file and find out what the lock id of the record key is. The 
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 
 

@@ -8,7 +8,7 @@
 # Class Response
 
 
-All Implemented Interfaces:[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+All Implemented Interfaces:[JBaseSerializable](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 
 Direct Known Subclasses:[ErrorResponse](../../../../com/jbase/jdbc/io/Error/39232-io/com_jbase_jdbc_io_Response "class in com.jbase.jdbc.io"), [InputOutputResponse](../../../../com/jbase/jdbc/protocol/InputOutput/39232-io/com_jbase_jdbc_io_Response "class in com.jbase.jdbc.protocol"), [OKResponse](../../../../com/jbase/jdbc/io/OK/39232-io/com_jbase_jdbc_io_Response "class in com.jbase.jdbc.io"), [SQLResponse](../../../../com/jbase/jdbc/protocol/SQL/39232-io/com_jbase_jdbc_io_Response "class in com.jbase.jdbc.protocol")
 ```

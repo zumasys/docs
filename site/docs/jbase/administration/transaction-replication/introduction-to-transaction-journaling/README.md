@@ -35,15 +35,15 @@ Transaction Replication is a secondary process that takes transaction logs and c
 
 
 
-[Configuring Transaction Logging](configuring-transaction-logging)
+[Configuring Transaction Logging](./../configuring-transaction-logging)
 
-[Monitoring Transaction Logging](305765-monitoring-transaction-logging)
+[Monitoring Transaction Logging](./../monitoring-transaction-logging)
 
-[Restoring from a Transaction Log](restoring-from-a-transaction-log)
+[Restoring from a Transaction Log](./../restoring-from-a-transaction-log)
 
-[Configuring Transaction Replication](configuring-transaction-replication)
+[Configuring Transaction Replication](./../starting-transaction-replication)
 
-[Monitoring Transaction Replication](monitoring-transaction-replication)
+[Monitoring Transaction Replication](./../monitoring-transaction-replication)
 
 
 

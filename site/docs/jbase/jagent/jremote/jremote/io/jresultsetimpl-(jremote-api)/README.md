@@ -9,7 +9,7 @@
 
 ## Class JResultSetImpl
 
-All Implemented Interfaces:[JResultSet](/39248-jremote/com_jbase_jremote_jresultset "interface in com.jbase.jremote")
+All Implemented Interfaces:[JResultSet](./../../jresultset-%28jremote-api%29 "interface in com.jbase.jremote")
 * * *
 
 

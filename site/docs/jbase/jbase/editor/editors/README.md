@@ -9,6 +9,6 @@
 | **Editors** |
 | --- |
 | [JED Quick Reference](325732-jed) | Basic commands for JED |
-| [JED](325731-jed) | Complete reference |
-| [ED](325733-ed) | The line editor. |
+| [JED](./../jed) | Complete reference |
+| [ED](./../ed) | The line editor. |
 

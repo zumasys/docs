@@ -75,7 +75,7 @@ Checks the dictionary of file ‘HashFile’ for corruption
 jfind . -type f -print | jcheck -v
 ```
 
-Checks all files supplied by the [jfind](328698-jfind) command
+Checks all files supplied by the [jfind](./../../jbase/jfind) command
 
 ```
 jcheck -S -v MyFile

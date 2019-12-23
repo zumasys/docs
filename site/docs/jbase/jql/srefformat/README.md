@@ -10,7 +10,7 @@
 
 ## Description
 
-SREFORMAT is similar to the [SORT](321324-sort) command in that it generates a formatted list of fields, but its output is directed to another file or the magnetic tape rather than to the terminal or printer.
+SREFORMAT is similar to the [SORT](./../sort) command in that it generates a formatted list of fields, but its output is directed to another file or the magnetic tape rather than to the terminal or printer.
 
 It takes the general form:
 
@@ -42,6 +42,6 @@ Two EOF marks terminate the file on tape.
 
 
 
-See the [REFORMAT](321321-reformat) command for examples
+See the [REFORMAT](./../reformat) command for examples
 
 Back to [JQL](jbase-query-language-jql-)

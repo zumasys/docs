@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
-- [Class](/39220-io/com_jbase_framework_io_JBaseObjectReader "interface in com.jbase.framework.io")
+- [Package](./../../com.jbase.framework.io-%28framework---api%29)
+- [Class](./../../jbaseobjectreader-%28framework---api%29 "interface in com.jbase.framework.io")
 - Use
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Tree](./../../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/class-use//39223-class-use/com_jbase_framework_io_class-use_JBaseObjectReader)
-- [No Frames](/39223-class-use/com_jbase_framework_io_class-use_JBaseObjectReader)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ framework <br>
 ## Uses of Interface
 com.jbase.framework.io.JBaseObjectReader
 
-- Packages that use [JBaseObjectReader](/39220-io/com_jbase_framework_io_JBaseObjectReader "interface in com.jbase.framework.io") | Package | Description |
+- Packages that use [JBaseObjectReader](./../../jbaseobjectreader-%28framework---api%29 "interface in com.jbase.framework.io") | Package | Description |
 | --- | --- |
 | com.jbase.framework.io |   |
-- - ### Uses of [JBaseObjectReader](/39220-io/com_jbase_framework_io_JBaseObjectReader "interface in com.jbase.framework.io") in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary)
+- - ### Uses of [JBaseObjectReader](./../../jbaseobjectreader-%28framework---api%29 "interface in com.jbase.framework.io") in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29)
 
 
-Classes in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary) that implement [JBaseObjectReader](/39220-io/com_jbase_framework_io_JBaseObjectReader "interface in com.jbase.framework.io") | Modifier and Type | Class and Description |
+Classes in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29) that implement [JBaseObjectReader](./../../jbaseobjectreader-%28framework---api%29 "interface in com.jbase.framework.io") | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `AbstractJBaseObjectReader`<br>Deserializes JBaseSerializable objects sent from the jbase\_agent server,<br> or any other source of serialized JCF objects.<br> |
 | `class` | `IOJBaseObjectReader`<br>jBase object reader based on the DataInputStream.<br> |
@@ -50,7 +50,7 @@ Classes in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-sum
 
 
 
-Methods in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary) with parameters of type [JBaseObjectReader](/39220-io/com_jbase_framework_io_JBaseObjectReader "interface in com.jbase.framework.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29) with parameters of type [JBaseObjectReader](./../../jbaseobjectreader-%28framework---api%29 "interface in com.jbase.framework.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | SQLError.`readObject(JBaseObjectReader reader,<br>          int version)`<br>Method :                readObject()<br><br> Description:   Read object off the wire.<br> |
 | `void` | OKResponse.`readObject(JBaseObjectReader reader,<br>          int version)`  |
@@ -60,10 +60,10 @@ Methods in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-sum
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
-- [Class](/39220-io/com_jbase_framework_io_JBaseObjectReader "interface in com.jbase.framework.io")
+- [Package](./../../com.jbase.framework.io-%28framework---api%29)
+- [Class](./../../jbaseobjectreader-%28framework---api%29 "interface in com.jbase.framework.io")
 - Use
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Tree](./../../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -74,8 +74,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/class-use//39223-class-use/com_jbase_framework_io_class-use_JBaseObjectReader)
-- [No Frames](/39223-class-use/com_jbase_framework_io_class-use_JBaseObjectReader)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

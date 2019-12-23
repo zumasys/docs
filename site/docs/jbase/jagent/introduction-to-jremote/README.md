@@ -80,7 +80,7 @@ The **.NET C#** version of jRemote is distributed as a static library assembly (
 jBASE jAgent is a server-side jBASE component which must be listening on a user-defined TCP port on the remote jBASE instance. It accepts socket connections to process incoming requests from Client Applications implementing the jRemote Client API. Please refer to the jBASE jAgent user guide for more information on how to configure and start jAgent.
 
 - Framework API
-- [jRemote API](jremote-api)
+- [jRemote API](./../jremote-api)
 - jRemote Client
 - jDBC Driver
 

@@ -9,7 +9,7 @@
 
 ## Description
 
-Export a variable to become an external environment variable so that child processes executed through subsequent [PERFORM](336876-execute), [EXECUTE](336876-execute) or [PROGRAM](program) statements can see it.
+Export a variable to become an external environment variable so that child processes executed through subsequent [PERFORM](./../execute), [EXECUTE](./../execute) or [PROGRAM](./../program) statements can see it.
 
 ```
 putenv expression

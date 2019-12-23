@@ -84,4 +84,4 @@ Result:
 
 
 
-See also [$prepend()](method-prepend)
+See also [$prepend()](./../method-$prepend%28%29)

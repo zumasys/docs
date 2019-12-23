@@ -57,4 +57,4 @@ SET JBCDEV_BIN=C:\dev\TESTBASE\bin
 
 
 
-See also: [JBCDEV\_LIB](jbcdev_lib), [PATH](path).
+See also: [JBCDEV\_LIB](./../jbcdev_lib), [PATH](./../path).

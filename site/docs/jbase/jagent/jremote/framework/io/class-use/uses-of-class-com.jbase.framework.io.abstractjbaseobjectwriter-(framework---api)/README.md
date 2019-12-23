@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
-- [Class](/39220-io/com_jbase_framework_io_AbstractJBaseObjectWriter "class in com.jbase.framework.io")
+- [Package](./../../com.jbase.framework.io-%28framework---api%29)
+- [Class](./../../abstractjbaseobjectwriter-%28framework---api%29 "class in com.jbase.framework.io")
 - Use
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Tree](./../../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/class-use//39223-class-use/com_jbase_framework_io_class-use_AbstractJBaseObjectWriter)
-- [No Frames](/39223-class-use/com_jbase_framework_io_class-use_AbstractJBaseObjectWriter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ framework <br>
 ## Uses of Class
 com.jbase.framework.io.AbstractJBaseObjectWriter
 
-- Packages that use [AbstractJBaseObjectWriter](/39220-io/com_jbase_framework_io_AbstractJBaseObjectWriter "class in com.jbase.framework.io") | Package | Description |
+- Packages that use [AbstractJBaseObjectWriter](./../../abstractjbaseobjectwriter-%28framework---api%29 "class in com.jbase.framework.io") | Package | Description |
 | --- | --- |
 | com.jbase.framework.io |   |
-- - ### Uses of [AbstractJBaseObjectWriter](/39220-io/com_jbase_framework_io_AbstractJBaseObjectWriter "class in com.jbase.framework.io") in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary)
+- - ### Uses of [AbstractJBaseObjectWriter](./../../abstractjbaseobjectwriter-%28framework---api%29 "class in com.jbase.framework.io") in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29)
 
 
-Subclasses of [AbstractJBaseObjectWriter](/39220-io/com_jbase_framework_io_AbstractJBaseObjectWriter "class in com.jbase.framework.io") in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary) | Modifier and Type | Class and Description |
+Subclasses of [AbstractJBaseObjectWriter](./../../abstractjbaseobjectwriter-%28framework---api%29 "class in com.jbase.framework.io") in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29) | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `IOJBaseObjectWriter`<br>jBase object writer based on the DataOutputStream.<br> |
 | `class` | `NIOJBaseObjectWriter`<br>jBase object writer using the new Java IO.<br> |
@@ -50,10 +50,10 @@ Subclasses of [AbstractJBaseObjectWriter](/39220-io/com_jbase_framework_io_Abstr
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
-- [Class](/39220-io/com_jbase_framework_io_AbstractJBaseObjectWriter "class in com.jbase.framework.io")
+- [Package](./../../com.jbase.framework.io-%28framework---api%29)
+- [Class](./../../abstractjbaseobjectwriter-%28framework---api%29 "class in com.jbase.framework.io")
 - Use
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Tree](./../../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -64,8 +64,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/class-use//39223-class-use/com_jbase_framework_io_class-use_AbstractJBaseObjectWriter)
-- [No Frames](/39223-class-use/com_jbase_framework_io_class-use_AbstractJBaseObjectWriter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

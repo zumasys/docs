@@ -9,7 +9,7 @@
 
 
 
-| [Running jBC programs](running-jbc-programs) | Launching jBASE executables |
+| [Running jBC programs](./../../../jbase-basic-%28jbc%29/running-jbc-programs) | Launching jBASE executables |
 | --- | --- |
-| [Options](jbc-run-time-options) | Run time options for jBASE executables |
+| [Options](./../../../jbase-basic-%28jbc%29/jbc-run-time-options) | Run time options for jBASE executables |
 

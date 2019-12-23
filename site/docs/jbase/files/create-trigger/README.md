@@ -65,6 +65,6 @@ CREATE-TRIGGER -o PAYROLL * SUBBP
 
 The subroutine SUBBP will be called for every database event to the PAYROLL file. Existing trigger definitions will be overwritten.
 
-See [Trigger API](/42462-distributed-files/triggerapi) for instructions on how to create the trigger.
+See [Trigger API](./../trigger-api) for instructions on how to create the trigger.
 
 

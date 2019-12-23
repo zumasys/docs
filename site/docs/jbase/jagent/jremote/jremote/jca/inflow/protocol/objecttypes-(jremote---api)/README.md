@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
+- [Package](./../com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
 - Class
-- [Use](/39265-class-use/com_jbase_jremote_jca_inflow_protocol_class-use_ObjectTypes)
-- [Tree](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
+- [Use](./../class-use/uses-of-interface-com.jbase.jremote.jca.inflow.protocol.objecttypes-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.inflow.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_noendpointactivatedresponse "class in com.jbase.jremote.jca.inflow.protocol")
-- [Next Class](/39270-protocol/com_jbase_jremote_protocol_rollbacktransactionrequest "class in com.jbase.jremote.jca.inflow.protocol")
+- [Prev Class](./../noendpointactivatedresponse-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol")
+- [Next Class](./../../../../protocol/rollbacktransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol")
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/inflow/protocol//39264-protocol/com_jbase_jremote_jca_inflow_protocol_ObjectTypes)
-- [No Frames](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_ObjectTypes)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -138,22 +138,22 @@ See Also:[Constant Field Values](../../../../../../constant-values.html#com.jbas
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
+- [Package](./../com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
 - Class
-- [Use](/39265-class-use/com_jbase_jremote_jca_inflow_protocol_class-use_ObjectTypes)
-- [Tree](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
+- [Use](./../class-use/uses-of-interface-com.jbase.jremote.jca.inflow.protocol.objecttypes-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.inflow.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_noendpointactivatedresponse "class in com.jbase.jremote.jca.inflow.protocol")
-- [Next Class](/39270-protocol/com_jbase_jremote_protocol_rollbacktransactionrequest "class in com.jbase.jremote.jca.inflow.protocol")
+- [Prev Class](./../noendpointactivatedresponse-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol")
+- [Next Class](./../../../../protocol/rollbacktransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol")
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/inflow/protocol//39264-protocol/com_jbase_jremote_jca_inflow_protocol_ObjectTypes)
-- [No Frames](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_ObjectTypes)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

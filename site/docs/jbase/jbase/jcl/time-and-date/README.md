@@ -62,4 +62,4 @@ The example below checks for a valid date in D2/ format by converting it. This m
 
 
 
-Back to [JCL Commands.](318022-jcl)
+Back to [JCL Commands.](./../jcl)

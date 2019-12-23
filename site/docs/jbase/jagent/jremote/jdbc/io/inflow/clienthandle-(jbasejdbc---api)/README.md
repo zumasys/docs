@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
+- [Package](./../com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
 - Class
-- [Use](/39239-class-use/com_jbase_jdbc_io_inflow_class-use_ClientHandle)
-- [Tree](/39238-inflow/com_jbase_jdbc_io_inflow_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.io.inflow.clienthandle-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io.inflow-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -21,11 +21,11 @@ Skip navigation links
 jbasejdbc <br>
 
 - Prev Class
-- [Next Class](/39238-inflow/com_jbase_jdbc_io_inflow_PendingChange "class in com.jbase.jdbc.io.inflow")
+- [Next Class](./../pendingchange-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.inflow")
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/inflow//39238-inflow/com_jbase_jdbc_io_inflow_ClientHandle)
-- [No Frames](/39238-inflow/com_jbase_jdbc_io_inflow_ClientHandle)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -158,10 +158,10 @@ public Socket getSocket()
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
+- [Package](./../com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
 - Class
-- [Use](/39239-class-use/com_jbase_jdbc_io_inflow_class-use_ClientHandle)
-- [Tree](/39238-inflow/com_jbase_jdbc_io_inflow_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.io.inflow.clienthandle-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io.inflow-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -169,11 +169,11 @@ Skip navigation links
 jbasejdbc <br>
 
 - Prev Class
-- [Next Class](/39238-inflow/com_jbase_jdbc_io_inflow_PendingChange "class in com.jbase.jdbc.io.inflow")
+- [Next Class](./../pendingchange-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.inflow")
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/inflow//39238-inflow/com_jbase_jdbc_io_inflow_ClientHandle)
-- [No Frames](/39238-inflow/com_jbase_jdbc_io_inflow_ClientHandle)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

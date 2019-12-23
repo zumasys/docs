@@ -14,19 +14,19 @@ com.jbase.jremote.io.ByteObject
 
 | Package<br> | Description<br> |
 | --- | --- |
- Packages that use [ByteObject](/39250-io/com_jbase_jremote_io_byteobject "class in com.jbase.jremote.io")  | com.jbase.jremote.protocol<br> | <br> |
+ Packages that use [ByteObject](./../../byteobject-%28jremote-api%29 "class in com.jbase.jremote.io")  | com.jbase.jremote.protocol<br> | <br> |
 
 
 
 
 
 
-### Uses of [ByteObject](/39250-io/com_jbase_jremote_io_byteobject "class in com.jbase.jremote.io") in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary)
+### Uses of [ByteObject](./../../byteobject-%28jremote-api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-%28jremote-api%29)
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary) that return [ByteObject](/39250-io/com_jbase_jremote_io_byteobject "class in com.jbase.jremote.io")  | `ByteObject`<br> | EchoResponse.`getData()` <br> |
+ Methods in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-%28jremote-api%29) that return [ByteObject](./../../byteobject-%28jremote-api%29 "class in com.jbase.jremote.io")  | `ByteObject`<br> | EchoResponse.`getData()` <br> |
 
 
 

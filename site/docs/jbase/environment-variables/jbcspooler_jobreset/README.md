@@ -12,7 +12,7 @@
 
 ## Description
 
-Setting this environment variable changes the way in which the counter for print jobs is reset. By default, it is reset when the first print job generated after midnight is created. Setting JBCSPOOLER\_JOBRESET causes the job number to be reset only when it reaches the value specified by JBCSPOOLER\_JOBRESET. Also see the documentation on [job numbering](https://jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/spo2_job_numbers.htm).
+Setting this environment variable changes the way in which the counter for print jobs is reset. By default, it is reset when the first print job generated after midnight is created. Setting JBCSPOOLER\_JOBRESET causes the job number to be reset only when it reaches the value specified by JBCSPOOLER\_JOBRESET. Also see the documentation on [job numbering](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/spo2_job_numbers.htm).
 
 
 

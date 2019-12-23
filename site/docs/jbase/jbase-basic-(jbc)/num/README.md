@@ -38,4 +38,4 @@ The above will ensure the program only exits when a numeric value is entered.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

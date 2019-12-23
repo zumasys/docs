@@ -13,7 +13,7 @@ The methods in the **$vararg** class are used with other methods that are requir
 
 ## Class Methods
 
-- [$vararg::next()](class-method-vararg-next)
-- [$vararg::size()](class-method-vararg-size)
-- [$vararg::reset()](class-method-vararg-reset)
+- [$vararg::next()](./../class-method-$varargnext%28%29)
+- [$vararg::size()](./../class-method-$varargsize%28%29)
+- [$vararg::reset()](./../class-method-$varargreset%28%29)
 

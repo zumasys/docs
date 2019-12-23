@@ -15,24 +15,24 @@ RECORDLOCKED(filevar, recordkey)
 
 Where:
 
-filevar is a file variable from a previously executed [OPEN](277537-open) statement.
+filevar is a file variable from a previously executed [OPEN](./../open) statement.
 
 recordkey is an expression for the record id that will be checked.
 
 The function returns an integer value to indicate the record lock status of the specified record id.
 
 
-| 3<br> | Locked by this process by a [FILELOCK](271547-filelock)<br> |
+| 3<br> | Locked by this process by a [FILELOCK](./../filelock)<br> |
 | --- | --- |
-| 2<br> | Locked by this process by a [READU](278774-readu)<br> |
-| 1<br> | Locked by this process by a [READL](278657-readl)<br> |
+| 2<br> | Locked by this process by a [READU](./../readu)<br> |
+| 1<br> | Locked by this process by a [READL](./../readl)<br> |
 | 0<br> | Not locked<br> |
-| -1<br> | Locked by another process by a [READL](278657-readl)<br> |
-| -2<br> | Locked by another process by a [READU](278774-readu)<br> |
-| -3<br> | Locked by another process by a [FILELOCK](271547-filelock)<br> |
+| -1<br> | Locked by another process by a [READL](./../readl)<br> |
+| -2<br> | Locked by another process by a [READU](./../readu)<br> |
+| -3<br> | Locked by another process by a [FILELOCK](./../filelock)<br> |
 
 
-If the return value is negative, then the [SYSTEM(43)](282982-system-functions) and [STATUS](278661-status-function) function calls can be used to determine the port number of the program that holds the lock. If -1 is returned, more than 1 port could hold the lock and so the port number returned will be the first port number found.
+If the return value is negative, then the [SYSTEM(43)](./../system-functions) and [STATUS](./../status-function) function calls can be used to determine the port number of the program that holds the lock. If -1 is returned, more than 1 port could hold the lock and so the port number returned will be the first port number found.
 
 An example of use is as:
 
@@ -54,4 +54,4 @@ END
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

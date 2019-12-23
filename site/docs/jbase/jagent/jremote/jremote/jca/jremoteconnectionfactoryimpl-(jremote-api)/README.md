@@ -10,7 +10,7 @@
 ## Class JRemoteConnectionFactoryImpl
 
 **All Implemented Interfaces:**
-[JConnectionFactory](/39248-jremote/com_jbase_jremote_jconnectionfactory "interface in com.jbase.jremote"), Serializable, Referenceable
+[JConnectionFactory](./../../jconnectionfactory-%28jremote-api%29 "interface in com.jbase.jremote"), Serializable, Referenceable
 * * *
 
 

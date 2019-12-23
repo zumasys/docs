@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
+- [Package](./../com.jbase.jremote.jca.mbean-%28jremote---api%29)
 - Class
-- [Use](/39267-class-use/com_jbase_jremote_jca_mbean_class-use_JRemoteStatisticsCounter.Types)
-- [Tree](/39266-mbean/com_jbase_jremote_jca_mbean_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.mbean.jremotestatisticscounter-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.mbean-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter "class in com.jbase.jremote.jca.mbean")
+- [Prev Class](./../jremotestatisticscounter-%28jremote---api%29 "class in com.jbase.jremote.jca.mbean")
 - Next Class
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/mbean//39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types)
-- [No Frames](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types)
+- [Frames](./../jremotestatisticscounter-%28jremote---api%29)
+- [No Frames](./../jremotestatisticscounter-%28jremote---api%29)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -50,11 +50,11 @@ com.jbase.jremote.jca.mbean
 ## Enum JRemoteStatisticsCounter.Types
 
 - [java.lang.Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
-- - [java.lang.Enum](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Enum.html?is-external=true "class or interface in java.lang")&lt;[JRemoteStatisticsCounter.Types](../../../../../com/jbase/jremote/jca/mbean//39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types "enum in com.jbase.jremote.jca.mbean")&gt;
+- - [java.lang.Enum](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Enum.html?is-external=true "class or interface in java.lang")&lt;[JRemoteStatisticsCounter.Types](./../jremotestatisticscounter-%28jremote---api%29 "enum in com.jbase.jremote.jca.mbean")&gt;
     - - com.jbase.jremote.jca.mbean.JRemoteStatisticsCounter.Types
 
 
-- All Implemented Interfaces:[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"), [Comparable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Comparable.html?is-external=true "class or interface in java.lang")&lt;[JRemoteStatisticsCounter.Types](../../../../../com/jbase/jremote/jca/mbean//39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types "enum in com.jbase.jremote.jca.mbean")&gt;Enclosing class:[JRemoteStatisticsCounter](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter "class in com.jbase.jremote.jca.mbean")
+- All Implemented Interfaces:[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"), [Comparable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Comparable.html?is-external=true "class or interface in java.lang")&lt;[JRemoteStatisticsCounter.Types](./../jremotestatisticscounter-%28jremote---api%29 "enum in com.jbase.jremote.jca.mbean")&gt;Enclosing class:[JRemoteStatisticsCounter](./../jremotestatisticscounter-%28jremote---api%29 "class in com.jbase.jremote.jca.mbean")
 * * *
 
 
@@ -124,22 +124,22 @@ Parameters:`name` - the name of the enum constant to be returned.Returns:the enu
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
+- [Package](./../com.jbase.jremote.jca.mbean-%28jremote---api%29)
 - Class
-- [Use](/39267-class-use/com_jbase_jremote_jca_mbean_class-use_JRemoteStatisticsCounter.Types)
-- [Tree](/39266-mbean/com_jbase_jremote_jca_mbean_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.mbean.jremotestatisticscounter-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.mbean-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter "class in com.jbase.jremote.jca.mbean")
+- [Prev Class](./../jremotestatisticscounter-%28jremote---api%29 "class in com.jbase.jremote.jca.mbean")
 - Next Class
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/mbean//39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types)
-- [No Frames](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types)
+- [Frames](./../jremotestatisticscounter-%28jremote---api%29)
+- [No Frames](./../jremotestatisticscounter-%28jremote---api%29)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

@@ -19,18 +19,18 @@ If multiple optional parameters are specified, they must be separated by spaces.
 
 The following topics are presented:
 
-[Optional Parameters for Line, Bar, Area, Column, Pie and Doughnut Charts (2D & 3D)](optional-parameters-for-line-bar-area-column-pie-and-doughnut-charts-2d-3d)
+[Optional Parameters for Line, Bar, Area, Column, Pie and Doughnut Charts (2D & 3D)](./../optional-parameters-for-line,-bar,-area,-column,-pie-and-doughnut-charts-%282d-&-3d%29)
 
-[Optional Parameters Unique to Column, Line, Area & Bar](optional-parameters-unique-to-column-line-area-bar)
+[Optional Parameters Unique to Column, Line, Area & Bar](./../optional-parameters-unique-to-column,-line,-area-&-bar)
 
-[Optional Parameters for Trendlines](optional-parameters-for-trendlines)
+[Optional Parameters for Trendlines](./../optional-parameters-for-trendlines)
 
-[Optional Parameters Unique to Single Series & Pie Charts](optional-parameters-unique-to-single-series-pie-charts)
+[Optional Parameters Unique to Single Series & Pie Charts](./../optional-parameters-unique-to-single-series-&-pie-charts)
 
-[Optional Parameters Unique to Multiseries & Stacked Charts](optional-parameters-unique-to-multiseries-stacked-charts)
+[Optional Parameters Unique to Multiseries & Stacked Charts](./../optional-parameters-unique-to-multiseries-&-stacked-charts)
 
-[Optional Parameters Unique to Pie & Doughnut](optional-parameters-unique-to-pie-doughnut-charts)[Charts](optional-parameters-unique-to-pie-doughnut-charts)
+[Optional Parameters Unique to Pie & Doughnut](./../optional-parameters-unique-to-pie-&-doughnut-charts)[Charts](./../optional-parameters-unique-to-pie-&-doughnut-charts)
 
-[Optional Parameters Unique to 2D Line Charts](optional-parameters-unique-to-2d-line-charts)
+[Optional Parameters Unique to 2D Line Charts](./../optional-parameters-unique-to-2d-line-charts)
 
-[Optional Parameters Unique to 2D Area Charts](optional-parameters-unique-to-2d-area-charts)
+[Optional Parameters Unique to 2D Area Charts](./../optional-parameters-unique-to-2d-area-charts)

@@ -7,7 +7,7 @@
 
 ## Overview
 
-Transaction Replication is handled by the [jlogdup](305930-jlogdup) program. This program needs to be run on both the sender and receiver systems with the appropriate switches.  The sender will take a existing transaction journal and send it to the receiver system which will commit the changes.
+Transaction Replication is handled by the [jlogdup](./../jlogdup) program. This program needs to be run on both the sender and receiver systems with the appropriate switches.  The sender will take a existing transaction journal and send it to the receiver system which will commit the changes.
 
 ## Quick Start
 
@@ -276,4 +276,4 @@ For other platforms please contact your system administrator for instructions on
 
 
 
-Back to [Transactional Journaling](introduction-to-transactional-journaling)
+Back to [Transactional Journaling](./../introduction-to-transaction-journaling)

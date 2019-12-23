@@ -17,7 +17,7 @@ MVConnect is a web application development environment for MultiValue Pick syste
 
 # MVCONNECT 1.6.3 RELEASE NOTES
 
-For a summary of new features in MVConnect 1.6.3, see [Release Notes](319019-mv-connect-1-6-3-release-notes).
+For a summary of new features in MVConnect 1.6.3, see [Release Notes](./../mv-connect-1.6.3-release-notes).
 
 
 
@@ -31,11 +31,11 @@ MVConnect is a cross-platform Web/Rest API development package.  MVConnect has 
 
 For all platforms, we have a cross-platform web server called MVAppsvr that allows access to pick by running the Pick executable.  The primary difference is with MVAppsvr an MVDB account is installed to hold the Pick side subroutines.  Since MV Dashboard uses the same MVAppsvr web API kit we combined the two installers.  Therefore if you are installing on other platforms the MVConnect installer is the same as the MV Dashboard installer.  When you are done you will have a free one user copy of MV Dashboard along with the Rest subroutines.  You only use this version if you are not on jBASE 5.6+.  This version can be installed side by side with the jAgent version but keep in mind it has it's own licensing.  On jBASE 5.6 all the pick side subroutines required for rest are built-in and available in any account.  With the MVAppsvr version, you will have to follow the instructions on how to set up q-pointers to files and code for other accounts.
 
-- [Installing MVAppsvr cross-platform Web Server  on Windows](install-mv-dashboard-windows)
-- [Installing MVAppsvr cross-platform Web Server on UNIX](install-mv-dashboard-unix)
-- [Get Started with MVConnect](get-started-with-mv-connect)
-- [Troubleshooting MVConnect](317524-introduction-to-troubleshooting-mvconnect)
-- [Connection Pooling with MVConnect](265134-connection-pooling)
+- [Installing MVAppsvr cross-platform Web Server  on Windows](./../../mv-dashboard/install-mv-dashboard&mv-connect-windows)
+- [Installing MVAppsvr cross-platform Web Server on UNIX](./../../mv-dashboard/install-mv-dashboard&mv-connect-unix)
+- [Get Started with MVConnect](./../get-started-with-mvconnect)
+- [Troubleshooting MVConnect](./../introduction-to-troubleshooting)
+- [Connection Pooling with MVConnect](./../connection-pooling)
 
 
 

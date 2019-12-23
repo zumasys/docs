@@ -11,7 +11,7 @@
 
 This provides some synchronization between multiple copies of jkeyauto. For example, a hundred versions of jkeyauto to simulate 100 users may be run. Once the initial part of the application run, suspending jkeyauto may be desired until all instances are ready to continue. This means all instances of the application will start at the same point - there won't be any timing issues because some are running the application, others are still at the login prompt, others in the login program and so on.
 
-Similar functionality can be executed using the [-S option](options) to jkeyauto. Therefore, scripts can be configured so that they wait on a sync. signal and then an operator starts them all off from the command line.
+Similar functionality can be executed using the [-S option](./../options) to jkeyauto. Therefore, scripts can be configured so that they wait on a sync. signal and then an operator starts them all off from the command line.
 
 The sync can be called as:
 

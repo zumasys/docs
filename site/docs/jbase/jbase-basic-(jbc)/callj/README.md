@@ -54,7 +54,7 @@ Subsequent calls do not have this overhead and it is recommended that programs a
 
 In addition, calls to non static methods carry the overhead of calling the constructor for the class.Wherever possible, static methods should be used.
 
-With regard errors, the [SYSTEM(0)](282982-system-functions) variable may be used to manage any errors at the BASIC level, which occur during the call. This variable can have the following values:
+With regard errors, the [SYSTEM(0)](./../system-functions) variable may be used to manage any errors at the BASIC level, which occur during the call. This variable can have the following values:
 
 
 | Value | Description |
@@ -174,4 +174,4 @@ If you get a return code of "6" and you can successfully test your class/method 
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

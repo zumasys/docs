@@ -7,7 +7,7 @@
 
 # Descritpion
 
-The **WRITESEQF** statement writes new lines to a file opened for sequential processing, and ensures that data is physically written to disk (that is, not buffered) before the next statement in the program is executed. The sequential file must be open, and the end-of-file marker must be reached before you can write to the file. The [FILEINFO](271548-fileinfo) function can be used to determine the number of the line about to be written.
+The **WRITESEQF** statement writes new lines to a file opened for sequential processing, and ensures that data is physically written to disk (that is, not buffered) before the next statement in the program is executed. The sequential file must be open, and the end-of-file marker must be reached before you can write to the file. The [FILEINFO](./../fileinfo) function can be used to determine the number of the line about to be written.
 
 It takes the general form:
 
@@ -24,10 +24,10 @@ The value of expression is written to the file as the next line, and the THEN st
 
 The ON ERROR clause is optional in the **WRITESEQF**statement. Its syntax is the same as that of the ELSE clause. The ON ERROR clause lets you specify an alternative for program termination when a fatal error is encountered while the**WRITESEQF**statement is being processed.
 
-Normally, when a record is written using the [WRITESEQ](279570-writeseq) statement, the record is moved to a buffer that is periodically written to disk. If a system failure occurs, this buffer data can be lost. The **WRITESEQF** statement forces the buffer contents to be written to disk; the program does not execute the statement following the **WRITESEQF**statement until the buffer is successfully written to disk.
+Normally, when a record is written using the [WRITESEQ](./../writeseq) statement, the record is moved to a buffer that is periodically written to disk. If a system failure occurs, this buffer data can be lost. The **WRITESEQF** statement forces the buffer contents to be written to disk; the program does not execute the statement following the **WRITESEQF**statement until the buffer is successfully written to disk.
 
-A **WRITESEQF** statement following several [WRITESEQ](279570-writeseq) statements ensures that all buffered records are written to disk. **WRITESEQF** is intended for logging applications and should not be used for general programming. It increases the disk I/O of a program and therefore degrades performance.
+A **WRITESEQF** statement following several [WRITESEQ](./../writeseq) statements ensures that all buffered records are written to disk. **WRITESEQF** is intended for logging applications and should not be used for general programming. It increases the disk I/O of a program and therefore degrades performance.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

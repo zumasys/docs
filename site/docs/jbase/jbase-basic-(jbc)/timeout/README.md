@@ -17,9 +17,9 @@ Where:
 
 file.variable specifies a file opened for sequential access.
 
-time is an expression that evaluates to the number of seconds the program should wait before terminating the [READSEQ](278773-readseq) statement.
+time is an expression that evaluates to the number of seconds the program should wait before terminating the [READSEQ](./../readseq) statement.
 
-**TIMEOUT**causes subsequent [READSEQ](278773-readseq) and [READBLK](277637-readblk) statements to terminate and execute ELSE statements if the number of seconds specified by time elapses while waiting for data.
+**TIMEOUT**causes subsequent [READSEQ](./../readseq) and [READBLK](./../readblk) statements to terminate and execute ELSE statements if the number of seconds specified by time elapses while waiting for data.
 
 If either file.variable or time evaluates to null, the **TIMEOUT** statement fails and the program enters the debugger.
 
@@ -35,4 +35,4 @@ END
 
 
 
-Go back  to [jBASE BASIC](263498-jbase-basic).
+Go back  to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

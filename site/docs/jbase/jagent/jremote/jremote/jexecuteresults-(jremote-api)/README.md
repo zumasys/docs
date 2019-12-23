@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Class JExecuteResults
 
-All Implemented Interfaces:[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseSerializable](./../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
 * * *
 
 

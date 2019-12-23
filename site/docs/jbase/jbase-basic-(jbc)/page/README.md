@@ -10,7 +10,7 @@
 
 # Description
 
-Prints any [FOOTING](284341-footing) statement, throws a **PAGE** and prints any heading statement on the current output device. It takes the general form:
+Prints any [FOOTING](./../footing) statement, throws a **PAGE** and prints any heading statement on the current output device. It takes the general form:
 
 ```
 PAGE {expression}
@@ -31,4 +31,4 @@ NEXT I
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

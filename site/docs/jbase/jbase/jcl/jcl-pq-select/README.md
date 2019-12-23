@@ -47,4 +47,4 @@ Where register-number is the number of the select register (1 to 5) in which the
 
 This example selects all the records in the SALES file, loads the record-list into select register 1 and displays the keys one at a time.
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

@@ -10,18 +10,18 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39270-protocol/com_jbase_jremote_protocol_package-summary)
+- [Package](./../com.jbase.jremote.protocol-%28jremote-api%29)
 - Class
 - [Use](/39271-class-use/com_jbase_jremote_protocol_class-use_AuthenticationRequest.UserCredentials)
-- [Tree](/39270-protocol/com_jbase_jremote_protocol_package-tree)
+- [Tree](./../com.jbase.jremote.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39270-protocol/com_jbase_jremote_protocol_authenticationrequest "class in com.jbase.jremote.protocol")
-- [Next Class](/39270-protocol/com_jbase_jremote_protocol_begintransactionrequest "class in com.jbase.jremote.protocol")
+- [Prev Class](./../authenticationrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")
+- [Next Class](./../begintransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")
 
 
 - [Frames](../../../../index.html?com/jbase/jremote/protocol//39270-protocol/com_jbase_jremote_protocol_AuthenticationRequest.UserCredentials)
@@ -53,7 +53,7 @@ com.jbase.jremote.protocol
 - - com.jbase.jremote.protocol.AuthenticationRequest.UserCredentials
 
 
-- All Implemented Interfaces:[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")Enclosing class:[AuthenticationRequest](/39270-protocol/com_jbase_jremote_protocol_authenticationrequest "class in com.jbase.jremote.protocol")
+- All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")Enclosing class:[AuthenticationRequest](./../authenticationrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")
 * * *
 
 
@@ -65,7 +65,7 @@ implements JBaseSerializable
 
 - - ### Nested Class Summary
 
-        - ### Nested classes/interfaces inherited from interface com.jbase.jremote.io.[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")
+        - ### Nested classes/interfaces inherited from interface com.jbase.jremote.io.[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
 `JBaseSerializable.TYPE`
 
 
@@ -185,18 +185,18 @@ Specified by:`getVersion` in interface `JBaseSerializable`
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39270-protocol/com_jbase_jremote_protocol_package-summary)
+- [Package](./../com.jbase.jremote.protocol-%28jremote-api%29)
 - Class
 - [Use](/39271-class-use/com_jbase_jremote_protocol_class-use_AuthenticationRequest.UserCredentials)
-- [Tree](/39270-protocol/com_jbase_jremote_protocol_package-tree)
+- [Tree](./../com.jbase.jremote.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39270-protocol/com_jbase_jremote_protocol_authenticationrequest "class in com.jbase.jremote.protocol")
-- [Next Class](/39270-protocol/com_jbase_jremote_protocol_begintransactionrequest "class in com.jbase.jremote.protocol")
+- [Prev Class](./../authenticationrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")
+- [Next Class](./../begintransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")
 
 
 - [Frames](../../../../index.html?com/jbase/jremote/protocol//39270-protocol/com_jbase_jremote_protocol_AuthenticationRequest.UserCredentials)

@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
+- [Package](./../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 - Class
-- [Use](/39235-class-use/com_jbase_jdbc_io_class-use_ErrorResponse)
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.io.errorresponse-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39232-io/com_jbase_jdbc_io_bytetools "class in com.jbase.jdbc.io")
-- [Next Class](/39232-io/com_jbase_jdbc_io_GZipCompressor "class in com.jbase.jdbc.io")
+- [Prev Class](./../bytetools-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")
+- [Next Class](./../gzipcompressor-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/io//39232-io/com_jbase_jdbc_io_ErrorResponse)
-- [No Frames](/39232-io/com_jbase_jdbc_io_ErrorResponse)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -50,11 +50,11 @@ com.jbase.jdbc.io
 ## Class ErrorResponse
 
 - [java.lang.Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
-- - [com.jbase.jdbc.io.Response](/39232-io/com_jbase_jdbc_io_response "class in com.jbase.jdbc.io")
+- - [com.jbase.jdbc.io.Response](./../response-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")
     - - com.jbase.jdbc.io.ErrorResponse
 
 
-- All Implemented Interfaces:[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+- All Implemented Interfaces:[JBaseSerializable](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 * * *
 
 
@@ -65,7 +65,7 @@ extends Response
 
 - - ### Nested Class Summary
 
-        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 `JBaseSerializable.TYPE`
 
 
@@ -166,22 +166,22 @@ public int getVersion()
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
+- [Package](./../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 - Class
-- [Use](/39235-class-use/com_jbase_jdbc_io_class-use_ErrorResponse)
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.io.errorresponse-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39232-io/com_jbase_jdbc_io_bytetools "class in com.jbase.jdbc.io")
-- [Next Class](/39232-io/com_jbase_jdbc_io_GZipCompressor "class in com.jbase.jdbc.io")
+- [Prev Class](./../bytetools-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")
+- [Next Class](./../gzipcompressor-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/io//39232-io/com_jbase_jdbc_io_ErrorResponse)
-- [No Frames](/39232-io/com_jbase_jdbc_io_ErrorResponse)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

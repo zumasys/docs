@@ -86,16 +86,16 @@ Having nothing configured will give you a default environment.
 ## 
 
 
-[Profile Behavior Settings](profile-behavior)
+[Profile Behavior Settings](./../profile-behavior)
 
-[JSON Sections](json-sections)
+[JSON Sections](./../json-sections)
 
-[General Settings](general-settings)
+[General Settings](./../general-settings)
 
-[Environment Settings](environment-settings)
+[Environment Settings](./../environment-settings)
 
-[Logging Settings](logging-settings)
+[Logging Settings](./../logging-settings)
 
 [Debugger Override Settings](debugger_override-settings)
 
-[Additional Utilities Settings](additional-utilities)
+[Additional Utilities Settings](./../additional-utilities)

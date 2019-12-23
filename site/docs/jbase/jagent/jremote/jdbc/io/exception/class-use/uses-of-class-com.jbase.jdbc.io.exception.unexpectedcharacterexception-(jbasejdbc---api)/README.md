@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39236-exception/com_jbase_jdbc_io_exception_package-summary)
-- [Class](/39236-exception/com_jbase_jdbc_io_exception_UnexpectedCharacterException "class in com.jbase.jdbc.io.exception")
+- [Package](./../../com.jbase.jdbc.io.exception-%28jbasejdbc---api%29)
+- [Class](./../../unexpectedcharacterexception-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.exception")
 - Use
-- [Tree](/39236-exception/com_jbase_jdbc_io_exception_package-tree)
+- [Tree](./../../com.jbase.jdbc.io.exception-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jdbc/io/exception/class-use//39237-class-use/com_jbase_jdbc_io_exception_class-use_UnexpectedCharacterException)
-- [No Frames](/39237-class-use/com_jbase_jdbc_io_exception_class-use_UnexpectedCharacterException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.jdbc.io.exception.UnexpectedCharacterException
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39236-exception/com_jbase_jdbc_io_exception_package-summary)
-- [Class](/39236-exception/com_jbase_jdbc_io_exception_UnexpectedCharacterException "class in com.jbase.jdbc.io.exception")
+- [Package](./../../com.jbase.jdbc.io.exception-%28jbasejdbc---api%29)
+- [Class](./../../unexpectedcharacterexception-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.exception")
 - Use
-- [Tree](/39236-exception/com_jbase_jdbc_io_exception_package-tree)
+- [Tree](./../../com.jbase.jdbc.io.exception-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jdbc/io/exception/class-use//39237-class-use/com_jbase_jdbc_io_exception_class-use_UnexpectedCharacterException)
-- [No Frames](/39237-class-use/com_jbase_jdbc_io_exception_class-use_UnexpectedCharacterException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

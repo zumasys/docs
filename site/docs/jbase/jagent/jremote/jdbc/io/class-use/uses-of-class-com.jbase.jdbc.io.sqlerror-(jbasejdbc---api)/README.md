@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_sqlerror "class in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../sqlerror-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_SQLError)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_SQLError)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,30 +36,30 @@ jbasejdbc <br>
 ## Uses of Class
 com.jbase.jdbc.io.SQLError
 
-- Packages that use [SQLError](/39232-io/com_jbase_jdbc_io_sqlerror "class in com.jbase.jdbc.io") | Package | Description |
+- Packages that use [SQLError](./../../sqlerror-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.io |   |
 | com.jbase.jdbc.protocol |   |
-- - ### Uses of [SQLError](/39232-io/com_jbase_jdbc_io_sqlerror "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary)
+- - ### Uses of [SQLError](./../../sqlerror-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 
 
-Methods in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) that return [SQLError](/39232-io/com_jbase_jdbc_io_sqlerror "class in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29) that return [SQLError](./../../sqlerror-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `SQLError` | ErrorResponse.`getSQLError()`  |
-    - ### Uses of [SQLError](/39232-io/com_jbase_jdbc_io_sqlerror "class in com.jbase.jdbc.io") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+    - ### Uses of [SQLError](./../../sqlerror-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") in [com.jbase.jdbc.protocol](./../../../protocol/com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 
 
-Methods in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary) that return [SQLError](/39232-io/com_jbase_jdbc_io_sqlerror "class in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.protocol](./../../../protocol/com.jbase.jdbc.protocol-%28jbasejdbc---api%29) that return [SQLError](./../../sqlerror-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `SQLError` | SQLErrorResponse.`getSQLError()`  |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_sqlerror "class in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../sqlerror-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -70,8 +70,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_SQLError)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_SQLError)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

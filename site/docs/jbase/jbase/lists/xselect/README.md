@@ -62,4 +62,4 @@ XSELECT first prompts for the name of a list to use. Because a list name is not 
 
 
 
-Back to [List Processing](325912-list-processing)
+Back to [List Processing](./../list-processing)

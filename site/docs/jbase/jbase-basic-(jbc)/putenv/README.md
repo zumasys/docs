@@ -29,7 +29,7 @@ If the **PUTENV()** function succeeds it returns a boolean TRUE value, if it fai
 ## Note:
 
 
-> **PUTENV** only sets environment variables for the current process and processes spawned (say by [EXECUTE](269198-execute)) by this process. These variables are known as export only variables.
+> **PUTENV** only sets environment variables for the current process and processes spawned (say by [EXECUTE](./../execute)) by this process. These variables are known as export only variables.
 
 
 An example of use is as:
@@ -42,6 +42,6 @@ END
 
 
 
-See also: [GETENV](276057-getenv)
+See also: [GETENV](./../getenv)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

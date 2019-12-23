@@ -24,16 +24,16 @@ I**nterface Summary**
 
 | Class<br> | Description<br> |
 | --- | --- |
-| [JCapture](com_jbase_jrcs_jcapture)<br> | Represents a capture object designed to incrementally fetch results of program execution<br> |
-| [JCommon](com_jbase_jrcs_jcommon)<br> | Represents a jBASE common block<br> |
-| [JConnection](com_jbase_jrcs_jconnection)<br> | Represents a connection to a jBASE host<br> |
+| [JCapture](./../jcapture-%28jrclient-api%29)<br> | Represents a capture object designed to incrementally fetch results of program execution<br> |
+| [JCommon](./../jcommon-%28jrclient-api%29)<br> | Represents a jBASE common block<br> |
+| [JConnection](./../jconnection-%28jrclient-api%29)<br> | Represents a connection to a jBASE host<br> |
 | [JConstants](https://jbase.helpjuice.com/jrcs/com_jbase_jrcs_JConstants "class in com.jbase.jrcs")<br> | Common constants for all JClient classes<br> |
 | [JDefaultIOHandler](https://jbase.helpjuice.com/jrcs/com_jbase_jrcs_JDefaultIOHandler "class in com.jbase.jrcs")<br> | Default implementation of jRCS I/O handler<br> |
-| [JDynArray](com_jbase_jrcs_jdynarray)<br> | Represents a jBASE dynamic array<br> |
+| [JDynArray](./../jdynarray-%28jrclient---api%29)<br> | Represents a jBASE dynamic array<br> |
 | [JExecuteResults](com_jbase_jrcs_JExecuteResults)<br> | Contains results of jCL/jQL command execution<br> |
-| [JFile](com_jbase_jrcs_jfile)<br> | Represents a jBASE file variable<br> |
+| [JFile](./../jfile-%28jrclient-api%29)<br> | Represents a jBASE file variable<br> |
 | [JIndex](com_jbase_jrcs_JIndex)<br> | Represents a jBASE index variable<br> |
-| [JSelectList](com_jbase_jrcs_jselectlist)<br> | Represents a jBASE select list variable<br> |
+| [JSelectList](./../jselectlist-%28jrclient---api%29)<br> | Represents a jBASE select list variable<br> |
 
 
 
@@ -43,7 +43,7 @@ I**nterface Summary**
 
 | Exception<br> | Description<br> |
 | --- | --- |
-| [JException](com_jbase_jrcs_jexception)<br> | Represents an exception thrown by all JClient classes<br> |
+| [JException](./../jexception-%28jrclient-api%29)<br> | Represents an exception thrown by all JClient classes<br> |
 
 
 

@@ -6,10 +6,10 @@
 
 
 
-| [Introduction](291163-introduction-to-the-jbc-debugger) | Overview of the jBC debugger |
+| [Introduction](./../introduction-to-the-jbc-debugger) | Overview of the jBC debugger |
 | --- | --- |
-| [Invoking the debugger](291164-invoking-the-debugger) | How the debugger is invoked |
-| [Command arguments](291165-run-time-debugger-arguments) | Debugger command line arguments |
-| [Commands](291166-debugger-commands) | Debugger commands |
-| [Debugger Symbol Tables](291167-debugger-symbol-tables) | Symbol tables used by the debugger |
+| [Invoking the debugger](./../invoking-the-jbc-debugger) | How the debugger is invoked |
+| [Command arguments](./../run-time-jbc-debugger-arguments) | Debugger command line arguments |
+| [Commands](./../jbc-debugger-commands) | Debugger commands |
+| [Debugger Symbol Tables](./../debugger-symbol-tables) | Symbol tables used by the debugger |
 

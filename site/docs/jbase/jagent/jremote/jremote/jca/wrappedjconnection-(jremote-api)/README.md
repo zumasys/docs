@@ -9,7 +9,7 @@
 
 ## Class WrappedJConnection
 
-All Implemented Interfaces:[JConnection](/39248-jremote/com_jbase_jremote_jconnection "interface in com.jbase.jremote")
+All Implemented Interfaces:[JConnection](./../../jconnection-%28jremote-api%29 "interface in com.jbase.jremote")
 * * *
 
 

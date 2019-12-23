@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
-- [Class](/39240-protocol/com_jbase_jdbc_protocol_transactionrequest "class in com.jbase.jdbc.protocol")
+- [Package](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
+- [Class](./../../transactionrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol")
 - Use
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Tree](./../../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/protocol/class-use//39241-class-use/com_jbase_jdbc_protocol_class-use_transactionrequest)
-- [No Frames](/39241-class-use/com_jbase_jdbc_protocol_class-use_transactionrequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ jbasejdbc <br>
 ## Uses of Class
 com.jbase.jdbc.protocol.TransactionRequest
 
-- Packages that use [TransactionRequest](/39240-protocol/com_jbase_jdbc_protocol_transactionrequest "class in com.jbase.jdbc.protocol") | Package | Description |
+- Packages that use [TransactionRequest](./../../transactionrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.protocol |   |
-- - ### Uses of [TransactionRequest](/39240-protocol/com_jbase_jdbc_protocol_transactionrequest "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- - ### Uses of [TransactionRequest](./../../transactionrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 
 
-Subclasses of [TransactionRequest](/39240-protocol/com_jbase_jdbc_protocol_transactionrequest "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary) | Modifier and Type | Class and Description |
+Subclasses of [TransactionRequest](./../../transactionrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29) | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `TransactionCommitRequest`  |
 | `class` | `TransactionRollbackRequest`  |
@@ -51,10 +51,10 @@ Subclasses of [TransactionRequest](/39240-protocol/com_jbase_jdbc_protocol_trans
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
-- [Class](/39240-protocol/com_jbase_jdbc_protocol_transactionrequest "class in com.jbase.jdbc.protocol")
+- [Package](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
+- [Class](./../../transactionrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol")
 - Use
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Tree](./../../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -65,8 +65,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/protocol/class-use//39241-class-use/com_jbase_jdbc_protocol_class-use_transactionrequest)
-- [No Frames](/39241-class-use/com_jbase_jdbc_protocol_class-use_transactionrequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

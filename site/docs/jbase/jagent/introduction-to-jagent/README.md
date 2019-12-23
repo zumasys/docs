@@ -624,7 +624,7 @@ To accept REST requests using jAgent, the Services item in the [MAIN] section of
 /api = @JAGENTWDBINIT
 ```
 
-This entry specifies that an HTTP request with a URL that has a path that begins with /api will be passed to the jBC subroutine JAGENTWDBINIT to process the request. jBASE includes the JAGENTWDBINIT subroutine along with a library of utility subroutines which you can use to help create your jBASE REST service. See [Introduction to jAgent REST Services](introduction-to-jagent-rest-services) for details.
+This entry specifies that an HTTP request with a URL that has a path that begins with /api will be passed to the jBC subroutine JAGENTWDBINIT to process the request. jBASE includes the JAGENTWDBINIT subroutine along with a library of utility subroutines which you can use to help create your jBASE REST service. See [Introduction to jAgent REST Services](./../introduction-to-jagent-rest-services) for details.
 
 It is not recommended to create your own api handler but if you choose to do so, the jBC subroutine that jAgent calls must have 9 arguments - 7 are passed from jAgent to the subroutine, and 2 are returned from the subroutine back to jAgent.
 
@@ -682,43 +682,43 @@ Prior to executing the resource handler program defined in the WDB.RESOURCE reco
 
 WDB.RESOURCE - The WDB.RESOURCE file is used to register a REST service handler program with a URL path.
 
-[WSETCONTENTTYPE](/34473-docs/257603-wsetcontenttype) - The WSETCONTENTTYPE subroutines sets the Content-Type header.  This is a alternative to using WSETHEADER subroutine.
+[WSETCONTENTTYPE](./../apis/wsetcontenttype) - The WSETCONTENTTYPE subroutines sets the Content-Type header.  This is a alternative to using WSETHEADER subroutine.
 
-[WSETHEADER](/35689-mv-rest-api/257604-wsetheader) - The WSETHEADER subroutines allows you to set return headers.
+[WSETHEADER](./../apis/wsetheader) - The WSETHEADER subroutines allows you to set return headers.
 
-[WGETBODY](/35689-mv-rest-api/257606-wgetbody) - The WGETBODY gets the raw body sent in the web request if the web request is not a x-www-form-urlencoded.  This is primarily used to get XML or JSON sent in Rest services.
+[WGETBODY](./../apis/wgetbody) - The WGETBODY gets the raw body sent in the web request if the web request is not a x-www-form-urlencoded.  This is primarily used to get XML or JSON sent in Rest services.
 
-[WGETHEADER](/35689-mv-rest-api/257607-wgetheader) - The WGETHEADER subroutine allows you to retrieve sent headers.
+[WGETHEADER](./../apis/wgetheader) - The WGETHEADER subroutine allows you to retrieve sent headers.
 
-[WSEND](/35689-mv-rest-api/257608-wsend) - The WSEND subroutines send body data back to the client.  This is usually HTML or JSON.
+[WSEND](./../apis/wsend) - The WSEND subroutines send body data back to the client.  This is usually HTML or JSON.
 
-[WGETCOOKIE](wgetcookie) - The WGETCOOKIE retrieves cookies sent in the web request.
+[WGETCOOKIE](./../apis/wgetcookie) - The WGETCOOKIE retrieves cookies sent in the web request.
 
-[WGETINFO](/34473-docs/258354-wgetinfo) - The WGETINFO subroutines allows you return directly information from WWW.INFO common
+[WGETINFO](./../apis/wgetinfo) - The WGETINFO subroutines allows you return directly information from WWW.INFO common
 
-[WWW.INFO](/34473-docs/258357-www-info) - WWW.INFO is a common variable that stores all the web information.
+[WWW.INFO](./../apis/www.info) - WWW.INFO is a common variable that stores all the web information.
 
-[WSETSTATUS](wsetstatus) - The WSETSTATUS subroutine allows you to modify the response code.
+[WSETSTATUS](./../apis/wsetstatus) - The WSETSTATUS subroutine allows you to modify the response code.
 
-[WGETVAR](wgetvar) - The WGETVAR returns the value of a request variable. Request variables are normally passed in the “query string” part of the request URL, but may also be fields in an HTML form.
+[WGETVAR](./../apis/wgetvar) - The WGETVAR returns the value of a request variable. Request variables are normally passed in the “query string” part of the request URL, but may also be fields in an HTML form.
 
-[WSETCOOKIE](wsetcookie) - The WSETCOOKIE sets the value of a cookie to be sent to the client in the Cookie header of the response.
+[WSETCOOKIE](./../apis/wsetcookie) - The WSETCOOKIE sets the value of a cookie to be sent to the client in the Cookie header of the response.
 
-[WGETPARAM](wgetparam) - Returns the value of a REST parameter. REST parameters are passed in the path of URL of the request, and begin with 3rd element in the URL path after the server name. The 4th element in the path is parameter number 2, etc.
+[WGETPARAM](./../apis/wgetparam) - Returns the value of a REST parameter. REST parameters are passed in the path of URL of the request, and begin with 3rd element in the URL path after the server name. The 4th element in the path is parameter number 2, etc.
 
-[WGETCONFIG](wgetconfig) - WGETCONFIG returns the value of a configuration item.
+[WGETCONFIG](./../apis/wgetconfig) - WGETCONFIG returns the value of a configuration item.
 
-[WPARSEJSON](wparsejson) - Parse a string which is in JSON format.  Very simple and can only do single level JSON objects at this time.
+[WPARSEJSON](./../apis/wparsejson) - Parse a string which is in JSON format.  Very simple and can only do single level JSON objects at this time.
 
-[WBUILDJSON](wbuildjson) - WBUILDJSON is a very basic JSON string builder.  JSON is the actual string and is basically a JSON string being built.  You can override and actually just append to JSON at any time.
+[WBUILDJSON](./../apis/wbuildjson) - WBUILDJSON is a very basic JSON string builder.  JSON is the actual string and is basically a JSON string being built.  You can override and actually just append to JSON at any time.
 
-[WOBJ](305297-wobj) - The WOBJ subroutine is a basic object library for consuming and creating JSON objects.
+[WOBJ](./../apis/wobj) - The WOBJ subroutine is a basic object library for consuming and creating JSON objects.
 
-[WENCODEJSON](wencodejson) - Convert IN.STR to OUT.STR, escaping any problematic characters.
+[WENCODEJSON](./../apis/wencodejson) - Convert IN.STR to OUT.STR, escaping any problematic characters.
 
-[WSEND](wsend) - WSEND sends a response to the client.  Be sure to set any headers or cookies prior to calling WSEND.
+[WSEND](./../apis/wsend) - WSEND sends a response to the client.  Be sure to set any headers or cookies prior to calling WSEND.
 
-[WDEBUG](291290-wdebug) - WDEBUG program is a debugging tool for REST services.
+[WDEBUG](./../apis/wdebug) - WDEBUG program is a debugging tool for REST services.
 
 ## EXAMPLES:
 

@@ -96,6 +96,6 @@ This article and accompanying video will provide you with an overview of steps a
 
 
 
-[Migrating to jBASE: Universe Systems](migrating-to-jbase-universe)
+[Migrating to jBASE: Universe Systems](./../migrating-to-jbase-universe-systems)
 
-[Migrating to jBASE: D3 Systems](migrating-to-jbase-d3-system)
+[Migrating to jBASE: D3 Systems](./../migrating-to-jbase-d3-systems)

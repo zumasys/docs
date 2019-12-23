@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39221-charset/com_jbase_framework_io_charset_package-summary)
+- [Package](./../com.jbase.framework.io.charset-%28framework---api%29)
 - Class
-- [Use](/39222-class-use/com_jbase_framework_io_charset_class-use_JbaseCharsetDecoder)
-- [Tree](/39221-charset/com_jbase_framework_io_charset_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.charset.jbasecharsetdecoder-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.charset-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Class](/39221-charset/com_jbase_framework_io_charset_JbaseCharset "class in com.jbase.framework.io.charset")
-- [Next Class](/39221-charset/com_jbase_framework_io_charset_JbaseCharsetEncoder "class in com.jbase.framework.io.charset")
+- [Prev Class](./../jbasecharset-%28framework---api%29 "class in com.jbase.framework.io.charset")
+- [Next Class](./../jbasecharsetencoder-%28framework---api%29 "class in com.jbase.framework.io.charset")
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/charset//39221-charset/com_jbase_framework_io_charset_JbaseCharsetDecoder)
-- [No Frames](/39221-charset/com_jbase_framework_io_charset_JbaseCharsetDecoder)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -126,22 +126,22 @@ protected ByteBuffer checkBuffer(ByteBuffer buffer,
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39221-charset/com_jbase_framework_io_charset_package-summary)
+- [Package](./../com.jbase.framework.io.charset-%28framework---api%29)
 - Class
-- [Use](/39222-class-use/com_jbase_framework_io_charset_class-use_JbaseCharsetDecoder)
-- [Tree](/39221-charset/com_jbase_framework_io_charset_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.charset.jbasecharsetdecoder-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.charset-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Class](/39221-charset/com_jbase_framework_io_charset_JbaseCharset "class in com.jbase.framework.io.charset")
-- [Next Class](/39221-charset/com_jbase_framework_io_charset_JbaseCharsetEncoder "class in com.jbase.framework.io.charset")
+- [Prev Class](./../jbasecharset-%28framework---api%29 "class in com.jbase.framework.io.charset")
+- [Next Class](./../jbasecharsetencoder-%28framework---api%29 "class in com.jbase.framework.io.charset")
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/charset//39221-charset/com_jbase_framework_io_charset_JbaseCharsetDecoder)
-- [No Frames](/39221-charset/com_jbase_framework_io_charset_JbaseCharsetDecoder)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

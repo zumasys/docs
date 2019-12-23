@@ -30,7 +30,7 @@ THEN | ELSE If the **OSREAD** statement fails it will execute any statements ass
 > ## 
 > Syntax requires either one or both of the THEN and ELSE clauses.
 > 
-> **OSREAD** should not be used on large files. The jBASE BASIC **OSREAD**command reads an entire sequential file and assigns the contents of the file to a variable. If the file is too large for the program memory, the program aborts and generates a runtime error message. On large files, use [OSBREAD](277546-osbread) or [READSEQ](278773-readseq).
+> **OSREAD** should not be used on large files. The jBASE BASIC **OSREAD**command reads an entire sequential file and assigns the contents of the file to a variable. If the file is too large for the program memory, the program aborts and generates a runtime error message. On large files, use [OSBREAD](./../osbread) or [READSEQ](./../readseq).
 > 
 > jBASE uses the ASCII 0 character (CHAR (0)) as a string-end delimiter. ASCII 0 is not usable within string variable in jBASE BASIC. This command converts CHAR(0) to CHAR(128) when reading a block of data.
 
@@ -45,4 +45,4 @@ to open a file located in the file-path.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

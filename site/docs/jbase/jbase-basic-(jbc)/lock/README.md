@@ -34,6 +34,6 @@ END
 
 Locks are in memory only and will not persist if the server or jBASE service is restarted.
 
-See also: [UNLOCK.](278987-unlock)
+See also: [UNLOCK.](./../unlock)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

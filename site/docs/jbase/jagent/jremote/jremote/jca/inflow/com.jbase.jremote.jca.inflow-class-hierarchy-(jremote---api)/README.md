@@ -10,7 +10,7 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+- [Package](./../com.jbase.jremote.jca.inflow-%28jremote---api%29)
 - Class
 - Use
 - Tree
@@ -20,12 +20,12 @@ Skip navigation links
 
 jremote <br>
 
-- [Prev](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
-- [Next](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
+- [Prev](./../../cci/com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
+- [Next](./../protocol/com.jbase.jremote.jca.inflow.protocol-class-hierarchy-%28jremote---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/inflow//39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
-- [No Frames](/39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -40,26 +40,26 @@ Package Hierarchies:
 ## Class Hierarchy
 
 - java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
-    - com.jbase.jremote.jca.inflow.[ActivationWork](/39262-inflow/com_jbase_jremote_jca_inflow_ActivationWork "class in com.jbase.jremote.jca.inflow") (implements javax.resource.spi.work.Work)
-    - com.jbase.jremote.jca.inflow.[ActivationWorkListener](/39262-inflow/com_jbase_jremote_jca_inflow_ActivationWorkListener "class in com.jbase.jremote.jca.inflow") (implements javax.resource.spi.work.WorkListener)
-    - com.jbase.jremote.jca.inflow.[EndpointAdapter](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapter "class in com.jbase.jremote.jca.inflow") (implements com.jbase.jremote.jca.inflow.[EndpointAdapterMBean](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapterMBean "interface in com.jbase.jremote.jca.inflow"))
-    - com.jbase.jremote.jca.inflow.[InboundRequestHandler](/39262-inflow/com_jbase_jremote_jca_inflow_InboundRequestHandler "class in com.jbase.jremote.jca.inflow") (implements com.jbase.jremote.io.inflow.[RequestHandler](/39256-inflow/com_jbase_jremote_io_inflow_RequestHandler "interface in com.jbase.jremote.io.inflow"))
-    - com.jbase.jremote.jca.inflow.[JRemoteActivationSpec](/39262-inflow/com_jbase_jremote_jca_inflow_JRemoteActivationSpec "class in com.jbase.jremote.jca.inflow") (implements javax.resource.spi.ActivationSpec, java.io.[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"))
-    - com.jbase.jremote.io.[ObjectFactory](/39250-io/com_jbase_jremote_io_objectfactory "class in com.jbase.jremote.io")
-        - com.jbase.jremote.jca.inflow.[InboundObjectFactory](/39262-inflow/com_jbase_jremote_jca_inflow_InboundObjectFactory "class in com.jbase.jremote.jca.inflow")
+    - com.jbase.jremote.jca.inflow.[ActivationWork](./../activationwork-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") (implements javax.resource.spi.work.Work)
+    - com.jbase.jremote.jca.inflow.[ActivationWorkListener](./../activationworklistener-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") (implements javax.resource.spi.work.WorkListener)
+    - com.jbase.jremote.jca.inflow.[EndpointAdapter](./../endpointadapter-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") (implements com.jbase.jremote.jca.inflow.[EndpointAdapterMBean](./../endpointadaptermbean-%28jremote---api%29 "interface in com.jbase.jremote.jca.inflow"))
+    - com.jbase.jremote.jca.inflow.[InboundRequestHandler](./../inboundrequesthandler-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") (implements com.jbase.jremote.io.inflow.[RequestHandler](./../../../io/inflow/requesthandler-%28jremote---api%29 "interface in com.jbase.jremote.io.inflow"))
+    - com.jbase.jremote.jca.inflow.[JRemoteActivationSpec](./../jremoteactivationspec-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") (implements javax.resource.spi.ActivationSpec, java.io.[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"))
+    - com.jbase.jremote.io.[ObjectFactory](./../../../io/objectfactory-%28jremote---api%29 "class in com.jbase.jremote.io")
+        - com.jbase.jremote.jca.inflow.[InboundObjectFactory](./../inboundobjectfactory-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow")
 
 
 ## Interface Hierarchy
 
-- com.jbase.jremote.jca.inflow.[EndpointAdapterMBean](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapterMBean "interface in com.jbase.jremote.jca.inflow")
-- com.jbase.jremote.jca.inflow.[EndpointMBean](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointMBean "interface in com.jbase.jremote.jca.inflow")
+- com.jbase.jremote.jca.inflow.[EndpointAdapterMBean](./../endpointadaptermbean-%28jremote---api%29 "interface in com.jbase.jremote.jca.inflow")
+- com.jbase.jremote.jca.inflow.[EndpointMBean](./../endpointmbean-%28jremote---api%29 "interface in com.jbase.jremote.jca.inflow")
 - javax.resource.spi.endpoint.MessageEndpoint
-    - com.jbase.jremote.jca.inflow.[JRemoteMessageListener](/39262-inflow/com_jbase_jremote_jca_inflow_JRemoteMessageListener "interface in com.jbase.jremote.jca.inflow")
+    - com.jbase.jremote.jca.inflow.[JRemoteMessageListener](./../jremotemessagelistener-%28jremote---api%29 "interface in com.jbase.jremote.jca.inflow")
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+- [Package](./../com.jbase.jremote.jca.inflow-%28jremote---api%29)
 - Class
 - Use
 - Tree
@@ -69,12 +69,12 @@ Skip navigation links
 
 jremote <br>
 
-- [Prev](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
-- [Next](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
+- [Prev](./../../cci/com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
+- [Next](./../protocol/com.jbase.jremote.jca.inflow.protocol-class-hierarchy-%28jremote---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/inflow//39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
-- [No Frames](/39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

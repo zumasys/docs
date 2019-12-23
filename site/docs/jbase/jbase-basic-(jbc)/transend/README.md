@@ -23,4 +23,4 @@ Any record locks set during the transaction will be released upon successful com
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

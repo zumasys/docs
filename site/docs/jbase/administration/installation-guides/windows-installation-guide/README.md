@@ -38,7 +38,7 @@ The jBASE installer provides two installation modes: **Express**and**Advanced**
 
 - Please download jBASE and request evaluation from [https://www.zumasys.com/downloads/](https://www.zumasys.com/downloads/)
 - The jRemote client will be located in C:\jBASE\CurrentVersion\clients\csjrcs
-- jBASE requires a [C Compiler](323804-windows-compiler-installation)
+- jBASE requires a [C Compiler](./../windows-compiler-installation)
 
 
 Each step in this guide will highlight which mode this step pertains to. If you do not see the step during installation, skip to the next step as it may not apply to the mode chosen.
@@ -53,7 +53,7 @@ Applies to:**Express** **Advanced**
 
 
 
-2. jBase requires a c compiler to make it possible to compile programs. A guide to installing and configuring an appropriate c compiler can be found [here](323804-windows-compiler-installation).
+2. jBase requires a c compiler to make it possible to compile programs. A guide to installing and configuring an appropriate c compiler can be found [here](./../windows-compiler-installation).
 
 
 
@@ -111,9 +111,9 @@ The options are:
 
 **Initialize the print spooler**Select this option to initialize the default print spooler configuration after a new installation. Please note this option is unavailable for upgrade installations.
 
-**Start telnet server**The jBASE telnet server is required to support remote connections to jBASE over telnet. The telnet server runs as a Windows service. By default, the telnet server listens on TCP port 23.  More information on configuring the jBASE telnet server [here](www.jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/telnet1.htm).
+**Start telnet server**The jBASE telnet server is required to support remote connections to jBASE over telnet. The telnet server runs as a Windows service. By default, the telnet server listens on TCP port 23.  More information on configuring the jBASE telnet server [here](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/telnet1.htm).
 
-**Start jRCS service**The jBASE Remote Connectivity Server (jRCS) provides remote access to your jBASE system. jBASE System Manager uses this service to perform management tasks on your jBASE system. By default, the jRCS server listens on TCP port 8236. See the jBASE knowledgebase article [JRCS](http://jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/JRCS_JRCS.htm) for more information regarding jRCS.
+**Start jRCS service**The jBASE Remote Connectivity Server (jRCS) provides remote access to your jBASE system. jBASE System Manager uses this service to perform management tasks on your jBASE system. By default, the jRCS server listens on TCP port 8236. See the jBASE knowledgebase article [JRCS](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/JRCS_JRCS.htm) for more information regarding jRCS.
 
 
 
@@ -179,15 +179,15 @@ Applies to:**Express** **Advanced**![323805-windows-jbase-installation: 15295728
 
 ### See Next:
 
-[INSTALLING WINDOWS COMPILER](323804-windows-compiler-installation)
+[INSTALLING WINDOWS COMPILER](./../windows-compiler-installation)
 
-[UPGRADING FROM A PREVIOUS VERSION](upgrading-from-a-previous-version)
+[UPGRADING FROM A PREVIOUS VERSION](./../upgrading-from-a-previous-version)
 
-[MANUAL INSTALLATION OF JDLS SERVICE](manual-installation-of-jdls-service)
+[MANUAL INSTALLATION OF JDLS SERVICE](./../../../jbase/manual-installation-of-jdls-service)
 
-[CREATING ACCOUNTS AND USERS](create-accounts-and-users)
+[CREATING ACCOUNTS AND USERS](./../create-accounts-and-users)
 
-[MANUAL LICENSE KEY INSTALLATION](manual-license-key-installation)
+[MANUAL LICENSE KEY INSTALLATION](./../manual-license-key-installation)
 
 
 

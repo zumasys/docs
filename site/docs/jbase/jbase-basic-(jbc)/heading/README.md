@@ -36,7 +36,7 @@ Alphabetic special characters are case insensitive, e.g. "D" is the same as "d".
 ## Note:
 
 
-> If output is to the printer, a [PRINTER ON](277632-printer) statement is in use, and does not page output sent to the terminal with the [CRT](266868-crt) statement. Unless you specify the “N” option, all output sent to the terminal is paged.
+> If output is to the printer, a [PRINTER ON](./../printer) statement is in use, and does not page output sent to the terminal with the [CRT](./../crt) statement. Unless you specify the “N” option, all output sent to the terminal is paged.
 
 
 An example of use is as:
@@ -47,4 +47,4 @@ An example of use is as:
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

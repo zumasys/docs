@@ -23,7 +23,7 @@ Where:
 - Each element of **dynamic array** is converted to the internal format specified by conversion and is returned in a **dynamic array**. If multiple codes are used, they are applied from left to right. The first conversion code converts the value of each element of **d****ynamic array**. The second conversion code converts the value of each element of the output of the first conversion, and so on. If dynamic.array evaluates to null, it returns null. If an element of **dynamic array**is null, null it returns null for that element. If conversion evaluates to null, the **ICONVS()**function fails and the program terminates with a run-time error message.
 
 
-The [STATUS](278661-status-function) function reflects the result of the conversion:
+The [STATUS](./../status-function) function reflects the result of the conversion:
 
 
 | Status<br> | Result<br> |
@@ -50,8 +50,8 @@ to output :
 10808,17959,7077,0.
 ```
 
-For information about converting elements in a dynamic array to an external format see [OCONVS](277530-oconvs).
+For information about converting elements in a dynamic array to an external format see [OCONVS](./../oconvs).
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -69,6 +69,6 @@ The GOSUB  command on line 10 transfers control to label 1000 on line 31. When 
 
 
 
-See also["\[ \] {n}" command](318585-jcl-command)
+See also["\[ \] {n}" command](./../jcl-[]-command)
 
-Back to[JCL Commands](jcl-commands)
+Back to[JCL Commands](./../jcl-commands)

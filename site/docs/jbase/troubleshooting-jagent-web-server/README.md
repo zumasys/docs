@@ -62,7 +62,7 @@ Here is the same thing with Microsoft Edge.
 
 ![317527-troubleshooting-jagent-web-server: 1526674654522-1526674654522](./1526674654522-1526674654522.jpg)
 
-If you cannot connect using either of the above techniques then it usually means jAgent is not running.  You should review the jAgent [documentation](/30312-jagent/introduction-to-jagent)
+If you cannot connect using either of the above techniques then it usually means jAgent is not running.  You should review the jAgent [documentation](./../jagent/introduction-to-jagent)
 
 ## Run jAgent in the Foreground
 

@@ -9,15 +9,15 @@
 
 ## Description
 
-This statement is syntactically similar to the [READNEXT](278659-readnext) but it works in reverse order. There are some considerations when the direction is changed from a forward search to a backward search or vice-versa.
+This statement is syntactically similar to the [READNEXT](./../readnext) but it works in reverse order. There are some considerations when the direction is changed from a forward search to a backward search or vice-versa.
 
-When a [SELECT](278801-select) statement is first executed a forward direction is assumed. Therefore if a [SELECT](278801-select) is immediately followed by a **READPREV**, then a change of direction is assumed.
+When a [SELECT](./../select) statement is first executed a forward direction is assumed. Therefore if a [SELECT](./../select) is immediately followed by a **READPREV**, then a change of direction is assumed.
 
-During the [READNEXT](278659-readnext) or **READPREV** sequence a next-key pointer is kept up to date. This is the record key, or index key to use should a [READNEXT](278659-readnext) be executed.
+During the [READNEXT](./../readnext) or **READPREV** sequence a next-key pointer is kept up to date. This is the record key, or index key to use should a [READNEXT](./../readnext) be executed.
 
-During a change of direction from forward ([READNEXT](278659-readnext)) to backward (**READPREV**) then the next record key or index key read in by the **READPREV** will be the one preceding the next-key pointer.
+During a change of direction from forward ([READNEXT](./../readnext)) to backward (**READPREV**) then the next record key or index key read in by the **READPREV** will be the one preceding the next-key pointer.
 
-When the select list is exhausted it will either point one before the start of the select list (if **READPREV**s have been executed) or one past the end of the select list (if[READNEXT](278659-readnext)s have been executed). Thus in the event of a change of direction the very first or very last index key or record key will be used.
+When the select list is exhausted it will either point one before the start of the select list (if **READPREV**s have been executed) or one past the end of the select list (if[READNEXT](./../readnext)s have been executed). Thus in the event of a change of direction the very first or very last index key or record key will be used.
 
 For example, consider the following:
 
@@ -28,7 +28,7 @@ SELECT LIST_VAR
 
 
 
-the table shows what happens if [READNEXT](278659-readnext)s and **READPREV**s on the above code and the reasons for it.
+the table shows what happens if [READNEXT](./../readnext)s and **READPREV**s on the above code and the reasons for it.
 
 
 |  Statement executed<br> |  Result of operation <br> |  Comment<br> |
@@ -47,7 +47,7 @@ the table shows what happens if [READNEXT](278659-readnext)s and **READPREV**s o
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 
 

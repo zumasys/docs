@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39221-charset/com_jbase_framework_io_charset_package-summary)
+- [Package](./../com.jbase.framework.io.charset-%28framework---api%29)
 - Class
-- [Use](/39222-class-use/com_jbase_framework_io_charset_class-use_JbasePrivateUseCharsetEncoder)
-- [Tree](/39221-charset/com_jbase_framework_io_charset_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.charset.jbaseprivateusecharsetencoder-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.charset-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Class](/39221-charset/com_jbase_framework_io_charset_JbasePrivateUseCharsetDecoder "class in com.jbase.framework.io.charset")
+- [Prev Class](./../jbaseprivateusecharsetdecoder-%28framework---api%29 "class in com.jbase.framework.io.charset")
 - Next Class
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/charset//39221-charset/com_jbase_framework_io_charset_JbasePrivateUseCharsetEncoder)
-- [No Frames](/39221-charset/com_jbase_framework_io_charset_JbasePrivateUseCharsetEncoder)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -152,22 +152,22 @@ Specified by:`encodeLoop` in class `CharsetEncoder`
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39221-charset/com_jbase_framework_io_charset_package-summary)
+- [Package](./../com.jbase.framework.io.charset-%28framework---api%29)
 - Class
-- [Use](/39222-class-use/com_jbase_framework_io_charset_class-use_JbasePrivateUseCharsetEncoder)
-- [Tree](/39221-charset/com_jbase_framework_io_charset_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.charset.jbaseprivateusecharsetencoder-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.charset-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Class](/39221-charset/com_jbase_framework_io_charset_JbasePrivateUseCharsetDecoder "class in com.jbase.framework.io.charset")
+- [Prev Class](./../jbaseprivateusecharsetdecoder-%28framework---api%29 "class in com.jbase.framework.io.charset")
 - Next Class
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/charset//39221-charset/com_jbase_framework_io_charset_JbasePrivateUseCharsetEncoder)
-- [No Frames](/39221-charset/com_jbase_framework_io_charset_JbasePrivateUseCharsetEncoder)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

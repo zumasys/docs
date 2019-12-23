@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39251-charset/com_jbase_jremote_io_charset_package-summary)
-- [Class](/39251-charset/com_jbase_jremote_io_charset_JbaseCharset "class in com.jbase.jremote.io.charset")
+- [Package](./../../com.jbase.jremote.io.charset-%28jremote---api%29)
+- [Class](./../../jbasecharset-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
 - Use
-- [Tree](/39251-charset/com_jbase_jremote_io_charset_package-tree)
+- [Tree](./../../com.jbase.jremote.io.charset-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/io/charset/class-use//39252-class-use/com_jbase_jremote_io_charset_class-use_JbaseCharset)
-- [No Frames](/39252-class-use/com_jbase_jremote_io_charset_class-use_JbaseCharset)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ jremote <br>
 ## Uses of Class
 com.jbase.jremote.io.charset.JbaseCharset
 
-- Packages that use [JbaseCharset](/39251-charset/com_jbase_jremote_io_charset_JbaseCharset "class in com.jbase.jremote.io.charset") | Package | Description |
+- Packages that use [JbaseCharset](./../../jbasecharset-%28jremote---api%29 "class in com.jbase.jremote.io.charset") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.io.charset |   |
-- - ### Uses of [JbaseCharset](/39251-charset/com_jbase_jremote_io_charset_JbaseCharset "class in com.jbase.jremote.io.charset") in [com.jbase.jremote.io.charset](/39251-charset/com_jbase_jremote_io_charset_package-summary)
+- - ### Uses of [JbaseCharset](./../../jbasecharset-%28jremote---api%29 "class in com.jbase.jremote.io.charset") in [com.jbase.jremote.io.charset](./../../com.jbase.jremote.io.charset-%28jremote---api%29)
 
 
-Constructors in [com.jbase.jremote.io.charset](/39251-charset/com_jbase_jremote_io_charset_package-summary) with parameters of type [JbaseCharset](/39251-charset/com_jbase_jremote_io_charset_JbaseCharset "class in com.jbase.jremote.io.charset") | Constructor and Description |
+Constructors in [com.jbase.jremote.io.charset](./../../com.jbase.jremote.io.charset-%28jremote---api%29) with parameters of type [JbaseCharset](./../../jbasecharset-%28jremote---api%29 "class in com.jbase.jremote.io.charset") | Constructor and Description |
 | --- |
 | `JbaseCharsetDecoder(JbaseCharset charset)`  |
 | `JbaseCharsetEncoder(JbaseCharset charset)`  |
@@ -50,10 +50,10 @@ Constructors in [com.jbase.jremote.io.charset](/39251-charset/com_jbase_jremote_
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39251-charset/com_jbase_jremote_io_charset_package-summary)
-- [Class](/39251-charset/com_jbase_jremote_io_charset_JbaseCharset "class in com.jbase.jremote.io.charset")
+- [Package](./../../com.jbase.jremote.io.charset-%28jremote---api%29)
+- [Class](./../../jbasecharset-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
 - Use
-- [Tree](/39251-charset/com_jbase_jremote_io_charset_package-tree)
+- [Tree](./../../com.jbase.jremote.io.charset-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -64,8 +64,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/io/charset/class-use//39252-class-use/com_jbase_jremote_io_charset_class-use_JbaseCharset)
-- [No Frames](/39252-class-use/com_jbase_jremote_io_charset_class-use_JbaseCharset)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

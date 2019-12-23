@@ -353,7 +353,7 @@ CREATE-FILE DATA SAMPLE 11 101
 
 ### Note:
 
-Since the introduction of dynamic files in jBASE 5.7, the default file created in jBASE is a dynamic file and does not require the size of the file to be set.  Dynamic files do not require resizing.  Additional information about dynamic files can be found [here](306073-dynamic-files).
+Since the introduction of dynamic files in jBASE 5.7, the default file created in jBASE is a dynamic file and does not require the size of the file to be set.  Dynamic files do not require resizing.  Additional information about dynamic files can be found [here](./../../files/dynamic-files).
 
 
 
@@ -506,7 +506,7 @@ Attribute 0010 - Is specifying the text length as 15 characters
 
 
 
-### [Dictionary Data Structure](/46350-jql/data-definition-records)
+### [Dictionary Data Structure](./../../jql/data-definition-records---dictionary-structure)
 
 
 | Field | Description |

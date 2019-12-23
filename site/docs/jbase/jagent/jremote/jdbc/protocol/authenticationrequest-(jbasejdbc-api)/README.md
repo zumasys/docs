@@ -10,7 +10,7 @@ JavaScript is disabled on your browser.
 
 
 # Class AuthenticationRequest
-All Implemented Interfaces:[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 ```
 public class AuthenticationRequest
 extends Object
@@ -59,8 +59,8 @@ Request for authentication.
 | --- | --- |
 | <br>int<br> | <br>getType()<br> |
 | <br>int<br> | <br>getVersion()<br> |
-| <br>void<br> | <br>readObject([JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") reader, int version)<br> |
-| <br>void<br> | <br>writeObject([JBaseObjectWriter](/39232-io/com_jbase_jdbc_io_jbaseobjectwriter "interface in com.jbase.jdbc.io") writer, int version)<br> |
+| <br>void<br> | <br>readObject([JBaseObjectReader](./../../io/jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") reader, int version)<br> |
+| <br>void<br> | <br>writeObject([JBaseObjectWriter](./../../io/jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") writer, int version)<br> |
 
 
 

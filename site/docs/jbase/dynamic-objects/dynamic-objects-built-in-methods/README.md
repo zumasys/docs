@@ -9,34 +9,34 @@ Dynamic Objects contains a number of built-in methods that can be applied to any
 
 All built-in methods start with "$".
 
-- [$append()](method-append)
-- [$classname()](method-classname)
-- [$clear()](method-clear)
-- [$clone()](method-clone)
-- [$delete()](method-delete)
-- [$dump()](method-dump)
-- [$equals()](method-equals)
-- [$fromfile()](method-fromfile)
-- [$fromjson()](method-fromjson)
-- [$insert()](method-insert)
-- [$isfile()](method-isfile)
-- [$ismethod()](method-ismethod)
-- [$isobject()](method-isobject)
-- [$isproperty()](method-isproperty)
-- [$keys()](method-keys)
-- [$lasterror()](method-lasterror)
-- [$locate()](method-locate)
-- [$merge()](method-merge-arrays) -- arrays
-- [$merge()](method-merge-objects) -- objects
-- [$objecttype()](method-objecttype)
-- [$prepend()](method-prepend)
-- [$refcount()](method-refcount)
-- [$setboolean()](method-setboolean)
-- [$setnull()](method-setnull)
-- [$setserialize()](method-setserialize)
-- [$size()](method-size)
-- [$sort()](method-sort-arrays) -- arrays
-- [$sort()](method-sort-objects) -- objects
-- [$tojson()](method-tojson)
-- [$valuetype()](method-valuetype)
+- [$append()](./../method-$append%28%29)
+- [$classname()](./../method-$classname%28%29)
+- [$clear()](./../method-$clear%28%29)
+- [$clone()](./../method-$clone%28%29)
+- [$delete()](./../method-$delete%28%29)
+- [$dump()](./../method-$dump%28%29)
+- [$equals()](./../method-$equals%28%29)
+- [$fromfile()](./../method-$fromfile%28%29)
+- [$fromjson()](./../method-$fromjson%28%29)
+- [$insert()](./../method-$insert%28%29)
+- [$isfile()](./../method-$isfile%28%29)
+- [$ismethod()](./../method-$ismethod%28%29&method-$hasmethod%28%29)
+- [$isobject()](./../method-$isobject%28%29)
+- [$isproperty()](./../method-$isproperty%28%29&method-$hasproperty%28%29)
+- [$keys()](./../method-$keys%28%29)
+- [$lasterror()](./../method-$lasterror%28%29)
+- [$locate()](./../method-$locate%28%29)
+- [$merge()](./../method-$merge%28%29-arrays) -- arrays
+- [$merge()](./../method-$merge%28%29-objects) -- objects
+- [$objecttype()](./../method-$objecttype%28%29)
+- [$prepend()](./../method-$prepend%28%29)
+- [$refcount()](./../method-$refcount%28%29)
+- [$setboolean()](./../method-$setboolean%28%29)
+- [$setnull()](./../method-$setnull%28%29)
+- [$setserialize()](./../method-$setserialize%28%29)
+- [$size()](./../method-$size%28%29)
+- [$sort()](./../method-$sort%28%29-arrays) -- arrays
+- [$sort()](./../method-$sort%28%29-objects) -- objects
+- [$tojson()](./../method-$tojson%28%29)
+- [$valuetype()](./../method-$valuetype%28%29)
 

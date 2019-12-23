@@ -31,10 +31,10 @@ The current position is incremented to beyond the last byte written. **WRITEBLK*
 
 When using the**WRITEBLK** statement in International Mode, care must be taken to ensure that the write variable is handled properly before the **WRITEBLK** statement. The **WRITEBLK** statement expects the output variable to be in “bytes”, however when manipulating variables in International Mode character length rather than byte lengths are usually used and hence possible confusion or program malfunction can occur.
 
-If requiring byte count data the output variable can be converted from the UTF-8 byte sequence to ‘binary/latin1’ via the [LATIN1](276805-latin1) function.
+If requiring byte count data the output variable can be converted from the UTF-8 byte sequence to ‘binary/latin1’ via the [LATIN1](./../latin1) function.
 
-It is not recommended that the [READBLK](277637-readblk)/**WRITEBLK**statements be used when executing in International Mode. Similar functionality may be obtained via the [READSEQ](278773-readseq)/[WRITESEQ](279570-writeseq) statement, which can be used to read/write, characters a line at a time from a file.
+It is not recommended that the [READBLK](./../readblk)/**WRITEBLK**statements be used when executing in International Mode. Similar functionality may be obtained via the [READSEQ](./../readseq)/[WRITESEQ](./../writeseq) statement, which can be used to read/write, characters a line at a time from a file.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

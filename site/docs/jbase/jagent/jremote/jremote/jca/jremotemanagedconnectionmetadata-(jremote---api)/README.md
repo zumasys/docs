@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
+- [Package](./../com.jbase.jremote.jca-%28jremote---api%29)
 - Class
-- [Use](/39261-class-use/com_jbase_jremote_jca_class-use_JRemoteManagedConnectionMetaData)
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.jremotemanagedconnectionmetadata-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionFactory "class in com.jbase.jremote.jca")
-- [Next Class](/39258-jca/com_jbase_jremote_jca_JRemoteRequestProcessingFactory "class in com.jbase.jremote.jca")
+- [Prev Class](./../jremotemanagedconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca")
+- [Next Class](./../jremoterequestprocessingfactory-%28jremote---api%29 "class in com.jbase.jremote.jca")
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/jca//39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionMetaData)
-- [No Frames](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionMetaData)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -137,22 +137,22 @@ Specified by:`getUserName` in interface `javax.resource.spi.ManagedConnectionMet
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
+- [Package](./../com.jbase.jremote.jca-%28jremote---api%29)
 - Class
-- [Use](/39261-class-use/com_jbase_jremote_jca_class-use_JRemoteManagedConnectionMetaData)
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.jremotemanagedconnectionmetadata-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionFactory "class in com.jbase.jremote.jca")
-- [Next Class](/39258-jca/com_jbase_jremote_jca_JRemoteRequestProcessingFactory "class in com.jbase.jremote.jca")
+- [Prev Class](./../jremotemanagedconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca")
+- [Next Class](./../jremoterequestprocessingfactory-%28jremote---api%29 "class in com.jbase.jremote.jca")
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/jca//39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionMetaData)
-- [No Frames](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionMetaData)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

@@ -88,6 +88,6 @@ to display: A]1]Vendor Name]]]]]L]30
 
 
 
-See also: [TRANS](278970-trans).
+See also: [TRANS](./../trans).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

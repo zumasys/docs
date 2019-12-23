@@ -23,7 +23,7 @@ Labels can be numeric or alphanumeric but alphanumeric labels must be terminated
 ## Note: 
 
 
-> Using the **GOTO** command obscures the readability of the code and may be a hindrance to maintainability. All programs written using the **GOTO**construct can be written using structured statements such as [LOOP](276941-loop) and [FOR](279813-for). There are various opinions on this issue but the consensus is, avoid **GOTO**.
+> Using the **GOTO** command obscures the readability of the code and may be a hindrance to maintainability. All programs written using the **GOTO**construct can be written using structured statements such as [LOOP](./../loop) and [FOR](./../for). There are various opinions on this issue but the consensus is, avoid **GOTO**.
 
 
 One possibly acceptable use of the **GOTO** statement is to transfer execution to an error handler upon detection of a fatal error that will cause the program to terminate as follows:
@@ -37,4 +37,4 @@ Exception:* exception handler
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

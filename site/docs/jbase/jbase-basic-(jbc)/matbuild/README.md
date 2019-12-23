@@ -42,4 +42,4 @@ Builds a 5 element string separated by a : character. '**MATBUILD**Dynamic FROM 
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

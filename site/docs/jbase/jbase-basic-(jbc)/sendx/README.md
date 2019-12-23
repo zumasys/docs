@@ -15,7 +15,7 @@ SENDX output {:} TO FileVar THEN | ELSE statements
 
 Where:
 
-The output is an expression evaluating to a string that will be sent to the output device (specified by FileVar). It is expected that [OPENSER](277544-openser) or [OPENSEQ](277543-openseq) has already opened the device.
+The output is an expression evaluating to a string that will be sent to the output device (specified by FileVar). It is expected that [OPENSER](./../openser) or [OPENSEQ](./../openseq) has already opened the device.
 
 The**SENDX**statement will append a newline sequence to the final output expression unless it is terminated with a colon ":" character.
 
@@ -27,6 +27,6 @@ The**SENDX**statement will append a newline sequence to the final output express
 
 The **SENDX**syntax requires a specified THEN or ELSE clause, or both. If the data is send without error, it executes the THEN clause. If the data cannot be sent, it executes the ELSE clause.
 
-See also: [SEND](279584-send).
+See also: [SEND](./../send).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

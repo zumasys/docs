@@ -14,7 +14,7 @@ com.jbase.jremote.JSubroutineNotFoundException
 
 | Package<br> | Description<br> |
 | --- | --- |
- Packages that use [JSubroutineNotFoundException](/39248-jremote/com_jbase_jremote_jsubroutinenotfoundexception "class in com.jbase.jremote")  | com.jbase.jremote<br> |  <br> |
+ Packages that use [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote")  | com.jbase.jremote<br> |  <br> |
 | com.jbase.jremote.io<br> |  <br> |
 | com.jbase.jremote.jca<br> |  <br> |
 
@@ -22,35 +22,35 @@ com.jbase.jremote.JSubroutineNotFoundException
 
 
 
-### Uses of [JSubroutineNotFoundException](/39248-jremote/com_jbase_jremote_jsubroutinenotfoundexception "class in com.jbase.jremote") in [com.jbase.jremote](/30312-jagent/jremote-api)
+### Uses of [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote](/30312-jagent/jremote-api) that throw [JSubroutineNotFoundException](/39248-jremote/com_jbase_jremote_jsubroutinenotfoundexception "class in com.jbase.jremote")  | `JSubroutineParameters`<br> | JConnection.`call(String subroutineName, JSubroutineParameters parameters)`<br>Call a jBASE subroutine.<br> |
+ Methods in [com.jbase.jremote](./../../../../jremote-api) that throw [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote")  | `JSubroutineParameters`<br> | JConnection.`call(String subroutineName, JSubroutineParameters parameters)`<br>Call a jBASE subroutine.<br> |
 
 
 
 
 
 
-### Uses of [JSubroutineNotFoundException](/39248-jremote/com_jbase_jremote_jsubroutinenotfoundexception "class in com.jbase.jremote") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
-
-
-| Modifier and Type<br> | Method and Description<br> |
-| --- | --- |
- Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) that throw [JSubroutineNotFoundException](/39248-jremote/com_jbase_jremote_jsubroutinenotfoundexception "class in com.jbase.jremote")  | `JSubroutineParameters`<br> | JConnectionImpl.`call(String subroutineName, JSubroutineParameters parameters)` <br> |
-
-
-
-
-
-
-### Uses of [JSubroutineNotFoundException](/39248-jremote/com_jbase_jremote_jsubroutinenotfoundexception "class in com.jbase.jremote") in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary)
+### Uses of [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29)
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) that throw [JSubroutineNotFoundException](/39248-jremote/com_jbase_jremote_jsubroutinenotfoundexception "class in com.jbase.jremote")  | `JSubroutineParameters`<br> | WrappedJConnection.`call(String subroutineName, JSubroutineParameters parameters)`<br>Call jBASE subroutine.<br> |
+ Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) that throw [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote")  | `JSubroutineParameters`<br> | JConnectionImpl.`call(String subroutineName, JSubroutineParameters parameters)` <br> |
+
+
+
+
+
+
+### Uses of [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29)
+
+
+| Modifier and Type<br> | Method and Description<br> |
+| --- | --- |
+ Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29) that throw [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote")  | `JSubroutineParameters`<br> | WrappedJConnection.`call(String subroutineName, JSubroutineParameters parameters)`<br>Call jBASE subroutine.<br> |
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

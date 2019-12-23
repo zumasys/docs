@@ -55,6 +55,6 @@ If the SALES file is opened, execution continues with line 004. Otherwise, the p
 
 
 
-See also  [F-KLOSE](318663-jcl-f-klose)
+See also  [F-KLOSE](./../jcl-f--klose)
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

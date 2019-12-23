@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
-- [Class](/39228-jdbc/com_jbase_jdbc_jbasejdbcsocketconnection "class in com.jbase.jdbc")
+- [Package](./../../jbase-jdbc-api)
+- [Class](./../../jbasejdbcsocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
 - Use
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Tree](./../../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/class-use//39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCSocketConnection)
-- [No Frames](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCSocketConnection)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ jbasejdbc <br>
 ## Uses of Class
 com.jbase.jdbc.JBaseJDBCSocketConnection
 
-- Packages that use [JBaseJDBCSocketConnection](/39228-jdbc/com_jbase_jdbc_jbasejdbcsocketconnection "class in com.jbase.jdbc") | Package | Description |
+- Packages that use [JBaseJDBCSocketConnection](./../../jbasejdbcsocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc |   |
-- - ### Uses of [JBaseJDBCSocketConnection](/39228-jdbc/com_jbase_jdbc_jbasejdbcsocketconnection "class in com.jbase.jdbc") in [com.jbase.jdbc](/39228-jdbc/com_jbase_jdbc_package-summary)
+- - ### Uses of [JBaseJDBCSocketConnection](./../../jbasejdbcsocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc") in [com.jbase.jdbc](./../../jbase-jdbc-api)
 
 
-Constructors in [com.jbase.jdbc](/39228-jdbc/com_jbase_jdbc_package-summary) with parameters of type [JBaseJDBCSocketConnection](/39228-jdbc/com_jbase_jdbc_jbasejdbcsocketconnection "class in com.jbase.jdbc") | Constructor and Description |
+Constructors in [com.jbase.jdbc](./../../jbase-jdbc-api) with parameters of type [JBaseJDBCSocketConnection](./../../jbasejdbcsocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc") | Constructor and Description |
 | --- |
 | `JbaseJDBCCallableStatement(JBaseJDBCSocketConnection connection,<br>                          String sql)`  |
 | `JBaseJDBCDatabaseMetaData(JBaseJDBCSocketConnection connection)`<br>Constructor.<br> |
@@ -53,10 +53,10 @@ Constructors in [com.jbase.jdbc](/39228-jdbc/com_jbase_jdbc_package-summary) wit
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
-- [Class](/39228-jdbc/com_jbase_jdbc_jbasejdbcsocketconnection "class in com.jbase.jdbc")
+- [Package](./../../jbase-jdbc-api)
+- [Class](./../../jbasejdbcsocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
 - Use
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Tree](./../../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -67,8 +67,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/class-use//39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCSocketConnection)
-- [No Frames](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCSocketConnection)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

@@ -26,4 +26,4 @@ Where the **expression** should evaluate to a valid path name within the file sy
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

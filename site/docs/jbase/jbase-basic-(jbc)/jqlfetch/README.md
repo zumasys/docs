@@ -15,7 +15,7 @@ JQLFETCH (Statement, ControlVar, DataVar)
 
 Where:
 
-- Statement is the result of a valid call to [JQLCOMPILE](276773-5-jqlcompile), followed by a valid call to [JQLEXECUTE](276783-jqlexecute).
+- Statement is the result of a valid call to [JQLCOMPILE](./../jqlcompile), followed by a valid call to [JQLEXECUTE](./../jqlexecute).
 - ControlVar will receive the ‘control break’ elements of any query. For example, if there are BREAK values in the statement, described here is the format of ControlVar:
 
 
@@ -35,10 +35,10 @@ Where:
 
 Applies Attribute 7 Conversions (or attribute 3 in Prime-style DICTS) to the data
 
-If the property STMT\_PROPERTY\_FORMAT is set then each attribute is also formatted according to the width and justification of the attribute definition and any override caused by the use of [FMT](276047-fmt), of DISPLAY.LIKE on the command line.
+If the property STMT\_PROPERTY\_FORMAT is set then each attribute is also formatted according to the width and justification of the attribute definition and any override caused by the use of [FMT](./../fmt), of DISPLAY.LIKE on the command line.
 
 Note that column headers may also affect the formatting for that column. This function is called until there is no more output (multiple).
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -5,6 +5,6 @@
 **Original Doc:** [278976-trimb](https://docs.jbase.com/36868-jbase-basic/278976-trimb)  
 
 
-The **TRIMB** function is equivalent to [TRIM(expression, " ", "T")](278975-trim).
+The **TRIMB** function is equivalent to [TRIM(expression, " ", "T")](./../trim).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

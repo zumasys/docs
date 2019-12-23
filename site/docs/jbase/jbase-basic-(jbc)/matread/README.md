@@ -19,11 +19,11 @@ MATREAD array FROM {variable1,}expression {SETTING setvar}  {ON ERROR statements
 Where:
 
 - **array** should be a previously dimensioned array, which will be used to store the record to be read.
-- If specified, **variable1** should be a jBASE BASIC variable that has previously been opened to a file using the [OPEN](277537-open) statement. If **variable1** is not specified then the default file is assumed. The **expression** should evaluate to a valid record key for the file.
+- If specified, **variable1** should be a jBASE BASIC variable that has previously been opened to a file using the [OPEN](./../open) statement. If **variable1** is not specified then the default file is assumed. The **expression** should evaluate to a valid record key for the file.
 - If no record is found and can be read from the file then it is mapped into the array and executes the THEN statements (if any). If the record cannot be read from the file then array is unchanged and executes the ELSE statements (if any).
 - If the record could not be read because another process already had a lock on the record then one of two actions is taken. If the **LOCKED** clause was specified in the statement then the statements dependent on it are executed. If no **LOCKED**clause was specified then the statement blocks (hangs)
 - until the other process releases the lock. If a **LOCKED** clause is used and the read is successful, a lock will be set.
-- If the SETTING clause is specified, **setvar** will be set to the number of fields in the record on a successful read. If the read fails, setvar will be set to one of [these values](277647-increamental-file-errors).
+- If the SETTING clause is specified, **setvar** will be set to the number of fields in the record on a successful read. If the read fails, setvar will be set to one of [these values](./../incremental-file-errors).
 
 
 If ON ERROR is specified, it executes the statements following the **ON ERROR** clause for any of the above Incremental File Errors except error 128.
@@ -63,4 +63,4 @@ An example of use is as:
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

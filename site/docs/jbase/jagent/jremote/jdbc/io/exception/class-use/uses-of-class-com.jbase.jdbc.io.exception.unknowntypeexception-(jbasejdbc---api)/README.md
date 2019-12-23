@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39236-exception/com_jbase_jdbc_io_exception_package-summary)
-- [Class](/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException "class in com.jbase.jdbc.io.exception")
+- [Package](./../../com.jbase.jdbc.io.exception-%28jbasejdbc---api%29)
+- [Class](./../../unknowntypeexception-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.exception")
 - Use
-- [Tree](/39236-exception/com_jbase_jdbc_io_exception_package-tree)
+- [Tree](./../../com.jbase.jdbc.io.exception-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jdbc/io/exception/class-use//39237-class-use/com_jbase_jdbc_io_exception_class-use_UnknownTypeException)
-- [No Frames](/39237-class-use/com_jbase_jdbc_io_exception_class-use_UnknownTypeException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ jbasejdbc <br>
 ## Uses of Class
 com.jbase.jdbc.io.exception.UnknownTypeException
 
-- Packages that use [UnknownTypeException](/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException "class in com.jbase.jdbc.io.exception") | Package | Description |
+- Packages that use [UnknownTypeException](./../../unknowntypeexception-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.exception") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.io |   |
-- - ### Uses of [UnknownTypeException](/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException "class in com.jbase.jdbc.io.exception") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary)
+- - ### Uses of [UnknownTypeException](./../../unknowntypeexception-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.exception") in [com.jbase.jdbc.io](./../../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 
 
-Methods in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) that throw [UnknownTypeException](/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException "class in com.jbase.jdbc.io.exception") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.io](./../../../com.jbase.jdbc.io-%28jbasejdbc---api%29) that throw [UnknownTypeException](./../../unknowntypeexception-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.exception") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected JBaseSerializable` | ObjectFactory.`createGenericObjects(int objectType)`<br>Creates any generic (i.e common to all framework clients) objects.<br> |
 | `protected abstract JBaseSerializable` | ObjectFactory.`createObject(int objectType)`<br>Create JBaseSerializable object from the supplied object type.<br> |
@@ -52,10 +52,10 @@ Methods in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) that
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39236-exception/com_jbase_jdbc_io_exception_package-summary)
-- [Class](/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException "class in com.jbase.jdbc.io.exception")
+- [Package](./../../com.jbase.jdbc.io.exception-%28jbasejdbc---api%29)
+- [Class](./../../unknowntypeexception-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.exception")
 - Use
-- [Tree](/39236-exception/com_jbase_jdbc_io_exception_package-tree)
+- [Tree](./../../com.jbase.jdbc.io.exception-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -66,8 +66,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jdbc/io/exception/class-use//39237-class-use/com_jbase_jdbc_io_exception_class-use_UnknownTypeException)
-- [No Frames](/39237-class-use/com_jbase_jdbc_io_exception_class-use_UnknownTypeException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

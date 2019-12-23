@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
+- [Package](./../com.jbase.framework.io-%28framework---api%29)
 - Class
-- [Use](/39223-class-use/com_jbase_framework_io_class-use_AbstractJBaseObjectReader)
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.abstractjbaseobjectreader-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -21,11 +21,11 @@ Skip navigation links
 framework <br>
 
 - Prev Class
-- [Next Class](/39220-io/com_jbase_framework_io_AbstractJBaseObjectWriter "class in com.jbase.framework.io")
+- [Next Class](./../abstractjbaseobjectwriter-%28framework---api%29 "class in com.jbase.framework.io")
 
 
-- [Frames](../../../../index.html?com/jbase/framework/io//39220-io/com_jbase_framework_io_AbstractJBaseObjectReader)
-- [No Frames](/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -53,7 +53,7 @@ com.jbase.framework.io
 - - com.jbase.framework.io.AbstractJBaseObjectReader
 
 
-- All Implemented Interfaces:[JBaseObjectReader](/39220-io/com_jbase_framework_io_JBaseObjectReader "interface in com.jbase.framework.io")Direct Known Subclasses:[IOJBaseObjectReader](/39220-io/com_jbase_framework_io_IOJBaseObjectReader "class in com.jbase.framework.io"), [NIOJBaseObjectReader](/39220-io/com_jbase_framework_io_NIOJBaseObjectReader "class in com.jbase.framework.io")
+- All Implemented Interfaces:[JBaseObjectReader](./../jbaseobjectreader-%28framework---api%29 "interface in com.jbase.framework.io")Direct Known Subclasses:[IOJBaseObjectReader](./../iojbaseobjectreader-%28framework---api%29 "class in com.jbase.framework.io"), [NIOJBaseObjectReader](./../niojbaseobjectreader-%28framework---api%29 "class in com.jbase.framework.io")
 * * *
 
 
@@ -64,7 +64,7 @@ implements JBaseObjectReader
 ```
 
 Deserializes JBaseSerializable objects sent from the jbase\_agent server,<br> or any other source of serialized JCF objects.<br><br> The clients of the class use readRootObject method to read deserialized<br> JBaseSerializable objects, @see JBaseSerializable.<br><br> Application classes implementing JBaseSerializable use JBaseObjectReader's methods<br> readObject, readInt, readString, readBytes, etc., in their readFrom method.<br> Application classes must not use readRootObject in readFrom method.<br><br> Interface of this class is simillar to the one of java.io.ObjectInputStream.<br> It does not extend java.io.ObjectInputStream because that would require<br> handling of the original Java'a serialization protocol on the jsqld server.<br><br> Concrete classes extending AbstractJBaseObjectReader should implement method createObject,
-Author:Peter KuchtaSee Also:[`and NIOJBaseObjectReader.`](/39220-io/com_jbase_framework_io_IOJBaseObjectReader "class in com.jbase.framework.io")
+Author:Peter KuchtaSee Also:[`and NIOJBaseObjectReader.`](./../iojbaseobjectreader-%28framework---api%29 "class in com.jbase.framework.io")
 
 - - ### Field Summary
 
@@ -325,10 +325,10 @@ Throws:`IOException`
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
+- [Package](./../com.jbase.framework.io-%28framework---api%29)
 - Class
-- [Use](/39223-class-use/com_jbase_framework_io_class-use_AbstractJBaseObjectReader)
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.abstractjbaseobjectreader-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -336,11 +336,11 @@ Skip navigation links
 framework <br>
 
 - Prev Class
-- [Next Class](/39220-io/com_jbase_framework_io_AbstractJBaseObjectWriter "class in com.jbase.framework.io")
+- [Next Class](./../abstractjbaseobjectwriter-%28framework---api%29 "class in com.jbase.framework.io")
 
 
-- [Frames](../../../../index.html?com/jbase/framework/io//39220-io/com_jbase_framework_io_AbstractJBaseObjectReader)
-- [No Frames](/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

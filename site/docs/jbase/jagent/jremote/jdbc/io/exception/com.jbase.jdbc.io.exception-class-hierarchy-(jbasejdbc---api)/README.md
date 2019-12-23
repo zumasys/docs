@@ -10,7 +10,7 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39236-exception/com_jbase_jdbc_io_exception_package-summary)
+- [Package](./../com.jbase.jdbc.io.exception-%28jbasejdbc---api%29)
 - Class
 - Use
 - Tree
@@ -20,12 +20,12 @@ Skip navigation links
 
 jbasejdbc <br>
 
-- [Prev](/39233-charset/com_jbase_jdbc_io_charset_package-tree)
-- [Next](/39238-inflow/com_jbase_jdbc_io_inflow_package-tree)
+- [Prev](./../../charset/com.jbase.jdbc.io.charset-class-hierarchy-%28jbasejdbc---api%29)
+- [Next](./../../inflow/com.jbase.jdbc.io.inflow-class-hierarchy-%28jbasejdbc---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/exception//39236-exception/com_jbase_jdbc_io_exception_package-tree)
-- [No Frames](/39236-exception/com_jbase_jdbc_io_exception_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -43,13 +43,13 @@ Package Hierarchies:
     - java.lang.[Throwable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Throwable.html?is-external=true "class or interface in java.lang") (implements java.io.[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"))
         - java.lang.[Exception](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Exception.html?is-external=true "class or interface in java.lang")
             - java.io.[IOException](http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true "class or interface in java.io")
-                - com.jbase.jdbc.io.exception.[UnexpectedCharacterException](/39236-exception/com_jbase_jdbc_io_exception_UnexpectedCharacterException "class in com.jbase.jdbc.io.exception")
-                - com.jbase.jdbc.io.exception.[UnknownTypeException](/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException "class in com.jbase.jdbc.io.exception")
+                - com.jbase.jdbc.io.exception.[UnexpectedCharacterException](./../unexpectedcharacterexception-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.exception")
+                - com.jbase.jdbc.io.exception.[UnknownTypeException](./../unknowntypeexception-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.exception")
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39236-exception/com_jbase_jdbc_io_exception_package-summary)
+- [Package](./../com.jbase.jdbc.io.exception-%28jbasejdbc---api%29)
 - Class
 - Use
 - Tree
@@ -59,12 +59,12 @@ Skip navigation links
 
 jbasejdbc <br>
 
-- [Prev](/39233-charset/com_jbase_jdbc_io_charset_package-tree)
-- [Next](/39238-inflow/com_jbase_jdbc_io_inflow_package-tree)
+- [Prev](./../../charset/com.jbase.jdbc.io.charset-class-hierarchy-%28jbasejdbc---api%29)
+- [Next](./../../inflow/com.jbase.jdbc.io.inflow-class-hierarchy-%28jbasejdbc---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/exception//39236-exception/com_jbase_jdbc_io_exception_package-tree)
-- [No Frames](/39236-exception/com_jbase_jdbc_io_exception_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

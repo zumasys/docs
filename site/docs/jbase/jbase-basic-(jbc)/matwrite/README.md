@@ -19,10 +19,10 @@ MATWRITE array ON { variable,}expression {SETTING setvar} {ON ERROR statements}
 Where:
 
 - **array** should be a previously dimensioned and initialized array.
-- If specified, **variable** should be a previously opened file variable (i.e. the subject of an [OPEN](277537-open) statement). If **variable** is not specified the default file variable is used.
+- If specified, **variable** should be a previously opened file variable (i.e. the subject of an [OPEN](./../open) statement). If **variable** is not specified the default file variable is used.
 - **expression** should evaluate to the name of the record in the file.
-- If the SETTING clause is specified and the write succeeds, **setvar** will be set to the number of attributes read into array. If the SETTING clause is specified and the write fails, **setvar** will be set to one of [these values](277647-increamental-file-errors).
-- If ON ERROR is specified, the statements following the ON ERROR clause will be executed for any of [these values](277647-increamental-file-errors) except error 128.
+- If the SETTING clause is specified and the write succeeds, **setvar** will be set to the number of attributes read into array. If the SETTING clause is specified and the write fails, **setvar** will be set to one of [these values](./../incremental-file-errors).
+- If ON ERROR is specified, the statements following the ON ERROR clause will be executed for any of [these values](./../incremental-file-errors) except error 128.
 
 
 The compiler will check that the variable specified is a dimensioned array before its use in the statement.
@@ -40,4 +40,4 @@ An example of use is as:
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

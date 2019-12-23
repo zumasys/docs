@@ -9,7 +9,7 @@
 
 ## Description 
 
-The spooler on jBASE is a fairly straight-forward process.  The actual print processes are jspprint programs that pipe the stdout of a report into whatever is specified in the [SP-DEVICE](306299-sp-device) command for that queue.
+The spooler on jBASE is a fairly straight-forward process.  The actual print processes are jspprint programs that pipe the stdout of a report into whatever is specified in the [SP-DEVICE](./../sp-device) command for that queue.
 
 ## 
 
@@ -122,7 +122,7 @@ The default jspform item located in**$JBCRELEASEDIR/config/jspform\_deflt** will
 
 **Translation occurs based on jspxl item**
 
-Translation item as defined in [SP-TRANSLATE](306434-sp-translate) or $JBCRELEASEDIR/config/jspxl\_deflt is read to determine what translations are to take place. Note that [SP-TRANSLATE](306434-sp-translate) item read only when printer is initialized.
+Translation item as defined in [SP-TRANSLATE](./../sp-translate) or $JBCRELEASEDIR/config/jspxl\_deflt is read to determine what translations are to take place. Note that [SP-TRANSLATE](./../sp-translate) item read only when printer is initialized.
 
 ### 
 
@@ -133,4 +133,4 @@ SP-DEVICE defines the device/program used for printing.  This is typically the 
 
 
 
-Back to [Spooler](jbase-spooler).
+Back to [Spooler](./../jbase-spooler).

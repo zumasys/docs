@@ -9,7 +9,7 @@
 
 # Description
 
-The **OSCLOSE** command closes a sequential file that was previously opened with the [OSOPEN](277623-osopen) or [OPENSEQ](277543-openseq) command. the command takes the general form:
+The **OSCLOSE** command closes a sequential file that was previously opened with the [OSOPEN](./../osopen) or [OPENSEQ](./../openseq) command. the command takes the general form:
 
 ```
 OSCLOSE file.var [ON ERROR statements]
@@ -21,7 +21,7 @@ Where:
 - ON ERROR **statements** Specifies statements to execute if the **OSCLOSE** statement fails with a fatal error because the file is not open, an I/O error occurs, or jBASE cannot find the file.
 
 
-If the ON ERROR clause is not specified,  and a fatal error occurs, the program will enter the debugger. After execution of **OSCLOSE**, the [STATUS](278661-status-function) function returns either 0 or a failure code.
+If the ON ERROR clause is not specified,  and a fatal error occurs, the program will enter the debugger. After execution of **OSCLOSE**, the [STATUS](./../status-function) function returns either 0 or a failure code.
 
 
 | Code<br> | Description<br> |
@@ -38,4 +38,4 @@ OSCLOSE MYFILE_VARIABLE
 
 
 
-Go back to [jBASE BASC](263498-jbase-basic).
+Go back to [jBASE BASC](./../jbase-basic-programmers-reference-guide).

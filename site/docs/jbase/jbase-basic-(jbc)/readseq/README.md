@@ -25,7 +25,7 @@ Where:
 
 Each **READSEQ** reads a line of data from the sequentially opened file. After each **READSEQ**, the file pointer moves forward to the next line of data. The variable contains the line of data less the new line character from the sequential file.
 
-The default buffer size for a **READSEQ** is 1024 bytes. This can be changed using the [IOCTL](276732-ioctl) function with the **JIOCTL\_COMMAND\_SEQ\_CHANGE\_RECORDSIZE**defined in the [Sequential File Extensions](sequential-file-extensions).
+The default buffer size for a **READSEQ** is 1024 bytes. This can be changed using the [IOCTL](./../ioctl) function with the **JIOCTL\_COMMAND\_SEQ\_CHANGE\_RECORDSIZE**defined in the [Sequential File Extensions](./../sequential-file-extensions).
 
 An example of use would be as:
 
@@ -36,4 +36,4 @@ READSEQ VAR_LINE FROM FILE_VAR THEN CRT VAR_LINE
 
 to open a "report file" and read the first line from it.
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

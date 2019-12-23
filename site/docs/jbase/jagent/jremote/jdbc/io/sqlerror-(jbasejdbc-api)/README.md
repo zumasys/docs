@@ -9,7 +9,7 @@
 
 # Class SQLError
 
-All Implemented Interfaces:[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+All Implemented Interfaces:[JBaseSerializable](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 ```
 public class SQLError
 extends Object
@@ -53,8 +53,8 @@ implements JBaseSerializable
 | <br>[String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang")<br> | <br>getSQLSubClass()<br> | <br> |
 | <br>int<br> | <br>getType()<br> | <br> |
 | <br>int<br> | <br>getVersion()<br> | <br> |
-| <br>void<br> | <br>readObject([JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") reader, int version)<br> | Method : readObject()<br>Description: Read object off the wire.<br> |
-| <br>void<br> | <br>writeObject([JBaseObjectWriter](/39232-io/com_jbase_jdbc_io_jbaseobjectwriter "interface in com.jbase.jdbc.io") writer, int version)<br> | <br> |
+| <br>void<br> | <br>readObject([JBaseObjectReader](./../jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") reader, int version)<br> | Method : readObject()<br>Description: Read object off the wire.<br> |
+| <br>void<br> | <br>writeObject([JBaseObjectWriter](./../jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") writer, int version)<br> | <br> |
 
 
 

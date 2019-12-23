@@ -28,7 +28,7 @@ Defines whether or not to log jBASE messages to the **$JBCRELEASEDIR/tmp/jbase\_
 
 ## Setting
 
-The only valid values for this environment variable are 1 or 0. Setting this variable will not interfere with the behavior set by other JBASE\_ERRMSG\* environment variables. As per normal environment variables, it can be set dynamically using the jBC [PUTENV](277640-putenv) function.
+The only valid values for this environment variable are 1 or 0. Setting this variable will not interfere with the behavior set by other JBASE\_ERRMSG\* environment variables. As per normal environment variables, it can be set dynamically using the jBC [PUTENV](./../../jbase-basic-%28jbc%29/putenv) function.
 
 ### Unix
 
@@ -53,4 +53,4 @@ set JBASE_ERRMSG_TRACE=1
 
 
 
-Go Back to  [Error Handling](jbc-error-handling)
+Go Back to  [Error Handling](./../../jbase-basic-%28jbc%29/jbc-error-handling)

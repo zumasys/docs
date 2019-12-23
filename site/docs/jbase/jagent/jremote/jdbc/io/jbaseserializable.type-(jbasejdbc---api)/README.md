@@ -10,18 +10,18 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
+- [Package](./../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 - Class
-- [Use](/39235-class-use/com_jbase_jdbc_io_class-use_JBaseSerializable.TYPE)
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Use](./../class-use/uses-of-interface-com.jbase.jdbc.io.jbaseserializable-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
-- [Next Class](/39232-io/com_jbase_jdbc_io_jbasesocketconnection "class in com.jbase.jdbc.io")
+- [Prev Class](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
+- [Next Class](./../jbasesocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")
 
 
 - [Frames](../../../../index.html?com/jbase/jdbc/io//39232-io/com_jbase_jdbc_io_JBaseSerializable.TYPE)
@@ -49,7 +49,7 @@ com.jbase.jdbc.io
 
 ## Interface JBaseSerializable.TYPE
 
-- Enclosing interface:[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+- Enclosing interface:[JBaseSerializable](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 * * *
 
 
@@ -220,18 +220,18 @@ See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jdbc
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
+- [Package](./../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 - Class
-- [Use](/39235-class-use/com_jbase_jdbc_io_class-use_JBaseSerializable.TYPE)
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Use](./../class-use/uses-of-interface-com.jbase.jdbc.io.jbaseserializable-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
-- [Next Class](/39232-io/com_jbase_jdbc_io_jbasesocketconnection "class in com.jbase.jdbc.io")
+- [Prev Class](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
+- [Next Class](./../jbasesocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")
 
 
 - [Frames](../../../../index.html?com/jbase/jdbc/io//39232-io/com_jbase_jdbc_io_JBaseSerializable.TYPE)

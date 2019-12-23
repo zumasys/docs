@@ -36,9 +36,9 @@ The user will then enter the formqueue to resume printing.
 
 > ### Note: 
 > 
-> Despooling will be resumed from the point at which the formqueue was either [SUSPENDED](306472-untitled-question) or [STOPPED](306456-untitled-question).
+> Despooling will be resumed from the point at which the formqueue was either [SUSPENDED](./../sp-suspend) or [STOPPED](./../sp-stop).
 
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

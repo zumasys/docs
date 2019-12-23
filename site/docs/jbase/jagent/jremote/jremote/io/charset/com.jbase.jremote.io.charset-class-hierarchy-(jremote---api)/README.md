@@ -10,7 +10,7 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39251-charset/com_jbase_jremote_io_charset_package-summary)
+- [Package](./../com.jbase.jremote.io.charset-%28jremote---api%29)
 - Class
 - Use
 - Tree
@@ -20,12 +20,12 @@ Skip navigation links
 
 jremote <br>
 
-- [Prev](/39250-io/com_jbase_jremote_io_package-tree)
-- [Next](/39254-exception/com_jbase_jremote_io_exception_package-tree)
+- [Prev](./../../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
+- [Next](./../../exception/com.jbase.jremote.io.exception-class-hierarchy-%28jremote---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/charset//39251-charset/com_jbase_jremote_io_charset_package-tree)
-- [No Frames](/39251-charset/com_jbase_jremote_io_charset_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -41,19 +41,19 @@ Package Hierarchies:
 
 - java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
     - java.nio.charset.[Charset](http://java.sun.com/j2se/1.5.0/docs/api/java/nio/charset/Charset.html?is-external=true "class or interface in java.nio.charset") (implements java.lang.[Comparable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Comparable.html?is-external=true "class or interface in java.lang")&lt;T&gt;)
-        - com.jbase.jremote.io.charset.[JbaseCharset](/39251-charset/com_jbase_jremote_io_charset_JbaseCharset "class in com.jbase.jremote.io.charset")
-        - com.jbase.jremote.io.charset.[JbasePrivateUseCharset](/39251-charset/com_jbase_jremote_io_charset_JbasePrivateUseCharset "class in com.jbase.jremote.io.charset")
+        - com.jbase.jremote.io.charset.[JbaseCharset](./../jbasecharset-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
+        - com.jbase.jremote.io.charset.[JbasePrivateUseCharset](./../jbaseprivateusecharset-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
     - java.nio.charset.[CharsetDecoder](http://java.sun.com/j2se/1.5.0/docs/api/java/nio/charset/CharsetDecoder.html?is-external=true "class or interface in java.nio.charset")
-        - com.jbase.jremote.io.charset.[JbaseCharsetDecoder](/39251-charset/com_jbase_jremote_io_charset_JbaseCharsetDecoder "class in com.jbase.jremote.io.charset")
-        - com.jbase.jremote.io.charset.[JbasePrivateUseCharsetDecoder](/39251-charset/com_jbase_jremote_io_charset_JbasePrivateUseCharsetDecoder "class in com.jbase.jremote.io.charset")
+        - com.jbase.jremote.io.charset.[JbaseCharsetDecoder](./../jbasecharsetdecoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
+        - com.jbase.jremote.io.charset.[JbasePrivateUseCharsetDecoder](./../jbaseprivateusecharsetdecoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
     - java.nio.charset.[CharsetEncoder](http://java.sun.com/j2se/1.5.0/docs/api/java/nio/charset/CharsetEncoder.html?is-external=true "class or interface in java.nio.charset")
-        - com.jbase.jremote.io.charset.[JbaseCharsetEncoder](/39251-charset/com_jbase_jremote_io_charset_JbaseCharsetEncoder "class in com.jbase.jremote.io.charset")
-        - com.jbase.jremote.io.charset.[JbasePrivateUseCharsetEncoder](/39251-charset/com_jbase_jremote_io_charset_JbasePrivateUseCharsetEncoder "class in com.jbase.jremote.io.charset")
+        - com.jbase.jremote.io.charset.[JbaseCharsetEncoder](./../jbasecharsetencoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
+        - com.jbase.jremote.io.charset.[JbasePrivateUseCharsetEncoder](./../jbaseprivateusecharsetencoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39251-charset/com_jbase_jremote_io_charset_package-summary)
+- [Package](./../com.jbase.jremote.io.charset-%28jremote---api%29)
 - Class
 - Use
 - Tree
@@ -63,12 +63,12 @@ Skip navigation links
 
 jremote <br>
 
-- [Prev](/39250-io/com_jbase_jremote_io_package-tree)
-- [Next](/39254-exception/com_jbase_jremote_io_exception_package-tree)
+- [Prev](./../../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
+- [Next](./../../exception/com.jbase.jremote.io.exception-class-hierarchy-%28jremote---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/charset//39251-charset/com_jbase_jremote_io_charset_package-tree)
-- [No Frames](/39251-charset/com_jbase_jremote_io_charset_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

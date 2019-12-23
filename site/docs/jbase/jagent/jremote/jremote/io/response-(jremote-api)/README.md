@@ -9,7 +9,7 @@
 
 ## Class Response
 
-All Implemented Interfaces:[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")Direct Known Subclasses:[EchoResponse](../../../../com/jbase/jremote/protocol/Echo/39250-io/com_jbase_jremote_io_Response "class in com.jbase.jremote.protocol"), [ErrorResponse](../../../../com/jbase/jremote/io/Error/39250-io/com_jbase_jremote_io_Response "class in com.jbase.jremote.io"), [JRemoteResponse](../../../../com/jbase/jremote/protocol/JRemote/39250-io/com_jbase_jremote_io_Response "class in com.jbase.jremote.protocol"), [OKResponse](../../../../com/jbase/jremote/io/OK/39250-io/com_jbase_jremote_io_Response "class in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseSerializable](./../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")Direct Known Subclasses:[EchoResponse](../../../../com/jbase/jremote/protocol/Echo/39250-io/com_jbase_jremote_io_Response "class in com.jbase.jremote.protocol"), [ErrorResponse](../../../../com/jbase/jremote/io/Error/39250-io/com_jbase_jremote_io_Response "class in com.jbase.jremote.io"), [JRemoteResponse](../../../../com/jbase/jremote/protocol/JRemote/39250-io/com_jbase_jremote_io_Response "class in com.jbase.jremote.protocol"), [OKResponse](../../../../com/jbase/jremote/io/OK/39250-io/com_jbase_jremote_io_Response "class in com.jbase.jremote.io")
 * * *
 
 

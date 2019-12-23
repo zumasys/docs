@@ -13,7 +13,7 @@ jBASE programs make use of a work file for various internal functions such as st
 
 If the specified file does not exist when jBASE attempts to open it, it is created as a j4 hashed file with a modulo of 97. As the data in the file is of a transitory nature, the flags for backup, journaling and transaction boundaries are set to NO. A dictionary is also created. It is not used by jBASE and can be deleted if desired.
 
-This environment variable is superceeded by [JBASEUNIQUE](jbaseunique).
+This environment variable is superceeded by [JBASEUNIQUE](./../jbaseunique).
 
 ## 
 

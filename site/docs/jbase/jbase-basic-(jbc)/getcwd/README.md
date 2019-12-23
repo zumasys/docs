@@ -9,7 +9,7 @@
 
 # Description
 
-This function returns the current working directory of the program, which is normally the directory in which execution of the program occurred but possibly changed using the [CHDIR](264330-chdir) function. It takes the general form:
+This function returns the current working directory of the program, which is normally the directory in which execution of the program occurred but possibly changed using the [CHDIR](./../chdir) function. It takes the general form:
 
 ```
  GETCWD(Var)
@@ -36,4 +36,4 @@ An example of use is as follows:
 # 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

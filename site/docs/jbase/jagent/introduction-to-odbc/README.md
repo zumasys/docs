@@ -16,7 +16,7 @@ The **jBASE ODBC Connector** is an ODBC driver implementing the Open Database Co
 
 **jAgent** is a jBASE component responsible for accepting and processing incoming client requests.
 
-As shown in this diagram, jAgent must be running to accept and dispatch SQL requests to the jBASE Server. jAgent, as well as ODBC, use TCP socket connections to communicate with each other and therefore need to be configured to use the same TCP port. More details about jAgent may be found in the jAgent user guide and via this [link](/30312-jagent/introduction-to-jagent).
+As shown in this diagram, jAgent must be running to accept and dispatch SQL requests to the jBASE Server. jAgent, as well as ODBC, use TCP socket connections to communicate with each other and therefore need to be configured to use the same TCP port. More details about jAgent may be found in the jAgent user guide and via this [link](./../introduction-to-jagent).
 
 The **ODBC Driver Manager** is a system component which on Windows is part of the MDAC (Microsoft Data Access Components) package and automatically included with the latest Windows operating systems. Odbcad32.exe is the 32bit/64bit ODBC Data Source Administrator and odbc32.lib/ odbccp32.lib are import libraries to be used by client applications.
 
@@ -248,4 +248,4 @@ Check that the installer has added the installation directory to the SYSTEM defi
 
 
 
-[ODBC Quick Start](291428-odbc-quick-start)
+[ODBC Quick Start](./../odbc-quick-start)

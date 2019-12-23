@@ -12,7 +12,7 @@ Each test  should be self-contained. If possible everything to do with the test
 
 The test should clean up any old files and data the next time it runs so that it is not operating on old data.
 
-- **Follow the [Coding Guidelines](jbc-coding-guidelines)**
+- **Follow the [Coding Guidelines](./../jbc-coding-guidelines)**
 - All QA tests (we will subsequently just refer to them as 'tests') are called as subroutines from the main QA driver.
 - The subroutine arguments (explained below) must be:
 

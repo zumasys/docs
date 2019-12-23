@@ -10,18 +10,18 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
+- [Package](./../../../../jremote/io/com.jbase.jremote.io-%28jremote---api%29)
 - Class
 - [Use](/39253-class-use/com_jbase_jremote_io_class-use_JBaseSerializable.TYPE)
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Tree](./../../../../jremote/io/com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")
-- [Next Class](/39250-io/com_jbase_jremote_io_JbaseSocketConnection "class in com.jbase.jremote.io")
+- [Prev Class](./../../../../jremote/io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
+- [Next Class](./../../../../jremote/io/jbasesocketconnection-%28jremote---api%29 "class in com.jbase.jremote.io")
 
 
 - [Frames](../../../../index.html?com/jbase/jremote/io//39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE)
@@ -49,7 +49,7 @@ com.jbase.jremote.io
 
 ## Interface JBaseSerializable.TYPE
 
-- Enclosing interface:[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")
+- Enclosing interface:[JBaseSerializable](./../../../../jremote/io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -220,18 +220,18 @@ See Also:[Constant Field Values](../../../../constant-values.html#com.jbase.jrem
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
+- [Package](./../../../../jremote/io/com.jbase.jremote.io-%28jremote---api%29)
 - Class
 - [Use](/39253-class-use/com_jbase_jremote_io_class-use_JBaseSerializable.TYPE)
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Tree](./../../../../jremote/io/com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")
-- [Next Class](/39250-io/com_jbase_jremote_io_JbaseSocketConnection "class in com.jbase.jremote.io")
+- [Prev Class](./../../../../jremote/io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
+- [Next Class](./../../../../jremote/io/jbasesocketconnection-%28jremote---api%29 "class in com.jbase.jremote.io")
 
 
 - [Frames](../../../../index.html?com/jbase/jremote/io//39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE)

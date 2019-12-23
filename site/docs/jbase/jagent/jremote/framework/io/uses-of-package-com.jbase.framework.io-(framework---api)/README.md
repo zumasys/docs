@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
+- [Package](./../com.jbase.framework.io-%28framework---api%29)
 - Class
 - Use
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Tree](./../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/framework/io//39220-io/com_jbase_framework_io_package-use)
-- [No Frames](/39220-io/com_jbase_framework_io_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -36,10 +36,10 @@ framework <br>
 # Uses of Package
 com.jbase.framework.io
 
-- Packages that use [com.jbase.framework.io](../../../../com/jbase/framework/io//39220-io/com_jbase_framework_io_package-summary) | Package | Description |
+- Packages that use [com.jbase.framework.io](./../com.jbase.framework.io-%28framework---api%29) | Package | Description |
 | --- | --- |
 | com.jbase.framework.io |   |
-- Classes in [com.jbase.framework.io](../../../../com/jbase/framework/io//39220-io/com_jbase_framework_io_package-summary) used by [com.jbase.framework.io](../../../../com/jbase/framework/io//39220-io/com_jbase_framework_io_package-summary) | Class and Description |
+- Classes in [com.jbase.framework.io](./../com.jbase.framework.io-%28framework---api%29) used by [com.jbase.framework.io](./../com.jbase.framework.io-%28framework---api%29) | Class and Description |
 | --- |
 | [AbstractJBaseObjectReader](../../../../com/jbase/framework/io/class-use/AbstractJBaseObjectReader.html#com.jbase.framework.io)<br>Deserializes JBaseSerializable objects sent from the jbase\_agent server,<br> or any other source of serialized JCF objects.<br> |
 | [AbstractJBaseObjectWriter](../../../../com/jbase/framework/io/class-use/AbstractJBaseObjectWriter.html#com.jbase.framework.io)  |
@@ -55,10 +55,10 @@ com.jbase.framework.io
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
+- [Package](./../com.jbase.framework.io-%28framework---api%29)
 - Class
 - Use
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Tree](./../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -69,8 +69,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/framework/io//39220-io/com_jbase_framework_io_package-use)
-- [No Frames](/39220-io/com_jbase_framework_io_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

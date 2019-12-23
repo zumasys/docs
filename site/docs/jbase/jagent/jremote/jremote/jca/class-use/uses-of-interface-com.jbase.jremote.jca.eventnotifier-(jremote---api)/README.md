@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
-- [Class](/39258-jca/com_jbase_jremote_jca_eventnotifier "interface in com.jbase.jremote.jca")
+- [Package](./../../com.jbase.jremote.jca-%28jremote---api%29)
+- [Class](./../../eventnotifier-%28jremote-api%29 "interface in com.jbase.jremote.jca")
 - Use
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Tree](./../../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/class-use//39261-class-use/com_jbase_jremote_jca_class-use_EventNotifier)
-- [No Frames](/39261-class-use/com_jbase_jremote_jca_class-use_EventNotifier)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ jremote <br>
 ## Uses of Interface
 com.jbase.jremote.jca.EventNotifier
 
-- Packages that use [EventNotifier](/39258-jca/com_jbase_jremote_jca_eventnotifier "interface in com.jbase.jremote.jca") | Package | Description |
+- Packages that use [EventNotifier](./../../eventnotifier-%28jremote-api%29 "interface in com.jbase.jremote.jca") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.jca |   |
-- - ### Uses of [EventNotifier](/39258-jca/com_jbase_jremote_jca_eventnotifier "interface in com.jbase.jremote.jca") in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary)
+- - ### Uses of [EventNotifier](./../../eventnotifier-%28jremote-api%29 "interface in com.jbase.jremote.jca") in [com.jbase.jremote.jca](./../../com.jbase.jremote.jca-%28jremote---api%29)
 
 
-Fields in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) declared as [EventNotifier](/39258-jca/com_jbase_jremote_jca_eventnotifier "interface in com.jbase.jremote.jca") | Modifier and Type | Field and Description |
+Fields in [com.jbase.jremote.jca](./../../com.jbase.jremote.jca-%28jremote---api%29) declared as [EventNotifier](./../../eventnotifier-%28jremote-api%29 "interface in com.jbase.jremote.jca") | Modifier and Type | Field and Description |
 | --- | --- |
 | `static EventNotifier` | EventNotifier.`CONNECTION_CLOSE_NOTIFIER`  |
 | `static EventNotifier` | EventNotifier.`CONNECTION_ERROR_NOTIFIER`  |
@@ -52,17 +52,17 @@ Fields in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summa
 
 
 
-Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) with parameters of type [EventNotifier](/39258-jca/com_jbase_jremote_jca_eventnotifier "interface in com.jbase.jremote.jca") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca](./../../com.jbase.jremote.jca-%28jremote---api%29) with parameters of type [EventNotifier](./../../eventnotifier-%28jremote-api%29 "interface in com.jbase.jremote.jca") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected void` | JRemoteManagedConnection.`notify(EventNotifier notifier,<br>      javax.resource.spi.ConnectionEvent event)`  |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
-- [Class](/39258-jca/com_jbase_jremote_jca_eventnotifier "interface in com.jbase.jremote.jca")
+- [Package](./../../com.jbase.jremote.jca-%28jremote---api%29)
+- [Class](./../../eventnotifier-%28jremote-api%29 "interface in com.jbase.jremote.jca")
 - Use
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Tree](./../../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -73,8 +73,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/class-use//39261-class-use/com_jbase_jremote_jca_class-use_EventNotifier)
-- [No Frames](/39261-class-use/com_jbase_jremote_jca_class-use_EventNotifier)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

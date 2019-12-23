@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
-- [Class](/39226-inflow/com_jbase_framework_io_inflow_StatisticsCounter "interface in com.jbase.framework.io.inflow")
+- [Package](./../../com.jbase.framework.io.inflow-%28framework---api%29)
+- [Class](./../../statisticscounter-%28framework---api%29 "interface in com.jbase.framework.io.inflow")
 - Use
-- [Tree](/39226-inflow/com_jbase_framework_io_inflow_package-tree)
+- [Tree](./../../com.jbase.framework.io.inflow-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/framework/io/inflow/class-use//39227-class-use/com_jbase_framework_io_inflow_class-use_StatisticsCounter)
-- [No Frames](/39227-class-use/com_jbase_framework_io_inflow_class-use_StatisticsCounter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ framework <br>
 ## Uses of Interface
 com.jbase.framework.io.inflow.StatisticsCounter
 
-- Packages that use [StatisticsCounter](/39226-inflow/com_jbase_framework_io_inflow_StatisticsCounter "interface in com.jbase.framework.io.inflow") | Package | Description |
+- Packages that use [StatisticsCounter](./../../statisticscounter-%28framework---api%29 "interface in com.jbase.framework.io.inflow") | Package | Description |
 | --- | --- |
 | com.jbase.framework.io.inflow |   |
-- - ### Uses of [StatisticsCounter](/39226-inflow/com_jbase_framework_io_inflow_StatisticsCounter "interface in com.jbase.framework.io.inflow") in [com.jbase.framework.io.inflow](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
+- - ### Uses of [StatisticsCounter](./../../statisticscounter-%28framework---api%29 "interface in com.jbase.framework.io.inflow") in [com.jbase.framework.io.inflow](./../../com.jbase.framework.io.inflow-%28framework---api%29)
 
 
-Methods in [com.jbase.framework.io.inflow](/39226-inflow/com_jbase_framework_io_inflow_package-summary) with parameters of type [StatisticsCounter](/39226-inflow/com_jbase_framework_io_inflow_StatisticsCounter "interface in com.jbase.framework.io.inflow") | Modifier and Type | Method and Description |
+Methods in [com.jbase.framework.io.inflow](./../../com.jbase.framework.io.inflow-%28framework---api%29) with parameters of type [StatisticsCounter](./../../statisticscounter-%28framework---api%29 "interface in com.jbase.framework.io.inflow") | Modifier and Type | Method and Description |
 | --- | --- |
 | `int` | RequestListenerService.`getActivationsProcessedInLastMinute(StatisticsCounter statisticType)`  |
 | `void` | RequestListenerService.`incrementActivationCount(StatisticsCounter statisticType)`<br>A RequestHandler is able to call back to this RequestListenerService to<br> track what it considers an activation.<br> |
@@ -50,10 +50,10 @@ Methods in [com.jbase.framework.io.inflow](/39226-inflow/com_jbase_framework_io_
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
-- [Class](/39226-inflow/com_jbase_framework_io_inflow_StatisticsCounter "interface in com.jbase.framework.io.inflow")
+- [Package](./../../com.jbase.framework.io.inflow-%28framework---api%29)
+- [Class](./../../statisticscounter-%28framework---api%29 "interface in com.jbase.framework.io.inflow")
 - Use
-- [Tree](/39226-inflow/com_jbase_framework_io_inflow_package-tree)
+- [Tree](./../../com.jbase.framework.io.inflow-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -64,8 +64,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/framework/io/inflow/class-use//39227-class-use/com_jbase_framework_io_inflow_class-use_StatisticsCounter)
-- [No Frames](/39227-class-use/com_jbase_framework_io_inflow_class-use_StatisticsCounter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

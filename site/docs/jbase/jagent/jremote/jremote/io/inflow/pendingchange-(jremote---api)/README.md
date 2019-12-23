@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39256-inflow/com_jbase_jremote_io_inflow_package-summary)
+- [Package](./../com.jbase.jremote.io.inflow-%28jremote---api%29)
 - Class
-- [Use](/39257-class-use/com_jbase_jremote_io_inflow_class-use_PendingChange)
-- [Tree](/39256-inflow/com_jbase_jremote_io_inflow_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.io.inflow.pendingchange-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.io.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39256-inflow/com_jbase_jremote_io_inflow_ClientHandle "class in com.jbase.jremote.io.inflow")
-- [Next Class](/39256-inflow/com_jbase_jremote_io_inflow_RequestHandler "interface in com.jbase.jremote.io.inflow")
+- [Prev Class](./../clienthandle-%28jremote---api%29 "class in com.jbase.jremote.io.inflow")
+- [Next Class](./../requesthandler-%28jremote---api%29 "interface in com.jbase.jremote.io.inflow")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/inflow//39256-inflow/com_jbase_jremote_io_inflow_PendingChange)
-- [No Frames](/39256-inflow/com_jbase_jremote_io_inflow_PendingChange)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -145,22 +145,22 @@ public SocketChannel getChannel()
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39256-inflow/com_jbase_jremote_io_inflow_package-summary)
+- [Package](./../com.jbase.jremote.io.inflow-%28jremote---api%29)
 - Class
-- [Use](/39257-class-use/com_jbase_jremote_io_inflow_class-use_PendingChange)
-- [Tree](/39256-inflow/com_jbase_jremote_io_inflow_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.io.inflow.pendingchange-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.io.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39256-inflow/com_jbase_jremote_io_inflow_ClientHandle "class in com.jbase.jremote.io.inflow")
-- [Next Class](/39256-inflow/com_jbase_jremote_io_inflow_RequestHandler "interface in com.jbase.jremote.io.inflow")
+- [Prev Class](./../clienthandle-%28jremote---api%29 "class in com.jbase.jremote.io.inflow")
+- [Next Class](./../requesthandler-%28jremote---api%29 "interface in com.jbase.jremote.io.inflow")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/inflow//39256-inflow/com_jbase_jremote_io_inflow_PendingChange)
-- [No Frames](/39256-inflow/com_jbase_jremote_io_inflow_PendingChange)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

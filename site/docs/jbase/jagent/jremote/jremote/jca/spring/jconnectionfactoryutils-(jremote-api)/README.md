@@ -16,7 +16,7 @@ public abstract class JConnectionFactoryUtils
 extends Object
 ```
 
-Helper class that provides static methods for obtaining JRemote Connections from a [`JConnectionFactory`](/39248-jremote/com_jbase_jremote_jconnectionfactory "interface in com.jbase.jremote"). Includes special support for Spring-managed transactional Connections, e.g. managed by [`JRemoteLocalTransactionManager`](/39268-spring/com_jbase_jremote_jca_spring_jremotelocaltransactionmanager "class in com.jbase.jremote.jca.spring") or `JtaTransactionManager`.
+Helper class that provides static methods for obtaining JRemote Connections from a [`JConnectionFactory`](./../../../jconnectionfactory-%28jremote-api%29 "interface in com.jbase.jremote"). Includes special support for Spring-managed transactional Connections, e.g. managed by [`JRemoteLocalTransactionManager`](./../jremotelocaltransactionmanager-%28jremote-api%29 "class in com.jbase.jremote.jca.spring") or `JtaTransactionManager`.
 
 ### Constructor Summary
 
@@ -65,7 +65,7 @@ public static JConnection getConnection(JConnectionFactory cf)
                                  throws JRemoteException
 ```
 
-Obtain a JConnection from the given JConnectionFactory. Translates ResourceExceptions into the Spring hierarchy of unchecked generic data access exceptions, simplifying calling code and making any exception that is thrown more meaningful.Is aware of a corresponding Connection bound to the current thread, for example when using [`JRemoteLocalTransactionManager`](/39268-spring/com_jbase_jremote_jca_spring_jremotelocaltransactionmanager "class in com.jbase.jremote.jca.spring"). Will bind a Connection to the thread if transaction synchronization is active (e.g. if in a JTA transaction).
+Obtain a JConnection from the given JConnectionFactory. Translates ResourceExceptions into the Spring hierarchy of unchecked generic data access exceptions, simplifying calling code and making any exception that is thrown more meaningful.Is aware of a corresponding Connection bound to the current thread, for example when using [`JRemoteLocalTransactionManager`](./../jremotelocaltransactionmanager-%28jremote-api%29 "class in com.jbase.jremote.jca.spring"). Will bind a Connection to the thread if transaction synchronization is active (e.g. if in a JTA transaction).
 Parameters:`cf` - the ConnectionFactory to obtain Connection fromReturns:a JConnection from the given JConnectionFactoryThrows:`JRemoteException` - if the attempt to get a Connection failedSee Also:[`releaseConnection(com.jbase.jremote.JConnection, com.jbase.jremote.JConnectionFactory)`](../../../../../com/jbase/jremote/jca/spring//39268-spring/com_jbase_jremote_jca_spring_JConnectionFactoryUtils#releaseConnection-com.jbase.jremote.JConnection-com.jbase.jremote.JConnectionFactory-)
 #### 
 

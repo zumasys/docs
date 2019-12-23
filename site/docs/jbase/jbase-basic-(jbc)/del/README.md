@@ -45,4 +45,4 @@ An example of use is as follows:
 
 
 
-Go back to [JBASE BASIC](263498-jbase-basic).
+Go back to [JBASE BASIC](./../jbase-basic-programmers-reference-guide).

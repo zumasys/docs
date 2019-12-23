@@ -7,7 +7,7 @@
 
 # Overview 
 
-Each distributed file uses a partition algorithm to determine in which part file a record belongs. The partition algorithm is specified by using the [create-distrib command](289128-create-distrib-command) . All part files belonging to a distributed file use the same partition algorithm.
+Each distributed file uses a partition algorithm to determine in which part file a record belongs. The partition algorithm is specified by using the [create-distrib command](./../create-distrib-command) . All part files belonging to a distributed file use the same partition algorithm.
 
 There are two methods for defining the partition algorithm, the system defined method and the user-defined method. The partition algorithm uses the record ID (or part of the record ID) to distribute the record to the appropriate part file.
 
@@ -15,7 +15,7 @@ There are two methods for defining the partition algorithm, the system defined m
 
 # System Partition Algorithm
 
-When a distributed file is created it is automatically set to use the system partition algorithm. The [create-distrib command](289128-create-distrib-command) is used to set the partition algorithm. When using the system partition method, jBASE assumes that the record ID will be in the form:
+When a distributed file is created it is automatically set to use the system partition algorithm. The [create-distrib command](./../create-distrib-command) is used to set the partition algorithm. When using the system partition method, jBASE assumes that the record ID will be in the form:
 
 ```
 create-distrib <PartNumber> <Delimiter> <RecordID>
@@ -67,7 +67,7 @@ SUBROUTINE DistCustSub (Reserved, Key, PartNo)
 RETURN
 ```
 
-Compile and catalog the subroutine. Ensure that the subroutine is accessible via the [JBCOBJECTLIST](jbcobjectlist) environment variable.
+Compile and catalog the subroutine. Ensure that the subroutine is accessible via the [JBCOBJECTLIST](./../../../environment-variables/jbcobjectlist) environment variable.
 
 The subroutine is called each time a record is read from or written to the DISTCUST distributed file. The subroutine must support 3 arguments:
 
@@ -119,7 +119,7 @@ RETURN
 
 This subroutine takes the 'explicit' approach and does not make assumptions about what form the data will be in.
 
-To set (or change) the distributed file to use the user-defined partition algorithm, the [create-distrib command](289128-create-distrib-command) may be used. For example, to set the DISTCUST distributed file to use the DistCustSub subroutine:
+To set (or change) the distributed file to use the user-defined partition algorithm, the [create-distrib command](./../create-distrib-command) may be used. For example, to set the DISTCUST distributed file to use the DistCustSub subroutine:
 
 ```
 create-distrib -pUSER,DistCustSub DISTCUST
@@ -129,4 +129,4 @@ When compared to the system partition algorithm, the user-defined partition meth
 
 
 
-Back to [DISTRIBUTED FILES](289126-distributed-files).
+Back to [DISTRIBUTED FILES](./../distributed-files).

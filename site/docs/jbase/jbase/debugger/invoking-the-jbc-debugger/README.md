@@ -74,4 +74,4 @@ jBASE debugger ..
 
 
 
-Back to [jBC Debugger](291163-introduction-to-the-jbc-debugger)
+Back to [jBC Debugger](./../introduction-to-the-jbc-debugger)

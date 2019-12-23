@@ -25,17 +25,17 @@ An interface is also provided to enable external applications to access any data
 
 | **Migrating to jBASE**<br> |
 | --- |
-| Installation ([Windows](323805-windows-jbase-installation)) ([Linux](jbase-linux-installation-guide))<br> | Installing jBASE<br> |
-| [Environment Variables](introduction-to-environment-variables)<br> | Setting environment variables<br> |
-| [Migration](migration-checklist)<br> | Migration steps (Includes Video Tutorial)<br> |
-| [Restoring Data](restoring-data) ([D3](migrating-to-jbase-d3-system)) ([Universe](migrating-to-jbase-universe))<br> | Restoring legacy data into a jBASE environment<br> |
-| [Emulation](emulation)<br> | Emulation settings<br> |
-| [Data Conversion](368880-creating-migrating-accounts-and-converting-programs) | Converting legacy directories, files, programs, procs and MD items |
-| [PORTBAS](portbas)<br> | Migrating BASIC source code<br> |
-| [Keywords](keywords)<br> | Compiler reserved words<br> |
-| [Compilation](compiling)<br> | Compiling BASIC programs and subroutines<br> |
-| [SYSTEM Functions](282982-system-functions)<br> | The jBASE SYSTEM function<br> |
-| [Performance](performance)<br> | Monitoring the performance of jBASE applications<br> |
+| Installation ([Windows](./../../administration/installation-guides/windows-installation-guide)) ([Linux](./../../administration/installation-guides/linux-installation-guide))<br> | Installing jBASE<br> |
+| [Environment Variables](./../../environment-variables/introduction-to-environment-variables)<br> | Setting environment variables<br> |
+| [Migration](./../migrating-to-jbase-preparation)<br> | Migration steps (Includes Video Tutorial)<br> |
+| [Restoring Data](./../articles/restore/restoring-data) ([D3](./../migrating-to-jbase-d3-systems)) ([Universe](./../migrating-to-jbase-universe-systems))<br> | Restoring legacy data into a jBASE environment<br> |
+| [Emulation](./../articles/emulation)<br> | Emulation settings<br> |
+| [Data Conversion](./../data-conversion) | Converting legacy directories, files, programs, procs and MD items |
+| [PORTBAS](./../articles/portbas)<br> | Migrating BASIC source code<br> |
+| [Keywords](./../../jbase/compilation/reserved-keywords)<br> | Compiler reserved words<br> |
+| [Compilation](./../articles/compile)<br> | Compiling BASIC programs and subroutines<br> |
+| [SYSTEM Functions](./../../jbase-basic-%28jbc%29/system-functions)<br> | The jBASE SYSTEM function<br> |
+| [Performance](./../articles/performance)<br> | Monitoring the performance of jBASE applications<br> |
 
 
 

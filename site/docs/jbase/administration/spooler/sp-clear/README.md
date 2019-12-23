@@ -35,4 +35,4 @@ The user will then specify which formqueue is to be cleared.
 
 
 
-Back to [Spooler](jbase-spooler).
+Back to [Spooler](./../jbase-spooler).

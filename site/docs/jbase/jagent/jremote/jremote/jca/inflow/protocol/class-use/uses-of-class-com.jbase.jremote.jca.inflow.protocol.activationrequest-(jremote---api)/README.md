@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../../overview-summary.html)
-- [Package](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
-- [Class](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_activationrequest "class in com.jbase.jremote.jca.inflow.protocol")
+- [Package](./../../com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
+- [Class](./../../activationrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol")
 - Use
-- [Tree](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.inflow.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../../deprecated-list.html)
 - [Help](../../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../../index.html?com/jbase/jremote/jca/inflow/protocol/class-use//39265-class-use/com_jbase_jremote_jca_inflow_protocol_class-use_ActivationRequest)
-- [No Frames](/39265-class-use/com_jbase_jremote_jca_inflow_protocol_class-use_ActivationRequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.jremote.jca.inflow.protocol.ActivationRequest
 Skip navigation links
 
 - [Overview](../../../../../../../overview-summary.html)
-- [Package](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
-- [Class](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_activationrequest "class in com.jbase.jremote.jca.inflow.protocol")
+- [Package](./../../com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
+- [Class](./../../activationrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol")
 - Use
-- [Tree](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.inflow.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../../deprecated-list.html)
 - [Help](../../../../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../../index.html?com/jbase/jremote/jca/inflow/protocol/class-use//39265-class-use/com_jbase_jremote_jca_inflow_protocol_class-use_ActivationRequest)
-- [No Frames](/39265-class-use/com_jbase_jremote_jca_inflow_protocol_class-use_ActivationRequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../../allclasses-noframe.html)

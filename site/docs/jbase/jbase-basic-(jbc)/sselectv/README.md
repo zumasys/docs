@@ -5,6 +5,6 @@
 **Original Doc:** [284388-sselectv](https://docs.jbase.com/36868-jbase-basic/284388-sselectv)  
 
 
-See also: [SSELECT](/36868-jbase-basic/278821-sselect).
+See also: [SSELECT](./../sselect).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

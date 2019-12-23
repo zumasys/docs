@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
-- [Class](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals.TYPES "class in com.jbase.jdbc")
+- [Package](./../../jbase-jdbc-api)
+- [Class](./../../jbasejdbcglobals-%28jbasejdbc---api%29 "class in com.jbase.jdbc")
 - Use
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Tree](./../../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/class-use//39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCGlobals.TYPES)
-- [No Frames](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCGlobals.TYPES)
+- [Frames](./../uses-of-interface-com.jbase.jdbc.jbasejdbcglobals-%28jbasejdbc---api%29)
+- [No Frames](./../uses-of-interface-com.jbase.jdbc.jbasejdbcglobals-%28jbasejdbc---api%29)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.jdbc.JBaseJDBCGlobals.TYPES
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
-- [Class](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals.TYPES "class in com.jbase.jdbc")
+- [Package](./../../jbase-jdbc-api)
+- [Class](./../../jbasejdbcglobals-%28jbasejdbc---api%29 "class in com.jbase.jdbc")
 - Use
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Tree](./../../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/class-use//39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCGlobals.TYPES)
-- [No Frames](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCGlobals.TYPES)
+- [Frames](./../uses-of-interface-com.jbase.jdbc.jbasejdbcglobals-%28jbasejdbc---api%29)
+- [No Frames](./../uses-of-interface-com.jbase.jdbc.jbasejdbcglobals-%28jbasejdbc---api%29)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

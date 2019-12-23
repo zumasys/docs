@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39230-driver/com_jbase_jdbc_driver_package-summary)
+- [Package](./../com.jbase.jdbc.driver-%28jbasejdbc---api%29)
 - Class
-- [Use](/39231-class-use/com_jbase_jdbc_driver_class-use_JBaseDBError)
-- [Tree](/39230-driver/com_jbase_jdbc_driver_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.driver.jbasedberror-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.driver-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -21,11 +21,11 @@ Skip navigation links
 jbasejdbc <br>
 
 - Prev Class
-- [Next Class](/39230-driver/com_jbase_jdbc_driver_JBaseJDBCDriver "class in com.jbase.jdbc.driver")
+- [Next Class](./../jbasejdbcdriver-%28jbasejdbc---api%29 "class in com.jbase.jdbc.driver")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/driver//39230-driver/com_jbase_jdbc_driver_JBaseDBError)
-- [No Frames](/39230-driver/com_jbase_jdbc_driver_JBaseDBError)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -123,10 +123,10 @@ Throws:`SQLException`
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39230-driver/com_jbase_jdbc_driver_package-summary)
+- [Package](./../com.jbase.jdbc.driver-%28jbasejdbc---api%29)
 - Class
-- [Use](/39231-class-use/com_jbase_jdbc_driver_class-use_JBaseDBError)
-- [Tree](/39230-driver/com_jbase_jdbc_driver_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.driver.jbasedberror-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.driver-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -134,11 +134,11 @@ Skip navigation links
 jbasejdbc <br>
 
 - Prev Class
-- [Next Class](/39230-driver/com_jbase_jdbc_driver_JBaseJDBCDriver "class in com.jbase.jdbc.driver")
+- [Next Class](./../jbasejdbcdriver-%28jbasejdbc---api%29 "class in com.jbase.jdbc.driver")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/driver//39230-driver/com_jbase_jdbc_driver_JBaseDBError)
-- [No Frames](/39230-driver/com_jbase_jdbc_driver_JBaseDBError)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

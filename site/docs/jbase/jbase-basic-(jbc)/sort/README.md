@@ -41,4 +41,4 @@ When using the **SORT** function in International Mode, the function will use th
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

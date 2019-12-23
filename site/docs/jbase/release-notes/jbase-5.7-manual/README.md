@@ -16,26 +16,26 @@ Welcome to jBASE!  jBASE is a dynamic, high-performance and flexible NoSQL data
 
 # jBASE 5.7 Release Notes
 
-For summary of new features in jBASE 5.7, see [Release Notes for jBASE 5.7](jbase-57-release-notes).
+For summary of new features in jBASE 5.7, see [Release Notes for jBASE 5.7](./../jbase-5.7-release-notes).
 
-- [Dynamic Objects](dynamic-objects)
-- [Dynamic Files](306073-dynamic-files)
-- [jBASE Profiles](jbase-profiles57)
-- [Upgraded Java drivers for jRemote](jremote)
+- [Dynamic Objects](./../../dynamic-objects/dynamic-objects)
+- [Dynamic Files](./../../files/dynamic-files)
+- [jBASE Profiles](./../../jbase/profiles/jbase-profiles)
+- [Upgraded Java drivers for jRemote](./../../jagent/introduction-to-jremote)
 
 
 # Getting to Know jBASE
 
 jBASE provides the following documentation to help developers and administrators new to jBASE.
 
-- [Installing jBASE on Windows](323805-windows-jbase-installation "Installing jBASE on Windows")
-- [Installing jBASE on Linux](jbase-linux-installation-guide "Installing jBASE on Linux")
-- [Installing jBASE on AIX](jbase-56-aix-installation-guide)
-- [Introduction to jBASE](introduction-to-jbase)
-- [Creating a jBASE Program](introduction-to-file-create-and-simple-program-windows "INTRODUCTION TO FILE CREATE AND SIMPLE PROGRAM")
-- [Introduction to Dynamic Objects](dynamic-objects-tour "Introduction to Dynamic Objects")
-- [Introduction to jAgent](introduction-to-jagent "Introduction to jAgent")
-- [jBASE F.A.Q.](250957-jbase-f-a-q "jBASE F.A.Q.")
+- [Installing jBASE on Windows](./../../administration/installation-guides/windows-installation-guide "Installing jBASE on Windows")
+- [Installing jBASE on Linux](./../../administration/installation-guides/linux-installation-guide "Installing jBASE on Linux")
+- [Installing jBASE on AIX](./../../administration/installation-guides/jbase-aix-installation-guide)
+- [Introduction to jBASE](./../../migration-station/introduction-to-jbase)
+- [Creating a jBASE Program](./../../administration/installation-guides/create-a-jbase-program "INTRODUCTION TO FILE CREATE AND SIMPLE PROGRAM")
+- [Introduction to Dynamic Objects](./../../dynamic-objects/introduction-to-dynamic-objects "Introduction to Dynamic Objects")
+- [Introduction to jAgent](./../../jagent/introduction-to-jagent "Introduction to jAgent")
+- [jBASE F.A.Q.](./../../migration-station/jbase-f.a.q "jBASE F.A.Q.")
 
 
 
@@ -52,6 +52,6 @@ If you're looking for help, you can reach out the following ways:
 
 # jBASE Licensing
 
-To gain an understanding of jBASE licensing, please review [jBASE 5 Licensing Guide](jbase-5-licensing "jBASE 5 Licensing Guide").
+To gain an understanding of jBASE licensing, please review [jBASE 5 Licensing Guide](./../5.6.2-release-notes/jbase-5-licensing "jBASE 5 Licensing Guide").
 
 To obtain an evaluation version of jBASE, please email [multivalue@zumasys.com.](mailto:multivalue@zumasys.com.%3C/p%3E)

@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
+- [Package](./../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 - Class
-- [Use](/39235-class-use/com_jbase_jdbc_io_class-use_ByteObject)
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.io.byteobject-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectWriter "class in com.jbase.jdbc.io")
-- [Next Class](/39232-io/com_jbase_jdbc_io_bytetools "class in com.jbase.jdbc.io")
+- [Prev Class](./../abstractjbaseobjectwriter-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
+- [Next Class](./../bytetools-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/io//39232-io/com_jbase_jdbc_io_ByteObject)
-- [No Frames](/39232-io/com_jbase_jdbc_io_ByteObject)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -53,7 +53,7 @@ com.jbase.jdbc.io
 - - com.jbase.jdbc.io.ByteObject
 
 
-- All Implemented Interfaces:[IByteObject](../../../../com/jbase/jdbc/io/I/39232-io/com_jbase_jdbc_io_ByteObject "interface in com.jbase.jdbc.io")
+- All Implemented Interfaces:[IByteObject](./. "interface in com.jbase.jdbc.io")
 * * *
 
 
@@ -151,22 +151,22 @@ Specified by:`setByteBuffer` in interface `IByteObject`Throws:`IOException`
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
+- [Package](./../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 - Class
-- [Use](/39235-class-use/com_jbase_jdbc_io_class-use_ByteObject)
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.io.byteobject-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectWriter "class in com.jbase.jdbc.io")
-- [Next Class](/39232-io/com_jbase_jdbc_io_bytetools "class in com.jbase.jdbc.io")
+- [Prev Class](./../abstractjbaseobjectwriter-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
+- [Next Class](./../bytetools-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/io//39232-io/com_jbase_jdbc_io_ByteObject)
-- [No Frames](/39232-io/com_jbase_jdbc_io_ByteObject)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

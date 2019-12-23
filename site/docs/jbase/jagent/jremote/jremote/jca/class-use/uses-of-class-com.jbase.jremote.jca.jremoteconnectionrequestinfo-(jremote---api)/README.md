@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
-- [Class](/39258-jca/com_jbase_jremote_jca_jremoteconnectionrequestinfo "class in com.jbase.jremote.jca")
+- [Package](./../../com.jbase.jremote.jca-%28jremote---api%29)
+- [Class](./../../jremoteconnectionrequestinfo-%28jremote-api%29 "class in com.jbase.jremote.jca")
 - Use
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Tree](./../../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/class-use//39261-class-use/com_jbase_jremote_jca_class-use_JRemoteConnectionRequestInfo)
-- [No Frames](/39261-class-use/com_jbase_jremote_jca_class-use_JRemoteConnectionRequestInfo)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.jremote.jca.JRemoteConnectionRequestInfo
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
-- [Class](/39258-jca/com_jbase_jremote_jca_jremoteconnectionrequestinfo "class in com.jbase.jremote.jca")
+- [Package](./../../com.jbase.jremote.jca-%28jremote---api%29)
+- [Class](./../../jremoteconnectionrequestinfo-%28jremote-api%29 "class in com.jbase.jremote.jca")
 - Use
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Tree](./../../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/class-use//39261-class-use/com_jbase_jremote_jca_class-use_JRemoteConnectionRequestInfo)
-- [No Frames](/39261-class-use/com_jbase_jremote_jca_class-use_JRemoteConnectionRequestInfo)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

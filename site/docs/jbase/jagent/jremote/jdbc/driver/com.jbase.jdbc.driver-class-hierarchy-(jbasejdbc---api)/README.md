@@ -10,7 +10,7 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39230-driver/com_jbase_jdbc_driver_package-summary)
+- [Package](./../com.jbase.jdbc.driver-%28jbasejdbc---api%29)
 - Class
 - Use
 - Tree
@@ -20,12 +20,12 @@ Skip navigation links
 
 jbasejdbc <br>
 
-- [Prev](/39228-jdbc/com_jbase_jdbc_package-tree)
-- [Next](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Prev](./../../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
+- [Next](./../../io/com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/driver//39230-driver/com_jbase_jdbc_driver_package-tree)
-- [No Frames](/39230-driver/com_jbase_jdbc_driver_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -40,14 +40,14 @@ Package Hierarchies:
 ## Class Hierarchy
 
 - java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
-    - com.jbase.jdbc.driver.[JBaseDBError](/39230-driver/com_jbase_jdbc_driver_JBaseDBError "class in com.jbase.jdbc.driver")
-    - com.jbase.jdbc.driver.[JBaseJDBCDriver](/39230-driver/com_jbase_jdbc_driver_JBaseJDBCDriver "class in com.jbase.jdbc.driver") (implements java.sql.[Driver](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Driver.html?is-external=true "class or interface in java.sql"), com.jbase.jdbc.[JBaseJDBCDriverConstants](/39228-jdbc/com_jbase_jdbc_JBaseJDBCDriverConstants "interface in com.jbase.jdbc"))
-    - com.jbase.jdbc.driver.[SQLState](/39230-driver/com_jbase_jdbc_driver_SQLState "class in com.jbase.jdbc.driver") (implements com.jbase.jdbc.[JBaseJDBCDriverConstants](/39228-jdbc/com_jbase_jdbc_JBaseJDBCDriverConstants "interface in com.jbase.jdbc"))
+    - com.jbase.jdbc.driver.[JBaseDBError](./../jbasedberror-%28jbasejdbc---api%29 "class in com.jbase.jdbc.driver")
+    - com.jbase.jdbc.driver.[JBaseJDBCDriver](./../jbasejdbcdriver-%28jbasejdbc---api%29 "class in com.jbase.jdbc.driver") (implements java.sql.[Driver](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Driver.html?is-external=true "class or interface in java.sql"), com.jbase.jdbc.[JBaseJDBCDriverConstants](./../../jbasejdbcdriverconstants-%28jbasejdbc---api%29 "interface in com.jbase.jdbc"))
+    - com.jbase.jdbc.driver.[SQLState](./../sqlstate-%28jbasejdbc---api%29 "class in com.jbase.jdbc.driver") (implements com.jbase.jdbc.[JBaseJDBCDriverConstants](./../../jbasejdbcdriverconstants-%28jbasejdbc---api%29 "interface in com.jbase.jdbc"))
 
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39230-driver/com_jbase_jdbc_driver_package-summary)
+- [Package](./../com.jbase.jdbc.driver-%28jbasejdbc---api%29)
 - Class
 - Use
 - Tree
@@ -57,12 +57,12 @@ Skip navigation links
 
 jbasejdbc <br>
 
-- [Prev](/39228-jdbc/com_jbase_jdbc_package-tree)
-- [Next](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Prev](./../../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
+- [Next](./../../io/com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/driver//39230-driver/com_jbase_jdbc_driver_package-tree)
-- [No Frames](/39230-driver/com_jbase_jdbc_driver_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

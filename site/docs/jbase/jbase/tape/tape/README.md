@@ -60,14 +60,14 @@ On AIX use "smitty" to set tape device for variable length.
 | Device Flags<br> | Description<br> |
 | --- | --- |
 | -D DeviceName<br> | device to open in no rewind mode<br> |
-| -I LockId<br> | lock name for [T-ATT](t-att) to show device attached.<br> |
+| -I LockId<br> | lock name for [T-ATT](./../t-att) to show device attached.<br> |
 | -M MediaType<br> | media name. SCT, DAT, HALF, FLOPPY, FILE.<br> |
 | -L Type,Size<br> | label Type and expected size e.g. R83,8192 or ROS,80<br> |
 | -T TTYName<br> | alternative device for next reel prompt or errors etc.<br> |
 | -S SizeKb<br> | max size of device. Floppy only<br> |
 | -H HeaderSize<br> | specifies bytes to skip for each block.<br> |
 | -R DeviceName<br> | device for rewind mode<br> |
-| -P PadChar<br> | value of -1 No pad on [WRITET](279572-writet), -P0xff pads with 0xff.<br> |
+| -P PadChar<br> | value of -1 No pad on [WRITET](./../../../jbase-basic-%28jbc%29/writet), -P0xff pads with 0xff.<br> |
 | -B Blocksize<br> | default block size to read and write.<br> |
 
 

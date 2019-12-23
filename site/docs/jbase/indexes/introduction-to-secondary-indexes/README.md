@@ -32,14 +32,14 @@ In this document there will be many references to the index data being "in sync"
 jBASE has a number of command to help you create and maintain these secondary indexes:
 
 
-| [create-index](create-index)<br> | create a new definition or rebuild an existing definition.<br> |
+| [create-index](./../create-index)<br> | create a new definition or rebuild an existing definition.<br> |
 | --- | --- |
-| [delete-index](delete-index)<br> | delete an index definition.<br> |
-| [key-select](query-index)<br> | do a search against an index.<br> |
-| [list-index](list-index)<br> | list details of current index definitions.<br> |
-| [query-index](query-index)<br> | search an index, a synonym for the key-select program.<br> |
-| [rebuild-index](rebuild-index)<br> | re-build an index from the data file.<br> |
-| [verify-index](verify-index)<br> | verify the integrity of an index.<br> |
+| [delete-index](./../delete-index)<br> | delete an index definition.<br> |
+| [key-select](./../query-index)<br> | do a search against an index.<br> |
+| [list-index](./../list-index)<br> | list details of current index definitions.<br> |
+| [query-index](./../query-index)<br> | search an index, a synonym for the key-select program.<br> |
+| [rebuild-index](./../rebuild-index)<br> | re-build an index from the data file.<br> |
+| [verify-index](./../verify-index)<br> | verify the integrity of an index.<br> |
 
 
 All the commands share a similar syntax. A help screen can be obtained using the -h option on all the commands. All the commands have both lower and upper case versions, for example both "create-index" and "CREATE-INDEX" are provided for.

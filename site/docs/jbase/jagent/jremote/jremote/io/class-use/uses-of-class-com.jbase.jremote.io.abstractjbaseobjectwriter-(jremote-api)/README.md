@@ -14,17 +14,17 @@ com.jbase.jremote.io.AbstractJBaseObjectWriter
 
 - | Package<br> | Description<br> |
 | --- | --- |
- Packages that use [AbstractJBaseObjectWriter](/39250-io/com_jbase_jremote_io_abstractjbaseobjectwriter "class in com.jbase.jremote.io")  | com.jbase.jremote.io<br> |  <br> |
+ Packages that use [AbstractJBaseObjectWriter](./../../abstractjbaseobjectwriter-%28jremote-api%29 "class in com.jbase.jremote.io")  | com.jbase.jremote.io<br> |  <br> |
 
 
 
 
-### Uses of [AbstractJBaseObjectWriter](/39250-io/com_jbase_jremote_io_abstractjbaseobjectwriter "class in com.jbase.jremote.io") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
+### Uses of [AbstractJBaseObjectWriter](./../../abstractjbaseobjectwriter-%28jremote-api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29)
 
 
 | Modifier and Type<br> | Class and Description<br> |
 | --- | --- |
- Subclasses of [AbstractJBaseObjectWriter](/39250-io/com_jbase_jremote_io_abstractjbaseobjectwriter "class in com.jbase.jremote.io") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)  | `class `<br> | `IOJBaseObjectWriter`<br>jBase object writer based on the DataOutputStream.<br> |
+ Subclasses of [AbstractJBaseObjectWriter](./../../abstractjbaseobjectwriter-%28jremote-api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29)  | `class `<br> | `IOJBaseObjectWriter`<br>jBase object writer based on the DataOutputStream.<br> |
 | `class `<br> | `NIOJBaseObjectWriter`<br>jBase object writer using the new Java IO.<br> |
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

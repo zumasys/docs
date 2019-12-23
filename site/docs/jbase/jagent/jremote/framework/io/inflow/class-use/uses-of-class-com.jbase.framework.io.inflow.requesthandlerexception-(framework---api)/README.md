@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
-- [Class](/39226-inflow/com_jbase_framework_io_inflow_RequestHandlerException "class in com.jbase.framework.io.inflow")
+- [Package](./../../com.jbase.framework.io.inflow-%28framework---api%29)
+- [Class](./../../requesthandlerexception-%28framework---api%29 "class in com.jbase.framework.io.inflow")
 - Use
-- [Tree](/39226-inflow/com_jbase_framework_io_inflow_package-tree)
+- [Tree](./../../com.jbase.framework.io.inflow-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/framework/io/inflow/class-use//39227-class-use/com_jbase_framework_io_inflow_class-use_RequestHandlerException)
-- [No Frames](/39227-class-use/com_jbase_framework_io_inflow_class-use_RequestHandlerException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ framework <br>
 ## Uses of Class
 com.jbase.framework.io.inflow.RequestHandlerException
 
-- Packages that use [RequestHandlerException](/39226-inflow/com_jbase_framework_io_inflow_RequestHandlerException "class in com.jbase.framework.io.inflow") | Package | Description |
+- Packages that use [RequestHandlerException](./../../requesthandlerexception-%28framework---api%29 "class in com.jbase.framework.io.inflow") | Package | Description |
 | --- | --- |
 | com.jbase.framework.io.inflow |   |
-- - ### Uses of [RequestHandlerException](/39226-inflow/com_jbase_framework_io_inflow_RequestHandlerException "class in com.jbase.framework.io.inflow") in [com.jbase.framework.io.inflow](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
+- - ### Uses of [RequestHandlerException](./../../requesthandlerexception-%28framework---api%29 "class in com.jbase.framework.io.inflow") in [com.jbase.framework.io.inflow](./../../com.jbase.framework.io.inflow-%28framework---api%29)
 
 
-Methods in [com.jbase.framework.io.inflow](/39226-inflow/com_jbase_framework_io_inflow_package-summary) that throw [RequestHandlerException](/39226-inflow/com_jbase_framework_io_inflow_RequestHandlerException "class in com.jbase.framework.io.inflow") | Modifier and Type | Method and Description |
+Methods in [com.jbase.framework.io.inflow](./../../com.jbase.framework.io.inflow-%28framework---api%29) that throw [RequestHandlerException](./../../requesthandlerexception-%28framework---api%29 "class in com.jbase.framework.io.inflow") | Modifier and Type | Method and Description |
 | --- | --- |
 | `byte[]` | RequestHandler.`handleRequest(ClientHandle handle,<br>             byte[] request)`<br>Called when a client has sent a request.<br> |
 | `void` | RequestHandler.`handleResponse(ClientHandle handle,<br>              byte[] response)`<br>Send a response to the supplied client (sessionId).<br> |
@@ -50,10 +50,10 @@ Methods in [com.jbase.framework.io.inflow](/39226-inflow/com_jbase_framework_io_
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
-- [Class](/39226-inflow/com_jbase_framework_io_inflow_RequestHandlerException "class in com.jbase.framework.io.inflow")
+- [Package](./../../com.jbase.framework.io.inflow-%28framework---api%29)
+- [Class](./../../requesthandlerexception-%28framework---api%29 "class in com.jbase.framework.io.inflow")
 - Use
-- [Tree](/39226-inflow/com_jbase_framework_io_inflow_package-tree)
+- [Tree](./../../com.jbase.framework.io.inflow-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -64,8 +64,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/framework/io/inflow/class-use//39227-class-use/com_jbase_framework_io_inflow_class-use_RequestHandlerException)
-- [No Frames](/39227-class-use/com_jbase_framework_io_inflow_class-use_RequestHandlerException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

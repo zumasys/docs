@@ -20,7 +20,7 @@ Where **expression** may consist of any form of jBASE BASIC expression but must 
 ## Note:
 
 
-> The returned value is accurate to as many decimal places specified by the [PRECISION](277629-precision) of the program.
+> The returned value is accurate to as many decimal places specified by the [PRECISION](./../precision) of the program.
 
 
 An example of use is as:
@@ -31,6 +31,6 @@ An example of use is as:
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

@@ -14,7 +14,7 @@
 
 ## Description 
 
-The jrestore utility provides fast on-line restores from the saves produced by the [jbackup](jbackup) utility.
+The jrestore utility provides fast on-line restores from the saves produced by the [jbackup](./../jbackup) utility.
 
 The jrestore can be controlled to restore from any file type on the backup, from single records to multiple directories.
 

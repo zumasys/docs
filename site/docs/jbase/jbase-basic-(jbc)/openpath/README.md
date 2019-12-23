@@ -19,11 +19,11 @@ OPENPATH expression1 TO {variable} {SETTING setvar} THEN|ELSE statements
 Where:
 
 - **expression1** should be an absolute or relative path to the file including the name of the file to be opened,
-- If specified, **variable** will be used to hold the descriptor for the file. It should then be to access the file using [READ](277646-read) and [WRITE](279568-write). If no file descriptor variable is supplied, then the file will be opened to the default file descriptor,
+- If specified, **variable** will be used to hold the descriptor for the file. It should then be to access the file using [READ](./../read) and [WRITE](./../write). If no file descriptor variable is supplied, then the file will be opened to the default file descriptor,
 - If the **OPENPATH**statement fails it will execute any **statements** associated with an **ELSE**clause. If successful, the **OPENPATH** will execute any **statements** associated with a **THEN**clause. The syntax requires either one or both of the THEN and ELSE clauses.
 
 
-If the **SETTING**clause is specified and the open fails, setvar will be set to one of t[hese values](277647-increamental-file-errors).
+If the **SETTING**clause is specified and the open fails, setvar will be set to one of t[hese values](./../incremental-file-errors).
 
 
 
@@ -53,6 +53,6 @@ to open the CUSTOMERS file (located in F:\Users\data) to the default file variab
 
 
 
-See also: [OPEN](277537-open) statement.
+See also: [OPEN](./../open) statement.
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

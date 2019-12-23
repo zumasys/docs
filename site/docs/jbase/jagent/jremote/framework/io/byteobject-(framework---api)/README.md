@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
+- [Package](./../com.jbase.framework.io-%28framework---api%29)
 - Class
-- [Use](/39223-class-use/com_jbase_framework_io_class-use_ByteObject)
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.byteobject-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Class](/39220-io/com_jbase_framework_io_AbstractJBaseObjectWriter "class in com.jbase.framework.io")
-- [Next Class](/39220-io/com_jbase_framework_io_ByteTools "class in com.jbase.framework.io")
+- [Prev Class](./../abstractjbaseobjectwriter-%28framework---api%29 "class in com.jbase.framework.io")
+- [Next Class](./../bytetools-%28framework---api%29 "class in com.jbase.framework.io")
 
 
-- [Frames](../../../../index.html?com/jbase/framework/io//39220-io/com_jbase_framework_io_ByteObject)
-- [No Frames](/39220-io/com_jbase_framework_io_ByteObject)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -53,7 +53,7 @@ com.jbase.framework.io
 - - com.jbase.framework.io.ByteObject
 
 
-- All Implemented Interfaces:[IByteObject](../../../../com/jbase/framework/io/I/39220-io/com_jbase_framework_io_ByteObject "interface in com.jbase.framework.io")
+- All Implemented Interfaces:[IByteObject](./. "interface in com.jbase.framework.io")
 * * *
 
 
@@ -151,22 +151,22 @@ Specified by:`setByteBuffer` in interface `IByteObject`Throws:`IOException`
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
+- [Package](./../com.jbase.framework.io-%28framework---api%29)
 - Class
-- [Use](/39223-class-use/com_jbase_framework_io_class-use_ByteObject)
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.byteobject-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Class](/39220-io/com_jbase_framework_io_AbstractJBaseObjectWriter "class in com.jbase.framework.io")
-- [Next Class](/39220-io/com_jbase_framework_io_ByteTools "class in com.jbase.framework.io")
+- [Prev Class](./../abstractjbaseobjectwriter-%28framework---api%29 "class in com.jbase.framework.io")
+- [Next Class](./../bytetools-%28framework---api%29 "class in com.jbase.framework.io")
 
 
-- [Frames](../../../../index.html?com/jbase/framework/io//39220-io/com_jbase_framework_io_ByteObject)
-- [No Frames](/39220-io/com_jbase_framework_io_ByteObject)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

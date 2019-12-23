@@ -18,7 +18,7 @@ JQLEXECUTE(Statement, SelectVar)
 
 Where:
 
-- **Statement** is the valid result of a call to a [JQLCOMPILE](276773-5-jqlcompile)
+- **Statement** is the valid result of a call to a [JQLCOMPILE](./../jqlcompile)
 - **SelectVar** is a valid select list used to limit the statement to a predefined set of items. For example:
 
 
@@ -29,10 +29,10 @@ LIST PROGRAMMERS NAME
 
 
 
-This function returns -1 in the event of a problem, such as an incorrect statement variable. It will cause the **statement** to run against the database and produce a result set for use with [JQLFETCH](276790-jqlfetch).
+This function returns -1 in the event of a problem, such as an incorrect statement variable. It will cause the **statement** to run against the database and produce a result set for use with [JQLFETCH](./../jqlfetch).
 
 For a practical example of use, see the **jexport.b** program in the **$JBCRELELEASEDIR/****samples/JQLBASIC** directory.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -98,4 +98,4 @@ Note how COPY and SALES have become separate parameters but ABC and -DEF have be
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39221-charset/com_jbase_framework_io_charset_package-summary)
+- [Package](./../com.jbase.framework.io.charset-%28framework---api%29)
 - Class
-- [Use](/39222-class-use/com_jbase_framework_io_charset_class-use_JbaseCharset)
-- [Tree](/39221-charset/com_jbase_framework_io_charset_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.charset.jbasecharset-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.charset-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -21,11 +21,11 @@ Skip navigation links
 framework <br>
 
 - Prev Class
-- [Next Class](/39221-charset/com_jbase_framework_io_charset_JbaseCharsetDecoder "class in com.jbase.framework.io.charset")
+- [Next Class](./../jbasecharsetdecoder-%28framework---api%29 "class in com.jbase.framework.io.charset")
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/charset//39221-charset/com_jbase_framework_io_charset_JbaseCharset)
-- [No Frames](/39221-charset/com_jbase_framework_io_charset_JbaseCharset)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -188,10 +188,10 @@ Specified by:`newEncoder` in class `Charset`
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39221-charset/com_jbase_framework_io_charset_package-summary)
+- [Package](./../com.jbase.framework.io.charset-%28framework---api%29)
 - Class
-- [Use](/39222-class-use/com_jbase_framework_io_charset_class-use_JbaseCharset)
-- [Tree](/39221-charset/com_jbase_framework_io_charset_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.charset.jbasecharset-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.charset-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -199,11 +199,11 @@ Skip navigation links
 framework <br>
 
 - Prev Class
-- [Next Class](/39221-charset/com_jbase_framework_io_charset_JbaseCharsetDecoder "class in com.jbase.framework.io.charset")
+- [Next Class](./../jbasecharsetdecoder-%28framework---api%29 "class in com.jbase.framework.io.charset")
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/charset//39221-charset/com_jbase_framework_io_charset_JbaseCharset)
-- [No Frames](/39221-charset/com_jbase_framework_io_charset_JbaseCharset)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

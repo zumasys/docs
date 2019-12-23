@@ -27,7 +27,7 @@ where:
 | --- | --- |
 | LPTR<br> | directly despooled device<br> |
 | PROG | programmed device<br> |
-| [FILE](spooler-file-device-type) | despool to an operating system file |
+| [FILE](./../spooler-file-device-type) | despool to an operating system file |
 | TAPE<br> | tape device<br> |
 | PORT<br> | terminal device<br> |
 | 0<br> | no device<br> |
@@ -48,4 +48,4 @@ The user will then enter the device name.
 
 
 
-Back to [Spooler](jbase-spooler).
+Back to [Spooler](./../jbase-spooler).

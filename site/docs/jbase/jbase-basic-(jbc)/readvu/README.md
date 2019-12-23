@@ -20,13 +20,13 @@ Where:
 
 **variable1**is the record id into which the record will be read.
 
-**variable2**if specified, should be a variable that has previously been opened to a file using the [OPEN](277537-open) statement. If **variable2**is not specified then the default file variable is assumed.
+**variable2**if specified, should be a variable that has previously been opened to a file using the [OPEN](./../open) statement. If **variable2**is not specified then the default file variable is assumed.
 
 **expression1**should evaluate to a valid record key for the file.
 
 **expression2**should evaluate to a positive integer number. If the number is invalid or greater than the number of fields in the record, then a NULL string will be assigned to variable1. If the number is 0, then the readv0 emulation setting controls the value returned in variable1. If a non-numeric argument is evaluated a run time error will occur.
 
-If the **SETTING**clause is specified and the read fails, **setvar**will be set to one of [these values](277647-increamental-file-errors).
+If the **SETTING**clause is specified and the read fails, **setvar**will be set to one of [these values](./../incremental-file-errors).
 
 If **ON ERROR** is specified, the statements following the **ON ERROR** clause will be executed for any of the above Incremental File Errors except error 128.
 
@@ -36,12 +36,12 @@ If the record could not be read because another process already had a lock on th
 
 The lock taken by the **READVU** statement will be released by any of the following events:
 
-- The same program with [WRITE](279568-write), [WRITEV](279574-writev), [MATWRITE](276964-matwrite) or [DELETE](276025-delete) statements writes to the record.
-- The record lock is released explicitly using the [RELEASE](278784-release) statement.
+- The same program with [WRITE](./../write), [WRITEV](./../writev), [MATWRITE](./../matwrite) or [DELETE](./../delete) statements writes to the record.
+- The record lock is released explicitly using the [RELEASE](./../release) statement.
 - The program stops normally or abnormally.
 
 
-When a file is [OPEN](277537-open)ed to a local file variable in a subroutine then the file is closed when the subroutine [RETURN](278787-return)s so all locks taken on that file are released, including locks taken in a calling program. Files that are opened to [COMMON](276024-common) variables are not closed so the locks remain intact.
+When a file is [OPEN](./../open)ed to a local file variable in a subroutine then the file is closed when the subroutine [RETURN](./../return)s so all locks taken on that file are released, including locks taken in a calling program. Files that are opened to [COMMON](./../common) variables are not closed so the locks remain intact.
 
 An example of use is as:
 
@@ -66,6 +66,6 @@ REPEAT
 
 
 
-See also: [WRITE](279568-write), [WRITEU](279573-writeu), [MATWRITE](276964-matwrite), [MATWRITEU](276970-matwriteu), [RELEASE](278784-release), and [DELETE](276025-delete).
+See also: [WRITE](./../write), [WRITEU](./../writeu), [MATWRITE](./../matwrite), [MATWRITEU](./../matwriteu), [RELEASE](./../release), and [DELETE](./../delete).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

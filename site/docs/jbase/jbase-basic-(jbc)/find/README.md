@@ -54,6 +54,6 @@ XYZ is in field 2     value 2
 
 
 
-See also: [LOCATE](276937-locate), [FINDSTR](272273-findstr)
+See also: [LOCATE](./../locate), [FINDSTR](./../findstr)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

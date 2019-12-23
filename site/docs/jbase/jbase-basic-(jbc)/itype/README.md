@@ -80,4 +80,4 @@ GREG WEARS SLIPPERS SIZE 10
 ALAN WEARS SLIPPERS SIZE 5
 ```
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

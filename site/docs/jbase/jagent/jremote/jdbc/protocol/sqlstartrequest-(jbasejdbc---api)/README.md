@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- [Package](./../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 - Class
-- [Use](/39241-class-use/com_jbase_jdbc_protocol_class-use_sqlstartrequest)
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.protocol.sqlstartrequest-%28jbasejdbc-api%29)
+- [Tree](./../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39240-protocol/com_jbase_jdbc_protocol_SQLRSMDResponse "class in com.jbase.jdbc.protocol")
-- [Next Class](/39240-protocol/com_jbase_jdbc_protocol_SQLUpdateResponse "class in com.jbase.jdbc.protocol")
+- [Prev Class](./../sqlrsmdresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
+- [Next Class](./../sqlupdateresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_SQLStartRequest)
-- [No Frames](/39240-protocol/com_jbase_jdbc_protocol_SQLStartRequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -53,7 +53,7 @@ com.jbase.jdbc.protocol
 - - com.jbase.jdbc.protocol.SQLStartRequest
 
 
-- All Implemented Interfaces:[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")Direct Known Subclasses:[CompileRequest](/39240-protocol/com_jbase_jdbc_protocol_CompileRequest "class in com.jbase.jdbc.protocol"), [DatabaseMetaDataRequest](/39240-protocol/com_jbase_jdbc_protocol_DatabaseMetaDataRequest "class in com.jbase.jdbc.protocol"), [LoadSubroutineRequest](/39240-protocol/com_jbase_jdbc_protocol_LoadSubroutineRequest "class in com.jbase.jdbc.protocol"), [SQLRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLRequest "class in com.jbase.jdbc.protocol")
+- All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")Direct Known Subclasses:[CompileRequest](./../compilerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol"), [DatabaseMetaDataRequest](./../databasemetadatarequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol"), [LoadSubroutineRequest](./../loadsubroutinerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol"), [SQLRequest](./../sqlrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 * * *
 
 
@@ -68,7 +68,7 @@ Author:Peter Kuchta
 
 - - ### Nested Class Summary
 
-        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](./../../io/jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 `JBaseSerializable.TYPE`
 
 
@@ -101,7 +101,7 @@ All Methods [Instance Methods](javascript:show%282%29;) [Concrete Methods](javas
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
 
-        - ### Methods inherited from interface com.jbase.jdbc.io.[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+        - ### Methods inherited from interface com.jbase.jdbc.io.[JBaseSerializable](./../../io/jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 `readObject, writeObject`
 
 - - ### Field Detail
@@ -144,22 +144,22 @@ Specified by:`getVersion` in interface `JBaseSerializable`
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- [Package](./../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 - Class
-- [Use](/39241-class-use/com_jbase_jdbc_protocol_class-use_sqlstartrequest)
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.protocol.sqlstartrequest-%28jbasejdbc-api%29)
+- [Tree](./../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39240-protocol/com_jbase_jdbc_protocol_SQLRSMDResponse "class in com.jbase.jdbc.protocol")
-- [Next Class](/39240-protocol/com_jbase_jdbc_protocol_SQLUpdateResponse "class in com.jbase.jdbc.protocol")
+- [Prev Class](./../sqlrsmdresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
+- [Next Class](./../sqlupdateresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_SQLStartRequest)
-- [No Frames](/39240-protocol/com_jbase_jdbc_protocol_SQLStartRequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

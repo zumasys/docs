@@ -11,20 +11,20 @@ JavaScript is disabled on your browser.
 
 
 
-## Uses of [JConnection](com_jbase_jrcs_JConnection "class in com.jbase.jrcs") in [com.jbase.jrcs](com_jbase_jrcs_package-summary)
+## Uses of [JConnection](com_jbase_jrcs_JConnection "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29)
 
 
 
-**Constructors in [com.jbase.jrcs](com_jbase_jrcs_package-summary) with parameters of type [JConnection](com_jbase_jrcs_JConnection "class in com.jbase.jrcs")**
+**Constructors in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) with parameters of type [JConnection](com_jbase_jrcs_JConnection "class in com.jbase.jrcs")**
 
 
 | Constructor  |
 | --- |
-| [JCapture](com_jbase_jrcs_jcapture)(int handle, [JConnection](com_jbase_jrcs_JConnection "class in com.jbase.jrcs") conn)<br> |
-| [JCommon](com_jbase_jrcs_jcommon)(int handle, int numvars, [JConnection](com_jbase_jrcs_JConnection "class in com.jbase.jrcs") conn)<br> |
-| [JFile](com_jbase_jrcs_jfile)(int handle, String name, [JConnection](com_jbase_jrcs_JConnection "class in com.jbase.jrcs") conn)<br> |
-| [JIndex](com_jbase_jrcs_jindex)(int handle, [JConnection](com_jbase_jrcs_JConnection "class in com.jbase.jrcs") conn)<br> |
-| [JSelectList](com_jbase_jrcs_jselectlist)(int handle, boolean indexVar, [JConnection](com_jbase_jrcs_JConnection "class in com.jbase.jrcs") conn)<br> |
+| [JCapture](./../../jcapture-%28jrclient-api%29)(int handle, [JConnection](com_jbase_jrcs_JConnection "class in com.jbase.jrcs") conn)<br> |
+| [JCommon](./../../jcommon-%28jrclient-api%29)(int handle, int numvars, [JConnection](com_jbase_jrcs_JConnection "class in com.jbase.jrcs") conn)<br> |
+| [JFile](./../../jfile-%28jrclient-api%29)(int handle, String name, [JConnection](com_jbase_jrcs_JConnection "class in com.jbase.jrcs") conn)<br> |
+| [JIndex](./../../jindex-%28jrclient-api%29)(int handle, [JConnection](com_jbase_jrcs_JConnection "class in com.jbase.jrcs") conn)<br> |
+| [JSelectList](./../../jselectlist-%28jrclient---api%29)(int handle, boolean indexVar, [JConnection](com_jbase_jrcs_JConnection "class in com.jbase.jrcs") conn)<br> |
 
 
 

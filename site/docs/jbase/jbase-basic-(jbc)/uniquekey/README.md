@@ -29,4 +29,4 @@ A process that starts up during this period and is given the process ID of a pro
 
 Change **5\_20431** changed the '+' and '/' to '^' and '\_' respectively.
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

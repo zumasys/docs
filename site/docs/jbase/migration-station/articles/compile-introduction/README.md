@@ -37,7 +37,7 @@ jCompileFile -Options SourceFileName
 | -v<br> | direct output and report to screen<br> |
 
 
-The conversion report, output, warning lists and error lists are stored in the PortSave directory as jbc\_rep\_FileName, jbc\_out\_FileName,   jbc\_warn\_FileName and jbc\_err\_FileName respectively. The jbc\_err\_FileName can be used to create a select list to supply to [JED](https://www.jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/ed2_jed.htm) to enable correction of errors or problems. If executed again the jCompileFile will only attempt to compile records in the jbc\_err\_FileName list else the jbc\_warn\_FileName if either list is not empty. e.g.
+The conversion report, output, warning lists and error lists are stored in the PortSave directory as jbc\_rep\_FileName, jbc\_out\_FileName,   jbc\_warn\_FileName and jbc\_err\_FileName respectively. The jbc\_err\_FileName can be used to create a select list to supply to [JED](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/ed2_jed.htm) to enable correction of errors or problems. If executed again the jCompileFile will only attempt to compile records in the jbc\_err\_FileName list else the jbc\_warn\_FileName if either list is not empty. e.g.
 
 ```
 FORM-LIST PortSave jbc_err_FileName

@@ -235,4 +235,4 @@ The effects of the above processes (command line or properties file editing ) ar
 
 
 
-Back to [jBASE Licensing](jbase-5-licensing).
+Back to [jBASE Licensing](./../../../release-notes/5.6.2-release-notes/jbase-5-licensing).

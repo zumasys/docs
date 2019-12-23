@@ -24,7 +24,7 @@ where:
 
 > ### Note: 
 > 
-> The page-eject value in the SKIP field affects all print jobs despooled from that formqueue. An alternate command [SP-EJECT](306227-sp-eject) can be used to set the number of page ejects for a set of print jobs.
+> The page-eject value in the SKIP field affects all print jobs despooled from that formqueue. An alternate command [SP-EJECT](./../sp-eject) can be used to set the number of page ejects for a set of print jobs.
 
 
 If entered without arguments, the user will be prompted as:
@@ -37,4 +37,4 @@ The user will then enter the name of the formqueue and the number of pages desir
 
 
 
-Back to [Spooler](jbase-spooler).
+Back to [Spooler](./../jbase-spooler).

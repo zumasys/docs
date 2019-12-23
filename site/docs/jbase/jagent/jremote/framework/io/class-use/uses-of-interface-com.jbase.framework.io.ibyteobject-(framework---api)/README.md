@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
-- [Class](/39220-io/com_jbase_framework_io_IByteObject "interface in com.jbase.framework.io")
+- [Package](./../../com.jbase.framework.io-%28framework---api%29)
+- [Class](./../../ibyteobject-%28framework---api%29 "interface in com.jbase.framework.io")
 - Use
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Tree](./../../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/class-use//39223-class-use/com_jbase_framework_io_class-use_IByteObject)
-- [No Frames](/39223-class-use/com_jbase_framework_io_class-use_IByteObject)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,19 +36,19 @@ framework <br>
 ## Uses of Interface
 com.jbase.framework.io.IByteObject
 
-- Packages that use [IByteObject](/39220-io/com_jbase_framework_io_IByteObject "interface in com.jbase.framework.io") | Package | Description |
+- Packages that use [IByteObject](./../../ibyteobject-%28framework---api%29 "interface in com.jbase.framework.io") | Package | Description |
 | --- | --- |
 | com.jbase.framework.io |   |
-- - ### Uses of [IByteObject](/39220-io/com_jbase_framework_io_IByteObject "interface in com.jbase.framework.io") in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary)
+- - ### Uses of [IByteObject](./../../ibyteobject-%28framework---api%29 "interface in com.jbase.framework.io") in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29)
 
 
-Classes in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary) that implement [IByteObject](/39220-io/com_jbase_framework_io_IByteObject "interface in com.jbase.framework.io") | Modifier and Type | Class and Description |
+Classes in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29) that implement [IByteObject](./../../ibyteobject-%28framework---api%29 "interface in com.jbase.framework.io") | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `ByteObject`  |
 
 
 
-Methods in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary) that return [IByteObject](/39220-io/com_jbase_framework_io_IByteObject "interface in com.jbase.framework.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29) that return [IByteObject](./../../ibyteobject-%28framework---api%29 "interface in com.jbase.framework.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected IByteObject` | AbstractJBaseObjectReader.`readByteObject(char code,<br>              IByteObject o)`  |
 | `IByteObject` | JBaseObjectReader.`readObject(IByteObject o)`<br>Reads/deserializes next byte object, a new IByteObject should be created and returned<br> if a null argument is passed in.<br> |
@@ -56,7 +56,7 @@ Methods in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-sum
 
 
 
-Methods in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary) with parameters of type [IByteObject](/39220-io/com_jbase_framework_io_IByteObject "interface in com.jbase.framework.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29) with parameters of type [IByteObject](./../../ibyteobject-%28framework---api%29 "interface in com.jbase.framework.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected IByteObject` | AbstractJBaseObjectReader.`readByteObject(char code,<br>              IByteObject o)`  |
 | `IByteObject` | JBaseObjectReader.`readObject(IByteObject o)`<br>Reads/deserializes next byte object, a new IByteObject should be created and returned<br> if a null argument is passed in.<br> |
@@ -67,10 +67,10 @@ Methods in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-sum
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
-- [Class](/39220-io/com_jbase_framework_io_IByteObject "interface in com.jbase.framework.io")
+- [Package](./../../com.jbase.framework.io-%28framework---api%29)
+- [Class](./../../ibyteobject-%28framework---api%29 "interface in com.jbase.framework.io")
 - Use
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Tree](./../../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -81,8 +81,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/class-use//39223-class-use/com_jbase_framework_io_class-use_IByteObject)
-- [No Frames](/39223-class-use/com_jbase_framework_io_class-use_IByteObject)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

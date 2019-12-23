@@ -54,6 +54,6 @@ If COL-HDR-SUPP or HDR-SUPP, or the C or H options are specified, the page numbe
 
 
 
-See also the [LIST-LABEL](321319-list-label) command.
+See also the [LIST-LABEL](./../list-label) command.
 
 Back to [JQL](jbase-query-language-jql-)

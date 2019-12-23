@@ -39,7 +39,7 @@ This class implements the java.sql.DatabaseMetaData interface which defines a se
 
 | Constructor<br> |  Description<br> |
 | --- | --- |
-| JBaseJDBCDatabaseMetaData([JBaseJDBCSocketConnection](/39228-jdbc/com_jbase_jdbc_jbasejdbcsocketconnection "class in com.jbase.jdbc") connection)<br> | <br>Constructor.<br> |
+| JBaseJDBCDatabaseMetaData([JBaseJDBCSocketConnection](./../jbasejdbcsocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc") connection)<br> | <br>Constructor.<br> |
 
 
 

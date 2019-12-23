@@ -96,4 +96,4 @@ File buffer 1 contains:
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

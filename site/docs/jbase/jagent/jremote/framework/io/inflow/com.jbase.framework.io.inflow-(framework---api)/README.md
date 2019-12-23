@@ -12,20 +12,20 @@ Skip navigation links
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39226-inflow/com_jbase_framework_io_inflow_package-use)
-- [Tree](/39226-inflow/com_jbase_framework_io_inflow_package-tree)
+- [Use](./../uses-of-package-com.jbase.framework.io.inflow-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.inflow-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Package](/39224-exception/com_jbase_framework_io_exception_package-summary)
+- [Prev Package](./../../exception/com.jbase.framework.io.exception-%28framework---api%29)
 - Next Package
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/inflow//39226-inflow/com_jbase_framework_io_inflow_package-summary)
-- [No Frames](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -37,39 +37,39 @@ framework <br>
 
 - Interface Summary | Interface | Description |
 | --- | --- |
-| [RequestHandler](/39226-inflow/com_jbase_framework_io_inflow_RequestHandler "interface in com.jbase.framework.io.inflow") | <br>Handle incoming requests received by the RequestServiceListener.<br> |
-| [RequestListenerServiceMBean](/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean "interface in com.jbase.framework.io.inflow") | <br>Expose information about the current state of the<br> inbound request processor.<br> |
-| [RequestProcessingAbstractFactory](/39226-inflow/com_jbase_framework_io_inflow_RequestProcessingAbstractFactory "interface in com.jbase.framework.io.inflow") |   |
-| [StatisticsCounter](/39226-inflow/com_jbase_framework_io_inflow_StatisticsCounter "interface in com.jbase.framework.io.inflow") | <br>A StatisticsCounter provides the ability to get statistics for a custom type.<br> |
+| [RequestHandler](./../requesthandler-%28framework---api%29 "interface in com.jbase.framework.io.inflow") | <br>Handle incoming requests received by the RequestServiceListener.<br> |
+| [RequestListenerServiceMBean](./../requestlistenerservicembean-%28framework---api%29 "interface in com.jbase.framework.io.inflow") | <br>Expose information about the current state of the<br> inbound request processor.<br> |
+| [RequestProcessingAbstractFactory](./../requestprocessingabstractfactory-%28framework---api%29 "interface in com.jbase.framework.io.inflow") |   |
+| [StatisticsCounter](./../statisticscounter-%28framework---api%29 "interface in com.jbase.framework.io.inflow") | <br>A StatisticsCounter provides the ability to get statistics for a custom type.<br> |
 - Class Summary | Class | Description |
 | --- | --- |
-| [ClientHandle](/39226-inflow/com_jbase_framework_io_inflow_ClientHandle "class in com.jbase.framework.io.inflow") | <br>This class holds a reference to the object the RequestServiceListener<br> uses to send reponses to clients.<br> |
-| [PendingChange](/39226-inflow/com_jbase_framework_io_inflow_PendingChange "class in com.jbase.framework.io.inflow") |   |
-| [RequestListenerService](/39226-inflow/com_jbase_framework_io_inflow_RequestListenerService "class in com.jbase.framework.io.inflow") |   |
-| [RequestListenerThread](/39226-inflow/com_jbase_framework_io_inflow_RequestListenerThread "class in com.jbase.framework.io.inflow") |   |
+| [ClientHandle](./../clienthandle-%28framework---api%29 "class in com.jbase.framework.io.inflow") | <br>This class holds a reference to the object the RequestServiceListener<br> uses to send reponses to clients.<br> |
+| [PendingChange](./../pendingchange-%28framework---api%29 "class in com.jbase.framework.io.inflow") |   |
+| [RequestListenerService](./../requestlistenerservice-%28framework---api%29 "class in com.jbase.framework.io.inflow") |   |
+| [RequestListenerThread](./../requestlistenerthread-%28framework---api%29 "class in com.jbase.framework.io.inflow") |   |
 - Exception Summary | Exception | Description |
 | --- | --- |
-| [RequestHandlerException](/39226-inflow/com_jbase_framework_io_inflow_RequestHandlerException "class in com.jbase.framework.io.inflow") | <br>Exception from RequestHandler.<br> |
+| [RequestHandlerException](./../requesthandlerexception-%28framework---api%29 "class in com.jbase.framework.io.inflow") | <br>Exception from RequestHandler.<br> |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39226-inflow/com_jbase_framework_io_inflow_package-use)
-- [Tree](/39226-inflow/com_jbase_framework_io_inflow_package-tree)
+- [Use](./../uses-of-package-com.jbase.framework.io.inflow-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.inflow-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Package](/39224-exception/com_jbase_framework_io_exception_package-summary)
+- [Prev Package](./../../exception/com.jbase.framework.io.exception-%28framework---api%29)
 - Next Package
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/inflow//39226-inflow/com_jbase_framework_io_inflow_package-summary)
-- [No Frames](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

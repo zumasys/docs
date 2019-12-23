@@ -9,7 +9,7 @@
 
 ## Class JFileImpl
 
-All Implemented Interfaces:[JFile](/39248-jremote/com_jbase_jremote_jfile "interface in com.jbase.jremote")
+All Implemented Interfaces:[JFile](./../../jfile-%28jremote-api%29 "interface in com.jbase.jremote")
 * * *
 
 
@@ -21,7 +21,7 @@ implements JFile
 
 The JFile object is used to query, read, and write to jBASE files.
 
-See Also:[`open(String fileName)`](/39250-io/com_jbase_jremote_io_jconnectionimpl "class in com.jbase.jremote.io")
+See Also:[`open(String fileName)`](./../jconnectionimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
 
 ### Constructor Summary
 

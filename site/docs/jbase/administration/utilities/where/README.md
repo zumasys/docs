@@ -38,5 +38,5 @@ Where:
 ## Note: 
 
 
-> The output of WHERE can be [customized](customizing-the-output-of-commands).
+> The output of WHERE can be [customized](./../customizing-the-output-of-commands).
 

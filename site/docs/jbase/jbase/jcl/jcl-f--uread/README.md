@@ -43,4 +43,4 @@ The F-UREAD command is identical to the F-READ  command, except that it also lo
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

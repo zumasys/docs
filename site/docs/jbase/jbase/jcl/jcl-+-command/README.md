@@ -62,6 +62,6 @@ a a
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)
 
 

@@ -13,4 +13,4 @@ If the user is only familiar with the old style ED editor, by all means continue
 
 
 
-Back to [Editors](editors)
+Back to [Editors](./../editors)

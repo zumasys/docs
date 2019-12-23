@@ -29,4 +29,4 @@ Where **expression** may be any expression that constitutes a valid string.
 
 The **QUOTE** and **DQUOTE** functions will enclose the value in double quotation marks. The **SQUOTE** function will enclose the value in single quotation marks.
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

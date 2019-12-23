@@ -36,7 +36,7 @@ The shared library objects, .so files, contain the executables for subroutine so
 
 For example, each executable created using the jBASE compiler will be linked with the jBASE jEDI library functions, libjedi.so, at compilation time. This shared library enables database record retrieval and update and will be loaded into memory by the dynamic linker when an application executable starts execution.
 
-Executables and shared library objects can be removed from the bin and lib directories by using the [DECATALOG](266875-decatalog-and-delete-catalog) command.
+Executables and shared library objects can be removed from the bin and lib directories by using the [DECATALOG](./../decatalog-and-delete-catalog) command.
 
 The shared library containing any subroutines required by the executing program will only be loaded into memory when initially requested by the subroutine call. Only one copy of any shared library is required in memory at any time, thus reducing program memory requirements.
 
@@ -56,4 +56,4 @@ It is recommended that executables or subroutines of the same name are not avail
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

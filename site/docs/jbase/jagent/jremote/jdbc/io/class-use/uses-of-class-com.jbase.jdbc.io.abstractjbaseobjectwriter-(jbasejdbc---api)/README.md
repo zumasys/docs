@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectWriter "class in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../abstractjbaseobjectwriter-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_AbstractJBaseObjectWriter)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_AbstractJBaseObjectWriter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ jbasejdbc <br>
 ## Uses of Class
 com.jbase.jdbc.io.AbstractJBaseObjectWriter
 
-- Packages that use [AbstractJBaseObjectWriter](/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectWriter "class in com.jbase.jdbc.io") | Package | Description |
+- Packages that use [AbstractJBaseObjectWriter](./../../abstractjbaseobjectwriter-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.io |   |
-- - ### Uses of [AbstractJBaseObjectWriter](/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectWriter "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary)
+- - ### Uses of [AbstractJBaseObjectWriter](./../../abstractjbaseobjectwriter-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 
 
-Subclasses of [AbstractJBaseObjectWriter](/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectWriter "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) | Modifier and Type | Class and Description |
+Subclasses of [AbstractJBaseObjectWriter](./../../abstractjbaseobjectwriter-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29) | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `IOJBaseObjectWriter`<br>jBase object writer based on the DataOutputStream.<br> |
 | `class` | `NIOJBaseObjectWriter`<br>jBase object writer using the new Java IO.<br> |
@@ -50,10 +50,10 @@ Subclasses of [AbstractJBaseObjectWriter](/39232-io/com_jbase_jdbc_io_AbstractJB
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectWriter "class in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../abstractjbaseobjectwriter-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -64,8 +64,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_AbstractJBaseObjectWriter)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_AbstractJBaseObjectWriter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

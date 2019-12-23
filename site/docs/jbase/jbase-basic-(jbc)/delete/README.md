@@ -20,9 +20,9 @@ DELETE {variable,} expression {SETTING setvar} {ON ERROR statements}
 
 Where:
 
-- If specified, **variable** should have been the subject of a previous [OPEN](277537-open) statement. If variable is omitted then it assumes the default file variable.
+- If specified, **variable** should have been the subject of a previous [OPEN](./../open) statement. If variable is omitted then it assumes the default file variable.
 - The **expression** should evaluate to the name of a record stored in the open file.
-- If the **SETTING**clause is specified and the delete fails, it sets **setvar** to one of [these file error values](277647-increamental-file-errors).
+- If the **SETTING**clause is specified and the delete fails, it sets **setvar** to one of [these file error values](./../incremental-file-errors).
 
 
 
@@ -44,4 +44,4 @@ to delete the record "001" from the file test\_rec .
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

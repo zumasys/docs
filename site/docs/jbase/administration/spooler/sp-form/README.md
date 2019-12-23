@@ -45,4 +45,4 @@ The user will then enter the old name, and the new name on the same line, and pu
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

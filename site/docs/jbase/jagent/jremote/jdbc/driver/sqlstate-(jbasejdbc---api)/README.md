@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39230-driver/com_jbase_jdbc_driver_package-summary)
+- [Package](./../com.jbase.jdbc.driver-%28jbasejdbc---api%29)
 - Class
-- [Use](/39231-class-use/com_jbase_jdbc_driver_class-use_SQLState)
-- [Tree](/39230-driver/com_jbase_jdbc_driver_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.driver.sqlstate-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.driver-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39230-driver/com_jbase_jdbc_driver_JBaseJDBCDriver "class in com.jbase.jdbc.driver")
+- [Prev Class](./../jbasejdbcdriver-%28jbasejdbc---api%29 "class in com.jbase.jdbc.driver")
 - Next Class
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/driver//39230-driver/com_jbase_jdbc_driver_SQLState)
-- [No Frames](/39230-driver/com_jbase_jdbc_driver_SQLState)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -53,7 +53,7 @@ com.jbase.jdbc.driver
 - - com.jbase.jdbc.driver.SQLState
 
 
-- All Implemented Interfaces:[JBaseJDBCDriverConstants](/39228-jdbc/com_jbase_jdbc_JBaseJDBCDriverConstants "interface in com.jbase.jdbc")
+- All Implemented Interfaces:[JBaseJDBCDriverConstants](./../../jbasejdbcdriverconstants-%28jbasejdbc---api%29 "interface in com.jbase.jdbc")
 * * *
 
 
@@ -129,7 +129,7 @@ Fields | Modifier and Type | Field and Description |
 | `static String[]` | `SS_WARNING`  |
 
 
-        - ### Fields inherited from interface com.jbase.jdbc.[JBaseJDBCDriverConstants](/39228-jdbc/com_jbase_jdbc_JBaseJDBCDriverConstants "interface in com.jbase.jdbc")
+        - ### Fields inherited from interface com.jbase.jdbc.[JBaseJDBCDriverConstants](./../../jbasejdbcdriverconstants-%28jbasejdbc---api%29 "interface in com.jbase.jdbc")
 `DB_KEY_WORDS, DEFAULT_DISPLAY_SIZE, DRIVER_NAME, DRIVER_VERSION, DRV_JDBC_COMPLIANT, DRV_MAJOR_VERSION, DRV_MINOR_VERSION, JBASE_DB_VERSION, JBASE_JDBC_THIN_PREFIX, MAX_COLUMNS_IN_GROUPBY, MAX_TABLES_IN_SELECT, QUERY_SYSTEM_GET_ATTRIBUTES, QUERY_SYSTEM_GET_BESTROWIDENTIFIER, QUERY_SYSTEM_GET_CATALOGS, QUERY_SYSTEM_GET_COLUMNPRIVS, QUERY_SYSTEM_GET_COLUMNS, QUERY_SYSTEM_GET_CROSS_REFS, QUERY_SYSTEM_GET_EXPORTED_KEYS, QUERY_SYSTEM_GET_IMPORTED_KEYS, QUERY_SYSTEM_GET_INDEXINFO, QUERY_SYSTEM_GET_PRIMARY_KEYS, QUERY_SYSTEM_GET_PROCEDURECOLUMNS, QUERY_SYSTEM_GET_PROCEDURES, QUERY_SYSTEM_GET_SCHEMAS, QUERY_SYSTEM_GET_SUPERTABLES, QUERY_SYSTEM_GET_SUPERTYPES, QUERY_SYSTEM_GET_TABLE_TYPES, QUERY_SYSTEM_GET_TABLEPRIVS, QUERY_SYSTEM_GET_TABLES, QUERY_SYSTEM_GET_TYPE_INFO, QUERY_SYSTEM_GET_UDTS, QUERY_SYSTEM_GET_VERSIONCOLS, RESULT_SET_CONCURRENCY, RESULT_SET_HOLDABILITY, RESULT_SET_TYPE, SQL_STATE_TYPE, TRANSACTION_ISOLATION, URL_CONNECT_ACCOUNT, URL_CONNECT_CLIENT_TYPE, URL_CONNECT_JBASE, URL_CONNECT_MACHINE, URL_CONNECT_PORT, URL_CONNECT_TYPE`
 
 
@@ -587,22 +587,22 @@ public static String[] getErrorString(String errorcode)
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39230-driver/com_jbase_jdbc_driver_package-summary)
+- [Package](./../com.jbase.jdbc.driver-%28jbasejdbc---api%29)
 - Class
-- [Use](/39231-class-use/com_jbase_jdbc_driver_class-use_SQLState)
-- [Tree](/39230-driver/com_jbase_jdbc_driver_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.driver.sqlstate-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.driver-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39230-driver/com_jbase_jdbc_driver_JBaseJDBCDriver "class in com.jbase.jdbc.driver")
+- [Prev Class](./../jbasejdbcdriver-%28jbasejdbc---api%29 "class in com.jbase.jdbc.driver")
 - Next Class
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/driver//39230-driver/com_jbase_jdbc_driver_SQLState)
-- [No Frames](/39230-driver/com_jbase_jdbc_driver_SQLState)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

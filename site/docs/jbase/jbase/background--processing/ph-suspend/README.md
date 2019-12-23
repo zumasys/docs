@@ -61,6 +61,6 @@ Resumes the jBASE background task process running on port 10173.
 
 
 
-See also [PH-RESUME](321821-ph-resume).
+See also [PH-RESUME](./../ph-resume).
 
-Back to [jBTP](jbtp)
+Back to [jBTP](./../jbtp)

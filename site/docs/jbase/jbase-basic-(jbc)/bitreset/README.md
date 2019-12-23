@@ -37,6 +37,6 @@ If table entry 112 is one, it returns a value of one, resets bit 112 to 0, and p
 
 
 
-See also: [BITSET](284141-bitset).
+See also: [BITSET](./../bitset).
 
-Go back to [jBASE BASIC.](263498-jbase-basic)
+Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)

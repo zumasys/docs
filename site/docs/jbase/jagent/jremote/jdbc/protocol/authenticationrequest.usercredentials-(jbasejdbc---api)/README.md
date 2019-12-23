@@ -10,18 +10,18 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- [Package](./../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 - Class
 - [Use](/39241-class-use/com_jbase_jdbc_protocol_class-use_AuthenticationRequest.UserCredentials)
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Tree](./../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39240-protocol/com_jbase_jdbc_protocol_authenticationrequest "class in com.jbase.jdbc.protocol")
-- [Next Class](/39240-protocol/com_jbase_jdbc_protocol_BindRequest "class in com.jbase.jdbc.protocol")
+- [Prev Class](./../authenticationrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol")
+- [Next Class](./../bindrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 
 
 - [Frames](../../../../index.html?com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_AuthenticationRequest.UserCredentials)
@@ -53,7 +53,7 @@ com.jbase.jdbc.protocol
 - - com.jbase.jdbc.protocol.AuthenticationRequest.UserCredentials
 
 
-- All Implemented Interfaces:[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")Enclosing class:[AuthenticationRequest](/39240-protocol/com_jbase_jdbc_protocol_authenticationrequest "class in com.jbase.jdbc.protocol")
+- All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")Enclosing class:[AuthenticationRequest](./../authenticationrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol")
 * * *
 
 
@@ -65,7 +65,7 @@ implements JBaseSerializable
 
 - - ### Nested Class Summary
 
-        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](./../../io/jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 `JBaseSerializable.TYPE`
 
 
@@ -185,18 +185,18 @@ Specified by:`getVersion` in interface `JBaseSerializable`
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- [Package](./../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 - Class
 - [Use](/39241-class-use/com_jbase_jdbc_protocol_class-use_AuthenticationRequest.UserCredentials)
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Tree](./../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39240-protocol/com_jbase_jdbc_protocol_authenticationrequest "class in com.jbase.jdbc.protocol")
-- [Next Class](/39240-protocol/com_jbase_jdbc_protocol_BindRequest "class in com.jbase.jdbc.protocol")
+- [Prev Class](./../authenticationrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol")
+- [Next Class](./../bindrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 
 
 - [Frames](../../../../index.html?com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_AuthenticationRequest.UserCredentials)

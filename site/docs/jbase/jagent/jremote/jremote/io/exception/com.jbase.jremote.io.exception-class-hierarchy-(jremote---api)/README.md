@@ -10,7 +10,7 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39254-exception/com_jbase_jremote_io_exception_package-summary)
+- [Package](./../com.jbase.jremote.io.exception-%28jremote---api%29)
 - Class
 - Use
 - Tree
@@ -20,12 +20,12 @@ Skip navigation links
 
 jremote <br>
 
-- [Prev](/39251-charset/com_jbase_jremote_io_charset_package-tree)
-- [Next](/39256-inflow/com_jbase_jremote_io_inflow_package-tree)
+- [Prev](./../../charset/com.jbase.jremote.io.charset-class-hierarchy-%28jremote---api%29)
+- [Next](./../../inflow/com.jbase.jremote.io.inflow-class-hierarchy-%28jremote---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/exception//39254-exception/com_jbase_jremote_io_exception_package-tree)
-- [No Frames](/39254-exception/com_jbase_jremote_io_exception_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -43,13 +43,13 @@ Package Hierarchies:
     - java.lang.[Throwable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Throwable.html?is-external=true "class or interface in java.lang") (implements java.io.[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"))
         - java.lang.[Exception](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Exception.html?is-external=true "class or interface in java.lang")
             - java.io.[IOException](http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true "class or interface in java.io")
-                - com.jbase.jremote.io.exception.[UnexpectedCharacterException](/39254-exception/com_jbase_jremote_io_exception_UnexpectedCharacterException "class in com.jbase.jremote.io.exception")
-                - com.jbase.jremote.io.exception.[UnknownTypeException](/39254-exception/com_jbase_jremote_io_exception_UnknownTypeException "class in com.jbase.jremote.io.exception")
+                - com.jbase.jremote.io.exception.[UnexpectedCharacterException](./../unexpectedcharacterexception-%28jremote---api%29 "class in com.jbase.jremote.io.exception")
+                - com.jbase.jremote.io.exception.[UnknownTypeException](./../unknowntypeexception-%28jremote---api%29 "class in com.jbase.jremote.io.exception")
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39254-exception/com_jbase_jremote_io_exception_package-summary)
+- [Package](./../com.jbase.jremote.io.exception-%28jremote---api%29)
 - Class
 - Use
 - Tree
@@ -59,12 +59,12 @@ Skip navigation links
 
 jremote <br>
 
-- [Prev](/39251-charset/com_jbase_jremote_io_charset_package-tree)
-- [Next](/39256-inflow/com_jbase_jremote_io_inflow_package-tree)
+- [Prev](./../../charset/com.jbase.jremote.io.charset-class-hierarchy-%28jremote---api%29)
+- [Next](./../../inflow/com.jbase.jremote.io.inflow-class-hierarchy-%28jremote---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/exception//39254-exception/com_jbase_jremote_io_exception_package-tree)
-- [No Frames](/39254-exception/com_jbase_jremote_io_exception_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

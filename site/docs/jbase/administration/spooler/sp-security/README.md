@@ -7,7 +7,7 @@
 
 ## Description 
 
-This is a menu driven interface to the previously mentioned SP-SECURITY-xx commands. It is also available from option 11 of [SP-STATUS](306265-untitled-question). When run, it presents the user with a screen that looks like this:
+This is a menu driven interface to the previously mentioned SP-SECURITY-xx commands. It is also available from option 11 of [SP-STATUS](./../sp-status). When run, it presents the user with a screen that looks like this:
 
 ```
 11:18:45  01 APR 2018       SECURITY                          PAGE 1 OF 1 PAGES
@@ -47,14 +47,14 @@ The screen will show up to 10 form queues at a time. The four fields shown for e
 
 | Option #<br> | Name<br> | Description<br> |
 | --- | --- | --- |
-| 1<br> | QUEUE SECURITY<br> | Use this option to modify the security state of the form queue. The syntax of the remainder of the command is similar to the [SP-SECURITY-QUEUE](306443-untitled-question)  command.<br> |
-| 2<br> | JOB SECURITY<br> | Use this option to modify the security state of print jobs placed on the form queue. The syntax of the remainder of the command is similar to the [SP-SECURITY-JOBS](306444-untitled-question) command.<br> |
-| 3<br> | QUEUE OWNERS<br> | Use this option to modify the list of alternative owners of a form queue. This list of owners is used when the form queue security is set to QUEUE or the print job security is set to QUEUE. The syntax of the remainder of the command is similar to the [SP-SECURITY-OWNER](306446-untitled-question) command.<br> |
-| 4<br> | REUTRN TO SP-JOBS<br> | Returns to the [SP-JOBS](306301-untitled-question) menu.<br> |
-| 5<br> | RETURN TO SP-STATUS<br> | Returns to [SP-STATUS](306265-untitled-question) menu.<br> |
+| 1<br> | QUEUE SECURITY<br> | Use this option to modify the security state of the form queue. The syntax of the remainder of the command is similar to the [SP-SECURITY-QUEUE](./../sp-security-queue)  command.<br> |
+| 2<br> | JOB SECURITY<br> | Use this option to modify the security state of print jobs placed on the form queue. The syntax of the remainder of the command is similar to the [SP-SECURITY-JOBS](./../sp-security-jobs) command.<br> |
+| 3<br> | QUEUE OWNERS<br> | Use this option to modify the list of alternative owners of a form queue. This list of owners is used when the form queue security is set to QUEUE or the print job security is set to QUEUE. The syntax of the remainder of the command is similar to the [SP-SECURITY-OWNER](./../sp-security-owner) command.<br> |
+| 4<br> | REUTRN TO SP-JOBS<br> | Returns to the [SP-JOBS](./../sp-jobs) menu.<br> |
+| 5<br> | RETURN TO SP-STATUS<br> | Returns to [SP-STATUS](./../sp-status) menu.<br> |
 | 99<br> | EXIT<br> | Exits the SP-SECURITY menu back to shell<br> |
 
 
 
 
-Back to [Spooler](jbase-spooler).
+Back to [Spooler](./../jbase-spooler).

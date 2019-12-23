@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Class JSelectListImpl
 
-All Implemented Interfaces:[JSelectList](/39248-jremote/com_jbase_jremote_jselectlist "interface in com.jbase.jremote"), Iterable&lt;String&gt;Direct Known Subclasses:[JCursorImpl](/39250-io/com_jbase_jremote_io_jcursorimpl "class in com.jbase.jremote.io")
+All Implemented Interfaces:[JSelectList](./../../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote"), Iterable&lt;String&gt;Direct Known Subclasses:[JCursorImpl](./../jcursorimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
 * * *
 
 
@@ -128,7 +128,7 @@ protected int cursorStartPos
 ```
 protected static final int FETCH_FORWARD
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../../constant-field-values)
 #### 
 
 
@@ -137,7 +137,7 @@ See Also:[Constant Field Values](299736-constant-values)
 ```
 protected static final int FETCH_BACKWARD
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../../constant-field-values)
 
 
 ### 

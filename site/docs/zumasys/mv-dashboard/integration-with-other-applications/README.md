@@ -11,6 +11,6 @@ In order to use the webservice or emailed logins with MV Dashboard, the features
 
 In addition, MV Dashboard automatically provides an Excel icon for downloading a csv file on those widget types that can logically transition to a spreadsheet. Those widget types including bar , column, area, line, pie, and doughnut charts.
 
-[Integration Using Web Service Login](integrating-with-web-service-login)
+[Integration Using Web Service Login](./../integrating-with-web-service-login)
 
-[Integration Using Emailed Login](integration-using-emailed-login)
+[Integration Using Emailed Login](./../integration-using-emailed-login)

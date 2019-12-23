@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/30312-jagent/jremote-api)
-- [Class](/39248-jremote/com_jbase_jremote_jconnectioncallbackhandler "interface in com.jbase.jremote")
+- [Package](./../../../../jremote-api)
+- [Class](./../../jconnectioncallbackhandler-%28jremote-api%29 "interface in com.jbase.jremote")
 - Use
-- [Tree](/39248-jremote/com_jbase_jremote_package-tree)
+- [Tree](./../../com.jbase.jremote-class-hierarchy)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/class-use//39249-class-use/com_jbase_jremote_class-use_JConnectionCallbackHandler)
-- [No Frames](/39249-class-use/com_jbase_jremote_class-use_JConnectionCallbackHandler)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -36,27 +36,27 @@ jremote <br>
 ## Uses of Interface
 com.jbase.jremote.JConnectionCallbackHandler
 
-- Packages that use [JConnectionCallbackHandler](/39248-jremote/com_jbase_jremote_jconnectioncallbackhandler "interface in com.jbase.jremote") | Package | Description |
+- Packages that use [JConnectionCallbackHandler](./../../jconnectioncallbackhandler-%28jremote-api%29 "interface in com.jbase.jremote") | Package | Description |
 | --- | --- |
 | com.jbase.jremote |   |
 | com.jbase.jremote.jca |   |
-- - ### Uses of [JConnectionCallbackHandler](/39248-jremote/com_jbase_jremote_jconnectioncallbackhandler "interface in com.jbase.jremote") in [com.jbase.jremote](/30312-jagent/jremote-api)
+- - ### Uses of [JConnectionCallbackHandler](./../../jconnectioncallbackhandler-%28jremote-api%29 "interface in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)
 
 
-Methods in [com.jbase.jremote](/30312-jagent/jremote-api) with parameters of type [JConnectionCallbackHandler](/39248-jremote/com_jbase_jremote_jconnectioncallbackhandler "interface in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote](./../../../../jremote-api) with parameters of type [JConnectionCallbackHandler](./../../jconnectioncallbackhandler-%28jremote-api%29 "interface in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JConnection` | JConnectionFactory.`getConnection(JConnectionCallbackHandler handler)`<br>Get a connection to a remote jBASE instance, in a managed environment<br> the callback handler provides ancillary connection initialisation.<br> |
 | `JConnection` | DefaultJConnectionFactory.`getConnection(JConnectionCallbackHandler handler)`  |
-    - ### Uses of [JConnectionCallbackHandler](/39248-jremote/com_jbase_jremote_jconnectioncallbackhandler "interface in com.jbase.jremote") in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary)
+    - ### Uses of [JConnectionCallbackHandler](./../../jconnectioncallbackhandler-%28jremote-api%29 "interface in com.jbase.jremote") in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) that return [JConnectionCallbackHandler](/39248-jremote/com_jbase_jremote_jconnectioncallbackhandler "interface in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29) that return [JConnectionCallbackHandler](./../../jconnectioncallbackhandler-%28jremote-api%29 "interface in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JConnectionCallbackHandler` | JRemoteConnectionRequestInfo.`getCallbackHandler()`  |
 
 
 
-Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) with parameters of type [JConnectionCallbackHandler](/39248-jremote/com_jbase_jremote_jconnectioncallbackhandler "interface in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29) with parameters of type [JConnectionCallbackHandler](./../../jconnectioncallbackhandler-%28jremote-api%29 "interface in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected javax.resource.spi.ManagedConnection` | JRemoteManagedConnectionFactory.`createConnection(Subject subject,<br>                JConnectionCallbackHandler callbackHandler)`  |
 | `JConnection` | JRemoteConnectionFactoryImpl.`getConnection(JConnectionCallbackHandler handler)`  |
@@ -64,17 +64,17 @@ Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summ
 
 
 
-Constructors in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) with parameters of type [JConnectionCallbackHandler](/39248-jremote/com_jbase_jremote_jconnectioncallbackhandler "interface in com.jbase.jremote") | Constructor and Description |
+Constructors in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29) with parameters of type [JConnectionCallbackHandler](./../../jconnectioncallbackhandler-%28jremote-api%29 "interface in com.jbase.jremote") | Constructor and Description |
 | --- |
 | `JRemoteConnectionRequestInfo(JConnectionCallbackHandler handler)`  |
 
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/30312-jagent/jremote-api)
-- [Class](/39248-jremote/com_jbase_jremote_jconnectioncallbackhandler "interface in com.jbase.jremote")
+- [Package](./../../../../jremote-api)
+- [Class](./../../jconnectioncallbackhandler-%28jremote-api%29 "interface in com.jbase.jremote")
 - Use
-- [Tree](/39248-jremote/com_jbase_jremote_package-tree)
+- [Tree](./../../com.jbase.jremote-class-hierarchy)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -85,8 +85,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/class-use//39249-class-use/com_jbase_jremote_class-use_JConnectionCallbackHandler)
-- [No Frames](/39249-class-use/com_jbase_jremote_class-use_JConnectionCallbackHandler)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

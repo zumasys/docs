@@ -12,20 +12,20 @@ Skip navigation links
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39254-exception/com_jbase_jremote_io_exception_package-use)
-- [Tree](/39254-exception/com_jbase_jremote_io_exception_package-tree)
+- [Use](./../uses-of-package-com.jbase.jremote.io.exception-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.io.exception-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Package](/39251-charset/com_jbase_jremote_io_charset_package-summary)
-- [Next Package](/39256-inflow/com_jbase_jremote_io_inflow_package-summary)
+- [Prev Package](./../../charset/com.jbase.jremote.io.charset-%28jremote---api%29)
+- [Next Package](./../../inflow/com.jbase.jremote.io.inflow-%28jremote---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/exception//39254-exception/com_jbase_jremote_io_exception_package-summary)
-- [No Frames](/39254-exception/com_jbase_jremote_io_exception_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -37,28 +37,28 @@ jremote <br>
 
 - Exception Summary | Exception | Description |
 | --- | --- |
-| [UnexpectedCharacterException](/39254-exception/com_jbase_jremote_io_exception_UnexpectedCharacterException "class in com.jbase.jremote.io.exception") |   |
-| [UnknownTypeException](/39254-exception/com_jbase_jremote_io_exception_UnknownTypeException "class in com.jbase.jremote.io.exception") |   |
+| [UnexpectedCharacterException](./../unexpectedcharacterexception-%28jremote---api%29 "class in com.jbase.jremote.io.exception") |   |
+| [UnknownTypeException](./../unknowntypeexception-%28jremote---api%29 "class in com.jbase.jremote.io.exception") |   |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39254-exception/com_jbase_jremote_io_exception_package-use)
-- [Tree](/39254-exception/com_jbase_jremote_io_exception_package-tree)
+- [Use](./../uses-of-package-com.jbase.jremote.io.exception-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.io.exception-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Package](/39251-charset/com_jbase_jremote_io_charset_package-summary)
-- [Next Package](/39256-inflow/com_jbase_jremote_io_inflow_package-summary)
+- [Prev Package](./../../charset/com.jbase.jremote.io.charset-%28jremote---api%29)
+- [Next Package](./../../inflow/com.jbase.jremote.io.inflow-%28jremote---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/exception//39254-exception/com_jbase_jremote_io_exception_package-summary)
-- [No Frames](/39254-exception/com_jbase_jremote_io_exception_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

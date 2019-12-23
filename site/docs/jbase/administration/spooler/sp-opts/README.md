@@ -47,4 +47,4 @@ The user will then enter the print job number, and the desired option.
 
 
 
-Back to [Spooler](jbase-spooler).
+Back to [Spooler](./../jbase-spooler).

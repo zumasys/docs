@@ -7,7 +7,7 @@
 
 # Description
 
-The [ON...GOSUB](276075-gosub) and**ON...GOTO** statements are used to transfer program execution to a label based upon a calculation, or a condition being met. They take the general form:
+The [ON...GOSUB](./../gosub) and**ON...GOTO** statements are used to transfer program execution to a label based upon a calculation, or a condition being met. They take the general form:
 
 ```
 ON expression GOTO label{, label...}
@@ -25,7 +25,7 @@ expression should evaluate to an integer numeric value. Labels should be defined
 
 **ON GOTO** will transfer execution to the labeled source code line in the program.
 
-[ON GOSUB](276075-gosub) will transfer execution to the labeled subroutine within the source code.
+[ON GOSUB](./../gosub) will transfer execution to the labeled subroutine within the source code.
 
 ## Note: 
 
@@ -54,4 +54,4 @@ END
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

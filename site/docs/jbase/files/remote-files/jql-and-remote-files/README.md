@@ -25,4 +25,4 @@ This will tell jBASE to enable use of remote file path.
 
 
 
-Back to [Remote Files](306074-remote-files).
+Back to [Remote Files](./../jbase-remote-file-service-%28jrfs%29).

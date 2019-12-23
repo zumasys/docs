@@ -25,7 +25,7 @@ The above will result in the value 10 being assigned to positive\_var.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic)
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide)
 
 ####  
 

@@ -13,7 +13,7 @@ Roles are used to partition users into related groups. Every user must be assign
 
 ### Info
 
-Prior to creating a user, you will need to have already created your [Customer Portal User](/customerportal/quick-start) and be assigned as an Administrator to your company's account.
+Prior to creating a user, you will need to have already created your [Customer Portal User](./../../customer-portal/customer-portal-registration) and be assigned as an Administrator to your company's account.
 
 
 

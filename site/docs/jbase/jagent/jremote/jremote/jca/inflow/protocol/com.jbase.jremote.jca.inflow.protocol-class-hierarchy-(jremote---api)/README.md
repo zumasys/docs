@@ -10,7 +10,7 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
+- [Package](./../com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
 - Class
 - Use
 - Tree
@@ -20,12 +20,12 @@ Skip navigation links
 
 jremote <br>
 
-- [Prev](/39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
-- [Next](/39266-mbean/com_jbase_jremote_jca_mbean_package-tree)
+- [Prev](./../../com.jbase.jremote.jca.inflow-class-hierarchy-%28jremote---api%29)
+- [Next](./../../../mbean/com.jbase.jremote.jca.mbean-class-hierarchy-%28jremote---api%29)
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/inflow/protocol//39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
-- [No Frames](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -40,27 +40,27 @@ Package Hierarchies:
 ## Class Hierarchy
 
 - java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
-    - com.jbase.jremote.jca.inflow.protocol.[ActivationRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_activationrequest "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.jca.inflow.protocol.[InboundRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol"), javax.resource.spi.work.Work)
-    - com.jbase.jremote.jca.inflow.protocol.[ActivationResponse](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_activationresponse "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.io.[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io"))
-    - com.jbase.jremote.jca.inflow.protocol.[CommitTransactionRequest](/39270-protocol/com_jbase_jremote_protocol_committransactionrequest "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.jca.inflow.protocol.[InboundRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol"))
-    - com.jbase.jremote.jca.inflow.protocol.[JRemoteXid](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_JRemoteXid "class in com.jbase.jremote.jca.inflow.protocol") (implements javax.transaction.xa.[Xid](http://java.sun.com/j2se/1.5.0/docs/api/javax/transaction/xa/Xid.html?is-external=true "class or interface in javax.transaction.xa"))
-    - com.jbase.jremote.jca.inflow.protocol.[NoEndpointActivatedResponse](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_noendpointactivatedresponse "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.io.[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io"))
-    - com.jbase.jremote.jca.inflow.protocol.[RollbackTransactionRequest](/39270-protocol/com_jbase_jremote_protocol_rollbacktransactionrequest "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.jca.inflow.protocol.[InboundRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol"))
-    - com.jbase.jremote.jca.inflow.protocol.[StartTransactionRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_starttransactionrequest "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.jca.inflow.protocol.[InboundRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol"))
-    - com.jbase.jremote.jca.inflow.protocol.[TransactionOperation](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_transactionoperation "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.io.[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io"))
-    - com.jbase.jremote.jca.inflow.protocol.[WorkScheduledResponse](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_workscheduledresponse "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.io.[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io"))
+    - com.jbase.jremote.jca.inflow.protocol.[ActivationRequest](./../activationrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.jca.inflow.protocol.[InboundRequest](./../inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol"), javax.resource.spi.work.Work)
+    - com.jbase.jremote.jca.inflow.protocol.[ActivationResponse](./../activationresponse-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.io.[JBaseSerializable](./../../../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io"))
+    - com.jbase.jremote.jca.inflow.protocol.[CommitTransactionRequest](./../../../../protocol/committransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.jca.inflow.protocol.[InboundRequest](./../inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol"))
+    - com.jbase.jremote.jca.inflow.protocol.[JRemoteXid](./../jremotexid-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow.protocol") (implements javax.transaction.xa.[Xid](http://java.sun.com/j2se/1.5.0/docs/api/javax/transaction/xa/Xid.html?is-external=true "class or interface in javax.transaction.xa"))
+    - com.jbase.jremote.jca.inflow.protocol.[NoEndpointActivatedResponse](./../noendpointactivatedresponse-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.io.[JBaseSerializable](./../../../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io"))
+    - com.jbase.jremote.jca.inflow.protocol.[RollbackTransactionRequest](./../../../../protocol/rollbacktransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.jca.inflow.protocol.[InboundRequest](./../inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol"))
+    - com.jbase.jremote.jca.inflow.protocol.[StartTransactionRequest](./../starttransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.jca.inflow.protocol.[InboundRequest](./../inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol"))
+    - com.jbase.jremote.jca.inflow.protocol.[TransactionOperation](./../transactionoperation-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.io.[JBaseSerializable](./../../../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io"))
+    - com.jbase.jremote.jca.inflow.protocol.[WorkScheduledResponse](./../workscheduledresponse-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol") (implements com.jbase.jremote.io.[JBaseSerializable](./../../../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io"))
 
 
 ## Interface Hierarchy
 
-- com.jbase.jremote.io.[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")
-    - com.jbase.jremote.jca.inflow.protocol.[InboundRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol")
-- com.jbase.jremote.jca.inflow.protocol.[ObjectTypes](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_ObjectTypes "interface in com.jbase.jremote.jca.inflow.protocol")
+- com.jbase.jremote.io.[JBaseSerializable](./../../../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
+    - com.jbase.jremote.jca.inflow.protocol.[InboundRequest](./../inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol")
+- com.jbase.jremote.jca.inflow.protocol.[ObjectTypes](./../objecttypes-%28jremote---api%29 "interface in com.jbase.jremote.jca.inflow.protocol")
 
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
+- [Package](./../com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
 - Class
 - Use
 - Tree
@@ -70,12 +70,12 @@ Skip navigation links
 
 jremote <br>
 
-- [Prev](/39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
-- [Next](/39266-mbean/com_jbase_jremote_jca_mbean_package-tree)
+- [Prev](./../../com.jbase.jremote.jca.inflow-class-hierarchy-%28jremote---api%29)
+- [Next](./../../../mbean/com.jbase.jremote.jca.mbean-class-hierarchy-%28jremote---api%29)
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/inflow/protocol//39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
-- [No Frames](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

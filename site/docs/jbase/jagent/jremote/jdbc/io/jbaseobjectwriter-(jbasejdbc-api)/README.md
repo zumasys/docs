@@ -11,7 +11,7 @@ JavaScript is disabled on your browse
 
 # Interface JBaseObjectWriter
 
-All Known Implementing Classes:[AbstractJBaseObjectWriter](com_jbase_jdbc_io_AbstractJBaseObjectWriter "class in com.jbase.jdbc.io"), [IOJBaseObjectWriter](com_jbase_jdbc_io_IOJBaseObjectWriter "class in com.jbase.jdbc.io"), [NIOJBaseObjectWriter](com_jbase_jdbc_io_niojbaseobjectwriter "class in com.jbase.jdbc.io")
+All Known Implementing Classes:[AbstractJBaseObjectWriter](./../abstractjbaseobjectwriter-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io"), [IOJBaseObjectWriter](./../iojbaseobjectwriter-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io"), [NIOJBaseObjectWriter](./../niojbaseobjectwriter-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
 
 
 ```
@@ -28,10 +28,10 @@ Serializes objects to jBASE JDBC format.
 | <br>void<br> | <br>close()<br> |
 | <br>void<br> | <br>writeInt(int i)<br> |
 | <br>void<br> | <br>writeObject(byte[] o)<br> |
-| <br>void<br> | <br>writeObject([IByteObject](/39232-io/com_jbase_jdbc_io_IByteObject "interface in com.jbase.jdbc.io") o)<br> |
-| <br>void<br> | <br>writeObject([JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io") o)<br> |
+| <br>void<br> | <br>writeObject([IByteObject](./../ibyteobject-%28jbasejdbc---api%29 "interface in com.jbase.jdbc.io") o)<br> |
+| <br>void<br> | <br>writeObject([JBaseSerializable](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") o)<br> |
 | <br>void<br> | <br>writeObject([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") o)<br> |
-| <br>void<br> | <br>writeRootObject([JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io") o)<br> |
+| <br>void<br> | <br>writeRootObject([JBaseSerializable](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") o)<br> |
 
 # Method Detail
 

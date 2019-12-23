@@ -10,7 +10,7 @@
 
 ## Description 
 
-This statement will create a dynamic array of record keys based on a single selection of a single index key value. It is more efficient to use a combination of[OPENINDEX](openindex) and [READNEXT](https://www.jbase.com/r99/knowledgebase/manuals/3.0/30manpages/man/adv22_READNEXT.htm) statements rather than the SELECTINDEX, but this statement was included for compatibility with legacy applications.
+This statement will create a dynamic array of record keys based on a single selection of a single index key value. It is more efficient to use a combination of[OPENINDEX](openindex) and [READNEXT](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/adv22_READNEXT.htm) statements rather than the SELECTINDEX, but this statement was included for compatibility with legacy applications.
 
 The command takes the general form:
 
@@ -64,4 +64,4 @@ LOOP WHILE READNEXT record_key FROM LISTNAME DO ...
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

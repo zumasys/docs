@@ -7,7 +7,7 @@
 
 # Description
 
-The **CONVERT** function is the function form of the [CONVERT](266857-convert-statement) statement. It performs exactly the same function but may also operate on an expression rather than being restricted to variables. The function takes the general form:
+The **CONVERT** function is the function form of the [CONVERT](./../convert-%28statement%29) statement. It performs exactly the same function but may also operate on an expression rather than being restricted to variables. The function takes the general form:
 
 ```
 CONVERT(expression1, expression2, expression3)
@@ -39,8 +39,8 @@ NEW.VAL = CONVERT(OLD.VAL, ";,|", @AM:@VM:@SVM) ;! NEW.VAL now contains a]b]c^d]
 
 
 
-See also: [CONVERT Statement](266857-convert-statement).
+See also: [CONVERT Statement](./../convert-%28statement%29).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 * * *

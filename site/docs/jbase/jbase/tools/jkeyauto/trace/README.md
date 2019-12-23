@@ -9,7 +9,7 @@
 
 ## Description
 
-This allows you to trace the lines executed by jkeyauto. Can be useful when debugging very large scripts. You can also turn statement tracing on using the [-t option](options) to jkeyauto.
+This allows you to trace the lines executed by jkeyauto. Can be useful when debugging very large scripts. You can also turn statement tracing on using the [-t option](./../options) to jkeyauto.
 
 ```
 trace ON | OFF

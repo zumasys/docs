@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 # Class NIOJBaseObjectReader
 
-All Implemented Interfaces:[JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io")
+All Implemented Interfaces:[JBaseObjectReader](./../jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 ```
 public class NIOJBaseObjectReader
 extends AbstractJBaseObjectReader
@@ -47,7 +47,7 @@ jBase object reader based on the new Java IO.
 
 | <br>Constructor and Description<br> |
 | --- |
-| <br>NIOJBaseObjectReader([ObjectFactory](/39232-io/com_jbase_jdbc_io_objectfactory "class in com.jbase.jdbc.io") factory, [SocketChannel](http://java.sun.com/j2se/1.5.0/docs/api/java/nio/channels/SocketChannel.html?is-external=true "class or interface in java.nio.channels") channel)<br> |
+| <br>NIOJBaseObjectReader([ObjectFactory](./../objectfactory-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") factory, [SocketChannel](http://java.sun.com/j2se/1.5.0/docs/api/java/nio/channels/SocketChannel.html?is-external=true "class or interface in java.nio.channels") channel)<br> |
 
 
 
@@ -66,7 +66,7 @@ jBase object reader based on the new Java IO.
 | <br>protected int<br> | <br>getBytes(byte[] buf)<br> | <br> |
 | <br>protected int<br> | <br>getBytes([ByteBuffer](http://java.sun.com/j2se/1.5.0/docs/api/java/nio/ByteBuffer.html?is-external=true "class or interface in java.nio") bBuf)<br> | <br> |
 | <br>protected int<br> | <br>getInt()<br> | <br> |
-| <br>[ObjectFactory](/39232-io/com_jbase_jdbc_io_objectfactory "class in com.jbase.jdbc.io")<br> | <br>getObjectFactory()<br> | <br>This method must be implemented by concrete ObjectReaders.<br> |
+| <br>[ObjectFactory](./../objectfactory-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")<br> | <br>getObjectFactory()<br> | <br>This method must be implemented by concrete ObjectReaders.<br> |
 | <br>protected int<br> | <br>inBytes(int numberOfBytesToRead)<br> | <br> |
 | <br>boolean<br> | <br>isClosed()<br> | <br> |
 | <br>protected [String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang")<br> | <br>readUTF()<br> | <br> |

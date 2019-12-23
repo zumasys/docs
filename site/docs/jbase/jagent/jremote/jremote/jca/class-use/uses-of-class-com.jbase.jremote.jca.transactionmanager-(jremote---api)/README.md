@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
-- [Class](/39258-jca/com_jbase_jremote_jca_transactionmanager "class in com.jbase.jremote.jca")
+- [Package](./../../com.jbase.jremote.jca-%28jremote---api%29)
+- [Class](./../../transactionmanager-%28jremote-api%29 "class in com.jbase.jremote.jca")
 - Use
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Tree](./../../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/class-use//39261-class-use/com_jbase_jremote_jca_class-use_TransactionManager)
-- [No Frames](/39261-class-use/com_jbase_jremote_jca_class-use_TransactionManager)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,23 +36,23 @@ jremote <br>
 ## Uses of Class
 com.jbase.jremote.jca.TransactionManager
 
-- Packages that use [TransactionManager](/39258-jca/com_jbase_jremote_jca_transactionmanager "class in com.jbase.jremote.jca") | Package | Description |
+- Packages that use [TransactionManager](./../../transactionmanager-%28jremote-api%29 "class in com.jbase.jremote.jca") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.jca |   |
-- - ### Uses of [TransactionManager](/39258-jca/com_jbase_jremote_jca_transactionmanager "class in com.jbase.jremote.jca") in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary)
+- - ### Uses of [TransactionManager](./../../transactionmanager-%28jremote-api%29 "class in com.jbase.jremote.jca") in [com.jbase.jremote.jca](./../../com.jbase.jremote.jca-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) that return [TransactionManager](/39258-jca/com_jbase_jremote_jca_transactionmanager "class in com.jbase.jremote.jca") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca](./../../com.jbase.jremote.jca-%28jremote---api%29) that return [TransactionManager](./../../transactionmanager-%28jremote-api%29 "class in com.jbase.jremote.jca") | Modifier and Type | Method and Description |
 | --- | --- |
 | `TransactionManager` | JRemoteManagedConnection.`getTransactionManager()`  |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
-- [Class](/39258-jca/com_jbase_jremote_jca_transactionmanager "class in com.jbase.jremote.jca")
+- [Package](./../../com.jbase.jremote.jca-%28jremote---api%29)
+- [Class](./../../transactionmanager-%28jremote-api%29 "class in com.jbase.jremote.jca")
 - Use
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Tree](./../../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -63,8 +63,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/class-use//39261-class-use/com_jbase_jremote_jca_class-use_TransactionManager)
-- [No Frames](/39261-class-use/com_jbase_jremote_jca_class-use_TransactionManager)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

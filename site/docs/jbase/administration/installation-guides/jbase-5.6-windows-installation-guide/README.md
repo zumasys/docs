@@ -36,7 +36,7 @@ jBASE 5.6 for Windows requires the same minimum hardware specifications as the h
 
 
 
-> [How to verify your Windows Operating System](verify-your-windows-operating-system)
+> [How to verify your Windows Operating System](./../verify-your-windows-operating-system)
 
 
 ## 
@@ -63,7 +63,7 @@ To install jBASE 5.6 for Windows, you will need the JBASE\_5.6.0.xxx\_rel\_64bit
 
 ### INSTALLATION TYPES
 
-The jBASE installer provides two installation modes: **Express**and**Advanced**.  Continue to [Upgrade from a Previous Version](upgrading-from-a-previous-version), if you already have jBASE installed.
+The jBASE installer provides two installation modes: **Express**and**Advanced**.  Continue to [Upgrade from a Previous Version](./../upgrading-from-a-previous-version), if you already have jBASE installed.
 
 **Express:** install jBASE with typical options and services. Select this option if you are new to jBASE and wish to get started quickly. Express mode installs jBASE, creates a jBASE Administrator user and account, creates a SYSTEM file to organize jBASE accounts, initializes the spooler, installs and starts JBASE services.
 
@@ -149,9 +149,9 @@ Applies to: Express **Advanced**
 
 **Initialize the print spooler** Select this option to initialize the default print spooler configuration after a new installation. *Note: this option is not available for upgrade installations.*
 
-**Start telnet server** The jBASE telnet server is required to support remote connections to jBASE over telnet. The telnet server runs as a Windows service. By default, the telnet server listens on TCP port 23. See [Windows Telnet](311280-windows-telnet-telnetd-exe) article for information on configuring the jBASE telnet server.
+**Start telnet server** The jBASE telnet server is required to support remote connections to jBASE over telnet. The telnet server runs as a Windows service. By default, the telnet server listens on TCP port 23. See [Windows Telnet](./../../../jbase/windows-telnet-%28telnetd.exe%29) article for information on configuring the jBASE telnet server.
 
-**Start jRCS service** The jBASE Remote Connectivity Server (jRCS) provides remote access to your jBASE system. jBASE System Manager uses this service to perform management tasks on your jBASE system. By default, the jRCS server listens on TCP port 8236. See the jBASE knowledgebase article [JRCS](http://jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/JRCS_JRCS.htm) for more information regarding jRCS.
+**Start jRCS service** The jBASE Remote Connectivity Server (jRCS) provides remote access to your jBASE system. jBASE System Manager uses this service to perform management tasks on your jBASE system. By default, the jRCS server listens on TCP port 8236. See the jBASE knowledgebase article [JRCS](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/JRCS_JRCS.htm) for more information regarding jRCS.
 
 
 
@@ -209,22 +209,22 @@ Applies to: **Express** **Advanced**
 
 
 
-The installation of jBASE is complete.  Continue on to [Installing the Compiler](323804-windows-compiler-installation).
+The installation of jBASE is complete.  Continue on to [Installing the Compiler](./../windows-compiler-installation).
 
 ### 
 
 
 ### RELATED TOPICS:
 
-[UPGRADING FROM A PREVIOUS VERSION](upgrading-from-a-previous-version)
+[UPGRADING FROM A PREVIOUS VERSION](./../upgrading-from-a-previous-version)
 
-[INSTALLING THE COMPILER](323804-windows-compiler-installation)
+[INSTALLING THE COMPILER](./../windows-compiler-installation)
 
-[MANUAL INSTALLATION OF JDLS SERVICE](manual-installation-of-jdls-service)
+[MANUAL INSTALLATION OF JDLS SERVICE](./../../../jbase/manual-installation-of-jdls-service)
 
-[CREATING ACCOUNTS AND USERS](create-accounts-and-users)
+[CREATING ACCOUNTS AND USERS](./../create-accounts-and-users)
 
-[MANUAL LICENSE KEY INSTALLATION](manual-license-key-installation)
+[MANUAL LICENSE KEY INSTALLATION](./../manual-license-key-installation)
 
 
 

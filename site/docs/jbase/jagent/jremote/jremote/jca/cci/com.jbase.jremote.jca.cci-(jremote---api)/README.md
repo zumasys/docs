@@ -12,20 +12,20 @@ Skip navigation links
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39259-cci/com_jbase_jremote_jca_cci_package-use)
-- [Tree](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
+- [Use](./../uses-of-package-com.jbase.jremote.jca.cci-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Package](/39258-jca/com_jbase_jremote_jca_package-summary)
-- [Next Package](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+- [Prev Package](./../../com.jbase.jremote.jca-%28jremote---api%29)
+- [Next Package](./../../inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/cci//39259-cci/com_jbase_jremote_jca_cci_package-summary)
-- [No Frames](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -37,39 +37,39 @@ jremote <br>
 
 - Interface Summary | Interface | Description |
 | --- | --- |
-| [DynamicArrayRecord](/39259-cci/com_jbase_jremote_jca_cci_DynamicArrayRecord "interface in com.jbase.jremote.jca.cci") |   |
-| [SubroutineParametersRecord](/39259-cci/com_jbase_jremote_jca_cci_SubroutineParametersRecord "interface in com.jbase.jremote.jca.cci") |   |
+| [DynamicArrayRecord](./../dynamicarrayrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci") |   |
+| [SubroutineParametersRecord](./../subroutineparametersrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci") |   |
 - Class Summary | Class | Description |
 | --- | --- |
-| [CCIJConnection](/39259-cci/com_jbase_jremote_jca_cci_CCIJConnection "class in com.jbase.jremote.jca.cci") |   |
-| [CCIJRemoteConnectionFactory](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteConnectionFactory "class in com.jbase.jremote.jca.cci") |   |
-| [CCIJRemoteDynamicArrayRecord](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteDynamicArrayRecord "class in com.jbase.jremote.jca.cci") |   |
-| [CCIJRemoteInteraction](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteInteraction "class in com.jbase.jremote.jca.cci") |   |
-| [CCIJRemoteManagedConnectionFactory](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteManagedConnectionFactory "class in com.jbase.jremote.jca.cci") |   |
-| [CCIJRemoteRecordFactory](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteRecordFactory "class in com.jbase.jremote.jca.cci") |   |
-| [CCIJRemoteSubroutineParametersRecord](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteSubroutineParametersRecord "class in com.jbase.jremote.jca.cci") |   |
-| [CCILocalTransactionManager](/39259-cci/com_jbase_jremote_jca_cci_CCILocalTransactionManager "class in com.jbase.jremote.jca.cci") |   |
-| [SubroutineInteractionSpec](/39259-cci/com_jbase_jremote_jca_cci_SubroutineInteractionSpec "class in com.jbase.jremote.jca.cci") |   |
+| [CCIJConnection](./../ccijconnection-%28jremote---api%29 "class in com.jbase.jremote.jca.cci") |   |
+| [CCIJRemoteConnectionFactory](./../ccijremoteconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca.cci") |   |
+| [CCIJRemoteDynamicArrayRecord](./../ccijremotedynamicarrayrecord-%28jremote---api%29 "class in com.jbase.jremote.jca.cci") |   |
+| [CCIJRemoteInteraction](./../ccijremoteinteraction-%28jremote---api%29 "class in com.jbase.jremote.jca.cci") |   |
+| [CCIJRemoteManagedConnectionFactory](./../ccijremotemanagedconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca.cci") |   |
+| [CCIJRemoteRecordFactory](./../ccijremoterecordfactory-%28jremote---api%29 "class in com.jbase.jremote.jca.cci") |   |
+| [CCIJRemoteSubroutineParametersRecord](./../ccijremotesubroutineparametersrecord-%28jremote---api%29 "class in com.jbase.jremote.jca.cci") |   |
+| [CCILocalTransactionManager](./../ccilocaltransactionmanager-%28jremote---api%29 "class in com.jbase.jremote.jca.cci") |   |
+| [SubroutineInteractionSpec](./../subroutineinteractionspec-%28jremote---api%29 "class in com.jbase.jremote.jca.cci") |   |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39259-cci/com_jbase_jremote_jca_cci_package-use)
-- [Tree](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
+- [Use](./../uses-of-package-com.jbase.jremote.jca.cci-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Package](/39258-jca/com_jbase_jremote_jca_package-summary)
-- [Next Package](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+- [Prev Package](./../../com.jbase.jremote.jca-%28jremote---api%29)
+- [Next Package](./../../inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/cci//39259-cci/com_jbase_jremote_jca_cci_package-summary)
-- [No Frames](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

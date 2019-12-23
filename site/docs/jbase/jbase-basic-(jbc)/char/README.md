@@ -25,7 +25,7 @@ The **CHAR** function will return Unicode values encoded as UTF-8 byte sequences
 - Expression values &gt; 255 return UTF-8 multi byte character sequences.
 
 
-When system delimiter values are not specifically required, generate UTF-8 byte sequences using the [UTF8](279557-utf8) function. For instance;  X = UTF8(@AM) will generate a UTF-8 byte sequence in variable X for the system delimiter equating to Unicode value 0x000000fe.
+When system delimiter values are not specifically required, generate UTF-8 byte sequences using the [UTF8](./../utf8) function. For instance;  X = UTF8(@AM) will generate a UTF-8 byte sequence in variable X for the system delimiter equating to Unicode value 0x000000fe.
 
 ## Note:
 
@@ -44,6 +44,6 @@ An example of use would be inserting field delimiters within a variable or strin
 
 
 
-See also: [CHARS](/36868-jbase-basic/264329-chars)
+See also: [CHARS](./../chars)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

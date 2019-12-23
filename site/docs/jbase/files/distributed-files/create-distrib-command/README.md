@@ -33,9 +33,9 @@ The CREATE-DISTRIB command accepts a variety of options which determines its fun
 | Function<br> | Syntax<br> | Alternate Syntax<br> |
 | --- | --- | --- |
 | Add a Part File<br> | CREATE-DISTRIB -a FileName PartNo PartFile<br> | CREATE-DISTRIB FileName PartNo PartFile<br> |
-| Delete a Part File<br> | CREATE-DISTRIB -d FileName PartNo<br> | [DELETE-DISTRIB](289267-delete-distrib) Filename PartNo<br> |
-| List all Part Files<br> | CREATE-DISTRIB -l FileName<br> | [LIST-DISTRIB](289268-list-distrib) FileName<br> |
-| Verify the existence of the Part Files<br> | CREATE-DISTRIB -v FileName<br> | [VERIFY-DISTRIB](289270-verify-distrib) FileName<br> |
+| Delete a Part File<br> | CREATE-DISTRIB -d FileName PartNo<br> | [DELETE-DISTRIB](./../delete-distrib-command) Filename PartNo<br> |
+| List all Part Files<br> | CREATE-DISTRIB -l FileName<br> | [LIST-DISTRIB](./../list-distrib-command) FileName<br> |
+| Verify the existence of the Part Files<br> | CREATE-DISTRIB -v FileName<br> | [VERIFY-DISTRIB](./../verify-distrib-command) FileName<br> |
 | Set (or change) to the System Partition Algorithm<br> | CREATE-DISTRIB -pSYSTEM{,Delim} FileName<br> |  <br> |
 | Set (or change) to a User-defined Partition Algorithm<br> | CREATE-DISTRIB -pUSER,Subroutine FileName<br> |  <br> |
 
@@ -125,4 +125,4 @@ Verifies the existence of the component part files belonging to the CONVENTIONS 
 
 
 
-Back to [DISTRIBUTED FILES.](289126-distributed-files)
+Back to [DISTRIBUTED FILES.](./../distributed-files)

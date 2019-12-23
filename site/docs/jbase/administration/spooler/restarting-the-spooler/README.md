@@ -7,7 +7,7 @@
 
 ## Description 
 
-Individual jBASE despooler processes can be restarted by either using the SP-RESUME command directly, or from the [SP-JOBS](306301-sp-jobs) menu. For example:
+Individual jBASE despooler processes can be restarted by either using the SP-RESUME command directly, or from the [SP-JOBS](./../sp-jobs) menu. For example:
 
 ```
 SP-RESUME LASER

@@ -5,8 +5,8 @@
 **Original Doc:** [276080-headinge-and-headingn](https://docs.jbase.com/36868-jbase-basic/276080-headinge-and-headingn)  
 
 
-The **HEADINGE**statement is the same as the [HEADING](276079-heading) statement, which causes a page eject with the [HEADING](276079-heading) statement.
+The **HEADINGE**statement is the same as the [HEADING](./../heading) statement, which causes a page eject with the [HEADING](./../heading) statement.
 
-The **HEADINGN**statement is the same as the [HEADING](276079-heading) statement, and suppresses the page eject.
+The **HEADINGN**statement is the same as the [HEADING](./../heading) statement, and suppresses the page eject.
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -17,7 +17,7 @@ Where:
 
 expr1 and expr2 are strings consisting of numeric characters, optionally including a decimal part.
 
-The**SSUB** function may be used with numbers that could exceed a valid range with standard arithmetic operators. The [PRECISION](277629-precision) declaration has no effect on the value returned by **SSUB**.
+The**SSUB** function may be used with numbers that could exceed a valid range with standard arithmetic operators. The [PRECISION](./../precision) declaration has no effect on the value returned by **SSUB**.
 
 An example of use would be:
 
@@ -33,4 +33,4 @@ to display -2.6999999876543212 to the screen, despite the setting of precision t
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

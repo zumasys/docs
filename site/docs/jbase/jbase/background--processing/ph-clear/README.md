@@ -44,4 +44,4 @@ Deletes log and history records for port number 100.
 
 
 
-Back to [jBTP](jbtp)
+Back to [jBTP](./../jbtp)

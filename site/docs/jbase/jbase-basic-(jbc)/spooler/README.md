@@ -111,6 +111,6 @@ The values for Job Status are:
 
 
 
-Back to [jBASE BASIC](263498-jbase-basic).
+Back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

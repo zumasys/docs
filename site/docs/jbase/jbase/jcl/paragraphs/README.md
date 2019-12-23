@@ -7,7 +7,7 @@
 
 ## Description
 
-Paragraphs are stored procedures in that their contents can contain a sequence of commands. They are typically stored in the file defined by the [**JEDIFILENAME\_MD**](jedifilename_md) environment variable (i.e. MD or VOC) and run directly from the **jsh**mode of the jShell:
+Paragraphs are stored procedures in that their contents can contain a sequence of commands. They are typically stored in the file defined by the [**JEDIFILENAME\_MD**](./../../../environment-variables/jedifilename_md) environment variable (i.e. MD or VOC) and run directly from the **jsh**mode of the jShell:
 
 ```
 jsh ~ -->paragraph_name

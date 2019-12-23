@@ -98,4 +98,4 @@ This example transfers control to label 10 if "A" is entered, to label 20 if "B"
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

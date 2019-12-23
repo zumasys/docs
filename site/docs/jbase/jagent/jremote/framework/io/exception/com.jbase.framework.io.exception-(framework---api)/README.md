@@ -12,20 +12,20 @@ Skip navigation links
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39224-exception/com_jbase_framework_io_exception_package-use)
-- [Tree](/39224-exception/com_jbase_framework_io_exception_package-tree)
+- [Use](./../uses-of-package-com.jbase.framework.io.exception-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.exception-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Package](/39221-charset/com_jbase_framework_io_charset_package-summary)
-- [Next Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
+- [Prev Package](./../../charset/com.jbase.framework.io.charset-%28framework---api%29)
+- [Next Package](./../../inflow/com.jbase.framework.io.inflow-%28framework---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/exception//39224-exception/com_jbase_framework_io_exception_package-summary)
-- [No Frames](/39224-exception/com_jbase_framework_io_exception_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -37,28 +37,28 @@ framework <br>
 
 - Exception Summary | Exception | Description |
 | --- | --- |
-| [UnexpectedCharacterException](/39224-exception/com_jbase_framework_io_exception_UnexpectedCharacterException "class in com.jbase.framework.io.exception") |   |
-| [UnknownTypeException](/39224-exception/com_jbase_framework_io_exception_UnknownTypeException "class in com.jbase.framework.io.exception") |   |
+| [UnexpectedCharacterException](./../unexpectedcharacterexception-%28framework---api%29 "class in com.jbase.framework.io.exception") |   |
+| [UnknownTypeException](./../unknowntypeexception-%28framework---api%29 "class in com.jbase.framework.io.exception") |   |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39224-exception/com_jbase_framework_io_exception_package-use)
-- [Tree](/39224-exception/com_jbase_framework_io_exception_package-tree)
+- [Use](./../uses-of-package-com.jbase.framework.io.exception-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.exception-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Package](/39221-charset/com_jbase_framework_io_charset_package-summary)
-- [Next Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
+- [Prev Package](./../../charset/com.jbase.framework.io.charset-%28framework---api%29)
+- [Next Package](./../../inflow/com.jbase.framework.io.inflow-%28framework---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/exception//39224-exception/com_jbase_framework_io_exception_package-summary)
-- [No Frames](/39224-exception/com_jbase_framework_io_exception_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

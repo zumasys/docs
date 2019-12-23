@@ -18,7 +18,7 @@ Uxxxx
 
 where xxxx is the hexadecimal identity of the routine.
 
-jBASE [user exits](user-exits) are customized routines specially produced to perform extraordinary processing.
+jBASE [user exits](./../user-exits) are customized routines specially produced to perform extraordinary processing.
 
 
 
@@ -28,4 +28,4 @@ Routine dependent.
 
 
 
-Back to  [Conversion Processing](321577-conversion-processing)
+Back to  [Conversion Processing](./../conversion-processing)

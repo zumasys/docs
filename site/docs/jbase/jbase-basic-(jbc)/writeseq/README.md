@@ -35,6 +35,6 @@ Statements conditional jBASE BASIC statements
 
 
 
-See also: [OPENSEQ](277543-openseq).
+See also: [OPENSEQ](./../openseq).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

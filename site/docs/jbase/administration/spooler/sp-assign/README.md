@@ -29,11 +29,11 @@ Print report channels 128-254 are reserved.
 | Option<br> | Description<br> |
 | --- | --- |
 | ?<br> | Displays current assignment.<br> |
-| A<br> | Align. Suspends despooling from the formqueue, so that the print job can be aligned for special forms. For example, printing checks. Each subsequent print job will exhibit the ALIGN status. Use the [SP-ALIGN](306480-untitled-question) command or the align option on the SP-JOBS menu.<br> |
+| A<br> | Align. Suspends despooling from the formqueue, so that the print job can be aligned for special forms. For example, printing checks. Each subsequent print job will exhibit the ALIGN status. Use the [SP-ALIGN](./../sp-align) command or the align option on the SP-JOBS menu.<br> |
 | C<br> | Choke. For LPTR and TAPE, type formqueues only. Limits the amount of buffered data created before output to the device. The "I" option is automatically invoked.<br> |
 | Fn<br> | Assigns specific form queue number **n**, which is only valid if an equals sign (=), is not present in the command line, e.g.<br>**SP-ASSIGN F2**<br> |
-| H<br> | Hold. The H option retains a copy of the spooled print job, which can be re-output later. This option can be used with the S option to produce a report for output when demand for a printing resource is not so high. Use [SP-EDIT](https://jbase.helpjuice.com/admin/questions/306213-untitled-question/version/306467-untitled-question) with the SP or the SPA commands, or the edit option on the **SP-JOBS** menu to output the hold file.<br> |
-| I<br> | Instant. For LPTR and TAPE, type formqueues only. The print job will be despooled without waiting for the print job to be closed first. The [SP-SUSPEND](306472-untitled-question) command can be used to suspend despooling of a job which was invoked with the I option but will not be able to recover any previously output data.<br> |
+| H<br> | Hold. The H option retains a copy of the spooled print job, which can be re-output later. This option can be used with the S option to produce a report for output when demand for a printing resource is not so high. Use [SP-EDIT](./../sp-edit) with the SP or the SPA commands, or the edit option on the **SP-JOBS** menu to output the hold file.<br> |
+| I<br> | Instant. For LPTR and TAPE, type formqueues only. The print job will be despooled without waiting for the print job to be closed first. The [SP-SUSPEND](./../sp-suspend) command can be used to suspend despooling of a job which was invoked with the I option but will not be able to recover any previously output data.<br> |
 | M<br> | Suppresses the “Entry # message” when a Hold job is generated.<br> |
 | O<br> |  Open a global print job. Keeps the print job open when exiting to the shell or jCL. This option enables several print reports to be grouped as one print job.<br> |
 | P<br> | Protected (default). The P option protects the print job from being moved, edited, deleted or cleared, except by root or a user with the same user id as the user who created the print job.<br>Once assigned this option cannot be changed.<br> |
@@ -78,10 +78,10 @@ INCOMPATIBLE OPTIONS: I S, C NOT I, COPIES I
 > 
 > The default spooler assignment takes effect if the **SP-ASSIGN** command is executed without parameters.  The default assignment is printing report channel zero, formqueue STANDARD, spooler options P and number of copies set to one. This is also the default spooler assignment after log on.
 > The options assigned using the **SP-ASSIGN** command remain in effect until the **SP-ASSIGN**command is re-executed for the same print report channel or the user logs off.
-> Assignment information about each print report channel is held in the spooler assignment table and can be displayed by using the [SP-LOOK](306260-untitled-question) command.
+> Assignment information about each print report channel is held in the spooler assignment table and can be displayed by using the [SP-LOOK](./../sp-look) command.
 > **SP-ASSIGN** will close any previously open global print jobs.
 
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

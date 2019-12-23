@@ -85,4 +85,4 @@ EXAMPLE 3
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

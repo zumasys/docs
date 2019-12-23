@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
-- [Class](/39250-io/com_jbase_jremote_io_errorresponse "class in com.jbase.jremote.io")
+- [Package](./../../com.jbase.jremote.io-%28jremote---api%29)
+- [Class](./../../errorresponse-%28jremote-api%29 "class in com.jbase.jremote.io")
 - Use
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Tree](./../../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/class-use//39253-class-use/com_jbase_jremote_io_class-use_ErrorResponse)
-- [No Frames](/39253-class-use/com_jbase_jremote_io_class-use_ErrorResponse)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,23 +36,23 @@ jremote <br>
 ## Uses of Class
 com.jbase.jremote.io.ErrorResponse
 
-- Packages that use [ErrorResponse](/39250-io/com_jbase_jremote_io_errorresponse "class in com.jbase.jremote.io") | Package | Description |
+- Packages that use [ErrorResponse](./../../errorresponse-%28jremote-api%29 "class in com.jbase.jremote.io") | Package | Description |
 | --- | --- |
 | com.jbase.jremote |   |
-- - ### Uses of [ErrorResponse](/39250-io/com_jbase_jremote_io_errorresponse "class in com.jbase.jremote.io") in [com.jbase.jremote](/30312-jagent/jremote-api)
+- - ### Uses of [ErrorResponse](./../../errorresponse-%28jremote-api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote](./../../../../../jremote-api)
 
 
-Constructors in [com.jbase.jremote](/30312-jagent/jremote-api) with parameters of type [ErrorResponse](/39250-io/com_jbase_jremote_io_errorresponse "class in com.jbase.jremote.io") | Constructor and Description |
+Constructors in [com.jbase.jremote](./../../../../../jremote-api) with parameters of type [ErrorResponse](./../../errorresponse-%28jremote-api%29 "class in com.jbase.jremote.io") | Constructor and Description |
 | --- |
 | `JRemoteException(ErrorResponse response)`  |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
-- [Class](/39250-io/com_jbase_jremote_io_errorresponse "class in com.jbase.jremote.io")
+- [Package](./../../com.jbase.jremote.io-%28jremote---api%29)
+- [Class](./../../errorresponse-%28jremote-api%29 "class in com.jbase.jremote.io")
 - Use
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Tree](./../../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -63,8 +63,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/class-use//39253-class-use/com_jbase_jremote_io_class-use_ErrorResponse)
-- [No Frames](/39253-class-use/com_jbase_jremote_io_class-use_ErrorResponse)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

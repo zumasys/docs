@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_jbaseobjectwriter "interface in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_JBaseObjectWriter)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_JBaseObjectWriter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,14 +36,14 @@ jbasejdbc <br>
 ## Uses of Interface
 com.jbase.jdbc.io.JBaseObjectWriter
 
-- Packages that use [JBaseObjectWriter](/39232-io/com_jbase_jdbc_io_jbaseobjectwriter "interface in com.jbase.jdbc.io") | Package | Description |
+- Packages that use [JBaseObjectWriter](./../../jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.io |   |
 | com.jbase.jdbc.protocol |   |
-- - ### Uses of [JBaseObjectWriter](/39232-io/com_jbase_jdbc_io_jbaseobjectwriter "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary)
+- - ### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 
 
-Classes in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) that implement [JBaseObjectWriter](/39232-io/com_jbase_jdbc_io_jbaseobjectwriter "interface in com.jbase.jdbc.io") | Modifier and Type | Class and Description |
+Classes in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29) that implement [JBaseObjectWriter](./../../jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `AbstractJBaseObjectWriter`  |
 | `class` | `IOJBaseObjectWriter`<br>jBase object writer based on the DataOutputStream.<br> |
@@ -51,16 +51,16 @@ Classes in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) that
 
 
 
-Methods in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) with parameters of type [JBaseObjectWriter](/39232-io/com_jbase_jdbc_io_jbaseobjectwriter "interface in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | SQLError.`writeObject(JBaseObjectWriter writer,<br>           int version)`  |
 | `void` | OKResponse.`writeObject(JBaseObjectWriter writer,<br>           int version)`  |
 | `void` | JBaseSerializable.`writeObject(JBaseObjectWriter writer,<br>           int version)`  |
 | `void` | ErrorResponse.`writeObject(JBaseObjectWriter writer,<br>           int version)`  |
-    - ### Uses of [JBaseObjectWriter](/39232-io/com_jbase_jdbc_io_jbaseobjectwriter "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+    - ### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.protocol](./../../../protocol/com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 
 
-Methods in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary) with parameters of type [JBaseObjectWriter](/39232-io/com_jbase_jdbc_io_jbaseobjectwriter "interface in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.protocol](./../../../protocol/com.jbase.jdbc.protocol-%28jbasejdbc---api%29) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | TransactionStartRequest.`writeObject(JBaseObjectWriter writer,<br>           int version)`  |
 | `void` | TransactionRequest.`writeObject(JBaseObjectWriter writer,<br>           int version)`  |
@@ -94,10 +94,10 @@ Methods in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_pac
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_jbaseobjectwriter "interface in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -108,8 +108,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_JBaseObjectWriter)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_JBaseObjectWriter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

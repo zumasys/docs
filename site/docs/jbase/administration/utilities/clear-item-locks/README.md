@@ -31,7 +31,7 @@ CLEAR-ITEM-LOCKS should be used with extreme caution and only as a last resort. 
 ## Note: 
 
 
-> This command can only be issued by a user with root/administrator privileges. To clear a lock on a [distributed file](289126-distributed-files), the part file where the locked item exists must be specified.
+> This command can only be issued by a user with root/administrator privileges. To clear a lock on a [distributed file](./../../../files/distributed-files/distributed-files), the part file where the locked item exists must be specified.
 
 
 Examples of use may be as:
@@ -56,4 +56,4 @@ Clears the lock on the item R47FC9Z in the multi-level file CASE, data section 2
 
 
 
-See also [SHOW-ITEM-LOCKS](show-item-locks)
+See also [SHOW-ITEM-LOCKS](./../show-item-locks)

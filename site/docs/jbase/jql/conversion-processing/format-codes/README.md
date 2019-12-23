@@ -62,4 +62,4 @@ Shows the MD2 format code applied outside the A code expression. COST is multipl
 
 
 
-Back to [A-Corelatives](321284-a-correlatives)
+Back to [A-Corelatives](./../a-correlatives)

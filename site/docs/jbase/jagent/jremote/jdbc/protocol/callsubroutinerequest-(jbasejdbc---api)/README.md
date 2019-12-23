@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- [Package](./../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 - Class
-- [Use](/39241-class-use/com_jbase_jdbc_protocol_class-use_callsubroutinerequest)
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.protocol.callsubroutinerequest-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39240-protocol/com_jbase_jdbc_protocol_BindRequest "class in com.jbase.jdbc.protocol")
-- [Next Class](/39240-protocol/com_jbase_jdbc_protocol_CompileAndExecuteRequest "class in com.jbase.jdbc.protocol")
+- [Prev Class](./../bindrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
+- [Next Class](./../compileandexecuterequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_CallSubroutineRequest)
-- [No Frames](/39240-protocol/com_jbase_jdbc_protocol_CallSubroutineRequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -50,13 +50,13 @@ com.jbase.jdbc.protocol
 ## Class CallSubroutineRequest
 
 - [java.lang.Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
-- - [com.jbase.jdbc.protocol.SQLStartRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLStartRequest "class in com.jbase.jdbc.protocol")
-    - - [com.jbase.jdbc.protocol.SQLRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLRequest "class in com.jbase.jdbc.protocol")
-        - - [com.jbase.jdbc.protocol.BindRequest](/39240-protocol/com_jbase_jdbc_protocol_BindRequest "class in com.jbase.jdbc.protocol")
+- - [com.jbase.jdbc.protocol.SQLStartRequest](./../sqlstartrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
+    - - [com.jbase.jdbc.protocol.SQLRequest](./../sqlrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
+        - - [com.jbase.jdbc.protocol.BindRequest](./../bindrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
             - - com.jbase.jdbc.protocol.CallSubroutineRequest
 
 
-- All Implemented Interfaces:[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+- All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 * * *
 
 
@@ -70,17 +70,17 @@ Author:Peter Kucbta
 
 - - ### Nested Class Summary
 
-        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](./../../io/jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 `JBaseSerializable.TYPE`
 
 
     - ### Field Summary
 
-        - ### Fields inherited from class com.jbase.jdbc.protocol.[BindRequest](/39240-protocol/com_jbase_jdbc_protocol_BindRequest "class in com.jbase.jdbc.protocol")
+        - ### Fields inherited from class com.jbase.jdbc.protocol.[BindRequest](./../bindrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 `parameterList`
 
 
-        - ### Fields inherited from class com.jbase.jdbc.protocol.[SQLRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLRequest "class in com.jbase.jdbc.protocol")
+        - ### Fields inherited from class com.jbase.jdbc.protocol.[SQLRequest](./../sqlrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 `log, statementId`
 
 
@@ -101,11 +101,11 @@ All Methods [Instance Methods](javascript:show%282%29;) [Concrete Methods](javas
 | `int` | `getType()`<br>This method must be overridden by classes inheriting from SQLStartRequest.<br> |
 
 
-        - ### Methods inherited from class com.jbase.jdbc.protocol.[BindRequest](/39240-protocol/com_jbase_jdbc_protocol_BindRequest "class in com.jbase.jdbc.protocol")
+        - ### Methods inherited from class com.jbase.jdbc.protocol.[BindRequest](./../bindrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 `getParameterList, readObject, setParameterList, writeObject`
 
 
-        - ### Methods inherited from class com.jbase.jdbc.protocol.[SQLStartRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLStartRequest "class in com.jbase.jdbc.protocol")
+        - ### Methods inherited from class com.jbase.jdbc.protocol.[SQLStartRequest](./../sqlstartrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 `getVersion`
 
 
@@ -145,22 +145,22 @@ Specified by:`getType` in interface `JBaseSerializable`Overrides:`getType` in cl
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- [Package](./../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 - Class
-- [Use](/39241-class-use/com_jbase_jdbc_protocol_class-use_callsubroutinerequest)
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.protocol.callsubroutinerequest-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39240-protocol/com_jbase_jdbc_protocol_BindRequest "class in com.jbase.jdbc.protocol")
-- [Next Class](/39240-protocol/com_jbase_jdbc_protocol_CompileAndExecuteRequest "class in com.jbase.jdbc.protocol")
+- [Prev Class](./../bindrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
+- [Next Class](./../compileandexecuterequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_CallSubroutineRequest)
-- [No Frames](/39240-protocol/com_jbase_jdbc_protocol_CallSubroutineRequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

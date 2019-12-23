@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
-- [Class](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionFactory "class in com.jbase.jremote.jca")
+- [Package](./../../com.jbase.jremote.jca-%28jremote---api%29)
+- [Class](./../../jremotemanagedconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca")
 - Use
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Tree](./../../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/class-use//39261-class-use/com_jbase_jremote_jca_class-use_JRemoteManagedConnectionFactory)
-- [No Frames](/39261-class-use/com_jbase_jremote_jca_class-use_JRemoteManagedConnectionFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,23 +36,23 @@ jremote <br>
 ## Uses of Class
 com.jbase.jremote.jca.JRemoteManagedConnectionFactory
 
-- Packages that use [JRemoteManagedConnectionFactory](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionFactory "class in com.jbase.jremote.jca") | Package | Description |
+- Packages that use [JRemoteManagedConnectionFactory](./../../jremotemanagedconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.jca.cci |   |
-- - ### Uses of [JRemoteManagedConnectionFactory](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionFactory "class in com.jbase.jremote.jca") in [com.jbase.jremote.jca.cci](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
+- - ### Uses of [JRemoteManagedConnectionFactory](./../../jremotemanagedconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca") in [com.jbase.jremote.jca.cci](./../../cci/com.jbase.jremote.jca.cci-%28jremote---api%29)
 
 
-Subclasses of [JRemoteManagedConnectionFactory](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionFactory "class in com.jbase.jremote.jca") in [com.jbase.jremote.jca.cci](/39259-cci/com_jbase_jremote_jca_cci_package-summary) | Modifier and Type | Class and Description |
+Subclasses of [JRemoteManagedConnectionFactory](./../../jremotemanagedconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca") in [com.jbase.jremote.jca.cci](./../../cci/com.jbase.jremote.jca.cci-%28jremote---api%29) | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `CCIJRemoteManagedConnectionFactory`  |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
-- [Class](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionFactory "class in com.jbase.jremote.jca")
+- [Package](./../../com.jbase.jremote.jca-%28jremote---api%29)
+- [Class](./../../jremotemanagedconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca")
 - Use
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Tree](./../../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -63,8 +63,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/class-use//39261-class-use/com_jbase_jremote_jca_class-use_JRemoteManagedConnectionFactory)
-- [No Frames](/39261-class-use/com_jbase_jremote_jca_class-use_JRemoteManagedConnectionFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

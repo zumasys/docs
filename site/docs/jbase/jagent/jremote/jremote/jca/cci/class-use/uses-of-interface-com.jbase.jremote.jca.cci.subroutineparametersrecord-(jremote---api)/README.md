@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
-- [Class](/39259-cci/com_jbase_jremote_jca_cci_SubroutineParametersRecord "interface in com.jbase.jremote.jca.cci")
+- [Package](./../../com.jbase.jremote.jca.cci-%28jremote---api%29)
+- [Class](./../../subroutineparametersrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci")
 - Use
-- [Tree](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/cci/class-use//39260-class-use/com_jbase_jremote_jca_cci_class-use_SubroutineParametersRecord)
-- [No Frames](/39260-class-use/com_jbase_jremote_jca_cci_class-use_SubroutineParametersRecord)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ jremote <br>
 ## Uses of Interface
 com.jbase.jremote.jca.cci.SubroutineParametersRecord
 
-- Packages that use [SubroutineParametersRecord](/39259-cci/com_jbase_jremote_jca_cci_SubroutineParametersRecord "interface in com.jbase.jremote.jca.cci") | Package | Description |
+- Packages that use [SubroutineParametersRecord](./../../subroutineparametersrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.jca.cci |   |
-- - ### Uses of [SubroutineParametersRecord](/39259-cci/com_jbase_jremote_jca_cci_SubroutineParametersRecord "interface in com.jbase.jremote.jca.cci") in [com.jbase.jremote.jca.cci](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
+- - ### Uses of [SubroutineParametersRecord](./../../subroutineparametersrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci") in [com.jbase.jremote.jca.cci](./../../com.jbase.jremote.jca.cci-%28jremote---api%29)
 
 
-Classes in [com.jbase.jremote.jca.cci](/39259-cci/com_jbase_jremote_jca_cci_package-summary) that implement [SubroutineParametersRecord](/39259-cci/com_jbase_jremote_jca_cci_SubroutineParametersRecord "interface in com.jbase.jremote.jca.cci") | Modifier and Type | Class and Description |
+Classes in [com.jbase.jremote.jca.cci](./../../com.jbase.jremote.jca.cci-%28jremote---api%29) that implement [SubroutineParametersRecord](./../../subroutineparametersrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci") | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `CCIJRemoteDynamicArrayRecord`  |
 | `class` | `CCIJRemoteSubroutineParametersRecord`  |
@@ -50,10 +50,10 @@ Classes in [com.jbase.jremote.jca.cci](/39259-cci/com_jbase_jremote_jca_cci_pack
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
-- [Class](/39259-cci/com_jbase_jremote_jca_cci_SubroutineParametersRecord "interface in com.jbase.jremote.jca.cci")
+- [Package](./../../com.jbase.jremote.jca.cci-%28jremote---api%29)
+- [Class](./../../subroutineparametersrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci")
 - Use
-- [Tree](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -64,8 +64,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/cci/class-use//39260-class-use/com_jbase_jremote_jca_cci_class-use_SubroutineParametersRecord)
-- [No Frames](/39260-class-use/com_jbase_jremote_jca_cci_class-use_SubroutineParametersRecord)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

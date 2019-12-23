@@ -7,7 +7,7 @@
 
 ## Description 
 
-jsp\_scan is a scan and  repair utility for the jBASE spooler. It's main use is to clear jobs that are stuck with a status of *ED*. This can happen when the process [editing](306467-sp-edit) the print job is abnormally terminated.
+jsp\_scan is a scan and  repair utility for the jBASE spooler. It's main use is to clear jobs that are stuck with a status of *ED*. This can happen when the process [editing](./../sp-edit) the print job is abnormally terminated.
 
 ```
 jsp_scan {(options)}
@@ -55,4 +55,4 @@ JOB Cleared
 
 
 
-Back to [Spooler](jbase-spooler).
+Back to [Spooler](./../jbase-spooler).

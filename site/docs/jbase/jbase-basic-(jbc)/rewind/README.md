@@ -22,7 +22,7 @@ expression, if specified, should evaluate to an integer in the range 0 to 9. Def
 
 > If the statement fails to issue the rewind then any statements associated with the ELSE clause are executed. If the statement successfully issues the rewind command then the statements associated with any THEN clause are executed. Either or both of the THEN and ELSE clauses must be specified with the statement.
 > 
-> If the statement fails then the reason for failure can be determined via the value of [SYSTEM(0)](282982-system-functions) as follows:
+> If the statement fails then the reason for failure can be determined via the value of [SYSTEM(0)](./../system-functions) as follows:
 > 
 > 
 > | Value<br> | Meaning<br> |
@@ -31,4 +31,4 @@ expression, if specified, should evaluate to an integer in the range 0 to 9. Def
 > | 2<br> | an end of file mark was found<br> |
 
 
-Go back  to [jBASE BASIC](263498-jbase-basic).
+Go back  to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

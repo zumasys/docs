@@ -185,13 +185,13 @@ jruntime.multisession=5FLY3q6e4P6vTff9AETIQYwyjTnxDVK6sS1uFVfPeFQ=
 
 For further information on jBASE licensing see the jBASE Knowledgebase:
 
-[jBASE 5 Licensing](jbase-5-licensing)
+[jBASE 5 Licensing](./../../../release-notes/5.6.2-release-notes/jbase-5-licensing)
 
 ## Configure jBASE Environment Variables
 
 The following settings will allow you to create a basic jBASE environment. For further information on the available environment variables in jBASE see the jBASE Knowledgebase
 
-[Environment Variables](environment-variables)
+[Environment Variables](./../../../migration-station/articles/environment-variables)
 
 ```
 # vi /opt/jbase5/5.6/jbase_env.sh

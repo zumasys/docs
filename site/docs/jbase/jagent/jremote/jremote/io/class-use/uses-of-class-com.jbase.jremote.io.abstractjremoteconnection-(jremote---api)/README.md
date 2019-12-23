@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
-- [Class](/39250-io/com_jbase_jremote_io_abstractjremoteconnection "class in com.jbase.jremote.io")
+- [Package](./../../com.jbase.jremote.io-%28jremote---api%29)
+- [Class](./../../abstractjremoteconnection-%28jremote-api%29 "class in com.jbase.jremote.io")
 - Use
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Tree](./../../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/class-use//39253-class-use/com_jbase_jremote_io_class-use_AbstractJRemoteConnection)
-- [No Frames](/39253-class-use/com_jbase_jremote_io_class-use_AbstractJRemoteConnection)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,33 +36,33 @@ jremote <br>
 ## Uses of Class
 com.jbase.jremote.io.AbstractJRemoteConnection
 
-- Packages that use [AbstractJRemoteConnection](/39250-io/com_jbase_jremote_io_abstractjremoteconnection "class in com.jbase.jremote.io") | Package | Description |
+- Packages that use [AbstractJRemoteConnection](./../../abstractjremoteconnection-%28jremote-api%29 "class in com.jbase.jremote.io") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.io |   |
-- - ### Uses of [AbstractJRemoteConnection](/39250-io/com_jbase_jremote_io_abstractjremoteconnection "class in com.jbase.jremote.io") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
+- - ### Uses of [AbstractJRemoteConnection](./../../abstractjremoteconnection-%28jremote-api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29)
 
 
-Subclasses of [AbstractJRemoteConnection](/39250-io/com_jbase_jremote_io_abstractjremoteconnection "class in com.jbase.jremote.io") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) | Modifier and Type | Class and Description |
+Subclasses of [AbstractJRemoteConnection](./../../abstractjremoteconnection-%28jremote-api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `InterceptorConnection`<br>This class is responsible for handling the message sending to and from<br> an underlying JConnection.<br> |
 | `class` | `JRemoteSocketConnection`<br>This class handles the connection and communication to<br> the jListener server over a socket interface.<br> |
 
 
 
-Fields in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) declared as [AbstractJRemoteConnection](/39250-io/com_jbase_jremote_io_abstractjremoteconnection "class in com.jbase.jremote.io") | Modifier and Type | Field and Description |
+Fields in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) declared as [AbstractJRemoteConnection](./../../abstractjremoteconnection-%28jremote-api%29 "class in com.jbase.jremote.io") | Modifier and Type | Field and Description |
 | --- | --- |
 | `protected AbstractJRemoteConnection` | JSelectListImpl.`connection`  |
 
 
 
-Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) with parameters of type [AbstractJRemoteConnection](/39250-io/com_jbase_jremote_io_abstractjremoteconnection "class in com.jbase.jremote.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) with parameters of type [AbstractJRemoteConnection](./../../abstractjremoteconnection-%28jremote-api%29 "class in com.jbase.jremote.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected void` | JConnectionImpl.`init(AbstractJRemoteConnection connection,<br>    boolean allowInput,<br>    Properties cxProps)`  |
 | `void` | JSelectListImpl.`setConnection(AbstractJRemoteConnection connection)`<br>Attaches a connection handle to this select list.<br> |
 
 
 
-Constructors in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) with parameters of type [AbstractJRemoteConnection](/39250-io/com_jbase_jremote_io_abstractjremoteconnection "class in com.jbase.jremote.io") | Constructor and Description |
+Constructors in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) with parameters of type [AbstractJRemoteConnection](./../../abstractjremoteconnection-%28jremote-api%29 "class in com.jbase.jremote.io") | Constructor and Description |
 | --- |
 | `InterceptorConnection(AbstractJRemoteConnection c,<br>                     InputStream is,<br>                     OutputStream os)`  |
 | `JConnectionImpl(AbstractJRemoteConnection connection)`  |
@@ -77,10 +77,10 @@ Constructors in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-su
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
-- [Class](/39250-io/com_jbase_jremote_io_abstractjremoteconnection "class in com.jbase.jremote.io")
+- [Package](./../../com.jbase.jremote.io-%28jremote---api%29)
+- [Class](./../../abstractjremoteconnection-%28jremote-api%29 "class in com.jbase.jremote.io")
 - Use
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Tree](./../../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -91,8 +91,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/class-use//39253-class-use/com_jbase_jremote_io_class-use_AbstractJRemoteConnection)
-- [No Frames](/39253-class-use/com_jbase_jremote_io_class-use_AbstractJRemoteConnection)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

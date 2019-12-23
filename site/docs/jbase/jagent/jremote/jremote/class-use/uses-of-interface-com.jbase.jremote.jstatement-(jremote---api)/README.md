@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/30312-jagent/jremote-api)
-- [Class](/39248-jremote/com_jbase_jremote_jstatement "interface in com.jbase.jremote")
+- [Package](./../../../../jremote-api)
+- [Class](./../../jstatement-%28jremote-api%29 "interface in com.jbase.jremote")
 - Use
-- [Tree](/39248-jremote/com_jbase_jremote_package-tree)
+- [Tree](./../../com.jbase.jremote-class-hierarchy)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/class-use//39249-class-use/com_jbase_jremote_class-use_JStatement)
-- [No Frames](/39249-class-use/com_jbase_jremote_class-use_JStatement)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -36,43 +36,43 @@ jremote <br>
 ## Uses of Interface
 com.jbase.jremote.JStatement
 
-- Packages that use [JStatement](/39248-jremote/com_jbase_jremote_jstatement "interface in com.jbase.jremote") | Package | Description |
+- Packages that use [JStatement](./../../jstatement-%28jremote-api%29 "interface in com.jbase.jremote") | Package | Description |
 | --- | --- |
 | com.jbase.jremote |   |
 | com.jbase.jremote.io |   |
 | com.jbase.jremote.jca |   |
-- - ### Uses of [JStatement](/39248-jremote/com_jbase_jremote_jstatement "interface in com.jbase.jremote") in [com.jbase.jremote](/30312-jagent/jremote-api)
+- - ### Uses of [JStatement](./../../jstatement-%28jremote-api%29 "interface in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)
 
 
-Methods in [com.jbase.jremote](/30312-jagent/jremote-api) that return [JStatement](/39248-jremote/com_jbase_jremote_jstatement "interface in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote](./../../../../jremote-api) that return [JStatement](./../../jstatement-%28jremote-api%29 "interface in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JStatement` | JConnection.`createStatement()`<br>Create a statement object that enables queries to be executed and<br> a JResultSet returned.<br> |
-    - ### Uses of [JStatement](/39248-jremote/com_jbase_jremote_jstatement "interface in com.jbase.jremote") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
+    - ### Uses of [JStatement](./../../jstatement-%28jremote-api%29 "interface in com.jbase.jremote") in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29)
 
 
-Classes in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) that implement [JStatement](/39248-jremote/com_jbase_jremote_jstatement "interface in com.jbase.jremote") | Modifier and Type | Class and Description |
+Classes in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) that implement [JStatement](./../../jstatement-%28jremote-api%29 "interface in com.jbase.jremote") | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `JStatementImpl`  |
 
 
 
-Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) that return [JStatement](/39248-jremote/com_jbase_jremote_jstatement "interface in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) that return [JStatement](./../../jstatement-%28jremote-api%29 "interface in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JStatement` | JConnectionImpl.`createStatement()`  |
-    - ### Uses of [JStatement](/39248-jremote/com_jbase_jremote_jstatement "interface in com.jbase.jremote") in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary)
+    - ### Uses of [JStatement](./../../jstatement-%28jremote-api%29 "interface in com.jbase.jremote") in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) that return [JStatement](/39248-jremote/com_jbase_jremote_jstatement "interface in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29) that return [JStatement](./../../jstatement-%28jremote-api%29 "interface in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JStatement` | WrappedJConnection.`createStatement()`  |
 
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/30312-jagent/jremote-api)
-- [Class](/39248-jremote/com_jbase_jremote_jstatement "interface in com.jbase.jremote")
+- [Package](./../../../../jremote-api)
+- [Class](./../../jstatement-%28jremote-api%29 "interface in com.jbase.jremote")
 - Use
-- [Tree](/39248-jremote/com_jbase_jremote_package-tree)
+- [Tree](./../../com.jbase.jremote-class-hierarchy)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -83,8 +83,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/class-use//39249-class-use/com_jbase_jremote_class-use_JStatement)
-- [No Frames](/39249-class-use/com_jbase_jremote_class-use_JStatement)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

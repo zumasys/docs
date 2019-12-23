@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Class InputOutputResponse
 
-All Implemented Interfaces:[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -79,13 +79,13 @@ extends JRemoteResponse
 ```
 public static final int OUTPUTCMD
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../../constant-field-values)
 #### INPUTCMD
 
 ```
 public static final int INPUTCMD
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../../constant-field-values)
 
 
 ### Constructor Detail

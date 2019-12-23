@@ -35,4 +35,4 @@ The output of this program is: 0]1\0]0
 
 
 
-Back to [JBASE BASIC](263498-jbase-basic).
+Back to [JBASE BASIC](./../jbase-basic-programmers-reference-guide).

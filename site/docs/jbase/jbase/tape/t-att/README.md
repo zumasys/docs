@@ -46,7 +46,7 @@ to attach a file or pipe, where:
 
 > Some tape device drivers require the media to be actually mounted before a the tape device can be opened and attached, with a successful T-ATT command.
 > 
-> Once attached, the tape device will remain open and attached to the users port until the user logs off or the device is detached with a [T-DET](t-det) command.
+> Once attached, the tape device will remain open and attached to the users port until the user logs off or the device is detached with a [T-DET](./../t-det) command.
 > 
 > If the tape device is already open and attached to another UNIX process then the T-ATT command will fail with a device busy message.
 

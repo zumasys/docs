@@ -54,4 +54,4 @@ to remove spaces and tabs. Note the second parameter has been ignored in the fir
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

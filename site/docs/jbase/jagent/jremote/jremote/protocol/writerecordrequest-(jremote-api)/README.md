@@ -9,7 +9,7 @@
 
 ## Class WriteRecordRequest
 
-All Implemented Interfaces:[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -76,19 +76,19 @@ extends JRemoteRequest
 ```
 public static final int MODE_WRITE
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../../constant-field-values)
 #### MODE\_WRITEU
 
 ```
 public static final int MODE_WRITEU
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../../constant-field-values)
 #### MODE\_WRITEU\_NONBLOCK
 
 ```
 public static final int MODE_WRITEU_NONBLOCK
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../../constant-field-values)
 
 
 ### 

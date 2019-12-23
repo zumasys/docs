@@ -32,7 +32,7 @@ Where:
 ## Note:
 
 
-> The jBASE BASIC [COMMON](276024-common) data area can be passed to another jBASE BASIC program by specifying the option "I" after the program name. Pass the [COMMON](276024-common) data area only to another jBASE BASIC program.
+> The jBASE BASIC [COMMON](./../common) data area can be passed to another jBASE BASIC program by specifying the option "I" after the program name. Pass the [COMMON](./../common) data area only to another jBASE BASIC program.
 
 
 Use**ENTER** to execute any type of program.
@@ -54,4 +54,4 @@ ENTER @ ProgName
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

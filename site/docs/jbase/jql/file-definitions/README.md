@@ -20,8 +20,8 @@ The fields of a file definition record that affect jQL reports are:
 
 | Field 7<br> | Conversion code for key, if required. For date, time, etc.<br> |
 | --- | --- |
-| Field 8<br> | V code to notify a multivalued (sublist) field, if required. See [Sublists - V Code](324522-sublists-v-code).<br> |
-| Field 9<br> | Justification for key. Can be one of the following (see [Data Definition Records](324525-data-definition-records)):<br><br>| L | Left justified |<br>| R | Right justified |<br>| T | Text |<br>| U | Unlimited |<br><br> |
+| Field 8<br> | V code to notify a multivalued (sublist) field, if required. See [Sublists - V Code](./../sublists---v-code).<br> |
+| Field 9<br> | Justification for key. Can be one of the following (see [Data Definition Records](./../data-definition-records---dictionary-structure)):<br><br>| L | Left justified |<br>| R | Right justified |<br>| T | Text |<br>| U | Unlimited |<br><br> |
 | Field 10<br> | Column width for key. Default is 14 characters. Also see JBCIDLEN.<br> |
 
 

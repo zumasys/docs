@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
+- [Package](./../com.jbase.framework.io-%28framework---api%29)
 - Class
-- [Use](/39223-class-use/com_jbase_framework_io_class-use_AbstractJBaseObjectWriter)
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.abstractjbaseobjectwriter-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Class](/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader "class in com.jbase.framework.io")
-- [Next Class](/39220-io/com_jbase_framework_io_ByteObject "class in com.jbase.framework.io")
+- [Prev Class](./../abstractjbaseobjectreader-%28framework---api%29 "class in com.jbase.framework.io")
+- [Next Class](./../byteobject-%28framework---api%29 "class in com.jbase.framework.io")
 
 
-- [Frames](../../../../index.html?com/jbase/framework/io//39220-io/com_jbase_framework_io_AbstractJBaseObjectWriter)
-- [No Frames](/39220-io/com_jbase_framework_io_AbstractJBaseObjectWriter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -53,7 +53,7 @@ com.jbase.framework.io
 - - com.jbase.framework.io.AbstractJBaseObjectWriter
 
 
-- All Implemented Interfaces:[JBaseObjectWriter](/39220-io/com_jbase_framework_io_JBaseObjectWriter "interface in com.jbase.framework.io")Direct Known Subclasses:[IOJBaseObjectWriter](/39220-io/com_jbase_framework_io_IOJBaseObjectWriter "class in com.jbase.framework.io"), [NIOJBaseObjectWriter](/39220-io/com_jbase_framework_io_NIOJBaseObjectWriter "class in com.jbase.framework.io")
+- All Implemented Interfaces:[JBaseObjectWriter](./../jbaseobjectwriter-%28framework---api%29 "interface in com.jbase.framework.io")Direct Known Subclasses:[IOJBaseObjectWriter](./../iojbaseobjectwriter-%28framework---api%29 "class in com.jbase.framework.io"), [NIOJBaseObjectWriter](./../niojbaseobjectwriter-%28framework---api%29 "class in com.jbase.framework.io")
 * * *
 
 
@@ -94,7 +94,7 @@ All Methods [Instance Methods](javascript:show%282%29;) [Abstract Methods](javas
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
 
-        - ### Methods inherited from interface com.jbase.framework.io.[JBaseObjectWriter](/39220-io/com_jbase_framework_io_JBaseObjectWriter "interface in com.jbase.framework.io")
+        - ### Methods inherited from interface com.jbase.framework.io.[JBaseObjectWriter](./../jbaseobjectwriter-%28framework---api%29 "interface in com.jbase.framework.io")
 `close`
 
 - - ### Constructor Detail
@@ -218,22 +218,22 @@ Specified by:`writeRootObject` in interface `JBaseObjectWriter`Throws:`IOExcepti
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
+- [Package](./../com.jbase.framework.io-%28framework---api%29)
 - Class
-- [Use](/39223-class-use/com_jbase_framework_io_class-use_AbstractJBaseObjectWriter)
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.abstractjbaseobjectwriter-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Class](/39220-io/com_jbase_framework_io_AbstractJBaseObjectReader "class in com.jbase.framework.io")
-- [Next Class](/39220-io/com_jbase_framework_io_ByteObject "class in com.jbase.framework.io")
+- [Prev Class](./../abstractjbaseobjectreader-%28framework---api%29 "class in com.jbase.framework.io")
+- [Next Class](./../byteobject-%28framework---api%29 "class in com.jbase.framework.io")
 
 
-- [Frames](../../../../index.html?com/jbase/framework/io//39220-io/com_jbase_framework_io_AbstractJBaseObjectWriter)
-- [No Frames](/39220-io/com_jbase_framework_io_AbstractJBaseObjectWriter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

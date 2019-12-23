@@ -13,7 +13,7 @@ This is used as a diagnostic tool for applications, and allows a snapshot of the
 JBASECOREDUMP(expression1, expression2)
 ```
 
-The program variables and [CALL](263580-call) /[GOSUB](276075-gosub) stack will be dumped.
+The program variables and [CALL](./../call) /[GOSUB](./../gosub) stack will be dumped.
 
 Where:
 
@@ -37,4 +37,4 @@ to output two files in the current working directory.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

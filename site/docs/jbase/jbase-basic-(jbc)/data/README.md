@@ -20,7 +20,7 @@ Where the **expression** may evaluate to any data type; views each comma-separat
 
 > The data stacked for input will subsequently be treated as input by any jBASE BASIC program.
 > 
-> Therefore use it before [PERFORM/EXECUTE](269198-execute), [CHAIN](264324-chain) or any other method of transferring program execution. Use also to stack input for the currently executing program; do not use to stack input back to an executing program.
+> Therefore use it before [PERFORM/EXECUTE](./../execute), [CHAIN](./../chain) or any other method of transferring program execution. Use also to stack input for the currently executing program; do not use to stack input back to an executing program.
 
 
 When a jBASE BASIC program detects stacked data, it is taken as keyboard input until the stack is exhausted. The program will then revert to the terminal device for subsequent terminal input.
@@ -61,6 +61,6 @@ jsh ~ -->
 
 
 
-See also: [CLEARDATA](266852-cleardata)
+See also: [CLEARDATA](./../cleardata)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -38,6 +38,6 @@ The above code will display the value 4
 
 
 
-See also: [COUNT](266861-count).
+See also: [COUNT](./../count).
 
-Go back to [JBASE BASIC](263498-jbase-basic).
+Go back to [JBASE BASIC](./../jbase-basic-programmers-reference-guide).

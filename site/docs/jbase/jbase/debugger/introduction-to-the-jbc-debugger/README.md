@@ -26,14 +26,14 @@ The jBC debugger is a fully featured, interactive diagnostic utility that gives 
 
 
 
-[Invoking the debugger](291164-invoking-the-debugger)
+[Invoking the debugger](./../invoking-the-jbc-debugger)
 
-[Setting breakpoints](291161-setting-break-points-in-the-jbc-basic-debugger)
+[Setting breakpoints](./../setting-break-points-in-jbc-debugger)
 
-[Runtime debugger arguments](291165-run-time-debugger-arguments)
+[Runtime debugger arguments](./../run-time-jbc-debugger-arguments)
 
-[Debugger commands](291166-debugger-commands)
+[Debugger commands](./../jbc-debugger-commands)
 
-[Debugger symbol tables](291167-debugger-symbol-tables)
+[Debugger symbol tables](./../debugger-symbol-tables)
 
 

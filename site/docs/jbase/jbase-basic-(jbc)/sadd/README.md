@@ -19,7 +19,7 @@ expr1 and expr2 are strings consisting of numeric characters, optionally includi
 
 The **SADD**function can be used with numbers that may exceed a valid range with standard arithmetic operators.
 
-The [PRECISION](277629-precision) declaration has no effect on the value returned by **SADD**. Examples of use would be:
+The [PRECISION](./../precision) declaration has no effect on the value returned by **SADD**. Examples of use would be:
 
 ```
 A = 4000000000000000000000000000000
@@ -37,4 +37,4 @@ to display 6.13333333333333333.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -23,7 +23,7 @@ Where:
 - If the statement succeeds in retrieving the list, then the **statements** associated with any THEN clause will be executed. If the statement fails to find the list, then the statements associated with any ELSE clause will be executed.
 
 
-The **READLIST**statement is identical in function to the [GETLIST](276058-getlist) statement.
+The **READLIST**statement is identical in function to the [GETLIST](./../getlist) statement.
 
 An example of use is as:
 
@@ -38,6 +38,6 @@ REPEAT
 
 
 
-See also: [DELETELIST](268475-deletelist), [FORMLIST](275992-formlist), [WRITELIST](279569-writelist)
+See also: [DELETELIST](./../deletelist), [FORMLIST](./../formlist), [WRITELIST](./../writelist)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

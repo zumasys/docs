@@ -12,20 +12,20 @@ Skip navigation links
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39221-charset/com_jbase_framework_io_charset_package-use)
-- [Tree](/39221-charset/com_jbase_framework_io_charset_package-tree)
+- [Use](./../uses-of-package-com.jbase.framework.io.charset-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.charset-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Package](/39220-io/com_jbase_framework_io_package-summary)
-- [Next Package](/39224-exception/com_jbase_framework_io_exception_package-summary)
+- [Prev Package](./../../com.jbase.framework.io-%28framework---api%29)
+- [Next Package](./../../exception/com.jbase.framework.io.exception-%28framework---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/charset//39221-charset/com_jbase_framework_io_charset_package-summary)
-- [No Frames](/39221-charset/com_jbase_framework_io_charset_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -37,32 +37,32 @@ framework <br>
 
 - Class Summary | Class | Description |
 | --- | --- |
-| [JbaseCharset](/39221-charset/com_jbase_framework_io_charset_JbaseCharset "class in com.jbase.framework.io.charset") |   |
-| [JbaseCharsetDecoder](/39221-charset/com_jbase_framework_io_charset_JbaseCharsetDecoder "class in com.jbase.framework.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE charset into a sequence of sixteen-bit Unicode characters.<br> |
-| [JbaseCharsetEncoder](/39221-charset/com_jbase_framework_io_charset_JbaseCharsetEncoder "class in com.jbase.framework.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE charset into a sequence of sixteen-bit Unicode characters.<br> |
-| [JbasePrivateUseCharset](/39221-charset/com_jbase_framework_io_charset_JbasePrivateUseCharset "class in com.jbase.framework.io.charset") |   |
-| [JbasePrivateUseCharsetDecoder](/39221-charset/com_jbase_framework_io_charset_JbasePrivateUseCharsetDecoder "class in com.jbase.framework.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE private use charset into a sequence of sixteen-bit<br> Unicode characters.<br> |
-| [JbasePrivateUseCharsetEncoder](/39221-charset/com_jbase_framework_io_charset_JbasePrivateUseCharsetEncoder "class in com.jbase.framework.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE private use charset into a sequence of sixteen-bit<br> Unicode characters.<br> |
+| [JbaseCharset](./../jbasecharset-%28framework---api%29 "class in com.jbase.framework.io.charset") |   |
+| [JbaseCharsetDecoder](./../jbasecharsetdecoder-%28framework---api%29 "class in com.jbase.framework.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE charset into a sequence of sixteen-bit Unicode characters.<br> |
+| [JbaseCharsetEncoder](./../jbasecharsetencoder-%28framework---api%29 "class in com.jbase.framework.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE charset into a sequence of sixteen-bit Unicode characters.<br> |
+| [JbasePrivateUseCharset](./../jbaseprivateusecharset-%28framework---api%29 "class in com.jbase.framework.io.charset") |   |
+| [JbasePrivateUseCharsetDecoder](./../jbaseprivateusecharsetdecoder-%28framework---api%29 "class in com.jbase.framework.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE private use charset into a sequence of sixteen-bit<br> Unicode characters.<br> |
+| [JbasePrivateUseCharsetEncoder](./../jbaseprivateusecharsetencoder-%28framework---api%29 "class in com.jbase.framework.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE private use charset into a sequence of sixteen-bit<br> Unicode characters.<br> |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39221-charset/com_jbase_framework_io_charset_package-use)
-- [Tree](/39221-charset/com_jbase_framework_io_charset_package-tree)
+- [Use](./../uses-of-package-com.jbase.framework.io.charset-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.charset-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Package](/39220-io/com_jbase_framework_io_package-summary)
-- [Next Package](/39224-exception/com_jbase_framework_io_exception_package-summary)
+- [Prev Package](./../../com.jbase.framework.io-%28framework---api%29)
+- [Next Package](./../../exception/com.jbase.framework.io.exception-%28framework---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/charset//39221-charset/com_jbase_framework_io_charset_package-summary)
-- [No Frames](/39221-charset/com_jbase_framework_io_charset_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

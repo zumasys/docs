@@ -71,7 +71,7 @@ A failed request from Edge looks like
 
 
 
-If you get any type of page response then jAgent is running.  If you are not getting a connection you should go to the next section and run jAgent in the foreground.  You should also review the jAgent [documentation](/30312-jagent/introduction-to-jagent)
+If you get any type of page response then jAgent is running.  If you are not getting a connection you should go to the next section and run jAgent in the foreground.  You should also review the jAgent [documentation](./../introduction-to-jagent)
 
 ## Run jAgent in the Foreground
 
@@ -342,6 +342,6 @@ If you see the following message from your **jbase\_agent**log-output:
 HTTP maximum user count exceeded
 ```
 
-Check your jBASE license using (see [Licensing](/36526-5-6-2-release-notes/jbase-5-licensing "jBASE Licensing")).
+Check your jBASE license using (see [Licensing](./../../release-notes/5.6.2-release-notes/jbase-5-licensing "jBASE Licensing")).
 
 This message will also be generated if the database is in a paused or shutdown state (i.e. you need to run **DB-START** or **DB-RESUME**).

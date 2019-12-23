@@ -9,7 +9,7 @@
 
 # Description
 
-The function checks a string against a match pattern, as does the [MATCH](276946-matches) operator, and returns the portion of string that matches the specified field in pattern.
+The function checks a string against a match pattern, as does the [MATCH](./../matches) operator, and returns the portion of string that matches the specified field in pattern.
 
 It takes the general form:
 
@@ -52,4 +52,4 @@ PRINT "COL= ",COL ; * to print: COL= BLUE
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

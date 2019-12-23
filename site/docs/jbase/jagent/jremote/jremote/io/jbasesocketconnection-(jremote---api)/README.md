@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
+- [Package](./../com.jbase.jremote.io-%28jremote---api%29)
 - Class
-- [Use](/39253-class-use/com_jbase_jremote_io_class-use_JbaseSocketConnection)
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.io.jbasesocketconnection-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -21,11 +21,11 @@ Skip navigation links
 jremote <br>
 
 - [Prev Class](/39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE "interface in com.jbase.jremote.io")
-- [Next Class](/39250-io/com_jbase_jremote_io_jconnectionimpl "class in com.jbase.jremote.io")
+- [Next Class](./../jconnectionimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/io//39250-io/com_jbase_jremote_io_JbaseSocketConnection)
-- [No Frames](/39250-io/com_jbase_jremote_io_JbaseSocketConnection)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -150,10 +150,10 @@ public SocketAddress getRemoteSocketAddress()
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
+- [Package](./../com.jbase.jremote.io-%28jremote---api%29)
 - Class
-- [Use](/39253-class-use/com_jbase_jremote_io_class-use_JbaseSocketConnection)
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.io.jbasesocketconnection-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -161,11 +161,11 @@ Skip navigation links
 jremote <br>
 
 - [Prev Class](/39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE "interface in com.jbase.jremote.io")
-- [Next Class](/39250-io/com_jbase_jremote_io_jconnectionimpl "class in com.jbase.jremote.io")
+- [Next Class](./../jconnectionimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/io//39250-io/com_jbase_jremote_io_JbaseSocketConnection)
-- [No Frames](/39250-io/com_jbase_jremote_io_JbaseSocketConnection)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

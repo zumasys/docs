@@ -77,4 +77,4 @@ Attribute 12 returned with the INDICES function shows any option passed to creat
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic)
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide)

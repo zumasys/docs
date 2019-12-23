@@ -9,7 +9,7 @@
 
 ## Interface JFile
 
-All Known Implementing Classes:[JFileImpl](/39250-io/com_jbase_jremote_io_jfileimpl "class in com.jbase.jremote.io"), [WrappedJFile](com_jbase_jremote_jca_wrappedjfile "class in com.jbase.jremote.jca")
+All Known Implementing Classes:[JFileImpl](./../io/jfileimpl-%28jremote-api%29 "class in com.jbase.jremote.io"), [WrappedJFile](./../jca/wrappedjfile-%28jremote-api%29 "class in com.jbase.jremote.jca")
 * * *
 
 

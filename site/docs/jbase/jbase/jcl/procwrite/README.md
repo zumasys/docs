@@ -21,6 +21,6 @@ An example of use may be as:
 PROCWRITE "Success":CHAR (254):"0"
 ```
 
-See also: [PROCREAD](277635-procread)
+See also: [PROCREAD](./../../../jbase-basic-%28jbc%29/procread)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../../../jbase-basic-%28jbc%29/jbase-basic-programmers-reference-guide).

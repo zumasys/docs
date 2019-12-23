@@ -51,7 +51,7 @@ obj = new object("Classname")
 myarray = new array("Arrayname")
 ```
 
-Instances of objects and arrays are initially void unless properties have been assigned by a [constructor](dynamic-objects-object-creation).
+Instances of objects and arrays are initially void unless properties have been assigned by a [constructor](./../dynamic-objects-object-creation).
 
 Class names are only necessary if you intend to create methods for the Class or Array, e.g.
 
@@ -65,7 +65,7 @@ Other ways to create an object:
 - with one of the Dynamic Objects built-in methods.
 
 
-For example, here we create an object from a JSON string using the built-in [**$fromjson()**](method-fromjson) method:
+For example, here we create an object from a JSON string using the built-in [**$fromjson()**](./../method-$fromjson%28%29) method:
 
 ```
 json = \{"Firstname":"Daniel","Lastname":"Klein"}\
@@ -381,4 +381,4 @@ Record is not properly formatted JSON. Cannot WRITE record.
 Edit record again ?
 ```
 
-This is the end of our introduction. All current Dynamic Objects documentation can be found [here](dynamic-objects).
+This is the end of our introduction. All current Dynamic Objects documentation can be found [here](./../dynamic-objects).

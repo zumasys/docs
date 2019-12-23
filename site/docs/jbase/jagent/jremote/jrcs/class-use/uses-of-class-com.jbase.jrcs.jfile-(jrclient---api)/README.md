@@ -7,23 +7,23 @@
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jrcs.JFile (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 ## 
 
-## Uses of [JFile](/jrcs/com_jbase_jrcs_jfile "class in com.jbase.jrcs") in [com.jbase.jrcs](/jrcs/com_jbase_jrcs_package-summary)
+## Uses of [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29)
 
 
 
-**Methods in [com.jbase.jrcs](/jrcs/com_jbase_jrcs_package-summary) that return [JFile](/jrcs/com_jbase_jrcs_jfile "class in com.jbase.jrcs")**
-
-
-| <br>Modifier and Type<br> | <br>Method<br> | <br>Description<br> |
-| --- | --- | --- |
-| <br>[JFile](/jrcs/com_jbase_jrcs_jfile "class in com.jbase.jrcs")<br> | <br>JCommon.[getFile](/jrcs/com_jbase_jrcs_JCommon#getFile-int-)(int index)<br> | <br>Retrieves a file variable from a specific position in a common block<br> |
-| <br>[JFile](/jrcs/com_jbase_jrcs_jfile "class in com.jbase.jrcs")<br> | <br>JConnection.[openFile](../../../../com/jbase/jrcs/JConnection.html#openFile-java.lang.String-)(String fileName)<br> | <br>Opens a file with the given name<br> |
-
-**Methods in [com.jbase.jrcs](/jrcs/com_jbase_jrcs_package-summary) with parameters of type [JFile](/jrcs/com_jbase_jrcs_jfile "class in com.jbase.jrcs")**
+**Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) that return [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")**
 
 
 | <br>Modifier and Type<br> | <br>Method<br> | <br>Description<br> |
 | --- | --- | --- |
-| <br>void<br> | <br>JCommon.[setFile](/jrcs/com_jbase_jrcs_JCommon#setFile-int-com.jbase.jrcs.JFile-)(int index, [JFile](/jrcs/com_jbase_jrcs_jfile "class in com.jbase.jrcs") file)<br> | <br>Stores a file variable into a specific position in a common block<br> |
+| <br>[JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>JCommon.[getFile](/jrcs/com_jbase_jrcs_JCommon#getFile-int-)(int index)<br> | <br>Retrieves a file variable from a specific position in a common block<br> |
+| <br>[JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>JConnection.[openFile](../../../../com/jbase/jrcs/JConnection.html#openFile-java.lang.String-)(String fileName)<br> | <br>Opens a file with the given name<br> |
+
+**Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) with parameters of type [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")**
+
+
+| <br>Modifier and Type<br> | <br>Method<br> | <br>Description<br> |
+| --- | --- | --- |
+| <br>void<br> | <br>JCommon.[setFile](/jrcs/com_jbase_jrcs_JCommon#setFile-int-com.jbase.jrcs.JFile-)(int index, [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs") file)<br> | <br>Stores a file variable into a specific position in a common block<br> |
 
 

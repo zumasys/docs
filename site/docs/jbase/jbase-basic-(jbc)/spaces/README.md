@@ -19,4 +19,4 @@ dynamic.array specifies the number of spaces in each element. If dynamic.array o
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

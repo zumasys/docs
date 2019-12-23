@@ -27,7 +27,7 @@ The -S option can also be used which changes the functionality of jkeyauto. When
 jkeyauto -S LOCK|UNLOCK|WAIT|TEST locknumber {-ftimeout}
 ```
 
-See the description of the [SYNC](sync) statement for the operation of this syntax.
+See the description of the [SYNC](./../sync) statement for the operation of this syntax.
 
 
 | <br> | <br> |

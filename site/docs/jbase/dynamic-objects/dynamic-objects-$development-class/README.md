@@ -11,6 +11,6 @@ The **$development**class contains general tools for Dynamic Objects developemen
 
 ## Class Methods
 
-- [$development::randomstring()](class-method-development-randomstring)
-- [$development::crash()](class-method-development-crash)
+- [$development::randomstring()](./../class-method-$developmentrandomstring%28%29)
+- [$development::crash()](./../class-method-$developmentcrash%28%29)
 

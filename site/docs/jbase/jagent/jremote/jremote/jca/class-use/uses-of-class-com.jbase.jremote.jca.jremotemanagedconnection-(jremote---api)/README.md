@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
-- [Class](/39258-jca/com_jbase_jremote_jca_jremotemanagedconnection "class in com.jbase.jremote.jca")
+- [Package](./../../com.jbase.jremote.jca-%28jremote---api%29)
+- [Class](./../../jremotemanagedconnection-%28jremote-api%29 "class in com.jbase.jremote.jca")
 - Use
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Tree](./../../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/class-use//39261-class-use/com_jbase_jremote_jca_class-use_JRemoteManagedConnection)
-- [No Frames](/39261-class-use/com_jbase_jremote_jca_class-use_JRemoteManagedConnection)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,19 +36,19 @@ jremote <br>
 ## Uses of Class
 com.jbase.jremote.jca.JRemoteManagedConnection
 
-- Packages that use [JRemoteManagedConnection](/39258-jca/com_jbase_jremote_jca_jremotemanagedconnection "class in com.jbase.jremote.jca") | Package | Description |
+- Packages that use [JRemoteManagedConnection](./../../jremotemanagedconnection-%28jremote-api%29 "class in com.jbase.jremote.jca") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.jca |   |
-- - ### Uses of [JRemoteManagedConnection](/39258-jca/com_jbase_jremote_jca_jremotemanagedconnection "class in com.jbase.jremote.jca") in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary)
+- - ### Uses of [JRemoteManagedConnection](./../../jremotemanagedconnection-%28jremote-api%29 "class in com.jbase.jremote.jca") in [com.jbase.jremote.jca](./../../com.jbase.jremote.jca-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) with parameters of type [JRemoteManagedConnection](/39258-jca/com_jbase_jremote_jca_jremotemanagedconnection "class in com.jbase.jremote.jca") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca](./../../com.jbase.jremote.jca-%28jremote---api%29) with parameters of type [JRemoteManagedConnection](./../../jremotemanagedconnection-%28jremote-api%29 "class in com.jbase.jremote.jca") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected void` | WrappedJConnection.`setManagedConnection(JRemoteManagedConnection connection)`  |
 
 
 
-Constructors in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) with parameters of type [JRemoteManagedConnection](/39258-jca/com_jbase_jremote_jca_jremotemanagedconnection "class in com.jbase.jremote.jca") | Constructor and Description |
+Constructors in [com.jbase.jremote.jca](./../../com.jbase.jremote.jca-%28jremote---api%29) with parameters of type [JRemoteManagedConnection](./../../jremotemanagedconnection-%28jremote-api%29 "class in com.jbase.jremote.jca") | Constructor and Description |
 | --- |
 | `TransactionManager(JRemoteManagedConnection managedConnection)`  |
 | `WrappedJConnection(JRemoteManagedConnection managedConnection)`  |
@@ -56,10 +56,10 @@ Constructors in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
-- [Class](/39258-jca/com_jbase_jremote_jca_jremotemanagedconnection "class in com.jbase.jremote.jca")
+- [Package](./../../com.jbase.jremote.jca-%28jremote---api%29)
+- [Class](./../../jremotemanagedconnection-%28jremote-api%29 "class in com.jbase.jremote.jca")
 - Use
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Tree](./../../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -70,8 +70,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/class-use//39261-class-use/com_jbase_jremote_jca_class-use_JRemoteManagedConnection)
-- [No Frames](/39261-class-use/com_jbase_jremote_jca_class-use_JRemoteManagedConnection)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../../overview-summary.html)
-- [Package](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
-- [Class](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol")
+- [Package](./../../com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
+- [Class](./../../inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol")
 - Use
-- [Tree](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.inflow.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../../deprecated-list.html)
 - [Help](../../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../../index.html?com/jbase/jremote/jca/inflow/protocol/class-use//39265-class-use/com_jbase_jremote_jca_inflow_protocol_class-use_InboundRequest)
-- [No Frames](/39265-class-use/com_jbase_jremote_jca_inflow_protocol_class-use_InboundRequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../../allclasses-noframe.html)
@@ -36,20 +36,20 @@ jremote <br>
 ## Uses of Interface
 com.jbase.jremote.jca.inflow.protocol.InboundRequest
 
-- Packages that use [InboundRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol") | Package | Description |
+- Packages that use [InboundRequest](./../../inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.jca.inflow |   |
 | com.jbase.jremote.jca.inflow.protocol |   |
-- - ### Uses of [InboundRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol") in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+- - ### Uses of [InboundRequest](./../../inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol") in [com.jbase.jremote.jca.inflow](./../../../com.jbase.jremote.jca.inflow-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary) that return [InboundRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca.inflow](./../../../com.jbase.jremote.jca.inflow-%28jremote---api%29) that return [InboundRequest](./../../inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected InboundRequest` | InboundRequestHandler.`readRequest(JBaseObjectReader reader)`  |
-    - ### Uses of [InboundRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol") in [com.jbase.jremote.jca.inflow.protocol](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
+    - ### Uses of [InboundRequest](./../../inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol") in [com.jbase.jremote.jca.inflow.protocol](./../../com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
 
 
-Classes in [com.jbase.jremote.jca.inflow.protocol](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary) that implement [InboundRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol") | Modifier and Type | Class and Description |
+Classes in [com.jbase.jremote.jca.inflow.protocol](./../../com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29) that implement [InboundRequest](./../../inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol") | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `ActivationRequest`  |
 | `class` | `CommitTransactionRequest`  |
@@ -59,10 +59,10 @@ Classes in [com.jbase.jremote.jca.inflow.protocol](/39264-protocol/com_jbase_jre
 Skip navigation links
 
 - [Overview](../../../../../../../overview-summary.html)
-- [Package](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
-- [Class](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol")
+- [Package](./../../com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
+- [Class](./../../inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol")
 - Use
-- [Tree](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.inflow.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../../deprecated-list.html)
 - [Help](../../../../../../../help-doc.html)
 
@@ -73,8 +73,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../../index.html?com/jbase/jremote/jca/inflow/protocol/class-use//39265-class-use/com_jbase_jremote_jca_inflow_protocol_class-use_InboundRequest)
-- [No Frames](/39265-class-use/com_jbase_jremote_jca_inflow_protocol_class-use_InboundRequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../../allclasses-noframe.html)

@@ -29,6 +29,6 @@ When used in International Mode, the conversion from upper case to lower case or
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

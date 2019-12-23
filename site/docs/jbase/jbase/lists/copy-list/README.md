@@ -91,6 +91,6 @@ Copies A.SALES (a previously saved list) to record APRIL.SALES, in file SALES.LI
 ### 
 
 
-See also [list storage](325913-list-storage).
+See also [list storage](./../list-storage).
 
-Back to [List Processing](325912-list-processing)
+Back to [List Processing](./../list-processing)

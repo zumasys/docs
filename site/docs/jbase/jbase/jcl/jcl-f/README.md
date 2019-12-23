@@ -51,4 +51,4 @@ F
 
 \*PIB - Primary Input Buffer.
 
-Back to[JCL Commands](318556-untitled-question).
+Back to[JCL Commands](./../jcl-commands).

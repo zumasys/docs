@@ -15,7 +15,7 @@ JavaScript is disabled on your browser.
 
 | <br>Package<br> | <br>Description<br> |
 | --- | --- |
- Packages that use [SQLRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLRequest "class in com.jbase.jdbc.protocol")  | <br>com.jbase.jdbc.protocol<br> | <br><br> |
+ Packages that use [SQLRequest](./../../sqlrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")  | <br>com.jbase.jdbc.protocol<br> | <br><br> |
 
 
 
@@ -24,12 +24,12 @@ JavaScript is disabled on your browser.
 
 
 
-### Uses of [SQLRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLRequest "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+### Uses of [SQLRequest](./../../sqlrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 
 
 | <br>Modifier and Type<br> | <br>Class<br> | Description<br> |
 | --- | --- | --- |
- Subclasses of [SQLRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLRequest "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary)  | <br>`class `<br> | <br>`BindRequest`<br> | <br>Request to bind parameters to previously precompiled (or prepared) SQL statement.<br> |
+ Subclasses of [SQLRequest](./../../sqlrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)  | <br>`class `<br> | <br>`BindRequest`<br> | <br>Request to bind parameters to previously precompiled (or prepared) SQL statement.<br> |
 | <br>`class `<br> | <br>`CallSubroutineRequest`<br> | <br>Request to call subroutine with supplied parameters.<br> |
 | <br>`class `<br> | <br>`ExecuteRequest`<br><br>Request to execute previously compiled SQL statement.<br> | <br> |
 | <br>`class `<br> | <br>`FetchRequest`<br><br>Request to fetch result of a query (rows of data) from the server.<br> | <br> |

@@ -129,4 +129,4 @@ The screen display contains the following fields:
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

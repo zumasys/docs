@@ -7,6 +7,6 @@
 
 ## Description 
 
-The jBASE **BREAK-KEY-ON** command is a synonym of the [BREAK-KEY-ENABLE](break-key-enable) command.
+The jBASE **BREAK-KEY-ON** command is a synonym of the [BREAK-KEY-ENABLE](./../break-key-enable) command.
 
 

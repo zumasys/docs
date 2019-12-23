@@ -9,7 +9,7 @@
 
 The **getemulation()** method is used to obtain the current configuration settings. It creates a sub-object with a property name of **emulation** containing all available emulation settings.
 
-When the object is created, the current configuration (defined by the [JBCEMULATE](jbcemulate) environment variable) is used to set the values of each property.
+When the object is created, the current configuration (defined by the [JBCEMULATE](./../../environment-variables/jbcemulate) environment variable) is used to set the values of each property.
 
 The properties of the object are the emulation (configuration) options. The value of each property indicates whether the emulation setting has been set to **true**, **false** or is **undefined** within the current emulation according to this table:
 

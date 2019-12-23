@@ -24,7 +24,7 @@ Where:
 
 
 
-The **ENCRYPT** and [DECRYPT](decrypt) functions that are part of jBASE BASIC now support the following  cipher methods (Defined in **JBC.h**)
+The **ENCRYPT** and [DECRYPT](./../decrypt) functions that are part of jBASE BASIC now support the following  cipher methods (Defined in **JBC.h**)
 
 - JBASE\_CRYPT\_GENERAL General-purpose encryption scheme
 - JBASE\_CRYPT\_AES algorithm (AES256)
@@ -40,9 +40,9 @@ The **ENCRYPT** and [DECRYPT](decrypt) functions that are part of jBASE BASIC no
 
 BASE64  is not really an encryption method, but more of an encoding. The reason  for this is that the output of an encryption often results in a binary  string. It allows binary data to be represented as a character string.  BASE64 operation is not required but is performed in addition to the  primary algorithm. e.g. JBASE\_CRYPT\_RC2\_BASE64
 
-**ENCRYPT** with this method is the same as a [DECRYPT](decrypt) with method JBASE\_CRYPT\_RC2  followed by [DECRYPT](decrypt) with method JBASE\_CRYPT\_BASE64.
+**ENCRYPT** with this method is the same as a [DECRYPT](./../decrypt) with method JBASE\_CRYPT\_RC2  followed by [DECRYPT](./../decrypt) with method JBASE\_CRYPT\_BASE64.
 
-[DECRYPT](decrypt)  with this method is the same as a [DECRYPT](decrypt) with method  JBASE\_CRYPT\_BASE64 followed by [DECRYPT](decrypt) with method JBASE\_CRYPT\_RC2.
+[DECRYPT](./../decrypt)  with this method is the same as a [DECRYPT](./../decrypt) with method  JBASE\_CRYPT\_BASE64 followed by [DECRYPT](./../decrypt) with method JBASE\_CRYPT\_RC2.
 
 - JBASE\_CRYPT\_RC2\_BASE64 RC2 algorithm
 - JBASE\_CRYPT\_DES\_BASE64 DES algorithm
@@ -75,6 +75,6 @@ Decrypted: This is the string to be encrypted
 
 
 
-See also: [DECRYPT](decrypt).
+See also: [DECRYPT](./../decrypt).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

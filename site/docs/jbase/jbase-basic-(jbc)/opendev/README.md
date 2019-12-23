@@ -35,8 +35,8 @@ OPENDEV "\\.\TAPE0" TO tape.drive ELSE STOP
 
 Opens the Windows default tape drive and prepares it for sequential processing.
 
-For more information on sequential processing, see the [READSEQ](278773-readseq), [WRITESEQ](279570-writeseq).
+For more information on sequential processing, see the [READSEQ](./../readseq), [WRITESEQ](./../writeseq).
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

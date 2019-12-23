@@ -54,4 +54,4 @@ Typically, you would create the command necessary to start the external job stre
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
-- [Class](/39238-inflow/com_jbase_jdbc_io_inflow_ClientHandle "class in com.jbase.jdbc.io.inflow")
+- [Package](./../../com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
+- [Class](./../../clienthandle-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.inflow")
 - Use
-- [Tree](/39238-inflow/com_jbase_jdbc_io_inflow_package-tree)
+- [Tree](./../../com.jbase.jdbc.io.inflow-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jdbc/io/inflow/class-use//39239-class-use/com_jbase_jdbc_io_inflow_class-use_ClientHandle)
-- [No Frames](/39239-class-use/com_jbase_jdbc_io_inflow_class-use_ClientHandle)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ jbasejdbc <br>
 ## Uses of Class
 com.jbase.jdbc.io.inflow.ClientHandle
 
-- Packages that use [ClientHandle](/39238-inflow/com_jbase_jdbc_io_inflow_ClientHandle "class in com.jbase.jdbc.io.inflow") | Package | Description |
+- Packages that use [ClientHandle](./../../clienthandle-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.inflow") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.io.inflow |   |
-- - ### Uses of [ClientHandle](/39238-inflow/com_jbase_jdbc_io_inflow_ClientHandle "class in com.jbase.jdbc.io.inflow") in [com.jbase.jdbc.io.inflow](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
+- - ### Uses of [ClientHandle](./../../clienthandle-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.inflow") in [com.jbase.jdbc.io.inflow](./../../com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
 
 
-Methods in [com.jbase.jdbc.io.inflow](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary) with parameters of type [ClientHandle](/39238-inflow/com_jbase_jdbc_io_inflow_ClientHandle "class in com.jbase.jdbc.io.inflow") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.io.inflow](./../../com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29) with parameters of type [ClientHandle](./../../clienthandle-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.inflow") | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | RequestHandler.`handleClose(ClientHandle handle)`<br>Called when a client close event occurs.<br> |
 | `byte[]` | RequestHandler.`handleRequest(ClientHandle handle,<br>             byte[] request)`<br>Called when a client has sent a request.<br> |
@@ -52,10 +52,10 @@ Methods in [com.jbase.jdbc.io.inflow](/39238-inflow/com_jbase_jdbc_io_inflow_pac
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
-- [Class](/39238-inflow/com_jbase_jdbc_io_inflow_ClientHandle "class in com.jbase.jdbc.io.inflow")
+- [Package](./../../com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
+- [Class](./../../clienthandle-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.inflow")
 - Use
-- [Tree](/39238-inflow/com_jbase_jdbc_io_inflow_package-tree)
+- [Tree](./../../com.jbase.jdbc.io.inflow-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -66,8 +66,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jdbc/io/inflow/class-use//39239-class-use/com_jbase_jdbc_io_inflow_class-use_ClientHandle)
-- [No Frames](/39239-class-use/com_jbase_jdbc_io_inflow_class-use_ClientHandle)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

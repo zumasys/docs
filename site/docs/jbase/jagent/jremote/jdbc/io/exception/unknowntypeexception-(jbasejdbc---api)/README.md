@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39236-exception/com_jbase_jdbc_io_exception_package-summary)
+- [Package](./../com.jbase.jdbc.io.exception-%28jbasejdbc---api%29)
 - Class
-- [Use](/39237-class-use/com_jbase_jdbc_io_exception_class-use_UnknownTypeException)
-- [Tree](/39236-exception/com_jbase_jdbc_io_exception_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.io.exception.unknowntypeexception-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io.exception-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39236-exception/com_jbase_jdbc_io_exception_UnexpectedCharacterException "class in com.jbase.jdbc.io.exception")
+- [Prev Class](./../unexpectedcharacterexception-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.exception")
 - Next Class
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/exception//39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException)
-- [No Frames](/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -111,22 +111,22 @@ public UnknownTypeException(int i)
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39236-exception/com_jbase_jdbc_io_exception_package-summary)
+- [Package](./../com.jbase.jdbc.io.exception-%28jbasejdbc---api%29)
 - Class
-- [Use](/39237-class-use/com_jbase_jdbc_io_exception_class-use_UnknownTypeException)
-- [Tree](/39236-exception/com_jbase_jdbc_io_exception_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.io.exception.unknowntypeexception-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io.exception-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39236-exception/com_jbase_jdbc_io_exception_UnexpectedCharacterException "class in com.jbase.jdbc.io.exception")
+- [Prev Class](./../unexpectedcharacterexception-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.exception")
 - Next Class
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/exception//39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException)
-- [No Frames](/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

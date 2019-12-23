@@ -37,4 +37,4 @@ The most likely problem is that you have a needed DLL missing from your PATH. Be
 
 
 
-Back to [Windows Telnet](311280-windows-telnet-telnetd-exe)
+Back to [Windows Telnet](./../windows-telnet-%28telnetd.exe%29)

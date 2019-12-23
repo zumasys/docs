@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39224-exception/com_jbase_framework_io_exception_package-summary)
+- [Package](./../com.jbase.framework.io.exception-%28framework---api%29)
 - Class
-- [Use](/39225-class-use/com_jbase_framework_io_exception_class-use_UnknownTypeException)
-- [Tree](/39224-exception/com_jbase_framework_io_exception_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.exception.unknowntypeexception-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.exception-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Class](/39224-exception/com_jbase_framework_io_exception_UnexpectedCharacterException "class in com.jbase.framework.io.exception")
+- [Prev Class](./../unexpectedcharacterexception-%28framework---api%29 "class in com.jbase.framework.io.exception")
 - Next Class
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/exception//39224-exception/com_jbase_framework_io_exception_UnknownTypeException)
-- [No Frames](/39224-exception/com_jbase_framework_io_exception_UnknownTypeException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -111,22 +111,22 @@ public UnknownTypeException(int i)
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39224-exception/com_jbase_framework_io_exception_package-summary)
+- [Package](./../com.jbase.framework.io.exception-%28framework---api%29)
 - Class
-- [Use](/39225-class-use/com_jbase_framework_io_exception_class-use_UnknownTypeException)
-- [Tree](/39224-exception/com_jbase_framework_io_exception_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.exception.unknowntypeexception-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.exception-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Class](/39224-exception/com_jbase_framework_io_exception_UnexpectedCharacterException "class in com.jbase.framework.io.exception")
+- [Prev Class](./../unexpectedcharacterexception-%28framework---api%29 "class in com.jbase.framework.io.exception")
 - Next Class
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/exception//39224-exception/com_jbase_framework_io_exception_UnknownTypeException)
-- [No Frames](/39224-exception/com_jbase_framework_io_exception_UnknownTypeException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

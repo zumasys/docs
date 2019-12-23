@@ -236,7 +236,7 @@ ELSE ABORT 202,'my_record'<br>```<br><br>the setting defines what will be return
 
 
 
-On many platforms, @(-n) codes are used to control special terminal characteristics. However the definition of these codes differs between platforms. Rather than "hard coding" the @(-n) codes, jBASE allows their definition in the **Config\_EMULATE** file. This allows legacy applications to use existing @(-n) codes and so reduces the time required to port an application to jBASE. A knowledge of [terminfo capabilities](326793-terminfo) can be useful when defining these codes.
+On many platforms, @(-n) codes are used to control special terminal characteristics. However the definition of these codes differs between platforms. Rather than "hard coding" the @(-n) codes, jBASE allows their definition in the **Config\_EMULATE** file. This allows legacy applications to use existing @(-n) codes and so reduces the time required to port an application to jBASE. A knowledge of [terminfo capabilities](./../environment-variables/terminfo) can be useful when defining these codes.
 
 
 

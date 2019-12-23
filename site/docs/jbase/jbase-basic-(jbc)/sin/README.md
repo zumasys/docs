@@ -17,7 +17,7 @@ Where:
 
 expression should evaluate to a numeric value and is interpreted as a number of degrees between 0 and 360.
 
-The function will calculate the sine of the angle specified by the expression as accurately as the host system will allow. It will then truncate the value according to the [PRECISION](277629-precision) of the program. Examples of use would be:
+The function will calculate the sine of the angle specified by the expression as accurately as the host system will allow. It will then truncate the value according to the [PRECISION](./../precision) of the program. Examples of use would be:
 
 ```
 CRT @ (-1):
@@ -37,6 +37,6 @@ to display the sine of 39 to two decimal places.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

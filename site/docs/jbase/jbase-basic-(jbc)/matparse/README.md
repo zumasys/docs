@@ -38,4 +38,4 @@ Assign 5 elements of the array starting at element 3.
 
 
 
-Back to [jBASE BASIC](263498-jbase-basic).
+Back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

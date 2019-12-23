@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Interface JBaseObjectReader
 
-All Known Implementing Classes:[AbstractJBaseObjectReader](com_jbase_jremote_io_abstractjbaseobjectwriter "class in com.jbase.jremote.io"), [IOJBaseObjectReader](com_jbase_jremote_io_iojbaseobjectreader "class in com.jbase.jremote.io"), [NIOJBaseObjectReader](com_jbase_jremote_io_niojbaseobjectreader "class in com.jbase.jremote.io")
+All Known Implementing Classes:[AbstractJBaseObjectReader](./../abstractjbaseobjectwriter-%28jremote-api%29 "class in com.jbase.jremote.io"), [IOJBaseObjectReader](./../iojbaseobjectreader-%28jremote-api%29 "class in com.jbase.jremote.io"), [NIOJBaseObjectReader](./../niojbaseobjectreader-%28jremote-api%29 "class in com.jbase.jremote.io")
 * * *
 
 

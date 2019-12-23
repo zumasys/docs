@@ -50,6 +50,6 @@ to the screen.
 
 
 
-See also: [RIGHT](278792-right)
+See also: [RIGHT](./../right)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

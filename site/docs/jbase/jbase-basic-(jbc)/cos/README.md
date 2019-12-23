@@ -7,7 +7,7 @@
 
 # Description
 
-The function calculates the cosine of any angle using floating point arithmetic, then rounds to the [PRECISION](277629-precision) implied by the jBASE BASIC program, which makes it very accurate. The function takes the general form:
+The function calculates the cosine of any angle using floating point arithmetic, then rounds to the [PRECISION](./../precision) implied by the jBASE BASIC program, which makes it very accurate. The function takes the general form:
 
 ```
  COS(expression)
@@ -31,4 +31,4 @@ An example of use is as:
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

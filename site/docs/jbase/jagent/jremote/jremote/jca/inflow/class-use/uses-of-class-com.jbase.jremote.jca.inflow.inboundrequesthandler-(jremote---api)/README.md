@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
-- [Class](/39262-inflow/com_jbase_jremote_jca_inflow_InboundRequestHandler "class in com.jbase.jremote.jca.inflow")
+- [Package](./../../com.jbase.jremote.jca.inflow-%28jremote---api%29)
+- [Class](./../../inboundrequesthandler-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow")
 - Use
-- [Tree](/39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/inflow/class-use//39263-class-use/com_jbase_jremote_jca_inflow_class-use_InboundRequestHandler)
-- [No Frames](/39263-class-use/com_jbase_jremote_jca_inflow_class-use_InboundRequestHandler)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.jremote.jca.inflow.InboundRequestHandler
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
-- [Class](/39262-inflow/com_jbase_jremote_jca_inflow_InboundRequestHandler "class in com.jbase.jremote.jca.inflow")
+- [Package](./../../com.jbase.jremote.jca.inflow-%28jremote---api%29)
+- [Class](./../../inboundrequesthandler-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow")
 - Use
-- [Tree](/39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/inflow/class-use//39263-class-use/com_jbase_jremote_jca_inflow_class-use_InboundRequestHandler)
-- [No Frames](/39263-class-use/com_jbase_jremote_jca_inflow_class-use_InboundRequestHandler)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

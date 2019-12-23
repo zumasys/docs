@@ -60,4 +60,4 @@ Lines 2 to 4 are comment lines. Line 10 has a comment after an input command (th
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

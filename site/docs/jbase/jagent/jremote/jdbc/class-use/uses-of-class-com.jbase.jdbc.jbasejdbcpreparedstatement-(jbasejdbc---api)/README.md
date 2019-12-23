@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
-- [Class](/39228-jdbc/com_jbase_jdbc_jbasejdbcpreparedstatement "class in com.jbase.jdbc")
+- [Package](./../../jbase-jdbc-api)
+- [Class](./../../jbasejdbcpreparedstatement-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
 - Use
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Tree](./../../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/class-use//39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCPreparedStatement)
-- [No Frames](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCPreparedStatement)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -36,23 +36,23 @@ jbasejdbc <br>
 ## Uses of Class
 com.jbase.jdbc.JBaseJDBCPreparedStatement
 
-- Packages that use [JBaseJDBCPreparedStatement](/39228-jdbc/com_jbase_jdbc_jbasejdbcpreparedstatement "class in com.jbase.jdbc") | Package | Description |
+- Packages that use [JBaseJDBCPreparedStatement](./../../jbasejdbcpreparedstatement-%28jbasejdbc-api%29 "class in com.jbase.jdbc") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc |   |
-- - ### Uses of [JBaseJDBCPreparedStatement](/39228-jdbc/com_jbase_jdbc_jbasejdbcpreparedstatement "class in com.jbase.jdbc") in [com.jbase.jdbc](/39228-jdbc/com_jbase_jdbc_package-summary)
+- - ### Uses of [JBaseJDBCPreparedStatement](./../../jbasejdbcpreparedstatement-%28jbasejdbc-api%29 "class in com.jbase.jdbc") in [com.jbase.jdbc](./../../jbase-jdbc-api)
 
 
-Subclasses of [JBaseJDBCPreparedStatement](/39228-jdbc/com_jbase_jdbc_jbasejdbcpreparedstatement "class in com.jbase.jdbc") in [com.jbase.jdbc](/39228-jdbc/com_jbase_jdbc_package-summary) | Modifier and Type | Class and Description |
+Subclasses of [JBaseJDBCPreparedStatement](./../../jbasejdbcpreparedstatement-%28jbasejdbc-api%29 "class in com.jbase.jdbc") in [com.jbase.jdbc](./../../jbase-jdbc-api) | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `JbaseJDBCCallableStatement`  |
 
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
-- [Class](/39228-jdbc/com_jbase_jdbc_jbasejdbcpreparedstatement "class in com.jbase.jdbc")
+- [Package](./../../jbase-jdbc-api)
+- [Class](./../../jbasejdbcpreparedstatement-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
 - Use
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Tree](./../../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -63,8 +63,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/class-use//39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCPreparedStatement)
-- [No Frames](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCPreparedStatement)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

@@ -25,8 +25,8 @@ The above code will clear the variables to zero
 
 
 
-Note this does not affect COM{MON}. See [CLEARCOMMON](/36868-jbase-basic/266850-clearcommon "jBC CLEARCOMMON")
+Note this does not affect COM{MON}. See [CLEARCOMMON](./../clearcommon "jBC CLEARCOMMON")
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

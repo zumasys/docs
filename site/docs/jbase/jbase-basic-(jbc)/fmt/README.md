@@ -20,7 +20,7 @@ Where **var** is the element to which the **mask code** is to be applied, and th
 
 | Mask code<br> |                                     Description<br> |
 | --- | --- |
-|   j<br> |   Justification<br>  R Right Justified<br>  L Left Justified<br>  U Left Justified, Break on space. Note: This justification will format the output into blocks of data in the variable and it is up to the programmer to actually separate the blocks.<br>D Date ([OCONV](277483-oconv))<br><br> |
+|   j<br> |   Justification<br>  R Right Justified<br>  L Left Justified<br>  U Left Justified, Break on space. Note: This justification will format the output into blocks of data in the variable and it is up to the programmer to actually separate the blocks.<br>D Date ([OCONV](./../oconv))<br><br> |
 |   N<br> | Decimal Precision: A number from 0 to 9 that defines the decimal precision. It specifies the number of digits for output following the decimal point. The processor inserts trailing zeros if necessary. If n is omitted or is 0, a decimal point will not be output.<br><br> |
 | m<br> | Scaling Factor: A number that defines the scaling factor. The source value is descaled (divided) by that power of 10. For example, if m=1, the value is divided by 10; if m=2, the value is divided by 100, and so on. If m is omitted, it is assumed equal to n (the decimal precision).<br><br> |
 |   z<br> | Suppress leading zeros. Note that fractional values, which have no integer, will have a zero before the decimal point. If the value is zero, a null will be output.<br> <br> |
@@ -57,4 +57,4 @@ to output the following to the screen:
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

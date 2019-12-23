@@ -105,4 +105,4 @@ CLOSESEQ outstream
 
 
 
-See also [serial IO extensions](serial-i-o-extensions)
+See also [serial IO extensions](./../serial-i&o-extensions)

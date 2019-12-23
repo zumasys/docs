@@ -26,4 +26,4 @@ For each process, the function maintains a unique table of 128 bits (numbered 1 
 
 
 
-Go back to [jBASE BASIC.](263498-jbase-basic)
+Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)

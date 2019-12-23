@@ -27,7 +27,7 @@ Represents a jBASE index variable
 
 | Modifier<br> | Constructor and Description<br> |
 | --- | --- |
-| protected<br> | JIndex(int handle, [JConnection](com_jbase_jrcs_jconnection "class in com.jbase.jrcs") conn)<br> |
+| protected<br> | JIndex(int handle, [JConnection](./../jconnection-%28jrclient-api%29 "class in com.jbase.jrcs") conn)<br> |
 
 
 ### 
@@ -40,7 +40,7 @@ Represents a jBASE index variable
 | --- | --- | --- |
 | void<br> | close() | <br>Closes the index and releases the server-side handle<br> |
 | protected void<br> | finalize()<br> | <br> |
-| [JSelectList](com_jbase_jrcs_jselectlist "class in com.jbase.jrcs")<br> | select() | <br>Generates a select list from this index variable<br> |
+| [JSelectList](./../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | select() | <br>Generates a select list from this index variable<br> |
 
 
 
@@ -77,7 +77,7 @@ protected JIndex(int handle, JConnection conn)
 public JSelectList select()
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Generates a select list from this index variable.
 
@@ -95,7 +95,7 @@ Throws:` JException`
 public void close() 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Closes the index and releases the server-side handle.
 

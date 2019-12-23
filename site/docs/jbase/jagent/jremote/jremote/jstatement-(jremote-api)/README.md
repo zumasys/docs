@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Interface JStatement
 
-All Known Implementing Classes:[JStatementImpl](/39250-io/com_jbase_jremote_io_jstatementimpl "class in com.jbase.jremote.io")
+All Known Implementing Classes:[JStatementImpl](./../io/jstatementimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
 * * *
 
 

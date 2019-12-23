@@ -7,9 +7,9 @@
 
 ## Description 
 
-The location of the jBASE SYSTEM file is determined by the [JEDIFILENAME\_SYSTEM](jedifilename_system) environment variable. The environment variable is usually setup when the user logs on. By default, jBASE uses a hash file named SYSTEM, in a subdirectory named src, in the jBASE release directory as defined by the environment variable [JBCRELEASEDIR](jbcreleasedir).
+The location of the jBASE SYSTEM file is determined by the [JEDIFILENAME\_SYSTEM](./../jedifilename_system) environment variable. The environment variable is usually setup when the user logs on. By default, jBASE uses a hash file named SYSTEM, in a subdirectory named src, in the jBASE release directory as defined by the environment variable [JBCRELEASEDIR](./../jbcreleasedir).
 
-Use of the SYSTEM file also depends upon the setting of the environment or registry variable JEDIFILENAME\_MD, which describes the users MD/VOC file. This environment variable should be set to the users required MD file. e.g. To use an MD file in the users home directory set the environment variable, [JEDIFILENAME\_MD](jedifilename_md) to $HOME/MD or %HOME%\MD.
+Use of the SYSTEM file also depends upon the setting of the environment or registry variable JEDIFILENAME\_MD, which describes the users MD/VOC file. This environment variable should be set to the users required MD file. e.g. To use an MD file in the users home directory set the environment variable, [JEDIFILENAME\_MD](./../jedifilename_md) to $HOME/MD or %HOME%\MD.
 
 In its minimum form, a record in the SYSTEM file must contain two fields. Field 1<br>contains the character "D" to specify a local account, and field 2 contains the<br>absolute path of the account directory. For example:
 
@@ -30,7 +30,7 @@ ID:  AccountName001 Type002 Absolute Account Path003 Reserved004 Reserved005 Res
 
 ### ENCRYPTED PASSWORD (Field 7)
 
-This optional field should only be maintained through the jBASE PASSWORD command. The PASSWORD command prompts for an Account Name which must be a valid entry in the SYSTEM file (i.e. the file defined by the [JEDIFILENAME\_SYSTEM](jedifilename_system) environment variable). The password must be entered twice for verification that it was entered correctly. Be aware that entry of this password is case sensitive (e.g. "MyPassword" is different than "mypassword").
+This optional field should only be maintained through the jBASE PASSWORD command. The PASSWORD command prompts for an Account Name which must be a valid entry in the SYSTEM file (i.e. the file defined by the [JEDIFILENAME\_SYSTEM](./../jedifilename_system) environment variable). The password must be entered twice for verification that it was entered correctly. Be aware that entry of this password is case sensitive (e.g. "MyPassword" is different than "mypassword").
 
 
 
@@ -73,4 +73,4 @@ An example of use is as:
 
 
 
-Back to [Environment Variables](environment-variables)
+Back to [Environment Variables](./../../migration-station/articles/environment-variables)

@@ -23,7 +23,7 @@ where **channel** is the specific channel attachment (0-9).
 > Two consecutive EOFs without a tape label or any data blocks in between signify an empty tape file. Most device drivers and utilities determine this occurrence as end of media, (EOM), and will stop any further processing.
 
 
-Most utilities which write to tape devices, e.g. [T-DUMP](t-dump), will automatically write an EOF after the data blocks of the tape file. Therefore executing a [T-WEOF](t-weof) command after a [T-DUMP](t-dump) will produce two consecutive EOFs, which can then be used to indicate end of recorded media to a reading utility program.
+Most utilities which write to tape devices, e.g. [T-DUMP](./../t-dump), will automatically write an EOF after the data blocks of the tape file. Therefore executing a [T-WEOF](./.) command after a [T-DUMP](./../t-dump) will produce two consecutive EOFs, which can then be used to indicate end of recorded media to a reading utility program.
 
 
 

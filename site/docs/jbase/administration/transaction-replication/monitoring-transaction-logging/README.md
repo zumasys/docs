@@ -11,7 +11,7 @@ Transaction logging is done by each process.  There are tools to monitor the ov
 
 ### Monitoring the Transaction Log
 
-The program [jlogstatus](305935-jlogstatus) is your primary monitoring tool.  It gives you a very nice overview of how your system is configured, what transaction log set you are on, error/log counts, etc
+The program [jlogstatus](./../jlogstatus) is your primary monitoring tool.  It gives you a very nice overview of how your system is configured, what transaction log set you are on, error/log counts, etc
 
 ```
 jbase01 BASH-4.2$jlogstatus
@@ -142,4 +142,4 @@ NOTE: The message is designated INFORMATION, WARNING or FATAL ERROR. This design
 
 
 
-Back to [Transactional Journaling](introduction-to-transactional-journaling)
+Back to [Transactional Journaling](./../introduction-to-transaction-journaling)

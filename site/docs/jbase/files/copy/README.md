@@ -81,7 +81,7 @@ where:
 ## Note: 
 
 
-> On Windows, confusion can occur when running in the *sh* or *msh* [emulation mode](328248-jshell) of the jSHELL. Rather than the expected record copy, COPY will invoke the Windows file copy command when used in either of these modes. The JCOPY command can be used to ensure that the record copy is invoked regardless of jSHELL emulation mode.
+> On Windows, confusion can occur when running in the *sh* or *msh* [emulation mode](./../../jbase/jshell) of the jSHELL. Rather than the expected record copy, COPY will invoke the Windows file copy command when used in either of these modes. The JCOPY command can be used to ensure that the record copy is invoked regardless of jSHELL emulation mode.
 
 
 The Alternate Syntax is useful when a single command line is required to do the copy.

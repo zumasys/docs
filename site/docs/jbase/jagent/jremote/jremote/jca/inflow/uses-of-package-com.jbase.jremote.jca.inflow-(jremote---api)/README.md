@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+- [Package](./../com.jbase.jremote.jca.inflow-%28jremote---api%29)
 - Class
 - Use
-- [Tree](/39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
+- [Tree](./../com.jbase.jremote.jca.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/inflow//39262-inflow/com_jbase_jremote_jca_inflow_package-use)
-- [No Frames](/39262-inflow/com_jbase_jremote_jca_inflow_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,14 +36,14 @@ jremote <br>
 # Uses of Package
 com.jbase.jremote.jca.inflow
 
-- Packages that use [com.jbase.jremote.jca.inflow](../../../../../com/jbase/jremote/jca/inflow//39262-inflow/com_jbase_jremote_jca_inflow_package-summary) | Package | Description |
+- Packages that use [com.jbase.jremote.jca.inflow](./../com.jbase.jremote.jca.inflow-%28jremote---api%29) | Package | Description |
 | --- | --- |
 | com.jbase.jremote.jca |   |
 | com.jbase.jremote.jca.inflow |   |
-- Classes in [com.jbase.jremote.jca.inflow](../../../../../com/jbase/jremote/jca/inflow//39262-inflow/com_jbase_jremote_jca_inflow_package-summary) used by [com.jbase.jremote.jca](../../../../../com/jbase/jremote/jca//39262-inflow/com_jbase_jremote_jca_inflow_package-summary) | Class and Description |
+- Classes in [com.jbase.jremote.jca.inflow](./../com.jbase.jremote.jca.inflow-%28jremote---api%29) used by [com.jbase.jremote.jca](./../com.jbase.jremote.jca.inflow-%28jremote---api%29) | Class and Description |
 | --- |
 | [EndpointAdapter](../../../../../com/jbase/jremote/jca/inflow/class-use/EndpointAdapter.html#com.jbase.jremote.jca)  |
-- Classes in [com.jbase.jremote.jca.inflow](../../../../../com/jbase/jremote/jca/inflow//39262-inflow/com_jbase_jremote_jca_inflow_package-summary) used by [com.jbase.jremote.jca.inflow](../../../../../com/jbase/jremote/jca/inflow//39262-inflow/com_jbase_jremote_jca_inflow_package-summary) | Class and Description |
+- Classes in [com.jbase.jremote.jca.inflow](./../com.jbase.jremote.jca.inflow-%28jremote---api%29) used by [com.jbase.jremote.jca.inflow](./../com.jbase.jremote.jca.inflow-%28jremote---api%29) | Class and Description |
 | --- |
 | [EndpointAdapter](../../../../../com/jbase/jremote/jca/inflow/class-use/EndpointAdapter.html#com.jbase.jremote.jca.inflow)  |
 | [EndpointAdapterMBean](../../../../../com/jbase/jremote/jca/inflow/class-use/EndpointAdapterMBean.html#com.jbase.jremote.jca.inflow)<br>Expose statistics about a specific message endpoint.<br> |
@@ -51,10 +51,10 @@ com.jbase.jremote.jca.inflow
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+- [Package](./../com.jbase.jremote.jca.inflow-%28jremote---api%29)
 - Class
 - Use
-- [Tree](/39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
+- [Tree](./../com.jbase.jremote.jca.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -65,8 +65,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/inflow//39262-inflow/com_jbase_jremote_jca_inflow_package-use)
-- [No Frames](/39262-inflow/com_jbase_jremote_jca_inflow_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

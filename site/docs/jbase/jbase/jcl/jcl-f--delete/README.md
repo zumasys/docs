@@ -50,4 +50,4 @@ where file-buffer is the number (1 to 9) of the file buffer, which is associated
 
 If the file cannot be opened by the F-O command, the line immediately following the command will be executed (see the F-O command). If the file is opened, "Key" is moved into field 0 of file buffer 1. F-D 1 then attempts to delete record "Key" from the file.
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

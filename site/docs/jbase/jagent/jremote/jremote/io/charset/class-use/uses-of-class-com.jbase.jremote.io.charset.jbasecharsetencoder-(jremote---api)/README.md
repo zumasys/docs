@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39251-charset/com_jbase_jremote_io_charset_package-summary)
-- [Class](/39251-charset/com_jbase_jremote_io_charset_JbaseCharsetEncoder "class in com.jbase.jremote.io.charset")
+- [Package](./../../com.jbase.jremote.io.charset-%28jremote---api%29)
+- [Class](./../../jbasecharsetencoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
 - Use
-- [Tree](/39251-charset/com_jbase_jremote_io_charset_package-tree)
+- [Tree](./../../com.jbase.jremote.io.charset-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/io/charset/class-use//39252-class-use/com_jbase_jremote_io_charset_class-use_JbaseCharsetEncoder)
-- [No Frames](/39252-class-use/com_jbase_jremote_io_charset_class-use_JbaseCharsetEncoder)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.jremote.io.charset.JbaseCharsetEncoder
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39251-charset/com_jbase_jremote_io_charset_package-summary)
-- [Class](/39251-charset/com_jbase_jremote_io_charset_JbaseCharsetEncoder "class in com.jbase.jremote.io.charset")
+- [Package](./../../com.jbase.jremote.io.charset-%28jremote---api%29)
+- [Class](./../../jbasecharsetencoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
 - Use
-- [Tree](/39251-charset/com_jbase_jremote_io_charset_package-tree)
+- [Tree](./../../com.jbase.jremote.io.charset-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/io/charset/class-use//39252-class-use/com_jbase_jremote_io_charset_class-use_JbaseCharsetEncoder)
-- [No Frames](/39252-class-use/com_jbase_jremote_io_charset_class-use_JbaseCharsetEncoder)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

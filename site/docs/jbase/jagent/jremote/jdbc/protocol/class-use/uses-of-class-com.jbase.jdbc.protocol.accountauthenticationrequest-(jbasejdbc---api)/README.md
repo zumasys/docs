@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
-- [Class](/39240-protocol/com_jbase_jdbc_protocol_accountauthenticationrequest "class in com.jbase.jdbc.protocol")
+- [Package](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
+- [Class](./../../accountauthenticationrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol")
 - Use
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Tree](./../../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/protocol/class-use//39241-class-use/com_jbase_jdbc_protocol_class-use_accountauthenticationrequest)
-- [No Frames](/39241-class-use/com_jbase_jdbc_protocol_class-use_accountauthenticationrequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.jdbc.protocol.AccountAuthenticationRequest
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
-- [Class](/39240-protocol/com_jbase_jdbc_protocol_accountauthenticationrequest "class in com.jbase.jdbc.protocol")
+- [Package](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
+- [Class](./../../accountauthenticationrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol")
 - Use
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Tree](./../../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/protocol/class-use//39241-class-use/com_jbase_jdbc_protocol_class-use_accountauthenticationrequest)
-- [No Frames](/39241-class-use/com_jbase_jdbc_protocol_class-use_accountauthenticationrequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

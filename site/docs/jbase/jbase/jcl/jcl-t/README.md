@@ -125,6 +125,6 @@ Terminal independent cursor control is available using the same table of negativ
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)
 
 

@@ -27,4 +27,4 @@ Example code can be found in the "Threads" folder under "samples" in the jBASE i
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

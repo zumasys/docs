@@ -5,6 +5,6 @@
 **Original Doc:** [279556-upcase](https://docs.jbase.com/36868-jbase-basic/279556-upcase)  
 
 
-See also: [DOWNCASE/UPCASE.](268490-downcase-upcase)
+See also: [DOWNCASE/UPCASE.](./../downcase-&-upcase)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

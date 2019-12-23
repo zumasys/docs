@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/30312-jagent/jremote-api)
-- [Class](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote")
+- [Package](./../../../../jremote-api)
+- [Class](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote")
 - Use
-- [Tree](/39248-jremote/com_jbase_jremote_package-tree)
+- [Tree](./../../com.jbase.jremote-class-hierarchy)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/class-use//39249-class-use/com_jbase_jremote_class-use_JDynArray)
-- [No Frames](/39249-class-use/com_jbase_jremote_class-use_JDynArray)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -36,7 +36,7 @@ jremote <br>
 ## Uses of Class
 com.jbase.jremote.JDynArray
 
-- Packages that use [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Package | Description |
+- Packages that use [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Package | Description |
 | --- | --- |
 | com.jbase.jremote |   |
 | com.jbase.jremote.io |   |
@@ -44,10 +44,10 @@ com.jbase.jremote.JDynArray
 | com.jbase.jremote.jca.cci |   |
 | com.jbase.jremote.jca.inflow |   |
 | com.jbase.jremote.protocol |   |
-- - ### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote](/30312-jagent/jremote-api)
+- - ### Uses of [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)
 
 
-Methods in [com.jbase.jremote](/30312-jagent/jremote-api) that return [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote](./../../../../jremote-api) that return [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JDynArray` | JExecuteResults.`getCapturingVar()`  |
 | `JDynArray` | JConnection.`getCommon(String name)`<br>Return the value of the named common with the supplied name.<br> |
@@ -62,7 +62,7 @@ Methods in [com.jbase.jremote](/30312-jagent/jremote-api) that return [JDynArray
 
 
 
-Methods in [com.jbase.jremote](/30312-jagent/jremote-api) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote](./../../../../jremote-api) with parameters of type [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JSelectList` | JConnection.`createSelectList(JDynArray jd)`<br>Create a select list object from an existing dynamic array<br> containing a list of keys separated by attribute markers.<br> |
 | `JResultSet` | JStatement.`execute(JDynArray queries)`<br>Execute query.<br> |
@@ -73,13 +73,13 @@ Methods in [com.jbase.jremote](/30312-jagent/jremote-api) with parameters of typ
 
 
 
-Constructors in [com.jbase.jremote](/30312-jagent/jremote-api) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Constructor and Description |
+Constructors in [com.jbase.jremote](./../../../../jremote-api) with parameters of type [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Constructor and Description |
 | --- |
 | `JExecuteResults(JSelectListProt selectListProt,<br>               JDynArray capturingVar,<br>               JDynArray settingVar)`  |
-    - ### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
+    - ### Uses of [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) that return [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) that return [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JDynArray` | JConnectionImpl.`getCommon(String name)`<br>Return the value of the named common with the supplied name.<br> |
 | `JDynArray` | JCursorImpl.`getRecord()`  |
@@ -91,7 +91,7 @@ Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary
 
 
 
-Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) with parameters of type [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JSelectList` | JConnectionImpl.`createSelectList(JDynArray jd)`  |
 | `JResultSet` | JStatementImpl.`execute(JDynArray queries)`  |
@@ -102,13 +102,13 @@ Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary
 
 
 
-Constructors in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Constructor and Description |
+Constructors in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) with parameters of type [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Constructor and Description |
 | --- |
 | `JSelectListImpl(AbstractJRemoteConnection connection,<br>               JDynArray keys)`<br>Constructs a select list from specified dynamic array.<br> |
-    - ### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary)
+    - ### Uses of [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) that return [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29) that return [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JDynArray` | WrappedJConnection.`getCommon(String name)`<br>Return the value of the common with supplied name.<br> |
 | `JDynArray` | WrappedJConnection.`newJDynArray()`  |
@@ -118,39 +118,39 @@ Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summ
 
 
 
-Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29) with parameters of type [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JSelectList` | WrappedJConnection.`createSelectList(JDynArray jd)`  |
 | `boolean` | WrappedJFile.`write(String recordKey,<br>     JDynArray record)`  |
 | `boolean` | WrappedJFile.`writeU(String recordKey,<br>      JDynArray record,<br>      boolean blockedWrite)`  |
-    - ### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote.jca.cci](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
+    - ### Uses of [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.jca.cci](./../../jca/cci/com.jbase.jremote.jca.cci-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.jca.cci](/39259-cci/com_jbase_jremote_jca_cci_package-summary) that return [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca.cci](./../../jca/cci/com.jbase.jremote.jca.cci-%28jremote---api%29) that return [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected JDynArray` | CCIJRemoteDynamicArrayRecord.`getJDynArray()`  |
-    - ### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+    - ### Uses of [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.jca.inflow](./../../jca/inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary) that return [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca.inflow](./../../jca/inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29) that return [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JDynArray` | JRemoteMessageListener.`onMessage(JDynArray dynArray)`  |
 
 
 
-Methods in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca.inflow](./../../jca/inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29) with parameters of type [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JDynArray` | JRemoteMessageListener.`onMessage(JDynArray dynArray)`  |
-    - ### Uses of [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary)
+    - ### Uses of [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.protocol](./../../protocol/com.jbase.jremote.protocol-%28jremote-api%29)
 
 
-Fields in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary) with type parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Field and Description |
+Fields in [com.jbase.jremote.protocol](./../../protocol/com.jbase.jremote.protocol-%28jremote-api%29) with type parameters of type [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Modifier and Type | Field and Description |
 | --- | --- |
 | `protected List<JDynArray>` | JSelectListProt.`records`  |
 
 
 
-Methods in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary) that return [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.protocol](./../../protocol/com.jbase.jremote.protocol-%28jremote-api%29) that return [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JDynArray` | JediResponse.`getData(CharsetEncoder encoder,<br>       CharsetDecoder decoder)`  |
 | `JDynArray` | InputOutputResponse.`getOutput()`  |
@@ -160,13 +160,13 @@ Methods in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protoc
 
 
 
-Methods in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.protocol](./../../protocol/com.jbase.jremote.protocol-%28jremote-api%29) with parameters of type [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | JSelectListProt.`setRecord(JDynArray record)`<br>Modifies the value of the current record<br> |
 
 
 
-Constructors in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary) with parameters of type [JDynArray](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote") | Constructor and Description |
+Constructors in [com.jbase.jremote.protocol](./../../protocol/com.jbase.jremote.protocol-%28jremote-api%29) with parameters of type [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote") | Constructor and Description |
 | --- |
 | `JSelectListProt(JDynArray keys)`<br>Constructs a select list from specified dynamic array.<br> |
 | `StatementExecuteQueryRequest(JDynArray queries,<br>                            JSelectListProt selectList)`  |
@@ -175,10 +175,10 @@ Constructors in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_p
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/30312-jagent/jremote-api)
-- [Class](/39248-jremote/com_jbase_jremote_jdynarray "class in com.jbase.jremote")
+- [Package](./../../../../jremote-api)
+- [Class](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote")
 - Use
-- [Tree](/39248-jremote/com_jbase_jremote_package-tree)
+- [Tree](./../../com.jbase.jremote-class-hierarchy)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -189,8 +189,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/class-use//39249-class-use/com_jbase_jremote_class-use_JDynArray)
-- [No Frames](/39249-class-use/com_jbase_jremote_class-use_JDynArray)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

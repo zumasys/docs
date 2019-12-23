@@ -10,7 +10,7 @@
 
 ## Description
 
-This environment variable provides a list of directories in which to search for jBASE data files. If a MD or VOC file is configured, i.e.  [**JEDIFILENAME\_MD**](jedifilename_md), and contains  Q-pointers or F-pointers these take precedence over the directories in [**JEDIFILEPATH**](jedifilepath)**.**
+This environment variable provides a list of directories in which to search for jBASE data files. If a MD or VOC file is configured, i.e.  [**JEDIFILENAME\_MD**](./../jedifilename_md), and contains  Q-pointers or F-pointers these take precedence over the directories in [**JEDIFILEPATH**](./.)**.**
 
 
 

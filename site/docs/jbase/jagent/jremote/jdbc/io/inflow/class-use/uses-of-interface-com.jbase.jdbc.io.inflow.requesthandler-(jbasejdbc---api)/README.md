@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
-- [Class](/39238-inflow/com_jbase_jdbc_io_inflow_RequestHandler "interface in com.jbase.jdbc.io.inflow")
+- [Package](./../../com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
+- [Class](./../../requesthandler-%28jbasejdbc---api%29 "interface in com.jbase.jdbc.io.inflow")
 - Use
-- [Tree](/39238-inflow/com_jbase_jdbc_io_inflow_package-tree)
+- [Tree](./../../com.jbase.jdbc.io.inflow-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jdbc/io/inflow/class-use//39239-class-use/com_jbase_jdbc_io_inflow_class-use_RequestHandler)
-- [No Frames](/39239-class-use/com_jbase_jdbc_io_inflow_class-use_RequestHandler)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -36,20 +36,20 @@ jbasejdbc <br>
 ## Uses of Interface
 com.jbase.jdbc.io.inflow.RequestHandler
 
-- Packages that use [RequestHandler](/39238-inflow/com_jbase_jdbc_io_inflow_RequestHandler "interface in com.jbase.jdbc.io.inflow") | Package | Description |
+- Packages that use [RequestHandler](./../../requesthandler-%28jbasejdbc---api%29 "interface in com.jbase.jdbc.io.inflow") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.io.inflow |   |
-- - ### Uses of [RequestHandler](/39238-inflow/com_jbase_jdbc_io_inflow_RequestHandler "interface in com.jbase.jdbc.io.inflow") in [com.jbase.jdbc.io.inflow](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
+- - ### Uses of [RequestHandler](./../../requesthandler-%28jbasejdbc---api%29 "interface in com.jbase.jdbc.io.inflow") in [com.jbase.jdbc.io.inflow](./../../com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
 
 
-Methods in [com.jbase.jdbc.io.inflow](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary) that return [RequestHandler](/39238-inflow/com_jbase_jdbc_io_inflow_RequestHandler "interface in com.jbase.jdbc.io.inflow") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.io.inflow](./../../com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29) that return [RequestHandler](./../../requesthandler-%28jbasejdbc---api%29 "interface in com.jbase.jdbc.io.inflow") | Modifier and Type | Method and Description |
 | --- | --- |
 | `RequestHandler` | RequestProcessingAbstractFactory.`createRequestHandler(RequestListenerService rls)`<br>In ThreadPerConnection mode this method will be called by<br> RequestListenerService when new connection is opened.<br> |
 | `protected RequestHandler` | RequestListenerService.`getRequestHandler()`  |
 
 
 
-Constructors in [com.jbase.jdbc.io.inflow](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary) with parameters of type [RequestHandler](/39238-inflow/com_jbase_jdbc_io_inflow_RequestHandler "interface in com.jbase.jdbc.io.inflow") | Constructor and Description |
+Constructors in [com.jbase.jdbc.io.inflow](./../../com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29) with parameters of type [RequestHandler](./../../requesthandler-%28jbasejdbc---api%29 "interface in com.jbase.jdbc.io.inflow") | Constructor and Description |
 | --- |
 | `RequestListenerThread(RequestListenerService rls,<br>                     RequestHandler h,<br>                     Socket s)`  |
 | `RequestListenerThread(RequestListenerService rls,<br>                     RequestHandler h,<br>                     Socket s,<br>                     int socketTimeout)`<br>Construct a request listener that will block for the supplied<br> number of milliseconds.<br> |
@@ -57,10 +57,10 @@ Constructors in [com.jbase.jdbc.io.inflow](/39238-inflow/com_jbase_jdbc_io_inflo
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
-- [Class](/39238-inflow/com_jbase_jdbc_io_inflow_RequestHandler "interface in com.jbase.jdbc.io.inflow")
+- [Package](./../../com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
+- [Class](./../../requesthandler-%28jbasejdbc---api%29 "interface in com.jbase.jdbc.io.inflow")
 - Use
-- [Tree](/39238-inflow/com_jbase_jdbc_io_inflow_package-tree)
+- [Tree](./../../com.jbase.jdbc.io.inflow-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -71,8 +71,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jdbc/io/inflow/class-use//39239-class-use/com_jbase_jdbc_io_inflow_class-use_RequestHandler)
-- [No Frames](/39239-class-use/com_jbase_jdbc_io_inflow_class-use_RequestHandler)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

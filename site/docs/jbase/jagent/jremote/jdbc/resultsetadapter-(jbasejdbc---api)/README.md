@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
+- [Package](./../jbase-jdbc-api)
 - Class
-- [Use](/39229-class-use/com_jbase_jdbc_class-use_ResultSetAdapter)
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.resultsetadapter-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../deprecated-list.html)
 - [Help](../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39228-jdbc/com_jbase_jdbc_jbasejdbcsocketstatement "class in com.jbase.jdbc")
-- [Next Class](/39228-jdbc/com_jbase_jdbc_ResultSetMetaDataAdapter "class in com.jbase.jdbc")
+- [Prev Class](./../jbasejdbcsocketstatement-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
+- [Next Class](./../resultsetmetadataadapter-%28jbasejdbc---api%29 "class in com.jbase.jdbc")
 
 
-- [Frames](../../../index.html?com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_ResultSetAdapter)
-- [No Frames](/39228-jdbc/com_jbase_jdbc_ResultSetAdapter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../allclasses-noframe.html)
@@ -1615,22 +1615,22 @@ Specified by:`updateArray` in interface `ResultSet`Throws:`SQLException`
 Skip navigation links
 
 - [Overview](../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
+- [Package](./../jbase-jdbc-api)
 - Class
-- [Use](/39229-class-use/com_jbase_jdbc_class-use_ResultSetAdapter)
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.resultsetadapter-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../deprecated-list.html)
 - [Help](../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39228-jdbc/com_jbase_jdbc_jbasejdbcsocketstatement "class in com.jbase.jdbc")
-- [Next Class](/39228-jdbc/com_jbase_jdbc_ResultSetMetaDataAdapter "class in com.jbase.jdbc")
+- [Prev Class](./../jbasejdbcsocketstatement-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
+- [Next Class](./../resultsetmetadataadapter-%28jbasejdbc---api%29 "class in com.jbase.jdbc")
 
 
-- [Frames](../../../index.html?com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_ResultSetAdapter)
-- [No Frames](/39228-jdbc/com_jbase_jdbc_ResultSetAdapter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../allclasses-noframe.html)

@@ -40,6 +40,6 @@ Today's Brush
 
 
 
-See also: [LEFT](276812-left)
+See also: [LEFT](./../left)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

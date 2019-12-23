@@ -82,4 +82,4 @@ This example simply serves to demonstrate how the GO  B command will remember t
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

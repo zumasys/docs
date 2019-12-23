@@ -7,7 +7,7 @@
 
 # Interfaces
 
-- [EventNotifier](com_jbase_jremote_jca_eventnotifier "interface in com.jbase.jremote.jca")
+- [EventNotifier](./../../jremote/jca/eventnotifier-%28jremote-api%29 "interface in com.jbase.jremote.jca")
 
 
 
@@ -15,14 +15,14 @@
 # Classes
 
 - [DefaultConnectionManager](com_jbase_jremote_jca_DefaultConnectionManager "class in com.jbase.jremote.jca")
-- [JRemoteConnectionFactoryImpl](com_jbase_jremote_jca_jremoteconnectionfactoryimpl "class in com.jbase.jremote.jca")
-- [JRemoteConnectionRequestInfo](com_jbase_jremote_jca_jremoteconnectionrequestinfo "class in com.jbase.jremote.jca")
-- [JRemoteManagedConnection](com_jbase_jremote_jca_jremotemanagedconnection "class in com.jbase.jremote.jca")
+- [JRemoteConnectionFactoryImpl](./../../jremote/jca/jremoteconnectionfactoryimpl-%28jremote-api%29 "class in com.jbase.jremote.jca")
+- [JRemoteConnectionRequestInfo](./../../jremote/jca/jremoteconnectionrequestinfo-%28jremote-api%29 "class in com.jbase.jremote.jca")
+- [JRemoteManagedConnection](./../../jremote/jca/jremotemanagedconnection-%28jremote-api%29 "class in com.jbase.jremote.jca")
 - [JRemoteManagedConnectionFactory](com_jbase_jremote_jca_jremotemanagedconnectionfactory "class in com.jbase.jremote.jca")
 - [JRemoteManagedConnectionMetaData](com_jbase_jremote_jca_jremotemanagedconnectionmetadata "class in com.jbase.jremote.jca")
 - [JRemoteRequestProcessingFactory](com_jbase_jremote_jca_jremoterequestprocessingfactory "class in com.jbase.jremote.jca")
-- [JRemoteResourceAdapter](com_jbase_jremote_jca_jremoteresourceadapter "class in com.jbase.jremote.jca")
-- [TransactionManager](com_jbase_jremote_jca_transactionmanager "class in com.jbase.jremote.jca")
-- [WrappedJConnection](com_jbase_jremote_jca_wrappedjconnection "class in com.jbase.jremote.jca")
-- [WrappedJFile](com_jbase_jremote_jca_wrappedjfile "class in com.jbase.jremote.jca")
+- [JRemoteResourceAdapter](./../../jremote/jca/jremoteresourceadapter-%28jremote-api%29 "class in com.jbase.jremote.jca")
+- [TransactionManager](./../../jremote/jca/transactionmanager-%28jremote-api%29 "class in com.jbase.jremote.jca")
+- [WrappedJConnection](./../../jremote/jca/wrappedjconnection-%28jremote-api%29 "class in com.jbase.jremote.jca")
+- [WrappedJFile](./../../jremote/jca/wrappedjfile-%28jremote-api%29 "class in com.jbase.jremote.jca")
 

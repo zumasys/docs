@@ -47,6 +47,6 @@ Shows that ports 100 and 103 are available for jBASE background task processes.
 
 
 
-Back to [jBTP](jbtp)
+Back to [jBTP](./../jbtp)
 
 

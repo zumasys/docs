@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
-- [Class](/39240-protocol/com_jbase_jdbc_protocol_SQLResponse "class in com.jbase.jdbc.protocol")
+- [Package](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
+- [Class](./../../sqlresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 - Use
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Tree](./../../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/protocol/class-use//39241-class-use/com_jbase_jdbc_protocol_class-use_sqlresponse)
-- [No Frames](/39241-class-use/com_jbase_jdbc_protocol_class-use_sqlresponse)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ jbasejdbc <br>
 ## Uses of Class
 com.jbase.jdbc.protocol.SQLResponse
 
-- Packages that use [SQLResponse](/39240-protocol/com_jbase_jdbc_protocol_SQLResponse "class in com.jbase.jdbc.protocol") | Package | Description |
+- Packages that use [SQLResponse](./../../sqlresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.protocol |   |
-- - ### Uses of [SQLResponse](/39240-protocol/com_jbase_jdbc_protocol_SQLResponse "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- - ### Uses of [SQLResponse](./../../sqlresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 
 
-Subclasses of [SQLResponse](/39240-protocol/com_jbase_jdbc_protocol_SQLResponse "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary) | Modifier and Type | Class and Description |
+Subclasses of [SQLResponse](./../../sqlresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29) | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `SetPropertiesResponse`  |
 | `class` | `SQLErrorResponse`  |
@@ -55,10 +55,10 @@ Subclasses of [SQLResponse](/39240-protocol/com_jbase_jdbc_protocol_SQLResponse 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
-- [Class](/39240-protocol/com_jbase_jdbc_protocol_SQLResponse "class in com.jbase.jdbc.protocol")
+- [Package](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
+- [Class](./../../sqlresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 - Use
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Tree](./../../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -69,8 +69,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/protocol/class-use//39241-class-use/com_jbase_jdbc_protocol_class-use_sqlresponse)
-- [No Frames](/39241-class-use/com_jbase_jdbc_protocol_class-use_sqlresponse)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

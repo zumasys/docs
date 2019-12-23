@@ -23,4 +23,4 @@ where:
 | Q<br> | Form Queue configuration list only.<br> |
 
 
-Back to [Spooler](jbase-spooler).
+Back to [Spooler](./../jbase-spooler).

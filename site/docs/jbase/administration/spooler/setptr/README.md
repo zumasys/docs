@@ -87,4 +87,4 @@ Initial Job State    : PRINT
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

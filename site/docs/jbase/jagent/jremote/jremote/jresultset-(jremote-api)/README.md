@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Interface JResultSet
 
-All Known Implementing Classes:[JResultSetImpl](/39250-io/com_jbase_jremote_io_jresultsetimpl "class in com.jbase.jremote.io")
+All Known Implementing Classes:[JResultSetImpl](./../io/jresultsetimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
 * * *
 
 

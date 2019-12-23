@@ -36,6 +36,6 @@ An example of use is as follows:
 
 to assign file information to variable **info**.
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

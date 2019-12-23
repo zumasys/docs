@@ -44,7 +44,7 @@ Where:
 | -Cn<br> | force blocksize to n bytes, rounded to nearest k<br> |
 | -N<br> | suppress compression if supported by device ( NT only)<br> |
 | -S Statfile<br> | Save statistics of all saved objects in jBASE file Statfile. <br>The dictionary for this file is JBCRELEASEDIR/jbackup]D.<br> |
-| -O<br> | override [no backup](jchmod) file option, save all<br> |
+| -O<br> | override [no backup](./../jchmod) file option, save all<br> |
 | -R<br> | suppress automatic rewind at end of backup<br> |
 | -P<br> | print and scan files only, no save<br> |
 | -V<br> | verbose dot mode, displays a "." for each file<br> |
@@ -56,7 +56,7 @@ Where:
 
 ## Uses: 
 
-1. Use [jchmod](jchmod) to change the characteristics of a file. For instance:
+1. Use [jchmod](./../jchmod) to change the characteristics of a file. For instance:
 
 ```
  jchmod -B filename
@@ -70,7 +70,7 @@ This is only affective for jBASE hashed files.  O/S level directory files will 
 
 2. jbackup creates a file named **jbk\*PID** as a work file when executed. Therefore, jbackup must be run from a directory which has write privileges. If the file system or directory is not write enabled you will receive the error message **ERROR! Cannot open temporary file jbk\*PID.tmp, error 2**
 
-3. See also [jrestore](jrestore).
+3. See also [jrestore](./../jrestore).
 
 
 
@@ -109,7 +109,7 @@ Reads all files and directories in home directory of user-id "jbase". Generates 
 jfind C:\users\vanessa -print | jbackup -P
 ```
 
-Reads all records, files and directories under the C:\users\vanessa directory provided by the [jfind](328698-jfind) selection and displays each file or directory name as it is encountered. The -P option means that the files are not actually backup (print and scan only). It is useful to verify the integrity of the selected files and directories. This command should be run with jshelltype **sh** rather than jsh.
+Reads all records, files and directories under the C:\users\vanessa directory provided by the [jfind](./../../../jbase/jfind) selection and displays each file or directory name as it is encountered. The -P option means that the files are not actually backup (print and scan only). It is useful to verify the integrity of the selected files and directories. This command should be run with jshelltype **sh** rather than jsh.
 
 
 
@@ -117,4 +117,4 @@ Reads all records, files and directories under the C:\users\vanessa directory pr
 jfind D:\data -print | jbackup -f C:\temp\save20030325 -m10000 -S C:\temp\stats -v
 ```
 
-The [jfind](328698-jfind) command outputs the names of all the files and directories under the D:\data directory. This output is passed to the jbackup command causing it to backup every file that jfind locates. Rather than save to tape, this jbackup command creates a backup *file*: C:\temp\save20030325. Note that jbackup creates the save2003025 file, but the directory c:\temp must exist before running the command. The **-m10000** option specifies that the maximum amount of data to back up is 10,000MB (or 10GB) rather than the default 100MB. The -S option causes file statistics to be written to the hashed file **stats**. This file should exist and be empty prior to commencing the backup. The **-v** option causes the name of each file to be displayed as it is backed up. Because of the pipe character used to direct the output of jfind to jbackup, this command should be run with jshelltype **sh** rather than jsh.
+The [jfind](./../../../jbase/jfind) command outputs the names of all the files and directories under the D:\data directory. This output is passed to the jbackup command causing it to backup every file that jfind locates. Rather than save to tape, this jbackup command creates a backup *file*: C:\temp\save20030325. Note that jbackup creates the save2003025 file, but the directory c:\temp must exist before running the command. The **-m10000** option specifies that the maximum amount of data to back up is 10,000MB (or 10GB) rather than the default 100MB. The -S option causes file statistics to be written to the hashed file **stats**. This file should exist and be empty prior to commencing the backup. The **-v** option causes the name of each file to be displayed as it is backed up. Because of the pipe character used to direct the output of jfind to jbackup, this command should be run with jshelltype **sh** rather than jsh.

@@ -21,7 +21,7 @@ expression should evaluate to an integer value in the range 0-9 and specifies fr
 
 If the**WRITET** fails then the statements associated with any ELSE clause will be executed.
 
-[SYSTEM(0)](282982-system-functions) will return the reason for the failure as follows:
+[SYSTEM(0)](./../system-functions) will return the reason for the failure as follows:
 
 
 | 1<br> | there is no media attached to the channel<br> |
@@ -53,4 +53,4 @@ REPEAT
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

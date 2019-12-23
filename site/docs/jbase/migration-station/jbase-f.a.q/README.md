@@ -109,7 +109,7 @@ No.  We recommend visiting the knowledgebase:
 
 JED and ED help is available here:
 
-[http://jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/ed1.htm](http://jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/ed1.htm)
+[https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/ed1.htm](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/ed1.htm)
 
 
 

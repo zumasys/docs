@@ -36,4 +36,4 @@ The**TIMEDIFF** function returns the interval between two timestamp values . The
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -73,4 +73,4 @@ For each subvalue in the field defined by A.VALUE the system also obtains the co
 
 
 
-Back to [A-Corelatives](321284-a-correlatives)
+Back to [A-Corelatives](./../a-correlatives)

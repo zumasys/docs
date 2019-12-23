@@ -28,7 +28,7 @@ In order to be able to rebuild a shared library the object file is retained in t
 
 The CATALOG command invokes the jBASE jBuildSLib command with the subroutine object file to construct the shared libraries. The jBuildSLib command then links several object files together with relevant references to other required libraries and creates a shared library/DD.
 
-It should be noted that every time a *subroutine* is cataloged, jBuildSLib is invoked to rebuild the shared library/DLL. However when the CATALOG command is issued with an active select list of program names, the rebuilding (i.e. jBuildSLib) is deferred until the list has been fully processed. This means that each shared object/DLL is only rebuilt once, as opposed to once for each subroutine. So when cataloging subroutines, it is much faster to work from an active select list. The same is true when [decataloging subroutines](decatalog).
+It should be noted that every time a *subroutine* is cataloged, jBuildSLib is invoked to rebuild the shared library/DLL. However when the CATALOG command is issued with an active select list of program names, the rebuilding (i.e. jBuildSLib) is deferred until the list has been fully processed. This means that each shared object/DLL is only rebuilt once, as opposed to once for each subroutine. So when cataloging subroutines, it is much faster to work from an active select list. The same is true when [decataloging subroutines](./../decatalog).
 
 To force the CATALOG command to place executables and shared libraries in alternative directories to the "bin" and "lib" directory in the current home directory, the following environment variables can be set.
 
@@ -44,7 +44,7 @@ To link with external C function libraries:
 `export JBCDEV_CLIB=/usr/global/clib` (Unix)
 `set JBCDEV_CLIB=C:\GLOBAL\CLIB` (Windows)
 
-Programmers should be aware that by convention jBC program names have an extension of ".b" (and also ".B" on Windows). The [jbc](https://www.jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/sup42_JBC.htm)command expects programs specified as "name.b". The BASIC and CATALOG commands do not require programs to have a **.b** extension because they add one when necessary. This can be seen when the verbose option is used on BASIC and CATALOG. If a main program has a **.b** extension, it is dropped when the program is cataloged. For example, if the name of the program is CUSTMAINT.b, the resulting executable created by CATALOG is called CUSTMAINT. If a subroutine has a **.b** extension, then it's internal name should **not** have the extension:
+Programmers should be aware that by convention jBC program names have an extension of ".b" (and also ".B" on Windows). The [jbc](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup42_JBC.htm)command expects programs specified as "name.b". The BASIC and CATALOG commands do not require programs to have a **.b** extension because they add one when necessary. This can be seen when the verbose option is used on BASIC and CATALOG. If a main program has a **.b** extension, it is dropped when the program is cataloged. For example, if the name of the program is CUSTMAINT.b, the resulting executable created by CATALOG is called CUSTMAINT. If a subroutine has a **.b** extension, then it's internal name should **not** have the extension:
 
 
 | valid<br> | Invalid<br> |

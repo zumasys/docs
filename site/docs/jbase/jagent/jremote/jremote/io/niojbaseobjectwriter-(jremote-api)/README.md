@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Class NIOJBaseObjectWriter
 
-All Implemented Interfaces:[JBaseObjectWriter](/39250-io/com_jbase_jremote_io_jbaseobjectwriter "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseObjectWriter](./../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -75,7 +75,7 @@ public static final long WRITE_TIMEOUT
 ```
 
 The temporary selectors write timeout. 30 seconds.
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../../constant-field-values)
 
 
 ### 

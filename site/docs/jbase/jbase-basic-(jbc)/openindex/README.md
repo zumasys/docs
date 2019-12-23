@@ -11,7 +11,7 @@
 
 # Description
 
-The **OPENINDEX** statement is used to open a particular index definition for a particular file. This index file variable can later be used with the [SELECT](278801-select) statement. It takes the general form:
+The **OPENINDEX** statement is used to open a particular index definition for a particular file. This index file variable can later be used with the [SELECT](./../select) statement. It takes the general form:
 
 ```
 OPENINDEX filename,indexname TO indexvar {SETTING setvar} THEN|ELSE statements
@@ -24,7 +24,7 @@ Where:
 - **indexvar** is the variable that holds the descriptor for the index.
 
 
-If the [OPEN](277537-open) statement fails it will execute any statements associated with an ELSE clause. If the [OPEN](277537-open) is successful it will execute any statements associated with a THEN clause. Note that the syntax requires either one or both of the THEN and ELSE clauses.
+If the [OPEN](./../open) statement fails it will execute any statements associated with an ELSE clause. If the [OPEN](./../open) is successful it will execute any statements associated with a THEN clause. Note that the syntax requires either one or both of the THEN and ELSE clauses.
 
 If the SETTING clause is specified and the open fails, setvar will be set to one of the following values:
 
@@ -50,4 +50,4 @@ END
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

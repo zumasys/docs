@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- [Package](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 - [Class](/39240-protocol/com_jbase_jdbc_protocol_AuthenticationRequest.UserCredentials "class in com.jbase.jdbc.protocol")
 - Use
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Tree](./../../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -41,10 +41,10 @@ No usage of com.jbase.jdbc.protocol.AuthenticationRequest.UserCredentials
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- [Package](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 - [Class](/39240-protocol/com_jbase_jdbc_protocol_AuthenticationRequest.UserCredentials "class in com.jbase.jdbc.protocol")
 - Use
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Tree](./../../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 

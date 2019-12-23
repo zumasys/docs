@@ -34,4 +34,4 @@ CRT REGEXP(String, "S[^t]*")
 
 to display the value 4, being the position of the character "t" in the word Software
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

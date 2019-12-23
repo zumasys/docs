@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39254-exception/com_jbase_jremote_io_exception_package-summary)
-- [Class](/39254-exception/com_jbase_jremote_io_exception_UnknownTypeException "class in com.jbase.jremote.io.exception")
+- [Package](./../../com.jbase.jremote.io.exception-%28jremote---api%29)
+- [Class](./../../unknowntypeexception-%28jremote---api%29 "class in com.jbase.jremote.io.exception")
 - Use
-- [Tree](/39254-exception/com_jbase_jremote_io_exception_package-tree)
+- [Tree](./../../com.jbase.jremote.io.exception-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/io/exception/class-use//39255-class-use/com_jbase_jremote_io_exception_class-use_UnknownTypeException)
-- [No Frames](/39255-class-use/com_jbase_jremote_io_exception_class-use_UnknownTypeException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -36,33 +36,33 @@ jremote <br>
 ## Uses of Class
 com.jbase.jremote.io.exception.UnknownTypeException
 
-- Packages that use [UnknownTypeException](/39254-exception/com_jbase_jremote_io_exception_UnknownTypeException "class in com.jbase.jremote.io.exception") | Package | Description |
+- Packages that use [UnknownTypeException](./../../unknowntypeexception-%28jremote---api%29 "class in com.jbase.jremote.io.exception") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.io |   |
 | com.jbase.jremote.jca.inflow |   |
-- - ### Uses of [UnknownTypeException](/39254-exception/com_jbase_jremote_io_exception_UnknownTypeException "class in com.jbase.jremote.io.exception") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
+- - ### Uses of [UnknownTypeException](./../../unknowntypeexception-%28jremote---api%29 "class in com.jbase.jremote.io.exception") in [com.jbase.jremote.io](./../../../com.jbase.jremote.io-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) that throw [UnknownTypeException](/39254-exception/com_jbase_jremote_io_exception_UnknownTypeException "class in com.jbase.jremote.io.exception") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.io](./../../../com.jbase.jremote.io-%28jremote---api%29) that throw [UnknownTypeException](./../../unknowntypeexception-%28jremote---api%29 "class in com.jbase.jremote.io.exception") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected JBaseSerializable` | ObjectFactory.`createGenericObjects(int objectType)`<br>Creates any generic (i.e common to all framework clients) objects.<br> |
 | `protected abstract JBaseSerializable` | ObjectFactory.`createObject(int objectType)`<br>Create JBaseSerializable object from the supplied object type.<br> |
 | `protected JBaseSerializable` | JRemoteObjectFactory.`createObject(int objectType)`  |
 | `protected abstract ObjectFactory` | AbstractJBaseObjectReader.`getObjectFactory()`<br>This method must be implemented by concrete ObjectReaders.<br> |
-    - ### Uses of [UnknownTypeException](/39254-exception/com_jbase_jremote_io_exception_UnknownTypeException "class in com.jbase.jremote.io.exception") in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+    - ### Uses of [UnknownTypeException](./../../unknowntypeexception-%28jremote---api%29 "class in com.jbase.jremote.io.exception") in [com.jbase.jremote.jca.inflow](./../../../../jca/inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary) that throw [UnknownTypeException](/39254-exception/com_jbase_jremote_io_exception_UnknownTypeException "class in com.jbase.jremote.io.exception") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca.inflow](./../../../../jca/inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29) that throw [UnknownTypeException](./../../unknowntypeexception-%28jremote---api%29 "class in com.jbase.jremote.io.exception") | Modifier and Type | Method and Description |
 | --- | --- |
 | `JBaseSerializable` | InboundObjectFactory.`createObject(int type)`  |
 
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39254-exception/com_jbase_jremote_io_exception_package-summary)
-- [Class](/39254-exception/com_jbase_jremote_io_exception_UnknownTypeException "class in com.jbase.jremote.io.exception")
+- [Package](./../../com.jbase.jremote.io.exception-%28jremote---api%29)
+- [Class](./../../unknowntypeexception-%28jremote---api%29 "class in com.jbase.jremote.io.exception")
 - Use
-- [Tree](/39254-exception/com_jbase_jremote_io_exception_package-tree)
+- [Tree](./../../com.jbase.jremote.io.exception-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -73,8 +73,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/io/exception/class-use//39255-class-use/com_jbase_jremote_io_exception_class-use_UnknownTypeException)
-- [No Frames](/39255-class-use/com_jbase_jremote_io_exception_class-use_UnknownTypeException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

@@ -46,7 +46,7 @@ In order to make the index available to these commands, two options are availabl
 
 In both cases, when the operation is completed the index will be marked as "in sync" and the index can be used by the aforementioned programs.
 
-The full format of the index-definition command argument is given in [Appendix A](indexes-appendix-a).
+The full format of the index-definition command argument is given in [Appendix A](./../indexes-appendix-a).
 
 - Option**-c** means the indexes created will be done in a case insensitive fashion. For example "Fred" and "FRED" will be the same index. This is used automatically in the key-select or query-index command. However if a jQL command such as SORT or SELECT wants to use the index, then the command must be done in such a way that the jQL command would also be case insensitive (for example, attribute 7 of the DICT item is MCU and the selection criteria is all upper case).
 - Option **-d** means the pseudo-code created to build the index key can be debugged. This assumes that the debugger is enabled for the rest of the jBC code anyway.
@@ -65,7 +65,7 @@ jsh->key-select ORDERS WITH PLACE-DATE > 14-feb-1997
 
 This also applies to selection criteria passed with a jQL command such as LIST or SELECT.
 
-- Option **-n** shows that any index keys that are created as zero length strings will not be entered into the index. This is useful for suppressing unwanted index keys. It is especially useful when used in conjunction with the CALL statement in the index definition (see [Appendix A](indexes-appendix-a)) so that if the subroutine decides the index is not interested in being stored, it creates a null index key.
+- Option **-n** shows that any index keys that are created as zero length strings will not be entered into the index. This is useful for suppressing unwanted index keys. It is especially useful when used in conjunction with the CALL statement in the index definition (see [Appendix A](./../indexes-appendix-a)) so that if the subroutine decides the index is not interested in being stored, it creates a null index key.
 - Option **-o** will overwrite any existing index definition. Without this, attempts to re-define an index definition will result in an error. If the -o option is used to re-define an existing index definition, then all the index data for the definition previously associated with the index will be deleted.
 - Option **-a** means the index data will not be built once the index definition is created. The default action is to build the index, depending upon the size of the file data, this could be a lengthy operation! Once the index data is built it then becomes in-sync with the file data and is available to all the index commands such as key-select and available to jQL commands such as SELECT to improve the performance of them. With this option necessitates a rebuild-index command to rebuild the index data.
 - Option **-s** causes some pseudo source code to be created. This is used with option -d to aid debug complex index definitions.

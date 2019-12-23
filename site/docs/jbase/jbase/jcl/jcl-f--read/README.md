@@ -56,6 +56,6 @@ Attempts to read record ABC from the SALES file into file buffer 1. If record AB
 
 
 
-See also [F-OPEN](318664-jcl-f-open)
+See also [F-OPEN](./../jcl-f--open)
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

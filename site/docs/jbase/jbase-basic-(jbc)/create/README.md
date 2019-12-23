@@ -7,7 +7,7 @@
 
 # Description
 
-This statement is intended to create files. It can be useful after an [OPENSEQ](277543-openseq) statement to create a record in a directory file. **CREATE**creates the record or file if the [OPENSEQ](277543-openseq) statement fails.
+This statement is intended to create files. It can be useful after an [OPENSEQ](./../openseq) statement to create a record in a directory file. **CREATE**creates the record or file if the [OPENSEQ](./../openseq) statement fails.
 
 It takes the general form:
 
@@ -17,15 +17,15 @@ CREATE file.variable {THEN statements [ELSE statements] | ELSE statements}
 
 If the record or file is created, it executes the THEN statements; if no record or file is created, it executes the ELSE statements.
 
-An [OPENSEQ](277543-openseq) statement for the specified file variable must be executed before the **CREATE** statement to associate the pathname or record ID of the file to be created with the file variable. If file.variable is null, the **CREATE** statement fails and the program enters the debugger.
+An [OPENSEQ](./../openseq) statement for the specified file variable must be executed before the **CREATE** statement to associate the pathname or record ID of the file to be created with the file variable. If file.variable is null, the **CREATE** statement fails and the program enters the debugger.
 
 # Note:
 
 
-> **CREATE** statement may prove useful for exception handling, when [OPENSEQ](277543-openseq) cannot find a record or file to open and the next operation is to be a [READSEQ](278773-readseq) or [READBLK](277637-readblk). If the first file operation is a [WRITESEQ](279570-writeseq), [WRITESEQ](279570-writeseq) creates the record or file if it does not exist.
+> **CREATE** statement may prove useful for exception handling, when [OPENSEQ](./../openseq) cannot find a record or file to open and the next operation is to be a [READSEQ](./../readseq) or [READBLK](./../readblk). If the first file operation is a [WRITESEQ](./../writeseq), [WRITESEQ](./../writeseq) creates the record or file if it does not exist.
 
 
-In the following example, **record\_file2** does not yet exist. When [OPENSEQ](277543-openseq) fails to open **record\_file2**in the **TESTENV**directory, the **CREATE** statement creates and opens it to the file variable **FILE**, ready to be written to.
+In the following example, **record\_file2** does not yet exist. When [OPENSEQ](./../openseq) fails to open **record\_file2**in the **TESTENV**directory, the **CREATE** statement creates and opens it to the file variable **FILE**, ready to be written to.
 
 ```
 001    INCLUDE JBC.h
@@ -41,6 +41,6 @@ In the following example, **record\_file2** does not yet exist. When [OPENSEQ](2
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

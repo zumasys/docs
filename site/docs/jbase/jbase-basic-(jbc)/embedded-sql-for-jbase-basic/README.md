@@ -25,7 +25,7 @@ An Embedded  SQL cursor must not appear in an Embedded SQL statement before it 
 
 Any jBASE BASIC variables that will be referenced in Embedded SQL statements must have a data type that is compatible with the SQL data type of the column with which they are to be compared or assigned. However this requirement does not prevent jBASE BASIC variables from using the same name as Embedded SQL column references.
 
-Embedded SQL statement exceptions can be handled either by utilizing the [SYSTEM(0)](282982-system-functions) function or predetermined by the SQL WHENEVER statement.
+Embedded SQL statement exceptions can be handled either by utilizing the [SYSTEM(0)](./../system-functions) function or predetermined by the SQL WHENEVER statement.
 
 An example of using Embedded SQL for Oracle would be creating a file ' PartEntry.b' as :
 
@@ -82,7 +82,7 @@ This section declares jBASE BASIC variables so that they can be used within Embe
 
 **( B ) Predetermine action on SQLERROR**
 
-This section configures the action to take on detecting an error with the previous executed Embedded SQL statement. Every SQL statement should in principle be followed by a test of the returned SQLCODE value. This can be achieved by utilizing the [SYSTEM(0)](282982-system-functions) function, which returns the result of the last SQL statement, or alternatively using the Embedded SQL WHENEVER statement to predetermine the action for all subsequent Embedded SQL statements. The [SYSTEM(0)](282982-system-functions) function will return three different possible values, i.e
+This section configures the action to take on detecting an error with the previous executed Embedded SQL statement. Every SQL statement should in principle be followed by a test of the returned SQLCODE value. This can be achieved by utilizing the [SYSTEM(0)](./../system-functions) function, which returns the result of the last SQL statement, or alternatively using the Embedded SQL WHENEVER statement to predetermine the action for all subsequent Embedded SQL statements. The [SYSTEM(0)](./../system-functions) function will return three different possible values, i.e
 
 
 | &lt;0<br> | Embedded SQL statement failed.<br> |
@@ -194,4 +194,4 @@ SQL Pre Processor error -1
 
 
 
-Go to [jBASE BASIC](263498-jbase-basic).
+Go to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

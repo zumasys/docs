@@ -17,7 +17,7 @@ Where:
 
 expression specifies the device channel to use and should evaluate to a numeric integer argument in the range 0-9, the default value is zero.
 
-If the **WEOF**fails it then executes the statements associated with any ELSE clause. [SYSTEM(0)](282982-system-functions) will return the reason for the failure as follows:
+If the **WEOF**fails it then executes the statements associated with any ELSE clause. [SYSTEM(0)](./../system-functions) will return the reason for the failure as follows:
 
 
 | 1<br> | there is no media attached to the channel<br> |
@@ -41,4 +41,4 @@ END
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

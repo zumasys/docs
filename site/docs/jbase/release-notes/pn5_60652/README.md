@@ -41,7 +41,7 @@ Current number of stack entries:     42
 If '#' is '0' or omitted then implies entry 1.
 ```
 
-The command stack is configured with the JSH\_COMMAND\_STACK environment variable (see patch [5\_60582](pn5_60582) issued on jBASE 5.6.3)
+The command stack is configured with the JSH\_COMMAND\_STACK environment variable (see patch [5\_60582](./../5.6.2-release-notes/pn5_60582) issued on jBASE 5.6.3)
 
 Example:
 

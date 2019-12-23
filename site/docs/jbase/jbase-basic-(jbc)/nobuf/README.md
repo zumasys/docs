@@ -7,7 +7,7 @@
 
 # DESCRIPTION
 
-jBASE can buffer for sequential input and output operations. The **NOBUF**statement turns off this behavior and causes all writes to the file to be performed immediately. The**NOBUF** statement should be used in conjunction with a successful [OPENSEQ](277543-openseq) statement and before any input or output is performed on the record.
+jBASE can buffer for sequential input and output operations. The **NOBUF**statement turns off this behavior and causes all writes to the file to be performed immediately. The**NOBUF** statement should be used in conjunction with a successful [OPENSEQ](./../openseq) statement and before any input or output is performed on the record.
 
 It takes the general form:
 
@@ -26,4 +26,4 @@ ELSE ABORT
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

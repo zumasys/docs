@@ -46,6 +46,6 @@ AAAA:BB
 
 
 
-See also: [GROUP](276026-group)
+See also: [GROUP](./../group)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

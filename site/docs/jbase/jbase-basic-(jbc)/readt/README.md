@@ -19,7 +19,7 @@ Where:
 
 - **variable** is the variable that will receive any data read from the tape device.
 - **expression** should evaluate to an integer value in the range 0-9 and specifies from which tape channel to read data. If the FROM clause is not specified the **READT** will assume channel 0.
-- If the **READT** fails then the **statements** associated with any ELSE clause will be executed. [SYSTEM(0)](282982-system-functions) will return the reason for the failure as follows:
+- If the **READT** fails then the **statements** associated with any ELSE clause will be executed. [SYSTEM(0)](./../system-functions) will return the reason for the failure as follows:
 
 
 
@@ -51,4 +51,4 @@ REPEAT
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

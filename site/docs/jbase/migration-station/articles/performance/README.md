@@ -63,7 +63,7 @@ If the record key selection is omitted, BASIC will use any preceding select list
 
 The "O" option should be invoked when compiling programs for final release. The default for this option is optimization level 3, which still provides debug information but the C code is optimized. Level 4 "O4" provides full optimization. The default level for the BASIC command is level 2.
 
-**Note** To copy binary object files such as $PROG or PROG.o from Hash files to directories or vice versa use the B option of the jBASE [COPY](copy) command. This will ensure conversion of attribute mark characters to new line and vice versa is suppressed thus invalidating the binary object.
+**Note** To copy binary object files such as $PROG or PROG.o from Hash files to directories or vice versa use the B option of the jBASE [COPY](./../../../files/copy) command. This will ensure conversion of attribute mark characters to new line and vice versa is suppressed thus invalidating the binary object.
 
 
 

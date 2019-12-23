@@ -37,6 +37,6 @@ Print jobs assigned with the align option (A), will display a status of **ALIGN*
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)
 
 

@@ -14,7 +14,7 @@ The**SSELECT** statement may be used to create:
 - A select list of record IDs from a dynamic array is not in sorted order.
 
 
-This list can then be accessed by subsequent [READNEXT](278659-readnext) statement, which removes one record ID at a time from the list.
+This list can then be accessed by subsequent [READNEXT](./../readnext) statement, which removes one record ID at a time from the list.
 
 It may take the forms below:
 
@@ -44,13 +44,13 @@ The ON ERROR clause is optional in**SSELECT** statements. The ON ERROR clause le
 
 The record IDs of all the records in the file forms the list. The record IDs are listed in ascending order. Each record ID is one entry in the list.
 
-The [SSLECTV](284388-sselectv) statement can be used to store the select list in a named list variable instead of to a numbered select list. list.variable is an expression that evaluates to a valid variable name.
+The [SSLECTV](./../sselectv) statement can be used to store the select list in a named list variable instead of to a numbered select list. list.variable is an expression that evaluates to a valid variable name.
 
 # **INTERNATIONAL MODE**
 
 When using the **SSELECT** statement in International Mode, the statement will use the currently configured locale to determine the rules by which each string is considered less than or greater than the other for sort purposes.
 
-An example of use would be opening the file 'SLIPPERS' to the file variable 'DSCB', then creating an active sorted select list of record IDs. The [READNEXT](278659-readnext) statement assigns the first record ID in the select list to the variable @ID, then prints it.
+An example of use would be opening the file 'SLIPPERS' to the file variable 'DSCB', then creating an active sorted select list of record IDs. The [READNEXT](./../readnext) statement assigns the first record ID in the select list to the variable @ID, then prints it.
 
 ```
 OPEN '','SLIPPERS' ELSE PRINT "NOT OPEN"
@@ -60,6 +60,6 @@ READNEXT @ID THEN PRINT @ID
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

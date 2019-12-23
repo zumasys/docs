@@ -23,7 +23,7 @@ Where:
 
 If the ON ERROR clause is not specified and a fatal error occurs, the program terminates.
 
-After executing **OSDELETE**, the [STATUS](278661-status-function) function returns either 0 or a failure code.
+After executing **OSDELETE**, the [STATUS](./../status-function) function returns either 0 or a failure code.
 
 
 | Code | Description |
@@ -42,4 +42,4 @@ OSDELETE "MYPIPE"
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39233-charset/com_jbase_jdbc_io_charset_package-summary)
+- [Package](./../com.jbase.jdbc.io.charset-%28jbasejdbc---api%29)
 - Class
-- [Use](/39234-class-use/com_jbase_jdbc_io_charset_class-use_JbaseCharsetDecoder)
-- [Tree](/39233-charset/com_jbase_jdbc_io_charset_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.io.charset.jbasecharsetdecoder-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io.charset-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39233-charset/com_jbase_jdbc_io_charset_JbaseCharset "class in com.jbase.jdbc.io.charset")
-- [Next Class](/39233-charset/com_jbase_jdbc_io_charset_JbaseCharsetEncoder "class in com.jbase.jdbc.io.charset")
+- [Prev Class](./../jbasecharset-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.charset")
+- [Next Class](./../jbasecharsetencoder-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.charset")
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/charset//39233-charset/com_jbase_jdbc_io_charset_JbaseCharsetDecoder)
-- [No Frames](/39233-charset/com_jbase_jdbc_io_charset_JbaseCharsetDecoder)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -126,22 +126,22 @@ protected ByteBuffer checkBuffer(ByteBuffer buffer,
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39233-charset/com_jbase_jdbc_io_charset_package-summary)
+- [Package](./../com.jbase.jdbc.io.charset-%28jbasejdbc---api%29)
 - Class
-- [Use](/39234-class-use/com_jbase_jdbc_io_charset_class-use_JbaseCharsetDecoder)
-- [Tree](/39233-charset/com_jbase_jdbc_io_charset_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.io.charset.jbasecharsetdecoder-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io.charset-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39233-charset/com_jbase_jdbc_io_charset_JbaseCharset "class in com.jbase.jdbc.io.charset")
-- [Next Class](/39233-charset/com_jbase_jdbc_io_charset_JbaseCharsetEncoder "class in com.jbase.jdbc.io.charset")
+- [Prev Class](./../jbasecharset-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.charset")
+- [Next Class](./../jbasecharsetencoder-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.charset")
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/charset//39233-charset/com_jbase_jdbc_io_charset_JbaseCharsetDecoder)
-- [No Frames](/39233-charset/com_jbase_jdbc_io_charset_JbaseCharsetDecoder)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

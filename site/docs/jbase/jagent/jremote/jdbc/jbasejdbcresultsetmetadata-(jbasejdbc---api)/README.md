@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
+- [Package](./../jbase-jdbc-api)
 - Class
-- [Use](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCResultSetMetaData)
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.jbasejdbcresultsetmetadata-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../deprecated-list.html)
 - [Help](../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39228-jdbc/com_jbase_jdbc_jbasejdbcpreparedstatement "class in com.jbase.jdbc")
-- [Next Class](/39228-jdbc/com_jbase_jdbc_jbasejdbcsocketconnection "class in com.jbase.jdbc")
+- [Prev Class](./../jbasejdbcpreparedstatement-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
+- [Next Class](./../jbasejdbcsocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
 
 
-- [Frames](../../../index.html?com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_JBaseJDBCResultSetMetaData)
-- [No Frames](/39228-jdbc/com_jbase_jdbc_JBaseJDBCResultSetMetaData)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../allclasses-noframe.html)
@@ -53,7 +53,7 @@ com.jbase.jdbc
 - - com.jbase.jdbc.JBaseJDBCResultSetMetaData
 
 
-- All Implemented Interfaces:[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc"), [ResultSetMetaData](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true "class or interface in java.sql"), [Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")
+- All Implemented Interfaces:[JBaseJDBCGlobals](./../jbasejdbcglobals-%28jbasejdbc---api%29 "interface in com.jbase.jdbc"), [ResultSetMetaData](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSetMetaData.html?is-external=true "class or interface in java.sql"), [Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")
 * * *
 
 
@@ -65,7 +65,7 @@ implements ResultSetMetaData, JBaseJDBCGlobals
 
 - - ### Nested Class Summary
 
-        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc")
+        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.[JBaseJDBCGlobals](./../jbasejdbcglobals-%28jbasejdbc---api%29 "interface in com.jbase.jdbc")
 `JBaseJDBCGlobals.TYPES`
 
 
@@ -75,7 +75,7 @@ implements ResultSetMetaData, JBaseJDBCGlobals
 `columnNoNulls, columnNullable, columnNullableUnknown`
 
 
-        - ### Fields inherited from interface com.jbase.jdbc.[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc")
+        - ### Fields inherited from interface com.jbase.jdbc.[JBaseJDBCGlobals](./../jbasejdbcglobals-%28jbasejdbc---api%29 "interface in com.jbase.jdbc")
 `AM, CHAR_AM, CHAR_SM, CHAR_VM, SHORT_AM, SHORT_CHAR_AM, SHORT_CHAR_SM, SHORT_CHAR_VM, SHORT_SM, SHORT_VM, SM, VM`
 
 
@@ -357,22 +357,22 @@ Specified by:`getTableName` in interface `ResultSetMetaData`Parameters:`column` 
 Skip navigation links
 
 - [Overview](../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
+- [Package](./../jbase-jdbc-api)
 - Class
-- [Use](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCResultSetMetaData)
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.jbasejdbcresultsetmetadata-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../deprecated-list.html)
 - [Help](../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39228-jdbc/com_jbase_jdbc_jbasejdbcpreparedstatement "class in com.jbase.jdbc")
-- [Next Class](/39228-jdbc/com_jbase_jdbc_jbasejdbcsocketconnection "class in com.jbase.jdbc")
+- [Prev Class](./../jbasejdbcpreparedstatement-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
+- [Next Class](./../jbasejdbcsocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
 
 
-- [Frames](../../../index.html?com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_JBaseJDBCResultSetMetaData)
-- [No Frames](/39228-jdbc/com_jbase_jdbc_JBaseJDBCResultSetMetaData)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../allclasses-noframe.html)

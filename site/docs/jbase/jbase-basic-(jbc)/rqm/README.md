@@ -5,8 +5,8 @@
 **Original Doc:** [278791-rqm](https://docs.jbase.com/36868-jbase-basic/278791-rqm)  
 
 
-**RQM**is synonymous with [SLEEP](278809-sleep).
+**RQM**is synonymous with [SLEEP](./../sleep).
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

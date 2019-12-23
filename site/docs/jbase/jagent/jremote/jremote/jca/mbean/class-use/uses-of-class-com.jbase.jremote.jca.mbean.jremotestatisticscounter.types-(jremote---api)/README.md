@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
-- [Class](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types "enum in com.jbase.jremote.jca.mbean")
+- [Package](./../../com.jbase.jremote.jca.mbean-%28jremote---api%29)
+- [Class](./../../jremotestatisticscounter-%28jremote---api%29 "enum in com.jbase.jremote.jca.mbean")
 - Use
-- [Tree](/39266-mbean/com_jbase_jremote_jca_mbean_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.mbean-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/mbean/class-use//39267-class-use/com_jbase_jremote_jca_mbean_class-use_JRemoteStatisticsCounter.Types)
-- [No Frames](/39267-class-use/com_jbase_jremote_jca_mbean_class-use_JRemoteStatisticsCounter.Types)
+- [Frames](./../uses-of-class-com.jbase.jremote.jca.mbean.jremotestatisticscounter-%28jremote---api%29)
+- [No Frames](./../uses-of-class-com.jbase.jremote.jca.mbean.jremotestatisticscounter-%28jremote---api%29)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -36,20 +36,20 @@ jremote <br>
 ## Uses of Class
 com.jbase.jremote.jca.mbean.JRemoteStatisticsCounter.Types
 
-- Packages that use [JRemoteStatisticsCounter.Types](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types "enum in com.jbase.jremote.jca.mbean") | Package | Description |
+- Packages that use [JRemoteStatisticsCounter.Types](./../../jremotestatisticscounter-%28jremote---api%29 "enum in com.jbase.jremote.jca.mbean") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.jca.mbean |   |
-- - ### Uses of [JRemoteStatisticsCounter.Types](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types "enum in com.jbase.jremote.jca.mbean") in [com.jbase.jremote.jca.mbean](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
+- - ### Uses of [JRemoteStatisticsCounter.Types](./../../jremotestatisticscounter-%28jremote---api%29 "enum in com.jbase.jremote.jca.mbean") in [com.jbase.jremote.jca.mbean](./../../com.jbase.jremote.jca.mbean-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.jca.mbean](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary) that return [JRemoteStatisticsCounter.Types](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types "enum in com.jbase.jremote.jca.mbean") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca.mbean](./../../com.jbase.jremote.jca.mbean-%28jremote---api%29) that return [JRemoteStatisticsCounter.Types](./../../jremotestatisticscounter-%28jremote---api%29 "enum in com.jbase.jremote.jca.mbean") | Modifier and Type | Method and Description |
 | --- | --- |
 | `static JRemoteStatisticsCounter.Types` | JRemoteStatisticsCounter.Types.`valueOf(String name)`<br>Returns the enum constant of this type with the specified name.<br> |
 | `static JRemoteStatisticsCounter.Types[]` | JRemoteStatisticsCounter.Types.`values()`<br>Returns an array containing the constants of this enum type, in<br>the order they are declared.<br> |
 
 
 
-Constructors in [com.jbase.jremote.jca.mbean](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary) with parameters of type [JRemoteStatisticsCounter.Types](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types "enum in com.jbase.jremote.jca.mbean") | Constructor and Description |
+Constructors in [com.jbase.jremote.jca.mbean](./../../com.jbase.jremote.jca.mbean-%28jremote---api%29) with parameters of type [JRemoteStatisticsCounter.Types](./../../jremotestatisticscounter-%28jremote---api%29 "enum in com.jbase.jremote.jca.mbean") | Constructor and Description |
 | --- |
 | `JRemoteStatisticsCounter(JRemoteStatisticsCounter.Types id)`  |
 | `JRemoteStatisticsCounter(JRemoteStatisticsCounter.Types id,<br>                        int initialCount)`  |
@@ -57,10 +57,10 @@ Constructors in [com.jbase.jremote.jca.mbean](/39266-mbean/com_jbase_jremote_jca
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
-- [Class](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types "enum in com.jbase.jremote.jca.mbean")
+- [Package](./../../com.jbase.jremote.jca.mbean-%28jremote---api%29)
+- [Class](./../../jremotestatisticscounter-%28jremote---api%29 "enum in com.jbase.jremote.jca.mbean")
 - Use
-- [Tree](/39266-mbean/com_jbase_jremote_jca_mbean_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.mbean-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -71,8 +71,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/mbean/class-use//39267-class-use/com_jbase_jremote_jca_mbean_class-use_JRemoteStatisticsCounter.Types)
-- [No Frames](/39267-class-use/com_jbase_jremote_jca_mbean_class-use_JRemoteStatisticsCounter.Types)
+- [Frames](./../uses-of-class-com.jbase.jremote.jca.mbean.jremotestatisticscounter-%28jremote---api%29)
+- [No Frames](./../uses-of-class-com.jbase.jremote.jca.mbean.jremotestatisticscounter-%28jremote---api%29)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

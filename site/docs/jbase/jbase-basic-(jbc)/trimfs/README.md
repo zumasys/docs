@@ -17,4 +17,4 @@ If dynamic.array evaluates to null, null is returned. If any element of dynamic.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

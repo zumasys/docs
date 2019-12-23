@@ -6,7 +6,7 @@
 
 
 # Interface JConnection
-All Known Subinterfaces:[JXAConnection](jxaconnection "interface in com.jbase.jremote")All Known Implementing Classes:[JConnectionImpl](jconnectionimpl "class in com.jbase.jremote.io"), [WrappedJConnection](wrappedjconnection "class in com.jbase.jremote.jca")
+All Known Subinterfaces:[JXAConnection](./../jxaconnection "interface in com.jbase.jremote")All Known Implementing Classes:[JConnectionImpl](jconnectionimpl "class in com.jbase.jremote.io"), [WrappedJConnection](./../wrappedjconnection "class in com.jbase.jremote.jca")
 ```
 public interface JConnection
 ```
@@ -75,7 +75,7 @@ The connection to a remote jBASE instance.
 static final String JBASE_DEFAULT_ENCODING
 ```
 
-**See Also:**[Constant Field Values](299736-constant-values)
+**See Also:**[Constant Field Values](./../../jremote/constant-field-values)
 
 
 

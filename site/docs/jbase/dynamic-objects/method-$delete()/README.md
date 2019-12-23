@@ -68,4 +68,4 @@ Results:
 
 ## Notes
 
-See also [$insert()](method-insert)
+See also [$insert()](./../method-$insert%28%29)

@@ -9,4 +9,4 @@
 
 The char utility displays a character conversion table, providing decimal, hexadecimal and octal representations of the ANSI character.
 
-[ASCII Code Chart](ascii-code-chart)
+[ASCII Code Chart](./../ascii-code-chart)

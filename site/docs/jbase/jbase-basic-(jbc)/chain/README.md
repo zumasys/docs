@@ -15,7 +15,7 @@ CHAIN expression
 
 Where **expression** should evaluate to a valid UNIX or Windows command, Which may be another jBASE BASIC program.
 
-The command string may be suffixed with the ‘I’ option, which will cause any [COMMON](276024-common) variables in the current program to be inherited by the new program (providing it is a jBASE BASIC program).
+The command string may be suffixed with the ‘I’ option, which will cause any [COMMON](./../common) variables in the current program to be inherited by the new program (providing it is a jBASE BASIC program).
 
 ## Note:
 
@@ -56,6 +56,6 @@ running prog1 will result in:
 
 being displayed.
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

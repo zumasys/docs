@@ -39,7 +39,7 @@ action.code indicates what should happen if the field is null, or the if record
 > 
 > If -1 is supplied for field#, the entire record will be returned.
 > 
-> The **TRANS** function is the same as the [XLATE](279577-xlate) function.
+> The **TRANS** function is the same as the [XLATE](./../xlate) function.
 
 
 An example of use is the retrieval of a simple field: Given a file called "VENDORS" containing a record with the record key of "12345" and which contains the value of "ABC Company" in field 1, accomplished as follows:
@@ -92,6 +92,6 @@ A]1]Vendor Name]]]]]L]30
 
 
 
-See also: [XLATE](279577-xlate).
+See also: [XLATE](./../xlate).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

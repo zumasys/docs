@@ -9,7 +9,7 @@
 
 ## Class AbstractJRemoteConnection
 
-Direct Known Subclasses:[InterceptorConnection](/39250-io/com_jbase_jremote_io_interceptorconnection "class in com.jbase.jremote.io"), [JRemoteSocketConnection](/39250-io/com_jbase_jremote_io_jremotesocketconnection "class in com.jbase.jremote.io")
+Direct Known Subclasses:[InterceptorConnection](./../interceptorconnection-%28jremote-api%29 "class in com.jbase.jremote.io"), [JRemoteSocketConnection](./../jremotesocketconnection-%28jremote-api%29 "class in com.jbase.jremote.io")
 * * *
 
 

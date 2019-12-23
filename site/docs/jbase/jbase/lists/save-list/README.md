@@ -48,6 +48,6 @@ SAVE-LIST {DICT} filename listname
 
 
 
-See Also: [list storage](325913-list-storage).
+See Also: [list storage](./../list-storage).
 
-Back to [List Processing](325912-list-processing)
+Back to [List Processing](./../list-processing)

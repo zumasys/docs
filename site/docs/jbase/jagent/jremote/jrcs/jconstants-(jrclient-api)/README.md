@@ -65,7 +65,7 @@ public static final int JRCS_PORT
 
 Default jRCS listening port
 
-See Also: [Constant Field Values](299736-constant-values)
+See Also: [Constant Field Values](./../../jremote/constant-field-values)
 
 
 
@@ -79,7 +79,7 @@ public static final char AM
 
 Default attribute mark character
 
-See Also: [Constant Field Values](299736-constant-values)
+See Also: [Constant Field Values](./../../jremote/constant-field-values)
 
 #### 
 
@@ -95,7 +95,7 @@ public static final char VM
 
 Default value mark character
 
-See Also: [Constant Field Values](299736-constant-values#com.jbase.jrcs.JConstants.VM)
+See Also: [Constant Field Values](./../../jremote/constant-field-values)
 
 #### 
 
@@ -111,7 +111,7 @@ public static final char SVM
 
 Default subvalue mark character
 
-See Also: [Constant Field Values](299736-constant-values#com.jbase.jrcs.JConstants.SVM)
+See Also: [Constant Field Values](./../../jremote/constant-field-values)
 
 
 

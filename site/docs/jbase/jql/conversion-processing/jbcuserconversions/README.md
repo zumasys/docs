@@ -39,7 +39,7 @@ RETURN
 
 
 
-Be sure that the cataloged subroutine is visible from the [JBCOBJECTLIST](jbcobjectlist) environment variable. The subroutine's five parameters are:
+Be sure that the cataloged subroutine is visible from the [JBCOBJECTLIST](./../../../environment-variables/jbcobjectlist) environment variable. The subroutine's five parameters are:
 
 
 | Parameter<br> | Description<br> |
@@ -67,4 +67,4 @@ If JBCUserConversions is called from jQL then the type is set to -1. This gives 
 
 
 
-Back to [Conversion Processing](321577-conversion-processing)
+Back to [Conversion Processing](./../conversion-processing)

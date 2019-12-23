@@ -123,4 +123,4 @@ Results:
 
 ## Notes
 
-See also [$tojson()](method-tojson)
+See also [$tojson()](./../method-$tojson%28%29)

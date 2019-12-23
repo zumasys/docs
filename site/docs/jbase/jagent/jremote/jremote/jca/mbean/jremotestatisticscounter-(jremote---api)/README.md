@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
+- [Package](./../com.jbase.jremote.jca.mbean-%28jremote---api%29)
 - Class
-- [Use](/39267-class-use/com_jbase_jremote_jca_mbean_class-use_JRemoteStatisticsCounter)
-- [Tree](/39266-mbean/com_jbase_jremote_jca_mbean_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.mbean.jremotestatisticscounter-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.mbean-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -21,11 +21,11 @@ Skip navigation links
 jremote <br>
 
 - Prev Class
-- [Next Class](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types "enum in com.jbase.jremote.jca.mbean")
+- [Next Class](./. "enum in com.jbase.jremote.jca.mbean")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/mbean//39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter)
-- [No Frames](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -53,7 +53,7 @@ com.jbase.jremote.jca.mbean
 - - com.jbase.jremote.jca.mbean.JRemoteStatisticsCounter
 
 
-- All Implemented Interfaces:[StatisticsCounter](/39256-inflow/com_jbase_jremote_io_inflow_StatisticsCounter "interface in com.jbase.jremote.io.inflow")
+- All Implemented Interfaces:[StatisticsCounter](./../../../io/inflow/statisticscounter-%28jremote---api%29 "interface in com.jbase.jremote.io.inflow")
 * * *
 
 
@@ -154,10 +154,10 @@ Overrides:`equals` in class `Object`
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
+- [Package](./../com.jbase.jremote.jca.mbean-%28jremote---api%29)
 - Class
-- [Use](/39267-class-use/com_jbase_jremote_jca_mbean_class-use_JRemoteStatisticsCounter)
-- [Tree](/39266-mbean/com_jbase_jremote_jca_mbean_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.mbean.jremotestatisticscounter-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.mbean-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -165,11 +165,11 @@ Skip navigation links
 jremote <br>
 
 - Prev Class
-- [Next Class](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types "enum in com.jbase.jremote.jca.mbean")
+- [Next Class](./. "enum in com.jbase.jremote.jca.mbean")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/mbean//39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter)
-- [No Frames](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

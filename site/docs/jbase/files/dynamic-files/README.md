@@ -55,9 +55,9 @@ fbcentos-~: create-file DEMO 1 23
 
 > ### Note: 
 > 
-> Effective as of jBASE 5.7.1, all files in an account can be converted to Dynamic by issuing this command: [**jrf**](jrf)**-E \***
+> Effective as of jBASE 5.7.1, all files in an account can be converted to Dynamic by issuing this command: [**jrf**](./../jrf)**-E \***
 
 
 
 
-Return to [Files](306052-jbase-files)
+Return to [Files](./../jbase-files)

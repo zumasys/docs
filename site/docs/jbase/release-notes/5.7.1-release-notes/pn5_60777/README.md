@@ -21,4 +21,4 @@ Some of the jBASE utilities were not working correctly with this security model.
 
 ### Current Release Behavior
 
-jBASE now employs a system wide security mode as described [here](jbase-encryption-database-security).
+jBASE now employs a system wide security mode as described [here](./../../../jbase/jbase-encryption---database-security).

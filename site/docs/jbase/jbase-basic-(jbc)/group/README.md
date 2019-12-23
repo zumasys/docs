@@ -9,7 +9,7 @@
 
 # Description
 
-The **GROUP** function is equivalent to the [FIELD](/36868-jbase-basic/field) function. It takes the general form:
+The **GROUP** function is equivalent to the [FIELD](./../field) function. It takes the general form:
 
 ```
 GROUP(Expression1, Expression2, Expression3, Expression4)
@@ -46,4 +46,4 @@ on the terminal being the second and third fields and their delimiter within var
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

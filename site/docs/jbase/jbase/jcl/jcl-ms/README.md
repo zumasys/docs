@@ -42,4 +42,4 @@ Hold file numbers are returned as Entry #n, where "n" is the hold file number.
 
 The COPY command on line 4 creates a print file and the hold file number is written to the SIB. The S10 command on line 6 positions the PIB buffer pointer to parameter 10. The MS command on line 8 moves the contents of the SIB into the PIB starting at the 10th parameter of the PIB.
 
-Back to [JCL Commands](jcl-commands).
+Back to [JCL Commands](./../jcl-commands).

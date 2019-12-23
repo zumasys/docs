@@ -209,7 +209,7 @@ You can now run your MVConnect program directly from your shell and exercise dif
 
 Because web/rest functions run in the background it is difficult to see actual errors.  Most platforms offer some type of logging for errors.
 
-Jbase documentation on Error Logging [Link](https://www.jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/sup42_ERROR_HANDLING.htm)
+Jbase documentation on Error Logging [Link](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup42_ERROR_HANDLING.htm)
 
 New run-time errors option [Link](https://docs.jbase.com/43708-misc-patches/pn5_60517)
 
@@ -227,4 +227,4 @@ SSELECT MD BY A1
 jsh DEMOS ~ -->
 ```
 
-Back to [Introduction to Troubleshooting](317524-introduction-to-troubleshooting-mvconnect)
+Back to [Introduction to Troubleshooting](./../../introduction-to-troubleshooting)

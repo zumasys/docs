@@ -7,7 +7,7 @@
 
 ## Description 
 
-jBASE provides support for the legacy user exit construct. In addition to providing a number of [standard user exits](324980-supported-user-exits), jBASE allows the user to create custom user exits. This has been done to cater for the more obscure user exits that are sometimes used in legacy code. It is recommended that custom user exits are **not** created for new applications.
+jBASE provides support for the legacy user exit construct. In addition to providing a number of [standard user exits](./../supported-user-exits), jBASE allows the user to create custom user exits. This has been done to cater for the more obscure user exits that are sometimes used in legacy code. It is recommended that custom user exits are **not** created for new applications.
 
 A user-exit can be called by a user application via the "U" conversion code in an ICONV or an OCONV function. For example, the jBC code might be:
 
@@ -49,7 +49,7 @@ END CASE
 RETURN
 ```
 
-The SUBROUTINE is functionally very similar to that for the [Conversion Code Extensions](321293-jbcuserconversions). There main difference is the line:
+The SUBROUTINE is functionally very similar to that for the [Conversion Code Extensions](./../jbcuserconversions). There main difference is the line:
 
 ```
 UCASE = OCONV(code, "MCU")[1,5]

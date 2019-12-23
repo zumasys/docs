@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39233-charset/com_jbase_jdbc_io_charset_package-summary)
-- [Class](/39233-charset/com_jbase_jdbc_io_charset_JbasePrivateUseCharset "class in com.jbase.jdbc.io.charset")
+- [Package](./../../com.jbase.jdbc.io.charset-%28jbasejdbc---api%29)
+- [Class](./../../jbaseprivateusecharset-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.charset")
 - Use
-- [Tree](/39233-charset/com_jbase_jdbc_io_charset_package-tree)
+- [Tree](./../../com.jbase.jdbc.io.charset-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jdbc/io/charset/class-use//39234-class-use/com_jbase_jdbc_io_charset_class-use_JbasePrivateUseCharset)
-- [No Frames](/39234-class-use/com_jbase_jdbc_io_charset_class-use_JbasePrivateUseCharset)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ jbasejdbc <br>
 ## Uses of Class
 com.jbase.jdbc.io.charset.JbasePrivateUseCharset
 
-- Packages that use [JbasePrivateUseCharset](/39233-charset/com_jbase_jdbc_io_charset_JbasePrivateUseCharset "class in com.jbase.jdbc.io.charset") | Package | Description |
+- Packages that use [JbasePrivateUseCharset](./../../jbaseprivateusecharset-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.charset") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.io.charset |   |
-- - ### Uses of [JbasePrivateUseCharset](/39233-charset/com_jbase_jdbc_io_charset_JbasePrivateUseCharset "class in com.jbase.jdbc.io.charset") in [com.jbase.jdbc.io.charset](/39233-charset/com_jbase_jdbc_io_charset_package-summary)
+- - ### Uses of [JbasePrivateUseCharset](./../../jbaseprivateusecharset-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.charset") in [com.jbase.jdbc.io.charset](./../../com.jbase.jdbc.io.charset-%28jbasejdbc---api%29)
 
 
-Constructors in [com.jbase.jdbc.io.charset](/39233-charset/com_jbase_jdbc_io_charset_package-summary) with parameters of type [JbasePrivateUseCharset](/39233-charset/com_jbase_jdbc_io_charset_JbasePrivateUseCharset "class in com.jbase.jdbc.io.charset") | Constructor and Description |
+Constructors in [com.jbase.jdbc.io.charset](./../../com.jbase.jdbc.io.charset-%28jbasejdbc---api%29) with parameters of type [JbasePrivateUseCharset](./../../jbaseprivateusecharset-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.charset") | Constructor and Description |
 | --- |
 | `JbasePrivateUseCharsetDecoder(JbasePrivateUseCharset charset,<br>                             CharsetDecoder baseDecoder)`  |
 | `JbasePrivateUseCharsetEncoder(JbasePrivateUseCharset charset,<br>                             CharsetEncoder baseEncoder)`  |
@@ -50,10 +50,10 @@ Constructors in [com.jbase.jdbc.io.charset](/39233-charset/com_jbase_jdbc_io_cha
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39233-charset/com_jbase_jdbc_io_charset_package-summary)
-- [Class](/39233-charset/com_jbase_jdbc_io_charset_JbasePrivateUseCharset "class in com.jbase.jdbc.io.charset")
+- [Package](./../../com.jbase.jdbc.io.charset-%28jbasejdbc---api%29)
+- [Class](./../../jbaseprivateusecharset-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.charset")
 - Use
-- [Tree](/39233-charset/com_jbase_jdbc_io_charset_package-tree)
+- [Tree](./../../com.jbase.jdbc.io.charset-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -64,8 +64,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jdbc/io/charset/class-use//39234-class-use/com_jbase_jdbc_io_charset_class-use_JbasePrivateUseCharset)
-- [No Frames](/39234-class-use/com_jbase_jdbc_io_charset_class-use_JbasePrivateUseCharset)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

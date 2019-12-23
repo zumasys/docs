@@ -23,4 +23,4 @@ If there is no corresponding element in the correct response array, it returns a
 
 
 
-Go back to [jBASE BASIC.](263498-jbase-basic)
+Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)

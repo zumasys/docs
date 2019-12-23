@@ -28,4 +28,4 @@ See also GO  B and GO F commands for examples of usage.
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

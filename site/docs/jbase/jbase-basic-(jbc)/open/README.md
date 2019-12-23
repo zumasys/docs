@@ -20,8 +20,8 @@ OPEN{expression1,}expression2 TO{variable} {SETTING setvar}THEN|ELSE statements
 Where:
 
 - The combination of **expression1** and **expression2** should evaluate to a valid file name of a file type that already installed on the jBASE system. If the file has a dictionary section to be opened by the statement then specify by the literal string "DICT" being specified in **expression1**.
-- If specified, the **variable** will be used to hold the descriptor for the file. It should then be to access the file using [READ](277646-read) and [WRITE](279568-write). If no file descriptor variable is supplied, then the file will be opened to the default file descriptor. Specific data sections of a multi level file may specified by separating the section name from the file name by a "," char in **expression2**.
-- If specifying the **SETTING**clause and the open fails, **setvar** will be set to one of [these values](277647-increamental-file-errors).
+- If specified, the **variable** will be used to hold the descriptor for the file. It should then be to access the file using [READ](./../read) and [WRITE](./../write). If no file descriptor variable is supplied, then the file will be opened to the default file descriptor. Specific data sections of a multi level file may specified by separating the section name from the file name by a "," char in **expression2**.
+- If specifying the **SETTING**clause and the open fails, **setvar** will be set to one of [these values](./../incremental-file-errors).
 
 
 If the **OPEN**statement fails it will execute any statements associated with an ELSE clause. If the **OPEN** is successful, it will execute any statements associated with a THEN clause. The syntax requires either one or both of the THEN and ELSE clauses.
@@ -48,4 +48,4 @@ to open the CUSTOMERS file to the default file variable.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

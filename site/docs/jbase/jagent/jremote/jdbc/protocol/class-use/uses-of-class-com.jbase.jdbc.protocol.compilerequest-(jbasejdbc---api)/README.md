@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
-- [Class](/39240-protocol/com_jbase_jdbc_protocol_CompileRequest "class in com.jbase.jdbc.protocol")
+- [Package](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
+- [Class](./../../compilerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 - Use
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Tree](./../../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/protocol/class-use//39241-class-use/com_jbase_jdbc_protocol_class-use_compilerequest)
-- [No Frames](/39241-class-use/com_jbase_jdbc_protocol_class-use_compilerequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ jbasejdbc <br>
 ## Uses of Class
 com.jbase.jdbc.protocol.CompileRequest
 
-- Packages that use [CompileRequest](/39240-protocol/com_jbase_jdbc_protocol_CompileRequest "class in com.jbase.jdbc.protocol") | Package | Description |
+- Packages that use [CompileRequest](./../../compilerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.protocol |   |
-- - ### Uses of [CompileRequest](/39240-protocol/com_jbase_jdbc_protocol_CompileRequest "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- - ### Uses of [CompileRequest](./../../compilerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 
 
-Subclasses of [CompileRequest](/39240-protocol/com_jbase_jdbc_protocol_CompileRequest "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary) | Modifier and Type | Class and Description |
+Subclasses of [CompileRequest](./../../compilerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29) | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `CompileAndExecuteRequest`<br>Request to compile and execute a SQL statement.<br> |
 | `class` | `PrecompileRequest`<br>Request to precompile (or prepare) a parametrized SQL statement.<br> |
@@ -50,10 +50,10 @@ Subclasses of [CompileRequest](/39240-protocol/com_jbase_jdbc_protocol_CompileRe
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
-- [Class](/39240-protocol/com_jbase_jdbc_protocol_CompileRequest "class in com.jbase.jdbc.protocol")
+- [Package](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
+- [Class](./../../compilerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 - Use
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Tree](./../../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -64,8 +64,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/protocol/class-use//39241-class-use/com_jbase_jdbc_protocol_class-use_compilerequest)
-- [No Frames](/39241-class-use/com_jbase_jdbc_protocol_class-use_compilerequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

@@ -28,12 +28,12 @@ There are two different web servers for MVConnect.  On jBase jAgent can be the 
 
 
 
-[TROUBLESHOOTING THE WEB SERVER](317533-troubleshooting-jagent-mvconnect)
+[TROUBLESHOOTING THE WEB SERVER](./../troubleshooting/troubleshooting-web-server)
 
-[TROUBLESHOOTING WITH WDEBUG](317564-troubleshooting-with-wdebug)
-
-
+[TROUBLESHOOTING WITH WDEBUG](./../troubleshooting/troubleshooting-with-wdebug)
 
 
 
-Back to [MV Connect Manual](mv-connect-manual)
+
+
+Back to [MV Connect Manual](./../mvconnect-manual)

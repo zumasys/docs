@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39256-inflow/com_jbase_jremote_io_inflow_package-summary)
-- [Class](/39256-inflow/com_jbase_jremote_io_inflow_PendingChange "class in com.jbase.jremote.io.inflow")
+- [Package](./../../com.jbase.jremote.io.inflow-%28jremote---api%29)
+- [Class](./../../pendingchange-%28jremote---api%29 "class in com.jbase.jremote.io.inflow")
 - Use
-- [Tree](/39256-inflow/com_jbase_jremote_io_inflow_package-tree)
+- [Tree](./../../com.jbase.jremote.io.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/io/inflow/class-use//39257-class-use/com_jbase_jremote_io_inflow_class-use_PendingChange)
-- [No Frames](/39257-class-use/com_jbase_jremote_io_inflow_class-use_PendingChange)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.jremote.io.inflow.PendingChange
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39256-inflow/com_jbase_jremote_io_inflow_package-summary)
-- [Class](/39256-inflow/com_jbase_jremote_io_inflow_PendingChange "class in com.jbase.jremote.io.inflow")
+- [Package](./../../com.jbase.jremote.io.inflow-%28jremote---api%29)
+- [Class](./../../pendingchange-%28jremote---api%29 "class in com.jbase.jremote.io.inflow")
 - Use
-- [Tree](/39256-inflow/com_jbase_jremote_io_inflow_package-tree)
+- [Tree](./../../com.jbase.jremote.io.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/io/inflow/class-use//39257-class-use/com_jbase_jremote_io_inflow_class-use_PendingChange)
-- [No Frames](/39257-class-use/com_jbase_jremote_io_inflow_class-use_PendingChange)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

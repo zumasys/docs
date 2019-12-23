@@ -11,10 +11,10 @@ With jBASE 5, the licensing model has been redesigned in order to simplify the c
 
 Among the options available with jBASE licensing are:
 
-1. Install a permanent jBASE license as part of the product installation (Please refer to [Windows](jbase-56-windows-installation-guide) or [Linux](jbase-56-linux-installation-guide) Installation guide ),
-2. Install an evaluation license as part of the product installation (Please refer to [Windows](jbase-56-windows-installation-guide) or [Linux](jbase-56-linux-installation-guide)  Installation guide ),
-3. [Upgrade a evaluation license to a permanent license,](305038-installing-jbase-license-keys)
-4. [Upgrade a standard edition permanent license and add MultiSession license](305038-installing-jbase-license-keys).
+1. Install a permanent jBASE license as part of the product installation (Please refer to [Windows](./../../../administration/installation-guides/jbase-5.6-windows-installation-guide) or [Linux](jbase-56-linux-installation-guide) Installation guide ),
+2. Install an evaluation license as part of the product installation (Please refer to [Windows](./../../../administration/installation-guides/jbase-5.6-windows-installation-guide) or [Linux](jbase-56-linux-installation-guide)  Installation guide ),
+3. [Upgrade a evaluation license to a permanent license,](./../../../administration/installation-guides/working-with-jbase-license-keys)
+4. [Upgrade a standard edition permanent license and add MultiSession license](./../../../administration/installation-guides/working-with-jbase-license-keys).
 
 
 ## 

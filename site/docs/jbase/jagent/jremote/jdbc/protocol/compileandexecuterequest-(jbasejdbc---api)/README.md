@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- [Package](./../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 - Class
-- [Use](/39241-class-use/com_jbase_jdbc_protocol_class-use_compileandexecuterequest)
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.protocol.compileandexecuterequest-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39240-protocol/com_jbase_jdbc_protocol_CallSubroutineRequest "class in com.jbase.jdbc.protocol")
-- [Next Class](/39240-protocol/com_jbase_jdbc_protocol_CompileRequest "class in com.jbase.jdbc.protocol")
+- [Prev Class](./../callsubroutinerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
+- [Next Class](./../compilerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_CompileAndExecuteRequest)
-- [No Frames](/39240-protocol/com_jbase_jdbc_protocol_CompileAndExecuteRequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -50,12 +50,12 @@ com.jbase.jdbc.protocol
 ## Class CompileAndExecuteRequest
 
 - [java.lang.Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
-- - [com.jbase.jdbc.protocol.SQLStartRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLStartRequest "class in com.jbase.jdbc.protocol")
-    - - [com.jbase.jdbc.protocol.CompileRequest](/39240-protocol/com_jbase_jdbc_protocol_CompileRequest "class in com.jbase.jdbc.protocol")
+- - [com.jbase.jdbc.protocol.SQLStartRequest](./../sqlstartrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
+    - - [com.jbase.jdbc.protocol.CompileRequest](./../compilerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
         - - com.jbase.jdbc.protocol.CompileAndExecuteRequest
 
 
-- All Implemented Interfaces:[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+- All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 * * *
 
 
@@ -69,17 +69,17 @@ Author:Peter Kuchta
 
 - - ### Nested Class Summary
 
-        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](./../../io/jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 `JBaseSerializable.TYPE`
 
 
     - ### Field Summary
 
-        - ### Fields inherited from class com.jbase.jdbc.protocol.[CompileRequest](/39240-protocol/com_jbase_jdbc_protocol_CompileRequest "class in com.jbase.jdbc.protocol")
+        - ### Fields inherited from class com.jbase.jdbc.protocol.[CompileRequest](./../compilerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 `CN, sql`
 
 
-        - ### Fields inherited from class com.jbase.jdbc.protocol.[SQLStartRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLStartRequest "class in com.jbase.jdbc.protocol")
+        - ### Fields inherited from class com.jbase.jdbc.protocol.[SQLStartRequest](./../sqlstartrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 `log`
 
 
@@ -100,11 +100,11 @@ All Methods [Instance Methods](javascript:show%282%29;) [Concrete Methods](javas
 | `int` | `getType()`<br>This method must be overridden by classes inheriting from SQLStartRequest.<br> |
 
 
-        - ### Methods inherited from class com.jbase.jdbc.protocol.[CompileRequest](/39240-protocol/com_jbase_jdbc_protocol_CompileRequest "class in com.jbase.jdbc.protocol")
+        - ### Methods inherited from class com.jbase.jdbc.protocol.[CompileRequest](./../compilerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 `getStatement, readObject, writeObject`
 
 
-        - ### Methods inherited from class com.jbase.jdbc.protocol.[SQLStartRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLStartRequest "class in com.jbase.jdbc.protocol")
+        - ### Methods inherited from class com.jbase.jdbc.protocol.[SQLStartRequest](./../sqlstartrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 `getVersion`
 
 
@@ -143,22 +143,22 @@ Specified by:`getType` in interface `JBaseSerializable`Overrides:`getType` in cl
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- [Package](./../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 - Class
-- [Use](/39241-class-use/com_jbase_jdbc_protocol_class-use_compileandexecuterequest)
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.protocol.compileandexecuterequest-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39240-protocol/com_jbase_jdbc_protocol_CallSubroutineRequest "class in com.jbase.jdbc.protocol")
-- [Next Class](/39240-protocol/com_jbase_jdbc_protocol_CompileRequest "class in com.jbase.jdbc.protocol")
+- [Prev Class](./../callsubroutinerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
+- [Next Class](./../compilerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_CompileAndExecuteRequest)
-- [No Frames](/39240-protocol/com_jbase_jdbc_protocol_CompileAndExecuteRequest)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

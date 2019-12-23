@@ -23,9 +23,9 @@ The **FUNCTION** statement is used to identify user-written source code function
 
 The optional comma separated variable list can be a number of expressions that pass values between the calling programs and the function. To pass an array the variable name must be preceded by the MAT keyword. When a user-written function is called, the calling program must specify the same number of variables that are specified in the **FUNCTION** statement.
 
-An extra 'hidden' variable is used to return a value from the user-written function. The value to be returned can be specified within the Function by the [RETURN(value)](278787-return) statement. If using the [RETURN](278787-return) statement without a value then by default it returns an empty string.
+An extra 'hidden' variable is used to return a value from the user-written function. The value to be returned can be specified within the Function by the [RETURN(value)](./../return) statement. If using the [RETURN](./../return) statement without a value then by default it returns an empty string.
 
-The calling program must specify a [DEFFUN](267423-deffun) or DEFB statement to describe the function to be called and the function source must be cataloged and locatable similar to subroutines.
+The calling program must specify a [DEFFUN](./../deffun) or DEFB statement to describe the function to be called and the function source must be cataloged and locatable similar to subroutines.
 
 An example of use would be:
 
@@ -37,4 +37,4 @@ RETURN (Result)
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

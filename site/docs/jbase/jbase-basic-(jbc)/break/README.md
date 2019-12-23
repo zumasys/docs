@@ -28,6 +28,6 @@ An example of its use is as:
 
 
 
-See also [BREAK ON/OFF](break-on-off), [CONTINUE](277124-continue)
+See also [BREAK ON/OFF](./../break-on&off), [CONTINUE](./../continue)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

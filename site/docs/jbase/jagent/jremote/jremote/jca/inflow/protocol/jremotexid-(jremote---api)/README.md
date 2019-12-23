@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
+- [Package](./../com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
 - Class
-- [Use](/39265-class-use/com_jbase_jremote_jca_inflow_protocol_class-use_JRemoteXid)
-- [Tree](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.inflow.protocol.jremotexid-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.inflow.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol")
-- [Next Class](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_noendpointactivatedresponse "class in com.jbase.jremote.jca.inflow.protocol")
+- [Prev Class](./../inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol")
+- [Next Class](./../noendpointactivatedresponse-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol")
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/inflow/protocol//39264-protocol/com_jbase_jremote_jca_inflow_protocol_JRemoteXid)
-- [No Frames](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_JRemoteXid)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -136,22 +136,22 @@ Overrides:`equals` in class `Object`
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
+- [Package](./../com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
 - Class
-- [Use](/39265-class-use/com_jbase_jremote_jca_inflow_protocol_class-use_JRemoteXid)
-- [Tree](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.inflow.protocol.jremotexid-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.inflow.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol")
-- [Next Class](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_noendpointactivatedresponse "class in com.jbase.jremote.jca.inflow.protocol")
+- [Prev Class](./../inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol")
+- [Next Class](./../noendpointactivatedresponse-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol")
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/inflow/protocol//39264-protocol/com_jbase_jremote_jca_inflow_protocol_JRemoteXid)
-- [No Frames](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_JRemoteXid)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

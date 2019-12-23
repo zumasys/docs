@@ -20,7 +20,7 @@ where c is an optional prompt character, which, once used, remains in effect unt
 ## Note:
 
 
-> The IBN command is similar to the IN command except that the input string is placed in the buffer as a single parameter and all spaces are maintained. The new data replaces the content of the secondary input buffer, and the secondary input buffer will remain active until an [RI](318736-jcl-ri) , [S](318874-jcl-s)(n) or [MV](318730-jcl-mv) %n source command is used. If the user responds with ENTER only, a null parameter will be created.
+> The IBN command is similar to the IN command except that the input string is placed in the buffer as a single parameter and all spaces are maintained. The new data replaces the content of the secondary input buffer, and the secondary input buffer will remain active until an [RI](./../jcl-ri) , [S](./../jcl-s)(n) or [MV](./../jcl-mv) %n source command is used. If the user responds with ENTER only, a null parameter will be created.
 
 
 
@@ -54,6 +54,6 @@ where c is an optional prompt character, which, once used, remains in effect unt
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)
 
 

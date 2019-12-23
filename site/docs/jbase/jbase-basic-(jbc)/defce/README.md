@@ -9,7 +9,7 @@
 
 # Description
 
-The **DEFCE** statement should be used, rather than the [DEFC](267408-defc) statement, for calling External C programs, which are pure ‘C’ code and do not use the jBASE library macros and functions.
+The **DEFCE** statement should be used, rather than the [DEFC](./../defc) statement, for calling External C programs, which are pure ‘C’ code and do not use the jBASE library macros and functions.
 
 For C functions that do not require jBASE functions, use the **DEFCE** statement, however the passing arguments can only be of type INT, FLOAT and STRING. An example of this can be as:
 
@@ -18,7 +18,7 @@ DEFCE INT CFUNC(INT, FLOAT, VAR)
 Var1 = CFUNC(A, 45, B)
 ```
 
-It is also possible to call standard UNIX functions directly by declaring them with the [DEFC](267408-defc) statement according to their parameter requirements. They can be called directly provided they return type INT or FLOAT/DOUBLE, or that the return type may be ignored. An example is as:
+It is also possible to call standard UNIX functions directly by declaring them with the [DEFC](./../defc) statement according to their parameter requirements. They can be called directly provided they return type INT or FLOAT/DOUBLE, or that the return type may be ignored. An example is as:
 
 ```
 DEFCE INT getpid()
@@ -27,4 +27,4 @@ CRT "Process id =":getpid()
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

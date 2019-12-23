@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39270-protocol/com_jbase_jremote_protocol_package-summary)
+- [Package](./../../com.jbase.jremote.protocol-%28jremote-api%29)
 - [Class](/39270-protocol/com_jbase_jremote_protocol_AuthenticationRequest.UserCredentials "class in com.jbase.jremote.protocol")
 - Use
-- [Tree](/39270-protocol/com_jbase_jremote_protocol_package-tree)
+- [Tree](./../../com.jbase.jremote.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -41,10 +41,10 @@ No usage of com.jbase.jremote.protocol.AuthenticationRequest.UserCredentials
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39270-protocol/com_jbase_jremote_protocol_package-summary)
+- [Package](./../../com.jbase.jremote.protocol-%28jremote-api%29)
 - [Class](/39270-protocol/com_jbase_jremote_protocol_AuthenticationRequest.UserCredentials "class in com.jbase.jremote.protocol")
 - Use
-- [Tree](/39270-protocol/com_jbase_jremote_protocol_package-tree)
+- [Tree](./../../com.jbase.jremote.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 

@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
+- [Package](./../com.jbase.framework.io-%28framework---api%29)
 - Class
-- [Use](/39223-class-use/com_jbase_framework_io_class-use_NIOJBaseObjectWriter)
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.niojbaseobjectwriter-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Class](/39220-io/com_jbase_framework_io_NIOJBaseObjectReader "class in com.jbase.framework.io")
-- [Next Class](/39220-io/com_jbase_framework_io_ObjectFactory "class in com.jbase.framework.io")
+- [Prev Class](./../niojbaseobjectreader-%28framework---api%29 "class in com.jbase.framework.io")
+- [Next Class](./../objectfactory-%28framework---api%29 "class in com.jbase.framework.io")
 
 
-- [Frames](../../../../index.html?com/jbase/framework/io//39220-io/com_jbase_framework_io_NIOJBaseObjectWriter)
-- [No Frames](/39220-io/com_jbase_framework_io_NIOJBaseObjectWriter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -50,11 +50,11 @@ com.jbase.framework.io
 ## Class NIOJBaseObjectWriter
 
 - [java.lang.Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
-- - [com.jbase.framework.io.AbstractJBaseObjectWriter](/39220-io/com_jbase_framework_io_AbstractJBaseObjectWriter "class in com.jbase.framework.io")
+- - [com.jbase.framework.io.AbstractJBaseObjectWriter](./../abstractjbaseobjectwriter-%28framework---api%29 "class in com.jbase.framework.io")
     - - com.jbase.framework.io.NIOJBaseObjectWriter
 
 
-- All Implemented Interfaces:[JBaseObjectWriter](/39220-io/com_jbase_framework_io_JBaseObjectWriter "interface in com.jbase.framework.io")
+- All Implemented Interfaces:[JBaseObjectWriter](./../jbaseobjectwriter-%28framework---api%29 "interface in com.jbase.framework.io")
 * * *
 
 
@@ -97,7 +97,7 @@ All Methods [Instance Methods](javascript:show%282%29;) [Concrete Methods](javas
 | `void` | `setSocketChannel(SocketChannel socketChannel)`  |
 
 
-        - ### Methods inherited from class com.jbase.framework.io.[AbstractJBaseObjectWriter](/39220-io/com_jbase_framework_io_AbstractJBaseObjectWriter "class in com.jbase.framework.io")
+        - ### Methods inherited from class com.jbase.framework.io.[AbstractJBaseObjectWriter](./../abstractjbaseobjectwriter-%28framework---api%29 "class in com.jbase.framework.io")
 `writeInt, writeJBaseSerializableObject, writeObject, writeObject, writeObject, writeObject, writeRootObject`
 
 
@@ -193,22 +193,22 @@ public void setSocketChannel(SocketChannel socketChannel)
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
+- [Package](./../com.jbase.framework.io-%28framework---api%29)
 - Class
-- [Use](/39223-class-use/com_jbase_framework_io_class-use_NIOJBaseObjectWriter)
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.niojbaseobjectwriter-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Class](/39220-io/com_jbase_framework_io_NIOJBaseObjectReader "class in com.jbase.framework.io")
-- [Next Class](/39220-io/com_jbase_framework_io_ObjectFactory "class in com.jbase.framework.io")
+- [Prev Class](./../niojbaseobjectreader-%28framework---api%29 "class in com.jbase.framework.io")
+- [Next Class](./../objectfactory-%28framework---api%29 "class in com.jbase.framework.io")
 
 
-- [Frames](../../../../index.html?com/jbase/framework/io//39220-io/com_jbase_framework_io_NIOJBaseObjectWriter)
-- [No Frames](/39220-io/com_jbase_framework_io_NIOJBaseObjectWriter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

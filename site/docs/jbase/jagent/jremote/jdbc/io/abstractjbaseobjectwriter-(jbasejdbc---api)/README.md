@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
+- [Package](./../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 - Class
-- [Use](/39235-class-use/com_jbase_jdbc_io_class-use_AbstractJBaseObjectWriter)
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.io.abstractjbaseobjectwriter-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectReader "class in com.jbase.jdbc.io")
-- [Next Class](/39232-io/com_jbase_jdbc_io_ByteObject "class in com.jbase.jdbc.io")
+- [Prev Class](./../abstractjbaseobjectreader-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
+- [Next Class](./../byteobject-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/io//39232-io/com_jbase_jdbc_io_AbstractJBaseObjectWriter)
-- [No Frames](/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectWriter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -53,7 +53,7 @@ com.jbase.jdbc.io
 - - com.jbase.jdbc.io.AbstractJBaseObjectWriter
 
 
-- All Implemented Interfaces:[JBaseObjectWriter](/39232-io/com_jbase_jdbc_io_jbaseobjectwriter "interface in com.jbase.jdbc.io")Direct Known Subclasses:[IOJBaseObjectWriter](/39232-io/com_jbase_jdbc_io_IOJBaseObjectWriter "class in com.jbase.jdbc.io"), [NIOJBaseObjectWriter](/39232-io/com_jbase_jdbc_io_niojbaseobjectwriter "class in com.jbase.jdbc.io")
+- All Implemented Interfaces:[JBaseObjectWriter](./../jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")Direct Known Subclasses:[IOJBaseObjectWriter](./../iojbaseobjectwriter-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io"), [NIOJBaseObjectWriter](./../niojbaseobjectwriter-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
 * * *
 
 
@@ -94,7 +94,7 @@ All Methods [Instance Methods](javascript:show%282%29;) [Abstract Methods](javas
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
 
-        - ### Methods inherited from interface com.jbase.jdbc.io.[JBaseObjectWriter](/39232-io/com_jbase_jdbc_io_jbaseobjectwriter "interface in com.jbase.jdbc.io")
+        - ### Methods inherited from interface com.jbase.jdbc.io.[JBaseObjectWriter](./../jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 `close`
 
 - - ### Constructor Detail
@@ -218,22 +218,22 @@ Specified by:`writeRootObject` in interface `JBaseObjectWriter`Throws:`IOExcepti
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
+- [Package](./../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 - Class
-- [Use](/39235-class-use/com_jbase_jdbc_io_class-use_AbstractJBaseObjectWriter)
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.io.abstractjbaseobjectwriter-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectReader "class in com.jbase.jdbc.io")
-- [Next Class](/39232-io/com_jbase_jdbc_io_ByteObject "class in com.jbase.jdbc.io")
+- [Prev Class](./../abstractjbaseobjectreader-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
+- [Next Class](./../byteobject-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/io//39232-io/com_jbase_jdbc_io_AbstractJBaseObjectWriter)
-- [No Frames](/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectWriter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

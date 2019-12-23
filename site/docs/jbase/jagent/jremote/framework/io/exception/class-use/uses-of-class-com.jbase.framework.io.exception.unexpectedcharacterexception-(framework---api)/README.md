@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39224-exception/com_jbase_framework_io_exception_package-summary)
-- [Class](/39224-exception/com_jbase_framework_io_exception_UnexpectedCharacterException "class in com.jbase.framework.io.exception")
+- [Package](./../../com.jbase.framework.io.exception-%28framework---api%29)
+- [Class](./../../unexpectedcharacterexception-%28framework---api%29 "class in com.jbase.framework.io.exception")
 - Use
-- [Tree](/39224-exception/com_jbase_framework_io_exception_package-tree)
+- [Tree](./../../com.jbase.framework.io.exception-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/framework/io/exception/class-use//39225-class-use/com_jbase_framework_io_exception_class-use_UnexpectedCharacterException)
-- [No Frames](/39225-class-use/com_jbase_framework_io_exception_class-use_UnexpectedCharacterException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.framework.io.exception.UnexpectedCharacterException
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39224-exception/com_jbase_framework_io_exception_package-summary)
-- [Class](/39224-exception/com_jbase_framework_io_exception_UnexpectedCharacterException "class in com.jbase.framework.io.exception")
+- [Package](./../../com.jbase.framework.io.exception-%28framework---api%29)
+- [Class](./../../unexpectedcharacterexception-%28framework---api%29 "class in com.jbase.framework.io.exception")
 - Use
-- [Tree](/39224-exception/com_jbase_framework_io_exception_package-tree)
+- [Tree](./../../com.jbase.framework.io.exception-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/framework/io/exception/class-use//39225-class-use/com_jbase_framework_io_exception_class-use_UnexpectedCharacterException)
-- [No Frames](/39225-class-use/com_jbase_framework_io_exception_class-use_UnexpectedCharacterException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

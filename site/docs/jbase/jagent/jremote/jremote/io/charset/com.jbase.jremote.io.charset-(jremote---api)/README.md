@@ -12,20 +12,20 @@ Skip navigation links
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39251-charset/com_jbase_jremote_io_charset_package-use)
-- [Tree](/39251-charset/com_jbase_jremote_io_charset_package-tree)
+- [Use](./../uses-of-package-com.jbase.jremote.io.charset-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.io.charset-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Package](/39250-io/com_jbase_jremote_io_package-summary)
-- [Next Package](/39254-exception/com_jbase_jremote_io_exception_package-summary)
+- [Prev Package](./../../com.jbase.jremote.io-%28jremote---api%29)
+- [Next Package](./../../exception/com.jbase.jremote.io.exception-%28jremote---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/charset//39251-charset/com_jbase_jremote_io_charset_package-summary)
-- [No Frames](/39251-charset/com_jbase_jremote_io_charset_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -37,32 +37,32 @@ jremote <br>
 
 - Class Summary | Class | Description |
 | --- | --- |
-| [JbaseCharset](/39251-charset/com_jbase_jremote_io_charset_JbaseCharset "class in com.jbase.jremote.io.charset") |   |
-| [JbaseCharsetDecoder](/39251-charset/com_jbase_jremote_io_charset_JbaseCharsetDecoder "class in com.jbase.jremote.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE charset into a sequence of sixteen-bit Unicode characters.<br> |
-| [JbaseCharsetEncoder](/39251-charset/com_jbase_jremote_io_charset_JbaseCharsetEncoder "class in com.jbase.jremote.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE charset into a sequence of sixteen-bit Unicode characters.<br> |
-| [JbasePrivateUseCharset](/39251-charset/com_jbase_jremote_io_charset_JbasePrivateUseCharset "class in com.jbase.jremote.io.charset") |   |
-| [JbasePrivateUseCharsetDecoder](/39251-charset/com_jbase_jremote_io_charset_JbasePrivateUseCharsetDecoder "class in com.jbase.jremote.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE private use charset into a sequence of sixteen-bit<br> Unicode characters.<br> |
-| [JbasePrivateUseCharsetEncoder](/39251-charset/com_jbase_jremote_io_charset_JbasePrivateUseCharsetEncoder "class in com.jbase.jremote.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE private use charset into a sequence of sixteen-bit<br> Unicode characters.<br> |
+| [JbaseCharset](./../jbasecharset-%28jremote---api%29 "class in com.jbase.jremote.io.charset") |   |
+| [JbaseCharsetDecoder](./../jbasecharsetdecoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE charset into a sequence of sixteen-bit Unicode characters.<br> |
+| [JbaseCharsetEncoder](./../jbasecharsetencoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE charset into a sequence of sixteen-bit Unicode characters.<br> |
+| [JbasePrivateUseCharset](./../jbaseprivateusecharset-%28jremote---api%29 "class in com.jbase.jremote.io.charset") |   |
+| [JbasePrivateUseCharsetDecoder](./../jbaseprivateusecharsetdecoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE private use charset into a sequence of sixteen-bit<br> Unicode characters.<br> |
+| [JbasePrivateUseCharsetEncoder](./../jbaseprivateusecharsetencoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset") | <br>An engine that can transform a sequence of bytes in a<br> jBASE private use charset into a sequence of sixteen-bit<br> Unicode characters.<br> |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39251-charset/com_jbase_jremote_io_charset_package-use)
-- [Tree](/39251-charset/com_jbase_jremote_io_charset_package-tree)
+- [Use](./../uses-of-package-com.jbase.jremote.io.charset-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.io.charset-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Package](/39250-io/com_jbase_jremote_io_package-summary)
-- [Next Package](/39254-exception/com_jbase_jremote_io_exception_package-summary)
+- [Prev Package](./../../com.jbase.jremote.io-%28jremote---api%29)
+- [Next Package](./../../exception/com.jbase.jremote.io.exception-%28jremote---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/charset//39251-charset/com_jbase_jremote_io_charset_package-summary)
-- [No Frames](/39251-charset/com_jbase_jremote_io_charset_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

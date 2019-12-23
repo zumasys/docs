@@ -32,4 +32,4 @@ When processing the JSON config profile, jBASE internally sets environment varia
 
 
 
-Back to [Profiles](jbase-profiles57)
+Back to [Profiles](./../jbase-profiles)

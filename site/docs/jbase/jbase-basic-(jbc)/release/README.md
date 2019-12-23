@@ -7,7 +7,7 @@
 
 # Description
 
-The **RELEASE** statement enables a program to explicitly release record locks without updating the records using [WRITE](279568-write). It takes the general form:
+The **RELEASE** statement enables a program to explicitly release record locks without updating the records using [WRITE](./../write). It takes the general form:
 
 ```
 RELEASE {{variable,} expression}
@@ -15,7 +15,7 @@ RELEASE {{variable,} expression}
 
 Where:
 
-If variable is specified it should be a valid file descriptor variable (i.e. It should have been the subject of an [OPEN](277537-open) statement)
+If variable is specified it should be a valid file descriptor variable (i.e. It should have been the subject of an [OPEN](./../open) statement)
 
 If an expression is supplied it should evaluate to the record key of a record whose lock the program wishes to free.
 
@@ -38,4 +38,4 @@ END
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

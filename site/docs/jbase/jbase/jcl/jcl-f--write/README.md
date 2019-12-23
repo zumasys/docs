@@ -57,8 +57,8 @@ Line 15 reads and locks record ABC in file SALES. If the record does not exist, 
 
 
 
-See also [F-OPEN](318664-jcl-f-open)
+See also [F-OPEN](./../jcl-f--open)
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)
 
 

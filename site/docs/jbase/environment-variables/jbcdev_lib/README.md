@@ -61,4 +61,4 @@ SET JBCDEV_LIB=C:\dev\TESTBASE\lib
 
 
 
-See also: [JBCDEV\_BIN](jbcdev_bin), [JBCOBJECTLIST](jbcobjectlist).
+See also: [JBCDEV\_BIN](./../jbcdev_bin), [JBCOBJECTLIST](./../jbcobjectlist).

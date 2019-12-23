@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39254-exception/com_jbase_jremote_io_exception_package-summary)
+- [Package](./../com.jbase.jremote.io.exception-%28jremote---api%29)
 - Class
-- [Use](/39255-class-use/com_jbase_jremote_io_exception_class-use_UnexpectedCharacterException)
-- [Tree](/39254-exception/com_jbase_jremote_io_exception_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.io.exception.unexpectedcharacterexception-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.io.exception-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -21,11 +21,11 @@ Skip navigation links
 jremote <br>
 
 - Prev Class
-- [Next Class](/39254-exception/com_jbase_jremote_io_exception_UnknownTypeException "class in com.jbase.jremote.io.exception")
+- [Next Class](./../unknowntypeexception-%28jremote---api%29 "class in com.jbase.jremote.io.exception")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/exception//39254-exception/com_jbase_jremote_io_exception_UnexpectedCharacterException)
-- [No Frames](/39254-exception/com_jbase_jremote_io_exception_UnexpectedCharacterException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -111,10 +111,10 @@ public UnexpectedCharacterException(char c)
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39254-exception/com_jbase_jremote_io_exception_package-summary)
+- [Package](./../com.jbase.jremote.io.exception-%28jremote---api%29)
 - Class
-- [Use](/39255-class-use/com_jbase_jremote_io_exception_class-use_UnexpectedCharacterException)
-- [Tree](/39254-exception/com_jbase_jremote_io_exception_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.io.exception.unexpectedcharacterexception-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.io.exception-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -122,11 +122,11 @@ Skip navigation links
 jremote <br>
 
 - Prev Class
-- [Next Class](/39254-exception/com_jbase_jremote_io_exception_UnknownTypeException "class in com.jbase.jremote.io.exception")
+- [Next Class](./../unknowntypeexception-%28jremote---api%29 "class in com.jbase.jremote.io.exception")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/exception//39254-exception/com_jbase_jremote_io_exception_UnexpectedCharacterException)
-- [No Frames](/39254-exception/com_jbase_jremote_io_exception_UnexpectedCharacterException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

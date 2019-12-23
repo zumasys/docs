@@ -19,7 +19,7 @@ INPUT {@ (expression1 {, expression2 )}{:} Var{{, expression3}, expression4} {:}
 
 Where:
 
-- [**@**](/36868-jbase-basic/263499-the-function)**(expression1, expression2****)** allows the screen cursor to be positioned to the specified column and row before the input prompt is sent to the screen. The syntax for this is the same as the ['@' Function](/36868-jbase-basic/263499-the-function)‍.
+- [**@**](./../the-'@'-function)**(expression1, expression2****)** allows the screen cursor to be positioned to the specified column and row before the input prompt is sent to the screen. The syntax for this is the same as the ['@' Function](./../the-'@'-function)‍.
 - **Var** is the variable in which the input data is to be stored.
 - **expression3**, when specified, should evaluate to a numeric value. This will cause input to be terminated with an automatic newline sequence after exactly this number of characters has been input.
 - If the **'\_'**option is specified with **expression4** then the automatic newline sequence is not specified but any subsequent input characters are belled to the terminal and thrown away.
@@ -32,7 +32,7 @@ Where:
 ## Note:
 
 
-> The**INPU**T statement will always examine the data input stack before requesting data from the input device. If data is present on the stack then it is used to satisfy**INPUT** statements one field at a time until the stack is exhausted. Once exhausted, the **INPUT** statement will revert to the input device for further input. There is no way (by default) to input a null field to the **INPUT@** statement. If the INPUT@ statement receives the newline sequence only as input, then the Var will be unchanged. Use the [INPUTNULL](276287-inputnull) statement to define a character that indicates a NULL input.
+> The**INPU**T statement will always examine the data input stack before requesting data from the input device. If data is present on the stack then it is used to satisfy**INPUT** statements one field at a time until the stack is exhausted. Once exhausted, the **INPUT** statement will revert to the input device for further input. There is no way (by default) to input a null field to the **INPUT@** statement. If the INPUT@ statement receives the newline sequence only as input, then the Var will be unchanged. Use the [INPUTNULL](./../inputnull) statement to define a character that indicates a NULL input.
 > 
 > It is possible to use the CONTROL-CHARS command to control whether or not control characters (i.e. those outside the range x'1F' - x'7F') are accepted by **INPUT**.
 
@@ -53,10 +53,10 @@ An example of use is as:
 0011     STOP
 ```
 
-The above example attempts to read a single character from the input device, within a time of 30 seconds . The [LOOP](276941-loop) will exit when a character has been input, then will display the character that was entered.
+The above example attempts to read a single character from the input device, within a time of 30 seconds . The [LOOP](./../loop) will exit when a character has been input, then will display the character that was entered.
 
 
 
-See also:  [IN](in), [INPUTNULL](276287-inputnull).
+See also:  [IN](./../in), [INPUTNULL](./../inputnull).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

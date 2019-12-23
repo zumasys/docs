@@ -54,9 +54,9 @@ Represents a connection to a jBASE host.
 | <br>Modifier and Type<br> | Method<br> | <br>Description<br> |
 | --- | --- | --- |
 | <br>void<br> | <br>abortTransaction(String transText)<br> | <br>Aborts the active transaction<br> |
-| <br>[JCommon](com_jbase_jrcs_jcommon "class in com.jbase.jrcs")<br> | <br>attachCommon(int numVars, String name)<br> | <br>Attaches a common block by name with a given number of variables<br> |
+| <br>[JCommon](./../jcommon-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>attachCommon(int numVars, String name)<br> | <br>Attaches a common block by name with a given number of variables<br> |
 | <br>void<br> | <br>call(String subName)<br> | <br>Calls a host-side subroutine passing it no parameters<br> |
-| <br>void<br> | <br>call(String subName, [DynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs")[] parms)<br> | <br>Calls a host-side subroutine with given parameters<br> |
+| <br>void<br> | <br>call(String subName, [DynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")[] parms)<br> | <br>Calls a host-side subroutine with given parameters<br> |
 | <br>void<br> | call(String subName, String[] parms)<br> | <br>Calls a host-side subroutine with given parameters<br> |
 | <br>void<br> | <br>close()<br> | <br>Closes the connection and ends the server-side jRCS proxy process<br> |
 | <br>void<br> | <br>deleteList(String name)<br> | <br>Deletes the specified list from a work file<br> |
@@ -73,24 +73,24 @@ Represents a connection to a jBASE host.
 | <br>int<br> | <br>getDataEncryptionLevel()<br> | <br><br> |
 | <br>int<br> | <br>getDate()<br> | <br>Returns server date as an integer in internal format<br> |
 | <br>Charset<br> | <br>getHostCharacterEncoding()<br> | <br>Returns the character set used to map Unicode strings onto byte sequences passed to the host and read from the host.<br> |
-| <br>[JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs")<br> | getjBaseVersion()<br> | <br>Retrieves the version of jBASE database connected to this JConnection object<br> |
-| <br>[JSelectList](com_jbase_jrcs_jselectlist "class in com.jbase.jrcs")<br> | <br>getList(String name)<br> | <br>Retrieves the specified list from a work file<br> |
+| <br>[JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | getjBaseVersion()<br> | <br>Retrieves the version of jBASE database connected to this JConnection object<br> |
+| <br>[JSelectList](./../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | <br>getList(String name)<br> | <br>Retrieves the specified list from a work file<br> |
 | <br>String<br> | <br>getLocale()<br> | <br>Reserved for future use<br> |
 | <br>int<br> | getPasswordEncryptionLevel()<br> | <br><br> |
 | <br>int<br> | getPort()<br> | <br>Returns the jBASE port number (PIB) assigned to the logged on session<br> |
 | <br>char<br> | <br>getSVM()<br> | <br>Retrieves the subvalue mark character for this connection<br> |
-| <br>[JIOHandler](com_jbase_jrcs_jiohandler "interface in com.jbase.jrcs")<br> | <br>getTermIOHandler()<br> | <br>Retrieves a reference to the current terminal I/O handler<br> |
+| <br>[JIOHandler](./../jiohandler-%28jrclient-api%29 "interface in com.jbase.jrcs")<br> | <br>getTermIOHandler()<br> | <br>Retrieves a reference to the current terminal I/O handler<br> |
 | <br>int<br> | <br>getTime()<br> | <br>Retrieves the current server time as an integer in internal format<br> |
 | <br>char<br> | <br>getVM()<br> | <br>Retrieves the value mark character for this connection<br> |
 | <br>String<br> | <br>iConv(String source, String code)<br> | <br>Performs an input conversion of a string using a conversion code<br> |
 | <br>String<br> | <br>oConv(String source, String code)<br> | <br>Performs an output conversion of a string using a conversion code<br> |
 | <br>void<br> | <br>open(String host, int port, String userName, String password, String accountName)<br> | <br>Opens a TCP/IP connection to the given host and port and establishes a jRCS logon session with specified user name, password and account name<br> |
 | <br>void<br> | <br>open(String host, String userName, String password)<br> | <br>Opens a TCP/IP connection to the given host and default jRCS port and establishes a jRCS logon session with specified user name and password<br> |
-| <br>[JFile](com_jbase_jrcs_jfile "class in com.jbase.jrcs")<br> | <br>openFile(String fileName)<br> | <br>Opens a file with the given name<br> |
+| <br>[JFile](./../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>openFile(String fileName)<br> | <br>Opens a file with the given name<br> |
 | <br>void<br> | <br>setDataEncryptionLevel(int dataEncryptionLevel)<br> | <br>Sets the current data encryption level.<br> |
 | <br>void<br> | <br>setHostCharacterEncoding(Charset charSet)<br> | <br>Sets the character set used to map Unicode strings onto byte sequences passed to the host and read from the host.<br> |
 | <br>void<br> | <br>setPasswordEncryptionLevel(int passwordEncryptionLevel)<br> | <br>Sets the current password encryption level.<br> |
-| <br>void<br> | <br>setTermIOHandler([JIOHandler](com_jbase_jrcs_jiohandler "interface in com.jbase.jrcs") handler)<br> | <br>Sets a terminal I/O handler<br> |
+| <br>void<br> | <br>setTermIOHandler([JIOHandler](./../jiohandler-%28jrclient-api%29 "interface in com.jbase.jrcs") handler)<br> | <br>Sets a terminal I/O handler<br> |
 | <br>void<br> | <br>startTransaction(boolean sync, String transText)<br> | <br>Starts a transaction<br> |
 
 
@@ -255,7 +255,7 @@ Returns: Subvalue mark character
 public JCommon attachCommon(int numVars, String name)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs") Attaches a common block by name with a given number of variables
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs") Attaches a common block by name with a given number of variables
 
 Parameters:
 
@@ -279,7 +279,7 @@ Throws: `JException `
 public void call(String subName, String[] parms)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Calls a host-side subroutine with given parameters
 
@@ -319,7 +319,7 @@ Throws:` ``JException ```
 public void call(String subName, JDynArray[] parms)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Calls a host-side subroutine with given parameters
 
@@ -339,7 +339,7 @@ Throws: `JException `
 public void close()       
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Closes the connection and ends the server-side jRCS proxy process
 
@@ -367,7 +367,7 @@ Reserved for future use
 public int getDate()
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Returns server date as an integer in internal format
 
@@ -385,7 +385,7 @@ Throws: `JException `
 public void deleteList(String name) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Deletes the specified list from a work file
 
@@ -401,7 +401,7 @@ Throws:`JException `
 public void endTransaction(String transName)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Ends the active transaction
 
@@ -421,7 +421,7 @@ Throws: `JException `
 public JSelectList getList(String name)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Retrieves the specified list from a work file
 
@@ -445,7 +445,7 @@ Throws:` JException  `
 public String iConv(String source, String code)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Performs an input conversion of a string using a conversion code.
 
@@ -469,7 +469,7 @@ Throws:`JException   ```
 public JDynArray getjBaseVersion()
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Retrieves the version of jBASE database connected to this JConnection object
 
@@ -489,7 +489,7 @@ Throws: `JException `
 public String getLocale()
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Reserved for future use
 
@@ -507,7 +507,7 @@ Throws:`    JException`
 public String oConv(String source, String code)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Performs an output conversion of a string using a conversion code.
 
@@ -531,7 +531,7 @@ Throws: `JException `
 public void open(String host, int port, String userName, String password, String accountName)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Opens a TCP/IP connection to the given host and port and establishes a jRCS logon session with specified user name, password and account name.
 
@@ -563,7 +563,7 @@ Throws: `JException `
 public void open(String host, String userName, String password)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Opens a TCP/IP connection to the given host and default jRCS port and establishes a jRCS logon session with specified username and password.
 
@@ -589,7 +589,7 @@ Throws: `JException `
 public JFile openFile(String fileName)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Opens a file with the given name
 
@@ -613,7 +613,7 @@ Throws: `JException`
 public int getPort()
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Returns the jBASE port number (PIB) assigned to the logged on session
 

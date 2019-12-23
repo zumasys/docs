@@ -5,7 +5,7 @@
 **Original Doc:** [method-inherit-object-inheritance](https://docs.jbase.com/42948-dynamic-objects/method-inherit-object-inheritance)  
 
 
-**Object inheritance**is a mechanism that allows an instance of a class to inherit all of the properties and methods of the classes of other object instances. Object inheritance is [recursive](dynamic-objects-inheritance) in the same way as [Class inheritance](method-inherit-class).
+**Object inheritance**is a mechanism that allows an instance of a class to inherit all of the properties and methods of the classes of other object instances. Object inheritance is [recursive](./../dynamic-objects-inheritance) in the same way as [Class inheritance](./../method-$inherit%28%29---class-inheritance).
 
 An example will make this clearer.
 

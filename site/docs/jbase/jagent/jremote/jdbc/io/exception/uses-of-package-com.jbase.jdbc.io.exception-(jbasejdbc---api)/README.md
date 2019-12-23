@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39236-exception/com_jbase_jdbc_io_exception_package-summary)
+- [Package](./../com.jbase.jdbc.io.exception-%28jbasejdbc---api%29)
 - Class
 - Use
-- [Tree](/39236-exception/com_jbase_jdbc_io_exception_package-tree)
+- [Tree](./../com.jbase.jdbc.io.exception-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/exception//39236-exception/com_jbase_jdbc_io_exception_package-use)
-- [No Frames](/39236-exception/com_jbase_jdbc_io_exception_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,20 +36,20 @@ jbasejdbc <br>
 # Uses of Package
 com.jbase.jdbc.io.exception
 
-- Packages that use [com.jbase.jdbc.io.exception](../../../../../com/jbase/jdbc/io/exception//39236-exception/com_jbase_jdbc_io_exception_package-summary) | Package | Description |
+- Packages that use [com.jbase.jdbc.io.exception](./../com.jbase.jdbc.io.exception-%28jbasejdbc---api%29) | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.io |   |
-- Classes in [com.jbase.jdbc.io.exception](../../../../../com/jbase/jdbc/io/exception//39236-exception/com_jbase_jdbc_io_exception_package-summary) used by [com.jbase.jdbc.io](../../../../../com/jbase/jdbc/io//39236-exception/com_jbase_jdbc_io_exception_package-summary) | Class and Description |
+- Classes in [com.jbase.jdbc.io.exception](./../com.jbase.jdbc.io.exception-%28jbasejdbc---api%29) used by [com.jbase.jdbc.io](./../com.jbase.jdbc.io.exception-%28jbasejdbc---api%29) | Class and Description |
 | --- |
 | [UnknownTypeException](../../../../../com/jbase/jdbc/io/exception/class-use/UnknownTypeException.html#com.jbase.jdbc.io)  |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39236-exception/com_jbase_jdbc_io_exception_package-summary)
+- [Package](./../com.jbase.jdbc.io.exception-%28jbasejdbc---api%29)
 - Class
 - Use
-- [Tree](/39236-exception/com_jbase_jdbc_io_exception_package-tree)
+- [Tree](./../com.jbase.jdbc.io.exception-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -60,8 +60,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/exception//39236-exception/com_jbase_jdbc_io_exception_package-use)
-- [No Frames](/39236-exception/com_jbase_jdbc_io_exception_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

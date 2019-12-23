@@ -31,7 +31,7 @@
 
 | Class<br> | Description<br> |
 | --- | --- |
-| [DefaultJConnectionFactory](/39248-jremote/com_jbase_jremote_defaultjconnectionfactory "class in com.jbase.jremote")<br> | <br>The default implementation of a JConnectionFactory that will connect to a remote jBASE instance using a host and a port.<br> |
+| [DefaultJConnectionFactory](./../jremote/jremote/defaultjconnectionfactory-%28jremote-api%29 "class in com.jbase.jremote")<br> | <br>The default implementation of a JConnectionFactory that will connect to a remote jBASE instance using a host and a port.<br> |
 | [EISMetaDataRepository](/39248-jremote/com_jbase_jremote_EISMetaDataRepository "class in com.jbase.jremote")<br> | <br>Wrapper class for EISMetaDataResponse object representing a meta data repository containing information of the underlying EIS instance.<br> |
 | [JDynArray](/39248-jremote/com_jbase_jremote_JDynArray "class in com.jbase.jremote")<br> | <br>The JDynArray is a jBASE type that implements a dynamic string array where attribute, value, and subvalue delimiters mark the array indices.<br> |
 | [JExecuteResults](/39248-jremote/com_jbase_jremote_JExecuteResults "class in com.jbase.jremote")<br> | <br>The results from an executed command.<br> |

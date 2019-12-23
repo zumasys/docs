@@ -14,7 +14,7 @@
 
 **All Implemented Interfaces:**
 
-[JConnectionFactory](/39248-jremote/com_jbase_jremote_jconnectionfactory "interface in com.jbase.jremote")
+[JConnectionFactory](./../jconnectionfactory-%28jremote-api%29 "interface in com.jbase.jremote")
 
 * * *
 
@@ -97,7 +97,7 @@ The default implementation of a JConnectionFactory that will connect to a remote
 ```
 public static final int DEFAULT_PORT
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../constant-field-values)
 
 
 #### DEFAULT\_ENABLE\_SSL
@@ -105,7 +105,7 @@ See Also:[Constant Field Values](299736-constant-values)
 ```
 public static final boolean DEFAULT_ENABLE_SSL
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../constant-field-values)
 
 
 #### DEFAULT\_ENABLE\_NAIVETRUSTMANAGER
@@ -113,7 +113,7 @@ See Also:[Constant Field Values](299736-constant-values)
 ```
 public static final boolean DEFAULT_ENABLE_NAIVETRUSTMANAGER
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../constant-field-values)
 
 
 #### DEFAULT\_ENABLE\_COMPRESSION
@@ -121,7 +121,7 @@ See Also:[Constant Field Values](299736-constant-values)
 ```
 public static final boolean DEFAULT_ENABLE_COMPRESSION
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../constant-field-values)
 
 
 #### JBASE\_PRODUCT\_JREMOTEJAVA
@@ -129,7 +129,7 @@ See Also:[Constant Field Values](299736-constant-values)
 ```
 public static final String JBASE_PRODUCT_JREMOTEJAVA
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../constant-field-values)
 
 
 

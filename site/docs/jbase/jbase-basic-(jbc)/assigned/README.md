@@ -35,6 +35,6 @@ Where *variable* is any variable declared in the program.
 
 
 
-See also: [UNASSIGNED](278984-unassigned)
+See also: [UNASSIGNED](./../unassigned)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

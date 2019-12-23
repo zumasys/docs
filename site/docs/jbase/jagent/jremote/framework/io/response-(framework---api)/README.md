@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
+- [Package](./../com.jbase.framework.io-%28framework---api%29)
 - Class
-- [Use](/39223-class-use/com_jbase_framework_io_class-use_Response)
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.response-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Class](/39220-io/com_jbase_framework_io_PrefixByteBuffer "class in com.jbase.framework.io")
-- [Next Class](/39220-io/com_jbase_framework_io_SQLError "class in com.jbase.framework.io")
+- [Prev Class](./../prefixbytebuffer-%28framework---api%29 "class in com.jbase.framework.io")
+- [Next Class](./../sqlerror-%28framework---api%29 "class in com.jbase.framework.io")
 
 
-- [Frames](../../../../index.html?com/jbase/framework/io//39220-io/com_jbase_framework_io_Response)
-- [No Frames](/39220-io/com_jbase_framework_io_Response)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -53,7 +53,7 @@ com.jbase.framework.io
 - - com.jbase.framework.io.Response
 
 
-- All Implemented Interfaces:[JBaseSerializable](/39220-io/com_jbase_framework_io_JBaseSerializable "interface in com.jbase.framework.io")Direct Known Subclasses:[ErrorResponse](../../../../com/jbase/framework/io/Error/39220-io/com_jbase_framework_io_Response "class in com.jbase.framework.io"), [OKResponse](../../../../com/jbase/framework/io/OK/39220-io/com_jbase_framework_io_Response "class in com.jbase.framework.io")
+- All Implemented Interfaces:[JBaseSerializable](./../jbaseserializable-%28framework---api%29 "interface in com.jbase.framework.io")Direct Known Subclasses:[ErrorResponse](./. "class in com.jbase.framework.io"), [OKResponse](./. "class in com.jbase.framework.io")
 * * *
 
 
@@ -64,11 +64,11 @@ implements JBaseSerializable
 ```
 
 Represents a response from jsqld.
-Author:Peter KuchtaSee Also:[`ErrorResponse`](../../../../com/jbase/framework/io/Error/39220-io/com_jbase_framework_io_Response "class in com.jbase.framework.io")
+Author:Peter KuchtaSee Also:[`ErrorResponse`](./. "class in com.jbase.framework.io")
 
 - - ### Nested Class Summary
 
-        - ### Nested classes/interfaces inherited from interface com.jbase.framework.io.[JBaseSerializable](/39220-io/com_jbase_framework_io_JBaseSerializable "interface in com.jbase.framework.io")
+        - ### Nested classes/interfaces inherited from interface com.jbase.framework.io.[JBaseSerializable](./../jbaseserializable-%28framework---api%29 "interface in com.jbase.framework.io")
 `JBaseSerializable.TYPE`
 
 
@@ -86,7 +86,7 @@ Constructors | Constructor and Description |
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
 
-        - ### Methods inherited from interface com.jbase.framework.io.[JBaseSerializable](/39220-io/com_jbase_framework_io_JBaseSerializable "interface in com.jbase.framework.io")
+        - ### Methods inherited from interface com.jbase.framework.io.[JBaseSerializable](./../jbaseserializable-%28framework---api%29 "interface in com.jbase.framework.io")
 `getType, getVersion, readObject, writeObject`
 
 - - ### Constructor Detail
@@ -100,22 +100,22 @@ public Response()
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
+- [Package](./../com.jbase.framework.io-%28framework---api%29)
 - Class
-- [Use](/39223-class-use/com_jbase_framework_io_class-use_Response)
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.response-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 framework <br>
 
-- [Prev Class](/39220-io/com_jbase_framework_io_PrefixByteBuffer "class in com.jbase.framework.io")
-- [Next Class](/39220-io/com_jbase_framework_io_SQLError "class in com.jbase.framework.io")
+- [Prev Class](./../prefixbytebuffer-%28framework---api%29 "class in com.jbase.framework.io")
+- [Next Class](./../sqlerror-%28framework---api%29 "class in com.jbase.framework.io")
 
 
-- [Frames](../../../../index.html?com/jbase/framework/io//39220-io/com_jbase_framework_io_Response)
-- [No Frames](/39220-io/com_jbase_framework_io_Response)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

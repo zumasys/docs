@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Interface JConnectionFactory
 
-All Known Implementing Classes:[DefaultJConnectionFactory](com_jbase_jremote_defaultjconnectionfactory "class in com.jbase.jremote"), [JRemoteConnectionFactoryImpl](/39258-jca/com_jbase_jremote_jca_JRemoteConnectionFactoryImpl "class in com.jbase.jremote.jca")
+All Known Implementing Classes:[DefaultJConnectionFactory](./../defaultjconnectionfactory-%28jremote-api%29 "class in com.jbase.jremote"), [JRemoteConnectionFactoryImpl](/39258-jca/com_jbase_jremote_jca_JRemoteConnectionFactoryImpl "class in com.jbase.jremote.jca")
 * * *
 
 

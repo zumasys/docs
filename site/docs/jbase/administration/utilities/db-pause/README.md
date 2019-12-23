@@ -24,7 +24,7 @@ where options may be:
 - **-a** option means that administrators (e.g. root users on UNIX) can still make updates to the database.
 - **-n**option specifies the database to pause (This option is restricted to jBASE 5)
 - **-r** option still allows read operations on the database and therefore only pauses updates.
-- **-t** option permits users inside a transaction to continue until it terminates the transaction by either a commit ([TRANSEND](278974-transend)) or a rollback ([TRANSABORT](278971-transabort)).
+- **-t** option permits users inside a transaction to continue until it terminates the transaction by either a commit ([TRANSEND](./../../../jbase-basic-%28jbc%29/transend)) or a rollback ([TRANSABORT](./../../../jbase-basic-%28jbc%29/transabort)).
 
 
 

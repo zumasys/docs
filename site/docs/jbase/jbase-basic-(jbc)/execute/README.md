@@ -22,8 +22,8 @@ where:
 - The returning and setting clauses are identical. Both clauses will capture the output associated with any error messages the executing program issues. The first field of the **variable** will be set to the exit code of the program.
 - The **PASSLIST** clause allows jBASE programs to exchange lists or dynamic arrays between them. The variable should contain the list that the program wishes to pass to the jBASE program it is executing.The program to be executed should be able to process lists, otherwise the list will just be ignored. If the variable name is not specified then the clause will pass the default select list to the executing program.
 - If the executed program sets up a list then use the **RTNLIST** clause to place that list into a specified variable. It places the list in the default list variable if omitted.
-- Passes the data in the specified variable to another jBASE BASIC program, the executing jBASE BASIC program should retrieve the data using the [COLLECTDATA](276023-collectdata) statement.
-- The [RTNDATA](278795-rtndata) statement returns any data passed from an executing jBASE BASIC program in the specified variable. The executing jBASE BASIC program should use the [RTNDATA](278795-rtndata) statement to pass data back to the calling program.
+- Passes the data in the specified variable to another jBASE BASIC program, the executing jBASE BASIC program should retrieve the data using the [COLLECTDATA](./../collectdata) statement.
+- The [RTNDATA](./../rtndata) statement returns any data passed from an executing jBASE BASIC program in the specified variable. The executing jBASE BASIC program should use the [RTNDATA](./../rtndata) statement to pass data back to the calling program.
 
 
 ## Note:
@@ -45,7 +45,7 @@ EXECUTE "ls" CAPTURING DirListing
 
 
 
-Go back to[jBASE BASIC](263498-jbase-basic).
+Go back to[jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 
 

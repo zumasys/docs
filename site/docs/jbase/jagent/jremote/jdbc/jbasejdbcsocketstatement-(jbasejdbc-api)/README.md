@@ -23,7 +23,7 @@ implements Statement
 
 | <br>Modifier and Type<br> | <br>Field and Description<br> |
 | --- | --- |
-| <br>protected [List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util")&lt;[SQLStartRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLStartRequest "class in com.jbase.jdbc.protocol")&gt;<br> | <br>batchRequestsList<br> |
+| <br>protected [List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util")&lt;[SQLStartRequest](./../protocol/sqlstartrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")&gt;<br> | <br>batchRequestsList<br> |
 
 
 
@@ -78,7 +78,7 @@ implements Statement
 | <br>int<br> | <br>getFetchDirection()<br> | <br>Retrieves the direction for fetching rows from database tables that is the default for result sets generated from this Statement object.<br> |
 | <br>int<br> | <br>getFetchSize()<br> | <br>Retrieves the number of result set rows that is the default fetch size for ResultSet objects generated from this Statement object.<br> |
 | <br>[ResultSet](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/ResultSet.html?is-external=true "class or interface in java.sql")<br> | <br>getGeneratedKeys()<br> | <br>Retrieves any auto-generated keys created as a result of executing this Statement object.<br> |
-| <br>[StatementID](/39240-protocol/com_jbase_jdbc_protocol_statementid "class in com.jbase.jdbc.protocol")<br> | <br>getId()<br> | <br>This is a jBASE JDBC driver's private method, not part of the JDBC API.<br> |
+| <br>[StatementID](./../protocol/statementid-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol")<br> | <br>getId()<br> | <br>This is a jBASE JDBC driver's private method, not part of the JDBC API.<br> |
 | <br>int<br> | <br>getMaxFieldSize()<br> | <br>Retrieves the maximum number of bytes that can be returned for character and binary column values in a ResultSet object produced by this Statement object.<br> |
 | <br>int<br> | <br>getMaxRows()<br> | <br>Retrieves the maximum number of rows that a ResultSet object produced by this Statement object can contain.<br> |
 | <br>boolean<br> | <br>getMoreResults()<br> | <br>Moves to this Statement object's next result, returns true if it is a ResultSet object, and implicitly closes any current ResultSet object(s) obtained with the method getResultSet.<br> |
@@ -94,7 +94,7 @@ implements Statement
 | <br>void<br> | <br>setEscapeProcessing(boolean enable)<br> | <br>Sets escape processing on or off.<br> |
 | <br>void<br> | <br>setFetchDirection(int direction)<br> | <br>Gives the driver a hint as to the direction in which rows will be processed in ResultSet objects created using this Statement object.<br> |
 | <br>void<br> | <br>setFetchSize(int rows)<br> | <br>Gives the JDBC driver a hint as to the number of rows that should be fetched from the database when more rows are needed.<br> |
-| <br>void<br> | <br>setId([StatementID](/39240-protocol/com_jbase_jdbc_protocol_statementid "class in com.jbase.jdbc.protocol") \_statementId)<br> | <br><br> |
+| <br>void<br> | <br>setId([StatementID](./../protocol/statementid-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") \_statementId)<br> | <br><br> |
 | <br>void<br> | <br>setMaxFieldSize(int max)<br> | <br>Sets the limit for the maximum number of bytes in a ResultSet column storing character or binary values to the given number of bytes.<br> |
 | <br>void<br> | <br>setMaxRows(int max)<br> | <br>Sets the limit for the maximum number of rows that any ResultSet object can contain to the given number.<br> |
 | <br>void<br> | <br>setQueryTimeout(int seconds)<br> | <br>Sets the number of seconds the driver will wait for a Statement object to execute to the given number of seconds.<br> |

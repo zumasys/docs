@@ -18,12 +18,12 @@ AccuTerm Mobile offers Terminal Emulation for remote management of host systems 
 
 
 
-[Connection Settings](docs.zumasys.com/%20connection-settings)
+[Connection Settings](./../accuterm-mobile-connection-settings)
 
-[Terminal Settings](docs.zumasys.com/%20accuterm-mobile-terminal-settings)
+[Terminal Settings](./../accuterm-mobile-terminal-settings)
 
 [Screen Settings](docs.zumasys.com/%20accuterm-mobile-screen-settings)
 
-[Colors & Themes Settings](docs.zumasys.com/%20accuterm-mobile-colors-themes-settings)
+[Colors & Themes Settings](./../accuterm-mobile-colors-&-themes-settings)
 
-[Keyboard & Clipboard Settings](docs.zumasys.com/%20accuterm-mobile-keydocszumasyscom-board-clipboard-settings)
+[Keyboard & Clipboard Settings](./../accuterm-mobile-keyboard-&-clipboard-settings)

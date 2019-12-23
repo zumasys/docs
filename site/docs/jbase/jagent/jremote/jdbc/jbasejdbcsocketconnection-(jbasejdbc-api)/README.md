@@ -8,7 +8,7 @@
 
 
 # Class JBaseJDBCSocketConnection
-**All Implemented Interfaces:**[JBaseJDBCGlobals](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc"), [AutoCloseable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true "class or interface in java.lang"), [Connection](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true "class or interface in java.sql"), [Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")
+**All Implemented Interfaces:**[JBaseJDBCGlobals](./../jbasejdbcglobals-%28jbasejdbc---api%29 "interface in com.jbase.jdbc"), [AutoCloseable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true "class or interface in java.lang"), [Connection](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true "class or interface in java.sql"), [Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")
 ```
 public class JBaseJDBCSocketConnection
 extends JBaseJDBCConnection
@@ -80,7 +80,7 @@ implements JBaseJDBCGlobals
 | <br>protected [Properties](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Properties.html?is-external=true "class or interface in java.util")<br> | <br>getInfo()<br> | <br><br> |
 | <br>protected int<br> | <br>getIsolationLevel()<br> | <br><br> |
 | <br>[DatabaseMetaData](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/DatabaseMetaData.html?is-external=true "class or interface in java.sql")<br> | <br>getMetaData()<br> | <br>Retrieves a DatabaseMetaData object that contains metadata about the database to which this Connection object represents a connection.<br> |
-| <br>protected [Response](/39232-io/com_jbase_jdbc_io_response "class in com.jbase.jdbc.io")<br> | <br>getResponse()<br> | <br>Reads response from the server.<br> |
+| <br>protected [Response](./../io/response-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")<br> | <br>getResponse()<br> | <br>Reads response from the server.<br> |
 | <br>int<br> | <br>getTransactionIsolation()<br> | <br><br> |
 | <br>[Map](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Map.html?is-external=true "class or interface in java.util")&lt;[String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang"),[Class](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Class.html?is-external=true "class or interface in java.lang")&lt;?&gt;&gt;<br> | <br>getTypeMap()<br> | <br>TODO: Retrieves the Map object associated with this Connection object.<br> |
 | <br>[SQLWarning](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/SQLWarning.html?is-external=true "class or interface in java.sql")<br> | <br>getWarnings()<br> | <br>Retrieves the first warning reported by calls on this Connection object.<br> |

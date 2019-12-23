@@ -28,8 +28,8 @@ IF Sunday THEN
 END
 ```
 
-In this example, the expression [MOD(DATE(),7)](276978-mod) will return 0 (FALSE) if the day is Sunday and 1 to 6 (TRUE) for the other days. To explicitly test for the day Sunday we need to invert the result of the expression. BY using the **NOT**function to return a 1 (TRUE) if the day is Sunday and 0 (FALSE) for all other values of the expression.
+In this example, the expression [MOD(DATE(),7)](./../mod&rem) will return 0 (FALSE) if the day is Sunday and 1 to 6 (TRUE) for the other days. To explicitly test for the day Sunday we need to invert the result of the expression. BY using the **NOT**function to return a 1 (TRUE) if the day is Sunday and 0 (FALSE) for all other values of the expression.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

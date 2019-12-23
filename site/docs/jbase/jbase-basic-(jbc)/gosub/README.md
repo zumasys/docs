@@ -22,7 +22,7 @@ Where **label** refer to an existing label within the current source code.
 ## Notes: 
 
 
-> The compiler does not check for the existence of a [RETURN](278787-return) statement and if no [RETURN](278787-return) statement is encountered the program will continue until the final statement and not return to the original **GOSUB**.
+> The compiler does not check for the existence of a [RETURN](./../return) statement and if no [RETURN](./../return) statement is encountered the program will continue until the final statement and not return to the original **GOSUB**.
 
 
 
@@ -50,4 +50,4 @@ RETURN
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

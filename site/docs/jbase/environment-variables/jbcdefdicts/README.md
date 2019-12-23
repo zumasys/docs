@@ -9,7 +9,7 @@
 
 ## Description
 
-Specifies one or more files that are used to hold dictionary items for use by [jQL](321279-jql). When JBCDEFDICTS is set, jQL will scan each specified file for dictionary items that cannot be located in the dictionary of the queried file. When JBCDEFDICTS is not set, jQL will scan just the the dictionary of the queried file then the MD/VOC.
+Specifies one or more files that are used to hold dictionary items for use by [jQL](./../../jql/jql). When JBCDEFDICTS is set, jQL will scan each specified file for dictionary items that cannot be located in the dictionary of the queried file. When JBCDEFDICTS is not set, jQL will scan just the the dictionary of the queried file then the MD/VOC.
 
 ## Values
 

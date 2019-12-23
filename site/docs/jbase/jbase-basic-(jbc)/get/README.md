@@ -22,7 +22,7 @@ Where:
 - **Var** is the variable in which to place the input (from the previously open device).
 - If **length** is specified, it limits the number of characters read from the input device.
 - If the optional **Count** option is used, it returns the number of characters actually read from the device.
-- **Device** is the file variable associated with the result from a successful [OPENSEQ](277543-openseq) or [OPENSER](277544-openser) command.
+- **Device** is the file variable associated with the result from a successful [OPENSEQ](./../openseq) or [OPENSER](./../openser) command.
 - **TermChars** specifies one or more characters that will terminate input.
 - **TermChar** is the character that terminated input
 - **Timeout** is the number of seconds to wait for input. If no input is present when the timeout period expires, the ELSE clause (if specified) is executed.
@@ -40,8 +40,8 @@ Where:
 
 
 
-See also: [GETX](276073-getx)
+See also: [GETX](./../getx)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

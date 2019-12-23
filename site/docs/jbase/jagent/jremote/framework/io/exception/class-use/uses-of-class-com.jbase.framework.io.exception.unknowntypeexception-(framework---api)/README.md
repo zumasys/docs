@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39224-exception/com_jbase_framework_io_exception_package-summary)
-- [Class](/39224-exception/com_jbase_framework_io_exception_UnknownTypeException "class in com.jbase.framework.io.exception")
+- [Package](./../../com.jbase.framework.io.exception-%28framework---api%29)
+- [Class](./../../unknowntypeexception-%28framework---api%29 "class in com.jbase.framework.io.exception")
 - Use
-- [Tree](/39224-exception/com_jbase_framework_io_exception_package-tree)
+- [Tree](./../../com.jbase.framework.io.exception-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/framework/io/exception/class-use//39225-class-use/com_jbase_framework_io_exception_class-use_UnknownTypeException)
-- [No Frames](/39225-class-use/com_jbase_framework_io_exception_class-use_UnknownTypeException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ framework <br>
 ## Uses of Class
 com.jbase.framework.io.exception.UnknownTypeException
 
-- Packages that use [UnknownTypeException](/39224-exception/com_jbase_framework_io_exception_UnknownTypeException "class in com.jbase.framework.io.exception") | Package | Description |
+- Packages that use [UnknownTypeException](./../../unknowntypeexception-%28framework---api%29 "class in com.jbase.framework.io.exception") | Package | Description |
 | --- | --- |
 | com.jbase.framework.io |   |
-- - ### Uses of [UnknownTypeException](/39224-exception/com_jbase_framework_io_exception_UnknownTypeException "class in com.jbase.framework.io.exception") in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary)
+- - ### Uses of [UnknownTypeException](./../../unknowntypeexception-%28framework---api%29 "class in com.jbase.framework.io.exception") in [com.jbase.framework.io](./../../../com.jbase.framework.io-%28framework---api%29)
 
 
-Methods in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary) that throw [UnknownTypeException](/39224-exception/com_jbase_framework_io_exception_UnknownTypeException "class in com.jbase.framework.io.exception") | Modifier and Type | Method and Description |
+Methods in [com.jbase.framework.io](./../../../com.jbase.framework.io-%28framework---api%29) that throw [UnknownTypeException](./../../unknowntypeexception-%28framework---api%29 "class in com.jbase.framework.io.exception") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected JBaseSerializable` | ObjectFactory.`createGenericObjects(int objectType)`<br>Creates any generic (i.e common to all framework clients) objects.<br> |
 | `protected abstract JBaseSerializable` | ObjectFactory.`createObject(int objectType)`<br>Create JBaseSerializable object from the supplied object type.<br> |
@@ -51,10 +51,10 @@ Methods in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-sum
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39224-exception/com_jbase_framework_io_exception_package-summary)
-- [Class](/39224-exception/com_jbase_framework_io_exception_UnknownTypeException "class in com.jbase.framework.io.exception")
+- [Package](./../../com.jbase.framework.io.exception-%28framework---api%29)
+- [Class](./../../unknowntypeexception-%28framework---api%29 "class in com.jbase.framework.io.exception")
 - Use
-- [Tree](/39224-exception/com_jbase_framework_io_exception_package-tree)
+- [Tree](./../../com.jbase.framework.io.exception-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -65,8 +65,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/framework/io/exception/class-use//39225-class-use/com_jbase_framework_io_exception_class-use_UnknownTypeException)
-- [No Frames](/39225-class-use/com_jbase_framework_io_exception_class-use_UnknownTypeException)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

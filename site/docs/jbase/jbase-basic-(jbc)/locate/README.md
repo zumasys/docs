@@ -92,6 +92,6 @@ The Universe syntax can be obtained in any emulation by setting the **use\_uv\_l
 
 
 
-See also: [FIND](271550-find), [FINDSTR](272273-findstr)
+See also: [FIND](./../find), [FINDSTR](./../findstr)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

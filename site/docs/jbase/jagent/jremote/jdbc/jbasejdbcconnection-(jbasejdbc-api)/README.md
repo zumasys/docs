@@ -7,7 +7,7 @@
 &lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 # Class JBaseJDBCConnection
 
-**All Implemented Interfaces:**[AutoCloseable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true "class or interface in java.lang"), [Connection](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true "class or interface in java.sql"), [Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")**Direct Known Subclasses:**[JBaseJDBCSocketConnectio](/39228-jdbc/com_jbase_jdbc_jbasejdbcsocketconnection "class in com.jbase.jdbc")n
+**All Implemented Interfaces:**[AutoCloseable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true "class or interface in java.lang"), [Connection](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Connection.html?is-external=true "class or interface in java.sql"), [Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")**Direct Known Subclasses:**[JBaseJDBCSocketConnectio](./../jbasejdbcsocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc")n
 ```
 public abstract class JBaseJDBCConnection
 extends Object

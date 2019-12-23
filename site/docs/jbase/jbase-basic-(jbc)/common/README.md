@@ -22,9 +22,9 @@ The list of variables should not have been declared or referenced previously in 
 
 > The compiler will not, by default, check that variables declared in **COMMON** statements are initialized before they have been used as this may be beyond the scope of this single source code check. The –Jci option, when specified to the jBASE BASIC compiler, will force this check to be applied to common variables as well. The initialization of named common is controlled in the Config\_EMULATE file.
 > 
-> Variables declared without naming the common area may only be shared between the program and its subroutines (unless [CHAIN](264324-chain) is used). Variables declared in a named common area may be shared across program boundaries. When any common area is shared, all programs using it should have declared the same number of variables within it.
+> Variables declared without naming the common area may only be shared between the program and its subroutines (unless [CHAIN](./../chain) is used). Variables declared in a named common area may be shared across program boundaries. When any common area is shared, all programs using it should have declared the same number of variables within it.
 > 
-> [Dim](276028-dimension-dim)ensioned arrays are declared and dimensioned within the **COMMON** statement.
+> [Dim](./../dimension-%28dim%29)ensioned arrays are declared and dimensioned within the **COMMON** statement.
 
 
 An example of use is as:
@@ -36,4 +36,4 @@ An example of use is as:
 
 
 
-GO back to [jBASE BASIC](263498-jbase-basic).
+GO back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

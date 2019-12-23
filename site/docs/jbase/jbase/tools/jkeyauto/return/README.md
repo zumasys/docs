@@ -9,4 +9,4 @@
 
 ## Description
 
-Return from a previously executed [GOSUB](https://www.jbase.com/r99/knowledgebase/manuals/3.0/30manpages/man/jke2_JKEYAUTO.GOSUB.htm).
+Return from a previously executed [GOSUB](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jke2_JKEYAUTO.GOSUB.htm).

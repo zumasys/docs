@@ -7,15 +7,15 @@
 
 # Interfaces
 
-- [JConnection](com_jbase_jremote_jconnection "interface in com.jbase.jremote")
-- [JConnectionCallbackHandler](jconnectioncallbackhandler "interface in com.jbase.jremote")
-- [JConnectionFactory](jconnectionfactory "interface in com.jbase.jremote")
-- [JCursor](jcursor "interface in com.jbase.jremote")
-- [JFile](jfile "interface in com.jbase.jremote")
-- [JResultSet](jresultset "interface in com.jbase.jremote")
+- [JConnection](./../../jremote/jconnection-%28jremote-api%29 "interface in com.jbase.jremote")
+- [JConnectionCallbackHandler](./../jconnectioncallbackhandler "interface in com.jbase.jremote")
+- [JConnectionFactory](./../jconnectionfactory "interface in com.jbase.jremote")
+- [JCursor](./../jcursor "interface in com.jbase.jremote")
+- [JFile](./../jfile "interface in com.jbase.jremote")
+- [JResultSet](./../jresultset "interface in com.jbase.jremote")
 - [JSelectList](jselectlist "interface in com.jbase.jremote")
-- [JStatement](jstatement "interface in com.jbase.jremote")
-- [JXAConnection](jxaconnection "interface in com.jbase.jremote")
+- [JStatement](./../jstatement "interface in com.jbase.jremote")
+- [JXAConnection](./../jxaconnection "interface in com.jbase.jremote")
 
 
 
@@ -23,10 +23,10 @@
 # Classes
 
 - [DefaultJConnectionFactory](defaultjconnectionfactory "class in com.jbase.jremote")
-- [EISMetaDataRepository](eismetadatarepository "class in com.jbase.jremote")
-- [JDynArray](jdynarray "class in com.jbase.jremote")
-- [JExecuteResults](jexecuteresults "class in com.jbase.jremote")
-- [JSubroutineParameters](jsubroutineparameters "class in com.jbase.jremote")
+- [EISMetaDataRepository](./../eismetadatarepository "class in com.jbase.jremote")
+- [JDynArray](./../jdynarray "class in com.jbase.jremote")
+- [JExecuteResults](./../jexecuteresults "class in com.jbase.jremote")
+- [JSubroutineParameters](./../jsubroutineparameters "class in com.jbase.jremote")
 
 
 

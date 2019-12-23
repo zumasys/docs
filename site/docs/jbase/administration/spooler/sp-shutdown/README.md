@@ -83,4 +83,4 @@ When the kill fails the error message, it gives before the above should be repor
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

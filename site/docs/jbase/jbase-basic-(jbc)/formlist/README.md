@@ -37,6 +37,6 @@ REPEAT
 
 
 
-See also: [DELETELIST](268475-deletelist), [READLIST](278658-readlist), [WRITELIST](279569-writelist)
+See also: [DELETELIST](./../deletelist), [READLIST](./../readlist), [WRITELIST](./../writelist)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

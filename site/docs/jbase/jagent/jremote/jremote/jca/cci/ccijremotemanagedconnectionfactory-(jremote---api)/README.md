@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
+- [Package](./../com.jbase.jremote.jca.cci-%28jremote---api%29)
 - Class
-- [Use](/39260-class-use/com_jbase_jremote_jca_cci_class-use_CCIJRemoteManagedConnectionFactory)
-- [Tree](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.cci.ccijremotemanagedconnectionfactory-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteInteraction "class in com.jbase.jremote.jca.cci")
-- [Next Class](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteRecordFactory "class in com.jbase.jremote.jca.cci")
+- [Prev Class](./../ccijremoteinteraction-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
+- [Next Class](./../ccijremoterecordfactory-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/cci//39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteManagedConnectionFactory)
-- [No Frames](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteManagedConnectionFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -50,7 +50,7 @@ com.jbase.jremote.jca.cci
 ## Class CCIJRemoteManagedConnectionFactory
 
 - [java.lang.Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
-- - [com.jbase.jremote.jca.JRemoteManagedConnectionFactory](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionFactory "class in com.jbase.jremote.jca")
+- - [com.jbase.jremote.jca.JRemoteManagedConnectionFactory](./../../jremotemanagedconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca")
     - - com.jbase.jremote.jca.cci.CCIJRemoteManagedConnectionFactory
 
 
@@ -66,7 +66,7 @@ See Also:[Serialized Form](../../../../../serialized-form.html#com.jbase.jremote
 
 - - ### Field Summary
 
-        - ### Fields inherited from class com.jbase.jremote.jca.[JRemoteManagedConnectionFactory](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionFactory "class in com.jbase.jremote.jca")
+        - ### Fields inherited from class com.jbase.jremote.jca.[JRemoteManagedConnectionFactory](./../../jremotemanagedconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca")
 `DEFAULT_PORT`
 
 
@@ -87,7 +87,7 @@ All Methods [Instance Methods](javascript:show%282%29;) [Concrete Methods](javas
 | `Object` | `createConnectionFactory(javax.resource.spi.ConnectionManager cm)`<br>Construct a new connection factory using the ConnectionManager supplied <br> by the application server.<br> |
 
 
-        - ### Methods inherited from class com.jbase.jremote.jca.[JRemoteManagedConnectionFactory](/39258-jca/com_jbase_jremote_jca_JRemoteManagedConnectionFactory "class in com.jbase.jremote.jca")
+        - ### Methods inherited from class com.jbase.jremote.jca.[JRemoteManagedConnectionFactory](./../../jremotemanagedconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca")
 `connect, createConnection, createManagedConnection, equals, getAccount, getActionTimeout, getAllowInput, getCompression, getCompressionThreshold, getEnvironments, getEnvVariables, getHost, getInvalidConnections, getLogWriter, getNaiveTrustManager, getPassword, getPort, getSSL, getUser, getWriter, hashCode, matchManagedConnections, setAccount, setActionTimeout, setAllowInput, setCharset, setCompression, setCompressionThreshold, setEnv, setEnvVariables, setHost, setLogWriter, setNaiveTrustManager, setPassword, setPort, setPort, setSSL, setUser, setWriter`
 
 
@@ -129,22 +129,22 @@ Specified by:`createConnectionFactory` in interface `javax.resource.spi.ManagedC
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
+- [Package](./../com.jbase.jremote.jca.cci-%28jremote---api%29)
 - Class
-- [Use](/39260-class-use/com_jbase_jremote_jca_cci_class-use_CCIJRemoteManagedConnectionFactory)
-- [Tree](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.cci.ccijremotemanagedconnectionfactory-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteInteraction "class in com.jbase.jremote.jca.cci")
-- [Next Class](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteRecordFactory "class in com.jbase.jremote.jca.cci")
+- [Prev Class](./../ccijremoteinteraction-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
+- [Next Class](./../ccijremoterecordfactory-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/cci//39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteManagedConnectionFactory)
-- [No Frames](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteManagedConnectionFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

@@ -136,7 +136,7 @@ For example here is code for PHP
 
 ## RUN MVCONNECT IN A DIFFERENT ACCOUNT
 
-While it is generally recommended to run your REST service handlers from the MVDB account, it is possible to LOGTO a different account to run the handler program. The name of the account must be configured in the [WDB.RESOURCE](wdbresource) file. In addition, the target account requires several q-pointers and cataloged programs:
+While it is generally recommended to run your REST service handlers from the MVDB account, it is possible to LOGTO a different account to run the handler program. The name of the account must be configured in the [WDB.RESOURCE](./../mvconnect-api/wdb.resource) file. In addition, the target account requires several q-pointers and cataloged programs:
 
 
 | WBPD<br> | contains INCLUDE files, not needed at runtime |

@@ -7,7 +7,7 @@
 
 # Patches
 
-- [PN5\_60867](pn5_60867) - jQL process exits prematurely when a jBC subroutine exits from within a query
+- [PN5\_60867](./../../5.7.2-release-notes/pn5_60867) - jQL process exits prematurely when a jBC subroutine exits from within a query
 - [PN5\_60868](PN5_60868) - Add try/catch/throw constructs to Dynamic Objects
 - [PN5\_60869](PN5_60869) - **CREATE-ACCOUNT** does not respect **JEDI\_PREFILEOP**when it creates the MD
 - [PN5\_60870](PN5_60870) - New dot-stacker command to clear the stack

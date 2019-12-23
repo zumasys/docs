@@ -11,24 +11,24 @@ JavaScript is disabled on your browser.
 
 
 
-## Uses of [JCapture](/jrcs/com_jbase_jrcs_JCapture "class in com.jbase.jrcs") in [com.jbase.jrcs](/jrcs/com_jbase_jrcs_package-summary)
+## Uses of [JCapture](/jrcs/com_jbase_jrcs_JCapture "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29)
 
 
 
-**Methods in [com.jbase.jrcs](com_jbase_jrcs_package-summary) that return [JCapture](com_jbase_jrcs_jcapture "class in com.jbase.jrcs")**
+**Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) that return [JCapture](./../../jcapture-%28jrclient-api%29 "class in com.jbase.jrcs")**
 
 
 | Modifier and Type<br> | Method<br> | Description<br> |
 | --- | --- | --- |
-| [JCapture](com_jbase_jrcs_jcapture "class in com.jbase.jrcs")<br> | JExecuteResults.[getCapture](/jrcs/com_jbase_jrcs_jexecuteresults#getCapture--)()<br> | <br>Returns an incremental fetch capture object or null if there is no capture object.<br> |
+| [JCapture](./../../jcapture-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | JExecuteResults.[getCapture](/jrcs/com_jbase_jrcs_jexecuteresults#getCapture--)()<br> | <br>Returns an incremental fetch capture object or null if there is no capture object.<br> |
 
 
 
-**Constructors in [com.jbase.jrcs](com_jbase_jrcs_package-summary) with parameters of type**[**JCapture**](com_jbase_jrcs_JCapture "class in com.jbase.jrcs")
+**Constructors in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) with parameters of type**[**JCapture**](com_jbase_jrcs_JCapture "class in com.jbase.jrcs")
 
 | Constructor and Description<br> |
 | --- |
-| [JExecuteResults](com_jbase_jrcs_jexecuteresults)(String capturing, [JCapture](com_jbase_jrcs_JCapture "class in com.jbase.jrcs") captureObj, String returning, [JSelectList](com_jbase_jrcs_JSelectList "class in com.jbase.jrcs") returnList)<br> |
+| [JExecuteResults](./../../jexecuteresults-%28jrclient-api%29)(String capturing, [JCapture](com_jbase_jrcs_JCapture "class in com.jbase.jrcs") captureObj, String returning, [JSelectList](com_jbase_jrcs_JSelectList "class in com.jbase.jrcs") returnList)<br> |
 
 
 

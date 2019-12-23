@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
+- [Package](./../com.jbase.jremote.jca.cci-%28jremote---api%29)
 - Class
-- [Use](/39260-class-use/com_jbase_jremote_jca_cci_class-use_SubroutineParametersRecord)
-- [Tree](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
+- [Use](./../class-use/uses-of-interface-com.jbase.jremote.jca.cci.subroutineparametersrecord-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39259-cci/com_jbase_jremote_jca_cci_SubroutineInteractionSpec "class in com.jbase.jremote.jca.cci")
+- [Prev Class](./../subroutineinteractionspec-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
 - Next Class
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/cci//39259-cci/com_jbase_jremote_jca_cci_SubroutineParametersRecord)
-- [No Frames](/39259-cci/com_jbase_jremote_jca_cci_SubroutineParametersRecord)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -49,7 +49,7 @@ com.jbase.jremote.jca.cci
 
 ## Interface SubroutineParametersRecord
 
-- All Superinterfaces:[Cloneable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Cloneable.html?is-external=true "class or interface in java.lang"), [Collection](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Collection.html?is-external=true "class or interface in java.util"), javax.resource.cci.IndexedRecord, [Iterable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true "class or interface in java.lang"), [List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util"), javax.resource.cci.Record, [Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"), javax.resource.cci.StreamableAll Known Implementing Classes:[CCIJRemoteDynamicArrayRecord](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteDynamicArrayRecord "class in com.jbase.jremote.jca.cci"), [CCIJRemoteSubroutineParametersRecord](../../../../../com/jbase/jremote/jca/cci/CCIJRemote/39259-cci/com_jbase_jremote_jca_cci_SubroutineParametersRecord "class in com.jbase.jremote.jca.cci")
+- All Superinterfaces:[Cloneable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Cloneable.html?is-external=true "class or interface in java.lang"), [Collection](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Collection.html?is-external=true "class or interface in java.util"), javax.resource.cci.IndexedRecord, [Iterable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true "class or interface in java.lang"), [List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util"), javax.resource.cci.Record, [Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"), javax.resource.cci.StreamableAll Known Implementing Classes:[CCIJRemoteDynamicArrayRecord](./../ccijremotedynamicarrayrecord-%28jremote---api%29 "class in com.jbase.jremote.jca.cci"), [CCIJRemoteSubroutineParametersRecord](./. "class in com.jbase.jremote.jca.cci")
 * * *
 
 
@@ -82,22 +82,22 @@ extends javax.resource.cci.IndexedRecord, javax.resource.cci.Streamable
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
+- [Package](./../com.jbase.jremote.jca.cci-%28jremote---api%29)
 - Class
-- [Use](/39260-class-use/com_jbase_jremote_jca_cci_class-use_SubroutineParametersRecord)
-- [Tree](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
+- [Use](./../class-use/uses-of-interface-com.jbase.jremote.jca.cci.subroutineparametersrecord-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39259-cci/com_jbase_jremote_jca_cci_SubroutineInteractionSpec "class in com.jbase.jremote.jca.cci")
+- [Prev Class](./../subroutineinteractionspec-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
 - Next Class
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/cci//39259-cci/com_jbase_jremote_jca_cci_SubroutineParametersRecord)
-- [No Frames](/39259-cci/com_jbase_jremote_jca_cci_SubroutineParametersRecord)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

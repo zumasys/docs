@@ -7,8 +7,8 @@
 
 # Description
 
-**PCPERFORM** is synonymous with [PERFORM](269198-execute).
+**PCPERFORM** is synonymous with [PERFORM](./../execute).
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

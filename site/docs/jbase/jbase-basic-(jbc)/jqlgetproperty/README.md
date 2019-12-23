@@ -15,7 +15,7 @@ JQLGETPROPERTY(PropertyValue, Statement, Column, PropertyName)
 
 Where:
 
-- PropertyValue Receives the requested property value from the system or “” if the property is not set Statement The result of a valid [JQLCOMPILE(Statement)](276773-5-jqlcompile)
+- PropertyValue Receives the requested property value from the system or “” if the property is not set Statement The result of a valid [JQLCOMPILE(Statement)](./../jqlcompile)
 - Column Specifies that you want the value of the property for a specific column (otherwise 0 for the whole statement).
 - PropertyName These are EQUATED values defined by INCLUDE’ing the file JQLINTERFACE.h.
 
@@ -30,4 +30,4 @@ This function returns -1 if there is a problem with the parameters or the progra
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

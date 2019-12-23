@@ -137,4 +137,4 @@ Automatically restart inetd? [n]:
 
 10. Enter ***y***if you want to automatically restart inetd or enter ***n***to restart inetd at a later time.
 
-The installation of MV Dashboard is complete.  Continue on to [Configure MV Dashboard](configure-mv-dashboard).
+The installation of MV Dashboard is complete.  Continue on to [Configure MV Dashboard](./../configure-mv-dashboard).

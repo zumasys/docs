@@ -168,4 +168,4 @@ PIB contains: ABC^DEF^GHI^JKL^MNO
 | MV &2.1 %3,\_<br> | 000 Key<br>001 XXX<br>002 YYY<br> | 000 Key<br>001 GHI<br> |
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

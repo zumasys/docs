@@ -22,7 +22,7 @@ Where
 # Note:
 
 
-> The **DEFFUN** statement identifies a user-written function to the jBASE BASIC compiler, which must be present in each program that calls the function, before the function is called. A hidden argument is passed to the function so that a value can be returned to the calling program. The return value is set in the function using the RETURN (value) statement. If the [RETURN](278787-return) statement specifies no value then the function returns an empty string.
+> The **DEFFUN** statement identifies a user-written function to the jBASE BASIC compiler, which must be present in each program that calls the function, before the function is called. A hidden argument is passed to the function so that a value can be returned to the calling program. The return value is set in the function using the RETURN (value) statement. If the [RETURN](./../return) statement specifies no value then the function returns an empty string.
 
 
 An example of use is as follows:
@@ -59,4 +59,4 @@ RETURN(result)
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

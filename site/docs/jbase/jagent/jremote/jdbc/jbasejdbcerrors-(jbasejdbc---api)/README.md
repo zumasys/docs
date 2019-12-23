@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
+- [Package](./../jbase-jdbc-api)
 - Class
-- [Use](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCErrors)
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.jbasejdbcerrors-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../deprecated-list.html)
 - [Help](../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39228-jdbc/com_jbase_jdbc_JBaseJDBCDriverConstants "interface in com.jbase.jdbc")
-- [Next Class](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc")
+- [Prev Class](./../jbasejdbcdriverconstants-%28jbasejdbc---api%29 "interface in com.jbase.jdbc")
+- [Next Class](./../jbasejdbcglobals-%28jbasejdbc---api%29 "interface in com.jbase.jdbc")
 
 
-- [Frames](../../../index.html?com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_JBaseJDBCErrors)
-- [No Frames](/39228-jdbc/com_jbase_jdbc_JBaseJDBCErrors)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../allclasses-noframe.html)
@@ -607,22 +607,22 @@ public JBaseJDBCErrors()
 Skip navigation links
 
 - [Overview](../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
+- [Package](./../jbase-jdbc-api)
 - Class
-- [Use](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCErrors)
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.jbasejdbcerrors-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../deprecated-list.html)
 - [Help](../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39228-jdbc/com_jbase_jdbc_JBaseJDBCDriverConstants "interface in com.jbase.jdbc")
-- [Next Class](/39228-jdbc/com_jbase_jdbc_JBaseJDBCGlobals "interface in com.jbase.jdbc")
+- [Prev Class](./../jbasejdbcdriverconstants-%28jbasejdbc---api%29 "interface in com.jbase.jdbc")
+- [Next Class](./../jbasejdbcglobals-%28jbasejdbc---api%29 "interface in com.jbase.jdbc")
 
 
-- [Frames](../../../index.html?com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_JBaseJDBCErrors)
-- [No Frames](/39228-jdbc/com_jbase_jdbc_JBaseJDBCErrors)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../allclasses-noframe.html)

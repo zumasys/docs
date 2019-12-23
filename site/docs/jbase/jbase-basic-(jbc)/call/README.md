@@ -7,7 +7,7 @@
 
 # Description
 
-The statement transfers program execution to an external [SUBROUTINE](284390-subroutine). It usually takes the form:
+The statement transfers program execution to an external [SUBROUTINE](./../subroutine). It usually takes the form:
 
 ```
 CALL subroutine_name(argument, argument…. )
@@ -28,11 +28,11 @@ The **CALL** statement may optionally pass a number of parameters to the target 
 ## Note:
 
 
-> - When using an expression to pass a parameter to the subroutine, built-in functions of jBASE BASIC (such as [COUNT](266861-count)), cannot be used within the expression.
-> - An unlimited number of parameters can be passed to an external subroutine. The number of parameters in the **CALL**statement must match exactly the number expected in the [SUBROUTINE](284390-subroutine) statement declaring the external subroutine.
-> - It is not required that the calling program and the external subroutine be compiled with the same [PRECISION](277629-precision). However, any changes to precision in a subroutine will not persist when control returns to the calling program.
-> - Variables passed, as parameters to the subroutine may not reside in any [COMMON](276024-common) areas declared in the program.
-> - If it is desired to pass a [DIM](276028-dimension-dim)ensioned array as an argument use the [MAT](276944-mat) keyword as:
+> - When using an expression to pass a parameter to the subroutine, built-in functions of jBASE BASIC (such as [COUNT](./../count)), cannot be used within the expression.
+> - An unlimited number of parameters can be passed to an external subroutine. The number of parameters in the **CALL**statement must match exactly the number expected in the [SUBROUTINE](./../subroutine) statement declaring the external subroutine.
+> - It is not required that the calling program and the external subroutine be compiled with the same [PRECISION](./../precision). However, any changes to precision in a subroutine will not persist when control returns to the calling program.
+> - Variables passed, as parameters to the subroutine may not reside in any [COMMON](./../common) areas declared in the program.
+> - If it is desired to pass a [DIM](./../dimension-%28dim%29)ensioned array as an argument use the [MAT](./../mat) keyword as:
 > 
 > 
 > ```
@@ -58,4 +58,4 @@ RETURN
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

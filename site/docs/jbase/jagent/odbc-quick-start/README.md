@@ -104,7 +104,7 @@ Below is a sample script to start jbase\_agent.
 
 ### Info
 
-Please note that it is now also possible to start jbase\_agent as a service, and also via a jbase\_agent config file, see this [link](/30312-jagent/336525-jagent-administration).
+Please note that it is now also possible to start jbase\_agent as a service, and also via a jbase\_agent config file, see this [link](./../jagent-administration).
 
 ```
 #/bin/ksh

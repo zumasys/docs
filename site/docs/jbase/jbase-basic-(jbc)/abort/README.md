@@ -37,4 +37,4 @@ This will terminate the program and print error message 66.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

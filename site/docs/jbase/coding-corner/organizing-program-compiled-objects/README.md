@@ -33,7 +33,7 @@ JBCDEV_BINJBCDEV_LIB
 
 ## The jBASE SYSTEM File
 
-The two environment variables mentioned above are normally set to a bin and lib path that is appropriate for the account in which the code lives.  For example, if you have an account defined in the jBASE SYSTEM file called ACCOUNT-A, you might see entries within that SYSTEM record that define the value to be assigned to JBCDEV\_BIN and JBCDEV\_LIB.   When you execute a LOGTO, the SYSTEM file item for that account is read and a slew of environment variables are set.  More information on system file [here](317964-system-file).
+The two environment variables mentioned above are normally set to a bin and lib path that is appropriate for the account in which the code lives.  For example, if you have an account defined in the jBASE SYSTEM file called ACCOUNT-A, you might see entries within that SYSTEM record that define the value to be assigned to JBCDEV\_BIN and JBCDEV\_LIB.   When you execute a LOGTO, the SYSTEM file item for that account is read and a slew of environment variables are set.  More information on system file [here](./../../environment-variables/system-file).
 
 
 
@@ -140,7 +140,7 @@ This has a number of issues:
 
 On the other hand, the benefits are that this might be desirable in a TEST account where you would be assured that compiling in the test account would not alter the production bins and libs.
 
-If your organization wishes to keep with the "Pick" way of doing things then there are certain configuration [best practices](318006-best-practices-for-being-pick-like)that should be followed.
+If your organization wishes to keep with the "Pick" way of doing things then there are certain configuration [best practices](./../best-practices-for-being-pick-like)that should be followed.
 
 
 

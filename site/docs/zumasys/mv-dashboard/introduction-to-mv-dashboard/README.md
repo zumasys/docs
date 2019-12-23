@@ -16,14 +16,14 @@ A MultiValue software developer can use MV Dashboard to produce graphical repres
 The following topics are presented:
 
 
-| [Widget Programming Environment](widget-programming-environment)<br> | Details the widget programming environment.<br> |
+| [Widget Programming Environment](./../widget-programming-environment)<br> | Details the widget programming environment.<br> |
 | --- | --- |
-| [Widget Types](widget-types)<br> | Describes and lists widget types.<br> |
-| [Integration With Other Applications](integration-with-other-applications)<br> | Describes how to display dashboard widgets via URL calls from other applications.<br> |
-| [Appendix I: Widget Output Type Codes](appendix-i-widget-output-type-codes)<br> | Details the widget output type codes for color and theme management.<br> |
-| [Appendix II: Optional Parameters](appendix-ii-optional-parameters)<br> | Details the optional parameters for the widget types.<br> |
-| [Appendix III: PDF Generation](appendix-iii-pdf-generation) | Instructions for enabling widgets to generate PDF files.<br> |
-| [Fusion Charts Documentation](fusion-charts-documentation)<br> | Provides links to the Fusion Charts documentation.<br> |
+| [Widget Types](./../widget-types)<br> | Describes and lists widget types.<br> |
+| [Integration With Other Applications](./../integration-with-other-applications)<br> | Describes how to display dashboard widgets via URL calls from other applications.<br> |
+| [Appendix I: Widget Output Type Codes](./../appendix-i-widget-output-type-codes)<br> | Details the widget output type codes for color and theme management.<br> |
+| [Appendix II: Optional Parameters](./../appendix-ii-optional-parameters)<br> | Details the optional parameters for the widget types.<br> |
+| [Appendix III: PDF Generation](./../appendix-iii-pdf-generation) | Instructions for enabling widgets to generate PDF files.<br> |
+| [Fusion Charts Documentation](./../fusion-charts-documentation)<br> | Provides links to the Fusion Charts documentation.<br> |
 
 
 

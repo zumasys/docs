@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
-- [Class](/39258-jca/com_jbase_jremote_jca_wrappedjconnection "class in com.jbase.jremote.jca")
+- [Package](./../../com.jbase.jremote.jca-%28jremote---api%29)
+- [Class](./../../wrappedjconnection-%28jremote-api%29 "class in com.jbase.jremote.jca")
 - Use
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Tree](./../../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/class-use//39261-class-use/com_jbase_jremote_jca_class-use_WrappedJConnection)
-- [No Frames](/39261-class-use/com_jbase_jremote_jca_class-use_WrappedJConnection)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,29 +36,29 @@ jremote <br>
 ## Uses of Class
 com.jbase.jremote.jca.WrappedJConnection
 
-- Packages that use [WrappedJConnection](/39258-jca/com_jbase_jremote_jca_wrappedjconnection "class in com.jbase.jremote.jca") | Package | Description |
+- Packages that use [WrappedJConnection](./../../wrappedjconnection-%28jremote-api%29 "class in com.jbase.jremote.jca") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.jca |   |
-- - ### Uses of [WrappedJConnection](/39258-jca/com_jbase_jremote_jca_wrappedjconnection "class in com.jbase.jremote.jca") in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary)
+- - ### Uses of [WrappedJConnection](./../../wrappedjconnection-%28jremote-api%29 "class in com.jbase.jremote.jca") in [com.jbase.jremote.jca](./../../com.jbase.jremote.jca-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) with parameters of type [WrappedJConnection](/39258-jca/com_jbase_jremote_jca_wrappedjconnection "class in com.jbase.jremote.jca") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca](./../../com.jbase.jremote.jca-%28jremote---api%29) with parameters of type [WrappedJConnection](./../../wrappedjconnection-%28jremote-api%29 "class in com.jbase.jremote.jca") | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | JRemoteManagedConnection.`closeHandle(WrappedJConnection handle)`  |
 
 
 
-Constructors in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) with parameters of type [WrappedJConnection](/39258-jca/com_jbase_jremote_jca_wrappedjconnection "class in com.jbase.jremote.jca") | Constructor and Description |
+Constructors in [com.jbase.jremote.jca](./../../com.jbase.jremote.jca-%28jremote---api%29) with parameters of type [WrappedJConnection](./../../wrappedjconnection-%28jremote-api%29 "class in com.jbase.jremote.jca") | Constructor and Description |
 | --- |
 | `WrappedJFile(WrappedJConnection connection,<br>            JFile jfile)`  |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39258-jca/com_jbase_jremote_jca_package-summary)
-- [Class](/39258-jca/com_jbase_jremote_jca_wrappedjconnection "class in com.jbase.jremote.jca")
+- [Package](./../../com.jbase.jremote.jca-%28jremote---api%29)
+- [Class](./../../wrappedjconnection-%28jremote-api%29 "class in com.jbase.jremote.jca")
 - Use
-- [Tree](/39258-jca/com_jbase_jremote_jca_package-tree)
+- [Tree](./../../com.jbase.jremote.jca-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -69,8 +69,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/class-use//39261-class-use/com_jbase_jremote_jca_class-use_WrappedJConnection)
-- [No Frames](/39261-class-use/com_jbase_jremote_jca_class-use_WrappedJConnection)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

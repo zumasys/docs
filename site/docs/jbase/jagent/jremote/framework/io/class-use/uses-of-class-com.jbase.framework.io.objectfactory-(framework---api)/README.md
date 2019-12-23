@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
-- [Class](/39220-io/com_jbase_framework_io_ObjectFactory "class in com.jbase.framework.io")
+- [Package](./../../com.jbase.framework.io-%28framework---api%29)
+- [Class](./../../objectfactory-%28framework---api%29 "class in com.jbase.framework.io")
 - Use
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Tree](./../../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/class-use//39223-class-use/com_jbase_framework_io_class-use_ObjectFactory)
-- [No Frames](/39223-class-use/com_jbase_framework_io_class-use_ObjectFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ framework <br>
 ## Uses of Class
 com.jbase.framework.io.ObjectFactory
 
-- Packages that use [ObjectFactory](/39220-io/com_jbase_framework_io_ObjectFactory "class in com.jbase.framework.io") | Package | Description |
+- Packages that use [ObjectFactory](./../../objectfactory-%28framework---api%29 "class in com.jbase.framework.io") | Package | Description |
 | --- | --- |
 | com.jbase.framework.io |   |
-- - ### Uses of [ObjectFactory](/39220-io/com_jbase_framework_io_ObjectFactory "class in com.jbase.framework.io") in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary)
+- - ### Uses of [ObjectFactory](./../../objectfactory-%28framework---api%29 "class in com.jbase.framework.io") in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29)
 
 
-Methods in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary) that return [ObjectFactory](/39220-io/com_jbase_framework_io_ObjectFactory "class in com.jbase.framework.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29) that return [ObjectFactory](./../../objectfactory-%28framework---api%29 "class in com.jbase.framework.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `ObjectFactory` | NIOJBaseObjectReader.`getObjectFactory()`  |
 | `ObjectFactory` | IOJBaseObjectReader.`getObjectFactory()`  |
@@ -50,7 +50,7 @@ Methods in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-sum
 
 
 
-Constructors in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary) with parameters of type [ObjectFactory](/39220-io/com_jbase_framework_io_ObjectFactory "class in com.jbase.framework.io") | Constructor and Description |
+Constructors in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29) with parameters of type [ObjectFactory](./../../objectfactory-%28framework---api%29 "class in com.jbase.framework.io") | Constructor and Description |
 | --- |
 | `IOJBaseObjectReader(ObjectFactory factory,<br>                   byte[] b)`<br>Constructor FOR TESTING ONLY.<br> |
 | `IOJBaseObjectReader(ObjectFactory factory,<br>                   InputStream is)`  |
@@ -59,10 +59,10 @@ Constructors in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_packag
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
-- [Class](/39220-io/com_jbase_framework_io_ObjectFactory "class in com.jbase.framework.io")
+- [Package](./../../com.jbase.framework.io-%28framework---api%29)
+- [Class](./../../objectfactory-%28framework---api%29 "class in com.jbase.framework.io")
 - Use
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Tree](./../../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -73,8 +73,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/class-use//39223-class-use/com_jbase_framework_io_class-use_ObjectFactory)
-- [No Frames](/39223-class-use/com_jbase_framework_io_class-use_ObjectFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

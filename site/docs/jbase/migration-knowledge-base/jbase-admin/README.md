@@ -83,7 +83,7 @@ More verbose listing       **lpstat -l or lpstat -l -P *laser1***
 **lprm -P *laser1 12***                              ß print job number is from lpq list
 jBASE Administrative commands
 
-Here are some of the commands which can be used as an administrator of jBASE.   See the knowledgebase for complete information at [http://www.jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/util1.htm](http://www.jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/util1.htm)
+Here are some of the commands which can be used as an administrator of jBASE.   See the knowledgebase for complete information at [https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/util1.htm](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/util1.htm)
 
 ## LISTU               Display users on the system
 

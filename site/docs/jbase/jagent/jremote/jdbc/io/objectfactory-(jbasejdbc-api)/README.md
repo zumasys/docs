@@ -34,8 +34,8 @@ extends Object
 
 | <br>Modifier and Type<br> | <br>Method<br> |  Description<br> |
 | --- | --- | --- |
-| <br>protected [JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")<br> | <br>createGenericObjects(int objectType)<br> | <br>Creates any generic (i.e common to all framework clients) objects.<br> |
-| <br>protected abstract [JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")<br> | <br>createObject(int objectType)<br> | <br>Create JBaseSerializable object from the supplied object type.<br> |
+| <br>protected [JBaseSerializable](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")<br> | <br>createGenericObjects(int objectType)<br> | <br>Creates any generic (i.e common to all framework clients) objects.<br> |
+| <br>protected abstract [JBaseSerializable](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")<br> | <br>createObject(int objectType)<br> | <br>Create JBaseSerializable object from the supplied object type.<br> |
 
 
 

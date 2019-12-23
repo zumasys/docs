@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Class IOJBaseObjectWriter
 
-All Implemented Interfaces:[JBaseObjectWriter](/39250-io/com_jbase_jremote_io_jbaseobjectwriter "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseObjectWriter](./../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io")
 * * *
 
 

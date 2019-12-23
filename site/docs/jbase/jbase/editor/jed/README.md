@@ -208,7 +208,7 @@ The jED editor allows a considerable number of functions and commands to be perf
 
 Most keys have a default value (which can be reset using the E option when invoking jED). These can be reconfigured for each command. The keystroke sequence can be chosen to suit the keyboard, the installation environment or personal preference.
 
-The keystroke environment is usually be set up by modifying the UNIX terminfo file parameters. The default editor commands can also be overriden by configuring the [.jedrc](customizing-the-jed-editor) entry.
+The keystroke environment is usually be set up by modifying the UNIX terminfo file parameters. The default editor commands can also be overriden by configuring the [.jedrc](./../customizing-the-jed-editor) entry.
 
 
 
@@ -242,7 +242,7 @@ The default keystroke sequences available from jED are shown below. If the syste
 | &lt;Ctrl K&gt;<br> | clears text to the end of the line. If the cursor is situated at the end of the text line, then this command will join the following line with the current line.<br> |
 | &lt;Back Space&gt;<br> | performs a destructive backspace.<br> |
 | &lt;Delete&gt;<br> | deletes the character under the current cursor position.<br> |
-| &lt;Ctrl D&gt;<br> | deletes the current line. By default, this key must be pressed twice to delete the line. This is to avoid accidental deletion by users familiar with vi. To override, place "set delete-line = ^D" in the [.jedrc file](http://jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/ed2_jedrc.htm).<br> |
+| &lt;Ctrl D&gt;<br> | deletes the current line. By default, this key must be pressed twice to delete the line. This is to avoid accidental deletion by users familiar with vi. To override, place "set delete-line = ^D" in the [.jedrc file](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/ed2_jedrc.htm).<br> |
 | &lt;Ctrl G&gt;<br> | sets the start or end position for marking a block of text. The first &lt;Ctrl G&gt; will mark the start of a block or mark a single line. The second &lt;Ctrl G&gt; with the cursor on a different line will mark a complete block. The block can be unmarked by pressing &lt;Ctrl G&gt; a third time.<br> |
 | &lt;Ctrl L&gt;<br> | inserts a blank line below the current line and positions the cursor on it.<br> |
 | &lt;Ctrl N&gt;<br> | locates the next occurrence of a earlier located string.<br> |
@@ -833,4 +833,4 @@ From Edit mode, press &lt;Esc&gt; to invoke the command line.
 
 
 
-Back to [Editors](editors)
+Back to [Editors](./../editors)

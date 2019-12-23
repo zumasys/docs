@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39230-driver/com_jbase_jdbc_driver_package-summary)
-- [Class](/39230-driver/com_jbase_jdbc_driver_JBaseDBError "class in com.jbase.jdbc.driver")
+- [Package](./../../com.jbase.jdbc.driver-%28jbasejdbc---api%29)
+- [Class](./../../jbasedberror-%28jbasejdbc---api%29 "class in com.jbase.jdbc.driver")
 - Use
-- [Tree](/39230-driver/com_jbase_jdbc_driver_package-tree)
+- [Tree](./../../com.jbase.jdbc.driver-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/driver/class-use//39231-class-use/com_jbase_jdbc_driver_class-use_JBaseDBError)
-- [No Frames](/39231-class-use/com_jbase_jdbc_driver_class-use_JBaseDBError)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.jdbc.driver.JBaseDBError
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39230-driver/com_jbase_jdbc_driver_package-summary)
-- [Class](/39230-driver/com_jbase_jdbc_driver_JBaseDBError "class in com.jbase.jdbc.driver")
+- [Package](./../../com.jbase.jdbc.driver-%28jbasejdbc---api%29)
+- [Class](./../../jbasedberror-%28jbasejdbc---api%29 "class in com.jbase.jdbc.driver")
 - Use
-- [Tree](/39230-driver/com_jbase_jdbc_driver_package-tree)
+- [Tree](./../../com.jbase.jdbc.driver-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/driver/class-use//39231-class-use/com_jbase_jdbc_driver_class-use_JBaseDBError)
-- [No Frames](/39231-class-use/com_jbase_jdbc_driver_class-use_JBaseDBError)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

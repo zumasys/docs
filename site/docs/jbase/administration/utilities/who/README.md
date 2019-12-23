@@ -19,4 +19,4 @@ WHO {PortNumber}
 
 If **PortNumber** is specified, then the user for that port is displayed.
 
-For some [emulations](jbcemulate), (e.g. ros), the system name and login user id are also displayed.
+For some [emulations](./../../../environment-variables/jbcemulate), (e.g. ros), the system name and login user id are also displayed.

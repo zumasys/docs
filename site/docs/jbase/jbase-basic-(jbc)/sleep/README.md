@@ -46,8 +46,8 @@ SLEEP 2.5
 
 
 
-See also: [MSLEEP](276984-msleep).
+See also: [MSLEEP](./../msleep).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

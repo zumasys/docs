@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
-- [Class](/39240-protocol/com_jbase_jdbc_protocol_ParameterList "class in com.jbase.jdbc.protocol")
+- [Package](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
+- [Class](./../../parameterlist-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 - Use
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Tree](./../../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/protocol/class-use//39241-class-use/com_jbase_jdbc_protocol_class-use_ParameterList)
-- [No Frames](/39241-class-use/com_jbase_jdbc_protocol_class-use_ParameterList)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,27 +36,27 @@ jbasejdbc <br>
 ## Uses of Class
 com.jbase.jdbc.protocol.ParameterList
 
-- Packages that use [ParameterList](/39240-protocol/com_jbase_jdbc_protocol_ParameterList "class in com.jbase.jdbc.protocol") | Package | Description |
+- Packages that use [ParameterList](./../../parameterlist-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc |   |
 | com.jbase.jdbc.protocol |   |
-- - ### Uses of [ParameterList](/39240-protocol/com_jbase_jdbc_protocol_ParameterList "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc](/39228-jdbc/com_jbase_jdbc_package-summary)
+- - ### Uses of [ParameterList](./../../parameterlist-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc](./../../../jbase-jdbc-api)
 
 
-Fields in [com.jbase.jdbc](/39228-jdbc/com_jbase_jdbc_package-summary) declared as [ParameterList](/39240-protocol/com_jbase_jdbc_protocol_ParameterList "class in com.jbase.jdbc.protocol") | Modifier and Type | Field and Description |
+Fields in [com.jbase.jdbc](./../../../jbase-jdbc-api) declared as [ParameterList](./../../parameterlist-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | Modifier and Type | Field and Description |
 | --- | --- |
 | `protected ParameterList` | JBaseJDBCPreparedStatement.`parameters`  |
-    - ### Uses of [ParameterList](/39240-protocol/com_jbase_jdbc_protocol_ParameterList "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+    - ### Uses of [ParameterList](./../../parameterlist-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") in [com.jbase.jdbc.protocol](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 
 
-Fields in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary) declared as [ParameterList](/39240-protocol/com_jbase_jdbc_protocol_ParameterList "class in com.jbase.jdbc.protocol") | Modifier and Type | Field and Description |
+Fields in [com.jbase.jdbc.protocol](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29) declared as [ParameterList](./../../parameterlist-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | Modifier and Type | Field and Description |
 | --- | --- |
 | `protected ParameterList` | DatabaseMetaDataRequest.`parameterList`  |
 | `protected ParameterList` | BindRequest.`parameterList`  |
 
 
 
-Methods in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary) that return [ParameterList](/39240-protocol/com_jbase_jdbc_protocol_ParameterList "class in com.jbase.jdbc.protocol") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.protocol](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29) that return [ParameterList](./../../parameterlist-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | Modifier and Type | Method and Description |
 | --- | --- |
 | `ParameterList` | SQLParamsResponse.`getParameterList()`  |
 | `ParameterList` | DatabaseMetaDataRequest.`getParameterList()`  |
@@ -64,7 +64,7 @@ Methods in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_pac
 
 
 
-Methods in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary) with parameters of type [ParameterList](/39240-protocol/com_jbase_jdbc_protocol_ParameterList "class in com.jbase.jdbc.protocol") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.protocol](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29) with parameters of type [ParameterList](./../../parameterlist-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | ParameterList.`copyFrom(ParameterList other)`  |
 | `void` | DatabaseMetaDataRequest.`setParameterList(ParameterList ps)`  |
@@ -72,7 +72,7 @@ Methods in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_pac
 
 
 
-Constructors in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary) with parameters of type [ParameterList](/39240-protocol/com_jbase_jdbc_protocol_ParameterList "class in com.jbase.jdbc.protocol") | Constructor and Description |
+Constructors in [com.jbase.jdbc.protocol](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29) with parameters of type [ParameterList](./../../parameterlist-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | Constructor and Description |
 | --- |
 | `BindRequest(StatementID statementId,<br>           ParameterList parameterList)`  |
 | `CallSubroutineRequest(StatementID statementId,<br>                     ParameterList parameterList)`  |
@@ -82,10 +82,10 @@ Constructors in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protoco
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
-- [Class](/39240-protocol/com_jbase_jdbc_protocol_ParameterList "class in com.jbase.jdbc.protocol")
+- [Package](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
+- [Class](./../../parameterlist-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 - Use
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Tree](./../../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -96,8 +96,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/protocol/class-use//39241-class-use/com_jbase_jdbc_protocol_class-use_ParameterList)
-- [No Frames](/39241-class-use/com_jbase_jdbc_protocol_class-use_ParameterList)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

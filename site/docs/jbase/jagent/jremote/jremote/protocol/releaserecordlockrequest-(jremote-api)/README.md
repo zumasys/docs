@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Class ReleaseRecordLockRequest
 
-All Implemented Interfaces:[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -79,13 +79,13 @@ Request jBASE to release a record lock. If the record key is an empty string, th
 ```
 public static final int CHECK_LOCK
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../../constant-field-values)
 #### RELEASE\_LOCK
 
 ```
 public static final int RELEASE_LOCK
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../../constant-field-values)
 
 
 ### 

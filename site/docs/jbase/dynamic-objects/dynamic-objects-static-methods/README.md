@@ -23,7 +23,7 @@ Classname::methodname({arg1{, arg2, arg3, ..., argx}})
 
 This will compile to a call to a static method where the called object is created only for as long as the method takes to run.
 
-Extending our Math class from [here](dynamic-objects-instance-methods), add a new method called **nthroot** which calculates the nth root of some number to the nearest integer, both of which will be arguments of the method.
+Extending our Math class from [here](./../dynamic-objects-instance-methods), add a new method called **nthroot** which calculates the nth root of some number to the nearest integer, both of which will be arguments of the method.
 
 ```
 0001     method Math::Math()       ;* constructor

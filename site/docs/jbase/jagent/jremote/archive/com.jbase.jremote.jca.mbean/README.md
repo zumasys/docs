@@ -7,12 +7,12 @@
 
 # Classes
 
-- [JRemoteStatisticsCounter](com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter "class in com.jbase.jremote.jca.mbean")
+- [JRemoteStatisticsCounter](./../../jremote/jca/mbean/jremotestatisticscounter-%28jremote---api%29 "class in com.jbase.jremote.jca.mbean")
 
 
 
 
 # Enums
 
-- [JRemoteStatisticsCounter.Types](com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter.Types "enum in com.jbase.jremote.jca.mbean")
+- [JRemoteStatisticsCounter.Types](./../../jremote/jca/mbean/jremotestatisticscounter-%28jremote---api%29 "enum in com.jbase.jremote.jca.mbean")
 

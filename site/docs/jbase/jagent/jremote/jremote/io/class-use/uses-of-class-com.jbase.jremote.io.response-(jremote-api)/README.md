@@ -14,7 +14,7 @@ com.jbase.jremote.io.Response
 
 | Package<br> | Description<br> |
 | --- | --- |
- Packages that use [Response](/39250-io/com_jbase_jremote_io_response "class in com.jbase.jremote.io")  | com.jbase.jremote<br> |  <br> |
+ Packages that use [Response](./../../response-%28jremote-api%29 "class in com.jbase.jremote.io")  | com.jbase.jremote<br> |  <br> |
 | com.jbase.jremote.io<br> |  <br> |
 | com.jbase.jremote.protocol<br> |  <br> |
 
@@ -25,31 +25,31 @@ com.jbase.jremote.io.Response
 
 
 
-### Uses of [Response](/39250-io/com_jbase_jremote_io_response "class in com.jbase.jremote.io") in [com.jbase.jremote](/30312-jagent/jremote-api)
+### Uses of [Response](./../../response-%28jremote-api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote](./../../../../../jremote-api)
 
 
 | Modifier and Type<br> | Class and Description<br> |
 | --- | --- |
- Subclasses of [Response](/39250-io/com_jbase_jremote_io_response "class in com.jbase.jremote.io") in [com.jbase.jremote](/30312-jagent/jremote-api)  | `class `<br> | `JExecuteResults`<br>The results from an executed command.<br> |
+ Subclasses of [Response](./../../response-%28jremote-api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote](./../../../../../jremote-api)  | `class `<br> | `JExecuteResults`<br>The results from an executed command.<br> |
 
 
 
 
 
 
-### Uses of [Response](/39250-io/com_jbase_jremote_io_response "class in com.jbase.jremote.io") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
+### Uses of [Response](./../../response-%28jremote-api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29)
 
 
 | Modifier and Type<br> | Class and Description<br> |
 | --- | --- |
- Subclasses of [Response](/39250-io/com_jbase_jremote_io_response "class in com.jbase.jremote.io") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)  | `class `<br> | `ErrorResponse` <br> |
+ Subclasses of [Response](./../../response-%28jremote-api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29)  | `class `<br> | `ErrorResponse` <br> |
 | `class `<br> | `OKResponse` <br> |
 
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) that return [Response](/39250-io/com_jbase_jremote_io_response "class in com.jbase.jremote.io")  | `Response`<br> | JRemoteSocketConnection.`receive()` <br> |
+ Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) that return [Response](./../../response-%28jremote-api%29 "class in com.jbase.jremote.io")  | `Response`<br> | JRemoteSocketConnection.`receive()` <br> |
 | `Response`<br> | InterceptorConnection.`receive()`<br>Intercept any IO messages and handle required input or output on in / out streams.<br> |
 | `abstract Response`<br> | AbstractJRemoteConnection.`receive()` <br> |
 | `Response`<br> | JConnectionImpl.`sendWaitForResponse(JRemoteRequest req)`<br>Uses underlying connection to send a request and wait for the response.<br> |
@@ -60,12 +60,12 @@ com.jbase.jremote.io.Response
 
 
 
-### Uses of [Response](/39250-io/com_jbase_jremote_io_response "class in com.jbase.jremote.io") in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary)
+### Uses of [Response](./../../response-%28jremote-api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-%28jremote-api%29)
 
 
 | Modifier and Type<br> | Class and Description<br> |
 | --- | --- |
- Subclasses of [Response](/39250-io/com_jbase_jremote_io_response "class in com.jbase.jremote.io") in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary)  | `class `<br> | `ConvResponse` <br> |
+ Subclasses of [Response](./../../response-%28jremote-api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-%28jremote-api%29)  | `class `<br> | `ConvResponse` <br> |
 | `class `<br> | `DateTimeResponse` <br> |
 | `class `<br> | `EchoResponse` <br> |
 | `class `<br> | `EISMetaDataResponse`<br>Response object which reads general meta data of the underlying EIS instance.<br> |

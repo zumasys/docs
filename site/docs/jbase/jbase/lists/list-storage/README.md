@@ -13,7 +13,7 @@ The jBASEWORK file also contains default or numbered select lists. These select 
 
 The jBASEWORK can be safely deleted when no users are executing jBASE programs.
 
-The jBASEWORK files can be configured to another directory by using the [JBASEUNIQUE](jbaseunique)environment variable or the JBCBASETMP environment variable.
+The jBASEWORK files can be configured to another directory by using the [JBASEUNIQUE](./../../../environment-variables/jbaseunique)environment variable or the JBCBASETMP environment variable.
 
 
 
@@ -28,4 +28,4 @@ Depending upon the JBCLISTFILE environment variable and existence of a POINTER-F
 
 
 
-Back to [List Processing](325912-list-processing)
+Back to [List Processing](./../list-processing)

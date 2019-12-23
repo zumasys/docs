@@ -10,7 +10,7 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
+- [Package](./../com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
 - Class
 - Use
 - Tree
@@ -20,12 +20,12 @@ Skip navigation links
 
 jbasejdbc <br>
 
-- [Prev](/39236-exception/com_jbase_jdbc_io_exception_package-tree)
-- [Next](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Prev](./../../exception/com.jbase.jdbc.io.exception-class-hierarchy-%28jbasejdbc---api%29)
+- [Next](./../../../protocol/com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/inflow//39238-inflow/com_jbase_jdbc_io_inflow_package-tree)
-- [No Frames](/39238-inflow/com_jbase_jdbc_io_inflow_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -40,27 +40,27 @@ Package Hierarchies:
 ## Class Hierarchy
 
 - java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
-    - com.jbase.jdbc.io.inflow.[ClientHandle](/39238-inflow/com_jbase_jdbc_io_inflow_ClientHandle "class in com.jbase.jdbc.io.inflow")
-    - com.jbase.jdbc.io.inflow.[PendingChange](/39238-inflow/com_jbase_jdbc_io_inflow_PendingChange "class in com.jbase.jdbc.io.inflow")
+    - com.jbase.jdbc.io.inflow.[ClientHandle](./../clienthandle-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.inflow")
+    - com.jbase.jdbc.io.inflow.[PendingChange](./../pendingchange-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.inflow")
     - java.lang.[Thread](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Thread.html?is-external=true "class or interface in java.lang") (implements java.lang.[Runnable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Runnable.html?is-external=true "class or interface in java.lang"))
-        - com.jbase.jdbc.io.inflow.[RequestListenerService](/39238-inflow/com_jbase_jdbc_io_inflow_RequestListenerService "class in com.jbase.jdbc.io.inflow") (implements com.jbase.jdbc.io.inflow.[RequestListenerServiceMBean](/39238-inflow/com_jbase_jdbc_io_inflow_RequestListenerServiceMBean "interface in com.jbase.jdbc.io.inflow"), javax.resource.spi.work.Work)
-        - com.jbase.jdbc.io.inflow.[RequestListenerThread](/39238-inflow/com_jbase_jdbc_io_inflow_requestlistenerthread "class in com.jbase.jdbc.io.inflow") (implements javax.resource.spi.work.Work)
+        - com.jbase.jdbc.io.inflow.[RequestListenerService](./../requestlistenerservice-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.inflow") (implements com.jbase.jdbc.io.inflow.[RequestListenerServiceMBean](./../requestlistenerservicembean-%28jbasejdbc---api%29 "interface in com.jbase.jdbc.io.inflow"), javax.resource.spi.work.Work)
+        - com.jbase.jdbc.io.inflow.[RequestListenerThread](./../requestlistenerthread-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io.inflow") (implements javax.resource.spi.work.Work)
     - java.lang.[Throwable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Throwable.html?is-external=true "class or interface in java.lang") (implements java.io.[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"))
         - java.lang.[Exception](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Exception.html?is-external=true "class or interface in java.lang")
-            - com.jbase.jdbc.io.inflow.[RequestHandlerException](/39238-inflow/com_jbase_jdbc_io_inflow_RequestHandlerException "class in com.jbase.jdbc.io.inflow")
+            - com.jbase.jdbc.io.inflow.[RequestHandlerException](./../requesthandlerexception-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.inflow")
 
 
 ## Interface Hierarchy
 
-- com.jbase.jdbc.io.inflow.[RequestHandler](/39238-inflow/com_jbase_jdbc_io_inflow_RequestHandler "interface in com.jbase.jdbc.io.inflow")
-- com.jbase.jdbc.io.inflow.[RequestListenerServiceMBean](/39238-inflow/com_jbase_jdbc_io_inflow_RequestListenerServiceMBean "interface in com.jbase.jdbc.io.inflow")
-- com.jbase.jdbc.io.inflow.[RequestProcessingAbstractFactory](/39238-inflow/com_jbase_jdbc_io_inflow_requestprocessingabstractfactory "interface in com.jbase.jdbc.io.inflow")
-- com.jbase.jdbc.io.inflow.[StatisticsCounter](/39238-inflow/com_jbase_jdbc_io_inflow_statisticscounter "interface in com.jbase.jdbc.io.inflow")
+- com.jbase.jdbc.io.inflow.[RequestHandler](./../requesthandler-%28jbasejdbc---api%29 "interface in com.jbase.jdbc.io.inflow")
+- com.jbase.jdbc.io.inflow.[RequestListenerServiceMBean](./../requestlistenerservicembean-%28jbasejdbc---api%29 "interface in com.jbase.jdbc.io.inflow")
+- com.jbase.jdbc.io.inflow.[RequestProcessingAbstractFactory](./../requestprocessingabstractfactory-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io.inflow")
+- com.jbase.jdbc.io.inflow.[StatisticsCounter](./../statisticscounter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io.inflow")
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
+- [Package](./../com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
 - Class
 - Use
 - Tree
@@ -70,12 +70,12 @@ Skip navigation links
 
 jbasejdbc <br>
 
-- [Prev](/39236-exception/com_jbase_jdbc_io_exception_package-tree)
-- [Next](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Prev](./../../exception/com.jbase.jdbc.io.exception-class-hierarchy-%28jbasejdbc---api%29)
+- [Next](./../../../protocol/com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/inflow//39238-inflow/com_jbase_jdbc_io_inflow_package-tree)
-- [No Frames](/39238-inflow/com_jbase_jdbc_io_inflow_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

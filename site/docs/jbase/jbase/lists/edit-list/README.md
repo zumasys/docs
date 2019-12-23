@@ -44,6 +44,6 @@ Edits the list called A.SALES. The editor used is Windows Notepad.
 
 
 
-See also [list storage](list-storage).
+See also [list storage](./../list-storage).
 
-Back to [List Processing](325912-list-processing)
+Back to [List Processing](./../list-processing)

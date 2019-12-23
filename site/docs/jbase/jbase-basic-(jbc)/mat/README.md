@@ -30,7 +30,7 @@ Where:
 ## Note: 
 
 
-> If any element of the array Array2 has not been assigned a value then a runtime error message will occur. This can be avoided by coding the statement "**MAT**Array2 = " after the [DIM](276028-dimension-dim) statement.
+> If any element of the array Array2 has not been assigned a value then a runtime error message will occur. This can be avoided by coding the statement "**MAT**Array2 = " after the [DIM](./../dimension-%28dim%29) statement.
 
 
 An example would be as:
@@ -47,4 +47,4 @@ to display "Array value", even though it was initially assigned to A
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

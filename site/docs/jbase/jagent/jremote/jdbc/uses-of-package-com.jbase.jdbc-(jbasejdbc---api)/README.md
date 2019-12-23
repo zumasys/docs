@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
+- [Package](./../jbase-jdbc-api)
 - Class
 - Use
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Tree](./../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../deprecated-list.html)
 - [Help](../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../index.html?com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_package-use)
-- [No Frames](/39228-jdbc/com_jbase_jdbc_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../allclasses-noframe.html)
@@ -33,33 +33,33 @@ jbasejdbc <br>
 # Uses of Package
 com.jbase.jdbc
 
-- Packages that use [com.jbase.jdbc](../../../com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_package-summary) | Package | Description |
+- Packages that use [com.jbase.jdbc](./../jbase-jdbc-api) | Package | Description |
 | --- | --- |
 | com.jbase.jdbc |   |
 | com.jbase.jdbc.driver |   |
 | com.jbase.jdbc.protocol |   |
-- Classes in [com.jbase.jdbc](../../../com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_package-summary) used by [com.jbase.jdbc](../../../com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_package-summary) | Class and Description |
+- Classes in [com.jbase.jdbc](./../jbase-jdbc-api) used by [com.jbase.jdbc](./../jbase-jdbc-api) | Class and Description |
 | --- |
 | [JBaseJDBCConnection](../../../com/jbase/jdbc/class-use/JBaseJDBCConnection.html#com.jbase.jdbc)  |
 | [JBaseJDBCGlobals](../../../com/jbase/jdbc/class-use/JBaseJDBCGlobals.html#com.jbase.jdbc)<br>The jBASE JDBC Driver's global definitions and constants.<br> |
 | [JBaseJDBCPreparedStatement](../../../com/jbase/jdbc/class-use/JBaseJDBCPreparedStatement.html#com.jbase.jdbc)  |
 | [JBaseJDBCSocketConnection](../../../com/jbase/jdbc/class-use/JBaseJDBCSocketConnection.html#com.jbase.jdbc)  |
 | [JBaseJDBCSocketStatement](../../../com/jbase/jdbc/class-use/JBaseJDBCSocketStatement.html#com.jbase.jdbc)  |
-- Classes in [com.jbase.jdbc](../../../com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_package-summary) used by [com.jbase.jdbc.driver](../../../com/jbase/jdbc/driver//39228-jdbc/com_jbase_jdbc_package-summary) | Class and Description |
+- Classes in [com.jbase.jdbc](./../jbase-jdbc-api) used by [com.jbase.jdbc.driver](./../jbase-jdbc-api) | Class and Description |
 | --- |
 | [JBaseJDBCConnection](../../../com/jbase/jdbc/class-use/JBaseJDBCConnection.html#com.jbase.jdbc.driver)  |
 | [JBaseJDBCDriverConstants](../../../com/jbase/jdbc/class-use/JBaseJDBCDriverConstants.html#com.jbase.jdbc.driver)  |
-- Classes in [com.jbase.jdbc](../../../com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_package-summary) used by [com.jbase.jdbc.protocol](../../../com/jbase/jdbc/protocol//39228-jdbc/com_jbase_jdbc_package-summary) | Class and Description |
+- Classes in [com.jbase.jdbc](./../jbase-jdbc-api) used by [com.jbase.jdbc.protocol](./../jbase-jdbc-api) | Class and Description |
 | --- |
 | [JBaseJDBCGlobals](../../../com/jbase/jdbc/class-use/JBaseJDBCGlobals.html#com.jbase.jdbc.protocol)<br>The jBASE JDBC Driver's global definitions and constants.<br> |
 
 Skip navigation links
 
 - [Overview](../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
+- [Package](./../jbase-jdbc-api)
 - Class
 - Use
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Tree](./../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../deprecated-list.html)
 - [Help](../../../help-doc.html)
 
@@ -70,8 +70,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../index.html?com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_package-use)
-- [No Frames](/39228-jdbc/com_jbase_jdbc_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../allclasses-noframe.html)

@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_JBaseSerializable)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_JBaseSerializable)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,14 +36,14 @@ jbasejdbc <br>
 ## Uses of Interface
 com.jbase.jdbc.io.JBaseSerializable
 
-- Packages that use [JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io") | Package | Description |
+- Packages that use [JBaseSerializable](./../../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.io |   |
 | com.jbase.jdbc.protocol |   |
-- - ### Uses of [JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary)
+- - ### Uses of [JBaseSerializable](./../../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 
 
-Classes in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) that implement [JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io") | Modifier and Type | Class and Description |
+Classes in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29) that implement [JBaseSerializable](./../../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `ErrorResponse`  |
 | `class` | `OKResponse`  |
@@ -52,7 +52,7 @@ Classes in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) that
 
 
 
-Methods in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) that return [JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29) that return [JBaseSerializable](./../../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected JBaseSerializable` | ObjectFactory.`createGenericObjects(int objectType)`<br>Creates any generic (i.e common to all framework clients) objects.<br> |
 | `protected abstract JBaseSerializable` | ObjectFactory.`createObject(int objectType)`<br>Create JBaseSerializable object from the supplied object type.<br> |
@@ -65,7 +65,7 @@ Methods in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) that
 
 
 
-Methods in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) with parameters of type [JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29) with parameters of type [JBaseSerializable](./../../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected JBaseSerializable` | AbstractJBaseObjectReader.`readJBaseSerializableObject(char code,<br>                           JBaseSerializable o)`  |
 | `JBaseSerializable` | JBaseObjectReader.`readObject(JBaseSerializable o)`<br>Reads/deserializes next object, a JBaseSerializable object should be created and returned<br> if a null argument is passed in.<br> |
@@ -75,10 +75,10 @@ Methods in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) with
 | `void` | AbstractJBaseObjectWriter.`writeObject(JBaseSerializable o)`  |
 | `void` | JBaseObjectWriter.`writeRootObject(JBaseSerializable o)`  |
 | `void` | AbstractJBaseObjectWriter.`writeRootObject(JBaseSerializable o)`  |
-    - ### Uses of [JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+    - ### Uses of [JBaseSerializable](./../../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.protocol](./../../../protocol/com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 
 
-Classes in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary) that implement [JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io") | Modifier and Type | Class and Description |
+Classes in [com.jbase.jdbc.protocol](./../../../protocol/com.jbase.jdbc.protocol-%28jbasejdbc---api%29) that implement [JBaseSerializable](./../../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `AccountAuthenticationRequest`<br>Request for authentication.<br> |
 | `static class` | `AccountAuthenticationRequest.AccountUserCredentials`  |
@@ -122,10 +122,10 @@ Classes in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_pac
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -136,8 +136,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_JBaseSerializable)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_JBaseSerializable)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

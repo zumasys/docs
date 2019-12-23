@@ -30,8 +30,8 @@ The Descriptions below are UNIX-centric.
 | **-Ju**<br> | To set the terminal output to be unbuffered. Under normal circumstances, data printed to the terminal will only be actually be displayed under the following circumstances:<ul><li>A new line character is printed.</li><li>The maximum number of characters have been buffered.</li><li>The program terminates, or calls another program through the PERFORM, EXECUTE, CHAIN or ENTER command.</li><li>The program pauses due to execution of an INPUT, SLEEP or RQM statement.</li></ul><br>For example, in the following code, the data is not actually printed until the very last line:<br><br>```<br>FOR Loop = 1 TO 10<br>   PRINT @(0,23):”Loop “:Loop:@(-4):<br>   CALL DOTHIS<br>NEXT Loop<br>PRINT “Completed”<br>```<br><br>Some legacy applications do this sort of thing, and the status message is not displayed when it is required. There are a number of ways to force each PRINT or CRT statement to be displayed:<br><ul><li>Use this -Ju option.</li><li>Append a CHAR(0) to the end of the string. For example:</li></ul><br>```<br>PRINT @(0,23):”Loop “:Loop:@(-4):CHAR(0):<br>```<br><br>Note that this incurs a performance penalty and should be avoided if possible. Small terminal populations will probably not see much degradation, but large terminal populations performing lots of screen based activity will incur a significant penalty.<br> |
 | **-Jw**<br> | Prevents the debugger being entered when warning messages are issued. By default, when a run-time error occurs and a warning message is issued, the debugger will be entered. The later section on error messages describes this more fully. This option will not affect fatal run-time errors, where the debugger will still be entered if possible.<br> |
 | **-Jx**<br> | Causes the contents of the all variables in a program to be displayed at the end of a program.<br> |
-| **-JC**<br> | Turns on [coverage support](336041-jcover).<br> |
-| **-JP**<br> | Turns on [profiling support](jprof).<br> |
+| **-JC**<br> | Turns on [coverage support](./../../jbase/tools/jcover).<br> |
+| **-JP**<br> | Turns on [profiling support](./../../jbase/tools/jprof).<br> |
 
 
 

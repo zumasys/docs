@@ -34,9 +34,9 @@ The user will then enter the formqueue or printjob to be stopped.
 
 > ### Note: 
 > 
-> Despooling will stop after the current print job is despooled. To resume printing refer to Option 7 - the [SP-RESUME](306460-untitled-question) command.
+> Despooling will stop after the current print job is despooled. To resume printing refer to Option 7 - the [SP-RESUME](./../sp-resume) command.
 
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

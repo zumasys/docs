@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Interface InboundRequest
 
-All Superinterfaces:[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")All Known Implementing Classes:[ActivationRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_ActivationRequest "class in com.jbase.jremote.jca.inflow.protocol"), [CommitTransactionRequest](/39270-protocol/com_jbase_jremote_protocol_CommitTransactionRequest "class in com.jbase.jremote.jca.inflow.protocol"), [RollbackTransactionRequest](/39270-protocol/com_jbase_jremote_protocol_RollbackTransactionRequest "class in com.jbase.jremote.jca.inflow.protocol"), [StartTransactionRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_StartTransactionRequest "class in com.jbase.jremote.jca.inflow.protocol")
+All Superinterfaces:[JBaseSerializable](./../../../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")All Known Implementing Classes:[ActivationRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_ActivationRequest "class in com.jbase.jremote.jca.inflow.protocol"), [CommitTransactionRequest](/39270-protocol/com_jbase_jremote_protocol_CommitTransactionRequest "class in com.jbase.jremote.jca.inflow.protocol"), [RollbackTransactionRequest](/39270-protocol/com_jbase_jremote_protocol_RollbackTransactionRequest "class in com.jbase.jremote.jca.inflow.protocol"), [StartTransactionRequest](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_StartTransactionRequest "class in com.jbase.jremote.jca.inflow.protocol")
 * * *
 
 

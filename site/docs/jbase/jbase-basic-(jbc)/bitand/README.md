@@ -32,4 +32,4 @@ This results in 0100, and the following output is displayed: 4
 
 
 
-Go back to [jBASE BASIC.](263498-jbase-basic)
+Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)

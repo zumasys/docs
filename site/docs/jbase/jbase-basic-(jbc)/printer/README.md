@@ -7,7 +7,7 @@
 
 # Description
 
-Use the **PRINTER** statement to control the destination of output from the [PRINT](277631-print) statement. It takes the general form:
+Use the **PRINTER** statement to control the destination of output from the [PRINT](./../print) statement. It takes the general form:
 
 ```
 PRINTER ON|OFF|CLOSE
@@ -15,9 +15,9 @@ PRINTER ON|OFF|CLOSE
 
 Where:
 
-**PRINTER ON** redirects all subsequent output from the [PRINT](277631-print) statement to the print spooler.
+**PRINTER ON** redirects all subsequent output from the [PRINT](./../print) statement to the print spooler.
 
-**PRINTER OFF** redirects all subsequent output from the [PRINT](277631-print) statement to the terminal device.
+**PRINTER OFF** redirects all subsequent output from the [PRINT](./../print) statement to the terminal device.
 
 **PRINTER CLOSE** will act as**PRINTER OFF** but in addition closes the currently active spool job created by the active **PRINTER ON** statement.
 
@@ -38,4 +38,4 @@ PRINTER CLOSE ;* Allow spooler to print it
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

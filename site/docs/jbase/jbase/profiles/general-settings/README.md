@@ -23,4 +23,4 @@ This section describes where jBASE is installed and how it should behave.
 
 
 
-Back to [Profiles](jbase-profiles57)
+Back to [Profiles](./../jbase-profiles)

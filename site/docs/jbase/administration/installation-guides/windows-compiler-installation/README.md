@@ -13,9 +13,9 @@
 
 **For jBASE Releases 5.5.x, 5.6.x (except 5.6.6) and 5.7.0**
 
-Follow this [link](jbase-release-55-56-570-except-566) to install a compiler.
+Follow this [link](./../jbase-release-5.5,-5.6,-5.7.0-%28except-5.6.6%29) to install a compiler.
 
-Note: If you are installing jBASE on Windows 8 (not 8.1) or Windows Server 2012 (not R2), please follow this [link](jbase-compiler-installation-for-windows-server-2012-not-r2-and-windows-8-not-81) to install a compatible version of Visual Studio BEFORE installing jBASE.
+Note: If you are installing jBASE on Windows 8 (not 8.1) or Windows Server 2012 (not R2), please follow this [link](./../windows-server-2012-&-windows-8-compiler-installation) to install a compatible version of Visual Studio BEFORE installing jBASE.
 
 **For jBASE Releases 5.6.6, 5.7.1 and later**
 
@@ -75,7 +75,7 @@ The selections available in Build Tools 2019 are much the same:
 
 
 
-At this point, the compiler is installed, environment variables appropriately configured and [installation of jBASE](323805-windows-jbase-installation) can proceed.
+At this point, the compiler is installed, environment variables appropriately configured and [installation of jBASE](./../windows-installation-guide) can proceed.
 
 ### Note:
 
@@ -83,7 +83,7 @@ Due to the recent deprecation of Windows SDK for Windows 7 compiler, jBASE has b
 
 End Users are experiencing this due to additional "redundant" entries being added to the PATH, INCLUDE and LIB Environment Variables.
 
-[Here](343799-notes-on-environment-variables-for-the-jbase-compiler) is an approach to resolving this warning, removing the "redundant" entries from your PATH, together with the INCLUDE entries, that will help cut down on the size.
+[Here](./../../../environment-variables/notes-on-environment-variables-for-the-jbase-compiler) is an approach to resolving this warning, removing the "redundant" entries from your PATH, together with the INCLUDE entries, that will help cut down on the size.
 
 
 
@@ -95,15 +95,15 @@ End Users are experiencing this due to additional "redundant" entries being adde
 
 ### See Next:
 
-[INSTALLING jBASE ON WINDOWS](323805-windows-jbase-installation)
+[INSTALLING jBASE ON WINDOWS](./../windows-installation-guide)
 
-[UPGRADING FROM A PREVIOUS VERSION](upgrading-from-a-previous-version)
+[UPGRADING FROM A PREVIOUS VERSION](./../upgrading-from-a-previous-version)
 
-[MANUAL INSTALLATION OF JDLS SERVICE](manual-installation-of-jdls-service)
+[MANUAL INSTALLATION OF JDLS SERVICE](./../../../jbase/manual-installation-of-jdls-service)
 
-[CREATING ACCOUNTS AND USERS](create-accounts-and-users)
+[CREATING ACCOUNTS AND USERS](./../create-accounts-and-users)
 
-[MANUAL LICENSE KEY INSTALLATION](manual-license-key-installation)
+[MANUAL LICENSE KEY INSTALLATION](./../manual-license-key-installation)
 
 
 

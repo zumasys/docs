@@ -46,4 +46,4 @@ Calls the jCL  program SUB1 in the SUBS  file as an external subroutine.
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

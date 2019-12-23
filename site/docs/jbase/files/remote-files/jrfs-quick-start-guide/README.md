@@ -29,7 +29,7 @@ jRFS    5001/tcp    jRFS      #jBASE Remote file service
 
 ### Client Setup
 
-On the client machine, omega, we create a Q pointer called RFSDEMO. This necessitates an [MD/VOC file](https://www.jbase.com/r99/knowledgebase/manuals/3.0/30manpages/man/acc2_md.htm) being set up on the client. The Q-pointer item is:
+On the client machine, omega, we create a Q pointer called RFSDEMO. This necessitates an [MD/VOC file](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/acc2_md.htm) being set up on the client. The Q-pointer item is:
 
 ```
 RFSDEMO
@@ -38,7 +38,7 @@ RFSDEMO
 003 JCUSTOMERS (Actual remote filename to be accessed)
 ```
 
-In the [SYSTEM](317964-system-file) file on the client machine we must define the "account" ACCDEMO. The ‘R’ pointer identifies it as a remote reference.
+In the [SYSTEM](./../../../environment-variables/system-file) file on the client machine we must define the "account" ACCDEMO. The ‘R’ pointer identifies it as a remote reference.
 
 ```
 ACCDEMO

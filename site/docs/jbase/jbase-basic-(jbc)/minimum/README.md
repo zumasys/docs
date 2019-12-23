@@ -33,6 +33,6 @@ to display 6
 
 
 
-See also: [MAXIMUM.](276975-maximum)
+See also: [MAXIMUM.](./../maximum)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

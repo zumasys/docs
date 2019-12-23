@@ -69,4 +69,4 @@ REST-SPOOLER - Restart all spooler queues.
 
 
 
-Back to [Spooler](jbase-spooler).
+Back to [Spooler](./../jbase-spooler).

@@ -29,7 +29,7 @@ Records that already exist in the destination file will be overwritten.
 
 When one file is reformatted into another, each record selected becomes a record in the new file. The first value specified in the output specification clause is used as the key for the new records. The remaining values in the output specification clause become fields in the new records.
 
-When a file is reformatted to tape, the values specified in the output specification clause are concatenated together to form one tape record for each record that is selected. The record output is either truncated or padded at the end with nulls (X"00") to obtain a record the same length as specified when the tape was assigned by the [T-ATT](http://jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/tap2_T_ATT.htm) command.
+When a file is reformatted to tape, the values specified in the output specification clause are concatenated together to form one tape record for each record that is selected. The record output is either truncated or padded at the end with nulls (X"00") to obtain a record the same length as specified when the tape was assigned by the [T-ATT](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/tap2_T_ATT.htm) command.
 
 Unless  HDR-SUPP or COL-HDR-SUPP, or a C or H option are specified, a tape label containing the file name, tape record length (in hexadecimal), the time, and date will be written to the tape first. If a HEADING clause is specified, this will form the data for the tape label.
 

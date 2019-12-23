@@ -73,7 +73,7 @@ Create a program to use the method:
 0004     crt "Standard Deviation = ":sd
 ```
 
-Note that we are doing a [static method call](dynamic-objects-static-methods).
+Note that we are doing a [static method call](./../dynamic-objects-static-methods).
 
 Result:
 

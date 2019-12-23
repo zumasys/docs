@@ -17,7 +17,7 @@ Where:
 
 expression must evaluate to a numeric type.
 
-The function calculates the result at the highest precision available on the host system; it truncates the result to the current [PRECISION](277629-precision) after calculation.
+The function calculates the result at the highest precision available on the host system; it truncates the result to the current [PRECISION](./../precision) after calculation.
 
 An example of use is as:
 
@@ -33,4 +33,4 @@ to display:  Opposite length = 28.14
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

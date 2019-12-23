@@ -83,4 +83,4 @@ The buffer pointer will be left at the end of the PIB. The primary input buffer 
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

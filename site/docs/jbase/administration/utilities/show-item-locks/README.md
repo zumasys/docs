@@ -17,4 +17,4 @@ SHOW-ITEM-LOCKS
 
 
 
-A lock can be explicitly cleared with the [CLEAR-ITEM-LOCKS](clear-item-locks) command.
+A lock can be explicitly cleared with the [CLEAR-ITEM-LOCKS](./../clear-item-locks) command.

@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39224-exception/com_jbase_framework_io_exception_package-summary)
+- [Package](./../com.jbase.framework.io.exception-%28framework---api%29)
 - Class
 - Use
-- [Tree](/39224-exception/com_jbase_framework_io_exception_package-tree)
+- [Tree](./../com.jbase.framework.io.exception-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/exception//39224-exception/com_jbase_framework_io_exception_package-use)
-- [No Frames](/39224-exception/com_jbase_framework_io_exception_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,20 +36,20 @@ framework <br>
 # Uses of Package
 com.jbase.framework.io.exception
 
-- Packages that use [com.jbase.framework.io.exception](../../../../../com/jbase/framework/io/exception//39224-exception/com_jbase_framework_io_exception_package-summary) | Package | Description |
+- Packages that use [com.jbase.framework.io.exception](./../com.jbase.framework.io.exception-%28framework---api%29) | Package | Description |
 | --- | --- |
 | com.jbase.framework.io |   |
-- Classes in [com.jbase.framework.io.exception](../../../../../com/jbase/framework/io/exception//39224-exception/com_jbase_framework_io_exception_package-summary) used by [com.jbase.framework.io](../../../../../com/jbase/framework/io//39224-exception/com_jbase_framework_io_exception_package-summary) | Class and Description |
+- Classes in [com.jbase.framework.io.exception](./../com.jbase.framework.io.exception-%28framework---api%29) used by [com.jbase.framework.io](./../com.jbase.framework.io.exception-%28framework---api%29) | Class and Description |
 | --- |
 | [UnknownTypeException](../../../../../com/jbase/framework/io/exception/class-use/UnknownTypeException.html#com.jbase.framework.io)  |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39224-exception/com_jbase_framework_io_exception_package-summary)
+- [Package](./../com.jbase.framework.io.exception-%28framework---api%29)
 - Class
 - Use
-- [Tree](/39224-exception/com_jbase_framework_io_exception_package-tree)
+- [Tree](./../com.jbase.framework.io.exception-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -60,8 +60,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/exception//39224-exception/com_jbase_framework_io_exception_package-use)
-- [No Frames](/39224-exception/com_jbase_framework_io_exception_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

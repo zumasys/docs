@@ -75,4 +75,4 @@ Here the user is prompted for a name (the record key) and the fast buffer is use
 
 ###  
 
-Back to[JCL Commands](jcl-commands)
+Back to[JCL Commands](./../jcl-commands)

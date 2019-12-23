@@ -41,7 +41,7 @@ NT          0 STANDARD                1  KILLED
 PORT        1 SCREEN                  1  STOPPED
 ```
 
-The printer number is a reference to the Formqueue number. This number can be matched to Formqueues created with Formqueue name Fn, where n is the Form queue number. The page skip, status and device fields are as per [SP-JOBS](306301-sp-jobs).
+The printer number is a reference to the Formqueue number. This number can be matched to Formqueues created with Formqueue name Fn, where n is the Form queue number. The page skip, status and device fields are as per [SP-JOBS](./../sp-jobs).
 
 ```
 1134 1171 1 1 127 127 3
@@ -51,4 +51,4 @@ Shows typical output to the secondary input buffer of a jCL program 1134 is the 
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

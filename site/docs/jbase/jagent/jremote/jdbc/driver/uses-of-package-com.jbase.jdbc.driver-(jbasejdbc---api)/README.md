@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39230-driver/com_jbase_jdbc_driver_package-summary)
+- [Package](./../com.jbase.jdbc.driver-%28jbasejdbc---api%29)
 - Class
 - Use
-- [Tree](/39230-driver/com_jbase_jdbc_driver_package-tree)
+- [Tree](./../com.jbase.jdbc.driver-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/driver//39230-driver/com_jbase_jdbc_driver_package-use)
-- [No Frames](/39230-driver/com_jbase_jdbc_driver_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.jdbc.driver
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39230-driver/com_jbase_jdbc_driver_package-summary)
+- [Package](./../com.jbase.jdbc.driver-%28jbasejdbc---api%29)
 - Class
 - Use
-- [Tree](/39230-driver/com_jbase_jdbc_driver_package-tree)
+- [Tree](./../com.jbase.jdbc.driver-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/driver//39230-driver/com_jbase_jdbc_driver_package-use)
-- [No Frames](/39230-driver/com_jbase_jdbc_driver_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

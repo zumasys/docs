@@ -10,7 +10,7 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
+- [Package](./../com.jbase.framework.io.inflow-%28framework---api%29)
 - Class
 - Use
 - Tree
@@ -20,12 +20,12 @@ Skip navigation links
 
 framework <br>
 
-- [Prev](/39224-exception/com_jbase_framework_io_exception_package-tree)
+- [Prev](./../../exception/com.jbase.framework.io.exception-class-hierarchy-%28framework---api%29)
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/inflow//39226-inflow/com_jbase_framework_io_inflow_package-tree)
-- [No Frames](/39226-inflow/com_jbase_framework_io_inflow_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -40,27 +40,27 @@ Package Hierarchies:
 ## Class Hierarchy
 
 - java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
-    - com.jbase.framework.io.inflow.[ClientHandle](/39226-inflow/com_jbase_framework_io_inflow_ClientHandle "class in com.jbase.framework.io.inflow")
-    - com.jbase.framework.io.inflow.[PendingChange](/39226-inflow/com_jbase_framework_io_inflow_PendingChange "class in com.jbase.framework.io.inflow")
+    - com.jbase.framework.io.inflow.[ClientHandle](./../clienthandle-%28framework---api%29 "class in com.jbase.framework.io.inflow")
+    - com.jbase.framework.io.inflow.[PendingChange](./../pendingchange-%28framework---api%29 "class in com.jbase.framework.io.inflow")
     - java.lang.[Thread](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Thread.html?is-external=true "class or interface in java.lang") (implements java.lang.[Runnable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Runnable.html?is-external=true "class or interface in java.lang"))
-        - com.jbase.framework.io.inflow.[RequestListenerService](/39226-inflow/com_jbase_framework_io_inflow_RequestListenerService "class in com.jbase.framework.io.inflow") (implements com.jbase.framework.io.inflow.[RequestListenerServiceMBean](/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean "interface in com.jbase.framework.io.inflow"), javax.resource.spi.work.Work)
-        - com.jbase.framework.io.inflow.[RequestListenerThread](/39226-inflow/com_jbase_framework_io_inflow_RequestListenerThread "class in com.jbase.framework.io.inflow") (implements javax.resource.spi.work.Work)
+        - com.jbase.framework.io.inflow.[RequestListenerService](./../requestlistenerservice-%28framework---api%29 "class in com.jbase.framework.io.inflow") (implements com.jbase.framework.io.inflow.[RequestListenerServiceMBean](./../requestlistenerservicembean-%28framework---api%29 "interface in com.jbase.framework.io.inflow"), javax.resource.spi.work.Work)
+        - com.jbase.framework.io.inflow.[RequestListenerThread](./../requestlistenerthread-%28framework---api%29 "class in com.jbase.framework.io.inflow") (implements javax.resource.spi.work.Work)
     - java.lang.[Throwable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Throwable.html?is-external=true "class or interface in java.lang") (implements java.io.[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"))
         - java.lang.[Exception](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Exception.html?is-external=true "class or interface in java.lang")
-            - com.jbase.framework.io.inflow.[RequestHandlerException](/39226-inflow/com_jbase_framework_io_inflow_RequestHandlerException "class in com.jbase.framework.io.inflow")
+            - com.jbase.framework.io.inflow.[RequestHandlerException](./../requesthandlerexception-%28framework---api%29 "class in com.jbase.framework.io.inflow")
 
 
 ## Interface Hierarchy
 
-- com.jbase.framework.io.inflow.[RequestHandler](/39226-inflow/com_jbase_framework_io_inflow_RequestHandler "interface in com.jbase.framework.io.inflow")
-- com.jbase.framework.io.inflow.[RequestListenerServiceMBean](/39226-inflow/com_jbase_framework_io_inflow_RequestListenerServiceMBean "interface in com.jbase.framework.io.inflow")
-- com.jbase.framework.io.inflow.[RequestProcessingAbstractFactory](/39226-inflow/com_jbase_framework_io_inflow_RequestProcessingAbstractFactory "interface in com.jbase.framework.io.inflow")
-- com.jbase.framework.io.inflow.[StatisticsCounter](/39226-inflow/com_jbase_framework_io_inflow_StatisticsCounter "interface in com.jbase.framework.io.inflow")
+- com.jbase.framework.io.inflow.[RequestHandler](./../requesthandler-%28framework---api%29 "interface in com.jbase.framework.io.inflow")
+- com.jbase.framework.io.inflow.[RequestListenerServiceMBean](./../requestlistenerservicembean-%28framework---api%29 "interface in com.jbase.framework.io.inflow")
+- com.jbase.framework.io.inflow.[RequestProcessingAbstractFactory](./../requestprocessingabstractfactory-%28framework---api%29 "interface in com.jbase.framework.io.inflow")
+- com.jbase.framework.io.inflow.[StatisticsCounter](./../statisticscounter-%28framework---api%29 "interface in com.jbase.framework.io.inflow")
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
+- [Package](./../com.jbase.framework.io.inflow-%28framework---api%29)
 - Class
 - Use
 - Tree
@@ -70,12 +70,12 @@ Skip navigation links
 
 framework <br>
 
-- [Prev](/39224-exception/com_jbase_framework_io_exception_package-tree)
+- [Prev](./../../exception/com.jbase.framework.io.exception-class-hierarchy-%28framework---api%29)
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/inflow//39226-inflow/com_jbase_framework_io_inflow_package-tree)
-- [No Frames](/39226-inflow/com_jbase_framework_io_inflow_package-tree)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

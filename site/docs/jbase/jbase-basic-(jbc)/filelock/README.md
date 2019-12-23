@@ -17,7 +17,7 @@ A **FILELOCK** statement that does not specify lock type is equivalent to obtain
 
 When the **FILELOCK** statement is executed, it will attempt to take an exclusive lock on the entire file. If there are any locks currently outstanding on the file, then the statement will block until there are no more locks on the file. The use of the **LOCKED** clause allows the application to perform an unblocked operation.
 
-When the **FILELOCK** statement is blocked waiting for a lock, other processes may continue to perform database operations on that file, including the removal of record locks and the taking of record locks. Once the **FILELOCK**is taken, it will block ALL database accesses to the file whether or not the access involves record locks. i.e. a [READ](277646-read) will block once it has been executed, as will, [CLEARFILE](266853-clearfile) etc,. The lock continues until the file is closed, the program terminates, or a [FILEUNLOCK](271549-fileunlock) statement is executed.
+When the **FILELOCK** statement is blocked waiting for a lock, other processes may continue to perform database operations on that file, including the removal of record locks and the taking of record locks. Once the **FILELOCK**is taken, it will block ALL database accesses to the file whether or not the access involves record locks. i.e. a [READ](./../read) will block once it has been executed, as will, [CLEARFILE](./../clearfile) etc,. The lock continues until the file is closed, the program terminates, or a [FILEUNLOCK](./../fileunlock) statement is executed.
 
 ## Note:
 
@@ -39,7 +39,7 @@ Alternatively, at file creation:
 CREATE-FILE filename 1,1 23,1 NETWORK=TRUE
 ```
 
-If the file continues to use the jBASE record locking, then the ON ERROR clause will be taken and the [SYSTEM(0)](282982-system-functions) and [STATUS](278661-status-function) functions will set to 22 to indicate the error.
+If the file continues to use the jBASE record locking, then the ON ERROR clause will be taken and the [SYSTEM(0)](./../system-functions) and [STATUS](./../status-function) functions will set to 22 to indicate the error.
 
 An example of use is as:
 
@@ -51,6 +51,6 @@ An example of use is as:
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

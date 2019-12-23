@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
+- [Package](./../jbase-jdbc-api)
 - Class
-- [Use](/39229-class-use/com_jbase_jdbc_class-use_ResultSetMetaDataAdapter.ColumnMetaData)
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.resultsetmetadataadapter-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../deprecated-list.html)
 - [Help](../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39228-jdbc/com_jbase_jdbc_ResultSetMetaDataAdapter "class in com.jbase.jdbc")
+- [Prev Class](./../resultsetmetadataadapter-%28jbasejdbc---api%29 "class in com.jbase.jdbc")
 - Next Class
 
 
-- [Frames](../../../index.html?com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_ResultSetMetaDataAdapter.ColumnMetaData)
-- [No Frames](/39228-jdbc/com_jbase_jdbc_ResultSetMetaDataAdapter.ColumnMetaData)
+- [Frames](./../resultsetmetadataadapter-%28jbasejdbc---api%29)
+- [No Frames](./../resultsetmetadataadapter-%28jbasejdbc---api%29)
 
 
 - [All Classes](../../../allclasses-noframe.html)
@@ -53,7 +53,7 @@ com.jbase.jdbc
 - - com.jbase.jdbc.ResultSetMetaDataAdapter.ColumnMetaData
 
 
-- Enclosing class:[ResultSetMetaDataAdapter](/39228-jdbc/com_jbase_jdbc_ResultSetMetaDataAdapter "class in com.jbase.jdbc")
+- Enclosing class:[ResultSetMetaDataAdapter](./../resultsetmetadataadapter-%28jbasejdbc---api%29 "class in com.jbase.jdbc")
 * * *
 
 
@@ -137,22 +137,22 @@ public int getPrecision()
 Skip navigation links
 
 - [Overview](../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
+- [Package](./../jbase-jdbc-api)
 - Class
-- [Use](/39229-class-use/com_jbase_jdbc_class-use_ResultSetMetaDataAdapter.ColumnMetaData)
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.resultsetmetadataadapter-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../deprecated-list.html)
 - [Help](../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39228-jdbc/com_jbase_jdbc_ResultSetMetaDataAdapter "class in com.jbase.jdbc")
+- [Prev Class](./../resultsetmetadataadapter-%28jbasejdbc---api%29 "class in com.jbase.jdbc")
 - Next Class
 
 
-- [Frames](../../../index.html?com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_ResultSetMetaDataAdapter.ColumnMetaData)
-- [No Frames](/39228-jdbc/com_jbase_jdbc_ResultSetMetaDataAdapter.ColumnMetaData)
+- [Frames](./../resultsetmetadataadapter-%28jbasejdbc---api%29)
+- [No Frames](./../resultsetmetadataadapter-%28jbasejdbc---api%29)
 
 
 - [All Classes](../../../allclasses-noframe.html)

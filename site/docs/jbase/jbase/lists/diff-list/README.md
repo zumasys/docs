@@ -18,7 +18,7 @@ where:
 
 - **List1**and **List2**are the names of stored lists.
 - **File1**and **File2**represent the files in which the lists are stored. If File2 is not specified then List2 is assumed to be in File1.
-- **TargetList**is the name of the resultant list. If it is not specified then an active list is created otherwise it is written to file defined to hold [stored lists](325913-list-storage).
+- **TargetList**is the name of the resultant list. If it is not specified then an active list is created otherwise it is written to file defined to hold [stored lists](./../list-storage).
 
 
 
@@ -60,4 +60,4 @@ generates an active list that contains the elements Sheila and Mary.
 
 
 
-Back to [List Processing](325912-list-processing)
+Back to [List Processing](./../list-processing)

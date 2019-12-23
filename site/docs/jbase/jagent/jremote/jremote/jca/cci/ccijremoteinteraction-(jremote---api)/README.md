@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
+- [Package](./../com.jbase.jremote.jca.cci-%28jremote---api%29)
 - Class
-- [Use](/39260-class-use/com_jbase_jremote_jca_cci_class-use_CCIJRemoteInteraction)
-- [Tree](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.cci.ccijremoteinteraction-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteDynamicArrayRecord "class in com.jbase.jremote.jca.cci")
-- [Next Class](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteManagedConnectionFactory "class in com.jbase.jremote.jca.cci")
+- [Prev Class](./../ccijremotedynamicarrayrecord-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
+- [Next Class](./../ccijremotemanagedconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/cci//39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteInteraction)
-- [No Frames](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteInteraction)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -156,22 +156,22 @@ Specified by:`getWarnings` in interface `javax.resource.cci.Interaction`Throws:`
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
+- [Package](./../com.jbase.jremote.jca.cci-%28jremote---api%29)
 - Class
-- [Use](/39260-class-use/com_jbase_jremote_jca_cci_class-use_CCIJRemoteInteraction)
-- [Tree](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.cci.ccijremoteinteraction-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteDynamicArrayRecord "class in com.jbase.jremote.jca.cci")
-- [Next Class](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteManagedConnectionFactory "class in com.jbase.jremote.jca.cci")
+- [Prev Class](./../ccijremotedynamicarrayrecord-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
+- [Next Class](./../ccijremotemanagedconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/cci//39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteInteraction)
-- [No Frames](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteInteraction)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

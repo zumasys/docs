@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Interface JXAConnection
 
-All Superinterfaces:[JConnection](/39248-jremote/com_jbase_jremote_JConnection "interface in com.jbase.jremote"), [XAResource](http://java.sun.com/j2se/1.5.0/docs/api/javax/transaction/xa/XAResource.html?is-external=true "class or interface in javax.transaction.xa")All Known Implementing Classes:[JConnectionImpl](com_jbase_jremote_io_jconnectionimpl "class in com.jbase.jremote.io")
+All Superinterfaces:[JConnection](/39248-jremote/com_jbase_jremote_JConnection "interface in com.jbase.jremote"), [XAResource](http://java.sun.com/j2se/1.5.0/docs/api/javax/transaction/xa/XAResource.html?is-external=true "class or interface in javax.transaction.xa")All Known Implementing Classes:[JConnectionImpl](./../io/jconnectionimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
 * * *
 
 

@@ -24,7 +24,7 @@ Where **expression1** may evaluate to any data type but must be relevant to the 
 
 # **INTERNATIONAL MODE**
 
-Description of date, time, number and currency conversions same as when used in [ICONV](276153-iconv) and International Mode
+Description of date, time, number and currency conversions same as when used in [ICONV](./../iconv) and International Mode
 
 ## Note: 
 
@@ -44,7 +44,7 @@ Description of date, time, number and currency conversions same as when used in 
 > | DW<br> | Returns the day of the week as a number 1 to 7 (Monday is 1).<br><br> |
 > | DWA<br> | Returns the name of the day of the week.<br><br> |
 > | DY{n}<br> | Returns the year in a field of n characters.<br><br> |
-> | F<br> | Given a prospective filename for a command such as [CREATE-FILE](267387-create) this conversion will return a filename that is acceptable to the version of UNIX jBASE is running on.<br> |
+> | F<br> | Given a prospective filename for a command such as [CREATE-FILE](./../create) this conversion will return a filename that is acceptable to the version of UNIX jBASE is running on.<br> |
 > | MCA<br> | Removes all but the alphabetic characters from the input string.<br><br> |
 > | MC/A<br> | Removes all but the non-alphabetic characters in the input string.<br><br> |
 > | MCB<br> | Returns just the alphabetic and numeric characters from the input string<br><br> |
@@ -70,4 +70,4 @@ Description of date, time, number and currency conversions same as when used in 
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

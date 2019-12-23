@@ -5,8 +5,8 @@
 **Original Doc:** [278980-trimf](https://docs.jbase.com/36868-jbase-basic/278980-trimf)  
 
 
-The **TRIMF** function is equivalent to [TRIM(expression, " ", "L")](278975-trim).
+The **TRIMF** function is equivalent to [TRIM(expression, " ", "L")](./../trim).
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

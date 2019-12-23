@@ -14,18 +14,18 @@ com.jbase.jremote.io.SQLError
 
 | Package<br> | Description<br> |
 | --- | --- |
- Packages that use [SQLError](/39250-io/com_jbase_jremote_io_sqlerror "class in com.jbase.jremote.io")  | com.jbase.jremote.io<br> |  <br> |
+ Packages that use [SQLError](./../../sqlerror-%28jremote-api%29 "class in com.jbase.jremote.io")  | com.jbase.jremote.io<br> |  <br> |
 
 
 
 
 
 
-### Uses of [SQLError](/39250-io/com_jbase_jremote_io_sqlerror "class in com.jbase.jremote.io") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
+### Uses of [SQLError](./../../sqlerror-%28jremote-api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29)
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) that return [SQLError](/39250-io/com_jbase_jremote_io_sqlerror "class in com.jbase.jremote.io")  | `SQLError`<br> | ErrorResponse.`getSQLError()` <br> |
+ Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) that return [SQLError](./../../sqlerror-%28jremote-api%29 "class in com.jbase.jremote.io")  | `SQLError`<br> | ErrorResponse.`getSQLError()` <br> |
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

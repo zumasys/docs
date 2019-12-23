@@ -26,7 +26,7 @@ To follow along with the [jBASE Training Class videos](https://www.youtube.com/p
 ## Prerequisite Checklist
 
 - [Download jBASE 5.7](https://www.jbase.com/products/demo/)
-- [Install and configure jBASE 5.7 on Windows](323805-windows-jbase-installation)
+- [Install and configure jBASE 5.7 on Windows](./../../administration/installation-guides/windows-installation-guide)
 - [Download, install and configure Visual Studio Community Edition](https://docs.microsoft.com/en-us/visualstudio/install/install-visual-studio?view=vs-2017)
 - [Download evaluation of Accuterm Terminal Emulator](https://www.zumasys.com/atfiles/downloads/at7/atw73a.exe)
 - [Install and configure Accuterm](https://www.zumasys.com/atfiles/manuals/at7/AccuTerm-7-User-Manual.pdf)

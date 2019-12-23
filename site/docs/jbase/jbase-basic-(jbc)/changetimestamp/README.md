@@ -19,4 +19,4 @@ The function generates a new timestamp by adjusting an existing timestamp value 
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

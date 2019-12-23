@@ -30,7 +30,7 @@ To use the **PORT-DESPOOL**command, first create a formqueue with a Device Type 
 
 There are two ways to accomplish this:
 
-1. From Option 1 on the [SP-STATUS](306265-untitled-question) menu, when prompted enter SCREEN PORT
+1. From Option 1 on the [SP-STATUS](./../sp-status) menu, when prompted enter SCREEN PORT
 2. Or from the jShell command line type:
 
 
@@ -40,7 +40,7 @@ SP-CREATE SCREEN PORT
 
 In both cases, press &lt;Enter&gt; when you are prompted for ‘Device Name’.
 
-Secondly, assign this queue using the [SP-ASSIGN](306225-sp-assign) command, e.g.
+Secondly, assign this queue using the [SP-ASSIGN](./../sp-assign) command, e.g.
 
 ```
 SP-ASSIGN =SCREEN
@@ -63,7 +63,7 @@ PORT-DESPOOL SCREEN (X)
 
 > ### Note:
 > 
-> The spooler assignment (SP-ASSIGN = SCREEN) will remain in effect until execution of another [SP-ASSIGN](306225-sp-assign) or termination of  the current connection to jBASE.
+> The spooler assignment (SP-ASSIGN = SCREEN) will remain in effect until execution of another [SP-ASSIGN](./../sp-assign) or termination of  the current connection to jBASE.
 
 
 A common use for this is to send spooled output through an **AUX** (serial) port of a local pc to a **slave** printer. The trouble is that **slave-on** and **slave-off** sequences are not generated automatically. Not to  worry though, jBASE has a solution. To auto generate slave-on/slave-off sequences you need to defined these in a spooler form-type that is assigned to the form queue. Continuing with our example of using the form queue SCREEN:
@@ -136,6 +136,6 @@ PORT-DESPOOL (X)
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)
 
 

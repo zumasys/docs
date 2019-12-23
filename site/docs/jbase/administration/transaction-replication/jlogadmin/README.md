@@ -62,4 +62,4 @@ Config entries are saved to $JBASERELEASEDIR:/config/jediLoggerConfig.  When up
 
 
 
-Back to [Transaction Journaling](introduction-to-transactional-journaling)
+Back to [Transaction Journaling](./../introduction-to-transaction-journaling)

@@ -54,4 +54,4 @@ The first time **REMOVE** is used, EXSTRING will contain "Field 1" and DELIM wil
 
 
 
-Go back to[jBASE BASIC](263498-jbase-basic).
+Go back to[jBASE BASIC](./../jbase-basic-programmers-reference-guide).

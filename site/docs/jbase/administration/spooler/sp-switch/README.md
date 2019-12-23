@@ -47,4 +47,4 @@ The user will then enter the required information.
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

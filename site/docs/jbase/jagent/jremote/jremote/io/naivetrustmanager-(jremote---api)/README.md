@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
+- [Package](./../com.jbase.jremote.io-%28jremote---api%29)
 - Class
-- [Use](/39253-class-use/com_jbase_jremote_io_class-use_NaiveTrustManager)
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.io.naivetrustmanager-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39250-io/com_jbase_jremote_io_jstatementimpl "class in com.jbase.jremote.io")
-- [Next Class](/39250-io/com_jbase_jremote_io_niojbaseobjectreader "class in com.jbase.jremote.io")
+- [Prev Class](./../jstatementimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
+- [Next Class](./../niojbaseobjectreader-%28jremote-api%29 "class in com.jbase.jremote.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/io//39250-io/com_jbase_jremote_io_NaiveTrustManager)
-- [No Frames](/39250-io/com_jbase_jremote_io_NaiveTrustManager)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -131,22 +131,22 @@ Specified by:`getAcceptedIssuers` in interface `X509TrustManager`See Also:[`X509
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
+- [Package](./../com.jbase.jremote.io-%28jremote---api%29)
 - Class
-- [Use](/39253-class-use/com_jbase_jremote_io_class-use_NaiveTrustManager)
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.io.naivetrustmanager-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39250-io/com_jbase_jremote_io_jstatementimpl "class in com.jbase.jremote.io")
-- [Next Class](/39250-io/com_jbase_jremote_io_niojbaseobjectreader "class in com.jbase.jremote.io")
+- [Prev Class](./../jstatementimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
+- [Next Class](./../niojbaseobjectreader-%28jremote-api%29 "class in com.jbase.jremote.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/io//39250-io/com_jbase_jremote_io_NaiveTrustManager)
-- [No Frames](/39250-io/com_jbase_jremote_io_NaiveTrustManager)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

@@ -23,7 +23,7 @@ Constructor Summary
 
 | Modifier<br> | Constructor and Description<br> |
 | --- | --- |
-| protected<br> | JSelectList(int handle, boolean indexVar, [JConnection](com_jbase_jrcs_jconnection "class in com.jbase.jrcs") conn)<br> |
+| protected<br> | JSelectList(int handle, boolean indexVar, [JConnection](./../jconnection-%28jrclient-api%29 "class in com.jbase.jrcs") conn)<br> |
 
 
 
@@ -76,7 +76,7 @@ protected JSelectList(int handle, boolean indexVar, JConnection conn)
 public boolean bol() 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Indicates whether the select list is at its beginning.
 
@@ -96,7 +96,7 @@ Throws: `JException `
 public boolean eol() 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Indicates whether the select list is at its end.
 
@@ -114,7 +114,7 @@ Throws: `JException `
 public String getIndexKey() 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Returns: Index key
 
@@ -132,7 +132,7 @@ Throws: `JException `
 public boolean isIndex() 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Indicates whether this select list was generated from a jBASE index.
 
@@ -152,7 +152,7 @@ Throws: `JException `
 public String readNext() 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Reads the next key from the select list.
 
@@ -172,7 +172,7 @@ Throws: `JException `
 public String getRecordKey()  
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Retrieves the record key.
 
@@ -192,7 +192,7 @@ Throws: `JException `
 public void saveList(String listName)  
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Saves the list under the specified name in a work file.
 
@@ -214,7 +214,7 @@ Throws: `JException `
 public int getVMCount()
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Retrieves the multi-value index for the current key.
 
@@ -234,7 +234,7 @@ Throws: `JException `
 public void close()
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Closes the select list and releases the server-side handle
 

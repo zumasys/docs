@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Class ReadRecordRequest
 
-All Implemented Interfaces:[JBaseSerializable](/39250-io/com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -78,19 +78,19 @@ extends JRemoteRequest
 ```
 public static final int MODE_READ
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../../constant-field-values)
 #### MODE\_READU
 
 ```
 public static final int MODE_READU
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../../constant-field-values)
 #### MODE\_READU\_NONBLOCK
 
 ```
 public static final int MODE_READU_NONBLOCK
 ```
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../../constant-field-values)
 
 
 ### 

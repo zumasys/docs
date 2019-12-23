@@ -46,8 +46,8 @@ where :
 
 
 
-See also: [SP-EDITOR COMMANDS](sp-editor-commands).
+See also: [SP-EDITOR COMMANDS](./../sp-editor-commands).
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)
 
 

@@ -50,6 +50,6 @@ END
 
 
 
-See also: [OPENSEQ](277543-openseq), [READSEQ](278773-readseq), and [WRITESEQ](279570-writeseq) statements.
+See also: [OPENSEQ](./../openseq), [READSEQ](./../readseq), and [WRITESEQ](./../writeseq) statements.
 
-Go back to[jBASE BASIC](263498-jbase-basic).
+Go back to[jBASE BASIC](./../jbase-basic-programmers-reference-guide).

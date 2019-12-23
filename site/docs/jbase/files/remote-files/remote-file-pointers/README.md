@@ -71,14 +71,14 @@ ID: FileName   (this is the name you would use to access the remote file)
 
 
 
-[Remote File Service](339365-remote-file-service)
+[Remote File Service](./../remote-file-service)
 
-[jCONNECT Library](jconnect-library)
+[jCONNECT Library](./../jconnect-library)
 
-[Client Connections](client-connections)
+[Client Connections](./../client-connections)
 
-[Configuration Files](339368-configuration-files)
+[Configuration Files](./../configuration-files)
 
-[Advanced jRFS Configuration (LINUX/UNIX only)](advanced-jrfs-configuration)
+[Advanced jRFS Configuration (LINUX/UNIX only)](./../advanced-jrfs-configuration)
 
 ###  

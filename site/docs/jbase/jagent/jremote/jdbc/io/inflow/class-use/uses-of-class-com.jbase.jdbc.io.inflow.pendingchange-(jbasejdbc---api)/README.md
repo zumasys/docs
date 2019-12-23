@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
-- [Class](/39238-inflow/com_jbase_jdbc_io_inflow_PendingChange "class in com.jbase.jdbc.io.inflow")
+- [Package](./../../com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
+- [Class](./../../pendingchange-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.inflow")
 - Use
-- [Tree](/39238-inflow/com_jbase_jdbc_io_inflow_package-tree)
+- [Tree](./../../com.jbase.jdbc.io.inflow-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jdbc/io/inflow/class-use//39239-class-use/com_jbase_jdbc_io_inflow_class-use_PendingChange)
-- [No Frames](/39239-class-use/com_jbase_jdbc_io_inflow_class-use_PendingChange)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.jdbc.io.inflow.PendingChange
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
-- [Class](/39238-inflow/com_jbase_jdbc_io_inflow_PendingChange "class in com.jbase.jdbc.io.inflow")
+- [Package](./../../com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
+- [Class](./../../pendingchange-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.inflow")
 - Use
-- [Tree](/39238-inflow/com_jbase_jdbc_io_inflow_package-tree)
+- [Tree](./../../com.jbase.jdbc.io.inflow-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jdbc/io/inflow/class-use//39239-class-use/com_jbase_jdbc_io_inflow_class-use_PendingChange)
-- [No Frames](/39239-class-use/com_jbase_jdbc_io_inflow_class-use_PendingChange)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

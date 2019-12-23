@@ -17,7 +17,7 @@ extends Object
 implements Cloneable, Externalizable
 ```
 
-Represents a jBASE dynamic arraySee Also:[Serialized Form](295038-serialized-form)
+Represents a jBASE dynamic arraySee Also:[Serialized Form](./../serialized-form)
 
 # 
 
@@ -130,13 +130,13 @@ Throws: [JException](/jrcs/com_jbase_jrcs_JException "class in com.jbase.jrcs")
 public JDynArray(String src)  
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Constructs a dynamic array from a string
 
 Parameters: src - Source string
 
-Throws:[JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws:[JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -148,13 +148,13 @@ Throws:[JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public JDynArray(JDynnArray src) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Constructs a dynamic array from another dynamic array
 
 Parameters: src - Source dynamic array
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 #### 
             
@@ -167,13 +167,13 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void assign(JDynArray src)  
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Assigns the value of a dynamic array to this dynamic array
 
 Parameters:  src - Source dynamic array
 
-Throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -187,13 +187,13 @@ Throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void assign(String src)  
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Assigns a string value to this dynamic array
 
 Parameters: src - Source string
 
-Throws:[JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws:[JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -205,7 +205,7 @@ Throws:[JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int count(char delim) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Counts the number of given characters in this dynamic array
 
@@ -213,7 +213,7 @@ Parameters: delim - Delimiter char
 
 Returns: Delimiter count
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -225,7 +225,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int count(String delim)   
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Counts the number of given delimiters in this dynamic array
 
@@ -233,7 +233,7 @@ Parameters: delim - Delimiter string
 
 Returns: Delimiter count
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -246,14 +246,14 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int dcount(char delim)           
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Counts the number of fields separated by the given character
 
 Parameters: delim - Delimiter char
 
 Returns: Field count
-Throws:[JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws:[JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 #### 
@@ -265,14 +265,14 @@ Throws:[JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int dcount(String delim)    
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Counts the number of fields separated by the given delimiter
 
 Parameters: delim - Delimiter string
 
 Returns: Field count
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -285,7 +285,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void delete(int amc, int vmc, int svmc)        
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Parameters:
 
@@ -295,7 +295,7 @@ vmc - Value. This parameter can be 0
 
 svmc - Sub-value. This parameter can be 0
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Deletes the specified attribute, value or sub-value
 
@@ -305,7 +305,7 @@ Deletes the specified attribute, value or sub-value
 public void delete(int amc, int vmc) 
 ```
 
-throws[JException](com_jbase_jrcs_jexception)
+throws[JException](./../jexception-%28jrclient-api%29)
 
 Deletes the specified attribute or value
 
@@ -315,7 +315,7 @@ amc - Attribute
 
 vmc - Value This parameter can be 0
 
-Throws: [JException](com_jbase_jrcs_jexception)
+Throws: [JException](./../jexception-%28jrclient-api%29)
 
 ####       DELETE 
 
@@ -323,7 +323,7 @@ Throws: [JException](com_jbase_jrcs_jexception)
 public void delete(int amc) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Deletes the specified attribute
 
@@ -331,7 +331,7 @@ Parameters:
 
 amc - Attribute
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -343,7 +343,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public JDynArray extractDA(int amc, int vmc, int svmc)
 ```
 
-throws [JException](com_jbase_jrcs_jexception)
+throws [JException](./../jexception-%28jrclient-api%29)
 
 Extracts the specified attribute, value or sub-value as a dynamic array
 
@@ -357,7 +357,7 @@ svmc - Sub-value. This parameter can be 0
 
 Returns: jDynArray containing the data extracted
 
-Throws: [JException](com_jbase_jrcs_jexception)
+Throws: [JException](./../jexception-%28jrclient-api%29)
 
 
 
@@ -369,7 +369,7 @@ Throws: [JException](com_jbase_jrcs_jexception)
 public JDynArray extractDA(int amc, int vmc) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Extracts the specified attribute or value as a dynamic array
 
@@ -381,7 +381,7 @@ vmc - Value. This parameter can be 0
 
 Returns:  JDynArray containing the data extracted
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -393,7 +393,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public JDynArray extractDA(int amc) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Extracts the specified attribute as a dynamic array
 
@@ -403,7 +403,7 @@ amc - Attribute
 
 Returns: JDynArray containing the data extracted
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -417,7 +417,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public String extract(int amc, int vmc, int svmc) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Extracts the specified attribute, value or sub-value as a string
 
@@ -431,7 +431,7 @@ svmc - Sub-value. This parameter can be 0
 
 Returns: Extracted data
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 #### 
 
@@ -443,7 +443,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 
 public String extract(int amc, int vmc)
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Extracts the specified attribute or value as a string
 
@@ -455,7 +455,7 @@ vmc - Value. This parameter can be 0
 
 Returns: Extracted Data
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -467,7 +467,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public String extract(int amc) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Extracts the specified attribute as a string
 
@@ -477,7 +477,7 @@ amc - Attribute
 
 Retruns: Extracted data
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -489,7 +489,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public String field(char delim, int fieldNo) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Extracts the specified field separated by the given delimiter character
 
@@ -499,7 +499,7 @@ delim - Delimiter
 
 fieldNo - Field number to extract Returns: Field value
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -510,7 +510,7 @@ FIELD
 public String field(String delim, int fieldNo) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Extracts the specified field separated by the given delimiter string
 
@@ -522,7 +522,7 @@ fieldNo - Field number to extract
 
 Returns: Field value
 
-Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws:  [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -534,7 +534,7 @@ Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void insertDA(JDynArray data, int amc, int vmc, int svmc) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Inserts data from the given dynamic array into the specified attribute, value or sub-value. Same as insert(JDynArray, int, iint)
 
@@ -548,7 +548,7 @@ vmc - Value. This parameter can be 0 or -1 to insert at the end of the dynamic a
 
 svmc - Sub-value. This parameter can be 0 or -1 to insert at the end of the dynamic array
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 See Also:  insert([JDynArray](../../../com/jbase/jrcs//jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs"), int, int, int)
 
@@ -562,7 +562,7 @@ See Also:  insert([JDynArray](../../../com/jbase/jrcs//jrcs/com_jbase_jrcs_JDyn
 public void insertDA(JDynArray data,   int amc, int vmc)        
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Inserts data from the given dynamic array into the specified attribute or value. Same as insert(JDynArray, int, int)
 
@@ -574,7 +574,7 @@ amc - Attribute. This parameter can be -1 to append data at the end of the dynam
 
 vmc - Value. This parameter can be 0 or -1 to insert at the end of the dynamic array
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 See Also:  insert(JDynArray, int, int)
 
@@ -586,7 +586,7 @@ See Also:  insert(JDynArray, int, int)
 public void insertDA(JDynArray data,int amc)   
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Inserts data from the given dynamic array into the specified attribute. Same as insert(JDynArray, int)
 
@@ -596,7 +596,7 @@ data - Dynamic array to insert
 
 amc - Attribute. This parameter can be -1 to append data at the end of the dynamic array
 
-Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws:  [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 See Also:  insert(JDynArray, int)
 
@@ -610,7 +610,7 @@ See Also:  insert(JDynArray, int)
 public void insert(JDynArray data,int amc, int vmc, int svmc)            
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Inserts data from the given dynamic array into the specified attribute, value or sub-value
 
@@ -624,7 +624,7 @@ vmc - Value. This parameter can be 0 or -1 to insert at the end of the dynamic a
 
 svmc - Sub-value. This parameter can be 0 or -1 to insert at the end of the dynamic array
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -636,7 +636,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void insert(JDynArray data, int amc, int vmc) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Inserts data from the given dynamic array into the specified attribute or value
 
@@ -648,7 +648,7 @@ amc - Attribute. This parameter can be -1 to append data at the end of the dynam
 
 vmc - Value. This parameter can be 0 or -1 to insert at the end of the dynamic array
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 #### 
 
@@ -662,7 +662,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void insert(JDynArray data, int amc)             
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Inserts data from the given dynamic array into the specified attribute
 
@@ -672,7 +672,7 @@ data - Dynamic array to insert
 
 amc - Attribute. This parameter can be -1 to append data at the end of the dynamic array
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 #### 
 
@@ -686,7 +686,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void insert(String data, int amc, int vmc, int svmc)     
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Inserts string data into the specified attribute, value or sub-value
 
@@ -700,7 +700,7 @@ vmc - Value. This parameter can be 0 or -1 to insert at the end of the dynamic a
 
 svmc - Sub-value. This parameter can be 0 or -1 to insert at the end of the dynamic array
 
-Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws:  [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -712,7 +712,7 @@ Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void insert(String data, int amc, int vmc)          
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Inserts string data into the specified attribute or value
 
@@ -724,7 +724,7 @@ amc - Attribute. This parameter can be -1 to append data at the end of the dynam
 
 vmc - Value. This parameter can be 0 or -1 to insert at the end of the dynamic array
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 #### 
 
@@ -735,7 +735,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void insert(String data,  int amc)  
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Inserts string data into the specified attribute
 
@@ -745,7 +745,7 @@ data - String to insert
 
 amc - Attribute. This parameter can be -1 to append data at the end of the dynamic array
 
-Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws:  [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -757,13 +757,13 @@ Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int length()          
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Returns the length, in characters, of a dynamic array
 
 Returns: Length of the dynamic array
 
-Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws:  [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -775,7 +775,7 @@ Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void replaceDA(JDynArray data, int amc, int vmc, int svmc)    
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Replaces the given attribute, value or sub-value with the content of specified dynamic array.
 
@@ -791,7 +791,7 @@ vmc - Value. This parameter can be 0 or -1 to append the data at the end of the 
 
 svmc - Sub-value. This parameter can be 0 or -1 to append the data at the end of the dynamic array
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 See Also: replace(JDynArray, int, int, int)
 
@@ -805,7 +805,7 @@ See Also: replace(JDynArray, int, int, int)
 public void replaceDA(JDynArray data, int amc, int vmc) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Replaces the given attribute or value with the content of specified dynamic array Same as replace(JDynArray, amc, vmc)
 
@@ -817,7 +817,7 @@ amc - Attribute. This parameter can be -1 to append data at the end of the dynam
 
 vmc - Value. This parameter can be 0 or -1 to append the data at the end of the dynamic array
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 See Also: replace(JDynArray, int, int)
 
@@ -831,7 +831,7 @@ See Also: replace(JDynArray, int, int)
 public void replaceDA(JDynArray data, int amc) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Replaces the given attribute with the content of specified dynamic array Same as replace(JDynArray, amc)
 
@@ -841,7 +841,7 @@ data - Dynamic array used for replacement
 
 amc - Attribute. This parameter can be -1 to append data at the end of the dynamic array
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 See Also: replace(JDynArray, int)
 
@@ -855,7 +855,7 @@ See Also: replace(JDynArray, int)
 public void replace(JDynArray data, int amc, int vmc, int svmc) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Replaces the given attribute, value or sub-value with the content of specified dynamic array
 
@@ -869,7 +869,7 @@ vmc - Value. This parameter can be 0 or -1 to append the data at the end of the 
 
 svmc - Sub-value. This parameter can be 0 or -1 to append the data at the end of the dynamic array
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -881,7 +881,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void replace(JDynArray data, int amc, int vmc)       
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Replaces the given attribute or value with the content of specified dynamic array
 
@@ -893,7 +893,7 @@ amc - Attribute. This parameter can be -1 to append data at the end of the dynam
 
 vmc - Value. This parameter can be 0 or -1 to append the data at the end of the dynamic array
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -905,7 +905,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void replace(JDynArray data, int amc) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Replaces the given attribute with the content of specified dynamic array
 
@@ -915,7 +915,7 @@ data - Dynamic array used for replacement
 
 amc - Attribute. This parameter can be -1 to append data at the end of the dynamic array
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -927,7 +927,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void replace(String data, int amc, int vmc, int svmc) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Replaces the given attribute, value or sub-value with specified string
 
@@ -941,7 +941,7 @@ vmc - Value. This parameter can be 0 or -1 to append the data at the end of the 
 
 svmc - Sub-value. This parameter can be 0 or -1 to append the data at the end of the dynamic array
 
-Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws:  [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -953,7 +953,7 @@ Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void replace(String data, int amc, int vmc) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Replaces the given attribute or value with specified string
 
@@ -965,7 +965,7 @@ amc - Attribute. This parameter can be -1 to append data at the end of the dynam
 
 vmc - Value. This parameter can be 0 or -1 to append the data at the end of the dynamic array
 
-Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws:  [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -977,7 +977,7 @@ Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void replace(String data, int amc)            
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Replaces the given attribute with specified string
 
@@ -987,7 +987,7 @@ data - Replacement string
 
 amc - Attribute. This parameter can be -1 to append data at the end of the dynamic array
 
-Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws:  [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -999,13 +999,13 @@ Throws:  [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public String getString()                 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Retrieves the content of the dynamic array as a string
 
 Returns: Dynamic array content
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -1029,7 +1029,7 @@ Overides :  [toString](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object
 public char charAt(int index) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Gets a character at a given position in the dynamic array
 
@@ -1037,7 +1037,7 @@ Parameters:  index - Character index
 
 Returns:  Character at the given position in the dynamic array
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 #### 
 
@@ -1051,7 +1051,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public void setCharAt(int index, char newChar)              
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Sets a character at a given location in the dynamic array
 
@@ -1061,7 +1061,7 @@ index - Position of the character
 
 newChar - Character to set
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -1073,7 +1073,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int locate(String searchStr)          
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Searches for a string in all attributes of the dynamic array
 
@@ -1081,7 +1081,7 @@ Parameters:   searchStr - String to look for
 
 Returns:  Positive index of matching attribute or -1 if string is not found.
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -1093,7 +1093,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int locate(String searchStr, String order)           
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Searches for a string in all attributes of the dynamic array, which is in a given sort order
 
@@ -1114,7 +1114,7 @@ order - Order of the array, interpreted as follows:
 
 
 Returns: Positive index of matching attribute or negative index of insertion point if a match is not found. If order is specified as a blank string, the function always returns -1 to indicate that the string was not found.
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 #### locate
@@ -1123,7 +1123,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int locate(String searchStr, int amc, String order)            
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Searches for a string in all values within a given attribute of the dynamic array. The values are in the specified sort order.
 
@@ -1147,7 +1147,7 @@ order - Order of values, interpreted as follows:
 
 Returns: Positive index of matching value or negative index of insertion point if a match is not found. If order is specified as a blank string, the function always returns -1 to indicate that the string was not found.
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -1159,7 +1159,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int locate(String searchStr,  int amc, int vmc, String order) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Searches for a string in all sub-values within a given value of the dynamic array. The sub-values are in the specified sort order.
 
@@ -1185,7 +1185,7 @@ order - Order of values, interpreted as follows:
 
 Returns:  Positive index of matching sub-value or negative index of insertion point if a match is not found. If order is specified as a blank string, the function always returns -1 to indicate that the string was not found.
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -1197,7 +1197,7 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int locate(String searchStr, int amc, String order, int start) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Similar to: locate(String, int, String), but allows for a start position
 
@@ -1205,7 +1205,7 @@ Parameters:
 
 start - Start position of the search
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -1215,13 +1215,13 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int locate(String searchStr, int amc, int vmc, String order, int start)   
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Similar to: locate(String, int, int, String), but allows for a start position
 
 Parameters:  start - Start position of the search
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -1232,11 +1232,11 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int locateIgnoreCase(String searchStr)        
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Similar to: locate(String), but performs a case-insensitive comparison
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -1246,11 +1246,11 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int locateIgnoreCase(String searchStr, String order)  
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Similar to: locate(String, String), but performs a case-insensitive comparison
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -1260,11 +1260,11 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int locateIgnoreCase(String searchStr, int amc, String order) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Similar to: locate(String, int, String), but performs a case-insensitive comparison
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -1274,11 +1274,11 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int locateIgnoreCase(String searchStr, int amc, int vmc, String order)  
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Similar to: locate(String, int, int, String), but performs a case-insensitive comparison
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -1288,11 +1288,11 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int locateIgnoreCase(String searchStr, int amc, String order, int start) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Similar to: locate(String, int, String, int), but performs a case-insensitive comparison
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 
@@ -1302,11 +1302,11 @@ Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
 public int locateIgnoreCase(String searchStr, int amc, int vmc, String order, int start) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Similar to: locate(String, int, int, String, int), but performs a case-insensitive comparison
 
-Throws: [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 
 

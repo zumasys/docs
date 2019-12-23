@@ -12,20 +12,20 @@ Skip navigation links
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39262-inflow/com_jbase_jremote_jca_inflow_package-use)
-- [Tree](/39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
+- [Use](./../uses-of-package-com.jbase.jremote.jca.inflow-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
-- [Next Package](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
+- [Prev Package](./../../cci/com.jbase.jremote.jca.cci-%28jremote---api%29)
+- [Next Package](./../protocol/com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/inflow//39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
-- [No Frames](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -37,37 +37,37 @@ jremote <br>
 
 - Interface Summary | Interface | Description |
 | --- | --- |
-| [EndpointAdapterMBean](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapterMBean "interface in com.jbase.jremote.jca.inflow") | <br>Expose statistics about a specific message endpoint.<br> |
-| [EndpointMBean](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointMBean "interface in com.jbase.jremote.jca.inflow") | <br>Expose statistics about a specific message endpoint.<br> |
-| [JRemoteMessageListener](/39262-inflow/com_jbase_jremote_jca_inflow_JRemoteMessageListener "interface in com.jbase.jremote.jca.inflow") | <br>A listener that can handle JRemote messages.<br> |
+| [EndpointAdapterMBean](./../endpointadaptermbean-%28jremote---api%29 "interface in com.jbase.jremote.jca.inflow") | <br>Expose statistics about a specific message endpoint.<br> |
+| [EndpointMBean](./../endpointmbean-%28jremote---api%29 "interface in com.jbase.jremote.jca.inflow") | <br>Expose statistics about a specific message endpoint.<br> |
+| [JRemoteMessageListener](./../jremotemessagelistener-%28jremote---api%29 "interface in com.jbase.jremote.jca.inflow") | <br>A listener that can handle JRemote messages.<br> |
 - Class Summary | Class | Description |
 | --- | --- |
-| [ActivationWork](/39262-inflow/com_jbase_jremote_jca_inflow_ActivationWork "class in com.jbase.jremote.jca.inflow") |   |
-| [ActivationWorkListener](/39262-inflow/com_jbase_jremote_jca_inflow_ActivationWorkListener "class in com.jbase.jremote.jca.inflow") |   |
-| [EndpointAdapter](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapter "class in com.jbase.jremote.jca.inflow") |   |
-| [InboundObjectFactory](/39262-inflow/com_jbase_jremote_jca_inflow_InboundObjectFactory "class in com.jbase.jremote.jca.inflow") |   |
-| [InboundRequestHandler](/39262-inflow/com_jbase_jremote_jca_inflow_InboundRequestHandler "class in com.jbase.jremote.jca.inflow") |   |
-| [JRemoteActivationSpec](/39262-inflow/com_jbase_jremote_jca_inflow_JRemoteActivationSpec "class in com.jbase.jremote.jca.inflow") |   |
+| [ActivationWork](./../activationwork-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") |   |
+| [ActivationWorkListener](./../activationworklistener-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") |   |
+| [EndpointAdapter](./../endpointadapter-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") |   |
+| [InboundObjectFactory](./../inboundobjectfactory-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") |   |
+| [InboundRequestHandler](./../inboundrequesthandler-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") |   |
+| [JRemoteActivationSpec](./../jremoteactivationspec-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") |   |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39262-inflow/com_jbase_jremote_jca_inflow_package-use)
-- [Tree](/39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
+- [Use](./../uses-of-package-com.jbase.jremote.jca.inflow-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
-- [Next Package](/39264-protocol/com_jbase_jremote_jca_inflow_protocol_package-summary)
+- [Prev Package](./../../cci/com.jbase.jremote.jca.cci-%28jremote---api%29)
+- [Next Package](./../protocol/com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/inflow//39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
-- [No Frames](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

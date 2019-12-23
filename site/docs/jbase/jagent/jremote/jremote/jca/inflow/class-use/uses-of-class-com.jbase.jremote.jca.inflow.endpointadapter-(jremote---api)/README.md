@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
-- [Class](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapter "class in com.jbase.jremote.jca.inflow")
+- [Package](./../../com.jbase.jremote.jca.inflow-%28jremote---api%29)
+- [Class](./../../endpointadapter-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow")
 - Use
-- [Tree](/39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/inflow/class-use//39263-class-use/com_jbase_jremote_jca_inflow_class-use_EndpointAdapter)
-- [No Frames](/39263-class-use/com_jbase_jremote_jca_inflow_class-use_EndpointAdapter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -36,26 +36,26 @@ jremote <br>
 ## Uses of Class
 com.jbase.jremote.jca.inflow.EndpointAdapter
 
-- Packages that use [EndpointAdapter](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapter "class in com.jbase.jremote.jca.inflow") | Package | Description |
+- Packages that use [EndpointAdapter](./../../endpointadapter-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.jca |   |
 | com.jbase.jremote.jca.inflow |   |
-- - ### Uses of [EndpointAdapter](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapter "class in com.jbase.jremote.jca.inflow") in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary)
+- - ### Uses of [EndpointAdapter](./../../endpointadapter-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") in [com.jbase.jremote.jca](./../../../com.jbase.jremote.jca-%28jremote---api%29)
 
 
-Constructor parameters in [com.jbase.jremote.jca](/39258-jca/com_jbase_jremote_jca_package-summary) with type arguments of type [EndpointAdapter](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapter "class in com.jbase.jremote.jca.inflow") | Constructor and Description |
+Constructor parameters in [com.jbase.jremote.jca](./../../../com.jbase.jremote.jca-%28jremote---api%29) with type arguments of type [EndpointAdapter](./../../endpointadapter-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") | Constructor and Description |
 | --- |
 | `JRemoteRequestProcessingFactory(List<EndpointAdapter> eps)`  |
-    - ### Uses of [EndpointAdapter](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapter "class in com.jbase.jremote.jca.inflow") in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+    - ### Uses of [EndpointAdapter](./../../endpointadapter-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") in [com.jbase.jremote.jca.inflow](./../../com.jbase.jremote.jca.inflow-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary) that return types with arguments of type [EndpointAdapter](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapter "class in com.jbase.jremote.jca.inflow") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.jca.inflow](./../../com.jbase.jremote.jca.inflow-%28jremote---api%29) that return types with arguments of type [EndpointAdapter](./../../endpointadapter-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") | Modifier and Type | Method and Description |
 | --- | --- |
 | `List<EndpointAdapter>` | InboundRequestHandler.`getEndpoints()`  |
 
 
 
-Constructor parameters in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary) with type arguments of type [EndpointAdapter](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapter "class in com.jbase.jremote.jca.inflow") | Constructor and Description |
+Constructor parameters in [com.jbase.jremote.jca.inflow](./../../com.jbase.jremote.jca.inflow-%28jremote---api%29) with type arguments of type [EndpointAdapter](./../../endpointadapter-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow") | Constructor and Description |
 | --- |
 | `ActivationWork(List<EndpointAdapter> endpoints,<br>              String activation,<br>              byte[] message)`  |
 | `InboundRequestHandler(List<EndpointAdapter> endpoints,<br>                     RequestListenerService service)`  |
@@ -63,10 +63,10 @@ Constructor parameters in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
-- [Class](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapter "class in com.jbase.jremote.jca.inflow")
+- [Package](./../../com.jbase.jremote.jca.inflow-%28jremote---api%29)
+- [Class](./../../endpointadapter-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow")
 - Use
-- [Tree](/39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -77,8 +77,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/inflow/class-use//39263-class-use/com_jbase_jremote_jca_inflow_class-use_EndpointAdapter)
-- [No Frames](/39263-class-use/com_jbase_jremote_jca_inflow_class-use_EndpointAdapter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

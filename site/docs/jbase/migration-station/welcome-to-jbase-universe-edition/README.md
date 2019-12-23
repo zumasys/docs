@@ -122,9 +122,9 @@ jshow -f CUSTOMER
 
 will find the location of the CUSTOMER file.
 
-Whether a file is available in a particular account is mainly determined by the setting of the [JEDIFILEPATH](jedifilepath) environment variable, which defines a list of directories in which to search for jBASE data files. Although no MD entries are created when a file is created, “F” and “Q” pointers are still supported and there is a knowledgebase page devoted to “F” and “Q” pointer resolution to be found [here](http://www.jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/sup22_QPOINTERS.htm).  If there are instances of “Q” pointers “pointing to” “Q” pointers, then the [JEDIENABLEQTOQ](jedienableq2q) environment variable may need to be set.
+Whether a file is available in a particular account is mainly determined by the setting of the [JEDIFILEPATH](./../../environment-variables/jedifilepath) environment variable, which defines a list of directories in which to search for jBASE data files. Although no MD entries are created when a file is created, “F” and “Q” pointers are still supported and there is a knowledgebase page devoted to “F” and “Q” pointer resolution to be found [here](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup22_QPOINTERS.htm).  If there are instances of “Q” pointers “pointing to” “Q” pointers, then the [JEDIENABLEQTOQ](./../../environment-variables/jedienableq2q) environment variable may need to be set.
 
-- To change the properties of a file, so that it is not backed up, for instance, use the “[jchmod](jchmod)” utility and +/- with the appropriate flag to add/subtract. The flags are as: 
+- To change the properties of a file, so that it is not backed up, for instance, use the “[jchmod](./../../administration/utilities/jchmod)” utility and +/- with the appropriate flag to add/subtract. The flags are as: 
     - B     add/remove Backup option,
     - M     add/remove auditing,
     - L     add/remove logging (transaction journaling) for a file.
@@ -141,7 +141,7 @@ Whether a file is available in a particular account is mainly determined by the 
 
 - The default SYSTEM file is found in the “src” sub-folder of the jBASE install folder, and is normally a single-level file.
 - It is advisable to create a global SYSTEM account which can then be used to facilitate Q-pointers and LOGTO’s. Which SYSTEM file is used is determined by the JEDIFILENAME\_SYSTEM environment variable.
-- A record in the SYSTEM file must contain two fields. Field 1 contains the character "D" to specify a local account, and field 2 contains the absolute path of the account directory. Fields 7, 11 and 20 through 37, of a SYSTEM record are used by the jBASE LOGTO and PASSWORD commands. Further information can be found [here](317964-system-file).
+- A record in the SYSTEM file must contain two fields. Field 1 contains the character "D" to specify a local account, and field 2 contains the absolute path of the account directory. Fields 7, 11 and 20 through 37, of a SYSTEM record are used by the jBASE LOGTO and PASSWORD commands. Further information can be found [here](./../../environment-variables/system-file).
 
 
 ## Compiling and Cataloguing (Cataloging)
@@ -172,8 +172,8 @@ CREATE-FILE DATA BP TYPE=UD
 - There are two types of select list
     1. Default or numbered select lists – these are temporary
     2. Named select lists
-- Depending upon the [JBCLISTFILE](326531-jbclistfile)environment variable and existence of a POINTER-FILE, select lists are stored in one of three possible places:
-    - If the environment file JBCLISTFILE is configured and is valid then the save list is stored with an identifier of the list name. If [JBCLISTID](jbclistid) is set then the identifier is **SEL\*AccountName\*ListName**.
+- Depending upon the [JBCLISTFILE](./../../environment-variables/jbclistfile)environment variable and existence of a POINTER-FILE, select lists are stored in one of three possible places:
+    - If the environment file JBCLISTFILE is configured and is valid then the save list is stored with an identifier of the list name. If [JBCLISTID](./../../environment-variables/jbclistid) is set then the identifier is **SEL\*AccountName\*ListName**.
     - If JBCLISTFILE is not defined or is not valid, and a POINTER-FILE exists, then the list is stored as named in the POINTER-FILE.
     - If JBCLISTFILE is not set and the POINTER-FILE does not exist, then the list is saved in the jBASEWORK file as **SEL\*AccountName\*ListName**.
 - To store lists in the jBASEWORK file with an id of just the list name, set a Q-pointer or F-pointer called POINTER-FILE to jBASEWORK.
@@ -184,7 +184,7 @@ CREATE-FILE DATA BP TYPE=UD
 ## Ports
 
 - There is no concept of “nailed ports” in jBASE.
-- You can define what port number will be used by setting the environment variable [JBCPORTNO](jbcportno). This must be done before a connection to jBASE is made.
+- You can define what port number will be used by setting the environment variable [JBCPORTNO](./../../environment-variables/jbcportno). This must be done before a connection to jBASE is made.
 - If JBCPORTNO is explicitly set then jBASE will assign the lowest available port number from the list or range specified. If all port numbers specified by JBCPORTNO are already in use then the user will be denied access and the user will encounter the following error message: "No ports free in the specified range".
 - Under normal circumstances, a single port number should suffice. However, if the user is invoking other programs that spawn a new jBASE process (e.g. BASIC or EXECUTE CHAR(255):'k') then it would be necessary to assign at least 2 port numbers for the user, so that the secondary process can obtain a port number.
 - If required, there are solutions available which should ensure that each user always gets the same port number.
@@ -196,9 +196,9 @@ CREATE-FILE DATA BP TYPE=UD
 
 - The jBASE debugger is very different than that for D3, but very flexible.
 - Whether a program drops into the debugger on encountering an error is controlled by the following environment variables:
-    - [JBASE\_ERRMSG\_ZERO\_USED](jbase_errmsg_zero_used)
-    - [JBASE\_ERRMSG\_NON\_NUMERIC](jbase_errmsg_non_numeric)
-    - [JBASE\_ERRMSG\_DIVIDE\_ZERO](jbase_errmsg_divide_zero)
+    - [JBASE\_ERRMSG\_ZERO\_USED](./../../environment-variables/jbase_errmsg_zero_used)
+    - [JBASE\_ERRMSG\_NON\_NUMERIC](./../../environment-variables/jbase_errmsg_non_numeric)
+    - [JBASE\_ERRMSG\_DIVIDE\_ZERO](./../../environment-variables/jbase_errmsg_divide_zero)
 - To configure these environment variables, you use a bit-mapped numeric value, where the available behaviours are:
     - 0     Raise an error and drop into the debugger (default).
     - 1     Don’t display an error message.
@@ -207,8 +207,8 @@ CREATE-FILE DATA BP TYPE=UD
     - 32    Called to place “” (null) in the target variable after operation.
     - 64    Caller to leave the target variable alone after operation.
     - 128   Caller to place the source variable in the target variable after operation.
-- It is also possible to define whether jBASE error messages are logged to the jbase\_error\_trace file via the environment variable: [JBASE\_ERRMSG\_TRACE](jbase_errmsg_trace)
-- Further details about the jBASE debugger can be found [here](jbase-debugger).
+- It is also possible to define whether jBASE error messages are logged to the jbase\_error\_trace file via the environment variable: [JBASE\_ERRMSG\_TRACE](./../../environment-variables/jbase_errmsg_trace)
+- Further details about the jBASE debugger can be found [here](./../../jbase/debugger/jbase-debugger).
 
 
 
@@ -230,22 +230,22 @@ CREATE-FILE DATA BP TYPE=UD
 - Both utilities will handle all jBASE file types, including directories and will respect any record locks that exist on jBASE files.
 - jrestore does allow selective restores to be performed. A BASIC program can be supplied on request to assist with all the options.
 - The jbackup utility has an option to provide file statistics, should they be required.
-- Further information on jbackup can be found [here](jbackup) and  [here](jrestore).
+- Further information on jbackup can be found [here](./../../administration/utilities/jbackup) and  [here](./../../administration/utilities/jrestore).
 
 
 
 
 ## TCL commands
 
-- [**WHO**](who) Unlike D3, “WHO \*” will not produce a list of all ports in use. The WHO command will provide the port number and either the [JBCLOGNAME](jbclogname) or the user name for the current login.
-- **[LISTU](listu)**Options available are “P”, which directs output to the printer, “N”, which prevents the listing from paging. The output of the LISTU command can be customized by calling the [JBCUserCustomiseDisplay](customizing-the-output-of-commands) subroutine.
-- **[WHERE](where)**The WHERE utility can be used to display information on processes executing jBASE programs. Usage: **WHERE** Ports (Options Ports can be one or a range of ports. The verbose option can be useful, providing information about the jBASE process stack, including line numbers for the currently active process.
+- [**WHO**](./../../administration/utilities/who) Unlike D3, “WHO \*” will not produce a list of all ports in use. The WHO command will provide the port number and either the [JBCLOGNAME](./../../environment-variables/jbclogname) or the user name for the current login.
+- **[LISTU](./../../administration/utilities/listu)**Options available are “P”, which directs output to the printer, “N”, which prevents the listing from paging. The output of the LISTU command can be customized by calling the [JBCUserCustomiseDisplay](./../../administration/utilities/customizing-the-output-of-commands) subroutine.
+- **[WHERE](./../../administration/utilities/where)**The WHERE utility can be used to display information on processes executing jBASE programs. Usage: **WHERE** Ports (Options Ports can be one or a range of ports. The verbose option can be useful, providing information about the jBASE process stack, including line numbers for the currently active process.
 - **FIND**There is no FIND command in jBASE. There are, however, two replacements:  
     1. [jgreb](jgreb), which will search for strings in jBASE files or directories.
-    2. [ESEARCH](esearch), which generates an implicit list of records in a file if they contain (or do not contain) one or more occurrences of specified character strings.
+    2. [ESEARCH](./../../jql/esearch), which generates an implicit list of records in a file if they contain (or do not contain) one or more occurrences of specified character strings.
 - **POVF** Although there is a POVF command in jBASE, it only lists the available space on the mounted file systems. On \*NIX, you may need “root” privileges in order to be able to run the command.
-- [**CREATE-FILE**](create-file) When you create a file in the current account/directory, the MD does not get updated to reflect that fact. A PROC wrapper can be provided on request if you wish to continue to have this “feature” available.
-- **jshelltype**This is a jBASE specific command which allows changes to the jBASE command shell ([jshell](jshell) or “jsh”). Usage: **jshelltype** *shell ,*where *shell*is one of **jsh**, **sh** or **msh***. In normal usage, “jsh” behave much like a standard TCL prompt and parses the syntax of command accordingly. Other “jshelltype” options are “sh” and “msh”:*
+- [**CREATE-FILE**](./../../files/create-file) When you create a file in the current account/directory, the MD does not get updated to reflect that fact. A PROC wrapper can be provided on request if you wish to continue to have this “feature” available.
+- **jshelltype**This is a jBASE specific command which allows changes to the jBASE command shell ([jshell](./../../jbase/jshell) or “jsh”). Usage: **jshelltype** *shell ,*where *shell*is one of **jsh**, **sh** or **msh***. In normal usage, “jsh” behave much like a standard TCL prompt and parses the syntax of command accordingly. Other “jshelltype” options are “sh” and “msh”:*
     1. “sh” behaves like a normal UNIX or Windows shell and can be used for running platform specific commands.
     2. “msh” or “mixed shell”, which tries to interpret shell meta characters so that they are correctly interpreted based on context.
 
@@ -256,16 +256,16 @@ Switching between the three can be accomplished by the use of function keys (F1 
 
 ## BASIC
 
-- The jBASE compiler now supports [case-insensitivity](320473-case-insensitive-overview). This does not imply that the jBASE compiler will understand every nuance of the D3 BASIC syntax
+- The jBASE compiler now supports [case-insensitivity](./../../jbase/case-insensitive-overview). This does not imply that the jBASE compiler will understand every nuance of the D3 BASIC syntax
 - In D3, to execute an operating system command, you needed to precede it with an exclamation mark. With jBASE, that is no longer necessary. By default, the command will be executed using the same shell as your original program, but it is possible to tell jBASE which shell to use as follows:
     - CHAR(255):”k” - Korn shell on UNIX, command shell on Windows.
     - CHAR(255):”c” – C shell (not commonly used), command shell on Windows.
     - CHAR(255):”s” – Bourne shell (on Linux, this would be the Bash shell in “sh” compatibility mode), again command shell on Windows.
 - The jBASE user has the same permissions as the user you are logged in as. On UNIX, by convention, a “jbase” group would be defined and each user of jBASE would be a member of that group. On Windows, it may sometimes be necessary to provide “User – Modify” permissions on an account folder so that all users can access files in the account.
-- D3 has a set of functions which allow you to read from and write to sequential files (%OPEN(), %READ(), %WRITE(), %CLOSE()). The jBASE equivalents are [OPENSEQ](277543-openseq), [READSEQ](278773-readseq)/[READBLK](277637-readblk), [WRITESEQ](279570-writeseq) and [CLOSSEQ](278851-closeseq) .The difference between the [READSEQ](278773-readseq) statement and the [READBLK](277637-readblk) statement is that the READBLK statement reads a block of data of a specified length, whereas the [READSEQ](278773-readseq) statement reads a single line of data.
+- D3 has a set of functions which allow you to read from and write to sequential files (%OPEN(), %READ(), %WRITE(), %CLOSE()). The jBASE equivalents are [OPENSEQ](./../../jbase-basic-%28jbc%29/openseq), [READSEQ](./../../jbase-basic-%28jbc%29/readseq)/[READBLK](./../../jbase-basic-%28jbc%29/readblk), [WRITESEQ](./../../jbase-basic-%28jbc%29/writeseq) and [CLOSSEQ](./../../jbase-basic-%28jbc%29/closeseq) .The difference between the [READSEQ](./../../jbase-basic-%28jbc%29/readseq) statement and the [READBLK](./../../jbase-basic-%28jbc%29/readblk) statement is that the READBLK statement reads a block of data of a specified length, whereas the [READSEQ](./../../jbase-basic-%28jbc%29/readseq) statement reads a single line of data.
 
 
-jBASE also provides a set of [Extensions](sequential-file-extensions) which can be used to manipulate sequential files.
+jBASE also provides a set of [Extensions](./../../jbase-basic-%28jbc%29/sequential-file-extensions) which can be used to manipulate sequential files.
 
 - All jBASE file operations allow you to set a variable if something should go wrong. The variable will contain a number which can provide an indication of the type of failure. These are consistent across all file operations:
     - 128         No such file or directory
@@ -312,7 +312,7 @@ SELECTINDEX index-name{, index-key} FROM file-var {TO select-var}
 ## Function Keys
 
 - jBASE provides an alternative to programming the function keys on a terminal emulator
-- Further details [here](keyboard-independence).
+- Further details [here](./../../environment-variables/keyboard-independence).
 
 
 
@@ -339,5 +339,5 @@ SELECTINDEX index-name{, index-key} FROM file-var {TO select-var}
 - FOLD() function is different.
 - jBASE doesn’t support % functions.
 - jBASE doesn’t support the IMPORT and EXPORT commands.
-- Not all user exits are supported, see the list [here](324980-supported-user-exits), but you can write your own in [jBC](user-exits)
+- Not all user exits are supported, see the list [here](./../../jql/conversion-processing/supported-user-exits), but you can write your own in [jBC](./../../jql/conversion-processing/user-exits)
 

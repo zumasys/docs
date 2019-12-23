@@ -34,8 +34,8 @@ PRINTER LIST ELEMENTS                14:28:24  01 APR 2018
 1 QUEUE ELEMENTS LISTED.                 1 PAGES IN USE.
 ```
 
-The STATUS column displays the status as per SP-JOBS and the specified assignment options. The FO column displays the formqueue Number. The PAGES column is equivalent to SP-JOBS SIZE field.  JobNumber, Copies, Date, Time, Acct are as per [SP-JOBS](306301-sp-jobs).
+The STATUS column displays the status as per SP-JOBS and the specified assignment options. The FO column displays the formqueue Number. The PAGES column is equivalent to SP-JOBS SIZE field.  JobNumber, Copies, Date, Time, Acct are as per [SP-JOBS](./../sp-jobs).
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

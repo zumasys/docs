@@ -25,7 +25,7 @@ Represents a jBASE common block
 
 | Modifier<br> | Constructor and Description<br> |
 | --- | --- |
-| protected<br> | JCommon(int handle, int numvars, [JConnection](com_jbase_jrcs_jconnection "class in com.jbase.jrcs") conn)<br> |
+| protected<br> | JCommon(int handle, int numvars, [JConnection](./../jconnection-%28jrclient-api%29 "class in com.jbase.jrcs") conn)<br> |
 
 
 
@@ -42,10 +42,10 @@ Represents a jBASE common block
 | --- | --- | --- |
 | void<br> | close()<br> | <br>Closes the object and releases the server-side handle<br> |
 | protected void<br> | finalize()<br> | <br> |
-| [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs")<br> | getDA(int index)<br> | Retrieves a dynamic array from a specific position in a common block<br> |
-| [JFile](com_jbase_jrcs_jfile "class in com.jbase.jrcs")<br> | getFile(int index)<br> | Retrieves a file variable from a specific position in a common block<br> |
-| void<br> | setDA(int index, [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs") dynArray)<br> | Stores a dynamic array into a specific position in a common block<br> |
-| void<br> | setFile(int index, [JFile](com_jbase_jrcs_jfile "class in com.jbase.jrcs") file)<br> | Stores a file variable into a specific position in a common block<br> |
+| [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | getDA(int index)<br> | Retrieves a dynamic array from a specific position in a common block<br> |
+| [JFile](./../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | getFile(int index)<br> | Retrieves a file variable from a specific position in a common block<br> |
+| void<br> | setDA(int index, [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs") dynArray)<br> | Stores a dynamic array into a specific position in a common block<br> |
+| void<br> | setFile(int index, [JFile](./../jfile-%28jrclient-api%29 "class in com.jbase.jrcs") file)<br> | Stores a file variable into a specific position in a common block<br> |
 
 
 
@@ -86,7 +86,7 @@ protected JCommon(int handle, int numvars, JConnection conn)
 public JDynArray getDA(int index) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Retrieves a dynamic array from a specific position in a common block
 
@@ -108,7 +108,7 @@ Throws:`JException `
 public JFile getFile(int index)                  
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Retrieves a file variable from a specific position in a common block.
 
@@ -130,7 +130,7 @@ Throws: `JException`
 ```
 public void setDA(int index, JDynArray dynArray) 
 ```
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Stores a dynamic array into a specific position in a common block.
 
@@ -149,7 +149,7 @@ Throws: `JException`
 ```
 public void setFile(int index, JFile file)
 ```
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Stores a file variable into a specific position in a common block.
 
@@ -170,7 +170,7 @@ Throws: `JException `
 ```
 public void close()
 ```
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Closes the object and releases the server-side handle.
 

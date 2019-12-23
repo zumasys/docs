@@ -57,7 +57,7 @@ The usual system defaults are:
 
 Once the jBASE Initialization has occurred then the language settings can be overridden with the additional jBASE utilities as follows:
 
-- [**SET-DECIMAL**](https://www.jbase.com/r99/knowledgebase/manuals/3.0/30manpages/man/sup22_SET_DECIMAL.htm)
+- [**SET-DECIMAL**](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup22_SET_DECIMAL.htm)
 
 
 The SET-DEC command sets the decimal point output symbol to the specified character. It's general form is as:
@@ -74,7 +74,7 @@ SET-DEC
 
 
 
-- [**SET-MONEY**](https://www.jbase.com/r99/knowledgebase/manuals/3.0/30manpages/man/sup22_SET_MONEY.htm)
+- [**SET-MONEY**](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup22_SET_MONEY.htm)
 
 
 The SET-MONEY command sets the currency output symbol to the specified character. It's general form is as:
@@ -91,7 +91,7 @@ SET-MONEY £
 
 
 
-- [**SET-THOUS**](https://www.jbase.com/r99/knowledgebase/manuals/3.0/30manpages/man/sup22_SET_THOUS.htm)
+- [**SET-THOUS**](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup22_SET_THOUS.htm)
 
 
 The SET-THOUS command sets the thousands separator output symbol to the specified character. It's general form is as:
@@ -109,5 +109,5 @@ SET-THOUS
 
 
 - [**SET-LANG**](set-lang)
-- [**DATE-FORMAT**](date-format)
+- [**DATE-FORMAT**](./../../../administration/utilities/date-format)
 

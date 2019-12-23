@@ -47,4 +47,4 @@ Input conversion does not invert. It simply applies the text extraction to the i
 
 
 
-Back to [Conversion Processing](321577-conversion-processing)
+Back to [Conversion Processing](./../conversion-processing)

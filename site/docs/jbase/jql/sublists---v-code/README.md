@@ -75,7 +75,7 @@ STOCK
 010 10
 ```
 
-Now all we need to do is to create three [data definition records](324525-data-definition-records) in the dictionary of STOCK - one for each field. We will name them DESC, COMPONENTS, and QTY.
+Now all we need to do is to create three [data definition records](./../data-definition-records---dictionary-structure) in the dictionary of STOCK - one for each field. We will name them DESC, COMPONENTS, and QTY.
 
 The final step is to issue a COUNT or LIST command which uses the WITHIN modifier:
 

@@ -36,4 +36,4 @@ The above results in 18.8496 being printed out. The equation is resolved, and r
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

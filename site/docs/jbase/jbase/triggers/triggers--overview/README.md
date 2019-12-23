@@ -16,9 +16,9 @@ The following jBASE database trigger utilities enable users to configure and dis
 
 | Utility  | Function<br> |
 | --- | --- |
-| [CREATE-TRIGGER](334575-create-trigger)<br> | create trigger events for a file<br> |
-| [DELETE-TRIGGER](334575-create-trigger)<br> | delete trigger events for a file<br> |
-| [LIST-TRIGGER](https://www.jbase.com/r99/knowledgebase/manuals/3.0/30manpages/man/adv22_LIST_TRIGGER.htm)<br> | list triggers events on a file<br> |
+| [CREATE-TRIGGER](./../create-trigger)<br> | create trigger events for a file<br> |
+| [DELETE-TRIGGER](./../create-trigger)<br> | delete trigger events for a file<br> |
+| [LIST-TRIGGER](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/adv22_LIST_TRIGGER.htm)<br> | list triggers events on a file<br> |
 
 
-The trigger events manifest themselves by calling a user supplied subroutine, which can be independently configured for each file. Each user subroutine must make provision for all the event types which could be triggered for that file. The  [trigger API](trigger-api) document gives more information about this.  The [trigger guidelines document](triggers-guidelines) gives more information about best practices when using triggers.
+The trigger events manifest themselves by calling a user supplied subroutine, which can be independently configured for each file. Each user subroutine must make provision for all the event types which could be triggered for that file. The  [trigger API](./../trigger-api) document gives more information about this.  The [trigger guidelines document](./../triggers-guidelines) gives more information about best practices when using triggers.

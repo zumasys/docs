@@ -20,7 +20,7 @@ Where:
 **devicetype**is the logical device type to be assigned:
 
 - LPTR - directly despooled device . Cannot HOLD since print jobs are sent directly to O/S spooler
-- [FILE](spooler-file-device-type) - to an operating system file
+- [FILE](./../spooler-file-device-type) - to an operating system file
 - TAPE - tape device
 - PORT - terminal device
 - PROG - programmed device
@@ -30,7 +30,7 @@ Where:
 
 **devicename**is the device name or program command to which output will be despooled.
 
-The **(Z** option can be used to encrypt the spooler jobs. See this [page](jbase-encryption-database-security) for details.
+The **(Z** option can be used to encrypt the spooler jobs. See this [page](./../../../jbase/jbase-encryption---database-security) for details.
 
 
 
@@ -56,4 +56,4 @@ FORM-NAME     DEV TYPE(LPTR,TAPE,PORT,PROG,NT,FILE)     DEVICE NAME:_
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

@@ -25,4 +25,4 @@ Where **e****xpression** is to be a UTF-8 encoded byte sequence, which is the de
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

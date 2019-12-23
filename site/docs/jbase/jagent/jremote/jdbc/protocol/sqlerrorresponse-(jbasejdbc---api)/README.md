@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- [Package](./../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 - Class
-- [Use](/39241-class-use/com_jbase_jdbc_protocol_class-use_sqlerrorresponse)
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.protocol.sqlerrorresponse-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39240-protocol/com_jbase_jdbc_protocol_SetPropertiesResponse "class in com.jbase.jdbc.protocol")
-- [Next Class](/39240-protocol/com_jbase_jdbc_protocol_SQLOKResponse "class in com.jbase.jdbc.protocol")
+- [Prev Class](./../setpropertiesresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
+- [Next Class](./../sqlokresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_SQLErrorResponse)
-- [No Frames](/39240-protocol/com_jbase_jdbc_protocol_SQLErrorResponse)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -50,12 +50,12 @@ com.jbase.jdbc.protocol
 ## Class SQLErrorResponse
 
 - [java.lang.Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
-- - [com.jbase.jdbc.io.Response](/39232-io/com_jbase_jdbc_io_response "class in com.jbase.jdbc.io")
-    - - [com.jbase.jdbc.protocol.SQLResponse](/39240-protocol/com_jbase_jdbc_protocol_SQLResponse "class in com.jbase.jdbc.protocol")
+- - [com.jbase.jdbc.io.Response](./../../io/response-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")
+    - - [com.jbase.jdbc.protocol.SQLResponse](./../sqlresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
         - - com.jbase.jdbc.protocol.SQLErrorResponse
 
 
-- All Implemented Interfaces:[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+- All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 * * *
 
 
@@ -66,13 +66,13 @@ extends SQLResponse
 
 - - ### Nested Class Summary
 
-        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+        - ### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](./../../io/jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 `JBaseSerializable.TYPE`
 
 
     - ### Field Summary
 
-        - ### Fields inherited from class com.jbase.jdbc.protocol.[SQLResponse](/39240-protocol/com_jbase_jdbc_protocol_SQLResponse "class in com.jbase.jdbc.protocol")
+        - ### Fields inherited from class com.jbase.jdbc.protocol.[SQLResponse](./../sqlresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 `statementId`
 
 
@@ -98,7 +98,7 @@ All Methods [Instance Methods](javascript:show%282%29;) [Concrete Methods](javas
 | `void` | `writeObject(JBaseObjectWriter writer,<br>           int version)`  |
 
 
-        - ### Methods inherited from class com.jbase.jdbc.protocol.[SQLResponse](/39240-protocol/com_jbase_jdbc_protocol_SQLResponse "class in com.jbase.jdbc.protocol")
+        - ### Methods inherited from class com.jbase.jdbc.protocol.[SQLResponse](./../sqlresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 `getStatementId`
 
 
@@ -177,22 +177,22 @@ public int getVersion()
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- [Package](./../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 - Class
-- [Use](/39241-class-use/com_jbase_jdbc_protocol_class-use_sqlerrorresponse)
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jdbc.protocol.sqlerrorresponse-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39240-protocol/com_jbase_jdbc_protocol_SetPropertiesResponse "class in com.jbase.jdbc.protocol")
-- [Next Class](/39240-protocol/com_jbase_jdbc_protocol_SQLOKResponse "class in com.jbase.jdbc.protocol")
+- [Prev Class](./../setpropertiesresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
+- [Next Class](./../sqlokresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_SQLErrorResponse)
-- [No Frames](/39240-protocol/com_jbase_jdbc_protocol_SQLErrorResponse)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

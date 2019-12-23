@@ -33,6 +33,6 @@ Where:
 
 
 
-See also: [BREAK](263578-break)
+See also: [BREAK](./../break)
 
-Go back to [jBASIC BASIC](263498-jbase-basic).
+Go back to [jBASIC BASIC](./../jbase-basic-programmers-reference-guide).

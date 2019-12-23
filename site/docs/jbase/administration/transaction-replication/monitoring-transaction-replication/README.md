@@ -13,7 +13,7 @@
 
 ## jLOGSTATUS
 
-The [jlogstatus](305935-jlogstatus) program can give an overview of both the transaction logging and replication system.  See also [jlogstatus](305935-jlogstatus)documentation for more detail. the command:
+The [jlogstatus](./../jlogstatus) program can give an overview of both the transaction logging and replication system.  See also [jlogstatus](./../jlogstatus)documentation for more detail. the command:
 
 ```
 JLOGSTATUS -a
@@ -57,7 +57,7 @@ Average transaction time:               0.0000 Secs
 
 ### jLOGMONITOR
 
-The jlogmonitor command can be used to monitor potential problems with the [jlogdup](305930-jlogdup) process. It will report errors when specific trigger events occur. jlogmonitor can be run in the foreground but will usually be run as a background process (using the standard –Jb option). The command is invoked as:
+The jlogmonitor command can be used to monitor potential problems with the [jlogdup](./../jlogdup) process. It will report errors when specific trigger events occur. jlogmonitor can be run in the foreground but will usually be run as a background process (using the standard –Jb option). The command is invoked as:
 
 ```
 jlogmonitor {-h|?} {-ccmd} {-Cnn} {-Dnn} {-E} {-Inn) {-Snn}
@@ -98,4 +98,4 @@ The command "MESSAGE \* %" is executed for every message sent to the screen by j
 
 
 
-Back to [Transactional Journaling](introduction-to-transactional-journaling)
+Back to [Transactional Journaling](./../introduction-to-transaction-journaling)

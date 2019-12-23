@@ -22,7 +22,7 @@ CALL {filename} subname
 where :
 
 - filename is ignored but provided for compatibility with older systems,
-- Subname is the name of the called subroutine (or function).  This subroutine must reside in one of the libraries defined by the user and must be visible via [JBCOBJECTLIST](jbcobjectlist).
+- Subname is the name of the called subroutine (or function).  This subroutine must reside in one of the libraries defined by the user and must be visible via [JBCOBJECTLIST](./../../environment-variables/jbcobjectlist).
 
 
 The subroutine can be called as a conversion (attribute 7 of the dictionary item) or as a correlative (attribute 8 of the dictionary item). Data is passed to and from the subroutine with named COMMON elements. In each subroutine the following line must be included:
@@ -62,7 +62,7 @@ Their usage of these arrays is:
 | access(17)<br> | reserved<br> |
 
 
-By default jBASE will only call a subroutine once per item. This is normally desirable, since value and sub value manipulation can be done within the subroutine. In addition, it is clearly more efficient to only call the subroutine once per item. However, for backward compatibility, jBASE can be configured to call the subroutine for every value and sub value processed. If this is required then set [jql\_mv\_subcall = true](emulation) in the **$JBCRELEASEDIR/config/Config\_EMULATE**file under the appropriate emulation section. If this setting is in place, **access(6)**and **access(7)** are incremented appropriately as each value and sub value is processed. Otherwise the values in **access(6)** and **access(7)** have no meaning.
+By default jBASE will only call a subroutine once per item. This is normally desirable, since value and sub value manipulation can be done within the subroutine. In addition, it is clearly more efficient to only call the subroutine once per item. However, for backward compatibility, jBASE can be configured to call the subroutine for every value and sub value processed. If this is required then set [jql\_mv\_subcall = true](./../../migration-station/articles/emulation) in the **$JBCRELEASEDIR/config/Config\_EMULATE**file under the appropriate emulation section. If this setting is in place, **access(6)**and **access(7)** are incremented appropriately as each value and sub value is processed. Otherwise the values in **access(6)** and **access(7)** have no meaning.
 
 **newpick(1)** through **newpick(11)** are reserved
 

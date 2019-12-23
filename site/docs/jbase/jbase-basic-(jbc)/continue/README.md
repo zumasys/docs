@@ -9,9 +9,9 @@
 
 # Description
 
-The **CONTINUE** statement is the complimentary statement to the [BREAK](263578-break) statement, without arguments. If used within a loop, program execution will skip the remaining code after the ‘continue’ statement in the current iteration and proceed directly on to the next iteration.
+The **CONTINUE** statement is the complimentary statement to the [BREAK](./../break) statement, without arguments. If used within a loop, program execution will skip the remaining code after the ‘continue’ statement in the current iteration and proceed directly on to the next iteration.
 
-The compiler will issue a warning message and ignore the statement if it is found outside an iterative  loop such as [FOR...NEXT](279813-for), [LOOP...REPEAT](276941-loop).
+The compiler will issue a warning message and ignore the statement if it is found outside an iterative  loop such as [FOR...NEXT](./../for), [LOOP...REPEAT](./../loop).
 
 An example of use is as:
 
@@ -26,6 +26,6 @@ The above example will execute the loop 30 times but will only print the value o
 
 
 
-See also: [BREAK](263578-break), [EXIT](269199-exit)
+See also: [BREAK](./../break), [EXIT](./../exit)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

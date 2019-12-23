@@ -12,20 +12,20 @@ Skip navigation links
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39236-exception/com_jbase_jdbc_io_exception_package-use)
-- [Tree](/39236-exception/com_jbase_jdbc_io_exception_package-tree)
+- [Use](./../uses-of-package-com.jbase.jdbc.io.exception-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io.exception-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Package](/39233-charset/com_jbase_jdbc_io_charset_package-summary)
-- [Next Package](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
+- [Prev Package](./../../charset/com.jbase.jdbc.io.charset-%28jbasejdbc---api%29)
+- [Next Package](./../../inflow/com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/exception//39236-exception/com_jbase_jdbc_io_exception_package-summary)
-- [No Frames](/39236-exception/com_jbase_jdbc_io_exception_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -37,28 +37,28 @@ jbasejdbc <br>
 
 - Exception Summary | Exception | Description |
 | --- | --- |
-| [UnexpectedCharacterException](/39236-exception/com_jbase_jdbc_io_exception_UnexpectedCharacterException "class in com.jbase.jdbc.io.exception") |   |
-| [UnknownTypeException](/39236-exception/com_jbase_jdbc_io_exception_UnknownTypeException "class in com.jbase.jdbc.io.exception") |   |
+| [UnexpectedCharacterException](./../unexpectedcharacterexception-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.exception") |   |
+| [UnknownTypeException](./../unknowntypeexception-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.exception") |   |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39236-exception/com_jbase_jdbc_io_exception_package-use)
-- [Tree](/39236-exception/com_jbase_jdbc_io_exception_package-tree)
+- [Use](./../uses-of-package-com.jbase.jdbc.io.exception-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.io.exception-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Package](/39233-charset/com_jbase_jdbc_io_charset_package-summary)
-- [Next Package](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
+- [Prev Package](./../../charset/com.jbase.jdbc.io.charset-%28jbasejdbc---api%29)
+- [Next Package](./../../inflow/com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/exception//39236-exception/com_jbase_jdbc_io_exception_package-summary)
-- [No Frames](/39236-exception/com_jbase_jdbc_io_exception_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

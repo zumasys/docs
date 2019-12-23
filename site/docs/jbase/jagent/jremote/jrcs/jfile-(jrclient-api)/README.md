@@ -25,7 +25,7 @@ Represents a jBASE file variable
 
 | Modifier<br> | Constructor and Description<br> |
 | --- | --- |
-| protected` `<br> | JFile(int handle, String name, [JConnection](com_jbase_jrcs_jconnection "class in com.jbase.jrcs") conn)<br> |
+| protected` `<br> | JFile(int handle, String name, [JConnection](./../jconnection-%28jrclient-api%29 "class in com.jbase.jrcs") conn)<br> |
 
 
 
@@ -43,28 +43,28 @@ Represents a jBASE file variable
 | void<br> | delete(String key)<br> | Deletes a record with the given key<br> |
 | protected void<br> |  finalize()<br> | <br> |
 | protected int<br> |  getHandle()<br> | <br> |
-| [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs")<br> |  getIndex(String indexName)<br> | Reads information about the specified index<br> |
+| [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> |  getIndex(String indexName)<br> | Reads information about the specified index<br> |
 | String<br> | getPath()<br> | Retrieves the file path<br> |
 | [JIndex](/jrcs/com_jbase_jrcs_JIndex "class in com.jbase.jrcs")<br> | openIndex(String indexName)<br> | Opens a named index on this file<br> |
-| [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs")<br> | read(String key)<br> | Reads a record from the file without locking<br> |
-| [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs")<br> | read(String key, boolean locked)<br> | Reads a record from the file, optionally locking it<br> |
-| [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs")<br> | read(String key, boolean locked, boolean wait)<br> | Reads a record from the file, optionally locking it and waiting for the lock<br> |
-| [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs")<br> | readNamedField(String key, String field)<br> | Reads a named field from a file record<br> |
-| [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs")<br> | readNamedField(String key, String field, boolean locked)<br> | Reads a named field from a file record, optionally locking the record<br> |
-| [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs")<br> | readNamedField(String key, String field, boolean locked, boolean wait)<br> | Reads a named field from a file record, optionally locking the record<br> |
-| [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs")<br> | readV(String key, int attrib)<br> | Reads an attribute from a file record without locking<br> |
-| [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs")<br> | readV(String key, int attrib, boolean locked)<br> | Reads an attribute from a file record, optionally locking the record<br> |
-| [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs")<br> | readV(String key, int attrib, boolean locked, boolean wait)<br> | Reads an attribute from a file record, optionally locking the record and waiting for the lock<br> |
+| [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | read(String key)<br> | Reads a record from the file without locking<br> |
+| [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | read(String key, boolean locked)<br> | Reads a record from the file, optionally locking it<br> |
+| [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | read(String key, boolean locked, boolean wait)<br> | Reads a record from the file, optionally locking it and waiting for the lock<br> |
+| [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | readNamedField(String key, String field)<br> | Reads a named field from a file record<br> |
+| [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | readNamedField(String key, String field, boolean locked)<br> | Reads a named field from a file record, optionally locking the record<br> |
+| [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | readNamedField(String key, String field, boolean locked, boolean wait)<br> | Reads a named field from a file record, optionally locking the record<br> |
+| [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | readV(String key, int attrib)<br> | Reads an attribute from a file record without locking<br> |
+| [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | readV(String key, int attrib, boolean locked)<br> | Reads an attribute from a file record, optionally locking the record<br> |
+| [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | readV(String key, int attrib, boolean locked, boolean wait)<br> | Reads an attribute from a file record, optionally locking the record and waiting for the lock<br> |
 | void<br> | release(String key)<br> | Releases a lock on a file record<br> |
 | void<br> | releaseAll()<br> | Releases all locks held by the current session on the given file<br> |
-| [JSelectList](com_jbase_jrcs_jselectlist "class in com.jbase.jrcs")<br> | select()<br> | Selects all keys in the file in hash order<br> |
-| [JSelectList](com_jbase_jrcs_jselectlist "class in com.jbase.jrcs")<br> | sselect()<br> | Selects all keys in the file in ascending sorted order<br> |
-| void<br> | write(String key, [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs") data)<br> | Writes a record to the file releasing the lock if there is one<br> |
-| void<br> | write(String key, [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs") data, boolean unlock)<br> | Writes a record to the file optionally releasing the lock<br> |
-| void<br> | writeNamedField(String key, String field, [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs") data)<br> | Writes a named record field to the file<br> |
-| void<br> | writeNamedField(String key, String field, [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs") data, boolean unlock)<br> | Writes a named record field to the file optionally releasing the lock<br> |
-| void<br> | writeV(String key, [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs") data, int attrib)<br> | Writes a record attribute to the file releasing the lock if there is one<br> |
-| void<br> | writeV(String key, [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs") data, int attrib, boolean unlock)<br> | Writes a record attribute to the file optionally releasing the lock<br> |
+| [JSelectList](./../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | select()<br> | Selects all keys in the file in hash order<br> |
+| [JSelectList](./../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | sselect()<br> | Selects all keys in the file in ascending sorted order<br> |
+| void<br> | write(String key, [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs") data)<br> | Writes a record to the file releasing the lock if there is one<br> |
+| void<br> | write(String key, [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs") data, boolean unlock)<br> | Writes a record to the file optionally releasing the lock<br> |
+| void<br> | writeNamedField(String key, String field, [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs") data)<br> | Writes a named record field to the file<br> |
+| void<br> | writeNamedField(String key, String field, [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs") data, boolean unlock)<br> | Writes a named record field to the file optionally releasing the lock<br> |
+| void<br> | writeV(String key, [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs") data, int attrib)<br> | Writes a record attribute to the file releasing the lock if there is one<br> |
+| void<br> | writeV(String key, [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs") data, int attrib, boolean unlock)<br> | Writes a record attribute to the file optionally releasing the lock<br> |
 
 
 
@@ -96,7 +96,7 @@ protected JFile(int handle, String name, JConnection conn)
 public void clearFile() 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Clears the file
 
@@ -114,7 +114,7 @@ Throws: `JException `
 public void close()
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Closes the file and releases the server-side handle.
 
@@ -132,7 +132,7 @@ Throws: `JException `
 public void delete(String key)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Deletes a record with the given key
 
@@ -154,7 +154,7 @@ Throws: `JException `
 public JDynArray getIndex(String indexName)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Reads information about the specified index.
 
@@ -178,7 +178,7 @@ Throws: `JException`
 public JIndex openIndex(String indexName)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Opens a named index on this file.
 
@@ -202,7 +202,7 @@ Throws: `JException`
 public String getPath()
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Retrieves the file path.
 
@@ -216,7 +216,7 @@ Throws: `JException`
 public JDynArray read(String key, oolean locked, boolean wait)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Reads a record from the file, optionally locking it and waiting for the lock.
 
@@ -236,7 +236,7 @@ Throws: `JException`
 public JDynArray read(String key, boolean locked)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Reads a record from the file, optionally locking it.
 
@@ -256,7 +256,7 @@ Throws: `JException`
 public JDynArray read(String key)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Reads a record from the file without locking.
 
@@ -274,7 +274,7 @@ Throws: `JException`
 public JDynArray readV(String key, int attrib, boolean locked, boolean wait)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Reads an attribute from a file record, optionally locking the record and waiting for the lock.
 
@@ -298,7 +298,7 @@ Throws: `JException`
 public JDynArray readV(String key, int attrib, boolean locked)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Reads an attribute from a file record, optionally locking the record.
 
@@ -320,7 +320,7 @@ Throws: `JException`
 public JDynArray readV(String key, int attrib)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Reads an attribute from a file record without locking.
 
@@ -340,7 +340,7 @@ Throws: `JException`
 public void release(String key)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Releases a lock on a file record.
 
@@ -356,7 +356,7 @@ Throws: `JException`
 public void releaseAll()
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Releases all locks held by the current session on the given file.
 
@@ -368,7 +368,7 @@ Throws: `JException`
 public JSelectList select()
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Selects all keys in the file in hash order.
 
@@ -382,7 +382,7 @@ Throws: `JException`
 public JSelectList sselect()
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Selects all keys in the file in ascending sorted order.
 
@@ -396,7 +396,7 @@ Throws: `JException`
 public void write(String key, JDynArray data, boolean unlock)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Writes a record to the file optionally releasing the lock.
 
@@ -438,7 +438,7 @@ Throws: `JException `
 public void writeV(String key, JDynArray data, int attrib, boolean unlock)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Writes a record attribute to the file optionally releasing the lock.
 
@@ -460,7 +460,7 @@ Throws: `JException`
 public JDynArray readNamedField(String key, String field, boolean locked, boolean wait)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Reads a named field from a file record, optionally locking the record.
 
@@ -484,7 +484,7 @@ Throws: `JException`
 public JDynArray readNamedField(String key, String field, boolean locked)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Reads a named field from a file record, optionally locking the record.
 
@@ -506,7 +506,7 @@ Throws: `JException`
 public JDynArray readNamedField(String key, String field)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Reads a named field from a file record.
 
@@ -526,7 +526,7 @@ Throws: `JException`
 public void writeNamedField(String key, String field, JDynArray data, boolean unlock)
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Writes a named record field to the file optionally releasing the lock.
 
@@ -548,7 +548,7 @@ Throws: `JException`
 public void writeNamedField(String key, String field, JDynArray data) 
 ```
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Writes a named record field to the file.
 
@@ -570,9 +570,9 @@ Throws: `JException`
 
 #### **writeV**
 
-public void writeV(String key, [JDynArray](com_jbase_jrcs_jdynarray "class in com.jbase.jrcs") data, int attrib)
+public void writeV(String key, [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs") data, int attrib)
 
-throws [JException](com_jbase_jrcs_jexception "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Writes a record attribute to the file releasing the lock if there is one.
 

@@ -258,6 +258,6 @@ The following is a list of I-type functions which can be used directly in jBASE 
 
 
 
-[Conversion Processing](321577-conversion-processing)
+[Conversion Processing](./../conversion-processing)
 
 Back to [jBASE Query Language (JQL)](jbase-query-language-jql-)

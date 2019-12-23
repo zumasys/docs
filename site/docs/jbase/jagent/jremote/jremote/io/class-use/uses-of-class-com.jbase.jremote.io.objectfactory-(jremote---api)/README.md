@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
-- [Class](/39250-io/com_jbase_jremote_io_objectfactory "class in com.jbase.jremote.io")
+- [Package](./../../com.jbase.jremote.io-%28jremote---api%29)
+- [Class](./../../objectfactory-%28jremote---api%29 "class in com.jbase.jremote.io")
 - Use
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Tree](./../../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/class-use//39253-class-use/com_jbase_jremote_io_class-use_ObjectFactory)
-- [No Frames](/39253-class-use/com_jbase_jremote_io_class-use_ObjectFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,20 +36,20 @@ jremote <br>
 ## Uses of Class
 com.jbase.jremote.io.ObjectFactory
 
-- Packages that use [ObjectFactory](/39250-io/com_jbase_jremote_io_objectfactory "class in com.jbase.jremote.io") | Package | Description |
+- Packages that use [ObjectFactory](./../../objectfactory-%28jremote---api%29 "class in com.jbase.jremote.io") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.io |   |
 | com.jbase.jremote.jca.inflow |   |
-- - ### Uses of [ObjectFactory](/39250-io/com_jbase_jremote_io_objectfactory "class in com.jbase.jremote.io") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
+- - ### Uses of [ObjectFactory](./../../objectfactory-%28jremote---api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29)
 
 
-Subclasses of [ObjectFactory](/39250-io/com_jbase_jremote_io_objectfactory "class in com.jbase.jremote.io") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) | Modifier and Type | Class and Description |
+Subclasses of [ObjectFactory](./../../objectfactory-%28jremote---api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `JRemoteObjectFactory`<br>Creates objects received from the jbase\_agent server.<br> |
 
 
 
-Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) that return [ObjectFactory](/39250-io/com_jbase_jremote_io_objectfactory "class in com.jbase.jremote.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) that return [ObjectFactory](./../../objectfactory-%28jremote---api%29 "class in com.jbase.jremote.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `ObjectFactory` | NIOJBaseObjectReader.`getObjectFactory()`  |
 | `ObjectFactory` | IOJBaseObjectReader.`getObjectFactory()`  |
@@ -57,25 +57,25 @@ Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary
 
 
 
-Constructors in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) with parameters of type [ObjectFactory](/39250-io/com_jbase_jremote_io_objectfactory "class in com.jbase.jremote.io") | Constructor and Description |
+Constructors in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) with parameters of type [ObjectFactory](./../../objectfactory-%28jremote---api%29 "class in com.jbase.jremote.io") | Constructor and Description |
 | --- |
 | `IOJBaseObjectReader(ObjectFactory factory,<br>                   byte[] b)`<br>Constructor FOR TESTING ONLY.<br> |
 | `IOJBaseObjectReader(ObjectFactory factory,<br>                   InputStream is)`  |
 | `NIOJBaseObjectReader(ObjectFactory factory,<br>                    SocketChannel channel)`  |
-    - ### Uses of [ObjectFactory](/39250-io/com_jbase_jremote_io_objectfactory "class in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+    - ### Uses of [ObjectFactory](./../../objectfactory-%28jremote---api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29)
 
 
-Subclasses of [ObjectFactory](/39250-io/com_jbase_jremote_io_objectfactory "class in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary) | Modifier and Type | Class and Description |
+Subclasses of [ObjectFactory](./../../objectfactory-%28jremote---api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29) | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `InboundObjectFactory`  |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
-- [Class](/39250-io/com_jbase_jremote_io_objectfactory "class in com.jbase.jremote.io")
+- [Package](./../../com.jbase.jremote.io-%28jremote---api%29)
+- [Class](./../../objectfactory-%28jremote---api%29 "class in com.jbase.jremote.io")
 - Use
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Tree](./../../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -86,8 +86,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/class-use//39253-class-use/com_jbase_jremote_io_class-use_ObjectFactory)
-- [No Frames](/39253-class-use/com_jbase_jremote_io_class-use_ObjectFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

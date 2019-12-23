@@ -25,6 +25,6 @@ Where each element of **DynArr** must evaluate to a numeric argument in the rang
 
 
 
-See also: [CHAR](/36868-jbase-basic/264327-char).
+See also: [CHAR](./../char).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

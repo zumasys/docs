@@ -19,7 +19,7 @@ expr1 and expr2 are strings consisting of numeric characters, with either option
 
 Use the **SDIV** function with numbers that may exceed a valid range with standard arithmetic operators.
 
-The [PRECISION](277629-precision) declaration has no effect on the value returned by **SDIV**.
+The [PRECISION](./../precision) declaration has no effect on the value returned by **SDIV**.
 
 Examples of use may be as:
 
@@ -40,4 +40,4 @@ to display 3.14159292035398.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

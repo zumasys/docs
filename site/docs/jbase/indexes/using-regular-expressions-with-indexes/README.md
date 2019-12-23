@@ -8,7 +8,7 @@
 <badge text='indexes in queries' vertical='middle' />
 <badge text='file indexing' vertical='middle' />
 
-Regular expressions are the name given to a set of pattern matching characters. The term derived from Unix environment. The regular expressions can be used to great effect using the [query-index](query-index) command to decide what records to select. A full description of regular expressions can be obtained on Unix systems by entering the command:
+Regular expressions are the name given to a set of pattern matching characters. The term derived from Unix environment. The regular expressions can be used to great effect using the [query-index](./../query-index) command to decide what records to select. A full description of regular expressions can be obtained on Unix systems by entering the command:
 
 ```
 % man 8 regexp
@@ -27,7 +27,7 @@ For Windows systems only a limited subset of regular expressions are available. 
 
 
 
-For example, on either a Unix or Windows/NT system you could use [key-select](query-index) to find a product description that has the text SLIPPER at the start of the description. This can be done using the jQL format ,with say the SELECT command or by using regular expressions. The two methods are therefore:
+For example, on either a Unix or Windows/NT system you could use [key-select](./../query-index) to find a product description that has the text SLIPPER at the start of the description. This can be done using the jQL format ,with say the SELECT command or by using regular expressions. The two methods are therefore:
 
 ```
 jsh-> key-select -mJQL PRODUCTS IF description EQ "SLIPPER]"

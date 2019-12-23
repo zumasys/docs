@@ -24,7 +24,7 @@ The **PRINT** statement will append a newline sequence to the final expression u
 
 
 > - As the expression can be any valid expression, it may have output formatting applied to it.
-> - If a [PRINTER ON](277632-printer) statement is currently active then output will be sent to the currently assigned printer form queue.
+> - If a [PRINTER ON](./../printer) statement is currently active then output will be sent to the currently assigned printer form queue.
 
 
 An example of use is as:
@@ -35,6 +35,6 @@ PRINT @(8,20):"Como esta?":
 
 
 
-See also:  [CRT](266868-crt).
+See also:  [CRT](./../crt).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

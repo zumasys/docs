@@ -59,4 +59,4 @@ The subroutine SUBBP will be called for every database event to the PAYROLL file
 
 
 
-Also see [Trigger API](trigger-api).
+Also see [Trigger API](./../trigger-api).

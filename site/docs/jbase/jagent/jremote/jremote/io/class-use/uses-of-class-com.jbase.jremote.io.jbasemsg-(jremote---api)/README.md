@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
-- [Class](/39250-io/com_jbase_jremote_io_JbaseMsg "class in com.jbase.jremote.io")
+- [Package](./../../com.jbase.jremote.io-%28jremote---api%29)
+- [Class](./../../jbasemsg-%28jremote---api%29 "class in com.jbase.jremote.io")
 - Use
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Tree](./../../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/class-use//39253-class-use/com_jbase_jremote_io_class-use_JbaseMsg)
-- [No Frames](/39253-class-use/com_jbase_jremote_io_class-use_JbaseMsg)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ jremote <br>
 ## Uses of Class
 com.jbase.jremote.io.JbaseMsg
 
-- Packages that use [JbaseMsg](/39250-io/com_jbase_jremote_io_JbaseMsg "class in com.jbase.jremote.io") | Package | Description |
+- Packages that use [JbaseMsg](./../../jbasemsg-%28jremote---api%29 "class in com.jbase.jremote.io") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.io |   |
-- - ### Uses of [JbaseMsg](/39250-io/com_jbase_jremote_io_JbaseMsg "class in com.jbase.jremote.io") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
+- - ### Uses of [JbaseMsg](./../../jbasemsg-%28jremote---api%29 "class in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) with parameters of type [JbaseMsg](/39250-io/com_jbase_jremote_io_JbaseMsg "class in com.jbase.jremote.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) with parameters of type [JbaseMsg](./../../jbasemsg-%28jremote---api%29 "class in com.jbase.jremote.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | JbaseSocketConnection.`read(JbaseMsg msg)`  |
 | `void` | JbaseSocketConnection.`write(JbaseMsg msg)`  |
@@ -50,10 +50,10 @@ Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39250-io/com_jbase_jremote_io_package-summary)
-- [Class](/39250-io/com_jbase_jremote_io_JbaseMsg "class in com.jbase.jremote.io")
+- [Package](./../../com.jbase.jremote.io-%28jremote---api%29)
+- [Class](./../../jbasemsg-%28jremote---api%29 "class in com.jbase.jremote.io")
 - Use
-- [Tree](/39250-io/com_jbase_jremote_io_package-tree)
+- [Tree](./../../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -64,8 +64,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/class-use//39253-class-use/com_jbase_jremote_io_class-use_JbaseMsg)
-- [No Frames](/39253-class-use/com_jbase_jremote_io_class-use_JbaseMsg)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

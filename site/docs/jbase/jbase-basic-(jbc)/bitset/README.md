@@ -41,8 +41,8 @@ If table entry 112 is zero, returns a value of zero, sets bit 112 to one, and pr
 
 
 
-See also: [BITRESET](284140-bitreset).
+See also: [BITRESET](./../bitreset).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

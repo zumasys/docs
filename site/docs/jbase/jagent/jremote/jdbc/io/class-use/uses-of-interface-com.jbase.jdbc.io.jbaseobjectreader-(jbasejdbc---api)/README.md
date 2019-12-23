@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_JBaseObjectReader)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_JBaseObjectReader)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,14 +36,14 @@ jbasejdbc <br>
 ## Uses of Interface
 com.jbase.jdbc.io.JBaseObjectReader
 
-- Packages that use [JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") | Package | Description |
+- Packages that use [JBaseObjectReader](./../../jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.io |   |
 | com.jbase.jdbc.protocol |   |
-- - ### Uses of [JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary)
+- - ### Uses of [JBaseObjectReader](./../../jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 
 
-Classes in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) that implement [JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") | Modifier and Type | Class and Description |
+Classes in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29) that implement [JBaseObjectReader](./../../jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `AbstractJBaseObjectReader`<br>Deserializes JBaseSerializable objects sent from the jbase\_agent server,<br> or any other source of serialized JCF objects.<br> |
 | `class` | `IOJBaseObjectReader`<br>jBase object reader based on the DataInputStream.<br> |
@@ -51,16 +51,16 @@ Classes in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) that
 
 
 
-Methods in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) with parameters of type [JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29) with parameters of type [JBaseObjectReader](./../../jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | SQLError.`readObject(JBaseObjectReader reader,<br>          int version)`<br>Method :                readObject()<br><br> Description:   Read object off the wire.<br> |
 | `void` | OKResponse.`readObject(JBaseObjectReader reader,<br>          int version)`  |
 | `void` | JBaseSerializable.`readObject(JBaseObjectReader reader,<br>          int version)`  |
 | `void` | ErrorResponse.`readObject(JBaseObjectReader reader,<br>          int version)`  |
-    - ### Uses of [JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+    - ### Uses of [JBaseObjectReader](./../../jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") in [com.jbase.jdbc.protocol](./../../../protocol/com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 
 
-Methods in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary) with parameters of type [JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.protocol](./../../../protocol/com.jbase.jdbc.protocol-%28jbasejdbc---api%29) with parameters of type [JBaseObjectReader](./../../jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | TransactionStartRequest.`readObject(JBaseObjectReader reader,<br>          int version)`  |
 | `void` | TransactionRequest.`readObject(JBaseObjectReader reader,<br>          int version)`  |
@@ -94,10 +94,10 @@ Methods in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_pac
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -108,8 +108,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_JBaseObjectReader)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_JBaseObjectReader)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

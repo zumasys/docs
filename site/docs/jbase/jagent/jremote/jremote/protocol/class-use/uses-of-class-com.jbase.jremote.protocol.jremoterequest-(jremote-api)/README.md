@@ -16,19 +16,19 @@ com.jbase.jremote.protocol.JRemoteRequest
 
 | Package<br> | Description<br> |
 | --- | --- |
- Packages that use [JRemoteRequest](/39270-protocol/com_jbase_jremote_protocol_jremoterequest "class in com.jbase.jremote.protocol")  | com.jbase.jremote.io<br> |  <br> |
+ Packages that use [JRemoteRequest](./../../jremoterequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")  | com.jbase.jremote.io<br> |  <br> |
 | com.jbase.jremote.protocol<br> |  <br> |
 
 
 
 
 
-### Uses of [JRemoteRequest](/39270-protocol/com_jbase_jremote_protocol_jremoterequest "class in com.jbase.jremote.protocol") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
+### Uses of [JRemoteRequest](./../../jremoterequest-%28jremote-api%29 "class in com.jbase.jremote.protocol") in [com.jbase.jremote.io](./../../../io/com.jbase.jremote.io-%28jremote---api%29)
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) with parameters of type [JRemoteRequest](/39270-protocol/com_jbase_jremote_protocol_jremoterequest "class in com.jbase.jremote.protocol")  | `void`<br> | JRemoteSocketConnection.`send(JRemoteRequest request)` <br> |
+ Methods in [com.jbase.jremote.io](./../../../io/com.jbase.jremote.io-%28jremote---api%29) with parameters of type [JRemoteRequest](./../../jremoterequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")  | `void`<br> | JRemoteSocketConnection.`send(JRemoteRequest request)` <br> |
 | `void`<br> | InterceptorConnection.`send(JRemoteRequest request)` <br> |
 | `abstract void`<br> | AbstractJRemoteConnection.`send(JRemoteRequest request)` <br> |
 | `Response`<br> | JConnectionImpl.`sendWaitForResponse(JRemoteRequest req)`<br>Uses underlying connection to send a request and wait for the response.<br> |
@@ -39,12 +39,12 @@ com.jbase.jremote.protocol.JRemoteRequest
 
 
 
-### Uses of [JRemoteRequest](/39270-protocol/com_jbase_jremote_protocol_jremoterequest "class in com.jbase.jremote.protocol") in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary)
+### Uses of [JRemoteRequest](./../../jremoterequest-%28jremote-api%29 "class in com.jbase.jremote.protocol") in [com.jbase.jremote.protocol](./../../com.jbase.jremote.protocol-%28jremote-api%29)
 
 
 | Modifier and Type<br> | Class and Description<br> |
 | --- | --- |
- Subclasses of [JRemoteRequest](/39270-protocol/com_jbase_jremote_protocol_jremoterequest "class in com.jbase.jremote.protocol") in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary)  | `class `<br> | `AccountAuthenticationRequest`<br>Request for authentication.<br> |
+ Subclasses of [JRemoteRequest](./../../jremoterequest-%28jremote-api%29 "class in com.jbase.jremote.protocol") in [com.jbase.jremote.protocol](./../../com.jbase.jremote.protocol-%28jremote-api%29)  | `class `<br> | `AccountAuthenticationRequest`<br>Request for authentication.<br> |
 | `class `<br> | `AuthenticationRequest`<br>Request for authentication.<br> |
 | `class `<br> | `BeginTransactionRequest`<br>Request to start transaction.<br> |
 | `class `<br> | `CallSubroutineRequest` <br> |

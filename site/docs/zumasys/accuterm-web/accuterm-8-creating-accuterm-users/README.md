@@ -15,7 +15,7 @@ Each AccuTerm user, whether a Desktop or Web user (and eventually Mobile users),
 
 ### Info
 
-Prior to creating a user, you will need to have already created your [Customer Portal User](/customerportal/quick-start) and be assigned as an Administrator to your company's account.
+Prior to creating a user, you will need to have already created your [Customer Portal User](./../../customer-portal/customer-portal-registration) and be assigned as an Administrator to your company's account.
 
 
 
@@ -41,7 +41,7 @@ Prior to creating a user, you will need to have already created your [Customer P
 
 ### Info
 
-Prior to creating a user, you will need to have already created your [Customer Portal User](/customerportal/quick-start) and be assigned as an Administrator to your company's account.
+Prior to creating a user, you will need to have already created your [Customer Portal User](./../../customer-portal/customer-portal-registration) and be assigned as an Administrator to your company's account.
 
 
 

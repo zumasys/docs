@@ -5,8 +5,8 @@
 **Original Doc:** [279555-udtexecute](https://docs.jbase.com/36868-jbase-basic/279555-udtexecute)  
 
 
-See also: [EXECUTE](269198-execute).
+See also: [EXECUTE](./../execute).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

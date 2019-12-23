@@ -14,31 +14,31 @@ com.jbase.jremote.protocol.JRemoteResponse
 
 | Package<br> | Description<br> |
 | --- | --- |
- Packages that use [JRemoteResponse](/39270-protocol/com_jbase_jremote_protocol_jremoteresponse "class in com.jbase.jremote.protocol")  | com.jbase.jremote<br> |  <br> |
+ Packages that use [JRemoteResponse](./../../jremoteresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol")  | com.jbase.jremote<br> |  <br> |
 | com.jbase.jremote.protocol<br> |  <br> |
 
 
 
 
 
-### Uses of [JRemoteResponse](/39270-protocol/com_jbase_jremote_protocol_jremoteresponse "class in com.jbase.jremote.protocol") in [com.jbase.jremote](/30312-jagent/jremote-api)
+### Uses of [JRemoteResponse](./../../jremoteresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol") in [com.jbase.jremote](./../../../../../jremote-api)
 
 
 | Modifier and Type<br> | Class and Description<br> |
 | --- | --- |
- Subclasses of [JRemoteResponse](/39270-protocol/com_jbase_jremote_protocol_jremoteresponse "class in com.jbase.jremote.protocol") in [com.jbase.jremote](/30312-jagent/jremote-api)  | `class `<br> | `JExecuteResults`<br>The results from an executed command.<br> |
+ Subclasses of [JRemoteResponse](./../../jremoteresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol") in [com.jbase.jremote](./../../../../../jremote-api)  | `class `<br> | `JExecuteResults`<br>The results from an executed command.<br> |
 
 
 
 
 
 
-### Uses of [JRemoteResponse](/39270-protocol/com_jbase_jremote_protocol_jremoteresponse "class in com.jbase.jremote.protocol") in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary)
+### Uses of [JRemoteResponse](./../../jremoteresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol") in [com.jbase.jremote.protocol](./../../com.jbase.jremote.protocol-%28jremote-api%29)
 
 
 | Modifier and Type<br> | Class and Description<br> |
 | --- | --- |
- Subclasses of [JRemoteResponse](/39270-protocol/com_jbase_jremote_protocol_jremoteresponse "class in com.jbase.jremote.protocol") in [com.jbase.jremote.protocol](/39270-protocol/com_jbase_jremote_protocol_package-summary)  | `class `<br> | `ConvResponse` <br> |
+ Subclasses of [JRemoteResponse](./../../jremoteresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol") in [com.jbase.jremote.protocol](./../../com.jbase.jremote.protocol-%28jremote-api%29)  | `class `<br> | `ConvResponse` <br> |
 | `class `<br> | `DateTimeResponse` <br> |
 | `class `<br> | `EISMetaDataResponse`<br>Response object which reads general meta data of the underlying EIS instance.<br> |
 | `class `<br> | `InputOutputResponse` <br> |

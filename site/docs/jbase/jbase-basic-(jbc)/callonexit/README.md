@@ -7,7 +7,7 @@
 
 # Description
 
-The **CALLONEXIT** function call allows you to specify the name of a [SUBROUTINE](284390-subroutine) to call when the program terminates. The function takes the general form:
+The **CALLONEXIT** function call allows you to specify the name of a [SUBROUTINE](./../subroutine) to call when the program terminates. The function takes the general form:
 
 ```
 CALLONEXIT("ErrorExit")
@@ -47,4 +47,4 @@ DEBUG
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

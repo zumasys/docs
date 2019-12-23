@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
+- [Package](./../com.jbase.jremote.jca.mbean-%28jremote---api%29)
 - Class
 - Use
-- [Tree](/39266-mbean/com_jbase_jremote_jca_mbean_package-tree)
+- [Tree](./../com.jbase.jremote.jca.mbean-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/mbean//39266-mbean/com_jbase_jremote_jca_mbean_package-use)
-- [No Frames](/39266-mbean/com_jbase_jremote_jca_mbean_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,20 +36,20 @@ jremote <br>
 # Uses of Package
 com.jbase.jremote.jca.mbean
 
-- Packages that use [com.jbase.jremote.jca.mbean](../../../../../com/jbase/jremote/jca/mbean//39266-mbean/com_jbase_jremote_jca_mbean_package-summary) | Package | Description |
+- Packages that use [com.jbase.jremote.jca.mbean](./../com.jbase.jremote.jca.mbean-%28jremote---api%29) | Package | Description |
 | --- | --- |
 | com.jbase.jremote.jca.mbean |   |
-- Classes in [com.jbase.jremote.jca.mbean](../../../../../com/jbase/jremote/jca/mbean//39266-mbean/com_jbase_jremote_jca_mbean_package-summary) used by [com.jbase.jremote.jca.mbean](../../../../../com/jbase/jremote/jca/mbean//39266-mbean/com_jbase_jremote_jca_mbean_package-summary) | Class and Description |
+- Classes in [com.jbase.jremote.jca.mbean](./../com.jbase.jremote.jca.mbean-%28jremote---api%29) used by [com.jbase.jremote.jca.mbean](./../com.jbase.jremote.jca.mbean-%28jremote---api%29) | Class and Description |
 | --- |
 | [JRemoteStatisticsCounter.Types](../../../../../com/jbase/jremote/jca/mbean/class-use/JRemoteStatisticsCounter.Types.html#com.jbase.jremote.jca.mbean)  |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
+- [Package](./../com.jbase.jremote.jca.mbean-%28jremote---api%29)
 - Class
 - Use
-- [Tree](/39266-mbean/com_jbase_jremote_jca_mbean_package-tree)
+- [Tree](./../com.jbase.jremote.jca.mbean-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -60,8 +60,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/mbean//39266-mbean/com_jbase_jremote_jca_mbean_package-use)
-- [No Frames](/39266-mbean/com_jbase_jremote_jca_mbean_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

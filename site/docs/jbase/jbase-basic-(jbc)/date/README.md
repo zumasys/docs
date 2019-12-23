@@ -19,7 +19,7 @@ DATE()
 ## Note:
 
 
-> The system and jBASE programs should manipulate date fields in internal form. They can then be converted to a preferred readable format using the [OCONV](277483-oconv) function and the date conversion codes.
+> The system and jBASE programs should manipulate date fields in internal form. They can then be converted to a preferred readable format using the [OCONV](./../oconv) function and the date conversion codes.
 
 
 An example of use can be as:
@@ -32,8 +32,8 @@ To display today's date in the form: dd MMM yy.
 
 
 
-See also: [TIMEDATE](278806-timedate)
+See also: [TIMEDATE](./../timedate)
 
-Go back to [JBASE BASIC](263498-jbase-basic).
+Go back to [JBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

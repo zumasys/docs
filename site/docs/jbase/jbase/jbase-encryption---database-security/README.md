@@ -252,8 +252,8 @@ jsh ~\ebp -->
 - **jrf**works on encrypted files and will keep the resized file encrypted. The **-O**option will encrypt the file if it was previously un-encrypted; **-N**will decrypt the file if it was previously encrypted. On jBASE 5.7 resized files will, by default, be converted to a Dynamic File unless explicitly told otherwise with one of the other options.
 - Dynamic Files can be created as encrypted (jBASE 5.7 only)
 - **create-file**with **type=jbc** recognizes the **encrypted=true**option, e.g. **create-file data bp type=ud encrypted=true** (jBASE 5.7 only)
-- At this time, the logs created by **[Audit Logging](introduction-to-audit-logging)** are not encrypted. This will be implemented in a future release.
-- The following code, which uses a feature of [**Dynamic Objects**](dynamic-objects), can be used to programmatically determine if a file is encrypted:
+- At this time, the logs created by **[Audit Logging](./../introduction-to-audit-logging)** are not encrypted. This will be implemented in a future release.
+- The following code, which uses a feature of [**Dynamic Objects**](./../../dynamic-objects/dynamic-objects), can be used to programmatically determine if a file is encrypted:
 
 
 ```

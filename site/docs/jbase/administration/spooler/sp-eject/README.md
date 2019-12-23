@@ -25,6 +25,6 @@ where  n is the number of pages to eject. The default is one and the maximum is
 
 
 
-Back to [Spooler](jbase-spooler).
+Back to [Spooler](./../jbase-spooler).
 
 

@@ -69,7 +69,7 @@ Options may be as:
 | -a<br> | display all ancillary information<br> |
 | -fName<br> | name of file to extract source from<br> |
 | -i<br> | sort by increasing ticks, rather than decreasing tick<br> |
-| -kKeyFile<br> | name of file to store keyboard INPUT, used by [jkeyauto](jkeyauto)<br> |
+| -kKeyFile<br> | name of file to store keyboard INPUT, used by [jkeyauto](./../jkeyauto/jkeyauto)<br> |
 | -n<br> | subtotaled and sorted by source name<br> |
 | -o<br> | display shared object usage<br> |
 | -s<br> | display list of subroutines called<br> |

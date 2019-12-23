@@ -10,7 +10,7 @@
 
 # Description
 
-The **FINDSTR** statement locates a string as a substring of a dynamic array element. It is similar in operation to the [FIND](271550-find) statement. It takes the general form :
+The **FINDSTR** statement locates a string as a substring of a dynamic array element. It is similar in operation to the [FIND](./../find) statement. It takes the general form :
 
 ```
 FINDSTR expression1 IN Var1 {, expression2} SETTING Var2 {,Var3 {, Var4}} THEN | ELSE statement(s)
@@ -51,4 +51,4 @@ to display:
 FIELD: 2        POSITION: 2
 ```
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

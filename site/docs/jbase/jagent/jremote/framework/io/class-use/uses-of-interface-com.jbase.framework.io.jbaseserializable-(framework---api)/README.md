@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
-- [Class](/39220-io/com_jbase_framework_io_JBaseSerializable "interface in com.jbase.framework.io")
+- [Package](./../../com.jbase.framework.io-%28framework---api%29)
+- [Class](./../../jbaseserializable-%28framework---api%29 "interface in com.jbase.framework.io")
 - Use
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Tree](./../../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/class-use//39223-class-use/com_jbase_framework_io_class-use_JBaseSerializable)
-- [No Frames](/39223-class-use/com_jbase_framework_io_class-use_JBaseSerializable)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ framework <br>
 ## Uses of Interface
 com.jbase.framework.io.JBaseSerializable
 
-- Packages that use [JBaseSerializable](/39220-io/com_jbase_framework_io_JBaseSerializable "interface in com.jbase.framework.io") | Package | Description |
+- Packages that use [JBaseSerializable](./../../jbaseserializable-%28framework---api%29 "interface in com.jbase.framework.io") | Package | Description |
 | --- | --- |
 | com.jbase.framework.io |   |
-- - ### Uses of [JBaseSerializable](/39220-io/com_jbase_framework_io_JBaseSerializable "interface in com.jbase.framework.io") in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary)
+- - ### Uses of [JBaseSerializable](./../../jbaseserializable-%28framework---api%29 "interface in com.jbase.framework.io") in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29)
 
 
-Classes in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary) that implement [JBaseSerializable](/39220-io/com_jbase_framework_io_JBaseSerializable "interface in com.jbase.framework.io") | Modifier and Type | Class and Description |
+Classes in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29) that implement [JBaseSerializable](./../../jbaseserializable-%28framework---api%29 "interface in com.jbase.framework.io") | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `ErrorResponse`  |
 | `class` | `OKResponse`  |
@@ -51,7 +51,7 @@ Classes in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-sum
 
 
 
-Methods in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary) that return [JBaseSerializable](/39220-io/com_jbase_framework_io_JBaseSerializable "interface in com.jbase.framework.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29) that return [JBaseSerializable](./../../jbaseserializable-%28framework---api%29 "interface in com.jbase.framework.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected JBaseSerializable` | ObjectFactory.`createGenericObjects(int objectType)`<br>Creates any generic (i.e common to all framework clients) objects.<br> |
 | `protected abstract JBaseSerializable` | ObjectFactory.`createObject(int objectType)`<br>Create JBaseSerializable object from the supplied object type.<br> |
@@ -63,7 +63,7 @@ Methods in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-sum
 
 
 
-Methods in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-summary) with parameters of type [JBaseSerializable](/39220-io/com_jbase_framework_io_JBaseSerializable "interface in com.jbase.framework.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.framework.io](./../../com.jbase.framework.io-%28framework---api%29) with parameters of type [JBaseSerializable](./../../jbaseserializable-%28framework---api%29 "interface in com.jbase.framework.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected JBaseSerializable` | AbstractJBaseObjectReader.`readJBaseSerializableObject(char code,<br>                           JBaseSerializable o)`  |
 | `JBaseSerializable` | JBaseObjectReader.`readObject(JBaseSerializable o)`<br>Reads/deserializes next object, a JBaseSerializable object should be created and returned<br> if a null argument is passed in.<br> |
@@ -77,10 +77,10 @@ Methods in [com.jbase.framework.io](/39220-io/com_jbase_framework_io_package-sum
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39220-io/com_jbase_framework_io_package-summary)
-- [Class](/39220-io/com_jbase_framework_io_JBaseSerializable "interface in com.jbase.framework.io")
+- [Package](./../../com.jbase.framework.io-%28framework---api%29)
+- [Class](./../../jbaseserializable-%28framework---api%29 "interface in com.jbase.framework.io")
 - Use
-- [Tree](/39220-io/com_jbase_framework_io_package-tree)
+- [Tree](./../../com.jbase.framework.io-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -91,8 +91,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/class-use//39223-class-use/com_jbase_framework_io_class-use_JBaseSerializable)
-- [No Frames](/39223-class-use/com_jbase_framework_io_class-use_JBaseSerializable)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

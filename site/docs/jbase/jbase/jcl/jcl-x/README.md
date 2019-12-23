@@ -44,7 +44,7 @@ The X command stops execution of the program if the file SALES cannot be opened,
 
 See also List processing
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)
 
 
 

@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+- [Package](./../com.jbase.jremote.jca.inflow-%28jremote---api%29)
 - Class
-- [Use](/39263-class-use/com_jbase_jremote_jca_inflow_class-use_EndpointAdapterMBean)
-- [Tree](/39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
+- [Use](./../class-use/uses-of-interface-com.jbase.jremote.jca.inflow.endpointadaptermbean-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapter "class in com.jbase.jremote.jca.inflow")
-- [Next Class](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointMBean "interface in com.jbase.jremote.jca.inflow")
+- [Prev Class](./../endpointadapter-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow")
+- [Next Class](./../endpointmbean-%28jremote---api%29 "interface in com.jbase.jremote.jca.inflow")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/inflow//39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapterMBean)
-- [No Frames](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapterMBean)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -49,7 +49,7 @@ com.jbase.jremote.jca.inflow
 
 ## Interface EndpointAdapterMBean
 
-- All Known Implementing Classes:[EndpointAdapter](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapter "class in com.jbase.jremote.jca.inflow")
+- All Known Implementing Classes:[EndpointAdapter](./../endpointadapter-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow")
 * * *
 
 
@@ -78,22 +78,22 @@ long getTotalActivations()
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39262-inflow/com_jbase_jremote_jca_inflow_package-summary)
+- [Package](./../com.jbase.jremote.jca.inflow-%28jremote---api%29)
 - Class
-- [Use](/39263-class-use/com_jbase_jremote_jca_inflow_class-use_EndpointAdapterMBean)
-- [Tree](/39262-inflow/com_jbase_jremote_jca_inflow_package-tree)
+- [Use](./../class-use/uses-of-interface-com.jbase.jremote.jca.inflow.endpointadaptermbean-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapter "class in com.jbase.jremote.jca.inflow")
-- [Next Class](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointMBean "interface in com.jbase.jremote.jca.inflow")
+- [Prev Class](./../endpointadapter-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow")
+- [Next Class](./../endpointmbean-%28jremote---api%29 "interface in com.jbase.jremote.jca.inflow")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/inflow//39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapterMBean)
-- [No Frames](/39262-inflow/com_jbase_jremote_jca_inflow_EndpointAdapterMBean)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

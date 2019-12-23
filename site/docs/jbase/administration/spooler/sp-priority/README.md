@@ -31,4 +31,4 @@ PRINT JOB #:
 
 The user will then enter the print job number desired to be moved to the head of the formqueue.
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

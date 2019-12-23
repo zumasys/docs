@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_response "class in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../response-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_Response)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_Response)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,28 +36,28 @@ jbasejdbc <br>
 ## Uses of Class
 com.jbase.jdbc.io.Response
 
-- Packages that use [Response](/39232-io/com_jbase_jdbc_io_response "class in com.jbase.jdbc.io") | Package | Description |
+- Packages that use [Response](./../../response-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc |   |
 | com.jbase.jdbc.io |   |
 | com.jbase.jdbc.protocol |   |
-- - ### Uses of [Response](/39232-io/com_jbase_jdbc_io_response "class in com.jbase.jdbc.io") in [com.jbase.jdbc](/39228-jdbc/com_jbase_jdbc_package-summary)
+- - ### Uses of [Response](./../../response-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") in [com.jbase.jdbc](./../../../jbase-jdbc-api)
 
 
-Methods in [com.jbase.jdbc](/39228-jdbc/com_jbase_jdbc_package-summary) that return [Response](/39232-io/com_jbase_jdbc_io_response "class in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc](./../../../jbase-jdbc-api) that return [Response](./../../response-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected Response` | JBaseJDBCSocketConnection.`getResponse()`<br>Reads response from the server.<br> |
-    - ### Uses of [Response](/39232-io/com_jbase_jdbc_io_response "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary)
+    - ### Uses of [Response](./../../response-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 
 
-Subclasses of [Response](/39232-io/com_jbase_jdbc_io_response "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) | Modifier and Type | Class and Description |
+Subclasses of [Response](./../../response-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29) | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `ErrorResponse`  |
 | `class` | `OKResponse`  |
-    - ### Uses of [Response](/39232-io/com_jbase_jdbc_io_response "class in com.jbase.jdbc.io") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+    - ### Uses of [Response](./../../response-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") in [com.jbase.jdbc.protocol](./../../../protocol/com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
 
 
-Subclasses of [Response](/39232-io/com_jbase_jdbc_io_response "class in com.jbase.jdbc.io") in [com.jbase.jdbc.protocol](/39240-protocol/com_jbase_jdbc_protocol_package-summary) | Modifier and Type | Class and Description |
+Subclasses of [Response](./../../response-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") in [com.jbase.jdbc.protocol](./../../../protocol/com.jbase.jdbc.protocol-%28jbasejdbc---api%29) | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `InputOutputResponse`<br>Objects of this class can be sent from jsqld to the client<br> if a terminal output has been produced by a subroutine (CRT, PRINT)<br> or jBASE runtime.<br> |
 | `class` | `SetPropertiesResponse`  |
@@ -72,10 +72,10 @@ Subclasses of [Response](/39232-io/com_jbase_jdbc_io_response "class in com.jbas
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_response "class in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../response-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -86,8 +86,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_Response)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_Response)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

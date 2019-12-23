@@ -21,7 +21,7 @@ If multiple codes are used, they are applied from left to right as follows: the 
 
 The output is returned in a dynamic array. If **dynamic.array** evaluates to null, it returns null. If any element of dynamic.array is null, it returns null for that element. If conversion evaluates to null, the **OCONVS()** function fails and the program terminates with a run-time error message.
 
-The [STATUS function](278661-status-function) reflects the result of the conversion:
+The [STATUS function](./../status-function) reflects the result of the conversion:
 
 
 | Status | Description |
@@ -33,10 +33,10 @@ The [STATUS function](278661-status-function) reflects the result of the convers
 
 # **INTERNATIONAL MODE**
 
-Description of date, time, number and currency conversions when used in [ICONV](276153-iconv) and International Mode.
+Description of date, time, number and currency conversions when used in [ICONV](./../iconv) and International Mode.
 
-For information about converting elements in a dynamic array to an internal format see the [ICONVS](276154-iconvs) function.
+For information about converting elements in a dynamic array to an internal format see the [ICONVS](./../iconvs) function.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39251-charset/com_jbase_jremote_io_charset_package-summary)
+- [Package](./../com.jbase.jremote.io.charset-%28jremote---api%29)
 - Class
 - Use
-- [Tree](/39251-charset/com_jbase_jremote_io_charset_package-tree)
+- [Tree](./../com.jbase.jremote.io.charset-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/charset//39251-charset/com_jbase_jremote_io_charset_package-use)
-- [No Frames](/39251-charset/com_jbase_jremote_io_charset_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,10 +36,10 @@ jremote <br>
 # Uses of Package
 com.jbase.jremote.io.charset
 
-- Packages that use [com.jbase.jremote.io.charset](../../../../../com/jbase/jremote/io/charset//39251-charset/com_jbase_jremote_io_charset_package-summary) | Package | Description |
+- Packages that use [com.jbase.jremote.io.charset](./../com.jbase.jremote.io.charset-%28jremote---api%29) | Package | Description |
 | --- | --- |
 | com.jbase.jremote.io.charset |   |
-- Classes in [com.jbase.jremote.io.charset](../../../../../com/jbase/jremote/io/charset//39251-charset/com_jbase_jremote_io_charset_package-summary) used by [com.jbase.jremote.io.charset](../../../../../com/jbase/jremote/io/charset//39251-charset/com_jbase_jremote_io_charset_package-summary) | Class and Description |
+- Classes in [com.jbase.jremote.io.charset](./../com.jbase.jremote.io.charset-%28jremote---api%29) used by [com.jbase.jremote.io.charset](./../com.jbase.jremote.io.charset-%28jremote---api%29) | Class and Description |
 | --- |
 | [JbaseCharset](../../../../../com/jbase/jremote/io/charset/class-use/JbaseCharset.html#com.jbase.jremote.io.charset)  |
 | [JbasePrivateUseCharset](../../../../../com/jbase/jremote/io/charset/class-use/JbasePrivateUseCharset.html#com.jbase.jremote.io.charset)  |
@@ -47,10 +47,10 @@ com.jbase.jremote.io.charset
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39251-charset/com_jbase_jremote_io_charset_package-summary)
+- [Package](./../com.jbase.jremote.io.charset-%28jremote---api%29)
 - Class
 - Use
-- [Tree](/39251-charset/com_jbase_jremote_io_charset_package-tree)
+- [Tree](./../com.jbase.jremote.io.charset-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -61,8 +61,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/charset//39251-charset/com_jbase_jremote_io_charset_package-use)
-- [No Frames](/39251-charset/com_jbase_jremote_io_charset_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

@@ -28,4 +28,4 @@ which have been left open unintentionally.
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

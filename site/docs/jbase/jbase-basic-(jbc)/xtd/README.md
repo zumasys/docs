@@ -29,6 +29,6 @@ CRT XTD(USER_VAL)
 
 
 
-See also: [DTX](268493-dtx) .
+See also: [DTX](./../dtx) .
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

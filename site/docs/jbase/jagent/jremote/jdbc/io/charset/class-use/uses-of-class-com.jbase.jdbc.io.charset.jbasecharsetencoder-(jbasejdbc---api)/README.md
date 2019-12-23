@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39233-charset/com_jbase_jdbc_io_charset_package-summary)
-- [Class](/39233-charset/com_jbase_jdbc_io_charset_JbaseCharsetEncoder "class in com.jbase.jdbc.io.charset")
+- [Package](./../../com.jbase.jdbc.io.charset-%28jbasejdbc---api%29)
+- [Class](./../../jbasecharsetencoder-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.charset")
 - Use
-- [Tree](/39233-charset/com_jbase_jdbc_io_charset_package-tree)
+- [Tree](./../../com.jbase.jdbc.io.charset-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jdbc/io/charset/class-use//39234-class-use/com_jbase_jdbc_io_charset_class-use_JbaseCharsetEncoder)
-- [No Frames](/39234-class-use/com_jbase_jdbc_io_charset_class-use_JbaseCharsetEncoder)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.jdbc.io.charset.JbaseCharsetEncoder
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39233-charset/com_jbase_jdbc_io_charset_package-summary)
-- [Class](/39233-charset/com_jbase_jdbc_io_charset_JbaseCharsetEncoder "class in com.jbase.jdbc.io.charset")
+- [Package](./../../com.jbase.jdbc.io.charset-%28jbasejdbc---api%29)
+- [Class](./../../jbasecharsetencoder-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io.charset")
 - Use
-- [Tree](/39233-charset/com_jbase_jdbc_io_charset_package-tree)
+- [Tree](./../../com.jbase.jdbc.io.charset-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jdbc/io/charset/class-use//39234-class-use/com_jbase_jdbc_io_charset_class-use_JbaseCharsetEncoder)
-- [No Frames](/39234-class-use/com_jbase_jdbc_io_charset_class-use_JbaseCharsetEncoder)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

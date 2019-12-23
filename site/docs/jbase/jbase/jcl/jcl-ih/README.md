@@ -54,7 +54,7 @@ where:
 ## Note: 
 
 
-> Each group of one or more spaces in the text will be replaced with a single field mark, thereby creating new, separate parameters to replace the current single parameter. Leading and trailing spaces within text are ignored. Use the [IBH](318689-jcl-ibh) command if you want to insert text into the active input buffer as a single parameter with all blanks intact.
+> Each group of one or more spaces in the text will be replaced with a single field mark, thereby creating new, separate parameters to replace the current single parameter. Leading and trailing spaces within text are ignored. Use the [IBH](./../jcl-ibh) command if you want to insert text into the active input buffer as a single parameter with all blanks intact.
 
 
 If the buffer pointer is at the beginning of an existing parameter, that parameter will be replaced by the new text.
@@ -160,4 +160,4 @@ This example demonstrates how to truncate a parameter.
 | <br> |       ^<br> |       ^<br> |
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

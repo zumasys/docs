@@ -20,11 +20,11 @@ Where:
 
 **variable1**is the identifier into which the record will be read.
 
-**variable2**if specified, should be a jBASE BASIC variable that has previously been opened to a file using the [OPEN](277537-open) statement. If variable2 is not specified then the default file is assumed.
+**variable2**if specified, should be a jBASE BASIC variable that has previously been opened to a file using the [OPEN](./../open) statement. If variable2 is not specified then the default file is assumed.
 
 The **expression**should evaluate to a valid record key for the file.
 
-If the **SETTING**clause is specified and the read fails, **setvar**will be set to one of [these values](277647-increamental-file-errors).
+If the **SETTING**clause is specified and the read fails, **setvar**will be set to one of [these values](./../incremental-file-errors).
 
 If **ON ERROR** is specified, the statements following the **ON ERROR** clause will be executed for any of the above Incremental File Errors except error 128.
 
@@ -33,17 +33,17 @@ If the **READU** is successful then the statements following **THEN**will be exe
 ## Note: 
 
 
-> If the record could not be read because another process already had a lock on the record then one of two actions is taken. If the LOCKED clause was specified in the statement then the statements dependent on it are executed. If no LOCKED clause was specified then the statement blocks (waits) until the other process releases the lock. The [SYSTEM(43)](282982-system-functions) function can be used to determine which port has the lock.
+> If the record could not be read because another process already had a lock on the record then one of two actions is taken. If the LOCKED clause was specified in the statement then the statements dependent on it are executed. If no LOCKED clause was specified then the statement blocks (waits) until the other process releases the lock. The [SYSTEM(43)](./../system-functions) function can be used to determine which port has the lock.
 > 
 > The lock taken by the**READU**statement will be released by any of the following events:
 > 
-> - The same program with [WRITE](279568-write), [WRITEV](279574-writev)or [MATWRITE](276964-matwrite) statements writes to the record.
-> - The same program with the [DELETE](276025-delete) statement deletes the record.
-> - The record lock is released explicitly using the [RELEASE](278784-release) statement.
+> - The same program with [WRITE](./../write), [WRITEV](./../writev)or [MATWRITE](./../matwrite) statements writes to the record.
+> - The same program with the [DELETE](./../delete) statement deletes the record.
+> - The record lock is released explicitly using the [RELEASE](./../release) statement.
 > - The program stops normally or abnormally.
 > 
 > 
-> When a file is [OPEN](277537-open)ed to a local file variable in a subroutine then the file is closed when the subroutine [RETURN](278787-return)s so all locks taken on that file are released, including locks taken in a calling program. Files that are opened to [COMMON](276024-common) variables are not closed so the locks remain intact.
+> When a file is [OPEN](./../open)ed to a local file variable in a subroutine then the file is closed when the subroutine [RETURN](./../return)s so all locks taken on that file are released, including locks taken in a calling program. Files that are opened to [COMMON](./../common) variables are not closed so the locks remain intact.
 
 
 An example of use is as:
@@ -72,6 +72,6 @@ REPEAT
 
 
 
-See also: [WRITE](279568-write), [WRITEU](279573-writeu), [MATWRITE](276964-matwrite), [MATWRITEU](276970-matwriteu), [RELEASE](278784-release), [DELETE](276025-delete).
+See also: [WRITE](./../write), [WRITEU](./../writeu), [MATWRITE](./../matwrite), [MATWRITEU](./../matwriteu), [RELEASE](./../release), [DELETE](./../delete).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

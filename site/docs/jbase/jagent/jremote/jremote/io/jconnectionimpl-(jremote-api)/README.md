@@ -9,7 +9,7 @@
 
 ## Class JConnectionImpl
 
-All Implemented Interfaces:[JConnection](/39248-jremote/com_jbase_jremote_jconnection "interface in com.jbase.jremote"), [JXAConnection](/39248-jremote/com_jbase_jremote_jxaconnection "interface in com.jbase.jremote"), [XAResource](http://java.sun.com/j2se/1.5.0/docs/api/javax/transaction/xa/XAResource.html?is-external=true "class or interface in javax.transaction.xa")
+All Implemented Interfaces:[JConnection](./../../jconnection-%28jremote-api%29 "interface in com.jbase.jremote"), [JXAConnection](./../../jxaconnection-%28jremote-api%29 "interface in com.jbase.jremote"), [XAResource](http://java.sun.com/j2se/1.5.0/docs/api/javax/transaction/xa/XAResource.html?is-external=true "class or interface in javax.transaction.xa")
 * * *
 
 

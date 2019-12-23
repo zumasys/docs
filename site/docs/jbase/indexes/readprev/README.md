@@ -9,7 +9,7 @@
 
 This statement is syntactically similar to the READNEXT but it works in reverse order. There are some considerations when the direction is changed from a forward search to a backward search or vice-versa.
 
-When a [SELECT](334506-select) statement is first executed a forward direction is assumed. Therefore if a SELECT is immediately followed by a READPREV, then a change of direction is assumed.
+When a [SELECT](./../select) statement is first executed a forward direction is assumed. Therefore if a SELECT is immediately followed by a READPREV, then a change of direction is assumed.
 
 During the READNEXT or READPREV sequence a next-key pointer is kept up to date. This is the record key, or index key to use should a READNEXT be executed.
 

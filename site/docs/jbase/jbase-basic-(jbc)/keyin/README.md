@@ -15,4 +15,4 @@ KEYIN
 
 **KEYIN**uses raw keyboard input, therefore all special character handling (for example, backspace) is disabled. System special character handling (for example, processing of interrupts) is unchanged.
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

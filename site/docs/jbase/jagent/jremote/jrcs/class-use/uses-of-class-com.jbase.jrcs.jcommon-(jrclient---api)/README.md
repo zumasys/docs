@@ -11,11 +11,11 @@ JavaScript is disabled on your browser.
 
 
 
-## Uses of [JCommon](com_jbase_jrcs_JCommon "class in com.jbase.jrcs") in [com.jbase.jrcs](com_jbase_jrcs_package-summary)
+## Uses of [JCommon](com_jbase_jrcs_JCommon "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29)
 
 
 
-**Methods in [com.jbase.jrcs](com_jbase_jrcs_package-summary) that return [JCommon](com_jbase_jrcs_JCommon "class in com.jbase.jrcs")**
+**Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) that return [JCommon](com_jbase_jrcs_JCommon "class in com.jbase.jrcs")**
 
 
 | Modifier and Type<br> | Method<br> | Description<br> |

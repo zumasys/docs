@@ -45,4 +45,4 @@ set JBCLISTFILE=C:\globals\SAVEDLISTS
 
 
 
-See also [List Storage](325913-list-storage).
+See also [List Storage](./../../jbase/lists/list-storage).

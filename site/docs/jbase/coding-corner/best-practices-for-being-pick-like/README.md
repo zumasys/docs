@@ -32,7 +32,7 @@ Review with your developers that they need to ONLY compile and catalog code from
 
 
 
-Back to [Organizing Program Compiled Objects](317962-organizing-program-compiled-objects)
+Back to [Organizing Program Compiled Objects](./../organizing-program-compiled-objects)
 
 
 

@@ -27,16 +27,16 @@ PORT     REPORT#    QUEUE NAME              JOB#  OPTIONS  COPIES
 
 where :
 
-- PORT is the current port that issued the [SP-ASSIGN](306225-sp-assign)
+- PORT is the current port that issued the [SP-ASSIGN](./../sp-assign)
 - REPORT# is the print report channel numbers:
     - DEFAULT - Print report channel zero, the default assignment
-    - 1-127 - Print report channels assigned by the [SP-ASSIGN](306225-sp-assign) command
-- QUEUE NAME is the formqueue name assigned by [SP-ASSIGN](306225-sp-assign) command
+    - 1-127 - Print report channels assigned by the [SP-ASSIGN](./../sp-assign) command
+- QUEUE NAME is the formqueue name assigned by [SP-ASSIGN](./../sp-assign) command
 - JOB# is the currently open print job numbers
-- OPTIONS are any options assigned by the [SP-ASSIGN](306225-sp-assign) command
-- COPIES is the number of copies specified via the [SP-ASSIGN](306225-sp-assign) command
+- OPTIONS are any options assigned by the [SP-ASSIGN](./../sp-assign) command
+- COPIES is the number of copies specified via the [SP-ASSIGN](./../sp-assign) command
 
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

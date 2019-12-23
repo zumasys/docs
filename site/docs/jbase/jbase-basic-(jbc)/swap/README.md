@@ -35,6 +35,6 @@ CRT SWAP( Variable, "tab", "check")
 
 
 
-See also: [CHANGE](264325-change).
+See also: [CHANGE](./../change).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -41,6 +41,6 @@ NEXT I
 
 
 
-See also: [BREAK](263578-break), [CONTINUE](277124-continue).
+See also: [BREAK](./../break), [CONTINUE](./../continue).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

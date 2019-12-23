@@ -31,4 +31,4 @@ This command will delete the print job or jobs irrespective of status. If all jo
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Class IOJBaseObjectReader
 
-All Implemented Interfaces:[JBaseObjectReader](/39250-io/com_jbase_jremote_io_jbaseobjectreader "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseObjectReader](./../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io")
 * * *
 
 

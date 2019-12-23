@@ -29,9 +29,9 @@ The following characters have special meaning within the string:
 - " replace with a single " character
 
 
-The statement allows the evaluation and display of an expression at the foot of each page. Output, which is current, and being sent to the terminal, the output is paused until the entry of a carriage return at the terminal (unless the N option is specified either in the current [HEADING](276079-heading) or in this **FOOTING**).
+The statement allows the evaluation and display of an expression at the foot of each page. Output, which is current, and being sent to the terminal, the output is paused until the entry of a carriage return at the terminal (unless the N option is specified either in the current [HEADING](./../heading) or in this **FOOTING**).
 
-If the output is to the printer a [PRINTER ON](277632-printer) statement is in force; output sent to the terminal with the [CRT](266868-crt) statement is not paged; if output is to the terminal then all output is paged.
+If the output is to the printer a [PRINTER ON](./../printer) statement is in force; output sent to the terminal with the [CRT](./../crt) statement is not paged; if output is to the terminal then all output is paged.
 
 An example of use is as:
 
@@ -41,4 +41,4 @@ FOOTING "Programming staff by weight Page "P"
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

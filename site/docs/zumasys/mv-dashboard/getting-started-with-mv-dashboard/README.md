@@ -45,9 +45,9 @@ USING MULTIVALUE DASHBOARD, YOU CAN:
 
 MV Dashboard provides the following documentation to help developers and administrators new to MV Dashboard.
 
-- [Installing MV Dashboard on Windows](install-mv-dashboard-windows)
-- [Installing MV Dashboard on UNIX](install-mv-dashboard-unix)
-- [Get Started with MV Dashboard](introduction-to-mv-dashboard)
+- [Installing MV Dashboard on Windows](./../install-mv-dashboard&mv-connect-windows)
+- [Installing MV Dashboard on UNIX](./../install-mv-dashboard&mv-connect-unix)
+- [Get Started with MV Dashboard](./../introduction-to-mv-dashboard)
 
 
 

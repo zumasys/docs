@@ -15,7 +15,7 @@ The command takes the general form:
 RENAME-FILE filename
 ```
 
-where filename is the name the file to be renamed. The file type must be one of the supported jBASE [file types](create-file).
+where filename is the name the file to be renamed. The file type must be one of the supported jBASE [file types](./../create-file).
 
 **\*** A control file is the file ending in **]I**and is created when an index or trigger is created on the main file. Thus, the name of the control file will be the **filename]I**where **filename** is the name of the file.
 

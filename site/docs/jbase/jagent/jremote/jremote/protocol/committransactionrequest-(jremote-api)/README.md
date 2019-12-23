@@ -8,7 +8,7 @@
 JavaScript is disabled on your browser.
 
 ## Class CommitTransactionRequest
-All Implemented Interfaces:[JBaseSerializable](com_jbase_jremote_io_jbaseserializable "interface in com.jbase.jremote.io"), [InboundRequest](com_jbase_jremote_jca_inflow_protocol_inboundrequest "interface in com.jbase.jremote.jca.inflow.protocol")
+All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io"), [InboundRequest](./../../jca/inflow/protocol/inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol")
 * * *
 
 ```

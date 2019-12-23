@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Class AbstractJBaseObjectReader
 
-All Implemented Interfaces:[JBaseObjectReader](/39250-io/com_jbase_jremote_io_jbaseobjectreader "interface in com.jbase.jremote.io")Direct Known Subclasses:[IOJBaseObjectReader](/39250-io/com_jbase_jremote_io_iojbaseobjectreader "class in com.jbase.jremote.io"), [NIOJBaseObjectReader](/39250-io/com_jbase_jremote_io_niojbaseobjectreader "class in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseObjectReader](./../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io")Direct Known Subclasses:[IOJBaseObjectReader](./../iojbaseobjectreader-%28jremote-api%29 "class in com.jbase.jremote.io"), [NIOJBaseObjectReader](./../niojbaseobjectreader-%28jremote-api%29 "class in com.jbase.jremote.io")
 * * *
 
 

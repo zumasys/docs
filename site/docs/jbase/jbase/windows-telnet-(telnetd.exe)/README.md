@@ -48,9 +48,9 @@ If supported by the telnet client, then the TERM variable will also be set.
 # 
 
 
-## [Customization](311287-windows-telnet-customization)
+## [Customization](./../windows-telnet-customization)
 
-## [Troubleshooting](311300-windows-telnet-troubleshooting)
+## [Troubleshooting](./../windows-telnet-troubleshooting)
 
 # 
 

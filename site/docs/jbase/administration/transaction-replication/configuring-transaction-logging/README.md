@@ -165,4 +165,4 @@ Where {options} are identified as:
 ### 
 
 
-Back to [Transactional Journaling](introduction-to-transactional-journaling)
+Back to [Transactional Journaling](./../introduction-to-transaction-journaling)

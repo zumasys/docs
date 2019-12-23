@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
+- [Package](./../jbase-jdbc-api)
 - Class
-- [Use](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCDriverConstants)
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Use](./../class-use/uses-of-interface-com.jbase.jdbc.jbasejdbcdriverconstants-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../deprecated-list.html)
 - [Help](../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39228-jdbc/com_jbase_jdbc_jbasejdbcdatabasemetadata "class in com.jbase.jdbc")
-- [Next Class](/39228-jdbc/com_jbase_jdbc_JBaseJDBCErrors "class in com.jbase.jdbc")
+- [Prev Class](./../jbasejdbcdatabasemetadata-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
+- [Next Class](./../jbasejdbcerrors-%28jbasejdbc---api%29 "class in com.jbase.jdbc")
 
 
-- [Frames](../../../index.html?com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_JBaseJDBCDriverConstants)
-- [No Frames](/39228-jdbc/com_jbase_jdbc_JBaseJDBCDriverConstants)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../allclasses-noframe.html)
@@ -49,7 +49,7 @@ com.jbase.jdbc
 
 ## Interface JBaseJDBCDriverConstants
 
-- All Known Implementing Classes:[JBaseJDBCDriver](/39230-driver/com_jbase_jdbc_driver_JBaseJDBCDriver "class in com.jbase.jdbc.driver"), [SQLState](/39230-driver/com_jbase_jdbc_driver_SQLState "class in com.jbase.jdbc.driver")
+- All Known Implementing Classes:[JBaseJDBCDriver](./../driver/jbasejdbcdriver-%28jbasejdbc---api%29 "class in com.jbase.jdbc.driver"), [SQLState](./../driver/sqlstate-%28jbasejdbc---api%29 "class in com.jbase.jdbc.driver")
 * * *
 
 
@@ -454,22 +454,22 @@ See Also:[Constant Field Values](../../../constant-values.html#com.jbase.jdbc.JB
 Skip navigation links
 
 - [Overview](../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
+- [Package](./../jbase-jdbc-api)
 - Class
-- [Use](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCDriverConstants)
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Use](./../class-use/uses-of-interface-com.jbase.jdbc.jbasejdbcdriverconstants-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../deprecated-list.html)
 - [Help](../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Class](/39228-jdbc/com_jbase_jdbc_jbasejdbcdatabasemetadata "class in com.jbase.jdbc")
-- [Next Class](/39228-jdbc/com_jbase_jdbc_JBaseJDBCErrors "class in com.jbase.jdbc")
+- [Prev Class](./../jbasejdbcdatabasemetadata-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
+- [Next Class](./../jbasejdbcerrors-%28jbasejdbc---api%29 "class in com.jbase.jdbc")
 
 
-- [Frames](../../../index.html?com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_JBaseJDBCDriverConstants)
-- [No Frames](/39228-jdbc/com_jbase_jdbc_JBaseJDBCDriverConstants)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../allclasses-noframe.html)

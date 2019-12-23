@@ -37,7 +37,7 @@ F-DELETE, F-READ , IBH, MV, F-FREE, F-UREAD, IBP, MVA,**
 
 These commands are functionally equivalent in both **PQ**and **PQN**-style programs:
 
-[**( )**](318584-jcl-command)**, G, IF E, RSUB, U,[\[\]](318585-jcl-command), GO  B, IFN, RTN, X,[+](318586-jcl-command), GO F,**
+[**( )**](./../jcl-%28%29-command)**, G, IF E, RSUB, U,[\[\]](./../jcl-[]-command), GO  B, IFN, RTN, X,[+](./../jcl-+-command), GO F,**
 
 **M, S, -, GOSUB , P, STOFF, C, IF, RI, STON**
 

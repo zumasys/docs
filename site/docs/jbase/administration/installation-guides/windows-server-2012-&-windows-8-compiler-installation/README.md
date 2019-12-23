@@ -40,12 +40,12 @@ To download the web-based installer for Visual Studio 2015 Community Edition, yo
 
 ### See Next:
 
-[INSTALLING jBASE ON WINDOWS](323805-windows-jbase-installation)
+[INSTALLING jBASE ON WINDOWS](./../windows-installation-guide)
 
-[UPGRADING FROM A PREVIOUS VERSION](upgrading-from-a-previous-version)
+[UPGRADING FROM A PREVIOUS VERSION](./../upgrading-from-a-previous-version)
 
-[MANUAL INSTALLATION OF JDLS SERVICE](manual-installation-of-jdls-service)
+[MANUAL INSTALLATION OF JDLS SERVICE](./../../../jbase/manual-installation-of-jdls-service)
 
-[CREATING ACCOUNTS AND USERS](create-accounts-and-users)
+[CREATING ACCOUNTS AND USERS](./../create-accounts-and-users)
 
-[MANUAL LICENSE KEY INSTALLATION](manual-license-key-installation)
+[MANUAL LICENSE KEY INSTALLATION](./../manual-license-key-installation)

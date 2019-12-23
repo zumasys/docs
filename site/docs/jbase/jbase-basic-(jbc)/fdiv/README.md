@@ -21,7 +21,7 @@ where both **expression1** and **expression2** must evaluate to non-null numeric
 ## Note:
 
 
-> If either of the arguments evaluates to null then a run time "non-numeric" error will occur. If the second argument evaluates to zero then a run time "divide by zero" error will occur. The calculation is not subject to the [PRECISION](277629-precision) setting.
+> If either of the arguments evaluates to null then a run time "non-numeric" error will occur. If the second argument evaluates to zero then a run time "divide by zero" error will occur. The calculation is not subject to the [PRECISION](./../precision) setting.
 
 
 An example of use would be as:
@@ -34,4 +34,4 @@ to display '0.1305732484'.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

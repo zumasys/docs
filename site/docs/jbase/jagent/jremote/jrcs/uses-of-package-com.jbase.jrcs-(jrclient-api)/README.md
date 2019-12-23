@@ -11,14 +11,14 @@
 | Class<br> |  Description<br> |
 | --- | --- |
 
-| [JCapture](com_jbase_jrcs_jcapture)<br> | Represents a capture object designed to incrementally fetch results of program execution<br> |
-| [JCommon](com_jbase_jrcs_jcommon)<br> | Represents a jBASE common block<br> |
-| [JConnection](com_jbase_jrcs_jconnection)<br> | Represents a connection to a jBASE host<br> |
-| [JDynArray](com_jbase_jrcs_jdynarray)<br> | Represents a jBASE dynamic array<br> |
-| [JException](com_jbase_jrcs_jexception)<br> | Represents an exception thrown by all JClient classes<br> |
+| [JCapture](./../jcapture-%28jrclient-api%29)<br> | Represents a capture object designed to incrementally fetch results of program execution<br> |
+| [JCommon](./../jcommon-%28jrclient-api%29)<br> | Represents a jBASE common block<br> |
+| [JConnection](./../jconnection-%28jrclient-api%29)<br> | Represents a connection to a jBASE host<br> |
+| [JDynArray](./../jdynarray-%28jrclient---api%29)<br> | Represents a jBASE dynamic array<br> |
+| [JException](./../jexception-%28jrclient-api%29)<br> | Represents an exception thrown by all JClient classes<br> |
 | [JExecuteResults](com_jbase_jrcs_JExecuteResults)<br> | Contains results of jCL/jQL command execution<br> |
-| [JFile](com_jbase_jrcs_jfile)<br> | Represents a jBASE file variable<br> |
+| [JFile](./../jfile-%28jrclient-api%29)<br> | Represents a jBASE file variable<br> |
 | [JIndex](com_jbase_jrcs_JIndex)<br> | Represents a jBASE index variable<br> |
 | [JIOHandler](com_jbase_jrcs_JIOHandler) | The jRCS I/O handler interface, which a class must implement to replace the default JClient I/O handler<br> |
-| [JSelectList](com_jbase_jrcs_jselectlist)<br> | Represents a jBASE select list variable<br> |
+| [JSelectList](./../jselectlist-%28jrclient---api%29)<br> | Represents a jBASE select list variable<br> |
 

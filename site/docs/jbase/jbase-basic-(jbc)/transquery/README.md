@@ -13,10 +13,10 @@ The **TRANSQUERY**function is used to detect whether or not a transaction is act
 TRANSQUERY()
 ```
 
-**TRANSQUERY**will return 1 (true) if the process is within a transaction boundary, and 0 (false) if it is not. In other words, **TRANSQUERY** will return true if the [TRANSTART](278973-transtart) statement has been issued but a [TRANSEND](278974-transend) or [TRANSABORT](278971-transabort) statement has not yet been processed.
+**TRANSQUERY**will return 1 (true) if the process is within a transaction boundary, and 0 (false) if it is not. In other words, **TRANSQUERY** will return true if the [TRANSTART](./../transtart) statement has been issued but a [TRANSEND](./../transend) or [TRANSABORT](./../transabort) statement has not yet been processed.
 
 By default, all hashed files are marked for inclusion in a transaction however this can be modified by the jchmod utility.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -28,7 +28,7 @@ Where:
 > The dotNETWrapper is loaded dynamically at runtime; therefore, a compiled basic application has no dependencies on the .NET Framework. A slight delay may occur when calling the .NET method for the first time.
 
 
-With regard errors that occur during the call at the BASIC level, the [SYSTEM(0)](282982-system-functions) variable may be used. The variable can have the following values:
+With regard errors that occur during the call at the BASIC level, the [SYSTEM(0)](./../system-functions) variable may be used. The variable can have the following values:
 
 
 | Value  | Description  |
@@ -121,4 +121,4 @@ BASIC code using the ON ERROR would look like this:
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -27,4 +27,4 @@ The following is a list of spooler error messages
 
 
 
-Back to [Spooler](278818-spooler).
+Back to [Spooler](./../../../jbase-basic-%28jbc%29/spooler).

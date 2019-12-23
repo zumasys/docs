@@ -9,7 +9,7 @@
 
 ## Description
 
-The PIPEREAD statement allows for reading terminal data from the pipes created with the [PROGRAM](program) statement since the last PIPEREAD statement was executed. This is useful to ensure jkeyauto doesn't get ahead of the application, and to provide accurate timings.
+The PIPEREAD statement allows for reading terminal data from the pipes created with the [PROGRAM](./../program) statement since the last PIPEREAD statement was executed. This is useful to ensure jkeyauto doesn't get ahead of the application, and to provide accurate timings.
 
 It's general form is as:
 
@@ -20,7 +20,7 @@ PIPEREAD {PIPE expression_pipe} {TO variable_to} {FOR expression_for} {SETTING v
 
 - **expression\_pipe** shows the pipe number to read. This is the value returned in the $PIPE variable following a PROGRAM execution. If omitted, then we default to pipe number 0, which is the pipe number of the first PROGRAM execution.
 - **variable\_to** optionally allows you to return all the terminal data sent back from the program since the last PIPEREAD statement was executed to the defined variable name.
-- **expression\_for** is a timeout option and shows how long jkeyauto will wait before timing out. You can use the value of the 'SETTING variable\_setting' to determine if you timed out or if one of the 'UNTIL' expressions was satisfied. A value of 0 means we don't wait at all - we perform a non-blocking statement and return immediately. If you don't specify the FOR clause then PIPEREAD will block indefinitely as do the [SYNC](sync) and [WAIT](wait) statements.
+- **expression\_for** is a timeout option and shows how long jkeyauto will wait before timing out. You can use the value of the 'SETTING variable\_setting' to determine if you timed out or if one of the 'UNTIL' expressions was satisfied. A value of 0 means we don't wait at all - we perform a non-blocking statement and return immediately. If you don't specify the FOR clause then PIPEREAD will block indefinitely as do the [SYNC](./../sync) and [WAIT](./../wait) statements.
 - **variable\_setting** allows you to check the reason for the completion of the PIPEREAD statement and can be one of:
 
 

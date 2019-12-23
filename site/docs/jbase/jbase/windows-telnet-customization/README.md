@@ -248,4 +248,4 @@ This would eliminate the need for a 'jtelnet' entry.
 ### 
 
 
-Back to [Windows Telnet](311280-windows-telnet-telnetd-exe)
+Back to [Windows Telnet](./../windows-telnet-%28telnetd.exe%29)

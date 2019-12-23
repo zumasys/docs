@@ -7,7 +7,7 @@
 
 ## Description 
 
-The **T-LOAD**command selectively loads records from a tape device formatted in dump format by the [T-DUMP](t-dump) command. The command has the general form:
+The **T-LOAD**command selectively loads records from a tape device formatted in dump format by the [T-DUMP](./../t-dump) command. The command has the general form:
 
 ```
 T-LOAD file-specifier {record-list} {selection-criteria} {USING file-specifier} {(options}
@@ -23,7 +23,7 @@ where option may be:
 | P<br> | Direct output to the spooler.<br> |
 
 
-Refer to the [jQL documentation](https://www.jbase.com/r99/knowledgebase/manuals/3.0/30manpages/man/jql2_OVERVIEW.htm) for explanation of the remaining syntax elements.
+Refer to the [jQL documentation](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jql2_OVERVIEW.htm) for explanation of the remaining syntax elements.
 
 
 

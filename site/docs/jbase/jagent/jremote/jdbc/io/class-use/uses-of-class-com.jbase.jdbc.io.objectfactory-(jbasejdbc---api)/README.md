@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_objectfactory "class in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../objectfactory-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_ObjectFactory)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_ObjectFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,19 +36,19 @@ jbasejdbc <br>
 ## Uses of Class
 com.jbase.jdbc.io.ObjectFactory
 
-- Packages that use [ObjectFactory](/39232-io/com_jbase_jdbc_io_objectfactory "class in com.jbase.jdbc.io") | Package | Description |
+- Packages that use [ObjectFactory](./../../objectfactory-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.io |   |
-- - ### Uses of [ObjectFactory](/39232-io/com_jbase_jdbc_io_objectfactory "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary)
+- - ### Uses of [ObjectFactory](./../../objectfactory-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 
 
-Subclasses of [ObjectFactory](/39232-io/com_jbase_jdbc_io_objectfactory "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) | Modifier and Type | Class and Description |
+Subclasses of [ObjectFactory](./../../objectfactory-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29) | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `JBaseJDBCObjectFactory`<br>Creates objects received from the jbase\_agent server.<br> |
 
 
 
-Methods in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) that return [ObjectFactory](/39232-io/com_jbase_jdbc_io_objectfactory "class in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29) that return [ObjectFactory](./../../objectfactory-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `ObjectFactory` | NIOJBaseObjectReader.`getObjectFactory()`  |
 | `ObjectFactory` | IOJBaseObjectReader.`getObjectFactory()`  |
@@ -56,7 +56,7 @@ Methods in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) that
 
 
 
-Constructors in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) with parameters of type [ObjectFactory](/39232-io/com_jbase_jdbc_io_objectfactory "class in com.jbase.jdbc.io") | Constructor and Description |
+Constructors in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29) with parameters of type [ObjectFactory](./../../objectfactory-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io") | Constructor and Description |
 | --- |
 | `IOJBaseObjectReader(ObjectFactory factory,<br>                   byte[] b)`<br>Constructor FOR TESTING ONLY.<br> |
 | `IOJBaseObjectReader(ObjectFactory factory,<br>                   InputStream is)`  |
@@ -65,10 +65,10 @@ Constructors in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary)
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_objectfactory "class in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../objectfactory-%28jbasejdbc-api%29 "class in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -79,8 +79,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_ObjectFactory)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_ObjectFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

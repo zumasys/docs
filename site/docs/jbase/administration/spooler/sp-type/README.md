@@ -30,7 +30,7 @@ SP-TYPE formqueue -
 
 > ### Note:
 > 
-> - Selecting LIST FORM TYPES from the [SP-STATUS](306265-untitled-question) menu will display the FORMTYPES menu.
+> - Selecting LIST FORM TYPES from the [SP-STATUS](./../sp-status) menu will display the FORMTYPES menu.
 > - The FORMTYPES menu provides a display of the formqueues and their assigned formtypes. Menu options enable formtypes to be assigned to specific formqueues.
 > - The formtype entries specify configuration parameters to be used by the despooler when despooling print jobs from a formqueue for example, banner information and format.
 > - Formtype entries reside in the $JBCRELEASEDIR/config directory and use the naming convention jspform\_formtype. For example, entering a value of **abcd**would expect to find formtype:
@@ -45,4 +45,4 @@ SP-TYPE formqueue -
 
 
 
-Back to [Spooler.](jbase-spooler)
+Back to [Spooler.](./../jbase-spooler)

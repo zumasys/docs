@@ -7,7 +7,7 @@
 
 # Description
 
-The **OPENSER** statement is used to handle Serial IO. Serial IO to the COM ports on NT and to device files, achieves this on UNIX by  using the sequential file statements. In addition, certain control operations can be performed using the [IOCTL function](276732-ioctl). The **OPENSER** function takes the general form:
+The **OPENSER** statement is used to handle Serial IO. Serial IO to the COM ports on NT and to device files, achieves this on UNIX by  using the sequential file statements. In addition, certain control operations can be performed using the [IOCTL function](./../ioctl). The **OPENSER** function takes the general form:
 
 ```
 OPENSER Path,DevInfo| PIPE TO FileVar THEN | ELSE Statements
@@ -39,7 +39,7 @@ DevInfo consists of the following:
 ## Note:
 
 
-> The PIPE functionality allows a process to open a PIPE, once opened then the process can execute a command via the [WRITESEQ](279570-writeseq)/[SEND](279584-send) statement and then received the result back via the [GET](276055-get)/[READSEQ](278773-readseq) statements.
+> The PIPE functionality allows a process to open a PIPE, once opened then the process can execute a command via the [WRITESEQ](./../writeseq)/[SEND](./../send) statement and then received the result back via the [GET](./../get)/[READSEQ](./../readseq) statements.
 
 
 An example of use is as:
@@ -63,4 +63,4 @@ REPEAT
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

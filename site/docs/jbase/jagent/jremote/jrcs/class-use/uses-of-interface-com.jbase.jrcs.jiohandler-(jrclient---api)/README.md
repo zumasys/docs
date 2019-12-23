@@ -5,9 +5,9 @@
 **Original Doc:** [com_jbase_jrcs_class-use_jiohandler](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jiohandler)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Interface com.jbase.jrcs.JIOHandler (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&lt;div&gt;JavaScript is disabled on your browser.s.JIOHandler
-## Uses of [JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs") in [com.jbase.jrcs](/jrcs/com_jbase_jrcs_package-summary)
+## Uses of [JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29)
 
-**Classes in [com.jbase.jrcs](/jrcs/com_jbase_jrcs_package-summary) that implement [JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs")**
+**Classes in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) that implement [JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs")**
 
 | <br>Modifier and Type<br> | <br>Class<br> | Description |
 | --- | --- | --- |
@@ -17,7 +17,7 @@
 
 
 
-**Methods in [com.jbase.jrcs](/jrcs/com_jbase_jrcs_package-summary) that return [JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs")**
+**Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) that return [JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs")**
 
 | <br>Modifier and Type<br> | <br>Method<br> | Description |
 | --- | --- | --- |
@@ -27,7 +27,7 @@
 
 
 
-**Methods in [com.jbase.jrcs](/jrcs/com_jbase_jrcs_package-summary) with parameters of type [JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs")**
+**Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) with parameters of type [JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs")**
 
 | <br>Modifier and Type<br> | <br>Method<br> | <br>Description<br> |
 | --- | --- | --- |

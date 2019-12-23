@@ -43,6 +43,6 @@ to keep asking for an input till the user enters a numeric value.
 
 
 
-See also: [BREAK](263578-break), [CONTINUE](277124-continue)
+See also: [BREAK](./../break), [CONTINUE](./../continue)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

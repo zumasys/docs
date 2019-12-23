@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39254-exception/com_jbase_jremote_io_exception_package-summary)
+- [Package](./../com.jbase.jremote.io.exception-%28jremote---api%29)
 - Class
 - Use
-- [Tree](/39254-exception/com_jbase_jremote_io_exception_package-tree)
+- [Tree](./../com.jbase.jremote.io.exception-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/exception//39254-exception/com_jbase_jremote_io_exception_package-use)
-- [No Frames](/39254-exception/com_jbase_jremote_io_exception_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,24 +36,24 @@ jremote <br>
 # Uses of Package
 com.jbase.jremote.io.exception
 
-- Packages that use [com.jbase.jremote.io.exception](../../../../../com/jbase/jremote/io/exception//39254-exception/com_jbase_jremote_io_exception_package-summary) | Package | Description |
+- Packages that use [com.jbase.jremote.io.exception](./../com.jbase.jremote.io.exception-%28jremote---api%29) | Package | Description |
 | --- | --- |
 | com.jbase.jremote.io |   |
 | com.jbase.jremote.jca.inflow |   |
-- Classes in [com.jbase.jremote.io.exception](../../../../../com/jbase/jremote/io/exception//39254-exception/com_jbase_jremote_io_exception_package-summary) used by [com.jbase.jremote.io](../../../../../com/jbase/jremote/io//39254-exception/com_jbase_jremote_io_exception_package-summary) | Class and Description |
+- Classes in [com.jbase.jremote.io.exception](./../com.jbase.jremote.io.exception-%28jremote---api%29) used by [com.jbase.jremote.io](./../com.jbase.jremote.io.exception-%28jremote---api%29) | Class and Description |
 | --- |
 | [UnknownTypeException](../../../../../com/jbase/jremote/io/exception/class-use/UnknownTypeException.html#com.jbase.jremote.io)  |
-- Classes in [com.jbase.jremote.io.exception](../../../../../com/jbase/jremote/io/exception//39254-exception/com_jbase_jremote_io_exception_package-summary) used by [com.jbase.jremote.jca.inflow](../../../../../com/jbase/jremote/jca/inflow//39254-exception/com_jbase_jremote_io_exception_package-summary) | Class and Description |
+- Classes in [com.jbase.jremote.io.exception](./../com.jbase.jremote.io.exception-%28jremote---api%29) used by [com.jbase.jremote.jca.inflow](./../com.jbase.jremote.io.exception-%28jremote---api%29) | Class and Description |
 | --- |
 | [UnknownTypeException](../../../../../com/jbase/jremote/io/exception/class-use/UnknownTypeException.html#com.jbase.jremote.jca.inflow)  |
 
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39254-exception/com_jbase_jremote_io_exception_package-summary)
+- [Package](./../com.jbase.jremote.io.exception-%28jremote---api%29)
 - Class
 - Use
-- [Tree](/39254-exception/com_jbase_jremote_io_exception_package-tree)
+- [Tree](./../com.jbase.jremote.io.exception-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -64,8 +64,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/exception//39254-exception/com_jbase_jremote_io_exception_package-use)
-- [No Frames](/39254-exception/com_jbase_jremote_io_exception_package-use)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

@@ -46,4 +46,4 @@ The default action may be changed using the options presented by SP-NEWTAB. Of c
 
 
 
-Back to [Spooler](jbase-spooler).
+Back to [Spooler](./../jbase-spooler).

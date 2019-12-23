@@ -50,4 +50,4 @@ In the above scenario, a single comment is printed depending on the value of A. 
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -22,9 +22,9 @@ Where:
 
 ### Info
 
-Either string can be of any length and is not required to be the same length. See also the [SWAP](/36868-jbase-basic/278849-swap) function.
+Either string can be of any length and is not required to be the same length. See also the [SWAP](./../swap) function.
 
-The jBC language also supports the [CHANGE](/36868-jbase-basic/264325-change) statement.
+The jBC language also supports the [CHANGE](./../change) statement.
 
 
 An example of use is:
@@ -35,4 +35,4 @@ An example of use is:
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

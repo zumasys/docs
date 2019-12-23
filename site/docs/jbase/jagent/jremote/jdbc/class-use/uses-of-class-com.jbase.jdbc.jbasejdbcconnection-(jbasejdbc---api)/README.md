@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
-- [Class](/39228-jdbc/com_jbase_jdbc_jbasejdbcconnection "class in com.jbase.jdbc")
+- [Package](./../../jbase-jdbc-api)
+- [Class](./../../jbasejdbcconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
 - Use
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Tree](./../../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/class-use//39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCConnection)
-- [No Frames](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCConnection)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -36,30 +36,30 @@ jbasejdbc <br>
 ## Uses of Class
 com.jbase.jdbc.JBaseJDBCConnection
 
-- Packages that use [JBaseJDBCConnection](/39228-jdbc/com_jbase_jdbc_jbasejdbcconnection "class in com.jbase.jdbc") | Package | Description |
+- Packages that use [JBaseJDBCConnection](./../../jbasejdbcconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc |   |
 | com.jbase.jdbc.driver |   |
-- - ### Uses of [JBaseJDBCConnection](/39228-jdbc/com_jbase_jdbc_jbasejdbcconnection "class in com.jbase.jdbc") in [com.jbase.jdbc](/39228-jdbc/com_jbase_jdbc_package-summary)
+- - ### Uses of [JBaseJDBCConnection](./../../jbasejdbcconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc") in [com.jbase.jdbc](./../../jbase-jdbc-api)
 
 
-Subclasses of [JBaseJDBCConnection](/39228-jdbc/com_jbase_jdbc_jbasejdbcconnection "class in com.jbase.jdbc") in [com.jbase.jdbc](/39228-jdbc/com_jbase_jdbc_package-summary) | Modifier and Type | Class and Description |
+Subclasses of [JBaseJDBCConnection](./../../jbasejdbcconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc") in [com.jbase.jdbc](./../../jbase-jdbc-api) | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `JBaseJDBCSocketConnection`  |
-    - ### Uses of [JBaseJDBCConnection](/39228-jdbc/com_jbase_jdbc_jbasejdbcconnection "class in com.jbase.jdbc") in [com.jbase.jdbc.driver](/39230-driver/com_jbase_jdbc_driver_package-summary)
+    - ### Uses of [JBaseJDBCConnection](./../../jbasejdbcconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc") in [com.jbase.jdbc.driver](./../../driver/com.jbase.jdbc.driver-%28jbasejdbc---api%29)
 
 
-Methods in [com.jbase.jdbc.driver](/39230-driver/com_jbase_jdbc_driver_package-summary) that return [JBaseJDBCConnection](/39228-jdbc/com_jbase_jdbc_jbasejdbcconnection "class in com.jbase.jdbc") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.driver](./../../driver/com.jbase.jdbc.driver-%28jbasejdbc---api%29) that return [JBaseJDBCConnection](./../../jbasejdbcconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc") | Modifier and Type | Method and Description |
 | --- | --- |
 | `protected JBaseJDBCConnection` | JBaseJDBCDriver.`getJbaseJDBCConnection(String url,<br>                      Properties info)`  |
 
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
-- [Package](/39228-jdbc/com_jbase_jdbc_package-summary)
-- [Class](/39228-jdbc/com_jbase_jdbc_jbasejdbcconnection "class in com.jbase.jdbc")
+- [Package](./../../jbase-jdbc-api)
+- [Class](./../../jbasejdbcconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
 - Use
-- [Tree](/39228-jdbc/com_jbase_jdbc_package-tree)
+- [Tree](./../../com.jbase.jdbc-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
@@ -70,8 +70,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/class-use//39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCConnection)
-- [No Frames](/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCConnection)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

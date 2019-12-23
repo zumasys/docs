@@ -5,11 +5,11 @@
 **Original Doc:** [com_jbase_jrcs_class-use_jdynarray](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jdynarray)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jrcs.JDynArray (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&amp;lt;div&amp;gt;JavaScript is disabled on your browser.&amp;lt;/div&amp;gt;
-## Uses of [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs") in [com.jbase.jrcs](com_jbase_jrcs_package-summary)
+## Uses of [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29)
 
 
 
-**Methods in [com.jbase.jrcs](com_jbase_jrcs_package-summary) that return**[**JDynArray**](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs")
+**Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) that return**[**JDynArray**](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs")
 
 
 | Modifier and Type<br> | Method<br> |  Description<br> |
@@ -17,7 +17,7 @@
 | [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs")<br> | JDynArray.[extractDA](com_jbase_jrcs_JDynArray)(int amc)<br> | <br>Extracts the specified attribute as a dynamic array<br> |
 | [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs")<br> | JDynArray.[extractDA](com_jbase_jrcs_JDynArray)(int amc, int vmc)<br> | <br>Extracts the specified attribute or value as a dynamic array<br> |
 | [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs")<br> | JDynArray.[extractDA](com_jbase_jrcs_JDynArray)(int amc, int vmc, int svmc)<br> |  Extracts the specified attribute, value or sub-value as a dynamic array<br> |
-| [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs")<br> | JCommon.[getDA](com_jbase_jrcs_jcommon)(int index)<br> | <br>Retrieves a dynamic array from a specific position in a common block<br> |
+| [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs")<br> | JCommon.[getDA](./../../jcommon-%28jrclient-api%29)(int index)<br> | <br>Retrieves a dynamic array from a specific position in a common block<br> |
 | [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs")<br> | JFile.[getIndex](com_jbase_jrcs_JFile)(String indexName)<br> | <br>Reads information about the specified index<br> |
 | [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs")<br> | JConnection.[getjBaseVersion](com_jbase_jrcs_JConnection)()<br> | <br>Retrieves the version of jBASE database connected to this JConnection object<br> |
 | [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs")<br> | JFile.[read](com_jbase_jrcs_JFile)(String key)<br> | <br>Reads a record from the file without locking<br><br> |
@@ -33,7 +33,7 @@
 
 
 
-**Methods in [com.jbase.jrcs](/jrcs/com_jbase_jrcs_package-summary) with parameters of type**[**JDynArray**](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs")
+**Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) with parameters of type**[**JDynArray**](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs")
 
 
 
@@ -54,7 +54,7 @@
 | void<br> | JDynArray.[replaceDA](com_jbase_jrcs_JDynArray)([JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs") data, int amc)<br> | <br>Replaces the given attribute with the content of specified dynamic array Same as replace(JDynArray, amc)<br> |
 | void<br> | JDynArray.[replaceDA](com_jbase_jrcs_JDynArray)([JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs") data, int amc, int vmc)<br> | <br>Replaces the given attribute or value with the content of specified dynamic array Same as replace(JDynArray, amc, vmc)<br> |
 | void<br> | JDynArray.[replaceDA](com_jbase_jrcs_JDynArray)([JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs") data, int amc, int vmc, int svmc)<br> | <br>Replaces the given attribute, value or sub-value with the content of specified dynamic array.<br> |
-| void<br> | JCommon.[setDA](com_jbase_jrcs_jcommon)(int index, [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs") dynArray)<br> | <br>Stores a dynamic array into a specific position in a common block<br> |
+| void<br> | JCommon.[setDA](./../../jcommon-%28jrclient-api%29)(int index, [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs") dynArray)<br> | <br>Stores a dynamic array into a specific position in a common block<br> |
 | void<br> | JFile.[write](com_jbase_jrcs_JFile)(String key, [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs") data)<br> | <br>Writes a record to the file releasing the lock if there is one<br> |
 | void<br> | JFile.[write](com_jbase_jrcs_JFile)(String key, [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs") data, boolean unlock)<br> | <br>Writes a record to the file optionally releasing the lock<br> |
 | void<br> | JFile.[writeNamedField](com_jbase_jrcs_JFile)(String key, String field, [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs") data)<br> | <br>Writes a named record field to the file<br> |
@@ -65,7 +65,7 @@
 
 
 
-**Constructors in [com.jbase.jrcs](com_jbase_jrcs_package-summary) with parameters of type [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs")**
+**Constructors in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) with parameters of type [JDynArray](/jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs")**
 
 
 | Constructor<br> |  Description<br> |

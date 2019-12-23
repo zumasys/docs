@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 - [Class](/39232-io/com_jbase_jdbc_io_JBaseJDBCObjectFactory.TYPE "interface in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_JBaseJDBCObjectFactory.TYPE)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_JBaseJDBCObjectFactory.TYPE)
+- [Frames](./../uses-of-class-com.jbase.jdbc.io.jbasejdbcobjectfactory-%28jbasejdbc---api%29)
+- [No Frames](./../uses-of-class-com.jbase.jdbc.io.jbasejdbcobjectfactory-%28jbasejdbc---api%29)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.jdbc.io.JBaseJDBCObjectFactory.TYPE
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 - [Class](/39232-io/com_jbase_jdbc_io_JBaseJDBCObjectFactory.TYPE "interface in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_JBaseJDBCObjectFactory.TYPE)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_JBaseJDBCObjectFactory.TYPE)
+- [Frames](./../uses-of-class-com.jbase.jdbc.io.jbasejdbcobjectfactory-%28jbasejdbc---api%29)
+- [No Frames](./../uses-of-class-com.jbase.jdbc.io.jbasejdbcobjectfactory-%28jbasejdbc---api%29)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

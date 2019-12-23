@@ -15,7 +15,7 @@ SEND output {:} TO FileVar THEN | ELSE statements
 
 Where:
 
-output is an expression evaluating to a string that will be sent to the output device (specified by FileVar). It is expected that the device has already been opened with [OPENSER](277544-openser) or [OPENSEQ](277543-openseq).
+output is an expression evaluating to a string that will be sent to the output device (specified by FileVar). It is expected that the device has already been opened with [OPENSER](./../openser) or [OPENSEQ](./../openseq).
 The **SEND**statement will append a newline sequence to the final output expression unless it is terminated with a colon ":" character.
 
 ## Note: 
@@ -26,6 +26,6 @@ The **SEND**statement will append a newline sequence to the final output express
 > View other sequential file operations for examples of use.
 
 
-See also: [SENDX](278804-sendx) .
+See also: [SENDX](./../sendx) .
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

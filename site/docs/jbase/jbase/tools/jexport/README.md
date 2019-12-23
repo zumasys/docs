@@ -64,7 +64,7 @@ jexport -f /tmp/active_customers -d@vm CUSTOMERS WITH ACTIVITY BY-DSND TOTAL_SAL
 
 
 
-Back to [Tools](tools)
+Back to [Tools](./../tools)
 
 
 

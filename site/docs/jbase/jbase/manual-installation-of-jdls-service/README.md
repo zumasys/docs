@@ -26,12 +26,12 @@ jDLS can now be managed as a normal Windows service.
 
 ### RELATED TOPICS:
 
-[UPGRADING FROM A PREVIOUS VERSION](upgrading-from-a-previous-version)
+[UPGRADING FROM A PREVIOUS VERSION](./../../administration/installation-guides/upgrading-from-a-previous-version)
 
 [INSTALLING THE COMPILER](installing-the-windows-compiler)
 
-[CREATING ACCOUNTS AND USERS](create-accounts-and-users)
+[CREATING ACCOUNTS AND USERS](./../../administration/installation-guides/create-accounts-and-users)
 
-[MANUAL LICENSE KEY INSTALLATION](manual-license-key-installation)
+[MANUAL LICENSE KEY INSTALLATION](./../../administration/installation-guides/manual-license-key-installation)
 
 

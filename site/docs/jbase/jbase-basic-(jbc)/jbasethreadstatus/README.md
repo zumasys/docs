@@ -22,7 +22,7 @@ ThreadList a list of all threads active in this process, with one attribute per
 The layout of the multi-values in each attribute is as follows:
 
 - &lt; n,1 &gt; port number
-- &lt; n,2 &gt; thread handle returned from [JBASETHREADCreate](/36868-jbase-basic/276761-jbasethreadcreate)
+- &lt; n,2 &gt; thread handle returned from [JBASETHREADCreate](./../jbasethreadcreate)
 
 
 
@@ -31,4 +31,4 @@ Example code can be found in the "Threads" folder under "samples" in the jBASE i
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

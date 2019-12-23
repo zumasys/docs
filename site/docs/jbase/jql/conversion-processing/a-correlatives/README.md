@@ -7,7 +7,7 @@
 
 ## Description 
 
-A codes provide many powerful features. These include arithmetic, relational, logical, and concatenation operators, the ability to reference fields by name or FMC, the capability to use other data definition records as functions that return a value, and the ability to modify report data by using[format codes](321566-format-codes).
+A codes provide many powerful features. These include arithmetic, relational, logical, and concatenation operators, the ability to reference fields by name or FMC, the capability to use other data definition records as functions that return a value, and the ability to modify report data by using[format codes](./../format-codes).
 
 The A code also allows for handling data recursively, or "nest" one A code expression inside another.
 
@@ -92,7 +92,7 @@ Input conversion is not allowed.
 
 
 
-## [Format Codes](321566-format-codes) 
+## [Format Codes](./../format-codes) 
 
 It is possible to format the result of any A code operation by following the expression with a value mark, and then the required format code, like this:
 
@@ -118,7 +118,7 @@ See Format Codes for more information.
 
 
 
-[**Field Number (FMC) Operand**](321523-field-number-fmc-operand)
+[**Field Number (FMC) Operand**](./../field-number-%28fmc%29-operand)
 
 The field number operand returns the content of a specified field in the data record:
 
@@ -130,7 +130,7 @@ The first R specifies that any non-existent multivalues should use the previous 
 
 
 
-[**Field Name Operand**](321522-n-field-name-operand)
+[**Field Name Operand**](./../n-%28field-name%29-operand)
 
 The field name operand returns the content of a specified field in the data record:
 
@@ -140,7 +140,7 @@ N(field-name){R{R}}
 
 
 
-[**Literal operand**](321521-literal-operand)
+[**Literal operand**](./../literal-operand)
 
 The literal operand supplies a literal text string or numeric value:
 
@@ -148,7 +148,7 @@ The literal operand supplies a literal text string or numeric value:
 
 
 
-[**System Parameter Operands**](321556-system-parameter-operands)
+[**System Parameter Operands**](./../system-parameter-operands)
 
 Several A code operands return the value of system parameters. They are:
 
@@ -352,4 +352,4 @@ Extracts a sub-string from the S.CODE field, starting at the character position 
 
 
 
-Back to [Conversion Processing](321577-conversion-processing)
+Back to [Conversion Processing](./../conversion-processing)

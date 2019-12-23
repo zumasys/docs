@@ -72,7 +72,7 @@ Unlocks the record "Key" in the file associated with file buffer 1.
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)
 
 
 

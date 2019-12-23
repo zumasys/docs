@@ -24,11 +24,11 @@ A THEN or ELSE (or both) statement is required. The THEN clause will be execute
 ## Note: 
 
 
-> Record locks set during the transaction will not be released until a [TRANSEND](278974-transend) or [TRANSABORT](278971-transabort) statement is processed.
+> Record locks set during the transaction will not be released until a [TRANSEND](./../transend) or [TRANSABORT](./../transabort) statement is processed.
 
 
 A program (or series of programs) can only have one active transaction at one time. If another **TRANSTAR**T statement is encountered whilst a transaction is active, a run-time error will be generated.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

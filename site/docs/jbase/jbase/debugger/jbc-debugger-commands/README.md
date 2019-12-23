@@ -395,7 +395,7 @@ A possible better method than the **f** option - if you know your application - 
 b $f = {filename}
 ```
 
-This will cause a break when the above condition is true. The caveat is that you need to know the source (which may not be the same as the program/subroutine). Use [jshow](/48399-tools/jshow) if you are unsure:
+This will cause a break when the above condition is true. The caveat is that you need to know the source (which may not be the same as the program/subroutine). Use [jshow](./../../tools/jshow) if you are unsure:
 
 ```
 !jshow -c {subroutine/program}

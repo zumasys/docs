@@ -15,7 +15,7 @@ TERM {type | parameters}
 
 where:
 
-- **type** specifies the terminal type. The type must be one of the terminal types defined in the [terminfo database](https://www.jbase.com/r99/knowledgebase/howto/general/common/CreateTerminfo/index.htm). If you wish to specify a known terminal type, e.g. vt220, as a different name, then this can be achieved by linking the new name, e.g. V, to the terminfo entry for vt220.
+- **type** specifies the terminal type. The type must be one of the terminal types defined in the [terminfo database](https://https://static.zumasys.com/jbase/r99/knowledgebase/howto/general/common/CreateTerminfo/index.htm). If you wish to specify a known terminal type, e.g. vt220, as a different name, then this can be achieved by linking the new name, e.g. V, to the terminfo entry for vt220.
 - **parameters**are specified as: 
     - **tlength**is the terminal length
     - **tdepth**is the terminal display lines per page

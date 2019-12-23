@@ -9,8 +9,8 @@ The jBASE JDBC 2.0 Driver is a jBASE component implementing the JDBC API. The JD
 
 The following diagrams show two of the most common deployment scenarios. In both cases, the JDBC API implemented by the jBASE JDBC 2.0 Driver provides client applications with the ability to perform SQL queries against a jBASE server.
 
-- [Deploying jDBC Driver](deploying-the-jdbc-driver)
-- [jDBC API](com_jbase_jdbc_package-summary)
+- [Deploying jDBC Driver](./../jdbc/deploying-the-jdbc-driver)
+- [jDBC API](./../jdbc/jbase-jdbc-api)
 
 
 

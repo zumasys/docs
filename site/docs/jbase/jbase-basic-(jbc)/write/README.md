@@ -16,12 +16,12 @@ WRITE variable1 ON|TO { variable2,} expression {SETTING setvar} {ON ERROR statem
 Where:
 
 - **variable1** is the identifier containing the record to write,
-- **variable2**, if specified, should be a previous opened variable to a file using the [OPEN](277537-open) statement. If **variable2** is unspecified, the default file variable is assumed.
+- **variable2**, if specified, should be a previous opened variable to a file using the [OPEN](./../open) statement. If **variable2** is unspecified, the default file variable is assumed.
 - the **expression** should evaluate to a valid record key for the file.
-- If specifying the SETTING clause and the write fails, it sets **setvar** to one of the [these values](277647-increamental-file-errors).
+- If specifying the SETTING clause and the write fails, it sets **setvar** to one of the [these values](./../incremental-file-errors).
 
 
-If holding a lock on the record by this process, it is released by the [WRITE](279568-write). If it is desired to retain a lock on a record, it should be stated explicitly with the [WRITEU](279573-writeu) statement.
+If holding a lock on the record by this process, it is released by the [WRITE](./.). If it is desired to retain a lock on a record, it should be stated explicitly with the [WRITEU](./../writeu) statement.
 
 An example of use would be as:
 
@@ -35,4 +35,4 @@ END
 
 
 
-Go back to[jBASE BASIC](263498-jbase-basic).
+Go back to[jBASE BASIC](./../jbase-basic-programmers-reference-guide).

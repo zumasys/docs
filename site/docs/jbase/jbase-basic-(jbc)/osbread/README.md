@@ -27,9 +27,9 @@ Where:
 ## Note: 
 
 
-> - Before using **OSBREAD**, a file must be opened using the [OSOPEN](277623-osopen) or [OPENSEQ](277543-openseq) command.
+> - Before using **OSBREAD**, a file must be opened using the [OSOPEN](./../osopen) or [OPENSEQ](./../openseq) command.
 > - The ASCII 0 character [CHAR (0)] is used as a string-end delimiter. Therefore, ASCII 0 cannot be used in any string variable within jBASE. **OSBREAD** converts CHAR(0) to CHAR(128) when reading a block of data.
-> - After execution of **OSBREAD**, the [STATUS](278661-status-function) function returns either 0 or a failure code.
+> - After execution of **OSBREAD**, the [STATUS](./../status-function) function returns either 0 or a failure code.
 > - **OSBREAD** performs an operating system block read on a UNIX or Windows file.
 
 
@@ -41,6 +41,6 @@ OSBREAD Data FROM MYPIPE AT 0 LENGTH 10000
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

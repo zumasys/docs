@@ -33,7 +33,7 @@ Where:
 > A new line in UNIX files is one byte long, whereas in Windows NT it is two bytes long. This means that for a file with newlines, the same **READBLK** statement may return a different set of data depending on the operating system the file is stored under.
 
 
-The difference between the [READSEQ](278773-readseq) statement and the **READBLK** statement is that the **READBLK**statement reads a block of data of a specified length, whereas the [READSEQ](278773-readseq) statement reads a single line of data.
+The difference between the [READSEQ](./../readseq) statement and the **READBLK** statement is that the **READBLK**statement reads a block of data of a specified length, whereas the [READSEQ](./../readseq) statement reads a single line of data.
 
 An example of use is as:
 
@@ -52,8 +52,8 @@ When using the **READBLK**statement in International Mode, care must be taken to
 
 If requiring character data convert the input variable from ‘binary/latin1’ to UTF-8 byte sequence via the UTF8 function.
 
-It is recommended that the **READBLK**/[WRITEBLK](278663-writeblk) statements not be used when executing in International Mode. Similar functionality can be obtained via the [READSEQ](278773-readseq)/[WRITESEQ](279570-writeseq) statement, which can be used to read/write characters a line at a time from a file.
+It is recommended that the **READBLK**/[WRITEBLK](./../writeblk) statements not be used when executing in International Mode. Similar functionality can be obtained via the [READSEQ](./../readseq)/[WRITESEQ](./../writeseq) statement, which can be used to read/write characters a line at a time from a file.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -18,7 +18,7 @@ DIM{ENSION} variable(number{, number, ... }){, variable(number {,number, ...}) .
 Where:
 
 - **variable** may be any valid variable name neither declared nor previously used.
-- The **numbers** define the size of each dimension and must be either constants or the subject of an [EQUATE](269196-equate) statement.
+- The **numbers** define the size of each dimension and must be either constants or the subject of an [EQUATE](./../equate) statement.
 
 
 A single **DIM** statement may declare a number of arrays by separating their declarations with a comma.
@@ -42,6 +42,6 @@ DIM Age(DimSize1)
 
 
 
-See also: [COMMON](276024-common)
+See also: [COMMON](./../common)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -46,4 +46,4 @@ CT MD]D MD
 
 
 
-[Accounts](325724-accounts)
+[Accounts](./../accounts)

@@ -22,7 +22,7 @@ BO
 ## Note: 
 
 
-> The buffer pointer will move backward until it finds a field mark or the start of the buffer. To completely clear the buffer, use the [RO](318737-jcl-ro) command. To clear specific parameters, use the MV #n command
+> The buffer pointer will move backward until it finds a field mark or the start of the buffer. To completely clear the buffer, use the [RO](./../jcl-ro) command. To clear specific parameters, use the MV #n command
 
 
 
@@ -57,4 +57,4 @@ BO
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

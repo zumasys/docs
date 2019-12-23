@@ -25,4 +25,4 @@ where options may be:
 | N<br> | no page<br> |
 
 
-The output of the LISTU command is customized by calling the [JBCUserCustomiseDisplay](customizing-the-output-of-commands) subroutine.
+The output of the LISTU command is customized by calling the [JBCUserCustomiseDisplay](./../customizing-the-output-of-commands) subroutine.

@@ -10,22 +10,22 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
+- [Package](./../com.jbase.jremote.jca.cci-%28jremote---api%29)
 - Class
-- [Use](/39260-class-use/com_jbase_jremote_jca_cci_class-use_CCIJRemoteConnectionFactory)
-- [Tree](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.cci.ccijremoteconnectionfactory-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39259-cci/com_jbase_jremote_jca_cci_CCIJConnection "class in com.jbase.jremote.jca.cci")
-- [Next Class](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteDynamicArrayRecord "class in com.jbase.jremote.jca.cci")
+- [Prev Class](./../ccijconnection-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
+- [Next Class](./../ccijremotedynamicarrayrecord-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/cci//39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteConnectionFactory)
-- [No Frames](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteConnectionFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -116,7 +116,7 @@ public CCIJRemoteConnectionFactory()
 ```
 
 Construct a connection factory for use in a non managed environment using<br> the default connection manager.
-See Also:[`DefaultConnectionManager`](/39258-jca/com_jbase_jremote_jca_defaultconnectionmanager "class in com.jbase.jremote.jca")
+See Also:[`DefaultConnectionManager`](./../../defaultconnectionmanager-%28jremote-api%29 "class in com.jbase.jremote.jca")
 
 
         - #### CCIJRemoteConnectionFactory
@@ -126,7 +126,7 @@ public CCIJRemoteConnectionFactory(javax.resource.spi.ManagedConnectionFactory m
 ```
 
 Construct a connection factory for use in a non managed environment using<br> the default connection manager.
-See Also:[`DefaultConnectionManager`](/39258-jca/com_jbase_jremote_jca_defaultconnectionmanager "class in com.jbase.jremote.jca")
+See Also:[`DefaultConnectionManager`](./../../defaultconnectionmanager-%28jremote-api%29 "class in com.jbase.jremote.jca")
 
 
         - #### CCIJRemoteConnectionFactory
@@ -196,22 +196,22 @@ Specified by:`getReference` in interface `Referenceable`Throws:`NamingException`
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39259-cci/com_jbase_jremote_jca_cci_package-summary)
+- [Package](./../com.jbase.jremote.jca.cci-%28jremote---api%29)
 - Class
-- [Use](/39260-class-use/com_jbase_jremote_jca_cci_class-use_CCIJRemoteConnectionFactory)
-- [Tree](/39259-cci/com_jbase_jremote_jca_cci_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.jca.cci.ccijremoteconnectionfactory-%28jremote---api%29)
+- [Tree](./../com.jbase.jremote.jca.cci-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
 
 jremote <br>
 
-- [Prev Class](/39259-cci/com_jbase_jremote_jca_cci_CCIJConnection "class in com.jbase.jremote.jca.cci")
-- [Next Class](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteDynamicArrayRecord "class in com.jbase.jremote.jca.cci")
+- [Prev Class](./../ccijconnection-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
+- [Next Class](./../ccijremotedynamicarrayrecord-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/jca/cci//39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteConnectionFactory)
-- [No Frames](/39259-cci/com_jbase_jremote_jca_cci_CCIJRemoteConnectionFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

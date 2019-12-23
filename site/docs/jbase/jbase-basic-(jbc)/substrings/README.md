@@ -41,4 +41,4 @@ The above program creates 3 dynamic arrays. v represents a value mark. s represe
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -21,4 +21,4 @@ This function is useful for converting binary or latin1 code page data into inte
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

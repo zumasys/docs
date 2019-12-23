@@ -54,4 +54,4 @@ to load the variable TABLE.VALUE with the hexadecimal values of the bit table.
 
 
 
-Go back to [jBASE BASIC.](263498-jbase-basic)
+Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)

@@ -30,4 +30,4 @@ to display an array containing: 4, 10, 18, 0, 0
 
 
 
-Go back to [JBASE BASIC](263498-jbase-basic).
+Go back to [JBASE BASIC](./../jbase-basic-programmers-reference-guide).

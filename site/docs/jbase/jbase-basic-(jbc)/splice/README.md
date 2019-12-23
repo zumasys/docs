@@ -32,4 +32,4 @@ to display  "A-D\-E]B-F\C".
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

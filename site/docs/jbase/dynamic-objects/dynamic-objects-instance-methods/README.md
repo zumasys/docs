@@ -7,7 +7,7 @@
 
 Other than the Dynamic Objects Built-in methods, you can create your own methods which are used by your own classes. These methods are similar to external subroutines or functions in that they perform some task and optionally return a result. However, methods differ from functions and subroutines in that they can only be used by a specific class, thus satisfying the Object Oriented (OO) concept of encapsulation.
 
-If you are new to Dynamic Objects, we recommend you read through the [Introduction](dynamic-objects-tour) as that provides preliminary information that will make this topic easier to digest.
+If you are new to Dynamic Objects, we recommend you read through the [Introduction](./../introduction-to-dynamic-objects) as that provides preliminary information that will make this topic easier to digest.
 
 
 
@@ -34,7 +34,7 @@ Methods that return a value can call other methods in a chain-like fashion.
 
 A program's local variable names will not conflict with the names of properties of an object.
 
-Please refer to the [Object Creation](dynamic-objects-object-creation) section for additional information.
+Please refer to the [Object Creation](./../dynamic-objects-object-creation) section for additional information.
 
 
 
@@ -392,6 +392,6 @@ The JSON output is now:
 
 
 
-Dynamic Objects also supports [static methods](dynamic-objects-static-methods).
+Dynamic Objects also supports [static methods](./../dynamic-objects-static-methods).
 
 

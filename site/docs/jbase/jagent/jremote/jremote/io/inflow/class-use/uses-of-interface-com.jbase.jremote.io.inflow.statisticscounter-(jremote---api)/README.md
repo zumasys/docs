@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39256-inflow/com_jbase_jremote_io_inflow_package-summary)
-- [Class](/39256-inflow/com_jbase_jremote_io_inflow_StatisticsCounter "interface in com.jbase.jremote.io.inflow")
+- [Package](./../../com.jbase.jremote.io.inflow-%28jremote---api%29)
+- [Class](./../../statisticscounter-%28jremote---api%29 "interface in com.jbase.jremote.io.inflow")
 - Use
-- [Tree](/39256-inflow/com_jbase_jremote_io_inflow_package-tree)
+- [Tree](./../../com.jbase.jremote.io.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/io/inflow/class-use//39257-class-use/com_jbase_jremote_io_inflow_class-use_StatisticsCounter)
-- [No Frames](/39257-class-use/com_jbase_jremote_io_inflow_class-use_StatisticsCounter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -36,31 +36,31 @@ jremote <br>
 ## Uses of Interface
 com.jbase.jremote.io.inflow.StatisticsCounter
 
-- Packages that use [StatisticsCounter](/39256-inflow/com_jbase_jremote_io_inflow_StatisticsCounter "interface in com.jbase.jremote.io.inflow") | Package | Description |
+- Packages that use [StatisticsCounter](./../../statisticscounter-%28jremote---api%29 "interface in com.jbase.jremote.io.inflow") | Package | Description |
 | --- | --- |
 | com.jbase.jremote.io.inflow |   |
 | com.jbase.jremote.jca.mbean |   |
-- - ### Uses of [StatisticsCounter](/39256-inflow/com_jbase_jremote_io_inflow_StatisticsCounter "interface in com.jbase.jremote.io.inflow") in [com.jbase.jremote.io.inflow](/39256-inflow/com_jbase_jremote_io_inflow_package-summary)
+- - ### Uses of [StatisticsCounter](./../../statisticscounter-%28jremote---api%29 "interface in com.jbase.jremote.io.inflow") in [com.jbase.jremote.io.inflow](./../../com.jbase.jremote.io.inflow-%28jremote---api%29)
 
 
-Methods in [com.jbase.jremote.io.inflow](/39256-inflow/com_jbase_jremote_io_inflow_package-summary) with parameters of type [StatisticsCounter](/39256-inflow/com_jbase_jremote_io_inflow_StatisticsCounter "interface in com.jbase.jremote.io.inflow") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jremote.io.inflow](./../../com.jbase.jremote.io.inflow-%28jremote---api%29) with parameters of type [StatisticsCounter](./../../statisticscounter-%28jremote---api%29 "interface in com.jbase.jremote.io.inflow") | Modifier and Type | Method and Description |
 | --- | --- |
 | `int` | RequestListenerService.`getActivationsProcessedInLastMinute(StatisticsCounter statisticType)`  |
 | `void` | RequestListenerService.`incrementActivationCount(StatisticsCounter statisticType)`<br>A RequestHandler is able to call back to this RequestListenerService to<br> track what it considers an activation.<br> |
-    - ### Uses of [StatisticsCounter](/39256-inflow/com_jbase_jremote_io_inflow_StatisticsCounter "interface in com.jbase.jremote.io.inflow") in [com.jbase.jremote.jca.mbean](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
+    - ### Uses of [StatisticsCounter](./../../statisticscounter-%28jremote---api%29 "interface in com.jbase.jremote.io.inflow") in [com.jbase.jremote.jca.mbean](./../../../../jca/mbean/com.jbase.jremote.jca.mbean-%28jremote---api%29)
 
 
-Classes in [com.jbase.jremote.jca.mbean](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary) that implement [StatisticsCounter](/39256-inflow/com_jbase_jremote_io_inflow_StatisticsCounter "interface in com.jbase.jremote.io.inflow") | Modifier and Type | Class and Description |
+Classes in [com.jbase.jremote.jca.mbean](./../../../../jca/mbean/com.jbase.jremote.jca.mbean-%28jremote---api%29) that implement [StatisticsCounter](./../../statisticscounter-%28jremote---api%29 "interface in com.jbase.jremote.io.inflow") | Modifier and Type | Class and Description |
 | --- | --- |
 | `class` | `JRemoteStatisticsCounter`  |
 
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39256-inflow/com_jbase_jremote_io_inflow_package-summary)
-- [Class](/39256-inflow/com_jbase_jremote_io_inflow_StatisticsCounter "interface in com.jbase.jremote.io.inflow")
+- [Package](./../../com.jbase.jremote.io.inflow-%28jremote---api%29)
+- [Class](./../../statisticscounter-%28jremote---api%29 "interface in com.jbase.jremote.io.inflow")
 - Use
-- [Tree](/39256-inflow/com_jbase_jremote_io_inflow_package-tree)
+- [Tree](./../../com.jbase.jremote.io.inflow-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -71,8 +71,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/io/inflow/class-use//39257-class-use/com_jbase_jremote_io_inflow_class-use_StatisticsCounter)
-- [No Frames](/39257-class-use/com_jbase_jremote_io_inflow_class-use_StatisticsCounter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

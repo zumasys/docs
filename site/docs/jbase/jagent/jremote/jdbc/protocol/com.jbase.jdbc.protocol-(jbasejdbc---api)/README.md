@@ -12,20 +12,20 @@ Skip navigation links
 - [Overview](../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39240-protocol/com_jbase_jdbc_protocol_package-use)
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Use](./../uses-of-package-com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Package](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
+- [Prev Package](./../../io/inflow/com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
 - Next Package
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_package-summary)
-- [No Frames](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -37,64 +37,64 @@ jbasejdbc <br>
 
 - Class Summary | Class | Description |
 | --- | --- |
-| [AccountAuthenticationRequest](/39240-protocol/com_jbase_jdbc_protocol_accountauthenticationrequest "class in com.jbase.jdbc.protocol") | <br>Request for authentication.<br> |
+| [AccountAuthenticationRequest](./../accountauthenticationrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") | <br>Request for authentication.<br> |
 | [AccountAuthenticationRequest.AccountUserCredentials](/39240-protocol/com_jbase_jdbc_protocol_AccountAuthenticationRequest.AccountUserCredentials "class in com.jbase.jdbc.protocol") |   |
-| [AuthenticationRequest](/39240-protocol/com_jbase_jdbc_protocol_authenticationrequest "class in com.jbase.jdbc.protocol") | <br>Request for authentication.<br> |
-| [BindRequest](/39240-protocol/com_jbase_jdbc_protocol_BindRequest "class in com.jbase.jdbc.protocol") | <br>Request to bind parameters to previously precompiled<br> (or prepared) SQL statement.<br> |
-| [CallSubroutineRequest](/39240-protocol/com_jbase_jdbc_protocol_CallSubroutineRequest "class in com.jbase.jdbc.protocol") | <br>Request to call subroutine with supplied parameters.<br> |
-| [CompileAndExecuteRequest](/39240-protocol/com_jbase_jdbc_protocol_CompileAndExecuteRequest "class in com.jbase.jdbc.protocol") | <br>Request to compile and execute a SQL statement.<br> |
-| [CompileRequest](/39240-protocol/com_jbase_jdbc_protocol_CompileRequest "class in com.jbase.jdbc.protocol") | <br>Request to compile a SQL statement.<br> |
-| [DatabaseMetaDataRequest](/39240-protocol/com_jbase_jdbc_protocol_DatabaseMetaDataRequest "class in com.jbase.jdbc.protocol") | <br>Request class to retrieve metadata about the database.<br> |
-| [ExecuteRequest](/39240-protocol/com_jbase_jdbc_protocol_ExecuteRequest "class in com.jbase.jdbc.protocol") | <br>Request to execute previously compiled SQL statement.<br> |
-| [FetchRequest](/39240-protocol/com_jbase_jdbc_protocol_FetchRequest "class in com.jbase.jdbc.protocol") | <br>Request to fetch result of a query (rows of data) from the server.<br> |
-| [InputOutputResponse](/39240-protocol/com_jbase_jdbc_protocol_InputOutputResponse "class in com.jbase.jdbc.protocol") | <br>Objects of this class can be sent from jsqld to the client<br> if a terminal output has been produced by a subroutine (CRT, PRINT)<br> or jBASE runtime.<br> |
-| [LoadSubroutineRequest](/39240-protocol/com_jbase_jdbc_protocol_LoadSubroutineRequest "class in com.jbase.jdbc.protocol") |   |
-| [LoggingRequest](/39240-protocol/com_jbase_jdbc_protocol_loggingrequest "class in com.jbase.jdbc.protocol") |   |
-| [MetaDataRequest](/39240-protocol/com_jbase_jdbc_protocol_metadatarequest "class in com.jbase.jdbc.protocol") | <br>Request to retrieve meta data of result set of last executed query.<br> |
-| [ParameterList](/39240-protocol/com_jbase_jdbc_protocol_ParameterList "class in com.jbase.jdbc.protocol") | <br>ParameterList represents list of parameters to be bound to<br> a PreparedStatement or CallableStatement.<br> |
-| [PColumnMetaData](/39240-protocol/com_jbase_jdbc_protocol_PColumnMetaData "class in com.jbase.jdbc.protocol") |   |
-| [PrecompileRequest](/39240-protocol/com_jbase_jdbc_protocol_PrecompileRequest "class in com.jbase.jdbc.protocol") | <br>Request to precompile (or prepare) a parametrized SQL statement.<br> |
-| [PResultSet](/39240-protocol/com_jbase_jdbc_protocol_PResultSet "class in com.jbase.jdbc.protocol") |   |
-| [PResultSetMetaData](/39240-protocol/com_jbase_jdbc_protocol_PResultSetMetaData "class in com.jbase.jdbc.protocol") |   |
-| [ReleaseRequest](/39240-protocol/com_jbase_jdbc_protocol_ReleaseRequest "class in com.jbase.jdbc.protocol") |   |
-| [RemoteInputRequest](/39240-protocol/com_jbase_jdbc_protocol_RemoteInputRequest "class in com.jbase.jdbc.protocol") |   |
-| [Row](/39240-protocol/com_jbase_jdbc_protocol_Row "class in com.jbase.jdbc.protocol") |   |
-| [SetPropertiesRequest](/39240-protocol/com_jbase_jdbc_protocol_SetPropertiesRequest "class in com.jbase.jdbc.protocol") |   |
-| [SetPropertiesResponse](/39240-protocol/com_jbase_jdbc_protocol_SetPropertiesResponse "class in com.jbase.jdbc.protocol") |   |
-| [SQLErrorResponse](/39240-protocol/com_jbase_jdbc_protocol_SQLErrorResponse "class in com.jbase.jdbc.protocol") |   |
-| [SQLOKResponse](/39240-protocol/com_jbase_jdbc_protocol_SQLOKResponse "class in com.jbase.jdbc.protocol") |   |
-| [SQLParamsResponse](/39240-protocol/com_jbase_jdbc_protocol_SQLParamsResponse "class in com.jbase.jdbc.protocol") |   |
-| [SQLRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLRequest "class in com.jbase.jdbc.protocol") | <br>Base class of all SQL driver's requests.<br> |
-| [SQLResponse](/39240-protocol/com_jbase_jdbc_protocol_SQLResponse "class in com.jbase.jdbc.protocol") | <br>Represents a response from jsqld.<br> |
-| [SQLResultResponse](/39240-protocol/com_jbase_jdbc_protocol_SQLResultResponse "class in com.jbase.jdbc.protocol") |   |
-| [SQLRSMDResponse](/39240-protocol/com_jbase_jdbc_protocol_SQLRSMDResponse "class in com.jbase.jdbc.protocol") |   |
-| [SQLStartRequest](/39240-protocol/com_jbase_jdbc_protocol_SQLStartRequest "class in com.jbase.jdbc.protocol") | <br>Base class of all JDBC driver's requests.<br> |
-| [SQLUpdateResponse](/39240-protocol/com_jbase_jdbc_protocol_SQLUpdateResponse "class in com.jbase.jdbc.protocol") |   |
-| [StatementID](/39240-protocol/com_jbase_jdbc_protocol_statementid "class in com.jbase.jdbc.protocol") | <br>An abstraction of the statement ID.<br> |
-| [TransactionCommitRequest](/39240-protocol/com_jbase_jdbc_protocol_transactioncommitrequest "class in com.jbase.jdbc.protocol") |   |
-| [TransactionRequest](/39240-protocol/com_jbase_jdbc_protocol_transactionrequest "class in com.jbase.jdbc.protocol") |   |
-| [TransactionRollbackRequest](/39240-protocol/com_jbase_jdbc_protocol_transactionrollbackrequest "class in com.jbase.jdbc.protocol") |   |
-| [TransactionStartRequest](/39240-protocol/com_jbase_jdbc_protocol_transactionstartrequest "class in com.jbase.jdbc.protocol") |   |
+| [AuthenticationRequest](./../authenticationrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") | <br>Request for authentication.<br> |
+| [BindRequest](./../bindrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | <br>Request to bind parameters to previously precompiled<br> (or prepared) SQL statement.<br> |
+| [CallSubroutineRequest](./../callsubroutinerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | <br>Request to call subroutine with supplied parameters.<br> |
+| [CompileAndExecuteRequest](./../compileandexecuterequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | <br>Request to compile and execute a SQL statement.<br> |
+| [CompileRequest](./../compilerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | <br>Request to compile a SQL statement.<br> |
+| [DatabaseMetaDataRequest](./../databasemetadatarequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | <br>Request class to retrieve metadata about the database.<br> |
+| [ExecuteRequest](./../executerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | <br>Request to execute previously compiled SQL statement.<br> |
+| [FetchRequest](./../fetchrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | <br>Request to fetch result of a query (rows of data) from the server.<br> |
+| [InputOutputResponse](./../inputoutputresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | <br>Objects of this class can be sent from jsqld to the client<br> if a terminal output has been produced by a subroutine (CRT, PRINT)<br> or jBASE runtime.<br> |
+| [LoadSubroutineRequest](./../loadsubroutinerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") |   |
+| [LoggingRequest](./../loggingrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") |   |
+| [MetaDataRequest](./../metadatarequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") | <br>Request to retrieve meta data of result set of last executed query.<br> |
+| [ParameterList](./../parameterlist-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | <br>ParameterList represents list of parameters to be bound to<br> a PreparedStatement or CallableStatement.<br> |
+| [PColumnMetaData](./../pcolumnmetadata-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") |   |
+| [PrecompileRequest](./../precompilerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | <br>Request to precompile (or prepare) a parametrized SQL statement.<br> |
+| [PResultSet](./../presultset-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") |   |
+| [PResultSetMetaData](./../presultsetmetadata-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") |   |
+| [ReleaseRequest](./../releaserequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") |   |
+| [RemoteInputRequest](./../remoteinputrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") |   |
+| [Row](./../row-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") |   |
+| [SetPropertiesRequest](./../setpropertiesrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") |   |
+| [SetPropertiesResponse](./../setpropertiesresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") |   |
+| [SQLErrorResponse](./../sqlerrorresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") |   |
+| [SQLOKResponse](./../sqlokresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") |   |
+| [SQLParamsResponse](./../sqlparamsresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") |   |
+| [SQLRequest](./../sqlrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | <br>Base class of all SQL driver's requests.<br> |
+| [SQLResponse](./../sqlresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | <br>Represents a response from jsqld.<br> |
+| [SQLResultResponse](./../sqlresultresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") |   |
+| [SQLRSMDResponse](./../sqlrsmdresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") |   |
+| [SQLStartRequest](./../sqlstartrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | <br>Base class of all JDBC driver's requests.<br> |
+| [SQLUpdateResponse](./../sqlupdateresponse-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") |   |
+| [StatementID](./../statementid-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") | <br>An abstraction of the statement ID.<br> |
+| [TransactionCommitRequest](./../transactioncommitrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") |   |
+| [TransactionRequest](./../transactionrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") |   |
+| [TransactionRollbackRequest](./../transactionrollbackrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") |   |
+| [TransactionStartRequest](./../transactionstartrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") |   |
 
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39240-protocol/com_jbase_jdbc_protocol_package-use)
-- [Tree](/39240-protocol/com_jbase_jdbc_protocol_package-tree)
+- [Use](./../uses-of-package-com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Package](/39238-inflow/com_jbase_jdbc_io_inflow_package-summary)
+- [Prev Package](./../../io/inflow/com.jbase.jdbc.io.inflow-%28jbasejdbc---api%29)
 - Next Package
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_package-summary)
-- [No Frames](/39240-protocol/com_jbase_jdbc_protocol_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

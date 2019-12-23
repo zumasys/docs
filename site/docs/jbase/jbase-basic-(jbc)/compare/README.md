@@ -45,6 +45,6 @@ An example of use would be as:
 
 The code above displays 1 -1, which indicates that XY999 is greater than XY1000 in a left justified comparison and XY999 is less than XY1000 in a right justified comparison.
 
-Go back to [JBASE BASIC.](263498-jbase-basic)
+Go back to [JBASE BASIC.](./../jbase-basic-programmers-reference-guide)
 
 

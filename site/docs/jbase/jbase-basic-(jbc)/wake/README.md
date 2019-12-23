@@ -7,7 +7,7 @@
 
 # Description
 
-The **WAKE** statement wakes a suspended process, which has executed a [PAUSE](277627-pause) statement. It takes the general form:
+The **WAKE** statement wakes a suspended process, which has executed a [PAUSE](./../pause) statement. It takes the general form:
 
 ```
 WAKE PortNumber
@@ -15,8 +15,8 @@ WAKE PortNumber
 
 Where:
 
-PortNumber is a reference to awaken the target port. The **WAKE** statement has no effect on processes, which do not execute the [PAUSE](277627-pause) statement.
+PortNumber is a reference to awaken the target port. The **WAKE** statement has no effect on processes, which do not execute the [PAUSE](./../pause) statement.
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

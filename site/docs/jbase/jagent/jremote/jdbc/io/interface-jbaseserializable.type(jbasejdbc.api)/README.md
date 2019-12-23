@@ -6,7 +6,7 @@
 
 
 # Interface JBaseSerializable.TYPE
-Enclosing interface:[JBaseSerializable](com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io") 
+Enclosing interface:[JBaseSerializable](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") 
 ```
 public static interface JBaseSerializable.TYPE
 ```

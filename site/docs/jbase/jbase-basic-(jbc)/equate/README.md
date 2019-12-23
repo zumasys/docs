@@ -45,4 +45,4 @@ For example, if the quantity field moves to INV\_LINE(6), you only have to chang
 
 
 
-Go back to [JBASE BASIC](263498-jbase-basic).
+Go back to [JBASE BASIC](./../jbase-basic-programmers-reference-guide).

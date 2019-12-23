@@ -51,4 +51,4 @@ A record named APRIL.SALES in file SALES.LISTS contains a list of customer keys.
 
 
 
-Back to [List Processing](325912-list-processin)
+Back to [List Processing](./../list-processing)

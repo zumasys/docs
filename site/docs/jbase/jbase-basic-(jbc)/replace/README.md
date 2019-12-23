@@ -33,4 +33,4 @@ X = REPLACE (X,1,1;"jBASE")
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic)
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide)

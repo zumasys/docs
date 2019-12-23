@@ -27,4 +27,4 @@ jSON configuration files can hold the following sections. If any sections are mi
 
 
 
-Back to [Profiles](jbase-profiles57)
+Back to [Profiles](./../jbase-profiles)

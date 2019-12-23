@@ -7,7 +7,7 @@
 
 ## Description 
 
-Many commands are built-in to the Windows command shell and so can be executed like other executables. The following commands have been provided to use in either [jsh](328248-jshell) or cmd shell. As they are executables to use in place of **cmd.exe** functionality, the commands are provided only on Windows.
+Many commands are built-in to the Windows command shell and so can be executed like other executables. The following commands have been provided to use in either [jsh](./../../jshell) or cmd shell. As they are executables to use in place of **cmd.exe** functionality, the commands are provided only on Windows.
 
 
 
@@ -26,7 +26,7 @@ Many commands are built-in to the Windows command shell and so can be executed l
 ## Note: 
 
 
-> If [transaction journaling](introduction-to-transactional-journaling) is active, the actions performed by jrm and jmv are **not** logged.
+> If [transaction journaling](./../../../administration/transaction-replication/introduction-to-transaction-journaling) is active, the actions performed by jrm and jmv are **not** logged.
 
 
 

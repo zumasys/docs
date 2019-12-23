@@ -34,6 +34,6 @@ CRT "There are ":COUNT(Calc, "*"):" multiplications"
 
 
 
-See also:[DCOUNT.](266871-dcount)
+See also:[DCOUNT.](./../dcount)
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

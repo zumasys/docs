@@ -7,7 +7,7 @@
 
 # Description
 
-The **CLEARFILE** statement is used to clear all the data from a file previously opened with the [OPEN](277537-open) statement. It takes the general form:
+The **CLEARFILE** statement is used to clear all the data from a file previously opened with the [OPEN](./../open) statement. It takes the general form:
 
 ```
 CLEARFILE {variable} {SETTING setvar} {ON ERROR statements}
@@ -15,8 +15,8 @@ CLEARFILE {variable} {SETTING setvar} {ON ERROR statements}
 
 Where:
 
-- The **variable** is the subject of an [OPEN](277537-open) statement before the execution of **CLEARFILE** upon it.
-- If the SETTING clause is specified and the **CLEARFILE** fails, it sets **setvar** to one of [these values](277647-increamental-file-errors).
+- The **variable** is the subject of an [OPEN](./../open) statement before the execution of **CLEARFILE** upon it.
+- If the SETTING clause is specified and the **CLEARFILE** fails, it sets **setvar** to one of [these values](./../incremental-file-errors).
 
 
 
@@ -24,7 +24,7 @@ Where:
 # Note:
 
 
-> If the variable is omitted from the **CLEARFILE** statement, it assumes the default file variable as per the [OPEN](277537-open) statement.
+> If the variable is omitted from the **CLEARFILE** statement, it assumes the default file variable as per the [OPEN](./../open) statement.
 
 
 An example of use is as follows:
@@ -36,4 +36,4 @@ CLEARFILE FILEVAR
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

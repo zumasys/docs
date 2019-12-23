@@ -9,7 +9,7 @@
 
 ## Class JCursorImpl
 
-All Implemented Interfaces:[JCursor](/39248-jremote/com_jbase_jremote_jcursor "interface in com.jbase.jremote"), [JSelectList](/39248-jremote/com_jbase_jremote_jselectlist "interface in com.jbase.jremote"), Iterable&lt;String&gt;
+All Implemented Interfaces:[JCursor](./../../jcursor-%28jremote-api%29 "interface in com.jbase.jremote"), [JSelectList](./../../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote"), Iterable&lt;String&gt;
 * * *
 
 

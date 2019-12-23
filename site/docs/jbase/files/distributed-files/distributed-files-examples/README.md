@@ -19,7 +19,7 @@ jsh -->CREATE-FILE DISTCUST TYPE=DISTRIB
 
 
 
-Define the partition algorithm. If the distributed file uses the default system partition method, this step would not be necessary unless you wanted to change the delimiter separating the part number from the record ID. For this example we will use the user-defined method by assigning the subroutine [DistCustSub](289127-partition-algorithm) as the partition algorithm:
+Define the partition algorithm. If the distributed file uses the default system partition method, this step would not be necessary unless you wanted to change the delimiter separating the part number from the record ID. For this example we will use the user-defined method by assigning the subroutine [DistCustSub](./../partition-algorithm) as the partition algorithm:
 
 ```
 jsh --> create-distrib –pUSER,DistCustSub DISTCUST
@@ -80,7 +80,7 @@ Part file 'DISTCUST.ERRORS',part number 99
 
 
 
-The distributed file system is now complete. At this point, the [DistCustSub](289127-partition-algorithm) subroutine is called each time a record is written to or read from the DISTCUST file.
+The distributed file system is now complete. At this point, the [DistCustSub](./../partition-algorithm) subroutine is called each time a record is written to or read from the DISTCUST file.
 
 Let’s say, for example, that we find that the DISTCUST.ERRORS part file is no longer needed. The actions we must take to remove this file from the distributed file are:
 
@@ -96,7 +96,7 @@ OR
 
 
 
-Modify the user-defined partition subroutine [DistCustSub](289127-partition-algorithm) by removing the lines which allocate records to part number 99. Recompile and catalog.
+Modify the user-defined partition subroutine [DistCustSub](./../partition-algorithm) by removing the lines which allocate records to part number 99. Recompile and catalog.
 
 Optional: Delete the DISTCUST.ERRORS file.
 

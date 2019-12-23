@@ -90,16 +90,16 @@ Options:
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-[Introduction to the ODBC jEDI](docs.jbase.com/introduction-to-the-odbc-jedi)
+[Introduction to the ODBC jEDI](./../introduction-to-the-odbc-jedi)
 
 Installing the ODBC jEDI on Linux/Unix
 
 Installing the ODBC jEDI on Windows
 
-[Structure of ODBC jEDI Initialization Files](docs.jbase.com/structure-of-odbc-jedi-initialization-files)
+[Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files)
 
-[Configuring the ODBC jEDI on Linux/Unix](docs.jbase.com/configuring-the-odbc-jedi-on-linux-unix)
+[Configuring the ODBC jEDI on Linux/Unix](./../configuring-the-odbc-jedi-on-linux&unix)
 
-[Configuring the ODBC jEDI on Windows](docs.jbase.com/configuring-the-odbc-jedi-on-windows)
+[Configuring the ODBC jEDI on Windows](./../configuring-the-odbc-jedi-on-windows)
 
-[Using the ODBC jEDI](docs.jbase.com/using-the-jedi-odbc)
+[Using the ODBC jEDI](./../using-the-odbc-jedi)

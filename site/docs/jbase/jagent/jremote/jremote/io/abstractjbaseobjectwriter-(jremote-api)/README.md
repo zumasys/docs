@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Class AbstractJBaseObjectWriter
 
-All Implemented Interfaces:[JBaseObjectWriter](/39250-io/com_jbase_jremote_io_jbaseobjectwriter "interface in com.jbase.jremote.io")Direct Known Subclasses:[IOJBaseObjectWriter](/39250-io/com_jbase_jremote_io_iojbaseobjectwriter "class in com.jbase.jremote.io"), [NIOJBaseObjectWriter](/39250-io/com_jbase_jremote_io_niojbaseobjectwriter "class in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseObjectWriter](./../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io")Direct Known Subclasses:[IOJBaseObjectWriter](./../iojbaseobjectwriter-%28jremote-api%29 "class in com.jbase.jremote.io"), [NIOJBaseObjectWriter](./../niojbaseobjectwriter-%28jremote-api%29 "class in com.jbase.jremote.io")
 * * *
 
 

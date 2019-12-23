@@ -65,4 +65,4 @@ set JBCERRFILE=C:\home\globals\jbcmessages
 
 
 
-Back to [Error Handling](jbc-error-handling)
+Back to [Error Handling](./../../jbase-basic-%28jbc%29/jbc-error-handling)

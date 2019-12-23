@@ -17,4 +17,4 @@ The return value is a variable with as many decimal places as the current precis
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

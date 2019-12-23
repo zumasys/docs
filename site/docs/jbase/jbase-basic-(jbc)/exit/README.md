@@ -31,7 +31,7 @@ where the **expression** must evaluate to a numeric result, which should be the 
 ## Note: 
 
 
-> - For compatibility with older versions of the language, the **EXIT**statement should be used without an expression. In this case, it is synonymous with the [BREAK](263578-break) statement.
+> - For compatibility with older versions of the language, the **EXIT**statement should be used without an expression. In this case, it is synonymous with the [BREAK](./../break) statement.
 > - If the expression does not evaluate to a numeric result the program will enter the debugger and display a suitable error message.
 > - The expression has been forced to be parenthesized to avoid confusion with the **EXIT**statement without an expression as much as is possible.
 
@@ -47,6 +47,6 @@ Assuming a file has been opened to FileDesc, an example of use is as follows:
 
 
 
-See also: [BREAK](263578-break).
+See also: [BREAK](./../break).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

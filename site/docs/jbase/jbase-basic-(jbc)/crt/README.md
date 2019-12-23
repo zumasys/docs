@@ -55,7 +55,7 @@ printerr "Fatal error " : $? : " when loading program MODUSER"
 
 ## Description
 
-This statement sends data directly to the terminal, even if a [PRINTER ON](277632-printer) statement is currently active. It takes the general form:
+This statement sends data directly to the terminal, even if a [PRINTER ON](./../printer) statement is currently active. It takes the general form:
 
 ```
 CRT|DISPLAY expression {, expression..} {:}
@@ -87,4 +87,4 @@ NEXT I
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

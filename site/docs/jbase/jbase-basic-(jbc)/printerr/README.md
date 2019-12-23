@@ -25,7 +25,7 @@ When the **PRINTERR** statement is used in International Mode, the error message
 ## Note:
 
 
-> - The **PRINTERR** statement is most useful for user-defined messages that have been added to the standard set, with care being taken to not type the [PRINTER](277632-printer) statement instead.
+> - The **PRINTERR** statement is most useful for user-defined messages that have been added to the standard set, with care being taken to not type the [PRINTER](./../printer) statement instead.
 > - Although this is not ideal, the **PRINTERR** statement must be supported for compatibility with older systems.
 
 
@@ -37,4 +37,4 @@ PRINTERR 201:@AM:"CUSTOMERS"
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

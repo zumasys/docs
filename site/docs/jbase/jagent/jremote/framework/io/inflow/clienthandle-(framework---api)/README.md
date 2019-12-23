@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
+- [Package](./../com.jbase.framework.io.inflow-%28framework---api%29)
 - Class
-- [Use](/39227-class-use/com_jbase_framework_io_inflow_class-use_ClientHandle)
-- [Tree](/39226-inflow/com_jbase_framework_io_inflow_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.inflow.clienthandle-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.inflow-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -21,11 +21,11 @@ Skip navigation links
 framework <br>
 
 - Prev Class
-- [Next Class](/39226-inflow/com_jbase_framework_io_inflow_PendingChange "class in com.jbase.framework.io.inflow")
+- [Next Class](./../pendingchange-%28framework---api%29 "class in com.jbase.framework.io.inflow")
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/inflow//39226-inflow/com_jbase_framework_io_inflow_ClientHandle)
-- [No Frames](/39226-inflow/com_jbase_framework_io_inflow_ClientHandle)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -158,10 +158,10 @@ public Socket getSocket()
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
+- [Package](./../com.jbase.framework.io.inflow-%28framework---api%29)
 - Class
-- [Use](/39227-class-use/com_jbase_framework_io_inflow_class-use_ClientHandle)
-- [Tree](/39226-inflow/com_jbase_framework_io_inflow_package-tree)
+- [Use](./../class-use/uses-of-class-com.jbase.framework.io.inflow.clienthandle-%28framework---api%29)
+- [Tree](./../com.jbase.framework.io.inflow-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -169,11 +169,11 @@ Skip navigation links
 framework <br>
 
 - Prev Class
-- [Next Class](/39226-inflow/com_jbase_framework_io_inflow_PendingChange "class in com.jbase.framework.io.inflow")
+- [Next Class](./../pendingchange-%28framework---api%29 "class in com.jbase.framework.io.inflow")
 
 
-- [Frames](../../../../../index.html?com/jbase/framework/io/inflow//39226-inflow/com_jbase_framework_io_inflow_ClientHandle)
-- [No Frames](/39226-inflow/com_jbase_framework_io_inflow_ClientHandle)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

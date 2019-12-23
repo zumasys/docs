@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_JbaseMsg "class in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../jbasemsg-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_JbaseMsg)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_JbaseMsg)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ jbasejdbc <br>
 ## Uses of Class
 com.jbase.jdbc.io.JbaseMsg
 
-- Packages that use [JbaseMsg](/39232-io/com_jbase_jdbc_io_JbaseMsg "class in com.jbase.jdbc.io") | Package | Description |
+- Packages that use [JbaseMsg](./../../jbasemsg-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io") | Package | Description |
 | --- | --- |
 | com.jbase.jdbc.io |   |
-- - ### Uses of [JbaseMsg](/39232-io/com_jbase_jdbc_io_JbaseMsg "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary)
+- - ### Uses of [JbaseMsg](./../../jbasemsg-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io") in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
 
 
-Methods in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) with parameters of type [JbaseMsg](/39232-io/com_jbase_jdbc_io_JbaseMsg "class in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
+Methods in [com.jbase.jdbc.io](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29) with parameters of type [JbaseMsg](./../../jbasemsg-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io") | Modifier and Type | Method and Description |
 | --- | --- |
 | `void` | JbaseSocketConnection.`read(JbaseMsg msg)`  |
 | `void` | JbaseSocketConnection.`write(JbaseMsg msg)`  |
@@ -50,10 +50,10 @@ Methods in [com.jbase.jdbc.io](/39232-io/com_jbase_jdbc_io_package-summary) with
 Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
-- [Package](/39232-io/com_jbase_jdbc_io_package-summary)
-- [Class](/39232-io/com_jbase_jdbc_io_JbaseMsg "class in com.jbase.jdbc.io")
+- [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
+- [Class](./../../jbasemsg-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
 - Use
-- [Tree](/39232-io/com_jbase_jdbc_io_package-tree)
+- [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
 - [Help](../../../../../help-doc.html)
 
@@ -64,8 +64,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/io/class-use//39235-class-use/com_jbase_jdbc_io_class-use_JbaseMsg)
-- [No Frames](/39235-class-use/com_jbase_jdbc_io_class-use_JbaseMsg)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

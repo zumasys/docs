@@ -23,12 +23,12 @@ com.jbase.jremote.JRecordLockedException
 
 
 
-### Uses of [JRecordLockedException](/39248-jremote/com_jbase_jremote_JRecordLockedException "class in com.jbase.jremote") in [com.jbase.jremote](/30312-jagent/jremote-api)
+### Uses of [JRecordLockedException](/39248-jremote/com_jbase_jremote_JRecordLockedException "class in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote](/30312-jagent/jremote-api) that throw [JRecordLockedException](/39248-jremote/com_jbase_jremote_JRecordLockedException "class in com.jbase.jremote")  | `JDynArray`<br> | JFile.`readU(String recordKey, boolean blockedRead)`<br>Read a record where the supplied recordKey is the key to the record and locks it for update.<br> |
+ Methods in [com.jbase.jremote](./../../../../jremote-api) that throw [JRecordLockedException](/39248-jremote/com_jbase_jremote_JRecordLockedException "class in com.jbase.jremote")  | `JDynArray`<br> | JFile.`readU(String recordKey, boolean blockedRead)`<br>Read a record where the supplied recordKey is the key to the record and locks it for update.<br> |
 | `boolean`<br> | JFile.`writeU(String recordKey, JDynArray record, boolean blockedWrite)`<br>Write the supplied record to the jBASE file.<br> |
 
 
@@ -36,12 +36,12 @@ com.jbase.jremote.JRecordLockedException
 
 
 
-### Uses of [JRecordLockedException](/39248-jremote/com_jbase_jremote_JRecordLockedException "class in com.jbase.jremote") in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary)
+### Uses of [JRecordLockedException](/39248-jremote/com_jbase_jremote_JRecordLockedException "class in com.jbase.jremote") in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29)
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.io](/39250-io/com_jbase_jremote_io_package-summary) that throw [JRecordLockedException](/39248-jremote/com_jbase_jremote_JRecordLockedException "class in com.jbase.jremote")  | `JDynArray`<br> | JFileImpl.`readU(String recordKey, boolean blockedRead)` <br> |
+ Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) that throw [JRecordLockedException](/39248-jremote/com_jbase_jremote_JRecordLockedException "class in com.jbase.jremote")  | `JDynArray`<br> | JFileImpl.`readU(String recordKey, boolean blockedRead)` <br> |
 | `boolean`<br> | JFileImpl.`writeU(String recordKey, JDynArray record, boolean blockedWrite)` <br> |
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

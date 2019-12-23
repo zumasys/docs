@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39221-charset/com_jbase_framework_io_charset_package-summary)
-- [Class](/39221-charset/com_jbase_framework_io_charset_JbasePrivateUseCharsetEncoder "class in com.jbase.framework.io.charset")
+- [Package](./../../com.jbase.framework.io.charset-%28framework---api%29)
+- [Class](./../../jbaseprivateusecharsetencoder-%28framework---api%29 "class in com.jbase.framework.io.charset")
 - Use
-- [Tree](/39221-charset/com_jbase_framework_io_charset_package-tree)
+- [Tree](./../../com.jbase.framework.io.charset-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/framework/io/charset/class-use//39222-class-use/com_jbase_framework_io_charset_class-use_JbasePrivateUseCharsetEncoder)
-- [No Frames](/39222-class-use/com_jbase_framework_io_charset_class-use_JbasePrivateUseCharsetEncoder)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.framework.io.charset.JbasePrivateUseCharsetEncoder
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39221-charset/com_jbase_framework_io_charset_package-summary)
-- [Class](/39221-charset/com_jbase_framework_io_charset_JbasePrivateUseCharsetEncoder "class in com.jbase.framework.io.charset")
+- [Package](./../../com.jbase.framework.io.charset-%28framework---api%29)
+- [Class](./../../jbaseprivateusecharsetencoder-%28framework---api%29 "class in com.jbase.framework.io.charset")
 - Use
-- [Tree](/39221-charset/com_jbase_framework_io_charset_package-tree)
+- [Tree](./../../com.jbase.framework.io.charset-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/framework/io/charset/class-use//39222-class-use/com_jbase_framework_io_charset_class-use_JbasePrivateUseCharsetEncoder)
-- [No Frames](/39222-class-use/com_jbase_framework_io_charset_class-use_JbasePrivateUseCharsetEncoder)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

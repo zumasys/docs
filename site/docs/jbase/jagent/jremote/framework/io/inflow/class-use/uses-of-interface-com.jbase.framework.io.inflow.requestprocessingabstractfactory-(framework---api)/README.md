@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
-- [Class](/39226-inflow/com_jbase_framework_io_inflow_RequestProcessingAbstractFactory "interface in com.jbase.framework.io.inflow")
+- [Package](./../../com.jbase.framework.io.inflow-%28framework---api%29)
+- [Class](./../../requestprocessingabstractfactory-%28framework---api%29 "interface in com.jbase.framework.io.inflow")
 - Use
-- [Tree](/39226-inflow/com_jbase_framework_io_inflow_package-tree)
+- [Tree](./../../com.jbase.framework.io.inflow-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/framework/io/inflow/class-use//39227-class-use/com_jbase_framework_io_inflow_class-use_RequestProcessingAbstractFactory)
-- [No Frames](/39227-class-use/com_jbase_framework_io_inflow_class-use_RequestProcessingAbstractFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -36,13 +36,13 @@ framework <br>
 ## Uses of Interface
 com.jbase.framework.io.inflow.RequestProcessingAbstractFactory
 
-- Packages that use [RequestProcessingAbstractFactory](/39226-inflow/com_jbase_framework_io_inflow_RequestProcessingAbstractFactory "interface in com.jbase.framework.io.inflow") | Package | Description |
+- Packages that use [RequestProcessingAbstractFactory](./../../requestprocessingabstractfactory-%28framework---api%29 "interface in com.jbase.framework.io.inflow") | Package | Description |
 | --- | --- |
 | com.jbase.framework.io.inflow |   |
-- - ### Uses of [RequestProcessingAbstractFactory](/39226-inflow/com_jbase_framework_io_inflow_RequestProcessingAbstractFactory "interface in com.jbase.framework.io.inflow") in [com.jbase.framework.io.inflow](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
+- - ### Uses of [RequestProcessingAbstractFactory](./../../requestprocessingabstractfactory-%28framework---api%29 "interface in com.jbase.framework.io.inflow") in [com.jbase.framework.io.inflow](./../../com.jbase.framework.io.inflow-%28framework---api%29)
 
 
-Constructors in [com.jbase.framework.io.inflow](/39226-inflow/com_jbase_framework_io_inflow_package-summary) with parameters of type [RequestProcessingAbstractFactory](/39226-inflow/com_jbase_framework_io_inflow_RequestProcessingAbstractFactory "interface in com.jbase.framework.io.inflow") | Constructor and Description |
+Constructors in [com.jbase.framework.io.inflow](./../../com.jbase.framework.io.inflow-%28framework---api%29) with parameters of type [RequestProcessingAbstractFactory](./../../requestprocessingabstractfactory-%28framework---api%29 "interface in com.jbase.framework.io.inflow") | Constructor and Description |
 | --- |
 | `RequestListenerService(RequestProcessingAbstractFactory requestProcessingFactory,<br>                      javax.resource.spi.XATerminator xaTerminator,<br>                      String host,<br>                      int port)`<br>Construct service that will not create new threads for client connections.<br> |
 | `RequestListenerService(RequestProcessingAbstractFactory requestProcessingFactory,<br>                      javax.resource.spi.XATerminator xaTerminator,<br>                      javax.resource.spi.work.WorkManager workManager,<br>                      String host,<br>                      int port,<br>                      boolean threadPerConnection)`<br>Supply a work manager and optionally create a new thread to handle<br> each client connection.<br> |
@@ -50,10 +50,10 @@ Constructors in [com.jbase.framework.io.inflow](/39226-inflow/com_jbase_framewor
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39226-inflow/com_jbase_framework_io_inflow_package-summary)
-- [Class](/39226-inflow/com_jbase_framework_io_inflow_RequestProcessingAbstractFactory "interface in com.jbase.framework.io.inflow")
+- [Package](./../../com.jbase.framework.io.inflow-%28framework---api%29)
+- [Class](./../../requestprocessingabstractfactory-%28framework---api%29 "interface in com.jbase.framework.io.inflow")
 - Use
-- [Tree](/39226-inflow/com_jbase_framework_io_inflow_package-tree)
+- [Tree](./../../com.jbase.framework.io.inflow-class-hierarchy-%28framework---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -64,8 +64,8 @@ framework <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/framework/io/inflow/class-use//39227-class-use/com_jbase_framework_io_inflow_class-use_RequestProcessingAbstractFactory)
-- [No Frames](/39227-class-use/com_jbase_framework_io_inflow_class-use_RequestProcessingAbstractFactory)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

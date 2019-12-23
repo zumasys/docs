@@ -43,6 +43,6 @@ An example of use is as:
 
 
 
-See also: [INPUT](input) , [INPUTNULL](276287-inputnull).
+See also: [INPUT](./../input) , [INPUTNULL](./../inputnull).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

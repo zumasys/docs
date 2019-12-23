@@ -91,7 +91,7 @@ If you did not receive the "TESTS COMPLETED SUCCESSFULLY!" message, make sure yo
 
 ![configuring-the-odbc-jedi-on-windows: 1574273580209-1574273580209](./1574273580209-1574273580209.png)
 
-21. Update the file parameters in the file to reflect the correct *ODBC* driver parameter values (these will depend on which driver you're setting up). Use the parameter descriptions in the **jEDIdrivers.ini** file definition section of the [Structure of ODBC jEDI Initialization Files](docs.jbase.com/structure-of-odbc-jedi-initialization-files) document to identify what needs to be changed.
+21. Update the file parameters in the file to reflect the correct *ODBC* driver parameter values (these will depend on which driver you're setting up). Use the parameter descriptions in the **jEDIdrivers.ini** file definition section of the [Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files) document to identify what needs to be changed.
 
 ### Note
 
@@ -121,18 +121,18 @@ passwd = expswrd
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-[Introduction to the ODBC jEDI](docs.jbase.com/introduction-to-the-odbc-jedi)
+[Introduction to the ODBC jEDI](./../introduction-to-the-odbc-jedi)
 
 Installing the ODBC jEDI on Linux/Unix
 
 Installing the ODBC jEDI on Windows
 
-[Structure of ODBC jEDI Initialization Files](docs.jbase.com/structure-of-odbc-jedi-initialization-files)
+[Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files)
 
-[Structure of ODBC JEDI Mapping Files](docs.jbase.com/structure-of-odbc-jedi-mapping-files)
+[Structure of ODBC JEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
 
-[Configuring the ODBC jEDI on Linux/Unix](docs.jbase.com/configuring-the-odbc-jedi-on-linux-unix)
+[Configuring the ODBC jEDI on Linux/Unix](./../configuring-the-odbc-jedi-on-linux&unix)
 
-[Using the ODBC jEDI](docs.jbase.com/using-the-jedi-odbc)
+[Using the ODBC jEDI](./../using-the-odbc-jedi)
 
 

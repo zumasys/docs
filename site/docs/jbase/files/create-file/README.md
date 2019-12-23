@@ -34,7 +34,7 @@ Where:
 
 
 **HASH3 or j3**
-The HASH3 file type is portable across platforms and is network friendly in that if a network connection is disconnected during the update procedure then file integrity can still be guaranteed. The HASH3 file type does not use the jRLA or jDLS locking even when enabled but uses the default system locking capability, thus allowing record or item locking with networked applications. The default bucket size of a HASH3 file is 1024 bytes. See [JEDI\_SECURE\_LEVEL](jedi_secure_level) for configurable levels of data flushing.
+The HASH3 file type is portable across platforms and is network friendly in that if a network connection is disconnected during the update procedure then file integrity can still be guaranteed. The HASH3 file type does not use the jRLA or jDLS locking even when enabled but uses the default system locking capability, thus allowing record or item locking with networked applications. The default bucket size of a HASH3 file is 1024 bytes. See [JEDI\_SECURE\_LEVEL](./../../environment-variables/jedi_secure_level) for configurable levels of data flushing.
 
 **HASH4 or j4**
 The HASH4 file type uses memory mapping when available, otherwise defaults to reads and writes and is portable across platforms. The HASH4 file type will use jRLA or jDLS locking when enabled but can also be configured to use the default system locking method for networking. The default bucket size of a HASH4 file is 4096 bytes. j4 files use 'INT32' for any offsets, in order to provide compatibility with previous versions of jBASE. As such, j4 files should only be used where the file size will not exceed 2Gb.
@@ -43,19 +43,19 @@ The HASH4 file type uses memory mapping when available, otherwise defaults to re
 **jPlus** files provide large file support on 64 bit UNIX and Windows platforms, such that Hash files can extend beyond the normal 2GB operating system limit. In addition, jPlus files provide configurable levels of data flushing (see JEDI\_SECURE\_LEVEL) to ensure file integrity in the case of a system failure. Some Operating Systems require large file support to be enabled when the file system is created. Refer to your System Administration Guide for your specific platform.
 
 **JD (jBASE 5.7)**
-[**Dynamic Files**](306073-dynamic-files) are a new auto-resizing file type introduced in jBASE 5.7.  Dynamic Files are the recommended hashed file type to to use going forward as they faster and more efficient that previous invocations of jBASE hashed files.
+[**Dynamic Files**](./../dynamic-files) are a new auto-resizing file type introduced in jBASE 5.7.  Dynamic Files are the recommended hashed file type to to use going forward as they faster and more efficient that previous invocations of jBASE hashed files.
 
 The **UD**file type specifies Windows or UNIX directories and Windows or UNIX files are to be used to represent file and records respectively.
 
 **TJLOG**
-Creates a stub file in the current directory that points to the current transaction log set. An additional parameter, SET can be used to specify the log set. For more information see [jlogdup](306207-jlogadmin).
+Creates a stub file in the current directory that points to the current transaction log set. An additional parameter, SET can be used to specify the log set. For more information see [jlogdup](./../../administration/transaction-replication/jlogadmin).
 
 **DISTRIB**
-Creates a stub file in the current directory that references a distributed file. See [distributed files](distributed-files-index) for further information.
+Creates a stub file in the current directory that references a distributed file. See [distributed files](./../distributed-files/distributed-files-index) for further information.
 
 
 
-- **ENCRYPTED=YES**- The file is encrypted based on the encryption type specified when running the **[jsecurity](jbase-encryption-database-security)**command.
+- **ENCRYPTED=YES**- The file is encrypted based on the encryption type specified when running the **[jsecurity](./../../jbase/jbase-encryption---database-security)**command.
 - **PERM**- The **PERM**parameters are used to set the permissions of the file as per the chmod command. i.e. an octal number nnn. By default the value is 666 and will be masked by the current umask setting.
 - **LOG=YES|NO**-The **LOG**parameters set or clear the flag which allows the file to be included or excluded when utilizing the item or transaction logging mechanism, if licensed on your system. The value is set to YES by default.
 - **TRANS=YES|NO** - The **TRANS**parameters set or clear the flag which allows the file to be included or excluded from within any transaction boundaries defined by an executing program. The value is set to YES by default.

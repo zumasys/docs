@@ -8,13 +8,13 @@
 
 
 
-| [INDICES](/36868-jbase-basic/293268-indices)<br> | Returns the index information for the specified file.<br> |
+| [INDICES](./../../jbase-basic-%28jbc%29/indices)<br> | Returns the index information for the specified file.<br> |
 | --- | --- |
-| [OPENINDEX](/36868-jbase-basic/277541-openindex)<br> | Opens the specified index definition.<br> |
-| [READNEXT](/36868-jbase-basic/readnext-key)<br> | Move forward through an index.<br> |
-| [READPREV](/36868-jbase-basic/278660-readprev)<br> | Move backwards through an index.<br> |
-| [SELECT](/48152-indexes/select-with-index)<br> | Select an index variable.<br> |
-| [SELECTINDEX](/36868-jbase-basic/selectindex)<br> | Creates an array of record keys based on the specified index.<br> |
+| [OPENINDEX](./../../jbase-basic-%28jbc%29/openindex)<br> | Opens the specified index definition.<br> |
+| [READNEXT](./../../jbase-basic-%28jbc%29/readnext-key)<br> | Move forward through an index.<br> |
+| [READPREV](./../../jbase-basic-%28jbc%29/readprev)<br> | Move backwards through an index.<br> |
+| [SELECT](./../select-%28with-index%29)<br> | Select an index variable.<br> |
+| [SELECTINDEX](./../../jbase-basic-%28jbc%29/selectindex)<br> | Creates an array of record keys based on the specified index.<br> |
 
 
 

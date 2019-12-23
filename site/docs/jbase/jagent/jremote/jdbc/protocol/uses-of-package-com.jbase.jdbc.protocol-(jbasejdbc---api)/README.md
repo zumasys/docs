@@ -27,7 +27,7 @@ com.jbase.jdbc.protocol
 
 | <br>Class and Description<br> |
 | --- |
- Classes in [com.jbase.jdbc.protocol](../../../../com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_package-summary) used by [com.jbase.jdbc](../../../../com/jbase/jdbc//39240-protocol/com_jbase_jdbc_protocol_package-summary)  | <br>[ParameterList](../../../../com/jbase/jdbc/protocol/class-use/ParameterList.html#com.jbase.jdbc)<br><br>ParameterList represents list of parameters to be bound to a PreparedStatement or CallableStatement.<br> |
+ Classes in [com.jbase.jdbc.protocol](./../com.jbase.jdbc.protocol-%28jbasejdbc---api%29) used by [com.jbase.jdbc](./../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)  | <br>[ParameterList](../../../../com/jbase/jdbc/protocol/class-use/ParameterList.html#com.jbase.jdbc)<br><br>ParameterList represents list of parameters to be bound to a PreparedStatement or CallableStatement.<br> |
 | <br>[SQLStartRequest](../../../../com/jbase/jdbc/protocol/class-use/SQLStartRequest.html#com.jbase.jdbc)<br><br>Base class of all JDBC driver's requests.<br> |
 | <br>[StatementID](../../../../com/jbase/jdbc/protocol/class-use/StatementID.html#com.jbase.jdbc)<br><br>An abstraction of the statement ID.<br> |
 
@@ -39,7 +39,7 @@ com.jbase.jdbc.protocol
 
 | <br>Class and Description<br> |
 | --- |
- Classes in [com.jbase.jdbc.protocol](../../../../com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_package-summary) used by [com.jbase.jdbc.protocol](../../../../com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_package-summary)  | <br>[BindRequest](../../../../com/jbase/jdbc/protocol/class-use/BindRequest.html#com.jbase.jdbc.protocol)<br><br>Request to bind parameters to previously precompiled (or prepared) SQL statement.<br> |
+ Classes in [com.jbase.jdbc.protocol](./../com.jbase.jdbc.protocol-%28jbasejdbc---api%29) used by [com.jbase.jdbc.protocol](./../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)  | <br>[BindRequest](../../../../com/jbase/jdbc/protocol/class-use/BindRequest.html#com.jbase.jdbc.protocol)<br><br>Request to bind parameters to previously precompiled (or prepared) SQL statement.<br> |
 | <br>[CompileRequest](../../../../com/jbase/jdbc/protocol/class-use/CompileRequest.html#com.jbase.jdbc.protocol)<br><br>Request to compile a SQL statement.<br> |
 | <br>[ParameterList](../../../../com/jbase/jdbc/protocol/class-use/ParameterList.html#com.jbase.jdbc.protocol)<br><br>ParameterList represents list of parameters to be bound to a PreparedStatement or CallableStatement.<br> |
 | <br>[PColumnMetaData](../../../../com/jbase/jdbc/protocol/class-use/PColumnMetaData.html#com.jbase.jdbc.protocol)<br> |

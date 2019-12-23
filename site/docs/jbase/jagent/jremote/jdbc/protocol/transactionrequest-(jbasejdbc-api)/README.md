@@ -7,7 +7,7 @@
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="TransactionRequest (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";&lt;a name="navbar.top"&gt;&lt;/a&gt;&lt;a name="navbar.top.firstrow"&gt;&lt;/a&gt;
 # Class TransactionRequest
 
-All Implemented Interfaces:[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")Direct Known Subclasses:[TransactionCommitRequest](/39240-protocol/com_jbase_jdbc_protocol_transactioncommitrequest "class in com.jbase.jdbc.protocol"), [TransactionRollbackRequest](/39240-protocol/com_jbase_jdbc_protocol_transactionrollbackrequest "class in com.jbase.jdbc.protocol"), [TransactionStartRequest](/39240-protocol/com_jbase_jdbc_protocol_transactionstartrequest "class in com.jbase.jdbc.protocol")
+All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")Direct Known Subclasses:[TransactionCommitRequest](./../transactioncommitrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol"), [TransactionRollbackRequest](./../transactionrollbackrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol"), [TransactionStartRequest](./../transactionstartrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol")
 ```
 public class TransactionRequest
 extends Object
@@ -22,7 +22,7 @@ implements JBaseSerializable
 
 
 
-### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](/39232-io/com_jbase_jdbc_io_jbaseserializable "interface in com.jbase.jdbc.io")
+### Nested classes/interfaces inherited from interface com.jbase.jdbc.io.[JBaseSerializable](./../../io/jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 `JBaseSerializable.TYPE`
 
 
@@ -47,8 +47,8 @@ implements JBaseSerializable
 | --- | --- |
 | <br>int<br> | <br>getType()<br> |
 | <br>int<br> | <br>getVersion()<br> |
-| <br>void<br> | <br>readObject([JBaseObjectReader](/39232-io/com_jbase_jdbc_io_jbaseobjectreader "interface in com.jbase.jdbc.io") reader, int version)<br> |
-| <br>void<br> | <br>writeObject([JBaseObjectWriter](/39232-io/com_jbase_jdbc_io_jbaseobjectwriter "interface in com.jbase.jdbc.io") writer, int version)<br> |
+| <br>void<br> | <br>readObject([JBaseObjectReader](./../../io/jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") reader, int version)<br> |
+| <br>void<br> | <br>writeObject([JBaseObjectWriter](./../../io/jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") writer, int version)<br> |
 
 
 

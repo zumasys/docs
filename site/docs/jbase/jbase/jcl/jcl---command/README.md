@@ -78,4 +78,4 @@ This example receives input from the terminal and places it in the 5th parameter
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)

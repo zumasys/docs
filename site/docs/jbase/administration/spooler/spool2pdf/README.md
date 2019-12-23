@@ -24,7 +24,7 @@ This document covers the use of the jBASE **Spool2pdf**utility and is intended t
 
 On Windows, the [**DOSPrinter**](http://www.dosprinter.net/) command is installed and visible system wide via the PATH environment variable. **DOSPrinter** is a commercial product not affiliated with jBASE.
 
-2. Ensure jBASE is installed, appropriately licensed, and the jBASE spooler has been created with [SP-NEWTAB](306221-untitled-question).
+2. Ensure jBASE is installed, appropriately licensed, and the jBASE spooler has been created with [SP-NEWTAB](./../sp-newtab).
 
 3. Download the [spool2pdf.zip](https://s3.amazonaws.com/helpjuice-static/helpjuice_production%2Fuploads%2Fupload%2Fimage%2F3397%2Fdirect%2F1522776828082-spool2pdf.zip) package and use the appropriate distribution for your platform. The package contains:
 
@@ -99,7 +99,7 @@ The full directory structure is:  **&lt;output directory&gt; / &lt;account&gt; 
 
 ## Usage:
 
-After the form queue has been created, it must be assigned the required form-type using the [SP-TYPE](306290-untitled-question) command or option 3 on the [SP-STATUS](306265-untitled-question) menu.
+After the form queue has been created, it must be assigned the required form-type using the [SP-TYPE](./../sp-type) command or option 3 on the [SP-STATUS](./../sp-status) menu.
 
 Examples of use are as :
 
@@ -139,7 +139,7 @@ SP-DEVICE TODO winpdf
 
 This example uses DOSPrinter to create the PDF. The -d options set the Characters Per Inch to Condensed (17.14cpi) and the orientation to Landscape. Note that the options are not enclosed in quotes.
 
-The jBASE [SP-DEVICE](306299-sp-device) command can be used to change the original device specifications of an existing form  queue, e.g.
+The jBASE [SP-DEVICE](./../sp-device) command can be used to change the original device specifications of an existing form  queue, e.g.
 
 ```
 SP-DEVICE INSTRUCTIONS PROG jPDF [new options]
@@ -149,6 +149,6 @@ SP-DEVICE INSTRUCTIONS PROG jPDF [new options]
 
 
 
-See Also: [Spooler](jbase-spooler).
+See Also: [Spooler](./../jbase-spooler).
 
 

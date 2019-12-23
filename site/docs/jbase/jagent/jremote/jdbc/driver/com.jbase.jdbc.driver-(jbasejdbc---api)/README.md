@@ -12,20 +12,20 @@ Skip navigation links
 - [Overview](../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39230-driver/com_jbase_jdbc_driver_package-use)
-- [Tree](/39230-driver/com_jbase_jdbc_driver_package-tree)
+- [Use](./../uses-of-package-com.jbase.jdbc.driver-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.driver-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Package](/39228-jdbc/com_jbase_jdbc_package-summary)
-- [Next Package](/39232-io/com_jbase_jdbc_io_package-summary)
+- [Prev Package](./../../jbase-jdbc-api)
+- [Next Package](./../../io/com.jbase.jdbc.io-%28jbasejdbc---api%29)
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/driver//39230-driver/com_jbase_jdbc_driver_package-summary)
-- [No Frames](/39230-driver/com_jbase_jdbc_driver_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -37,29 +37,29 @@ jbasejdbc <br>
 
 - Class Summary | Class | Description |
 | --- | --- |
-| [JBaseDBError](/39230-driver/com_jbase_jdbc_driver_JBaseDBError "class in com.jbase.jdbc.driver") |   |
-| [JBaseJDBCDriver](/39230-driver/com_jbase_jdbc_driver_JBaseJDBCDriver "class in com.jbase.jdbc.driver") |   |
-| [SQLState](/39230-driver/com_jbase_jdbc_driver_SQLState "class in com.jbase.jdbc.driver") |   |
+| [JBaseDBError](./../jbasedberror-%28jbasejdbc---api%29 "class in com.jbase.jdbc.driver") |   |
+| [JBaseJDBCDriver](./../jbasejdbcdriver-%28jbasejdbc---api%29 "class in com.jbase.jdbc.driver") |   |
+| [SQLState](./../sqlstate-%28jbasejdbc---api%29 "class in com.jbase.jdbc.driver") |   |
 
 Skip navigation links
 
 - [Overview](../../../../overview-summary.html)
 - Package
 - Class
-- [Use](/39230-driver/com_jbase_jdbc_driver_package-use)
-- [Tree](/39230-driver/com_jbase_jdbc_driver_package-tree)
+- [Use](./../uses-of-package-com.jbase.jdbc.driver-%28jbasejdbc---api%29)
+- [Tree](./../com.jbase.jdbc.driver-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
 
 
 jbasejdbc <br>
 
-- [Prev Package](/39228-jdbc/com_jbase_jdbc_package-summary)
-- [Next Package](/39232-io/com_jbase_jdbc_io_package-summary)
+- [Prev Package](./../../jbase-jdbc-api)
+- [Next Package](./../../io/com.jbase.jdbc.io-%28jbasejdbc---api%29)
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/driver//39230-driver/com_jbase_jdbc_driver_package-summary)
-- [No Frames](/39230-driver/com_jbase_jdbc_driver_package-summary)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

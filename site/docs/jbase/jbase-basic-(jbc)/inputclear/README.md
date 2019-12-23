@@ -7,7 +7,7 @@
 
 # Description 
 
-The **INPUTCLEAR** statement clears the type-ahead buffer. It is useful in situations where the user may have pressed the carriage return key several times prior to reaching an [INPUT](input) that requires attention.
+The **INPUTCLEAR** statement clears the type-ahead buffer. It is useful in situations where the user may have pressed the carriage return key several times prior to reaching an [INPUT](./../input) that requires attention.
 
 It takes the general form:
 
@@ -15,7 +15,7 @@ It takes the general form:
 INPUTCLEAR
 ```
 
-**INPUTCLEAR** only clears the type-ahead buffer. It does not clear data stacked with the [DATA](267389-data) statement. The statement is synonymous with [CLEARINPUT](266854-clearinput).
+**INPUTCLEAR** only clears the type-ahead buffer. It does not clear data stacked with the [DATA](./../data) statement. The statement is synonymous with [CLEARINPUT](./../clearinput).
 
 An example of use is as:
 
@@ -30,4 +30,4 @@ An example of use is as:
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

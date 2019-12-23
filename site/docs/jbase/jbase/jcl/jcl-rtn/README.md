@@ -56,6 +56,6 @@ jCL  program MENU calls MENU2 from line 51. When MENU2 reaches line 66, control
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)
 
 

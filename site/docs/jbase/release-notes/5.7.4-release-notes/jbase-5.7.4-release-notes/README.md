@@ -9,7 +9,7 @@ This release includes various internal bug fixes and the following enhancements 
 
 # Patches
 
-- [PN5\_60894](pn5_60894) - **listf -xml** does not work on Linux
+- [PN5\_60894](./../pn5_60894) - **listf -xml** does not work on Linux
 - [PN5\_60899](PN5_60899) - New options for jbase\_agent: -d,-a,-J[dDpr]
 - [PN5\_60900](PN5_60900) - Add extensions to Dynamic Objects per RFC 7159
 - [PN5\_60902](PN5_60902) - Distributed Files: Add new error messages to enable failures to be better reported

@@ -9,7 +9,7 @@
 
 # Description
 
-**INSERT** is the function form of the [INS](276289-ins) statement, with preference given to the use of [INS](276289-ins). It takes the general form:
+**INSERT** is the function form of the [INS](./../ins) statement, with preference given to the use of [INS](./../ins). It takes the general form:
 
 ```
 INSERT(expression1, expression2{, expression3 {, expression4 }}; expression5)
@@ -32,6 +32,6 @@ Note that *B*is unchanged and the modified *expression1*is assigned to the varia
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 

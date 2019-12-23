@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Class NIOJBaseObjectReader
 
-All Implemented Interfaces:[JBaseObjectReader](/39250-io/com_jbase_jremote_io_jbaseobjectreader "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseObjectReader](./../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -83,7 +83,7 @@ public static final long READ_TIMEOUT
 ```
 
 The temporary selectors read timeout. 30 seconds.
-See Also:[Constant Field Values](299736-constant-values)
+See Also:[Constant Field Values](./../../constant-field-values)
 
 
 ### 

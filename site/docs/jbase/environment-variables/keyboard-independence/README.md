@@ -7,7 +7,7 @@
 
 Keyboard input can be handled independently of the current terminal type within end user coded routines by using the jBASE Command Key subroutines supplied in the jBASE libutils library.
 
-The jBASE supplied includes, JBC.h and jCmdKeys.h, and the subroutines JBASECommandInit and JBASECommandNext (jBASE 4.1 and later) or CommandInit and  CommandNext (jBASE 3.x) are integral to using this feature. The JBASECommandInit subroutine initializes the keyboard mappings while the JBASEComandNext subroutine would be used in place of the [INPUT](https://www.jbase.com/r5/knowledgebase/manuals/3.0/30manpages/man/jbc2_INPUT.htm) statement to return the actual command (i.e. Page Up, Insert Line, Cursor Left, etc). It is then up to the application to provide the appropriate functionality for each command.
+The jBASE supplied includes, JBC.h and jCmdKeys.h, and the subroutines JBASECommandInit and JBASECommandNext (jBASE 4.1 and later) or CommandInit and  CommandNext (jBASE 3.x) are integral to using this feature. The JBASECommandInit subroutine initializes the keyboard mappings while the JBASEComandNext subroutine would be used in place of the [INPUT](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jbc2_INPUT.htm) statement to return the actual command (i.e. Page Up, Insert Line, Cursor Left, etc). It is then up to the application to provide the appropriate functionality for each command.
 
 Many of the commands returned by the JBASECommandNext subroutine are taken from default command keys used with the JED editor. The .jedrc file can be configured to alter the default definitions. Be aware that modifying **.jedrc**will also change the corresponding behavior in **JED**.
 

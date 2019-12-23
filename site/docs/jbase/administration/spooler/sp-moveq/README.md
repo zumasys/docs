@@ -40,4 +40,4 @@ the user willl then enter the appropriate information.
 
 
 
-Back to[Spooler.](jbase-spooler)
+Back to[Spooler.](./../jbase-spooler)

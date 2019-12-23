@@ -25,4 +25,4 @@ When using the**NUMS** function in International Mode, the statement will use th
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

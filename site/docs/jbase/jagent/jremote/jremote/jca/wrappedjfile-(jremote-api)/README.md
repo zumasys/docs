@@ -9,7 +9,7 @@
 
 ## Class WrappedJFile
 
-All Implemented Interfaces:[JFile](/39248-jremote/com_jbase_jremote_jfile "interface in com.jbase.jremote")
+All Implemented Interfaces:[JFile](./../../jfile-%28jremote-api%29 "interface in com.jbase.jremote")
 * * *
 
 

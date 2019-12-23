@@ -55,7 +55,7 @@ If the SALES file does not contain any records, which match the criteria, the sy
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)
 
 ### 
 

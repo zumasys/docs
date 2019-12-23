@@ -80,6 +80,6 @@ If the current parameter is less than %3, control will be transferred to label 1
 
 
 
-Back to [JCL Commands](jcl-commands)
+Back to [JCL Commands](./../jcl-commands)
 
 

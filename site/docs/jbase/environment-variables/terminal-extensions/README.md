@@ -24,7 +24,7 @@ Where Options can be:
 
 By default, the program jtic will take a source description file called terminfo.src and assume it contains standard terminfo names. The output will be to a file called /usr/lib/terminfo/x/xyz, where x/xyz depends upon the terminal name as contained in the description file.
 
-You can use any alternative description file to terminfo.src by specifying the description file name on the command line. You can specify an alternative output directory to /usr/lib/terminfo by amending the TERMINFO environment variable. However, when you run a BASIC program that accesses these definitions in an alternative directory, the [TERMINFO](326793-terminfo) variable needs to match that when the definition was compiled. By default the jtic program assumes the description file contains standard terminfo definitions: e.g.
+You can use any alternative description file to terminfo.src by specifying the description file name on the command line. You can specify an alternative output directory to /usr/lib/terminfo by amending the TERMINFO environment variable. However, when you run a BASIC program that accesses these definitions in an alternative directory, the [TERMINFO](./../terminfo) variable needs to match that when the definition was compiled. By default the jtic program assumes the description file contains standard terminfo definitions: e.g.
 
 cuu1=\E[1A, cols#80,
 

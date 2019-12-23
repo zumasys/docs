@@ -34,7 +34,7 @@ Where:
 
 A program that uses sequential processing to create (write to)an ASCII text file from a jBASE hashed file is as below. It illustrates the use of the commands:
 
-**OPENSEQ**, [WRITESEQ](279570-writeseq), [WEOFSEQ](279567-weofseq),[CLOSESEQ](278851-closeseq) .
+**OPENSEQ**, [WRITESEQ](./../writeseq), [WEOFSEQ](./../weofseq),[CLOSESEQ](./../closeseq) .
 
 ```
 0001     $option jabba
@@ -84,7 +84,7 @@ A program that uses sequential processing to create (write to)an ASCII text file
 
 A program that uses sequential processing to read from an ASCII text file and write to a jBASE hashed file is as below. It illustrates the use of the commands:
 
-**OPENSEQ**, [READSEQ](278773-readseq), [CLOSESEQ](278851-closeseq)
+**OPENSEQ**, [READSEQ](./../readseq), [CLOSESEQ](./../closeseq)
 
 
 
@@ -120,4 +120,4 @@ A program that uses sequential processing to read from an ASCII text file and wr
 
 
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -10,10 +10,10 @@ JavaScript is disabled on your browser.
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
-- [Class](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter "class in com.jbase.jremote.jca.mbean")
+- [Package](./../../com.jbase.jremote.jca.mbean-%28jremote---api%29)
+- [Class](./../../jremotestatisticscounter-%28jremote---api%29 "class in com.jbase.jremote.jca.mbean")
 - Use
-- [Tree](/39266-mbean/com_jbase_jremote_jca_mbean_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.mbean-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/mbean/class-use//39267-class-use/com_jbase_jremote_jca_mbean_class-use_JRemoteStatisticsCounter)
-- [No Frames](/39267-class-use/com_jbase_jremote_jca_mbean_class-use_JRemoteStatisticsCounter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)
@@ -41,10 +41,10 @@ No usage of com.jbase.jremote.jca.mbean.JRemoteStatisticsCounter
 Skip navigation links
 
 - [Overview](../../../../../../overview-summary.html)
-- [Package](/39266-mbean/com_jbase_jremote_jca_mbean_package-summary)
-- [Class](/39266-mbean/com_jbase_jremote_jca_mbean_JRemoteStatisticsCounter "class in com.jbase.jremote.jca.mbean")
+- [Package](./../../com.jbase.jremote.jca.mbean-%28jremote---api%29)
+- [Class](./../../jremotestatisticscounter-%28jremote---api%29 "class in com.jbase.jremote.jca.mbean")
 - Use
-- [Tree](/39266-mbean/com_jbase_jremote_jca_mbean_package-tree)
+- [Tree](./../../com.jbase.jremote.jca.mbean-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../../deprecated-list.html)
 - [Help](../../../../../../help-doc.html)
 
@@ -55,8 +55,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../../index.html?com/jbase/jremote/jca/mbean/class-use//39267-class-use/com_jbase_jremote_jca_mbean_class-use_JRemoteStatisticsCounter)
-- [No Frames](/39267-class-use/com_jbase_jremote_jca_mbean_class-use_JRemoteStatisticsCounter)
+- [Frames](./.)
+- [No Frames](./.)
 
 
 - [All Classes](../../../../../../allclasses-noframe.html)

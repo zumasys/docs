@@ -11,7 +11,7 @@
 
 jcover programs provide a mechanism to generate statistical information on the coverage of an application during a test run. It can be used to calculate the percentage of code that was executed, percentage not executed, what sources were not used in files and so on.
 
-The usage of jcover depends upon much of the existing profiling tools. Therefore this document should be used in conjunction with existing documentation available for profiling tools. The jcover utility can be used to great advantage with the [jkeyauto](jkeyauto) utility. Using both of them together it is possible to build up highly automated scripts that will automatically test new releases of software and ensure that a known percentage of the entire application gets executed as well as ensuring that all paths through the application are executed and tested.
+The usage of jcover depends upon much of the existing profiling tools. Therefore this document should be used in conjunction with existing documentation available for profiling tools. The jcover utility can be used to great advantage with the [jkeyauto](./../jkeyauto/jkeyauto) utility. Using both of them together it is possible to build up highly automated scripts that will automatically test new releases of software and ensure that a known percentage of the entire application gets executed as well as ensuring that all paths through the application are executed and tested.
 
 Using jcover involves these 3 key steps:
 
@@ -140,7 +140,7 @@ LIST jcover_23 WITH S.ITEMID EQ “MAR]” S.ITEMID
 
 **3. Using a jBC program**
 
-Refer to the [layout](layout-of-the-jcover-output-file) of the output file and the dictionaries to write your own jBC program to further report on the information available.
+Refer to the [layout](./../layout-of-the-jcover-output-file) of the output file and the dictionaries to write your own jBC program to further report on the information available.
 
 * * *
 

@@ -189,4 +189,4 @@ The transaction journal is not normally encrypted. This option will allow the da
 ##### 
 
 
-Back to [Transactional Journaling](introduction-to-transactional-journaling)
+Back to [Transactional Journaling](./../introduction-to-transaction-journaling)

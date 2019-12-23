@@ -17,16 +17,16 @@ Additionally, the program may provide information to invoke other behaviors of t
 
 
 
-[Technical Description](widget-technical-overview)
+[Technical Description](./../widget-technical-overview)
 
-[General Widget Definition](general-widget-definition)
+[General Widget Definition](./../general-widget-definition)
 
-[Defining Links in a Widget](defining-links-in-a-widget)
+[Defining Links in a Widget](./../defining-links-in-a-widget)
 
-[Drill Down Widgets](drill-down-widgets)
+[Drill Down Widgets](./../drill-down-widgets)
 
-[External Links](external-links)
+[External Links](./../external-links)
 
-[User Input](user-input)
+[User Input](./../user-input)
 
-[Additional Features](additional-features)
+[Additional Features](./../additional-features)

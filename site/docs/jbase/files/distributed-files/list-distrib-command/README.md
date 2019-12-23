@@ -18,7 +18,7 @@ where :
 
 
 
-The [VERIFY-DISTRIB](289270-verify-distrib) command is much more useful as this not only displays the same information as LIST-DISTRIB, it also verifies the existence of the component part files. If the distributed file uses the user-defined partition method, [VERIFY-DISTRIB](289270-verify-distrib) also verifies that the subroutine is executable.
+The [VERIFY-DISTRIB](./../verify-distrib-command) command is much more useful as this not only displays the same information as LIST-DISTRIB, it also verifies the existence of the component part files. If the distributed file uses the user-defined partition method, [VERIFY-DISTRIB](./../verify-distrib-command) also verifies that the subroutine is executable.
 
 
 

@@ -77,7 +77,7 @@ This error is because we are using a self-signed cert.  Accept this site click 
 
 **Now the server is installed and running and you have accepted the self signed cert you need to build your users and profiles.  Accuterm is actually launched from accuterm.io and your profiles are built at portal.zumasys.com**
 
-[https://docs.zumasys.com/accuterm/accuterm-8-getting-started](/accuterm/accuterm-8-getting-started)
+[https://docs.zumasys.com./../accuterm-8-getting-started](./../accuterm-8-getting-started)
 
 ## Manage AccuTerm IO Server
 

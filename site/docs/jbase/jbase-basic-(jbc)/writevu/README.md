@@ -17,20 +17,20 @@ Where:
 
 variable1 is the identifier holding the record to be written.
 
-variable2, if specified, should be a jBASE BASIC variable that has previously been opened to a file using the [OPEN](277537-open) statement. If variable2 is not specified then the default file is assumed.
+variable2, if specified, should be a jBASE BASIC variable that has previously been opened to a file using the [OPEN](./../open) statement. If variable2 is not specified then the default file is assumed.
 
 expression1 should evaluate to a valid record key for the file.
 
 expression2 should evaluate to a positive integer number; if the number is greater than the number of fields in the record, null fields will be added to variable1. If expression2 evaluates to a non-numeric argument, a run time error will be generated.
 
-If the SETTING clause is specified and the write fails, it sets setvar to one of [these values](277647-increamental-file-errors).
+If the SETTING clause is specified and the write fails, it sets setvar to one of [these values](./../incremental-file-errors).
 
 If the statement fails to write the record, it executes any statements associated with the ON ERROR clause.
 
 Any of the following events will release the lock taken by the **WRITEVU**statement:
 
-- The same program with [WRITE](279568-write), [WRITEV](279574-writev) or [MATWRITE](276964-matwrite) statements writes to the record.
-- By explicitly using the [RELEASE](278784-release) statement, it releases the record lock.
+- The same program with [WRITE](./../write), [WRITEV](./../writev) or [MATWRITE](./../matwrite) statements writes to the record.
+- By explicitly using the [RELEASE](./../release) statement, it releases the record lock.
 - The program stops normally or abnormally.
 
 
@@ -48,6 +48,6 @@ END
 
 
 
-See also: [MATWRITEU](276970-matwriteu), [RELEASE](278784-release), [WRITE](279568-write), [WRITEU](279573-writeu).
+See also: [MATWRITEU](./../matwriteu), [RELEASE](./../release), [WRITE](./../write), [WRITEU](./../writeu).
 
-Go back to [jBASE BASIC](263498-jbase-basic).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
