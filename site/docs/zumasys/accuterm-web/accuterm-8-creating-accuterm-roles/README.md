@@ -19,16 +19,16 @@ Prior to creating a user, you will need to have already created your [Customer P
 
 1. Expand the AccuTerm module from the main navigation page in the Customer Portal and select Users & Licenses.
 
-![](./1566000750186-1566000750186.png)
+![accuterm-8-creating-roles: 1566000750186-1566000750186](./1566000750186-1566000750186.png)
 
 2. Select the Roles button.
 
-![](./1566001986277-1566001986276.png)
+![accuterm-8-creating-roles: 1566001986277-1566001986276](./1566001986277-1566001986276.png)
 
 3. Enter the name of the Role you wish to create and hit enter to create the role.
 
-![](./1566002058186-1566002058186.png)
+![accuterm-8-creating-roles: 1566002058186-1566002058186](./1566002058186-1566002058186.png)
 
 4. Once the role has been created, you can select a user from the Available Users table and assign them to single or multiple roles.
 
-![](./1566002193757-1566002193757.png)
+![accuterm-8-creating-roles: 1566002193757-1566002193757](./1566002193757-1566002193757.png)

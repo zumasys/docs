@@ -19,9 +19,9 @@ USING MULTIVALUE DASHBOARD, YOU CAN:
 
 
 
-![](./image001.jpg)
+![getting-started-with-mv-dashoard: image001](./image001.jpg)
 
-![](./image003.jpg)
+![getting-started-with-mv-dashoard: image003](./image003.jpg)
 
 # WHAT'S NEW IN MV DASHBOARD 1.5.4?
 

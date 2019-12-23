@@ -17,7 +17,7 @@ If you have an AccuTerm 8 Desktop device license, please do not enter an email a
 
 
 
-![](./1565998504005-1565998504005.png)
+![accuterm-8-activating-accuterm-desktop-licensing: 1565998504005-1565998504005](./1565998504005-1565998504005.png)
 
 
 
@@ -29,4 +29,4 @@ You can download the latest version of AccuTerm by visiting [https://www.zumasys
 
 The Internet is required for activation and if the install is not activated, AccuTerm will enter evaluation mode until the license can be activated.
 
-![](./1565998827762-1565998827762.png)
+![accuterm-8-activating-accuterm-desktop-licensing: 1565998827762-1565998827762](./1565998827762-1565998827762.png)

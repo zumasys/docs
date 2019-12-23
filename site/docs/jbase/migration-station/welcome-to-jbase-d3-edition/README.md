@@ -41,7 +41,7 @@ The following diagram shows the elements of a D3 system and contrasts it with th
 
 D3 Developers may transition their current development skill sets to jBASE with very little change. Like D3, jBASE organizes BASIC code into PROGRAMS and SUBROUTINES. The code is compiled exactly the as in D3.
 
-![](./d3vjbase.jpg)
+![expected-differences-between-d3-and-jbase: d3vjbase](./d3vjbase.jpg)
 
 
 

@@ -19,42 +19,6 @@
 
 ## Description
 
-Print messages to either stdout or stderr. The PRINT and CRT statement will display to stdout whereas the PRINTERR statement will display to stderr. The CRT statement will also translate all non-printable characters as the sequence ~nnn where nnn is a 3 digit decimal representation of the non-printable character.
-
-It's use is as:
-
-```
-CRT {expression} {:}
-```
-
-or
-
-```
-PRINT {expression} {:}
-```
-
-or
-
-```
-PRINTERR {expression} {:}
-```
-
-where:
-
-- **:** specifies no trailing new line will be printed. Without the : modifier then a new line will always be printed at the end of the "expression" string.
-- **expression** is the string to print. If not specified, no message is displayed, just a new line (unless of course the +:modifier was used).
-
-
-An example of use may be as:
-
-```
-printerr "Fatal error " : $? : " when loading program MODUSER"
-```
-
-
-
-## Description
-
 This statement sends data directly to the terminal, even if a [PRINTER ON](277632-printer) statement is currently active. It takes the general form:
 
 ```
@@ -88,3 +52,39 @@ NEXT I
 
 
 Go back to [jBASE BASIC](263498-jbase-basic).
+
+## Description
+
+Print messages to either stdout or stderr. The PRINT and CRT statement will display to stdout whereas the PRINTERR statement will display to stderr. The CRT statement will also translate all non-printable characters as the sequence ~nnn where nnn is a 3 digit decimal representation of the non-printable character.
+
+It's use is as:
+
+```
+CRT {expression} {:}
+```
+
+or
+
+```
+PRINT {expression} {:}
+```
+
+or
+
+```
+PRINTERR {expression} {:}
+```
+
+where:
+
+- **:** specifies no trailing new line will be printed. Without the : modifier then a new line will always be printed at the end of the "expression" string.
+- **expression** is the string to print. If not specified, no message is displayed, just a new line (unless of course the +:modifier was used).
+
+
+An example of use may be as:
+
+```
+printerr "Fatal error " : $? : " when loading program MODUSER"
+```
+
+

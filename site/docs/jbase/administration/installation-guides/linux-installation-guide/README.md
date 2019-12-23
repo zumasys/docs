@@ -47,7 +47,7 @@ $ su
 
 
 
-3. Enter the root password when prompted, and you will notice the command prompt changes to a pound or hash (#) sign.![](./blob.jpg)
+3. Enter the root password when prompted, and you will notice the command prompt changes to a pound or hash (#) sign.![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -59,7 +59,7 @@ $ su
 # uname -a
 ```
 
-2. You should see this information displayed, x86\_64 indicates this is a 64-bit version of Linux.![](./blob.jpg)
+2. You should see this information displayed, x86\_64 indicates this is a 64-bit version of Linux.![jbase-linux-installation-guide: blob](./blob.jpg)
 
 ### 
 
@@ -68,7 +68,7 @@ $ su
 
 1. jBASE for Linux requires the same minimum hardware specifications as the host operating system plus a minimum of 500MB of additional hard disk space, plus space for temporary files.
 
-2. To determine disk space, run the df -h command.![](./blob.jpg)
+2. To determine disk space, run the df -h command.![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -84,7 +84,7 @@ For licensing assistance contact jBASE support in the United States at 866 582 8
 
 ### License Information
 
-![](./blob.jpg)
+![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -102,7 +102,7 @@ The jBASE installer will check for the following required packages and install t
 
 ### Installer Binary
 
-1. Download the jBASE installer and place the installer in a convenient directory, for example, /tmp. ![](./blob.jpg)
+1. Download the jBASE installer and place the installer in a convenient directory, for example, /tmp. ![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -116,7 +116,7 @@ The jBASE installer will check for the following required packages and install t
 # cd /tmp
 ```
 
-![](./blob.jpg)
+![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -134,7 +134,7 @@ The jBASE installer will check for the following required packages and install t
 # ls -l Linux_jBASE_5.5.1.18496_rel_64bit.bin
 ```
 
-![](./blob.jpg)
+![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -150,7 +150,7 @@ The jBASE installer is an interactive script-based installer. The installer will
 # ./Linux_jBASE_5.5.1.18496_rel_64bit.bin
 ```
 
-![](./blob.jpg)
+![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -158,7 +158,7 @@ The jBASE installer is an interactive script-based installer. The installer will
 
 
 
-3. Type W if your company is within the EU, otherwise type O if outside the EU. Then press Enter.![](./blob.jpg)
+3. Type W if your company is within the EU, otherwise type O if outside the EU. Then press Enter.![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -178,7 +178,7 @@ jBASE provides two installation modes, **Express** and **Advanced**.
 
 6. Type an installation path or press Enter to choose the default /opt/jbase/5.5.1 directory.
 
-Applies to: **Express,****Advanced**![](./blob.jpg)
+Applies to: **Express,****Advanced**![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -190,7 +190,7 @@ The installer will validate the specified installation directory. If it is a new
 
 If you are performing an Express mode install, the parent of the installation directory will be used as the location for the SYSTEM file, the JBASEADM account and jBASE spooler. For example, if jBASE is installed in the default directory, the parent is '/opt/jbase', so the SYSTEM file will be created as '/opt/jbase/SYSTEM'.
 
-8. Then press Y and then Enter to confirm![](./blob.jpg)
+8. Then press Y and then Enter to confirm![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -200,29 +200,29 @@ If the installer identified a previous jBASE release, the symbolic link name for
 
 Express install will use the default symbolic link name 'CurrentVersion'.
 
-Applies to: **Advanced**![](./blob.jpg)
+Applies to: **Advanced**![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
-10. Then press Y to confirm.![](./blob.jpg)
+10. Then press Y to confirm.![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
 11. Specify a Linux user ID to own the jBASE system files, or press Enter to accept the default jbaseadm user account. If the user does not exist, the installer will create the user for you. Press Y to confirm.
 
-Applies to: **Express,****Advanced**![](./blob.jpg)
+Applies to: **Express,****Advanced**![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
 12. Enter a password for the Linux user, and again for verification.
 
-Applies to: **Express,****Advanced**![](./blob.jpg)
+Applies to: **Express,****Advanced**![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
 13. Specify a group ID for the jBASE system files, or press Enter to accept the default jBASE group ID. Then press Y to confirm.
 
-Applies to: **Express,****Advanced**![](./blob.jpg)
+Applies to: **Express,****Advanced**![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -246,31 +246,31 @@ The jRemote client is located in /opt/jbase/CurrentVersion/clients
 
 **Initialize the print spooler** Select this option to initialize the default print spooler configuration after a new installation. For upgrade installations, this option will restart the print spooler instead.
 
-Applies to: **Advanced**![](./blob.jpg)
+Applies to: **Advanced**![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
 15. Please specify the directory where jBASE user data will be stored, or press Enter to accept the default directory: /opt/jbase. Then press Y to accept the directory.
 
-Applies to: **Advanced**![](./blob.jpg)
+Applies to: **Advanced**![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
 16. In order to complete the installation you will need to enter your jBASE license key. jBASE cannot be installed without either a permanent or evaluation license key. If you are performing an upgrade, the installer will attempt to locate your existing license keys and allow you to reuse them. Type the letter for the license type and enter the license key to continue.
 
-Applies to: **Express,****Advanced**![](./blob.jpg)
+Applies to: **Express,****Advanced**![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
 17. Specify the TCP port to use for the jBASE Remote Connectivity Server (jRCS), or press Enter to use the default port 8236. Then press Y to accept.
 
-Applies to: **Advanced**![](./blob.jpg)
+Applies to: **Advanced**![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
 18. If you opt to start the jDLS service, you can select port-based or process-based locks or press Y to choose the default process-based locks. See the [jBASE Distributed Locking User Guide](http://www.jbase.com/pdf/docs/jBASE-Distributed-Locking-User-Guide.pdf) for more information regarding jDLS.
 
-Applies to: **Advanced**![](./blob.jpg)
+Applies to: **Advanced**![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -289,7 +289,7 @@ Applies to: **Express,****Advanced**
 - Create the SYSTEM file (if option is selected)
 - Initialize the spooler (if option is selected and performing a new install)
 - Create the JBASEADM account (if option is selected)
-- Update /etc/init.d with scripts to start jDLS, jRCS, jSPOOL daemons (if option is selected) ![](./blob.jpg)
+- Update /etc/init.d with scripts to start jDLS, jRCS, jSPOOL daemons (if option is selected) ![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -298,7 +298,7 @@ Applies to: **Express,****Advanced**
 
 If you have a local firewall installed on this server, it may prevent network users from connecting to the application. Your system administrator may need to allow access to TCP port 8236.
 
-Applies to: **Express,****Advanced**![](./blob.jpg)
+Applies to: **Express,****Advanced**![jbase-linux-installation-guide: blob](./blob.jpg)
 
 ### 
 
@@ -336,7 +336,7 @@ jBASE users are normal Linux users. The installer automatically creates a Linux 
 
 It is recommended that all jBASE users belong to the 'jbase' group, as their primary group. That way, they not only have access to other files belonging to the 'jbase' group, but any files they create will also belong to the 'jbase' group, and be accessible by other members of this group.
 
-1. If you just completed the jBASE install above, exit out of the jSHELL prompt, by typing exit then Enter.![](./blob.jpg)
+1. If you just completed the jBASE install above, exit out of the jSHELL prompt, by typing exit then Enter.![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -346,7 +346,7 @@ It is recommended that all jBASE users belong to the 'jbase' group, as their pri
 useradd -m -k /opt/jbase/CurrentVersion/src/skel -g jbase jbaseuser
 ```
 
-![](./blob.jpg)
+![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -356,7 +356,7 @@ useradd -m -k /opt/jbase/CurrentVersion/src/skel -g jbase jbaseuser
 # passwd jbaseuser
 ```
 
-![](./blob.jpg)
+![jbase-linux-installation-guide: blob](./blob.jpg)
 
 ### 
 
@@ -371,7 +371,7 @@ Now that we have created a Linux user, in order to login to jBASE, we must creat
 # jbase
 ```
 
-2. If prompted, type JBASEADM for the username.![](./blob.jpg)
+2. If prompted, type JBASEADM for the username.![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -381,7 +381,7 @@ Now that we have created a Linux user, in order to login to jBASE, we must creat
 CREATE-ACCOUNT jbaseuser
 ```
 
-![](./blob.jpg)
+![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
@@ -389,11 +389,11 @@ CREATE-ACCOUNT jbaseuser
 
 5. You may now login to the jSHELL prompt as the user:
 
-![](./blob.jpg)
+![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 
-6. You may also connect remotely from another Linux OS or Windows, typically with SSH protocol and a terminal emulator such as AccuTerm or Putty. First you are logging in with the Linux User username and password. Then, the jBASE environment variables automatically launch the jSHELL prompt. If prompted, enter the jBASE account username to continue. You should now be at the jSHELL prompt.![](./blob.jpg)
+6. You may also connect remotely from another Linux OS or Windows, typically with SSH protocol and a terminal emulator such as AccuTerm or Putty. First you are logging in with the Linux User username and password. Then, the jBASE environment variables automatically launch the jSHELL prompt. If prompted, enter the jBASE account username to continue. You should now be at the jSHELL prompt.![jbase-linux-installation-guide: blob](./blob.jpg)
 
 
 

@@ -119,20 +119,20 @@ Project Manager will create a user account for you to log onto Jira
 
 Log onto Jira - [https://zumasys.atlassian.net/](https://zumasys.atlassian.net/)
 
-![](./blob.jpg)
+![261250-testing: blob](./blob.jpg)
 
 Click on Projects in the menu header and click on your project name
 
-![](./blob.jpg)
+![261250-testing: blob](./blob.jpg)
 
 Click on “what needs to be done” and enter in issue to be reported
 
-![](./blob.jpg)
+![261250-testing: blob](./blob.jpg)
 
 Mark it as “Bug” or “Task”
 
-![](./blob.jpg)
+![261250-testing: blob](./blob.jpg)
 
 Ticket will be reviewed only when the highlighted details are completed: Priority, Description, and any attachments that contains screenshots.
 
-![](./blob.jpg)
+![261250-testing: blob](./blob.jpg)

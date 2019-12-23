@@ -17,15 +17,15 @@ Prior to creating a user, you will need to have already created your [Customer P
 
 1. Expand the AccuTerm module from the main navigation page in the Customer Portal and select Profiles.
 
-![](./1566002391975-1566002391975.png)
+![creating-accuterm-profiles: 1566002391975-1566002391975](./1566002391975-1566002391975.png)
 
 2. Select the Create Profile button.
 
-![](./1566002458358-1566002458358.png)
+![creating-accuterm-profiles: 1566002458358-1566002458358](./1566002458358-1566002458358.png)
 
 3. Enter the name of the Profile and select which Roles will have access to the Profile. Continue through the remaining tabs to configure your AccuTerm Web Profile.
 
-![](./1566002538856-1566002538856.png)
+![creating-accuterm-profiles: 1566002538856-1566002538856](./1566002538856-1566002538856.png)
 
 ### Info
 

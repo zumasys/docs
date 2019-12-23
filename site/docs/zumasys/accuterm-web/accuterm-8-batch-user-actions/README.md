@@ -9,11 +9,11 @@ There are multiple options an AccuTerm user has access to when it is being creat
 
 1. Select User Batch Edit button
 
-![](./1570753654464-1570753654464.png)
+![accuterm-8-batch-user-actions: 1570753654464-1570753654464](./1570753654464-1570753654464.png)
 
 2. Select the users you wish to update options and select the Next button.
 
-![](./1570754335788-1570754335788.png)
+![accuterm-8-batch-user-actions: 1570754335788-1570754335788](./1570754335788-1570754335788.png)
 
 ### Info
 
@@ -27,7 +27,7 @@ ctrl + mouse click will allow you to select multiple users per mouse click
 
 
 
-![](./1570754618483-1570754618483.png)
+![accuterm-8-batch-user-actions: 1570754618483-1570754618483](./1570754618483-1570754618483.png)
 
 ### Info
 
@@ -40,9 +40,9 @@ Currently, you can enable or disable the following features:
 
 4. The last step is to confirm the Batch Action Process, review the action and users selected and click the Complete button to initiate the batch action. Upon completion, you will receive a success message and be directed back to the main Users & Licenses screen.
 
-![](./1570754914548-1570754914548.png)
+![accuterm-8-batch-user-actions: 1570754914548-1570754914548](./1570754914548-1570754914548.png)
 
-![](./1570755071179-1570755071179.png)
+![accuterm-8-batch-user-actions: 1570755071179-1570755071179](./1570755071179-1570755071179.png)
 
 ### Info
 

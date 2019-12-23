@@ -13,7 +13,7 @@ The client consists of a low-level communication library, coupled with a string/
 
 The architecture has a set of advantages, namely the portability of the server and low-level client libraries across platforms (i.e. Windows, UNIXes, etc.), and native support for ActiveX interface. The architecture therefore enables several client types to remotely connect to jBASE. These include C++ programs (low-level library), ActiveX containers (ActiveX portability layer), and additional java and .NET clients. Due to the low overhead involved in calling pure C++/ActiveX functions on client systems and the absence of parameter marshaling, even with three potential layers of calls, the library outperforms existing jBASE connectivity solutions.
 
-![](./jrcs.png)
+![jbase-remote-connectivity-server-jrcs: jrcs](./jrcs.png)
 
 ## Network Architecture
 

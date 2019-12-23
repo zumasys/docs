@@ -5,7 +5,7 @@
 **Original Doc:** [introduction-to-mv-dashboard](https://docs.zumasys.com/36577-mv-dashboard/introduction-to-mv-dashboard)  
 
 
-![](./1506460922079.jpg)
+![introduction-to-mv-dashboard: 1506460922079](./1506460922079.jpg)
 
 MultiValue Dashboard is a MultiValue CGI application that delivers the output of individual "widgets" to the dashboard web page. Multiple dashboards may be defined, and each dashboard becomes a unique collection of widgets.
 

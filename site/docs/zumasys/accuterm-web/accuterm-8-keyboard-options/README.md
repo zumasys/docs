@@ -12,8 +12,8 @@ Most terminals provide commands that allow the host to program the function keys
 ## 
 
 
-![](./1565909443377-1565909443377.png)
+![accuterm-8-keyboard-options: 1565909443377-1565909443377](./1565909443377-1565909443377.png)
 
-![](./1565909574688-1565909574688.png)
+![accuterm-8-keyboard-options: 1565909574688-1565909574688](./1565909574688-1565909574688.png)
 
 

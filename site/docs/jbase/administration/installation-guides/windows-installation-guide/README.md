@@ -59,19 +59,19 @@ Applies to:**Express** **Advanced**
 
 3. Pick the appropriate location option,  and then click Next.
 
-Applies to:**Express** **Advanced****![](./1529572903235-7.jpg)**
+Applies to:**Express** **Advanced****![323805-windows-jbase-installation: 1529572903235-7](./1529572903235-7.jpg)**
 
 
 
 4. Review the End User License Agreement (EULA) and choose I Agree. Then click Next.
 
-Applies to:**Express** **Advanced**![](./1529572963603-8.png)
+Applies to:**Express** **Advanced**![323805-windows-jbase-installation: 1529572963603-8](./1529572963603-8.png)
 
 
 
 5. Select the desired installation type based on the earlier outlined details of available options, then click Next.
 
-Applies to:**Express** **Advanced**![](./1529573248991-9.png)
+Applies to:**Express** **Advanced**![323805-windows-jbase-installation: 1529573248991-9](./1529573248991-9.png)
 
 
 
@@ -79,7 +79,7 @@ Applies to:**Express** **Advanced**![](./1529573248991-9.png)
 
 For Windows Server installations, it is recommended to install to an alternate partition than the C:\ System partition if available, however, JBASE will install properly on any local partition if there is sufficient free disk space.
 
-Applies to:**Express** **Advanced**![](./1529573277029-10.png)
+Applies to:**Express** **Advanced**![323805-windows-jbase-installation: 1529573277029-10](./1529573277029-10.png)
 
 
 
@@ -91,13 +91,13 @@ Applies to: Express **Advanced**
 
 8. Choose the Start Menu folder for the application shortcuts, default is “jBASE”, click Next.
 
-Applies to: Express **Advanced**![](./1529573795473-advanced-1.png)
+Applies to: Express **Advanced**![323805-windows-jbase-installation: 1529573795473-advanced-1](./1529573795473-advanced-1.png)
 
 
 
 9. Choose the desired installation options, then click Next.
 
-Applies to: Express **Advanced**![](./1529573837620-advanced-2.png)
+Applies to: Express **Advanced**![323805-windows-jbase-installation: 1529573837620-advanced-2](./1529573837620-advanced-2.png)
 
 
 
@@ -119,7 +119,7 @@ The options are:
 
 10. Type a username to be created for the jBASE Administrator. The installer will create a local Windows user account who will "own" the jBASE system files, and can be used to perform jBASE administrative tasks such as creating new jBASE accounts. If the user does not exist, the installer will create the user. Then click Next.
 
-Applies to:**Express** **Advanced**![](./1529573901323-11.png)
+Applies to:**Express** **Advanced**![323805-windows-jbase-installation: 1529573901323-11](./1529573901323-11.png)
 
 
 
@@ -127,13 +127,13 @@ Applies to:**Express** **Advanced**![](./1529573901323-11.png)
 
 The installer will not create a new user without a password. Because security policies vary widely, it is not possible for the jBASE installer to validate that the password created at this point conforms to the local security policy of the computer. Be sure to follow your local security policy regarding passwords. Otherwise, the installer will not be able to create the JBASE Administrator user, and this will have to be done manually after the installation.
 
-Applies to:**Express** **Advanced**![](./1529574424605-12.png)
+Applies to:**Express** **Advanced**![323805-windows-jbase-installation: 1529574424605-12](./1529574424605-12.png)
 
 
 
 12. Enter a jBASE license key, then click Next.
 
-Applies to:**Express Advanced**![](./1529574446316-13.png)
+Applies to:**Express Advanced**![323805-windows-jbase-installation: 1529574446316-13](./1529574446316-13.png)
 
 jBASE requires a valid license key in order to operate. Either a permanent or evaluation key may be used.
 
@@ -153,19 +153,19 @@ For licensing assistance contact Zumasys jBASE support in the United States at 8
 
 13. Review the summary information and then click Install.
 
-Applies to: Express **Advanced**![](./1529574676012-advanced-2.png)
+Applies to: Express **Advanced**![323805-windows-jbase-installation: 1529574676012-advanced-2](./1529574676012-advanced-2.png)
 
 
 
 14. The jBASE release files are copied to the destination folder, replacing any existing files if installing over an existing installation.
 
-Applies to:**Express** **Advanced**![](./1529574715759-advanced-3.png)
+Applies to:**Express** **Advanced**![323805-windows-jbase-installation: 1529574715759-advanced-3](./1529574715759-advanced-3.png)
 
 
 
 15. After copying the jBASE release files, the installer will install the Microsoft Visual C++ runtime. Finally, optional configuration tasks are performed, such as creating the jBASE Administrator user, creating the SYSTEM file, the JBASEADM account, initializing the spooler, and installing and starting the jBASE services.
 
-Applies to:**Express** **Advanced**![](./1529574817076-advanced-4.png)
+Applies to:**Express** **Advanced**![323805-windows-jbase-installation: 1529574817076-advanced-4](./1529574817076-advanced-4.png)
 
 
 
@@ -173,7 +173,7 @@ Applies to:**Express** **Advanced**![](./1529574817076-advanced-4.png)
 
 If the installation was not successful, for example, an invalid license key was entered, an error message will be displayed.
 
-Applies to:**Express** **Advanced**![](./1529572812481-advanced-finish.png)
+Applies to:**Express** **Advanced**![323805-windows-jbase-installation: 1529572812481-advanced-finish](./1529572812481-advanced-finish.png)
 
 
 

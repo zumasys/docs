@@ -20,7 +20,7 @@ Another advantage of jBASE is the capability to provide Multivalue applications 
 
 An interface is also provided to enable external applications to access any database, which is available to any jBASE application.
 
-![](./jbaddiagram.jpg)
+![migrating-to-jbase: jbaddiagram](./jbaddiagram.jpg)
 
 
 | **Migrating to jBASE**<br> |

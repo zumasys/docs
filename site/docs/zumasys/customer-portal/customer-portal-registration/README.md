@@ -9,7 +9,7 @@
 
 Proceed to [https://portal.zumasys.com](https://portal.zumasys.com) and select the link to Sign up now.
 
-![](./1548184946418-1548184946418.png)
+![quick-start: 1548184946418-1548184946418](./1548184946418-1548184946418.png)
 
 ### Info
 
@@ -19,13 +19,13 @@ If you receive an error your account may not yet be activated. Please wait for t
 
 Enter your email address and click the send verification code button.
 
-![](./1548185245409-1548185245409.png)
+![quick-start: 1548185245409-1548185245409](./1548185245409-1548185245409.png)
 
 
 
 You will receive an email with the verification code.
 
-![](./1548185380446-1548185380446.png)
+![quick-start: 1548185380446-1548185380446](./1548185380446-1548185380446.png)
 
 
 
@@ -33,7 +33,7 @@ You will receive an email with the verification code.
 
 Enter the verification code into the verification code field and click the verify code button.
 
-![](./1548185550033-1548185550033.png)
+![quick-start: 1548185550033-1548185550033](./1548185550033-1548185550033.png)
 
 ### Info
 
@@ -43,13 +43,13 @@ You may be prompted to save the Verification code in your browser passwords. Cli
 
 Fill out the remaining information fields (New Password, Confirm New Password, Display Name, First Name and Last Name) and click the create button.
 
-![](./1548185737205-1548185737205.png)
+![quick-start: 1548185737205-1548185737205](./1548185737205-1548185737205.png)
 
 
 
 Upon the successful creation of your account, you will receive the following message.
 
-![](./1548185893932-1548185893932.png)
+![quick-start: 1548185893932-1548185893932](./1548185893932-1548185893932.png)
 
 
 
@@ -57,13 +57,13 @@ Upon the successful creation of your account, you will receive the following mes
 
 If you do not receive the screen above and the create account continues to process or shows the spinning, there could have been an error during the account creation.  Please reattempt to create the account.
 
-![](./1548186124504-1548186124504.png)
+![quick-start: 1548186124504-1548186124504](./1548186124504-1548186124504.png)
 
 
 
 After your account has been activated and setup, you will receive an additional email informing you of your access to the support page.
 
-![](./1548186813923-1548186813923.png)
+![quick-start: 1548186813923-1548186813923](./1548186813923-1548186813923.png)
 
 * * *
 

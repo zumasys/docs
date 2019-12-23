@@ -11,17 +11,17 @@ After AccuTerm Web access has been provisioned, visit [accuterm.io](https://accu
 
 
 
-![](./1565980458912-1565980458912.png)
+![accuterm-8-web-introduction: 1565980458912-1565980458912](./1565980458912-1565980458912.png)
 
 
 
 If you have multiple profiles, you will be prompted to select which profile you wish to launch.
 
-![](./1565988877515-1565988877515.png)
+![accuterm-8-web-introduction: 1565988877515-1565988877515](./1565988877515-1565988877515.png)
 
 After launching your session and connecting to the server, you will have four options on the top menu bar; AccuTerm, Profiles, Keyboard and Disconnect.
 
-![](./1565989048083-1565989048083.png)
+![accuterm-8-web-introduction: 1565989048083-1565989048083](./1565989048083-1565989048083.png)
 
 
 | AccuTerm: |  Is the default screen, which is AccuTerm Web. |

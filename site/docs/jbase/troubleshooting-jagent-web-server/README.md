@@ -60,7 +60,7 @@ If you get any successful request then the actual web server is up and running (
 
 Here is the same thing with Microsoft Edge.
 
-![](./1526674654522-1526674654522.jpg)
+![317527-troubleshooting-jagent-web-server: 1526674654522-1526674654522](./1526674654522-1526674654522.jpg)
 
 If you cannot connect using either of the above techniques then it usually means jAgent is not running.  You should review the jAgent [documentation](/30312-jagent/introduction-to-jagent)
 
@@ -119,7 +119,7 @@ C:\Users\patrickp>
 
 Or with the browser
 
-![](./1526675586835-1526675586835.jpg)
+![317527-troubleshooting-jagent-web-server: 1526675586835-1526675586835](./1526675586835-1526675586835.jpg)
 
 Both represent we are talking to the web server which is a good thing.  If this is still not working you may need to review your firewall rules.  Verify you have put in the right port number (in this test it was 20003).  Also verify when jAgent fired up it did not throw any errors.  The primary one you may run into is that something is already listening on the port chose (20003 in this example).  If that happens try another port (20004 and on).
 

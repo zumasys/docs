@@ -11,13 +11,13 @@
 
 #### Dan Ell - Multivalue Engineer
 
-![](./dane-1.jpg)Dan Ell has over thirty years of experience in building and administering MultiValue systems and applications. After founding his own computer technology and consulting company in 1992, Dan spent 13 years heading up the Technical Support Queue at jBASE, a leading MultiValue software company. Dan is an industry expert in MultiValue, specializing in on-site consulting, planning, technical support documentation, and programming for MultiValue systems.
+![250957-jbase-f-a-q: dane-1](./dane-1.jpg)Dan Ell has over thirty years of experience in building and administering MultiValue systems and applications. After founding his own computer technology and consulting company in 1992, Dan spent 13 years heading up the Technical Support Queue at jBASE, a leading MultiValue software company. Dan is an industry expert in MultiValue, specializing in on-site consulting, planning, technical support documentation, and programming for MultiValue systems.
 
 When he’s not at work, you might find Dan hanging out on the beach at his Tampa Bay home or out taking photos. Dan is also a huge Jaguar aficionado—his pride and joy is his 2003 XJ8 Sport.
 
 #### Bruce Decker - Multivalue Presales Engineer
 
-![](./bruced.jpg)
+![250957-jbase-f-a-q: bruced](./bruced.jpg)
 
 After being introduced to MultiValue in 1985 with ADP/Microdata, Bruce Decker immediately saw immense business value for customers. Bruce’s first foray into MultiValue was porting assembler code for a MultiValue-based electronic spreadsheet called CompuSheet. That led to his involvement in Via Systems, whose ViaDuct terminal emulation products set the standard for MultiValue in the enterprise.  At Zumasys, Bruce is responsible for helping Zumasys customers with pre-sale tech consulting, building long-lasting relationships of trust and mutual support.
 

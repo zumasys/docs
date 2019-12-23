@@ -48,13 +48,13 @@ To install jBASE 5.6 for Windows, you will need the JBASE\_5.6.0.xxx\_rel\_64bit
 
 ### INSTALLER FILE
 
-![](./installer.jpg)
+![jbase-56-windows-installation-guide: installer](./installer.jpg)
 
 
 
 ### LICENSE INFORMATION
 
-![](./licence_info.jpg)
+![jbase-56-windows-installation-guide: licence_info](./licence_info.jpg)
 
 ## 
 
@@ -83,7 +83,7 @@ Each step below will highlight which mode this step pertains. If you do not see 
 
 Applies to: **Express** **Advanced**
 
-![](./start_install.jpg)
+![jbase-56-windows-installation-guide: start_install](./start_install.jpg)
 
 
 
@@ -91,7 +91,7 @@ Applies to: **Express** **Advanced**
 
 Applies to: **Express** **Advanced**
 
-![](./location_selection.jpg)
+![jbase-56-windows-installation-guide: location_selection](./location_selection.jpg)
 
 
 
@@ -99,7 +99,7 @@ Applies to: **Express** **Advanced**
 
 Applies to: **Express** **Advanced**
 
-![](./accept_eula.jpg)
+![jbase-56-windows-installation-guide: accept_eula](./accept_eula.jpg)
 
 
 
@@ -107,7 +107,7 @@ Applies to: **Express** **Advanced**
 
 Applies to: **Express** **Advanced**
 
-![](./install_type.jpg)
+![jbase-56-windows-installation-guide: install_type](./install_type.jpg)
 
 
 
@@ -129,7 +129,7 @@ Applies to: Express **Advanced**
 
 Applies to: Express **Advanced**
 
-![](./install_directory.jpg)
+![jbase-56-windows-installation-guide: install_directory](./install_directory.jpg)
 
 
 
@@ -137,7 +137,7 @@ Applies to: Express **Advanced**
 
 Applies to: Express **Advanced**
 
-![](./installation_options.jpg)
+![jbase-56-windows-installation-guide: installation_options](./installation_options.jpg)
 
 
 
@@ -159,7 +159,7 @@ Applies to: Express **Advanced**
 
 Applies to: **Express** **Advanced**
 
-![](./admin_username.jpg)
+![jbase-56-windows-installation-guide: admin_username](./admin_username.jpg)
 
 
 
@@ -167,7 +167,7 @@ Applies to: **Express** **Advanced**
 
 Applies to: **Express** **Advanced**
 
-![](./admin_user_paswd.jpg)
+![jbase-56-windows-installation-guide: admin_user_paswd](./admin_user_paswd.jpg)
 
 
 
@@ -175,7 +175,7 @@ Applies to: **Express** **Advanced**
 
 Applies to: **Express** **Advanced**
 
-![](./licence_key.jpg)
+![jbase-56-windows-installation-guide: licence_key](./licence_key.jpg)
 
 
 
@@ -187,25 +187,25 @@ For licensing assistance contact Zumasys jBASE support in the United States at 8
 
 Applies to: **Express** **Advanced**
 
-![](./review_before_install.jpg)
+![jbase-56-windows-installation-guide: review_before_install](./review_before_install.jpg)
 
 13. The jBASE release files are copied to the destination folder, replacing any existing files if installing over an existing installation.
 
 Applies to: **Express** **Advanced**
 
-![](./installing.jpg)
+![jbase-56-windows-installation-guide: installing](./installing.jpg)
 
 14. After copying the jBASE release files, the installer will install the Microsoft Visual C++ runtime. Finally, optional configuration tasks are performed, such as creating the jBASE Administrator user, creating the SYSTEM file, the JBASEADM account, initializing the spooler, and installing and starting the jBASE services.
 
 Applies to: **Express** **Advanced**
 
-**![](./c___install.jpg)**
+**![jbase-56-windows-installation-guide: c___install](./c___install.jpg)**
 
 15. If jBASE installation was successful, two additional options are available: install the compiler (see next section) and open a jShell command prompt. If the installation was not successful, for example, an invalid license key was entered, an error message will be displayed.
 
 Applies to: **Express** **Advanced**
 
-![](./succesful_install.jpg)
+![jbase-56-windows-installation-guide: succesful_install](./succesful_install.jpg)
 
 
 

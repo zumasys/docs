@@ -18,7 +18,7 @@ This user guide provides detailed instructions on how to use the jBASE **jRemote
 
 **Note**: More information on the jRemote RA can be found in the jRemote JCA RA user guide documentation.
 
-![](./jremote.png)
+![jremote: jremote](./jremote.png)
 
 This diagram shows how Java and .NET C# client applications may use **jRemote (Client)** to access jBASE functionality. **jAgent** is a jBASE component responsible for accepting and processing incoming client requests. jAgent, as well as jRemote, use TCP socket connections to communicate between each other and therefore need to be configured to use the same TCP port.
 

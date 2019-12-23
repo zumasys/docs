@@ -269,7 +269,7 @@ Client: connection failed for host ‘10.44.1.56’, service '50002', error Conn
 
 ## jBASE Distributed Lock Service process flow
 
-![](./jdls.png)
+![introduction-to-distributed-locking: jdls](./jdls.png)
 
 Locks are taken either in the shard memory lock table or via local OS file locks.
 

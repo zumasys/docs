@@ -29,7 +29,7 @@ The "Transaction Journaling" product includes both transaction logging and trans
 
 Transaction Replication is a secondary process that takes transaction logs and commits them immediately to a second machine.   For purposes of this documentation transaction logging will be used to discuss transaction logging/journaling while transaction replication will be used to describe  updating a second machine (remote).
 
-![](./1522426235454-transjourn.jpg)
+![introduction-to-transactional-journaling: 1522426235454-transjourn](./1522426235454-transjourn.jpg)
 
 
 

@@ -13,7 +13,7 @@ Below is a brief overview of connecting to ScreenConnect.
 
 I’m happy to report our very own Connectwise Control (the artist formerly known as ScreenConnect) is now online and available. To login head over to [https://zumasys.screenconnect.com/Login](https://zumasys.screenconnect.com/Login)
 
-![](./1531948416655-screenconnect.png)
+![screen-connect-how-to-connect: 1531948416655-screenconnect](./1531948416655-screenconnect.png)
 
 There is no need to enter a username/password as this has already been integrated with AzureAD – just click “Connect with Zumasys Azure AD” and it will redirect you to our normal Azure login screens or if you already have an active token will immediately direct you in.
 

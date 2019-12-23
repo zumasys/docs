@@ -17,7 +17,7 @@ The jlogadmin command allows for the administration of the jBASE Transaction Jou
 
 When the jlogadmin command is executed interactively, navigation to the next field is by using the tab key or cursor-down key and to the previous field by the cursor-up key. Each field can be modified using the same editor type commands as available in jsh. Changes to a particular field are effected by the &lt;Enter&gt; key and CTRL-X is used to exit from interactive mode.
 
-![](./1521064916419-1521064916419.jpg)
+![configuring-transaction-logging: 1521064916419-1521064916419](./1521064916419-1521064916419.jpg)
 
 **Status**
 

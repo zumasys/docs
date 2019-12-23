@@ -27,7 +27,7 @@ If you are using jBASE/jAgent then MVConnect and all it's API's are available in
 
 If you are using MVConnect with MVAppsvr then by default MVConnect installs an MVDB account and that is where your MVConnect code must run from.  You can add Q-pointers from that account to any other accounts you need access to.  MVConnect also will support LOGTO operations (see below) to allow you to switch to other accounts if needed.  This feature is dependent on the MV platform's capabilities here. In advanced setups, MVConnect can be configured to run from existing accounts.
 
-![](./1524595434147-mvconnect_4.2018.jpg)
+![get-started-with-mv-connect: 1524595434147-mvconnect_4.2018](./1524595434147-mvconnect_4.2018.jpg)
 
 
 
@@ -45,7 +45,7 @@ A default testing REST service is supplied called wresttest to allow you to test
 
 Open up POSTMAN and enter the URL to your Server.  In the example below replace 10.10.17.205 with the IP of your server.  MVConnect is by default installed at port 8180.
 
-![](./blob.jpg)
+![get-started-with-mv-connect: blob](./blob.jpg)
 
 This test service grabs some information from your system and outputs it in JSON format.  Many of the functions are Unix specific, therefore if you are on a Windows machine some of the responses will be blank.
 
@@ -67,21 +67,21 @@ To send REST Data
 
 Switch the action to POST
 
-![](./blob.jpg)
+![get-started-with-mv-connect: blob](./blob.jpg)
 
 Click on the body, change data to raw, adjust output to JSON (application/JSON) and then enter your JSON into the body.
 
-![](./blob.jpg)
+![get-started-with-mv-connect: blob](./blob.jpg)
 
 Hit the send button and your raw JSON will now be in the body tag.  Notice also that the CONTENT\_TYPE switched to application/JSON.
 
-![](./blob.jpg)
+![get-started-with-mv-connect: blob](./blob.jpg)
 
 You can also test sending form vars the same way.  Go back to Body and change to x-www-form-urlencoding.  You can enter a var directly into the URL bar and/or add items in the key/value area.  The URL bar will always work no matter the encoding.  The MVConnect does not support form-data encoding.
 
 In the vars area, you will see you passed variables.
 
-![](./blob.jpg)
+![get-started-with-mv-connect: blob](./blob.jpg)
 
 You are now ready to build your first Application.
 
@@ -111,7 +111,7 @@ ED WDB.RESOURCE API*HELLOWORLD
 
 Now go back to POSTMAN and call your program.  Because we just spit out the straight text you need to click on the RAW output button (postman by default expects JSON).
 
-![](./blob.jpg)
+![get-started-with-mv-connect: blob](./blob.jpg)
 
 Now lets make it interactive. Change your HELLOWORLD program as follows.
 
@@ -124,13 +124,13 @@ Now lets make it interactive. Change your HELLOWORLD program as follows.
 
 Adjust the POSTMAN configuration as below and resend
 
-![](./blob.jpg)
+![get-started-with-mv-connect: blob](./blob.jpg)
 
 You have now created a simple RESTful function.  You can call this function now from any language that supports http calls.  On the top right of POSTMAN you will see a code button.  Click on that button and you can get actual code examples for different languages.
 
 For example here is code for PHP
 
-![](./blob.jpg)
+![get-started-with-mv-connect: blob](./blob.jpg)
 
 
 

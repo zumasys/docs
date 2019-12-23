@@ -9,11 +9,11 @@
 
 1. Create a New Profile
 
-![](./1573501569734-1573501569734.png)2. Configure Connection Settings
+![accuterm-mobile-quick-start-guide: 1573501569734-1573501569734](./1573501569734-1573501569734.png)2. Configure Connection Settings
 
 
-![](./1573501657354-1573501657354.png)
+![accuterm-mobile-quick-start-guide: 1573501657354-1573501657354](./1573501657354-1573501657354.png)
 
 3. Connect
 
-![](./1573501835007-1573501835007.png)
+![accuterm-mobile-quick-start-guide: 1573501835007-1573501835007](./1573501835007-1573501835007.png)

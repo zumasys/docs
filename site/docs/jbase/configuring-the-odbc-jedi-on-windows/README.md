@@ -11,39 +11,39 @@ For the configuration example below, we will be configuring an MSSQL *ODBC*drive
 
 1. Navigate to the **Control Panel**
 
-![](./1574210484997-1574210484997.png)
+![configuring-the-odbc-jedi-on-windows: 1574210484997-1574210484997](./1574210484997-1574210484997.png)
 
 2. Click on **System and Security**
 
-![](./1574210506636-1574210506636.png)
+![configuring-the-odbc-jedi-on-windows: 1574210506636-1574210506636](./1574210506636-1574210506636.png)
 
 3. Click on **System**
 
-![](./1574210547647-1574210547647.png)
+![configuring-the-odbc-jedi-on-windows: 1574210547647-1574210547647](./1574210547647-1574210547647.png)
 
 4. Confirm whether you have a 32 or 64 bit operating system
 
-![](./1574458856453-1574458856453.png)
+![configuring-the-odbc-jedi-on-windows: 1574458856453-1574458856453](./1574458856453-1574458856453.png)
 
 5. Navigate back to the **System and Security** page
 
-![](./1574210995160-1574210995160.png)
+![configuring-the-odbc-jedi-on-windows: 1574210995160-1574210995160](./1574210995160-1574210995160.png)
 
 6. Click on **Administrative Tools**
 
-![](./1574211022130-1574211022130.png)
+![configuring-the-odbc-jedi-on-windows: 1574211022130-1574211022130](./1574211022130-1574211022130.png)
 
 7. Open the **ODBC Data Sources** app for the operating system we found in step 4 (64-bit in this example)
 
-![](./1574267302290-1574267302290.png)
+![configuring-the-odbc-jedi-on-windows: 1574267302290-1574267302290](./1574267302290-1574267302290.png)
 
 8.  Click on **Add**
 
-![](./1574359914331-1574359914331.png)
+![configuring-the-odbc-jedi-on-windows: 1574359914331-1574359914331](./1574359914331-1574359914331.png)
 
 9. Select **SQL Server Native Client [*version*]** and click on **Finish**
 
-![](./1574268421531-1574268421531.png)
+![configuring-the-odbc-jedi-on-windows: 1574268421531-1574268421531](./1574268421531-1574268421531.png)
 
 ### Note
 
@@ -51,35 +51,35 @@ For SQL Server, the **SQL Server Native Client [*version*]**must be the selected
 
 10. Fill out the fields to define the Microsoft SQL Server Native Client driver
 
-![](./1574360349136-1574360349136.png)
+![configuring-the-odbc-jedi-on-windows: 1574360349136-1574360349136](./1574360349136-1574360349136.png)
 
 11. Click on **Next**
 
-![](./1574268826282-1574268826282.png)
+![configuring-the-odbc-jedi-on-windows: 1574268826282-1574268826282](./1574268826282-1574268826282.png)
 
 12. Click on **With SQL Server authentication using a login ID and password** **entered by the user**, and enter the user id and password used to enter your *RDBMS*server
 
-![](./1574268921696-1574268921696.png)
+![configuring-the-odbc-jedi-on-windows: 1574268921696-1574268921696](./1574268921696-1574268921696.png)
 
 13. Click on **Next**
 
-![](./1574269134579-1574269134579.png)
+![configuring-the-odbc-jedi-on-windows: 1574269134579-1574269134579](./1574269134579-1574269134579.png)
 
 14. Update the fields listed as desired
 
 15. Click on **Next**
 
-![](./1574269249743-1574269249743.png)
+![configuring-the-odbc-jedi-on-windows: 1574269249743-1574269249743](./1574269249743-1574269249743.png)
 
 16. Update the fields listed as desired
 
 17. Click on **Finish**
 
-![](./1574360641898-1574360641898.png)
+![configuring-the-odbc-jedi-on-windows: 1574360641898-1574360641898](./1574360641898-1574360641898.png)
 
 18. Click on **Test Data Source** to test the*ODBC* driver configuration, this will let you know if the *ODBC* driver correctly connected to your MSSQL database server
 
-![](./1574360672226-1574360672226.png)
+![configuring-the-odbc-jedi-on-windows: 1574360672226-1574360672226](./1574360672226-1574360672226.png)
 
 ### Troubleshooting
 
@@ -89,7 +89,7 @@ If you did not receive the "TESTS COMPLETED SUCCESSFULLY!" message, make sure yo
 
 20. Open **jEDIdrivers.ini** up for editing using your favorite text editor
 
-![](./1574273580209-1574273580209.png)
+![configuring-the-odbc-jedi-on-windows: 1574273580209-1574273580209](./1574273580209-1574273580209.png)
 
 21. Update the file parameters in the file to reflect the correct *ODBC* driver parameter values (these will depend on which driver you're setting up). Use the parameter descriptions in the **jEDIdrivers.ini** file definition section of the [Structure of ODBC jEDI Initialization Files](docs.jbase.com/structure-of-odbc-jedi-initialization-files) document to identify what needs to be changed.
 

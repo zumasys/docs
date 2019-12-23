@@ -16,11 +16,11 @@ Via “Control Panel -&gt; Administrative Tools -&gt; ODBC Data Sources (64-bit)
 
 
 
-![](./1513360255015.jpg)
+![291428-odbc-quick-start: 1513360255015](./1513360255015.jpg)
 
 
 
-![](./1513360269208.jpg)
+![291428-odbc-quick-start: 1513360269208](./1513360269208.jpg)
 
 
 
@@ -70,7 +70,7 @@ It is possible to use Account authentication for these ODBC connections, but, to
 
 This means that the jbase\_agent listener should be started in the account folder where the files to be queried reside.
 
-![](./1513360414346.jpg)
+![291428-odbc-quick-start: 1513360414346](./1513360414346.jpg)
 
 The Data Source can now be referenced by an ODBC aware Windows application, i.e. Excel.
 
@@ -78,15 +78,15 @@ Open a new Excel spreadsheet and navigate to the Data tab, then:
 
 Data -&gt; Get Data -&gt; From Other Sources -&gt; From ODBC
 
-![](./1513360435867.jpg)
+![291428-odbc-quick-start: 1513360435867](./1513360435867.jpg)
 
-![](./1513360447256.jpg)
+![291428-odbc-quick-start: 1513360447256](./1513360447256.jpg)
 
 Press the “Load” button and the spreadsheet will be populated:
 
 
 
-![](./1513360461019.jpg)
+![291428-odbc-quick-start: 1513360461019](./1513360461019.jpg)
 
 
 > Note: On initial “Load”, even without authentication in place, Excel may request a User ID and Password, which would be the user credentials of the account where the jbase\_agent listener is running.
@@ -96,7 +96,7 @@ Multi-valued data is returned in first-normal form, which means that any “sing
 
 Having added an “ID” dictionary definition to the ODBCDEMO file, the following is an example of a multi-value query:
 
-![](./1513360518762.jpg)
+![291428-odbc-quick-start: 1513360518762](./1513360518762.jpg)
 
 
 

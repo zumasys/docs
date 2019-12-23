@@ -11,7 +11,7 @@ The jBASE installer will automatically update the license keys during Express an
 D:\jBASE\5.7.0\config
 ```
 
-![](./blob.jpg)
+![manual-license-key-installation: blob](./blob.jpg)
 
 
 

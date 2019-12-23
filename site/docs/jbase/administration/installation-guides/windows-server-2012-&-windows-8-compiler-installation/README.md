@@ -18,21 +18,21 @@ To download the web-based installer for Visual Studio 2015 Community Edition, yo
 
 2. After the download completes, run the installer. Verify that the installer shows Visual Studio Community 2015 in the title at the top of the installer window:
 
-![](./1535747876956-1535747876956.jpg)
+![jbase-compiler-installation-for-windows-server-2012-not-r2-and-windows-8-not-81: 1535747876956-1535747876956](./1535747876956-1535747876956.jpg)
 
 3. Change the installation type from “Default” to “Custom”, then click Next.
 
-![](./1535747937127-1535747937127.jpg)
+![jbase-compiler-installation-for-windows-server-2012-not-r2-and-windows-8-not-81: 1535747937127-1535747937127](./1535747937127-1535747937127.jpg)
 
 4. In the features selection page, expand the "Programming Languages" branch and select Visual C++. Other options (Microsoft Web Development Tools, etc.) may be de-selected, only C++ is required for compiling jBASE programs. Click Next.
 
 5. On the next page, click Install.
 
-![](./1535747972096-1535747972096.jpg)
+![jbase-compiler-installation-for-windows-server-2012-not-r2-and-windows-8-not-81: 1535747972096-1535747972096](./1535747972096-1535747972096.jpg)
 
 6. After installing Visual Studio, you will likely need to reboot Windows.
 
-![](./1535748000721-1535748000721.jpg)
+![jbase-compiler-installation-for-windows-server-2012-not-r2-and-windows-8-not-81: 1535748000721-1535748000721](./1535748000721-1535748000721.jpg)
 
 7. After restarting Windows (if needed), proceed with jBASE installation.  The installer for jBASE release 5.6.6 and 5.7.1 and above will locate Visual Studio 2015 and configure it properly for jBASE.
 

@@ -36,7 +36,7 @@ To follow along with the [jBASE Training Class videos](https://www.youtube.com/p
 
 Be sure to select the “Desktop development with C++” option along with the “.NET desktop development”.  The options shown should be sufficient for the purposes of these videos.  If the Visual Studio 2017 Build Tools have already been installed, then the “Desktop development with C++” option is not required.
 
-![](./1548287245873-1548287245872.png)
+![359033-jbase-for-multivalue-developers: 1548287245873-1548287245872](./1548287245873-1548287245872.png)
 
 
 

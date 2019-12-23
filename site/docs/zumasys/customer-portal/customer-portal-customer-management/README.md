@@ -13,11 +13,11 @@
 
 1. Select the "Customers" module in the navigation bar.
 
-![](./1574189353606-1574189353605.png)
+![customer-portal-customer-management: 1574189353606-1574189353605](./1574189353606-1574189353605.png)
 
 2. Review Customer(s) assigned to your organization as the partner of record.
 
-![](./1574189761714-1574189761714.png)
+![customer-portal-customer-management: 1574189761714-1574189761714](./1574189761714-1574189761714.png)
 
 ### Info
 
@@ -41,4 +41,4 @@ If you do not see your customer(s) listed under your account or do not see the o
 
 3. Select a specific company by clicking the drop-down on the Company Filter.
 
-![](./1574190767690-1574190767690.png)
+![customer-portal-customer-management: 1574190767690-1574190767690](./1574190767690-1574190767690.png)

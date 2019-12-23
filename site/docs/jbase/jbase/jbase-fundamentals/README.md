@@ -306,7 +306,7 @@ Some assumptions need to be made to approximate correct modulo prior to file cre
 
 Multiplying the number of records by the average record size, then dividing the product by the block size gives a rough figure that can be used for the modulo. Considering the parameters in brackets above the modulo would be as:
 
-![](./modulo.jpg)
+![jbase-fundamentals: modulo](./modulo.jpg)
 
 
 
@@ -821,7 +821,7 @@ Thus issuing a query such as: 'LIST CUSTOMER MYMACRO' will automatically include
 
 
 
-### ![](./dictionary_processing.jpg)
+### ![jbase-fundamentals: dictionary_processing](./dictionary_processing.jpg)
 
 
 

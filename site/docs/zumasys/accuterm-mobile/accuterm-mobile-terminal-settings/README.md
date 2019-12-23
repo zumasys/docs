@@ -5,7 +5,7 @@
 **Original Doc:** [accuterm-mobile-terminal-settings](https://docs.zumasys.com/accutermmobile/accuterm-mobile-terminal-settings)  
 
 
-![](./1573843406607-1573843406607.png)
+![accuterm-mobile-terminal-settings: 1573843406607-1573843406607](./1573843406607-1573843406607.png)
 
 ## Terminal Type
 
@@ -31,7 +31,7 @@
 
 
 
-![](./1573843815116-1573843815115.png)
+![accuterm-mobile-terminal-settings: 1573843815116-1573843815115](./1573843815116-1573843815115.png)
 
 ## Character Set
 

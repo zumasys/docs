@@ -9,7 +9,7 @@
 
 AccuTerm supports Telnet connections to host machines over a TCP/IP network. Any Telnet server (host) on the network, including hosts on the Internet, can be accessed.
 
-![](./1565646394716-1565646394716.png)
+![accuterm-8-connection-tab: 1565646394716-1565646394716](./1565646394716-1565646394716.png)
 
 
 

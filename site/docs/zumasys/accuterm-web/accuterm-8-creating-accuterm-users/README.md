@@ -21,15 +21,15 @@ Prior to creating a user, you will need to have already created your [Customer P
 
 1. Expand the AccuTerm module from the main navigation page in the Customer Portal and select Users & Licenses.
 
-![](./1566000750186-1566000750186.png)
+![accuterm-8-adding-users: 1566000750186-1566000750186](./1566000750186-1566000750186.png)
 
 2. Select the Add User button.
 
-![](./1566000813734-1566000813734.png)
+![accuterm-8-adding-users: 1566000813734-1566000813734](./1566000813734-1566000813734.png)
 
 3. Enter the user's First Name, Last Name and Email address and select the Add button. After a few seconds, the user's account will be provisioned and display in the Available Users table.
 
-![](./1566000868953-1566000868953.png)
+![accuterm-8-adding-users: 1566000868953-1566000868953](./1566000868953-1566000868953.png)
 
 
 
@@ -51,24 +51,24 @@ If you are looking to export users from Microsoft Active Directory, Microsoft Ex
 
 1. Expand the AccuTerm module from the main navigation page in the Customer Portal and select Users & Licenses.
 
-![](./1566000750186-1566000750186.png)
+![accuterm-8-adding-users: 1566000750186-1566000750186](./1566000750186-1566000750186.png)
 
 2. Select the Import Users button.
 
-![](./1566001193532-1566001193532.png)
+![accuterm-8-adding-users: 1566001193532-1566001193532](./1566001193532-1566001193532.png)
 
 3. Step 1 - Download the CSV template by selecting the link and hit the Next button.
 
-![](./1566001260713-1566001260713.png)
+![accuterm-8-adding-users: 1566001260713-1566001260713](./1566001260713-1566001260713.png)
 
 4. Step 2 - Fill in the First Name, Last Name and Email Address for the users being imported and save on your PC.
 
-![](./1566001361449-1566001361449.png)
+![accuterm-8-adding-users: 1566001361449-1566001361449](./1566001361449-1566001361449.png)
 
 5. Step 2 - Upload your completed CSV file.
 
-![](./1566001488274-1566001488274.png)
+![accuterm-8-adding-users: 1566001488274-1566001488274](./1566001488274-1566001488274.png)
 
 6. Step 3 - Verify the upload looks correct and select the Complete button. After a few seconds, the user's accounts will be provisioned and display in the Available Users table.
 
-![](./1566001630306-1566001630306.png)
+![accuterm-8-adding-users: 1566001630306-1566001630306](./1566001630306-1566001630306.png)

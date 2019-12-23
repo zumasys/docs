@@ -63,11 +63,11 @@ curl: (7) Failed to connect to localhost port 20002: Connection refused
 
 Here is the same thing with Microsoft Edge.
 
-![](./1526674654522-1526674654522.jpg)
+![336527-jagent-troubleshooting: 1526674654522-1526674654522](./1526674654522-1526674654522.jpg)
 
 A failed request from Edge looks like
 
-![](./1526849720517-1526849720517.jpg)
+![336527-jagent-troubleshooting: 1526849720517-1526849720517](./1526849720517-1526849720517.jpg)
 
 
 
@@ -128,7 +128,7 @@ C:\Users\patrickp>
 
 Or with the browser
 
-![](./1526675586835-1526675586835.jpg)
+![336527-jagent-troubleshooting: 1526675586835-1526675586835](./1526675586835-1526675586835.jpg)
 
 Both represent we are talking to the web server which is a good thing.  If this is still not working you may need to review your firewall rules.  Verify you have put in the right port number (in this test it was 20003).  Also verify when jAgent fired up it did not throw any errors.  The primary one you may run into is that something is already listening on the port chose (20003 in this example).  If that happens try another port (20004 and on).
 
@@ -231,7 +231,7 @@ http_headers = Accept,Cookie,Connection,User-Agent,Referer,Host,Authorization,PO
 
 In postman with WRESTTEST you can how see HTTP\_POSTMAN\_TOKEN that can be retrieved via WGETHEADER(KEY,"HTTP\_POSTMAN\_TOKEN")
 
-![](./1526771546300-1526771546300.jpg)
+![336527-jagent-troubleshooting: 1526771546300-1526771546300](./1526771546300-1526771546300.jpg)
 
 ## Data is missing
 
@@ -252,7 +252,7 @@ maxrequest = 100000000
 
 Once you have the webserver responding there is a testing rest api called WRESTTEST to assist you in debugging your environment.  You should be able to browse to http://&lt;your ip&gt;:20002/api/wresttest and you should see the following page.
 
-![](./1526760527506-1526760527506.jpg)
+![336527-jagent-troubleshooting: 1526760527506-1526760527506](./1526760527506-1526760527506.jpg)
 
 If this page does not come up, then verify that wresttest is in the WDB.RESOURCE FILE.  When you first run jAgent with http it looks in your current path for a WDB.RESOURCE file. If it cannot find one it will create one and automatically build the API\*WRESTEST resource.  If this file already exists none of this will happen.  Therefore if you already have a WDB.RESOURCE file with no API\*WRESTTEST item you will have to add it manually.
 

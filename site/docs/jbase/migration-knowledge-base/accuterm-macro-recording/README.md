@@ -7,17 +7,17 @@
 
 # Accuterm Macro Recording
 
-![](./macro_recorder_-_1.jpg)
+![261242-accuterm-macro-recording: macro_recorder_-_1](./macro_recorder_-_1.jpg)
 
 **RECORDING A SESSION**
 
-![](./macro_recorder_2.jpg)
+![261242-accuterm-macro-recording: macro_recorder_2](./macro_recorder_2.jpg)
 
 
 
 ## The Macro Record mini control appears at the foot of the screen.
 
-![](./macro_recorder_-_3.jpg)
+![261242-accuterm-macro-recording: macro_recorder_-_3](./macro_recorder_-_3.jpg)
 
 Record your keystrokes and screen sequences.
 
@@ -25,46 +25,46 @@ Record your keystrokes and screen sequences.
 
 ## Provide a name and description for the recording.
 
-![](./mr-_4.png)
+![261242-accuterm-macro-recording: mr-_4](./mr-_4.png)
 
-## ![](./mr_-_5.png)
+## ![261242-accuterm-macro-recording: mr_-_5](./mr_-_5.png)
 
-![](./mr_6.png)
+![261242-accuterm-macro-recording: mr_6](./mr_6.png)
 
 **PLAYBACK A SESSION**
 
 ## Select the session to playback.
 
-![](./mr-7.jpg)
+![261242-accuterm-macro-recording: mr-7](./mr-7.jpg)
 
 Edit or play back a session in debug (to single step through a recorded sequence)
 
-![](./mr-8.png)
+![261242-accuterm-macro-recording: mr-8](./mr-8.png)
 
 
 
 ## Select the session from the drop down Macro list.
 
-![](./mr_-_10.jpg)
+![261242-accuterm-macro-recording: mr_-_10](./mr_-_10.jpg)
 
 
 
 ## Check the “Run selected procedure instead of Sub Main” checkbox.
 
-![](./mr_11.png)
+![261242-accuterm-macro-recording: mr_11](./mr_11.png)
 
 
 
 ## Run or “Step into” the Macro to run through the session.
 
-![](./mr_12.png)
+![261242-accuterm-macro-recording: mr_12](./mr_12.png)
 
-![](./mr_13.png)
+![261242-accuterm-macro-recording: mr_13](./mr_13.png)
 
 
 
 ## Save the Macro
 
-![](./mr_14.png)
+![261242-accuterm-macro-recording: mr_14](./mr_14.png)
 
-![](./mr_15.png)
+![261242-accuterm-macro-recording: mr_15](./mr_15.png)

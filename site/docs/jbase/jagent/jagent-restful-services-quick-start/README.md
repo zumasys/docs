@@ -34,7 +34,7 @@ bash-4.2$ jbase_agent --config=
 
 Now open up a browser and point at your server port 20002.  Below is an example where jBASE is running on windows.  From the same computer, jBASE is running on you can browse directly.  If it is on another box you must put in the IP address of the jBASE server where you see localhost
 
-![](./1535132303031-1535132303031.jpg)
+![336524-jagent-quick-start: 1535132303031-1535132303031](./1535132303031-1535132303031.jpg)
 
 On Linux, you can use curl (which you can also install on windows) and test the server from the command prompt
 

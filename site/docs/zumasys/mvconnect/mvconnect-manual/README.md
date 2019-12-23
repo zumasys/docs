@@ -11,7 +11,7 @@ MVConnect is a web application development environment for MultiValue Pick syste
 
 
 
-![](./1574365223932-mv-connect-%2b-zs-software-services-(1).png)
+![mv-connect-manual: 1574365223932-mv-connect-%2b-zs-software-services-(1)](./1574365223932-mv-connect-%2b-zs-software-services-(1).png)
 
 
 

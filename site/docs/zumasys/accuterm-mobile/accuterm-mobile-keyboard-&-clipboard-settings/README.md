@@ -11,7 +11,7 @@ Most terminals provide commands that allow the host to program the function keys
 
 
 
-![](./1573846056106-1573846056106.png)
+![accuterm-mobile-keydocszumasyscom-board-clipboard-settings: 1573846056106-1573846056106](./1573846056106-1573846056106.png)
 
 
 
@@ -19,4 +19,4 @@ Paste Options: end-of-line When the clipboard is "pasted" to an AccuTerm session
 
 
 
-![](./1573846217288-1573846217288.png)
+![accuterm-mobile-keydocszumasyscom-board-clipboard-settings: 1573846217288-1573846217288](./1573846217288-1573846217288.png)

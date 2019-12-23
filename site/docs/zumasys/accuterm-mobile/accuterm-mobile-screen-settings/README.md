@@ -11,7 +11,7 @@
 
 Use the Screen Settings panel to specify the size of the terminal screen, the number of screen pages, the number of history rows, the status line, and other options.
 
-![](./1573845191446-1573845191446.png)
+![494604-accuterm-mobile-screen-settings: 1573845191446-1573845191446](./1573845191446-1573845191446.png)
 
 
 
@@ -51,7 +51,7 @@ There are two separate screen sizes that AccuTerm supports: normal and extended.
 
 Since AccuTerm assigns colors to the visual attributes, some of the visual effects are not as important as they were on a real terminal. You can disable the underline effect or the blinking effect is you like. The assigned colors will still be used for those attributes, but the actual underline or blink will be disabled.
 
-![](./1573845463553-1573845463553.png)
+![494604-accuterm-mobile-screen-settings: 1573845463553-1573845463553](./1573845463553-1573845463553.png)
 
 
 

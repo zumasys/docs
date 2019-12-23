@@ -21,7 +21,7 @@ The following diagrams show two of the most common deployment scenarios. In both
 
 This model represents deployment scenarios where a Java Client Application has the responsibility to create and manage connection, transaction and security resource.
 
-**![](./jdbc.png)**
+**![251032-introduction-to-jodbc: jdbc](./jdbc.png)**
 
 
 
@@ -29,7 +29,7 @@ This model represents deployment scenarios where a Java Client Application has t
 
 A three-tier deployment scenario would often involve an application server hosting different application components as e.g EJBs, servlets, etc. Deploying the jBASE JDBC Driver on a J2EE application server does not only allow those applications to perform SQL queries against jBASE, but also allows the application server to manage its connections, transactions and security aspects.
 
-![](./jdbc2.png)
+![251032-introduction-to-jodbc: jdbc2](./jdbc2.png)
 
 # 
 

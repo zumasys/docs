@@ -9,7 +9,7 @@
 
 ## Terminal Type
 
-![](./1565907664520-1565907664520.png)
+![accuterm-8-terminal-settings: 1565907664520-1565907664520](./1565907664520-1565907664520.png)
 
 
 | Terminal Emulation: | In order for AccuTerm to work properly with terminal-based applications, the terminal type that AccuTerm is emulating must match the terminal type the host application is configured or designed to use. Select the terminal type (emulation or personality) from the drop-down list. If you select the wrong type, your screen will probably be scrambled, and you should try a different type. The following supported terminal types for AccuTerm 8 Web are :<ul><li>TTY</li><li>Wyse 50</li><li>Wyse 60</li><li>ADDS Viewpoint</li><li>Viewpoint Enhanced</li><li>VT100</li><li>VT220</li><li>VT320</li><li>VT420</li><li>Linux Console</li><li>Xterm</li><li>Pick PC Monitor</li></ul> |
@@ -22,7 +22,7 @@
 
 ## Terminal Options
 
-![](./1565908018357-1565908018357.png)
+![accuterm-8-terminal-settings: 1565908018357-1565908018357](./1565908018357-1565908018357.png)
 
 
 | Send 8 bit controls: | Send 8 bit controls If this option is selected, then 8-bit control codes will be transmitted to the host. If the option is not set (the default), equivalent 7-bit escape sequences will be transmitted to the host. This option applies to the VT220, VT320, VT420 and Linux Console emulations.<br> |

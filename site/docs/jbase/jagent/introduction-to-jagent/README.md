@@ -22,7 +22,7 @@ This document describes many concepts and methodologies that are highly technica
 
 jAgent is a **server-side** jBASE component responsible for accepting and processing incoming client requests. Communication is established via TCP socket connections and by means of a well defined protocol. jAgent is a socket server listening on a user-defined TCP port and has the capability to serve a wide range of client applications as long as they speak the same protocol.
 
-![](./jagent.png)
+![introduction-to-jagent: jagent](./jagent.png)
 
 This protocol is currently implemented by the following jBASE components:
 
@@ -68,7 +68,7 @@ bash-4.2$ jbase_agent --config=
 
 Now open up a browser and point at your server port 20002.  Below is a example where jBase is running on windows.  From the same computer jBase is running on you can browse directly.  If it is on a another box you must put in the IP address of the jBase server where you see localhost
 
-![](./1535132303031-1535132303031.jpg)
+![introduction-to-jagent: 1535132303031-1535132303031](./1535132303031-1535132303031.jpg)
 
 On linux you can use curl (which you can also install on windows) and test the server from the command prompt
 

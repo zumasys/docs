@@ -14,15 +14,15 @@ Another option which I do in addition to a VM snapshot when performing work on a
 1. Right click the VM and select “Create Snapshot”.
 
 
-![](./img1.png)
+![vm-snapshot: img1](./img1.png)
 
 1. Select the desired options. (In most cases you probably don’t need to snapshot memory)
 
 
-![](./img2.png)
+![vm-snapshot: img2](./img2.png)
 
-1. Wait for the process to Complete.![](./img3.png)
+1. Wait for the process to Complete.![vm-snapshot: img3](./img3.png)
 2. If you need to revert or are done with maintenance and ready to remove the snapshot, right click the VM again and select the option you need.
 
 
-![](./img4.png)
+![vm-snapshot: img4](./img4.png)

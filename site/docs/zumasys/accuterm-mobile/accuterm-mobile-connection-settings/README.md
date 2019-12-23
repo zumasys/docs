@@ -9,7 +9,7 @@ AccuTerm supports Telnet connections to host machines over a TCP/IP network. Any
 
 
 
-![](./1573842210904-1573842210904.png)
+![connection-settings: 1573842210904-1573842210904](./1573842210904-1573842210904.png)
 
 ### Host Details
 

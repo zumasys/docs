@@ -32,7 +32,7 @@ CALL WGETVAR(VAR1,"var1")
 
 Only variables sent on the url bar or via x-www-form-urlencoded posts.  Form-Data encoding is not supported. Below is an example from [POSTMAN](https://www.getpostman.com/)
 
-![](./blob.jpg)
+![wgetvar: blob](./blob.jpg)
 
 You can get a list of all supplied variables by call the WGETINFO subroutine and pass it 25.
 

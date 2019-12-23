@@ -25,13 +25,13 @@ The steps are:
 
 1. Run the jBASE installer to start the prerequisite installer as below:
 
-![](./1529567469018-pre-requisites-1.png)
+![323804-windows-compiler-installation: 1529567469018-pre-requisites-1](./1529567469018-pre-requisites-1.png)
 
 
 
 2. If no suitable compiler is found on the local machine, the following dialog will be shown:
 
-![](./1529567512150-2.png)
+![323804-windows-compiler-installation: 1529567512150-2](./1529567512150-2.png)
 
 
 
@@ -39,21 +39,21 @@ The steps are:
 
 
 
-When the Visual Studio site opens, locate **Build Tools for Visual Studio 2017** and click the download link.![](./1529567567138-prerequisite-option.png)
+When the Visual Studio site opens, locate **Build Tools for Visual Studio 2017** and click the download link.![323804-windows-compiler-installation: 1529567567138-prerequisite-option](./1529567567138-prerequisite-option.png)
 
 From jBASE 5.7.2.1 onward, a link to the**Build Tools for Visual Studio 201****9**will be shown:
 
-![](./1554395100531-vs2019buildtools.jpg)
+![323804-windows-compiler-installation: 1554395100531-vs2019buildtools](./1554395100531-vs2019buildtools.jpg)
 
 
 
 4. Make selections as in the screenshot below, and click install:
 
-![](./1529567629668-prerequisite-download.png)
+![323804-windows-compiler-installation: 1529567629668-prerequisite-download](./1529567629668-prerequisite-download.png)
 
 The selections available in Build Tools 2019 are much the same:
 
-![](./1554395214475-vs2019buildtooloptions.jpg)
+![323804-windows-compiler-installation: 1554395214475-vs2019buildtooloptions](./1554395214475-vs2019buildtooloptions.jpg)
 
 
 
@@ -65,13 +65,13 @@ The selections available in Build Tools 2019 are much the same:
 
 8. The user will be prompted to update environment variables:
 
-![](./1529567691049-5.png)
+![323804-windows-compiler-installation: 1529567691049-5](./1529567691049-5.png)
 
 
 
 7. Click the **Update Environment Variables**button and click **Next**after the confirmation prompt:
 
-![](./1529568053152-6.png)
+![323804-windows-compiler-installation: 1529568053152-6](./1529568053152-6.png)
 
 
 

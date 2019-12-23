@@ -41,37 +41,37 @@ chmod +x install-accutermio.bin
 
 3. Press enter to start the installation process.
 
-![](./1566495022856-1566495022856.png)
+![accuterm-8-installing-accuterm-web-server-package: 1566495022856-1566495022856](./1566495022856-1566495022856.png)
 
 4. Specify the installation directory or press enter to accept the default path (/opt/accutermio).
 
-![](./1566495108848-1566495108848.png)
+![accuterm-8-installing-accuterm-web-server-package: 1566495108848-1566495108848](./1566495108848-1566495108848.png)
 
 5. Specify the port you wish for AccuTerm IO to use or press enter to accept the default port (4380).
 
-![](./1566495179748-1566495179748.png)
+![accuterm-8-installing-accuterm-web-server-package: 1566495179748-1566495179748](./1566495179748-1566495179748.png)
 
 6. Setup the systemctl service for AccuTerm Web.
 
-![](./1566495270203-1566495270203.png)
+![accuterm-8-installing-accuterm-web-server-package: 1566495270203-1566495270203](./1566495270203-1566495270203.png)
 
 7. Update your firewall to allow access to your defined port (default 4380).
 
-![](./1567036893665-1567036893665.png)
+![accuterm-8-installing-accuterm-web-server-package: 1567036893665-1567036893665](./1567036893665-1567036893665.png)
 
 8. The installer will by default create you a self-signed cert.  You must supply a DNS name for your server.  If you do not use a DNS  you can use an IP address instead.  Please read the section on Security to fully understand certs and how to later create fully signed certs.
 
-![](./1567037084209-1567037084209.png)
+![accuterm-8-installing-accuterm-web-server-package: 1567037084209-1567037084209](./1567037084209-1567037084209.png)
 
 9. The installer will now run and generate your self signed cert and start up the AccuTerm IO service
 
-![](./1567037162625-1567037162625.png)
+![accuterm-8-installing-accuterm-web-server-package: 1567037162625-1567037162625](./1567037162625-1567037162625.png)
 
 
 
 10. AccuTerm IO Server is now installed.  Let's now test to make sure your workstation can talk to the server.  Open up Chrome or Firefox and open up the test status page.
 
-![](./1567117613397-1567117613397.png)
+![accuterm-8-installing-accuterm-web-server-package: 1567117613397-1567117613397](./1567117613397-1567117613397.png)
 
 This error is because we are using a self-signed cert.  Accept this site click the Advanced Button and choose the Proceed link. The page should respond with a simple 1.  Please read below about Server Security to understand certs and how to install a fully signed cert and remove this error.  While using the self-signed cert each workstation that wishes to connect will need to go directly to the above page and choose to proceed.
 

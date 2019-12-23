@@ -19,7 +19,7 @@ Apple: [https://itunes.apple.com/us/app/microsoft-authenticator/id983156458?mt=8
 
 The user is required to enroll for MFA once the feature has been enabled for their account by an administrator. The user should sign in to Office 365 as usual with their username and password, and then click **Set it up now** on the sign in screen.
 
-![](./1546525035928-1546525035928.jpg)
+![355157-o365-account-setup: 1546525035928-1546525035928](./1546525035928-1546525035928.jpg)
 
 On the *Additional security verification* screen, select **Mobile app** from the menu below *Step 1: How should we contact you?*
 
@@ -29,13 +29,13 @@ Click **Set up** to setup the Mobile Authenticator app
 
 
 
-![](./1546525058539-1546525058539.jpg)
+![355157-o365-account-setup: 1546525058539-1546525058539](./1546525058539-1546525058539.jpg)
 
 ### Info
 
 Change this to **Notify me through app**or **Receive notifications for verification**(not sure which terminology is used)
 
-![](./1546525152582-1546525152582.jpg)
+![355157-o365-account-setup: 1546525152582-1546525152582](./1546525152582-1546525152582.jpg)
 
 Download and install the Microsoft Authenticator app on your iPhone or Android.
 
@@ -73,31 +73,31 @@ Method 1
 - Click on your name in the top right corner, and click **Profile**
 
 
-**![](./1546525189736-1546525189736.jpg)**
+**![355157-o365-account-setup: 1546525189736-1546525189736](./1546525189736-1546525189736.jpg)**
 
 
 
 - Click on **Additional security verification**
 
 
-![](./1546525228902-1546525228902.jpg)
+![355157-o365-account-setup: 1546525228902-1546525228902](./1546525228902-1546525228902.jpg)
 
 Method 2
 
 - While signed in to the Office 365 portal, click on your user name in the top right corner, then click **My account**, and then click on **Manage security & privacy**
 
 
-![](./1546525251159-1546525251159.jpg)
+![355157-o365-account-setup: 1546525251159-1546525251159](./1546525251159-1546525251159.jpg)
 
 - Click on **Add or change your security verification settings**
 
 
-**![](./1546525259850-1546525259850.jpg)**
+**![355157-o365-account-setup: 1546525259850-1546525259850](./1546525259850-1546525259850.jpg)**
 
 - Click on **Update your phone numbers used for account security**
 
 
-![](./1546525269438-1546525269438.jpg)
+![355157-o365-account-setup: 1546525269438-1546525269438](./1546525269438-1546525269438.jpg)
 
 
 

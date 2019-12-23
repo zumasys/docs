@@ -26,7 +26,7 @@ In this example we are telling Apache any request to /API is to be sent to MVCon
 
 NGIX is a newer webserver competing now with Apache.  It is thread-based and in many ways faster than Apache. The [ngx\_http\_upsream\_module](http://nginx.org/en/docs/http/ngx_http_upstream_module.html#upstream) does the same thing as the Apache mod\_proxy.  Connection pooling appears to be only available now in the commercial product.  Look on the link above for the max\_conns directive.
 
-![](./1501364364091.jpg)
+![265134-connection-pooling: 1501364364091](./1501364364091.jpg)
 
 ### HAPROXY
 

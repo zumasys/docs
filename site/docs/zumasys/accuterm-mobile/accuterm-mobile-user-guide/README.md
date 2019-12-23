@@ -14,7 +14,7 @@ AccuTerm Mobile offers Terminal Emulation for remote management of host systems 
 ## 
 
 
-### ![](./1573841276731-1573841276731.png)
+### ![accuterm-mobile-user-guide: 1573841276731-1573841276731](./1573841276731-1573841276731.png)
 
 
 

@@ -14,7 +14,7 @@ The main purpose of jBASE Remote File Service (jRFS) is to allow files to be sha
 
 
 
-![](./1522713719604-jrfs.png)
+![306074-remote-files: 1522713719604-jrfs](./1522713719604-jrfs.png)
 
 
 

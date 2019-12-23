@@ -12,7 +12,7 @@
 
 The **jBASE ODBC Connector** is an ODBC driver implementing the Open Database Connectivity (ODBC) 3.0 API. This driver release supports a driver-manager based and Unicode compliant interface, featuring support for transactions and calling stored procedures. The ODBC Connector is only available to Windows platforms but SQL requests may be issued against a remote jBASE instance running on other platforms.
 
-![](./odbc.jpg)
+![251010-introduction-to-odbc: odbc](./odbc.jpg)
 
 **jAgent** is a jBASE component responsible for accepting and processing incoming client requests.
 
@@ -106,17 +106,17 @@ Adding a DSN for this driver will present the following dialogs:
 
 
 
-![](./1556898171724-createnewodbcdatasource.jpg)
+![251010-introduction-to-odbc: 1556898171724-createnewodbcdatasource](./1556898171724-createnewodbcdatasource.jpg)
 
 
 
-![](./1556898294560-odbc_admin%232.jpg)
+![251010-introduction-to-odbc: 1556898294560-odbc_admin%232](./1556898294560-odbc_admin%232.jpg)
 
 
 
 
 
-![](./1556897912210-odbc_test.jpg)
+![251010-introduction-to-odbc: 1556897912210-odbc_test](./1556897912210-odbc_test.jpg)
 
 
 

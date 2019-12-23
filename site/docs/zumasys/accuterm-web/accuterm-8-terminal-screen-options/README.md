@@ -11,7 +11,7 @@ Use the Screen Settings panel to specify the size of the terminal screen, the nu
 
 ## Screen Size
 
-![](./1565908334197-1565908334197.png)
+![accuterm-8-terminal-screen-options: 1565908334197-1565908334197](./1565908334197-1565908334197.png)
 
 There are two separate screen sizes that AccuTerm supports: normal and extended. These sizes are used to emulate the 80 and 132 column modes of the Wyse and VT terminals. AccuTerm has taken the extended and normal modes one step further: with AccuTerm you can define both the normal and extended modes to be any number of columns or rows (up to a maximum of 240). You can select which screen size is active when the session is first opened by checking the Active box for the desired size. You will probably leave these settings at their default settings of 80 columns by 24 rows for normal mode and 132 columns by 24 rows in extended mode. If you have software that supports other screen sizes, you can experiment with these settings until you find a size that you like. The number of rows may change if you change terminal emulations. The console terminal emulations use 25 rows with no status line; others use 24 rows with one or more status lines. When AccuTerm switches between the normal and extended modes, one of two things will happen: either the font will change the size to fit the visible screen, or scroll bars will be displayed if the full screen will not fit within the session window at the selected font size (see Fonts).
 
@@ -19,7 +19,7 @@ There are two separate screen sizes that AccuTerm supports: normal and extended.
 
 ## Screen Size Settings
 
-![](./1565908354377-1565908354377.png)
+![accuterm-8-terminal-screen-options: 1565908354377-1565908354377](./1565908354377-1565908354377.png)
 
 
 | Screen Pages: | Some of the terminals which AccuTerm emulates support multiple addressable pages. With AccuTerm, you can have up to 25 pages. |
@@ -30,7 +30,7 @@ There are two separate screen sizes that AccuTerm supports: normal and extended.
 
 ## Screen Options
 
-![](./1565908375940-1565908375940.png)
+![accuterm-8-terminal-screen-options: 1565908375940-1565908375940](./1565908375940-1565908375940.png)
 
 
 | Automatic Line Wrap: | When this option is checked, automatic line-wrap is enabled. When the cursor reaches the end of a line, typing another character normally causes the cursor to move to the beginning of the next line. When this option is not set, the cursor does not move. |
@@ -41,7 +41,7 @@ There are two separate screen sizes that AccuTerm supports: normal and extended.
 
 ## Color & Themes
 
-![](./1565908418391-1565908418391.png)
+![accuterm-8-terminal-screen-options: 1565908418391-1565908418391](./1565908418391-1565908418391.png)
 
 The Theme buttons provide an easy way to select one of the built-in color themes. Themes consist of the palette colors, attribute colors and Visual Styles. To preview any of the built-in themes, hover the mouse over one of the theme buttons. The Preview panel temporarily changes to the theme under the mouse so you can see the effect without actually changing the current settings. To select one of the built-in themes, click the theme's button. Some of the built-in themes utilize AccuTerm's "Visual Styles" feature which can make character-based screens look like Windows. This effect requires careful use of the visual attributes by the application. Each rectangular block of characters on the screen with a common visual attribute will be enclosed in a thin border if one is defined for that attribute. Visual Styles supports 3 border styles: inset, raised and flat.
 
@@ -63,7 +63,7 @@ The built-in themes are:
 
 ## Background Image
 
-![](./1565908438598-1565908438598.png)
+![accuterm-8-terminal-screen-options: 1565908438598-1565908438598](./1565908438598-1565908438598.png)
 
 
 
@@ -71,4 +71,4 @@ The built-in themes are:
 
 Since AccuTerm assigns colors to the visual attributes, some of the visual effects are not as important as they were on a real terminal. You can disable the underline effect or the blinking effect is you like. The assigned colors will still be used for those attributes, but the actual underline or blink will be disabled.
 
-![](./1565908467771-1565908467771.png)
+![accuterm-8-terminal-screen-options: 1565908467771-1565908467771](./1565908467771-1565908467771.png)

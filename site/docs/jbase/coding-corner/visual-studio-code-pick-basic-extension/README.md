@@ -26,7 +26,7 @@ Visual Studio Code also works on Linux, unfortunately it will only install and w
 1. To find the PickBasic extension, click on the square extensions button and enter “PickBasic” as the search term:
 
 
-![](./1526402719640-vscode%235.jpg)
+![316972-visual-studio-pick-basic-extension: 1526402719640-vscode%235](./1526402719640-vscode%235.jpg)
 
 2. Once Visual Studio Code is installed:
 
@@ -38,15 +38,15 @@ and open the “package.json” file in Visual Studio Code.
 
 Under the “extensions” tag, set your preferred suffixes:
 
-![](./1526402767128-vscode%232.jpg)
+![316972-visual-studio-pick-basic-extension: 1526402767128-vscode%232](./1526402767128-vscode%232.jpg)
 
 3. Save the changes. When the changes are saved, Visual Studio Code should invite you to reload, otherwise, exit and restart. You can then edit individual items or open a complete folder.  It is also possible to change other settings such as font size, font family, tab size and whether “autosave” is enabled or not:
 
-![](./1526402783273-vscode%233.jpg)
+![316972-visual-studio-pick-basic-extension: 1526402783273-vscode%233](./1526402783273-vscode%233.jpg)
 
 4. End result – syntax highlighting:
 
-![](./1526402805144-vscode%234.jpg)
+![316972-visual-studio-pick-basic-extension: 1526402805144-vscode%234](./1526402805144-vscode%234.jpg)
 
 
 

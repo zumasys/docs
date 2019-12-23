@@ -35,7 +35,7 @@ MYDATA]D        J4        1    1    yes      no
 
 The new file can also be seen in windows explorer
 
-![](./create-file_mydata.png)
+![introduction-to-file-create-and-simple-program-windows: create-file_mydata](./create-file_mydata.png)
 
 
 
@@ -68,7 +68,7 @@ MYDATA]D          J4        1    1    yes      no
 
 The new file can also be seen in windows explorer as a directory
 
-![](./create-file_bp.png)
+![introduction-to-file-create-and-simple-program-windows: create-file_bp](./create-file_bp.png)
 
 ### CREATE A NEW PROGRAM USING JED EDITOR
 
@@ -132,11 +132,11 @@ MYTESTPROGRAM
 
 The contents can also be seen in windows explorer as a directory
 
-![](./newprograms.png)
+![introduction-to-file-create-and-simple-program-windows: newprograms](./newprograms.png)
 
 These program can also be edited using any text editor including notepad
 
-![](./notepad.png)
+![introduction-to-file-create-and-simple-program-windows: notepad](./notepad.png)
 
 ### 
 COMPILE THE BASIC PROGRAM USING BASIC COMMAND
@@ -172,7 +172,7 @@ MYTESTPROGRAM
 
 The compiled code can also be seen in windows explorer
 
-![](./compiledcode.png)
+![introduction-to-file-create-and-simple-program-windows: compiledcode](./compiledcode.png)
 
 ### 
 
@@ -199,13 +199,13 @@ This is my test program. Please hit enter to exit:?
 
 The catalog process also created an executable that can be run from command prompt from the  C:\jBASE\DEMO\bin directory
 
-![](./exe.png)
+![introduction-to-file-create-and-simple-program-windows: exe](./exe.png)
 
 
 
 The subroutine is not located in the bin directory. It can be found as an object in the C:\jBASE\DEMO\lib\objdir directory.
 
-![](./obj.png)
+![introduction-to-file-create-and-simple-program-windows: obj](./obj.png)
 
 
 
@@ -213,7 +213,7 @@ The subroutine is not located in the bin directory. It can be found as an object
 
 Run the executable by double clicking  MYTESTPROGRAM.exe. Notice the error as subroutine cannot be found. This is due to an environment variable not set to allow for subroutine to be found.
 
-![](./error.png)
+![introduction-to-file-create-and-simple-program-windows: error](./error.png)
 
 
 
@@ -254,7 +254,7 @@ Compile and re-catalog programs (see above steps)
 
 Run the executable by double clicking MYTESTPROGRAM.exe.
 
-![](./fixed.png)
+![introduction-to-file-create-and-simple-program-windows: fixed](./fixed.png)
 
 Additional information:
 

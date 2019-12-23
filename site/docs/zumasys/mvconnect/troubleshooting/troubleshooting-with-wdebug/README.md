@@ -68,7 +68,7 @@ Record 'API*HELLOWORLD' written to file 'WDB.RESOURCE'
 
 Now use your browser and call your WEB API
 
-![](./1526850840838-1526850840838.jpg)
+![317564-troubleshooting-with-wdebug: 1526850840838-1526850840838](./1526850840838-1526850840838.jpg)
 
 To turn on debugging you need to do a couple steps.
 
