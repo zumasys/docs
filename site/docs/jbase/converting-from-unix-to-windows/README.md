@@ -2,7 +2,7 @@
 
 **Created At:** 10/18/2018 3:51:58 PM  
 **Updated At:** 11/26/2019 5:32:46 PM  
-**Original Doc:** [converting-from-unix-to-windows](https://docs.jbase.com//converting-from-unix-to-windows)  
+**Original Doc:** [converting-from-unix-to-windows](https://docs.jbase.com/converting-from-unix-to-windows)  
 
 
 ## Document Scope

@@ -2,7 +2,7 @@
 
 **Created At:** 10/15/2018 11:15:01 AM  
 **Updated At:** 12/21/2018 10:27:27 PM  
-**Original Doc:** [jrcs-client-api-reference](https://docs.jbase.com//jrcs-client-api-reference)  
+**Original Doc:** [jrcs-client-api-reference](https://docs.jbase.com/jrcs-client-api-reference)  
 
 
 **Logging into a jBASE account**

@@ -11,7 +11,7 @@
 
 All Implemented Interfaces:[AutoCloseable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true "class or interface in java.lang"), [Statement](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true "class or interface in java.sql"), [Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")
 
-Direct Known Subclasses:[JBaseJDBCPreparedStatement](/39228-jdbc/com_jbase_jdbc_JBaseJDBCPreparedStatement "class in com.jbase.jdbc")
+Direct Known Subclasses:[JBaseJDBCPreparedStatement](./../jbasejdbcpreparedstatement-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
 ```
 public class JBaseJDBCSocketStatement
 extends Object
@@ -23,7 +23,7 @@ implements Statement
 
 | <br>Modifier and Type<br> | <br>Field and Description<br> |
 | --- | --- |
-| <br>protected [List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util")&lt;[SQLStartRequest](./../protocol/sqlstartrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")&gt;<br> | <br>batchRequestsList<br> |
+| <br>protected [List](./../../../../jql/list "class or interface in java.util")&lt;[SQLStartRequest](./../protocol/sqlstartrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")&gt;<br> | <br>batchRequestsList<br> |
 
 
 
@@ -46,7 +46,7 @@ implements Statement
 
 | <br>Constructor and Description<br> |
 | --- |
-| <br>[JBaseJDBCSocketStatement](../../../com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketStatement#JBaseJDBCSocketStatement-com.jbase.jdbc.JBaseJDBCSocketConnection-)([JBaseJDBCSocketConnection](/39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketConnection "class in com.jbase.jdbc") connection)<br> |
+| <br>[JBaseJDBCSocketStatement](../../../com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketStatement#JBaseJDBCSocketStatement-com.jbase.jdbc.JBaseJDBCSocketConnection-)([JBaseJDBCSocketConnection](./../jbasejdbcsocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc") connection)<br> |
 
 
 

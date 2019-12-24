@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 
 
-## Uses of [JCapture](/jrcs/com_jbase_jrcs_JCapture "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29)
+## Uses of [JCapture](./../../jcapture-%28jrclient-api%29 "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29)
 
 
 
@@ -24,11 +24,11 @@ JavaScript is disabled on your browser.
 
 
 
-**Constructors in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) with parameters of type**[**JCapture**](com_jbase_jrcs_JCapture "class in com.jbase.jrcs")
+**Constructors in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) with parameters of type**[**JCapture**](./../../jcapture-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 | Constructor and Description<br> |
 | --- |
-| [JExecuteResults](./../../jexecuteresults-%28jrclient-api%29)(String capturing, [JCapture](com_jbase_jrcs_JCapture "class in com.jbase.jrcs") captureObj, String returning, [JSelectList](com_jbase_jrcs_JSelectList "class in com.jbase.jrcs") returnList)<br> |
+| [JExecuteResults](./../../jexecuteresults-%28jrclient-api%29)(String capturing, [JCapture](./../../jcapture-%28jrclient-api%29 "class in com.jbase.jrcs") captureObj, String returning, [JSelectList](./../../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs") returnList)<br> |
 
 
 

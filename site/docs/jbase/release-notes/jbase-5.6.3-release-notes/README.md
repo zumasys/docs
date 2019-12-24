@@ -7,14 +7,14 @@
 
 # Patches
 
-- [PN5\_60581](PN5_60581) - Allow "!" to execute Operating System (OS) commands in Procs and Paragraphs
+- [PN5\_60581](./../5.6.2-release-notes/pn5_60581) - Allow "!" to execute Operating System (OS) commands in Procs and Paragraphs
 - [PN5\_60582](./../5.6.2-release-notes/pn5_60582) - New environment variable to configure the jShell command stack history and/or specify a username based stack
 - [PN5\_60583](./../5.6.2-release-notes/pn5_60583) - Allow attribute 1 in F-pointers and PQ/PQN/PA/PR items to be caseless
 - [PN5\_60584](./../5.6.2-release-notes/pn5_60584) - jQL: Allow [Ann] style default dictionaries for d3 emulation
 - [PN5\_60586](./../5.6.2-release-notes/pn5_60586) - jQL: Process malformed A-correlatives with missing semi-colons
 - [PN5\_60587](./../5.6.2-release-notes/pn5_60587) - jQL: Prevent hidden columns from corrupting totals of other columns
 - [PN5\_60589](./../5.6.2-release-notes/pn5_60589) - Case Independence: jQL and Secondary Index issue
-- [PN5\_60591](PN5_60591) - jQL: Issue with A/F correlative using Repeat function
+- [PN5\_60591](./../5.6.2-release-notes/pn5_60591) - jQL: Issue with A/F correlative using Repeat function
 - [PN5\_60592](./../5.6.2-release-notes/pn5_60592)- A jQL statement with more that 3 BREAK-ONs corrupts totals
 - [PN5\_60593](./../5.6.2-release-notes/pn5_60593) - jBC: D3 style input timeout
 - [PN5\_60594](./../5.6.2-release-notes/pn5_60594) - jBC: Map SYSTEM() functions for D3 compatibility
@@ -64,7 +64,7 @@
 - [PN5\_60645](./../5.6.2-release-notes/pn5_60645) - New command **viewindex** to view a jBASE Secondary Index
 - [PN5\_60646](./../5.6.2-release-notes/pn5_60646)  - jQL not correctly processing statements using both FMT and CONV
 - [PN5\_60647](./../5.6.2-release-notes/pn5_60647) - SP-ASSIGN resets list pointer
-- [PN5\_60648](PN5_60648) - Stale header data in JP files (Error number 2017)
+- [PN5\_60648](./../pn5_60648) - Stale header data in JP files (Error number 2017)
 
 
 # New Commands

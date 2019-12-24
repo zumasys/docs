@@ -2,7 +2,7 @@
 
 **Created At:** 11/26/2019 5:21:13 PM  
 **Updated At:** 11/26/2019 6:37:23 PM  
-**Original Doc:** [structure-of-odbc-jedi-mapping-files](https://docs.jbase.com//structure-of-odbc-jedi-mapping-files)  
+**Original Doc:** [structure-of-odbc-jedi-mapping-files](https://docs.jbase.com/structure-of-odbc-jedi-mapping-files)  
 
 
 ## ODBC jEDI File Stub

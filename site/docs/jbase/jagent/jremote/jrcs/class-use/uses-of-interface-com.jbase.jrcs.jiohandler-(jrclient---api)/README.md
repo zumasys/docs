@@ -5,32 +5,32 @@
 **Original Doc:** [com_jbase_jrcs_class-use_jiohandler](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jiohandler)  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Interface com.jbase.jrcs.JIOHandler (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&lt;div&gt;JavaScript is disabled on your browser.s.JIOHandler
-## Uses of [JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29)
+## Uses of [JIOHandler](./../../jiohandler-%28jrclient-api%29 "interface in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29)
 
-**Classes in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) that implement [JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs")**
+**Classes in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) that implement [JIOHandler](./../../jiohandler-%28jrclient-api%29 "interface in com.jbase.jrcs")**
 
 | <br>Modifier and Type<br> | <br>Class<br> | Description |
 | --- | --- | --- |
-| <br>class<br> | <br>[JDefaultIOHandler](/jrcs/com_jbase_jrcs_JDefaultIOHandler "class in com.jbase.jrcs")<br> | <br>| <br>``Default i**mplementation of jRCS I/O handler.**<br> |<br> |
+| <br>class<br> | <br>[JDefaultIOHandler](./../../jdefaultiohandler-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | <br>| <br>``Default i**mplementation of jRCS I/O handler.**<br> |<br> |
 
 
 
 
 
-**Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) that return [JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs")**
+**Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) that return [JIOHandler](./../../jiohandler-%28jrclient-api%29 "interface in com.jbase.jrcs")**
 
 | <br>Modifier and Type<br> | <br>Method<br> | Description |
 | --- | --- | --- |
-| <br>[JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs")<br> | <br>JConnection.[getTermIOHandler](/jrcs/com_jbase_jrcs_JConnection#getTermIOHandler-)()<br> | <br>Retrieves a reference to the current terminal I/O handler.<br> |
+| <br>[JIOHandler](./../../jiohandler-%28jrclient-api%29 "interface in com.jbase.jrcs")<br> | <br>JConnection.[getTermIOHandler](/jrcs/com_jbase_jrcs_JConnection#getTermIOHandler-)()<br> | <br>Retrieves a reference to the current terminal I/O handler.<br> |
 
 
 
 
 
-**Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) with parameters of type [JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs")**
+**Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) with parameters of type [JIOHandler](./../../jiohandler-%28jrclient-api%29 "interface in com.jbase.jrcs")**
 
 | <br>Modifier and Type<br> | <br>Method<br> | <br>Description<br> |
 | --- | --- | --- |
-| <br>void<br> | <br>JConnection.[setTermIOHandler](/jrcs/com_jbase_jrcs_JConnection#setTermIOHandler-com.jbase.jrcs.JIOHandler-)([JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs") handler)<br> | <br>Sets a terminal I/O handler.<br> |
+| <br>void<br> | <br>JConnection.[setTermIOHandler](/jrcs/com_jbase_jrcs_JConnection#setTermIOHandler-com.jbase.jrcs.JIOHandler-)([JIOHandler](./../../jiohandler-%28jrclient-api%29 "interface in com.jbase.jrcs") handler)<br> | <br>Sets a terminal I/O handler.<br> |
 
 

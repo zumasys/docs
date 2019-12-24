@@ -1,7 +1,7 @@
 # Method: $inherit() - Class Inheritance
 
 **Created At:** 12/5/2019 11:16:33 AM  
-**Updated At:** 12/16/2019 10:18:09 AM  
+**Updated At:** 12/24/2019 6:06:11 PM  
 **Original Doc:** [method-inherit-class](https://docs.jbase.com/42948-dynamic-objects/method-inherit-class)  
 
 
@@ -177,10 +177,65 @@ The cost of this account is: $25.00
 
 We are now passing 2 values, account number and deposit amount, on the command line. But again, these values would typically come from a database.
 
-As a last point to make, there's really nothing preventing us from implementing multiple inheritance, that is inheriting from multiple classes, e.g.
+The **$inherit()** method allows any number of classes to be inherited. So there's nothing preventing us from doing this:
 
 ```
 self->$inherit("Bank", "Account")
 ```
 
 But you would need to be cautious if the same method name was implemented in both classes. It that case, the **Bank** (left most) class would take precedence.
+
+By default, if an inherited class has no constructor then an exception is thrown.
+
+In the example below, program **branch.jabba** creates an object. The object in program **class\_branch.jabba**calls **$inherit()** on a class that does not exist, at least it has no constructor. In this case an exception is thrown and we catch that and display the exception message (which usefully includes the call stack).
+
+Note: Had we run the same program but *without* **try**/**catch** then the debugger would have been entered.
+
+```
+ID: class_branch.jabba
+
+    method Branch::Branch()
+        crt "This is the constructor for Branch"
+        this->$inherit("Tree")
+    end method
+
+
+ID: branch.jabba
+
+    include jabba.h
+    try
+        branch = new object("Branch")
+    catch ex
+        crt ex->$tojson(jabba_tojson_verbose)
+    end try
+
+C:\home\jabba>branch
+This is the constructor for Branch
+{
+        "message":"NO_METHOD",
+        "message_operands":[
+
+        ],
+        "message_long":" ** Error [ NO_METHOD ] ** \nUnable to perform method Branch::Tree(), Line     3 , Source class_branch.jabba\nPress C to continue or Q to quit\n",
+        "catch_count":2,
+        "recursive_catch_policy":-1,
+        "try":{
+                "source":"branch.jabba",
+                "lineno":2
+        },
+        "throw":{
+                "source":"class_branch.jabba",
+                "lineno":3
+        },
+        "stack":[
+                {
+                        "source":"branch.jabba",
+                        "lineno":3
+                }
+        ]
+}
+```
+
+To disable an exception from being thrown when a class has no contructor, use the JABBA\_NO\_INHERIT\_EXCEPTION flag, which is defined in jabba.h.
+
+Remember that the $inherit() method allows any number of classes to be inherited.

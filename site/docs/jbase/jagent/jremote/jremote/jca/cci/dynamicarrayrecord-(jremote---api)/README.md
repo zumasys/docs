@@ -49,7 +49,7 @@ com.jbase.jremote.jca.cci
 
 ## Interface DynamicArrayRecord
 
-- All Superinterfaces:[Cloneable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Cloneable.html?is-external=true "class or interface in java.lang"), [Collection](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Collection.html?is-external=true "class or interface in java.util"), javax.resource.cci.IndexedRecord, [Iterable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true "class or interface in java.lang"), [List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util"), javax.resource.cci.Record, [Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"), javax.resource.cci.Streamable
+- All Superinterfaces:[Cloneable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Cloneable.html?is-external=true "class or interface in java.lang"), [Collection](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Collection.html?is-external=true "class or interface in java.util"), javax.resource.cci.IndexedRecord, [Iterable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true "class or interface in java.lang"), [List](./../../../../../../jql/list "class or interface in java.util"), javax.resource.cci.Record, [Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"), javax.resource.cci.Streamable
 * * *
 
 
@@ -64,7 +64,7 @@ extends javax.resource.cci.IndexedRecord, javax.resource.cci.Streamable
 `clone, equals, getRecordName, getRecordShortDescription, hashCode, setRecordName, setRecordShortDescription`
 
 
-        - ### Methods inherited from interface java.util.[List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util")
+        - ### Methods inherited from interface java.util.[List](./../../../../../../jql/list "class or interface in java.util")
 `add, add, addAll, addAll, clear, contains, containsAll, equals, get, hashCode, indexOf, isEmpty, iterator, lastIndexOf, listIterator, listIterator, remove, remove, removeAll, replaceAll, retainAll, set, size, sort, spliterator, subList, toArray, toArray`
 
 

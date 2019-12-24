@@ -11,7 +11,7 @@ Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
 - [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
-- [Class](/39232-io/com_jbase_jdbc_io_JBaseSerializable.TYPE "interface in com.jbase.jdbc.io")
+- [Class](./../../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 - Use
 - [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
@@ -42,7 +42,7 @@ Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
 - [Package](./../../com.jbase.jdbc.io-%28jbasejdbc---api%29)
-- [Class](/39232-io/com_jbase_jdbc_io_JBaseSerializable.TYPE "interface in com.jbase.jdbc.io")
+- [Class](./../../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 - Use
 - [Tree](./../../com.jbase.jdbc.io-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)

@@ -14,7 +14,7 @@
 
 ## Document Scope
 
-This document covers the use of the jBASE **Spool2pdf**utility and is intended to be read as a companion to the [Spooler documentation.](44205-spooler)
+This document covers the use of the jBASE **Spool2pdf**utility and is intended to be read as a companion to the [Spooler documentation.](./..)
 
 
 

@@ -9,7 +9,7 @@
 
 ## Class JStatementImpl
 
-All Implemented Interfaces:[JStatement](/39248-jremote/com_jbase_jremote_JStatement "interface in com.jbase.jremote")
+All Implemented Interfaces:[JStatement](./../../jstatement-%28jremote-api%29 "interface in com.jbase.jremote")
 * * *
 
 

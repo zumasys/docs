@@ -11,16 +11,16 @@ JavaScript is disabled on your browser.
 
 
 
-## Uses of [JCommon](com_jbase_jrcs_JCommon "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29)
+## Uses of [JCommon](./../../jcommon-%28jrclient-api%29 "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29)
 
 
 
-**Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) that return [JCommon](com_jbase_jrcs_JCommon "class in com.jbase.jrcs")**
+**Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) that return [JCommon](./../../jcommon-%28jrclient-api%29 "class in com.jbase.jrcs")**
 
 
 | Modifier and Type<br> | Method<br> | Description<br> |
 | --- | --- | --- |
-| [JCommon](com_jbase_jrcs_JCommon "class in com.jbase.jrcs")<br> | JConnection.[attachCommon](/jrcs/com_jbase_jrcs_JConnection#attachCommon-)(int numVars, String name)<br> | Attaches a common block by name with a given number of variables<br> |
+| [JCommon](./../../jcommon-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | JConnection.[attachCommon](/jrcs/com_jbase_jrcs_JConnection#attachCommon-)(int numVars, String name)<br> | Attaches a common block by name with a given number of variables<br> |
 
 
 

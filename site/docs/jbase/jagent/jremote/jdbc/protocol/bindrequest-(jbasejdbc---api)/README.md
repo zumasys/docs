@@ -20,7 +20,7 @@ Skip navigation links
 
 jbasejdbc <br>
 
-- [Prev Class](/39240-protocol/com_jbase_jdbc_protocol_AuthenticationRequest.UserCredentials "class in com.jbase.jdbc.protocol")
+- [Prev Class](./../authenticationrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol")
 - [Next Class](./../callsubroutinerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 
 
@@ -204,7 +204,7 @@ Skip navigation links
 
 jbasejdbc <br>
 
-- [Prev Class](/39240-protocol/com_jbase_jdbc_protocol_AuthenticationRequest.UserCredentials "class in com.jbase.jdbc.protocol")
+- [Prev Class](./../authenticationrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol")
 - [Next Class](./../callsubroutinerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")
 
 

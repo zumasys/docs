@@ -211,7 +211,7 @@ Because web/rest functions run in the background it is difficult to see actual e
 
 Jbase documentation on Error Logging [Link](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup42_ERROR_HANDLING.htm)
 
-New run-time errors option [Link](https://docs.jbase.com/43708-misc-patches/pn5_60517)
+New run-time errors option [Link](./../../../../jbase/release-notes/pn5_60517)
 
 Most pick platforms also have a where command to give you some information on what a process is doing.  If a program is taking a long time to finish you may get a invalid request back to your browser but when you look inside your system with a list of processes you may still see the process running.  Use you normal system tools such as where to see what the process is doing.  On jBase you can use the (v option to get more information.
 

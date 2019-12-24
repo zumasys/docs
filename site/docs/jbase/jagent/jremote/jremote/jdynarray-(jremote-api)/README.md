@@ -9,7 +9,7 @@
 
 ## Class JDynArray
 
-All Implemented Interfaces:[IByteObject](/39250-io/com_jbase_jremote_io_IByteObject "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[IByteObject](./../io/ibyteobject-%28jremote-api%29 "interface in com.jbase.jremote.io")
 * * *
 
 

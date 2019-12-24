@@ -133,7 +133,7 @@ You can programatically examine the **runtime-errors** file like this:
 017     REPEAT
 ```
 
-***It is highly recommended to keep your customized error message file outside of the jBASE directory, $JBCRELEASEDIR. This can be accomplished with the [JBCERRFILE](JBCERRFILE) environment variable***
+***It is highly recommended to keep your customized error message file outside of the jBASE directory, $JBCRELEASEDIR. This can be accomplished with the [JBCERRFILE](./../../environment-variables/jbcerrfile) environment variable***
 
 * * *
 

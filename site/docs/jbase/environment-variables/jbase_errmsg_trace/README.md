@@ -48,7 +48,7 @@ set JBASE_ERRMSG_TRACE=1
 ## Notes:
 
 
-> See patch [**5\_60517**](PN5_60517) for an alternate (better) way to log errors.
+> See patch [**5\_60517**](./../../release-notes/pn5_60517) for an alternate (better) way to log errors.
 
 
 

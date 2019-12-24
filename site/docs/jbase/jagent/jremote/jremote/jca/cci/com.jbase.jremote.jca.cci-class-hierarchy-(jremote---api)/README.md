@@ -56,21 +56,21 @@ Package Hierarchies:
 
 - java.lang.[Cloneable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Cloneable.html?is-external=true "class or interface in java.lang")
     - javax.resource.cci.Record (also extends java.io.[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"))
-        - javax.resource.cci.IndexedRecord (also extends java.util.[List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util")&lt;E&gt;, java.io.[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"))
+        - javax.resource.cci.IndexedRecord (also extends java.util.[List](./../../../../../../jql/list "class or interface in java.util")&lt;E&gt;, java.io.[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"))
             - com.jbase.jremote.jca.cci.[DynamicArrayRecord](./../dynamicarrayrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci") (also extends javax.resource.cci.Streamable)
             - com.jbase.jremote.jca.cci.[SubroutineParametersRecord](./../subroutineparametersrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci") (also extends javax.resource.cci.Streamable)
 - java.lang.[Iterable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true "class or interface in java.lang")&lt;T&gt;
     - java.util.[Collection](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Collection.html?is-external=true "class or interface in java.util")&lt;E&gt;
-        - java.util.[List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util")&lt;E&gt;
+        - java.util.[List](./../../../../../../jql/list "class or interface in java.util")&lt;E&gt;
             - javax.resource.cci.IndexedRecord (also extends javax.resource.cci.Record, java.io.[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"))
                 - com.jbase.jremote.jca.cci.[DynamicArrayRecord](./../dynamicarrayrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci") (also extends javax.resource.cci.Streamable)
                 - com.jbase.jremote.jca.cci.[SubroutineParametersRecord](./../subroutineparametersrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci") (also extends javax.resource.cci.Streamable)
 - java.io.[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io")
-    - javax.resource.cci.IndexedRecord (also extends java.util.[List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util")&lt;E&gt;, javax.resource.cci.Record)
+    - javax.resource.cci.IndexedRecord (also extends java.util.[List](./../../../../../../jql/list "class or interface in java.util")&lt;E&gt;, javax.resource.cci.Record)
         - com.jbase.jremote.jca.cci.[DynamicArrayRecord](./../dynamicarrayrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci") (also extends javax.resource.cci.Streamable)
         - com.jbase.jremote.jca.cci.[SubroutineParametersRecord](./../subroutineparametersrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci") (also extends javax.resource.cci.Streamable)
     - javax.resource.cci.Record (also extends java.lang.[Cloneable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Cloneable.html?is-external=true "class or interface in java.lang"))
-        - javax.resource.cci.IndexedRecord (also extends java.util.[List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util")&lt;E&gt;, java.io.[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"))
+        - javax.resource.cci.IndexedRecord (also extends java.util.[List](./../../../../../../jql/list "class or interface in java.util")&lt;E&gt;, java.io.[Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"))
             - com.jbase.jremote.jca.cci.[DynamicArrayRecord](./../dynamicarrayrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci") (also extends javax.resource.cci.Streamable)
             - com.jbase.jremote.jca.cci.[SubroutineParametersRecord](./../subroutineparametersrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci") (also extends javax.resource.cci.Streamable)
 - javax.resource.cci.Streamable

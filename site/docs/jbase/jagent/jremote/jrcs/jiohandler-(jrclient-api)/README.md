@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Interface JIOHandler
 
-All Known Implementing Classes:[JDefaultIOHandler](/jrcs/com_jbase_jrcs_JDefaultIOHandler "class in com.jbase.jrcs")
+All Known Implementing Classes:[JDefaultIOHandler](./../jdefaultiohandler-%28jrclient---api%29 "class in com.jbase.jrcs")
 ```
 public interface JIOHandler
 ```

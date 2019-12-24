@@ -2,7 +2,7 @@
 
 **Created At:** 12/20/2019 4:47:27 PM  
 **Updated At:** 12/23/2019 10:17:17 PM  
-**Original Doc:** [installing-the-odbc-jedi-on-linuxunix](https://docs.jbase.com//installing-the-odbc-jedi-on-linuxunix)  
+**Original Doc:** [installing-the-odbc-jedi-on-linuxunix](https://docs.jbase.com/installing-the-odbc-jedi-on-linuxunix)  
 
 
 As previously stated, in order to properly perform the steps defined in this section, you will need a licensed system running jBASE 5.6 or greater, and the ODBC jEDI tool-set installation package. If you do not yet have a valid licensed jBASE system, and/or the ODBC jEDI tool-set installation package, please contact Zumasys licensing to obtain them.

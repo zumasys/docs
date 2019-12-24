@@ -118,11 +118,11 @@ Represents a jBASE dynamic arraySee Also:[Serialized Form](./../serialized-form)
 public JDynArray() 
 ```
 
-throws [JException](/jrcs/com_jbase_jrcs_JException "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Default constructor
 
-Throws: [JException](/jrcs/com_jbase_jrcs_JException "class in com.jbase.jrcs")
+Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 #### JDynArray 
 
@@ -550,7 +550,7 @@ svmc - Sub-value. This parameter can be 0 or -1 to insert at the end of the dyna
 
 Throws: [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
-See Also:  insert([JDynArray](../../../com/jbase/jrcs//jrcs/com_jbase_jrcs_JDynArray "class in com.jbase.jrcs"), int, int, int)
+See Also:  insert([JDynArray](./. "class in com.jbase.jrcs"), int, int, int)
 
 
 

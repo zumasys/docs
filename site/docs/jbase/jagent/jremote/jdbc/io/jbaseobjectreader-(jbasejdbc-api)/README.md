@@ -11,7 +11,7 @@ JavaScript is disabled on your browser
 
 # Interface JBaseObjectReader
 
-All Known Implementing Classes:[AbstractJBaseObjectReader](../../../../com/jbase/jdbc/io/Abstract/39232-io/com_jbase_jdbc_io_JBaseObjectReader "class in com.jbase.jdbc.io"), [IOJBaseObjectReader](../../../../com/jbase/jdbc/io/IO/39232-io/com_jbase_jdbc_io_JBaseObjectReader "class in com.jbase.jdbc.io"), [NIOJBaseObjectReader](../../../../com/jbase/jdbc/io/NIO/39232-io/com_jbase_jdbc_io_JBaseObjectReader "class in com.jbase.jdbc.io")
+All Known Implementing Classes:[AbstractJBaseObjectReader](./. "class in com.jbase.jdbc.io"), [IOJBaseObjectReader](./. "class in com.jbase.jdbc.io"), [NIOJBaseObjectReader](./. "class in com.jbase.jdbc.io")
 ```
 public interface JBaseObjectReader
 ```

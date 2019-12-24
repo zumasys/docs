@@ -62,11 +62,11 @@ Represents a connection to a jBASE host.
 | <br>void<br> | <br>deleteList(String name)<br> | <br>Deletes the specified list from a work file<br> |
 | <br>void<br> | <br>endTransaction(String transName)<br> | <br>Ends the active transaction<br> |
 | <br>void<br> | <br>execute(String command)<br> | <br>Executes a jCL/jQL command ignoring its results<br> |
-| <br>[JExecuteResults](com_jbase_jrcs_JExecuteResults "class in com.jbase.jrcs")<br> | <br>execute(String command, int flags)<br> | <br>Executes a jCL/jQL command and retrieves select parameters resulting from execution<br> |
-| <br>[JExecuteResults](com_jbase_jrcs_JExecuteResults "class in com.jbase.jrcs")<br> | <br>execute(String command, int flags, [JSelectList](com_jbase_jrcs_JSelectList "class in com.jbase.jrcs") passList)<br> | <br>Executes a jCL/jQL command optionally passing it a select list and retrieves select parameters resulting from execution<br> |
-| <br>[JExecuteResults](com_jbase_jrcs_JExecuteResults "class in com.jbase.jrcs")<br> | executeAndStore(String command, int flags)<br> | <br>Executes a jCL/jQL command and retrieves select parameters resulting from execution.<br> |
-| <br>[JExecuteResults](com_jbase_jrcs_JExecuteResults "class in com.jbase.jrcs")<br> | <br>executeAndStore(String command, int flags, [JSelectList](com_jbase_jrcs_JSelectList "class in com.jbase.jrcs") passList)<br> | <br>Executes a jCL/jQL command optionally passing it a select list and retrieves select parameters resulting from execution.<br> |
-| <br>[JExecuteResults](com_jbase_jrcs_JExecuteResults "class in com.jbase.jrcs")<br> | <br>executeAndStore(String command, int flags,[JSelectList](com_jbase_jrcs_JSelectList "class in com.jbase.jrcs") passList, int blockSize)<br> | <br>Executes a jCL/jQL command optionally passing it a select list and retrieves select parameters resulting from execution.<br> |
+| <br>[JExecuteResults](./../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>execute(String command, int flags)<br> | <br>Executes a jCL/jQL command and retrieves select parameters resulting from execution<br> |
+| <br>[JExecuteResults](./../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>execute(String command, int flags, [JSelectList](./../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs") passList)<br> | <br>Executes a jCL/jQL command optionally passing it a select list and retrieves select parameters resulting from execution<br> |
+| <br>[JExecuteResults](./../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | executeAndStore(String command, int flags)<br> | <br>Executes a jCL/jQL command and retrieves select parameters resulting from execution.<br> |
+| <br>[JExecuteResults](./../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>executeAndStore(String command, int flags, [JSelectList](./../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs") passList)<br> | <br>Executes a jCL/jQL command optionally passing it a select list and retrieves select parameters resulting from execution.<br> |
+| <br>[JExecuteResults](./../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>executeAndStore(String command, int flags,[JSelectList](./../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs") passList, int blockSize)<br> | <br>Executes a jCL/jQL command optionally passing it a select list and retrieves select parameters resulting from execution.<br> |
 | <br>char<br> | <br>getAM()<br> | <br>Retrieves the attribute mark character for this connection<br> |
 | <br>String<br> | <br>getCodePage()<br> | <br>Reserved for future use<br> |
 | <br>protected com.jbase.jrcs.JConnector<br> |  getConnector()<br> | <br><br> |
@@ -299,7 +299,7 @@ Throws: `JException `
 public void call(String subName)
 ```
 
-throws [JException](/jrcs/com_jbase_jrcs_JException "class in com.jbase.jrcs")
+throws [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")
 
 Calls a host-side subroutine passing it no parameters
 

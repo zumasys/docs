@@ -7,6 +7,6 @@
 
 # Exceptions
 
-- [UnexpectedCharacterException](com_jbase_jremote_io_exception_unexpectedcharacterexception "class in com.jbase.jremote.io.exception")
-- [UnknownTypeException](com_jbase_jremote_io_exception_unknowntypeexception "class in com.jbase.jremote.io.exception")
+- [UnexpectedCharacterException](./../../jremote/io/exception/unexpectedcharacterexception-%28jremote---api%29 "class in com.jbase.jremote.io.exception")
+- [UnknownTypeException](./../../jremote/io/exception/unknowntypeexception-%28jremote---api%29 "class in com.jbase.jremote.io.exception")
 

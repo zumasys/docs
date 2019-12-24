@@ -38,11 +38,11 @@ jbasejdbc <br>
 - Interface Summary | Interface | Description |
 | --- | --- |
 | [IByteObject](./../ibyteobject-%28jbasejdbc---api%29 "interface in com.jbase.jdbc.io") | <br>This interface allows a client to optimise the serialization of byte buffers.<br> |
-| [JBaseJDBCObjectFactory.TYPE](/39232-io/com_jbase_jdbc_io_JBaseJDBCObjectFactory.TYPE "interface in com.jbase.jdbc.io") |   |
+| [JBaseJDBCObjectFactory.TYPE](./../jbasejdbcobjectfactory-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") |   |
 | [JBaseObjectReader](./../jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | <br>Deserializes objects sent from the jsqld server.<br> |
 | [JBaseObjectWriter](./../jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | <br>Serializes objects to jBASE JDBC format.<br> |
 | [JBaseSerializable](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") | <br>Interface which must be implemented by objects which take part in the<br> JDBC driver  jbase\_agent communication.<br> |
-| [JBaseSerializable.TYPE](/39232-io/com_jbase_jdbc_io_JBaseSerializable.TYPE "interface in com.jbase.jdbc.io") |   |
+| [JBaseSerializable.TYPE](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io") |   |
 - Class Summary | Class | Description |
 | --- | --- |
 | [AbstractJBaseObjectReader](./../abstractjbaseobjectreader-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io") | <br>Deserializes JBaseSerializable objects sent from the jbase\_agent server,<br> or any other source of serialized JCF objects.<br> |

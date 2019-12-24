@@ -11,7 +11,7 @@ Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
 - [Package](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
-- [Class](/39240-protocol/com_jbase_jdbc_protocol_AccountAuthenticationRequest.AccountUserCredentials "class in com.jbase.jdbc.protocol")
+- [Class](./../../accountauthenticationrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol")
 - Use
 - [Tree](./../../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
@@ -24,8 +24,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/protocol/class-use//39241-class-use/com_jbase_jdbc_protocol_class-use_AccountAuthenticationRequest.AccountUserCredentials)
-- [No Frames](/39241-class-use/com_jbase_jdbc_protocol_class-use_AccountAuthenticationRequest.AccountUserCredentials)
+- [Frames](./../uses-of-class-com.jbase.jdbc.protocol.accountauthenticationrequest-%28jbasejdbc---api%29)
+- [No Frames](./../uses-of-class-com.jbase.jdbc.protocol.accountauthenticationrequest-%28jbasejdbc---api%29)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -42,7 +42,7 @@ Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
 - [Package](./../../com.jbase.jdbc.protocol-%28jbasejdbc---api%29)
-- [Class](/39240-protocol/com_jbase_jdbc_protocol_AccountAuthenticationRequest.AccountUserCredentials "class in com.jbase.jdbc.protocol")
+- [Class](./../../accountauthenticationrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol")
 - Use
 - [Tree](./../../com.jbase.jdbc.protocol-class-hierarchy-%28jbasejdbc---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
@@ -55,8 +55,8 @@ jbasejdbc <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jdbc/protocol/class-use//39241-class-use/com_jbase_jdbc_protocol_class-use_AccountAuthenticationRequest.AccountUserCredentials)
-- [No Frames](/39241-class-use/com_jbase_jdbc_protocol_class-use_AccountAuthenticationRequest.AccountUserCredentials)
+- [Frames](./../uses-of-class-com.jbase.jdbc.protocol.accountauthenticationrequest-%28jbasejdbc---api%29)
+- [No Frames](./../uses-of-class-com.jbase.jdbc.protocol.accountauthenticationrequest-%28jbasejdbc---api%29)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

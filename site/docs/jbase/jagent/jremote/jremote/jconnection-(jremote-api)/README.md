@@ -11,9 +11,9 @@
 
 ## Interface JConnection
 
-All Known Subinterfaces:[JXAConnection](/39248-jremote/com_jbase_jremote_JXAConnection "interface in com.jbase.jremote") 
+All Known Subinterfaces:[JXAConnection](./../jxaconnection-%28jremote-api%29 "interface in com.jbase.jremote") 
 
-All Known Implementing Classes:[JConnectionImpl](/39250-io/com_jbase_jremote_io_JConnectionImpl "class in com.jbase.jremote.io"), [WrappedJConnection](./../jca/wrappedjconnection-%28jremote-api%29 "class in com.jbase.jremote.jca")
+All Known Implementing Classes:[JConnectionImpl](./../io/jconnectionimpl-%28jremote-api%29 "class in com.jbase.jremote.io"), [WrappedJConnection](./../jca/wrappedjconnection-%28jremote-api%29 "class in com.jbase.jremote.jca")
 
 * * *
 

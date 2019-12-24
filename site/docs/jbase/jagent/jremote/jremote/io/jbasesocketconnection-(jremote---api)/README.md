@@ -20,7 +20,7 @@ Skip navigation links
 
 jremote <br>
 
-- [Prev Class](/39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE "interface in com.jbase.jremote.io")
+- [Prev Class](./../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
 - [Next Class](./../jconnectionimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
 
 
@@ -160,7 +160,7 @@ Skip navigation links
 
 jremote <br>
 
-- [Prev Class](/39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE "interface in com.jbase.jremote.io")
+- [Prev Class](./../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
 - [Next Class](./../jconnectionimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
 
 

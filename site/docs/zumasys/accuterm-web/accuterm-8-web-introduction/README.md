@@ -7,7 +7,7 @@
 
 
 
-After AccuTerm Web access has been provisioned, visit [accuterm.io](https://accuterm.io) and login with the provided credentials.
+After AccuTerm Web access has been provisioned, visit [accuterm.io](./..) and login with the provided credentials.
 
 
 

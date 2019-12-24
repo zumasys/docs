@@ -12,7 +12,7 @@ Skip navigation links
 - [Overview](../../../../overview-summary.html)
 - [Package](./../com.jbase.jremote.protocol-%28jremote-api%29)
 - Class
-- [Use](/39271-class-use/com_jbase_jremote_protocol_class-use_AuthenticationRequest.UserCredentials)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.protocol.authenticationrequest-%28jremote-api%29)
 - [Tree](./../com.jbase.jremote.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
@@ -24,8 +24,8 @@ jremote <br>
 - [Next Class](./../begintransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/protocol//39270-protocol/com_jbase_jremote_protocol_AuthenticationRequest.UserCredentials)
-- [No Frames](/39270-protocol/com_jbase_jremote_protocol_AuthenticationRequest.UserCredentials)
+- [Frames](./../authenticationrequest-%28jremote-api%29)
+- [No Frames](./../authenticationrequest-%28jremote-api%29)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -187,7 +187,7 @@ Skip navigation links
 - [Overview](../../../../overview-summary.html)
 - [Package](./../com.jbase.jremote.protocol-%28jremote-api%29)
 - Class
-- [Use](/39271-class-use/com_jbase_jremote_protocol_class-use_AuthenticationRequest.UserCredentials)
+- [Use](./../class-use/uses-of-class-com.jbase.jremote.protocol.authenticationrequest-%28jremote-api%29)
 - [Tree](./../com.jbase.jremote.protocol-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
@@ -199,8 +199,8 @@ jremote <br>
 - [Next Class](./../begintransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/protocol//39270-protocol/com_jbase_jremote_protocol_AuthenticationRequest.UserCredentials)
-- [No Frames](/39270-protocol/com_jbase_jremote_protocol_AuthenticationRequest.UserCredentials)
+- [Frames](./../authenticationrequest-%28jremote-api%29)
+- [No Frames](./../authenticationrequest-%28jremote-api%29)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

@@ -16,9 +16,9 @@ JavaScript is disabled on your browser.
 | Class<br> | Description<br> |
 | --- | --- |
  Class Summary  | [AccountAuthenticationRequest](./../accountauthenticationrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")<br> | <br>Request for authentication.<br> |
-| [AccountAuthenticationRequest.AccountUserCredentials](/39270-protocol/com_jbase_jremote_protocol_AccountAuthenticationRequest.AccountUserCredentials "class in com.jbase.jremote.protocol")<br> |  <br> |
+| [AccountAuthenticationRequest.AccountUserCredentials](./../accountauthenticationrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")<br> |  <br> |
 | [AuthenticationRequest](./../authenticationrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")<br> | <br>Request for authentication.<br> |
-| [AuthenticationRequest.UserCredentials](/39270-protocol/com_jbase_jremote_protocol_AuthenticationRequest.UserCredentials "class in com.jbase.jremote.protocol")<br> |  <br> |
+| [AuthenticationRequest.UserCredentials](./../authenticationrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")<br> |  <br> |
 | [BeginTransactionRequest](./../begintransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")<br> | <br>Request to start transaction.<br> |
 | [CallSubroutineRequest](./../callsubroutinerequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")<br> |  <br> |
 | [ClearFileRequest](./../clearfilerequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")<br> |  <br> |

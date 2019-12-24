@@ -25,7 +25,7 @@ Creates objects received from the jbase\_agent server.
 
 | <br>Modifier and Type<br> | <br>Class and Description<br> |
 | --- | --- |
-| <br>static interface<br> | <br>[JBaseJDBCObjectFactory.TYPE](/39232-io/com_jbase_jdbc_io_JBaseJDBCObjectFactory.TYPE "interface in com.jbase.jdbc.io")<br> |
+| <br>static interface<br> | <br>[JBaseJDBCObjectFactory.TYPE](./. "interface in com.jbase.jdbc.io")<br> |
 
 
 

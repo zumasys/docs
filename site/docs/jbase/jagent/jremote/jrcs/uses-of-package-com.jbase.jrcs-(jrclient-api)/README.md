@@ -16,9 +16,9 @@
 | [JConnection](./../jconnection-%28jrclient-api%29)<br> | Represents a connection to a jBASE host<br> |
 | [JDynArray](./../jdynarray-%28jrclient---api%29)<br> | Represents a jBASE dynamic array<br> |
 | [JException](./../jexception-%28jrclient-api%29)<br> | Represents an exception thrown by all JClient classes<br> |
-| [JExecuteResults](com_jbase_jrcs_JExecuteResults)<br> | Contains results of jCL/jQL command execution<br> |
+| [JExecuteResults](./../jexecuteresults-%28jrclient-api%29)<br> | Contains results of jCL/jQL command execution<br> |
 | [JFile](./../jfile-%28jrclient-api%29)<br> | Represents a jBASE file variable<br> |
-| [JIndex](com_jbase_jrcs_JIndex)<br> | Represents a jBASE index variable<br> |
-| [JIOHandler](com_jbase_jrcs_JIOHandler) | The jRCS I/O handler interface, which a class must implement to replace the default JClient I/O handler<br> |
+| [JIndex](./../jindex-%28jrclient-api%29)<br> | Represents a jBASE index variable<br> |
+| [JIOHandler](./../jiohandler-%28jrclient-api%29) | The jRCS I/O handler interface, which a class must implement to replace the default JClient I/O handler<br> |
 | [JSelectList](./../jselectlist-%28jrclient---api%29)<br> | Represents a jBASE select list variable<br> |
 

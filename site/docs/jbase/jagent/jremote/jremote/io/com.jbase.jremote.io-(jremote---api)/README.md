@@ -41,7 +41,7 @@ jremote <br>
 | [JBaseObjectReader](./../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io") | <br>Deserializes objects sent from the jsqld server.<br> |
 | [JBaseObjectWriter](./../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io") | <br>Serializes objects to jBASE JDBC format.<br> |
 | [JBaseSerializable](./../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io") | <br>Interface which must be implemented by objects which take part in the<br> JDBC driver  jbase\_agent communication.<br> |
-| [JBaseSerializable.TYPE](/39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE "interface in com.jbase.jremote.io") |   |
+| [JBaseSerializable.TYPE](./../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io") |   |
 | [JRemoteObjectFactory.TYPE](./../jremoteobjectfactory-%28jremote---api%29 "interface in com.jbase.jremote.io") |   |
 - Class Summary | Class | Description |
 | --- | --- |

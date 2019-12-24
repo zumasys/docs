@@ -34,7 +34,7 @@
 | void<br> | JFile.[close](/jrcs/com_jbase_jrcs_jfile#close--)()<br> | <br>Closes the file and releases the server-side handle<br> |
 | void<br> | JConnection.[close](/jrcs/com_jbase_jrcs_JConnection#close)()<br> | <br>Closes the connection and ends the server-side jRCS proxy process<br> |
 | void<br> | JCommon.[close](/jrcs/com_jbase_jrcs_jcommon#close--)()<br> | <br>Closes the object and releases the server-side handle<br> |
-| void<br> | JCapture.[close](/jrcs/com_jbase_jrcs_JCapture.html#close--)()<br> | <br>Closes the object and releases its server-side handle<br> |
+| void<br> | JCapture.[close](./../../jcapture-%28jrclient-api%29)()<br> | <br>Closes the object and releases its server-side handle<br> |
 | int<br> | JDynArray.[count](/jrcs/com_jbase_jrcs_jdynarray#count-char-)(char delim)<br> | <br>Counts the number of given characters in this dynamic array<br> |
 | int<br> | JDynArray.[count](/jrcs/com_jbase_jrcs_jdynarray#count-java.lang.String-)(String delim)<br> | <br>Counts the number of given delimiters in this dynamic array<br> |
 | int<br> | JDynArray.[dcount](/jrcs/com_jbase_jrcs_jdynarray#dcount-char-)(char delim)<br> | <br>Counts the number of fields separated by the given character<br> |
@@ -63,7 +63,7 @@
 | int<br> | JCapture.[getBlockSize](com_jbase_jrcs_JCapture#getBlockSize--)()<br> | <br>Sets the block size for nextBlock operation.<br> |
 | protected com.jbase.jrcs.JConnector<br> | JConnection.[getConnector](com_jbase_jrcs_JConnection#getConnector--)()<br> | <br> |
 | [JDynArray](./../../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | JCommon.[getDA](/jrcs/com_jbase_jrcs_jcommon#getDA-int-)(int index)<br> | <br>Retrieves a dynamic array from a specific position in a common block.<br> |
-| int<br> | JConnection.[getDate](com_jbase_jrcs_JConnection.html#getDate--)()<br> | <br>Returns server date as an integer in internal format.<br> |
+| int<br> | JConnection.[getDate](./../../jconnection-%28jrclient-api%29)()<br> | <br>Returns server date as an integer in internal format.<br> |
 | [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | JCommon.[getFile](/jrcs/com_jbase_jrcs_jcommon#getFile-int-)(int index)<br> | <br>Retrieves a file variable from a specific position in a common block.<br> |
 | [JDynArray](./../../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | JFile.[getIndex](/jrcs/com_jbase_jrcs_jfile#getIndex-java.lang.String-)(String indexName)<br> | <br>Reads information about the specified index.<br> |
 | String<br> | JSelectList.[getIndexKey](/jrcs/com_jbase_jrcs_jselectlist#getIndexKey--)()<br> | <br>Returns the index key.<br> |
@@ -74,7 +74,7 @@
 | int<br> | JConnection.[getPort](com_jbase_jrcs_JConnection#getPort--)()<br> | <br>Returns the jBASE port number (PIB) assigned to the logged on session.<br> |
 | String<br> | JSelectList.[getRecordKey](/jrcs/com_jbase_jrcs_jselectlist#getRecordKey--)()<br> | <br>Retrieves the record key.<br> |
 | String<br> | JDynArray.[getString](/jrcs/com_jbase_jrcs_jdynarray#getString--)()<br> | <br>Retrieves the content of the dynamic array as a string.<br> |
-| int<br> | JConnection.[getTime](com_jbase_jrcs_JConnection.html#getTime--)()<br> | <br>Retrieves the current server time as an integer in internal format.<br> |
+| int<br> | JConnection.[getTime](./../../jconnection-%28jrclient-api%29)()<br> | <br>Retrieves the current server time as an integer in internal format.<br> |
 | int<br> | JSelectList.[getVMCount](/jrcs/com_jbase_jrcs_jselectlist#getVMCount--)()<br> | <br>Retrieves the multi-value index for the current key.<br> |
 | String<br> | JConnection.[iConv](/jrcs/com_jbase_jrcs_JConnection#iConv-String-java.lang.String-)(String source, String code)<br> | <br>Performs an input conversion of a string using a conversion code.<br> |
 | void<br> | JDynArray.[insert](/jrcs/com_jbase_jrcs_jdynarray#insert-com.jbase.jrcs.JDynArray-int-)([JDynArray](./../../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs") data, int amc)<br> | <br>Inserts data from the given dynamic array into the specified attribute.<br> |

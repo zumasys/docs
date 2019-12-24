@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Interface IByteObject
 
-All Known Implementing Classes:[ByteObject](./../byteobject-%28jremote-api%29 "class in com.jbase.jremote.io"), [JDynArray](/39248-jremote/com_jbase_jremote_JDynArray "class in com.jbase.jremote")
+All Known Implementing Classes:[ByteObject](./../byteobject-%28jremote-api%29 "class in com.jbase.jremote.io"), [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote")
 * * *
 
 

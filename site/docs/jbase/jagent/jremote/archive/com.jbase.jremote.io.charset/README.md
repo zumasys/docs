@@ -7,10 +7,10 @@
 
 # Classes
 
-- [JbaseCharset](com_jbase_jremote_io_charset_jbasecharset "class in com.jbase.jremote.io.charset")
-- [JbaseCharsetDecoder](com_jbase_jremote_io_charset_jbasecharsetdecoder "class in com.jbase.jremote.io.charset")
-- [JbaseCharsetEncoder](com_jbase_jremote_io_charset_jbasecharsetencoder "class in com.jbase.jremote.io.charset")
-- [JbasePrivateUseCharset](com_jbase_jremote_io_charset_jbaseprivateusecharset "class in com.jbase.jremote.io.charset")
-- [JbasePrivateUseCharsetDecoder](com_jbase_jremote_io_charset_jbaseprivateusecharsetdecoder "class in com.jbase.jremote.io.charset")
-- [JbasePrivateUseCharsetEncoder](com_jbase_jremote_io_charset_jbaseprivateusecharsetencoder "class in com.jbase.jremote.io.charset")
+- [JbaseCharset](./../../jremote/io/charset/jbasecharset-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
+- [JbaseCharsetDecoder](./../../jremote/io/charset/jbasecharsetdecoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
+- [JbaseCharsetEncoder](./../../jremote/io/charset/jbasecharsetencoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
+- [JbasePrivateUseCharset](./../../jremote/io/charset/jbaseprivateusecharset-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
+- [JbasePrivateUseCharsetDecoder](./../../jremote/io/charset/jbaseprivateusecharsetdecoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
+- [JbasePrivateUseCharsetEncoder](./../../jremote/io/charset/jbaseprivateusecharsetencoder-%28jremote---api%29 "class in com.jbase.jremote.io.charset")
 

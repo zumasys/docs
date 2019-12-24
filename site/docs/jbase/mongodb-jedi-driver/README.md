@@ -2,7 +2,7 @@
 
 **Created At:** 12/20/2019 4:14:09 PM  
 **Updated At:** 12/20/2019 4:17:23 PM  
-**Original Doc:** [mongodb-driver](https://docs.jbase.com//mongodb-driver)  
+**Original Doc:** [mongodb-driver](https://docs.jbase.com/mongodb-driver)  
 
 
 ## Document Scope

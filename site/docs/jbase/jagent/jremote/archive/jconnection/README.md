@@ -39,24 +39,24 @@ The connection to a remote jBASE instance.
 | <br>Modifier and Type<br> | <br>Method<br> | <br>Description<br> |
 | --- | --- | --- |
 | <br>void<br> | <br>begin()<br> | <br>Begin a jBASE transaction.<br> |
-| <br>[JSubroutineParameters](com_jbase_jremote_JSubroutineParameters "class in com.jbase.jremote")<br> | <br>call([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") subroutineName,     [JSubroutineParameters](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JSubroutineParameters.html "class in com.jbase.jremote") parameters)<br> | <br>Call a jBASE subroutine.<br> |
+| <br>[JSubroutineParameters](./../../jremote/jsubroutineparameters-%28jremote-api%29 "class in com.jbase.jremote")<br> | <br>call([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") subroutineName,     [JSubroutineParameters](./../jsubroutineparameters "class in com.jbase.jremote") parameters)<br> | <br>Call a jBASE subroutine.<br> |
 | <br>void<br> | <br>close()<br> | <br>Close any resources used by this connection.<br> |
 | <br>void<br> | <br>commit()<br> | <br>Commit all pending jBASE operations performed in transaction  and mark as complete.<br> |
-| <br>[JSelectList](com_jbase_jremote_JSelectList "interface in com.jbase.jremote")<br> | <br>createSelectList([JDynArray](com_jbase_jremote_JDynArray "class in com.jbase.jremote") jd)<br> | <br>Create a select list object from an existing dynamic array containing a list of keys separated by attribute markers.<br> |
-| <br>[JStatement](com_jbase_jremote_JStatement "interface in com.jbase.jremote")<br> | <br>createStatement()<br> | <br>Create a statement object that enables queries to be executed and a JResultSet returned.<br> |
+| <br>[JSelectList](./../../jremote/jselectlist-%28jremote-api%29 "interface in com.jbase.jremote")<br> | <br>createSelectList([JDynArray](./../../jremote/jdynarray-%28jremote-api%29 "class in com.jbase.jremote") jd)<br> | <br>Create a select list object from an existing dynamic array containing a list of keys separated by attribute markers.<br> |
+| <br>[JStatement](./../../jremote/jstatement-%28jremote-api%29 "interface in com.jbase.jremote")<br> | <br>createStatement()<br> | <br>Create a statement object that enables queries to be executed and a JResultSet returned.<br> |
 | <br>int<br> | <br>date()<br> | <br>Return the jBASE internal date.<br> |
 | <br>boolean<br> | <br>echo(int length)<br> | <br>Sends an echo and waits for it's response<br> |
-| <br>[JExecuteResults](com_jbase_jremote_JExecuteResults "class in com.jbase.jremote")<br> | <br>execute([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") command)<br> | <br><br> |
-| <br>[JExecuteResults](com_jbase_jremote_JExecuteResults "class in com.jbase.jremote")<br> | <br>execute([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") command, [JSelectList](com_jbase_jremote_JSelectList "interface in com.jbase.jremote") selectList)<br> | <br>Execute a jBASE command using an existing select list as a filter.<br> |
+| <br>[JExecuteResults](./../../jremote/jexecuteresults-%28jremote-api%29 "class in com.jbase.jremote")<br> | <br>execute([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") command)<br> | <br><br> |
+| <br>[JExecuteResults](./../../jremote/jexecuteresults-%28jremote-api%29 "class in com.jbase.jremote")<br> | <br>execute([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") command, [JSelectList](./../../jremote/jselectlist-%28jremote-api%29 "interface in com.jbase.jremote") selectList)<br> | <br>Execute a jBASE command using an existing select list as a filter.<br> |
 | <br>[Charset](http://java.sun.com/j2se/1.5.0/docs/api/java/nio/charset/Charset.html?is-external=true "class or interface in java.nio.charset")<br> | <br>getCharset()<br> | <br>Get the Charset for this connection.<br> |
-| <br>[JDynArray](com_jbase_jremote_JDynArray "class in com.jbase.jremote")<br> | <br>getCommon([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") name)<br> | <br>Return the value of the named common with the supplied name.<br> |
-| <br>[EISMetaDataRepository](com_jbase_jremote_EISMetaDataRepository "class in com.jbase.jremote")<br> | <br>getMetaData()<br> | <br>Return meta data of the connected jBASE instance.<br> |
+| <br>[JDynArray](./../../jremote/jdynarray-%28jremote-api%29 "class in com.jbase.jremote")<br> | <br>getCommon([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") name)<br> | <br>Return the value of the named common with the supplied name.<br> |
+| <br>[EISMetaDataRepository](./../../jremote/eismetadatarepository-%28jremote-api%29 "class in com.jbase.jremote")<br> | <br>getMetaData()<br> | <br>Return meta data of the connected jBASE instance.<br> |
 | <br>[String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang")<br> | <br>iconv([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") data, [String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") conversion)<br> | <br>Converts data in external format to internal format.<br> |
 | <br>[String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang")<br> | <br>monitoring([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") command)<br> | <br>Sends an monitoring command and waits for it's response.<br> |
-| <br>[JDynArray](com_jbase_jremote_JDynArray "class in com.jbase.jremote")<br> | <br>newJDynArray()<br> | <br>Create a JDynArray with the correct Charset for this connection.<br> |
-| <br>[JDynArray](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JDynArray.html "class in com.jbase.jremote")<br> | <br>newJDynArray([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") str)<br> | <br><br> |
+| <br>[JDynArray](./../../jremote/jdynarray-%28jremote-api%29 "class in com.jbase.jremote")<br> | <br>newJDynArray()<br> | <br>Create a JDynArray with the correct Charset for this connection.<br> |
+| <br>[JDynArray](./../jdynarray "class in com.jbase.jremote")<br> | <br>newJDynArray([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") str)<br> | <br><br> |
 | <br>[String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang")<br> | <br>oconv([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") data, [String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") conversion)<br> | <br>Converts internal representations of data to their external form.<br> |
-| <br>[JFile](com_jbase_jremote_JFile "interface in com.jbase.jremote")<br> | <br>open([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") fileName)<br> | <br>Attempts to open a jBASE file or returns null if the file does not exist.<br> |
+| <br>[JFile](./../../jremote/jfile-%28jremote-api%29 "interface in com.jbase.jremote")<br> | <br>open([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") fileName)<br> | <br>Attempts to open a jBASE file or returns null if the file does not exist.<br> |
 | <br>void<br> | <br>rollback()<br> | <br>Rollback all jBASE operations performed in transaction and mark as complete.<br> |
 | <br>void<br> | <br>setTerminalOutputWriter([Writer](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Writer.html?is-external=true "class or interface in java.io") writer)<br> | <br><br> |
 | <br>boolean<br> | <br>switchAccount([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") user, [String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") account, [String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") password)<br> | <br>Log into the specified jBASE account.<br> |
@@ -262,7 +262,7 @@ Begin a jBASE transaction.
 If a transaction already exists then no action will be taken.
 
 **Throws:**`JRemoteException`
-**See Also:**[`commit()`](com_jbase_jremote_JConnection),  [`rollback()`](com_jbase_jremote_JConnection)
+**See Also:**[`commit()`](./../../jremote/jconnection-%28jremote-api%29),  [`rollback()`](./../../jremote/jconnection-%28jremote-api%29)
 
 
 
@@ -281,7 +281,7 @@ Commit all pending jBASE operations performed in transaction  and mark as compl
 If no transaction exists then no action will be taken.
 
 **Throws:**`JRemoteException`
-**See Also:**[`begin()`](com_jbase_jremote_JConnection)
+**See Also:**[`begin()`](./../../jremote/jconnection-%28jremote-api%29)
 
 
 
@@ -300,7 +300,7 @@ Rollback all jBASE operations performed in transaction and mark as complete.
 If no transaction exists then no action will be taken.
 
 **Throws:**`JRemoteException`
-**See Also:**[`begin()`](com_jbase_jremote_JConnection)
+**See Also:**[`begin()`](./../../jremote/jconnection-%28jremote-api%29)
 
 
 

@@ -76,7 +76,7 @@ Package Hierarchies:
 - com.jbase.jremote.io.[JBaseObjectReader](./../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io")
 - com.jbase.jremote.io.[JBaseObjectWriter](./../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io")
 - com.jbase.jremote.io.[JBaseSerializable](./../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
-- com.jbase.jremote.io.[JBaseSerializable.TYPE](/39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE "interface in com.jbase.jremote.io")
+- com.jbase.jremote.io.[JBaseSerializable.TYPE](./../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
 - com.jbase.jremote.io.[JRemoteObjectFactory.TYPE](./../jremoteobjectfactory-%28jremote---api%29 "interface in com.jbase.jremote.io")
 
 Skip navigation links

@@ -78,7 +78,7 @@
 
 # Changes to jBC 
 
-- jlogdup and jlogstatus don't consume a license. [PN5\_60551](PN5_60551)
+- jlogdup and jlogstatus don't consume a license. [PN5\_60551](./../5.6.2-release-notes/pn5_60551)
 
 
 # 

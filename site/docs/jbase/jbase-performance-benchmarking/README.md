@@ -2,7 +2,7 @@
 
 **Created At:** 3/18/2019 10:45:32 PM  
 **Updated At:** 3/18/2019 11:03:31 PM  
-**Original Doc:** [jbase-performance-benchmarking](https://docs.jbase.com//jbase-performance-benchmarking)  
+**Original Doc:** [jbase-performance-benchmarking](https://docs.jbase.com/jbase-performance-benchmarking)  
 
 
 

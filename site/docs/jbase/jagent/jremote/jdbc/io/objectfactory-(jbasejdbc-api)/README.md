@@ -9,7 +9,7 @@
 
 # Class ObjectFactory
 
-Direct Known Subclasses:[JBaseJDBCObjectFactory](../../../../com/jbase/jdbc/io/JBaseJDBC/39232-io/com_jbase_jdbc_io_ObjectFactory "class in com.jbase.jdbc.io")
+Direct Known Subclasses:[JBaseJDBCObjectFactory](./. "class in com.jbase.jdbc.io")
 ```
 public abstract class ObjectFactory
 extends Object

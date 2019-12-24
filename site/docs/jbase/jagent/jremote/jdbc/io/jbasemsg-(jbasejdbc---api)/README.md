@@ -20,7 +20,7 @@ Skip navigation links
 
 jbasejdbc <br>
 
-- [Prev Class](/39232-io/com_jbase_jdbc_io_JBaseJDBCObjectFactory.TYPE "interface in com.jbase.jdbc.io")
+- [Prev Class](./../jbasejdbcobjectfactory-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 - [Next Class](./../jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 
 
@@ -428,7 +428,7 @@ Skip navigation links
 
 jbasejdbc <br>
 
-- [Prev Class](/39232-io/com_jbase_jdbc_io_JBaseJDBCObjectFactory.TYPE "interface in com.jbase.jdbc.io")
+- [Prev Class](./../jbasejdbcobjectfactory-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 - [Next Class](./../jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 
 

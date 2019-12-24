@@ -11,7 +11,7 @@ Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
 - [Package](./../../com.jbase.jremote.io-%28jremote---api%29)
-- [Class](/39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE "interface in com.jbase.jremote.io")
+- [Class](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
 - Use
 - [Tree](./../../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
@@ -24,8 +24,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/class-use//39253-class-use/com_jbase_jremote_io_class-use_JBaseSerializable.TYPE)
-- [No Frames](/39253-class-use/com_jbase_jremote_io_class-use_JBaseSerializable.TYPE)
+- [Frames](./../uses-of-interface-com.jbase.jremote.io.jbaseserializable-%28jremote-api%29)
+- [No Frames](./../uses-of-interface-com.jbase.jremote.io.jbaseserializable-%28jremote-api%29)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)
@@ -42,7 +42,7 @@ Skip navigation links
 
 - [Overview](../../../../../overview-summary.html)
 - [Package](./../../com.jbase.jremote.io-%28jremote---api%29)
-- [Class](/39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE "interface in com.jbase.jremote.io")
+- [Class](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
 - Use
 - [Tree](./../../com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../../deprecated-list.html)
@@ -55,8 +55,8 @@ jremote <br>
 - Next
 
 
-- [Frames](../../../../../index.html?com/jbase/jremote/io/class-use//39253-class-use/com_jbase_jremote_io_class-use_JBaseSerializable.TYPE)
-- [No Frames](/39253-class-use/com_jbase_jremote_io_class-use_JBaseSerializable.TYPE)
+- [Frames](./../uses-of-interface-com.jbase.jremote.io.jbaseserializable-%28jremote-api%29)
+- [No Frames](./../uses-of-interface-com.jbase.jremote.io.jbaseserializable-%28jremote-api%29)
 
 
 - [All Classes](../../../../../allclasses-noframe.html)

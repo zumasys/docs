@@ -64,11 +64,11 @@ Package Hierarchies:
 ## Interface Hierarchy
 
 - com.jbase.jdbc.io.[IByteObject](./../ibyteobject-%28jbasejdbc---api%29 "interface in com.jbase.jdbc.io")
-- com.jbase.jdbc.io.[JBaseJDBCObjectFactory.TYPE](/39232-io/com_jbase_jdbc_io_JBaseJDBCObjectFactory.TYPE "interface in com.jbase.jdbc.io")
+- com.jbase.jdbc.io.[JBaseJDBCObjectFactory.TYPE](./../jbasejdbcobjectfactory-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 - com.jbase.jdbc.io.[JBaseObjectReader](./../jbaseobjectreader-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 - com.jbase.jdbc.io.[JBaseObjectWriter](./../jbaseobjectwriter-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 - com.jbase.jdbc.io.[JBaseSerializable](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
-- com.jbase.jdbc.io.[JBaseSerializable.TYPE](/39232-io/com_jbase_jdbc_io_JBaseSerializable.TYPE "interface in com.jbase.jdbc.io")
+- com.jbase.jdbc.io.[JBaseSerializable.TYPE](./../jbaseserializable-%28jbasejdbc-api%29 "interface in com.jbase.jdbc.io")
 
 Skip navigation links
 

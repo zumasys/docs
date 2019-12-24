@@ -40,8 +40,8 @@ Package Hierarchies:
 ## Class Hierarchy
 
 - java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
-    - com.jbase.jremote.protocol.[AccountAuthenticationRequest.AccountUserCredentials](/39270-protocol/com_jbase_jremote_protocol_AccountAuthenticationRequest.AccountUserCredentials "class in com.jbase.jremote.protocol") (implements com.jbase.jremote.io.[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io"))
-    - com.jbase.jremote.protocol.[AuthenticationRequest.UserCredentials](/39270-protocol/com_jbase_jremote_protocol_AuthenticationRequest.UserCredentials "class in com.jbase.jremote.protocol") (implements com.jbase.jremote.io.[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io"))
+    - com.jbase.jremote.protocol.[AccountAuthenticationRequest.AccountUserCredentials](./../accountauthenticationrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol") (implements com.jbase.jremote.io.[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io"))
+    - com.jbase.jremote.protocol.[AuthenticationRequest.UserCredentials](./../authenticationrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol") (implements com.jbase.jremote.io.[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io"))
     - com.jbase.jremote.protocol.[JRemoteRequest](./../jremoterequest-%28jremote-api%29 "class in com.jbase.jremote.protocol") (implements com.jbase.jremote.io.[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io"))
         - com.jbase.jremote.protocol.[AccountAuthenticationRequest](./../accountauthenticationrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")
         - com.jbase.jremote.protocol.[AuthenticationRequest](./../authenticationrequest-%28jremote-api%29 "class in com.jbase.jremote.protocol")

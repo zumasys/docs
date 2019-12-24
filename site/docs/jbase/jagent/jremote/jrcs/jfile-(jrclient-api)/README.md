@@ -45,7 +45,7 @@ Represents a jBASE file variable
 | protected int<br> |  getHandle()<br> | <br> |
 | [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> |  getIndex(String indexName)<br> | Reads information about the specified index<br> |
 | String<br> | getPath()<br> | Retrieves the file path<br> |
-| [JIndex](/jrcs/com_jbase_jrcs_JIndex "class in com.jbase.jrcs")<br> | openIndex(String indexName)<br> | Opens a named index on this file<br> |
+| [JIndex](./../jindex-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | openIndex(String indexName)<br> | Opens a named index on this file<br> |
 | [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | read(String key)<br> | Reads a record from the file without locking<br> |
 | [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | read(String key, boolean locked)<br> | Reads a record from the file, optionally locking it<br> |
 | [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | read(String key, boolean locked, boolean wait)<br> | Reads a record from the file, optionally locking it and waiting for the lock<br> |

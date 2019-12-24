@@ -9,7 +9,7 @@
 
 ## Class JDefaultIOHandler
 
-com.jbase.jrcs.JDefaultIOHandlerAll Implemented Interfaces:[JIOHandler](/jrcs/com_jbase_jrcs_JIOHandler "interface in com.jbase.jrcs")
+com.jbase.jrcs.JDefaultIOHandlerAll Implemented Interfaces:[JIOHandler](./../jiohandler-%28jrclient-api%29 "interface in com.jbase.jrcs")
 
 
 ```

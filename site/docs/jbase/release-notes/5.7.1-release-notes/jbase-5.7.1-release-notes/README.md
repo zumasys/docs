@@ -40,7 +40,7 @@
 - [PN5\_60787](./../pn5_60787) - Paragraphs with "N" in attribute 1 do not get called with **LOGTO**
 - [PN5\_60788](./../pn5_60788) - jQL: Grand totals longer than the defined column width were being truncated
 - [PN5\_60789](./../pn5_60789) - The jBC code translator does not handle literal @VMs in the code
-- [PN5\_60791](PN5_60791) - Prevent jlogdup from running out of resources
+- [PN5\_60791](./../pn5_60791) - Prevent jlogdup from running out of resources
 - [PN5\_60792](./../pn5_60792) - Prevent a memory error when an INPUT statement has a control character
 - [PN5\_60793](./../pn5_60793) - jQL crashes when supplied a list of more than 255 values when querying via an index
 - [PN5\_60794](./../pn5_60794) - jed/ED crashes with 'generic\_universe' or 'generic\_unidata' using exploded select-list

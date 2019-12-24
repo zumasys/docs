@@ -16,10 +16,10 @@
 # Classes
 
 - [ActivationRequest](./../../jremote/jca/inflow/protocol/activationrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol")
-- [ActivationResponse](com_jbase_jremote_jca_inflow_protocol_ActivationResponse "class in com.jbase.jremote.jca.inflow.protocol")
+- [ActivationResponse](./../../jremote/jca/inflow/protocol/activationresponse-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol")
 - [CommitTransactionRequest](299724-committransactionrequest-jremote-api "class in com.jbase.jremote.jca.inflow.protocol")
 - [JRemoteXid](./../../jremote/jca/inflow/protocol/jremotexid-%28jremote---api%29 "class in com.jbase.jremote.jca.inflow.protocol")
-- [NoEndpointActivatedResponse](com_jbase_jremote_jca_inflow_protocol_NoEndpointActivatedResponse "class in com.jbase.jremote.jca.inflow.protocol")
+- [NoEndpointActivatedResponse](./../../jremote/jca/inflow/protocol/noendpointactivatedresponse-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol")
 - [RollbackTransactionRequest](rollbacktransactionrequestjremote-api "class in com.jbase.jremote.jca.inflow.protocol")
 - [StartTransactionRequest](./../../jremote/jca/inflow/protocol/starttransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol")
 - [TransactionOperation](./../../jremote/jca/inflow/protocol/transactionoperation-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol")

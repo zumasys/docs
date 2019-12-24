@@ -7,7 +7,7 @@
 
 # Classes
 
-- [ConnectionHolder](com_jbase_jremote_jca_spring_ConnectionHolder "class in com.jbase.jremote.jca.spring")
-- [JConnectionFactoryUtils](com_jbase_jremote_jca_spring_JConnectionFactoryUtils "class in com.jbase.jremote.jca.spring")
-- [JRemoteLocalTransactionManager](com_jbase_jremote_jca_spring_JRemoteLocalTransactionManager "class in com.jbase.jremote.jca.spring")
+- [ConnectionHolder](./../../jremote/jca/spring/connectionholder-%28jremote-api%29 "class in com.jbase.jremote.jca.spring")
+- [JConnectionFactoryUtils](./../../jremote/jca/spring/jconnectionfactoryutils-%28jremote-api%29 "class in com.jbase.jremote.jca.spring")
+- [JRemoteLocalTransactionManager](./../../jremote/jca/spring/jremotelocaltransactionmanager-%28jremote-api%29 "class in com.jbase.jremote.jca.spring")
 

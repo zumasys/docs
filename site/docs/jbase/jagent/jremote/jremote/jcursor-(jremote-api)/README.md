@@ -11,7 +11,7 @@ JavaScript is disabled on your browser.
 
 ## Interface JCursor
 
-All Superinterfaces:Iterable&lt;String&gt;, [JSelectList](/39248-jremote/com_jbase_jremote_JSelectList "interface in com.jbase.jremote")All Known Implementing Classes:[JCursorImpl](/39250-io/com_jbase_jremote_io_JCursorImpl "class in com.jbase.jremote.io")
+All Superinterfaces:Iterable&lt;String&gt;, [JSelectList](./../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote")All Known Implementing Classes:[JCursorImpl](./../io/jcursorimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
 * * *
 
 

@@ -7,7 +7,7 @@
 &amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;gt;
 # Class JBaseJDBCPreparedStatement
 
-All Implemented Interfaces:[JBaseJDBCGlobals](./../jbasejdbcglobals-%28jbasejdbc---api%29 "interface in com.jbase.jdbc"), [AutoCloseable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true "class or interface in java.lang"), [PreparedStatement](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true "class or interface in java.sql"), [Statement](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true "class or interface in java.sql"), [Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")Direct Known Subclasses:[JbaseJDBCCallableStatement](/39228-jdbc/com_jbase_jdbc_JbaseJDBCCallableStatement "class in com.jbase.jdbc")
+All Implemented Interfaces:[JBaseJDBCGlobals](./../jbasejdbcglobals-%28jbasejdbc---api%29 "interface in com.jbase.jdbc"), [AutoCloseable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/AutoCloseable.html?is-external=true "class or interface in java.lang"), [PreparedStatement](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/PreparedStatement.html?is-external=true "class or interface in java.sql"), [Statement](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true "class or interface in java.sql"), [Wrapper](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Wrapper.html?is-external=true "class or interface in java.sql")Direct Known Subclasses:[JbaseJDBCCallableStatement](./../jbasejdbccallablestatement-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
 ```
 public class JBaseJDBCPreparedStatement
 extends JBaseJDBCSocketStatement
@@ -67,8 +67,8 @@ implements PreparedStatement, JBaseJDBCGlobals
 
 | Constructor and Description<br> |
 | --- |
-| JBaseJDBCPreparedStatement([JBaseJDBCSocketConnection](/39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketConnection "class in com.jbase.jdbc") connection)<br><br> |
-| JBaseJDBCPreparedStatement([JBaseJDBCSocketConnection](/39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketConnection "class in com.jbase.jdbc") connection, [String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") sql)<br> |
+| JBaseJDBCPreparedStatement([JBaseJDBCSocketConnection](./../jbasejdbcsocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc") connection)<br><br> |
+| JBaseJDBCPreparedStatement([JBaseJDBCSocketConnection](./../jbasejdbcsocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc") connection, [String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") sql)<br> |
 
 
 
@@ -120,8 +120,8 @@ implements PreparedStatement, JBaseJDBCGlobals
 | void<br> | setRef(int i, [Ref](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Ref.html?is-external=true "class or interface in java.sql") x)<br><br> | <br> |
 | void<br> | setShort(int parameterIndex, short x)<br><br> | <br> |
 | void<br> | setString(int parameterIndex, [String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") x)<br><br> | <br> |
-| void<br> | setTime(int parameterIndex, [Time](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Time.html?is-external=true "class or interface in java.sql") x)<br><br> | <br> |
-| void<br> | setTime(int parameterIndex, [Time](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Time.html?is-external=true "class or interface in java.sql") x, [Calendar](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Calendar.html?is-external=true "class or interface in java.util") cal)<br><br> | <br> |
+| void<br> | setTime(int parameterIndex, [Time](./../../../../administration/utilities/time "class or interface in java.sql") x)<br><br> | <br> |
+| void<br> | setTime(int parameterIndex, [Time](./../../../../administration/utilities/time "class or interface in java.sql") x, [Calendar](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Calendar.html?is-external=true "class or interface in java.util") cal)<br><br> | <br> |
 | void<br> | setTimestamp(int parameterIndex, [Timestamp](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Timestamp.html?is-external=true "class or interface in java.sql") x)<br><br> | <br> |
 | void<br> | setTimestamp(int parameterIndex, [Timestamp](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Timestamp.html?is-external=true "class or interface in java.sql") x, [Calendar](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Calendar.html?is-external=true "class or interface in java.util") cal)<br><br> | <br> |
 | void<br> | setUnicodeStream(int parameterIndex, [InputStream](http://java.sun.com/j2se/1.5.0/docs/api/java/io/InputStream.html?is-external=true "class or interface in java.io") x, int length)<br><br> | <br> |
@@ -133,7 +133,7 @@ implements PreparedStatement, JBaseJDBCGlobals
 ### 
 
 
-## Methods inherited from class com.jbase.jdbc.[JBaseJDBCSocketStatement](/39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketStatement "class in com.jbase.jdbc")
+## Methods inherited from class com.jbase.jdbc.[JBaseJDBCSocketStatement](./../jbasejdbcsocketstatement-%28jbasejdbc-api%29 "class in com.jbase.jdbc")
 `addBatch, cancel, clearBatch, clearWarnings, execute, executeBatch, executeQuery, executeUpdate, executeUpdate, executeUpdate, executeUpdate, freeId, getConnection, getFetchDirection, getFetchSize, getGeneratedKeys, getId, getMaxFieldSize, getMaxRows, getMoreResults, getMoreResults, getQueryTimeout, getResultSetConcurrency, getResultSetHoldability, getResultSetType, getUpdateCount, getWarnings, setCursorName, setEscapeProcessing, setFetchDirection, setFetchSize, setId, setMaxFieldSize, setMaxRows, setQueryTimeout`
 
 

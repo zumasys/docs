@@ -9,7 +9,7 @@
 
 - [java.lang.Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")
 - - com.jbase.jremote.jca.WrappedJConnection
-- All Implemented Interfaces:[JConnection](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JConnection.html "interface in com.jbase.jremote")
+- All Implemented Interfaces:[JConnection](./../jconnection "interface in com.jbase.jremote")
 ```
 public class WrappedJConnection
 extends Object
@@ -20,7 +20,7 @@ implements JConnection
  If constructed in a managed environment then calls will be made through  the managed connection to allow the application server to be notified of connection events.  Author:aphethean
 - - ### Field Summary
 
-        - ### Fields inherited from interface com.jbase.jremote.[JConnection](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JConnection.html "interface in com.jbase.jremote")
+        - ### Fields inherited from interface com.jbase.jremote.[JConnection](./../jconnection "interface in com.jbase.jremote")
 `DEFAULT_CHARSET, JBASE_DEFAULT_ENCODING`
 - - ### Constructor Summary
 
@@ -188,14 +188,14 @@ Execute a jBASE command using an existing select list as a filter.Specified by:`
 public int date()          throws JRemoteException
 ```
 
-Return the jBASE internal date.  Epoch Dec 31, 1967.Specified by:`date` in interface `JConnection`Returns:int internal dateThrows:`JRemoteException`See Also:[`JConnection.date()`](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JConnection.html#date--)
+Return the jBASE internal date.  Epoch Dec 31, 1967.Specified by:`date` in interface `JConnection`Returns:int internal dateThrows:`JRemoteException`See Also:[`JConnection.date()`](./../jconnection)
     - - #### time
 
 ```
 public int time()          throws JRemoteException
 ```
 
-Return the jBASE internal time.  Seconds since midnight.Specified by:`time` in interface `JConnection`Returns:int internal timeThrows:`JRemoteException`See Also:[`JConnection.time()`](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JConnection.html#time--)
+Return the jBASE internal time.  Seconds since midnight.Specified by:`time` in interface `JConnection`Returns:int internal timeThrows:`JRemoteException`See Also:[`JConnection.time()`](./../jconnection)
     - - #### iconv
 
 ```
@@ -226,7 +226,7 @@ public EISMetaDataRepository getMetaData()                                   thr
 ```
 
 Description copied from interface: `JConnection`
-Return meta data of the connected jBASE instance.Specified by:`getMetaData` in interface `JConnection`Returns:EISMetaDataRepository meta data repositoryThrows:`JRemoteException`See Also:[`JConnection.getMetaData()`](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JConnection.html#getMetaData--)
+Return meta data of the connected jBASE instance.Specified by:`getMetaData` in interface `JConnection`Returns:EISMetaDataRepository meta data repositoryThrows:`JRemoteException`See Also:[`JConnection.getMetaData()`](./../jconnection)
     - - #### createStatement
 
 ```
@@ -234,7 +234,7 @@ public JStatement createStatement()                            throws JRemoteExc
 ```
 
 Description copied from interface: `JConnection`
-Create a statement object that enables queries to be executed and a JResultSet returned.Specified by:`createStatement` in interface `JConnection`Returns:JStatement jBase statement objectThrows:`JRemoteException`See Also:[`JConnection.createStatement()`](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JConnection.html#createStatement--)
+Create a statement object that enables queries to be executed and a JResultSet returned.Specified by:`createStatement` in interface `JConnection`Returns:JStatement jBase statement objectThrows:`JRemoteException`See Also:[`JConnection.createStatement()`](./../jconnection)
     - - #### createSelectList
 
 ```
@@ -251,7 +251,7 @@ public void begin()            throws JRemoteException
 
 Description copied from interface: `JConnection`
 Begin a jBASE transaction.
-If a transaction already exists then no action will be taken.Specified by:`begin` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.commit()`](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JConnection.html#commit--),  [`JConnection.rollback()`](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JConnection.html#rollback--)
+If a transaction already exists then no action will be taken.Specified by:`begin` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.commit()`](./../jconnection),  [`JConnection.rollback()`](./../jconnection)
     - - #### commit
 
 ```
@@ -260,7 +260,7 @@ public void commit()             throws JRemoteException
 
 Description copied from interface: `JConnection`
 Commit all pending jBASE operations performed in transaction  and mark as complete.
-If no transaction exists then no action will be taken.Specified by:`commit` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.begin()`](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JConnection.html#begin--)
+If no transaction exists then no action will be taken.Specified by:`commit` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.begin()`](./../jconnection)
     - - #### rollback
 
 ```
@@ -269,7 +269,7 @@ public void rollback()               throws JRemoteException
 
 Description copied from interface: `JConnection`
 Rollback all jBASE operations performed in transaction and mark as complete.
-If no transaction exists then no action will be taken.Specified by:`rollback` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.begin()`](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JConnection.html#begin--)
+If no transaction exists then no action will be taken.Specified by:`rollback` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.begin()`](./../jconnection)
     - - #### setTerminalOutputWriter
 
 ```

@@ -53,7 +53,7 @@ com.jbase.jremote.jca.cci
 - - com.jbase.jremote.jca.cci.CCIJRemoteDynamicArrayRecord
 
 
-- All Implemented Interfaces:[SubroutineParametersRecord](./../subroutineparametersrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci"), [Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"), [Cloneable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Cloneable.html?is-external=true "class or interface in java.lang"), [Iterable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true "class or interface in java.lang"), [Collection](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Collection.html?is-external=true "class or interface in java.util"), [List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util"), javax.resource.cci.IndexedRecord, javax.resource.cci.Record, javax.resource.cci.Streamable
+- All Implemented Interfaces:[SubroutineParametersRecord](./../subroutineparametersrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci"), [Serializable](http://java.sun.com/j2se/1.5.0/docs/api/java/io/Serializable.html?is-external=true "class or interface in java.io"), [Cloneable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Cloneable.html?is-external=true "class or interface in java.lang"), [Iterable](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Iterable.html?is-external=true "class or interface in java.lang"), [Collection](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Collection.html?is-external=true "class or interface in java.util"), [List](./../../../../../../jql/list "class or interface in java.util"), javax.resource.cci.IndexedRecord, javax.resource.cci.Record, javax.resource.cci.Streamable
 * * *
 
 
@@ -118,7 +118,7 @@ All Methods [Instance Methods](javascript:show%282%29;) [Concrete Methods](javas
 `equals, hashCode`
 
 
-        - ### Methods inherited from interface java.util.[List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util")
+        - ### Methods inherited from interface java.util.[List](./../../../../../../jql/list "class or interface in java.util")
 `equals, hashCode, replaceAll, sort, spliterator`
 
 

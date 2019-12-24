@@ -7,21 +7,21 @@
 
 # Interfaces
 
-- [DynamicArrayRecord](com_jbase_jremote_jca_cci_dynamicarrayrecord "interface in com.jbase.jremote.jca.cci")
-- [SubroutineParametersRecord](com_jbase_jremote_jca_cci_subroutineparametersrecord "interface in com.jbase.jremote.jca.cci")
+- [DynamicArrayRecord](./../../jremote/jca/cci/dynamicarrayrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci")
+- [SubroutineParametersRecord](./../../jremote/jca/cci/subroutineparametersrecord-%28jremote---api%29 "interface in com.jbase.jremote.jca.cci")
 
 
 
 
 # Classes
 
-- [CCIJConnection](com_jbase_jremote_jca_cci_ccijconnection "class in com.jbase.jremote.jca.cci")
-- [CCIJRemoteConnectionFactory](com_jbase_jremote_jca_cci_ccijremoteconnectionfactory "class in com.jbase.jremote.jca.cci")
-- [CCIJRemoteDynamicArrayRecord](com_jbase_jremote_jca_cci_dynamicarrayrecord "class in com.jbase.jremote.jca.cci")
-- [CCIJRemoteInteraction](com_jbase_jremote_jca_cci_ccijremoteinteraction "class in com.jbase.jremote.jca.cci")
-- [CCIJRemoteManagedConnectionFactory](com_jbase_jremote_jca_cci_ccijremotemanagedconnectionfactory "class in com.jbase.jremote.jca.cci")
-- [CCIJRemoteRecordFactory](com_jbase_jremote_jca_cci_ccijremoterecordfactory "class in com.jbase.jremote.jca.cci")
-- [CCIJRemoteSubroutineParametersRecord](com_jbase_jremote_jca_cci_ccijremotesubroutineparametersrecord "class in com.jbase.jremote.jca.cci")
-- [CCILocalTransactionManager](com_jbase_jremote_jca_cci_ccilocaltransactionmanager "class in com.jbase.jremote.jca.cci")
-- [SubroutineInteractionSpec](com_jbase_jremote_jca_cci_subroutineinteractionspec "class in com.jbase.jremote.jca.cci")
+- [CCIJConnection](./../../jremote/jca/cci/ccijconnection-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
+- [CCIJRemoteConnectionFactory](./../../jremote/jca/cci/ccijremoteconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
+- [CCIJRemoteDynamicArrayRecord](./../../jremote/jca/cci/dynamicarrayrecord-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
+- [CCIJRemoteInteraction](./../../jremote/jca/cci/ccijremoteinteraction-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
+- [CCIJRemoteManagedConnectionFactory](./../../jremote/jca/cci/ccijremotemanagedconnectionfactory-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
+- [CCIJRemoteRecordFactory](./../../jremote/jca/cci/ccijremoterecordfactory-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
+- [CCIJRemoteSubroutineParametersRecord](./../../jremote/jca/cci/ccijremotesubroutineparametersrecord-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
+- [CCILocalTransactionManager](./../../jremote/jca/cci/ccilocaltransactionmanager-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
+- [SubroutineInteractionSpec](./../../jremote/jca/cci/subroutineinteractionspec-%28jremote---api%29 "class in com.jbase.jremote.jca.cci")
 

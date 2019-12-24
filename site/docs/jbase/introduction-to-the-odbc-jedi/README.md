@@ -2,7 +2,7 @@
 
 **Created At:** 11/14/2019 9:45:58 PM  
 **Updated At:** 12/20/2019 10:29:53 PM  
-**Original Doc:** [introduction-to-the-odbc-jedi](https://docs.jbase.com//introduction-to-the-odbc-jedi)  
+**Original Doc:** [introduction-to-the-odbc-jedi](https://docs.jbase.com/introduction-to-the-odbc-jedi)  
 
 
 ## Technical Definitions
@@ -26,7 +26,7 @@ Due to the technical nature of this document, prerequisite knowledge of the foll
 - Concepts of at least one *RDBMS*
 
 
-If additional knowledge of jBASE is needed, please review the [Introduction to jBASE](/30301-jbase) documentation for information on commands and utilities used in this walk-through.
+If additional knowledge of jBASE is needed, please review the [Introduction to jBASE](./../jbase) documentation for information on commands and utilities used in this walk-through.
 
 Additionally, in order to properly perform the steps listed in the installation and configuration sections of this document, you will need a licensed system running jBASE 5.6 or greater. If you need help completing this task, please review the jBASE installation Guide for [Windows](https://docs.jbase.com/43995-transactional-journaling/windows-installation) or [Linux](https://docs.jbase.com/43995-transactional-journaling/jbase-56-linux-installation-guide).
 

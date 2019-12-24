@@ -38,7 +38,7 @@ jbasejdbc <br>
 - Class Summary | Class | Description |
 | --- | --- |
 | [AccountAuthenticationRequest](./../accountauthenticationrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") | <br>Request for authentication.<br> |
-| [AccountAuthenticationRequest.AccountUserCredentials](/39240-protocol/com_jbase_jdbc_protocol_AccountAuthenticationRequest.AccountUserCredentials "class in com.jbase.jdbc.protocol") |   |
+| [AccountAuthenticationRequest.AccountUserCredentials](./../accountauthenticationrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") |   |
 | [AuthenticationRequest](./../authenticationrequest-%28jbasejdbc-api%29 "class in com.jbase.jdbc.protocol") | <br>Request for authentication.<br> |
 | [BindRequest](./../bindrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | <br>Request to bind parameters to previously precompiled<br> (or prepared) SQL statement.<br> |
 | [CallSubroutineRequest](./../callsubroutinerequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol") | <br>Request to call subroutine with supplied parameters.<br> |

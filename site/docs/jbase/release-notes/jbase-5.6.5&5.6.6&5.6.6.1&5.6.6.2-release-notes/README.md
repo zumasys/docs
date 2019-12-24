@@ -8,34 +8,34 @@
 # Patches
 
 - [PN5\_60652](./../pn5_60652) - Enhancements to the jShell dot stacker
-- [PN5\_60653](PN5_60653) - Implement memory-based I/O operations
+- [PN5\_60653](./../pn5_60653) - Implement memory-based I/O operations
 - [PN5\_60654](./../pn5_60654) - Change the way the MD is created with the **create-account** command
 - [PN5\_60655](./../pn5_60655) - **OCONV()**difference in Sequoia emulation
-- [PN5\_60657](PN5_60657) - Stop the compiler from adjusting the casing of a subroutine
+- [PN5\_60657](./../pn5_60657) - Stop the compiler from adjusting the casing of a subroutine
 - [PN5\_60658](./../pn5_60658) - jQL: I-type dictionaries do not recognize **@TM**
-- [PN5\_60661](PN5_60661) - jQL: Unable to get Value Number from exploded sort using a dictionary subroutine
-- [PN5\_60662](PN5_60662) - jQL: Unable to get Value Number from exploded sort using an A-type (10-line) dictionary
-- [PN5\_60663](PN5_60663) - jQL: Unable to get Value Number from exploded sort using an I-type; **@NV** not recognized
-- [PN5\_60666](PN5_60666)- jQL: The use of **LIST**would cause a memory leak
-- [PN5\_60673](PN5_60673) - Spooler: Create new **FILE**device type to send output to an Operating System file
-- [PN5\_60679](PN5_60679) - Add an option to the **create-account** command to set the emulation for the account
-- [PN5\_60680](PN5_60680) - jQL: Multiple **BREAK-ON "'P'"** clauses produce multiple page breaks
-- [PN5\_60681](PN5_60681) - jQL: **MCC** conversion code issues
-- [PN5\_60682](PN5_60682) - jQL: Unable to get Value Number from exploded sort if **byexp\_mv\_dup\_like\_d3** is enabled
-- [PN5\_60683](PN5_60683) - SQL: JOIN issue, some JOINs would fail
-- [PN5\_60684](PN5_60684) - **mw42**drops to the debugger when an invalid option is supplied as the first argument
-- [PN5\_60685](PN5_60685) - **QSELECT**and **FORM-LIST** commands do not allow quoted arguments without spaces between the arguments
-- [PN5\_60686](PN5_60686) - **TERM**settings don't persist
-- [PN5\_60688](PN5_60688) - Unable to stack **KEY-SELECT**s
-- [PN5\_60689](PN5_60689) - Setting **log\_runtime\_errors = true** configuration option causes all messages from the **jbcmessages** file to be logged
-- [PN5\_60690](PN5_60690) - Spooler: **SETPTR**doesn't inherit Hold status from **SP-ASSIGN**
-- [PN5\_60691](PN5_60691) - jRClient: JIndex start position ignored
-- [PN5\_60692](PN5_60692) - jQL: Segmentation Violation scenario with a dictionary subroutine call
-- [PN5\_60694](PN5_60694) - Spooler: The **SETPTR** banner does not persist after being set by a previous **SETPTR**
-- [PN5\_60695](PN5_60695) - Telnet: Update terminfo definitions
-- [PN5\_60696](PN5_60696) - Correct TJ memory access violations when the record key or transaction information exceeds 16k
-- [PN5\_60697](PN5_60697) - Indexes: A-correlative issue with missing semi-colon
-- [PN5\_60698](PN5_60698) - Allow **HEADING**to use case insensitive special characters
+- [PN5\_60661](./../pn5_60661) - jQL: Unable to get Value Number from exploded sort using a dictionary subroutine
+- [PN5\_60662](./../pn5_60662) - jQL: Unable to get Value Number from exploded sort using an A-type (10-line) dictionary
+- [PN5\_60663](./../pn5_60663) - jQL: Unable to get Value Number from exploded sort using an I-type; **@NV** not recognized
+- [PN5\_60666](./../pn5_60666)- jQL: The use of **LIST**would cause a memory leak
+- [PN5\_60673](./../pn5_60673) - Spooler: Create new **FILE**device type to send output to an Operating System file
+- [PN5\_60679](./../pn5_60679) - Add an option to the **create-account** command to set the emulation for the account
+- [PN5\_60680](./../pn5_60680) - jQL: Multiple **BREAK-ON "'P'"** clauses produce multiple page breaks
+- [PN5\_60681](./../pn5_60681) - jQL: **MCC** conversion code issues
+- [PN5\_60682](./../pn5_60682) - jQL: Unable to get Value Number from exploded sort if **byexp\_mv\_dup\_like\_d3** is enabled
+- [PN5\_60683](./../pn5_60683) - SQL: JOIN issue, some JOINs would fail
+- [PN5\_60684](./../pn5_60684) - **mw42**drops to the debugger when an invalid option is supplied as the first argument
+- [PN5\_60685](./../pn5_60685) - **QSELECT**and **FORM-LIST** commands do not allow quoted arguments without spaces between the arguments
+- [PN5\_60686](./../pn5_60686) - **TERM**settings don't persist
+- [PN5\_60688](./../pn5_60688) - Unable to stack **KEY-SELECT**s
+- [PN5\_60689](./../pn5_60689) - Setting **log\_runtime\_errors = true** configuration option causes all messages from the **jbcmessages** file to be logged
+- [PN5\_60690](./../pn5_60690) - Spooler: **SETPTR**doesn't inherit Hold status from **SP-ASSIGN**
+- [PN5\_60691](./../pn5_60691) - jRClient: JIndex start position ignored
+- [PN5\_60692](./../pn5_60692) - jQL: Segmentation Violation scenario with a dictionary subroutine call
+- [PN5\_60694](./../pn5_60694) - Spooler: The **SETPTR** banner does not persist after being set by a previous **SETPTR**
+- [PN5\_60695](./../pn5_60695) - Telnet: Update terminfo definitions
+- [PN5\_60696](./../pn5_60696) - Correct TJ memory access violations when the record key or transaction information exceeds 16k
+- [PN5\_60697](./../pn5_60697) - Indexes: A-correlative issue with missing semi-colon
+- [PN5\_60698](./../pn5_60698) - Allow **HEADING**to use case insensitive special characters
 - [PN5\_60699](./../pn5_60699) - Execution of PROCs to pass back the values to the SETTING variable
 - [PN5\_60700](./../pn5_60700) - Execution of Paragraphs to pass back the values to the SETTING variable
 - [PN5\_60701](./../pn5_60701) - **jDLS -L**does not display the lock table
@@ -48,8 +48,8 @@
 - [PN5\_60708](./../pn5_60708) - Transaction Journaling: The **jlogdup** command does not accept a select-list to control what is restored
 - [PN5\_60709](./../pn5_60709) - Allow **jdiag** to recognize the emulation from files of the form: Config\_EMULATE\_name
 - [PN5\_60710](./../pn5_60710) - jQL: **NI** operand returns zero
-- [PN5\_60713](PN5_60713) - jbase\_agent not working as a service on Windows
-- [PN5\_60714](PN5_60714) - jBC code with END followed by a comment would not compile
+- [PN5\_60713](./../pn5_60713) - jbase\_agent not working as a service on Windows
+- [PN5\_60714](./../pn5_60714) - jBC code with END followed by a comment would not compile
 - [PN5\_60715](./../pn5_60715) - CREATE-FILE reports the wrong filename for the data section
 - [PN5\_60716](./../pn5_60716) - Add optional parameters to REGEXP() for case insensivity
 - [PN5\_60717](./../pn5_60717) - jshow enhancements
@@ -112,5 +112,5 @@
 
 # Additional Notes
 
-- The spooler features a new [FILE Device Type](PN5_60673).
+- The spooler features a new [FILE Device Type](./../pn5_60673).
 

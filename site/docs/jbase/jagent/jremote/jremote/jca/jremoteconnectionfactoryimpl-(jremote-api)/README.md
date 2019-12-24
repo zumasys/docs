@@ -71,7 +71,7 @@ public JRemoteConnectionFactoryImpl()
 ```
 
 Construct a connection factory for use in a non managed environment using the default connection manager.
-See Also:[`DefaultConnectionManager`](/39258-jca/com_jbase_jremote_jca_DefaultConnectionManager "class in com.jbase.jremote.jca")
+See Also:[`DefaultConnectionManager`](./../defaultconnectionmanager-%28jremote-api%29 "class in com.jbase.jremote.jca")
 
 
 #### JRemoteConnectionFactoryImpl
@@ -81,7 +81,7 @@ public JRemoteConnectionFactoryImpl(javax.resource.spi.ManagedConnectionFactory 
 ```
 
 Construct a connection factory for use in a non managed environment using the default connection manager.
-See Also:[`DefaultConnectionManager`](/39258-jca/com_jbase_jremote_jca_DefaultConnectionManager "class in com.jbase.jremote.jca")
+See Also:[`DefaultConnectionManager`](./../defaultconnectionmanager-%28jremote-api%29 "class in com.jbase.jremote.jca")
 
 #### JRemoteConnectionFactoryImpl
 

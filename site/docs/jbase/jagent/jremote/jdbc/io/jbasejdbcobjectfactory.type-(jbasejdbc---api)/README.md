@@ -24,8 +24,8 @@ jbasejdbc <br>
 - [Next Class](./../jbasemsg-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/io//39232-io/com_jbase_jdbc_io_JBaseJDBCObjectFactory.TYPE)
-- [No Frames](/39232-io/com_jbase_jdbc_io_JBaseJDBCObjectFactory.TYPE)
+- [Frames](./../jbasejdbcobjectfactory-%28jbasejdbc-api%29)
+- [No Frames](./../jbasejdbcobjectfactory-%28jbasejdbc-api%29)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -315,8 +315,8 @@ jbasejdbc <br>
 - [Next Class](./../jbasemsg-%28jbasejdbc---api%29 "class in com.jbase.jdbc.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jdbc/io//39232-io/com_jbase_jdbc_io_JBaseJDBCObjectFactory.TYPE)
-- [No Frames](/39232-io/com_jbase_jdbc_io_JBaseJDBCObjectFactory.TYPE)
+- [Frames](./../jbasejdbcobjectfactory-%28jbasejdbc-api%29)
+- [No Frames](./../jbasejdbcobjectfactory-%28jbasejdbc-api%29)
 
 
 - [All Classes](../../../../allclasses-noframe.html)

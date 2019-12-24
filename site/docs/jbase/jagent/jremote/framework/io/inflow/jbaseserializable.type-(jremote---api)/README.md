@@ -12,7 +12,7 @@ Skip navigation links
 - [Overview](../../../../overview-summary.html)
 - [Package](./../../../../jremote/io/com.jbase.jremote.io-%28jremote---api%29)
 - Class
-- [Use](/39253-class-use/com_jbase_jremote_io_class-use_JBaseSerializable.TYPE)
+- [Use](./../../../../jremote/io/class-use/uses-of-interface-com.jbase.jremote.io.jbaseserializable-%28jremote-api%29)
 - [Tree](./../../../../jremote/io/com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
@@ -24,8 +24,8 @@ jremote <br>
 - [Next Class](./../../../../jremote/io/jbasesocketconnection-%28jremote---api%29 "class in com.jbase.jremote.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/io//39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE)
-- [No Frames](/39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE)
+- [Frames](./../../../../jremote/io/jbaseserializable-%28jremote-api%29)
+- [No Frames](./../../../../jremote/io/jbaseserializable-%28jremote-api%29)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
@@ -222,7 +222,7 @@ Skip navigation links
 - [Overview](../../../../overview-summary.html)
 - [Package](./../../../../jremote/io/com.jbase.jremote.io-%28jremote---api%29)
 - Class
-- [Use](/39253-class-use/com_jbase_jremote_io_class-use_JBaseSerializable.TYPE)
+- [Use](./../../../../jremote/io/class-use/uses-of-interface-com.jbase.jremote.io.jbaseserializable-%28jremote-api%29)
 - [Tree](./../../../../jremote/io/com.jbase.jremote.io-class-hierarchy-%28jremote---api%29)
 - [Deprecated](../../../../deprecated-list.html)
 - [Help](../../../../help-doc.html)
@@ -234,8 +234,8 @@ jremote <br>
 - [Next Class](./../../../../jremote/io/jbasesocketconnection-%28jremote---api%29 "class in com.jbase.jremote.io")
 
 
-- [Frames](../../../../index.html?com/jbase/jremote/io//39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE)
-- [No Frames](/39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE)
+- [Frames](./../../../../jremote/io/jbaseserializable-%28jremote-api%29)
+- [No Frames](./../../../../jremote/io/jbaseserializable-%28jremote-api%29)
 
 
 - [All Classes](../../../../allclasses-noframe.html)
