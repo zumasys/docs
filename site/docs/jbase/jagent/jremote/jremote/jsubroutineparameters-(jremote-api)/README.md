@@ -38,7 +38,7 @@ subroutineParams.add(new JDynArray("five"));
 
 Adding null elements is permitted and the above example will provide five parameters to a subroutine.
 
-See Also:`JConnection.call(java.lang.String, com.jbase.jremote.JSubroutineParameters)`, [Serialized Form](../../../serialized-form.html#com.jbase.jremote.JSubroutineParameters)
+See Also:`JConnection.call(java.lang.String, com.jbase.jremote.JSubroutineParameters)`, [Serialized Form](./../../jrcs/serialized-form#com.jbase.jremote)
 
 ### Nested Class Summary
 

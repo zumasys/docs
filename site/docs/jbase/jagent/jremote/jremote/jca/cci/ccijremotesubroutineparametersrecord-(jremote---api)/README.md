@@ -64,7 +64,7 @@ public class CCIJRemoteSubroutineParametersRecord
 extends Object
 implements SubroutineParametersRecord
 ```
-See Also:[Serialized Form](../../../../../serialized-form.html#com.jbase.jremote.jca.cci.CCIJRemoteSubroutineParametersRecord)
+See Also:[Serialized Form](./../../../../jrcs/serialized-form#com.jbase.jremote.jca.cci)
 
 - - ### Constructor Summary
 

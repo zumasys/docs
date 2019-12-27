@@ -23,7 +23,7 @@ extends JRemoteException
 ```
 
 A generic jBASE record locked exception.
-See Also:[Serialized Form](../../../serialized-form.html#com.jbase.jremote.JRecordLockedException)
+See Also:[Serialized Form](./../../jrcs/serialized-form#com.jbase.jremote)
 
 ### Constructor Summary
 

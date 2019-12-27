@@ -30,7 +30,7 @@ JSubroutineParameters is based on ArrayList and its typical usage is as follows:
     subroutineParams.add(new JDynArray()); 
     subroutineParams.add(new JDynArray("five")); 
 
-Adding null elements is permitted and the above example will provide five parameters to a subroutine.Author:aphetheanSee Also:[`JConnection.call(java.lang.String, com.jbase.jremote.JSubroutineParameters)`](../../../com/jbase/jremote/JConnection.html#call-java.lang.String-com.jbase.jremote.JSubroutineParameters-), [Serialized Form](../../../serialized-form.html#com.jbase.jremote.JSubroutineParameters)
+Adding null elements is permitted and the above example will provide five parameters to a subroutine.Author:aphetheanSee Also:[`JConnection.call(java.lang.String, com.jbase.jremote.JSubroutineParameters)`](./../jconnection#call-java.lang.String-com.jbase.jremote), [Serialized Form](./../../jrcs/serialized-form#com.jbase.jremote)
 - - ### Nested Class Summary
 
         - ### Nested classes/interfaces inherited from interface com.jbase.jremote.io.[JBaseSerializable](../../../com/jbase/jremote/io/JBaseSerializable.html "interface in com.jbase.jremote.io")

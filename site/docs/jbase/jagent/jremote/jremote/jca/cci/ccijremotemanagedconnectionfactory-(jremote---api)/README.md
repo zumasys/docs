@@ -64,7 +64,7 @@ com.jbase.jremote.jca.cci
 public class CCIJRemoteManagedConnectionFactory
 extends JRemoteManagedConnectionFactory
 ```
-See Also:[Serialized Form](../../../../../serialized-form.html#com.jbase.jremote.jca.cci.CCIJRemoteManagedConnectionFactory)
+See Also:[Serialized Form](./../../../../jrcs/serialized-form#com.jbase.jremote.jca.cci)
 
 - - ### Field Summary
 

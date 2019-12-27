@@ -66,7 +66,7 @@ com.jbase.framework.io.exception
 public class UnknownTypeException
 extends IOException
 ```
-See Also:[Serialized Form](../../../../../serialized-form.html#com.jbase.framework.io.exception.UnknownTypeException)
+See Also:[Serialized Form](./../../../../jrcs/serialized-form#com.jbase.framework.io.exception)
 
 - - ### Field Summary
 

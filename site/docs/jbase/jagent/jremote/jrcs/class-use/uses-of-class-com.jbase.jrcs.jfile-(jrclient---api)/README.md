@@ -19,7 +19,7 @@
 | <br>Modifier and Type<br> | <br>Method<br> | <br>Description<br> |
 | --- | --- | --- |
 | <br>[JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>JCommon.[getFile](./../../jcommon-%28jrclient-api%29#getFile-int-)(int index)<br> | <br>Retrieves a file variable from a specific position in a common block<br> |
-| <br>[JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>JConnection.[openFile](../../../../com/jbase/jrcs/JConnection.html#openFile-java.lang.String-)(String fileName)<br> | <br>Opens a file with the given name<br> |
+| <br>[JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>JConnection.[openFile](./../../../archive/jconnection#openFile-java.lang)(String fileName)<br> | <br>Opens a file with the given name<br> |
 
 **Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) with parameters of type [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")**
 

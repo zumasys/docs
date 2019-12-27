@@ -64,7 +64,7 @@ public class JRemoteActivationSpec
 extends Object
 implements javax.resource.spi.ActivationSpec, Serializable
 ```
-See Also:[Serialized Form](../../../../../serialized-form.html#com.jbase.jremote.jca.inflow.JRemoteActivationSpec)
+See Also:[Serialized Form](./../../../../jrcs/serialized-form#com.jbase.jremote.jca.inflow)
 
 - - ### Constructor Summary
 

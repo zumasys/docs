@@ -47,7 +47,7 @@ com.jbase.jremote.jca
 | [EventNotifier](../../../../com/jbase/jremote/jca/class-use/EventNotifier.html#com.jbase.jremote.jca)<br>The interface for event notifcation.<br> |
 | [JRemoteManagedConnection](../../../../com/jbase/jremote/jca/class-use/JRemoteManagedConnection.html#com.jbase.jremote.jca)<br>The application server considers this managed connection to be the phyiscal<br> connection to a remote jBASE instance.<br> |
 | [TransactionManager](../../../../com/jbase/jremote/jca/class-use/TransactionManager.html#com.jbase.jremote.jca)  |
-| [WrappedJConnection](../../../../com/jbase/jremote/jca/class-use/WrappedJConnection.html#com.jbase.jremote.jca)<br>Implementation of a connection to a remote jBASE instance.<br> |
+| [WrappedJConnection](./../../../archive/wrappedjconnection#com.jbase.jremote)<br>Implementation of a connection to a remote jBASE instance.<br> |
 - Classes in [com.jbase.jremote.jca](./../com.jbase.jremote.jca-%28jremote---api%29) used by [com.jbase.jremote.jca.cci](./../com.jbase.jremote.jca-%28jremote---api%29) | Class and Description |
 | --- |
 | [JRemoteManagedConnectionFactory](../../../../com/jbase/jremote/jca/class-use/JRemoteManagedConnectionFactory.html#com.jbase.jremote.jca.cci)<br>This class implements the JCA ManagedConnectionFactory.<br> |

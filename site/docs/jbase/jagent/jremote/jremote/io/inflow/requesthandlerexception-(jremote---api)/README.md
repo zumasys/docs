@@ -67,7 +67,7 @@ extends Exception
 ```
 
 Exception from RequestHandler.
-Author:aphetheanSee Also:[Serialized Form](../../../../../serialized-form.html#com.jbase.jremote.io.inflow.RequestHandlerException)
+Author:aphetheanSee Also:[Serialized Form](./../../../../jrcs/serialized-form#com.jbase.jremote.io.inflow)
 
 - - ### Constructor Summary
 

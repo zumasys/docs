@@ -19,7 +19,7 @@ public class JExecuteResults
 extends JRemoteResponse
 ```
 
-The results from an executed command.Author:aphetheanSee Also:[`JConnection.execute(java.lang.String)`](../../../com/jbase/jremote/JConnection.html#execute-java.lang.String-)
+The results from an executed command.Author:aphetheanSee Also:[`JConnection.execute(java.lang.String)`](./../jconnection#execute-java.lang)
 - - ### Nested Class Summary
 
         - ### Nested classes/interfaces inherited from interface com.jbase.jremote.io.[JBaseSerializable](../../../com/jbase/jremote/io/JBaseSerializable.html "interface in com.jbase.jremote.io")

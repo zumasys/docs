@@ -64,7 +64,7 @@ public class SubroutineInteractionSpec
 extends Object
 implements javax.resource.cci.InteractionSpec
 ```
-See Also:[Serialized Form](../../../../../serialized-form.html#com.jbase.jremote.jca.cci.SubroutineInteractionSpec)
+See Also:[Serialized Form](./../../../../jrcs/serialized-form#com.jbase.jremote.jca.cci)
 
 - - ### Field Summary
 

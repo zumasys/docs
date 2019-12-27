@@ -66,7 +66,7 @@ com.jbase.jremote.io.exception
 public class UnexpectedCharacterException
 extends IOException
 ```
-See Also:[Serialized Form](../../../../../serialized-form.html#com.jbase.jremote.io.exception.UnexpectedCharacterException)
+See Also:[Serialized Form](./../../../../jrcs/serialized-form#com.jbase.jremote.io.exception)
 
 - - ### Field Summary
 

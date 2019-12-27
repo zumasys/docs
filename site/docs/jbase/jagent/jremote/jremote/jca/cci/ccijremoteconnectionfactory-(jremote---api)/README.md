@@ -64,7 +64,7 @@ public class CCIJRemoteConnectionFactory
 extends Object
 implements javax.resource.cci.ConnectionFactory
 ```
-See Also:[Serialized Form](../../../../../serialized-form.html#com.jbase.jremote.jca.cci.CCIJRemoteConnectionFactory)
+See Also:[Serialized Form](./../../../../jrcs/serialized-form#com.jbase.jremote.jca.cci)
 
 - - ### Field Summary
 

@@ -153,21 +153,21 @@ protected void setConnection(JConnection connection)
 public boolean switchAccount(String user,                              String account,                              String password)                       throws JRemoteException
 ```
 
-Switch jBASE account.Specified by:`switchAccount` in interface `JConnection`Parameters:`user` - username that belongs to the account`account` - name of the account to log into`password` - password of the account to log intoReturns:booleanThrows:`JRemoteException`See Also:[`JConnection.switchAccount(String, String, String)`](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JConnection.html#switchAccount-java.lang.String-java.lang.String-java.lang.String-)
+Switch jBASE account.Specified by:`switchAccount` in interface `JConnection`Parameters:`user` - username that belongs to the account`account` - name of the account to log into`password` - password of the account to log intoReturns:booleanThrows:`JRemoteException`See Also:[`JConnection.switchAccount(String, String, String)`](./../jconnection#switchAccount-java.lang.String-java.lang.String-java.lang)
     - - #### open
 
 ```
 public JFile open(String filename)            throws JRemoteException
 ```
 
-Open jBASE file.Specified by:`open` in interface `JConnection`Returns:JFileThrows:`JRemoteException`See Also:[`JConnection.open(String)`](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JConnection.html#open-java.lang.String-)
+Open jBASE file.Specified by:`open` in interface `JConnection`Returns:JFileThrows:`JRemoteException`See Also:[`JConnection.open(String)`](./../jconnection#open-java.lang)
     - - #### call
 
 ```
 public JSubroutineParameters call(String subroutineName,                                   JSubroutineParameters parameters)                            throws JSubroutineNotFoundException,                                   JRemoteException
 ```
 
-Call jBASE subroutine.Specified by:`call` in interface `JConnection`Returns:the result parameters from subroutine callThrows:`JSubroutineNotFoundException``JRemoteException`See Also:[`JConnection.open(String)`](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JConnection.html#open-java.lang.String-)
+Call jBASE subroutine.Specified by:`call` in interface `JConnection`Returns:the result parameters from subroutine callThrows:`JSubroutineNotFoundException``JRemoteException`See Also:[`JConnection.open(String)`](./../jconnection#open-java.lang)
     - - #### execute
 
 ```
@@ -220,7 +220,7 @@ Converts internal representations of data to their external form.Specified by:`o
 public JDynArray getCommon(String name)                     throws JRemoteException
 ```
 
-Return the value of the common with supplied name.Specified by:`getCommon` in interface `JConnection`Returns:JDynArray valueThrows:`JRemoteException`See Also:[`JConnection.getCommon(java.lang.String name)`](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JConnection.html#getCommon-java.lang.String-)
+Return the value of the common with supplied name.Specified by:`getCommon` in interface `JConnection`Returns:JDynArray valueThrows:`JRemoteException`See Also:[`JConnection.getCommon(java.lang.String name)`](./../jconnection#getCommon-java.lang)
     - - #### getMetaData
 
 ```
@@ -244,7 +244,7 @@ public JSelectList createSelectList(JDynArray jd)                              t
 ```
 
 Description copied from interface: `JConnection`
-Create a select list object from an existing dynamic array containing a list of keys separated by attribute markers.Specified by:`createSelectList` in interface `JConnection`Parameters:`jd` - dynamic array containing the keysReturns:JSelectList select listThrows:`JRemoteException`See Also:[`JConnection.createSelectList(JDynArray)`](file:///C%3A/Users/coreyl/Desktop/jremote-docs/javadocs/com/jbase/jremote/JConnection.html#createSelectList-com.jbase.jremote.JDynArray-)
+Create a select list object from an existing dynamic array containing a list of keys separated by attribute markers.Specified by:`createSelectList` in interface `JConnection`Parameters:`jd` - dynamic array containing the keysReturns:JSelectList select listThrows:`JRemoteException`See Also:[`JConnection.createSelectList(JDynArray)`](./../jconnection#createSelectList-com.jbase.jremote)
     - - #### begin
 
 ```

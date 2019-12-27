@@ -66,7 +66,7 @@ implements javax.resource.spi.ManagedConnectionFactory, javax.resource.spi.Valid
 ```
 
 This class implements the JCA ManagedConnectionFactory.  It contains configuration<br> information for connecting to remote jBASE instances and implements all of <br> the matching and creations semantics for connection pooling.<br>
-Author:aphetheanSee Also:[Serialized Form](../../../../serialized-form.html#com.jbase.jremote.jca.JRemoteManagedConnectionFactory)
+Author:aphetheanSee Also:[Serialized Form](./../../../jrcs/serialized-form#com.jbase.jremote.jca)
 
 - - ### Field Summary
 
