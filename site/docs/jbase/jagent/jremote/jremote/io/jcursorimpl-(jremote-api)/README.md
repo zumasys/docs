@@ -103,7 +103,7 @@ public boolean next()
 ```
 
 Move cursor to next item
-Specified by:`next` in interface `JSelectList`Overrides:`next` in class `JSelectListImpl`Returns:true if OK, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.next()`](/39248-jremote/com_jbase_jremote_jselectlist#next--)
+Specified by:`next` in interface `JSelectList`Overrides:`next` in class `JSelectListImpl`Returns:true if OK, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.next()`](./../../jselectlist-%28jremote-api%29#next--)
 
 
 #### previous
@@ -114,7 +114,7 @@ public boolean previous()
 ```
 
 Move cursor to previous item
-Specified by:`previous` in interface `JSelectList`Overrides:`previous` in class `JSelectListImpl`Returns:true if OK, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.previous()`](/39248-jremote/com_jbase_jremote_jselectlist#previous--)
+Specified by:`previous` in interface `JSelectList`Overrides:`previous` in class `JSelectListImpl`Returns:true if OK, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.previous()`](./../../jselectlist-%28jremote-api%29#previous--)
 
 
 #### hasNext
@@ -125,7 +125,7 @@ public boolean hasNext()
 ```
 
 Returns whether it is possible to move the cursor forwards.
-Specified by:`hasNext` in interface `JSelectList`Overrides:`hasNext` in class `JSelectListImpl`Returns:true if YES, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.hasNext()`](/39248-jremote/com_jbase_jremote_jselectlist#hasNext--)
+Specified by:`hasNext` in interface `JSelectList`Overrides:`hasNext` in class `JSelectListImpl`Returns:true if YES, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.hasNext()`](./../../jselectlist-%28jremote-api%29#hasNext--)
 
 
 #### hasPrevious
@@ -136,7 +136,7 @@ public boolean hasPrevious()
 ```
 
 Returns whether it is possible to move the cursor backwards.
-Specified by:`hasPrevious` in interface `JSelectList`Overrides:`hasPrevious` in class `JSelectListImpl`Returns:true if YES, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.hasPrevious()`](/39248-jremote/com_jbase_jremote_jselectlist#hasPrevious--)
+Specified by:`hasPrevious` in interface `JSelectList`Overrides:`hasPrevious` in class `JSelectListImpl`Returns:true if YES, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.hasPrevious()`](./../../jselectlist-%28jremote-api%29#hasPrevious--)
 
 #### close
 
@@ -146,7 +146,7 @@ public void close()
 ```
 
 Close cursor. Applies all pending changes and request the server to release all resources associated to this cursor.
-Specified by:`close` in interface `JSelectList`Overrides:`close` in class `JSelectListImpl`Throws:`JRemoteException`See Also:[`JSelectList.close()`](/39248-jremote/com_jbase_jremote_jselectlist#close--)
+Specified by:`close` in interface `JSelectList`Overrides:`close` in class `JSelectListImpl`Throws:`JRemoteException`See Also:[`JSelectList.close()`](./../../jselectlist-%28jremote-api%29#close--)
 
 
 
@@ -159,7 +159,7 @@ public JDynArray getRecord()
 Description copied from interface: `JCursor`
 
 Returns the current record.
-Specified by:`getRecord` in interface `JCursor`Returns:record valueSee Also:[`JCursor.getRecord()`](/39248-jremote/com_jbase_jremote_jcursor#getRecord--)
+Specified by:`getRecord` in interface `JCursor`Returns:record valueSee Also:[`JCursor.getRecord()`](./../../jcursor-%28jremote-api%29#getRecord--)
 
 
 #### setRecord
@@ -171,7 +171,7 @@ public void setRecord(JDynArray record)
 Description copied from interface: `JCursor`
 
 Modifies the current record. Changes are not applied until methods update() or close() are called.
-Specified by:`setRecord` in interface `JCursor`See Also:[`JCursor.setRecord(com.jbase.jremote.JDynArray)`](/39248-jremote/com_jbase_jremote_jcursor#setRecord-com.jbase.jremote.JDynArray-)
+Specified by:`setRecord` in interface `JCursor`See Also:[`JCursor.setRecord(com.jbase.jremote.JDynArray)`](./../../jcursor-%28jremote-api%29#setRecord-com.jbase.jremote)
 
 #### update
 
@@ -183,7 +183,7 @@ public void update()
 Description copied from interface: `JCursor`
 
 Update changes. This method will apply all pending changes to the cursor.
-Specified by:`update` in interface `JCursor`Throws:`JRemoteException`See Also:[`JCursor.update()`](/39248-jremote/com_jbase_jremote_jcursor#update--)
+Specified by:`update` in interface `JCursor`Throws:`JRemoteException`See Also:[`JCursor.update()`](./../../jcursor-%28jremote-api%29#update--)
 
 
 

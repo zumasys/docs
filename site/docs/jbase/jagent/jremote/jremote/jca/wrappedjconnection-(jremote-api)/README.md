@@ -241,7 +241,7 @@ public boolean switchAccount(String user,
 ```
 
 Switch jBASE account.
-Specified by:`switchAccount` in interface `JConnection`Parameters:`user` - username that belongs to the account`account` - name of the account to log into`password` - password of the account to log intoReturns:booleanThrows:`JRemoteException`See Also:[`JConnection.switchAccount(String, String, String)`](/39248-jremote/com_jbase_jremote_jconnection#switchAccount-java.lang.String-java.lang.String-java.lang.String-)
+Specified by:`switchAccount` in interface `JConnection`Parameters:`user` - username that belongs to the account`account` - name of the account to log into`password` - password of the account to log intoReturns:booleanThrows:`JRemoteException`See Also:[`JConnection.switchAccount(String, String, String)`](./../../jconnection-%28jremote-api%29#switchAccount-java.lang.String-java.lang.String-java.lang)
 
 
 
@@ -253,7 +253,7 @@ public JFile open(String filename)
 ```
 
 Open jBASE file.
-Specified by:`open` in interface `JConnection`Returns:JFileThrows:`JRemoteException`See Also:[`JConnection.open(String)`](/39248-jremote/com_jbase_jremote_jconnection#open-java.lang.String-)
+Specified by:`open` in interface `JConnection`Returns:JFileThrows:`JRemoteException`See Also:[`JConnection.open(String)`](./../../jconnection-%28jremote-api%29#open-java.lang)
 
 #### 
 
@@ -268,7 +268,7 @@ public JSubroutineParameters call(String subroutineName,
 ```
 
 Call jBASE subroutine.
-Specified by:`call` in interface `JConnection`Returns:the result parameters from subroutine callThrows:`JSubroutineNotFoundException``JRemoteException`See Also:[`JConnection.open(String)`](/39248-jremote/com_jbase_jremote_jconnection#open-java.lang.String-)
+Specified by:`call` in interface `JConnection`Returns:the result parameters from subroutine callThrows:`JSubroutineNotFoundException``JRemoteException`See Also:[`JConnection.open(String)`](./../../jconnection-%28jremote-api%29#open-java.lang)
 
 #### 
 
@@ -310,7 +310,7 @@ public int date()
 ```
 
 Return the jBASE internal date. Epoch Dec 31, 1967.
-Specified by:`date` in interface `JConnection`Returns:int internal dateThrows:`JRemoteException`See Also:[`JConnection.date()`](/39248-jremote/com_jbase_jremote_jconnection#date--)
+Specified by:`date` in interface `JConnection`Returns:int internal dateThrows:`JRemoteException`See Also:[`JConnection.date()`](./../../jconnection-%28jremote-api%29#date--)
 
 
 
@@ -322,7 +322,7 @@ public int time()
 ```
 
 Return the jBASE internal time. Seconds since midnight.
-Specified by:`time` in interface `JConnection`Returns:int internal timeThrows:`JRemoteException`See Also:[`JConnection.time()`](/39248-jremote/com_jbase_jremote_jconnection#time--)
+Specified by:`time` in interface `JConnection`Returns:int internal timeThrows:`JRemoteException`See Also:[`JConnection.time()`](./../../jconnection-%28jremote-api%29#time--)
 
 
 
@@ -364,7 +364,7 @@ public JDynArray getCommon(String name)
 ```
 
 Return the value of the common with supplied name.
-Specified by:`getCommon` in interface `JConnection`Returns:JDynArray valueThrows:`JRemoteException`See Also:[`JConnection.getCommon(java.lang.String name)`](/39248-jremote/com_jbase_jremote_jconnection#getCommon-java.lang.String-)
+Specified by:`getCommon` in interface `JConnection`Returns:JDynArray valueThrows:`JRemoteException`See Also:[`JConnection.getCommon(java.lang.String name)`](./../../jconnection-%28jremote-api%29#getCommon-java.lang)
 
 
 
@@ -378,7 +378,7 @@ public EISMetaDataRepository getMetaData()
 Description copied from interface: `JConnection`
 
 Return meta data of the connected jBASE instance.
-Specified by:`getMetaData` in interface `JConnection`Returns:EISMetaDataRepository meta data repositoryThrows:`JRemoteException`See Also:[`JConnection.getMetaData()`](/39248-jremote/com_jbase_jremote_jconnection#getMetaData--)
+Specified by:`getMetaData` in interface `JConnection`Returns:EISMetaDataRepository meta data repositoryThrows:`JRemoteException`See Also:[`JConnection.getMetaData()`](./../../jconnection-%28jremote-api%29#getMetaData--)
 
 
 
@@ -392,7 +392,7 @@ public JStatement createStatement()
 Description copied from interface: `JConnection`
 
 Create a statement object that enables queries to be executed and a JResultSet returned.
-Specified by:`createStatement` in interface `JConnection`Returns:JStatement jBase statement objectThrows:`JRemoteException`See Also:[`JConnection.createStatement()`](/39248-jremote/com_jbase_jremote_jconnection#createStatement--)
+Specified by:`createStatement` in interface `JConnection`Returns:JStatement jBase statement objectThrows:`JRemoteException`See Also:[`JConnection.createStatement()`](./../../jconnection-%28jremote-api%29#createStatement--)
 
 
 
@@ -406,7 +406,7 @@ public JSelectList createSelectList(JDynArray jd)
 Description copied from interface: `JConnection`
 
 Create a select list object from an existing dynamic array containing a list of keys separated by attribute markers.
-Specified by:`createSelectList` in interface `JConnection`Parameters:`jd` - dynamic array containing the keysReturns:JSelectList select listThrows:`JRemoteException`See Also:[`JConnection.createSelectList(JDynArray)`](/39248-jremote/com_jbase_jremote_jconnection#createSelectList-com.jbase.jremote.JDynArray-)
+Specified by:`createSelectList` in interface `JConnection`Parameters:`jd` - dynamic array containing the keysReturns:JSelectList select listThrows:`JRemoteException`See Also:[`JConnection.createSelectList(JDynArray)`](./../../jconnection-%28jremote-api%29#createSelectList-com.jbase.jremote)
 
 
 
@@ -422,7 +422,7 @@ Description copied from interface: `JConnection`
 Begin a jBASE transaction.
 
 If a transaction already exists then no action will be taken.
-Specified by:`begin` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.commit()`](/39248-jremote/com_jbase_jremote_jconnection#commit--), [`JConnection.rollback()`](/39248-jremote/com_jbase_jremote_jconnection#rollback--)
+Specified by:`begin` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.commit()`](./../../jconnection-%28jremote-api%29#commit--), [`JConnection.rollback()`](./../../jconnection-%28jremote-api%29#rollback--)
 
 
 
@@ -438,7 +438,7 @@ Description copied from interface: `JConnection`
 Commit all pending jBASE operations performed in transaction and mark as complete.
 
 If no transaction exists then no action will be taken.
-Specified by:`commit` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.begin()`](/39248-jremote/com_jbase_jremote_jconnection#begin--)
+Specified by:`commit` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.begin()`](./../../jconnection-%28jremote-api%29#begin--)
 
 
 
@@ -454,7 +454,7 @@ Description copied from interface: `JConnection`
 Rollback all jBASE operations performed in transaction and mark as complete.
 
 If no transaction exists then no action will be taken.
-Specified by:`rollback` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.begin()`](/39248-jremote/com_jbase_jremote_jconnection#begin--)
+Specified by:`rollback` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.begin()`](./../../jconnection-%28jremote-api%29#begin--)
 
 
 

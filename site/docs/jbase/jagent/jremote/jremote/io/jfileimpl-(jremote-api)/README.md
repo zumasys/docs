@@ -111,7 +111,7 @@ public boolean exists(String recordKey)
 Description copied from interface: `JFile`
 
 This method returns true if the supplied record id exists.
-Specified by:`exists` in interface `JFile`Returns:record existsThrows:`JRemoteException`See Also:[`JFile.exists(java.lang.String)`](/39248-jremote/com_jbase_jremote_jfile#exists-java.lang.String-)
+Specified by:`exists` in interface `JFile`Returns:record existsThrows:`JRemoteException`See Also:[`JFile.exists(java.lang.String)`](./../../jfile-%28jremote-api%29#exists-java.lang)
 
 
 
@@ -127,7 +127,7 @@ public JDynArray read(String recordKey)
 Description copied from interface: `JFile`
 
 Read a record where the supplied recordKey is the key to the record.
-Specified by:`read` in interface `JFile`Returns:the record that was readThrows:`JRecordNotFoundException``JRemoteException`See Also:[`JFile.read(java.lang.String)`](/39248-jremote/com_jbase_jremote_jfile#read-java.lang.String-)
+Specified by:`read` in interface `JFile`Returns:the record that was readThrows:`JRecordNotFoundException``JRemoteException`See Also:[`JFile.read(java.lang.String)`](./../../jfile-%28jremote-api%29#read-java.lang)
 
 
 #### readU
@@ -143,7 +143,7 @@ public JDynArray readU(String recordKey,
 Description copied from interface: `JFile`
 
 Read a record where the supplied recordKey is the key to the record and locks it for update.
-Specified by:`readU` in interface `JFile`Parameters:`recordKey` - The record key`blockedRead` - Specifies whether this method call should block if the record is lockedReturns:the record that was read and lockedThrows:`JRecordNotFoundException``JRemoteException``JRecordLockedException`See Also:[`JFile.readU(java.lang.String, boolean)`](/39248-jremote/com_jbase_jremote_jfile#readU-java.lang.String-boolean-)
+Specified by:`readU` in interface `JFile`Parameters:`recordKey` - The record key`blockedRead` - Specifies whether this method call should block if the record is lockedReturns:the record that was read and lockedThrows:`JRecordNotFoundException``JRemoteException``JRecordLockedException`See Also:[`JFile.readU(java.lang.String, boolean)`](./../../jfile-%28jremote-api%29#readU-java.lang)
 
 
 #### write
@@ -157,7 +157,7 @@ public boolean write(String recordKey,
 Description copied from interface: `JFile`
 
 Write the supplied record to the jBASE file. If an update lock was held against the supplied key, it will be released after the record has been written.
-Specified by:`write` in interface `JFile`Returns:Returns true if the record did not exist prior to this write or false if the record was updated.Throws:`JRemoteException`See Also:[`JFile.write(java.lang.String, com.jbase.jremote.JDynArray)`](/39248-jremote/com_jbase_jremote_jfile#write-java.lang.String-com.jbase.jremote.JDynArray-)
+Specified by:`write` in interface `JFile`Returns:Returns true if the record did not exist prior to this write or false if the record was updated.Throws:`JRemoteException`See Also:[`JFile.write(java.lang.String, com.jbase.jremote.JDynArray)`](./../../jfile-%28jremote-api%29#write-java.lang.String-com.jbase.jremote)
 
 
 #### writeU
@@ -173,7 +173,7 @@ public boolean writeU(String recordKey,
 Description copied from interface: `JFile`
 
 Write the supplied record to the jBASE file. If an update lock was held against the supplied key, it will *NOT* be released.
-Specified by:`writeU` in interface `JFile``blockedWrite` - Specifies whether this method call should block if the record is already lockedReturns:Returns true if the record did not exist prior to this write or false if the record was updated.Throws:`JRemoteException``JRecordLockedException`See Also:[`JFile.writeU(java.lang.String, com.jbase.jremote.JDynArray, boolean)`](/39248-jremote/com_jbase_jremote_jfile#writeU-java.lang.String-com.jbase.jremote.JDynArray-boolean-)
+Specified by:`writeU` in interface `JFile``blockedWrite` - Specifies whether this method call should block if the record is already lockedReturns:Returns true if the record did not exist prior to this write or false if the record was updated.Throws:`JRemoteException``JRecordLockedException`See Also:[`JFile.writeU(java.lang.String, com.jbase.jremote.JDynArray, boolean)`](./../../jfile-%28jremote-api%29#writeU-java.lang.String-com.jbase.jremote)
 
 
 #### releaseLock
@@ -186,7 +186,7 @@ public boolean releaseLock(String recordKey)
 Description copied from interface: `JFile`
 
 Release the update lock (if held) on the specified key.
-Specified by:`releaseLock` in interface `JFile`Returns:Returns true if lock has been released successfullyThrows:`JRemoteException`See Also:[`JFile.releaseLock(java.lang.String)`](/39248-jremote/com_jbase_jremote_jfile#releaseLock-java.lang.String-)
+Specified by:`releaseLock` in interface `JFile`Returns:Returns true if lock has been released successfullyThrows:`JRemoteException`See Also:[`JFile.releaseLock(java.lang.String)`](./../../jfile-%28jremote-api%29#releaseLock-java.lang)
 
 
 #### releaseLocks
@@ -199,7 +199,7 @@ public boolean releaseLocks()
 Description copied from interface: `JFile`
 
 Releases all locks held by this file.
-Specified by:`releaseLocks` in interface `JFile`Returns:Returns true if locks have been released successfullyThrows:`JRemoteException`See Also:[`JFile.releaseLocks()`](/39248-jremote/com_jbase_jremote_jfile#releaseLocks--)
+Specified by:`releaseLocks` in interface `JFile`Returns:Returns true if locks have been released successfullyThrows:`JRemoteException`See Also:[`JFile.releaseLocks()`](./../../jfile-%28jremote-api%29#releaseLocks--)
 
 
 #### hasLock
@@ -212,7 +212,7 @@ public boolean hasLock(String recordKey)
 Description copied from interface: `JFile`
 
 Check if the specified key holds a lock.
-Specified by:`hasLock` in interface `JFile`Returns:Returns true if the record is lockedThrows:`JRemoteException`See Also:[`JFile.hasLock(java.lang.String)`](/39248-jremote/com_jbase_jremote_jfile#hasLock-java.lang.String-)
+Specified by:`hasLock` in interface `JFile`Returns:Returns true if the record is lockedThrows:`JRemoteException`See Also:[`JFile.hasLock(java.lang.String)`](./../../jfile-%28jremote-api%29#hasLock-java.lang)
 
 
 #### delete
@@ -228,7 +228,7 @@ Delete a record where the supplied recordKey is the key to the record.
 
 Returns true if the delete was successful or false if the record was not found.
 An exception will be thrown if an error occurs whilst deleting the record.
-Specified by:`delete` in interface `JFile`Returns:delete successfulThrows:`JRemoteException`See Also:[`JFile.delete(java.lang.String)`](/39248-jremote/com_jbase_jremote_jfile#delete-java.lang.String-)
+Specified by:`delete` in interface `JFile`Returns:delete successfulThrows:`JRemoteException`See Also:[`JFile.delete(java.lang.String)`](./../../jfile-%28jremote-api%29#delete-java.lang)
 
 
 #### close
@@ -243,7 +243,7 @@ Description copied from interface: `JFile`
 Closes this jBASE file.
 
 Closing a JFile frees the associate remote system resources. Subsequent actions on this JFile object will reopen the file.
-Specified by:`close` in interface `JFile`Returns:close successfulThrows:`JRemoteException`See Also:[`JFile.close()`](/39248-jremote/com_jbase_jremote_jfile#close--)
+Specified by:`close` in interface `JFile`Returns:close successfulThrows:`JRemoteException`See Also:[`JFile.close()`](./../../jfile-%28jremote-api%29#close--)
 
 
 #### select
@@ -256,7 +256,7 @@ public JSelectList select()
 Description copied from interface: `JFile`
 
 Returns a select list containing the record keys in this jBASE file.
-Specified by:`select` in interface `JFile`Returns:JSelectList all record keysThrows:`JRemoteException`See Also:[`JFile.select()`](/39248-jremote/com_jbase_jremote_jfile#select--)
+Specified by:`select` in interface `JFile`Returns:JSelectList all record keysThrows:`JRemoteException`See Also:[`JFile.select()`](./../../jfile-%28jremote-api%29#select--)
 
 
 #### getCursor
@@ -269,7 +269,7 @@ public JCursor getCursor()
 Description copied from interface: `JFile`
 
 Returns a cursor to this jBASE file.
-Specified by:`getCursor` in interface `JFile`Returns:JCursor cursorThrows:`JRemoteException`See Also:[`JFile.getCursor()`](/39248-jremote/com_jbase_jremote_jfile#getCursor--)
+Specified by:`getCursor` in interface `JFile`Returns:JCursor cursorThrows:`JRemoteException`See Also:[`JFile.getCursor()`](./../../jfile-%28jremote-api%29#getCursor--)
 
 
 #### clear
@@ -284,7 +284,7 @@ Description copied from interface: `JFile`
 Delete all records from the file.
 
 Returns true if the operation was successful or false if the records could not be deleted.
-Specified by:`clear` in interface `JFile`Returns:clear successfulThrows:`JRemoteException`See Also:[`JFile.clear()`](/39248-jremote/com_jbase_jremote_jfile#clear--)
+Specified by:`clear` in interface `JFile`Returns:clear successfulThrows:`JRemoteException`See Also:[`JFile.clear()`](./../../jfile-%28jremote-api%29#clear--)
 
 
 

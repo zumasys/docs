@@ -1,7 +1,7 @@
 # Structure of ODBC jEDI Mapping Files
 
 **Created At:** 11/26/2019 5:21:13 PM  
-**Updated At:** 11/26/2019 6:37:23 PM  
+**Updated At:** 12/27/2019 7:23:56 PM  
 **Original Doc:** [structure-of-odbc-jedi-mapping-files](https://docs.jbase.com/structure-of-odbc-jedi-mapping-files)  
 **Original ID:** 498441  
 **Internal:** Yes  
@@ -9,7 +9,7 @@
 
 ## ODBC jEDI File Stub
 
-When you create a file of type *ODBC,*a small file (*stub*) is generated. This stub instructs the jBASE file interface that it's interacting with an ODBC jEDI type file. When a jBASE program or command interacts with an ODBC type file, the *jEDI* driver parses the stub and uses the **connect** parameter (see example stub below) to retrieve the *DSN connection information string* from the **jEDIdrivers.ini** file. It then checks an internal *RDBMS*map to determine if a connection has already been made to the target *RDBMS*. If not, a new connection is established. Connections are persisted until the last file for a given connection is closed.
+When you create a file of type *ODBC,*a small file (*stub*) is generated. This stub instructs the jBASE file interface that it's interacting with an *ODBC* jEDI type file. When a jBASE program or command interacts with an *ODBC* type file, the *jEDI* driver parses the stub and uses the **connect** parameter (see example stub below) to retrieve the *DSN connection information string* from the **jEDIdrivers.ini** file. It then checks an internal *RDBMS*map to determine if a connection has already been made to the target *RDBMS*. If not, a new connection is established. Connections are persisted until the last file for a given connection is closed.
 
 ### Note
 
@@ -94,9 +94,9 @@ Options:
 
 [Introduction to the ODBC jEDI](./../introduction-to-the-odbc-jedi)
 
-Installing the ODBC jEDI on Linux/Unix
+[Installing the ODBC jEDI on Linux/Unix](./../installing-the-odbc-jedi-on-linux&unix)
 
-Installing the ODBC jEDI on Windows
+[Installing the ODBC jEDI on Windows](./../installing-the-odbc-jedi-on-windows)
 
 [Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files)
 

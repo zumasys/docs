@@ -1,15 +1,15 @@
 # Installing the ODBC jEDI on Linux/Unix
 
 **Created At:** 12/20/2019 4:47:27 PM  
-**Updated At:** 12/27/2019 6:59:10 PM  
+**Updated At:** 12/27/2019 7:20:42 PM  
 **Original Doc:** [installing-the-odbc-jedi-on-linuxunix](https://docs.jbase.com/installing-the-odbc-jedi-on-linuxunix)  
 **Original ID:** 509163  
 **Internal:** Yes  
 
 
-As previously stated, in order to properly perform the steps defined in this section, you will need a licensed system running jBASE 5.6 or greater, and the *ODBC* jEDI tool-set installation package. If you do not yet have a valid licensed jBASE system, and/or the *ODBC* jEDI tool-set installation package, please contact Zumasys licensing to obtain them.
+As previously stated, in order to properly perform the steps defined in this section, you will need a licensed system running jBASE 5.6 or greater, and the *ODBC* *jEDI*tool-set installation package. If you do not yet have a valid licensed jBASE system, and/or the *ODBC* *jEDI*tool-set installation package, please contact Zumasys licensing to obtain them.
 
-The installation package is comprised of two components, the **ODBCjEDI.jpkg** and the **jpkginstaller.zip**; both can be removed from the target file system after successful installation. After receiving the *ODBC* jEDI tool-set installation package, do the following to ensure successful installation:
+The installation package is comprised of two components, the **ODBCjEDI.jpkg** and the **jpkginstaller.zip**; both can be removed from the target file system after successful installation. After receiving the *ODBC* *jEDI*tool-set installation package, do the following to ensure successful installation:
 
 1. Save the installation package's components to a desired location on your file-system
 
@@ -17,7 +17,7 @@ The installation package is comprised of two components, the **ODBCjEDI.jpkg** a
 
 For this example, **jBASE****I****nstall/**will be the location our components are stored after initial download
 
-2. Navigate to where your *ODBC* jEDI tool-set components are located on your file system
+2. Navigate to where your *ODBC* *jEDI*tool-set components are located on your file system
 
 ```
 ~$ cd /jBASEInstall

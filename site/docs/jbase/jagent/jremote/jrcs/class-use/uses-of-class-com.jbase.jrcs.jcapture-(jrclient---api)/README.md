@@ -22,7 +22,7 @@ JavaScript is disabled on your browser.
 
 | Modifier and Type<br> | Method<br> | Description<br> |
 | --- | --- | --- |
-| [JCapture](./../../jcapture-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | JExecuteResults.[getCapture](/jrcs/com_jbase_jrcs_jexecuteresults#getCapture--)()<br> | <br>Returns an incremental fetch capture object or null if there is no capture object.<br> |
+| [JCapture](./../../jcapture-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | JExecuteResults.[getCapture](./../../jexecuteresults-%28jrclient-api%29#getCapture--)()<br> | <br>Returns an incremental fetch capture object or null if there is no capture object.<br> |
 
 
 

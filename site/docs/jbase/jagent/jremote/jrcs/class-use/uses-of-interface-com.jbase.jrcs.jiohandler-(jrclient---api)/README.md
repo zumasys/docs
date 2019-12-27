@@ -23,7 +23,7 @@
 
 | <br>Modifier and Type<br> | <br>Method<br> | Description |
 | --- | --- | --- |
-| <br>[JIOHandler](./../../jiohandler-%28jrclient-api%29 "interface in com.jbase.jrcs")<br> | <br>JConnection.[getTermIOHandler](/jrcs/com_jbase_jrcs_JConnection#getTermIOHandler-)()<br> | <br>Retrieves a reference to the current terminal I/O handler.<br> |
+| <br>[JIOHandler](./../../jiohandler-%28jrclient-api%29 "interface in com.jbase.jrcs")<br> | <br>JConnection.[getTermIOHandler](./../../jconnection-%28jrclient-api%29#getTermIOHandler-)()<br> | <br>Retrieves a reference to the current terminal I/O handler.<br> |
 
 
 
@@ -33,6 +33,6 @@
 
 | <br>Modifier and Type<br> | <br>Method<br> | <br>Description<br> |
 | --- | --- | --- |
-| <br>void<br> | <br>JConnection.[setTermIOHandler](/jrcs/com_jbase_jrcs_JConnection#setTermIOHandler-com.jbase.jrcs.JIOHandler-)([JIOHandler](./../../jiohandler-%28jrclient-api%29 "interface in com.jbase.jrcs") handler)<br> | <br>Sets a terminal I/O handler.<br> |
+| <br>void<br> | <br>JConnection.[setTermIOHandler](./../../jconnection-%28jrclient-api%29#setTermIOHandler-com.jbase.jrcs)([JIOHandler](./../../jiohandler-%28jrclient-api%29 "interface in com.jbase.jrcs") handler)<br> | <br>Sets a terminal I/O handler.<br> |
 
 

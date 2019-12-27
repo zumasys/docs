@@ -1,7 +1,7 @@
 # Structure of ODBC jEDI Initialization Files
 
 **Created At:** 11/22/2019 7:47:42 PM  
-**Updated At:** 11/26/2019 6:35:20 PM  
+**Updated At:** 12/27/2019 7:18:56 PM  
 **Original Doc:** [structure-of-odbc-jedi-initialization-files](https://docs.jbase.com/structure-of-odbc-jedi-initialization-files)  
 **Original ID:** 497463  
 **Internal:** Yes  
@@ -9,20 +9,20 @@
 
 ## jEDIdrivers.ini File Structure
 
-The parameters below are part of the [**General**] section of the **jEDIdrivers.ini**file (note the parameters ARE case sensitive):
+The parameters below are found within the [**General**] section of the **jEDIdrivers.ini**file (note the parameters ARE case sensitive):
 
 
 | **File Parameter** | **Parameter Definition** |
 | --- | --- |
 | JRLAlock = 0 | Specifies that jBASE will handle the locking of records (currently the *jEDI*drivers do not handle locking at the *RDBMS*level) |
 | FullyExpanded = 0 | Controls how multi-values are stored across primary and secondary tables |
-| PasswdsEncrypted = 0 | Specifies whether passwords for *RDBMS*logins are encrypted |
-| TblSep = \_\_ | Specifies the literal separator characters used between primary and secondary tables |
-| VMCSep = \_\_ | Specifies the literal separator characters used between the literal string "VMC", and the name of a multi/sub-value group association name for storing the value count of a repeating group. |
+| PasswdsEncrypted = 0 | Specifies whether or not passwords for *RDBMS*logins are encrypted |
+| TblSep = \_\_ | Specifies the literal separator character(s) used between primary and secondary tables |
+| VMCSep = \_\_ | Specifies the literal separator character(s) used between the literal string "VMC", and the name of a multi/sub-value group association name used for storing the value count of a repeating group. |
 |  CSVdir = /home/myuser/csv | Specifies the directory where CSV definitions are stored for controlling the mapping between attributes and columns |
 
 
-Below is an example of a valid **jEDIdrivers.ini** file. In the section titled [**ODBC**], the settings *default*, *mssql*, and *msmatrix* are simply the name of the given *ODBC*driver connection information strings. These strings specify the *DSN,*User ID, and database name the driver uses to connect to the target *RDBMS*. Their names can be any lowercase alphabetical string (*no spaces allowed*), however, it's best to name them something that helps identify the driver they correspond to.
+At the bottom of this section there is an example of a valid **jEDIdrivers.ini** file. In the section titled [**ODBC**], the settings *default*, *mssql*, and *msmatrix* are simply the name of the given *ODBC*driver connection information strings. These strings specify the *DSN,*User ID, and database name the driver uses to connect to the target *RDBMS*. Their names can be any lowercase alphabetical string (*no spaces allowed*), however, it's best to name them something that helps identify the driver they correspond to.
 
 ### Note
 
@@ -32,7 +32,7 @@ The sections following the [**ODBC**] section (ODBC\_*label*) are used for stori
 
 ### Note
 
-Although the password can be part of the connection string (**PWD=*password***) it cannot be encrypted. If you wish to encrypt the password (see **jEDIDKencrypt**), the password must be in the section denoted by ODBC\_*label.*
+Although the password can be part of the connection string (**PWD=*password***), it cannot be encrypted in the connection string. If you wish to encrypt the password (see **jEDIDKencrypt**), the password must be in the section denoted by ODBC\_*label.*
 
 Additionally, the settings under [**General**] can be repeated with alternate values under the ODBC\_*label*sections. For example you may have **PasswdsEncrypted = 1**under [**General**] but have **PasswordsEncrypted = 0** under one or more of your ODBC\_*label*sections.
 
@@ -64,7 +64,7 @@ passwd = expswrd
 
 ### Note
 
-Any value, or part thereof, can make use of an environment variable. Environment variables are always in the format of $*variable* (even on Windows), and the / character for the CSVdir is the same for both Linux/Unix and Windows.
+Any value, or part thereof, can make use of an environment variable. Environment variables are always in the format of $*variable*, and the / character for the CSVdir is the same for both Linux/Unix and Windows.
 
 In the file example above, if environment variable JBCDATADIR was set to /dbms, the CVSdir parameter would look like the following:
 
@@ -72,7 +72,7 @@ CSVdir = $JBCDATADIR/JEDICSV
 
 ## odbc.ini File Structure
 
-Below is an example of an **odbc.ini** file. The **odbc.ini** file can contain descriptions for more than one *ODBC* driver. The section titles [MySQL] and [MSSQL] within this file correspond to the *DSN* parameters in the **jEDIdrivers.ini** file.
+Below is an example of an **odbc.ini** file. The **odbc.ini** file can contain descriptions for more than one *ODBC* driver. The section titles [**MySQL**] and [**MSSQL**] within this file correspond to the *DSN* parameters in the **jEDIdrivers.ini** file.
 
 ### Note
 
@@ -127,9 +127,9 @@ UsageCount=1
 
 [Introduction to the ODBC jEDI](./../introduction-to-the-odbc-jedi)
 
-Installing the ODBC jEDI on Linux/Unix
+[Installing the ODBC jEDI on Linux/Unix](./../installing-the-odbc-jedi-on-linux&unix)
 
-Installing the ODBC jEDI on Windows
+[Installing the ODBC jEDI on Windows](./../installing-the-odbc-jedi-on-windows)
 
 [Structure of ODBC JEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
 

@@ -1,7 +1,7 @@
 # Using the ODBC jEDI 
 
 **Created At:** 11/19/2019 7:24:34 PM  
-**Updated At:** 11/26/2019 6:29:22 PM  
+**Updated At:** 12/27/2019 7:33:13 PM  
 **Original Doc:** [using-the-jedi-odbc](https://docs.jbase.com/using-the-jedi-odbc)  
 **Original ID:** 495889  
 **Internal:** Yes  
@@ -15,7 +15,7 @@ Creating an *ODBC*type file from an existing table can be as simple as:
 CREATE-FILE tablename TYPE=ODBC COLS=*
 ```
 
-This creates a stub that maps to the **tablename** parameter and generates a dictionary for each table column so that they're ready for querying with *jQL*.
+This creates a stub that maps to the **tablename** parameter, and generates a dictionary for each table column so they're ready for querying with *jQL*.
 
 ### Note
 
@@ -127,9 +127,9 @@ The *ODBC jEDI* has the following non-standard IOCTL options:
 
 [Introduction to the ODBC jEDI](./../introduction-to-the-odbc-jedi)
 
-Installing the ODBC jEDI on Linux/Unix
+[Installing the ODBC jEDI on Linux/Unix](./../installing-the-odbc-jedi-on-linux&unix)
 
-Installing the ODBC jEDI on Windows
+[Installing the ODBC jEDI on Windows](./../installing-the-odbc-jedi-on-windows)
 
 [Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files)
 

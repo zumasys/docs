@@ -128,7 +128,7 @@ public int getType()
 Description copied from class: `SQLStartRequest`
 
 This method must be overridden by classes inheriting from SQLStartRequest.
-Specified by:`getType` in interface `JBaseSerializable`Overrides:`getType` in class `SQLStartRequest`Returns:type id of the objects, used during the serializationSee Also:[`JBaseSerializable.getType()`](/39232-io/com_jbase_jdbc_io_jbaseserializable#getType--)
+Specified by:`getType` in interface `JBaseSerializable`Overrides:`getType` in class `SQLStartRequest`Returns:type id of the objects, used during the serializationSee Also:[`JBaseSerializable.getType()`](./../../io/jbaseserializable-%28jbasejdbc-api%29#getType--)
 
 Skip navigation links
 

@@ -18,7 +18,7 @@
 
 | <br>Modifier and Type<br> | <br>Method<br> | <br>Description<br> |
 | --- | --- | --- |
-| <br>[JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>JCommon.[getFile](/jrcs/com_jbase_jrcs_JCommon#getFile-int-)(int index)<br> | <br>Retrieves a file variable from a specific position in a common block<br> |
+| <br>[JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>JCommon.[getFile](./../../jcommon-%28jrclient-api%29#getFile-int-)(int index)<br> | <br>Retrieves a file variable from a specific position in a common block<br> |
 | <br>[JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>JConnection.[openFile](../../../../com/jbase/jrcs/JConnection.html#openFile-java.lang.String-)(String fileName)<br> | <br>Opens a file with the given name<br> |
 
 **Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) with parameters of type [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")**
@@ -26,6 +26,6 @@
 
 | <br>Modifier and Type<br> | <br>Method<br> | <br>Description<br> |
 | --- | --- | --- |
-| <br>void<br> | <br>JCommon.[setFile](/jrcs/com_jbase_jrcs_JCommon#setFile-int-com.jbase.jrcs.JFile-)(int index, [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs") file)<br> | <br>Stores a file variable into a specific position in a common block<br> |
+| <br>void<br> | <br>JCommon.[setFile](./../../jcommon-%28jrclient-api%29#setFile-int-com.jbase.jrcs)(int index, [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs") file)<br> | <br>Stores a file variable into a specific position in a common block<br> |
 
 

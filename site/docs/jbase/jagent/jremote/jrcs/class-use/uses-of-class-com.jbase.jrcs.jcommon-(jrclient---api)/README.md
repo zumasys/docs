@@ -22,7 +22,7 @@ JavaScript is disabled on your browser.
 
 | Modifier and Type<br> | Method<br> | Description<br> |
 | --- | --- | --- |
-| [JCommon](./../../jcommon-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | JConnection.[attachCommon](/jrcs/com_jbase_jrcs_JConnection#attachCommon-)(int numVars, String name)<br> | Attaches a common block by name with a given number of variables<br> |
+| [JCommon](./../../jcommon-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | JConnection.[attachCommon](./../../jconnection-%28jrclient-api%29#attachCommon-)(int numVars, String name)<br> | Attaches a common block by name with a given number of variables<br> |
 
 
 

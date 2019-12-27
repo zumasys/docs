@@ -131,7 +131,7 @@ Specified by:`readObject` in interface `JBaseSerializable`Throws:`IOException``C
 ```
 public int getType()
 ```
-Specified by:`getType` in interface `JBaseSerializable`Returns:type id of the objects, used during the serializationSee Also:[`JBaseSerializable.getType()`](/39232-io/com_jbase_jdbc_io_jbaseserializable#getType--)
+Specified by:`getType` in interface `JBaseSerializable`Returns:type id of the objects, used during the serializationSee Also:[`JBaseSerializable.getType()`](./../../io/jbaseserializable-%28jbasejdbc-api%29#getType--)
 
 
         - #### getVersion

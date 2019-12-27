@@ -83,7 +83,7 @@ public TransactionResponse()
 ```
 public int getType()
 ```
-Returns:type id of the objects, used during the serializationSee Also:[`JBaseSerializable.getType()`](/39250-io/com_jbase_jremote_io_jbaseserializable#getType--)
+Returns:type id of the objects, used during the serializationSee Also:[`JBaseSerializable.getType()`](./../../io/jbaseserializable-%28jremote-api%29#getType--)
 #### writeObject
 
 ```

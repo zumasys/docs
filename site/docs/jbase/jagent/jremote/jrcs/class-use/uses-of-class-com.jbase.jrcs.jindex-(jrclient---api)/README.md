@@ -17,6 +17,6 @@
 
 | <br>Modifier and Type<br> | <br>Method<br> |  Description<br> |
 | --- | --- | --- |
-| <br>[JIndex](./../../jindex-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | JFile.[openIndex](/jrcs/com_jbase_jrcs_JFile#openIndex-java.lang.String-)(String indexName)``<br> | <br>Opens a named index on this file<br> |
+| <br>[JIndex](./../../jindex-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | JFile.[openIndex](./../../jfile-%28jrclient-api%29#openIndex-java.lang)(String indexName)``<br> | <br>Opens a named index on this file<br> |
 
 

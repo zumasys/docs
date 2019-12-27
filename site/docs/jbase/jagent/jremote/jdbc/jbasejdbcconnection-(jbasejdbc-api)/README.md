@@ -39,7 +39,7 @@ implements Connection
 
 | Constructor and Description<br> |
 | --- |
-| [JBaseJDBCConnection](../../../com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_JBaseJDBCConnection#JBaseJDBCConnection--)()<br> |
+| [JBaseJDBCConnection](./../jbasejdbcconnection-%28jbasejdbc-api%29#JBaseJDBCConnection--)()<br> |
 
 
 

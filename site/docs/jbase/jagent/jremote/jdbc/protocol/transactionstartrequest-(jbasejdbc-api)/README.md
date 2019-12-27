@@ -46,7 +46,7 @@ extends TransactionRequest
 
 | <br>Constructor and Description<br> |
 | --- |
-| <br>[TransactionStartRequest](../../../../com/jbase/jdbc/protocol//39240-protocol/com_jbase_jdbc_protocol_TransactionStartRequest#TransactionStartRequest-int-)(int` isolationLevel)`<br> |
+| <br>[TransactionStartRequest](./../transactionstartrequest-%28jbasejdbc-api%29#TransactionStartRequest-int-)(int` isolationLevel)`<br> |
 
 
 

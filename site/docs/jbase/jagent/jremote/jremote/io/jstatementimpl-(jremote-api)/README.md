@@ -76,7 +76,7 @@ public JResultSet execute(String query)
 Description copied from interface: `JStatement`
 
 Execute query.
-Specified by:`execute` in interface `JStatement`Parameters:`query` - as a stringReturns:result setThrows:`JRemoteException`See Also:[`JStatement.execute(java.lang.String)`](/39248-jremote/com_jbase_jremote_JStatement#execute-java.lang.String-)
+Specified by:`execute` in interface `JStatement`Parameters:`query` - as a stringReturns:result setThrows:`JRemoteException`See Also:[`JStatement.execute(java.lang.String)`](./../../jstatement-%28jremote-api%29#execute-java.lang)
 
 
 #### execute
@@ -89,7 +89,7 @@ public JResultSet execute(JDynArray queries)
 Description copied from interface: `JStatement`
 
 Execute query.
-Specified by:`execute` in interface `JStatement`Parameters:`queries` - query as a dynamic arrayReturns:result setThrows:`JRemoteException`See Also:[`JStatement.execute(com.jbase.jremote.JDynArray)`](/39248-jremote/com_jbase_jremote_JStatement#execute-com.jbase.jremote.JDynArray-)
+Specified by:`execute` in interface `JStatement`Parameters:`queries` - query as a dynamic arrayReturns:result setThrows:`JRemoteException`See Also:[`JStatement.execute(com.jbase.jremote.JDynArray)`](./../../jstatement-%28jremote-api%29#execute-com.jbase.jremote)
 
 #### execute
 
@@ -102,7 +102,7 @@ public JResultSet execute(String query,
 Description copied from interface: `JStatement`
 
 Execute query using an existing select list as a filter.
-Specified by:`execute` in interface `JStatement`Parameters:`query` - as a stringReturns:result setThrows:`JRemoteException`See Also:[`JStatement.execute(java.lang.String, com.jbase.jremote.JSelectList)`](/39248-jremote/com_jbase_jremote_JStatement#execute-java.lang.String-com.jbase.jremote.JSelectList-)
+Specified by:`execute` in interface `JStatement`Parameters:`query` - as a stringReturns:result setThrows:`JRemoteException`See Also:[`JStatement.execute(java.lang.String, com.jbase.jremote.JSelectList)`](./../../jstatement-%28jremote-api%29#execute-java.lang.String-com.jbase.jremote)
 #### execute
 
 ```
@@ -114,7 +114,7 @@ public JResultSet execute(JDynArray queries,
 Description copied from interface: `JStatement`
 
 Execute query using an existing select list as a filter.
-Specified by:`execute` in interface `JStatement`Parameters:`queries` - query as a dynamic arrayReturns:result setThrows:`JRemoteException`See Also:[`JStatement.execute(com.jbase.jremote.JDynArray, com.jbase.jremote.JSelectList)`](/39248-jremote/com_jbase_jremote_JStatement#execute-com.jbase.jremote.JDynArray-com.jbase.jremote.JSelectList-)
+Specified by:`execute` in interface `JStatement`Parameters:`queries` - query as a dynamic arrayReturns:result setThrows:`JRemoteException`See Also:[`JStatement.execute(com.jbase.jremote.JDynArray, com.jbase.jremote.JSelectList)`](./../../jstatement-%28jremote-api%29#execute-com.jbase.jremote.JDynArray-com.jbase.jremote)
 
 
 #### setFetchSize
@@ -126,7 +126,7 @@ public void setFetchSize(int rows)
 Description copied from interface: `JStatement`
 
 Sets the fetch size.
-Specified by:`setFetchSize` in interface `JStatement`See Also:[`JStatement.setFetchSize(int)`](/39248-jremote/com_jbase_jremote_JStatement#setFetchSize-int-)
+Specified by:`setFetchSize` in interface `JStatement`See Also:[`JStatement.setFetchSize(int)`](./../../jstatement-%28jremote-api%29#setFetchSize-int-)
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
 

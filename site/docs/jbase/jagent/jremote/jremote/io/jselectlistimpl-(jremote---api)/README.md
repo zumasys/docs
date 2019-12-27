@@ -184,7 +184,7 @@ public String getKey()
 Description copied from interface: `JSelectList`
 
 Returns the current key
-Specified by:`getKey` in interface `JSelectList`Returns:keySee Also:[`JSelectList.getKey()`](/39248-jremote/com_jbase_jremote_jselectlist#getKey--)
+Specified by:`getKey` in interface `JSelectList`Returns:keySee Also:[`JSelectList.getKey()`](./../../jselectlist-%28jremote-api%29#getKey--)
 #### 
 
 
@@ -197,7 +197,7 @@ public int getFetchSize()
 Description copied from interface: `JSelectList`
 
 Returns the fetch size. This value represents the number of items fetched simultaneously from the server.
-Specified by:`getFetchSize` in interface `JSelectList`Returns:fetch sizeSee Also:[`JSelectList.getFetchSize()`](/39248-jremote/com_jbase_jremote_jselectlist#getFetchSize--)
+Specified by:`getFetchSize` in interface `JSelectList`Returns:fetch sizeSee Also:[`JSelectList.getFetchSize()`](./../../jselectlist-%28jremote-api%29#getFetchSize--)
 #### 
 
 
@@ -210,7 +210,7 @@ public void setFetchSize(int fetchSize)
 Description copied from interface: `JSelectList`
 
 Sets the fetch size.
-Specified by:`setFetchSize` in interface `JSelectList`Parameters:`fetchSize` - fetch sizeSee Also:[`JSelectList.setFetchSize(int)`](/39248-jremote/com_jbase_jremote_jselectlist#setFetchSize-int-)
+Specified by:`setFetchSize` in interface `JSelectList`Parameters:`fetchSize` - fetch sizeSee Also:[`JSelectList.setFetchSize(int)`](./../../jselectlist-%28jremote-api%29#setFetchSize-int-)
 #### 
 
 
@@ -246,7 +246,7 @@ public boolean next()
 Description copied from interface: `JSelectList`
 
 Move to next item
-Specified by:`next` in interface `JSelectList`Returns:true if OK, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.next()`](/39248-jremote/com_jbase_jremote_jselectlist#next--)
+Specified by:`next` in interface `JSelectList`Returns:true if OK, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.next()`](./../../jselectlist-%28jremote-api%29#next--)
 #### 
 
 
@@ -260,7 +260,7 @@ public boolean previous()
 Description copied from interface: `JSelectList`
 
 Move to previous item
-Specified by:`previous` in interface `JSelectList`Returns:true if OK, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.previous()`](/39248-jremote/com_jbase_jremote_jselectlist#previous--)
+Specified by:`previous` in interface `JSelectList`Returns:true if OK, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.previous()`](./../../jselectlist-%28jremote-api%29#previous--)
 #### 
 
 
@@ -274,7 +274,7 @@ public boolean hasNext()
 Description copied from interface: `JSelectList`
 
 Returns whether it is possible to move forward.
-Specified by:`hasNext` in interface `JSelectList`Returns:true if YES, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.hasNext()`](/39248-jremote/com_jbase_jremote_jselectlist#hasNext--)
+Specified by:`hasNext` in interface `JSelectList`Returns:true if YES, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.hasNext()`](./../../jselectlist-%28jremote-api%29#hasNext--)
 #### 
 
 
@@ -288,7 +288,7 @@ public boolean hasPrevious()
 Description copied from interface: `JSelectList`
 
 Returns whether it is possible to move backwards.
-Specified by:`hasPrevious` in interface `JSelectList`Returns:true if YES, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.hasPrevious()`](/39248-jremote/com_jbase_jremote_jselectlist#hasPrevious--)
+Specified by:`hasPrevious` in interface `JSelectList`Returns:true if YES, false otherwiseThrows:`JRemoteException`See Also:[`JSelectList.hasPrevious()`](./../../jselectlist-%28jremote-api%29#hasPrevious--)
 #### 
 
 
@@ -341,7 +341,7 @@ public int getPosition()
 Description copied from interface: `JSelectList`
 
 Returns the current position. The first item in the list has position 1.
-Specified by:`getPosition` in interface `JSelectList`Returns:positionSee Also:[`JSelectList.getPosition()`](/39248-jremote/com_jbase_jremote_jselectlist#getPosition--)
+Specified by:`getPosition` in interface `JSelectList`Returns:positionSee Also:[`JSelectList.getPosition()`](./../../jselectlist-%28jremote-api%29#getPosition--)
 #### 
 
 
@@ -389,7 +389,7 @@ public void close()
 Description copied from interface: `JSelectList`
 
 Close select list. Requests server to release all resources associated to this object.
-Specified by:`close` in interface `JSelectList`Throws:`JRemoteException`See Also:[`JSelectList.close()`](/39248-jremote/com_jbase_jremote_jselectlist#close--)
+Specified by:`close` in interface `JSelectList`Throws:`JRemoteException`See Also:[`JSelectList.close()`](./../../jselectlist-%28jremote-api%29#close--)
 #### 
 
 
@@ -402,6 +402,6 @@ public Iterator<String> iterator()
 Description copied from interface: `JSelectList`
 
 Returns an iterator to the select list
-Specified by:`iterator` in interface `JSelectList`Specified by:`iterator` in interface `Iterable<String>`Returns:iteratorSee Also:[`JSelectList.iterator()`](/39248-jremote/com_jbase_jremote_jselectlist#iterator--)
+Specified by:`iterator` in interface `JSelectList`Specified by:`iterator` in interface `Iterable<String>`Returns:iteratorSee Also:[`JSelectList.iterator()`](./../../jselectlist-%28jremote-api%29#iterator--)
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)

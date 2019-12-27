@@ -97,7 +97,7 @@ public static final char VM
 
 Default value mark character
 
-See Also: [Constant Field Values](./../../jremote/constant-field-values)
+See Also: [Constant Field Values](./../../jremote/constant-field-values#com.jbase.jrcs.JConstants)
 
 #### 
 
@@ -113,7 +113,7 @@ public static final char SVM
 
 Default subvalue mark character
 
-See Also: [Constant Field Values](./../../jremote/constant-field-values)
+See Also: [Constant Field Values](./../../jremote/constant-field-values#com.jbase.jrcs.JConstants)
 
 
 

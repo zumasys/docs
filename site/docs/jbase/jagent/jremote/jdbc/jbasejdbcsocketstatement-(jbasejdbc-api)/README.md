@@ -48,7 +48,7 @@ implements Statement
 
 | <br>Constructor and Description<br> |
 | --- |
-| <br>[JBaseJDBCSocketStatement](../../../com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketStatement#JBaseJDBCSocketStatement-com.jbase.jdbc.JBaseJDBCSocketConnection-)([JBaseJDBCSocketConnection](./../jbasejdbcsocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc") connection)<br> |
+| <br>[JBaseJDBCSocketStatement](./../jbasejdbcsocketstatement-%28jbasejdbc-api%29#JBaseJDBCSocketStatement-com.jbase.jdbc)([JBaseJDBCSocketConnection](./../jbasejdbcsocketconnection-%28jbasejdbc-api%29 "class in com.jbase.jdbc") connection)<br> |
 
 
 

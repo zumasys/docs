@@ -110,7 +110,7 @@ implements ResultSet, JBaseJDBCGlobals
 | <br>[Ref](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Ref.html?is-external=true "class or interface in java.sql")<br> | <br>getRef(int i)<br> | <br><br> |
 | <br>[Ref](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Ref.html?is-external=true "class or interface in java.sql")<br> | getRef([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") colName)<br> | <br><br> |
 | <br>int<br> | <br>getRow()<br> | <br>Retrieves the current row number.<br> |
-| <br>short<br> | <br>getShort(int columnIndex) [getRow](https://jbase.helpjuice.com/com/jbase/jdbc//39228-jdbc/com_jbase_jdbc_JBaseJDBCSocketResultSet#getRow--)()<br> | <br><br> |
+| <br>short<br> | <br>getShort(int columnIndex) [getRow](./../jbasejdbcsocketresultset-%28jbasejdbc-api%29#getRow--)()<br> | <br><br> |
 | <br>short<br> | <br>getShort([String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") columnName)<br> | <br><br> |
 | <br>[Statement](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Statement.html?is-external=true "class or interface in java.sql")<br> | <br>getStatement()<br> | <br>Retrieves the Statement object that produced this ResultSet object.<br> |
 | <br>[String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang")<br> | <br>getString(int columnIndex)<br> | <br><br> |

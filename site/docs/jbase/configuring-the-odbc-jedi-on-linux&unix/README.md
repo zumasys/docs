@@ -1,7 +1,7 @@
 # Configuring the ODBC jEDI on Linux/Unix
 
 **Created At:** 11/15/2019 5:28:05 PM  
-**Updated At:** 11/26/2019 6:16:35 PM  
+**Updated At:** 12/27/2019 7:28:57 PM  
 **Original Doc:** [configuring-the-odbc-jedi-on-linux-unix](https://docs.jbase.com/configuring-the-odbc-jedi-on-linux-unix)  
 **Original ID:** 494585  
 **Internal:** Yes  
@@ -14,13 +14,13 @@ For the configuration example below, we will be configuring MySQL and MSSQL *ODB
 1. Navigate to the **/etc** directory (where the **odbc.ini** and **odbcinst.ini** files live)
 
 ```
-# cd /etc
+~/$ cd /etc
 ```
 
 2.  Open the **odbc.ini** file up for editing
 
 ```
-# vi odbc.ini
+~/etc$ vi odbc.ini
 ~
 ~
 ~
@@ -54,7 +54,7 @@ Option         = 3
 4. Open the **odbcinst.ini** file up for editing
 
 ```
-# vi odbcinst.ini
+~/etc$ odbcinst.ini
 ~
 ~
 ~
@@ -88,7 +88,7 @@ UsageCount=1
 7. Optionally create a **jEDIdrivers.ini** in **/etc**, or navigate to the **$JBCDATADIR/config** directory.
 
 ```
-# cd $JBCDATADIR/config
+~/etc$ cd $JBCDATADIR/config
 ```
 
 8. Once you know the location of the file, open it up for editing
@@ -138,9 +138,9 @@ On Linux/Unix, the name of the file has a leading period
 
 [Introduction to the ODBC jEDI](./../introduction-to-the-odbc-jedi)
 
-Installing the ODBC jEDI on Linux/Unix
+[Installing the ODBC jEDI on Linux/Unix](./../installing-the-odbc-jedi-on-linux&unix)
 
-Installing the ODBC jEDI on Windows
+[Installing the ODBC jEDI on Windows](./../installing-the-odbc-jedi-on-windows)
 
 [Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files)
 
@@ -148,4 +148,4 @@ Installing the ODBC jEDI on Windows
 
 [Configuring the ODBC jEDI on Windows](./../configuring-the-odbc-jedi-on-windows)
 
-[Using the ODBC jEDI](./../using-the-odbc-jedi)
+[Using the ODBC jED](./../using-the-odbc-jedi)
