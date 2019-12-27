@@ -13,6 +13,7 @@
 [files](./files)  
 [indexes](./indexes)  
 [installing-the-odbc-jedi-on-linux&unix](./installing-the-odbc-jedi-on-linux&unix)  
+[installing-the-odbc-jedi-on-windows](./installing-the-odbc-jedi-on-windows)  
 [introduction-to-the-odbc-jedi](./introduction-to-the-odbc-jedi)  
 [jagent](./jagent)  
 [jbase](./jbase)  

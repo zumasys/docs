@@ -1,7 +1,7 @@
 # Introduction to the ODBC jEDI 
 
 **Created At:** 11/14/2019 9:45:58 PM  
-**Updated At:** 12/20/2019 10:29:53 PM  
+**Updated At:** 12/27/2019 6:43:05 PM  
 **Original Doc:** [introduction-to-the-odbc-jedi](https://docs.jbase.com/introduction-to-the-odbc-jedi)  
 **Original ID:** 494348  
 **Internal:** Yes  
@@ -30,11 +30,11 @@ Due to the technical nature of this document, prerequisite knowledge of the foll
 
 If additional knowledge of jBASE is needed, please review the [Introduction to jBASE](./../jbase) documentation for information on commands and utilities used in this walk-through.
 
-Additionally, in order to properly perform the steps listed in the installation and configuration sections of this document, you will need a licensed system running jBASE 5.6 or greater. If you need help completing this task, please review the jBASE installation Guide for [Windows](https://docs.jbase.com/43995-transactional-journaling/windows-installation) or [Linux](https://docs.jbase.com/43995-transactional-journaling/jbase-56-linux-installation-guide).
+Additionally, in order to properly perform the steps listed in the installation and configuration sections of this document, you will need a licensed system running jBASE 5.6 or greater. If you do not yet have a valid licensed jBASE system, please contact Zumasys licensing to obtain the components needed to construct one.
 
 ## Overview
 
-The *ODBC**jEDI* driver/tool-set adds the new *ODBC* file type to jBASE and enables its users to create jBASE files that communicate to new and existing tables within a specified target *RDBMS*. The mapping of table columns and data formatting to this target *RDBMS* is done automatically, so that from the jBASE perspective, your *ODBC* file looks like any other jBASE file (All commands used to interact with a file (ED, COPY, OPEN '&lt;file&gt;', etc) work just like a *hashed* file).
+The *ODBC**jEDI* driver/tool-set adds the new *ODBC* file type to jBASE, and gives users the ability to create jBASE files that map jBASE records to tables of any given target *RDBMS*. The data formatting and mapping of jBASE table columns to target *RDBMSs* is done automatically, so that from the jBASE perspective, your *ODBC* file looks like any other jBASE file (All commands used to interact with a file (ED, COPY, OPEN '&lt;file&gt;', etc) work just like a *hashed* file).
 
 There are several drivers (shared objects), one for each *RDBMS*, that rely on the *jEDI* to generate the mapping between the dynamic array on the jBASE side, to the columns in tables on the *RDBMS* side. These drivers connect to the independent *RDBMS*s via the *ODBC* jEDI module.
 
@@ -42,9 +42,9 @@ The *ODBC jED**I* driver suite relies on various initialization files and enviro
 
 ----------------------------------------------------------------------------------------------------------------------------
 
-Installing the ODBC jEDI on Linux/Unix
+[Installing the ODBC jEDI on Linux/Unix](./../installing-the-odbc-jedi-on-linux&unix)
 
-Installing the ODBC jEDI on Windows
+[Installing the ODBC jEDI on Windows](./../installing-the-odbc-jedi-on-windows)
 
 [Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files)
 

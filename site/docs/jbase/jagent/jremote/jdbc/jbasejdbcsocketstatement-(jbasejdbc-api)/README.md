@@ -25,7 +25,7 @@ implements Statement
 
 | <br>Modifier and Type<br> | <br>Field and Description<br> |
 | --- | --- |
-| <br>protected [List](./../../../../jql/list "class or interface in java.util")&lt;[SQLStartRequest](./../protocol/sqlstartrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")&gt;<br> | <br>batchRequestsList<br> |
+| <br>protected [List](http://java.sun.com/j2se/1.5.0/docs/api/java/util/List.html?is-external=true "class or interface in java.util")&lt;[SQLStartRequest](./../protocol/sqlstartrequest-%28jbasejdbc---api%29 "class in com.jbase.jdbc.protocol")&gt;<br> | <br>batchRequestsList<br> |
 
 
 

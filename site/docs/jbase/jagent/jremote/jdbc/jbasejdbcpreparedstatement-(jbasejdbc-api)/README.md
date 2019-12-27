@@ -122,8 +122,8 @@ implements PreparedStatement, JBaseJDBCGlobals
 | void<br> | setRef(int i, [Ref](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Ref.html?is-external=true "class or interface in java.sql") x)<br><br> | <br> |
 | void<br> | setShort(int parameterIndex, short x)<br><br> | <br> |
 | void<br> | setString(int parameterIndex, [String](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/String.html?is-external=true "class or interface in java.lang") x)<br><br> | <br> |
-| void<br> | setTime(int parameterIndex, [Time](./../../../../administration/utilities/time "class or interface in java.sql") x)<br><br> | <br> |
-| void<br> | setTime(int parameterIndex, [Time](./../../../../administration/utilities/time "class or interface in java.sql") x, [Calendar](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Calendar.html?is-external=true "class or interface in java.util") cal)<br><br> | <br> |
+| void<br> | setTime(int parameterIndex, [Time](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Time.html?is-external=true "class or interface in java.sql") x)<br><br> | <br> |
+| void<br> | setTime(int parameterIndex, [Time](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Time.html?is-external=true "class or interface in java.sql") x, [Calendar](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Calendar.html?is-external=true "class or interface in java.util") cal)<br><br> | <br> |
 | void<br> | setTimestamp(int parameterIndex, [Timestamp](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Timestamp.html?is-external=true "class or interface in java.sql") x)<br><br> | <br> |
 | void<br> | setTimestamp(int parameterIndex, [Timestamp](http://java.sun.com/j2se/1.5.0/docs/api/java/sql/Timestamp.html?is-external=true "class or interface in java.sql") x, [Calendar](http://java.sun.com/j2se/1.5.0/docs/api/java/util/Calendar.html?is-external=true "class or interface in java.util") cal)<br><br> | <br> |
 | void<br> | setUnicodeStream(int parameterIndex, [InputStream](http://java.sun.com/j2se/1.5.0/docs/api/java/io/InputStream.html?is-external=true "class or interface in java.io") x, int length)<br><br> | <br> |
