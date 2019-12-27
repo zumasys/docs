@@ -3,6 +3,8 @@
 **Created At:** 3/13/2018 2:06:04 PM  
 **Updated At:** 7/5/2019 9:50:47 AM  
 **Original Doc:** [class-method-vararg-reset](https://docs.jbase.com/42948-dynamic-objects/class-method-vararg-reset)  
+**Original ID:** 304002  
+**Internal:** No  
 
 
 ## Description

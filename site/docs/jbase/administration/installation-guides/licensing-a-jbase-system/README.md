@@ -3,6 +3,8 @@
 **Created At:** 11/2/2018 2:28:19 PM  
 **Updated At:** 4/30/2019 4:40:42 PM  
 **Original Doc:** [346237-licensing-a-jbase-system](https://docs.jbase.com/36690-installation-guides/346237-licensing-a-jbase-system)  
+**Original ID:** 346237  
+**Internal:** No  
 
 **Tags:**
 <badge text='jinstallkey -v' vertical='middle' />

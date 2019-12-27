@@ -3,6 +3,8 @@
 **Created At:** 11/1/2017 12:02:46 AM  
 **Updated At:** 12/3/2018 4:42:58 PM  
 **Original Doc:** [magres-utility](https://docs.jbase.com/49275-restore/magres-utility)  
+**Original ID:** 283753  
+**Internal:** No  
 
 
 The MAGRES utility can be used to restore data from a MAGSAVE tape.

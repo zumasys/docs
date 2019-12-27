@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:27:44 AM  
 **Updated At:** 12/24/2018 7:11:02 PM  
 **Original Doc:** [com_jbase_jrcs_class-use_jexception](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jexception)  
+**Original ID:** 278024  
+**Internal:** No  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jrcs.JException (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;amp;amp;amp;amp;gt;
 ## 

@@ -3,6 +3,8 @@
 **Created At:** 8/24/2018 12:49:32 PM  
 **Updated At:** 9/5/2018 11:34:54 AM  
 **Original Doc:** [triggers-overview](https://docs.jbase.com/48168-triggers/triggers-overview)  
+**Original ID:** 336008  
+**Internal:** Yes  
 
 **Tags:**
 <badge text='triggers' vertical='middle' />

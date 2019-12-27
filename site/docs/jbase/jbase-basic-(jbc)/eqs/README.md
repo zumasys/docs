@@ -3,6 +3,8 @@
 **Created At:** 8/23/2017 2:49:08 PM  
 **Updated At:** 10/25/2018 7:47:53 AM  
 **Original Doc:** [268497-eqs](https://docs.jbase.com/36868-jbase-basic/268497-eqs)  
+**Original ID:** 268497  
+**Internal:** No  
 
 **Tags:**
 <badge text='dynamic array operations' vertical='middle' />

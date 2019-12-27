@@ -3,6 +3,8 @@
 **Created At:** 7/18/2018 9:12:29 PM  
 **Updated At:** 7/18/2018 9:14:50 PM  
 **Original Doc:** [screen-connect-how-to-connect](https://docs.zumasys.com/47150-internal-applications/screen-connect-how-to-connect)  
+**Original ID:** 328360  
+**Internal:** Yes  
 
 
 ## Document Scope

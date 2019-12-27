@@ -3,6 +3,8 @@
 **Created At:** 9/27/2017 2:35:47 PM  
 **Updated At:** 11/27/2018 9:30:43 AM  
 **Original Doc:** [readnext](https://docs.jbase.com/36868-jbase-basic/readnext)  
+**Original ID:** 278659  
+**Internal:** No  
 
 
 # Description

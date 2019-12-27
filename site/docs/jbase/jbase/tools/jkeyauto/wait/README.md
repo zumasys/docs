@@ -3,6 +3,8 @@
 **Created At:** 8/30/2018 1:42:10 PM  
 **Updated At:** 5/16/2019 6:30:57 PM  
 **Original Doc:** [wait](https://docs.jbase.com/48575-jkeyauto/wait)  
+**Original ID:** 336893  
+**Internal:** No  
 
 **Tags:**
 <badge text='program profiling' vertical='middle' />

@@ -3,6 +3,8 @@
 **Created At:** 9/6/2017 12:46:09 PM  
 **Updated At:** 10/30/2018 9:58:03 AM  
 **Original Doc:** [276057-getenv](https://docs.jbase.com/36868-jbase-basic/276057-getenv)  
+**Original ID:** 276057  
+**Internal:** No  
 
 **Tags:**
 <badge text='jbase environment  setup' vertical='middle' />

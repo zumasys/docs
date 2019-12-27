@@ -3,6 +3,8 @@
 **Created At:** 8/16/2018 1:16:57 PM  
 **Updated At:** 9/18/2018 7:18:56 AM  
 **Original Doc:** [334506-select](https://docs.jbase.com/48152-indexes/334506-select)  
+**Original ID:** 334506  
+**Internal:** No  
 
 **Tags:**
 <badge text='jbc and indexes' vertical='middle' />

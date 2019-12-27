@@ -3,6 +3,8 @@
 **Created At:** 2/18/2018 11:44:58 AM  
 **Updated At:** 4/23/2018 10:21:05 AM  
 **Original Doc:** [method-valuetype](https://docs.jbase.com/42948-dynamic-objects/method-valuetype)  
+**Original ID:** 299711  
+**Internal:** No  
 
 
 ## Description

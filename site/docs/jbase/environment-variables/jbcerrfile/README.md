@@ -3,6 +3,8 @@
 **Created At:** 11/6/2017 2:12:54 PM  
 **Updated At:** 8/22/2018 8:43:59 AM  
 **Original Doc:** [jbcerrfile](https://docs.jbase.com/41717-environment-variables/jbcerrfile)  
+**Original ID:** 284342  
+**Internal:** No  
 
 **Tags:**
 <badge text='environment variables' vertical='middle' />

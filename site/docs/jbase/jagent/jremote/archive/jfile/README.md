@@ -3,6 +3,8 @@
 **Created At:** 9/13/2017 7:57:57 PM  
 **Updated At:** 9/13/2017 7:58:26 PM  
 **Original Doc:** [jfile](https://docs.jbase.com/39719-archive/jfile)  
+**Original ID:** 276697  
+**Internal:** Yes  
 
 
 ## Interface JFile

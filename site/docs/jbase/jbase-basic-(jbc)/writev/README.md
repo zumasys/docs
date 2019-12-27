@@ -3,6 +3,8 @@
 **Created At:** 10/4/2017 12:22:20 PM  
 **Updated At:** 1/5/2018 6:39:38 PM  
 **Original Doc:** [279574-writev](https://docs.jbase.com/36868-jbase-basic/279574-writev)  
+**Original ID:** 279574  
+**Internal:** No  
 
 
 # Description

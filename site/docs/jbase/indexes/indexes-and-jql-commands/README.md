@@ -3,6 +3,8 @@
 **Created At:** 8/16/2018 1:37:59 PM  
 **Updated At:** 9/26/2018 10:52:36 PM  
 **Original Doc:** [indexes-and-jql-commands](https://docs.jbase.com/48152-indexes/indexes-and-jql-commands)  
+**Original ID:** 334523  
+**Internal:** No  
 
 **Tags:**
 <badge text='file indexing' vertical='middle' />

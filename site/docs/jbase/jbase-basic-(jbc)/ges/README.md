@@ -3,6 +3,8 @@
 **Created At:** 9/6/2017 12:41:22 PM  
 **Updated At:** 10/30/2018 9:57:11 AM  
 **Original Doc:** [276054-ges](https://docs.jbase.com/36868-jbase-basic/276054-ges)  
+**Original ID:** 276054  
+**Internal:** No  
 
 **Tags:**
 <badge text='dynamic array comparison' vertical='middle' />

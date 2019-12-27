@@ -3,6 +3,8 @@
 **Created At:** 10/3/2017 9:48:59 AM  
 **Updated At:** 11/27/2017 12:07:19 AM  
 **Original Doc:** [pn5_60643](https://docs.jbase.com/36526-5-6-2-release-notes/pn5_60643)  
+**Original ID:** 279168  
+**Internal:** No  
 
 
 ### Description

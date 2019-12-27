@@ -3,6 +3,8 @@
 **Created At:** 8/15/2019 10:54:05 PM  
 **Updated At:** 8/15/2019 10:55:39 PM  
 **Original Doc:** [accuterm-8-mouse-settings](https://docs.zumasys.com/accuterm/accuterm-8-mouse-settings)  
+**Original ID:** 443901  
+**Internal:** No  
 
 
 AccuTerm supports extended mouse functions that can be used to add mouse functionality to your character-based applications.

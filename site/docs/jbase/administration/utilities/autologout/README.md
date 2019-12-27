@@ -3,6 +3,8 @@
 **Created At:** 8/16/2018 2:47:14 PM  
 **Updated At:** 9/26/2018 10:39:10 PM  
 **Original Doc:** [autologout](https://docs.jbase.com/46963-utilities/autologout)  
+**Original ID:** 334579  
+**Internal:** No  
 
 
 ## Description 

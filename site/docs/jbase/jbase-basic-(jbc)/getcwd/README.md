@@ -3,6 +3,8 @@
 **Created At:** 9/6/2017 12:44:31 PM  
 **Updated At:** 10/30/2018 9:57:38 AM  
 **Original Doc:** [276056-getcwd](https://docs.jbase.com/36868-jbase-basic/276056-getcwd)  
+**Original ID:** 276056  
+**Internal:** No  
 
 **Tags:**
 <badge text='directories' vertical='middle' />

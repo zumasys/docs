@@ -3,6 +3,8 @@
 **Created At:** 11/3/2017 2:49:17 PM  
 **Updated At:** 1/5/2018 6:47:41 PM  
 **Original Doc:** [284143-bittest](https://docs.jbase.com/36868-jbase-basic/284143-bittest)  
+**Original ID:** 284143  
+**Internal:** No  
 
 
 # Description

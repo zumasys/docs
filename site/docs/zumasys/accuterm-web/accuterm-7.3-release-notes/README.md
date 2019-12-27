@@ -3,6 +3,8 @@
 **Created At:** 6/26/2018 10:20:14 PM  
 **Updated At:** 6/26/2018 10:21:00 PM  
 **Original Doc:** [324738-accuterm-7-3-release-notes](https://docs.zumasys.com/accuterm/324738-accuterm-7-3-release-notes)  
+**Original ID:** 324738  
+**Internal:** Yes  
 
 
 # Patches

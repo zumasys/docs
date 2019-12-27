@@ -3,6 +3,8 @@
 **Created At:** 6/27/2017 8:23:53 PM  
 **Updated At:** 11/21/2017 4:26:37 AM  
 **Original Doc:** [wsetcookie](https://docs.jbase.com/34473-docs/wsetcookie)  
+**Original ID:** 261451  
+**Internal:** No  
 
 
 The WSETCOOKIE subroutine will set a cookie to be sent back to the browser.

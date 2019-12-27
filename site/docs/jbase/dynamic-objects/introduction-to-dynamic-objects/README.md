@@ -3,6 +3,8 @@
 **Created At:** 2/7/2018 3:42:15 PM  
 **Updated At:** 2/11/2019 7:51:16 AM  
 **Original Doc:** [dynamic-objects-tour](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-tour)  
+**Original ID:** 298072  
+**Internal:** No  
 
 **Tags:**
 <badge text='method' vertical='middle' />

@@ -3,6 +3,8 @@
 **Created At:** 8/14/2017 9:25:12 AM  
 **Updated At:** 10/24/2018 10:55:44 PM  
 **Original Doc:** [266853-clearfile](https://docs.jbase.com/36868-jbase-basic/266853-clearfile)  
+**Original ID:** 266853  
+**Internal:** No  
 
 
 # Description

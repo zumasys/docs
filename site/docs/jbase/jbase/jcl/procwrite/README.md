@@ -3,6 +3,8 @@
 **Created At:** 10/25/2017 2:54:59 PM  
 **Updated At:** 4/3/2018 8:58:50 PM  
 **Original Doc:** [282994-procwrite](https://docs.jbase.com/45792-jcl/282994-procwrite)  
+**Original ID:** 282994  
+**Internal:** No  
 
 
 # Description 

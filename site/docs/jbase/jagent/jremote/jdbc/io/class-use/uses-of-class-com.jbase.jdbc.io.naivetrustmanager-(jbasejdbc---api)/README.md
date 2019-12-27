@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:47:24 AM  
 **Updated At:** 2/15/2018 8:02:49 AM  
 **Original Doc:** [com_jbase_jdbc_io_class-use_NaiveTrustManager](https://docs.jbase.com/39235-class-use/com_jbase_jdbc_io_class-use_NaiveTrustManager)  
+**Original ID:** 277855  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jdbc.io.NaiveTrustManager (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

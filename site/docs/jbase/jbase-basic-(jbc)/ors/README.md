@@ -3,6 +3,8 @@
 **Created At:** 9/21/2017 2:00:15 PM  
 **Updated At:** 11/27/2018 9:45:10 AM  
 **Original Doc:** [277545-ors](https://docs.jbase.com/36868-jbase-basic/277545-ors)  
+**Original ID:** 277545  
+**Internal:** No  
 
 **Tags:**
 <badge text='logical operators' vertical='middle' />

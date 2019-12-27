@@ -3,6 +3,8 @@
 **Created At:** 6/27/2017 12:07:22 AM  
 **Updated At:** 6/27/2017 11:08:03 PM  
 **Original Doc:** [261268-www-info](https://docs.zumasys.com/36617-trash/261268-www-info)  
+**Original ID:** 261268  
+**Internal:** Yes  
 
 
 WWW.INFO is a common variable that stores all the web information.  It is not recommended you directly access the common due to platform/emulation issues.  Instead you can use the WGETINFO function to gain access to any of the commons

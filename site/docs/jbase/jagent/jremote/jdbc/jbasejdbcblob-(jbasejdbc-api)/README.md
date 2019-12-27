@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:54:36 AM  
 **Updated At:** 8/17/2018 2:25:53 AM  
 **Original Doc:** [com_jbase_jdbc_jbasejdbcblob](https://docs.jbase.com/39228-jdbc/com_jbase_jdbc_jbasejdbcblob)  
+**Original ID:** 277916  
+**Internal:** Yes  
 
 
 JavaScript is disabled on your browser.

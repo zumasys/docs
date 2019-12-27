@@ -3,6 +3,8 @@
 **Created At:** 5/28/2018 10:51:31 AM  
 **Updated At:** 6/11/2018 4:14:11 AM  
 **Original Doc:** [318664-jcl-f-open](https://docs.jbase.com/45792-jcl/318664-jcl-f-open)  
+**Original ID:** 318664  
+**Internal:** Yes  
 
 **Tags:**
 <badge text='file' vertical='middle' />

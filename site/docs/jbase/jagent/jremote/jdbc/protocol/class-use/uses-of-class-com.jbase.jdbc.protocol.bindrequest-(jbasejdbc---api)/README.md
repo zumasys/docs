@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:57:43 AM  
 **Updated At:** 2/15/2018 8:02:55 AM  
 **Original Doc:** [com_jbase_jdbc_protocol_class-use_BindRequest](https://docs.jbase.com/39241-class-use/com_jbase_jdbc_protocol_class-use_BindRequest)  
+**Original ID:** 277942  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jdbc.protocol.BindRequest (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

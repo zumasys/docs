@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:01:37 AM  
 **Updated At:** 4/3/2018 10:10:20 PM  
 **Original Doc:** [com_jbase_jdbc_protocol_class-use_transactionstartrequest](https://docs.jbase.com/39241-class-use/com_jbase_jdbc_protocol_class-use_transactionstartrequest)  
+**Original ID:** 277976  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jdbc.protocol.TransactionStartRequest (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

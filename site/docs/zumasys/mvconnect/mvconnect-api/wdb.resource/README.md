@@ -3,6 +3,8 @@
 **Created At:** 2/27/2018 9:44:30 PM  
 **Updated At:** 4/18/2018 10:48:36 PM  
 **Original Doc:** [wdbresource](https://docs.zumasys.com/36566-mv-connect-api/wdbresource)  
+**Original ID:** 300752  
+**Internal:** No  
 
 
 **WDB.RESOURCE record layout:**

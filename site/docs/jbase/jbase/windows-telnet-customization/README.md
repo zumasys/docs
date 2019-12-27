@@ -3,6 +3,8 @@
 **Created At:** 4/19/2018 6:47:25 PM  
 **Updated At:** 10/14/2019 3:04:30 PM  
 **Original Doc:** [311287-windows-telnet-customization](https://docs.jbase.com/30301-jbase/311287-windows-telnet-customization)  
+**Original ID:** 311287  
+**Internal:** No  
 
 
 ## Description

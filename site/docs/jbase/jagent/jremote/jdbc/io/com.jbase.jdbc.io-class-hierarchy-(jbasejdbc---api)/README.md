@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:54:04 AM  
 **Updated At:** 2/15/2018 8:02:47 AM  
 **Original Doc:** [com_jbase_jdbc_io_package-tree](https://docs.jbase.com/39232-io/com_jbase_jdbc_io_package-tree)  
+**Original ID:** 277911  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="com.jbase.jdbc.io Class Hierarchy (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

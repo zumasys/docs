@@ -3,6 +3,8 @@
 **Created At:** 6/12/2018 12:42:03 PM  
 **Updated At:** 6/12/2018 2:49:37 PM  
 **Original Doc:** [321566-format-codes](https://docs.jbase.com/46351-conversion-processing/321566-format-codes)  
+**Original ID:** 321566  
+**Internal:** No  
 
 **Tags:**
 <badge text='format' vertical='middle' />

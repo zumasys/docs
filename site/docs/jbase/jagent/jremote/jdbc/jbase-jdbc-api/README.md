@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:56:08 AM  
 **Updated At:** 12/10/2018 7:09:00 PM  
 **Original Doc:** [com_jbase_jdbc_package-summary](https://docs.jbase.com/39228-jdbc/com_jbase_jdbc_package-summary)  
+**Original ID:** 277929  
+**Internal:** Yes  
 
 &lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 

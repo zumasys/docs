@@ -3,6 +3,8 @@
 **Created At:** 11/1/2017 12:10:27 AM  
 **Updated At:** 11/1/2017 12:16:24 AM  
 **Original Doc:** [troubleshooting](https://docs.jbase.com/44497-articles/troubleshooting)  
+**Original ID:** 283759  
+**Internal:** No  
 
 
 # **Alternatives to T-READ**

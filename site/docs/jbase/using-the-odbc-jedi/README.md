@@ -3,6 +3,8 @@
 **Created At:** 11/19/2019 7:24:34 PM  
 **Updated At:** 11/26/2019 6:29:22 PM  
 **Original Doc:** [using-the-jedi-odbc](https://docs.jbase.com/using-the-jedi-odbc)  
+**Original ID:** 495889  
+**Internal:** Yes  
 
 
 ## Using the ODBC jEDI with an existing table.

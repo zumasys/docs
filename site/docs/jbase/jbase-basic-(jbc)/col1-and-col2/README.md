@@ -3,6 +3,8 @@
 **Created At:** 9/6/2017 6:34:06 AM  
 **Updated At:** 10/25/2018 7:23:25 AM  
 **Original Doc:** [col1-and-col2](https://docs.jbase.com/36868-jbase-basic/col1-and-col2)  
+**Original ID:** 276022  
+**Internal:** No  
 
 
 # **Description**

@@ -3,6 +3,8 @@
 **Created At:** 12/13/2017 10:14:31 PM  
 **Updated At:** 4/19/2018 9:47:06 PM  
 **Original Doc:** [291161-setting-break-points-in-the-jbc-basic-debugger](https://docs.jbase.com/41693-debugger/291161-setting-break-points-in-the-jbc-basic-debugger)  
+**Original ID:** 291161  
+**Internal:** No  
 
 
 When setting a break point, the debugger appends a \n (line feed) to the variable contents prior to testing for the break.

@@ -3,6 +3,8 @@
 **Created At:** 4/27/2017 4:17:25 PM  
 **Updated At:** 5/3/2018 5:43:45 PM  
 **Original Doc:** [252772-jbase-xml-functions](https://docs.jbase.com/252772-jbase-xml-functions)  
+**Original ID:** 252772  
+**Internal:** Yes  
 
 
 

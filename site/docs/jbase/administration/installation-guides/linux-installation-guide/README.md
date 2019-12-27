@@ -3,6 +3,8 @@
 **Created At:** 3/10/2017 5:04:34 PM  
 **Updated At:** 7/16/2019 11:03:39 PM  
 **Original Doc:** [jbase-linux-installation-guide](https://docs.jbase.com/36690-installation-guides/jbase-linux-installation-guide)  
+**Original ID:** 229895  
+**Internal:** No  
 
 **Tags:**
 <badge text='ubuntu' vertical='middle' />

@@ -3,6 +3,8 @@
 **Created At:** 8/23/2017 11:43:15 PM  
 **Updated At:** 8/23/2017 11:43:38 PM  
 **Original Doc:** [expanding-a-disk-physical-and-logical-volume](https://docs.jbase.com/36040-migration-knowledge-base/expanding-a-disk-physical-and-logical-volume)  
+**Original ID:** 268620  
+**Internal:** Yes  
 
 
 ## Display original Disk Sizes

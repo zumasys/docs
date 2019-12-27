@@ -3,6 +3,8 @@
 **Created At:** 9/14/2017 1:24:30 PM  
 **Updated At:** 1/5/2018 5:09:43 PM  
 **Original Doc:** [276791-jqlgetproperty](https://docs.jbase.com/36868-jbase-basic/276791-jqlgetproperty)  
+**Original ID:** 276791  
+**Internal:** No  
 
 
 # Description

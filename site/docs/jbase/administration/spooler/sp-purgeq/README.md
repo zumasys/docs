@@ -3,6 +3,8 @@
 **Created At:** 4/5/2018 8:53:58 AM  
 **Updated At:** 1/24/2019 8:17:04 AM  
 **Original Doc:** [306436-sp-purgeq](https://docs.jbase.com/44205-spooler/306436-sp-purgeq)  
+**Original ID:** 306436  
+**Internal:** No  
 
 
 ## Description

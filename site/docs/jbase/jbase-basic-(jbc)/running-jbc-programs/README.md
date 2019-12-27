@@ -3,6 +3,8 @@
 **Created At:** 5/23/2018 2:21:13 PM  
 **Updated At:** 6/6/2019 8:01:24 AM  
 **Original Doc:** [running-jbc-programs](https://docs.jbase.com/36868-jbase-basic/running-jbc-programs)  
+**Original ID:** 318020  
+**Internal:** No  
 
 
 ## Description

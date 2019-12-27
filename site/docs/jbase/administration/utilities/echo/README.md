@@ -3,6 +3,8 @@
 **Created At:** 9/11/2018 1:51:21 PM  
 **Updated At:** 12/28/2018 2:13:19 PM  
 **Original Doc:** [339007-echo](https://docs.jbase.com/46963-utilities/339007-echo)  
+**Original ID:** 339007  
+**Internal:** No  
 
 **Tags:**
 <badge text='reset echo' vertical='middle' />

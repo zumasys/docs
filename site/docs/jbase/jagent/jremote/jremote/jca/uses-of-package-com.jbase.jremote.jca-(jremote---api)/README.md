@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 12:07:18 PM  
 **Updated At:** 2/15/2018 8:02:17 AM  
 **Original Doc:** [com_jbase_jremote_jca_package-use](https://docs.jbase.com/39258-jca/com_jbase_jremote_jca_package-use)  
+**Original ID:** 278282  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Package com.jbase.jremote.jca (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

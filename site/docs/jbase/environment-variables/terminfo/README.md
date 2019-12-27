@@ -3,6 +3,8 @@
 **Created At:** 7/13/2018 8:33:02 AM  
 **Updated At:** 8/22/2018 9:50:51 AM  
 **Original Doc:** [326793-terminfo](https://docs.jbase.com/41717-environment-variables/326793-terminfo)  
+**Original ID:** 326793  
+**Internal:** No  
 
 **Tags:**
 <badge text='environment variables' vertical='middle' />

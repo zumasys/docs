@@ -3,6 +3,8 @@
 **Created At:** 1/17/2018 1:34:13 PM  
 **Updated At:** 9/20/2018 12:55:35 PM  
 **Original Doc:** [comjbasejrcs-jrclient-api](https://docs.jbase.com/jrcs/comjbasejrcs-jrclient-api)  
+**Original ID:** 295053  
+**Internal:** No  
 
 
 ## Package com.jbase.jrcs

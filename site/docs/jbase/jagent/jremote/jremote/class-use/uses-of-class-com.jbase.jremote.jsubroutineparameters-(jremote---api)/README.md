@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:40:18 AM  
 **Updated At:** 2/15/2018 8:02:58 AM  
 **Original Doc:** [com_jbase_jremote_class-use_JSubroutineParameters](https://docs.jbase.com/39249-class-use/com_jbase_jremote_class-use_JSubroutineParameters)  
+**Original ID:** 278062  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.JSubroutineParameters (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

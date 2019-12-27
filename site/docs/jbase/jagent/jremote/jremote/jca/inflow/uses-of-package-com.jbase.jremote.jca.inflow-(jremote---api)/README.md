@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 12:01:46 PM  
 **Updated At:** 2/15/2018 8:02:45 AM  
 **Original Doc:** [com_jbase_jremote_jca_inflow_package-use](https://docs.jbase.com/39262-inflow/com_jbase_jremote_jca_inflow_package-use)  
+**Original ID:** 278240  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Package com.jbase.jremote.jca.inflow (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

@@ -3,6 +3,8 @@
 **Created At:** 7/20/2018 1:28:32 PM  
 **Updated At:** 5/29/2019 8:50:14 PM  
 **Original Doc:** [jstat](https://docs.jbase.com/42462-distributed-files/jstat)  
+**Original ID:** 328693  
+**Internal:** No  
 
 **Tags:**
 <badge text='statistics' vertical='middle' />

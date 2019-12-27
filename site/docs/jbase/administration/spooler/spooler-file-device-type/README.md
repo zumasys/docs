@@ -3,6 +3,8 @@
 **Created At:** 10/17/2018 3:07:17 PM  
 **Updated At:** 10/18/2018 8:19:58 AM  
 **Original Doc:** [spooler-file-device-type](https://docs.jbase.com/44205-spooler/spooler-file-device-type)  
+**Original ID:** 344595  
+**Internal:** No  
 
 **Tags:**
 <badge text='sp-device' vertical='middle' />

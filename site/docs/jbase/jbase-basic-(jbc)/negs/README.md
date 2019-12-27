@@ -4,6 +4,8 @@ NEGS
 **Created At:** 9/15/2017 2:11:54 PM  
 **Updated At:** 11/27/2018 10:08:36 AM  
 **Original Doc:** [276988-negs](https://docs.jbase.com/36868-jbase-basic/276988-negs)  
+**Original ID:** 276988  
+**Internal:** No  
 
 **Tags:**
 <badge text='dynamic arrays' vertical='middle' />

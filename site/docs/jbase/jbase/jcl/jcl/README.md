@@ -1,76 +1,18 @@
-# jcl 
-
-**Created At:** 9/11/2018 2:37:28 PM  
-**Updated At:** 1/21/2019 2:01:35 PM  
-**Original Doc:** [jcl](https://docs.jbase.com/45792-jcl/jcl)  
-
 # JCL
 
 **Created At:** 5/23/2018 2:32:57 PM  
 **Updated At:** 10/25/2018 7:33:04 PM  
 **Original Doc:** [318022-jcl](https://docs.jbase.com/45792-jcl/318022-jcl)  
+**Original ID:** 318022  
+**Internal:** No  
 
+# jcl 
 
-
-| [Introduction](./.) | Introduction to the jBASE command language. |
-| --- | --- |
-| [PQ/PQN Differences](./../pq-and-pqn--differences) | Functionality differences between PQ and PQN procs. |
-| [A](./../jcl-a) | Copies a parameter from the active input buffer to the active output buffer. |
-| [B](./../jcl-b) | Moves the active input buffer pointer back to the previous parameter. |
-| [BO](./../jcl-bo) | Moves the active output buffer pointer back by one parameter. |
-| [C](./../jcl-c) | Defines a comment. |
-| [D](./../jcl-d) | Displays parameters from the active input buffer. |
-| [DE](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jcl2_JCL.DE.htm) | Displays the current value of LastError. |
-| [DEBUG](./../jcl-debug) | Turns the jCL debug function on or off. |
-| [F](./../jcl-f) | Moves the active input buffer pointer forward to the next parameter. |
-| [F;](./../jcl.f-;) | Provides a range of arithmetic functions. |
-| [F-CLEAR](./../jcl-f--clear) | Clears the specified buffer. |
-| [F-DELETE](./../jcl-f--delete) | Deletes a record from a file. |
-| [F-FREE](./../jcl-f--free) | Releases a record lock. |
-| [F-KLOSE](./../jcl-f--klose) | Closes a specified file buffer. |
-| [F-OPEN](./../jcl-f--open) | Opens a file for reading and writing. |
-| [F-READ](./../jcl-f--read) | Reads a record from an open file into a file buffer. |
-| [F-UREAD](./../jcl-f--uread) | Reads and locks a record from an open file into a file buffer. |
-| [F-WRITE](./../jcl-f--write) | Writes the contents of a file buffer as a record. |
-| [FB](./../jcl-fb) | Reads a record from a file into the special "fast" buffer without having to open the file first. |
-| [G/GO/GOTO](./../jcl-g-&-go--&-goto) | Transfers control unconditionally to another location in the program. |
-| [GO B](./../jcl-go--b) | Transfers control to the statement following the most recent mark command executed. |
-| [GO F](./../jcl-go--f) | Transfers control to the statement containing the next mark command. |
-| [GOSUB](./../jcl-gosub) | Transfers control to a specific subroutine. |
-| [H](./../jcl-h) | Places a text string in the active output buffer. |
-| [IBH](./../jcl-ibh) | Places text in the active input buffer whilst retaining embedded spaces. |
-| [IBN](./../jcl-ibn) | Prompts for input and places the entered data in the secondary input buffer. |
-| [IBP](./../jcl-ibp) | Prompts for input from the terminal. |
-| [IF](./../jcl-if) | Allows conditional execution of jCL commands based on the evaluation of an expression. |
-| [IF E](./../jcl-if--e) | Conditionally executes a command depending on the presence or absence of an error message. |
-| [IF S](./../jcl-if--s) | Conditionally executes a command depending on the presence or absence of an active select list. |
-| [IFN](./../jcl-ifn) | Allows conditional execution of commands depending on the result of numeric comparisons. |
-| [IH](./../jcl-ih) | Places a text string in the active input buffer. |
-| [IN](./../jcl-in) | Prompts for input and places it in the secondary input buffer. |
-| [IP](./../jcl-ip) | Prompts for input and places it into the active input buffer or a nominated buffer. |
-| [IT](./../jcl-it) | Reads a tape record into the primary input buffer. |
-| [L](./../jcl-l) | Formats printed output. |
-| [M](./../jcl-m) | Marks a destination for a GO F or GO B command |
-| [MS](./../jcl-ms) | Move the entire content of the secondary input buffer to the primary input buffer. |
-| [MV](./../jcl-mv) | Copies data between buffers or between buffers and select registers. |
-| [MVA](./../jcl-mva) | Copies a value from the source to the destination buffer and stores it as a multivalue. |
-| [MVD](./../jcl-mvd) | Deletes a value from a multivalued parameter in the target buffer. |
-| [O](./../jcl-o) | Outputs a text string to the terminal. |
-| [P](./../jcl-p) | Submits the shell command created in the primary output buffer for execution. |
-| [PQ-RESELECT](./../jcl-pq-reselect) | Executed from a jCL program, resets the pointer of a select register to the beginning of the list of keys. |
-| [PQ-SELECT](./../jcl-pq-select) | Executed from a jCL program, loads a list of keys into a select register |
-| [RI](./../jcl-ri) | Resets (clears) the primary and secondary input buffers. |
-| [RO](./../jcl-ro) | Resets (clears) the active output buffer. |
-| [RSUB](./../jcl-rsub) | Terminates execution of a local subroutine. |
-| [RTN](./../jcl-rtn) | Terminates execution of an external subroutine. |
-| [S](./../jcl-s) | Positions the primary input buffer pointer to a specified parameter or column. |
-| [STOFF](./../jcl-stoff) | Selects the primary output buffer as the active output buffer. |
-| [STON](./../jcl-ston) | Selects the secondary output buffer as the active output buffer. |
-| [T](./../jcl-t) | Produces formatted terminal output. |
-| [TR](./../jcl-tr) | Traces jCL program execution and displays each command before it is executed. |
-| [U](./../jcl-u) | Executes a user exit from a jCL program. |
-| [X](./../jcl-x) | Halts execution of the program and returns control to the shell. |
-| [PARAGRAPHS](./../paragraphs) | Paragraph support in jBASE. |
+**Created At:** 9/11/2018 2:37:28 PM  
+**Updated At:** 1/21/2019 2:01:35 PM  
+**Original Doc:** [jcl](https://docs.jbase.com/45792-jcl/jcl)  
+**Original ID:** 339022  
+**Internal:** No  
 
 
 ## Overview 
@@ -279,3 +221,65 @@ There are two methods of branching (...) and [...]. The (....) method is non ret
 
 
 will either branch off to MD MD\_REPORT starting at label 20 or display "Nothing to see here...".
+
+
+| [Introduction](./.) | Introduction to the jBASE command language. |
+| --- | --- |
+| [PQ/PQN Differences](./../pq-and-pqn--differences) | Functionality differences between PQ and PQN procs. |
+| [A](./../jcl-a) | Copies a parameter from the active input buffer to the active output buffer. |
+| [B](./../jcl-b) | Moves the active input buffer pointer back to the previous parameter. |
+| [BO](./../jcl-bo) | Moves the active output buffer pointer back by one parameter. |
+| [C](./../jcl-c) | Defines a comment. |
+| [D](./../jcl-d) | Displays parameters from the active input buffer. |
+| [DE](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jcl2_JCL.DE.htm) | Displays the current value of LastError. |
+| [DEBUG](./../jcl-debug) | Turns the jCL debug function on or off. |
+| [F](./../jcl-f) | Moves the active input buffer pointer forward to the next parameter. |
+| [F;](./../jcl.f-;) | Provides a range of arithmetic functions. |
+| [F-CLEAR](./../jcl-f--clear) | Clears the specified buffer. |
+| [F-DELETE](./../jcl-f--delete) | Deletes a record from a file. |
+| [F-FREE](./../jcl-f--free) | Releases a record lock. |
+| [F-KLOSE](./../jcl-f--klose) | Closes a specified file buffer. |
+| [F-OPEN](./../jcl-f--open) | Opens a file for reading and writing. |
+| [F-READ](./../jcl-f--read) | Reads a record from an open file into a file buffer. |
+| [F-UREAD](./../jcl-f--uread) | Reads and locks a record from an open file into a file buffer. |
+| [F-WRITE](./../jcl-f--write) | Writes the contents of a file buffer as a record. |
+| [FB](./../jcl-fb) | Reads a record from a file into the special "fast" buffer without having to open the file first. |
+| [G/GO/GOTO](./../jcl-g-&-go--&-goto) | Transfers control unconditionally to another location in the program. |
+| [GO B](./../jcl-go--b) | Transfers control to the statement following the most recent mark command executed. |
+| [GO F](./../jcl-go--f) | Transfers control to the statement containing the next mark command. |
+| [GOSUB](./../jcl-gosub) | Transfers control to a specific subroutine. |
+| [H](./../jcl-h) | Places a text string in the active output buffer. |
+| [IBH](./../jcl-ibh) | Places text in the active input buffer whilst retaining embedded spaces. |
+| [IBN](./../jcl-ibn) | Prompts for input and places the entered data in the secondary input buffer. |
+| [IBP](./../jcl-ibp) | Prompts for input from the terminal. |
+| [IF](./../jcl-if) | Allows conditional execution of jCL commands based on the evaluation of an expression. |
+| [IF E](./../jcl-if--e) | Conditionally executes a command depending on the presence or absence of an error message. |
+| [IF S](./../jcl-if--s) | Conditionally executes a command depending on the presence or absence of an active select list. |
+| [IFN](./../jcl-ifn) | Allows conditional execution of commands depending on the result of numeric comparisons. |
+| [IH](./../jcl-ih) | Places a text string in the active input buffer. |
+| [IN](./../jcl-in) | Prompts for input and places it in the secondary input buffer. |
+| [IP](./../jcl-ip) | Prompts for input and places it into the active input buffer or a nominated buffer. |
+| [IT](./../jcl-it) | Reads a tape record into the primary input buffer. |
+| [L](./../jcl-l) | Formats printed output. |
+| [M](./../jcl-m) | Marks a destination for a GO F or GO B command |
+| [MS](./../jcl-ms) | Move the entire content of the secondary input buffer to the primary input buffer. |
+| [MV](./../jcl-mv) | Copies data between buffers or between buffers and select registers. |
+| [MVA](./../jcl-mva) | Copies a value from the source to the destination buffer and stores it as a multivalue. |
+| [MVD](./../jcl-mvd) | Deletes a value from a multivalued parameter in the target buffer. |
+| [O](./../jcl-o) | Outputs a text string to the terminal. |
+| [P](./../jcl-p) | Submits the shell command created in the primary output buffer for execution. |
+| [PQ-RESELECT](./../jcl-pq-reselect) | Executed from a jCL program, resets the pointer of a select register to the beginning of the list of keys. |
+| [PQ-SELECT](./../jcl-pq-select) | Executed from a jCL program, loads a list of keys into a select register |
+| [RI](./../jcl-ri) | Resets (clears) the primary and secondary input buffers. |
+| [RO](./../jcl-ro) | Resets (clears) the active output buffer. |
+| [RSUB](./../jcl-rsub) | Terminates execution of a local subroutine. |
+| [RTN](./../jcl-rtn) | Terminates execution of an external subroutine. |
+| [S](./../jcl-s) | Positions the primary input buffer pointer to a specified parameter or column. |
+| [STOFF](./../jcl-stoff) | Selects the primary output buffer as the active output buffer. |
+| [STON](./../jcl-ston) | Selects the secondary output buffer as the active output buffer. |
+| [T](./../jcl-t) | Produces formatted terminal output. |
+| [TR](./../jcl-tr) | Traces jCL program execution and displays each command before it is executed. |
+| [U](./../jcl-u) | Executes a user exit from a jCL program. |
+| [X](./../jcl-x) | Halts execution of the program and returns control to the shell. |
+| [PARAGRAPHS](./../paragraphs) | Paragraph support in jBASE. |
+

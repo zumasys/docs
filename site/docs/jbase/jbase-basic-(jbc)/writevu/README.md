@@ -3,6 +3,8 @@
 **Created At:** 10/4/2017 12:32:21 PM  
 **Updated At:** 1/5/2018 6:40:14 PM  
 **Original Doc:** [279576-writevu](https://docs.jbase.com/36868-jbase-basic/279576-writevu)  
+**Original ID:** 279576  
+**Internal:** No  
 
 
 # Description

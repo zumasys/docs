@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:39:39 AM  
 **Updated At:** 4/5/2018 12:38:09 AM  
 **Original Doc:** [com_jbase_jremote_class-use_jrecordnotfoundexception](https://docs.jbase.com/39249-class-use/com_jbase_jremote_class-use_jrecordnotfoundexception)  
+**Original ID:** 278056  
+**Internal:** No  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.JRecordNotFoundException (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

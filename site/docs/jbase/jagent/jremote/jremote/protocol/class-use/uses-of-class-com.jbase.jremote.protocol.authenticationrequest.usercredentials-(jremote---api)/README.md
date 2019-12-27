@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 12:11:52 PM  
 **Updated At:** 2/15/2018 8:03:06 AM  
 **Original Doc:** [com_jbase_jremote_protocol_class-use_AuthenticationRequest.UserCredentials](https://docs.jbase.com/39271-class-use/com_jbase_jremote_protocol_class-use_AuthenticationRequest.UserCredentials)  
+**Original ID:** 278323  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.protocol.AuthenticationRequest.UserCredentials (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

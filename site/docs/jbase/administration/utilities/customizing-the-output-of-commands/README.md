@@ -3,6 +3,8 @@
 **Created At:** 8/2/2018 2:39:24 PM  
 **Updated At:** 10/24/2018 8:49:15 AM  
 **Original Doc:** [customizing-the-output-of-commands](https://docs.jbase.com/46963-utilities/customizing-the-output-of-commands)  
+**Original ID:** 330419  
+**Internal:** No  
 
 **Tags:**
 <badge text='where' vertical='middle' />

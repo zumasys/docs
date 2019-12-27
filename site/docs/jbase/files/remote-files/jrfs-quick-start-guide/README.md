@@ -3,6 +3,8 @@
 **Created At:** 9/14/2018 7:49:16 AM  
 **Updated At:** 4/24/2019 8:50:15 PM  
 **Original Doc:** [jrfs-quick-start-guide](https://docs.jbase.com/44204-remote-files/jrfs-quick-start-guide)  
+**Original ID:** 339361  
+**Internal:** No  
 
 
 ## Description

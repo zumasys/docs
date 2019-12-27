@@ -3,6 +3,8 @@
 **Created At:** 6/17/2018 8:49:36 AM  
 **Updated At:** 12/20/2019 10:17:21 PM  
 **Original Doc:** [jbase-encryption-database-security](https://docs.jbase.com/30301-jbase/jbase-encryption-database-security)  
+**Original ID:** 322165  
+**Internal:** No  
 
 
 ## Abstract

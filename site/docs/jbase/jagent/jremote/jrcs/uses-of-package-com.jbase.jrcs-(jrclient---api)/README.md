@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:29:54 AM  
 **Updated At:** 9/20/2018 1:05:04 PM  
 **Original Doc:** [com_jbase_jrcs_package-use](https://docs.jbase.com/jrcs/com_jbase_jrcs_package-use)  
+**Original ID:** 278044  
+**Internal:** No  
 
 
 ## Uses of Package com.jbase.jrcs

@@ -3,6 +3,8 @@
 **Created At:** 9/4/2017 12:13:36 PM  
 **Updated At:** 10/25/2018 7:50:08 AM  
 **Original Doc:** [272273-findstr](https://docs.jbase.com/36868-jbase-basic/272273-findstr)  
+**Original ID:** 272273  
+**Internal:** No  
 
 **Tags:**
 <badge text='dynamic arrays' vertical='middle' />

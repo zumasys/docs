@@ -3,6 +3,8 @@
 **Created At:** 3/29/2018 6:37:12 PM  
 **Updated At:** 4/18/2018 8:14:51 PM  
 **Original Doc:** [305930-jlogdup](https://docs.jbase.com/43995-transactional-journaling/305930-jlogdup)  
+**Original ID:** 305930  
+**Internal:** No  
 
 
 ## Description

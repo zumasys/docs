@@ -3,6 +3,8 @@
 **Created At:** 8/23/2017 1:42:21 PM  
 **Updated At:** 10/24/2018 11:00:33 PM  
 **Original Doc:** [268481-deleteseq](https://docs.jbase.com/36868-jbase-basic/268481-deleteseq)  
+**Original ID:** 268481  
+**Internal:** No  
 
 **Tags:**
 <badge text='sequential files' vertical='middle' />

@@ -3,6 +3,8 @@
 **Created At:** 11/3/2017 3:49:04 PM  
 **Updated At:** 8/8/2018 7:23:23 AM  
 **Original Doc:** [jedifilepath](https://docs.jbase.com/41717-environment-variables/jedifilepath)  
+**Original ID:** 284169  
+**Internal:** No  
 
 **Tags:**
 <badge text='jdirectories' vertical='middle' />

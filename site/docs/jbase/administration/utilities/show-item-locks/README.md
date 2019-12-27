@@ -3,6 +3,8 @@
 **Created At:** 8/2/2018 2:38:26 PM  
 **Updated At:** 8/31/2018 11:10:11 AM  
 **Original Doc:** [show-item-locks](https://docs.jbase.com/46963-utilities/show-item-locks)  
+**Original ID:** 330418  
+**Internal:** No  
 
 **Tags:**
 <badge text='locking' vertical='middle' />

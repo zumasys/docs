@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:02:40 AM  
 **Updated At:** 2/15/2018 8:02:53 AM  
 **Original Doc:** [com_jbase_jdbc_protocol_package-summary](https://docs.jbase.com/39240-protocol/com_jbase_jdbc_protocol_package-summary)  
+**Original ID:** 277986  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="com.jbase.jdbc.protocol (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

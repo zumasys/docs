@@ -3,6 +3,8 @@
 **Created At:** 9/13/2017 7:49:19 PM  
 **Updated At:** 9/13/2017 7:50:12 PM  
 **Original Doc:** [wrappedjconnection](https://docs.jbase.com/39719-archive/wrappedjconnection)  
+**Original ID:** 276690  
+**Internal:** Yes  
 
 
 ## Class WrappedJConnection

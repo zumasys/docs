@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 12:04:46 PM  
 **Updated At:** 4/4/2018 6:31:29 PM  
 **Original Doc:** [com_jbase_jremote_protocol_rollbacktransactionrequest](https://docs.jbase.com/39270-protocol/com_jbase_jremote_protocol_rollbacktransactionrequest)  
+**Original ID:** 278262  
+**Internal:** No  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="RollbackTransactionRequest (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
 JavaScript is disabled on your browser.

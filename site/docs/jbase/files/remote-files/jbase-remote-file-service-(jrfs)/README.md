@@ -3,6 +3,8 @@
 **Created At:** 4/2/2018 9:59:09 PM  
 **Updated At:** 7/8/2019 11:38:09 PM  
 **Original Doc:** [306074-remote-files](https://docs.jbase.com/44204-remote-files/306074-remote-files)  
+**Original ID:** 306074  
+**Internal:** No  
 
 **Tags:**
 <badge text='remote files' vertical='middle' />

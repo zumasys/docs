@@ -3,6 +3,8 @@
 **Created At:** 11/15/2019 5:46:03 PM  
 **Updated At:** 11/15/2019 7:32:18 PM  
 **Original Doc:** [accuterm-mobile-user-guide](https://docs.zumasys.com/accutermmobile/accuterm-mobile-user-guide)  
+**Original ID:** 494590  
+**Internal:** No  
 
 
 ## Overview

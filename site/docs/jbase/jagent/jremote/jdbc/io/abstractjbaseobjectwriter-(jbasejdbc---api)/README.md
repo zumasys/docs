@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:43:09 AM  
 **Updated At:** 2/15/2018 8:02:40 AM  
 **Original Doc:** [com_jbase_jdbc_io_AbstractJBaseObjectWriter](https://docs.jbase.com/39232-io/com_jbase_jdbc_io_AbstractJBaseObjectWriter)  
+**Original ID:** 277820  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="AbstractJBaseObjectWriter (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":6,"i1":6,"i2":6,"i3":6,"i4":6,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],4:["t3","Abstract Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
 JavaScript is disabled on your browser.

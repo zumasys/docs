@@ -3,6 +3,8 @@
 **Created At:** 6/8/2018 2:01:43 PM  
 **Updated At:** 7/13/2018 10:11:42 AM  
 **Original Doc:** [listdicts](https://docs.jbase.com/46350-jql/listdicts)  
+**Original ID:** 321320  
+**Internal:** No  
 
 **Tags:**
 <badge text='dictionary' vertical='middle' />

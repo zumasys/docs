@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:43:32 AM  
 **Updated At:** 4/5/2018 8:50:21 PM  
 **Original Doc:** [com_jbase_jremote_io_class-use_byteobject](https://docs.jbase.com/39253-class-use/com_jbase_jremote_io_class-use_byteobject)  
+**Original ID:** 278089  
+**Internal:** No  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.io.ByteObject (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 

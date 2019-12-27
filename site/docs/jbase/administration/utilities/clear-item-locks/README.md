@@ -4,6 +4,8 @@ CLEAR-ITEM-LOCKS
 **Created At:** 8/2/2018 2:37:29 PM  
 **Updated At:** 8/31/2018 11:09:38 AM  
 **Original Doc:** [clear-item-locks](https://docs.jbase.com/46963-utilities/clear-item-locks)  
+**Original ID:** 330417  
+**Internal:** No  
 
 **Tags:**
 <badge text='locking' vertical='middle' />

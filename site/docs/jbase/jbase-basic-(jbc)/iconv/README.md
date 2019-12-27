@@ -3,6 +3,8 @@
 **Created At:** 9/7/2017 9:10:17 AM  
 **Updated At:** 10/30/2018 9:55:06 AM  
 **Original Doc:** [276153-iconv](https://docs.jbase.com/36868-jbase-basic/276153-iconv)  
+**Original ID:** 276153  
+**Internal:** No  
 
 **Tags:**
 <badge text='conversions' vertical='middle' />

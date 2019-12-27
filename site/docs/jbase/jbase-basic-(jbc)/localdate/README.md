@@ -3,6 +3,8 @@
 **Created At:** 9/15/2017 9:18:25 AM  
 **Updated At:** 1/5/2018 5:12:29 PM  
 **Original Doc:** [276935-localdate](https://docs.jbase.com/36868-jbase-basic/276935-localdate)  
+**Original ID:** 276935  
+**Internal:** No  
 
 
 # Description

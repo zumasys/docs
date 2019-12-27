@@ -3,6 +3,8 @@
 **Created At:** 10/2/2017 11:54:53 PM  
 **Updated At:** 4/3/2018 7:21:38 PM  
 **Original Doc:** [deploying-the-jdbc-driver](https://docs.jbase.com/39228-jdbc/deploying-the-jdbc-driver)  
+**Original ID:** 279141  
+**Internal:** Yes  
 
 
 # Description

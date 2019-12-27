@@ -3,6 +3,8 @@
 **Created At:** 4/19/2018 6:52:58 PM  
 **Updated At:** 5/2/2018 7:28:13 PM  
 **Original Doc:** [311300-windows-telnet-troubleshooting](https://docs.jbase.com/30301-jbase/311300-windows-telnet-troubleshooting)  
+**Original ID:** 311300  
+**Internal:** No  
 
 
 ## Event Log

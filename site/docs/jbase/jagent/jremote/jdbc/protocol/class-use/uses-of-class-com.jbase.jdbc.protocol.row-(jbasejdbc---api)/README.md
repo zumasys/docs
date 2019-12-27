@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:59:46 AM  
 **Updated At:** 8/17/2018 2:25:54 AM  
 **Original Doc:** [com_jbase_jdbc_protocol_class-use_row](https://docs.jbase.com/39241-class-use/com_jbase_jdbc_protocol_class-use_row)  
+**Original ID:** 277960  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jdbc.protocol.Row (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

@@ -3,6 +3,8 @@
 **Created At:** 9/11/2018 12:06:59 PM  
 **Updated At:** 3/12/2019 5:26:40 PM  
 **Original Doc:** [sqlcatman](https://docs.jbase.com/46963-utilities/sqlcatman)  
+**Original ID:** 338983  
+**Internal:** No  
 
 **Tags:**
 <badge text='lookup table' vertical='middle' />

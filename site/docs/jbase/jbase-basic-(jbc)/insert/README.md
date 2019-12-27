@@ -3,6 +3,8 @@
 **Created At:** 9/13/2017 12:40:18 PM  
 **Updated At:** 10/30/2018 9:46:23 AM  
 **Original Doc:** [276604-index](https://docs.jbase.com/36868-jbase-basic/276604-index)  
+**Original ID:** 276604  
+**Internal:** No  
 
 **Tags:**
 <badge text='dynamic arrays' vertical='middle' />

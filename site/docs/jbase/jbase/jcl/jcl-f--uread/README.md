@@ -3,6 +3,8 @@
 **Created At:** 5/28/2018 10:52:31 AM  
 **Updated At:** 6/11/2018 4:21:06 AM  
 **Original Doc:** [318671-jcl-f-uread](https://docs.jbase.com/45792-jcl/318671-jcl-f-uread)  
+**Original ID:** 318671  
+**Internal:** No  
 
 **Tags:**
 <badge text='buffer' vertical='middle' />

@@ -3,6 +3,8 @@
 **Created At:** 9/18/2018 8:22:08 AM  
 **Updated At:** 10/1/2018 3:56:18 PM  
 **Original Doc:** [t-att](https://docs.jbase.com/49399-tape/t-att)  
+**Original ID:** 339613  
+**Internal:** No  
 
 **Tags:**
 <badge text='spooler tape' vertical='middle' />

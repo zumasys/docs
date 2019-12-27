@@ -3,6 +3,8 @@
 **Created At:** 2/15/2018 2:27:47 PM  
 **Updated At:** 2/12/2019 10:12:43 AM  
 **Original Doc:** [method-insert](https://docs.jbase.com/42948-dynamic-objects/method-insert)  
+**Original ID:** 299331  
+**Internal:** No  
 
 
 ## Description

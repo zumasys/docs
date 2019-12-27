@@ -3,6 +3,8 @@
 **Created At:** 3/12/2018 4:26:15 PM  
 **Updated At:** 4/5/2018 12:52:28 PM  
 **Original Doc:** [dynamic-objects-development-class](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-development-class)  
+**Original ID:** 303928  
+**Internal:** No  
 
 
 The **$development**class contains general tools for Dynamic Objects developement. It's primarily used by jBASE developers but we are exposing them for general use.

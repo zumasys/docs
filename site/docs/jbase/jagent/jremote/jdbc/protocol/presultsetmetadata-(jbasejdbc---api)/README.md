@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:03:31 AM  
 **Updated At:** 2/15/2018 8:02:30 AM  
 **Original Doc:** [com_jbase_jdbc_protocol_PResultSetMetaData](https://docs.jbase.com/39240-protocol/com_jbase_jdbc_protocol_PResultSetMetaData)  
+**Original ID:** 277993  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="PResultSetMetaData (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
 JavaScript is disabled on your browser.

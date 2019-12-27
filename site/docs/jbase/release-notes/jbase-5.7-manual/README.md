@@ -3,6 +3,8 @@
 **Created At:** 2/14/2018 9:39:14 PM  
 **Updated At:** 2/22/2019 5:52:49 PM  
 **Original Doc:** [jbase-57-manual](https://docs.jbase.com/release-notes/jbase-57-manual)  
+**Original ID:** 299281  
+**Internal:** No  
 
 **Tags:**
 <badge text='jbase 5.7' vertical='middle' />

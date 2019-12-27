@@ -3,6 +3,8 @@
 **Created At:** 3/13/2018 9:47:11 AM  
 **Updated At:** 4/5/2018 12:53:01 PM  
 **Original Doc:** [dynamic-objects-vararg-class](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-vararg-class)  
+**Original ID:** 303981  
+**Internal:** No  
 
 
 ## Description

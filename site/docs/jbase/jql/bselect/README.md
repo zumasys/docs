@@ -3,6 +3,8 @@
 **Created At:** 6/8/2018 1:54:56 PM  
 **Updated At:** 7/13/2018 10:08:35 AM  
 **Original Doc:** [bselect](https://docs.jbase.com/46350-jql/bselect)  
+**Original ID:** 321312  
+**Internal:** No  
 
 **Tags:**
 <badge text='jql' vertical='middle' />

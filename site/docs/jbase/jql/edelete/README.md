@@ -3,6 +3,8 @@
 **Created At:** 6/8/2018 1:55:42 PM  
 **Updated At:** 7/13/2018 10:09:16 AM  
 **Original Doc:** [edelete](https://docs.jbase.com/46350-jql/edelete)  
+**Original ID:** 321314  
+**Internal:** No  
 
 **Tags:**
 <badge text='jql' vertical='middle' />

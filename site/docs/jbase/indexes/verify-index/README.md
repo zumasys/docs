@@ -3,6 +3,8 @@
 **Created At:** 8/16/2018 1:59:09 PM  
 **Updated At:** 9/26/2018 10:46:52 PM  
 **Original Doc:** [verify-index](https://docs.jbase.com/48152-indexes/verify-index)  
+**Original ID:** 334561  
+**Internal:** No  
 
 **Tags:**
 <badge text='file indexing' vertical='middle' />

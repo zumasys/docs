@@ -3,6 +3,8 @@
 **Created At:** 5/28/2018 10:15:14 AM  
 **Updated At:** 6/6/2019 8:16:56 AM  
 **Original Doc:** [pq-and-pqn-differences](https://docs.jbase.com/45792-jcl/pq-and-pqn-differences)  
+**Original ID:** 318612  
+**Internal:** No  
 
 
 ## Introduction 

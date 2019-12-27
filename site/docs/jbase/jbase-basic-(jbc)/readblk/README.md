@@ -3,6 +3,8 @@
 **Created At:** 9/22/2017 2:25:13 PM  
 **Updated At:** 11/27/2018 9:43:13 AM  
 **Original Doc:** [277637-readblk](https://docs.jbase.com/36868-jbase-basic/277637-readblk)  
+**Original ID:** 277637  
+**Internal:** No  
 
 **Tags:**
 <badge text='record handling' vertical='middle' />

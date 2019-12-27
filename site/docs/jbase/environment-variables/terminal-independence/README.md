@@ -3,6 +3,8 @@
 **Created At:** 11/3/2017 3:18:13 PM  
 **Updated At:** 2/22/2018 5:37:39 PM  
 **Original Doc:** [terminal-independence](https://docs.jbase.com/41717-environment-variables/terminal-independence)  
+**Original ID:** 284156  
+**Internal:** No  
 
 
 jBASE uses the standard terminfo database supplied on all Unix platforms. For Windows, jBASE provides a terminfo database for several popular terminal.

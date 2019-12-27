@@ -3,6 +3,8 @@
 **Created At:** 9/20/2018 8:28:10 AM  
 **Updated At:** 1/24/2019 8:03:06 AM  
 **Original Doc:** [spooler-initialization](https://docs.jbase.com/44205-spooler/spooler-initialization)  
+**Original ID:** 339937  
+**Internal:** No  
 
 **Tags:**
 <badge text='spooler' vertical='middle' />

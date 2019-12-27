@@ -3,6 +3,8 @@
 **Created At:** 11/3/2017 2:08:40 PM  
 **Updated At:** 1/5/2018 6:46:03 PM  
 **Original Doc:** [284134-bitload](https://docs.jbase.com/36868-jbase-basic/284134-bitload)  
+**Original ID:** 284134  
+**Internal:** No  
 
 
 # Description

@@ -3,6 +3,8 @@
 **Created At:** 9/14/2017 12:09:10 PM  
 **Updated At:** 1/5/2018 5:07:26 PM  
 **Original Doc:** [276755-itype](https://docs.jbase.com/36868-jbase-basic/276755-itype)  
+**Original ID:** 276755  
+**Internal:** No  
 
 
 # Description

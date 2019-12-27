@@ -3,6 +3,8 @@
 **Created At:** 9/6/2017 10:40:52 AM  
 **Updated At:** 10/29/2018 8:57:19 PM  
 **Original Doc:** [276047-fmt](https://docs.jbase.com/36868-jbase-basic/276047-fmt)  
+**Original ID:** 276047  
+**Internal:** No  
 
 **Tags:**
 <badge text='text formatting' vertical='middle' />

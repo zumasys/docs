@@ -3,6 +3,8 @@
 **Created At:** 7/6/2017 9:48:07 PM  
 **Updated At:** 11/22/2017 10:49:52 AM  
 **Original Doc:** [verify-your-windows-operating-system](https://docs.jbase.com/36690-installation-guides/verify-your-windows-operating-system)  
+**Original ID:** 262607  
+**Internal:** No  
 
 
 

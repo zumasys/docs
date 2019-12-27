@@ -4,6 +4,8 @@
 **Created At:** 7/20/2017 1:38:38 PM  
 **Updated At:** 7/20/2017 1:39:06 PM  
 **Original Doc:** [jrcs-client-compilation-instructions](https://docs.jbase.com/30301-jbase/jrcs-client-compilation-instructions)  
+**Original ID:** 263832  
+**Internal:** Yes  
 
 
 # .NET Client

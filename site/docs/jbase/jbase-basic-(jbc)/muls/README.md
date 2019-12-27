@@ -3,6 +3,8 @@
 **Created At:** 9/15/2017 2:01:41 PM  
 **Updated At:** 11/27/2018 9:47:36 AM  
 **Original Doc:** [276986-muls](https://docs.jbase.com/36868-jbase-basic/276986-muls)  
+**Original ID:** 276986  
+**Internal:** No  
 
 **Tags:**
 <badge text='mathematical operations' vertical='middle' />

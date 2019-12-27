@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:38:42 AM  
 **Updated At:** 4/5/2018 12:28:23 AM  
 **Original Doc:** [com_jbase_jremote_class-use_jauthenticationexception](https://docs.jbase.com/39249-class-use/com_jbase_jremote_class-use_jauthenticationexception)  
+**Original ID:** 278047  
+**Internal:** No  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.JAuthenticationException (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

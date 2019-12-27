@@ -3,6 +3,8 @@
 **Created At:** 9/26/2017 4:53:49 PM  
 **Updated At:** 11/21/2017 6:04:29 AM  
 **Original Doc:** [integrating-with-web-service-login](https://docs.zumasys.com/36577-mv-dashboard/integrating-with-web-service-login)  
+**Original ID:** 278569  
+**Internal:** No  
 
 
 To display any dashboard page like it had been selected by a user logged into MV Dashboard, an application would post a URL with three additional parameters added to the same URL generated when manually selecting that dashboard. Those additional parameters are:

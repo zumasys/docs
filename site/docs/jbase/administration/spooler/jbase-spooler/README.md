@@ -3,6 +3,8 @@
 **Created At:** 9/18/2018 8:05:47 AM  
 **Updated At:** 1/24/2019 8:33:29 AM  
 **Original Doc:** [jbase-spooler](https://docs.jbase.com/44205-spooler/jbase-spooler)  
+**Original ID:** 339611  
+**Internal:** No  
 
 **Tags:**
 <badge text='printer' vertical='middle' />

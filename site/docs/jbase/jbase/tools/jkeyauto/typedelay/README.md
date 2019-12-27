@@ -3,6 +3,8 @@
 **Created At:** 8/30/2018 1:36:58 PM  
 **Updated At:** 5/16/2019 6:32:29 PM  
 **Original Doc:** [typedelay](https://docs.jbase.com/48575-jkeyauto/typedelay)  
+**Original ID:** 336889  
+**Internal:** No  
 
 **Tags:**
 <badge text='program profiling' vertical='middle' />

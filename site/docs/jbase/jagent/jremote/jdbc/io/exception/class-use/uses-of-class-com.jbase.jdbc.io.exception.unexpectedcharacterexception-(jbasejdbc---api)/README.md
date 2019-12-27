@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:48:27 AM  
 **Updated At:** 2/15/2018 8:02:50 AM  
 **Original Doc:** [com_jbase_jdbc_io_exception_class-use_UnexpectedCharacterException](https://docs.jbase.com/39237-class-use/com_jbase_jdbc_io_exception_class-use_UnexpectedCharacterException)  
+**Original ID:** 277864  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jdbc.io.exception.UnexpectedCharacterException (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

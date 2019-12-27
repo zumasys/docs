@@ -3,6 +3,8 @@
 **Created At:** 9/13/2017 1:21:30 PM  
 **Updated At:** 11/27/2018 8:04:36 AM  
 **Original Doc:** [276612-islower](https://docs.jbase.com/36868-jbase-basic/276612-islower)  
+**Original ID:** 276612  
+**Internal:** No  
 
 **Tags:**
 <badge text='string handling ' vertical='middle' />

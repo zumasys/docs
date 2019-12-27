@@ -3,6 +3,8 @@
 **Created At:** 8/20/2018 8:50:13 AM  
 **Updated At:** 8/31/2018 10:47:24 AM  
 **Original Doc:** [ascii-code-chart](https://docs.jbase.com/48399-tools/ascii-code-chart)  
+**Original ID:** 335264  
+**Internal:** No  
 
 **Tags:**
 <badge text='ascii codes' vertical='middle' />

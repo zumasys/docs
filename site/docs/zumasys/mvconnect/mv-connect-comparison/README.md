@@ -3,6 +3,8 @@
 **Created At:** 8/23/2017 1:33:02 PM  
 **Updated At:** 8/23/2017 1:33:59 PM  
 **Original Doc:** [mv-connect-comparison](https://docs.zumasys.com/36307-mv-connect/mv-connect-comparison)  
+**Original ID:** 268479  
+**Internal:** Yes  
 
 
 

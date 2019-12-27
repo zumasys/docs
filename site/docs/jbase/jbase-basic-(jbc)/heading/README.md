@@ -3,6 +3,8 @@
 **Created At:** 9/6/2017 2:59:26 PM  
 **Updated At:** 10/30/2018 10:00:33 AM  
 **Original Doc:** [276079-heading](https://docs.jbase.com/36868-jbase-basic/276079-heading)  
+**Original ID:** 276079  
+**Internal:** No  
 
 **Tags:**
 <badge text='page formatting' vertical='middle' />

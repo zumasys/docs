@@ -3,6 +3,8 @@
 **Created At:** 8/11/2017 12:13:01 AM  
 **Updated At:** 8/11/2017 12:13:27 AM  
 **Original Doc:** [6-go-live-list](https://docs.jbase.com/36040-migration-knowledge-base/6-go-live-list)  
+**Original ID:** 266647  
+**Internal:** Yes  
 
 
 ## 1.. License check

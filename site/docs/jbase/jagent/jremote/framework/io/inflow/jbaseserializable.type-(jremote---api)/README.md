@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:51:51 AM  
 **Updated At:** 2/15/2018 8:02:59 AM  
 **Original Doc:** [com_jbase_jremote_io_JBaseSerializable.TYPE](https://docs.jbase.com/39226-inflow/com_jbase_jremote_io_JBaseSerializable.TYPE)  
+**Original ID:** 278158  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JBaseSerializable.TYPE (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

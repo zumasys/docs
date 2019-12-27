@@ -4,6 +4,8 @@ ENTER
 **Created At:** 9/6/2017 8:35:02 AM  
 **Updated At:** 10/30/2018 1:22:57 PM  
 **Original Doc:** [276031-enter](https://docs.jbase.com/36868-jbase-basic/276031-enter)  
+**Original ID:** 276031  
+**Internal:** No  
 
 **Tags:**
 <badge text='program execution' vertical='middle' />

@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:05:40 AM  
 **Updated At:** 2/15/2018 8:02:25 AM  
 **Original Doc:** [com_jbase_jdbc_ResultSetAdapter](https://docs.jbase.com/39228-jdbc/com_jbase_jdbc_ResultSetAdapter)  
+**Original ID:** 278013  
+**Internal:** Yes  
 
 
 JavaScript is disabled on your browser.

@@ -3,6 +3,8 @@
 **Created At:** 9/6/2017 7:42:19 AM  
 **Updated At:** 10/30/2018 1:23:25 PM  
 **Original Doc:** [276026-group](https://docs.jbase.com/36868-jbase-basic/276026-group)  
+**Original ID:** 276026  
+**Internal:** No  
 
 **Tags:**
 <badge text='grouping' vertical='middle' />

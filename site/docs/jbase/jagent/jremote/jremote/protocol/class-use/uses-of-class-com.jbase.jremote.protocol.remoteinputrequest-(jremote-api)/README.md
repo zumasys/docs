@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 12:15:15 PM  
 **Updated At:** 4/5/2018 11:21:04 PM  
 **Original Doc:** [com_jbase_jremote_protocol_class-use_remoteinputrequest](https://docs.jbase.com/39271-class-use/com_jbase_jremote_protocol_class-use_remoteinputrequest)  
+**Original ID:** 278352  
+**Internal:** No  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.protocol.RemoteInputRequest (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

@@ -3,6 +3,8 @@
 **Created At:** 7/20/2018 1:48:12 PM  
 **Updated At:** 7/26/2018 1:53:46 PM  
 **Original Doc:** [328698-jfind](https://docs.jbase.com/30301-jbase/328698-jfind)  
+**Original ID:** 328698  
+**Internal:** No  
 
 **Tags:**
 <badge text='search program' vertical='middle' />

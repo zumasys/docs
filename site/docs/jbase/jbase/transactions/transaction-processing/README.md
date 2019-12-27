@@ -3,6 +3,8 @@
 **Created At:** 9/20/2018 9:25:50 AM  
 **Updated At:** 10/31/2018 8:14:39 AM  
 **Original Doc:** [transaction-processing](https://docs.jbase.com/49273-transactions/transaction-processing)  
+**Original ID:** 339941  
+**Internal:** No  
 
 
 ## Description 

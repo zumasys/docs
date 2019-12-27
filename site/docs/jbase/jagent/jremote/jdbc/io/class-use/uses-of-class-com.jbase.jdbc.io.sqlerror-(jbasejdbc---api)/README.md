@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:48:13 AM  
 **Updated At:** 2/15/2018 8:02:50 AM  
 **Original Doc:** [com_jbase_jdbc_io_class-use_SQLError](https://docs.jbase.com/39235-class-use/com_jbase_jdbc_io_class-use_SQLError)  
+**Original ID:** 277862  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jdbc.io.SQLError (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

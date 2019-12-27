@@ -3,6 +3,8 @@
 **Created At:** 8/31/2018 6:04:37 PM  
 **Updated At:** 8/31/2018 8:47:26 PM  
 **Original Doc:** [jbase-compiler-installation-for-windows-server-2012-not-r2-and-windows-8-not-81](https://docs.jbase.com/36690-installation-guides/jbase-compiler-installation-for-windows-server-2012-not-r2-and-windows-8-not-81)  
+**Original ID:** 337483  
+**Internal:** No  
 
 
 ## Description 

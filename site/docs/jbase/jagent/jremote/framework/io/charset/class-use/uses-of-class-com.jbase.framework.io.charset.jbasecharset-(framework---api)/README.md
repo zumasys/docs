@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:22:13 AM  
 **Updated At:** 2/15/2018 8:02:35 AM  
 **Original Doc:** [com_jbase_framework_io_charset_class-use_JbaseCharset](https://docs.jbase.com/39222-class-use/com_jbase_framework_io_charset_class-use_JbaseCharset)  
+**Original ID:** 277705  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.framework.io.charset.JbaseCharset (framework   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

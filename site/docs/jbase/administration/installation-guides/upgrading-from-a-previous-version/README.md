@@ -3,6 +3,8 @@
 **Created At:** 7/6/2017 10:04:33 PM  
 **Updated At:** 4/18/2019 3:50:05 PM  
 **Original Doc:** [upgrading-from-a-previous-version](https://docs.jbase.com/36690-installation-guides/upgrading-from-a-previous-version)  
+**Original ID:** 262609  
+**Internal:** No  
 
 **Tags:**
 <badge text='jbase upgrade' vertical='middle' />

@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:41:24 AM  
 **Updated At:** 2/15/2018 8:02:52 AM  
 **Original Doc:** [com_jbase_jremote_io_charset_class-use_JbaseCharsetDecoder](https://docs.jbase.com/39252-class-use/com_jbase_jremote_io_charset_class-use_JbaseCharsetDecoder)  
+**Original ID:** 278072  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.io.charset.JbaseCharsetDecoder (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

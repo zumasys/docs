@@ -3,6 +3,8 @@
 **Created At:** 9/15/2017 10:25:05 AM  
 **Updated At:** 11/27/2018 8:16:21 AM  
 **Original Doc:** [276945-matbuild](https://docs.jbase.com/36868-jbase-basic/276945-matbuild)  
+**Original ID:** 276945  
+**Internal:** No  
 
 **Tags:**
 <badge text='dynamic array creation' vertical='middle' />

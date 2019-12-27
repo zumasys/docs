@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:40:59 AM  
 **Updated At:** 2/15/2018 8:02:44 AM  
 **Original Doc:** [com_jbase_jdbc_class-use_JBaseJDBCGlobals.TYPES](https://docs.jbase.com/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCGlobals.TYPES)  
+**Original ID:** 277801  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jdbc.JBaseJDBCGlobals.TYPES (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

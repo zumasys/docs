@@ -3,6 +3,8 @@
 **Created At:** 9/15/2017 12:13:44 PM  
 **Updated At:** 11/27/2018 9:49:28 AM  
 **Original Doc:** [276956-matread](https://docs.jbase.com/36868-jbase-basic/276956-matread)  
+**Original ID:** 276956  
+**Internal:** No  
 
 **Tags:**
 <badge text='dimensioned array' vertical='middle' />

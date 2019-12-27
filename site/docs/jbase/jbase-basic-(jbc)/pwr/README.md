@@ -3,6 +3,8 @@
 **Created At:** 9/22/2017 2:37:52 PM  
 **Updated At:** 11/27/2018 9:43:44 AM  
 **Original Doc:** [277641-pwr](https://docs.jbase.com/36868-jbase-basic/277641-pwr)  
+**Original ID:** 277641  
+**Internal:** No  
 
 **Tags:**
 <badge text='mathematical operations' vertical='middle' />

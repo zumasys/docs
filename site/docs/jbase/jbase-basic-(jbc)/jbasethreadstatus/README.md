@@ -3,6 +3,8 @@
 **Created At:** 9/14/2017 12:40:13 PM  
 **Updated At:** 5/20/2019 5:35:05 PM  
 **Original Doc:** [276769-jbasethreadstatus](https://docs.jbase.com/36868-jbase-basic/276769-jbasethreadstatus)  
+**Original ID:** 276769  
+**Internal:** No  
 
 
 # Description

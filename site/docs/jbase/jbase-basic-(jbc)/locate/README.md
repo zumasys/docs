@@ -3,6 +3,8 @@
 **Created At:** 9/15/2017 9:27:51 AM  
 **Updated At:** 11/14/2019 2:03:15 PM  
 **Original Doc:** [locate](https://docs.jbase.com/36868-jbase-basic/locate)  
+**Original ID:** 276937  
+**Internal:** No  
 
 
 # Description

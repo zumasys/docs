@@ -3,6 +3,8 @@
 **Created At:** 11/3/2017 5:17:24 PM  
 **Updated At:** 7/13/2018 1:30:38 PM  
 **Original Doc:** [jbcobjectlist](https://docs.jbase.com/41717-environment-variables/jbcobjectlist)  
+**Original ID:** 284187  
+**Internal:** No  
 
 **Tags:**
 <badge text='environment variables' vertical='middle' />

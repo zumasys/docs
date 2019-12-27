@@ -3,6 +3,8 @@
 **Created At:** 8/2/2018 2:58:47 PM  
 **Updated At:** 8/23/2018 12:49:29 PM  
 **Original Doc:** [sequential-file-extensions](https://docs.jbase.com/36868-jbase-basic/sequential-file-extensions)  
+**Original ID:** 330428  
+**Internal:** No  
 
 **Tags:**
 <badge text='files' vertical='middle' />

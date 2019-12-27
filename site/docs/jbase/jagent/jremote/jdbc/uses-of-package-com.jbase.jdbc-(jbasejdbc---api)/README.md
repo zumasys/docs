@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:56:25 AM  
 **Updated At:** 2/15/2018 8:02:38 AM  
 **Original Doc:** [com_jbase_jdbc_package-use](https://docs.jbase.com/39228-jdbc/com_jbase_jdbc_package-use)  
+**Original ID:** 277931  
+**Internal:** Yes  
 
 
 JavaScript is disabled on your browser.

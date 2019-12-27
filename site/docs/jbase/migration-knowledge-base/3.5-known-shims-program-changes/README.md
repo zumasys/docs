@@ -3,6 +3,8 @@
 **Created At:** 8/11/2017 12:05:48 AM  
 **Updated At:** 8/11/2017 12:06:19 AM  
 **Original Doc:** [35-known-shims-program-changes](https://docs.jbase.com/36040-migration-knowledge-base/35-known-shims-program-changes)  
+**Original ID:** 266642  
+**Internal:** Yes  
 
 
 ## Known program problems with most SHIMS sites

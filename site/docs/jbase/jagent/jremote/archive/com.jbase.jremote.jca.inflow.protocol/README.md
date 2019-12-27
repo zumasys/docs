@@ -3,6 +3,8 @@
 **Created At:** 9/13/2017 7:37:55 PM  
 **Updated At:** 4/3/2018 9:32:53 PM  
 **Original Doc:** [comjbasejremotejcainflowprotocol](https://docs.jbase.com/39719-archive/comjbasejremotejcainflowprotocol)  
+**Original ID:** 276680  
+**Internal:** Yes  
 
 
 # Interfaces

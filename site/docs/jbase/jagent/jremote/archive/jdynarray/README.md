@@ -3,6 +3,8 @@
 **Created At:** 9/13/2017 8:04:21 PM  
 **Updated At:** 9/13/2017 8:05:00 PM  
 **Original Doc:** [jdynarray](https://docs.jbase.com/39719-archive/jdynarray)  
+**Original ID:** 276706  
+**Internal:** Yes  
 
 
 ## Class JDynArray

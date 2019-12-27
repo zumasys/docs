@@ -3,6 +3,8 @@
 **Created At:** 5/28/2018 9:54:33 AM  
 **Updated At:** 6/11/2018 4:29:50 AM  
 **Original Doc:** [318586-jcl-command](https://docs.jbase.com/45792-jcl/318586-jcl-command)  
+**Original ID:** 318586  
+**Internal:** No  
 
 **Tags:**
 <badge text='buffer' vertical='middle' />

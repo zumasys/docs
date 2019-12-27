@@ -3,6 +3,8 @@
 **Created At:** 11/15/2019 6:10:29 PM  
 **Updated At:** 11/15/2019 7:32:18 PM  
 **Original Doc:** [connection-settings](https://docs.zumasys.com/accutermmobile/connection-settings)  
+**Original ID:** 494595  
+**Internal:** No  
 
 
 AccuTerm supports Telnet connections to host machines over a TCP/IP network. Any Telnet server (host) on the network, including hosts on the Internet, can be accessed.

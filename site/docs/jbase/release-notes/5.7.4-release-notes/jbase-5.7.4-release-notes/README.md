@@ -3,6 +3,8 @@
 **Created At:** 9/23/2019 9:56:33 AM  
 **Updated At:** 10/7/2019 6:53:48 PM  
 **Original Doc:** [574-release-notes](https://docs.jbase.com/75024-5-7-4-release-notes/574-release-notes)  
+**Original ID:** 459570  
+**Internal:** No  
 
 
 This release includes various internal bug fixes and the following enhancements and patches:

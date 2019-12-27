@@ -3,6 +3,8 @@
 **Created At:** 8/16/2018 2:16:03 PM  
 **Updated At:** 9/7/2018 8:30:29 AM  
 **Original Doc:** [internationalization](https://docs.jbase.com/48777-internationalization/internationalization)  
+**Original ID:** 334570  
+**Internal:** No  
 
 **Tags:**
 <badge text='languages' vertical='middle' />

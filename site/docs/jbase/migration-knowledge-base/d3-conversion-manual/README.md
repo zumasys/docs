@@ -3,6 +3,8 @@
 **Created At:** 11/7/2017 1:14:12 AM  
 **Updated At:** 11/7/2017 1:15:12 AM  
 **Original Doc:** [d3-conversion-manual](https://docs.jbase.com/36040-migration-knowledge-base/d3-conversion-manual)  
+**Original ID:** 284559  
+**Internal:** Yes  
 
 
 ## Concept of D3 Conversion Utility

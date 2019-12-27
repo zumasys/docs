@@ -3,6 +3,8 @@
 **Created At:** 8/28/2017 8:46:18 AM  
 **Updated At:** 10/25/2018 7:47:34 AM  
 **Original Doc:** [269202-extract](https://docs.jbase.com/36868-jbase-basic/269202-extract)  
+**Original ID:** 269202  
+**Internal:** No  
 
 **Tags:**
 <badge text='dynamic arrays manipultation' vertical='middle' />

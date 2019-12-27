@@ -3,6 +3,8 @@
 **Created At:** 9/14/2017 1:18:39 PM  
 **Updated At:** 1/5/2018 5:09:13 PM  
 **Original Doc:** [276790-jqlfetch](https://docs.jbase.com/36868-jbase-basic/276790-jqlfetch)  
+**Original ID:** 276790  
+**Internal:** No  
 
 
 # Description

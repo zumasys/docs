@@ -3,6 +3,8 @@
 **Created At:** 9/13/2017 1:33:40 PM  
 **Updated At:** 11/27/2018 8:07:57 AM  
 **Original Doc:** [276620-isupper](https://docs.jbase.com/36868-jbase-basic/276620-isupper)  
+**Original ID:** 276620  
+**Internal:** No  
 
 **Tags:**
 <badge text='string handling' vertical='middle' />

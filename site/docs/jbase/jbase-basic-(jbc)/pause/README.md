@@ -3,6 +3,8 @@
 **Created At:** 9/22/2017 12:04:38 PM  
 **Updated At:** 11/27/2018 9:42:29 AM  
 **Original Doc:** [277627-pause](https://docs.jbase.com/36868-jbase-basic/277627-pause)  
+**Original ID:** 277627  
+**Internal:** No  
 
 **Tags:**
 <badge text='program execution' vertical='middle' />

@@ -3,6 +3,8 @@
 **Created At:** 8/23/2017 2:35:51 PM  
 **Updated At:** 10/25/2018 7:48:03 AM  
 **Original Doc:** [268495-echo](https://docs.jbase.com/36868-jbase-basic/268495-echo)  
+**Original ID:** 268495  
+**Internal:** No  
 
 **Tags:**
 <badge text='keyboard entry' vertical='middle' />

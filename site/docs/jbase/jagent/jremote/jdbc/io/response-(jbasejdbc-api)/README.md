@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:54:24 AM  
 **Updated At:** 8/17/2018 2:25:53 AM  
 **Original Doc:** [com_jbase_jdbc_io_response](https://docs.jbase.com/39232-io/com_jbase_jdbc_io_response)  
+**Original ID:** 277914  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Response (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&amp;amp;amp;amp;amp;amp;amp;amp;lt;div&amp;amp;amp;amp;amp;amp;amp;amp;gt;JavaScript is disabled on your browser.&amp;amp;amp;amp;amp;amp;amp;amp;lt;/div&amp;amp;amp;amp;lt;a name="navbar.top"&amp;amp;amp;amp;gt;&amp;amp;amp;amp;lt;/a&amp;amp;amp;amp;gt;
 # Class Response

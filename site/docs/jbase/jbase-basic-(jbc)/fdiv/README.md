@@ -3,6 +3,8 @@
 **Created At:** 8/28/2017 8:53:18 AM  
 **Updated At:** 10/25/2018 7:47:26 AM  
 **Original Doc:** [269204-fdiv](https://docs.jbase.com/36868-jbase-basic/269204-fdiv)  
+**Original ID:** 269204  
+**Internal:** No  
 
 **Tags:**
 <badge text='mathematical operations' vertical='middle' />

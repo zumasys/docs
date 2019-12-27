@@ -3,6 +3,8 @@
 **Created At:** 4/13/2018 10:22:59 AM  
 **Updated At:** 4/24/2019 9:06:36 PM  
 **Original Doc:** [307818-jql-and-remote-files](https://docs.jbase.com/44204-remote-files/307818-jql-and-remote-files)  
+**Original ID:** 307818  
+**Internal:** No  
 
 
 ## Description 

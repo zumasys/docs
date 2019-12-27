@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:42:11 AM  
 **Updated At:** 2/15/2018 8:02:45 AM  
 **Original Doc:** [com_jbase_jdbc_driver_class-use_SQLState](https://docs.jbase.com/39231-class-use/com_jbase_jdbc_driver_class-use_SQLState)  
+**Original ID:** 277812  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jdbc.driver.SQLState (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

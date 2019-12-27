@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 12:10:18 PM  
 **Updated At:** 12/24/2018 7:59:12 PM  
 **Original Doc:** [com_jbase_jremote_jsubroutineparameters](https://docs.jbase.com/39248-jremote/com_jbase_jremote_jsubroutineparameters)  
+**Original ID:** 278309  
+**Internal:** No  
 
 
 JavaScript is disabled on your browser.

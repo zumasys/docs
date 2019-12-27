@@ -3,6 +3,8 @@
 **Created At:** 6/26/2017 11:52:45 PM  
 **Updated At:** 7/3/2017 7:44:07 PM  
 **Original Doc:** [261257-wsetheader](https://docs.zumasys.com/36617-trash/261257-wsetheader)  
+**Original ID:** 261257  
+**Internal:** Yes  
 
 
 The WSETHEADER subroutine allows you to set return headers.

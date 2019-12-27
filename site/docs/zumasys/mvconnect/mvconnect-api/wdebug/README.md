@@ -3,6 +3,8 @@
 **Created At:** 12/21/2017 5:44:34 PM  
 **Updated At:** 2/9/2018 10:08:02 PM  
 **Original Doc:** [292067-wdebug](https://docs.zumasys.com/36566-mv-connect-api/292067-wdebug)  
+**Original ID:** 292067  
+**Internal:** No  
 
 
 The WDEBUG program is a debugging tool for REST services.

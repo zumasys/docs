@@ -3,6 +3,8 @@
 **Created At:** 2/16/2018 7:47:17 AM  
 **Updated At:** 3/1/2018 2:30:47 PM  
 **Original Doc:** [method-lasterror](https://docs.jbase.com/42948-dynamic-objects/method-lasterror)  
+**Original ID:** 299444  
+**Internal:** No  
 
 
 ## Description

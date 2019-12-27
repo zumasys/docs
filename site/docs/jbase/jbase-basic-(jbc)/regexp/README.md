@@ -3,6 +3,8 @@
 **Created At:** 9/28/2017 7:32:35 AM  
 **Updated At:** 4/24/2019 4:25:45 PM  
 **Original Doc:** [278783-regexp](https://docs.jbase.com/36868-jbase-basic/278783-regexp)  
+**Original ID:** 278783  
+**Internal:** No  
 
 **Tags:**
 <badge text='extended pattern matching' vertical='middle' />

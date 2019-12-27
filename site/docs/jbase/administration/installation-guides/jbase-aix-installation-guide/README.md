@@ -3,6 +3,8 @@
 **Created At:** 1/16/2018 7:37:48 PM  
 **Updated At:** 11/29/2018 4:12:04 PM  
 **Original Doc:** [jbase-56-aix-installation-guide](https://docs.jbase.com/36690-installation-guides/jbase-56-aix-installation-guide)  
+**Original ID:** 295004  
+**Internal:** No  
 
 **Tags:**
 <badge text='unix' vertical='middle' />

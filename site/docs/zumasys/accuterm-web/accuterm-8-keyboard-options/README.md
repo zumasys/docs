@@ -3,6 +3,8 @@
 **Created At:** 8/15/2019 10:47:28 PM  
 **Updated At:** 8/15/2019 10:53:27 PM  
 **Original Doc:** [accuterm-8-keyboard-options](https://docs.zumasys.com/accuterm/accuterm-8-keyboard-options)  
+**Original ID:** 443899  
+**Internal:** No  
 
 
 The Keyboard Settings panel is to specify keyboard options and open the keyboard programming window.

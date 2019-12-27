@@ -3,6 +3,8 @@
 **Created At:** 3/29/2018 7:30:55 PM  
 **Updated At:** 4/18/2018 8:15:02 PM  
 **Original Doc:** [305935-jlogstatus](https://docs.jbase.com/43995-transactional-journaling/305935-jlogstatus)  
+**Original ID:** 305935  
+**Internal:** No  
 
 
 ## Description 

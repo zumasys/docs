@@ -3,6 +3,8 @@
 **Created At:** 9/21/2017 12:37:18 PM  
 **Updated At:** 4/19/2019 8:16:44 AM  
 **Original Doc:** [277539-osbwrite](https://docs.jbase.com/36868-jbase-basic/277539-osbwrite)  
+**Original ID:** 277539  
+**Internal:** No  
 
 **Tags:**
 <badge text='oswrite' vertical='middle' />

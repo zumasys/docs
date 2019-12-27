@@ -3,6 +3,8 @@
 **Created At:** 9/14/2018 1:06:13 PM  
 **Updated At:** 10/31/2018 8:14:11 AM  
 **Original Doc:** [distributed-files-overview](https://docs.jbase.com/44203-distributed-files/distributed-files-overview)  
+**Original ID:** 339399  
+**Internal:** No  
 
 **Tags:**
 <badge text='distributed files' vertical='middle' />

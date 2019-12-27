@@ -3,6 +3,8 @@
 **Created At:** 6/12/2018 7:51:42 AM  
 **Updated At:** 6/12/2018 2:47:28 PM  
 **Original Doc:** [321521-literal-operand](https://docs.jbase.com/46351-conversion-processing/321521-literal-operand)  
+**Original ID:** 321521  
+**Internal:** No  
 
 
 ## Description 

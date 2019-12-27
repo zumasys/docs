@@ -3,6 +3,8 @@
 **Created At:** 8/17/2018 9:34:47 AM  
 **Updated At:** 9/26/2018 10:54:00 PM  
 **Original Doc:** [external-representation-of-data](https://docs.jbase.com/48152-indexes/external-representation-of-data)  
+**Original ID:** 334839  
+**Internal:** No  
 
 **Tags:**
 <badge text='file indexing' vertical='middle' />

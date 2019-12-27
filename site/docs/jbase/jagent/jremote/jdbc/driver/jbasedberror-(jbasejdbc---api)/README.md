@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:42:17 AM  
 **Updated At:** 2/15/2018 8:02:39 AM  
 **Original Doc:** [com_jbase_jdbc_driver_JBaseDBError](https://docs.jbase.com/39230-driver/com_jbase_jdbc_driver_JBaseDBError)  
+**Original ID:** 277813  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JBaseDBError (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":9,"i1":9,"i2":9};<br>var tabs = {65535:["t0","All Methods"],1:["t1","Static Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
 JavaScript is disabled on your browser.

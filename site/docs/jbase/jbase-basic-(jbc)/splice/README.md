@@ -3,6 +3,8 @@
 **Created At:** 9/28/2017 10:03:23 AM  
 **Updated At:** 1/5/2018 6:19:55 PM  
 **Original Doc:** [278816-splice](https://docs.jbase.com/36868-jbase-basic/278816-splice)  
+**Original ID:** 278816  
+**Internal:** No  
 
 
 # Description

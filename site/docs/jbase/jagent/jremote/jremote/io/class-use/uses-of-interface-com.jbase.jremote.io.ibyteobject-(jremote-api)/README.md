@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:44:03 AM  
 **Updated At:** 4/5/2018 8:47:53 PM  
 **Original Doc:** [com_jbase_jremote_io_class-use_ibyteobject](https://docs.jbase.com/39253-class-use/com_jbase_jremote_io_class-use_ibyteobject)  
+**Original ID:** 278093  
+**Internal:** No  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Interface com.jbase.jremote.io.IByteObject (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

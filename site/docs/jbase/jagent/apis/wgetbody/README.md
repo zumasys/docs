@@ -3,6 +3,8 @@
 **Created At:** 6/2/2017 6:17:36 PM  
 **Updated At:** 11/25/2017 5:50:19 AM  
 **Original Doc:** [wgetbody](https://docs.jbase.com/34473-docs/wgetbody)  
+**Original ID:** 257606  
+**Internal:** No  
 
 
 The WGETBODY gets the raw body sent in the web request if the web request is not a x-www-form-urlencoded.  This is primarily used to get XML or JSON sent in Rest services.

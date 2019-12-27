@@ -3,6 +3,8 @@
 **Created At:** 4/2/2018 11:53:05 PM  
 **Updated At:** 4/2/2018 11:56:26 PM  
 **Original Doc:** [306077-jnet_config](https://docs.jbase.com/44204-remote-files/306077-jnet_config)  
+**Original ID:** 306077  
+**Internal:** Yes  
 
 
 ## Description 

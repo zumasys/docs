@@ -3,6 +3,8 @@
 **Created At:** 9/13/2017 7:58:39 PM  
 **Updated At:** 9/13/2017 7:59:02 PM  
 **Original Doc:** [jresultset](https://docs.jbase.com/39719-archive/jresultset)  
+**Original ID:** 276698  
+**Internal:** Yes  
 
 
 ## Interface JResultSet

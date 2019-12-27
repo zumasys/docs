@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:27:51 AM  
 **Updated At:** 9/20/2018 12:59:16 PM  
 **Original Doc:** [com_jbase_jrcs_class-use_jexecuteresults](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jexecuteresults)  
+**Original ID:** 278025  
+**Internal:** No  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jrcs.JExecuteResults (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
 # 

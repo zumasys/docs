@@ -3,6 +3,8 @@
 **Created At:** 11/3/2017 2:27:41 PM  
 **Updated At:** 1/5/2018 6:55:12 PM  
 **Original Doc:** [284139-bitor](https://docs.jbase.com/36868-jbase-basic/284139-bitor)  
+**Original ID:** 284139  
+**Internal:** No  
 
 
 # Description 

@@ -3,6 +3,8 @@
 **Created At:** 11/3/2017 1:29:00 PM  
 **Updated At:** 4/16/2019 3:45:54 PM  
 **Original Doc:** [environment-variables](https://docs.jbase.com/44497-articles/environment-variables)  
+**Original ID:** 284123  
+**Internal:** No  
 
 **Tags:**
 <badge text='jedipostfileop' vertical='middle' />

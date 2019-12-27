@@ -3,6 +3,8 @@
 **Created At:** 7/17/2018 1:36:43 PM  
 **Updated At:** 6/6/2019 3:14:38 PM  
 **Original Doc:** [jbcnetdir](https://docs.jbase.com/41717-environment-variables/jbcnetdir)  
+**Original ID:** 327518  
+**Internal:** No  
 
 **Tags:**
 <badge text='jnetdir' vertical='middle' />

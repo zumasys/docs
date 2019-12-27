@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:29:23 AM  
 **Updated At:** 2/15/2018 8:02:41 AM  
 **Original Doc:** [com_jbase_framework_io_inflow_package-summary](https://docs.jbase.com/39226-inflow/com_jbase_framework_io_inflow_package-summary)  
+**Original ID:** 277763  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="com.jbase.framework.io.inflow (framework   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

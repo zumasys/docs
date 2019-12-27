@@ -3,6 +3,8 @@
 **Created At:** 6/8/2018 1:36:54 PM  
 **Updated At:** 4/25/2019 1:11:31 PM  
 **Original Doc:** [i-types](https://docs.jbase.com/46351-conversion-processing/i-types)  
+**Original ID:** 321294  
+**Internal:** No  
 
 **Tags:**
 <badge text='attributes' vertical='middle' />

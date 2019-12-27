@@ -3,6 +3,8 @@
 **Created At:** 4/3/2018 9:29:26 PM  
 **Updated At:** 4/19/2018 12:41:12 AM  
 **Original Doc:** [306207-jlogadmin](https://docs.jbase.com/43995-transactional-journaling/306207-jlogadmin)  
+**Original ID:** 306207  
+**Internal:** No  
 
 
 ## Description 

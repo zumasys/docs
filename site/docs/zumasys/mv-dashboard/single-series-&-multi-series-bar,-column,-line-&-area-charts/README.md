@@ -4,6 +4,8 @@
 **Created At:** 9/26/2017 12:19:30 PM  
 **Updated At:** 11/21/2017 6:05:00 AM  
 **Original Doc:** [single-series-multi-series-bar-column-line-area-charts](https://docs.zumasys.com/36577-mv-dashboard/single-series-multi-series-bar-column-line-area-charts)  
+**Original ID:** 278535  
+**Internal:** No  
 
 
 Bar, column, line and area chart widgets can be created as single-series charts, or multi-series charts. A single-series chart is defined by a single list of data points, each with a corresponding value. For example, a monthly sales chart for a single year contains one data point for each of the twelve months; the sales volume. A multi-series chart is defined by more than one list of related data points, each with a corresponding value. An example of a multi-series chart would be monthly sales by product category for a single year. In such a chart, multiple data points represent one value for each category.

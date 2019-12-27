@@ -3,6 +3,8 @@
 **Created At:** 8/16/2018 1:41:50 PM  
 **Updated At:** 9/26/2018 10:47:21 PM  
 **Original Doc:** [using-subroutine-in-index-definitions](https://docs.jbase.com/48152-indexes/using-subroutine-in-index-definitions)  
+**Original ID:** 334531  
+**Internal:** No  
 
 **Tags:**
 <badge text='subroutines' vertical='middle' />

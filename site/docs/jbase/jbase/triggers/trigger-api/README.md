@@ -3,6 +3,8 @@
 **Created At:** 8/16/2018 2:36:14 PM  
 **Updated At:** 11/27/2018 5:17:27 PM  
 **Original Doc:** [trigger-api](https://docs.jbase.com/48168-triggers/trigger-api)  
+**Original ID:** 334578  
+**Internal:** Yes  
 
 **Tags:**
 <badge text='events and triggers' vertical='middle' />

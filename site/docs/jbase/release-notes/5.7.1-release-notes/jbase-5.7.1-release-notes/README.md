@@ -3,6 +3,8 @@
 **Created At:** 8/27/2018 9:37:24 AM  
 **Updated At:** 11/13/2018 11:21:46 AM  
 **Original Doc:** [jbase-571-release-notes](https://docs.jbase.com/48420-5-7-1-release-notes/jbase-571-release-notes)  
+**Original ID:** 336193  
+**Internal:** No  
 
 
 # Patches

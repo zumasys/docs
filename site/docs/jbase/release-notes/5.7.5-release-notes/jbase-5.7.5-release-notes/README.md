@@ -3,6 +3,8 @@
 **Created At:** 10/28/2019 11:19:55 AM  
 **Updated At:** 12/4/2019 9:31:38 AM  
 **Original Doc:** [jbase-575-release-notes](https://docs.jbase.com/79141-5-7-5-release-notes/jbase-575-release-notes)  
+**Original ID:** 486150  
+**Internal:** No  
 
 
 We are now producing jBASE releases on a more regular basis.

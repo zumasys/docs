@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 12:10:07 PM  
 **Updated At:** 12/24/2018 7:55:16 PM  
 **Original Doc:** [com_jbase_jremote_jstatement](https://docs.jbase.com/39248-jremote/com_jbase_jremote_jstatement)  
+**Original ID:** 278307  
+**Internal:** No  
 
 
 JavaScript is disabled on your browser.

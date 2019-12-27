@@ -3,6 +3,8 @@
 **Created At:** 11/14/2019 9:45:58 PM  
 **Updated At:** 12/20/2019 10:29:53 PM  
 **Original Doc:** [introduction-to-the-odbc-jedi](https://docs.jbase.com/introduction-to-the-odbc-jedi)  
+**Original ID:** 494348  
+**Internal:** Yes  
 
 
 ## Technical Definitions

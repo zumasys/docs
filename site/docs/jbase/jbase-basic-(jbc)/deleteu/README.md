@@ -3,6 +3,8 @@
 **Created At:** 9/6/2017 7:42:34 AM  
 **Updated At:** 1/5/2018 1:37:52 PM  
 **Original Doc:** [276027-deleteu](https://docs.jbase.com/36868-jbase-basic/276027-deleteu)  
+**Original ID:** 276027  
+**Internal:** No  
 
 
 # Description

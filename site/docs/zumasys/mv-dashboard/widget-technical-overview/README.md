@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:19:14 PM  
 **Updated At:** 11/21/2017 6:03:02 AM  
 **Original Doc:** [widget-technical-overview](https://docs.zumasys.com/36577-mv-dashboard/widget-technical-overview)  
+**Original ID:** 278491  
+**Internal:** No  
 
 
 

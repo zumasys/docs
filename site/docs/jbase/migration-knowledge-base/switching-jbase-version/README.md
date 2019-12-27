@@ -3,6 +3,8 @@
 **Created At:** 8/11/2017 6:50:00 PM  
 **Updated At:** 8/11/2017 7:06:55 PM  
 **Original Doc:** [switching-jbase-version](https://docs.jbase.com/36040-migration-knowledge-base/switching-jbase-version)  
+**Original ID:** 266812  
+**Internal:** Yes  
 
 
 To switch between releases you need to follow these steps(the new alpha has already been installed):

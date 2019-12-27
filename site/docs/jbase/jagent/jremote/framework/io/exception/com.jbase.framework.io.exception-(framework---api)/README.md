@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:27:13 AM  
 **Updated At:** 2/15/2018 8:02:39 AM  
 **Original Doc:** [com_jbase_framework_io_exception_package-summary](https://docs.jbase.com/39224-exception/com_jbase_framework_io_exception_package-summary)  
+**Original ID:** 277746  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="com.jbase.framework.io.exception (framework   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

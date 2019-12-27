@@ -3,6 +3,8 @@
 **Created At:** 8/30/2018 1:35:47 PM  
 **Updated At:** 5/16/2019 6:30:52 PM  
 **Original Doc:** [readdelay](https://docs.jbase.com/48575-jkeyauto/readdelay)  
+**Original ID:** 336887  
+**Internal:** No  
 
 **Tags:**
 <badge text='program profiling.' vertical='middle' />

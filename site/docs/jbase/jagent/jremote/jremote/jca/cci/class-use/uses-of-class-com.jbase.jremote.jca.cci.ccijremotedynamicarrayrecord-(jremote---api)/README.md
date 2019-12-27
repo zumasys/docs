@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:55:43 AM  
 **Updated At:** 2/15/2018 8:02:21 AM  
 **Original Doc:** [com_jbase_jremote_jca_cci_class-use_CCIJRemoteDynamicArrayRecord](https://docs.jbase.com/39260-class-use/com_jbase_jremote_jca_cci_class-use_CCIJRemoteDynamicArrayRecord)  
+**Original ID:** 278191  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.jca.cci.CCIJRemoteDynamicArrayRecord (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

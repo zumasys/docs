@@ -3,6 +3,8 @@
 **Created At:** 9/26/2017 12:32:30 AM  
 **Updated At:** 11/21/2017 6:01:38 AM  
 **Original Doc:** [user-input](https://docs.zumasys.com/36577-mv-dashboard/user-input)  
+**Original ID:** 278501  
+**Internal:** No  
 
 
 This feature is very similar to adding links to a widget; however, unlike the links feature, this allows the user the ability to select or specify values.

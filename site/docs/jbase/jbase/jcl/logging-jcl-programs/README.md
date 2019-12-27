@@ -3,6 +3,8 @@
 **Created At:** 5/23/2018 2:56:03 PM  
 **Updated At:** 6/1/2018 5:32:49 PM  
 **Original Doc:** [318034-logging-jcl-programs](https://docs.jbase.com/45792-jcl/318034-logging-jcl-programs)  
+**Original ID:** 318034  
+**Internal:** No  
 
 **Tags:**
 <badge text='jcl' vertical='middle' />

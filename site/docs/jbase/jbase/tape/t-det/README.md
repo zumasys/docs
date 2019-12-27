@@ -3,6 +3,8 @@
 **Created At:** 9/18/2018 8:45:42 AM  
 **Updated At:** 10/1/2018 3:54:03 PM  
 **Original Doc:** [t-det](https://docs.jbase.com/49399-tape/t-det)  
+**Original ID:** 339615  
+**Internal:** No  
 
 **Tags:**
 <badge text='spooler tape' vertical='middle' />

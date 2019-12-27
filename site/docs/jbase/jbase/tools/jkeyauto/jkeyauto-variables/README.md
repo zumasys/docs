@@ -3,6 +3,8 @@
 **Created At:** 8/31/2018 1:26:07 PM  
 **Updated At:** 5/16/2019 6:32:35 PM  
 **Original Doc:** [jkeyauto-variables](https://docs.jbase.com/48575-jkeyauto/jkeyauto-variables)  
+**Original ID:** 337406  
+**Internal:** No  
 
 **Tags:**
 <badge text='program profiling' vertical='middle' />

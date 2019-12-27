@@ -3,6 +3,8 @@
 **Created At:** 11/3/2017 5:00:29 PM  
 **Updated At:** 10/26/2018 1:18:24 PM  
 **Original Doc:** [jbase_errmsg_zero_used](https://docs.jbase.com/41717-environment-variables/jbase_errmsg_zero_used)  
+**Original ID:** 284179  
+**Internal:** No  
 
 **Tags:**
 <badge text='error messages' vertical='middle' />

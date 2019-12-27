@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:47:47 AM  
 **Updated At:** 2/15/2018 8:02:46 AM  
 **Original Doc:** [com_jbase_jremote_io_exception_package-tree](https://docs.jbase.com/39254-exception/com_jbase_jremote_io_exception_package-tree)  
+**Original ID:** 278124  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="com.jbase.jremote.io.exception Class Hierarchy (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:00:14 AM  
 **Updated At:** 8/17/2018 2:25:54 AM  
 **Original Doc:** [com_jbase_jdbc_protocol_class-use_sqlokresponse](https://docs.jbase.com/39241-class-use/com_jbase_jdbc_protocol_class-use_sqlokresponse)  
+**Original ID:** 277964  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jdbc.protocol.SQLOKResponse (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

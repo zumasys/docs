@@ -3,6 +3,8 @@
 **Created At:** 10/15/2018 1:18:26 PM  
 **Updated At:** 11/25/2018 6:59:53 PM  
 **Original Doc:** [343799-notes-on-environment-variables-for-the-jbase-compiler](https://docs.jbase.com/41717-environment-variables/343799-notes-on-environment-variables-for-the-jbase-compiler)  
+**Original ID:** 343799  
+**Internal:** No  
 
 **Tags:**
 <badge text='path' vertical='middle' />

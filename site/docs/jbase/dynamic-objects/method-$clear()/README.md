@@ -3,6 +3,8 @@
 **Created At:** 2/15/2018 2:10:34 PM  
 **Updated At:** 11/26/2019 10:29:57 AM  
 **Original Doc:** [method-clear](https://docs.jbase.com/42948-dynamic-objects/method-clear)  
+**Original ID:** 299326  
+**Internal:** No  
 
 
 ## Description

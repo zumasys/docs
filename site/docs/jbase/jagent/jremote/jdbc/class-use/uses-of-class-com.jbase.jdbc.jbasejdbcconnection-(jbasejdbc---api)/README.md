@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:40:27 AM  
 **Updated At:** 2/15/2018 8:02:39 AM  
 **Original Doc:** [com_jbase_jdbc_class-use_JBaseJDBCConnection](https://docs.jbase.com/39229-class-use/com_jbase_jdbc_class-use_JBaseJDBCConnection)  
+**Original ID:** 277796  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jdbc.JBaseJDBCConnection (jbasejdbc   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

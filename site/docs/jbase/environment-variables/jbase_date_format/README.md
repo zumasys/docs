@@ -3,6 +3,8 @@
 **Created At:** 11/3/2017 3:11:52 PM  
 **Updated At:** 8/8/2018 7:53:03 AM  
 **Original Doc:** [jbase_date_format](https://docs.jbase.com/41717-environment-variables/jbase_date_format)  
+**Original ID:** 284151  
+**Internal:** No  
 
 
 ## Description

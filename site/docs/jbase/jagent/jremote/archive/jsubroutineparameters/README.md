@@ -3,6 +3,8 @@
 **Created At:** 9/13/2017 8:06:21 PM  
 **Updated At:** 9/13/2017 8:06:43 PM  
 **Original Doc:** [jsubroutineparameters](https://docs.jbase.com/39719-archive/jsubroutineparameters)  
+**Original ID:** 276708  
+**Internal:** Yes  
 
 
 ## Class JSubroutineParameters

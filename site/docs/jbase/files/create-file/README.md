@@ -3,6 +3,8 @@
 **Created At:** 7/17/2018 2:27:13 PM  
 **Updated At:** 11/10/2019 9:25:59 AM  
 **Original Doc:** [create-file](https://docs.jbase.com/42462-distributed-files/create-file)  
+**Original ID:** 328012  
+**Internal:** No  
 
 
 ## Description 

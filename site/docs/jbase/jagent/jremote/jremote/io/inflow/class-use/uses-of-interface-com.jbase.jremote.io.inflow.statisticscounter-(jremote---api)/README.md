@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:49:28 AM  
 **Updated At:** 2/15/2018 8:02:21 AM  
 **Original Doc:** [com_jbase_jremote_io_inflow_class-use_StatisticsCounter](https://docs.jbase.com/39257-class-use/com_jbase_jremote_io_inflow_class-use_StatisticsCounter)  
+**Original ID:** 278138  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Interface com.jbase.jremote.io.inflow.StatisticsCounter (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

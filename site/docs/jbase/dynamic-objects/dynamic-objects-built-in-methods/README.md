@@ -3,6 +3,8 @@
 **Created At:** 2/15/2018 1:48:09 PM  
 **Updated At:** 11/13/2019 11:14:35 AM  
 **Original Doc:** [dynamic-objects-built-in-methods](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-built-in-methods)  
+**Original ID:** 299323  
+**Internal:** No  
 
 
 Dynamic Objects contains a number of built-in methods that can be applied to any object where it makes sense, and some of them can even be applied to variables that are not objects.

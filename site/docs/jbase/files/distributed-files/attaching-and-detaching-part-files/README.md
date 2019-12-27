@@ -3,6 +3,8 @@
 **Created At:** 9/14/2018 12:40:40 PM  
 **Updated At:** 10/31/2018 8:19:54 AM  
 **Original Doc:** [attaching-and-detaching-part-files](https://docs.jbase.com/44203-distributed-files/attaching-and-detaching-part-files)  
+**Original ID:** 339397  
+**Internal:** No  
 
 **Tags:**
 <badge text='distributed files' vertical='middle' />

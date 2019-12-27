@@ -3,6 +3,8 @@
 **Created At:** 3/21/2018 7:04:53 AM  
 **Updated At:** 3/30/2018 12:56:56 PM  
 **Original Doc:** [configuring-transaction-logging](https://docs.jbase.com/43995-transactional-journaling/configuring-transaction-logging)  
+**Original ID:** 304804  
+**Internal:** No  
 
 
 ## Configuring Transaction Log Files/Sets

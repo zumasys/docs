@@ -3,6 +3,8 @@
 **Created At:** 3/13/2017 6:46:27 PM  
 **Updated At:** 1/3/2018 2:36:31 PM  
 **Original Doc:** [introduction-to-embedded-sql](https://docs.jbase.com/30312-jagent/introduction-to-embedded-sql)  
+**Original ID:** 230068  
+**Internal:** Yes  
 
 
 ## Synopsis

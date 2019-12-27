@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:55:10 AM  
 **Updated At:** 2/15/2018 8:02:45 AM  
 **Original Doc:** [com_jbase_jdbc_JBaseJDBCErrors](https://docs.jbase.com/39228-jdbc/com_jbase_jdbc_JBaseJDBCErrors)  
+**Original ID:** 277921  
+**Internal:** Yes  
 
 
 JavaScript is disabled on your browser.

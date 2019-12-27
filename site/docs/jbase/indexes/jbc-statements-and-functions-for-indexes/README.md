@@ -3,6 +3,8 @@
 **Created At:** 12/3/2019 4:00:33 PM  
 **Updated At:** 12/4/2019 12:54:51 PM  
 **Original Doc:** [jbc-statements-and-functions-for-indexes](https://docs.jbase.com/48152-indexes/jbc-statements-and-functions-for-indexes)  
+**Original ID:** 500226  
+**Internal:** No  
 
 
 

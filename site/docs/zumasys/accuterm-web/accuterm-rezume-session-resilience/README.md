@@ -3,6 +3,8 @@
 **Created At:** 6/26/2018 10:25:14 PM  
 **Updated At:** 12/13/2019 4:34:56 PM  
 **Original Doc:** [accuterm-session-resilience](https://docs.zumasys.com/accuterm/accuterm-session-resilience)  
+**Original ID:** 324743  
+**Internal:** No  
 
 
 ## Description

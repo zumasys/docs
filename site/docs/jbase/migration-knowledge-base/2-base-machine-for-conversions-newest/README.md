@@ -3,6 +3,8 @@
 **Created At:** 8/11/2017 12:00:17 AM  
 **Updated At:** 8/11/2017 12:01:11 AM  
 **Original Doc:** [266640-2-base-machine-for-conversions-newest](https://docs.jbase.com/36040-migration-knowledge-base/266640-2-base-machine-for-conversions-newest)  
+**Original ID:** 266640  
+**Internal:** Yes  
 
 
 ## In preparation, be sure you have a valid evaluation or active license for jBASE

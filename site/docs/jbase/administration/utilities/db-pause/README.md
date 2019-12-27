@@ -3,6 +3,8 @@
 **Created At:** 8/16/2018 2:56:49 PM  
 **Updated At:** 4/19/2019 8:12:41 AM  
 **Original Doc:** [db-pause](https://docs.jbase.com/46963-utilities/db-pause)  
+**Original ID:** 334593  
+**Internal:** No  
 
 **Tags:**
 <badge text='shutdown' vertical='middle' />

@@ -3,6 +3,8 @@
 **Created At:** 7/17/2018 12:58:29 PM  
 **Updated At:** 8/22/2018 9:23:56 AM  
 **Original Doc:** [327509-jbcscreen_width](https://docs.jbase.com/41717-environment-variables/327509-jbcscreen_width)  
+**Original ID:** 327509  
+**Internal:** No  
 
 **Tags:**
 <badge text='terminal' vertical='middle' />

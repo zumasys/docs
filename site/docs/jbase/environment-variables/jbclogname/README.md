@@ -3,6 +3,8 @@
 **Created At:** 11/3/2017 3:31:03 PM  
 **Updated At:** 4/20/2019 8:50:38 AM  
 **Original Doc:** [jbclogname](https://docs.jbase.com/41717-environment-variables/jbclogname)  
+**Original ID:** 284163  
+**Internal:** No  
 
 **Tags:**
 <badge text='accounts' vertical='middle' />

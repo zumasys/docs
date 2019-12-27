@@ -3,6 +3,8 @@
 **Created At:** 3/13/2018 1:03:50 PM  
 **Updated At:** 2/12/2019 11:33:53 AM  
 **Original Doc:** [class-method-vararg-size](https://docs.jbase.com/42948-dynamic-objects/class-method-vararg-size)  
+**Original ID:** 303998  
+**Internal:** No  
 
 
 ## Description

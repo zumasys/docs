@@ -3,6 +3,8 @@
 **Created At:** 9/26/2017 8:50:05 PM  
 **Updated At:** 11/24/2017 6:58:21 AM  
 **Original Doc:** [optional-parameters-unique-to-2d-area-charts](https://docs.zumasys.com/36577-mv-dashboard/optional-parameters-unique-to-2d-area-charts)  
+**Original ID:** 278605  
+**Internal:** No  
 
 
 # Area Properties

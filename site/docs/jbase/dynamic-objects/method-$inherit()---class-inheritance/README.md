@@ -1,8 +1,10 @@
 # Method: $inherit() - Class Inheritance
 
 **Created At:** 12/5/2019 11:16:33 AM  
-**Updated At:** 12/24/2019 6:06:11 PM  
+**Updated At:** 12/25/2019 9:59:39 AM  
 **Original Doc:** [method-inherit-class](https://docs.jbase.com/42948-dynamic-objects/method-inherit-class)  
+**Original ID:** 502199  
+**Internal:** No  
 
 
 The traditional way to implement inheritance is with a class hierarchy.
@@ -187,7 +189,7 @@ But you would need to be cautious if the same method name was implemented in bot
 
 By default, if an inherited class has no constructor then an exception is thrown.
 
-In the example below, program **branch.jabba** creates an object. The object in program **class\_branch.jabba**calls **$inherit()** on a class that does not exist, at least it has no constructor. In this case an exception is thrown and we catch that and display the exception message (which usefully includes the call stack).
+In the example below, when program **branch.jabba** creates a **Branch** object, the **Branch** class attempts to inherit from a class that does not exist; at least it has no constructor.  In this case an exception is thrown and we catch that and display the exception message (which usefully includes the call stack).
 
 Note: Had we run the same program but *without* **try**/**catch** then the debugger would have been entered.
 
@@ -236,6 +238,15 @@ This is the constructor for Branch
 }
 ```
 
-To disable an exception from being thrown when a class has no contructor, use the JABBA\_NO\_INHERIT\_EXCEPTION flag, which is defined in jabba.h.
+Since the **$inherit()**method allows any number of operands, the exception can be disabled by passing the **JABBA\_NO\_INHERIT\_EXCEPTION** flag (defined in **$JBCRELEASEDIR/include/jabba.h**) as one of the operands.
 
-Remember that the $inherit() method allows any number of classes to be inherited.
+In the example below, we inherit 3 different classes, none of them exist, and yet they fail silently as we've used the **JABBA\_INHERIT\_NO\_EXCEPTION**flag to disable the exception.
+
+```
+include jabba.h
+method Test1::Test1()
+    this->$inherit("Test2", "Test3, JABBA_INHERIT_NO_EXCEPTION, "Test4")
+end method
+```
+
+

@@ -3,6 +3,8 @@
 **Created At:** 10/4/2017 12:01:38 PM  
 **Updated At:** 1/5/2018 6:39:20 PM  
 **Original Doc:** [279571-writeseqf](https://docs.jbase.com/36868-jbase-basic/279571-writeseqf)  
+**Original ID:** 279571  
+**Internal:** No  
 
 
 # Descritpion

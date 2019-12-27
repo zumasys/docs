@@ -3,6 +3,8 @@
 **Created At:** 9/26/2017 6:11:07 PM  
 **Updated At:** 11/20/2017 9:36:22 PM  
 **Original Doc:** [optional-parameters-unique-to-multiseries-stacked-charts](https://docs.zumasys.com/36577-mv-dashboard/optional-parameters-unique-to-multiseries-stacked-charts)  
+**Original ID:** 278583  
+**Internal:** No  
 
 
 

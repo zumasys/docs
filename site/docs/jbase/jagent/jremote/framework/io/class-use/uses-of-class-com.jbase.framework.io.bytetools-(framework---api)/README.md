@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 10:24:33 AM  
 **Updated At:** 2/15/2018 8:02:37 AM  
 **Original Doc:** [com_jbase_framework_io_class-use_ByteTools](https://docs.jbase.com/39223-class-use/com_jbase_framework_io_class-use_ByteTools)  
+**Original ID:** 277723  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.framework.io.ByteTools (framework   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

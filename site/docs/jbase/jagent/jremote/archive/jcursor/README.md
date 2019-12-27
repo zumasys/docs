@@ -3,6 +3,8 @@
 **Created At:** 9/13/2017 7:57:14 PM  
 **Updated At:** 9/13/2017 7:57:39 PM  
 **Original Doc:** [jcursor](https://docs.jbase.com/39719-archive/jcursor)  
+**Original ID:** 276696  
+**Internal:** Yes  
 
 
 ## Interface JCursor

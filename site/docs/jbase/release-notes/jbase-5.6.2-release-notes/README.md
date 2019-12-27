@@ -3,6 +3,8 @@
 **Created At:** 6/9/2017 4:23:28 PM  
 **Updated At:** 11/21/2017 10:53:13 AM  
 **Original Doc:** [jbase-562-release-notes](https://docs.jbase.com/release-notes/jbase-562-release-notes)  
+**Original ID:** 258527  
+**Internal:** No  
 
 **Tags:**
 <badge text='5.6.2' vertical='middle' />

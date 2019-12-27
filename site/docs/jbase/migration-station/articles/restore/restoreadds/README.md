@@ -3,6 +3,8 @@
 **Created At:** 11/1/2017 12:05:34 AM  
 **Updated At:** 12/3/2018 4:42:58 PM  
 **Original Doc:** [restoreadds](https://docs.jbase.com/49275-restore/restoreadds)  
+**Original ID:** 283755  
+**Internal:** No  
 
 
 # 

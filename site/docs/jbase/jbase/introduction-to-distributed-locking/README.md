@@ -3,6 +3,8 @@
 **Created At:** 4/12/2017 5:34:35 PM  
 **Updated At:** 12/21/2018 5:25:19 PM  
 **Original Doc:** [introduction-to-distributed-locking](https://docs.jbase.com/30301-jbase/introduction-to-distributed-locking)  
+**Original ID:** 250993  
+**Internal:** No  
 
 **Tags:**
 <badge text='manager' vertical='middle' />

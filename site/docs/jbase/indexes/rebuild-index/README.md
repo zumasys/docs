@@ -3,6 +3,8 @@
 **Created At:** 8/18/2018 7:46:28 PM  
 **Updated At:** 4/24/2019 4:16:52 PM  
 **Original Doc:** [rebuild-index](https://docs.jbase.com/48152-indexes/rebuild-index)  
+**Original ID:** 335215  
+**Internal:** No  
 
 **Tags:**
 <badge text='build-index' vertical='middle' />

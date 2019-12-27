@@ -3,6 +3,8 @@
 **Created At:** 3/10/2017 2:36:08 PM  
 **Updated At:** 1/18/2019 6:33:07 PM  
 **Original Doc:** [introduction-to-jagent-rest-services](https://docs.jbase.com/30312-jagent/introduction-to-jagent-rest-services)  
+**Original ID:** 229870  
+**Internal:** No  
 
 
 # DOCUMENT SCOPE

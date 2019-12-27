@@ -3,6 +3,8 @@
 **Created At:** 8/16/2018 2:57:12 PM  
 **Updated At:** 12/28/2018 2:08:28 PM  
 **Original Doc:** [db-resume](https://docs.jbase.com/46963-utilities/db-resume)  
+**Original ID:** 334594  
+**Internal:** No  
 
 **Tags:**
 <badge text='db' vertical='middle' />

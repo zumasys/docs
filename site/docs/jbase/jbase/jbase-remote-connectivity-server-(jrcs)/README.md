@@ -3,6 +3,8 @@
 **Created At:** 4/26/2017 9:59:56 PM  
 **Updated At:** 12/24/2018 4:23:27 PM  
 **Original Doc:** [jbase-remote-connectivity-server-jrcs](https://docs.jbase.com/30301-jbase/jbase-remote-connectivity-server-jrcs)  
+**Original ID:** 252714  
+**Internal:** No  
 
 
 ## Introduction

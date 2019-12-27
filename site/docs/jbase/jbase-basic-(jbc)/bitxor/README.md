@@ -3,6 +3,8 @@
 **Created At:** 11/3/2017 2:56:10 PM  
 **Updated At:** 1/5/2018 6:47:50 PM  
 **Original Doc:** [284144-bitxor](https://docs.jbase.com/36868-jbase-basic/284144-bitxor)  
+**Original ID:** 284144  
+**Internal:** No  
 
 
 # Description

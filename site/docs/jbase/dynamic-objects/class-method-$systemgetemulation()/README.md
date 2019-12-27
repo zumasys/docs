@@ -3,6 +3,8 @@
 **Created At:** 5/1/2018 1:53:23 PM  
 **Updated At:** 7/21/2018 8:36:34 AM  
 **Original Doc:** [class-method-system-getemulation](https://docs.jbase.com/42948-dynamic-objects/class-method-system-getemulation)  
+**Original ID:** 313165  
+**Internal:** No  
 
 
 ## Description

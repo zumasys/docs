@@ -3,6 +3,8 @@
 **Created At:** 8/11/2017 12:13:57 AM  
 **Updated At:** 8/11/2017 12:14:13 AM  
 **Original Doc:** [admin-list](https://docs.jbase.com/36040-migration-knowledge-base/admin-list)  
+**Original ID:** 266648  
+**Internal:** Yes  
 
 
 Changing Linux Passwords

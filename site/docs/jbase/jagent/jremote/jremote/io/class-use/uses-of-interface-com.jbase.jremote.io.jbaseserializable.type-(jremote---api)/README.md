@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 11:45:00 AM  
 **Updated At:** 2/15/2018 8:02:56 AM  
 **Original Doc:** [com_jbase_jremote_io_class-use_JBaseSerializable.TYPE](https://docs.jbase.com/39253-class-use/com_jbase_jremote_io_class-use_JBaseSerializable.TYPE)  
+**Original ID:** 278101  
+**Internal:** Yes  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Interface com.jbase.jremote.io.JBaseSerializable.TYPE (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
 JavaScript is disabled on your browser.

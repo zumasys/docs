@@ -3,6 +3,8 @@
 **Created At:** 9/27/2017 2:46:45 PM  
 **Updated At:** 1/5/2018 6:02:32 PM  
 **Original Doc:** [278661-status-function](https://docs.jbase.com/36868-jbase-basic/278661-status-function)  
+**Original ID:** 278661  
+**Internal:** No  
 
 
 # Usage: 

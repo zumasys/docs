@@ -3,6 +3,8 @@
 **Created At:** 9/25/2017 12:19:37 PM  
 **Updated At:** 4/4/2018 8:39:01 PM  
 **Original Doc:** [com_jbase_jremote_protocol_jremoterequest](https://docs.jbase.com/39270-protocol/com_jbase_jremote_protocol_jremoterequest)  
+**Original ID:** 278391  
+**Internal:** No  
 
 <!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JRemoteRequest (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
 JavaScript is disabled on your browser.
