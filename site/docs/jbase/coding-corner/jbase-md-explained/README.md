@@ -17,7 +17,7 @@ Paragraphs can be executed with the **para** command.
 
 ## JEDIFILENAME\_MD
 
-A common confusion about the MD when migrating an existing account is that although it may be restored in the same area as all the other files jBASE still needs to *know*which file is the MD.
+A common confusion about the MD when migrating an existing account is that although it may be restored in the same area as all the other files jBASE still needs to *know* which file is the MD.
 
 e.g. if your data was restored as /dbms/MYACCOUNT
 
@@ -34,7 +34,7 @@ set JEDIFILENAME_MD=%HOME%/MD]D      [Windows]
 
 Which instructs jBASE to look for the **MD** in your **HOME** directory (i.e. when changing from one account to another).
 
-Note that you can use **VOC**instead of **MD**:
+Note that you can use **VOC** instead of **MD**:
 
 ```
 export JEDIFILENAME_MD=$HOME/VOC]D
@@ -100,7 +100,9 @@ LISTU
 
 ## jshow &lt;command&gt;
 
-The jshow command will show how jBASE determines if command is executable and from where: Below is an example of the standard LISTU command being superseded by an MD proc:
+The jshow command will show how jBASE determines if command is executable and from where: 
+
+Below is an example of the standard LISTU command being superseded by an MD proc:
 
 ```
 jshow LISTU

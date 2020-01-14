@@ -35,12 +35,12 @@ Option **-a** causes all index definitions to be deleted. Without option -a you 
 Example: Delete ALL the index definitions for file PRODUCTS
 
 ```
-jsh--> DELETE-INDEX -a PRODUCTS
-jsh--> DELETE-INDEX PRODUCTS *
+jsh --> DELETE-INDEX -a PRODUCTS
+jsh --> DELETE-INDEX PRODUCTS *
 ```
 
 Example: Delete the index name "value" in the file PRODUCTS
 
 ```
-jsh--> delete-index PRODUCTS value
+jsh --> delete-index PRODUCTS value
 ```

@@ -28,7 +28,8 @@ But this does complicate the process of sharing code because now, you must creat
 Two environment variables control most of what BASIC and CATALOG will do with resultant compiled code.
 
 ```
-JBCDEV_BINJBCDEV_LIB
+JBCDEV_BIN
+JBCDEV_LIB
 ```
 
 
@@ -40,7 +41,35 @@ The two environment variables mentioned above are normally set to a bin and lib 
 
 
 ```
- 001 Type 002 Absolute Account Path 003 Reserved 004 Reserved 005 Reserved 006 Reserved 007 Encrypted Password (optional) 008 Reserved 009 Reserved 010 Reserved 011 Optional Parameters for LOGTO (use attributes 20 through 37 on jBASE 4 and jBASE 5) 012 - 019 Reserved 020 ESYSTEM_START 021 JBCEMULATE 022 HOME 023 JBCDEV_BIN 024 JBCDEV_LIB 025 PATH 026 JBCOBJECTLIST 027 JEDIFILEPATH 028 JEDIFILENAME_MD 029 JBC_TCLRESTART 030 JBC_ENDRESTART 031 JBCRESTARTPROG 032 JBCLOGINPROG 033 Reserved 034 JBASE_I18N 035 JBCPORTNO (multi-valued range) 036 OTHER ENVIRONMENT VARIABLES (multi-valued) 037 ESYSTEM_END 
+ 001 Type 
+ 002 Absolute Account Path 
+ 003 Reserved 
+ 004 Reserved 
+ 005 Reserved 
+ 006 Reserved 
+ 007 Encrypted Password (optional) 
+ 008 Reserved 009 Reserved 
+ 010 Reserved 
+ 011 Optional Parameters for LOGTO (use attributes 20 through 37 on jBASE 4 and jBASE 5) 
+ 012 - 019 Reserved 
+ 020 ESYSTEM_START 
+ 021 JBCEMULATE 
+ 022 HOME 
+ 023 JBCDEV_BIN 
+ 024 JBCDEV_LIB 
+ 025 PATH 
+ 026 JBCOBJECTLIST 
+ 027 JEDIFILEPATH 
+ 028 JEDIFILENAME_MD 
+ 029 JBC_TCLRESTART 
+ 030 JBC_ENDRESTART 
+ 031 JBCRESTARTPROG 
+ 032 JBCLOGINPROG 
+ 033 Reserved 
+ 034 JBASE_I18N 
+ 035 JBCPORTNO (multi-valued range) 
+ 036 OTHER ENVIRONMENT VARIABLES (multi-valued) 
+ 037 ESYSTEM_END 
 ```
 
 
@@ -74,7 +103,8 @@ Here are excerpts from the SYSTEM file for both of these accounts:
 **ACCOUNT-A**
 
 ```
-0023 /dbms/ACCOUNT-A/bin0024 /dbms/ACCOUNT-A/lib
+0023 /dbms/ACCOUNT-A/bin
+0024 /dbms/ACCOUNT-A/lib
 ```
 
 
@@ -82,7 +112,8 @@ Here are excerpts from the SYSTEM file for both of these accounts:
 **ACCOUNT-B**
 
 ```
-0023 /dbms/ACCOUNT-B/bin0024 /dbms/ACCOUNT-B/lib
+0023 /dbms/ACCOUNT-B/bin
+0024 /dbms/ACCOUNT-B/lib
 ```
 
 
@@ -142,7 +173,7 @@ This has a number of issues:
 
 On the other hand, the benefits are that this might be desirable in a TEST account where you would be assured that compiling in the test account would not alter the production bins and libs.
 
-If your organization wishes to keep with the "Pick" way of doing things then there are certain configuration [best practices](./../best-practices-for-being-pick-like)that should be followed.
+If your organization wishes to keep with the "Pick" way of doing things then there are certain configuration [best practices](./../best-practices-for-being-pick-like) that should be followed.
 
 
 
@@ -151,7 +182,8 @@ If your organization wishes to keep with the "Pick" way of doing things then the
 The proper way to accomplish this is to simply update the PATH and JBCOBJECTLIST attributes in ACCOUNT-B's SYSTEM record adding the bin path
 
 ```
- 025 PATH 026 JBCOBJECTLIST
+ 025 PATH 
+ 026 JBCOBJECTLIST
 ```
 
 
@@ -159,7 +191,8 @@ The proper way to accomplish this is to simply update the PATH and JBCOBJECTLIST
 Example of ACCOUNT-B's SYSTEM entry BEFORE sharing ACCOUNT-A's bin and lib directories
 
 ```
- 025 /dbms/ACCOUNT-B/bin 026 /dbms/ACCOUNT-B/lib
+ 025 /dbms/ACCOUNT-B/bin 
+ 026 /dbms/ACCOUNT-B/lib
 ```
 
 
@@ -171,7 +204,8 @@ Example of ACCOUNT-B's SYSTEM entry AFTER sharing ACCOUNT-A's bin and lib direc
 **For Linux/Unix Systems:**
 
 ```
- 025 /dbms/ACCOUNT-B/bin:/dbms/ACCOUNT-A/bin 026 /dbms/ACCOUNT-B/lib:/dbms/ACCOUNT-A/lib
+ 025 /dbms/ACCOUNT-B/bin:/dbms/ACCOUNT-A/bin 
+ 026 /dbms/ACCOUNT-B/lib:/dbms/ACCOUNT-A/lib
 ```
 
 
@@ -179,7 +213,8 @@ Example of ACCOUNT-B's SYSTEM entry AFTER sharing ACCOUNT-A's bin and lib direc
 **For Windows Systems:**
 
 ```
- 025 /dbms/ACCOUNT-B/bin;/dbms/ACCOUNT-A/bin 026 /dbms/ACCOUNT-B/lib;/dbms/ACCOUNT-A/lib
+ 025 /dbms/ACCOUNT-B/bin;/dbms/ACCOUNT-A/bin 
+ 026 /dbms/ACCOUNT-B/lib;/dbms/ACCOUNT-A/lib
 ```
 
 

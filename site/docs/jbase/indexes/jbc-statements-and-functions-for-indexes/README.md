@@ -8,10 +8,9 @@
 
 
 
-
-
-| [INDICES](./../../jbase-basic-%28jbc%29/indices)<br> | Returns the index information for the specified file.<br> |
+| Statement <br>| Description <br>|
 | --- | --- |
+| [INDICES](./../../jbase-basic-%28jbc%29/indices)<br> | Returns the index information for the specified file.<br> |
 | [OPENINDEX](./../../jbase-basic-%28jbc%29/openindex)<br> | Opens the specified index definition.<br> |
 | [READNEXT](./../../jbase-basic-%28jbc%29/readnext-key)<br> | Move forward through an index.<br> |
 | [READPREV](./../../jbase-basic-%28jbc%29/readprev)<br> | Move backwards through an index.<br> |

@@ -33,9 +33,9 @@ In this document there will be many references to the index data being "in sync"
 
 jBASE has a number of command to help you create and maintain these secondary indexes:
 
-
-| [create-index](./../create-index)<br> | create a new definition or rebuild an existing definition.<br> |
+| Command <br> | Description <br>|
 | --- | --- |
+| [create-index](./../create-index)<br> | create a new definition or rebuild an existing definition.<br> |
 | [delete-index](./../delete-index)<br> | delete an index definition.<br> |
 | [key-select](./../query-index)<br> | do a search against an index.<br> |
 | [list-index](./../list-index)<br> | list details of current index definitions.<br> |

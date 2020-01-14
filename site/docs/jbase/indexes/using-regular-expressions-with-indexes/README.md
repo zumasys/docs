@@ -32,17 +32,17 @@ For Windows systems only a limited subset of regular expressions are available. 
 For example, on either a Unix or Windows/NT system you could use [key-select](./../query-index) to find a product description that has the text SLIPPER at the start of the description. This can be done using the jQL format ,with say the SELECT command or by using regular expressions. The two methods are therefore:
 
 ```
-jsh-> key-select -mJQL PRODUCTS IF description EQ "SLIPPER]"
+jsh --> key-select -mJQL PRODUCTS IF description EQ "SLIPPER]"
 ```
 
 ```
-jsh-> key-select -mREGEXP PRODUCTS if description EQ "^SLIPPER"
+jsh --> key-select -mREGEXP PRODUCTS if description EQ "^SLIPPER"
 ```
 
 As a more complicate regular expression, the following example looks for a product that begins with the string BIG , has the words RED somewhere in the text, and then must end with the words ENGINE:
 
 ```
-jsh-> query-index -mREGEXP PRODUCTS "^BIG.*RED.*ENGINE$"
+jsh --> query-index -mREGEXP PRODUCTS "^BIG.*RED.*ENGINE$"
 ```
 
 The Unix implementation uses the operating system supplied version of regular expressions and these are far more powerful than the jBASE supplied version of regular expressions on Windows systems. As already mentioned , use man 5 regexp to find more details.
@@ -50,7 +50,7 @@ The Unix implementation uses the operating system supplied version of regular ex
 An example of use would be looking for a product description that begins with the words PIPE , any number of spaces, then one or more numeric characters follow (including optionally a decimal point), any number of spaces, and finally the characters "mm" , which are case insensitive. The command would be as:
 
 ```
-jsh->query-index -mREGEXP PRODUCTS EQ "^PIPE *[0-9\.][0-9\.]*[mM][mM]$"
+jsh -->query-index -mREGEXP PRODUCTS EQ "^PIPE *[0-9\.][0-9\.]*[mM][mM]$"
 ```
 
 to output:

@@ -61,6 +61,7 @@ The following index data will now have been created for the above data:
 
 
 | **Index key** | **Index data** |
+| --- | --- |
 | CLARK | Key "B" at multi-value 2 |
 | COOPER | Key "A" at multi-value 1 |
 | <br> | Key "A" at multi-value 4 |

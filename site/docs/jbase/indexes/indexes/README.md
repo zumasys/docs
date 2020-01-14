@@ -21,7 +21,8 @@
 | [Secondary Index Examples](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/adv22_INDEXES_EXAMPLES.htm) | Traversing indexes. |
 
 
-
+| Command| Description |
+| --- | --- |
 | [CREATE-INDEX](./../create-index) | Define and create indexes. |
 | [DELETE-INDEX](./../delete-index) | Delete existing index definitions. |
 | [LIST-INDEX](./../list-index) | Display index definitions. |
