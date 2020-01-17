@@ -21,8 +21,8 @@ An example of use is as:
 Y = REUSE(300)
 Z = 500:@VM:400:@VM:300:@SM:200:@SM:100
 A = SUBS (Z,Y)
-PRINT A
-PRINT ABSS (A)
+CRT A
+CRT ABSS (A)
 ```
 
 The output of this program is:

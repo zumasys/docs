@@ -24,7 +24,7 @@ An example of use is as:
 A=2:@VM:4:@VM:6:@SM:10
 B=1:@VM:2:@VM:3:@VM:4
 
-PRINTADDS (A,B)
+CRT ADDS (A,B)
 ```
 
 to output:

@@ -25,7 +25,7 @@ or
 REM(expression1, expression2)
 ```
 
-Where both **expression1**and**expression2** should evaluate to numeric expressions or a runtime error will occur.
+Where both **expression1** and **expression2** should evaluate to numeric expressions or a runtime error will occur.
 
 The remainder of **expression1** divided by **expression2** calculates the modulo. If expression2 evaluates to 0, then the value of expression1 is returned.
 

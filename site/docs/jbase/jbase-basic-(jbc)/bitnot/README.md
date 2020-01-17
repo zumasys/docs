@@ -17,7 +17,7 @@ BITNOT(expression ,bit#)
 
 Where:
 
-bit# is an expression that evaluates to the number of the bit to invert. If bit# is unspecified, **BITNOT**inverts each bit. It changes each bit of 1 to a bit of 0 and each bit of 0 to a bit of 1. This is equivalent to returning a value equal to the following: (expression)1
+bit# is an expression that evaluates to the number of the bit to invert. If bit# is unspecified, **BITNOT** inverts each bit. It changes each bit of 1 to a bit of 0 and each bit of 0 to a bit of 1. This is equivalent to returning a value equal to the following: (expression)1
 
 If expression evaluates to the null value, null is returned. If bit# evaluates to the null value, the **BITNOT** function fails and the program terminates with a run-time error message.
 

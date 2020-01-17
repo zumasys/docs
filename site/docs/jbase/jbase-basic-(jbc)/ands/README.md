@@ -23,7 +23,7 @@ An example of use is as:
 ```
 A = 1:@SM:4:@VM:4:@SM:1
 B = 1:@SM:1-1:@VM:2
-PRINT ANDS (A,B)
+CRT ANDS (A,B)
 ```
 
 to output:

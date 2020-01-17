@@ -7,7 +7,7 @@
 **Internal:** No  
 
 **Tags:**
-<badge text='records handling' vertical='middle' />
+<badge text='record handling' vertical='middle' />
 <badge text='query language' vertical='middle' />
 <badge text='jql' vertical='middle' />
 

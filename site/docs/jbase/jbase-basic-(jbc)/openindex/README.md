@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='file handling' vertical='middle' />
 <badge text='file indexing' vertical='middle' />
-<badge text='records handling' vertical='middle' />
+<badge text='record handling' vertical='middle' />
 
 # Description
 

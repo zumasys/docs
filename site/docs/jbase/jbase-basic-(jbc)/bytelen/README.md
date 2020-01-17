@@ -15,7 +15,7 @@ The **BYTELEN** function returns the length of the expression as the number of b
 BYTELEN(expression)
 ```
 
-Where**expression** can return a result of any type. The**BYTELEN** function will then return the byte count of the expression.
+Where**expression** can return a result of any type. The **BYTELEN** function will then return the byte count of the expression.
 
 # Note:
 

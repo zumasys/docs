@@ -23,7 +23,7 @@ Where:
 - **array** should be a previously dimensioned array, which will be used to store the record to be read.
 - If specified, **variable1** should be a jBASE BASIC variable that has previously been opened to a file using the [OPEN](./../open) statement. If **variable1** is not specified then the default file is assumed. The **expression** should evaluate to a valid record key for the file.
 - If no record is found and can be read from the file then it is mapped into the array and executes the THEN statements (if any). If the record cannot be read from the file then array is unchanged and executes the ELSE statements (if any).
-- If the record could not be read because another process already had a lock on the record then one of two actions is taken. If the **LOCKED** clause was specified in the statement then the statements dependent on it are executed. If no **LOCKED**clause was specified then the statement blocks (hangs)
+- If the record could not be read because another process already had a lock on the record then one of two actions is taken. If the **LOCKED** clause was specified in the statement then the statements dependent on it are executed. If no **LOCKED** clause was specified then the statement blocks (hangs)
 - until the other process releases the lock. If a **LOCKED** clause is used and the read is successful, a lock will be set.
 - If the SETTING clause is specified, **setvar** will be set to the number of fields in the record on a successful read. If the read fails, setvar will be set to one of [these values](./../incremental-file-errors).
 
@@ -49,18 +49,18 @@ Array(n)<m>
 An example of use is as:
 
 ```
-0001     OPEN "test_rec" TO file_variable ELSE ABORT 201, "test_rec"
-0002     DIM sample_arr(10)
-0003
-0004     MATREAD sample_arr FROM file_variable , 002 SETTING result_variable ON ERROR
-0005         PRINT "Error number ":result_variable:" occurred, preventing record read."
-0006         STOP
-0007     END THEN
-0008         PRINT 'Record read successfully'
-0009         PRINT "Number of attributes in record = ": result_variable
-0010     END ELSE
-0011         PRINT 'Record not on file'
-0012     END
+     OPEN "test_rec" TO file_variable ELSE ABORT 201, "test_rec"
+     DIM sample_arr(10)
+
+     MATREAD sample_arr FROM file_variable , 002 SETTING result_variable ON ERROR
+         PRINT "Error number ":result_variable:" occurred, preventing record read."
+         STOP
+     END THEN
+         PRINT 'Record read successfully'
+         PRINT "Number of attributes in record = ": result_variable
+     END ELSE
+         PRINT 'Record not on file'
+     END
 ```
 
 

@@ -26,7 +26,7 @@ The function returns 1 if the bit is set; it returns 0 if it is not; Bits are co
 An example of use is as:
 
 ```
-PRINT BITTEST(11,0),BITTEST(11,1),BITTEST(11,2),BITTEST(11,3)
+CRT BITTEST(11,0),BITTEST(11,1),BITTEST(11,2),BITTEST(11,3)
 * The binary value of 11 = 1011
 ```
 

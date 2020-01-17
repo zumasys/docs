@@ -25,7 +25,7 @@ It should however be noted that differences in hardware architecture can make th
 An example of use would be as:
 
 ```
-PRINT BITAND(6,12)
+CRT BITAND(6,12)
 * The binary value of 6 = 0110
 * The binary value of 12 = 1100
 ```

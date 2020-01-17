@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='dimensioned arrays' vertical='middle' />
 <badge text='record locking' vertical='middle' />
-<badge text='records handling' vertical='middle' />
+<badge text='record handling' vertical='middle' />
 
 # Description
 

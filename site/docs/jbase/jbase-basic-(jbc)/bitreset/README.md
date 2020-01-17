@@ -32,7 +32,7 @@ An example of use is as:
 
 ```
 OLD.VALUE = BITRESET (112)
-PRINT OLD.VALUE
+CRT OLD.VALUE
 ```
 
 If table entry 112 is one, it returns a value of one, resets bit 112 to 0, and prints one. If table entry 112 is zero, returns a value of 0, and prints 0.

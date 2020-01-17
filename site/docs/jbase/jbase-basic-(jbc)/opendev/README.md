@@ -7,7 +7,7 @@
 **Internal:** No  
 
 **Tags:**
-<badge text='records handling' vertical='middle' />
+<badge text='record handling' vertical='middle' />
 <badge text='file handling' vertical='middle' />
 
 # Description
