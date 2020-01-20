@@ -9,7 +9,7 @@
 
 # **Description**
 
-These functions can be used in conjunction with the **FIELD**function to determine the character positions 1 position before and 1 position after the location of the last field. It takes the general form:
+These functions can be used in conjunction with the **FIELD** function to determine the character positions one position before and one position after the location of the last field. It takes the general form:
 
 ```
 COL1() / COL2()
@@ -17,7 +17,7 @@ COL1() / COL2()
 
 
 
-When a field has been located in a string, it is sometimes useful to know its exact position within the string to manipulate either it, or the rest of the string. **COL1()** will return the position of the character immediately before the last field located. **COL2()**will return the position of the character immediately after the end of the last field located. Use them to manipulate the string.
+When a field has been located in a string, it is sometimes useful to know its exact position within the string to manipulate either it, or the rest of the string. **COL1()** will return the position of the character immediately before the last field located. **COL2()** will return the position of the character immediately after the end of the last field located. Use them to manipulate the string.
 
 An example of use is as:
 

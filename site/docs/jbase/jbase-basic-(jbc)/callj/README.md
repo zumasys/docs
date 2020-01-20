@@ -7,7 +7,7 @@
 **Internal:** No  
 
 **Tags:**
-<badge text='caljee' vertical='middle' />
+<badge text='calljee' vertical='middle' />
 <badge text='java' vertical='middle' />
 <badge text='callj' vertical='middle' />
 
@@ -131,7 +131,7 @@ jBASE BASIC code using the ON ERROR will look like this:
 
 
 
-The **CALLJ** function provides access to a JavaVM from within the BASIC environment. For it to be able to start a JavaVM (JVM) the environment needs to know where the JVM is located. Specifically it needs to know where certain libraries are located.
+The **CALLJ** function provides access to a Java VM from within the BASIC environment. For it to be able to start a JavaVM (JVM) the environment needs to know where the JVM is located. Specifically it needs to know where certain libraries are located.
 
 Here's another, much simpler, example:
 
@@ -172,7 +172,7 @@ If the above fails check the **CLASSPATH**.
 
 If **JBCJVMLIB** is not yet defined, set it to the jvm library from the same java version the class(es) is being compiled.
 
-If you get a return code of "6" and you can successfully test your class/method using generic java check that your method only has a String as the argument and also returns a String.
+If you get a return code of "6" and you can successfully test your class/method using generic java, check that your method only has a String as the argument and also returns a String.
 
 
 

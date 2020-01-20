@@ -9,28 +9,28 @@
 
 # Description
 
-The**CATS** function concatenates the corresponding elements in two dynamic arrays. The function usually takes the form:
+The **CATS** function concatenates the corresponding elements in two dynamic arrays. The function usually takes the form:
 
 ```
 CATS(DynArr1, DynArr2)
 ```
 
-Where**DynArr1** and **DynArr2** are dynamic arrays.
+Where **DynArr1** and **DynArr2** are dynamic arrays.
 
 
 
 ## Note:
 
 
-> If one dynamic array supplied to the **CATS** function is null then the result of the **CATS**function is the non-null dynamic array.
+> If one dynamic array supplied to the **CATS** function is null then the result of the **CATS** function is the non-null dynamic array.
 
 
 An example of use is as:
 
 ```
-0001     A = "a" : @SM : "b" : @VM : "c": @VM : "d"
-0002     B = "x" : @VM : "y" : @SM : "z"
-0003     CRT  CATS(A, B)
+     A = "a" : @SM : "b" : @VM : "c": @VM : "d"
+     B = "x" : @VM : "y" : @SM : "z"
+     CRT  CATS(A, B)
 ```
 
 to display:

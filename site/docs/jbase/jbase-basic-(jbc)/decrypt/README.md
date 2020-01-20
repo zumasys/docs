@@ -55,14 +55,14 @@ DECRYPT with this method is the same as a DECRYPT with method JBASE\_CRYPT\_BASE
 An example of use may be as follows:
 
 ```
-0001     INCLUDE JBC.h
-0002     cipher = JBASE_CRYPT_BLOWFISH_BASE64
-0003     key = "Thunderbirds 2086"
-0004     str = "This is the string to be encrypted"
-0005     enc = ENCRYPT( str, key, cipher )
-0006     CRT "Encrypted:" :enc
-0007     dec = DECRYPT( enc, key, cipher )
-0008     CRT "Decrypted: ":dec
+     INCLUDE JBC.h
+     cipher = JBASE_CRYPT_BLOWFISH_BASE64
+     key = "Thunderbirds 2086"
+     str = "This is the string to be encrypted"
+     enc = ENCRYPT( str, key, cipher )
+     CRT "Encrypted:" :enc
+     dec = DECRYPT( enc, key, cipher )
+     CRT "Decrypted: ":dec
 ```
 
 The above will display as output:

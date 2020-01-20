@@ -18,8 +18,8 @@ CONVERT(expression1, expression2, expression3)
 Where:
 
 - **expression1** is the string to which the conversion will apply.
-- **expression2**is the list of all characters to translate in expression1.
-- **expression3**is the list of characters that will be converted to.
+- **expression2** is the list of all characters to translate in expression1.
+- **expression3** is the list of characters that will be converted to.
 
 
 # Note:
@@ -36,7 +36,8 @@ Examples of use are as follows:
 
 ```
 OLD.VAL = "a,b,c;d,e|f,g;h,i"
-NEW.VAL = CONVERT(OLD.VAL, ";,|", @AM:@VM:@SVM) ;! NEW.VAL now contains a]b]c^d]e\f]g^h]i
+NEW.VAL = CONVERT(OLD.VAL, ";,|", @AM:@VM:@SVM)
+! NEW.VAL now contains a]b]c^d]e\f]g^h]i
 ```
 
 

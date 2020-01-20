@@ -30,13 +30,14 @@ When a jBASE BASIC program detects stacked data, it is taken as keyboard input u
 Stacked data delimited by field marks (xFE) will be treated as a series of separate terminal inputs. An example of use is as:
 
 ```
-001    PROGRAM EXAMPLE1
-002    DATA "Y", "N", "CONTINUE" ;* stack input for PROGRAM1
-003    EXECUTE "PROGRAM1"        ;* execute the program
-
-001    PROGRAM EXAMPLE2
-002    DATA "Y":@AM:"N":@AM:"CONTINUE"; * stack input for PROGRAM1
-003    EXECUTE "PROGRAM1"; * execute the program
+    PROGRAM EXAMPLE1
+    DATA "Y", "N", "CONTINUE" ;* stack input for PROGRAM1
+    EXECUTE "PROGRAM1"        ;* execute the program
+```
+```
+    PROGRAM EXAMPLE2
+    DATA "Y":@AM:"N":@AM:"CONTINUE"; * stack input for PROGRAM1
+    EXECUTE "PROGRAM1"; * execute the program
 ```
 
 
@@ -44,11 +45,11 @@ Stacked data delimited by field marks (xFE) will be treated as a series of separ
 PROGRAM1 can simply be:
 
 ```
-001    PROGRAM PROGRAM1
-002    INPUT reply1
-003    INPUT reply2
-004    INPUT reply3
-005    CRT reply1, reply2, reply3
+    PROGRAM PROGRAM1
+    INPUT reply1
+    INPUT reply2
+    INPUT reply3
+    CRT reply1, reply2, reply3
 ```
 
 

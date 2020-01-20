@@ -18,7 +18,7 @@ CHANGE expression1 TO expression2 IN variable
 Where:
 
 - **expression1** may evaluate to any result and is the string of characters that will be replaced,
-- **expression2** may also evaluate to any result and is the string of characters that will replace**expression1**,
+- **expression2** may also evaluate to any result and is the string of characters that will replace **expression1**,
 - **variable** may be any previously assigned variable in the program.
 
 

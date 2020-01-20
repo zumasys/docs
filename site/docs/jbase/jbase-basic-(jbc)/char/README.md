@@ -38,10 +38,10 @@ When system delimiter values are not specifically required, generate UTF-8 byte 
 An example of use would be inserting field delimiters within a variable or string; these are commonly equated to AM, VM, SV in a program.
 
 ```
-0001     EQUATE AM TO CHAR (254)   ;* field Mark
-0002     EQUATE VM TO CHAR(253)    ;* value Mark
-0003     EQUATE SV TO CHAR(252)    ;* sub Value mark
-0004     CRT CHAR (7):   ;* ring the bell
+     EQUATE AM TO CHAR (254)   ;* field Mark
+     EQUATE VM TO CHAR(253)    ;* value Mark
+     EQUATE SV TO CHAR(252)    ;* sub Value mark
+     CRT CHAR (7):   ;* ring the bell
 ```
 
 

@@ -20,9 +20,9 @@ DEL variable<expression1{, expression2{, expression3}}>
 Where
 
 - ***variable*** can be any previously assigned variable or matrix element. The expressions must evaluate to a numeric value or a runtime error will occur.
-- ***expression1***specifies the field in the array to operate upon and must be present.
-- ***expression2***specifies the multivalue within the field to operate upon and is an optional parameter.
-- ***expression3***is optionally present when expression2 has been included. It specifies which subvalue to delete within the specified multivalue.
+- ***expression1*** specifies the field in the array to operate upon and must be present.
+- ***expression2*** specifies the multivalue within the field to operate upon and is an optional parameter.
+- ***expression3*** is optionally present when expression2 has been included. It specifies which subvalue to delete within the specified multivalue.
 
 
 ## Note:
@@ -35,14 +35,14 @@ Where
 An example of use is as follows:
 
 ```
-0001     Numbers=""
-0002     FOR I = 1 TO 20
-0003         Numbers<I> = I        ;*generate numbers
-0004     NEXT I
-0005
-0006     FOR I = 19 TO 1 STEP 2
-0007         DEL Numbers<I>        ;*remove odd numbers
-0008     NEXT I
+     Numbers=""
+     FOR I = 1 TO 20
+         Numbers<I> = I        ;*generate numbers
+     NEXT I
+
+     FOR I = 19 TO 1 STEP 2
+         DEL Numbers<I>        ;*remove odd numbers
+     NEXT I
 ```
 
 

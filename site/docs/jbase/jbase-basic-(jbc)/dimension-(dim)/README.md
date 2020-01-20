@@ -30,7 +30,7 @@ A single **DIM** statement may declare a number of arrays by separating their de
 
 > - The array must be declared before it is referenced in the program source (compilation as opposed to execution). If using a variable as an undeclared dimensioned array the compiler will display an error message.
 > - The array variable must be used as a normal variable or dynamic array before dimensioning, as the compiler will detect this as an error.
-> - Dimensioning to a variable requires **resize\_array = true**to be set as a configuration option in the **$JBCRELEASEDIR/config/Config\_EMULATE**file.
+> - Dimensioning to a variable requires **resize\_array = true** to be set as a configuration option in the **$JBCRELEASEDIR/config/Config\_EMULATE** file.
 > - When arrays are referenced directly as in A = Array(7), the compiler will optimize the reference as if it was a single undimensioned variable.
 
 

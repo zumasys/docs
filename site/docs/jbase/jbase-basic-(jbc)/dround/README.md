@@ -30,8 +30,8 @@ Where:
 An example of use is as:
 
 ```
-0001     A= DROUND((3.14159265999*2*3),4 )
-0002     PRINT A
+     A = DROUND((3.14159265999*2*3),4 )
+     CRT A
 ```
 
 The above results in 18.8496 being printed out. The equation is resolved, and rounds the result to four decimal places.
