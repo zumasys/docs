@@ -1,7 +1,7 @@
 # LOCATE
 
 **Created At:** 9/15/2017 9:27:51 AM  
-**Updated At:** 11/14/2019 2:03:15 PM  
+**Updated At:** 1/19/2020 9:05:25 AM  
 **Original Doc:** [locate](https://docs.jbase.com/36868-jbase-basic/locate)  
 **Original ID:** 276937  
 **Internal:** No  
@@ -12,18 +12,18 @@
 The **LOCATE** statement finds the position of an element within a specified dimension of a dynamic array. It takes the general form:
 
 ```
-LOCATE expression1 IN expression2{<expression3{,expression4}>}, {, expression5} {BY expression6} SETTING Var THEN|ELSE statement(s)
-LOCATE(expression1, expression2{,expression3{,expression4}}; Var{; expression6}) THEN|ELSE statements
-LOCATE(expression1, expression2{,expression3{,expression5}}; Var{; expression6}) THEN|ELSE statements       (Universe syntax)
+LOCATE expression1 IN expression2{<expression3{,expression4}>} {, expression5} {BY expression6} SETTING Var THEN|ELSE statements
+LOCATE(expression1, expression2{,expression3{,expression4{,expression5}}}; Var{; expression6}) THEN|ELSE statements
+LOCATE(expression1, expression2{,expression3{,expression5}}; Var{; expression6}) THEN|ELSE statements   (Prime*** syntax)
 ```
 
 Where:
 
-- **expression1**evaluates to the string that will be searched for in **expression2**.
-- **expression2**evaluates to the dynamic array within which **expression1**will be searched for.
+- **expression1**evaluates the string that will be searched for in **expression2**.
+- **expression2**evaluates to the dynamic array on which an attribute search is performed within which **expression1**will be searched for.
 - If **expression3** is specified then a multivalue search is performed on **expression2**.
 - If both **expression3**and **expression4**are specified then a subvalue search is performed on **expression2**.
-- **expression5**indicates the field, value or subvalue from which the search will begin.
+- **expression5**indicates the field number, value number or subvalue number from which the search will begin.
 - **BY expression6** causes the search to expect the elements to be arranged in a specific order, which can considerably improve the performance of some searches. The available string values for **expression6**are:
 
 
@@ -90,7 +90,9 @@ When dealing with sorted numeric data that are to be considered as non-numeric (
 
 When dealing with sorted numeric data, always use the "AN" or "DN" sort specification, especially when locating values that are decimal numbers.
 
-The Universe syntax can be obtained in any emulation by setting the **use\_uv\_locate** configuration option in the **Config\_EMULATE**file under the appropriate emulation section as defined by the **JBCEMULATE**environment variable, e.g. **use\_uv\_locate = true**
+When using the function-style syntax, zeros must be used as placeholders in order to use the **expression5**.
+
+\*\*\* The Prime syntax can be obtained in any emulation by setting the **generic\_prime** configuration option in the **Config\_EMULATE**file under the appropriate emulation section as defined by the **JBCEMULATE**environment variable, e.g. **generic\_prime = true**. Note that there is no sub-value search when using the Prime syntax.
 
 
 

@@ -1,7 +1,7 @@
 # Configuring the ODBC jEDI on Windows
 
 **Created At:** 11/22/2019 7:51:18 PM  
-**Updated At:** 12/27/2019 7:31:05 PM  
+**Updated At:** 12/30/2019 5:54:06 PM  
 **Original Doc:** [configuring-the-odbc-jedi-on-windows](https://docs.jbase.com/configuring-the-odbc-jedi-on-windows)  
 **Original ID:** 497473  
 **Internal:** Yes  
@@ -131,7 +131,7 @@ passwd = expswrd
 
 [Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files)
 
-[Structure of ODBC JEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
+[Structure of ODBC jEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
 
 [Configuring the ODBC jEDI on Linux/Unix](./../configuring-the-odbc-jedi-on-linux&unix)
 

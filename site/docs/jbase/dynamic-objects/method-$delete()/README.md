@@ -1,7 +1,7 @@
 # Method: $delete()
 
 **Created At:** 2/15/2018 3:40:49 PM  
-**Updated At:** 4/23/2018 10:18:59 AM  
+**Updated At:** 1/6/2020 1:02:41 PM  
 **Original Doc:** [method-delete](https://docs.jbase.com/42948-dynamic-objects/method-delete)  
 **Original ID:** 299349  
 **Internal:** No  
@@ -35,7 +35,7 @@ obj->$delete(property name)
 
 ## Return values
 
-None
+The current object
 
 
 
@@ -51,11 +51,9 @@ for i = 1 to 12
 next i
 calendar->months = months
 crt calendar->$tojson()
-calendar->$delete("months")
-crt calendar->$tojson()
+crt calendar->$delete("months")->$tojson()
 year_property = "year"
-calendar->$delete(year_property)
-crt calendar->$tojson()
+crt calendar->$delete(year_property)->$tojson()
 ```
 
 Results:

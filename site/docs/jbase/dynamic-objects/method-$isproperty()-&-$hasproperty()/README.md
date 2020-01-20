@@ -1,8 +1,7 @@
-# Method: $isproperty()
-Method: $hasproperty()
+# Method: $isproperty() / $hasproperty()
 
 **Created At:** 2/15/2018 2:32:30 PM  
-**Updated At:** 12/1/2019 1:05:09 PM  
+**Updated At:** 1/6/2020 12:13:52 PM  
 **Original Doc:** [method-isproperty](https://docs.jbase.com/42948-dynamic-objects/method-isproperty)  
 **Original ID:** 299334  
 **Internal:** No  

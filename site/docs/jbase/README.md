@@ -7,6 +7,8 @@
 [configuring-the-odbc-jedi-on-linux&unix](./configuring-the-odbc-jedi-on-linux&unix)  
 [configuring-the-odbc-jedi-on-windows](./configuring-the-odbc-jedi-on-windows)  
 [converting-from-unix-to-windows](./converting-from-unix-to-windows)  
+[curladdheader](./curladdheader)  
+[curlexec](./curlexec)  
 [dynamic-objects](./dynamic-objects)  
 [emulation-revision](./emulation-revision)  
 [environment-variables](./environment-variables)  

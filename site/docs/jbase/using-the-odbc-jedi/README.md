@@ -1,7 +1,7 @@
 # Using the ODBC jEDI 
 
 **Created At:** 11/19/2019 7:24:34 PM  
-**Updated At:** 12/27/2019 7:33:13 PM  
+**Updated At:** 12/30/2019 5:54:12 PM  
 **Original Doc:** [using-the-jedi-odbc](https://docs.jbase.com/using-the-jedi-odbc)  
 **Original ID:** 495889  
 **Internal:** Yes  
@@ -133,7 +133,7 @@ The *ODBC jEDI* has the following non-standard IOCTL options:
 
 [Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files)
 
-[Structure of ODBC JEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
+[Structure of ODBC jEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
 
 [Configuring the ODBC jEDI on Linux/Unix](./../configuring-the-odbc-jedi-on-linux&unix)
 

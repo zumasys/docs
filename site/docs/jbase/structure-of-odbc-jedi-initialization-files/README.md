@@ -1,7 +1,7 @@
 # Structure of ODBC jEDI Initialization Files
 
 **Created At:** 11/22/2019 7:47:42 PM  
-**Updated At:** 12/27/2019 7:18:56 PM  
+**Updated At:** 1/3/2020 5:11:12 PM  
 **Original Doc:** [structure-of-odbc-jedi-initialization-files](https://docs.jbase.com/structure-of-odbc-jedi-initialization-files)  
 **Original ID:** 497463  
 **Internal:** Yes  
@@ -32,9 +32,13 @@ The sections following the [**ODBC**] section (ODBC\_*label*) are used for stori
 
 ### Note
 
-Although the password can be part of the connection string (**PWD=*password***), it cannot be encrypted in the connection string. If you wish to encrypt the password (see **jEDIDKencrypt**), the password must be in the section denoted by ODBC\_*label.*
+Although the password can be part of the connection string (**PWD=*password***), it cannot be encrypted in the connection string. If you wish to use an encrypted password, the encrypted password must be in the section denoted by ODBC\_*label.*
 
-Additionally, the settings under [**General**] can be repeated with alternate values under the ODBC\_*label*sections. For example you may have **PasswdsEncrypted = 1**under [**General**] but have **PasswordsEncrypted = 0** under one or more of your ODBC\_*label*sections.
+To generate an encrypted password, use the j**EDIDKencrypt**command. After the encrypted password is outputted to your terminal, copy it, and use it to set the psswd parameter under your specified ODBC\_*label*field. **jEDIDKencrypt** syntax:
+
+jEDIDKencrypt &lt;password&gt;
+
+Additionally, the settings under [**General**] can be repeated with alternate values under the ODBC\_label sections. For example you may have **PasswdsEncrypted = 1**under [**General**] but have **PasswordsEncrypted = 0** under one or more of your ODBC\_label sections.
 
 Example **jEDIdrivers.ini** file:
 
@@ -56,7 +60,8 @@ msmatrix = DSN=MSSQL;UID=sa_new;DATABASE=hs_label_matrix
 passwd = expswrd
 
 [ODBC_mssql]
-passwd = expswrd
+PasswdsEncrypted = 1
+passwd = xiCixHC0SM1UMR5e2zdCq+iU66cPSU30
 
 [ODBC_matrix]
 passwd = expswrd
@@ -131,7 +136,7 @@ UsageCount=1
 
 [Installing the ODBC jEDI on Windows](./../installing-the-odbc-jedi-on-windows)
 
-[Structure of ODBC JEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
+[Structure of ODBC jEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
 
 [Configuring the ODBC jEDI on Linux/Unix](./../configuring-the-odbc-jedi-on-linux&unix)
 

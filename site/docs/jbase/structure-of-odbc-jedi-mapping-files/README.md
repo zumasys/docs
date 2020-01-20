@@ -1,7 +1,7 @@
 # Structure of ODBC jEDI Mapping Files
 
 **Created At:** 11/26/2019 5:21:13 PM  
-**Updated At:** 12/27/2019 7:23:56 PM  
+**Updated At:** 12/30/2019 5:53:55 PM  
 **Original Doc:** [structure-of-odbc-jedi-mapping-files](https://docs.jbase.com/structure-of-odbc-jedi-mapping-files)  
 **Original ID:** 498441  
 **Internal:** Yes  

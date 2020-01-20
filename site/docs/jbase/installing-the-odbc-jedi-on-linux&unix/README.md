@@ -1,7 +1,7 @@
 # Installing the ODBC jEDI on Linux/Unix
 
 **Created At:** 12/20/2019 4:47:27 PM  
-**Updated At:** 12/27/2019 7:20:42 PM  
+**Updated At:** 1/17/2020 12:45:31 AM  
 **Original Doc:** [installing-the-odbc-jedi-on-linuxunix](https://docs.jbase.com/installing-the-odbc-jedi-on-linuxunix)  
 **Original ID:** 509163  
 **Internal:** Yes  
@@ -136,7 +136,7 @@ Verifying installation... Success.
 
 [Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files)
 
-[Structure of ODBC JEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
+[Structure of ODBC jEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
 
 [Configuring the ODBC jEDI on Linux/Unix](./../configuring-the-odbc-jedi-on-linux&unix)
 

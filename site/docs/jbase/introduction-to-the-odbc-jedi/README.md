@@ -1,7 +1,7 @@
 # Introduction to the ODBC jEDI 
 
 **Created At:** 11/14/2019 9:45:58 PM  
-**Updated At:** 12/27/2019 6:43:05 PM  
+**Updated At:** 12/30/2019 5:53:33 PM  
 **Original Doc:** [introduction-to-the-odbc-jedi](https://docs.jbase.com/introduction-to-the-odbc-jedi)  
 **Original ID:** 494348  
 **Internal:** Yes  
@@ -48,7 +48,7 @@ The *ODBC jED**I* driver suite relies on various initialization files and enviro
 
 [Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files)
 
-[Structure of ODBC JEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
+[Structure of ODBC jEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
 
 [Configuring the ODBC jEDI on Linux/Unix](./../configuring-the-odbc-jedi-on-linux&unix)
 
