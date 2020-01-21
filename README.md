@@ -29,17 +29,19 @@ is available at [Zumasys BetaDocs](https://betadocs.zumasys.com). The documentat
 ## Development Steps
 
 To run the application locally:
+> You will need to have **npm** installed.
 
 1. `git clone https://github.com/zumasys/docs.git`
-2. `cd site`
-3. `npm install` (Not necessary on subsequent builds)
-4. `npm run dev`
-5. When compilation completes you should see the following message
+2. `cd docs` (or whatever name you used for your git clone)
+3. `cd site`
+4. `npm install` (Not necessary on subsequent builds)
+5. `npm run dev`
+6. When compilation completes you should see the following message
 
    > success [12:25:41] Build 59cc58 finished in 75022 ms!  
    > VuePress dev server listening at [http://localhost:8080/](http://localhost:8080/)
 
-6. Open [localhost:8080](localhost:8080) in your browser.
+7. Open [localhost:8080](localhost:8080) in your browser.
 
 ## TODO - Contributor Guidelines
 
