@@ -17,9 +17,9 @@ FUNCTION name {({MAT} variable, {MAT} variable...) }
 
 Where:
 
-Name is the name by which the function is invoked.
+**Name** is the name by which the function is invoked.
 
-Variable is an expression used to pass values between the calling program and the function.
+**Variable** is an expression used to pass values between the calling program and the function.
 
 The **FUNCTION** statement is used to identify user-written source code functions. Each function must be coded in separate records and the record Id must match that of the Function Name, which in turn should match the reference in the calling program.
 

@@ -12,7 +12,7 @@
 
 # **Description**
 
-The **EXIT**statement halts the execution of a program and returns a numeric exit code to the parent process.
+The **EXIT** statement halts the execution of a program and returns a numeric exit code to the parent process.
 
 It takes the general form:
 
@@ -33,18 +33,18 @@ where the **expression** must evaluate to a numeric result, which should be the 
 ## Note: 
 
 
-> - For compatibility with older versions of the language, the **EXIT**statement should be used without an expression. In this case, it is synonymous with the [BREAK](./../break) statement.
+> - For compatibility with older versions of the language, the **EXIT** statement should be used without an expression. In this case, it is synonymous with the [BREAK](./../break) statement.
 > - If the expression does not evaluate to a numeric result the program will enter the debugger and display a suitable error message.
-> - The expression has been forced to be parenthesized to avoid confusion with the **EXIT**statement without an expression as much as is possible.
+> - The expression has been forced to be parenthesized to avoid confusion with the **EXIT** statement without an expression as much as is possible.
 
 
 Assuming a file has been opened to FileDesc, an example of use is as follows:
 
 ```
-0001     READ Record FROM FileDesc, RecordKey
-0002     ELSE CRT "Record ":RecordKey:" is missing"
-0003         EXIT(1)
-0004     END
+     READ Record FROM FileDesc, RecordKey
+     ELSE CRT "Record ":RecordKey:" is missing"
+         EXIT(1)
+     END
 ```
 
 

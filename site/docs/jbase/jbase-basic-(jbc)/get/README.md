@@ -37,7 +37,7 @@ Where:
 > 
 > If there are no specified length and timeout expressions, the default input length is one (1) character. If no length is specified, but TermChars are, there is no limit to the number of characters input.
 > 
-> The **GET**syntax requires a specified THEN or ELSE clause, or both. The THEN clause executes when the data received is error free; the ELSE clause executes when the data is unreceiveable (or a timeout occurs).
+> The **GET** syntax requires a specified THEN or ELSE clause, or both. The THEN clause executes when the data received is error free; the ELSE clause executes when the data is unreceiveable (or a timeout occurs).
 
 
 

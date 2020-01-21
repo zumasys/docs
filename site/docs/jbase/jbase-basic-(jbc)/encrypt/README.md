@@ -55,17 +55,17 @@ BASE64  is not really an encryption method, but more of an encoding. The reason
 An example of use may be as follows:
 
 ```
-0001     INCLUDE JBC.h
-0002
-0003     cipher = JBASE_CRYPT_BLOWFISH_BASE64
-0004
-0005     key = "Thunderbirds 2086"
-0006     str = "This is the string to be encrypted"
-0007     enc = ENCRYPT(str, key, cipher)
-0008
-0009     CRT "Encrypted: " :enc
-0010
-0011     CRT "Decrypted: ":DECRYPT(enc, key, cipher)
+     INCLUDE JBC.h
+
+     cipher = JBASE_CRYPT_BLOWFISH_BASE64
+
+     key = "Thunderbirds 2086"
+     str = "This is the string to be encrypted"
+     enc = ENCRYPT(str, key, cipher)
+
+     CRT "Encrypted: " :enc
+
+     CRT "Decrypted: ":DECRYPT(enc, key, cipher)
 ```
 
 The above will display as output:

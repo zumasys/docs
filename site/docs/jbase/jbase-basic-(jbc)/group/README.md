@@ -28,7 +28,7 @@ Where:
 ## Note: 
 
 
-> Expression2 may evaluate to more than a single character allowing fields to be delimited with complex expressions.
+> **Expression2** may evaluate to more than a single character allowing fields to be delimited with complex expressions.
 
 
 An example of use is as:

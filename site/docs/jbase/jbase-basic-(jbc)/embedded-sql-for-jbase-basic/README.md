@@ -86,7 +86,8 @@ This section declares jBASE BASIC variables so that they can be used within Embe
 
 This section configures the action to take on detecting an error with the previous executed Embedded SQL statement. Every SQL statement should in principle be followed by a test of the returned SQLCODE value. This can be achieved by utilizing the [SYSTEM(0)](./../system-functions) function, which returns the result of the last SQL statement, or alternatively using the Embedded SQL WHENEVER statement to predetermine the action for all subsequent Embedded SQL statements. The [SYSTEM(0)](./../system-functions) function will return three different possible values, i.e
 
-
+| Code | Error |
+| --- | --- |
 | &lt;0<br> | Embedded SQL statement failed.<br> |
 | 0<br> | Embedded SQL statement successful.<br> |
 | 100<br> | NOT FOUND. No rows where found.<br> |
@@ -165,9 +166,9 @@ In order to compile jBASE BASIC programs containing Embedded SQL statements the 
 | d<br> | IBM DB2<br> |
 | m<br> | Microsoft SQL Server (Windows only)<br> |
 | o<br> |  Oracle<br> |
-| i<br> | ingres<br> |
+| i<br> | Ingres<br> |
 | s<br> | Sysbase<br> |
-| x<br> | informix<br> |
+| x<br> | Informix<br> |
 
 
 

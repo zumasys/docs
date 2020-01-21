@@ -18,7 +18,7 @@ The **FSUB** function performs floating-point subtraction on two numeric values.
 FSUB(expression1, expression2)
 ```
 
-Where both **expression1**and **expression 2** must evaluate to non-null numeric values. If either of the arguments evaluates to null then a run time "non-numeric" error will occur.
+Where both **expression1** and **expression 2** must evaluate to non-null numeric values. If either of the arguments evaluates to null then a run time "non-numeric" error will occur.
 
 An example of use is as:
 

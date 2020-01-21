@@ -17,7 +17,7 @@ FLUSH file.variable {THEN statements [ELSE statements] | ELSE statements}
 
 Where:
 
-File variable specifies a file previously opened for sequential processing. If file.variable evaluates to null, the **FLUSH** statement fails and the program enters the debugger. After the buffer is written to the file, it executes the THEN statements, ignoring the ELSE statements.
+**file variable** specifies a file previously opened for sequential processing. If **file.variable** evaluates to null, the **FLUSH** statement fails and the program enters the debugger. After the buffer is written to the file, it executes the THEN statements, ignoring the ELSE statements.
 
 If none of the above can be completed, it executes the ELSE statements.
 

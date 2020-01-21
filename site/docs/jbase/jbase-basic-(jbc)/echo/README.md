@@ -11,7 +11,7 @@
 
 # Description
 
-The **ECHO**statement will turn on or off the echoing of characters typed at the keyboard.
+The **ECHO** statement will turn on or off the echoing of characters typed at the keyboard.
 
 ```
 ECHO ON

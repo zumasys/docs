@@ -19,7 +19,7 @@ A **FILELOCK** statement that does not specify lock type is equivalent to obtain
 
 When the **FILELOCK** statement is executed, it will attempt to take an exclusive lock on the entire file. If there are any locks currently outstanding on the file, then the statement will block until there are no more locks on the file. The use of the **LOCKED** clause allows the application to perform an unblocked operation.
 
-When the **FILELOCK** statement is blocked waiting for a lock, other processes may continue to perform database operations on that file, including the removal of record locks and the taking of record locks. Once the **FILELOCK**is taken, it will block ALL database accesses to the file whether or not the access involves record locks. i.e. a [READ](./../read) will block once it has been executed, as will, [CLEARFILE](./../clearfile) etc,. The lock continues until the file is closed, the program terminates, or a [FILEUNLOCK](./../fileunlock) statement is executed.
+When the **FILELOCK** statement is blocked waiting for a lock, other processes may continue to perform database operations on that file, including the removal of record locks and the taking of record locks. Once the **FILELOCK** is taken, it will block ALL database accesses to the file whether or not the access involves record locks. i.e. a [READ](./../read) will block once it has been executed, as will, [CLEARFILE](./../clearfile) etc,. The lock continues until the file is closed, the program terminates, or a [FILEUNLOCK](./../fileunlock) statement is executed.
 
 ## Note:
 
@@ -29,7 +29,7 @@ When the **FILELOCK** statement is blocked waiting for a lock, other processes m
 
 The **FILELOCK** command is implemented using the native locking mechanism of the operating system and is entirely at its mercy. Because of this, some slight implementation differences between operating systems might be noticed.
 
-The uses of the native (UNIX) locking mechanism means the file in question ***must not/can not***use the jBASE locking mechanism (jDLS). A file can be set to use the native locking mechanism by using the **jchmod** command:
+The uses of the native (UNIX) locking mechanism means the file in question ***must not/cannot*** use the jBASE locking mechanism (jDLS). A file can be set to use the native locking mechanism by using the **jchmod** command:
 
 ```
 jchmod +N filename {filename ...}

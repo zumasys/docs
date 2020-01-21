@@ -11,7 +11,7 @@
 
 # Description
 
-All processes have an environment associated with them that contains a number of variables indicating the state of various parameters. The **GETENV**function allows a program to determine the value of any of the environment variables associated with it. It takes the general form:
+All processes have an environment associated with them that contains a number of variables indicating the state of various parameters. The **GETENV** function allows a program to determine the value of any of the environment variables associated with it. It takes the general form:
 
 ```
  GETENV(expression, variable)
@@ -28,11 +28,11 @@ The function itself returns a boolean TRUE or FALSE value indicating the success
 An example of use is as:
 
 ```
-0001     IF GETENV("CLASSPATH", ClassPath) THEN
-0002         CRT "CLASSPATH path is ":ClassPath
-0003     END ELSE
-0004         CRT "CLASSPATH is not set up"
-0005     END
+     IF GETENV("CLASSPATH", ClassPath) THEN
+         CRT "CLASSPATH path is ":ClassPath
+     END ELSE
+         CRT "CLASSPATH is not set up"
+     END
 ```
 
 

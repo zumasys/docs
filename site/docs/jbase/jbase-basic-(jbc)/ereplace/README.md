@@ -9,7 +9,7 @@
 
 # Description
 
-The **EREPLACE**function is useful for replacing substring in an expression with another substring. If the occurrence is not specified , the function replaces each occurrence of a substring. The function takes the general form:
+The **EREPLACE** function is useful for replacing substring in an expression with another substring. If the occurrence is not specified , the function replaces each occurrence of a substring. The function takes the general form:
 
 ```
 EREPLACE(expression, substring, replacement [,occurrence [,begin] ] )
@@ -17,29 +17,25 @@ EREPLACE(expression, substring, replacement [,occurrence [,begin] ] )
 
 Where:
 
-occurrence specifies the number of occurrences of substring to replace. To replace all occurrences, specify occurrence as a number less than 1.
+**occurrence** specifies the number of occurrences of substring to replace. To replace all occurrences, specify occurrence as a number less than 1.
 
-begin specifies the first occurrence to replace. If begin is
+**begin** specifies the first occurrence to replace. If begin is omitted or less than one, it defaults to one.
 
-omitted or less than one, it defaults to one.
+If **substring** is an empty string, **replacement** is prefixed to **expression**.
 
-If substring is an empty string, replacement is prefixed to
+If **replacement** is an empty string, it removes all occurrences of substring.
 
-expression.
+If **expression** evaluates to null, it returns null.
 
-If replacement is an empty string, it removes all occurrences of substring.
-
-If expression evaluates to null, it returns null.
-
-If substring, replacement, occurrence, or begin evaluates to null, the **EREPLACE** function fails and the program terminates with a run-time error message. The **EREPLACE**function behaves like the [CHANGE](./../change) function except when substring evaluates to an empty string.
+If **substring**, **replacement**, **occurrence**, or **begin** evaluates to null, the **EREPLACE** function fails and the program terminates with a run-time error message. The **EREPLACE**function behaves like the [CHANGE](./../change) function except when **substring** evaluates to an empty string.
 
 An example of use is as:
 
 ```
 A = "AAABBBCCCDDDBBB"
-PRINT EREPLACE (A,"BBB","ZZZ")
-PRINT EREPLACE (A,"","ZZZ")
-PRINT EREPLACE (A,"BBB","")
+CRT EREPLACE (A,"BBB","ZZZ")
+CRT EREPLACE (A,"","ZZZ")
+CRT EREPLACE (A,"BBB","")
 ```
 
 to output :
