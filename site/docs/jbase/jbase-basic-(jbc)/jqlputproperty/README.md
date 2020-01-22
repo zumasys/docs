@@ -37,6 +37,6 @@ This function returns -1 if it locates a problem in the statement and zero for n
 > It should also be noted that some properties may require [JQLEXECUTE](./../jqlexecute) first.
 
 
-For a practical example of use, see the **jexport.b** program in the **$JBCRELELEASEDIR/****samples/JQLBASIC** directory.
+For a practical example of use, see the **jexport.b** program in the **$JBCRELELEASEDIR**/samples/JQLBASIC directory.
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

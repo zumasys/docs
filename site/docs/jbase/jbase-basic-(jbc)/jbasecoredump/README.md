@@ -19,9 +19,9 @@ The program variables and [CALL](./../call) /[GOSUB](./../gosub) stack will be d
 
 Where:
 
-expression1 shows the name of the operating system file to output the core dump to. It is possible to supply "" instead of a file name and jBASE allocates a filename of: /JBASECOREDUMP\_nnnn\_mmmmm, where nnn is the port number and mmmmmm is the process id.
+**expression1** shows the name of the operating system file to output the core dump to. It is possible to supply "" instead of a file name and jBASE allocates a filename of:  /JBASECOREDUMP\_nnnn\_mmmmm, where nnn is the port number and mmmmmm is the process id.
 
-expression2 is not used at present. Future versions will allow extra information to be selectively dumped. A null string is always returned from the function.
+**expression2** is not used at present. Future versions will allow extra information to be selectively dumped. A null string is always returned from the function.
 
 The output is in free style text format.
 

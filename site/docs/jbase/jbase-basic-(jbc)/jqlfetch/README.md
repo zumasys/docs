@@ -17,14 +17,13 @@ JQLFETCH (Statement, ControlVar, DataVar)
 
 Where:
 
-- Statement is the result of a valid call to [JQLCOMPILE](./../jqlcompile), followed by a valid call to [JQLEXECUTE](./../jqlexecute).
-- ControlVar will receive the ‘control break’ elements of any query. For example, if there are BREAK values in the statement, described here is the format of ControlVar:
+- **Statement** is the result of a valid call to [JQLCOMPILE](./../jqlcompile), followed by a valid call to [JQLEXECUTE](./../jqlexecute).
+- **ControlVar** will receive the ‘control break’ elements of any query. For example, if there are BREAK values in the statement, described here is the format of **ControlVar**:
 
-
-
-| Attr 1<br> | Level: 0 means detail line 1 – 25 for the control<br>breaks, the same as the A correlative NB.<br> |
+| Attribute<br> | Description<br> |
 | --- | --- |
-| Attr2<br> | Item ID<br> |
+| Attr 1<br> | Level: 0 means detail line 1 – 25 for the control<br>breaks, the same as the A correlative NB.<br> |
+| Attr 2<br> | Item ID<br> |
 | Attr 3<br> |  Break control Value is 1 if a blank line should be output first.<br> |
 | Attr 4<br> | Pre-break value for 'B' option in header<br> |
 | Attr 5<br> | Post-break value for 'B' option in header<br> |
@@ -32,7 +31,7 @@ Where:
 
 
 
-- DataVar will receive the actual screen data on a LIST statement for instance. The format is one attribute per column.
+- **DataVar** will receive the actual screen data on a LIST statement, for instance. The format is one attribute per column.
 
 
 Applies Attribute 7 Conversions (or attribute 3 in Prime-style DICTS) to the data

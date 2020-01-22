@@ -11,19 +11,19 @@
 
 ## Description
 
-The**ISSPACE()** function will check that the expression consists of entirely space type characters. The function takes the general form:
+The **ISSPACE()** function will check that the expression consists of entirely space type characters. The function takes the general form:
 
 ```
 ISSPACE(expression)
 ```
 
-Where **e****xpression** can return a result of any type.
+Where **expression** can return a result of any type.
 
-The **I****SSPACE()**function will then return TRUE (1) if the expression consists of entirely spacing type characters, like **@TAB**. The function will return FALSE (0) if the expression contains any characters, which are not space characters.
+The **ISSPACE()** function will then return **TRUE**  (1) if the expression consists of entirely spacing type characters, like **@TAB**. The function will return **FALSE** (0) if the expression contains any characters, which are not space characters.
 
 ## International Mode 
 
-When the **ISSPACE()** function is used in International Mode the properties of each character is determined according to the Unicode Standard.
+When the **ISSPACE()** function is used in International Mode, the properties of each character are determined according to the Unicode Standard.
 
 
 

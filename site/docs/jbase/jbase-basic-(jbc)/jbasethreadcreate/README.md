@@ -17,10 +17,10 @@ JBASETHREADCreate(ProgramName, Arguments, User, Handle)
 
 Where:
 
-- ProgramName is the name of program to execute,
-- Arguments are any command line arguments,
-- User is the name of the user in format:  "user{,account{,password}}" or "" to configure as calling user id.
-- Handle will contain the value of the returned thread handle
+- **ProgramName** is the name of program to execute,
+- **Arguments** are any command line arguments,
+- **User** is the name of the user in format:  "user{,account{,password}}" or "" to configure as calling user id.
+- **Handle** will contain the value of the returned thread handle
 
 
 

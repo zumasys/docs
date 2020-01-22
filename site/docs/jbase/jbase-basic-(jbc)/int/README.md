@@ -16,7 +16,7 @@
 
 # Description
 
-The **I****NT()**function returns the floor of a numeric value.
+The **INT()** function returns the floor of a numeric value.
 
 It takes the general form:
 
@@ -24,9 +24,9 @@ It takes the general form:
 INT(expression) 
 ```
 
-Where **e****xpression** should evaluate to a numeric value. The function will then return the integer portion of the value.
+Where **expression** should evaluate to a numeric value. The function will then return the integer portion of the value.
 
-The function works by truncating the fractional part of the numeric value rather than by standard mathematical rounding techniques. Therefore, **INT****(9.001)** and **INT****(9.999)**will both return the value **9**.
+The function works by truncating the fractional part of the numeric value rather than by standard mathematical rounding techniques. Therefore, **INT**(9.001) and **INT**(9.999) will both return the value **9**.
 
 An example of use is as:
 

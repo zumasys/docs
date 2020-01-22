@@ -484,7 +484,7 @@ jBASIC is able to create files and directories that can be read by the operating
 | [FINDSTR](./../findstr) <br> | statement<br> | Finds the location of a specified string within a dynamic array.<br> |
 | [FMT](./../fmt)<br> | function<br> | Formats a string to a specified pattern.<br> |
 | [FMTS](./../fmts)<br> | function<br> | Formats the elements of a dynamic array for output.<br> |
-| [FMUL](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jbc2_FMUL.HTM)<br> | function<br> | Performs multiplication on two floating point numbers.<br> |
+| [FMUL](./../fmul)<br> | function<br> | Performs multiplication on two floating point numbers.<br> |
 | [FOLD](./../fold) <br> | function<br> | Re-delimits a specified string with attribute marks.<br> |
 | [FOOTING](./../footing)<br> | statement<br> | Defines a footing to be included at the bottom of an output page.<br> |
 | [FORMLIST](./../formlist) <br> | statement<br> | Creates an active select list from a dynamic array.<br> |
@@ -501,7 +501,7 @@ jBASIC is able to create files and directories that can be read by the operating
 | [GOSUB](./../gosub) <br> | statement<br> | Causes execution of a local subroutine.<br> |
 | [GOTO](./../goto)<br> | statement<br> | Causes program execution to jump to the code at a specified label.<br> |
 | [GROUP](./../group)<br> | function<br> | Returns one or more delimited fields from a string.<br> |
-| [GROUPSTORE](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jbc2_GROUPSTORE.htm)<br> | statement<br> | Replaces one group of characters in a string with another group of characters.<br> |
+| [GROUPSTORE](./../groupstore)<br> | statement<br> | Replaces one group of characters in a string with another group of characters.<br> |
 | **H** |
 | [HEADING](./../heading)<br> | statement<br> | Defines a heading to be included at the top of an output page.<br> |
 | [HEADINGE AND HEADINGN](./../headinge-and-headingn)<br> | statement<br> | Defines a heading to be included at the top of an output page and ejects the page.<br> |

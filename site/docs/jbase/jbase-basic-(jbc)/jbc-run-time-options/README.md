@@ -29,7 +29,7 @@ The Descriptions below are UNIX-centric.
 | **-Jp**<br> | Normally the debugger will try to display the line of source code associated with the current program position. The debugger will, by default, only look in the current working directory for the source file. You can use the -Jp option to give a list of file names to search in, each name delimited by a colon. The file can be any supported by jEDI, including hashed files and UNIX directories. The following example tells the debugger to lookfirst in the file BP in the home directory and then in the current working directory:<br>`% prog -Jp$HOME/BP:.`<br>You can also use the ‘p’ command from the debugger prompt to achieve the same effect.<br> |
 | **-Jr**<br> | Redirects debugger input/output to the specified file. This allows you to debug on a different terminal from that running the application. This is very useful when debugging applications where screen layout is important. You can also use the ‘r’ command from the debugger prompt to achieve the same effect.<br> |
 | **-Js**<br> | Displays the CPU usage on exiting the program.<br> |
-| **-Ju**<br> | To set the terminal output to be unbuffered. Under normal circumstances, data printed to the terminal will only be actually be displayed under the following circumstances:<ul><li>A new line character is printed.</li><li>The maximum number of characters have been buffered.</li><li>The program terminates, or calls another program through the PERFORM, EXECUTE, CHAIN or ENTER command.</li><li>The program pauses due to execution of an INPUT, SLEEP or RQM statement.</li></ul><br>For example, in the following code, the data is not actually printed until the very last line:<br><br>```<br>FOR Loop = 1 TO 10<br>   PRINT @(0,23):”Loop “:Loop:@(-4):<br>   CALL DOTHIS<br>NEXT Loop<br>PRINT “Completed”<br>```<br><br>Some legacy applications do this sort of thing, and the status message is not displayed when it is required. There are a number of ways to force each PRINT or CRT statement to be displayed:<br><ul><li>Use this -Ju option.</li><li>Append a CHAR(0) to the end of the string. For example:</li></ul><br>```<br>PRINT @(0,23):”Loop “:Loop:@(-4):CHAR(0):<br>```<br><br>Note that this incurs a performance penalty and should be avoided if possible. Small terminal populations will probably not see much degradation, but large terminal populations performing lots of screen based activity will incur a significant penalty.<br> |
+| **-Ju**<br> | To set the terminal output to be unbuffered. Under normal circumstances, data printed to the terminal will only be actually be displayed under the following circumstances:<ul><li>A new line character is printed.</li><li>The maximum number of characters have been buffered.</li><li>The program terminates, or calls another program through the PERFORM, EXECUTE, CHAIN or ENTER command.</li><li>The program pauses due to execution of an INPUT, SLEEP or RQM statement.</li></ul><br>For example, in the following code, the data is not actually printed until the very last line:<br><br>```<br>FOR Loop = 1 TO 10<br>   CRT @(0,23):”Loop “:Loop:@(-4):<br>   CALL DOTHIS<br>NEXT Loop<br>CRT “Completed”<br>```<br><br>Some legacy applications do this sort of thing, and the status message is not displayed when it is required. There are a number of ways to force each PRINT or CRT statement to be displayed:<br><ul><li>Use this -Ju option.</li><li>Append a CHAR(0) to the end of the string. For example:</li></ul><br>```<br>CRT @(0,23):”Loop “:Loop:@(-4):CHAR(0):<br>```<br><br>Note that this incurs a performance penalty and should be avoided if possible. Small terminal populations will probably not see much degradation, but large terminal populations performing lots of screen based activity will incur a significant penalty.<br> |
 | **-Jw**<br> | Prevents the debugger being entered when warning messages are issued. By default, when a run-time error occurs and a warning message is issued, the debugger will be entered. The later section on error messages describes this more fully. This option will not affect fatal run-time errors, where the debugger will still be entered if possible.<br> |
 | **-Jx**<br> | Causes the contents of the all variables in a program to be displayed at the end of a program.<br> |
 | **-JC**<br> | Turns on [coverage support](./../../jbase/tools/jcover).<br> |
@@ -41,7 +41,7 @@ The Descriptions below are UNIX-centric.
 The use of the -J options is usually hidden from the application. Consider the following jBC program:
 
 ```
-001 PRINT DQUOTE(SENTENCE())
+    CRT DQUOTE(SENTENCE())
 ```
 
 Assume the program was started like this:
@@ -59,7 +59,7 @@ The output from the program would be:
 The same is true for the **SYSTEM(1000)** function call. However the application can use the SYSTEM(1001) function call to obtain all the command line arguments, for example if you changed the source code to become:
 
 ```
-001 PRINT DQUOTE(CHANGE(SYSTEM(1001), @AM, ” “)
+CRT DQUOTE(CHANGE(SYSTEM(1001), @AM, ” “)
 ```
 
 And ran it the same way, the output would be:

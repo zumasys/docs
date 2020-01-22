@@ -17,11 +17,11 @@ The **ISDIGIT** function will check that the expression consists of entirely num
 ISDIGIT(expression)
 ```
 
-The**expression** can return a result of any type. The **ISDIGIT()** function will return TRUE (1) if the expression consists of entirely numeric characters. The function will return FALSE (0) if the expression contains any characters, which are not numeric.
+The **expression** can return a result of any type. The **ISDIGIT()** function will return **TRUE** (1) if the expression consists of entirely numeric characters. The function will return **FALSE** (0) if the expression contains any characters, which are not numeric.
 
 ## International Mode 
 
-When the **ISDIGIT()**function is used in International Mode the properties of each character is determined according to the Unicode Standard.
+When the **ISDIGIT()** function is used in International Mode, the properties of each character are determined according to the Unicode Standard.
 
 
 

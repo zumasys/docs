@@ -33,7 +33,7 @@ LIST PROGRAMMERS NAME
 
 This function returns -1 in the event of a problem, such as an incorrect statement variable. It will cause the **statement** to run against the database and produce a result set for use with [JQLFETCH](./../jqlfetch).
 
-For a practical example of use, see the **jexport.b** program in the **$JBCRELELEASEDIR/****samples/JQLBASIC** directory.
+For a practical example of use, see the **jexport.b** program in the **$JBCRELELEASEDIR**/samples/JQLBASIC directory.
 
 
 

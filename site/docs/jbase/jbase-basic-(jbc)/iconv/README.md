@@ -23,7 +23,7 @@ Where:
 - **expression2** should evaluate to the conversion code that is to be performed against the data.
 
 
-Add additional**ICONV** extensions for timestamp as per WDx/WTx
+[comment]: <> ( Add additional **ICONV** extensions for timestamp as per WDx/WTx )
 
 If the conversion code used assumes a numeric value and a non-numeric value is passed then the original value in expression1 is returned unless the emulation option iconv\_nonnumeric\_return\_null is set.
 
@@ -31,7 +31,7 @@ An example of use is as:
 
 ```
 InternalDate = ICONV("27 MAY 1997", "D")
-CRT(InternalDate)
+CRT InternalDate
 ```
 
 The above should display the date in internal format.

@@ -73,7 +73,7 @@ This section details how to track specific error messages.
 
 The [JBASE\_ERRMSG\_TRACE](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/env2_JBASE_ERRMSG_TRACE.htm) environment variable is message-agnostic. When it is set it logs **all** jBASE messages that are 'printable' (i.e. not marked 'NOPRINT') in the **%JBCRELEASEDIR%\jbcmessages** file. This can be problematic when all you want to do is log the occurrences of a few specific error messages. The log produced by **JBASE\_ERRMSG\_TRACE** will also not tell you what process produced the error, what time the error occurred, the port number, the username, etc.
 
-For example, suppose we want to only log BASIC program errors that result from the 3 errors that are controlled by  [JBASE\_ERRMSG\_TRACE](./../../environment-variables/jbase_errmsg_trace), [JBASE\_ERRMSG\_ZERO\_USED](./../../environment-variables/jbase_errmsg_zero_used) and  [JBASE\_ERRMSG\_DIVIDE\_ZERO](./../../environment-variables/jbase_errmsg_divide_zero). We don't want the program to drop to the debugger, nor do we want these error messages to display to the user. Setting **JBASE\_ERRMSG\_TRACE=1**will certainly log these occurrences but they will be intermixed with all other messages making it difficult to determine what happened when.
+For example, suppose we want to only log BASIC program errors that result from the 3 errors that are controlled by  [JBASE\_ERRMSG\_TRACE](./../../environment-variables/jbase_errmsg_trace), [JBASE\_ERRMSG\_ZERO\_USED](./../../environment-variables/jbase_errmsg_zero_used) and  [JBASE\_ERRMSG\_DIVIDE\_ZERO](./../../environment-variables/jbase_errmsg_divide_zero). We don't want the program to drop to the debugger, nor do we want these error messages to display to the user. Setting **JBASE\_ERRMSG\_TRACE=1** will certainly log these occurrences but they will be intermixed with all other messages making it difficult to determine what happened when.
 
 The solution (details to follow) is to remove (unset) **JBASE\_ERRMSG\_TRACE** and place a POSTREAD trigger on your own version of the **jbcmessages** file. The trigger code will look for, and log, the 3 specific errors. Of course, you can add to this list as long as the error message is in the **jbcmessages** file.
 
@@ -127,7 +127,7 @@ There are two stages, Development and Implementation. The Development stage can 
 
 It assumes the existence of a file called **ERRORLOG**, in which the errors will be logged, and a different **jbcmessages** file. There are other things that need to be done to allow the trigger to fire and we will get to those shortly.
 
-2) The first task is to create a custom **jbcmessages** file and then modify specific messages in this new file. For this example, we will use a directory named **C:\custom**. We will also assume that **JBCRELEASEDIR**is set to **C:\jbase5\CurrentVersion**.
+2) The first task is to create a custom **jbcmessages** file and then modify specific messages in this new file. For this example, we will use a directory named **C:\custom**. We will also assume that **JBCRELEASEDIR**is set to **C:\jbase\CurrentVersion**.
 
 Here are the steps:
 
@@ -204,11 +204,11 @@ c) Optional: change the value the **JBASE\_ERRMSG\_xyz** environment variables b
 Here is a simplistic program to test things out. After running it, if everything is working correctly, there will be 3 records in the **ERRORLOG** file, one record for each of the 3 error conditions.
 
 ```
-0001   PROGRAM testerrors 
-0002   a = 1234 0003   b = 'xyz' 
-0004   CRT "Test1: use a non numeric --> ":a+b 
-0005   CRT "Test2: divide by 0 --> ":a/0 
-0006   CRT "Test3: invalid or uninitialised --> ":c  ;* variable c was never assigned
+   PROGRAM testerrors 
+   a = 1234 0003   b = 'xyz' 
+   CRT "Test1: use a non numeric --> ":a+b 
+   CRT "Test2: divide by 0 --> ":a/0 
+   CRT "Test3: invalid or uninitialised --> ":c  ;* variable c was never assigned
 ```
 
 

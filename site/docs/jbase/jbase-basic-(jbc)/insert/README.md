@@ -19,8 +19,8 @@ INSERT(expression1, expression2{, expression3 {, expression4 }}; expression5)
 
 Where :
 
-- **expression1**evaluates to a dynamic array in which to insert a new element and will normally be a variable.
-- **expression2, expression3** and**expression4** should evaluate to integer values and specify the attribute, multi-value and sub-value before which the new element will be inserted.
+- **expression1** evaluates to a dynamic array in which to insert a new element and will normally be a variable.
+- **expression2, expression3** and **expression4** should evaluate to integer values and specify the attribute, multi-value and sub-value before which the new element will be inserted.
 - **expression5** evaluates to the new element to be inserted in expression1.
 
 
@@ -30,7 +30,7 @@ An example of use is as:
 A = INSERT(B, 1, 4; "Field1Value4")
 ```
 
-Note that *B*is unchanged and the modified *expression1*is assigned to the variable A.
+Note that **B** is unchanged and the modified **expression1** is assigned to the variable A.
 
 
 
