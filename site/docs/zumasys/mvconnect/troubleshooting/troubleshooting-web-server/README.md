@@ -76,7 +76,7 @@ A failed request from Edge looks like
 
 
 
-If you get any type of page response then jAgent is running.  If you are not getting a connection you should go to the next section and run jAgent in the foreground.  You should also review the jAgent [documentation](./../../../../jbase/jagent/introduction-to-jagent)
+If you get any type of page response then jAgent is running.  If you are not getting a connection you should go to the next section and run jAgent in the foreground.  You should also review the jAgent [documentation](https://jbase.helpjuice.com/30312-jagent/introduction-to-jagent)
 
 ## Run jAgent in the Foreground
 

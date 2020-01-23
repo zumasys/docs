@@ -4,7 +4,6 @@
 
 [wbuildjson](./wbuildjson)  
 [wdb.resource](./wdb.resource)  
-[wdebug](./wdebug)  
 [wencodejson](./wencodejson)  
 [wgetbody](./wgetbody)  
 [wgetconfig](./wgetconfig)  

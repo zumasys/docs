@@ -1,7 +1,7 @@
 # jBASE 5.7.6 Release notes
 
 **Created At:** 1/13/2020 1:29:14 PM  
-**Updated At:** 1/17/2020 3:07:07 PM  
+**Updated At:** 1/22/2020 10:26:59 AM  
 **Original Doc:** [jbase-576-release-notes](https://docs.jbase.com/88391-5-7-6-release-notes/jbase-576-release-notes)  
 **Original ID:** 516219  
 **Internal:** No  
@@ -33,6 +33,7 @@ This release includes various internal bug fixes and the following enhancements 
 - [PN5\_60967](./../pn5_60967) - Enhance the maximum Q-pointer resolution error message to include the name of the originating Q-pointer
 - [PN5\_60968](./../pn5_60968) - Add a 5th parameter to the **LOCATE()** function to specify the start position
 - [PN5\_60969](./../pn5_60969) - Enhance the reporting and recovery of errors caused by the fork() command failing
-- [PN5\_60970](PN5_60970) -
+- [PN5\_60970](./../pn5_60970) - **DELETE-FILE DICT**deletes more than just the dictionary
 - [PN5\_60971](./../pn5_60971) - Add **KEEP\_ALIVE** property to JRClient **JConnection**class
+- [PN5\_60972](./../pn5_60972) - **PH-STATUS**facelift
 

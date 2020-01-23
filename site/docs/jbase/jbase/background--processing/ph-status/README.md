@@ -1,7 +1,7 @@
 # PH-STATUS
 
 **Created At:** 6/14/2018 2:19:39 PM  
-**Updated At:** 1/20/2020 1:29:15 PM  
+**Updated At:** 1/21/2020 12:09:08 AM  
 **Original Doc:** [ph-status](https://docs.jbase.com/46465-background-processing/ph-status)  
 **Original ID:** 321824  
 **Internal:** No  
@@ -11,7 +11,7 @@
 
 The jBASE **PH-STATUS** command displays status and history information for each jBASE background task process. The information is read from the **$JBCRELEASEDIR/tmp/PH-HISTORY** file.
 
-Output is sorted **BY STATUS BY-DSND START-DATE BY-DSND START-TIME**
+Output is sorted **BY STATUS-ALPHA BY-DSND START-DATE BY-DSND START-TIME**
 
 The command takes the general form:
 

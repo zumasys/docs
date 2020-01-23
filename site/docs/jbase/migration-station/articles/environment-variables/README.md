@@ -1,7 +1,7 @@
 # ENVIRONMENT VARIABLES
 
 **Created At:** 11/3/2017 1:29:00 PM  
-**Updated At:** 4/16/2019 3:45:54 PM  
+**Updated At:** 1/23/2020 11:02:05 PM  
 **Original Doc:** [environment-variables](https://docs.jbase.com/44497-articles/environment-variables)  
 **Original ID:** 284123  
 **Internal:** No  
@@ -140,6 +140,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 | [JBC\_OLD\_SP\_EDIT](./../../../environment-variables/jbc_old_sp_edit)<br> | specifies the alternative SP-EDIT format<br> |
 | [JBCLISTFILE](./../../../environment-variables/jbclistfile)<br> | specify alternate select list file<br> |
 | [JBCLISTID](./../../../environment-variables/jbclistid)<br> | force user account name to be part stored list ids.<br> |
+| JBASE\_PIVOT\_YEAR | Set pivot year for full year calculation when doing a MD conversion on a 2 digit year.  Default is 30.  This means if YY &lt; 30 then it is make 19YY, else 20YY.  The 30 will be replaced with this option.   |
+| <br> | <br> |
 
 
 

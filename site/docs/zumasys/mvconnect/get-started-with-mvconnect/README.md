@@ -15,7 +15,7 @@
 
 Once you have installed MVConnect you are ready to start developing.  MVConnect is a cross-platform Web/Rest platform.  The product includes two main components:
 
-1. A small web server that runs directly on your Pick box.  This is a non-Pick program that listens for web requests and transfers that call into Pick.  Since jBASE 5.6, RESTful Services have been built into jAgent.  On other platforms and prior to jBASE 5.6, we offer MVAppsvr which facilitates getting into Pick via the Pick executable.  Both of these front end web servers are configured a little differently.  Look here for documentation on how to configure MVAppsvr while this [link](./../../../jbase/jagent/introduction-to-jagent "jAgent documentation") describes how to setup jAgent.
+1. A small web server that runs directly on your Pick box.  This is a non-Pick program that listens for web requests and transfers that call into Pick.  Since jBASE 5.6, RESTful Services have been built into jAgent.  On other platforms and prior to jBASE 5.6, we offer MVAppsvr which facilitates getting into Pick via the Pick executable.  Both of these front end web servers are configured a little differently.  Look here for documentation on how to configure MVAppsvr while this [link](https://docs.jbase.com/30312-jagent/introduction-to-jagent "jAgent documentation") describes how to setup jAgent.
 2. Pick side library for doing web work.  These library pieces are the same for all versions of Pick.  This allows you to write Web and Rest applications that can easily move to different versions of Pick.
 
 

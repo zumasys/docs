@@ -7,8 +7,6 @@
 [configuring-the-odbc-jedi-on-linux&unix](./configuring-the-odbc-jedi-on-linux&unix)  
 [configuring-the-odbc-jedi-on-windows](./configuring-the-odbc-jedi-on-windows)  
 [converting-from-unix-to-windows](./converting-from-unix-to-windows)  
-[curladdheader](./curladdheader)  
-[curlexec](./curlexec)  
 [dynamic-objects](./dynamic-objects)  
 [emulation-revision](./emulation-revision)  
 [environment-variables](./environment-variables)  
@@ -34,6 +32,5 @@
 [structure-of-odbc-jedi-mapping-files](./structure-of-odbc-jedi-mapping-files)  
 [system-manager](./system-manager)  
 [templates](./templates)  
-[troubleshooting-jagent-web-server](./troubleshooting-jagent-web-server)  
 [using-the-odbc-jedi](./using-the-odbc-jedi)  
 
