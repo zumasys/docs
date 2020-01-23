@@ -4,7 +4,7 @@
 <badge text='curl' vertical='middle' />
 <badge text='ftp' vertical='middle' />
 
-Sample ftp function that uses the [$ftp class](./ftpclass-jabba/#heading)
+Sample ftp function that uses the [$ftp class](../ftpclass-jabba/#heading)
 
 ### FTPPUT.b
 
