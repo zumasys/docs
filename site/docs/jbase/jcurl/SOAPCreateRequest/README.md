@@ -1,5 +1,10 @@
 # SOAPCreateRequest
 
+**Tags:**
+<badge text='curl' vertical='middle' />
+<badge text='soap' vertical='middle' />
+<badge text='http' vertical='middle' />
+
 Create an **$http** handle (see also [createRequest](../createRequest/#heading)).
 
 The **SOAPCreateRequest** function is basically a wrapper to **createRequest**, but additionally sets some header values in preparation for making ***SOAP*** requests.

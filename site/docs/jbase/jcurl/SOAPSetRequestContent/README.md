@@ -1,5 +1,10 @@
 # SOAPSetRequestContent
 
+**Tags:**
+<badge text='curl' vertical='middle' />
+<badge text='soap' vertical='middle' />
+<badge text='http' vertical='middle' />
+
 Set the content for a SOAP request (**$http** handle).
 
 ## Synax:

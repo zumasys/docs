@@ -1,5 +1,10 @@
 # SOAPSubmitRequest
 
+**Tags:**
+<badge text='curl' vertical='middle' />
+<badge text='soap' vertical='middle' />
+<badge text='http' vertical='middle' />
+
 Add a header to a given curlHandle for subsequent execution ([curlExec](../curlExec/#heading)).
 
 ## Synax:

@@ -1,5 +1,9 @@
 # createRequest
 
+**Tags:**
+<badge text='curl' vertical='middle' />
+<badge text='http' vertical='middle' />
+
 Create an **$http** handle for subsequent http requests (see also [SOAPCreateRequest](../SOAPCreateRequest/#heading)).
 
 ## Synax:

@@ -1,5 +1,9 @@
 # addRequestParameter
 
+**Tags:**
+<badge text='curl' vertical='middle' />
+<badge text='http' vertical='middle' />
+
 Add a parameter/value(s) to a given **$http** handle for subsequent execution ([submitRequest](../submitRequest/#heading)).
 
 ## Synax:

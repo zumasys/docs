@@ -1,5 +1,9 @@
 # submitRequest
 
+**Tags:**
+<badge text='curl' vertical='middle' />
+<badge text='http' vertical='middle' />
+
 Submit an request for a given **$http** handle.
 
 ## Synax:

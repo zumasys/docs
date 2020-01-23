@@ -1,6 +1,6 @@
 # curlInit
 
-Create a jCURL handle for subsequent use.
+Create a [jCURL](../jcurl) handle for subsequent use.
 
 ## Synax:
 
@@ -11,7 +11,7 @@ where:
 | Variable | Type | Description |
 |--|--|--|
 ***result_code*** | integer | result code
-***curlHandle*** | var | a handle to use with other jCURL functions
+***curlHandle*** | var | a handle to use with other [jCURL](../../jcurl) functions
 
 ## Example
 ```

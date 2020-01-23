@@ -1,5 +1,9 @@
 # setRequestHeader
 
+**Tags:**
+<badge text='curl' vertical='middle' />
+<badge text='http' vertical='middle' />
+
 Add a header/value to the given **$http** request.
 
 ## Synax:

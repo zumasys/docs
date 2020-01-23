@@ -1,5 +1,9 @@
 # setRequestContent
 
+**Tags:**
+<badge text='curl' vertical='middle' />
+<badge text='http' vertical='middle' />
+
 Set the body content for an **$http** request.
 
 ## Synax:
