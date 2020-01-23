@@ -5,7 +5,7 @@
 <badge text='soap' vertical='middle' />
 <badge text='http' vertical='middle' />
 
-Create an **$http** handle (see also [createRequest](../createRequest/#heading)).
+Create an **$http** handle (see also [createRequest](../createRequest/#heading)) using the [jCURL](../../jcurl) module.
 
 The **SOAPCreateRequest** function is basically a wrapper to **createRequest**, but additionally sets some header values in preparation for making ***SOAP*** requests.
 

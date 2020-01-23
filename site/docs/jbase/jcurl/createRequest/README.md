@@ -4,7 +4,7 @@
 <badge text='curl' vertical='middle' />
 <badge text='http' vertical='middle' />
 
-Create an **$http** handle for subsequent http requests (see also [SOAPCreateRequest](../SOAPCreateRequest/#heading)).
+Create an **$http** handle for subsequent http requests (see also [SOAPCreateRequest](../SOAPCreateRequest/#heading)) using the [jCURL](../../jcurl) module.
 
 ## Synax:
 
