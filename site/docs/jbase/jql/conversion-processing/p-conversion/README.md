@@ -22,8 +22,9 @@ where:
 
 
 
-| nA<br> | tests for n alphabetic characters<br> |
+| <!----> | <!----> |
 | --- | --- |
+| nA<br> | tests for n alphabetic characters<br> |
 | nC<br> | tests for n alphabetic or numeric characters<br> |
 | nN<br> | tests for n numeric characters<br> |
 | nP<br> | tests for n printable characters<br> |

@@ -12,8 +12,9 @@ WWW.INFO is a common variable that stores all the web information.  It is not r
 
 
 
-| Common Position | Description | Subroutine |
+| <!----> | <!----> | <!----> |
 | --- | --- | --- |
+| Common Position | Description | Subroutine |
 | 25 | All passed variable names. |  |
 | 26 | All passed variable values | WGETVAR |
 | 27 | All passed cookie names | <br> |

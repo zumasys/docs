@@ -18,8 +18,9 @@ CALL WGETVAR(VARVALUE,VARNAME)
 ### SYNTAX ELEMENTS
 
 
-| Parameter | Description |
+| <!----> | <!----> |
 | --- | --- |
+| Parameter | Description |
 | VARVALUE | This is the returned value of the variable. |
 | VARNAME | This is a passed in parameter of the value you want retrieved. |
 

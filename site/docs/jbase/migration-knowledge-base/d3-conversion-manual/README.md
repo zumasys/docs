@@ -169,8 +169,9 @@ D3.RPT                                               - Pr
 ## Structuring jBASE to look like typical D3
 
 
-| **Traditional D3**<br> | **PICK D3 Example**<br> | **jBASE**<br> |
+| <!----> | <!----> | <!----> |
 | --- | --- | --- |
+| **Traditional D3**<br> | **PICK D3 Example**<br> | **jBASE**<br> |
 | D3M<br> | The actual hardware<br> | *machine* is the directory name for the «Machine»<br> |
 |     SYSTEM FILE<br> | SYSTEM<br> | C:\jbase5\D3MACHINES\D3M\SYSTEM<br> |
 |         ACCOUNTS<br> | ORDER-ENTRY<br> | C:\jbase5\D3MACHINES\D3M\ORDER-ENTRY<br> |
@@ -231,6 +232,8 @@ D3 allows for lower-case and mixed-case information to be treated without regard
 2. What are valid data accounts and what are system and/or old unused accounts?  Create a table of your system and make notes for each account to be converted.
 
 
+| <!----> | <!----> | <!----> |
+| --- | --- | --- |
 | Account<br> | Convert?<br> | Note<br> |
 | DM<br> | Yes<br> | Contains JBASE.STAGING file<br> |
 | MAINLINK<br> | No<br> | Not used anymore<br> |

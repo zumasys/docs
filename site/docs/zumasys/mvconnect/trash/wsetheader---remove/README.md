@@ -18,8 +18,9 @@ CALL WSETHEADER(HEADERVALUE,HEADERNAME)
 ### **SYNTAX ELEMENTS**
 
 
-| Parameter | Description |
+| <!----> | <!----> |
 | --- | --- |
+| Parameter | Description |
 | HEADERVALUE | Set this to what you wish to assign the header. |
 | HEADERNAME | Set to the name of the header you want. |
 

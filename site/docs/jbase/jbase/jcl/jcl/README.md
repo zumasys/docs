@@ -16,8 +16,9 @@
 
 
 
-| [Introduction](./.) | Introduction to the jBASE command language. |
+| <!----> | <!----> |
 | --- | --- |
+| [Introduction](./.) | Introduction to the jBASE command language. |
 | [PQ/PQN Differences](./../pq-and-pqn--differences) | Functionality differences between PQ and PQN procs. |
 | [A](./../jcl-a) | Copies a parameter from the active input buffer to the active output buffer. |
 | [B](./../jcl-b) | Moves the active input buffer pointer back to the previous parameter. |

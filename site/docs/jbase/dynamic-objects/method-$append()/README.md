@@ -25,8 +25,9 @@ arr[-1] = value
 ## Arguments
 
 
-| Argument<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Argument<br> | Description<br> |
 | value | the value to append<br> |
 | reject\_duplicates | 0 = Duplicates are allowed (default)<br>1 = Duplicates are rejected |
 | case\_insensitive<br> | 0 = The duplicate check is case sensitive (default)<br><br>1 = The duplicate check is case insensitive (any non-zero number is valid)<br> |

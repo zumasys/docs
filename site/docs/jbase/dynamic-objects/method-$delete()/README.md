@@ -26,8 +26,9 @@ obj->$delete(property name)
 
 
 
-| Argument<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Argument<br> | Description<br> |
 | property name<br> | the name of the property to be deleted from the object<br> |
 
 

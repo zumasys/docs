@@ -12,8 +12,9 @@ This article is designed to get you started on created database/object classes f
 Here is our layout for our pick record
 
 
-| Attribute | Description | Associated |
+| <!----> | <!----> | <!----> |
 | --- | --- | --- |
+| Attribute | Description | Associated |
 | 0 | Order ID | <br> |
 | 1 | Customer Id | <br> |
 | 2 | Employee Id | <br> |

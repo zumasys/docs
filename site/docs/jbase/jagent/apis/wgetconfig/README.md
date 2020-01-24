@@ -18,8 +18,9 @@ CALL WGETCONFIG(VALUE,NAME)
 #### SYNTAX ELEMENTS
 
 
-| Parameter | Description |
+| <!----> | <!----> |
 | --- | --- |
+| Parameter | Description |
 | VALUE | The returned value |
 | NAME | The name of the config item |
 

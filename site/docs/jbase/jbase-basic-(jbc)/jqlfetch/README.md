@@ -22,8 +22,9 @@ Where:
 
 
 
-| Attr 1<br> | Level: 0 means detail line 1 – 25 for the control<br>breaks, the same as the A correlative NB.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Attr 1<br> | Level: 0 means detail line 1 – 25 for the control<br>breaks, the same as the A correlative NB.<br> |
 | Attr2<br> | Item ID<br> |
 | Attr 3<br> |  Break control Value is 1 if a blank line should be output first.<br> |
 | Attr 4<br> | Pre-break value for 'B' option in header<br> |

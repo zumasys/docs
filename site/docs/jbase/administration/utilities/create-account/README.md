@@ -29,8 +29,9 @@ CREATE-ACCOUNT -Options <accountdirectory> <accountname>
 
 
 
-| **Option**<br> | **Description**<br> |
+| <!----> | <!----> |
 | --- | --- |
+| **Option**<br> | **Description**<br> |
 | -m md\_path  <br> | full path to existing MD (implies -n)<br> |
 | -n          <br> | do not create an MD for the account<br> |
 | -r          <br> | generate remote.cmd for Telnet (Windows only)<br> |

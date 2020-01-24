@@ -18,8 +18,9 @@ CALL WGETPARAM(VALUE,PARAM)
 #### **SYNTAX ELEMENTS**
 
 
-| VALUE | The value of the param you requested. |
+| <!----> | <!----> |
 | --- | --- |
+| VALUE | The value of the param you requested. |
 | PARAM | The param number you want (first is 1) |
 
 

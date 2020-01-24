@@ -44,8 +44,9 @@ Their usage of these arrays is:
 **access**
 
 
-| access(1)<br> | Data file open variable<br> |
+| <!----> | <!----> |
 | --- | --- |
+| access(1)<br> | Data file open variable<br> |
 | access(2)<br> | Dictionary file open variable<br> |
 | access(3)<br> | Data item currently being processed. If BY-EXP is used then only the current multi-value from each attribute is included in the item.<br> |
 | access(4)<br> | Item count  (Initialized to 1 at the start of each jQL statement)<br> |

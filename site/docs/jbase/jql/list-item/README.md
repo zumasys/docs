@@ -20,8 +20,9 @@ LIST-ITEM file-specifier {record-list} {selection-criteria} {sort-criteria} {USI
 where options specific to LIST-ITEM are:
 
 
-| F<br> | start the display of each item on a new page<br> |
+| <!----> | <!----> |
 | --- | --- |
+| F<br> | start the display of each item on a new page<br> |
 | S<br> | suppress line numbers<br> |
 | N<br> | non-paged output<br> |
 | P<br> | output is sent to the assigned printer<br> |

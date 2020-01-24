@@ -8,8 +8,9 @@
 
 
 
-| [Overview](./../introduction-to-secondary-indexes) | Indexes overview. |
+| <!----> | <!----> |
 | --- | --- |
+| [Overview](./../introduction-to-secondary-indexes) | Indexes overview. |
 | [Backup and Restore](./../indexes--backup-and-restore) | Backup and restore considerations. |
 | [BASIC Statements](./../jbc-statements-and-functions-for-indexes) | jBC statements which use indexes. |
 | [jQL Commands](./../indexes-and-jql-commands) | Using indexes with jQL. |
@@ -22,6 +23,8 @@
 
 
 
+| <!----> | <!----> |
+| --- | --- |
 | [CREATE-INDEX](./../create-index) | Define and create indexes. |
 | [DELETE-INDEX](./../delete-index) | Delete existing index definitions. |
 | [LIST-INDEX](./../list-index) | Display index definitions. |

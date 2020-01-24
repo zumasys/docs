@@ -8,8 +8,9 @@
 
 
 
-| name=”String”<br> | Determines the category name displayed on the x-axis as the data label. In our example, we've specified the category names as names of six months (in abbreviated format).<br> |
+| <!----> | <!----> |
 | --- | --- |
+| name=”String”<br> | Determines the category name displayed on the x-axis as the data label. In our example, we've specified the category names as names of six months (in abbreviated format).<br> |
 | hoverText=”String”<br> | Shows the abbreviated names on the x-axis (to avoid cluttering or to make the chart look more legible). However, you still have the option of showing the full name as tool tip using this attribute. Like, in our example, we're showing the abbreviated form "Jan" on our x-axis, but the full word "January" is shown as the tool tip.<br> |
 | showName=”1/0”<br> | Can have either the value of 0 or 1. A 1 indicates that the name of this data set will be displayed in the graph, 0 indicates it won't be displayed. This attribute is particular useful when you want to show/hide names of alternate data items or say every x (th) data item.<br> |
 | seriesName=”String” D<br> | Denotes the name of the dataset series. If you’re plotting a monthly sales analysis for the years 2004 and 2003, the seriesName for the first dataset would be 2004 and the second would be 2003. This is the value that’s shown in the legend.<br> |
@@ -21,6 +22,8 @@
 ## Dataset specific area properties (for Area Charts only)
 
 
+| <!----> | <!----> |
+| --- | --- |
 | showAreaBorder=”1/0”<br> | Configuration whether the border over the area would be shown or not.<br> |
 | areaBorderThickness=”NumericValue”<br> | Sets the thickness (in pixels) of the area border.<br> |
 | areaBorderColor=”Hex Color”<br> | Sets the color of the area border.<br> |

@@ -27,8 +27,9 @@ I-DUMP file-specifier {record-list} {selection-criteria} {sort-criteria} {USING 
 > The S-DUMP command can be used to produce sorted output. System delimiters are denoted as follows:
 > 
 > 
-> | Attribute mark<br> | `^`<br> |
+> | <!----> | <!----> |
 > | --- | --- |
+> | Attribute mark<br> | `^`<br> |
 > | Value mark<br> | `]`<br> |
 > | Sub value mark<br> | `\`<br> |
 

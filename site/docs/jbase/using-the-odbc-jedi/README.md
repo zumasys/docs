@@ -64,8 +64,9 @@ The EXISTING argument is optional (the default value is set to YES, meaning the 
 Additional arguments you can use in the CREATE-FILE include:
 
 
-| **CSV=csvname** | The csv option is required if the csv is not filename.csv |
+| <!----> | <!----> |
 | --- | --- |
+| **CSV=csvname** | The csv option is required if the csv is not filename.csv |
 | **Table=tablename** | The tablename if not the same as filename |
 | **UniqueKey=YES|NO** | Defaults to YES. NO is used if the key column (i.e. attribute 0) is not a unique value per record/row |
 | **Existing=YES|NO** | Specifies whether the table already exists, or should be created |
@@ -89,6 +90,8 @@ If ***ID***is specified, only that record (keyed by *ID)*is checked. Otherwise, 
 **jCheckSchema** options:
 
 
+| <!----> | <!----> |
+| --- | --- |
 | **-a*****list***<br> | Ignore "undefined" for the **attributes** specified in *list*(comma separated)<br> |
 | **-c**<br> | **Check** data integrity<br> |
 | **-i**<br> | **Interactive:** *prompts for changes*<br> |
@@ -117,6 +120,8 @@ The jBC (BASIC) language has an IOCTL function which has the syntax of:
 The *ODBC jEDI* has the following non-standard IOCTL options:
 
 
+| <!----> | <!----> |
+| --- | --- |
 | **68** | Over-riding SQL SELECT statement (**in\_out\_arg**) for the next **SELECT *file\_var*** statement (note: the result set must match the type and number of columns expected for the primary key denoted by the **def** in the *stub*.<br> |
 | **98** | Specify the **in\_out\_arg** number of writes before a commit will be performed (useful for improved performance when performing a high volume of insert/update/delete operations).<br> |
 | **99** | Issue a commit.<br> |

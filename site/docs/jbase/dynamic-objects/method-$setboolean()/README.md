@@ -27,8 +27,9 @@ arr->$setboolean(value number, boolean expression)
 
 
 
-| Argument<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Argument<br> | Description<br> |
 | property name<br> | the name of the property to assign a boolean value<br> |
 | value number<br> | the value number of the array to set to a boolean value<br> |
 | boolean expression<br> | any expression that evaluates to a logical "true" or "false"<br> |

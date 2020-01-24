@@ -28,8 +28,9 @@ The **format type** is optional and, if used, is specified as a bit mask; differ
 
 
 
-| Format Type<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Format Type<br> | Description<br> |
 | 1<br> | Formatted output using @TAB for indentation<br> |
 | 2<br> | Use @AM instead of a new-line when formatting<br> |
 | 4<br> | Use 4 spaces instead of @TAB when formatting<br> |

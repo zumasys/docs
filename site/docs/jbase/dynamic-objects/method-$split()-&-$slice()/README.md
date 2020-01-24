@@ -29,8 +29,9 @@ source->$splice(delimiter(s))
 
 
 
-| Argument<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Argument<br> | Description<br> |
 | delimiter(s)<br> | The character(s) used to split the source string<br> |
 
 

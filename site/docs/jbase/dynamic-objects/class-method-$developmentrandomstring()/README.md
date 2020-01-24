@@ -27,8 +27,9 @@ $development->randomstring(nn)
 
 
 
-| Argument<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Argument<br> | Description<br> |
 | nn<br> | Number of random characters<br> |
 
 

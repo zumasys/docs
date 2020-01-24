@@ -613,8 +613,9 @@ This query language is capable of calculating column totals, averages, and perce
 Some differences exist between JQL and SQL. They can be summarized as follows:
 
 
-| **JQL**<br> | **SQL**<br> |
+| <!----> | <!----> |
 | --- | --- |
+| **JQL**<br> | **SQL**<br> |
 | Dictionary calculations<br> | Command line calculations<br> |
 | Many dictionaries per field<br> | One dictionary per field<br> |
 | End-user tool<br> | Developer tool<br> |
@@ -1197,6 +1198,8 @@ creates [subs.el](subs.el) and [subs.so](subs.so) (Unix)
 Try out the following, and see if the results make sense
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br>```<br>A = 1<br>CRT ++A<br>CRT A<br>END<br>```<br><br><br> | <br>```<br>A = 1<br>CRT A++<br>CRT A<br>END<br>```<br> | <br>```<br>A = “YOUR NAME”<br>CRT A[1,5]<br>CRT A[-1,1]<br>CRT A[-5,2]<br>CRT A[-5,-2]<br>```<br><br><br> |
 
 

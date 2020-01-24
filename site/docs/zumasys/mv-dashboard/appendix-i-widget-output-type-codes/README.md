@@ -10,8 +10,9 @@
 FCAREA2D
 
 
-| Code<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Code<br> | Description<br> |
 | TABLE<br> | Displays output in an HTML table structure.<br> |
 | HTML<br> | Applies no formatting to output.<br>NOTE: See the section on Drill Down Widgets for<br>details on how to drill down from inside of an HTML widget.<br> |
 | TEXT<br> | Wraps output in &lt;pre&gt; tags.<br> |

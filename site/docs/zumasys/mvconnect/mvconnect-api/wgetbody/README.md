@@ -18,8 +18,9 @@ CALL WGETBODY(BODY)
 ### **SYNTAX ELEMENTS**
 
 
-| Parameter | Description |
+| <!----> | <!----> |
 | --- | --- |
+| Parameter | Description |
 | BODY | Returned body |
 
 

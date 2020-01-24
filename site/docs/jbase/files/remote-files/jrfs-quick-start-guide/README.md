@@ -53,8 +53,9 @@ ACCDEMO
 There are 4 files concerned with configuration of jRFS:
 
 
-| jnet\_config<br> | jConnect client and server configuration file.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| jnet\_config<br> | jConnect client and server configuration file.<br> |
 | jnet\_map<br> | jConnect client mapping file.<br> |
 | jnet\_env<br> | jConnect server environment map file.<br> |
 | jrfs\_config<br> | jRFS client and server configuration file.<br> |

@@ -22,8 +22,9 @@ destination->$merge(source,0)
 Arguments
 
 
-| Argument<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Argument<br> | Description<br> |
 | 1<br> | The **source** object's properties takes precedence (default)<br> |
 | 0<br> | The **destination** object's properties takes precedence<br> |
 

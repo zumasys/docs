@@ -120,8 +120,9 @@ You’ll be shown a list of hashfiles contained in the directory, with its type,
 
 
 
-| Good Hashfile<br> | Corrupt Hashfile<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Good Hashfile<br> | Corrupt Hashfile<br> |
 | ![introduction-to-system-manager: blob](./blob.jpg) | ![introduction-to-system-manager: blob](./blob.jpg) |
 
 

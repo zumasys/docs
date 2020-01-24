@@ -26,8 +26,9 @@ arr->$insert(value, position)
 
 
 
-| Argument<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Argument<br> | Description<br> |
 | value<br> | the value to insert<br> |
 | position | the relative position, from the beginning of the array, to insert the value. |
 

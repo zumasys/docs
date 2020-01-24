@@ -8,8 +8,9 @@
 
 
 
-| [Introduction](./../introduction-to-the-jbc-debugger) | Overview of the jBC debugger |
+| <!----> | <!----> |
 | --- | --- |
+| [Introduction](./../introduction-to-the-jbc-debugger) | Overview of the jBC debugger |
 | [Invoking the debugger](./../invoking-the-jbc-debugger) | How the debugger is invoked |
 | [Command arguments](./../run-time-jbc-debugger-arguments) | Debugger command line arguments |
 | [Commands](./../jbc-debugger-commands) | Debugger commands |

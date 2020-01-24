@@ -51,8 +51,9 @@ SYNTAX ELEMENTS
 
 
 
-| Modulo<br> | A comma separated list of the modulo of split frames, default 31. When a data frame overfills it will change to a pointer frame of the order *Modulo[level]*with a maximum of *Modulo[level]*child frames where items are rehashed according to the split level and hashing algorithm. There are a maximum of 32 modulo and each must be prime between 3 and 509.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Modulo<br> | A comma separated list of the modulo of split frames, default 31. When a data frame overfills it will change to a pointer frame of the order *Modulo[level]*with a maximum of *Modulo[level]*child frames where items are rehashed according to the split level and hashing algorithm. There are a maximum of 32 modulo and each must be prime between 3 and 509.<br> |
 | HASHMETHOD<br> | The internal hash method used in internal and external hashing, default 5 (FNV-1a variant, recommended).<br><br><br> |
 | INTMODS<br> | Up to 3 prime numbers defining the internal hash table modulo, default 3, 7, 19. The cumulative product cannot exceed 485, i.e. x + x \* y + x \* y \* z.<br> |
 | MINSPLIT<br> | Minimum split level of the file. The file will be pre-allocated to a minimum level of split frames from the Modulo list. This can have extreme adverse affects on performance and excessive file size, so its use is not recommended.<br> |
@@ -79,6 +80,8 @@ COMMAND SYNTAX
 SYNTAX ELEMENTS
 
 
+| <!----> | <!----> |
+| --- | --- |
 | -a<br> | Show header values.<br> |
 | -b<br> | Bitmap scan - verify frame use.<br> |
 | -h<br> | Display help.<br> |

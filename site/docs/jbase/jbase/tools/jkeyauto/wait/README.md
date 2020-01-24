@@ -27,8 +27,9 @@ where:
 
 
 
-| +ve number<br> | This is the exit code of the program.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| +ve number<br> | This is the exit code of the program.<br> |
 | Snnn.<br> | This shows the program terminated due to an un-caught signal, where nnn is the signal number that caused the programs death.<br> |
 | -1<br> | This shows the WAIT statement returned because the timeout operation specified by exprssion\_for was exceeded.<br> |
 | -2<br> | This shows the value given in expression\_pipe was invalid.<br> |

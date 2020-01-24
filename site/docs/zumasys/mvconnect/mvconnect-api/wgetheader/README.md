@@ -18,8 +18,9 @@ CALL WGETHEADER(HEADERVALUE,HEADERNAME)
 ### **SYNTAX ELEMENTS**
 
 
-| Parameter | Description |
+| <!----> | <!----> |
 | --- | --- |
+| Parameter | Description |
 | HEADERVALUE | This is the returned value of the header. |
 | HEADERNAME | Set to the name of the header you want. |
 

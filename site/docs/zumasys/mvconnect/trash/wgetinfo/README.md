@@ -18,8 +18,9 @@ CALL WGETINFO(POS,VALUE)
 #### **SYNTAX ELEMENTS**
 
 
-| Parameter | Description |
+| <!----> | <!----> |
 | --- | --- |
+| Parameter | Description |
 | POS | [WWW.INFO](//WWW.INFO) Dynamic position you wish to get. |
 | VALUE | Returned Value |
 

@@ -8,8 +8,9 @@
 
 
 
-| [Introduction](./../tape) | Introduction to tape operation. |
+| <!----> | <!----> |
 | --- | --- |
+| [Introduction](./../tape) | Introduction to tape operation. |
 | [T-ATT](./../t-att) | Attachs or opens a tape device. |
 | [T-BCK](./../t-bck) | Moves the tape backwards. |
 | [T-CHK](./../t-chk) | Checks for parity errors. |

@@ -29,8 +29,9 @@
 # The ultimate goal for this discovery is the following items:
 
 
-| How do we create the printers in Linux on  their new jBASE box?<br> | hosts.txt and linuxprinters.txt on zumUVSHIMS<br> |
+| <!----> | <!----> |
 | --- | --- |
+| How do we create the printers in Linux on  their new jBASE box?<br> | hosts.txt and linuxprinters.txt on zumUVSHIMS<br> |
 | How do we set those printers up in jBASE?<br> | uvlp and .drv items on zumUVSHIMS<br> |
 | What UV.ACCOUNT and respective directories represent the SYSTEM and /dbms directories on the new jBASE box?<br> | ZUMACCT process will create<br> |
 | What is needed to setup the mail relay?<br> | ???<br> |
@@ -45,6 +46,8 @@
 Highlighted items should be collected prior to discovery
 
 
+| <!----> | <!----> |
+| --- | --- |
 | Date / Time of discovery with customer<br> | *01/01/2014  8:00 EST*<br> |
 | Customer<br> | *Customer Name*<br> |
 | Project Description<br> | *Shims on AIX to jBASE on the Cloud with BUaaS*<br> |
@@ -71,6 +74,8 @@ Highlighted items should be collected prior to discovery
 ## How do we access your current box in the future?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -83,6 +88,8 @@ Can we whitelist a public ssh port with user “zumasys”?
 ## What PC Terminal Emulators will be used for the new system?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -91,6 +98,8 @@ Accuterm 7.1 or better is best.
 ## Who will need outside access (VPN credentials)?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -99,6 +108,8 @@ Home-based Remote users? Outside of the main location or outside of site-site tu
 ## How many branches?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -107,6 +118,8 @@ Home-based Remote users? Outside of the main location or outside of site-site tu
 ## What “tcl” processes do you do outside of the menu system?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -115,6 +128,8 @@ Programs run other than the typical GET-LIST, SELECT, SORT type of reporting com
 ##  “Tcl” password?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -123,6 +138,8 @@ Programs run other than the typical GET-LIST, SELECT, SORT type of reporting com
 ## What other servers / systems interface to your database server?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -131,6 +148,8 @@ Do you have external catalog systems or servers that are fed information from yo
 ## When do you do monthend and who do we need to contact?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -139,6 +158,8 @@ Need to get a snapshot the night before and then with everyone off system get sn
 ## Backups/Schedule/Retention
 
 
+| <!----> | <!----> |
+| --- | --- |
 | -Backup schedule (what time does the backup start? Frequency (5 days or 7 days? Retention for archives (monthly, yearly)?<br>-Bandwidth?<br> |
 
 
@@ -147,6 +168,8 @@ Discuss further on backups & Bandwidth
 ## What type of internet connection? Speed?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -155,6 +178,8 @@ Rated via [www.speedtest.net](http://www.speedtest.net) from their box
 ## Zumasys must run a transfer rate test to a Zumasys site and observe results
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -163,6 +188,8 @@ Need to test a sample transfer from the customer’s on-prem to our cloud
 ## What Platform are you currently on?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -173,6 +200,8 @@ Other platform like HPUX, SUN, etc.
 ## What version of the O/S are they using?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -181,6 +210,8 @@ On AIX, “oslevel -r”, on Redhat/Centos “cat /etc/redhat-release”
 ## Server IP Address
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -189,6 +220,8 @@ On AIX, “ifconfig -a”, on Redhat/Centos “ifconfig”
 ## Do they have support for screen, ssh, rsync and bash?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -197,6 +230,8 @@ On AIX, “ifconfig -a”, on Redhat/Centos “ifconfig”
 ## Disk space used and available?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -205,6 +240,8 @@ On AIX “df -k”, on Redhat/Centos “df -h”
 ## Disk space used by Application
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -214,6 +251,8 @@ On AIX “du -sk”, on Redhat/Centos “du -sh”
 ## Sendmail relay host
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -222,6 +261,8 @@ On AIX “du -sk”, on Redhat/Centos “du -sh”
 ## Current Backup media
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -230,6 +271,8 @@ Ony necessary if unusual process needed.  I.e.  No virtual tape or rsync
 ## What type of terminal emulations will need to be supported?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -238,12 +281,16 @@ The standard is vt220
 ## Will they be using dumb terminals?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
 ## If yes, how are they connected to the current system?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -252,6 +299,8 @@ RAN boxes, serial direct connection, portserver
 ## What email / fax solution will be used for the new system?
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -264,6 +313,8 @@ the standard is email from server with Esker for faxing
 
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
 
@@ -279,6 +330,8 @@ Find out if serial printers on RAN or other proprietary boxes are going to be co
 
 
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
  
@@ -287,6 +340,8 @@ Get the linux login, shims login and passwords and prompts needed
 ## Accounts to be converted and not converted
  
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
  
@@ -296,12 +351,16 @@ cd /usr/lpp/iv ; /usr/lpp/uv/bin/uv then &lt;esc&gt; from menu and LIST-ITEM UV.
 ## If converting to on-site server, is UPS sufficient for new server?
  
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
  
 ## Hardware and Software needs discovered?
  
 
+| <!----> | <!----> |
+| --- | --- |
 | <br> |
 
  
@@ -322,6 +381,8 @@ Licensing, installation and transfer of third party products is the responsibili
 The following table can be used to identify and plan for the migration of third party products:
   
 
+| <!----> | <!----> |
+| --- | --- |
 | Product Name<br> | Vendor<br> | Contact<br> | License/Transfer Fee<br> | Installation/Services<br> |
 | <br> | <br> | <br> | <br> | <br> |
 | <br> | <br> | <br> | <br> | <br> |
@@ -354,6 +415,8 @@ Insert additional rows as required
 ## Items left for future discovery?
  
 
+| <!----> | <!----> |
+| --- | --- |
 |  <br> |
 
   

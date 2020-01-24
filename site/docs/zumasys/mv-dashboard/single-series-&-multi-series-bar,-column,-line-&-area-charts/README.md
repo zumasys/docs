@@ -39,8 +39,9 @@ Multi-series bar, column, line and area charts are created using any of the foll
 These charts are very similar, and the methods used in creating these widgets are virtually identical. The following variables are used to define both single- and multi-series charts:
 
 
-| W$BAR.LABELS<br> | AM-Array of labels for each series of a multi-series chart. Single-series charts do not use this value.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| W$BAR.LABELS<br> | AM-Array of labels for each series of a multi-series chart. Single-series charts do not use this value.<br> |
 | W$BAR.VALUES<br> | VM-Array of data point values for any series. For multi-series charts, the variable contains a two-dimensional array in which the attributes correspond with W$BAR.LABELS.<br> |
 | W$BAR.VALUE.OPTS<br> | VM-Array of Optional Parameters associated with each value.<br> |
 | W$BAR.CAPTION<br> | Text caption for the chart itself.<br> |

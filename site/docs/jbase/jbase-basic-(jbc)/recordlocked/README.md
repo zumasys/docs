@@ -24,8 +24,9 @@ recordkey is an expression for the record id that will be checked.
 The function returns an integer value to indicate the record lock status of the specified record id.
 
 
-| 3<br> | Locked by this process by a [FILELOCK](./../filelock)<br> |
+| <!----> | <!----> |
 | --- | --- |
+| 3<br> | Locked by this process by a [FILELOCK](./../filelock)<br> |
 | 2<br> | Locked by this process by a [READU](./../readu)<br> |
 | 1<br> | Locked by this process by a [READL](./../readl)<br> |
 | 0<br> | Not locked<br> |

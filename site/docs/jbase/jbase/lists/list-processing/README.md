@@ -10,8 +10,9 @@
 <badge text='lists' vertical='middle' />
 
 
-| [List storage](./../list-storage) | How saved lists are stored<br> |
+| <!----> | <!----> |
 | --- | --- |
+| [List storage](./../list-storage) | How saved lists are stored<br> |
 | AND-LISTS | **AND** two or more save-lists together to produce a new default list containing only values common in all lists (Intersection), e.g. AND-LISTS list1 list2 ... listX<br> |
 | [COPY-LIST](./../copy-list) | Copy a saved list to another list or to another file |
 | [DELETE-LIST](./../delete-list) | Deletes a saved list |

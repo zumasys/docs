@@ -31,8 +31,9 @@ The jBC language also supports the [CHANGE](./../change) statement.
 
 An example of use is:
 
-| `String1 = "Jim" String2 = "James" Variable = "Pick up the tab Jim" CRT CHANGE( Variable, String1, String2) CRT CHANGE( Variable, "tab", "check")`<br> |
+| <!----> |
 | --- |
+| `String1 = "Jim" String2 = "James" Variable = "Pick up the tab Jim" CRT CHANGE( Variable, String1, String2) CRT CHANGE( Variable, "tab", "check")`<br> |
 
 
 

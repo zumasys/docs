@@ -27,8 +27,9 @@ Stage a server to run your converted application on jBASE.
 #### Minimal specifications:
 
 
-| 16 GB Memory | Though jBASE will run the application with less, the conversion process will utilize the memory and run much more efficient. |
+| <!----> | <!----> |
 | --- | --- |
+| 16 GB Memory | Though jBASE will run the application with less, the conversion process will utilize the memory and run much more efficient. |
 | 2 Processors | A single processor will suffice, however the conversion process will run better with two. It is seldom recommended to use more than 4 in a VM. |
 | 2 File systems | /dbms file system of at least 40GB.   Size is recommended to be twice that of your current system.   This  allows for growth and may vary for you.<br>/u file system of at least 40GB.  This file system would contain non-jBASE hashed files suc as historical pdfs, ftp csv files,etc. |
 

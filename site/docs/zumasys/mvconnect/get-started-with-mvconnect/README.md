@@ -54,8 +54,9 @@ This test service grabs some information from your system and outputs it in JSON
 The important fields are
 
 
-| Who | What line the Connector processed the request on.   |
+| <!----> | <!----> |
 | --- | --- |
+| Who | What line the Connector processed the request on.   |
 | vars | This is a list of vars.  This will include any vars sent on the URL bar plus any x-www-form-urlencoded data |
 | headers | This is headers sent by the client.  The MVConnector will limit the headers sent.  If you wish to send more headers to look at the MVConnector config file and add the header name. |
 | body | When the post is not x-www-form-urlencoded, the raw body will be sent. |
@@ -141,6 +142,8 @@ For example here is code for PHP
 While it is generally recommended to run your REST service handlers from the MVDB account, it is possible to LOGTO a different account to run the handler program. The name of the account must be configured in the [WDB.RESOURCE](./../../../jbase/jagent/apis/wdb.resource) file. In addition, the target account requires several q-pointers and cataloged programs:
 
 
+| <!----> | <!----> |
+| --- | --- |
 | WBPD<br> | contains INCLUDE files, not needed at runtime |
 | WREST.BP | catalog all items in target account |
 | WOBJ.BP | catalog all items in target account if JSON parser needed |

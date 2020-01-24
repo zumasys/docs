@@ -18,8 +18,9 @@ CALL WSETSTATUS(CODE)
 ### **SYNTAX ELEMENTS**
 
 
-| Parameter | Description |
+| <!----> | <!----> |
 | --- | --- |
+| Parameter | Description |
 | CODE | Set to the response code you wish to return.  Default is 200 (Success) |
 
 

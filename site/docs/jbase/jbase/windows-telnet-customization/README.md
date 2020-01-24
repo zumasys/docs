@@ -32,8 +32,9 @@ In the "Value data:" string, the sequence "\n" generates an end of line output, 
 **Example**:
 
 
-| Name<br> | Type<br> | Data<br> |
+| <!----> | <!----> | <!----> |
 | --- | --- | --- |
+| Name<br> | Type<br> | Data<br> |
 | Banner<br> | REG\_SZ<br> | Welcome to jBASE\nThe Multi-value database of the future\n<br> |
 
 
@@ -50,6 +51,8 @@ In the "Value data:" string, the sequence "\n" generates an end of line output, 
 **Example**:
 
 
+| <!----> | <!----> | <!----> |
+| --- | --- | --- |
 | Name<br> | Type<br> | Data<br> |
 | PreBanner<br> | REG\_SZ<br> | jBASE telnet process\nPlease log into system\n<br> |
 
@@ -65,6 +68,8 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 **Example**:
 
 
+| <!----> | <!----> | <!----> |
+| --- | --- | --- |
 | Name<br> | Type<br> | Data<br> |
 | LogonPrompt<br> | REG\_SZ<br> | Windows User Name:<br> |
 
@@ -82,6 +87,8 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 **Example**:
 
 
+| <!----> | <!----> | <!----> |
+| --- | --- | --- |
 | Name<br> | Type<br> | Data<br> |
 | PasswordPrompt<br> | REG\_SZ<br> | Windows Password:<br> |
 
@@ -101,6 +108,8 @@ In the "Value data:" string, the sequence "\n" generates an end of line output, 
 **Example**:
 
 
+| <!----> | <!----> | <!----> |
+| --- | --- | --- |
 | Name<br> | Type<br> | Data<br> |
 | FailedLogonMessage<br> | REG\_SZ<br> | \nFailed logon...Valid "WINDOWS" USER/PASSWORD?\n<br> |
 
@@ -144,6 +153,8 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 **Example**:
 
 
+| <!----> | <!----> | <!----> |
+| --- | --- | --- |
 | Name<br> | Type<br> | Data<br> |
 | CommandProcessor<br> | REG\_SZ<br> | C:\JBASE30\BIN\JSH.EXE -<br> |
 
@@ -181,6 +192,8 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 **Example**:
 
 
+| <!----> | <!----> | <!----> |
+| --- | --- | --- |
 | Name<br> | Type<br> | Data<br> |
 | ExitDetectionTimeout<br> | REG\_DWORD<br> | 0x000001f4 (500)<br> |
 
@@ -200,6 +213,8 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 **Example**:
 
 
+| <!----> | <!----> | <!----> |
+| --- | --- | --- |
 | Name<br> | Type<br> | Data<br> |
 | LogonAttempts<br> | REG\_DWORD<br> | 0x00000005 (5)<br> |
 
@@ -217,6 +232,8 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 **Example**:
 
 
+| <!----> | <!----> | <!----> |
+| --- | --- | --- |
 | Name<br> | Type<br> | Data<br> |
 | ParseProfile<br> | REG\_DWORD<br> | 0x00000000 (0)<br> |
 

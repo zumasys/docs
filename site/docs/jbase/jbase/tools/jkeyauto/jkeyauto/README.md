@@ -13,8 +13,9 @@
 ## jKEYAUTO Language 
 
 
-| [Overview](./../jkeyauto-overview)<br> | Overview of the jkeyauto functionality.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| [Overview](./../jkeyauto-overview)<br> | Overview of the jkeyauto functionality.<br> |
 | [Options](./../options)<br> | jkeyauto command line options.<br> |
 | [Profiling](./../jkeyauto-profiling)<br> | Profiling with jkeyauto<br> |
 | [Variables](./../jkeyauto-variables)<br> | Variables provided in jkeyauto programs<br> |
@@ -25,6 +26,8 @@
 ## jKEYAUTO Statements
 
 
+| <!----> | <!----> |
+| --- | --- |
 | [CRT](./../../../../jbase-basic-%28jbc%29/crt)<br> | Prints messages to either stdout or stderr.<br> |
 | [EXECUTE](./../execute)<br> | Executes an external program.<br> |
 | [EXIT](./../exit)<br> | Exits the program.<br> |

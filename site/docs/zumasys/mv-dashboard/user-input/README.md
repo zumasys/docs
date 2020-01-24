@@ -23,8 +23,9 @@ Each of the values listed below may contain multiple attributes in order to gene
 When the user submits the form (clicks the "Go" button), the global variable G$SUBMITTED will be set to "1" when the widget subroutine is executed.
 
 
-| W$INPUT.PROMPT<br> | The prompt text associated with this input<br> |
+| <!----> | <!----> |
 | --- | --- |
+| W$INPUT.PROMPT<br> | The prompt text associated with this input<br> |
 | W$INPUT.TYPE<br> | “TEXT”, “PASSWORD”, “SELECT”, “DATE” or “CHECKBOX”<br> |
 | W$INPUT.SELOPTS<br> | For SELECT type, this is a value-mark-delimited list of selection options presented to the user in a drop-down list.<br> |
 | W$INPUT.SELVALS<br> | For SELECT type, this is a value-mark-delimited list of values associated with the options provided. The user does not see these values.<br> |

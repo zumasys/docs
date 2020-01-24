@@ -41,8 +41,9 @@ None.
 
 
 
-| Y<br> | display the first 10 lines of the print job<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Y<br> | display the first 10 lines of the print job<br> |
 | N<br> | skip to the "String" prompt<br> |
 | T<br> | output the job to stdout with paging<br> |
 | TN<br> | output the job to stdout without paging<br> |

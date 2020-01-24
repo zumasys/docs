@@ -74,8 +74,9 @@ jdls -K {-o}
 **OPTIONS:**
 
 
-| **Option**<br> | **Description**<br> |
+| <!----> | <!----> |
 | --- | --- |
+| **Option**<br> | **Description**<br> |
 | -A<br> | Arbiter only, do not start/stop distributed listener<br> |
 | -b<br> | Run in the Background (Normal mode of operation)<br> |
 | -D<br> | Distributed listener only, do not start/stop lock monitor<br> |
@@ -197,6 +198,8 @@ JDLS={SERVER=Hostname{, Port}}{,SERVER2=Hostname{, Port}}
 
 
 
+| <!----> | <!----> |
+| --- | --- |
 | SERVER<br><br><br> | Specifies the primary lock service specification<br> |
 | SERVER2<br><br><br> | Specifies the secondary lock service specification for resilience.<br> |
 | Hostname<br><br><br> | is either the DNS hostname or the dotted IP address of the system where the jBASE Distributed Lock Service is executing.<br> |

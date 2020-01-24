@@ -24,8 +24,9 @@ arr->$join(delimiter)
 
 
 
-| Argument<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Argument<br> | Description<br> |
 | delimiter<br> | The character(s) used to join the values of the array to a string<br> |
 
 

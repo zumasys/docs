@@ -26,8 +26,9 @@ COL,ROW,SKIP,INDENT,SIZE,SPACE{,"C"}:
 where:
 
 
-| COL<br> | Number of columns required to list the data across the page.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| COL<br> | Number of columns required to list the data across the page.<br> |
 | ROW<br> | Number of lines for each record. Each element of the output specification will be output on a separate line, if more elements exist in the output specification than there are rows specified, the extra elements will be ignored. If more rows are specified than elements, the output specification for these rows will be blank.<br> |
 | SKIP<br> | Number of blank lines between each record.<br> |
 | INDENT<br> | Number of spaces for left margin.<br> |
@@ -69,6 +70,8 @@ COL,ROW,SKIP,INDENT,SIZE,SPACE(,C): 2,5,2,0,25,4,C
 ```
 
 
+| <!----> | <!----> |
+| --- | --- |
 | NAME1<br> | NAME2<br> |
 | ADDRESS1<br> | ADDRESS2<br> |
 | STREET1<br> | STREET2<br> |
@@ -79,6 +82,8 @@ COL,ROW,SKIP,INDENT,SIZE,SPACE(,C): 2,5,2,0,25,4,C
 ` `
 
 
+| <!----> | <!----> |
+| --- | --- |
 | NAME3<br> | NAME4<br> |
 | ADDRESS3<br> | ADDRESS4<br> |
 | STREET3<br> | STREET4<br> |

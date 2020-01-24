@@ -24,8 +24,9 @@ array is the dynamic array from which the string is to be extracted.
 setvar is set by the system during the extraction to indicate the type of delimiter found:
 
 
-| 0<br> | end of the array<br> |
+| <!----> | <!----> |
 | --- | --- |
+| 0<br> | end of the array<br> |
 | 1<br> | xFF ASCII 255<br> |
 | 2<br> | xFE ASCII 254 Field marker<br> |
 | 3<br> | xFD ASCII 253 Value marker<br> |

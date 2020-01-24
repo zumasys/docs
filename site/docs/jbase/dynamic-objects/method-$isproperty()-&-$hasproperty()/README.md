@@ -27,8 +27,9 @@ arr->%isproperty(index1,{index2,index3,...})
 
 
 
-| Description<br> |
+| <!----> |
 | --- |
+| Description<br> |
 | Each argument is a literal or variable that is checked to see if it is a property of the object or array. The properties of arrays are always the index of the value (see example below).<br> |
 
 

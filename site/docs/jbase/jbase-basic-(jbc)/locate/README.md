@@ -28,8 +28,9 @@ Where:
 
 
 
-| AL<br> | Values are in ascending left justified order<br> |
+| <!----> | <!----> |
 | --- | --- |
+| AL<br> | Values are in ascending left justified order<br> |
 | AR<br> | Values are in ascending right justified order<br> |
 | AN<br> | Values are in ascending numeric order<br> |
 | DL<br> | Values are in descending left justified order<br> |

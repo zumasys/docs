@@ -12,8 +12,9 @@
 The parameters below are found within the [**General**] section of the **jEDIdrivers.ini**file (note the parameters ARE case sensitive):
 
 
-| **File Parameter** | **Parameter Definition** |
+| <!----> | <!----> |
 | --- | --- |
+| **File Parameter** | **Parameter Definition** |
 | JRLAlock = 0 | Specifies that jBASE will handle the locking of records (currently the *jEDI*drivers do not handle locking at the *RDBMS*level) |
 | FullyExpanded = 0 | Controls how multi-values are stored across primary and secondary tables |
 | PasswdsEncrypted = 0 | Specifies whether or not passwords for *RDBMS*logins are encrypted |

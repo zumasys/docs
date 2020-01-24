@@ -26,8 +26,9 @@ arr->$sort({sequence})
 
 
 
-| Sequence<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Sequence<br> | Description<br> |
 | "al"<br> | sort ascending left-justified (default)<br> |
 | "ar"<br> | sort ascending right-justified<br> |
 | "dl"<br> | sort descending left-justified<br> |

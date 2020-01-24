@@ -376,8 +376,9 @@ jBASIC is able to create files and directories that can be read by the operating
 
 
 
-| jBASIC COMMAND<br> | TYPE<br> | DESCRIPTION<br> |
+| <!----> | <!----> | <!----> |
 | --- | --- | --- |
+| jBASIC COMMAND<br> | TYPE<br> | DESCRIPTION<br> |
 | [@](./../the-'@'-function)<br> | function<br> | Cursor and screen manipulation.<br> |
 | **A** |
 | [ABORT](./../abort)<br> | statement<br> | Program termination.<br> |

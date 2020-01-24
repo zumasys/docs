@@ -28,8 +28,9 @@ field# is the field number to be retrieved from the record.
 action.code indicates what should happen if the field is null, or the if record is not found. This is a literal. The valid codes are:
 
 
-| X<br> | Returns a null string. This is the default action<br> |
+| <!----> | <!----> |
 | --- | --- |
+| X<br> | Returns a null string. This is the default action<br> |
 | V<br> | Prints an error message<br> |
 | C<br> | Returns the value of ke<br> |
 

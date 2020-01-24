@@ -26,8 +26,9 @@ obj->$valuetype("property name")
 
 
 
-| Argument<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Argument<br> | Description<br> |
 | property name<br> | the name of the property belonging to the object or array<br> |
 
 
@@ -36,6 +37,8 @@ obj->$valuetype("property name")
 ## Return Value
 
 
+| <!----> | <!----> |
+| --- | --- |
 | Type<br> |
 | object<br> |
 | array<br> |

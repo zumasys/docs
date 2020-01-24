@@ -28,8 +28,9 @@ One source of confusion when using MC codes is that input conversion does not al
 MC codes are:
 
 
-| MCA<br> | Extract only alphabetic characters<br> |
+| <!----> | <!----> |
 | --- | --- |
+| MCA<br> | Extract only alphabetic characters<br> |
 | MC/A<br> | Extract only non-alphabetic characters.<br> |
 | MCAB{S}<br> | Convert ASCII character codes to binary representation. Use S to suppress spaces.<br> |
 | MCAX or MX<br> | Convert ASCII character codes to hexadecimal representation.<br> |
@@ -62,6 +63,8 @@ MC codes are:
 The MC codes that can be used to transform text from upper to lower case and vice versa are:
 
 
+| <!----> | <!----> |
+| --- | --- |
 | MCL<br> | Convert all upper case letters (A-Z) to lower case<br> |
 | MCT<br> | Convert all upper case letters (A-Z) in the text to lower case, starting with the second character in each word. Change the first character of each word to upper case.<br> |
 | MCU<br> | Convert all lower case letters (a-z) to upper case.<br> |
@@ -110,6 +113,8 @@ Assuming a source value of AbCdEf, MCU will return ABCDEF.
 The MC codes that can be used to extract characters from a string are:
 
 
+| <!----> | <!----> |
+| --- | --- |
 | MCA<br> | Extract only alphabetic characters.<br> |
 | MC/A<br> | Extract only non-alphabetic characters.<br> |
 | MCB<br> | Extract only alphanumeric characters.<br> |
@@ -197,6 +202,8 @@ Some MC codes replace one set of characters with other characters. These codes c
 
 
 
+| <!----> | <!----> |
+| --- | --- |
 | MCC;x;y<br> | Change all occurrences of character string x to character string y.<br> |
 | MCP{c}<br> | Convert each non-printable character (X"00" - X"IF", X"80" - X"FE") to character c, or period (.) if c is not specified.<br> |
 | MCPN{c}<br> | Same as MCP but insert the two-character hexadecimal representation of the character immediately after character c, or tilde (~) if c is not specified.<br> |
@@ -236,6 +243,8 @@ Assuming a source value of ABC]]DEF where ] represents a value mark, MCPN will r
 The MC codes that convert ASCII character codes to their binary or hexadecimal representations or vice versa are:
 
 
+| <!----> | <!----> |
+| --- | --- |
 | MCAB{S}<br> | Convert ASCII character codes to binary representation (Use S to suppress spaces).<br> |
 | MCAX or MY<br> | Convert ASCII character codes to hexadecimal representation<br> |
 | MCBA<br> | Convert binary representation to ASCII characters.<br> |
@@ -325,6 +334,8 @@ Assuming a source value of 0100000101000010, MCBA will return AB.
 The MC codes that convert numeric values (as opposed to characters), to equivalent values in other number schemes are:
 
 
+| <!----> | <!----> |
+| --- | --- |
 | MCBX{S}<br> | Convert a binary value to its hexadecimal equivalent. Use S to suppress spaces.<br> |
 | MCDR<br> | Convert a decimal value to its equivalent Roman numerals. Input conversion is effective.<br> |
 | MCDX or MCD<br> | Convert a decimal value to its hexadecimal equivalent. Input conversion is effective.<br> |

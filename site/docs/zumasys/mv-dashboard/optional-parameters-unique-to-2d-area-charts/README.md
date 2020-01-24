@@ -10,8 +10,9 @@
 # Area Properties
 
 
-| showAreaBorder=”1/0”<br> | Option to show/hide the border.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| showAreaBorder=”1/0”<br> | Option to show/hide the border.<br> |
 | areaBorderThickness=”Numeric Value”<br> | Sets the thickness (in pixels) of the area border.<br> |
 | areaBorderColor=”Hex Color”<br> | Sets the color of the area border.<br> |
 | areaBgColor=”Hex Color”<br> | If you want the entire area chart to be filled with one color, set that color for this attribute.<br> |
@@ -25,6 +26,8 @@
 Divisional Lines are horizontal or vertical lines running through the canvas. Each divisional line signifies a smaller unit of the entire axis thus aiding the users in interpreting the chart.
 
 
+| <!----> | <!----> |
+| --- | --- |
 | numdivlines=”NumericalValue”<br> | Sets the number of divisional lines to be drawn.<br> |
 | divlinecolor=”HexColorCode”<br> | Color of grid divisional line.<br> |
 | divLineThickness=”NumericalValue”<br> | Thickness (in pixels) of the grid divisional line.<br> |
@@ -40,6 +43,8 @@ Divisional Lines are horizontal or vertical lines running through the canvas. Ea
 # Divisional Lines (Vertical)
 
 
+| <!----> | <!----> |
+| --- | --- |
 | numVDivLines=”NumericalValue”<br> | Sets the number of vertical divisional lines drawn.<br> |
 | VDivlinecolor=”HexColorCode”<br> | Color of vertical grid divisional line.<br> |
 | VDivLineThickness=”NumericalValue”<br> | Thickness (in pixels) of the line.<br> |
