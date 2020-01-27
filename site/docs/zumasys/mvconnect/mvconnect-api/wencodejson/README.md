@@ -18,8 +18,9 @@ CALL WENCODEJSON(OPTION,INSTR,OUTSTR)
 ### SYNTAX ELEMENTS
 
 
-| Parameter | Description |
+| <!----> | <!----> |
 | --- | --- |
+| Parameter | Description |
 | OPTION | Leave blank.  Placeholder for future features |
 | INSTR | The string you wish to encode |
 | OUTSTR | The encoded string. |

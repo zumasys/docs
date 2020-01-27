@@ -10,8 +10,9 @@
 # Line Properties
 
 
-| lineColor=”Hex Code”<br> | If you want the entire line chart to be plotted in one color, set that color for this attribute.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| lineColor=”Hex Code”<br> | If you want the entire line chart to be plotted in one color, set that color for this attribute.<br> |
 | lineThickness=”Numeric Value”<br> | Thickness of the line (in pixels).<br> |
 | lineAlpha=”0-100”<br> | Transparency of the line.<br> |
 
@@ -21,6 +22,8 @@
 # Line Shadow Properties
 
 
+| <!----> | <!----> |
+| --- | --- |
 | showShadow=”1/0”<br> | Option to show/hide the shadow.<br> |
 | shadowColor=”Hex Code”<br> | If you want to set your own shadow color, you’ll need to specify that color for this attribute.<br> |
 | shadowThickness=”Numeric Value”<br> | Sets the thickness of the shadow line (in pixels).<br> |
@@ -36,6 +39,8 @@
 Anchors (or the marker points) are the polygons that appear at the joint of two consecutive lines. On a line chart, the anchors are the elements that react to the hover caption and link for that particular data point. You can customize all the facets of the anchors using the properties below:
 
 
+| <!----> | <!----> |
+| --- | --- |
 | showAnchors=”1/0”<br> | Configures whether or not the anchors are shown on the chart. If the anchors are not shown, then the hover caption and link functions won’t work.<br> |
 | anchorSides=”Numeric Value greater than 3”<br> | Sets the number of sides the anchor will have. E.g., an anchor with 3 sides would represent a triangle; with 4 it would be a square and so on.<br> |
 | anchorRadius=”Numeric Value”<br> | Sets the radius (in pixels) of the anchor. The greater the radius, the bigger the anchor size.<br> |

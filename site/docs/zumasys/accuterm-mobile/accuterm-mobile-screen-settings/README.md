@@ -32,8 +32,9 @@ There are two separate screen sizes that AccuTerm supports: normal and extended.
 
 
 
-| Screen Pages: | Some of the terminals which AccuTerm emulates support multiple addressable pages. With AccuTerm, you can have up to 25 pages. |
+| <!----> | <!----> |
 | --- | --- |
+| Screen Pages: | Some of the terminals which AccuTerm emulates support multiple addressable pages. With AccuTerm, you can have up to 25 pages. |
 | History Rows: | AccuTerm supports a "history" or "scrollback" buffer, which saves lines which have scrolled off of the terminal screen. To use this feature, specify how many rows (up to 10,000) are to be saved. When the history buffer has been enabled (by setting the number of rows), use the vertical scroll bar, mouse wheel, or keyboard commands to scan history. You can use CTRL+SHIFT+PGUP, CTRL+SHIFT+PGDN, CTRL+SHIFT+UP, CTRL+SHIFT+DOWN, CTRL+SHIFT+HOME, and CTRL+SHIFT+END to scan the history. |
 | Status & Message Lines: | Some of the terminals that AccuTerm can emulate display status, function key labels or host messages on the top or bottom lines of the screen. Depending on the terminal emulation selected, you may be able to adjust the number of status lines to use. |
 
@@ -43,6 +44,8 @@ There are two separate screen sizes that AccuTerm supports: normal and extended.
 
 
 
+| <!----> | <!----> |
+| --- | --- |
 | Automatic Line Wrap: | When this option is checked, automatic line-wrap is enabled. When the cursor reaches the end of a line, typing another character normally causes the cursor to move to the beginning of the next line. When this option is not set, the cursor does not move. |
 | Cursor Style: | AccuTerm support |
 

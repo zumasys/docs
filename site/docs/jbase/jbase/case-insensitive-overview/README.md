@@ -65,8 +65,9 @@ jBASE BASIC has been changed in the following area's.
 New utility: **jFormatCode**
 
 
-| Format existing code<br> | jFormatCode -f myfile source\_name.b<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Format existing code<br> | jFormatCode -f myfile source\_name.b<br> |
 | Reformat older code so it can be compiled in jBase<br> | jFormatCode -p -f myfile source\_name.b<br> |
 | Get some help<br> | jFormatCode -?<br> |
 
@@ -180,6 +181,8 @@ jchmod -?
 You can list which files currently support casing via LISTF.
 
 
+| <!----> | <!----> |
+| --- | --- |
 | FILENAME............................................<br> | TYPE<br> | MODULO<br> | SEP<br> | BCKUP<br> | CASING<br> |
 | MYFILE]D<br> | J4<br> | 3<br> | 1<br> | yes<br> | no<br> |
 | MYFILE<br> | J4<br> | 691<br> | 1<br> | yes<br> | yes<br> |
@@ -291,6 +294,8 @@ CASE ON
 ## Updated Commands
 
 
+| <!----> | <!----> |
+| --- | --- |
 | LISTF<br> | Changed to should case sensitive files.<br> |
 | jchmod<br> | Changed to should case sensitive files.<br> |
 | BASIC<br> | Changed to allow code formatting at runtime.<br> |

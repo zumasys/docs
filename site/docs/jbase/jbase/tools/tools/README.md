@@ -8,8 +8,9 @@
 
 
 
-| [CHAR](./../char)<br> | Displays a character conversion table.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| [CHAR](./../char)<br> | Displays a character conversion table.<br> |
 | [ENCRYPTION](./../../jbase-encryption---database-security)<br> | File encryption and decryption.<br> |
 | [ERRMSG](./../errmsg)<br> | Displays system error message text/description.<br><br> |
 | HAD<br> | Displays any file in a hexadecimal format. A hexadecimal offset can be specified from which to start the display as:<br>```<br>had -offset<br>```<br><br><br> |

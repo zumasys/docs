@@ -28,8 +28,9 @@ If you do not see your customer(s) listed under your account or do not see the o
 
 
 
-| **Title** | **Description** |
+| <!----> | <!----> |
 | --- | --- |
+| **Title** | **Description** |
 | Company | Customer's Name |
 | Product | Zumasys Product Name |
 | Status | Current Status of the Company's Product Maintenance |

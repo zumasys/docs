@@ -32,8 +32,9 @@ jbase_agent [service options] [options]
 
 
 
-| **Option** <br> | **Description** <br> |
+| <!----> | <!----> |
 | --- | --- |
+| **Option** <br> | **Description** <br> |
 | --config=[config file name]<br> | Use [config file name] to specify jagent options. When using the jBASE HTTP API (RESTful services), a configuration file is required, as it specifies how HTTP requests are handled.  E.g. jbase\_agent --config=$JBCRELEASEDIR/config/ jagent\_config<br>You must put a = sign in the switch.  If you do not define a config file then jagent will look for one in your jbase install directory config/jagent\_config.  Therefore jagent\_config --config myconfig will not use "myconfig" but will pull the default config due to the missing equal sign.<br> |
 | -A [mode]    --authentication=[mode]<br> | [mode] = the mode (none|user|account) used to authenticate client connections. This option is ignored for jBASE HTTP connections.  E.g. jbase\_agent -A user It is recommended you do not use none for non HTTP sessions.  <br> |
 | -b [interfaceName]--bind\_address=[interfaceName]<br> | Bind to a specific local interface. If not specified then bind to all local interfaces.  e.g. jbase\_agent -b 1.2.3.4<br> |

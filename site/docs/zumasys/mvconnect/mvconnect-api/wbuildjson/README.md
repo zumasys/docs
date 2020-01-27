@@ -18,8 +18,9 @@ CALL WBUILDJSON(JSON,FIELD,VALUE,ERRORS)
 ### SYNTAX ELEMENTS
 
 
-| Parameter | Description |
+| <!----> | <!----> |
 | --- | --- |
+| Parameter | Description |
 | JSON | This is the jSON string that is being built |
 | FIELD | The field you wish to set |
 | VALUE | The value you wish to set the field to. |

@@ -1,7 +1,7 @@
 # Installing the ODBC jEDI on Windows
 
 **Created At:** 12/27/2019 4:34:31 PM  
-**Updated At:** 12/27/2019 7:33:55 PM  
+**Updated At:** 1/17/2020 12:46:42 AM  
 **Original Doc:** [installing-the-odbc-jedi-on-windows](https://docs.jbase.com/installing-the-odbc-jedi-on-windows)  
 **Original ID:** 509689  
 **Internal:** Yes  
@@ -132,7 +132,7 @@ Verifying installation... Success.
 
 [Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files)
 
-[Structure of ODBC JEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
+[Structure of ODBC jEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
 
 [Configuring the ODBC jEDI on Linux/Unix](./../configuring-the-odbc-jedi-on-linux&unix)
 

@@ -24,8 +24,9 @@ jexport {options} filename {sort-criteria} {selection-critera} {output-specs} {L
 ## Options
 
 
-| Option | Description |
+| <!----> | <!----> |
 | --- | --- |
+| Option | Description |
 | -f filepath | **filepath** is the full or relative path to where the file is to be generated. If this option is omitted then output is sent to stdout. Enclose the path in double-quotes if it contains spaces. |
 | -d delimiter | The character(s) used to delimit the values, default is @TAB<br><br>This character can be specified as:<br>        **@TAB** = Horizontal Tab char(9)<br>        **@CSV** = Each value is enclosed in quotes and comma separated<br>**@SVM**= Sub-Value-Mark char(252<br>**@VM**= Value-Mark char(253)<br>**@AM** = Attribute Mark char(254)<br>        e.g. **-d @VM**<br><br>Any single character in the range CHAR(33) - CHAR(126), e.g. **-d:**<br>The following characters cannot be used in this manner:<br>**-** (dash)<br>**"** (double-quote)<br>**'** (single-quote)<br>**\xnn** - where 'nn' is a hexadecimal number in the range 0x00 - 0xFF<br>Invalid hex digits defaults to 0x00<br>                 e.g. **-d \xFD** |
 | -o | Overwrite existing file when the **-f** option is used, ignored otherwise |

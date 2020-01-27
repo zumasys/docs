@@ -18,8 +18,9 @@ CALL WSETCONTENTTYPE(CONTENTTYPE)
 #### SYNTAX ELEMENTS
 
 
-| Parameter | Description |
+| <!----> | <!----> |
 | --- | --- |
+| Parameter | Description |
 | CONTENTTYPE | Pass in what you want the content type to be. This will set the header Content-Type. |
 
 

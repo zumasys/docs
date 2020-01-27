@@ -63,8 +63,9 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 ### INITIAL ENVIRONMENT VARIABLES
 
 
-| [PATH](./../path)<br> | pathnames of executables<br> |
+| <!----> | <!----> |
 | --- | --- |
+| [PATH](./../path)<br> | pathnames of executables<br> |
 | HOME<br> | pathname of user home directory. Many defaults rely on this environment variable<br> |
 | [LD\_LIBRARY\_PATH](./../ld_library_path)<br> | pathnames of system libraries (Linux, Solaris only)<br> |
 | LIBPATH<br> | pathnames of system libraries (AIX only)<br> |
@@ -94,6 +95,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 #### EXECUTION
 
 
+| <!----> | <!----> |
+| --- | --- |
 | [JBASE\_ERRMSG\_TRACE](./../jbase_errmsg_trace)<br> | Controls whether or not to log jBASE messages to the $JBCRELEASEDIR/tmp/jbase\_error\_trace file.<br> |
 | [JBASE\_ERRMSG\_ZERO\_USED](./../jbase_errmsg_zero_used)<br> | controls the behavior of jBC programs when an uninitialized variable is encountered<br> |
 | [JBASE\_ERRMSG\_NON\_NUMERIC](./../jbase_errmsg_non_numeric)<br> | controls the behavior of jBC programs when a numeric operation on a non-numeric variable is encountered<br> |
@@ -115,6 +118,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 #### DEVELOPMENT
 
 
+| <!----> | <!----> |
+| --- | --- |
 | [JBCDEV\_BIN](./../jbcdev_bin)<br> | set to alternate path to catalog executables.<br>Windows - %home%\bin<br>UNIX - $HOME/bin<br> |
 | [JBCDEV\_LIB](./../jbcdev_lib)<br> | set to alternate path to catalog libraries.<br>Windows - %home%\lib<br>UNIX - $HOME/bin<br> |
 | [JDIAG](./../jdiag)<br> | provides a variable amount of trace information<br> |
@@ -127,6 +132,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 #### MISCELLANEOUS
 
 
+| <!----> | <!----> |
+| --- | --- |
 | [JBASEUNIQUE](./../jbaseunique)<br> | specify alternate jBASE work file<br> |
 | [JBCERRFILE](./../jbcerrfile)<br> | specify alternate error message file<br> |
 | [JBCSPOOLERDIR](./../jbcspoolerdir)<br> | specify alternate spooler directory<br> |
@@ -144,6 +151,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 #### TERMINAL
 
 
+| <!----> | <!----> |
+| --- | --- |
 | JBCECHO<br> | set to 1 to force echo on<br> |
 | [JBCSCREEN\_DEPTH](./../jbcscreen_depth)<br> | specify alternate terminal depth (valid only on jBASE 3.x)<br> |
 | [JBCSCREEN\_WIDTH](./../jbcscreen_width)<br> | specify alternate terminal width (valid only on jBASE 3.x)<br> |
@@ -159,6 +168,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 #### EMBEDDED SQL
 
 
+| <!----> | <!----> |
+| --- | --- |
 | JBC\_SQLLIBS<br> | set alternate SQL libraries for embedded SQL<br> |
 | JBC\_SQLPREPROC<br> | set alternate SQL pre-compiler command<br> |
 | JBC\_SQLFIXEDLEN<br> | set to use fixed length types for char input strings<br> |
@@ -169,6 +180,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 #### QUERIES
 
 
+| <!----> | <!----> |
+| --- | --- |
 | [JBCDEFDICTS](./../jbcdefdicts)<br> | specify alternate default dictionary files<br> |
 
 
@@ -177,6 +190,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 #### CREATE-FILE
 
 
+| <!----> | <!----> |
+| --- | --- |
 | JEDI\_PREFILEOP<br> | parameters take precedence before command line<br> |
 | JEDI\_POSTFILEOP<br> | parameters take precedence after command line<br> |
 
@@ -200,6 +215,8 @@ set JEDI_PREFILEOP=TYPE=J4
 #### JRFS
 
 
+| <!----> | <!----> |
+| --- | --- |
 | [JBCNETACCESS](./../jbcnetaccess)<br> | specify the location of the jRFS security access file<br> |
 | [JBCNETDIR](./../jbcnetdir)<br> | specify the location of the jRFS configuration files<br> |
 | JRFS\_REMOTE\_JQL<br> | set to 1 to allow jQL to be executed remotely<br> |

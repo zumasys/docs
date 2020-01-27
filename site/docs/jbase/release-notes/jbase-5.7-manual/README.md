@@ -36,7 +36,7 @@ jBASE provides the following documentation to help developers and administrators
 - [Introduction to jBASE](./../../migration-station/introduction-to-jbase)
 - [Creating a jBASE Program](./../../administration/installation-guides/create-a-jbase-program "INTRODUCTION TO FILE CREATE AND SIMPLE PROGRAM")
 - [Introduction to Dynamic Objects](./../../dynamic-objects/introduction-to-dynamic-objects "Introduction to Dynamic Objects")
-- [Introduction to jAgent](./../../jagent/introduction-to-jagent "Introduction to jAgent")
+- [Introduction to jAgent](introduction-to-jagent "Introduction to jAgent")
 - [jBASE F.A.Q.](./../../migration-station/jbase-f.a.q "jBASE F.A.Q.")
 
 

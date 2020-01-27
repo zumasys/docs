@@ -18,8 +18,9 @@ CALL WGETCOOKIE(COOKIEVALUE,COOKIENAME)
 #### **SYNTAX ELEMENTS**
 
 
-| Parameter | Description |
+| <!----> | <!----> |
 | --- | --- |
+| Parameter | Description |
 | COOKIEVALUE | Returns the value of the cookie |
 | COOKIENAME | The name of the cookie you wish to retrieve. |
 

@@ -28,8 +28,9 @@ classname::$fromfile(source file)
 
 
 
-| Argument<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Argument<br> | Description<br> |
 | source file<br> | the full or relative path of an operating system file<br> |
 
 

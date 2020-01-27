@@ -33,8 +33,9 @@ array1->$equals(array2)
 
 
 
-| Argument<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Argument<br> | Description<br> |
 | obj2<br> | the object to compare with obj1 for equality<br> |
 | array2<br> | the array to compare with array1 for equality<br> |
 
@@ -46,6 +47,8 @@ array1->$equals(array2)
 
 
 
+| <!----> | <!----> |
+| --- | --- |
 | Value<br> | Description<br> |
 | 0<br> | the objects or arrays being compared are not equal<br> |
 | 1<br> | the objects or arrays being compared are equal<br> |

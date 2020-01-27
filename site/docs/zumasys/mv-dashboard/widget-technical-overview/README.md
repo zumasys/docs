@@ -34,8 +34,9 @@ COMMON /MVDB/ GLOBAL.INFO(100), GLOBAL.USER.DATA(20), GLOBAL.TEMP.DATA(20), WIDG
 GLOBAL.INFO(1…100) contains global variables that are assigned and used by the dashboard controller programs. Widget subroutines are not expected to modify the information in the global variable space. However, these variables can be useful to widget programs. EQUATES for the variables in GLOBAL.INFO(1…100) make the following variable names available:
 
 
-| G$USERID<br> | The ID of the user currently logged in.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| G$USERID<br> | The ID of the user currently logged in.<br> |
 | G$CURRENT.DB<br> | Current dashboard name.<br> |
 | G$LOGIN.DATE<br> | Date user logged in (from session).<br> |
 | G$LOGIN.TIME<br> | Time user logged in (from session).<br> |

@@ -27,8 +27,9 @@ arr->$setnull(value number)
 
 
 
-| Argument<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Argument<br> | Description<br> |
 | property name<br> | the name of the property to set the value to null<br> |
 | value number<br> | the value number of the array to set to null ("-1" can be used to append the null value)<br> |
 

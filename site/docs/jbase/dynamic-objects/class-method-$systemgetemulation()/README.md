@@ -18,8 +18,9 @@ The properties of the object are the emulation (configuration) options. The valu
 
 
 
-| Value<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Value<br> | Description<br> |
 | -1<br> | undefined<br> |
 | 0<br> | false<br> |
 | 1<br> | true<br> |

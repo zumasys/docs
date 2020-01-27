@@ -1,7 +1,7 @@
 # Licensing a jBASE System
 
 **Created At:** 11/2/2018 2:28:19 PM  
-**Updated At:** 4/30/2019 4:40:42 PM  
+**Updated At:** 12/31/2019 11:26:03 AM  
 **Original Doc:** [346237-licensing-a-jbase-system](https://docs.jbase.com/36690-installation-guides/346237-licensing-a-jbase-system)  
 **Original ID:** 346237  
 **Internal:** No  
@@ -10,52 +10,57 @@
 <badge text='jinstallkey -v' vertical='middle' />
 <badge text='evaluation' vertical='middle' />
 
-For unlicensed installations use the **jInstallKey**command with a Standard or Evaluation license key to activate jBASE. This should not be necessary if jBASE was installed with the Linux or Windows installer.
+If running the jBASE installer then you will be able to enter the license keys during installation.
 
-*Note: you may have to be administrator as the permissions to the **system.properties** file is typically read-only.*
+To upgrade an existing licensed system use the **jInstallKey**command with a Standard or Evaluation license key.
 
-For example, to install a System license key:
+*Note: you may have to be root/administrator as the permissions to the **system.properties** file (e.g. the file that contains the license keys) is typically read-only.*
+
+All commands must be entered from an Operating System shell.
+
+To install a System license key:
 
 ```
+. /opt/jbase/CurrentVersion/src/jbase_env.sh       [Linux]
+%JBCRELEASEDIR%\jbase_env.cmd                      [Windows]
 jInstallKey -s <key>
+jLicenseUpgrade -r
 ```
 
-To install an Eval license key:
+To install an Evaluation license key:
 
 ```
+. /opt/jbase/CurrentVersion/src/jbase_env.sh       [Linux]
+%JBCRELEASEDIR%\jbase_env.cmd                      [Windows]
 jInstallKey -e <key>
+jLicenseUpgrade -r
 ```
 
 
 
-To view the help page for **jInstallKey**:
+To view the help pages for **jInstallKey**and **jLicenseUpgrade**:
 
 ```
 jInstallkey -?
+jLicenseUpgrade -?
 ```
 
-Once the system is licensed, use the **jLicenseUpgrade** command to add or update System, Eval, Multisession or Websession licensing.
+Once the system is licensed, use the **jLicenseUpgrade** command to add or update Multisession or Websession licensing.
 
 #### Examples
 
 ```
 jLicenseUpgrade -add -multisession <key>
-jLicenseUpgrade -update -system <key>
 jLicenseUpgrade -update -multisession <key>
-jLicenseUpgrade -update -eval <key>
 ```
 
-
-
-To view the help page for **jLicenseUpgrade**:
+When all keys are upgraded:
 
 ```
-jLicenseUpgrade -?
+jLicenseUpgrade -r
 ```
 
-
-
-The **jlicensinginfo** command can be used to verify that the license details are correct.
+Use the **jlicensinginfo** to verify that the license details are correct.
 
 
 

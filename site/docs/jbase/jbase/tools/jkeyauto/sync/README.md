@@ -32,8 +32,9 @@ where:
 
 
 
-| LOCK<br> | 0 shows the lock was taken. Any other value is the error number of a fatal error.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| LOCK<br> | 0 shows the lock was taken. Any other value is the error number of a fatal error.<br> |
 | UNLOCK<br> | 0 shows the lock was unlocked. Any other value is the error number of a fatal error.<br> |
 | TEST<br> | 0 shows the requested lock is currently unlocked. 1 shows the requested lock is currently locked.<br> |
 | WAIT<br> | 0 shows the lock is unlocked or became unlocked. 1 shows the operation timed out. Any other value is the error number of a fatal error.<br> |

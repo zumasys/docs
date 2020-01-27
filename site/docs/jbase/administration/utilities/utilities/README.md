@@ -8,8 +8,9 @@
 
 
 
-| [AUTOLOGOUT](./../autologout) | Set a session to be logged off after a period of inactivity. |
+| <!----> | <!----> |
 | --- | --- |
+| [AUTOLOGOUT](./../autologout) | Set a session to be logged off after a period of inactivity. |
 | [BREAK-KEY-ENABLE](./../break-key-enable) | Enable the Break key. |
 | [BREAK-KEY-OFF](./../break-key-off) | Disable the Break key. |
 | [BREAK-KEY-ON](./../break-key-on) | Enable the Break key. |

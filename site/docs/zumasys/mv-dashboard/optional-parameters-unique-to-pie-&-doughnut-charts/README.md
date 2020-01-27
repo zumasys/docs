@@ -10,8 +10,9 @@
 # Generic Properties
 
 
-| shownames=”1/0”<br> | Option to show/hide the data names displayed alongside the pie.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| shownames=”1/0”<br> | Option to show/hide the data names displayed alongside the pie.<br> |
 | showValues=”1/0”<br> | Options to show/hide the data values displayed along with the pies.<br> |
 | showPercentageValues=”1/0”<br> | If you've opted to show the data value, this attribute controls whether to show percentage values or actual values. NOTE: The normal state is to show percentages. Use showPercentageValues='1' to show values instead.<br> |
 | showPercentageInLabel=”1/0”<br> | If you've opted to show the data value, this attribute controls whether to show percentage values or actual values in the pie labels.<br> |
@@ -23,6 +24,8 @@
 # Pie Properties
 
 
+| <!----> | <!----> |
+| --- | --- |
 | pieRadius=”Numeric Pixels”<br> | The best fit pie radius for the chart is automatically calculated. If you want to enforce radius values, you can set it using this attribute.<br> |
 | pieSliceDepth=”Numeric Value”<br> | Sets the 3D height (depth) of the pies on the chart (in pixels). (applies only to 3D Pie Charts)<br> |
 | pieYScale=”Numeric Value 30-100”<br> | This value sets the skewness of the pie chart (vertical slant). (applies only to 3D Pie Charts)<br> |
@@ -36,6 +39,8 @@
 # Name/Value Display Distance Control (Applies to 2D Pie Charts Only)
 
 
+| <!----> | <!----> |
+| --- | --- |
 | slicingDistance=”Numeric Value”<br> | Controls the distance between the sliced pie and the center of other pies.<br> |
 | nameTBDistance=”Numeric Value”<br> | Sets the distance of the name/value text boxes from the pie edge.<br> |
 
@@ -45,6 +50,8 @@
 # Pie Shadow Properties (Applies to 2D Pie Charts only)
 
 
+| <!----> | <!----> |
+| --- | --- |
 | showShadow=”1/0”<br> | Option to show/hide shadow.<br> |
 | shadowColor=”Hex Code”<br> | If you want to set your own shadow color, you’ll need to specify that color for this attribute.<br> |
 | shadowAlpha=”0-100”<br> | Sets the transparency of the shadow.<br> |
@@ -57,6 +64,8 @@
 # Name/Value Display Distance Control (Applies Only to 2D Doughnut Charts)
 
 
+| <!----> | <!----> |
+| --- | --- |
 | nameTBDistance=”Numeric Value”<br> | Sets the distance of the name/value text boxes from the pie edge.<br> |
 
 
@@ -65,6 +74,8 @@
 # Pie Shadow Properties (Applies only to 2D Doughnut Charts)
 
 
+| <!----> | <!----> |
+| --- | --- |
 | showShadow=”1/0”<br> | Option to show/hide shadow.<br> |
 | shadowColor=”Hex Color”<br> | If you want to set your own shadow color, you’ll need to specify that color for this attribute.<br> |
 

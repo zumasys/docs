@@ -12,8 +12,9 @@
 ![accuterm-8-font-character-set: 1565978880696-1565978880696](./1565978880696-1565978880696.png)
 
 
-| Font: | The Font drop-down list shows all of the available fonts installed on your computer that are suitable for use with AccuTerm. In order for a font to be considered suitable, it must be fixed-pitch (most Windows fonts are not fixed-pitch), and it must support the ANSI character set. AccuTerm uses the open-source DejaVu Sans Mono font by default. |
+| <!----> | <!----> |
 | --- | --- |
+| Font: | The Font drop-down list shows all of the available fonts installed on your computer that are suitable for use with AccuTerm. In order for a font to be considered suitable, it must be fixed-pitch (most Windows fonts are not fixed-pitch), and it must support the ANSI character set. AccuTerm uses the open-source DejaVu Sans Mono font by default. |
 | Font Size: | The Size list shows the font sizes available for the selected font. Choose "auto" if you want the font to scale to fit the screen size. This is the default. |
 
 
@@ -26,5 +27,7 @@ Select the character set encoding that is used by the application running on the
 ![accuterm-8-font-character-set: 1565978901039-1565978901039](./1565978901039-1565978901039.png)
 
 
+| <!----> | <!----> |
+| --- | --- |
 | Euro Character: | If your host application needs to display the Euro currency symbol, enter the ASCII value of the Euro symbol, as used on your system. Note: for most character sets there is no standard value for this symbol. Some possible values are 128 (Windows ANSI), 164 (Latin-1 currency and Latin-9 Euro) and 213 (IBM modified code page 850). Unicode (UTF-8) defines the Euro as U+20AC. If you are using Unicode encoding, the Euro character value is ignored. |
 

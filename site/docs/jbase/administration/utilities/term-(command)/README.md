@@ -28,8 +28,9 @@ tlength, tdepth, reserved, reserved, reserved, reserved, plength, pdepth.
 where:
 
 
-| tlength<br> | terminal line length<br> |
+| <!----> | <!----> |
 | --- | --- |
+| tlength<br> | terminal line length<br> |
 | tdepth<br> | terminal display lines per page<br> |
 | plength<br> | printer line length<br> |
 | pdepth<br> | printer display lines per page<br> |

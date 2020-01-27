@@ -30,8 +30,9 @@ where:
 File PROFILES holds the items LISTA and LISTB:
 
 
-| **LISTA**<br> | **LISTB**<br> |
+| <!----> | <!----> |
 | --- | --- |
+| **LISTA**<br> | **LISTB**<br> |
 | Jennifer<br> | Michelle<br> |
 | Carrie<br> | Sheila<br> |
 | Michelle<br> | Mary<br> |

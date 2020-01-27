@@ -50,8 +50,9 @@ Note that, on Windows, you must escape the % symbol.
 Fields 1 and 2 can accept values from the following table:
 
 
-| **$Value** <br> | **Replaced With**<br> |
+| <!----> | <!----> |
 | --- | --- |
+| **$Value** <br> | **Replaced With**<br> |
 | EnvVar<br> | the value of the specified Environment Variable<br> |
 | %a<br> | the user account name<br> |
 | %m<br> | the phrase "(Cmd)" if the shell is in command mode<br> |

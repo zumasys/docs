@@ -31,8 +31,9 @@ The transaction can be ended in one of two ways, either a transaction commit ind
 The transaction boundaries or the start and end of a transaction can be programmatically indicated by using the following statements
 
 
-| [TRANSTART](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/adv22_TRANSTART.htm)<br> | Marks the beginning of a transaction<br> |
+| <!----> | <!----> |
 | --- | --- |
+| [TRANSTART](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/adv22_TRANSTART.htm)<br> | Marks the beginning of a transaction<br> |
 | [TRANSEND](./../../../jbase-basic-%28jbc%29/transend)<br> | Marks the end of a successfully completed transaction<br> |
 | [TRANSABORT](./../../../jbase-basic-%28jbc%29/transabort)<br> | Aborts the current transaction and reverses any updates to the database<br> |
 | [TRANSQUERY](./../../../jbase-basic-%28jbc%29/transquery)<br> | Detects whether or not a transaction is active on the current process<br> |

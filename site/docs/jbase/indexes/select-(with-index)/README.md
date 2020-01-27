@@ -50,8 +50,9 @@ This will work for descending numeric index keys as well.
 Consider the following records written to a file with a simple left justified index created on a multi-valued attribute 1:
 
 
-| **Record Key** | **Data in attribute 1** |
+| <!----> | <!----> |
 | --- | --- |
+| **Record Key** | **Data in attribute 1** |
 | A | COOPER]SMITH]JONES]COOPER]COOPER |
 | B | COOPER]CLARK |
 | C | JONES |
@@ -60,6 +61,8 @@ Consider the following records written to a file with a simple left justified in
 The following index data will now have been created for the above data:
 
 
+| <!----> | <!----> |
+| --- | --- |
 | **Index key** | **Index data** |
 | --- | --- |
 | CLARK | Key "B" at multi-value 2 |

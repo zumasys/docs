@@ -60,8 +60,9 @@ All jBASE programs execute in the same process unless explicitly executed via th
 ### INITIAL ENVIRONMENT VARIABLES
 
 
-| PATH | pathnames of executables |
+| <!----> | <!----> |
 | --- | --- |
+| PATH | pathnames of executables |
 | HOME | pathname of user home directory. Many defaults rely on this environment variable |
 | LD\_LIBRARY\_PATH | pathnames of system libraries (Linux) |
 | LIBPATH | pathnames of system libraries (AIX) |
@@ -91,6 +92,8 @@ All jBASE programs execute in the same process unless explicitly executed via th
 #### EXECUTION
 
 
+| <!----> | <!----> |
+| --- | --- |
 | JBASE\_ERRMSG\_TRACE | Controls whether or not to log jBASE messages to the $JBCRELEASEDIR/tmp/jbase\_error\_trace file.<br> |
 | JBASE\_ERRMSG\_ZERO\_USED | controls the behavior of jBC programs when an uninitialized variable is encountered |
 | JBASE\_ERRMSG\_NON\_NUMERIC | controls the behavior of jBC programs when a numeric operation on a non-numeric variable is encountered |
@@ -111,6 +114,8 @@ All jBASE programs execute in the same process unless explicitly executed via th
 #### DEVELOPMENT
 
 
+| <!----> | <!----> |
+| --- | --- |
 | JBCDEV\_BIN | set to alternate path to catalog executables.<br>Windows - %home%\bin<br>UNIX - $HOME/bin |
 | JBCDEV\_LIB | set to alternate path to catalog libraries.<br>Windows - %HOME%\lib<br>UNIX - $HOME/bin |
 | JDIAG | provides a variable amount of trace information |
@@ -123,6 +128,8 @@ All jBASE programs execute in the same process unless explicitly executed via th
 #### MISCELLANEOUS
 
 
+| <!----> | <!----> |
+| --- | --- |
 | JBASEUNIQUE | specify alternate jBASE work file |
 | JBCERRFILE | specify alternate error message file |
 | JBCSPOOLERDIR | specify alternate spooler directory |
@@ -139,6 +146,8 @@ All jBASE programs execute in the same process unless explicitly executed via th
 #### TERMINAL
 
 
+| <!----> | <!----> |
+| --- | --- |
 | JBCECHO | set to 1 to force echo on |
 | JBCSCREEN\_DEPTH | specify alternate terminal depth (valid only on jBASE 3.x) |
 | JBCSCREEN\_WIDTH | specify alternate terminal width (valid only on jBASE 3.x) |
@@ -154,6 +163,8 @@ All jBASE programs execute in the same process unless explicitly executed via th
 #### EMBEDDED SQL
 
 
+| <!----> | <!----> |
+| --- | --- |
 | JBC\_SQLLIBS | set alternate SQL libraries for embedded SQL |
 | JBC\_SQLPREPROC | set alternate SQL pre-compiler command |
 | JBC\_SQLFIXEDLEN | set to use fixed length types for char input strings |
@@ -164,6 +175,8 @@ All jBASE programs execute in the same process unless explicitly executed via th
 #### QUERIES
 
 
+| <!----> | <!----> |
+| --- | --- |
 | JBCDEFDICTS | specify alternate default dictionary files |
 
 
@@ -172,6 +185,8 @@ All jBASE programs execute in the same process unless explicitly executed via th
 #### CREATE-FILE
 
 
+| <!----> | <!----> |
+| --- | --- |
 | JEDI\_PREFILEOP | parameters take precedence before command line |
 | JEDI\_POSTFILEOP | parameters take precedence after command line |
 
@@ -188,6 +203,8 @@ set JEDI_PREFILEOP=TYPE=JP CASE=OFF       (Windows)
 #### JRFS
 
 
+| <!----> | <!----> |
+| --- | --- |
 | JBCNETACCESS | specify the location of the jRFS security access file |
 | JBCNETDIR | specify the location of the jRFS configuration files |
 | JRFS\_REMOTE\_JQL | set to 1 to allow jQL to be executed remotely |

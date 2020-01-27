@@ -31,8 +31,9 @@ where:
 
 
 
-| =<br> | Equal to<br> |
+| <!----> | <!----> |
 | --- | --- |
+| =<br> | Equal to<br> |
 | #<br> | Not equal to<br> |
 | &lt;<br> | Less than<br> |
 | &gt;<br> | Greater than<br> |

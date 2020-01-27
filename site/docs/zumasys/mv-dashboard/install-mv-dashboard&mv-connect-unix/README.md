@@ -49,8 +49,9 @@ Complete these instructions to install the dashboard on Linux or AIX. To install
 
 
 
-| NOTE<br> | The mvapps-*version*.bin files needs to be executable. As such, you may need to modify its file permissions using the ***chmod +x mvapps-version.bin***command |
+| <!----> | <!----> |
 | --- | --- |
+| NOTE<br> | The mvapps-*version*.bin files needs to be executable. As such, you may need to modify its file permissions using the ***chmod +x mvapps-version.bin***command |
 
 
 Once the package is loaded, the following prompt displays:
@@ -104,6 +105,8 @@ The following prompt displays:
 ```
 
 
+| <!----> | <!----> |
+| --- | --- |
 | NOTE | If doing a D3 installations, and no User ID has been specified in your D3 configuration file, the following prompt displays instead:This software needs to be installed using the same system user as the one associated with the D3 virtual machine. Typically, this is the user "pick", or some variant.Your D3 configuration file was located, but it does not contain a line for 'user'. Please specify the user ID that the F3 virtual machine uses.Select a user id: [root]: |
 
 

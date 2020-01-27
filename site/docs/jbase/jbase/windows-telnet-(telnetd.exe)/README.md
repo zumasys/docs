@@ -28,8 +28,9 @@ jBASE TCP Remote Logon Services use the following rules to disambiguate account 
 When users log on, their environment will contain all system-wide environment variables that are set on the local system.  They will not receive their normal user environment settings at this moment in time (the Win32 API does not provide this ability).  To circumvent this omission in the Win32 API, the jBASE TCP Remote Logon Services automatically set the following environment variables:
 
 
-| USERDOMAIN<br> | The domain name in which the user account is defined.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| USERDOMAIN<br> | The domain name in which the user account is defined.<br> |
 | USERNAME<br> | The account name of the user.<br> |
 | HOMEPATH<br> | The path name of the home directory of the user. If the user’s home directory is a remote path, then this will contain the Universal Naming Convention (UNC) name of the user’s home directory.<br> |
 | HOMESHARE<br> | Always set to NULL. See the comments on remote directories below.<br> |

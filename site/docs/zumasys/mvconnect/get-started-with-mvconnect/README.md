@@ -15,7 +15,7 @@
 
 Once you have installed MVConnect you are ready to start developing.  MVConnect is a cross-platform Web/Rest platform.  The product includes two main components:
 
-1. A small web server that runs directly on your Pick box.  This is a non-Pick program that listens for web requests and transfers that call into Pick.  Since jBASE 5.6, RESTful Services have been built into jAgent.  On other platforms and prior to jBASE 5.6, we offer MVAppsvr which facilitates getting into Pick via the Pick executable.  Both of these front end web servers are configured a little differently.  Look here for documentation on how to configure MVAppsvr while this [link](./../../../jbase/jagent/introduction-to-jagent "jAgent documentation") describes how to setup jAgent.
+1. A small web server that runs directly on your Pick box.  This is a non-Pick program that listens for web requests and transfers that call into Pick.  Since jBASE 5.6, RESTful Services have been built into jAgent.  On other platforms and prior to jBASE 5.6, we offer MVAppsvr which facilitates getting into Pick via the Pick executable.  Both of these front end web servers are configured a little differently.  Look here for documentation on how to configure MVAppsvr while this [link](https://docs.jbase.com/30312-jagent/introduction-to-jagent "jAgent documentation") describes how to setup jAgent.
 2. Pick side library for doing web work.  These library pieces are the same for all versions of Pick.  This allows you to write Web and Rest applications that can easily move to different versions of Pick.
 
 
@@ -54,8 +54,9 @@ This test service grabs some information from your system and outputs it in JSON
 The important fields are
 
 
-| Who | What line the Connector processed the request on.   |
+| <!----> | <!----> |
 | --- | --- |
+| Who | What line the Connector processed the request on.   |
 | vars | This is a list of vars.  This will include any vars sent on the URL bar plus any x-www-form-urlencoded data |
 | headers | This is headers sent by the client.  The MVConnector will limit the headers sent.  If you wish to send more headers to look at the MVConnector config file and add the header name. |
 | body | When the post is not x-www-form-urlencoded, the raw body will be sent. |
@@ -141,6 +142,8 @@ For example here is code for PHP
 While it is generally recommended to run your REST service handlers from the MVDB account, it is possible to LOGTO a different account to run the handler program. The name of the account must be configured in the [WDB.RESOURCE](./../../../jbase/jagent/apis/wdb.resource) file. In addition, the target account requires several q-pointers and cataloged programs:
 
 
+| <!----> | <!----> |
+| --- | --- |
 | WBPD<br> | contains INCLUDE files, not needed at runtime |
 | WREST.BP | catalog all items in target account |
 | WOBJ.BP | catalog all items in target account if JSON parser needed |

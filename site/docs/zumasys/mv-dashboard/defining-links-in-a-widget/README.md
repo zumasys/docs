@@ -14,8 +14,9 @@ The link definition also includes the location(s) at which the links are to be d
 Adding a link to a widget requires the following variables to be assigned, and each variable may contain a value-mark-delimited list if multiple links are desired:
 
 
-| W$LINK.LABEL<br> | The link text<br> |
+| <!----> | <!----> |
 | --- | --- |
+| W$LINK.LABEL<br> | The link text<br> |
 | W$LINK.LOCATION<br> | The location(s) as quadrants 1-4, and/or "C" to display an icon in the corner of the widget. To display a single link in multiple locations, simply concatenate the locations into a single string. For example, "14C" will display the link in the upper-right-hand corner, the lower-right-hand corner, and as an icon in the title bar.<br> |
 | W$LINK.UD.POS<br> | The WIDGET.USER.DATA array element number to store the user data value. This may include a sub-value-delimited list to populate multiple values in WIDGET.USER.DATA for a single link.<br> |
 | W$LINK.UD.VAL<br> | The value to be stored in prescribed WIDGET.USER.DATA element. This may include a sub-value-delimited list to populate multiple values in WIDGET.USER.DATA for a single link.<br> |

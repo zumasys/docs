@@ -53,8 +53,9 @@ The above can be used to clear the screen before the greeting "Hi there!" is dis
 Some valid screen codes are listed below:
 
 
-| -1<br> | clear the screen and home the cursor.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| -1<br> | clear the screen and home the cursor.<br> |
 | -2<br> | home the cursor.<br> |
 | -3<br> | clear screen from the cursor to the end of the screen.<br> |
 | -4<br> | clear screen from cursor to the end of the current screen line.<br> |
@@ -67,6 +68,8 @@ Some valid screen codes are listed below:
 Other @ codes include:
 
 
+| <!----> | <!----> |
+| --- | --- |
 | @ACCOUNT<br> | Current account<br> |
 | @AM<br> | CHAR(254)<br> |
 | @CALLSTACK<br> | Call stack (i.e. if used in a subroutine)<br> |

@@ -26,8 +26,9 @@ arr->$prepend(value(,reject_duplicates{,case_insensitive}}
 
 
 
-| Argument<br> | Description<br> |
+| <!----> | <!----> |
 | --- | --- |
+| Argument<br> | Description<br> |
 | value<br> | the value to prepend<br> |
 | reject\_duplicates | 0 = Duplicates are allowed (default)<br>1 = Duplicates are rejected |
 | case\_insensitive | 0 = The duplicate check is case sensitive (default)<br>1 = The duplicate check is case insensitive (any non-zero number is valid) |

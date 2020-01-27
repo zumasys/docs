@@ -107,8 +107,9 @@ Compilation
 
 jBASE 5.6 is brought to you by the following compilers:
 
-| Platform | Compiler version |
+| <!----> | <!----> |
 | --- | --- |
+| Platform | Compiler version |
 | AIX 6.0 | XL C/C++ Version 8.0.0.18 |
 | Windows 64-bit | Visual Studio 2005 SP1 |
 | RH Linux AS5 | gcc (GCC) 4.1.2 20080704 (Red Hat 4.1.2-44) |
@@ -126,6 +127,8 @@ jBASE 5.6 patch release includes Patches PN5\_50468 through PN5\_60512
 ## 
 
 
+| <!----> | <!----> |
+| --- | --- |
 | Patch | Description |
 | [5\_50468](http://www.jbase.com/releasenotes/5.6.0/PN5_50468.html) | Add support for encryption to UD file types. |
 | [5\_50469](http://www.jbase.com/releasenotes/5.6.0/PN5_50469.html) | jQL not being able to access encrypted files. |

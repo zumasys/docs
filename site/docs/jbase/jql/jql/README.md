@@ -242,8 +242,9 @@ where:
 The following words and symbols have specific meanings when used in a jQL sentence. They should only be used as described later in this chapter and should not be used as user-defined dictionary names.
 
 
-| !<br> | #<br> | %<br> | &<br> | (<br> |
+| <!----> | <!----> | <!----> | <!----> | <!----> |
 | --- | --- | --- | --- | --- |
+| !<br> | #<br> | %<br> | &<br> | (<br> |
 | /<br> | &lt;=<br> | &lt;&gt;<br> | =<br> | =&lt;<br> |
 | \*<br> | +<br> | -<br> | &gt;<br> | &gt;&lt;<br> |
 | A<br> | AFTER<br> | ALL<br> | AN<br> | AND<br> |
@@ -308,6 +309,8 @@ SORT SALES WITH PART.NO = "ABC]" BY POSTCODE CUST.NAME POSTCODE TOTAL VALUE DBL-
 where:
 
 
+| <!----> | <!----> | <!----> | <!----> | <!----> |
+| --- | --- | --- | --- | --- |
 | SORT<br> | is the jQL command.<br> |
 | SALES<br> | is the filename.<br> |
 | WITH PART.NO = "ABC]"<br> | is the selection criterion. Select all records which contain a part number that starts with ABC.<br> |

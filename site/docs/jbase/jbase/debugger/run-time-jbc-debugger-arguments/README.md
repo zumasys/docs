@@ -12,8 +12,9 @@ When a jBC source program is executed, there are a number of command arguments t
 
 
 
-| **Option** | **Description** |
+| <!----> | <!----> |
 | --- | --- |
+| **Option** | **Description** |
 | -Jd<br> | The debugger is entered at the start of the program, immediately prior to executing the first jBC command.<br> |
 | -JD<br> | The debugger is entered at the start of the program, immediately prior to executing the first jBC command. The debug session remains active, even if a new program is EXECUTEd or CHAINed.<br> |
 | -Jp{:Path...}<br>    -Jp{;Path...}<br> | This specifies to the debugger where it can find the necessary sources it needs at run time. Path can comprise multiple jBC filenames or jBC filenames, as long as they are each delimited by a colon (Unix) or semicolon (Windows). When the debugger attempts to open the source, it will start looking in the leftmost filename specified. If this argument is not given, the default is the current directory. This option can be overridden from the debug prompt using the "p" command.<br> |

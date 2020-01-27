@@ -1,7 +1,7 @@
 # ENVIRONMENT VARIABLES
 
 **Created At:** 11/3/2017 1:29:00 PM  
-**Updated At:** 4/16/2019 3:45:54 PM  
+**Updated At:** 1/23/2020 11:02:05 PM  
 **Original Doc:** [environment-variables](https://docs.jbase.com/44497-articles/environment-variables)  
 **Original ID:** 284123  
 **Internal:** No  
@@ -71,8 +71,9 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 ## INITIAL ENVIRONMENT VARIABLES
 
 
-| [PATH](./../../../environment-variables/path)<br> | pathnames of executables<br> |
+| <!----> | <!----> |
 | --- | --- |
+| [PATH](./../../../environment-variables/path)<br> | pathnames of executables<br> |
 | HOME<br> | pathname of user home directory. Many defaults rely on this environment variable<br> |
 | [LD\_LIBRARY\_PATH](./../../../environment-variables/ld_library_path)<br> | pathnames of system libraries (Linux, Solaris only)<br> |
 | LIBPATH<br> | pathnames of system libraries (AIX only)<br> |
@@ -100,6 +101,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 ### EXECUTION
 
 
+| <!----> | <!----> |
+| --- | --- |
 | [JBASE\_ERRMSG\_TRACE](./../../../environment-variables/jbase_errmsg_trace)<br> | Controls whether or not to log jBASE messages to the $JBCRELEASEDIR/tmp/jbase\_error\_trace file.<br> |
 | [JBASE\_ERRMSG\_ZERO\_USED](./../../../environment-variables/jbase_errmsg_zero_used)  <br> | controls the behavior of jBC programs when an uninitialized variable is encountered<br> |
 | [JBASE\_ERRMSG\_NON\_NUMERIC](./../../../environment-variables/jbase_errmsg_non_numeric)<br> | controls the behavior of jBC programs when a numeric operation on a non-numeric variable is encountered<br> |
@@ -119,6 +122,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 ### DEVELOPMENT
 
 
+| <!----> | <!----> |
+| --- | --- |
 | [JBCDEV\_BIN](./../../../environment-variables/jbcdev_bin)<br> | set to alternate path to catalog executables.<br>Windows - %home%\bin<br>UNIX - $HOME/bin<br> |
 | [JBCDEV\_LIB](./../../../environment-variables/jbcdev_lib)<br> | set to alternate path to catalog libraries.<br>Windows - %home%\lib<br>UNIX - $HOME/bin<br> |
 | [JDIAG](./../../../environment-variables/jdiag)<br> | provides a variable amount of trace information<br> |
@@ -131,6 +136,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 ### MISCELLANEOUS
 
 
+| <!----> | <!----> |
+| --- | --- |
 | [JBASEUNIQUE](./../../../environment-variables/jbaseunique)<br> | specify alternate jBASE work file<br> |
 | [JBCERRFILE](./../../../environment-variables/jbcerrfile)<br> | specify alternate error message file<br> |
 | [JBCSPOOLERDIR](./../../../environment-variables/jbcspoolerdir)<br> | specify alternate spooler directory<br> |
@@ -140,6 +147,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 | [JBC\_OLD\_SP\_EDIT](./../../../environment-variables/jbc_old_sp_edit)<br> | specifies the alternative SP-EDIT format<br> |
 | [JBCLISTFILE](./../../../environment-variables/jbclistfile)<br> | specify alternate select list file<br> |
 | [JBCLISTID](./../../../environment-variables/jbclistid)<br> | force user account name to be part stored list ids.<br> |
+| JBASE\_PIVOT\_YEAR | Set pivot year for full year calculation when doing a MD conversion on a 2 digit year.  Default is 30.  This means if YY &lt; 30 then it is make 19YY, else 20YY.  The 30 will be replaced with this option.   |
+| <br> | <br> |
 
 
 
@@ -147,6 +156,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 ### TERMINAL
 
 
+| <!----> | <!----> |
+| --- | --- |
 | JBCECHO<br> | set to 1 to force echo on<br> |
 | [JBCSCREEN\_DEPTH](./../../../environment-variables/jbcscreen_depth)<br> | specify alternate terminal depth (valid only on jBASE 3.x)<br> |
 | [JBCSCREEN\_WIDTH](./../../../environment-variables/jbcscreen_width)<br> | specify alternate terminal width (valid only on jBASE 3.x)<br> |
@@ -162,6 +173,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 ### EMBEDDED SQL
 
 
+| <!----> | <!----> |
+| --- | --- |
 | JBC\_SQLLIBS<br> | set alternate SQL libraries for embedded SQL<br> |
 | JBC\_SQLPREPROC<br> | set alternate SQL pre-compiler command<br> |
 | JBC\_SQLFIXEDLEN<br> | set to use fixed length types for char input strings<br> |
@@ -172,6 +185,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 ### QUERIES
 
 
+| <!----> | <!----> |
+| --- | --- |
 | [JBCDEFDICTS](./../../../environment-variables/jbcdefdicts)<br> | specify alternate default dictionary files<br> |
 
 
@@ -180,6 +195,8 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 ### CREATE-FILE
 
 
+| <!----> | <!----> |
+| --- | --- |
 | JEDI\_PREFILEOP<br> | parameters take precedence before command line<br> |
 | JEDI\_POSTFILEOP<br> | parameters take precedence after command line<br> |
 
@@ -193,6 +210,8 @@ set JEDI\_PREFILEOP=TYPE=J4 (NT) Don't use quotes
 ### JRFS
 
 
+| <!----> | <!----> |
+| --- | --- |
 | [JBCNETACCESS](./../../../environment-variables/jbcnetaccess)<br> | specify the location of the jRFS security access file<br> |
 | [JBCNETDIR](./../../../environment-variables/jbcnetdir)<br> | specify the location of the jRFS configuration files<br> |
 | JRFS\_REMOTE\_JQL<br> | set to 1 to allow jQL to be executed remotely<br> |

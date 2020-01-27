@@ -23,8 +23,9 @@ where:
 
 
 
-| C<br> | If reference record does not exist or the specified FMC is null, output the value unchanged.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| C<br> | If reference record does not exist or the specified FMC is null, output the value unchanged.<br> |
 | I<br> | Input verify. Functions as a C code for output and as a V code for input.<br> |
 | O<br> | Output verify. Functions as a C code for input and as a V code for output.<br> |
 | V<br> | Reference record must exist and the specified FMC must contain a translatable value. If the record does not exist or the FMC contains a null, an error message will be output.<br> |

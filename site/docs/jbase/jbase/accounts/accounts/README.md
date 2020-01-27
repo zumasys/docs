@@ -10,8 +10,9 @@
 ## jBASE Accounts 
 
 
-| [The SYSTEM File](./../../../environment-variables/system-file)<br> | Configuring the SYSTEM file in jBASE.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| [The SYSTEM File](./../../../environment-variables/system-file)<br> | Configuring the SYSTEM file in jBASE.<br> |
 | [The MD/VOC File](./../the-md&voc-file)<br> | Configuring the MD/VOC in jBASE.<br> |
 | [LOGTO](./../logto)<br> | Moving between accounts.<br> |
 | [Q-pointers and F-pointers](./../qpointers)<br> | Support for MD/VOC pointers.<br> |

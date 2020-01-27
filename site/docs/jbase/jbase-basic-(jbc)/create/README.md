@@ -1,7 +1,7 @@
 # CREATE
 
 **Created At:** 8/16/2017 12:54:38 PM  
-**Updated At:** 10/25/2018 7:18:51 AM  
+**Updated At:** 1/20/2020 8:41:33 PM  
 **Original Doc:** [267387-create](https://docs.jbase.com/36868-jbase-basic/267387-create)  
 **Original ID:** 267387  
 **Internal:** No  
@@ -40,6 +40,13 @@ In the following example, **record\_file2** does not yet exist. When [OPENSEQ](.
         CRT 'Failed to write'
     END
 ```
+
+### Warning
+
+**OPENSEQ** will automatically create the target file if **openseq\_creates = true** (in ***Config\_EMULATE***).
+You can verify by running **config-strings**.
+
+
 
 
 

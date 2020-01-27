@@ -1,7 +1,7 @@
 # INTRODUCTION TO ODBC
 
 **Created At:** 4/12/2017 9:21:51 PM  
-**Updated At:** 5/3/2019 10:40:52 PM  
+**Updated At:** 1/15/2020 11:21:59 PM  
 **Original Doc:** [251010-introduction-to-odbc](https://docs.jbase.com/30312-jagent/251010-introduction-to-odbc)  
 **Original ID:** 251010  
 **Internal:** No  
@@ -18,7 +18,7 @@ The **jBASE ODBC Connector** is an ODBC driver implementing the Open Database Co
 
 **jAgent** is a jBASE component responsible for accepting and processing incoming client requests.
 
-As shown in this diagram, jAgent must be running to accept and dispatch SQL requests to the jBASE Server. jAgent, as well as ODBC, use TCP socket connections to communicate with each other and therefore need to be configured to use the same TCP port. More details about jAgent may be found in the jAgent user guide and via this [link](./../introduction-to-jagent).
+As shown in this diagram, jAgent must be running to accept and dispatch SQL requests to the jBASE Server. jAgent, as well as ODBC, use TCP socket connections to communicate with each other and therefore need to be configured to use the same TCP port. More details about jAgent may be found in the jAgent user guide and via this [link](/_questions/229890).
 
 The **ODBC Driver Manager** is a system component which on Windows is part of the MDAC (Microsoft Data Access Components) package and automatically included with the latest Windows operating systems. Odbcad32.exe is the 32bit/64bit ODBC Data Source Administrator and odbc32.lib/ odbccp32.lib are import libraries to be used by client applications.
 
@@ -68,8 +68,8 @@ Installation of the Visual C++ 2005 SP1 redistributable package is not required 
 
 The ODBC Connector is included in jBASE but may also be deployed on Windows operating systems which do not have jBASE installed. A self-contained installer (from now on mentioned as ODBC installer) is available which installs and registers the ODBC driver. Below is the list of release packages containing the ODBC Connector:
 
-- 64-bit Windows jBASE 5.x ([Client Software Download](https://zumasys.us8.list-manage.com/track/click?u=ed1011024b445ab7d2f0c1e6e&id=7aaa8beaa2&e=57befd976d))
-- 32-bit/64-bit Windows ODBC Installer
+- 64-bit Windows jBASE 5.x ([Client Software Download](https://zdownload.blob.core.windows.net/jbase/ODBC/Windows/x64/1.2.0.0/jodbc64.msi))
+- 32-bit/64-bit Windows ODBC Installer  ([Client Software Download](https://zdownload.blob.core.windows.net/jbase/ODBC/Windows/x86/1.2.0.0/jodbc32_WIN64.msi))
 
 
 The ODBC installer deploys the following files:

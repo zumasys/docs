@@ -26,8 +26,9 @@ After launching your session and connecting to the server, you will have four op
 ![accuterm-8-web-introduction: 1565989048083-1565989048083](./1565989048083-1565989048083.png)
 
 
-| AccuTerm: |  Is the default screen, which is AccuTerm Web. |
+| <!----> | <!----> |
 | --- | --- |
+| AccuTerm: |  Is the default screen, which is AccuTerm Web. |
 | Profiles: |  Brings you to the Profiles page to select another profile. |
 | Keyboard: |  Brings up the Keyboard, select Hide button to hide the keyboard. |
 | Disconnect: |  Disconnects your current session. After you disconnect, a "connect" option will appear and allow you to reconnect to the session. |

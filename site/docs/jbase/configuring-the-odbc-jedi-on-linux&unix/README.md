@@ -1,7 +1,7 @@
 # Configuring the ODBC jEDI on Linux/Unix
 
 **Created At:** 11/15/2019 5:28:05 PM  
-**Updated At:** 12/27/2019 7:28:57 PM  
+**Updated At:** 12/30/2019 5:53:59 PM  
 **Original Doc:** [configuring-the-odbc-jedi-on-linux-unix](https://docs.jbase.com/configuring-the-odbc-jedi-on-linux-unix)  
 **Original ID:** 494585  
 **Internal:** Yes  
@@ -144,7 +144,7 @@ On Linux/Unix, the name of the file has a leading period
 
 [Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files)
 
-[Structure of ODBC JEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
+[Structure of ODBC jEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
 
 [Configuring the ODBC jEDI on Windows](./../configuring-the-odbc-jedi-on-windows)
 

@@ -44,8 +44,9 @@ jBASE shares many common characteristics with D3. jBASE’s remarkable compatibi
 The following diagram shows the elements of a D3 system and contrasts it with the jBASE equivalents
 
 
-| **Element**<br> | **D3**<br> | **jBASE**<br> |
+| <!----> | <!----> | <!----> |
 | --- | --- | --- |
+| **Element**<br> | **D3**<br> | **jBASE**<br> |
 | Language: BASIC<br> | BASIC<br> | JBC<br> |
 | Language: PROC<br> | PROC<br> | JPQ<br> |
 | Language: Paragraph<br> | N Type<br> | PA Type<br> |

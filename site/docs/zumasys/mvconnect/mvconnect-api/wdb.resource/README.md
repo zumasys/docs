@@ -10,8 +10,9 @@
 **WDB.RESOURCE record layout:**
 
 
-| **Attribute** <br> | **Description** <br> |
+| <!----> | <!----> |
 | --- | --- |
+| **Attribute** <br> | **Description** <br> |
 | 001<br> | resource type - this should be 'P'<br> |
 | 002<br> | description of the resource / service<br> |
 | 003<br> | name of program to execute to handle the request<br> |

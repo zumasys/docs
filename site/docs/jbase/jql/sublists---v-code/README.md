@@ -32,25 +32,32 @@ Consider the STOCK file used by a camera factory where each data record can repr
 Take as an example the record set that defines a simple camera assembly. The data records contain the following data:
 
 
-| Key                                         A1<br>001                                        Camera Assy<br>002                                        A21]A22]A23<br>003                                        10  | Key                                      A21<br>001                                      Lens Assy<br>002                                      A210]A211<br>003                                      15  |
+| <!----> | <!----> |
 | --- | --- |
+| Key                                         A1<br>001                                        Camera Assy<br>002                                        A21]A22]A23<br>003                                        10  | Key                                      A21<br>001                                      Lens Assy<br>002                                      A210]A211<br>003                                      15  |
 
 
 
 
 
+| <!----> | <!----> |
+| --- | --- |
 | Key                                        A22<br>001                                       Body<br>002                                      <br>003                                       10 | Key                                      A23<br>001                                     Shutter Assy      <br>002                                     A230]A231  <br>003                                     11 |
 
 
 
 
 
+| <!----> | <!----> |
+| --- | --- |
 | Key                                         A210<br>001                                        Optics<br>002                                        <br>003                                        19 | Key                                      A211<br>001                                      Barrel<br>002<br>003                                      21 |
 
 
 
 
 
+| <!----> | <!----> |
+| --- | --- |
 | Key                                        A230<br>001                                        Iris Mech<br>002<br>003                                        13 | Key                                          A231<br>001                                          Iris Housing<br>002      <br>003                                          14                                 |
 
 

@@ -32,6 +32,5 @@
 [structure-of-odbc-jedi-mapping-files](./structure-of-odbc-jedi-mapping-files)  
 [system-manager](./system-manager)  
 [templates](./templates)  
-[troubleshooting-jagent-web-server](./troubleshooting-jagent-web-server)  
 [using-the-odbc-jedi](./using-the-odbc-jedi)  
 

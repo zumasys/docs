@@ -8,8 +8,9 @@
 
 
 
-| [TRANSACTION PROCESSING](./../transaction-processing) | Overview of transaction processing. |
+| <!----> | <!----> |
 | --- | --- |
+| [TRANSACTION PROCESSING](./../transaction-processing) | Overview of transaction processing. |
 | [TRANSTART](./../../../jbase-basic-%28jbc%29/transtart) | Marks the beginning of a transaction |
 | [TRANSEND](./../../../jbase-basic-%28jbc%29/transend) | Marks the end of a successfully completed transaction. |
 | [TRANSABORT](./../../../jbase-basic-%28jbc%29/transabort) | Aborts the current transaction and reverses any updates to the database |

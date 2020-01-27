@@ -24,8 +24,9 @@
 ## JQL commands 
 
 
-| [BSELECT](./../bselect)<br> | Creates a select list based on output specifications.<br> |
+| <!----> | <!----> |
 | --- | --- |
+| [BSELECT](./../bselect)<br> | Creates a select list based on output specifications.<br> |
 | [COUNT](./../count)<br> | Counts records.<br> |
 | [EDELETE](./../edelete)<br> | Deletes selected records from a file.<br> |
 | [ESEARCH](./../esearch)<br> | Searches records for specified strings.<br> |
