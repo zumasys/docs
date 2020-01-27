@@ -6,8 +6,7 @@
 **Original ID:** 284122  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **ADDS** function creates a dynamic array of the element-by-element addition of two dynamic arrays. It takes the general form:
 
@@ -30,7 +29,5 @@ CRT ADDS (A,B)
 to output:
 
 3]6]9\10]4
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -6,8 +6,7 @@
 **Original ID:** 263503  
 **Internal:** No  
 
-
-# Description
+## Description
 
 This function returns the mathematical absolute of the mathematical expression in the argument. It's use is as:
 
@@ -25,10 +24,4 @@ positive_var = ABS(20 - 30 )
 
 The above will result in the value 10 being assigned to positive\_var.
 
-
-
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide)
-
-####  
-
-

@@ -6,8 +6,7 @@
 **Original ID:** 266894  
 **Internal:** No  
 
-
-# Description 
+## Description
 
 This is used to turn the break key on of off in an application.
 
@@ -31,9 +30,6 @@ Where:
 
 - **ON** or **OFF** are keywords, to enable and disable the BREAK key for the currently executing process, and
 - **expression** evaluates to a boolean TRUE/FALSE for which the break key is to be enabled or disabled.
-
-
-
 
 See also: [BREAK](./../break)
 

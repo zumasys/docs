@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='record handling' vertical='middle' />
 
-# Description
+## Description
 
 The **READV** statement allows a program to read a specific field from a record in a previously opened file into a variable. It takes the general form:
 
@@ -24,7 +24,6 @@ Where:
 - **expression1** should evaluate to a valid record key for the file.
 - **expression2** should evaluate to a positive integer. If the number is invalid or greater than the number of fields in the record, a NULL string will be assigned to **variable1**. If the number is 0, then the **readv0** emulation setting controls the value returned in **variable1**. If a non-numeric argument is evaluated, a run time error will occur.
 - If the **SETTING** clause is specified and the read fails, **setvar** will be set to one of [these values](./../incremental-file-errors). If **ON ERROR** is specified, the statements following the **ON ERROR** clause will be executed for any Incremental File Errors except 128.
-
 
 If the **READV** is successful then the statements following **THEN** will be executed. If the **READ** is unsuccessful, i.e. the record key does not exist in the file, then the statements following **ELSE** are executed. If the **READV** is unsuccessful and there is no **ELSE** then **expression** is set to "" (null).
 
@@ -41,9 +40,5 @@ An example of use may be as:
         ABORT 202, "Xref"
     END
 ```
-
-
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

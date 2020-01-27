@@ -6,8 +6,7 @@
 **Original ID:** 263528  
 **Internal:** No  
 
-
-# Description 
+## Description
 
 The function returns a Boolean TRUE or FALSE result depending on whether or not a variable has an assigned value.
 
@@ -19,13 +18,11 @@ Where *variable* is any variable declared in the program.
 
 **ASSIGNED** returns TRUE if the variable named has an assigned value (even an empty string) before the execution of this statement. If the variable has no assigned value then the function returns FALSE.
 
-## Note:
-
+## Note
 
 > Provision of this function is due to its implementation in older versions of the language. It is advised to program in such a way so as to avoid using this statement.
 
-
-## Example:
+## Example
 
 ```
      IF ASSIGNED(record) THEN
@@ -34,8 +31,6 @@ Where *variable* is any variable declared in the program.
          CRT "The variable 'record' has NOT been assigned a value."
      END
 ```
-
-
 
 See also: [UNASSIGNED](./../unassigned)
 

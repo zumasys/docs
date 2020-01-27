@@ -6,8 +6,7 @@
 **Original ID:** 284139  
 **Internal:** No  
 
-
-# Description 
+## Description 
 
 The **BITOR** function is used to perform the bitwise OR comparison of two integers specified by numeric expressions. It takes the general form :
 
@@ -30,7 +29,5 @@ CRT BITOR(6,12)
 ```
 
 This results in 1110, and the following output is displayed: 14
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

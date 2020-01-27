@@ -6,8 +6,7 @@
 **Original ID:** 284135  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **BITNOT** function returns the bitwise negation of an integer specified by any numeric expression.
 
@@ -27,9 +26,7 @@ The **BITNOT** operation is performed on a 32-bit twos-complement word.
 
 Note:
 
-
 > Differences in hardware architecture can make the use of the high-order bit non portable.
-
 
 An example of use is as:
 
@@ -39,7 +36,5 @@ PRINT BITNOT(6),BITNOT(15,0),BITNOT(15,1),BITNOT(15,2)
 
 to output:
 7 14 13 11
-
-
 
 Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)

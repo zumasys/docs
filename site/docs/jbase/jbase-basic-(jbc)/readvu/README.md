@@ -6,8 +6,7 @@
 **Original ID:** 278777  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **READVU** statement allows a program to read a specific field in a record in a previously opened file into a variable. It also respects record locking and locks the specified record for update.
 
@@ -42,7 +41,6 @@ The lock taken by the **READVU** statement will be released by any of the follow
 - The record lock is released explicitly using the [RELEASE](./../release) statement.
 - The program stops normally or abnormally.
 
-
 When a file is [OPEN](./../open)ed to a local file variable in a subroutine then the file is closed when the subroutine [RETURN](./../return)s so all locks taken on that file are released, including locks taken in a calling program. Files that are opened to [COMMON](./../common) variables are not closed so the locks remain intact.
 
 An example of use is as:
@@ -59,14 +57,12 @@ LOOP
     THEN
         READ DataRec FROM Rec ELSE ABORT 202, Rec
         BREAK ;*leave the LOOP
-    END 
+    END
     ELSE
         ABORT 202, "Xref"
     END
 REPEAT
 ```
-
-
 
 See also: [WRITE](./../write), [WRITEU](./../writeu), [MATWRITE](./../matwrite), [MATWRITEU](./../matwriteu), [RELEASE](./../release), and [DELETE](./../delete).
 

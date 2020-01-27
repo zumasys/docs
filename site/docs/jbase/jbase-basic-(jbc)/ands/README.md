@@ -6,8 +6,7 @@
 **Original ID:** 284126  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **ANDS** function creates a dynamic array of the logical AND of corresponding elements of two dynamic arrays. It takes the general form:
 
@@ -29,7 +28,5 @@ CRT ANDS (A,B)
 to output:
 
 1\0]1\0
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

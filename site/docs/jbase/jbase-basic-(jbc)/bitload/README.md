@@ -6,8 +6,7 @@
 **Original ID:** 284134  
 **Internal:** No  
 
-
-# Description
+## Description
 
 **BITLOAD** assigns all values in the local bit table, or retrieves all the values. It takes the general form:
 
@@ -53,7 +52,5 @@ TABLE.VALUE = BITLOAD()
 ```
 
 to load the variable TABLE.VALUE with the hexadecimal values of the bit table.
-
-
 
 Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)

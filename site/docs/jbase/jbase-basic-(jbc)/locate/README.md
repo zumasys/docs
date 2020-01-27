@@ -6,8 +6,7 @@
 **Original ID:** 276937  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **LOCATE** statement finds the position of an element within a specified dimension of a dynamic array. It takes the general form:
 
@@ -26,20 +25,17 @@ Where:
 - **expression5** indicates the field, value or subvalue from which the search will begin.
 - **BY expression6** causes the search to expect the elements to be arranged in a specific order, which can considerably improve the performance of some searches. The available string values for **expression6** are:
 
-
-| String<br> | Definition<br> 
+| String | Definition
 | --- | --- |
-| AL<br> | Values are in ascending left justified order<br> |
-| AR<br> | Values are in ascending right justified order<br> |
-| AN<br> | Values are in ascending numeric order<br> |
-| DL<br> | Values are in descending left justified order<br> |
-| DR<br> | Values are in right descending right justified order<br> |
-| DN<br> | Values are in descending numeric order<br> |
-
+| AL | Values are in ascending left justified order |
+| AR | Values are in ascending right justified order |
+| AN | Values are in ascending numeric order |
+| DL | Values are in descending left justified order |
+| DR | Values are in right descending right justified order|
+| DN | Values are in descending numeric order|
 
 - **Var** will be set to the position of the Field, MultiValue or SubValue in which **expression1** was found. If it was not found and **expression6** was not specified then **Var** will be set to one position past the end of the searched dimension. If **expression6** specified the order of the elements then **Var** will be set to the position before which the element should be inserted to retain the specified order.
 - The statement must include one of or both of the **THEN** and **ELSE** clauses. If **expression1** is found in an element of the dynamic array, it executes the statements defined by the **THEN** clause. If **expression1** is not found in an element of the dynamic array, it executes the statements defined by the **ELSE** clause.
-
 
 ### INTERNATIONAL MODE
 
@@ -53,8 +49,6 @@ LOCATE Name IN ForeNames BY "AL" SETTING Pos ELSE
     INS Name BEFORE ForeNames<Pos>
 END
 ```
-
-
 
 The following example builds a multi-value list of Fibonacci numbers within the first 1,000,000 positive integers and then prompts the user to see if the numbers entered are in the list. This example uses **expression3** in the **LOCATE** statement.
 
@@ -82,8 +76,6 @@ The following example builds a multi-value list of Fibonacci numbers within the 
     REPEAT
 ```
 
-
-
 ### NOTES
 
 When dealing with sorted numeric data that are to be considered as non-numeric (e.g. part numbers), use the "AL" or "DL" sort specification.
@@ -91,8 +83,6 @@ When dealing with sorted numeric data that are to be considered as non-numeric (
 When dealing with sorted numeric data, always use the "AN" or "DN" sort specification, especially when locating values that are decimal numbers.
 
 The Universe syntax can be obtained in any emulation by setting the **use\_uv\_locate** configuration option in the **Config\_EMULATE** file under the appropriate emulation section as defined by the **JBCEMULATE** environment variable, e.g. **use\_uv\_locate = true**
-
-
 
 See also: [FIND](./../find), [FINDSTR](./../findstr)
 

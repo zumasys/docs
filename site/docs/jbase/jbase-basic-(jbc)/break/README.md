@@ -6,8 +6,7 @@
 **Original ID:** 263578  
 **Internal:** No  
 
-
-# Description 
+## Description
 
 The statement allows for the configuration of the **BREAK** statement. This may take the form:
 
@@ -27,8 +26,6 @@ An example of its use is as:
   REPEAT
 * Program resumes here after BREAK condition satisfied.
 ```
-
-
 
 See also [BREAK ON/OFF](./../break-on&off), [CONTINUE](./../continue)
 

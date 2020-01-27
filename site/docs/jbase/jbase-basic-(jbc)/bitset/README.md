@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='bitset' vertical='middle' />
 
-# Description
+## Description
 
 **BITSET** sets the value of a specified bit in the bit table to one and returns the value of the bit before it was changed. It takes the general form:
 
@@ -29,9 +29,6 @@ For each purpose, **BITSET** maintains a unique table of 128 bits (numbered 1 to
 - -2 sets the Command Level Restart feature
 - -3 sets the Break/End Restart feature
 
-
-
-
 An example of use is as:
 
 ```
@@ -41,10 +38,6 @@ CRT OLD.VALUE
 
 If table entry 112 is zero, returns a value of zero, sets bit 112 to one, and prints zero. If table entry 112 is one, returns a value of one, and prints one.
 
-
-
 See also: [BITRESET](./../bitreset).
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
-
-

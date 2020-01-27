@@ -6,8 +6,7 @@
 **Original ID:** 278786  
 **Internal:** No  
 
-
-# Description
+## Description
 
 **REPLACE** is an obsolete way to assign to dynamic arrays via a function. It takes the form:
 
@@ -23,7 +22,6 @@ Where:
 - **expression3** is only specified when sub-value assignment is to be done and should evaluate to a numeric.
 - **expression4** can evaluate to any data type and is the actual data that will be assigned to the array.
 
-
 The function returns a copy of **var** with the specified replacement carried out. This value may be assigned to the original var in which case the jBASE BASIC compiler will optimize the assignment.
 
 An example of use is as:
@@ -32,7 +30,5 @@ An example of use is as:
 X = "JBASE":MV:"is Great"
 X = REPLACE (X,1,1;"jBASE")
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide)
