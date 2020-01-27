@@ -19,7 +19,7 @@ During the [READNEXT](./../readnext) or **READPREV** sequence a next-key pointer
 
 During a change of direction from forward ([READNEXT](./../readnext)) to backward (**READPREV**) then the next record key or index key read in by the **READPREV** will be the one preceding the next-key pointer.
 
-When the select list is exhausted it will either point one before the start of the select list (if **READPREV**s have been executed) or one past the end of the select list (if[READNEXT](./../readnext)s have been executed). Thus in the event of a change of direction the very first or very last index key or record key will be used.
+When the select list is exhausted it will either point one before the start of the select list (if **READPREV**s have been executed) or one past the end of the select list (if [READNEXT](./../readnext)s have been executed). Thus in the event of a change of direction the very first or very last index key or record key will be used.
 
 For example, consider the following:
 
@@ -50,9 +50,3 @@ the table shows what happens if [READNEXT](./../readnext)s and **READPREV**s on 
 
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
-
-
-
-
-
-

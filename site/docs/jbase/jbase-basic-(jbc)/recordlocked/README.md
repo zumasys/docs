@@ -6,8 +6,7 @@
 **Original ID:** 278781  
 **Internal:** No  
 
-
-# Description
+## Description
 
 This function is used to ascertain the status of a record lock. It takes the general form:
 
@@ -17,23 +16,21 @@ RECORDLOCKED(filevar, recordkey)
 
 Where:
 
-filevar is a file variable from a previously executed [OPEN](./../open) statement.
+**filevar** is a file variable from a previously executed [OPEN](./../open) statement.
 
-recordkey is an expression for the record id that will be checked.
+**recordkey** is an expression for the record id that will be checked.
 
 The function returns an integer value to indicate the record lock status of the specified record id.
 
-
-| <!----> | <!----> |
+| Return Value | Definition |
 | --- | --- |
-| 3<br> | Locked by this process by a [FILELOCK](./../filelock)<br> |
-| 2<br> | Locked by this process by a [READU](./../readu)<br> |
-| 1<br> | Locked by this process by a [READL](./../readl)<br> |
-| 0<br> | Not locked<br> |
-| -1<br> | Locked by another process by a [READL](./../readl)<br> |
-| -2<br> | Locked by another process by a [READU](./../readu)<br> |
-| -3<br> | Locked by another process by a [FILELOCK](./../filelock)<br> |
-
+| 3 | Locked by this process by a [FILELOCK](./../filelock) |
+| 2 | Locked by this process by a [READU](./../readu)|
+| 1 | Locked by this process by a [READL](./../readl) |
+| 0<| Not locked |
+| -1 | Locked by another process by a [READL](./../readl) |
+| -2 | Locked by another process by a [READU](./../readu)|
+| -3 | Locked by another process by a [FILELOCK](./../filelock) |
 
 If the return value is negative, then the [SYSTEM(43)](./../system-functions) and [STATUS](./../status-function) function calls can be used to determine the port number of the program that holds the lock. If -1 is returned, more than 1 port could hold the lock and so the port number returned will be the first port number found.
 
@@ -54,7 +51,5 @@ IF RECORDLOCKED (invFvar,invId) = -2 THEN
     CRT "Inventory record ":invId:" is locked by port ":SYSTEM(43)
 END
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

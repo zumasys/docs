@@ -11,13 +11,13 @@
 
 # Description
 
-The**LN()** function returns the value of the natural logarithm of the supplied value. The function takes the general form:
+The **LN()** function returns the value of the natural logarithm of the supplied value. The function takes the general form:
 
 ```
 LN(expression)
 ```
 
-Where **expressio****n** should evaluate to a numeric value. The function will then return the natural logarithm of that value.
+Where **expression** should evaluate to a numeric value. The function will then return the natural logarithm of that value.
 
 The calculation of the natural logarithm is by using the mathematical constant e as a number base. The portion of code below would display the natural logarithm of pi.
 

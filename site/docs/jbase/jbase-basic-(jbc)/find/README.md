@@ -21,12 +21,12 @@ FIND expression1 IN Var1 {, expression2} SETTING Var2 {, Var3 {, Var4}} THEN | E
 Where:
 
 - **expression1** evaluates to the string with which to compare every element of the dynamic array.
-- **Var****1** is the dynamic array that will be searched.
+- **Var1** is the dynamic array that will be searched.
 
 
-The **FIND**command will normally find the first occurrence of *expression1***,**unless *expression2* is specified. If specified then **expression2**will cause a specific occurrence of **expression1** to be located. The three variables **Var2****, Var3,****Var4** are used to record the Field, Value and Sub-Value positions in which **expression1** was found.
+The **FIND** command will normally find the first occurrence of **expression1**, unless **expression2** is specified. If specified, then **expression2** will cause a specific occurrence of **expression1** to be located. The three variables **Var2**, **Var3**, **Var4** are used to record the Field, Value and Sub-Value positions in which **expression1** was found.
 
-If **expression1** is found in any element of **Var1** then ***Vars*****2, 3** and **4**are set to the position in which it was found and any THEN clause of the statement is executed. If **expression1** is not found within any element of the dynamic array then **Vars****2, 3** and **4**are undefined and the ELSE clause of the statement is executed.
+If **expression1** is found in any element of **Var1** then ***Vars*** **2, 3** and **4** are set to the position in which it was found and any THEN clause of the statement is executed. If **expression1** is not found within any element of the dynamic array then ***Vars*** **2, 3** and **4** are undefined and the ELSE clause of the statement is executed.
 
 ## Note:
 
@@ -37,15 +37,15 @@ If **expression1** is found in any element of **Var1** then ***Vars*****2, 3**
 An example of use is as:
 
 ```
-0001     V.ARRAY = 'ABC' :@FM: 'DEF' :@VM: 'XYZ' : @SM: 'XYZ'
-0002
-0003     FIND 'XYZ' IN V.ARRAY SETTING V.FLD, V.VAL THEN
-0004         CRT "XYZ is in field: " : V.FLD, "value: ": V.VAL
-0005     END
-0006
-0007     ELSE
-0008         CRT "NOT FOUND"
-0009     END
+     V.ARRAY = 'ABC' :@FM: 'DEF' :@VM: 'XYZ' : @SM: 'XYZ'
+
+     FIND 'XYZ' IN V.ARRAY SETTING V.FLD, V.VAL THEN
+         CRT "XYZ is in field: " : V.FLD, "value: ": V.VAL
+     END
+
+     ELSE
+         CRT "NOT FOUND"
+     END
 ```
 
 to display:

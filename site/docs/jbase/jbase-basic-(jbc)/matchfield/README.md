@@ -22,7 +22,7 @@ MATCHFIELD(string, pattern, field)
 Where:
 
 - **field** is an expression that evaluates to the portion of the match string to be returned.
-- If **string** matches pattern, the **MATCHFIELD**function returns 1.  If string does not match pattern, or if string or pattern evaluates to a null value, the **MATCHFIELD** function returns an empty string. If field evaluates to the null value, the **MATCHFIELD** function fails and the program terminates with a run-time error.
+- If **string** matches pattern, the **MATCHFIELD** function returns 1.  If string does not match pattern, or if string or pattern evaluates to a null value, the **MATCHFIELD** function returns an empty string. If field evaluates to the null value, the **MATCHFIELD** function fails and the program terminates with a run-time error.
 - **pattern** must contain specifiers to cover all characters contained in string. For example, the following statement returns an empty string because not all parts of string are specified in the pattern:
 
 
@@ -42,14 +42,14 @@ Other examples of use include:
 
 ```
 Q=MATCHFIELD("AA123BBB9","2A0N3A0N",3)
-PRINT "Q= ",Q ; * to print: Q= BBB
+CRT "Q = ",Q ; * to display: Q = BBB
 
 ADDR='20 GREEN ST. NATICK, MA.,01234'
 ZIP=MATCHFIELD(ADDR,"0N0X5N",3)
-PRINT "ZIP= ",ZIP ; * to print: ZIP= 01234
+CRT "ZI P= ",ZIP ; * to display: ZIP = 01234
 
 INV='PART12345 BLUE AU' COL=MATCHFIELD(INV,"10X4A3X",2)
-PRINT "COL= ",COL ; * to print: COL= BLUE
+CRT "COL = ",COL ; * to display: COL = BLUE
 ```
 
 

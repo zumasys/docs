@@ -17,7 +17,7 @@ FOOTING expression
 
 Where:
 
-expression should evaluate to a string, which is printed at the bottom of every page of output. The string could contain a number of interpreted special characters, replaced in the string before printing.
+**expression** should evaluate to a string, which is printed at the bottom of every page of output. The string could contain a number of interpreted special characters, replaced in the string before printing.
 
 The following characters have special meaning within the string:
 
@@ -38,7 +38,7 @@ If the output is to the printer a [PRINTER ON](./../printer) statement is in for
 An example of use is as:
 
 ```
-FOOTING "Programming staff by weight Page "P"
+FOOTING 'Programming staff by weight Page "P"'
 ```
 
 

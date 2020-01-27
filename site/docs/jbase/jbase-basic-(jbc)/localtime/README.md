@@ -9,7 +9,7 @@
 
 # Description
 
-Returns an internal time using the specified Timestamp and TimeZone combination. It takes the general form:
+Returns an internal time using the specified **Timestamp** and **TimeZone** combination. It takes the general form:
 
 ```
 LOCALTIME(Timestamp, TimeZone)

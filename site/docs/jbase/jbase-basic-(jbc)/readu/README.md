@@ -20,24 +20,24 @@ READU variable1 FROM {variable2,} expression {SETTING setvar}
 
 Where:
 
-**variable1**is the identifier into which the record will be read.
+**variable1** is the identifier into which the record will be read.
 
-**variable2**if specified, should be a jBASE BASIC variable that has previously been opened to a file using the [OPEN](./../open) statement. If variable2 is not specified then the default file is assumed.
+**variable2** if specified, should be a jBASE BASIC variable that has previously been opened to a file using the [OPEN](./../open) statement. If variable2 is not specified then the default file is assumed.
 
-The **expression**should evaluate to a valid record key for the file.
+The **expression** should evaluate to a valid record key for the file.
 
-If the **SETTING**clause is specified and the read fails, **setvar**will be set to one of [these values](./../incremental-file-errors).
+If the **SETTING** clause is specified and the read fails, **setvar** will be set to one of [these values](./../incremental-file-errors).
 
-If **ON ERROR** is specified, the statements following the **ON ERROR** clause will be executed for any of the above Incremental File Errors except error 128.
+If **ON ERROR** is specified, the statements following the **ON ERROR** clause will be executed for any of the Incremental File Errors except 128.
 
-If the **READU** is successful then the statements following **THEN**will be executed. If the **READU** is unsuccessful, i.e. the record key does not exist in the file, then the statements following **ELSE**are executed. If the **READU** is unsuccessful and there is no **ELSE**then **expression** is set to "" (null).
+If the **READU** is successful then the statements following **THEN** will be executed. If the **READU** is unsuccessful, i.e. the record key does not exist in the file, then the statements following **ELSE** are executed. If the **READU** is unsuccessful and there is no **ELSE** then **expression** is set to "" (null).
 
 ## Note: 
 
 
-> If the record could not be read because another process already had a lock on the record then one of two actions is taken. If the LOCKED clause was specified in the statement then the statements dependent on it are executed. If no LOCKED clause was specified then the statement blocks (waits) until the other process releases the lock. The [SYSTEM(43)](./../system-functions) function can be used to determine which port has the lock.
+> If the record could not be read because another process already had a lock on the record then one of two actions is taken. If the **LOCKED** clause was specified in the statement then the statements dependent on it are executed. If no **LOCKED** clause was specified then the statement blocks (waits) until the other process releases the lock. The [SYSTEM(43)](./../system-functions) function can be used to determine which port has the lock.
 > 
-> The lock taken by the**READU**statement will be released by any of the following events:
+> The lock taken by the **READU** statement will be released by any of the following events:
 > 
 > - The same program with [WRITE](./../write), [WRITEV](./../writev)or [MATWRITE](./../matwrite) statements writes to the record.
 > - The same program with the [DELETE](./../delete) statement deletes the record.

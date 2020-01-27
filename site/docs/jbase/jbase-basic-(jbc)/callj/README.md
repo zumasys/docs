@@ -7,13 +7,13 @@
 **Internal:** No  
 
 **Tags:**
-<badge text='caljee' vertical='middle' />
+<badge text='calljee' vertical='middle' />
 <badge text='java' vertical='middle' />
 <badge text='callj' vertical='middle' />
 
 # Description
 
-The **CALLJ** command allows BASIC to call a Java method. **CALLJ**is useful when using third party applications offering a Java API (for example, publish and subscribe, messaging, etc.). The command may be used as:
+The **CALLJ** command allows BASIC to call a Java method. **CALLJ** is useful when using third party applications offering a Java API (for example, publish and subscribe, messaging, etc.). The command may be used as:
 
 ```
 CALLJ packageAndClassName, [$]methodName, param SETTING ret [ON ERROR] errStatment
@@ -21,9 +21,9 @@ CALLJ packageAndClassName, [$]methodName, param SETTING ret [ON ERROR] errStatme
 
 Where:
 
-- **packageAndClassName**is the “full” class name (e.g., com.jbase.util.utilClass)
-- **methodName**is the name of the Java method in this class (e.g., “myMethod”)
-- **param**is a String parameter (e.g., DynArray)
+- **packageAndClassName** is the “full” class name (e.g., com.jbase.util.utilClass)
+- **methodName** is the name of the Java method in this class (e.g., “myMethod”)
+- **param** is a String parameter (e.g., DynArray)
 
 
 ## Note:
@@ -56,7 +56,7 @@ Subsequent calls do not have this overhead and it is recommended that programs a
 
 In addition, calls to non static methods carry the overhead of calling the constructor for the class.Wherever possible, static methods should be used.
 
-With regard errors, the [SYSTEM(0)](./../system-functions) variable may be used to manage any errors at the BASIC level, which occur during the call. This variable can have the following values:
+With regard errors, the [SYSTEM(0)](./../system-functions) variable may be used to manage any errors at the BASIC level which occur during the call. This variable can have the following values:
 
 
 | Value | Description |
@@ -75,86 +75,86 @@ With regard errors, the [SYSTEM(0)](./../system-functions) variable may be used 
 Before the java method can be called, it must first be created in Java:
 
 ```
-001    package mypackage;
-002    public class mytestclass {
-003        static int i = 0;
-004        private mytestclass() {
-005        }
-006
-007        public String mymethod(String s){
-008            return ("Java Received : " + s) ;
-009        }
-010
-011        public static String mystaticmethod(String s){
-012            i++;
-013            return s + " " + i;
-014        }
-015    }
+    package mypackage;
+    public class mytestclass {
+        static int i = 0;
+        private mytestclass() {
+        }
+
+        public String mymethod(String s){
+            return ("Java Received : " + s) ;
+        }
+
+        public static String mystaticmethod(String s){
+            i++;
+            return s + " " + i;
+        }
+    }
 ```
 
 To call these methods from jBASE BASIC:
 
 ```
-001    CALLJ "mypackage.mytestclass","mymethod", p SETTING ret
-002    CRT ret
-003    CALLJ "mypackage/mytestclass","$mystaticmethod",p SETTING ret
-004    CRT ret
+    CALLJ "mypackage.mytestclass","mymethod", p SETTING ret
+    CRT ret
+    CALLJ "mypackage/mytestclass","$mystaticmethod",p SETTING ret
+    CRT ret
 ```
 
 jBASE BASIC code using the ON ERROR will look like this:
 
 ```
-0001     PROGRAM testcallj
-0002     className = ''
-0003     methodName = ''
-0004     param = ''
-0005
-0006     PROMPT ':'
-0007
-0008     CRT "Please enter a Class Name ":; INPUT className
-0009     CRT "Please enter a Method Name ":; INPUT methodName
-0010     CRT "Please enter a Parameter ":; INPUT param
-0011
-0012     CALLJ className,methodName, param SETTING ret ON ERROR GOTO errHandler
-0013
-0014     CRT "Received back from Java :":ret
-0015
-0016     STOP
-0017
-0018 errHandler:
-0019     err = SYSTEM(0)
-0020     BEGIN CASE
-0021     CASE err = 2
-0022         CRT "Cannot find the JVM!"
-0023     RETURN
+     PROGRAM testcallj
+     className = ''
+     methodName = ''
+     param = ''
+
+     PROMPT ':'
+
+     CRT "Please enter a Class Name ":; INPUT className
+     CRT "Please enter a Method Name ":; INPUT methodName
+     CRT "Please enter a Parameter ":; INPUT param
+
+     CALLJ className,methodName, param SETTING ret ON ERROR GOTO errHandler
+
+     CRT "Received back from Java :":ret
+
+     STOP
+
+ errHandler:
+     err = SYSTEM(0)
+     BEGIN CASE
+     CASE err = 2
+         CRT "Cannot find the JVM!"
+     RETURN
 ```
 
 
 
-The **CALLJ** function provides access to a JavaVM from within the BASIC environment. For it to be able to start a JavaVM (JVM) the environment needs to know where the JVM is located. Specifically it needs to know where certain libraries are located.
+The **CALLJ** function provides access to a Java VM from within the BASIC environment. For it to be able to start a JavaVM (JVM) the environment needs to know where the JVM is located. Specifically it needs to know where certain libraries are located.
 
 Here's another, much simpler, example:
 
 ```
-0001     PROGRAM starwars
-0002     send_value = "Yoda says: "
-0003     CALLJ "StarWars","jediQuote",send_value SETTING return_value ON ERROR CRT return_value
-0004     CRT return_value
+     PROGRAM starwars
+     send_value = "Yoda says: "
+     CALLJ "StarWars","jediQuote",send_value SETTING return_value ON ERROR CRT return_value
+     CRT return_value
 ```
 
 ```
-001    public class StarWars
-002    {
-003        public String jediQuote( String recvValue )
-004          {
-005               System.out.print( recvValue );
-006               String quotation =  "\"The best teacher, failure is!\"";
-007               return quotation;
-008          }
-009    }
+    public class StarWars
+    {
+        public String jediQuote( String recvValue )
+        {
+            System.out.print( recvValue );
+            String quotation =  "\"The best teacher, failure is!\"";
+            return quotation;
+        }
+    }
 ```
 
-The result of running the jBC **starwars**program:
+The result of running the jBC **starwars** program:
 
 ```
 Yoda says: "The best teacher, failure is!"
@@ -162,7 +162,7 @@ Yoda says: "The best teacher, failure is!"
 
 # Troubleshooting
 
-If the program is unable to load the class: first test that the native **java**command line program can load the class (it will be necessary to add a *public static void main* method) .
+If the program is unable to load the class: first test that the native **java** command line program can load the class (it will be necessary to add a *public static void main* method) .
 
 ```
 java mypackage.mytestclass
@@ -170,9 +170,9 @@ java mypackage.mytestclass
 
 If the above fails check the **CLASSPATH**.
 
-If **JBCJVMLIB**is not yet defined, set it to the jvm library from the same java version the class(es) is being compiled.
+If **JBCJVMLIB** is not yet defined, set it to the jvm library from the same java version the class(es) is being compiled.
 
-If you get a return code of "6" and you can successfully test your class/method using generic java check that your method only has a String as the argument and also returns a String.
+If you get a return code of "6" and you can successfully test your class/method using generic java, check that your method only has a String as the argument and also returns a String.
 
 
 

@@ -11,7 +11,7 @@
 
 # Description
 
-The **NOT**function is used to invert the Boolean value of an expression. It is useful for explicitly testing for a false condition. It takes the general form:
+The **NOT** function is used to invert the Boolean value of an expression. It is useful for explicitly testing for a false condition. It takes the general form:
 
 ```
 NOT(expression)
@@ -19,7 +19,7 @@ NOT(expression)
 
 Where **expression** may evaluate to any Boolean result.
 
-The **NOT** function will return Boolean TRUE if the expression returned a Boolean FALSE. It will return Boolean FALSE of the expression returned a Boolean TRUE. The function is useful for explicitly testing for the false condition of some test and can clarify the logic of such a test.
+The **NOT** function will return Boolean TRUE if the **expression** returned a Boolean FALSE. It will return Boolean FALSE of the expression returned a Boolean TRUE. The function is useful for explicitly testing for the false condition of some test and can clarify the logic of such a test.
 
 An example of use may be:
 
@@ -30,7 +30,7 @@ IF Sunday THEN
 END
 ```
 
-In this example, the expression [MOD(DATE(),7)](./../mod&rem) will return 0 (FALSE) if the day is Sunday and 1 to 6 (TRUE) for the other days. To explicitly test for the day Sunday we need to invert the result of the expression. BY using the **NOT**function to return a 1 (TRUE) if the day is Sunday and 0 (FALSE) for all other values of the expression.
+In this example, the expression [MOD(DATE(),7)](./../mod&rem) will return 0 (FALSE) if the day is Sunday and 1 to 6 (TRUE) for the other days. To explicitly test for the day Sunday we need to invert the result of the expression. BY using the **NOT** function to return a 1 (TRUE) if the day is Sunday and 0 (FALSE) for all other values of the expression.
 
 
 

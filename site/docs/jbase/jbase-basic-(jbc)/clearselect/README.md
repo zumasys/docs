@@ -30,22 +30,22 @@ Where:
 An example of use is as:
 
 ```
-0001     A = "good" : @AM : "bad" : @AM : "ugly"
-0002     B = "night" : @AM : "day"
-0003
-0004     SELECT A TO 3
-0005     SELECT B TO blist
-0006
-0007     adone = 0; bdone = 0
-0008
-0009     LOOP
-0010         READNEXT Ael FROM 3 ELSE adone = 1
-0011         READNEXT Bel FROM blist ELSE bdone = 1
-0012     UNTIL adone AND bdone DO
-0013         CRT Ael, Bel
-0014         CLEARSELECT 3
-0015         CLEARSELECT blist
-0016     REPEAT
+     A = "good" : @AM : "bad" : @AM : "ugly"
+     B = "night" : @AM : "day"
+
+     SELECT A TO 3
+     SELECT B TO blist
+
+     adone = 0; bdone = 0
+
+     LOOP
+         READNEXT Ael FROM 3 ELSE adone = 1
+         READNEXT Bel FROM blist ELSE bdone = 1
+     UNTIL adone AND bdone DO
+         CRT Ael, Bel
+         CLEARSELECT 3
+         CLEARSELECT blist
+     REPEAT
 ```
 
 to display: good night

@@ -21,9 +21,9 @@ Where:
 
 **expression2** evaluates to a positive integer that represents the maximum number of characters between delimiters in the resultant string. If a character string exeeds the length of **expression2** then a delimiter will be inserted after **expression2** characters have been reached.
 
-**expression3**is an optional single character used to delimit the segments. If this parameter is omitted the the delimiter will be an attribute mark. If more than 1 character is specified then only the first character will be used.
+**expression3** is an optional single character used to delimit the segments. If this parameter is omitted the the delimiter will be an attribute mark. If more than 1 character is specified then only the first character will be used.
 
-The **FOLD**function creates a number of sub-strings such that the length of each sub-string does not exceed the length value in **expression2**. It converts spaces to attribute marks except when enclosed in sub-strings and removes extraneous spaces.
+The **FOLD** function creates a number of sub-strings such that the length of each sub-string does not exceed the length value in **expression2**. It converts spaces to attribute marks except when enclosed in sub-strings and removes extraneous spaces.
 
 
 

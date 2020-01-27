@@ -25,9 +25,9 @@ Where:
 - **Statements** Conditional jBASE BASIC statements
 
 
-Each **READSEQ** reads a line of data from the sequentially opened file. After each **READSEQ**, the file pointer moves forward to the next line of data. The variable contains the line of data less the new line character from the sequential file.
+Each **READSEQ** reads a line of data from the sequentially opened file. After each **READSEQ**, the file pointer moves forward to the next line of data. **Variable** contains the line of data less the new line character from the sequential file.
 
-The default buffer size for a **READSEQ** is 1024 bytes. This can be changed using the [IOCTL](./../ioctl) function with the **JIOCTL\_COMMAND\_SEQ\_CHANGE\_RECORDSIZE**defined in the [Sequential File Extensions](./../sequential-file-extensions).
+The default buffer size for a **READSEQ** is 1024 bytes. This can be changed using the [IOCTL](./../ioctl) function with the **JIOCTL\_COMMAND\_SEQ\_CHANGE\_RECORDSIZE** defined in the [Sequential File Extensions](./../sequential-file-extensions).
 
 An example of use would be as:
 

@@ -17,17 +17,17 @@ FIELDS(DynArr, Delimiter, Occurrence{, ExtractCount})
 
 Where:
 
-DynArr should evaluate to a dynamic array.
+**DynArr** should evaluate to a dynamic array.
 
-Delimiter specifies the character or characters that delimit the fields within the dynamic array.
+**Delimiter** specifies the character or characters that delimit the fields within the dynamic array.
 
-Occurrence should evaluate to an integer of value 1 or higher. It specifies the delimiter used as the starting point for the extraction.
+**Occurrence** should evaluate to an integer of value 1 or higher. It specifies the delimiter used as the starting point for the extraction.
 
-ExtractCount is an integer that specifies the number of fields to extract. If omitted, assumes one.
+**ExtractCount** is an integer that specifies the number of fields to extract. If omitted, assumes one.
 
-If the emulation option, jbase\_field, is set then the field delimiter may consist of more than a single character, allowing fields to be delimited by complex codes.
+If the emulation option, "jbase\_field", is set then the field delimiter may consist of more than a single character, allowing fields to be delimited by complex codes.
 
-An example of use would be a program that shows how each element of a dynamic array can be changed with the **FIELDS**function, as:
+An example of use would be a program that shows how each element of a dynamic array can be changed with the **FIELDS** function, as:
 
 ```
 t = ""

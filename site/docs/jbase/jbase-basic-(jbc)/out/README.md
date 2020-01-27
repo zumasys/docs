@@ -18,12 +18,12 @@ The **OUT** statement is used to send raw characters to the current output devic
 OUT expression
 ```
 
-Where **expression**should evaluate to a numeric integer in the range 0 to 255, being the entire range of ASCII characters.
+Where **expression** should evaluate to a numeric integer in the range 0 to 255, being the entire range of ASCII characters.
 
 ## Note: 
 
 
-> The numeric expression is first converted to the raw ASCII character specified and then sent directly to the output advice.
+> The numeric **expression** is first converted to the raw ASCII character specified and then sent directly to the output advice.
 
 
 An example of use is as:

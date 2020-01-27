@@ -25,7 +25,7 @@ Where:
 - The three variables **Var2, Var3, Var4** are used to record the Field, Value and Sub-Value positions in which **expression1** was found.
 
 
-If **expression1** is found as a substring of any element of **Var1** then **Vars 2, 3**and**4** are set to the position in which it was found and the THEN clause of the statement is executed if it is present. If **expression1** is not found within any element of the dynamic array then **Vars 2,3**and**4** are undefined and the ELSE clause of the statement is executed.
+If **expression1** is found as a substring of any element of **Var1** then **Vars 2, 3**and **4** are set to the position in which it was found and the THEN clause of the statement is executed if it is present. If **expression1** is not found within any element of the dynamic array then **Vars 2,3** and **4** are undefined and the ELSE clause of the statement is executed.
 
 ## Note:
 
@@ -36,15 +36,15 @@ If **expression1** is found as a substring of any element of **Var1** then **Var
 An example of use is as:
 
 ```
-0001     V.ARRAY = 'ABC' :@FM: 'DEF' :@VM: 'XYZ'  : @SM: 'XYZ'
-0002
-0003     FINDSTR 'XY' IN V.ARRAY SETTING V.FLD, V.VAL THEN
-0004         CRT "FIELD: " : V.FLD, "POSITION: ": V.VAL
-0005     END
-0006
-0007     ELSE
-0008         CRT "NOT FOUND"
-0009     END
+     V.ARRAY = 'ABC' :@FM: 'DEF' :@VM: 'XYZ'  : @SM: 'XYZ'
+
+     FINDSTR 'XY' IN V.ARRAY SETTING V.FLD, V.VAL THEN
+         CRT "FIELD: " : V.FLD, "POSITION: ": V.VAL
+     END
+
+     ELSE
+         CRT "NOT FOUND"
+     END
 ```
 
 to display:

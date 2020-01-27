@@ -22,7 +22,7 @@ END CASE
 
 Where:
 
-- The **BEGIN CASE** and **END CASE** statements bound the **CASE** structure. Within this block, an arbitrary number of**CASE** expression statements may exist followed by any number of jBASE BASIC statements.
+- The **BEGIN CASE** and **END CASE** statements bound the **CASE** structure. Within this block, an arbitrary number of **CASE** expression statements may exist followed by any number of jBASE BASIC statements.
 - The **expression** should evaluate to a TRUE or FALSE result. The evaluation of each expression at execution time is in order. If the expression returns a TRUE result, it then executes the statements below. On completion of the associated statements, execution will resume at the first statement following the END CASE.
 
 
@@ -37,15 +37,15 @@ Where:
 An example of use is as below:
 
 ```
-0001     BEGIN CASE
-0002     CASE A = 2
-0003         if A = 2 then no operation will be performed
-0004     CASE A = 1
-0005         CRT "You won!"
-0006     CASE 1
-0007         CRT "You came nowhere"
-0008     END CASE
-0009
+     BEGIN CASE
+     CASE A = 2
+         if A = 2 then no operation will be performed
+     CASE A = 1
+         CRT "You won!"
+     CASE 1
+         CRT "You came nowhere"
+     END CASE
+
 ```
 
 In the above scenario, a single comment is printed depending on the value of A. If A is not 1 or 2 then the default **CASE** 1 rule will be executed as a "catch all".

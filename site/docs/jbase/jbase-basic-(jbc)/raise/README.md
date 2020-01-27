@@ -17,7 +17,7 @@ RAISE(expression)
 
 Where:
 
-expression is a string containing one or more delimiters, which are raised as follows:
+**expression** is a string containing one or more delimiters, which are raised as follows:
 
 
 | ASCII Character<br> | Raised To<br> |

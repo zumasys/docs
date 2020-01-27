@@ -32,11 +32,11 @@ If expression evaluates to the empty string '' then the default character of '\_
 An example of use is as:
 
 ```
-0001     INPUTNULL "&"
-0002     INPUT @(10,10):Answer,1
-0003     IF Answer = "" THEN
-0004         CRT "A NULL input was received"
-0005     END
+    INPUTNULL "&"
+    INPUT @(10,10):Answer,1
+    IF Answer = "" THEN
+        CRT "A NULL input was received"
+    END
 ```
 
 

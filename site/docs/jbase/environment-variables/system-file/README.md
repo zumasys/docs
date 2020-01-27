@@ -16,7 +16,9 @@ Use of the SYSTEM file also depends upon the setting of the environment or regis
 In its minimum form, a record in the SYSTEM file must contain two fields. Field 1<br>contains the character "D" to specify a local account, and field 2 contains the<br>absolute path of the account directory. For example:
 
 ```
-ACCOUNTX001 D002 C:\users\accountx or /accounts/accountx
+ACCOUNTX
+001 D
+002 C:\users\accountx or /accounts/accountx
 ```
 
 
@@ -24,7 +26,36 @@ ACCOUNTX001 D002 C:\users\accountx or /accounts/accountx
 Fields 7 and 20 through 37, of the SYSTEM record, are used by the jBASE LOGTO and PASSWORD commands.<br>All other fields are reserved. The full format of a SYSTEM record is as follows<br>and will be described in subsequent sections on this page:
 
 ```
-ID:  AccountName001 Type002 Absolute Account Path003 Reserved004 Reserved005 Reserved006 Reserved007 Encrypted Password (optional)008 Reserved009 Reserved010 Reserved011 - 019 Reserved020 ESYSTEM_START021 JBCEMULATE022 HOME023 JBCDEV_BIN024 JBCDEV_LIB025 PATH026 JBCOBJECTLIST027 JEDIFILEPATH028 JEDIFILENAME_MD029 JBC_TCLRESTART030 JBC_ENDRESTART031 JBCRESTARTPROG032 JBCLOGINPROG033 Reserved034 JBASE_I18N035 JBCPORTNO (multi-valued range)036 OTHER ENVIRONMENT VARIABLES (multi-valued)037 ESYSTEM_END
+ID:  AccountName
+001 Type
+002 Absolute Account Path
+003 Reserved
+004 Reserved
+005 Reserved
+006 Reserved
+007 Encrypted Password (optional)
+008 Reserved
+009 Reserved
+010 Reserved
+011 - 019 Reserved
+020 ESYSTEM_START
+021 JBCEMULATE
+022 HOME
+023 JBCDEV_BIN
+024 JBCDEV_LIB
+025 PATH
+026 JBCOBJECTLIST
+027 JEDIFILEPATH
+028 JEDIFILENAME_MD
+029 JBC_TCLRESTART
+030 JBC_ENDRESTART
+031 JBCRESTARTPROG
+032 JBCLOGINPROG
+033 Reserved
+034 JBASE_I18N
+035 JBCPORTNO (multi-valued range)
+036 OTHER ENVIRONMENT VARIABLES (multi-valued)
+037 ESYSTEM_END
 ```
 
 ### 
@@ -45,7 +76,24 @@ The SYSTEM File of jBASE 4 and jBASE 5 has 16 new attributes that are used to de
 
 
 ```
-020 ESYSTEM_START021 JBCEMULATE022 HOME023 JBCDEV_BIN024 JBCDEV_LIB025 PATH026 JBCOBJECTLIST027 JEDIFILEPATH028 JEDIFILENAME_MD029 JBC_TCLRESTART030 JBC_ENDRESTART031 JBCRESTARTPROG032 JBCLOGINPROG033 JBCLOGNAME034 JBASE_I18N035 JBCPORTNO (multi-valued range)036 Other Environment Variables (multi-valued)037 ESYSTEM_END
+020 ESYSTEM_START
+021 JBCEMULATE
+022 HOME
+023 JBCDEV_BIN
+024 JBCDEV_LIB
+025 PATH
+026 JBCOBJECTLIST
+027 JEDIFILEPATH
+028 JEDIFILENAME_MD
+029 JBC_TCLRESTART
+030 JBC_ENDRESTART
+031 JBCRESTARTPROG
+032 JBCLOGINPROG
+033 JBCLOGNAME
+034 JBASE_I18N
+035 JBCPORTNO (multi-valued range)
+036 Other Environment Variables (multi-valued)
+037 ESYSTEM_END
  
 ```
 
@@ -58,7 +106,43 @@ An example of use is as:
 
 ```
 
-001 D002 C:\accounts\payables003004005006007008009010011012013014015016017018019020 ESYSTEM_START021 jbase022 C:\accounts\payables023 C:\accounts\payables\bin024 C:\accounts\payables\lib025 C:\accounts\payables\bin;%PATH%026 C:\accounts\payables\lib027 C:\accounts\payables;C:\globals028 C:\globals\MD]D029030031032033034035036 JBCNETDIR=C:\globals\jrfs]JBCNETACCESS=C:\globals\jrfs\netaccess037 ESYSTEM_END
+001 D
+002 C:\accounts\payables
+003
+004
+005
+006
+007
+008
+009
+010
+011
+012
+013
+014
+015
+016
+017
+018
+019
+020 ESYSTEM_START
+021 jbase
+022 C:\accounts\payables
+023 C:\accounts\payables\bin
+024 C:\accounts\payables\lib
+025 C:\accounts\payables\bin;%PATH%
+026 C:\accounts\payables\lib
+027 C:\accounts\payables;C:\globals
+028 C:\globals\MD]D
+029
+030
+031
+032
+033
+034
+035
+036 JBCNETDIR=C:\globals\jrfs]JBCNETACCESS=C:\globals\jrfs\netaccess
+037 ESYSTEM_END
 ```
 
 

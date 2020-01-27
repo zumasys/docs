@@ -21,20 +21,22 @@ INPUT {@ (expression1 {, expression2 )}{:} Var{{, expression3}, expression4} {:}
 
 Where:
 
-- [**@**](./../the-'@'-function)**(expression1, expression2****)** allows the screen cursor to be positioned to the specified column and row before the input prompt is sent to the screen. The syntax for this is the same as the ['@' Function](./../the-'@'-function)‍.
+- [**@**](./../the-'@'-function)**(expression1, expression2**) allows the screen cursor to be positioned to the specified column and row before the input prompt is sent to the screen. The syntax for this is the same as the ['@' Function](./../the-'@'-function)‍.
 - **Var** is the variable in which the input data is to be stored.
 - **expression3**, when specified, should evaluate to a numeric value. This will cause input to be terminated with an automatic newline sequence after exactly this number of characters has been input.
-- If the **'\_'**option is specified with **expression4** then the automatic newline sequence is not specified but any subsequent input characters are belled to the terminal and thrown away.
+- If the **'\_'** option is specified with **expression4** then the automatic newline sequence is not specified but any subsequent input characters are belled to the terminal and thrown away.
 - **expression4** when specified, should evaluate to a sequence of 1 to 3 characters. The first character will be printed **expression3** times to define the field on the terminal screen. At the end of the input if less than **expression3**characters were input then the rest of the field is padded with the second character if it was supplied. If the third character is supplied then the cursor will be positioned after the last character input rather than at the end of the input field.
-- The **':'** option, when specified, suppress the echoing of the newline sequence to the terminal. This will leave the cursor positioned after the last input character on the terminal screen.
-- '**WITH expression5**' allows the default input delimiter (the newline sequence) to be changed. When specified, **expression5**, should evaluate to a string of up to 256 characters, each of which may delimit the input field. If this clause is used then the newline sequence is removed as a delimiter and must be specified explicitly within**expression5**as CHAR(10).
-- The **FOR** clause allows the "**INPUT**" statement to time out after a specified waiting period instead of blocking as normal **expression6** should evaluate to a numeric value, which will be taken as the number of deci-seconds (tenths of a second) to wait before timing out. The time-out value is used as the time between each keystroke and should a time-out occur, Var would hold the characters that were input until the time-out. The**FOR** clause requires either the **THEN**and **ELSE**clauses or both; if no time-out occurs the **THEN**clause is taken. If a time-out does occur, the **ELSE** clause is taken.
+- The '**:**' option, when specified, suppresses the echoing of the newline sequence to the terminal. This will leave the cursor positioned after the last input character on the terminal screen.
+- '**WITH expression5**' allows the default input delimiter (the newline sequence) to be changed. When specified, **expression5**, should evaluate to a string of up to 256 characters, each of which may delimit the input field. If this clause is used then the newline sequence is removed as a delimiter and must be specified explicitly within **expression5** as CHAR(10).
+- The **FOR** clause allows the "**INPUT**" statement to time out after a specified waiting period instead of blocking as normal. 
+- **expression6** should evaluate to a numeric value, which will be taken as the number of deci-seconds (tenths of a second) to wait before timing out. The time-out value is used as the time between each keystroke and should a time-out occur, **Var** would hold the characters that were input until the time-out. 
+- The **FOR** clause requires either the **THEN** and **ELSE** clauses or both; if no time-out occurs the **THEN** clause is taken. If a time-out does occur, the **ELSE** clause is taken.
 
 
 ## Note:
 
 
-> The**INPU**T statement will always examine the data input stack before requesting data from the input device. If data is present on the stack then it is used to satisfy**INPUT** statements one field at a time until the stack is exhausted. Once exhausted, the **INPUT** statement will revert to the input device for further input. There is no way (by default) to input a null field to the **INPUT@** statement. If the INPUT@ statement receives the newline sequence only as input, then the Var will be unchanged. Use the [INPUTNULL](./../inputnull) statement to define a character that indicates a NULL input.
+> The **INPUT** statement will always examine the data input stack before requesting data from the input device. If data is present on the stack then it is used to satisfy **INPUT** statements one field at a time until the stack is exhausted. Once exhausted, the **INPUT** statement will revert to the input device for further input. There is no way (by default) to input a null field to the **INPUT@** statement. If the INPUT@ statement receives the newline sequence only as input, then the Var will be unchanged. Use the [INPUTNULL](./../inputnull) statement to define a character that indicates a NULL input.
 > 
 > It is possible to use the CONTROL-CHARS command to control whether or not control characters (i.e. those outside the range x'1F' - x'7F') are accepted by **INPUT**.
 
@@ -42,17 +44,17 @@ Where:
 An example of use is as:
 
 ```
-0001     CRT "Blank input is unacceptable!!!! "
-0002     CRT
-0003
-0004     VAR_IN = ''
-0005     LOOP
-0006     WHILE VAR_IN = '' DO
-0007         INPUT VAR_IN, 1 : FOR 30 ELSE
-0008         END
-0009     REPEAT
-0010     IF VAR_IN NE  '' THEN CRT 'You entered: ', DQUOTE(VAR_IN)
-0011     STOP
+     CRT "Blank input is unacceptable!!!! "
+     CRT
+
+     VAR_IN = ''
+     LOOP
+     WHILE VAR_IN = '' DO
+         INPUT VAR_IN, 1 : FOR 30 ELSE
+         END
+     REPEAT
+     IF VAR_IN NE  '' THEN CRT 'You entered: ', DQUOTE(VAR_IN)
+     STOP
 ```
 
 The above example attempts to read a single character from the input device, within a time of 30 seconds . The [LOOP](./../loop) will exit when a character has been input, then will display the character that was entered.

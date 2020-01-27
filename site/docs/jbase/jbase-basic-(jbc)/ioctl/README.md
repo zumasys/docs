@@ -17,7 +17,7 @@ IOCTL(filevar, command, parameter)
 
 Where:
 
-- **filevar**Is a variable that has had a file opened against it using the [OPEN](./../open) statement. However, if the default file variable is preferred for use, **-1** should be placed in this position. For example:
+- **filevar** Is a variable that has had a file opened against it using the [OPEN](./../open) statement. However, if the default file variable is preferred for use, **-1** should be placed in this position. For example:
 
 
 ```
@@ -27,7 +27,7 @@ IF IOCTL(filevar, JIOCTL_COMMAND_xxx, status) ...
 ```
 
 - **command** can be any numeric value (or variable containing a numeric). However, it is up to the database driver to support that particular command number.
-- **parameter**will be different for each command that is used.
+- **parameter** will be different for each command that is used.
 
 
 As with the C function, the use of **IOCTL()** is highly dependent upon the database driver being communicated to. Each database driver may choose to provide certain common functionality, or may add its own commands and so on. This is especially true of user-written database drivers.
@@ -35,35 +35,35 @@ As with the C function, the use of **IOCTL()** is highly dependent upon the data
 First, an example of a program that opens a file and finds the type of file:
 
 ```
-001     INCLUDE JBC.h
-002     OPEN "MD" TO DSCB ELSE STOP 201,"MD"
-003     status=""
-004     IF IOCTL(DSCB,JIOCTL_COMMAND_FILESTATUS,status) THEN
-005         PRINT "Type of file = ":DQUOTE(status<1>)
-006     END ELSE
-007         PRINT "IOCTL FAILED !! unknown file type"
-008     END
+     INCLUDE JBC.h
+     OPEN "MD" TO DSCB ELSE STOP 201,"MD"
+     status=""
+     IF IOCTL(DSCB,JIOCTL_COMMAND_FILESTATUS,status) THEN
+         CRT "Type of file = ": DQUOTE(status<1>)
+     END ELSE
+         CRT "IOCTL FAILED !! unknown file type"
+     END
 ```
 
-If the **ELSE**clause is taken, it does not necessarily mean there is an error, it only means that the database driver for file "MD" does not support the command that was requested from it. The JBC.h file is supplied with jBASE in $JBCRELEASEDIR/include directory. If the source is compiled with the **jcompile** or **BASIC**command, this directory is automatically included in the search path and no special action is needed by the programmer for the **INCLUDE JBC.h** statement.
+If the **ELSE** clause is taken, it does not necessarily mean there is an error, it only means that the database driver for file "MD" does not support the command that was requested from it. The JBC.h file is supplied with jBASE in $JBCRELEASEDIR/include directory. If the source is compiled with the **jcompile** or **BASIC** command, this directory is automatically included in the search path and no special action is needed by the programmer for the **INCLUDE JBC.h** statement.
 
-The use of this function differs depending on the command.While the **JBC\_COMMAND\_GETFILENAME**command is supported for all database drivers, some common **IOCTL** command numbers also supported by the jBASE database drivers are:
+The use of this function differs depending on the command.While the **JBC\_COMMAND\_GETFILENAME** command is supported for all database drivers, some common **IOCTL** command numbers also supported by the jBASE database drivers are:
 
 ## **1. JBC\_COMMAND\_GETFILENAME COMMAND**
 
-Using this command to the **IOCTL()** function, you can determine the exact file name that was used to open the file. This is helpful because jEDI uses Q-pointers, F-pointers and the **JEDIFILEPATH**environment variable to actually open the file, and the application can never be totally sure where the resultant file was really opened. Normally of course, this is of no concern to the application.
+Using this command to the **IOCTL()** function, you can determine the exact file name that was used to open the file. This is helpful because jEDI uses Q-pointers, F-pointers and the **JEDIFILEPATH** environment variable to actually open the file, and the application can never be totally sure where the resultant file was really opened. Normally of course, this is of no concern to the application.
 
 An example of use would be to open the file CUSTOMERS and find out the exact path that was used to open the file ,as follows:
 
 ```
-001     INCLUDE JBC.h
-002     filename = ""
-003     OPEN "CUSTOMERS" TO DSCB ELSE STOP 201,"CUSTOMERS"
-004     IF IOCTL(DSCB,JBC_COMMAND_GETFILENAME,filename) ELSE
-005         CRT "IOCTL failed !!"
-006         EXIT(2)
-007     END
-008     PRINT "Full file path = ":DQUOTE(filename)
+     INCLUDE JBC.h
+     filename = ""
+     OPEN "CUSTOMERS" TO DSCB ELSE STOP 201,"CUSTOMERS"
+     IF IOCTL(DSCB,JBC_COMMAND_GETFILENAME,filename) ELSE
+         CRT "IOCTL failed !!"
+         EXIT(2)
+     END
+     CRT "Full file path = ":DQUOTE(filename)
 ```
 
 This command is executed by the jBASE BASIC library code rather than the jEDI library code or the database drivers, so it can be run against a file descriptor for any file type.
@@ -80,20 +80,20 @@ The above example is what happens for the database driver for directories. It as
 
 This conversion of data works in most cases and usually requires no special intervention from the programmer.
 
-There are cases however, when this conversion needs to be controlled and interrogated, and the**IOCTL()** function call with the J**IOCTL\_COMMAND\_CONVERT** command provides the jBASE database drivers that support this conversion with commands to control it.
+There are cases however, when this conversion needs to be controlled and interrogated, and the **IOCTL()** function call with the **JIOCTL\_COMMAND\_CONVERT** command provides the jBASE database drivers that support this conversion with commands to control it.
 
-The call to**IOCTL()**, if successful, will only affect file operations that use the same file descriptor.
+The call to **IOCTL()**, if successful, will only affect file operations that use the same file descriptor.
 
 Consider the following code:
 
 ```
-001     INCLUDE JBC.h
-002     OPEN "MD" TO FILEVAR1 ELSE ...
-003     OPEN "MD" TO FILEVAR2 ELSE ...
-004     IF IOCTL(FILEVAR1,JIOCTL_COMMAND_CONVERT,"RB") ...
+     INCLUDE JBC.h
+     OPEN "MD" TO FILEVAR1 ELSE ...
+     OPEN "MD" TO FILEVAR2 ELSE ...
+     IF IOCTL(FILEVAR1,JIOCTL_COMMAND_CONVERT,"RB") ...
 ```
 
-In the above example, any future file operations using variable **FILEVAR1**will be controlled by the change forced in the **IOCTL()** request. Any file operations using variable **FILEVAR2**will not be affected and will use the default file operation.
+In the above example, any future file operations using variable **FILEVAR1** will be controlled by the change forced in the **IOCTL()** request. Any file operations using variable **FILEVAR2** will not be affected and will use the default file operation.
 
 Input to the **IOCTL()** is a string of controls delimited by a comma that tell the database driver what to do.
 
@@ -123,11 +123,11 @@ The descriptions of the available controls that can be passed as input to this *
 In the example below, the application wants to open a file, and to ensure that all reads and writes to that file are in binary, and that no translation such as new-lines to attribute marks is performed.
 
 ```
-001     INCLUDE JBC.h
-002     OPEN "FILE" TO DSCB ELSE STOP 201,"FILE"
-003     IF IOCTL(DSCB,JIOCTL_COMMAND_CONVERT,"RB,WB") ELSE
-004         CRT "UNABLE TO IOCTL FILE 'FILE'" ; EXIT(2)
-005     END
+     INCLUDE JBC.h
+     OPEN "FILE" TO DSCB ELSE STOP 201,"FILE"
+     IF IOCTL(DSCB,JIOCTL_COMMAND_CONVERT,"RB,WB") ELSE
+         CRT "UNABLE TO IOCTL FILE 'FILE'" ; EXIT(2)
+     END
 ```
 
 
@@ -135,15 +135,15 @@ In the example below, the application wants to open a file, and to ensure that a
 The sample code below reads a record from a file, and finds out if the last record read was in text format (were new-lines converted to attribute marks and the trailing new-line deleted), or in binary format (with no conversion at all).
 
 ```
-001     INCLUDE JBC.h
-002     OPEN "." TO DSCB ELSE STOP 201,"."
-003     READ rec FROM DSCB,"prog.o" ELSE STOP 202,"prog.o"
-004     status = "RS"
-005     IF IOCTL(DSCB,JIOCTL_COMMAND_CONVERT,status) THEN
-006         IF status EQ "T" THEN CRT "TEXT" ELSE CRT "BINARY"
-007     END ELSE
-008         CRT "The IOCTL failed !!"
-009     END
+     INCLUDE JBC.h
+     OPEN "." TO DSCB ELSE STOP 201,"."
+     READ rec FROM DSCB,"prog.o" ELSE STOP 202,"prog.o"
+     status = "RS"
+     IF IOCTL(DSCB,JIOCTL_COMMAND_CONVERT,status) THEN
+         IF status EQ "T" THEN CRT "TEXT" ELSE CRT "BINARY"
+     END ELSE
+         CRT "The IOCTL failed !!"
+     END
 ```
 
 
@@ -176,19 +176,19 @@ The **JIOCTL\_COMMAND\_FILESTATUS** command will return an attribute delimited l
 Open a file and see if the file type is a directory.
 
 ```
-001     INCLUDE JBC.h
-002     OPEN ".." TO DSCB ELSE STOP 201,".."
-003     status = ""
-004     IF IOCTL(DSCB,JIOCTL_COMMAND_FILESTATUS,status) ELSE
-005         CRT "IOCTL failed!" ; EXIT(2)
-006     END
-007     IF status<1> EQ "UD" THEN
-008         PRINT "File is a directory"
-009     END
-010     ELSE
-011         PRINT "File type is ":DQUOTE(status<1>)
-012         PRINT "This is not expected for .."
-013     END
+     INCLUDE JBC.h
+     OPEN ".." TO DSCB ELSE STOP 201,".."
+     status = ""
+     IF IOCTL(DSCB,JIOCTL_COMMAND_FILESTATUS,status) ELSE
+         CRT "IOCTL failed!" ; EXIT(2)
+     END
+     IF status<1> EQ "UD" THEN
+         CRT "File is a directory"
+     END
+     ELSE
+         CRT "File type is ":DQUOTE(status<1>)
+         CRT "This is not expected for .."
+     END
 ```
 
 
@@ -196,17 +196,17 @@ Open a file and see if the file type is a directory.
 Open a file ready to perform file operations in a transaction against it. Make sure the file has not been removed as a transaction type file by a previous invocation of the command **jchmod -T CUSTOMERS**.
 
 ```
-001     INCLUDE JBC.h
-002     OPEN "CUSTOMERS" TO DSCB ELSE STOP 201,"CUSTOMERS"
-003     IF IOCTL(DSCB,JIOCTL_COMMAND_FILESTATUS,status) ELSE
-004         CRT "IOCTL failed !!" ; EXIT(2)
-005     END
-006     IF status<8,2> THEN
-007         CRT "Error ! File CUSTOMERS is not"
-008         CRT "part of transaction boundaries !!"
-009         CRT "Use "jchmod +T CUSTOMERS" !!"
-010         EXIT(2)
-011     END
+     INCLUDE JBC.h
+     OPEN "CUSTOMERS" TO DSCB ELSE STOP 201,"CUSTOMERS"
+     IF IOCTL(DSCB,JIOCTL_COMMAND_FILESTATUS,status) ELSE
+         CRT "IOCTL failed !!" ; EXIT(2)
+     END
+     IF status<8,2> THEN
+         CRT "Error ! File CUSTOMERS is not"
+         CRT "part of transaction boundaries !!"
+         CRT "Use "jchmod +T CUSTOMERS" !!"
+         EXIT(2)
+     END
 ```
 
 
@@ -214,22 +214,22 @@ Open a file ready to perform file operations in a transaction against it. Make s
 This code tests whether or not a file is encrypted:
 
 ```
-001 * Determine if a file is encrypted
-002 *
-003 * Syntax: encrypted filename
-004 *
-005     INCLUDE JBC.h
-006     filename = SENTENCE(1)
-007     OPEN filename TO filevar ELSE STOP 201, filename
-008     file_status = ""          ;* keeps the compiler from complaining
-009     ok = IOCTL(filevar, JIOCTL_COMMAND_FILESTATUS, file_status)
-010     CLOSE filevar
-011     CRT DQUOTE(filename):
-012     IF file_status<8,5> THEN
-013         CRT " is encrypted."
-014     END ELSE
-015         CRT " is not encrypted."
-016     END
+ * Determine if a file is encrypted
+ *
+ * Syntax: encrypted filename
+ *
+     INCLUDE JBC.h
+     filename = SENTENCE(1)
+     OPEN filename TO filevar ELSE STOP 201, filename
+     file_status = ""          ;* keeps the compiler from complaining
+     ok = IOCTL(filevar, JIOCTL_COMMAND_FILESTATUS, file_status)
+     CLOSE filevar
+     CRT DQUOTE(filename):
+     IF file_status<8,5> THEN
+         CRT " is encrypted."
+     END ELSE
+         CRT " is not encrypted."
+     END
 ```
 
 ## 
@@ -242,20 +242,20 @@ This can provide large performance gains in certain circumstances.
 Before writing out a control record, make sure it doesn't already exist. As the control record is quite large, it will provide performance gains to simply test if the output record already exists, rather than reading it in using the [READ](./../read) statement to see if it exists
 
 ```
-001     INCLUDE JBC.h
-002     OPEN "outputfile" TO DSCB ELSE STOP 201,"outputfile"
-003 * Make up the output record to write out in "output"
-004     key = "output.out"
-005     rc = IOCTL(DSCB, JIOCTL_COMMAND_FINDRECORD, key)
-006     BEGIN CASE
-007     CASE rc EQ 0
-008         WRITE output ON DSCB,key
-009         CRT "Data written to key " : key
-010     CASE rc GT 0
-011         CRT "No further action, record already exists"
-012     CASE 1
-013         CRT "IOCTL not supported for file type"
-014     END CASE
+     INCLUDE JBC.h
+     OPEN "outputfile" TO DSCB ELSE STOP 201,"outputfile"
+ * Make up the output record to write out in "output"
+     key = "output.out"
+     rc = IOCTL(DSCB, JIOCTL_COMMAND_FINDRECORD, key)
+     BEGIN CASE
+     CASE rc EQ 0
+         WRITE output ON DSCB,key
+         CRT "Data written to key " : key
+     CASE rc GT 0
+         CRT "No further action, record already exists"
+     CASE 1
+         CRT "IOCTL not supported for file type"
+     END CASE
 ```
 
 
@@ -266,38 +266,38 @@ This command to the **IOCTL()** function returns the record size and the time an
 
 **EXAMPLE**
 
-Print the time and data of last update for each record in filename.
+Display the time and data of last update for each record in filename.
 
 ```
-001     INCLUDE JBC.h
-002     OPEN "filename" TO DSCB ELSE STOP 201,"filename"
-003 *
-004 * Select each record in the newly opened file
-005 *
-006     SELECT DSCB
-007     LOOP WHILE READNEXT record.key DO
-008 *
-009 * Get the details on the record and look for errors.
-010 *
-011         record.info = record.key
-012         IF IOCTL(DSCB,JIOCTL_COMMAND_FINDRECORD_EXTENDED,record.info) ELSE
-013             CRT "Error! File driver does not support this"
-014             STOP
-015         END
-016 *
-017 * Extract and convert the returned data
-018 *
-019         record.size = record.info<1>
-020         record.utc = record.info<2>
-021         record.time = OCONV(record.utc,"U0ff0")
-022         record.date = OCONV(record.utc,"U0ff1")
-023 *
-024 * Print the information.
-025 *
-026         PRINT "Record key ":record.key:" last updated at ":
-027         PRINT OCONV(record.time,"MTS"):" ":
-028         PRINT OCONV(record.date,"D4")
-029     REPEAT
+    INCLUDE JBC.h
+    OPEN "filename" TO DSCB ELSE STOP 201,"filename"
+    *
+    * Select each record in the newly opened file
+    *
+    SELECT DSCB
+    LOOP WHILE READNEXT record.key DO
+    *
+    * Get the details on the record and look for errors.
+    *
+        record.info = record.key
+        IF IOCTL(DSCB,JIOCTL_COMMAND_FINDRECORD_EXTENDED,record.info) ELSE
+            CRT "Error! File driver does not support this"
+            STOP
+        END
+    *
+    * Extract and convert the returned data
+    *
+        record.size = record.info<1>
+        record.utc = record.info<2>
+        record.time = OCONV(record.utc,"U0ff0")
+        record.date = OCONV(record.utc,"U0ff1")
+    *
+    * Display the information.
+    *
+        CRT "Record key ":record.key:" last updated at ":
+        CRT OCONV(record.time,"MTS"):" ":
+        CRT OCONV(record.date,"D4")
+    REPEAT
 ```
 
 
@@ -323,15 +323,15 @@ This command will always return "0" (zero) for type JD (Dynamic) files.
 Open a file, and find out what bucket number the record "PIPE&SLIPPER" would be found in.
 
 ```
-001     INCLUDE JBC.h
-002     OPEN "WEDDING-PRESENTS" TO DSCB ELSE STOP
-003     key = "PIPE&SLIPPER"
-004     parm = key
-005     IF IOCTL(DSCB,JIOCTL_COMMAND_HASH_RECORD,parm) THEN
-006         PRINT "key ":key:" would be in bucket ":parm<2>
-007     END ELSE
-008         CRT "IOCTL failed, command not supported"
-009     END
+    INCLUDE JBC.h
+    OPEN "WEDDING-PRESENTS" TO DSCB ELSE STOP
+    key = "PIPE&SLIPPER"
+    parm = key
+    IF IOCTL(DSCB,JIOCTL_COMMAND_HASH_RECORD,parm) THEN
+        CRT "key ":key:" would be in bucket ":parm<2>
+    END ELSE
+        CRT "IOCTL failed, command not supported"
+    END
 ```
 
 
@@ -345,17 +345,17 @@ The jEDI locking mechanism for records in jEDI provided database drivers is not 
 Lock a record in a file and find out what the lock id of the record key is. The example then calls the jRLA locking demon and the display of locks taken should include the lock taken by this program.
 
 ```
-001     INCLUDE JBC.h
-002     DEFCE getpid()
-003     OPEN "WEDDING-PRESENTS" TO DSCB ELSE STOP
-004     key = "PIPE&SLIPPER"
-005     parm = key
-006     IF IOCTL(DSCB,JIOCTL_COMMAND_HASH_LOCK,parm) ELSE
-007         CRT "IOCTL failed, command not supported"
-008         EXIT(2)
-009     END
-010     PRINT "The lock ID for the key is ":parm
-011     PRINT "Our process id is " : getpid()
+    INCLUDE JBC.h
+    DEFCE getpid()
+    OPEN "WEDDING-PRESENTS" TO DSCB ELSE STOP
+    key = "PIPE&SLIPPER"
+    parm = key
+    IF IOCTL(DSCB,JIOCTL_COMMAND_HASH_LOCK,parm) ELSE
+        CRT "IOCTL failed, command not supported"
+        EXIT(2)
+    END
+    CRT "The lock ID for the key is ":parm
+    CRT "Our process id is " : getpid()
 ```
 
 

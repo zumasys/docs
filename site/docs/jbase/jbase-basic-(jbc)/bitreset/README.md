@@ -6,8 +6,7 @@
 **Original ID:** 284140  
 **Internal:** No  
 
-
-# Description
+## Description
 
 **BITRESET** resets the value of a specified bit in the local bit table to zero and returns the previous value of the bit. It takes the general form:
 
@@ -27,17 +26,14 @@ For each process, **BITRESET** maintains a unique table of 128 bits (numbered 1 
 - -2 resets the Command Level Restart feature
 - -3 resets the Break/End Restart feature
 
-
 An example of use is as:
 
 ```
 OLD.VALUE = BITRESET (112)
-PRINT OLD.VALUE
+CRT OLD.VALUE
 ```
 
 If table entry 112 is one, it returns a value of one, resets bit 112 to 0, and prints one. If table entry 112 is zero, returns a value of 0, and prints 0.
-
-
 
 See also: [BITSET](./../bitset).
 

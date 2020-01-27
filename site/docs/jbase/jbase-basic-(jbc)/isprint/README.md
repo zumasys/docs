@@ -19,11 +19,11 @@ ISPRINT(expression)
 
 The **expression** can return a result of any type.
 
-The **ISPRINT()** function will return TRUE (1) if the expression consists of entirely printable characters. The function will return FALSE (0) if the expression contains any characters, which are not printable.
+The **ISPRINT()** function will return **TRUE** (1) if the expression consists of entirely printable characters. The function will return **FALSE** (0) if the expression contains any characters, which are not printable.
 
 ## International Mode 
 
-When the **ISPRINT()** function is used in International Mode the properties of each character is determined according to the Unicode Standard.
+When the **ISPRINT()** function is used in International Mode, the properties of each character are determined according to the Unicode Standard.
 
 
 

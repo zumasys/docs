@@ -6,8 +6,7 @@
 **Original ID:** 284132  
 **Internal:** No  
 
-
-# Description 
+# Description
 
 **BITCHECK** returns the current value of a specified bit from the local bit table. It takes the general form:
 
@@ -24,8 +23,5 @@ For each process, the function maintains a unique table of 128 bits (numbered 1 
 - -1 returns the setting of the BREAK key Inhibit bit
 - -2 returns the setting of the Command Level Restart feature
 - -3 returns the setting of the Break/End Restart feature
-
-
-
 
 Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)

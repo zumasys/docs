@@ -6,8 +6,7 @@
 **Original ID:** 284130  
 **Internal:** No  
 
-
-# Description 
+## Description
 
 **BITCHANGE** toggles the state of a specified bit in the local bit table, and returns the original value of the bit. It takes the general from:
 
@@ -28,7 +27,6 @@ For each process, it maintains a unique table of 128 bits (numbered 1 to 128) an
 - -2 toggles (enables/disables) the Command Level Restart feature.
 - -3 toggles (enables/disables) the Break/End Restart feature.
 
-
 An example of use is as:
 
 ```
@@ -37,7 +35,5 @@ CRT OLD.VAL
 ```
 
 If bit 100 in the table is zero, it sets to one and displays zero; the reverse will apply if set to one..
-
-
 
 Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)

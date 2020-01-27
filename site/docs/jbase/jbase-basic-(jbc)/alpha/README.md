@@ -6,8 +6,7 @@
 **Original ID:** 263505  
 **Internal:** No  
 
-
-# Description
+## Description
 
 This function will check that an expression consists entirely of alphabetic characters. It is used as:
 
@@ -28,14 +27,8 @@ IF ALPHA(Abc) THEN
 END ELSE CRT "non alphabetic"
 ```
 
-
-
-## Note:
-
+## Note
 
 > Alphabetic characters are in the set a-z and A-Z, and any characters which do note fall in that set will be evaluated according to the Unicode standard if the ALPHA function is in international mode.
-
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

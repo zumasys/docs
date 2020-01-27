@@ -17,7 +17,7 @@ jBASE supports a limited mechanism whereby jQL commands such as SORT or SELECT c
 At present only a single search pattern can be used in a jQL command. As an example a file will have an index built onto attribute 23 , the customer last name like this:
 
 ```
-jsh->create-index CUSTOMERS lastname BY 23
+jsh -->create-index CUSTOMERS lastname BY 23
 ```
 
 
@@ -38,10 +38,12 @@ LASTNAME
 010 20
 ```
 
-and there is need to select all customers in that file whose last name equals "COOPER]". The jQL statement would be as :
+and there is need to select all customers in that file whose last name equals "COOPER]". 
+
+The jQL statement would be :
 
 ```
-jsh-> SELECT CUSTOMERS IF LASTNAME EQ "COOPER]"
+jsh -->SELECT CUSTOMERS IF LASTNAME EQ "COOPER]"
 ```
 
 
@@ -49,9 +51,9 @@ jsh-> SELECT CUSTOMERS IF LASTNAME EQ "COOPER]"
 In this example the index definition is "out of sync", awaiting a rebuild-index command to be performed. Therefore the SELECT would achieve the result by looking through the entire file. If the rebuild-index command is run as:
 
 ```
-jsh-> rebuild-index CUSTOMERS lastname
+jsh -->rebuild-index CUSTOMERS lastname
 ```
 
-and the SELECT is re-execute , then instead of scanning through the entire CUSTOMERS file, it will look through the index definition "lastname" instead and will therefore execute considerably quicker.
+and the SELECT is re-executed , then instead of scanning through the entire CUSTOMERS file, it will look through the index definition "lastname" instead and will therefore execute considerably quicker.
 
 

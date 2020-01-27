@@ -19,7 +19,7 @@ JBASETHREADStatus(ThreadList)
 
 Where:
 
-ThreadList a list of all threads active in this process, with one attribute per thread.
+**ThreadList** a list of all threads active in this process, with one attribute per thread.
 
 The layout of the multi-values in each attribute is as follows:
 

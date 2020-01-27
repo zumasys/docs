@@ -9,7 +9,7 @@
 
 # Description
 
-For UNIX, the jBC function **GETUSERGROUP**returns the group number for the user ID specified by @uid. It takes the general form:
+For UNIX, the jBC function **GETUSERGROUP** returns the group number for the user ID specified by @uid. It takes the general form:
 
 ```
  GETUSERGROUP(uid)

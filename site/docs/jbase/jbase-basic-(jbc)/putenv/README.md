@@ -12,7 +12,7 @@
 
 # Description
 
-**PUTENV()**function is used to set environment variables for the current process. It takes the general form:
+The **PUTENV** function is used to set environment variables for the current process. It takes the general form:
 
 ```
 PUTENV(expression)
@@ -24,9 +24,9 @@ PUTENV(expression)
 EnvVarName=value
 ```
 
-Where **EnvVarName** is the name of a valid environment variable and **value** is any string that makes sense tothe variable being set.
+Where **EnvVarName** is the name of a valid environment variable and **value** is any string that makes sense to the variable being set.
 
-If the **PUTENV()** function succeeds it returns a boolean TRUE value, if it fails it will return a boolean FALSE value.
+If the **PUTENV** function succeeds it returns a boolean TRUE value, if it fails it will return a boolean FALSE value.
 
 ## Note:
 

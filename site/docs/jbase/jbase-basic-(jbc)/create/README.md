@@ -27,18 +27,18 @@ An [OPENSEQ](./../openseq) statement for the specified file variable must be exe
 > **CREATE** statement may prove useful for exception handling, when [OPENSEQ](./../openseq) cannot find a record or file to open and the next operation is to be a [READSEQ](./../readseq) or [READBLK](./../readblk). If the first file operation is a [WRITESEQ](./../writeseq), [WRITESEQ](./../writeseq) creates the record or file if it does not exist.
 
 
-In the following example, **record\_file2** does not yet exist. When [OPENSEQ](./../openseq) fails to open **record\_file2**in the **TESTENV**directory, the **CREATE** statement creates and opens it to the file variable **FILE**, ready to be written to.
+In the following example, **record\_file2** does not yet exist. When [OPENSEQ](./../openseq) fails to open **record\_file2** in the **TESTENV** directory, the **CREATE** statement creates and opens it to the file variable **FILE**, ready to be written to.
 
 ```
-001    INCLUDE JBC.h
-002    OPENSEQ 'TESTENV':DIR_DELIM_CH:'record_file2' TO FILE ELSE
-003        CREATE FILE ELSE ABORT
-004    END
-005
-006    WEOFSEQ FILE
-007    WRITESEQ 'I am a test record' TO FILE ELSE
-008        CRT 'Failed to write'
-009    END
+    INCLUDE JBC.h
+    OPENSEQ 'TESTENV':DIR_DELIM_CH:'record_file2' TO FILE ELSE
+        CREATE FILE ELSE ABORT
+    END
+
+    WEOFSEQ FILE
+    WRITESEQ 'I am a test record' TO FILE ELSE
+        CRT 'Failed to write'
+    END
 ```
 
 ### Warning

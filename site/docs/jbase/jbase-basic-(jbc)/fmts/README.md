@@ -17,7 +17,7 @@ FMTS(dynamic.array, format)
 
 Where:
 
-format is an expression that evaluates to a string of formatting codes. The Syntax of the format expression is:
+format is an expression that evaluates to a string of formatting codes. The Syntax of the format expression is:<br><br>
 [width] [background] justification [edit] [mask]
 
 The format expression specifies the width of the output field, the placement of background or fill characters, line justification, editing specifications, and format masking.Complete syntax details, can be found on the [FMT function](./../fmt).
@@ -26,7 +26,7 @@ If dynamic.array evaluates to null, it returns null. If format evaluates to null
 
 - GE OPERATOR SIMILAR TO eq. compares two expressions for greater than or equal
 - GT As Above, except Greater than
-- GTS Add as per GES, except just greater than for dynamic array expression FMUL/[FDIV](./../fdiv)/[FADD](./../fadd)/[FSUB](./../fsub).
+- GTS Add as per GES, except just greater than for dynamic array expression [FMUL](./../fmul)/[FDIV](./../fdiv)/[FADD](./../fadd)/[FSUB](./../fsub).
 
 
 

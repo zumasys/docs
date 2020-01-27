@@ -17,12 +17,12 @@ FORMLIST variable1 {TO variable2 | listnum}
 
 Where:
 
-- variable1 specifies the dynamic array from which the active select list is to be created.
-- If variable2 is specified, then the newly created list will be placed in the variable.
-- Alternatively, a select list number in the range 0 to 10 can be specified with listnum.
+- **variable1** specifies the dynamic array from which the active select list is to be created.
+- If **variable2** is specified, then the newly created list will be placed in the variable.
+- Alternatively, a select list number in the range 0 to 10 can be specified with **listnum**.
 
 
-If neither variable2 nor listnum is specified then the default list variable will be assumed.
+If neither **variable2** nor **listnum** is specified then the default list variable will be assumed.
 
 An example of use is as:
 

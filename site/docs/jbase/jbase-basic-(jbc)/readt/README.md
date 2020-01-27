@@ -11,7 +11,7 @@
 
 # Description
 
-The**READT**statement is used to read a range of tape devices 0-9. It takes the general form:
+The **READT** statement is used to read a range of tape devices 0-9. It takes the general form:
 
 ```
 READT variable {FROM expression} THEN|ELSE statements
@@ -20,8 +20,8 @@ READT variable {FROM expression} THEN|ELSE statements
 Where:
 
 - **variable** is the variable that will receive any data read from the tape device.
-- **expression** should evaluate to an integer value in the range 0-9 and specifies from which tape channel to read data. If the FROM clause is not specified the **READT** will assume channel 0.
-- If the **READT** fails then the **statements** associated with any ELSE clause will be executed. [SYSTEM(0)](./../system-functions) will return the reason for the failure as follows:
+- **expression** should evaluate to an integer value in the range 0-9 and specifies from which tape channel to read data. If the **FROM** clause is not specified the **READT** will assume channel 0.
+- If the **READT** fails then the statements associated with any **ELSE** clause will be executed. [SYSTEM(0)](./../system-functions) will return the reason for the failure as follows:
 
 
 
@@ -34,9 +34,9 @@ Where:
 ## Note:
 
 
-> - A "tape" does not only refer to magnetic tape devices, but also any device that has been described to jBASE. Writing device descriptors for jBASE is beyond the scope of this manual.
+> - A "tape" does not only refer to magnetic tape devices, but also any device that has been described to jBASE. Writing device descriptors for jBASE is beyond the scope of this document.
 > - If no tape device has been assigned to the specified channel the jBASE debugger is entered with an appropriate message.
-> - Each instance of the **READT**statement will read the next record available on the device. The record size is not limited to a single tape block and the entire record will be returned whatever block size has been allocated by the T-ATT command.
+> - Each instance of the **READT** statement will read the next record available on the device. The record size is not limited to a single tape block and the entire record will be returned whatever block size has been allocated by the T-ATT command.
 
 
 An example of use is as:
@@ -46,7 +46,7 @@ LOOP
     READT TapeRec FROM 5 ELSE
     Reason = SYSTEM(0)
     IF Reason = 2 THEN BREAK ;* done
-        CRT "ERROR"; STOP
+        CRT "Error"; STOP
     END
 REPEAT
 ```

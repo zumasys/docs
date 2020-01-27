@@ -11,7 +11,7 @@
 
 # Description
 
-The **PRECISION**statement informs jBASE as to the number of digits of precision it uses after the decimal point in numbers. It takes the general form:
+The **PRECISION** statement informs jBASE as to the number of digits of precision it uses after the decimal point in numbers. It takes the general form:
 
 ```
 PRECISION integer
@@ -34,7 +34,7 @@ PRECISION 6
 CRT 2/3
 ```
 
-to print:
+to display:
 
 ```
 0.666666 ****(note: truncation not rounding!).

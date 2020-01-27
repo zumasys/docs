@@ -6,8 +6,7 @@
 **Original ID:** 284126  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **ANDS** function creates a dynamic array of the logical AND of corresponding elements of two dynamic arrays. It takes the general form:
 
@@ -23,13 +22,11 @@ An example of use is as:
 ```
 A = 1:@SM:4:@VM:4:@SM:1
 B = 1:@SM:1-1:@VM:2
-PRINT ANDS (A,B)
+CRT ANDS (A,B)
 ```
 
 to output:
 
 1\0]1\0
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

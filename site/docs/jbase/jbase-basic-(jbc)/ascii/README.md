@@ -6,13 +6,12 @@
 **Original ID:** 284128  
 **Internal:** No  
 
-
-# Description 
+## Description
 
 The **ASCII**function converts all the characters in the expression from the [EBCDIC](./../ebcdic) character set to the ASCII character set. It takes the general form:
 
 ```
-ASCII(expression) 
+ASCII(expression)
 ```
 
 Where:
@@ -25,7 +24,5 @@ An example of use is as:
 READT EbcdicBlock ELSE CRT "Tape failed!"; STOP
 AsciiBlock = ASCII (EbcdicBlock) ;* convert to ASCII
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

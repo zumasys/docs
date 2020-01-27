@@ -9,10 +9,10 @@
 
 # Description
 
-The function returns a dynamic array of the logical complements of each element of dynamic.array. It takes the general form:
+The function returns a dynamic array of the logical complements of each element of **dynamic.array**. It takes the general form:
 
 ```
-NOTS(DynArr)
+NOTS(dynamic.array)
 ```
 
 If the value of the element is true, the **NOTS** function returns a value of false (0) in the corresponding element of the returned array. If the value of the element is false, the **NOTS** function returns a value of true (1) in the corresponding element of the returned array.
@@ -21,12 +21,12 @@ A numeric expression that evaluates to 0 has a logical value of false. A numeric
 
 An empty string is logically false. All other string expressions, including strings, which consist of an empty string, spaces, or the number 0 and spaces, are logically true.
 
-If any element in dynamic.array is null, it returns null for that element.
+If any element in **dynamic.array** is null, it returns null for that element.
 
 ```
 X=5 
 Y=5
-PRINT NOTS (X-Y:@VM:X+Y)
+CRT NOTS (X-Y:@VM:X+Y)
 ```
 
 The above will display 1 and 0.

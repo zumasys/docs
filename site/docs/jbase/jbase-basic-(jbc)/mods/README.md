@@ -31,7 +31,7 @@ An example of use is as:
 ```
 A=3:@VM:7
 B=2:@SM:7:@VM:4
-PRINT MODS(A,B)
+CRT MODS(A,B)
 ```
 
 to display an array containing :  1 ,0 , 3.

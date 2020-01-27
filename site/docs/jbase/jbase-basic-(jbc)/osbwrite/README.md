@@ -13,7 +13,7 @@
 
 # Description
 
-The**OSBWRITE** command writes an expression to a sequential file starting at a specified byte location. The command takes the general form:
+The **OSBWRITE** command writes an expression to a sequential file starting at a specified byte location. The command takes the general form:
 
 ```
 OSBWRITE expression {ON | TO} filevar [AT byte.expr] [NODELAY] [ON ERROR statements]
@@ -27,7 +27,7 @@ Where:
 - **NODELAY** forces an immediate write.
 
 
-ON ERROR statements specifies statements to execute if the **OSBWRITE** statement fails with a fatal error because the file is not open, an I/O error occurs, or jBASE cannot find the file. If ON ERROR clause is unspecified, and a fatal error occurs, the program terminates.
+**ON ERROR** statements specifies statements to execute if the **OSBWRITE** statement fails with a fatal error because the file is not open, an I/O error occurs, or jBASE cannot find the file. If **ON ERROR** clause is unspecified, and a fatal error occurs, the program terminates.
 
 ## Note: 
 

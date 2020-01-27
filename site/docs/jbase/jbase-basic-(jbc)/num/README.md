@@ -15,9 +15,9 @@ The **NUM** function is used to test arguments for numeric values. It takes the 
 NUM(expression)
 ```
 
-Where **e****xpression** may evaluate to any data type.
+Where **expression** may evaluate to any data type.
 
-If it is found that every character in expression is numeric then NUM returns a value of Boolean TRUE. If any character in expression is found not to be numeric then a value of Boolean FALSE is returned.
+If it is found that every character in expression is numeric then **NUM** returns a value of Boolean TRUE. If any character in **expression** is found not to be numeric then a value of Boolean FALSE is returned.
 
 
 

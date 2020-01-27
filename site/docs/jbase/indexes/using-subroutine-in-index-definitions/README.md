@@ -27,7 +27,7 @@ It is possible to call a jBC subroutine from an index definition. The subroutine
 As an example, consider the following index creation
 
 ```
-jsh-> CREATE-INDEX FILENAME INDEXNAME BY 1 : CALL(2,"INDEX-DEF")
+jsh --> CREATE-INDEX FILENAME INDEXNAME BY 1 : CALL(2,"INDEX-DEF")
 ```
 
 When an update occurs the index key is calculated by taking attribute 1 and concatenating it with the output from a call to a subroutine called INDEX-DEF. The source code for this may look something like this:

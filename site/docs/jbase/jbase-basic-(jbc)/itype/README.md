@@ -17,13 +17,15 @@ ITYPE (i.type)
 
 Where:
 
-I.type is an expression evaluating to the contents of the compiled I-descriptor. The Idescriptor must be compiled before the **ITYPE** function uses it; otherwise, a run-time error message results.
+**i.type** is an expression evaluating to the contents of the compiled I-descriptor. 
 
-Using several methods set the I.type to the evaluated I-descriptor in several ways. One way is to read the I-descriptor from a file dictionary into a variable, then use the variable as the argument to the **ITYPE**function. If the I-descriptor references a record ID, the current value of the system variable @ID is used. If the I-descriptor, references field values in a data record, the data is taken from the current value of the system variable @RECORD.
+[comment]: <> (The Idescriptor must be compiled before the **ITYPE** function uses it; otherwise, a run-time error message results.)
+
+Using several methods set the I.type to the evaluated I-descriptor in several ways. One way is to read the I-descriptor from a file dictionary into a variable, then use the variable as the argument to the **ITYPE** function. If the I-descriptor references a record ID, the current value of the system variable @ID is used. If the I-descriptor, references field values in a data record, the data is taken from the current value of the system variable @RECORD.
 
 To assign field values to @RECORD, read a record from the data file into @RECORD before invoking the ITYPE function.
 
-If i.type evaluates to null, the**ITYPE** function fails and the program terminates with a run-time error message.
+If **i.type** evaluates to null, the **ITYPE** function fails and the program terminates with a run-time error message.
 
 ## Note:
 
@@ -68,7 +70,7 @@ READNEXT @ID DO
 *
 READ @RECORD FROM FILE, @ID THEN
 *
-PRINT @ID: "WEARS SLIPPERS SIZE " ITYPE(ITYPEDESC)
+CRT @ID: "WEARS SLIPPERS SIZE " ITYPE(ITYPEDESC)
 END
 REPEAT
 ```

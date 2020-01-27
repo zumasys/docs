@@ -22,12 +22,12 @@ INPUTCLEAR
 An example of use is as:
 
 ```
-0001     CRT "Start year end processing (Yes/No) :"
-0002     INPUTCLEAR
-0003     INPUT ans
-0004     IF ans # "Yes" THEN
-0005         CRT "year end processing not started"
-0006     END
+    CRT "Start year end processing (Yes/No) :"
+    INPUTCLEAR
+    INPUT ans
+    IF ans # "Yes" THEN
+        CRT "Year end processing not started"
+    END
 ```
 
 

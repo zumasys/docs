@@ -20,7 +20,7 @@ DEFC {FuncType} FuncName ({ArgType {, ArgType ...}})
 Where:
 
 - **FuncType** and **ArgType** are of INT, FLOAT or VAR type. FuncType specifies the type of result that the function will return. Assumes INT if FuncType is omitted.
-- The optional list of**ArgTypes** specifies the argument types that the C function will expect. The compiler must know this in advance, as it will automatically perform type conversions on these arguments
+- The optional list of **ArgTypes** specifies the argument types that the C function will expect. The compiler must know this in advance, as it will automatically perform type conversions on these arguments
 
 
 # Note:

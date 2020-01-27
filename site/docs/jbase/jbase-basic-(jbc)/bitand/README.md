@@ -6,8 +6,7 @@
 **Original ID:** 284129  
 **Internal:** No  
 
-
-# Description 
+## Description
 
 The **BITAND** function may be used to perform the bitwise AND comparison of two integers specified by numeric expressions. It takes the general form:
 
@@ -25,13 +24,11 @@ It should however be noted that differences in hardware architecture can make th
 An example of use would be as:
 
 ```
-PRINT BITAND(6,12)
+CRT BITAND(6,12)
 * The binary value of 6 = 0110
 * The binary value of 12 = 1100
 ```
 
 This results in 0100, and the following output is displayed: 4
-
-
 
 Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)

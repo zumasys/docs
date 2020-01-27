@@ -56,13 +56,13 @@ The full format of the index-definition command argument is given in [Appendix A
 
 
 ```
-jsh->key-select ORDERS WITH PLACE-DATE > 10638
+jsh -->key-select ORDERS WITH PLACE-DATE > 10638
 ```
 
 where 10638 is a date in internal format, then by using the option "-lD" we will perform an ICONV on the selection criteria of format "D" thus translating the date in external format to internal format, and so your command line would be:
 
 ```
-jsh->key-select ORDERS WITH PLACE-DATE > 14-feb-1997
+jsh -->key-select ORDERS WITH PLACE-DATE > 14-feb-1997
 ```
 
 This also applies to selection criteria passed with a jQL command such as LIST or SELECT.
@@ -143,11 +143,12 @@ jBASE supports this by converting on-line the syntax to the jBASE syntax and not
 
 When this happens the dictionary definition is used as follows:
 
-
-| <br>Attribute 2<br> | <br>indicates what attribute number to extract<br> |
-| <br>Attribute 7<br> | <br>indicates any lookup code i.e. what to convert any matching string using<br> |
-| <br>Attribute 8<br> | <br>indicates any conversions to apply when building the index data<br> |
-| <br>Attribute 9<br> | <br>indicates the justification of the index keys (left or right)<br> |
+| Attribute # <br>| Definition <br>|
+| --- | --- |
+| Attribute 2 <br>| indicates what attribute number to extract<br> |
+| Attribute 7 <br>| indicates any lookup code i.e. what to convert any matching string using<br> |
+| Attribute 8 <br>| indicates any conversions to apply when building the index data<br> |
+| Attribute 9 <br>| indicates the justification of the index keys (left or right)<br> |
 
 
 jBASE allows indexes created in this manner to be used with some jQL commands like SELECT or SORT. An index which is not created via a dictionary item must query the index with KEY-SELECT or QUERY-INDEX.

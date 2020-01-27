@@ -41,7 +41,7 @@ Applies the pattern to all characters in **expression1** and it must match all c
 
 
 
-# **INTERNATIONAL MODE**
+### **INTERNATIONAL MODE**
 
 When using the **MATCHES** statement in International Mode, the statement will use the currently configured locale to determine the properties according to the Unicode Standard for each character in the expression. i.e., is the character alpha or numeric?
 

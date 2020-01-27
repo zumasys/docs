@@ -28,7 +28,7 @@ Where both **expression1** and **expression2** should evaluate to numeric argume
 ## Note: 
 
 
-> If expression1 is negative and expression2 is not an integer then a maths library error is displayed and the function returns the value 0. The error message displayed is:
+> If **expression1** is negative and **expression2** is not an integer then a maths library error is displayed and the function returns the value 0. The error message displayed is:
 > 
 > pow: DOMAIN error
 > 

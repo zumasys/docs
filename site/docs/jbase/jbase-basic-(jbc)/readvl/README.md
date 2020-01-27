@@ -6,13 +6,10 @@
 **Original ID:** 278776  
 **Internal:** No  
 
+## Description
 
-# Description
+The **READVL** statement acquires a shared record lock and then reads a field from the record.
 
-The **READVL**statement acquires a shared record lock and then reads a field from the record.
-
-The **READVL**statement conforms to all the specifications of the [READL](./../readl) and [READV](./../readv) statements
-
-
+The **READVL** statement conforms to all the specifications of the [READL](./../readl) and [READV](./../readv) statements
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -15,15 +15,15 @@ The function will check that the expression consists of entirely alphanumeric ch
 ISALNUM(expression)
 ```
 
-Where **e****xpression** can return a result of any type.
+Where **expression** can return a result of any type.
 
-The function will return **TRUE**(1) if the expression consists of entirely alphanumeric characters. The function will return **FALSE**(0) if the expression contains any characters, which are not alphanumeric.
+The function will return **TRUE** (1) if the expression consists of entirely alphanumeric characters. The function will return **FALSE** (0) if the expression contains any characters, which are not alphanumeric.
 
 
 
 ## International Mode
 
-When the**ISALNUM()** function is used in International Mode the properties of each character is determined according to the Unicode Standard.
+When the **ISALNUM()** function is used in International Mode, the properties of each character are determined according to the Unicode Standard.
 
 
 

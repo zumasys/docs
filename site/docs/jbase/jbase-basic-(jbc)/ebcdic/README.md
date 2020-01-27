@@ -17,15 +17,15 @@ This function converts all the characters in an expression from the ASCII charac
  EBCDIC(expression)
 ```
 
-Where **e****xpression** may contain a data string of any form. The function will convert it to a character string, assume that the characters are all members of the ASCII set and translate them using a character map.
+Where **expression** may contain a data string of any form. The function will convert it to a character string, assume that the characters are all members of the ASCII set and translate them using a character map.
 
 The original **expression** is unchanged while the returned result of the function is now the **EBCDIC** equivalent.
 
 An example of use may be as:
 
 ```
-0001     ascii_expression = "?m@?&???"
-0002     CRT EBCDIC(ascii_expression)
+     ascii_expression = "?m@?&???"
+     CRT EBCDIC(ascii_expression)
 ```
 
 

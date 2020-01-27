@@ -17,7 +17,9 @@ This function returns the current working directory of the program, which is nor
  GETCWD(Var)
 ```
 
-Where **v****ar** will be set to the name of the current working directory at execution. The function itself  returns a boolean **TRUE**or **FALSE**value to indicate whether the command was successful or not.
+Where **var** will be set to the name of the current working directory at execution. 
+
+The function itself  returns a boolean **TRUE**or **FALSE** value to indicate whether the command was successful or not.
 
 ## Note:
 
@@ -28,11 +30,11 @@ Where **v****ar** will be set to the name of the current working directory at ex
 An example of use is as follows:
 
 ```
-0001     IF GETCWD(W_DIR) THEN
-0002         CRT "Current Working Directory = ":W_DIR
-0003     END ELSE
-0004         CRT "Could not determine CWD!"
-0005     END
+     IF GETCWD(W_DIR) THEN
+         CRT "Current Working Directory = ":W_DIR
+     END ELSE
+         CRT "Could not determine CWD!"
+     END
 ```
 
 # 

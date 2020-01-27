@@ -20,7 +20,7 @@ PRINTERR expression
 
 Where **expression** should evaluate to the numeric or string name of a valid error message in the jBASE error message file. If the error message requires parameters then these can be passed to the message as subsequent fields of the expression.
 
-# **INTERNATIONAL MODE**
+## International Mode
 
 When the **PRINTERR** statement is used in International Mode, the error message file to be used, i.e. the default “jBASICmessages” or other as configured via the error message environment variable, will be suffixed with the current locale. For example, if the currently configured locale is “fr\_FR” then the statement will attempt to find the specified error message record id in the “jBASICmessages\_fr\_FR” error message file. If the file cannot be found then the country code will be discarded and just the language code used. i.e. the file  jBASICmessages\_fr” will be used. If this file is also not found then the error message file “jBASICmessages” will be used.
 

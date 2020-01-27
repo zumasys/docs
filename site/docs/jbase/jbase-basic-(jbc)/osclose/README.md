@@ -23,7 +23,7 @@ Where:
 - ON ERROR **statements** Specifies statements to execute if the **OSCLOSE** statement fails with a fatal error because the file is not open, an I/O error occurs, or jBASE cannot find the file.
 
 
-If the ON ERROR clause is not specified,  and a fatal error occurs, the program will enter the debugger. After execution of **OSCLOSE**, the [STATUS](./../status-function) function returns either 0 or a failure code.
+If the **ON ERROR** clause is not specified,  and a fatal error occurs, the program will enter the debugger. After execution of **OSCLOSE**, the [STATUS](./../status-function) function returns either 0 or a failure code.
 
 
 | Code<br> | Description<br> |

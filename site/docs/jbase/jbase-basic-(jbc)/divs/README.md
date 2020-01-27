@@ -21,10 +21,9 @@ An example of use is as:
 
 ```
     A=10:@VM:15
-
     B=2:@VM:5
 
-    PRINT DIVS(A,B)
+    CRT DIVS(A,B)
 ```
 
 

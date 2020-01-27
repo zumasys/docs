@@ -21,14 +21,14 @@ Where:
 
 **PRINTER OFF** redirects all subsequent output from the [PRINT](./../print) statement to the terminal device.
 
-**PRINTER CLOSE** will act as**PRINTER OFF** but in addition closes the currently active spool job created by the active **PRINTER ON** statement.
+**PRINTER CLOSE** will act as **PRINTER OFF** but in addition closes the currently active spool job created by the active **PRINTER ON** statement.
 
 The following code sample demonstrates the use of the statement.
 
 ```
 PRINTER ON;* Open a spool job
 
-FOR I =1 TO 60
+FOR I = 1 TO 60
     PRINT "Line ":I ;* Send to printer
     PRINTER OFF
     PRINT "+": ;* Send to terminal

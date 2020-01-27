@@ -24,7 +24,7 @@ Where:
 
 - If specified, **variable** should have been the subject of a previous [OPEN](./../open) statement. If variable is omitted then it assumes the default file variable.
 - The **expression** should evaluate to the name of a record stored in the open file.
-- If the **SETTING**clause is specified and the delete fails, it sets **setvar** to one of [these file error values](./../incremental-file-errors).
+- If the **SETTING** clause is specified and the delete fails, it sets **setvar** to one of [these file error values](./../incremental-file-errors).
 
 
 
@@ -38,8 +38,8 @@ Where:
 An example of use is as:
 
 ```
-0001     OPEN "test_rec" TO file_variable ELSE ABORT 201, "test_rec"
-0002     DELETE file_variable , "001"
+     OPEN "test_rec" TO file_variable ELSE ABORT 201, "test_rec"
+     DELETE file_variable , "001"
 ```
 
 to delete the record "001" from the file test\_rec .

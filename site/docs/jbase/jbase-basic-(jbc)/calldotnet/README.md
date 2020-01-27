@@ -51,33 +51,33 @@ Before the **CALLdotNET** function is called, the .NET functions must be first c
 In C#:
 
 ```
-001    using System;
-002    using System.Windows.Forms;
-003    namespace myNameSpace
-004    {
-005        public class Class1
-006        {
-007            public string sayHello(string str)
-008            {
-009            return “Thank you, I received : “ + str;
-010            }
-011        public Class1(){}
-012        }
-013    }
+    using System;
+    using System.Windows.Forms;
+    namespace myNameSpace
+    {
+        public class Class1
+        {
+            public string sayHello(string str)
+            {
+            return “Thank you, I received : “ + str;
+            }
+        public Class1(){}
+        }
+    }
 ```
 
 In VB.NET:
 
 ```
-001    Namespace myNameSpace
-002        Public Class Class1
-003            Public Function sayHello(ByVal str As String) As String
-004            Dim sAnswer As String
-005            sAnswer = InputBox(str)
-006            sayHello = sAnswer
-007            End Function
-008        End Class
-009    End Namespace
+    Namespace myNameSpace
+        Public Class Class1
+            Public Function sayHello(ByVal str As String) As String
+            Dim sAnswer As String
+            sAnswer = InputBox(str)
+            sayHello = sAnswer
+            End Function
+        End Class
+    End Namespace
 ```
 
 It is important that the .NET project be created as a ‘Class Library’. If using the visual studio IDE, this option is selected when creating a new project. If using .NET SDK (instead of the IDE) to compile class libraries into a ‘DLL’ file, the ‘csc’ (C# Compiler) or ‘vbc’ (Visual Basic .NET compiler) command can be used from the command line:
@@ -102,23 +102,24 @@ CRT ret
 BASIC code using the ON ERROR would look like this:
 
 ```
-0009     CRT "Please enter a Parameter : "
-0010     INPUT param
-0011     CALLdotNET ns.className, methodName, param SETTING ret \
-0012     ON ERROR GOSUB errHandler
-0013     CRT "Received back from .NET : " : ret
-0014     STOP
-0015 * errHandler:
-0017     err = SYSTEM(0)
-0018     BEGIN CASE
-0019     CASE err = 2
-0020         CRT "Cannot find dotNETWrapper.dll"
-0021     CASE err = 3
-0022         CRT "Class " :ns.className : " doesn't exist !"
-0023     CASE err = 5
-0024         CRT "Method " : methodName : "doesn't exist !"
-0025     END CASE
-0026     RETURN
+     CRT "Please enter a Parameter : "
+     INPUT param
+     CALLdotNET ns.className, methodName, param SETTING ret \
+     ON ERROR GOSUB errHandler
+     CRT "Received back from .NET : " : ret
+     STOP
+*  
+errHandler:
+     err = SYSTEM(0)
+     BEGIN CASE
+     CASE err = 2
+         CRT "Cannot find dotNETWrapper.dll"
+     CASE err = 3
+         CRT "Class " :ns.className : " doesn't exist !"
+     CASE err = 5
+         CRT "Method " : methodName : "doesn't exist !"
+     END CASE
+     RETURN
 ```
 
 

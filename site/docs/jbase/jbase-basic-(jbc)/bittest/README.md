@@ -6,13 +6,12 @@
 **Original ID:** 284143  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **BITTEST** function may be used to test the bit number of the integer specified by expression. It takes the general from:
 
 ```
-BITTEST(expression, bit#) 
+BITTEST(expression, bit#)
 ```
 
 Where:
@@ -26,13 +25,11 @@ The function returns 1 if the bit is set; it returns 0 if it is not; Bits are co
 An example of use is as:
 
 ```
-PRINT BITTEST(11,0),BITTEST(11,1),BITTEST(11,2),BITTEST(11,3)
+CRT BITTEST(11,0),BITTEST(11,1),BITTEST(11,2),BITTEST(11,3)
 * The binary value of 11 = 1011
 ```
 
 to output:
 1 1 0 1
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

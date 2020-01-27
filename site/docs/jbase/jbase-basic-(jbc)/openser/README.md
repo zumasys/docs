@@ -17,9 +17,9 @@ OPENSER Path,DevInfo| PIPE TO FileVar THEN | ELSE Statements
 
 Where :
 
-Path is the pathname of the required device.
+**Path** is the pathname of the required device.
 
-DevInfo consists of the following:
+**DevInfo** consists of the following:
 
 
 | Baud<br> | <br> | Baud rate required<br> |
@@ -41,7 +41,7 @@ DevInfo consists of the following:
 ## Note:
 
 
-> The PIPE functionality allows a process to open a PIPE, once opened then the process can execute a command via the [WRITESEQ](./../writeseq)/[SEND](./../send) statement and then received the result back via the [GET](./../get)/[READSEQ](./../readseq) statements.
+> The **PIPE** functionality allows a process to open a **PIPE**, once opened then the process can execute a command via the [WRITESEQ](./../writeseq)/[SEND](./../send) statement and then received the result back via the [GET](./../get)/[READSEQ](./../readseq) statements.
 
 
 An example of use is as:
