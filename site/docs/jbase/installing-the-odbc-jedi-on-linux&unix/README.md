@@ -1,7 +1,7 @@
 # Installing the ODBC jEDI on Linux/Unix
 
 **Created At:** 12/20/2019 4:47:27 PM  
-**Updated At:** 1/17/2020 12:45:31 AM  
+**Updated At:** 1/25/2020 12:21:00 AM  
 **Original Doc:** [installing-the-odbc-jedi-on-linuxunix](https://docs.jbase.com/installing-the-odbc-jedi-on-linuxunix)  
 **Original ID:** 509163  
 **Internal:** Yes  
@@ -9,7 +9,7 @@
 
 As previously stated, in order to properly perform the steps defined in this section, you will need a licensed system running jBASE 5.6 or greater, and the *ODBC* *jEDI*tool-set installation package. If you do not yet have a valid licensed jBASE system, and/or the *ODBC* *jEDI*tool-set installation package, please contact Zumasys licensing to obtain them.
 
-The installation package is comprised of two components, the **ODBCjEDI.jpkg** and the **jpkginstaller.zip**; both can be removed from the target file system after successful installation. After receiving the *ODBC* *jEDI*tool-set installation package, do the following to ensure successful installation:
+The installation package is comprised of two components, the **ODBCjEDI-UNIX.jpkg** and **GNU\_Linux\_jPKGINSTALLER\_1.1.0\_jBASE\_5.7.4\_x86\_64.bin**; both can be removed from the target file system after successful installation. After receiving the *ODBC* *jEDI*tool-set installation package, do the following to ensure successful installation:
 
 1. Save the installation package's components to a desired location on your file-system
 
@@ -17,45 +17,64 @@ The installation package is comprised of two components, the **ODBCjEDI.jpkg** a
 
 For this example, **jBASE****I****nstall/**will be the location our components are stored after initial download
 
-2. Navigate to where your *ODBC* *jEDI*tool-set components are located on your file system
+2. Run the install for the package installer (as root)
+
+```
+~/jBASEInstall$ sudo su
+~/jBASEInstall# . /opt/jbase/CurrentVersion/jbase_env.sh
+~/jBASEInstall# ./GNU_Linux_jPKGINSTALLER_1.1.0_jBASE_5.7.4_x86_64.bin
+
+-------------------------------------------------------------------------------
+jPKGINSTALLER Release 1.1.0 Installation
+-------------------------------------------------------------------------------
+The jBASE package installer module is used to create and install jBASE add-on components.
+
+The installer utilises the jBASE "jabba" languange and specific features and therefore requires 5.7.3 or higher.
+
+
+Press  to start the installation process or [C]ancel
+
+-------------------------------------------------------------------------------
+Type of Installation
+-------------------------------------------------------------------------------
+
+[E]xpress  :  Install jPKGINSTALLER with typical options
+[N]ormal   :  Install jPKGINSTALLER with typical options (prompted)
+
+[C]ancel installation
+
+Install type:E
+
+
+-------------------------------------------------------------------------------
+Installation Summary
+-------------------------------------------------------------------------------
+
+Release directory     : /opt/jbase/CurrentVersion
+Bin directory         : /opt/jbase/CurrentVersion/bin
+Lib directory         : /opt/jbase/CurrentVersion/lib
+
+jPKGINSTALLER owner           : jbaseadm
+
+jPKGINSTALLER group           : jbase
+
+
+
+Begin installation? ([Y]es/[N]o) :Y
+```
+
+
+
+3. Navigate to where your *ODBC* *jEDI*tool-set components are located on your file system. As per step 2, run the install as "root"
 
 ```
 ~$ cd /jBASEInstall
-~/jBASEInstall$ ls
-~/jBASEInstall$ ODBCjEDI.jpkg
-~/jBASEInstall$ jpkginstaller.zip
+~/jBASEInstall$ sudo su
+~/jBASEInstall# . /opt/jbase/CurrentVersion/jbase_env.sh
+~/jBASEInstall$ jpkginstall ODBCjEDI
 ```
 
-3. Create **bin/**and **lib/** sub-directories in this location
-
-```
-~/jBASEInstall$ mkdir /bin
-~/jBASEInstall$ mkdir /lib
-```
-
-4. Unzip the **jpkginstaller.zip**component into the **bin/**sub-directory
-
-```
-~/jBASEInstall$ unzip jpkginstaller.zip -d ./bin
-```
-
-### Note
-
-You may need to install the unzip utility if it is not already installed on your OS
-
-4. Add the **bin/**sub-directory to your $PATH environment variable
-
-```
-~/jBASEInstall$ export PATH=/jBASEInstall/bin:$PATH
-```
-
-5. Run the **jpkginstall**command from the same directory your **ODBCjEDI.jpkg**file is located
-
-```
-~/jBASEInstall$ jpkginstall
-```
-
-6. If you do not yet have the **config/**or **CSV/** directories created within your $**JBCDATADIR**directory, you will be prompted and asked if you'd like to create them. Enter Yes to have the installer create the directories for you. If you already have these directories set up, the installer will skip to step 7.
+4. If you do not yet have the **config/**or **CSV/** directories created within your $**JBCDATADIR**directory, you will be prompted and asked if you'd like to create them. Enter Yes to have the installer create the directories for you. If you already have these directories set up, the installer will skip to step 5.
 
 ```
 Unpacking...
@@ -69,7 +88,7 @@ The default location for storing csv definitions ($JBCDATADIR/CSV) cannot be ope
 Would you like to create it now? Yes
 ```
 
-7. You will be prompted and asked if you'd like to view the installer release notes. Enter No to continue with the installation.
+5. You will be prompted and asked if you'd like to view the installer release notes. Enter No to continue with the installation.
 
 ```
 Unpacking...    ODBC jEDI Installation
@@ -77,7 +96,7 @@ Unpacking...    ODBC jEDI Installation
 View release notes? No
 ```
 
-8. You will be prompted with the following *DSN* fields to fill out. The installer will use the data entered into these fields to attempt to connect to a valid data source.
+6. You will be prompted with the following *DSN* fields to fill out. The installer will use the data entered into these fields to attempt to connect to a valid data source.
 
 ```
 CSV directory:
@@ -85,8 +104,8 @@ Table Separator:
 VMC Separator:
 Passwords Encrypted:
 UID:
-Database:
 Password:
+Database:
 ```
 
 ### Field Descriptions
@@ -102,10 +121,9 @@ VMC Separator - Character used to join the VMC column with the multi/sub-value g
 Passwords Encrypted - Controls whether or not the user password will be encrypted in the jEDIdrivers.ini file
 
 UID - User ID for the *DSN* specified
+Password - Password for the *DSN* specified
 
 Database - Database name for the *DSN* specified
-
-Password - Password for the *DSN* specified
 
 Below is an example of filled out *DSN* fields:
 
@@ -116,11 +134,11 @@ Table Separator:        _
 VMC Separator:          _  
 Passwords Encrypted:    Yes
 UID:                    sa
-Database:               master 
 Password:               ********** 
+Database:               master 
 ```
 
-9.  You will be prompted one last time and asked if you want to continue with your installation. Enter Yes to test your *DSN* connection. If the connection is successful, you will be told the installation has succeeded. If not, you will need to verify your *DSN* and the *DSN*fields in step 8 were set up correctly.
+7.  You will be prompted one last time and asked if you want to continue with your installation. Enter Yes to test your *DSN* connection. If the connection is successful, you will be told the installation has succeeded. If not, you will need to verify your *DSN* and the *DSN*fields in step 6 were set up correctly.
 
 ```
 Continue with installation? Yes
