@@ -29,7 +29,8 @@ is available at [Zumasys BetaDocs](https://betadocs.zumasys.com). The documentat
 ## Development Steps
 
 To run the application locally:
-> You will need to have **npm** installed.
+
+> You will need to have [Node.js & npm](https://nodejs.org/en/download/) installed. You'll also need [Git](https://git-scm.com/downloads).
 
 1. `git clone https://github.com/zumasys/docs.git`
 2. `cd docs` (or whatever name you used for your git clone)
@@ -53,6 +54,8 @@ To run the application locally:
 - Andy Takacs ([@andytakacs](https://github.com/andytakacs))
 - Mike Wright ([@itsxallwater](https://github.com/itsxallwater))
 - Ryan Medina ([@ryannmedina](https://github.com/ryannmedina))
+- Peter Falson ([@pfalson](https://github.com/pfalson))
+- Mike Street ([@mikes-zum](https://github.com/mikes-zum))
 
 ## Todo List
 
