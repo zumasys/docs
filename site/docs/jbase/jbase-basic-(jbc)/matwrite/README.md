@@ -12,7 +12,7 @@
 
 # Description
 
-The **MATWRITE**statement transfers the entire contents of a dimensioned array to a specified record on disc. It takes the general form:
+The **MATWRITE** statement transfers the entire contents of a dimensioned array to a specified record on disc. It takes the general form:
 
 ```
 MATWRITE array ON { variable,}expression {SETTING setvar} {ON ERROR statements}
@@ -23,8 +23,8 @@ Where:
 - **array** should be a previously dimensioned and initialized array.
 - If specified, **variable** should be a previously opened file variable (i.e. the subject of an [OPEN](./../open) statement). If **variable** is not specified the default file variable is used.
 - **expression** should evaluate to the name of the record in the file.
-- If the SETTING clause is specified and the write succeeds, **setvar** will be set to the number of attributes read into array. If the SETTING clause is specified and the write fails, **setvar** will be set to one of [these values](./../incremental-file-errors).
-- If ON ERROR is specified, the statements following the ON ERROR clause will be executed for any of [these values](./../incremental-file-errors) except error 128.
+- If the **SETTING** clause is specified and the write succeeds, **setvar** will be set to the number of attributes read into array. If the **SETTING** clause is specified and the write fails, **setvar** will be set to one of [these values](./../incremental-file-errors).
+- If **ON ERROR** is specified, the statements following the **ON ERROR** clause will be executed for any of [these values](./../incremental-file-errors) except error 128.
 
 
 The compiler will check that the variable specified is a dimensioned array before its use in the statement.
@@ -32,12 +32,12 @@ The compiler will check that the variable specified is a dimensioned array befor
 An example of use is as:
 
 ```
-0002     dim sample_arr(20)
-0003     mat sample_arr = 99
-0004
-0005     matwrite sample_arr on "New array" setting response_code on error
-0006         crt "Error: ":response_code :" Record could not be written."
-0007     end
+    dim sample_arr(20)
+    mat sample_arr = 99
+
+    matwrite sample_arr on "New array" setting response_code on error
+        crt "Error: ":response_code :" Record could not be written."
+    end
 ```
 
 

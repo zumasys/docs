@@ -14,8 +14,8 @@
 
 The regular jBC READNEXT statement is extended in two ways.
 
-- Firstly it can accept an index variable create with an [OPENINDEX](openindex) statement.
-- Secondly, you can use the KEY modifier.
+- Firstly it can accept an index variable created with an [OPENINDEX](./../openindex) statement.
+- Secondly, you can use the **KEY** modifier.
 
 
 The function may be called as:
@@ -29,7 +29,7 @@ READNEXT KEY index.key{,record.key{,vmcount}} {FROM select-def} THEN/ELSE
 ## Note: 
 
 
-> In this second format the READNEXT KEY statement will return the actual index key. The select used use MUST have been created with the OPENINDEX statement. Optionally, the associated record key can be returned and the multi-value number associated with it.
+> In this second format the READNEXT KEY statement will return the actual index key. The select used use MUST have been created with the [OPENINDEX](./../openindex) statement. Optionally, the associated record key can be returned and the multi-value number associated with it.
 
 
 

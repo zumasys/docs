@@ -13,7 +13,7 @@
 
 # Description
 
-The **MOD** or **REM**function returns the arithmetic modulo of two numeric expressions. It takes the general form:
+The **MOD** or **REM** functions return the arithmetic modulo of two numeric expressions. They take the general form:
 
 ```
 MOD(expression1, expression2)
@@ -27,7 +27,7 @@ REM(expression1, expression2)
 
 Where both **expression1** and **expression2** should evaluate to numeric expressions or a runtime error will occur.
 
-The remainder of **expression1** divided by **expression2** calculates the modulo. If expression2 evaluates to 0, then the value of expression1 is returned.
+The remainder of **expression1** divided by **expression2** calculates the modulo. If expression2 evaluates to 0, then the value of **expression1** is returned.
 
 An example of use is as below:
 

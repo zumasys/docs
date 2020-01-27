@@ -27,11 +27,11 @@ LOOP statements1 WHILE|UNTIL expression DO statements2 REPEAT
 
 Where:
 
-- **statements1** and **statements2** consist of any number of standard statements including  the **LOOP** statement itself, thus allowing for nested loops. **statements1** will always be executed at least once, after which the WHILE or UNTIL clause is evaluated.
-- **expression** is tested for Boolean TRUE/FALSE by either the **WHILE**clause or the **UNTIL**clause.
+- **statements1** and **statements2** consist of any number of standard statements including  the **LOOP** statement itself, thus allowing for nested loops. **statements1** will always be executed at least once, after which the **WHILE** or **UNTIL** clause is evaluated.
+- **expression** is tested for Boolean TRUE/FALSE by either the **WHILE** clause or the **UNTIL** clause.
 
 
-When tested by the WHILE clause **statements2** will only be executed if expression is Boolean TRUE. When tested by the UNTIL clause, **statements2** will only be executed if the expression evaluates to Boolean FALSE. .
+When tested by the **WHILE** clause **statements2** will only be executed if expression is Boolean TRUE. When tested by the **UNTIL** clause, **statements2** will only be executed if the expression evaluates to Boolean FALSE. .
 
 **REPEAT** causes the loop to start again with the first statement following the **LOOP** statement. An example of use is as:
 
@@ -41,7 +41,7 @@ loop
 repeat 
 ```
 
-to keep asking for an input till the user enters a numeric value.
+to keep asking for an input until the user enters a numeric value.
 
 
 

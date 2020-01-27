@@ -9,7 +9,7 @@
 
 # Description
 
-The **NULL**statement performs no function but can be useful in clarifying syntax and where the language requires a statement but the programmer does not wish to perform any actions. It takes the general form:
+The **NULL** statement performs no function but can be useful in clarifying syntax and where the language requires a statement but the programmer does not wish to perform any actions. It takes the general form:
 
 ```
 NULL

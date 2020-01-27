@@ -17,12 +17,12 @@ This function converts a UTF-8 byte sequence into the binary or latin1 equivalen
 LATIN1(expression)
 ```
 
-Where **e****xpression** is to be a UTF-8 encoded byte sequence, which is the default format when executing in International Mode.
+Where **expression** is to be a UTF-8 encoded byte sequence, which is the default format when executing in International Mode.
 
 ## Note: 
 
 
-> Use this function for converting UTF-8 data into binary or the latin1 code page for external consumption. i.e. Tape devices.
+> Use this function to convert UTF-8 data into binary or the latin1 code page for external consumption. i.e. Tape devices.
 
 
 

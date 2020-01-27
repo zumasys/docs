@@ -40,7 +40,7 @@ DIM A(40)
 MATBUILD Dynamic FROM A,3,7 USING ":"
 ```
 
-Builds a 5 element string separated by a : character. '**MATBUILD**Dynamic FROM A' builds a field mark separated dynamic array from every element contained in the matrix A.
+Builds a 5 element string separated by a : character. '**MATBUILD** Dynamic FROM A' builds a field mark separated dynamic array from every element contained in the matrix A.
 
 
 

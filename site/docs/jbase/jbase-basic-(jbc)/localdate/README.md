@@ -9,7 +9,7 @@
 
 # Description
 
-This function returns an internal date using the specified Timestamp and TimeZone combination. It takes the general form:
+This function returns an internal date using the specified **Timestamp** and **TimeZone** combination. It takes the general form:
 
 ```
 LOCALDATE(Timestamp, TimeZone)
@@ -17,6 +17,6 @@ LOCALDATE(Timestamp, TimeZone)
 
 
 
-The **L****OCALDATE**function uses the specified timestamp and adjusts the value by the specified time zone to return the date value in internal date format.
+The **LOCALDATE**function uses the specified timestamp and adjusts the value by the specified time zone to return the date value in internal date format.
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

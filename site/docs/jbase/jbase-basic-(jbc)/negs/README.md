@@ -12,7 +12,7 @@ NEGS
 
 # Description
 
-This function returns the negative values of all the elements in a dynamic array. It takes the general form:
+This function returns the negative values of all the elements in a **dynamic array**. It takes the general form:
 
 ```
 NEGS(dynamic.array)

@@ -13,7 +13,11 @@
 
 # Description
 
-The **REGEXP** function is a powerful function that allows pattern matching using UNIX regular expressions. **REGEXP** is not supported on Windows. It takes the general form:
+The **REGEXP** function is a powerful function that allows pattern matching using UNIX regular expressions. 
+
+**REGEXP** is not supported on Windows. 
+
+It takes the general form:
 
 ```
 REGEXP(variable, expression)
@@ -25,7 +29,7 @@ Where:
 - **expression** should evaluate to a standard UNIX regular expression as defined in the UNIX documentation.
 
 
-The function returns a numeric integer value being the first character in variable that failed to match the specified regular expression. If a match is not found or the regular expression was invalid then the function returns 0.
+The function returns a numeric integer value being the first character in **variable** that failed to match the specified regular expression. If a match is not found or the regular expression was invalid then the function returns 0.
 
 An example of use would be:
 

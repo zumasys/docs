@@ -7,11 +7,11 @@
 **Internal:** No  
 
 **Tags:**
-<badge text='delimeters' vertical='middle' />
+<badge text='delimiters' vertical='middle' />
 
 # Description
 
-The**LOWER()**function lowers system delimiters in a string to the next lowest delimiter. It takes the general form:
+The **LOWER()** function lowers system delimiters in a string to the next lowest delimiter. It takes the general form:
 
 ```
 LOWER(expression)

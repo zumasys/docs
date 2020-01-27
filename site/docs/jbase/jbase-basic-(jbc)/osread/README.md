@@ -19,20 +19,20 @@ OSREAD Variable FROM expression {ON ERROR Statements} {THEN | ELSE} Statements {
 
 Where:
 
-- **Variable**specifies the variable to contain the data from the read.
+- **Variable** specifies the variable to contain the data from the read.
 - **Expression** specifies the full file path. If the file resides in the JEDIFILEPATH then just the file name is required.
-- ON ERROR **s****tatements** conditional jBASE BASIC statements to execute if the**OSREAD** statement fails with a fatal error because the file is not open, an I/O error occurs, or jBASE cannot find the file. If you do not specify the ON ERROR clause and a fatal error occurs, the program terminates.
+- ON ERROR **statements** conditional jBASE BASIC statements to execute if the **OSREAD** statement fails with a fatal error because the file is not open, an I/O error occurs, or jBASE cannot find the file. If you do not specify the **ON ERROR** clause and a fatal error occurs, the program terminates.
 
 
-THEN | ELSE If the **OSREAD** statement fails it will execute any statements associated with an ELSE clause. If the **OSREAD** is successful, it will execute any statements associated with a THEN clause.
+**THEN** | **ELSE** If the **OSREAD** statement fails it will execute any statements associated with an **ELSE** clause. If the **OSREAD** is successful, it will execute any statements associated with a **THEN** clause.
 
 ## Note:
 
 
 > ## 
-> Syntax requires either one or both of the THEN and ELSE clauses.
+> Syntax requires either one or both of the **THEN** and **ELSE** clauses.
 > 
-> **OSREAD** should not be used on large files. The jBASE BASIC **OSREAD**command reads an entire sequential file and assigns the contents of the file to a variable. If the file is too large for the program memory, the program aborts and generates a runtime error message. On large files, use [OSBREAD](./../osbread) or [READSEQ](./../readseq).
+> **OSREAD** should not be used on large files. The jBASE BASIC **OSREAD** command reads an entire sequential file and assigns the contents of the file to a variable. If the file is too large for the program memory, the program aborts and generates a runtime error message. On large files, use [OSBREAD](./../osbread) or [READSEQ](./../readseq).
 > 
 > jBASE uses the ASCII 0 character (CHAR (0)) as a string-end delimiter. ASCII 0 is not usable within string variable in jBASE BASIC. This command converts CHAR(0) to CHAR(128) when reading a block of data.
 
@@ -40,7 +40,7 @@ THEN | ELSE If the **OSREAD** statement fails it will execute any statements ass
 An example of use is as:
 
 ```
-OSREAD MyFile FROM "C:\MyDirectory\MyFile" ELSE PRINT "FILE NOT FOUND"
+OSREAD MyFile FROM "C:\MyDirectory\MyFile" ELSE CRT "FILE NOT FOUND"
 ```
 
 to open a file located in the file-path.

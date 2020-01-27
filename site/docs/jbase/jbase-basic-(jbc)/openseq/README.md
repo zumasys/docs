@@ -25,22 +25,22 @@ Where:
 - **FileVar** contains the file descriptor of the file when the open was successful,
 - **Statements** are conditional jBASE BASIC statements.
 
-If the SETTING clause is specified and the read fails, setvar will be set to one of [these values](./../incremental-file-errors)
+If the **SETTING** clause is specified and the read fails, setvar will be set to one of [these values](./../incremental-file-errors)
 
-If ON ERROR is specified, the statements following the ON ERROR clause will be executed for any of the Incremental File Errors except error 128.
+If **ON ERROR** is specified, the statements following the **ON ERROR** clause will be executed for any of the Incremental File Errors except error 128.
 
 
 ## Note: 
 
 
-> If the file does not exist or cannot be opened then it executes the ELSE clause. However, if JBASICEMULATE is set for Sequoia (use value "seq") emulation then **OPENSEQ** will create the file if it does not exist. This behavior can also be achieved by specifying "openseq\_creates = true" in Config\_EMULATE for the emulation being used. Once open a lock is taken on the file. If the lock cannot be taken then the LOCKED clause is executed if it exists otherwise the ELSE clause is executed. If specified, the READONLY process takes a read lock on the file, otherwise it takes a write lock. The specified file can be a regular, pipe or special device file. Locks are only taken on regular file types. Once open the file pointer is set to the first line of sequential data.
+> If the file does not exist or cannot be opened then it executes the **ELSE** clause. However, if JBCEMULATE is set for Sequoia (use value "seq") emulation then **OPENSEQ** will create the file if it does not exist. This behavior can also be achieved by specifying "openseq\_creates = true" in Config\_EMULATE for the emulation being used. Once open a lock is taken on the file. If the lock cannot be taken then the **LOCKED** clause is executed if it exists otherwise the **ELSE** clause is executed. If specified, the **READONLY** process takes a read lock on the file, otherwise it takes a write lock. The specified file can be a regular, pipe or special device file. Locks are only taken on regular file types. Once open the file pointer is set to the first line of sequential data.
 
 
 
 
 A program that uses sequential processing to create (write to) an ASCII text file from a jBASE hashed file is as below. It illustrates the use of the commands:
 
-**OPENSEQ**, [WRITESEQ](./../writeseq), [WEOFSEQ](./../weofseq),[CLOSESEQ](./../closeseq) .
+**OPENSEQ**, [WRITESEQ](./../writeseq), [WEOFSEQ](./../weofseq), [CLOSESEQ](./../closeseq) .
 
 ```
      $option jabba
@@ -115,7 +115,7 @@ A program that uses sequential processing to read from an ASCII text file and wr
          readseq line from mypath then
              write myrec to jbasefile, ID
          end else
-             crt "Eroor writing to file ": jbasefile
+             crt "Error writing to file ": jbasefile
          end
      repeat
 

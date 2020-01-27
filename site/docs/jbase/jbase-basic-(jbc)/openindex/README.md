@@ -26,9 +26,9 @@ Where:
 - **indexvar** is the variable that holds the descriptor for the index.
 
 
-If the [OPEN](./../open) statement fails it will execute any statements associated with an ELSE clause. If the [OPEN](./../open) is successful it will execute any statements associated with a THEN clause. Note that the syntax requires either one or both of the THEN and ELSE clauses.
+If the [OPEN](./../open) statement fails it will execute any statements associated with an **ELSE** clause. If the [OPEN](./../open) is successful it will execute any statements associated with a **THEN** clause. Note that the syntax requires either one or both of the **THEN** and **ELSE** clauses.
 
-If the SETTING clause is specified and the open fails, setvar will be set to one of the following values:
+If the **SETTING** clause is specified and the open fails, setvar will be set to one of the following values:
 
 
 | Code<br> | Description<br> |

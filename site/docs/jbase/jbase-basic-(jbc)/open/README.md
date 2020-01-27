@@ -13,10 +13,10 @@
 
 # Description
 
-The **OPEN**statement opens a file or device to a descriptor variable. It takes the general form:
+The **OPEN** statement opens a file or device to a descriptor variable. It takes the general form:
 
 ```
-OPEN{expression1,}expression2 TO{variable} {SETTING setvar}THEN|ELSE statements
+OPEN{expression1,} expression2 TO {variable} {SETTING setvar} THEN|ELSE statements
 ```
 
 Where:
@@ -26,7 +26,7 @@ Where:
 - If specifying the **SETTING** clause and the open fails, **setvar** will be set to one of [these values](./../incremental-file-errors).
 
 
-If the **OPEN** statement fails it will execute any statements associated with an ELSE clause. If the **OPEN** is successful, it will execute any statements associated with a THEN clause. The syntax requires either one or both of the THEN and ELSE clauses.
+If the **OPEN** statement fails it will execute any statements associated with an **ELSE** clause. If the **OPEN** is successful, it will execute any statements associated with a **THEN** clause. The syntax requires either one or both of the THEN and ELSE clauses.
 
 The **OPEN** statement uses the environment variable JEDIFILEPATH to search for the named file. If there is no defined named file, it will search the current working directory followed by the home directory of the current process.
 

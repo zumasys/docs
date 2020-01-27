@@ -22,10 +22,10 @@ Where:
 
 - **expression1** should be an absolute or relative path to the file including the name of the file to be opened,
 - If specified, **variable** will be used to hold the descriptor for the file. It should then be to access the file using [READ](./../read) and [WRITE](./../write). If no file descriptor variable is supplied, then the file will be opened to the default file descriptor,
-- If the **OPENPATH** statement fails it will execute any **statements** associated with an **ELSE** clause. If successful, the **OPENPATH** will execute any **statements** associated with a **THEN** clause. The syntax requires either one or both of the THEN and ELSE clauses.
+- If the **OPENPATH** statement fails it will execute any **statements** associated with an **ELSE** clause. If successful, the **OPENPATH** will execute any **statements** associated with a **THEN** clause. The syntax requires either one or both of the **THEN** and **ELSE** clauses.
 
 
-If the **SETTING**clause is specified and the open fails, setvar will be set to one of t[hese values](./../incremental-file-errors).
+If the **SETTING** clause is specified and the open fails, setvar will be set to one of t[hese values](./../incremental-file-errors).
 
 
 

@@ -9,13 +9,13 @@
 
 ## Description
 
-The NEG function is used to invert the arithmetic value of an expression. It takes the general form:
+The NEG function is used to invert the arithmetic value of an **expression**. It takes the general form:
 
 ```
 NEG(expression)
 ```
 
-Where expression may evaluate to any numeric value.
+Where **expression** may evaluate to any numeric value.
 
 An example of use may be as:
 

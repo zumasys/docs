@@ -19,11 +19,11 @@ OSBREAD var FROM file.var [AT byte.expr] LENGTH length.expr [ON ERROR statements
 
 Where:
 
-- **var**specifies a variable to which to assign the data read,
+- **var** specifies a variable to which to assign the data read,
 - FROM **file.var** specifies a file from which to read the data,
-- AT **byte.expr** specifies a location in the file from which to begin reading data. If byte.expr is 0, the read begins at the beginning of the file,
-- LENGTH **length.expr** specifies a length of data to read from the file, starting at byte.expr. length.expr cannot be longer than the maximum string length determined by system configuration,
-- ON ERROR **statements** specifies statements to execute if a fatal error occurs (if the file is not open, or if the file is a read-only file). If the ON ERROR clause is not specified, the program terminates under such fatal error conditions.
+- AT **byte.expr** specifies a location in the file from which to begin reading data. If **byte.expr** is 0, the read begins at the beginning of the file,
+- LENGTH **length.expr** specifies a length of data to read from the file, starting at **byte.expr**. **length.expr** cannot be longer than the maximum string length determined by system configuration,
+- ON ERROR **statements** specifies statements to execute if a fatal error occurs (if the file is not open, or if the file is a read-only file). If the **ON ERROR** clause is not specified, the program terminates under such fatal error conditions.
 
 
 ## Note: 

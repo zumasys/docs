@@ -23,7 +23,7 @@ Where:
 - ON ERROR **statements** Specifies statements to execute if the **OSDELETE** statement fails with a fatal error because the file is not open, an I/O error occurs, or jBASE cannot find the file.
 
 
-If the ON ERROR clause is not specified and a fatal error occurs, the program terminates.
+If the **ON ERROR** clause is not specified and a fatal error occurs, the program terminates.
 
 After executing **OSDELETE**, the [STATUS](./../status-function) function returns either 0 or a failure code.
 

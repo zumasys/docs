@@ -20,21 +20,21 @@ READVU variable1 FROM { variable2,} expression1, expression2 {SETTING setvar}
 
 Where:
 
-**variable1**is the record id into which the record will be read.
+**variable1** is the record id into which the record will be read.
 
-**variable2**if specified, should be a variable that has previously been opened to a file using the [OPEN](./../open) statement. If **variable2**is not specified then the default file variable is assumed.
+**variable2** if specified, should be a variable that has previously been opened to a file using the [OPEN](./../open) statement. If **variable2** is not specified then the default file variable is assumed.
 
-**expression1**should evaluate to a valid record key for the file.
+**expression1** should evaluate to a valid record key for the file.
 
-**expression2**should evaluate to a positive integer number. If the number is invalid or greater than the number of fields in the record, then a NULL string will be assigned to variable1. If the number is 0, then the readv0 emulation setting controls the value returned in variable1. If a non-numeric argument is evaluated a run time error will occur.
+**expression2** should evaluate to a positive integer number. If the number is invalid or greater than the number of fields in the record, then a NULL string will be assigned to **variable1**. If the number is 0, then the readv0 emulation setting controls the value returned in **variable1**. If a non-numeric argument is evaluated a run time error will occur.
 
-If the **SETTING**clause is specified and the read fails, **setvar**will be set to one of [these values](./../incremental-file-errors).
+If the **SETTING** clause is specified and the read fails, **setvar** will be set to one of [these values](./../incremental-file-errors).
 
-If **ON ERROR** is specified, the statements following the **ON ERROR** clause will be executed for any of the above Incremental File Errors except error 128.
+If **ON ERROR** is specified, the statements following the **ON ERROR** clause will be executed for any Incremental File Error except 128.
 
-If the **READVU** is successful then the statements following **THEN**will be executed. If the **READVU** is unsuccessful, i.e. the record key does not exist in the file, then the statements following **ELSE**are executed. If the **READVU** is unsuccessful and there is no **ELSE**then **expression** is set to "" (null).
+If the **READVU** is successful then the statements following **THEN** will be executed. If the **READVU** is unsuccessful, i.e. the record key does not exist in the file, then the statements following **ELSE** are executed. If the **READVU** is unsuccessful and there is no **ELSE** then **expression** is set to "" (null).
 
-If the record could not be read because another process already had a lock on the record then one of two actions is taken. If the **LOCKED**clause was specified in the statement then the statements dependent on it are executed. If no **LOCKED**clause was specified then the statement blocks (hangs) until the other process releases the lock.
+If the record could not be read because another process already had a lock on the record then one of two actions is taken. If the **LOCKED** clause was specified in the statement then the statements dependent on it are executed. If no **LOCKED** clause was specified then the statement blocks (hangs) until the other process releases the lock.
 
 The lock taken by the **READVU** statement will be released by any of the following events:
 
