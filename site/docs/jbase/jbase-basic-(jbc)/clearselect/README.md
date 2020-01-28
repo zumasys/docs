@@ -6,8 +6,7 @@
 **Original ID:** 266855  
 **Internal:** No  
 
-
-# Description 
+## Description
 
 The **CLEARSELECT** statement is to clear active select lists.
 
@@ -20,12 +19,9 @@ Where:
 - **ListName** must evaluate to a jBASE BASIC list variable,
 - **ListNumber** is one of the numbered lists in the range 0 to 11.
 
-
-# Note:
-
+## Note
 
 > If neither ListName nor ListNumber are specified then it clears the default list (0).
-
 
 An example of use is as:
 
@@ -49,7 +45,5 @@ An example of use is as:
 ```
 
 to display: good night
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

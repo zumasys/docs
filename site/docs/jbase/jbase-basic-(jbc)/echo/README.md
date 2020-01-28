@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='keyboard entry' vertical='middle' />
 
-# Description
+## Description
 
 The **ECHO** statement will turn on or off the echoing of characters typed at the keyboard.
 
@@ -37,11 +37,9 @@ TRUE: echoing on
 
 FALSE: echoing off.
 
-## Note:
-
+## Note
 
 > The [SYSTEM](./../system-functions) function is used to determine the current state of character echoing. [SYSTEM(24)](./../system-functions) returns Boolean TRUE if enabled and returns Boolean FALSE if disabled.
-
 
 An example of use is as:
 
@@ -53,7 +51,5 @@ ECHO ON
 ```
 
 The above would disable the character input echoing while typing in a password. After the character echoing will be turned back on.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

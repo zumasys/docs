@@ -6,8 +6,7 @@
 **Original ID:** 264326  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **CHANGETIMESTAMP** function can be used to adjust existing timestamp to return a new timestamp value. It may take the form:
 
@@ -18,7 +17,5 @@ CHANGETIMESTAMP(Timestamp, Array)
 Where the format of the adjustment array can be : Years^Months^Weeks^Days^Hours^Minutes^Seconds^Milliseconds
 
 The function generates a new timestamp by adjusting an existing timestamp value using the elements specified in the dynamic array.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

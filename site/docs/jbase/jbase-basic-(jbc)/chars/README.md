@@ -6,8 +6,7 @@
 **Original ID:** 264329  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **CHARS** function accepts a dynamic array of numeric expressions as an argument and returns a dynamic array of corresponding ASCII characters. It takes the general form:
 
@@ -24,8 +23,6 @@ Where each element of **DynArr** must evaluate to a numeric argument in the rang
          CRT z<i>:
      NEXT i
 ```
-
-
 
 See also: [CHAR](./../char).
 

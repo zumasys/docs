@@ -1,5 +1,4 @@
-# 
-ENTER
+# ENTER
 
 **Created At:** 9/6/2017 8:35:02 AM  
 **Updated At:** 10/30/2018 1:22:57 PM  
@@ -10,7 +9,7 @@ ENTER
 **Tags:**
 <badge text='program execution' vertical='middle' />
 
-# Description
+## Description
 
 The **ENTER** statement unconditionally passes control to another executable program. It takes the general form:
 
@@ -30,12 +29,9 @@ Where:
 - The '**@**' specifies that the program name is contained in a named variable.
 - **variable\_name**, is the name of the variable which contains the program name.
 
-
-## Note:
-
+## Note
 
 > The jBASE BASIC [COMMON](./../common) data area can be passed to another jBASE BASIC program by specifying the option "I" after the program name. Pass the [COMMON](./../common) data area only to another jBASE BASIC program.
-
 
 Use **ENTER** to execute any type of program.
 
@@ -53,7 +49,5 @@ or
 ProgName = "UPDATE"
 ENTER @ ProgName
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

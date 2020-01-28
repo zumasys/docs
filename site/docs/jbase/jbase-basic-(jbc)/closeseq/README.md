@@ -6,8 +6,7 @@
 **Original ID:** 278851  
 **Internal:** No  
 
-
-# Description 
+## Description
 
 The **CLOSESEQ** statement closes the file previously opened for sequential access. It takes the general form:
 
@@ -18,7 +17,5 @@ CLOSESEQ FileVar,
 Where:
 
 FileVar contains the file descriptor of the previously opened sequential file.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

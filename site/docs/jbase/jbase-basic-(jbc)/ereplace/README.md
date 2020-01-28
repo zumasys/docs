@@ -6,8 +6,7 @@
 **Original ID:** 284336  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **EREPLACE** function is useful for replacing substring in an expression with another substring. If the occurrence is not specified , the function replaces each occurrence of a substring. The function takes the general form:
 
@@ -45,7 +44,5 @@ AAAZZZCCCDDDZZZ
 ZZZAAABBBCCCDDDBBB
 AAACCCDDD
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

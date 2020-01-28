@@ -6,8 +6,7 @@
 **Original ID:** 264325  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **CHANGE** statement operates on a variable and replaces all occurrences of one string with another. It takes the form:
 
@@ -21,12 +20,9 @@ Where:
 - **expression2** may also evaluate to any result and is the string of characters that will replace **expression1**,
 - **variable** may be any previously assigned variable in the program.
 
-
-## Note:
-
+## Note
 
 > There is no requirement that strings be of the same length. The jBASE BASIC language also supports the **CHANGE** function for compatibility with older systems.
-
 
 An example of use is as:
 
@@ -37,7 +33,5 @@ Variable = "Pick up the tab Jim"
 CHANGE String1 TO String2 IN Variable
 CHANGE "tab" TO "check" IN Variable
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

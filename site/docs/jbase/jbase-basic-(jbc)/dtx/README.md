@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='hexadecimal representation' vertical='middle' />
 
-# Description
+## Description
 
 The **DTX** function will return the hexadecimal representation of a numeric expression. It takes the general form:
 
@@ -25,8 +25,6 @@ CRT DTX(Decimal)
 ```
 
 to display ‘FE’.
-
-
 
 See also: [XTD](./../xtd).
 

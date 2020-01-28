@@ -6,8 +6,7 @@
 **Original ID:** 284337  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **FIELDS** function is an extension of the [FIELD](./../field) function. It returns a dynamic array of multicharacter delimited fields from a dynamic array of strings. It takes the general form:
 
@@ -40,12 +39,6 @@ r2 = FIELDS(t,":",2,3)
 r3 = FIELDS(t,"bb",1,1)
 ```
 
-
-
 to create three dynamic arrays.
 
-
-
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
-
-

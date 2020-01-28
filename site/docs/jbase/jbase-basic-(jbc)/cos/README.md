@@ -6,8 +6,7 @@
 **Original ID:** 266860  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The function calculates the cosine of any angle using floating point arithmetic, then rounds to the [PRECISION](./../precision) implied by the jBASE BASIC program, which makes it very accurate. The function takes the general form:
 
@@ -17,11 +16,9 @@ The function calculates the cosine of any angle using floating point arithmetic,
 
 Where the **expression** must evaluate to a numeric result or a runtime error will occur.
 
-## Note:
-
+## Note
 
 > The function assumes the value returned by expression to be in degrees.
-
 
 An example of use is as:
 
@@ -30,7 +27,5 @@ An example of use is as:
          CRT COS(I)  ;* print cos i for 1 to 360 degrees
      NEXT I
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

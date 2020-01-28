@@ -6,8 +6,7 @@
 **Original ID:** 267387  
 **Internal:** No  
 
-
-# Description
+## Description
 
 This statement is intended to create files. It can be useful after an [OPENSEQ](./../openseq) statement to create a record in a directory file. **CREATE**creates the record or file if the [OPENSEQ](./../openseq) statement fails.
 
@@ -21,11 +20,9 @@ If the record or file is created, it executes the THEN statements; if no record 
 
 An [OPENSEQ](./../openseq) statement for the specified file variable must be executed before the **CREATE** statement to associate the pathname or record ID of the file to be created with the file variable. If file.variable is null, the **CREATE** statement fails and the program enters the debugger.
 
-# Note:
-
+## Note
 
 > **CREATE** statement may prove useful for exception handling, when [OPENSEQ](./../openseq) cannot find a record or file to open and the next operation is to be a [READSEQ](./../readseq) or [READBLK](./../readblk). If the first file operation is a [WRITESEQ](./../writeseq), [WRITESEQ](./../writeseq) creates the record or file if it does not exist.
-
 
 In the following example, **record\_file2** does not yet exist. When [OPENSEQ](./../openseq) fails to open **record\_file2** in the **TESTENV** directory, the **CREATE** statement creates and opens it to the file variable **FILE**, ready to be written to.
 
@@ -46,10 +43,4 @@ In the following example, **record\_file2** does not yet exist. When [OPENSEQ](.
 **OPENSEQ** will automatically create the target file if **openseq\_creates = true** (in ***Config\_EMULATE***).
 You can verify by running **config-strings**.
 
-
-
-
-
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
-
-

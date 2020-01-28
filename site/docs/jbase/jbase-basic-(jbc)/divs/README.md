@@ -6,8 +6,7 @@
 **Original ID:** 268484  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **DIVS** function is used to create a dynamic array containing the result of the element-by-element division of two dynamic arrays. It may take the general form:
 
@@ -26,12 +25,6 @@ An example of use is as:
     CRT DIVS(A,B)
 ```
 
-
-
 The output of this program is: 5²3
 
-
-
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
-
-

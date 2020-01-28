@@ -6,7 +6,6 @@
 **Original ID:** 271547  
 **Internal:** No  
 
-
 ## Description
 
 The **FILELOCK** statement is used to acquire a lock on an entire file. This prevents other users from updating the file until the program releases it. It takes the general form:
@@ -21,11 +20,9 @@ When the **FILELOCK** statement is executed, it will attempt to take an exclusiv
 
 When the **FILELOCK** statement is blocked waiting for a lock, other processes may continue to perform database operations on that file, including the removal of record locks and the taking of record locks. Once the **FILELOCK** is taken, it will block ALL database accesses to the file whether or not the access involves record locks. i.e. a [READ](./../read) will block once it has been executed, as will, [CLEARFILE](./../clearfile) etc,. The lock continues until the file is closed, the program terminates, or a [FILEUNLOCK](./../fileunlock) statement is executed.
 
-## Note:
-
+## Note
 
 > The **FILELOCK** statement might differ to those found on other vendors systems. It should also be noted that the use of these statements for other than administration work, for example, within batch jobs, is not recommended. The replacement of such with more judicious use of item locks is advised.
-
 
 The **FILELOCK** command is implemented using the native locking mechanism of the operating system and is entirely at its mercy. Because of this, some slight implementation differences between operating systems might be noticed.
 
@@ -51,8 +48,4 @@ An example of use is as:
  PRINT "The file is locked."
 ```
 
-
-
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
-
-

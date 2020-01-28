@@ -6,8 +6,7 @@
 **Original ID:** 264309  
 **Internal:** No  
 
-
-# Description
+## Description
 
 This command allows BASIC to call any .NET assembly and is useful when using third party applications. It usually takes the form:
 
@@ -21,30 +20,23 @@ Where:
 - **methodName** is the name of the .NET method/ function in this class (e.g., “myMethod”),
 - **Param** is any parameter (eg DynArray).
 
-
-## Note:
-
+## Note
 
 > In order to use **CALLdotNET**, the .NET Framework and the dotNETWrapper.dll must be appropriately installed.
-> 
+>
 > The dotNETWrapper is loaded dynamically at runtime; therefore, a compiled basic application has no dependencies on the .NET Framework. A slight delay may occur when calling the .NET method for the first time.
-
 
 With regard errors that occur during the call at the BASIC level, the [SYSTEM(0)](./../system-functions) variable may be used. The variable can have the following values:
 
-
 | Value  | Description  |
 | --- | --- |
-| 1<br> | Not a Windows platform.<br> |
-| 2<br> | Cannot load the dotNETWrapper<br> |
-| 3<br> | Cannot get assembly<br> |
-| 4<br> | Cannot get Class<br> |
-| 5<br> | Cannot get Class<br> |
-| 6<br> | Cannot Create Instance<br> |
-| 7<br> | Unhandled Error in the .NET library<br> |
-
-
-
+| 1 | Not a Windows platform. |
+| 2 | Cannot load the dotNETWrapper |
+| 3 | Cannot get assembly |
+| 4 | Cannot get Class |
+| 5 | Cannot get Class |
+| 6 | Cannot Create Instance |
+| 7 | Unhandled Error in the .NET library |
 
 Before the **CALLdotNET** function is called, the .NET functions must be first created. This can be accomplished as below:
 
@@ -97,8 +89,6 @@ CALLdotNET "myNameSpace.Class1","sayHello", p SETTING ret
 CRT ret
 ```
 
-
-
 BASIC code using the ON ERROR would look like this:
 
 ```
@@ -121,7 +111,5 @@ errHandler:
      END CASE
      RETURN
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

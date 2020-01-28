@@ -6,7 +6,6 @@
 **Original ID:** 266875  
 **Internal:** No  
 
-
 The **DECATALOG** and **DELETE-CATALOG** commands are used to remove the run-time versions of cataloged jBASE BASIC programs.
 
 The commands take the general form:
@@ -29,7 +28,5 @@ The **DECATALOG** command can be run from an active select list:
 SELECT BP = [TEST]
 >DECATALOG BP
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

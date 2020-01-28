@@ -6,8 +6,7 @@
 **Original ID:** 266854  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The command clears the terminal type-ahead buffer to allow the next **INPUT** statement to force a response from the user. The statement can be used as:
 
@@ -19,12 +18,10 @@ In the following example, the **CLEARINPUT** statement clears the terminal type-
 
 ```
 CLEARINPUT
-PRINT "DO YOU WANT TO DELETE THIS FILE? (Y OR N)"; 
+PRINT "DO YOU WANT TO DELETE THIS FILE? (Y OR N)";
 INPUT X, 1
 ```
 
-# Note:
-
+## Note
 
 > CLEARINPUT command is synonymous with INPUTCLEAR.
-

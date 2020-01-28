@@ -6,8 +6,7 @@
 **Original ID:** 267389  
 **Internal:** No  
 
-
-# Description 
+## Description
 
 The **DATA** statement stacks the series of expressions on a terminal input FIFO stack. Terminal input statements will then treat this data as if entered at the keyboard.
 
@@ -17,13 +16,11 @@ DATA expression {, expression ...}
 
 Where the **expression** may evaluate to any data type; views each comma-separated expression as one line of terminal input.
 
-## Note:
-
+## Note
 
 > The data stacked for input will subsequently be treated as input by any jBASE BASIC program.
-> 
+>
 > Therefore use it before [PERFORM/EXECUTE](./../execute), [CHAIN](./../chain) or any other method of transferring program execution. Use also to stack input for the currently executing program; do not use to stack input back to an executing program.
-
 
 When a jBASE BASIC program detects stacked data, it is taken as keyboard input until the stack is exhausted. The program will then revert to the terminal device for subsequent terminal input.
 
@@ -34,13 +31,12 @@ Stacked data delimited by field marks (xFE) will be treated as a series of separ
     DATA "Y", "N", "CONTINUE" ;* stack input for PROGRAM1
     EXECUTE "PROGRAM1"        ;* execute the program
 ```
+
 ```
     PROGRAM EXAMPLE2
     DATA "Y":@AM:"N":@AM:"CONTINUE"; * stack input for PROGRAM1
     EXECUTE "PROGRAM1"; * execute the program
 ```
-
-
 
 PROGRAM1 can simply be:
 
@@ -52,8 +48,6 @@ PROGRAM1 can simply be:
     CRT reply1, reply2, reply3
 ```
 
-
-
 Running either EXAMPLE1 or EXAMPLE2 will produce the same result:
 
 ```
@@ -61,8 +55,6 @@ jsh ~ -->EXAMPLE1
 Y       N       CONTINUE
 jsh ~ -->
 ```
-
-
 
 See also: [CLEARDATA](./../cleardata)
 

@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='dynamic array operations' vertical='middle' />
 
-# Description
+## Description
 
 The function is used to test if elements of one dynamic array are equal to the elements of another dynamic array. The general form is as:
 
@@ -19,11 +19,9 @@ EQS(array1, array2)
 
 Where **Array1** and **Array2** are both dynamic arrays.
 
-## Note:
-
+## Note
 
 > EQS compares each element of the first array with the corresponding element of the second array, returning a one if the two elements are equal in the corresponding element of a dynamic array. It returns a zero if the two elements are not equal. It returns zero if an element of one dynamic array has no corresponding element in the other dynamic array. If either element of a corresponding pair is null, it returns null for that element.
-
 
 An example of use is as:
 
@@ -35,6 +33,4 @@ PRINT EQS(Arr1 ,Arr2)
 
 The output of this program is: 0]1\0]0
 
-
-
-Back to [JBASE BASIC](./../jbase-basic-programmers-reference-guide).
+Back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

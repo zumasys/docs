@@ -6,8 +6,7 @@
 **Original ID:** 264330  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **CHDIR** function allows the current working directory, as seen by the process environment, to be changed. The function usually takes the form:
 
@@ -25,7 +24,5 @@ Where the **expression** should evaluate to a valid path name within the file sy
          CRT "NON EXISTENT DIRECTORY, SORRY"
      END
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

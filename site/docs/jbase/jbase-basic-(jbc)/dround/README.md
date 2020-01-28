@@ -6,8 +6,7 @@
 **Original ID:** 268491  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **DROUND** function performs double-precision rounding on a value. Double-precision rounding uses two words to store a number, accommodating a larger number than in single-precision rounding, which stores each number in a single word.
 
@@ -20,12 +19,9 @@ Where:
 - **val.expr** specifies the value to round.
 - **precision.expr** specifies the precision for the rounding. The valid range is 0 to 14. Default precision is four places.
 
-
-## Note:
-
+## Note
 
 > **DROUND** affects the internal representation of the numeric value. It performs the rounding without conversion to and from string variables. This increases the speed of calculation.
-
 
 An example of use is as:
 
@@ -35,7 +31,5 @@ An example of use is as:
 ```
 
 The above results in 18.8496 being printed out. The equation is resolved, and rounds the result to four decimal places.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

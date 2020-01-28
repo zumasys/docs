@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='delete from dynamic array' vertical='middle' />
 
-# Description
+## Description
 
 The **DEL** statement is used to remove a specified element of a dynamic array.
 
@@ -19,18 +19,15 @@ DEL variable<expression1{, expression2{, expression3}}>
 
 Where
 
-- ***variable*** can be any previously assigned variable or matrix element. The expressions must evaluate to a numeric value or a runtime error will occur.
-- ***expression1*** specifies the field in the array to operate upon and must be present.
-- ***expression2*** specifies the multivalue within the field to operate upon and is an optional parameter.
-- ***expression3*** is optionally present when expression2 has been included. It specifies which subvalue to delete within the specified multivalue.
+- **variable** can be any previously assigned variable or matrix element. The expressions must evaluate to a numeric value or a runtime error will occur.
+- **expression1** specifies the field in the array to operate upon and must be present.
+- **expression2** specifies the multivalue within the field to operate upon and is an optional parameter.
+- **expression3** is optionally present when **expression2** has been included. It specifies which subvalue to delete within the specified multivalue.
 
-
-## Note:
-
+## Note
 
 > - Truncates non-integer values for any of the expressions to integers.
 > - Ignores invalid numeric values for the expressions without warning The command operates within the scope specified, i.e. if specifying only a field then it deletes the entire field (including its multivalues and subvalues). If specifying a subvalue, then it deletes only the subvalue leaving its parent multivalue and field intact.
-
 
 An example of use is as follows:
 
@@ -45,6 +42,4 @@ An example of use is as follows:
      NEXT I
 ```
 
-
-
-Go back to [JBASE BASIC](./../jbase-basic-programmers-reference-guide).
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

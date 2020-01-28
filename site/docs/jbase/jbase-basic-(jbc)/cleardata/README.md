@@ -6,8 +6,7 @@
 **Original ID:** 266852  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The statement clears data stacked by the [DATA](./../data) statement.
 
@@ -16,7 +15,5 @@ The statement can be used as:
 ```
 CLEARDATA
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

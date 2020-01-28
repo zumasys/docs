@@ -6,8 +6,7 @@
 **Original ID:** 266859  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **CONVERT** function is the function form of the [CONVERT](./../convert-%28statement%29) statement. It performs exactly the same function but may also operate on an expression rather than being restricted to variables. The function takes the general form:
 
@@ -21,16 +20,13 @@ Where:
 - **expression2** is the list of all characters to translate in expression1.
 - **expression3** is the list of characters that will be converted to.
 
-
-# Note:
-
+## Note
 
 > For Prime, Universe and Unidata emulations:
-> 
+>
 > - expression1 is the list of all characters to translate in expression1.
 > - expression2 is the list of characters that will be converted to.
 > - expression3 is the string to which the conversion will apply.
-
 
 Examples of use are as follows:
 
@@ -39,8 +35,6 @@ OLD.VAL = "a,b,c;d,e|f,g;h,i"
 NEW.VAL = CONVERT(OLD.VAL, ";,|", @AM:@VM:@SVM)
 ! NEW.VAL now contains a]b]c^d]e\f]g^h]i
 ```
-
-
 
 See also: [CONVERT Statement](./../convert-%28statement%29).
 

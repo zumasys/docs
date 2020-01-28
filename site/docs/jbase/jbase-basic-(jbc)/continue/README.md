@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='program control' vertical='middle' />
 
-# Description
+## Description
 
 The **CONTINUE** statement is the complimentary statement to the [BREAK](./../break) statement, without arguments. If used within a loop, program execution will skip the remaining code after the ‘continue’ statement in the current iteration and proceed directly on to the next iteration.
 
@@ -25,8 +25,6 @@ An example of use is as:
 ```
 
 The above example will execute the loop 30 times but will only print the value of I when I is a prime number.
-
-
 
 See also: [BREAK](./../break), [EXIT](./../exit)
 

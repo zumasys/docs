@@ -23,6 +23,4 @@ IF FatalError = TRUE THEN
 END
 ```
 
-
-
 Go back to [JBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='string casing' vertical='middle' />
 
-# Description
+## Description
 
 **DOWNCASE** converts all uppercase characters in an expression to lowercase characters.
 
@@ -29,8 +29,4 @@ Where **expression** in a string containing some alphabetic characters. It igno
 
 When used in International Mode, the conversion from upper case to lower case or vice versa will be determined for each character in the expression by the Unicode standard, which describes the up or down case properties for the character.
 
-
-
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
-
-

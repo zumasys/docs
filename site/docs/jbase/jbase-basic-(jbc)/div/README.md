@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='mathematical operations' vertical='middle' />
 
-# Description
+## Description
 
 The **DIV** function is used to calculate the value of the quotient after division of the dividend by the divisor.
 
@@ -27,10 +27,6 @@ QUOTIENT = DIV(DIVIDEND, DIVISOR)
 PRINT QUOTIENT
 ```
 
-
-
 The above will output '0.2'.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -6,8 +6,7 @@
 **Original ID:** 266850  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The statement initializes all unnamed common variables to a value of zero.
 

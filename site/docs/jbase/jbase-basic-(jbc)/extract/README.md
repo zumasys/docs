@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='dynamic arrays manipultation' vertical='middle' />
 
-# Description
+## Description
 
 The **EXTRACT** function is an alternative method of accessing values in a dynamic array other than using the &lt;n,n,n&gt; syntax. It takes the general form:
 
@@ -24,12 +24,9 @@ Where:
 - **expression3** the value to extract and ,
 - **expression4** the subvalue to extract.
 
-
-## Note:
-
+## Note
 
 > expressions 2 through 4 should all return a numeric value or a runtime error will occur and the program will enter the debugger.
-
 
 An example of use is as:
 
@@ -39,7 +36,5 @@ An example of use is as:
 ```
 
 to display the value "1".
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

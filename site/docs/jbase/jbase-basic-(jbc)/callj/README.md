@@ -11,7 +11,7 @@
 <badge text='java' vertical='middle' />
 <badge text='callj' vertical='middle' />
 
-# Description
+## Description
 
 The **CALLJ** command allows BASIC to call a Java method. **CALLJ** is useful when using third party applications offering a Java API (for example, publish and subscribe, messaging, etc.). The command may be used as:
 
@@ -25,20 +25,16 @@ Where:
 - **methodName** is the name of the Java method in this class (e.g., “myMethod”)
 - **param** is a String parameter (e.g., DynArray)
 
-
-## Note:
-
+## Note
 
 > If the method is static,  a ‘$' must appended before the name.  This ‘$’ will be removed from the method name before calling it.
-> 
+>
 > In order to use **CALLJ**, a Java virtual machine must be present, a CLASSPATH environment variable must be set to point to the class to be invoked.
-
 
 The Java virtual machine is loaded dynamically at run-time, so a compiled basic application has no dependencies on any Java virtual machine. By default, the program will search for:
 
 - jvm.dll on Windows platforms
 - libjvm.so for other platforms
-
 
 Although it is not always necessary, it is possible to specify a Java library by setting the JBCJVMLIB environment variable:
 
@@ -58,19 +54,15 @@ In addition, calls to non static methods carry the overhead of calling the const
 
 With regard errors, the [SYSTEM(0)](./../system-functions) variable may be used to manage any errors at the BASIC level which occur during the call. This variable can have the following values:
 
-
 | Value | Description |
 | --- | --- |
-| 1<br> | Fatal error creating thread<br> |
-| 2<br> | Cannot create JVM<br> |
-| 3<br> | Cannot find class<br> |
-| 4<br> | Unicode conversion error<br> |
-| 5<br> | Cannot find method<br> |
-| 6<br> | Cannot find object constructor<br> |
-| 7<br> | Cannot instantiate object<br> |
-
-
-
+| 1 | Fatal error creating thread |
+| 2 | Cannot create JVM |
+| 3 | Cannot find class |
+| 4 | Unicode conversion error |
+| 5 | Cannot find method |
+| 6 | Cannot find object constructor |
+| 7 | Cannot instantiate object |
 
 Before the java method can be called, it must first be created in Java:
 
@@ -129,8 +121,6 @@ jBASE BASIC code using the ON ERROR will look like this:
      RETURN
 ```
 
-
-
 The **CALLJ** function provides access to a Java VM from within the BASIC environment. For it to be able to start a JavaVM (JVM) the environment needs to know where the JVM is located. Specifically it needs to know where certain libraries are located.
 
 Here's another, much simpler, example:
@@ -160,7 +150,7 @@ The result of running the jBC **starwars** program:
 Yoda says: "The best teacher, failure is!"
 ```
 
-# Troubleshooting
+## Troubleshooting
 
 If the program is unable to load the class: first test that the native **java** command line program can load the class (it will be necessary to add a *public static void main* method) .
 
@@ -173,7 +163,5 @@ If the above fails check the **CLASSPATH**.
 If **JBCJVMLIB** is not yet defined, set it to the jvm library from the same java version the class(es) is being compiled.
 
 If you get a return code of "6" and you can successfully test your class/method using generic java, check that your method only has a String as the argument and also returns a String.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

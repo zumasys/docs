@@ -10,7 +10,7 @@
 <badge text='xmlto' vertical='middle' />
 <badge text='toxml' vertical='middle' />
 
-# Description
+## Description
 
 This function converts an array to an xml representation of the array. An optional transform may be included as a second argument. It takes the general form:
 
@@ -42,7 +42,5 @@ to display the following to the screen.
 <data attribute="3" value="1" subvalue="1">Harry</data>
 </array>
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

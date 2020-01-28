@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='character conversion' vertical='middle' />
 
-# Description
+## Description
 
 This function converts all the characters in an expression from the ASCII character set to the **EBCDIC** character set. It takes the general form:
 
@@ -27,7 +27,5 @@ An example of use may be as:
      ascii_expression = "?m@?&???"
      CRT EBCDIC(ascii_expression)
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

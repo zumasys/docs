@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='file operations' vertical='middle' />
 
-# Description
+## Description
 
 Use the **FILEINFO** function to return information about the specified file variable. It takes the general form:
 
@@ -28,9 +28,5 @@ This function is currently limited to return values to determine if the file var
          CRT "INVALID INFORMATION"
      END
 ```
-
-
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -6,8 +6,7 @@
 **Original ID:** 269198  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **EXECUTE** or **PERFORM** statement allows the currently executing program to pause and execute another program. This may be any program, including another jBASE BASIC program or a jBASE command.
 
@@ -27,14 +26,11 @@ where:
 - Use of the **PASSDATA** clause passes the data in the specified variable to another jBASE BASIC program. The executing jBASE BASIC program should retrieve the data using the [COLLECTDATA](./../collectdata) statement.
 - The [RTNDATA](./../rtndata) statement returns any data passed from an executing jBASE BASIC program in the specified variable. The executing jBASE BASIC program should use the [RTNDATA](./../rtndata) statement to pass data back to the calling program.
 
-
-## Note:
-
+## Note
 
 > The clauses may be specified in any order within the statement but only one of each clause may exist.
-> 
+>
 > Variables used to pass data to the executed program should have been assigned to a value beforehand, any variable name may be used to receive data.
-
 
 The statement not only Passes Data, Dynamic Arrays and lists to programs written in jBASE BASIC, but makes it possible to intercept screen output and error messages from any program.
 
@@ -45,10 +41,4 @@ PERFORM "MyProg" SETTING ErrorList PASSLIST
 EXECUTE "ls" CAPTURING DirListing
 ```
 
-
-
 Go back to[jBASE BASIC](./../jbase-basic-programmers-reference-guide).
-
-
-
-

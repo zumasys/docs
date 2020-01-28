@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='lists' vertical='middle' />
 
-# Description 
+## Description 
 
 The **DELETELIST** statement will delete the previously stored list named by expression.
 
@@ -27,7 +27,5 @@ DELETELIST List
 ```
 
 The above will delete the pre-saved list called JobList.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='sequential files' vertical='middle' />
 
-# Description
+## Description
 
 The **DELETESEQ** statement deletes a sequential file. It takes the general form:
 
@@ -28,8 +28,5 @@ Where:
 - **Expression** specifies the variable to contain next record from sequential file.
 - **FileVar** specifies the file descriptor of the file opened for sequential access.
 - **Statements** are conditional jBASE BASIC statements.
-
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
