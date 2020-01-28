@@ -66,7 +66,7 @@ With regard errors, the [SYSTEM(0)](./../system-functions) variable may be used 
 
 Before the java method can be called, it must first be created in Java:
 
-```
+``` Java
     package mypackage;
     public class mytestclass {
         static int i = 0;
@@ -132,7 +132,7 @@ Here's another, much simpler, example:
      CRT return_value
 ```
 
-```
+``` Java
     public class StarWars
     {
         public String jediQuote( String recvValue )
