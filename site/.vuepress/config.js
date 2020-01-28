@@ -9,6 +9,13 @@ module.exports = {
       "@vuepress/search": {
         searchMaxSuggestions: 10
       },
+      '@vssue/vuepress-plugin-vssue': {
+        platform: 'github', // set `platform` rather than `api`
+        owner: 'zumasys',
+        repo: 'docs',
+        clientId: process.VUE_APP_GITHUB_CLIENT_ID,
+        clientSecret: process.VUE_APP_GITHUB_CLIENT_SECRET
+      }
   },
   themeConfig: {
     logo: "/assets/img/logo-grey.png",

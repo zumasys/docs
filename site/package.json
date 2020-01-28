@@ -23,7 +23,7 @@
   "homepage": "https://github.com/zumasys/docs#readme",
   "dependencies": {
     "@vssue/api-github-v3": "^1.4.0",
-    "vssue": "^1.4.2",
+    "@vssue/vuepress-plugin-vssue": "^1.4.2",
     "vuepress": "^1.2.0"
   }
 }
