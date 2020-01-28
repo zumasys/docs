@@ -5,14 +5,11 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-  plugins: [
-    [
-      "@vuepress/search",
-      {
+  plugins: {
+      "@vuepress/search": {
         searchMaxSuggestions: 10
-      }
-    ]
-  ],
+      },
+  },
   themeConfig: {
     logo: "/assets/img/logo-grey.png",
     nav: [
