@@ -6,8 +6,7 @@
 **Original ID:** 275993  
 **Internal:** No  
 
-
-# Description
+## Description
 
 Writes all the buffers for a sequential I/O file immediately. Normally, sequential I/O uses buffering for input/output operations, and writes are not immediately flushed. It takes the general form:
 
@@ -37,7 +36,5 @@ WRITESEQ 'This is a new entry' ON FILE THEN
     CLOSESEQ FILE
 END
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
