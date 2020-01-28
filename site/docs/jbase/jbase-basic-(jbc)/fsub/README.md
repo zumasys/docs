@@ -10,7 +10,7 @@
 <badge text='mathematical operations' vertical='middle' />
 <badge text='floating point operations' vertical='middle' />
 
-# Description
+## Description
 
 The **FSUB** function performs floating-point subtraction on two numeric values. It takes the general form:
 
@@ -27,7 +27,5 @@ An example of use is as:
 ```
 
 To display: -3.163358
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

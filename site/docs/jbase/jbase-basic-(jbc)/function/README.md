@@ -6,8 +6,7 @@
 **Original ID:** 284344  
 **Internal:** No  
 
-
-# Description
+## Description
 
 Identifies a user-defined function, which can be invoked by other jBASE BASIC programs. Arguments to the function can optionally be declared. It takes the general from:
 
@@ -36,7 +35,5 @@ FUNCTION MyFunction(A, B)
 Result = A * B
 RETURN (Result)
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

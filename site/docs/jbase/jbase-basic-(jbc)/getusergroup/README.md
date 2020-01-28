@@ -6,8 +6,7 @@
 **Original ID:** 276069  
 **Internal:** No  
 
-
-# Description
+## Description
 
 For UNIX, the jBC function **GETUSERGROUP** returns the group number for the user ID specified by @uid. It takes the general form:
 
@@ -20,7 +19,5 @@ An example of use is the assignment of the user group to a variable as:
 ```
 VAR_GRP = GETUSERGROUP(@UID)
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

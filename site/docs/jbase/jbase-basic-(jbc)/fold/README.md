@@ -6,8 +6,7 @@
 **Original ID:** 284339  
 **Internal:** No  
 
-
-# Description 
+## Description
 
 The **FOLD** function segments a text string by replacing spaces with  a delimiter at positions defined by a length parameter. See Notes below for differences between the 2-parameter and 3-parameter versions.
 
@@ -25,9 +24,7 @@ Where:
 
 The **FOLD** function creates a number of sub-strings such that the length of each sub-string does not exceed the length value in **expression2**. It converts spaces to attribute marks except when enclosed in sub-strings and removes extraneous spaces.
 
-
-
-# Examples
+## Examples
 
 Note that "^" represents an Attribute Mark and "]" represents a Value Mark.
 
@@ -74,12 +71,10 @@ Space the]final]frontier
 Space the;final;frontier
 ```
 
-# Notes
+## Notes
 
 The 3-parameter version of FOLD() is new as of jBASE release 5.6.2. The original 2-parameter version of FOLD() has some ideosyncracies, including allowing a field to be generated the wrong width. The new 3-parameter version of FOLD() fixes these problems, however the original 2-parameter version will continue to work as before for backward compatibility.
 
 The 2-parameter version replaces spaces with attribute marks, CHAR(254). The 3-parameter version replaces spaces with value marks, CHAR(253), if and only if the 3rd parameter is null. See the last example above.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

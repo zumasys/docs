@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='gosubstackdepth' vertical='middle' />
 
-# Description
+## Description
 
 The **GOSUB** statement causes execution of a local subroutine, after which execution will continue with the next line of code.
 
@@ -19,15 +19,9 @@ GOSUB label
 
 Where **label** refer to an existing label within the current source code.
 
-
-
-## Notes: 
-
+## Notes
 
 > The compiler does not check for the existence of a [RETURN](./../return) statement and if no [RETURN](./../return) statement is encountered the program will continue until the final statement and not return to the original **GOSUB**.
-
-
-
 
 An example of use is as:
 
@@ -49,7 +43,5 @@ Finish: * clean up after execution
 ......
 RETURN
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -11,7 +11,7 @@
 <badge text='devices' vertical='middle' />
 <badge text='data' vertical='middle' />
 
-# Description
+## Description
 
 The **GET** statement reads a block of data directly from a device. It takes the general form:
 
@@ -29,21 +29,14 @@ Where:
 - **TermChar** is the character that terminated input
 - **Timeout** is the number of seconds to wait for input. If no input is present when the timeout period expires, the ELSE clause (if specified) is executed.
 
-
-## Note:
-
+## Note
 
 > The **GET** statement does no pre-or post-processing of the input data stream - nor does it handle any terminal echo characteristics. If this is desired, the application - or device drive - will handle it.
-> 
+>
 > If there are no specified length and timeout expressions, the default input length is one (1) character. If no length is specified, but TermChars are, there is no limit to the number of characters input.
-> 
+>
 > The **GET** syntax requires a specified THEN or ELSE clause, or both. The THEN clause executes when the data received is error free; the ELSE clause executes when the data is unreceiveable (or a timeout occurs).
-
-
-
 
 See also: [GETX](./../getx)
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
-
-

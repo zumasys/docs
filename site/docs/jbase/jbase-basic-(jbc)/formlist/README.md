@@ -6,8 +6,7 @@
 **Original ID:** 275992  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **FORMLIST** statement creates an active select list from a dynamic array. It takes the general form:
 
@@ -21,14 +20,13 @@ Where:
 - If **variable2** is specified, then the newly created list will be placed in the variable.
 - Alternatively, a select list number in the range 0 to 10 can be specified with **listnum**.
 
-
 If neither **variable2** nor **listnum** is specified then the default list variable will be assumed.
 
 An example of use is as:
 
 ```
 ARR_VAR = "key3":@AM:"key4":@AM:"key5"
-FORMLIST ARR_VAR TO LIST_VAR 
+FORMLIST ARR_VAR TO LIST_VAR
 LOOP
     READNEXT Key FROM LIST_VAR ELSE EXIT
     READ Item FROM Key THEN
@@ -36,8 +34,6 @@ LOOP
     END
 REPEAT
 ```
-
-
 
 See also: [DELETELIST](./../deletelist), [READLIST](./../readlist), [WRITELIST](./../writelist)
 

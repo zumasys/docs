@@ -6,8 +6,7 @@
 **Original ID:** 276058  
 **Internal:** No  
 
-
-# Description
+## Description
 
 **GETLIST** allows the program to retrieve a previously stored list (perhaps created with the **SAVE-LIST** command), into a variable. It takes the general form:
 
@@ -22,7 +21,6 @@ Where:
 - If specified, **variable2** will be set to the number of elements in the list.
 - If the statement succeeds in retrieving the list, then the statements associated with any THEN clause will be executed. If the statement fails to find the list, then the statements associated with any ELSE clause will be executed.
 
-
 The **GETLIST** statement is identical in function to the [READLIST](./../readlist) statement.
 
 An example of use is as:
@@ -35,10 +33,6 @@ LOOP WHILE READNEXT Key FROM MyList DO
 REPEAT
 ```
 
-
-
 See also: [DELETELIST](./../deletelist), [WRITELIST](./../writelist)
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
-
-

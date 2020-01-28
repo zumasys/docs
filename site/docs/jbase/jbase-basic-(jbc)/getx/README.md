@@ -6,8 +6,7 @@
 **Original ID:** 276073  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **GETX** statement reads a block of data (in ASCII hexadecimal format) directly from a device. This can take the general form:
 
@@ -25,20 +24,15 @@ Where:
 - **TermChar** The actual character that terminated input
 - **Timeout** is the number of seconds to wait for input. If no input is present when the timeout period expires, the ELSE clause (if specified) is executed.
 
-
-## Note:
-
+## Note
 
 > The **GETX** statement does no pre or post processing of the input data stream nor does it handle any terminal echo characteristics. It is assumed that if this is desired the application - or device driver – will handle it.
-
 
 If there are no specified length and timeout expressions, the default input length is one (1) character. If there is no length specified, but TermChars is specified, there is no limit to the number of characters input.
 
 The **GETX** syntax requires a specified THEN or ELSE clause, or both. The THEN clause executes when the data received is error free; the ELSE clause executes when the data is unreceiveable (or a timeout occurs).
 
 **GETX** will convert all input into ASCII hexadecimal format after input.
-
-
 
 See also: [GET](./../get)
 

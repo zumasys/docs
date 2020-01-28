@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='grouping' vertical='middle' />
 
-# Description
+## Description
 
 The **GROUP** function is equivalent to the [FIELD](./../field) function. It takes the general form:
 
@@ -24,12 +24,9 @@ Where:
 - **Expression3** should evaluate to a numeric value specifying the number of the first field to extract from **Expression1,**
 - **Expression4** evaluates to a numeric value specifying the number of fields to extract as a group.
 
-
-## Note: 
-
+## Note
 
 > **Expression2** may evaluate to more than a single character allowing fields to be delimited with complex expressions.
-
 
 An example of use is as:
 
@@ -45,7 +42,5 @@ to display:
 ```
 
 on the terminal being the second and third fields and their delimiter within variable A .
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

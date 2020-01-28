@@ -6,8 +6,7 @@
 **Original ID:** 279813  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **FOR** statement allows the construction of looping constructs within the program, which is controlled by a counting variable; this can be terminated early by expressions tested after every
 iteration.
@@ -15,7 +14,7 @@ iteration.
 It takes the general form:
 
 ```
-FOR var=expression1 TO expression2 {STEP expression3} 
+FOR var=expression1 TO expression2 {STEP expression3}
 {WHILE | UNTIL expression4}...NEXT {var}
 ```
 
@@ -40,8 +39,6 @@ FOR I = 1 TO 20 STEP 2
     CRT I
 NEXT I
 ```
-
-
 
 See also: [BREAK](./../break), [CONTINUE](./../continue).
 

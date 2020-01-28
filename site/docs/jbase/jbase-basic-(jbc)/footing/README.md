@@ -6,8 +6,7 @@
 **Original ID:** 284341  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **FOOTING** statement halts all subsequent output to the terminal at the end of each output page. It takes the general from:
 
@@ -30,7 +29,6 @@ The following characters have special meaning within the string:
 - "T" or \ replace with the current time and date
 - " replace with a single " character
 
-
 The statement allows the evaluation and display of an expression at the foot of each page. Output, which is current, and being sent to the terminal, the output is paused until the entry of a carriage return at the terminal (unless the N option is specified either in the current [HEADING](./../heading) or in this **FOOTING**).
 
 If the output is to the printer a [PRINTER ON](./../printer) statement is in force; output sent to the terminal with the [CRT](./../crt) statement is not paged; if output is to the terminal then all output is paged.
@@ -40,7 +38,5 @@ An example of use is as:
 ```
 FOOTING 'Programming staff by weight Page "P"'
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

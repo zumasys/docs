@@ -6,8 +6,7 @@
 **Original ID:** 284338  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **FMTS** function may be used to format elements of dynamic.array for output. Each element of the array is independently acted upon and returned as an element in a new dynamic array. The function takes the general form:
 
@@ -27,9 +26,6 @@ If dynamic.array evaluates to null, it returns null. If format evaluates to null
 - GE OPERATOR SIMILAR TO eq. compares two expressions for greater than or equal
 - GT As Above, except Greater than
 - GTS Add as per GES, except just greater than for dynamic array expression [FMUL](./../fmul)/[FDIV](./../fdiv)/[FADD](./../fadd)/[FSUB](./../fsub).
-
-
-
 
 See also: [FMT function](./../fmt).
 
