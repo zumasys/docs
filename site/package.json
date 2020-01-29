@@ -24,6 +24,7 @@
   "dependencies": {
     "@vssue/api-github-v3": "^1.4.0",
     "@vssue/vuepress-plugin-vssue": "^1.4.2",
+    "dotenv": "^8.2.0",
     "vuepress": "^1.2.0"
   }
 }
