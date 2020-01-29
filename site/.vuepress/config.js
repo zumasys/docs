@@ -1,9 +1,18 @@
+//.vuepress/config.js
+require('dotenv').config()
+const webpack = require('webpack')
+
 module.exports = {
   head: [["link", { rel: "icon", href: "/assets/img/favicon.ico" }]],
   title: "Beta Documentation",
   description: "New home for docs!",
   markdown: {
     lineNumbers: true
+  },
+  configureWebpack: (config) => {
+    return { plugins: [
+      new webpack.EnvironmentPlugin({ ...process.env })
+    ]}
   },
   plugins: {
       "@vuepress/search": {
@@ -13,10 +22,11 @@ module.exports = {
         platform: 'github', // set `platform` rather than `api`
         owner: 'zumasys',
         repo: 'docs',
-        clientId: process.VUE_APP_GITHUB_CLIENT_ID,
-        clientSecret: process.VUE_APP_GITHUB_CLIENT_SECRET
+        clientId: process.env.VUE_APP_GITHUB_CLIENT_ID, //'8896d1734b2a82212c63',
+        clientSecret: process.env.VUE_APP_GITHUB_CLIENT_SECRET //'e3291416600be104bb6dda34b591ceb29d7522ce'
       }
   },
+  //theme: 'theme',
   themeConfig: {
     logo: "/assets/img/logo-grey.png",
     nav: [
