@@ -6,7 +6,6 @@
 **Original ID:** 284138  
 **Internal:** No  
 
-
 ## Description
 
 The NEG function is used to invert the arithmetic value of an **expression**. It takes the general form:
@@ -26,7 +25,5 @@ CRT NEG(A-B)
 ```
 
 to display the value 2.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide)

@@ -6,8 +6,7 @@
 **Original ID:** 276997  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **NULL** statement performs no function but can be useful in clarifying syntax and where the language requires a statement but the programmer does not wish to perform any actions. It takes the general form:
 
@@ -20,7 +19,5 @@ An example is as:
 ```
 LOCATE A IN B SETTING C ELSE NULL
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

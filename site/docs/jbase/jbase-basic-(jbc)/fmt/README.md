@@ -32,19 +32,19 @@ Where **var** is the element to which the **mask code** is to be applied, and th
 
 An example of use is as:
 
-```
-     VAL = 321456
-     CRT FMT(VAL, 'L2%3')
-     CRT DQUOTE( FMT(VAL, 'R2#10') )
-     CRT FMT(VAL , 'L2%10')
-     CRT FMT(VAL, 'R2%10')
-     CRT FMT(VAL, 'L2*10')
-     CRT FMT(VAL, 'R2*10')
+``` basic
+VAL = 321456
+CRT FMT(VAL, 'L2%3')
+CRT DQUOTE( FMT(VAL, 'R2#10') )
+CRT FMT(VAL , 'L2%10')
+CRT FMT(VAL, 'R2%10')
+CRT FMT(VAL, 'L2*10')
+CRT FMT(VAL, 'R2*10')
 ```
 
 to output the following to the screen:
 
-```
+``` bash
 321
 " 321456.00"
 321456.000

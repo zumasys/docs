@@ -6,8 +6,7 @@
 **Original ID:** 277003  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **NUMS** function is used to determine whether the elements of a dynamic array are numeric or non-numeric strings. The function takes the general form:
 
@@ -21,10 +20,8 @@ The **NUMS** of a numeric element with a decimal point ( . ) evaluates to true; 
 
 If **dynamic.array** evaluates to null, it returns null. If an element of **dynamic.array** is null, it returns null for that element.
 
-### **INTERNATIONAL MODE**
+### International Mode
 
 When using the **NUMS** function in International Mode, the statement will use the Unicode Standard to determine whether an expression is numeric.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

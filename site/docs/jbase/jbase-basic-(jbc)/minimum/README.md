@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='dynamic arrays' vertical='middle' />
 
-# Description
+## Description
 
 This function returns the element of a dynamic array with the lowest numerical value. It takes the general form:
 
@@ -17,7 +17,7 @@ This function returns the element of a dynamic array with the lowest numerical v
 MINIMUM(DynArr)
 ```
 
-Where  **DynArr** should evaluate to a dynamic array.
+Where **DynArr** should evaluate to a dynamic array.
 
 Null dynamic array elements are treated as zero. Non-numeric dynamic array elements are ignored. If the lowest number is less than zero then it is returned with a leading zero, e.g. 0.42
 
@@ -32,8 +32,6 @@ An example of use would be as:
 ```
 
 to display 6
-
-
 
 See also: [MAXIMUM.](./../maximum)
 

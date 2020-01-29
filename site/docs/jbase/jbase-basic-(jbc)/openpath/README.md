@@ -10,7 +10,7 @@
 <badge text='record handling' vertical='middle' />
 <badge text='file handling' vertical='middle' />
 
-# Description
+## Description
 
 The **OPENPATH** statement opens a file (given an absolute or relative path) to a descriptor variable within jBASE BASIC.
 
@@ -24,18 +24,13 @@ Where:
 - If specified, **variable** will be used to hold the descriptor for the file. It should then be to access the file using [READ](./../read) and [WRITE](./../write). If no file descriptor variable is supplied, then the file will be opened to the default file descriptor,
 - If the **OPENPATH** statement fails it will execute any **statements** associated with an **ELSE** clause. If successful, the **OPENPATH** will execute any **statements** associated with a **THEN** clause. The syntax requires either one or both of the **THEN** and **ELSE** clauses.
 
-
 If the **SETTING** clause is specified and the open fails, setvar will be set to one of t[hese values](./../incremental-file-errors).
 
-
-
-## Note:
-
+## Note
 
 > The path specified may be either a relative or an absolute path and must include the name of the jBASE file being opened.
-> 
+>
 > The file that is the subject of the **OPENPATH** statement can be of any type known to the jBASE system. Its type will be determined and correctly opened transparently to the application, which need not be aware of the file type.
-
 
 A jBASE BASIC program can open an unlimited amount of files.
 
@@ -52,8 +47,6 @@ OPEN "F:\Users\data\CUSTOMERS" ELSE ABORT 201, "CUSTOMERS"
 ```
 
 to open the CUSTOMERS file (located in F:\Users\data) to the default file variable.
-
-
 
 See also: [OPEN](./../open) statement.
 

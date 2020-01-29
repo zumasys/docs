@@ -11,7 +11,7 @@
 <badge text='file indexing' vertical='middle' />
 <badge text='record handling' vertical='middle' />
 
-# Description
+## Description
 
 The **OPENINDEX** statement is used to open a particular index definition for a particular file. This index file variable can later be used with the [SELECT](./../select) statement. It takes the general form:
 
@@ -25,21 +25,9 @@ Where:
 - **indexname** should correspond to an index created for the filename,
 - **indexvar** is the variable that holds the descriptor for the index.
 
-
 If the [OPEN](./../open) statement fails it will execute any statements associated with an **ELSE** clause. If the [OPEN](./../open) is successful it will execute any statements associated with a **THEN** clause. Note that the syntax requires either one or both of the **THEN** and **ELSE** clauses.
 
-If the **SETTING** clause is specified and the open fails, setvar will be set to one of the following values:
-
-
-| Code<br> | Description<br> |
-| --- | --- |
-| 128<br> | No such file or directory<br> |
-| 4096<br> | Network error<br> |
-| 24576<br> | Permission denied<br> |
-| 32768<br> | Physical I/O error or unknown error<br> |
-
-
-
+If the **SETTING** clause is specified and the open fails, setvar will be set to one of be set to one of [these values](./../incremental-file-errors).
 
 An example of use is as:
 
@@ -49,7 +37,5 @@ OPENINDEX "CUSTOMER","IXLASTNAME" TO custlastname.ix SETTING errval ELSE
     ABORT
 END
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
