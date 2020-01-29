@@ -11,7 +11,7 @@
 <badge text='query language' vertical='middle' />
 <badge text='jql' vertical='middle' />
 
-# Description
+## Description
 
 **JQLPUTPROPERTY**sets a property in a compiled jQL statement. It takes the general form:
 
@@ -26,16 +26,13 @@ Where:
 - **Column** holds 0 for a general property of the statement, or a column number if it is something that can be set for a specific column.
 - **PropertyName**  are **EQUATED** values defined by **INCLUDE**’ing the file JQLINTERFACE.h.
 
-
 This function returns -1 if it locates a problem in the statement and zero for no problem.
 
-## Note: 
-
+## Note
 
 > Properties are valid after the compile; this is the main reason for separating the compile and execute into two functions. After compiling, it is possible to examine the properties and set properties before executing.
-> 
+>
 > It should also be noted that some properties may require [JQLEXECUTE](./../jqlexecute) first.
-
 
 For a practical example of use, see the **jexport.b** program in the **$JBCRELELEASEDIR**/samples/JQLBASIC directory.
 

@@ -9,15 +9,13 @@
 **Tags:**
 <badge text='system time' vertical='middle' />
 
-# Description
+## Description
 
 The function generates a timestamp using a combination of **Internal Date**, **Internal Time** and **Timezone**. This takes the general form:
 
 ```
 MAKETIMESTAMP(InternalDate, InternalTime, TimeZone)
 ```
-
-
 
 The function to generates a timestamp using a specified **Timezone**. The **Internal Date** and **Internal Time** values are combined together with the time zone specification to return a UTC timestamp as decimal seconds.
 

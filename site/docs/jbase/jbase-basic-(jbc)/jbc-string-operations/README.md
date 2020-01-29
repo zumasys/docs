@@ -1,5 +1,4 @@
-# 
-jBC String Operations
+# jBC String Operations
 
 **Created At:** 9/26/2018 12:48:52 PM  
 **Updated At:** 10/31/2018 8:08:37 AM  
@@ -30,7 +29,6 @@ Where:
 - x is the starting position
 - y is specifies the substring length
 
-
 If x = 0 then 1 is assumed.
 If x &gt; 0 then the starting position is x.
 If x &lt; 0 then the starting position is taken x characters from the end of the string.
@@ -41,8 +39,7 @@ If y = 0 then '' is returned.
 If y &gt; 0 then y characters are extracted starting at position x. If y is greater than the remaining characters in the string then all characters up to the end of the string are returned.
 If y &lt; 0 then the pointer is positioned y characters from the end of the string (i.e. LEN(stringvalue) - y + 1), and the substring is taken up to that position.
 
-## 
-Examples
+## Examples
 
 Given the strings:
 
@@ -63,10 +60,6 @@ s[1,0] returns ''
 
 s[-22,1] = t returns "Anyone who needs a will just isn't spending all of their money properly." to s.
 
-
-
-## Note:
-
+## Note
 
 > Negative substring operations are not available in all emulations. Consult your legacy manual.]
-

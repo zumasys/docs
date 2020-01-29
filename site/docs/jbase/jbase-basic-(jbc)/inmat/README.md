@@ -6,8 +6,7 @@
 **Original ID:** 284346  
 **Internal:** No  
 
-
-# Description 
+## Description
 
 The **INMAT** function returns the number of dimensioned array elements. It takes the general from:
 
@@ -32,7 +31,5 @@ END
 ```
 
 This returns the number of elements in the CUSTRECarray to the variable CUSTREC.ELEMENTS.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

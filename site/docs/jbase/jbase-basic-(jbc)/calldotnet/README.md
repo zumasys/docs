@@ -18,7 +18,7 @@ Where:
 
 - **NameSpaceAndClassName** is the “full” NameSpace (e.g.,MyNameSpace.MyClass),
 - **methodName** is the name of the .NET method/ function in this class (e.g., “myMethod”),
-- **Param** is any parameter (eg DynArray).
+- **Param** is any parameter (e.g., DynArray).
 
 ## Note
 
@@ -42,7 +42,7 @@ Before the **CALLdotNET** function is called, the .NET functions must be first c
 
 In C#:
 
-```
+``` C#
     using System;
     using System.Windows.Forms;
     namespace myNameSpace
@@ -60,7 +60,7 @@ In C#:
 
 In VB.NET:
 
-```
+``` VB
     Namespace myNameSpace
         Public Class Class1
             Public Function sayHello(ByVal str As String) As String
@@ -72,7 +72,7 @@ In VB.NET:
     End Namespace
 ```
 
-It is important that the .NET project be created as a ‘Class Library’. If using the visual studio IDE, this option is selected when creating a new project. If using .NET SDK (instead of the IDE) to compile class libraries into a ‘DLL’ file, the ‘csc’ (C# Compiler) or ‘vbc’ (Visual Basic .NET compiler) command can be used from the command line:
+It is important that the .NET project be created as a ‘Class Library’. If using the Visual Studio IDE, this option is selected when creating a new project. If using .NET SDK (instead of the IDE) to compile class libraries into a ‘DLL’ file, the ‘csc’ (C# Compiler) or ‘vbc’ (Visual Basic .NET compiler) command can be used from the command line:
 
 ```
 csc /out:myNameSpace.dll /target:library sourcefile.cs

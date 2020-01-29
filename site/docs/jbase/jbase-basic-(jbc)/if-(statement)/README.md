@@ -18,7 +18,7 @@
 <badge text='program control' vertical='middle' />
 <badge text='program execution ' vertical='middle' />
 
-# Description
+## Description
 
 Allows for the conditional execution of some statements. It takes the general form:
 
@@ -32,7 +32,6 @@ Where:
 - If the **expression** is **TRUE**, the statements defined by the **THEN** clause will execute (if present).
 - If the **expression** is **FALSE**, the statements defined by the **ELSE** clause, if any will execute.
 - The **THEN** and **ELSE** clauses may take two different forms being single and multiple line statements.
-
 
 The simplest form of either clause is of the form:
 
@@ -74,7 +73,5 @@ An example of use is as:
          CRT "File delete was ignored"
      END
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

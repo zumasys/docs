@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='string handling' vertical='middle' />
 
-# Description
+## Description
 
 The **LEFT()** function extracts a sub-string of a specified length from the beginning of a string.
 
@@ -22,14 +22,9 @@ Where:
 - **expression** evaluates to the string from which the sub string is extracted.
 - **length** is the number of extracted characters if length is less than 1, **LEFT()** returns null.
 
-
-
-
-## Note:
-
+## Note
 
 > The **LEFT** function is equivalent to sub-string extraction starting from the first character position, i.e. expression[1,length]
-
 
 An example of use is as:
 
@@ -49,8 +44,6 @@ Today's Brush
 ```
 
 to the screen.
-
-
 
 See also: [RIGHT](./../right)
 

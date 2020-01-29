@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='dynamic arrays' vertical='middle' />
 
-# Description
+## Description
 
 The **MATPARSE** statement is used to assign the elements of a matrix from the elements of a dynamic array. It takes the general form:
 
@@ -26,7 +26,6 @@ where:
 - As assignment will stop when the contents of the **dynamic array** have been exhausted, it can be useful to determine the number of matrix elements that were actually assigned to.
 - If the **SETTING** clause is specified then **variable2** will be set to the number of elements of the array that were assigned to.
 
-
 When specifying starts and end positions with multi-dimensional arrays, it is necessary to expand the matrix into its total number of variables to calculate the correct element number. See the information about dimensioned arrays earlier in this section for detailed instructions on calculating element numbers.
 
 An example of use is as:
@@ -37,7 +36,5 @@ MATPARSE A,3,7 FROM Dynamic
 ```
 
 Assign 5 elements of the array starting at element 3.
-
-
 
 Back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

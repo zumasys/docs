@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='page formatting' vertical='middle' />
 
-# Description
+## Description
 
 **HEADING** halts all subsequent output to the terminal at the end of each page. The statement evaluates and displays an expression at the top of each page. Current output sent to the terminal, is paused until entry of a carriage return at the terminal - unless the N option is specified. It takes the general form:
 
@@ -30,23 +30,16 @@ The following characters have special meaning within the string:
 - "T" or \ Replace with the current time and date.
 - " Replace with a single " character.
 
-
 Alphabetic special characters are case insensitive, e.g. "D" is the same as "d".
 
-
-
-## Note:
-
+## Note
 
 > If output is to the printer, a [PRINTER ON](./../printer) statement is in use, and does not page output sent to the terminal with the [CRT](./../crt) statement. Unless you specify the “N” option, all output sent to the terminal is paged.
-
 
 An example of use is as:
 
 ```
  HEADING "This is the first thing that shows up"
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

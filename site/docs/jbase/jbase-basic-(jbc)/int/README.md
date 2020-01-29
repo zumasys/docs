@@ -14,14 +14,14 @@
 <badge text='mathematical operations' vertical='middle' />
 <badge text='floating point operations' vertical='middle' />
 
-# Description
+## Description
 
 The **INT()** function returns the floor of a numeric value.
 
 It takes the general form:
 
 ```
-INT(expression) 
+INT(expression)
 ```
 
 Where **expression** should evaluate to a numeric value. The function will then return the integer portion of the value.
@@ -35,7 +35,5 @@ CRT INT(22/7)
 ```
 
 which will display the value **3**.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

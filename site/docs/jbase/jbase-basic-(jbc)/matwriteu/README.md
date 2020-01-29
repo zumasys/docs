@@ -11,7 +11,7 @@
 <badge text='record locking' vertical='middle' />
 <badge text='record handling' vertical='middle' />
 
-# Description
+## Description
 
 The **MATWRITEU** statement transfers the entire contents of a dimensioned array to a specified record on file, in the same manner as the [MATWRITE](./../matwrite) statement. An existing record lock will be preserved. It takes the general form:
 
@@ -25,7 +25,6 @@ Where:
 - **expression** should evaluate to the name of the record in the file.
 - If the **SETTING** clause is specified and the write succeeds, **setvar** will be set to the number of attributes read into array. If the **SETTING** clause is specified and the write fails, **setvar** will be set to one of [these values](./../incremental-file-errors).
 
-
 If **ON ERROR** is specified, the statements following the **ON ERROR** clause will be executed for any of [these values](./../incremental-file-errors) except error 128.
 
 The compiler will check that the variable specified is indeed a dimensioned array before its use in the statement.
@@ -38,7 +37,5 @@ MAT A = 99
 ....
 MATWRITEU A ON "NewArray"
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

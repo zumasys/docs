@@ -24,7 +24,7 @@ Where:
 | Attr 1 | Level: 0 means detail line 1 – 25 for the control breaks, the same as the A correlative NB.|
 | Attr 2| Item ID|
 | Attr 3|  Break control Value is 1 if a blank line should be output first.|
-| Attr 4<| Pre-break value for 'B' option in header |
+| Attr 4| Pre-break value for 'B' option in header |
 | Attr 5| Post-break value for 'B' option in header|
 
 - **DataVar** will receive the actual screen data on a LIST statement, for instance. The format is one attribute per column.

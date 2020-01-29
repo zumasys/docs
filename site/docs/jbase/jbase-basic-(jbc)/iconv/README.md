@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='conversions' vertical='middle' />
 
-# Description
+## Description
 
 The **ICONV()** function converts data in external form such as dates to their internal form. The function takes the general form:
 
@@ -21,7 +21,6 @@ Where:
 
 - **expression1** evaluates to the data upon which the conversion is to be performed.
 - **expression2** should evaluate to the conversion code that is to be performed against the data.
-
 
 [comment]: <> ( Add additional **ICONV** extensions for timestamp as per WDx/WTx )
 
@@ -35,8 +34,6 @@ CRT InternalDate
 ```
 
 The above should display the date in internal format.
-
-
 
 See also: [OCONV](./../oconv).
 
