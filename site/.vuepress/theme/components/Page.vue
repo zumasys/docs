@@ -5,7 +5,7 @@
     <Content class="theme-default-content" />
 
     <Vssue />
-    
+
     <PageEdit />
 
     <PageNav v-bind="{ sidebarItems }" />
@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import PageEdit from "@theme/components/PageEdit.vue";
-import PageNav from "@theme/components/PageNav.vue";
+import PageEdit from "@parent-theme/components/PageEdit.vue";
+import PageNav from "@parent-theme/components/PageNav.vue";
 
 export default {
   components: { PageEdit, PageNav },
