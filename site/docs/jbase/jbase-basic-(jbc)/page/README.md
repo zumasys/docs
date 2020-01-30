@@ -10,7 +10,7 @@
 <badge text='printing' vertical='middle' />
 <badge text='output' vertical='middle' />
 
-# Description
+## Description
 
 Prints any [FOOTING](./../footing) statement, throws a **PAGE** and prints any heading statement on the current output device. It takes the general form:
 
@@ -23,14 +23,12 @@ Where **expression** if specified should evaluate to a numeric integer, which wi
 An example to illustrate its use is as:
 
 ```
-HEADING "10 PAGE REPORT"
+HEADING "10 Page Report"
 
 FOR I = 1 TO 10
     PAGE
     GOSUB PrintPage
 NEXT I
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

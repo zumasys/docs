@@ -11,20 +11,15 @@
 
 The following IOCTL commands can be use to manipulate sequential files.
 
-
-| Command<br> | Function<br> |
+| Command | Function |
 | --- | --- |
-| JIOCTL\_COMMAND\_SEQ\_NO\_DELIMITER<br> | Suppress SEQ delimiter<br> |
-| JIOCTL\_COMMAND\_SEQ\_CHANGE\_DELIMITER<br> | Change SEQ delimiter<br> |
-| JIOCTL\_COMMAND\_SEQ\_CHANGE\_RECORDSIZE<br> | Change SEQ Record size<br> |
-| JIOCTL\_COMMAND\_SEQ\_CHANGE\_PADCHAR<br> | Change SEQ Pad char<br> |
-| JIOCTL\_COMMAND\_SEEK<br> | Reposition the pointer to a specified position in the SEQ file<br> |
+| JIOCTL\_COMMAND\_SEQ\_NO\_DELIMITER | Suppress SEQ delimiter |
+| JIOCTL\_COMMAND\_SEQ\_CHANGE\_DELIMITER | Change SEQ delimiter |
+| JIOCTL\_COMMAND\_SEQ\_CHANGE\_RECORDSIZE | Change SEQ Record size |
+| JIOCTL\_COMMAND\_SEQ\_CHANGE\_PADCHAR | Change SEQ Pad char |
+| JIOCTL\_COMMAND\_SEEK | Reposition the pointer to a specified position in the SEQ file |
 
-
-### 
-
-
-### EXAMPLES
+## EXAMPLES
 
 ```
 INCLUDE JBC.h
@@ -72,11 +67,8 @@ NEXT I
 *    IF IOCTL(FILE, JIOCTL_COMMAND_SEQ_CHANGE_RECORDSIZE, 2048) ELSE STOP
 * Now set the position (seek) to the middle (1025th character) of 123rd block
 *    IF IOCTL(FILE, JIOCTL_COMMAND_SEEK, "1025,123")
-* 
+*
 ```
-
-### 
-
 
 This code renames a binary file of indeterminate size:
 
@@ -102,9 +94,10 @@ LOOP
 REPEAT
 CLOSESEQ instream
 CLOSESEQ outstream
- 
+
 ```
 
+See also [Serial I/O Extensions](./../serial-i&o-extensions)
 
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
-See also [serial IO extensions](./../serial-i&o-extensions)

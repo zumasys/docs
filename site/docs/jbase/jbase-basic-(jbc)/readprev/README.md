@@ -24,29 +24,23 @@ When the select list is exhausted it will either point one before the start of t
 For example, consider the following:
 
 ```
-LIST_VAR = "DAVE" : : "GREG" : : "JIM"
+LIST_VAR = "Dave" : : "Greg" : : "Jim"
 SELECT LIST_VAR
 ```
 
-
-
 the table shows what happens if [READNEXT](./../readnext)s and **READPREV**s on the above code and the reasons for it.
 
-
-|  Statement executed<br> |  Result of operation <br> |  Comment<br> |
+|  Statement executed |  Result of operation  |  Comment |
 | --- | --- | --- |
-| READNEXT key ELSE<br> | key becomes "DAVE"<br> | First key in list<br> |
-| READNEXT key ELSE<br> | key becomes "GREG"<br> | Second key in list<br> |
-| READPREV key ELSE<br> | key becomes "DAVE"<br> | Reversed so take preceding key<br> |
-| READPREV key ELSE<br> | Take ELSE clause<br> | The next key ptr exhausted at start.<br> |
-| READNEXT key ELSE<br> | key becomes "DAVE"<br> | First key in list<br> |
-| READNEXT key ELSE<br> | key becomes "GREG"<br> | Second key in list<br> |
-| READNEXT key ELSE<br> | key becomes "JIM"<br> | Final key. Next key ptr exhausted.<br> |
-| READPREV key ELSE<br> | key becomes "JIM"<br> | Reversed but list exhausted.<br> |
-| READPREV key ELSE<br> | key becomes "GREG"<br> | Second key in list<br> |
-| READPREV key ELSE<br> | key becomes "DAVE"<br> | First key in list<br> |
-
-
-
+| READNEXT key ELSE | key becomes "Dave" | First key in list |
+| READNEXT key ELSE | key becomes "Greg" | Second key in list |
+| READPREV key ELSE | key becomes "Dave" | Reversed so take preceding key |
+| READPREV key ELSE | Take ELSE clause | The next key ptr exhausted at start. |
+| READNEXT key ELSE | key becomes "Dave" | First key in list |
+| READNEXT key ELSE | key becomes "Greg" | Second key in list |
+| READNEXT key ELSE | key becomes "Jim" | Final key. Next key ptr exhausted. |
+| READPREV key ELSE | key becomes "Jim" | Reversed but list exhausted. |
+| READPREV key ELSE | key becomes "Greg" | Second key in list |
+| READPREV key ELSE | key becomes "Dave" | First key in list |
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

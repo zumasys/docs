@@ -22,7 +22,7 @@ Where:
 - **expression3** is only specified when sub-value assignment is to be done and should evaluate to a numeric.
 - **expression4** can evaluate to any data type and is the actual data that will be assigned to the array.
 
-The function returns a copy of **var** with the specified replacement carried out. This value may be assigned to the original var in which case the jBASE BASIC compiler will optimize the assignment.
+The function returns a copy of **var** with the specified replacement carried out. This value may be assigned to the original var, in which case the jBASE BASIC compiler will optimize the assignment.
 
 An example of use is as:
 

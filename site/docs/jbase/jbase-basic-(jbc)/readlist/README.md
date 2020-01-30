@@ -10,7 +10,7 @@
 <badge text='lists handling' vertical='middle' />
 <badge text='record handling' vertical='middle' />
 
-# Description
+## Description
 
 **READLIST** allows the program to retrieve a previously stored list, into a variable. It takes the general form:
 
@@ -37,8 +37,6 @@ WHILE READNEXT Key FROM MyList DO
 ......
 REPEAT
 ```
-
-
 
 See also: [DELETELIST](./../deletelist), [FORMLIST](./../formlist), [WRITELIST](./../writelist)
 

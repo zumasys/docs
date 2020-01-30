@@ -22,7 +22,7 @@ If **expression** is supplied, it should evaluate to the record key of a record 
 
 If **variable** was specified, the record lock in the file described by it is released. If **variable** was not specified the record lock in it releases the file described by the default file variable If **RELEASE** is issued without arguments then all record locks in all files that were set by the current program will be released.
 
-## Note:
+## Note
 
 > Where possible the program should avoid the use of **RELEASE** without arguments; this is less efficient and can be dangerous - especially in subroutines.
 
@@ -34,7 +34,5 @@ IF Rec<1> = "X" THEN
     RELEASE File, "Record"
 END
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

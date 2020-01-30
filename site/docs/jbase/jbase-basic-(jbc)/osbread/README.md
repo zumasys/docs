@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='file handling' vertical='middle' />
 
-# Description
+## Description
 
 The **OSBREAD** command reads data from a file starting at a specified byte location for a certain length of bytes, and assigns the data to a variable. It takes the general form:
 
@@ -25,9 +25,7 @@ Where:
 - LENGTH **length.expr** specifies a length of data to read from the file, starting at **byte.expr**. **length.expr** cannot be longer than the maximum string length determined by system configuration,
 - ON ERROR **statements** specifies statements to execute if a fatal error occurs (if the file is not open, or if the file is a read-only file). If the **ON ERROR** clause is not specified, the program terminates under such fatal error conditions.
 
-
-## Note: 
-
+## Note
 
 > - Before using **OSBREAD**, a file must be opened using the [OSOPEN](./../osopen) or [OPENSEQ](./../openseq) command.
 > - The ASCII 0 character [CHAR (0)] is used as a string-end delimiter. Therefore, ASCII 0 cannot be used in any string variable within jBASE. **OSBREAD** converts CHAR(0) to CHAR(128) when reading a block of data.
@@ -41,8 +39,4 @@ An example of use is a program statement that reads 10,000 bytes of the file MYP
 OSBREAD Data FROM MYPIPE AT 0 LENGTH 10000
 ```
 
-
-
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
-
-

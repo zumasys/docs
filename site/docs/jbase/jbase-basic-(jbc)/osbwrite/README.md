@@ -11,7 +11,7 @@
 <badge text='resords handling' vertical='middle' />
 <badge text='file handling' vertical='middle' />
 
-# Description
+## Description
 
 The **OSBWRITE** command writes an expression to a sequential file starting at a specified byte location. The command takes the general form:
 
@@ -26,11 +26,9 @@ Where:
 - If **byte.expr** is 0, the write begins at the beginning of the file,
 - **NODELAY** forces an immediate write.
 
-
 **ON ERROR** statements specifies statements to execute if the **OSBWRITE** statement fails with a fatal error because the file is not open, an I/O error occurs, or jBASE cannot find the file. If **ON ERROR** clause is unspecified, and a fatal error occurs, the program terminates.
 
-## Note: 
-
+## Note
 
 > - **OSBWRITE** immediately writes a file segment out to the UNIX, Windows NT, or Windows 2000 file.
 > - It is not necessary to specify a length expression because the number of bytes in expr is written to the file.
@@ -38,21 +36,18 @@ Where:
 > - jBASE uses the ASCII 0 character [CHAR (0)] as a string-end delimiter. Therefore, ASCII 0 cannot be used in any string variable within jBASE. If jBASE reads a string that contains CHAR(0) characters by using [OSBREAD](./../osbread), those characters are converted to CHAR(128).
 > - **OSBWRITE** converts CHAR (128) back to CHAR(0) when writing a block of characters.
 > - After execution of **OSBWRITE**, the [STATUS](./../status-function) function returns either 0 or a failure code:
-> 
-> 
-> 
+>
+>
+>
 > | Status | Description |
 > | --- | --- |
-> | 0<br> | The write was successful<br> |
-> | 1<br> | The write failed.<br> |
-
+> | 0 | The write was successful |
+> | 1 | The write failed. |
 
 An example of use would be a program statement that writes the data in MYPIPE to the opened file starting from the beginning of the file:
 
 ```
 OSBWRITE Data ON MYPIPE AT 0
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

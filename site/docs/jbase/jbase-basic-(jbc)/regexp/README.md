@@ -11,11 +11,11 @@
 <badge text='unix' vertical='middle' />
 <badge text='string handling' vertical='middle' />
 
-# Description
+## Description
 
-The **REGEXP** function is a powerful function that allows pattern matching using UNIX regular expressions. 
+The **REGEXP** function is a powerful function that allows pattern matching using UNIX regular expressions.
 
-**REGEXP** is not supported on Windows. 
+**REGEXP** is not supported on Windows.
 
 It takes the general form:
 
@@ -28,8 +28,7 @@ Where:
 - **variable** can be any type of jBASE BASIC variable and is the variable upon which pattern matching will be performed.
 - **expression** should evaluate to a standard UNIX regular expression as defined in the UNIX documentation.
 
-
-The function returns a numeric integer value being the first character in **variable** that failed to match the specified regular expression. If a match is not found or the regular expression was invalid then the function returns 0.
+The function returns a numeric integer value being the first character in **variable** that failed to match the specified regular **expression**. If a match is not found or the regular **expression** was invalid then the function returns 0.
 
 An example of use would be:
 

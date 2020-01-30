@@ -1,4 +1,4 @@
-# PRINT 
+# PRINT
 
 **Created At:** 9/22/2017 1:51:46 PM  
 **Updated At:** 11/27/2018 9:42:51 AM  
@@ -10,7 +10,7 @@
 <badge text='printing' vertical='middle' />
 <badge text='outpput' vertical='middle' />
 
-# Description
+## Description
 
 The **PRINT** statement sends data directly to the current output device, which will be either the terminal or the printer. It takes the general form:
 
@@ -22,20 +22,16 @@ An **expression** can evaluate to any data type. The **PRINT** statement will co
 
 The **PRINT** statement will append a newline sequence to the final **expression** unless it is terminated with a colon ":" character.
 
-## Note:
-
+## Note
 
 > - As the **expression** can be any valid expression, it may have output formatting applied to it.
 > - If a [PRINTER ON](./../printer) statement is currently active then output will be sent to the currently assigned printer form queue.
-
 
 An example of use is as:
 
 ```
 PRINT @(8,20):"Como esta?":
 ```
-
-
 
 See also:  [CRT](./../crt).
 

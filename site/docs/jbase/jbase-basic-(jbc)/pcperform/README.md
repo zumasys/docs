@@ -6,11 +6,8 @@
 **Original ID:** 284356  
 **Internal:** No  
 
-
-# Description
+## Description
 
 **PCPERFORM** is synonymous with [PERFORM](./../execute).
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

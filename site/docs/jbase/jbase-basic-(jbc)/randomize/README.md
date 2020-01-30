@@ -10,7 +10,7 @@
 <badge text='rnd' vertical='middle' />
 <badge text='randomize' vertical='middle' />
 
-DESCRIPTION
+## Description
 
 Use the **RANDOMIZE** statement with an expression to make the [RND](./../rnd) function generate the same sequence of random numbers each time the program is run.
 
@@ -21,8 +21,6 @@ If no **expression** is supplied, or if **expression** evaluates to a null value
 ```
 RANDOMIZE [(expression)]
 ```
-
-
 
 An example of use would be as:
 
@@ -50,3 +48,5 @@ This is the program output:
 0 2 1 2 0 2 1 2 1 1
 2 0 1 1 2 1 0 1 2 3
 ```
+
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

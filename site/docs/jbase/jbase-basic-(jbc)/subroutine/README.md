@@ -6,8 +6,7 @@
 **Original ID:** 284390  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **SUBROUTINE** statement is used at the start of any program that will be called externally by the [CALL](./../call) statement. It also declares any parameters to the compiler. It takes the general form:
 
@@ -17,9 +16,9 @@ SUB{ROUTINE} Name {({MAT} variable{,{MAT} variable...})}
 
 Where:
 
-Name is the identifier by which the subroutine will be known to the compilation process. It should always be present as this name (not the source file name), will be used to call it by. However, if the name is left out, the compiler will name subroutine as the source file name (without suffixes). Default naming is not encouraged as it can cause problems if source files are renamed.
+**Name** is the identifier by which the subroutine will be known to the compilation process. It should always be present as this name (not the source file name), will be used to call it by. However, if the name is left out, the compiler will name **subroutine** as the source file name (without suffixes). Default naming is not encouraged as it can cause problems if source files are renamed.
 
-Each comma separated variable in the optional parenthesized list is used to identify parameters to the compiler. These variables will be assigned the values passed to the subroutine by a [CALL](./../call) statement.
+Each comma separated **variable** in the optional parenthesized list is used to identify parameters to the compiler. These variables will be assigned the values passed to the subroutine by a [CALL](./../call) statement.
 
 The **SUBROUTINE** statement must be the first code line in a subroutine.
 
@@ -40,8 +39,6 @@ SUBROUTINE DialUp(Number, MAT Results)
 DIM Results(8)
 ....
 ```
-
-
 
 See also: [CALL](./../call), [CATALOG](./../catalog), [COMMON](./../common), [RETURN](./../return)
 
