@@ -22,11 +22,10 @@ module.exports = {
         platform: 'github', // set `platform` rather than `api`
         owner: 'zumasys',
         repo: 'docs',
-        clientId: process.env.VUE_APP_GITHUB_CLIENT_ID, //'8896d1734b2a82212c63',
-        clientSecret: process.env.VUE_APP_GITHUB_CLIENT_SECRET //'e3291416600be104bb6dda34b591ceb29d7522ce'
+        clientId: process.env.VUE_APP_GITHUB_CLIENT_ID,
+        clientSecret: process.env.VUE_APP_GITHUB_CLIENT_SECRET
       }
   },
-  //theme: 'theme',
   themeConfig: {
     logo: "/assets/img/logo-grey.png",
     nav: [
