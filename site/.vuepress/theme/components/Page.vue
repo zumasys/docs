@@ -4,7 +4,9 @@
 
     <Content class="theme-default-content" />
 
-    <Vssue />
+    <div class="theme-default-content">
+      <Vssue />
+    </div>
 
     <PageEdit />
 
