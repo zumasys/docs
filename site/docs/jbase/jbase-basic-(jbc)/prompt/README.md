@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='terminal input' vertical='middle' />
 
-# Description
+## Description
 
 Used to change the **PROMPT** character used by terminal input commands. It takes the general from:
 
@@ -21,7 +21,7 @@ Where **expression** can evaluate to any printable string.
 
 The entire string will be used as the prompt.
 
-The default prompt character is the question mark **?** character.
+The default prompt character is the question mark (**?**).
 
 An example of use is as:
 
@@ -29,7 +29,5 @@ An example of use is as:
 PROMPT "Next answer: "
 INPUT Answer
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

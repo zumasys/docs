@@ -10,7 +10,7 @@
 <badge text='output' vertical='middle' />
 <badge text='terminal' vertical='middle' />
 
-# Description
+## Description
 
 The **OUT** statement is used to send raw characters to the current output device (normally the terminal). The statement takes the general form:
 
@@ -20,11 +20,9 @@ OUT expression
 
 Where **expression** should evaluate to a numeric integer in the range 0 to 255, being the entire range of ASCII characters.
 
-## Note: 
-
+## Note
 
 > The numeric **expression** is first converted to the raw ASCII character specified and then sent directly to the output advice.
-
 
 An example of use is as:
 
@@ -38,7 +36,5 @@ NEXT I ;
 
 BELL
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

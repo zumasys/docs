@@ -6,7 +6,6 @@
 **Original ID:** 284375  
 **Internal:** No  
 
-
 See also: [READLIST](./../readlist).
 
 Go back to  [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

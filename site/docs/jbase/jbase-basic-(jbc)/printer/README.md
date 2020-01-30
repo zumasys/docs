@@ -6,8 +6,7 @@
 **Original ID:** 277632  
 **Internal:** No  
 
-
-# Description
+## Description
 
 Use the **PRINTER** statement to control the destination of output from the [PRINT](./../print) statement. It takes the general form:
 
@@ -37,7 +36,5 @@ NEXT I
 
 PRINTER CLOSE ;* Allow spooler to print it
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

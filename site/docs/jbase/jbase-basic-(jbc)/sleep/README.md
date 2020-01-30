@@ -6,8 +6,7 @@
 **Original ID:** 278809  
 **Internal:** No  
 
-
-# Description
+## Description
 
 **Sleep** allows the program to pause execution for a specified period. It takes the general form:
 
@@ -17,21 +16,19 @@ SLEEP {expression}
 
 Where:
 
-expression may evaluate to either a numeric, in which case the program will sleep for the specified number of seconds or fractions of a second "nn:nn{:nn}", in which case the program will sleep until the time specified.
+**expression** may evaluate to either a numeric, in which case the program will sleep for the specified number of seconds, or fractions of a second "nn:nn{:nn}", in which case the program will sleep until the time specified.
 
-If expression is not supplied then a default period of 1 second is assumed.
+If **expression** is not supplied then a default period of 1 second is assumed.
 
-## Note:
-
+## Note
 
 > Sleeping until a specified time works by calculating the time between the current time and the time supplied and sleeping for that many seconds. If in the meantime the host clock is changed the program will not wake up at the desired time;
-> 
+>
 > If invoking the debugger while a program is sleeping and the execution continued, the user will be prompted:
-> 
+>
 > Continue with SLEEP (Y/N)?
-> 
+>
 > If "N" is the response, the program will continue at the next statement after the **SLEEP**.
-
 
 Examples of use would be as:
 
@@ -46,10 +43,6 @@ SLEEP 40
 SLEEP 2.5
 ```
 
-
-
 See also: [MSLEEP](./../msleep).
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
-
-

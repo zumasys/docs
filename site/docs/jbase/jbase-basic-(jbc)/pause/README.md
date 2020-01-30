@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='program execution' vertical='middle' />
 
-# Description
+## Description
 
 The **PAUSE** statement allows processing to be suspended until an external event triggered by a [WAKE](./../wake) statement from another process or a timeout occurs. This takes the general form:
 
@@ -22,7 +22,5 @@ Where **expression** may evaluate to a timeout value, which is the maximum numbe
 If a timeout value is specified and the suspended process is not woken by a [WAKE](./../wake) statement then the process will continue once the timeout period has expired.
 
 If executing a [WAKE](./../wake) statement for the process before the process executes the **PAUSE** statement then the **PAUSE** will be ignored and processing will continue until a subsequent **PAUSE** statement.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

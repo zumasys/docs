@@ -6,9 +6,6 @@
 **Original ID:** 278838  
 **Internal:** No  
 
-
-The **STOP** statement is virtually identical in function to the [ABORT](./../abort) statement except that it does not terminate a calling jCL program.
-
-
+The **STOP** statement is virtually identical in function to the [ABORT](./../abort) statement, except that it does not terminate a calling jCL program.
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

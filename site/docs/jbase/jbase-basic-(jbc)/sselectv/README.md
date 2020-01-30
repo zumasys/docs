@@ -6,7 +6,6 @@
 **Original ID:** 284388  
 **Internal:** No  
 
-
 See also: [SSELECT](./../sselect).
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

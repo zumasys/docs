@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='record handling' vertical='middle' />
 
-# Description
+## Description
 
 The **READ** statement allows a program to read a record from a previously opened file into a variable. It takes the general form:
 
@@ -26,22 +26,21 @@ Where:
 - If **ON ERROR** is specified, the statements following the **ON ERROR** clause will be executed for any Incremental File Error except 128.
 - If the **READ** is successful then the statements following **THEN** will be executed. If the **READ** is unsuccessful, i.e. the record key does not exist in the file, then the statements following **ELSE** are executed. If the **READ** is unsuccessful and there is no **ELSE** then **expression** is set to "" (null).
 
-
 If a lock is to be set on a record, it should be explicitly stated with the [**READU**](./../readu) statement.
 
 An example of use is as:
 
 ```
-    $option jabba
+$option jabba
 
-    open "dummy_records" to file_variable else abort 201, "dummy_records"
-    read rec_variable from file_variable, 7 setting error_variable on error
-        crt error_variable
-    end then
-        for rec_index = 1 to dcount(rec_variable, @AM)
-            crt rec_variable<rec_index>
-        next rec_index
-    end
+open "dummy_records" to file_variable else abort 201, "dummy_records"
+read rec_variable from file_variable, 7 setting error_variable on error
+    crt error_variable
+end then
+    for rec_index = 1 to dcount(rec_variable, @AM)
+        crt rec_variable<rec_index>
+    next rec_index
+end
 ```
 
 to show all the contents of record 7 to the terminal. Note that this code is JabbaScript.

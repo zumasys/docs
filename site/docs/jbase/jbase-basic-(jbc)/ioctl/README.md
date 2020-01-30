@@ -157,35 +157,34 @@ The **JIOCTL\_COMMAND\_FILESTATUS** command will return an attribute delimited l
 Open a file and see if the file type is a directory.
 
 ```
-     INCLUDE JBC.h
-     OPEN ".." TO DSCB ELSE STOP 201,".."
-     status = ""
-     IF IOCTL(DSCB,JIOCTL_COMMAND_FILESTATUS,status) ELSE
-         CRT "IOCTL failed!" ; EXIT(2)
-     END
-     IF status<1> EQ "UD" THEN
-         CRT "File is a directory"
-     END
-     ELSE
-         CRT "File type is ":DQUOTE(status<1>)
-         CRT "This is not expected for .."
-     END
+INCLUDE JBC.h
+OPEN ".." TO DSCB ELSE STOP 201,".."
+status = ""
+IF IOCTL(DSCB,JIOCTL_COMMAND_FILESTATUS,status) ELSE
+    CRT "IOCTL failed!" ; EXIT(2)
+END
+IF status<1> EQ "UD" THEN
+    CRT "File is a directory"
+END ELSE
+    CRT "File type is ":DQUOTE(status<1>)
+    CRT "This is not expected for .."
+END
 ```
 
 Open a file ready to perform file operations in a transaction against it. Make sure the file has not been removed as a transaction type file by a previous invocation of the command **jchmod -T CUSTOMERS**.
 
 ```
-     INCLUDE JBC.h
-     OPEN "CUSTOMERS" TO DSCB ELSE STOP 201,"CUSTOMERS"
-     IF IOCTL(DSCB,JIOCTL_COMMAND_FILESTATUS,status) ELSE
-         CRT "IOCTL failed !!" ; EXIT(2)
-     END
-     IF status<8,2> THEN
-         CRT "Error ! File CUSTOMERS is not"
-         CRT "part of transaction boundaries !!"
-         CRT "Use "jchmod +T CUSTOMERS" !!"
-         EXIT(2)
-     END
+INCLUDE JBC.h
+OPEN "CUSTOMERS" TO DSCB ELSE STOP 201,"CUSTOMERS"
+IF IOCTL(DSCB,JIOCTL_COMMAND_FILESTATUS,status) ELSE
+    CRT "IOCTL failed !!" ; EXIT(2)
+END
+IF status<8,2> THEN
+    CRT "Error ! File CUSTOMERS is not"
+    CRT "part of transaction boundaries !!"
+    CRT "Use "jchmod +T CUSTOMERS" !!"
+    EXIT(2)
+END
 ```
 
 This code tests whether or not a file is encrypted:
@@ -195,18 +194,18 @@ This code tests whether or not a file is encrypted:
  *
  * Syntax: encrypted filename
  *
-     INCLUDE JBC.h
-     filename = SENTENCE(1)
-     OPEN filename TO filevar ELSE STOP 201, filename
-     file_status = ""          ;* keeps the compiler from complaining
-     ok = IOCTL(filevar, JIOCTL_COMMAND_FILESTATUS, file_status)
-     CLOSE filevar
-     CRT DQUOTE(filename):
-     IF file_status<8,5> THEN
-         CRT " is encrypted."
-     END ELSE
-         CRT " is not encrypted."
-     END
+INCLUDE JBC.h
+filename = SENTENCE(1)
+OPEN filename TO filevar ELSE STOP 201, filename
+file_status = ""          ;* keeps the compiler from complaining
+ok = IOCTL(filevar, JIOCTL_COMMAND_FILESTATUS, file_status)
+CLOSE filevar
+CRT DQUOTE(filename):
+IF file_status<8,5> THEN
+    CRT " is encrypted."
+END ELSE
+    CRT " is not encrypted."
+END
 ```
 
 ## 4. JIOCTL\_COMMAND\_FINDRECORD COMMAND**
@@ -218,20 +217,20 @@ This can provide large performance gains in certain circumstances.
 Before writing out a control record, make sure it doesn't already exist. As the control record is quite large, it will provide performance gains to simply test if the output record already exists, rather than reading it in using the [READ](./../read) statement to see if it exists
 
 ```
-     INCLUDE JBC.h
-     OPEN "outputfile" TO DSCB ELSE STOP 201,"outputfile"
+INCLUDE JBC.h
+OPEN "outputfile" TO DSCB ELSE STOP 201,"outputfile"
  * Make up the output record to write out in "output"
-     key = "output.out"
-     rc = IOCTL(DSCB, JIOCTL_COMMAND_FINDRECORD, key)
-     BEGIN CASE
-     CASE rc EQ 0
-         WRITE output ON DSCB,key
-         CRT "Data written to key " : key
-     CASE rc GT 0
-         CRT "No further action, record already exists"
-     CASE 1
-         CRT "IOCTL not supported for file type"
-     END CASE
+key = "output.out"
+rc = IOCTL(DSCB, JIOCTL_COMMAND_FINDRECORD, key)
+BEGIN CASE
+    CASE rc EQ 0
+        WRITE output ON DSCB,key
+        CRT "Data written to key " : key
+    CASE rc GT 0
+        CRT "No further action, record already exists"
+    CASE 1
+        CRT "IOCTL not supported for file type"
+END CASE
 ```
 
 ## 5. JIOCTL\_COMMAND\_FINDRECORD\_EXTENDED COMMAND
@@ -243,35 +242,35 @@ This command to the **IOCTL()** function returns the record size and the time an
 Display the time and data of last update for each record in filename.
 
 ```
-    INCLUDE JBC.h
-    OPEN "filename" TO DSCB ELSE STOP 201,"filename"
-    *
-    * Select each record in the newly opened file
-    *
-    SELECT DSCB
-    LOOP WHILE READNEXT record.key DO
-    *
-    * Get the details on the record and look for errors.
-    *
-        record.info = record.key
-        IF IOCTL(DSCB,JIOCTL_COMMAND_FINDRECORD_EXTENDED,record.info) ELSE
-            CRT "Error! File driver does not support this"
-            STOP
-        END
-    *
-    * Extract and convert the returned data
-    *
-        record.size = record.info<1>
-        record.utc = record.info<2>
-        record.time = OCONV(record.utc,"U0ff0")
-        record.date = OCONV(record.utc,"U0ff1")
-    *
-    * Display the information.
-    *
-        CRT "Record key ":record.key:" last updated at ":
-        CRT OCONV(record.time,"MTS"):" ":
-        CRT OCONV(record.date,"D4")
-    REPEAT
+INCLUDE JBC.h
+OPEN "filename" TO DSCB ELSE STOP 201,"filename"
+*
+* Select each record in the newly opened file
+*
+SELECT DSCB
+LOOP WHILE READNEXT record.key DO
+*
+* Get the details on the record and look for errors.
+*
+    record.info = record.key
+    IF IOCTL(DSCB,JIOCTL_COMMAND_FINDRECORD_EXTENDED,record.info) ELSE
+        CRT "Error! File driver does not support this"
+        STOP
+    END
+*
+* Extract and convert the returned data
+*
+    record.size = record.info<1>
+    record.utc = record.info<2>
+    record.time = OCONV(record.utc,"U0ff0")
+    record.date = OCONV(record.utc,"U0ff1")
+*
+* Display the information.
+*
+    CRT "Record key ":record.key:" last updated at ":
+    CRT OCONV(record.time,"MTS"):" ":
+    CRT OCONV(record.date,"D4")
+REPEAT
 ```
 
 ## 6.**JIOCT**L\_COMMAND\_HASH\_RECORD COMMAND
@@ -294,15 +293,15 @@ This command will always return "0" (zero) for type JD (Dynamic) files.
 Open a file, and find out what bucket number the record "PIPE&SLIPPER" would be found in.
 
 ```
-    INCLUDE JBC.h
-    OPEN "WEDDING-PRESENTS" TO DSCB ELSE STOP
-    key = "PIPE&SLIPPER"
-    parm = key
-    IF IOCTL(DSCB,JIOCTL_COMMAND_HASH_RECORD,parm) THEN
-        CRT "key ":key:" would be in bucket ":parm<2>
-    END ELSE
-        CRT "IOCTL failed, command not supported"
-    END
+INCLUDE JBC.h
+OPEN "WEDDING-PRESENTS" TO DSCB ELSE STOP
+key = "PIPE&SLIPPER"
+parm = key
+IF IOCTL(DSCB,JIOCTL_COMMAND_HASH_RECORD,parm) THEN
+    CRT "key ":key:" would be in bucket ":parm<2>
+END ELSE
+    CRT "IOCTL failed, command not supported"
+END
 ```
 
 ## 7. JIOCTL\_COMMAND\_HASH\_LOCK COMMAND
@@ -314,17 +313,17 @@ The jEDI locking mechanism for records in jEDI provided database drivers is not 
 Lock a record in a file and find out what the lock id of the record key is. The example then calls the jRLA locking demon and the display of locks taken should include the lock taken by this program.
 
 ```
-    INCLUDE JBC.h
-    DEFCE getpid()
-    OPEN "WEDDING-PRESENTS" TO DSCB ELSE STOP
-    key = "PIPE&SLIPPER"
-    parm = key
-    IF IOCTL(DSCB,JIOCTL_COMMAND_HASH_LOCK,parm) ELSE
-        CRT "IOCTL failed, command not supported"
-        EXIT(2)
-    END
-    CRT "The lock ID for the key is ":parm
-    CRT "Our process id is " : getpid()
+INCLUDE JBC.h
+DEFCE getpid()
+OPEN "WEDDING-PRESENTS" TO DSCB ELSE STOP
+key = "PIPE&SLIPPER"
+parm = key
+IF IOCTL(DSCB,JIOCTL_COMMAND_HASH_LOCK,parm) ELSE
+    CRT "IOCTL failed, command not supported"
+    EXIT(2)
+END
+CRT "The lock ID for the key is ":parm
+CRT "Our process id is " : getpid()
 ```
 
 ## Note

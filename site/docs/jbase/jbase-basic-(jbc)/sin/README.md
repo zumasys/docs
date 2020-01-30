@@ -6,8 +6,7 @@
 **Original ID:** 278808  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **SIN** function returns the mathematical sine value of a numeric expression. The function has the general form:
 
@@ -17,9 +16,11 @@ SIN(expression)
 
 Where:
 
-expression should evaluate to a numeric value and is interpreted as a number of degrees between 0 and 360.
+**expression** should evaluate to a numeric value and is interpreted as a number of degrees between 0 and 360.
 
-The function will calculate the sine of the angle specified by the expression as accurately as the host system will allow. It will then truncate the value according to the [PRECISION](./../precision) of the program. Examples of use would be:
+The function will calculate the sine of the angle specified by **expression** as accurately as the host system will allow. It will then truncate the value according to the [PRECISION](./../precision) of the program.
+
+Examples of use would be:
 
 ```
 CRT @ (-1):
@@ -37,8 +38,4 @@ CRT SIN(39)
 
 to display the sine of 39 to two decimal places.
 
-
-
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
-
-

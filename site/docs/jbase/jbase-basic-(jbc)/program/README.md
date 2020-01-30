@@ -6,8 +6,7 @@
 **Original ID:** 277638  
 **Internal:** No  
 
-
-# Description
+## Description
 
 **PROGRAM** performs no function other than to document the source code. It takes the form:
 
@@ -24,7 +23,5 @@ PROGRAM HelpUser
 !
 ! Start of program
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

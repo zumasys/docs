@@ -6,9 +6,6 @@
 **Original ID:** 278791  
 **Internal:** No  
 
-
 **RQM**is synonymous with [SLEEP](./../sleep).
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

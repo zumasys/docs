@@ -10,7 +10,7 @@
 <badge text='record handling' vertical='middle' />
 <badge text='sequential file handling' vertical='middle' />
 
-# Description
+## Description
 
 The statement allows for reading from a file opened for sequential access. It takes the general form:
 
@@ -23,7 +23,6 @@ Where:
 - **Variable** specifies the variable to contain next record from sequential file.
 - **filevar** specifies the file descriptor of the file opened for sequential access.
 - **Statements** Conditional jBASE BASIC statements
-
 
 Each **READSEQ** reads a line of data from the sequentially opened file. After each **READSEQ**, the file pointer moves forward to the next line of data. **Variable** contains the line of data less the new line character from the sequential file.
 

@@ -32,13 +32,13 @@ If it is desired to set a lock on a record, it should be done explicitly with th
 An example of use may be as:
 
 ```
-    OPEN "Customers" ELSE ABORT 201, "Customers"
-    OPEN "DICT Customers" TO DCusts ELSE ABORT 201, "DICT Customers"
-    READV Rec FROM DCusts, "Xref", 7 THEN
-        READ DataRec FROM Rec<7> ELSE ABORT 202, Rec<7>
-    END ELSE
-        ABORT 202, "Xref"
-    END
+OPEN "Customers" ELSE ABORT 201, "Customers"
+OPEN "DICT Customers" TO DCusts ELSE ABORT 201, "DICT Customers"
+READV Rec FROM DCusts, "Xref", 7 THEN
+    READ DataRec FROM Rec<7> ELSE ABORT 202, Rec<7>
+END ELSE
+    ABORT 202, "Xref"
+END
 ```
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

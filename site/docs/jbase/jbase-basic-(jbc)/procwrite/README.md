@@ -10,7 +10,7 @@
 <badge text='jbc' vertical='middle' />
 <badge text='jcl' vertical='middle' />
 
-# Description
+## Description
 
 **PROCWRITE** is used to pass data back to the primary input buffer of a calling jCL program. It takes the general form:
 
@@ -25,8 +25,6 @@ An example of use is as:
 ```
 PROCWRITE "Success":CHAR (254):"0"
 ```
-
-
 
 See also: [PROCREAD](./../procread)
 

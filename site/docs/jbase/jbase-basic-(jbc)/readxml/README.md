@@ -6,8 +6,7 @@
 **Original ID:** 278778  
 **Internal:** No  
 
-
-# Description
+## Description
 
 This function reads a record and from it, outputs the data retrieved in XML format. The style sheet held in DICT-&gt;@READXML is used to transform the data.
 
@@ -22,7 +21,7 @@ END
 to output a record for instance:
 
 ```
-CLIVE^PIPENSLIPPERS^999 LETSBE AVENUE
+Clive^Pipenslippers^999 Letsbe Avenue
 ```
 
 or
@@ -38,11 +37,9 @@ to output for instance:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <mycustomer>
-<firstname>CLIVE</firstname>
-<lastname>PIPENSLIPPERS</lastname>
-<address>999 LETSBE AVENUE</address>
+<firstname>Clive</firstname>
+<lastname>Pipenslippers</lastname>
+<address>999 Letsbe Avenue</address>
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

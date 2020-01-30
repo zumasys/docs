@@ -11,7 +11,7 @@
 <badge text='sqoute' vertical='middle' />
 <badge text='string handling' vertical='middle' />
 
-# Description
+## Description
 
 These three functions will put single or double quotation marks at the beginning and end of a string. They generally take the form:
 
