@@ -10,7 +10,7 @@
 <badge text='dimensioned arrays' vertical='middle' />
 <badge text='record handling' vertical='middle' />
 
-# Description
+## Description
 
 The **MATWRITE** statement transfers the entire contents of a dimensioned array to a specified record on disc. It takes the general form:
 
@@ -26,20 +26,17 @@ Where:
 - If the **SETTING** clause is specified and the write succeeds, **setvar** will be set to the number of attributes read into array. If the **SETTING** clause is specified and the write fails, **setvar** will be set to one of [these values](./../incremental-file-errors).
 - If **ON ERROR** is specified, the statements following the **ON ERROR** clause will be executed for any of [these values](./../incremental-file-errors) except error 128.
 
-
 The compiler will check that the variable specified is a dimensioned array before its use in the statement.
 
 An example of use is as:
 
 ```
-    dim sample_arr(20)
-    mat sample_arr = 99
+dim sample_arr(20)
+mat sample_arr = 99
 
-    matwrite sample_arr on "New array" setting response_code on error
-        crt "Error: ":response_code :" Record could not be written."
-    end
+matwrite sample_arr on "New array" setting response_code on error
+    crt "Error: ":response_code :" Record could not be written."
+end
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

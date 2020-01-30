@@ -6,8 +6,7 @@
 **Original ID:** 276755  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **ITYPE** function returns the value resulting from the evaluation of an I-type expression in a jBASE file dictionary. It takes the general form:
 
@@ -17,7 +16,7 @@ ITYPE (i.type)
 
 Where:
 
-**i.type** is an expression evaluating to the contents of the compiled I-descriptor. 
+**i.type** is an expression evaluating to the contents of the compiled I-descriptor.
 
 [comment]: <> (The Idescriptor must be compiled before the **ITYPE** function uses it; otherwise, a run-time error message results.)
 
@@ -27,13 +26,11 @@ To assign field values to @RECORD, read a record from the data file into @RECORD
 
 If **i.type** evaluates to null, the **ITYPE** function fails and the program terminates with a run-time error message.
 
-## Note:
-
+## Note
 
 > Set the @FILENAME to the name of the file before **ITYPE** execution.
 
-
-**EXAMPLE**
+## Example
 
 This is the SLIPPER file content:
 

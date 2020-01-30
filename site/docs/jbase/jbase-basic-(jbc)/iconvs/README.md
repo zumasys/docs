@@ -11,7 +11,7 @@
 <badge text='dynamic arrays' vertical='middle' />
 <badge text='conversion' vertical='middle' />
 
-# Description
+## Description
 
 This function converts each element of a dynamic array to a specified internal storage format. It takes the general form:
 
@@ -24,19 +24,14 @@ Where:
 - **conversion** is an expression that evaluates to one or more valid conversion codes, separated by value marks (ASCII 253).
 - Each element of **dynamic array** is converted to the internal format specified by conversion and is returned in a **dynamic array**. If multiple codes are used, they are applied from left to right. The first conversion code converts the value of each element of **dynamic array**. The second conversion code converts the value of each element of the output of the first conversion, and so on. If dynamic.array evaluates to null, it returns null. If an element of **dynamic array** is null, null it returns null for that element. If conversion evaluates to null, the **ICONVS()** function fails and the program terminates with a run-time error message.
 
-
 The [STATUS](./../status-function) function reflects the result of the conversion:
 
-
-| Status<br> | Result<br> |
+| Status | Result |
 | --- | --- |
-| 0<br> | The conversion is successful.<br> |
-| 1<br> | An element of dynamic array is invalid. It returns an empty string, unless dynamic array is null, in which case it returns null.<br> |
-| 2<br> | Conversion is invalid.<br> |
-| 3<br> | Successful conversion of possibly invalid data.<br> |
-
-
-
+| 0 | The conversion is successful. |
+| 1 | An element of dynamic array is invalid. It returns an empty string, unless dynamic array is null, in which case it returns null. |
+| 2 | Conversion is invalid. |
+| 3 | Successful conversion of possibly invalid data. |
 
 An example of use is as:
 
@@ -53,7 +48,5 @@ to output :
 ```
 
 For information about converting elements in a dynamic array to an external format see [OCONVS](./../oconvs).
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -9,9 +9,9 @@
 **Tags:**
 <badge text='dynamic arrays' vertical='middle' />
 
-# Description
+## Description
 
-The **LES()** function is used to determine whether elements of one dynamic array are less than or equal to the elements of another dynamic array.
+The **LES** function is used to determine whether elements of one dynamic array are less than or equal to the elements of another dynamic array.
 
 ```
 LES(array1, array2)
@@ -22,8 +22,6 @@ In operation, the function compares each element of **array1** with the correspo
 If an element of one dynamic array has no corresponding element in the other dynamic array, it evaluates the undefined element as empty, and the comparison continues.
 
 If either of a corresponding pair of elements is null, it returns null for that element.
-
-
 
 An example of use is as:
 
@@ -42,7 +40,5 @@ An example of use is as:
      CRT VAL2
      CRT (LES(VAL, VAL2))
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -6,8 +6,7 @@
 **Original ID:** 277528  
 **Internal:** No  
 
-
-# Description
+## Description
 
 This is used as a diagnostic tool for applications, and allows a snapshot of the application to be dumped to an external file for later analysis. It takes the general form:
 
@@ -28,15 +27,13 @@ The output is in free style text format.
 The function is called as:
 
 ```
-FILE.NAME = "GLOBUSDUMP_":TIME():"_":DATE():"_":SYSTEM(18)
-PRINT "Please send the file ":FILE.NAME:" to support"
+FILE.NAME = "jBASE_DUMP_" : TIME() : "_" : DATE() : "_" : SYSTEM(18)
+CRT "Please send the file " : FILE.NAME : " to jBASE support"
 OUT.FILE = JBASECOREDUMP("" , 0 )
 OUT.FILE2 = JBASECOREDUMP(FILE.NAME, 0)
 EXIT(99)
 ```
 
 to output two files in the current working directory.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

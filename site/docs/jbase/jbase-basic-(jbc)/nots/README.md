@@ -6,7 +6,6 @@
 **Original ID:** 276992  
 **Internal:** No  
 
-
 # Description
 
 The function returns a dynamic array of the logical complements of each element of **dynamic.array**. It takes the general form:
@@ -24,13 +23,11 @@ An empty string is logically false. All other string expressions, including stri
 If any element in **dynamic.array** is null, it returns null for that element.
 
 ```
-X=5 
+X=5
 Y=5
 CRT NOTS (X-Y:@VM:X+Y)
 ```
 
 The above will display 1 and 0.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

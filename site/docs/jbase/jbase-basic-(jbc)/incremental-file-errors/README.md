@@ -6,20 +6,9 @@
 **Original ID:** 277647  
 **Internal:** No  
 
-
-
-| ERROR CODE |  DESCRIPTION |
+| Error Code |  Description |
 | --- | --- |
-| 128<br> | No such file or directory<br> |
-| 4096<br> | Network error<br> |
-| 24576<br> | Permission denied<br> |
-| 32768<br> | Physical I/O error or unknown error <br> |
-
-
-
-
-
-
-
-
-
+| 128 | No such file or directory |
+| 4096 | Network error |
+| 24576 | Permission denied |
+| 32768 | Physical I/O error or unknown error  |

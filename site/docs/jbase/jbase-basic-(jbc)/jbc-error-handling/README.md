@@ -6,8 +6,7 @@
 **Original ID:** 317602  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 jBASE provides several mechanisms to monitor, control and display runtime errors.
 
@@ -15,28 +14,20 @@ jBASE provides several mechanisms to monitor, control and display runtime errors
 
 The following 3 environment variables control how jBC (BASIC) programs handle specific error conditions. Each variable is assigned a bit-mask to control what actions are performed when the corresponding error is encountered.
 
-
 | Environment Variable | Error Message |
 | --- | --- |
 | [JBASE\_ERRMSG\_DIVIDE\_ZERO](./../../environment-variables/jbase_errmsg_divide_zero) | Divide by zero !!-- ZERO returned |
 | [JBASE\_ERRMSG\_NON\_NUMERIC](./../../environment-variables/jbase_errmsg_non_numeric) | Non-numeric value -- ZERO USED |
 | [JBASE\_ERRMSG\_ZERO\_USED](./../../environment-variables/jbase_errmsg_zero_used) | Invalid or uninitialised variable -- ZERO USED |
 
-
-
-
 [JBASE\_ERRMSG\_TRACE](./../../environment-variables/jbase_errmsg_trace)
 Setting this variable will log all error and runtime messages to the **$JBCRELEASEDIR/tmp/jbase\_error\_trace** file. Be aware that this will cause the **jbase\_error\_trace** file to grow very large if left to its own devices.
-
-
 
 JBC\_STDERR
 To redirect standard error to standard out in a jBC program set **JBC\_STDERR=1**. This is useful with the [EXECUTE](./../execute) statement for CAPTUREing output that would normally be sent to the screen.
 
 [JBCERRFILE](./../../environment-variables/jbcerrfile)
 This environment variable is used to specify an alternate error message file. See [Advanced Error Message Tracking](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup42_ERROR_HANDLING.htm#Advanced_Error_Message_Tracking).
-
-
 
 ## Trapping I/O errors
 
@@ -45,23 +36,19 @@ Most jBC (BASIC) I/O statements have built-in syntax to trap errors. This is imp
 ```
 READ record FROM filevar, id SETTING errornumber ON ERROR  
 CRT "READ failed with error number ":errornumber  
-STOP 
-END ELSE  STOP 
-202,id 
+STOP
+END ELSE  STOP
+202,id
 END
 ```
 
 The SYSTEM(0) function can also be used to determine the outcome of I/O options. Operations like [READ](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jbc2_READ.htm) and [WRITE](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jbc2_WRITE.htm) will return non-zero error numbers if the operation fails in some way. Tape statements, like [READT](./../readt) and [WRITET](./../writet), will store the reason code if an error occurs.
-
-
 
 The SYSTEM(0) function does not automatically reset itself; it will hold on to the last error code until some other statement sets it. This can sometimes lead to a wrong conclusion when checking the value. To avoid this situation you can explicitly reset SYSTEM(0) with:
 
 ```
 ASSIGN 0 TO SYSTEM(0)
 ```
-
-
 
 ## Customizing Error Messages
 
@@ -79,9 +66,7 @@ The solution (details to follow) is to remove (unset) **JBASE\_ERRMSG\_TRACE** a
 
 There are two stages, Development and Implementation. The Development stage can be done at any time and will not affect the system in any way. The Implementation, however, must be done when there are no users on the system and no running jBASE processes.
 
-
-
-**Development**
+## Development
 
 1) Here is the trigger code:
 
@@ -127,15 +112,15 @@ There are two stages, Development and Implementation. The Development stage can 
 
 It assumes the existence of a file called **ERRORLOG**, in which the errors will be logged, and a different **jbcmessages** file. There are other things that need to be done to allow the trigger to fire and we will get to those shortly.
 
-2) The first task is to create a custom **jbcmessages** file and then modify specific messages in this new file. For this example, we will use a directory named **C:\custom**. We will also assume that **JBCRELEASEDIR**is set to **C:\jbase\CurrentVersion**.
+2) The first task is to create a custom **jbcmessages** file and then modify specific messages in this new file. For this example, we will use a directory named **C:\custom**. We will also assume that **JBCRELEASEDIR** is set to **C:\jbase\CurrentVersion**.
 
 Here are the steps:
 
 a) Copy the following files to the **C:\custom** directory (**DO NOT use the jBASE COPY command**):
 
 ```
-C:\jbase\CurrentVersion\jbcinit.err 
-C:\jbase\CurrentVersion\jbcmessages]D 
+C:\jbase\CurrentVersion\jbcinit.err
+C:\jbase\CurrentVersion\jbcmessages]D
 C:\jbase\CurrentVersion\jbcmessa7es
 ```
 
@@ -151,8 +136,6 @@ jmakeerr jbcinit.err (O
 TO: C:\custom\jbcmessages
 ```
 
-
-
 3) Create the **ERRORLOG** file (or whatever name you want to use, but if you change the name then you will then have to also change it in the trigger code). This is the file that the trigger will log the errors to rather than logging them to the **jbase\_error\_trace** file. The trigger code shows what information gets logged but you can, of course, add or remove elements as desired. Since the file is only going to contain 3 records it can be created with:
 
 ```
@@ -163,7 +146,7 @@ Feel free to create dictionary items as required.
 
 It is important that the ERRORLOG file be available to your application so make sure that in is in HOME or is visible to JEDIFILEPATH.
 
-**Implementation**
+## Implementation
 
 First ensure that there are no users on the system and that there are no running jBASE processes before proceeding. Any environment variable changes must be set system-wide. The changes should also be made in all remote.cmd (Windows) or .profile (Unix/Linux) files.
 
@@ -204,13 +187,9 @@ c) Optional: change the value the **JBASE\_ERRMSG\_xyz** environment variables b
 Here is a simplistic program to test things out. After running it, if everything is working correctly, there will be 3 records in the **ERRORLOG** file, one record for each of the 3 error conditions.
 
 ```
-   PROGRAM testerrors 
-   a = 1234 0003   b = 'xyz' 
-   CRT "Test1: use a non numeric --> ":a+b 
-   CRT "Test2: divide by 0 --> ":a/0 
+   PROGRAM testerrors
+   a = 1234 0003   b = 'xyz'
+   CRT "Test1: use a non numeric --> ":a+b
+   CRT "Test2: divide by 0 --> ":a/0
    CRT "Test3: invalid or uninitialised --> ":c  ;* variable c was never assigned
 ```
-
-
-
-

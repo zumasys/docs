@@ -6,13 +6,12 @@
 **Original ID:** 276761  
 **Internal:** No  
 
-
-# Description
+## Description
 
 Use the **JBASETHREADCreate** command to start a new thread. It takes the general form:
 
 ```
-JBASETHREADCreate(ProgramName, Arguments, User, Handle) 
+JBASETHREADCreate(ProgramName, Arguments, User, Handle)
 ```
 
 Where:
@@ -22,11 +21,6 @@ Where:
 - **User** is the name of the user in format:  "user{,account{,password}}" or "" to configure as calling user id.
 - **Handle** will contain the value of the returned thread handle
 
-
-
-
 Example code can be found in the "Threads" folder under "samples" in the jBASE install directory.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

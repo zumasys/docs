@@ -10,7 +10,7 @@
 <badge text='mathematical operations' vertical='middle' />
 <badge text='dynamic arrays' vertical='middle' />
 
-# Description
+## Description
 
 The function creates a dynamic array of the element-by-element multiplication of two dynamic arrays. It takes the general form:
 
@@ -23,13 +23,11 @@ Each element of **array1** is multiplied by the corresponding element of **array
 An example of use is as:
 
 ```
-A=1:@VM:2:@VM:3:@SM:4
-B=4:@VM:5:@VM:6:@VM:9
+A = 1 : @VM : 2 : @VM : 3 : @SM : 4
+B = 4 : @VM : 5 : @VM : 6 : @VM : 9
 CRT MULS (A,B)
 ```
 
 to display an array containing: 4, 10, 18, 0, 0
-
-
 
 Go back to [JBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -10,7 +10,7 @@
 <badge text='logical operators' vertical='middle' />
 <badge text='dynamic arrays' vertical='middle' />
 
-# Description
+## Description
 
 The **ORS** function is used to create a dynamic array of the logical OR of corresponding elements of two dynamic arrays. It takes the general form:
 
@@ -25,17 +25,15 @@ If both corresponding elements of **array1** and **array2** are null, it returns
 An example of use is as:
 
 ```
-A="A":@SM:0:@VM:4:@SM:1
-B=0:@SM:1-1:@VM:2
+A = "A" : @SM : 0 : @VM : 4 : @SM :1
+B = 0 : @SM : 1-1 : @VM : 2
 CRT ORS (A,B)
 ```
 
 to output:
 
 ```
-1\0]1\1 
+1\0]1\1
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

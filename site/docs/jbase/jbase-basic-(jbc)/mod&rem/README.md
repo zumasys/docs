@@ -1,4 +1,4 @@
-# MOD/REM 
+# MOD/REM
 
 **Created At:** 9/15/2017 12:59:10 PM  
 **Updated At:** 11/27/2018 10:36:29 PM  
@@ -11,7 +11,7 @@
 <badge text='rem' vertical='middle' />
 <badge text='mathematical operations' vertical='middle' />
 
-# Description
+## Description
 
 The **MOD** or **REM** functions return the arithmetic modulo of two numeric expressions. They take the general form:
 
@@ -33,12 +33,10 @@ An example of use is as below:
 
 ```
 FOR I = 1 TO 10000
-    IF MOD (I, 1000) = 0 THEN 
+    IF MOD (I, 1000) = 0 THEN
         *perform a task
-    END 
+    END
 NEXT I
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide)

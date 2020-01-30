@@ -6,8 +6,7 @@
 **Original ID:** 276286  
 **Internal:** No  
 
-
-# Description 
+## Description
 
 The **INPUTCLEAR** statement clears the type-ahead buffer. It is useful in situations where the user may have pressed the carriage return key several times prior to reaching an [INPUT](./../input) that requires attention.
 
@@ -29,7 +28,5 @@ An example of use is as:
         CRT "Year end processing not started"
     END
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

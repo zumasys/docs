@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='dynamic arrays' vertical='middle' />
 
-# Description
+## Description
 
 The **OCONVS** function converts the elements of a dynamic.array to a specified format for external output. It takes the general form:
 
@@ -25,20 +25,16 @@ The output is returned in a dynamic array. If **dynamic.array** evaluates to nul
 
 The [STATUS function](./../status-function) reflects the result of the conversion:
 
-
 | Status | Description |
 | --- | --- |
-| 1<br> | The conversion is successful.<br> |
-| 1<br> | Passes an invalid element to the **OCONVS()** function; the original element is returned. If the invalid element is null, it returns null for that element.<br> |
-| 2<br> | The conversion code is invalid.<br> |
-
+| 1 | The conversion is successful. |
+| 1 | Passes an invalid element to the **OCONVS()** function; the original element is returned. If the invalid element is null, it returns null for that element. |
+| 2 | The conversion code is invalid. |
 
 ### International Mode
 
 Description of date, time, number and currency conversions when used in [ICONV](./../iconv) and International Mode.
 
 For information about converting elements in a dynamic array to an internal format see the [ICONVS](./../iconvs) function.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

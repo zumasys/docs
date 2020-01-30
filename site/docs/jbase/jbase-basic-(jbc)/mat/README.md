@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='array operations' vertical='middle' />
 
-# Description
+## Description
 
 The **MAT** command is used to either assign every element in a specified array to a single value or to assign the entire contents of one array to another. It takes the general form:
 
@@ -28,12 +28,9 @@ Where:
 - **Array, Array1** and **Array2** are pre-dimensioned previously declared arrays,
 - **expression** can evaluate to any data type.
 
-
-## Note: 
-
+## Note
 
 > If any element of the array Array2 has not been assigned a value then a runtime error message will occur. This can be avoided by coding the statement '**MAT** Array2 = "" ' after the [DIM](./../dimension-%28dim%29) statement.
-
 
 An example would be as:
 
@@ -46,7 +43,5 @@ CRT DQUOTE(ARR1(45))
 ```
 
 to display "Array value", even though it was initially assigned to A
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -11,7 +11,7 @@
 <badge text='record handling' vertical='middle' />
 <badge text='file handling' vertical='middle' />
 
-# Description
+## Description
 
 The **OPEN** statement opens a file or device to a descriptor variable. It takes the general form:
 
@@ -24,7 +24,6 @@ Where:
 - The combination of **expression1** and **expression2** should evaluate to a valid file name of a file type that already installed on the jBASE system. If the file has a dictionary section to be opened by the statement then specify by the literal string "DICT" being specified in **expression1**.
 - If specified, the **variable** will be used to hold the descriptor for the file. It should then be used to access the file via [READ](./../read) and [WRITE](./../write). If no file descriptor variable is supplied, then the file will be opened to the default file descriptor. Specific data sections of a multi level file may specified by separating the section name from the file name by a "," char in **expression2**.
 - If specifying the **SETTING** clause and the open fails, **setvar** will be set to one of [these values](./../incremental-file-errors).
-
 
 If the **OPEN** statement fails it will execute any statements associated with an **ELSE** clause. If the **OPEN** is successful, it will execute any statements associated with a **THEN** clause. The syntax requires either one or both of the THEN and ELSE clauses.
 
@@ -47,7 +46,5 @@ OPEN "CUSTOMERS" ELSE ABORT 201, "CUSTOMERS"
 ```
 
 to open the CUSTOMERS file to the default file variable.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -10,7 +10,7 @@
 <badge text='dimensioned array' vertical='middle' />
 <badge text='record handling' vertical='middle' />
 
-# Description
+## Description
 
 The **MATREAD** statement allows a record stored in a jBASE file to be read and mapped directly into a dimensioned array. It takes the general form:
 
@@ -26,7 +26,6 @@ Where:
 - If the record could not be read because another process already had a lock on the record then one of two actions is taken. If the **LOCKED** clause was specified in the statement then the statements dependent on it are executed. If no **LOCKED** clause was specified then the statement blocks (hangs)
 - until the other process releases the lock. If a **LOCKED** clause is used and the read is successful, a lock will be set.
 - If the **SETTING** clause is specified, **setvar** will be set to the number of fields in the record on a successful read. If the read fails, setvar will be set to one of [these values](./../incremental-file-errors).
-
 
 If **ON ERROR** is specified, it executes the statements following the **ON ERROR** clause for any of the above Incremental File Errors except error 128.
 
@@ -44,25 +43,21 @@ not
 Array(n)<m>
 ```
 
-
-
 An example of use is as:
 
 ```
-    OPEN "test_rec" TO file_variable ELSE ABORT 201, "test_rec"
-    DIM sample_arr(10)
+OPEN "test_rec" TO file_variable ELSE ABORT 201, "test_rec"
+DIM sample_arr(10)
 
-    MATREAD sample_arr FROM file_variable , 002 SETTING result_variable ON ERROR
-        CRT "Error number ":result_variable:" occurred, preventing record read."
-        STOP
-    END THEN
-        CRT 'Record read successfully'
-        CRT "Number of attributes in record = ": result_variable
-    END ELSE
-        CRT 'Record not on file'
-    END
+MATREAD sample_arr FROM file_variable , 002 SETTING result_variable ON ERROR
+    CRT "Error number ":result_variable:" occurred, preventing record read."
+    STOP
+END THEN
+    CRT 'Record read successfully'
+    CRT "Number of attributes in record = ": result_variable
+END ELSE
+    CRT 'Record not on file'
+END
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

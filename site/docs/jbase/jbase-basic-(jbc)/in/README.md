@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='external input' vertical='middle' />
 
-# Description
+## Description
 
 The **IN** statement allows the program to receive raw data from the input device, which is normally the terminal keyboard, one character at a time. It takes the general form:
 
@@ -22,7 +22,6 @@ Where:
 - **Var** will be assigned the numeric value (0 - 255 decimal) of the next character received from the input device. The statement will normally wait indefinitely (block) for a character from the keyboard.
 - Specifying the **FOR** clause to the **IN** statement allows the statement to stop waiting for keyboard after a specified amount of time. The expression should evaluate to a positive numeric value, which will be taken as the number of deci-seconds (tenths of a second) to wait before abandoning the input, at which time it will take the **ELSE** clause.
 - If **expression** is 0 (zero) then input will wait indefinitely until something is entered.  In D3 emulation, a value of 0 will automatically take the ELSE clause.
-
 
 The **FOR** clause must have either or both of the **THEN** or **ELSE** clauses If a character is received from the input device before the time-out period then Var is assigned its numeric value and the THEN clause is executed (if present). If the input statement times out before a character is received then Var is unaltered and the **ELSE** clause is executed (if present).
 
@@ -42,8 +41,6 @@ An example of use is as:
          CRT chr "R#4"
      REPEAT
 ```
-
-
 
 See also: [INPUT](./../input) , [INPUTNULL](./../inputnull).
 

@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='dynamic array' vertical='middle' />
 
-# Description 
+## Description
 
 The **INS** statement allows the insertion of elements into a dynamic array.
 
@@ -22,14 +22,11 @@ Where:
 - **expression** evaluates to the element to be inserted in the dynamic array.
 - **expression1** **expression2** and **expression3** should all evaluate to numeric values and specify the Field, Value and Sub-Value before which the new element is to be inserted.
 
-
-## Note: 
-
+## Note
 
 > Specifying a negative value to any of the expressions 1 through 3 will cause the element to append as the last Field, Value or Sub-Value rather than at a specific position. Only one expression may be negative otherwise only the first negative value is used correctly while the others are treated as the value 1.
-> 
+>
 > The statement will insert NULL Fields, Values or Sub-Values  accordingly if any of the specified insertion points exceeds the number currently existing.
-
 
 An example of use is as:
 
@@ -50,7 +47,5 @@ NEXT I
 ```
 
 to populate the respective arrays with values.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -6,16 +6,17 @@
 **Original ID:** 293268  
 **Internal:** No  
 
-
 ## Description
 
 The function finds information about a file's indexes. It takes the general form:
 
 ```
-INDICES(file_variable{,index-name}) 
+INDICES(file_variable{,index-name})
 ```
 
-This function has a dual purpose. In its first invocation whereby a single parameter is passed, assumed to be a file descriptor, will return a dynamic array of all the index names associated with the file. In its second invocation two parameters are passed, the first being a file variable again and the second the name of an index. In this case the return value from the function will be a dynamic array containing information about the specified index. In the second invocation, the dynamic array has the following attributes:
+This function has a dual purpose. In its first invocation whereby a single parameter is passed, assumed to be a file descriptor, will return a dynamic array of all the index names associated with the file.
+
+In its second invocation two parameters are passed, the first being a file variable again and the second the name of an index. In this case the return value from the function will be a dynamic array containing information about the specified index. In the second invocation, the dynamic array has the following attributes:
 
 - SORT criteria.
 This shows the components that the index is sorted by. For example if you want to create an index sorted left justified on attribute 1 and then sub-sorted right justified in descending order on attribute 2 you might create the index with "BY 1 BY-DR 2". In this example this attribute returned by INDICES would be "ALDR" to show the first index field is sorted ascending left justified and then sub-sorted descending right justified.
@@ -41,14 +42,9 @@ A numeric of 0 or 1. If a 1 is returned it shows the index data is in synchroniz
 - VALUE MAX count
 If the (Vnn option was used on a create-index command, this will limit us to the first nn values per attribute. This value is shown here. A value of 0 shows the option not in effect.
 
-
-## Note:
-
+## Note
 
 > An index has to be created first on a file before it can be returned by this function.
-
-
-
 
 The following code example show how a file called "CUSTOMERS" can have some of the information about all of its indexes displayed.
 
@@ -73,10 +69,6 @@ FOR index.next = 1 TO index.count
 NEXT index.next
 ```
 
-
-
-Attribute 12 returned with the INDICES function shows any option passed to create-index with the (Vnn) option and is therefore a count on the limit on the number of values extracted per attribute to create an index entry. By default this value is 0.
-
-
+Attribute 12 returned with the INDICES function shows any option passed to create-index with the (Vnn) option and is therefore a count on the limit of the number of values extracted per attribute to create an index entry. By default this value is 0.
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide)

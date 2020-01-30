@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='keyboard input' vertical='middle' />
 
-# Description
+## Description
 
 The **INPUTNULL** statement allows the definition of a character that will allow a null input to be seen by the [INPUT@](./../input) statement. It takes the general form:
 
@@ -21,13 +21,9 @@ Where **expression** should evaluate to a single character. Subsequently, any [
 
 If expression evaluates to the empty string '' then the default character of '\_' is used to define a NULL input sequence.
 
-
-
-## Note: 
-
+## Note
 
 > The [INPUT](./../input) statement does not default to accepting the '\_' character as a NULL input.
-
 
 An example of use is as:
 
@@ -38,7 +34,5 @@ An example of use is as:
         CRT "A NULL input was received"
     END
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

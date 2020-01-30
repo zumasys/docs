@@ -21,10 +21,8 @@ Where **expression** can return a result of any type.
 
 The function will return **TRUE** (1) if the expression consists of entirely lower case characters. The function will return **FALSE** (0) if the expression contains any characters, which are not upper case characters.
 
-## International Mode 
+## International Mode
 
 When the **ISUPPER()** function is used in International Mode, the properties of each character are determined according to the Unicode Standard.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -10,7 +10,7 @@
 <badge text='mathematical operations' vertical='middle' />
 <badge text='dynamic arays' vertical='middle' />
 
-# Description
+## Description
 
 The **MODS** function creates a dynamic array of the remainder after the integer division of corresponding elements of two dynamic arrays. It takes the general form:
 
@@ -35,7 +35,5 @@ CRT MODS(A,B)
 ```
 
 to display an array containing :  1 ,0 , 3.
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

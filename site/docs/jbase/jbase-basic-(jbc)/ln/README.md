@@ -9,9 +9,9 @@
 **Tags:**
 <badge text='mathematical operations' vertical='middle' />
 
-# Description
+## Description
 
-The **LN()** function returns the value of the natural logarithm of the supplied value. The function takes the general form:
+The **LN** function returns the value of the natural logarithm of the supplied value. The function takes the general form:
 
 ```
 LN(expression)
@@ -24,7 +24,5 @@ The calculation of the natural logarithm is by using the mathematical constant e
 ```
 CRT LN(22/7)
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

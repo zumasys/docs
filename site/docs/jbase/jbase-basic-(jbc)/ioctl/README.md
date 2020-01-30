@@ -6,8 +6,7 @@
 **Original ID:** 276732  
 **Internal:** No  
 
-
-# Description
+## Description
 
 This is an intrinsic function of the jBASE BASIC language, that behaves in a similar manner to the C function ioctl(). Its purpose is to allow commands to be sent to the database driver for a particular file, and then to receive a reply from the database driver. It takes the general form:
 
@@ -19,7 +18,6 @@ Where:
 
 - **filevar** Is a variable that has had a file opened against it using the [OPEN](./../open) statement. However, if the default file variable is preferred for use, **-1** should be placed in this position. For example:
 
-
 ```
 OPEN "MD" ELSE STOP
 filevar = -1
@@ -28,7 +26,6 @@ IF IOCTL(filevar, JIOCTL_COMMAND_xxx, status) ...
 
 - **command** can be any numeric value (or variable containing a numeric). However, it is up to the database driver to support that particular command number.
 - **parameter** will be different for each command that is used.
-
 
 As with the C function, the use of **IOCTL()** is highly dependent upon the database driver being communicated to. Each database driver may choose to provide certain common functionality, or may add its own commands and so on. This is especially true of user-written database drivers.
 
@@ -68,8 +65,6 @@ An example of use would be to open the file CUSTOMERS and find out the exact pat
 
 This command is executed by the jBASE BASIC library code rather than the jEDI library code or the database drivers, so it can be run against a file descriptor for any file type.
 
-
-
 ## **2. JIOCTL\_COMMAND\_CONVERT COMMAND**
 
 Some of the jBASE BASIC database drivers will perform an automatic conversion of the input and output record when performing reads and writes.
@@ -101,24 +96,20 @@ The output from the **IOCTL()** can optionally be a string to show the last conv
 
 The descriptions of the available controls that can be passed as input to this **IOCTL()** function are:
 
-
-| Code<br> | Description<br> |
+| Code | Description |
 | --- | --- |
-| RB<br><br> | All future reads to be in binary (no conversion)<br> |
-| RT<br> | All future reads to be in text format (always do a conversion)<br> |
-| RI<br> | All future reads to decide themselves whether binary or text<br> |
-| RS<br> | Return to caller the status of the last read ("B" = binary, "T" = text )<br> |
-| WB<br> | All future writes to be in binary (no conversion)<br> |
-| WT<br> | All future writes to be in text format (always do a conversion)<br> |
-| WI<br> | All future writes to decide themselves whether binary or text<br> |
-| WS<br> | Return to caller the status of the last write ("B" = binary, "T" = text )<br> |
-| KB<br> | All future reads/writes have the record key unaltered<br> |
-| KT<br> | All future reads/writes have the record key modified<br> |
-| KI<br> | All future reads/writes to decide if to do a conversion<br> |
-| KS<br> | Return to caller the status of the last record key ("B" = binary, "T" = text )<br> |
-
-
-
+| RB | All future reads to be in binary (no conversion) |
+| RT | All future reads to be in text format (always do a conversion) |
+| RI | All future reads to decide themselves whether binary or text |
+| RS | Return to caller the status of the last read ("B" = binary, "T" = text ) |
+| WB | All future writes to be in binary (no conversion) |
+| WT | All future writes to be in text format (always do a conversion) |
+| WI | All future writes to decide themselves whether binary or text |
+| WS | Return to caller the status of the last write ("B" = binary, "T" = text ) |
+| KB | All future reads/writes have the record key unaltered |
+| KT | All future reads/writes have the record key modified |
+| KI | All future reads/writes to decide if to do a conversion |
+| KS | Return to caller the status of the last record key ("B" = binary, "T" = text ) |
 
 In the example below, the application wants to open a file, and to ensure that all reads and writes to that file are in binary, and that no translation such as new-lines to attribute marks is performed.
 
@@ -129,8 +120,6 @@ In the example below, the application wants to open a file, and to ensure that a
          CRT "UNABLE TO IOCTL FILE 'FILE'" ; EXIT(2)
      END
 ```
-
-
 
 The sample code below reads a record from a file, and finds out if the last record read was in text format (were new-lines converted to attribute marks and the trailing new-line deleted), or in binary format (with no conversion at all).
 
@@ -146,32 +135,24 @@ The sample code below reads a record from a file, and finds out if the last reco
      END
 ```
 
-
-
-# **3. JIOCTL\_COMMAND\_FILESTATUS COMMAND**
+## **3. JIOCTL\_COMMAND\_FILESTATUS COMMAND**
 
 The **JIOCTL\_COMMAND\_FILESTATUS** command will return an attribute delimited list of the status of the file to the caller.
 
-
-
-
-| Attribute<br> | Description<br> |
+| Attribute | Description |
 | --- | --- |
-| &lt;1&gt;<br> | File type, as a string<br> |
-| &lt;2&gt;<br> |  FileFlags, as decimal number, show LOG, BACKUP and TRANS<br> |
-| &lt;3&gt;<br> | BucketQty, as decimal number, number of buckets in the file<br> |
-| &lt;4&gt;<br> | BucketSize, as decimal number, size of each bucket in bytes<br> |
-| &lt;5&gt;<br> | SecSize, as decimal number, size of secondary data space<br> |
-| &lt;6&gt;<br> | Restore Spec, a string showing any restore re-size specification<br> |
-| &lt;7&gt;<br> | Locking identifiers, separated by multi-values<br> |
-| &lt;8&gt;<br> | FileFlags showing LOG, BACKUP and TRANSACTION permissions<br> |
-| &lt;8,1&gt;<br><br> | Set to non-zero to suppress logging on this file<br> |
-| &lt;8,2&gt;<br><br> | Set to non-zero to suppress transaction boundaries on this file<br> |
-| &lt;8,3&gt;<br> | Set to no-zero to suppress backup of the file using jbackup<br> |
-| &lt;9&gt;<br> | Hashing algorithm used<br> |
-
-
-
+| &lt;1&gt; | File type, as a string |
+| &lt;2&gt; |  FileFlags, as decimal number, show LOG, BACKUP and TRANS |
+| &lt;3&gt; | BucketQty, as decimal number, number of buckets in the file |
+| &lt;4&gt; | BucketSize, as decimal number, size of each bucket in bytes |
+| &lt;5&gt; | SecSize, as decimal number, size of secondary data space |
+| &lt;6&gt; | Restore Spec, a string showing any restore re-size specification |
+| &lt;7&gt; | Locking identifiers, separated by multi-values |
+| &lt;8&gt; | FileFlags showing LOG, BACKUP and TRANSACTION permissions |
+| &lt;8,1&gt; | Set to non-zero to suppress logging on this file |
+| &lt;8,2&gt; | Set to non-zero to suppress transaction boundaries on this file |
+| &lt;8,3&gt; | Set to no-zero to suppress backup of the file using jbackup |
+| &lt;9&gt; | Hashing algorithm used |
 
 Open a file and see if the file type is a directory.
 
@@ -191,8 +172,6 @@ Open a file and see if the file type is a directory.
      END
 ```
 
-
-
 Open a file ready to perform file operations in a transaction against it. Make sure the file has not been removed as a transaction type file by a previous invocation of the command **jchmod -T CUSTOMERS**.
 
 ```
@@ -208,8 +187,6 @@ Open a file ready to perform file operations in a transaction against it. Make s
          EXIT(2)
      END
 ```
-
-
 
 This code tests whether or not a file is encrypted:
 
@@ -232,8 +209,7 @@ This code tests whether or not a file is encrypted:
      END
 ```
 
-## 
-**4. JIOCTL\_COMMAND\_FINDRECORD COMMAND**
+## 4. JIOCTL\_COMMAND\_FINDRECORD COMMAND**
 
 This command will find out if a record exists on a file without the need to actually read in the record.
 
@@ -258,13 +234,11 @@ Before writing out a control record, make sure it doesn't already exist. As the 
      END CASE
 ```
 
-
-
-## **5. JIOCTL\_COMMAND\_FINDRECORD\_EXTENDED COMMAND**
+## 5. JIOCTL\_COMMAND\_FINDRECORD\_EXTENDED COMMAND
 
 This command to the **IOCTL()** function returns the record size and the time and date the record was last updated. If the record does not exist, null is returned. The time/date stamp is returned in UTC format.
 
-**EXAMPLE**
+## Example #1
 
 Display the time and data of last update for each record in filename.
 
@@ -300,15 +274,12 @@ Display the time and data of last update for each record in filename.
     REPEAT
 ```
 
-
-
-## **6.**JIOCT**L\_COMMAND\_HASH\_RECORD COMMAND**
+## 6.**JIOCT**L\_COMMAND\_HASH\_RECORD COMMAND
 
 For jBASE hashed files, j4 and jPlus, each record is pseudo-randomly written to one of the buckets (or groups) of the hashed file. The actual bucket it is written to depends upon two factors:
 
 - The actual record key (or item-id)
 - The number of buckets in the file (or modulo)
-
 
 This **IOCTL()** function shows which bucket number the record would be found in, given the input record key. The bucket number is in the range 0 to (b-1) where b is the number of buckets in the file specified when the file was created (probably using [CREATE-FILE](./../create)).
 
@@ -318,7 +289,7 @@ Two attributes are returned by this command. The first is the hash value that th
 
 This command will always return "0" (zero) for type JD (Dynamic) files.
 
-**EXAMPLE**
+## Example #2
 
 Open a file, and find out what bucket number the record "PIPE&SLIPPER" would be found in.
 
@@ -334,13 +305,11 @@ Open a file, and find out what bucket number the record "PIPE&SLIPPER" would be 
     END
 ```
 
-
-
-## **7. JIOCTL\_COMMAND\_HASH\_LOCK COMMAND**
+## 7. JIOCTL\_COMMAND\_HASH\_LOCK COMMAND
 
 The jEDI locking mechanism for records in jEDI provided database drivers is not strictly a 100% record locking mechanism. Instead, it uses the hashed value of the record key to give a value from 0 to 230-1 to describe the record key. The **IOCTL()** function can be used to determine how a record key would be converted into a hashed value for use by the locking mechanism.
 
-**EXAMPLE**
+## Example #3
 
 Lock a record in a file and find out what the lock id of the record key is. The example then calls the jRLA locking demon and the display of locks taken should include the lock taken by this program.
 
@@ -358,18 +327,8 @@ Lock a record in a file and find out what the lock id of the record key is. The 
     CRT "Our process id is " : getpid()
 ```
 
-
-
-## Note: 
-
+## Note
 
 > The status return value is 0 for failure, or 1 for success. A value of -1 generally shows the command has not been recognized.
 
-
-
-
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
-
-
-
-
