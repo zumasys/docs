@@ -6,16 +6,13 @@
 **Original ID:** 278986  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The function returns a unique 16-byte character key, that it generates at each call to the function.  It takes the general form:
 
 ```
 UNIQUEKEY()
 ```
-
-
 
 The key contains characters from the set A-Z a-z 0-9 ^ and \_.
 
@@ -27,8 +24,8 @@ Any process that continues to execute throughout this period will continue to pr
 
 A process that starts up during this period and is given the process ID of a process that terminated during the period, may possibly generate a duplicate key until the period ends.
 
-**Note**
+## Note
 
-Change **5\_20431** changed the '+' and '/' to '^' and '\_' respectively.
+ > Change **5\_20431** changed the '+' and '/' to '^' and '\_' respectively.
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

@@ -6,8 +6,7 @@
 **Original ID:** 278802  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **TIME** function returns the current system time. It takes the general form:
 
@@ -20,7 +19,5 @@ It returns the time as the number of seconds past midnight, as illustrated by:
 ```
 CRT "Time is ":OCONV(TIME(), "MTS")
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

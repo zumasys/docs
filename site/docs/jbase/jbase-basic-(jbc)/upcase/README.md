@@ -6,7 +6,6 @@
 **Original ID:** 279556  
 **Internal:** No  
 
-
 See also: [DOWNCASE/UPCASE.](./../downcase-&-upcase)
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

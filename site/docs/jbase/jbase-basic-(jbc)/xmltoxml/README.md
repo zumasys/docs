@@ -6,8 +6,7 @@
 **Original ID:** 279579  
 **Internal:** No  
 
-
-# Description
+## Description
 
 This function transforms XML using a given XSL. It takes the general form:
 
@@ -17,11 +16,11 @@ XMLTOXML(xml,xsl,result)
 
 Where:
 
-XML is to be transformed using XSL.
+**xml** is to be transformed using **xsl**.
 
 Given:
 
-**XSL CONTENTS**
+## XSL CONTENTS
 
 ```
 <?xml version="1.0" ?>
@@ -33,7 +32,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 </xsl:stylesheet>
 ```
 
-**XML CONTENTS**
+## XML CONTENTS
 
 ```
 <list>
@@ -57,12 +56,8 @@ to display:
 
 &lt;p&gt;Bob&lt;/p&gt;&lt;p&gt;Amy&lt;/p&gt;
 
+If **result** = 0, XML\_VAR will contain a transformed version of **xml** using **xsl**.
 
-
-If result=0, XML\_VAR will contain a transformed version of xml using xsl.
-
-If result=1, XML\_VAR will hold an error message.
-
-
+If **result** = 1, XML\_VAR will hold an error message.
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

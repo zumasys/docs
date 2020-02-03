@@ -6,8 +6,7 @@
 **Original ID:** 279568  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **WRITE** statement allows a program to write a record into a previously opened file.
 
@@ -22,7 +21,6 @@ Where:
 - the **expression** should evaluate to a valid record key for the file.
 - If specifying the SETTING clause and the write fails, it sets **setvar** to one of the [these values](./../incremental-file-errors).
 
-
 If holding a lock on the record by this process, it is released by the [WRITE](./.). If it is desired to retain a lock on a record, it should be stated explicitly with the [WRITEU](./../writeu) statement.
 
 An example of use would be as:
@@ -34,7 +32,5 @@ WRITE Rec ON DCusts, "Xref" ON ERROR
     CRT "Xref not written to DICT Customers"
 END
 ```
-
-
 
 Go back to[jBASE BASIC](./../jbase-basic-programmers-reference-guide).

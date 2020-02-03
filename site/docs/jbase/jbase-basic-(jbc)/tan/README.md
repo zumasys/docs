@@ -6,8 +6,7 @@
 **Original ID:** 278843  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **TAN** function returns the mathematical tangent of an angle. It takes the general form:
 
@@ -17,7 +16,7 @@ TAN(expression)
 
 Where:
 
-expression must evaluate to a numeric type.
+**expression** must evaluate to a numeric type.
 
 The function calculates the result at the highest precision available on the host system; it truncates the result to the current [PRECISION](./../precision) after calculation.
 
@@ -32,7 +31,5 @@ CRT "Opposite length = ":TAN(ANGLE)*ADJACENT
 ```
 
 to display:  Opposite length = 28.14
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

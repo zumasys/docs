@@ -6,8 +6,7 @@
 **Original ID:** 279578  
 **Internal:** No  
 
-
-# Description 
+## Description
 
 This function converts XML to a dynamic array. Optionally, a transform may be used to convert the XML content. The function takes the general form:
 
@@ -17,13 +16,13 @@ XMLTODYN(XML,XSL,result)
 
 Where:
 
-XML is the content to be converted,
+**XML** is the content to be converted,
 
-XSL is the optional transform
+**XSL** is the optional transform
 
-If result = 0,  Array will contain a dynamic array built from the xml / xsl
+If **result** = 0,  Array will contain a dynamic array built from the xml / xsl
 
-If result != 0, Array will contain an error message
+If **result** != 0, Array will contain an error message
 
 There is no requirement for xsl if generic xml is being reconverted to dynarray. An example of use is as:
 
@@ -51,7 +50,7 @@ CRT CHANGE(a,@AM," ")
 
 given:
 
-**XML CONTENTS**
+## XML CONTENTS
 
 ```
 <?xml version="1.0" encoding="UTF-8"?>
@@ -64,7 +63,7 @@ given:
 
 and
 
-**XSL CONTENTS**
+## XSL CONTENTS
 
 ```
 <xsl:template match="mycustomer">
@@ -83,7 +82,5 @@ and
 </data>
 </xsl:template>
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

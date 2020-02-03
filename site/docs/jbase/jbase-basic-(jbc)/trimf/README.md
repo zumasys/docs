@@ -6,9 +6,6 @@
 **Original ID:** 278980  
 **Internal:** No  
 
-
 The **TRIMF** function is equivalent to [TRIM(expression, " ", "L")](./../trim).
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

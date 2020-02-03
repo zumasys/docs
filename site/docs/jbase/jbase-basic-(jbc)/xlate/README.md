@@ -6,10 +6,9 @@
 **Original ID:** 279577  
 **Internal:** No  
 
+## Description
 
-# Description
-
-The**XLATE**function will return the data value of a field, given the name of the file, the record key, the field number, and an action code. It takes the general form:
+The **XLATE** function will return the data value of a field, given the name of the file, the record key, the field number, and an action code. It takes the general form:
 
 ```
 XLATE ([DICT] filename, key, field#, action.code)
@@ -17,27 +16,24 @@ XLATE ([DICT] filename, key, field#, action.code)
 
 Where:
 
-DICT is the literal string to be placed before the file name in the event it is desired to open the dictionary portion of the file, rather than the data portion.
+**DICT** is the literal string to be placed before the file name in the event it is desired to open the dictionary portion of the file, rather than the data portion.
 
-filename is a string containing the name of the file to be accessed. Note that it is the actual name of the file, and not a file unit variable. This function requires the file name, regardless of whether or not the file has been opened to a file unit variable.
+**filename** is a string containing the name of the file to be accessed. Note that it is the actual name of the file, and not a file unit variable. This function requires the file name, regardless of whether or not the file has been opened to a file unit variable.
 
-key is an expression that evaluates to the record key, or item ID, of the record from which data is to be accessed.
+**key** is an expression that evaluates to the record key, or item ID, of the record from which data is to be accessed.
 
-field# is the field number to be retrieved from the record.
+**field#** is the field number to be retrieved from the record.
 
-action.code indicates the procedure if the field is null, or cannot find the if record. This is a literal, which may be:
+**action.code** indicates the procedure if the field is null, or cannot find the if record. This is a literal, which may be:
 
 
 | <!----> | <!----> |
 | --- | --- |
-| X<br> | Returns a null string. This is the default action<br> |
-| V<br> | Prints an error message.<br> |
-| C<br> | Returns the value of key<br> |
+| X | Returns a null string. This is the default action |
+| V | Prints an error message. |
+| C | Returns the value of key |
 
-
-
-
-If the field being accessed is a dynamic array, **XLATE**will return the array with the delimiter characters lowered by 1. For example, multivalue marks (ASCII-253) are returned as subvalue marks (ASCII-252), and subvalue marks are returned as text marks (ASCII-251). If supplied -1 for field#, it returns the entire record.
+If the field being accessed is a dynamic array, **XLATE** will return the array with the delimiter characters lowered by 1. For example, multivalue marks (ASCII-253) are returned as subvalue marks (ASCII-252), and subvalue marks are returned as text marks (ASCII-251). If supplied -1 for field#, it returns the entire record.
 
 Examples of use include:
 
@@ -84,12 +80,10 @@ using the statements:
 ```
 DICT.ID = "VENDOR.NAME"
 DICT.REC = XLATE("DICT VENDORS",VENDOR.ID,-1,"C")
-PRINT DICT.RECwill display
+CRT DICT.REC
 ```
 
 to display: A]1]Vendor Name]]]]]L]30
-
-
 
 See also: [TRANS](./../trans).
 

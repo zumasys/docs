@@ -6,8 +6,7 @@
 **Original ID:** 278981  
 **Internal:** No  
 
-
-# Description
+## Description
 
 This function removes all leading spaces and tabs from each element of dynamic array, reducing multiple occurrences of spaces and tabs to a single space or tab . It takes the general form:
 
@@ -15,8 +14,6 @@ This function removes all leading spaces and tabs from each element of dynamic a
 TRIMFS(dynamic.array)
 ```
 
-If dynamic.array evaluates to null, null is returned. If any element of dynamic.array is null, it returns null for that value.
-
-
+If **dynamic.array** evaluates to null, null is returned. If any element of **dynamic.array** is null, it returns null for that value.
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

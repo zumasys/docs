@@ -6,8 +6,7 @@
 **Original ID:** 279575  
 **Internal:** No  
 
-
-# Description
+## Description
 
 This writes a dynamic array in XML format to a hash file. It first transforms the XML into a dynamic array before being written to the file. The transform takes place using the style sheet in DICT-&gt;@WRITEXML. An XML record is thus written to a hash file. It may take the general form:
 
@@ -20,7 +19,5 @@ An example of use would be as:
 ```
 WRITEXML rec ON file,id ON ERROR CRT "Broken! " : rec
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

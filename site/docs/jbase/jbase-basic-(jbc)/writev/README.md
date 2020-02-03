@@ -6,8 +6,7 @@
 **Original ID:** 279574  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **WRITEV** statement allows a program to write a specific field of a record in a previously opened file. It takes the general form:
 
@@ -17,17 +16,15 @@ WRITEV variable1 ON|TO {variable2,} expression1, expression2 {SETTING setvar} {O
 
 Where:
 
-variable1 is the identifier holding the record to be written.
+**variable1** is the identifier holding the record to be written.
 
-variable2, if specified, should be a jBASE BASIC variable that has previously been opened to a file using the [OPEN](./../open) statement. If variable2 is not specified then it assumes the default file.
+**variable2**, if specified, should be a jBASE BASIC variable that has previously been opened to a file using the [OPEN](./../open) statement. If **variable2** is not specified then it assumes the default file.
 
-expression1 should evaluate to a valid record key for the file.
+**expression1** should evaluate to a valid record key for the file.
 
-expression2 should evaluate to a positive integer number. If the number is greater than the number of fields in the record, it will add null fields to variable1. If expression2 evaluates to a non-numeric argument, it will generate a run time error.
+**expression2** should evaluate to a positive integer number. If the number is greater than the number of fields in the record, it will add null fields to **variable1**. If **expression2** evaluates to a non-numeric argument, it will generate a run time error.
 
-If the SETTING clause is specified and the write fails, it sets setvar to one of [these values](./../incremental-file-errors).
-
-
+If the **SETTING** clause is specified and the write fails, it sets **setvar** to one of [these values](./../incremental-file-errors).
 
 The **WRITEV** statement will cause the release of any lock held on the record by this program. If you wish to retain a lock on the record, do so explicitly with the [WRITEVU](./../writevu) statement.
 
@@ -42,7 +39,5 @@ WRITEV Rec ON DCusts, "Xref",7 Setting Err ON ERROR
     ABORT
 END
 ```
-
-
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).

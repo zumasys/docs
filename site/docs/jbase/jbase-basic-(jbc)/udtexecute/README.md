@@ -6,9 +6,6 @@
 **Original ID:** 279555  
 **Internal:** No  
 
-
 See also: [EXECUTE](./../execute).
 
-Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
-
-
+Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide)
