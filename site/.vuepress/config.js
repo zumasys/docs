@@ -39,7 +39,6 @@ module.exports = {
       ["/docs/zumasys/accuterm-mobile/", "AccuTerm Mobile"],
       ["/docs/zumasys/accuterm-web/", "AccuTerm Web"],
       ["/docs/zumasys/customer-portal/", "Customer Portal"],
-      ["/docs/zumasys/internal-applications/", "Internal Applications"],
       ["/docs/zumasys/mv-dashboard/", "MV Dashboard"],
       ["/docs/zumasys/mvconnect/", "MV Connect"]
     ],

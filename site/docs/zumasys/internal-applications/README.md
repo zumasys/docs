@@ -1,4 +1,0 @@
-# Internal Applications
-
-## Topics
-
