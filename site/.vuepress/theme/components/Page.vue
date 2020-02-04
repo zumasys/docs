@@ -2,11 +2,13 @@
   <main class="page">
     <slot name="top" />
 
-    <Content class="theme-default-content" />
+      <div class="theme-default-content">
+        <Breadcrumbs />
 
-    <div class="theme-default-content">
-      <Vssue />
-    </div>
+        <Content />
+
+        <Vssue />
+      </div>
 
     <PageEdit />
 
@@ -19,9 +21,10 @@
 <script>
 import PageEdit from "@parent-theme/components/PageEdit.vue";
 import PageNav from "@parent-theme/components/PageNav.vue";
+import Breadcrumbs from "@theme/components/Breadcrumbs.vue";
 
 export default {
-  components: { PageEdit, PageNav },
+  components: { Breadcrumbs, PageEdit, PageNav },
   props: ["sidebarItems"]
 };
 </script>
