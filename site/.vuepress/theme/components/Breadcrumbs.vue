@@ -38,22 +38,7 @@
 </script>
 
 <style lang="stylus" scoped>
-  nav
-    margin-bottom 0
-    background-color #B0BEC5
-    height 64px
-    line-height 64px
-
-    .nav-wrapper
-      position: relative
-      height 100%
-
-  .breadcrumb
-    &::before
-      content "/"
-      font-family inherit
-      font-size inherit
-
-    &:last-child
-      cursor default
+.bread-crumbs   
+  .bread-crumb
+    font-size: .7em
 </style>
