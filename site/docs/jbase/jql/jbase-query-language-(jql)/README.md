@@ -6,7 +6,6 @@
 **Original ID:** 324519  
 **Internal:** No  
 
-
 [Overview](./../jql)
 
 [Defaults](./../defaults)
@@ -19,9 +18,7 @@
 
 [I Types](./../conversion-processing/i-types)
 
-
-
-## JQL commands 
+## JQL commands
 
 
 | <!----> | <!----> |
@@ -41,6 +38,3 @@
 | [SORT-LABEL](./../sort-label)<br> | Outputs data in a format suitable for producing labels.<br> |
 | [SREFORMAT](./../srefformat)<br> | Generates a sorted formatted report of records and fields to a file or tape.<br> |
 | [SSELECT](./../sselect)<br> | Generates an sorted list of record keys or fields based on the criteria specified.<br> |
-
-
-
