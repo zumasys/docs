@@ -172,7 +172,7 @@
 <badge text='break' vertical='middle' />
 <badge text='by.dsnd' vertical='middle' />
 
-## Overview 
+## Overview
 
 The jBASE Query Language (jQL) is a powerful and easy to use facility which allows you to retrieve data from the database in a structured manner and to present the data in a flexible and easily understood format. The language is characterized by the use of intuitive commands that resemble everyday English language commands. For example, if you wanted to review a particular set of sales figures you might phrase your request like this:
 
@@ -198,9 +198,7 @@ The data definition records are simple to create and maintain. They allow you to
 
 Input and output conversion codes can also be used to manipulate the data by performing mathematical functions, concatenating fields, or by extracting specific data from the field.
 
-
-
-## jQL Command Sentence Construction 
+## jQL Command Sentence Construction
 
 A jQL command sentence must contain at least a command and a file name. The command specifies the process to be performed and the filename indicates the initial data source.
 
@@ -212,32 +210,25 @@ jQL-command file-specifier {record-list} {selection-criteria} {sort-criteria} {U
 
 where:
 
-- jQL-command is one of the verb-like commands detailed later. Most commands will accept any or all of the optional clauses.
-- file-specifier identifies the main data file to be processed. Usually the data section of a file, but could be a dictionary or a secondary data area.
-- record-list defines which records will be eligible for processing. Comprises an explicit list of record keys or record selection clauses. An explicit list comprises one or more record keys enclosed in single or double quotes. A selection clause uses value strings enclosed in single or double quotes and has at least one relational operator. If no record list is supplied, all records in the file will be eligible for processing unless an "implicit" record list is provided by preceding the command with a selection command such as GET-LIST or SELECT.
-- selection-criteria qualify the records to be processed. Comprises a selection connective (WITH or IF) followed by a field name. Field names can be followed by relational operators and value strings enclosed in double quotes.
-- sort-criteria specify the order in which data is to be listed. Comprises a sort modifier, such as BY or BY-DSND ( aka BY.DSND ), followed by a field name. Can also be used to "explode" a report by sorting lines corresponding to multivalued fields by value, and to limit the output of values (see output-specification).
-- USING file-specifier defines an alternate file to be used as the dictionary. There is no restriction of the number of USING clauses that can be included in a jQL sentence.
-- output-specification comprises the names of fields to be included in the report, optionally preceded by the TOTAL or BREAK-ON connective. Print limiters (values enclosed in double quotes after the field name, optionally preceded by relational operators) can be used to restrict multivalue output.
-- format-specification comprises modifiers, such as HEADING, ID-SUPP, and DBL-SPC, that define the overall format of the report.
-- options comprise letters enclosed in parentheses which modify the action of the command - to redirect output to a printer for example.
+- **jQL-command** is one of the verb-like commands detailed later. Most commands will accept any or all of the optional clauses.
+- **file-specifier** identifies the main data file to be processed. Usually the data section of a file, but could be a dictionary or a secondary data area.
+- **record-list** defines which records will be eligible for processing. Comprises an explicit list of record keys or record selection clauses. An explicit list comprises one or more record keys enclosed in single or double quotes. A selection clause uses value strings enclosed in single or double quotes and has at least one relational operator. If no record list is supplied, all records in the file will be eligible for processing unless an "implicit" record list is provided by preceding the command with a selection command such as GET-LIST or SELECT.
+- **selection-criteria** qualify the records to be processed. Comprises a selection connective (WITH or IF) followed by a field name. Field names can be followed by relational operators and value strings enclosed in double quotes.
+- **sort-criteria** specify the order in which data is to be listed. Comprises a sort modifier, such as BY or BY-DSND ( aka BY.DSND ), followed by a field name. Can also be used to "explode" a report by sorting lines corresponding to multivalued fields by value, and to limit the output of values (see output-specification).
+- **USING** file-specifier defines an alternate file to be used as the dictionary. There is no restriction of the number of USING clauses that can be included in a jQL sentence.
+- **output-specification** comprises the names of fields to be included in the report, optionally preceded by the TOTAL or BREAK-ON connective. Print limiters (values enclosed in double quotes after the field name, optionally preceded by relational operators) can be used to restrict multivalue output.
+- **format-specification** comprises modifiers, such as HEADING, ID-SUPP, and DBL-SPC, that define the overall format of the report.
+- **options** comprise letters enclosed in parentheses which modify the action of the command - to redirect output to a printer for example.
 
-
-
-
-## Note:
-
+## Note
 
 > Any element of a jQL command sentence (with the exception of the command and filename) can be substituted with a macro.
-> 
+>
 > When the REQUIRE-SELECT (or REQUIRE.SELECT) modifier is included in a jQL sentence, it ensures that a select-list must be active before processing the sentence.
-> 
+>
 > When the REQUIRE-INDEX (or REQUIRE-INDEX) modifier is included in a jQL sentence, it ensures that a secondary index must be used for the selection.
 
-
-
-
-## Reserved words and symbols 
+## Reserved words and symbols
 
 The following words and symbols have specific meanings when used in a jQL sentence. They should only be used as described later in this chapter and should not be used as user-defined dictionary names.
 
@@ -285,22 +276,15 @@ The following words and symbols have specific meanings when used in a jQL senten
 | VERT<br> | VERTICALLY<br> |
 | WHEN<br> | WITH<br> | WITHEACH<br> | WITHIN<br> | WITHOUT<br> |
 
-
-
-
 In most cases, a '-' in a compound word can be substituted for a '.' (e.g. LIST-LABEL is synonymous with LIST.LABEL), and those synonyms are also reserved. However, words in the table with a '.' have no equivalent word with a '-' (e.g. there is no ASSOC-WITH word).
 
-
-
-## Entering a JQL Command Sentence 
+## Entering a JQL Command Sentence
 
 A jQL command sentence is entered at the shell in response to a command prompt (:) or a select prompt (&gt;). The select prompt is displayed if an implicit record list has been created by a command such as SELECT or GET-LIST whilst in jSHELL. Each sentence must start with a jQL command and can be of any length. Having constructed your sentence, you submit it for processing by pressing the RETURN key.
 
 If an invalid command is entered,  the system will reject it and display an appropriate error message.
 
-
-
-### EXAMPLE
+### Example
 
 ```
 SORT SALES WITH PART.NO = "ABC]" BY POSTCODE CUST.NAME POSTCODE TOTAL VALUE DBL-SPC HDR-SUPP SAMPLE 100 (P
@@ -308,23 +292,19 @@ SORT SALES WITH PART.NO = "ABC]" BY POSTCODE CUST.NAME POSTCODE TOTAL VALUE DBL-
 
 where:
 
-
 | <!----> | <!----> | <!----> | <!----> | <!----> |
 | --- | --- | --- | --- | --- |
-| SORT<br> | is the jQL command.<br> |
-| SALES<br> | is the filename.<br> |
-| WITH PART.NO = "ABC]"<br> | is the selection criterion. Select all records which contain a part number that starts with ABC.<br> |
-| BY POSTCODE<br> | is the sort criterion.<br> |
-| CUST.NAME POSTCODE TOTAL VALUE<br> | is the output specification. Column 1 will contain the key of the SALES file, column 2 will contain the customer name and column 3 will contain the POSTCODE. Column 4 will contain VALUE and will be totaled at the end of the report.<br> |
-| DBL-SPC HDR-SUPP<br> | are the format specifications. Double-space the lines and suppress the automatic header.<br> |
-| SAMPLE 100<br> | take the first 100 records as a sample<br> |
-| (P<br> | is an option. Redirect output to the system printer, rather than to the terminal.<br> |
-| PART.NO, CUST.NAME, POSTCODE, VALUE<br> | are references to data definition records which are defined in the dictionary level of the SALES file.<br> |
+| SORT | is the jQL command. |
+| SALES | is the filename. |
+| WITH PART.NO = "ABC]" | is the selection criterion. Select all records which contain a part number that starts with ABC. |
+| BY POSTCODE | is the sort criterion. |
+| CUST.NAME POSTCODE TOTAL VALUE | is the output specification. Column 1 will contain the key of the SALES file, column 2 will contain the customer name and column 3 will contain the POSTCODE. Column 4 will contain VALUE and will be totaled at the end of the report. |
+| DBL-SPC HDR-SUPP | are the format specifications. Double-space the lines and suppress the automatic header. |
+| SAMPLE 100 | take the first 100 records as a sample |
+| (P | is an option. Redirect output to the system printer, rather than to the terminal. |
+| PART.NO, CUST.NAME, POSTCODE, VALUE | are references to data definition records which are present at the dictionary level of the SALES file. |
 
-
-
-
-## Default Data Definition Records 
+## Default Data Definition Records
 
 When you issue a jQL command that does not contain specific references to data definition records, and you do not suppress output of the report detail, the system will attempt to locate any default data definition records that you may have set up.
 
@@ -336,53 +316,37 @@ For example, if you issue the command "LIST SALES VALUE", the system will look i
 
 In this way, you can set up data-specific, file-specific or account-specific defaults to be used with any jQL command.
 
-
-
-## jQL Output (Reports) 
+## jQL Output (Reports)
 
 By default, output from a jQL command will be displayed on your terminal, in columnar format, with a pause at the end of each page (screenful).
 
-
-
-### OUTPUT DEVICE
+### Output Device
 
 You can redirect the output to a printer (or the currently-assigned Spooler device) by using the LPTR format specifier or the P option.
 
-
-
-### REPORT LAYOUT
+### Rerport Layout
 
 If the columnar report will not fit in the current page width of the output device, it will be output in "non-columnar" format where each field of each record occupies one row on the page.
 
-
-
-### PAGING
+### Paging
 
 If the report is displayed at the terminal and extends over more than one screen, press RETURN to view the next screen. To exit the report without displaying any remaining screens, press &lt;Control X&gt; or "q".
 
+### BREAK-ON Options (Summary)
 
+B - The break value appears in the heading; requires the use of 'B' in the HEADING  
+D - Suppresses the break data line if only one control break  
+L -  Suppresses the blank line at a control break  
+N - Resets the page number  
+P - Ejects a page on a control break  
+U - Underlines TOTAL fields  
+V  - Inserts the Value at the control break  
 
-### BREAK-ON OPTIONS (Summary)
+### Options (Summary)
 
-B - The break value appears in the heading; requires the use of 'B' in the HEADING
-D - Suppresses the break data line if only one control break
-L  -  Suppresses the blank line at a control break
-N - Resets the page number
-P  - Ejects a page on a control break
-U - Underlines TOTAL fields
-V  - Inserts the Value at the control break
-
-
-
-### OPTIONS (Summary)
-
-C  Display running Counters. See SSELECT for details.
-N  Suppress paging (i.e. Nopage)
-P  Send output to the spooler
-R  Suppress 'Error 202 Record not on file' errors
-
-
+C - Display running Counters. See SSELECT for details.  
+N - Suppress paging (i.e. Nopage)  
+P - Send output to the spooler  
+R - Suppress 'Error 202 Record not on file' errors  
 
 Back to [jBASE Query Language (JQL)](jbase-query-language-jql-)
-
-

@@ -1,4 +1,4 @@
-# JQL 
+# JQL
 
 ## Topics
 
@@ -26,4 +26,3 @@
 [sselect](./sselect)  
 [sublists---v-code](./sublists---v-code)  
 [subroutines](./subroutines)  
-

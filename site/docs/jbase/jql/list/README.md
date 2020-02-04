@@ -17,19 +17,13 @@ Generates a formatted report of records and fields from a specified file. It tak
 LIST file-specifier {record-list} {selection-criteria} {sort-criteria} {USING file-specifier} {output-specification} {format-specification} {(options}
 ```
 
-
-
-## Note: 
-
+## Note
 
 > If an output specification clause is not provided, the system will search for default data definition records (named 1, 2, 3 and so on) in the file's dictionary and then in the file specified in the JEDIFILENAME\_MD environment variable. If default data definition records cannot be found then only the record keys will be listed.
 
-
 The records will not be sorted unless sort criteria clause is specified.
 
-
-
-### EXAMPLE 1
+### Example 1
 
 ```
 LIST SALES
@@ -37,9 +31,7 @@ LIST SALES
 
 List all the records in the SALES file and use the default data definition records (if found) for the output.
 
-
-
-### EXAMPLE 2
+### Example 2
 
 ```
 LIST SALES "ABC" "DEF" "GHI"
@@ -47,9 +39,7 @@ LIST SALES "ABC" "DEF" "GHI"
 
 List the records from the SALES file with key values of ABC, DEF or GHI. Use the default data definition records (if found) for the output.
 
-
-
-### EXAMPLE 3
+### Example 3
 
 ```
 GET-LIST SALES.Q4
@@ -58,9 +48,7 @@ GET-LIST SALES.Q4
 
 Get the previously saved list called SALES.Q4 and, using the list, report on the records in the SALES file which have a key greater than DEF. Use the default data definition records (if found) for the output.
 
-
-
-### EXAMPLE 4
+### Example 4
 
 ```
 LIST SALES WITH S.CODE = "ABC]" OR "[DEF"
@@ -68,9 +56,7 @@ LIST SALES WITH S.CODE = "ABC]" OR "[DEF"
 
 List the records in the SALES file in which the S.CODE field contains values which start with ABC or end with DEF. Use the default data definition records (if found) to format the output.
 
-
-
-### EXAMPLE 5
+### Example 5
 
 ```
 LIST SALES WITH NO S.CODE = "ABC]" OR "[DEF" (P
@@ -78,9 +64,7 @@ LIST SALES WITH NO S.CODE = "ABC]" OR "[DEF" (P
 
 List the records in the SALES file in which the S.CODE field does not contain values which start with ABC or end with DEF. Output the report to the printer. Use the default data definition records (if found) for the output.
 
-
-
-### EXAMPLE 6
+### Example 6
 
 ```
 LIST SALES BY S.CODE BREAK-ON S.CODE ""BL" P.CODE TOTAL VALUE GRAND-TOTAL "Total" HEADING "Sales Code : "B" "DL" FOOTING " Page "CPP" LPTR
@@ -97,7 +81,5 @@ Put the word "Total" on the grand-total line.
 Set up a heading for each page which comprises the words "Sales Code : ", the sales code (from the break), a date and a LINE FEED. Set up a footing which contains the text "Page " and a page number, centered on the line.
 
 Produce the report on the currently assigned printer.
-
-
 
 Back to [JQL](jbase-query-language-jql-)
