@@ -18,12 +18,19 @@ module.exports = {
       "@vuepress/search": {
         searchMaxSuggestions: 10
       },
+      // Vssue (uses gitlab issues to comment)
       '@vssue/vuepress-plugin-vssue': {
         platform: 'github', // set `platform` rather than `api`
         owner: 'zumasys',
         repo: 'docs',
         clientId: process.env.VUE_APP_GITHUB_CLIENT_ID,
         clientSecret: process.env.VUE_APP_GITHUB_CLIENT_SECRET
+      },
+      // TypeScript
+      'vuepress-plugin-typescript': {
+        tsLoaderOptions: {
+          // All options of ts-loader
+        },
       }
   },
   themeConfig: {

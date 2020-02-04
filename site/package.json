@@ -26,5 +26,9 @@
     "@vssue/vuepress-plugin-vssue": "^1.4.2",
     "dotenv": "^8.2.0",
     "vuepress": "^1.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.5",
+    "vuepress-plugin-typescript": "^0.1.2"
   }
 }
