@@ -1,7 +1,7 @@
 <template>
   <div class="bread-crumbs">
     <span v-for="(crumb, index) in bread" :key="crumb.path">
-      <router-link class="bread-crumb" :to="crumb.path">{{crumb.title}}</router-link><span v-if="index !== bread.length - 1"> &raquo; </span>
+      <router-link class="bread-crumb" :to="crumb.path">{{crumb.title}}</router-link><span v-if="index !== bread.length - 1" class="bread-crumb-separator"> &raquo; </span>
     </span>
   </div>
 </template>
@@ -41,4 +41,9 @@
 .bread-crumbs   
   .bread-crumb
     font-size: .7em
+    color: #999
+    &:hover
+      color: $accentColor
+  .bread-crumb-separator
+    color: #ccc
 </style>
