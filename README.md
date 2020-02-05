@@ -36,13 +36,19 @@ To run the application locally:
 2. `cd docs` (or whatever name you used for your git clone)
 3. `cd site`
 4. `npm install` (Not necessary on subsequent builds)
-5. `npm run dev`
-6. When compilation completes you should see the following message
+5. Create a new .env file and add appropriate credentials
+```dotenv
+# Environment Variables
+VUE_APP_GITHUB_CLIENT_ID=MyClientKey
+VUE_APP_GITHUB_CLIENT_SECRET=MySecretKey
+```
+6. `npm run dev`
+7. When compilation completes you should see the following message
 
    > success [12:25:41] Build 59cc58 finished in 75022 ms!  
    > VuePress dev server listening at [http://localhost:8080/](http://localhost:8080/)
 
-7. Open [localhost:8080](localhost:8080) in your browser.
+8. Open [localhost:8080](localhost:8080) in your browser.
 
 ## TODO - Contributor Guidelines
 
