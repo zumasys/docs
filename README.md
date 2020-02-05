@@ -36,10 +36,10 @@ To run the application locally:
 2. `cd docs` (or whatever name you used for your git clone)
 3. `cd site`
 4. `npm install` (Not necessary on subsequent builds)
-5. Create a new .env file and add appropriate credentials
-```dotenv
-# Environment Variables
-VUE_APP_GITHUB_CLIENT_ID=MyClientKey
+5. `code .env` Create a new .env file and add appropriate credentials
+```dotenv  
+# Environment Variables  
+VUE_APP_GITHUB_CLIENT_ID=MyClientKey  
 VUE_APP_GITHUB_CLIENT_SECRET=MySecretKey
 ```
 6. `npm run dev`
