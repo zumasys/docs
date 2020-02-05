@@ -44,6 +44,8 @@
     color: #999
     &:hover
       color: $accentColor
+    &:last-child
+      color: #666      
   .bread-crumb-separator
     color: #ccc
 </style>

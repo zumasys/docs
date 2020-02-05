@@ -7,10 +7,10 @@
 
         <Content />
 
+        <PageEdit />
+
         <Vssue />
       </div>
-
-    <PageEdit />
 
     <PageNav v-bind="{ sidebarItems }" />
 
