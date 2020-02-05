@@ -18,12 +18,19 @@ module.exports = {
       "@vuepress/search": {
         searchMaxSuggestions: 10
       },
+      // Vssue (uses gitlab issues to comment)
       '@vssue/vuepress-plugin-vssue': {
         platform: 'github', // set `platform` rather than `api`
         owner: 'zumasys',
         repo: 'docs',
         clientId: process.env.VUE_APP_GITHUB_CLIENT_ID,
         clientSecret: process.env.VUE_APP_GITHUB_CLIENT_SECRET
+      },
+      // TypeScript
+      'vuepress-plugin-typescript': {
+        tsLoaderOptions: {
+          // All options of ts-loader
+        },
       }
   },
   themeConfig: {
@@ -39,7 +46,6 @@ module.exports = {
       ["/docs/zumasys/accuterm-mobile/", "AccuTerm Mobile"],
       ["/docs/zumasys/accuterm-web/", "AccuTerm Web"],
       ["/docs/zumasys/customer-portal/", "Customer Portal"],
-      ["/docs/zumasys/internal-applications/", "Internal Applications"],
       ["/docs/zumasys/mv-dashboard/", "MV Dashboard"],
       ["/docs/zumasys/mvconnect/", "MV Connect"]
     ],
