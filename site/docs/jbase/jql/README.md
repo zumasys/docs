@@ -1,4 +1,4 @@
-# JQL
+# jQL
 
 ## Topics
 

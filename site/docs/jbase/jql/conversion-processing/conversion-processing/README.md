@@ -23,18 +23,15 @@
 | [MC](./../mc--conversion) | Mask character. |
 | [MD](./../md-conversion) | Mask decimal. |
 | [MK](./../mk-conversion) | Mask metric. |
-| [ML and MR](./../ml&mr-conversions)<br> | Mask with justification. |
+| [ML and MR](./../ml&mr-conversions) | Mask with justification. |
 | [MP](./../mp-conversion) | Mask packed decimal. |
 | [MS](./../ms-conversion) | Mask Sequence. |
 | [MT](./../mt-conversion) | Mask time. |
-| [P](./../p-conversion)<br> | Pattern match. |
+| [P](./../p-conversion) | Pattern match. |
 | [R](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jql2_CONVERSION.R.htm) | Range check. |
 | [S](./../s-conversion) | Substitution. |
 | [T](./../t-conversion) | Text extraction. |
 | [TFILE](./../tfile-conversion) | File translation. |
-| [U](./../u-conversion)<br> | <br> |
-
-
-
+| [U](./../u-conversion) |  |
 
 Back to [jBASE Query Language (JQL)](jbase-query-language-jql-)

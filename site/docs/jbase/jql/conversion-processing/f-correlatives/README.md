@@ -10,7 +10,7 @@
 <badge text='conversion processing' vertical='middle' />
 <badge text='jql' vertical='middle' />
 
-## Description 
+## Description
 
 F codes provide many facilities for arithmetic, relational, logical, and concatenation operations. All operations are expressed in Reverse Polish notation and involve the use of a "stack" to manipulate the data.
 
@@ -18,13 +18,11 @@ There are three forms of the F code:
 
 - F Uses only the integer parts of stored numbers unless a scaling factor is included. If the JBCEMULATE environment variable is set to "ROS", the operands for "-", "/" and concatenate are used in the reverse order.
 
-
 ```
 F{n};elem{;elem}...
 ```
 
 - FS Uses only the integer parts of stored numbers.
-
 
 ```
 FS;elem{;elem}...
@@ -32,61 +30,45 @@ FS;elem{;elem}...
 
 - FE Uses both the integer and fraction parts of stored numbers.
 
-
 ```
 FE;elem{;elem}
 ```
 
 where
 
-- n is a number from 1 to 9 used to convert a stored value to a scaled integer. The stored value"s explicit or implied decimal point is moved n digits to the right with zeros added if necessary. Only the integer portion of this operation is returned.
-- elem is any valid operator.
+- **n** is a number from 1 to 9 used to convert a stored value to a scaled integer. The stored value's explicit or implied decimal point is moved n digits to the right with zeros added if necessary. Only the integer portion of this operation is returned.
+- **elem** is any valid operator.
 
-
-
-
-## Note: 
-
+## Note 1
 
 > F codes use the Reverse Polish notation system. Reverse Polish is a postfix notation system where the operator follows the operands. The expression for adding two elements is "a b + ". (The usual algebraic system is an infix notation where the operator is placed between the operands, for example, "a + b").
-
 
 The F code has operators to push operands on the stack. Other operators perform arithmetic, relational, and logical operations on stack elements. There are also concatenation and string operators.
 
 Operands that are pushed on the stack may be constants, field values, system parameters (such as data and time), or counters (such as record counters).
 
-
-
-## The Stack 
+## The Stack
 
 F codes work with a pushdown stack.
 
-## Note:
-
+## Note 2
 
 > All possible F correlative operators push values onto the stack, perform arithmetic and other operations on the stack entries, and pop values off the stack.
 
-
 The term "push" is used to indicate the placing of an entry (a value) onto the top of the stack so that existing entries are pushed down one level. "Pop" means to remove an entry from the top of the stack so that existing entries pop up by one level. Arithmetic functions typically begin by pushing two or more entries onto the stack. Each operation then pops the top two entries, and pushes the result back onto the top of the stack. After any operation is complete, the result will always be contained in entry 1.
 
-
-
-## Order of Operation 
+## Order of Operation
 
 F code operations are typically expressed as "F;stack2;stack1;operation". Under most emulations, this will be
 evaluated as "stack2 operation stack1". If JBCEMULATE is set to "ROS", this example is evaluated as "stack1 operation stack2", effectively reversing the order of operations.
 
 Note that the FE and FS codes are evaluated in the same way for all emulations.
 
-
-
 ### Input Conversion
 
 Input conversion is not allowed.
 
-
-
-### EXAMPLE 1
+### Example 1
 
 ```
 F;C3;C5;-
@@ -96,9 +78,7 @@ Push a value of 3 onto the stack. Push a value of 5 onto the stack.
 
 Take entry 1 from entry 2 (3 - 5) and push the result (-2) back onto the stack as entry 1. ROS emulations will subtract 3 from 5 and return a result of 2.
 
-
-
-### EXAMPLE 2
+### Example 2
 
 ```
 FS;C3;C5;-
@@ -106,9 +86,7 @@ FS;C3;C5;-
 
 Push a value of 3 onto the stack. Push a value of 5 onto the stack. Take entry 2 from entry 1 (3 - 5) and push the result (-2) back onto the stack. This works in the same way for all emulations.
 
-
-
-### EXAMPLE 3
+### Example 3
 
 ```
 F;C2;C11;C3;-;/
@@ -118,9 +96,7 @@ Push a value of 2 onto the stack. Push a value of 11 onto the stack. Push a valu
 
 Under ROS emulation, this would evaluate as 3 - 11 = -8, followed by -8 / 2 = -4.
 
-
-
-### Push Operators 
+### Push Operators
 
 A push operator always pushes a single entry onto the stack. Existing entries are pushed down one position. Push operators are: "literal"Literal. Any text string enclosed in double or single quotes.
 
@@ -132,34 +108,28 @@ where:
 
 field-number is the value of the field from the current record.
 
-- R specifies that the last non-null value obtained from this field is to be applied repeatedly for each multivalue that does not exist in a corresponding part of the calculation.
-- RR specifies that the last non-null value obtained from this field is to be applied repeatedly for each subvalue that does not exist in a corresponding part of the calculation.
-- (format-code**)** is one or more format codes (separated by value marks) enclosed in parentheses. Applied to the value before it is pushed onto the stack.
-
-
+- **R** specifies that the last non-null value obtained from this field is to be applied repeatedly for each multivalue that does not exist in a corresponding part of the calculation.
+- **RR** specifies that the last non-null value obtained from this field is to be applied repeatedly for each subvalue that does not exist in a corresponding part of the calculation.
+- (**format-code**)** is one or more format codes (separated by value marks) enclosed in parentheses. Applied to the value before it is pushed onto the stack.
 
 | <!----> | <!----> |
 | --- | --- |
-| Cn<br> | Constant. Where n is a constant (text or number) of any length up to the next semicolon or system delimiter.<br> |
-| D<br> | Current system date.<br> |
-| NA<br> | Number of fields in the record.<br> |
-| NB<br> | Current break level number: -1 = during SORT or SELECT processing 0 = detail line 1 = lowest break level 255 = GRAND-TOTAL line<br> |
-| ND<br> | Number of records since the last BREAK on a BREAK data line. Equal to the record counter on a GRAND-TOTAL line. Used to compute averages.<br> |
-| NI<br> | Record counter. The ordinal position of the current record in the report.<br> |
-| NL<br> | Length of the record, in bytes. Includes all field marks but not the key.<br> |
-| NS<br> | Subvalue counter. The ordinal position of the current subvalue within the field.<br> |
-| NV<br> | Value Counter. The ordinal position of the current multivalue within the field.<br> |
-| P<br> | or "Duplicate of entry 1 is pushed onto the stack.<br> |
-| T<br> | System time in internal format.<br> |
-| V or LPV<br> | Previous Value. The value from the previous format code is to be used.<br> |
+| Cn | Constant. Where n is a constant (text or number) of any length up to the next semicolon or system delimiter. |
+| D | Current system date. |
+| NA | Number of fields in the record. |
+| NB | Current break level number: -1 = during SORT or SELECT processing 0 = detail line 1 = lowest break level 255 = GRAND-TOTAL line |
+| ND | Number of records since the last BREAK on a BREAK data line. Equal to the record counter on a GRAND-TOTAL line. Used to compute averages. |
+| NI | Record counter. The ordinal position of the current record in the report. |
+| NL | Length of the record, in bytes. Includes all field marks but not the key. |
+| NS | Subvalue counter. The ordinal position of the current subvalue within the field. |
+| NV | Value Counter. The ordinal position of the current multivalue within the field. |
+| P | or "Duplicate of entry 1 is pushed onto the stack. |
+| T | System time in internal format. |
+| V or LPV | Previous Value. The value from the previous format code is to be used. |
 
-
-
-
-### Arithmetic Operators 
+### Arithmetic Operators
 
 The arithmetic F code operators work on just the top stack entry or the top two stack entries. They are:
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -171,13 +141,9 @@ The arithmetic F code operators work on just the top stack entry or the top two 
 | **I**<br> | Return the integer part of entry 1 to the top of the stack.<br> |
 | **S**<br> | Replace the multivalued entry 1 with the sum of the multivalues and subvalues.<br> |
 
-
-
-
-### Miscellaneous Operators 
+### Miscellaneous Operators
 
 Miscellaneous operators control formatting, exchanging stack entries, popping the top entry, concatenation, and string extraction. They are:
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -187,13 +153,9 @@ Miscellaneous operators control formatting, exchanging stack entries, popping th
 | :<br> | Concatenate stack entries:<br><br>| <!----> | <!----> |<br>| --- | --- |<br>| F | Concatenates Entry 1 to the end of Entry 2 |<br>| FS, FE | Concatenates Entry 1 to the end of Entry 2 |<br>| F | Concatenates Entry 2 to the end of Entry 1(ROS emulation) |<br><br> |
 | [ ]<br> | Extract a substring from stack entry 3. The starting column is specified in stack entry 2 and the number of characters is specified in entry 1<br> |
 
-
-
-
-### Relational Operators 
+### Relational Operators
 
 Relational operators compare stack entries. The result is pushed onto stack entry 1 and is either 1 (true) or 0 (false). Relational operators are:
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -204,32 +166,22 @@ Relational operators compare stack entries. The result is pushed onto stack entr
 | ]<br> | Great than or equal to:<br><br>| <!----> | <!----> |<br>| --- | --- |<br>| F | entry 2 [ entry 1 |<br>| FS,FE | entry 2 [ entry 1 |<br>| F | entry 1 [ entry 2  (ROS emulation) |<br><br> |
 | #<br> | Not equal.<br> |
 
-
-
-
-### Logical Operators 
+### Logical Operators
 
 Logical operators include a logical AND test and a logical inclusive-OR test. Logical operators are:
 
 - & AND stack entries 1 and 2. If both entries contain non zero, a 1 is pushed onto stack entry 1, otherwise, a 0 is pushed.
 - ! OR stack entries 1 and 2. If either of the entries contains non zero, a 1 is pushed onto stack entry 1; otherwise, a 0 is pushed.
 
-
-
-
 ### Multivalues
 
 A powerful feature of F and FS code operations is their ability to manipulate multivalues. Individual multivalues can be processed, one by one, or you can use the R (or RR) modifier after a field number, to repeat a value and thus combine it with each of a series of multivalues. Field operands may be valued and subvalued. When mathematical operations are performed on two multivalued lists (vectors), the result is also multivalued. The result has an many values as the longer of the two lists. Zeros are substituted for the null values in the shorter list if the R option is not specified.
-
-
 
 ### Repeat Operators
 
 To repeat a value for combination with multivalues, follow the field number with the R operator. To repeat a value for combination with multiple subvalues, follow the FMC with the RR operator.
 
-
-
-## Format Codes 
+## Format Codes
 
 Format codes can be used in three ways. One transforms the final result of the F code, another transforms the content of a field before it is pushed on the stack, and the third transforms the top entry on the stack. The general form is as:
 
@@ -246,10 +198,6 @@ where:
 - format-code is any valid format codes.
 - ] represents a value mark (ctrl ]) that must be used to separate each format-code.
 
-
-### 
-
-
 To process a field before it is pushed on the stack, follow the FMC with the format codes enclosed in parentheses.
 
 To process the top entry on the stack, specify the format codes within parentheses as an operation by itself.
@@ -258,9 +206,7 @@ To specify more than one format code in one operation, separate the codes with t
 
 All format codes will convert values from an internal format to an output format.
 
-
-
-### EXAMPLE
+### Example
 
 ```
 F;2(MD2]G0.1);100;-
@@ -270,8 +216,4 @@ Obtain the value of field 2. Apply an MD2 format code. Then apply a group extrac
 
 100 - OCONV(OCONV(Field2, "MD2"), "G0.1" ).
 
-
-
 Back to [Conversion Processing](./../conversion-processing)
-
-

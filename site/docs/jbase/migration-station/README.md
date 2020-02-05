@@ -1,4 +1,4 @@
-# MIGRATION STATION
+# Migration Station
 
 ## Topics
 
@@ -13,4 +13,3 @@
 [migration-to-jbase-preparing-jbase-on-linux](./migration-to-jbase-preparing-jbase-on-linux)  
 [welcome-to-jbase-d3-edition](./welcome-to-jbase-d3-edition)  
 [welcome-to-jbase-universe-edition](./welcome-to-jbase-universe-edition)  
-

@@ -21,7 +21,7 @@ Where:
 
 - **string** specifies the string to be encrypted.
 - **key** is the value used to encrypt the string. Its use depends on **method**.
-- **method** is a value which indicates the encryption mechanism to.
+- **method** is a value which indicates the encryption mechanism to use.
 
 The **ENCRYPT** and [DECRYPT](./../decrypt) functions that are part of jBASE BASIC now support the following  cipher methods (Defined in **JBC.h**)
 
@@ -36,7 +36,7 @@ The **ENCRYPT** and [DECRYPT](./../decrypt) functions that are part of jBASE BAS
 - JBASE\_CRYPT\_BLOWFISH Blowfish algorithm
 - JBASE\_CRYPT\_BASE64 (See below)
 
-BASE64  is not really an encryption method, but more of an encoding. The reason  for this is that the output of an encryption often results in a binary string. It allows binary data to be represented as a character string. BASE64 operation is not required but is performed in addition to the  primary algorithm. e.g. JBASE\_CRYPT\_RC2\_BASE64
+BASE64 is not really an encryption method, but more of an encoding. The reason for this is that the output of an encryption often results in a binary string. It allows binary data to be represented as a character string. BASE64 operation is not required but is performed in addition to the primary algorithm. e.g. JBASE\_CRYPT\_RC2\_BASE64
 
 **ENCRYPT** with this method is the same as a [DECRYPT](./../decrypt) with method JBASE\_CRYPT\_RC2  followed by [DECRYPT](./../decrypt) with method JBASE\_CRYPT\_BASE64.
 
@@ -58,9 +58,9 @@ An example of use may be as follows:
      str = "This is the string to be encrypted"
      enc = ENCRYPT(str, key, cipher)
 
-     CRT "Encrypted: " :enc
+     CRT "Encrypted: " : enc
 
-     CRT "Decrypted: ":DECRYPT(enc, key, cipher)
+     CRT "Decrypted: " : DECRYPT(enc, key, cipher)
 ```
 
 The above will display as output:

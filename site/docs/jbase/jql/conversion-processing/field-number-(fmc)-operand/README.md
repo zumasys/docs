@@ -6,7 +6,6 @@
 **Original ID:** 321523  
 **Internal:** No  
 
-
 ## Description
 
 Specifies a field which contains the value to be used. It takes the form:
@@ -17,26 +16,19 @@ Specifies a field which contains the value to be used. It takes the form:
 
 where:
 
-- field-number is the number of the field (FMC) which contains the required value.
-- R specifies that the value obtained from this field is to be applied repeatedly for each multivalue not present in a corresponding part of the calculation.
-- RR specifies that the value obtained from this field is to be applied repeatedly for each subvalue not present in a corresponding part of the calculation.
+- **field-number** is the number of the field (FMC) which contains the required value.
+- **R** specifies that the value obtained from this field is to be applied repeatedly for each multivalue not present in a corresponding part of the calculation.
+- **RR** specifies that the value obtained from this field is to be applied repeatedly for each subvalue not present in a corresponding part of the calculation.
 
-
-
-
-## Note: 
-
+## Note
 
 > The following field numbers have special meanings:
-> 
+>
 > - 0 - Record Key
 > - 9998- Sequential record count
 > - 9999 Record size in bytes
 
-
-
-
-### EXAMPLES 
+### Example
 
 ```
 A;2
@@ -61,7 +53,5 @@ A;2 + 3RR
 ```
 
 For each subvalue in field 2 the system also obtains the corresponding subvalue in field 3 and adds it. If field 2 contains 1\2\3]7 and field 3 contains 5\4 the result would be five values of 6, 6, 7, 12 and 4 respectively.
-
-
 
 Back to [A-Correlatives](./../a-correlatives)

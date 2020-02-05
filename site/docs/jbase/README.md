@@ -1,4 +1,4 @@
-# JBASE
+# jBASE
 
 ## Topics
 
@@ -33,4 +33,3 @@
 [system-manager](./system-manager)  
 [templates](./templates)  
 [using-the-odbc-jedi](./using-the-odbc-jedi)  
-

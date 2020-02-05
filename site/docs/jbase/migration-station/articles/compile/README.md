@@ -6,7 +6,7 @@
 **Original ID:** 283760  
 **Internal:** No
 
-| **Compiling jBASE Programs**                                                                                        | Description                             |
+| Compiling jBASE Programs                                                                                     | Description                             |
 | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | [Introduction](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup42_COMPILATION.htm) | Introduction to the compilation process |
 | [Keywords](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup12_KEYWORDS.htm)        | Compiler reserved words                 |

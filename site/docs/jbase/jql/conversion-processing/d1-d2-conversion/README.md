@@ -6,7 +6,6 @@
 **Original ID:** 321290  
 **Internal:** No  
 
-
 ## Description
 
 Associates controlling and dependent fields. It takes the form:
@@ -18,23 +17,16 @@ D2;fmcc
 
 where:
 
-- fmcd is the field number (FMC) of an associated dependent field.
-- fmcc is the field number (FMC) of the associated controlling field.
-
-
-
+- **fmcd** is the field number (FMC) of an associated dependent field.
+- **fmcc** is the field number (FMC) of the associated controlling field.
 
 It is possible to logically group multivalued fields in a record by using a controlling multivalued field and associating other fields with it. For instance , group the component parts of an assembly on an invoice.
 
 The D1 code in field 8 defines the controlling field and nominates the associated dependent fields. Each dependent field will have a D2 code in field 8.
 
-
-
-## Note:
-
+## Note
 
 > The D1 and D2 codes must be in field 8 of the data definition record and must be the first code specified. The code can be followed by other codes (separated by a value mark), but it must be the first code.
-
 
 The values in the dependent associative fields are output in the order in which they are specified in the field 8 of the controlling field. The order in which the dependent fields are specified in the output specification clause is irrelevant.
 
@@ -42,9 +34,7 @@ Dependent fields are marked on the output by an asterisk just below the column h
 
 If the output for a controlling field is suppressed, the values in the dependent fields will also be suppressed.
 
-
-
-### EXAMPLE
+### Example
 
 ```
 LIST INVOICE "ABC123" PARTS QTY PRICE
@@ -65,7 +55,5 @@ ABC123   AAA     1  10.00
 BBB             11  4.00
 CCC              2  3.30
 ```
-
-
 
 Back to [Conversion Processing](./../conversion-processing)

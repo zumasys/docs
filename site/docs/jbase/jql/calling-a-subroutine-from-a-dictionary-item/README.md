@@ -6,7 +6,6 @@
 **Original ID:** 317985  
 **Internal:** No  
 
-
 ## Description
 
 It is possible to have dictionary items call subroutines. This can be done as follows:
@@ -23,9 +22,8 @@ CALL {filename} subname
 
 where :
 
-- filename is ignored but provided for compatibility with older systems,
-- Subname is the name of the called subroutine (or function).  This subroutine must reside in one of the libraries defined by the user and must be visible via [JBCOBJECTLIST](./../../environment-variables/jbcobjectlist).
-
+- **filename** is ignored but provided for compatibility with older systems,
+- **Subname** is the name of the called subroutine (or function).  This subroutine must reside in one of the libraries defined by the user and must be visible via [JBCOBJECTLIST](./../../environment-variables/jbcobjectlist).
 
 The subroutine can be called as a conversion (attribute 7 of the dictionary item) or as a correlative (attribute 8 of the dictionary item). Data is passed to and from the subroutine with named COMMON elements. In each subroutine the following line must be included:
 
@@ -35,41 +33,39 @@ INCLUDE qbasiccommonpick
 
 For ex-Sequoia users, It is possible to INCLUDE the file **qbasiccommonseq**, which provides compatibility with that platform.
 
-The INCLUDE file defines the named common that is used by jQL. The named common consists of 2 arrays: ***access*** and ***newpick***.
-
-
+The INCLUDE file defines the named common that is used by jQL. The named common consists of 2 arrays: **access** and **newpick**.
 
 Their usage of these arrays is:
 
-**access**
-
+## access
 
 | <!----> | <!----> |
 | --- | --- |
-| access(1)<br> | Data file open variable<br> |
-| access(2)<br> | Dictionary file open variable<br> |
-| access(3)<br> | Data item currently being processed. If BY-EXP is used then only the current multi-value from each attribute is included in the item.<br> |
-| access(4)<br> | Item count  (Initialized to 1 at the start of each jQL statement)<br> |
-| access(5)<br> | Attribute being processed. This is the value in attribute 2 of the calling dictionary item.<br> |
-| access(6)<br> | Value mark counter<br> |
-| access(7)<br> | Sub value mark counter<br> |
-| access(8)<br> | reserved<br> |
-| access(9)<br> | reserved<br> |
-| access(10)<br> | Item id<br> |
-| access(11)<br> | Data file name<br> |
-| access(12)<br> | reserved<br> |
-| access(13)<br> | reserved<br> |
-| access(14)<br> | Multivalue number from an exploded select-list<br> |
-| access(15)<br> | reserved<br> |
-| access(16)<br> | reserved<br> |
-| access(17)<br> | reserved<br> |
+| access(1) | Data file open variable |
+| access(2) | Dictionary file open variable |
+| access(3) | Data item currently being processed. If BY-EXP is used then only the current multi-value from each attribute is included in the item. |
+| access(4) | Item count  (Initialized to 1 at the start of each jQL statement) |
+| access(5) | Attribute being processed. This is the value in attribute 2 of the calling dictionary item. |
+| access(6) | Value mark counter |
+| access(7) | Sub value mark counter |
+| access(8) | reserved |
+| access(9) | reserved |
+| access(10) | Item id |
+| access(11) | Data file name |
+| access(12) | reserved |
+| access(13) | reserved |
+| access(14) | Multivalue number from an exploded select-list |
+| access(15) | reserved |
+| access(16) | reserved |
+| access(17) | reserved |
 
+By default jBASE will only call a subroutine once per item. This is normally desirable, since value and sub value manipulation can be done within the subroutine. In addition, it is clearly more efficient to only call the subroutine once per item. However, for backward compatibility, jBASE can be configured to call the subroutine for every value and sub value processed. If this is required then set [jql\_mv\_subcall = true](./../../migration-station/articles/emulation) in the **$JBCRELEASEDIR/config/Config\_EMULATE** file under the appropriate emulation section. If this setting is in place, **access(6)** and **access(7)** are incremented appropriately as each value and sub value is processed. Otherwise the values in **access(6)** and **access(7)** have no meaning
 
-By default jBASE will only call a subroutine once per item. This is normally desirable, since value and sub value manipulation can be done within the subroutine. In addition, it is clearly more efficient to only call the subroutine once per item. However, for backward compatibility, jBASE can be configured to call the subroutine for every value and sub value processed. If this is required then set [jql\_mv\_subcall = true](./../../migration-station/articles/emulation) in the **$JBCRELEASEDIR/config/Config\_EMULATE**file under the appropriate emulation section. If this setting is in place, **access(6)**and **access(7)** are incremented appropriately as each value and sub value is processed. Otherwise the values in **access(6)** and **access(7)** have no meaning.
+## newpick
 
 **newpick(1)** through **newpick(11)** are reserved
 
-**newpick(12)** - On entry to the subroutine this will contain the value of the data passed from jQL to the subroutine. By default, this will be **all** the *data defined by the calling dictionary item*(i.e. all values and sub values). However if **jql\_mv\_subcall = true**is set, then the subroutine is called for every value/sub value and **newpick(12)** contains just each value or sub value as it is processed.
+**newpick(12)** - On entry to the subroutine this will contain the value of the data passed from jQL to the subroutine. By default, this will be **all** the *data defined by the calling dictionary item* (i.e. all values and sub values). However if **jql\_mv\_subcall = true** is set, then the subroutine is called for every value/sub value and **newpick(12)** contains just each value or sub value as it is processed.
 
 It is worth noting that a subroutine can be called as part of a multi-valued correlative. For example, the calling dictionary item could look like:
 
@@ -92,8 +88,6 @@ In this instance, the data defined by the calling dictionary item is "ABCD". But
 On exit of the subroutine, newpick(12) contains the value used by jQL.
 
 \*Exception to this is if Config\_EMULATE has **generic\_pick=true** as in D3, R83, AP or R91 emulations. In that case the passed parameter on the SUBROUTINE line would contain the value used by jQL.
-
-
 
 ## Persistent Variables
 
@@ -139,7 +133,7 @@ First, create this subroutine:
 010     RETURN
 ```
 
-Note that the program is using named-COMMON to allow the **running\_total** variable to persist when the subroutine is CALL'd for each record being processed.
+Note that the program is using named COMMON to allow the **running\_total** variable to persist when the subroutine is CALL'd for each record being processed.
 
 Line 5 is intialized to 1 at the start of a jQL query and is incremented for each record processed.
 
@@ -222,8 +216,6 @@ JQLDEMO....... AMT RUNNING
 
 You will notice that each amount is added to the previous value in the RUNNING TOTAL column and that the total of AMT matches the final running total.
 
-
-
 ### Example 2
 
 This program illustrates how to obtain the last multi-value from an attribute:
@@ -247,12 +239,4 @@ ID:LASTVAL
 010 10
 ```
 
-
-
-
-
-
-
-
-
-
+Back to [jQL](jbase-query-language-jql-)

@@ -10,13 +10,13 @@
 <badge text='attributes' vertical='middle' />
 <badge text='jql' vertical='middle' />
 
-## Description 
+## Description
 
 The jBASE jQL processor supports I-TYPES as imported from PRIME or Universe. The jBASE query language, jQL, supports I- and D-type attribute definition records.
 
 ### Formats
 
-**I-TYPE**
+## I-TYPE
 
 ```
 001 I
@@ -27,9 +27,7 @@ The jBASE jQL processor supports I-TYPES as imported from PRIME or Universe. The
 006 - 016 Reserved
 ```
 
-
-
-**D-TYPE**
+## D-TYPE
 
 ```
 001 D
@@ -39,8 +37,6 @@ The jBASE jQL processor supports I-TYPES as imported from PRIME or Universe. The
 005 Format
 006 - 016 Reserved
 ```
-
-
 
 where Expression can be one or more of :
 
@@ -53,7 +49,6 @@ where Expression can be one or more of :
 | User Subroutines | e.g. MYSUB(param1, param2, param256) |
 | Conditionals | e.g. IF X = Y THEN @RECORD ELSE "" |
 | String Extraction | e.g. Expression[6,4] |
-
 
 Multiple expressions can be defined within the same I-TYPE. e.g.
 
@@ -90,9 +85,9 @@ or
 SUBR("FRED",param1 {,param2_})
 ```
 
-**Conversion**attribute provides support for normal queries output conversions. E.g. D2, MT, F;, TFile etc.
+**Conversion** attribute provides support for normal queries output conversions. E.g. D2, MT, F;, TFile etc.
 
-**Header**attribute specifies the column heading text to be displayed.
+**Header** attribute specifies the column heading text to be displayed.
 
 **Format** attribute can be specified as follows:
 
@@ -102,28 +97,23 @@ Length {Padding} Justification { Conversion } { Mask }
 
 Where :
 
-- Length - The display column length.
-- Padding - Any character except L,R,U or T. Default space.
-- Justification - L Left, R Right, T Text, U Unlimited
-
-
-
+- **Length** - The display column length.
+- **Padding** - Any character except L,R,U or T. Default space.
+- **Justification** - L Left, R Right, T Text, U Unlimited
 
 Conversion - General form, n{$}{,}{Z}
 
-
+| Code | Usage |
+| --- | --- |
 | n | Number of digits after decimal point. |
 | $ | Precede with current currency sign. |
 | , | Insert thousandths separator every third digit. |
 | Z | Suppress leading zeroes. |
 | Mask | Output pattern. e.g. ##-###-## |
 
-
 Note that spurious trailing spaces can give Invalid Conversion errors.
 
-
-
-### EXAMPLES
+### Example
 
 To get the running total of an attribute:
 
@@ -135,9 +125,7 @@ To get the running total of an attribute:
 005 10R
 ```
 
-
-
-### ICOMP
+### ICOMP ( No longer applicable in jBASE 5.5.0 and above )
 
 The first time an I-TYPE is used in a query, i.e. jQL command, the expression attribute will be "compiled", to produce internal op codes and parameter definitions. This mechanism provides greater efficiency at run time. However to ensure that all I-TYPE definitions are compiled, rather than on a ad hoc basis, a utility, ICOMP, has been provided.
 
@@ -152,77 +140,73 @@ Where:
 - FileName is the name of file to convert.
 - RecordList is the list of Record identifiers.
 
-
 Note that ICOMP will always attempt to convert the dictionary section of a file. If RecordList is omitted, all I-TYPE definitions will be compiled. ICOMP will also respect a preceding SELECT list.
-
-
 
 ## Supported I-type functions
 
 The following is a list of I-type functions which can be used directly in jBASE and those for which a subroutine must be written :
 
-
-| Supported by Universe | Supported by jBASE 3.4 | Subroutine required |
+| Supported by Universe | Supported by jBASE 5 (TBD) | Subroutine required |
 | --- | --- | --- |
-| ABS | ABS | <br> |
-| ADDS | <br> | ADDS |
-| ALPHA | <br> | ALPHA |
-| ANDS | <br> | ANDS |
-| ASCII | ASCII | <br> |
-| ATAN | <br> | ATAN |
-| CATS | CATS | <br> |
+| ABS | ABS |  |
+| ADDS |  | ADDS |
+| ALPHA |  | ALPHA |
+| ANDS |  | ANDS |
+| ASCII | ASCII |  |
+| ATAN |  | ATAN |
+| CATS | CATS |  |
 | CHAR | CHAR |   |
-| CHARS | CHARS | <br> |
-| COL1 | <br> | COL1 |
-| COL2 | <br> | COL2 |
-| CONVERT | CONVERT | <br> |
-| COS | COS | <br> |
-| COUNT | COUNT | <br> |
-| COUNTS | COUNTS | <br> |
-| DATE | DATE | <br> |
-| DCOUNT | <br> | DCOUNT |
-| DELETE | <br> | DELETE |
-| DIVS | <br> | DIVS |
-| DOWNCASE | <br> | DOWNCASE |
-| EBCDIC | EBCDIC | <br> |
-| EQS | EQS | <br> |
-| EXP | EXP | <br> |
-| EXTRACT | EXTRACT | <br> |
-| FIELD | <br> | FIELD |
-| FIELDS | FIELDS | <br> |
-| FIELDSTORE | <br> | FIELDSTORE |
-| FMT | FMT | <br> |
-| FMTS | FMTS | <br> |
-| GES | <br> | GES |
-| GTS | GTS | <br> |
-| ICONV | ICONV | <br> |
-| ICONVS | ICONVS | <br> |
-| IFS | IFS | <br> |
-| INDEX | INDEX | <br> |
-| INDEXS | INDEXS | <br> |
-| INSERT | <br> | INSERT |
-| INT | INT | <br> |
-| ISNULL | <br> | ISNULL |
-| ISNULLS | <br> | ISNULLS |
-| ITYPE | <br> | ITYPE |
-| LEN | LEN | <br> |
-| LENS | LENS | <br> |
-| LES | LES | <br> |
-| LN | LN | <br> |
-| LOWER | <br> | LOWER |
-| LTS | LTS | <br> |
-| MATCHFIELD | <br> | MATCHFIELD |
-| MOD | <br> | MOD |
-| MODS | <br> | MODS |
-| NEGS | <br> | NEGS |
-| NES | NES | <br> |
-| NOT | NOT | <br> |
-| NOTS | NOTS | <br> |
-| NUM | NUM | <br> |
-| NUMS | NUMS | <br> |
-| OCONV | OCONV | <br> |
-| OCONVS | OCONVS | <br> |
-| ORS | <br> | ORS |
+| CHARS | CHARS |  |
+| COL1 |  | COL1 |
+| COL2 |  | COL2 |
+| CONVERT | CONVERT |  |
+| COS | COS |  |
+| COUNT | COUNT |  |
+| COUNTS | COUNTS |  |
+| DATE | DATE |  |
+| DCOUNT |  | DCOUNT |
+| DELETE |  | DELETE |
+| DIVS |  | DIVS |
+| DOWNCASE |  | DOWNCASE |
+| EBCDIC | EBCDIC |  |
+| EQS | EQS |  |
+| EXP | EXP |  |
+| EXTRACT | EXTRACT |  |
+| FIELD |  | FIELD |
+| FIELDS | FIELDS |  |
+| FIELDSTORE |  | FIELDSTORE |
+| FMT | FMT |  |
+| FMTS | FMTS |  |
+| GES |  | GES |
+| GTS | GTS |  |
+| ICONV | ICONV |  |
+| ICONVS | ICONVS |  |
+| IFS | IFS |  |
+| INDEX | INDEX |  |
+| INDEXS | INDEXS |  |
+| INSERT |  | INSERT |
+| INT | INT |  |
+| ISNULL |  | ISNULL |
+| ISNULLS |  | ISNULLS |
+| ITYPE |  | ITYPE |
+| LEN | LEN |  |
+| LENS | LENS |  |
+| LES | LES |  |
+| LN | LN |  |
+| LOWER |  | LOWER |
+| LTS | LTS |  |
+| MATCHFIELD |  | MATCHFIELD |
+| MOD |  | MOD |
+| MODS |  | MODS |
+| NEGS |  | NEGS |
+| NES | NES |  |
+| NOT | NOT |  |
+| NOTS | NOTS |  |
+| NUM | NUM |  |
+| NUMS | NUMS |  |
+| OCONV | OCONV |  |
+| OCONVS | OCONVS |  |
+| ORS |  | ORS |
 | PWR | PWR |   |
 | QUOTE |   | QUOTE |
 | RAISE |   | RAISE |
@@ -256,9 +240,6 @@ The following is a list of I-type functions which can be used directly in jBASE 
 | TRIMS |   | TRIMS |
 | UPCASE |   | UPCASE |
 | XLATE | XLATE |   |
-
-
-
 
 [Conversion Processing](./../conversion-processing)
 
