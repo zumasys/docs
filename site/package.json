@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "description": "Zumasys Documentation",
   "scripts": {
-    "build": "vuepress build",
+    "build": "node --max_old_space_size=8192 ./node_modules/vuepress/cli.js build",
+    "build-old": "vuepress build",
     "dev": "node --max_old_space_size=8192 ./node_modules/vuepress/cli.js dev"
   },
   "repository": {
@@ -25,7 +26,7 @@
     "@vssue/api-github-v3": "^1.4.0",
     "@vssue/vuepress-plugin-vssue": "^1.4.2",
     "dotenv": "^8.2.0",
-    "vuepress": "^1.2.0"
+    "vuepress": "^1.3.0"
   },
   "devDependencies": {
     "typescript": "^3.7.5",
