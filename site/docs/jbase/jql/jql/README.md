@@ -1,4 +1,4 @@
-# JQL
+# jQL
 
 **Created At:** 6/8/2018 10:28:11 AM  
 **Updated At:** 6/7/2019 9:53:41 AM  
@@ -235,52 +235,52 @@ The following words and symbols have specific meanings when used in a jQL senten
 
 | <!----> | <!----> | <!----> | <!----> | <!----> |
 | --- | --- | --- | --- | --- |
-| !<br> | #<br> | %<br> | &<br> | (<br> |
-| /<br> | &lt;=<br> | &lt;&gt;<br> | =<br> | =&lt;<br> |
-| \*<br> | +<br> | -<br> | &gt;<br> | &gt;&lt;<br> |
-| A<br> | AFTER<br> | ALL<br> | AN<br> | AND<br> |
-| ARE<br> | AS<br> | ASSOC<br> | ASSOC.WITH<br> | ASSOCIATED<br> |
-| AVERAGE<br> | AVG<br> | <br> | <br> | <br> |
-| BEFORE<br> | BETWEEN<br> | BREAK-ON / BREAK.ON<br> | BREAK-SUP<br> | BSELECT<br> |
-| BY-DSND / BY.DSND<br> | BY-EXP / BY.EXP<br> | BY-EXP-DSND / BY.EXP.DSND<br> | <br> | <br> |
-| CALC<br> | CALCULATE<br> | CAPTION<br> | CNV<br> | COL-FILLER<br> |
-| COL-SPACES<br> | COL-SUPP<br> | COL.HDG<br> | COL.HDR<br> | COL.SPCS<br> |
-| COUNT<br> | COUNT-SUPP<br> | COUNT.SUP<br> | COUNT.SUPP<br> | <br> |
-| DATA<br> | DBL-SPACE<br> | DBL-SPC / DBL.SPC<br> | DET-SUPP<br> | DICT<br> |
-| DISPLAY.NAME<br> | DISPLAYLIKE<br> | DISPLAYNAME<br> | <br> | <br> |
-| EACH<br> | EDELETE<br> | ENUM<br> | ENUMERATE<br> | EQ<br> |
-| ESEARCH<br> | EVAL<br> | EVERY<br> | <br> | <br> |
-| FILE<br> | FIRST<br> | FMT<br> | FOOTER<br> | FOOTING<br> |
-| FROM<br> | <br> | <br> | <br> | <br> |
-| GE<br> | GRAND-TOTAL<br> | GT<br> |
-| HDR-SUPP<br> | HEADER<br> | HEADING<br> |
-| I-DUMP<br> | ID-SUPP<br> | ID.ONLY<br> | ID.SUP<br> | IF<br> |
-| INQUIRING<br> | ITEMS<br> | <br> | <br> | <br> |
-| LE<br> | LIKE | LIST<br> | LIST-INDEX<br> | LIST-LABEL<br> |
-| LPTR<br> | <br> | <br> | <br> | <br> |
-| MARGIN<br> | MATCH<br> | MATCHES<br> | MATCHING<br> | MAX<br> |
-| MULTI.VALUEMULTIVALUE<br> | <br> | <br> | <br> | <br> |
-| NE<br> | NI-SUPP<br> | NI.SUPP<br> | NO<br> | NO-INDEX<br> |
-| NOPAGE<br> | NO.PAGE<br> | NO.SPLIT<br> | NOT<br> | NOT.MATCHING<br> |
-| OF<br> | ONLY<br> | OR<br> |
-| PAGE<br> | PCT<br> | PERCENT<br> | PERCENTAGE<br> | PG<br> |
-| REFORMAT<br> | REQUIRE-INDEX<br> | REQUIRE-SELECT<br> | RETRIEVE<br> |  <br> |
-| S-DUMP<br> | SAID<br> | SAMPLE<br> | SAMPLED<br> | SAMPLING<br> |
-| SAVING | <br> | <br> | <br> | <br> |
-| SELECT-ONLY<br> | SINGLE.VALUES<br> |  SINGLE.VALUED<br> | SORT<br> | SORT-ITEM<br> |
-| SPOKEN<br> | SREFORMAT<br> | SSELECT<br> | ST-DUMP<br> | STATSUBVALUE<br> |
-| SUPP<br> | said<br> | spoken<br> | ~<br> | <br> |
-| T-DUMP<br> | T-LOAD<br> | TAPE<br> | THE<br> | TO<br> |
-| TRANSPORT<br> | <br> | <br> | <br> | <br> |
-| UNIQUE<br> | UNLIKE<br> | USING<br> |
-| VERT<br> | VERTICALLY<br> |
-| WHEN<br> | WITH<br> | WITHEACH<br> | WITHIN<br> | WITHOUT<br> |
+| ! | # | % | & | ( |
+| / | &lt;= | &lt;&gt; | = | =&lt; |
+| \* | + | - | &gt; | &gt;&lt; |
+| A | AFTER | ALL | AN | AND |
+| ARE | AS | ASSOC | ASSOC.WITH | ASSOCIATED |
+| AVERAGE | AVG |  |  |  |
+| BEFORE | BETWEEN | BREAK-ON / BREAK.ON | BREAK-SUP | BSELECT |
+| BY-DSND / BY.DSND | BY-EXP / BY.EXP | BY-EXP-DSND / BY.EXP.DSND |  |  |
+| CALC | CALCULATE | CAPTION | CNV | COL-FILLER |
+| COL-SPACES | COL-SUPP | COL.HDG | COL.HDR | COL.SPCS |
+| COUNT | COUNT-SUPP | COUNT.SUP | COUNT.SUPP |  |
+| DATA | DBL-SPACE | DBL-SPC / DBL.SPC | DET-SUPP | DICT |
+| DISPLAY.NAME | DISPLAYLIKE | DISPLAYNAME |  |  |
+| EACH | EDELETE | ENUM | ENUMERATE | EQ |
+| ESEARCH | EVAL | EVERY |  |  |
+| FILE | FIRST | FMT | FOOTER | FOOTING |
+| FROM |  |  |  |  |
+| GE | GRAND-TOTAL | GT |
+| HDR-SUPP | HEADER | HEADING |
+| I-DUMP | ID-SUPP | ID.ONLY | ID.SUP | IF |
+| INQUIRING | ITEMS |  |  |  |
+| LE | LIKE | LIST | LIST-INDEX | LIST-LABEL |
+| LPTR |  |  |  |  |
+| MARGIN | MATCH | MATCHES | MATCHING | MAX |
+| MULTI.VALUE | MULTIVALUE |  |  |  |  |
+| NE | NI-SUPP | NI.SUPP | NO | NO-INDEX |
+| NOPAGE | NO.PAGE | NO.SPLIT | NOT | NOT.MATCHING |
+| OF | ONLY | OR |
+| PAGE | PCT | PERCENT | PERCENTAGE | PG |
+| REFORMAT | REQUIRE-INDEX | REQUIRE-SELECT | RETRIEVE |   |
+| S-DUMP | SAID | SAMPLE | SAMPLED | SAMPLING |
+| SAVING | SELECT-ONLY | SINGLE.VALUES |  SINGLE.VALUED | SORT |
+| SORT-ITEM | SPOKEN | SREFORMAT | SSELECT | ST-DUMP |
+| STAT | SUBVALUE | SUPP | said | spoken |
+| ~ | | | | |
+| T-DUMP | T-LOAD | TAPE | THE | TO |
+| TRANSPORT |  |  |  |  |
+| UNIQUE | UNLIKE | USING |
+| VERT | VERTICALLY |
+| WHEN | WITH | WITHEACH | WITHIN | WITHOUT |
 
 In most cases, a '-' in a compound word can be substituted for a '.' (e.g. LIST-LABEL is synonymous with LIST.LABEL), and those synonyms are also reserved. However, words in the table with a '.' have no equivalent word with a '-' (e.g. there is no ASSOC-WITH word).
 
-## Entering a JQL Command Sentence
+## Entering a jQL Command Sentence
 
-A jQL command sentence is entered at the shell in response to a command prompt (:) or a select prompt (&gt;). The select prompt is displayed if an implicit record list has been created by a command such as SELECT or GET-LIST whilst in jSHELL. Each sentence must start with a jQL command and can be of any length. Having constructed your sentence, you submit it for processing by pressing the RETURN key.
+A jQL command sentence is entered at the shell in response to a command prompt ( : ) or a select prompt (&gt;). The select prompt is displayed if an implicit record list has been created by a command such as SELECT or GET-LIST whilst in jSHELL. Each sentence must start with a jQL command and can be of any length. Having constructed your sentence, you submit it for processing by pressing the RETURN key.
 
 If an invalid command is entered,  the system will reject it and display an appropriate error message.
 
@@ -349,4 +349,4 @@ N - Suppress paging (i.e. Nopage)
 P - Send output to the spooler  
 R - Suppress 'Error 202 Record not on file' errors  
 
-Back to [jBASE Query Language (JQL)](jbase-query-language-jql-)
+Back to [jBASE Query Language (jQL)](jbase-query-language-jql-)

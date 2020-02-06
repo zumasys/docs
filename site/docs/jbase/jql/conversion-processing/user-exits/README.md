@@ -6,8 +6,7 @@
 **Original ID:** 324978  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 jBASE provides support for the legacy user exit construct. In addition to providing a number of [standard user exits](./../supported-user-exits), jBASE allows the user to create custom user exits. This has been done to cater for the more obscure user exits that are sometimes used in legacy code. It is recommended that custom user exits are **not** created for new applications.
 
@@ -60,7 +59,7 @@ UCASE = OCONV(code, "MCU")[1,5]
 This is to make the conversion code quicker and more reliable to parse. For example, the user exit “U90fb” could take the following formats:
 
 ```
-PRINT OCONV("","U90fb")
-PRINT OCONV("","u90FB")
-PRINT OCONV("","U90Fb" : CHAR(253) : "Extra detail" )
+CRT OCONV("","U90fb")
+CRT OCONV("","u90FB")
+CRT OCONV("","U90Fb" : CHAR(253) : "Extra detail" )
 ```

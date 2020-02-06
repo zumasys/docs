@@ -6,8 +6,7 @@
 **Original ID:** 321308  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 The T code extracts a character substring from a field value. It takes the form:
 
@@ -17,36 +16,26 @@ T{m,}n
 
 where:
 
-- **m**specifies the starting column number.
-- **n**is the number of characters to be extracted.
+- **m** specifies the starting column number.
+- **n** is the number of characters to be extracted.
 
+If **m** is specified, the content of field 9 of the data definition record has no effect - characters are counted and extracted from left to right, for **n** characters.
 
+If **m** is not specified, the content of field 9 of the data definition record will control whether n characters are extracted from the left or the right-hand end of the value. If field 9 does not contain an R, the first **n** characters will be extracted from the value. If field 9 does contain an R (right justify), the last **n** characters will be extracted from the value.
 
-
-If m is specified, the content of field 9 of the data definition record has no effect - characters are counted and extracted from left to right, for n characters.
-
-If m is not specified, the content of field 9 of the data definition record will control whether n characters are extracted from the left or the right-hand end of the value. If field 9 does not contain an R, the first n characters will be extracted from the value. If field 9 does contain an R (right justify), the last n characters will be extracted from the value.
-
-
-
-## Input Conversion 
+## Input Conversion
 
 Input conversion does not invert. It simply applies the text extraction to the input data.
 
+### Examples
 
 
-### EXAMPLES
-
-
-| Code<br> | Source Value<br> | Field 9<br> | Result<br> |
+| Code | Source Value | Field 9 | Result |
 | --- | --- | --- | --- |
-| T3,4<br> | ABCDEFG<br> | L<br> | CDEF<br> |
-| T3,4<br> | ABCDEFG<br> | R<br> | CDEF<br> |
-| T2<br> | ABCDEFG<br> | L<br> | AB<br> |
-| T3<br> | ABCDEFG<br> | R<br> | EFG<br> |
-| T3<br> | ABCDEFG<br> | T<br> | ABC<br> |
-
-
-
+| T3,4 | ABCDEFG | L | CDEF |
+| T3,4 | ABCDEFG | R | CDEF |
+| T2 | ABCDEFG | L | AB |
+| T3 | ABCDEFG | R | EFG |
+| T3 | ABCDEFG | T | ABC |
 
 Back to [Conversion Processing](./../conversion-processing)

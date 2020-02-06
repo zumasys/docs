@@ -20,23 +20,19 @@ system-operand
 
 where system-operand can be any of the following:
 
-
-| Operand<br> | Description<br> |
+| Operand | Description |
 | --- | --- |
-| D<br> | Returns the system date in internal format.<br> |
-| LPV<br> | Returns the previous value transformed by a format code.<br> |
-| NA<br> | Returns the number of fields in the record.<br> |
-| NB<br> | Returns the current break level counter. 1 is the lowest break level, 255 is the GRAND TOTAL line.<br> |
-| ND<br> | Returns the number of records (detail lines) since the last control break.<br> |
-| NI<br> | Returns the record counter.<br> |
-| NL<br> | Returns the record length in bytes<br> |
-| NS<br> | Returns the subvalue counter<br> |
-| NU<br> | Returns the date of last update<br> |
-| NV<br> | Returns the value counter<br> |
-| T<br> | Returns the system time in internal format.<br> |
-| V<br> | Returns the previous value transformed by a format code<br> |
+| D | Returns the system date in internal format. |
+| LPV | Returns the previous value transformed by a format code. |
+| NA | Returns the number of fields in the record. |
+| NB | Returns the current break level counter. 1 is the lowest break level, 255 is the GRAND TOTAL line. |
+| ND | Returns the number of records (detail lines) since the last control break. |
+| NI | Returns the record counter. |
+| NL | Returns the record length in bytes |
+| NS | Returns the subvalue counter |
+| NU | Returns the date of last update |
+| NV | Returns the value counter |
+| T | Returns the system time in internal format. |
+| V | Returns the previous value transformed by a format code |
 
-
-
-
-Back to [A-Corelatives](./../a-correlatives)
+Back to [A-Correlatives](./../a-correlatives)

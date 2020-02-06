@@ -10,7 +10,7 @@
 <badge text='jql' vertical='middle' />
 <badge text='conversion processing' vertical='middle' />
 
-## Description 
+## Description
 
 The U code is used to execute a system subroutine to process values.
 
@@ -22,12 +22,8 @@ where xxxx is the hexadecimal identity of the routine.
 
 jBASE [user exits](./../user-exits) are customized routines specially produced to perform extraordinary processing.
 
-
-
-### Input Conversion 
+### Input Conversion
 
 Routine dependent.
-
-
 
 Back to  [Conversion Processing](./../conversion-processing)

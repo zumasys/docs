@@ -40,7 +40,6 @@ The jBASE jQL processor supports I-TYPES as imported from PRIME or Universe. The
 
 where Expression can be one or more of :
 
-
 | Type | Description |
 | --- | --- |
 | Dictionary Id | e.g. Attribute definition S/A/D/I type |
@@ -58,9 +57,7 @@ Expression ; Expression ;
 
 Expressions can be parenthesized, contain numeric constants, string literals, enclosed in single or double quotes, and extended operators such as EQ, NE, LE, GT, CAT, AND, OR, MATCHES.
 
-
-
-### User Subroutines 
+### User Subroutines
 
 Additional functionality can be added by calling user written basic subroutines. The user subroutines should be compiled and cataloged and the library location added to the library path or JBCOBECTLIST environment variables.
 
@@ -241,6 +238,6 @@ The following is a list of I-type functions which can be used directly in jBASE 
 | UPCASE |   | UPCASE |
 | XLATE | XLATE |   |
 
-[Conversion Processing](./../conversion-processing)
+Back to [Conversion Processing](./../conversion-processing)
 
 Back to [jBASE Query Language (JQL)](jbase-query-language-jql-)

@@ -82,4 +82,4 @@ Set up a heading for each page which comprises the words "Sales Code : ", the sa
 
 Produce the report on the currently assigned printer.
 
-Back to [JQL](jbase-query-language-jql-)
+Back to [jQL](jbase-query-language-jql-)

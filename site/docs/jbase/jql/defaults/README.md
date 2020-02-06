@@ -1,11 +1,10 @@
-# Defaults 
+# Defaults
 
 **Created At:** 6/8/2018 1:05:10 PM  
 **Updated At:** 7/13/2018 10:08:03 AM  
 **Original Doc:** [defaults](https://docs.jbase.com/46350-jql/defaults)  
 **Original ID:** 321283  
 **Internal:** No  
-
 
 ## Alternative Dictionaries
 
@@ -24,8 +23,5 @@ The order in which the dictionaries are searched for dictionary definitions is a
 1. Dictionary of the file being queried
 2. MD/VOC (see JEDIFILENAME\_MD)
 3. Files specified by JBCDEFDICTS
-
-
-
 
 Back to [jBASE Query Language (JQL)](jbase-query-language-jql-)

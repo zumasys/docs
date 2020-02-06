@@ -19,25 +19,20 @@ The command displays the entire contents of items in a file, including the syste
 I-DUMP file-specifier {record-list} {selection-criteria} {sort-criteria} {USING file-specifier}  {(options}
 ```
 
+## Note
 
-
-## Note: 
-
-
-> The S-DUMP command can be used to produce sorted output. System delimiters are denoted as follows:
-> 
-> 
+> The S-DUMP command can be used to produce sorted output.  
+>
+> System delimiters are denoted as follows:
+>
+>
 > | <!----> | <!----> |
 > | --- | --- |
-> | Attribute mark<br> | `^`<br> |
-> | Value mark<br> | `]`<br> |
-> | Sub value mark<br> | `\`<br> |
+> | Attribute mark | `^` |
+> | Value mark | `]` |
+> | Sub value mark | `\` |
 
-
-### 
-
-
-### EXAMPLE 1
+### Example 1
 
 ```
 I-DUMP EMPLOYEE WITH EMP.JOB = "SALESREP"
@@ -51,9 +46,7 @@ The following output is generated:
 8521^TAYLOR^MAVIS^SALESREP^8698^5402^219000^50000^90030^^^^^3]11500^
 ```
 
-
-
-### EXAMPLE 2
+### Example 2
 
 ```
 S-DUMP EMPLOYEE BY EMP.HIREDATE WITH EMP.TITLE "SALESREP"
@@ -66,7 +59,5 @@ The following output is generated:
 8521^TAYLOR^MAVIS^SALESREP^8698^5402^219000^50000^90030^^^^^3]11500^
 8654^MCBRIDE^KEVIN^SALESREP^8698^5620^215000^140000^90030^^^^^]11639\^  
 ```
-
-
 
 Back to [JQL](jbase-query-language-jql-)

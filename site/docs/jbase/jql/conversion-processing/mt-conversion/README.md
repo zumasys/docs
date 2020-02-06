@@ -6,8 +6,7 @@
 **Original ID:** 321304  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 The MT code is used to convert time notations such as 01:40:30 or 1:30 AM between internal and external format. It takes the general form:
 
@@ -17,11 +16,8 @@ MT{H}{S}
 
 where:
 
-- H specifies 12-hour format. If omitted, 24-hour format will be used.
-- S specifies that seconds are to be included.
-
-
-
+- **H** specifies 12-hour format. If omitted, 24-hour format will be used.
+- **S** specifies that seconds are to be included.
 
 Time is stored internally as the number of seconds since midnight. The stored value can be output in 12 hour or 24 hour (international) format.
 
@@ -29,52 +25,39 @@ Time is stored internally as the number of seconds since midnight. The stored va
 
 For output conversions, AM and PM designators are automatically displayed. For example: 09:40AM and 06:30PM.
 
-
-
-## Input Conversion 
+## Input Conversion #1
 
 Input conversion is valid. Generally, for selection processing you should specify MT codes in field 7 of the data definition record.
 
 AM or PM designators are taken into account. The result of the input conversion for certain values can be affected by the [time\_is\_hours](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup12_EMULATION.htm#TIMEISHOURS) emulation setting.
 
+### Examples
 
+### Input Conversion #2
 
-### EXAMPLES
-
-### Input Conversion
-
-
-| Code<br> | Input<br> | Result<br> |
+| Code | Input | Result |
 | --- | --- | --- |
-| MT<br> | 00:00<br> | 0<br> |
-| MTH<br> | 12:00AM<br> | 0<br> |
-| MT<br> | 01:00AM<br> | 3600<br> |
-| MT<br> | 01:00<br> | 3600<br> |
-| MTH<br> | 01:00<br> | 3600<br> |
-| MTH<br> | 01:00AM<br> | 3600<br> |
-| MT<br> | 01:00PM<br> | 46800<br> |
-| MTH<br> | 01:00PM<br> | 46800<br> |
-| MTS<br> | 01:00:30<br> | 3630<br> |
-
-
-#### 
-
+| MT | 00:00 | 0 |
+| MTH | 12:00AM | 0 |
+| MT | 01:00AM | 3600 |
+| MT | 01:00 | 3600 |
+| MTH | 01:00 | 3600 |
+| MTH | 01:00AM | 3600 |
+| MT | 01:00PM | 46800 |
+| MTH | 01:00PM | 46800 |
+| MTS | 01:00:30 | 3630 |
 
 ### Output Conversion
 
-
-| Code<br> | Source Value<br> | Result<br> |
+| Code | Source Value | Result |
 | --- | --- | --- |
-| MTS<br> | 0<br> | 00:00:00<br> |
-| MTHS<br> | 0<br> | 12:00:00AM<br> |
-| MT<br> | 3600<br> | 01:00<br> |
-| MTH<br> | 3600<br> | 01:00AM<br> |
-| MT<br> | 46800<br> | 13:00<br> |
-| MTS<br> | 46800<br> | 13:00:00<br> |
-| MTH<br> | 46800<br> | 01:00PM<br> |
-| MTHS<br> | 46800<br> | 01:00:00PM<br> |
-
-
-
+| MTS | 0 | 00:00:00 |
+| MTHS | 0 | 12:00:00AM |
+| MT | 3600 | 01:00 |
+| MTH | 3600 | 01:00AM |
+| MT | 46800 | 13:00 |
+| MTS | 46800 | 13:00:00 |
+| MTH | 46800 | 01:00PM |
+| MTHS | 46800 | 01:00:00PM |
 
 Back to [Conversion Processing](./../conversion-processing)

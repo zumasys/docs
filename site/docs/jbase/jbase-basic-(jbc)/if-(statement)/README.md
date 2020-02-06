@@ -49,7 +49,7 @@ However, the **END** keyword may be used to expand the clauses to enclose multip
 
 ```
      IF A THEN
-         A = A*6
+         A = A * 6
          CRT A
      END ELSE
          A = 76

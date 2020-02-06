@@ -6,8 +6,7 @@
 **Original ID:** 321303  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 The MS code allows an alternate sort sequence to be defined for sort fields. It takes the general from:
 
@@ -19,7 +18,7 @@ Use of the MS code is only relevant when used in a field 8 pre-process code and 
 
 The sort sequence to be used is defined in a special record named SEQ that you must create in the ERRMSG file. Field 1 of this record contains a sequence of ASCII characters that define the order for sorting.
 
-### EXAMPLE
+### Example
 
 ```
 SEQ (defined in ERRMSG file)

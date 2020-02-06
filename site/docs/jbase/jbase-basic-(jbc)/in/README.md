@@ -28,18 +28,18 @@ The **FOR** clause must have either or both of the **THEN** or **ELSE** clauses
 An example of use is as:
 
 ```
- * Echos the keystroke and its decimal equivalent
+ * Echoes the keystroke and its decimal equivalent
  *
-     PROMPT ""
-     doomsday = @FALSE
-     CRT "Stops if no input in 5 seconds."
-     LOOP UNTIL doomsday DO
-         ECHO OFF
-         IN chr FOR 50 ELSE ECHO ON; STOP
-         ECHO ON
-         IF chr >= 32 AND chr < 128 THEN CRT CHAR(chr) "#2": ELSE CRT "  ":
-         CRT chr "R#4"
-     REPEAT
+PROMPT ""
+doomsday = @FALSE
+CRT "Stops if no input in 5 seconds."
+LOOP UNTIL doomsday DO
+    ECHO OFF
+    IN chr FOR 50 ELSE ECHO ON; STOP
+    ECHO ON
+    IF chr >= 32 AND chr < 128 THEN CRT CHAR(chr) "#2" : ELSE CRT "  " :
+    CRT chr "R#4"
+REPEAT
 ```
 
 See also: [INPUT](./../input) , [INPUTNULL](./../inputnull).
