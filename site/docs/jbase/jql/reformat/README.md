@@ -25,7 +25,7 @@ The user will be prompted to supply the destination file as:
 FILE:
 ```
 
-Enter a file name, or the word **TAPE**for output to a device assigned with the T-ATT command.
+Enter a file name, or the word **TAPE** for output to a device assigned with the T-ATT command.
 
 Records that already exist in the destination file will be overwritten.
 
@@ -33,15 +33,13 @@ When one file is reformatted into another, each record selected becomes a record
 
 When a file is reformatted to tape, the values specified in the output specification clause are concatenated together to form one tape record for each record that is selected. The record output is either truncated or padded at the end with nulls (X"00") to obtain a record the same length as specified when the tape was assigned by the [T-ATT](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/tap2_T_ATT.htm) command.
 
-Unless  HDR-SUPP or COL-HDR-SUPP, or a C or H option are specified, a tape label containing the file name, tape record length (in hexadecimal), the time, and date will be written to the tape first. If a HEADING clause is specified, this will form the data for the tape label.
+Unless **HDR-SUPP** or **COL-HDR-SUPP**, or a **C** or **H** option are specified, a tape label containing the file name, tape record length (in hexadecimal), the time, and date will be written to the tape first. If a **HEADING** clause is specified, this will form the data for the tape label.
 
-Record keys are displayed as the records are written to tape unless the ID-SUPP modifier or the I option is specified.
+Record keys are displayed as the records are written to tape unless the ID-SUPP modifier or the "(I" option is specified.
 
 Two EOF marks terminate the file on tape.
 
-
-
-### EXAMPLE
+### Example
 
 ```
 :REFORMAT SALES C.CODE NAME ADDRESS
@@ -55,8 +53,6 @@ FILE: ADDRESS
 
 Creates new records in the ADDRESS file, keyed on C.CODE from the SALES file. Each record contains two fields, one with the values from the NAME field and one with the values from the ADDRESS field.
 
-
-
 See also the SREFORMAT command.
 
-Back to [JQL](jbase-query-language-jql-)
+Back to [jQL](jbase-query-language-jql-)

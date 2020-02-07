@@ -18,10 +18,6 @@ Generates a report of all data definition records in the first MD/VOC file found
 LISTDICT {file-specifier}
 ```
 
+where **file-specifier** specifies a dictionary file other than a file named MD/VOC in the JEDIFILEPATH. If **file-specifier** is not defined, **LISTDICT** will work with the first file named MD which is found in the JEDIFILEPATH.
 
-
-where **file-specifier**specifies a dictionary file other than a file named MD/VOC in the JEDIFILEPATH. If a file-specifier is not specified, **LISTDICT** will work with the first file named MD which is found in the JEDIFILEPATH.
-
-
-
-Back to [JQL](jbase-query-language-jql-)
+Back to [jQL](jbase-query-language-jql-)

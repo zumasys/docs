@@ -22,7 +22,7 @@
 [select](./select)  
 [sort](./sort)  
 [sort-label](./sort-label)  
-[srefformat](./srefformat)  
+[sreformat](./sreformat)  
 [sselect](./sselect)  
 [sublists---v-code](./sublists---v-code)  
 [subroutines](./subroutines)  

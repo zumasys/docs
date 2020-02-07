@@ -17,13 +17,9 @@ Generates a sorted and formatted report of records and fields from a specified f
 SORT file-specifier {record-list} {selection-criteria} {sort-criteria} {USING file-specifier} {output-specification} {format-specification} {(options}
 ```
 
-
-
-## Note: 
-
+## Note
 
 > Unless a different sort order is specified in the sort criteria, the records will be presented in an ascending order based on the record key.
-
 
 The data definition record (or the file definition record in the case of keys) determines whether a left or right sort will be applied to the data.
 
@@ -51,9 +47,7 @@ ABCD
 
 If a descending sequence is required, the BY-DSND modifier should be used in the sort criteria. A descending sequence of record keys can be obtained by using the BY-DSND modifier with a data definition record that points to field 0 ( the key). See "Sort Criteria Clause" earlier for a full explanation of the sorting process.
 
-
-
-### EXAMPLE 1
+### Example 1
 
 ```
 SORT SALES
@@ -61,9 +55,7 @@ SORT SALES
 
 Sort all the records in the SALES file into key order and use the default data definition records (if found) to format the output.
 
-
-
-### EXAMPLE 2
+### Example 2
 
 ```
 SORT SALES WITH S.CODE = "ABC" "DEF" "GHI"
@@ -71,9 +63,7 @@ SORT SALES WITH S.CODE = "ABC" "DEF" "GHI"
 
 Select the records in the SALES file in which the S.CODE field contains the values ABC, DEF or GHI. Sort the records into key order.
 
-
-
-### EXAMPLE 3
+### Example 3
 
 ```
 GET-LIST SALES.Q4
@@ -82,9 +72,7 @@ GET-LIST SALES.Q4
 
 Get the implicit list called SALES.Q4 and, using the list, report on the records in the SALES file which have a key greater than DEF. Sort the report by S.CODE.
 
-
-
-### EXAMPLE 4
+### Example 4
 
 ```
 SORT SALES WITH S.CODE = "ABC]" OR "[DEF" BY-DSND S.KEY LPTR
@@ -92,9 +80,7 @@ SORT SALES WITH S.CODE = "ABC]" OR "[DEF" BY-DSND S.KEY LPTR
 
 Select the records in the SALES file in which the S.CODE field contains values which start with ABC or end with DEF. Sort the report in descending order of S.KEY (a data definition record which points to field 0 - the key) and output the report to the printer
 
-
-
-### EXAMPLE 5
+### Example 5
 
 ```
 SORT SALES BY S.CODE BREAK-ON S.CODE "'BL'" P.CODE TOTAL VALUE GRAND-TOTAL "Total" HEADING "Sales Code: 'B' 'DL' FOOTING "Page 'CPP'" LPTR
@@ -108,6 +94,4 @@ Set up a heading for each page which comprises the words "Sales Code: ", the sal
 
 Produce the report on the currently assigned printer.
 
-
-
-Back to [JQL](jbase-query-language-jql-)
+Back to [jQL](jbase-query-language-jql-)

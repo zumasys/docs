@@ -21,11 +21,9 @@ This can be done as:
 V;;field-no
 ```
 
-where field-no is the number of the field which contains the sublist.
+where **field-no** is the number of the field which contains the sublist.
 
-
-
-### EXAMPLE
+### Example
 
 Consider the STOCK file used by a camera factory where each data record can represent either an assembly or a component part.
 
@@ -36,32 +34,17 @@ Take as an example the record set that defines a simple camera assembly. The dat
 | --- | --- |
 | Key                                         A1<br>001                                        Camera Assy<br>002                                        A21]A22]A23<br>003                                        10  | Key                                      A21<br>001                                      Lens Assy<br>002                                      A210]A211<br>003                                      15  |
 
-
-
-
-
 | <!----> | <!----> |
 | --- | --- |
 | Key                                        A22<br>001                                       Body<br>002                                      <br>003                                       10 | Key                                      A23<br>001                                     Shutter Assy      <br>002                                     A230]A231  <br>003                                     11 |
-
-
-
-
 
 | <!----> | <!----> |
 | --- | --- |
 | Key                                         A210<br>001                                        Optics<br>002                                        <br>003                                        19 | Key                                      A211<br>001                                      Barrel<br>002<br>003                                      21 |
 
-
-
-
-
 | <!----> | <!----> |
 | --- | --- |
 | Key                                        A230<br>001                                        Iris Mech<br>002<br>003                                        13 | Key                                          A231<br>001                                          Iris Housing<br>002      <br>003                                          14                                 |
-
-
-
 
 The key is the part number, field 1 contains the description, field 2 is a multivalued list of components that go to make up the part, and field 3 is the current stock level.
 
@@ -88,8 +71,6 @@ Now all we need to do is to create three [data definition records](./../data-def
 
 The final step is to issue a COUNT or LIST command which uses the WITHIN modifier:
 
-
-
 ```
 :LIST WITHIN STOCK "A1" DESC COMPONENTS QTY
 PAGE 1 Time Date
@@ -110,6 +91,4 @@ LEVEL STOCK Description.... Components Qty
 8 RECORDS LISTED
 ```
 
-
-
-
+Back to [jQL](jbase-query-language-jql-)

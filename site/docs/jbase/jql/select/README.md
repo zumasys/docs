@@ -1,4 +1,4 @@
-# SELECT 
+# SELECT
 
 **Created At:** 6/8/2018 2:02:48 PM  
 **Updated At:** 6/6/2019 11:54:37 AM  
@@ -20,32 +20,24 @@ SELECT file-specifier {record-list} {selection-criteria} {sort-criteria} {output
 where options are:
 
 - **C**{**n**} Display running counters of the number of records selected and records processed. Unless modified by **n**, the counter increments after every 500 records processed or the total number of records if less than 500.
-- **n** specifies a number other than 500 by which to increment. For example, **C25**increments the counter after every 25 records processed.
+- **n** specifies a number other than 500 by which to increment. For example, **C25** increments the counter after every 25 records processed.
 
-
-
-
-## Note: 
-
+## Note
 
 > The records will not be sorted unless you specify a sort criteria clause.
 
+If **output-criteria** is specified, the generated list will comprise the data (field) values defined by the clause, rather than the selected record keys.
 
+If in jSHELL, when the command terminates, the total number of entries in the generated list is displayed and the list is made available to the next command, as indicated by the **&gt;** prompt.
 
-
-If an **output-criteria** clause is specified, the generated list will comprise the data (field) values defined by the clause, rather than the selected record keys.
-
-If in jSHELL, when the command terminates, the total number of entries in the generated list is displayed and the list is made available to the next command, as indicated by the **&gt;**prompt.
-
-If the **BY-EXP** or**BY-EXP-DSND** connectives are used on a multivalued field, the list will have the format:
+If the **BY-EXP** or **BY-EXP-DSND** connectives are used on a multivalued field, the list will have the format:
 
 **record-key]multivalue#**
 
-where **multivalue#** is the position of the multivalue within the field specified with **BY-EXP**or **BY-EXP-DSND**. **multivalue#** can be accessed by a **READNEXT id,val** statement in a jBC program.
+where **multivalue#** is the position of the multivalue within the field specified with **BY-EXP** or **BY-EXP-DSND**.  
+**multivalue#** can be accessed by a **READNEXT id,val** statement in a jBC program.
 
-
-
-### EXAMPLE 1
+### Example 1
 
 ```
 SELECT SALES WITH S.CODE = "ABC]"
@@ -56,10 +48,7 @@ SELECT SALES WITH S.CODE = "ABC]"
 
 Select all the records in SALES file with an S.CODE value that starts with ABC. Then, using the list, report on the records in the SALES file which have a VALUE field greater than 1000.
 
-### 
-
-
-### EXAMPLE 2
+### Example 2
 
 ```
 SELECT SALES WITH S.CODE = "ABC]"
@@ -70,9 +59,9 @@ SELECT SALES WITH S.CODE = "ABC]"
 
 Select all the records in SALES file with an S.CODE value that starts with ABC. Then save the list as SALES.ABC.
 
-### EXAMPLE 3
+### Example 3
 
-This example illustrates how to select specific multivalues from a select-list generated with a BY-EXP clause.
+This Example illustrates how to select specific multivalues from a select-list generated with a BY-EXP clause.
 
 First, generate 10 records like this:
 
@@ -105,8 +94,6 @@ DELLA                    JONES                HP              LINUX RH7       QM
 
  5 Records Listed
 ```
-
-
 
 To see the actual value number, create this dictionary item:
 
@@ -144,9 +131,7 @@ DELLA                    JONES                      3 HP              LINUX RH7 
  5 Records Listed
 ```
 
-
-
-### EXAMPLE 4
+### Example 4
 
 Using the same file from Example 3, this jBC program generates an exploded select-list and then displays the record ID, the HARDWARE multivalue and its value number.
 
@@ -163,6 +148,4 @@ Using the same file from Example 3, this jBC program generates an exploded selec
 010     REPEAT
 ```
 
-
-
-Back to [JQL](jbase-query-language-jql-)
+Back to [jQL](jbase-query-language-jql-)
