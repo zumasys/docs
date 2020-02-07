@@ -97,7 +97,7 @@ If upgrading from a previous version of jBASE, the installer will attempt to loc
 
 **Please note that the installer will ***not*** continue unless at least one license key is entered**.
 
-For licensing assistance contact Zumasys jBASE support in the United States at 866 582 8447 and from the United Kingdom at 0808 189 3266 or [sales@jbase.com.](mailto:sales@jbase.com) 
+For licensing assistance contact Zumasys jBASE support in the United States at 866 582 8447 and from the United Kingdom at 0808 189 3266 or [sales@jbase.com.](mailto:sales@jbase.com)
 13.  Review the summary information and then click Install.  
 Applies to: Express **Advanced** ![323805-windows-jbase-installation: 1529574676012-advanced-2](./1529574676012-advanced-2.png)
 14. The jBASE release files are copied to the destination folder, replacing any existing files if installing over an existing installation.

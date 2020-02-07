@@ -6,7 +6,6 @@
 **Original ID:** 343778  
 **Internal:** No  
 
-
 ## Logging into a jBASE account
 
 ``` CSharp
@@ -38,7 +37,7 @@ jc.Open(ipAddress, JConnection.JRCS_PORT, username, password, "");
 ``` CSharp
 public void Call(string subName, string[] parms);
 public void Call(string subName);
-public void Call(string subName, JDynArray[] parms); 
+public void Call(string subName, JDynArray[] parms);
 ```
 
 Class: *JConnection*
@@ -177,7 +176,7 @@ Java:
 testFile.write(id,rec, false);
 ```
 
-``` C#
+``` CSharp
 C#:
 // Write a record to a previously opened file, preserving the lock (WriteU)
 testFile.Write(RecId, jDynArray, false);
@@ -185,7 +184,7 @@ testFile.Write(RecId, jDynArray, false);
 
 ## Executing a jBASE command
 
-``` C#
+``` CSharp
 public JExecuteResults Execute(string command, JExecFlags flags);
 public enum JExecFlags
     {
@@ -241,7 +240,7 @@ int thisDate = jc.getDate();
 String currentDate = jc.oConv(String.valueOf(thisDate), "D4");
 ```
 
-``` C#
+``` CSharp
 C#:
 // Obtain the date from the jBASE in internal format and convert to external format
 int thisDate = jc.Date;
@@ -250,7 +249,7 @@ string currentDate = jc.OConv(thisDate.ToString(), "D4");
 
 ## Executing jQL queries
 
-``` C#
+``` CSharp
 public JExecuteResults ExecuteAndStore(string command, JExecFlags flags);
 public JExecuteResults ExecuteAndStore(string command, JExecFlags flags, JSelectList passList);
 public JExecuteResults ExecuteAndStore(string command, JExecFlags flags, JSelectList passList, int blockSize);
@@ -349,7 +348,6 @@ System.out.println("Current jBASE version is " + versionNumber + "!");
 ```
 
 ``` CSharp
-C#: 
 // Get jBASE version
 JDynArray jbaseVersion = jc.jBaseVersion;
 string versionNumber = jbaseVersion.Extract(1) + "." + jbaseVersion.Extract(2);
