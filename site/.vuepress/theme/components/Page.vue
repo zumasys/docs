@@ -6,11 +6,11 @@
         <Breadcrumbs />
 
         <Content />
-
-        <PageEdit />
-
-        <Vssue />
       </div>
+
+      <PageEdit />
+
+      <Vssue />
 
     <PageNav v-bind="{ sidebarItems }" />
 
@@ -32,8 +32,13 @@ export default {
 <style lang="stylus">
 @require '~@parent-theme/styles/wrapper.styl';
 
-.page {
+.page 
   padding-bottom: 2rem;
   display: block;
-}
+
+.vssue
+  @extend $wrapper;
+  padding-left: 0;
+  padding-right: 0;
+
 </style>
