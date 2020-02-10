@@ -34,7 +34,6 @@ module.exports = {
       },
       // Git Log
       'git-log': {
-        //additionalArgs: '--no-merge',
         onlyFirstAndLastCommit: true
       }
   },
