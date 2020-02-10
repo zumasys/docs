@@ -31,6 +31,11 @@ module.exports = {
         tsLoaderOptions: {
           // All options of ts-loader
         },
+      },
+      // Git Log
+      'git-log': {
+        additionalArgs: '--no-merge',
+        onlyFirstAndLastCommit: true,
       }
   },
   themeConfig: {
