@@ -35,7 +35,8 @@ module.exports = {
       // Git Log
       'git-log': {
         onlyFirstAndLastCommit: true
-      }
+      },
+      'vuepress-plugin-nprogress': {}
   },
   themeConfig: {
     logo: "/assets/img/logo-grey.png",
