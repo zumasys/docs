@@ -8,6 +8,8 @@
         <Content />
       </div>
 
+      <GitLog />
+
       <PageEdit />
 
       <Vssue />
@@ -19,12 +21,13 @@
 </template>
 
 <script>
+import Breadcrumbs from "@theme/components/Breadcrumbs.vue";
+import GitLog from "@theme/components/GitLog.vue";
 import PageEdit from "@parent-theme/components/PageEdit.vue";
 import PageNav from "@parent-theme/components/PageNav.vue";
-import Breadcrumbs from "@theme/components/Breadcrumbs.vue";
 
 export default {
-  components: { Breadcrumbs, PageEdit, PageNav },
+  components: { Breadcrumbs, GitLog, PageEdit, PageNav },
   props: ["sidebarItems"]
 };
 </script>
