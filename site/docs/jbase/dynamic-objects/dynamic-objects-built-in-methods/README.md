@@ -6,7 +6,6 @@
 **Original ID:** 299323  
 **Internal:** No  
 
-
 Dynamic Objects contains a number of built-in methods that can be applied to any object where it makes sense, and some of them can even be applied to variables that are not objects.
 
 All built-in methods start with "$".
@@ -43,4 +42,3 @@ All built-in methods start with "$".
 - [$split() / $slice()](./../method-$split%28%29-&-$slice%28%29)
 - [$tojson()](./../method-$tojson%28%29)
 - [$valuetype()](./../method-$valuetype%28%29)
-

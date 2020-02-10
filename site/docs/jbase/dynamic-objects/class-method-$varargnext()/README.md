@@ -6,12 +6,9 @@
 **Original ID:** 303984  
 **Internal:** No  
 
-
 ## Description
 
 The **next()** method points to the next *optional* argument in an object returned from an instance of the **$vararg** class.
-
-
 
 ## Examples
 
@@ -27,16 +24,12 @@ method Math::sum()
 end method
 ```
 
-
-
 The method can be used like this:
 
 ```
 crt Math::sum(1,2,3,4,5) ;* displays 15
 crt Math::sum(1,-1)      ;* displays 0 (zero)
 ```
-
-
 
 This next example creates a random string and counts the number of vowels in it:
 
@@ -55,8 +48,4 @@ jugdczepdivrovgqxiuafsftqiyqkqmtywckxqrldnfxowaiefnybtnydzpyrqocymopuawmtqbnnyol
 crt "Number of vowels = " : 24
 ```
 
-
-
 ## Notes
-
-

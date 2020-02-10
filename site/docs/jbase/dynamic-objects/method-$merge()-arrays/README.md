@@ -6,7 +6,6 @@
 **Original ID:** 356869  
 **Internal:** No  
 
-
 ## Description
 
 The **$merge()** method combines (concatenates) one array with another array.
@@ -40,8 +39,6 @@ Result:
 ```
 ["green","red","grey","red"]
 ```
-
-
 
 ## Notes
 

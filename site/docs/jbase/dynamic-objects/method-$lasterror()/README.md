@@ -6,30 +6,21 @@
 **Original ID:** 299444  
 **Internal:** No  
 
-
 ## Description
 
-The **$lasterror** method returns an object with the results of a **$fromjson()** method call, and since it is an object its properties can be accessed.
-
-
+The **$lasterror** method returns an object with the results of a **\$fromjson()** method call, and since it is an object its properties can be accessed.
 
 ## Syntax
 
 See Examples below.
 
-
-
 ## Arguments
 
 None
 
-
-
 ## Return values
 
 An object from the last **$fromjson()** call
-
-
 
 ## Examples
 
@@ -126,13 +117,11 @@ $fromjson() worked!
 ==================================================
 ```
 
-
-
 ## Notes
 
 Usually in JSON, new lines are delimited by @LF, or on windows @CR:@LF. As an extension for jBASE, we support @AM as a new line, as shown in the above example that creates a JSON string as a dynamic array.
 
-**$lasterror()**will always return an object; if **$fromjson()**processed a valid JSON string then the JSON representation of the object that **$lasterror()**returns will look like this:
+**\$lasterror()** will always return an object; if **\$fromjson()** processed a valid JSON string then the JSON representation of the object that **$lasterror()** returns will look like this:
 
 ```
 {
@@ -142,5 +131,3 @@ Usually in JSON, new lines are delimited by @LF, or on windows @CR:@LF. As an ex
     "line":0
 }
 ```
-
-

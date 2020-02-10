@@ -6,7 +6,6 @@
 **Original ID:** 300559  
 **Internal:** No  
 
-
 A **Static Method** is one that can be used without creating an object. This means the calling object (identified as **this-&gt;**) is either illegal or inconsequential.
 
 In other object oriented languages a static method would be identified with the keyword **static** and the compiler would give an error if it was referenced with **this-&gt;** or **self** or whatever the keyword is that references the instance. With Dynamic Objects, we do neither as we create a transient **this-&gt;** reference to the method; when the method completes, the reference is destroyed.
@@ -28,27 +27,27 @@ This will compile to a call to a static method where the called object is create
 Extending our Math class from [here](./../dynamic-objects-instance-methods), add a new method called **nthroot** which calculates the nth root of some number to the nearest integer, both of which will be arguments of the method.
 
 ```
-0001     method Math::Math()       ;* constructor
-0002     this->pi = 3.14159
-0003     end method
-0004
-0005     method Math::circumference(radius)
-0006     return (this->pi*2) * radius
-0007     end method
-0008
-0009     method Math::nthroot(index, base)
-0010     return int(pwr(base, 1/index) + .5)
-0011     end method
+    method Math::Math()       ;* constructor
+        this->pi = 3.14159
+    end method
+
+    method Math::circumference(radius)
+        return (this->pi*2) * radius
+    end method
+
+    method Math::nthroot(index, base)
+        return int(pwr(base, 1/index) + .5)
+    end method
 ```
 
 Now create a program to call the static method, passing the index and and some number to the program from the command line:
 
 ```
-0001     program find_nth_root.jabba
-0002     index = sentence(1)
-0003     base = sentence(2)
-0004     crt "The nearest integer with nth root ":
-0005     crt index:" of ":base:" = ":Math::nthroot(index, base)
+    program find_nth_root.jabba
+    index = sentence(1)
+    base = sentence(2)
+    crt "The nearest integer with nth root ":
+    crt index:" of ":base:" = ":Math::nthroot(index, base)
 ```
 
 Let's run this program a few times:

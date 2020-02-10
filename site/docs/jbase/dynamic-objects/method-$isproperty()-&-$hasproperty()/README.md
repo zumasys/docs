@@ -6,10 +6,9 @@
 **Original ID:** 299334  
 **Internal:** No  
 
-
 ## Description
 
-The **$isproperty()** method, and its synonym, **$hasproperty()**, determines if one or more properties, including inherited\* properties, exist in an object or array.
+The **$isproperty()** method, and its synonym, **\$hasproperty()**, determine if one or more properties, including inherited\* properties, exist in an object or array.
 
 \* See Notes below
 
@@ -20,20 +19,11 @@ obj->$isproperty(arg1,{arg2,arg3,...})
 arr->%isproperty(index1,{index2,index3,...})
 ```
 
-
-
 ## Arguments
 
-
-
-
-| <!----> |
+| Description |
 | --- |
-| Description<br> |
-| Each argument is a literal or variable that is checked to see if it is a property of the object or array. The properties of arrays are always the index of the value (see example below).<br> |
-
-
-
+| Each argument is a literal or variable that is checked to see if it is a property of the object or array. The properties of arrays are always the index of the value (see example below). |
 
 ## Return values
 
@@ -41,8 +31,6 @@ arr->%isproperty(index1,{index2,index3,...})
 0 = at least 1 of the arguments is not a property
 1 = all of the arguments are properties
 ```
-
-
 
 ## Examples
 
@@ -83,8 +71,6 @@ crt arr->$isproperty("greg")
 ```
 
 This also displays "1". Because it is an array it tries to convert "greg" to a numeric to get a relative index position. The string "greg" is not numeric so "0" is returned. Hence, in effect, it is looking for index value 0, which exists.
-
-
 
 ## Notes
 

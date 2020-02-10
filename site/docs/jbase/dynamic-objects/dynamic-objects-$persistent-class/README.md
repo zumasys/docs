@@ -6,7 +6,6 @@
 **Original ID:** 303922  
 **Internal:** No  
 
-
 The following methods can be utilized from the **$persistent**class:
 
 - $persistent::setfile()
@@ -15,4 +14,3 @@ The following methods can be utilized from the **$persistent**class:
 - $persistent::clearlocks()
 - $persistent::getlockfilename()
 - $persistent::count()
-

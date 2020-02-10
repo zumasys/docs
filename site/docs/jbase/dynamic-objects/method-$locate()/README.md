@@ -6,12 +6,9 @@
 **Original ID:** 357239  
 **Internal:** No  
 
-
 ## Description
 
 The **$locate()** method is used to find a value in a Dynamic Objects array, optionally specifying a case insensitive search.
-
-
 
 ## Syntax
 
@@ -21,40 +18,39 @@ position = array->$locate(value, {1})
 
 If the optional second argument is "1" (or any positive integer) then a case insensitive search is done.
 
-## 
-Return value
+## Return value
 
 The relative index position of the value or -1 if the value was not found.
 
 ## Examples
 
 ```
-001     philosophers = new array
-002     philosophers->$append("Theaetetus")
-003     philosophers->$append("Charmides")
-004     philosophers->$append("Parmenides")
-005     philosophers->$append("Protagoras")
-006     case_insensitive = @false
-007     value = "Socrates"
-008     gosub find_philosopher
-009     value = "Theaetetus"
-010     gosub find_philosopher
-011     case_insensitive = @true
-012     value = "parmenides"
-013     gosub find_philosopher
-014     crt philosophers->$tojson()
-015     stop
-016
-017 find_philosopher:
-018
-019     pos = philosophers->$locate(value, case_insensitive)
-020     if pos ge 0 then
-021         crt "Found ":dquote(value):" at position ":pos:"."
-022     end else
-023         crt dquote(value):" does not exist in the philosopher's array so we are adding it."
-024         philosophers->$append(value)
-025     end
-026     return
+    philosophers = new array
+    philosophers->$append("Theaetetus")
+    philosophers->$append("Charmides")
+    philosophers->$append("Parmenides")
+    philosophers->$append("Protagoras")
+    case_insensitive = @false
+    value = "Socrates"
+    gosub find_philosopher
+    value = "Theaetetus"
+    gosub find_philosopher
+    case_insensitive = @true
+    value = "parmenides"
+    gosub find_philosopher
+    crt philosophers->$tojson()
+    stop
+
+find_philosopher:
+
+    pos = philosophers->$locate(value, case_insensitive)
+    if pos ge 0 then
+        crt "Found ":dquote(value):" at position ":pos:"."
+    end else
+        crt dquote(value):" does not exist in the philosopher's array so we are adding it."
+        philosophers->$append(value)
+    end
+    return
 ```
 
 Result:
@@ -65,8 +61,6 @@ Found "Theaetetus" at position 0.
 Found "parmenides" at position 2.
 ["Theaetetus","Charmides","Parmenides","Protagoras","Socrates"]
 ```
-
-
 
 ## Notes
 

@@ -6,7 +6,6 @@
 **Original ID:** 305693  
 **Internal:** No  
 
-
 ## Description
 
 The **$clone()** method creates an exact copy of an existing object.
@@ -15,29 +14,23 @@ Making any changes to the original object does not affect the cloned object, and
 
 The cloned object contains all nested objects and arrays.
 
-
-
 ## Syntax
 
 ```
-obj1->$clone() 
+obj1->$clone()
 ```
 
 ## Arguments
 
 None
 
-
-
 ## Return value
 
 An exact copy of an object or array including all nested properties.
 
-
-
 ## Example
 
-In this example, we clone the **music**object to create **newmusic**, then add a new value to the nested array of the cloned **newmusic**object. When both objects are displayed they show different contents.
+In this example, we clone the **music** object to create **newmusic**, then add a new value to the nested array of the cloned **newmusic** object. When both objects are displayed they show different contents.
 
 ```
 equ beautify to 5
@@ -104,7 +97,7 @@ is changed to:
 newmusic = music
 ```
 
-then appending the new value to the **favorites**array would result in both objects showing the same contents because they both refer to the same internal object address and the reference count of the object would then increase to 2 (refer to the [$refcount()](./../method-$refcount%28%29) method):
+then appending the new value to the **favorites** array would result in both objects showing the same contents because they both refer to the same internal object address and the reference count of the object would then increase to 2 (refer to the [$refcount()](./../method-$refcount%28%29) method):
 
 ```
 music:
@@ -133,8 +126,6 @@ newmusic:
     ]
 }
 ```
-
-
 
 ## Notes
 

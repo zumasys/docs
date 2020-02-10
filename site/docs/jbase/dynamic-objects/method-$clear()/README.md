@@ -6,12 +6,9 @@
 **Original ID:** 299326  
 **Internal:** No  
 
-
 ## Description
 
 The **$clear()** method clears (deletes) all the members (properties) from an object or array leaving the object/array void.
-
-
 
 ## Syntax
 
@@ -20,19 +17,13 @@ obj->$clear()
 arr->$clear()
 ```
 
-
-
 ## Arguments
 
 None
 
-
-
 ## Return values
 
 The current object
-
-
 
 ## Examples
 

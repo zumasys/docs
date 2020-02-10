@@ -6,7 +6,6 @@
 **Original ID:** 303860  
 **Internal:** No  
 
-
 The following methods can be utilized from the **$system**class:
 
 - [$system::getemulation()](./../class-method-$systemgetemulation%28%29)
@@ -16,12 +15,10 @@ The following methods can be utilized from the **$system**class:
 - [$system::getfiles()](./../class-method-$systemgetfiles%28%29)
 
 
-In order to call any of these methods, a **$system**object must first be created, for example:
+In order to call any of these methods, a **$system** object must first be created, for example:
 
 ```
 sys = new object("$system")
 ```
 
 Once this object is created, a call to any of the methods creates a sub-object that can be used to obtain the related information.
-
-

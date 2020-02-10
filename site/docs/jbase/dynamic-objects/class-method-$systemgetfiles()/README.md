@@ -6,9 +6,7 @@
 **Original ID:** 306496  
 **Internal:** No  
 
-
-## 
-Description
+## Description
 
 The **getfiles()** method creates a sub-object of all files visible to the **JEDIFILEPATH** environment variable or defined as Q- or F-pointers in the MD/VOC provided **JEDIFILENAME\_MD** is defined.
 
@@ -30,13 +28,9 @@ The sub-object contains 2 properties:
 
 **index** - the position the file is found in the **filepath** property; this is number is zero-based
 
-
-
 ## Return Value
 
 The total number of files found.
-
-
 
 ## Examples
 
@@ -48,8 +42,6 @@ my_system = new object("$system")
 my_system->getfiles()
 crt my_system->$tojson(beautify)
 ```
-
-
 
 Display a single file:
 

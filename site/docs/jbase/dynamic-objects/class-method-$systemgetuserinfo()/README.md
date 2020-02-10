@@ -6,7 +6,6 @@
 **Original ID:** 313786  
 **Internal:** No  
 
-
 ## Description
 
 The **getuserinfo()** method is used to obtain user information based on port number. It creates a sub-object with a property name of **user**. The **user** sub-object contains sub-objects of a specific port number or ALL active port numbers.
@@ -17,13 +16,9 @@ If a specific port number is specified then only that port number's information 
 
 If an invalid port number is specified then the sub-object will be void of any properties.
 
-
-
 ## Return value
 
 The total number of active ports.
-
-
 
 ## Examples
 
@@ -167,7 +162,5 @@ User count = 2
 
 jsh ~ -->
 ```
-
-
 
 ## Notes

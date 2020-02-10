@@ -6,7 +6,6 @@
 **Original ID:** 356464  
 **Internal:** No  
 
-
 ## Description
 
 The **$merge()** method combines (merges) one object into another object, optionally specifying which object takes precedence if both objects contain  the same properties.
@@ -18,26 +17,22 @@ destination->$merge(source{,1})
 destination->$merge(source,0)
 ```
 
-## 
-Arguments
+## Arguments
 
 
-| <!----> | <!----> |
+| Argument | Description |
 | --- | --- |
-| Argument<br> | Description<br> |
-| 1<br> | The **source** object's properties takes precedence (default)<br> |
-| 0<br> | The **destination** object's properties takes precedence<br> |
+| 1 | The **source** object's properties takes precedence (default) |
+| 0 | The **destination** object's properties takes precedence |
 
-
-If no argument is specified and the **source**and **destination**contain the same property then the **source**takes precedence. These 2 statements are the same:
+If no argument is specified and the **source** and **destination** contain the same property then the **source** takes precedence. These two statements are the same:
 
 ```
 destination->$merge(source)
 destination->$merge(source,1)
 ```
 
-## 
-Return value
+## Return value
 
 The merged object.
 
@@ -102,7 +97,6 @@ or:
 crt source->$merge(destination)->$tojson(formatted)
 ```
 
-## 
-Notes
+## Notes
 
 Objects can only be merged into other objects, you cannot merge an object with an array (and vice versa). Attempting to do so will produce unpredictable results.

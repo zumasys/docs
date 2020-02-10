@@ -6,32 +6,23 @@
 **Original ID:** 299451  
 **Internal:** No  
 
-
 ## Description
 
 The **$refcount()** method returns the number of variables that reference the same object.
 
-
-
 ## Syntax
 
 ```
-obj->$refcount() 
+obj->$refcount()
 ```
-
-
 
 ## Arguments
 
 None
 
-
-
 ## Return value
 
 The number of references to the object.
-
-
 
 ## Examples
 
@@ -90,13 +81,13 @@ Notice that the address for both objects is the same.
 
 ## Notes
 
-The $dump() method also reports the number of references as well as the object's address which is useful to determine if 2 or more variables point to the same object.
+The $dump() method also reports the number of references as well as the object's address which is useful to determine if two or more variables point to the same object.
 
 An object's reference count is incremented when it is embedded in another object.
 
 An object's destructor method, if it exists, will not be called until the reference count goes to zero. This happens automatically when a program terminates.
 
-An object can be dereferenced by setting the variable to which the object points to "", zero or some other value that does not point to that object, e.g.
+An object can be dereferenced by setting the variable to which the object points to "" (null), zero or some other value that does not point to that object, e.g.:
 
 ```
 obj = new object

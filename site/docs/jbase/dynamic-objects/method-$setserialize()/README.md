@@ -6,12 +6,9 @@
 **Original ID:** 304228  
 **Internal:** No  
 
-
 ## Description
 
 The **$setserialize()** method provides a limited amount of control over a serialized object when a character string is required and a dynamic object is the source. The object is serialized to a JSON string.
-
-
 
 ## Syntax
 
@@ -26,37 +23,26 @@ If format type is omitted then it is the same as not using the method at all. In
 
 ```
 obj->$setserialize()
-print obj
+crt obj
 ```
 
 is the same as:
 
 ```
-print obj
+crt obj
 ```
-
-
 
 ## Arguments
 
-
-
-
-| <!----> | <!----> |
+| Format Type | Description |
 | --- | --- |
-| Format Type<br> | Description<br> |
-| 1<br> | Formatted output using @TAB for indentation<br> |
-| 2<br> | Use @AM instead of a new-line when formatting<br> |
-| 4<br> | Use 4 spaces instead of @TAB when formatting<br> |
-
-
-
+| 1 | Formatted output using @TAB for indentation |
+| 2 | Use @AM instead of a new-line when formatting |
+| 4 | Use 4 spaces instead of @TAB when formatting |
 
 ## Return values
 
 An un-formatted or formatted JSON string.
-
-
 
 ## Examples
 
@@ -64,18 +50,18 @@ An un-formatted or formatted JSON string.
 calendar = new object
 months = new array
 calendar->year = 2018
-month_names = "jan":@am:"feb":@am:"mar":@am:"apr":@am:"may":@am:"jun":@am:"jul":@am:"aug":@am:"sep":@am:"oct":@am:"nov":@am:"dec"
+month_names = "jan" : @am : "feb" : @am : "mar" : @am : "apr" : @am : "may" : @am : "jun" : @am : "jul" : @am : "aug" : @am : "sep" : @am : "oct" : @am : "nov" : @am : "dec"
 for i = 1 to 12
     months->$append(month_names<i>)
 next i
 calendar->months = months
-print calendar               ;* No formatting
+crt calendar               ;* No formatting
 calendar->$setserialize(1)   ;* Default formatted output
-print calendar
+crt calendar
 calendar->$setserialize(3)   ;* Use attribute marks instead of new-lines
-print calendar
+crt calendar
 calendar->$setserialize(5)   ;* Formatted output using 4 spaces for indentation levels
-print calendar
+crt calendar
 ```
 
 Results:
@@ -121,8 +107,6 @@ Results:
     ]
 }
 ```
-
-
 
 ## Notes
 

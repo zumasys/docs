@@ -6,39 +6,25 @@
 **Original ID:** 299349  
 **Internal:** No  
 
-
 ## Description
 
 The **$delete()** method deletes a property from an object or array.
 
-
-
 ## Syntax
 
 ```
-obj->$delete(property name) 
+obj->$delete(property name)
 ```
-
-
 
 ## Arguments
 
-
-
-
-| <!----> | <!----> |
+| Argument | Description |
 | --- | --- |
-| Argument<br> | Description<br> |
-| property name<br> | the name of the property to be deleted from the object<br> |
-
-
-
+| property name | the name of the property to be deleted from the object |
 
 ## Return values
 
 The current object
-
-
 
 ## Examples
 
@@ -64,8 +50,6 @@ Results:
 {"year":2018}
 {}
 ```
-
-
 
 ## Notes
 

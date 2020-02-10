@@ -6,10 +6,9 @@
 **Original ID:** 507456  
 **Internal:** No  
 
+**Object inheritance** is a mechanism that allows an instance of a class to inherit all of the properties and methods of the classes of other object instances. Object inheritance is [recursive](./../dynamic-objects-inheritance) in the same way as [Class inheritance](./../method-$inherit%28%29---class-inheritance).
 
-**Object inheritance**is a mechanism that allows an instance of a class to inherit all of the properties and methods of the classes of other object instances. Object inheritance is [recursive](./../dynamic-objects-inheritance) in the same way as [Class inheritance](./../method-$inherit%28%29---class-inheritance).
-
-An example will make this clearer.-
+An example will make this clearer:
 
 Here we have 3 classes: **Vehicle**, **Engine,** **Body**:
 
@@ -62,8 +61,6 @@ method Body::display()
 end method
 ```
 
-
-
 We can now build new car object like this:
 
 ```
@@ -95,7 +92,3 @@ Running this code produces the following output:
     "cylinders":6
 }
 ```
-
-
-
-

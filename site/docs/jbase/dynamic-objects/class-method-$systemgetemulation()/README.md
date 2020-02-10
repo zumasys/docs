@@ -6,7 +6,6 @@
 **Original ID:** 313165  
 **Internal:** No  
 
-
 ## Description
 
 The **getemulation()** method is used to obtain the current configuration settings. It creates a sub-object with a property name of **emulation** containing all available emulation settings.
@@ -15,24 +14,15 @@ When the object is created, the current configuration (defined by the [JBCEMULAT
 
 The properties of the object are the emulation (configuration) options. The value of each property indicates whether the emulation setting has been set to **true**, **false** or is **undefined** within the current emulation according to this table:
 
-
-
-
-| <!----> | <!----> |
+| Value | Description |
 | --- | --- |
-| Value<br> | Description<br> |
-| -1<br> | undefined<br> |
-| 0<br> | false<br> |
-| 1<br> | true<br> |
-
-
-
+| -1 | undefined |
+| 0 | false |
+| 1 | true |
 
 ## Return value
 
 The number of properties (emulation options) in the object.
-
-
 
 ## Examples
 
@@ -45,9 +35,9 @@ my_system = new object("$system")
 count = my_system->getemulation()
 configuration = my_system->emulation
 configuration->$sort()
-print "JBCEMULATE=":emulation
-print "The number of emulation options available is: ":count
-print configuration->$tojson(beautify)
+crt "JBCEMULATE=":emulation
+crt "The number of emulation options available is: ":count
+crt configuration->$tojson(beautify)
 ```
 
 ```
@@ -81,9 +71,6 @@ If this output is compared with the  output from the **config-strings** command
 - **use\_sql\_syntax\_for\_select** is set to **false**
 - **treat\_with\_as\_or\_with** is set to **true**
 
-
-
-
 Display a single emulation setting by accessing a specific property of the **emulation** sub-object:
 
 ```
@@ -92,14 +79,11 @@ sys->getemulation()
 print "dates_upper_case = ":sys->emulation->dates_upper_case
 ```
 
-In **jbase** emulation, this display:
+In **jbase** emulation, this displays:
 
 ```
 dates_upper_case = 1
 ```
-
-
-
 Display all configuration options that are set to **true**:
 
 ```
@@ -130,4 +114,3 @@ The following emulation settings are not included:
 - readv0
 - reality\_video
 - unnamed\_common
-

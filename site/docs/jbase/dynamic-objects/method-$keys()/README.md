@@ -6,14 +6,11 @@
 **Original ID:** 315831  
 **Internal:** No  
 
-
 ## Description
 
 The **$keys()** method will return an array of all the key values from an object.
 
-This method is intended to be compatible with the JavaScript **keys()** method, but with a small syntax enhancement. The functionality created with **$keys()** can easily be replicated using iterators and the **$iterate()** class, but this provides some compatibility for those more familiar with JavaScript.
-
-
+This method is intended to be compatible with the JavaScript **keys()** method, but with a small syntax enhancement. The functionality created with **$keys()** can easily be replicated using iterators and the **\$iterate()** class, but this provides some compatibility for those more familiar with JavaScript.
 
 ## Syntax
 
@@ -25,19 +22,13 @@ arr = obj->$keys()
 arr = anything->$keys(obj)
 ```
 
-
-
 ## Return value
 
 An array of keys from the supplied object.
 
-
-
 ## Examples
 
-
-
-### Example 1:
+### Example 1
 
 ```
 json_string = \{"part":"Widgit","price":9.99,"instock":true }\
@@ -64,9 +55,7 @@ key 1: price
 key 2: instock
 ```
 
-
-
-### Example 2:
+### Example 2
 
 ```
 json_string = \{"name":"Widgit","price":9.99,"instock":true }\
@@ -83,8 +72,6 @@ Result:
 {"name":"Widgit","price":9.99,"instock":true}
 ["name","price","instock"]
 ```
-
-
 
 ## Notes
 

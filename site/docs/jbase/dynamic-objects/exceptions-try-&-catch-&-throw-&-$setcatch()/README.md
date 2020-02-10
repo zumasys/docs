@@ -6,15 +6,14 @@
 **Original ID:** 404335  
 **Internal:** No  
 
-
-Dynamic Objects supports **try**/ **catch**/ **throw**like this:
+Dynamic Objects supports **try**/ **catch**/ **throw** like this:
 
 ```
-     try
-         /* Block of code for try */
-     catch {variable_name}
-         /* Block of code if an exception is thrown */
-     end try
+    try
+        /* Block of code for try */
+    catch {variable_name}
+        /* Block of code if an exception is thrown */
+    end try
 ```
 
 The **catch** statement may optionally be followed by a variable name. In this case, the variable is updated with the exception object that is created when an exception is thrown.
@@ -27,10 +26,10 @@ debian-~/tmp9: cat test9.jabba
         zero = 0
         one = 1
         answer = one / zero
-        print "That should throw an exception -- why are we here?"
+        crt "That should throw an exception -- why are we here?"
     catch ex
-        print "Oops, we had an exception"
-        print ex->$tojson(1)
+        crt "Oops, we had an exception"
+        crt ex->$tojson(1)
     end try
 ```
 
@@ -42,46 +41,41 @@ Divide by zero !!-- ZERO returned ,
 Line     4 , Source test9.jabba
 Oops, we had an exception
 {
-        "message":"DIVIDE_ZERO",
-        "message_operands":[
+    "message":"DIVIDE_ZERO",
+    "message_operands":[
 
-        ],
-        "message_long":"Divide by zero !!-- ZERO returned ,\nLine     4 , Source test9.jabba\n",
-        "catch_count":1,
-        "recursive_catch_policy":-1,
-        "try":{
-                "source":"test9.jabba",
-                "lineno":1
-        },
-        "throw":{
-                "source":"test9.jabba",
-                "lineno":4
-        },
-        "stack":[
+    ],
+    "message_long":"Divide by zero !!-- ZERO returned ,\nLine     4 , Source test9.jabba\n",
+    "catch_count":1,
+    "recursive_catch_policy":-1,
+    "try":{
+            "source":"test9.jabba",
+            "lineno":1
+    },
+    "throw":{
+            "source":"test9.jabba",
+            "lineno":4
+    },
+    "stack":[
 
-        ]
+    ]
 }
 ```
 
-
-
-### THE EXCEPTION OBJECT
+## The Exception Object
 
 As can be seen from the above example, when an exception is raised we create an exception object. This exception object can be stored in a variable that is passed next to the **catch** statement. The properties of the exception object are:
 
-- message - The message that accompanied the exception
-- message\_operands - Any operands to the message that accompanied the exception
-- message\_long - A concatenation of the message and message operands
-- catch\_count - See "Recursive Catch Policy" below
-- recursive\_catch\_policy - See "Recursive Catch Policy" below
-- try - Shows the source name and line number where the **try** statement was executed
-- throw - Shows the source name and line number where the exception was raised
-- stack - An array of source names and line numbers showing the stack of subroutines/functions/methods below the current routine.
+- **message** - The message that accompanied the exception
+- **message\_operands** - Any operands to the message that accompanied the exception
+- **message\_long** - A concatenation of the message and message operands
+- **catch\_count** - See "Recursive Catch Policy" below
+- **recursive\_catch\_policy** - See "Recursive Catch Policy" below
+- **try** - Shows the source name and line number where the **try** statement was executed
+- **throw** - Shows the source name and line number where the exception was raised
+- **stack** - An array of source names and line numbers showing the stack of subroutines/functions/methods below the current routine.
 
-
-
-
-### RAISING AN EXCEPTION
+## Raising an Exception
 
 There are 2 basic ways of raising an exception.
 
@@ -91,16 +85,16 @@ Lower grade warning messages will not throw an exception.
 
 At the moment, only error messages that would enter the debugger are shown. Other errors like perhaps a READ having an error (other than no such record) will be handled as they always have and will not throw an exception.
 
-Secondly, the application can itself throw an exception using the **throw** statement. In the examples below, we do a **throw** and no more code in the **try**block is executed, instead the code inside the **catch** block is executed.
+Secondly, the application can itself throw an exception using the **throw** statement. In the examples below, we do a **throw** and no more code in the **try** block is executed, instead the code inside the **catch** block is executed.
 
 ```
 debian-~/tmp9: cat test10.jabba
     try
-        print "This is what I'm doing"
+        crt "This is what I'm doing"
         throw
-        print "I should not be here"
+        crt "I should not be here"
     catch
-        print "I am in the catch section"
+        crt "I am in the catch section"
     end try
 debian-~/tmp9: test10
 This is what I'm doing
@@ -128,13 +122,11 @@ This next example is a little more adventurous. We do a **throw** with a message
 
 then the exception object has the property **message** set to "ERRNAME"
 
-
-
 ```
 debian-~/tmp9: cat test10.jabba
     max_age = 65
     try
-        print "What is your age ":
+        crt "What is your age ":
         input your_age
         if your_age gt max_age then
             throw "AGETOOBIG" , your_age , max_age
@@ -142,12 +134,12 @@ debian-~/tmp9: cat test10.jabba
     catch ex
         begin case
         case ex->message eq "AGETOOBIG"
-            print "Oops, age is too big"
-            print "Age entered was ":ex->message_operands[0]
-            print "Maximum age is  ":ex->message_operands[1]
+            crt "Oops, age is too big"
+            crt "Age entered was ":ex->message_operands[0]
+            crt "Maximum age is  ":ex->message_operands[1]
         case 1
-            print "Exception thrown -- don't know what to do"
-            print ex->$tojson(1)
+            crt "Exception thrown -- don't know what to do"
+            crt ex->$tojson(1)
         end case
     end try
 
@@ -159,9 +151,7 @@ Age entered was 99
 Maximum age is  65
 ```
 
-
-
-### UNHANDLED EXCEPTIONS
+### Unhandled Exceptions
 
 If an exception is thrown by the application, and there is no active try/catch block, then an error message is generated and the debugger entered like this:
 
@@ -191,60 +181,53 @@ Source changed to ./test11.jabba
 jBASE debugger->
 ```
 
-
-
-### NESTED TRY/CATCH BLOCKS
+## Nested Try/Catch Blocks
 
 You can nest try/catch blocks up to a depth of 30. If you need a depth of greater than 30, then perhaps the application needs re-thinking! For example,
 
-
-
 ```
     try
-        print "Do this"
+        crt "Do this"
         try
-            print "Do that"
+            crt "Do that"
         catch ex
-            print "Exception block 2"
+            crt "Exception block 2"
         end try
     catch ex
-        print "Exception block 1"
+        crt "Exception block 1"
     end try
 ```
 
 Of course the try/catch can be in different subroutines/methods/functions.
 
-
-
-### TRY/CATCH BLOCK SCOPE
+## Try/Catch block Scope
 
 The scope of a try / catch block is limited to the subroutine/method/function it was executed and any child subroutines/methods/functions it executes.
 
 The try / catch block is removed from jBASE when
 
-- The subroutine/function/method performs a **RETURN**statement from it. Note: This is a **RETURN**from the subroutine/function/method and any **RETURN**from a **GOSUB**is not affected.
+- The subroutine/function/method performs a **RETURN** statement from it. Note: This is a **RETURN** from the subroutine/function/method and any **RETURN** from a **GOSUB** is not affected.
 - The **end try** statement is executed.
-- The program performs a **STOP**. This means that if one program executes another with **EXECUTE**or **PERFORM**, and that second program issues an exception, it will not be caught by the parent program. All try / catch blocks are only active for a single program and do not traverse programs executed with **EXECUTE**/**PERFORM**.
+- The program performs a **STOP**. This means that if one program executes another with **EXECUTE** or **PERFORM**, and that second program issues an exception, it will not be caught by the parent program. All try / catch blocks are only active for a single program and do not traverse programs executed with **EXECUTE**/**PERFORM**.
 
-
-In the following example, we go outside the try/catch block with a **GOSUB**and in the **GOSUB**we throw an exception. Even though we are actually executing outside of the try/catch block, the exception will still cause the 'catch' code to be executed.
+In the following example, we go outside the try/catch block with a **GOSUB** and in the **GOSUB** we throw an exception. Even though we are actually executing outside of the try/catch block, the exception will still cause the 'catch' code to be executed.
 
 ```
 debian-~/tmp9: cat test13.jabba
     try
-        print "Do this"
+        crt "Do this"
         gosub 100
-        print "Shouldn't get here" ; debug
+        crt "Shouldn't get here" ; debug
     catch ex
-        print "We've had a catch"
+        crt "We've had a catch"
     end try
-    print "Stopping now"
+    crt "Stopping now"
     stop
 100       *
-    print "Subroutine 100 here"
+    crt "Subroutine 100 here"
     a = "xx"
-    print a+1
-    print "We shouldn't get here either" ; debug
+    crt a+1
+    crt "We shouldn't get here either" ; debug
     return
 
 
@@ -258,9 +241,7 @@ We've had a catch
 Stopping now
 ```
 
-
-
-### RECURSIVE CATCH POLICY AND THE $SETCATCH() METHOD
+### Recursive Catch policy and the $setcatch() Method
 
 The question to ask is this -- "What happens if you are inside a **catch** block and another exception is raised while execution an exception block?".
 
@@ -270,15 +251,13 @@ The default policy for jBASE is that once inside a **catch** block, that try/cat
 
 In the example below, we first handle a **throw**, but inside the **catch** code we do a divide by zero and that causes the outer **catch** block to be executed.
 
-
-
 ```
     try
-        print "Do this"
+        crt "Do this"
         try
-            print "Do that, throw an error"
+            crt "Do that, throw an error"
             throw "OOPS"
-            print "Why am I here? "; debug
+            crt "Why am I here? "; debug
         catch ex
 *
 * This is the catch for the 'throw "OOPS"'
@@ -287,11 +266,11 @@ In the example below, we first handle a **throw**, but inside the **catch** code
             if ex->message ne "OOPS" then debug
             one = 1
             result = one / 0
-            print "Should not be here either" ; debug
+            crt "Should not be here either" ; debug
         end try
     catch ex2
-        print "This should be the result of the divide by zero"
-        print "Error message for this catch is " : ex2->message
+        crt "This should be the result of the divide by zero"
+        crt "Error message for this catch is " : ex2->message
         if ex2->message ne "DIVIDE_ZERO" then debug
     end try
 
@@ -306,15 +285,14 @@ This should be the result of the divide by zero
 Error message for this catch is DIVIDE_ZERO
 ```
 
-This default behavior therefore is to invalidate and take out of context the try/catch block as soon as the **catch** is executed. This behaviour though can be changed with the new internal method called **$setcatch()**.
+This default behavior therefore is to invalidate and take out of context the try/catch block as soon as the **catch** is executed. This behaviour can be changed with the new internal method called **$setcatch()**.
 
-With $setcatch() you can change the recursive exception policy as follows
+With **$setcatch()** you can change the recursive exception policy as follows
 
-- $setcatch(-1) This is the default policy and shows to invalidate the try/catch block once the first exception is thrown.
-- $setcatch(0) If an exception is thrown, go back to the 'catch' statement again. This will happen indefinitely.
-- $setcatch(nn) If an exception is thrown, go back to the 'catch' statement again, but only do this a maximum of nn times.
-- $getcatch() Simply return the current value for the recursive exception policy.
-
+- **$setcatch(-1)** This is the default policy and shows to invalidate the try/catch block once the first exception is thrown.
+- **$setcatch(0)** If an exception is thrown, go back to the 'catch' statement again. This will happen indefinitely.
+- **$setcatch(nn)** If an exception is thrown, go back to the 'catch' statement again, but only do this a maximum of nn times.
+- **$getcatch()** Simply return the current value for the recursive exception policy.
 
 Note that this call to **$setcatch()** only affects the current running program. It does not affect any parent programs, nor does it affect any child programs started with PERFORM/EXECUTE.
 
@@ -323,7 +301,7 @@ In the following example, an "unhandled exception" will be raised as an exceptio
 ```
 debian-~/tmp9: cat test15.jabba
     try
-        print "Do this"
+        crt "Do this"
         throw "ERROR"
         debug
     catch ex
@@ -363,7 +341,7 @@ debian-~/tmp9: cat test16.jabba
     try
         throw "First"
     catch ex
-        print "Inside catch"
+        crt "Inside catch"
         throw "Second"
     end try
 debian-~/tmp9: test16
@@ -385,9 +363,9 @@ debian-~/tmp9: cat test16.jabba
     try
         throw "First"
     catch ex
-        print "Inside catch for loop ":ex->catch_count
+        crt "Inside catch for loop ":ex->catch_count
         if ex->catch_count ge 5 then
-            print "We have exceeded our recursion count"
+            crt "We have exceeded our recursion count"
             stop
         end
         throw "Second"
@@ -403,7 +381,7 @@ Inside catch for loop 5
 We have exceeded our recursion count
 ```
 
-A similar outcome would occur if you called $setcatch() like this:
+A similar outcome would occur if you called **$setcatch()** like this:
 
 ```
     $jbase->$setcatch(5)

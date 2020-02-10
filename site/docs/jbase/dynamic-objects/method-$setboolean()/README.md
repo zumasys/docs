@@ -6,42 +6,28 @@
 **Original ID:** 299340  
 **Internal:** No  
 
-
 ## Description
 
 The **$setboolean()** method allows you to create boolean values in JSON output that wouldn't normally be supported by native jBASE data types.
 
-
-
 ## Syntax
 
 ```
-obj->$setboolean(property name, boolean expression) 
-arr->$setboolean(value number, boolean expression) 
+obj->$setboolean(property name, boolean expression)
+arr->$setboolean(value number, boolean expression)
 ```
-
-
 
 ## Arguments
 
-
-
-
-| <!----> | <!----> |
+| Argument | Description |
 | --- | --- |
-| Argument<br> | Description<br> |
-| property name<br> | the name of the property to assign a boolean value<br> |
-| value number<br> | the value number of the array to set to a boolean value<br> |
-| boolean expression<br> | any expression that evaluates to a logical "true" or "false"<br> |
-
-
-
+| property name | the name of the property to assign a boolean value |
+| value number | the value number of the array to set to a boolean value |
+| boolean expression | any expression that evaluates to a logical "true" or "false" |
 
 ## Return values
 
 None
-
-
 
 ## Examples
 
@@ -70,7 +56,5 @@ Result:
 [true,false,true,false,"xyz"]
 {"array":[true,false,true,false,"xyz"],"sky is clear":false,"i_am_lying":true}
 ```
-
-
 
 ## Notes

@@ -63,4 +63,3 @@
 [method-$tojson()](./method-$tojson())  
 [method-$valuetype()](./method-$valuetype())  
 [quick-start-on-dynamic-objects](./quick-start-on-dynamic-objects)  
-

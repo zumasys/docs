@@ -6,11 +6,9 @@
 **Original ID:** 303914  
 **Internal:** No  
 
-
-The following methods can be utilized from the **$file**class:
+The following methods can be utilized from the **$file** class:
 
 - $file::getstats()
 - $file::getgrouplocks()
 - $file::takegrouplocks()
 - $file::cleargrouplocks()
-

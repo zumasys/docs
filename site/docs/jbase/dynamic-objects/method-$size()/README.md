@@ -6,30 +6,21 @@
 **Original ID:** 299343  
 **Internal:** No  
 
-
 ## Description
 
 The **$size()** method returns the number of properties in an object or the number of values in an array.
-
-
 
 ## Syntax
 
 obj-&gt;$size()
 
-
-
 ## Arguments
 
 None
 
-
-
 ## Return values
 
 The number of properties in an object or the number of values in an array.
-
-
 
 ## Examples
 
@@ -48,7 +39,5 @@ obj->myarray = jarray
 crt "My object, called ":dquote(obj->$classname()):", now has ":obj->$size():" properties."
 crt "The array, also called ":dquote(jarray->$classname()):", only increased in size by 1"
 ```
-
-
 
 ## Notes

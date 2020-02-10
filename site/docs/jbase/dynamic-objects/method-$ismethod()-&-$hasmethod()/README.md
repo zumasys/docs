@@ -6,12 +6,9 @@
 **Original ID:** 305212  
 **Internal:** No  
 
-
 ## Description
 
-The **$ismethod()** method, and its synonym **$hasmethod()**, determines if one or more methods, including inherited methods, can be called from the object.
-
-
+The **$ismethod()** method, and its synonym **\$hasmethod()**, determine if one or more methods, including inherited methods, can be called from the object.
 
 ## Syntax
 
@@ -20,20 +17,12 @@ obj->$ismethod("{Classname::}methodname1", {"{Classname::}methodname2", "{Classn
 arr->$ismethod("{Classname::}methodname1", {"{Classname::}methodname2", "{Classname::}methodname3",...})
 ```
 
-
-
 ## Arguments
 
-
-
-
-| <!----> | <!----> |
+| Argument | Description |
 | --- | --- |
-| Argument<br> | Description<br> |
-| methodname<br> | the name of a class or inherited method<br> |
-| Classname::methodname<br> | the fully qualified name of a method; this form can be applied to any object or array but is recommended to use the [**$jbase**](./../dynamic-objects-$jbase-class) class, e.g. **$jbase-&gt;Classname::methodname**<br> |
-
-
+| methodname | the name of a class or inherited method |
+| Classname::methodname | the fully qualified name of a method; this form can be applied to any object or array but is recommended to use the [**$jbase**](./../dynamic-objects-$jbase-class) class, e.g. **$jbase-&gt;Classname::methodname** |
 
 
 ## Return values
@@ -43,9 +32,7 @@ arr->$ismethod("{Classname::}methodname1", {"{Classname::}methodname2", "{Classn
 1 = All methods exist
 ```
 
-If 2 or more methods are passed to **$ismethod()**, it looks for each method in turn. If at any point one of the methods cannot be found, then 0 is returned. If all methods can be found, then 1 is returned.
-
-
+If two or more methods are passed to **$ismethod()**, it looks for each method in turn. If at any point one of the methods cannot be found, then 0 is returned. If all methods can be found, then 1 is returned.
 
 ## Examples
 
@@ -94,7 +81,7 @@ method Math::sum()
 end method
 ```
 
-This example illustrates testing for the existence of more than 1 method:
+This example illustrates testing for the existence of more than one method:
 
 ```
 * First make sure we can access the Circle class.
@@ -109,8 +96,6 @@ if $jbase::$ismethod("Circle::Circle") then
     end
 end
 ```
-
-
 
 Here are the methods we use with the above code:
 
@@ -135,7 +120,5 @@ method Circle::print()
     crt "The area of our ":self->color:" ":self->shapename:" is ":int(self->area):" units."
 end method
 ```
-
-
 
 ## Notes

@@ -6,12 +6,10 @@
 **Original ID:** 299717  
 **Internal:** No  
 
-
 There are 2 special methods, otherwise known as magic methods in other languages. These special methods function as interceptors that are automatically called when and object is created or its reference count goes to zero.
 
 - Constructors
 - Destructors
-
 
 A **Constructor** is a special method that runs when an instance of a Class is created.
 
@@ -19,7 +17,6 @@ A **Destructor** is a special method that runs when the lifetime of an object en
 
 - when the program terminates
 - if the variable that is assigned to the object is re-assigned and there are no other references (variables assigned) to that object
-
 
 Contructors and Destructors are optional however there can be only 1 Constructor and 1 Destructor for each Class.
 
@@ -29,7 +26,7 @@ An object's destructor can be called explicitly by setting the variable to null 
 
 Objects and Arrays are created using the **new** keyword:
 
-## Examples:
+## Example
 
 ```
 * Create a class called "Classname" and pass 1 argument to the constructor of the class
@@ -40,10 +37,8 @@ my_array = new array("Arrayname")
 
 * This is a special kind of object used to pass a variable number of arguments
 * to a method
-args = new object("$vararg")         
+args = new object("$vararg")
 ```
-
-
 
 When an object is created, it automatically calls its [Constructor](./../dynamic-objects-instance-methods) method.
 

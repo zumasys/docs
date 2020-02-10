@@ -6,12 +6,9 @@
 **Original ID:** 299331  
 **Internal:** No  
 
-
 ## Description
 
 The **$insert()** method inserts a value before a specified position in an array.
-
-
 
 ## Syntax
 
@@ -19,27 +16,16 @@ The **$insert()** method inserts a value before a specified position in an array
 arr->$insert(value, position) 
 ```
 
-
-
 ## Arguments
 
-
-
-
-| <!----> | <!----> |
+| Argument | Description |
 | --- | --- |
-| Argument<br> | Description<br> |
-| value<br> | the value to insert<br> |
+| value | the value to insert |
 | position | the relative position, from the beginning of the array, to insert the value. |
-
-
-
 
 ## Return values
 
 The current object
-
-
 
 ## Examples
 
@@ -76,16 +62,10 @@ Results:
 ]
 ```
 
-
-
 ## Notes
 
 Arrays are zero-based, so the first element is at position 0, the second at position 1, and so on.
 
-If **position**&lt;= 0 then value is inserted at the beginning of the array.
-
-
-
-
+If **position** &lt;= 0 then value is inserted at the beginning of the array.
 
 See also [$delete()](./../method-$delete%28%29)

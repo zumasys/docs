@@ -6,10 +6,9 @@
 **Original ID:** 298152  
 **Internal:** No  
 
-
 ## Description
 
-**JabbaScript**is the name given to the new language extensions to the existing jBASE development language, jBC. This allows for a look-n-feel that matches today’s modern application languages. It incorporates an object model similar to JavaScript where objects and properties can be created dynamically eliminating the need for schemas, definitions or templates. This object model is called **Dynamic Objects** progressively enhancing the already powerful application platform and allows us to easily incorporate JSON manipulation as an integral part of jBASE.
+**JabbaScript** is the name given to the new language extensions to the existing jBASE development language, jBC. This allows for a look-n-feel that matches today’s modern application languages. It incorporates an object model similar to JavaScript where objects and properties can be created dynamically eliminating the need for schemas, definitions or templates. This object model is called **Dynamic Objects** progressively enhancing the already powerful application platform and allows us to easily incorporate JSON manipulation as an integral part of jBASE.
 
 A jBASE dynamic object can comprise either a list of values called an **array**or a list of key/value pairs called an **object**. An array is a vector and always maintains the same order in which it was created. An object is an unsorted list, and so when accessing the members of the object (e.g. through the $tojson() method or the $iterator) the order of the properties cannot be guaranteed.
 
@@ -22,4 +21,3 @@ A jBASE dynamic object can comprise either a list of values called an **array**o
 - [Iteration: $iterator](./../iteration-$iterator)
 - [Inheritance](./../dynamic-objects-inheritance)
 - [Exception handling](./../exceptions-try-&-catch-&-throw-&-$setcatch%28%29)
-

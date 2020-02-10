@@ -6,12 +6,9 @@
 **Original ID:** 304558  
 **Internal:** No  
 
-
 ## Description
 
 The **randomstring()** method creates a random string of lowercase alphabetic characters.
-
-
 
 ## Syntax
 
@@ -20,26 +17,15 @@ $development::randomstring(nn)
 $development->randomstring(nn)
 ```
 
-
-
 ## Arguments
 
-
-
-
-| <!----> | <!----> |
+| Argument | Description |
 | --- | --- |
-| Argument<br> | Description<br> |
-| nn<br> | Number of random characters<br> |
-
-
-
+| nn | Number of random characters |
 
 ## Return value
 
 A random string of a specified number of lowercase alphabetic characters.
-
-
 
 ## Example
 
@@ -49,15 +35,11 @@ crt rstring
 crt "Length = ":len(rstring)
 ```
 
-
-
 Result:
 
 ```
 omsdeomfxwuqgkkkuiixlgelkyxwawllkvcwldrbyr
 Length = 42
 ```
-
-
 
 ## Notes

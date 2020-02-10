@@ -6,12 +6,9 @@
 **Original ID:** 299335  
 **Internal:** No  
 
-
 ## Description
 
 **$iterator** is a constructor for the Iterator class. When an object of this type is created, it allows you to iterate (loop) through all keys and values in an object or array.
-
-
 
 ## Examples
 
@@ -54,8 +51,6 @@ Key "4" has value "0" and type "boolean"
 Key "5" has value "" and type "null"
 ```
 
-
-
 Here is the equivalent of iterating through an object, using an alternate way to create an iterator object:
 
 ```
@@ -74,8 +69,6 @@ loop while iter->next(nextkey , nextvalue , nexttype) do
     crt "Property ":dquote(nextkey):" has value ":dquote(nextvalue):" and type ":dquote(nexttype)
 repeat
 ```
-
-
 
 Results:
 

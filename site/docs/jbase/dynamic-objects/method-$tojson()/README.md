@@ -6,43 +6,29 @@
 **Original ID:** 299345  
 **Internal:** No  
 
-
 ## Description
 
-The **$tojson()** method converts an object to a JSON string and optionally formats the string in a number of ways. This is the complement of the **$fromjson()** method.
-
-
+The **\$tojson()** method converts an object to a JSON string and optionally formats the string in a number of ways. This is the complement to the **$fromjson()** method.
 
 ## Syntax
 
 ```
-obj->$tojson({format type}) 
+obj->$tojson({format type})
 ```
 
 The **format type** is optional and, if used, is specified as a bit mask; different behaviors can be combined by adding them together.
 
-
-
 ## Arguments
 
-
-
-
-| <!----> | <!----> |
+| Format Type | Description |
 | --- | --- |
-| Format Type<br> | Description<br> |
-| 1<br> | Formatted output using @TAB for indentation<br> |
-| 2<br> | Use @AM instead of a new-line when formatting<br> |
-| 4<br> | Use 4 spaces instead of @TAB when formatting<br> |
-
-
-
+| 1 | Formatted output using @TAB for indentation |
+| 2 | Use @AM instead of a new-line when formatting |
+| 4 | Use 4 spaces instead of @TAB when formatting |
 
 ## Return values
 
 The un-formatted or formatted JSON string.
-
-
 
 ## Examples
 
@@ -50,7 +36,7 @@ The un-formatted or formatted JSON string.
 calendar = new object
 months = new array
 calendar->year = 2018
-month_names = "jan":@am:"feb":@am:"mar":@am:"apr":@am:"may":@am:"jun":@am:"jul":@am:"aug":@am:"sep":@am:"oct":@am:"nov":@am:"dec"
+month_names = "jan" : @am : "feb" : @am : "mar" : @am : "apr" : @am : "may" : @am : "jun" : @am : "jul" : @am : "aug" : @am : "sep" : @am : "oct" : @am : "nov" : @am : "dec"
 for i = 1 to 12
     months->$append(month_names<i>)
 next i
@@ -104,8 +90,6 @@ Results:
     ]
 }
 ```
-
-
 
 ## Notes
 

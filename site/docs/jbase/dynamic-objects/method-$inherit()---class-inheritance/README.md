@@ -6,7 +6,6 @@
 **Original ID:** 502199  
 **Internal:** No  
 
-
 The traditional way to implement inheritance is with a class hierarchy.
 
 This example depicts a simple bank account class structure where we have a parent **DepositAccount** class and 2 child classes, **Checking** and **Savings**, where the former child class has a **cost** property and the latter child class has an **interest** property.
@@ -58,7 +57,7 @@ method Savings::Savings()
 end method
 ```
 
-Note that the code has the compiler directive, **$option self**, which allows you to use **self** instead of **this** to reference the object's members. You can also set the use of **self** globally with the **JBC\_JPP2** environment variable. This way it would not be necessary to include **$option self**in the code, e.g.
+Note that the code has the compiler directive, **$option self**, which allows you to use **self** instead of **this** to reference the object's members. You can also set the use of **self** globally with the **JBC\_JPP2** environment variable. This way it would not be necessary to include **\$option self** in the code, e.g.:
 
 ```
 set JBC_JPP2=self       [Windows]
@@ -112,7 +111,7 @@ Non-numeric value -- ZERO USED ,
 Variable '(UNKNOWN)' , Line     5 , Source checking.jabba
 ```
 
-If we added a new type of deposit account, say a money market, then nothing in the **DepositAccount**class would need to be changed.
+If we added a new type of deposit account, say a money market, then nothing in the **DepositAccount** class would need to be changed.
 
 But wait, we're missing an account number! Since all types of accounts have an account number then we could certainly add a new method to the **DepositAccount** class. But what if, in the future, we will have some other type of account, say a group of investment accounts that are unrelated to deposit accounts. In this case, we could create a top-level **Bank** class from which both **DepositAccount** and **InvestmentAccount** would inherit:
 
@@ -177,7 +176,7 @@ The cost of this account is: $25.00
 }
 ```
 
-We are now passing 2 values, account number and deposit amount, on the command line. But again, these values would typically come from a database.
+We are now passing 2 values, **account number** and **deposit amount**, on the command line. But again, these values would typically come from a database.
 
 The **$inherit()** method allows any number of classes to be inherited. So there's nothing preventing us from doing this:
 
@@ -238,9 +237,9 @@ This is the constructor for Branch
 }
 ```
 
-Since the **$inherit()**method allows any number of operands, the exception can be disabled by passing the **JABBA\_NO\_INHERIT\_EXCEPTION** flag (defined in **$JBCRELEASEDIR/include/jabba.h**) as one of the operands.
+Since the **\$inherit()** method allows any number of operands, the exception can be disabled by passing the **JABBA\_NO\_INHERIT\_EXCEPTION** flag (defined in **$JBCRELEASEDIR/include/jabba.h**) as one of the operands.
 
-In the example below, we inherit 3 different classes, none of them exist, and yet they fail silently as we've used the **JABBA\_INHERIT\_NO\_EXCEPTION**flag to disable the exception.
+In the example below, we inherit 3 different classes, none of them exist, and yet they fail silently as we've used the **JABBA\_INHERIT\_NO\_EXCEPTION** flag to disable the exception.
 
 ```
 include jabba.h
@@ -248,5 +247,3 @@ method Test1::Test1()
     this->$inherit("Test2", "Test3, JABBA_INHERIT_NO_EXCEPTION, "Test4")
 end method
 ```
-
-

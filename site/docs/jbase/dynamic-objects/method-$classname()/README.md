@@ -6,26 +6,19 @@
 **Original ID:** 299325  
 **Internal:** No  
 
-
 ## Description
 
 The **$classname()** method returns the name of the class as a text string.
 
-
-
 ## Syntax
 
 ```
-var->$classname() 
+var->$classname()
 ```
-
-
 
 ## Arguments
 
 None
-
-
 
 ## Return values
 
@@ -37,9 +30,6 @@ A null return value indicates that either **var** is not an object or the object
 var = new object
 crt dquote(var->$classname()) ;* displays ""
 ```
-
-## 
-
 
 ## Example
 
@@ -70,7 +60,3 @@ The class name is "Library".
 ```
 
 ## Notes
-
-
-
-

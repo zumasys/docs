@@ -205,7 +205,7 @@ Throws: *JException*;
 Java:
 // Execute a jBASE command
 JExecuteResults res;
-int flag = 1;
+int flags = 1;
 String command = "jshow -c jrcssub";
 res = jc.execute(command, flags); // This is the equivalent of JExecFlags.EXEC_GET_CAPTURE
 String result = res.getCaptureString();
@@ -235,14 +235,14 @@ Throws: *JException*;
 
 ``` Java
 Java:
-// Obtain the date from the jBASE in internal format and convert to external format
+// Obtain the date from jBASE in internal format and convert to external format
 int thisDate = jc.getDate();
 String currentDate = jc.oConv(String.valueOf(thisDate), "D4");
 ```
 
 ``` CSharp
 C#:
-// Obtain the date from the jBASE in internal format and convert to external format
+// Obtain the date from jBASE in internal format and convert to external format
 int thisDate = jc.Date;
 string currentDate = jc.OConv(thisDate.ToString(), "D4");
 ```

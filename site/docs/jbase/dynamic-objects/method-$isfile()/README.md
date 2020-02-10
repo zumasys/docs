@@ -6,26 +6,19 @@
 **Original ID:** 299332  
 **Internal:** No  
 
-
 ## Description
 
 The **$isfile()** method is used to determine if a variable is a file variable.
 
-
-
 ## Syntax
 
 ```
-var->$isfile() 
+var->$isfile()
 ```
-
-
 
 ## Arguments
 
 None
-
-
 
 ## Return values
 
@@ -33,8 +26,6 @@ None
 0 = the variable is not a file variable
 1 = the variable is a file variable
 ```
-
-
 
 ## Examples
 
@@ -45,7 +36,5 @@ open filename to md else stop
 bool = obj->$isfile()       ;* bool = 1
 crt filename->$isfile()     ;* Displays 0 (zero)
 ```
-
-
 
 ## Notes

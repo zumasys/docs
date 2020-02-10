@@ -6,7 +6,6 @@
 **Original ID:** 303846  
 **Internal:** No  
 
-
 Dynamic Objects provides the following built-in classes.
 
 All built-in classes start with "$".
@@ -18,4 +17,3 @@ All built-in classes start with "$".
 - [$vararg](./../dynamic-objects-$vararg-class)
 - [$terminal](./../dynamic-objects-$terminal-class)
 - [$development](./../dynamic-objects-$development-class)
-

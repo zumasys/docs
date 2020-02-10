@@ -6,54 +6,49 @@
 **Original ID:** 401126  
 **Internal:** No  
 
-
 This article is designed to get you started on created database/object classes for your business objects.  We will be using the NorthWinds sample database from [https://github.com/zumasys/z2018](https://github.com/zumasys/z2018).  The purpose of this article is to show how you can build reusable classes that handle all extract, transform and load ([ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load)) work in and out of a PICK object.
 
 Here is our layout for our pick record
 
-
-| <!----> | <!----> | <!----> |
-| --- | --- | --- |
 | Attribute | Description | Associated |
-| 0 | Order ID | <br> |
-| 1 | Customer Id | <br> |
-| 2 | Employee Id | <br> |
-| 3 | Order Date | <br> |
-| 4 | Required Date | <br> |
-| 5 | Shipped Date | <br> |
-| 10-@ | Product Id | Invoice Items |
-| 11-@ | Unit Price | Invoice Items |
-| 12-@ | Quantity | Invoice Items |
-| 13-@ | Discount | Invoice Items |
+| --- | --- | --- |
+| 0 | Order ID |  |
+| 1 | Customer Id |  |
+| 2 | Employee Id |  |
+| 3 | Order Date |  |
+| 4 | Required Date |  |
+| 5 | Shipped Date |  |
+| 10 - @ | Product Id | Invoice Items |
+| 11 - @ | Unit Price | Invoice Items |
+| 12 - @ | Quantity | Invoice Items |
+| 13 - @ | Discount | Invoice Items |
 
-
-To start we are going to build a simple program that will open our NW.ORDERS file, read a record and call a internal subroutine to convert it to JSON.  Lets first build our simple template program.
+To start we are going to build a simple program that will open our NW.ORDERS file, read a record and call aN internal subroutine to convert it to JSON.  Lets first build our simple template program.
 
 Note: If you haven't loaded the sample database from Git then you will need to create a NW.ORDERS and NW.PRODUCTS file and create a sample record for id for 10254.
 
 ```
 $options jabba
 
-open "NW.ORDERS" to FILE.NW.ORDERS else stop "NO NW.ORDERS FILE"
+open "NW.ORDERS" to FILE.NW.ORDERS else stop "No NW.ORDERS File"
 
 ID = "10254"
 
-read RECORD from FILE.NW.ORDERS, ID else stop "COULD NOT READ 10254"
+read RECORD from FILE.NW.ORDERS, ID else stop "Could no read 10254"
 
 order = new object(); * create a blank object
 
 gosub MVTOOBJECT
 
-print order->$tojson(1)
+crt order->$tojson(1)
 stop
 
 OBJECTTOMV: *
 
 return
- 
 ```
 
-All we have done so far is read in our Order record and built out a internal subroutine area to do our work.  After the work is done we will print out our object.
+All we have done so far is read in our Order record and built out a internal subroutine area to do our work.  After the work is done we will crt out our object.
 
 Now lets start doing our ETL work.  Using our above layout lets start converting the information.  We are going to do this work in the MVTOOBJECT area.
 
@@ -87,8 +82,6 @@ If we run this program at this point we will get the following
 }
 ```
 
-
-
 We now move on to our multi-value orders items in attributes 10 - 13.  Here we will show you how you add an array,  build each item as it's own object and then insert that object into your main order object.
 
 ```
@@ -113,7 +106,7 @@ for v = 1 to number_items
     item->discount      = oconv(RECORD<13,V>,"MD2");                * Discount
     order->items->$append(item); * append our item object into our items array
 next v
-    
+
 return
 ```
 
@@ -153,7 +146,7 @@ Here we count out how many items we have.  We then add a blank array called ite
 }
 ```
 
-Lets now build a internal subroutine that converts a object back to a pick record.  The following is the final full program.  Keep in mind this program is a demonstration of building the mvtoobject and objecttomv code.  Usually this code would be in a ResfFUL module to either return a record or update a record.  The following example shows us first calling our to json function.  We then modify the object and then re-update our pick record and then once again call our mvtoobject function and show the modified record.
+Lets now build a internal subroutine that converts a object back to a pick record.  The following is the final full program.  Keep in mind this program is a demonstration of building the mvtoobject and objecttomv code.  Usually this code would be in a RESTful module to either return a record or update a record.  The following example shows us first calling our to json function.  We then modify the object and then re-update our pick record and then once again call our mvtoobject function and show the modified record.
 
 ```
 $options jabba
@@ -168,7 +161,7 @@ order = new object(); * create a blank object
 
 gosub MVTOOBJECT
 
-print order->$tojson(1)
+crt order->$tojson(1)
 
 * Let's modify the shipped date
 
@@ -178,13 +171,13 @@ order->shippeddate = oconv(DATE(),"D4-")
 
 item = order->items[0]
 order->items->$append(item)
- 
+
 gosub ORDERTOOBJECT
 
 order = new object(); * init our order back
 gosub MVTOOBJECT
 
-print order->$tojson(1)
+crt order->$tojson(1)
 
 stop
 
@@ -235,7 +228,7 @@ next v
 return
 ```
 
-### Modifying this into a reusable class
+## Modifying this into a reusable class
 
 Typically one could take the above code and build it into a subroutine and reuse the code.  With jBASE we now offer a Class method that gives you a more modern way of doing this.  Here we will go thru re-factoring the above code into a Class module.
 
@@ -243,7 +236,6 @@ jBASE classes are very simple function based classes similar to javascript class
 
 1. Object representing our Order
 2. Two "methods/internal subroutines" to transform mv to json and json to mv.
-
 
 First we are going to create our initial "Order" class.  This is done just like other programs with a few new additions.
 
@@ -270,14 +262,13 @@ You can now compile this and you have created your first Class.  Lets go over a
 3. A default constructor (called when the object is initialized) and de-constructor is called when the object is destroyed.  The constructor is the same name as the Class.  Therefore above you can see that pre-build our object with blank values.
 4. The "this" property allows you to modify you Class object which always exists.
 
-
 Now, to actually use our new "Class" we reference the class when we build a new object.
 
 ```
 ED BP TEST.CLASS
 $options jabba
 order = new object("Order")
-print order->$tojson(1)
+crt order->$tojson(1)
 ```
 
 When you run this you will get the following output.
@@ -369,17 +360,17 @@ We then modify our original testing program to use our methods.
 ```
 $options jabba
 
-open "NW.ORDERS" to FILE.NW.ORDERS else stop "NO NW.ORDERS FILE"
+open "NW.ORDERS" to FILE.NW.ORDERS else stop "No NW.ORDERS File"
 
 ID = "10254"
 
-read RECORD from FILE.NW.ORDERS, ID else stop "COULD NOT READ 10254"
+read RECORD from FILE.NW.ORDERS, ID else stop "Could not read 10254"
 
-order = new object("Order"); * create a blank object
+order = new object("Order"); * create a blank object        <--
 
-order->mvtoobject(ID,RECORD)
+order->mvtoobject(ID,RECORD)                                <--
 
-print order->$tojson(1)
+crt order->$tojson(1)
 
 * Let's modify the shipped date
 order->shippeddate = oconv(DATE(),"D4-")
@@ -387,25 +378,24 @@ order->shippeddate = oconv(DATE(),"D4-")
 * Lets duplicate one of our order items
 item = order->items[0]
 order->items->$append(item)
- 
-order->objecttomv(ID,RECORD)
 
-order = new object("Order"); * init our order back
+order->objecttomv(ID,RECORD)                                <--
 
-order->mvtoobject(ID,RECORD)
+order = new object("Order"); * init our order back          <--
 
-print order->$tojson(1)
+order->mvtoobject(ID,RECORD)                                <--
+
+crt order->$tojson(1)
 
 stop
 ```
 
-All the modified lines are in bold.  As you can see all the rest of the code is the same.  A few items to mention Classes.
+All the modified lines are indicated.  As you can see all the rest of the code is the same.  A few items to mention Classes.
 
-1. They are really creating jBase Functions.  But instead of having to do a DEFFUN it is replaced with the much easier order = new object("Order") syntax.
+1. They are really creating jBASE Functions.  But instead of having to perform a DEFFUN, it is replaced with the much easier order = new object("Order") syntax.
 2. You can have a variable number of input arggs (Not shown in this example).
 3. You have a private storage area for your Functions via your object.  This allows you to do what you would normally do in a Named Common inside your object.  The object can store any pick variable, including File Variables.
 4. jBASE objects can also be stored in a Dimensional array.
-
 
 Pick has always been a type of object database/language.  With very structured Includes with Equates much of this can be duplicated.  But as you can see these structures are easier to work with.  You can extend your "Class" to have all your business logic for a particular object.  For example, if we wished to add a calc sales tax we could add a new method to our class.  This, of course, is available today with subroutines but with Classes you can group all your logic into a single Class library.  You could even add a load and write a method to actually read and write your pick records to disk.
 

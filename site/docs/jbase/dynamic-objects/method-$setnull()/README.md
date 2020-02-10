@@ -6,41 +6,27 @@
 **Original ID:** 299342  
 **Internal:** No  
 
-
 ## Description
 
 The **$setnull()** method sets a value to **null** in an object or an array. These null values can only be used in JSON output that wouldn't normally be supported by native jBASE data types.
 
-
-
 ## Syntax
 
 ```
-obj->$setnull(property name) 
-arr->$setnull(value number) 
+obj->$setnull(property name)
+arr->$setnull(value number)
 ```
-
-
 
 ## Arguments
 
-
-
-
-| <!----> | <!----> |
+| Argument | Description |
 | --- | --- |
-| Argument<br> | Description<br> |
-| property name<br> | the name of the property to set the value to null<br> |
-| value number<br> | the value number of the array to set to null ("-1" can be used to append the null value)<br> |
-
-
-
+| property name | the name of the property to set the value to null |
+| value number | the value number of the array to set to null ("-1" can be used to append the null value) |
 
 ## Return values
 
 The current object
-
-
 
 ## Examples
 
@@ -73,8 +59,6 @@ Result:
     ]
 }
 ```
-
-
 
 ## Notes
 

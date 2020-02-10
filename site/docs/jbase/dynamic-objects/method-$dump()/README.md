@@ -6,22 +6,17 @@
 **Original ID:** 299329  
 **Internal:** No  
 
-
 ## Description
 
 The **$dump()** method displays the internal contents of an object.
 
-
-
 ## Syntax
 
 ```
-obj->$dump() 
+obj->$dump()
 obj->$dump(1) - Verbose mode; also displays the properties of the object
 obj->$dump(2) - Return an object containing the header information
 ```
-
-
 
 ## Examples
 
@@ -31,7 +26,7 @@ calendar = new object("Calendar")
 months = new array("Months")
 calendar->year = 2018
 calendar->type = "wall"
-month_names = "jan":@am:"feb":@am:"mar":@am:"apr":@am:"may":@am:"jun":@am:"jul":@am:"aug":@am:"sep":@am:"oct":@am:"nov":@am:"dec"
+month_names = "jan" : @am : "feb" : @am : "mar" : @am : "apr" : @am : "may" : @am : "jun" : @am : "jul" : @am : "aug" : @am : "sep" : @am : "oct" : @am : "nov" : @am : "dec"
 for i = 1 to 12
     months->$append(month_names<i>)
 next i
@@ -93,76 +88,70 @@ Object dump: Class "Months", refcount 2, type = ARRAY
 "      11" : SHORT STRING string 'dec'
 ```
 
-
-
 ## Notes
 
 One use of  $dump(2) is to determine if two variables are pointing to the same object. The following example illustrates the difference between identity vs equality:
 
 ```
-0001     equ beautify to 5
-0002     equ details to 2
-0003
-0004     vacation1 = new object("Vacation", "Zion National Park")
-0005     vacation1->hikes = new array
-0006     vacation1->hikes->$append("East Rim Trail")
-0007     vacation1->hikes->$append("Angel's Landing")
-0008     vacation1->hikes->$append("East Temple Loop")
-0009     vacation1->hikes->$append("Observation Point")
-0010     vacation1->hikes->$append("Hidden Canyon")
-0011
-0012 * Assign a variable that points to the same object
-0013
-0014     vacation2 = vacation1
-0015
-0016 * Make a copy of one of the identical objects
-0017
-0018     vacation3 = vacation1->$clone()
-0019
-0020 * Display the header details of our objects
-0021
-0022     print vacation1->$dump(details)->$tojson(beautify)
-0023     print
-0024     print vacation2->$dump(details)->$tojson(beautify)
-0025     print
-0026     print vacation3->$dump(details)->$tojson(beautify)
-0027     print
-0028
-0029 * Do some comparisons
-0030
-0031     print "Does Vacation 1 point to the same object as Vacation 2? ":
-0032     print (if vacation1->isidentical(vacation2) then "yes" else "no")
-0033     print
-0034     print "Does Vacation 1 point to the same object as Vacation 3? ":
-0035     print (if vacation1->isidentical(vacation3) then "yes" else "no")
-0036     print
-0037
-0038 * Even though Vacation 1 is not identical to Vacation 3, they are equal
-0039
-0040     if vacation1->$equals(vacation3) then
-0041         print "Vacations 1 and 3 are equal."
-0042     end else
-0043         print "Vacations 1 and 3 are not equal."
-0044     end
+    equ beautify to 5
+    equ details to 2
+
+    vacation1 = new object("Vacation", "Zion National Park")
+    vacation1->hikes = new array
+    vacation1->hikes->$append("East Rim Trail")
+    vacation1->hikes->$append("Angel's Landing")
+    vacation1->hikes->$append("East Temple Loop")
+    vacation1->hikes->$append("Observation Point")
+    vacation1->hikes->$append("Hidden Canyon")
+
+* Assign a variable that points to the same object
+
+    vacation2 = vacation1
+
+* Make a copy of one of the identical objects
+
+    vacation3 = vacation1->$clone()
+
+* Display the header details of our objects
+
+    crt vacation1->$dump(details)->$tojson(beautify)
+    crt
+    crt vacation2->$dump(details)->$tojson(beautify)
+    crt
+    crt vacation3->$dump(details)->$tojson(beautify)
+    crt
+
+* Do some comparisons
+
+    crt "Does Vacation 1 point to the same object as Vacation 2? ":
+    crt (if vacation1->isidentical(vacation2) then "yes" else "no")
+    crt
+    crt "Does Vacation 1 point to the same object as Vacation 3? ":
+    crt (if vacation1->isidentical(vacation3) then "yes" else "no")
+    crt
+
+* Even though Vacation 1 is not identical to Vacation 3, they are equal
+
+    if vacation1->$equals(vacation3) then
+        crt "Vacations 1 and 3 are equal."
+    end else
+        crt "Vacations 1 and 3 are not equal."
+    end
 ```
-
-
 
 Methods used with the above code:
 
 ```
-0001     equ details to 2
-0002
-0003     method Vacation::Vacation(destination)
-0004         this->destination = destination
-0005     end method
-0006
-0007     method Vacation::isidentical(obj)
-0008         return (this->$dump(details)->address eq obj->$dump(details)->address)
-0009     end method
+    equ details to 2
+
+    method Vacation::Vacation(destination)
+        this->destination = destination
+    end method
+
+    method Vacation::isidentical(obj)
+         return (this->$dump(details)->address eq obj->$dump(details)->address)
+    end method
 ```
-
-
 
 Results:
 
@@ -197,7 +186,5 @@ Does Vacation 1 point to the same object as Vacation 3? no
 
 Vacations 1 and 3 are equal.
 ```
-
-
 
 Take note of the addresses and reference counts of the objects. It's the address that indicates whether or not the objects are identical.

@@ -6,26 +6,19 @@
 **Original ID:** 299337  
 **Internal:** No  
 
-
 ## Description
 
 The **$objecttype()** method returns the type of the object.
 
-
-
 ## Syntax
 
 ```
-var->$objecttype() 
+var->$objecttype()
 ```
-
-
 
 ## Arguments
 
 None
-
-
 
 ## Return values
 
@@ -35,8 +28,6 @@ None
 ```
 
 A return value of "" (null) signifies that "var" is not an object.
-
-
 
 ## Examples
 
@@ -49,8 +40,6 @@ crt dquote(x->$objecttype())     ;* Displays "" because the variable x is not an
 crt dquote(arr->$objecttype())   ;* Displays "array"
 ```
 
-
-
 ## Notes
 
-See also $isobject()
+See also **$isobject()**

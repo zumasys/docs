@@ -40,14 +40,12 @@ set JBC_JPP2=auto        [Windows]
 export JBC_JPP2=auto     [Linux/Aix]
 ```
 
-
-
 Objects and arrays are created using the **new** keyword:
 
 ```
 * Create an instance of the class "Classname" and assign
 * the instance to the variable "obj"
-obj = new object("Classname")     
+obj = new object("Classname")
 * Create an instance of "Arrayname" and assign
 * the instance to the variable "myarray".
 myarray = new array("Arrayname")
@@ -193,62 +191,62 @@ crt obj1->$dump(verbose)
 Putting it all together (call this file **tour.jabba** \*\*\*):
 
 ```
-001     program tour
-002     equ beautify to 1
-003
-004     obj1 = new object("Tour")
-005     obj1->name = "Socrates"
-006     obj1->city = "Athens"
-006
-008     crt obj1->name : " lived in " : obj1->city : "."
-009
-010     json = obj1->$tojson()
-011     crt
-012     crt "Our object in JSON representation is: ":json
-013     crt "Our object, when formatted, is:"
-014     crt obj1->$tojson(beautify)
-015
-016     crt
-017     crt "Our object has ":obj1->$size():" properties."
-018
-019     obj1->sum1(2,4)
-020
-021     result = obj1->sum2(obj1->sum, 6)
-022
-023     total = obj1->sum3(1001,2002,345,999,876,555)
-024     crt "After calling sum3() the result is: ":oconv(total, "md0,")
-025
-026     crt
-027     crt obj1->$dump(1)
-028     crt obj1->$tojson(beautify)
+    program tour
+    equ beautify to 1
+
+    obj1 = new object("Tour")
+    obj1->name = "Socrates"
+    obj1->city = "Athens"
+
+    crt obj1->name : " lived in " : obj1->city : "."
+
+    json = obj1->$tojson()
+    crt
+    crt "Our object in JSON representation is: ":json
+    crt "Our object, when formatted, is:"
+    crt obj1->$tojson(beautify)
+
+    crt
+    crt "Our object has ":obj1->$size():" properties."
+
+    obj1->sum1(2,4)
+
+    result = obj1->sum2(obj1->sum, 6)
+
+    total = obj1->sum3(1001,2002,345,999,876,555)
+    crt "After calling sum3() the result is: ":oconv(total, "md0,")
+
+    crt
+    crt obj1->$dump(1)
+    crt obj1->$tojson(beautify)
 ```
 
 ...and the method code which, for now, must be a separate source code file (call this file **tour\_methods.jabba** \*\*\*:):
 
 ```
-001     method Tour::sum1(addend1, addend2)
-002         this->sum = addend1 + addend2
-003     end method
-004
-005     method Tour::sum2(value1, value2)
-006         return value1 + value2
-007     end method
-008
-009     method Tour::sum3()
-010         result = 0
-011 * Create an object that can handle each parameter, 1 at a time
-011         varg = new object("$vararg")
-013         print "Method Tour::sum3() was passed ":varg->size():" parameters"
-014        loop while varg->size() do
-015             result += varg->next() ;* Get next argument and decrement varg->size()
-016         repeat
-017         return result
-018     end method
+    method Tour::sum1(addend1, addend2)
+        this->sum = addend1 + addend2
+    end method
+
+    method Tour::sum2(value1, value2)
+        return value1 + value2
+    end method
+
+    method Tour::sum3()
+        result = 0
+* Create an object that can handle each parameter, 1 at a time
+        varg = new object("$vararg")
+        print "Method Tour::sum3() was passed ":varg->size():" parameters"
+       loop while varg->size() do
+            result += varg->next() ;* Get next argument and decrement varg->size()
+        repeat
+        return result
+    end method
 ```
 
 Compile and catalog both programs (**tour.jabba** and **tour\_methods.jabba**).
 
-*\*\*\* When compiled and cataloged, the **.jabba**extension is dropped from the name, resulting in the names of the programs becoming **tour**and **tour\_methods**.*
+*\*\*\* When compiled and cataloged, the **.jabba** extension is dropped from the name, resulting in the names of the programs becoming **tour** and **tour\_methods**.*
 
 You can now run the **tour** program, you should see results like this:
 
@@ -325,28 +323,26 @@ crt ray->$tojson()
 crt ray->$size()     ;* we now have 9 elements
 ```
 
-
-
 Dynamic Objects can also interact with the database. Dynamic Files, type **JD**, are the only file type that support this interaction.
 
 ```
-0001     program startest
-0002     star = new object
-0003     star->id = "1"
-0004     star->actor = "Mark Hamill"
-0005     star->name = "Luke Skywalker"
-0006     star->father = "Darth Vader"
-0007     star->$setboolean("isjedi", @true)
-0008     open "starwars" to filevar else
-0009         execute "create-file starwars" ;* create a Dynamic File
-0010         open "starwars" to filevar else stop 201, "starwars"
-0011     end
-0012     write star on filevar, star->id
-0013     read rec from filevar, star->id else stop 202, star->id
-0014     crt "Actor: ":rec->actor
-0015     if rec->father eq "Darth Vader" and rec->isjedi eq @true then
-0016         crt "The Force is strong with you, ":rec->name:"!"
-0017     end
+    program startest
+    star = new object
+    star->id = "1"
+    star->actor = "Mark Hamill"
+    star->name = "Luke Skywalker"
+    star->father = "Darth Vader"
+    star->$setboolean("isjedi", @true)
+    open "starwars" to filevar else
+        execute "create-file starwars" ;* create a Dynamic File
+        open "starwars" to filevar else stop 201, "starwars"
+    end
+    write star on filevar, star->id
+    read rec from filevar, star->id else stop 202, star->id
+    crt "Actor: ":rec->actor
+    if rec->father eq "Darth Vader" and rec->isjedi eq @true then
+        crt "The Force is strong with you, ":rec->name:"!"
+    end
 ```
 
 ```
@@ -365,13 +361,13 @@ jsh ~ -->jed starwars 1
 
 File starwars , Record '1' (JSON Object)
 Command->
-0001 {
-0002     "id":1,
-0003     "actor":"Mark Hamill",
-0004     "name":"Luke Skywalker",
-0005     "father":"Darth Vader",
-0006     "isjedi":true
-0007 }.
+{
+    "id":1,
+    "actor":"Mark Hamill",
+    "name":"Luke Skywalker",
+    "father":"Darth Vader",
+    "isjedi":true
+}.
 ```
 
 Neither editor will allow the record to be written if the JSON format is invalid and will produce an error similar to this:

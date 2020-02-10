@@ -6,12 +6,9 @@
 **Original ID:** 299324  
 **Internal:** No  
 
-
 ## Description
 
 The **$append()** method allows you to add (append) a value to the end of an array.
-
-
 
 ## Syntax
 
@@ -20,26 +17,17 @@ arr->$append(value(,reject_duplicates{,case_insensitive}})
 arr[-1] = value
 ```
 
-
-
 ## Arguments
 
-
-| <!----> | <!----> |
+| Argument | Description |
 | --- | --- |
-| Argument<br> | Description<br> |
-| value | the value to append<br> |
-| reject\_duplicates | 0 = Duplicates are allowed (default)<br>1 = Duplicates are rejected |
-| case\_insensitive<br> | 0 = The duplicate check is case sensitive (default)<br><br>1 = The duplicate check is case insensitive (any non-zero number is valid)<br> |
-
-
-
+| value | the value to append |
+| reject\_duplicates | 0 = Duplicates are allowed (default),<br>  1 = Duplicates are rejected |
+| case\_insensitive | 0 = The duplicate check is case sensitive (default), <br> 1 = The duplicate check is case insensitive (any non-zero number is valid) |
 
 ## Return value
 
 The current array
-
-
 
 ## Examples
 
@@ -69,8 +57,6 @@ Initial array: ["one","two","three"]
 ]
 ```
 
-
-
 In this next example, we create an array with the first two values, "first" and "second", the third value "SECOND" is rejected because we have passed a flag to say to reject duplicates and a second flag to show that the value is compared case insensitively. This example also illustrates method chaining.
 
 ```
@@ -84,7 +70,5 @@ Result:
 ```
 ["first","second"]
 ```
-
-
 
 See also [$prepend()](./../method-$prepend%28%29)

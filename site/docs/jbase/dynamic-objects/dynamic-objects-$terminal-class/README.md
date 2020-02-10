@@ -6,9 +6,7 @@
 **Original ID:** 303927  
 **Internal:** No  
 
-
 The following methods can be utilized from the **$terminal**class:
 
 - $terminal::terminfo()
 - $terminal::tparm()
-

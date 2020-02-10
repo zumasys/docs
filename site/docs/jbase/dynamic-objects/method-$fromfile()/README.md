@@ -6,43 +6,29 @@
 **Original ID:** 305452  
 **Internal:** No  
 
-
 ## Description
 
 The **$fromfile()** static method creates an object from an operating system file. The file must be in a valid JSON format.
 
-
-
 ## Syntax
 
 ```
-classname::$fromfile(source file) 
+classname::$fromfile(source file)
 ```
 
 **classname** can be any class.
 
-
-
 ## Arguments
 
-
-
-
-| <!----> | <!----> |
+| Argument | Description |
 | --- | --- |
-| Argument<br> | Description<br> |
-| source file<br> | the full or relative path of an operating system file<br> |
-
-
-
+| source file | the full or relative path of an operating system file |
 
 ## Return value
 
 An object.
 
 If the source file is not in a valid JSON format then no object is created, i.e. nothing is returned.
-
-
 
 ## Example
 
@@ -56,7 +42,5 @@ if not(obj->$isobject()) then
 end
 crt obj->$tojson(beautify)
 ```
-
-
 
 ## Notes

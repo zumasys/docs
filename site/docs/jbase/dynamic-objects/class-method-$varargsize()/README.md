@@ -6,12 +6,9 @@
 **Original ID:** 303998  
 **Internal:** No  
 
-
 ## Description
 
 The **size()** method initially returns the number of arguments from an instance of the **$vararg** class. It is decremented each time a call is made to [**$varargs::next()**](static-method-vararg-next).
-
-
 
 ## Examples
 
@@ -28,15 +25,11 @@ method Math::sum()
 end method
 ```
 
-
-
 Create this 1-line program which calls **sum()** as a static method:
 
 ```
 crt "Total = " : Math::sum(1,2,3,4,5)
 ```
-
-
 
 Results:
 
@@ -50,8 +43,6 @@ We now have 0 arguments left.
 Total = 15
 ```
 
-
-
 ## Notes
 
 Alternatively, the program could create an instance of the **Math** class and call **sum()** this way:
@@ -61,7 +52,3 @@ homework = new object("Math")
 total = homework->sum(1,2,3,4,5)
 crt "Total = " : total
 ```
-
-
-
-

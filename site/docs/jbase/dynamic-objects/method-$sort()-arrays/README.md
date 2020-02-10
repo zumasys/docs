@@ -6,44 +6,33 @@
 **Original ID:** 493376  
 **Internal:** No  
 
-
 ## Description
 
 The **$sort()** method sorts the values in an array, optionally specifying sort sequence.
 
-
-
 ## Syntax
 
 ```
-arr->$sort({sequence}) 
+arr->$sort({sequence})
 ```
-
-
 
 ## Arguments
 
 
 
 
-| <!----> | <!----> |
+| Sequence | Description |
 | --- | --- |
-| Sequence<br> | Description<br> |
-| "al"<br> | sort ascending left-justified (default)<br> |
-| "ar"<br> | sort ascending right-justified<br> |
-| "dl"<br> | sort descending left-justified<br> |
-| "dr"<br> | sort decending right-justified<br> |
-
+| "al" | sort ascending left-justified (default) |
+| "ar" | sort ascending right-justified |
+| "dl" | sort descending left-justified |
+| "dr" | sort decending right-justified |
 
 **"al"** is the default if no sequence is specified.
-
-
 
 ## Return values
 
 The current object after it is sorted.
-
-
 
 ## Example
 
@@ -66,8 +55,6 @@ Results:
 ```
 ["yellow","white","red","red","green","gray","gray","blue","black"]
 ```
-
-
 
 ## Notes
 

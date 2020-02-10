@@ -6,18 +6,15 @@
 **Original ID:** 305610  
 **Internal:** No  
 
-
 ## Description
 
-The **$equals()**, or **$equal()**, method tests if two objects or arrays are equal.
+The **\$equals()**, or **$equal()**, method tests if two objects or arrays are equal.
 
 For objects, the properties can be in any order but the properties and their values must be the same in both objects.
 
 For arrays, they must be absolutely equal. If you have the same values in both arrays, but in different positions, they will not be considered equal.
 
 All nested objects and arrays are compared.
-
-
 
 ## Syntax
 
@@ -30,31 +27,17 @@ array1->$equals(array2)
 
 ## Arguments
 
-
-
-
-| <!----> | <!----> |
+| Argument | Description |
 | --- | --- |
-| Argument<br> | Description<br> |
-| obj2<br> | the object to compare with obj1 for equality<br> |
-| array2<br> | the array to compare with array1 for equality<br> |
-
-
-
+| obj2 | the object to compare with obj1 for equality |
+| array2 | the array to compare with array1 for equality |
 
 ## Return values
 
-
-
-
-| <!----> | <!----> |
+| Value | Description |
 | --- | --- |
-| Value<br> | Description<br> |
-| 0<br> | the objects or arrays being compared are not equal<br> |
-| 1<br> | the objects or arrays being compared are equal<br> |
-
-
-
+| 0 | the objects or arrays being compared are not equal |
+| 1 | the objects or arrays being compared are equal |
 
 ## Examples
 
@@ -151,8 +134,6 @@ obj2 =
     "Vienna"
 ]
 ```
-
-
 
 ## Notes
 

@@ -6,7 +6,6 @@
 **Original ID:** 502408  
 **Internal:** No  
 
-
 The **$inherit** method allows a class to inherit all the properties and methods of the passed object type. You can pass one or more object like this:
 
 ```
@@ -27,7 +26,7 @@ transaction = new object("Transaction")
 transaction->$inherit("Customer", "Sales")
 ```
 
-In the example below, we create a simple class called **Customer**with 2 properties, **name**and **town**. We then create a second object whose class-name is **Sales**and we *inherit* the properties from the **Customer**.
+In the example below, we create a simple class called **Customer** with 2 properties, **name** and **town**. We then create a second object whose class-name is **Sales** and we *inherit* the properties from the **Customer**.
 
 ```
 customer = new object("Customer")   ;* Allocate an object whose class name is 'customer'
@@ -60,7 +59,7 @@ method Sales::Sales()
 end method
 ```
 
-Finally, we need a method in **Customer**called **dothis()**:
+Finally, we need a method in **Customer** called **dothis()**:
 
 ```
 method Customer::dothis()
@@ -69,15 +68,15 @@ method Customer::dothis()
 end method
 ```
 
-When we run the program, we create a new object called **sales** of class type **Sales** and call **sales-&gt;dothis()**. The **Sales** class doesn't have a method called **dothis()**, but we do in the inherited **Customer**class, so that is called.
+When we run the program, we create a new object called **sales** of class type **Sales** and call **sales-&gt;dothis()**. The **Sales** class doesn't have a method called **dothis()**, but we do in the inherited **Customer** class, so that is called.
 
 The screen output would be:
 
 ```
 {
-        "name":"DS supplies",
-        "town":"Hucknall",
-        "order":12345,
-        "sometext":"This was called from sales::dothis()"
+    "name":"DS supplies",
+    "town":"Hucknall",
+    "order":12345,
+    "sometext":"This was called from sales::dothis()"
 }
 ```

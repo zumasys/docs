@@ -6,52 +6,35 @@
 **Original ID:** 299711  
 **Internal:** No  
 
-
 ## Description
 
 The **$valuetype()** method returns type of an object's property.
 
-
-
 ## Syntax
 
 ```
-obj->$valuetype("property name") 
+obj->$valuetype("property name")
 ```
-
-
 
 ## Arguments
 
-
-
-
-| <!----> | <!----> |
+| Argument | Description |
 | --- | --- |
-| Argument<br> | Description<br> |
-| property name<br> | the name of the property belonging to the object or array<br> |
-
-
-
+| property name | the name of the property belonging to the object or array |
 
 ## Return Value
 
+| Type |
+| --- |
+| object |
+| array |
+| string |
+| numeric |
+| boolean |
+| null |
+| jbasevar \*\*\* |
 
-| <!----> | <!----> |
-| --- | --- |
-| Type<br> |
-| object<br> |
-| array<br> |
-| string<br> |
-| numeric<br> |
-| boolean<br> |
-| null<br> |
-| jbasevar\*\*\*<br> |
-
-
-\*\*\*JSON doesn't support this property type.
-
-
+\*\*\* JSON doesn't support this property type.
 
 ## Examples
 
@@ -114,7 +97,5 @@ Property "myobject" has value:      object
 Property "myarray" has value:       array
 Property "file_variable" has value: jbasevar
 ```
-
-
 
 ## Notes

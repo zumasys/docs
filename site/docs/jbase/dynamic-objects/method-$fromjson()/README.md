@@ -6,50 +6,39 @@
 **Original ID:** 299330  
 **Internal:** No  
 
-
 ## Description
 
-The **$fromjson()** method converts a valid JSON string to an object. This is the complement of the **$tojson()** method.
-
-
+The **\$fromjson()** method converts a valid JSON string to an object. This is the complement of the **$tojson()** method.
 
 ## Syntax
 
 ```
-json_string->$fromjson() 
+json_string->$fromjson()
 ```
-
-
 
 ## Arguments
 
 None
 
-
-
 ## Return values
 
 An object from a JSON string.
 
-
-
 ## Examples
 
 ```
-json = \{"year":2018,"type":"wall","months":["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"]}\
-crt "Before: ":json
+json = \{"year" : 2018, "type" : "wall", "months" : ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]}\
+crt "Before : " : json
 calendar = json->$fromjson()
-crt "After:  "calendar->$tojson()
+crt "After : " : calendar->$tojson()
 ```
 
 Results:
 
 ```
-Before: {"year":2018,"type":"wall","months":["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"]}
-After:  {"year":2018,"type":"wall","months":["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"]}
+Before : {"year" : 2018, "type" : "wall", "months" : ["jan", "feb", "mar", "apr", "may", "jun", "jul", "aug", "sep", "oct", "nov", "dec"]}
+After :  {"year":2018,"type":"wall","months":["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"]}
 ```
-
-
 
 ## Notes
 
