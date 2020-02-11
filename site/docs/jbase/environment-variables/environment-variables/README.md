@@ -6,14 +6,13 @@
 **Original ID:** 326787  
 **Internal:** No  
 
-
 ## Description
 
 jBASE uses a number of environment variables to modify jBASE behavior. Suitable defaults apply to most of them. Although most environment variables can be set any time, the best place to do so is in the .profile script.
 
-## Setting / Getting 
+## Setting / Getting
 
-**Windows**
+### Windows
 
 ```
 set variable=value
@@ -24,7 +23,7 @@ Variables can be configured in the System environment for all users, and/or on a
 
 Windows variables are usually configured in the System Properties panel.
 
-**UNIX**
+### UNIX
 
 ```
 export variable=value
@@ -42,8 +41,7 @@ SUCCESS = PUTENV(envar=x)
 SUCCESS = GETENV(envar)
 ```
 
-### 
-jBASE INITIALIZATION
+### jBASE Initialization
 
 Some environment variables can only be set before jBASE initialization. jBASE initialization occurs when the first jBASE program is executed on a particular "PORT number".
 
@@ -57,148 +55,118 @@ For instance:
 - SP-ASSIGN requires a "PORT" with which to save assignment status for print jobs.
 - READNEXT in a program after SELECT/GET-LIST.
 
-
 With jBASE 5.x all programs execute in the same process unless explicitly executed via the CHAR(255):'k' construct.
 
-### INITIAL ENVIRONMENT VARIABLES
+### Initial Environment Variables
+
+| <!----> | <!----> |
+| --- | --- |
+| [PATH](./../path) | pathnames of executables |
+| HOME | pathname of user home directory. Many defaults rely on this environment variable |
+| [LD\_LIBRARY\_PATH](./../ld_library_path) | pathnames of system libraries (Linux, Solaris only) |
+| LIBPATH | pathnames of system libraries (AIX only) |
+| LANG | language type (UNIX only) |
+| [JBASE\_LOCALE](./../jbase_locale) | setting to determine collation sequences for internationalization and secondary indexes (jBASE 5.2 and above) |
+| [JBASE\_TIMEZONE](./../jbase_timezone) | setting to determine the timezone to use for UTF8 timestamp conversion into local time for display (jBASE 5.2 and above) |
+| [JBASE\_DATE\_FORMAT](./../jbase_date_format) | specifies the format of how dates are converted to/from internal and external date representations |
+| TZ | timezone (UNIX only) |
+| LC\_ALL | will override a specified list of locale settings (UNIX only) |
+| [TERM](./../term-%28environment-variable%29) | specifies terminal type as per terminfo database |
+| [TERMINFO](./../terminfo) | specifies directory for terminal settings |
+| [JBCPORTNO](./../jbcportno) | forced Port number for use by user; automatically allocated unless this is set |
+| [JBCLOGNAME](./../jbclogname) | user name to use in-place of login id |
+| [JBCGLOBALDIR](./../jbcglobaldir) | pathname of jBASE global configuration directory |
+| [JBCRELEASEDIR](./../jbcreleasedir) | pathname of jBASE release directory |
+| [JBCDATADIR](./../jbcdatadir) | pathname of any configured databases and default directory for the jBASE spooler |
+| [JBCEMULATE](./../jbcemulate) | emulation to be used for this user |
+| [JEDIFILEPATH](./../jedifilepath) | directory Paths of application files location |
+| [JEDIFILENAME\_MD](./../jedifilename_md) | pathname of file to be used for Master Dictionary entries |
+| [JEDIFILENAME\_SYSTEM](./../jedifilename_system) | pathname of file to be used for SYSTEM entries |
+
+### Additional jBASE Environment Variables
+
+#### Execution
+
+| <!----> | <!----> |
+| --- | --- |
+| [JBASE\_ERRMSG\_TRACE](./../jbase_errmsg_trace) | Controls whether or not to log jBASE messages to the $JBCRELEASEDIR/tmp/jbase\_error\_trace file. |
+| [JBASE\_ERRMSG\_ZERO\_USED](./../jbase_errmsg_zero_used) | controls the behavior of jBC programs when an uninitialized variable is encountered |
+| [JBASE\_ERRMSG\_NON\_NUMERIC](./../jbase_errmsg_non_numeric) | controls the behavior of jBC programs when a numeric operation on a non-numeric variable is encountered |
+| [JBASE\_ERRMSG\_DIVIDE\_ZERO](./../jbase_errmsg_divide_zero) | controls the behavior of jBC programs when the divisor of an arithmetic division is zero |
+| JBCBACKGROUND | set to 1 to run "PORT" as background task |
+| [JEDIENABLEQ2Q](./../jedienableq2q) | set to 1 to force detection of Qptr to Qptr |
+| [JEDI\_DISTRIB\_DEFOPEN](./../jedi_distrib_defopen) | set to 1 to defer OPENs of distributed file parts |
+| [JEDI\_SECURE\_LEVEL](./../jedi_secure_level) | set security level for j3 and jPLUS files<ul><li>Level 1. No flush</li><li>Level 2. Flush on link modification (default)</li><li>Level 3. Flush after update (network failure)</li></ul> |
+| JEDI\_INDEX\_MMAP\_ON | set to force use of memory mapping on indexes when updating memory mapped files |
+| [JBC\_TCLRESTART](./../jbc_tclrestart) | set to command to execute instead of shell |
+| [JBC\_ENDRESTART](./../jbc_endrestart) | set to command to execute after end from debugger |
+| JBCRESTARTPROG | set to command to be executed after off (UNIX/Linux only) |
+| [JBCOBJECTLIST](./../jbcobjectlist) | set to alternate path(s) for user subroutine libraries<br>Windows - %home%\lib<br>UNIX - $HOME/lib |
+| [JBC\_BLOCK\_SYSTEM14](./../jbc_block_system14) | set to 1 to force a 100 millisecond delay on SYSTEM(14) calls. |
+
+#### Development
+
+| <!----> | <!----> |
+| --- | --- |
+| [JBCDEV\_BIN](./../jbcdev_bin) | set to alternate path to catalog executables.<br>Windows - %home%\bin<br>UNIX - $HOME/bin |
+| [JBCDEV\_LIB](./../jbcdev_lib) | set to alternate path to catalog libraries.<br>Windows - %home%\lib<br>UNIX - $HOME/bin |
+| [JDIAG](./../jdiag) | provides a variable amount of trace information |
+| LIB | specify additional paths for linking with libraries. (Windows only) |
+| INCLUDE | specify additional paths for header files |
+
+#### Miscellaneous
+
+| <!----> | <!----> |
+| --- | --- |
+| [JBASEUNIQUE](./../jbaseunique) | specify alternate jBASE work file |
+| [JBCERRFILE](./../jbcerrfile) | specify alternate error message file |
+| [JBCSPOOLERDIR](./../jbcspoolerdir) | specify alternate spooler directory |
+| [JBCSPOOLER\_JOBRESET](./../jbcspooler_jobreset) | controls how the print job counter is reset |
+| [JBC\_DESPOOLSLEEP](./../jbc_despoolsleep) | specify the interval for despoolers to check for queued jobs |
+| [JBC\_INVERT\_ALPHA\_CHARS](./../jbc_invert_alpha_chars) | set to 1 to invert the case of alphabetic characters entered with [INPUT](./../../jbase-basic-%28jbc%29/input). |
+| [JBC\_OLD\_SP\_EDIT](./../jbc_old_sp_edit) | specifies the alternative SP-EDIT format |
+| [JBCLISTFILE](jbclistfile) | specify alternate select list file |
+| [JBCLISTID](./../jbclistid) | force user account name to be part stored list ids. |
+| JBCHOLDPATH | Defines alternate location of the &HOLD& for SETPTR commands |
+
+#### Terminal
+
+| <!----> | <!----> |
+| --- | --- |
+| JBCECHO | set to 1 to force echo on |
+| [JBCSCREEN\_DEPTH](./../jbcscreen_depth) | specify alternate terminal depth (valid only on jBASE 3.x) |
+| [JBCSCREEN\_WIDTH](./../jbcscreen_width) | specify alternate terminal width (valid only on jBASE 3.x) |
+| [JBCPRINTER\_DEPTH](./../jbcprinter_depth) | specify alternate printer depth (valid only on jBASE 3.x) |
+| [JBCPRINTER\_WIDTH](./../jbcprinter_width) | specify alternate printer width (valid only on jBASE 3.x) |
+| JBCPRISM | set hard coded prism sequences (Windows only) |
+| JBC\_STDERR | set to 1 to redirect standard error to standard out. Useful for CAPTUREing output that would normally be sent to the screen. |
+| JBCCREATEFLAGS | set to 0, 1, 2 for output redirection. (Windows only)<br>0 Direct to current console (default)<br>1 Direct to new console<br>2 Detached for no console |
+
+#### Embedded SQL
 
 
 | <!----> | <!----> |
 | --- | --- |
-| [PATH](./../path)<br> | pathnames of executables<br> |
-| HOME<br> | pathname of user home directory. Many defaults rely on this environment variable<br> |
-| [LD\_LIBRARY\_PATH](./../ld_library_path)<br> | pathnames of system libraries (Linux, Solaris only)<br> |
-| LIBPATH<br> | pathnames of system libraries (AIX only)<br> |
-| LANG<br> | language type (UNIX only)<br> |
-| [JBASE\_LOCALE](./../jbase_locale)<br> | setting to determine collation sequences for internationalization and secondary indexes (jBASE 5.2 and above)<br> |
-| [JBASE\_TIMEZONE](./../jbase_timezone)<br> | setting to determine the timezone to use for UTF8 timestamp conversion into local time for display (jBASE 5.2 and above)<br> |
-| [JBASE\_DATE\_FORMAT](./../jbase_date_format)<br> | specifies the format of how dates are converted to/from internal and external date representations<br> |
-| TZ<br> | timezone (UNIX only)<br> |
-| LC\_ALL<br> | will override a specified list of locale settings (UNIX only)<br> |
-| [TERM](./../term-%28environment-variable%29)<br> | specifies terminal type as per terminfo database<br> |
-| [TERMINFO](./../terminfo)<br> | specifies directory for terminal settings<br> |
-| [JBCPORTNO](./../jbcportno)<br> | forced Port number for use by user; automatically allocated unless this is set<br> |
-| [JBCLOGNAME](./../jbclogname)<br> | user name to use in-place of login id<br> |
-| [JBCGLOBALDIR](./../jbcglobaldir)<br> | pathname of jBASE global configuration directory<br> |
-| [JBCRELEASEDIR](./../jbcreleasedir)<br> | pathname of jBASE release directory<br> |
-| [JBCDATADIR](./../jbcdatadir)<br> | pathname of any configured databases and default directory for the jBASE spooler<br> |
-| [JBCEMULATE](./../jbcemulate)<br> | emulation to be used for this user<br> |
-| [JEDIFILEPATH](./../jedifilepath)<br> | directory Paths of application files location<br> |
-| [JEDIFILENAME\_MD](./../jedifilename_md)<br> | pathname of file to be used for Master Dictionary entries<br> |
-| [JEDIFILENAME\_SYSTEM](./../jedifilename_system)<br> | pathname of file to be used for SYSTEM entries<br> |
+| JBC\_SQLLIBS | set alternate SQL libraries for embedded SQL |
+| JBC\_SQLPREPROC | set alternate SQL pre-compiler command |
+| JBC\_SQLFIXEDLEN | set to use fixed length types for char input strings |
 
-
-
-
-### ADDITIONAL jBASE ENVIRONMENT VARIABLES.
-
-#### EXECUTION
-
+#### Queries
 
 | <!----> | <!----> |
 | --- | --- |
-| [JBASE\_ERRMSG\_TRACE](./../jbase_errmsg_trace)<br> | Controls whether or not to log jBASE messages to the $JBCRELEASEDIR/tmp/jbase\_error\_trace file.<br> |
-| [JBASE\_ERRMSG\_ZERO\_USED](./../jbase_errmsg_zero_used)<br> | controls the behavior of jBC programs when an uninitialized variable is encountered<br> |
-| [JBASE\_ERRMSG\_NON\_NUMERIC](./../jbase_errmsg_non_numeric)<br> | controls the behavior of jBC programs when a numeric operation on a non-numeric variable is encountered<br> |
-| [JBASE\_ERRMSG\_DIVIDE\_ZERO](./../jbase_errmsg_divide_zero)<br> | controls the behavior of jBC programs when the divisor of an arithmetic division is zero<br> |
-| JBCBACKGROUND<br> | set to 1 to run "PORT" as background task<br> |
-| [JEDIENABLEQ2Q](./../jedienableq2q)<br> | set to 1 to force detection of Qptr to Qptr<br> |
-| [JEDI\_DISTRIB\_DEFOPEN](./../jedi_distrib_defopen)<br> | set to 1 to defer OPENs of distributed file parts<br> |
-| [JEDI\_SECURE\_LEVEL](./../jedi_secure_level)<br> | set security level for j3 and jPLUS files<ul><li>Level 1. No flush</li><li>Level 2. Flush on link modification (default)</li><li>Level 3. Flush after update (network failure)</li></ul> |
-| JEDI\_INDEX\_MMAP\_ON<br> | set to force use of memory mapping on indexes when updating memory mapped files<br> |
-| [JBC\_TCLRESTART](./../jbc_tclrestart)<br> | set to command to execute instead of shell<br> |
-| [JBC\_ENDRESTART](./../jbc_endrestart)<br> | set to command to execute after end from debugger<br> |
-| JBCRESTARTPROG<br> | set to command to be executed after off (UNIX/Linux only)<br> |
-| [JBCOBJECTLIST](./../jbcobjectlist)<br> | set to alternate path(s) for user subroutine libraries<br>Windows - %home%\lib<br>UNIX - $HOME/lib<br> |
-| [JBC\_BLOCK\_SYSTEM14](./../jbc_block_system14)<br> | set to 1 to force a 100 millisecond delay on SYSTEM(14) calls.<br> |
+| [JBCDEFDICTS](./../jbcdefdicts) | specify alternate default dictionary files |
 
-
-
-
-#### DEVELOPMENT
-
+#### Create-File
 
 | <!----> | <!----> |
 | --- | --- |
-| [JBCDEV\_BIN](./../jbcdev_bin)<br> | set to alternate path to catalog executables.<br>Windows - %home%\bin<br>UNIX - $HOME/bin<br> |
-| [JBCDEV\_LIB](./../jbcdev_lib)<br> | set to alternate path to catalog libraries.<br>Windows - %home%\lib<br>UNIX - $HOME/bin<br> |
-| [JDIAG](./../jdiag)<br> | provides a variable amount of trace information<br> |
-| LIB<br> | specify additional paths for linking with libraries. (Windows only)<br> |
-| INCLUDE<br> | specify additional paths for header files<br> |
-
-
-
-
-#### MISCELLANEOUS
-
-
-| <!----> | <!----> |
-| --- | --- |
-| [JBASEUNIQUE](./../jbaseunique)<br> | specify alternate jBASE work file<br> |
-| [JBCERRFILE](./../jbcerrfile)<br> | specify alternate error message file<br> |
-| [JBCSPOOLERDIR](./../jbcspoolerdir)<br> | specify alternate spooler directory<br> |
-| [JBCSPOOLER\_JOBRESET](./../jbcspooler_jobreset)<br> | controls how the print job counter is reset<br> |
-| [JBC\_DESPOOLSLEEP](./../jbc_despoolsleep)<br> | specify the interval for despoolers to check for queued jobs<br> |
-| [JBC\_INVERT\_ALPHA\_CHARS](./../jbc_invert_alpha_chars)<br> | set to 1 to invert the case of alphabetic characters entered with [INPUT](./../../jbase-basic-%28jbc%29/input).<br> |
-| [JBC\_OLD\_SP\_EDIT](./../jbc_old_sp_edit)<br> | specifies the alternative SP-EDIT format<br> |
-| [JBCLISTFILE](jbclistfile)<br> | specify alternate select list file<br> |
-| [JBCLISTID](./../jbclistid)<br> | force user account name to be part stored list ids.<br> |
-| JBCHOLDPATH | Defines alternate location of the &HOLD& for SETPTR commands<br> |
-
-
-
-
-#### TERMINAL
-
-
-| <!----> | <!----> |
-| --- | --- |
-| JBCECHO<br> | set to 1 to force echo on<br> |
-| [JBCSCREEN\_DEPTH](./../jbcscreen_depth)<br> | specify alternate terminal depth (valid only on jBASE 3.x)<br> |
-| [JBCSCREEN\_WIDTH](./../jbcscreen_width)<br> | specify alternate terminal width (valid only on jBASE 3.x)<br> |
-| [JBCPRINTER\_DEPTH](./../jbcprinter_depth)<br> | specify alternate printer depth (valid only on jBASE 3.x)<br> |
-| [JBCPRINTER\_WIDTH](./../jbcprinter_width)<br> | specify alternate printer width (valid only on jBASE 3.x)<br> |
-| JBCPRISM<br> | set hard coded prism sequences (Windows only)<br> |
-| JBC\_STDERR<br> | set to 1 to redirect standard error to standard out. Useful for CAPTUREing output that would normally be sent to the screen.<br> |
-| JBCCREATEFLAGS<br> | set to 0, 1, 2 for output redirection. (Windows only)<br>0 Direct to current console (default)<br>1 Direct to new console<br>2 Detached for no console<br> |
-
-
-
-
-#### EMBEDDED SQL
-
-
-| <!----> | <!----> |
-| --- | --- |
-| JBC\_SQLLIBS<br> | set alternate SQL libraries for embedded SQL<br> |
-| JBC\_SQLPREPROC<br> | set alternate SQL pre-compiler command<br> |
-| JBC\_SQLFIXEDLEN<br> | set to use fixed length types for char input strings<br> |
-
-
-
-
-#### QUERIES
-
-
-| <!----> | <!----> |
-| --- | --- |
-| [JBCDEFDICTS](./../jbcdefdicts)<br> | specify alternate default dictionary files<br> |
-
-
-
-
-#### CREATE-FILE
-
-
-| <!----> | <!----> |
-| --- | --- |
-| JEDI\_PREFILEOP<br> | parameters take precedence before command line<br> |
-| JEDI\_POSTFILEOP<br> | parameters take precedence after command line<br> |
-
+| JEDI\_PREFILEOP | parameters take precedence before command line |
+| JEDI\_POSTFILEOP | parameters take precedence after command line |
 
 e.g. To convert all files on a "jbackup" tape to J4 files set the following environment variable before using jrestore.
 
-**Unix** - Can use quotes to surround multiple parameters
+**UNIX**- Can use quotes to surround multiple parameters
 
 ```
 export JEDI_PREFILEOP=TYPE=J4 
@@ -207,20 +175,17 @@ export JEDI_PREFILEOP=TYPE=J4
 **Windows** - Don't use quotes
 
 ```
-set JEDI_PREFILEOP=TYPE=J4 
+set JEDI_PREFILEOP=TYPE=J4
 ```
 
-
-
-#### JRFS
+#### jRFS
 
 
 | <!----> | <!----> |
 | --- | --- |
-| [JBCNETACCESS](./../jbcnetaccess)<br> | specify the location of the jRFS security access file<br> |
-| [JBCNETDIR](./../jbcnetdir)<br> | specify the location of the jRFS configuration files<br> |
-| JRFS\_REMOTE\_JQL<br> | set to 1 to allow jQL to be executed remotely<br> |
-| JRFS\_LOCALPATH\_JQL<br> | set to 1 to allow remote pointer to have a different name than the remote file<br> |
-| JRFS\_SERVERNAME<br> | allows the jRFS client to override the service port<br> |
-| JRFS\_HOSTNAME<br> | allows the jRFS client to override the target host<br> |
-
+| [JBCNETACCESS](./../jbcnetaccess) | specify the location of the jRFS security access file |
+| [JBCNETDIR](./../jbcnetdir) | specify the location of the jRFS configuration files |
+| JRFS\_REMOTE\_JQL | set to 1 to allow jQL to be executed remotely |
+| JRFS\_LOCALPATH\_JQL | set to 1 to allow remote pointer to have a different name than the remote file |
+| JRFS\_SERVERNAME | allows the jRFS client to override the service port |
+| JRFS\_HOSTNAME | allows the jRFS client to override the target host |

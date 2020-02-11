@@ -60,4 +60,3 @@
 [terminal-support](./terminal-support)  
 [terminal-type](./terminal-type)  
 [terminfo](./terminfo)  
-
