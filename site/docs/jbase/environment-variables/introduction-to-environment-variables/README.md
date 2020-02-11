@@ -6,10 +6,9 @@
 **Original ID:** 339235  
 **Internal:** No  
 
-
 ## SETTING/GETTING
 
-**Windows**
+## Windows
 
 ```
 set variable=value
@@ -20,7 +19,7 @@ Variables can be configured in the System environment for all users, and/or on a
 
 Windows variables are usually configured in the System Properties panel.
 
-**UNIX**
+## UNIX
 
 ```
 export variable=value
@@ -33,15 +32,14 @@ Variables are usually configured in the .profile/.bash\_profile of the user logi
 
 ### jBASE PROGRAMS
 
-The jBC functions **PUTENV()**and **GETENV()** can be used to manipulate environment variables. For example:
+The jBC functions **PUTENV()** and **GETENV()** can be used to manipulate environment variables. For example:
 
 ```
 ok = PUTENV(envar=x)
 ok = GETENV(envar)
 ```
 
-### 
-jBASE INITIALIZATION
+### jBASE INITIALIZATION
 
 Some environment variables can only be set before jBASE initialization. jBASE initialization occurs when the first jBASE program is executed on a particular **PORT** number.
 

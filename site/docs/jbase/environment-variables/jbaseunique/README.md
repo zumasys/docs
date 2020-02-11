@@ -20,27 +20,21 @@ This environment variable superceeds JBCBASETMP.
 
 Any valid directory.
 
-
-
 ## Default
 
 Not set.
-
-
 
 ## Setting
 
 It must be set before any jBASE process is invoked.
 
-**Unix**
+## UNIX
 
 ```
 export JBASEUNIQUE=/home/workfiles/
 ```
 
-
-
-**Windows**
+## Windows
 
 ```
 set JBASEUNIQUE=C:\temp\workfiles\

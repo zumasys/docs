@@ -12,42 +12,30 @@
 
 ## Description
 
-Setting this environment variable sets the timezone to use for UTF8 timestamp conversion into local time for display.
-
-
+Setting this environment variable indicates the timezone to use for UTF8 timestamp conversion into local time for display.
 
 ## Values
 
-Any valid timezone. Use the **jtimezones**command for a list of  supported timezone values.
-
-
+Any valid timezone. Use the **jtimezones** command for a list of  supported timezone values.
 
 ## Default
 
 Not set.
 
-
-
 ## Setting
 
-**Unix**
+## UNIX
 
 ```
-export JBASE_TIMEZONE=EST5EDT 
+export JBASE_TIMEZONE=EST5EDT
 ```
 
-
-
-**Windows**
+## Windows
 
 ```
 set JBASE_TIMEZONE=EST5EDT
 ```
 
+## Note
 
-
-## Note: 
-
-
-> More information on Internationalization can be found in the jBASE  Internationalization manual.
-
+> More information on Internationalization can be found in the jBASE Internationalization manual.

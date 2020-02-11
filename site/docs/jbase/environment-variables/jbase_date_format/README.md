@@ -6,7 +6,6 @@
 **Original ID:** 284151  
 **Internal:** No  
 
-
 ## Description
 
 This environment variable specifies the format of how dates are converted to/from internal and external date representations.
@@ -14,13 +13,10 @@ This environment variable specifies the format of how dates are converted to/fro
 ## Values
 
 - 1- International (dd mm yyyy)
-- 2 -  USA (mm dd yyyy)
+- 2 - USA (mm dd yyyy)
 - 3 - Japanese (yyyymmdd)
 
-
 Any other value defaults to USA format.
-
-
 
 ## Setting
 
@@ -36,13 +32,9 @@ set JBASE_DATE_FORMAT=1  (Windows)
 export JBASE_DATE_FORMAT=1  (Unix)
 ```
 
+## Note
 
-
-## Note: 
-
-
-> If JBASE\_DATE\_FORMAT is undefined then the Date Format is determined by **JBASE\_LOCALE** (if set). If **JBASE\_LOCALE**is also undefined then use ( Unix) 'locale' ( LANG ) / ( Windows ) 'Region and Language'.
-
+> If JBASE\_DATE\_FORMAT is undefined then the Date Format is determined by **JBASE\_LOCALE** (if set). If **JBASE\_LOCALE** is also undefined then use ( UNIX) 'locale' ( LANG ) / ( Windows ) 'Region and Language'.
 
 jQL dictionary items using the 'D' conversion code will also respect this environment variable (e.g. D4-).
 
