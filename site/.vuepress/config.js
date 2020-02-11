@@ -33,7 +33,10 @@ module.exports = {
       // Loading Progress Bar
       'vuepress-plugin-nprogress': {},
       // Reading Progress Bar
-      'reading-progress': { readingDir: 'docs' }
+      // We'll probably need to update this path once things go live (https://github.com/tolking/vuepress-plugin-reading-progress)
+      'reading-progress': { readingDir: 'docs' },
+      // Add article reading time estimate
+      'vuepress-plugin-reading-time': {}
   },
   themeConfig: {
     logo: "/assets/img/logo-grey.png",

@@ -14,6 +14,7 @@
   export default {
     name: "GitLog",
     computed: {
+      // Full list of API: https://vuepress.github.io/en/plugins/git-log/#api
       author() { return this.$page.git.author; },
       commits() { return this.$page.git.commits; },
       contributors() { return this.$page.git.contributors; },
