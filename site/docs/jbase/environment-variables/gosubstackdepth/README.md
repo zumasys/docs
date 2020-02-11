@@ -6,12 +6,9 @@
 **Original ID:** 394817  
 **Internal:** No  
 
-
 ## Description
 
 Defines the maximum number of **GOSUB** levels that can be attained.
-
-
 
 ## Values
 
@@ -19,30 +16,22 @@ Defines the maximum number of **GOSUB** levels that can be attained.
 513 through 10000 inclusive
 ```
 
-
-
 ## Default
 
 The default is 512, which will suit most applications.
-
-
 
 ## Setting
 
 Must be set before starting a jBASE process.
 
-
-
 ## Example
 
-To set the **GOSUB**stack depth to 1k:
+To set the **GOSUB** stack depth to 1k:
 
 ```
 export GOSUBSTACKDEPTH=1024    [UNIX]
 set GOSUBSTACKDEPTH=1024       [Windows]
 ```
-
-
 
 ## Notes
 
@@ -59,7 +48,5 @@ Trap from an error message, error message name = STACK_FULL
 Line 2 , Source gosub_test.b
 jBASE debugger->
 ```
-
-
 
 Effective release: jBASE 5.7.2.2
