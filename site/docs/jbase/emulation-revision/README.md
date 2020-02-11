@@ -1,4 +1,4 @@
-# Emulation and emualtion revision
+# Emulation and emulation revision
 
 **Created At:** 3/5/2019 12:11:31 PM  
 **Updated At:** 7/19/2019 9:33:43 AM  
@@ -287,7 +287,7 @@ List MD WITH *A1 't' WITH *A2'115'
 
 ```
 
-,will be evaluated the same as:
+will be evaluated the same as:
 
 ```
 List MD WITH *A1 't' OR WITH *A2'115'

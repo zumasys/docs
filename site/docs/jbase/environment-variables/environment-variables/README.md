@@ -26,9 +26,12 @@ Windows variables are usually configured in the System Properties panel.
 ### UNIX
 
 ```
-export variable=value
+variable=value
+export variable
 echo $variable
 ```
+
+This works for all shells, although some shells (i.e. ksh) allow "export variable=value".
 
 Variables are usually configured in the .profile/.bash\_profile of the user login directory.  Global variables can be added to the "/etc/profile" script.
 
@@ -37,8 +40,8 @@ Variables are usually configured in the .profile/.bash\_profile of the user logi
 The jBC functions PUTENV and GETENV can be used to manipulate environment variables. For example:
 
 ```
-SUCCESS = PUTENV(envar=x)
-SUCCESS = GETENV(envar)
+ok = PUTENV(envar=x)
+ok = GETENV(envar)
 ```
 
 ### jBASE Initialization
@@ -144,7 +147,6 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 
 #### Embedded SQL
 
-
 | <!----> | <!----> |
 | --- | --- |
 | JBC\_SQLLIBS | set alternate SQL libraries for embedded SQL |
@@ -164,22 +166,16 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 | JEDI\_PREFILEOP | parameters take precedence before command line |
 | JEDI\_POSTFILEOP | parameters take precedence after command line |
 
-e.g. To convert all files on a "jbackup" tape to J4 files set the following environment variable before using jrestore.
+For example, to convert all files from a "jbackup" to JP (jPlus) files and as Case Insensitive, set the following environment variable before using jrestore.
 
-**UNIX**- Can use quotes to surround multiple parameters
-
-```
-export JEDI_PREFILEOP=TYPE=J4 
-```
-
-**Windows** - Don't use quotes
+Note the use of double-quotes on UNIX when there is more than one setting.
 
 ```
-set JEDI_PREFILEOP=TYPE=J4
+export JEDI_PREFILEOP="TYPE=JP CASE=OFF"  (UNIX)
+set JEDI_PREFILEOP=TYPE=JP CASE=OFF       (Windows)
 ```
 
 #### jRFS
-
 
 | <!----> | <!----> |
 | --- | --- |
