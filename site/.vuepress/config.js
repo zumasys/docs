@@ -15,9 +15,7 @@ module.exports = {
     ]}
   },
   plugins: {
-      "@vuepress/search": {
-        searchMaxSuggestions: 10
-      },
+      "@vuepress/search": { searchMaxSuggestions: 10 },
       // Vssue (uses gitlab issues to comment)
       '@vssue/vuepress-plugin-vssue': {
         platform: 'github', // set `platform` rather than `api`
@@ -26,16 +24,14 @@ module.exports = {
         clientId: process.env.VUE_APP_GITHUB_CLIENT_ID,
         clientSecret: process.env.VUE_APP_GITHUB_CLIENT_SECRET
       },
-      // TypeScript
+      // TypeScript in .vue files, markdown files and enhanceApp.ts
       'vuepress-plugin-typescript': {
-        tsLoaderOptions: {
-          // All options of ts-loader
-        },
+        tsLoaderOptions: { /* All options of ts-loader */ },
       },
-      // Git Log
-      'git-log': {
-        onlyFirstAndLastCommit: true
-      }
+      // Git Log/Details
+      'git-log': { onlyFirstAndLastCommit: true },
+      // Progress Bar
+      'vuepress-plugin-nprogress': {}
   },
   themeConfig: {
     logo: "/assets/img/logo-grey.png",
