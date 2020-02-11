@@ -2,7 +2,7 @@
   <div class="git-log">
       <h2 id="git-details"><a href="#git-details" class="header-anchor">#</a>Git Details</h2>
       <p class="git-details">
-        <strong>Author:</strong> {{author}}<br />
+        <strong>Last Updated By:</strong> {{author}}<br />
         <strong>Created:</strong> {{created}}<br />
         <strong>Updated:</strong> {{updated}}<br />
       </p>

@@ -30,8 +30,10 @@ module.exports = {
       },
       // Git Log/Details
       'git-log': { onlyFirstAndLastCommit: true },
-      // Progress Bar
-      'vuepress-plugin-nprogress': {}
+      // Loading Progress Bar
+      'vuepress-plugin-nprogress': {},
+      // Reading Progress Bar
+      'reading-progress': { readingDir: 'docs' }
   },
   themeConfig: {
     logo: "/assets/img/logo-grey.png",
