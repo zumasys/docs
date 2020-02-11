@@ -1,7 +1,7 @@
 # Installing the ODBC jEDI on Linux/Unix
 
 **Created At:** 12/20/2019 4:47:27 PM  
-**Updated At:** 1/25/2020 12:21:00 AM  
+**Updated At:** 2/6/2020 9:51:30 PM  
 **Original Doc:** [installing-the-odbc-jedi-on-linuxunix](https://docs.jbase.com/installing-the-odbc-jedi-on-linuxunix)  
 **Original ID:** 509163  
 **Internal:** Yes  
@@ -96,7 +96,7 @@ Unpacking...    ODBC jEDI Installation
 View release notes? No
 ```
 
-6. You will be prompted with the following *DSN* fields to fill out. The installer will use the data entered into these fields to attempt to connect to a valid data source.
+6. You will be prompted with the following *DSN* fields to fill out. The installer will use the data entered into these fields to attempt to connect to a valid data source. If you don't yet have one, you will need to set one up.
 
 ```
 CSV directory:

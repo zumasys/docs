@@ -1,7 +1,7 @@
 # Installing the ODBC jEDI on Windows
 
 **Created At:** 12/27/2019 4:34:31 PM  
-**Updated At:** 1/25/2020 12:20:34 AM  
+**Updated At:** 1/29/2020 10:26:00 PM  
 **Original Doc:** [installing-the-odbc-jedi-on-windows](https://docs.jbase.com/installing-the-odbc-jedi-on-windows)  
 **Original ID:** 509689  
 **Internal:** Yes  
