@@ -29,7 +29,7 @@ module.exports = {
         tsLoaderOptions: { /* All options of ts-loader */ },
       },
       // Git Log/Details
-      'git-log': { onlyFirstAndLastCommit: true },
+      'git-log': { onlyFirstAndLastCommit: false },
       // Loading Progress Bar
       'vuepress-plugin-nprogress': {},
       // Reading Progress Bar
