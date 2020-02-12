@@ -1,11 +1,12 @@
-# Accuterm 7.3 Manual
+# AccuTerm 7.3 Manual
 
 **Created At:** 6/26/2018 10:24:38 PM  
 **Updated At:** 6/26/2018 10:24:56 PM  
 **Original Doc:** [accuterm-73-manual](https://docs.zumasys.com/accuterm/accuterm-73-manual)  
 **Original ID:** 324742  
-**Internal:** Yes  
+**Internal:** Yes
 
+<PageHeader />
 
 Welcome to the jBASE!  jBASE is a dynamic, high-performance and flexible NoSQL database that gives you the freedom to design your applications around your business needs, not the capabilities of your database.  The Manual introduces key concepts in jBASE, presents the programming and query language, and provides operational and administrative considerations and procedures.
 
