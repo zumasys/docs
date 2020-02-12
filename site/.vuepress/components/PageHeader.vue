@@ -1,7 +1,7 @@
 <template>
     <div class="page-header-details">
         <p>
-            <strong>Updated:</strong> <br />
+            <strong>Updated:</strong> {{ created }}<br />
             <strong>Created:</strong> {{ updated }}<br />
             <strong>Last Updated By:</strong> {{ author }}<br />
             <strong>Read Time:</strong> {{ readingTime }} minute<br />
@@ -29,7 +29,7 @@ export default {
         author() { return this.$page.git.author; },
         commits() { return this.$page.git.commits; },
         contributors() { return this.$page.git.contributors; },
-        //created() { return this.$page.git.created; },
+        created() { return this.$page.git.created; },
         updated() { return this.$page.git.updated; }
     }
 }
