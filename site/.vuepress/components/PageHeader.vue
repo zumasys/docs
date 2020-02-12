@@ -26,7 +26,7 @@ export default {
                 title = this.title
             } else {
                 const page = this.$site.pages.find((el) => el.path === path || el.path === path + "/");
-                console.log(this.$page)
+                
                 title = page ? page.title : 'No Title'
             }
             
