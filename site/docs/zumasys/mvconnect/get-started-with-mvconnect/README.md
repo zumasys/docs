@@ -70,21 +70,21 @@ To send REST Data
 
 Switch the action to POST
 
-![get-started-with-mv-connect: blob](./blob.jpg)
+![get-started-with-mv-connect: blob](./blob-2.jpg)
 
 Click on the body, change data to raw, adjust output to JSON (application/JSON) and then enter your JSON into the body.
 
-![get-started-with-mv-connect: blob](./blob.jpg)
+![get-started-with-mv-connect: blob](./blob-3.jpg)
 
 Hit the send button and your raw JSON will now be in the body tag.  Notice also that the CONTENT\_TYPE switched to application/JSON.
 
-![get-started-with-mv-connect: blob](./blob.jpg)
+![get-started-with-mv-connect: blob](./blob-4.jpg)
 
 You can also test sending form vars the same way.  Go back to Body and change to x-www-form-urlencoding.  You can enter a var directly into the URL bar and/or add items in the key/value area.  The URL bar will always work no matter the encoding.  The MVConnect does not support form-data encoding.
 
 In the vars area, you will see you passed variables.
 
-![get-started-with-mv-connect: blob](./blob.jpg)
+![get-started-with-mv-connect: blob](./blob-5.jpg)
 
 You are now ready to build your first Application.
 
@@ -114,7 +114,7 @@ ED WDB.RESOURCE API*HELLOWORLD
 
 Now go back to POSTMAN and call your program.  Because we just spit out the straight text you need to click on the RAW output button (postman by default expects JSON).
 
-![get-started-with-mv-connect: blob](./blob.jpg)
+![get-started-with-mv-connect: blob](./blob-6.jpg)
 
 Now lets make it interactive. Change your HELLOWORLD program as follows.
 
@@ -127,13 +127,13 @@ Now lets make it interactive. Change your HELLOWORLD program as follows.
 
 Adjust the POSTMAN configuration as below and resend
 
-![get-started-with-mv-connect: blob](./blob.jpg)
+![get-started-with-mv-connect: blob](./blob-7.jpg)
 
 You have now created a simple RESTful function.  You can call this function now from any language that supports http calls.  On the top right of POSTMAN you will see a code button.  Click on that button and you can get actual code examples for different languages.
 
 For example here is code for PHP
 
-![get-started-with-mv-connect: blob](./blob.jpg)
+![get-started-with-mv-connect: blob](./blob-8.jpg)
 
 
 
