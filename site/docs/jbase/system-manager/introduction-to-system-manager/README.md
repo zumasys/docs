@@ -55,7 +55,7 @@ After installation, you’ll have to provide System Manager with credentials to 
 
 When the server information has been saved and verified correct, you’ll be free to navigate the application.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-1.jpg)
 
 # DASHBOARD
 
@@ -63,21 +63,21 @@ On the dashboard, you’ll see a graph of CPU and Memory usage of your jBASE ser
 
 At first, there won’t be enough historical data to plot the Utilization/License graphs, but you should see data for the utilization chart after about half an hour, and licensing data should start to show up the day after configuring System Manager.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-2.jpg)
 
 # LICENSING
 
 The licensing page will show you current licensing information, as obtained from the jLICENSINGINFO command; license types and usage counts, along with licensed products and multi/web session license usage by IP address. If you’re running jBASE 5.5, you’ll also see specific license details, and will have the option to add or update license keys.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-3.jpg)
 
 To add or update a jBASE license, click the “Add/Update License Key” button located in the License Usage area of the jBASE Licensing Information panel. Enter your license key, and click “Verify”. If you’re entering a license type new to the jBASE server, you’ll be shown the details of your license and will have the option to click “Add License” to add it to jBASE.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-4.jpg)
 
 If you’re upgrading an existing license, you’ll also be shown the details of your existing license so that you can see what’s changing, and will have the option to click “Update License” to set the new license key. Clicking “Cancel” will close the license key dialog and return you to the licensing page.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-5.jpg)
 
 # DIAGNOSTIC INFORMATION
 
@@ -85,7 +85,7 @@ The diagnostic page will show you information from the jDiag command; system inf
 
 
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-6.jpg)
 
 # ADMIN TOOLS
 
@@ -93,19 +93,19 @@ The diagnostic page will show you information from the jDiag command; system inf
 
 The backup page is where you can start a backup or create schedules for backups, as well as see the status of recent backup jobs.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-7.jpg)
 
 Before you can start however, you’ll need to provide a location on the jBASE server where the backups will be stored, as well as at least 1 directory to backup. File paths are checked to ensure they exist on the jBASE server before they can be used. Once the backup settings have been properly set, you’ll see the On-The-Fly Backups panel and the Backup Schedules panel refresh to allow the use of both.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-8.jpg)
 
 To start a backup job right now, click the “Start Backup” button in the On-The-Fly Backups panel. This will use the current backup settings to start a backup job. The job status will be reflected in the Backup Status label, and since the backup happens in the background, so you’re able to navigate away from the page and come back later. When it’s done, the results will be at the top of the Recent Backup Job Results panel.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-9.jpg)
 
 To create a schedule for a backup, select a time you want the backup to happen using the hour/minute dropdowns in the Backup Schedules panel. Then select a day you want the backup to happen (Sun-Sat, or Everyday) and click the “+” button. The schedule will be appended to the list of existing schedules below the dropdowns. You can remove an existing schedule by clicking its red “X” to the right.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-10.jpg)
 
 Only one backup job can run at a time, so you will be unable to start a manual backup while a scheduled one is running, and vice-versa.
 
@@ -113,7 +113,7 @@ Only one backup job can run at a time, so you will be unable to start a manual b
 
 The hashfile Integrity page will scan and show verification data for hashfiles in a directory of your choosing. Enter the directory path containing hashfiles in the textbox, and press enter or click the checkbox button.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-11.jpg)
 
 You’ll be shown a list of hashfiles contained in the directory, with its type, group, record and salvage counts, along with counts of any errors or warnings. Clicking the info button to the left of a hashfile name will show you detailed information about the hashfile, provided by the jSTAT command. Should a hashfile be corrupted, it will be highlighted in red, and clicking its info button will show a header indicating that there’s a problem with the file.
 
@@ -123,12 +123,12 @@ You’ll be shown a list of hashfiles contained in the directory, with its type,
 | <!----> | <!----> |
 | --- | --- |
 | Good Hashfile<br> | Corrupt Hashfile<br> |
-| ![introduction-to-system-manager: blob](./blob.jpg) | ![introduction-to-system-manager: blob](./blob.jpg) |
+| ![introduction-to-system-manager: blob](./blob-12.jpg) | ![introduction-to-system-manager: blob](./blob-13.jpg) |
 
 
 You can also schedule a path to be verified at a specific time and day, much like scheduling backups. Enter in a path to verify, select an hour/minute/day to run the check, and click the “+” button.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-14.jpg)
 
 The path entered will be checked to ensure it exists, then added to the list of existing schedules. Clicking the checkbox button in a schedule will run the check and display the results (without triggering the notification system, since results are shown on the page), clicking the red “X” button will prompt you to delete the schedule.
 
@@ -165,7 +165,7 @@ Once you have the log set configured you will see the details/status of the log 
 
 You can choose to get notifications about events that happen within System Manager; Disk, CPU or Memory usage above 85%, when System Manager is unable to make a connection to your jBASE server, when System Manager was unable to successfully parse the result of a jBASE command, backup job success and failure, and scheduled hashfile verification completed.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-20.jpg)
 
 You can receive these notifications in the following ways (all settings fields will be disabled until you manually enable the notification type):
 
@@ -173,35 +173,35 @@ You can receive these notifications in the following ways (all settings fields w
 
 Provide your SMTP server address and port, an email address to be used as the “From” address, and any/all recipients separated by either a comma or semi-colon. Clicking the test button will send a test notification using the information as it is populated in the email settings.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-21.jpg)
 
 ### SLACK
 
 Provide a slack token and channel to post notifications in, and whether or not to post the notifications as the user of the slack token. Clicking the test button will post a test message to slack using the information as it is populated in the slack settings. For more information about how to obtain slack tokens, [visit their API documentation.](https://api.slack.com/)
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-22.jpg)
 
 ### TWILIO
 
 Provide an account SID, authorization token, a number the SMS will appear from, and a recipient number. Non-numeric characters will be stripped, so parenthesis and dashes will be fine to leave in, but you must provide fully qualified phone numbers, including the country code. The leading + is optional. Clicking the test button will send a test SMS using the information as it is currently populated in the Twilio settings. For more information about obtaining your account SID or auth token, [visit their API documentation](https://www.twilio.com/api).
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-23.jpg)
 
 ### WEB HOOK
 
 You can also receive notifications via HTTP POST from System Manager. Provide a URL that will receive the notification data, and it will receive an application/x-www-form-urlencoded form containing the notification information as they happen. Clicking the test button will send a test post to the URL provided.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-24.jpg)
 
 ## UPDATES
 
 The update page will show the current installed version of System Manager, and whether or not there are available updates. You can also check for updates on the fly by clicking the “Force Version Check” button.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-25.jpg)
 
 You also have the option of opting into beta releases of System Manager. Should you opt-in to betas, we ask that you do it on a non-production installation as they may not be fully functional or completely stable. Any feedback you can provide when using a beta release is greatly appreciated and helps us improve System Manager. You can opt back out of beta releases at any time.
 
-![introduction-to-system-manager: blob](./blob.jpg)
+![introduction-to-system-manager: blob](./blob-26.jpg)
 
 # TROUBLESHOOTING
 
