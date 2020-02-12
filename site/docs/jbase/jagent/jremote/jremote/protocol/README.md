@@ -3,16 +3,13 @@
 ## Topics
 
 [accountauthenticationrequest-(jremote-api)](./accountauthenticationrequest-(jremote-api))  
-[accountauthenticationrequest.accountusercredentials-(jremote---api)](./accountauthenticationrequest.accountusercredentials-(jremote---api))  
 [authenticationrequest-(jremote-api)](./authenticationrequest-(jremote-api))  
-[authenticationrequest.usercredentials-(jremote---api)](./authenticationrequest.usercredentials-(jremote---api))  
 [begintransactionrequest-(jremote-api)](./begintransactionrequest-(jremote-api))  
 [callsubroutinerequest-(jremote-api)](./callsubroutinerequest-(jremote-api))  
 [class-use](./class-use)  
 [clearfilerequest-(jremote-api)](./clearfilerequest-(jremote-api))  
 [closefilerequest-(jremote-api)](./closefilerequest-(jremote-api))  
 [com.jbase.jremote.protocol-(jremote-api)](./com.jbase.jremote.protocol-(jremote-api))  
-[com.jbase.jremote.protocol-class-hierarchy-(jremote---api)](./com.jbase.jremote.protocol-class-hierarchy-(jremote---api))  
 [committransactionrequest-(jremote-api)](./committransactionrequest-(jremote-api))  
 [convrequest-(jremote-api)](./convrequest-(jremote-api))  
 [convresponse-(jremote-api)](./convresponse-(jremote-api))  
@@ -61,4 +58,3 @@
 [xarollbacktransactionrequest-(jremote-api)](./xarollbacktransactionrequest-(jremote-api))  
 [xastarttransactionrequest-(jremote-api)](./xastarttransactionrequest-(jremote-api))  
 [xaxid-(jremote-api)](./xaxid-(jremote-api))  
-
