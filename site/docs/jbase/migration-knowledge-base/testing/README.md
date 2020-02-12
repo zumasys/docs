@@ -125,16 +125,16 @@ Log onto Jira - [https://zumasys.atlassian.net/](https://zumasys.atlassian.net/)
 
 Click on Projects in the menu header and click on your project name
 
-![261250-testing: blob](./blob.jpg)
+![261250-testing: blob](./blob-1.jpg)
 
 Click on “what needs to be done” and enter in issue to be reported
 
-![261250-testing: blob](./blob.jpg)
+![261250-testing: blob](./blob-2.jpg)
 
 Mark it as “Bug” or “Task”
 
-![261250-testing: blob](./blob.jpg)
+![261250-testing: blob](./blob-3.jpg)
 
 Ticket will be reviewed only when the highlighted details are completed: Priority, Description, and any attachments that contains screenshots.
 
-![261250-testing: blob](./blob.jpg)
+![261250-testing: blob](./blob-4.jpg)
