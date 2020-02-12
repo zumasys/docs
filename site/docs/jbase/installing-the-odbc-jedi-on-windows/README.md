@@ -6,30 +6,29 @@
 **Original ID:** 509689  
 **Internal:** Yes  
 
-
 As previously stated, in order to properly perform the steps defined in this section, you will need a licensed system running jBASE 5.6 or greater, and the *ODBC* *jEDI*tool-set installation package. If you do not yet have a valid licensed jBASE system, and/or the *ODBC* *jEDI*tool-set installation package, please contact Zumasys licensing to obtain them.
 
 The installation package is comprised of two components, the **ODBCjEDI-WINNT.jpkg** and optionally the **jpkginstaller.exe**; both can be removed from the target file system after successful installation. After receiving the *ODBC* *jEDI*tool-set installation package, do the following to ensure successful installation:
 
 1. Save the installation package's components to a desired location on your file-system
 
-### Note
+## Note #1
 
 For this example, **C:\jBASEInstall****\**will be the location our components are stored after initial download
 
 2. Run the **jpkginstaller.exe** for installation
 
-### Note
+### Note #2
 
 You can remove the **jpkginstaller.exe** file once you have installed it
 
-3. Run the **jpkginstall**command from the same directory your **ODBCjEDI-WINNT.jpkg**file is located
+3. Run the **jpkginstall** command from the same directory your **ODBCjEDI-WINNT.jpkg** file is located
 
 ```
 C:\jBASEInstall> jpkginstall ODBCjEDI
 ```
 
-4. If you do not yet have the **config\**or **CSV\** directories created within your %**JBCDATADIR%**directory, you will be prompted and asked if you'd like to create them. Enter Yes to have the installer create the directories for you. If you already have these directories set up, the installer will skip to step 9.
+4. If you do not yet have the **\\config** or **\\CSV** directories created within your %**JBCDATADIR%** directory, you will be prompted and asked if you'd like to create them. Enter Yes to have the installer create the directories for you. If you already have these directories set up, the installer will skip to step 9.
 
 ```
 Unpacking...

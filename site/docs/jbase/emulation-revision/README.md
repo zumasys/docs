@@ -110,7 +110,7 @@ The entries must be expanded explicitly.
 | **compiler\_case\_insensitive\_variables\_keywords = true\|false** | If set, the compiler ignores the case on variable names and keywords. [Not currently implemented] | Compile Time |  |
 | **chk\_typeahead\_on\_inputminus = true\|false** | If set then check for typeahead when INPUT x,-1 syntax is used. | Run Time |  |
 | **conv\_mct\_uv\_compat = true\|false** | Universe compatible capitalisation after non-alpha characters. | Run Time |  |
-| **conv\_old\_mct = true\|false** | Capitalise character in a string following non-alpha character, e.g. "-" (hyphen) when the string is used in an OCONV() function. [See Example #1](./#Example #1) | Run Time | + |
+| **conv\_old\_mct = true\|false** | Capitalise character in a string following non-alpha character, e.g. "-" (hyphen) when the string is used in an OCONV() function. [See Example #1](./#Example-#1) | Run Time | + |
 | **dates\_upper\_case = yes\|no** | If "yes" then date conversions (e.g. "DM" and "DW") force the text to uppercase format, e.g. "March" is forced to "MARCH".<br />Without this option, the casing for dates is dependent upon the operating system. | Run Time | + |
 | **defer\_header\_output = true\|false** | Set by default under Ultimate emulation. <br />Any Basic HEADER will be output at the next natural page break. <br />Normally the HEADER is issued immediately. <br />The output of the HEADER can also be deferred to the next natural page break by prefixing the HEADER data with an Attribute Mark (@AM). | Run Time |  |
 | **dict\_sub\_call = true\|false** | On some emulations, when calling a SUBROUTINE from a DICT item, a parameter will be passed to the SUBROUTINE which is the current item .<br />If this is behavior is required, set this to "true". | Run Time |  |
@@ -151,7 +151,7 @@ The entries must be expanded explicitly.
 | **multiple\_cmd\_execution = true\|false** | For systems that allow execution of multiple commands if provided as a dynamic array to 'PERFORM'/'EXECUTE' statements.<br />Where a CAPTURING clause is added to the EXECUTE/PERFORM, only the result of the last EXECUTEd program is returned. | Run Time | + |
 | **named\_common = unassigned\|null\|zero** | Indicates how to set named common when first referenced. Default is unassigned.'setting' can be :<ol><li>&quot;zero&quot; to initialise to numeric 0.</li><li>&nbsp;&quot;unassigned&quot; to keep it as an unassigned variable.</li><li>&nbsp;&quot;null&quot; to create it as a zero length null string.</li></ol> | Run Time |  |
 | **no\_equate\_on\_call = true\|false** | If set, inhibit the Equate processing on the 'Subroutine' name specified in CALL statements but not CALL @ statements. | Run Time |  |
-| **no\_extra\_delimiter = true\|false** | For systems ( currently Sequoia and R83 ) which do not insert a delimiter (AM/VM/SVM) if the current string being appended to ( by specifying '-1' as the parameter to append/insert before ) has a 'trailing' delimiter (AM/VM/SVM ) already. See Example #2 | Compile Time |  |
+| **no\_extra\_delimiter = true\|false** | For systems ( currently Sequoia and R83 ) which do not insert a delimiter (AM/VM/SVM) if the current string being appended to ( by specifying '-1' as the parameter to append/insert before ) has a 'trailing' delimiter (AM/VM/SVM ) already.  [See Example #2](./#Example-#2)| Compile Time |  |
 | **no\_id\_prompt = true\|false** | For systems (Sequoia) which do NOT 'prompt for ids' when using 'QSELECT' (for example) and no items are specified. If 'no\_id\_prompt' is set do NOT 'prompt' for the item ids but assume '\*' (i.e. ALL items) are required. | Run Time |  |
 | **no\_value\_maths = true\|false** | If set to 'true' then jBASE will NOT perform automatic multi-value maths on a non-numeric string, e.g. : A = "12":@AM:"3" + 1 will fail with a 'NON\_NUMERIC' error. | Run Time |  |
 | **nopage\_null\_header = true\|false** | For systems (as yet unknown) which do NOT expect a pause at the end of Page when a Null HEADING is requested in Basic. The default behaviour is to leave this 'flag' unset. | Run Time |  |
@@ -162,8 +162,8 @@ The entries must be expanded explicitly.
 | **old\_jql\_output\_style = true\|false** | If set then the number of spaces between columns, for the jQL **LIST** and **SORT** commands, is always 1.<br />If not set then jQL adjusts the spacing between columns depending on the number of columns and the width setting of the TERM command.<br />The maximum number of spaces between columns is 4.<br />This option is only effective when the jQL display is in columnar format. | Run Time | + |
 | **openseq\_creates = true\|false** | When set, the jBC OPENSEQ statement will create the specified file if it does not exist. This parameter is set by default for Sequoia. | Run Time |  |
 | **page\_0\_header = true\|false** | For systems (Sequoia) PAGE 0 will clear any existing HEADINGs and FOOTINGs. | Run Time |  |
-| **para\_stacked\_data = true\|false** | Set by default under Unidata emulation.Externally stacked 'DATA', passed from a Basic program to an 'EXECUTE'd PAragraph, is only used to satisfy 'INPUT' requests within the PAragraph and is not passed indirectly to programs 'EXECUTE'd from the PAragraph, e.g. **Example #3** | Run Time |  |
-| **pq\_Aquote\_prepends\_space = true\|false**<br /> | This option can be enabled to assist in the construction of 'commands' within the Proc Output buffer.Currently not enabled under any emulation by default.<br />Specifically for Proc's where a required trailing space has been omitted during creation of the Proc, e.g. **Example #4** <br />With this option enabled, the A' and/or A", will prepend a 'space' to the current contents of the Output buffer, where necessary, prior to appending the 'quoted' contents of the 'A' buffer, e.g. :<br />When this option is enabled the 'Output' buffer will be as per **Example #5**| Run Timer | |
+| **para\_stacked\_data = true\|false** | Set by default under Unidata emulation.Externally stacked 'DATA', passed from a Basic program to an 'EXECUTE'd PAragraph, is only used to satisfy 'INPUT' requests within the PAragraph and is not passed indirectly to programs 'EXECUTE'd from the PAragraph, e.g. [See Example #3](./#Example-#3) | Run Time |  |
+| **pq\_Aquote\_prepends\_space = true\|false**<br /> | This option can be enabled to assist in the construction of 'commands' within the Proc Output buffer.Currently not enabled under any emulation by default.<br />Specifically for Proc's where a required trailing space has been omitted during creation of the Proc, e.g. [Example #4](./#Example-#4) <br />With this option enabled, the A' and/or A", will prepend a 'space' to the current contents of the Output buffer, where necessary, prior to appending the 'quoted' contents of the 'A' buffer, e.g. :<br />When this option is enabled the 'Output' buffer will be as per [Example #5](./#Example-#5)| Run Timer | |
 | **pq\_backslash = true\|false** | If set, PQ procs will use backslash delimiters when extending past the end of input buffer with Sn or Rin. Default for Sequoia. | Run Time |  |
 | **pq\_indirection = true\|false** | If set then PQ procs can execute PQN proc commands (Universe). | Run Time |  |
 | **prime\_runtime\_errors = true\|false** | 'ZERO\_USED' , 'DIVIDE\_ZERO' and 'NON\_NUMERIC' errors generate message ids appended with '\_PRIME', eg 'ZERO\_USED\_PRIME' , 'DIVIDE\_ZERO\_PRIME' and 'NON\_NUMERIC\_PRIME' etc.<br /> | Run Time<br /> | <br /> |
@@ -172,7 +172,7 @@ The entries must be expanded explicitly.
 | **quit\_eq\_end = true\|false** | Quit (or Stop) from the debugger has the same effect as End or Abort, meaning any calling proc or paragraph is terminated. | Run Time |  |
 | **read\_reset\_as\_null = true\|false** | For systems which, when a read fails, reset the read variable to a null string. | Run Time |  |
 | **readnext\_dont\_null\_last\_key\_on\_eof = true\|false** | If set, then retain the value of the last key on a READNEXT instead of setting it to NULL when EOF is reached. | Run Time |  |
-| **readv0 = binary\|dcount\|key**<br /> | When a READV (or READVU) is performed and attribute 0 is specified,as in **Example #6**<br />The setting defines what will be returned by the 'variablename' variable as :<br /><ul><li>binary - return &#39;1&#39; if the record exits ( &#39;0&#39; otherwise).</li><li>dcount - return the number of attributes in the record, if the record exists.</li><li>key - return the record key.</li></ul> | Run Time | + |
+| **readv0 = binary\|dcount\|key**<br /> | When a READV (or READVU) is performed and attribute 0 is specified,as in [Example #6](./#Example-#6)<br />The setting defines what will be returned by the 'variablename' variable as :<br /><ul><li>binary - return &#39;1&#39; if the record exits ( &#39;0&#39; otherwise).</li><li>dcount - return the number of attributes in the record, if the record exists.</li><li>key - return the record key.</li></ul> | Run Time | + |
 | **reality\_video = true\|false** | Support the Reality video extensions from @(-128) through @(-191) for video effects such as combinations of reverse, underline, flashing and so on. <br />These can usually be added to all emulations without harmful effects.<br /> | Run Time |  |
 | **reformat\_append = true\|false** | By default the REFORMAT command overwrites existing attributes. With this set, then the REFORMAT command will append a multi-value to existing attributes. | Run Time |  |
 | **report\_bad\_tapeblksz = true\|false** | Attempting to write a 'NULL' tape block or a block which is larger than the attached tape block size will return the appropriate error code in SYSTEM(0).<br />This option is NOT set by default for any emulation.| Run Time |  |
@@ -192,8 +192,8 @@ The entries must be expanded explicitly.
 | **system\_19\_timedate = true\|false** | When set to true, SYSTEM(19) will return a unique 'date + time' stamp, e.g. '1103361234' , instead of login name or JBASICLOGNAME (account name). This is set by default for sequoia emulation. | Run Time | + |
 | **tconv\_no\_replace = true\|false** | By default the T conversion in OCONV will replace system delimiters. This causes that effect not to happen. | Run Time |  |
 | **time\_is\_hours = true\|false** | when set to true, time will be considered in minutes rather than seconds. Thus ICONV(1,"MTS") will return 60 (not 3600). By default this value is set to false in Reality and Sequoia. | Run Time | + |
-| **treat\_with\_as\_and\_with = true\|false** | If set treat jQL WITH &lt;Clause&gt; WITH &lt;Clause&gt; as AND WITH - default is OR WITH.<br />**See Example #7**| Run Time| + |
-| **treat\_with\_as\_or\_with = true\|false** | If set treat jQL WITH &lt;Clause&gt; WITH &lt;Clause&gt; as OR WITH - [ this is the default behaviour]. See **Example #8**| Run Time | + |
+| **treat\_with\_as\_and\_with = true\|false** | If set treat jQL WITH &lt;Clause&gt; WITH &lt;Clause&gt; as AND WITH - default is OR WITH.<br />[See Example #7](./#Example-#7)| Run Time| + |
+| **treat\_with\_as\_or\_with = true\|false** | If set treat jQL WITH &lt;Clause&gt; WITH &lt;Clause&gt; as OR WITH - [ this is the default behaviour]. See [Example #8](./#Example-#8)| Run Time | + |
 | **unnamed\_common = unassigned|null|zero** | Indicates how to set un-named common when first referenced. Same as 'named\_common'. | Run Time |  |
 | **use\_id\_lptr\_reporting = true\|false** | For systems (Prime) that use @ID and @LPTR for default listings. | Run Time |  |
 | **use\_sql\_syntax\_for\_select = true\|false** | Use SQL syntax in SELECT commands. | Run Time |  |
@@ -202,7 +202,9 @@ The entries must be expanded explicitly.
 | **wrap\_r\_just = true\|false** | For systems (Universe and Prime), right justified data will wrap in jQL. | Run Time |  |
 | **writelist\_on\_select\_from\_var = true\|false** | If set then write any select list, generated by basic "SELECT Var" to the default select list. | Run Time |  |
 
-## Example #1 (conv_old_mct = true\|false)
+## Example #1
+
+(conv_old_mct = true\|false)
 
 ```
 string = 'Bas-e'
@@ -211,7 +213,9 @@ OCONV(string, 'MCT')
 
 The resulting string is "BASE"
 
-## Example #2 (no_extra_delimiter = true\|false)
+## Example #2
+
+(no_extra_delimiter = true\|false)
 
 This behaviour is true for all of:
 

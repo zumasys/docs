@@ -7,9 +7,9 @@
 **Internal:** Yes  
 
 
-For Linux/Unix operating systems, the **jEDIdrivers.ini**, **odbc.ini**, and **odbcinst.ini** files all need to be properly configured for correct function of the utility. These files are located in either the **/etc** directory for global settings, **$JBCDATADIR/config**, or in the user's **$HOME** directory. Moreover, since the *ODBC* *jEDI* is comprised of a set of bin (executable) and lib (driver libraries and subroutines) binary-object files, you must ensure the lib directory path is added to your **LD\_LIBRARY\_****PATH**environment variable (before beginning the steps listed below). The full path of the bin directory is located within your **PATH**environment variable, and the full path of the lib directory is located within your **JBCOBJECTLIST**environment variable.
+For Linux/Unix operating systems, the **jEDIdrivers.ini**, **odbc.ini**, and **odbcinst.ini** files all need to be properly configured for correct function of the utility. These files are located in either the **/etc** directory for global settings, **$JBCDATADIR/config**, or in the user's **$HOME** directory. Moreover, since the *ODBC* *jEDI* is comprised of a set of bin (executable) and lib (driver libraries and subroutines) binary-object files, you must ensure the lib directory path is added to your **LD\_LIBRARY\_PATH** environment variable (before beginning the steps listed below). The full path of the bin directory is located within your **PATH** environment variable, and the full path of the lib directory is located within your **JBCOBJECTLIST** environment variable.
 
-For the configuration example below, we will be configuring MySQL and MSSQL *ODBC*drivers by doing the following:
+For the configuration example below, we will be configuring MySQL and MSSQL *ODBC* drivers by doing the following:
 
 1. Navigate to the **/etc** directory (where the **odbc.ini** and **odbcinst.ini** files live)
 
@@ -17,7 +17,7 @@ For the configuration example below, we will be configuring MySQL and MSSQL *ODB
 ~/$ cd /etc
 ```
 
-2.  Open the **odbc.ini** file up for editing
+2. Open the **odbc.ini** file up for editing
 
 ```
 ~/etc$ vi odbc.ini
@@ -62,7 +62,7 @@ Option         = 3
 ~
 ```
 
-6. Update the file parameters to reflect the correct *ODBC* driver parameter values (these will depend on which driver you're setting up). Use the file description in the **odbcinst****.ini** file definition section of the [Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files) document to identify what needs to be changed.
+6. Update the file parameters to reflect the correct *ODBC* driver parameter values (these will depend on which driver you're setting up). Use the file description in the **odbcinst.ini** file definition section of the [Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files) document to identify what needs to be changed.
 
 ```
 #Example driver definition
@@ -102,7 +102,7 @@ UsageCount=1
 ~
 ```
 
-9. Update the file parameters to reflect the correct *ODBC* driver parameter values (these will depend on which driver you're setting up). Use the parameter descriptions in the **jEDIdrivers****.ini** file definition section of the [Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files) document to identify what needs to be changed, and how to correspond the *ODBC*driver parameters to the driver definitions within the **odbc.ini** file.
+9. Update the file parameters to reflect the correct *ODBC* driver parameter values (these will depend on which driver you're setting up). Use the parameter descriptions in the **jEDIdrivers.ini** file definition section of the [Structure of ODBC jEDI Initialization Files](./../structure-of-odbc-jedi-initialization-files) document to identify what needs to be changed, and how to correspond the *ODBC* driver parameters to the driver definitions within the **odbc.ini** file.
 
 ```
 [General]
@@ -130,9 +130,9 @@ passwd = expswrd
 
 10. Optionally create multiple **.jEDIdrivers.ini** files if you wish to have individual settings per user.
 
-### Note
+## Note
 
-On Linux/Unix, the name of the file has a leading period
+>On Linux/UNIX, the name of the file has a leading period
 
 ----------------------------------------------------------------------------------------------------------------------------
 

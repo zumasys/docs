@@ -1,4 +1,4 @@
-# Converting from Unix to Windows
+# Converting from UNIX to Windows
 
 **Created At:** 10/18/2018 3:51:58 PM  
 **Updated At:** 11/26/2019 5:32:46 PM  
@@ -6,10 +6,9 @@
 **Original ID:** 344783  
 **Internal:** Yes  
 
-
 ## Document Scope
 
-Discuss differences from converting from Unix to Windows platforms.
+Discuss differences from converting from UNIX to Windows platforms.
 
 [bd] Someone who knows how to do this should recommend solutions and not just identify issues.
 
@@ -19,9 +18,7 @@ Discuss differences from converting from Unix to Windows platforms.
 
 links to child documents are encouraged to be placed here so we don't' have an extremely long document that will overload the user. The child document must be to the point, and must deal with ideally one topic. ideally the links should be in point form.
 
-
-
-**99% of jBASE remains intact**
+## 99% of jBASE remains intact
 
 [bd] someone should add some prose here to make a developer feel better
 
@@ -36,7 +33,7 @@ rm_jbase_ipc
 encrypt
 ```
 
-There are several jBASE commands (in 'JBCRELEASEDIR\bin') on Windows that don't exist on Linux, but many of them are internal and match Linux functionality. Some commands on Windows that don't exist on Linux, some of which attempt to emulate Unix commands, i.e.
+There are several jBASE commands (in 'JBCRELEASEDIR\bin') on Windows that don't exist on Linux, but many of them are internal and match Linux functionality. Some commands on Windows that don't exist on Linux, some of which attempt to emulate UNIX commands, i.e.
 
 ```
 jdir
@@ -55,19 +52,17 @@ jmv
 lp
 ```
 
-**cron Jobs -&gt; Windows scheduled tasks**
+## cron Jobs -&gt; Windows scheduled tasks
 
 [bd] Someone who knows how to do this should provide some common examples and show an example of how to move a cron job to a Windows task  #CYGWIN
 
 [dk] No we shouldn't. There are **way too many permutations**. If the user is going to be on Windows then they had better get some training on it.
 
-**SSH (not available on Windows)**
+## SSH (not available on Windows versions except Windows 10, Windows Server 2019)
 
-[bd] Someone who know how to do this should describe other ways that a Windows system can created scripted SSH callouts to another system.  #CYGWIN
+[bd] Someone who know how to do this should describe other ways that a Windows system can create scripted SSH callouts to another system.  #CYGWIN
 
-
-
-**Regular expressions - @IM:'k' for jQL statements, escaping something that will cause a problem with windows.**
+## Regular expressions - @IM:'k' for jQL statements, escaping something that will cause a problem with windows
 
 [bd] Someone with experience in this should describe a process they would use to detect these instances within code and further describe the problem and the solution. #CYGWIN
 
@@ -94,27 +89,29 @@ in which case you would need to find all of the EXECUTE statements that use **sh
 
 You should also search for pipe and redirect symbols in any scripts.
 
-**Carriage return line feeds different on Windows (not a major issue )**
+## Carriage return line feeds different on Windows (not a major issue )
 
 [bd] Someone should describe the issue and provide some recommended approaches for programs that read and write external CF/LF delimited files.  There should probably also be some description of functions used to write/read data to O/S files, a brief description of jBASE file handling and IOCTL and best practices and examples for detecting these practices in code.
 
-**Executing OS commands: convert as many as possible to use variables supplied by JBC.h (e.g. CP\_CMD, MV\_CMD). This also includes DIR\_DELIM\_CH ( \ instead of  /) and DIR\_SEP\_CH (; instead of :)**
+## Executing OS commands: convert as many as possible to use variables supplied by JBC.h (e.g. CP\_CMD, MV\_CMD). This also includes DIR\_DELIM\_CH ( \ instead of  /) and DIR\_SEP\_CH ( ; instead of : )
 
 [bd] Should describe approaches for detecting these, for writing wrappers, and how to implement the most common O/S callouts in Windows. #CYGWIN
 
-**Explicit file/directory pathing: directory delimiters (see above: DIR\_DELIM\_CH)**
+## Explicit file/directory pathing: directory delimiters (see above: DIR\_DELIM\_CH)
 
 [bd]] Someone with knowledge of this should provide some examples of coding techniques that are not portable and how your can write code that is multi-platform.  Examples are worth a thousand words.
 
-**Printing (underlying print system, scripts for creating printers, printer drivers possibly written in bash script).**
+## Printing (underlying print system, scripts for creating printers, printer drivers possibly written in bash script).
 
 [bd] Someone should describe common printer script techniques used in Linux and how these could be translated to Windows equivalents.  Examples are worth a thousand words. #CYGWIN
 
-**Bash profiles (convert to remote.cmd) and other utility scripts (possibly install cygwin tools to handle linux commands).**
+## Bash profiles (convert to remote.cmd) and other utility scripts (possibly install cygwin tools to handle Linux commands)
 
 [bd] Someone should describe this issue in more detail which will go into how Linux/UNIX calls initialization scripts and how these techniques are the same and different than Windows.  Examples of how to move a .profile or .bash\_profile into a Windows realm would be helpful to the reader.  i Think later versions of Windows supports BASH.  Also #CYGWIN
 
-**Different jBASE releases are harder to set up on Windows due to the Windows registry.**
+[mjs] Also WSL now.
+
+## Different jBASE releases are harder to set up on Windows due to the Windows registry
 
 [bd] Should create and link an article
 
@@ -145,11 +142,11 @@ You should also search for pipe and redirect symbols in any scripts.
 
 The main problem is that, when you upgrade, the installer will add back registry entries which you will have to remember to remove.
 
-**Creating new users.**
+## Creating new users
 
 [bd] Should explain how this is commonly done on Linux and the equivalent technique on Windows.  One should explain how environment variables are set and how profiles are called in both environments then show an example of how Linux techniques could be migrated to Windows techniques.
 
-**The 'copy' command on Windows conflicts with the 'copy' command in jBASE. There is no 'copy' command on Unix so no conflict.**
+## The 'copy' command on Windows conflicts with the 'copy' command in jBASE. There is no 'copy' command on UNIX so no conflict
 
 [bd] This one is pretty straight forward but should provide a technique for detecting this in code so that the user feels like they have been given some help.
 
@@ -157,8 +154,8 @@ The main problem is that, when you upgrade, the installer will add back registry
 
 [dk] The real issue is if they use **COPY**at a Windows prompt and are expecting it to use the jBASE one. They have to remember to use **JCOPY**instead.
 
-**Windows equivalents of Linux 3rd party software.**
+## Windows equivalents of Linux 3rd party software
 
 [dk] For example, if they are using the Sublime Text editor then they would probably have to re-license this on Windows
 
-
+[mjs] But now there is VS Code!
