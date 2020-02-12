@@ -13,10 +13,9 @@ The installation package is comprised of two components, the **ODBCjEDI-UNIX.jpk
 
 1. Save the installation package's components to a desired location on your file-system
 
-### Note
+## Note
 
-For this example, **jBASE****I****nstall/**will be the location our components are stored after initial download
-
+For this example, **jBASE****I****nstall/** will be the location our components are stored after initial download  
 2. Run the install for the package installer (as root)
 
 ```
@@ -63,8 +62,6 @@ jPKGINSTALLER group           : jbase
 Begin installation? ([Y]es/[N]o) :Y
 ```
 
-
-
 3. Navigate to where your *ODBC* *jEDI*tool-set components are located on your file system. As per step 2, run the install as "root"
 
 ```
@@ -74,7 +71,7 @@ Begin installation? ([Y]es/[N]o) :Y
 ~/jBASEInstall$ jpkginstall ODBCjEDI
 ```
 
-4. If you do not yet have the **config/**or **CSV/** directories created within your $**JBCDATADIR**directory, you will be prompted and asked if you'd like to create them. Enter Yes to have the installer create the directories for you. If you already have these directories set up, the installer will skip to step 5.
+4. If you do not yet have the **config/** or **CSV/** directories created within your $**JBCDATADIR** directory, you will be prompted and asked if you'd like to create them. Enter Yes to have the installer create the directories for you. If you already have these directories set up, the installer will skip to step 5.
 
 ```
 Unpacking...

@@ -32,75 +32,59 @@ Its recommended to create a User Group to apply permissions to the jBASE applica
 
 2. Access Computer Management. This can be found by navigating through Control Panel or the Start Menu. Depending on your version of Windows this may vary and some steps may not apply.
 
-![create-accounts-and-users: blob](./blob.jpg)
-
+![create-accounts-and-users: blob](./blob.jpg)  
 3. From the Control Panel, choose category, then choose either Large Icons or Small Icons.
 
-![create-accounts-and-users: blob](./blob-2.jpg)
-
+![create-accounts-and-users: blob](./blob-2.jpg)  
 4. Choose Administrative Tools.
 
-![create-accounts-and-users: blob](./blob-3.jpg)
-
+![create-accounts-and-users: blob](./blob-3.jpg)  
 5. Choose Computer Management.
 
-![create-accounts-and-users: blob](./blob-4.jpg)
-
-6. Navigate into Local Users and Groups, and into Groups folder.
+![create-accounts-and-users: blob](./blob-4.jpg)  
+6. Navigate into Local Users and Groups, and into Groups folder.  
 7. Right-Click Groups and choose New Group.
 
-![create-accounts-and-users: blob](./blob-5.jpg)
-
+![create-accounts-and-users: blob](./blob-5.jpg)  
 8.  Type a name for the group, for example, jBASE Users.
 
-![create-accounts-and-users: blob](./blob-6.jpg)
-
+![create-accounts-and-users: blob](./blob-6.jpg)  
 9. Click the Add button, and add the JBASEADM user.
 
-![create-accounts-and-users: blob](./blob-7.jpg)
-
-10. Click Ok, and then Close button.
+![create-accounts-and-users: blob](./blob-7.jpg)  
+10. Click Ok, and then Close button.  
 11. Browse to the jBASE install folder, right-click the folder and choose properties.
 
-![create-accounts-and-users: blob](./blob-8.jpg)
-
+![create-accounts-and-users: blob](./blob-8.jpg)  
 12. Choose the Security tab and click Edit.
 
-![create-accounts-and-users: blob](./blob-9.jpg)
-
+![create-accounts-and-users: blob](./blob-9.jpg)  
 13. Click Add.
 
-![create-accounts-and-users: blob](./blob-10.jpg)
-
+![create-accounts-and-users: blob](./blob-10.jpg)  
 14. Type in the group name you created earlier, click OK.
 
-![create-accounts-and-users: blob](./blob-11.jpg)
-
+![create-accounts-and-users: blob](./blob-11.jpg)  
 15. Choose the Modify permission and the Allow checkbox, then click OK.
 
 ![create-accounts-and-users: blob](./blob-12.jpg)
 
-If your environment requires additional security, it is recommended to only allow the jBASE Users group permission to the following subfolders under the jBASE\5.5.0 folder; dev, jbase, data, misc, proc, src, and tmp.
-
-16. Click OK again, then log off Windows.
+If your environment requires additional security, it is recommended to only allow the jBASE Users group permission to the following subfolders under the jBASE\5.5.0 folder; dev, jbase, data, misc, proc, src, and tmp.  
+16. Click OK again, then log off Windows.  
 17. Login as the localmachinename\jbaseadm.
 
-![create-accounts-and-users: blob](./blob-13.jpg)
-
-18. Once logged in to Windows as jbaseadm you can test connecting into jBASE with telnet using AccuTerm or any telnet client.
-19. In this example, we will use the free telnet client called PuTTY.
+![create-accounts-and-users: blob](./blob-13.jpg)  
+18. Once logged in to Windows as jbaseadm you can test connecting into jBASE with telnet using AccuTerm or any telnet client.  
+19. In this example, we will use the free telnet client called PuTTY.  
 20. You may telnet to jBASE from the local computer or from any other computer over a network. From the local computer, open Putty and point it to 127.0.0.1 and choose Telnet, then click Open.
 
-![create-accounts-and-users: blob](./blob-14.jpg)
+![create-accounts-and-users: blob](./blob-14.jpg)  
+21. You should see this screen, enter jbaseadm as the username and press Enter.  
 
-21. You should see this screen, enter jbaseadm as the username and press Enter.
-
-![create-accounts-and-users: blob](./blob-15.jpg)
-
+![create-accounts-and-users: blob](./blob-15.jpg)  
 22. Type the same password you used to login to Windows and press Enter.
 
-![create-accounts-and-users: blob](./blob-16.jpg)
-
+![create-accounts-and-users: blob](./blob-16.jpg)  
 23. Congratulations, you have successfully connected into jBASE as jBASEADM using telnet, and are at the JSHELL prompt.
 
 ![create-accounts-and-users: blob](./blob-17.jpg)
@@ -115,8 +99,7 @@ To create additional accounts, make sure you have completed the steps above to c
 CREATE-ACCOUNT -r e:\jbase\jbaseuser
 ```
 
-![create-accounts-and-users: blob](./blob-18.jpg)
-
+![create-accounts-and-users: blob](./blob-18.jpg)  
 2. Press Enter, then you should see the message, Account ‘jbaseuser’ created.
 
 ![create-accounts-and-users: blob](./blob-19.jpg)
@@ -125,66 +108,52 @@ CREATE-ACCOUNT -r e:\jbase\jbaseuser
 
 1. Open Control Panel.
 
-![create-accounts-and-users: blob](./blob-20.jpg)
-
+![create-accounts-and-users: blob](./blob-20.jpg)  
 2. From the Control Panel, choose category, then choose either Large Icons or Small Icons.
 
-![create-accounts-and-users: blob](./blob-21.jpg)
-
+![create-accounts-and-users: blob](./blob-21.jpg)  
 3. Choose Administrative Tools.
 
-![create-accounts-and-users: blob](./blob-22.jpg)
-
-4. Choose Computer Management.
+![create-accounts-and-users: blob](./blob-22.jpg)  
+4. Choose Computer Management.  
 5. Navigate into Local Users and Groups, and into the Users folder.
 
-![create-accounts-and-users: blob](./blob-23.jpg)
-
+![create-accounts-and-users: blob](./blob-23.jpg)  
 6. To create a new user, right-click on the Users folder, and choose New User.
 
-![create-accounts-and-users: blob](./blob-24.jpg)
-
+![create-accounts-and-users: blob](./blob-24.jpg)  
 7. Fill in the user information and click Create, then click Close.
 
-![create-accounts-and-users: blob](./blob-25.jpg)
-
+![create-accounts-and-users: blob](./blob-25.jpg)  
 8. Right-click on the user you created and choose Properties.
 
-![create-accounts-and-users: blob](./blob-26.jpg)
-
+![create-accounts-and-users: blob](./blob-26.jpg)  
 9. Click Member Of, then click Add.
 
-![create-accounts-and-users: blob](./blob-27.jpg)
-
+![create-accounts-and-users: blob](./blob-27.jpg)  
 10. We will add the new user to the jBASE Users Group we created in the previous section. Click OK.
 
-![create-accounts-and-users: blob](./blob-28.jpg)
-
+![create-accounts-and-users: blob](./blob-28.jpg)  
 11. Click the Profile tab.
 
-![create-accounts-and-users: blob](./blob-29.jpg)
-
-12. Set the local path for the home folder to the jBASE install folder\username, for example ‘E:\jBASE\jbaseuser’.
-    ![create-accounts-and-users: blob](./blob-30.jpg)
+![create-accounts-and-users: blob](./blob-29.jpg)  
+12. Set the local path for the home folder to the jBASE install folder\username, for example ‘E:\jBASE\jbaseuser’.  
+    ![create-accounts-and-users: blob](./blob-30.jpg)  
 13. Click OK.
 
-Remember, now that you have created the jBASE Account and the corresponding Windows User account, you must login to Windows as the user to build the local profile before you can telnet into jBASE as the user.
-
-14. Close the telnet session, then log off Windows.
+Remember, now that you have created the jBASE Account and the corresponding Windows User account, you must login to Windows as the user to build the local profile before you can telnet into jBASE as the user.  
+14. Close the telnet session, then log off Windows.  
 15. Login as the localmachinename\jbaseuser.
 
-![create-accounts-and-users: blob](./blob-31.jpg)
-
-16. Once logged in to Windows, the user profile is built for the jbaseuser account. You may telnet to jBASE from the local computer or from any other computer over a network.
+![create-accounts-and-users: blob](./blob-31.jpg)  
+16. Once logged in to Windows, the user profile is built for the jbaseuser account. You may telnet to jBASE from the local computer or from any other computer over a network.  
 17. From the local computer, open Putty and point it to 127.0.0.1 and choose Telnet, then click Open.
 
-![create-accounts-and-users: blob](./blob-32.jpg)
-
+![create-accounts-and-users: blob](./blob-32.jpg)  
 18. Type the account name jbaseuser and press Enter.
 
-![create-accounts-and-users: blob](./blob-33.jpg)
-
-19. Type the same password you configured for jbaseuser, and press Enter.
+![create-accounts-and-users: blob](./blob-33.jpg)  
+19. Type the same password you configured for jbaseuser, and press Enter.  
 20. Congratulations, you are now logged in to jBASE as the new user account called jbaseuser and at the JSHELL prompt.
 
 ### Realted Topics

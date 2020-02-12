@@ -4,10 +4,9 @@
 **Updated At:** 5/14/2018 3:37:46 PM  
 **Original Doc:** [the-keys-to-record-locking](https://docs.jbase.com/coding-corner/the-keys-to-record-locking)  
 **Original ID:** 316859  
-**Internal:** Yes  
+**Internal:** No  
 
-
-This article is concerned with the three R's of record locking: READU, WRITEU, and RELEASE. While this topic covers*the fundamental rules and misconceptions of record locking,* those of you who are seasoned developers may find some of these ideas sobering, or simply a confirmation that you have been doing it right all along. We will not be covering the various locking considerations using jDP.
+This article is concerned with the three R's of record locking: READU, WRITEU, and RELEASE. While this topic covers *the fundamental rules and misconceptions of record locking.* Those of you who are seasoned developers may find some of these ideas sobering, or simply a confirmation that you have been doing it right all along.
 
 The rules of record locking are:
 
@@ -15,10 +14,9 @@ The rules of record locking are:
 2. All locks must be implicitly or explicitly released.
 3. A record should not be locked for longer than necessary.
 
-
 Let's take these one at a time:
 
-**Rule 1**: Always take a lock on any record you intend to update.
+## Rule 1: Always take a lock on any record you intend to update
 
 It's best to get into this habit from the start. Take the scenario where it is late at night, everyone has gone home and you write a quick program to update some data in the customer file. Since you are the only one there you do not use record locking. Not only is this foolhardy as there may be background processes running but should you attempt to run this program again (since it was a very useful program) at a later date during business hours, the absence of any locking logic allows the program to potentially corrupt the customer file. We will come back to this later when we cover the misconceptions of record locking.
 
@@ -34,7 +32,7 @@ The only other way in which a lock can be taken on a record is via the JED or ED
 
 (Note: The READL and READVL statements can take a 'read only' shared lock but this functionality is only available in jBASE version 3.3.)
 
-**Rule 2**: All locks should be implicitly or explicitly released.
+## Rule 2: All locks should be implicitly or explicitly released
 
 Implicitly released locks are those which are released with the jBC statements WRITE, WRITEV,  MATWRITE or DELETE. In addition, locks are implicitly released when a program terminates with a STOP, ABORT or END statement, the EXIT() function, when the program transfers control with a CHAIN or ENTERstatement, or when the program terminates abnormally (i.e. a non-recoverable runtime error). It is appropriate at this time to mention that the WRITEU,  WRITEVU and MATWRITEU statements allows the lock on a record to be preserved during the write operation.
 
@@ -56,7 +54,7 @@ REPEAT
 
 You will notice that when ID does not exist, the RELEASE statement releases a specific lock. This is an important point. Avoid using the RELEASE statement without arguments. Not only does this release all locks in all files taken by the current program (which may be undesirable due to the fact that one or more locks must remain set), it also releases all execution locks that were set in the current program with the LOCK statement. Plus it imposes additional overhead such that the entire lock table has to be searched for all locks belonging to the current process.
 
-**Rule 3**: A record should not be locked for longer than necessary.
+## Rule 3 : A record should not be locked for longer than necessary
 
 The longest intervals, from the time a record is locked and written, occur most frequently in data entry programs. I am sure you are all familiar with the following scenario: A data entry operator opens a new order which locks a customer record, and then goes to lunch. Training issues aside, the best way to alleviate this situation is to defer locking the customer record until such time as the order is written. This resolves a number of problems. You don't have to be concerned with releasing the customer record should the order be canceled. You have allowed all other processes immediate access to that customer record without further lock conflicts. And you have made it simpler for your successor to maintain your code (after all, the next person to work on the program may be you!). Not to mention the poor data entry operator is saved from an embarrassing encounter. This concept can be extended to updating inventory, daily sales figures, data entry statistics, and so on.
 
@@ -86,13 +84,11 @@ Theoretically you could defer all record locking up to the point when the record
 
 Another area where deferred locking pays dividends is the program's ability to avoid a "deadlock" condition. Deadlocks, otherwise known as a "deadly embrace", occur when process A has a lock on a record which process B needs and, at the same time, process B has a lock on a different record which process A needs. This happens quite infrequently, but when it does, there is nothing to do but kill the two processes. If deferred locking was in place this situation would be nearly impossible to occur since the record is locked and written in the same breath.
 
-
-
 * * *
 
 On to misconceptions (which hopefully by now the answers have been provided).
 
-**Misconception #1:**DELETE, WRITE, WRITEV and MATWRITE automatically take a lock prior to updating the record.
+## Misconception #1: DELETE, WRITE, WRITEV and MATWRITE automatically take a lock prior to updating the record
 
 As we know, the only commands that can take a lock are of the READ variety. Take the following scenario:
 
@@ -116,7 +112,7 @@ END ELSE
 END
 ```
 
-**Misconception #2:**A READ (or MATREAD) will honor a locked record.
+## Misconception #2: A READ (or MATREAD) will honor a locked record
 
 If you are new to jBASE you will probably get bitten by this one once or twice. Take the following scenario:
 
@@ -127,11 +123,11 @@ If you are new to jBASE you will probably get bitten by this one once or twice. 
 
 What happens is, in step 4, all of the updates made in process B are overwritten by the update in process A. The lesson to learn here is that only another READU, READVU or MATREADU will respect a record lock.
 
-**Misconception #3:**WRITEU, WRITEVU and MATWRITEU will take a lock prior to updating the record.
+## Misconception #3: WRITEU, WRITEVU and MATWRITEU will take a lock prior to updating the record
 
 This is akin to the first misconception to which we already know the answer.
 
-**Misconception #4:**READU (READVU, MATREADU) does not take a lock if the record does not exist.
+## Misconception #4: READU (READVU, MATREADU) does not take a lock if the record does not exist
 
 This supports an old saying I like to remind myself from time to time: "Logic is the art of going wrong with confidence." - Joseph Wood Krutch. Just remember, if you perform a READU type statement, the record is locked regardless of its existence. And this makes sense since there will be times when you wish to reserve a particular record ID while the record is being constructed.
 
@@ -147,7 +143,7 @@ END ELSE
 END
 ```
 
-**Misconception #5:** Locks can be taken on directory type files.
+## Misconception #5: Locks can be taken on directory type files
 
 Simply put, you cannot take a lock on a directory file. One of the advantages of jDLS is that you can take locks on directory files, although these are only advisory and only work within jBASE ('vi Item1' does not respect a lock taken by 'jed Item1').
 
@@ -155,9 +151,9 @@ The reason that a normal lock is not taken on a directory is that when you read 
 
 The 'directory' jEDI was really intended to be used for simple data interchange between jBASE and non-jBASE applications; if you want locks to be respected within your application you will have to use hashed files.
 
-**Misconception #6:** All locks are port-based.
+## Misconception #6: All locks are port-based
 
-This one will, at times, snag even the most experienced programmer. The simple fact is locks on jBASE are process-based, not port-based (however, on Unix systems, this can be overridden by starting jDLS with the -P option. This is a significant difference between jBASE and many (if not all) other multivalue implementations.
+This one will, at times, snag even the most experienced programmer. The simple fact is locks on jBASE are process-based, not port-based (however, on UNIX systems, this can be overridden by starting jDLS with the -P option. This is a significant difference between jBASE and many (if not all) other multivalue implementations.
 
 If you examine this a bit closer, you will see that the concept of a 'port' has significantly changed. On legacy systems, the USER/PORT combination was the governing entity for the entire logged on session. Now, a port is a 'loose' concept, it doesn't physically exist. Since jBASE is closer to the operating system and the operating system is process based, it makes more sense to manage locks by process.
 
@@ -170,6 +166,9 @@ PROGRAM "LOCK1"
 OPEN "CUSTOMER" TO CUSTOMER.FILE ELSE STOP
 READU REC FROM CUSTOMER.FILE, "NonExistingRecord" ELSE REC = ""
 PERFORM "LOCK2"
+```
+
+```
 PROGRAM "LOCK2'
 OPEN "CUSTOMER" TO CUSTOMER.FILE ELSE STOP
 READU REC FROM CUSTOMER.FILE, "NonExistingRecord" LOCKED
@@ -180,12 +179,8 @@ END ELSE
 END
 ```
 
-
-
 On legacy (port-based) systems, the LOCK2 program will take the ELSE clause, in other words, since the LOCK2 process was executed on the same port, LOCK2 retains the lock taken by the LOCK1 program. On jBASE (process-based), LOCK2 will take the LOCKED clause because the PERFORM "LOCK2" statement in effect starts another process.
 
 If you intend to convert over to jBASE, this may cause you to rework some of your application, but at the end of the day, the application cooperating with the operating system will create a much more solid and portable product.
 
 In conclusion, you can see that there is nothing here that is mysterious or difficult. If you follow these few simple rules and concepts you can master the keys to record locking.
-
-
