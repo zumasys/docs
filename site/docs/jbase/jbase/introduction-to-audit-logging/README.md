@@ -4,10 +4,7 @@
 **Updated At:** 12/21/2018 10:57:00 PM  
 **Original Doc:** [introduction-to-audit-logging](https://docs.jbase.com/30301-jbase/introduction-to-audit-logging)  
 **Original ID:** 229894  
-**Internal:** No  
-
-
-
+**Internal:** No
 
 ## DOCUMENT SCOPE
 
@@ -33,7 +30,6 @@ Audit logging is easily configured on jBASE, although some of the more complex o
 - Marking a file for auditing. By default, files are not audited. You now have to execute the jchmod command against each data file that you wish to be audited.
 - Configuring the @AUDIT file. The first step creates a default set of action. You can now amend the configuration to support many different options available with audit logging.
 
-
 These steps are now described in more details.
 
 ### CREATE AN @AUDIT FILE
@@ -46,15 +42,11 @@ While the @AUDIT file can be any supported jBASE file type, the new file type of
 CREATE-FILE filename TYPE=AUDIT OUTPUT=directory_name OPTIONS=optionstring
 ```
 
-
-
 **SYNTAX ELEMENTS:**
 
-**OUTPUT**= directory\_name shows where we place the output log files. It can also define a named pipe (see PIPING OUTPUT DIRECTORY). The default is $JBCGLOBALDIR/audit
+**OUTPUT**= directory_name shows where we place the output log files. It can also define a named pipe (see PIPING OUTPUT DIRECTORY). The default is \$JBCGLOBALDIR/audit
 
 **OPTIONS**= optionstring shows any additional options (see OUTPUT SPECIFICATIONS OPTIONS).
-
-
 
 Create an @AUDIT file
 
@@ -81,8 +73,6 @@ COUNT DICT @AUDIT
 JCHMOD +M|-M filename
 ```
 
-
-
 **SYNTAX ELEMENTS:**
 
 +M = Enable audit logging on specified file.
@@ -93,17 +83,14 @@ JCHMOD +M|-M filename
 
 Following the first 2 steps to enable audit logging (create @AUDIT file and marking your data files for auditing), this will provide basic audit logging. Each event that is logged results in a new line being added to the output file.
 
-You can now configure audit logging by editing the item @AUDIT\_CONFIG which is in the file DICT @AUDIT. Note that any changes you made will not be reflected in a running application, you will need to stop and re-start any running applications that you wish to be affected.
-
-
+You can now configure audit logging by editing the item @AUDIT_CONFIG which is in the file DICT @AUDIT. Note that any changes you made will not be reflected in a running application, you will need to stop and re-start any running applications that you wish to be affected.
 
 The format of the definition record is as follows.
 
 - **Attribute 1 &lt;0001&gt;**is the output directory
 - **Attribute 2 &lt;0002&gt;** are the output options as shown in the table below. Each option is delimited by a comma.
 
-
-This example below shows us creating the @AUDIT file with the +TJSON option, then editing the item @AUDIT\_CONFIG in file DICT @AUDIT immediately after the @AUDIT file is created, with the default options.
+This example below shows us creating the @AUDIT file with the +TJSON option, then editing the item @AUDIT_CONFIG in file DICT @AUDIT immediately after the @AUDIT file is created, with the default options.
 
 ```
 CREATEFILE @AUDIT TYPE=AUDIT OUTPUT=`pwd`/audit OPTIONS=+TJSON
@@ -118,35 +105,33 @@ Command->
 0002 +TJSON
 ```
 
-Attribute 2 of the item @AUDIT\_CONFIG in file @AUDIT contains the options. Each option is delimited by a comma. The full list of options are given in the table below.
+Attribute 2 of the item @AUDIT_CONFIG in file @AUDIT contains the options. Each option is delimited by a comma. The full list of options are given in the table below.
 
-
-| OPTION<br> | DESCRIPTION<br> |
-| --- | --- |
-| +V<br> | Verbose mode for jQL statements. With this option, a JQL Statement such as "SELECTFILENAME" will cause each item read during the select to be logged. The default action is to simply log the jQL statement but not each individual record.<br> |
-| -V<br> | Turn off Verbose mode.<br> |
-| +G<br> | Copy the Global audit logging definition from @AUDIT\_CONFIG in DICT @AUDIT. Basically then the definition for this file is reset to the default.<br> |
-| +Ttype<br> | Change the format of the output to 'type' where 'type' can be JSON, MV, CSV or TAB.<br> |
-| +N<br> | New definition -- this clears all existing definitions.<br> |
-| +M<br> | Turn on audit logging, equivalent to -R,-D,-W.<br> |
-| -M<br> | Turn off audit logging, equivalent to +R,+D.+W.<br> |
-| +EEnvName<br> | Add the environment variable EnvName to the audit log record, e.g. +EPATH.<br> |
-| -EEnvName<br> | Remove the logging of the environment variable EnvName.<br> |
-| -E\*<br> | Remove the logging of all environment variables.<br> |
-| +R<br> | A database READ will be logged to the output log.<br> |
-| -R<br> | A database READ will NOT be logged to the output log.<br> |
-| +R\*<br> | Add-on data: Log all attributes of an item during a READ in addition to the default base information.<br> |
-| -R\*<br> | Remove all add-on data for a READ (but still log base information).<br> |
-| Rn<br> | During a READ operation, attribute n will be dumped to the audit log.<br> |
-| +Rn<br> | Add-on data: Log attributes 'n' to 'm' inclusive during a READ.<br> |
-| +Rn-m<br> | Add on data: Log attributes 'n' to 'm' inclusive during a READ.<br> |
-| Rn-m<br> | During a READ operation, attributes n-m will be dumped to the audit log.<br> |
-| R\*<br> | During a READ operation, all attributes will be dumped to the audit log.<br> |
-| <br><br>The above instructions are all for a READ statement. The same syntax is also available for:<ul><li>+W, -W , +W* and so on for WRITE statements .</li><li>+D, -D , +D* and so on for DELETE statements.</li><li>+C, -C , +C* and so on for CHANGES (aka &#39;diff&#39;) in attributes during a WRITE.</li></ul> |
-| +X<br>-X<br> | During the READ statement, translate tabs and commas to attribute marks. This means that configurations where the output format is tabs (+TTAB) or comma separated values (+TCSV) can still be processed by jQL with LIST or SELECT etc.<br> |
-| +Inn<br> | Set the log file interval to nnn minutes. By default, the output directory has one file created per day. You can change the frequency of this file switch using +Innn. For example, to get a new audit log file every hour you would specify +I60.<br> |
-| +K<br>-K<br> | Save the audit log key in the extended information.<br> |
-
+| OPTION<br>                                                                                                                                                                                                                                                                                                              | DESCRIPTION<br>                                                                                                                                                                                                                                        |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| +V<br>                                                                                                                                                                                                                                                                                                                  | Verbose mode for jQL statements. With this option, a JQL Statement such as "SELECTFILENAME" will cause each item read during the select to be logged. The default action is to simply log the jQL statement but not each individual record.<br>        |
+| -V<br>                                                                                                                                                                                                                                                                                                                  | Turn off Verbose mode.<br>                                                                                                                                                                                                                             |
+| +G<br>                                                                                                                                                                                                                                                                                                                  | Copy the Global audit logging definition from @AUDIT_CONFIG in DICT @AUDIT. Basically then the definition for this file is reset to the default.<br>                                                                                                   |
+| +Ttype<br>                                                                                                                                                                                                                                                                                                              | Change the format of the output to 'type' where 'type' can be JSON, MV, CSV or TAB.<br>                                                                                                                                                                |
+| +N<br>                                                                                                                                                                                                                                                                                                                  | New definition -- this clears all existing definitions.<br>                                                                                                                                                                                            |
+| +M<br>                                                                                                                                                                                                                                                                                                                  | Turn on audit logging, equivalent to -R,-D,-W.<br>                                                                                                                                                                                                     |
+| -M<br>                                                                                                                                                                                                                                                                                                                  | Turn off audit logging, equivalent to +R,+D.+W.<br>                                                                                                                                                                                                    |
+| +EEnvName<br>                                                                                                                                                                                                                                                                                                           | Add the environment variable EnvName to the audit log record, e.g. +EPATH.<br>                                                                                                                                                                         |
+| -EEnvName<br>                                                                                                                                                                                                                                                                                                           | Remove the logging of the environment variable EnvName.<br>                                                                                                                                                                                            |
+| -E\*<br>                                                                                                                                                                                                                                                                                                                | Remove the logging of all environment variables.<br>                                                                                                                                                                                                   |
+| +R<br>                                                                                                                                                                                                                                                                                                                  | A database READ will be logged to the output log.<br>                                                                                                                                                                                                  |
+| -R<br>                                                                                                                                                                                                                                                                                                                  | A database READ will NOT be logged to the output log.<br>                                                                                                                                                                                              |
+| +R\*<br>                                                                                                                                                                                                                                                                                                                | Add-on data: Log all attributes of an item during a READ in addition to the default base information.<br>                                                                                                                                              |
+| -R\*<br>                                                                                                                                                                                                                                                                                                                | Remove all add-on data for a READ (but still log base information).<br>                                                                                                                                                                                |
+| Rn<br>                                                                                                                                                                                                                                                                                                                  | During a READ operation, attribute n will be dumped to the audit log.<br>                                                                                                                                                                              |
+| +Rn<br>                                                                                                                                                                                                                                                                                                                 | Add-on data: Log attributes 'n' to 'm' inclusive during a READ.<br>                                                                                                                                                                                    |
+| +Rn-m<br>                                                                                                                                                                                                                                                                                                               | Add on data: Log attributes 'n' to 'm' inclusive during a READ.<br>                                                                                                                                                                                    |
+| Rn-m<br>                                                                                                                                                                                                                                                                                                                | During a READ operation, attributes n-m will be dumped to the audit log.<br>                                                                                                                                                                           |
+| R\*<br>                                                                                                                                                                                                                                                                                                                 | During a READ operation, all attributes will be dumped to the audit log.<br>                                                                                                                                                                           |
+| <br><br>The above instructions are all for a READ statement. The same syntax is also available for:<ul><li>+W, -W , +W* and so on for WRITE statements .</li><li>+D, -D , +D* and so on for DELETE statements.</li><li>+C, -C , +C\* and so on for CHANGES (aka &#39;diff&#39;) in attributes during a WRITE.</li></ul> |
+| +X<br>-X<br>                                                                                                                                                                                                                                                                                                            | During the READ statement, translate tabs and commas to attribute marks. This means that configurations where the output format is tabs (+TTAB) or comma separated values (+TCSV) can still be processed by jQL with LIST or SELECT etc.<br>           |
+| +Inn<br>                                                                                                                                                                                                                                                                                                                | Set the log file interval to nnn minutes. By default, the output directory has one file created per day. You can change the frequency of this file switch using +Innn. For example, to get a new audit log file every hour you would specify +I60.<br> |
+| +K<br>-K<br>                                                                                                                                                                                                                                                                                                            | Save the audit log key in the extended information.<br>                                                                                                                                                                                                |
 
 Enabling audit logging on a file
 
@@ -154,7 +139,7 @@ Enabling audit logging on a file
 
 ```
 CREATE-FILE AUDITTEST 10 101
-[ 417 ] File AUDITTEST]D created , type = J4 
+[ 417 ] File AUDITTEST]D created , type = J4
 [ 417 ] File AUDITTEST created , type = J4
 ```
 
@@ -190,7 +175,7 @@ Record 'TEST' exited from file 'AUDITTEST'
 
 ```
 LIST @AUDIT
-PAGE 1                                 17:08:45 10 JAN 2017 
+PAGE 1                                 17:08:45 10 JAN 2017
 Event..... File...... Date....... Time.... Port... jBASE.....
            Name                            Number  login
 READ      AUDITTEST   10 JAN 2017  13:15:54  2    JBASEADM
@@ -235,23 +220,21 @@ The output format for +TJSON, where each event has one line of JSON, is shown la
 
 Note: There are entries for each value in the DICT section of @AUDIT. The dictionary name is shown in the second column in the table below. Use 'LIST @AUDIT ALL' to see all the values of events in the @AUDIT file.
 
-
-| ATTR #<br> | DICT NAME<br> | DESCRIPTION<br> |
-| --- | --- | --- |
-| 2<br> | EVENT<br> | The event command as follows<br>1 = A record was READ from the file<br>2 = A record was WRITTEN to a file<br>3 = A record was DELETED from a file<br>4 = The file was CLEAR-FILE'd<br>5 = The file was DELETE-FILE'd<br>6 = A jQL or jSQL query was made on the file<br> |
-| 3<br> | UNIQUE<br> | A string that uniquely identifies the process. This allows you to separate updates from other processes that might share the same process ID or Port Number.<br> |
-| 4<br> | UTC<br> | The time of the operation in UTC (Universal Co-ordinated Time) format. You can convert this to a local TIME using OCONV(UTC,"U0FF0") and to a local DATE using OCONV(UTC,"U0FF1"). There are also DICT entries for TIME and DATE that do this.<br> |
-| 5<br> | SEQID<br> | An integer that is an incrementing value which defines the relative audit log update for that process.<br> |
-| 6<br> | PORT<br> | The jBASE port number.<br> |
-| 7<br> | PID<br> | The operating system process ID.<br> |
-| 8<br> | OSNAME<br> | The account name that the process is logged on to as supplied by the operating system.<br> |
-| 9<br> | JBNAME<br> | The jBASE account name.<br> |
-| 10<br> | IP<br> | The internet address or host name from where the user has connected.<br> |
-| 11<br> | EVENTOP<br> | The operand to the event. This can be.. (a) The item-id of the update in the file that caused the audit log record. (b) The jQL or jSQL query made against the file.<br> |
-| 12<br> | FILEPATH<br> | The full file path of the file where the update occurred. This can be split into its component parts of DIRECTORY using OCONV(FILEPATH,â€U0FF2â€) and FILE using OCONV(FILEPATH,â€U0FF3â€). There are DICT entries for DIRECTORY and FILE that do this.<br> |
-| 13<br> | SOURCE<br> | The name of the jBC source where the update occurred.<br> |
-| 14<br> | LINENO<br> | The line number within the jBC source where the update occurred.<br> |
-
+| ATTR #<br> | DICT NAME<br> | DESCRIPTION<br>                                                                                                                                                                                                                                                          |
+| ---------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 2<br>      | EVENT<br>     | The event command as follows<br>1 = A record was READ from the file<br>2 = A record was WRITTEN to a file<br>3 = A record was DELETED from a file<br>4 = The file was CLEAR-FILE'd<br>5 = The file was DELETE-FILE'd<br>6 = A jQL or jSQL query was made on the file<br> |
+| 3<br>      | UNIQUE<br>    | A string that uniquely identifies the process. This allows you to separate updates from other processes that might share the same process ID or Port Number.<br>                                                                                                         |
+| 4<br>      | UTC<br>       | The time of the operation in UTC (Universal Co-ordinated Time) format. You can convert this to a local TIME using OCONV(UTC,"U0FF0") and to a local DATE using OCONV(UTC,"U0FF1"). There are also DICT entries for TIME and DATE that do this.<br>                       |
+| 5<br>      | SEQID<br>     | An integer that is an incrementing value which defines the relative audit log update for that process.<br>                                                                                                                                                               |
+| 6<br>      | PORT<br>      | The jBASE port number.<br>                                                                                                                                                                                                                                               |
+| 7<br>      | PID<br>       | The operating system process ID.<br>                                                                                                                                                                                                                                     |
+| 8<br>      | OSNAME<br>    | The account name that the process is logged on to as supplied by the operating system.<br>                                                                                                                                                                               |
+| 9<br>      | JBNAME<br>    | The jBASE account name.<br>                                                                                                                                                                                                                                              |
+| 10<br>     | IP<br>        | The internet address or host name from where the user has connected.<br>                                                                                                                                                                                                 |
+| 11<br>     | EVENTOP<br>   | The operand to the event. This can be.. (a) The item-id of the update in the file that caused the audit log record. (b) The jQL or jSQL query made against the file.<br>                                                                                                 |
+| 12<br>     | FILEPATH<br>  | The full file path of the file where the update occurred. This can be split into its component parts of DIRECTORY using OCONV(FILEPATH,â€U0FF2â€) and FILE using OCONV(FILEPATH,â€U0FF3â€). There are DICT entries for DIRECTORY and FILE that do this.<br>              |
+| 13<br>     | SOURCE<br>    | The name of the jBC source where the update occurred.<br>                                                                                                                                                                                                                |
+| 14<br>     | LINENO<br>    | The line number within the jBC source where the update occurred.<br>                                                                                                                                                                                                     |
 
 ### OUTPUT DIRECTORY
 
@@ -259,7 +242,7 @@ Note: There are entries for each value in the DICT section of @AUDIT. The dictio
 
 Changing the output directory
 
-1. Open JED and edit the @AUDIT file @AUDIT\_CONFIG record
+1. Open JED and edit the @AUDIT file @AUDIT_CONFIG record
 
 ```
 JED DICT @AUDIT @AUDIT_CONFIG
@@ -273,12 +256,12 @@ JED DICT @AUDIT @AUDIT_CONFIG
 File DICT @AUDIT , Record '@AUDIT_CONFIG'    Insert 14:30:29
 Command->
 0001 C:\jBASE\JBASEADM
-0002 
+0002
 
 
 Command->
 0001 C:\jBASE\JBASEADM\AUDIT
-0002 
+0002
 ---------------------- End Of Record--------------------------
 ```
 
@@ -291,7 +274,6 @@ Record '@AUDIT_CONFIG' written to file 'DICT @AUDIT'
 
 - Changes to the @AUDIT file will not take effect for the running processes. To incorporate the changes, a process needs to exit and re-start.
 - The  new Output Directory needs to be previously created in order to successfully adjust.
-
 
 ### SENDING AUDIT LOGS TO A NAMED PIPE (UNIX)
 
@@ -315,7 +297,7 @@ ls -l
 total 0 prw-rw-r-- 1 fb fb 0 Mar 4 15:04 mypipe
 ```
 
-2. Create the @AUDIT file to reference this pipe. (Alternatively you could edit the DICT @AUDIT @AUDIT\_CONFIG attribute 1 to point to the pipe).
+2. Create the @AUDIT file to reference this pipe. (Alternatively you could edit the DICT @AUDIT @AUDIT_CONFIG attribute 1 to point to the pipe).
 
 ```
 CREATE-FILE @AUDIT TYPE=AUDIT OUTPUT=`pwd`/mypipe FORMAT=JSON
@@ -390,11 +372,11 @@ For Example:
 
 ### CHANGING OUTPUT FORMATS
 
-You can change the auditing options by editing the item @AUDIT\_CONFIG in the DICT @AUDIT file.
+You can change the auditing options by editing the item @AUDIT_CONFIG in the DICT @AUDIT file.
 
 Change the output type from MV to CSV
 
-1. Open JED and edit the @AUDIT file @AUDIT\_CONFIG record
+1. Open JED and edit the @AUDIT file @AUDIT_CONFIG record
 
 ```
 JED DICT @AUDIT @AUDIT_CONFIG
@@ -430,18 +412,15 @@ Note:
 
 - Changes to the @AUDIT file will not take effect for the running processes. To incorporate the changes, a process needs to exit and re-start.
 
-
 ### MULTIPLE AUDIT LOGGING CONFIGURATIONS
 
-The default global audit log definition remains item id @AUDIT\_CONFIG in file DICT @AUDIT, as shown in previous examples.  Not every data file wants to follow the audit logging options that are the default. With jBASE audit logging, you can customize each data file individually to provide audit logging options unique to that file.
+The default global audit log definition remains item id @AUDIT_CONFIG in file DICT @AUDIT, as shown in previous examples.  Not every data file wants to follow the audit logging options that are the default. With jBASE audit logging, you can customize each data file individually to provide audit logging options unique to that file.
 
-The ability to define audit logging on a per-file basis is achieved through editing an item called @AUDIT\_CONFIG in the DICT of the file you want to modify the behavior of.
-
-
+The ability to define audit logging on a per-file basis is achieved through editing an item called @AUDIT_CONFIG in the DICT of the file you want to modify the behavior of.
 
 Configuring different audit logging options for separate files
 
-1. Open JED and review the @AUDIT file @AUDIT\_CONFIG record
+1. Open JED and review the @AUDIT file @AUDIT_CONFIG record
 
 ```
 JED DICT @AUDIT @AUDIT_CONFIG
@@ -450,50 +429,49 @@ Command->
 0002 +TCSV
 ```
 
-2. Open JED to edit the dictionary file for the file that you wish to configure differently from the default audit logging configuration.
+2.  Open JED to edit the dictionary file for the file that you wish to configure differently from the default audit logging configuration.
 
-3.  Add @AUDIT\_CONFIG record to file.
+3.  Add @AUDIT_CONFIG record to file.
 
 ```
 JED DICT ACCOUNTS @AUDIT_CONFIG
 ```
 
-4.   If attributes are left blank, the default audit logging configuration will be applied to file.  Whichever attribute is altered, will alter the audit logging configuration for the specified file being edited.  The example below alters the specified file's output format.
+4.  If attributes are left blank, the default audit logging configuration will be applied to file.  Whichever attribute is altered, will alter the audit logging configuration for the specified file being edited.  The example below alters the specified file's output format.
 
 ```
 Command->
 0001
-0002 +TJSON,+D* 
+0002 +TJSON,+D*
 Record '@AUDIT_CONFIG' written to file 'DICT ACCOUNTS'
 ```
 
 - Changes to the @AUDIT file will not take effect for the running processes. To incorporate the changes, a process needs to exit and re-start.
 
+The mechanism works as though attribute &lt;2&gt; of @AUDIT_CONFIG in this individual file is appended to attribute &lt;2&gt; of @AUDIT_CONFIG in @AUDIT and then parsed as a single definition. As the options allow for clearing the options, and adding and taking away options, you have considerable flexibility.
 
-The mechanism works as though attribute &lt;2&gt; of @AUDIT\_CONFIG in this individual file is appended to attribute &lt;2&gt; of @AUDIT\_CONFIG in @AUDIT and then parsed as a single definition. As the options allow for clearing the options, and adding and taking away options, you have considerable flexibility.
+For example, if attribute &lt;2&gt; in the @AUDIT_CONFIG for the individual file is set to:
 
-For example, if attribute &lt;2&gt; in the @AUDIT\_CONFIG for the individual file is set to:
-
-+N,+D\*,+EPGP\_TTY
++N,+D\*,+EPGP_TTY
 
 This means:
 
 +N   Forget about anything defined so far -- start with a blank canvas, so anything in the default definition is forgotten about
 
-+D\* Output the diff of all attributes during a WRITE
++D\* Output the diff of all attributes during a DELETE
 
-+EPGP\_TTY Output the value of the environment variable PGP\_TTY
++EPGP_TTY Output the value of the environment variable PGP_TTY
 
 ### PROGRAMMATICALLY QUERY AND SET AUDIT LOGGING OPTIONS
 
 Although the @AUDIT file is a special file in that the output is one "record" to a single line in an OS flat file, you can still read it using normal jBASE mechanisms. We've already seen that you can do a LIST on @AUDIT, here is a programmatic way of accessing the data
 
 ```
-OPEN "@AUDIT" TO FILEVAR ELSE STOP 201,"@AUDIT" 
-SELECT FILEVAR 
-LOOP WHILE READNEXT key DO 
-READ record FROM FILEVAR,key ELSE DEBUG 
-PRINT "Update type ":record<2>:" at ":OCON (record<4>,"U0FF0":@VM:"MTS") 
+OPEN "@AUDIT" TO FILEVAR ELSE STOP 201,"@AUDIT"
+SELECT FILEVAR
+LOOP WHILE READNEXT key DO
+READ record FROM FILEVAR,key ELSE DEBUG
+PRINT "Update type ":record<2>:" at ":OCON (record<4>,"U0FF0":@VM:"MTS")
 REPEAT
 ```
 
@@ -518,13 +496,13 @@ IF IOCTL(FILEVAR, JBC_COMMMAND_AUDIT_SET , "-M") THEN NULL
 
 ### EXTENDED INFORMATION IN THE AUDIT LOG RECORD
 
-We have already seen the format of an entry in the audit log for a single event -- usually a attribute delimited record with 14 attributes. This is the default output. However, using some of the options in attribute 2 of the @AUDIT\_CONFIG record mean this record gets extended.
+We have already seen the format of an entry in the audit log for a single event -- usually a attribute delimited record with 14 attributes. This is the default output. However, using some of the options in attribute 2 of the @AUDIT_CONFIG record mean this record gets extended.
 
 This sections details the attributes that extended onto the default record with each option.
 
 Attribute 1 of the log record is changed from being a blank to being the attribute number where these extensions start. At the time of writing, we always start adding at attribute 15, and attribute 1 is set to 15 -- please don't hard-code 15 into your application, as jBASE might extend the default values in the future. Use attribute 1 to determine where to start looking for the extended information.
 
-As an example, given the following definition in @AUDIT\_CONFIG
+As an example, given the following definition in @AUDIT_CONFIG
 
 ```
 File DICT @AUDIT , Record '@AUDIT_CONFIG'        Insert 17:47:36
@@ -538,8 +516,7 @@ This definition is telling us
 - +C1    Log any changes to attribute 1 during a WRITE operation
 - +W1   Log attribute 1 for each WRITE operation
 - +R1   Log attribute 1 for each READ operation
-- +EGPG\_TTY   Log the environment variable GPG\_TTY for each operation.
-
+- +EGPG_TTY   Log the environment variable GPG_TTY for each operation.
 
 We will now edit a record in AUDITTEST, changing attribute 1 from "Hello" to "World".
 
@@ -586,9 +563,8 @@ In this record which is the READ that ED performed to initially read the item, t
 - 0002 **1 -**This shows the operation was a READ
 - 0015 **R1 -**The first extended attribute and shows we are defining attribute 1 for a READ
 - 0016 **Hello -**This is the data that goes with the previous declaration, in other words, that attribute 1 during the READ had the value Hello
-- 0017 **EGPG\_TTY -**This is the second extended attribute and shows we are defining the value of the environment variable GPG\_TTY
+- 0017 **EGPG_TTY -**This is the second extended attribute and shows we are defining the value of the environment variable GPG_TTY
 - 0018 **/dev/pts/8** - This is the data that goes with the previous declaration, in other words, that the environment variable contained the data /dev/pts/8
-
 
 The next record is the WRITE that ED performed after we had edited attribute 1 from Hello to World and issued a FI command.
 
@@ -623,13 +599,12 @@ The next record is the WRITE that ED performed after we had edited attribute 1 f
 - 0017 **C1 -**This extended attribute shows we are going to declare the CHANGE between attribute values for attribute 1.
 - 0018 **Hello -**This is the data associated with the previous declaration, and is the BEFORE image of attribute 1.
 - 0019 **World -**This is the data associated with the previous declaration, and is the AFTER image of attribute .
-- 0020 **EGPG\_TTY -**This is the second extended attribute and shows we are defining the value of the environment variable GPG\_TTY.
+- 0020 **EGPG_TTY -**This is the second extended attribute and shows we are defining the value of the environment variable GPG_TTY.
 - 0021 **/dev/pts/8** - This is the data that goes with the previous declaration, in other words, that the environment variable contained the data /dev/pts/8
-
 
 ### EXTENDED INFORMATION WITH JSON OUTPUT
 
-In the previous example, the output format was multivalue. As an example, if we wanted to do the same thing but with JSON output, then our definition in @AUDIT\_CONFIG would simply have the instruction +TJSON added like this
+In the previous example, the output format was multivalue. As an example, if we wanted to do the same thing but with JSON output, then our definition in @AUDIT_CONFIG would simply have the instruction +TJSON added like this
 
 ```
 File DICT @AUDIT , Record '@AUDIT_CONFIG'       Insert 17:47:36
@@ -641,32 +616,32 @@ Command->
 The second audit log entry shown above would look like this in JSON (note that the actual output is all on a single line -- we have formatted it here to make it readable).
 
 ```
-{ 
-"RECDATA": 15, 
-"EVENT": 2, 
-"UNIQUEID": "86738_0990105E5", 
-"UTC": 1484330703.080870, 
-"SEQID": 2, 
-"PORT": 44, 
-"PID": 86738, 
-"OSNAME": "gregc", 
-"JBNAME": "gregc", 
-"IP": "", 
-"EVENTOP": "TEST1", 
-"FILEPATH": "\/home\/gregc\/tmp4\/AUDITTEST", 
-"SOURCE": "edit.b", 
-"LINENO": 239, 
-"WRITEVALUES": [{ 
-"ATTR": 1, 
-"VALUE": "World" 
-}], 
-"DIFFVALUES": [{ 
-"ATTR": 1, 
-"BEFORE": "Hello", 
-"AFTER": "World" 
-}], 
-"ENV": [{ 
-"GPG_TTY": "\/dev\/pts\/8" 
+{
+"RECDATA": 15,
+"EVENT": 2,
+"UNIQUEID": "86738_0990105E5",
+"UTC": 1484330703.080870,
+"SEQID": 2,
+"PORT": 44,
+"PID": 86738,
+"OSNAME": "gregc",
+"JBNAME": "gregc",
+"IP": "",
+"EVENTOP": "TEST1",
+"FILEPATH": "\/home\/gregc\/tmp4\/AUDITTEST",
+"SOURCE": "edit.b",
+"LINENO": 239,
+"WRITEVALUES": [{
+"ATTR": 1,
+"VALUE": "World"
+}],
+"DIFFVALUES": [{
+"ATTR": 1,
+"BEFORE": "Hello",
+"AFTER": "World"
+}],
+"ENV": [{
+"GPG_TTY": "\/dev\/pts\/8"
 }]
 }
 ```

@@ -29,74 +29,67 @@ The jLOGDUP program will process transaction logs and replicate those transactio
 
 
 
-
-**INPUT-** This is an optional keyword to specify data section creation only. Leave this keyword out to create both dictionary and data file.
-
-
-
-**OUTPUT** - This is the name to be used for the created file. The name can include absolute or relative path information.
+**INPUT** - This keyword is used to specify the input parameters for the transaction replication process. Parameters that follow this keyword comprise the "input specification". The end of the input parameters is signaled by the OUTPUT keyword, or the end of the command line.
 
 
 
+**OUTPUT** - This keyword is used to specify the output parameters for the transaction replication process. Parameters that follow this keyword comprise the "output specification". The end of the output parameters is signaled by the INPUT keyword, or the end of the command line.
 
-| Parameter<br> | Description <br> |
+Both INPUT and OUTPUT specifications are required, as the jlogdup command "reads" transactions according to the input specification and "writes" transactions according to the output specification.
+
+The following table describes each of the parameters used for input and output specifications. The Type column specifies if the parameter may be used for input (I), output (O), log set (L), database (D), serial device (S) or terminal (T).
+
+| Parameter | Type | Description
+| --- | --- | --- |
+| blockmax=nnn | S | the maximum size, in blocks, of a serial device. |
+| blocksize=nnn | S | the block size to read/write to TTY/SERIAL device or file. |
+| device=dev | S | the file name for SERIAL device. Can be more than one. |
+| device=file | S | the file name input/output. Can be more than one. |
+| end=timespec | I | time in log set at which to stop restore/duplication. |
+| hostname=host | S | for set=socket, name of host for network connection. |
+| milestone=true \* | I | periodically send progress information to sender. Requires 'set=socket'. |
+| milestone=file \* | O | update milestone file with progress information from receiver. Requires 'set=socket'. |
+| noflush=true | O | suppress flush of output at end of transaction. (default false) |
+| notrans=true | O | ignore transaction boundaries. (default false) |
+| port=nn | S | for set=socket, TCP port number for network connection. |
+| prompt=true | O | prompt when switching serial devices or files. |
+| rename=from,to | | convert path name directories 'from' to 'to' on restore.|
+| renamefile=file | O | use rename file list of format 'from,to' to rename files on restore. |
+| retry=nn | I | specifies the interval between retries, when 'terminate=wait'.|
+| set=auto \* | I,L | begin restore/duplication using the log set that includes start time. Requires 'start='. |
+| set=current | I,L | begin restore/duplication using the current log set as input. |
+| set=database | O,D | output is to the database, i.e. restore mode. |
+| set=eldest | I,L | begin restore/duplication using the eldest log set. |
+| set=logset | O,L | the output is directed to the current log set as an update. |
+| set=n | I,L,N | begin restore/duplication using log set number n. |
+| set=null | O | output is to be discarded. |
+| set=serial | I,O | input/output is to a serial device or file. Requires 'device='. |
+| set=socket | I,O | use network connection for input/output. Requires 'hostname=' & 'port='. |
+| set=stdin | I,T | the input data comes from the terminal stdin. |
+| set=stdout | O,T | the output data is directed to the terminal stdout. |
+| set=tty | T | the input is from stdin or the output is to stdout. |
+| skiprec=true | I | if an error is encountered reading from the log set, attempt to skip past the problem record.
+| start=timespec | I | time in log set at which to start restore/duplication. |
+| terminate=eof | I | terminate restore/duplication at eof of eldest log set. |
+| terminate=eos | I | terminate restore/duplication at end of current log set. |
+| terminate=wait | I | switch to elder log sets as required and wait for new updates. |
+| timeout=nnn | I | timeout period in seconds for 'terminate=wait'. |
+| verbose=true | | display to stderr a summary of the specification. |
+
+
+\* Note: set=auto and milestone=xxx require jBASE release 5.7.5 or greater.
+
+
+The time specification, used in the 'start=' and 'end=' specification can be  one of the following formats:
+
+| Timspec | Description |
 | --- | --- |
-| blockmax=nnn (S)<br> | the maximum size, in blocks, of a serial device<br> |
-| blocksize=nnn<br> | the block size to read/write to TTY/SERIAL device or file<br> |
-| device=file%dev (S)<br> | the file name for SERIAL device. Can be more than one<br> |
-| end=timespec (I)<br> | time in log set at which to stop restore/duplication<br> |
-| noflush=true (O)<br> | suppress flush of output at end of transaction. (default false)<br> |
-| notrans=true (O)<br> | ignore transaction boundaries. (default false)<br> |
-| prompt=true<br> | prompt when switching serial devices or files<br> |
-| rename=from,to<br> | convert path name directories ‘from’ to ‘to’ on restore<br> |
-| renamefile=file (O)<br> | use rename file list of format ‘from,to’ to rename files<br> |
-| retry=nn (I)<br> | specifies the interval between retries, when 'terminate=wait'<br> |
-| set=current (IL)<br> | begin restore/duplication using the current log set as input<br> |
-| set=database (OD)<br> | output is to the database, i.e. Restore mode<br> |
-| set=eldest (IL)<br> | begin restore/duplication using the eldest log set<br> |
-| set=n (ILN)<br> | begin restore/duplication using log set number n<br> |
-| set=null (O)<br> | output is to be discarded<br> |
-| set=serial (S)<br> | input/output is to a serial device or file. Requires ‘device=’<br> |
-| set=stdin (IT)<br> | the input data comes from the terminal stdin<br> |
-| set=stdout (OT)<br> | the output data is directed to the terminal stdout<br> |
-| set=tty (T)<br> | the input is from stdin or the output is to stdout<br> |
-| set=logset (OL)<br> | the output is directed to the current log set as an update<br> |
-| start=timespec (I)<br> | time in log set at which to start restore/duplication<br> |
-| terminate=eof (I)<br> | terminate restore/duplication at eof of eldest log set<br> |
-| terminate=eos (I)<br> | terminate restore/duplication at end of current log set<br> |
-| terminate=wait (I)<br> | switch to elder log sets as required and wait for new updates<br> |
-| timeout=nnn (I)<br> | timeout period in seconds for ‘terminate=wait'<br> |
-| verbose=true<br> | display to stderr a summary of the specification<br> |
-
-
-
-
-The indicators in brackets denote:
-
-
-| Indicator<br> | Meaning<br> |
-| --- | --- |
-| D<br> | specification valid for type database<br> |
-| I<br> | specification valid for type input<br> |
-| O<br> | specification valid for type output<br> |
-| L<br> | specification valid for log set<br> |
-| N<br> | specification valid for type of null<br> |
-| S<br> | specification valid for type serial<br> |
-| T<br> | specification valid for type terminal<br> |
-
-
-
-
-The time specification, used in the ‘start=’ and ‘end=’ specification can be  one of the following formats:
-
-
-| Timspec<br> | Description<br> |
-| --- | --- |
-| hh:mm:ss<br> | time of day (todays date assumed)<br> |
-| DD-MMM-YYYY<br> | date (midnight assumed), Any date convention accepted<br> |
-| hh:mm:ss,DD-MM-YYYY<br> | both time and date specified either way around<br> |
-| jbackup\_file<br> | time of file created. Use with 'jbackup -sfilename' option<br> |
-| filename<br> | regular file, use the time the file was last modified<br> |
+| hh:mm:ss | time of day (todays date assumed) |
+| DD-MMM-YYYY | date (midnight assumed), Any date convention accepted |
+| hh:mm:ss,DD-MM-YYYY | both time and date specified either way around |
+| jbackup file | use with 'jbackup -sfilename' option, reads time from file content |
+| milestone file | reads time from file content (last timestamp reported by the receiving system) |
+| filename | regular file, use the time the file was last modified |
 
 
 #### 

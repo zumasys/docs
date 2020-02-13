@@ -1,36 +1,42 @@
 <template>
   <div class="features">
     <div class="feature">
-      <h2>AccuTerm</h2> 
+      <h2>AccuTerm</h2>
       <p>
-        <a href="">Desktop</a><br />
-        <a href="">Web</a><br />
-        <a href="">Mobile</a>
+        Desktop (Coming Soon!)<br />
+        <a href="docs/zumasys/accuterm-web">Web</a><br />
+        <a href="docs/zumasys/accuterm-mobile">Mobile</a>
       </p>
     </div>
     <div class="feature">
-      <h2>jBASE</h2> 
-      <p>When you're ready, take a peek here.</p>
+      <h2>jBASE</h2>
+      <p><a href="docs/jbase">All Docs</a><br /></p>
     </div>
     <div class="feature">
-      <h2>OpenQM</h2> 
-      <p>But wait, there's more</p>
+      <h2>OpenQM</h2>
+      <p>Main (Coming Soon!)<br /></p>
     </div>
     <div class="feature">
-      <h2>MV Dashboard</h2> 
-      <p>Come read about the first feature here.</p>
+      <h2>MV Dashboard</h2>
+      <p>
+        <a href="docs/zumasys/mv-dashboard">All Docs</a>
+      </p>
     </div>
     <div class="feature">
-      <h2>MV Connect</h2> 
-      <p>When you're ready, take a peek here.</p>
+      <h2>MV Connect</h2>
+      <p>
+        <a href="docs/zumasys/mv-connect">All Docs</a>
+      </p>
     </div>
     <div class="feature">
+      <h2>Customer Portal</h2>
+      <p>
+        <a href="docs/zumasys/customer-portal">All Docs</a>
+      </p>
     </div>
-  </div> 
+  </div>
 </template>
 
 <script>
-export default {
-    
-}
+export default {};
 </script>

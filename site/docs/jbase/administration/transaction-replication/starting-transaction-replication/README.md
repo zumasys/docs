@@ -236,6 +236,16 @@ Add service to automatically start and run in the background.  This is specific
 
 Establishing rotation process for your logs
 
+### Milestones
+
+Beginning with jBASE release 5.7.5, when using a network connection (set=socket) for jlogdup, the receiving system can send periodic progress information (milestones) to the sender, and the sender will save this information in the specified milestone file. To use this, the sender must specify milestone=filename in the output specification, and the receiver must specify milestone=true in the input specification.
+
+When restarting transaction replication after a failure, you can use the milestone file from the previous jlogdup command as the timespec in the start parameter in the input specification:
+
+`input set=auto start=milestone_file ...`
+
+
+
 # 
 
 
