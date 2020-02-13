@@ -69,7 +69,7 @@ lp
 [dk] A manual search in all program files for:
 
 ```
-@IM 
+@IM
 CHAR(255)
 |
 >>
@@ -101,7 +101,7 @@ You should also search for pipe and redirect symbols in any scripts.
 
 [bd]] Someone with knowledge of this should provide some examples of coding techniques that are not portable and how your can write code that is multi-platform.  Examples are worth a thousand words.
 
-## Printing (underlying print system, scripts for creating printers, printer drivers possibly written in bash script).
+## Printing (underlying print system, scripts for creating printers, printer drivers possibly written in bash script)
 
 [bd] Someone should describe common printer script techniques used in Linux and how these could be translated to Windows equivalents.  Examples are worth a thousand words. #CYGWIN
 

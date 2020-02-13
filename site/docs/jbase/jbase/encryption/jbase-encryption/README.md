@@ -6,7 +6,6 @@
 **Original ID:** 391951  
 **Internal:** Yes  
 
-
 ## Introduction
 
 This document describes updated jBASE encryption as introduced in jBASE 5.7.1. The functionality of encryption described in this article differs greatly from the previous encryption, introduced in jBASE 5.6.
@@ -74,7 +73,6 @@ The Security Policy File will have a number of properties:
 - Switch New File Encryption. Decides if newly created data files have encryption applied as a default. if this is FALSE (default), then a file needs to be created with ENCRYPT=TRUE
 - Switch for TJ, backup, spooler, audit logging. These switches will decide if encryption is used for these operations. If TRUE, we use the algorithm/key for that option. if the algorithm/key not set, the system-wide encryption policy is used.
 
-
 The default Security Policy is set in the file defined earlier. However, there are other Security Policy Files you can use.
 
 If a directory has a file called ‘.jsecurity’ then this will be used and any options in here will over-ride the default security. You will need to supply a key for each security policy used. This mechanism allows different accounts to have different encryption, and even different files (assuming in different directories) to have different encryption.
@@ -90,9 +88,3 @@ The following functionality will be tested to ensure correct working with the ne
 - JEDIs to the audit log and TJ files
 - jstat
 - rename-file
-
-
-
-
-## 
-

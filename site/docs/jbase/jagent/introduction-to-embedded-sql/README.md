@@ -6,24 +6,24 @@
 **Original ID:** 230068  
 **Internal:** Yes  
 
-
 ## Synopsis
 
 Embedded SQL is a method of combining the computing power of a programming language and the database manipulation capabilities of SQL. Embedded SQL statements are SQL statements written inline with the program source code of the host language. The embedded SQL statements are parsed by an embedded SQL preprocessor and replaced by host-language calls to a code library. The output from the preprocessor is then compiled by the host compiler. This allows programmers to embed SQL statements in programs written in any number of languages such as C/C++, COBOL and Fortran. This differs from SQL-derived programming languages that don't go through discrete preprocessors, such as PL/SQL and T-SQL.
 
-### Whys it been updated
+### Why it has been updated
 
 Added simply because the original version of [Nsqlprep] . . . - has not been supported since SQL server 2005 - even if it worked, nsqlpreps libraries are 32 bit only - We have claimed to support it since 2000 and jBASE 3.x
 
 ### Things left to do
 
-Currently we build on centos5, MS don’t release their libraries for Linux until Centos6, hopefully providing there are no unforeseen issues we should also be able to add the same functionality for Linux,  The first version is a bare bone as they come,  it has minimal support for SQL and will only be updated if needed.
+Currently we build on centos5, Microsoft don’t release their libraries for Linux until Centos6, hopefully providing there are no unforeseen issues we should also be able to add the same functionality for Linux.  
+The first version is as bare bones as they come,  it has minimal support for SQL and will only be updated if needed.
 
 ### What benefits does it bring
 
 Using modern versions of the olddb libraries allows jBASE to connect to a database using almost any valid connection string,   Provides a simple syntax that should allow any jBC programmer to import/export data to different databases from a simple jBC program.  This can be achieved by using ESQL or calling the new JBC functions directly.
 
-### How does it impact with existing functionality?
+### How does it impact existing functionality
 
 Because there was previously nothing working on MS platforms for 5.x, these changes should have zero impact.  However, because there was already support built into jBASE for other flavours of ESQL on various platforms we have to work around the existing mechanism.
 
@@ -33,13 +33,11 @@ Currently jcompile will do some of the pre-processing before invoking ESQL compi
 
 - jcompile -Jqm mytest.b
 
-
 jbase will generate
 
 - mytest.j                        generic jbase header containing variable structures, includes etc…
 - mytest.k                        C representation of the DECLARE section for mytest.b
-- [mytest.sqc](mytest.sqc)                      normal compile to C jBC code with the additional [EXEC SQL] commands.
-
+- [mytest.sqc](mytest.sqc)        normal compile to C jBC code with the additional [EXEC SQL] commands.
 
 Jesqlprep, will attempt to parse mytest.sqc, and add in any call to [libJBCESQL] to run the embedded SQL commands.
 
@@ -47,13 +45,12 @@ Jesqlprep, will attempt to parse mytest.sqc, and add in any call to [libJBCESQL]
 
 The status of any command will be saved into SYSTEM(0),  SYSTEM(0) does nothing more than return a flag from dp,  this can also be overwritten by any other jBASE function that goes wrong so its not to be relied on unless checked immediately after running a SQL statement.
 
-## Esql components..
+## Esql components
 
-- Nsqlprep        &gt;&gt;      calls jesqlprep
-- Jesqlprep       &gt;&gt;      fills in missing bits for C code and SQL, (limited syntax)
-- [libESQL.dll](libESQL.dll)     &gt;&gt;      odbc/oledb wrapper
-- [libJBCESQL.dll](libJBCESQL.dll)  &gt;&gt;      jbc wrapper for [libESQL.dll](libESQL.dll)
-
+- Nsqlprep        &gt;&gt;        calls jesqlprep
+- Jesqlprep       &gt;&gt;        fills in missing bits for C code and SQL, (limited syntax)
+- [libESQL.dll](libESQL.dll)     &gt;&gt;         odbc/oledb wrapper
+- [libJBCESQL.dll](libJBCESQL.dll)  &gt;&gt;      jbc wrapper for [libESQL.dll](libESQL.dll)
 
 ### Nsqlprep
 
@@ -69,7 +66,6 @@ For example,
 
 - ESQL CONNECT :Database
 
-
 Should be replaced with some C code to connect to a database passing in the value stored in jBC variable [:Database] as the connection string.
 
 ### libESQL.dll
@@ -82,17 +78,15 @@ Interface of jBC functions to carry out generic operations from jBC.
 
 Because jBASE is compiled in [C], we need some form of interface that will let us access external libraries and return data back to the users BASIC code.
 
-## Common terms used in document.
+## Common terms used in document
 
-?Whats a result set?
+?What is a result set?
 
 - Think of a result set as a huge big list of records stored in an array.
 
-
-? Whats a cursor,
+? What is a cursor,
 
 - a cursor enables the rows in a result set to be processed sequentially.
-
 
 ```
   . Row     Data
@@ -105,23 +99,21 @@ Just like in jBASE when you say READNEXT,  the cursor moves to the next item in
 
 ## ESQL Commands
 
-
-
-### None standard verbs
+### Non-standard verbs
 
 The following are verbs that nsqlprep will look for in your jBC code, they are generally the first token to follow [EXEC SQL].
 
 Additional commands have been added to help support new driver:
 
-#### AUTOCOMMIT
+#### AUTOCOMMIT #1
 
 OLDEB will have auto commit set by default, no good if you want to control when you commit somthing and check for issues.
 
-#### ERRORMESSAGE
+#### ERRORMESSAGE #1
 
 jBASE variable to store last error message in, useful for diagnostics.
 
-### AUTOCOMMIT
+### AUTOCOMMIT #2
 
 Added so we can turn off auto commit, by default its always on which can be an issue.
 
@@ -142,9 +134,9 @@ e.g.
  CRT PartNo, PartName
 ```
 
-In this example, the table Parts is selected returning values for the columns [[PartNo](http://10.10.17.22/PartNo)], [[PartName](http://10.10.17.22/PartName)].
+In this example, the table Parts is selected returning values for the columns PartNo, PartName.
 
-Each subsequent call to [FETCH] will then populate the jBC variables [[PartNo](http://10.10.17.22/PartNo)], [[PartName](http://10.10.17.22/PartName)]
+Each subsequent call to [FETCH] will then populate the jBC variables PartNo, PartName.
 
 ### CLOSE
 
@@ -154,8 +146,6 @@ Closes a cursor. (active statement)
 EXEC SQL CLOSE cursorbacs;
 ```
 
-
-
 ### COMMIT
 
 Causes any data in the current connection to be written to the database, just now it writes and closes any opened cursors.
@@ -163,12 +153,10 @@ Causes any data in the current connection to be written to the database, just no
 We also ignore WORK/HOLD as there not currently supported,  COMMIT should commit any changes and close the current statement.
 
 ```
-EXEC SQL COMMIT WORK HOLD 
-EXEC SQL COMMIT WORK has the same effect as COMMIT. 
+EXEC SQL COMMIT WORK HOLD
+EXEC SQL COMMIT WORK has the same effect as COMMIT.
 EXEC SQL COMMIT HOLD Dont kill cursor on error.
 ```
-
-
 
 ### CONNECT
 
@@ -177,14 +165,14 @@ Connects to a database using a connection string, this can be an SQL server styl
 E,g.
 
 ```
-Database = 'Driver={SQL Server Native Client 11.0}; Server=localhost\SQLEXPRESS; Database=Northwind; Trusted_Connection=yes; ID=.\localuser; Password=password' 
+Database = 'Driver={SQL Server Native Client 11.0}; Server=localhost\SQLEXPRESS; Database=Northwind; Trusted_Connection=yes; ID=.\localuser; Password=password'
 EXEC SQL CONNECT :Database;
 ```
 
 Or a DSN equivalent.
 
 ```
-Database = 'DSN=accounts' 
+Database = 'DSN=accounts'
 EXEC SQL CONNECT :Database;
 ```
 
@@ -210,8 +198,6 @@ Create a new table, syntax may vary depending on the database you connect to, it
 EXEC SQL CREATE TABLE Parts (PartNo INTEGER NOT NULL, PartName VARCHAR(20),PRIMARY KEY (PartName));
 ```
 
-
-
 ### DECLARE
 
 Define the statement you are going to use to get the data from SQL, its more or less like doing a jBASE select, then reading in the data in a loop after the query has finished.
@@ -230,8 +216,6 @@ Deletes records from a SQL database.
  . EXEC SQL DELETE FROM Parts WHERE PartNo=:PartNo;
 ```
 
-
-
 ### DISCONNECT
 
 Shuts down the current connection.
@@ -239,8 +223,6 @@ Shuts down the current connection.
 ```
 EXEC SQL DISCONNECT;
 ```
-
-
 
 ### DROP
 
@@ -250,15 +232,13 @@ Delete a table, (just like running DELETE-FILE)
 EXEC SQL DROP TABLE :table_name; EXEC SQL DROP Partsa;
 ```
 
-
-
-### ERRORMESSAGE
+### ERRORMESSAGE #2
 
 Hold any messages returned from ESQL in a jBASE VAR.
 
 ```
 EXEC SQL WHENEVER SQLERROR GOTO proglab_SqlError;
-. . . 
+. . .
 EXEC SQL ERRORMESSAGE ESQLErrorMessage;
 . . .
 SqlError:
@@ -275,28 +255,23 @@ Reads a row from a SQL database,
  . EXEC SQL FETCH cursorsdtrans INTO :type, :dramount, :cramount;
 ```
 
-
-
 ### INCLUDE
 
 ```
  . No idea
 ```
 
-
-
 ### INSERT
 
 Inserts a new record in to a SQL database.
 
 ```
-EXEC SQL [REPEATED] INSERT INTO table_name (column {, column}) VALUES (expr{, expr}) {,(expr{, expr} ) 
-EXEC SQL INSERT INTO Parts (PartNo, PartName) VALUES (:PartNo, :PartName ); 
-EXEC SQL INSERT INTO Parts VALUES (:PartNo, :PartName ); 
+EXEC SQL [REPEATED] INSERT INTO table_name (column {, column}) VALUES (expr{, expr}) {,(expr{, expr} )
+EXEC SQL INSERT INTO Parts (PartNo, PartName) VALUES (:PartNo, :PartName );
+EXEC SQL INSERT INTO Parts VALUES (:PartNo, :PartName );
 ```
 
 - We don’t support REPEATED
-
 
 Currently we only support a single record at a time.
 
@@ -310,21 +285,20 @@ Causes the statement associated with the cursor name to be executed.
 
 - Only use the cursor name.
 
-
 e.g.
 
 ```
-EXEC SQL DECLARE cursorbacs CURSOR FOR SELECT PartNo, PartName FROM Parts; 
-. . . 
+EXEC SQL DECLARE cursorbacs CURSOR FOR SELECT PartNo, PartName FROM Parts;
+. . .
 EXEC SQL OPEN cursorbacs;
 . . .
-LOOP 
-    EXEC SQL FETCH cursorbacs INTO :PartNo, :PartName; . . . 
+LOOP
+    EXEC SQL FETCH cursorbacs INTO :PartNo, :PartName; . . .
 UNTIL no_more_data DO REPEAT
 . . .
 ```
 
-[OPEN] will triggered, [SELECT [PartNo](http://10.10.17.22/PartNo), [PartName](http://10.10.17.22/PartName) FROM Parts;] to be ran on the SQL database.
+[OPEN] will triggered, [SELECT PartNo, PartName  FROM Parts;] to be ran on the SQL database.
 
 ### SELECT
 
@@ -341,7 +315,6 @@ EXEC SQL SELECT ename, empno INTO :name,:number FROM emp WHERE a=:b ORDER BY :or
 ```
 
 - Not currently supported, use FETCH,
-
 
 ### ROLLBACK
 
@@ -362,7 +335,6 @@ EXEC SQL UPDATE emp SET sal = :salary, comm = :commission WHERE empno = :emp\_nu
 ### WORK
 
 - No idea, not supported.
-
 
 found this example,
 
@@ -388,12 +360,10 @@ Define what label in jBC to GOTO when something goes wrong,
 E.g.
 
 ```
-EXEC SQL WHENEVER SQLERROR GOTO proglab_SqlError; 
-EXEC SQL WHENEVER SQLWARNING GOTO proglab_SqlWarning; 
+EXEC SQL WHENEVER SQLERROR GOTO proglab_SqlError;
+EXEC SQL WHENEVER SQLWARNING GOTO proglab_SqlWarning;
 EXEC SQL WHENEVER NOT FOUND GOTO proglab_NotFound;
 ```
-
-
 
 ## JBC API’s
 
@@ -419,7 +389,6 @@ Currently accessible functions are as follows.
 - DEFC INT connection\_disable\_auto\_commit(VAR)
 - DEFC INT connection\_status\_auto\_commit(VAR)
 
-
 \* INT functions should return 1 for success and 0 for a fail.  \* VAR/STRING functions should return NULL strings when things fail.
 
 ### get\_connection\_object
@@ -429,11 +398,9 @@ connects to a datasource and returns the connection as a jBASE VAR.
 e.g.
 
 ```
-dsn = Database = 'Driver={SQL Server Native Client 11.0}; Server=localhost\SQLEXPRESS; Database=Northwind; Trusted_Connection=yes; ID=.\localuser; Password=password' 
+dsn = Database = 'Driver={SQL Server Native Client 11.0}; Server=localhost\SQLEXPRESS; Database=Northwind; Trusted_Connection=yes; ID=.\localuser; Password=password'
 rc = get_connection_object(connection, dsn)
 ```
-
-
 
 ### get\_connection\_object\_login
 
@@ -449,8 +416,6 @@ e.g.
 IF get_is_connected(connection) ELSE CRT "Not connected...." ; STOP
 ```
 
-
-
 ### connection\_last\_error
 
 returns the last error in a readable format.
@@ -458,12 +423,10 @@ returns the last error in a readable format.
 e.g.
 
 ```
-statement_status = get_statement_object(connection, current_statement) 
-IF statement_status = 0 THEN CRT connection_last_error(connection) ; 
+statement_status = get_statement_object(connection, current_statement)
+IF statement_status = 0 THEN CRT connection_last_error(connection) ;
 STOP
 ```
-
-
 
 ### statement\_last\_error
 
@@ -476,8 +439,6 @@ rc = statement_execute_query(current_statement, command)
 IF rc NE 1 THEN  CRT "Error in statement [" : state-ment_last_error(current_statement) : "]"
 ```
 
-
-
 ### connection\_commit
 
 Commits any outstanding updates on the server.
@@ -487,8 +448,6 @@ e.g.
 ```
 Result = connection_commit(connection)
 ```
-
-
 
 ### connection\_rollback
 
@@ -500,8 +459,6 @@ e.g.
 Result = connection_rolback(connection)
 ```
 
-
-
 ### get\_dsn\_string
 
 Gets the connection string from an active connection.
@@ -512,8 +469,6 @@ e.g.
 z = get_dsn_string(connection) CRT z
 ```
 
-
-
 ### get\_statement\_object
 
 Creates a new statement object to run SQL statement with, needs an active connection.
@@ -523,8 +478,6 @@ e.g.
 ```
 statement_status = get_statement_object(connection, current_statement)
 ```
-
-
 
 ### statement\_execute\_query
 
@@ -546,13 +499,11 @@ Counts the number of columns in the current results set.
 e.g.
 
 ```
-command = "SELECT TOP 10000 * FROM JCUSTOMERS" 
-rc = statement_execute_query(current_statement, command) 
-number_of_columns = statement_get_column_count(current_statement) 
+command = "SELECT TOP 10000 * FROM JCUSTOMERS"
+rc = statement_execute_query(current_statement, command)
+number_of_columns = statement_get_column_count(current_statement)
 CRT "Results has [":number_of_columns:"] Columns."
 ```
-
-
 
 ### statement\_fetch\_first
 
@@ -566,8 +517,6 @@ e.g.
  . rc = statement_fetch_first(current_statement)
 ```
 
-
-
 ### statement\_fetch\_previous
 
 Used to control the location of the cursor when data is returned from a select,
@@ -579,8 +528,6 @@ e.g.
 ```
 rc = statement_fetch_previous(current_statement)
 ```
-
-
 
 ### statement\_fetch\_next
 
@@ -594,8 +541,6 @@ e.g.
 rc = statement_fetch_next(current_statement)
 ```
 
-
-
 ### statement\_fetch\_data
 
 Reads the current record from an active select, use fetch\_prev/next to position the cur-sor.
@@ -605,8 +550,8 @@ e.g.
 ```
 LOOP WHILE statement_fetch_next(current_statement)
    rec = statement_fetch_data(current_statement)
-   id = rec<1> 
-   DEL rec<1> 
+   id = rec<1>
+   DEL rec<1>
    CRT "[":id:"][":rec:"]" "MCP"
 REPEAT
 ```
@@ -634,8 +579,8 @@ Creates a default dictionary for each row in the current results set.
 e.g.
 
 ```
-number_of_columns = statement_get_column_count(current_statement) 
-CRT "Result has [":number_of_columns:"] Columns." 
+number_of_columns = statement_get_column_count(current_statement)
+CRT "Result has [":number_of_columns:"] Columns."
 FOR x = 1 TO number_of_columns
   CRT statement_fetch_describe(x, current_statement) "MCP"
 NEXT x
@@ -644,8 +589,8 @@ NEXT x
 output:
 
 ```
-Result has [2] Columns. 
-D^0^^PartNo^10L^S 
+Result has [2] Columns.
+D^0^^PartNo^10L^S
 D^1PartName^20L^S
 ```
 
@@ -661,8 +606,6 @@ e.g.
 column_name = statement_fetch_column_name(1, current_statement)
 ```
 
-
-
 ### connection\_enable\_auto\_commit
 
 Switches on auto commit,
@@ -670,8 +613,6 @@ Switches on auto commit,
 ```
 rc = connection_enable_auto_commit(connection)
 ```
-
-
 
 ### connection\_disable\_auto\_commit
 
@@ -681,8 +622,6 @@ Switches off auto commit.
 rc = connection_disable_auto_commit(connection)
 ```
 
-
-
 ### connection\_status\_auto\_commit
 
 gets status of auto commit.
@@ -691,63 +630,57 @@ gets status of auto commit.
 rc = connection_status_auto_commit(connection)
 ```
 
-
-
 ## Examples
 
 To run,
 
 - create an ODBC DSN called zumasys
-- on server, create table called Parts, two columns [PartNo](http://10.10.17.22/PartNo), [PartName](http://10.10.17.22/PartName)
+- on server, create table called Parts, two columns PartNo, PartName
 - Add some data
-
 
 ### Listing a file via ESQL
 
 - Compile with,
 - . jcompile -Jqm esql\_example.b to run, esql\_example
 
-
 (taken from customer example)
 
 ```
 EXEC SQL BEGIN DECLARE SECTION;
-INT PartNo; STRING(20) PartName; STRING(20) Database; 
-EXEC SQL END DECLARE SECTION; 
-EXEC SQL WHENEVER SQLERROR GOTO proglab_SqlError; 
-EXEC SQL WHENEVER SQLWARNING GOTO proglab_SqlWarning; 
-EXEC SQL WHENEVER NOT FOUND GOTO proglab_NotFound; 
-EXEC SQL DECLARE cursorbacs CURSOR FOR SELECT PartNo, PartName FROM Parts; 
-ID = "unknown" ATTR.NO = 0 
-KEEP.LOOPING = "Y" 
-NEW.REC = "" 
-Database = "DSN=zumasys" 
-EXEC SQL CONNECT :Database; 
-EXEC SQL OPEN cursorbacs; 
-CRT "Connected to database " : Database 
+INT PartNo; STRING(20) PartName; STRING(20) Database;
+EXEC SQL END DECLARE SECTION;
+EXEC SQL WHENEVER SQLERROR GOTO proglab_SqlError;
+EXEC SQL WHENEVER SQLWARNING GOTO proglab_SqlWarning;
+EXEC SQL WHENEVER NOT FOUND GOTO proglab_NotFound;
+EXEC SQL DECLARE cursorbacs CURSOR FOR SELECT PartNo, PartName FROM Parts;
+ID = "unknown" ATTR.NO = 0
+KEEP.LOOPING = "Y"
+NEW.REC = ""
+Database = "DSN=zumasys"
+EXEC SQL CONNECT :Database;
+EXEC SQL OPEN cursorbacs;
+CRT "Connected to database " : Database
 LOOP
-  EXEC SQL FETCH cursorbacs INTO :PartNo, :PartName; 
-  ATTR.NO = ATTR.NO + 1 
-  NEW.REC<ATTR.NO> = PartNo : "/" : PartName 
-  CRT "part no/name : [" : NEW.REC<ATTR.NO> : "]"
-UNTIL KEEP.LOOPING = "N" DO REPEAT 
-EXEC SQL COMMIT ; 
+    EXEC SQL FETCH cursorbacs INTO :PartNo, :PartName;
+    ATTR.NO = ATTR.NO + 1
+    NEW.REC<ATTR.NO> = PartNo : "/" : PartName
+    CRT "part no/name : [" : NEW.REC<ATTR.NO> : "]"
+UNTIL KEEP.LOOPING = "N" DO REPEAT
+EXEC SQL COMMIT ;
 RETURN
 
-SqlError: 
-  CRT "Errro" 
-RETURN 
+SqlError:
+    CRT "Errro"
+RETURN
 
-SqlWarning: 
-  CRT "warn" 
-RETURN 
+SqlWarning:
+    CRT "warn"
+RETURN
 
-NotFound: 
-  CRT "not" 
+NotFound:
+    CRT "not"
 RETURN
 ```
-
-
 
 ### Listing a file via jBC
 
@@ -755,55 +688,53 @@ Compile with,
 
 - jcompile jbase\_sql\_example.b
 
-
 to run,
 
 - jbase\_sql\_example zumasys SELECT \* from Parts;
 
-
 ```
-DEFC INT get_connection_object(VAR, VAR) 
-DEFC INT get_is_connected(VAR) 
-DEFC INT connection_last_error(VAR) 
-DEFC STRING get_dsn_string(VAR) 
-DEFC INT get_statement_object(VAR, VAR) 
-DEFC INT statement_execute_query(VAR, VAR) 
-DEFC INT statement_get_column_count(VAR) 
-DEFC INT statement_fetch_first(VAR) 
-DEFC INT statement_fetch_last(VAR) 
-DEFC INT statement_fetch_previous(VAR) 
-DEFC INT statement_fetch_next(VAR) 
-DEFC VAR statement_fetch_data(VAR) 
-DEFC VAR statement_fetch_describe(VAR, VAR) 
-command_line =  TRIM(@SENTENCE) 
-CRT "[":command_line:"]" 
+DEFC INT get_connection_object(VAR, VAR)
+DEFC INT get_is_connected(VAR)
+DEFC INT connection_last_error(VAR)
+DEFC STRING get_dsn_string(VAR)
+DEFC INT get_statement_object(VAR, VAR)
+DEFC INT statement_execute_query(VAR, VAR)
+DEFC INT statement_get_column_count(VAR)
+DEFC INT statement_fetch_first(VAR)
+DEFC INT statement_fetch_last(VAR)
+DEFC INT statement_fetch_previous(VAR)
+DEFC INT statement_fetch_next(VAR)
+DEFC VAR statement_fetch_data(VAR)
+DEFC VAR statement_fetch_describe(VAR, VAR)
+command_line =  TRIM(@SENTENCE)
+CRT "[":command_line:"]"
 CHANGE " " TO @FM IN command_line
-DEL command_line<1> 
-dsn = "DSN=":command_line<1> 
-DEL command_line<1> 
-command = command_line 
-CHANGE @FM TO " " IN command 
-CRT "[DSN=":dsn:"]" 
-CRT "[":command:"]" 
-connection = "" 
-rc = get_connection_object(connection, dsn) 
-z = get_dsn_string(connection) 
-current_statement = "" 
-statement_status = 0 
-IF get_is_connected(connection) ELSE CRT "Not connected...." ; STOP 
-statement_status = get_statement_object(connection, current_statement) 
-IF statement_status = 0 THEN CRT "Statment create failed", statement_status ; STOP 
-rc = statement_execute_query(current_statement, command) 
-number_of_columns = statement_get_column_count(current_statement) 
-CRT "Results has [":number_of_columns:"] Columns." 
+DEL command_line<1>
+dsn = "DSN=":command_line<1>
+DEL command_line<1>
+command = command_line
+CHANGE @FM TO " " IN command
+CRT "[DSN=":dsn:"]"
+CRT "[":command:"]"
+connection = ""
+rc = get_connection_object(connection, dsn)
+z = get_dsn_string(connection)
+current_statement = ""
+statement_status = 0
+IF get_is_connected(connection) ELSE CRT "Not connected...." ; STOP
+statement_status = get_statement_object(connection, current_statement)
+IF statement_status = 0 THEN CRT "Statment create failed", statement_status ; STOP
+rc = statement_execute_query(current_statement, command)
+number_of_columns = statement_get_column_count(current_statement)
+CRT "Results has [":number_of_columns:"] Columns."
 FOR x = 1 TO number_of_columns
-  CRT statement_fetch_describe(x, current_statement) "MCP"
- NEXT x 
-CRT cnt = 1 
-result = "" 
+    CRT statement_fetch_describe(x, current_statement) "MCP"
+NEXT x
+CRT cnt = 1
+result = ""
 LOOP WHILE statement_fetch_next(current_statement)
-  result = statement_fetch_data(current_statement) "MCP" 
-  CRT cnt, "[":result:"]" 
-  cnt ++
+    result = statement_fetch_data(current_statement) "MCP"
+    CRT cnt, "[":result:"]"
+    cnt ++
 REPEAT
 ```

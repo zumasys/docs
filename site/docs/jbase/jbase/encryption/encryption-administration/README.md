@@ -4,14 +4,13 @@
 **Updated At:** 5/31/2019 4:23:25 PM  
 **Original Doc:** [encryption-administration](https://docs.jbase.com/encryption/encryption-administration)  
 **Original ID:** 392675  
-**Internal:** Yes  
-
+**Internal:** No  
 
 ## Administration
 
 The **jsecurity** command is used to create an encryption profile. At the present time, only one profile per system is allowed.
 
-***\*\*\*Most options of the*****jsecurity*****command require root/administrator privileges\*\*\****
+***\*\*\* Most options of the*** **jsecurity** ***command require root/administrator privileges\*\*\****
 
 ```
 jsh ~ -->jsecurity -h
@@ -69,14 +68,14 @@ New security profile successfully created.
 jsh ~ -->
 ```
 
-#### Notes:
+### Notes
 
-- The**filename**used with the **-f** option can be full or relative. If the **-f** option is not used then the default is **$JBCRELEASEDIR/config/filesecurity**.
+- The **filename** used with the **-f** option can be full or relative. If the **-f** option is not used then the default is **$JBCRELEASEDIR/config/filesecurity**.
 - The **AES** cipher is **AES256**
 - [**PBKDF2**](https://en.wikipedia.org/wiki/PBKDF2) is a way of obscuring the password
 
 
-The last step is to **load** the profile into shared memory. ***This needs to be done EACH TIME the system is rebooted or a new security profile needs to be activated.***
+The last step is to **load** the profile into shared memory. ***This needs to be done EACH TIME the system is rebooted or when a new security profile needs to be activated.***
 
 ```
 jsh ~ -->jsecurity load
@@ -89,9 +88,9 @@ Enter encryption key for security file :
 File encryption type : AES
 ```
 
-There is no maximum length for the encryption key for jBASE data files when using **PBKDF2**to derive the actual key. This is the default. However, if the number of iterations is 0, the maximum key size is 32 characters.
+There is no maximum length for the encryption key for jBASE data files when using **PBKDF2** to derive the actual key. This is the default. However, if the number of iterations is 0, the maximum key size is 32 characters.
 
-**Caveat!**On Windows, the shared memory that jBASE creates is unloaded when the last jBASE process terminates. This means that you must have at least 1 running jBASE process in order for the security profile to remain loaded. The best way to accomplish this is to start **jDLS**beforehand which will allow shared memory to persist.
+**Caveat!** On Windows, the shared memory that jBASE creates is unloaded when the last jBASE process terminates. This means that you must have at least 1 running jBASE process in order for the security profile to remain loaded. The best way to accomplish this is to start **jDLS** beforehand which will allow shared memory to persist.
 
 To determine whether or not the security profile has been loaded:
 
@@ -105,12 +104,12 @@ This is the only option that does not require root/administrator privileges, so 
 The status can also be obtained programmatically :
 
 ```
-001     PROGRAM jsecurity_status
-002     EXECUTE "jsecurity status" SETTING error_code CAPTURING quiet
-003     security_profile_is_loaded = (error_code<1,1> NE 12)
-004     IF security_profile_is_loaded THEN
-005         CRT "Security profile is loaded."
-006     END ELSE
-007         CRT "Security profile is NOT loaded."
-008     END
+    PROGRAM jsecurity_status
+    EXECUTE "jsecurity status" SETTING error_code CAPTURING quiet
+    security_profile_is_loaded = (error_code<1,1> NE 12)
+    IF security_profile_is_loaded THEN
+        CRT "Security profile is loaded."
+    END ELSE
+        CRT "Security profile is NOT loaded."
+    END
 ```

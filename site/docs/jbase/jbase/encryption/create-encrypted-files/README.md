@@ -4,10 +4,7 @@
 **Updated At:** 5/31/2019 4:25:08 PM  
 **Original Doc:** [create-encrypted-files](https://docs.jbase.com/encryption/create-encrypted-files)  
 **Original ID:** 392676  
-**Internal:** Yes  
-
-
-
+**Internal:** No  
 
 To create an encrypted file, use the **CREATE-FILE** command with the **ENCRYPTED=TRUE** option:
 
@@ -48,7 +45,7 @@ jsh ~ -->had efile
 
 When files are created in this manner, the entire record including the record key (item ID) is encrypted, as shown by the hex dump above.
 
-Type **UD**files (directories) can also be created as encrypted.
+Type **UD** files (directories) can also be created as encrypted.
 
 ```
 jsh ~ -->create-file data ebp type=ud encrypted=true
@@ -56,9 +53,7 @@ jsh ~ -->create-file data ebp type=ud encrypted=true
 jsh ~ -->
 ```
 
-
-
-**jBC**(BASIC) programs can be created and compiled in an encrypted **UD**type file.
+**jBC** (BASIC) programs can be created and compiled in an encrypted **UD** type file.
 
 ```
 ed ebp goodbye.b
@@ -101,6 +96,6 @@ jsh ~\ebp -->had goodbye.b
 jsh ~\ebp -->
 ```
 
-
-
-**jcompile**will not work on an encrypted file. This won’t be done, **jcompile**doesn’t use JEDI to get its files, so it won’t ever work. If you have an encrypted source code file, you will have to use the **BASIC**command on it.
+**jcompile** will not work on an encrypted file.  
+This will not be implemented, as **jcompile** doesn’t use JEDI to get its files, so it won’t ever work.  
+If there is an encrypted source code file, you will have to use the **BASIC** command on it.
