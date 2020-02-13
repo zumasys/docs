@@ -39,6 +39,7 @@ module.exports = {
       'vuepress-plugin-reading-time': {},
       'vuepress-plugin-code-copy': { 
         selector: 'pre[class*="language-"] code',
+        align: 'top',
         color: '#eb6b3b',
         backgroundColor: '#eb6b3b'
       }
