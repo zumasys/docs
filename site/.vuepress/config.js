@@ -36,7 +36,12 @@ module.exports = {
       // We'll probably need to update this path once things go live (https://github.com/tolking/vuepress-plugin-reading-progress)
       'reading-progress': { readingDir: 'docs' },
       // Add article reading time estimate
-      'vuepress-plugin-reading-time': {}
+      'vuepress-plugin-reading-time': {},
+      'vuepress-plugin-code-copy': { 
+        selector: 'pre[class*="language-"] code',
+        color: '#eb6b3b',
+        backgroundColor: '#eb6b3b'
+      }
   },
   themeConfig: {
     logo: "/assets/img/logo-grey.png",
