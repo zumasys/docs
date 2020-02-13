@@ -66,6 +66,7 @@ To run the application locally:
 - Ryan Medina ([@ryannmedina](https://github.com/ryannmedina))
 - Peter Falson ([@pfalson](https://github.com/pfalson))
 - Mike Street ([@mikes-zum](https://github.com/mikes-zum))
+- Pete Schellenbach ([@pschellenbach](https://github.com/pschellenbach))
 
 ## Todo List
 
