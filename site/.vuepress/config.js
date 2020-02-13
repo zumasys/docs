@@ -41,7 +41,8 @@ module.exports = {
         selector: 'pre[class*="language-"] code',
         align: 'top',
         color: '#eb6b3b',
-        backgroundColor: '#eb6b3b'
+        backgroundColor: '#eb6b3b',
+        onHover: false
       }
   },
   themeConfig: {
