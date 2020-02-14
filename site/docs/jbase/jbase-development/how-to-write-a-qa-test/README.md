@@ -6,9 +6,7 @@
 **Original ID:** 283502  
 **Internal:** Yes  
 
-
-## 
-1. Abstract
+## 1. Abstract
 
 Each test  should be self-contained. If possible everything to do with the test  lives in the test; create-files and data, set up the environment, etc.  If the test fails, leave this data there so that someone can look at the cause of the failure.
 
@@ -17,7 +15,6 @@ The test should clean up any old files and data the next time it runs so that it
 - **Follow the [Coding Guidelines](./../jbc-coding-guidelines)**
 - All QA tests (we will subsequently just refer to them as 'tests') are called as subroutines from the main QA driver.
 - The subroutine arguments (explained below) must be:
-
 
 ```
 (result, parameters, feedback)
@@ -30,7 +27,6 @@ The test should clean up any old files and data the next time it runs so that it
 - Each  program should be testing 1, and only 1, aspect. There may be several  permuations that can be included, for example, testing conversion codes  like MD or MR, or testing **true** and **false** conditions of an emulation option or different values of an environment variable.
 - Return  the environment back to the way it was because other tests that follow  may assume certain original environment conditions and there is no way  to know the order of how tests run. For example, if you have to set  JBCEMULATE to test a specific emulation then do this:
 
-
 ```
 save_jbcemulate = GETENV("JBCEMULATE") ;* save it
 ...do your test...
@@ -39,10 +35,7 @@ ok = PUTENV("JBCEMULATE=" : save_jbcemulate) ;* restore the original setting
 
 - **Fail on first test.** If the test has multiple failure points then terminate the test at the first failure.
 
-
 *Please submit all new QA tests to Daniel Klein for review.*
-
-
 
 ## 2. Important Variables
 
@@ -61,8 +54,6 @@ Display as many debug details as you can at every stage of the test.
 
 Rule of thumb: Wherever there is a comment could be replaced with a **debug** display line.
  [I'm guilty of not doing this myself and, for the most part, the examples I'm providing are sparse in this respect.]
-
-
 
 ## 3. Setup
 
@@ -113,24 +104,22 @@ EXECUTE "CREATE-FILE testfile 3 11" CAPTURING quiet
 To run the test on your local system you will need a driver program:
 
 ```
-0001     PROGRAM testqa
-0002 * Syntax: testqa testname {debug}
-0003 * If 'debug' is specified  then this sets the 'debug' flag in the program
-0004     testsub = SYSTEM(1001)<2>
-0005     IF SYSTEM(1001)<3>'MCL' = 'debug' THEN debug = 1 ELSE
-0006         debug = OCONV(SYSTEM(1001)<3>, 'MCN') + 0
-0007     END
-0008     result = 0
-0009     feedback = ''
-0010     CALL @testsub(result, debug, feedback)
-0011     IF result THEN
-0012         IF debug ELSE CRT 'Failed!'
-0013     END ELSE
-0014         CRT 'Passed!'
-0015     END
+     PROGRAM testqa
+* Syntax: testqa testname {debug}
+* If 'debug' is specified  then this sets the 'debug' flag in the program
+    testsub = SYSTEM(1001)<2>
+    IF SYSTEM(1001)<3>'MCL' = 'debug' THEN debug = 1 ELSE
+        debug = OCONV(SYSTEM(1001)<3>, 'MCN') + 0
+    END
+    result = 0
+    feedback = ''
+    CALL @testsub(result, debug, feedback)
+    IF result THEN
+        IF debug ELSE CRT 'Failed!'
+    END ELSE
+        CRT 'Passed!'
+    END
 ```
-
-
 
 ## 4. Examples
 
