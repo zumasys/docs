@@ -242,7 +242,7 @@ Note: There are entries for each value in the DICT section of @AUDIT. The dictio
 
 Changing the output directory
 
-1. Open JED and edit the @AUDIT file @AUDIT\_CONFIG record
+1. Open JED and edit the @AUDIT file @AUDIT_CONFIG record
 
 ```
 JED DICT @AUDIT @AUDIT_CONFIG
@@ -297,7 +297,7 @@ ls -l
 total 0 prw-rw-r-- 1 fb fb 0 Mar 4 15:04 mypipe
 ```
 
-2. Create the @AUDIT file to reference this pipe. (Alternatively you could edit the DICT @AUDIT @AUDIT\_CONFIG attribute 1 to point to the pipe).
+2. Create the @AUDIT file to reference this pipe. (Alternatively you could edit the DICT @AUDIT @AUDIT_CONFIG attribute 1 to point to the pipe).
 
 ```
 CREATE-FILE @AUDIT TYPE=AUDIT OUTPUT=`pwd`/mypipe FORMAT=JSON
@@ -372,11 +372,11 @@ For Example:
 
 ### Changing Output Formats
 
-You can change the auditing options by editing the item @AUDIT\_CONFIG in the DICT @AUDIT file.
+You can change the auditing options by editing the item @AUDIT_CONFIG in the DICT @AUDIT file.
 
 Change the output type from MV to CSV
 
-1. Open JED and edit the @AUDIT file @AUDIT\_CONFIG record
+1. Open JED and edit the @AUDIT file @AUDIT_CONFIG record
 
 ```
 JED DICT @AUDIT @AUDIT_CONFIG
@@ -420,7 +420,7 @@ The ability to define audit logging on a per-file basis is achieved through edit
 
 Configuring different audit logging options for separate files
 
-1. Open JED and review the @AUDIT file @AUDIT\_CONFIG record
+1. Open JED and review the @AUDIT file @AUDIT_CONFIG record
 
 ```
 JED DICT @AUDIT @AUDIT_CONFIG
@@ -429,7 +429,7 @@ Command->
 0002 +TCSV
 ```
 
-2. Open JED to edit the dictionary file for the file that you wish to configure differently from the default audit logging configuration.
+2.  Open JED to edit the dictionary file for the file that you wish to configure differently from the default audit logging configuration.
 
 3. Add @AUDIT\_CONFIG record to file.
 
@@ -448,31 +448,30 @@ Record '@AUDIT_CONFIG' written to file 'DICT ACCOUNTS'
 
 - Changes to the @AUDIT file will not take effect for the running processes. To incorporate the changes, a process needs to exit and re-start.
 
+The mechanism works as though attribute &lt;2&gt; of @AUDIT_CONFIG in this individual file is appended to attribute &lt;2&gt; of @AUDIT_CONFIG in @AUDIT and then parsed as a single definition. As the options allow for clearing the options, and adding and taking away options, you have considerable flexibility.
 
-The mechanism works as though attribute &lt;2&gt; of @AUDIT\_CONFIG in this individual file is appended to attribute &lt;2&gt; of @AUDIT\_CONFIG in @AUDIT and then parsed as a single definition. As the options allow for clearing the options, and adding and taking away options, you have considerable flexibility.
+For example, if attribute &lt;2&gt; in the @AUDIT_CONFIG for the individual file is set to:
 
-For example, if attribute &lt;2&gt; in the @AUDIT\_CONFIG for the individual file is set to:
-
-+N,+D\*,+EPGP\_TTY
++N,+D\*,+EPGP_TTY
 
 This means:
 
 +N   Forget about anything defined so far -- start with a blank canvas, so anything in the default definition is forgotten about
 
-+D\* Output the diff of all attributes during a WRITE
++D\* Output the diff of all attributes during a DELETE
 
-+EPGP\_TTY Output the value of the environment variable PGP\_TTY
++EPGP_TTY Output the value of the environment variable PGP_TTY
 
 ### Programmatically Query and Set Audit Logging Options
 
 Although the @AUDIT file is a special file in that the output is one "record" to a single line in an OS flat file, you can still read it using normal jBASE mechanisms. We've already seen that you can do a LIST on @AUDIT, here is a programmatic way of accessing the data
 
 ```
-OPEN "@AUDIT" TO FILEVAR ELSE STOP 201,"@AUDIT" 
-SELECT FILEVAR 
-LOOP WHILE READNEXT key DO 
-READ record FROM FILEVAR,key ELSE DEBUG 
-PRINT "Update type ":record<2>:" at ":OCON (record<4>,"U0FF0":@VM:"MTS") 
+OPEN "@AUDIT" TO FILEVAR ELSE STOP 201,"@AUDIT"
+SELECT FILEVAR
+LOOP WHILE READNEXT key DO
+READ record FROM FILEVAR,key ELSE DEBUG
+PRINT "Update type ":record<2>:" at ":OCON (record<4>,"U0FF0":@VM:"MTS")
 REPEAT
 ```
 
@@ -497,13 +496,13 @@ IF IOCTL(FILEVAR, JBC_COMMMAND_AUDIT_SET , "-M") THEN NULL
 
 ### Externded information in the Audit Log record
 
-We have already seen the format of an entry in the audit log for a single event -- usually a attribute delimited record with 14 attributes. This is the default output. However, using some of the options in attribute 2 of the @AUDIT\_CONFIG record mean this record gets extended.
+We have already seen the format of an entry in the audit log for a single event -- usually a attribute delimited record with 14 attributes. This is the default output. However, using some of the options in attribute 2 of the @AUDIT_CONFIG record mean this record gets extended.
 
 This sections details the attributes that extended onto the default record with each option.
 
 Attribute 1 of the log record is changed from being a blank to being the attribute number where these extensions start. At the time of writing, we always start adding at attribute 15, and attribute 1 is set to 15 -- please don't hard-code 15 into your application, as jBASE might extend the default values in the future. Use attribute 1 to determine where to start looking for the extended information.
 
-As an example, given the following definition in @AUDIT\_CONFIG
+As an example, given the following definition in @AUDIT_CONFIG
 
 ```
 File DICT @AUDIT , Record '@AUDIT_CONFIG'        Insert 17:47:36
@@ -605,7 +604,7 @@ EGPG_TTY
 
 ### Extended Informtion with JSON Output
 
-In the previous example, the output format was multivalue. As an example, if we wanted to do the same thing but with JSON output, then our definition in @AUDIT\_CONFIG would simply have the instruction +TJSON added like this
+In the previous example, the output format was multivalue. As an example, if we wanted to do the same thing but with JSON output, then our definition in @AUDIT_CONFIG would simply have the instruction +TJSON added like this
 
 ```
 File DICT @AUDIT , Record '@AUDIT_CONFIG'       Insert 17:47:36
