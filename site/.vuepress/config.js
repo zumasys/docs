@@ -42,7 +42,7 @@ module.exports = {
       align: 'top',
       color: '#eb6b3b',
       backgroundColor: '#eb6b3b',
-      onHover: false
+      staticIcon: true
     }
   },
   themeConfig: {
