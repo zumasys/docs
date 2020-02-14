@@ -6,6 +6,100 @@
 **Original ID:** 253219  
 **Internal:** Yes
 
+## Table of Contents
+
+- [jBASE Fundamentals](#jbase-fundamentals)
+  - [Table of Contents](#table-of-contents)
+  - [Prerequisites](#prerequisites)
+  - [Document Scope](#document-scope)
+  - [Roots](#roots)
+  - [Just What Are These](#just-what-are-these)
+  - [Ports](#ports)
+  - [Config_EMULATE](#configemulate)
+  - [MultiValue Data Structure](#multivalue-data-structure)
+    - [MultiValues](#multivalues)
+    - [MultiValue Structure](#multivalue-structure)
+    - [MultiValue Uses](#multivalue-uses)
+  - [Files](#files)
+    - [The CREATE-FILE command](#the-create-file-command)
+    - [Typical File Creation](#typical-file-creation)
+    - [Overflow](#overflow)
+    - [Effect of overflow](#effect-of-overflow)
+    - [Sizing & Resizing of Files](#sizing--resizing-of-files)
+    - [What Modulo to use](#what-modulo-to-use)
+    - [Determine Separation](#determine-separation)
+    - [File Performance](#file-performance)
+      - [jstat](#jstat)
+      - [jrf](#jrf)
+      - [Resize during jrestore](#resize-during-jrestore)
+    - [Directory Files](#directory-files)
+  - [MD/VOC/SYSTEM](#mdvocsystem)
+    - [Accounts](#accounts)
+    - [**File and Account Pointers**](#file-and-account-pointers)
+      - [In the MD/VOC](#in-the-mdvoc)
+      - [In SYSTEM](#in-system)
+    - [User Directories](#user-directories)
+    - [The Optional MD](#the-optional-md)
+    - [LOGTO](#logto)
+  - [Understanding jQL](#understanding-jql)
+    - [jQL or SQL](#jql-or-sql)
+    - [Parts of a jQL Sentence](#parts-of-a-jql-sentence)
+    - [Finding A File](#finding-a-file)
+    - [Selection Criteria](#selection-criteria)
+    - [Sort Criteria](#sort-criteria)
+    - [Output Specifications](#output-specifications)
+  - [Dictionaries](#dictionaries)
+    - [Types of Dictionaries](#types-of-dictionaries)
+    - [Dictionaries](#dictionaries-1)
+    - [Dictionary Processing](#dictionary-processing)
+    - [Date Conversions](#date-conversions)
+    - [Decimal Conversions](#decimal-conversions)
+    - [Time Conversions](#time-conversions)
+    - [Group Extraction](#group-extraction)
+    - [Text Extraction](#text-extraction)
+    - [Table Lookup Example](#table-lookup-example)
+    - [I Types](#i-types)
+    - [JBCUserConversions](#jbcuserconversions)
+    - [Custom Date Conversion](#custom-date-conversion)
+    - [Using JBCUserConversions](#using-jbcuserconversions)
+  - [JCL](#jcl)
+    - [Procs](#procs)
+    - [Proc Example](#proc-example)
+    - [Paragraphs](#paragraphs)
+    - [Paragraph Example](#paragraph-example)
+  - [jBC](#jbc)
+    - [RUN Unnecessary](#run-unnecessary)
+    - [Subroutines and Functions](#subroutines-and-functions)
+    - [jLibDefinition File](#jlibdefinition-file)
+    - [Directing CATALOG](#directing-catalog)
+    - [jBC and jbuildslib Commands](#jbc-and-jbuildslib-commands)
+    - [Workshop #1](#workshop-1)
+  - [@](#)
+  - [Arrays](#arrays)
+    - [Dynamic Arrays](#dynamic-arrays)
+    - [Dimensioned Arrays](#dimensioned-arrays)
+    - [Resizing Arrays](#resizing-arrays)
+  - [Use of OPEN, READ, and WRITE](#use-of-open-read-and-write)
+    - [Workshop #2](#workshop-2)
+  - [ICONV and OCONV](#iconv-and-oconv)
+    - [Workshop #3](#workshop-3)
+    - [Workshop #4](#workshop-4)
+  - [Case Statements](#case-statements)
+  - [LOCATE](#locate)
+  - [Use of INS, INSERT, DEL and DELETE](#use-of-ins-insert-del-and-delete)
+  - [COUNT and DCOUNT](#count-and-dcount)
+    - [Workshop #5](#workshop-5)
+  - [SYSTEM](#system)
+  - [IOCTL](#ioctl)
+    - [IOCTL Example](#ioctl-example)
+  - [User Defined Functions](#user-defined-functions)
+    - [User Defined Functions Example](#user-defined-functions-example)
+  - [EXECUTE or PERFORM](#execute-or-perform)
+  - [jbc Code Optimization](#jbc-code-optimization)
+    - [jprof](#jprof)
+    - [jcover](#jcover)
+    - [jkeyauto](#jkeyauto)
+
 ## Prerequisites
 
 To get the most out of this document, it is recommended that the user has an installed licenced copy of jBASE. A basic understanding of jBASE terminology will be an advantage.
@@ -233,7 +327,7 @@ It should be noted however that this method is only a rule of thumb, and can not
 
 Determining modulo is thus an art form and not an exact science.
 
-### **Determine Separation**
+### Determine Separation
 
 Most of the time, separation is not needed. However, if the average size of a record exceeds the size of the block, or if there is a lot of wasted space in a block, separation may help optimize file size and record distribution.
 
@@ -429,7 +523,7 @@ F Pointers
 002 Account path
 ```
 
-### **User Directories**
+### User Directories
 
 User directories that may exist on any installation could include the following:
 
@@ -496,11 +590,11 @@ There are 5 parts to a jQL sentence.
 4. Sort criteria – puts resulting records in user defined order.
 5. Output specifications – fields to display and additional formatting instructions.
 
-### **Finding A File**
+### Finding A File
 
 The MD is searched first if `JEDIFILENAME_MD` is set, then `JEDIFILEPATH` is searched.
 
-### **Selection Criteria**
+### Selection Criteria
 
 - The `WITH` or `WITHOUT` modifies the dictionary to be used as selection criteria.
 - Relational operators are used to compare query value to data base contents. The following may be used: `=`, `#`, `<`, `>`, `<=`, `>=`.
@@ -518,7 +612,7 @@ LIST CUSTOMER WITH CUS.NAME LIKE “A…” CUS.NAME
 SORT ORDER WITH ORD.DATE GE “10/01/96” AND LT “11/01/96” ORD.DATE
 ```
 
-### **Sort Criteria**
+### Sort Criteria
 
 Different key terms will sort search results differently as can be noted bellow:
 
@@ -549,7 +643,7 @@ SORT ORDER BY ORD.DATE WITH ORD.DATE GE “10/01/96” AND LT 11/01/96” ORD.DA
 SORT CUSTOMER BY-EXP ORDERS ORDERS ORD.AMT ORD.DATE CUS.NAME
 ```
 
-### **Output Specifications**
+### Output Specifications
 
 Any field name without a modifier is displayed
 
@@ -1003,7 +1097,7 @@ Arrays are primarily used to map a data base record. The first array element is 
 - Dynamic arrays
 - Dimensioned arrays
 
-### 1. Dynamic Arrays
+### Dynamic Arrays
 
 In a dynamic array, every variable is an array whose length is not fixed. Every dynamic array is one variable, with a variable number of elements. The elements referenced with `<` `>` as follows:
 
@@ -1011,7 +1105,7 @@ In a dynamic array, every variable is an array whose length is not fixed. Every 
 - `array<2,3>` is the third MultiValue of field two
 - `array<5,2,1>` is the first subvalue of the second MultiValue of field five
 
-### 2. Dimensioned Arrays
+### Dimensioned Arrays
 
 These arrays must be dimensioned first, as:
 
@@ -1032,7 +1126,7 @@ First set `resize_array=true` in `Config_EMULATE`, then use
 
 The `DIM` statement may be used more than once for the same array to resize it according to program needs.
 
-### Use of OPEN, READ, and WRITE
+## Use of OPEN, READ, and WRITE
 
 `OPEN` - opens a data file to a file handle for use in a program
 
@@ -1077,7 +1171,7 @@ END ELSE
 END
 ```
 
-### ICONV and OCONV
+## ICONV and OCONV
 
 `ICONV` is a function that converts data from an external format, to its equivalent internal format. In use it may take the form below:
 
@@ -1144,7 +1238,7 @@ END ELSE
 END
 ```
 
-### Case Statements
+## Case Statements
 
 The case statement is an alternative to the nested `IF`...`THEN`...`ELSE`. The same logic is employed, but case statements are more readable. The statement takes the form:
 
@@ -1159,7 +1253,7 @@ BEGIN CASE
 END CASE
 ```
 
-### LOCATE
+## LOCATE
 
 The `LOCATE` statement is used to find which multivalue contains the information being sought.
 
@@ -1184,7 +1278,7 @@ In everyday use, would look as follows:
 LOCATE invnbr IN invlst BY ‘AR’ SETTING pos THEN . . . ELSE . . .
 ```
 
-### Use of INS, INSERT, DEL and DELETE
+## Use of INS, INSERT, DEL and DELETE
 
 **INS** used as:
 
@@ -1245,7 +1339,7 @@ Where:
 - `field,value,sub` - dynamic array location
 - `data` - information to be deleted
 
-### COUNT and DCOUNT
+## COUNT and DCOUNT
 
 The `COUNT` function returns the number of occurrences of one string in another. An example of its use is as:
 
@@ -1301,7 +1395,7 @@ UNTIL LTR = "" DO
 REPEAT
 ```
 
-### SYSTEM
+## SYSTEM
 
 Typical `SYSTEM` options are supported, but jBASE has additional options specific to the platform including:
 
@@ -1315,7 +1409,7 @@ Typical `SYSTEM` options are supported, but jBASE has additional options specifi
 
 JBC.h has more details on the available additional `SYSTEM` options.
 
-### IOCTL
+## IOCTL
 
 This function provides direct communication to the database driver for a particular file (hash, directory, serial, sequential). Be sure to `INCLUDE JBC.h` in the program for definitions of `IOCTL` commands. It takes the general form:
 
@@ -1345,7 +1439,7 @@ END ELSE
 END
 ```
 
-### User Defined Functions
+## User Defined Functions
 
 User defined functions are cataloged into the JBCDEV_LIB directory. The `FUNCTION` statement is the first executable line of the function. Ideally, the function will have a `RETURN` value. Use `DEFFUN` in each program that will use the function.
 
@@ -1369,7 +1463,7 @@ CRT RES
 END
 ```
 
-### EXECUTE or PERFORM
+## EXECUTE or PERFORM
 
 This statement pauses the currently executing program and Executes any operating system command, including other jBASE programs or commands. Clauses that may be used with the statement include:
 
@@ -1380,7 +1474,7 @@ This statement pauses the currently executing program and Executes any operating
 - `PASSDATA` - sends variable contents to executing program. Use `COLLECTDATA` to pick up variable
 - `RTNDATA` - returns variable contents from executing program. Use `RTNDATA` statement to return data
 
-### jbc Code Optimization
+## jbc Code Optimization
 
 Involves the use of `jprof`, `jcover` and `jkeyauto`.
 
