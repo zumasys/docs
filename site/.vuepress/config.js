@@ -29,7 +29,7 @@ module.exports = {
       }
     },
     // Git Log/Details
-    "git-log": { onlyFirstAndLastCommit: false },
+    //"git-log": { onlyFirstAndLastCommit: false },
     // Loading Progress Bar
     "vuepress-plugin-nprogress": {},
     // Reading Progress Bar
@@ -43,7 +43,8 @@ module.exports = {
       color: '#eb6b3b',
       backgroundColor: '#eb6b3b',
       staticIcon: true
-    }
+    },
+    "social-share": {}
   },
   themeConfig: {
     logo: "/assets/img/logo-grey.png",
