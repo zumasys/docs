@@ -15,7 +15,7 @@ The installation package is comprised of two components, the **ODBCjEDI-UNIX.jpk
 
 ## Note
 
-For this example, **jBASE****I****nstall/** will be the location our components are stored after initial download  
+For this example, **jBASEInstall/** will be the location our components are stored after initial download  
 2. Run the install for the package installer (as root)
 
 ```
@@ -131,11 +131,11 @@ Table Separator:        _
 VMC Separator:          _  
 Passwords Encrypted:    Yes
 UID:                    sa
-Password:               ********** 
-Database:               master 
+Password:               **********
+Database:               master
 ```
 
-7.  You will be prompted one last time and asked if you want to continue with your installation. Enter Yes to test your *DSN* connection. If the connection is successful, you will be told the installation has succeeded. If not, you will need to verify your *DSN* and the *DSN*fields in step 6 were set up correctly.
+7. You will be prompted one last time and asked if you want to continue with your installation. Enter Yes to test your *DSN* connection. If the connection is successful, you will be told the installation has succeeded. If not, you will need to verify your *DSN* and the *DSN*fields in step 6 were set up correctly.
 
 ```
 Continue with installation? Yes

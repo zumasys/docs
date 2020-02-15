@@ -14,9 +14,9 @@ This file contains the configuration of how the client and server “Connect” 
 
 Goes into the details of the subject. Any tables used for illustration may take the form:
 
-| Heading 1<br> | Heading 2<br> | Heading 3<br> | Heading 4<br> |
+| Heading 1 | Heading 2 | Heading 3 | Heading 4 |
 | --- | --- | --- | --- |
-| Table element<br> | Table element<br> | Table element<br> | Table element<br> |
+| Table element | Table element | Table element | Table element |
 
 If any code samples,
 

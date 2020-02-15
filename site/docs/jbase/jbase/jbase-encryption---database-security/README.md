@@ -6,7 +6,6 @@
 **Original ID:** 322165  
 **Internal:** No  
 
-
 ## Abstract
 
 jBASE 5.6 introduced a native encryption option that was later enhanced in jBASE 5.7.2 to better adhere to compliance and regulatory requirements. The feature allows jBASE to encrypt data files at rest, such that only parties with the decryption key can decode and read the data. This document covers the administration, creation, and maintenance of encrypted files on jBASE.
@@ -21,10 +20,7 @@ The data encryption process includes:
 - Create an encryption key or passphrase for files.
 - Encrypt data with the encryption keys.
 
-
-
-
-### Info
+### Info #1
 
 Most options of the jsecurity command require root/administrator privileges
 
@@ -84,16 +80,11 @@ New security profile successfully created.
 jsh ~ -->
 ```
 
-#### 
+### Info #2
 
-
-### Info
-
-- The**filename**used with the **-f** option can be full or relative. If the **-f** option is not used then the default is **$JBCRELEASEDIR/config/filesecurity**.
+- The **filename** used with the **-f** option can be full or relative. If the **-f** option is not used then the default is **$JBCRELEASEDIR/config/filesecurity**.
 - The **AES** cipher is **AES256**
-- [**PBKDF2**](https://en.wikipedia.org/wiki/PBKDF2) is a way of obscuring the password
-
-
+- [**PBKDF2** ](https://en.wikipedia.org/wiki/PBKDF2) is a way of obscuring the password
 
 The last step is to **load** the profile into shared memory. ***This needs to be done EACH TIME the system is rebooted or a new security profile needs to be activated.***
 
@@ -110,11 +101,9 @@ File encryption type : AES
 
 There is no maximum length for the encryption key for jBASE data files when using **PBKDF2**to derive the actual key. This is the default. However, if number of iterations is 0, the maximum key size is 32 characters.
 
-
-
 ### Warning
 
-On Windows, the shared memory that jBASE creates is unloaded when the last jBASE process terminates. This means that you must have at least 1 running jBASE process in order for the security profile to remain loaded. The best way to accomplish this is to start **jDLS**beforehand which will allow shared memory to persist.
+On Windows, the shared memory that jBASE creates is unloaded when the last jBASE process terminates. This means that you must have at least 1 running jBASE process in order for the security profile to remain loaded. The best way to accomplish this is to start **jDLS** beforehand which will allow shared memory to persist.
 
 To determine whether or not the security profile has been loaded:
 
@@ -128,17 +117,15 @@ This is the only option that does not require root/administrator privileges, so 
 The status can also be obtained programmatically :
 
 ```
-001     PROGRAM jsecurity_status
-002     EXECUTE "jsecurity status" SETTING error_code CAPTURING quiet
-003     security_profile_is_loaded = (error_code<1,1> NE 12)
-004     IF security_profile_is_loaded THEN
-005         CRT "Security profile is loaded."
-006     END ELSE
-007         CRT "Security profile is NOT loaded."
-008     END
+     PROGRAM jsecurity_status
+     EXECUTE "jsecurity status" SETTING error_code CAPTURING quiet
+     security_profile_is_loaded = (error_code<1,1> NE 12)
+     IF security_profile_is_loaded THEN
+         CRT "Security profile is loaded."
+     END ELSE
+         CRT "Security profile is NOT loaded."
+     END
 ```
-
-
 
 ## Create Encrypted Files
 
@@ -181,7 +168,7 @@ jsh ~ -->had efile
 
 When files are created in this manner, the entire record including the record key (item ID) is encrypted, as shown by the hex dump above.
 
-Type **UD**files (directories) can also be created as encrypted.
+Type **UD** files (directories) can also be created as encrypted.
 
 ```
 jsh ~ -->create-file data ebp type=ud encrypted=true
@@ -189,9 +176,7 @@ jsh ~ -->create-file data ebp type=ud encrypted=true
 jsh ~ -->
 ```
 
-
-
-**jBC**(BASIC) programs can be created  and compiled in an encrypted **UD**type file.
+**jBC** (BASIC) programs can be created  and compiled in an encrypted **UD** type file.
 
 ```
 ed ebp goodbye.b
@@ -234,68 +219,58 @@ jsh ~\ebp -->had goodbye.b
 jsh ~\ebp -->
 ```
 
-
-
-**jcompile**will not work on an encrypted file. This won’t be done, **jcompile**doesn’t use JEDI to get its files, so it won’t ever work. If you have an encrypted source code file, you will have to use the **BASIC**command on it.
-
-## 
-
+**jcompile** will not work on an encrypted file. This won’t be done, **jcompile** doesn’t use JEDI to get its files, so it won’t ever work. If you have an encrypted source code file, you will have to use the **BASIC** command on it.
 
 ## Miscellaneous Notes
 
 - Encrypted indexes can be created on encrypted files. An index is automatically encrypted if the main file is encrypted.
 - Triggers can be placed on encrypted files; if the trigger writes to an encrypted file then the written data remains encrypted.
-- Spooler hold files are encrypted in the same manner as before, by using the **(Z**option with **SP-CREATE**/**SP-DEVICE**. This will eventually be changed to use the new encryption paradigm. Refer to the **Configure an Encrypted Spooler Queue** below.
-- The **rename-file**command now works because there is no more ]K file; the contents of that file are now stored in the shared memory that gets created when the security profile is loaded, i.e. **jsecurity load**.
-- **jbackup**will decrypt the data. This is a good thing because a backup without encryption gives you some safety against losing your keys and if you lose your keys it is game over.
-- **make-demo-file**has a new option **(E** to create the file as encrypted.
+- Spooler hold files are encrypted in the same manner as before, by using the **(Z** option with **SP-CREATE**/**SP-DEVICE**. This will eventually be changed to use the new encryption paradigm. Refer to the **Configure an Encrypted Spooler Queue** below.
+- The **rename-file** command now works because there is no more ]K file; the contents of that file are now stored in the shared memory that gets created when the security profile is loaded, i.e. **jsecurity load**.
+- **jbackup** will decrypt the data. This is a good thing because a backup without encryption gives you some safety against losing your keys and if you lose your keys it is game over.
+- **make-demo-file** has a new option **(E** to create the file as encrypted.
 - Case Insensitive files can be created as encrypted by using the **CASE=NO** option.
 - Transaction boundaries (**TRANSTART** / **TRANSEND**, etc.) work with encrypted files.
-- **jrf**works on encrypted files and will keep the resized file encrypted. The **-O**option will encrypt the file if it was previously un-encrypted; **-N**will decrypt the file if it was previously encrypted. On jBASE 5.7 resized files will, by default, be converted to a Dynamic File unless explicitly told otherwise with one of the other options.
+- **jrf** works on encrypted files and will keep the resized file encrypted. The **-O** option will encrypt the file if it was previously un-encrypted; **-N** will decrypt the file if it was previously encrypted. On jBASE 5.7 resized files will, by default, be converted to a Dynamic File unless explicitly told otherwise with one of the other options.
 - Dynamic Files can be created as encrypted (jBASE 5.7 only)
-- **create-file**with **type=jbc** recognizes the **encrypted=true**option, e.g. **create-file data bp type=ud encrypted=true** (jBASE 5.7 only)
+- **create-file** with **type=jbc** recognizes the **encrypted=true** option, e.g. **create-file data bp type=ud encrypted=true** (jBASE 5.7 only)
 - At this time, the logs created by **[Audit Logging](./../introduction-to-audit-logging)** are not encrypted. This will be implemented in a future release.
 - The following code, which uses a feature of [**Dynamic Objects**](./../../dynamic-objects/dynamic-objects), can be used to programmatically determine if a file is encrypted:
 
-
 ```
-001     PROGRAM encrypted
-002     filename = sentence(1)  ;* obtain the filename from the command line
-003     OPEN filename TO filevar ELSE STOP 201, filename
-004     file_is_encrypted = filevar->getstats()->encrypt
-005     CRT "File ":DQUOTE(filename):" is ":
-006     CRT (IF file_is_encrypted THEN "encrypted." ELSE "NOT encrypted.")
+        PROGRAM encrypted
+        filename = sentence(1)  ;* obtain the filename from the command line
+        OPEN filename TO filevar ELSE STOP 201, filename
+        file_is_encrypted = filevar->getstats()->encrypt
+        CRT "File ":DQUOTE(filename):" is ":
+        CRT (IF file_is_encrypted THEN "encrypted." ELSE "NOT encrypted.")
 ```
-
-
-
-
 
 ## Create an Encrypted Spooler Queue
 
-To protect data that is sent to the spooler, jobs can be encrypted but only when using device types of **PROG**or **FILE**when the spooler queue is initially created.
+To protect data that is sent to the spooler, jobs can be encrypted but only when using device types of **PROG** or **FILE** when the spooler queue is initially created.
 
-**COMMAND SYNTAX:**
+**Command Syntax:**
 
 ```
 SP-CREATE <QueueName> PROG devicename (Z
 SP-CREATE <QueueName> FILE devicename (Z
 ```
 
-To enable spooler encryption you must use the **PROG** or **FILE**device type with the (Z) option when you create the form queue.
+To enable spooler encryption you must use the **PROG** or **FILE** device type with the (Z) option when you create the form queue.
 
 ```
 SP-CREATE MYQUEUE PROG lp -d HPLASERJET (Z
 SP-ASSIGN =MYQUEUE
 ```
 
-If the **H**(Hold) option is specified doing the **SP-ASSIGN** then it will not be possible to view the contents of the print job:
+If the **H** (Hold) option is specified doing the **SP-ASSIGN** then it will not be possible to view the contents of the print job:
 
 ```
 SP-ASSIGN =MYQUEUE HS
 ```
 
-If you attempt to edit the print job with **SP-EDIT**or with option 8 on the **SP-JOBS**menu then you will see the message **Encrypted no access from edit**, e.g.
+If you attempt to edit the print job with **SP-EDIT** or with option 8 on the **SP-JOBS** menu then you will see the message **Encrypted no access from edit**, e.g.
 
 ```
 SP-EDIT 2
@@ -304,5 +279,3 @@ TOI
 .
 Encrypted no access from edit
 ```
-
-

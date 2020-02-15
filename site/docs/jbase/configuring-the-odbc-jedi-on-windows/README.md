@@ -6,7 +6,6 @@
 **Original ID:** 497473  
 **Internal:** Yes  
 
-
 For windows operating systems, only the **jEDIdrivers.ini** file needs to be properly configured for correct function of the utility (as the ODBC definitions are defined in the native Windows 32/64 bit manager). It can exist in the **%SYSTEMROOT%, %JBCDATADIR%/config,** or **%HOME%** environment variables. Moreover, since the *ODBC* *jEDI* is comprised of a set of bin (executable) and lib (driver libraries and subroutines) binary-object files, you must ensure the lib directory path is added to your **PATH** environment variable (before beginning the steps listed below). The full path of the bin directory is located within your **PATH** environment variable, and the full path of the lib directory is located within your **JBCOBJECTLIST** environment variable.
 
 For the configuration example below, we will be configuring an MSSQL *ODBC*driver by doing the following:

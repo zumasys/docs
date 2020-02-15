@@ -133,13 +133,13 @@ The arithmetic F code operators work on just the top stack entry or the top two 
 
 | <!----> | <!----> |
 | --- | --- |
-| +<br> | Add the top two stack entries together and push result into entry 1.<br> |
-| -<br> | Subtract stack entries and push result into entry 1:<br><br>| <!----> | <!----> |<br>| --- | --- |<br>| F | subtract entry 1 from entry 2 |<br>| FS, FE | subtract entry 1 from entry 2 |<br>| F | subtract entry 2 from entry 1 (ROS emulation) |<br><br> |
-| \*{n}<br> | Multiply the top two stack entries and push result into entry 1. If n is specified, the result is divided by 10 raised to the power of n.<br> |
-| **/**<br> | Divide stack entries and push quotient into entry 1:<br><br>| <!----> | <!----> |<br>| --- | --- |<br>| F | divide entry 2 by entry 1 |<br>| FS, FE | divide entry 2 by entry 1 |<br>| F | divide entry 1 by entry 2 (ROS emulation) |<br><br> |
-| **R**<br> | Compute remainder from the top two stack entries and push result into entry 1:<br><br>| <!----> | <!----> |<br>| --- | --- |<br>| F | remainder of entry 2 / entry 1 |<br>| FS, FE | remainder of entry 2 / entry 1 |<br>| F | remainder of entry 1 / entry 2 |<br><br> |
-| **I**<br> | Return the integer part of entry 1 to the top of the stack.<br> |
-| **S**<br> | Replace the multivalued entry 1 with the sum of the multivalues and subvalues.<br> |
+| + | Add the top two stack entries together and push result into entry 1. |
+| -| Subtract stack entries and push result into entry 1:| <!----> | <!----> |<br><br>| F | subtract entry 1 from entry 2 |<br>| FS, FE | subtract entry 1 from entry 2 |<br>| F | subtract entry 2 from entry 1 (ROS emulation) |<br> |
+| \*{n} | Multiply the top two stack entries and push result into entry 1. If n is specified, the result is divided by 10 raised to the power of n. |
+| **/**| Divide stack entries and push quotient into entry 1:| <!----> | <!----> |<br>| --- | --- |<br>| F | divide entry 2 by entry 1 |<br>| FS, FE | divide entry 2 by entry 1 |<br>| F | divide entry 1 by entry 2 (ROS emulation) |<br> |
+| **R** | Compute remainder from the top two stack entries and push result into entry 1:| <!----> | <!----> |<br>| --- | --- |<br>| F | remainder of entry 2 / entry 1 |<br>| FS, FE | remainder of entry 2 / entry 1 |<br>| F | remainder of entry 1 / entry 2 |<br><|
+| **I** | Return the integer part of entry 1 to the top of the stack.|
+| **S**| Replace the multivalued entry 1 with the sum of the multivalues and subvalues. |
 
 ### Miscellaneous Operators
 
@@ -147,11 +147,11 @@ Miscellaneous operators control formatting, exchanging stack entries, popping th
 
 | <!----> | <!----> |
 | --- | --- |
-| \_<br> | Exchange the top two entries.<br> |
-| ^<br> | Pop last entry from the stack and discard. All other entries are pushed up.<br> |
-| (format-code)<br> | Perform the specified format code on last entry and replace last entry with the result.<br> |
-| :<br> | Concatenate stack entries:<br><br>| <!----> | <!----> |<br>| --- | --- |<br>| F | Concatenates Entry 1 to the end of Entry 2 |<br>| FS, FE | Concatenates Entry 1 to the end of Entry 2 |<br>| F | Concatenates Entry 2 to the end of Entry 1(ROS emulation) |<br><br> |
-| [ ]<br> | Extract a substring from stack entry 3. The starting column is specified in stack entry 2 and the number of characters is specified in entry 1<br> |
+| \_ | Exchange the top two entries. |
+| ^ | Pop last entry from the stack and discard. All other entries are pushed up. |
+| (format-code) | Perform the specified format code on last entry and replace last entry with the result. |
+| : | Concatenate stack entries:<br><br>| <!----> | <!----> |<br>| --- | --- |<br>| F | Concatenates Entry 1 to the end of Entry 2 |<br>| FS, FE | Concatenates Entry 1 to the end of Entry 2 |<br>| F | Concatenates Entry 2 to the end of Entry 1(ROS emulation) |<br> |
+| [ ] | Extract a substring from stack entry 3. The starting column is specified in stack entry 2 and the number of characters is specified in entry 1 |
 
 ### Relational Operators
 
@@ -159,12 +159,12 @@ Relational operators compare stack entries. The result is pushed onto stack entr
 
 | <!----> | <!----> |
 | --- | --- |
-| =<br> | equal to<br> |
-| &lt;<br> | less than:<br><br>| <!----> | <!----> |<br>| --- | --- |<br>| F | entry 2 &lt; entry 1 |<br>| FS,FE | entry2 &lt; entry 1 |<br>| F | entry 1 &lt; entry 2  (ROS emulation) |<br><br> |
-| &gt;<br> | Greater than:<br><br>| <!----> | <!----> |<br>| --- | --- |<br>| F | entry 2 &gt; entry 1 |<br>| FS,FE | entry2 &gt; entry 1 |<br>| F | entry 1 &gt; entry 2  (ROS emulation) |<br><br> |
-| [<br> | Less than or equal to:<br><br>| <!----> | <!----> |<br>| --- | --- |<br>| F | entry 2 [ entry 1 |<br>| FS,FE | entry2 [ entry 1 |<br>| F | entry 1 [ entry 2  (ROS emulation) |<br><br> |
-| ]<br> | Great than or equal to:<br><br>| <!----> | <!----> |<br>| --- | --- |<br>| F | entry 2 [ entry 1 |<br>| FS,FE | entry 2 [ entry 1 |<br>| F | entry 1 [ entry 2  (ROS emulation) |<br><br> |
-| #<br> | Not equal.<br> |
+| = | equal to |
+| &lt; | less than:| <!----> | <!----> |<br>| --- | --- |<br>| F | entry 2 &lt; entry 1 |<br>| FS,FE | entry2 &lt; entry 1 |<br>| F | entry 1 &lt; entry 2  (ROS emulation) |<br> |
+| &gt; | Greater than:| <!----> | <!----> |<br>| --- | --- |<br>| F | entry 2 &gt; entry 1 |<br>| FS,FE | entry2 &gt; entry 1 |<br>| F | entry 1 &gt; entry 2  (ROS emulation) |<br> |
+| [ | Less than or equal to:| <!----> | <!----> |<br>| --- | --- |<br>| F | entry 2 [ entry 1 |<br>| FS,FE | entry2 [ entry 1 |<br>| F | entry 1 [ entry 2  (ROS emulation) |<br> |
+| ] | Great than or equal to:| <!----> | <!----> |<br>| --- | --- |<br>| F | entry 2 [ entry 1 |<br>| FS,FE | entry 2 [ entry 1 |<br>| F | entry 1 [ entry 2  (ROS emulation) |<br> |
+| # | Not equal. |
 
 ### Logical Operators
 
