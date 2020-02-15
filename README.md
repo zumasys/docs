@@ -94,7 +94,7 @@ To run the application locally:
 - [ ] Add [SEO](https://github.com/lorisleiva/vuepress-plugin-seo) plugin (for automatic SEO meta tag generation)
 - [ ] Related to above, may also need [autometa](https://github.com/webmasterish/vuepress-plugin-autometa) plugin
 - [x] Add [reading time](https://github.com/darrenjennings/vuepress-plugin-reading-time) plugin (to show etsimated reading time for an article)
-- [ ] Add [social share](https://github.com/ntnyq/vuepress-plugin-social-share) plugin (to activate social network share icons)
+- [x] Add [social share](https://github.com/ntnyq/vuepress-plugin-social-share) plugin (to activate social network share icons)
 - [x] Add [code copy](https://github.com/znicholasbrown/vuepress-plugin-code-copy) plugin (to allow for click-to-copy of source code)
 - [ ] Add [img lazy](https://github.com/tolking/vuepress-plugin-img-lazy) plugin (to add lazy loading for images)
 - [ ] Add [back to top](https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-back-to-top) plugin (for automatic back-to-top links)
