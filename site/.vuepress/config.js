@@ -29,7 +29,7 @@ module.exports = {
       }
     },
     // Git Log/Details
-    //"git-log": { onlyFirstAndLastCommit: false },
+    "git-log": { onlyFirstAndLastCommit: false },
     // Loading Progress Bar
     "vuepress-plugin-nprogress": {},
     // Reading Progress Bar
