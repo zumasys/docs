@@ -6,8 +6,7 @@
 **Original ID:** 344519  
 **Internal:** Yes  
 
-
-### Description
+## Description
 
 BASIC/CATALOG/DECATALOG commands to require an explicit item-list **[this patch has been reverted]**
 
@@ -29,7 +28,6 @@ The BASIC, CATALOG and DECATALOG commands now require one of the following:
 - an explicit item-list
 - "\*" for all programs
 - a preceding select-list
-
 
 e.g.
 

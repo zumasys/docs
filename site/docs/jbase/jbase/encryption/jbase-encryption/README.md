@@ -4,7 +4,7 @@
 **Updated At:** 5/31/2019 7:57:56 PM  
 **Original Doc:** [jbase-encryption](https://docs.jbase.com/encryption/jbase-encryption)  
 **Original ID:** 391951  
-**Internal:** Yes  
+**Internal:** No  
 
 ## Introduction
 

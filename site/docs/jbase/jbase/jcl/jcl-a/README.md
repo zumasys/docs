@@ -4,7 +4,7 @@
 **Updated At:** 6/1/2018 5:34:29 PM  
 **Original Doc:** [318615-jcl-a](https://docs.jbase.com/45792-jcl/318615-jcl-a)  
 **Original ID:** 318615  
-**Internal:** Yes  
+**Internal:** No
 
 ## Description
 
@@ -50,49 +50,56 @@ where:
 
 ## Example 1
 
+```
+| Command |   PIB Before   |   PIB After   |
+| ------- |   ----------   |   ---------   |
+| A       | AAA^SALES^JAN  | AAA^SALES^JAN |
+|         |    ^           |          ^    |
+|         | **POB Before** | **POB After** |
+|         | LIST^          | LIST^SALES^   |
+|         |     ^          |           ^   |
 
-| Command | PIB Before | PIB After |
-| --- | --- | --- |
-| A | AAA SALES^JAN | AAA^SALES^JAN |
-|  | ^ | ^ |
-|  | **POB Before** | **POB After** |
-|  | LIST^ | LIST^SALES^ |
-|  | ^ | ^ |
+```
 
 Note the position of the buffer pointer after you issue the A command.
 
 ## Example 2
 
-
-| Command | PIB Before | PIB After |
-| --- | --- | --- |
-| A | AAA^SALES^JAN | AAA^SALES^JAN |
-|   | ___^          | _________^ |
-|  | **POB Before** | **POB After** |
-|  | LIST^SALES^ | LIST^SALES^JAN |
-|  | ^ | ^ |
+```
+| Command |   PIB Before   |   PIB After    |
+| ------- |   ----------   |   ---------    |
+| A       | AAA^SALES^JAN  | AAA^SALES^JAN  |
+|         |          ^     |              ^ |
+|         | **POB Before** | **POB After**  |
+|         | LIST^SALES^    | LIST^SALES^JAN |
+|         |           ^    |               ^|
+```
 
 Issuing an A"3 command would have achieved the same result, except that the starting position of the PIB pointer would have been immaterial.
 
 ## Example 3
 
-| Command | PIB Before | PIB After |
-| --- | --- | --- |
-| A\ | ABC^DEF^GHI | ABC^DEF^GHI |
-|  | ^ | ^ |
-|  | **POB Before** | **POB After** |
-|  | XXX^ | XXXABC^ |
-|  | ^ | ^ |
+```
+| Command |   PIB Before   |   PIB After   |
+| ------- |   ----------   |   ---------   |
+| A\      | ABC^DEF^GHI    | ABC^DEF^GHI   |
+|         | ^              |             ^ |
+|         | **POB Before** | **POB After** |
+|         | XXX^           | XXXABC^       |
+|         |    ^           |       ^       |
+```
 
 ## Example 4
 
-| Command | PIB Before | PIB After |
-| --- | --- | --- |
-| A2 (2,-2) | ABC^MYLIST^JKL | ABC^MYLIST^JKL |
-|  | ^ | ^ |
-|  | **POB Before** | **POB After** |
-|  | SAVE-LIST^ | SAVE-LIST MYLIST |
-|  | ^ | ^ |
+```
+|  Command  |   PIB Before   |   PIB After      |
+|  -------  |   ----------   |   ---------      |
+| A2 (2,-2) | ABC^MYLIST^JKL | ABC^MYLIST^JKL   |
+|           |           ^    |              ^   |
+|           | **POB Before** | **POB After**    |
+|           | SAVE-LIST^     | SAVE-LIST MYLIST |
+|           |           ^    |                 ^|
+```
 
 The command attempts to copy the second parameter from the PIB, starting with the second character, up to and including, the penultimate character, to the current output buffer.
 
