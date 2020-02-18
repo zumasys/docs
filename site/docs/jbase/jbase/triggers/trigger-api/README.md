@@ -4,7 +4,7 @@
 **Updated At:** 11/27/2018 5:17:27 PM  
 **Original Doc:** [trigger-api](https://docs.jbase.com/48168-triggers/trigger-api)  
 **Original ID:** 334578  
-**Internal:** Yes  
+**Internal:** No  
 
 **Tags:**
 <badge text='events and triggers' vertical='middle' />
@@ -15,16 +15,29 @@ The mechanism provided to define the action that takes place when a database tri
 
 The subroutine can used to define ancillary updates that need to occur as a result of the primary update. The seven parameters passed to the subroutine allow interrogation and (where applicable) manipulation of the record being updated.
 
-
 | SubroutineParameter | Description |
 | --- | --- |
-| Filevar | The file variable associated with the update. For instance:<li><li>```WRITE var ON filevar,"newkey"```<li><li>however caution must be exercised not to call this subroutine recursively. |
-| Event | One of the TRIGGER\_TYPE\_xxx values to show which of the 9 events is currently about to take place. Defined in source $JBCRELEASEDIR/include/JBC.h (Unix) and %JBCRELEASEDIR%\include\JBC.h (Windows).<br>| Type  | Event |<ol><li>| --- | --- |</li><li>| TRIGGER\_TYPE\_PREWRITE | before a WRITE occured |</li><li>| TRIGGER\_TYPE\_POSTWRITE | after a WRITE occured |</li><li>| TRIGGER\_TYPE\_PREDELETE | before a DELETE occured |</li><li>| TRIGGER\_TYPE\_POSTDELETE | after a DELETE occured |</li><li>| TRIGGER\_TYPE\_PRECLEAR | before a CLEARFILE occured |</li><li>| TRIGGER\_TYPE\_POSTCLEAR | after a CLEARFILE occured |</li><li>| TRIGGER\_TYPE\_PREREAD | before a READ occured |</li><li>| TRIGGER\_TYPE\_POSTREAD | after a READ occured |</li><li>| TRIGGER\_TYPE\_POSTOPEN | after an OPEN occured </li></ol>|
+| Filevar | The file variable associated with the update. For instance:<br><br>```WRITE var ON filevar,"newkey"```<br><br>however caution must be exercised not to call this subroutine recursively. |
+| Event | One of the TRIGGER\_TYPE\_xxx values to show which of the 9 events is currently about to take place. Defined in source $JBCRELEASEDIR/include/JBC.h (UNIX) and %JBCRELEASEDIR%\include\JBC.h (Windows).<br>[See Table #1 below](./#Table_#1) |
 | Prerc | The current return code (i.e. status) of the action. For all the TRIGGER\_TYPE\_PRExx events, it will be 0. For all the TRIGGER\_TYPE\_POSTxx events, it will show the current status of the action, with 0 meaning that the action was performed successfully and any other value showing the update failed. For example, if a WRITE fails because the lock table is full, the value in prerc is 1. |
 | Flags | Various flags to show things like if a WRITE or WRITEV was performed.  **Not used yet**. |
 | RecordKey | The record key (or item-id) of the WRITE or DELETE being performed. For CLEARFILE, this is set to null. |
 | Record| For the WRITE actions, this is the record currently being updated. For the DELETE or CLEARFILE actions, this is set to null. It is possible to modify this variable in user defined subroutines if need be.  However, the modification will be discarded unless the [create-trigger](./../../../files/create-trigger) command was executed with the -a option.|
 | Userrc | This can be set to a non-zero value for the TRIGGER\_TYPE\_PRExxx actions so that it will abort the action. However, unless the -t option was used with the [create-trigger](./../../../files/create-trigger) command, it will be meaningless.<br>There are two options to setting this value:<ol><li>Any negative value will cause the action to be terminated. However, nothing will be flagged to the application, and it will appear to all intents and purposes that the action performed. Any positive value is taken to be the return code for the action.</li><li>For example, when a WRITE completes it will normally give a return code of 0. If this variable is then set to say 13 (which is the Unix error number for &quot;Permission denied&quot;) then the application will fall into the jBASE debugger with error code 13.</li></ol> |
+
+### Table #1
+
+| Type  | Event |
+| :---: | ----- |
+| TRIGGER\_TYPE\_PREWRITE | before a WRITE occured |
+| TRIGGER\_TYPE\_POSTWRITE | after a WRITE occured |
+| TRIGGER\_TYPE\_PREDELETE | before a DELETE occured |
+| TRIGGER\_TYPE\_POSTDELETE | after a DELETE occured |
+| TRIGGER\_TYPE\_PRECLEAR | before a CLEARFILE occured |
+| TRIGGER\_TYPE\_POSTCLEAR | after a CLEARFILE occured |
+| TRIGGER\_TYPE\_PREREAD | before a READ occured |
+| TRIGGER\_TYPE\_POSTREAD | after a READ occured |
+| TRIGGER\_TYPE\_POSTOPEN | after an OPEN occured|
 
 ### Assignment of Trigger Subroutine Arguments
 
@@ -78,27 +91,27 @@ COMMON /CUSTOMER_CHECK/ openflag , odfile , arfile , defile
 * be very careful of calling this subroutine recursively !
 * event: One of the TRIGGER_TYPE_xxx values to show which of the 6 events is
 * currently about to take place. Defined in source JBC.h .
-* prerc: The current return code (i.e. status) of the action. For all the 
+* prerc: The current return code (i.e. status) of the action. For all the
 * TRIGGER_TYPE_PRExx events, it will be 0. For all the TRIGGER_TYPE_POSTxx
 * events, it will show the current status of the action, with 0 being the
-* action was performed successfully and any other value showing the update 
+* action was performed successfully and any other value showing the update
 * failed. For example, if a WRITE fails because the lock table is full, the
 * value in prerc is 0.
-* flags: Various flags to show things like if a WRITE or WRITEV was performed. Not 
+* flags: Various flags to show things like if a WRITE or WRITEV was performed. Not
 * used yet.
-* recordkey: The record key (or item-id) of the WRITE or DELETE being performed. For 
+* recordkey: The record key (or item-id) of the WRITE or DELETE being performed. For
 * CLEARFILE, this is set to ""
-* record: For the WRITE actions, this is the record currently being updated. For the 
+* record: For the WRITE actions, this is the record currently being updated. For the
 * DELETE or
-* CLEARFILE actions, this is set to "". You can modify this variable if you 
-* wish. However the changes will be thrown away unless the 'create-trigger' 
+* CLEARFILE actions, this is set to "". You can modify this variable if you
+* wish. However the changes will be thrown away unless the 'create-trigger'
 * command was run with the -a option.
-* userrc: You can set this to a non-zero value for the TRIGGER_TYPE_PRExxx actions 
-* so that it will abort the action. However, unless the -t option was used 
-* with the 'create-trigger' command, it will be meaningless. There are two 
+* userrc: You can set this to a non-zero value for the TRIGGER_TYPE_PRExxx actions
+* so that it will abort the action. However, unless the -t option was used
+* with the 'create-trigger' command, it will be meaningless. There are two
 * options to setting this value :
-* (a) Any negative value will cause the action to be terminated. However, 
-* nothing will be flagged to the application, and it will appear to all 
+* (a) Any negative value will cause the action to be terminated. However,
+* nothing will be flagged to the application, and it will appear to all
 * intents and purposes that the action performed.
 * (b) Any positive value is taken to be the return code for the action. For
 * example, when a WRITE completes it will normally give a return code of 0.

@@ -12,7 +12,7 @@
 
 If running the jBASE installer then you will be able to enter the license keys during installation.
 
-To upgrade an existing licensed system use the **jInstallKey**command with a Standard or Evaluation license key.
+To upgrade an existing licensed system use the **jInstallKey** command with a Standard or Evaluation license key.
 
 *Note: you may have to be root/administrator as the permissions to the **system.properties** file (e.g. the file that contains the license keys) is typically read-only.*
 
@@ -36,9 +36,7 @@ jInstallKey -e <key>
 jLicenseUpgrade -r
 ```
 
-
-
-To view the help pages for **jInstallKey**and **jLicenseUpgrade**:
+To view the help pages for **jInstallKey** and **jLicenseUpgrade**:
 
 ```
 jInstallkey -?
@@ -47,7 +45,7 @@ jLicenseUpgrade -?
 
 Once the system is licensed, use the **jLicenseUpgrade** command to add or update Multisession or Websession licensing.
 
-#### Examples
+## Examples
 
 ```
 jLicenseUpgrade -add -multisession <key>
@@ -62,8 +60,6 @@ jLicenseUpgrade -r
 
 Use the **jlicensinginfo** to verify that the license details are correct.
 
+## Note
 
-
-#### Note
-
-*Manually editing the **system.properties**file is strongly discouraged.*
+>*Manually editing the **system.properties** file is strongly discouraged.*

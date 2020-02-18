@@ -16,4 +16,3 @@
 [windows-installation-guide](./windows-installation-guide)  
 [windows-server-2012-&-windows-8-compiler-installation](./windows-server-2012-&-windows-8-compiler-installation)  
 [working-with-jbase-license-keys](./working-with-jbase-license-keys)  
-

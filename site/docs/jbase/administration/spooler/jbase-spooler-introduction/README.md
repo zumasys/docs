@@ -9,27 +9,23 @@
 **Tags:**
 <badge text='spooler' vertical='middle' />
 
-## Description 
+## Description
 
 The following commands are provided by the jBASE spooler, all menu options are also provided as separate executables for command line execution.
 
-
-| Command<br> | Description<br> |
+| Command | Description |
 | --- | --- |
-| SP-ASSIGN =F0<br> | Assign to formqueue name F0<br> |
-| SP-ASSIGN F0<br> | Assign to formqueue zero as queuename F0<br> |
-| SP-ASSIGN Q0<br> | Assign to formqueue zero as queuename Q0<br> |
-| LISTPTR<br> | Display status of all printer numbers/queues.<br> |
-| LISTPEQS<br> | Display status of all print jobs<br> |
-| SP-JOBS<br> | Display status of all print jobs<br> |
-| SP-EDIT<br> | Edit print job for despooling<br> |
-| SP-OPEN<br> | Open print job<br> |
-| SP-CLOSE<br> | Close print job<br> |
-| SP-PURGE<br> | Clear jobs when all else fails<br> |
-| SP-STATUS<br> | Display status of all printer queues<br> |
-
-
-
+| SP-ASSIGN =F0 | Assign to formqueue name F0 |
+| SP-ASSIGN F0 | Assign to formqueue zero as queuename F0 |
+| SP-ASSIGN Q0 | Assign to formqueue zero as queuename Q0 |
+| LISTPTR | Display status of all printer numbers/queues. |
+| LISTPEQS | Display status of all print jobs |
+| SP-JOBS | Display status of all print jobs |
+| SP-EDIT | Edit print job for despooling |
+| SP-OPEN | Open print job |
+| SP-CLOSE | Close print job |
+| SP-PURGE | Clear jobs when all else fails |
+| SP-STATUS | Display status of all printer queues |
 
 A jspprint despooler dequeues print jobs from each assigned queuename.
 
@@ -40,35 +36,27 @@ jlp FileName
 echo Output | jlp
 ```
 
-
-
 Spooler information can also be obtained directly using the following jspstatus functions :
 
+|<!-- -->| <!-- --> |
+| --- | --- |
+| jspstatus 1 | Display device information. Option (R displays real user ids ) |
+| jspstatus 2 | Display print job information |
+| jspstatus 3 | Display assignment information |
+| jspstatus 4 | Display open job information |
 
-| jspstatus 1<br> | Display device information. Option (R displays real user ids )<br> |
-| jspstatus 2<br> | Display print job information<br> |
-| jspstatus 3<br> | Display assignment information<br> |
-| jspstatus 4<br> | Display open job information<br> |
-
-
-
-
-**Unix**
+## UNIX
 
 ```
 :SP-NEWTAB - Clear all spooler entries.
 :REST-SPOOLER - Restart all spooler queues.
 ```
 
-
-
-**Windows**
+## Windows
 
 ```
 SP-NEWTAB - Clear all spooler entries.
 REST-SPOOLER - Restart all spooler queues.
 ```
-
-
 
 Back to [Spooler](./../jbase-spooler).

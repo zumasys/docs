@@ -95,7 +95,7 @@ jed BP DISPLAYSUB
 NEW *File BP , Record 'DISPLAYSUB'                Insert      15:06:12
 Command-> FI
 0001 SUBROUTINE DISPLAYSUB(MSG)
-0002 PRINT MSG:
+0002 CRT MSG:
 0003 RETURN
 -------------------------------- End Of Record -----------------------
 

@@ -19,15 +19,12 @@ Document Scope
 
 This document will describe the process of installing a license key over an already existing installation. This may be the case in the event of an upgrade, or change in the type of license desired.
 
-## Description 
+## Description
 
 Two methods will be described;
 
 1. Editing the system.properties file.
 2. Using the command line.
-
-
-
 
 Since the key is being installed on a UNIX/LINUX system that already has a jBASE 5.x license installed, the existing shared memory needs to be reinitialized.
 
@@ -54,15 +51,11 @@ jdls semcount       32
 jdls sem Key        0x4a520064, Id  1246888036, 1246888037
 ```
 
-
-
 If processes are not stopped prior to attempting to install/upgrade a license, the shared memory with the original license configuration will still persist. For this reason, all jBASE processes must be stopped so that the shared memory does not have any attached users.
 
 Once this is done you can install the new license key and restart jBASE.  A reboot will accomplish the same thing.
 
-
-
-### Editing the system.properties file 
+### Editing the system.properties file
 
 jBASE License information is stored in the 'system.properties' file located in '%JBCRELEASEDIR%\config' on Windows and in '$JBCRELEASEDIR/config' on UNIX/LINUX systems.
 
@@ -80,8 +73,6 @@ Do not make any other changes to the 'system.properties' file. Particularly do n
 
 Once the key has been installed the last few lines of the 'system.properties' file should look something like this:
 
-
-
 ```
 #################################################################
 
@@ -90,23 +81,17 @@ jruntime.<system name> = <key information>
 jruntime.multisession = <key information>
 ```
 
-
-
-
-
 ### Using the command line
 
-**jInstallKey command**
+## InstallKey command
 
 The jInstallKey command will be useful in installing a license and overwriting the existing configuration of the system. A copy of the system.properties file may be kept, renames system.properties.old.
 
 Say an upgrade from an evaluation to a permanent license is desired, the command would be as :
 
 ```
-jInstallKey <Perm Licence key> 
+jInstallKey <Perm Licence key>
 ```
-
-
 
 An example of use  may be as:
 
@@ -121,19 +106,15 @@ Saving C:\jBASE\CurrentVersion\config\system.properties to C:\jBASE\CurrentVersi
 Licence Code installed successfully.
 ```
 
-
-
-**jLicenseUpgrade command**
+## jLicenseUpgrade command
 
 The jLicenseUpgrade command, with the -? argument will give the full range of options available for use with  the command.
 
 Say for instance an upgrade from standard to multisession license is desired, the command would be as  :
 
 ```
-  jLicenseUpgrade -a -m <multisession key> 
+  jLicenseUpgrade -a -m <multisession key>
 ```
-
-
 
 An example of use may be as:
 
@@ -172,8 +153,6 @@ Total of 2 slots found of which
   0 are background (unlicensed)
 ```
 
-
-
 Once a jBASE license has been installed, its usage can be seen with the jlicensinginfo utility:
 
 ```
@@ -188,11 +167,7 @@ Where
     -h   Display Help
 ```
 
-
-
 For example:
-
-
 
 ```
 C:\Users\jbaseadm>jlicensinginfo -v
@@ -229,12 +204,8 @@ Total of 3 slots found of which
   1 are background (unlicensed)
 ```
 
-
-
 ### Info
 
 The effects of the above processes (command line or properties file editing ) are best observed after restarting jBASE, or when shared memory has been reset using "jlicenseupgrade -r".
-
-
 
 Back to [jBASE Licensing](./../../../release-notes/5.6.2-release-notes/jbase-5-licensing).

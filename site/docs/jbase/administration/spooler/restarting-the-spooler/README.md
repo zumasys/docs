@@ -6,8 +6,7 @@
 **Original ID:** 339624  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 Individual jBASE despooler processes can be restarted by either using the SP-RESUME command directly, or from the [SP-JOBS](./../sp-jobs) menu. For example:
 
@@ -15,20 +14,15 @@ Individual jBASE despooler processes can be restarted by either using the SP-RES
 SP-RESUME LASER
 ```
 
-Alternatively, all defined form queue despooler processes can be started at once by using the **REST-SPOOLER**command. For example:
+Alternatively, all defined form queue despooler processes can be started at once by using the **REST-SPOOLER** command. For example:
 
 ```
 REST-SPOOLER
 ```
 
-### 
-
-
-### Unix
+### UNIX
 
 If the restart of despooler processes is required at system boot time, a script (for example, jSpoolInit) should be created to restart the required formqueue despoolers. Place the script in the /etc/init.d (or similar) directory and then set a link in the /etc/rc2.d (or similar) directory back to the script in the /etc/init.d directory. The script should use multiple invocations of SP-RESUME to restart selected formqueue despoolers or alternatively, it can use the REST-SPOOLER command to resume all defined printer queues.
-
-
 
 ### Example
 
@@ -49,6 +43,6 @@ SP-RESUME STANDARD or :REST-SPOOLER
 esac
 ```
 
-### **Windows**
+### Windows
 
-To restart the spooler at boot time then create a Windows Scheduled Task.
+To restart the spooler at boot time, create a Windows Scheduled Task.
