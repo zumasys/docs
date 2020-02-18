@@ -4,8 +4,8 @@ const webpack = require("webpack");
 
 module.exports = {
   head: [["link", { rel: "icon", href: "/assets/img/favicon.ico" }]],
-  title: "Product Documentation",
-  description: "New home for docs!",
+  title: "Zumasys Documentation",
+  description: "The official knowledgebase for all Zumasys products, including: jBASE, AccuTerm, OpenQM, MV Dashboard, MV Connect and the Customer Portal.",
   markdown: {
     lineNumbers: true
   },
@@ -46,17 +46,17 @@ module.exports = {
     },
     "social-share": {},
     'seo': { 
-      siteTitle: (_, $site) => $site.title,
-      title: $page => $page.title,
-      description: $page => $page.frontmatter.description,
-      author: (_, $site) => $site.themeConfig.author,
-      tags: $page => $page.frontmatter.tags,
-      twitterCard: _ => 'summary_large_image',
-      type: $page => ['articles', 'posts', 'blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
-      url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
-      image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image),
-      publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
-      modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
+      //siteTitle: (_, $site) => $site.title,
+      //title: $page => $page.title,
+      //description: $page => $page.frontmatter.description,
+      author: ($page, $site) => $page.git.author || $site.themeConfig.author // author: (_, $site) => $site.themeConfig.author,
+      //tags: $page => $page.frontmatter.tags,
+      //twitterCard: _ => 'summary_large_image',
+      //type: $page => ['articles', 'posts', 'blog'].some(folder => $page.regularPath.startsWith('/' + folder)) ? 'article' : 'website',
+      //url: (_, $site, path) => ($site.themeConfig.domain || '') + path,
+      //image: ($page, $site) => $page.frontmatter.image && (($site.themeConfig.domain || '') + $page.frontmatter.image),
+      //publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
+      //modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
     }
   },
   themeConfig: {
