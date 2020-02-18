@@ -6,8 +6,7 @@
 **Original ID:** 306480  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 This command allows for alignment before despooling. It takes the general form:
 
@@ -15,9 +14,7 @@ This command allows for alignment before despooling. It takes the general form:
 SP-ALIGN formqueue
 ```
 
-where formqueue is the formqueue on which to allow alignment.
-
-
+where **formqueue** is the formqueue on which to allow alignment.
 
 If used without argument, the user will be prompted as:
 
@@ -32,13 +29,8 @@ Print jobs assigned with the align option (A), will display a status of **ALIGN*
 
 | Option | Explanation |
 | --- | --- |
-| A  |  Align. Despools a character mask of the job to enable forms alignment.<br> |
-| P | Print. Resumes printing from the formqueue until another print job with align spooler assignment reaches the head of the formqueue.<br> |
-| Q  | Quit. Exits the option or command. The alignment command is available only for directly driven formqueues.<br> |
-
-
-
+| A  |  Align. Despools a character mask of the job to enable forms alignment. |
+| P | Print. Resumes printing from the formqueue until another print job with align spooler assignment reaches the head of the formqueue. |
+| Q  | Quit. Exits the option or command. The alignment command is available only for directly driven formqueues. |
 
 Back to [Spooler.](./../jbase-spooler)
-
-

@@ -6,7 +6,6 @@
 **Original ID:** 339629  
 **Internal:** No  
 
-
 ## Assigning the Job Number
 
 Prints jobs are identified by number. The jBASE spooler uses a control record in the jspool\_log file - NextJobNumber - to assign print job numbers. The structure of this record is:
@@ -22,16 +21,12 @@ The counter is then used to check if a print job with that number already exists
 
 When an unused number is determined, it is assigned to the print job and the counter is incremented for the next job that is created.
 
-If the environment variable **JBCSPOOLER\_JOBRESET**is set to a numeric value, then the counter is not reset based on date. Instead the job numbers will keep increasing until they reach the value specified by **JBCSPOOLER\_JOBRESET**. When this happens, the date in the control record is set to the current date and the next job number is set to 1.
-
-
+If the environment variable **JBCSPOOLER\_JOBRESET** is set to a numeric value, then the counter is not reset based on date. Instead the job numbers will keep increasing until they reach the value specified by **JBCSPOOLER\_JOBRESET**. When this happens, the date in the control record is set to the current date and the next job number is set to 1.
 
 ## Determining the Job Number
 
 In an application there is often a requirement to determine the number of a print job that has just been created. This may be for something as simple as reporting the number of the print job to the user of the application.
 
 jBASE provides the [SPOOLER(4)](./../../../jbase-basic-%28jbc%29/spooler) function to return all relevant information about print jobs being generated. The function is particularly useful when generating multiple jobs on different report channels.
-
-
 
 Back to [Spooler](./../jbase-spooler).

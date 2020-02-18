@@ -4,7 +4,7 @@
 **Updated At:** 8/28/2018 6:34:35 AM  
 **Original Doc:** [jbase-fundamentals](https://docs.jbase.com/30301-jbase/jbase-fundamentals)  
 **Original ID:** 253219  
-**Internal:** Yes
+**Internal:** No
 
 ## Table of Contents
 
@@ -133,9 +133,9 @@ jBASE's Database structure and enhanced BASIC programming language made applicat
 
 The emphasis on port number is a result of intellectually challenged terminals in the old days being connected to the main computer (servers) via a serial connector in a star network. Each serial connection was a port with a specific number.
 
-Port 0 was usually the system console, but could also be used for application purposes. As an example, If a 12 port license was purchased,a total number of 12 serial connections on the back of your computer (0-11) were available for use. Application programmers wrote their own security based on port number since each user always had their own port.
+Port 0 was usually the system console, but could also be used for application purposes. As an example, If a 12 port license was purchased, a total number of 12 serial connections on the back of your computer (0-11) were available for use. Application programmers wrote their own security based on port number since each user always had their own port.
 
-> Today, the Port Number concept has been preserved even though  tty port changes each time a connection is established. Each jBASE user is assigned a unique port number.
+> Today, the Port Number concept has been preserved even though tty port changes each time a connection is established. Each jBASE user is assigned a unique port number.
 
 ## Config_EMULATE
 

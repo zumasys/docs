@@ -10,22 +10,19 @@
 <badge text='jbase upgrade' vertical='middle' />
 <badge text='upgrade' vertical='middle' />
 
-### 
-
+## Overview
 
 The jBASE installer will examine the directory pointed to by the JBCRELEASEDIR environment variable for a previous jBASE installation.
 
-If a **config**directory is found in the previous jBASE release directory, the current contents of the previous 'config' directory will be backed up to 'config\_pre\_&lt;new version&gt; in the destination directory.
+If a **config** directory is found in the previous jBASE release directory, the current contents of the previous 'config' directory will be backed up to 'config\_pre\_&lt;new version&gt; in the destination directory.
 
 For example, on Windows, if, prior to installing this release of jBASE, JBCRELEASEDIR points to 'C:\jBASE5\5.2' and the new version of jBASE is 5.6.0, then the contents of 'C:\jBASE5\5.2\config' will be backed up as 'C:\jBASE\CurrentVersion\config\_pre\_5.6.0'.
 
 On UNIX, JBCRELEASEDIR points to '/opt/jbase/5.2.31' and the new and the new version of jBASE is 5.6.0, then the contents of '/opt/jbase/5.2.31/config' will be backed up as '/opt/jbase/CurrentVersion/config\_pre\_5.6.0'.
 
-### Note:
+## Note
 
-If you have modified any of the configuration files in the previous release **config** directory, you will need to apply your modifications to the corresponding files in the new installation **config** directory.
-
-
+>If you have modified any of the configuration files in the previous release **config** directory, you will need to apply your modifications to the corresponding files in the new installation **config** directory.
 
 Such files may include:
 
@@ -45,18 +42,14 @@ Such files may include:
 
 **jLibDefinition** - Define shared object items
 
-**system.json** - System profile information
+**system.json** - System profile information  
 
+### Related Topics
 
+[Installing the Compiler](installing-the-windows-compiler)
 
-### RELATED TOPICS:
+[Creating Accounts and Users](./../create-accounts-and-users)
 
-[INSTALLING THE COMPILER](installing-the-windows-compiler)
+[Manual License Key Installation](./../manual-license-key-installation)
 
-[MANUAL INSTALLATION OF JDLS SERVICE](./../../../jbase/manual-installation-of-jdls-service)
-
-[CREATING ACCOUNTS AND USERS](./../create-accounts-and-users)
-
-[MANUAL LICENSE KEY INSTALLATION](./../manual-license-key-installation)
-
-[MANUAL INSTALLATION OF JDLS SERVICE](./../../../jbase/manual-installation-of-jdls-service)
+[Manual Installation of jDLS Service](./../../../jbase/manual-installation-of-jdls-service)

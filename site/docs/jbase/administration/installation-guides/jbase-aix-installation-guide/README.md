@@ -20,21 +20,19 @@ This document assumes you have superuser (su) or root access to the computer.
 
 Root or superuser commands will be represented with the pound sign / hash (#) character.
 
-# Prerequisites
+## Prerequisites
 
 Ensure the volume in which you are installing jBASE 5.6 has sufficient free disk space, approximately 500MB is required, plus additional space for any temporary files.
 
-
 > **Note:**
-> 
+>
 > ```
-> df –k 
+> df –k
 > ```
-> 
+>
 > will show the current disk usage within each UNIX volume
-> 
+>
 > jBASE is generally installed on whichever volume contains the ‘/opt’ directory structure.
-
 
 ## ‘C’ Compiler
 
@@ -80,10 +78,7 @@ Path: /usr/lib/objrepos
 
 To complete the installation, you will need access to the jBASE license key that will have been supplied to you.
 
-## 
-
-
-# Setup Group and Users
+## Setup Group and Users
 
 You must first create a jBASE group and add/create a list of jBASE administrators and users. The system administrator should perform all additions.
 
@@ -91,7 +86,7 @@ You must first create a jBASE group and add/create a list of jBASE administrator
 
 Login as ‘root’ and create the ‘jbase’ group. All jBASE users will need to be members of this group.
 
-##### AIX:
+## AIX mkgroup syntax
 
 ```
 # mkgroup jbase
@@ -103,7 +98,7 @@ Any existing user can be modified to run jBASE. However, it is recommended that 
 
 Login as root and create the “jbaseadm” user. This command will create the jBASE administrator.
 
-##### AIX:
+## AIX mkuser syntax
 
 ```
 # mkuser –a home='/home/jbaseadm' shell='/bin/ksh' pgrp='jbase' admgroups='jbase' jbaseadm
@@ -119,7 +114,7 @@ Setup a password for the new user (password=jbaseadm)
 
 After creating a jBASE Administrator user it is recommended that a non-admin user is also created for normal development tasks
 
-##### AIX:
+### AIX mkuser syntax for additional user
 
 ```
 # mkuser –a home='/home/jbaseuser' shell='/bin/ksh' pgrp='jbase' admgroups='jbase' jbaseuser
@@ -154,7 +149,7 @@ Create a ‘symlink’ to the directories just created. By doing this, when a ne
 # ln -s /opt/jbase5/5.6.3 /opt/jbase5/5.6
 ```
 
-# Installation
+## Installation
 
 ## Extract the contents of the jBASE ‘tar’ file
 
@@ -177,13 +172,14 @@ License keys for jBASE 5.6 need to be added to the ‘system.properties’ file 
 
 You will have been sent a ‘Server’ license key and may also have been sent a ‘Multisession’ or ‘Websession’ key. Each key must be added as a separate entry in the ‘system.properties’ file as per the installation instructions on the license key. When the keys have been added the last 3 lines of your ‘system.properties’ file will look something like this:
 
+```
+#
 #################################################################
 
 jruntime.license = qP2XhdjqbdbiqzvfDBgPisP3ITiDfhyT
-
 jruntime.azeroth= 5FLY3q6e4P6I1qdZLr2q4wadhM06VQvzoOGDVX0KZSs=
-
 jruntime.multisession=5FLY3q6e4P6vTff9AETIQYwyjTnxDVK6sS1uFVfPeFQ=
+```
 
 For further information on jBASE licensing see the jBASE Knowledgebase:
 
@@ -234,21 +230,21 @@ fi # periodically.
 . /opt/jbase5/5.6/jbase_env.sh <-- Add this line
 ```
 
+> **Note:**  
+> If you want to run it as a user, simply do that same thing at the shell
+>
+ ```
+ $. /opt/jbase5/jbase_env.sh
+ ```
 
-> **Note:** If you want to run it as a user, simply do that same thing at the shell
-> 
-> ```
-> $. /opt/jbase5/jbase_env.sh
-> ```
-> 
+> **Note:**
 > If a comprehensive .profile for each user is preferred, then the “IJU” utility can be used to create a template, i.e.:
-> 
-> ```
-> /opt/jbase5/5.6/bin/IJU
-> ```
+>
+ ```
+ /opt/jbase5/5.6/bin/IJU
+ ```
 
-
-# Getting Started with jBASE
+## Getting Started with jBASE
 
 At this point jBASE has been installed and licensed.
 
@@ -287,27 +283,19 @@ $ . /opt/jbase5/jbase_env.sh
 $ LOGTO PLAY
 jsh PLAY ~ -->CREATE-FILE BP TYPE=UD
 jsh PLAY ~ -->ED BP HELLO.WORLD
-001 CRT 'HELLO WORLD'
+001 CRT 'Hello World!'
 jsh PLAY ~ -->BASIC BP HELLO.WORLD
 jsh PLAY ~ -->CATALOG BP HELLO.WORLD
 jsh PLAY ~ -->HELLO.WORLD
-HELLO WORLD
+Hello World!
 ```
 
 Or simply login as the “jbaseuser” and LOGTO PLAY ( You could add the LOGTO PLAY to the .profile)
 
 login: jbaseuser
-
 password:
 
 ```
 $ LOGTO PLAY
 jsh PLAY ~ -->
 ```
-
-
-
-
-
-## 
-

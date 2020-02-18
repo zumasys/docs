@@ -6,10 +6,9 @@
 **Original ID:** 495889  
 **Internal:** Yes  
 
+## Using the ODBC jEDI with an existing table
 
-## Using the ODBC jEDI with an existing table.
-
-Creating an *ODBC*type file from an existing table can be as simple as:
+Creating an *ODBC* type file from an existing table can be as simple as:
 
 ```
 CREATE-FILE tablename TYPE=ODBC COLS=*
@@ -17,33 +16,32 @@ CREATE-FILE tablename TYPE=ODBC COLS=*
 
 This creates a stub that maps to the **tablename** parameter, and generates a dictionary for each table column so they're ready for querying with *jQL*.
 
-### Note
+### Note #1
 
-A comma separated map/definition is generated in lieu of an existing csv.
+> A comma separated map/definition is generated in lieu of an existing csv.
+> If you only want to map to a subset of the table, you can specify a column list and an optional primary key (if none of the columns are primary keys).
 
-If you only want to map to a subset of the table, you can specify a column list and an optional primary key (if none of the columns are primary keys).
-
-### Example
+### Example #1
 
 You might have a table of ORDERS containing an auto sequenced key, an ORDER\_NBR column, and some other columns you wish to combine into the ODBC jEDI *view* of the table:
 
 CREATE-FILE ORDERS TYPE=ODBC COLS=ORDER\_NBR,PRODUCT,PRICE,DATE\_ORDERED KEY=ORDER\_NBR
 
-The example above will create a stub pointing to the **ORDERS** table, but will treat the **ORDER\_NBR**column as the key to the jBASE dynamic record. The **PRODUCT**, **PRICE,**and **DATE\_ORDERED**columns will be mapped to attributes **1, 2,** **3**and **4**(*datetime*fields are by default split into two fields, therefore the date portion maps to attribute **3** and the time portion to attribute **4**).
+The example above will create a stub pointing to the **ORDERS** table, but will treat the **ORDER\_NBR**column as the key to the jBASE dynamic record. The **PRODUCT**, **PRICE,** and **DATE\_ORDERED** columns will be mapped to attributes **1, 2,** **3** and **4** (*datetime* fields are by default split into two fields, therefore the date portion maps to attribute **3** and the time portion to attribute **4**).
 
-## Steps to create an ODBC jEDI stub using a CSV 
+## Steps to create an ODBC jEDI stub using a CSV
 
 To generate a valid csv mapping file, and map it into your desired *RDBMS,*do the following in jBASE:
 
-1. **CREATE-FILE DICT*****filename* 1**
+1. **CREATE-FILE DICT** ***filename* 1**
 
 2. Create a dictionary for each table column you wish to map. The ID for each dictionary should be a *valid* column name. The attribute can be whatever you want, however the primary key column must be 0. The dictionary type should be **A** if using the classic PICK style, or **D** for the Prime/Universe style. The heading, justification, and width attributes are not used by the *jEDI* interface, only for running jBASE queries.
 
-### Note
+### Note #2
 
-You can create other dictionaries for reporting purposes but you should use S (for classic PICK style) or V / I for Prime/Universe style.
-
-3. **jCreateCSV****{-O} -D*type* *filename* *table**name*****.csv**
+> You can create other dictionaries for reporting purposes but you should use S (for classic PICK style) or V / I for Prime/Universe style.  
+>
+3. **jCreateCSV {-O}** -D*type* *filename* **tablename.csv**
 
 The above command reads in all relevant dictionaries for filename, and generates a csv in the CSVdir parameter value defined in the **jEDIdrivers.ini**file.
 
@@ -51,13 +49,12 @@ The above command reads in all relevant dictionaries for filename, and generates
 
 It's recommended the csv files are named according to their intended table name (which could be the same as the filename). However, this is not an absolute requirement. Additionally, you can modify the resulting csv if desired using any jBASE or operating system text editor.
 
-4. **CREATE-FILE DATA *filename*****TYPE=ODBC {*additional qualifiers*}**
+4. **CREATE-FILE DATA** *filename* **TYPE=ODBC** {*additional qualifiers*}**
 
-### Note
+### Note #3
 
-The above example assumes the csv is *filename*.csv
-
-The EXISTING argument is optional (the default value is set to YES, meaning the table exists; NO means the table does not exist, and will be created).
+> The above example assumes the csv is *filename*.csv
+> The EXISTING argument is optional (the default value is set to YES, meaning the table exists; NO means the table does not exist, and will be created).
 
 ### ODBC CREATE-FILE Arguments and Information
 
@@ -68,14 +65,14 @@ Additional arguments you can use in the CREATE-FILE include:
 | --- | --- |
 | **CSV=csvname** | The csv option is required if the csv is not filename.csv |
 | **Table=tablename** | The tablename if not the same as filename |
-| **UniqueKey=YES|NO** | Defaults to YES. NO is used if the key column (i.e. attribute 0) is not a unique value per record/row |
-| **Existing=YES|NO** | Specifies whether the table already exists, or should be created |
-| **WRITEOPTS=[I,U,D]** | Used to restrict updates to a given table. The argument can use any combination of the following values:<br>&lt;**I**&gt;nsert<br>&lt;**U**&gt;pdate<br>&lt;**D**&gt;elete<br>For example, **WRITEOPTS=U** would only allow updates, **WRITEOPTS=ID** would allow inserts and deletes, and **WRITEOPTS=** would not allow any updates<br><br> |
+| **UniqueKey=YES\|NO** | Defaults to YES. NO is used if the key column (i.e. attribute 0) is not a unique value per record/row |
+| **Existing=YES\|NO** | Specifies whether the table already exists, or should be created |
+| **WRITEOPTS=[I,U,D]** | Used to restrict updates to a given table. The argument can use any combination of the following values:<br>&lt;**I**&gt;nsert<br>&lt;**U**&gt;pdate<br>&lt;**D**&gt;elete<br>For example, **WRITEOPTS=U** would only allow updates, **WRITEOPTS=ID** would allow inserts and deletes, and **WRITEOPTS=** would not allow any updates |
 | **Connect=dsn\_label** | Specifies which database connection information string to use from the jEDIdrivers.ini file (**default** is used if this argument is not specified) |
 
-### Note
+### Note #4
 
-The attribute mapping from SQL column to multi-value record is arbitrary as there are no duplicates
+> The attribute mapping from SQL column to multi-value record is arbitrary as there are no duplicates
 
 ## CSV/Schema Cleansing
 
@@ -83,33 +80,31 @@ When creating a csv definition from an existing jBASE file, the dictionaries use
 
 The **jCheckSchema** command can be used to verify and even update the csv so that all the original records can be written to the *RDBMS*.
 
-**jCheckSchema *original\_jBASE\_file* {*schema\_path*}*schema\_def* *{ID}* {options}**
+**jCheckSchema *original\_jBASE\_file* {*schema\_path*} *schema\_def* *{ID}* {options}**
 
-If ***ID***is specified, only that record (keyed by *ID)*is checked. Otherwise, all records (or those in the current active select list) are checked.
+If ***ID*** is specified, only that record (keyed by *ID)* is checked. Otherwise, all records (or those in the current active select list) are checked.
 
 **jCheckSchema** options:
 
-
 | <!----> | <!----> |
 | --- | --- |
-| **-a*****list***<br> | Ignore "undefined" for the **attributes** specified in *list*(comma separated)<br> |
-| **-c**<br> | **Check** data integrity<br> |
-| **-i**<br> | **Interactive:** *prompts for changes*<br> |
-| **-q**<br> | **Quiet:** no progress displayed<br> |
-| **-r*****n***<br> | **Round** column lengths up to nearest factor of *n*<br> |
-| **-w**<br> | Disable control character **warnings**<br> |
-| **-R**<br> | **Report**only<br> |
+| **-a*****list*** | Ignore "undefined" for the **attributes** specified in *list*(comma separated) |
+| **-c** | **Check** data integrity |
+| **-i** | **Interactive:** *prompts for changes* |
+| **-q** | **Quiet:** no progress displayed |
+| **-r*****n*** | **Round** column lengths up to nearest factor of *n* |
+| **-w** | Disable control character **warnings** |
+| **-R** | **Report**only |
 
-
-### Example
+### Example #2
 
 jCheckSchema CUSTOMER CUSTOMER.csv -r5
 
 This will read all records in the CUSTOMER file and check that the types and lengths of each attribute are compliant with the csv definition.
 
-### Note
+### Note #5
 
-**jCheckSchema** will detect multi{sub}-value fields that have not been defined, however, it won't define them for you. You will need to amend the csv and specify multi{sub}-value association groups or positional multi-value options (if they are not repeating multi{sub}-values).
+> **jCheckSchema** will detect multi{sub}-value fields that have not been defined, however, it won't define them for you. You will need to amend the csv and specify multi{sub}-value association groups or positional multi-value options (if they are not repeating multi{sub}-values).
 
 ## IOCTL
 
@@ -119,16 +114,14 @@ The jBC (BASIC) language has an IOCTL function which has the syntax of:
 
 The *ODBC jEDI* has the following non-standard IOCTL options:
 
-
 | <!----> | <!----> |
 | --- | --- |
-| **68** | Over-riding SQL SELECT statement (**in\_out\_arg**) for the next **SELECT *file\_var*** statement (note: the result set must match the type and number of columns expected for the primary key denoted by the **def** in the *stub*.<br> |
-| **98** | Specify the **in\_out\_arg** number of writes before a commit will be performed (useful for improved performance when performing a high volume of insert/update/delete operations).<br> |
-| **99** | Issue a commit.<br> |
-| **7000** | Execute the **in\_out\_arg**as an SQL statement on the target RDBMS (typically a singleton query-statement)<br> |
+| **68** | Over-riding SQL SELECT statement (**in\_out\_arg**) for the next **SELECT *file\_var*** statement (note: the result set must match the type and number of columns expected for the primary key denoted by the **def** in the *stub*. |
+| **98** | Specify the **in\_out\_arg** number of writes before a commit will be performed (useful for improved performance when performing a high volume of insert/update/delete operations). |
+| **99** | Issue a commit. |
+| **7000** | Execute the **in\_out\_arg** as an SQL statement on the target RDBMS (typically a singleton query-statement) |
 
-
-----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------- ---------------------------------------------------------
 
 [Introduction to the ODBC jEDI](./../introduction-to-the-odbc-jedi)
 

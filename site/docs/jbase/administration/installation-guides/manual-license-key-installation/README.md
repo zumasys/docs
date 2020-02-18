@@ -6,8 +6,7 @@
 **Original ID:** 262611  
 **Internal:** No  
 
-
-The jBASE installer will automatically update the license keys during Express and Advanced mode install. If you need to change the keys, for example, to enter a permanent key instead of an evaluation key, or if you performed a Minimal install, you can use any text editor like **Notepad** or **vi**to enter the keys in the **system.properties**file. The **system.properties**file is located in the **config**directory under your jBASE installation directory. For example:
+The jBASE installer will automatically update the license keys during Express and Advanced mode install. If you need to change the keys, for example, to enter a permanent key instead of an evaluation key, or if you performed a Minimal install, you can use any text editor like **Notepad** or **vi** to enter the keys in the **system.properties** file. The **system.properties** file is located in the **config** directory under your jBASE installation directory. For example:
 
 ```
 D:\jBASE\5.7.0\config
@@ -15,9 +14,7 @@ D:\jBASE\5.7.0\config
 
 ![manual-license-key-installation: blob](./blob.jpg)
 
-
-
-You should have either a **Permanent** system license key or an **evaluation**license key. You may also have a **Multisession** and/or **Websession**key. Each key must be added as a separate entry in the **system.properties**file. New keys should be added at the end of the file, after the **jruntime.license**line, which should be left in the file without modification. When the keys have been added, the last lines of the **system.properties** file will look something like this (comment lines starting with **#** can be added for clarity):
+You should have either a **Permanent** system license key or an **evaluation** license key. You may also have a **Multisession** and/or **Websession** key. Each key must be added as a separate entry in the **system.properties** file. New keys should be added at the end of the file, after the **jruntime.license** line, which should be left in the file without modification. When the keys have been added, the last lines of the **system.properties** file will look something like this (comment lines starting with **#** can be added for clarity):
 
 Permanent license example:
 
@@ -43,12 +40,12 @@ jruntime.deepthought=5uGDQT5vh1DkpvMfqI+Srq5WWing6aYC
 jruntime.websession=99TvRhZrzwXahzjI9/NuqTNRlro/g1xpC/MJglgPQDE=
 ```
 
-### RELATED TOPICS:
+## Related Topics
 
-[UPGRADING FROM A PREVIOUS VERSION](./../upgrading-from-a-previous-version)
+[Upgrading from a Previous Version](./../upgrading-from-a-previous-version)
 
-[INSTALLING THE COMPILER](installing-the-windows-compiler)
+[Installing the Compiler](installing-the-windows-compiler)
 
-[MANUAL INSTALLATION OF JDLS SERVICE](./../../../jbase/manual-installation-of-jdls-service)
+[Manual Installation of jDLS Service](./../../../jbase/manual-installation-of-jdls-service)
 
-[CREATING ACCOUNTS AND USERS](./../create-accounts-and-users)
+[Creating Accounts and Users](./../create-accounts-and-users)

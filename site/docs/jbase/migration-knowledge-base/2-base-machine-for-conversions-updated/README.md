@@ -54,7 +54,7 @@ Change the hostname of the template to reflect the server.  This is generally t
 
 hostnamectl set-hostname **ORGjBASE01**
 
-##  Disable Selinux and turn off firewall  (be sure to be at the root shell prompt. #)
+## Disable Selinux and turn off firewall  (be sure to be at the root shell prompt. #)
 
 echo "SELINUX=disabled" &gt; /etc/sysconfig/selinux
 echo "SELINUXTYPE=targeted" &gt;&gt; /etc/sysconfig/selinux

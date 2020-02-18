@@ -6,8 +6,7 @@
 **Original ID:** 306273  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 This command may be used to rename an existing formqueue. It takes the general form:
 
@@ -17,11 +16,8 @@ SP-FORM old-formqueue new-formqueue
 
 where:
 
-- old-formqueue is the existing formqueue name.
-- new-formqueue is the new name for the formqueue.
-
-
-
+- **old-formqueue** is the existing formqueue name.
+- **new-formqueue** is the new name for the formqueue.
 
 If the command is issued without arguments, for instance as:
 
@@ -37,14 +33,8 @@ OLD-NAME     NEW-NAME:
 
 The user will then enter the old name, and the new name on the same line, and push the return button to rename the formqueue.
 
-
-
-
-> ### Note: 
-> 
-> If old-formqueue is invalid, the following error message will be displayed: "FORM-QUEUE CANNOT BE FOUND". Only the name of the formqueue is changed, device assignments remain unchanged
-
-
-
+> ### Note
+>
+> If **old-formqueue** is invalid, the following error message will be displayed: "FORM-QUEUE CANNOT BE FOUND". Only the name of the formqueue is changed, device assignments remain unchanged
 
 Back to [Spooler.](./../jbase-spooler)

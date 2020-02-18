@@ -13,8 +13,8 @@
 <badge text='spooler' vertical='middle' />
 
 
-| **The jBASE Spooler** |
-| --- |
+| **The jBASE Spooler** |  |
+| --- | --- |
 | [INTRODUCTION](./../jbase-spooler-introduction) | Introduction to the jBASE spooler. |
 | [INITIALIZATION](./../spooler-initialization) | Initializing the jBASE spooler. |
 | [STRUCTURE](./../spooler-structure) | How the jBASE Spooler works |
@@ -63,4 +63,3 @@
 | [SP-TAPEOUT](./../sp-tapeout) | Requeues spooled print jobs on a tape to the current formqueue assignment. |
 | [SP-TRANSLATE](./../sp-translate) | Changes the translation table entry for the specified formqueue. |
 | [SP-TYPE](./../sp-type) | Assigns a formtype to a formqueue. |
-
