@@ -98,6 +98,7 @@ To run the application locally:
 - [x] Add [code copy](https://github.com/znicholasbrown/vuepress-plugin-code-copy) plugin (to allow for click-to-copy of source code)
 - [ ] Add [img lazy](https://github.com/tolking/vuepress-plugin-img-lazy) plugin (to add lazy loading for images)
 - [ ] Add [back to top](https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-back-to-top) plugin (for automatic back-to-top links)
+- [ ] Add [PWA](https://v1.vuepress.vuejs.org/plugin/official/plugin-pwa.html)
 - [ ] Check out more on [awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)
 - [ ] Convert TODOs to GitHub Issues
 - [ ] Add jBASE Basic, Jabba to [Prism](https://prismjs.com/#languages)
