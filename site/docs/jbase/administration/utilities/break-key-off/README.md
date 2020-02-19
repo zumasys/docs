@@ -6,8 +6,7 @@
 **Original ID:** 334581  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 The jBASE BREAK-KEY-OFF command disables the break key when executing jBASE programs. The break key can be disabled on the current port or a port number specified as an argument.
 
@@ -24,4 +23,4 @@ For example, if the break key is enabled on port 42 then this command will disab
 BREAK-KEY-OFF 42
 ```
 
-
+Back to [Utilities](./../utilities)

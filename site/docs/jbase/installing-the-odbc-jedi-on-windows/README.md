@@ -6,19 +6,19 @@
 **Original ID:** 509689  
 **Internal:** Yes  
 
-As previously stated, in order to properly perform the steps defined in this section, you will need a licensed system running jBASE 5.6 or greater, and the *ODBC* *jEDI*tool-set installation package. If you do not yet have a valid licensed jBASE system, and/or the *ODBC* *jEDI*tool-set installation package, please contact Zumasys licensing to obtain them.
+As previously stated, in order to properly perform the steps defined in this section, you will need a licensed system running jBASE 5.6 or greater, and the *ODBC* *jEDI* tool-set installation package. If you do not yet have a valid licensed jBASE system, and/or the *ODBC* *jEDI* tool-set installation package, please contact Zumasys licensing to obtain them.
 
-The installation package is comprised of two components, the **ODBCjEDI-WINNT.jpkg** and optionally the **jpkginstaller.exe**; both can be removed from the target file system after successful installation. After receiving the *ODBC* *jEDI*tool-set installation package, do the following to ensure successful installation:
+The installation package is comprised of two components, the **ODBCjEDI-WINNT.jpkg** and optionally the **jpkginstaller.exe**; both can be removed from the target file system after successful installation. After receiving the *ODBC* *jEDI* tool-set installation package, do the following to ensure successful installation:
 
 1. Save the installation package's components to a desired location on your file-system
 
 ## Note #1
 
-For this example, **C:\jBASEInstall****\**will be the location our components are stored after initial download
+For this example, **C:\jBASEInstall\\** will be the location our components are stored after initial download
 
 2. Run the **jpkginstaller.exe** for installation
 
-### Note #2
+## Note #2
 
 You can remove the **jpkginstaller.exe** file once you have installed it
 
@@ -93,7 +93,7 @@ Password:               **********
 Database:               master
 ```
 
-7.  You will be prompted one last time and asked if you want to continue with your installation. Enter Yes to test your *DSN* connection. If the connection is successful, you will be told the installation has succeeded. If not, you will need to verify your *DSN* and the *DSN* fields in step 6 were set up correctly.
+7. You will be prompted one last time and asked if you want to continue with your installation. Enter Yes to test your *DSN* connection. If the connection is successful, you will be told the installation has succeeded. If not, you will need to verify your *DSN* and the *DSN* fields in step 6 were set up correctly.
 
 ```
 Continue with installation? Yes

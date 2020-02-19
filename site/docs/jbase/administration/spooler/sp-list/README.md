@@ -6,7 +6,6 @@
 **Original ID:** 339623  
 **Internal:** No  
 
-
 ## Description
 
 Displays spooler configuration. It may be called as:
@@ -18,11 +17,10 @@ SP-LIST {options}
 where:
 
 
-| Option<br> | Description<br> |
+| Option | Description |
 | --- | --- |
-| J<br> | Job description list only.<br> |
-| P<br> | sends output to the printer. Default action is to display to terminal.<br> |
-| Q<br> | Form Queue configuration list only.<br> |
-
+| J | Job description list only. |
+| P | sends output to the printer. Default action is to display to terminal. |
+| Q | Form Queue configuration list only. |
 
 Back to [Spooler](./../jbase-spooler).

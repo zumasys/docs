@@ -6,8 +6,7 @@
 **Original ID:** 306474  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 This commands moves a print job to the head of the formqueue. It takes the general form:
 
@@ -15,9 +14,7 @@ This commands moves a print job to the head of the formqueue. It takes the gener
 SP-PRIORITY print-job-number
 ```
 
-where print-job-number is the number of the print job to move to the head of the formqueue.
-
-
+where **print-job-number** is the number of the print job to move to the head of the formqueue.
 
 If used without an argument, as:
 

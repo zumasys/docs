@@ -17,7 +17,7 @@ SP-OPTS print-job-num options
 where:
 
 - **print-job-num** is the number of the print job to change.
-- **options** are the options to be assigned to the print job. If no parameter is supplied for **options** then all current options are cancelled, except the P and U options, which cannot be changed. 
+- **options** are the options to be assigned to the print job. If no parameter is supplied for **options** then all current options are cancelled, except the P and U options, which cannot be changed.
   
 - Valid **options** are:  
   - A – Align

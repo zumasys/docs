@@ -6,8 +6,7 @@
 **Original ID:** 306443  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 This command modifies the security state of a form queue. The command takes the general form:
 
@@ -26,7 +25,5 @@ For example, to modify the security of form queue “MAILSHOT” such that ANY u
 ```
 SP-SECURITY-QUEUE MAILSHOT NONE
 ```
-
-
 
 Back to [Spooler.](./../jbase-spooler)

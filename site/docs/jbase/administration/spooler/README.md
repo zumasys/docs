@@ -1,4 +1,4 @@
-# Spooler 
+# Spooler
 
 ## Topics
 
@@ -56,4 +56,3 @@
 [spooler-initialization](./spooler-initialization)  
 [spooler-security](./spooler-security)  
 [spooler-structure](./spooler-structure)  
-

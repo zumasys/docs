@@ -12,7 +12,7 @@
 <badge text='db-resume' vertical='middle' />
 <badge text='database operations' vertical='middle' />
 
-## Description 
+## Description
 
 This utility allows resumption of database operations on a previously paused jBASE database. It is invoked as:
 
@@ -20,12 +20,10 @@ This utility allows resumption of database operations on a previously paused jBA
  DB-RESUME {-n}
 ```
 
-where the **-n**option specifies the database to resume (This option is only available in jBASE 5.2 and later.
+where the **-n** option specifies the database to resume (This option is only available in jBASE 5.2 and later).
 
-
-
-## Note:
-
+## Note
 
 > This utility is only available in jBASE 4.1 and later.
 
+Back to [Utilities](./../utilities)
