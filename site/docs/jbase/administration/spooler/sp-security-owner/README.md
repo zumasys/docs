@@ -6,8 +6,7 @@
 **Original ID:** 306446  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 This command allows for the definition of a list of users who are considered “alternate” owners of a formqueue. This list of users is used when the form queue security state is set to “OWNER”,  or the print job security state is set to “OWNER”.
 
@@ -23,8 +22,4 @@ For example, to make users “personnel” and “footwear” the alternative ow
 SP-SECURITY-OWNER LIBRARY personnel footwear
 ```
 
-
-
 Back to [Spooler.](./../jbase-spooler)
-
-

@@ -36,6 +36,7 @@
     "typescript": "^3.7.5",
     "vuepress-plugin-nprogress": "^1.1.6",
     "vuepress-plugin-reading-time": "^0.1.1",
+    "vuepress-plugin-seo": "^0.1.2",
     "vuepress-plugin-social-share": "^0.2.0",
     "vuepress-plugin-typescript": "^0.1.2"
   }

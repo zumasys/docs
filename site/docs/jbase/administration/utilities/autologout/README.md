@@ -6,8 +6,7 @@
 **Original ID:** 334579  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 The AUTOLOGOUT command enables a session to be automatically logged off should there be no keyboard activity for a specified time.
 
@@ -24,12 +23,7 @@ where:
 - **program args** can be specified for **program**.
 - The **(C** option causes the name of the **program** that will be executed to be displayed.
 
-
-
-
 If no program is specified when the AUTOLOGOUT command is issued, a program called **ON.EXIT** will be executed prior to the session being logged off. It is left to the user to define the functionality of ON.EXIT. To reset the auto logout, specify 0 for the number of minutes, or disconnect and reconnect from jBASE.
-
-
 
 ## Notes
 
@@ -37,9 +31,11 @@ Inactivity is defined as a program waiting at an INPUT or IN statement.
 
 If no program is specified when the AUTOLOGOUT command is issued, a program called **ON.EXIT** will be executed prior to the session being logged off. It is left to the user to define the functionality of ON.EXIT. To reset the auto logout, specify 0 for the number of minutes, or disconnect and reconnect from jBASE.
 
-
-
 ## Examples
 
-`jsh -->AUTOLOGOUT 10Automatic logout is set for 10 minutes.`
-`jsh -->AUTOLOGOUT 15 OFF (CAutomatic logout is set for 15 minutes.Command to execute when invoked = 'OFF'`
+```
+jsh -->AUTOLOGOUT 10                         Automatic logout is set for 10 minutes.`
+jsh -->AUTOLOGOUT 15 OFF                     Automatic logout is set for 15 minutes.Command to execute when invoked = 'OFF'`
+```
+
+Back to [Utilities](./../utilities)

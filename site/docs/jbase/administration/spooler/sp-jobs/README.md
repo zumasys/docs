@@ -1,4 +1,4 @@
-# SP-JOBS 
+# SP-JOBS
 
 **Created At:** 4/4/2018 2:56:10 PM  
 **Updated At:** 1/24/2019 8:15:43 AM  
@@ -14,7 +14,7 @@ This command manipulates and displays status of print jobs. It takes the general
 SP-JOBS
 ```
 
-The **SP-JOBS** screen displays a list of print jobs together with their status and formqueue assignment. Displayed at the base of the screen are14 action codes each action code, except code 99, corresponds to a jBASE command that performs the same function.
+The **SP-JOBS** screen displays a list of print jobs together with their status and formqueue assignment. Displayed at the base of the screen are 14 action codes where each action code, except code 99, corresponds to a jBASE command that performs the same function.
 
 > ### Note
 >
@@ -88,7 +88,6 @@ To exit the **SP-JOBS** menu select option 99.
 
 The screen display contains the following fields:
 
-
 | Field | Description |
 | --- | --- |
 | JOB |  Print job number |
@@ -111,6 +110,5 @@ The screen display contains the following fields:
 | PRNTD | The amount of the print job despooled expressed in 1k blocks |
 | OP | The options assigned to the print job |
 | CP | The number of copies to be despooled |
-
 
 Back to [Spooler.](./../jbase-spooler)

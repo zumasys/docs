@@ -80,7 +80,7 @@ To run the application locally:
 - [x] Pull images from HelpJuice into static assets of this project and update links
 - [x] Add [Vssue](https://vssue.js.org/) plugin for comments
 - [x] Add breadcrumbs/navigation trail to docs layout (not seeing a plugin or config for this so we'll do it in Vue)
-- [ ] Add [Google Analytics](https://v1.vuepress.vuejs.org/plugin/official/plugin-google-analytics.html) plugin or the [minimal](https://github.com/webmasterish/vuepress-plugin-minimal-analytics) version
+- [x] Add [Google Analytics](https://v1.vuepress.vuejs.org/plugin/official/plugin-google-analytics.html) plugin or the [minimal](https://github.com/webmasterish/vuepress-plugin-minimal-analytics) version
 - [ ] Add [Clean URLs](https://vuepress.github.io/en/plugins/clean-urls) plugin (may not be necessary with current directory/README.md structure)
 - [x] Add [Git Log](https://vuepress.github.io/en/plugins/git-log/) plugin (to add Git data to \$page object)
 - [ ] Add [Algolia Search](https://community.algolia.com/docsearch/) plugin ([more docs](https://vuepress.vuejs.org/theme/default-theme-config.html#algolia-docsearch))
@@ -91,7 +91,7 @@ To run the application locally:
 - [ ] Add [flowchart](https://flowchart.vuepress.ulivz.com/#install) plugin (to define flowcharts in docs)
 - [ ] Add [export](https://github.com/ulivz/vuepress-plugin-export) plugin (to allow for export of all docs to PDF)
 - [ ] Add [sitemap](https://github.com/ekoeryanto/vuepress-plugin-sitemap) plugin (to allow for auto creation of sitemap.xml file)
-- [ ] Add [SEO](https://github.com/lorisleiva/vuepress-plugin-seo) plugin (for automatic SEO meta tag generation)
+- [x] Add [SEO](https://github.com/lorisleiva/vuepress-plugin-seo) plugin (for automatic SEO meta tag generation)
 - [ ] Related to above, may also need [autometa](https://github.com/webmasterish/vuepress-plugin-autometa) plugin
 - [x] Add [reading time](https://github.com/darrenjennings/vuepress-plugin-reading-time) plugin (to show etsimated reading time for an article)
 - [x] Add [social share](https://github.com/ntnyq/vuepress-plugin-social-share) plugin (to activate social network share icons)

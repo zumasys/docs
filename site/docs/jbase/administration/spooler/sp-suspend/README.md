@@ -6,8 +6,7 @@
 **Original ID:** 306472  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 This command suspends despooling a print job. It takes the general form:
 
@@ -15,7 +14,7 @@ This command suspends despooling a print job. It takes the general form:
 SP-SUSPEND formqueue
 ```
 
-where formqueue is the formqueue from which the print job is being despooled.
+where **formqueue** is the formqueue from which the print job is being despooled.
 
 If used without an argument as:
 
@@ -31,14 +30,8 @@ FORM-QUEUE:
 
 The user will then enter the fromqueue from which the the print is to be suspended.
 
-
-
-
-> ### Note: 
-> 
+> ### Note
+>
 > To resume despooling use the RESUME PRINTING option or the [SP-RESUME](./../sp-resume) command.
-
-
-
 
 Back to [Spooler.](./../jbase-spooler)

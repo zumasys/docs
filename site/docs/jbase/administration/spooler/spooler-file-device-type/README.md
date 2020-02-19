@@ -10,13 +10,11 @@
 <badge text='sp-device' vertical='middle' />
 <badge text='sp-create' vertical='middle' />
 
-### Description
+## Description
 
 This topic describes the functionality of the FILE device type which allows you to despool print jobs to an Operating System file.
 
 The FILE device type can be utilized from the SP-STATUS menu, the SP-CREATE command or the SP-DEVICE command.
-
-
 
 ### Syntax
 
@@ -37,7 +35,6 @@ The device can be:
 - a full file path
 - a relative file path
 - just the name of the file, in which case it will be placed in the current directory
-
 
 The device can contain Special Character Strings, converted as follows:
 
@@ -64,9 +61,6 @@ chars   All other characters are taken literally
 Spaces (and strings of spaces) in the device name are converted to a single underscore "_" when the a job is despooled.
 Special Character Strings are case insensitive (%A is the same as %a).
 ```
-
-### 
-
 
 ### Examples
 

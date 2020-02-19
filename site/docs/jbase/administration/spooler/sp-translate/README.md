@@ -6,8 +6,7 @@
 **Original ID:** 306434  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 The command changes the translation table entry for the specified formqueue. It takes the general form:
 
@@ -17,11 +16,8 @@ SP-TRANSLATE formqueue table-number
 
 where:
 
-- formqueue is the formqueue to use the translation table.
-- table-number is the number of the translation table entry.
-
-
-
+- **formqueue** is the formqueue to use the translation table.
+- **table-number** is the number of the translation table entry.
 
 The translation table comprises characters or character strings which are to be translated to alternative characters or character strings.
 
@@ -34,14 +30,8 @@ If used without arguments, the user will be prompted as follows:
 FORMQUEUE TABLE#:
 ```
 
-
-
-
-> ### Note: 
-> 
+> ### Note
+>
 > The translation table entry is only examined when the despooler is initiated. The despooling process must therefore be stopped and restarted to effect any changes made to either the formqueue assignment or the translation table.
-
-
-
 
 Back to [Spooler.](./../jbase-spooler)

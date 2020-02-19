@@ -23,13 +23,10 @@ DB-PAUSE options
 
 where options may be:
 
-- **-a** option means that administrators (e.g. root users on UNIX) can still make updates to the database.
-- **-n**option specifies the database to pause (This option is restricted to jBASE 5)
-- **-r** option still allows read operations on the database and therefore only pauses updates.
-- **-t** option permits users inside a transaction to continue until it terminates the transaction by either a commit ([TRANSEND](./../../../jbase-basic-%28jbc%29/transend)) or a rollback ([TRANSABORT](./../../../jbase-basic-%28jbc%29/transabort)).
-
-
-
+- **a** - option means that administrators (e.g. root users on UNIX) can still make updates to the database.
+- **n** - option specifies the database to pause (This option is restricted to jBASE 5)
+- **r** - option still allows read operations on the database and therefore only pauses updates.
+- **-** option permits users inside a transaction to continue until it terminates the transaction by either a commit ([TRANSEND](./../../../jbase-basic-%28jbc%29/transend)) or a rollback ([TRANSABORT](./../../../jbase-basic-%28jbc%29/transabort)).
 
 The command can be run a number of times with different options. For example, run it with the -a option to allow root users continued access then when sure all normal users are paused, run it again without the -a option, which will suspend the updates for all users.
 
@@ -43,12 +40,8 @@ Updates are denied also to root users
 Transactions will be blocked immediately.
 ```
 
-
-
-## Note: 
-
+## Note
 
 > This utility is only available in jBASE 4.1 and later.
 
-
-
+Back to [Utilities](./../utilities)

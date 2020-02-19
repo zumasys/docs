@@ -6,8 +6,7 @@
 **Original ID:** 306265  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 This command enters the **SP-STATUS** menu. It takes the general form:
 
@@ -37,7 +36,5 @@ ENTER ACTION CODE / PAGE NUMBER (P#) ?
 ```
 
 The user can then select the action they wish to carry out.
-
-
 
 Back to [Spooler.](./../jbase-spooler)

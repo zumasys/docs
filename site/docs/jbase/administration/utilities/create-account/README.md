@@ -11,31 +11,29 @@
 <badge text='create ' vertical='middle' />
 <badge text='create-account' vertical='middle' />
 
-## CREATING AN ACCOUNT
+## Creating an Account
 
 The CREATE-ACCOUNT command enables the user to create a new account for use within the jBASE system.
 
-**COMMAND SYNTAX:**
+### Command Syntax
 
 ```
 CREATE-ACCOUNT -Options <accountdirectory> <accountname>
 ```
 
-**SYNTAX ELEMENTS:**
+### Syntax Elements
 
-- **Account Directory -**the full path or a name relative to the current directory
-- **Account Name -**the name of the account record in the SYSTEM file. If Account Name is not specified, the last element in Account Directory is used as the account name.
-- **Options -**
+- **Account Directory** - the full path or a name relative to the current directory
+- **Account Name** - the name of the account record in the SYSTEM file. If Account Name is not specified, the last element in Account Directory is used as the account name.
+- **Options** :
 
-
-
-| <!----> | <!----> |
+| Option | Description |
 | --- | --- |
-| **Option**<br> | **Description**<br> |
-| -m md\_path  <br> | full path to existing MD (implies -n)<br> |
-| -n          <br> | do not create an MD for the account<br> |
-| -r          <br> | generate remote.cmd for Telnet (Windows only)<br> |
-| -b dirs    <br> | include additional bin directories<br> |
-| -l dirs    <br> | include additional lib directories<br> |
-| -h or -?    <br> | show helps (ignored if there are other options) |
+| -m md\_path   | full path to existing MD (implies -n) |
+| -n           | do not create an MD for the account |
+| -r           | generate remote.cmd for Telnet (Windows only) |
+| -b dirs     | include additional bin directories |
+| -l dirs     | include additional lib directories |
+| -h or -?     | show helps (ignored if there are other options) |
 
+Back to [Utilities](./../utilities)

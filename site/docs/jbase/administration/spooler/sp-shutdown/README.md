@@ -6,8 +6,7 @@
 **Original ID:** 306261  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 This command shuts down all the jBASE printer daemons. This command requires Administrator privileges on Windows NT or root privileges on UNIX. The command is as:
 
@@ -81,8 +80,6 @@ Alternatively, if it is unsuccessful you will then get some type of error messag
 Kill was not successful errors occurred during shutdown
 ```
 
-When the kill fails the error message, it gives before the above should be reported to support so it can be investigated further
-
-
+When the kill fails, the error message generated prior to the above should be reported to support so it can be investigated further
 
 Back to [Spooler.](./../jbase-spooler)

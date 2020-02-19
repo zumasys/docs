@@ -6,8 +6,7 @@
 **Original ID:** 306444  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 This command modifies the security state of print jobs that are placed in a particular form queue. The command is as:
 
@@ -25,17 +24,10 @@ In the above example, if it is assumed that the alternate form queue owners had 
 
 - The user who created the print job,
 - The initial creator of form queue “DEVELOPMENT”,
-- The users personnel and footwear.
+- The users "personnel" and "footwear".
 
-
-
-
-
-> ### Note:
-> 
+> ### Note
+>
 > If the security status of print jobs changes, it only affects new print jobs. Any jobs already sent to the spooler will have their security state unaffected.
-
-
-
 
 Back to [Spooler.](./../jbase-spooler)
