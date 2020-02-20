@@ -8,7 +8,7 @@
 
 ## Description
 
-The jBASE BREAK-KEY-OFF command disables the break key when executing jBASE programs. The break key can be disabled on the current port or a port number specified as an argument.
+The jBASE **BREAK-KEY-OFF** command disables the break key when executing jBASE programs. The break key can be disabled on the current port or a port number specified as an argument.
 
 It takes the general form:
 

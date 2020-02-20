@@ -11,7 +11,7 @@
 
 ## Description
 
-The CLEAR-ITEM-LOCKS command can be used to clear a specific lock or all locks taken against a specific file. This command can only be used with jBASE hashed files. The command may take the general form:
+The **CLEAR-ITEM-LOCKS** command can be used to clear a specific lock or all locks taken against a specific file. This command can only be used with jBASE hashed files. The command may take the general form:
 
 ```
 CLEAR-ITEM-LOCKS filename

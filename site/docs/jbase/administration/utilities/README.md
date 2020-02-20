@@ -35,9 +35,7 @@
 [subd](./subd)  
 [subx](./subx)  
 [term](./term)  
-[term-(command)](./term-(command))  
 [time](./time)  
 [utilities](./utilities)  
 [where](./where)  
 [who](./who)  
-

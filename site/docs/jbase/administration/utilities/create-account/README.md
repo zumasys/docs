@@ -13,7 +13,7 @@
 
 ## Creating an Account
 
-The CREATE-ACCOUNT command enables the user to create a new account for use within the jBASE system.
+The **CREATE-ACCOUNT** command enables the user to create a new account for use within the jBASE system.
 
 ### Command Syntax
 

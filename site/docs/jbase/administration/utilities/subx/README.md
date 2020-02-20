@@ -11,21 +11,16 @@
 
 ## Description
 
-The jBASE SUBX command subtracts two hexadecimal numbers. It takes the general form:
+The jBASE **SUBX** command subtracts two hexadecimal numbers. It takes the general form:
 
 ```
 DIVX Num1 Num2
 ```
 
-where **Num**is a hexadecimal number.
+where **Num1** and **Num2** are hexadecimal numbers.
 
-### 
+## Note
 
+> Hexadecimal number **Num2** is subtracted from hexadecimal number **Num1**.
 
-## Note: 
-
-
-> Hexadecimal number Num2 is subtracted from hexadecimal number Num1.
-
-
-
+Back to [Utilities](./../utilities)

@@ -6,10 +6,9 @@
 **Original ID:** 305935  
 **Internal:** No  
 
+## Description
 
-## Description 
-
-The **jlogstatus** program will give you a overview of the entire Transaction logging and replication system (jlogdup). This may be done as:
+The **jlogstatus** program will give you a overview of the entire Transaction logging and replication system (**jlogdup**). This may be done as:
 
 ```
 jlogstatus -options
@@ -17,20 +16,16 @@ jlogstatus -options
 
 where option may be:
 
-
-| Option<br> | Description<br> |
+| Option | Description |
 | --- | --- |
-| -a<br> | display all available information<br> |
-| -c<br> | display current log information<br> |
-| -d<br> | display jlogdup process information<br> |
-| -g<br> | display general information<br> |
-| -h<br> | display help<br> |
-| -l<br> | display all Log files information in summary mode<br> |
-| -r **nn**<br> | set display to repeat every **nn** seconds<br> |
-| -v<br> | verbose mode<br> |
-
-
-
+| -a | display all available information |
+| -c | display current log information |
+| -d | display jlogdup process information |
+| -g | display general information |
+| -h | display help |
+| -l | display all Log files information in summary mode |
+| -r **nn** | set display to repeat every **nn** seconds |
+| -v | verbose mode |
 
 For instance the command:
 
@@ -65,7 +60,5 @@ Status log set 4:                          No files defined
 Status log totals:                         2 files, 100000 records, 20415568 bytes used
                                            Date range 10:41:21 08 APR 1998 to 10:49:59 08 APR 1998ry
 ```
-
-
 
 Back to [Transactional Journaling](./../introduction-to-transaction-journaling)

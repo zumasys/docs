@@ -15,7 +15,7 @@
 
 ## jLOGSTATUS
 
-The [jlogstatus](./../jlogstatus) program can give an overview of both the transaction logging and replication system.  See also [jlogstatus](./../jlogstatus)documentation for more detail. the command:
+The [jlogstatus](./../jlogstatus) program can give an overview of both the transaction logging and replication system.  See also [jlogstatus](./../jlogstatus) documentation for more detail. The command:
 
 ```
 JLOGSTATUS -a
@@ -34,28 +34,25 @@ Background sync demon:                  (inactive)
 Extended record:                        OFF
 Encrypted records:                      OFF
 Transaction Sync:                       ON
-Admin log file:                         12 entries , in file C:\jBASE\CurrentVersion\config\jediLoggerAdminLogAdmin 
+Admin log file:                         12 entries , in file C:\jBASE\CurrentVersion\config\jediLoggerAdminLogAdmin
 log notify program:                     (undefined)
 Current log file set:                   1 , date range 10:14:56 30 DEC 2016 to 21:15:30 11 JAN 2017
 \JBASE\JBASEADM\TJ2:                    46.34% capacity
 Total record count:                     207,699
 Total byte count:                       46,905,272
 jlogdup program status:                 NONE active
-Status log set 1 (current):             1 files , 207699 records , 46905272 bytes used 
+Status log set 1 (current):             1 files , 207699 records , 46905272 bytes used
                                         Date range 10:14:56 30 DEC 2016 to 21:15:30 11 JAN 2017 Not Archived
 Status log set 2:                       No files defined
 Status log set 3:                       No files defined
 Status log set 4:                       No files defined
-Status log totals:                      1 files , 207699 records , 46905272 bytes used 
+Status log totals:                      1 files , 207699 records , 46905272 bytes used
                                         Date range 10:14:56 30 DEC 2016 to 21:15:30 11 JAN 2017
 Committed transactions:                 0
 Aborted transactions:                   0
 Total transaction time:                 0.00 Secs
 Average transaction time:               0.0000 Secs
 ```
-
-### 
-
 
 ### jLOGMONITOR
 
@@ -67,37 +64,27 @@ jlogmonitor {-h|?} {-ccmd} {-Cnn} {-Dnn} {-E} {-Inn) {-Snn}
 
 Where option may be:
 
-
-| Option<br> | Description<br> |
+| Option | Description |
 | --- | --- |
-| -Nnn<br> | Switch to next log set if file capacity exceeds nn%.<br> |
-| -c**cmd** <br> | The command **cmd** is executed when an error occurs.<br> |
-| -C**nn** <br> | If the file system utilization of the journal log exceeds **nn**% full then an error message is displayed. The error message is repeated for every 1% increase in file system utilization.<br> |
-| -D**nn** <br> | If no records are processed by a jlogdup process (or if there is no jlogdup process active), then after **nn** minutes of inactivity an error message is displayed. The error message is repeated every **nn** minutes the jlogdup process(es) are inactive.<br> |
-| -E<br> | If the jlogdup program reports an error, this option causes jlogmonitor to also display an error. The actual nature of the error can only be viewed by either looking at the screen where the jlogdup process is active, or by listing the jlogdup error message file (assuming the –eERRFILE option was used).<br> |
-| -h<br> | display help<br> |
-| -l**nn** <br> | The status of the journaler can be ACTIVE , INACTIVE or SUSPENDED. Should the status of the journaler be set to either INACTIVE or SUSPENDED (with jlogadmin) for more than **nn** minutes, then an error message will be displayed. The error message will be repeated every **nn** minutes that the journaler is not active<br> |
-| -S**nn** <br> | This option is used to determine if any updates are being applied to the journal logs. If there are no updates applied to the current journal log set for **nn** minutes then an error message is displayed. The error message is repeated for every **nn** minutes that the system is inactive.<br> |
+| -Nnn | Switch to next log set if file capacity exceeds nn%. |
+| -c**cmd**  | The command **cmd** is executed when an error occurs. |
+| -C**nn**  | If the file system utilization of the journal log exceeds **nn**% full then an error message is displayed. The error message is repeated for every 1% increase in file system utilization. |
+| -D**nn**  | If no records are processed by a jlogdup process (or if there is no jlogdup process active), then after **nn** minutes of inactivity an error message is displayed. The error message is repeated every **nn** minutes the jlogdup process(es) are inactive. |
+| -E | If the jlogdup program reports an error, this option causes jlogmonitor to also display an error. The actual nature of the error can only be viewed by either looking at the screen where the jlogdup process is active, or by listing the jlogdup error message file (assuming the –eERRFILE option was used). |
+| -h | display help |
+| -l**nn**  | The status of the journaler can be ACTIVE , INACTIVE or SUSPENDED. Should the status of the journaler be set to either INACTIVE or SUSPENDED (with jlogadmin) for more than **nn** minutes, then an error message will be displayed. The error message will be repeated every **nn** minutes that the journaler is not active |
+| -S**nn**  | This option is used to determine if any updates are being applied to the journal logs. If there are no updates applied to the current journal log set for **nn** minutes then an error message is displayed. The error message is repeated for every **nn** minutes that the system is inactive. |
 
-
-
-
-
-> ### Note:
-> 
+> ### Note
+>
 > At least one of the options, -C, -D, -E, -I or -S, must be specified.
 
-
-
-
-### EXAMPLE
+### Example
 
 ```
 jlogmonitor –c"MESSAGE * %"
 ```
 
 The command "MESSAGE \* %" is executed for every message sent to the screen by jlogdup. The use of % is specially interpreted by the jlogmonitor program and will be replaced with the error message.
-
-
 
 Back to [Transactional Journaling](./../introduction-to-transaction-journaling)

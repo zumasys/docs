@@ -12,7 +12,7 @@
 
 ## Description
 
-The CONTROL-CHARS command is used to control whether or not the jBC **INPUT** statement accepts characters outside the printable range (decimal 32 through 126).
+The **CONTROL-CHARS** command is used to control whether or not the jBC **INPUT** statement accepts characters outside the printable range (decimal 32 through 126).
 
 ```
  CONTROL-CHARS {ON | OFF}

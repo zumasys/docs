@@ -8,7 +8,7 @@
 
 ## Description
 
-The jBASE CP command utilizes the jBASE copy command to output records from a file to a spooler print job. It takes the general form:
+The jBASE **CP** command utilizes the jBASE copy command to output records from a file to a spooler print job. It takes the general form:
 
 ```
 CP filename {recordlist} {(Options}

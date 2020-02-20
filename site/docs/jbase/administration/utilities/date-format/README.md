@@ -8,7 +8,7 @@
 
 ## Description
 
-The DATE-FORMAT command sets or resets the jBASE international date format flag - used when formatting dates for output by jBASE programs. The command takes the general form:
+The **DATE-FORMAT** command sets or resets the jBASE international date format flag - used when formatting dates for output by jBASE programs. The command takes the general form:
 
 ```
 DATE-FORMAT (Options

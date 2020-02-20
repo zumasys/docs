@@ -6,8 +6,6 @@
 **Original ID:** 334584  
 **Internal:** No  
 
-
-
 | <!----> | <!----> |
 | --- | --- |
 | [AUTOLOGOUT](./../autologout) | Set a session to be logged off after a period of inactivity. |
@@ -45,4 +43,3 @@
 | [WHERE](./../where) | Displays information on jBASE processes. |
 | [WHO](./../../../environment-variables/jbcemulate) | Port number display. |
 | [XTD.DTX](xtd-dtx) | Conversion from / to decimal / hexadecimal. |
-

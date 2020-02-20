@@ -12,19 +12,19 @@
 
 ## Description
 
-Several utilities are provided to convert, add, multiply, subtract and divide numeric decimal and hexadecimal values. Currently these are available on Unix platforms only.
+Several utilities are provided to convert, add, multiply, subtract and divide numeric decimal and hexadecimal values.
 
-
-| Command<br> | Description<br> | Example<br> | Result<br> | <br> |
+| Command | Description | Example | Result |  |
 | --- | --- | --- | --- | --- |
-| ADDD<br> | Add decimal<br> | ADDD 10 20<br> | 30<br> | <br> |
-| ADDX<br> | Add hexadecimal<br> | ADDX A 14<br> | 1E<br> | <br> |
-| SUBD<br> | Subtract decimal<br> | SUBD 20 10<br> | 10<br> | <br> |
-| SUBX<br> | Subtract hexadecimal<br> | SUBX 14 A<br> | A<br> | <br> |
-| DIVD<br> | Divide decimal<br> | DIVD 20 10<br> | 2<br> | <br> |
-| DIVX<br> | Divide hexadecimal<br> | DIVX 14 A<br> | 2<br> | <br> |
-| MULD<br> | Multiply decimal<br> | MULD 20 10<br> | 200<br> | <br> |
-| MULX<br> | Multiply hexadecimal<br> | MULX 14 A<br> | C8<br> | <br> |
-| DTX<br> | Convert decimal to hex<br> | DTX 10<br> | A<br> | <br> |
-| XTD<br> | Convert hex to decimal<br> | XTD A<br> | 10<br> |
+| ADDD | Add decimal | ADDD 10 20 | 30 |  |
+| ADDX | Add hexadecimal | ADDX A 14 | 1E |  |
+| SUBD | Subtract decimal | SUBD 20 10 | 10 |  |
+| SUBX | Subtract hexadecimal | SUBX 14 A | A |  |
+| DIVD | Divide decimal | DIVD 20 10 | 2 |  |
+| DIVX | Divide hexadecimal | DIVX 14 A | 2 |  |
+| MULD | Multiply decimal | MULD 20 10 | 200 |  |
+| MULX | Multiply hexadecimal | MULX 14 A | C8 |  |
+| DTX | Convert decimal to hex | DTX 10 | A |  |
+| XTD | Convert hex to decimal | XTD A | 10 |
 
+Back to [Utilities](./../utilities)

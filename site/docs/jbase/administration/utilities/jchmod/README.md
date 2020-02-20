@@ -6,10 +6,9 @@
 **Original ID:** 325744  
 **Internal:** No  
 
+## Description
 
-## Description 
-
-The **jchmod**utility provides a mechanism to modify Hash file parameters. The -L and +L options will also affect operating system level directory files.
+The **jchmod** utility provides a mechanism to modify Hash file parameters. The -L and +L options will also affect operating system level directory files.
 
 ## Syntax
 
@@ -17,29 +16,29 @@ The **jchmod**utility provides a mechanism to modify Hash file parameters. The -
 jchmod -Options +Options Filename
 ```
 
-## Options:
+## Options
 
-
-| Option<br> | Explanation<br> |
+| Option | Explanation |
 | --- | --- |
-| -t<br> | Tabulate description about the file<br> |
-| -B<br> | Remove backup of file using jbackup<br> |
-| -C<br> | Remove control file usage flag<br> |
-| -J<br> | Remove journaled file updates<br> |
-| -L<br> | Remove logging the file<br> |
-| -M<br> | Disable monitoring the file (Audit Logging)<br> |
-| -N<br> | Remove the network friendly flag<br> |
-| -R<br> | Remove resize specification<br> |
-| -S<br> | Remove secure mode updates (j3 only)<br> |
-| -T<br> | Remove transaction boundary support<br> |
-| +A<br> | Auto-detect if a file is network friendly<br> |
-| +B<br> | Add backup of file using jbackup<br> |
-| +C<br> | Add control file usage flag<br> |
-| +J<br> | Add journaled file updates<br> |
-| +L<br> | Add logging the file<br> |
-| +M<br> | Enable monitoring the file (Audit Logging)<br> |
-| +N<br> | Add the network friendly flag<br> |
-| +S<br> | Add secure mode updates (j3 only)<br> |
-| +T<br> | Add transaction boundary support<br> |
-| +Rspec<br> | Add restore spec , used during jrestore<br> |
+| -t | Tabulate description about the file |
+| -B | Remove backup of file using jbackup |
+| -C | Remove control file usage flag |
+| -J | Remove journaled file updates |
+| -L | Remove logging the file |
+| -M | Disable monitoring the file (Audit Logging) |
+| -N | Remove the network friendly flag |
+| -R | Remove resize specification |
+| -S | Remove secure mode updates (j3 only) |
+| -T | Remove transaction boundary support |
+| +A | Auto-detect if a file is network friendly |
+| +B | Add backup of file using jbackup |
+| +C | Add control file usage flag |
+| +J | Add journaled file updates |
+| +L | Add logging the file |
+| +M | Enable monitoring the file (Audit Logging) |
+| +N | Add the network friendly flag |
+| +S | Add secure mode updates (j3 only) |
+| +T | Add transaction boundary support |
+| +Rspec | Add restore spec , used during jrestore |
 
+Back to [Utilities](./../utilities)

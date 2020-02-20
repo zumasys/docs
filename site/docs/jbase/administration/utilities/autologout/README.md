@@ -8,7 +8,7 @@
 
 ## Description
 
-The AUTOLOGOUT command enables a session to be automatically logged off should there be no keyboard activity for a specified time.
+The **AUTOLOGOUT** command enables a session to be automatically logged off should there be no keyboard activity for a specified time.
 
 It takes the general form:
 

@@ -11,10 +11,10 @@
 
 ## Description
 
-The jBASE TIME command returns the system current time and date. The command is as:
+The jBASE **TIME** command returns the system current time and date. The command is as:
 
 ```
 TIME
 ```
 
-
+Back to [Utilities](./../utilities)

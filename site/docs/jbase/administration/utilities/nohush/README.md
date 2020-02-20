@@ -13,18 +13,14 @@
 
 ## Description
 
-The jBASE NOHUSH command sets the jBASE echo enabled flag. This enables input character echo, when using a jBASE program. It may be invoked as:
+The jBASE **NOHUSH** command sets the jBASE echo enabled flag. This enables input character echo, when using a jBASE program. It may be invoked as:
 
 ```
 NOHUSH
 ```
 
-
-
-## Note:
-
+## Note
 
 > This command is only available in jBASE 3.x
 
-
-
+Back to [Utilities](./../utilities)
