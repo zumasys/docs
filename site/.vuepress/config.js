@@ -45,7 +45,9 @@ module.exports = {
       backgroundColor: '#eb6b3b',
       staticIcon: true
     },
+    // Social sharing buttons on right tab
     "social-share": {},
+    // Meta data
     'seo': { 
       //siteTitle: (_, $site) => $site.title,
       //title: $page => $page.title,
