@@ -27,13 +27,13 @@
     "@vssue/api-github-v3": "^1.4.0",
     "@vssue/vuepress-plugin-vssue": "^1.4.2",
     "dotenv": "^8.2.0",
-    "vuepress": "^1.3.0",
-    "vuepress-plugin-code-copy": "^1.0.5",
+    "vuepress": "^1.3.1",
+    "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-git-log": "^1.0.1",
     "vuepress-plugin-reading-progress": "^1.0.8"
   },
   "devDependencies": {
-    "typescript": "^3.7.5",
+    "typescript": "^3.8.2",
     "vuepress-plugin-nprogress": "^1.1.6",
     "vuepress-plugin-reading-time": "^0.1.1",
     "vuepress-plugin-seo": "^0.1.2",
