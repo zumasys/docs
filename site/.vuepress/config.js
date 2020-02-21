@@ -25,7 +25,7 @@ module.exports = {
     // TypeScript in .vue files, markdown files and enhanceApp.ts
     "vuepress-plugin-typescript": {
       tsLoaderOptions: {
-        /* All options of ts-loader */
+        // All options of ts-loader
       }
     },
     // Git Log/Details
@@ -37,6 +37,7 @@ module.exports = {
     "reading-progress": { readingDir: "docs" },
     // Add article reading time estimate
     "vuepress-plugin-reading-time": {},
+    // Copy icon on <code>
     "vuepress-plugin-code-copy": {
       selector: 'pre[class*="language-"] code',
       align: 'top',
