@@ -104,6 +104,7 @@
 [flush](./flush)  
 [fmt](./fmt)  
 [fmts](./fmts)  
+[fmul](./fmul)  
 [fold](./fold)  
 [footing](./footing)  
 [for](./for)  
