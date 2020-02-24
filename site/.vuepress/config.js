@@ -13,7 +13,7 @@ module.exports = {
     return { plugins: [new webpack.EnvironmentPlugin({ ...process.env })] };
   },
   plugins: {
-    "@vuepress/search": { searchMaxSuggestions: 10 },
+/*    "@vuepress/search": { searchMaxSuggestions: 10 },
     // Vssue (uses gitlab issues to comment)
     "@vssue/vuepress-plugin-vssue": {
       platform: "github", // set `platform` rather than `api`
@@ -61,7 +61,7 @@ module.exports = {
       //publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
       //modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
     }
-  },
+  */  },
   themeConfig: {
     logo: "/assets/img/logo-grey.png",
     nav: [
@@ -69,16 +69,7 @@ module.exports = {
       { text: "Docs", link: "/docs/" }
     ],
     sidebar: [
-      "/",
-      /*{
-        title: 'AccuTerm',
-        path: '/accuterm/',
-        collapsable: true,
-        children: [
-          ['/accuterm/mobile/', 'Mobile'],
-          ['/accuterm/web/', 'Web']
-        ]
-      },*/        
+      "/",      
       {
         title: 'AccuTerm',
         path: '/accuterm/',
@@ -126,6 +117,56 @@ module.exports = {
               ['/accuterm/web/phi-reports/', 'PHI Reports']             
             ]
           }
+        ]
+      },
+      {
+        title: 'MV Dashboard',
+        path: '/mv-dashboard/',
+        collapsable: true,
+        children: [
+          ['/mv-dashboard/getting-started-with-mv-dashboard/', 'Getting Started with MV Dashboard'],
+          ['/mv-dashboard/introduction-to-mv-dashboard/', 'Introduction to MV Dashboard'],
+          ['/mv-dashboard/additional-features/', 'Additional Features'],
+          ['/mv-dashboard/configure-mv-dashboard/', 'Configure MV Dashboard'],
+          ['/mv-dashboard/default-chart-options/', 'Default Chart Options'],
+          ['/mv-dashboard/defining-links-in-a-widget/', 'Defining Links in a Widget'],
+          ['/mv-dashboard/drill-down-widgets/', 'Drill Down Widgets'],
+          ['/mv-dashboard/external-links/', 'External Links'],
+          ['/mv-dashboard/fusion-charts-documentation/', 'Fusion CHarts Documentation'],
+          ['/mv-dashboard/general-widget-definition/', 'General Widet Definition'],
+          ['/mv-dashboard/html-data/', 'HTML Data'],
+          ['/mv-dashboard/install-mv-dashboard-and-mv-connect-unix/', 'Install MV Dashboard/MV Connect Unix'],
+          ['/mv-dashboard/install-mv-dashboard-and-mv-connect-windows/', 'Install MV Dashboard/MV Connect Windows'],
+          ['/mv-dashboard/integrating-with-web-service-login/', 'Integrating with Web Service Login'],
+          ['/mv-dashboard/integration-using-emailed-login/', 'Integration using Emailed Login'],
+          ['/mv-dashboard/integration-with-other-applications/', 'Integration with Other Applications'],
+          ['/mv-dashboard/optional-parameters-for-line-bar-area-column-pie-and-doughnut-charts-2d-and-3d/', 'Optional Parameters for Line, Bar, Area, Column, Pie and Doughnut Charts (2D & 3D)'],
+          ['/mv-dashboard/optional-parameters-for-trendlines/', 'Optional Parameters for Trendlines'],
+          ['/mv-dashboard/optional-parameters-unique-to-2d-area-charts/', 'Optional Parameters Unique to 2D Area Charts'],
+          ['/mv-dashboard/optional-parameters-unique-to-2d-line-charts/', 'Optional Parameters Unique to 2D Line Charts'],
+          ['/mv-dashboard/optional-parameters-unique-to-column-line-area-and-bar/', 'Optional Parameters Unique to Column Line Area and Bar'],
+          ['/mv-dashboard/optional-parameters-unique-to-multiseries-and-stacked-charts/', 'Optional Parameters Unique to Multiseries and Stacked Charts'],
+          ['/mv-dashboard/optional-parameters-unique-to-pie-and-doughnut-charts/', 'Optional Parameters Unique to Pie and Doughnut Charts'],
+          ['/mv-dashboard/optional-parameters-unique-to-single-series-and-pie-charts/', 'Optional Parameters Unique to Single Series and Pie Charts'],
+          ['/mv-dashboard/pie-charts/', 'Pie Charts'],
+          ['/mv-dashboard/programming-notes/', 'Programming Notes'],
+          ['/mv-dashboard/single-series-and-multi-series-bar-column-line-and-area-charts/', 'Single Series and Multi Series Bar Column Line and Area Charts'],
+          ['/mv-dashboard/specifying-colors/', 'Specifying Colors'],
+          ['/mv-dashboard/text-data/', 'Text Data'],
+          ['/mv-dashboard/text-tables/', 'Text Tables'],
+          ['/mv-dashboard/theme-management/', 'Theme Management'],
+          ['/mv-dashboard/uninstall-mv-dashboard-unix/', 'Uninstall MV Dashboard Unix'],
+          ['/mv-dashboard/uninstall-mv-dashboard-windows/', 'Uninstall MV Dashboard Windows'],
+          ['/mv-dashboard/upgrading-mv-dashboard/', 'Upgrading MV Dashboard'],
+          ['/mv-dashboard/user-input/', 'User Input'],
+          ['/mv-dashboard/widget-programming-environment/', 'Widget Programming Environment'],
+          ['/mv-dashboard/widget-technical-overview/', 'Widget Technical Overview'],
+          ['/mv-dashboard/widget-testing-and-debugging/', 'Widget Testing and Debugging'],
+          ['/mv-dashboard/widget-types/', 'Widget Types'],
+          ['/mv-dashboard/appendix-iii-pdf-generation/', 'Appendix III PDF Generation'],
+          ['/mv-dashboard/appendix-ii-optional-parameters/', 'Appendix II Optional Parameters'],
+          ['/mv-dashboard/appendix-i-widget-output-type-codes/', 'Appendix I Widget Output Type Codes'],
+          ['/mv-dashboard/articles/', 'Articles']
         ]
       },
       ["/docs/jbase/", "jBASE"],
