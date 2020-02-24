@@ -1,4 +1,4 @@
-# Change AccuTerm.IO Password
+# Change Password
 
 **Created At:** 2/12/2020 6:13:29 PM  
 **Updated At:** 2/12/2020 6:28:24 PM  
@@ -13,7 +13,6 @@ If you've forgotten or need to change your password and need to reset it, you ca
 
 1. Go to the AccuTerm.IO login page at [www.accuterm.io](//www.accuterm.io) and click the "Forgot your password?" link.
 
-## 
 
 
 ![accuterm-8-change-accutermio-password: 1581531582640-image](./1581531582640-image.png)
