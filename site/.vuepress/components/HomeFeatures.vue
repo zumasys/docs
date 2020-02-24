@@ -4,8 +4,8 @@
       <h2>AccuTerm</h2>
       <p>
         Desktop (Coming Soon!)<br />
-        <a href="docs/zumasys/accuterm-web">Web</a><br />
-        <a href="docs/zumasys/accuterm-mobile">Mobile</a>
+        <a href="/accuterm/web/">Web</a><br />
+        <a href="/accuterm/mobile/">Mobile</a>
       </p>
     </div>
     <div class="feature">
