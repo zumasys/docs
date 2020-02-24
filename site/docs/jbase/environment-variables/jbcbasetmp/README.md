@@ -17,39 +17,32 @@ If the specified file does not exist when jBASE attempts to open it, it is creat
 
 This environment variable is superceeded by [JBASEUNIQUE](./../jbaseunique).
 
-## 
-
-
 ## Values
 
 Valid file path.
 
-
-
 ## Default
 
 ```
-$JBCRELEASEDIR/tmp/jBASEWORK (Unix)
+$JBCRELEASEDIR/tmp/jBASEWORK (UNOX)
 %JBCRELEASEDIR\tmp\jBASEWORK (Windows)
 ```
-
-
 
 ## Setting
 
 As per normal environment variable, it should be set before any jBASE process is invoked.
 
-**Unix**
+## UNIX
 
 ```
 JBCBASETMP=/home/tmp/jwork$LOGNAME
 export JBCBASETMP
 ```
 
-
-
-**Windows**
+## Windows
 
 ```
 set JBCBASETMP=C:\JBASE30\tmp\workfiles\jTMP%USERNAME%
 ```
+
+Go Back to [Environment Variables](./../README.md)

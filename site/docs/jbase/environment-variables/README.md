@@ -12,6 +12,7 @@
 [jbase_errmsg_trace](./jbase_errmsg_trace)  
 [jbase_errmsg_zero_used](./jbase_errmsg_zero_used)  
 [jbase_locale](./jbase_locale)  
+[jbase_pivot_year](jbase_pivot_year/README.md)  
 [jbase_timezone](./jbase_timezone)  
 [jbcbasetmp](./jbcbasetmp)  
 [jbcdatadir](./jbcdatadir)  

@@ -184,3 +184,5 @@ On legacy (port-based) systems, the LOCK2 program will take the ELSE clause, in 
 If you intend to convert over to jBASE, this may cause you to rework some of your application, but at the end of the day, the application cooperating with the operating system will create a much more solid and portable product.
 
 In conclusion, you can see that there is nothing here that is mysterious or difficult. If you follow these few simple rules and concepts you can master the keys to record locking.
+
+Back to [Coding Corner](./../coding-corner)

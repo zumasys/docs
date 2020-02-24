@@ -1,4 +1,4 @@
-# Configuring the ODBC jEDI on Linux/Unix
+# Configuring the ODBC jEDI on Linux/UNIX
 
 **Created At:** 11/15/2019 5:28:05 PM  
 **Updated At:** 12/30/2019 5:53:59 PM  
@@ -6,7 +6,7 @@
 **Original ID:** 494585  
 **Internal:** Yes  
 
-For Linux/Unix operating systems, the **jEDIdrivers.ini**, **odbc.ini**, and **odbcinst.ini** files all need to be properly configured for correct function of the utility. These files are located in either the **/etc** directory for global settings, **$JBCDATADIR/config**, or in the user's **$HOME** directory. Moreover, since the *ODBC* *jEDI* is comprised of a set of bin (executable) and lib (driver libraries and subroutines) binary-object files, you must ensure the lib directory path is added to your **LD\_LIBRARY\_PATH** environment variable (before beginning the steps listed below). The full path of the bin directory is located within your **PATH** environment variable, and the full path of the lib directory is located within your **JBCOBJECTLIST** environment variable.
+For Linux/UNIX operating systems, the **jEDIdrivers.ini**, **odbc.ini**, and **odbcinst.ini** files all need to be properly configured for correct function of the utility. These files are located in either the **/etc** directory for global settings, **$JBCDATADIR/config**, or in the user's **\$HOME** directory. Moreover, since the *ODBC* *jEDI* is comprised of a set of bin (executable) and lib (driver libraries and subroutines) binary-object files, you must ensure the lib directory path is added to your **LD\_LIBRARY\_PATH** environment variable (before beginning the steps listed below). The full path of the bin directory is located within your **PATH** environment variable, and the full path of the lib directory is located within your **JBCOBJECTLIST** environment variable.
 
 For the configuration example below, we will be configuring MySQL and MSSQL *ODBC* drivers by doing the following:
 
@@ -137,7 +137,7 @@ passwd = expswrd
 
 [Introduction to the ODBC jEDI](./../introduction-to-the-odbc-jedi)
 
-[Installing the ODBC jEDI on Linux/Unix](./../installing-the-odbc-jedi-on-linux&unix)
+[Installing the ODBC jEDI on Linux/UNIX](./../installing-the-odbc-jedi-on-linux&unix)
 
 [Installing the ODBC jEDI on Windows](./../installing-the-odbc-jedi-on-windows)
 

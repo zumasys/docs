@@ -37,3 +37,7 @@ export JBASE_LOCALE=en_US
 ```
 set JBASE_LOCALE=en_US
 ```
+
+## Note
+> JBASE_I18N does not need to have been set for this environment variable to be used.
+>

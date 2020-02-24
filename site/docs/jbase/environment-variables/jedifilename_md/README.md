@@ -16,18 +16,13 @@
 
 This variable should be used if you require the use of a MD or VOC file to hold Q pointers, jCL programs, paragraphs or entries for jQL (jBASE Query Language). If you have loaded an account-save into your home directory then you might wish to set this variable. This will then allow you to:
 
-- Execute jCL programs and paragraphs directly from the MD/VOC (using **jsh**or EXECUTE/CHAIN etc.)
+- Execute jCL programs and paragraphs directly from the MD/VOC (using **jsh** or EXECUTE/CHAIN etc.)
 - Support Q-pointers and F-pointers in the MD/VOC file (may need [**JEDIFILENAME\_SYSTEM**](./../jedifilename_system))
 - On systems with 14 char filename limits, create cross reference items for executables from the original name to the new name.
 
-
-
-
 ## Values
 
-Valid file path.  While it is not required, it is strongly advised that this value be set to the complete path of the MD and not a relative path (as an example, **/home/MD]D**should be used instead of **./MD]D**).
-
-
+Valid file path.  While it is not required, it is strongly advised that this value be set to the complete path of the MD and not a relative path (as an example, **/home/MD]D** should be used instead of **./MD]D**).
 
 ## Default
 
@@ -37,14 +32,16 @@ None
 
 As per normal environment variable, so it can be set at any time by the commands:
 
-**Unix**
+## UNIX
 
 ```
 export JEDIFILENAME_MD=/usr/GLOBAL/MD]D
 ```
 
-**Windows**
+## Windows
 
 ```
 set JEDIFILENAME_MD=D:\GLOBAL\MD]D
 ```
+
+Go Back to [Environment Variables](./../README.md)

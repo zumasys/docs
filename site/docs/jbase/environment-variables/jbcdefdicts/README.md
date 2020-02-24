@@ -15,30 +15,26 @@ Specifies one or more files that are used to hold dictionary items for use by [j
 
 ## Values
 
-Colon separated file paths (Unix)
+Colon separated file paths (UNIX)
 
 Semicolon separated file paths (Windows)
-
-
 
 ## Default
 
 None.
 
-
-
 ## Setting
 
-**Unix**
+## UNIX
 
 ```
 export JBCDEFDICTS=/home/PRIVATEDICT]D:/usr/globals/GLOBALDICT]D
 ```
 
-
-
-**Windows**
+## Windows
 
 ```
 set JBCDEFDICTS=C:\home\PRIVATEDICT]D;C:\globals\GLOBALDICT]D
 ```
+
+Go Back to [Environment Variables](./../README.md)

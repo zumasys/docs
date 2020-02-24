@@ -14,35 +14,31 @@
 
 This environment variable defines the location of the jRFS security access file **jnet\_access**.
 
-
-
 ## Values
 
 Valid file path.
 
-
-
 ## Default
 
 ```
-/usr/jbc/config (Unix)
+/usr/jbc/config (UNIX)
 %JBCRELEASEDIR%\config (Windows)
 ```
-
-
 
 ## Setting
 
 As per normal environment variable.
 
-**Unix**
+## UNIX
 
 ```
 export JBCNETDIR=/usr/jbasesetup
 ```
 
-**Windows**
+## Windows
 
 ```
 set JBCNETDIR=C:\JBASESETUP
 ```
+
+Go Back to [Environment Variables](./../README.md)

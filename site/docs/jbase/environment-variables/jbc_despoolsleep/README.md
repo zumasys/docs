@@ -17,19 +17,13 @@ By default, the jBASE despooler processes check for queued jobs every 5 seconds.
 
 The minimum sleep time this can be set to is 3 seconds.
 
-
-
 ## Values
 
 Number of seconds.
 
-
-
 ## Default
 
 5
-
-
 
 ## Setting
 
@@ -37,5 +31,7 @@ It should be set before form queues are started.
 
 ```
 set JBC_DESPOOLSLEEP=10     [Windows]
-export JBC_DESPOOLSLEEP=10  [Unix]
+export JBC_DESPOOLSLEEP=10  [UNIX]
 ```
+
+Back to [Environment Variables](./../README.md)

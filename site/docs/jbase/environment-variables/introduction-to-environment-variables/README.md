@@ -6,7 +6,7 @@
 **Original ID:** 339235  
 **Internal:** No  
 
-## SETTING/GETTING
+## Setting/Getting
 
 ## Windows
 
@@ -30,7 +30,7 @@ This works for all shells, although some shells (i.e. ksh) allow "export variabl
 
 Variables are usually configured in the .profile/.bash\_profile of the user login directory.  Global variables can be added to the "/etc/profile" script.
 
-### jBASE PROGRAMS
+### jBASE Programs
 
 The jBC functions **PUTENV()** and **GETENV()** can be used to manipulate environment variables. For example:
 
@@ -39,7 +39,7 @@ ok = PUTENV(envar=x)
 ok = GETENV(envar)
 ```
 
-### jBASE INITIALIZATION
+### jBASE Initialization
 
 Some environment variables can only be set before jBASE initialization. jBASE initialization occurs when the first jBASE program is executed on a particular **PORT** number.
 
@@ -55,7 +55,7 @@ For instance:
 
 All jBASE programs execute in the same process unless explicitly executed via the **@IM****:"k"** construct.
 
-### INITIAL ENVIRONMENT VARIABLES
+### Initial Environment VAriables
 
 
 | <!----> | <!----> |
@@ -82,12 +82,9 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | JEDIFILENAME\_MD | pathname of file to be used for Master Dictionary entries |
 | JEDIFILENAME\_SYSTEM | pathname of file to be used for SYSTEM entries |
 
+### Addittional jBASE Environment Variables
 
-
-
-### ADDITIONAL jBASE ENVIRONMENT VARIABLES.
-
-#### EXECUTION
+#### Execution
 
 
 | <!----> | <!----> |
@@ -106,11 +103,7 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | JBCOBJECTLIST | set to alternate path(s) for user subroutine libraries<br>Windows - %HOME%\lib<br>UNIX - $HOME/lib |
 | JBC\_BLOCK\_SYSTEM14 | set to 1 to force a 100 millisecond delay on SYSTEM(14) calls. |
 
-
-
-
-#### DEVELOPMENT
-
+#### Development
 
 | <!----> | <!----> |
 | --- | --- |
@@ -120,11 +113,7 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | LIB | specify additional paths for linking with libraries. (Windows only) |
 | INCLUDE | specify additional paths for header files |
 
-
-
-
-#### MISCELLANEOUS
-
+#### Miscellaneous
 
 | <!----> | <!----> |
 | --- | --- |
@@ -138,11 +127,7 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | JBCLISTFILE | specify alternate select list file |
 | JBCLISTID | force user account name to be part stored list ids. |
 
-
-
-
-#### TERMINAL
-
+#### Terminal
 
 | <!----> | <!----> |
 | --- | --- |
@@ -155,10 +140,7 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | JBC\_STDERR | set to 1 to redirect standard error to standard out. Useful for CAPTUREing output that would normally be sent to the screen. |
 | JBCCREATEFLAGS | set to 0, 1, 2 for output redirection. (Windows only)<br>0 Direct to current console (default)<br>1 Direct to new console<br>2 Detached for no console |
 
-
-
-
-#### EMBEDDED SQL
+#### Embedded SQL
 
 
 | <!----> | <!----> |
@@ -167,38 +149,27 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | JBC\_SQLPREPROC | set alternate SQL pre-compiler command |
 | JBC\_SQLFIXEDLEN | set to use fixed length types for char input strings |
 
-
-
-
-#### QUERIES
-
+#### Queries
 
 | <!----> | <!----> |
 | --- | --- |
 | JBCDEFDICTS | specify alternate default dictionary files |
 
-
-
-
 #### CREATE-FILE
-
 
 | <!----> | <!----> |
 | --- | --- |
 | JEDI\_PREFILEOP | parameters take precedence before command line |
 | JEDI\_POSTFILEOP | parameters take precedence after command line |
 
-
-For example, to create all files from a **jbackup** to JP (jPlus) files and as Case Insensitive, set the following environment variable before doing the **jrestore**. Note the use of double-quotes on Unix when there is more than one setting.
+For example, to create all files from a **jbackup** to JP (jPlus) files and as Case Insensitive, set the following environment variable before doing the **jrestore**. Note the use of double-quotes on UNIX when there is more than one setting.
 
 ```
 export JEDI_PREFILEOP="TYPE=JP CASE=OFF"  (UNIX)
 set JEDI_PREFILEOP=TYPE=JP CASE=OFF       (Windows)
 ```
 
-
-
-#### JRFS
+#### jRFS
 
 
 | <!----> | <!----> |
@@ -209,4 +180,3 @@ set JEDI_PREFILEOP=TYPE=JP CASE=OFF       (Windows)
 | JRFS\_LOCALPATH\_JQL | set to 1 to allow remote pointer to have a different name than the remote file |
 | JRFS\_SERVERNAME | allows the jRFS client to override the service port |
 | JRFS\_HOSTNAME | allows the jRFS client to override the target host |
-

@@ -6,8 +6,7 @@
 **Original ID:** 353687  
 **Internal:** No  
 
-
-### Description
+## Description
 
 New commands **jbase** and **jb** which simplify the login process.
 
@@ -28,7 +27,7 @@ NA
 
 For simple jBASE installations, it provides a quick way to start a jBASE session without any special configuration.
 
-The jBASE system environment variables are initialized by running **jbase\_env.sh** (Unix) or **jbase\_env.cmd** (Windows) in JBCRELEASEDIR. On Unix, symbolic links to these scripts are added to **/usr/local/bin**. On Windows, since **%JBCRELEASEDIR%\bin** is normally in the PATH, these scripts are already accessible.
+The jBASE system environment variables are initialized by running **jbase\_env.sh** (UNIX) or **jbase\_env.cmd** (Windows) in JBCRELEASEDIR. On Unix, symbolic links to these scripts are added to **/usr/local/bin**. On Windows, since **%JBCRELEASEDIR%\bin** is normally in the PATH, these scripts are already accessible.
 
 The command syntax for **jbase** or **jb** is identical to that of **jlogin**, described next.
 
@@ -94,7 +93,7 @@ For convenience, when an account name (not an account path) is used, if the name
 Log in to account AlternateAccountName instead?
 ```
 
-#### EXAMPLES
+#### Examples
 
 The following examples are using the **jbase** command; the **jb** command could be used in an identical manner. The **jlogin** command could also be used if the jBASE system environment has been set up.
 

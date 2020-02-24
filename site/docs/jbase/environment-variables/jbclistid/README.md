@@ -15,38 +15,30 @@
 
 This environment variable forces the user account name to be stored as part of the saved list identifier.
 
-
-
 ## Values
 
 1
-
-
 
 ## Default
 
 Not set.
 
-
-
 ## Setting
 
 As per normal environment variable.
 
-**Unix**
+## UNIX
 
 ```
 JBCLISTID=1
 export JBCLISTID
 ```
 
-**Windows**
+## Windows
 
 ```
 SET JBCLISTID=1
 ```
-
-
 
 Lists stored in jBASEWORK have an id of the form SEL\*UserName\*ListName unless there is a Q-pointer or F-pointer called POINTER-FILE that references jBASEWORK.
 
@@ -56,6 +48,6 @@ Otherwise lists have an id of the form ListName unless JBCLISTID=1, in which cas
 
 When lists have the user name as part of the id, then the user name can be specified as an optional argument to [GET-LIST](./../../jbase/lists/get-list) and [EDIT-LIST](edit_list).
 
-
-
 See also: [JBCLISTFILE](./../jbclistfile) and [List Storage](./../../jbase/lists/list-storage) for how lists are stored.
+
+Go Back to [Environment Variables](./../README.md)

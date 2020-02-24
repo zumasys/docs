@@ -14,20 +14,15 @@
 
 The jRFS Server and client both use configuration files stored by default in the directory:
 
-Unix: $JBCRELEASEDIR/config
+UNIX: $JBCRELEASEDIR/config
 
 Windows: %JBCRELEASEDIR%\config
 
-
-> ### Note:
-> 
+> ### Note
+>
 > These files may be stored in a different location, as long as the environmental variable is set as:
-> 
+>
 > JBCNETDIR= &lt;path to directory containing configuration files&gt;
-
-
-## 
-
 
 ## Configuration Files
 
@@ -36,9 +31,6 @@ jnet\_config - This file contains the configuration of how the client and server
 jnet\_map - This file is used to map your client user information to the server user information. For each map required you need 2 lines, first your local client information and second the remote server information. As you can tell, this mapping is only required on the client side.
 
 jrfs\_config - This file contains configuration for the jRFS process.
-
-
-
 
 
 Back to [Remote Files](./../jbase-remote-file-service-%28jrfs%29).

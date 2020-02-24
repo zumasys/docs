@@ -63,15 +63,15 @@ Record locks:        3020 locks maximum in 151 groups of 20 locks/group
 Once any particular group contains the maximum number of record locks (20 in this case) then, for the next record lock that would hash into that group, **Error 37** (or **39**) would be displayed. This error can be simulated by creating a test file and running this program:
 
 ```
-0001     PROGRAM jdlstest
-0002     OPEN "testfile" TO testfile ELSE STOP 201, "testfile"
-0003     counter = 0
-0004     doomsday = @FALSE
-0005     LOOP UNTIL doomsday
-0006         READU rec FROM testfile, counter ELSE NULL
-0007         counter++
-0008         CRT counter:' locked'
-0009     REPEAT
+    PROGRAM jdlstest
+    OPEN "testfile" TO testfile ELSE STOP 201, "testfile"
+    counter = 0
+    doomsday = @FALSE
+    LOOP UNTIL doomsday
+        READU rec FROM testfile, counter ELSE NULL
+        counter++
+        CRT counter:' locked'
+    REPEAT
 ```
 
 Eventually, one of the lock table groups will fill up and after 30 seconds or so you will see:
@@ -104,7 +104,6 @@ So, given a setting of **1000,20**, i.e. a maximum of 20 locks per group:
 - The worst case scenario would be that the first 21 locks would hash into the same group in the lock table, the 21st lock giving error 37.
 - The best case scenario would be 1000 locks taken, where the 1000 locks hash perfectly with 20 locks in each of the 50 groups, with the 1001th lock giving error 37.
 
-
 The real life scenario is somewhere in between these two extremes and the **Error 37** occuring whenever a lock hashes into a group that already contains the maximum number of locks per group.
 
 There is no magic bullet as to what is the best combination of *maximum concurrent locks* vs *maximum locks per group* for a particular system.
@@ -112,7 +111,8 @@ There is no magic bullet as to what is the best combination of *maximum concurre
 - *More locks per group* means that, when determining whether a lock already exists, more locks have to be scanned within the group. We recommend having no more than 30 locks per group, more than that will severely degrade performance.
 - *Fewer locks per group* means the likelyhood of a group exceeding the *maximum locks per group* limit increases.
 
-
 So a suitable compromise, based on the number of concurrent locks a particular site is likely to reach, is required.
 
 In reality, unless you are getting **Error 37**, we recommend using the default setting until there is a reason to change it. However, if you are starting to get **Error 37**, this would indicate that the application is taking locks and not releasing them. So it would be better to fix the application than to increase the lock table, which could result in performance issues.
+
+Back to [Coding Corner](./../coding-corner)

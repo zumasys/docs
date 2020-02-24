@@ -16,32 +16,28 @@ This environment variable specifies the page depth for paged spooler output, and
 
 Valid only on jBASE 3.x.
 
-
-
 ## Values
 
 Decimal number
-
-
 
 ## Default
 
 None.
 
-
-
 ## Setting
 
 It must be set before any jBASE program is invoked.
 
-**Unix**
+## UNIX
 
 ```
 export JBCPRINTER_DEPTH=62
 ```
 
-**Windows**
+## Windows
 
 ```
 set JBCPRINTER_DEPTH=62
 ```
+
+Go Back to [Environment Variables](./../README.md)

@@ -14,9 +14,7 @@
 ## Description
 
 This environment variable provides a variable amount of jBASE trace information depending on
-which options are specified. It's primary purpose is for use with profiling jBC code.
-
-
+which options are specified. It's primary purpose is for use in profiling jBC code.
 
 ## Values
 
@@ -28,34 +26,29 @@ Colon separated name and value pairs; the options are:
 - branch={off|on|verbose}
 - trace=env\_name{,env\_name,}
 
-
 JDIAG=TRACE=LOGTO|LICENSING|INDEX|SLEEP
-
-
 
 ## Default
 
 Not set
 
-
-
 Examples of use may be as:
 
-**Unix**
+## UNIX
 
 ```
 export JDIAG=profile=long:filename=PROFILENAME%p.out  
 ```
 
-**Windows**
+## Windows
 
 ```
-set JDIAG=profile=long:filename=PROFILENAME%p.out 
+set JDIAG=profile=long:filename=PROFILENAME%p.out
 ```
-
-
 
 ```
 JQL_TRACE_DEBUG=1
 set JDIAG=TRACE=INDEX
 ```
+
+Back to [Environment Variables](./../README.md)

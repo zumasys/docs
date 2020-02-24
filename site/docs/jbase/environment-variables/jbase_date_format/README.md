@@ -29,7 +29,7 @@ set JBASE_DATE_FORMAT=1  (Windows)
 ```
 
 ```
-export JBASE_DATE_FORMAT=1  (Unix)
+export JBASE_DATE_FORMAT=1  (UNIX)
 ```
 
 ## Note
@@ -39,3 +39,5 @@ export JBASE_DATE_FORMAT=1  (Unix)
 jQL dictionary items using the 'D' conversion code will also respect this environment variable (e.g. D4-).
 
 The Japanese Date format is only relevant when using an ‘ICONV’ to convert a string, i.e. ‘20150331’ to an internal date (the internal date for '31 March 2015'). Japanese Date formats are NOT used in ‘OCONV’s ( other than ‘OCONV(x,’DI’) ).
+
+Back to [Environment Variables](./../README.md)

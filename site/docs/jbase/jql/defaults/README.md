@@ -11,7 +11,7 @@
 In order to enable dictionary definition records from multiple dictionary files to be used *without* specifying the **USING** connective, an environment variable [JBCDEFDICTS](./../../environment-variables/jbcdefdicts) can be configured for multiple dictionary files.
 
 ```
-export JBCDEFDICTS=UserDictFile:GeneralDictFile (Unix)
+export JBCDEFDICTS=UserDictFile:GeneralDictFile (UNIX)
 ```
 
 ```

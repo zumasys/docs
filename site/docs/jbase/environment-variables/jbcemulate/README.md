@@ -14,8 +14,6 @@
 
 When importing legacy applications, this variable tells jBASE what system it originally ran on. Note that programs and subroutines imported from different systems may be freely mixed.
 
-
-
 ## Values
 
 ```
@@ -37,29 +35,25 @@ unidata
 
 The values reference labels in the Config\_EMULATE file.
 
-
-
 ## Default
 
 The default is **jbase**, which will suit most imported applications.
-
-
 
 ## Setting
 
 Must be set before starting a jBASE process.
 
-**Unix**
+## UNIX
 
 ```
 JBCEMULATE=sequoia
 export JBCEMULATE
 ```
 
-
-
-**Windows**
+## Windows
 
 ```
 set JBCEMULATE=reality
 ```
+
+Go Back to [Environment Variables](./../README.md)

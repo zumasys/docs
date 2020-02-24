@@ -23,8 +23,12 @@
   - [Files](#files)
     - [The CREATE-FILE command](#the-create-file-command)
     - [Typical File Creation](#typical-file-creation)
+  - [Hashed Types](#hashed-types)
+  - [Hashing Algorithms](#hashing-algorithms)
     - [Overflow](#overflow)
+  - [Factors Contributing To Overflow](#factors-contributing-to-overflow)
     - [Effect of overflow](#effect-of-overflow)
+  - [Bucket Information](#bucket-information)
     - [Sizing & Resizing of Files](#sizing--resizing-of-files)
     - [What Modulo to use](#what-modulo-to-use)
     - [Determine Separation](#determine-separation)
@@ -50,7 +54,7 @@
     - [Output Specifications](#output-specifications)
   - [Dictionaries](#dictionaries)
     - [Types of Dictionaries](#types-of-dictionaries)
-    - [Dictionaries](#dictionaries-1)
+    - [Dictionaries again](#dictionaries-again)
     - [Dictionary Processing](#dictionary-processing)
     - [Date Conversions](#date-conversions)
     - [Decimal Conversions](#decimal-conversions)
@@ -72,7 +76,7 @@
     - [Subroutines and Functions](#subroutines-and-functions)
     - [jLibDefinition File](#jlibdefinition-file)
     - [Directing CATALOG](#directing-catalog)
-    - [jBC and jbuildslib Commands](#jbc-and-jbuildslib-commands)
+    - [jBC and jbuildslib Commands (This has now been superceeded by jcompile)](#jbc-and-jbuildslib-commands-this-has-now-been-superceeded-by-jcompile)
     - [Workshop #1](#workshop-1)
   - [@](#)
   - [Arrays](#arrays)
@@ -181,16 +185,16 @@ The structure of multivalued data is where one field has multiple pieces of info
 
 Examples of some typical uses of multi values include:
 
-**1. Multi-Line Address**
+1. Multi-Line Address**
 
 Each line of an address can be another value. A multi value field can be used to store various lines of an address. For example:
 
 - Value 1 – street address
 - Value 2 – floor
 - Value 1 – street address
-- Value 2 – postal box number
-
-**2. 12 Month Accumulator**
+- Value 2 – postal box number  
+  
+2. 12 Month Accumulator**
 
 If a multivalue field is set up with 12 values, they can be used for monthly accumulators.
 
@@ -202,9 +206,8 @@ Considering the above example, 5 months worth of sales for a client would be as:
 - Month 4 - \$150.50
 - Month 5 – \$2,340
 
-With this structure, it is easy to determine sales for a quarter (1st qtr - $1,700), year-to-date sales ($4,190.50), year-to-date as of any month (YTD through month 4 - \$1,850.50).
-
-**3. Invoice Summary:**
+With this structure, it is easy to determine sales for a quarter (1st qtr - $1,700), year-to-date sales ($4,190.50), year-to-date as of any month (YTD through month 4 - \$1,850.50).  
+3. Invoice Summary:**
 
 A group of multi value fields can maintain invoice summary information in a client row, or line item information in an invoice row.
 
@@ -245,7 +248,7 @@ Files can take the form of Hash or directory type files. Other types are:
 
 A new JEDI will have to be written to interface to other data structures such as other database management systems for instance.
 
-**1. Hash Files**
+1. Hash Files
 
 With this file type, primary file space is defined by a set number of groups i.e buckets and modulo. Data records are placed into a group based on a “hashing algorithm” that uses the unique record ID. The record ID always hashes into the same group. Listing a file will show hash order.
 
@@ -268,7 +271,7 @@ The current default type (meaning that you do not specify a type when the file i
 
 Ordinarily, a hashed file cannot exceed 2Gb. However, there are two ways to exceed this limit (large files and distributed files).
 
-**Hashed Types**
+## Hashed Types
 
 There are 4 hashing algorithms available. The default is number 4 for J4 files.
 
@@ -279,7 +282,7 @@ There are 4 hashing algorithms available. The default is number 4 for J4 files.
 
 The hashing algorithms are just different ways of determining which group a record is stored in.
 
-**Hashing Algorithms**
+## Hashing Algorithms
 
 Using different hashing algorithms, the same ID can be placed in a different group. The order you see the records is called Hash Order. When you `LIST` a file, you see it in this order. Hash Order is for the convenience of the data base, not the user. As a result, jBASE allows you to sort on any dictionary item for the file, even the calculated ones.
 
@@ -287,7 +290,7 @@ Using different hashing algorithms, the same ID can be placed in a different gro
 
 Is a measure of how much a file has outgrown its original specifications.
 
-**Factors Contributing To Overflow**
+## Factors Contributing To Overflow
 
 Different file types have different buffer sizes. Assuming that the record size remains the same, more records can fit into one J4 buffer than into one J3 buffer. If not enough groups are created, each one can get over loaded quicker.
 
@@ -297,7 +300,7 @@ Correct file sizing is not automatic but involves the deliberate effort of the d
 
 To illustrate, imagine a file where group one has one overflow buffer whilst group two has two overflow buffers. When a record is to be written to group two, the processing now has to go through each of the three buffers following the pointers until it finds the space to write the record. When a record is to be read in group two, the processing may have to look through the three buffers in turn until the record is located. Thus it can be noted from the example that the presence of many overflow groups will slow down processing.
 
-**Bucket Information**
+## Bucket Information
 
 - `NumBuckets` - modulo
 - `BucketMult` - bucket size multiplier, 512 for j1, 4096 for j2 and j4, 1024 for j3
@@ -705,7 +708,7 @@ For example, if a macro named _MYMACRO_ has been created containing _M_ and _CUS
 
 Thus issuing a query such as: `LIST CUSTOMER MYMACRO` will automatically include the above listed portions of JQL.
 
-### Dictionaries
+### Dictionaries again
 
 1. I Types
 
@@ -1009,7 +1012,7 @@ Where:
 - `-o` specifies directory for executables,
 - `-L` specifies directory for shared objects.
 
-### jBC and jbuildslib Commands
+### jBC and jbuildslib Commands (This has now been superceeded by jcompile)
 
 Using jBC to better organize shared objects by placing subroutines and functions into a specified shared object, gives more control of which bin and lib to use.
 
@@ -1019,7 +1022,7 @@ Subroutines must have a `.b` extension:
 jbc -c sub1.b sub2.b
 ```
 
-creates the `.obj` (Windows) or `.o` (Unix) objects
+creates the `.obj` (Windows) or `.o` (UNIX) objects
 
 ```
 jbuildslib -o subs.dll
@@ -1033,7 +1036,7 @@ creates `subs.def` and `subs.dll` (Windows)
 jbuildslib –o subs.so sub1.o sub2.o
 ```
 
-creates `subs.el` and `subs.so` (Unix)
+creates `subs.el` and `subs.so` (UNIX)
 
 ### Workshop #1
 

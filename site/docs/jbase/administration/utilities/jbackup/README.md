@@ -34,10 +34,10 @@ Where:
 | -f Device | save to device file, default stdout |
 | -F Device | save to device file with auto-incrementing suffix |
 | -k EncKey | Encryption key |
-| -l | link files to be saved as separate Unix or hash files |
+| -l | link files to be saved as separate UNIX or hash files |
 | -mn | maximum data capacity of media in Mb, default 100 Mb |
 | -pn | set priority, nice value of parent process |
-| -s | save summary of statistics to Unix/NT file |
+| -s | save summary of statistics to UNIX/Windows file |
 | -v | verbose mode |
 | -L file | save from List file |
 | -B | force blocksize to 128k. default 16k |

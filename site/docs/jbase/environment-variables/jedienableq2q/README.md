@@ -20,21 +20,15 @@ The **listq** command can be used to display Q-pointer chains.
 
 1
 
-## 
-
-
 ## Default
 
 Not set.
-
-## 
-
 
 ## Setting
 
 As per normal environment variable.
 
-### Unix
+### UNIX
 
 ```
 export JEDIENABLEQ2Q=1
@@ -46,10 +40,8 @@ export JEDIENABLEQ2Q=1
 set JEDIENABLEQ2Q=1
 ```
 
-
-
-## Note: 
-
+## Note
 
 > The configuration of MD/VOC files in each account should not be ambiguous. For example, do not use the file "MD" in one account and have both MD and MD]D extant in another account.
 
+Go Back to [Environment Variables](./../README.md)

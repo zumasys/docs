@@ -40,7 +40,7 @@ A prompt to change four defaults will come up, the group names to use, the direc
 
 The procedure will create the spooler tables and data in any desired directory - the default being **$JBCDATADIR/jspooler** on UNIX and **%JBASEDATADIR%\jspooler** on Windows. Choosing a directory other than the default, will necessitate a change to the **JBCSPOOLERDIR** variable to reflect the new directory.
 
-## Unix #2
+## UNIX #2
 
 The procedure will create a default form queue named STANDARD, whose device name is /dev/lp. It will also initialize the queue to be active, so that printing may be started straight away. If a device already exists on /dev/lp, use option 4 from the SP-STATUS menu immediately after spooler installation to configure the spooler device name to another device.
 

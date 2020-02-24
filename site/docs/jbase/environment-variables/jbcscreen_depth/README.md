@@ -16,33 +16,29 @@ This environment variable specifies the page depth for paged terminal output, an
 
 Valid only on jBASE 3.x.
 
-
-
 ## Values
 
 Decimal number
-
-
 
 ## Default
 
 None.
 
-
-
 ## Setting
 
 As per normal environment variable, should be setup before the jSHELL is invoked.
 
-**Unix**
+## UNIX
 
 ```
 JBCSCREEN_DEPTH=10
 export JBCSCREEN_DEPTH
 ```
 
-**Windows**
+## Windows
 
 ```
 SET JBCSCREEN_DEPTH=10
 ```
+
+Go Back to [Environment Variables](./../README.md)

@@ -13,47 +13,32 @@
 
 When this environment variable is set, calls to **SYSTEM(14)** will result in a 100 millisecond delay.
 
-## 
-
-
 ## Values
 
 1
-
-## 
-
 
 ## Default
 
 Not set.
 
-## 
-
-
 ## Setting
 
 As per normal environment variable. The environment variable can be set dynamically with the [**PUTENV()**](./../../jbase-basic-%28jbc%29/putenv) function.
 
-**Unix**
+## UNIX
 
 ```
 export JBC_BLOCK_SYSTEM14=1
 ```
 
-
-
-**Windows**
+## Windows
 
 ```
 set JBC_BLOCK_SYSTEM14=1
 ```
 
+## Note
 
-
-## Note:
-
-
-> Looking for type ahead data using **SYSTEM(14)**in a tight loop can have a detrimental impact on system performance because left unchecked, such loops can consume all available system resources. With **JBC\_BLOCK\_SYSTEM14** set, each call to **SYSTEM(14)**incurs a 100 millisecond delay, so a loop with **SYSTEM(14)** doesn't waste system resources by looping too quickly.
-> 
+> Looking for type ahead data using **SYSTEM(14)** in a tight loop can have a detrimental impact on system performance because left unchecked, such loops can consume all available system resources. With **JBC\_BLOCK\_SYSTEM14** set, each call to **SYSTEM(14)** incurs a 100 millisecond delay, so a loop with **SYSTEM(14)** doesn't waste system resources by looping too quickly.
+>
 > It should be noted that the accuracy of the pause is dependent on the granularity of the system clock and the load on the system. Most operating systems and hardware will provide a granularity of 10 milliseconds.
-

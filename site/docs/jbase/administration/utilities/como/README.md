@@ -22,7 +22,7 @@ The **COMO** utility provides a means of recording all input and output from the
 
 ## Note
 
-> The Unix **typescript** command can be used for this functionality if COMO is NOT part of your legacy application.
+> The UNIX **typescript** command can be used for this functionality if COMO is NOT part of your legacy application.
 >
 > e.g.
 >

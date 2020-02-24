@@ -61,7 +61,7 @@ Note that the code has the compiler directive, **$option self**, which allows yo
 
 ```
 set JBC_JPP2=self       [Windows]
-export JBC_JPP2=self    [Unix]
+export JBC_JPP2=self    [UNIX]
 ```
 
 Each child class inherits the properties from the **DepositAccount** class constructor and all of the **DepositAccount** class methods. If our client application doesn't assign a name or balance then it gets the default property from the constructor of the **DepositAccount** class. Each child class assigns a default to the properties that are specific to it.

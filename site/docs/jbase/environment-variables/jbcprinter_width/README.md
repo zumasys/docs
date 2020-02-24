@@ -17,32 +17,28 @@ This environment variable specifies the page width for paged spooler output, and
 
 Valid only on jBASE 3.x.
 
-
-
 ## Values
 
 Decimal number
-
-
 
 ## Default
 
 None.
 
-
-
 ## Setting
 
-As per normal environment variable. On Unix, should be setup in the .profile before the jbcconnect command. On Windows, should be set before any jBASE program is invoked.
+As per normal environment variable. On UNIX, should be setup in the .profile before the jbcconnect command. On Windows, should be set before any jBASE program is invoked.
 
-**Unix**
+## UNIX
 
 ```
 export JBCPRINTER_WIDTH=132
 ```
 
-**Windows**
+## Windows
 
 ```
 set JBCPRINTER_WIDTH=132
 ```
+
+Go Back to [Environment Variables](./../README.md)

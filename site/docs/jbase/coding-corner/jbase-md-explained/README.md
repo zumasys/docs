@@ -1,11 +1,10 @@
-# jBASE MD EXPLAINED
+# jBASE MD Explained
 
 **Created At:** 3/13/2018 8:40:30 PM  
 **Updated At:** 4/19/2019 8:27:57 AM  
 **Original Doc:** [304066-jbase-md-explained](https://docs.jbase.com/coding-corner/304066-jbase-md-explained)  
 **Original ID:** 304066  
 **Internal:** No  
-
 
 ## jBASE and the MD / VOC file
 
@@ -28,7 +27,7 @@ export JEDIFILENAME_MD=/dbms/MYACCOUNT/MD]D
 However, another common usage is:
 
 ```
-export JEDIFILENAME_MD=$HOME/MD]D    [Unix]
+export JEDIFILENAME_MD=$HOME/MD]D    [UNIX]
 set JEDIFILENAME_MD=%HOME%/MD]D      [Windows]
 ```
 
@@ -48,8 +47,6 @@ If you are going to be utilizing jBASE accounts (in SYSTEM) then the better appr
 
 &lt;refer to [jBASE Accounts and the SYSTEM file](./../../environment-variables/system-file) for more information&gt;
 
-
-
 ## JEDIFILEPATH
 
 Another confusion with the **MD** is if you have defined **JEDIFILENAME\_MD**, jBASE still needs to know how to find the physical MD file. In the same way commands/cataloged programs are found (**PATH**, **JBCOBJECTLIST**).
@@ -60,9 +57,7 @@ e.g.
 export JEDIFILEPATH=/dbms/MYACCOUNT:/dbms/ACCUTERM
 ```
 
-As with the MD and the SYSTEM entry you can define **JEDIFILEPATH**in attribute 27 of the SYSTEM entry.
-
-
+As with the MD and the SYSTEM entry you can define **JEDIFILEPATH** in attribute 27 of the SYSTEM entry.
 
 ## Commands and Files
 
@@ -96,9 +91,7 @@ LISTU
 004 P
 ```
 
-
-
-## jshow &lt;command&gt;
+## jshow &lt;command&gt;  
 
 The jshow command will show how jBASE determines if command is executable and from where: 
 
@@ -113,8 +106,6 @@ jBC main() version 5.6 Thu Nov 30 14:17:41 2017
 Executable (DUP!!):  /opt/jbase/CurrentVersion/bin/LIST
 jBC main() version 5.6 Thu Nov 30 14:17:41 2017
 ```
-
-
 
 ## UpdateMD
 

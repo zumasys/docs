@@ -104,7 +104,7 @@ passwd = expswrd
 
 [Introduction to the ODBC jEDI](./../introduction-to-the-odbc-jedi)
 
-[Installing the ODBC jEDI on Linux/Unix](./../installing-the-odbc-jedi-on-linux&unix)
+[Installing the ODBC jEDI on Linux/UNIX](./../installing-the-odbc-jedi-on-linux&unix)
 
 [Installing the ODBC jEDI on Windows](./../installing-the-odbc-jedi-on-windows)
 
@@ -112,6 +112,6 @@ passwd = expswrd
 
 [Structure of ODBC jEDI Mapping Files](./../structure-of-odbc-jedi-mapping-files)
 
-[Configuring the ODBC jEDI on Linux/Unix](./../configuring-the-odbc-jedi-on-linux&unix)
+[Configuring the ODBC jEDI on Linux/UNIX](./../configuring-the-odbc-jedi-on-linux&unix)
 
 [Using the ODBC jEDI](./../using-the-odbc-jedi)

@@ -39,3 +39,5 @@ set JBASE_TIMEZONE=EST5EDT
 ## Note
 
 > More information on Internationalization can be found in the jBASE Internationalization manual.
+
+Back to [Environment Variables](./../README.md)

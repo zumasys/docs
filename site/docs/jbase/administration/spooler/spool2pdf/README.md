@@ -28,7 +28,7 @@ This document covers the use of the jBASE **Spool2pdf** utility and is intended 
 
 - **jPDF.b** – This program is the device driver that creates the PDF files from spooler output
 - **ParseOptions.b**– This function is used by the jPDF driver to parse the options
-- **jspform\_pdf** – This is the Form Type file for use on Linux/Unix platforms
+- **jspform\_pdf** – This is the Form Type file for use on Linux/UNIX platforms
 - **jspform\_winpdf**– This is the Form Type file for use on Windows  
 
 4. Extract the contents of **jPDF.tar.gz** (Linux/AIX) or **jPDF.zip**  (Windows):
@@ -100,7 +100,7 @@ SP-CREATE JPDF PROG jPDF.exe
 SP-TYPE JPDF winpdf
 ```
 
-This example uses all of the default options and values and assumes that the **jPDF** executable is visible via **PATH**. The Unix/Linux **enscript -B** (no header) option is included by default. The Windows example uses [DOSPrinter](http://www.dosprinter.net/) to create the PDF.
+This example uses all of the default options and values and assumes that the **jPDF** executable is visible via **PATH**. The UNIX/Linux **enscript -B** (no header) option is included by default. The Windows example uses [DOSPrinter](http://www.dosprinter.net/) to create the PDF.
 
 ```
 SP-CREATE INSTRUCTIONS PROG /home/bin/jPDF –o /home/documents –q PDF –e \”--header=Hello, world! –borders --lines-per-page=42 --pass-through\”

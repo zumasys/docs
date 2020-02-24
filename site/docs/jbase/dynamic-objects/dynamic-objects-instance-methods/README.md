@@ -58,7 +58,7 @@ The keyword **this**is used in methods to reference properties and other methods
 For example,
 
 ```
-export JBC_JPP2=self   [Unix]
+export JBC_JPP2=self   [UNIX]
 set JBC_JPP2=self      [Windows]
 ```
 
