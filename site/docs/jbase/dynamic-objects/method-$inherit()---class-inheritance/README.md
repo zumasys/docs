@@ -33,7 +33,7 @@ method DepositAccount::deposit(amount)
 end method
 
 method DepositAccount::withdraw(amount)
-         self->balance = self->balance - amount
+    self->balance = self->balance - amount
 end method
 ```
 
