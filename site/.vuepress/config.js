@@ -70,10 +70,65 @@ module.exports = {
     ],
     sidebar: [
       "/",
-      ["/docs/", "Docs"],
+      /*{
+        title: 'AccuTerm',
+        path: '/accuterm/',
+        collapsable: true,
+        children: [
+          ['/accuterm/mobile/', 'Mobile'],
+          ['/accuterm/web/', 'Web']
+        ]
+      },*/        
+      {
+        title: 'AccuTerm',
+        path: '/accuterm/',
+        collapsable: true,
+        children: [
+          {
+            title: 'Mobile',
+            path: '/accuterm/mobile/',
+            collapsable: true,
+            children: [
+              ['/accuterm/mobile/quick-start/', 'Quick Start'],
+              ['/accuterm/mobile/colors-and-themes-settings/', 'Colors & Themes Settings'],       
+              ['/accuterm/mobile/connection-settings/', 'Connection Settings'],
+              ['/accuterm/mobile/keyboard-and-clipboard-settings/', 'Keyboard & Clipboard Settings'],
+              ['/accuterm/mobile/screen-settings/', 'Screen Settings'],
+              ['/accuterm/mobile/terminal-settings/', 'Terminal Settings'],
+              ['/accuterm/mobile/user-guide/', 'User Guide']
+            ]
+          },
+          {
+            title: 'Web',
+            path: '/accuterm/web/',
+            collapsable: true,
+            children: [
+              ['/accuterm/web/web-introduction/', 'Web Introduction'],
+              ['/accuterm/web/getting-started/', 'Getting Started'],
+              ['/accuterm/web/release-notes/', 'Release Notes'],
+              ['/accuterm/web/activating-accuterm-desktop-licensing/', 'Activating AccuTerm Desktop Licensing'],
+              ['/accuterm/web/batch-user-actions/', 'Batch User Actions'],
+              ['/accuterm/web/change-password/', 'Change AccuTerm.IO Password'],
+              ['/accuterm/web/clipboard-settings/', 'Clipboard Settings'],
+              ['/accuterm/web/connection-settings/', 'Connection Settings'],
+              ['/accuterm/web/creating-profiles/', 'Creating Profiles'],
+              ['/accuterm/web/creating-roles/', 'Creating Roles'],
+              ['/accuterm/web/creating-users/', 'Creating Users'],
+              ['/accuterm/web/font-and-character-settings/', 'Font & Character Settings'],
+              ['/accuterm/web/installing-accuterm-io-server/', 'Installing AccuTerm IO Server'],
+              ['/accuterm/web/keyboard-options/', 'Keyboard Options'],
+              ['/accuterm/web/mouse-settings/', 'Mouse Settings'],
+              ['/accuterm/web/sound-settings/', 'Sound Settings'],
+              ['/accuterm/web/terminal-screen-options/', 'Terminal Screen Options'],
+              ['/accuterm/web/terminal-settings/', 'Terminal Settings'],
+              ['/accuterm/web/web-profiles/', 'Web Profiles'],
+              ['/accuterm/web/rezume-session-resilience/', 'AccuTerm ReZume Session Resilience'],
+              ['/accuterm/web/phi-reports/', 'PHI Reports']             
+            ]
+          }
+        ]
+      },
       ["/docs/jbase/", "jBASE"],
-      ["/docs/zumasys/accuterm-mobile/", "AccuTerm Mobile"],
-      ["/docs/zumasys/accuterm-web/", "AccuTerm Web"],
       ["/docs/zumasys/customer-portal/", "Customer Portal"],
       ["/docs/zumasys/mv-dashboard/", "MV Dashboard"],
       ["/docs/zumasys/mvconnect/", "MV Connect"]
