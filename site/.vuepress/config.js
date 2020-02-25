@@ -252,8 +252,18 @@ module.exports = {
           }
         ]
       },
-      ["/docs/jbase/", "jBASE"],
-      ["/docs/zumasys/customer-portal/", "Customer Portal"]
+      {
+        title: 'Customer Portal',
+        path: '/customer-portal/',
+        collapsable: true,
+        children: [
+          ['/customer-portal/registration/', 'Registration'],
+          ['/customer-portal/support-tickets/', 'Support Tickets'],
+          ['/customer-portal/navigation/', 'Navigation'],
+          ['/customer-portal/customer-management/', 'Customer Management']
+        ]
+      },
+      ["/docs/jbase/", "jBASE"]
     ],
     repo: "https://github.com/zumasys/docs",
     docsBranch: "master",
