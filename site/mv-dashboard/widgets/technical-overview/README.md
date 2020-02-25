@@ -1,4 +1,4 @@
-# Widget Technical Overview
+# Technical Overview
 
 <PageHeader />
 

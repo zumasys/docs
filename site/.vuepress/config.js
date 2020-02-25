@@ -140,14 +140,21 @@ module.exports = {
           ['/mv-dashboard/integrating-with-web-service-login/', 'Integrating with Web Service Login'],
           ['/mv-dashboard/integration-using-emailed-login/', 'Integration using Emailed Login'],
           ['/mv-dashboard/integration-with-other-applications/', 'Integration with Other Applications'],
-          ['/mv-dashboard/optional-parameters-for-line-bar-area-column-pie-and-doughnut-charts-2d-and-3d/', 'Optional Parameters for Line, Bar, Area, Column, Pie and Doughnut Charts (2D & 3D)'],
-          ['/mv-dashboard/optional-parameters-for-trendlines/', 'Optional Parameters for Trendlines'],
-          ['/mv-dashboard/optional-parameters-unique-to-2d-area-charts/', 'Optional Parameters Unique to 2D Area Charts'],
-          ['/mv-dashboard/optional-parameters-unique-to-2d-line-charts/', 'Optional Parameters Unique to 2D Line Charts'],
-          ['/mv-dashboard/optional-parameters-unique-to-column-line-area-and-bar/', 'Optional Parameters Unique to Column Line Area and Bar'],
-          ['/mv-dashboard/optional-parameters-unique-to-multiseries-and-stacked-charts/', 'Optional Parameters Unique to Multiseries and Stacked Charts'],
-          ['/mv-dashboard/optional-parameters-unique-to-pie-and-doughnut-charts/', 'Optional Parameters Unique to Pie and Doughnut Charts'],
-          ['/mv-dashboard/optional-parameters-unique-to-single-series-and-pie-charts/', 'Optional Parameters Unique to Single Series and Pie Charts'],
+          {
+            title: 'Optional Parameters',
+            path: '/mv-dashboard/optional-parameters/',
+            collapsable: true,
+            children: [
+              ['/mv-dashboard/optional-parameters/line-bar-area-column-pie-and-doughnut-charts-2d-and-3d/', 'Line, Bar, Area, Column, Pie and Doughnut Charts (2D & 3D)'],
+              ['/mv-dashboard/optional-parameters/trendlines/', 'Trendlines'],
+              ['/mv-dashboard/optional-parameters/2d-area-charts/', '2D Area Charts'],
+              ['/mv-dashboard/optional-parameters/2d-line-charts/', '2D Line Charts'],
+              ['/mv-dashboard/optional-parameters/column-line-area-and-bar/', 'Column Line Area and Bar'],
+              ['/mv-dashboard/optional-parameters/multiseries-and-stacked-charts/', 'Multiseries and Stacked Charts'],
+              ['/mv-dashboard/optional-parameters/pie-and-doughnut-charts/', 'Pie and Doughnut Charts'],
+              ['/mv-dashboard/optional-parameters/single-series-and-pie-charts/', 'Single Series and Pie Charts']
+            ]
+          },
           ['/mv-dashboard/pie-charts/', 'Pie Charts'],
           ['/mv-dashboard/programming-notes/', 'Programming Notes'],
           ['/mv-dashboard/single-series-and-multi-series-bar-column-line-and-area-charts/', 'Single Series and Multi Series Bar Column Line and Area Charts'],
@@ -159,10 +166,17 @@ module.exports = {
           ['/mv-dashboard/uninstall-mv-dashboard-windows/', 'Uninstall MV Dashboard Windows'],
           ['/mv-dashboard/upgrading-mv-dashboard/', 'Upgrading MV Dashboard'],
           ['/mv-dashboard/user-input/', 'User Input'],
-          ['/mv-dashboard/widget-programming-environment/', 'Widget Programming Environment'],
-          ['/mv-dashboard/widget-technical-overview/', 'Widget Technical Overview'],
-          ['/mv-dashboard/widget-testing-and-debugging/', 'Widget Testing and Debugging'],
-          ['/mv-dashboard/widget-types/', 'Widget Types'],
+          {
+            title: 'Widgets',
+            path: '/mv-dashboard/widgets/',
+            collapsable: true,
+            children: [
+              ['/mv-dashboard/widgets/technical-overview/', 'Technical Overview'],
+              ['/mv-dashboard/widgets/types/', 'Types'],
+              ['/mv-dashboard/widgets/programming-enviornment/', 'Programming Enviornment'],
+              ['/mv-dashboard/widgets/testing-and-debugging/', 'Testing and Debugging']
+            ]
+          },
           ['/mv-dashboard/appendix-iii-pdf-generation/', 'Appendix III PDF Generation'],
           ['/mv-dashboard/appendix-ii-optional-parameters/', 'Appendix II Optional Parameters'],
           ['/mv-dashboard/appendix-i-widget-output-type-codes/', 'Appendix I Widget Output Type Codes']

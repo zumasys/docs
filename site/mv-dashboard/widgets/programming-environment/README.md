@@ -1,4 +1,4 @@
-# Widget Programming Environment
+# Programming Environment
 
 <PageHeader />
 

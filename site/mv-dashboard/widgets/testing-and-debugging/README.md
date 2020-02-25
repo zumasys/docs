@@ -1,4 +1,4 @@
-# Widget Testing and Debugging
+# Testing and Debugging
 
 <PageHeader />
 

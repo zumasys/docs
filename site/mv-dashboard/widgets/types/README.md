@@ -1,4 +1,4 @@
-# Widget Types
+# Types
 
 <PageHeader />
 
