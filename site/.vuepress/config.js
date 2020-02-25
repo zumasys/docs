@@ -165,13 +165,61 @@ module.exports = {
           ['/mv-dashboard/widget-types/', 'Widget Types'],
           ['/mv-dashboard/appendix-iii-pdf-generation/', 'Appendix III PDF Generation'],
           ['/mv-dashboard/appendix-ii-optional-parameters/', 'Appendix II Optional Parameters'],
-          ['/mv-dashboard/appendix-i-widget-output-type-codes/', 'Appendix I Widget Output Type Codes'],
-          ['/mv-dashboard/articles/', 'Articles']
+          ['/mv-dashboard/appendix-i-widget-output-type-codes/', 'Appendix I Widget Output Type Codes']
+        ]
+      },
+      {
+        title: 'MV Connect',
+        path: '/mv-connect/',
+        collapsable: true,
+        children: [
+          ['/mv-connect/get-started/', 'Get Started'],
+          ['/mv-connect/1.6.3-release-notes/', '1.6.3 Release Notes'],
+          ['/mv-connect/connection-pooling/', 'Connection Pooling'],
+          {
+            title: 'API',
+            path: '/mv-connect/api/',
+            collapsable: true,
+            children: [
+              ['/mv-connect/api/wgetheader/', 'wgetheader'],
+              ['/mv-connect/api/wgetinfo/', 'wgetinfo'],
+              ['/mv-connect/api/wgetparam/', 'wgetparam'],
+              ['/mv-connect/api/wgetvar/', 'wgetvar'],
+              ['/mv-connect/api/wobj/', 'wobj'],
+              ['/mv-connect/api/wparsejson/', 'wparsejson'],
+              ['/mv-connect/api/wsend/', 'wsend'],
+              ['/mv-connect/api/wsetbuffer/', 'wsetbuffer'],
+              ['/mv-connect/api/wsetcontenttype/', 'wsetcontenttype'],
+              ['/mv-connect/api/wsetcookie/', 'wsetcookie'],
+              ['/mv-connect/api/wsetheader/', 'wsetheader'],
+              ['/mv-connect/api/wsetstatus/', 'wsetstatus'],
+              ['/mv-connect/api/www.info/', 'www.info'],
+              ['/mv-connect/api/wbuildjson/', 'wbuildjson'],
+              ['/mv-connect/api/wdb.resource/', 'wdb.resource'],
+              ['/mv-connect/api/wdebug/', 'wdebug'],
+              ['/mv-connect/api/wencodejson/', 'wencodejson'],
+              ['/mv-connect/api/wflush/', 'wflush'],
+              ['/mv-connect/api/wgetbody/', 'wgetbody'],
+              ['/mv-connect/api/wgetconfig/', 'wgetconfig'],
+              ['/mv-connect/api/wgetcookie/', 'wgetcookie']
+            ]
+          },
+          ['/mv-connect/manual/', 'Manual'],
+          ['/mv-connect/security/', 'Security'],
+          ['/mv-connect/introduction-to-troubleshooting/', 'Introduction to Troubleshooting'],
+          {
+            title: 'Troubleshooting',
+            path: '/mv-connect/troubleshooting/',
+            collapsable: true,
+            children: [
+              ['/mv-connect/troubleshooting/web-server/', 'Web Server'],
+              ['/mv-connect/troubleshooting/wdebug/', 'WDEBUG']
+            ]
+          }
         ]
       },
       ["/docs/jbase/", "jBASE"],
-      ["/docs/zumasys/customer-portal/", "Customer Portal"],
-      ["/docs/zumasys/mvconnect/", "MV Connect"]
+      ["/docs/zumasys/customer-portal/", "Customer Portal"]
     ],
     repo: "https://github.com/zumasys/docs",
     docsBranch: "master",
