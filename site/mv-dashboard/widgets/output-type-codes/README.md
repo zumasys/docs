@@ -1,4 +1,4 @@
-# Appendix I: Widget Output Type Codes
+# Output Type Codes
 
 <PageHeader />
 

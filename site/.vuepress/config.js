@@ -135,11 +135,25 @@ module.exports = {
           ['/mv-dashboard/fusion-charts-documentation/', 'Fusion Charts Documentation'],
           ['/mv-dashboard/general-widget-definition/', 'General Widet Definition'],
           ['/mv-dashboard/html-data/', 'HTML Data'],
-          ['/mv-dashboard/install-mv-dashboard-and-mv-connect-unix/', 'Install MV Dashboard/MV Connect Unix'],
-          ['/mv-dashboard/install-mv-dashboard-and-mv-connect-windows/', 'Install MV Dashboard/MV Connect Windows'],
-          ['/mv-dashboard/integrating-with-web-service-login/', 'Integrating with Web Service Login'],
-          ['/mv-dashboard/integration-using-emailed-login/', 'Integration using Emailed Login'],
-          ['/mv-dashboard/integration-with-other-applications/', 'Integration with Other Applications'],
+          {
+            title: 'Install',
+            path: '/mv-dashboard/install/',
+            collapsable: true,
+            children: [
+              ['/mv-dashboard/install/unix/', 'Unix'],
+              ['/mv-dashboard/install/windows/', 'Windows']
+            ]
+          },
+          {
+            title: 'Integration',
+            path: '/mv-dashboard/integration/',
+            collapsable: true,
+            children: [
+              ['/mv-dashboard/integration/other-applications/', 'Other Applications'],
+              ['/mv-dashboard/integration/using-emailed-login/', 'Using Emailed Login'],
+              ['/mv-dashboard/integration/web-service-login/', 'Web Service Login']          
+            ]
+          },
           {
             title: 'Optional Parameters',
             path: '/mv-dashboard/optional-parameters/',
@@ -162,10 +176,9 @@ module.exports = {
           ['/mv-dashboard/text-data/', 'Text Data'],
           ['/mv-dashboard/text-tables/', 'Text Tables'],
           ['/mv-dashboard/theme-management/', 'Theme Management'],
-          ['/mv-dashboard/uninstall-mv-dashboard-unix/', 'Uninstall MV Dashboard Unix'],
-          ['/mv-dashboard/uninstall-mv-dashboard-windows/', 'Uninstall MV Dashboard Windows'],
           ['/mv-dashboard/upgrading-mv-dashboard/', 'Upgrading MV Dashboard'],
           ['/mv-dashboard/user-input/', 'User Input'],
+          ['/mv-dashboard/pdf-generation/', 'PDF Generation'],
           {
             title: 'Widgets',
             path: '/mv-dashboard/widgets/',
@@ -173,13 +186,20 @@ module.exports = {
             children: [
               ['/mv-dashboard/widgets/technical-overview/', 'Technical Overview'],
               ['/mv-dashboard/widgets/types/', 'Types'],
+              ['/mv-dashboard/widgets/output-type-codes/', 'Output Type Codes'],
               ['/mv-dashboard/widgets/programming-enviornment/', 'Programming Enviornment'],
               ['/mv-dashboard/widgets/testing-and-debugging/', 'Testing and Debugging']
             ]
           },
-          ['/mv-dashboard/appendix-iii-pdf-generation/', 'Appendix III PDF Generation'],
-          ['/mv-dashboard/appendix-ii-optional-parameters/', 'Appendix II Optional Parameters'],
-          ['/mv-dashboard/appendix-i-widget-output-type-codes/', 'Appendix I Widget Output Type Codes']
+          {
+            title: 'Uninstall',
+            path: '/mv-dashboard/uninstall/',
+            collapsable: true,
+            children: [
+              ['/mv-dashboard/uninstall/unix/', 'Unix'],
+              ['/mv-dashboard/uninstall/windows/', 'Windows']
+            ]
+          }   
         ]
       },
       {

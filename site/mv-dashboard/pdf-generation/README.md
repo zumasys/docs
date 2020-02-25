@@ -1,4 +1,4 @@
-# Appendix III: PDF Generation
+# PDF Generation
 
 <PageHeader />
 
