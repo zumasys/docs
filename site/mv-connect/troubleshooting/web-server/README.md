@@ -1,4 +1,4 @@
-# Troubleshooting Web Server
+# Web Server
 
 <PageHeader />
 

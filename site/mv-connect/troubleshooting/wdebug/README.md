@@ -1,4 +1,4 @@
-# Troubleshooting with WDEBUG
+# WDEBUG
 
 <PageHeader />
 
