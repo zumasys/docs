@@ -1,5 +1,7 @@
 # WSETBUFFER
 
+<PageHeader />
+
 **Created At:** 12/21/2017 10:06:57 PM  
 **Updated At:** 2/9/2018 10:08:16 PM  
 **Original Doc:** [292109-wsetbuffer](https://docs.zumasys.com/36566-mv-connect-api/292109-wsetbuffer)  

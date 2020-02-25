@@ -1,5 +1,7 @@
 # WSETCONTENTTYPE
 
+<PageHeader />
+
 **Created At:** 6/27/2017 7:58:14 PM  
 **Updated At:** 11/23/2017 8:28:00 AM  
 **Original Doc:** [wsetcontenttype](https://docs.zumasys.com/36566-mv-connect-api/wsetcontenttype)  

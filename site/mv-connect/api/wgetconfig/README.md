@@ -1,5 +1,7 @@
 # WGETCONFIG
 
+<PageHeader />
+
 **Created At:** 6/24/2017 1:03:46 AM  
 **Updated At:** 11/25/2017 10:58:59 AM  
 **Original Doc:** [wgetconfig](https://docs.zumasys.com/36566-mv-connect-api/wgetconfig)  

@@ -1,5 +1,7 @@
 # WSEND
 
+<PageHeader />
+
 **Created At:** 6/24/2017 1:10:09 AM  
 **Updated At:** 2/9/2018 9:59:38 PM  
 **Original Doc:** [wsend](https://docs.zumasys.com/36566-mv-connect-api/wsend)  

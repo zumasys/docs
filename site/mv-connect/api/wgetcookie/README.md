@@ -1,5 +1,7 @@
 # WGETCOOKIE
 
+<PageHeader />
+
 **Created At:** 6/27/2017 8:17:43 PM  
 **Updated At:** 11/25/2017 10:58:25 AM  
 **Original Doc:** [wgetcookie](https://docs.zumasys.com/36566-mv-connect-api/wgetcookie)  

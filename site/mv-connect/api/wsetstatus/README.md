@@ -1,5 +1,7 @@
 # WSETSTATUS
 
+<PageHeader />
+
 **Created At:** 6/27/2017 7:40:40 PM  
 **Updated At:** 11/23/2017 2:12:43 AM  
 **Original Doc:** [wsetstatus](https://docs.zumasys.com/36566-mv-connect-api/wsetstatus)  
