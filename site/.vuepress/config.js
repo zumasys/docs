@@ -187,7 +187,7 @@ module.exports = {
               ['/mv-dashboard/widgets/technical-overview/', 'Technical Overview'],
               ['/mv-dashboard/widgets/types/', 'Types'],
               ['/mv-dashboard/widgets/output-type-codes/', 'Output Type Codes'],
-              ['/mv-dashboard/widgets/programming-enviornment/', 'Programming Enviornment'],
+              ['/mv-dashboard/widgets/programming-environment/', 'Programming Environment'],
               ['/mv-dashboard/widgets/testing-and-debugging/', 'Testing and Debugging']
             ]
           },
