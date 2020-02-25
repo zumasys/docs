@@ -1,4 +1,6 @@
-# DEFINING LINKS IN A WIDGET
+# Defining Links in a Widget
+
+<PageHeader />
 
 **Created At:** 9/26/2017 12:24:14 AM  
 **Updated At:** 11/21/2017 6:03:21 AM  

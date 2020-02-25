@@ -1,4 +1,6 @@
-# SPECIFYING COLORS
+# Specifying Colors
+
+<PageHeader />
 
 **Created At:** 9/26/2017 5:07:17 PM  
 **Updated At:** 11/21/2017 6:02:04 AM  

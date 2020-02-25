@@ -1,4 +1,6 @@
-# INTEGRATION WITH OTHER APPLICATIONS
+# Integration with Other Applications
+
+<PageHeader />
 
 **Created At:** 9/26/2017 4:53:46 PM  
 **Updated At:** 11/20/2017 9:14:36 PM  

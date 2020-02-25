@@ -1,4 +1,6 @@
-# OPTIONAL PARAMETERS UNIQUE TO COLUMN, LINE, AREA & BAR
+# Optional Parameters Unique to Column Line Area and Bar
+
+<PageHeader />
 
 **Created At:** 9/26/2017 5:24:20 PM  
 **Updated At:** 11/22/2017 1:05:09 AM  

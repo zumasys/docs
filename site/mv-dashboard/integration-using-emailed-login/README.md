@@ -1,4 +1,6 @@
-# INTEGRATION USING EMAILED LOGIN
+# Integration using Emailed Login
+
+<PageHeader />
 
 **Created At:** 9/26/2017 4:58:29 PM  
 **Updated At:** 11/21/2017 6:04:10 AM  

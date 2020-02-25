@@ -1,4 +1,6 @@
-# OPTIONAL PARAMETERS UNIQUE TO 2D AREA CHARTS
+# Optional Parameters Unique to 2D Area Charts
+
+<PageHeader />
 
 **Created At:** 9/26/2017 8:50:05 PM  
 **Updated At:** 11/24/2017 6:58:21 AM  

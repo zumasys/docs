@@ -1,4 +1,6 @@
-# OPTIONAL PARAMETERS FOR LINE, BAR, AREA, COLUMN, PIE AND DOUGHNUT CHARTS (2D & 3D)
+# Optional Parameters for Line, Bar, Area, Column, Pie and Doughnut Charts (2D & 3D)
+
+<PageHeader />
 
 **Created At:** 9/26/2017 5:12:49 PM  
 **Updated At:** 11/21/2017 10:57:10 AM  

@@ -1,5 +1,7 @@
 # Additional Features
 
+<PageHeader />
+
 **Created At:** 9/26/2017 12:37:37 AM  
 **Updated At:** 11/21/2017 6:02:33 AM  
 **Original Doc:** [additional-features](https://docs.zumasys.com/36577-mv-dashboard/additional-features)  

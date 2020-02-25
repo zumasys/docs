@@ -1,4 +1,6 @@
-# OPTIONAL PARAMETERS UNIQUE TO PIE & DOUGHNUT CHARTS
+# Optional Parameters Unique to Pie and Doughnut Charts
+
+<PageHeader />
 
 **Created At:** 9/26/2017 6:17:21 PM  
 **Updated At:** 11/20/2017 9:21:47 PM  

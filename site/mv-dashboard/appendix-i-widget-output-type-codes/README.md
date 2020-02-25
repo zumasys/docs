@@ -1,4 +1,6 @@
-# APPENDIX I: WIDGET OUTPUT TYPE CODES
+# Appendix I: Widget Output Type Codes
+
+<PageHeader />
 
 **Created At:** 9/26/2017 5:01:11 PM  
 **Updated At:** 11/21/2017 3:44:33 AM  

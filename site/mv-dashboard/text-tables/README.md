@@ -1,4 +1,6 @@
-# TEXT TABLES
+# Text Tables
+
+<PageHeader />
 
 **Created At:** 9/26/2017 4:43:24 PM  
 **Updated At:** 11/21/2017 6:01:47 AM  

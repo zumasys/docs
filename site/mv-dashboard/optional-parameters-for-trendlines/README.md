@@ -1,4 +1,6 @@
-# OPTIONAL PARAMETERS FOR TRENDLINES
+# Optional Parameters for Trendlines
+
+<PageHeader />
 
 **Created At:** 9/26/2017 5:58:42 PM  
 **Updated At:** 11/24/2017 6:04:50 AM  

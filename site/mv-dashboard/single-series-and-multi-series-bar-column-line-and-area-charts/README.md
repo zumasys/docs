@@ -1,5 +1,6 @@
-# SINGLE-SERIES & MULTI-SERIES BAR, COLUMN, LINE & AREA CHARTS 
+# Single Series and Multi Series Bar Column Line and Area Charts 
 
+<PageHeader />
 
 **Created At:** 9/26/2017 12:19:30 PM  
 **Updated At:** 11/21/2017 6:05:00 AM  

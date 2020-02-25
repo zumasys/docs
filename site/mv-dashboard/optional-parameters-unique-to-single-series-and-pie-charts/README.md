@@ -1,4 +1,6 @@
-# OPTIONAL PARAMETERS UNIQUE TO SINGLE SERIES & PIE CHARTS
+# Optional Parameters Unique to Single Series and Pie Charts
+
+<PageHeader />
 
 **Created At:** 9/26/2017 6:03:41 PM  
 **Updated At:** 11/24/2017 11:21:48 AM  

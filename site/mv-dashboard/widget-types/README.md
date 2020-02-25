@@ -1,4 +1,6 @@
-# WIDGET TYPES
+# Widget Types
+
+<PageHeader />
 
 **Created At:** 9/26/2017 12:11:44 PM  
 **Updated At:** 11/21/2017 6:01:52 AM  

@@ -1,4 +1,6 @@
-# FUSION CHARTS DOCUMENTATION
+# Fusion Charts Documentation
+
+<PageHeader />
 
 **Created At:** 9/26/2017 12:39:51 AM  
 **Updated At:** 11/21/2017 6:03:31 AM  

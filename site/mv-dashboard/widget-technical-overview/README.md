@@ -1,4 +1,6 @@
-# WIDGET TECHNICAL OVERVIEW
+# Widget Technical Overview
+
+<PageHeader />
 
 **Created At:** 9/25/2017 11:19:14 PM  
 **Updated At:** 11/21/2017 6:03:02 AM  

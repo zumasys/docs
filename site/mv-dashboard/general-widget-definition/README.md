@@ -1,5 +1,7 @@
 # General Widget Definition
 
+<PageHeader />
+
 **Created At:** 9/26/2017 12:18:41 AM  
 **Updated At:** 11/21/2017 6:03:11 AM  
 **Original Doc:** [general-widget-definition](https://docs.zumasys.com/36577-mv-dashboard/general-widget-definition)  

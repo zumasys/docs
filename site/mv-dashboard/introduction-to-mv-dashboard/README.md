@@ -1,4 +1,6 @@
-# INTRODUCTION TO MV DASHBOARD
+# Introduction to MV Dashboard
+
+<PageHeader />
 
 **Created At:** 9/25/2017 9:38:00 PM  
 **Updated At:** 11/21/2017 2:25:12 AM  

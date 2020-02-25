@@ -132,7 +132,7 @@ module.exports = {
           ['/mv-dashboard/defining-links-in-a-widget/', 'Defining Links in a Widget'],
           ['/mv-dashboard/drill-down-widgets/', 'Drill Down Widgets'],
           ['/mv-dashboard/external-links/', 'External Links'],
-          ['/mv-dashboard/fusion-charts-documentation/', 'Fusion CHarts Documentation'],
+          ['/mv-dashboard/fusion-charts-documentation/', 'Fusion Charts Documentation'],
           ['/mv-dashboard/general-widget-definition/', 'General Widet Definition'],
           ['/mv-dashboard/html-data/', 'HTML Data'],
           ['/mv-dashboard/install-mv-dashboard-and-mv-connect-unix/', 'Install MV Dashboard/MV Connect Unix'],
@@ -171,7 +171,6 @@ module.exports = {
       },
       ["/docs/jbase/", "jBASE"],
       ["/docs/zumasys/customer-portal/", "Customer Portal"],
-      ["/docs/zumasys/mv-dashboard/", "MV Dashboard"],
       ["/docs/zumasys/mvconnect/", "MV Connect"]
     ],
     repo: "https://github.com/zumasys/docs",
