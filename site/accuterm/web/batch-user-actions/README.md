@@ -1,5 +1,7 @@
 # Batch User Actions
 
+<PageHeader />
+
 **Created At:** 10/11/2019 12:21:56 AM  
 **Updated At:** 10/11/2019 12:52:27 AM  
 **Original Doc:** [accuterm-8-batch-user-actions](https://docs.zumasys.com/accuterm/accuterm-8-batch-user-actions)  

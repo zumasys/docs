@@ -1,5 +1,7 @@
 # Release Notes
 
+<PageHeader />
+
 **Created At:** 8/30/2019 11:27:52 PM  
 **Updated At:** 8/31/2019 3:53:25 AM  
 **Original Doc:** [accuterm-8-release-notes](https://docs.zumasys.com/accuterm/accuterm-8-release-notes)  

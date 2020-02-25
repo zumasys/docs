@@ -1,5 +1,7 @@
 # Activating AccuTerm Desktop Licensing
 
+<PageHeader />
+
 **Created At:** 8/8/2019 3:44:39 AM  
 **Updated At:** 11/26/2019 8:30:33 PM  
 **Original Doc:** [accuterm-8-activating-accuterm-desktop-licensing](https://docs.zumasys.com/accuterm/accuterm-8-activating-accuterm-desktop-licensing)  

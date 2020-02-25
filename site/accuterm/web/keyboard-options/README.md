@@ -1,5 +1,7 @@
 # Keyboard Options
 
+<PageHeader />
+
 **Created At:** 8/15/2019 10:47:28 PM  
 **Updated At:** 8/15/2019 10:53:27 PM  
 **Original Doc:** [accuterm-8-keyboard-options](https://docs.zumasys.com/accuterm/accuterm-8-keyboard-options)  

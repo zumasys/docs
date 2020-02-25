@@ -1,5 +1,7 @@
 # Clipboard Settings
 
+<PageHeader />
+
 **Created At:** 8/16/2019 6:17:53 PM  
 **Updated At:** 8/16/2019 6:23:41 PM  
 **Original Doc:** [accuterm-8-clipboard-settings](https://docs.zumasys.com/accuterm/accuterm-8-clipboard-settings)  

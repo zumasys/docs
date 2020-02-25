@@ -1,5 +1,7 @@
 # Terminal Settings
 
+<PageHeader />
+
 **Created At:** 11/15/2019 6:38:17 PM  
 **Updated At:** 11/15/2019 7:32:18 PM  
 **Original Doc:** [accuterm-mobile-terminal-settings](https://docs.zumasys.com/accutermmobile/accuterm-mobile-terminal-settings)  

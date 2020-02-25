@@ -1,5 +1,7 @@
 # Getting Started
 
+<PageHeader />
+
 **Created At:** 9/4/2019 11:28:39 PM  
 **Updated At:** 9/4/2019 11:45:04 PM  
 **Original Doc:** [accuterm-8-getting-started](https://docs.zumasys.com/accuterm/accuterm-8-getting-started)  

@@ -1,5 +1,7 @@
 # Web Introduction
 
+<PageHeader />
+
 **Created At:** 8/16/2019 6:32:58 PM  
 **Updated At:** 8/16/2019 9:01:45 PM  
 **Original Doc:** [accuterm-8-web-introduction](https://docs.zumasys.com/accuterm/accuterm-8-web-introduction)  

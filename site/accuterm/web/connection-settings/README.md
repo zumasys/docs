@@ -1,5 +1,7 @@
 # Connection Settings
 
+<PageHeader />
+
 **Created At:** 8/12/2019 9:37:09 PM  
 **Updated At:** 11/15/2019 6:18:18 PM  
 **Original Doc:** [accuterm-8-connection-tab](https://docs.zumasys.com/accuterm/accuterm-8-connection-tab)  

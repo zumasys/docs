@@ -1,5 +1,7 @@
 # Creating AccuTerm Users
 
+<PageHeader />
+
 **Created At:** 7/31/2019 10:49:05 PM  
 **Updated At:** 10/29/2019 4:56:39 PM  
 **Original Doc:** [accuterm-8-adding-users](https://docs.zumasys.com/accuterm/accuterm-8-adding-users)  

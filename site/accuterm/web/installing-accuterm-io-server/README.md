@@ -1,5 +1,7 @@
 # Installing AccuTerm IO Server
 
+<PageHeader />
+
 **Created At:** 8/8/2019 1:20:16 AM  
 **Updated At:** 9/17/2019 12:04:25 AM  
 **Original Doc:** [accuterm-8-installing-accuterm-web-server-package](https://docs.zumasys.com/accuterm/accuterm-8-installing-accuterm-web-server-package)  

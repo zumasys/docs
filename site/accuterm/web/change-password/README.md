@@ -1,5 +1,7 @@
 # Change Password
 
+<PageHeader />
+
 **Created At:** 2/12/2020 6:13:29 PM  
 **Updated At:** 2/12/2020 6:28:24 PM  
 **Original Doc:** [accuterm-8-change-accutermio-password](https://docs.zumasys.com/accuterm-8-change-accutermio-password)  
