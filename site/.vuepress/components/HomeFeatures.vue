@@ -10,7 +10,7 @@
     </div>
     <div class="feature">
       <h2>jBASE</h2>
-      <p><a href="docs/jbase">All Docs</a><br /></p>
+      <p><a href="/docs/jbase/">All Docs</a><br /></p>
     </div>
     <div class="feature">
       <h2>OpenQM</h2>
@@ -19,19 +19,19 @@
     <div class="feature">
       <h2>MV Dashboard</h2>
       <p>
-        <a href="docs/zumasys/mv-dashboard">All Docs</a>
+        <a href="/mv-dashboard/">All Docs</a>
       </p>
     </div>
     <div class="feature">
       <h2>MV Connect</h2>
       <p>
-        <a href="docs/zumasys/mv-connect">All Docs</a>
+        <a href="/mv-connect/">All Docs</a>
       </p>
     </div>
     <div class="feature">
       <h2>Customer Portal</h2>
       <p>
-        <a href="docs/zumasys/customer-portal">All Docs</a>
+        <a href="/customer-portal/">All Docs</a>
       </p>
     </div>
   </div>
