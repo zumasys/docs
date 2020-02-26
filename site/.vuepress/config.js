@@ -129,11 +129,8 @@ module.exports = {
           ['/mv-dashboard/additional-features/', 'Additional Features'],
           ['/mv-dashboard/configure-mv-dashboard/', 'Configure MV Dashboard'],
           ['/mv-dashboard/default-chart-options/', 'Default Chart Options'],
-          ['/mv-dashboard/defining-links-in-a-widget/', 'Defining Links in a Widget'],
-          ['/mv-dashboard/drill-down-widgets/', 'Drill Down Widgets'],
           ['/mv-dashboard/external-links/', 'External Links'],
           ['/mv-dashboard/fusion-charts-documentation/', 'Fusion Charts Documentation'],
-          ['/mv-dashboard/general-widget-definition/', 'General Widet Definition'],
           ['/mv-dashboard/html-data/', 'HTML Data'],
           {
             title: 'Install',
@@ -184,10 +181,13 @@ module.exports = {
             path: '/mv-dashboard/widgets/',
             collapsable: true,
             children: [
+              ['/mv-dashboard/widgets/general-definition/', 'General Definition'],
               ['/mv-dashboard/widgets/technical-overview/', 'Technical Overview'],
               ['/mv-dashboard/widgets/types/', 'Types'],
               ['/mv-dashboard/widgets/output-type-codes/', 'Output Type Codes'],
               ['/mv-dashboard/widgets/programming-environment/', 'Programming Environment'],
+              ['/mv-dashboard/widgets/defining-links/', 'Defining Links'],
+              ['/mv-dashboard/widgets/drill-down-widgets/', 'Drill Down Widgets'],
               ['/mv-dashboard/widgets/testing-and-debugging/', 'Testing and Debugging']
             ]
           },
