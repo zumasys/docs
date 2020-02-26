@@ -1,4 +1,4 @@
-# Defining Links in a Widget
+# Defining Links
 
 <PageHeader />
 
