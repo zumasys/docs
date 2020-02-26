@@ -13,7 +13,7 @@
 
 
 
-## INTRODUCTION
+## Introduction
 
 Once you have installed MVConnect you are ready to start developing.  MVConnect is a cross-platform Web/Rest platform.  The product includes two main components:
 
@@ -27,7 +27,7 @@ If you are using jBASE/jAgent then MVConnect and all it's API's are available in
 
 
 
-## **MVCONNECT/MVAPPSVR**
+## **MV Connect/MVAppsvr**
 
 If you are using MVConnect with MVAppsvr then by default MVConnect installs an MVDB account and that is where your MVConnect code must run from.  You can add Q-pointers from that account to any other accounts you need access to.  MVConnect also will support LOGTO operations (see below) to allow you to switch to other accounts if needed.  This feature is dependent on the MV platform's capabilities here. In advanced setups, MVConnect can be configured to run from existing accounts.
 
@@ -35,7 +35,7 @@ If you are using MVConnect with MVAppsvr then by default MVConnect installs an M
 
 
 
-## MVCONNECT REST API LIBRARY
+## MV Connect REST API Library
 
 The MVConnect Rest API library is a series of subroutines to work with the web call.  These are the normal functions you would see in other languages, such as working with headers, the body, form vars, return codes, etc.
 
@@ -43,7 +43,7 @@ Click [here](./../mvconnect-api) for MVConnect Rest API Library
 
 
 
-## TESTING CONNECTIVITY WITH WRESTTEST
+## Testing Connectivity with wresttest
 
 A default testing REST service is supplied called wresttest to allow you to test connectivity.  It is recommended you use POSTMAN to test your REST Functions.  POSTMAN is free and is available on Windows and Linux at this [link](https://www.getpostman.com/).
 
@@ -66,7 +66,7 @@ The important fields are
 
 
 
-## EXAMPLE OF SENDING REST DATA
+## Example of Sending REST Data
 
 To send REST Data
 
@@ -139,7 +139,7 @@ For example here is code for PHP
 
 
 
-## RUN MVCONNECT IN A DIFFERENT ACCOUNT
+## Run MV Connect in a Different Account
 
 While it is generally recommended to run your REST service handlers from the MVDB account, it is possible to LOGTO a different account to run the handler program. The name of the account must be configured in the [WDB.RESOURCE](./../../../jbase/jagent/apis/wdb.resource) file. In addition, the target account requires several q-pointers and cataloged programs:
 

@@ -19,13 +19,13 @@ MVConnect is a web application development environment for MultiValue Pick syste
 
 
 
-# MVCONNECT 1.6.3 RELEASE NOTES
+# MV Connect 1.6.3 Release Notes
 
 For a summary of new features in MVConnect 1.6.3, see [Release Notes](./../mv-connect-1.6.3-release-notes).
 
 
 
-# GETTING TO KNOW MVCONNECT
+# Getting to Know MV Connect
 
 MVConnect is a cross-platform Web/Rest API development package.  MVConnect has two components.
 
@@ -44,7 +44,7 @@ For all platforms, we have a cross-platform web server called MVAppsvr that allo
 
 
 
-# GETTING HELP WITH MVCONNECT
+# Getting Help with MV Connect
 
 If you're looking for help, you can reach out the following ways:
 
@@ -55,6 +55,6 @@ If you're looking for help, you can reach out the following ways:
 
 
 
-# MVCONNECT LICENSING
+# MV Connect Licensing
 
 To obtain a developer's version of MV Connect, please email mvconnect@zumasys.com.
