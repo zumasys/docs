@@ -25,16 +25,16 @@ is available at [Zumasys BetaDocs](https://betadocs.zumasys.com). The documentat
 │   │   │   └── index.js
 │   │   ├── config.js
 │   │   ├── enchaneApp.js
-│   ├── accuterm
+│   ├── accuterm (AccuTerm documentation lives here)
+│   ├── customer-portal (Customer Portal documentation lives here)
 │   ├── docs
-│   │   ├── jbase (Note: jBASE documentation lives here)
-│   │   ├── zumasys (Note: Zumasys documentation lives here)
+│   │   ├── jbase (jBASE documentation lives here)
 │   │   └── README.md
-│   ├── mv-connect
-│   ├── mv-dashboard
-│   ├── README.md (Note: The home page of the docs)
+│   ├── mv-connect (MV Connect documentation lives here)
+│   ├── mv-dashboard (MV Dashboard documentation lives here)
+│   ├── README.md (The home page of the docs)
 │   └── package.json
-└── README.md (Note: You are here!)
+└── README.md (You are here!)
 ```
 
 ## Development Steps
