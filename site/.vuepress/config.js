@@ -126,12 +126,7 @@ module.exports = {
         children: [
           ['/mv-dashboard/getting-started-with-mv-dashboard/', 'Getting Started with MV Dashboard'],
           ['/mv-dashboard/introduction-to-mv-dashboard/', 'Introduction to MV Dashboard'],
-          ['/mv-dashboard/additional-features/', 'Additional Features'],
           ['/mv-dashboard/configure-mv-dashboard/', 'Configure MV Dashboard'],
-          ['/mv-dashboard/default-chart-options/', 'Default Chart Options'],
-          ['/mv-dashboard/external-links/', 'External Links'],
-          ['/mv-dashboard/fusion-charts-documentation/', 'Fusion Charts Documentation'],
-          ['/mv-dashboard/html-data/', 'HTML Data'],
           {
             title: 'Install',
             path: '/mv-dashboard/install/',
@@ -141,6 +136,10 @@ module.exports = {
               ['/mv-dashboard/install/windows/', 'Windows']
             ]
           },
+          ['/mv-dashboard/default-chart-options/', 'Default Chart Options'],
+          ['/mv-dashboard/external-links/', 'External Links'],
+          ['/mv-dashboard/fusion-charts-documentation/', 'Fusion Charts Documentation'],
+          ['/mv-dashboard/html-data/', 'HTML Data'],
           {
             title: 'Integration',
             path: '/mv-dashboard/integration/',
@@ -240,6 +239,7 @@ module.exports = {
           },
           ['/mv-connect/manual/', 'Manual'],
           ['/mv-connect/security/', 'Security'],
+          ['/mv-dashboard/additional-features/', 'Additional Features'],
           ['/mv-connect/introduction-to-troubleshooting/', 'Introduction to Troubleshooting'],
           {
             title: 'Troubleshooting',
