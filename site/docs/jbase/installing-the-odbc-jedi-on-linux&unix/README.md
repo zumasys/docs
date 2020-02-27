@@ -17,7 +17,7 @@ $ sudo yum install -y unixODBC.x86_64
 
 You will also need drivers for your target RDBMS. The following link has a table and links to many popular database drivers:
 
-http://www.unixodbc.org/drivers.html
+[http://www.unixodbc.org/drivers.html](http://www.unixodbc.org/drivers.html)
 
 The installation package is comprised of two components, the **ODBCjEDI_***version***-UNIX.jpkg** and **GNU\_Linux\_jPKGINSTALLER\_***version***\_jBASE\_***jbaserel***\_x86\_64.bin**; both can be removed from the target file system after successful installation. 
 
