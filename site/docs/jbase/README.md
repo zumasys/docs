@@ -4,15 +4,15 @@
 
 | <!----> | <!----> |
 | --- | --- |
-| [jBC](./jbc/README.md) | jBASE Basic statments and functions |
+| [jBC](./jbc/README.md) | jBASE BASIC statments and functions |
 | [Dynamic Objects](./dynamic-objects/README.md) | Introduction to Dynamic Objects |
 | [jBC String Operations](./jbc-string-operations/README.md) | Extracting and assigning substrings |
 | [jBC Debugger](./debugger/README.md) | jBC debugger reference |
 | [jBC Compilation](./compilation/README.md) | Compiling jBC programs |
 | [jBC Runtime](./jbc-runtime/README.md) | Running jBC programs |
 | [jBC Error Handling](./jbc-error-handling/README.md) | Handling error conditions in jBC programs |
-| [jCL](./jcl/README.md) | jBASE command language (PROC) reference |
-| [jQL](./jql/README.md)| jBASE query language reference |
+| [jCL](./jcl/README.md) | jBASE Command Language (PROC) reference |
+| [jQL](./jql/README.md)| jBASE Query Language reference |
 | [jRFS](./jrfs/README.md) | jBASE Remote File Systems |
 | <!----> | <!----> |
 | [Accounts](./accounts/README.md) | How accounts are supported in jBASE |
@@ -38,7 +38,8 @@
 | [Tools](./tools/README.md) | Tools provided by jBASE |
 | [Triggers](./triggers/README.md) | Database triggers |
 | [Utilities](./utilities/README.md) | Command line utilities |
-| <!----> | <!----> |
+
+| What's New | <!----> |
+| --- | --- |
 | [Reference Guides](./reference-guides/README.md) | Table Layout |
-| <!----> | <!----> |
 | [Release Notes](./release-notes/README.md) | jBASE Release Notes |
