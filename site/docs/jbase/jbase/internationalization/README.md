@@ -1,6 +1,0 @@
-# Internationalization
-
-## Topics
-
-[internationalization](./internationalization)  
-

@@ -1,5 +1,0 @@
-# jBASE Training
-
-## Topics
-
-

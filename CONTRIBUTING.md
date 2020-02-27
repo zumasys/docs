@@ -81,7 +81,7 @@ Decrypted: This is the string to be encrypted
 
 See also: [DECRYPT](./../decrypt).
 
-Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
+Go back to [jBASE BASIC](./../README.md)
 ````
 
 Do:
@@ -96,7 +96,9 @@ Do:
 8. Remove extraneous and trailing blanks, except where relevant, i.e. two spaces at the end of a line to cause a line-break.
 9. With code examples, space out the code so that people can see what is going on, i,e.:
 
-IF chr >= 32 AND chr < 128 THEN CRT CHAR(chr) "#2" : ELSE CRT " " :
+```
+IF chr >= 32 AND chr < 128 THEN CRT CHAR(chr) "#2" : ELSE CRT " " :  
+```
 
 10. A pet peeve, please remember that it is and always has been “jBASE” and not “JBASE” or “Jbase”.
 
@@ -104,7 +106,7 @@ Don’t:
 
 1. SHOUT. We are trying to present a modern look and should be encouraging users to move away from everything in capital letters.
 2. Use HTML except where necessary.
-   a. Most tables can be constructed using Markdown “syntax”, although some complex tables such at those in the jBC “FMT” page (../docs/jbase/jbase-basic-(jbc)/fmt/README.md) will need the assistance of some HTML code in order to appear correctly on the web page.
+   a. Most tables can be constructed using Markdown “syntax”, although some complex tables such at those in the jBC “FMT” page (../docs/jbase/jbc/fmt/README.md) will need the assistance of some HTML code in order to appear correctly on the web page.
 
 ```
 

@@ -1,35 +1,44 @@
-# jBASE
+# jBASE Knowledgebase
 
-## Topics
+## jBASE Table of Contents
 
-[administration](./administration)  
-[coding-corner](./coding-corner)  
-[configuring-the-odbc-jedi-on-linux&unix](./configuring-the-odbc-jedi-on-linux&unix)  
-[configuring-the-odbc-jedi-on-windows](./configuring-the-odbc-jedi-on-windows)  
-[converting-from-unix-to-windows](./converting-from-unix-to-windows)  
-[dynamic-objects](./dynamic-objects)  
-[emulation-revision](./emulation-revision)  
-[environment-variables](./environment-variables)  
-[files](./files)  
-[indexes](./indexes)  
-[installing-the-odbc-jedi-on-linux&unix](./installing-the-odbc-jedi-on-linux&unix)  
-[installing-the-odbc-jedi-on-windows](./installing-the-odbc-jedi-on-windows)  
-[introduction-to-the-odbc-jedi](./introduction-to-the-odbc-jedi)  
-[jagent](./jagent)  
-[jbase](./jbase)  
-[jbase-basic-(jbc)](./jbase-basic-(jbc))  
-[jbase-development](./jbase-development)  
-[jbase-performance-benchmarking](./jbase-performance-benchmarking)  
-[jbase-training](./jbase-training)  
-[jbase-xml-functions](./jbase-xml-functions)  
-[jql](./jql)  
-[jrcs-client-api-reference](./jrcs-client-api-reference)  
-[migration-knowledge-base](./migration-knowledge-base)  
-[migration-station](./migration-station)  
-[mongodb-jedi-driver](./mongodb-jedi-driver)  
-[release-notes](./release-notes)  
-[structure-of-odbc-jedi-initialization-files](./structure-of-odbc-jedi-initialization-files)  
-[structure-of-odbc-jedi-mapping-files](./structure-of-odbc-jedi-mapping-files)  
-[system-manager](./system-manager)  
-[templates](./templates)  
-[using-the-odbc-jedi](./using-the-odbc-jedi)  
+| <!----> | <!----> |
+| --- | --- |
+| [jBC](./jbc/README.md) | jBASE Basic statments and functions |
+| [Dynamic Objects](./dynamic-objects/README.md) | Introduction to Dynamic Objects |
+| [jBC String Operations](./jbc-string-operations/README.md) | Extracting and assigning substrings |
+| [jBC Debugger](./debugger/README.md) | jBC debugger reference |
+| [jBC Compilation](./compilation/README.md) | Compiling jBC programs |
+| [jBC Runtime](./jbc-runtime/README.md) | Running jBC programs |
+| [jBC Error Handling](./jbc-error-handling/README.md) | Handling error conditions in jBC programs |
+| [jCL](./jcl/README.md) | jBASE command language (PROC) reference |
+| [jQL](./jql/README.md)| jBASE query language reference |
+| [jRFS](./jrfs/README.md) | jBASE Remote File Systems |
+| <!----> | <!----> |
+| [Accounts](./accounts/README.md) | How accounts are supported in jBASE |
+| [Background Processing](./background-processing/README.md) | Background processing in jBASE |
+| [Conversion Processing](./conversion-processing/README.md) | Conversions for jQL and jBC |
+| [Database Drivers](./database-drivers/README.md) | How jBASE provides database independence |
+| [Daemons](./daemons/README.md) | Daemons used by jBASE |
+| [Editor](./editor/README.md) | Editors provided by jBASE |
+| [Embedded SQL](./jbc/embedded-sql-for-jbase-basic/README.md) | Using SQL with jBASE |
+| [Emulation](./emulation/README.md) | Emulation settings |
+| [Environment Variables](./environment-variables/README.md) | Setting environment variables |
+| [Files](./files/README.md) | File support |
+| [Indexes](./indexes/README.md) | Support for secondary indexes |
+| [Internationalization](./internationalization/README.md) | Settings for internationalization |
+| [jSHELL](./jshell/README.md) | The jBASE command line |
+| [Lists](./lists/README.md) | Manipulating stored lists in jBASE |
+| [Porting](./porting/README.md) | Converting applications to run under jBASE |
+| [Spooler](./spooler/README.md) |  The jBASE spooler. |
+| [Tape](./tape/README.md) | Support for tape devices |
+| [Telnet](./telnet/README.md) |  jBASE Windows telnet process |
+| [Terminals](./terminal/README.md) | Support for terminals in jBASE |
+| [Transactions](./triggers/README.md) | Transaction processing and transaction journaling |  
+| [Tools](./tools/README.md) | Tools provided by jBASE |
+| [Triggers](./triggers/README.md) | Database triggers |
+| [Utilities](./utilities/README.md) | Command line utilities |
+| <!----> | <!----> |
+| [Reference Guides](./reference-guides/README.md) | Table Layout |
+| <!----> | <!----> |
+| [Release Notes](./release-notes/README.md) | jBASE Release Notes |
