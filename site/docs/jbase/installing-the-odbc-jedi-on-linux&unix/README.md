@@ -7,16 +7,31 @@
 **Internal:** Yes  
 
 
-As previously stated, in order to properly perform the steps defined in this section, you will need a licensed system running jBASE 5.6 or greater, and the *ODBC* *jEDI*tool-set installation package. If you do not yet have a valid licensed jBASE system, and/or the *ODBC* *jEDI*tool-set installation package, please contact Zumasys licensing to obtain them.
+In order to install the ODBC jEDI you will need a licensed system running jBASE 5.6 or greater, and the *ODBC* *jEDI*tool-set installation package. If you do not yet have a valid licensed jBASE system, and/or the *ODBC* *jEDI*tool-set installation package, please contact Zumasys licensing to obtain them.
 
-The installation package is comprised of two components, the **ODBCjEDI-UNIX.jpkg** and **GNU\_Linux\_jPKGINSTALLER\_1.1.0\_jBASE\_5.7.4\_x86\_64.bin**; both can be removed from the target file system after successful installation. After receiving the *ODBC* *jEDI*tool-set installation package, do the following to ensure successful installation:
+Additionally you will also need the unixODBC package installed. This would typically be a yum or apt-get install.
+
+```
+$ sudo yum install -y unixODBC.x86_64
+```
+
+You will also need drivers for your target RDBMS. The following link has a table and links to many popular database drivers:
+
+http://www.unixodbc.org/drivers.html
+
+The installation package is comprised of two components, the **ODBCjEDI_***version***-UNIX.jpkg** and **GNU\_Linux\_jPKGINSTALLER\_***version***\_jBASE\_***jbaserel***\_x86\_64.bin**; both can be removed from the target file system after successful installation. 
+
+After downloading the *ODBC* *jEDI*tool-set installation package, do the following to ensure successful installation:
 
 1. Save the installation package's components to a desired location on your file-system
 
 ## Note
 
-For this example, **jBASEInstall/** will be the location our components are stored after initial download  
+For this example, **jBASEInstall/** will be the location our components are stored after initial download.
+
 2. Run the install for the package installer (as root)
+
+## Note: if you already have the jpkginstall command you can proceed to step 2.
 
 ```
 ~/jBASEInstall$ sudo su
@@ -68,7 +83,7 @@ Begin installation? ([Y]es/[N]o) :Y
 ~$ cd /jBASEInstall
 ~/jBASEInstall$ sudo su
 ~/jBASEInstall# . /opt/jbase/CurrentVersion/jbase_env.sh
-~/jBASEInstall$ jpkginstall ODBCjEDI
+~/jBASEInstall$ jpkginstall ODBCjEDI_3.0.2
 ```
 
 4. If you do not yet have the **config/** or **CSV/** directories created within your $**JBCDATADIR** directory, you will be prompted and asked if you'd like to create them. Enter Yes to have the installer create the directories for you. If you already have these directories set up, the installer will skip to step 5.
