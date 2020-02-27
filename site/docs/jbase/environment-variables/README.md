@@ -61,3 +61,5 @@
 [terminal-support](./terminal-support)  
 [terminal-type](./terminal-type)  
 [terminfo](./terminfo)  
+
+[Back to Knowledgebase](./../README.md)
