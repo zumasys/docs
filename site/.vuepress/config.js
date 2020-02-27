@@ -34,7 +34,7 @@ module.exports = {
     "vuepress-plugin-nprogress": {},
     // Reading Progress Bar
     // We'll probably need to update this path once things go live (https://github.com/tolking/vuepress-plugin-reading-progress)
-    "reading-progress": { readingDir: "docs" },
+    "reading-progress": { readingDir: ["accuterm", "customer-portal", "docs", "mv-connect", "mv-dashboard"] },
     // Add article reading time estimate
     "vuepress-plugin-reading-time": {},
     // Copy icon on <code>
