@@ -1,4 +1,4 @@
-# Introduction to MV Dashboard
+# Introduction
 
 <PageHeader />
 

@@ -13,6 +13,7 @@ module.exports = {
     return { plugins: [new webpack.EnvironmentPlugin({ ...process.env })] };
   },
   plugins: {
+/*    
     "@vuepress/search": { searchMaxSuggestions: 10 },
     // Vssue (uses gitlab issues to comment)
     "@vssue/vuepress-plugin-vssue": {
@@ -34,7 +35,7 @@ module.exports = {
     "vuepress-plugin-nprogress": {},
     // Reading Progress Bar
     // We'll probably need to update this path once things go live (https://github.com/tolking/vuepress-plugin-reading-progress)
-    "reading-progress": { readingDir: ["accuterm", "customer-portal", "docs", "mv-connect", "mv-dashboard"] },
+    "reading-progress": { readingDir: ["accuterm", "customer-portal", "docs", "jbase", "mv-connect", "mv-dashboard"] },
     // Add article reading time estimate
     "vuepress-plugin-reading-time": {},
     // Copy icon on <code>
@@ -61,6 +62,7 @@ module.exports = {
       //publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
       //modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
     }
+    */
   },
   themeConfig: {
     logo: "/assets/img/logo-grey.png",
@@ -124,81 +126,113 @@ module.exports = {
         path: '/mv-dashboard/',
         collapsable: true,
         children: [
-          ['/mv-dashboard/getting-started-with-mv-dashboard/', 'Getting Started with MV Dashboard'],
-          ['/mv-dashboard/introduction-to-mv-dashboard/', 'Introduction to MV Dashboard'],
-          ['/mv-dashboard/configure-mv-dashboard/', 'Configure MV Dashboard'],
+          ['/mv-dashboard/introduction/', 'Introduction'],
           {
-            title: 'Install',
-            path: '/mv-dashboard/install/',
+            title: 'Installation Guide',
+            path: '/mv-dashboard/installation-guide/',
             collapsable: true,
             children: [
-              ['/mv-dashboard/install/unix/', 'Unix'],
-              ['/mv-dashboard/install/windows/', 'Windows']
-            ]
-          },
-          ['/mv-dashboard/default-chart-options/', 'Default Chart Options'],
-          ['/mv-dashboard/external-links/', 'External Links'],
-          ['/mv-dashboard/fusion-charts-documentation/', 'Fusion Charts Documentation'],
-          ['/mv-dashboard/html-data/', 'HTML Data'],
-          {
-            title: 'Integration',
-            path: '/mv-dashboard/integration/',
-            collapsable: true,
-            children: [
-              ['/mv-dashboard/integration/other-applications/', 'Other Applications'],
-              ['/mv-dashboard/integration/using-emailed-login/', 'Using Emailed Login'],
-              ['/mv-dashboard/integration/web-service-login/', 'Web Service Login']          
-            ]
-          },
-          {
-            title: 'Optional Parameters',
-            path: '/mv-dashboard/optional-parameters/',
-            collapsable: true,
-            children: [
-              ['/mv-dashboard/optional-parameters/line-bar-area-column-pie-and-doughnut-charts-2d-and-3d/', 'Line, Bar, Area, Column, Pie and Doughnut Charts (2D & 3D)'],
-              ['/mv-dashboard/optional-parameters/trendlines/', 'Trendlines'],
-              ['/mv-dashboard/optional-parameters/2d-area-charts/', '2D Area Charts'],
-              ['/mv-dashboard/optional-parameters/2d-line-charts/', '2D Line Charts'],
-              ['/mv-dashboard/optional-parameters/column-line-area-and-bar/', 'Column Line Area and Bar'],
-              ['/mv-dashboard/optional-parameters/multiseries-and-stacked-charts/', 'Multiseries and Stacked Charts'],
-              ['/mv-dashboard/optional-parameters/pie-and-doughnut-charts/', 'Pie and Doughnut Charts'],
-              ['/mv-dashboard/optional-parameters/single-series-and-pie-charts/', 'Single Series and Pie Charts']
-            ]
-          },
-          ['/mv-dashboard/pie-charts/', 'Pie Charts'],
-          ['/mv-dashboard/programming-notes/', 'Programming Notes'],
-          ['/mv-dashboard/single-series-and-multi-series-bar-column-line-and-area-charts/', 'Single Series and Multi Series Bar Column Line and Area Charts'],
-          ['/mv-dashboard/specifying-colors/', 'Specifying Colors'],
-          ['/mv-dashboard/text-data/', 'Text Data'],
-          ['/mv-dashboard/text-tables/', 'Text Tables'],
-          ['/mv-dashboard/theme-management/', 'Theme Management'],
-          ['/mv-dashboard/upgrading-mv-dashboard/', 'Upgrading MV Dashboard'],
-          ['/mv-dashboard/user-input/', 'User Input'],
-          ['/mv-dashboard/pdf-generation/', 'PDF Generation'],
-          {
-            title: 'Widgets',
-            path: '/mv-dashboard/widgets/',
-            collapsable: true,
-            children: [
-              ['/mv-dashboard/widgets/general-definition/', 'General Definition'],
-              ['/mv-dashboard/widgets/technical-overview/', 'Technical Overview'],
-              ['/mv-dashboard/widgets/types/', 'Types'],
-              ['/mv-dashboard/widgets/output-type-codes/', 'Output Type Codes'],
-              ['/mv-dashboard/widgets/programming-environment/', 'Programming Environment'],
-              ['/mv-dashboard/widgets/defining-links/', 'Defining Links'],
-              ['/mv-dashboard/widgets/drill-down-widgets/', 'Drill Down Widgets'],
-              ['/mv-dashboard/widgets/testing-and-debugging/', 'Testing and Debugging']
+              {
+                title: 'Install',
+                path: '/mv-dashboard/installation-guide/install/',
+                collapsable: true,
+                children: [
+                  ['/mv-dashboard/installation-guide/install/linux-and-aix/', 'Linux and AIX'],
+                  ['/mv-dashboard/installation-guide/install/windows/', 'Windows']
+                ]
+              },
+              ['/mv-dashboard/installation-guide/configuration/', 'Configure MV Dashboard'],
+              {
+                title: 'Uninstall',
+                path: '/mv-dashboard/installation-guide/uninstall/',
+                collapsable: true,
+                children: [
+                  ['/mv-dashboard/installation-guide/uninstall/linux-and-aix/', 'Linux and AIX'],
+                  ['/mv-dashboard/installation-guide/uninstall/windows/', 'Windows']
+                ]
+              },
+              ['/mv-dashboard/installation-guide/upgrade/', 'Upgrading MV Dashboard']
             ]
           },
           {
-            title: 'Uninstall',
-            path: '/mv-dashboard/uninstall/',
+            title: 'Programmers Guide',
+            path: '/mv-dashboard/programmers-guide/',
             collapsable: true,
             children: [
-              ['/mv-dashboard/uninstall/unix/', 'Unix'],
-              ['/mv-dashboard/uninstall/windows/', 'Windows']
+              {
+                title: 'Widgets',
+                path: '/mv-dashboard/programmers-guide/widgets/',
+                collapsable: true,
+                children: [
+                  {
+                    title: 'Programming Environment',
+                    path: '/mv-dashboard/programmers-guide/widgets/programming-environment/',
+                    collapsable: true,
+                    children: [
+                      ['/mv-dashboard/programmers-guide/widgets/programming-environment/technical-overview/', 'Technical Overview'],
+                      ['/mv-dashboard/programmers-guide/widgets/programming-environment/general-definition/', 'General Definition'],
+                      ['/mv-dashboard/programmers-guide/widgets/programming-environment/defining-links/', 'Defining Links'],
+                      ['/mv-dashboard/programmers-guide/widgets/programming-environment/drill-down-widgets/', 'Drill Down Widgets'],
+                      ['/mv-dashboard/programmers-guide/widgets/programming-environment/external-links/', 'External Links'],
+                      ['/mv-dashboard/programmers-guide/widgets/programming-environment/user-input/', 'User Input'],
+                      ['/mv-dashboard/programmers-guide/widgets/programming-environment/additional-features/', 'Additional Features']
+                    ]
+                  },
+                  {
+                    title: 'Types',
+                    path: '/mv-dashboard/programmers-guide/widgets/types/',
+                    collapsable: true,
+                    children: [
+                      ['/mv-dashboard/programmers-guide/widgets/types/default-chart-options/', 'Default Chart Options'],
+                      ['/mv-dashboard/programmers-guide/widgets/types/pie-charts/', 'Pie Charts'],
+                      ['/mv-dashboard/programmers-guide/widgets/types/single-series-and-multi-series-bar-column-line-and-area-charts/', 'Single Series and Multi Series Bar Column Line and Area Charts'],
+                      ['/mv-dashboard/programmers-guide/widgets/types/text-tables/', 'Text Tables'],
+                      ['/mv-dashboard/programmers-guide/widgets/types/html-data/', 'HTML Data'],
+                      ['/mv-dashboard/programmers-guide/widgets/types/text-data/', 'Text Data'],
+                      ['/mv-dashboard/programmers-guide/widgets/types/programming-notes/', 'Programming Notes'],
+                      ['/mv-dashboard/programmers-guide/widgets/types/testing-and-debugging/', 'Testing and Debugging']
+                    ]
+                  },
+                  {
+                    title: 'Output Type Codes',
+                    path: '/mv-dashboard/programmers-guide/widgets/output-type-codes/',
+                    collapsable: true,
+                    children: [
+                      ['/mv-dashboard/programmers-guide/widgets/output-type-codes/specifying-colors/', 'Specifying Colors'],
+                      ['/mv-dashboard/programmers-guide/widgets/output-type-codes/theme-management/', 'Theme Management']
+                    ]
+                  },
+                  {
+                    title: 'Optional Parameters',
+                    path: '/mv-dashboard/programmers-guide/widgets/optional-parameters/',
+                    collapsable: true,
+                    children: [
+                      ['/mv-dashboard/programmers-guide/widgets/optional-parameters/line-bar-area-column-pie-and-doughnut-charts-2d-and-3d/', 'Line, Bar, Area, Column, Pie and Doughnut Charts (2D & 3D)'],
+                      ['/mv-dashboard/programmers-guide/widgets/optional-parameters/trendlines/', 'Trendlines'],
+                      ['/mv-dashboard/programmers-guide/widgets/optional-parameters/2d-area-charts/', '2D Area Charts'],
+                      ['/mv-dashboard/programmers-guide/widgets/optional-parameters/2d-line-charts/', '2D Line Charts'],
+                      ['/mv-dashboard/programmers-guide/widgets/optional-parameters/column-line-area-and-bar/', 'Column Line Area and Bar'],
+                      ['/mv-dashboard/programmers-guide/widgets/optional-parameters/multiseries-and-stacked-charts/', 'Multiseries and Stacked Charts'],
+                      ['/mv-dashboard/programmers-guide/widgets/optional-parameters/pie-and-doughnut-charts/', 'Pie and Doughnut Charts'],
+                      ['/mv-dashboard/programmers-guide/widgets/optional-parameters/single-series-and-pie-charts/', 'Single Series and Pie Charts']
+                    ]
+                  }       
+                ]
+              },
+              {
+                title: 'Integration',
+                path: '/mv-dashboard/programmers-guide/integration/',
+                collapsable: true,
+                children: [
+                  ['/mv-dashboard/programmers-guide/integration/other-applications/', 'Other Applications'],
+                  ['/mv-dashboard/programmers-guide/integration/using-emailed-login/', 'Using Emailed Login'],
+                  ['/mv-dashboard/programmers-guide/integration/web-service-login/', 'Web Service Login']          
+                ]
+              },
+              ['/mv-dashboard/programmers-guide/pdf-generation/', 'PDF Generation'],
+              ['/mv-dashboard/programmers-guide/fusion-charts/', 'Fusion Charts Documentation']
             ]
-          }   
+          } 
         ]
       },
       {
@@ -239,7 +273,7 @@ module.exports = {
           },
           ['/mv-connect/manual/', 'Manual'],
           ['/mv-connect/security/', 'Security'],
-          ['/mv-dashboard/additional-features/', 'Additional Features'],
+          ['/mv-dashboard/programmers-guide/widgets/programming-environment/additional-features/', 'Additional Features'],
           ['/mv-connect/introduction-to-troubleshooting/', 'Introduction to Troubleshooting'],
           {
             title: 'Troubleshooting',
