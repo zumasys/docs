@@ -12,8 +12,7 @@ module.exports = {
   configureWebpack: config => {
     return { plugins: [new webpack.EnvironmentPlugin({ ...process.env })] };
   },
-  plugins: {
-/*    
+  plugins: {   
     "@vuepress/search": { searchMaxSuggestions: 10 },
     // Vssue (uses gitlab issues to comment)
     "@vssue/vuepress-plugin-vssue": {
@@ -62,7 +61,6 @@ module.exports = {
       //publishedAt: $page => $page.frontmatter.date && new Date($page.frontmatter.date),
       //modifiedAt: $page => $page.lastUpdated && new Date($page.lastUpdated),
     }
-    */
   },
   themeConfig: {
     logo: "/assets/img/logo-grey.png",
