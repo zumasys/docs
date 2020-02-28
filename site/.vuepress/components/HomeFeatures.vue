@@ -19,8 +19,8 @@
     <div class="feature">
       <h2>MV Dashboard</h2>
       <p>
-        <a href="/mv-dashboard/introduction/">Introduction</a>
-        <a href="/mv-dashboard/installation-guide/">Installation Guide</a>
+        <a href="/mv-dashboard/introduction/">Introduction</a><br />
+        <a href="/mv-dashboard/installation-guide/">Installation Guide</a><br />
         <a href="/mv-dashboard/programmers-guide/">Programmers Guide</a>
       </p>
     </div>
