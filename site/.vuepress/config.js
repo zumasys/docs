@@ -139,7 +139,7 @@ module.exports = {
                   ['/mv-dashboard/installation-guide/install/windows/', 'Windows']
                 ]
               },
-              ['/mv-dashboard/installation-guide/configuration/', 'Configure MV Dashboard'],
+              ['/mv-dashboard/installation-guide/configuration/', 'Configuration'],
               {
                 title: 'Uninstall',
                 path: '/mv-dashboard/installation-guide/uninstall/',
@@ -149,7 +149,7 @@ module.exports = {
                   ['/mv-dashboard/installation-guide/uninstall/windows/', 'Windows']
                 ]
               },
-              ['/mv-dashboard/installation-guide/upgrade/', 'Upgrading MV Dashboard']
+              ['/mv-dashboard/installation-guide/upgrade/', 'Upgrade']
             ]
           },
           {
