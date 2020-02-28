@@ -97,10 +97,11 @@ Do:
 9. With code examples, space out the code so that people can see what is going on, i,e.:
 
 ```
-IF chr >= 32 AND chr < 128 THEN CRT CHAR(chr) "#2" : ELSE CRT " " :  
+IF chr >= 32 AND chr < 128 THEN CRT CHAR(chr) "#2" : ELSE CRT " " :
 ```
 
-10. A pet peeve, please remember that it is and always has been “jBASE” and not “JBASE” or “Jbase”.
+10. Write URLs as links with Markdown syntax.
+11. A pet peeve, please remember that it is and always has been “jBASE” and not “JBASE” or “Jbase”.
 
 Don’t:
 
