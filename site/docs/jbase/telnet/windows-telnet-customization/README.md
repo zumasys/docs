@@ -1,4 +1,4 @@
-# WINDOWS TELNET CUSTOMIZATION
+# Windows Telnet Customization
 
 **Created At:** 4/19/2018 6:47:25 PM  
 **Updated At:** 10/14/2019 3:04:30 PM  
@@ -6,18 +6,13 @@
 **Original ID:** 311287  
 **Internal:** No  
 
-
 ## Description
 
 You can edit the registry by using Registry Editor (Regedit.exe or Regedt32.exe). If you use Registry Editor incorrectly, you can cause serious problems that may require you to reinstall your operating system. jBASE does not guarantee that problems that you cause by using Registry Editor incorrectly can be resolved. ***Use Registry Editor at your own risk***.
 
-
 > **Note:**
-> 
+>
 > If you change or create any of the registry entries below, you will need to stop and then restart the jBASE telnetd service with the new or changed values before those entries will take effect.
-
-
-
 
 ## Presenting a banner to the remote user after logon
 
@@ -31,12 +26,10 @@ In the "Value data:" string, the sequence "\n" generates an end of line output, 
 
 **Example**:
 
-
 | <!----> | <!----> | <!----> |
 | --- | --- | --- |
-| Name<br> | Type<br> | Data<br> |
-| Banner<br> | REG\_SZ<br> | Welcome to jBASE\nThe Multi-value database of the future\n<br> |
-
+| Name | Type | Data |
+| Banner | REG\_SZ | Welcome to jBASE\nThe Multi-value database of the future\n |
 
 ## Presenting a banner to the remote user prior to logon
 
@@ -50,12 +43,10 @@ In the "Value data:" string, the sequence "\n" generates an end of line output, 
 
 **Example**:
 
-
 | <!----> | <!----> | <!----> |
 | --- | --- | --- |
-| Name<br> | Type<br> | Data<br> |
-| PreBanner<br> | REG\_SZ<br> | jBASE telnet process\nPlease log into system\n<br> |
-
+| Name | Type | Data |
+| PreBanner | REG\_SZ | jBASE telnet process\nPlease log into system\n |
 
 ## Changing the logon prompt
 
@@ -67,12 +58,10 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 
 **Example**:
 
-
 | <!----> | <!----> | <!----> |
 | --- | --- | --- |
-| Name<br> | Type<br> | Data<br> |
-| LogonPrompt<br> | REG\_SZ<br> | Windows User Name:<br> |
-
+| Name | Type | Data |
+| LogonPrompt | REG\_SZ | Windows User Name: |
 
 If this registry value is not present, the default logon prompt is "Account Name: ".
 
@@ -86,12 +75,10 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 
 **Example**:
 
-
 | <!----> | <!----> | <!----> |
 | --- | --- | --- |
-| Name<br> | Type<br> | Data<br> |
-| PasswordPrompt<br> | REG\_SZ<br> | Windows Password:<br> |
-
+| Name | Type | Data |
+| PasswordPrompt | REG\_SZ | Windows Password: |
 
 If this registry value is not present, the default password prompt is "Password: ".
 
@@ -107,12 +94,10 @@ In the "Value data:" string, the sequence "\n" generates an end of line output, 
 
 **Example**:
 
-
 | <!----> | <!----> | <!----> |
 | --- | --- | --- |
-| Name<br> | Type<br> | Data<br> |
-| FailedLogonMessage<br> | REG\_SZ<br> | \nFailed logon...Valid "WINDOWS" USER/PASSWORD?\n<br> |
-
+| Name | Type | Data |
+| FailedLogonMessage | REG\_SZ | \nFailed logon...Valid "WINDOWS" USER/PASSWORD?\n |
 
 If this registry value is not present, the default message  is:
 
@@ -128,8 +113,6 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 
 If this registry entry is present and set to 0, then normal logon and logoff events will not be logged into the registry.  If this entry is either not present, or it is set to 1, then an entry will be written into the registry whenever a user logs on or off the system.
 
-
-
 ## Change the Break Key
 
 Create a registry entry of type REG\_DWORD with the name BreakChar under registry key:
@@ -140,9 +123,7 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 
 Enter the numeric value that corresponds to the control character to issue a "break". The default is 3 (i.e. ctrl-C).
 
-
-
-## Changing the default command processor.
+## Changing the default command processor
 
 Create a registry entry of type REG\_SZ with the name CommandProcessor under registry key:
 
@@ -152,24 +133,20 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 
 **Example**:
 
-
 | <!----> | <!----> | <!----> |
 | --- | --- | --- |
-| Name<br> | Type<br> | Data<br> |
-| CommandProcessor<br> | REG\_SZ<br> | C:\JBASE30\BIN\JSH.EXE -<br> |
-
+| Name | Type | Data |
+| CommandProcessor | REG\_SZ | C:\jBASE\CurrentVersion\bin\jsh.exe - |
 
 This will cause the jSHELL to start up and execute the login PROC in your MD if you have one.
 
 By default, all services invoke CMD.EXE as the command processor. By adding the registry value you can override the command processor used by all users.
 
-
 > **Note**:
-> 
+>
 > If you override the command processor, then the automatic environment setup using the remote.cmd script will no longer be available.
 
-
-## Bump up priority while logging on.
+## Bump up priority while logging on
 
 Create a registry entry of type REG\_DWORD with the name IncreaseLogonPriority under registry key:
 
@@ -181,7 +158,7 @@ On loaded systems, the logon process can be slow.  You can set this registry va
 
 If this registry entry is present and set to 1 then the priority of the logon process will be increased.
 
-## Changing default exit detection timeout.
+## Changing default exit detection timeout
 
 Create a registry entry of type REG\_DWORD with the name ExitDetectionTimeout under registry key:
 
@@ -191,12 +168,10 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 
 **Example**:
 
-
 | <!----> | <!----> | <!----> |
 | --- | --- | --- |
-| Name<br> | Type<br> | Data<br> |
-| ExitDetectionTimeout<br> | REG\_DWORD<br> | 0x000001f4 (500)<br> |
-
+| Name | Type | Data |
+| ExitDetectionTimeout | REG\_DWORD | 0x000001f4 (500) |
 
 Due to a technical issue related to pipes, the telnetd server must “guess” when a command prompt is about to exit. At those times when it this guess occurs, the telnetd server waits before doing a read of input. If this read timeout is too short, the exit detection doesn’t work, and so users need to type an extra input before the telnetd exit.  (In other words, when the user types “exit” to CMD.EXE, the telnet client will not “hang up” until the user types an extra character.)  Through internal experimentation we have found that a value of 400 milliseconds works well under most circumstances.  However some customers have found this inadequate, so we provide this value.  The value should be set to as small a value as provides the desired behavior.
 
@@ -212,12 +187,10 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 
 **Example**:
 
-
 | <!----> | <!----> | <!----> |
 | --- | --- | --- |
-| Name<br> | Type<br> | Data<br> |
-| LogonAttempts<br> | REG\_DWORD<br> | 0x00000005 (5)<br> |
-
+| Name | Type | Data |
+| LogonAttempts | REG\_DWORD | 0x00000005 (5) |
 
 If this registry value is not present, the default value is 3 attempts "0x00000003 (3)".
 
@@ -231,12 +204,10 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 
 **Example**:
 
-
 | <!----> | <!----> | <!----> |
 | --- | --- | --- |
-| Name<br> | Type<br> | Data<br> |
-| ParseProfile<br> | REG\_DWORD<br> | 0x00000000 (0)<br> |
-
+| Name | Type | Data |
+| ParseProfile | REG\_DWORD | 0x00000000 (0) |
 
 By default the telnet service will read any remote.cmd file that it finds in a user's home directory, and execute the first command it finds. This is efficient and avoids having a command processor for each port, however, the commands that are supported are restricted to setting environment variables (set) and echoing text (echo).  If you want the Windows command processor to parse the file then set the value to 0.
 
@@ -258,13 +229,8 @@ telnet  2323/tcp
 
 This would eliminate the need for a 'jtelnet' entry.
 
-
 > **Note:**
-> 
+>
 > The jBASE Telnetd Server must be stopped and restarted in the Windows Services panel for this change to take affect.
-
-
-### 
-
 
 Back to [Windows Telnet](./../windows-telnet-%28telnetd.exe%29)
