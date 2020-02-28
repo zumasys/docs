@@ -15,18 +15,11 @@ Each widget must declare its type and provide the necessary information for that
 
 The following topics are presented:
 
-[Default Chart Options](./../default-chart-options)
-
-[Pie Charts](./../pie-charts)
-
-[Single-Series and Multi-Series Bar, Column, Line and Area Charts](./../single-series-&-multi-series-bar,-column,-line-&-area-charts)
-
-[Text Tables](./../text-tables)
-
-[HTML Data](./../html-data)
-
-[Text Data](./../text-data)
-
-[Programming Notes](./../programming-notes)
-
-[Widget Testing & Debugging](./../widget-testing-&-debugging)
+* [Default Chart Options](./default-chart-options/README.md)
+* [Pie Charts](./pie-charts/README.md)
+* [Single-Series and Multi-Series Bar, Column, Line and Area Charts](./single-series-and-multi-series-bar-column-line-and-area-charts/README.md)
+* [Text Tables](./text-tables/README.md)
+* [HTML Data](./html-data/README.md)
+* [Text Data](./text-data/README.md)
+* [Programming Notes](./programming-notes/README.md)
+* [Widget Testing & Debugging](./testing-and-debugging/README.md)

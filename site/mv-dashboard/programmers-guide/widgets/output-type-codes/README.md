@@ -39,6 +39,8 @@ FCAREA2D
 
 The following topics are also presented:
 
-Specifying Colors
+* [Specifying Colors](./specifying-colors/README.md)
+* [Theme Management](./theme-management/README.md)
 
-Theme Management
+
+

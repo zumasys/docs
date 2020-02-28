@@ -23,18 +23,11 @@ If multiple optional parameters are specified, they must be separated by spaces.
 
 The following topics are presented:
 
-[Optional Parameters for Line, Bar, Area, Column, Pie and Doughnut Charts (2D & 3D)](./optional-parameters/line-bar-area-column-pie-and-doughnut-charts-2d-and-3d/)
-
-[Optional Parameters Unique to Column, Line, Area & Bar](./optional-parameters/column-line-area-and-bar/)
-
-[Optional Parameters for Trendlines](./optional-parameters/trendlines/)
-
-[Optional Parameters Unique to Single Series & Pie Charts](./optional-parameters/single-series-and-pie-charts/)
-
-[Optional Parameters Unique to Multiseries & Stacked Charts](./optional-parameters/multiseries-and-stacked-charts/)
-
-[Optional Parameters Unique to Pie & Doughnut Charts](./optional-parameters/pie-and-doughnut-charts/)
-
-[Optional Parameters Unique to 2D Line Charts](./optional-parameters/2d-line-charts/)
-
-[Optional Parameters Unique to 2D Area Charts](./optional-parameters/2d-area-charts/)
+* [Line, Bar, Area, Column, Pie and Doughnut Charts (2D & 3D)](./line-bar-area-column-pie-and-doughnut-charts-2d-and-3d/README.md)
+* [Trendlines](./trendlines/README.md)
+* [2D Area Charts](./2d-area-charts/README.md)
+* [2D Line Charts](./2d-line-charts/README.md)
+* [Column, Line, Area & Bar](./column-line-area-and-bar/README.md)
+* [Multiseries & Stacked Charts](./multiseries-and-stacked-charts/README.md)
+* [Pie & Doughnut Charts](./pie-and-doughnut-charts/README.md)
+* [Single Series & Pie Charts](./single-series-and-pie-charts/README.md)
