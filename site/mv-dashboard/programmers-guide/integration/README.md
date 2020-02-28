@@ -1,7 +1,7 @@
 # Integration
 
-## Topics
+<PageHeader />
 
-[Web Service Login](./web-service-login/)
-[Using Emailed Login](./using-emailed-login/)  
-[Other Applications](./other-applications/) 
+* [Other Applications](./other-applications/README.md)
+* [Using Email Login](./using-emailed-login/README.md)
+* [Web Service Login](./web-service-login/README.md)

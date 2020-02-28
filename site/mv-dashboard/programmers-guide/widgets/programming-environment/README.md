@@ -21,16 +21,10 @@ Additionally, the program may provide information to invoke other behaviors of t
 
 
 
-[Technical Description](./../widget-technical-overview)
-
-[General Widget Definition](./../general-widget-definition)
-
-[Defining Links in a Widget](./../defining-links-in-a-widget)
-
-[Drill Down Widgets](./../drill-down-widgets)
-
-[External Links](./../external-links)
-
-[User Input](./../user-input)
-
-[Additional Features](./../additional-features)
+* [Technical Description](./technical-overview/README.md)
+* [General Widget Definition](./general-definition/README.md)
+* [Defining Links in a Widget](./defining-links/README.md)
+* [Drill Down Widgets](./drill-down-widgets/README.md)
+* [External Links](./external-links/README.md)
+* [User Input](./user-input/README.md)
+* [Additional Features](./additional-features/README.md)
