@@ -1,4 +1,4 @@
-# EXECUTE
+# Execute
 
 **Created At:** 8/30/2018 1:27:50 PM  
 **Updated At:** 5/16/2019 6:28:02 PM  
@@ -25,7 +25,6 @@ where:
 - **capturing** allows you to optionally specify a variable where the output of the command will be captured. Without this option the output of the command goes to the same terminal output as jkeyauto.
 - **setting** allows you to optionally specify a variable which will be set to the exit() code of the executed program. If the program exited due to a signal, then this variable is set to "Snnn" where nnn is the signal number. This setting variable is similar to using the internal $? Variable which also contains the exit() code of the last program executed.
 
-
 Examples of use may be as:
 
 ```
@@ -43,3 +42,5 @@ perform "LIST MD IF \*A1 \> \'1234\'" SETTING s1
 ```
 
 if it is undesired for the \* &gt; or ' characters as special character, so the normal shell convention of preceding them with a back slash to "delimit" the shell meta-characters is followed.
+
+[Back to jKeyAuto](./../README.md)

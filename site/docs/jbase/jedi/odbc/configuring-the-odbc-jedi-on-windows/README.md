@@ -115,3 +115,5 @@ passwd = expswrd
 [Configuring the ODBC jEDI on Linux/UNIX](./../configuring-the-odbc-jedi-on-linux&unix)
 
 [Using the ODBC jEDI](./../using-the-odbc-jedi)
+
+[Back to ODBC](./../README.md)

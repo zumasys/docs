@@ -9,28 +9,25 @@
 **Tags:**
 <badge text='environment variables' vertical='middle' />
 
-## Description 
+## Description
 
 The jsetkey utility is used to display, set or remove jBASE environment variables in the Windows current user registry.
 
 
-| Command<br> | Description<br> |
+| Command | Description |
 | --- | --- |
-| jsetkey &lt;keyname&gt;=&lt;value&gt;<br> | set Key to the specified value<br> |
-| jsetkey -b &lt;keyname&gt;=&lt;file&gt;<br> | set binary Key to data from a file<br> |
-| jsetkey &lt;keyname&gt;<br> | display a value<br> |
-| jsetkey -d &lt;keyname&gt;<br> | delete Key<br> |
-| jsetkey -u<br> | update user values from the default<br> |
-| jsetkey -i<br> | initialize a clients local registry<br> |
-| jsetkey<br> | display all registry values<br> |
-
+| jsetkey &lt;keyname&gt;=&lt;value&gt; | set Key to the specified value |
+| jsetkey -b &lt;keyname&gt;=&lt;file&gt; | set binary Key to data from a file |
+| jsetkey &lt;keyname&gt; | display a value |
+| jsetkey -d &lt;keyname&gt; | delete Key |
+| jsetkey -u | update user values from the default |
+| jsetkey -i | initialize a clients local registry |
+| jsetkey | display all registry values |
 
 If -m option is also used, then the Global machine values are used instead of the current users settings.
 
-
-
-## Note: 
-
+## Note
 
 > This command is only available on jBASE 3.
 
+[Back to Tools](./../README.md)

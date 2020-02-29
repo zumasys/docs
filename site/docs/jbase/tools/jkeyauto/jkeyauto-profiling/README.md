@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='program profiling' vertical='middle' />
 
-## Creating a Profiling Statistic File 
+## Creating a Profiling Statistic File
 
 Profiling statistics for a jBC program can be created using the -JP option. For example, the program below will capture statistics about database I/O , keyboard input, subroutine calls and where the program spends its CPU time, then store the results in a file called jprof.
 
@@ -37,9 +37,7 @@ jsh.exit
 
 In the above example a profiling file will be created for MYAPPLICATION , jsh and LIST , and as the value of JBCPROFILE is set to 2, it will be a short profile.
 
-
-
-## Using the Profiling Statistic File 
+## Using the Profiling Statistic File
 
 Once the jprof file (or jprof\_nnnnn\_mm) has been created it can be manipulated. This is done by the command jprof, which has a number of options to support different functionality.
 
@@ -60,10 +58,6 @@ The third command , jkeyauto, will now execute the script "script1". The upshot 
 The file script1 may be edited with any Unix or jBASE editor and amendments made as required. The command "jprof -k script1" simply provides a template that best matches what was done originally.
 
 There are more options to jprof than described here, again the Advanced Programmers Reference Manual describes them, or use "jprof -h" for a summary. Options include displaying profiling lines and sources, ancillary information such as CPU usage, database I/O etc., options to display subroutines called and so on.
-
-
-
-
 
 ### Full example
 
@@ -112,7 +106,7 @@ IF rc lt 0 THEN CRT "Error ":rc:" on PIPEREAD" ; EXIT 1
 *
 INPUT progname
 loop = 0
-PRINT
+CRT
 *
 * We are logged onto the remote machine and the program has now
 * been started. We want to pause at this point and wait for
@@ -122,7 +116,7 @@ PRINT
 *
 SYNC LOCK 0 ;* Ensure lock is taken
 waitagain:
-PRINT "Process ":$PID:" waiting for sync signal ..."
+CRT "Process ":$PID:" waiting for sync signal ..."
 SYNC WAIT 0 FOR 20 SETTING rc
 IF rc EQ 1 THEN GOTO waitagain
 IF rc NE 0 THEN PRINT "Error ":rc:" doing the sync" ; EXIT 1
@@ -133,7 +127,7 @@ IF rc NE 0 THEN PRINT "Error ":rc:" doing the sync" ; EXIT 1
 * begin writing to the application. Wait for the program
 * to send us a "Enter your name :" prompt.
 *
-PRINT "Process ":$PID:" started test"
+CRT "Process ":$PID:" started test"
 PIPEREAD PIPE pipeno FOR 30 UNTIL "Enter your name :" SETTING rc
 IF rc GT 0 THEN GOTO okay1
 PRINTERR "Fatal error ":rc:" while executing ":progname
@@ -180,3 +174,5 @@ WAIT PIPE pipeno
 *
 EXIT 0
 ```
+
+[Back to jKeyAuto](./../README.md)

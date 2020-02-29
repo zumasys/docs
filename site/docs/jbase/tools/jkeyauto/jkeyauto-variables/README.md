@@ -11,7 +11,6 @@
 
 When a variable is referenced in a jkeyauto script, it can be an internal variable in which case it has a value assigned by jkeyauto. These names are defined by having a $ character as the first character. This is a full description of all those available.
 
-
 | Internal name | Description |
 | --- | --- |
 | $? | This evaluates to the completion code of the last PROGRAM, PERFORM, or EXECUTE statement executed. |
@@ -31,3 +30,4 @@ When a variable is referenced in a jkeyauto script, it can be an internal variab
 | $UTIME | The time in Unix format, the number of seconds since 01 JAN 1970. This variable is the equivalent of the time() function in a C program. |
 | $nn | Evaluates to the nn'th position in the command line arguments |
 
+[Back to jKeyAuto](./../README.md)

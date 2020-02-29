@@ -1,4 +1,4 @@
-# SYNC
+# Sync
 
 **Created At:** 8/30/2018 1:37:47 PM  
 **Updated At:** 5/16/2019 6:30:35 PM  
@@ -30,17 +30,12 @@ where:
 - **expression\_for** allows for the addition of a timeout clause when the "SYNC WAIT" is used. Without this, then the SYNC will wait forever until the lock is unlocked. A value of 0 shows to return immediately.
 - **variable\_setting** can be used to show why the SYNC statement returned. It is most useful in association with the WAIT operand but can be used to check for fatal errors in the other statements. It is set differently according to the type of lock.
 
-
-
 | <!----> | <!----> |
 | --- | --- |
-| LOCK<br> | 0 shows the lock was taken. Any other value is the error number of a fatal error.<br> |
-| UNLOCK<br> | 0 shows the lock was unlocked. Any other value is the error number of a fatal error.<br> |
-| TEST<br> | 0 shows the requested lock is currently unlocked. 1 shows the requested lock is currently locked.<br> |
-| WAIT<br> | 0 shows the lock is unlocked or became unlocked. 1 shows the operation timed out. Any other value is the error number of a fatal error.<br> |
-
-
-
+| LOCK | 0 shows the lock was taken. Any other value is the error number of a fatal error. |
+| UNLOCK | 0 shows the lock was unlocked. Any other value is the error number of a fatal error. |
+| TEST | 0 shows the requested lock is currently unlocked. 1 shows the requested lock is currently locked. |
+| WAIT | 0 shows the lock is unlocked or became unlocked. 1 shows the operation timed out. Any other value is the error number of a fatal error. |
 
 An  example of use may be as:
 
@@ -49,5 +44,7 @@ SYNC LOCK 0 ;* Ensure lock 0 is locked
 again: SYNC WAIT 0 FOR 2 SETTING rc
 IF rc EQ 1 THEN PRINT "Waiting for sync . . ." ; goto again
 IF rc NE 0 THEN PRINT "Fatal error" ; STOP
-PRINT "Benchmark now begins !!!!"
+CRT "Benchmark now begins !!!!"
 ```
+
+[Back to jKeyAuto](./../README.md)

@@ -9,9 +9,9 @@
 **Tags:**
 <badge text='ascii equivallent' vertical='middle' />
 
-## Description 
+## Description
 
-The **keys**utility displays the ASCII equivalent as well as the hex and octal representation for keyboard input. On Windows, this utility is called **jkeys**.
+The **keys** utility displays the ASCII equivalent as well as the hex and octal representation for keyboard input. On Windows, this utility is called **jkeys**.
 
 An example would be to use the keys utility to show the values emitted from the left arrow key.
 
@@ -25,3 +25,5 @@ hit a key :
 bye
 jsh cindy ~ -->
 ```
+
+[Back to Tools](./../README.md)

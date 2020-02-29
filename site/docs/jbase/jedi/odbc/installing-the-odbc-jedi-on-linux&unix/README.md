@@ -6,7 +6,6 @@
 **Original ID:** 509163  
 **Internal:** Yes  
 
-
 As previously stated, in order to properly perform the steps defined in this section, you will need a licensed system running jBASE 5.6 or greater, and the *ODBC* *jEDI*tool-set installation package. If you do not yet have a valid licensed jBASE system, and/or the *ODBC* *jEDI*tool-set installation package, please contact Zumasys licensing to obtain them.
 
 The installation package is comprised of two components, the **ODBCjEDI-UNIX.jpkg** and **GNU\_Linux\_jPKGINSTALLER\_1.1.0\_jBASE\_5.7.4\_x86\_64.bin**; both can be removed from the target file system after successful installation. After receiving the *ODBC* *jEDI*tool-set installation package, do the following to ensure successful installation:
@@ -158,3 +157,5 @@ Verifying installation... Success.
 [Configuring the ODBC jEDI on Windows](./../configuring-the-odbc-jedi-on-windows)
 
 [Using the ODBC jEDI](./../using-the-odbc-jedi)
+
+[Back to ODBC](./../README.md)

@@ -9,8 +9,7 @@
 **Tags:**
 <badge text='ascii codes' vertical='middle' />
 
-
-| **Dec**<br> | **Hex**<br> | **Oct**<br> | **Bin**<br> | **Typed**<br> | **Char**<br> | **Viewed<br>in HTML**<br> | **HTML<br>Code**<br> | **Meaning**<br> |
+| **Dec** | **Hex** | **Oct** | **Bin** | **Typed** | **Char** | **Viewed<br>in HTML**<br> | **HTML<br>Code**<br> | **Meaning** |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 0 | 0x0 | 00 | 00000000 | ^@ | NUL |   |   | Null Character |
 | 1 | 0x1 | 01 | 00000001 | ^A | SOH |   |   | Cursor Home |
@@ -108,7 +107,7 @@
 | 93 | 0x5D | 0135 | 01011101 | ] | ] | ] | &#93; |   |
 | 94 | 0x5E | 0136 | 01011110 | ^ | ^ | ^ | &#94; |   |
 | 95 | 0x5F | 0137 | 01011111 | \_ | \_ | \_ | &#95; |   |
-| 96 | 0x60 | 0140 | 01100000 | ` | ` | ` | &#96; |   |
+| 96 | 0x60 | 0140 | 01100000 | \` | \` | ` | &#96; |   |
 | 97 | 0x61 | 0141 | 01100001 | a | a | a | &#97; |   |
 | 98 | 0x62 | 0142 | 01100010 | b | b | b | &#98; |   |
 | 99 | 0x63 | 0143 | 01100011 | c | c | c | &#99; |   |
@@ -269,3 +268,4 @@
 | 254 | 0xFE | 0376 | 11111110 | AM | AM | þ | &#254; |  Attribute Mark ^ |
 | 255 | 0xFF | 0337 | 11111111 | SM | SM | ÿ |   | Segment Mark \_ |
 
+[Back to Tools](./../README.md)

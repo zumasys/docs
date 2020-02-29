@@ -1,4 +1,4 @@
-# STOP
+# Stop
 
 **Created At:** 8/30/2018 1:37:17 PM  
 **Updated At:** 5/16/2019 6:30:20 PM  
@@ -24,3 +24,5 @@ An example of use would be as:
 ```
 stop "This program has finished"
 ```
+
+[Back to jKeyAuto](./../README.md)

@@ -10,7 +10,7 @@
 <badge text='resource usage' vertical='middle' />
 <badge text='diagnostics' vertical='middle' />
 
-## Description 
+## Description
 
 The MW42 tool is designed to assist with diagnosing issues which relate to a gradual build up of resource usage over a period of time. It records information from a series of both jBASE and operating system tools, collecting data on such things as system configuration, process status, memory usage, disk space, state of jBASE daemons etc.
 
@@ -32,18 +32,11 @@ where options may be:
 - **-nn2**: Number of samples to take
 - **&gt; output.file**: To facilitate further investigation – it is often useful to redirect the mw42 output to a file. Mw42.out is the usual convention.
 
-
-
-
-## Note: 
-
+## Note
 
 > This tool is only available in jBASE 4.1 and later.
-> 
+>
 > When setting the interval parameter, care should be taken to not set such a short interval so that monitoring impacts system performance. In addition an mw42.out file can grow to a large size so the location of the file being produced should be considered.
-
-
-
 
 An example of use would be :
 
@@ -53,10 +46,4 @@ mw42 -f -a -t -n 30 1440 > mw42.out
 
 to produce a full listing for the application account with timestamps on every line without asking for input. Sample every 30 seconds for 1440 samples and pipe the output to mw42.out
 
-
-
-
-
-
-
-
+[Back to Tools](./../README.md)

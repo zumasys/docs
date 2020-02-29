@@ -1,4 +1,4 @@
-# TYPEDELAY
+# TypeDelay
 
 **Created At:** 8/30/2018 1:36:58 PM  
 **Updated At:** 5/16/2019 6:32:29 PM  
@@ -29,3 +29,5 @@ INPUT "---------------------"
 ```
 
 to show the user taking a long time to enter a complicated word , 1.2 seconds per character. The second line entered is a number of ----- characters and as this is probably done by auto-repeat from the users keyboard.
+
+[Back to jKeyAuto](./../README.md)

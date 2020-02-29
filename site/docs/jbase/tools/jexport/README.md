@@ -6,12 +6,9 @@
 **Original ID:** 380778  
 **Internal:** No  
 
-
 ## Description
 
 The **jexport** command generates output of delimited values using jQL syntax. Output can be to a file, stdout (typically the screen) or the spooler.
-
-
 
 ## Syntax
 
@@ -19,10 +16,7 @@ The **jexport** command generates output of delimited values using jQL syntax. O
 jexport {options} filename {sort-criteria} {selection-critera} {output-specs} {LPTR}
 ```
 
-
-
 ## Options
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -32,9 +26,6 @@ jexport {options} filename {sort-criteria} {selection-critera} {output-specs} {L
 | -o | Overwrite existing file when the **-f** option is used, ignored otherwise |
 | -h | Help screen |
 | -? | Help screen |
-
-
-
 
 ## Notes
 
@@ -47,9 +38,6 @@ jexport {options} filename {sort-criteria} {selection-critera} {output-specs} {L
 - Only detail lines are processed so things like **BREAK-ON**s, **TOTAL**s, **HEADING**s are ignored.
 - A preceeding select-list will limit the records to process.
 - The **-f** option takes precedence over spooler output.
-
-
-
 
 ## Examples
 
@@ -65,11 +53,4 @@ JEXPORT -D@csv -F .\members.txt -o MEMBERS WITH STATE "OH" BY LASTNAME BY FIRSTN
 jexport -f /tmp/active_customers -d@vm CUSTOMERS WITH ACTIVITY BY-DSND TOTAL_SALES CUSTNAME TOTAL_SALES
 ```
 
-
-
-Back to [Tools](./../tools)
-
-
-
-## 
-
+[Back to Tools](./../README.md)

@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='source code listings' vertical='middle' />
 
-## Description 
+## Description
 
 The jfb command is used to produce source code listings in a standard format for listing to the terminal or printer. The format of the command is as follows:
 
@@ -20,22 +20,22 @@ jfb -Options FileName Itemlist (Options
 where options may be:
 
 
-| Option<br> | Explanation<br> |
+| Option | Explanation |
 | --- | --- |
-| -A or (A<br> | alternate indenting of CASE statements.<br> |
-| -C or (C<br> | indent comments with the source code not column 1<br> |
-| -Ln,m or (Ln,m<br> | set indentation to n spaces, with initial set at n\*m<br> |
-| -Mnn or(Mnn<br> | set maximum number of indentations to nn, default 10<br> |
-| -N or (N<br> | do wait for keyboard input between pages<br> |
-| -P or (P<br> | send output to the current printer queue<br> |
-| -Snn or (Snn<br> | set the percentage split of code to comments to nn%<br> |
-| -V or (V<br> | display indentation with + character<br> |
-
-
-
+| -A or (A | alternate indenting of CASE statements. |
+| -C or (C | indent comments with the source code not column 1 |
+| -Ln,m or (Ln,m | set indentation to n spaces, with initial set at n\*m |
+| -Mnn or(Mnn | set maximum number of indentations to nn, default 10 |
+| -N or (N | do wait for keyboard input between pages |
+| -P or (P | send output to the current printer queue |
+| -Snn or (Snn | set the percentage split of code to comments to nn% |
+| -V or (V | display indentation with + character |
 
 For example, to list the file batch.b in sub-directory source to the printer, indenting by four spaces per level and starting non-labeled code at 8 spaces from the left margin:
 
 ```
 jfb -L4,2 -V source/batch.b
+
 ```
+
+[Back to Tools](./../README.md)

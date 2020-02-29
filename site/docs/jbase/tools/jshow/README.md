@@ -6,8 +6,7 @@
 **Original ID:** 336942  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 The jshow command can be used to find jBASE files or programs. The command takes the general form:
 
@@ -20,22 +19,17 @@ Where:
 - **Name** is the Name of file, subroutine, program or dll/shared object,
 - **Options** can be:
 
-
-
-| Option<br> | Explanation<br> |
+| Option | Explanation |
 | --- | --- |
-| -a<br> | display subroutine names in dll/shared object (Note that under Unix, this must be the complete path to the shared object)<br> |
-| -c<br> | display compile-time and source file<br> |
-| -d<br> | display general information about the system<br> |
-| -f<br> | file name only search<br> |
-| -h<br> | display this help screen<br> |
-| -i<br> | ignore case insensitivity and do a case sensitive search<br> |
-| -p<br> | program name only search<br> |
-| -s<br> | subroutine name only search<br> |
-| -v<br> | verbose mode<br> |
-
-
-####  
+| -a | display subroutine names in dll/shared object (Note that under UNIX, this must be the complete path to the shared object) |
+| -c | display compile-time and source file |
+| -d | display general information about the system |
+| -f | file name only search |
+| -h | display this help screen |
+| -i | ignore case insensitivity and do a case sensitive search |
+| -p | program name only search |
+| -s | subroutine name only search |
+| -v | verbose mode |
 
 ### Info
 
@@ -43,9 +37,4 @@ When performing a jshow -c on a program/subroutine you may see (DUP) as the disp
 
 However, you can also see (DUP) if the program/subroutine has bee cataloged into multiple bin/lib directories. (See [CATALOG](./../../../jbase-basic-%28jbc%29/catalog))
 
-#### 
-
-
-
-
-
+[Back to Tools](./../README.md)

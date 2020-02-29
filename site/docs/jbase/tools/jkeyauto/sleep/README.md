@@ -1,4 +1,4 @@
-# SLEEP
+# Sleep
 
 **Created At:** 8/30/2018 1:37:03 PM  
 **Updated At:** 5/16/2019 6:30:17 PM  
@@ -23,7 +23,6 @@ It's general use is as:
 - **OFF**- When "SLEEP OFF" is executed, all SLEEP statements will be ignored.
 - **expression** The time to sleep expressed as a number of seconds. If the sleep time "expression" is not specified, it defaults to 1 second.
 
-
 A non-integer value to sleep may be set for fractions of a second. The actual sleep time will depend upon the granularity of the system clock and the load on the system.
 
 Typically, resolutions to the nearest 1/100th of a second are usually possible.
@@ -34,5 +33,7 @@ An example of use may be as:
 value=0.6
 time1=$UBOOT
 sleep value*2
-print "Sleep: Request = ":value*2:" secs, actual = ":$UBOOT-time1
+crt "Sleep: Request = ":value*2:" secs, actual = ":$UBOOT-time1
 ```
+
+[Back to jKeyAuto](./../README.md)

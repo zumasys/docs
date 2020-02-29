@@ -16,7 +16,7 @@ A brief description of the topic at hand.
 
 ## Details
 
-links to child documents are encouraged to be placed here so we don't' have an extremely long document that will overload the user. The child document must be to the point, and must deal with ideally one topic. ideally the links should be in point form.
+links to child documents are encouraged to be placed here so we don't have an extremely long document that will overload the user. The child document must be to the point, and must deal with ideally one topic. ideally the links should be in point form.
 
 1. Create a file
 
@@ -123,4 +123,4 @@ Quite a manual effort to build a driver, we don’t ship with a pre-built versio
 
 Documentation limited (err…. this is it so far)
 
-[Back to jEDI](./../jedi/README.md)
+[Back to Mongo](./../README.md)

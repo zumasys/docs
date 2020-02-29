@@ -12,22 +12,23 @@
 
 ## Description
 
-The **jgrep**command is used to search for strings in jBASE files or directories.
+The **jgrep** command is used to search for strings in jBASE files or directories.
 
 ```
 jgrep -Options SearchString FileName (Options
 ```
 
 
-| Option<br> | Description<br> |
+| Option | Description |
 | --- | --- |
-| -c or (C)<br> | make search case in-sensitive<br> |
-| -i or (I)<br> | interactively ask for one or more SearchString"s<br> |
-| -k or (K)<br> | search in record KEY only for string<br> |
-| -l or (L)<br> | simply list the record keys they were found in<br> |
-| -n or (N)<br> | do not wait for keyboard input between pages<br> |
-| -p or (P)<br> | send output to printer<br> |
-| -s or (S)<br> | sub-directory searches<br> |
-| -t or (T)<br> | trims redundant spaces from search patterns<br> |
-| -r or (R)<br> | raw display exclusive of dollar items<br> |
+| -c or (C) | make search case in-sensitive |
+| -i or (I) | interactively ask for one or more SearchString"s |
+| -k or (K) | search in record KEY only for string |
+| -l or (L) | simply list the record keys they were found in |
+| -n or (N) | do not wait for keyboard input between pages |
+| -p or (P) | send output to printer |
+| -s or (S) | sub-directory searches |
+| -t or (T) | trims redundant spaces from search patterns |
+| -r or (R) | raw display exclusive of dollar items |
 
+[Back to Tools](./../README.md)

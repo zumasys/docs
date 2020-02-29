@@ -6,8 +6,7 @@
 **Original ID:** 336943  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 The program is executed as:
 
@@ -17,9 +16,8 @@ jtic -Options DescriptionFile
 
 Where Options can be:
 
-- **-x**the Description file contains extended capabilities
-- **-v**verbose mode
-
+- **-x** the Description file contains extended capabilities
+- **-v** verbose mode
 
 By default, the program jtic will take a source description file called terminfo.src and assume it contains standard terminfo names. The output will be to a file called /usr/lib/terminfo/x/xyz, where x/xyz depends upon the terminal name as contained in the description file.
 
@@ -49,108 +47,102 @@ use=name. Resets the definition to that of a previously defined name in the defi
 
 The comments and terminal names must all start at column 1. The binaries, integers, strings and use=name must all have a leading tab character. There can be more than one binary, integer or string on a line, and each definition should be delimited by a comma. When invoked with the -x option a terminfo binary file with the suffix \_jbase is generated for the extended capabilities.
 
+### Extended Definitions
 
-
-### EXTENDED DEFINITIONS
-
-
-| Access<br> | Long name Description<br> |
+| Access | Long name Description |
 | --- | --- |
-| @(-53)<br> | if\_slave\_only Send data to slave printer only. No VDT display<br> |
-| @(-54)<br> | if\_crt\_type Returns VDT terminal type<br> |
-| @(-55)<br> | if\_crt\_graphics Returns a 1 if Regis graphics available<br> |
-| @(-59)<br> | if\_crt\_cuprot Clear all unprotected fields<br> |
-| @(-27)<br> | if\_crt\_132 Switch VDT to 132 column mode<br> |
-| @(-28)<br> | if\_crt\_80 Switch VDT to 80 column mode<br> |
-| @(-29)<br> | if\_crt\_dwide Display double wide characters<br> |
-| @(-30)<br> | if\_crt\_swide Display single wide characters<br> |
-| @(-32)<br> | if\_crt\_sron Set-up scrolling region. (Enter ? for help)<br> |
-| @(-33)<br> | if\_crt\_sroff Reset scrolling region to normal<br> |
-| @(-47)<br> | if\_crt\_udhdw Top half of double height line<br> |
-| @(-48)<br> | if\_crt\_bdhdw Bottom half of double height line<br> |
-| @(-60)<br> | if\_prtr\_executive Change paper size to executive<br> |
-| @(-61)<br> | if\_prtr\_a4 Change paper size to A4<br> |
-| @(-62)<br> | if\_prtr\_monarch Envelope type "Monarch"<br> |
-| @(-63)<br> | if\_prtr\_comm10 Envelope type "Commercial 10"<br> |
-| @(-64)<br> | if\_prtr\_interntldl Envelope type "International DL"<br> |
-| @(-65)<br> | if\_prtr\_reset Reset printer defaults<br> |
-| @(-66)<br> | if\_prtr\_envfeed Envelope feeder<br> |
-| @(-70)<br> | if\_prtr\_letter Change paper size to letter<br> |
-| @(-71)<br> | if\_prtr\_legal Change paper size to legal<br> |
-| @(-72)<br> | if\_prtr\_chgcpy Change number of copies to print on Laser<br> |
-| @(-73)<br> | if\_prtr\_cpwo1 Compressed print for Service WO form 1<br> |
-| @(-74)<br> | if\_prtr\_spcol Start printing at specified column<br> |
-| @(-75)<br> | if\_prtr\_sprow Start printing at specified row<br> |
-| @(-76)<br> | if\_prtr\_utray Use Upper Tray<br> |
-| @(-77)<br> | if\_prtr\_ltray Use Lower Tray<br> |
-| @(-78)<br> | if\_prtr\_portrt Portrait orientation<br> |
-| @(-79)<br> | if\_prtr\_land Landscape orientation<br> |
-| @(-80)<br> | if\_prtr\_simplx Simplex binding<br> |
-| @(-81)<br> | if\_prtr\_duplxl Duplex, long edge binding<br> |
-| @(-82)<br> | if\_prtr\_duplxs Duplex, short edge binding<br> |
-| @(-83)<br> | if\_prtr\_macro Call MACRO<br> |
-| @(-84)<br> | if\_prtr\_setdef Set default ( Font size, HMI, VMI )<br> |
-| @(-85)<br> | if\_prtr\_lpi2 2 lines per inch<br> |
-| @(-86)<br> | if\_prtr\_lpi3 3 lines per inch<br> |
-| @(-87)<br> | if\_prtr\_lpi4 4 lines per inch<br> |
-| @(-88)<br> | if\_prtr\_lpi6 6 lines per inch<br> |
-| @(-89)<br> | if\_prtr\_lpi8 8 lines per inch<br> |
-| @(-90)<br> | if\_prtr\_lpi12 12 lines per inch<br> |
-| @(-91)<br> | if\_prtr\_dwide Double wide mode<br> |
-| @(-92)<br> | if\_prtr\_swide Single wide mode<br> |
-| @(-93)<br> | if\_prtr\_96 96 column mode<br> |
-| @(-94)<br> | if\_prtr\_pld 1/2 line down<br> |
-| @(-95)<br> | if\_prtr\_plu 1/2 line up<br> |
-| @(-96)<br> | if\_prtr\_suon Superscript mode<br> |
-| @(-97)<br> | if\_prtr\_sbon Subscript mode<br> |
-| @(-98)<br> | if\_prtr\_ssoff Superscript and subscript off<br> |
-| @(-99)<br> | if\_prtr\_40 Double wide for 80 column mode (5 pitch)<br> |
-| @(-100)<br> | if\_prtr\_48 Double wide for 96 column mode (6 pitch)<br> |
-| @(-101)<br> | if\_prtr\_ff Top of form<br> |
-| @(-102)<br> | if\_prtr\_80 80 column mode (10 pitch)<br> |
-| @(-103)<br> | if\_prtr\_132 132 column mode (16 pitch)<br> |
-| @(-104)<br> | if\_prtr\_bold Bold<br> |
-| @(-105)<br> | if\_prtr\_ul Underline<br> |
-| @(-106)<br> | if\_prtr\_norm Turn off bold and underline<br> |
-| @(-107)<br> | if\_prtr\_hmi Set horizontal motion index to U-1<br> |
-| @(-108)<br> | if\_prtr\_vmi Set vertical motion index to U-1<br> |
-| @(-109)<br> | if\_prtr\_pson Proportional spacing on<br> |
-| @(-110)<br> | if\_prtr\_psoff Proportional spacing off<br> |
-| @(-111)<br> | if\_prtr\_1key Linefeed and backspace<br> |
-| @(-112)<br> | if\_prtr\_2key Linefeed<br> |
-| @(-113)<br> | if\_prtr\_3key Linefeed and space<br> |
-| @(-114)<br> | if\_prtr\_4key Backspace<br> |
-| @(-115)<br> | if\_prtr\_6key Space<br> |
-| @(-116)<br> | if\_prtr\_7key Negative linefeed and backspace<br> |
-| @(-117)<br> | if\_prtr\_8key Negative linefeed<br> |
-| @(-118)<br> | if\_prtr\_9key Negative linefeed and space<br> |
-| @(-119)<br> | if\_prtr\_cvd Coarse vertical distance ( 1 line = 1 inch)<br> |
-| @(-120)<br> | if\_prtr\_mvd Medium vertical distance ( 1 line = 1/6 inch )<br> |
-| @(-121)<br> | if\_prtr\_type Returns slave/printer type<br> |
-| @(-122)<br> | if\_prtr\_fvd Fine vertical distance ( 1 line = 1/48 inch)<br> |
-| @(-123)<br> | if\_prtr\_chd Coarse horizontal distance ( 1 space = 1 inch )<br> |
-| @(-124)<br> | if\_prtr\_mhd Medium horizontal distance ( 1 space = 1/12 inch )<br> |
-| @(-125)<br> | if\_prtr\_fhd Fine horizontal distance ( 1 space = 1/120 inch )<br> |
-| @(-126)<br> | if\_prtr\_status Retrieve slave/printer device status<br> |
-| @(-220)<br> | IF\_PRTR\_DUL\_ON<br> |
-| @(-221)<br> | IF\_PRTR\_DUL\_OFF<br> |
-| @(-223)<br> | IF\_PRTR\_STRIKE\_ON<br> |
-| @(-224)<br> | IF\_PRTR\_STRIKE\_OFF<br> |
-| @(-225)<br> | IF\_PRTR\_HARD\_HYPHEN<br> |
-| @(-226)<br> | IF\_PRTR\_HARD\_BLANK<br> |
-| @(-230)<br> | IF\_PRTR\_FONT\_0<br> |
-| @(-231)<br> | IF\_PRTR\_FONT\_1<br> |
-| @(-232)<br> | IF\_PRTR\_FONT\_2<br> |
-| @(-233)<br> | IF\_PRTR\_FONT\_3<br> |
-| @(-234)<br> | IF\_PRTR\_FONT\_4<br> |
-| @(-235)<br> | IF\_PRTR\_FONT\_5<br> |
-| @(-236)<br> | IF\_PRTR\_FONT\_6<br> |
-| @(-237)<br> | IF\_PRTR\_FONT\_7<br> |
-| @(-238)<br> | IF\_PRTR\_FONT\_8<br> |
-| @(-239)<br> | IF\_PRTR\_FONT\_9<br> |
-
-
-
+| @(-53) | if\_slave\_only Send data to slave printer only. No VDT display |
+| @(-54) | if\_crt\_type Returns VDT terminal type |
+| @(-55) | if\_crt\_graphics Returns a 1 if Regis graphics available |
+| @(-59) | if\_crt\_cuprot Clear all unprotected fields |
+| @(-27) | if\_crt\_132 Switch VDT to 132 column mode |
+| @(-28) | if\_crt\_80 Switch VDT to 80 column mode |
+| @(-29) | if\_crt\_dwide Display double wide characters |
+| @(-30) | if\_crt\_swide Display single wide characters |
+| @(-32) | if\_crt\_sron Set-up scrolling region. (Enter ? for help) |
+| @(-33) | if\_crt\_sroff Reset scrolling region to normal |
+| @(-47) | if\_crt\_udhdw Top half of double height line |
+| @(-48) | if\_crt\_bdhdw Bottom half of double height line |
+| @(-60) | if\_prtr\_executive Change paper size to executive |
+| @(-61) | if\_prtr\_a4 Change paper size to A4 |
+| @(-62) | if\_prtr\_monarch Envelope type "Monarch" |
+| @(-63) | if\_prtr\_comm10 Envelope type "Commercial 10" |
+| @(-64) | if\_prtr\_interntldl Envelope type "International DL" |
+| @(-65) | if\_prtr\_reset Reset printer defaults |
+| @(-66) | if\_prtr\_envfeed Envelope feeder |
+| @(-70) | if\_prtr\_letter Change paper size to letter |
+| @(-71) | if\_prtr\_legal Change paper size to legal |
+| @(-72) | if\_prtr\_chgcpy Change number of copies to print on Laser |
+| @(-73) | if\_prtr\_cpwo1 Compressed print for Service WO form 1 |
+| @(-74) | if\_prtr\_spcol Start printing at specified column |
+| @(-75) | if\_prtr\_sprow Start printing at specified row |
+| @(-76) | if\_prtr\_utray Use Upper Tray |
+| @(-77) | if\_prtr\_ltray Use Lower Tray |
+| @(-78) | if\_prtr\_portrt Portrait orientation |
+| @(-79) | if\_prtr\_land Landscape orientation |
+| @(-80) | if\_prtr\_simplx Simplex binding |
+| @(-81) | if\_prtr\_duplxl Duplex, long edge binding |
+| @(-82) | if\_prtr\_duplxs Duplex, short edge binding |
+| @(-83) | if\_prtr\_macro Call MACRO |
+| @(-84) | if\_prtr\_setdef Set default ( Font size, HMI, VMI ) |
+| @(-85) | if\_prtr\_lpi2 2 lines per inch |
+| @(-86) | if\_prtr\_lpi3 3 lines per inch |
+| @(-87) | if\_prtr\_lpi4 4 lines per inch |
+| @(-88) | if\_prtr\_lpi6 6 lines per inch |
+| @(-89) | if\_prtr\_lpi8 8 lines per inch |
+| @(-90) | if\_prtr\_lpi12 12 lines per inch |
+| @(-91) | if\_prtr\_dwide Double wide mode |
+| @(-92) | if\_prtr\_swide Single wide mode |
+| @(-93) | if\_prtr\_96 96 column mode |
+| @(-94) | if\_prtr\_pld 1/2 line down |
+| @(-95) | if\_prtr\_plu 1/2 line up |
+| @(-96) | if\_prtr\_suon Superscript mode |
+| @(-97) | if\_prtr\_sbon Subscript mode |
+| @(-98) | if\_prtr\_ssoff Superscript and subscript off |
+| @(-99) | if\_prtr\_40 Double wide for 80 column mode (5 pitch) |
+| @(-100) | if\_prtr\_48 Double wide for 96 column mode (6 pitch) |
+| @(-101) | if\_prtr\_ff Top of form |
+| @(-102) | if\_prtr\_80 80 column mode (10 pitch) |
+| @(-103) | if\_prtr\_132 132 column mode (16 pitch) |
+| @(-104) | if\_prtr\_bold Bold |
+| @(-105) | if\_prtr\_ul Underline |
+| @(-106) | if\_prtr\_norm Turn off bold and underline |
+| @(-107) | if\_prtr\_hmi Set horizontal motion index to U-1 |
+| @(-108) | if\_prtr\_vmi Set vertical motion index to U-1 |
+| @(-109) | if\_prtr\_pson Proportional spacing on |
+| @(-110) | if\_prtr\_psoff Proportional spacing off |
+| @(-111) | if\_prtr\_1key Linefeed and backspace |
+| @(-112) | if\_prtr\_2key Linefeed |
+| @(-113) | if\_prtr\_3key Linefeed and space |
+| @(-114) | if\_prtr\_4key Backspace |
+| @(-115) | if\_prtr\_6key Space |
+| @(-116) | if\_prtr\_7key Negative linefeed and backspace |
+| @(-117) | if\_prtr\_8key Negative linefeed |
+| @(-118) | if\_prtr\_9key Negative linefeed and space |
+| @(-119) | if\_prtr\_cvd Coarse vertical distance ( 1 line = 1 inch) |
+| @(-120) | if\_prtr\_mvd Medium vertical distance ( 1 line = 1/6 inch ) |
+| @(-121) | if\_prtr\_type Returns slave/printer type |
+| @(-122) | if\_prtr\_fvd Fine vertical distance ( 1 line = 1/48 inch) |
+| @(-123) | if\_prtr\_chd Coarse horizontal distance ( 1 space = 1 inch ) |
+| @(-124) | if\_prtr\_mhd Medium horizontal distance ( 1 space = 1/12 inch ) |
+| @(-125) | if\_prtr\_fhd Fine horizontal distance ( 1 space = 1/120 inch ) |
+| @(-126) | if\_prtr\_status Retrieve slave/printer device status |
+| @(-220) | IF\_PRTR\_DUL\_ON |
+| @(-221) | IF\_PRTR\_DUL\_OFF |
+| @(-223) | IF\_PRTR\_STRIKE\_ON |
+| @(-224) | IF\_PRTR\_STRIKE\_OFF |
+| @(-225) | IF\_PRTR\_HARD\_HYPHEN |
+| @(-226) | IF\_PRTR\_HARD\_BLANK |
+| @(-230) | IF\_PRTR\_FONT\_0 |
+| @(-231) | IF\_PRTR\_FONT\_1 |
+| @(-232) | IF\_PRTR\_FONT\_2 |
+| @(-233) | IF\_PRTR\_FONT\_3 |
+| @(-234) | IF\_PRTR\_FONT\_4 |
+| @(-235) | IF\_PRTR\_FONT\_5 |
+| @(-236) | IF\_PRTR\_FONT\_6 |
+| @(-237) | IF\_PRTR\_FONT\_7 |
+| @(-238) | IF\_PRTR\_FONT\_8 |
+| @(-239) | IF\_PRTR\_FONT\_9 |
 
 ### jBASE Extended terminfo definitions generation
 
@@ -181,8 +173,6 @@ This generates a jBASE extension entry for vt220 in the terminfo database. e.g. 
 
 Test terminfo produces correct result
 
-
-
 ```
 ED . TESTMYTIC.b
 TOP
@@ -196,4 +186,4 @@ jbc -Jo TESTMYTIC.b
 TESTMYTIC > MyFile
 ```
 
-
+[Back to Tools](./../README.md)

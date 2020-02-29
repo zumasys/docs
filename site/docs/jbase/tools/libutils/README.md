@@ -24,24 +24,22 @@ LOOP
     * RetNo should match numbers in include/header file
     BEGIN CASE
         CASE RetNo = cmd_cursor_up
-           CRT "CURSOR UP"
+           CRT "Cursor up"
         CASE RetNo = cmd_cursor_down
-           CRT "CURSOR DOWN"
+           CRT "Cursor down"
         CASE RetNo = cmd_cursor_left
-           CRT "CURSOR LEFT"
+           CRT "Cursor left"
         CASE RetNo = cmd_cursor_right
-           CRT "CURSOR RIGHT"
+           CRT "Cursor right"
         CASE RetNo = cmd_alpha_numeric
-           CRT "ALPHANUMERIC"
+           CRT "Alpanumeric
         CASE RetNo = cmd_timeout
-           CRT "TIMEOUT"
+           CRT "Timeout"
            BREAK
     END CASE
     * Output the actual string returned
-    CRT "RetString :":OCONV(RetString,"MCP.")
+    CRT "RetString : " : OCONV(RetString,"MCP.")
 REPEAT
 ```
 
-
-
-
+[Back to Tools](./../README.md)

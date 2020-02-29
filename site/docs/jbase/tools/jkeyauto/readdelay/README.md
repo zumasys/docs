@@ -1,4 +1,4 @@
-# READDELAY
+# ReadDelay
 
 **Created At:** 8/30/2018 1:35:47 PM  
 **Updated At:** 5/16/2019 6:30:52 PM  
@@ -21,8 +21,6 @@ It's general usage is as:
 READDELAY expression
 ```
 
-
-
 An example of use is as:
 
 ```
@@ -30,3 +28,5 @@ READELAY 0.5
 ```
 
 for jkeyauto generated timings will only be accurate to the nearest half a second. However jkeyauto will require considerably less CPU time to execute all the PIPEREAD commands it has to do.
+
+[Back to jKeyAuto](./../README.md)

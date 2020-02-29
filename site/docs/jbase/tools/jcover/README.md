@@ -21,7 +21,6 @@ Using jcover involves these 3 key steps:
 2. Collating the recorded information.
 3. Reporting the jcover information.
 
-
 * * *
 
 ### Recording the information
@@ -29,7 +28,6 @@ Using jcover involves these 3 key steps:
 This phase involves running an application in a certain manner and allowing jBASE to record the statistics about the lines of code that were executed whilst the application was run. There are two ways of telling jBASE to record this information
 
 - **Use the -JC option to run the program.**
-
 
 For example:
 
@@ -40,7 +38,6 @@ For example:
 In the above example, when the application ‘MYAPPLICATION’ terminates a file called ‘jprof’ will be written to the current working directory which contains all the profiling information for this application.
 
 - **Set the JBCPROFILE environment variable to 3.**
-
 
 For example:
 
@@ -79,7 +76,6 @@ where:
 - -x - writes out verbose details of all lines of code NOT executed
 - prof - profile name
 
-
 By default it will take the input Unix file ‘jprof’, extract some statistical information about it, and write it back out to a newly-created file called **jcover\_nnn** where **nnn** is your port number. It will also create suitable dictionary items.
 
 The default information stored will be a summary of the percentages of all source items executed. You can use the **-e**, **-u** and **-x** options to create additional statistical information.
@@ -96,7 +92,7 @@ This third phase requires the use of the file created in the second phase. For t
 
 There are basically 3 ways of using the information created in file jcover\_23
 
-**1. Using jQL with the default DICT macros**
+1. Using jQL with the default DICT macros
 
 To show a summary of percentages of coverage use:
 
@@ -128,9 +124,7 @@ If the -u option was used, you can display a list of all source items that didn�
 LIST jcover_23 NOTUSED
 ```
 
-
-
-**2. Using jQL with your own command line**
+2. Using jQL with your own command line
 
 This involves simply using a jQL statement with something other than the supplied macros. For example you could:
 
@@ -138,9 +132,7 @@ This involves simply using a jQL statement with something other than the supplie
 LIST jcover_23 WITH S.ITEMID EQ “MAR]” S.ITEMID
 ```
 
-
-
-**3. Using a jBC program**
+3. Using a jBC program
 
 Refer to the [layout](./../layout-of-the-jcover-output-file) of the output file and the dictionaries to write your own jBC program to further report on the information available.
 
@@ -150,7 +142,7 @@ Refer to the [layout](./../layout-of-the-jcover-output-file) of the output file 
 
 **1.** At present, jcover is available on Unix platforms only.
 
-**2.**When you are running profiling for jcover your application will run at 2-20 times slower, so this type of profiling isn't suitable for performance measurement at all. If you use this against batch jobs, you may find this performance degradation is too much. You will additionally use around 0.5 to 5 Mb extra memory per application while running this jcover profiling.
+**2.** When you are running profiling for jcover your application will run at 2-20 times slower, so this type of profiling isn't suitable for performance measurement at all. If you use this against batch jobs, you may find this performance degradation is too much. You will additionally use around 0.5 to 5 Mb extra memory per application while running this jcover profiling.
 
 **3.** The profiling can only detect whole lines of code executed , or not executed. In the following line of code:
 
@@ -173,3 +165,4 @@ the jcover profiling will only record the fact the READ statement was executed -
 - BEGIN {CASE}
 - END {IF} {CASE}
 
+[Back to Tools](./../README.md)

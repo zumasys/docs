@@ -9,9 +9,9 @@
 **Tags:**
 <badge text='diagnosis' vertical='middle' />
 
-## Description 
+## Description
 
-The **jdiag**utility is used to display information about the current jBASE installation. It is useful in pin-pointing problem areas of the setup.
+The **jdiag** utility is used to display information about the current jBASE installation. It is useful in pin-pointing problem areas of the setup.
 
 It's use is as:
 
@@ -19,13 +19,10 @@ It's use is as:
 jdiag {-cwvlLm} {-MMemory}
 ```
 
-
-
-
-| <br>Option<br> | <br>Explanation<br> |
+| Option | Explanation |
 | --- | --- |
-| -c | Check environment for potential 32-bit/64-bit problems<br> |
-| -d | Display disk drive information (Windows only)<br> |
+| -c | Check environment for potential 32-bit/64-bit problems |
+| -d | Display disk drive information (Windows only) |
 | -h | Display only the header information |
 | -l | Copy output to log file **jdiag.out** |
 | -L | Output only to log file **jdiag.out** |
@@ -35,5 +32,4 @@ jdiag {-cwvlLm} {-MMemory}
 | -v | Verbose output |
 | -w | Terse output (only Warnings) |
 
-
-
+[Back to Tools](./../README.md)
