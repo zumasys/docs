@@ -56,7 +56,7 @@ cl /Zi /c jediDExample.c /I%JBCRELEASEDIR%\include
 jBuildSLib jediDExample.obj -o %HOME%\lib\libdrivers.dll
 ```
 
-## Create jBASE File Pointer
+## Create jBASE File Pointer #1
 
 ```
 ED . EXAMPLE
@@ -69,7 +69,7 @@ ED . EXAMPLE
 mkdir EXAMPLE.d
 ```
 
-## Edit jBASE File Pointer
+## Edit jBASE File Pointer #1
 
 ```
 ED EXAMPLE 1 2 3
@@ -97,26 +97,26 @@ jBuildSLib -o %HOME%\lib\libGEN.so GEN_SUB.obj
 CREATE-FILE GENFILE 1 1
 ```
 
-## Create jBASE File Pointer
+## Create jBASE File Pointer #2
 
 ```
 ED . GENFILEX
 JBC__SOB JediInitSUB GEN_SUB GENFILE
 ```
 
-## Edit jBASE File Pointer
+## Edit jBASE File Pointer #2
 
 ```
 ED GENFILEX 1 2 3
 ```
 
-## List hash file.
+## List hash file
 
 ```
 LIST GENFILE
 ```
 
-## Example jBASE JEDI Subroutine Driver for ORACLE on Windows 
+## Example jBASE JEDI Subroutine Driver for ORACLE on Windows
 
 Copy the "ORA\_SUB.b" program and "sqlsubs.pc" from the "src" subdirectory in the jBASE release directory and precompile with ORACLE compiler and then compile.
 
@@ -197,5 +197,7 @@ COUNT ORATABLE
 ```
 
 In SQL\*PLUS check updates
+
+[See also jEDI](./../jedi/README.md)
 
 [Back to Knowledgebase](./../README.md)

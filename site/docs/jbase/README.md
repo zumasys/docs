@@ -34,12 +34,16 @@
 | [Tape](./tape/README.md) | Support for tape devices |
 | [Telnet](./telnet/README.md) |  jBASE Windows telnet process |
 | [Terminals](./terminal/README.md) | Support for terminals in jBASE |
-| [Transactions](./triggers/README.md) | Transaction processing and transaction journaling |  
+| [Transactions](./transactions/README.md) | Transaction processing and transaction journaling |  
 | [Tools](./tools/README.md) | Tools provided by jBASE |
 | [Triggers](./triggers/README.md) | Database triggers |
 | [Utilities](./utilities/README.md) | Command line utilities |
 
-| What's New | <!----> |
+| In Addition | <!----> |
 | --- | --- |
+| [Administration](./administration/README.md) | jBASE Administration |
+| [Coding Corner](./coding-corner/README.md) | Tips and tricks for programmers using jBASE |
+| [Connectivity](./connectivity/README.md) | Alternative methods of connecting to jBASE |
+| [jEDI](./jedi/README.md) | jBASE jEDI Drivers |
 | [Reference Guides](./reference-guides/README.md) | Table Layout |
 | [Release Notes](./release-notes/README.md) | jBASE Release Notes |

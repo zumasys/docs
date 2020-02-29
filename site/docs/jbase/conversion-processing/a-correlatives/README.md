@@ -138,11 +138,9 @@ Several A code operands return the value of system parameters. They are:
 | T | Returns the system time in internal format. |
 | V | Returns the previous value transformed by a format code |
 
-
 ## Special Operands
 
 Some operands allow for the use of special functions. They are:
-
 
 | Operand | Return Value |
 | --- | --- |
@@ -159,7 +157,6 @@ Operators used in A code expressions include arithmetic, relational and logical 
 
 Arithmetic operators are:
 
-
 | Operator | Description |
 | --- | --- |
 | + | Sum of operands |
@@ -170,7 +167,6 @@ Arithmetic operators are:
 ### Relational Operators
 
 Relational operators specify relational operations so that any two expressions can treated as operands and evaluated as returning true (1) or false (0). Relational operators are:
-
 
 | Operator | Description |
 | --- | --- |
