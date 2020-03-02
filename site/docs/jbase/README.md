@@ -45,5 +45,6 @@
 | [Coding Corner](./coding-corner/README.md) | Tips and tricks for programmers using jBASE |
 | [Connectivity](./connectivity/README.md) | Alternative methods of connecting to jBASE |
 | [jEDI](./jedi/README.md) | jBASE jEDI Drivers |
+| [Miscellaneous](./miscellaneous/README.md)
 | [Reference Guides](./reference-guides/README.md) | Table Layout |
 | [Release Notes](./release-notes/README.md) | jBASE Release Notes |

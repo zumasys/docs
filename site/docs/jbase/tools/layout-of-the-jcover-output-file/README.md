@@ -31,7 +31,6 @@ Used internally to keep track of what items in what files have been accessed as 
 | --- | --- |
 | Item Id | The 3 fields show the record type (F) , the item id and the source file name that were executed. |
 
-
 **3. G\*descr**
 
 These are general information items.

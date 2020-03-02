@@ -17,25 +17,22 @@ Note: Care should be taken to ensure that only BASIC source code items exist in 
 
 A jBASE utility jConvertFile is available which invokes common PortBas options. The syntax of jConvertFile is as follows:
 
-**jConvertFile -Options SourceFileName**
-
+## jConvertFile -Options SourceFileName
 
 | Option | Explanation |
 | --- | --- |
 | -p | direct output and report to printer |
 | -v | direct output and report to screen |
 
-
 The conversion report and output is stored in the PortSave directory as key\_out\_FileName and key\_rep\_FileName respectively.
 
+### Portbas Styntax and Options
 
-
-### PORTBAS SYNTAX AND OPTIONS
-
-**PortBas FileName {ItemName} {(Options)}**
+```
+PortBas FileName {ItemName} {(Options)}
+```
 
 Where Options can be:
-
 
 | Option | Explanation |
 | --- | --- |
@@ -54,10 +51,7 @@ Where Options can be:
 | X | skip the parse and execute routines (see Notes) |
 | Z | suppress copy of file |
 
-
 If **ItemName** is not supplied then all items in the source file or outstanding select list are scanned.
-
-
 
 ### Notes
 
@@ -72,3 +66,5 @@ The use of the X option will cause PortBas to perform the following actions:
 3) Spaces will not be inserted between keywords and the label/numeric value. For example, GOTO42 will not be converted to GOTO 42 and SLEEP300 will not be converted to SLEEP 300.
 
 4) Line continuation character(s) (e.g. ','  and '...') will not be replaced with the expected slash '/'.
+
+[Back to Articles](./../../README.md)

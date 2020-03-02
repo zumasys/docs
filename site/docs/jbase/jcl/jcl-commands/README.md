@@ -47,7 +47,7 @@ This section is a brief summary of the jCL  commands, organized by function.
 | [MVA](./../jcl-mva) | Copies the specified source into the destination buffer and stores it as a multivalue. |
 | [MVD](./../jcl-mvd) | deletes data from a multivalued parameter in the destination buffer. |
 
-## Input/output Buffer Operations 
+## Input/output Buffer Operations
 
 | Command | Description |
 | --- | --- |

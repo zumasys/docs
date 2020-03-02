@@ -26,7 +26,6 @@ or
 
 Comments are useful to improve the readability of a program or help with debugging. Typically, the first few lines of a jCL program are used to describe the program, identify the programmer and record the date it was last modified.
 
-
 ## Note
 
 > Comments can be used within grouped commands (more than one command on a single line) but  care must be taken though to ensure they will not conflict with normal command syntax.
@@ -52,4 +51,4 @@ Comments are useful to improve the readability of a program or help with debuggi
 
 Lines 2 to 4 are comment lines. Line 10 has a comment after an input command (the "\" is a subvalue mark &lt;ctrl \&gt;).
 
-Back to [jCL.](./../README.md)
+ack to [jCL Commands](./../README.md)

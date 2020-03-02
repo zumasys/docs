@@ -6,17 +6,14 @@
 **Original ID:** 283752  
 **Internal:** No  
 
-
 The M-A-R (multiple account restore) utility can be used to restore data in the format of a multiple account save (known as M-A-S on Reality systems). M-A-R invokes the ACCOUNT-RESTORE utility to restore each account.
 
-**M-A-R {-Options}**
-
+## M-A-R {-Options}
 
 | Option | Explanation |
 | --- | --- |
 | -Q | question before restore of each account |
 | -V | verify only, no restore |
-
 
 Any other options specified are passed to the ACCOUNT-RESTORE process.
 
@@ -27,3 +24,5 @@ If a SYSTEM file has been configured then it will be checked before restoring to
 Two control records can be configured in the SYSTEM file, **FORCE.RESTORELIST**, as previously mentioned, will cause any Accounts specified as an attribute in this record to be restored. A second control record, **SKIP.RESTORELIST**, again configured in the SYSTEM file, will cause all Accounts specified as an attribute in the record to be skipped.
 
 To restore from a Reality M-A-S Save, a T-ATT followed by the M-A-R is all that should be required.
+
+[Back to Articles](./../README.md)

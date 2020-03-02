@@ -16,11 +16,11 @@ Emulation support is provided by the **Config\_EMULATE** file in the **config** 
 
 The format of that file is:
 
-
-| **#**<br> | Denotes a comment and the line is ignored.<br> |
-| **x:**<br> | Denotes a label, signifying the start of an emulation definition.<br> |
-| **any**<br> | Denotes an emulation definition.<br> |
-
+| Code | Definition |
+| --- | --- |
+| **#** | Denotes a comment and the line is ignored. |  
+| **x:** | Denotes a label, signifying the start of an emulation definition. |  
+| **any** | Denotes an emulation definition. |  
 
 Labels must be alpha-numeric, i.e. no periods, underlines, etc. If one label directly follows another then the label is synonym for the same emulation definition. The emulation definition ends when another label or the end of file encountered.
 
@@ -28,13 +28,11 @@ Multiple emulation definitions can be defined on the same line with each definit
 
 Emulation definitions can be declared 'on', 'yes' or 'true' to mean the emulation is enabled or similarly use the strings 'off', 'no' or 'false' to mean the emulation effect is disabled.
 
-To use a different set of emulation definitions from the default set, set the environment variable **JBCEMULATE**in your current environment to the required emulation label. When the environment variable is not configured then the emulation definition defined by the default label is in effect. If the default label is not present then the first label detected will be used for the default emulation.
+To use a different set of emulation definitions from the default set, set the environment variable **JBCEMULATE** in your current environment to the required emulation label. When the environment variable is not configured then the emulation definition defined by the default label is in effect. If the default label is not present then the first label detected will be used for the default emulation.
 
-Generally any emulation definitions which affect BASIC, (like the @(-n) codes), use the JBCEMULATE environment variable when the programs are compiled, whereas the other definitions tend to be used at runtime, when the program is executed.
+Generally any emulation definitions which affect BASIC, (such as the @(-n) codes), use the JBCEMULATE environment variable when the programs are compiled, whereas the other definitions tend to be used at runtime, when the program is executed.
 
 You can create your own custom emulation sections in the **Config\_EMULATE** file but it is recommended to use Alternate Emulations for this purpose.
-
-
 
 ## Alternate Emulations
 
@@ -44,17 +42,17 @@ An Alternate Emulation has the general form:
 Config_EMULATE_name
 ```
 
-where **name** is the name of the emulation. These emulations are also stored in the **config**directory under **$JBCRELEASEDIR**. and follow the exact same rules. The file name of the alternate emulation must be the same as the **label**, i.e. the **x:** line.
+where **name** is the name of the emulation. These emulations are also stored in the **config** directory under **$JBCRELEASEDIR**. and follow the exact same rules. The file name of the alternate emulation must be the same as the **label**, i.e. the **x:** line.
 
-Alternate Emulations can contain any combination of configuration options except **dup**entries. If you require the behavior of a **dup**entry then all configuration settings in that section must be explicitly added to the Alternate Emulation.
+Alternate Emulations can contain any combination of configuration options except **dup** entries. If you require the behavior of a **dup** entry then all configuration settings in that section must be explicitly added to the Alternate Emulation.
 
-For example, to create an alternate **jbase**emulation called **jcustom**,which changes the value of the **old\_jql\_output\_style** setting, would be:
+For example, to create an alternate **jbase** emulation called **jcustom**,which changes the value of the **old\_jql\_output\_style** setting, would be:
 
 ```
 File name: Config_EMULATE_jcustom
 
 jcustom:
-      @(-1) = clear_screen ; @(-2) = cursor_home ; @(-3) = clear_eos ; @(-4) = clear_eol   
+      @(-1) = clear_screen ; @(-2) = cursor_home ; @(-3) = clear_eos ; @(-4) = clear_eol
       @(-5) = blink_on ; @(-6) = blink_off
       @(-7) = prot_on ; @(-8) = prot_off ;
       @(-9) = cursor_left ; @(-10) = cursor_up ; @(-20) = cursor_down ; @(-19) = cursor_right
@@ -83,7 +81,7 @@ jcustom:
       error_numbers_are_single_attribute = false
 ```
 
-To use this definition, set the **JBCEMULATE**environment variable to **jcustom**, e.g.
+To use this definition, set the **JBCEMULATE** environment variable to **jcustom**, e.g.
 
 ```
 export JBCEMULATE=jcustom   [Linux]
@@ -102,24 +100,23 @@ You must expand all of the entries explicitly.
 
 ### Configuration Definitions
 
-
-| Variable<br> | Description<br> | Set At:<br> |
+| Variable | Description | Set At: |
 | --- | --- | --- |
-| **allow\_bad\_day\_of\_month = true|false**<br> | If set, allows invalid date conversions like 31 Sep to convert to valid dates (1st Oct).<br> | Run Time<br> |
-| **allow\_unassigned\_assignment = true|false**<br> | Suppress "UNASSIGNED VARIABLE" message where "X=Y" and Y has not been assigned.<br> | Run Time<br> |
-| **alternate\_chain\_exit = true|false**<br> | If set then under certain circumstances drops an extra run level on returning from a CHAIN command. This is an emulation of jBASE 3.4 behaviour. Current behaviour is believed to be preferable. Only set this if necessary for backwards compatibility.<br> | Run Time<br> |
-| **alternative\_oconv = true|false**<br> | If set then for the "DD" and "DM" output conversions, single digit results are prefixed by zero. Default for Sequoia.<br> | Run Time<br> |
-| **breakon\_l\_suppresses\_blank\_line = true|false**<br> | If set then "L" in a "BREAK-ON" clause means suppress the blank line before the data line. The default is to skip the break line, i.e. only output a blank line.<br> | Run Time<br> |
-| **byexp\_mv\_dup\_like\_d3 = true|false**<br> | If set, when using BY-EXP, reuse the first, and only, value in single valued attributes. The default behaviour, i.e. with "byexp\_mv\_dup\_like\_d3" unset or false, is to assume a null value for the 2nd and subsequent values. Currently, this option is not set under any emulation in the "Config\_EMULATE" file supplied with the jBASE Installation.<br> | Run Time<br> |
-| **case\_insensitive\_file\_ids = true|false**<br> | If set, try and ignore the case of file names, default behaviour will be to open the first UPPER CASE version of the file name.<br> | Run Time<br> |
-| **case\_insensitive\_md = true|false**<br> | If set, the MD does not care about case, everything should end up as UPCASE.<br> | Run Time<br> |
-| **case\_insensitive\_queries = true|false**<br> | If set, verbs used in jQL queries and dictionaries ignore case.<br> | Run Time<br> |
-| **case\_insensitive\_runtime\_strings = true|false**<br> | If set, any jBASE functions which accept a VAR as a parameter will UPCASE it.<br> | Run Time<br> |
-| **compiler\_case\_insensitive\_subroutines = true|false**<br> | If set, all SUBROUTINE names are case insensitive.<br> | Compile Time<br> |
-| **compiler\_case\_insensitive\_variables\_keywords = true|false**<br> | If set, the compiler ignores the case on variable names and keywords. [Not currently implemented]<br> | Compile Time<br> |
-| **chk\_typeahead\_on\_inputminus = true|false**<br> | If set then check for typeahead when INPUT x,-1 syntax is used.<br> | Run Time<br> |
-| **conv\_mct\_uv\_compat = true|false**<br> | Universe compatible capitalisation after non-alpha characters.<br> | Run Time<br> |
-| **conv\_old\_mct = true|false**<br> | Capitalise character following non-alpha character, e.g. "-" (hyphen).<br> | Run Time<br> |
+| **allow\_bad\_day\_of\_month = true|false** | If set, allows invalid date conversions like 31 Sep to convert to valid dates (1st Oct). | Run Time |
+| **allow\_unassigned\_assignment = true|false** | Suppress "UNASSIGNED VARIABLE" message where "X=Y" and Y has not been assigned. | Run Time |
+| **alternate\_chain\_exit = true|false** | If set then under certain circumstances drops an extra run level on returning from a CHAIN command. This is an emulation of jBASE 3.4 behaviour. Current behaviour is believed to be preferable. Only set this if necessary for backwards compatibility. | Run Time |
+| **alternative\_oconv = true|false** | If set then for the "DD" and "DM" output conversions, single digit results are prefixed by zero. Default for Sequoia. | Run Time |
+| **breakon\_l\_suppresses\_blank\_line = true|false** | If set then "L" in a "BREAK-ON" clause means suppress the blank line before the data line. The default is to skip the break line, i.e. only output a blank line. | Run Time |
+| **byexp\_mv\_dup\_like\_d3 = true|false** | If set, when using BY-EXP, reuse the first, and only, value in single valued attributes. The default behaviour, i.e. with "byexp\_mv\_dup\_like\_d3" unset or false, is to assume a null value for the 2nd and subsequent values. Currently, this option is not set under any emulation in the "Config\_EMULATE" file supplied with the jBASE Installation. | Run Time |
+| **case\_insensitive\_file\_ids = true|false** | If set, try and ignore the case of file names, default behaviour will be to open the first UPPER CASE version of the file name. | Run Time |
+| **case\_insensitive\_md = true|false** | If set, the MD does not care about case, everything should end up as UPCASE. | Run Time |
+| **case\_insensitive\_queries = true|false** | If set, verbs used in jQL queries and dictionaries ignore case. | Run Time |
+| **case\_insensitive\_runtime\_strings = true|false** | If set, any jBASE functions which accept a VAR as a parameter will UPCASE it. | Run Time |
+| **compiler\_case\_insensitive\_subroutines = true|false** | If set, all SUBROUTINE names are case insensitive. | Compile Time |
+| **compiler\_case\_insensitive\_variables\_keywords = true|false** | If set, the compiler ignores the case on variable names and keywords. [Not currently implemented] | Compile Time |
+| **chk\_typeahead\_on\_inputminus = true|false** | If set then check for typeahead when INPUT x,-1 syntax is used. | Run Time |
+| **conv\_mct\_uv\_compat = true|false** | Universe compatible capitalisation after non-alpha characters. | Run Time |
+| **conv\_old\_mct = true|false** | Capitalise character following non-alpha character, e.g. "-" (hyphen). | Run Time |
 | **dates\_upper\_case = yes|no**<br> | If "yes" then date conversions (e.g. "DM" and "DW") force the text to uppercase format, e.g. "March" is forced to "MARCH". Without this option, the casing for dates is dependent upon the operating system.<br> | Run Time<br> |
 | **defer\_header\_output = true|false**<br> | Set by default under Ultimate emulation. Any Basic HEADER will be output at the next natural page break. Normally the HEADER is issued immediately. The output of the HEADER can also be deferred, to the next natural page break, by prefixing the HEADER data with an Attribute Mark (@AM).<br> | Run Time<br> |
 | **dict\_sub\_call = true|false**<br> | On some emulations, when calling a SUBROUTINE from a DICT item, a parameter will be passed to the SUBROUTINE which is the current item -- if this is the case, set this to "true".<br> | Run Time<br> |
@@ -210,77 +207,64 @@ You must expand all of the entries explicitly.
 | **wrap\_r\_just = true|false**<br> | For systems (Universe and Prime), right justified data will wrap in jQL.<br> | Run Time<br> |
 | **writelist\_on\_select\_from\_var = true|false**<br> | If set then write any select list, generated by basic "SELECT Var" to the default select list.<br> | Run Time<br> |
 
-
-
-
-## Note:
-
+## Note
 
 > some of the "generic" emulation behavior will change at run-time, but for a **complete** change, the code should be recompiled.
-> 
+>
 > Despite being set at Run-time, if running from jshell, requires that a new jshell be invoked before the behavior will change.
-
-
-
 
 On many platforms, @(-n) codes are used to control special terminal characteristics. However the definition of these codes differs between platforms. Rather than "hard coding" the @(-n) codes, jBASE allows their definition in the **Config\_EMULATE** file. This allows legacy applications to use existing @(-n) codes and so reduces the time required to port an application to jBASE. A knowledge of [terminfo capabilities](./../../../environment-variables/terminfo) can be useful when defining these codes.
 
-
-
-
-| Code<br> | Action<br> | Description<br> |
+| Code | Action | Description |
 | --- | --- | --- |
-| @(-n)<br> | **clear\_screen**<br> | Move cursor to position 0,0 and clear to end of screen<br> |
-| @(-n)<br> | **cursor\_home**<br> | Move cursor to position 0,0<br> |
-| @(-n)<br> | **clear\_eos**<br> | Clear the screen from current position to end of screen<br> |
-| @(-n)<br> | **clear\_eol**<br> | Clear the screen from current position to end of line<br> |
-| @(-n)<br> | **blink\_on**<br> | Turn on blinking video<br> |
-| @(-n)<br> | **blink\_off**<br> | Turn off blinking video<br> |
-| @(-n)<br> | **prot\_on**<br> | Turn on protected fields<br> |
-| @(-n)<br> | **prot\_off**<br> | Turn off protected fields<br> |
-| @(-n)<br> | **reverse\_on**<br> | Turn on reverse video<br> |
-| @(-n)<br> | **reverse\_off**<br> | Turn off reverse video<br> |
-| @(-n)<br> | **underline\_on**<br> | Turn on underline video<br> |
-| @(-n)<br> | **underline\_off**<br> | Turn off underline video<br> |
-| @(-n)<br> | **bold\_on**<br> | Turn on bold video<br> |
-| @(-n)<br> | **bold\_off**<br> | Turn off bold video<br> |
-| @(-n)<br> | **printer\_on**<br> | Turn on the slave printer<br> |
-| @(-n)<br> | **printer\_off**<br> | Turn off the slave printer<br> |
-| @(-n)<br> | **print\_screen**<br> | Dump the entire screen to the printer<br> |
-| @(-n)<br> | **status\_line\_on**<br> | Turn the line 25 status line on<br> |
-| @(-n)<br> | **status\_line\_off**<br> | Turn the line 25 status line off<br> |
-| @(-n)<br> | **cursor\_down**<br> | Move the cursor down one position<br> |
-| @(-n)<br> | **cursor\_up**<br> | Move the cursor up one position<br> |
-| @(-n)<br> | **cursor\_right**<br> | Move the cursor one position to the right<br> |
-| @(-n)<br> | **cursor\_left**<br> | Move the cursor one position to the left<br> |
-| @(-n)<br> | **cursor\_on**<br> | Turn the visible cursor on<br> |
-| @(-n)<br> | **cursor\_off**<br> | Turn the visible cursor off<br> |
-| @(-n)<br> | **delete\_line**<br> | Delete a single line<br> |
-| @(-n)<br> | **insert\_line**<br> | Insert a single line<br> |
-| @(-n)<br> | **scroll\_forward**<br> | Scroll the screen display up one line<br> |
-| @(-n)<br> | **scroll\_backward**<br> | Scroll the screen display down one line<br> |
-| @(-n)<br> | **delete\_char**<br> | Delete a single character at present cursor position<br> |
-| @(-n)<br> | **insert\_char**<br> | Insert a blank character at present cursor position<br> |
-| @(-n)<br> | **insert\_on**<br> | Begin insert mode<br> |
-| @(-n)<br> | **insert\_off**<br> | End insert mode<br> |
-| @(-n)<br> | **effects\_off**<br> | Turns off ALL the video effects<br> |
-| @(-n)<br> | **graphics\_on**<br> | Turn on the alternate character set<br> |
-| @(-n)<br> | **graphics\_off**<br> | Turn off the alternate character set<br> |
-| @(-n)<br> | **graphics\_vertical**<br> | In graphics mode a vertical bar<br> |
-| @(-n)<br> | **graphics\_horizontal**<br> | In graphics mode a horizontal bar<br> |
-| @(-n)<br> | **graphics\_upper\_left**<br> | In graphics mode a top left hand corner<br> |
-| @(-n)<br> | **graphics\_upper\_right**<br> | In graphics mode a top right hand corner<br> |
-| @(-n)<br> | **graphics\_bottom\_left**<br> | In graphics mode a bottom left hand corner<br> |
-| @(-n)<br> | **graphics\_bottom\_right**<br> | In graphics mode a bottom right hand corner<br> |
-| @(-n)<br> | **graphics\_intersection**<br> | In graphics mode **+** intersection character<br> |
-| @(-n)<br> | **graphics\_tee\_left**<br> | In graphics mode a left hand tee character<br> |
-| @(-n)<br> | **graphics\_tee\_right**<br> | In graphics mode a right hand tee character<br> |
-| @(-n)<br> | **graphics\_tee\_up**<br> | In graphics mode a top tee character<br> |
-| @(-n)<br> | **graphics\_tee\_down**<br> | In graphics mode a bottom tee character<br> |
-| @(-n)<br> | **background colorname**<br> | Set the background to one of the supported colors , where "colorname" is one of: black , blue , green , cyan, red , magenta , yellow , white<br> |
-| @(-n)<br> | **foreground colorname**<br> | Set the foreground to one of the supported colors , where "colorname" is one of: black , blue , green, cyan , red , magenta , yellow , white<br> |
+| @(-n) | **clear\_screen** | Move cursor to position 0,0 and clear to end of screen |
+| @(-n) | **cursor\_home** | Move cursor to position 0,0 |
+| @(-n) | **clear\_eos** | Clear the screen from current position to end of screen |
+| @(-n) | **clear\_eol** | Clear the screen from current position to end of line |
+| @(-n) | **blink\_on** | Turn on blinking video |
+| @(-n) | **blink\_off** | Turn off blinking video |
+| @(-n) | **prot\_on** | Turn on protected fields |
+| @(-n) | **prot\_off** | Turn off protected fields |
+| @(-n) | **reverse\_on** | Turn on reverse video |
+| @(-n) | **reverse\_off** | Turn off reverse video |
+| @(-n) | **underline\_on** | Turn on underline video |
+| @(-n) | **underline\_off** | Turn off underline video |
+| @(-n) | **bold\_on** | Turn on bold video |
+| @(-n) | **bold\_off** | Turn off bold video |
+| @(-n) | **printer\_on** | Turn on the slave printer |
+| @(-n) | **printer\_off** | Turn off the slave printer |
+| @(-n) | **print\_screen** | Dump the entire screen to the printer |
+| @(-n) | **status\_line\_on** | Turn the line 25 status line on |
+| @(-n) | **status\_line\_off** | Turn the line 25 status line off |
+| @(-n) | **cursor\_down** | Move the cursor down one position |
+| @(-n) | **cursor\_up** | Move the cursor up one position |
+| @(-n) | **cursor\_right** | Move the cursor one position to the right |
+| @(-n) | **cursor\_left** | Move the cursor one position to the left |
+| @(-n) | **cursor\_on** | Turn the visible cursor on |
+| @(-n) | **cursor\_off** | Turn the visible cursor off |
+| @(-n) | **delete\_line** | Delete a single line |
+| @(-n) | **insert\_line** | Insert a single line |
+| @(-n) | **scroll\_forward** | Scroll the screen display up one line |
+| @(-n) | **scroll\_backward** | Scroll the screen display down one line |
+| @(-n) | **delete\_char** | Delete a single character at present cursor position |
+| @(-n) | **insert\_char** | Insert a blank character at present cursor position |
+| @(-n) | **insert\_on** | Begin insert mode |
+| @(-n) | **insert\_off** | End insert mode |
+| @(-n) | **effects\_off** | Turns off ALL the video effects |
+| @(-n) | **graphics\_on** | Turn on the alternate character set |
+| @(-n) | **graphics\_off** | Turn off the alternate character set |
+| @(-n) | **graphics\_vertical** | In graphics mode a vertical bar |
+| @(-n) | **graphics\_horizontal** | In graphics mode a horizontal bar |
+| @(-n) | **graphics\_upper\_left** | In graphics mode a top left hand corner |
+| @(-n) | **graphics\_upper\_right** | In graphics mode a top right hand corner |
+| @(-n) | **graphics\_bottom\_left** | In graphics mode a bottom left hand corner |
+| @(-n) | **graphics\_bottom\_right** | In graphics mode a bottom right hand corner |
+| @(-n) | **graphics\_intersection** | In graphics mode **+** intersection character |
+| @(-n) | **graphics\_tee\_left** | In graphics mode a left hand tee character |
+| @(-n) | **graphics\_tee\_right** | In graphics mode a right hand tee character |
+| @(-n) | **graphics\_tee\_up** | In graphics mode a top tee character |
+| @(-n) | **graphics\_tee\_down** | In graphics mode a bottom tee character |
+| @(-n) | **background colorname** | Set the background to one of the supported colors , where "colorname" is one of: black , blue , green , cyan, red , magenta , yellow , white |
+| @(-n) | **foreground colorname** | Set the foreground to one of the supported colors , where "colorname" is one of: black , blue , green, cyan , red , magenta , yellow , white |
 
-
-
-
-
+[Back to Articles](./../README.md)

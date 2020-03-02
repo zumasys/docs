@@ -39,4 +39,4 @@ B
 |         |         ^     |    ^          |
 ```
 
-Back to [jCL.](./../README.md)
+ack to [jCL Commands](./../README.md)
