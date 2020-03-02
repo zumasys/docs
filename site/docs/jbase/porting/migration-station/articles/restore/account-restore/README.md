@@ -12,7 +12,6 @@ The ACCOUNT-RESTORE utility can be used to restore data from ACCOUNT-SAVE tapes.
 ACCOUNT-RESTORE {-Options} {TargetDirectory | TargetUserid} {(Options)}
 ```
 
-
 | Option<br> | Description<br> |
 | --- | --- |
 | -A<br> | Advanced Pick save<br> |
@@ -101,7 +100,7 @@ ACCOUNT-RESTORE -Z
 
 Where FILE1 is defined as:
 
-``` 
+```
     JBC__EDIjdevTAPENT -I FILE1 -M FILE -H12
 ```
 

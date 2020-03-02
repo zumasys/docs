@@ -279,7 +279,6 @@ The jBASE Remote Connectivity Layer defines a communication protocol, which the 
 
 JCML mark-up incorporates several tags, defining the structure of the message. The tags are listed in the following table:
 
-
 | Tag | Optional Attributes | Description |
 | --- | --- | --- | --- |
 | Tag | Optional Attributes | Description |
@@ -584,11 +583,11 @@ The equivalent VB.NET code for the above would be:
 Private Sub Command1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Command1.Click
 
  Dim Conn As New jConnection
- Dim TestFile As jFile 
- Dim DA As New jDynArray 
- Conn.Open("host", JConnection.JRCS_PORT, "TEST", "Test035J", "") 
- TestFile = Conn.OpenFile("TEST") 
- DA.StringVal = "Attribute 1" & JDynArray.AM & "Attribute 2" 
+ Dim TestFile As jFile
+ Dim DA As New jDynArray
+ Conn.Open("host", JConnection.JRCS_PORT, "TEST", "Test035J", "")
+ TestFile = Conn.OpenFile("TEST")
+ DA.StringVal = "Attribute 1" & JDynArray.AM & "Attribute 2"
  TestFile.Write("TESTREC", DA)
 
  End Sub

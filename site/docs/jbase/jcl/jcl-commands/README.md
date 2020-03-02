@@ -17,7 +17,6 @@ This section is a brief summary of the jCL  commands, organized by function.
 
 ## Input Buffer Commands
 
-
 | Command | Description |
 | --- | --- |
 | [B](./../jcl-b) | Moves the buffer pointer back to the previous parameter. |
