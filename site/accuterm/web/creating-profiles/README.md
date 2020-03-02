@@ -1,4 +1,4 @@
-# Creating AccuTerm Profiles
+# Creating Profiles
 
 <PageHeader />
 

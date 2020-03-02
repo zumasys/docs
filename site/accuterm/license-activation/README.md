@@ -1,4 +1,4 @@
-# Activating AccuTerm Desktop Licensing
+# License Activation
 
 <PageHeader />
 
@@ -9,10 +9,7 @@
 **Internal:** No  
 
 
-
-
 One of the changes in AccuTerm 8 is how it is now licensed, by the user. In order to activate AccuTerm 8 Desktop, a user first needs to be provisioned in the [Customer Portal](./../accuterm-8-creating-accuterm-users). Upon being provisioned, the user will receive the license key by email and the administrator can view it in the Customer Portal by selecting the user.
-
 
 
 ### Warning

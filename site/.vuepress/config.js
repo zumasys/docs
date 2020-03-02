@@ -75,6 +75,25 @@ module.exports = {
         path: '/accuterm/',
         collapsable: true,
         children: [
+          ['/accuterm/license-activation/', 'License Activation'],
+          {
+            title: 'License & User Management',
+            path: '/accuterm/license-and-user-management/',
+            collapsable: true,
+            children: [
+              ['/accuterm/license-and-user-management/creating-users/', 'Creating Users'], 
+              ['/accuterm/license-and-user-management/creating-roles/', 'Creating Roles'],                
+              ['/accuterm/license-and-user-management/batch-actions/', 'Batch Actions']
+            ]
+          },
+          {
+            title: 'Desktop',
+            path: '/accuterm/desktop/',
+            collapsable: true,
+            children: [
+              ['/accuterm/desktop/activate-license/', 'Activate License']
+            ]
+          },
           {
             title: 'Mobile',
             path: '/accuterm/mobile/',
@@ -94,25 +113,26 @@ module.exports = {
             path: '/accuterm/web/',
             collapsable: true,
             children: [
-              ['/accuterm/web/web-introduction/', 'Web Introduction'],
               ['/accuterm/web/getting-started/', 'Getting Started'],
               ['/accuterm/web/release-notes/', 'Release Notes'],
-              ['/accuterm/web/activating-accuterm-desktop-licensing/', 'Activating AccuTerm Desktop Licensing'],
-              ['/accuterm/web/batch-user-actions/', 'Batch User Actions'],
-              ['/accuterm/web/change-password/', 'Change AccuTerm.IO Password'],
-              ['/accuterm/web/clipboard-settings/', 'Clipboard Settings'],
-              ['/accuterm/web/connection-settings/', 'Connection Settings'],
-              ['/accuterm/web/creating-profiles/', 'Creating Profiles'],
-              ['/accuterm/web/creating-roles/', 'Creating Roles'],
-              ['/accuterm/web/creating-users/', 'Creating Users'],
-              ['/accuterm/web/font-and-character-settings/', 'Font & Character Settings'],
               ['/accuterm/web/installing-accuterm-io-server/', 'Installing AccuTerm IO Server'],
-              ['/accuterm/web/keyboard-options/', 'Keyboard Options'],
-              ['/accuterm/web/mouse-settings/', 'Mouse Settings'],
-              ['/accuterm/web/sound-settings/', 'Sound Settings'],
-              ['/accuterm/web/terminal-screen-options/', 'Terminal Screen Options'],
-              ['/accuterm/web/terminal-settings/', 'Terminal Settings'],
-              ['/accuterm/web/web-profiles/', 'Web Profiles'],
+              ['/accuterm/web/creating-profiles/', 'Creating Profiles'],
+              {
+                title: 'Profiles',
+                path: '/accuterm/web/profiles/',
+                collapsable: true,
+                children: [
+                  ['/accuterm/web/profiles/change-password/', 'Change AccuTerm.IO Password'],
+                  ['/accuterm/web/profiles/keyboard-options/', 'Keyboard Options'],
+                  ['/accuterm/web/profiles/mouse-settings/', 'Mouse Settings'],
+                  ['/accuterm/web/profiles/sound-settings/', 'Sound Settings'],
+                  ['/accuterm/web/profiles/terminal-screen-options/', 'Terminal Screen Options'],
+                  ['/accuterm/web/profiles/terminal-settings/', 'Terminal Settings'],
+                  ['/accuterm/web/profiles/clipboard-settings/', 'Clipboard Settings'],
+                  ['/accuterm/web/profiles/connection-settings/', 'Connection Settings'],
+                  ['/accuterm/web/profiles/font-and-character-settings/', 'Font & Character Settings']
+                ]
+              },              
               ['/accuterm/web/rezume-session-resilience/', 'AccuTerm ReZume Session Resilience'],
               ['/accuterm/web/phi-reports/', 'PHI Reports']             
             ]
