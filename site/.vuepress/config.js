@@ -144,7 +144,7 @@ module.exports = {
               ['/mv-dashboard/installation-guide/running-in-d3-flashed-mode/', 'Running in D3 Flashed Mode'],
               ['/mv-dashboard/installation-guide/using-code-editor-to-edit-non-widget-source/', 'Using the Code Editor to Edit Non-Widget Source'],
               ['/mv-dashboard/installation-guide/starting/', 'Starting'],
-              ['/mv-dashboard/installation-guide/deploying-dashboards-and-widgets-to-production-systems/', 'Deploying Dashboards and Widgets to Production Systems'],
+              ['/mv-dashboard/installation-guide/deploy-dashboards-and-widgets-to-production-systems/', 'Deploying Dashboards and Widgets to Production Systems'],
               {
                 title: 'Uninstall',
                 path: '/mv-dashboard/installation-guide/uninstall/',
