@@ -12,7 +12,7 @@
     </div>
     <div class="feature">
       <h2>jBASE</h2>
-      <p><a href="/docs/jbase/">All Docs</a><br /></p>
+      <p><a href="/jbase/">All Docs</a><br /></p>
     </div>
     <div class="feature">
       <h2>OpenQM</h2>

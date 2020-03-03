@@ -66,7 +66,17 @@ module.exports = {
     logo: "/assets/img/logo-grey.png",
     nav: [
       { text: "Home", link: "/" },
-      { text: "Docs", link: "/docs/" }
+      {
+        text: 'Docs',
+        ariaLabel: 'Documentation Menu',
+        items: [
+          { text: 'AccuTerm', link: '/accuterm/' },
+          { text: 'Customer Portal', link: '/customer-portal/' },
+          { text: 'jBASE', link: '/jbase/' },
+          { text: 'MV Connect', link: '/mv-connect/' },
+          { text: 'MV Dashboard', link: '/mv-dashboard/' }
+        ]
+      }
     ],
     sidebar: [
       "/",      
