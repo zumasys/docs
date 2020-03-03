@@ -1,4 +1,4 @@
-# Emulation and emulation revision
+# Emulation (revised)
 
 **Created At:** 3/5/2019 12:11:31 PM  
 **Updated At:** 7/19/2019 9:33:43 AM  

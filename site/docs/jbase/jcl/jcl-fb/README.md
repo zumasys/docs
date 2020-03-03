@@ -42,26 +42,26 @@ Each time the FB command is used,  the previous contents of the buffer will be 
 ### Example 1
 
 ```
-001 PQN
-002 FB SALES ABC
-003 T "ABC not on file" / G 1001
-004 MV %3 &2
+PQN
+FB SALES ABC
+T "ABC not on file" / G 1001
+MV %3 &2
 ```
 
-The FB command on line 2 attempts to read record ABC from file SALES. If the record cannot be found for any reason, a message is output and control transferred to label 1001 by line 3. If the record is read successfully, execution continues at line 004, which moves field 2 of the record into parameter 3 of the PIB.
+The FB command on line 2 attempts to read record ABC from file SALES. If the record cannot be found for any reason, a message is output and control transferred to label 1001 by line 3. If the record is read successfully, execution continues at line 4, which moves field 2 of the record into parameter 3 of the PIB.
 
 ### Example 2
 
 ```
-001 PQN
-002 T C, (5, 10), "Name :",+
-003 IP %2
-004 FB SALES %2
-005 T "New record"
-006 T "Area :",+
-007 IP %3
+PQN
+T C, (5, 10), "Name :",+
+IP %2
+FB SALES %2
+T "New record"
+T "Area :",+
+IP %3
 ```
 
 Here the user is prompted for a name (the record key) and the fast buffer is used to read the record from the SALES file. If the record does not exist, a message is output but processing continues.
 
-Back to[JCL Commands](./../jcl-commands)
+Back to [jCL.](./../README.md)

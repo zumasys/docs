@@ -103,4 +103,4 @@ Issuing an A"3 command would have achieved the same result, except that the star
 
 The command attempts to copy the second parameter from the PIB, starting with the second character, up to and including, the penultimate character, to the current output buffer.
 
-Back to [jCL.](./../README.md)
+Back to [jCL Commands](./../README.md)

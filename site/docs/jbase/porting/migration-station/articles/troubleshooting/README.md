@@ -6,8 +6,7 @@
 **Original ID:** 283759  
 **Internal:** No  
 
-
-# **Alternatives to T-READ**
+## Alternatives to T-READ**
 
 If you are experiencing trouble accessing the tape device using the T-READ command, ensure that the device is correctly configured by using the either the UNIX dd utility or the NT backup facility.
 
@@ -43,9 +42,6 @@ DAT1
 JBC__EDI –D/dev/rmt/DevName –R/dev/rmt/RewindDevName –B16384 –I DAT1 –M DAT –LR83,-2
 ```
 
-# 
-
-
 # **Variable Block Size**
 
 Some tape devices e.g. DAT and 8MM EXABYTE need to be configured for variable length.
@@ -70,9 +66,6 @@ To avoid this problem, use the following tape assignment :
 T-ATT LABEL=R83,16384 SIZE=16384
 ```
 
-# 
-
-
 # **Tape Labels**
 
 If you are having trouble reading a tape with the T-READ command or READT, it could be because the tape does not contain an expected label. The jBASE jbackup tape, for example, contains a 1000 byte label and a UNIX tar is usually blocked at 5120 bytes. Therefore, set the assignment label parameter to none and increase the requested block size.
@@ -87,9 +80,6 @@ Trouble reading a tape without a label.
 If the tape you are trying to read does not contain a label, then the block size can usually be determined from variable length tape devices by assigning the label to NONE and then reading a large block size. This method, however, does not work with fixed length devices, as effectively there is no inter block gap. If the device is a QIC device, then the tape can be read correctly by setting the label parameter to none and the block size to 512.
 
 The above QIC method will fail if the tape was written at a block size not divisible by 512, due to the 512 byte padding that occurs. In this case, the original block size must be used, however a good guess would be a block size of 8000, as this is the default used by some legacy systems.
-
-### 
-
 
 # **Reading from a ‘dd’ copy of a tape file**
 
@@ -113,7 +103,6 @@ T-ATT FILE0 DEVICE=MyDatImage LABEL=R83,16384 SIZE=16384
 Note: When using ‘dd’ to copy from physical tape to a disk image, the ‘dd’ command will only copy ONE tape file at a time. For multiple tape files, multiple ‘dd’ commands will be required, each to a unique file name.
 
 ### 
-
 
 # **Restoring multiple tape volumes**
 
@@ -166,8 +155,6 @@ T-FWD
 ACCOUNT-RESTORE –b8
 ```
 
-
-
 ## **Type2: D3**
 
 Some D3 tapes contain a combination of six label and \_EOF sections before the data begins :
@@ -179,8 +166,6 @@ T-FWD 6
 ```
 
 The **(L** option should then be used with ACCOUNT-RESTORE.
-
-
 
 ## **Type3: ROS**
 
@@ -204,16 +189,12 @@ T-FWD
 SYSRESTORE -b4
 ```
 
-
-
 ACCOUNT-SAVE
 One tape file containing the account, then an empty tape file to signify end of save :
 
 ```
 ACCOUNT-RESTORE –b4
 ```
-
-
 
 ## **Type4: SEQ**
 
@@ -245,9 +226,7 @@ ACCOUNT-RESTORE
 
 Note: Later SEQUOIA save formats may only work with the ACCOUNT-RESTORE command.
 
-
-
-# **Manual Examination**
+## **Manual Examination**
 
 If none of the above attachments resolve your problem, then you need to investigate further. To do this, set the label parameter to NONE and the block size parameter to 32256, then use the T-READ command to examine the tape.
 

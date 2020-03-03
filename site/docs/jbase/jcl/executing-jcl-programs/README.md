@@ -45,4 +45,4 @@ This will chain to jCL  program DAILY in file REPORTS.
 
 Note that the "pointer" program and the "pointed to" program can have the same name.
 
-Back to [jCL.](./../README.md)
+Back to [jCL Commands](./../README.md)

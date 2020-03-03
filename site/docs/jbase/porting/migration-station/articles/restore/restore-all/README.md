@@ -6,10 +6,6 @@
 **Original ID:** 283754  
 **Internal:** No  
 
-
-# 
-
-
 The RESTORE-ALL command is provided as a front-end utility to the ACCOUNT-RESTORE command, with some additions. The RESTORE-ALL command automatically updates the MD file in the restored Account and also automatically generates a SYSTEM file entry for the Account.
 
 The RESTORE-ALL command is primarily intended to restore Accounts from a SEQUOIA system save, however, the command may also be used with other manufacturer systems and account saves.
@@ -57,7 +53,7 @@ To restore from a Standard System Sequoia Save, a T-ATT followed by the RESTORE-
 To restore from other manufacture tapes try the following steps.
 
 T-ATT SCT0 LABEL=R83,-2
-            T-REW            
+            T-REW
             T-FWD
             T-RDLBL 1
             T-FWD
@@ -74,3 +70,5 @@ T-REW
 NOTE: If attempting to use on a dd of a tape file the label information MUST still be included as part of the dd, otherwise the tape format will be unrecognizable.
 
 NOTE: RESTORE-ALL is NOT intended for use with ROS File Saves, as the ROS save is one continuous tape file. However M-A-S type saves may work depending upon the tape labeling schema.
+
+[Back to Restore](./../README.md)

@@ -12,3 +12,12 @@
 [sel-restore](./sel-restore)  
 [sysrestore](./sysrestore)  
 
+Several of the utilities use a Module Blocking Ratio parameter (-bn), default value 1 - 4k, where n can be
+
+| <!----> | <!----> |
+| --- | --- |
+| **8** | Source machine used half k frames|
+| **4** | Source machine used 1k frames |
+| **2** | Source machine used 2k frames |
+
+[Back to Articles](./../README.md)

@@ -6,25 +6,24 @@
 **Original ID:** 283751  
 **Internal:** No  
 
-
-The ACCOUNT-SAVE utility provides the capability to export data back to legacy systems. The default ACCOUNT-SAVE mode provides an SMA compatible save format. This format has restrictions in that binary records are skipped and records greater than 32k are truncated in this mode. Truncation can be suppressed by invoking the G option. Binary records and records greater than 32k can be saved by the ACCOUNT-SAVE utility when invoked with the M option. This modes generates a different save format which some legacy systems may be able to restore. If the U option is specified then the Unix or NT directories will also be included on the save. The R option forces the save to include all subdirectories in the save. The ACCOUNT-SAVE utility has been coded for functionality and not speed and should **not** be used for daily backup. For daily backups the jbackup utility is recommended..
+The ACCOUNT-SAVE utility provides the capability to export data back to legacy systems. The default ACCOUNT-SAVE mode provides an SMA compatible save format. This format has restrictions in that binary records are skipped and records greater than 32k are truncated in this mode. Truncation can be suppressed by invoking the G option. Binary records and records greater than 32k can be saved by the ACCOUNT-SAVE utility when invoked with the M option. This modes generates a different save format which some legacy systems may be able to restore. If the U option is specified then the UNIX or Windows directories will also be included on the save. The R option forces the save to include all subdirectories in the save. The ACCOUNT-SAVE utility has been coded for functionality and not speed and should **not** be used for daily backup. For daily backups the jbackup utility is recommended..
 
 ```
 ACCOUNT-SAVE {-Options} directory {(Options)}
 ```
 
-
-| Option<br> | Description<br> |
+| Option | Description |
 | --- | --- |
-| -E or (E<br> | Error message summary<br> |
-| -G or (G<br> | Allow Greater than 32k<br> |
-| -H or (H<br> | Help message<br> |
-| -K or (K<br> | Kill output to device<br> |
-| -L or (L<br> | Label override required<br> |
-| -M or (M<br> | Modified segment format<br> |
-| -O or (O<br> | Override No Backup files<br> |
-| -Q or (Q<br> | Quiet mode<br> |
-| -R or (R<br> | Recursive mode<br> |
-| -S or (S<br> | Statistics required<br> |
-| -U or (U<br> | Unix directories required<br> |
+| -E or (E | Error message summary |
+| -G or (G | Allow Greater than 32k |
+| -H or (H | Help message |
+| -K or (K | Kill output to device |
+| -L or (L | Label override required |
+| -M or (M | Modified segment format |
+| -O or (O | Override No Backup files |
+| -Q or (Q | Quiet mode |
+| -R or (R | Recursive mode |
+| -S or (S | Statistics required |
+| -U or (U | Unix directories required |
 
+[Back to Restore](./../README.md)

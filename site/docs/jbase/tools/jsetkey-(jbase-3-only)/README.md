@@ -13,7 +13,6 @@
 
 The jsetkey utility is used to display, set or remove jBASE environment variables in the Windows current user registry.
 
-
 | Command | Description |
 | --- | --- |
 | jsetkey &lt;keyname&gt;=&lt;value&gt; | set Key to the specified value |
