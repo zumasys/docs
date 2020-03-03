@@ -42,7 +42,4 @@ After launching your session and connecting to the server, you will have four op
   * [Mouse Settings](./profiles/mouse-settings/README.md)  
   * [Sound Settings](./profiles/sound-settings/README.md)  
   * [Terminal Screen Options](./profiles/terminal-screen-options/README.md)  
-  * [Terminal Settings](./profiles/terminal-settings/README.md)  
-* [AccuTerm Rezume Session Resilience](./accuterm-rezume-session-resilience)  
-* [Phi Reports](./phi-reports)  
-
+  * [Terminal Settings](./profiles/terminal-settings/README.md)

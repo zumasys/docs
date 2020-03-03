@@ -93,8 +93,8 @@ module.exports = {
             path: '/accuterm/desktop/',
             collapsable: true,
             children: [
-              ['/accuterm/web/rezume-session-resilience/', 'ReZume Session Resilience'],
-              ['/accuterm/web/phi-reports/', 'PHI Reports']    
+              ['/accuterm/desktop/rezume-session-resilience/', 'ReZume Session Resilience'],
+              ['/accuterm/desktop/phi-reports/', 'PHI Reports']    
             ]
           },
           {
