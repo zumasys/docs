@@ -3,7 +3,9 @@
     <div class="feature">
       <h2>AccuTerm</h2>
       <p>
-        Desktop (Coming Soon!)<br />
+        <a href="/accuterm/getting-started/">Getting Started</a><br />
+        <a href="/accuterm/license-activation/">Licensing</a><br />
+        <a href="/accuterm/desktop/">Desktop</a><br />
         <a href="/accuterm/web/">Web</a><br />
         <a href="/accuterm/mobile/">Mobile</a>
       </p>
