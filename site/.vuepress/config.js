@@ -75,6 +75,8 @@ module.exports = {
         path: '/accuterm/',
         collapsable: true,
         children: [
+          ['/accuterm/getting-started/', 'Getting Started'],
+          ['/accuterm/release-notes/', 'Release Notes'],
           ['/accuterm/license-activation/', 'License Activation'],
           {
             title: 'License & User Management',
@@ -91,7 +93,8 @@ module.exports = {
             path: '/accuterm/desktop/',
             collapsable: true,
             children: [
-              ['/accuterm/desktop/activate-license/', 'Activate License']
+              ['/accuterm/web/rezume-session-resilience/', 'ReZume Session Resilience'],
+              ['/accuterm/web/phi-reports/', 'PHI Reports']    
             ]
           },
           {
@@ -104,8 +107,7 @@ module.exports = {
               ['/accuterm/mobile/connection-settings/', 'Connection Settings'],
               ['/accuterm/mobile/keyboard-and-clipboard-settings/', 'Keyboard & Clipboard Settings'],
               ['/accuterm/mobile/screen-settings/', 'Screen Settings'],
-              ['/accuterm/mobile/terminal-settings/', 'Terminal Settings'],
-              ['/accuterm/mobile/user-guide/', 'User Guide']
+              ['/accuterm/mobile/terminal-settings/', 'Terminal Settings']
             ]
           },
           {
@@ -113,8 +115,6 @@ module.exports = {
             path: '/accuterm/web/',
             collapsable: true,
             children: [
-              ['/accuterm/web/getting-started/', 'Getting Started'],
-              ['/accuterm/web/release-notes/', 'Release Notes'],
               ['/accuterm/web/installing-accuterm-io-server/', 'Installing AccuTerm IO Server'],
               ['/accuterm/web/creating-profiles/', 'Creating Profiles'],
               {
@@ -132,9 +132,7 @@ module.exports = {
                   ['/accuterm/web/profiles/connection-settings/', 'Connection Settings'],
                   ['/accuterm/web/profiles/font-and-character-settings/', 'Font & Character Settings']
                 ]
-              },              
-              ['/accuterm/web/rezume-session-resilience/', 'AccuTerm ReZume Session Resilience'],
-              ['/accuterm/web/phi-reports/', 'PHI Reports']             
+              }         
             ]
           }
         ]

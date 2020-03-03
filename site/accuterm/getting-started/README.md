@@ -15,7 +15,7 @@ This getting started guide walks you through the process of setting up your Zuma
 
 
 
-1. Create your Zumasys Customer Portal login ([https://docs.zumasys.com/customerportal/quick-start](./../../customer-portal/customer-portal-registration))
+1. Create your Zumasys Customer Portal login ([customer portal quick start](./../../../customer-portal/registration/README.md))
 2. Upon successful creation, log into the portal using your newly created credentials ([https://portal.zumasys.com](https://portal.zumasys.com/))
     1. Once your user has been created, [Jill](mailto:email%3Ajillo@zumasys.com)will assign you as the Portal Admin and grant you access to the licenses.
 3. Create your users and assign licenses ([https://docs.zumasys.com/customerportal/accuterm-8-adding-users](./../accuterm-8-creating-accuterm-users))
