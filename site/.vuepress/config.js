@@ -34,7 +34,7 @@ module.exports = {
     "vuepress-plugin-nprogress": {},
     // Reading Progress Bar
     // We'll probably need to update this path once things go live (https://github.com/tolking/vuepress-plugin-reading-progress)
-    "reading-progress": { readingDir: ["accuterm", "customer-portal", "docs", "jbase", "mv-connect", "mv-dashboard"] },
+    "reading-progress": { readingDir: ["accuterm", "customer-portal", "jbase", "mv-connect", "mv-dashboard"] },
     // Add article reading time estimate
     "vuepress-plugin-reading-time": {},
     // Copy icon on <code>
@@ -318,7 +318,7 @@ module.exports = {
           ['/customer-portal/customer-management/', 'Customer Management']
         ]
       },
-      ["/docs/jbase/", "jBASE"]
+      ["/jbase/", "jBASE"]
     ],
     repo: "https://github.com/zumasys/docs",
     docsBranch: "master",

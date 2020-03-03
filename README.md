@@ -27,9 +27,7 @@ is available at [Zumasys BetaDocs](https://betadocs.zumasys.com). The documentat
 │   │   ├── enchaneApp.js
 │   ├── accuterm (AccuTerm documentation lives here)
 │   ├── customer-portal (Customer Portal documentation lives here)
-│   ├── docs
-│   │   ├── jbase (jBASE documentation lives here)
-│   │   └── README.md
+│   ├── jbase (jBASE documentation lives here)
 │   ├── mv-connect (MV Connect documentation lives here)
 │   ├── mv-dashboard (MV Dashboard documentation lives here)
 │   ├── README.md (The home page of the docs)
