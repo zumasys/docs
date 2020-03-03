@@ -82,7 +82,7 @@ To run the application locally:
 ## Todo List
 
 - [x] Add sidebar links matching docs directory structure
-- [ ] Clean up directory structure under the Zumasys folder (i.e. AccuTerm folder -> Mobile and Web)
+- [x] Clean up directory structure under the Zumasys folder (i.e. AccuTerm folder -> Mobile and Web)
 - [x] Clean up root directory (move docs project into sub-dir)
 - [ ] Add [Table of Contents](https://vuepress.vuejs.org/guide/markdown.html#table-of-contents)
 - [ ] More [config](https://vuepress.vuejs.org/config/)
@@ -113,3 +113,4 @@ To run the application locally:
 - [ ] Check out more on [awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)
 - [ ] Convert TODOs to GitHub Issues
 - [ ] Add jBASE Basic, Jabba to [Prism](https://prismjs.com/#languages)
+- [ ] Clean up brand consistency (e.g. 'AccuTerm' vs 'Accuterm')
