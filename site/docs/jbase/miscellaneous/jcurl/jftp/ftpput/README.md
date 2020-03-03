@@ -38,3 +38,5 @@ Sample ftp function that uses the [$ftp class](../ftpclass-jabba/#heading)
 !
     RETURN NOT(res)
 ```
+
+Back to [jftp.](./../README.md)

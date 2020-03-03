@@ -15,8 +15,11 @@ where:
 >Note: that curlHandles will be automatically cleaned up on program termination.
 
 ## Example
+
 ```
 rc = curlInit(curlHandle)
 ... perform curl operations with curlHandle
 rc = curlClose(curlHandle)
 ```
+
+Back to [jCurl.](./../README.md)

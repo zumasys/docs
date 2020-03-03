@@ -23,6 +23,7 @@ where:
 ***http_status*** | dyn_array |http status code and text
 
 ## Example
+
 ```
 time_out = 5
 post_data = 'something to post'
@@ -32,3 +33,5 @@ rc = submitRequest(request_handle, time_out, post_data, response_headers, respon
 ```
 
 see also [createRequest](../createRequest/#heading)
+
+Back to [jCurl.](./../README.md)

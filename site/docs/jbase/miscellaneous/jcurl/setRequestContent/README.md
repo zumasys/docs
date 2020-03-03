@@ -19,6 +19,7 @@ where:
 ***content*** | string |the data to submit in the request
 
 ## Example
+
 ```
 rc = createRequest(request_handle)
 content = 'some data'
@@ -27,3 +28,5 @@ rc = setRequestContent(request_handle, content)
 ```
 
 see also [createRequest](../createRequest/#heading)
+
+Back to [jCurl.](./../README.md)

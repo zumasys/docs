@@ -10,6 +10,7 @@ This is a sample class that uses [jCURL](../../../jcurl) extensively to provide 
 > see also [FTPGET](../FTPGET/#heading), [FTPPUT](../FTPPUT/#heading), [FTPGETF](../FTPGETF/#heading), [FTPPUTF](../FTPPUTF/#heading)
 
 ## ftpclass.jabba
+
 ```
 INCLUDE JBCCURL.h
 INCLUDE JBC.h
@@ -250,3 +251,5 @@ method $ftp::$initGetPut(user_pass)
     rc = curlSetOpt(curlHandle, CURLOPT_USERAGENT, 'libcurl-agent/1.0');
 end method
 ```
+
+Back to [jftp.](./../README.md)

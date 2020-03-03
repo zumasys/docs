@@ -15,9 +15,12 @@ where:
 ***header*** | string | the resulting header(s)
 
 ## Example
+
 ```
 INCLUDE JBCCURL.h
 rc = curlInit(curlHandle)
 rc = curlSetOpt(curlHandle, CURLOPT_URL, 'www.zumasys.com')
 rc = curlExec(curlHandle, result, header)
 ```
+
+Back to [jCurl.](./../README.md)

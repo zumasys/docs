@@ -9,7 +9,7 @@ Create an **$http** handle (see also [createRequest](../createRequest/#heading))
 
 The **SOAPCreateRequest** function is basically a wrapper to **createRequest**, but additionally sets some header values in preparation for making ***SOAP*** requests.
 
-## Synax:
+## Synax
 
 ***result_code*** = **SOAPCreateRequest**(***url***, ***soapAction***, ***request_handle***)
 
@@ -23,6 +23,9 @@ where:
 ***request_handle*** | var | an **$http** handle
 
 ## Example
+
 ```
 rc = SOAPCreateRequest(url, soapAction, request_handle)
 ```
+
+Back to [jCurl.](./../README.md)

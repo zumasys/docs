@@ -16,8 +16,11 @@ where:
 ***value*** | string |the value of the header
 
 ## Example
+
 ```
 rc = curlInit(curlHandle)
 rc = curlAddHeader(curlHandle, 'accept', '*/*')
 ...
 ```
+
+Back to [jCurl.](./../README.md)

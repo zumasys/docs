@@ -14,7 +14,10 @@ where:
 ***curlHandle*** | var | a handle to use with other [jCURL](../../jcurl) functions
 
 ## Example
+
 ```
 rc = curlInit(curlHandle)
 ...perform curl operations using curlHandle
 ```
+
+Back to [jCurl.](./../README.md)

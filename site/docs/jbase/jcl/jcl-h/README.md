@@ -1,4 +1,4 @@
-# JCL H
+# jCL H
 
 **Created At:** 5/28/2018 10:55:54 AM  
 **Updated At:** 6/11/2018 4:23:04 AM  
@@ -12,23 +12,19 @@
 <badge text='jcl' vertical='middle' />
 <badge text='buffer' vertical='middle' />
 
-## Description 
+## Description
 
 This command places a text string in the active output buffer. It takes the general form:
 
 ```
-H text-string 
+H text-string
 ```
 
-where text-string is the text to be placed in the active output buffer. Can be a literal (not enclosed in quotes), or a direct or indirect reference to a buffer or select register.
+where **text-string** is the text to be placed in the active output buffer. Can be a literal (not enclosed in quotes), or a direct or indirect reference to a buffer or select register.
 
-
-
-## Note: 
-
+## Note
 
 > The H command is used to place a text string in the currently active output buffer. Use the POB, to create a shell command. Use the SOB to create secondary commands (such as PQ-SELECT ) or to "stack" a series of inputs required by the active process.
-
 
 The string is moved into the buffer starting at the current location of the buffer pointer. At the end of the operation, the buffer pointer will be positioned immediately after the last character in the string.
 
@@ -38,66 +34,52 @@ If quotes are not used, each group of one or more spaces in the string will be r
 
 The P command is used to process the contents of the POB and SOB.
 
-
-
-##  Usng H with the Primary Output Buffer
+## Usng H with the Primary Output Buffer
 
 When the shell command is issued, field marks will be replaced by spaces and a carriage return will be appended automatically.
-
-
 
 ## Using H with the Secondary Output Buffer  
 
 A carriage return is not appended automatically to output from the SOB. Terminate each line with a less than character (&lt;) to represent a carriage return.
 
-##### 
-
-
-##### EXAMPLE 1
+### Example 1
 
 ```
-001 PQN
-002 HSLEEP 10
-003 P
+PQN
+HSLEEP 10
+P
 ```
 
 Forces the process to sleep for 10 seconds.
 
-##### 
+### Example 2
 
-
-##### EXAMPLE 2
-
-
-| Command<br> | POB Before<br> | POB After<br> |
-| --- | --- | --- |
-| H<br> | <br> | COPY<br> |
-| <br> | ^<br> | ^<br> |
-| H SALES<br> | COPY<br> | COPY^SALES<br> |
-| <br> | ^<br> | ^<br> |
-| H ABC<br> | COPY^SALES<br> | COPY^SALES^ABC<br> |
-| <br> | ^<br> | ^<br> |
-| H-DEF<br> | COPY^SALES^ABC<br> | COPY^SALES^ABC-DEF<br> |
-| <br> | ^<br> | ^<br> |
-| H (P)<br> | COPY^SALES^ABC-DEF<br> | COPY ^SALES^ABC-DEF^(P)<br> |
-| <br> |                                         ^ |                                                ^ |
-
+```
+| Command |     POB Before      |          POB After       |
+| ------- |     ----------      |          ---------       |
+| H       |                     | COPY                     |
+|         | ^                   |     ^                    |
+| H SALES | COPY                | COPY^SALES               |
+|         |     ^               |           ^              |
+| H ABC   | COPY^SALES          | COPY^SALES^ABC           |
+|         |           ^         |               ^          |
+| H-DEF   | COPY^SALES^ABC      | COPY^SALES^ABC-DEF       |
+|         |               ^     |                   ^      |
+| H (P)   | COPY^SALES^ABC-DEF  | COPY ^SALES^ABC-DEF^(P)  |
+|         |                   ^ |                        ^ |
+```
 
 Note how COPY and SALES have become separate parameters but ABC and -DEF have been concatenated.
 
-
-
-##### EXAMPLE 3
+### Example 3
 
 ```
-001 PQN
-002 HGET-LIST LISTA
-003 STON
-004 HCOPY SALES<
-005 H(SALES.HOLD
-006 P
+PQN
+HGET-LIST LISTA
+STON
+HCOPY SALES<
+H(SALES.HOLD
+P
 ```
 
-
-
-Back to [JCL Commands](./../jcl-commands)
+Back to [jCL.](./../README.md)

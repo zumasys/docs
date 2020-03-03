@@ -21,6 +21,7 @@ where:
 ***stringFlag*** | integer |**0** = ***reqDoc*** is a file; **1** = ***reqDoc*** is data
 
 ## Example
+
 ```
 rc = SOAPCreateRequest(url, soapAction, request_handle)
 xml_data = '<?xml version="1.0" encoding="utf-8"?>'
@@ -39,3 +40,5 @@ rc = SOAPSetRequestContent(request_handle, xml_data, 1)
 ```
 
 see also [SOAPCreateRequest](../SOAPCreateRequest/#heading)
+
+Back to [jCurl.](./../README.md)

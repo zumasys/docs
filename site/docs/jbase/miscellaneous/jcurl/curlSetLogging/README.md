@@ -18,6 +18,7 @@ where:
 >Note: log to file not yet implemented
 
 ## Example
+
 ```
 INCLUDE JBCCURL.h
 rc = curlInit(curlHandle)
@@ -31,3 +32,5 @@ logresult = curlGetLog(curlHandle)
 ```
 
 see also [curlGetLog](..curlGetLog/##heading)
+
+Back to [jCurl.](./../README.md)

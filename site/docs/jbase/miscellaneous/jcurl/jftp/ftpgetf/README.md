@@ -7,6 +7,7 @@
 Sample ftp function that uses the [$ftp class](../ftpclass-jabba/#heading)
 
 ### FTPGETF.b
+
 ```
 !
 ! @param url      - host
@@ -30,9 +31,9 @@ Sample ftp function that uses the [$ftp class](../ftpclass-jabba/#heading)
     IF LEN(dests) = '' THEN
         RETURN 'Destination argument not supplied'
     END
-    
+
     IF logging THEN ftpobj->setLogging(@true)
-        
+
     res = ftpobj->get(1, url, user, passwd, paths, dests)
 
     IF logging THEN
@@ -44,3 +45,5 @@ Sample ftp function that uses the [$ftp class](../ftpclass-jabba/#heading)
 !
     RETURN NOT(res)
 ```
+
+Back to [jftp.](./../README.md)

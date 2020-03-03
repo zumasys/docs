@@ -16,6 +16,7 @@ Each are based on the [$ftp class](ftpclass-jabba/#heading) which makes extensiv
 To build these utilities you will also need the following includes:
 
 ### JBCFTP.h
+
 ```
 DEFFUN FTPGET()
 DEFFUN FTPGETF()
@@ -25,6 +26,7 @@ DEFFUN FTPSTATUS()
 ```
 
 ### JBCFTPCOM.h
+
 ```
 $option jabba
     COMMON /JBCFTP/ ftpobj
@@ -120,3 +122,5 @@ TESTFTP.b
     CRT 'FTPGETF Log:'
     CRT logging
 ```
+
+Back to [jCurl.](./../README.md)

@@ -6,7 +6,7 @@
 
 Create an **$http** handle for subsequent http requests (see also [SOAPCreateRequest](../SOAPCreateRequest/#heading)) using the [jCURL](../../jcurl) module.
 
-## Synax:
+## Synax
 
 ***result_code*** = **createRequest**(***url***, ***http_method***, ***request_handle***)
 
@@ -21,7 +21,10 @@ where:
 ***value*** | string |the value of the header
 
 ## Example
+
 ```
 rc = createRequest(url, 'POST', request_handle)
 ...
 ```
+
+Back to [jCurl.](./../README.md)

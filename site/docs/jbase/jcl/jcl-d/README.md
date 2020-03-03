@@ -1,4 +1,4 @@
-# JCL D
+# jCL D
 
 **Created At:** 5/28/2018 10:21:16 AM  
 **Updated At:** 6/11/2018 4:23:33 AM  
@@ -11,7 +11,7 @@
 <badge text='jcl' vertical='middle' />
 <badge text='buffer' vertical='middle' />
 
-## Description 
+## Description
 
 This command displays the current parameter of the active input buffer or specific parameters from the PIB. It takes the general form:
 
@@ -24,45 +24,33 @@ Where:
 - n specifies the number of the PIB parameter to be displayed. If n is set to 0 (zero), all parameters in the primary input buffer will be displayed.
 - + inhibits a NEWLINE at the end of output.
 
-
-
-
-## Note: 
-
+## Note
 
 > D with no other qualifiers will display the current parameter of the active input buffer. The pointer position will not be changed.
 
+### Example 1
 
+```
+| Command | Active Input Buffer | Display |
+| ------- | ------------------- | ------- |
+| D       | ABC^DEF^GHI        | DEF      |
+|         |    ^               |          |
+```
 
+#### Example 2
 
-##### EXAMPLE 1
+```
+| Command | Active Input Buffer | Display |
+| ------- | ------------------- | ------- |
+| D3      | ABC^DEF^GHI         | GHI     |
+```
 
+#### Example3
 
-| Command<br> | Active Input Buffer<br> | Display<br> |
-| --- | --- | --- |
-| D<br> | ABC^DEF^GHI<br><br>^<br> | DEF<br> |
+```
+| Command | Active Input Buffer |   Display   |
+| ------- | ------------------- |   -------   |
+| D0      | ABC^DEF^GHI         | ABC^DEF^GHI |
+```
 
-
-
-
-##### EXAMPLE 2
-
-
-| Command  | Active Input Buffer  | Display |
-| --- | --- | --- |
-| D3<br> | ABC^DEF^GHI<br> | GHI<br> |
-
-
-
-
-##### EXAMPLE 3
-
-
-| Command<br> | Active Input Buffer<br> | Display<br> |
-| --- | --- | --- |
-| D0<br> | ABC^DEF^GHI<br> | ABC^DEF^GHI<br> |
-
-
-
-
-Go back to [JCL Commands](jcl-coimmands)
+Back to [jCL.](./../README.md)

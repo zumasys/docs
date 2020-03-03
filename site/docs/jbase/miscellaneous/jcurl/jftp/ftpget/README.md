@@ -6,7 +6,8 @@
 
 Sample ftp function that uses the [$ftp class](../ftpclass-jabba/#heading)
 
-### FTPGET.b
+## FTPGET.b
+
 ```
 !
 ! @param url      - host
@@ -26,15 +27,17 @@ Sample ftp function that uses the [$ftp class](../ftpclass-jabba/#heading)
 ! Retrieves the contents of the file referenced by url/path
 !
     IF logging THEN ftpobj->setLogging(@true)
-    
+
     results = ''
     res = ftpobj->get(0, url, user, passwd, paths, results)
-    
+
     IF logging THEN
         logging = ftpobj->getLog()
     END
-    
+
     IF res THEN errors = ftpobj->errors(@FALSE)
 !
     RETURN NOT(res)
 ```
+
+Back to [jftp.](./../README.md)

@@ -67,7 +67,7 @@ failed:
     CRT curlLastError(curlHandle)
 ```
 
-```
+``` json
 result
 {"args":{},"data":"","files":{},"form":{"This is expected to be sent back as part of response body.":""},"header
 s":{"x-forwarded-proto":"https","host":"postman-echo.com","content-length":"58","accept":"*/*","content-type":"a
@@ -86,3 +86,5 @@ Vary: Accept-Encoding
 Content-Length: 394
 Connection: keep-alive
 ```
+
+[Back to Miscellaneous](./../README.md)
