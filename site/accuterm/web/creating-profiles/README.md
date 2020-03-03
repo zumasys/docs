@@ -17,7 +17,7 @@ Profiles define a terminal session, and are analogous to the session configurati
 
 ### Info
 
-Prior to creating a user, you will need to have already created your [Customer Portal User](./../../customer-portal/customer-portal-registration) and be assigned as an Administrator to your company's account.
+Prior to creating a user, you will need to have already created your [Customer Portal User](./../../../customer-portal/registration/README.md) and be assigned as an Administrator to your company's account.
 
 1. Expand the AccuTerm module from the main navigation page in the Customer Portal and select Profiles.
 
