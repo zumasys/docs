@@ -3,14 +3,16 @@
     <div class="feature">
       <h2>AccuTerm</h2>
       <p>
-        Desktop (Coming Soon!)<br />
+        <a href="/accuterm/getting-started/">Getting Started</a><br />
+        <a href="/accuterm/license-activation/">Licensing</a><br />
+        <a href="/accuterm/desktop/">Desktop</a><br />
         <a href="/accuterm/web/">Web</a><br />
         <a href="/accuterm/mobile/">Mobile</a>
       </p>
     </div>
     <div class="feature">
       <h2>jBASE</h2>
-      <p><a href="/docs/jbase/">All Docs</a><br /></p>
+      <p><a href="/jbase/">All Docs</a><br /></p>
     </div>
     <div class="feature">
       <h2>OpenQM</h2>

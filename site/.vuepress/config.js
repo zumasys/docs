@@ -34,7 +34,7 @@ module.exports = {
     "vuepress-plugin-nprogress": {},
     // Reading Progress Bar
     // We'll probably need to update this path once things go live (https://github.com/tolking/vuepress-plugin-reading-progress)
-    "reading-progress": { readingDir: ["accuterm", "customer-portal", "docs", "jbase", "mv-connect", "mv-dashboard"] },
+    "reading-progress": { readingDir: ["accuterm", "customer-portal", "jbase", "mv-connect", "mv-dashboard"] },
     // Add article reading time estimate
     "vuepress-plugin-reading-time": {},
     // Copy icon on <code>
@@ -66,7 +66,17 @@ module.exports = {
     logo: "/assets/img/logo-grey.png",
     nav: [
       { text: "Home", link: "/" },
-      { text: "Docs", link: "/docs/" }
+      {
+        text: 'Docs',
+        ariaLabel: 'Documentation Menu',
+        items: [
+          { text: 'AccuTerm', link: '/accuterm/' },
+          { text: 'Customer Portal', link: '/customer-portal/' },
+          { text: 'jBASE', link: '/jbase/' },
+          { text: 'MV Connect', link: '/mv-connect/' },
+          { text: 'MV Dashboard', link: '/mv-dashboard/' }
+        ]
+      }
     ],
     sidebar: [
       "/",      
@@ -75,6 +85,28 @@ module.exports = {
         path: '/accuterm/',
         collapsable: true,
         children: [
+          ['/accuterm/getting-started/', 'Getting Started'],
+          ['/accuterm/release-notes/', 'Release Notes'],
+          ['/accuterm/license-activation/', 'License Activation'],
+          {
+            title: 'License & User Management',
+            path: '/accuterm/license-and-user-management/',
+            collapsable: true,
+            children: [
+              ['/accuterm/license-and-user-management/creating-users/', 'Creating Users'], 
+              ['/accuterm/license-and-user-management/creating-roles/', 'Creating Roles'],                
+              ['/accuterm/license-and-user-management/batch-actions/', 'Batch Actions']
+            ]
+          },
+          {
+            title: 'Desktop',
+            path: '/accuterm/desktop/',
+            collapsable: true,
+            children: [
+              ['/accuterm/desktop/rezume-session-resilience/', 'ReZume Session Resilience'],
+              ['/accuterm/desktop/phi-reports/', 'PHI Reports']    
+            ]
+          },
           {
             title: 'Mobile',
             path: '/accuterm/mobile/',
@@ -85,8 +117,7 @@ module.exports = {
               ['/accuterm/mobile/connection-settings/', 'Connection Settings'],
               ['/accuterm/mobile/keyboard-and-clipboard-settings/', 'Keyboard & Clipboard Settings'],
               ['/accuterm/mobile/screen-settings/', 'Screen Settings'],
-              ['/accuterm/mobile/terminal-settings/', 'Terminal Settings'],
-              ['/accuterm/mobile/user-guide/', 'User Guide']
+              ['/accuterm/mobile/terminal-settings/', 'Terminal Settings']
             ]
           },
           {
@@ -94,27 +125,24 @@ module.exports = {
             path: '/accuterm/web/',
             collapsable: true,
             children: [
-              ['/accuterm/web/web-introduction/', 'Web Introduction'],
-              ['/accuterm/web/getting-started/', 'Getting Started'],
-              ['/accuterm/web/release-notes/', 'Release Notes'],
-              ['/accuterm/web/activating-accuterm-desktop-licensing/', 'Activating AccuTerm Desktop Licensing'],
-              ['/accuterm/web/batch-user-actions/', 'Batch User Actions'],
-              ['/accuterm/web/change-password/', 'Change AccuTerm.IO Password'],
-              ['/accuterm/web/clipboard-settings/', 'Clipboard Settings'],
-              ['/accuterm/web/connection-settings/', 'Connection Settings'],
-              ['/accuterm/web/creating-profiles/', 'Creating Profiles'],
-              ['/accuterm/web/creating-roles/', 'Creating Roles'],
-              ['/accuterm/web/creating-users/', 'Creating Users'],
-              ['/accuterm/web/font-and-character-settings/', 'Font & Character Settings'],
               ['/accuterm/web/installing-accuterm-io-server/', 'Installing AccuTerm IO Server'],
-              ['/accuterm/web/keyboard-options/', 'Keyboard Options'],
-              ['/accuterm/web/mouse-settings/', 'Mouse Settings'],
-              ['/accuterm/web/sound-settings/', 'Sound Settings'],
-              ['/accuterm/web/terminal-screen-options/', 'Terminal Screen Options'],
-              ['/accuterm/web/terminal-settings/', 'Terminal Settings'],
-              ['/accuterm/web/web-profiles/', 'Web Profiles'],
-              ['/accuterm/web/rezume-session-resilience/', 'AccuTerm ReZume Session Resilience'],
-              ['/accuterm/web/phi-reports/', 'PHI Reports']             
+              ['/accuterm/web/creating-profiles/', 'Creating Profiles'],
+              {
+                title: 'Profiles',
+                path: '/accuterm/web/profiles/',
+                collapsable: true,
+                children: [
+                  ['/accuterm/web/profiles/change-password/', 'Change AccuTerm.IO Password'],
+                  ['/accuterm/web/profiles/keyboard-options/', 'Keyboard Options'],
+                  ['/accuterm/web/profiles/mouse-settings/', 'Mouse Settings'],
+                  ['/accuterm/web/profiles/sound-settings/', 'Sound Settings'],
+                  ['/accuterm/web/profiles/terminal-screen-options/', 'Terminal Screen Options'],
+                  ['/accuterm/web/profiles/terminal-settings/', 'Terminal Settings'],
+                  ['/accuterm/web/profiles/clipboard-settings/', 'Clipboard Settings'],
+                  ['/accuterm/web/profiles/connection-settings/', 'Connection Settings'],
+                  ['/accuterm/web/profiles/font-and-character-settings/', 'Font & Character Settings']
+                ]
+              }         
             ]
           }
         ]
@@ -300,7 +328,7 @@ module.exports = {
           ['/customer-portal/customer-management/', 'Customer Management']
         ]
       },
-      ["/docs/jbase/", "jBASE"]
+      ["/jbase/", "jBASE"]
     ],
     repo: "https://github.com/zumasys/docs",
     docsBranch: "master",

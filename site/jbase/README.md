@@ -1,4 +1,4 @@
-# jBASE Knowledgebase
+# jBASE
 
 ## jBASE Table of Contents
 

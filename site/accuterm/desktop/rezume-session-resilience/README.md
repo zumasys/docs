@@ -1,4 +1,4 @@
-# AccuTerm ReZume Session Resilience
+# ReZume Session Resilience
 
 <PageHeader />
 

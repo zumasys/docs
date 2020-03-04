@@ -1,12 +1,31 @@
 # Mobile
 
-## Topics
+<PageHeader />
 
-[accuterm-mobile-colors-and-themes-settings](./accuterm-mobile-colors-and-themes-settings)  
-[accuterm-mobile-connection-settings](./accuterm-mobile-connection-settings)  
-[accuterm-mobile-keyboard-and-clipboard-settings](./accuterm-mobile-keyboard-and-clipboard-settings)  
-[accuterm-mobile-quick-start](./accuterm-mobile-quick-start)  
-[accuterm-mobile-screen-settings](./accuterm-mobile-screen-settings)  
-[accuterm-mobile-terminal-settings](./accuterm-mobile-terminal-settings)  
-[accuterm-mobile-user-guide](./accuterm-mobile-user-guide)  
+**Created At:** 11/15/2019 5:46:03 PM  
+**Updated At:** 11/15/2019 7:32:18 PM  
+**Original Doc:** [accuterm-mobile-user-guide](https://docs.zumasys.com/accutermmobile/accuterm-mobile-user-guide)  
+**Original ID:** 494590  
+**Internal:** No  
+
+
+## Overview
+
+<PageHeader />
+
+AccuTerm Mobile provides industry-leading terminal emulation for ADDS, Wyse & VT terminals, and offers integrated mobile features such as browser, email, and phone functionality for use with MultiValue applications. Users can take advantage of both SSH and telnet connectivity, allowing you to connect to any MultiValue or host system on the go, including jBASE, OpenQM, D3, UniVerse, UniData, Linux, Unix, and AIX. Description
+
+AccuTerm Mobile offers Terminal Emulation for remote management of host systems and applications using a command-line interface. GUI support is planned for future development but currently not supported.
+
+### ![accuterm-mobile-user-guide: 1573841276731-1573841276731](./1573841276731-1573841276731.png)
+
+## Table of Contents
+
+* [Quick Start](./quick-start/README.md)
+* [Connection Settings](./connection-settings/README.md)
+* [Terminal Settings](./terminal-settings/README.md)
+* [Colors & Themes Settings](./colors-and-themes-settings/README.md)
+* [Screen Settings](./screen-settings/README.md)
+* [Keyboard & Clipboard Settings](./keyboard-and-clipboard-settings/README.md)
+
 
