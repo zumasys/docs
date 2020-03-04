@@ -115,20 +115,20 @@ This example demonstrates how, in effect, you can replace a space with a field m
 ### Example 5
 
 ```
-| Command  | PIB Before | PIB After |
-| --- | --- | --- |
-| IH\ | AB^CD^EF^GH | AB^CD^^GH |
-|  |      ^ |      ^ |
+| Command  |  PIB Before | PIB After |
+| -------- |  ---------- | --------- |
+| IH\      | AB^CD^EF^GH | AB^CD^^GH |
+|          |      ^      |      ^    |
 ```
 
 ### Example 6
 
 ```
-| Command  | PIB Before | PIB After |
-| --- | --- | --- |
-| S(7) |  |  |
-| IH\ | AB^CDEFGH^IJK | AB^CDE^IJK |
-|  |       ^ |       ^ |
+| Command  |   PIB Before  |  PIB After |
+| -------  |   ----------  |  --------- |
+| S(7)     |               |            |
+| IH\      | AB^CDEFGH^IJK | AB^CDE^IJK |
+|          |       ^       |       ^    |
 ```
 
 This Example demonstrates how to truncate a parameter.
@@ -136,19 +136,19 @@ This Example demonstrates how to truncate a parameter.
 ### Example 7
 
 ```
-| Command | PIB Before | PIB After |
-| --- | --- | --- |
-| IH \ | AB^CD^EF^GH | AB^CD^^EF^GH |
-|  |      ^ |      ^ |
+| Command |  PIB Before |   PIB After  |
+| ------- |  ---------- |   ---------  |
+| IH \    | AB^CD^EF^GH | AB^CD^^EF^GH |
+|         |      ^      |      ^       |
 ```
 
 ### Example 8
 
 ```
-| Command  | PIB Before | PIB After |
-| --- | --- | --- |
-| IH \ | AB^CDEFGH^IJK | AB^CDE^^FGH^IJK |
-|  |       ^ |       ^ |
+| Command |   PIB Before  |    PIB After    |
+| ------- |   ----------  |    ---------    |
+| IH \    | AB^CDEFGH^IJK | AB^CDE^^FGH^IJK |
+|         |       ^       |       ^ |
 ```
 
 Back to [JCL Commands](./../jcl-commands)

@@ -18,9 +18,9 @@ This command prompts for input and places it in the secondary input buffer. Sele
 IN{c}
 ```
 
-where c is an optional prompt character which, once used, remains in effect until a new IBN, IBP, IN or IP command is issued. If c is not specified, the prompt character will default to the last prompt character used, or to a colon (:).
+where **c** is an optional prompt character which, once used, remains in effect until a new IBN, IBP, IN or IP command is issued. If c is not specified, the prompt character will default to the last prompt character used, or to a colon (:).
 
-The new data replaces the content of the SIB, and the SIB will remain active until an [RI](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jcl2_JCL.RI.htm), S(n) or MV %n source command is used.
+The new data replaces the content of the SIB, and the SIB will remain active until an [RI](./../jcl-ri/README.md), S(n) or MV %n source command is used.
 
 ## Note
 
@@ -28,25 +28,31 @@ The new data replaces the content of the SIB, and the SIB will remain active unt
 
 When the command has been completed, the buffer pointer will be positioned at the beginning of the buffer.
 
-### EXAMPLE 1
+### Example 1
 
-| Input  | SIB Before  | SIB After  |
-| --- | --- | --- |
-| ABC | ^ | ABC |
-|  |               ^ | ^ |
+```
+|  Input  |   SIB Before  |   SIB After  |
+|  -----  |   ----------  |   ---------  |
+| ABC     | ^             | ABC          |
+|         |             ^ | ^            |
+```
 
-### EXAMPLE 2
+### Example 2
 
-| Input  | SIB Before  | SIB After  |
-| --- | --- | --- |
-| ABC DEF | XYZ | ABC^DEF |
-|  | ^ | ^ |
+```
+|  Input  |  SIB Before  |  SIB After  |
+|  -----  |  ----------  |  ---------  |
+| ABC DEF | XYZ          | ABC^DEF     |
+|         | ^            | ^           |
+```
 
-### EXAMPLE 3
+### Example 3
 
-| Input | SIB Before | SIB After  |
-| --- | --- | --- |
-| &lt;ENTER&gt; | WWW^XXX |  |
-|  | ^ | ^ |
+```
+|  Input  | SIB Before | SIB After  |
+|  -----  | ---------- | ---------  |
+| <Enter> | WWW^XXX    |            |
+|         | ^          | ^          |
+```
 
-Back to [JCL Commands](./../jcl-commands)
+Back to [jCL.](./../README.md)

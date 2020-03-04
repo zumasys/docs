@@ -12,7 +12,7 @@
 <badge text='buffer' vertical='middle' />
 <badge text='file' vertical='middle' />
 
-## Description 
+## Description
 
 This command copies a value from the source to the destination buffer and stores it as a multivalue. It takes the general form:
 
@@ -22,35 +22,28 @@ MVA destination source
 
 where:
 
-- destination is a direct or indirect reference to a buffer or select register which is to receive the data.
-- source is the data to be copied. The source can be a direct or indirect reference to a buffer or select register, or a literal string.
+- **destination** is a direct or indirect reference to a buffer or select register which is to receive the data.
+- **source** is the data to be copied. The source can be a direct or indirect reference to a buffer or select register, or a literal string.
 
-
-
-
-## Note:
-
+## Note
 
 > New values will be copies to the destination in ascending ASCII  sequence. If a new value already exists in the destination buffer, it will not be copied. If the source data is multivalued, it will be copied to the destination without modification. This might create duplicate values and invalidate the ascending sequence.
-> 
+>
 > If the destination is the input buffer, the buffer pointer will be left at the beginning of the destination parameter.
 
-
-
-
-###### EXAMPLE 1
+### Example 1
 
 PIB contains: ABC^DEF^GHI
 
+```
+|    Command  | File Buffer 1 Before | File Buffer 1 After |
+|    -------  | -------------------- | ------------------- |
+| MVA &1.1 %3 | 000 Key              | 000 Key             |
+|             | 001 FFF]HHH          | 001 FFF]GHI]HHH     |
+|             | 002 YYY              | YYY                 |
+```
 
-| Command<br> | File Buffer 1 Before<br> | File Buffer 1 After<br> |
-| --- | --- | --- |
-| MVA &1.1 %3<br> | 000 Key<br>001 FFF]HHH<br>002 YYY<br> | 000 Key<br>001 FFF]GHI]HHH<br>YYY<br> |
-
-
-
-
-###### EXAMPLE 2
+### Example 2
 
 File buffer 2 contains:
 
@@ -60,16 +53,12 @@ File buffer 2 contains:
 002 AAA
 ```
 
+```
+|    Command    | File Buffer 1 Before  | File Buffer 1 After  |
+|    ------     | --------------------  | -------------------- |
+| MVA &1.1 &2.1 | 000 Key               | 000 Key              |
+|               | 001 FFF]HHH           | 001 FFF]GG]YY]HHH    |
+|               | 002 YYY               | YYY                  |
+```
 
-| Command  | File Buffer 1 Before  | File Buffer 1 After  |
-| --- | --- | --- |
-| MVA &1.1 &2.1<br> | 000 Key<br>001 FFF]HHH<br>002 YYY<br> | 000 Key<br>001 FFF]GG]YY]HHH<br>YYY<br> |
-
-
-
-
-Back to [JCL Commands](./../jcl-commands) .
-
-
-
-
+Back to [jCL.](./../README.md)

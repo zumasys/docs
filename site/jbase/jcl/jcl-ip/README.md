@@ -1,4 +1,4 @@
-# JCL IP
+# jCL IP
 
 **Created At:** 6/7/2018 9:30:49 AM  
 **Updated At:** 6/11/2018 4:28:01 AM  
@@ -12,7 +12,7 @@
 <badge text='buffer' vertical='middle' />
 <badge text='jcl' vertical='middle' />
 
-## Description 
+## Description
 
 The command prompts for input and places it into the active input buffer or a nominated buffer. It takes the general form:
 
@@ -22,24 +22,17 @@ IP{c{r}}
 
 where:
 
-- c is an optional prompt character which, once used, remains in effect until a new IBN, IBP, IN or IP command is issued. If c is not specified, the prompt character will default to the last prompt character used, or to a colon (:).
-- r is a direct or indirect reference to a buffer or select register which is to receive the data. If you use a reference, the prompt character c must be specified.
+- **c** is an optional prompt character which, once used, remains in effect until a new IBN, IBP, IN or IP command is issued. If c is not specified, the prompt character will default to the last prompt character used, or to a colon ( : ).
+- **r** is a direct or indirect reference to a buffer or select register which is to receive the data. If you use a reference, the prompt character c must be specified.
 
-
-
-
-## Note:
-
+## Note
 
 > If the no buffer reference is specified, the active input buffer will be used. The new data will replace the parameter at the current buffer pointer position but the pointer will not be moved. Leading and trailing spaces will be removed and groups of one or more embedded spaces will be replaced by a single field mark. By replacing a parameter with data that contains spaces, you can insert several new parameters. If the user responds with RETURN only, a null parameter will be created. If it is desired to keep the input data exactly as entered, use the IBP command.
-
-
-
 
 When data containing embedded spaces is placed into a file buffer, the new parameters will replace successive fields in the buffer. For example, if the response to an
 
 ```
-IP?&2.1 
+IP?&2.1
 ```
 
 command is:
@@ -50,66 +43,58 @@ command is:
 
 fields one, two, and three, of file buffer 2 will be replaced with "AA", "BB", and "CC".
 
+If the user responds with Return only, a null parameter will be created.  
 
+If you want to keep the input data exactly as entered, use the [IBP](./../jcl-ibp/README.md) command.  
 
-### EXAMPLE 1
+### Example 1
 
+```
+| Command | PIB Before | Input |  PIB After  |
+| ------- | ---------- | ----- |  ---------  |
+| IP?     | AAA^BBB    | CCC   | AAA^BBB^CCC |
+|         |        ^   |       |       ^     |
+```
 
-| Command<br> | PIB Before<br> | Input<br> | PIB After<br> |
+### Example 2
+
+```
+| Command | PIB Before | Input |  PIB After |
+| ------- | ---------- | ----- |  --------- |
+| IP?     | AA^BB^CC   | XX X  | AA^XX^X^CC |
+|         |    ^       |       |    ^       |
+```
+
+### Example 3
+
+```
+| Command | PIB Before | Input | PIB After |
 | --- | --- | --- | --- |
-| IP?<br> | AAA^BBB<br> | CCC<br> | AAA^BBB^CCC<br> |
-| <br> |        ^<br> | <br> |       ^<br> |
+| IP? | ABC^DEF^GHI | &lt;ENTER&gt; | ABC^^GHI |
+|  |    ^ |  |    ^ |
+```
 
+### Example 4
 
+```
+| Command | File Buffer 2 Before | Input | File Buffer 2 After |
+| ------- | -------------------- | ----- | ------------------- |
+| IP:&2.2 | 000 Key              | BBB   | 000 Key             |
+|         | 001 AAA              |       | 001 AAA             |
+|         | 002 XXX              |       | 002 BBB             |
+|         | 003 CCC              |       | 003 CCC             |
+```
 
+### Example 5
 
-### EXAMPLE 2
+```
+| Command | File Buffer 2 Before |   Input  | File BUffer 2 After |
+| ------- | -------------------- |   -----  | ------------------- |
+| IP:&2.2 | 000 Key              | BB CC DD | 000 Key             |
+|         | 001 AAA              |          | 001 AAA             |
+|         | 002 XXX              |          | 002 BB              |
+|         | 003 DDD              |          | 003 CC              |
+|         |                      |          | 004 DD              |
+```
 
-
-| Command<br> | PIB Before<br> | Input<br> | PIB After<br> |
-| --- | --- | --- | --- |
-| IP?<br> | AA^BB^CC<br> | XX X<br> | AA^XX^X^CC<br> |
-| <br> |    ^<br> | <br> |    ^<br> |
-
-
-
-
-### EXAMPLE 3
-
-
-| Command<br> | PIB Before<br> | Input<br> | PIB After<br> |
-| --- | --- | --- | --- |
-| IP?<br> | ABC^DEF^GHI<br> | &lt;ENTER&gt;<br> | ABC^^GHI<br> |
-| <br> |    ^<br> | <br> |    ^<br> |
-
-
-
-
-### EXAMPLE 4
-
-
-| Command<br> | File Buffer 2 Before<br> | Input<br> | File Buffer 2 After<br> |
-| --- | --- | --- | --- |
-| IP:&2.2<br> | 000 Key<br> | BBB<br> | 000 Key<br> |
-| <br> | 001 AAA<br> | <br> | 001 AAA<br> |
-| <br> | 002 XXX<br> | <br> | 002 BBB<br> |
-| <br> | 003 CCC<br> | <br> | 003 CCC<br> |
-
-
-
-
-### EXAMPLE 5
-
-
-| Command<br> | File Buffer 2 Before<br> | Input<br> | File BUffer 2 After<br> |
-| --- | --- | --- | --- |
-| IP:&2.2<br> | 000 Key<br> | BB CC DD<br> | 000 Key<br> |
-| <br> | 001 AAA<br> | <br> | 001 AAA<br> |
-| <br> | 002 XXX<br> | <br> | 002 BB<br> |
-| <br> | 003 DDD<br> | <br> | 003 CC<br> |
-| <br> | <br> | <br> | 004 DD<br> |
-
-
-
-
-Back to [JCL Commands](./../jcl-commands)
+Back to [jCL.](./../README.md)

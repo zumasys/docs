@@ -132,7 +132,7 @@ File buffer 2 contains:
 ```
 | Command         | File Buffer 1 Before  | File Buffer 1 After  |
 | ---             | --------------------  | -------------------  |
-| MV &1.1 &2.2,\* | 000 KEY1              | 000 KEY1             |
+| MV &1.1 &2.2,*  | 000 KEY1              | 000 KEY1             |
 |                 | 001 WWW               | 001 AAA              |
 |                 | 003 XXX               | 002 BBB              |
 |                 | 002 YYY               | 003 YYY              |
@@ -146,9 +146,9 @@ PIB contains: **ABC^DEF^GHI^JKL^MNO**
 ```
 |   Command     | File Buffer 1 Before | File Buffer 1 After |
 |   -------     | -------------------- | ------------------- |
-| MV &2.1 %3,\_ | 000 Key              | 000 Key             |
+| MV &2.1 %3,_  | 000 Key              | 000 Key             |
 |               | 001 XXX              | 001 GHI             |
 |               | 002 YYY              |                     |
 ```
 
-Back to [JCL Commands](./../jcl-commands)
+Back to [jCL.](./../README.md)
