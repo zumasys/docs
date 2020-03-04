@@ -1,4 +1,4 @@
-# JCL IN
+# jCL IN
 
 **Created At:** 6/7/2018 9:20:24 AM  
 **Updated At:** 6/11/2018 4:19:01 AM  
@@ -10,7 +10,7 @@
 <badge text='jcl' vertical='middle' />
 <badge text='buffer' vertical='middle' />
 
-## Description 
+## Description
 
 This command prompts for input and places it in the secondary input buffer. Selects the secondary input buffer as the active buffer input. It takes the general form:
 
@@ -22,49 +22,31 @@ where c is an optional prompt character which, once used, remains in effect unti
 
 The new data replaces the content of the SIB, and the SIB will remain active until an [RI](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jcl2_JCL.RI.htm), S(n) or MV %n source command is used.
 
-
-
-## Note: 
-
+## Note
 
 > Leading and trailing spaces are removed and groups of one or more embedded spaces are replaced by a single field mark. Use the IBN command if you want to maintain embedded spaces. If the user responds with ENTER only, a null parameter will be created.
 
-
 When the command has been completed, the buffer pointer will be positioned at the beginning of the buffer.
-
-
 
 ### EXAMPLE 1
 
-
-| Input <br> | SIB Before <br> | SIB After <br> |
+| Input  | SIB Before  | SIB After  |
 | --- | --- | --- |
-| ABC<br> | ^<br> | ABC<br> |
-| <br> |               ^<br> | ^<br> |
-
-
-
+| ABC | ^ | ABC |
+|  |               ^ | ^ |
 
 ### EXAMPLE 2
 
-
-| Input <br> | SIB Before <br> | SIB After <br> |
+| Input  | SIB Before  | SIB After  |
 | --- | --- | --- |
-| ABC DEF<br> | XYZ<br> | ABC^DEF<br> |
-| <br> | ^<br> | ^<br> |
-
-
-
+| ABC DEF | XYZ | ABC^DEF |
+|  | ^ | ^ |
 
 ### EXAMPLE 3
 
-
-| Input<br> | SIB Before<br> | SIB After <br> |
+| Input | SIB Before | SIB After  |
 | --- | --- | --- |
-| &lt;ENTER&gt;<br> | WWW^XXX<br> | <br> |
-| <br> | ^<br> | ^<br> |
-
-
-
+| &lt;ENTER&gt; | WWW^XXX |  |
+|  | ^ | ^ |
 
 Back to [JCL Commands](./../jcl-commands)
