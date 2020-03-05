@@ -1,4 +1,4 @@
-# JCL U
+# jCL U
 
 **Created At:** 5/29/2018 7:20:41 AM  
 **Updated At:** 6/6/2019 8:22:01 AM  
@@ -6,10 +6,9 @@
 **Original ID:** 318878  
 **Internal:** No  
 
+## Description
 
-## Description 
-
-This command executes a "user exit" from a **jCL**program. It takes the general form:
+This command executes a "user exit" from a **jCL** program. It takes the general form:
 
 ```
 Unxxx
@@ -17,23 +16,16 @@ Unxxx
 
 Where:
 
-- n represents the user exit entry point
-- xxx is the id of the user exit.
+- **n** represents the user exit entry point
+- **xxx** is the id of the user exit.
 
+## Note
 
-
-
-## Note: 
-
-
-> User exits are user written functions, which are used to manipulate buffers and perform tasks beyond the scope of the standard jCL  commands.
-> 
+> User exits are user written functions, which are used to manipulate buffers and perform tasks beyond the scope of the standard jCL commands.
+>
 > See the Time and Date topic and the TR command for more examples of "standard" user exits.
 
-
-
-
-###### EXAMPLE 1
+### Example 1
 
 ```
 012 U31AD
@@ -41,9 +33,7 @@ Where:
 
 Returns the current port number.
 
-
-
-###### EXAMPLE 2
+### Example 2
 
 ```
 012 U307A
@@ -52,9 +42,7 @@ Returns the current port number.
 
 Causes the process to "sleep" for 300 seconds.
 
-
-
-###### EXAMPLE 3
+### Example 3
 
 ```
 003 U407A
@@ -63,6 +51,4 @@ Causes the process to "sleep" for 300 seconds.
 
 Causes the process to "sleep" until 12:10.
 
-
-
-
+Back to [jCL.](./../README.md)

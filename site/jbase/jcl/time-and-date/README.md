@@ -1,11 +1,10 @@
-# Time and Date 
+# Time and Date
 
 **Created At:** 5/23/2018 2:57:49 PM  
 **Updated At:** 6/1/2018 5:14:13 PM  
 **Original Doc:** [318037-time-and-date](https://docs.jbase.com/45792-jcl/318037-time-and-date)  
 **Original ID:** 318037  
 **Internal:** No  
-
 
 The following commands provide a simple way of putting the current system time and date into the currently active input buffer:
 
@@ -41,27 +40,21 @@ D D2/
 
 Puts the current date, in external format (D2/ yields dd/mm/yy or mm/dd/yy - depending on your internationalization settings), in the current input buffer (in this case, %33).
 
-
-
-## Validating Time and Date 
+## Validating Time and Date
 
 You can use pattern matching to input a valid date or time but it does not catch input like 10/32/94 or 25:25:25.
 
 The example below checks for a valid date in D2/ format by converting it. This mechanism works because an invalid date converts to null.
 
 ```
-001 PQN
-002 10 T "Enter date (mm/dd/yy) :", +
-003 IF # %1 XFinished
-004 IBP %1
-005 MV %2 "
-006 IBH%1;D2/;
-007 IF # %2 T B,"Oops!"\ GO  10
-008 C Date OK
+PQN
+10 T "Enter date (mm/dd/yy) :", +
+IF # %1 XFinished
+IBP %1
+MV %2 "
+IBH%1;D2/;
+IF # %2 T B,"Oops!"\ GO  10
+C Date OK
 ```
 
-
-
-
-
-Back to [JCL Commands.](./../jcl)
+Back to [jCL.](./../README.md)

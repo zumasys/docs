@@ -1,4 +1,4 @@
-# JCL RO
+# jCL RO
 
 **Created At:** 5/28/2018 11:19:51 AM  
 **Updated At:** 6/1/2018 5:35:41 PM  
@@ -12,7 +12,7 @@
 <badge text='primary' vertical='middle' />
 <badge text='jcl' vertical='middle' />
 
-## Description 
+## Description
 
 This command resets (clears) the active output buffer. It takes the general form:
 
@@ -20,40 +20,28 @@ This command resets (clears) the active output buffer. It takes the general form
 RO
 ```
 
-
-
-## Note: 
-
+## Note
 
 > The RO command clears the active output buffer. The buffer pointer is left at the beginning of the buffer.
 
+### Example 1
 
+```
+| Command | POB Before | POB After  |
+| ------- | ---------- | ---------  |
+| STOFF   |            |            |
+| RO      | ABC^DEF    |            |
+|         |        ^   | ^          |
+```
 
+### Example 2
 
-###### EXAMPLE 1
+```
+| Command | SOB Before | SOB After |
+| --------| ---------- | --------- |
+| STON    |            |           |
+| RO      | GHI^JKL    |           |
+|         |        ^   | ^         |
+```
 
-
-| Command  | POB Before  | POB After  |
-| --- | --- | --- |
-| STOFF<br> | <br> | <br> |
-| RO<br> | ABC^DEF<br> | <br> |
-| <br> |                ^ | ^<br> |
-
-
-
-
-###### EXAMPLE 2
-
-
-| Command  | SOB Before  | SOB After  |
-| --- | --- | --- |
-| STON<br> | <br> | <br> |
-| RO<br> | GHI^JKL<br> | <br> |
-| <br> |               ^  | ^<br> |
-
-
-
-
-Back to [JCL Commands](./../jcl-commands)
-
-
+Back to [jCL.](./../README.md)

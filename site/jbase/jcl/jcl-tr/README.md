@@ -1,4 +1,4 @@
-# JCL TR
+# jCL TR
 
 **Created At:** 6/8/2018 10:10:00 AM  
 **Updated At:** 6/11/2018 4:19:25 AM  
@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='jcl' vertical='middle' />
 
-## Description 
+## Description
 
 The command traces jCL program execution and displays each command (source line) before it is executed.
 
@@ -41,24 +41,22 @@ If the target program relies on the initial content of the PIB, the following li
 
 to move the PIB parameters to their required positions - otherwise the word TRACE will appear in %1 and the jCL program name (normally in %1) will be in %2.
 
-
-
-### EXAMPLE
+### Example
 
 ```
-001 PQN
-002 TR
-003 MV %21 ","," "
-004 MV %98 1,A
-005 S21
-006 U147F
-007 T MTS
-008 S23
-009 U147F
-010 D D2
-011 T "Today"s date is ", %23
-012 T "the time is ",%21
-013 TR OFF
+PQN
+TR
+MV %21 ","," "
+MV %98 1,A
+S21
+U147F
+T MTS
+S23
+U147F
+D D2
+T "Today"s date is ", %23
+T "the time is ",%21
+TR OFF
 ```
 
 will output:
@@ -78,6 +76,4 @@ the time is 19:30:32
 
 Line 2 turns the trace on. Line 13 turns it off.
 
-
-
-Back to [JCL Commands](./../jcl-commands)
+Back to [jCL.](./../README.md)

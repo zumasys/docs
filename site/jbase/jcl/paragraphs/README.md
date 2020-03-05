@@ -1,11 +1,10 @@
-# Paragraphs 
+# Paragraphs
 
 **Created At:** 5/28/2018 10:12:58 AM  
 **Updated At:** 4/29/2019 11:22:44 PM  
 **Original Doc:** [318606-paragraphs](https://docs.jbase.com/45792-jcl/318606-paragraphs)  
 **Original ID:** 318606  
 **Internal:** No  
-
 
 ## Description
 
@@ -15,7 +14,7 @@ Paragraphs are stored procedures in that their contents can contain a sequence o
 jsh ~ -->paragraph_name
 ```
 
-Paragraphs can also be stored and run from any file via the **para**command:
+Paragraphs can also be stored and run from any file via the **para** command:
 
 ```
 para {filename} paragraph_name
@@ -29,8 +28,6 @@ A logon paragraph record can also be invoked by the jShell via the dash option:
 jsh -
 ```
 
-
-
 ## Format
 
 The first line of a paragraph record begins with PA e.g.
@@ -42,15 +39,15 @@ PARAGRAPHX
 
 This line can then be followed by any of the following :
 
-**Comment lines**
+## Comment lines
 
 Any Line preceded by an asterisk. e.g:
 
 ```
-* THIS IS A COMMENT LINE
+* This is a comment line
 ```
 
-**Label**
+## Label
 
 Any non-spaced text suffixed by a colon. e.g.:
 
@@ -58,9 +55,7 @@ Any non-spaced text suffixed by a colon. e.g.:
 Label:
 ```
 
-
-
-**Paragraph Prompt**
+## Paragraph Prompt
 
 A paragraph prompt to obtain values, e.g.:
 
@@ -78,82 +73,71 @@ where:
 
 - code may be:
 
-
-
 | Code | Meaning |
 | --- | --- |
-| A | Always Prompt.<br> |
-| Cn<br> | Use parameter n from command line. If value does not exist then null is used.<br> |
-| In<br> | Use parameter n from command line. If value does not exist then prompt.<br> |
-| Sn<br> | Use parameter n from original command line. If value does not exist then prompt.<br> |
-| P<br> | Use input for all PromptIds of the same name. This is the default action.<br> |
-| R{s}Prompt<br> | use s as separator, until null input. Default separator is space.<br> |
-| F(File, RecordId {,Attr {,Value {,Subvalue}}})<br> | Input from record RecordId, in file File.<br> |
-| @(c,r)<br> | Prompt at column c, row r.<br> |
-| @(BELL)<br> | Sound BELL at prompt.<br> |
-| @(CLR)<br> | Clear screen before prompt.<br> |
-| @(TOF)<br> | Prompt at top left of screen.<br> |
-
+| A | Always Prompt. |
+| Cn | Use parameter n from command line. If value does not exist then null is used. |
+| In | Use parameter n from command line. If value does not exist then prompt. |
+| Sn | Use parameter n from original command line. If value does not exist then prompt. |
+| P | Use input for all PromptIds of the same name. This is the default action. |
+| R{s}Prompt | use s as separator, until null input. Default separator is space. |
+| F(File, RecordId {,Attr {,Value {,Subvalue}}}) | Input from record RecordId, in file File. |
+| @(c,r) | Prompt at column c, row r. |
+| @(BELL) | Sound BELL at prompt. |
+| @(CLR) | Clear screen before prompt. |
+| @(TOF) | Prompt at top left of screen. |
 
 - PromptId   Identifier used to name prompt values.
 - Mask  Validate Input
-Pattern Match
-e.g. 0N - Match any numerics
-7X - Match seven printable characters.
-3A - Match three alpha characters.
-text - Match text
-(Conversion)
-e.g. (D2/) - Match date dd/mm/yy or mm/dd/yy.
+- Pattern Match e.g. 
+  - 0N - Match any numerics
+  - 7X - Match seven printable characters.
+  - 3A - Match three alpha characters.
+  - text - Match text
+- (Conversion) e.g. 
+  - (D2/) - Match date dd/mm/yy or mm/dd/yy.
 
-~~Mask means input should NOT  match mask.
+~~Mask meansinput should NOT match mask.
 
-
-## Note: 
-
+## Note
 
 > A Paragraph prompt not mixed with a command line or paragraph statement will attempt to execute the resultant value.
-
-
-## 
-
 
 ### Paragraph Statement  
 
 One of the following syntax statements.
 
-
 | Statement | Result |
 | --- | --- |
-| DISPLAY text<br> | Output text<br> |
-| DATA Input<br> | Stacked input<br> |
-| GO  Label<br> | Continue at Label<br> |
-| LOOP<br> | Start Loop<br> |
-| REPEAT<br> | Repeat Loop<br> |
-| CLEARPROMPTS<br> | Clear Prompt Identifier Values<br> |
-
+| DISPLAY text | Output text |
+| DATA Input | Stacked input |
+| GO  Label | Continue at Label |
+| LOOP | Start Loop |
+| REPEAT | Repeat Loop |
+| CLEARPROMPTS | Clear Prompt Identifier Values |
 
 IF Expression THEN Statement
 
 where:
 Expression - Includes PromptId, operators and/or @variables
 
-
-| @DATE<br> | Current internal date<br> | <br> |
-| @TIME<br> | Current internal time<br> | <br> |
-| @DAY<br> | Current two digit day of month<br> | <br> |
-| @MONTH<br> | Current two digit month of year<br> | <br> |
-| @YEAR<br> | Current two digit year<br> | <br> |
-| @LOGNAME<br> | Environment PLID value<br> | SYSTEM(49)<br> |
-| @USERNO<br> | Current port number<br> | SYSTEM(18)<br> |
-| @WHO<br> | Current user name<br> | SYSTEM(19)<br> |
-| @ABORT .CODE<br> | Last error code<br> | SYSTEM(17)<br> |
-| @SYSTEM.RETURN .CODE<br> | Last error code<br> | SYSTEM(17)<br> |
-| @USER.RETURN .CODE<br> | TBD<br> | <br> |
-
+| <!----> | <!----> |
+| --- | --- |
+| @DATE | Current internal date |  |
+| @TIME | Current internal time |  |
+| @DAY | Current two digit day of month |  |
+| @MONTH | Current two digit month of year |  |
+| @YEAR | Current two digit year |  |
+| @LOGNAME | Environment PLID value | SYSTEM(49) |
+| @USERNO | Current port number | SYSTEM(18) |
+| @WHO | Current user name | SYSTEM(19) |
+| @ABORT .CODE | Last error code | SYSTEM(17) |
+| @SYSTEM.RETURN .CODE | Last error code | SYSTEM(17) |
+| @USER.RETURN .CODE | TBD |  |
 
 Operators include MATCHES, EQ, LE, LT, etc.
 
-Command
+Command:  
 Any executable command with or without paragraph prompts. e.g:
 
 ```
@@ -166,10 +150,7 @@ or
 SELECT  FILEX
 ```
 
-##### 
-
-
-##### EXAMPLES
+### Examples
 
 PARAGRAPHX
 
@@ -184,8 +165,6 @@ PARAGRAPHX
 007 END:
 ```
 
-
-
 PARAGRAPHX
 
 ```
@@ -198,4 +177,4 @@ PARAGRAPHX
 007 DISPLAY ENTER
 ```
 
-
+Back to [jCL.](./../README.md)
