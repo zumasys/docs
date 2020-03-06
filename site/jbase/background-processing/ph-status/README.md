@@ -6,8 +6,7 @@
 **Original ID:** 321824  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 The jBASE **PH-STATUS** command displays status and history information for each jBASE background task process. The information is read from the **$JBCRELEASEDIR/tmp/PH-HISTORY** file.
 
@@ -24,64 +23,50 @@ Where:
 - **-L1** is the default display format
 - -**L2** is an alternate display format
 - **task-id** is the name of the jBASE background task process specified in the [**PH-START**](./../ph-start) procedure. Use an asterisk (\*) to indicate that you want all tasks for **port** which is the port number of the jBASE background task process for which to limit the display.
-- **-h**Help page
-- **-?**Help page
-
+- **-h** Help page
+- **-?** Help page
 
 and options:
 
 - **P** Redirect output to the spooler.
-- **N**No paging
-
+- **N** No paging
 
 The output can be restricted by specifying one or more valid status codes as options (See example below).
 
-
-
-### **Note:**
-
+### Note
 
 > The information displayed in the PH-STATUS screen is contained in columns:
-> 
+>
 > ```
 > TASK-ID..LINE ACCOUNT. STARTER-ACC DATE....... TIME.. STATUS OP OUTFL#
 > ```
 
-
-
-| **Column** | **Description** |
+| Column | Description |
 | --- | --- |
-| **TASK-ID** | is the name identifier give to the jBASE background task process by the PH-START procedure.<br> |
-| **LINE** | is the port number running the jBASE background task process.<br> |
-| **ACCOUNT** | is the userid/account-name that the jBASE background task process is using for execution.<br> |
-| **STARTER-ACC** | is the name of the userid/account from which the jBASE background task process was started.<br> |
-| **DATE** | is the date the jBASE background task process was started.<br> |
-| **TIME** | is the time the jBASE background task process was started.<br> |
-| **STATUS** | is the current status of the jBASE background task process.(see "Status Codes" below).<br> |
-| **OP** | indicates the options that were assigned to the jBASE background task process.<br> |
-| **OUTFL#** | is the spooler job number where output has been redirected.<br> |
-
+| **TASK-ID** | is the name identifier give to the jBASE background task process by the PH-START procedure. |
+| **LINE** | is the port number running the jBASE background task process. |
+| **ACCOUNT** | is the userid/account-name that the jBASE background task process is using for execution. |
+| **STARTER-ACC** | is the name of the userid/account from which the jBASE background task process was started. |
+| **DATE** | is the date the jBASE background task process was started. |
+| **TIME** | is the time the jBASE background task process was started. |
+| **STATUS** | is the current status of the jBASE background task process.(see "Status Codes" below). |
+| **OP** | indicates the options that were assigned to the jBASE background task process. |
+| **OUTFL#** | is the spooler job number where output has been redirected. |
 
 The PH-HISTORY file must be cleared manually, by the [**PH-CLEAR**](./../ph-clear) command.
 
+### Status Codes
 
-
-### **Status Codes**
-
-
-| **Code** | **Description** |
+| Code | Description |
 | --- | --- |
-| **A** | Process is still active.<br> |
-| **S** | Process terminated by the operating system.<br> |
-| **T** | Process terminated normally.<br> |
-| **X** | Process terminated incorrectly. Usually because the executing process requires input but there are no more statements left in the command stack.<br> |
-| **K** | Process terminated by the [PH-KILL](./../ph-kill) command.<br> |
-| **Q** | Process queued for port.<br> |
+| **A** | Process is still active. |
+| **S** | Process terminated by the operating system. |
+| **T** | Process terminated normally. |
+| **X** | Process terminated incorrectly. Usually because the executing process requires input but there are no more statements left in the command stack. |
+| **K** | Process terminated by the [PH-KILL](./../ph-kill) command. |
+| **Q** | Process queued for port. |
 
-
-
-
-### **EXAMPLES**
+### Example
 
 ```
 LES ~ -->PH-STATUS
@@ -95,4 +80,4 @@ TEL.LIST 999  ADMIN        ADMIN       06 JAN 1999 15:06:20      A         6
 
 **ph-status (at**   Display only Active and Terminated tasks.
 
-[**Back to**](./../ph-clear)**[jBPT](./../jbtp)**
+Back to [Background Processing](./../README.md)

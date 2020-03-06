@@ -1,4 +1,4 @@
-# PH-CLEAR 
+# PH-CLEAR
 
 **Created At:** 6/14/2018 2:08:08 PM  
 **Updated At:** 7/19/2018 12:12:16 PM  
@@ -6,10 +6,9 @@
 **Original ID:** 321817  
 **Internal:** No  
 
+## Description
 
-## Description 
-
-The jBASE PH-CLEAR command clears the jBTP log and history file. The command may be as:
+The jBASE **PH-CLEAR** command clears the jBTP log and history file. The command may be as:
 
 ```
 PH-CLEAR {taskid | port} {(Options}
@@ -17,26 +16,18 @@ PH-CLEAR {taskid | port} {(Options}
 
 where:
 
-- taskid specifies that only the entries for the taskid are to be cleared.
-- port specifies that the entries for the port number are to be cleared.
+- **taskid** specifies that only the entries for the taskid are to be cleared.
+- **port** specifies that the entries for the port number are to be cleared.
 
-
-and options may be:
+and **options** may be:
 
 - I  Clear entries interactively. i.e. prompt before deleting entry.
 
-
-
-
-## Note: 
-
+## Note
 
 > This command can only be executed by the super user/Administrators. If a taskid, port number or interactive option is NOT specified all entries in the log file will be deleted.
 
-
-
-
-### EXAMPLE
+### Example
 
 ```
 PH-CLEAR 100
@@ -44,6 +35,4 @@ PH-CLEAR 100
 
 Deletes log and history records for port number 100.
 
-
-
-Back to [jBTP](./../jbtp)
+Back to [Background Processing](./../README.md)

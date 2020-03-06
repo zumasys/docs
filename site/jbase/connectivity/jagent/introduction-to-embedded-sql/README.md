@@ -1,4 +1,4 @@
-# INTRODUCTION TO EMBEDDED SQL
+# Introduction to Emedded SQL
 
 **Created At:** 3/13/2017 6:46:27 PM  
 **Updated At:** 1/3/2018 2:36:31 PM  
@@ -33,7 +33,7 @@ Currently jcompile will do some of the pre-processing before invoking ESQL compi
 
 - jcompile -Jqm mytest.b
 
-jbase will generate
+jBASE will generate
 
 - mytest.j                        generic jbase header containing variable structures, includes etc…
 - mytest.k                        C representation of the DECLARE section for mytest.b

@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='jbase_agent' vertical='middle' />
 
-# DOCUMENT SCOPE
+## Document Scope
 
 This document describes many concepts and methodologies that are highly technical in nature, and as such prerequisite knowledge of the following is considered essential:
 
@@ -17,10 +17,7 @@ This document describes many concepts and methodologies that are highly technica
 - Secure Sockets Layer (SSL) protocol
 - HTTP concepts including headers, cookies and CGI for REST services
 
-
-
-
-# jAGENT INTRODUCTION
+## jAGENT Introduction
 
 jAgent is a **server-side** jBASE component responsible for accepting and processing incoming client requests. Communication is established via TCP socket connections and by means of a well defined protocol. jAgent is a socket server listening on a user-defined TCP port and has the capability to serve a wide range of client applications as long as they speak the same protocol.
 
@@ -34,14 +31,11 @@ This protocol is currently implemented by the following jBASE components:
 - jBASE ODBC Driver (Requires Client)
 - jBASE RESTful services (No client required, runs as web service on jBase box)
 
-
-
-
-# jAGENT ADMINISTRATION
+## jAGENT Administration
 
 jAgent is a standalone program that you can start from any command prompt to launch a jAgent Service.  The actual program is located in the jBase install directory under the bin directory.  You can run multiple copies of jAgent each with it's own configuration.  jAgent can be configured either thru command line switches or thru a configuration file.  A default configuration file is located in the jbase install directory under configuration and is called jagent\_config.  jAgent can also be configured to run as a service.
 
-## JAGENT QUICK START
+## jAGENT Quick Start
 
 Just like any other jBase function you must have a jbase configured environment before you start jAgent.  The fastest way to get started is to launch jAgent from a already configured jsh environment.
 
@@ -60,7 +54,7 @@ C:\jBASE\JBASEADM>JBASE_AGENT --config=
 
 Or Linux
 
-```
+``` bash
 -bash-4.2$ jb
 Account name or path: JBASEADM
 jsh JBASEADM ~ -->bash
@@ -72,9 +66,9 @@ Now open up a browser and point at your server port 20002.  Below is a example 
 
 ![introduction-to-jagent: 1535132303031-1535132303031](./1535132303031-1535132303031.jpg)
 
-On linux you can use curl (which you can also install on windows) and test the server from the command prompt
+On Linux you can use curl (which you can also install on windows) and test the server from the command prompt
 
-```
+``` json
 C:\Users\patrickp>curl http://localhost:20002
 {"RestVersion":"1.1", "Who":"1 patrickp", "pwd":"C:\\Users\\patrickp", "wresttest": [ "File path:                C:\\Users\\patrickp","File path:                .","Subroutine object:        main()","Subroutine object:        C:\\Users\\patrickp\\lib\\lib0.dll","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjbaseutil","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjcon","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjee","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjrest","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjsub","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjwobj","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libsql","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libSQLSYS","Shared Object             C:\\jBASE\\CurrentVersion\\bin\\WRESTTEST.dll","Executable (DUP!!)        C:\\jBASE\\CurrentVersion\\bin\\WRESTTEST.exe"], "vars": {}, "cookies": {}, "headers": {"REMOTE_ADDR":"127.0.0.1", "REMOTE_HOST":"127.0.0.1", "PROTOCOL_VERSION":"HTTP\/1.1", "REQUEST_METHOD":"GET", "PATH_INFO":"\/api\/wresttest", "SERVER_PORT":"20002", "HTTP_ACCEPT":"*\/*", "HTTP_USER_AGENT":"curl\/7.55.1", "HTTP_HOST":"localhost:20002"}, "body":"", "status":"ok", "statusmsg":""}
 C:\Users\patrickp>
@@ -89,7 +83,11 @@ It is recommended during development to use jAgent in this manner.  You are abl
 ```
 c:\jbase\jbaseadmin> COPY C:\JBASE\CURRENTVERSION\CONFIG\JAGENT_CONFIG .
 c:\jbase\jbaseadmin>jbase_agent --config=.\jagent_config  
-or linux
+```
+
+or Linux
+
+``` bash
 # cp /opt/jbase/CurrentVersion/config/jagent_config ./
 # jbase_agent --config=./jagent_config
 ```
@@ -114,73 +112,63 @@ You can also run jAgent as a service.  You should
 7. If everything is working you can then install jAgent as a service as described later in this document.
 8. It is always best to be able to run any jAgent instance locally to diagnose why it isn't working.  Only after you have it working should you move to have it as a service.
 
+## Starting and Configuring jAGENT
 
-
-
-STARTING AND CONFIGURING jAGENT:
-
-**COMMAND SYNTAX:**
+### Command Syntax
 
 ```
 jbase_agent [service options] [options]
 ```
 
-**COMMAND ELEMENTS:**
+### Command Elements
 
 - **Service Options -** install, start, stop and remove jagent service.
 - **Options -** configure jagent behavior. Most options have both long and short forms. For convenience, most options can be specified in a configuration file, and only the --config option is needed on the command line.
 
-
-
-| **Option** <br> | **Description** <br> |
+| **Option**  | **Description**  |
 | --- | --- |
-| --config=[config file name]<br> | Use [config file name] to specify jagent options. When using the jBASE HTTP API (RESTful services), a configuration file is required, as it specifies how HTTP requests are handled.  E.g. jbase\_agent --config=$JBCRELEASEDIR/config/ jagent\_config<br>You must put a = sign in the switch.  If you do not define a config file then jagent will look for one in your jbase install directory config/jagent\_config.  Therefore jagent\_config --config myconfig will not use "myconfig" but will pull the default config due to the missing equal sign.<br> |
-| -A [mode]    --authentication=[mode]<br> | [mode] = the mode (none|user|account) used to authenticate client connections. This option is ignored for jBASE HTTP connections.  E.g. jbase\_agent -A user It is recommended you do not use none for non HTTP sessions.  <br> |
-| -b [interfaceName]--bind\_address=[interfaceName]<br> | Bind to a specific local interface. If not specified then bind to all local interfaces.  e.g. jbase\_agent -b 1.2.3.4<br> |
-| -c [path to certificate]--certificate=[path to certificate]<br> | [path to certificate] = the path to a valid x509 certificate.  Note --private\_key is mandatory with this option.<br> |
-| -F<br> | Create log files for each client connection (P[pid].log)<br> |
-| -h<br> | Print this screen<br> |
-| -k [path to private key]--private\_key=[path to private key]<br> | [path to privatekey] = the path to a valid private key.  Certificate is mandatory with this option.  E.g. jbase\_agent --private\_key=key.pem --certificate=cert.pem<br> |
-| L [logLevel]--loglevel=[logLevel]<br> | [logLevel] = a numeric log level that determines the detail to be logged (default level is LOG\_NOTICE).0 NO LOGGING1  LOG\_TRACE2  LOG\_DEBUG3 LOG\_INFO4  LOG\_NOTICE5  LOG\_WARNING6  LOG\_ERROR7  LOG\_CRITICAL8  LOG\_ALERT9  LOG\_EMERGENCY<br> |
-| -n [serviceName]--service\_name=[serviceName]<br> | [serviceName] = name of the service to install, start, stop or remove. (windows)<br> |
-| -N<br> | Do not set TCP\_NO\_DELAY. Useful for performance tuning.<br> |
-| -p [listenPort]--port=[listenPort]<br> | [listenPort] = theport that will listen for client connections.  E.g. jbase\_agent -p 20003<br> |
-| -R [bufferSize]--read\_buf\_size=[bufferSize]<br> | Set read buffer size (in bytes) to [bufferSize]. If not specified uses default buffer size.<br> |
-| -W [bufferSize]--write\_buf\_size=[bufferSize]<br> | Set write buffer size (in bytes) to [bufferSize]. If not specified uses default buffer size.<br> |
+| --config=[config file name] | Use [config file name] to specify jagent options. When using the jBASE HTTP API (RESTful services), a configuration file is required, as it specifies how HTTP requests are handled.  E.g. jbase\_agent --config=$JBCRELEASEDIR/config/ jagent\_configYou must put a = sign in the switch.  If you do not define a config file then jagent will look for one in your jbase install directory config/jagent\_config.  Therefore jagent\_config --config myconfig will not use "myconfig" but will pull the default config due to the missing equal sign. |
+| -A [mode]    --authentication=[mode] | [mode] = the mode (none|user|account) used to authenticate client connections. This option is ignored for jBASE HTTP connections.  E.g. jbase\_agent -A user It is recommended you do not use none for non HTTP sessions.   |
+| -b [interfaceName]--bind\_address=[interfaceName] | Bind to a specific local interface. If not specified then bind to all local interfaces.  e.g. jbase\_agent -b 1.2.3.4 |
+| -c [path to certificate]--certificate=[path to certificate] | [path to certificate] = the path to a valid x509 certificate.  Note --private\_key is mandatory with this option. |
+| -F | Create log files for each client connection (P[pid].log) |
+| -h | Print this screen |
+| -k [path to private key]--private\_key=[path to private key] | [path to privatekey] = the path to a valid private key.  Certificate is mandatory with this option.  E.g. jbase\_agent --private\_key=key.pem --certificate=cert.pem |
+| L [logLevel]--loglevel=[logLevel] | [logLevel] = a numeric log level that determines the detail to be logged (default level is LOG\_NOTICE).0 NO LOGGING1  LOG\_TRACE2  LOG\_DEBUG3 LOG\_INFO4  LOG\_NOTICE5  LOG\_WARNING6  LOG\_ERROR7  LOG\_CRITICAL8  LOG\_ALERT9  LOG\_EMERGENCY |
+| -n [serviceName]--service\_name=[serviceName] | [serviceName] = name of the service to install, start, stop or remove. (windows) |
+| -N | Do not set TCP\_NO\_DELAY. Useful for performance tuning. |
+| -p [listenPort]--port=[listenPort] | [listenPort] = theport that will listen for client connections.  E.g. jbase\_agent -p 20003 |
+| -R [bufferSize]--read\_buf\_size=[bufferSize] | Set read buffer size (in bytes) to [bufferSize]. If not specified uses default buffer size. |
+| -W [bufferSize]--write\_buf\_size=[bufferSize] | Set write buffer size (in bytes) to [bufferSize]. If not specified uses default buffer size. |
 
-
-
-
-##  RUNNING jAGENT AS A SERVICE:
+## Running jAGENT as a Service
 
 When running jAgent as a service on Windows, the startup directory will be C:\Windows\System32. On non-Windows platforms, it will be the current directory of the process that starts the jAgent service. If you need jAgent to run in a different directory, you can set the HOME environment variable in the jAgent configuration file [ENVIRONMENT] section.  The example below uses the DEMO\_REST account used in the Introduction to jAgent REST Services.
 
-
-
 ```
-[ENVIRONMENT] 
-; Use the standard jbase_env script to set up the jBASE 
-; system environment variables. 
-; Set up the "account" environment variables. 
-;HOME=$CURDIR 
-HOME=/opt/jbase/DEMO_REST 
-PATH=$HOME/bin:$PATH 
-JBCOBJECTLIST=$HOME/lib 
-JEDIFILEPATH=$HOME 
-JEDIFILENAME_MD=$HOME/MD 
+[ENVIRONMENT]
+; Use the standard jbase_env script to set up the jBASE
+; system environment variables.
+; Set up the "account" environment variables.
+;HOME=$CURDIR
+HOME=/opt/jbase/DEMO_REST
+PATH=$HOME/bin:$PATH
+JBCOBJECTLIST=$HOME/lib
+JEDIFILEPATH=$HOME
+JEDIFILENAME_MD=$HOME/MD
 ```
 
 *Note: APPDIR and CURDIR if not set refer to the  location of the **jbase\_agent** executable and the current directory respectively.*
 
-#### jAgent Environment Variables
+### jAgent Environment Variables
 
 The jbase\_agent process inherits the environment from the invoking process. If a config file is used at startup then additional environment variables can be set/modified in the [ENVIRONMENT] section (see above).
 
-## STARTING jAGENT AS A SERVICE:
+## Starting jjAGENT as a Service
 
 The service options allow jAgent to be installed and started as a Win32 Service on Windows platforms, and as a daemon on Unix platforms.
 
-**Windows Service**
+### Windows Service
 
 jbase\_agent **install** [-n &lt;Service Name&gt;] &lt;options&gt;
 
@@ -197,7 +185,7 @@ Example:
 Using the DEMO\_REST account used in the Introduction to jAgent REST Services, the default location used by CREATE-ACCOUNT to create the DEMO\_REST account is C:\jbase, so the working directory for jAgent service would be C:\jbase\DEMO\_REST. That is the path to use for HOME in the jagent\_config file. The commands to start jAgent service:
 
 ```
-; In this example it is using the default config.  It is recommend for production you copy this config to your application and reference that config file. 
+; In this example it is using the default config.  It is recommend for production you copy this config to your application and reference that config file.
 ; You must still setup all your environment stuff correctly in the [ENVIRONMENT]  area for your application
 
 jbase_agent install --config=C:\jbase\CurrentVersion\config\jagent_config
@@ -205,11 +193,11 @@ jbase_agent install --config=C:\jbase\CurrentVersion\config\jagent_config
 jbase_agent start
 ```
 
-**Unix Service**
+### UNIX Service
 
-On unix it is recommended you install jAgent as a systemd service.  This is a system administrator level duty.  It is best to be familiar with systemd and how scripts are configured.  Below is a sample.
+On UNIX it is recommended you install jAgent as a systemd service.  This is a system administrator level duty.  It is best to be familiar with systemd and how scripts are configured.  Below is a sample.
 
-```
+``` bash
 ;First create our scripts and our environment.
 # cd /path/to/myscripts
 # cp /opt/jbase/CurrentVersion/config/jagent_config ./jagent_20002_config
@@ -228,7 +216,7 @@ FI
 
 When the service is working add a systemd script.
 
-```
+``` bash
 # sudo su
 # useradd jagent
 # usermod -g jbase jagent     # this is optional, but you must run jagent as a user that has correct permissions.  You must adjust the jbase group to be whatever group your platform users.
@@ -273,17 +261,13 @@ Aug 24 11:14:49 jBase01 jagent_20002.sh[19584]: (10085|140213281888320) DEBUG  R
 # systemctl enable jbase_20002       ; # this will start jagent on reboots
 ```
 
-
-
-
-
-## ENABLING SSL ENCRYPTION:
+## Enabling SSL Encryption
 
 jAgent may be configured to use SSL encryption. To activate SSL encryption, you must specify a valid x509 certificate and a private key. The certificate and key may be specified using command line options, or in the jAgent configuration file.
 
 The following example describes how to create a self-signed certificate with *OpenSSL*:
 
-**Create a self-signed certificate with OpenSSL**
+### Create a self-signed certificate with OpenSSL
 
 1. Create an RSA private key:
 
@@ -308,7 +292,7 @@ Locality Name (eg, city) []:
 Organization Name (eg, company) [Internet Widgits Pty Ltd]:
 Organizational Unit Name (eg, section) []:
 Common Name (e.g. server FQDN or YOUR name) []:
-Email Address []: 
+Email Address []:
 ```
 
 2. Start jAgent in SSL mode
@@ -317,9 +301,7 @@ Email Address []:
 C:\programs\openssl\bin>jbase_agent -c cert.pem -k key.pem --config %HOME%\jagent_config
 ```
 
-
-
-## AUTHENTICATION MODES:
+### Authentication Modes
 
 For jRemote, ODBC and JDBC clients, jAgent supports three different authentication modes (See command line options):
 
@@ -327,45 +309,42 @@ For jRemote, ODBC and JDBC clients, jAgent supports three different authenticati
 - ***2. User -*** authentication verifies user credentials against a local user credentials database.
 - ***3. Account -*** authentication will attempt to use the provided user credentials to log into a specific jBASE account.
 
-
 For REST clients, an appropriate HTTP-based authentication mechanism must be implemented in the REST code.
 
-**Setting up user authentication**
+### Setting up user authentication
 
-1.  Create the jAgent user file
-
-```
-CREATE-FILE JAGENT_USER 1 53 
-[ 417 ] File JAGENT_USER]D created , type = J4 
-[ 417 ] File JAGENT_USER created , type = J4 
-```
-
-2.  Create the user and set the password
+1. Create the jAgent user file
 
 ```
-jbase_agent adduser test 
-jbase_agent passwd test newpassword 
+CREATE-FILE JAGENT_USER 1 53
+[ 417 ] File JAGENT_USER]D created , type = J4
+[ 417 ] File JAGENT_USER created , type = J4
 ```
 
-3.  Now start jbase\_agent with user authentication.
+2. Create the user and set the password
 
-```
-jbase_agent -A user 
+``` bash
+jbase_agent adduser test
+jbase_agent passwd test newpassword
 ```
 
-**Setting up account authentication**
+3. Now start jbase\_agent with user authentication.
+
+``` bash
+jbase_agent -A user
+```
+
+### Setting up account authentication
 
 The environment should be configured with JEDIFILENAME\_SYSTEM set to a valid jBASE SYSTEM file that contains the jBASE accounts you wish to connect to. This can be set in the jAgent configuration file [ENVIRONMENT] section, if desired.
 
 1. Start jbase\_agent to authentication with account authentication
 
+``` bash
+jbase_agent -A account
 ```
-jbase_agent -A account 
-```
 
-
-
-## jAGENT CONFIGURATION FILE:
+## jAGENT Configuration File
 
 All jAgent options and settings can be specified in a configuration file. Use the **--config** command line option to specify the path to the configuration file. A default configuration file, ***jagent\_config***, can be found in the ***config*** directory under the jBASE release directory.
 
@@ -616,7 +595,7 @@ js      = "application/x-javascript"
 css     = "text/css"
 ```
 
-## USING jAGENT FOR REST SERVICES:
+## Using jAGENT for REST Services
 
 **REST Services** are simply HTTP requests, typically sent from a client to the server using the POST method, although other HTTP methods are supported. jAgent can be easily configured to call a jBC subroutine to process HTTP (REST) requests. The jBC subroutine then returns a response which jAgent sends back to the client.
 
@@ -651,33 +630,32 @@ The corresponding resource that JAGENTWDBINIT uses to find the above program is 
 
 See the **WRESTTEST.b** program in **$JBCRELEASEDIR/src/REST** as an example of accessing the data in WWW.INFO as well as examples of how to use various REST subroutines.
 
-## jBASE REST SUPPORT ROUTINES:
+## jBASE REST Support Routines
 
 jBASE includes a library of REST subroutines to simplify implementation of REST services. The default jAgent configuration (jagent\_config) will route URLs where the path begins with /api to the JAGENTWDBINIT subroutine. Actions taken by JAGENTWDBINIT in response to the REST request are controlled by the WDB.RESOURCE file in the account where jAgent is running. The WDB.RESOURCE file is used to register a REST service handler program with a URL path. The first two elements of the URL path are used to form the key to a record in WDB.RESOURCE. For example, if the URL path is /api/wresttest/info, JAGENTWDBINIT will attempt to read the API\*WRESTTEST record from WDB.RESOURCE. If the record is found, and is valid, JAGENTWDBINIT will EXECUTE the program defined in the WDB.RESOURCE record.
 
 **WDB.RESOURCE record layout:**
 
-
-| **Attribute** <br> | **Description** <br> |
-| 001<br> | resource type - this should be 'P'<br> |
-| 002<br> | description of the resource / service<br> |
-| 003<br> | name of program to execute to handle the request<br> |
-| 004<br> | reserved<br> |
-| 005<br> | set to 1 to parse CGI variables before executing handler program<br> |
-| 006<br> | set to 1 to enable this resource, 0 to disable<br> |
-| 007<br> | set to 1 to save request debug information for use with WDEBUG debugging tool, 0 to disable debug info<br> |
-
+| **Attribute**  | **Description**  |
+| 001 | resource type - this should be 'P' |
+| 002 | description of the resource / service |
+| 003 | name of program to execute to handle the request |
+| 004 | reserved |
+| 005 | set to 1 to parse CGI variables before executing handler program |
+| 006 | set to 1 to enable this resource, 0 to disable |
+| 007 | set to 1 to save request debug information for use with WDEBUG debugging tool, 0 to disable debug info |
 
 For example, the WDB.RESOURCE record used for the HELLOWORLD service in the Introduction to jAgent REST Services:
 
-```
- WDB.RESOURCE record ID: API*HELLOWORLD
- 001 P
- 002 Demo HELLO Service
- 003 HELLOWORLD
- 004
- 005 1
- 006 1
+ WDB.RESOURCE record ID: API*HELLOWORLD:
+
+ ```
+ P
+ Demo HELLO Service
+ HELLOWORLD
+
+ 1
+ 1
 ```
 
 Prior to executing the resource handler program defined in the WDB.RESOURCE record, JAGENTWDBINIT initializes the WWW named-common block for use by the handler program. The common block is defined in the WWW.INCLUDE.h file, which is included with jBASE. Elements in this common block include the HTTP headers, query string variables, form variables, cookies, URL parameters and the request content (body). To ensure compatibility with different jBASE emulations, access to elements in this common block is provided by the WGETINFO subroutine, and element indices are defined in WWW.INFO.h (included with jBASE).
@@ -722,25 +700,24 @@ WDB.RESOURCE - The WDB.RESOURCE file is used to register a REST service handler 
 
 [WDEBUG](./../apis/wdebug) - WDEBUG program is a debugging tool for REST services.
 
-## EXAMPLES:
+## Examples
 
-- Starting jAgent on default port (20002): 
-    - ***jbase\_agent***
-- Starting jAgent using a configuration file: 
-    - ***jbase\_agent --config=c:\jbase\CurrentVersion\config\jagent\_config***
-- Starting jAgent on port 20003 and configure tracing to display errors only 
-    - ***jbase\_agent -p 20003 -L 6***
-- Starting jAgent with SSL encryption using certificate *mycert.cer* and private key *mypk.pk* 
-    - ***jbase\_agent -c c:\certs\mycert.cer -k c:\certs\mypk.pk***
-- Installing and starting jAgent as a Windows Service with default service name (jBASE jAgent Server) on default port 
-    - ***jbase\_agent install jbase\_agent start***
-- Installing and starting jAgent as a Windows Service with service name MyAgent1, port 20003, and user authentication 
-    - ***jbase\_agent install -n MyjAgent1 -p 20003 -A user jbase\_agent start***
-- Starting jAgent as a Unix daemon on port 20003 and redirecting logging messages to text files. 
-    - ***jbase\_agent start -p 20003 -F***
+- Starting jAgent on default port (20002):
+  - ***jbase\_agent***
+- Starting jAgent using a configuration file:
+  - ***jbase\_agent --config=c:\jbase\CurrentVersion\config\jagent\_config***
+- Starting jAgent on port 20003 and configure tracing to display errors only
+  - ***jbase\_agent -p 20003 -L 6***
+- Starting jAgent with SSL encryption using certificate *mycert.cer* and private key *mypk.pk*
+  - ***jbase\_agent -c c:\certs\mycert.cer -k c:\certs\mypk.pk***
+- Installing and starting jAgent as a Windows Service with default service name (jBASE jAgent Server) on default port
+  - ***jbase\_agent install jbase\_agent start***
+- Installing and starting jAgent as a Windows Service with service name MyAgent1, port 20003, and user authentication
+  - ***jbase\_agent install -n MyjAgent1 -p 20003 -A user jbase\_agent start***
+- Starting jAgent as a Unix daemon on port 20003 and redirecting logging messages to text files.
+  - ***jbase\_agent start -p 20003 -F***
 
-
-## TROUBLESHOOTING:
+## Triubleshooting
 
 1. Starting jAgent
 
@@ -750,23 +727,18 @@ WDB.RESOURCE - The WDB.RESOURCE file is used to register a REST service handler 
 
 - jAgent is already running on port 20002. Use a different port number if necessary.
 
-
 2. Problems when starting or running jAgent as a Windows Service:
 
 - Use the Event log viewer located in the Windows control panel to check for any errors.
-
 
 3. Error 500
 
 - No valid service defined (i.e. ***services*** config setting). Usually caused by jbase\_agent started with no config file.
 
-
 4. Invalid resource "API\*..."
 
 - api/... not set up in WDB.RESOURCES
 
-
 5. Error 404
 
 - Incorrect url/path (e.g. [http://127.0.0.1:20002/helloworld](http://127.0.0.1:20002/helloworld) instead of [http://127.0.0](http://127.0.0).1:20002/**api**/helloworld)
-

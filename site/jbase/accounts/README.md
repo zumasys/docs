@@ -3,7 +3,7 @@
 ## Topics
 
 [LOGTO](./logto)  
-[QPointers](./qpointers)  
+[F Pointers and Q Pointers](./qpointers)  
 [MD/VOC](./the-md&voc-file)  
 [The SYSTEM file](./system-file/README.md)  
 

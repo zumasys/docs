@@ -36,7 +36,7 @@ jBASE for Linux is officially supported on 64-bit versions of CentOS 5 or above 
 
 2. To gain root or superuser access, login to your system as root, or from a terminal prompt, type the (su) command.
 
-```
+``` bash
 $ su
 ```
 
@@ -46,7 +46,7 @@ $ su
 
 1. To determine the operating system version, run the (uname -a) command from the terminal as root.
 
-```
+``` bash
 # uname -a
 ```
 
@@ -91,7 +91,7 @@ The jBASE installer will check for the following required packages and install t
 
 2. First cd to the directory where the installer is located:
 
-```
+``` bash
 # cd /tmp
 ```
 
@@ -99,13 +99,13 @@ The jBASE installer will check for the following required packages and install t
 
 3. Run chmod +x command to enable the file to be executed, note your filename and build number may vary.
 
-```
+``` bash
 # chmod +x Linux_jBASE_5.5.1.18496_rel_64bit.bin
 ```
 
 4. Run ls -l command to verify the permissions.
 
-```
+``` bash
 # ls -l Linux_jBASE_5.5.1.18496_rel_64bit.bin
 ```
 
@@ -119,7 +119,7 @@ The jBASE installer is an interactive script-based installer. The installer will
 
 1. Launch the installer by typing ./ and then the install file name. Then press Enter.
 
-```
+``` bash
 # ./Linux_jBASE_5.5.1.18496_rel_64bit.bin
 ```
 
@@ -267,7 +267,7 @@ It is recommended that all jBASE users belong to the 'jbase' group, as their pri
 
 2. Run the useradd command to add a new Linux user called for example, jbaseuser. This can be any username you wish.
 
-```
+``` bash
 useradd -m -k /opt/jbase/CurrentVersion/src/skel -g jbase jbaseuser
 ```
 
@@ -275,7 +275,7 @@ useradd -m -k /opt/jbase/CurrentVersion/src/skel -g jbase jbaseuser
 
 3. Set the Linux password for the new user:
 
-```
+``` bash
 # passwd jbaseuser
 ```
 
@@ -287,7 +287,7 @@ Now that we have created a Linux user, in order to login to jBASE, we must creat
 
 1. From the root command prompt, launch the jSHELL prompt by typing jbase.
 
-```
+``` bash
 # jbase
 ```
 

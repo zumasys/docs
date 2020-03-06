@@ -156,7 +156,7 @@ Remember, now that you have created the jBASE Account and the corresponding Wind
 19. Type the same password you configured for jbaseuser, and press Enter.  
 20. Congratulations, you are now logged in to jBASE as the new user account called jbaseuser and at the JSHELL prompt.
 
-### Realted Topics
+### Related Topics
 
 [Upgrading from a previous jBASE version](./../upgrading-from-a-previous-version)
 

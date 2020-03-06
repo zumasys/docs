@@ -6,20 +6,17 @@
 **Original ID:** 321819  
 **Internal:** No  
 
+## Description
 
-## Description 
-
-The jBASE PH-KILL command stops the specified jBASE background task process. The command takes the general form:
+The jBASE **PH-KILL** command stops the specified jBASE background task process. The command takes the general form:
 
 ```
 PH-KILL n
 ```
 
-where n s the port (LINE) number associated with the jBASE background task process to be terminated.
+where **n** is the port (LINE) number associated with the jBASE background task process to be terminated.
 
-
-
-## Error Messages 
+## Error Messages
 
 If a port number is not specified:
 
@@ -27,17 +24,13 @@ If a port number is not specified:
 [316] WHICH LINE?
 ```
 
-
-
 If a port number is specified that is not currently logged on:
 
 ```
 PROCESS NOT LOGGED ON
 ```
 
-
-
-### EXAMPLE
+### Example
 
 ```
 PH-KILL 10000
@@ -45,6 +38,4 @@ PH-KILL 10000
 
 Terminates the jBASE background task process running on port 10000.
 
-
-
-Back to [jBTP](./../jbtp)
+Back to [Background Processing](./../README.md)

@@ -6,10 +6,9 @@
 **Original ID:** 321820  
 **Internal:** No  
 
+## Description
 
-## Description 
-
-The jBASE PH-LINES command displays all allocated jBASE background task port numbers. The command takes the general form:
+The jBASE **PH-LINES** command displays all allocated jBASE background task port numbers. The command takes the general form:
 
 ```
 PH-LINES port {Options}
@@ -17,26 +16,19 @@ PH-LINES port {Options}
 
 where:
 
-- port specifies a port number to be displayed.
-- options may be as:
+- **port** specifies a port number to be displayed.
+- **options** may be as:
 
-
-
-| Option<br> | Description<br> |
+| Option | Description |
 | --- | --- |
-| C<br> | compress display to only active ports<br> |
-| V<br> | verbose display<br> |
-| P<br> | direct output to spooler<br> |
-| N<br> | no pagination<br> |
-| F<br> | delete port numbers for foreground processes<br> |
-| B<br> | delete port numbers for background processes. (default)<br> |
+| C | compress display to only active ports |
+| V | verbose display |
+| P | direct output to spooler |
+| N | no pagination |
+| F | delete port numbers for foreground processes |
+| B | delete port numbers for background processes. (default) |
 
-
-
-
-
-
-### EXAMPLE
+### Example
 
 ```
 PH-LINES
@@ -47,8 +39,4 @@ LINES AVAILABLE FOR USE
 
 Shows that ports 100 and 103 are available for jBASE background task processes.
 
-
-
-Back to [jBTP](./../jbtp)
-
-
+Back to [Background Processing](./../README.md)

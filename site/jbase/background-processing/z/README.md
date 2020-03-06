@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='background process' vertical='middle' />
 
-## Description 
+## Description
 
 Starts a new thread like PH-START.
 
@@ -29,14 +29,8 @@ jsh home ~ -->Z SLEEP 30 TASK STARTED ON LINE 1001 FOR ACCOUNT danielk Id AAAOlA
 jsh home ~ -->
 ```
 
-
-
-## Note: 
-
+## Note
 
 > The Z\_DISABLE\_QUEUEING environment variable is also utilized with ZH.
 
-
-
-
-Back to [jBTP](./../jbtp)
+Back to [Background Processing](./../README.md)

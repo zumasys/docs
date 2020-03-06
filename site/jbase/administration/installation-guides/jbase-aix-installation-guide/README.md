@@ -44,7 +44,7 @@ Platform Compiler
 
 AIX XL C/C++
 
-```
+``` bash
 -bash-4.3# xlc -qversion
 IBM XL C/C++ for AIX, V10.1
 Version: 10.01.0000.0000
@@ -88,7 +88,7 @@ Login as ‘root’ and create the ‘jbase’ group. All jBASE users will need 
 
 ## AIX mkgroup syntax
 
-```
+``` bash
 # mkgroup jbase
 ```
 
@@ -100,13 +100,13 @@ Login as root and create the “jbaseadm” user. This command will create the j
 
 ## AIX mkuser syntax
 
-```
+``` bash
 # mkuser –a home='/home/jbaseadm' shell='/bin/ksh' pgrp='jbase' admgroups='jbase' jbaseadm
 ```
 
 Setup a password for the new user (password=jbaseadm)
 
-```
+``` bash
 # passwd jbaseadm
 ```
 
@@ -116,13 +116,13 @@ After creating a jBASE Administrator user it is recommended that a non-admin use
 
 ### AIX mkuser syntax for additional user
 
-```
+``` bash
 # mkuser –a home='/home/jbaseuser' shell='/bin/ksh' pgrp='jbase' admgroups='jbase' jbaseuser
 ```
 
 Setup a password for the new user (password=jbaseuser)
 
-```
+``` bash
 # passwd jbaseuser
 ```
 
@@ -130,14 +130,14 @@ Setup a password for the new user (password=jbaseuser)
 
 Log in as the jBASE system administrator and create a directory structure for the jBASE installation
 
-```
+``` bash
 # mkdir /opt/jbase5
 # mkdir /opt/jbase5/5.6.3
 ```
 
 Change the ‘owner’ and ‘group’ settings for the directories that have just been created so that they are owned by the jBASE administrator user and may be accessed by members of the ‘jbase’ group.
 
-```
+``` bash
 # chown –R jbaseadm:jbase /opt/jbase5
 ```
 
@@ -145,7 +145,7 @@ Change the ‘owner’ and ‘group’ settings for the directories that have ju
 
 Create a ‘symlink’ to the directories just created. By doing this, when a new version of jBASE is released it can be installed in it’s own directory structure which you can point to by changing the symlink
 
-```
+``` bash
 # ln -s /opt/jbase5/5.6.3 /opt/jbase5/5.6
 ```
 
@@ -157,7 +157,7 @@ Log in the as the ‘jbaseadm’ user and navigate to the ‘/opt/jbase5/5.6.3�
 
 Extract the contents of the compressed jBASE ‘tar’ file.
 
-```
+``` bash
 umask 0
 cd /opt/jbase5/5.6
 gzip –d /tmp/jbasetarfile.tar.gz
@@ -191,7 +191,7 @@ The following settings will allow you to create a basic jBASE environment. For f
 
 [Environment Variables](./../../../migration-station/articles/environment-variables)
 
-```
+``` bash
 # vi /opt/jbase5/5.6/jbase_env.sh
 umask 0002
 stty erase ^H
@@ -214,13 +214,13 @@ export LIBPATH
 
 Add a pointer to the ‘jbase\_env.sh’ to the ‘.profile’ of each jBASE User by adding the following line at the end of the ‘.profile’ script
 
-```
+``` bash
 . /opt/jbase5/5.6/jbase_env.sh
 ```
 
 For example:
 
-```
+``` bash
 # vi /home/jbuser/.profile
 PATH=/usr/bin:/etc:/usr/sbin:/usr/ucb:$HOME/bin:/usr/bin/X11:/sbin:.
 export PATH
@@ -233,14 +233,14 @@ fi # periodically.
 > **Note:**  
 > If you want to run it as a user, simply do that same thing at the shell
 >
- ```
+ ``` bash
  $. /opt/jbase5/jbase_env.sh
  ```
 
 > **Note:**
 > If a comprehensive .profile for each user is preferred, then the “IJU” utility can be used to create a template, i.e.:
 >
- ```
+ ``` bash
  /opt/jbase5/5.6/bin/IJU
  ```
 
