@@ -8,9 +8,8 @@
 
 When a jBC source program is executed, there are a number of command arguments that can be passed to the run-time libraries, some of which relate to the operation of jBC debug. These are as follows:
 
-| <!----> | <!----> |
+| Option | Description |
 | --- | --- |
-| **Option** | **Description** |
 | -Jd | The debugger is entered at the start of the program, immediately prior to executing the first jBC command. |
 | -JD | The debugger is entered at the start of the program, immediately prior to executing the first jBC command. The debug session remains active, even if a new program is EXECUTEd or CHAINed. |
 | -Jp{:Path...}    -Jp{;Path...} | This specifies to the debugger where it can find the necessary sources it needs at run time. Path can comprise multiple jBC filenames or jBC filenames, as long as they are each delimited by a colon (UNIX) or semicolon (Windows). When the debugger attempts to open the source, it will start looking in the leftmost filename specified. If this argument is not given, the default is the current directory. This option can be overridden from the debug prompt using the "p" command. |
@@ -18,7 +17,7 @@ When a jBC source program is executed, there are a number of command arguments t
 
 ## Note
 >
-> If the application performs a CHDIR() function, and the debugger needs to   access a file in the "current" directory by default, then it will attempt to   access it in the directory specified by the CHDIR() function and not the one from which the program was executed.  
+> If the application performs a CHDIR() function, and the debugger needs to access a file in the "current" directory by default, then it will attempt to access it in the directory specified by the CHDIR() function and not the one from which the program was executed.  
 >
 
 ## Example

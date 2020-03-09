@@ -72,3 +72,5 @@ crt the_answer->$tojson()      ;* Displays the original json string
 Under the covers, the built-in **$fromjson()** method uses **new object()**.
 
 Refer to the [Instance Methods](./../dynamic-objects-instance-methods) documentation for additional examples.
+
+Back to [Dynamic Objects - Overview](./../dynamic-objects/README.md)

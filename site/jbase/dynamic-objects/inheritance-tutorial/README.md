@@ -80,3 +80,5 @@ The screen output would be:
     "sometext":"This was called from sales::dothis()"
 }
 ```
+
+Back to [Dynamic Objects - Overview](./../dynamic-objects/README.md)

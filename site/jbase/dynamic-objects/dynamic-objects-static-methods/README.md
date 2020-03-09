@@ -62,3 +62,5 @@ The nearest integer with nth root 5 of 3125 = 5
 jsh ~ -->find_nth_root 6 12345
 The nearest integer with nth root 6 of 12345 = 5
 ```
+
+Back to [Dynamic Objects - Overview](./../dynamic-objects/README.md)

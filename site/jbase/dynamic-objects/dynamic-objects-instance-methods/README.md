@@ -386,3 +386,5 @@ The JSON output is now:
 ```
 
 Dynamic Objects also supports [static methods](./../dynamic-objects-static-methods).
+
+Back to [Dynamic Objects - Overview](./../dynamic-objects/README.md)

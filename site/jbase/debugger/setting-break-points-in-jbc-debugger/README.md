@@ -6,19 +6,18 @@
 **Original ID:** 291161  
 **Internal:** No  
 
-
 When setting a break point, the debugger appends a \n (line feed) to the variable contents prior to testing for the break.
 
 For example:
 
 ```
-0001     PROGRAM break_point_test
-0002     x = 0
-0003     DEBUG; * Set a break point: b x = 5\n
-0004     LOOP UNTIL x = 10
-0005         x++
-0006         CRT x
-0007     REPEAT
+PROGRAM break_point_test
+x = 0
+DEBUG; * Set a break point: b x = 5\n
+LOOP UNTIL x = 10
+    x++
+    CRT x
+REPEAT
 
 jsh home ~ -->break_point_test
 jBASE debugger->b x = 5\n
@@ -42,9 +41,5 @@ jBASE debugger->g
 10
 jsh home ~ -->
 ```
-
-
-
-
 
 Back to [jBC Debugger](./../introduction-to-the-jbc-debugger)

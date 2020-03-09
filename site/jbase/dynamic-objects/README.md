@@ -2,6 +2,7 @@
 
 ## Topics
 
+[dynamic-objects](./dynamic-objects)  
 [class-method-$developmentcrash()](./class-method-$developmentcrash())  
 [class-method-$developmentrandomstring()](./class-method-$developmentrandomstring())  
 [class-method-$systemgetemulation()](./class-method-$systemgetemulation())  
@@ -10,7 +11,6 @@
 [class-method-$varargnext()](./class-method-$varargnext())  
 [class-method-$varargreset()](./class-method-$varargreset())  
 [class-method-$varargsize()](./class-method-$varargsize())  
-[dynamic-objects](./dynamic-objects)  
 [class-$development](./class-$development)  
 [class-$file](./class-$file)  
 [class-$jbase](./class-$jbase)  

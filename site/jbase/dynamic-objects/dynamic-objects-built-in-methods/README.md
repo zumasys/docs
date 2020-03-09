@@ -42,3 +42,5 @@ All built-in methods start with "$".
 - [$split() / $slice()](./../method-$split%28%29-&-$slice%28%29)
 - [$tojson()](./../method-$tojson%28%29)
 - [$valuetype()](./../method-$valuetype%28%29)
+
+Back to [Dynamic Objects - Overview](./../dynamic-objects/README.md)

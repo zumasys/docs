@@ -6,8 +6,7 @@
 **Original ID:** 291164  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 The jBC debugger is invoked in a number of ways:
 
@@ -17,7 +16,6 @@ The following examples show the display after entering the debugger in various w
 
 - **Using the -Jd Option at Runtime**
 
-
 ```
 ExampleProg -Jd
 Option -Jd seen on command line
@@ -25,10 +23,7 @@ Source ExampleProg.b,Line 1, Level 2
 jBASE debugger..
 ```
 
-
-
 - **A DEBUG Statement in the Program**
-
 
 ```
 ExamleProg
@@ -37,10 +32,7 @@ Source ExampleProg.b, Line 39, Level 2
 jBASE debugger..
 ```
 
-
-
 - **Using &lt;Ctrl-C&gt; Key from the User Terminal**
-
 
 ```
 Interrupt Signal
@@ -48,11 +40,7 @@ Line 157, Source ExampleProg.b
 jBASE debugger ..
 ```
 
-## 
-
-
 - **Receiving a kill -16 Command from another Terminal (Unix only)**
-
 
 ```
 Signal 16 seen from signal handler
@@ -60,11 +48,7 @@ Line 73, Source ExampeProg.b
 jBASE debugger ..
 ```
 
-## 
-
-
 - **Run Time Error**
-
 
 For example, when a variable containing a string is used as if it contained a number, the following is seen:
 
@@ -73,7 +57,5 @@ Non-numeric value -- ZERO USED ,
 Variable "XFER.ID", Line 78, Source ExampleProg.b
 jBASE debugger ..
 ```
-
-
 
 Back to [jBC Debugger](./../introduction-to-the-jbc-debugger)

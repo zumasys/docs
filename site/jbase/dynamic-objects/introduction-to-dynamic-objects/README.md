@@ -293,7 +293,7 @@ Our JSON string contains an embedded array and an embedded JSON object.
 
 Running that code displays:
 
-```
+``` json
 {
         "int":42,
         "string":"forty-two",
@@ -380,3 +380,5 @@ Edit record again ?
 ```
 
 This is the end of our introduction. All current Dynamic Objects documentation can be found [here](./../dynamic-objects).
+
+Back to [Dynamic Objects - Overview](./../dynamic-objects/README.md)

@@ -386,3 +386,5 @@ A similar outcome would occur if you called **$setcatch()** like this:
 ```
     $jbase->$setcatch(5)
 ```
+
+Back to [Dynamic Objects - Overview](./../dynamic-objects/README.md)
