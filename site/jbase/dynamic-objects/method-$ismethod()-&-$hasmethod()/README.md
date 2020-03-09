@@ -22,7 +22,7 @@ arr->$ismethod("{Classname::}methodname1", {"{Classname::}methodname2", "{Classn
 | Argument | Description |
 | --- | --- |
 | methodname | the name of a class or inherited method |
-| Classname::methodname | the fully qualified name of a method; this form can be applied to any object or array but is recommended to use the [**$jbase**](./../dynamic-objects-$jbase-class) class, e.g. **$jbase-&gt;Classname::methodname** |
+| Classname::methodname | the fully qualified name of a method; this form can be applied to any object or array but is recommended to use the [**$jbase**](./../class-$jbase) class, e.g. **$jbase-&gt;Classname::methodname** |
 
 
 ## Return values
