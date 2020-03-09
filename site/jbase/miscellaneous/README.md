@@ -3,6 +3,7 @@
 [Compilation](./compilation/README.md)  
 [Introduction to Audit Logging](./introduction-to-audit-logging/README.md)  
 [Introduction to Distributed Locking](./introduction-to-distributed-locking/README.md)  
+[Introduction to Embedded SQL](./introduction-to-embedded-sql/README.md)  
 [jBASE Development](./jbase-development/README.md)  
 [jBASE Fundamentals](./jbase-fundamentals/README.md)  
 [jBASE Performance Benchmarking](./jbase-performance-benchmarking/README.md)  

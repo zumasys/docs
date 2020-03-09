@@ -6,25 +6,26 @@
 **Original ID:** 258354  
 **Internal:** No  
 
+The **WGETINFO** subroutine allows you to obtain information directly from WWW.INFO common
 
-The WGETINFO subroutine allows you return directly information from WWW.INFO common
-
-#### **COMMAND SYNTAX**
+## Command Syntax
 
 ```
 CALL WGETINFO(WWW.INFO.VALUE,WWW.INFO.POS)
 ```
 
-### **SYNTAX ELEMENTS**
+### Syntax Elements
 
-The WGETINFO subroutine take [WWW.INFO.POS](./../www.info) as a input paramenter and outputs WWW.INFO.VALUE.
+The WGETINFO subroutine takes [WWW.INFO.POS](./../www.info) as a input paramenter and outputs WWW.INFO.VALUE.
 
-#### EXAMPLE
+### Example
 
 ```
 CALL WGETINFO(ALL.VAR.NAMES,25)
 ```
 
-#### **NOTES**
+### Notes
 
-See WWW.INFO for details on the common.
+>See WWW.INFO for details on the common.
+
+[Back to jAgent APIs](./../README.md)

@@ -1,4 +1,4 @@
-# INTRODUCTION TO jAGENT
+# Introduction TO jAGENT
 
 **Created At:** 3/10/2017 4:52:38 PM  
 **Updated At:** 12/21/2018 9:41:15 PM  
@@ -33,11 +33,11 @@ This protocol is currently implemented by the following jBASE components:
 
 ## jAGENT Administration
 
-jAgent is a standalone program that you can start from any command prompt to launch a jAgent Service.  The actual program is located in the jBase install directory under the bin directory.  You can run multiple copies of jAgent each with it's own configuration.  jAgent can be configured either thru command line switches or thru a configuration file.  A default configuration file is located in the jbase install directory under configuration and is called jagent\_config.  jAgent can also be configured to run as a service.
+jAgent is a standalone program that you can start from any command prompt to launch a jAgent Service.  The actual program is located in the jBase install directory under the bin directory.  You can run multiple copies of jAgent each with it's own configuration.  jAgent can be configured either through command line switches or through a configuration file.  A default configuration file is located in the jBASE install directory under configuration and is called jagent\_config.  jAgent can also be configured to run as a service.
 
 ## jAGENT Quick Start
 
-Just like any other jBase function you must have a jbase configured environment before you start jAgent.  The fastest way to get started is to launch jAgent from a already configured jsh environment.
+Just like any other jBase function you must have a jBASE configured environment before you start jAgent.  The fastest way to get started is to launch jAgent from a already configured jsh environment.
 
 Windows
 

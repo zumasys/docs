@@ -6,21 +6,22 @@
 **Original ID:** 257608  
 **Internal:** No  
 
+The **WSEND** subroutines send body data back to the client, usually in HTML or JSON.
 
-The WSEND subroutines send body data back to the client.  This is usually HTML or JSON.
-
-### **COMMAND SYNTAX**
+## Command Syntax
 
 ```
 CALL WSEND(DATATOSEND)
 ```
 
-### **SYNTAX ELEMENTS**
+### Syntx Elements
 
-The WSEND subroutine expects a string as a input parameter.  You can call this program multiple times during a Web Call.
+The WSEND subroutine expects a string as an input parameter.  You can call this program multiple times during a Web Call.
 
-### EXAMPLE
+### Example
 
 ```
 CALL WSEND("Hello World")
 ```
+
+[Back to jAgent APIs](./../README.md)

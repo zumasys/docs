@@ -6,8 +6,7 @@
 **Original ID:** 336524  
 **Internal:** No  
 
-
-# Introduction
+## Introduction
 
 Just like any other jBASE function, you must have a jBASE configured environment before you start jAgent.  The fastest way to get started is to launch jAgent from an already configured jsh environment.
 
@@ -26,7 +25,7 @@ C:\jBASE\JBASEADM>JBASE_AGENT --config=
 
 Or Linux
 
-```
+``` bash
 -bash-4.2$ jb
 Account name or path: JBASEADM
 jsh JBASEADM ~ -->bash
@@ -40,7 +39,7 @@ Now open up a browser and point at your server port 20002.  Below is an example
 
 On Linux, you can use curl (which you can also install on windows) and test the server from the command prompt
 
-```
+``` json
 C:\Users\patrickp>curl http://localhost:20002
 {"RestVersion":"1.1", "Who":"1 patrickp", "pwd":"C:\\Users\\patrickp", "wresttest": [ "File path:                C:\\Users\\patrickp","File path:                .","Subroutine object:        main()","Subroutine object:        C:\\Users\\patrickp\\lib\\lib0.dll","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjbaseutil","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjcon","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjee","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjrest","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjsub","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjwobj","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libsql","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libSQLSYS","Shared Object             C:\\jBASE\\CurrentVersion\\bin\\WRESTTEST.dll","Executable (DUP!!)        C:\\jBASE\\CurrentVersion\\bin\\WRESTTEST.exe"], "vars": {}, "cookies": {}, "headers": {"REMOTE_ADDR":"127.0.0.1", "REMOTE_HOST":"127.0.0.1", "PROTOCOL_VERSION":"HTTP\/1.1", "REQUEST_METHOD":"GET", "PATH_INFO":"\/api\/wresttest", "SERVER_PORT":"20002", "HTTP_ACCEPT":"*\/*", "HTTP_USER_AGENT":"curl\/7.55.1", "HTTP_HOST":"localhost:20002"}, "body":"", "status":"ok", "statusmsg":""}
 C:\Users\patrickp>
@@ -55,7 +54,11 @@ It is recommended during development to use jAgent in this manner.  You can LOG
 ```
 c:\jbase\jbaseadmin> COPY C:\JBASE\CURRENTVERSION\CONFIG\JAGENT_CONFIG .
 c:\jbase\jbaseadmin>jbase_agent --config=.\jagent_config  
-or linux
+```
+
+or Linux
+
+``` bash
 # cp /opt/jbase/CurrentVersion/config/jagent_config ./
 # jbase_agent --config=./jagent_config
 ```
@@ -79,8 +82,3 @@ You can also run jAgent as a service.  You should
 6. Test your services again using WRESTTEST.
 7. If everything is working you can then install jAgent as a service as described later in this document.
 8. It is always best to be able to run any jAgent instance locally to diagnose why it isn't working.  Only after you have it working should you move to have it as a service.
-
-
-
-
-

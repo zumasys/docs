@@ -6,23 +6,24 @@
 **Original ID:** 257606  
 **Internal:** No  
 
+**WGETBODY** gets the raw body sent in the web request if the web request is not a x-www-form-urlencoded.  This is primarily used to get XML or JSON sent in Rest services.
 
-The WGETBODY gets the raw body sent in the web request if the web request is not a x-www-form-urlencoded.  This is primarily used to get XML or JSON sent in Rest services.
-
-### **COMMAND SYNTAX**
+## Cpommand Syntax
 
 ```
 CALL WGETBODY(BODY)
 ```
 
-### **SYNTAX ELEMENTS**
+### Syntax Elements
 
 The WGETBODY subroutine only returns a string.  That string is the raw body.
 
-### EXAMPLE
+### Example
 
 ```
 CALL WGETBODY(BODY)
 * NOW PARSE BODY JSON INTO A OBJECT
 CALL WOBJ(BODYOBJ,"FROMSTRING","",BODY,"",RERR)
 ```
+
+[Back to jAgent APIs](./../README.md)

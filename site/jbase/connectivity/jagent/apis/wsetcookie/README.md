@@ -6,17 +6,15 @@
 **Original ID:** 261451  
 **Internal:** No  
 
+The **WSETCOOKIE** subroutine will set a cookie to be sent back to the browser.
 
-The WSETCOOKIE subroutine will set a cookie to be sent back to the browser.
-
-#### **COMMAND SYNTAX**
+## Command Syntax
 
 ```
 CALL WSETCOOKIE(NAME,VALUE,EXP.DATE,EXP.TIME,PATH,DOMAIN,SECURE)
 ```
 
-#### **SYNTAX ELEMENTS**
-
+### *Syntax Elements
 
 | <!----> | <!----> |
 | --- | --- |
@@ -28,15 +26,18 @@ CALL WSETCOOKIE(NAME,VALUE,EXP.DATE,EXP.TIME,PATH,DOMAIN,SECURE)
 | DOMAIN | Domain you wish the cookie to apply to.  Use "." for domain called from. |
 | SECURE | If set to "Y" then this cookie will only save on HTTPS requests. |
 
-
-#### EXAMPLE
+#### Example
 
 ```
 CALL WSETCOOKIE("mycookie","value",DATE(),TIME+300,"/",".","Y")
 ```
 
-#### NOTES
+#### Notes
 
-The WSETCOOKIE command basically builds a Set-Cookie header.  This function properly formats the Set-Cookie for you and understands pick date and time formats.  If you wish more control you can use the WSETHEADER and build your own Set-Cookie line.
+>The WSETCOOKIE command basically builds a Set-Cookie header.  This function properly formats the Set-Cookie for you and understands Pick date and time formats.  
+>
+>If you wish more control you can use the WSETHEADER and build your own Set-Cookie line.  
+>
+>Here is a [link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie "Link to Set-Cookie documentation") for information on how Set-Cookie works.
 
-Here is a good [link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie "Link to Set-Cookie documentation") on how Set-Cookie works.
+[Back to jAgent APIs](./../README.md)

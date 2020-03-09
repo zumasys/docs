@@ -6,28 +6,24 @@
 **Original ID:** 261441  
 **Internal:** No  
 
+**WBUILDJSON** is a very simple JSON building subroutine which basically handles encoding of your values.  This subroutine has been replaced by WOBJ.
 
-The WBUILDJSON is a very simple JSON building subroutine.  It basically handles encoding of your values.  This subroutine has been replaced by WOBJ.
-
-### COMMAND SYNTAX
+## Command Syntax
 
 ```
 CALL WBUILDJSON(JSON,FIELD,VALUE,ERRORS)
 ```
 
-### SYNTAX ELEMENTS
+## Syntax Elements
 
-
-| <!----> | <!----> |
-| --- | --- |
 | Parameter | Description |
-| JSON | This is the JSON string that is being built |
+| --- | --- |
+| JSON | The JSON string that is being built |
 | FIELD | The field you wish to set |
 | VALUE | The value you wish to set the field to. |
 | ERRORS | Any returned errors. |
 
-
-#### EXAMPLE
+### Example
 
 ```
 JSON="{"
@@ -36,6 +32,8 @@ JSON:="}"
 * JSON NOW EQUALS: { "status":"ok" }
 ```
 
-### NOTES
+### Notes
 
-This is a very simple function.  In order to build arrays you must manually build the strings.  This function has been replaced with the much more powerful WOBJ subroutine.  This function remains for backwards compatibility.
+>This is a very simple function.  In order to build arrays you must manually build the strings.  This function has been replaced with the much more powerful WOBJ subroutine but remains for backwards compatibility.
+
+[Back to jAgent APIs](./../README.md)

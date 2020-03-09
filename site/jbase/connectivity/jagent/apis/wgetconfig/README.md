@@ -6,35 +6,31 @@
 **Original ID:** 261438  
 **Internal:** No  
 
-
 The WGETCONFIG will retrieve items from the WDB.RESOURCE master config item.
 
-#### COMMAND SYNTAX
+## Command Syntax
 
 ```
 CALL WGETCONFIG(VALUE,NAME)
 ```
 
-#### SYNTAX ELEMENTS
+### Syntax Elements
 
-
-| <!----> | <!----> |
-| --- | --- |
 | Parameter | Description |
+| --- | --- |
 | VALUE | The returned value |
 | NAME | The name of the config item |
 
-
-#### EXAMPLE
+#### Example
 
 ```
 CALL WGETVAR(KEY,"APIKEY")
 * Will return 12345
 ```
 
-#### NOTES
+#### Notes
 
-This function is used internally to get config items.  The config file is in WDB.RESOURCE CONFIG.
+>This function is used internally to obtain config items.  The config file is in WDB.RESOURCE CONFIG.
 
 ```
 001 C
@@ -42,3 +38,5 @@ This function is used internally to get config items.  The config file is in WD
 003 DEFAULT_RESOURCE]MVDB.MAIN
 004 APIKEY]12345
 ```
+
+[Back to jAgent APIs](./../README.md)

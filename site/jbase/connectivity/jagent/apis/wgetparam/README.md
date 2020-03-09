@@ -6,25 +6,22 @@
 **Original ID:** 261437  
 **Internal:** No  
 
+The **WSETPARAM** subroutine will retrieve additional URI parameters.
 
-The WSETPARAM subroutine will retrieve additional URI parameters.
-
-#### **COMMAND SYNTAX**
+## Command Syntax
 
 ```
 CALL WGETPARAM(VALUE,PARAM)
 ```
 
-#### **SYNTAX ELEMENTS**
-
+### Syntax Elements
 
 | <!----> | <!----> |
 | --- | --- |
 | VALUE | The value of the param you requested. |
 | PARAM | The param number you want (first is 1) |
 
-
-#### EXAMPLE
+### Example
 
 Requested URL
 
@@ -37,6 +34,8 @@ CALL WGETPARAM(VALUE,1)
 * Value should equal "1234"
 ```
 
-#### NOTES
+### Notes
 
-Typically on rest calls you send the Primary Key you want retrieved as the first parameter.  You would use this subroutine to retrieve that id.
+>Typically on rest calls you send the Primary Key you want retrieved as the first parameter.  You would use this subroutine to retrieve that id.
+
+[Back to jAgent APIs](./../README.md)

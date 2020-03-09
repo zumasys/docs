@@ -6,27 +6,28 @@
 **Original ID:** 257607  
 **Internal:** No  
 
+The **WGETHEADER** subroutine allows you to retrieve sent headers.
 
-The WGETHEADER subroutine allows you to retrieve sent headers.
-
-### **COMMAND SYNTAX**
+## Command Syntax
 
 ```
 CALL WGETHEADER(HEADERVALUE,HEADERNAME)
 ```
 
-### **SYNTAX ELEMENTS**
+### Syntax Elements
 
-The WSETCONTENTTYPE subroutine expects HEADERNAME to be sent and will return HEADERVALUE if found.
+The WGETHEADER subroutine expects HEADERNAME to be sent and will return HEADERVALUE if found.
 
-### **EXAMPLE**
+### Example
 
 ```
 CALL WGETHEADER(REQESTMETHOD,"REQUEST_METHOD")
 ```
 
-### **NOTES**
+### Notes
 
-The headers sent from the connector are determined by the connector config file.  This is to protect from Header Injection attacks. If you need additional headers refer to your connector config file and add the header.
+>The headers sent from the connector are determined by the connector config file.  This is to protect from Header Injection attacks. If you need additional headers, refer to your connector config file and add the header.
+>
+>You can also get a list of supplied headers by calling WGETOPTIONS with a parameter of 34.
 
-You can also get a list of supplied headers by calling WGETOPTIONS and passing 34.
+[Back to jAgent APIs](./../README.md)

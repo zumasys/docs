@@ -4,6 +4,7 @@
 
 [wbuildjson](./wbuildjson)  
 [wdb.resource](./wdb.resource)  
+[wdebug](./wdebug/README.md)  
 [wencodejson](./wencodejson)  
 [wgetbody](./wgetbody)  
 [wgetconfig](./wgetconfig)  
@@ -21,3 +22,4 @@
 [wsetstatus](./wsetstatus)  
 [www.info](./www.info)  
 
+[Back to jAgent](./../README.md)

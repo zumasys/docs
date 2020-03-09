@@ -1,4 +1,4 @@
-# INTRODUCTION TO JODBC
+# Introduction to jODBC
 
 **Created At:** 4/12/2017 10:18:10 PM  
 **Updated At:** 4/12/2017 10:27:29 PM  
@@ -6,26 +6,19 @@
 **Original ID:** 251032  
 **Internal:** No  
 
+## Introduction
 
-# Introduction
+This user guide provides detailed instructions for the configuration and deployment of the jBASE **jDBC 2.0 Driver**.
 
-This user guide provides detailed instructions for the configuration and deployment of the jBASE **JDBC 2.0 Driver**.
-
-
-
-The **jBASE JDBC 2.0 Driver** is a jBASE component implementing the JDBC API. The JDBC API is part of the JavaTM 2 Platform Standard Edition 5.0 (J2SETM).
+The **jBASE jDBC 2.0 Driver** is a jBASE component implementing the JDBC API. The JDBC API is part of the JavaTM 2 Platform Standard Edition 5.0 (J2SETM).
 
 The following diagrams show two of the most common deployment scenarios. In both cases, the JDBC API implemented by the jBASE JDBC 2.0 Driver provides client applications with the ability to perform SQL queries against a jBASE server.
-
-
 
 **Two-tier model**:
 
 This model represents deployment scenarios where a Java Client Application has the responsibility to create and manage connection, transaction and security resource.
 
 **![251032-introduction-to-jodbc: jdbc](./jdbc.png)**
-
-
 
 **Three-tier model:**
 
@@ -46,10 +39,7 @@ This document describes many concepts and methodologies that are highly technica
 - jBASE
 - Secure Sockets Layer (SSL) protocol
 
-
-
-
-# Deploying the JDBC driver
+## Deploying the jDBC driver
 
 The jBASE JDBC Driver is packaged as a Java Archive (jar) file.
 
@@ -57,16 +47,13 @@ To use the JDBC Driver from a **non-managed** client application, it necessary t
 
 To deploy this archive on a **managed**environment it is necessary to configure a deployment descriptor specific to the application server.
 
-## 
-
-
 ## JBoss deployment
 
 The following deployment descriptor is used by JBoss to load the jBASE JDBC Driver, as specified by “driver-class”. This file should be modified according to deployment requirements.
 
 **[jbasejdbc-ds.xml](jbasejdbc-ds.xml)**
 
-```
+``` xml
 <?xml version="1.0" encoding="UTF-8"?> 
 <!--========================================================================== -->
 <!--                                                                           -->
@@ -95,22 +82,13 @@ After configuring the deployment descriptor, follow the steps below to deploy th
 - Copy the jBASE JDBC Driver (jbasejdbc.jar) archive to the *lib* directory of the JBoss *default* configuration.
 - Copy the JBoss deployment descriptor to the *deploy* directory of the JBoss *default* configuration.
 
-
-
-
-# Developers Guide
+## Developers Guide
 
 The following section provides a detailed guide on how to connect and access the jBASE server.
-
-## 
-
 
 ## jAgent
 
 jBASE jAgent is a server-side jBASE component which must be listening on a user-defined TCP port on the remote jBASE instance. It accepts socket connections to process incoming requests from the JDBC Driver. Please refer to the jBASE jAgent user guide for more information on how to configure and start jAgent.
-
-## 
-
 
 ## Connecting to jBASE
 
@@ -125,18 +103,14 @@ JDBC provides two mechanisms to establish a connection to a data source:
 For more information on these methods, please read the JDBC API documentation.
 
 - *getConnection(String url)*
-    - Obtain a new connection for the specified connection string. Connection properties must be specified inside the connection string.
+  - Obtain a new connection for the specified connection string. Connection properties must be specified inside the connection string.
 - *getConnection(String url, String user, String password)*
-    - Obtain a new connection for the specified connection string. Connection properties, except user and password must be specified inside the connection string.
-
+  - Obtain a new connection for the specified connection string. Connection properties, except user and password must be specified inside the connection string.
 
 *DriverManager* provides an additional method:
 
 - *getConnection(String url, **Properties info**)*
-    - Obtain a new connection for the specified connection string. The second parameter specifies the connection properties.
-
-
-### 
+  - Obtain a new connection for the specified connection string. The second parameter specifies the connection properties.
 
 ### Authentication
 
@@ -144,12 +118,8 @@ jAgent will attempt to authenticate a user given the user credentials provided t
 
 The jBASE JDBC Driver implements the following connection properties to provide user credentials:
 
-- **user**                Specifies the user to be authenticated
+- **user**           Specifies the user to be authenticated
 - **password**       Specifies the user’s password
-
-
-### 
-
 
 ### Encryption
 
@@ -158,16 +128,13 @@ jAgent can be configured to use SSL encrypted connections for deployment scenari
 The jBASE JDBC Driver implements the following connection properties:
 
 - **SSL** [Default value:  **false**]
-    - Specifies whether the connection should use SSL encryption. SSL should only be used if the jAgent instance running on the jBASE server has also been configured to accept SSL connections.
+  - Specifies whether the connection should use SSL encryption. SSL should only be used if the jAgent instance running on the jBASE server has also been configured to accept SSL connections.
 - **enableNaiveTrustManager**[Default value:  **false**]
-    - This property forces the JDBC Driver to trust all server certificates.
+  - This property forces the JDBC Driver to trust all server certificates.
 
+### Example using the *DataSource* interface
 
-
-
-Example using the *DataSource* interface:
-
-```
+``` java
 Connection cx = null;
 try {
     InitialContext ic = new InitialContext();
@@ -179,9 +146,9 @@ try {
 }
 ```
 
-Example 1 using the *DriverManager* interface:
+### Example 1 using the *DriverManager* interface:
 
-```
+``` java
 //Load jBASE JDBC Driver
 Class.forName("com.jbase.jdbc.driver.JBaseJDBCDriver");
 //Set connection properties and request a new connection
@@ -194,9 +161,9 @@ cxProps.setProperty("NaiveTrustManager", "true");
 Connection cx = DriverManager.getConnection(url, cxProps);
 ```
 
-Example 2 using the *DriverManager* interface:
+### Example 2 using the *DriverManager* interface:
 
-```
+``` java
 //Load jBASE JDBC Driver
 Class.forName("com.jbase.jdbc.driver.JBaseJDBCDriver");
 //Set connection properties and request a new connection
@@ -204,29 +171,23 @@ String url = "jdbc:jbase:thin:@127.0.0.1:20002/MyTestAccount?user=test&password=
 Connection cx = DriverManager.getConnection(url);
 ```
 
-## 
-
-
 ## Closing a connection
 
 After finishing with the connection, it must be closed:
 
-```
+``` java
 cx.close();
 ```
 
-## 
+## jDBC API reference
 
+The jBASE jDBC 2.0 Driver implements a subset of the jDBC 2.0 API.
 
-## JDBC API reference
-
-The jBASE JDBC 2.0 Driver implements a subset of the JDBC 2.0 API.
-
-Please read the JDBC specification documentation or refer to the JDBC API javadoc documentation for further information.
+Please read the jDBC specification documentation or refer to the JDBC API javadoc documentation for further information.
 
 The following example shows how a client application executing an SQL SELECT query and display the obtained result set:
 
-```
+``` java
 Statement stat = null;
 try {
     //Create an SQL statement and perform a SQL SELECT query

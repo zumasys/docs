@@ -6,25 +6,26 @@
 **Original ID:** 258359  
 **Internal:** No  
 
+The **WSETSTATUS** subroutine allows you to modify the response code.
 
-The WSETSTATUS subroutine allows you to modify the response code.
-
-#### **COMMAND SYNTAX**
+## Command Syntax
 
 ```
 CALL WSETSTATUS(STATUSCODE)
 ```
 
-**SYNTAX ELEMENTS**
+### Syntax Elements
 
-The WSETSTATUS subroutine expects a numeric response code.  No validation is done on the status code.  The default code is a 200 (Success).
+The WSETSTATUS subroutine expects a numeric response code. No validation is performed on the status code.  The default code is a 200 (Success).
 
-EXAMPLE
+### Example
 
 ```
 CALL WSETSTATUS(405);*Method not allowed
 ```
 
-NOTES
+### Notes
 
-See [link](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) for list of codes
+>See [link](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) for list of valid codes
+
+[Back to jAgent APIs](./../README.md)

@@ -6,21 +6,22 @@
 **Original ID:** 261452  
 **Internal:** No  
 
+The **WGETCOOKIE** subroutine retrieves cookies sent in the web request.
 
-The WGETCOOKIE subroutine retrieves cookies sent in the web request.
-
-### **COMMAND SYNTAX**
+## Command Syntax
 
 ```
 CALL WGETCOOKIE(COOKIEVALUE,COOKIENAME)
 ```
 
-### **SYNTAX ELEMENTS**
+### Syntax Elements
 
-The WGETCOOKIE subroutine expects a input paramenter of COOKIENAME and it will return in COOKIEVALUE the value of the cookie if found.
+The WGETCOOKIE subroutine expects an input paramenter of COOKIENAME and will return in COOKIEVALUE the value of the cookie, if found.
 
-### EXAMPLE
+### Example
 
 ```
 CALL WGETCOOKIE(TOKEN,"Token")
 ```
+
+[Back to jAgent APIs](./../README.md)
