@@ -26,10 +26,7 @@ A three-tier deployment scenario would often involve an application server hosti
 
 ![251032-introduction-to-jodbc: jdbc2](./jdbc2.png)
 
-# 
-
-
-# Assumptions
+## Assumptions
 
 This document describes many concepts and methodologies that are highly technical in nature, and as such prerequisite knowledge of the following is considered essential:
 
@@ -54,19 +51,18 @@ The following deployment descriptor is used by JBoss to load the jBASE JDBC Driv
 **[jbasejdbc-ds.xml](jbasejdbc-ds.xml)**
 
 ``` xml
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!--========================================================================== -->
 <!--                                                                           -->
 <!--  JBoss deployment descriptor for jBASE JDBC Data Sources                  -->
 <!--                                                                           -->
 <!-- ========================================================================= -->
- 
 <datasources>
     <!—jBASE JDBC Data Source -->
     <local-tx-datasource>
         <jndi-name>jdbc/jBaseJdbcDS</jndi-name>
         <connection-url>
-            jdbc:jbase:thin:@127.0.0.1:20002/mytestaccount     
+            jdbc:jbase:thin:@127.0.0.1:20002/mytestaccount
         </connection-url>
         <driver-class>
             com.jbase.jdbc.driver.JBaseJDBCDriver
@@ -96,7 +92,6 @@ JDBC provides two mechanisms to establish a connection to a data source:
 
 - *DriverManager*:  This class requires an application to load the specific JDBC driver which in our case would be the jBASE JDBC Driver. This interface is typically used on a **non-managed** two-tier deployment scenario where a java naming service is not available.
 - *DataSource*:       This interface is preferred on **managed** scenarios because JNDI is typically used to lookup a data source. The advantages of having a data source managed by the application are e.g. connection pooling, security and distributed transaction processing for XA-compliant JDBC drivers as is the jBASE JDBC driver.
-
 
 *DataSource* and *DriverManager* provide the following methods to create a new connection.
 
@@ -146,7 +141,7 @@ try {
 }
 ```
 
-### Example 1 using the *DriverManager* interface:
+### Example 1 using the *DriverManager* interface
 
 ``` java
 //Load jBASE JDBC Driver
@@ -161,7 +156,7 @@ cxProps.setProperty("NaiveTrustManager", "true");
 Connection cx = DriverManager.getConnection(url, cxProps);
 ```
 
-### Example 2 using the *DriverManager* interface:
+### Example 2 using the *DriverManager* interface
 
 ``` java
 //Load jBASE JDBC Driver

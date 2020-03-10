@@ -19,3 +19,4 @@ Triggers give the jBASE application developer a powerful mechanism to easily add
 - Be especially careful when defining triggers for the pre- and post-read events. For example, jQL queries on files with read triggers will result in one or more subroutine calls. This could significantly add to the time for selects and reports on files with large numbers of records. The situation worsens considerably if the file being queried has dictionary items which specify translates to other files that also have read triggers defined.
 - Be careful to avoid infinite recursion. For example, if a post-write trigger is defined, do not write anything else to the file in the trigger subroutine; this will result in infinite recursion.
 
+Back to [Triggers](./../README.md)

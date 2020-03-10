@@ -1,4 +1,4 @@
-# LINUX INSTALLATION GUIDE
+# Linux Installation Guide
 
 **Created At:** 3/10/2017 5:04:34 PM  
 **Updated At:** 7/16/2019 11:03:39 PM  

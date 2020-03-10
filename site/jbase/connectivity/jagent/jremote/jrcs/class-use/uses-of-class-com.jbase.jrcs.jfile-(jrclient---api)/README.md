@@ -6,26 +6,17 @@
 **Original ID:** 278026  
 **Internal:** No  
 
-<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jrcs.JFile (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
-## 
-
 ## Uses of [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29)
-
-
 
 **Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) that return [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")**
 
-
-| <br>Modifier and Type<br> | <br>Method<br> | <br>Description<br> |
+| Modifier and Type | Method | Description |
 | --- | --- | --- |
-| <br>[JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>JCommon.[getFile](./../../jcommon-%28jrclient-api%29#getFile-int-)(int index)<br> | <br>Retrieves a file variable from a specific position in a common block<br> |
-| <br>[JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>JConnection.[openFile](./../../../archive/jconnection#openFile-java.lang)(String fileName)<br> | <br>Opens a file with the given name<br> |
+| [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs") | JCommon.[getFile](./../../jcommon-%28jrclient-api%29#getFile-int-)(int index) | Retrieves a file variable from a specific position in a common block |
+| [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs") | JConnection.[openFile](./../../../archive/jconnection#openFile-java.lang)(String fileName) | Opens a file with the given name |
 
 **Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) with parameters of type [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")**
 
-
-| <br>Modifier and Type<br> | <br>Method<br> | <br>Description<br> |
+| Modifier and Type | Method | Description |
 | --- | --- | --- |
-| <br>void<br> | <br>JCommon.[setFile](./../../jcommon-%28jrclient-api%29#setFile-int-com.jbase.jrcs)(int index, [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs") file)<br> | <br>Stores a file variable into a specific position in a common block<br> |
-
-
+| void | JCommon.[setFile](./../../jcommon-%28jrclient-api%29#setFile-int-com.jbase.jrcs)(int index, [JFile](./../../jfile-%28jrclient-api%29 "class in com.jbase.jrcs") file) | Stores a file variable into a specific position in a common block |

@@ -6,43 +6,31 @@
 **Original ID:** 278042  
 **Internal:** No  
 
-<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="com.jbase.jrcs (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
-JavaScript is disabled on your browser.
-
 ## Package com.jbase.jrcs
 
+### Interface Summary
 
-
-**Interface Summary**
-
-| Interface<br> | Description |
+| Interface | Description |
 | --- | --- |
-| [JIOHandler](./../jiohandler-%28jrclient-api%29 "interface in com.jbase.jrcs")<br> | <br>The jRCS I/O handler interface, which a class must implement to replace the default JClient I/O handler<br> |
+| [JIOHandler](./../jiohandler-%28jrclient-api%29 "interface in com.jbase.jrcs") | The jRCS I/O handler interface, which a class must implement to replace the default JClient I/O handler |
 
-**Class Summary** 
+### Class Summary
 
-
-| Class<br> | Description |
+| Class | Description |
 | --- | --- |
-| [JCapture](./../jcapture-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>Represents a capture object designed to incrementally fetch results of program execution<br> |
-| [JCommon](./../jcommon-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>Represents a jBASE common block<br> |
-| [JConnection](./../jconnection-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>Represents a connection to a jBASE host<br> |
-| [JConstants](./../jconstants-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>Common constants for all JClient classes<br> |
-| [JDefaultIOHandler](./../jdefaultiohandler-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | <br>Default implementation of jRCS I/O handler<br> |
-| [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | <br>Represents a jBASE dynamic array<br> |
-| [JExecuteResults](./../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>Contains results of jCL/jQL command execution<br> |
-| [JFile](./../jfile-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>Represents a jBASE file variable<br> |
-| [JIndex](./../jindex-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>Represents a jBASE index variable<br> |
-| [JSelectList](./../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs")<br> | <br>Represents a jBASE select list variable<br> |
+| [JCapture](./../jcapture-%28jrclient-api%29 "class in com.jbase.jrcs") | Represents a capture object designed to incrementally fetch results of program execution |
+| [JCommon](./../jcommon-%28jrclient-api%29 "class in com.jbase.jrcs") | Represents a jBASE common block |
+| [JConnection](./../jconnection-%28jrclient-api%29 "class in com.jbase.jrcs") | Represents a connection to a jBASE host |
+| [JConstants](./../jconstants-%28jrclient-api%29 "class in com.jbase.jrcs") | Common constants for all JClient classes |
+| [JDefaultIOHandler](./../jdefaultiohandler-%28jrclient---api%29 "class in com.jbase.jrcs") | Default implementation of jRCS I/O handler |
+| [JDynArray](./../jdynarray-%28jrclient---api%29 "class in com.jbase.jrcs") | Represents a jBASE dynamic array |
+| [JExecuteResults](./../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs") | Contains results of jCL/jQL command execution |
+| [JFile](./../jfile-%28jrclient-api%29 "class in com.jbase.jrcs") | Represents a jBASE file variable |
+| [JIndex](./../jindex-%28jrclient-api%29 "class in com.jbase.jrcs") | Represents a jBASE index variable |
+| [JSelectList](./../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs") | Represents a jBASE select list variable |
 
+### Exception Summary
 
-
-**Exception Summary**
-
-| Exception<br> | Description |
+| Exception | Description |
 | --- | --- |
-| [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>Represents an exception thrown by all JClient classes<br> |
-
-
-
-
+| [JException](./../jexception-%28jrclient-api%29 "class in com.jbase.jrcs") | Represents an exception thrown by all JClient classes |

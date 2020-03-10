@@ -248,3 +248,5 @@ CASE event EQ TRIGGER_TYPE_PRE_DELETE ;* If call BEFORE a DELETE is performed
     END CASE
     RETURN
 ```
+
+Back to [Triggers](./../README.md)

@@ -1,4 +1,4 @@
-# Triggers- Overview
+# Triggers - Overview
 
 **Created At:** 8/24/2018 12:49:32 PM  
 **Updated At:** 9/5/2018 11:34:54 AM  
@@ -19,6 +19,8 @@ The following jBASE database trigger utilities enable users to configure and dis
 | --- | --- |
 | [CREATE-TRIGGER](./../create-trigger) | create trigger events for a file |
 | [DELETE-TRIGGER](./../create-trigger) | delete trigger events for a file |
-| [LIST-TRIGGER](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/adv22_LIST_TRIGGER.htm) | list triggers events on a file |
+| [LIST-TRIGGER](./../list-trigger/README.md) | list triggers events on a file |
 
-The trigger events manifest themselves by calling a user supplied subroutine, which can be independently configured for each file. Each user subroutine must make provision for all the event types which could be triggered for that file. The  [trigger API](./../trigger-api) document gives more information about this.  The [trigger guidelines document](./../triggers-guidelines) gives more information about best practices when using triggers.
+The trigger events manifest themselves by calling a user supplied subroutine, which can be independently configured for each file. Each user subroutine must make provision for all the event types which could be triggered for that file. The [trigger API](./../trigger-api) document gives more information about this.  The [trigger guidelines document](./../triggers-guidelines) gives more information about best practices when using triggers.
+
+Back to [Triggers](./../README.md)

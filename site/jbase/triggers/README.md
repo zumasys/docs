@@ -6,7 +6,7 @@
 [delete-trigger](./delete-trigger)  
 [list-trigger](./list-trigger)  
 [trigger-api](./trigger-api)  
-[triggers--overview](./triggers--overview)  
+[triggers-overview](./triggers-overview)  
 [triggers-guidelines](./triggers-guidelines)  
 
 [Back to Knowledgebase](./../README.md)

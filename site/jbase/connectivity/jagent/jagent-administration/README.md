@@ -6,69 +6,52 @@
 **Original ID:** 336525  
 **Internal:** No  
 
+jAgent is a standalone program that you can start from any command prompt to launch a jAgent Service.  The actual program is located in the jBASE install directory under the bin directory.  You can run multiple copies of jAgent each with it's own configuration.  jAgent can be configured either thru command line switches or through a configuration file.  A default configuration file is located in the jBASE install directory under configuration and is called jagent\_config.  jAgent can also be configured to run as a service.
 
-# 
+## Starting and Configuring jAGENT
 
-
-jAgent is a standalone program that you can start from any command prompt to launch a jAgent Service.  The actual program is located in the jBase install directory under the bin directory.  You can run multiple copies of jAgent each with it's own configuration.  jAgent can be configured either thru command line switches or thru a configuration file.  A default configuration file is located in the jbase install directory under configuration and is called jagent\_config.  jAgent can also be configured to run as a service.
-
-## 
-
-
-## STARTING AND CONFIGURING jAGENT:
-
-
-
-**COMMAND SYNTAX:**
+### Command Syntax
 
 ```
 jbase_agent [service options] [options]
 ```
 
-**COMMAND ELEMENTS:**
+### Command Elements
 
 - **Service Options -** install, start, stop and remove jagent service.
 - **Options -** configure jagent behavior. Most options have both long and short forms. For convenience, most options can be specified in a configuration file, and only the --config option is needed on the command line.
 
-
-
-| <!----> | <!----> |
+| Option| Description|
 | --- | --- |
-| **Option** <br> | **Description** <br> |
-| --config=[config file name]<br> | Use [config file name] to specify jagent options. When using the jBASE HTTP API (RESTful services), a configuration file is required, as it specifies how HTTP requests are handled.  E.g. jbase\_agent --config=$JBCRELEASEDIR/config/ jagent\_config<br>You must put a = sign in the switch.  If you do not define a config file then jagent will look for one in your jbase install directory config/jagent\_config.  Therefore jagent\_config --config myconfig will not use "myconfig" but will pull the default config due to the missing equal sign.<br> |
-| -A [mode]    --authentication=[mode]<br> | [mode] = the mode (none|user|account) used to authenticate client connections. This option is ignored for jBASE HTTP connections.  E.g. jbase\_agent -A user It is recommended you do not use none for non HTTP sessions.  <br> |
-| -b [interfaceName]--bind\_address=[interfaceName]<br> | Bind to a specific local interface. If not specified then bind to all local interfaces.  e.g. jbase\_agent -b 1.2.3.4<br> |
-| -c [path to certificate]--certificate=[path to certificate]<br> | [path to certificate] = the path to a valid x509 certificate.  Note --private\_key is mandatory with this option.<br> |
-| -F<br> | Create log files for each client connection (P[pid].log)<br> |
-| -h<br> | Print this screen<br> |
-| -k [path to private key]--private\_key=[path to private key]<br> | [path to privatekey] = the path to a valid private key.  Certificate is mandatory with this option.  E.g. jbase\_agent --private\_key=key.pem --certificate=cert.pem<br> |
-| L [logLevel]--loglevel=[logLevel]<br> | [logLevel] = a numeric log level that determines the detail to be logged (default level is LOG\_NOTICE).0 NO LOGGING1  LOG\_TRACE2  LOG\_DEBUG3 LOG\_INFO4  LOG\_NOTICE5  LOG\_WARNING6  LOG\_ERROR7  LOG\_CRITICAL8  LOG\_ALERT9  LOG\_EMERGENCY<br> |
-| -n [serviceName]--service\_name=[serviceName]<br> | [serviceName] = name of the service to install, start, stop or remove. (windows)<br> |
-| -N<br> | Do not set TCP\_NO\_DELAY. Useful for performance tuning.<br> |
-| -p [listenPort]--port=[listenPort]<br> | [listenPort] = theport that will listen for client connections.  E.g. jbase\_agent -p 20003<br> |
-| -R [bufferSize]--read\_buf\_size=[bufferSize]<br> | Set read buffer size (in bytes) to [bufferSize]. If not specified uses default buffer size.<br> |
-| -W [bufferSize]--write\_buf\_size=[bufferSize]<br> | Set write buffer size (in bytes) to [bufferSize]. If not specified uses default buffer size.<br> |
+| --config=[config file name] | Use [config file name] to specify jagent options.<br>When using the jBASE HTTP API (RESTful services), a configuration file is required, as it specifies how HTTP requests are handled,  e.g.<br><br> jbase\_agent --config=$JBCRELEASEDIR/config/ jagent\_config<br><br>You must put an = sign in the switch.  If you do not define a config file then jagent will look for one in your jbase install directory config/jagent\_config.  Therefore jagent\_config --config myconfig will not use "myconfig" but will pull the default config due to the missing equal sign. |
+| -A [mode]    --authentication=[mode] | [mode] = the mode (none|user|account) used to authenticate client connections. This option is ignored for jBASE HTTP connections,  e.g.<br><br> jbase\_agent -A user<br><br>> It is recommended you do not use none for non HTTP sessions.   |
+| -b [interfaceName]--bind\_address=[interfaceName] | Bind to a specific local interface. If not specified then bind to all local interfaces.  e.g.<br><br> jbase\_agent -b 1.2.3.4<br> |
+| -c [path to certificate]--certificate=[path to certificate] | [path to certificate] = the path to a valid x509 certificate.  Note --private\_key is mandatory with this option. |
+| -F | Create log files for each client connection (P[pid].log) |
+| -h | Print this screen |
+| -k [path to private key]--private\_key=[path to private key] | [path to privatekey] = the path to a valid private key.  Certificate is mandatory with this option, e.g. <br><br>jbase\_agent --private\_key=key.pem --certificate=cert.pem<br> |
+| L [logLevel]--loglevel=[logLevel] | [logLevel] = a numeric log level that determines the detail to be logged (default level is LOG\_NOTICE).<br>0 NO LOGGING<br>1  LOG\_TRACE<br>2  LOG\_DEBUG<br>3 LOG\_INFO<br>4  LOG\_NOTICE<br>5  LOG\_WARNING<br>6  LOG\_ERROR<br>7  LOG\_CRITICAL<br>8  LOG\_ALERT<br>9  LOG\_EMERGENCY |
+| -n [serviceName]--service\_name=[serviceName] | [serviceName] = name of the service to install, start, stop or remove. (windows) |
+| -N | Do not set TCP\_NO\_DELAY. Useful for performance tuning. |
+| -p [listenPort]--port=[listenPort] | [listenPort] = theport that will listen for client connections.  E.g. jbase\_agent -p 20003 |
+| -R [bufferSize]--read\_buf\_size=[bufferSize] | Set read buffer size (in bytes) to [bufferSize]. If not specified uses default buffer size. |
+| -W [bufferSize]--write\_buf\_size=[bufferSize] | Set write buffer size (in bytes) to [bufferSize]. If not specified uses default buffer size. |
 
-
-
-
-##  RUNNING jAGENT AS A SERVICE:
+### Running jAGENT as a Service
 
 When running jAgent as a service on Windows, the startup directory will be C:\Windows\System32. On non-Windows platforms, it will be the current directory of the process that starts the jAgent service. If you need jAgent to run in a different directory, you can set the HOME environment variable in the jAgent configuration file [ENVIRONMENT] section.  The example below uses the DEMO\_REST account used in the Introduction to jAgent REST Services.
 
-
-
 ```
-[ENVIRONMENT] 
-; Use the standard jbase_env script to set up the jBASE 
-; system environment variables. 
-; Set up the "account" environment variables. 
-;HOME=$CURDIR 
-HOME=/opt/jbase/DEMO_REST 
-PATH=$HOME/bin:$PATH 
-JBCOBJECTLIST=$HOME/lib 
-JEDIFILEPATH=$HOME 
-JEDIFILENAME_MD=$HOME/MD 
+[ENVIRONMENT]
+; Use the standard jbase_env script to set up the jBASE
+; system environment variables.
+; Set up the "account" environment variables.
+;HOME=$CURDIR
+HOME=/opt/jbase/DEMO_REST
+PATH=$HOME/bin:$PATH
+JBCOBJECTLIST=$HOME/lib
+JEDIFILEPATH=$HOME
+JEDIFILENAME_MD=$HOME/MD
 ```
 
 *Note: APPDIR and CURDIR if not set refer to the  location of the **jbase\_agent** executable and the current directory respectively.*
@@ -77,11 +60,11 @@ JEDIFILENAME_MD=$HOME/MD
 
 The jbase\_agent process inherits the environment from the invoking process. If a config file is used at startup then additional environment variables can be set/modified in the [ENVIRONMENT] section (see above).
 
-## STARTING jAGENT AS A SERVICE:
+## Starting jAGENT as a Service
 
 The service options allow jAgent to be installed and started as a Win32 Service on Windows platforms, and as a daemon on Unix platforms.
 
-**Windows Service**
+### Windows Service
 
 jbase\_agent **install** [-n &lt;Service Name&gt;] &lt;options&gt;
 
@@ -98,7 +81,7 @@ Example:
 Using the DEMO\_REST account used in the Introduction to jAgent REST Services, the default location used by CREATE-ACCOUNT to create the DEMO\_REST account is C:\jbase, so the working directory for jAgent service would be C:\jbase\DEMO\_REST. That is the path to use for HOME in the jagent\_config file. The commands to start jAgent service:
 
 ```
-; In this example it is using the default config.  It is recommend for production you copy this config to your application and reference that config file. 
+; In this example it is using the default config.  It is recommend for production you copy this config to your application and reference that config file.  
 ; You must still setup all your environment stuff correctly in the [ENVIRONMENT]  area for your application
 
 jbase_agent install --config=C:\jbase\CurrentVersion\config\jagent_config
@@ -106,11 +89,11 @@ jbase_agent install --config=C:\jbase\CurrentVersion\config\jagent_config
 jbase_agent start
 ```
 
-**Unix Service**
+### UNIX Service
 
-On unix it is recommended you install jAgent as a systemd service.  This is a system administrator level duty.  It is best to be familiar with systemd and how scripts are configured.  Below is a sample.
+On UNIX it is recommended you install jAgent as a systemd service.  This is a system administrator level duty.  It is best to be familiar with systemd and how scripts are configured.  Below is a sample.
 
-```
+``` bash
 ;First create our scripts and our environment.
 # cd /path/to/myscripts
 # cp /opt/jbase/CurrentVersion/config/jagent_config ./jagent_20002_config
@@ -129,7 +112,7 @@ FI
 
 When the service is working add a systemd script.
 
-```
+``` bash
 # sudo su
 # useradd jagent
 # usermod -g jbase jagent     # this is optional, but you must run jagent as a user that has correct permissions.  You must adjust the jbase group to be whatever group your platform users.
@@ -174,11 +157,7 @@ Aug 24 11:14:49 rrmjBase01 jagent_20002.sh[19584]: (10085|140213281888320) DEBUG
 # systemctl enable jbase_20002       ; # this will start jagent on reboots
 ```
 
-
-
-
-
-## jAGENT CONFIGURATION FILE:
+## jAGENT Configuration File
 
 All jAgent options and settings can be specified in a configuration file. Use the **--config** command line option to specify the path to the configuration file. A default configuration file, ***jagent\_config***, can be found in the ***config*** directory under the jBASE release directory.
 
@@ -428,6 +407,3 @@ tgz     = "application/x-gzip"
 js      = "application/x-javascript"
 css     = "text/css"
 ```
-
-## 
-

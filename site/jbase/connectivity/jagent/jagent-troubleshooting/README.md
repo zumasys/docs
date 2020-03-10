@@ -6,7 +6,6 @@
 **Original ID:** 336527  
 **Internal:** No  
 
-
 This document explains how the jAgent web server works and how to diagnose when things are not working.
 
 First you must determine what port the jAgent web server is listening on.  jAgent must have been started and pointed at a configuration file.  Review that configuration file and look for the port definition.
@@ -24,8 +23,6 @@ First verify that http is specified in the services line.  This tells this inst
 services=jremote,jodbc,http
 ```
 
-
-
 ## IP Address and Port
 
 The second section to review is the port and ip address assignment.  If commented out as below then by default jagent will listen on port 20002 and listen on all ports.
@@ -42,15 +39,13 @@ The second section to review is the port and ip address assignment.  If comment
 ;bind_address = <IP address to listen on>
 ```
 
-
-
-## Try and connect
+## Try to connect
 
 Since jAgent  is a web server you can connect to it with any browser.  Due to firewalls it is usually best to use a local tool such as curl to test the webserver.  Curl is usually included with all linux distributions.  If you are on a windows server you can log into the main server desktop and use IE or Chrome.  You can also download dos versions of curl for windows [here](https://curl.haxx.se/dlwiz/).
 
 If you are using curl you can do the following
 
-```
+``` json
 C:\jBASE\DEMOS>curl http://localhost:20002/api/wresttest
 {"RestVersion":"1.1", "Who":"3 patrickp", "pwd":"C:\\jBASE\\DEMOS", "wresttest": [ "File path:                C:\\jBASE\\DEMOS\\md]D","File path:                C:\\jBASE\\DEMOS","File path:                C:\\JBASE\\PMIPORTAL","File path:                .","Subroutine object:        main()","Subroutine object:        C:\\jBASE\\DEMOS\\lib\\lib0.dll","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjbaseutil","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjcon","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjee","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjrest","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjsub","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libjwobj","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libsql","Subroutine object:        C:\\jBASE\\CurrentVersion\\lib\\libSQLSYS","Execute path:             C:\\jBASE\\DEMOS\\md]D","Shared Object             C:\\jBASE\\CurrentVersion\\bin\\WRESTTEST.dll","Executable (DUP!!)        C:\\jBASE\\CurrentVersion\\bin\\WRESTTEST.exe"], "vars": {}, "cookies": {}, "headers": {"REMOTE_ADDR":"127.0.0.1", "REMOTE_HOST":"127.0.0.1", "PROTOCOL_VERSION":"HTTP\/1.1", "REQUEST_METHOD":"GET", "PATH_INFO":"\/api\/wresttest", "SERVER_PORT":"20002", "HTTP_ACCEPT":"*\/*", "HTTP_USER_AGENT":"curl\/7.55.1", "HTTP_HOST":"localhost:20002"}, "body":"", "status":"ok", "statusmsg":""}
 C:\jBASE\DEMOS>
@@ -70,8 +65,6 @@ Here is the same thing with Microsoft Edge.
 A failed request from Edge looks like
 
 ![336527-jagent-troubleshooting: 1526849720517-1526849720517](./1526849720517-1526849720517.jpg)
-
-
 
 If you get any type of page response then jAgent is running.  If you are not getting a connection you should go to the next section and run jAgent in the foreground.  You should also review the jAgent [documentation](./../introduction-to-jagent)
 
@@ -104,13 +97,11 @@ bash-4.2$ jbase_agent --port 20003
 (31400|140710873688128) NOTICE starting up jAgent, Process Per Connection mode, listening on port 20003, SocketAcceptor.h +63
 ```
 
-
-
 In both cases we have fired up the jAgent on port 20003.  Because we have not defined a configuration file http is actually disabled.  That is ok because the web server will still respond but tell us http is disabled.  Now test the web server again
 
 Curl
 
-```
+``` html
 C:\Users\patrickp>curl http://localhost:20003/wresttest
 <!DOCTYPE html>
 .... chopped out a bunch of output as it is all html/css stuff ....
@@ -252,7 +243,9 @@ maxrequest = 100000000
 
 ## WRESTTEST
 
-Once you have the webserver responding there is a testing rest api called WRESTTEST to assist you in debugging your environment.  You should be able to browse to http://&lt;your ip&gt;:20002/api/wresttest and you should see the following page.
+Once you have the webserver responding there is a testing rest api called WRESTTEST to assist you in debugging your environment.  
+
+[You should be able to browse to: http://<your ip>:20002/api/wresttest and you should see the following page.
 
 ![336527-jagent-troubleshooting: 1526760527506-1526760527506](./1526760527506-1526760527506.jpg)
 
@@ -338,7 +331,7 @@ This should handle most connection issues you will run into.  If you have your 
 
 ## Licensing/Database
 
-If you see the following message from your **jbase\_agent**log-output:
+If you see the following message from your **jbase\_agent** log-output:
 
 ```
 HTTP maximum user count exceeded

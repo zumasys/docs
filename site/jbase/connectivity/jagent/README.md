@@ -12,7 +12,7 @@
 [jagent-administration](./jagent-administration)  
 [jagent-restful-services-quick-start](./jagent-restful-services-quick-start)  
 [jagent-security](./jagent-security)  
-[jagent-troubleshooting](./jagent-troubleshooting)  
+[jagent-troubleshooting](./jagent-troubleshooting/README.md)  
 [jremote](./jremote)  
 [jremote-api](./jremote-api)  
 [odbc-quick-start](./odbc-quick-start)  

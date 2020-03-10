@@ -6,22 +6,14 @@
 **Original ID:** 278025  
 **Internal:** No  
 
-<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jrcs.JExecuteResults (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
-# 
-
 ## Uses of [JExecuteResults](./../../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29)
-
-
 
 **Methods in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29) that return [JExecuteResults](./../../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs")**
 
-
-| <br>Modifier and Type<br> | <br>Method<br> | <br>Description<br> |
+| Modifier and Type | Method | Description |
 | --- | --- | --- |
-| <br>[JExecuteResults](./../../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>JConnection.[execute](./../../jconnection-%28jrclient-api%29#execute-java.lang)(String command, int flags)<br> | <br>Executes a jCL/jQL command and retrieves select parameters resulting from execution<br> |
-| <br>[JExecuteResults](./../../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>JConnection.[execute](./../../jconnection-%28jrclient-api%29#execute-java.lang.String-int-com.jbase.jrcs)(String command, int flags, [JSelectList](./../../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs") passList)<br> | <br>Executes a jCL/jQL command optionally passing it a select list and retrieves select parameters resulting from execution<br> |
-| <br>[JExecuteResults](./../../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>JConnection.[executeAndStore](./../../jconnection-%28jrclient-api%29#executeAndStore-java.lang)(String command, int flags)<br> | <br>Executes a jCL/jQL command and retrieves select parameters resulting from execution.<br> |
-| <br>[JExecuteResults](./../../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>JConnection.[executeAndStore](./../../jconnection-%28jrclient-api%29#executeAndStore-java.lang.String-int-com.jbase.jrcs)(String command, int flags, [JSelectList](./../../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs") passList)<br> | <br>Executes a jCL/jQL command optionally passing it a select list and retrieves select parameters resulting from execution.<br> |
-| <br>[JExecuteResults](./../../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | <br>JConnection.[executeAndStore](./../../jconnection-%28jrclient-api%29#executeAndStore-java.lang.String-int-com.jbase.jrcs)(String command, int flags, [JSelectList](./../../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs") passList, int blockSize)<br> | <br>Executes a jCL/jQL command optionally passing it a select list and retrieves select parameters resulting from execution.<br> |
-
-
+| [JExecuteResults](./../../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs") | JConnection.[execute](./../../jconnection-%28jrclient-api%29#execute-java.lang)(String command, int flags) | Executes a jCL/jQL command and retrieves select parameters resulting from execution |
+| [JExecuteResults](./../../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs") | JConnection.[execute](./../../jconnection-%28jrclient-api%29#execute-java.lang.String-int-com.jbase.jrcs)(String command, int flags, [JSelectList](./../../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs") passList) | Executes a jCL/jQL command optionally passing it a select list and retrieves select parameters resulting from execution |
+| [JExecuteResults](./../../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs") | JConnection.[executeAndStore](./../../jconnection-%28jrclient-api%29#executeAndStore-java.lang)(String command, int flags) | Executes a jCL/jQL command and retrieves select parameters resulting from execution. |
+| [JExecuteResults](./../../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs") | JConnection.[executeAndStore](./../../jconnection-%28jrclient-api%29#executeAndStore-java.lang.String-int-com.jbase.jrcs)(String command, int flags, [JSelectList](./../../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs") passList) | Executes a jCL/jQL command optionally passing it a select list and retrieves select parameters resulting from execution. |
+| [JExecuteResults](./../../jexecuteresults-%28jrclient-api%29 "class in com.jbase.jrcs") | JConnection.[executeAndStore](./../../jconnection-%28jrclient-api%29#executeAndStore-java.lang.String-int-com.jbase.jrcs)(String command, int flags, [JSelectList](./../../jselectlist-%28jrclient---api%29 "class in com.jbase.jrcs") passList, int blockSize) | Executes a jCL/jQL command optionally passing it a select list and retrieves select parameters resulting from execution. |

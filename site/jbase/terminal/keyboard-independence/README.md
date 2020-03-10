@@ -6,7 +6,6 @@
 **Original ID:** 284159  
 **Internal:** No  
 
-
 Keyboard input can be handled independently of the current terminal type within end user coded routines by using the jBASE Command Key subroutines supplied in the jBASE libutils library.
 
 The jBASE supplied includes, JBC.h and jCmdKeys.h, and the subroutines JBASECommandInit and JBASECommandNext (jBASE 4.1 and later) or CommandInit and  CommandNext (jBASE 3.x) are integral to using this feature. The JBASECommandInit subroutine initializes the keyboard mappings while the JBASEComandNext subroutine would be used in place of the [INPUT](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jbc2_INPUT.htm) statement to return the actual command (i.e. Page Up, Insert Line, Cursor Left, etc). It is then up to the application to provide the appropriate functionality for each command.
@@ -25,9 +24,7 @@ On jBASE 4.x (and later) the required subroutines are:
     JBASECommandInit
     JBASECommandNext(KeyDescriptionCode, KeyData, Timeout)
 
-###  
-
-### PROCEDURE
+## Procedure
 
 First add the following lines to the initialization of your program:
 
@@ -56,9 +53,7 @@ This is the actual code sequence that has been typed as defined in jCmdKeys.h or
 **Timeout**
 This is a variable that is passed to the JBASECommandNext subroutine. It must be an integer indicating the number of tenths of seconds to wait until the JBASECommandNext subroutine terminates, so 150 will be a 15 second timeout. To inhibit the timeout feature initialize this variable to zero (ie Timeout = 0).
 
-
-
-### EXAMPLES
+### Examples
 
 This code shows how to use the timeout capability:
 
@@ -122,3 +117,5 @@ UNTIL RtnNo = cmd_escape DO
  END CASE
 REPEAT
 ```
+
+Back to [Terminal](./../README.md)

@@ -9,13 +9,13 @@
 **Tags:**
 <badge text='jagent_user' vertical='middle' />
 
-# ENABLING SSL ENCRYPTION:
+## Enabling SSL Encryption
 
 jAgent may be configured to use SSL encryption. To activate SSL encryption, you must specify a valid x509 certificate and a private key. The certificate and key may be specified using command line options, or in the jAgent configuration file.
 
 The following example describes how to create a self-signed certificate with *OpenSSL*:
 
-**Create a self-signed certificate with OpenSSL**
+### Create a self-signed certificate with OpenSSL
 
 1. Create an RSA private key:
 
@@ -40,7 +40,7 @@ Locality Name (eg, city) []:
 Organization Name (eg, company) [Internet Widgits Pty Ltd]:
 Organizational Unit Name (eg, section) []:
 Common Name (e.g. server FQDN or YOUR name) []:
-Email Address []: 
+Email Address []:
 ```
 
 2. Start jAgent in SSL mode
@@ -49,9 +49,7 @@ Email Address []:
 C:\programs\openssl\bin>jbase_agent -c cert.pem -k key.pem --config %HOME%\jagent_config
 ```
 
-
-
-## AUTHENTICATION MODES:
+### Authentication Modes
 
 For jRemote, ODBC and JDBC clients, jAgent supports three different authentication modes (See command line options):
 
@@ -59,43 +57,37 @@ For jRemote, ODBC and JDBC clients, jAgent supports three different authenticati
 - ***2. User -*** authentication verifies user credentials against a local user credentials database.
 - ***3. Account -*** authentication will attempt to use the provided user credentials to log into a specific jBASE account.
 
-
 For REST clients, an appropriate HTTP-based authentication mechanism must be implemented in the REST code.
 
-**Setting up user authentication**
+### Setting up User Authentication
 
-1.  Create the jAgent user file
-
-```
-CREATE-FILE JAGENT_USER 1 53 
-[ 417 ] File JAGENT_USER]D created , type = J4 
-[ 417 ] File JAGENT_USER created , type = J4 
-```
-
-2.  Create the user and set the password
+1. Create the jAgent user file
 
 ```
-jbase_agent adduser test 
-jbase_agent passwd test newpassword 
+CREATE-FILE JAGENT_USER 1 53
+[ 417 ] File JAGENT_USER]D created , type = J4
+[ 417 ] File JAGENT_USER created , type = J4
 ```
 
-3.  Now start jbase\_agent with user authentication.
+2. Create the user and set the password
 
 ```
-jbase_agent -A user 
+jbase_agent adduser test
+jbase_agent passwd test newpassword
 ```
 
-**Setting up account authentication**
+3. Now start jbase\_agent with user authentication.
+
+```
+jbase_agent -A user
+```
+
+### Setting up Account Authentication
 
 The environment should be configured with JEDIFILENAME\_SYSTEM set to a valid jBASE SYSTEM file that contains the jBASE accounts you wish to connect to. This can be set in the jAgent configuration file [ENVIRONMENT] section, if desired.
 
 1. Start jbase\_agent to authentication with account authentication
 
 ```
-jbase_agent -A account 
+jbase_agent -A account
 ```
-
-
-
-## 
-

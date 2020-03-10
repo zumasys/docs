@@ -6,17 +6,8 @@
 **Original ID:** 278027  
 **Internal:** No  
 
-<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jrcs.JIndex (jrclient   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
-
-
-
 ## Uses of [JIndex](./../../jindex-%28jrclient-api%29 "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-%28jrclient---api%29)
 
-
-
-
-| <br>Modifier and Type<br> | <br>Method<br> |  Description<br> |
+| Modifier and Type | Method |  Description |
 | --- | --- | --- |
-| <br>[JIndex](./../../jindex-%28jrclient-api%29 "class in com.jbase.jrcs")<br> | JFile.[openIndex](./../../jfile-%28jrclient-api%29#openIndex-java.lang)(String indexName)``<br> | <br>Opens a named index on this file<br> |
-
-
+| [JIndex](./../../jindex-%28jrclient-api%29 "class in com.jbase.jrcs") | JFile.[openIndex](./../../jfile-%28jrclient-api%29#openIndex-java.lang)(String indexName)`` | Opens a named index on this file |
