@@ -31,9 +31,9 @@ where:
 An example of use is as:
 
 ```
- IN_VALUE = "AAAA:BBJIMBB:CCCCC"
- CRT FIELD(IN_VALUE , ":", 3)
- CRT FIELD(IN_VALUE , "JIM", 1)
+IN_VALUE = "AAAA:BBJIMBB:CCCCC"
+CRT FIELD(IN_VALUE , ":", 3)
+CRT FIELD(IN_VALUE , "JIM", 1)
 ```
 
 to display:
@@ -46,3 +46,5 @@ AAAA:BB
 See also: [GROUP](./../group)
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

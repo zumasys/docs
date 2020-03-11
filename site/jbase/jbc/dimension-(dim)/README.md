@@ -20,7 +20,7 @@ DIM{ENSION} variable(number{, number, ... }){, variable(number {,number, ...}) .
 Where:
 
 - **variable** may be any valid variable name neither declared nor previously used.
-- The **numbers** define the size of each dimension and must be either constants or the subject of an [EQUATE](./../equate) statement.
+- **numbers** defines the size of each dimension and must be either constants or the subject of an [EQUATE](./../equate) statement.
 
 A single **DIM** statement may declare a number of arrays by separating their declarations with a comma.
 
@@ -42,3 +42,5 @@ DIM Age(DimSize1)
 See also: [COMMON](./../common)
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

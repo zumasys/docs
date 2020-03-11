@@ -26,7 +26,7 @@ If **replacement** is an empty string, it removes all occurrences of substring.
 
 If **expression** evaluates to null, it returns null.
 
-If **substring**, **replacement**, **occurrence**, or **begin** evaluates to null, the **EREPLACE** function fails and the program terminates with a run-time error message. The **EREPLACE**function behaves like the [CHANGE](./../change) function except when **substring** evaluates to an empty string.
+If **substring**, **replacement**, **occurrence**, or **begin** evaluates to null, the **EREPLACE** function fails and the program terminates with a run-time error message. The **EREPLACE** function behaves like the [CHANGE](./../change) function except when **substring** evaluates to an empty string.
 
 An example of use is as:
 
@@ -46,3 +46,5 @@ AAACCCDDD
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

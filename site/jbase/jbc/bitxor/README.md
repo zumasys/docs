@@ -16,7 +16,7 @@ It takes the general form:
 BITXOR(expression1, expression2)
 ```
 
-If either expression1 or expression2 evaluates to the null value, null is returned.
+If either **expression1** or **expression2** evaluates to the null value, null is returned.
 Non integer values are truncated before the operation is performed.
 The **BITXOR** operation is performed on a 32-bit twos-complement word. It should be noted that differences in hardware architecture can make the use of the high-order bit nonportable.
 
@@ -29,6 +29,9 @@ An example of use is as:
 ```
 
 This results in 1010, and the following output is displayed:
+
 10
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

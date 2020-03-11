@@ -20,7 +20,7 @@ Where the subroutine definition would be as:
 SUBROUTINE ErrorExit(param1)
 ```
 
-Where **Param1** is a parameter passed to the function. It is possible to add parameters to the error subroutine by adding multi-values to the parameter to **CALLONEXIT**, which are passed to the called subroutine in the first parameter.
+Where **param1** is a parameter passed to the function. It is possible to add parameters to the error subroutine by adding multi-values to the parameter to **CALLONEXIT**, which are passed to the called subroutine in the first parameter.
 
 ## Note
 
@@ -45,3 +45,5 @@ DEBUG
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md

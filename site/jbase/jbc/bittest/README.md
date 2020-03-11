@@ -16,7 +16,7 @@ BITTEST(expression, bit#)
 
 Where:
 
-expression must evaluate to an integer. If expression evaluates to the null value, null is returned.
+**expression** must evaluate to an integer. If **expression** evaluates to the null value, null is returned.
 
 If bit# evaluates to null, the **BITTEST** function fails and the program terminates with a run-time error message.
 
@@ -30,6 +30,11 @@ CRT BITTEST(11,0),BITTEST(11,1),BITTEST(11,2),BITTEST(11,3)
 ```
 
 to output:
+
+```
 1 1 0 1
+```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

@@ -8,27 +8,27 @@
 
 | <!----> | <!----> |
 | --- | --- |
-| [CHAR](./../char)<br> | Displays a character conversion table.<br> |
-| [ENCRYPTION](./../../jbase-encryption---database-security)<br> | File encryption and decryption.<br> |
-| [ERRMSG](./../errmsg)<br> | Displays system error message text/description.<br><br> |
+| [CHAR](./../char) | Displays a character conversion table. |
+| [ENCRYPTION](./../../jbase-encryption---database-security) | File encryption and decryption. |
+| [ERRMSG](./../errmsg) | Displays system error message text/description. |
 | HAD | Displays any file in hexadecimal format. A hexadecimal offset can be specified from which to start the display as: <br><br>```had -offset```<br><br> |
-| [JCOMP](./../../../files/jcomp)<br> | Compares two hashed files or directories.<br><br> |
-| [JCOVER](./../jcover)<br> | Application profiling tool.<br> |
-| [JDIAG](./../jdiag)<br> | jBASE diagnostic tool.<br> |
-| [JEXPORT](./../jexport)<br> | Generates output of delimited values using jQL syntax.<br> |
-| [JFB](./../jfb)<br> | Generates formatted jBC source code listings.<br> |
-| [JFIND](./../../jfind)<br> | Provides the UNIX *find* capability for Windows.<br> |
-| [JGREP](jgreb)<br> | Provides the UNIX *grep* capability for Windows.<br> |
-| [JIMI](./../jbase-independent-metrics-integration-%28jimi%29)<br> | jBASE Independent Metrics Integration.<br> |
-| [JKEYAUTO](./../jkeyauto/jkeyauto)<br> | Program control language.<br> |
-| [JMSGBOX](jmsgbox)<br> | Message box display utility for Windows.<br> |
-| [JRM JMV JDIR](./../jrm-jmv-jdir)<br> | Remove, move, dir executables.<br> |
-| [JSETKEY](./../jsetkey-%28jbase-3-only%29)<br> | jBASE environment settings (jBASE 3 only).<br> |
-| [JSHOW](./../jshow)<br> | Displays locations of files, programs and subroutines.<br> |
-| [JSTART](./../../background--processing/jstart)<br> | Start processes.<br> |
-| [JTIC](./../jtic)<br> | jBASE terminfo compiler.<br> |
-| [KEYS JKEYS](./../keys-&-jkeys)<br> | Displays keyboard input.<br> |
-| [LIBUTILS](./../libutils)<br> | Shared library for terminal independent keyboard input.<br> |
-| [MW42](./../mw42)<br> | Produces diagnostics of resource issues.<br> |
+| [JCOMP](./../../../files/jcomp) | Compares two hashed files or directories. |
+| [JCOVER](./../jcover) | Application profiling tool. |
+| [JDIAG](./../jdiag) | jBASE diagnostic tool. |
+| [JEXPORT](./../jexport) | Generates output of delimited values using jQL syntax. |
+| [JFB](./../jfb) | Generates formatted jBC source code listings. |
+| [JFIND](./../../jfind) | Provides the UNIX *find* capability for Windows. |
+| [JGREP](jgreb) | Provides the UNIX *grep* capability for Windows. |
+| [JIMI](./../jbase-independent-metrics-integration-%28jimi%29) | jBASE Independent Metrics Integration. |
+| [JKEYAUTO](./../jkeyauto/jkeyauto) | Program control language. |
+| [JMSGBOX](jmsgbox) | Message box display utility for Windows. |
+| [JRM JMV JDIR](./../jrm-jmv-jdir) | Remove, move, dir executables. |
+| [JSETKEY](./../jsetkey-%28jbase-3-only%29) | jBASE environment settings (jBASE 3 only). |
+| [JSHOW](./../jshow) | Displays locations of files, programs and subroutines. |
+| [JSTART](./../../background--processing/jstart) | Start processes. |
+| [JTIC](./../jtic) | jBASE terminfo compiler. |
+| [KEYS JKEYS](./../keys-&-jkeys) | Displays keyboard input. |
+| [LIBUTILS](./../libutils) | Shared library for terminal independent keyboard input. |
+| [MW42](./../mw42) | Produces diagnostics of resource issues. |
 
 [Back to Reference Guides](../README.md)

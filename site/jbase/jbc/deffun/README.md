@@ -16,8 +16,8 @@ DEFFUN FuncName({ {MAT} Argument1, {MAT} Argument2...})
 
 Where
 
-- **FuncName**, is the name used to define the function. It must be the same as the source file name.
-- **Argument**, specifies a value passed to the function by the calling program. To pass an array, you must use the MAT before the argument name. These parameters are optional (as indicated in the Command Syntax) but can be specified for clarity. Note that if the arguments are not initialized somewhere in the program you will receive a compiler warning.
+- **FuncName** is the name used to define the function. It must be the same as the source file name.
+- **Argument** specifies a value passed to the function by the calling program. To pass an array, you must use the MAT before the argument name. These parameters are optional (as indicated in the Command Syntax) but can be specified for clarity. Note that if the arguments are not initialized somewhere in the program you will receive a compiler warning.
 
 ## Note
 
@@ -52,3 +52,5 @@ RETURN(result)
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

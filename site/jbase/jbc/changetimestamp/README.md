@@ -19,3 +19,5 @@ Where the format of the adjustment array can be : Years^Months^Weeks^Days^Hours^
 The function generates a new timestamp by adjusting an existing timestamp value using the elements specified in the dynamic array.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

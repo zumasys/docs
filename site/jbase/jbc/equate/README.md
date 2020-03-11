@@ -33,13 +33,15 @@ The snippet of code below illustrates how to enhance readability by referring to
 For example, if the quantity field moves to INV\_LINE(6), you only have to change one line in the  program.
 
 ```
- COMMON FLAG
- EQUATE NO_CHARGE TO FLAG
- EQUATE CR TO CHAR (13), TRUE TO 1, FALSE TO 0
- EQUATE PRICE TO INV_LINE(7), TAX TO 0.175
- EQUATE DASHES TO "-------"
- IF NO_CHARGE = TRUE THEN PRICE = 0
- CRT "Tax =":PRICE * TAX:CR:DASHES
+COMMON FLAG
+EQUATE NO_CHARGE TO FLAG
+EQUATE CR TO CHAR (13), TRUE TO 1, FALSE TO 0
+EQUATE PRICE TO INV_LINE(7), TAX TO 0.175
+EQUATE DASHES TO "-------"
+IF NO_CHARGE = TRUE THEN PRICE = 0
+CRT "Tax = " : PRICE * TAX : CR : DASHES
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

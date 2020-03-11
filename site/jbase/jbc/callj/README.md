@@ -165,3 +165,5 @@ If **JBCJVMLIB** is not yet defined, set it to the jvm library from the same jav
 If you get a return code of "6" and you can successfully test your class/method using generic java, check that your method only has a String as the argument and also returns a String.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

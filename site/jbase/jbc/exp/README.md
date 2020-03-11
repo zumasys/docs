@@ -26,7 +26,9 @@ Where **expression** may consist of any form of jBASE BASIC expression but must 
 An example of use is as:
 
 ```
- zE10 = EXP(10) ;* Get e^10
+zE10 = EXP(10) ;* Get e^10
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

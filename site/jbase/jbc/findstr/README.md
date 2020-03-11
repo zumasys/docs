@@ -33,13 +33,13 @@ If **expression1** is found as a substring of any element of **Var1** then **Var
 An example of use is as:
 
 ```
-     V.ARRAY = 'ABC' :@FM: 'DEF' :@VM: 'XYZ'  : @SM: 'XYZ'
+V.ARRAY = 'ABC' :@FM: 'DEF' :@VM: 'XYZ'  : @SM: 'XYZ'
 
-     FINDSTR 'XY' IN V.ARRAY SETTING V.FLD, V.VAL THEN
-         CRT "FIELD: " : V.FLD, "POSITION: ": V.VAL
-     END ELSE
-         CRT "NOT FOUND"
-     END
+FINDSTR 'XY' IN V.ARRAY SETTING V.FLD, V.VAL THEN
+    CRT "FIELD: " : V.FLD, "POSITION: ": V.VAL
+END ELSE
+    CRT "NOT FOUND"
+END
 ```
 
 to display:
@@ -49,3 +49,5 @@ FIELD: 2        POSITION: 2
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

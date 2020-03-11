@@ -19,7 +19,6 @@ DIR(filename)
 
 Where **filename** is a string argument representing the relative or absolute path of a file or directory. This function returns a dynamic array with four attributes.
 
-
 | Attribute |  Description |
 | --- | --- |
 | 1 | File size in bytes |
@@ -30,9 +29,11 @@ Where **filename** is a string argument representing the relative or absolute pa
 An example of use is as follows:
 
 ```
-     info = DIR("MD")
+info = DIR("MD")
 ```
 
 to assign file information to variable **info**.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

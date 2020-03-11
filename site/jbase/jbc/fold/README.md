@@ -78,3 +78,5 @@ The 3-parameter version of FOLD() is new as of jBASE release 5.6.2. The original
 The 2-parameter version replaces spaces with attribute marks, CHAR(254). The 3-parameter version replaces spaces with value marks, CHAR(253), if and only if the 3rd parameter is null. See the last example above.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

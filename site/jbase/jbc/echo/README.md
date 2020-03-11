@@ -31,7 +31,7 @@ ECHO expression
 
 Where the statement, if used with the keywords **ON** and **OFF**, may serve to specify echoing or not.
 
-If used with an **expression**, then the expression should evaluate to a Boolean TRUE or FALSE result.
+If used with an **expression**, then **expression** should evaluate to a Boolean TRUE or FALSE result.
 
 TRUE: echoing on
 
@@ -53,3 +53,5 @@ ECHO ON
 The above would disable the character input echoing while typing in a password. After the character echoing will be turned back on.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

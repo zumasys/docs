@@ -22,7 +22,7 @@ Where:
 ## Note
 
 > - The delimiter string may consist of more than one character.
-> - If expression1 is a NULL string, the function returns a value of zero.
+> - If **expression1** is a NULL string, the function returns a value of zero.
 > - The delimiter string may consist of any character, including system delimiters such as field marks or value marks.
 
 An example of use is as follows:
@@ -37,3 +37,5 @@ The above code will display the value 4
 See also: [COUNT](./../count).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

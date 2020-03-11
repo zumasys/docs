@@ -22,11 +22,13 @@ This function is currently limited to return values to determine if the file var
 **Key** Return Status returns 1 if ***file.variable*** is a valid files variable, or 0 if not.
 
 ```
-     OPEN "test_rec" TO FILE_VAR ELSE ABORT 201, "THIS FILE "
-     IF FILEINFO(FILE_VAR, 0) = 1 THEN CRT "FILE INFORMATION IS VALID"
-     ELSE
-         CRT "INVALID INFORMATION"
-     END
+OPEN "test_rec" TO FILE_VAR ELSE ABORT 201, "This file "
+IF FILEINFO(FILE_VAR, 0) = 1 THEN CRT "File information is valid"
+ELSE
+    CRT "Invalid information"
+END
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

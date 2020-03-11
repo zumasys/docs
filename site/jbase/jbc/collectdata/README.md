@@ -16,7 +16,7 @@ COLLECTDATA variable
 
 Where:
 
-Variable is the name of the variable, which is to store the retrieved data.
+**variable** is the location in which to store the retrieved data.
 
 ## Note
 
@@ -42,3 +42,5 @@ Second
 In the above example, program FIRST will [EXECUTE](./../execute) program SECOND and will pass the string "Handover" in the PASSDATA clause. Program SECOND retrieves the string to a variable PassedMessage and prints the string on the Terminal screen.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

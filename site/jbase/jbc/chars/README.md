@@ -27,3 +27,5 @@ Where each element of **DynArr** must evaluate to a numeric argument in the rang
 See also: [CHAR](./../char).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

@@ -27,3 +27,5 @@ The above code will clear the variables to zero
 Note this does not affect COM{MON}. See [CLEARCOMMON](./../clearcommon "jBC CLEARCOMMON")
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

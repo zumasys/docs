@@ -16,7 +16,7 @@ ASCII(expression)
 
 Where:
 
-expression may return a data string of any form. The function will then assume that the characters are all members of the [EBCDIC](./../ebcdic) character set and translate them using a character map. The original expression is unchanged while the returned result of the function is now the **ASCII** equivalent.
+**expression** may return a data string of any form. The function will then assume that the characters are all members of the [EBCDIC](./../ebcdic) character set and translate them using a character map. The original expression is unchanged while the returned result of the function is now the **ASCII** equivalent.
 
 An example of use is as:
 
@@ -26,3 +26,5 @@ AsciiBlock = ASCII (EbcdicBlock) ;* convert to ASCII
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

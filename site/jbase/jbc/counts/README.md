@@ -17,7 +17,7 @@ COUNTS (dynamic.array, substring)
 Where:
 
 - **dynamic.array** specifies the dynamic array whose elements are to be searched.
-- **substring** is an expression that evaluates to the substring to be counted. substring can be a character string, a constant, or a variable.
+- **substring** is an expression that evaluates to the substring to be counted. **substring** can be a character string, a constant, or a variable.
 
 ## Note
 
@@ -34,3 +34,5 @@ CRT COUNTS(ARRAY, "AA")
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

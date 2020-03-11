@@ -26,7 +26,7 @@ or
 EXIT
 ```
 
-where the **expression** must evaluate to a numeric result, which should be the appropriate error code for the environment in which jBASE is being run. The error code is returned to the parent C function exit().
+where **expression** must evaluate to a numeric result, which should be the appropriate error code for the environment in which jBASE is being run. The error code is returned to the parent C function exit().
 
 ## Note
 
@@ -46,3 +46,5 @@ Assuming a file has been opened to FileDesc, an example of use is as follows:
 See also: [BREAK](./../break).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

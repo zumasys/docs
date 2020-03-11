@@ -62,7 +62,7 @@ $INCLUDE JBC.h
 $INCLUDE jCmdKeys.h
 EQU Timeout TO 100 ;* 10 seconds
 CALL JBASECommandInit
-* Accept keyboard input until ESC is pressed or the Timeout limit has been reached     
+* Accept keyboard input until ESC is pressed or the Timeout limit has been reached
 LOOP
      ECHO OFF
      CALL JBASECommandNext(RtnNo, KeyData, Timeout)
@@ -70,7 +70,7 @@ LOOP
      CRT @(0):@(-4):'KeyDescriptionCode=':RtnNo:' KeyData=':KeyData:
 UNTIL RtnNo = cmd_escape OR RtnNo = cmd_timeout DO
 REPEAT
-CRT 
+CRT
 ```
 
 The following program can be used to determine the exact KeyDescriptionCode and KeyData returned for various keyboard commands:

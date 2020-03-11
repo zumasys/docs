@@ -43,9 +43,11 @@ If the file continues to use the jBASE record locking, then the ON ERROR clause 
 An example of use is as:
 
 ```
- OPEN "filename" TO FILE_VAR ELSE ABORT 201, "this file"
- FILELOCK FILE_VAR LOCKED STOP 'FILE IS ALREADY LOCKED'
- PRINT "The file is locked."
+OPEN "filename" TO FILE_VAR ELSE ABORT 201, "This file"
+FILELOCK FILE_VAR LOCKED STOP 'File is already locked'
+CRT "The file is locked."
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

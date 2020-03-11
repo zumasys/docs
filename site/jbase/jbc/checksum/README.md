@@ -6,7 +6,7 @@
 **Original ID:** 284335  
 **Internal:** No  
 
-## Description 
+## Description
 
 The **CHECKSUM** function returns a simple numeric checksum of a character string. It takes the general form:
 
@@ -33,3 +33,5 @@ ELSE
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

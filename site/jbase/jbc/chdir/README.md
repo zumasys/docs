@@ -26,3 +26,5 @@ Where the **expression** should evaluate to a valid path name within the file sy
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

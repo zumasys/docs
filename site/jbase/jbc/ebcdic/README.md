@@ -24,8 +24,10 @@ The original **expression** is unchanged while the returned result of the functi
 An example of use may be as:
 
 ```
-     ascii_expression = "?m@?&???"
-     CRT EBCDIC(ascii_expression)
+ascii_expression = "?m@?&???"
+CRT EBCDIC(ascii_expression)
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

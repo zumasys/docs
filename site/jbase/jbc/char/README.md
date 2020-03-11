@@ -14,7 +14,7 @@ The **CHAR** function returns the ASCII character of its argument. It may take t
 CHAR(expression)
 ```
 
-Where the expression must evaluate to a numeric argument in the range 0-255, which is the entire ASCII character set.
+Where **expression** must evaluate to a numeric argument in the range 0-255, which is the entire ASCII character set.
 
 ## International Mode
 
@@ -43,3 +43,5 @@ An example of use would be inserting field delimiters within a variable or strin
 See also: [CHARS](./../chars)
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

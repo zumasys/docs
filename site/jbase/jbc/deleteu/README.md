@@ -17,3 +17,5 @@ If specifying no file variable in the **DELETEU** statement, the statement appli
 See also: [READ](./../read) statements, [OPEN](./../open) statement (for a description of the default file).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

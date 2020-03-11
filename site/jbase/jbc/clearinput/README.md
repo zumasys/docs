@@ -18,7 +18,7 @@ In the following example, the **CLEARINPUT** statement clears the terminal type-
 
 ```
 CLEARINPUT
-PRINT "DO YOU WANT TO DELETE THIS FILE? (Y OR N)";
+CRT "Do you want to delete this file? (Y or N)";
 INPUT X, 1
 ```
 
@@ -27,3 +27,5 @@ INPUT X, 1
 > CLEARINPUT command is synonymous with INPUTCLEAR.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

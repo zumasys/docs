@@ -17,7 +17,7 @@ The function is used to test if elements of one dynamic array are equal to the e
 EQS(array1, array2)
 ```
 
-Where **Array1** and **Array2** are both dynamic arrays.
+Where **array1** and **array2** are both dynamic arrays.
 
 ## Note
 
@@ -26,11 +26,13 @@ Where **Array1** and **Array2** are both dynamic arrays.
 An example of use is as:
 
 ```
-Arr1=1:@VM:45:@SM:3:@VM:"one"
-Arr2=0:@VM:45:@VM:1
-PRINT EQS(Arr1 ,Arr2)
+Arr1 = 1 : @VM :45 : @SM : 3 : @VM : "one"
+Arr2 = 0 : @VM :45 : @VM : 1
+CRT EQS(Arr1 ,Arr2)
 ```
 
 The output of this program is: 0]1\0]0
 
 Back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

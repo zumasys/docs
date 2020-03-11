@@ -50,17 +50,17 @@ BASE64 is not really an encryption method, but more of an encoding. The reason f
 An example of use may be as follows:
 
 ```
-     INCLUDE JBC.h
+INCLUDE JBC.h
 
-     cipher = JBASE_CRYPT_BLOWFISH_BASE64
+cipher = JBASE_CRYPT_BLOWFISH_BASE64
 
-     key = "Thunderbirds 2086"
-     str = "This is the string to be encrypted"
-     enc = ENCRYPT(str, key, cipher)
+key = "Thunderbirds 2086"
+str = "This is the string to be encrypted"
+enc = ENCRYPT(str, key, cipher)
 
-     CRT "Encrypted: " : enc
+CRT "Encrypted: " : enc
 
-     CRT "Decrypted: " : DECRYPT(enc, key, cipher)
+CRT "Decrypted: " : DECRYPT(enc, key, cipher)
 ```
 
 The above will display as output:
@@ -73,3 +73,5 @@ Decrypted: This is the string to be encrypted
 See also: [DECRYPT](./../decrypt).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

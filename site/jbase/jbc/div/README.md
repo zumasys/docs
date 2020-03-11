@@ -17,7 +17,7 @@ The **DIV** function is used to calculate the value of the quotient after divisi
 DIV(dividend, divisor)
 ```
 
-The **dividend** and **divisor** expressions can evaluate to any numeric value. The only exception is that the divisor cannot be zero. If either dividend or divisor evaluates to null, it returns null.
+The **dividend** and **divisor** expressions can evaluate to any numeric value. The only exception is that **divisor** cannot be zero. If either **dividend** or **divisor** evaluates to null, the function returns null.
 
 An example is as below:
 
@@ -30,3 +30,5 @@ PRINT QUOTIENT
 The above will output '0.2'.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

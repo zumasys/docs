@@ -12,9 +12,10 @@ The **CASE** statement allows the programmer to execute a particular sequence of
 
 ```
 BEGIN CASE
-CASE expression statement(s)
-CASE expression
-statement(s)
+    CASE expression
+        statement(s)
+    CASE expression
+        statement(s)
 . . .
 END CASE
 ```
@@ -22,7 +23,7 @@ END CASE
 Where:
 
 - The **BEGIN CASE** and **END CASE** statements bound the **CASE** structure. Within this block, an arbitrary number of **CASE** expression statements may exist followed by any number of jBASE BASIC statements.
-- The **expression** should evaluate to a TRUE or FALSE result. The evaluation of each expression at execution time is in order. If the expression returns a TRUE result, it then executes the statements below. On completion of the associated statements, execution will resume at the first statement following the END CASE.
+- **expression** should evaluate to a TRUE or FALSE result. The evaluation of each expression at execution time is in order. If **expression** returns a TRUE result, it then executes the statements below. On completion of the associated statements, execution will resume at the first statement following the END CASE.
 
 ## Note
 
@@ -47,3 +48,5 @@ An example of use is as below:
 In the above scenario, a single comment is printed depending on the value of A. If A is not 1 or 2 then the default **CASE** 1 rule will be executed as a "catch all".
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

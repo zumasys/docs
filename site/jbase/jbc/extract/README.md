@@ -31,10 +31,12 @@ Where:
 An example of use is as:
 
 ```
-  A = "0"; A<2> = "1"; A<3> = "2"
-  CRT EXTRACT(A, 2)
+A = "0"; A<2> = "1"; A<3> = "2"
+CRT EXTRACT(A, 2)
 ```
 
 to display the value "1".
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

@@ -15,18 +15,22 @@ ANDS (array1, array2)
 ```
 
 Each element of the new dynamic array is the logical AND of the corresponding elements of array1and array2. If an element of one dynamic array has no corresponding element in the other dynamic array, it returns a false (0) for that element.
-If both corresponding elements of array1 and array2 are null, it returns null for those elements. If one element is the null value and the other is zero or an empty string, it returns false for those elements.
+If both corresponding elements of **array1** and **array2** are null, it returns null for those elements. If one element is the null value and the other is zero or an empty string, it returns false for those elements.
 
 An example of use is as:
 
 ```
-A = 1:@SM:4:@VM:4:@SM:1
-B = 1:@SM:1-1:@VM:2
+A = 1 : @SM : 4 : @VM : 4 : @SM : 1
+B = 1 : @SM : 1 - 1 : @VM : 2
 CRT ANDS (A,B)
 ```
 
 to output:
 
+```
 1\0]1\0
+```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

@@ -18,10 +18,10 @@ The compiler will issue a warning message and ignore the statement if it is foun
 An example of use is as:
 
 ```
-     FOR I = 1 TO 30
-         IF MOD(I,2) = 0  THEN CONTINUE
-         ELSE CRT I
-     NEXT I
+FOR I = 1 TO 30
+    IF MOD(I,2) = 0  THEN CONTINUE
+    ELSE CRT I
+NEXT I
 ```
 
 The above example will execute the loop 30 times but will only print the value of I when I is a prime number.
@@ -29,3 +29,5 @@ The above example will execute the loop 30 times but will only print the value o
 See also: [BREAK](./../break), [EXIT](./../exit)
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

@@ -23,9 +23,11 @@ Where both **expression1** and **expression 2** must evaluate to non-null numeri
 An example of use is as:
 
 ```
-     CRT FSUB(2.54,5.703358)
+CRT FSUB(2.54,5.703358)
 ```
 
 To display: -3.163358
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

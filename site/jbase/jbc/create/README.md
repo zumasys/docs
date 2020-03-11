@@ -18,7 +18,7 @@ CREATE file.variable {THEN statements [ELSE statements] | ELSE statements}
 
 If the record or file is created, it executes the THEN statements; if no record or file is created, it executes the ELSE statements.
 
-An [OPENSEQ](./../openseq) statement for the specified file variable must be executed before the **CREATE** statement to associate the pathname or record ID of the file to be created with the file variable. If file.variable is null, the **CREATE** statement fails and the program enters the debugger.
+An [OPENSEQ](./../openseq) statement for the specified file variable must be executed before the **CREATE** statement to associate the pathname or record ID of the file to be created with the file variable. If **file.variable** is null, the **CREATE** statement fails and the program enters the debugger.
 
 ## Note
 
@@ -27,15 +27,15 @@ An [OPENSEQ](./../openseq) statement for the specified file variable must be exe
 In the following example, **record\_file2** does not yet exist. When [OPENSEQ](./../openseq) fails to open **record\_file2** in the **TESTENV** directory, the **CREATE** statement creates and opens it to the file variable **FILE**, ready to be written to.
 
 ```
-    INCLUDE JBC.h
-    OPENSEQ 'TESTENV':DIR_DELIM_CH:'record_file2' TO FILE ELSE
-        CREATE FILE ELSE ABORT
-    END
+INCLUDE JBC.h
+OPENSEQ 'TESTENV':DIR_DELIM_CH:'record_file2' TO FILE ELSE
+    CREATE FILE ELSE ABORT
+END
 
-    WEOFSEQ FILE
-    WRITESEQ 'I am a test record' TO FILE ELSE
-        CRT 'Failed to write'
-    END
+WEOFSEQ FILE
+WRITESEQ 'I am a test record' TO FILE ELSE
+    CRT 'Failed to write'
+END
 ```
 
 ### Warning
@@ -44,3 +44,5 @@ In the following example, **record\_file2** does not yet exist. When [OPENSEQ](.
 You can verify by running **config-strings**.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

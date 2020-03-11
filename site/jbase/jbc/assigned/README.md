@@ -14,9 +14,9 @@ The function returns a Boolean TRUE or FALSE result depending on whether or not 
 ASSIGNED(variable)
 ```
 
-Where *variable* is any variable declared in the program.
+Where **variable** is any variable declared in the program.
 
-**ASSIGNED** returns TRUE if the variable named has an assigned value (even an empty string) before the execution of this statement. If the variable has no assigned value then the function returns FALSE.
+**ASSIGNED** returns TRUE if the variable named has an assigned value (even an empty string) before the execution of this statement. If **variable** has no assigned value then the function returns FALSE.
 
 ## Note
 
@@ -35,3 +35,5 @@ Where *variable* is any variable declared in the program.
 See also: [UNASSIGNED](./../unassigned)
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

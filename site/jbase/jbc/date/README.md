@@ -33,3 +33,5 @@ To display today's date in the form: dd MMM yy.
 See also: [TIMEDATE](./../timedate)
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

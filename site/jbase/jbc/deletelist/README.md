@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='lists' vertical='middle' />
 
-## Description 
+## Description
 
 The **DELETELIST** statement will delete the previously stored list named by expression.
 
@@ -17,7 +17,7 @@ The **DELETELIST** statement will delete the previously stored list named by exp
 DELETELIST expression
 ```
 
-Where the**expression** should evaluate to the name of a list that has been stored with either the [WRITELIST](./../writelist) statement or the **SAVE-LIST** command from the shell.
+Where **expression** should evaluate to the name of a list that has been stored with either the [WRITELIST](./../writelist) statement or the **SAVE-LIST** command from the shell.
 
 An example of use is as:
 
@@ -29,3 +29,5 @@ DELETELIST List
 The above will delete the pre-saved list called JobList.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

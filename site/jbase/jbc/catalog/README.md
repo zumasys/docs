@@ -53,3 +53,5 @@ To enable the executing application to call the correct application subroutines 
 It is recommended that executables or subroutines of the same name are not available from different directories. This can make application execution very confusing and is reliant on assigning the lib or bin directories to the environment variable in the correct sequence. The assignment of the environment variables should be included and exported in the .profile script file.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

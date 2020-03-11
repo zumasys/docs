@@ -32,14 +32,16 @@ Where
 An example of use is as follows:
 
 ```
-     Numbers=""
-     FOR I = 1 TO 20
-         Numbers<I> = I        ;*generate numbers
-     NEXT I
+Numbers=""
+FOR I = 1 TO 20
+    Numbers<I> = I        ;*generate numbers
+NEXT I
 
-     FOR I = 19 TO 1 STEP 2
-         DEL Numbers<I>        ;*remove odd numbers
-     NEXT I
+FOR I = 19 TO 1 STEP 2
+    DEL Numbers<I>        ;*remove odd numbers
+NEXT I
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

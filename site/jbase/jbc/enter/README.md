@@ -25,7 +25,7 @@ ENTER @variable_name
 
 Where:
 
-- **program\_name**, is the name of the program for execution. The use of single or double quotes to surround program\_name is optional.
+- **program\_name**, is the name of the program for execution. The use of single or double quotes to surround **program\_name** is optional.
 - The '**@**' specifies that the program name is contained in a named variable.
 - **variable\_name**, is the name of the variable which contains the program name.
 
@@ -51,3 +51,5 @@ ENTER @ ProgName
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

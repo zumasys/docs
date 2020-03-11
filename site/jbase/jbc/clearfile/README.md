@@ -21,7 +21,7 @@ Where:
 
 ## Note
 
-> If the variable is omitted from the **CLEARFILE** statement, it assumes the default file variable as per the [OPEN](./../open) statement.
+> If **variable** is omitted from the **CLEARFILE** statement, it assumes the default file variable as per the [OPEN](./../open) statement.
 
 An example of use is as follows:
 
@@ -31,3 +31,5 @@ CLEARFILE FILEVAR
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

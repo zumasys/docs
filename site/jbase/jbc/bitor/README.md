@@ -14,7 +14,7 @@ The **BITOR** function is used to perform the bitwise OR comparison of two integ
 BITOR(expression1, expression2)
 ```
 
-If either expression1 or expression2 evaluates to the null value, null is returned.
+If either **expression1** or **expression2** evaluates to the null value, null is returned.
 
 The bitwise OR operation compares two integers bit by bit. It returns the bit 1 if the bit in either or both numbers is 1; else, it returns the bit 0.
 Non integer values are truncated before the operation is performed.
@@ -31,3 +31,5 @@ CRT BITOR(6,12)
 This results in 1110, and the following output is displayed: 14
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

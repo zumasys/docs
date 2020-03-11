@@ -31,14 +31,16 @@ An example of use would be a program that shows how each element of a dynamic ar
 ```
 t = ""
 t<1> = "a:b:c:d:e:f"
-t<2> = "aa:bb:cc:dd:ee:ff" : @VM: "1:2:3:4" : @SVM: ":W:X:Y:Z"
-t<3> = "aaa:bbb:ccc:ddd:eee:fff":@VM:@SVM
+t<2> = "aa:bb:cc:dd:ee:ff" : @VM : "1:2:3:4" : @SVM : ":W:X:Y:Z"
+t<3> = "aaa:bbb:ccc:ddd:eee:fff": @VM : @SVM
 t<4> = "aaaa:bbbb:cccc:dddd:eeee:ffff"
-r1 = FIELDS(t,":",2)
-r2 = FIELDS(t,":",2,3)
-r3 = FIELDS(t,"bb",1,1)
+r1 = FIELDS(t, ":" , 2)
+r2 = FIELDS(t, ":" ,2 ,3)
+r3 = FIELDS(t, "bb" , 1, 1)
 ```
 
 to create three dynamic arrays.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

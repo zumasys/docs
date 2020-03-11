@@ -14,7 +14,7 @@ The **ADDS** function creates a dynamic array of the element-by-element addition
 ADDS(array1, array2)
 ```
 
-Added to each element of array1 is the corresponding element of array2, which returns the result in the corresponding element of a new dynamic array. If an element of one array has no corresponding
+Added to each element of **array1** is the corresponding element of **array2**, which returns the result in the corresponding element of a new dynamic array. If an element of one array has no corresponding
 element in the other array, it returns the existing element. If an element of one array is the null value, it returns null for the sum of the corresponding elements.
 
 An example of use is as:
@@ -28,6 +28,10 @@ CRT ADDS (A,B)
 
 to output:
 
+```
 3]6]9\10]4
+```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

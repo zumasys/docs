@@ -14,7 +14,7 @@ The **DATA** statement stacks the series of expressions on a terminal input FIFO
 DATA expression {, expression ...}
 ```
 
-Where the **expression** may evaluate to any data type; views each comma-separated expression as one line of terminal input.
+Where **expression** may evaluate to any data type. Each comma-separated **expression** will be viewed as one line of terminal input.
 
 ## Note
 
@@ -27,25 +27,25 @@ When a jBASE BASIC program detects stacked data, it is taken as keyboard input u
 Stacked data delimited by field marks (xFE) will be treated as a series of separate terminal inputs. An example of use is as:
 
 ```
-    PROGRAM EXAMPLE1
-    DATA "Y", "N", "CONTINUE" ;* stack input for PROGRAM1
-    EXECUTE "PROGRAM1"        ;* execute the program
+PROGRAM EXAMPLE1
+DATA "Y", "N", "CONTINUE" ;* stack input for PROGRAM1
+EXECUTE "PROGRAM1"        ;* execute the program
 ```
 
 ```
-    PROGRAM EXAMPLE2
-    DATA "Y":@AM:"N":@AM:"CONTINUE"; * stack input for PROGRAM1
-    EXECUTE "PROGRAM1"; * execute the program
+PROGRAM EXAMPLE2
+DATA "Y":@AM:"N":@AM:"CONTINUE"; * stack input for PROGRAM1
+EXECUTE "PROGRAM1"; * execute the program
 ```
 
 PROGRAM1 can simply be:
 
 ```
-    PROGRAM PROGRAM1
-    INPUT reply1
-    INPUT reply2
-    INPUT reply3
-    CRT reply1, reply2, reply3
+PROGRAM PROGRAM1
+INPUT reply1
+INPUT reply2
+INPUT reply3
+CRT reply1, reply2, reply3
 ```
 
 Running either EXAMPLE1 or EXAMPLE2 will produce the same result:
@@ -59,3 +59,5 @@ jsh ~ -->
 See also: [CLEARDATA](./../cleardata)
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

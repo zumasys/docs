@@ -35,3 +35,5 @@ CONVERT 'BJE' TO '^+!' IN Value
 See also: the [CONVERT](./../convert) function.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

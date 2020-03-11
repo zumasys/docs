@@ -25,7 +25,7 @@ If neither **variable2** nor **listnum** is specified then the default list vari
 An example of use is as:
 
 ```
-ARR_VAR = "key3":@AM:"key4":@AM:"key5"
+ARR_VAR = "key3" : @AM : "key4" : @AM : "key5"
 FORMLIST ARR_VAR TO LIST_VAR
 LOOP
     READNEXT Key FROM LIST_VAR ELSE EXIT
@@ -38,3 +38,5 @@ REPEAT
 See also: [DELETELIST](./../deletelist), [READLIST](./../readlist), [WRITELIST](./../writelist)
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

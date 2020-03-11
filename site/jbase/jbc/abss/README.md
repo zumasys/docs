@@ -8,7 +8,7 @@
 
 ## Description
 
-The **ABSS**function returns the absolute values of all the elements in a dynamic array. If an element in the dynamic array is null, it returns null for that element. It takes the general form:
+The **ABSS** function returns the absolute values of all the elements in a dynamic array. If an element in the dynamic array is null, it returns null for that element. It takes the general form:
 
 ```
 ABSS (dynamic.array)
@@ -25,6 +25,11 @@ CRT ABSS (A)
 ```
 
 The output of this program is:
+
+```
 200]100]0\-100\-200
+```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

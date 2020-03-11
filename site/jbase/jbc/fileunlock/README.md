@@ -16,7 +16,7 @@ FILEUNLOCK [file.variable] [ON ERROR statements]
 
 where
 
-- *file.variable* specifies a file previously locked with a [FILELOCK](./../filelock) statement. If *file.variable* is not specified, the default file with the [FILELOCK](./../filelock) statement is assumed. If *file.variable* is not a valid file variable then the **FILEUNLOCK** statement will enter the debugger.
+- **file.variable** specifies a file previously locked with a [FILELOCK](./../filelock) statement. If **file.variable** is not specified, the default file with the [FILELOCK](./../filelock) statement is assumed. If **file.variable** is not a valid file variable then the **FILEUNLOCK** statement will enter the debugger.
 - The ON ERROR clause is optional in the **FILEUNLOCK** statement. The ON ERROR clause allows the programmer to specify an alternative for program termination when encountering a fatal error during processing of the **FILEUNLOCK** statement. If a fatal error occurs, with no ON ERROR clause specified, the program enters the debugger.
 
 If the ON ERROR clause is used, the value returned by the [STATUS](./../status-function)  function is the error number.
@@ -34,3 +34,5 @@ FILEUNLOCK FILEVAR
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

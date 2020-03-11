@@ -14,7 +14,7 @@ The function calculates the cosine of any angle using floating point arithmetic,
  COS(expression)
 ```
 
-Where the **expression** must evaluate to a numeric result or a runtime error will occur.
+Where **expression** must evaluate to a numeric result or a runtime error will occur.
 
 ## Note
 
@@ -23,9 +23,12 @@ Where the **expression** must evaluate to a numeric result or a runtime error wi
 An example of use is as:
 
 ```
-    FOR I = 1 TO 360
-        CRT COS(I)  ;* print cos i for 1 to 360 degrees
-    NEXT I
+FOR I = 1 TO 360
+    CRT COS(I)  ;* print cos i for 1 to 360 degrees
+NEXT I
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+

@@ -16,9 +16,9 @@ BITLOAD({bit-string})
 
 Where:
 
-bit-string is an ASCII string of characters, which represent a hexadecimal value. It is interpreted as a bit pattern and used to assign values to the table from left to right. Assignment stops at the end of the string or when a non-hexadecimal character is found.
+**bit-string** is an ASCII string of characters, which represent a hexadecimal value. It is interpreted as a bit pattern and used to assign values to the table from left to right. Assignment stops at the end of the string or when a non-hexadecimal character is found.
 If the string represents less than 128 bits, the remaining bits in the table are reset to 0 (zero).
-If bit-string is omitted or evaluates to null, an ASCII hex character string is returned, which defines the value of the table. Trailing zeroes in the string are truncated.
+If **bit-string** is omitted or evaluates to null, an ASCII hex character string is returned, which defines the value of the table. Trailing zeroes in the string are truncated.
 
 A unique table of 128 bits (numbered 1 to 128) is maintained for each process. Each bit in the table is treated as a two-state flag - the value will always be 0 (zero) or 1.
 

@@ -25,8 +25,10 @@ Or
 UPCASE(expression)
 ```
 
-Where **expression** in a string containing some alphabetic characters. It ignores Non-alphabetic characters.
+Where **expression** in a string containing some alphabetic characters. Non-alphabetic characters are ignored.
 
 When used in International Mode, the conversion from upper case to lower case or vice versa will be determined for each character in the expression by the Unicode standard, which describes the up or down case properties for the character.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

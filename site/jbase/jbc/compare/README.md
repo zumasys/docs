@@ -33,13 +33,15 @@ The function returns one of the following values:
 An example of use would be as:
 
 ```
-     A = "XY999"
-     B = "XY1000"
-     R1 = COMPARE(A,B,"L")
-     R2 = COMPARE(A,B,"R")
-     CRT R1,R2
+A = "XY999"
+B = "XY1000"
+R1 = COMPARE(A,B,"L")
+R2 = COMPARE(A,B,"R")
+CRT R1,R2
 ```
 
 The code above displays 1 -1, which indicates that XY999 is greater than XY1000 in a left justified comparison and XY999 is less than XY1000 in a right justified comparison.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

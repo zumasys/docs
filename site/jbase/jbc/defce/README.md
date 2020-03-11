@@ -24,7 +24,9 @@ It is also possible to call standard UNIX functions directly by declaring them w
 
 ```
 DEFCE INT getpid()
-CRT "Process id =":getpid()
+CRT "Process id = " : getpid()
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
