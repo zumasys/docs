@@ -4,7 +4,7 @@
             <strong>Updated:</strong> {{ created }}<br />
             <strong>Created:</strong> {{ updated }}<br />
             <strong>Last Updated By:</strong> {{ author }}<br />
-            <strong>Read Time:</strong> {{ readingTime }} minute<br />
+            <strong>Read Time:</strong> {{ readingTime }} minute(s)<br />
             
         </p>
     </div>

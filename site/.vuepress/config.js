@@ -2,6 +2,9 @@
 require("dotenv").config();
 const webpack = require("webpack");
 
+const getConfig = require("vuepress-bar");
+const barConfig = getConfig("C:/projects/docs/site/");
+
 module.exports = {
   head: [["link", { rel: "icon", href: "/assets/img/favicon.ico" }]],
   title: "Zumasys Documentation",
@@ -78,7 +81,8 @@ module.exports = {
         ]
       }
     ],
-    sidebar: [
+    sidebar: //barConfig.sidebar,
+    [
       "/",      
       {
         title: 'AccuTerm',
@@ -329,6 +333,7 @@ module.exports = {
         ]
       },
       ["/jbase/", "jBASE"]
+      
     ],
     repo: "https://github.com/zumasys/docs",
     docsBranch: "master",
