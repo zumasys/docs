@@ -39,17 +39,16 @@ Where:
 An example of use is as:
 
 ```
-     CRT "Blank input is unacceptable!!!! "
-     CRT
+CRT "Blank input is unacceptable!!!! "
+CRT
 
-     VAR_IN = ''
-     LOOP
-     WHILE VAR_IN = '' DO
-         INPUT VAR_IN, 1 : FOR 30 ELSE
-         END
-     REPEAT
-     IF VAR_IN NE  '' THEN CRT 'You entered: ', DQUOTE(VAR_IN)
-     STOP
+VAR_IN = ''
+LOOP
+WHILE VAR_IN = '' DO
+    INPUT VAR_IN, 1 : FOR 30 ELSE END
+REPEAT
+IF VAR_IN NE  '' THEN CRT 'You entered: ', DQUOTE(VAR_IN)
+STOP
 ```
 
 The above example attempts to read a single character from the input device, within a time of 30 seconds . The [LOOP](./../loop) will exit when a character has been input, then will display the character that was entered.
@@ -57,3 +56,5 @@ The above example attempts to read a single character from the input device, wit
 See also:  [IN](./../in), [INPUTNULL](./../inputnull).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

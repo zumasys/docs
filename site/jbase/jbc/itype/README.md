@@ -35,20 +35,21 @@ If **i.type** evaluates to null, the **ITYPE** function fails and the program te
 This is the SLIPPER file content:
 
 ```
-JIM GREG ALAN
+Jim Greg Alan
 001 8 001 10 001 5
 ```
 
 This is the DICT SLIPPER content:
 
+Item "SIZE"
+
 ```
-SIZE
-001 D
-002 1
-003
-004
-005 10L
-006 L
+D
+1
+
+
+10L
+L
 ```
 
 This is the program source code:
@@ -67,7 +68,7 @@ READNEXT @ID DO
 *
 READ @RECORD FROM FILE, @ID THEN
 *
-CRT @ID: "WEARS SLIPPERS SIZE " ITYPE(ITYPEDESC)
+CRT @ID: "Wears slipper, size " ITYPE(ITYPEDESC)
 END
 REPEAT
 ```
@@ -76,9 +77,11 @@ The output of this program is:
 
 ```
 3 records selected
-JIM WEARS SLIPPERS SIZE 8
-GREG WEARS SLIPPERS SIZE 10
-ALAN WEARS SLIPPERS SIZE 5
+Jim wears slipper, size 8
+Greg wears slippers, size 10
+Alan wears slippers, size 5
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

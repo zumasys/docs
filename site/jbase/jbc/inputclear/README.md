@@ -21,12 +21,14 @@ INPUTCLEAR
 An example of use is as:
 
 ```
-    CRT "Start year end processing (Yes/No) :"
-    INPUTCLEAR
-    INPUT ans
-    IF ans # "Yes" THEN
-        CRT "Year end processing not started"
-    END
+CRT "Start year end processing (Yes/No) :"
+INPUTCLEAR
+INPUT ans
+IF ans # "Yes" THEN
+    CRT "Year end processing not started"
+END
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

@@ -28,3 +28,5 @@ This function returns -1 if there is a problem with the parameters or the progra
 > Properties are valid after the compile; this is the main reason for separating the compile and execute into two functions. After compiling, it is possible to examine the properties and set properties before executing.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

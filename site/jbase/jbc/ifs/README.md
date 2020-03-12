@@ -24,3 +24,5 @@ If the element evaluates to false, it returns the corresponding element from **f
 If there is no corresponding element in the correct response array, it returns an empty string for that element. If an element is null, that element evaluates to false.
 
 Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

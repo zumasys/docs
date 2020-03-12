@@ -31,15 +31,15 @@ Where:
 Examples of use are:
 
 ```
-    string = "1*2*3*4*5"
-    *
-    GROUPSTORE "A*B*C" IN string USING 2, 3, "*"
-    CRT "Result of GROUPSTORE #1 is : " : string
-    *
-    string = "1*2*3*4*5"
-    *
-    GROUPSTORE "A*B" IN string USING 2, -3, "*"
-    CRT "Result of GROUPSTORE #2 is : " : string
+string = "1*2*3*4*5"
+*
+GROUPSTORE "A*B*C" IN string USING 2, 3, "*"
+CRT "Result of GROUPSTORE #1 is : " : string
+*
+string = "1*2*3*4*5"
+*
+GROUPSTORE "A*B" IN string USING 2, -3, "*"
+CRT "Result of GROUPSTORE #2 is : " : string
 ```
 
 to display:
@@ -50,3 +50,5 @@ Result of GROUPSTORE #2 is : 1*A*B*5
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

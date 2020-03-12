@@ -53,14 +53,14 @@ Using this command to the **IOCTL()** function, you can determine the exact file
 An example of use would be to open the file CUSTOMERS and find out the exact path that was used to open the file ,as follows:
 
 ```
-     INCLUDE JBC.h
-     filename = ""
-     OPEN "CUSTOMERS" TO DSCB ELSE STOP 201,"CUSTOMERS"
-     IF IOCTL(DSCB,JBC_COMMAND_GETFILENAME,filename) ELSE
-         CRT "IOCTL failed !!"
-         EXIT(2)
-     END
-     CRT "Full file path = ":DQUOTE(filename)
+INCLUDE JBC.h
+filename = ""
+OPEN "CUSTOMERS" TO DSCB ELSE STOP 201,"CUSTOMERS"
+IF IOCTL(DSCB,JBC_COMMAND_GETFILENAME,filename) ELSE
+    CRT "IOCTL failed !!"
+    EXIT(2)
+END
+CRT "Full file path = ":DQUOTE(filename)
 ```
 
 This command is executed by the jBASE BASIC library code rather than the jEDI library code or the database drivers, so it can be run against a file descriptor for any file type.
@@ -82,10 +82,10 @@ The call to **IOCTL()**, if successful, will only affect file operations that us
 Consider the following code:
 
 ```
-     INCLUDE JBC.h
-     OPEN "MD" TO FILEVAR1 ELSE ...
-     OPEN "MD" TO FILEVAR2 ELSE ...
-     IF IOCTL(FILEVAR1,JIOCTL_COMMAND_CONVERT,"RB") ...
+INCLUDE JBC.h
+OPEN "MD" TO FILEVAR1 ELSE ...
+OPEN "MD" TO FILEVAR2 ELSE ...
+IF IOCTL(FILEVAR1,JIOCTL_COMMAND_CONVERT,"RB") ...
 ```
 
 In the above example, any future file operations using variable **FILEVAR1** will be controlled by the change forced in the **IOCTL()** request. Any file operations using variable **FILEVAR2** will not be affected and will use the default file operation.
@@ -114,25 +114,25 @@ The descriptions of the available controls that can be passed as input to this *
 In the example below, the application wants to open a file, and to ensure that all reads and writes to that file are in binary, and that no translation such as new-lines to attribute marks is performed.
 
 ```
-     INCLUDE JBC.h
-     OPEN "FILE" TO DSCB ELSE STOP 201,"FILE"
-     IF IOCTL(DSCB,JIOCTL_COMMAND_CONVERT,"RB,WB") ELSE
-         CRT "UNABLE TO IOCTL FILE 'FILE'" ; EXIT(2)
-     END
+INCLUDE JBC.h
+OPEN "FILE" TO DSCB ELSE STOP 201,"FILE"
+IF IOCTL(DSCB,JIOCTL_COMMAND_CONVERT,"RB,WB") ELSE
+    CRT "UNABLE TO IOCTL FILE 'FILE'" ; EXIT(2)
+END
 ```
 
 The sample code below reads a record from a file, and finds out if the last record read was in text format (were new-lines converted to attribute marks and the trailing new-line deleted), or in binary format (with no conversion at all).
 
 ```
-     INCLUDE JBC.h
-     OPEN "." TO DSCB ELSE STOP 201,"."
-     READ rec FROM DSCB,"prog.o" ELSE STOP 202,"prog.o"
-     status = "RS"
-     IF IOCTL(DSCB,JIOCTL_COMMAND_CONVERT,status) THEN
-         IF status EQ "T" THEN CRT "TEXT" ELSE CRT "BINARY"
-     END ELSE
-         CRT "The IOCTL failed !!"
-     END
+INCLUDE JBC.h
+OPEN "." TO DSCB ELSE STOP 201,"."
+READ rec FROM DSCB,"prog.o" ELSE STOP 202,"prog.o"
+status = "RS"
+IF IOCTL(DSCB,JIOCTL_COMMAND_CONVERT,status) THEN
+    IF status EQ "T" THEN CRT "TEXT" ELSE CRT "BINARY"
+END ELSE
+    CRT "The IOCTL failed !!"
+END
 ```
 
 ## **3. JIOCTL\_COMMAND\_FILESTATUS COMMAND**
@@ -331,3 +331,5 @@ CRT "Our process id is " : getpid()
 > The status return value is 0 for failure, or 1 for success. A value of -1 generally shows the command has not been recognized.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

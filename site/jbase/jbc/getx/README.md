@@ -37,3 +37,5 @@ The **GETX** syntax requires a specified THEN or ELSE clause, or both. The THEN 
 See also: [GET](./../get)
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

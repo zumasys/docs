@@ -44,9 +44,9 @@ If the (Vnn option was used on a create-index command, this will limit us to the
 
 ## Note
 
-> An index has to be created first on a file before it can be returned by this function.
+> An index has to be created on a file first before information about it can be returned by this function.
 
-The following code example show how a file called "CUSTOMERS" can have some of the information about all of its indexes displayed.
+The following code example show how a file called "CUSTOMERS" can have some of the information about its indexes displayed.
 
 ```
 filename = "CUSTOMERS"
@@ -61,14 +61,16 @@ FOR index.next = 1 TO index.count
     index.name = index.list<index.next>
     index.data = INDICES(filevar,index.name)
     CRT
-    CRT "Index name = ":index.name
-    CRT "Definition = ":index.data<3>
-    CRT "Lookup code = ":index.data<4>
-    CRT "Create date = ":OCONV(INT(index.data<5>/86400)+732,"D")
-    CRT "Create time = ":OCONV(MOD(index.data<5>,86400),"MTS")
+    CRT "Index name = " : index.name
+    CRT "Definition = " : index.data<3>
+    CRT "Lookup code = " : index.data<4>
+    CRT "Create date = " : OCONV(INT(index.data<5> / 86400) + 732, "D")
+    CRT "Create time = " : OCONV(MOD(index.data<5>, 86400), "MTS")
 NEXT index.next
 ```
 
 Attribute 12 returned with the INDICES function shows any option passed to create-index with the (Vnn) option and is therefore a count on the limit of the number of values extracted per attribute to create an index entry. By default this value is 0.
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

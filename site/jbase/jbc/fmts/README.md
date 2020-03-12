@@ -24,7 +24,7 @@ Complete syntax details, can be found on the [FMT function](./../fmt).
 
 If **dynamic.array** evaluates to null, it returns null. If format evaluates to null, the **FMTS** function fails and the program enters the debugger.
 
-- GE Operator similar to eq. compares two expressions for greater than or equal
+- GE Operator, similar to eq., compares two expressions for greater than or equal
 - GT As Above, except Greater than
 - GTS Add as per GES, except just greater than for dynamic array expression [FMUL](./../fmul)/[FDIV](./../fdiv)/[FADD](./../fadd)/[FSUB](./../fsub).
 

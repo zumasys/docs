@@ -24,3 +24,5 @@ The **expression** can return a result of any type. The **ISLOWER()** function w
 When the **ISLOWER()** function is used in International Mode, the properties of each character are determined according to the Unicode Standard.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

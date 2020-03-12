@@ -19,7 +19,7 @@ This function returns the current working directory of the program, which is nor
 
 Where **Var** will be set to the name of the current working directory at execution.
 
-The function itself  returns a boolean **TRUE** or **FALSE** value to indicate whether the command was successful or not.
+The function itself returns a boolean **TRUE** or **FALSE** value to indicate whether the command was successful or not.
 
 ## Note
 
@@ -28,11 +28,13 @@ The function itself  returns a boolean **TRUE** or **FALSE** value to indicate 
 An example of use is as follows:
 
 ```
-     IF GETCWD(W_DIR) THEN
-         CRT "Current Working Directory = ":W_DIR
-     END ELSE
-         CRT "Could not determine CWD!"
-     END
+IF GETCWD(W_DIR) THEN
+    CRT "Current Working Directory = ":W_DIR
+END ELSE
+    CRT "Could not determine CWD!"
+END
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

@@ -23,3 +23,5 @@ The function will return **TRUE** (1) if the expression consists of entirely alp
 When the **ISALNUM()** function is used in International Mode, the properties of each character are determined according to the Unicode Standard.
 
 Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

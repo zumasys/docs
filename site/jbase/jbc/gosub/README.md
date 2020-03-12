@@ -17,7 +17,7 @@ The **GOSUB** statement causes execution of a local subroutine, after which exec
 GOSUB label
 ```
 
-Where **label** refer to an existing label within the current source code.
+Where **label** refers to an existing label within the current source code.
 
 ## Notes
 
@@ -45,3 +45,5 @@ RETURN
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

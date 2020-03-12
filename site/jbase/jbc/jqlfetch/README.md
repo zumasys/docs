@@ -33,6 +33,10 @@ Applies Attribute 7 Conversions (or attribute 3 in Prime-style DICTS) to the dat
 
 If the property STMT\_PROPERTY\_FORMAT is set then each attribute is also formatted according to the width and justification of the attribute definition and any override caused by the use of [FMT](./../fmt), of DISPLAY.LIKE on the command line.
 
-Note that column headers may also affect the formatting for that column. This function is called until there is no more output (multiple).
+## Note
+
+> Column headers may also affect the formatting for that column. This function is called until there is no more output (multiple).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

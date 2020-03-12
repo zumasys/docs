@@ -50,3 +50,5 @@ to output :
 For information about converting elements in a dynamic array to an external format see [OCONVS](./../oconvs).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

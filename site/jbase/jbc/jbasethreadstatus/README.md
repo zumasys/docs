@@ -28,3 +28,5 @@ The layout of the multi-values in each attribute is as follows:
 Example code can be found in the "Threads" folder under "samples" in the jBASE install directory.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

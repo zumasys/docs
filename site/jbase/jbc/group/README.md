@@ -44,3 +44,5 @@ to display:
 on the terminal being the second and third fields and their delimiter within variable A .
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

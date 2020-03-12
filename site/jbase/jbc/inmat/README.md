@@ -26,10 +26,12 @@ DIM CUSTREC(99)
 ELEMENTS = INMAT(CUSTREC) ; * Returns the value "99" to the variable ELEMENTS
 ID = "149"
 MATREAD CUSTREC FROM CUSTOMERS, ID THEN
-    CUSTREC.ELEMENTS = INMAT() ; 
+    CUSTREC.ELEMENTS = INMAT() ;
 END
 ```
 
 This returns the number of elements in the CUSTRECarray to the variable CUSTREC.ELEMENTS.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

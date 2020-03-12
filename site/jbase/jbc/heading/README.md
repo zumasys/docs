@@ -22,7 +22,7 @@ Where the **expression** should evaluate to a string printed at the top of every
 The following characters have special meaning within the string:
 
 - "C{n}" Center the line. If n is specified the output line is assumed n characters long.
-- "D" or \\ Replace with the current date.
+- "D" or \\\\ Replace with the current date.
 - "L" or ] Replace with the newline sequence.
 - "N" Terminal output does not pause at the end of each page.
 - "P" or ^ Replace with the current page number.
@@ -43,3 +43,5 @@ An example of use is as:
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

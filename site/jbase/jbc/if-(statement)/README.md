@@ -48,13 +48,13 @@ IF A ELSE CRT A
 However, the **END** keyword may be used to expand the clauses to enclose multiple lines of code as so:
 
 ```
-     IF A THEN
-         A = A * 6
-         CRT A
-     END ELSE
-         A = 76
-         CRT A
-     END
+IF A THEN
+    A = A * 6
+    CRT A
+END ELSE
+    A = 76
+    CRT A
+END
 ```
 
 It is possible to combine the single and multi-line versions of either clause to make complex combinations of the command. For reasons of readability it is suggested that where both clauses are present for an **IF** statement that the same form of each clause is coded.
@@ -64,14 +64,16 @@ IF statements can be nested within either clause to any number of levels.
 An example of use is as:
 
 ```
-     CRT "Are you sure (Y/N) ":
-     INPUT Answer,1
-     IF OCONV (Answer, "MCU")= "Y" THEN
-     *Call delete subroutine here
-         CRT "Files have been deleted"
-     END ELSE
-         CRT "File delete was ignored"
-     END
+CRT "Are you sure (Y/N) ":
+INPUT Answer,1
+IF OCONV (Answer, "MCU")= "Y" THEN
+* Call delete subroutine here
+    CRT "Files have been deleted"
+END ELSE
+    CRT "File delete was ignored"
+END
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

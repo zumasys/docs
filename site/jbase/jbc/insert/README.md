@@ -32,3 +32,5 @@ A = INSERT(B, 1, 4; "Field1Value4")
 Note that **B** is unchanged and the modified **expression1** is assigned to the variable A.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

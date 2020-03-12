@@ -27,11 +27,13 @@ The function itself returns a boolean TRUE or FALSE value indicating the success
 An example of use is as:
 
 ```
-     IF GETENV("CLASSPATH", ClassPath) THEN
-         CRT "CLASSPATH path is ":ClassPath
-     END ELSE
-         CRT "CLASSPATH is not set up"
-     END
+IF GETENV("CLASSPATH", ClassPath) THEN
+    CRT "CLASSPATH path is ":ClassPath
+END ELSE
+    CRT "CLASSPATH is not set up"
+END
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

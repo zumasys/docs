@@ -27,3 +27,5 @@ If an element of one dynamic array has no corresponding element in the other dyn
 If either element of a corresponding pair is null, it returns null for that element.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

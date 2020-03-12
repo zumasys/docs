@@ -37,3 +37,5 @@ This function returns -1 if it locates a problem in the statement and zero for n
 For a practical example of use, see the **jexport.b** program in the **$JBCRELELEASEDIR**/samples/JQLBASIC directory.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

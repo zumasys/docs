@@ -28,11 +28,13 @@ If expression evaluates to the empty string '' then the default character of '\_
 An example of use is as:
 
 ```
-    INPUTNULL "&"
-    INPUT @(10,10):Answer,1
-    IF Answer = "" THEN
-        CRT "A NULL input was received"
-    END
+INPUTNULL "&"
+INPUT @(10,10):Answer,1
+IF Answer = "" THEN
+    CRT "A NULL input was received"
+END
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
