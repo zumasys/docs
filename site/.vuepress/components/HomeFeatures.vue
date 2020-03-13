@@ -29,7 +29,9 @@
     <div class="feature">
       <h2>MV Connect</h2>
       <p>
-        <a href="/mv-connect/">All Docs</a>
+        <a href="/mv-connect/">Overview</a><br />
+        <a href="/mv-connect/get-started/">Getting Started</a><br />
+        <a href="/mv-connect/api/">API</a>
       </p>
     </div>
     <div class="feature">

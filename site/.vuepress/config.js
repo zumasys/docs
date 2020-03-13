@@ -90,7 +90,14 @@ module.exports = {
         collapsable: true,
         children: [
           ['/accuterm/getting-started/', 'Getting Started'],
-          ['/accuterm/release-notes/', 'Release Notes'],
+          {
+            title: 'Release Notes',
+            path: '/accuterm/release-notes/',
+            collapsable: true,
+            children: [
+              ['/accuterm/release-notes/8.0.1010/', '8.0.1010']
+            ]
+          },
           ['/accuterm/license-activation/', 'License Activation'],
           {
             title: 'License & User Management',
@@ -276,7 +283,14 @@ module.exports = {
         collapsable: true,
         children: [
           ['/mv-connect/get-started/', 'Get Started'],
-          ['/mv-connect/1.6.3-release-notes/', '1.6.3 Release Notes'],
+          {
+            title: 'Release Notes',
+            path: '/mv-connect/release-notes/',
+            collapsable: true,
+            children: [
+              ['/mv-connect/release-notes/1.6.3/', '1.6.3']
+            ]
+          },
           ['/mv-connect/connection-pooling/', 'Connection Pooling'],
           {
             title: 'API',
@@ -307,7 +321,7 @@ module.exports = {
             ]
           },
           ['/mv-connect/security/', 'Security'],
-          ['/mv-dashboard/programmers-guide/widgets/programming-environment/additional-features/', 'Additional Features'],
+          ['/mv-connect/additional-features/', 'Additional Features'],
           {
             title: 'Troubleshooting',
             path: '/mv-connect/troubleshooting/',
