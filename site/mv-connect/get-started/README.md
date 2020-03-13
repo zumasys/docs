@@ -39,7 +39,7 @@ If you are using MVConnect with MVAppsvr then by default MVConnect installs an M
 
 The MVConnect Rest API library is a series of subroutines to work with the web call.  These are the normal functions you would see in other languages, such as working with headers, the body, form vars, return codes, etc.
 
-Click [here](./../mvconnect-api) for MVConnect Rest API Library
+Click [here](./../api/README.md) for MVConnect Rest API Library
 
 
 

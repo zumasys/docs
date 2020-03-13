@@ -306,10 +306,8 @@ module.exports = {
               ['/mv-connect/api/wgetcookie/', 'wgetcookie']
             ]
           },
-          ['/mv-connect/manual/', 'Manual'],
           ['/mv-connect/security/', 'Security'],
           ['/mv-dashboard/programmers-guide/widgets/programming-environment/additional-features/', 'Additional Features'],
-          ['/mv-connect/introduction-to-troubleshooting/', 'Introduction to Troubleshooting'],
           {
             title: 'Troubleshooting',
             path: '/mv-connect/troubleshooting/',

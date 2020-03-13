@@ -13,11 +13,9 @@ MVConnect is a lightweight web server that works as a transport layer to get ins
 
 Here are a couple articles discussing this type of setup
 
-[https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-2.2](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-2.2)
-
-[https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache?view=aspnetcore-2.2](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache?view=aspnetcore-2.2)
-
-[https://websiteforstudents.com/configure-nginx-proxy-server-for-tomcat-9-on-ubuntu-16-04-17-10-18-04/](https://websiteforstudents.com/configure-nginx-proxy-server-for-tomcat-9-on-ubuntu-16-04-17-10-18-04/)
+* [Host ASP.NET Core on Linux with Nginx](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-2.2)
+* [Host ASP.NET Core on Linux with Apache](https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache?view=aspnetcore-2.2)
+* [Configure Nginx Proxy Server For Tomcat 9 On Ubuntu 16.04 | 17.10 | 18.04](https://websiteforstudents.com/configure-nginx-proxy-server-for-tomcat-9-on-ubuntu-16-04-17-10-18-04/)
 
 The recommended way to do this with MVConnect is to install NGinx or Apache directly on the same box where MVConnect/jAgent is running.  You then setup a proxy in NGINX or Apache to redirect traffic via localhost to MVConnect.
 
@@ -51,13 +49,13 @@ location /api/ {
 
 IIS has a URL Rewrite module that does the same function as the proxy.  Here are some good docs explaining the design. If you are on Windows and do not need IIS you can also download Apache or NGINX for windows and follow the above rules.
 
-[https://blogs.msdn.microsoft.com/friis/2016/08/25/setup-iis-with-url-rewrite-as-a-reverse-proxy-for-real-world-apps/](https://blogs.msdn.microsoft.com/friis/2016/08/25/setup-iis-with-url-rewrite-as-a-reverse-proxy-for-real-world-apps/)
+[Setup IIS with URL Rewrite as a reverse proxy for real world apps.](https://blogs.msdn.microsoft.com/friis/2016/08/25/setup-iis-with-url-rewrite-as-a-reverse-proxy-for-real-world-apps/)
 
 ### Encryption/HTTPS/SSL
 
 All the above web servers have well documented ways to add Certs.  If this is internal only you can do a self signed cert.  A new great option is to use LetsEncrypt and install free certs.
 
-[https://letsencrypt.org/](https://letsencrypt.org/)
+[Let's Encrypt](https://letsencrypt.org/)
 
 ### Securing Resources
 
