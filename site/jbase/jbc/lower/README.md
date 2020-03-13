@@ -19,7 +19,6 @@ LOWER(expression)
 
 Where **expression** is a string containing one or more delimiters, lowered as follows:
 
-
 | Ascii Character |  Lowered to |
 | --- | --- |
 | 255 | 254 |
@@ -30,7 +29,6 @@ Where **expression** is a string containing one or more delimiters, lowered as f
 | 250 | 249 |
 | 249 | 248 |
 
-
 An example of use would be as:
 
 ```
@@ -38,3 +36,5 @@ ValuemarkDelimitedVariable = LOWER(AttributeDelimitedVariable)
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

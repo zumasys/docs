@@ -27,7 +27,7 @@ Where:
 
 ## Note
 
-> If the file does not exist or cannot be opened it then executes the **ELSE**clause. However, if **JBCEMULATE**is set for Sequoia (use value "seq") emulation then**OPENSEQ**will create the file if it does not exist. This behavior can also be achieved by specifying **openseq_creates = true** in **Config_EMULATE** for the emulation being used. Once open a lock is taken on the file. If the lock cannot be taken then the **LOCKED**clause is executed if it exists otherwise the ELSE clause is executed. If specified the **READONLY**process takes a read lock on the file, otherwise it takes a write lock. The specified file can be a regular, pipe or special device file. Locks are only taken on regular file types. Once open the file pointer is set to the first line of sequential data.
+> If the file does not exist or cannot be opened it then executes the **ELSE** clause. However, if **JBCEMULATE** is set for Sequoia (use value "seq") emulation then **OPENSEQ** will create the file if it does not exist. This behavior can also be achieved by specifying **openseq_creates = true** in **Config_EMULATE** for the emulation being used. Once open a lock is taken on the file. If the lock cannot be taken then the **LOCKED** clause is executed if it exists otherwise the ELSE clause is executed. If specified, the **READONLY** process takes a read lock on the file, otherwise it takes a write lock. The specified file can be a regular, pipe or special device file. Locks are only taken on regular file types. Once open the file pointer is set to the first line of sequential data.
 
 A program that uses sequential processing to create (write to)an ASCII text file from a jBASE hashed file is as below. It illustrates the use of the commands:
 
@@ -107,3 +107,5 @@ closeseq mypath
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

@@ -28,3 +28,5 @@ timestamp = MAKETIMESTAMP(DATE(), TIME(), "EST5EDT")
 Note: The **jtimezones** command will list the available timezones.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

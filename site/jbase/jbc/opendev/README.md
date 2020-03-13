@@ -37,3 +37,5 @@ Opens the Windows default tape drive and prepares it for sequential processing.
 For more information on sequential processing, see the [READSEQ](./../readseq), [WRITESEQ](./../writeseq).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

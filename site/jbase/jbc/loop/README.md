@@ -45,3 +45,5 @@ to keep asking for an input until the user enters a numeric value.
 See also: [BREAK](./../break), [CONTINUE](./../continue)
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

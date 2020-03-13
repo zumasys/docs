@@ -28,3 +28,5 @@ Note that some characters, usually Japanese, Chinese, etc. will return a display
 Some characters, for instance control characters or null (char 0), will return a display length of 0.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

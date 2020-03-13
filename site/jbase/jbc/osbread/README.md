@@ -32,7 +32,6 @@ Where:
 > - After execution of **OSBREAD**, the [STATUS](./../status-function) function returns either 0 or a failure code.
 > - **OSBREAD** performs an operating system block read on a UNIX or Windows file.
 
-
 An example of use is a program statement that reads 10,000 bytes of the file MYPIPE starting from the beginning of the file. The program assigns the data it reads to the variable Data.
 
 ```
@@ -40,3 +39,5 @@ OSBREAD Data FROM MYPIPE AT 0 LENGTH 10000
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

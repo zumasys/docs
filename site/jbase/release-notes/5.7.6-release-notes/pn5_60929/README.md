@@ -6,18 +6,13 @@
 **Original ID:** 516266  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Add the **JBC\_INCLUDE\_PATH** and **JBC\_INCLUDE\_FILE** environment variables to the compiler.
-
-
 
 ### Previous Release Behavior
 
 Neither of these environment variables existed. However, the environment JBC\_USER\_INCLUDE is a similar environment variable but this went "missing" when the new pre-processor was introduced and the new **JBC\_INCLUDE\_FILE** is of similar, but enhanced, functionality.
-
-
 
 ### Current Release Behavior
 
@@ -45,3 +40,5 @@ is the equivalent of adding these two lines of code to the top of every source t
 INCLUDE C:\Home\Greg\COMMON
 INCLUDE BP USERCOMMON
 ```
+
+Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)

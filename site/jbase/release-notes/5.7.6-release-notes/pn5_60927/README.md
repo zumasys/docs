@@ -6,12 +6,9 @@
 **Original ID:** 516223  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Check if the command being cataloged clashes with another command found in the user's PATH
-
-
 
 ### Previous Release Behavior
 
@@ -20,8 +17,6 @@ If you CATALOG a command such as 'rm', then the command would always catalog nic
 This behavior is not a problem when CATALOG'ing a subroutine, and so this change only applies to executable files.
 
 While the description talks about the Linux 'rm' command, it is a problem with any command you catalog that has a duplicate elsewhere in your PATH environment variable.
-
-
 
 ### Current Release Behavior
 
@@ -74,3 +69,5 @@ Command> fibcw
 ```
 
 will suppress the warning messages. The **O** overrides **W** if both are specified.
+
+Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)

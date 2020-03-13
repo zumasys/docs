@@ -6,12 +6,9 @@
 **Original ID:** 516400  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jBTP: Behavior of **PH-START** using **T** option misleading on Windows
-
-
 
 ### Previous Release Behavior
 
@@ -20,8 +17,6 @@ Using the **T** option with **PH-START** on Windows gave the impression that the
 The reality is that Windows does not have the ability to run a process in the background and display the output in the foreground.
 
 Additionally, the message that **PH-START** displayed indicated that the job was run on a line number (port) from the pool of **PH-LINES** line numbers. But, in fact, it actually runs on the same port number.
-
-
 
 ### Current Release Behavior
 
@@ -40,3 +35,5 @@ TASK STARTED ON LINE 6 FOR ACCOUNT Administrator Id 1893932350LHJF
 ```
 
 In this case, it was port number 6 that the process ran on when the **T** option was used.
+
+Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)

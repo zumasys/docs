@@ -29,10 +29,10 @@ Where:
 An example of use is as:
 
 ```
-      STR_VAL =" Today's Brush is Tomorrows Forest.- Bemba Proverb"
-      CRT LEFT(STR_VAL, 14)
-      CRT DQUOTE(LEFT(STR_VAL,999))
-      CRT DQUOTE(LEFT(STR_VAL,0))
+STR_VAL =" Today's Brush is Tomorrows Forest.- Bemba Proverb"
+CRT LEFT(STR_VAL, 14)
+CRT DQUOTE(LEFT(STR_VAL,999))
+CRT DQUOTE(LEFT(STR_VAL,0))
 ```
 
 to display:
@@ -48,3 +48,5 @@ to the screen.
 See also: [RIGHT](./../right)
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

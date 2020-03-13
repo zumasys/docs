@@ -6,12 +6,9 @@
 **Original ID:** 459578  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Add extensions to Dynamic Objects per RFC 7159.
-
-
 
 ### Previous Release Behavior
 
@@ -21,9 +18,9 @@ Since that standard was published, JSON has moved on, albeit very slightly and j
 
 The jBASE JSON parser insisted that the source text was an object or an array. The extension allows for the four primitive types to be represented as well as objects or arrays. The new revision notes this by saying:
 
-*"Note that certain previous specifications of JSON constrained a JSON text to be an object or an array."*
+## Note
 
-
+>Certain previous specifications of JSON constrained a JSON text to be an object or an array.
 
 ### Current Release Behavior
 
@@ -31,14 +28,14 @@ A JSON source text can now accept the 4 primitive types of JSON as text, as well
 
 ```
    source = '"Hello World"'
-   obj = source->$fromjson()
-   if obj->$isobject() then
-       print "We returned an object like this"
-       print obj->$tojson(1)
-   end else
-       print "We didn't return an object, we returned this"
-       print obj
-   end
+ obj = source->$fromjson()
+if obj->$isobject() then
+   print "We returned an object like this"
+   print obj->$tojson(1)
+end else
+   print "We didn't return an object, we returned this"
+   print obj
+end
 
 [Screen output]
 

@@ -6,12 +6,9 @@
 **Original ID:** 516412  
 **Internal:** No  
 
-
-### Description
+## Description
 
 PROCREAD / PROCWRITE to fail if immediate parent process is not a PROC when **generic\_pick = true**
-
-
 
 ### Previous Release Behavior
 
@@ -31,8 +28,6 @@ jsh ~ -->MYPROC
 PROCREAD
 ```
 
-
-
 ### Current Release Behavior
 
 ```
@@ -40,8 +35,8 @@ jsh ~ -->MYPROC
 EXECUTE
 ```
 
+### Note
 
+>This behavior is dependent on the **generic\_pick** emulation setting.
 
-### Notes
-
-This behavior is dependent on the **generic\_pick** emulation setting.
+Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)

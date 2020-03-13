@@ -6,12 +6,9 @@
 **Original ID:** 516268  
 **Internal:** No  
 
-
-### Description
+## Description
 
 BASIC with full path on Windows eliminates the backslashes
-
-
 
 ### Previous Release Behavior
 
@@ -38,8 +35,6 @@ Executable: (DUP!!)       C:\home\bin\slash.exe
 
 Note the mangled source file path **c:homp**.
 
-
-
 ### Current Release Behavior
 
 The source file is displayed correctly, e.g.
@@ -65,9 +60,4 @@ Executable: (DUP!!)       C:\danielk\bin\slash.exe
                           jBC main() source file c:\home\bp
 ```
 
-
-
-
-
-### 
-
+Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)

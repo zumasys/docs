@@ -34,3 +34,5 @@ REPEAT
 The above will ensure the program only exits when a numeric value is entered.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

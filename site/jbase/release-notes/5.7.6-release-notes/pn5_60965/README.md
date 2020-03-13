@@ -6,18 +6,13 @@
 **Original ID:** 517134  
 **Internal:** No  
 
-
-### Description
+## Description
 
 **FORMLIST 0 TO var** caused segmentation violation if run with an active select.
 
-
-
 ### Previous Release Behavior
 
-On some older releases the syntax of **FORMLIST nn TO var**allowed an active list. This incorrect usage of **FORMLIST**but additionally caused the statement to abort if there was an active select list.
-
-
+On some older releases the syntax of **FORMLIST nn TO var** allowed an active list. This incorrect usage of **FORMLIST** but additionally caused the statement to abort if there was an active select list.
 
 ### Current Release Behavior
 
@@ -34,3 +29,5 @@ END ELSE
     ACTIVE.LIST = 0
 END
 ```
+
+Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)

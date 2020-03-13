@@ -72,3 +72,5 @@ Shown below are valid conversion codes:
  | T | Performs file translations given a cross-reference table in a record in a file. |
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

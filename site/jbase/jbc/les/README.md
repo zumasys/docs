@@ -26,19 +26,21 @@ If either of a corresponding pair of elements is null, it returns null for that 
 An example of use is as:
 
 ```
-     VAL =" "
-     FOR I = 1 TO 3
-         INS I BEFORE VAL<1>
-     NEXT I
+VAL =" "
+FOR I = 1 TO 3
+    INS I BEFORE VAL<1>
+NEXT I
 
-     VAL2 =" "
-     FOR I = 2 TO 4
-         INS I*3 BEFORE VAL2<-3>
-     NEXT I
+VAL2 =" "
+FOR I = 2 TO 4
+    INS I*3 BEFORE VAL2<-3>
+NEXT I
 
-     CRT VAL
-     CRT VAL2
-     CRT (LES(VAL, VAL2))
+CRT VAL
+CRT VAL2
+CRT (LES(VAL, VAL2))
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

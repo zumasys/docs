@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='dynamic arrays' vertical='middle' />
 
-# Description
+## Description
 
 The function returns the element of a dynamic array with the highest numerical value. It takes the general form:
 
@@ -22,17 +22,17 @@ Where **DynArr** should evaluate to a dynamic array. Null dynamic array element
 An example of use is as:
 
 ```
-     VAR_ARR =" "
-     FOR I = 2 TO 4
-         INS I*3 BEFORE VAR_ARR<-3>
-     NEXT I
-     CRT MAXIMUM(VAR_ARR)
+ VAR_ARR =" "
+FOR I = 2 TO 4
+    INS I*3 BEFORE VAR_ARR<-3>
+NEXT I
+CRT MAXIMUM(VAR_ARR)
 ```
 
 to display the number 12.
 
-
-
 See also: [MINIMUM](./../minimum).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

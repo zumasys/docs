@@ -37,7 +37,7 @@ Where:
 - **Var** will be set to the position of the Field, MultiValue or SubValue in which **expression1** was found. If it was not found and **expression6** was not specified then **Var** will be set to one position past the end of the searched dimension. If **expression6** specified the order of the elements then **Var** will be set to the position before which the element should be inserted to retain the specified order.
 - The statement must include one of or both of the **THEN** and **ELSE** clauses. If **expression1** is found in an element of the dynamic array, it executes the statements defined by the **THEN** clause. If **expression1** is not found in an element of the dynamic array, it executes the statements defined by the **ELSE** clause.
 
-### INTERNATIONAL MODE
+### nternational Mode
 
 When the **LOCATE** statement is used in International Mode, the statement will use the currently configured locale to determine the rules by which each string is considered less than or greater than the other will.
 
@@ -53,30 +53,30 @@ END
 The following example builds a multi-value list of Fibonacci numbers within the first 1,000,000 positive integers and then prompts the user to see if the numbers entered are in the list. This example uses **expression3** in the **LOCATE** statement.
 
 ```
-    fib = ""
-    a = 0
-    b = 1
-    LOOP WHILE b < 1000000 DO
-        fib<1,-1> = b
-        c = b
-        b = a + b
-        a = c
-    REPEAT
+fib = ""
+a = 0
+b = 1
+LOOP WHILE b < 1000000 DO
+    fib<1,-1> = b
+    c = b
+    b = a + b
+    a = c
+REPEAT
 
-    LOOP
-        CRT "Enter number":
-        INPUT n
-    WHILE NUM(n) AND n NE "" DO
-        CRT n:
-        LOCATE n IN fib<1> BY "AN" SETTING pos THEN
-            CRT " is a fibonacci number at position ":pos:"."
-        END ELSE
-            CRT " is NOT a fibonacci number."
-        END
-    REPEAT
+LOOP
+    CRT "Enter number":
+    INPUT n
+WHILE NUM(n) AND n NE "" DO
+    CRT n:
+    LOCATE n IN fib<1> BY "AN" SETTING pos THEN
+        CRT " is a fibonacci number at position ":pos:"."
+    END ELSE
+        CRT " is NOT a fibonacci number."
+    END
+REPEAT
 ```
 
-### NOTES
+### Notes
 
 When dealing with sorted numeric data that are to be considered as non-numeric (e.g. part numbers), use the "AL" or "DL" sort specification.
 
@@ -87,3 +87,5 @@ The Universe syntax can be obtained in any emulation by setting the **use\_uv\_l
 See also: [FIND](./../find), [FINDSTR](./../findstr)
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

@@ -30,3 +30,6 @@ When used in International Mode, the function will return the number of characte
 It is not recommended to use programs to manipulate byte counts in International Mode.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+

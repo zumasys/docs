@@ -38,3 +38,5 @@ Description of date, time, number and currency conversions when used in [ICONV](
 For information about converting elements in a dynamic array to an internal format see the [ICONVS](./../iconvs) function.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

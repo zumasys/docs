@@ -6,12 +6,9 @@
 **Original ID:** 517114  
 **Internal:** No  
 
-
-### Description
+## Description
 
 **ACCOUNT-SAVE** on Windows doesn't save files with Windows reserved characters ? \* ; | &lt; &gt; )
-
-
 
 ### Previous Release Behavior
 
@@ -24,8 +21,8 @@ ACCOUNT-SAVE : Skipping file 'ABC*DEF]D' in directory 'C:\jBASE\TESTACCT'
 ACCOUNT-SAVE : Skipping file 'ABC*DEF' in directory 'C:\jBASE\TESTACCT'
 ```
 
-
-
 ### Current Release Behavior
 
 All valid files with Windows reserved characters are saved.
+
+Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)

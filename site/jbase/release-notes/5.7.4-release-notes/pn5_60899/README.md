@@ -6,20 +6,15 @@
 **Original ID:** 459574  
 **Internal:** No  
 
+## Description
 
-### Description
-
-New options to**jbase\_agent** to enable debugging of server side jBC code and also to start the jbase\_agent thread in a specific account.
-
-
+New options to **jbase\_agent** to enable debugging of server side jBC code and also to start the jbase\_agent thread in a specific account.
 
 ### Previous Release Behavior
 
 If a jBC program/subroutine entered the debugger, the debug I/O was directed back to the calling client (i.e. jremote, http-request) making it impossible to interact with the debugger.
 
 Additionally it was not easy to control the startup directory for the jbase\_agent service.
-
-
 
 ### Current Release Behavior
 

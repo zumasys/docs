@@ -6,18 +6,13 @@
 **Original ID:** 517135  
 **Internal:** No  
 
-
-### Description
+## Description
 
 **CLEAR-BASIC-LOCKS** and **LIST-EXECUTION-LOCKS** were not functioning.
-
-
 
 ### Previous Release Behavior
 
 Any locks set by the basic **LOCK** statement would not show up on **LIST-EXECUTION-LOCKS** and could not be cleared by **CLEAR-BASIC-LOCKS**.
-
-
 
 ### Current Release Behavior
 
@@ -30,8 +25,6 @@ LOCK 10 ELSE STOP
 INPUT w
 ```
 
-
-
 ```
 LIST-EXECUTION-LOCKS
 ...
@@ -42,8 +35,6 @@ LOCK        PID     PORT
 [973] 1 LOCKS LISTED.
 ```
 
-
-
 ```
 CLEAR-BASIC-LOCKS
 
@@ -51,3 +42,5 @@ Polling 2 ports ...
 
 1 LOCKS CLEARED.
 ```
+
+Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)

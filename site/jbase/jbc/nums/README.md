@@ -25,3 +25,5 @@ If **dynamic.array** evaluates to null, it returns null. If an element of **dyna
 When using the **NUMS** function in International Mode, the statement will use the Unicode Standard to determine whether an expression is numeric.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

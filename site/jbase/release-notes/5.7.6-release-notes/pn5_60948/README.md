@@ -6,12 +6,9 @@
 **Original ID:** 516411  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Allow dynamic files (HASHD/JD) to support the network friendly flag
-
-
 
 ### Previous Release Behavior
 
@@ -25,8 +22,6 @@ So, if you used the **FILELOCK** command on a dynamic file when jDLS was running
 Error 22 during FILELOCK_ERROR to file ./jdfile
 Enter I to Ignore, R to Retry , Q to Quit :
 ```
-
-
 
 ### Current Release Behavior
 
@@ -44,7 +39,7 @@ $ jchmod -t myfile
 You can also use **jchmod** with **+N** and **-N** to change the settings.
 
 ```
-$ jchmod -N myfile 
+$ jchmod -N myfile
 $ jchmod -t myfile
 ./myfile +B -C +L -M -N -S +T -R
 
@@ -52,3 +47,5 @@ $ jchmod +N myfile
 $ jchmod -t myfile
 ./myfile +B -C +L -M +N -S +T -R
 ```
+
+Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)

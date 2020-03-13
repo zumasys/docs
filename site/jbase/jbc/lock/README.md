@@ -36,3 +36,5 @@ Locks are retained in memory only and will not persist if the server or jBASE se
 See also: [UNLOCK.](./../unlock)
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
