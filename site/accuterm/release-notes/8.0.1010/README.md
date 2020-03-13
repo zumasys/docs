@@ -1,4 +1,4 @@
-# Release Notes
+# AccuTerm 8.0.1010 Release Notes
 
 <PageHeader />
 
@@ -8,10 +8,7 @@
 **Original ID:** 449733  
 **Internal:** No  
 
-
-
-
-Release 8.0.1010 (08-27-2019)
+August 27th, 2019
 
 AccuTerm 8 is designed to run on Windows 7 and above and Windows Server 2012 and above. It is a 32 bit Windows application and requires an Intel x86 / x64 architecture CPU. It is not compatible with ARM processors (Windows CE, Windows Mobile, Windows RT).
 
