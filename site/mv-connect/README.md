@@ -48,7 +48,8 @@ To obtain a developer's version of MV Connect, please email [mvconnect@zumasys.c
 ## Table of Contents
 
 * [Get Started](./get-started/README.md)  
-* [1.6.3 Release Notes](./1.6.3-release-notes/README.md)
+* [Release Notes](./release-notes/README.md)
+  * [1.6.3](./release-notes/1.6.3/README.md)
 * [Connection Pooling](./connection-pooling/README.md)   
 * [API](./api/README.md)    
 * [Security](./security/README.md)  
