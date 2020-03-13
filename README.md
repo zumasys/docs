@@ -122,4 +122,5 @@ To run the application locally:
 - [ ] Convert TODOs to GitHub Issues
 - [ ] Add jBASE Basic, Jabba to [Prism](https://prismjs.com/#languages)
 - [ ] Clean up brand consistency (e.g. 'AccuTerm' vs 'Accuterm')
-- [ ] Add redirects from old HelpJuice docs to point to new docs (to preserve SEO and avoid link rot)
+- [x] Add redirects from old HelpJuice docs to point to new docs (to preserve SEO and avoid link rot)
+- [ ] Clean up marketing website links to docs
