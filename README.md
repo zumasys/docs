@@ -124,3 +124,4 @@ To run the application locally:
 - [ ] Clean up brand consistency (e.g. 'AccuTerm' vs 'Accuterm')
 - [x] Add redirects from old HelpJuice docs to point to new docs (to preserve SEO and avoid link rot)
 - [ ] Clean up marketing website links to docs
+- [ ] Update 404 page to have featured content
