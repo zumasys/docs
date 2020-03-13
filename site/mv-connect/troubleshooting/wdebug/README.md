@@ -231,4 +231,4 @@ SSELECT MD BY A1
 jsh DEMOS ~ -->
 ```
 
-Back to [Introduction to Troubleshooting](./../../introduction-to-troubleshooting)
+Back to [Troubleshooting](./../README.md)
