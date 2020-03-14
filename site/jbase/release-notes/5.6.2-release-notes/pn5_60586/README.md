@@ -6,18 +6,13 @@
 **Original ID:** 260734  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jQL: Process malformed A-correlatives with missing semicolon
-
-
 
 ### Previous Release Behavior
 
 Without a semicolon, not all correlatives would work.
-
-
 
 ### Current Release Behavior
 
@@ -32,3 +27,4 @@ The following variations are now supported:
 - A1(MCL)
 - A;(3(TMD;X;;1))
 
+Back to [5.6.2 release Notes](./../README.md)

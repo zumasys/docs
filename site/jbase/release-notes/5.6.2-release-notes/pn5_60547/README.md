@@ -6,8 +6,7 @@
 **Original ID:** 258665  
 **Internal:** No  
 
-
-### Description
+## Description
 
 When working with string constants and **case\_insensitive\_runtime\_strings = true**, the wrong case could be returned once that constant had been used in a case insensitive fashion.
 
@@ -17,7 +16,7 @@ Given the following code
 
 ```
 CRT CHANGE('xX','x','x')
-PRINT 'x'
+CRT 'x'
 ```
 
 In this code, wherever you see 'x', it is the same string constant.
@@ -28,4 +27,6 @@ However, the string constant 'x' retains the case insensitive version 'X'. And w
 
 ### Current Release Behavior
 
-In the above example, the first line prints 'xx' and the second line prints 'x'.
+In the above example, the first line displays 'xx' and the second line displays 'x'.
+
+Back to [5.6.2 release Notes](./../README.md)

@@ -6,8 +6,7 @@
 **Original ID:** 258845  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Updates to XML library.
 
@@ -15,12 +14,9 @@ Updates to XML library.
 - Merge windows and UNIX code, seemed silly to have two separate functions that are almost identical.
 - Add new function to jBC, [XML.REMOVE.TAG.VALUE]
 
-
 New function: [XML.REMOVE.TAG.VALUE]
 
 This is a clone of [XML.GET.TAG.VALUE], it will locate a node using a valid XPATH string and return the value, it also removes the node from the source XML. [XML.GET.TAG.VALUE], will also locate and return a value using an XPATH string but will leave the source XML intact.
-
-
 
 ### Previous Release Behavior
 
@@ -59,8 +55,8 @@ Would output
 
 Both firstname and lastname tags have an invalid character on the end.
 
-
-
 ### Current Release Behavior
 
 No corruption in tags
+
+Back to [5.6.2 release Notes](./../README.md)

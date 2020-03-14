@@ -6,12 +6,9 @@
 **Original ID:** 258844  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jAgent: DATA INPUT and EXECUTE
-
-
 
 ### Previous Release Behavior
 
@@ -43,19 +40,16 @@ test_input.b
         END
 ```
 
-
-
 ### Current Release Behavior
 
-The example above should produce the following results when ran via jbase\_agent
+The example above should produce the following results when run via jbase\_agent
 
 ```
 hello
 com.jbase.jremote.JExecuteResults
 setting : <1>0<2>0
 capture : <1>Program start<2>SYSTEM(10) [0]<3>SYSTEM(40) [test_prog]<4>Setting DATA<5>System now has...<6>SYSTEM(10) [1]<7>SYSTEM(40
-) [test_prog]<8>running input test<9>SYSTEM(10) [1]<10>SYSTEM(40) [TEST_INPUT]<11>1     2       3<12>SYSTEM(10) [0]<13>SYSTEM(40) [T
-EST_INPUT]
+) [test_prog]<8>running input test<9>SYSTEM(10) [1]<10>SYSTEM(40) [TEST_INPUT]<11>1     2       3<12>SYSTEM(10) [0]<13>SYSTEM(40) [TEST_INPUT]
         :
         : Program start
         : SYSTEM(10) [0]
@@ -70,3 +64,5 @@ EST_INPUT]
         : 1     2       3
         : SYSTEM(10) [0]
 ```
+
+Back to [5.6.2 release Notes](./../README.md)

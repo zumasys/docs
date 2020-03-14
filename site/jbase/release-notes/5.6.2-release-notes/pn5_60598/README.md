@@ -6,12 +6,9 @@
 **Original ID:** 279040  
 **Internal:** No  
 
-
-### Description
+## Description
 
 File cache not getting rebuilt when changing directories
-
-
 
 ### Previous Release Behavior
 
@@ -21,8 +18,8 @@ The  problem was, if you changed directory and there was a relative path in  J
 
 This problem occurred using the CHDIR() function in jBC -- but was actually found using the **cd** command in the jShell.
 
-
-
 ### Current Release Behavior
 
 All **cd** and CHDIR() now clears and rebuilds the file cache.
+
+Back to [5.6.2 release Notes](./../README.md)

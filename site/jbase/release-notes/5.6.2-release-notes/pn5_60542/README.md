@@ -6,8 +6,7 @@
 **Original ID:** 258528  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Case Independence: Allow the CHANGE() function to operate in a case insensitive fashion
 
@@ -34,3 +33,5 @@ In D3 emulation, or with **case\_insensitive\_runtime\_strings** set in Config\_
 ```
 consid = 123
 ```
+
+Back to [5.6.2 release Notes](./../README.md)

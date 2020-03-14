@@ -6,12 +6,9 @@
 **Original ID:** 279058  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jBC: Allow compiler directives to be used as variables
-
-
 
 ### Previous Release Behavior
 
@@ -31,21 +28,21 @@ None of those statements were valid, they could only be used with compiler direc
 #ifdef WINDOWS
 ```
 
-
-
 ### Current Release Behavior
 
 The following is valid code:
 
 ```
 #ifdef WINDOWS
-    PRINT "This is windows"
+    CRT "This is windows"
 #endif
 #ifdef LINUX
-    PRINT "This is linux"
+    CRT "This is Linux"
 #endif
     WINDOWS = 1
-    CRT "WINDOWS = ":WINDOWS
+    CRT "Windows = " : WINDOWS
     LINUX = 2
-    CRT "LINUX = ":LINUX
+    CRT "Linux = " : LINUX
 ```
+
+Back to [5.6.2 release Notes](./../README.md)

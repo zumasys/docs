@@ -6,18 +6,13 @@
 **Original ID:** 404288  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Add try/catch/throw constructs to Dynamic Objects
-
-
 
 ### Previous Release Behavior
 
 These constructs not available in jBASE
-
-
 
 ### Current Release Behavior
 
@@ -77,8 +72,6 @@ Oops, we had an exception
 }
 ```
 
-
-
 ### The Exception Object
 
 As can be seen from the above example, when an exception is raised we create an exception object. This exception object can be stored in a variable that is passed next to the **catch** statement. The properties of the exception object are:
@@ -91,9 +84,6 @@ As can be seen from the above example, when an exception is raised we create an 
 - try - Shows the source name and line number where the **try** statement was executed
 - throw - Shows the source name and line number where the exception was raised
 - stack - An array of source names and line numbers showing the stack of subroutines/functions/methods below the current routine.
-
-
-
 
 ### Raising an exception
 
@@ -129,8 +119,6 @@ This next example is a little more adventurous. We do a **throw** with a message
 
 then the exception object has the property **message** set to "ERRNAME"
 
-
-
 ```
 debian-~/tmp9: cat test10.jabba
     max_age = 65
@@ -159,8 +147,6 @@ Ooops, age is too big
 Age entered was 99
 Maximum age is  65
 ```
-
-
 
 ### Unhandled exceptions
 
@@ -192,13 +178,9 @@ Source changed to ./test11.jabba
 jBASE debugger->
 ```
 
-
-
 ### Nested try/catch blocks
 
 You can nest try/catch blocks up to a depth of 30. If you need a depth of greater than 30, then perhaps the application needs re-thinking! For example,
-
-
 
 ```
     try
@@ -215,20 +197,18 @@ You can nest try/catch blocks up to a depth of 30. If you need a depth of greate
 
 Of course the try/catch can be in different subroutines/methods/functions.
 
-
-
 ### Try/Catch block scope
 
 The scope of a try / catch block is limited to the subroutine/method/function it was executed and any child subroutines/methods/functions it executes.
 
 The try / catch block is removed from jBASE when
 
-- The subroutine/function/method performs a **RETURN**statement from it. Note: This is a **RETURN**from the subroutine/function/method and any **RETURN**from a **GOSUB**is not affected.
+- The subroutine/function/method performs a **RETURN** statement from it.
+- Note: This is a **RETURN** from the subroutine/function/method and any **RETURN** from a **GOSUB** is not affected.
 - The **end try** statement is executed.
-- The program performs a **STOP**. This means that if one program executes another with **EXECUTE**or **PERFORM**, and that second program issues an exception, it will not be caught by the parent program. All try / catch blocks are only active for a single program and do not traverse programs executed with **EXECUTE**/**PERFORM**.
+- The program performs a **STOP**. This means that if one program executes another with **EXECUTE** or **PERFORM**, and that second program issues an exception, it will not be caught by the parent program. All try / catch blocks are only active for a single program and do not traverse programs executed with **EXECUTE**/**PERFORM**.
 
-
-In the following example, we go outside the try/catch block with a **GOSUB**and in the **GOSUB**we throw an exception. Even though we are actually executing outside of the try/catch block, the exception will still cause the 'catch' code to be executed.
+In the following example, we go outside the try/catch block with a **GOSUB** and in the **GOSUB** we throw an exception. Even though we are actually executing outside of the try/catch block, the exception will still cause the 'catch' code to be executed.
 
 ```
 debian-~/tmp9: cat test13.jabba
@@ -259,8 +239,6 @@ We've had a catch
 Stopping now
 ```
 
-
-
 ### Recursive Catch Policy and the $setcatch() method
 
 The question to ask is this -- "What happens if you are inside a **catch** block and another exception is raised while execution an exception block?".
@@ -270,8 +248,6 @@ Different OOPs have different policies, and even then it isn't clear which langu
 The default policy for jBASE is that once inside a **catch** block, that try/catch block is invalidated and goes out of scope. Hence any exception raised while inside that will cause an exception to be thrown by the outer try/catch block.
 
 In the example below, we first handle a **throw**, but inside the **catch** code we do a divide by zero and that causes the outer **catch** block to be executed.
-
-
 
 ```
     try
@@ -315,7 +291,6 @@ With $setcatch() you can change the recursive exception policy as follows
 - $setcatch(0) If an exception is thrown, go back to the 'catch' statement again. This will happen indefinitely.
 - $setcatch(nn) If an exception is thrown, go back to the 'catch' statement again, but only do this a maximum of nn times.
 - $getcatch() Simply return the current value for the recursive exception policy.
-
 
 Note that this call to **$setcatch()** only affects the current running program. It does not affect any parent programs, nor does it affect any child programs started with PERFORM/EXECUTE.
 

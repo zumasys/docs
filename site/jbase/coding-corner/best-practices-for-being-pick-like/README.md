@@ -1,4 +1,4 @@
-# Best Pracices for being Pick Like
+# Best Practices for being Pick Like
 
 **Created At:** 5/23/2018 1:00:11 PM  
 **Updated At:** 5/29/2018 10:36:54 PM  
@@ -26,4 +26,4 @@ Back to [Organizing Program Compiled Objects](./../organizing-program-compiled-o
 
 Or ..
 
-[Back to Coding Corner](./../README.md)
+Back to [Coding Corner](./../README.md)

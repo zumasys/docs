@@ -6,12 +6,9 @@
 **Original ID:** 258820  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Case Independence: Fix miscellaneous issues with jformatcode
-
-
 
 ### Previous Release Behavior
 
@@ -19,9 +16,8 @@ Case Independence: Fix miscellaneous issues with jformatcode
 - **@SENTENCE[1]** had not catered for @VARS being used as substrings.
 - **COMMON /xxx/ a,b,c** had not covered named common.
 
-
-
-
 ### Current Release Behavior
 
 jformatcode now handles the above syntax.
+
+Back to [5.6.2 release Notes](./../README.md)

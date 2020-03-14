@@ -6,24 +6,18 @@
 **Original ID:** 260453  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Add a new environment variable to:
 
 1. configure the number of commands in the jShell command history
 2. specify that the command stack is username based
 
-
-
-
 ### Previous Release Behavior
 
 The command stack was previously limited to 50 entries.
 
 The  command stack was port number based, meaning that a user coming in on a  different port number will not obtain the same stack entries.
-
-
 
 ### Current Release Behavior
 
@@ -57,16 +51,15 @@ The *value* of the environment variable is case insensitive, e.g.
 JSH_COMMAND_STACK=UserName
 ```
 
-
-
 If the environment variable is unassigned or any part of the value is invalid:
 
 1. the stack will be port number based
 2. the maximum stack size will be 50
-
 
 If stack size is less than 50 then the default (minimum) stack size will be 50 entries.
 
 If the stack is username based and the user is logged in to more than one port then the stack will be shared.
 
 This environment variable must be set prior to entering the jShell.
+
+Back to [5.6.2 release Notes](./../README.md)

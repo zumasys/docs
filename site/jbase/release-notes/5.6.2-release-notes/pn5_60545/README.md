@@ -6,8 +6,7 @@
 **Original ID:** 258529  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Case Insensitivity: Slow string concatenation
 
@@ -19,5 +18,4 @@ When **case\_insensitive\_runtime\_strings = true** was in effect, string concat
 
 String concatenations, in case insensitive mode, have been sped up on the order of up to 5000% faster.
 
-### 
-
+Back to [5.6.2 release Notes](./../README.md)

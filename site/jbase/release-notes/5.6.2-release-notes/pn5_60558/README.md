@@ -6,35 +6,32 @@
 **Original ID:** 258826  
 **Internal:** No  
 
-
-### Description
+## Description
 
 In PRIME emulation, calling the SPOOLER function corrupts the default select list.
-
-
 
 ### Previous Release Behavior
 
 In the following example, the call to SPOOLER(3) would cause the READNEXT to revert back to the beginning of the select-list.
 
 ```
-0001     old_id = ""
-0002     EXECUTE "SELECT MD" CAPTURING quiet
-0003     LOOP
-0004         READNEXT id ELSE EXIT
-0005         IF id = old_id THEN
-0006             CRT "Default select-list corrupted!"
-0007             STOP
-0008         END
-0009         formqueues = SPOOLER(3)
-0010         old_id = id
-0011     REPEAT
+old_id = ""
+EXECUTE "SELECT MD" CAPTURING quiet
+LOOP
+    READNEXT id ELSE EXIT
+    IF id = old_id THEN
+        CRT "Default select-list corrupted!"
+        STOP
+    END
+    formqueues = SPOOLER(3)
+    old_id = id
+REPEAT
 ```
 
 This is because, in the SPOOLER() function, we saved and restored the default save-list, but we didn't save or restore the pointers that allowed READNEXT to sequentially return item-ids in order.
 
-
-
 ### Current Release Behavior
 
 The above code now works as expected and the SPOOLER() call has no adverse effect on the LOOP/READNEXT construct.
+
+Back to [5.6.2 release Notes](./../README.md)

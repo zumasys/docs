@@ -6,8 +6,7 @@
 **Original ID:** 258530  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Index queries with more complex expressions would only work if the operator was EQ or NE.
 
@@ -18,3 +17,5 @@ KEY-SELECT/QUERY-INDEX using EQ or NE would work but LT, GT, LE, GE did not work
 ### Current Release Behavior
 
 Index queries now work using any comparative operator.
+
+Back to [5.6.2 release Notes](./../README.md)

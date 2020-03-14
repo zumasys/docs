@@ -6,12 +6,9 @@
 **Original ID:** 260743  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Indexes could become out of sync if the application didn't protect parallel updates with READU
-
-
 
 ### Previous Release Behavior
 
@@ -32,13 +29,12 @@ Inside  jEDI, we will update the index and then update the file itself. These �
 - Process B updates the file with its value
 - Process A updates the file with its value
 
-
 The index now reflects the item in Process B, whereas the file reflects the item in process A. The index is now corrupt.
 
-Usually,  this isn't a problem as a customer will have locked the item with a  READU. This means the above scenario couldn't happen because of the  application locks. However, if application locks are not used then the  index can get out of sync.
-
-
+Usually, this isn't a problem as a customer will have locked the item with a READU. This means the above scenario couldn't happen because of the application locks. However, if application locks are not used then the index can get out of sync.
 
 ### Current Release Behavior
 
 An internal lock is applied to make the index update and file update atomic.
+
+Back to [5.6.2 release Notes](./../README.md)

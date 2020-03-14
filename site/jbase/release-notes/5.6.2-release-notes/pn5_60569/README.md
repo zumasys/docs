@@ -6,8 +6,7 @@
 **Original ID:** 258848  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jQL: ICONV doesn't strip leading zeros
 
@@ -15,9 +14,6 @@ This patch should cause them to be stripped and affect ICONV only providing,
 
 - It's a number
 - No decimal point exists
-
-
-
 
 ### Previous Release Behavior
 
@@ -48,8 +44,6 @@ However, on jBASE, the leading zeros were not removed...
 000042
 ```
 
-
-
 ### Current Release Behavior
 
 Should now output
@@ -60,3 +54,5 @@ Should now output
 42
 42
 ```
+
+Back to [5.6.2 release Notes](./../README.md)

@@ -6,12 +6,9 @@
 **Original ID:** 299994  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Add persistent locks as an option to jBASE
-
-
 
 ### Previous Release Behavior
 
@@ -19,21 +16,15 @@ Web application use a non-persistent connection. This means that once the action
 
 There is a need to support persistent locks in jBASE where the lock is maintained even when the process dies.
 
-
-
 ### Current Release Behavior
 
-
-
-# jBASE Persistent Locks
+## jBASE Persistent Locks
 
 Web application have a unique problem regarding locking. The connection to a server program is often a non-persistent connection. This means the process on the server will commence, deal with the request, and terminate. All record locks are lost at this point. Often in the application these locks need to be maintained over multiple connections, each connection non-persistent.
 
 Another problem with locks is that sometimes a web server process will continually serve multiple requests -- each request might come from a different client and so have different locking permissions, but has to be dealt with by the same web server process.
 
 jBASE Persistent Locks aim to provide a solution for these problems posed by writing web server applications.
-
-
 
 ### Current jBASE Locks -- a summary
 
@@ -53,20 +44,18 @@ Inside a jBASE application, written in multi-value BASIC (or jBC as it is called
 
 **STOP** -- When the program ends, all locks are released.
 
-
-
 ### Enabling jBASE Persistent locks
 
 To enable jBASE Persistent Locks, use the $persistent class like this
 
 ```
-        obj = new object("$persistent")
-        obj->setfile("sessionid_test4",120,"*")
+    obj = new object("$persistent")
+    obj->setfile("sessionid_test4",120,"*")
 ```
 
 The above example is written in the new jBASE language, jabbascript. (See later if you are not familiar with jabbascript). In the above example, it is telling jBASE to enable persistent locks on **ALL** files currently opened, with a 120 second timeout. This includes files in COMMON. The lock owner is "session\_test4" and this replaces the port number as the lock owner. This value for lock owner is any string less than 64 bytes and is usually, in web server programs, going to be the session id that identifies the client.
 
-A variation of the code (shown above) shows a web application initialising itself, opening it's often used files, and setting them to use persistent locks whose lock owner is the session id of the web call.
+A variation of the code (shown below) shows a web application initialising itself, opening its often used files, and setting them to use persistent locks whose lock owner is the session id of the web call.
 
 ```
     $option jabba
@@ -84,8 +73,6 @@ Once a web server program finished with a request, then you should really remove
     obj->setfile("",0,"*") // Disable any future persistent locks -- existing active locks will remain
 ```
 
-
-
 ### Notes on jBASE Persistent Locks
 
 Note that once you call the setfile() method, it only affects currently opened files. Any future opened files will, by default, not use persistent locking and you need to call setfile() again on them. Once a file is closed, it loses its persistent locking status and when re-opened will not use persistent locking -- you need to call setfile() again.
@@ -95,8 +82,6 @@ Once you have enabled persistent locking for all currently opened files, it mean
 Using a lock owner id of "" means we disable persistent locks on the specified files.
 
 You can run the setfile() method as often as you like against all files, or selected files.
-
-
 
 ### jBASE Persistent Locks and MV Basic operations
 
@@ -116,11 +101,7 @@ Once persistent locks are initialised against one ore more file, database operat
 
 **STOP** -- When the program ends, **no locks are released**. You must use RELEASE or WRITE to explicitly release any locks.
 
-
-
 ## New jBASE commands for persistent locks
-
-
 
 ### list-persistent-locks
 
@@ -138,8 +119,6 @@ Lock ID                  Filename                               Item Id         
 
 2 Records listed
 ```
-
-
 
 ### clear-persistent-locks
 
@@ -169,15 +148,11 @@ jsh-> clear-persistent-locks -A
 
 The "-S lockid" option will clear all locks held by a particular lock id.
 
-
-
 ## Using the $persistent class
 
 In most cases, a web server application will be limited to using the setfile() method of this class as has been documented above. However, if your application wants to, it can directly use the methods available in this class.
 
 This section details the methods available to a jabbascript program
-
-
 
 ### method $persistent::setfile(lock\_id , tout , "\*" | [filevar [,filevar]] )
 
@@ -187,7 +162,7 @@ Sets one or more opened files to use persistent locks.
 
 **tout** is the timeout in seconds for the lock. If you pass 0, we apply the default of 300 seconds.
 
-**"\*"** if you pass "\*" as the 3rd parameter, then all opened files in the process will have this setting applied to them.
+**\*** - if you pass "\*" as the 3rd parameter, then all opened files in the process will have this setting applied to them.
 
 **filevar [ , filevar]** One or more opened file variables to have the setting applied to.
 
@@ -198,10 +173,8 @@ This method can be used as often as you like repeatedly on the same file variabl
 ```
    obj = new object("$persistent")
    numfiles = obj->persistent("##classid" , 120 , "*")
-   PRINT "Persistent locks applied to " : numfiles : " opened files"
+   CRT "Persistent locks applied to " : numfiles : " opened files"
 ```
-
-
 
 ### method $persistent::lock(filevar , vkey [ , waitflag] )
 
@@ -217,8 +190,6 @@ By default the method will block until the lock is released (or until the lock t
 
 **Return Value** 0 means there were no errors. JBC\_ERRNO\_LOCK\_TAKEN (defined in JBC.h) means the lock is taken by another process, but you passed the 3rd parameter as 0 to make the call non-blocking. Any other value is an error.
 
-
-
 ### method $persistent::unlock( [ filevar [ , vkey]])
 
 Remove a lock you have taken. Only locks whose lock id is the current lock id for the file variable will be released. In other words, if you take a lock, and then change the lock id using the 'setfile()' method , then you can't release the lock with a file variable.
@@ -231,15 +202,13 @@ Remove a lock you have taken. Only locks whose lock id is the current lock id fo
 
 ```
     rc = obj->unlock() // Release ALL locks
-    print "A total of ":rc:" locks were released"
+    Crt "A total of ":rc:" locks were released"
 * OR
     rc = obj->unlock(filevar) // Release ALL locks held by a single file
-    print "Released ":rc:" locks from a single file"
+    crt "Released ":rc:" locks from a single file"
 * OR
     rc = obj->unlock(filevar , "MyItemId")
 ```
-
-
 
 ### method $persistent::clearlocks( [ filevar [ , vkey]])
 
@@ -257,8 +226,6 @@ will clear all locks held against the CUSTOMERS file irrespective of who owns th
 
 This call is intended for system administrators. It is used internally by jBASE in the clear-persistent-locks command.
 
-
-
 ### method  $persistent::getlockfilename()
 
 Returns the name of the lock file we use to hold persistent locks.
@@ -268,13 +235,9 @@ Returns the name of the lock file we use to hold persistent locks.
    print "The lock file name is ":obj->getlockfilename()
 ```
 
-
-
 ### method $persistent::count([filevar])
 
 Returns a count of the number of locks held by this process. If 'filevar' is passed, we restrict the count to that file.
-
-
 
 ## Using jabbascript
 
@@ -339,5 +302,3 @@ or alternately
 ```
     $option jabba, case
 ```
-
-

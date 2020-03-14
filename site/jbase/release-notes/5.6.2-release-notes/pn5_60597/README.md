@@ -6,18 +6,13 @@
 **Original ID:** 279039  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Spooler enhancement to be able to assign the port number range for **jlp** (print job) and **jspprint** (print queue) processes
-
-
 
 ### Previous Release Behavior
 
 Printer jobs would always take the next available (lowest) port number, locking out users with dedicated port numbers.
-
-
 
 ### Current Release Behavior
 
@@ -33,3 +28,5 @@ export JBC_SPOOLER_PORT_BASE=6000  [Linux/Aix/Sun]
 ```
 
 is the equivalent to setting the port number range 6000-7000 when launching a print job.
+
+Back to [5.6.2 release Notes](./../README.md)

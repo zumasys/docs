@@ -7,7 +7,7 @@
 **Internal:** No  
 
 **Tags:**
-<badge text='xmltodyn' vertical='middle' />
+<!-- <badge text='xmltodyn' vertical='middle' />
 <badge text='xlate' vertical='middle' />
 <badge text='writexml' vertical='middle' />
 <badge text='writevu' vertical='middle' />
@@ -337,7 +337,7 @@
 <badge text='abss' vertical='middle' />
 <badge text='abs' vertical='middle' />
 <badge text='abort' vertical='middle' />
-<badge text='@' vertical='middle' />
+<badge text='@' vertical='middle' /> -->
 <badge text='reference' vertical='middle' />
 <badge text='pick basic' vertical='middle' />
 <badge text='basic' vertical='middle' />

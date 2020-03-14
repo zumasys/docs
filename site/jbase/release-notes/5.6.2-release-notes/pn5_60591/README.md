@@ -6,14 +6,11 @@
 **Original ID:** 263699  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jQL: Issue with A/F correlative using Repeat function
 
-
-
-**Current Release Behavior**
+## Current Release Behavior
 
 Prior to this patch, A/F correlatives of the form:
 
@@ -25,3 +22,5 @@ F;11;8R(G1-2);:
 would not repeat attribute 8.
 
 This was a case where the jQL parser was not operating on the right-hand side of the formula when there was a conversion.
+
+Back to [5.6.2 release Notes](./../README.md)

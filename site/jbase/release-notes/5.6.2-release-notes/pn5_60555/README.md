@@ -6,24 +6,21 @@
 **Original ID:** 258823  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Telnet: TAB character not interpreted correctly in Viewpoint emulation on Windows
-
-
 
 ### Previous Release Behavior
 
 ```
-0001     IN c
-0002     CRT SEQ(c)
+IN c
+CRT SEQ(c)
 ```
 
 Running this program in Viewpoint emulation, pressing the TAB key would display "1" instead of "9".
 
-
-
 ### Current Release Behavior
 
 The TAB character is interpreted correctly in Viewpoint emulation on Windows.
+
+Back to [5.6.2 release Notes](./../README.md)

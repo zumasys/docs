@@ -6,12 +6,9 @@
 **Original ID:** 258828  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Creating an encrypted file can give an error when a zero length record is written to the file.
-
-
 
 ### Previous Release Behavior
 
@@ -33,8 +30,8 @@ Record '1' written to file 'encfile'
 .\crypto\evp\evp_enc.c(282): OpenSSL internal error, assertion failed: inl > 0
 ```
 
-
-
 ### Current Release Behavior
 
 Doesn't abort when writing a null record to an encrypted file.
+
+Back to [5.6.2 release Notes](./../README.md)

@@ -6,25 +6,20 @@
 **Original ID:** 258542  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 With jBASE 5, the licensing model has been redesigned in order to simplify the components that are required while maintaining flexibility with regards to license maintenance and allowing the licensing model to be expanded as licensing requirements and paradigms evolve.
 
 Among the options available with jBASE licensing are:
 
-1. Install a permanent jBASE license as part of the product installation (Please refer to [Windows](./../../../administration/installation-guides/jbase-5.6-windows-installation-guide) or [Linux](jbase-56-linux-installation-guide) Installation guide ),
-2. Install an evaluation license as part of the product installation (Please refer to [Windows](./../../../administration/installation-guides/jbase-5.6-windows-installation-guide) or [Linux](jbase-56-linux-installation-guide)  Installation guide ),
+1. Install a permanent jBASE license as part of the product installation (Please refer to [Windows](./../../../administration/installation-guides/jbase-5.6-windows-installation-guide) or [Linux](./../../../administration/installation-guides/linux-installation-guide) Installation guides ),
+2. Install an evaluation license as part of the product installation (Please refer to [Windows](./../../../administration/installation-guides/jbase-5.6-windows-installation-guide) or [Linux](./../../../administration/installation-guides/linux-installation-guide)  Installation guides ),
 3. [Upgrade a evaluation license to a permanent license,](./../../../administration/installation-guides/working-with-jbase-license-keys)
 4. [Upgrade a standard edition permanent license and add MultiSession license](./../../../administration/installation-guides/working-with-jbase-license-keys).
 
+## License types
 
-## 
-
-
-## License types 
-
-### Server Licenses 
+### Server Licenses
 
 A Server license provides a single connection from a single IP address to the database. Note that multiple connects will consume multiple Server users.
 
@@ -32,33 +27,23 @@ Every jBASE 5 installation must have a Server license installed.
 
 By default a Server license will be enabled for both ODBC and jDBC. The Server license will also include any optional products that have been enabled. The user count for the option must equal the total number of Server users on the license.
 
-
-
-***ODBC***
+### ODBC
 
 Option where ODBC is available by default on the initial license.
 
-
-
-***JDBC***
+### JDBC*
 
 Option where JDBC is available by default on the initial license.
 
-
-
-***Transaction Journaling***
+### Transaction Journaling
 
 jBASE standard transaction journaling.
 
-
-
-***Dataguard***
+### Dataguard
 
 Transaction Journaling must be ordered or already be on the licenses before Dataguard can be added. Dataguard includes all the functionality to enable the use of JR Secure files, Checkpoints, On-line Backup and Restore and full Warmstart Recovery.
 
-
-
-***JEE/JCA & jRemote Java bundle***
+### JEE/JCA & jRemote Java bundle
 
 jBASE provides a bi-directional interface to JEE by means of the JEE compliant jRemote Inbound and jRemote Outbound resource adapters. The JEE Connector Architecture (JCA) specification, to which these resource adapters conform, specifies the mechanisms and contracts required for this transactional interaction.
 
@@ -66,33 +51,23 @@ JCA provides a Java technology solution to the problem of connectivity between t
 
 jRemote Java is a new client technology option for jBASE which provides an API to expose BASIC functions like subroutines, execute commands and access files from Java. It is based on an efficient object protocol and uses a secure connection based on TCP/IP, SSL and ACE (Adaptive Communication Environment).
 
-
-
-***jRemote C#***
+### jRemote C\#
 
 jRemote C# is a client technology which provides an API to expose BASIC functions like subroutines, execute commands and access files from Microsoft .NET. It is based on an efficient object protocol and uses a secure connection based on TCP/IP, SSL and ACE (Adaptive Communication Environment).
 
-
-
-### Multisession Licenses 
+### Multisession Licenses
 
 A Multisession license allows for up to ten concurrent sessions from a single IP address or system name to the database.
 
-
-
-**Enabling Multisession Functionality**
+#### Enabling Multisession Functionality
 
 To enable multi-session functionality there must be a **HostName** entry in the **JBCRELEASEDIR/multisession** (**%JBCRELEASEDIR%\multisession**on Windows) directory that matches the client system name or IP Address. Use the 'jprocdisp {portnumber}' command to obtain the **HostName** that is recognized by jBASE licensing.
 
 In the case where the client IP/hostname is not known, or if you just want the multi-session licenses to be allocated on a first come first saved basis, you can set the environment variable.
 
-
-
 **JBASE\_DYNAMIC\_MULTISESSION=1.**
 
 This will extend the multisession licensing such that, if the client host name is not already in the multisession directory, and there are still available license entries, then a new entry will be dynamically created for this host. Upon exit, if this is the last connection from that client then the entry will be removed.
-
-
 
 ### Websession Licenses
 
@@ -110,15 +85,11 @@ The maximum number of licenses available for a Websession license is 4095 blocks
 
 There is a minimum requirement for Websession licenses where at least one Server license must be purchased.
 
-
-
-**Enabling Websession Functionality**
+#### Enabling Websession Functionality
 
 To enable Websession functionality there must be a **HostName** entry in the **JBCRELEASEDIR/websession** (**%JBCRELEASEDIR%\websession**on Windows) directory that matches the client system names or IP Addresses for the Web Servers or Terminal Servers. Use the 'jprocdisp {portnumber}' command to obtain the **HostName** that is recognized by jBASE licensing.
 
-
-
-## License Allocation
+### License Allocation
 
 License tokens are allocated based on the following criteria
 
@@ -130,18 +101,11 @@ License tokens are allocated based on the following criteria
 - A connection is made from a Web Server or Terminal Server. A Websession License has been acquired as above; a further Websession License token is allocated 2 of 10.
 - A connection is made from a Web Server or Terminal Server as above. 10 Websession License tokens have been allocated; a second Websession License will be allocated if one is available. If the total number of Websession Licenses have been consumed the following error will be displayed:
 
-
-
 > ERROR! Websession license limit reached for this session '192.168.0.102'
-> 
+>
 > A license will NOT be allocated from either the Multisession or Server License pools.
 
-
-
-
-
-
-## Querying License Activity
+### Querying License Activity
 
 To determine the number of licenses and the licensing components enabled on a system, use the 'jlicensinginfo' command:
 
@@ -176,8 +140,6 @@ Num. multisession licenses 2
 jsh Administrator ~ -->
 ```
 
-
-
 There is also a 'jprocdisp' utility which provides further information regarding the hostname of connected sessions:
 
 ```
@@ -188,11 +150,11 @@ Port       User     Pid      Files Perf  Del  Read Write Open   Mem   Cpu  Prog
    2       alan   15106      3 (3)    0    1     4     0    6  880K  0.00  1 I jsh (CommandNext.b,103)
 *  3       alan   15162      3 (3)    0    1    15     0    4  504K  0.01  1 mw42 (mw42.b,764)
    4       alan   15159      3 (3)    0    1    16     0    4  500K  0.00  1 I mw42 (mw42.b,232)
-q[5.2@bmlinux config]$
+[5.2@bmlinux config]$
 [5.2@bmlinux config]$
 [5.2@bmlinux config]$
 [5.2@bmlinux config]$ jprocdisp 2
- 
+
 File=/home/alan/5.0_rels/jbc5.2.6/proc/port0-499/2
 Last Update Time 4s ago
 PortAllocated : Yes
@@ -210,8 +172,6 @@ PortAllocated : Yes
                 jsh
 ```
 
-
-
 The ‘jproclic’ tool shows the number of active processes, and the type of license they are holding (Standard/Multisession), e.g.
 
 ```
@@ -223,8 +183,6 @@ Port 4          Pid 12575        (Active)      M        Update Time 1s ago
 Port 8          Pid 11876        (Active)      S        Update Time 3s ago
 Port 1          Pid 12566        (Active)      M        Update Time 4s ago
 Port 2          Pid 12569        (Active)      M        Update Time 3s ago
- 
+
 Total Ports 513, allocated 8, active 6, not active 2, License  standard 1,  multisession 5
 ```
-
-

@@ -6,19 +6,16 @@
 **Original ID:** 279797  
 **Internal:** No  
 
-
-### Description
+## Description
 
 On D3 systems, where we have case insensitivity, there was a problem with mixed case item ids and jQL statements.
-
-
 
 ### Previous Release Behavior
 
 Consider a jQL statement like this:
 
 ```
-    SELECT HG.CONS WITH colldate GE "01/06/17" AND WITH 68 NE ""
+SELECT HG.CONS WITH colldate GE "01/06/17" AND WITH 68 NE ""
 ```
 
 In his example, both 'colldate' and '68' had an index.
@@ -32,18 +29,18 @@ The index is correct.
 If you do this, it works
 
 ```
-    SELECT HG.CONS WITH colldate GE 01/06/17
-    nnnnnn Items selected
-    > SELECT HG.CONS WITH 68 NE ""
-    mmmm items selected
+SELECT HG.CONS WITH colldate GE 01/06/17
+nnnnnn Items selected
+> SELECT HG.CONS WITH 68 NE ""
+mmmm items selected
 ```
 
 But when you do both together, jQL tries to see if the IDs selected with **colldate** exist in the key for **68**. This was failing because of case insensitivity.
-
-
 
 ### Current Release Behavior
 
 The above scenario produces the correct result and compares correctly when using the NO.INDEX modifier.
 
 Note that the **-c** option is no longer used -- we pick that up from the emulation by default.
+
+Back to [5.6.2 release Notes](./../README.md)
