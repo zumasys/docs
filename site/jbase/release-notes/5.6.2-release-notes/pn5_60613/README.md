@@ -19,4 +19,3 @@ Variables named **MM** and **ME** where treated as reserved words, subsequently 
 **MM** and **ME** are not treated as reserved words and can be used as normal variables.
 
 Back to [5.6.2 release Notes](./../README.md)
-

@@ -1,35 +1,54 @@
-# jdiag
+# JDIAG
 
-**Created At:** 8/24/2018 2:05:56 PM  
-**Updated At:** 10/25/2018 8:47:32 AM  
-**Original Doc:** [336017-jdiag](https://docs.jbase.com/48399-tools/336017-jdiag)  
-**Original ID:** 336017  
+**Created At:** 11/3/2017 5:25:11 PM  
+**Updated At:** 8/7/2018 2:49:51 PM  
+**Original Doc:** [jdiag](https://docs.jbase.com/41717-environment-variables/jdiag)  
+**Original ID:** 284192  
 **Internal:** No  
 
 **Tags:**
 <badge text='diagnosis' vertical='middle' />
+<badge text='profile' vertical='middle' />
+<badge text='trace' vertical='middle' />
 
 ## Description
 
-The **jdiag** utility is used to display information about the current jBASE installation. It is useful in pin-pointing problem areas of the setup.
+This environment variable provides a variable amount of jBASE trace information depending on
+which options are specified. It's primary purpose is for use in profiling jBC code.
 
-It's use is as:
+## Values
+
+Colon separated name and value pairs; the options are:
+
+- profile={off|short|long|user|jcover|all}
+- filename={stdout|stderr|tmp|pathname,refresh\_mins} %p can be used for process ID
+- memory={off|on|verify}
+- branch={off|on|verbose}
+- trace=env\_name{,env\_name,}
+
+JDIAG=TRACE=LOGTO|LICENSING|INDEX|SLEEP
+
+## Default
+
+Not set
+
+Examples of use may be as:
+
+## UNIX
 
 ```
-jdiag {-cwvlLm} {-MMemory}
+export JDIAG=profile=long:filename=PROFILENAME%p.out  
 ```
 
-| Option | Explanation |
-| --- | --- |
-| -c | Check environment for potential 32-bit/64-bit problems |
-| -d | Display disk drive information (Windows only) |
-| -h | Display only the header information |
-| -l | Copy output to log file **jdiag.out** |
-| -L | Output only to log file **jdiag.out** |
-| -m | Memory allocation Test (4 Mbyte default) |
-| -Mmem | use **Mem**ory Mbytes for memory test |
-| -s | Display jBASE services information (Windows only) |
-| -v | Verbose output |
-| -w | Terse output (only Warnings) |
+## Windows
 
-[Back to Tools](./../README.md)
+```
+set JDIAG=profile=long:filename=PROFILENAME%p.out
+```
+
+```
+JQL_TRACE_DEBUG=1
+set JDIAG=TRACE=INDEX
+```
+
+Back to [Environment Variables](./../README.md)

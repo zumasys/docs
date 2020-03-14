@@ -139,7 +139,7 @@ ESYSTEM_END
 
 > The Extended SYSTEM File values (ESYSTEM\_START+1 thru ESYSTEM\_START+15) are held internally within the jBASE process. These settings are NOT passed to the Operating System where 'expansion' is performed. In order to set environment variables containing references passed to the Operating System for 'expansion',use ESYSTEM\_START+16.
 >
-> Environment variables set in ESYSTEM\_START+16 override any corresponding values set in ESYSTEM\_START+1 thru ESYSTEM\_START+15.
+> Environment variables set in ESYSTEM\_START+16 override any corresponding values set in ESYSTEM\_START+1 through ESYSTEM\_START+15.
 >
 > Certain environment variables are controlled by LOGTO (e.g. HOME) and should not be assigned in ESYSTEM\_START+16.
 

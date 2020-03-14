@@ -2,9 +2,8 @@
 
 ## Topics
 
-[environment-variables](./environment-variables)  
-[gosubstackdepth](./gosubstackdepth)  
 [introduction-to-environment-variables](./introduction-to-environment-variables)  
+[gosubstackdepth](./gosubstackdepth)  
 [jbaseunique](./jbaseunique)  
 [jbase_date_format](./jbase_date_format)  
 [jbase_errmsg_divide_zero](./jbase_errmsg_divide_zero)  
@@ -42,7 +41,6 @@
 [jbc_invert_alpha_chars](./jbc_invert_alpha_chars)  
 [jbc_old_sp_edit](./jbc_old_sp_edit)  
 [jbc_tclrestart](./jbc_tclrestart)  
-[jdiag](./jdiag)  
 [jedienableq2q](./jedienableq2q)  
 [jedifilename_md](./jedifilename_md)  
 [jedifilename_system](./jedifilename_system)  
@@ -50,16 +48,10 @@
 [jedi_distrib_defopen](./jedi_distrib_defopen)  
 [jedi_secure_level](./jedi_secure_level)  
 [jsqlfilename_catalog](./jsqlfilename_catalog)  
-[keyboard-independence](./keyboard-independence)  
 [ld_library_path](./ld_library_path)  
 [notes-on-environment-variables-for-the-jbase-compiler](./notes-on-environment-variables-for-the-jbase-compiler)  
 [path](./path)  
-[system-file](./system-file)  
+[system-file](./../accounts/system-file/README.md)  
 [term-(environment-variable)](./term-(environment-variable))  
-[terminal-extensions](./terminal-extensions)  
-[terminal-independence](./terminal-independence)  
-[terminal-support](./terminal-support)  
-[terminal-type](./terminal-type)  
-[terminfo](./terminfo)  
 
 [Back to Knowledgebase](./../README.md)
