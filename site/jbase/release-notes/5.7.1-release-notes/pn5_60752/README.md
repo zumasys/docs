@@ -6,12 +6,9 @@
 **Original ID:** 336196  
 **Internal:** No  
 
+## Description
 
-### Description
-
-Prevent the compiler giving 'Unassigned Variable' warnings for the parameters passed with DEFFUN()
-
-
+Prevent the compiler returning 'Unassigned Variable' warnings for the parameters passed with DEFFUN()
 
 ### Previous Release Behavior
 
@@ -34,8 +31,8 @@ Warning: Variable Address is never assigned!
 Source file test3.b compiled successfully
 ```
 
-
-
 ### Current Release Behavior
 
 The warning messages are not displayed.
+
+Back to [5.7.1 Release Notes](./../README.md)

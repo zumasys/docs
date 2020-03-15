@@ -6,18 +6,13 @@
 **Original ID:** 336213  
 **Internal:** No  
 
+## Description
 
-### Description
-
-jBC: Add support for the **STOPM** and **STOPE**commands
-
-
+jBC: Add support for the **STOPM** and **STOPE** commands
 
 ### Previous Release Behavior
 
 These commands were not supported .
-
-
 
 ### Current Release Behavior
 
@@ -36,7 +31,7 @@ Another way is to set the default compiler options in Config\_EMULATE, for examp
 compiler_options = universe
 ```
 
-This patch has now added this option as a default option for Universe emulations so to enable STOPM and STOPE while running in Universe you need do nothing. If you want these Universe emulations in other emulation types, you can use one of the above mechanisms.
+This patch has now added this option as a default for Universe emulations, so to enable STOPM and STOPE while running in Universe you need do nothing. If you want these Universe emulations in other emulation types, you can use one of the above mechanisms.
 
 See PN5\_60770 for more details on setting compiler options.
 
@@ -65,3 +60,5 @@ BOTTOM
 So you can configure the message for STOPM as you wish, as well as all the other options that can be used. By default we simply print up to 8 'Expression' statements.
 
 The STOPE statement simply uses a message in the jbcmessages file whose item id is the first 'Expression', so in fact it operates exactly the same as STOP
+
+Back to [5.7.1 Release Notes](./../README.md)

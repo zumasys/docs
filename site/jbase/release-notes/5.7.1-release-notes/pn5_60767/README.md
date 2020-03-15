@@ -6,12 +6,9 @@
 **Original ID:** 336212  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Utilities: Running **jrf** on an encrypted file decrypts the file
-
-
 
 ### Previous Release Behavior
 
@@ -23,8 +20,8 @@ create-file filename encrypted=true
 
 The resulting data would be decrypted.
 
-
-
 ### Current Release Behavior
 
 The data remains encrypted after running **jrf** on an encrypted file.
+
+Back to [5.7.1 Release Notes](./../README.md)

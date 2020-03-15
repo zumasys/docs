@@ -20,4 +20,4 @@ Because the process is executed from a java application it did not have a valid 
 
 jBASE now checks if it is valid jBASE process before trying to get at any stacked input.
 
-BAck to [5.7.1 Release Notes](./../README.md)
+Back to [5.7.1 Release Notes](./../README.md)

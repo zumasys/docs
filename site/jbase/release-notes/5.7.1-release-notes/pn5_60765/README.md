@@ -6,16 +6,13 @@
 **Original ID:** 336210  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Correct a problem that when a CALL fails, the name displayed could become corrupted.
 
-
-
 ### Previous Release Behavior
 
-A subroutine CALL can fail, but the name can be corrupted if non alphabetic characters were in the name.
+A subroutine CALL can fail, but the name could be corrupted if non-alphabetic characters were in the name.
 
 For example, the name is "MY.BAD.PROG" but the name displayed is corrupted as "MY.BAD.PGOG"
 
@@ -30,8 +27,8 @@ Source changed to ./ZUMBP/BADCALL.b
 jBASE debugger->
 ```
 
-
-
 ### Current Release Behavior
 
 No longer corrupted.
+
+Back to [5.7.1 Release Notes](./../README.md)

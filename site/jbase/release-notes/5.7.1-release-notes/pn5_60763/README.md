@@ -6,26 +6,23 @@
 **Original ID:** 336203  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jQL: Segmentation Violation scenario with a dictionary subroutine call
 
 For now we simply terminate the current command after returning from the debugger.
-
-
 
 ### Previous Release Behavior
 
 Example:
 
 ```
-0001 SUBROUTINE mysub
-0002 INCLUDE JBC.h
-0003 INCLUDE qbasiccommonpick
-0004 DEBUG
-0005 newpick(12) = "segfault"
-0006 RETURN
+SUBROUTINE mysub
+INCLUDE JBC.h
+INCLUDE qbasiccommonpick
+DEBUG
+newpick(12) = "segfault"
+RETURN
 ```
 
 DICT 'SEGGY'
@@ -45,3 +42,5 @@ SELECT COOK BY SEGGY
 ```
 
 This would previously result in a core dump if you entered "end" in the debugger.
+
+Back to [5.7.1 Release Notes](./../README.md)
