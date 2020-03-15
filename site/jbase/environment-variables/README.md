@@ -53,5 +53,7 @@
 [path](./path)  
 [system-file](./../accounts/system-file/README.md)  
 [term-(environment-variable)](./term-(environment-variable))  
+[terminal-type](./../terminal/terminal-type/README.md)  
+[terminfo](./terminfo/README.md)
 
 [Back to Knowledgebase](./../README.md)

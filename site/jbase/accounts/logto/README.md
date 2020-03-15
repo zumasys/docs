@@ -46,4 +46,4 @@ LOGTO homer
 
 Logs off the current account and into the account "homer".
 
-[Accounts](./../accounts)
+Back to [Accounts](./../README.md)

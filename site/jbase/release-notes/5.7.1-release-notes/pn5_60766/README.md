@@ -6,20 +6,15 @@
 **Original ID:** 336211  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Support **self** as a synonym for **this**.
-
-
 
 ### Previous Release Behavior
 
 Methods could only reference their Class's properties and methods using the **this** keyword.
 
 Other languages such as Smalltalk and Python use **self**
-
-
 
 ### Current Release Behavior
 

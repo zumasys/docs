@@ -12,7 +12,7 @@ New commands **jbase** and **jb** which simplify the login process.
 
 ### Previous Release Behavior
 
-NA
+n/a
 
 ### Current Release Behavior
 
@@ -20,14 +20,13 @@ NA
 
 **jbase** (or its synonym **jb**) is a small shell script, or Windows **.cmd** file, that sets up the jBASE system environment and runs the **jlogin** command. It can be used to start a jBASE session in the following ways:
 
-- from a Unix or Windows command prompt
-- in a Unix **.profile**
+- from a UNIX or Windows command prompt
+- in a UNIX **.profile**
 - in a Windows **remote.cmd**
-
 
 For simple jBASE installations, it provides a quick way to start a jBASE session without any special configuration.
 
-The jBASE system environment variables are initialized by running **jbase\_env.sh** (UNIX) or **jbase\_env.cmd** (Windows) in JBCRELEASEDIR. On Unix, symbolic links to these scripts are added to **/usr/local/bin**. On Windows, since **%JBCRELEASEDIR%\bin** is normally in the PATH, these scripts are already accessible.
+The jBASE system environment variables are initialized by running **jbase\_env.sh** (UNIX) or **jbase\_env.cmd** (Windows) in JBCRELEASEDIR. On UNIX, symbolic links to these scripts are added to **/usr/local/bin**. On Windows, since **%JBCRELEASEDIR%\bin** is normally in the PATH, these scripts are already accessible.
 
 The command syntax for **jbase** or **jb** is identical to that of **jlogin**, described next.
 
@@ -80,11 +79,11 @@ Are you sure you want to launch jBASE in this directory?
 When an account path (not an account name) is specified, jlogin sets the following environment variables for the account, changes the current directory to the account path and starts a jShell:
 
 ```
-        HOME            AccountPath, converted to an absolute path
-        PATH            AccountPath/bin is prepended to the current PATH
-        JBCOBJECTLIST   AccountPath/lib
-        JEDIFILEPATH    AccountPath
-        JEDIFILENAME_MD AccountPath/MD if MD file exists; AccountPath/MD]D if it exists; otherwise not set
+HOME            AccountPath, converted to an absolute path
+PATH            AccountPath/bin is prepended to the current PATH
+JBCOBJECTLIST   AccountPath/lib
+JEDIFILEPATH    AccountPath
+JEDIFILENAME_MD AccountPath/MD if MD file exists; AccountPath/MD]D if it exists; otherwise not set
 ```
 
 For convenience, when an account name (not an account path) is used, if the name does not exist in the SYSTEM file, jlogin checks for a SYSTEM record using the upper-case or lower-case form of the account name. If a SYSTEM record using the upper- or lower-case name is found, jlogin will prompt:

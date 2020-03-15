@@ -6,13 +6,12 @@
 **Original ID:** 309871  
 **Internal:** No  
 
-
-# Patches
+## Patches
 
 - [PN5\_60652](./../pn5_60652) - Enhancements to the jShell dot stacker
 - [PN5\_60653](./../pn5_60653) - Implement memory-based I/O operations
 - [PN5\_60654](./../pn5_60654) - Change the way the MD is created with the **create-account** command
-- [PN5\_60655](./../pn5_60655) - **OCONV()**difference in Sequoia emulation
+- [PN5\_60655](./../pn5_60655) - **OCONV()** difference in Sequoia emulation
 - [PN5\_60657](./../pn5_60657) - Stop the compiler from adjusting the casing of a subroutine
 - [PN5\_60658](./../pn5_60658) - jQL: I-type dictionaries do not recognize **@TM**
 - [PN5\_60661](./../pn5_60661) - jQL: Unable to get Value Number from exploded sort using a dictionary subroutine
@@ -64,55 +63,43 @@
 - [PN5\_60733](./../pn5_60733) - Paragraphs: Inline prompts on comment lines not processed in the correct sequence
 - [PN5\_60738](./../pn5_60738) - Add an option to the **config-strings** command to display output in Config\_EMULATE format
 - [PN5\_60746](./../pn5_60746) - jQL: Repeat function with A/F-correlatives only processes first multi-value
-- [PN5\_60747](./../pn5_60747) - Utilities: The **config-strings**command failed to display emulation lines after commented lines
+- [PN5\_60747](./../pn5_60747) - Utilities: The **config-strings** command failed to display emulation lines after commented lines
 
-
-
-
-# 5.6.6.2
+## 5.6.6.2
 
 - [PN5\_60815](./../5.7.2-release-notes/pn5_60815) - Paragraphs process inline prompts on commented lines
 - [PN5\_60820](./../5.7.2-release-notes/pn5_60820) - jQL: IF/THEN/ELSE A-correlative does not process embedded conversions
 - [PN5\_60840](./../pn5_60840) - PREWRITE trigger unable to amend the record on the file the trigger is on
 - [PN5\_60851](./../pn5_60851) - Compiler parsing issue when a function definition [DEFFUN] has the same name as a DIM() or COMMON array
 
+## New Commands
 
-# New Commands
+-
 
-- 
+## New jBC Statements
 
+-  
 
-# New jBC Statements
+## New Modules
 
-- 
+-  
 
-
-# New Modules
-
-- 
-
-
-# Changes to Current Behavior 
+## Changes to Current Behavior
 
 - jBASE 5.6.6.1 includes several improvements to jODBC/JSQL.
 
-
-# Changes to Commands
+## Changes to Commands
 
 - jshow (see patch [PN5\_60717](./../pn5_60717))
 
+## Changes to jBC
 
-# Changes to jBC 
+-  
 
-- 
+## Statements/Functions
 
+-  
 
-# Statements/Functions
-
-- 
-
-
-# Additional Notes
+## Additional Notes
 
 - The spooler features a new [FILE Device Type](./../pn5_60673).
-

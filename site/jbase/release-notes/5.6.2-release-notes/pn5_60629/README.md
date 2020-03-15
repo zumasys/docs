@@ -6,12 +6,9 @@
 **Original ID:** 279087  
 **Internal:** No  
 
-
-### Description
+## Description
 
 ICONV doesn't strip leading zeros when the number to be converted is a string
-
-
 
 ### Previous Release Behavior
 
@@ -23,10 +20,10 @@ CRT ICONV('003','MD2')
 
 Displayed 3
 
-
-
 ### Current Release Behavior
 
 The above example will display **300**
 
 New behavior must be enabled by setting **iconv\_strip\_leading\_zeros = true** in Config\_EMULATE.
+
+Back to [5.6.2 release Notes](./../README.md)

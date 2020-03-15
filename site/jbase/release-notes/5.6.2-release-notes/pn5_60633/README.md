@@ -6,12 +6,9 @@
 **Original ID:** 279161  
 **Internal:** No  
 
+## Description
 
-### Description
-
-A program could go into a CPU loop on Linux/Unix system if a **/** was present in the file name
-
-
+A program could go into a CPU loop on Linux/UNIX system if a **/** was present in the file name
 
 ### Current Release Behavior
 
@@ -20,3 +17,4 @@ Prior to this patch, on Linux systems the code to look up file names could loop 
 1. There was a **/** in the file name, e.g **abc/def**
 2. If **abc** existed but **def** did not.
 
+Back to [5.6.2 release Notes](./../README.md)

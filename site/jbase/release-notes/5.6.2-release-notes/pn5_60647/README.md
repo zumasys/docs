@@ -6,12 +6,9 @@
 **Original ID:** 279208  
 **Internal:** No  
 
-
-### Description
+## Description
 
 SP-ASSIGN resets list pointer
-
-
 
 ### Previous Release Behavior
 
@@ -24,18 +21,18 @@ e.g.
 
 2) Run this program:
 
-0001 EXECUTE 'SELECT MD SAMPLE 10' CAPTURING quiet
-0002 FOR x = 1 TO 10
-0003     READNEXT id ELSE EXIT
-0004     CRT x, id
-0005     EXECUTE "SP-ASSIGN" CAPTURING quiet
-0006 NEXT x
+EXECUTE 'SELECT MD SAMPLE 10' CAPTURING quiet
+FOR x = 1 TO 10
+    READNEXT id ELSE EXIT
+    CRT x, id
+    EXECUTE "SP-ASSIGN" CAPTURING quiet
+NEXT x
 ```
 
 READNEXT would always return only the first item in the select list, looping forever.
 
-
-
 ### Current Release Behavior
 
 READNEXT does not reset the list pointer when SP-ASSIGN is EXECUTE'd.
+
+Back to [5.6.2 release Notes](./../README.md)

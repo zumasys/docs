@@ -2,7 +2,6 @@
 
 ## Topics
 
-[jbase-5-licensing](./jbase-5-licensing)  
 [pn5_60529](./pn5_60529)  
 [pn5_60542](./pn5_60542)  
 [pn5_60545](./pn5_60545)  
@@ -91,3 +90,4 @@
 [pn5_60647](./pn5_60647)  
 [pn6_60633](./pn6_60633)  
 
+Back to [Release Notes](./../README.md)

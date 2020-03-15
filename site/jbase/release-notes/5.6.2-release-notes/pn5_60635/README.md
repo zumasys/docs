@@ -6,13 +6,12 @@
 **Original ID:** 279163  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jQL not processing sub-values in calculations
-
-
 
 ### Current Release Behavior
 
 Prior to this patch, jQL would not use sub-values in any dictionary calculation.
+
+Back to [5.6.2 release Notes](./../README.md)

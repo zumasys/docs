@@ -6,20 +6,15 @@
 **Original ID:** 279074  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Utilities: jbase\_agent accepts invalid port ranges, less than 1025 and greater than 65535
-
-
 
 ### Previous Release Behavior
 
 Accepted any port number.
 
 Defaulted to 20002 if the port number was non-numeric.
-
-
 
 ### Current Release Behavior
 
@@ -46,3 +41,5 @@ parse_args: port number is to high! (max 65534)
 C:\home>jbase_agent -p 10006
 (8592|8672) NOTICE starting up jAgent, Process Per Connection mode, listening on port 10006, c:\src\remote\international\development\jagent\SocketAcceptor.h +63
 ```
+
+Back to [5.6.2 release Notes](./../README.md)

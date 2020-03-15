@@ -6,12 +6,9 @@
 **Original ID:** 279166  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jQL and Indexes not processing multi-values
-
-
 
 ### Previous Release Behavior
 
@@ -46,8 +43,6 @@ TESTFILE....... A1..................
 
 Indexes also had the same problem, in that the MCN conversion was applied to the whole attribute rather than each multi-value.
 
-
-
 ### Current Release Behavior
 
 ```
@@ -61,3 +56,5 @@ TESTFILE....... A1..................
 Indexes are also built correctly by applying the conversion to each multi-value rather then the whole attribute.
 
 Note: This patch is limited to only processing multi-values.
+
+Back to [5.6.2 release Notes](./../README.md)

@@ -6,18 +6,13 @@
 **Original ID:** 279169  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Util: New command **viewindex** to view a jBASE Secondary Index
-
-
 
 ### Previous Release Behavior
 
 None
-
-
 
 ### Current Release Behavior
 
@@ -46,3 +41,5 @@ Examples:
    viewindex CUSTOMERS LASTNAME K 123456
    [View the LASTNAME index starting at ID '123456' of index keys beginning with 'K']
 ```
+
+Back to [5.6.2 release Notes](./../README.md)

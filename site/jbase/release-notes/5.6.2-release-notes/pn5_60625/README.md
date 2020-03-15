@@ -6,18 +6,15 @@
 **Original ID:** 279083  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Active select-list not retained after invoking SPOOLER() function
-
-
 
 ### Previous Release Behavior
 
 ```
-0001     PROGRAM sp3
-0002     CRT SPOOLER(3)
+PROGRAM sp3
+CRT SPOOLER(3)
 
 jsh home ~ -->SP-ASSIGN
 jsh home ~ -->SELECT MD SAMPLE 42
@@ -31,8 +28,6 @@ Trap from an error message, error message name = NON_NUMERIC
 Line 62 , Source jsp_getstatus.b
 jBASE debugger->
 ```
-
-
 
 ### Current Release Behavior
 
@@ -50,3 +45,5 @@ jsh home ~ -->SELECT MD SAMPLE 42
 
 jsh home ~ -->
 ```
+
+Back to [5.6.2 release Notes](./../README.md)

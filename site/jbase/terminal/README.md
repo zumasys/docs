@@ -2,11 +2,10 @@
 
 ## Topics
 
-[Keyboard Independence](keyboard-independence/README.md)
+[Keyboard Independence](keyboard-independence/README.md)  
 [Terminal Independence](terminal-independence/README.md)  
 [Terminal Type](terminal-type/README.md)  
 [Keyboard Independence](keyboard-independence/README.md)  
 [Terminal Extension](terminal-extensions/README.md)  
-[Terminfo](terminfo/README.md)
 
 [Back to Knowledgebase](./../README.md)

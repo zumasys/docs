@@ -39,4 +39,4 @@ Due to the additional overhead of resolving Q to Q pointers which is not normall
 | 19. | &lt;1&gt; QL<br>&lt;2&gt; Remote Account<br>&lt;3&gt; Remote File<br> | Remote Q pointer for use with the jBASE Remote file service. [See jRFS](./../../jrfs/README.md) . The **L** indicates that updates to remote file are not [Logged](./../../transactions/README.md). |
 | 20. | &lt;1&gt; F<br>&lt;2&gt; /absolute/path/for/DATA<br>&lt;3&gt; /absolute/path/for/DICT<br> | Fpointer to absolute file<br>/absolute/path/for/DATA |
 
-[Accounts](./../accounts)
+Back to [Accounts](./../README.md)

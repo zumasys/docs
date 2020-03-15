@@ -6,12 +6,9 @@
 **Original ID:** 279082  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jQL: Date and Time conversion codes are not case insensitive
-
-
 
 ### Current Release Behavior
 
@@ -28,3 +25,5 @@ Prior to this patch, dictionaries with the output conversion (attribute 7) in lo
 009 r
 010 10
 ```
+
+Back to [5.6.2 release Notes](./../README.md)

@@ -6,12 +6,9 @@
 **Original ID:** 279155  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Minor issues with the new **JPP2** pre-compiler
-
-
 
 ### Current Release Behavior
 
@@ -21,3 +18,4 @@ Prior to this patch:
 - The use of CHAR() confused the pre-compiler and would wrongly convert &lt; and &gt; to LT and GT.
 - IF @TRUE THEN DEBUG ELSE NULL       ;\* This would previously convert **DEBUG** to **Debug**
 
+Back to [5.6.2 release Notes](./../README.md)

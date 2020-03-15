@@ -6,12 +6,9 @@
 **Original ID:** 279168  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jQL: Incorrect BREAK-ON totals and formatting at major break levels
-
-
 
 ### Previous Release Behavior
 
@@ -29,9 +26,6 @@ Given the following sample output:
 - The sums on the second last line are incorrectly added (carried over) to the next line
 - There should be a blank line between the last 2 lines, indicating a major control break
 
-
-
-
 ### Current Release Behavior
 
 jQL totals and formatting are now correct:
@@ -45,3 +39,5 @@ jQL totals and formatting are now correct:
 
                            0.00      20,826.97
 ```
+
+Back to [5.6.2 release Notes](./../README.md)
