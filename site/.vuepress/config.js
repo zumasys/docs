@@ -93,7 +93,7 @@ module.exports = {
         ]
       }
     ],
-    //barConfig.sidebar,
+    //sidebar: barConfig.sidebar,
     sidebar: [
       "/",
       {
@@ -106,7 +106,9 @@ module.exports = {
             title: "Release Notes",
             path: "/accuterm/release-notes/",
             collapsable: true,
-            children: [["/accuterm/release-notes/8.0.1010/", "8.0.1010"]]
+            children: [
+              ["/accuterm/release-notes/8.0.1010/", "8.0.1010"]
+            ]
           },
           ["/accuterm/license-activation/", "License Activation"],
           {
@@ -114,18 +116,9 @@ module.exports = {
             path: "/accuterm/license-and-user-management/",
             collapsable: true,
             children: [
-              [
-                "/accuterm/license-and-user-management/creating-users/",
-                "Creating Users"
-              ],
-              [
-                "/accuterm/license-and-user-management/creating-roles/",
-                "Creating Roles"
-              ],
-              [
-                "/accuterm/license-and-user-management/batch-actions/",
-                "Batch Actions"
-              ]
+              ["/accuterm/license-and-user-management/creating-users/", "Creating Users"],
+              ["/accuterm/license-and-user-management/creating-roles/", "Creating Roles"],
+              ["/accuterm/license-and-user-management/batch-actions/", "Batch Actions"]
             ]
           },
           {
@@ -133,10 +126,7 @@ module.exports = {
             path: "/accuterm/desktop/",
             collapsable: true,
             children: [
-              [
-                "/accuterm/desktop/rezume-session-resilience/",
-                "ReZume Session Resilience"
-              ],
+              ["/accuterm/desktop/rezume-session-resilience/", "ReZume Session Resilience"],
               ["/accuterm/desktop/phi-reports/", "PHI Reports"]
             ]
           },
@@ -146,15 +136,9 @@ module.exports = {
             collapsable: true,
             children: [
               ["/accuterm/mobile/quick-start/", "Quick Start"],
-              [
-                "/accuterm/mobile/colors-and-themes-settings/",
-                "Colors & Themes Settings"
-              ],
+              ["/accuterm/mobile/colors-and-themes-settings/", "Colors & Themes Settings"],
               ["/accuterm/mobile/connection-settings/", "Connection Settings"],
-              [
-                "/accuterm/mobile/keyboard-and-clipboard-settings/",
-                "Keyboard & Clipboard Settings"
-              ],
+              ["/accuterm/mobile/keyboard-and-clipboard-settings/", "Keyboard & Clipboard Settings"],
               ["/accuterm/mobile/screen-settings/", "Screen Settings"],
               ["/accuterm/mobile/terminal-settings/", "Terminal Settings"]
             ]
@@ -164,50 +148,94 @@ module.exports = {
             path: "/accuterm/web/",
             collapsable: true,
             children: [
-              [
-                "/accuterm/web/installing-accuterm-io-server/",
-                "Installing AccuTerm IO Server"
-              ],
+              ["/accuterm/web/installing-accuterm-io-server/", "Installing AccuTerm IO Server"],
               ["/accuterm/web/creating-profiles/", "Creating Profiles"],
               {
                 title: "Profiles",
                 path: "/accuterm/web/profiles/",
                 collapsable: true,
                 children: [
-                  [
-                    "/accuterm/web/profiles/change-password/",
-                    "Change AccuTerm.IO Password"
-                  ],
-                  [
-                    "/accuterm/web/profiles/keyboard-options/",
-                    "Keyboard Options"
-                  ],
+                  ["/accuterm/web/profiles/change-password/", "Change AccuTerm.IO Password"],
+                  ["/accuterm/web/profiles/keyboard-options/", "Keyboard Options"],
                   ["/accuterm/web/profiles/mouse-settings/", "Mouse Settings"],
                   ["/accuterm/web/profiles/sound-settings/", "Sound Settings"],
-                  [
-                    "/accuterm/web/profiles/terminal-screen-options/",
-                    "Terminal Screen Options"
-                  ],
-                  [
-                    "/accuterm/web/profiles/terminal-settings/",
-                    "Terminal Settings"
-                  ],
-                  [
-                    "/accuterm/web/profiles/clipboard-settings/",
-                    "Clipboard Settings"
-                  ],
-                  [
-                    "/accuterm/web/profiles/connection-settings/",
-                    "Connection Settings"
-                  ],
-                  [
-                    "/accuterm/web/profiles/font-and-character-settings/",
-                    "Font & Character Settings"
-                  ]
+                  ["/accuterm/web/profiles/terminal-screen-options/", "Terminal Screen Options"],
+                  ["/accuterm/web/profiles/terminal-settings/", "Terminal Settings"],
+                  ["/accuterm/web/profiles/clipboard-settings/", "Clipboard Settings"],
+                  ["/accuterm/web/profiles/connection-settings/", "Connection Settings"],
+                  ["/accuterm/web/profiles/font-and-character-settings/", "Font & Character Settings"]
                 ]
               }
             ]
           }
+        ]
+      },
+      ["/jbase/", "jBASE"],
+      {
+        title: "MV Connect",
+        path: "/mv-connect/",
+        collapsable: true,
+        children: [
+          ["/mv-connect/get-started/", "Get Started"],
+          {
+            title: "Release Notes",
+            path: "/mv-connect/release-notes/",
+            collapsable: true,
+            children: [
+              ["/mv-connect/release-notes/1.6.3/", "1.6.3"]
+            ]
+          },
+          ["/mv-connect/connection-pooling/", "Connection Pooling"],
+          {
+            title: "API",
+            path: "/mv-connect/api/",
+            collapsable: true,
+            children: [
+              ["/mv-connect/api/wgetheader/", "wgetheader"],
+              ["/mv-connect/api/wgetinfo/", "wgetinfo"],
+              ["/mv-connect/api/wgetparam/", "wgetparam"],
+              ["/mv-connect/api/wgetvar/", "wgetvar"],
+              ["/mv-connect/api/wobj/", "wobj"],
+              ["/mv-connect/api/wparsejson/", "wparsejson"],
+              ["/mv-connect/api/wsend/", "wsend"],
+              ["/mv-connect/api/wsetbuffer/", "wsetbuffer"],
+              ["/mv-connect/api/wsetcontenttype/", "wsetcontenttype"],
+              ["/mv-connect/api/wsetcookie/", "wsetcookie"],
+              ["/mv-connect/api/wsetheader/", "wsetheader"],
+              ["/mv-connect/api/wsetstatus/", "wsetstatus"],
+              ["/mv-connect/api/www.info/", "www.info"],
+              ["/mv-connect/api/wbuildjson/", "wbuildjson"],
+              ["/mv-connect/api/wdb.resource/", "wdb.resource"],
+              ["/mv-connect/api/wdebug/", "wdebug"],
+              ["/mv-connect/api/wencodejson/", "wencodejson"],
+              ["/mv-connect/api/wflush/", "wflush"],
+              ["/mv-connect/api/wgetbody/", "wgetbody"],
+              ["/mv-connect/api/wgetconfig/", "wgetconfig"],
+              ["/mv-connect/api/wgetcookie/", "wgetcookie"]
+            ]
+          },
+          ["/mv-connect/security/", "Security"],
+          ["/mv-connect/additional-features/", "Additional Features"],
+          {
+            title: "Troubleshooting",
+            path: "/mv-connect/troubleshooting/",
+            collapsable: true,
+            children: [
+              ["/mv-connect/troubleshooting/web-server/", "Web Server"],
+              ["/mv-connect/troubleshooting/wdebug/", "WDEBUG"]
+            ]
+          }
+        ]
+      },
+      {
+        title: "Customer Portal",
+        path: "/customer-portal/",
+        collapsable: true,
+        children: [
+          ["/customer-portal/registration/", "Registration"],
+          ["/customer-portal/support-tickets/", "Support Tickets"],
+          ["/customer-portal/navigation/", "Navigation"],
+          ["/customer-portal/customer-management/", "Customer Management"]
         ]
       },
       {
@@ -221,42 +249,21 @@ module.exports = {
             path: "/mv-dashboard/installation-guide/",
             collapsable: true,
             children: [
-              [
-                "/mv-dashboard/installation-guide/requirements/",
-                "Requirements"
-              ],
+              ["/mv-dashboard/installation-guide/requirements/", "Requirements"],
               {
                 title: "Install",
                 path: "/mv-dashboard/installation-guide/install/",
                 collapsable: true,
                 children: [
-                  [
-                    "/mv-dashboard/installation-guide/install/linux-and-aix/",
-                    "Linux and AIX"
-                  ],
-                  [
-                    "/mv-dashboard/installation-guide/install/windows/",
-                    "Windows"
-                  ]
+                  ["/mv-dashboard/installation-guide/install/linux-and-aix/", "Linux and AIX"],
+                  ["/mv-dashboard/installation-guide/install/windows/", "Windows"]
                 ]
               },
-              [
-                "/mv-dashboard/installation-guide/configuration/",
-                "Configuration"
-              ],
-              [
-                "/mv-dashboard/installation-guide/running-in-d3-flashed-mode/",
-                "Running in D3 Flashed Mode"
-              ],
-              [
-                "/mv-dashboard/installation-guide/using-code-editor-to-edit-non-widget-source/",
-                "Using the Code Editor to Edit Non-Widget Source"
-              ],
+              ["/mv-dashboard/installation-guide/configuration/", "Configuration"],
+              ["/mv-dashboard/installation-guide/running-in-d3-flashed-mode/", "Running in D3 Flashed Mode"],
+              ["/mv-dashboard/installation-guide/using-code-editor-to-edit-non-widget-source/", "Using the Code Editor to Edit Non-Widget Source"],
               ["/mv-dashboard/installation-guide/starting/", "Starting"],
-              [
-                "/mv-dashboard/installation-guide/deploy-dashboards-and-widgets-to-production-systems/",
-                "Deploy Dashboards and Widgets to Production Systems"
-              ],
+              ["/mv-dashboard/installation-guide/deploy-dashboards-and-widgets-to-production-systems/", "Deploy Dashboards and Widgets to Production Systems"],
               {
                 title: "Uninstall",
                 path: "/mv-dashboard/installation-guide/uninstall/",
@@ -378,42 +385,17 @@ module.exports = {
                   },
                   {
                     title: "Optional Parameters",
-                    path:
-                      "/mv-dashboard/programmers-guide/widgets/optional-parameters/",
+                    path: "/mv-dashboard/programmers-guide/widgets/optional-parameters/",
                     collapsable: true,
                     children: [
-                      [
-                        "/mv-dashboard/programmers-guide/widgets/optional-parameters/line-bar-area-column-pie-and-doughnut-charts-2d-and-3d/",
-                        "Line, Bar, Area, Column, Pie and Doughnut Charts (2D & 3D)"
-                      ],
-                      [
-                        "/mv-dashboard/programmers-guide/widgets/optional-parameters/trendlines/",
-                        "Trendlines"
-                      ],
-                      [
-                        "/mv-dashboard/programmers-guide/widgets/optional-parameters/2d-area-charts/",
-                        "2D Area Charts"
-                      ],
-                      [
-                        "/mv-dashboard/programmers-guide/widgets/optional-parameters/2d-line-charts/",
-                        "2D Line Charts"
-                      ],
-                      [
-                        "/mv-dashboard/programmers-guide/widgets/optional-parameters/column-line-area-and-bar/",
-                        "Column Line Area and Bar"
-                      ],
-                      [
-                        "/mv-dashboard/programmers-guide/widgets/optional-parameters/multiseries-and-stacked-charts/",
-                        "Multiseries and Stacked Charts"
-                      ],
-                      [
-                        "/mv-dashboard/programmers-guide/widgets/optional-parameters/pie-and-doughnut-charts/",
-                        "Pie and Doughnut Charts"
-                      ],
-                      [
-                        "/mv-dashboard/programmers-guide/widgets/optional-parameters/single-series-and-pie-charts/",
-                        "Single Series and Pie Charts"
-                      ]
+                      ["/mv-dashboard/programmers-guide/widgets/optional-parameters/line-bar-area-column-pie-and-doughnut-charts-2d-and-3d/", "Line, Bar, Area, Column, Pie and Doughnut Charts (2D & 3D)"],
+                      ["/mv-dashboard/programmers-guide/widgets/optional-parameters/trendlines/", "Trendlines"],
+                      ["/mv-dashboard/programmers-guide/widgets/optional-parameters/2d-area-charts/", "2D Area Charts"],
+                      ["/mv-dashboard/programmers-guide/widgets/optional-parameters/2d-line-charts/", "2D Line Charts"],
+                      ["/mv-dashboard/programmers-guide/widgets/optional-parameters/column-line-area-and-bar/", "Column Line Area and Bar"],
+                      ["/mv-dashboard/programmers-guide/widgets/optional-parameters/multiseries-and-stacked-charts/", "Multiseries and Stacked Charts"],
+                      ["/mv-dashboard/programmers-guide/widgets/optional-parameters/pie-and-doughnut-charts/", "Pie and Doughnut Charts"],
+                      ["/mv-dashboard/programmers-guide/widgets/optional-parameters/single-series-and-pie-charts/", "Single Series and Pie Charts"]
                     ]
                   }
                 ]
@@ -423,98 +405,17 @@ module.exports = {
                 path: "/mv-dashboard/programmers-guide/integration/",
                 collapsable: true,
                 children: [
-                  [
-                    "/mv-dashboard/programmers-guide/integration/other-applications/",
-                    "Other Applications"
-                  ],
-                  [
-                    "/mv-dashboard/programmers-guide/integration/using-emailed-login/",
-                    "Using Emailed Login"
-                  ],
-                  [
-                    "/mv-dashboard/programmers-guide/integration/web-service-login/",
-                    "Web Service Login"
-                  ]
+                  ["/mv-dashboard/programmers-guide/integration/other-applications/", "Other Applications"],
+                  ["/mv-dashboard/programmers-guide/integration/using-emailed-login/", "Using Emailed Login"],
+                  ["/mv-dashboard/programmers-guide/integration/web-service-login/", "Web Service Login"]
                 ]
               },
-              [
-                "/mv-dashboard/programmers-guide/pdf-generation/",
-                "PDF Generation"
-              ],
-              [
-                "/mv-dashboard/programmers-guide/fusion-charts/",
-                "Fusion Charts Documentation"
-              ]
+              ["/mv-dashboard/programmers-guide/pdf-generation/", "PDF Generation"],
+              ["/mv-dashboard/programmers-guide/fusion-charts/", "Fusion Charts Documentation"]
             ]
           }
         ]
-      },
-      {
-        title: "MV Connect",
-        path: "/mv-connect/",
-        collapsable: true,
-        children: [
-          ["/mv-connect/get-started/", "Get Started"],
-          {
-            title: "Release Notes",
-            path: "/mv-connect/release-notes/",
-            collapsable: true,
-            children: [["/mv-connect/release-notes/1.6.3/", "1.6.3"]]
-          },
-          ["/mv-connect/connection-pooling/", "Connection Pooling"],
-          {
-            title: "API",
-            path: "/mv-connect/api/",
-            collapsable: true,
-            children: [
-              ["/mv-connect/api/wgetheader/", "wgetheader"],
-              ["/mv-connect/api/wgetinfo/", "wgetinfo"],
-              ["/mv-connect/api/wgetparam/", "wgetparam"],
-              ["/mv-connect/api/wgetvar/", "wgetvar"],
-              ["/mv-connect/api/wobj/", "wobj"],
-              ["/mv-connect/api/wparsejson/", "wparsejson"],
-              ["/mv-connect/api/wsend/", "wsend"],
-              ["/mv-connect/api/wsetbuffer/", "wsetbuffer"],
-              ["/mv-connect/api/wsetcontenttype/", "wsetcontenttype"],
-              ["/mv-connect/api/wsetcookie/", "wsetcookie"],
-              ["/mv-connect/api/wsetheader/", "wsetheader"],
-              ["/mv-connect/api/wsetstatus/", "wsetstatus"],
-              ["/mv-connect/api/www.info/", "www.info"],
-              ["/mv-connect/api/wbuildjson/", "wbuildjson"],
-              ["/mv-connect/api/wdb.resource/", "wdb.resource"],
-              ["/mv-connect/api/wdebug/", "wdebug"],
-              ["/mv-connect/api/wencodejson/", "wencodejson"],
-              ["/mv-connect/api/wflush/", "wflush"],
-              ["/mv-connect/api/wgetbody/", "wgetbody"],
-              ["/mv-connect/api/wgetconfig/", "wgetconfig"],
-              ["/mv-connect/api/wgetcookie/", "wgetcookie"]
-            ]
-          },
-          ["/mv-connect/security/", "Security"],
-          ["/mv-connect/additional-features/", "Additional Features"],
-          {
-            title: "Troubleshooting",
-            path: "/mv-connect/troubleshooting/",
-            collapsable: true,
-            children: [
-              ["/mv-connect/troubleshooting/web-server/", "Web Server"],
-              ["/mv-connect/troubleshooting/wdebug/", "WDEBUG"]
-            ]
-          }
-        ]
-      },
-      {
-        title: "Customer Portal",
-        path: "/customer-portal/",
-        collapsable: true,
-        children: [
-          ["/customer-portal/registration/", "Registration"],
-          ["/customer-portal/support-tickets/", "Support Tickets"],
-          ["/customer-portal/navigation/", "Navigation"],
-          ["/customer-portal/customer-management/", "Customer Management"]
-        ]
-      },
-      ["/jbase/", "jBASE"]
+      }
     ],
     repo: "https://github.com/zumasys/docs",
     docsBranch: "master",

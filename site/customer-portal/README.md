@@ -1,9 +1,9 @@
 # Customer Portal
 
-## Topics
+## Table of Contents
 
-[customer-management](./customer-management)  
-[navigation](./navigation)  
-[registration](./registration)  
-[support-tickets](./support-tickets)  
+* [Customer Management](./customer-management/README.md)  
+* [Navigation](./navigation/README.md)  
+* [Registration](./registration/README.md)  
+* [Support Tickets](./support-tickets/README.md)  
 
