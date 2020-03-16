@@ -6,20 +6,15 @@
 **Original ID:** 336410  
 **Internal:** No  
 
-
-### Description
+## Description
 
 The jRF command, with no arguments, should not process all files in the current directory
-
-
 
 ### Previous Release Behavior
 
 The jRF command would process all files in the current directory if no arguments were given. This was dangerous if the command was inadvertently run while files were opened by another process.
 
 Most, if not all, jBASE tools and utilities do not have any effect on the database when they are run with no arguments so this had to change for jRF to be consistent.
-
-
 
 ### Current Release Behavior
 
@@ -30,3 +25,5 @@ In order to process all files in the current directory, you now have to specify 
 ```
 jrf *
 ```
+
+Back to [5.7.1 Release Notes](./../README.md)

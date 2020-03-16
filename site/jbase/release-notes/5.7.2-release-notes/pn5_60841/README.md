@@ -6,12 +6,9 @@
 **Original ID:** 370728  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jBC: Error when passing a non-numeric to the STR() function
-
-
 
 ### Release Behavior
 
@@ -24,8 +21,8 @@ CRT STR("x","non-numeric")
 
 would display the the "x" value until the system ran out of memory.
 
-
-
 ### Current Release Behavior
 
 The above code now returns "" (null).
+
+Back to [5.7.2 Release Notes](./../README.md)

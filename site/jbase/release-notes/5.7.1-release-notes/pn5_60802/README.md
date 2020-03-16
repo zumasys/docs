@@ -6,8 +6,7 @@
 **Original ID:** 340485  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jQL: No output using controlling/dependent associations with a limiting expression
 
@@ -29,5 +28,4 @@ As long as the statement is restructured to place the limiting expression on the
 SORT WCOMPS TOTAL PAYMENTS2 PDATE2 GE "26/5/07" AND LE "26/5/07" PDESC2 PAYMENTS2 WITH PDATE2 GE "26/5/07" AND LE "26/5/07"
 ```
 
-### 
-
+Back to [5.7.1 Release Notes](./../README.md)

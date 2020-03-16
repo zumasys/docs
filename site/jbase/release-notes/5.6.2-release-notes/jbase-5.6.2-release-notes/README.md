@@ -12,7 +12,7 @@
 
 * * *
 
-# Patches
+## Patches
 
 - [PN5\_60542](./../5.6.2-release-notes/pn5_60542) - Case Independence: Allow the CHANGE() function to operate in a case insensitive fashion
 - [PN5\_60545](./../5.6.2-release-notes/pn5_60545) - Case Independence: Slow string concatenations
@@ -43,20 +43,19 @@
 - [PN5\_60579](./../5.6.2-release-notes/pn5_60579) - Audit logging creates phantom entries in the error log
 - [PN5\_60580](./../5.6.2-release-notes/pn5_60580) - Indexes could become out of sync with the file when the application does not protect simultaneous updates with READU
 
+## New Commands
 
-# New Commands
+-
 
+## New jBC Statements
 
+-
 
-# New jBC Statements
+## New Modules
 
+-
 
-
-# New Modules
-
-
-
-# Changes to Current Behavior
+## Changes to Current Behavior
 
 - jlicensinginfo - Reformatted and contains a new Slot section displayed with the -v option.
 - Case Independence: Allow the CHANGE() function to operate in a case insensitive fashion.
@@ -69,37 +68,24 @@
 - -w is the default create-index option for secondary indexes.
 - New version of FOLD() with 3 parameters for D3 compatibility added.
 
-
-# Changes to Commands
+## Changes to Commands
 
 - WHERE, LISTU and LOGOFF are now unlicensed
 
-
-# 
-
-
-# Changes to jBC 
+## Changes to jBC  
 
 - jlogdup and jlogstatus don't consume a license. [PN5\_60551](./../5.6.2-release-notes/pn5_60551)
 
+## Statements/Functions
 
-# 
+-
 
+## Daemons
 
-# Statements/Functions
+-  
 
-# 
-
-
-# Daemons
-
-# 
-
-
-# Additional Notes
+## Additional Notes
 
 - A new device, FILE1, is available for use with D3/AP/R83 file saves
 
-
-### 
-
+Back to [Release Notes](./../README.md)

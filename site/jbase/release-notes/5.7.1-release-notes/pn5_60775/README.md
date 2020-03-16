@@ -6,12 +6,9 @@
 **Original ID:** 336403  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Provide case insensitivity for IF statement comparisons
-
-
 
 ### Previous Release Behavior
 
@@ -24,8 +21,6 @@ IF A = Y X
 ```
 
 would not allow the entry of a lower case 'y'.
-
-
 
 ### Current Release Behavior
 
@@ -68,3 +63,5 @@ but will not match:
 ```
 
 Requires **generic\_d3 = true** in Config\_EMULATE
+
+Back to [5.7.1 Release Notes](./../README.md)

@@ -6,8 +6,7 @@
 **Original ID:** 340328  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Q-pointer casing issue
 
@@ -18,7 +17,7 @@ Q-pointers could not resolve with a mixed-case account name and/or file name.
 Previously something like this would fail.
 
 ```
-MYFILE
+CT MD MYFILE
 001 q
 002 another_accounT
 003 remote_filE
@@ -41,3 +40,5 @@ where:
 Q-pointers now resolve regardless of the case of the account name and/or file name.
 
 This change is only effective in D3 emulation.
+
+Back to [5.7.1 Release Notes](./../README.md)

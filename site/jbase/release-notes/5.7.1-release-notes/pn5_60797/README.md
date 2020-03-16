@@ -6,12 +6,9 @@
 **Original ID:** 338149  
 **Internal:** No  
 
+## Description
 
-### Description
-
-jQL: Issue with indexes and using wildcards with record keys (CW2532)
-
-
+jQL: Issue with indexes and using wildcards with record keys
 
 ### Previous Release Behavior
 
@@ -32,3 +29,5 @@ FAIL    SELECT FILE WITH ID EQ "2]"
 ```
 
 This is because the index is looking for a right ignore string match and the trailing wild card had not been trimmed.
+
+Back to [5.7.1 Release Notes](./../README.md)

@@ -6,18 +6,13 @@
 **Original ID:** 370723  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Add option to force the BASIC/CATALOG/DECATALOG commands to require an explicit item-list or "\*"
-
-
 
 ### Previous Release Behavior
 
 Issuing BASIC BP or CATALOG BP, without specifying an explicit list of records or a preceding select-list, would compile/catalog **all** programs including those that were not intended to be compiled/cataloged.
-
-
 
 ### Current Release Behavior
 
@@ -36,3 +31,5 @@ jsh ~ -->BASIC BP
 What is the record name ??
 jsh ~ -->
 ```
+
+Back to [5.7.2 Release Notes](./../README.md)

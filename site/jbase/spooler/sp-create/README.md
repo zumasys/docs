@@ -30,7 +30,7 @@ Where:
 
 **devicename** is the device name or program command to which output will be despooled.
 
-The **(Z** option can be used to encrypt the spooler jobs. See this [page](./../../../jbase/jbase-encryption---database-security) for details.
+The **(Z** option can be used to encrypt the spooler jobs. See this [page](./../../../jbase/jbase-encryption-database-security) for details.
 
 If the command is issued without arguments, for instance:
 

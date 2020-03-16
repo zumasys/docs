@@ -6,24 +6,19 @@
 **Original ID:** 365057  
 **Internal:** No  
 
+## Description
 
-### Description
-
-Paragraphs process inline prompts on commented lines [SD3291]
-
-
+Paragraphs process inline prompts on commented lines
 
 ### Previous Release Behavior
 
 This paragraph would process line 3:
 
 ```
-001 PA
-002 * DISPLAY hello
-003 * LIST COUNTRIES WITH LANGUAGE = <<Language>> LANGUAGE COUNTRY_NAME
+PA
+* DISPLAY hello
+* LIST COUNTRIES WITH LANGUAGE = <<Language>> LANGUAGE COUNTRY_NAME
 ```
-
-
 
 ### Current Release Behavior
 
@@ -34,3 +29,5 @@ To enable it, set the following emulation option:
 ```
 para_has_uv_bug = true
 ```
+
+Back to [5.7.2 Release Notes](./../README.md)

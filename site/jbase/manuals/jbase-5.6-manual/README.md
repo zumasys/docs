@@ -6,27 +6,18 @@
 **Original ID:** 258538  
 **Internal:** No  
 
-
-
-
 Welcome to jBASE!  jBASE is a dynamic, high-performance and flexible NoSQL database that gives you the freedom to design your applications around your business needs, not the capabilities of your database.  The Manual introduces key concepts in jBASE, presents the programming and query language, and provides operational and administrative considerations and procedures.
 
-
-
-# jBASE 5.6 Release Notes
+## jBASE 5.6 Release Notes
 
 For summary of new features in jBASE 5.6, see [Release Notes for jBASE 5.6](./../jbase-5.6-release-notes "Release Notes for jBASE 5.6").
 
 - [Native RESTful Services](./../../jagent/introduction-to-jagent-rest-services)
 - [Granular Audit Logging](./../../jbase/introduction-to-audit-logging)
-- Updated System Manager
-- [Native Data Encryption](./../../jbase/jbase-encryption---database-security)
+- [Native Data Encryption](./../../jbase/jbase-encryption-database-security)
 - [Improved Transaction Journaling](./../../administration/transaction-replication/introduction-to-transaction-journaling)
 
-
-
-
-# Getting to Know jBASE
+## Getting to Know jBASE
 
 jBASE provides the following documentation to help developers and administrators new to jBASE.
 
@@ -39,21 +30,17 @@ jBASE provides the following documentation to help developers and administrators
 - [Introduction to jAgent](introduction-to-jagent "Introduction to jAgent")
 - [jBASE F.A.Q.](./../../migration-station/jbase-f.a.q "jBASE F.A.Q.")
 
-
-
-
-# Getting Help with jBASE
+## Getting Help with jBASE
 
 If you're looking for help, you can reach out the following ways:
 
 - [jBASE Support](http://www.jbase.com/support) - devsup@jbase.com, 1-866-582-8447
 - jBASE Google Group
 
-
-
-
-# jBASE Licensing
+## jBASE Licensing
 
 To gain an understanding of jBASE licensing, please review [jBASE 5 Licensing Guide](./../5.6.2-release-notes/jbase-5-licensing "jBASE 5 Licensing Guide").
 
 To obtain an evaluation version of jBASE, please email multivalue@zumasys.com.
+
+Back to [Release Notes](./../README.md)

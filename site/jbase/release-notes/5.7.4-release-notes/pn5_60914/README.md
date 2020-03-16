@@ -6,18 +6,13 @@
 **Original ID:** 459844  
 **Internal:** No  
 
-
-### Description
+## Description
 
 GET-LIST in a Proc produced incorrect results in D3 emulation
-
-
 
 ### Previous Release Behavior
 
 Create this Proc and a simple "Hello World" program:
-
-
 
 ```
 id: PROCTEST
@@ -32,8 +27,6 @@ id: PROCTEST
 
 Running the Proc in D3 emulation produced this result:
 
-
-
 ```
 jsh ~  -->PROCTEST
 
@@ -43,11 +36,7 @@ jsh ~  -->PROCTEST
 jsh ~  -->
 ```
 
-
-
 ### Current Release Behavior
-
-
 
 ```
 jsh ~ 1 -->PROCTEST
@@ -59,10 +48,10 @@ Hello, World!
 >
 ```
 
-
-
 ### Notes
 
-The previous behavior of GET-LIST in D3 emulation was such that doing a GET-LIST with multiple lists would return a list with unique entries.
+>The previous behavior of GET-LIST in D3 emulation was such that doing a GET-LIST with multiple lists would return a list with unique entries.
+>
+>The current behavior is that it concatenates the lists regardless of their contents. This is now compatible with D3 behavior.
 
-The current behavior is that it concatenates the lists regardless of their contents. This is now compatible with D3 behavior.
+Back to [5.7.4 Release Notes](./../README.md)

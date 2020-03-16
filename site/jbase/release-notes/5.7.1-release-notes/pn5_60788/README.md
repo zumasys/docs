@@ -6,8 +6,7 @@
 **Original ID:** 336542  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jQL: Grand totals longer than the defined column width were being truncated
 
@@ -29,3 +28,5 @@ The totals now wrap:
 ***        152,183,838.
                      27
 ```
+
+Back to [5.7.1 Release Notes](./../README.md)

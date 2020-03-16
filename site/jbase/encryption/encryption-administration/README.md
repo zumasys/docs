@@ -10,7 +10,7 @@
 
 The **jsecurity** command is used to create an encryption profile. At the present time, only one profile per system is allowed.
 
-***\*\*\* Most options of the*** **jsecurity** ***command require root/administrator privileges\*\*\****
+***\*\*\* Most options of the*** **jsecurity** ***command require root/administrator privileges \*\*\****
 
 ```
 jsh ~ -->jsecurity -h
@@ -104,12 +104,14 @@ This is the only option that does not require root/administrator privileges, so 
 The status can also be obtained programmatically :
 
 ```
-    PROGRAM jsecurity_status
-    EXECUTE "jsecurity status" SETTING error_code CAPTURING quiet
-    security_profile_is_loaded = (error_code<1,1> NE 12)
-    IF security_profile_is_loaded THEN
-        CRT "Security profile is loaded."
-    END ELSE
-        CRT "Security profile is NOT loaded."
-    END
+PROGRAM jsecurity_status
+EXECUTE "jsecurity status" SETTING error_code CAPTURING quiet
+security_profile_is_loaded = (error_code<1,1> NE 12)
+IF security_profile_is_loaded THEN
+    CRT "Security profile is loaded."
+END ELSE
+    CRT "Security profile is NOT loaded."
+END
 ```
+
+Back to [Encryption](./../README.md)

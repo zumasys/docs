@@ -6,8 +6,7 @@
 **Original ID:** 339370  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jQL fails to select record keys using NE operator on a case insensitive file
 
@@ -28,3 +27,5 @@ Fixed issue with pattern matching on ID only select types.
 This new behavior will only become active if the file has been created caseless. e.g. create-file CUSTOMERS case=no
 
 Caseless files are created by default in D3 emulation.
+
+Back to [5.7.1 Release Notes](./../README.md)

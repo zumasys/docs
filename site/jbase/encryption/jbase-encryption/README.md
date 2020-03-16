@@ -32,7 +32,9 @@ When jBASE is first started, if any security is in place, the customer needs to 
 
 When ‘jsecurity’ is run for whatever reason, it will prompt for a security key. This is the key we encrypt our security policy file with. The security key can be manually entered by an operator or can be programmatically entered – for example by executing a key vault program and piping the key to stdout and then into jsecurity.
 
-In the simplest of configurations, the default configuration, there will be a single system-wide algorithm and key for all components of jBASE (data files, indexes, TJ, backup, spooler, audit logs) and encryption is disabled throughout jBASE (of course existing non-encrypted files not affected). You will need to use the “ENCRYPT=TRUE” option to CREATE-FILE to encrypt a file, and use jsecurity to turn on encryption by default on the other modules (TJ, backup, audit log and spooler).
+In the simplest of configurations, the default configuration, there will be a single system-wide algorithm and key for all components of jBASE (data files, indexes, TJ, backup, spooler, audit logs) and encryption is disabled throughout jBASE (of course existing non-encrypted files not affected).  
+
+You will need to use the “ENCRYPT=TRUE” option to CREATE-FILE to encrypt a file, and use jsecurity to turn on encryption by default on the other modules (TJ, backup, audit log and spooler).
 
 Options, definable using the new jsecurity utility, allow variations on the simple configuration, such as different keys for different components, deciding which components use encryption, and so on.
 
@@ -88,3 +90,5 @@ The following functionality will be tested to ensure correct working with the ne
 - JEDIs to the audit log and TJ files
 - jstat
 - rename-file
+
+Back to [Encryption](./../README.md)

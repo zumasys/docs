@@ -6,13 +6,7 @@
 **Original ID:** 258539  
 **Internal:** No  
 
-
-# 
-
-
-# WHAT'S NEW
-
-
+## What's New
 
 NATIVE RESTFUL SERVICES
 
@@ -30,14 +24,10 @@ NATIVE DATA ENCRYPTION
 
 Get built-in data security and protection with the standard jBASE product for no additional cost. Native data encryption now makes it easy to meet increasing compliance requirements with granular encryption at the file level. Choose between file-level encryption and spooler-level encryption while maintaining the high performance your users expect.
 
-# 
-
-
-# COMPONENTS
+## COMPONENTS
 
 - Net OBjEX Provides VB/.Net interoperability
 - jRemote & jRCS Provide Native jBASE API’s for accessing jBC functions remotely from C#, Java or .NET
-
 
 3rd Party Components
 
@@ -52,17 +42,11 @@ Built using the following Java versions:
 - Linux RH-AS5 Java(TM) 2 Runtime Environment, Standard Edition (build 1.5.0\_22-b03)
 - Windows 64-bit Java(TM) 2 Runtime Environment, Standard Edition (build 1.6.0\_45)
 
-
-
-
 INTERNATIONALIZATION LIBRARY
 
 Required for Locale and Multi Byte character set support
 
 - ICU 4.0.1
-
-
-
 
 XML LIBRARY
 
@@ -70,11 +54,8 @@ Required for XML function support.
 
 - XERCES 3.0.1
 - XALAN 1.11.0
-
-# 
-
-
-# SUPPORTED PLATFORMS
+  
+## SUPPORTED PLATFORMS
 
 This specific Patch Release provides support for the following platforms:
 
@@ -83,25 +64,17 @@ This specific Patch Release provides support for the following platforms:
 - Solaris 10 SPARC (64-bit) \* (on request)
 - Windows Server 2008 & 2012 (64-bit)
 
-
 \*This build is binary compatible with forward releases of the platform
 
 - (e.g. AIX 6.1 -&gt; AIX 7.1)
-
 
 \*Running on Red Hat 6 required the SSL compatibility library to be installed; this can be done with the following command:
 
 - yum install openssl098e
 
-
-
-
 Caveats
 
 - jDP / Attunity Connect is not available for the 64-bit jBASE 5.6 release, replaced by jAgent/jODBC
-
-
-
 
 Compilation
 
@@ -115,17 +88,11 @@ jBASE 5.6 is brought to you by the following compilers:
 | RH Linux AS5 | gcc (GCC) 4.1.2 20080704 (Red Hat 4.1.2-44) |
 | Solaris 10 SPARC | Sun Studio 11 |
 
-# 
-
-
-# PATCHES
+## PATCHES
 
 All patches from previous jBASE releases have been included where appropriate in jBASE 5.6. All Patch details for the jBASE 5.6 release are provided from the links below.
 
 jBASE 5.6 patch release includes Patches PN5\_50468 through PN5\_60512
-
-## 
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -161,16 +128,15 @@ jBASE 5.6 patch release includes Patches PN5\_50468 through PN5\_60512
 | [5\_60503](http://www.jbase.com/releasenotes/5.6.0/PN5_60503.html) | Stop the Z command from consuming memory unnecessarily |
 | [5\_60512](http://www.jbase.com/releasenotes/5.6.0/PN5_60512.html) | D3 compatibility enhancements: ! in PERFORM/EXECUTE and SYSTEM(19) |
 
-# NEW COMMANDS
+## NEW COMMANDS
 
-# NEW JBC STATEMENTS
+## NEW JBC STATEMENTS
 
-# CHANGES TO CURRENT BEHAVIOR
+## CHANGES TO CURRENT BEHAVIOR
 
 Modules
 
 - Transaction Journaling
-
 
 Commands
 
@@ -189,23 +155,21 @@ Commands
 - LIST-INDEX
 - KEY-SELECT
 
-
 jBC Statements/Functions
 
 - CASING
 - DELETE
 
-# NEW MODULES
+## NEW MODULES
 
 - jAgent: RESTful Services
 - Encryption
-
 
 ## CHANGES TO INSTALLERS
 
 - Changes have been made to the jBASE Installers to simplify the install process, see Installation Guides
 
-# INSTALLATION GUIDES
+## INSTALLATION GUIDES
 
 [Windows Installation Guide](./../../administration/installation-guides/jbase-5.6-windows-installation-guide "Windows Installation Guide")
 

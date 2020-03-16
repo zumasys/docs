@@ -6,12 +6,9 @@
 **Original ID:** 370746  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Compiler fails to note a variable declared as a dimensioned array. This is when the array was passed as a parameter to a subroutine.
-
-
 
 ### Previous Release Behavior
 
@@ -28,8 +25,8 @@ In this case, the compiler would know that parm2 is a dimensioned array from the
 
 However, for the emulations that support resizeable dimensioned arrays, the DIM statement is not needed. In this case, the compiler would fail to notice the dimensioned array passed in the SUBROUTINE statement ('parm2' in the above example) was a dimensioned array and so the special processing would fail.
 
-
-
 ### Current Release Behavior
 
 All dimensioned arrays passed via the SUBROUTINE statement are now correctly identified as dimensioned arrays.
+
+Back to [5.7.2 Release Notes](./../README.md)

@@ -6,12 +6,9 @@
 **Original ID:** 401012  
 **Internal:** No  
 
-
-### Description
+## Description
 
 A previously cataloged subroutine could get its shared library reused by a subsequent catalog of a different subroutine
-
-
 
 ### Previous Release Behavior
 
@@ -29,8 +26,8 @@ For example,
 
 This would result in two lib0 shared libraries.
 
-
-
 ### Current Release Behavior
 
 The catalog process now checks that a new shared library (if required) has not already been allocated.
+
+Back to [5.7.3 Release Notes](./../README.md)

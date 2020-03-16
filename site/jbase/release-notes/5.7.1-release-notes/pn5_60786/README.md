@@ -6,19 +6,16 @@
 **Original ID:** 336540  
 **Internal:** No  
 
-
-### Description
+## Description
 
 SQL: Issue with I-descriptors and ODBC
-
-
 
 ### Previous Release Behavior
 
 ODBC was not recognizing last value if it was null from an I-type dictionary
 
-
-
 ### Current Release Behavior
 
 We now check when there are less values that the requested one.
+
+Back to [5.7.1 Release Notes](./../README.md)

@@ -6,12 +6,9 @@
 **Original ID:** 401008  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jQL: Extra blank lines appear on subvalued data that exceeds the defined column width
-
-
 
 ### Previous Release Behavior
 
@@ -77,8 +74,6 @@ testrec           a1v1s1 abc    a2v1s1
  1 Records Listed
 ```
 
-
-
 ### Current Release Behavior
 
 The extra blank lines do not display, e.g.
@@ -99,4 +94,4 @@ testrec           a1v1s1 abc    a2v1s1
 1 Records Listed
 ```
 
-
+Back to [5.7.3 Release Notes](./../README.md)

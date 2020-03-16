@@ -30,11 +30,11 @@ A JSON source text can now accept the 4 primitive types of JSON as text, as well
    source = '"Hello World"'
  obj = source->$fromjson()
 if obj->$isobject() then
-   print "We returned an object like this"
-   print obj->$tojson(1)
+   crt "We returned an object like this"
+   crt obj->$tojson(1)
 end else
-   print "We didn't return an object, we returned this"
-   print obj
+   crt "We didn't return an object, we returned this"
+   crt obj
 end
 
 [Screen output]
@@ -44,3 +44,5 @@ Hello World
 ```
 
 In the above example, the source for $fromjson() was neither an object nor array, so we don't return an object as such, hence $isobject() returns false. However, the source to $fromjson() is a recognised JSON primitive of "Hello World" and so we return the string "Hello World".
+
+Back to [5.7.4 Release Notes](./../README.md)

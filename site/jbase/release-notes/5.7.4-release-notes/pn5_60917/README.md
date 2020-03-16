@@ -6,12 +6,9 @@
 **Original ID:** 475568  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Spooler: **SP-CREATE Fnn** creates form queues with the wrong queue number
-
-
 
 ### Previous Release Behavior
 
@@ -32,8 +29,6 @@ SP-ASSIGN F2
 
 would have assigned the **F1** formqueue.
 
-
-
 ### Current Release Behavior
 
 If queue number **nn** has already been assigned to a form queue then an error is thrown when attempting to create a **Fnn** or **Qnn** form queue.
@@ -45,8 +40,8 @@ ILLEGAL NUMBER: Formqueue number '1' is already in use with formqueue 'DESKJET'!
 jsh ~ -->
 ```
 
-
-
 ### Notes
 
 This patch affects formqueues created with a name of **Fnn**, **fnn**, **Qnn**, **qnn** where **nn** is the queue number.
+
+Back to [5.7.4 Release Notes](./../README.md)

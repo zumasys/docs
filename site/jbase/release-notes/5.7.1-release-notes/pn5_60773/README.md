@@ -6,12 +6,9 @@
 **Original ID:** 336259  
 **Internal:** No  
 
-
-### Description
+## Description
 
 The **jshow** command does not resolve filenames entered as filename,datasection
-
-
 
 ### Previous Release Behavior
 
@@ -28,8 +25,6 @@ jsh ~ -->jshow -f main,section
 jsh ~ -->
 ```
 
-
-
 ### Current Release Behavior
 
 ```
@@ -39,3 +34,5 @@ jsh ~ -->jshow -f main,section
 File:                     ./main]Msection
 jsh danielk ~ -->
 ```
+
+Back to [5.7.1 Release Notes](./../README.md)

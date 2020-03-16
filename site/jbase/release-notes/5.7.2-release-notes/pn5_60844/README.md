@@ -6,18 +6,13 @@
 **Original ID:** 370731  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Add new options to display all configuration settings and to output in JSON format
-
-
 
 ### Release Behavior
 
 Options did not exist
-
-
 
 ### Current Release Behavior
 
@@ -57,3 +52,5 @@ Options:
     config-strings -e d3 -@  display settings and @ values for the d3 emulation
     config-strings -l        list sections in Config_EMULATE.
 ```
+
+Back to [5.7.2 Release Notes](./../README.md)

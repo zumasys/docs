@@ -84,7 +84,7 @@ jsh ~ -->
 
 - The **filename** used with the **-f** option can be full or relative. If the **-f** option is not used then the default is **$JBCRELEASEDIR/config/filesecurity**.
 - The **AES** cipher is **AES256**
-- [**PBKDF2** ](https://en.wikipedia.org/wiki/PBKDF2) is a way of obscuring the password
+- [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2) is a way of obscuring the password
 
 The last step is to **load** the profile into shared memory. ***This needs to be done EACH TIME the system is rebooted or a new security profile needs to be activated.***
 
@@ -117,14 +117,14 @@ This is the only option that does not require root/administrator privileges, so 
 The status can also be obtained programmatically :
 
 ```
-     PROGRAM jsecurity_status
-     EXECUTE "jsecurity status" SETTING error_code CAPTURING quiet
-     security_profile_is_loaded = (error_code<1,1> NE 12)
-     IF security_profile_is_loaded THEN
-         CRT "Security profile is loaded."
-     END ELSE
-         CRT "Security profile is NOT loaded."
-     END
+PROGRAM jsecurity_status
+EXECUTE "jsecurity status" SETTING error_code CAPTURING quiet
+security_profile_is_loaded = (error_code<1,1> NE 12)
+IF security_profile_is_loaded THEN
+    CRT "Security profile is loaded."
+END ELSE
+    CRT "Security profile is NOT loaded."
+END
 ```
 
 ## Create Encrypted Files
@@ -238,12 +238,12 @@ jsh ~\ebp -->
 - The following code, which uses a feature of [**Dynamic Objects**](./../../dynamic-objects/dynamic-objects), can be used to programmatically determine if a file is encrypted:
 
 ```
-        PROGRAM encrypted
-        filename = sentence(1)  ;* obtain the filename from the command line
-        OPEN filename TO filevar ELSE STOP 201, filename
-        file_is_encrypted = filevar->getstats()->encrypt
-        CRT "File ":DQUOTE(filename):" is ":
-        CRT (IF file_is_encrypted THEN "encrypted." ELSE "NOT encrypted.")
+PROGRAM encrypted
+filename = sentence(1)  ;* obtain the filename from the command line
+OPEN filename TO filevar ELSE STOP 201, filename
+file_is_encrypted = filevar->getstats()->encrypt
+CRT "File ":DQUOTE(filename):" is ":
+CRT (IF file_is_encrypted THEN "encrypted." ELSE "NOT encrypted.")
 ```
 
 ## Create an Encrypted Spooler Queue
@@ -279,3 +279,5 @@ TOI
 .
 Encrypted no access from edit
 ```
+
+Back to [Encryption](./../README.md)

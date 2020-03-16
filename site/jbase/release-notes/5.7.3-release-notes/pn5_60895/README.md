@@ -6,12 +6,9 @@
 **Original ID:** 400121  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Support sub-valued fields in a secondary index
-
-
 
 ### Previous Release Behavior
 
@@ -24,14 +21,9 @@ In the example below, where ] is a value mark and \ is a sub-value mark, we woul
 - CITY
 - UNITED\LIVERPOOL\EVERTON
 
-
-
-
 ```
 CHELSEA]FOREST\DERBY]CITY]UNITED\LIVERPOOL\EVERTON
 ```
-
-
 
 ### Current Release Behavior
 
@@ -47,9 +39,8 @@ In the above example, we would now have the following index keys:
 - LIVERPOOL
 - EVERTON
 
-
-
-
 ### Notes
 
 There are no options in create-index for this enhancement, it just occurs automatically.
+
+Back to [5.7.3 Release Notes](./../README.md)

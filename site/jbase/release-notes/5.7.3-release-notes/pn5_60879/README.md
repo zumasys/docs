@@ -6,12 +6,9 @@
 **Original ID:** 401005  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Prevent process abort with **Tn,m**conversion
-
-
 
 ### Previous Release Behavior
 
@@ -26,3 +23,5 @@ would cause OCONV() in jBC or a correlative in a dictionary with jQL would resul
 ### Current Release Behavior
 
 Conversion is performed as expected, no crash occurs.
+
+Back to [5.7.3 Release Notes](./../README.md)

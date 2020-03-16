@@ -6,28 +6,21 @@
 **Original ID:** 370719  
 **Internal:** No  
 
+## Description
 
-### Description
-
-Add **$merge()**and**$locate()** as internal methods to dynamic objects
-
-
+Add **\$merge()** and **\$locate()** as internal methods to dynamic objects
 
 ### Previous Release Behavior
 
-Methods did not exist. You had to do an iterator in your code to support the equivalent of **$merge()** and **$locate()**
-
-
+Methods did not exist. You had to do an iterator in your code to support the equivalent of **\$merge()** and **\$locate()**
 
 ### Current Release Behavior
 
-You can use **$merge()** to merge one object into another. The objects types must match, either both must be object or both must be arrays -- you can't merge an array into an object.
+You can use **\$merge()** to merge one object into another. The objects types must match, either both must be object or both must be arrays -- you can't merge an array into an object.
 
-You can use **$locate()** to find a string in a dynamic array (not in an object). The result is -1 for the string not found, or a positive value showing the relative index value in the array if the string was found.
+You can use **\$locate()** to find a string in a dynamic array (not in an object). The result is -1 for the string not found, or a positive value showing the relative index value in the array if the string was found.
 
 This is an example of merging object 'source' into 'destination'
-
-
 
 ```
 debian-~/tmp1: cat test4.jabba
@@ -55,7 +48,7 @@ debian-~/tmp1: ./test4
         "weight":112,
         "shame":1
 }
-debian-~/tmp1: 
+debian-~/tmp1:
 ```
 
 This is an example of using $locate() with and without case sensitivity.
@@ -83,3 +76,5 @@ debian-~/src/International/development/jbase: test7
 Ian is in array at element 1
 Ian is in array at element 1
 ```
+
+Back to [5.7.2 Release Notes](./../README.md)

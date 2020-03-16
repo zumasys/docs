@@ -6,8 +6,7 @@
 **Original ID:** 344521  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jAgent / jRemote to handle functions in a different class than subroutines
 
@@ -18,3 +17,5 @@ Had to use **.sub** to call a function.
 ### Current Release Behavior
 
 Can now call a function directly.
+
+Back to [5.7.1 Release Notes](./../README.md)

@@ -9,7 +9,7 @@
 | <!----> | <!----> |
 | --- | --- |
 | [CHAR](./../char) | Displays a character conversion table. |
-| [ENCRYPTION](./../../jbase-encryption---database-security) | File encryption and decryption. |
+| [ENCRYPTION](./../../jbase-encryption-database-security) | File encryption and decryption. |
 | [ERRMSG](./../errmsg) | Displays system error message text/description. |
 | HAD | Displays any file in hexadecimal format. A hexadecimal offset can be specified from which to start the display as: <br><br>```had -offset```<br><br> |
 | [JCOMP](./../../../files/jcomp) | Compares two hashed files or directories. |

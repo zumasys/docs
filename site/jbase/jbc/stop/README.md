@@ -10,12 +10,12 @@ The **STOP** statement is virtually identical in function to the [ABORT](./../ab
 
 As of jBASE 5.7.1, the following UniVerse syntax is also supported when running in "universe" emulation:
 
-STOPM {Expression { , Expression { , Expression ...}}
-   or
-STOPE {Expression { , Expression { , Expression ...}}
+STOPM {Expression { , Expression { , Expression ...}}  
+   or  
+STOPE {Expression { , Expression { , Expression ...}}  
 
-The STOPM statement uses the STOPM item in the jBASE error message file, jbcmessages.  
+The **STOPM** statement uses the STOPM item in the jBASE error message file, jbcmessages.  
 
-The STOPE statement simply uses a message in the jbcmessages file whose item id is the first 'Expression'.  
+The **STOPE** statement simply uses a message in the jbcmessages file whose item id is the first 'Expression', so in fact operates is the same manner as **STOP**.  
 
 Go back to [jBASE BASIC](./../README.md)

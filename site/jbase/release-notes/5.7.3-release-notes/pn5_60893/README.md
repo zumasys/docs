@@ -6,12 +6,9 @@
 **Original ID:** 400126  
 **Internal:** No  
 
-
-### Description
+## Description
 
 **@SELECTED** not getting set when doing an **EXECUTE** with a **RTNLIST**
-
-
 
 ### Previous Release Behavior
 
@@ -28,8 +25,6 @@ This would display:
 @SELECTED = 0
 ```
 
-
-
 ### Current Release Behavior
 
 Running the same program now displays:
@@ -38,8 +33,8 @@ Running the same program now displays:
 @SELECTED = 10
 ```
 
-
-
 ### Notes
 
 This patch is only applicable in Prime, Universe or Unidata emulations.
+
+Back to [5.7.3 Release Notes](./../README.md)

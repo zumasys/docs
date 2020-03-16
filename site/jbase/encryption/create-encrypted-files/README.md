@@ -99,3 +99,5 @@ jsh ~\ebp -->
 **jcompile** will not work on an encrypted file.  
 This will not be implemented, as **jcompile** doesn’t use JEDI to get its files, so it won’t ever work.  
 If there is an encrypted source code file, you will have to use the **BASIC** command on it.
+
+Back to [Encryption](./../README.md)

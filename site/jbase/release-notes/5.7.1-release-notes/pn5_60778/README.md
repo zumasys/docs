@@ -6,12 +6,9 @@
 **Original ID:** 336406  
 **Internal:** No  
 
-
-### Description
+## Description
 
 PROC: Error using **IH!** in a PQ proc
-
-
 
 ### Previous Release Behavior
 
@@ -30,8 +27,6 @@ jpq : Invalid parameter at line 3 in ., ihtest
 ```
 
 This was due to the use of PQN buffer referencing characters (! # & %) with the IH command in a PQ proc.
-
-
 
 ### Current Release Behavior
 
@@ -53,3 +48,5 @@ jbase-centos5-~/src/International/5.6.3.1: jpq ihproc
 !it !works
 jbase-centos5-~:
 ```
+
+Back to [5.7.1 Release Notes](./../README.md)

@@ -6,12 +6,9 @@
 **Original ID:** 336539  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jQL: Commas in conversion changes sort to left justified in BY / BY-DSND
-
-
 
 ### Previous Release Behavior
 
@@ -37,8 +34,6 @@ causing the sort processor to put it at the top
   991
 ```
 
-
-
 ### Current Release Behavior
 
 The order should be fine as the sort processor ignores formatting for numeric data, e.g.
@@ -48,3 +43,5 @@ The order should be fine as the sort processor ignores formatting for numeric da
   991
 1,000
 ```
+
+Back to [5.7.1 Release Notes](./../README.md)

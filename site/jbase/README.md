@@ -44,6 +44,7 @@
 | [Administration](./administration/README.md) | jBASE Administration |
 | [Coding Corner](./coding-corner/README.md) | Tips and tricks for programmers using jBASE |
 | [Connectivity](./connectivity/README.md) | Alternative methods of connecting to jBASE |
+| [Encryption](./encryption/README.md) | Encryption Topics |
 | [FAQ](./faq/README.md) | Frequently Asked Questions (and some not so frequently) |
 | [jEDI](./jedi/README.md) | jBASE jEDI Drivers |
 | [Miscellaneous](./miscellaneous/README.md) | Miscellaneous Subjects |

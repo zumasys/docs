@@ -6,8 +6,7 @@
 **Original ID:** 339204  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jQL: Using the keyword LIKE on a case insensitive file does not return correct result
 
@@ -30,3 +29,5 @@ would.
 ### Current Release Behavior
 
 The keyword LIKE now pattern matches correctly with case insensitive record data.
+
+Back to [5.7.1 Release Notes](./../README.md)

@@ -6,12 +6,9 @@
 **Original ID:** 336543  
 **Internal:** No  
 
-
-### Description
+## Description
 
 The jBC code translator does not handle literal @VMs in the code
-
-
 
 ### Previous Release Behavior
 
@@ -37,8 +34,8 @@ jcompile: Returned an error code of 8
 jsh ~ -->
 ```
 
-
-
 ### Current Release Behavior
 
 Embedded Value Marks are now handled correctly by the code translator.
+
+Back to [5.7.1 Release Notes](./../README.md)

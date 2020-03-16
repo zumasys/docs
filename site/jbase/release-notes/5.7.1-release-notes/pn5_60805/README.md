@@ -6,8 +6,7 @@
 **Original ID:** 340897  
 **Internal:** No  
 
-
-### Description
+## Description
 
 jQL: Sorting by default "inbuilt" ID column ignores justification
 
@@ -28,3 +27,5 @@ would always display its result left justified even if you added an @ID dictiona
 ### Current Release Behavior
 
 Use the formatting if there is a @ID dictionary or if there is a dictionary that matches the filename, if not keep the existing 14 left justified formatting.
+
+Back to [5.7.1 Release Notes](./../README.md)

@@ -6,22 +6,17 @@
 **Original ID:** 400141  
 **Internal:** No  
 
+## Description
 
-### Description
-
-Add **-D**option to the **BASIC**command to compile programs with a compiler directive
-
-
+Add **-D** option to the **BASIC** command to compile programs with a compiler directive
 
 ### Previous Release Behavior
 
-The **jcompile -D**option was not recognized by the **BASIC**command.
-
-
+The **jcompile -D** option was not recognized by the **BASIC** command.
 
 ### Current Release Behavior
 
-The **-D** option can now be used with the **BASIC**command giving the same functionality as with the **jcompile**command.
+The **-D** option can now be used with the **BASIC** command, providing the same functionality as with the **jcompile** command.
 
 For example, given the following program:
 
@@ -49,3 +44,5 @@ CATALOG bp test_compiler_directive
 ```
 
 the output would be **This is a debug build**.
+
+Back to [5.7.3 Release Notes](./../README.md)

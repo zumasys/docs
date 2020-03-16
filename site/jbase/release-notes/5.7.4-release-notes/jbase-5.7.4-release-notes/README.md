@@ -6,10 +6,9 @@
 **Original ID:** 459570  
 **Internal:** No  
 
-
 This release includes various internal bug fixes and the following enhancements and patches:
 
-# Patches
+## Patches
 
 - [PN5\_60894](./../pn5_60894) - **listf -xml** does not work on Linux
 - [PN5\_60899](./../pn5_60899) - New options for jbase\_agent: -d,-a,-J[dDpr]
@@ -28,3 +27,4 @@ This release includes various internal bug fixes and the following enhancements 
 - [PN5\_60917](./../pn5_60917) - Spooler: **SP-CREATE Fnn** creates form queues with the wrong queue number
 - [PN5\_60919](./../pn5_60919) - Licensing: Multi-session licenses limited to 255 sessions and up to 255 licenses per session
 
+Back to [5.7.4 Release Notes](./../README.md)
