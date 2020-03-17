@@ -6,18 +6,13 @@
 **Original ID:** 303794  
 **Internal:** No  
 
-
 ## Description
 
 Enhance jBASE error logging, includes the addition of the new **list-runtime-errors** command
 
-
-
 ## Previous Release Behavior
 
 The existing method of logging runtime errors to the **jbase\_error\_trace** file was insufficient for reporting and administrative use.
-
-
 
 ## Current Release Behavior
 
@@ -28,7 +23,7 @@ Invalid or uninitialised
 variable -- ZERO USED , ZERO USED
 ```
 
-To enable error logging, add the following option to the **Config\_EMULATE** file under the emulation section as given by the **JBCEMULATE**enviromment variable:
+To enable error logging, add the following option to the **Config\_EMULATE** file under the emulation section as given by the **JBCEMULATE** enviromment variable:
 
 ```
 log_runtime_errors = true
@@ -116,29 +111,29 @@ CALLSTACK               A            7            Call Stac                     
 You can programatically examine the **runtime-errors** file like this:
 
 ```
-001     INCLUDE JBC.h
-002     globaldir = SYSTEM(1012)  ;* The equivalent of $JBCGLOBALDIR
-003     filename = globaldir : DIR_DELIM_CH : "runtime-errors"
-004     OPEN filename TO FILEVAR ELSE STOP 201,filename         ;* Open the error log file
-005     SELECT FILEVAR  ;* Select the error log
-006     LOOP WHILE READNEXT key DO          ;* Read each item id from the error log
-007         READ rec FROM FILEVAR,key ELSE DEBUG      ;* Read the actual error item
-008 *
-009 * Display details from this error log
-010 *
-011         PRINT "Error occurred at ":
-012         PRINT OCONV(rec<1>,"U0ff0":@VM:"MTS"):" ":          ;* Display the time of the error
-013         PRINT OCONV(rec<1>,"U0ff1":@VM: "D4"):" ":          ;* Display the date of the error
-014         PRINT "By user ":rec<6>:" ":
-015         PRINT "Messag = ":rec<4>:" ":
-016         PRINT
-017     REPEAT
+INCLUDE JBC.h
+globaldir = SYSTEM(1012)  ;* The equivalent of $JBCGLOBALDIR
+filename = globaldir : DIR_DELIM_CH : "runtime-errors"
+OPEN filename TO FILEVAR ELSE STOP 201,filename         ;* Open the error log file
+SELECT FILEVAR  ;* Select the error log
+LOOP WHILE READNEXT key DO          ;* Read each item id from the error log
+    READ rec FROM FILEVAR,key ELSE DEBUG      ;* Read the actual error item
+*
+* Display details from this error log
+*
+    CRT "Error occurred at ":
+    CRT OCONV(rec<1>,"U0ff0" : @VM : "MTS") : " " :          ;* Display the time of the error
+    CRT OCONV(rec<1>,"U0ff1" : @VM : "D4") : " " :          ;* Display the date of the error
+    CRT "By user " : rec<6> : " " :
+    CRT "Messag = " : rec<4> : " " :
+    CRT
+REPEAT
 ```
 
 ***It is highly recommended to keep your customized error message file outside of the jBASE directory, $JBCRELEASEDIR. This can be accomplished with the [JBCERRFILE](./../../environment-variables/jbcerrfile) environment variable***
 
 * * *
 
-
-
 The original method of logging errors to the **jbase\_error\_trace** file, by setting the environment variable **JBASE\_ERRMSG\_TRACE=1**, can still be used. However, if **log\_runtime\_errors** is set in the Config\_EMULATE file then it will override this behavior.
+
+Back to [5.6.1 Release Notes](./../README.md)

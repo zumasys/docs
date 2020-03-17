@@ -1,4 +1,4 @@
-# jBASE 5.6 RELEASE NOTES
+# jBASE 5.6.0 Release Notes
 
 **Created At:** 6/9/2017 5:43:51 PM  
 **Updated At:** 11/21/2017 8:03:50 PM  
@@ -24,7 +24,7 @@ NATIVE DATA ENCRYPTION
 
 Get built-in data security and protection with the standard jBASE product for no additional cost. Native data encryption now makes it easy to meet increasing compliance requirements with granular encryption at the file level. Choose between file-level encryption and spooler-level encryption while maintaining the high performance your users expect.
 
-## COMPONENTS
+## Components
 
 - Net OBjEX Provides VB/.Net interoperability
 - jRemote & jRCS Provide Native jBASE API’s for accessing jBC functions remotely from C#, Java or .NET
@@ -55,7 +55,7 @@ Required for XML function support.
 - XERCES 3.0.1
 - XALAN 1.11.0
   
-## SUPPORTED PLATFORMS
+## Supported Platforms
 
 This specific Patch Release provides support for the following platforms:
 
@@ -88,9 +88,9 @@ jBASE 5.6 is brought to you by the following compilers:
 | RH Linux AS5 | gcc (GCC) 4.1.2 20080704 (Red Hat 4.1.2-44) |
 | Solaris 10 SPARC | Sun Studio 11 |
 
-## PATCHES
+## Patches
 
-All patches from previous jBASE releases have been included where appropriate in jBASE 5.6. All Patch details for the jBASE 5.6 release are provided from the links below.
+All patches from previous jBASE releases have been included where appropriate in jBASE 5.6. All Patch details for the jBASE 5.6 release are provided via the links below.
 
 jBASE 5.6 patch release includes Patches PN5\_50468 through PN5\_60512
 
@@ -128,11 +128,15 @@ jBASE 5.6 patch release includes Patches PN5\_50468 through PN5\_60512
 | [5\_60503](http://www.jbase.com/releasenotes/5.6.0/PN5_60503.html) | Stop the Z command from consuming memory unnecessarily |
 | [5\_60512](http://www.jbase.com/releasenotes/5.6.0/PN5_60512.html) | D3 compatibility enhancements: ! in PERFORM/EXECUTE and SYSTEM(19) |
 
-## NEW COMMANDS
+## New Commands
 
-## NEW JBC STATEMENTS
+-
 
-## CHANGES TO CURRENT BEHAVIOR
+## New jBC Statements
+
+-
+
+## Changes to current behaviour
 
 Modules
 
@@ -160,16 +164,16 @@ jBC Statements/Functions
 - CASING
 - DELETE
 
-## NEW MODULES
+## New Modules
 
 - jAgent: RESTful Services
 - Encryption
 
-## CHANGES TO INSTALLERS
+## Changes to Installers
 
 - Changes have been made to the jBASE Installers to simplify the install process, see Installation Guides
 
-## INSTALLATION GUIDES
+## Installation Guides
 
 [Windows Installation Guide](./../../administration/installation-guides/jbase-5.6-windows-installation-guide "Windows Installation Guide")
 

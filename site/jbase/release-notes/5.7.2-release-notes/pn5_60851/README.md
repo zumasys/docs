@@ -6,12 +6,9 @@
 **Original ID:** 365068  
 **Internal:** No  
 
-
-### Description
+## Description
 
 Compiler parsing issue a function definition [DEFFUN] has the same name as a DIM() or COMMON array
-
-
 
 ### Previous Release Behavior
 
@@ -23,13 +20,9 @@ DEFFUN xyz()
 x = xyz()       ;* intended function call
 ```
 
-
-
 ### Current Release Behavior
 
 Compiling the above code will produce an error similar to:
-
-
 
 ```
 jpp2: Error Variable xyz at line 1 in file test.b is both a function and a dimensioned array.
