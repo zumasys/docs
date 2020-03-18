@@ -6,7 +6,7 @@
 **Original ID:** 284366  
 **Internal:** No  
 
-## Description 
+## Description
 
 The **RAISE** function raises system delimiters in a string to the next highest delimiter. It takes the general form:
 
@@ -35,3 +35,5 @@ AttributeDelimitedVariable = RAISE(ValuemarkDelimitedVariable)
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

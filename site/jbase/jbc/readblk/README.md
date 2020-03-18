@@ -52,3 +52,5 @@ If requiring character data convert the input variable from ‘binary/latin1’ 
 It is recommended that the **READBLK**/[WRITEBLK](./../writeblk) statements not be used when executing in International Mode. Similar functionality can be obtained via the [READSEQ](./../readseq)/[WRITESEQ](./../writeseq) statement, which can be used to read/write characters a line at a time from a file.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

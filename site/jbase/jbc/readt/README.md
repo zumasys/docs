@@ -42,9 +42,11 @@ LOOP
     READT TapeRec FROM 5 ELSE
     Reason = SYSTEM(0)
     IF Reason = 2 THEN BREAK ;* done
-        CRT "Error"; STOP
+        CRT "Error" ; STOP
     END
 REPEAT
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

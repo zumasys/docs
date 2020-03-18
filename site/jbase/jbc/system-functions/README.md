@@ -33,7 +33,9 @@ The following system functions are supported by jBASE:
 - **SYSTEM(16)** Return current [PERFORM/EXECUTE](./../execute) level
 - **SYSTEM(17)** Return stop code of child process
 - **SYSTEM(18)** Return port number or JBCPORTNO
-- **SYSTEM(19)** Return login name or JBASICLOGNAME. If the **system\_19\_timedate**emulation option is set then returns the number of seconds since midnight December 31, 1967. If **system\_19\_timedate\_unique** emulation option is set then a suffix is appended if it is called more than once per second, effectively returning a unique value.
+- **SYSTEM(19)** Return login name or JBASICLOGNAME. 
+  - If the **system\_19\_timedate** emulation option is set then returns the number of seconds since midnight December 31, 1967. 
+  - If **system\_19\_timedate\_unique** emulation option is set then a suffix is appended if it is called more than once per second, effectively returning a unique value.
 - **SYSTEM(20)** Returns last spooler file number created
 - **SYSTEM(21)** Returns port number or JBCPORTNO
 - **SYSTEM(22)** Reserved
@@ -197,3 +199,5 @@ status = "Error!! Status unknown"
 - **SYSTEM(2092)** Return current prompt character(s) (D3 emulation)
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

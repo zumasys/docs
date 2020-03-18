@@ -71,3 +71,5 @@ Since **Listvar1** has the value 0, select list number 0 is used to hold the lis
 However, the CLEAR statement also initializes **Listvar2** to zero, so the second SELECT overwrites the first list.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

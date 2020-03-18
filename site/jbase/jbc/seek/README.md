@@ -13,7 +13,7 @@ The **SEEK** statement is used to move the file pointer by an offset specified i
 The statement takes the general form:
 
 ```
-SEEK file.variable [ , offset [ , relto] ] 
+SEEK file.variable [ , offset [ , relto] ]
 {THEN statements [ELSE statements] | ELSE statements}
 ```
 
@@ -50,3 +50,5 @@ END
 See also: [OPENSEQ](./../openseq), [READSEQ](./../readseq), and [WRITESEQ](./../writeseq) statements.
 
 Go back to[jBASE BASIC](./../jbase-basic-programmers-reference-guide).
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

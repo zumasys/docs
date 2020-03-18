@@ -42,3 +42,5 @@ The **SORT** is achieved by the quick sort algorithm, which sorts in situ, and i
 When using the **SORT** function in International Mode, the function will use the currently configured locale to determine the rules by which each string is considered less than or greater than the other for sort purposes.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

@@ -38,3 +38,5 @@ to display: 84 71 71
 The **SEQ** function will return numeric values beyond 255 for UTF-8 byte sequences representing any Unicode values above 0x000000ff.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

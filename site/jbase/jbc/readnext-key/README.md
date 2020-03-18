@@ -29,7 +29,7 @@ READNEXT KEY index.key{,record.key{,vmcount}} {FROM select-def} THEN/ELSE
 
 ### Example
 
-The following code shows a file and index being created, a simple index just on attribute 1. The index is defined as multi-valued. Then 3 records are written to the file. The file is then interrogated with the OPENINDEX and READNEXT KEY statements. As the index is defined as an ascending left justified sort on attribute 1, the values returned with the READNEXT will be in sorted order of attribute 1.
+The following code shows a file and index being created, a simple index just on attribute 1. The index is defined as multi-valued. Then 3 records are written to the file. The file is then interrogated with the **OPENINDEX** and **READNEXT KEY** statements. As the index is defined as an ascending left justified sort on attribute 1, the values returned with the **READNEXT** will be in sorted order of attribute 1.
 
 ```
 * Create the file and index definition.
@@ -73,3 +73,5 @@ Jim customer-3 1
 The index is built on sorted attribute 1 and so the index keys (the names of the customers) are sorted in alphabetical order. They are then sub-sorted by record key and finally by the multi-value number that they existed in.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

@@ -28,3 +28,5 @@ CRT SQRT (44)
 to display 6.63, which is the square root of 44 to 2 decimal places.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

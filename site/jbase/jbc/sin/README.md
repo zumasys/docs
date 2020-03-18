@@ -39,3 +39,5 @@ CRT SIN(39)
 to display the sine of 39 to two decimal places.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

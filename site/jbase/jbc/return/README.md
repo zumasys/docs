@@ -35,3 +35,5 @@ Where:
 The second form of the **RETURN** statement is used to return a value from a user-written function. This form can only be used in a user-written function.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

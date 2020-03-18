@@ -23,9 +23,11 @@ Where **expression** may evaluate to any valid data type.
 An example of use is as:
 
 ```
-PROCWRITE "Success":CHAR (254):"0"
+PROCWRITE "Success" : CHAR(254) : "0"
 ```
 
 See also: [PROCREAD](./../procread)
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

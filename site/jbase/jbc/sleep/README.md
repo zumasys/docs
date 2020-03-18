@@ -46,3 +46,5 @@ SLEEP 2.5
 See also: [MSLEEP](./../msleep).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

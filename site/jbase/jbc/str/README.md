@@ -6,8 +6,7 @@
 **Original ID:** 278839  
 **Internal:** No  
 
-
-# Description
+## Description
 
 The **STR** function allows the duplication of a string a number of times. The function generally takes the form:
 
@@ -28,3 +27,5 @@ x999 = STR("x", 999)
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

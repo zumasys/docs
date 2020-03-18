@@ -48,8 +48,10 @@ or
 ```
 OPEN "INVENTORY" TO invFvar ELSE ABORT 201,"Cannot open the INVENTORY file"
 IF RECORDLOCKED (invFvar,invId) = -2 THEN
-    CRT "Inventory record ":invId:" is locked by port ":SYSTEM(43)
+    CRT "Inventory record ":invId:" is locked by port " : SYSTEM(43)
 END
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

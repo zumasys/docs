@@ -29,3 +29,5 @@ The **SENDX** syntax requires a specified **THEN** or **ELSE** clause, or both. 
 See also: [SEND](./../send).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

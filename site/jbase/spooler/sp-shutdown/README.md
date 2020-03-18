@@ -8,7 +8,7 @@
 
 ## Description
 
-This command shuts down all the jBASE printer daemons. This command requires Administrator privileges on Windows NT or root privileges on UNIX. The command is as:
+This command shuts down all the jBASE printer daemons. This command requires Administrator privileges on Windows or root privileges on UNIX. The command is as:
 
 ```
 SP-SHUTDOWN

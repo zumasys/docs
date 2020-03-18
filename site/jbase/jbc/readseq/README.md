@@ -38,3 +38,5 @@ READSEQ VAR_LINE FROM FILE_VAR THEN CRT VAR_LINE
 to open a "report file" and read the first line from it.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

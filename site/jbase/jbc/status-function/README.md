@@ -36,3 +36,5 @@ If used after a [READT](./../readt), [REWIND](./../rewind), [WEOF](./../weof), o
 The documentation that accompanied drive unit for may offer information about interpreting the values returned by the **STATUS** function.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

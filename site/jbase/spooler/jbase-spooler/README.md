@@ -12,16 +12,15 @@
 <badge text='jbase spooler' vertical='middle' />
 <badge text='spooler' vertical='middle' />
 
-
 | **The jBASE Spooler** |  |
 | --- | --- |
-| [INTRODUCTION](./../jbase-spooler-introduction) | Introduction to the jBASE spooler. |
-| [INITIALIZATION](./../spooler-initialization) | Initializing the jBASE spooler. |
-| [STRUCTURE](./../spooler-structure) | How the jBASE Spooler works |
-| [SECURITY](./../spooler-security) | Spooler security mechanisms. |
-| [JOB NUMBERS](./../print-job-numbers) | Assigning and determining print job numbers. |
+| [Introduction](./../jbase-spooler-introduction) | Introduction to the jBASE spooler. |
+| [Initialization](./../spooler-initialization) | Initializing the jBASE spooler. |
+| [Structure](./../spooler-structure) | How the jBASE Spooler works |
+| [Security](./../spooler-security) | Spooler security mechanisms. |
+| [Job Numbers](./../print-job-numbers) | Assigning and determining print job numbers. |
 | [jlp](./../jlp) | jBASE equivalent of 'lp' |
-| [JSP\_SCAN](./../jsp_scan) | Scan and repair utility. |
+| [jsp\_scan](./../jsp_scan) | Scan and repair utility. |
 | [LISTPEQS](./../listpeqs) | Displays print job information. |
 | [LISTPTR](./../listptr) | Displays form queue information. |
 | [PORT-DESPOOL](./../port-despool) | Despools print jobs to a printer or a terminal. |
@@ -63,3 +62,5 @@
 | [SP-TAPEOUT](./../sp-tapeout) | Requeues spooled print jobs on a tape to the current formqueue assignment. |
 | [SP-TRANSLATE](./../sp-translate) | Changes the translation table entry for the specified formqueue. |
 | [SP-TYPE](./../sp-type) | Assigns a formtype to a formqueue. |
+
+Back to [Knowledgebase](./../../README.md)

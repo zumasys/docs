@@ -24,3 +24,5 @@ If a timeout value is specified and the suspended process is not woken by a [WAK
 If executing a [WAKE](./../wake) statement for the process before the process executes the **PAUSE** statement then the **PAUSE** will be ignored and processing will continue until a subsequent **PAUSE** statement.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

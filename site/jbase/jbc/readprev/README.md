@@ -44,3 +44,5 @@ the table shows what happens if [READNEXT](./../readnext)s and **READPREV**s on 
 | READPREV key ELSE | key becomes "Dave" | First key in list |
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

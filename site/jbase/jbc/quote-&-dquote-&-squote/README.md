@@ -32,3 +32,5 @@ Where **expression** may be any expression that constitutes a valid string.
 The **QUOTE** and **DQUOTE** functions will enclose the value in double quotation marks. The **SQUOTE** function will enclose the value in single quotation marks.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

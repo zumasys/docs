@@ -34,7 +34,7 @@ END
 
 to output for instance:
 
-```
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <mycustomer>
 <firstname>Clive</firstname>
@@ -43,3 +43,5 @@ to output for instance:
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

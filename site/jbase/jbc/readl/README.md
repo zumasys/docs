@@ -26,7 +26,6 @@ Where:
 - The **expression** should evaluate to a valid record key for the file ,
 - If the **SETTING** clause is specified and the read fails, **setvar** will be set to one of the [these values](./../incremental-file-errors).
 
-
 If **ON ERROR** is specified, the statements following the **ON ERROR** clause will be executed, except for Incremental File error 128.
 
 ## Note
@@ -40,7 +39,7 @@ If **ON ERROR** is specified, the statements following the **ON ERROR** clause w
 > [READ](./../read) takes no lock at all and does not respect any lock taken with [READU](./../readu) or **READL**. In other words, a READ can be performed at any time and on any record regardless of any existing locks.
 >
 > Due to limitations on Windows platforms, the **READL** statement behaves the same as the [READU](./../readu) statement, in other words they both take exclusive locks.
-> 
+>
 > If the record could not be read because another process already had a [READU](./../readu) lock on the record then one of two actions is taken. If the **LOCKED** clause was specified in the statement then the statements dependent on it are executed. If no **LOCKED** clause was specified then the statement blocks (hangs) until the other process releases the lock. The SYSTEM (43) function can be used to determine which port has the lock.
 >
 > If the statement fails to read the record then any statements associated with the **ELSE** clause will be executed. If the statement successfully reads the record then the statements associated with any **THEN** clause are executed. Either or both of **THEN** and **ELSE** clauses must be specified with the statement.
@@ -56,3 +55,5 @@ If **ON ERROR** is specified, the statements following the **ON ERROR** clause w
 > See also: [WRITE](./../write), [WRITEU](./../writeu), [MATWRITE](./../matwrite), [MATWRITEU](./../matwriteu), [RELEASE](./../release), and [DELETE](./../delete).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

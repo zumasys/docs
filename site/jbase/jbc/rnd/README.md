@@ -35,3 +35,5 @@ to display 20 random numbers in the inclusive range 0 to 99.
 See also: [ABS](./../abs).
 
 Go back to  [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

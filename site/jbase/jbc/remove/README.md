@@ -50,3 +50,5 @@ REMOVE EXSTRING FROM REC SETTING DELIM
 The first time **REMOVE** is used, EXSTRING will contain "Field 1" and DELIM will contain xFE. The second time REMOVE is used, EXSTRING will contain "Value 1" and DELIM will contain xFD.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

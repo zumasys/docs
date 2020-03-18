@@ -29,3 +29,5 @@ The **SEND** statement will append a newline sequence to the final output expres
 See also: [SENDX](./../sendx) .
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
