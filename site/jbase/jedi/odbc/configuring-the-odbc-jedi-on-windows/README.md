@@ -34,13 +34,14 @@ For the configuration example below, we will be configuring an MSSQL *ODBC*drive
 8.  Click on **Add**
 
 ![configuring-the-odbc-jedi-on-windows: 1574359914331-1574359914331](./1574359914331-1574359914331.png)  
-9. Select **SQL Server Native Client [*version*]** and click on **Finish**
+9. Select **SQL Server Native Client *11.0*** and click on **Finish**
 
 ![configuring-the-odbc-jedi-on-windows: 1574268421531-1574268421531](./1574268421531-1574268421531.png)
 
 ## Note #1
 
-For SQL Server, the **SQL Server Native Client [*version*]** must be the selected driver due to its ability to support Multiple Active Statements (MAS).
+For SQL Server, the **SQL Server Native Client *11.0*** must be the selected driver due to its ability to support Multiple Active Statements (MAS). The installer for that can be downloaded [here](/https://docs.microsoft.com/en-us/sql/connect/odbc/download-odbc-driver-for-sql-server?view=sql-server-ver15).
+
 10. Fill out the fields to define the Microsoft SQL Server Native Client driver
 
 ![configuring-the-odbc-jedi-on-windows: 1574360349136-1574360349136](./1574360349136-1574360349136.png)  
