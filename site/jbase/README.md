@@ -18,7 +18,6 @@
 | [Accounts](./accounts/README.md) | How accounts are supported in jBASE |
 | [Background Processing](./background-processing/README.md) | Background processing in jBASE |
 | [Conversion Processing](./conversion-processing/README.md) | Conversions for jQL and jBC |
-| [Conv Modifer](./conv/README.md) | CONV modifier for jQL |
 | [Database Drivers](./database-drivers/README.md) | How jBASE provides database independence |
 | [Daemons](./daemons/README.md) | Daemons used by jBASE |
 | [Editor](./editor/README.md) | Editors provided by jBASE |
@@ -26,7 +25,6 @@
 | [Emulation](./emulation/README.md) | Emulation settings |
 | [Environment Variables](./environment-variables/README.md) | Setting environment variables |
 | [Files](./files/README.md) | File support |
-| [Fmt Modifier](./fmt/README.md) | FMT modifier for jQL |
 | [Indexes](./indexes/README.md) | Support for secondary indexes |
 | [Internationalization](./internationalization/README.md) | Settings for internationalization |
 | [jSHELL](./jshell/README.md) | The jBASE command line |
