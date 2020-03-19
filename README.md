@@ -86,6 +86,8 @@ To run the application locally:
 - Peter Falson ([@pfalson](https://github.com/pfalson))
 - Mike Street ([@mikes-zum](https://github.com/mikes-zum))
 - Pete Schellenbach ([@pschellenbach](https://github.com/pschellenbach))
+- Daniel Klein ([@danielkleinad](https://github.com/danielkleinad))
+- Patrick Payne ([@patrickp](https://github.com/patrickp))
 
 ## Todo List
 
