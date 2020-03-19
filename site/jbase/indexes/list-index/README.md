@@ -37,7 +37,6 @@ jsh--> LIST-INDEX -v CUSTOMERS (P
 
 ### Breakdown of MAchine Readable format
 
-
 | Tab Number | Description | [INDICES()](./../introduction-to-secondary-indexes) Attribute reference |
 | --- | --- | --- |
 | 1 | Index Name | &lt;0&gt; |

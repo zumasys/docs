@@ -33,7 +33,7 @@ The following sections will describe all the different components and behaviors 
 
 As jBASE starts up it will check the environment and search for any JSON config files, this is processed in the following order.
 
-- No JSON, no environment, gets a warning message and a limited default environment.
+- No JSON, no environment, generates a warning message and provides a limited default environment.
 - No JSON, but has environment configured, nothing has changed, use environment
 - Has JSON, but has environment configured, JSON overrides
 - Has JSON, no environment configured, JSON overrides
@@ -52,9 +52,9 @@ When a new jBASE sessions is starting up, the following is the sequence of where
 
 - System
 - User
-- $JBASE\_JSON\_REPRO.
+- $JBASE\_JSON\_REPO.
 
-Having nothing configured will give you a default environment.
+Having nothing configured will provide a default environment.
 
 ## Note
 

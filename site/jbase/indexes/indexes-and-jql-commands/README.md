@@ -36,7 +36,7 @@ LASTNAME
 010 20
 ```
 
-and there is need to select all customers in that file whose last name equals "COOPER]". 
+and there is need to select all customers in that file whose last name equals "COOPER]".
 
 The jQL statement would be :
 

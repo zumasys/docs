@@ -18,6 +18,6 @@ This section describes where jBASE is installed and how it should behave.
 | md | This is an optional **MD** file, also known as **VOC** on some MV platforms (**JEDIFILENAME\_MD**). |
 | system | This is the **SYSTEM** file used to define the locations of accounts (**JEDIFILENAME\_SYSTEM**). |
 | default\_home | Default home directory, i.e. the starting directory/account when starting jBASE (**HOME**). |
-| no\_admin\_mode | if you are just using a single session to hammer in code then set this to **true**, for multiple users set it to **false** so that shared memory is accessible to all users (Windows only) (**JBASE\_ENV\_DEVELOPER\_MODE**). |
+| no\_admin\_mode | If you are just using a single session to enter code then set this to **true**, for multiple users set it to **false** so that shared memory is accessible to all users (Windows only) (**JBASE\_ENV\_DEVELOPER\_MODE**). |
 
 Back to [Profiles](./../jbase-profiles)

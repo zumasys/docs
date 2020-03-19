@@ -18,9 +18,7 @@ XML.ADD.TEXT
 XML.ADD.NODE  
 XML.GET.TAG.VALUE
 
-NOTE: most of the XML functions have issues casting between strings and wchars,
-
-not a big deal to fix, would be best if we get together and have a cunning plan on the functionality before starting.
+NOTE: most of the XML functions have issues casting between strings and wchars, not a big deal to fix, would be best if we get together and have a cunning plan on the functionality before starting.
 
 1.1. READXML
 
@@ -90,8 +88,9 @@ zzz = XML.GET.TAG.VALUE(xml_string, "details/detail/address")
 
 The READXML statement reads a record from a file using the style sheet held in @READXML to transform the data into XML format.
 
-```
 @READXML
+
+``` xml
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <xsl:template match="/">
@@ -125,8 +124,9 @@ For this example without worrying about what the template does, the key bit to l
 
 The WRITEXML statement writes a dynamic array to a hashed file in XML format, using a style sheet from the DICT.
 
-```
 @WRITEXML
+
+``` xml
 <?xml version="1.0"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.0">
 <xsl:template match="mycustomer"><array><xsl:apply-templates/></array></xsl:template>

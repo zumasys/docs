@@ -5,6 +5,7 @@
 [account-restore](./account-restore)  
 [account-save](./account-save)  
 [magres-utility](./magres-utility)  
+[multiple-account-restore](./multiple-account-restore)  
 [restore-all](./restore-all)  
 [restoreadds](./restoreadds)  
 [restoring-data](./restoring-data)  

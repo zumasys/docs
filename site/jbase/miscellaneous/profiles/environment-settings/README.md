@@ -8,7 +8,7 @@
 
 ## Description
 
-This section allows any additional environment variables needed to be included, it's not necessarily just used for jBASE. You can add any additional variables your application currently needs in this section.
+This section allows any additional environment variables that need to be included. It is not necessarily just used for jBASE. You can add any additional variables your application currently needs in this section.
 
 ``` json
 "environment": {

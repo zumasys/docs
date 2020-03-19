@@ -44,6 +44,8 @@ would place you at the beginning of the index.
 
 This will work for descending numeric index keys as well.
 
+### Example
+
 Consider the following records written to a file with a simple left justified index created on a multi-valued attribute 1:
 
 | Record Key | Data in attribute 1 |
@@ -56,18 +58,20 @@ The following index data will now have been created for the above data:
 
 | Index key | Index data |
 | --- | --- |
-| CLARK | Key "B" at multi-value 2 |
+| CLARK  | Key "B" at multi-value 2 |
 | COOPER | Key "A" at multi-value 1 |
-| <br> | Key "A" at multi-value 4 |
-| <br> | Key "A" at multi-value 5 |
-| <br> | Key "B" at multi-value 1 |
-| JONES | Key "A" at multi-value 3 |
-| <br> | Key "C" at multi-value 1 |
-| SMITH | Key "A" at multi-value 2 |
+|        | Key "A" at multi-value 4 |
+|        | Key "A" at multi-value 5 |
+|        | Key "B" at multi-value 1 |
+| JONES  | Key "A" at multi-value 3 |
+|        | Key "C" at multi-value 1 |
+| SMITH  | Key "A" at multi-value 2 |
 
 The following are examples of jBC code using the above data and the resultant screen output along with comments on the action.
 
-### Example 1 - Select the entire index
+### Example 1
+
+#### Select the entire index
 
 ```
 OPENINDEX filename,"INDEX1" TO index.var ELSE STOP 201,"INDEX1 in ":filename
@@ -89,18 +93,20 @@ REPEAT
 
 Note that the order of the record keys (B,A,A,A,B,A,C,A) is identical to the table of index information shown.
 
-### Example 2 - SELECT the index but only include names "JONES"
+### Example 2
+
+#### SELECT the index but only include names "JONES"
 
 ```
 OPENINDEX filename,"INDEX1" TO index.var ELSE
-     STOP 201,"INDEX1 in ":filename
- END
- SELECT index.var ATKEY "JONES"
- LOOP
-     READNEXT KEY index.key,record.key ELSE index.key = "
-     WHILE index.key EQ "JONES" DO
-         CRT index.key,record.key
-     REPEAT
+    STOP 201,"INDEX1 in ":filename
+END
+SELECT index.var ATKEY "JONES"
+LOOP
+    READNEXT KEY index.key,record.key ELSE index.key = "
+    WHILE index.key EQ "JONES" DO
+        CRT index.key,record.key
+    REPEAT
 
  jsh. test2
  JONES A
@@ -109,7 +115,9 @@ OPENINDEX filename,"INDEX1" TO index.var ELSE
 
 In the above example we exit the loop once we run out of names of "JONES". Only two of these are present, the first in record key "A" and the second in record key "C".
 
-### Example 3 - SELECT the index starting at "JONES" but use READPREV to find all the names that precede JONES (i.e. do NOT include JONES)
+### Example 3
+
+#### SELECT the index starting at "JONES" but use READPREV to find all the names that precede JONES (i.e. do NOT include JONES)
 
 ```
 OPENINDEX filename,"INDEX1" TO index.var ELSE STOP 201,"INDEX1 in ":filename
