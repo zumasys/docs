@@ -8,6 +8,7 @@
 
 The following methods can be utilized from the **$file** class:
 
+- [$file::fullpath()](../class-method-$filefullpath()/README.md)
 - $file::getstats()
 - $file::getgrouplocks()
 - $file::takegrouplocks()
