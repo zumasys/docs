@@ -1,4 +1,4 @@
-# Universal Coordinated Time 
+# Universal Coordinated Time
 
 **Created At:** 8/17/2018 9:31:01 AM  
 **Updated At:** 5/16/2019 6:14:14 PM  
@@ -32,3 +32,5 @@ CRT "UTC2 = ":UTC2
 ```
 
 One important aspect to remember is that the UTC is often in the base time of the operating system without any time zone applied. For example on Unix systems the time and date of the system may be set in UTC, but then individual accounts may have different time zones applied. Thus an index  created at what appears to be a time of say 10:40:29 then this could actually be a time of 11:40:29 but with a time zone of minus one hour applied.
+
+Back to [Indexes](./../README.md)

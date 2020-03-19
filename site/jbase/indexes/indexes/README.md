@@ -6,8 +6,6 @@
 **Original ID:** 339406  
 **Internal:** No  
 
-
-
 | <!----> | <!----> |
 | --- | --- |
 | [Overview](./../introduction-to-secondary-indexes) | Indexes overview. |
@@ -21,7 +19,6 @@
 | [Appendix B](./../indexes-appendix-b) | Universal Co-ordinated Time |
 | [Secondary Index Examples](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/adv22_INDEXES_EXAMPLES.htm) | Traversing indexes. |
 
-
 | Command| Description |
 | --- | --- |
 | [CREATE-INDEX](./../create-index) | Define and create indexes. |
@@ -32,3 +29,4 @@
 | [REBUILD-INDEX](./../rebuild-index) | Rebuild indexes. |
 | [VERIFY-INDEX](./../verify-index) | Verify index integrity. |
 
+Back to [Indexes](./../README.md)

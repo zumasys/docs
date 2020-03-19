@@ -32,14 +32,12 @@ The keywords by,by-al,by-dl,by-ar and by-dr are all case insensitive.
 - BY-AR means the sort sequence is ascending right justified.
 - BY-DR means the sort sequence is descending right justified.
 
-
 When a sort sequence is described as right justified then this takes on the same meaning as it does in jQL commands such as LIST and SELECT, i.e. it assumes numeric data. Therefore right justified fields will be sorted numerically and left justified fields sorted textually. In the event that a right justified field contains a null string or non-numeric data, then the sort sequence will be the same as jQL command and have the following precedence:
 
 - Fields that contain entirely numeric values
 - Fields that are an empty zero length string
 - Fields that begin with a numeric value and then are followed by non-numeric
 - Fields that are one or more bytes and are not numeric.
-
 
 The "sort-def" definition mentioned earlier is the description of how an individual sort sequence is defined. The "sort-def" can be one or more extract definitions , each definition being delimited by a colon. Each sort-def definition is concatenated to each other. For example:
 
@@ -52,7 +50,6 @@ means the index key is made up as follows:
 - attribute 3 from the record concatenated with attribute 4 from the record concatenated with attribute 5 from the record concatenated with a 0xff delimiter between the sort sequence
 - attribute NN from the record, where NN is described the in DICTionary item DATE.
 
-
 When the index key is added to the index data, the key will be sorted , in ascending left justified sequence, by the first sort sequence , attributes 3 , 4 and 5. If there are duplicate keys then it is further sorted in descending right justified sequence by attribute NN from the record where NN is described in the DICTionary item.
 
 Note that when using DICTionary items to describe what attribute number to extract the index definition simply extracts the attribute number and forgets the DICTionary name. This way the index remains logically consistent even if the DICT record is later amended. The "sort-def" definition can be more than a simple attribute number. It can be any of the following types.
@@ -62,7 +59,6 @@ Note that when using DICTionary items to describe what attribute number to extra
 - OCONV(field , "code") - causes an output conversion to be applied to the defined "field" The conversion to apply is any that can be applied with the OCONV function in jBC code. The "field" is defined using one of the above mentioned definitions of "Numeric" or "Numeric.Numeric".
 - CALL(field,"subname") - allows a normal jBC subroutine to be called.
 - "STRING" -  a string constant may be specified.
-
 
 When an index definition is created using the create-index command, a description of how the index key is to be built must be specified. Below is an example of a basic index definition such that the index key is created from attribute 4 of the record:
 
@@ -92,3 +88,4 @@ In this scenario, attribute 3 will be extracted from the record and passed to a 
 - The use of **by-ar** further shows that all index keys (in this case non- null keys) will be stored in ascending right justified fashion, e.g. as a numeric sort.
 - The use of the **-lD** option shows that when an enquiry is made of the index via query-index , key-select or the jQL commands such as LIST or SELECT, then the string to search for will first of all be converted using an input conversion of type "D". This is primarily used so that these commands can use date (or times) in external format (e.g. 23-jul-1970) but will be compared numerically as internal values against the index data.
 
+Back to [Indexes](./../README.md)

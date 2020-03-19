@@ -10,15 +10,13 @@
 <badge text='indexing in jbc' vertical='middle' />
 <badge text='file indexing' vertical='middle' />
 
-## Description 
+## Description
 
 Once a index has been created and built, it is available for use it  with statements and functions within a jBC source. This may be done using the INDICES function as:
 
 ```
 INDICES(filevar { , index-name } )
 ```
-
-
 
 This function has a dual purpose. In its first invocation whereby a single parameter is passed, assumed to be a file descriptor, will return a dynamic array of all the index names associated with the file. In its second invocation two parameters are passed, the first being a file variable again and the second the name of an index. In this case the return value from the function will be a dynamic array containing information about the specified index. In the second invocation, the dynamic array has the following attributes:
 
@@ -38,7 +36,6 @@ This is the time in UTC format that an index definition was last modified. See a
 A numeric of 0 or 1. If 1 is returned it shows the -d option was used when the index was created and so when the index is being built it can be debugged in the normal way using the jBC debugger.
 - **NULL flag.**
 
-
 A numeric of 0 or 1. If 1 is returned is shows that null index keys will be ignored.
 
 - **CASE flag.**
@@ -49,9 +46,6 @@ A numeric of 0 or 1. If a 1 is returned it shows updates will be done on a multi
 A numeric of 0 or 1. If a 1 is returned it shows the index data is in synchronization with the file data and so the index can be used. If a 0 is returned it shows the index data is out of step and needs to be rebuilt with the rebuild-index command.
 - **VALUE MAX count**
 If the (Vnn option was used on a create-index command, this will limit us to the first nn values per attribute. This value is shown here. A value of 0 shows the option not in effect.
-
-
-
 
 ### Example
 
@@ -80,4 +74,4 @@ NEXT index.next
 
 Note that Attribute 12 returned with the INDICES function shows any option passed to create-index with the (Vnn) option and is therefore a count on the limit on the number of values extracted per attribute to create an index entry. By default this value is 0.
 
-
+Back to [Indexes](./../README.md)

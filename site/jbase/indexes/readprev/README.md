@@ -6,7 +6,6 @@
 **Original ID:** 334504  
 **Internal:** No  
 
-
 ## Description
 
 This statement is syntactically similar to the READNEXT but it works in reverse order. There are some considerations when the direction is changed from a forward search to a backward search or vice-versa.
@@ -19,8 +18,6 @@ During a change of direction from forward (READNEXT) to backward (READPREV) then
 
 When the select list is exhausted it will either point one before the start of the select list (if READPREVs have been executed) or one past the end of the select list (if READNEXTs have been executed). Thus in the event of a change of direction the very first or very last index key or record key will be used.
 
-
-
 ### Example
 
 Consider the following jBC code
@@ -32,19 +29,17 @@ SELECT list
 
 The following table shows what happens if you do READNEXTs and READPREVs on the above code and the reasons for it.
 
-
-| Statement executed<br> | Result of operation<br> | Comment<br> |
+| Statement executed | Result of operation | Comment |
 | --- | --- | --- |
-| READNEXT key ELSE<br> | key becomes "DAVE"<br> | First key in list<br> |
-| READNEXT key ELSE<br> | key becomes "GREG"<br> | Second key in list<br> |
-| READPREV key ELSE<br> | key becomes "DAVE"<br> | Reversed so take preceding key<br> |
-| READPREV key ELSE<br> | Take ELSE clause<br> | The next key ptr exhausted at start.<br> |
-| READNEXT key ELSE<br> | key becomes "DAVE"<br> | First key in list<br> |
-| READNEXT key ELSE<br> | key becomes "GREG"<br> | Second key in list<br> |
-| READNEXT key ELSE<br> | key becomes "JIM"<br> | Final key. Next key ptr exhausted.<br> |
-| READPREV key ELSE<br> | key becomes "JIM"<br> | Reversed but list exhausted.<br> |
-| READPREV key ELSE<br> | key becomes "GREG"<br> | Second key in list<br> |
-| READPREV key ELSE<br> | key becomes "DAVE"<br> | First key in list<br> |
+| READNEXT key ELSE | key becomes "DAVE" | First key in list |
+| READNEXT key ELSE | key becomes "GREG" | Second key in list |
+| READPREV key ELSE | key becomes "DAVE" | Reversed so take preceding key |
+| READPREV key ELSE | Take ELSE clause | The next key ptr exhausted at start. |
+| READNEXT key ELSE | key becomes "DAVE" | First key in list |
+| READNEXT key ELSE | key becomes "GREG" | Second key in list |
+| READNEXT key ELSE | key becomes "JIM" | Final key. Next key ptr exhausted. |
+| READPREV key ELSE | key becomes "JIM" | Reversed but list exhausted. |
+| READPREV key ELSE | key becomes "GREG" | Second key in list |
+| READPREV key ELSE | key becomes "DAVE" | First key in list |
 
-
-
+Back to [Indexes](./../README.md)

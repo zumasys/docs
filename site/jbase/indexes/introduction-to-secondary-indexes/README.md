@@ -40,3 +40,5 @@ jBASE has a number of command to help you create and maintain these secondary in
 | [verify-index](./../verify-index)| verify the integrity of an index. |
 
 All the commands share a similar syntax. A help screen can be obtained using the -h option on all the commands. All the commands have both lower and upper case versions, for example both "create-index" and "CREATE-INDEX" are provided for.
+
+Back to [Indexes](./../README.md)

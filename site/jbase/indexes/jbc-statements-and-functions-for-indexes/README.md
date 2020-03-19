@@ -14,3 +14,5 @@
 | [READPREV](./../../jbase-basic-%28jbc%29/readprev)| Move backwards through an index. |
 | [SELECT](./../select-%28with-index%29)| Select an index variable.|
 | [SELECTINDEX](./../../jbase-basic-%28jbc%29/selectindex)| Creates an array of record keys based on the specified index.|
+
+Back to [Indexes](./../README.md)

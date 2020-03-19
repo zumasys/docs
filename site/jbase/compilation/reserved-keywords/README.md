@@ -6,8 +6,7 @@
 **Original ID:** 283720  
 **Internal:** No  
 
-The following keywords are required by the jBASE compiler. To be valid in a jBC program, the keywords must be upper-case.
-
+The following keywords are required by the jBASE compiler.
 | <!----> |
 | --- |
 | ABORT ABS ACOS ADDS ALPHA AND ANDS APPEND APPENDING ARG ASCII ASIN ASSIGNED AT ATAN ATKEY ATVAR |

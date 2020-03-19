@@ -1,14 +1,12 @@
 # CREATE-INDEX
 
-
 **Created At:** 8/18/2018 7:06:26 PM  
 **Updated At:** 9/26/2018 10:45:15 PM  
 **Original Doc:** [create-index](https://docs.jbase.com/48152-indexes/create-index)  
 **Original ID:** 335208  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 The CREATE-INDEX command creates indexes on jBase files
 
@@ -18,25 +16,23 @@ create-index -Options filename indexname index-definition
 
 Where Options can be:
 
-
-| Option<br> | Description<br> |
+| Option | Description |
 | --- | --- |
-| -a<br> | Defer building the index (See REBUILD-INDEX)<br> |
-| -c<br> | Make the index case insensitive<br> |
-| -d<br> | Debug of the index code allowed<br> |
-| -lcode<br> | Index Lookup Code<br> |
-| -n<br> | Any indexes that produce null strings are ignored<br> |
-| -o<br> | Overwrite any existing definition<br> |
-| -s<br> | Write out a pseudo source files<br> |
-| -v<br> | Verbose display, display one period for each 1000 records rebuilt<br> |
-| -m<br> | Supress multivalue index build use multivalues as single key<br> |
-| -N<br> | Synonymous with -n option<br> |
-| -S<br> | Silent operation<br> |
-| -M<br> | Synonymous with -m<br> |
-| -Vnn<br> | Limit multivalue used in index key. e.g. V0 = M option<br> |
-| -w<br> | Permanent Write Mode (default)<br> |
-| -X<br> | Skip building index but mark as "in-sync"<br> |
-
+| -a | Defer building the index (See REBUILD-INDEX) |
+| -c | Make the index case insensitive |
+| -d | Debug of the index code allowed |
+| -lcode | Index Lookup Code |
+| -n | Any indexes that produce null strings are ignored |
+| -o | Overwrite any existing definition |
+| -s | Write out a pseudo source files |
+| -v | Verbose display, display one period for each 1000 records rebuilt |
+| -m | Supress multivalue index build use multivalues as single key |
+| -N | Synonymous with -n option |
+| -S | Silent operation |
+| -M | Synonymous with -m |
+| -Vnn | Limit multivalue used in index key. e.g. V0 = M option |
+| -w | Permanent Write Mode (default) |
+| -X | Skip building index but mark as "in-sync" |
 
 This command can be used to create a new definition or update an existing definition. In either case, the index will be marked as "out of sync" and will not be available to the query-index , key-select or any of the jQL commands, such as SORT or SELECT.
 
@@ -45,15 +41,13 @@ In order to make the index available to these commands, two options are availabl
 - When the index is created using the create-index command, use the **-r** option -- this will then systematically go through the data file and rebuild the index based on all the records in the file.
 - Run the rebuild-index command against the index.
 
-
 In both cases, when the operation is completed the index will be marked as "in sync" and the index can be used by the aforementioned programs.
 
 The full format of the index-definition command argument is given in [Appendix A](./../indexes-appendix-a).
 
-- Option**-c** means the indexes created will be done in a case insensitive fashion. For example "Fred" and "FRED" will be the same index. This is used automatically in the key-select or query-index command. However if a jQL command such as SORT or SELECT wants to use the index, then the command must be done in such a way that the jQL command would also be case insensitive (for example, attribute 7 of the DICT item is MCU and the selection criteria is all upper case).
+- Option **-c** means the indexes created will be done in a case insensitive fashion. For example "Fred" and "FRED" will be the same index. This is used automatically in the key-select or query-index command. However if a jQL command such as SORT or SELECT wants to use the index, then the command must be done in such a way that the jQL command would also be case insensitive (for example, attribute 7 of the DICT item is MCU and the selection criteria is all upper case).
 - Option **-d** means the pseudo-code created to build the index key can be debugged. This assumes that the debugger is enabled for the rest of the jBC code anyway.
 - Option **-l** is the lookup code. It is used with key-select and query- index. The selection criteria will be converted using an ICONV call before being used. For example if you create a right justified (numeric) index on say attribute 6 of all items, this could be a date field in internal format. If you want to look at a range of dates then instead of doing this:
-
 
 ```
 jsh -->key-select ORDERS WITH PLACE-DATE > 10638
@@ -73,7 +67,6 @@ This also applies to selection criteria passed with a jQL command such as LIST o
 - Option **-s** causes some pseudo source code to be created. This is used with option -d to aid debug complex index definitions.
 - Option **-v** is the verbose mode and is only applicable when the -r option is also used. It will display a period character for every 1000 records in the file that are rebuilt.
 - Option **-w** keeps the index in Permanent Write Mode. When creating an index on a file, the list of values for each key is stored as a B-tree. Normally, when this process is complete, the B-tree is then converted to a linked-list of values. This is generally quicker to retrieve than building the list from the B-tree for each select. However, if using an index on a file that is actively being written to, **especially when the number of values per key is high**, then the 'w' option should be used when creating the index. This will leave the index in Permanent Write Mode, which keeps the values in the index as B-tree rather than as a linked-list. Therefore, **it is recommended to create all indexes with this option**. The primary reason is that it does faster index **writes** (as it does not have to convert the B-tree to a linked-list) and does not noticeably hinder **read** speed. A secondary reason is that it eliminates any need to understand the data, especially if the index changes complexion in the future. Note that the index will be larger when this option is used. As to how much larger depends on the data being indexed.
-
 
 Example: Create an index based on attribute 1 , concatenated with attribute 2. The index will be kept in Permanent Write Mode.
 
@@ -105,7 +98,6 @@ In the above definition the index key is built out of three attributes. Should t
 - Option **S** is a compatibility option which provides for silent operation when an index is created.
 - Option **M** or -m option suppresses creating individual index keys for each mutlivalue, in other words all mutlivalues are used to create the index key.
 
-
 For example, if an index is generated on a record with an attribute as follows:
 
 ```
@@ -117,7 +109,6 @@ Then by default three index values based on "123" , "456" and "789" will be crea
 
 - Option **Vn**. This option provides compatibility and is used to limit the number of multivalues used to generate an index key. Without this option then ALL multi-values will each generate an index definition. This option restricts it to the first nnn values. A special case of (V0) exists. In this case where the multi-value count is set to 0, we assume no multi-values are required and so we don"t split the attribute into multi-values but treat the entire attribute as a single entity -- in effect then (V0) option is identical to the (M) option.
 
-
 Remember the jBASE syntax already allows an individual value to be used instead. For example
 
 ```
@@ -127,9 +118,6 @@ CREATE-INDEX FILENAME INDEXNAME BY 4.3
 means just use the third multi-value in attribute 4.
 
 - Option **X**. This option on CREATE-INDEX will set-up the index, but not run the existing file through it - in other words, it doesn"t make any attempt to index what is already in the file. The file will still me marked as "in-sync". The net result is that you get an index later with only newly-written or modified records - very nice when you're dealing with huge files and you only want to process what's changed or created since the index was set-up.
-
-
-
 
 In addition to the above syntax a compatible form of the CREATE-INDEX command can also be used.
 
@@ -143,13 +131,12 @@ jBASE supports this by converting on-line the syntax to the jBASE syntax and not
 
 When this happens the dictionary definition is used as follows:
 
-| Attribute # <br>| Definition <br>|
+| Attribute # | Definition |
 | --- | --- |
-| Attribute 2 <br>| indicates what attribute number to extract<br> |
-| Attribute 7 <br>| indicates any lookup code i.e. what to convert any matching string using<br> |
-| Attribute 8 <br>| indicates any conversions to apply when building the index data<br> |
-| Attribute 9 <br>| indicates the justification of the index keys (left or right)<br> |
-
+| Attribute 2 | indicates what attribute number to extract |
+| Attribute 7 | indicates any lookup code i.e. what to convert any matching string using |
+| Attribute 8 | indicates any conversions to apply when building the index data |
+| Attribute 9 | indicates the justification of the index keys (left or right) |
 
 jBASE allows indexes created in this manner to be used with some jQL commands like SELECT or SORT. An index which is not created via a dictionary item must query the index with KEY-SELECT or QUERY-INDEX.
 
@@ -183,7 +170,4 @@ Index definition "INDEX1" created successfully
 Warning: You now need to rebuild the index data for file "filename" using rebuild-index.
 ```
 
-## 
-
-
-* * *
+Back to [Indexes](./../README.md)

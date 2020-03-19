@@ -1,4 +1,4 @@
-# SELECT 
+# SELECT
 
 **Created At:** 8/16/2018 1:16:57 PM  
 **Updated At:** 9/18/2018 7:18:56 AM  
@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='jbc and indexes' vertical='middle' />
 
-## Description 
+## Description
 
 When the SELECT statement is used with an index variable (created with the OPENINDEX statement) then it can be extended to the following syntax.
 
@@ -41,43 +41,32 @@ SELECT index.var ATKEY CHAR(127)
 
 would place the pointer at the beginning of the index. This will work for descending numeric index keys as well.
 
-
-
 ### Example
 
 Consider the following records written to a file with a simple left justified index created on a multi-valued attribute 1.
 
-
-| Record Key<br> | Data in attribute 1<br> | <br> |
+| Record Key | Data in attribute 1 |  |
 | --- | --- | --- |
-| A<br> | COOPER]SMITH]JONES]COOPER]COOPER<br> |
-| B<br> | COOPER]CLARK<br> |
-| C<br> | JONES<br> |
-
+| A | COOPER]SMITH]JONES]COOPER]COOPER |
+| B | COOPER]CLARK |
+| C | JONES |
 
 The following index data will now have been created for the above data
 
-
-| Index key<br> | Index data<br> |
+| Index key | Index data |
 | --- | --- |
-| CLARK<br> | Key "B" at multi-value 2<br> |
-| COOPER<br> | Key "A" at multi-value 1<br> |
-| <br> | Key "A" at multi-value 4<br> |
-| <br> | Key "A" at multi-value 5<br> |
-| <br> | Key "B" at multi-value 1<br> |
-| JONES<br> | Key "A" at multi-value 3<br> |
-| <br> | Key "C" at multi-value 1<br> |
-| SMITH<br> | Key "A" at multi-value 2<br> |
-
-
-
+| CLARK | Key "B" at multi-value 2 |
+| COOPER | Key "A" at multi-value 1 |
+|  | Key "A" at multi-value 4 |
+|  | Key "A" at multi-value 5 |
+|  | Key "B" at multi-value 1 |
+| JONES | Key "A" at multi-value 3 |
+|  | Key "C" at multi-value 1 |
+| SMITH | Key "A" at multi-value 2 |
 
 The following are examples of jBC code on the above data and the resultant screen output along with comments on the action.
 
-
-
-- ### SELECT the entire index.
-
+- ### SELECT the entire index
 
 ```
 OPENINDEX filename,"INDEX1" TO index.var ELSE STOP 201,"INDEX1 in ":filename
@@ -101,10 +90,7 @@ A
 
 Note that the order of the record keys (B,A,A,A,B,A,C,A) is identical to the table of index information shown.
 
-
-
 - ### SELECT the index but only include names "JONES"
-
 
 ```
 OPENINDEX filename,"INDEX1" TO index.var ELSE
@@ -126,10 +112,7 @@ JONES C
 
 In this example the program exits the loop once it run out of names of "JONES". Only two of these are present, the first in record key "A" and the second in record key "C".
 
-
-
 - ### SELECT the index starting at "JONES" but use READPREV to find all the names that precede JONES (i.e. do NOT include JONES)
-
 
 ```
 OPENINDEX filename,"INDEX1" TO index.var ELSE STOP 201,"INDEX1 in ":filename
@@ -149,3 +132,5 @@ CLARK B 2
 ```
 
 In this example the index keys are read in reverse order. As a SELECT is assumed to be in forward direction, the first READPREV constitutes a change of direction subject to the rules described in the READPREV description. Hence the first index key is the one that precedes the first JONES entry.
+
+Back to [Indexes](./../README.md)

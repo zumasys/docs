@@ -11,23 +11,17 @@
 <badge text='backup' vertical='middle' />
 <badge text='file indexing' vertical='middle' />
 
-## Description 
+## Description
 
 There are three ways of backing up a jBASE database.
 
-
-
-### 1. Account-save 
+### 1. Account-save
 
 This should only be used to transfer data to a non-jBASE system. The indexing information will be lost.
-
-
 
 ### 2. tar and cpio
 
 These Unix supplied backup utilities will backup ALL jBASE files and not care if they are hashed files, index files, dictionary items and so on. These should be used with caution, and only against databases where there is no update activity. The tar and cpio programs will not respect the locks on a file that jBASE normally uses.
-
-
 
 ### 3. jbackup and jrestore
 
@@ -70,3 +64,5 @@ Using the "-c" option with jbackup, will backup the actual index data as well as
 When jrestore is used, by default it will restore the index information, but will NOT rebuild the index data. This is quite time-consuming and so by default the jrestore works in the quickest mode. The index will need to be re-built at a later stage using [rebuild-index](./../rebuild-index). In the meantime, any attempts to use [query-index](./../query-index) or [key-select](./../query-index) will fail, and the jQL programs such as COUNT and SELECT will not use the index in order to satisfy the request. During the restore a warning message will be shown against each file that needs re-building. Once the rebuild-index  has completed, the index will become available again to the jQL programs and query-index.
 
 Using the -N option with jrestore will result in the indexes being built as the data is restored. This will slow down the restore time, but means the index is immediately available for use without the need to re-build the indexes with rebuild-index.
+
+Back to [Indexes](./../README.md)

@@ -6,18 +6,13 @@
 **Original ID:** 334537  
 **Internal:** No  
 
-
-
-
-
-| Definition<br> | Description<br> |
+| Definition | Description |
 | --- | --- |
-| [External Representation](./../external-representation-of-data)<br> | This part describes how the index data is stored in "internal" or "external" format and when you are doing selections against the data whether it uses "internal" or "external" representation to do the query against.<br> |
-| [Multi-values](./../multi-value-support)<br> | This part describes how multi-values are handled in jBASE and the limitations of using a multi-valued field when creating an index definition<br> |
-| [Sync](./../in-sync-definition)<br> | This part describes what is know as "in sync" for a jBASE index<br> |
-| [Regular Expressions](./../using-regular-expressions-with-indexes)<br> | This part describes regular expressions, which is a Unix based mechanism for doing pattern matching when searching for a text string.<br> |
-| [Universal Co-ordinated Time](./../universal-coordinated-time)<br> | This part describes what Universal Co-ordinate Time is, or confusingly UTC as the acronym.<br> |
-| [jQL Usage](./../jql-usage-of-secondary-indexes)<br> | This part shows how the jQL commands such as SELECT or COUNT can use the index data to satisfy the request.<br> |
+| [External Representation](./../external-representation-of-data) | This part describes how the index data is stored in "internal" or "external" format and when you are doing selections against the data whether it uses "internal" or "external" representation to do the query against. |
+| [Multi-values](./../multi-value-support) | This part describes how multi-values are handled in jBASE and the limitations of using a multi-valued field when creating an index definition |
+| [Sync](./../in-sync-definition) | This part describes what is know as "in sync" for a jBASE index |
+| [Regular Expressions](./../using-regular-expressions-with-indexes) | This part describes regular expressions, which is a Unix based mechanism for doing pattern matching when searching for a text string. |
+| [Universal Co-ordinated Time](./../universal-coordinated-time) | This part describes what Universal Co-ordinate Time is, or confusingly UTC as the acronym. |
+| [jQL Usage](./../jql-usage-of-secondary-indexes) | This part shows how the jQL commands such as SELECT or COUNT can use the index data to satisfy the request. |
 
-
-
+Back to [Indexes](./../README.md)

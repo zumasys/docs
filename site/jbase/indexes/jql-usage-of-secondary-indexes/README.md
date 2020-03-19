@@ -41,11 +41,9 @@ jsh --> create-index PRODUCTS DESCR BY 55
 
 it is just the alternative syntax for create-index was shown as this used an existing DICT definition to create the index (the command syntax is easier but less powerful)
 
-## Note: 
-
+## Note
 
 > There are some limitations to this usage of the index. If the jQL statement is too complex or the index data is not [in sync](./../in-sync-definition), the jQL command will still work but will use the normal mechanism of searching the file rather than using any index data for improved performance.
-
 
 Limited compound selection criteria is supported . For example the following first example will still use the index data whereas the second example will not, even if an index exists for both BIRTHDAY and SURNAME.
 
@@ -58,3 +56,5 @@ jsh --> SELECT PRODUCTS IF BIRTHDAY GE "23-JUL-56" AND SURNAME EQ "COOPER]"
 ```
 
 To be absolutely sure the index data is used to speed up a query, use the [key-select](./../query-index) command.
+
+Back to [Indexes](./../README.md)

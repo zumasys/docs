@@ -12,7 +12,7 @@
 <badge text='records' vertical='middle' />
 <badge text='file indexing' vertical='middle' />
 
-## Description 
+## Description
 
 This command allows you to select or count a list of record keys. It is called as:
 
@@ -35,19 +35,14 @@ where Op can be:
 - GT &gt; greater than
 - GE &gt;= greater than or equal to
 
-
 and Options can be:
 
-
-| Option<br> | Description<br> |
+| Option | Description |
 | --- | --- |
-| -c<br> | COUNT the records (default is to select records)<br> |
-| -inn<br> | Indexes used restricted to approx. nn indexes<br> |
-| -mTYPE<br> | Match algorithm - type is: "REGEXP" or "JQL" or "DEFAULT"<br> |
-| -rnn<br> | Record count restricted to approx. nn records<br> |
-
-
-
+| -c | COUNT the records (default is to select records) |
+| -inn | Indexes used restricted to approx. nn indexes |
+| -mTYPE | Match algorithm - type is: "REGEXP" or "JQL" or "DEFAULT" |
+| -rnn | Record count restricted to approx. nn records |
 
 It is important to note that file updates that cause a change to an index will wait for a query-index to complete.
 
@@ -56,8 +51,6 @@ The first structure of the query-index command allows for selection of all recor
 ```
 jsh -->query-index CUSTOMERS lastname
 ```
-
-
 
 The second structure of the query-index command allows for specifying a single conditional parameter, making this query less than, greater than etc. to the parameter. If LT,GT,etc are unspecified, it defaults to equals. For example, select all customers whose name begins with "KOOP"
 
@@ -72,8 +65,6 @@ Another example is to select all customers whose date of birth is before 25 July
 ```
 jsh -->QUERY-INDEX CUSTOMERS WITH dob LT 25-JUL-1956
 ```
-
-
 
 The third structure of the query-index command allows for specifying a range of values. This means the operators must be either GT or GE followed by LT or LE. If the operators are not specified the command defaults to GE and LE.
 
@@ -102,3 +93,5 @@ jsh --> query-index -mREGEXP PRODUCTS IF description EQ "^A.*PIPE"
 Option **-i** can be used to restrict the number of indexes used to create the list of record keys. This can be useful to restrict a search to a smaller subset.
 
 Option **-r** is similar to -i except it restrict the number of record keys.
+
+Back to [Indexes](./../README.md)

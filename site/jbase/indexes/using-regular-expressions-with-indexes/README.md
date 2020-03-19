@@ -12,22 +12,18 @@
 
 Regular expressions are the name given to a set of pattern matching characters. The term derived from Unix environment. The regular expressions can be used to great effect using the [query-index](./../query-index) command to decide what records to select. A full description of regular expressions can be obtained on Unix systems by entering the command:
 
-```
+``` bash
 % man 8 regexp
 ```
 
 For Windows systems only a limited subset of regular expressions are available. The following characters inside a regular expression have special meaning:
 
-
-| Character <br> | Meaning<br> |
+| Character  | Meaning |
 | --- | --- |
-| **^**<br> | The text must match the start of the record key.<br> |
-| **$**<br> | The text must match the end of the record key<br> |
-| **.\***<br> | Any number of characters of any value may follow<br> |
-| **\x**<br> | This escapes the character x meaning it just evaluates to x. This is useful if you want to include say the ^ character as part of your text string rather than a character with special meaning.<br> |
-
-
-
+| **^** | The text must match the start of the record key. |
+| **$** | The text must match the end of the record key |
+| **.\*** | Any number of characters of any value may follow |
+| **\x** | This escapes the character x meaning it just evaluates to x. This is useful if you want to include say the ^ character as part of your text string rather than a character with special meaning. |
 
 For example, on either a Unix or Windows/NT system you could use [key-select](./../query-index) to find a product description that has the text SLIPPER at the start of the description. This can be done using the jQL format ,with say the SELECT command or by using regular expressions. The two methods are therefore:
 
@@ -60,3 +56,5 @@ PIPE 5 mm
 PIPE15MM
 PIPE 33.3 mm
 ```
+
+Back to [Indexes](./../README.md)

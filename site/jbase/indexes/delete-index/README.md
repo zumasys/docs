@@ -6,8 +6,7 @@
 **Original ID:** 335214  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 The DELETE-INDEX command deletes indexes on jBase files
 
@@ -17,16 +16,10 @@ delete-index -Options filename { {indexname {indexname ...}} | * }
 
 Where Options can be:
 
-
-
-
-| Option<br> | Description<br> |
+| Option | Description |
 | --- | --- |
-| -a<br> | delete ALL indexes in the file<br> |
-| -S<br> | silent option<br> |
-
-
-
+| -a | delete ALL indexes in the file |
+| -S | silent option |
 
 This command is called to delete one or more index definitions that are associated with a file. All the space taken by the index is released to the file overflow space (but not necessarily the operating system file free space).
 
@@ -44,3 +37,5 @@ Example: Delete the index name "value" in the file PRODUCTS
 ```
 jsh --> delete-index PRODUCTS value
 ```
+
+Back to [Indexes](./../README.md)

@@ -49,6 +49,4 @@ LOOP WHILE READNEXT KEY index.value,record.key FROM list DO
 REPEAT
 ```
 
-
-
-
+Back to [Indexes](./../README.md)

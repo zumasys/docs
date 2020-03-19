@@ -42,10 +42,10 @@ If a more complex definition is desired, it is only possible in non-multi-value 
 jsh --> create-index PRODUCTS BY 1 BY 2 (M)
 ```
 
-
-
 Full multi-value support may be accomplished by coding a jBC subroutine, then [calling the subroutine](./../using-subroutine-in-index-definitions) to perform it. In the following example a subroutine called CONCAT is called. This subroutine will be called with attribute 5 (in this example) passed. However the subroutine will also have the entire record passed to it in another parameter. The resulting output can have as many values as desired, created however desired.
 
 ```
 jsh --> create-index PRODUCTS BY CALL(5,"CONCAT")
 ```
+
+Back to [Indexes](./../README.md)
