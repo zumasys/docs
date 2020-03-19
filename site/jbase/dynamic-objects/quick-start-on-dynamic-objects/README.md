@@ -71,7 +71,7 @@ We have handled the static header information.  A note about dates.  To keep i
 
 If we run this program at this point we will get the following
 
-```
+``` json
 {
         "orderid":"10254",
         "customerid":"CHOPS",
@@ -112,7 +112,7 @@ return
 
 Here we count out how many items we have.  We then add a blank array called items to our order object.  We then loop thru our values and build out a new item object for each detail order item.  We then append that object into our array.  When we run this program now our output should look like.
 
-```
+``` json
 {
         "orderid":"10254",
         "customerid":"CHOPS",
@@ -273,7 +273,7 @@ crt order->$tojson(1)
 
 When you run this you will get the following output.
 
-```
+``` json
 {
         "id":"",
         "customerid":"",

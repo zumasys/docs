@@ -96,20 +96,20 @@ When calling subroutines from dictionary items it is sometimes advantageous for 
 This can be achieved with the following code in the subroutine:
 
 ```
-001     SUBROUTINE process_customers
-002     COMMON /persist/ customer_file, static_time
-003     INCLUDE qbasiccommonpick
-004     EQU item_count TO access(4) ;* access(4) is initialized to 1 at the start of each jQL statement
-005     EQU id TO access(10)
-006     IF item_count = 1 THEN
-007 *-- Initialize all persistent variables here...
-008         OPEN "CUSTOMERS" TO customer_file ELSE ABORT
-009         static_Time = TIME()
-010     END
-011     READ customer_record FROM customer_file, id THEN
-012 *------ Process the customer here and return the result in newpick(12)
-013     END
-014     RETURN
+    SUBROUTINE process_customers
+    COMMON /persist/ customer_file, static_time
+    INCLUDE qbasiccommonpick
+    EQU item_count TO access(4) ;* access(4) is initialized to 1 at the start of each jQL statement
+    EQU id TO access(10)
+    IF item_count = 1 THEN
+*-- Initialize all persistent variables here...
+        OPEN "CUSTOMERS" TO customer_file ELSE ABORT
+        static_Time = TIME()
+    END
+    READ customer_record FROM customer_file, id THEN
+*------ Process the customer here and return the result in newpick(12)
+    END
+    RETURN
 ```
 
 Notice that the persistent variables (**customer\_file** and **static\_time**) are treated as named COMMON variables. The one caveat is that they are initialized for each jQL command. If a subroutine is called from two or more dictionary items in the same jQL command then the variables will be shared in the same way that COMMON variables are. If the subroutine is called recursively, then the variables will be shared between each level of recursion, in the same way that COMMON variables are.
@@ -121,16 +121,16 @@ This example illustrates how to get a running total of an attribute.
 First, create this subroutine:
 
 ```
-001     SUBROUTINE running_total_sub
-002     COMMON /running_total_common/ running_total
-003     INCLUDE qbasiccommonpick
-004     EQU item TO access(3)
-005     EQU item_count TO access(4)
-006     EQU attribute_number TO access(5)
-007     IF item_count = 1 THEN running_total = 0
-008     running_total += item<attribute_number>
-009     newpick(12) = running_total
-010     RETURN
+    SUBROUTINE running_total_sub
+    COMMON /running_total_common/ running_total
+    INCLUDE qbasiccommonpick
+    EQU item TO access(3)
+    EQU item_count TO access(4)
+    EQU attribute_number TO access(5)
+    IF item_count = 1 THEN running_total = 0
+    running_total += item<attribute_number>
+    newpick(12) = running_total
+    RETURN
 ```
 
 Note that the program is using named COMMON to allow the **running\_total** variable to persist when the subroutine is CALL'd for each record being processed.
@@ -221,10 +221,10 @@ You will notice that each amount is added to the previous value in the RUNNING T
 This program illustrates how to obtain the last multi-value from an attribute:
 
 ```
-001     SUBROUTINE lastmv
-002     INCLUDE qbasiccommonpick
-003     newpick(12) = newpick(12)<1, DCOUNT(newpick(12), @VM)>
-004     RETURN
+    SUBROUTINE lastmv
+    INCLUDE qbasiccommonpick
+    newpick(12) = newpick(12)<1, DCOUNT(newpick(12), @VM)>
+    RETURN
 ```
 
 For instance, this dictionary will display the last multi-value from attribute 1:

@@ -16,7 +16,6 @@
 
 jBASE utilizes the internationalization support inherent in the environment but also provides five additional commands to override these facilities. The commands are:
 
-
 | Command | Explanation |
 | --- | --- |
 | SET-DEC | Set decimal point |
@@ -41,9 +40,12 @@ The usual system defaults are:
 
 ## Note
 
-> On UNIX languages are usually found in the /usr/lib/locale directory, the LANG environment variable is usually set to /usr/lib/locale/C. The default language can be modified by the jBASE SET-LANG command.
+> On UNIX, languages are usually found in the /usr/lib/locale directory, the LANG environment variable is usually set to /usr/lib/locale/C. The default language can be modified by the jBASE SET-LANG command.
 >
-> On Windows the settings are controlled from the Regional Settings Applet on the control panel.
+> On Windows the settings are controlled from the Regional Settings Applet on the control panel.  
+>  
+> In most cases, these settings have been made redundant by the introduction of the [JBASE_LOCALE](./../environment-variables/jbase_locale/README.md) and [JBASE_TIMEZONE](./../environment-variables/jbase_timezone/README.md) environment variables.
+>
 
 ## Language Modifiers
 

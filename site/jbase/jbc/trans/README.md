@@ -6,7 +6,7 @@
 **Original ID:** 278970  
 **Internal:** No  
 
-# Description
+## Description
 
 This function will return the data value of a field, given the name of the file, the record key, the field number, and an action code. It takes the general form:
 
@@ -93,3 +93,5 @@ A]1]Vendor Name]]]]]L]30
 See also: [XLATE](./../xlate).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

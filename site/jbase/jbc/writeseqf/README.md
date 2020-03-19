@@ -30,3 +30,5 @@ Normally, when a record is written using the [WRITESEQ](./../writeseq) statement
 A **WRITESEQF** statement following several [WRITESEQ](./../writeseq) statements ensures that all buffered records are written to disk. **WRITESEQF** is intended for logging applications and should not be used for general programming. It increases the disk I/O of a program and therefore degrades performance.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

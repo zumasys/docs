@@ -24,7 +24,6 @@ If the **WRITET** fails then the statements associated with any **ELSE** clause 
 
 [SYSTEM(0)](./../system-functions) will return the reason for the failure as follows:
 
-
 | <!----> | <!----> |
 | --- | --- |
 | 1 | There is no media attached to the channel |
@@ -51,3 +50,5 @@ REPEAT
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

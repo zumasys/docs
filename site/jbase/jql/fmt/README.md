@@ -21,13 +21,14 @@ The default format for reported data is taken from the dictionary entry for fiel
 
 ## Notes
 
-This is based on the PI/Open syntax of the FMT command and not the D3 version. 
+This is based on the PI/Open syntax of the FMT command and not the D3 version.
 
 ### Examples
+
 ```
 LIST ORDERS SITE.NAME FMT "32L"
 ```
 
-This command reports records from the ORDERS file where using a non-default format specification for the SITE.NAME field.
+This command reports records from the ORDERS file using a non-default format specification for the SITE.NAME field.
 
-Back to [JQL](jbase-query-language-jql-)
+Back to [jQL](jbase-query-language-jql-)

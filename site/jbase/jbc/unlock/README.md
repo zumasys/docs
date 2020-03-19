@@ -33,3 +33,5 @@ Locks are in memory only and will not persist across a server reboot or jBASE se
 See also: [LOCK](./../lock).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

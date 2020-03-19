@@ -8,7 +8,7 @@
 
 ## Description
 
-The **TRIM**statement allows characters to be removed from a string in a number of ways. It takes the general form:
+The **TRIM** statement allows characters to be removed from a string in a number of ways. It takes the general form:
 
 ```
 TRIM(expression1 {, expression2{, type}})
@@ -50,3 +50,5 @@ ANS = TRIM(ANS)
 to remove spaces and tabs. Note the second parameter is ignored in the first code sample.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

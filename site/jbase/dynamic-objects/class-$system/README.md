@@ -8,12 +8,11 @@
 
 The following methods can be utilized from the **$system**class:
 
-- [$system::getemulation()](./../class-method-$systemgetemulation%28%29)
-- [$system::getuserinfo()](./../class-method-$systemgetuserinfo%28%29)
+- [\$system::getemulation()](./../class-method-$systemgetemulation%28%29)
+- [\$system::getuserinfo()](./../class-method-$systemgetuserinfo%28%29)
 - $system::getroutines()
 - $system::getbinaries()
-- [$system::getfiles()](./../class-method-$systemgetfiles%28%29)
-
+- [\$system::getfiles()](./../class-method-$systemgetfiles%28%29)
 
 In order to call any of these methods, a **$system** object must first be created, for example:
 

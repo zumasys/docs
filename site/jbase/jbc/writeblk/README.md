@@ -37,3 +37,5 @@ If requiring byte count data the output variable can be converted from the UTF-8
 It is not recommended that the [READBLK](./../readblk)\/**WRITEBLK** statements be used when executing in International Mode. Similar functionality may be obtained via the [READSEQ](./../readseq)/[WRITESEQ](./../writeseq) statement, which can be used to read/write characters a line at a time from a file.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

@@ -19,3 +19,5 @@ TRANSQUERY()
 By default, all hashed files are marked for inclusion in a transaction, however this can be modified using the jchmod utility.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

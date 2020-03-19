@@ -26,7 +26,6 @@ Where:
 
 **action.code** indicates the procedure if the field is null, or cannot find the if record. This is a literal, which may be:
 
-
 | <!----> | <!----> |
 | --- | --- |
 | X | Returns a null string. This is the default action |
@@ -88,3 +87,5 @@ to display: A]1]Vendor Name]]]]]L]30
 See also: [TRANS](./../trans).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

@@ -50,9 +50,9 @@ CRT CHANGE(a,@AM," ")
 
 given:
 
-## XML CONTENTS
+## XML Contents
 
-```
+``` xml
 <?xml version="1.0" encoding="UTF-8"?>
 <mycustomer>
 <firstname>Tom</firstname>
@@ -63,9 +63,9 @@ given:
 
 and
 
-## XSL CONTENTS
+## XSL  Contents
 
-```
+``` xsl
 <xsl:template match="mycustomer">
 <array>
 <xsl:apply-templates/>
@@ -84,3 +84,5 @@ and
 ```
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

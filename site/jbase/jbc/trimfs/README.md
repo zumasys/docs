@@ -17,3 +17,5 @@ TRIMFS(dynamic.array)
 If **dynamic.array** evaluates to null, null is returned. If any element of **dynamic.array** is null, it returns null for that value.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

@@ -20,9 +20,9 @@ Where:
 
 Given:
 
-## XSL CONTENTS
+## XSL  Contents
 
-```
+``` xsl
 <?xml version="1.0" ?>
 <xsl:stylesheet version="1.0"
 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
@@ -32,9 +32,9 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 </xsl:stylesheet>
 ```
 
-## XML CONTENTS
+## XML  Contents
 
-```
+``` xml
 <list>
 <person>
 <name>Bob</name>
@@ -54,10 +54,14 @@ CRT XML_VAR
 
 to display:
 
-&lt;p&gt;Bob&lt;/p&gt;&lt;p&gt;Amy&lt;/p&gt;
+``` html
+<p>Bob</p><p>Amy</p>
+```
 
 If **result** = 0, XML\_VAR will contain a transformed version of **xml** using **xsl**.
 
 If **result** = 1, XML\_VAR will hold an error message.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

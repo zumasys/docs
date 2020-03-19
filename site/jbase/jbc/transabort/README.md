@@ -23,3 +23,5 @@ A **THEN** or **ELSE** (or both) statement is required. The **THEN** clause will
 Any record locks set during the transaction will be released upon successful completion.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

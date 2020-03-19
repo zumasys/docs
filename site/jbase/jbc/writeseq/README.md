@@ -35,3 +35,5 @@ The value of **expression** is written to the file as the next line, and the **T
 See also: [OPENSEQ](./../openseq).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

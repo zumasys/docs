@@ -23,3 +23,5 @@ CRT "The time and date is ":TIMEDATE ()
 to display the current date and time.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

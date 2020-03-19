@@ -185,7 +185,7 @@ The structure of multivalued data is where one field has multiple pieces of info
 
 Examples of some typical uses of multi values include:
 
-1. Multi-Line Address**
+1. **Multi-Line Address**
 
 Each line of an address can be another value. A multi value field can be used to store various lines of an address. For example:
 
@@ -193,8 +193,8 @@ Each line of an address can be another value. A multi value field can be used to
 - Value 2 – floor
 - Value 1 – street address
 - Value 2 – postal box number  
-  
-2. 12 Month Accumulator**
+
+2. **12 Month Accumulator**
 
 If a multivalue field is set up with 12 values, they can be used for monthly accumulators.
 
@@ -207,7 +207,7 @@ Considering the above example, 5 months worth of sales for a client would be as:
 - Month 5 – \$2,340
 
 With this structure, it is easy to determine sales for a quarter (1st qtr - $1,700), year-to-date sales ($4,190.50), year-to-date as of any month (YTD through month 4 - \$1,850.50).  
-3. Invoice Summary:**
+3. **Invoice Summary:**
 
 A group of multi value fields can maintain invoice summary information in a client row, or line item information in an invoice row.
 
@@ -690,7 +690,7 @@ SORT ORDER BY CUS.NAME WITH ORD.AMT GE “500” BREAK-ON CUS.NAME TOTAL ORD.AMT
 
 - Shorthand
 
-**Macros and Phrases**
+**Macros and Phrases**:
 
 Are file dictionary items that contain frequently used portions of a jQL sentence.
 
@@ -974,7 +974,7 @@ All programs **_must_** be cataloged.
 
 ### RUN Unnecessary
 
-Since all programs are cataloged (are executable referenced via `PATH`), the `RUN` verb is no longer needed, but is supported.
+Since all programs are cataloged (and are executable, referenced via `PATH`), the `RUN` verb is no longer needed, but is supported.
 
 It should be noted that:
 

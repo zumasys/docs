@@ -17,3 +17,5 @@ TIMESTAMP()
 The return value is a variable with as many decimal places as the current precision allows. However, successive calls may return the same value many times before the operating system updates the underlying timer. For example, Windows updates the low level timer every 1/50 second even though it stores the time in billionths of a second."
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

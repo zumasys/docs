@@ -38,6 +38,6 @@ to display 11/02/98
 
 See also [JBASE_LOCALE](./../../../environment-variables/jbase_locale/README.md)
 
-See also [JBASE_PIVOT_YEAR](./../../../environment-variables/jbase_pivot_year/README.md)
+See also [JBASE_PIVOT_YEAR](./../../environment-variables/jbase_pivot_year/README.md)
 
 Back to [Utilities](./../utilities)

@@ -37,13 +37,15 @@ Any of the following events will release the lock taken by the **WRITEVU** state
 An example of use is as:
 
 ```
-OPEN "Customers" ELSE ABORT 201, "Customers" 
-OPEN "DICT Customers" TO DCusts ELSE ABORT 201, "DICT Customers" 
-WRITEVU Rec ON DCusts, 'Xref', 1 SETTING Err ON ERROR 
-    CRT "I/O Error[" :Err: "]" ABORT 
+OPEN "Customers" ELSE ABORT 201, "Customers"
+OPEN "DICT Customers" TO DCusts ELSE ABORT 201, "DICT Customers"
+WRITEVU Rec ON DCusts, 'Xref', 1 SETTING Err ON ERROR
+    CRT "I/O Error[" :Err: "]" ABORT
 END
 ```
 
 See also: [MATWRITEU](./../matwriteu), [RELEASE](./../release), [WRITE](./../write), [WRITEU](./../writeu).
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

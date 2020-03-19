@@ -17,3 +17,5 @@ TRIMBS(dynamic.array)
 If **dynamic.array** evaluates to null, null is returned. If any element of **dynamic.array** is null, null is returned for that value.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

@@ -20,7 +20,6 @@ Where:
 
 the Mask is an integer from 0 to 7 and selects one of the following output formats:
 
-
 | Mask | Array |
 | --- | --- |
 | 0 | Days^Hours^Minutes^Seconds^Milliseconds (Default) |
@@ -35,3 +34,5 @@ the Mask is an integer from 0 to 7 and selects one of the following output forma
 The **TIMEDIFF** function returns the interval between two timestamp values . The interval is returned as an attribute delimited array of the time difference.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

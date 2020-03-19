@@ -39,7 +39,7 @@ If the function is given a screen code as an argument as below:
 @(screen_code)
 ```
 
-Where **screen\_code** is any valid jBASIC screen code. 
+Where **screen\_code** is any valid jBASIC screen code.
 
 The function can be used to control the behavior of the display screen. Screen color can also be controlled. For example:
 
@@ -109,3 +109,5 @@ Other @ codes include:
 | @YEAR | Current year number |
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

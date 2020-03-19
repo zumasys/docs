@@ -26,6 +26,8 @@ A **THEN** or **ELSE** (or both) statement is required. The **THEN** clause wil
 
 > Record locks set during the transaction will not be released until a [TRANSEND](./../transend) or [TRANSABORT](./../transabort) statement is processed.
 
-A program (or series of programs) can only have one active transaction at one time. If another **TRANSTAR**T statement is encountered whilst a transaction is active, a run-time error will be generated.
+A program (or series of programs) can only have one active transaction at one time. If another **TRANSTART** statement is encountered whilst a transaction is active, a run-time error will be generated.
 
 Go back to [jBASE BASIC](./../README.md)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

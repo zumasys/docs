@@ -33,8 +33,8 @@ The following system functions are supported by jBASE:
 - **SYSTEM(16)** Return current [PERFORM/EXECUTE](./../execute) level
 - **SYSTEM(17)** Return stop code of child process
 - **SYSTEM(18)** Return port number or JBCPORTNO
-- **SYSTEM(19)** Return login name or JBASICLOGNAME. 
-  - If the **system\_19\_timedate** emulation option is set then returns the number of seconds since midnight December 31, 1967. 
+- **SYSTEM(19)** Return login name or JBASICLOGNAME.
+  - If the **system\_19\_timedate** emulation option is set then returns the number of seconds since midnight December 31, 1967.
   - If **system\_19\_timedate\_unique** emulation option is set then a suffix is appended if it is called more than once per second, effectively returning a unique value.
 - **SYSTEM(20)** Returns last spooler file number created
 - **SYSTEM(21)** Returns port number or JBCPORTNO
@@ -109,7 +109,7 @@ The following system functions are supported by jBASE:
   - &lt;4&gt; Copyright information
 - **SYSTEM(1022)** Returns the status of jBASE profiling:
   - 0 - no profiling is active
-  - 1- full profiling is active
+  - 1 - full profiling is active
   - 2 - short profiling is active
   - 3 - jCOVER profiling is active
 - **SYSTEM (1023)** Used by [STATUS](./../status-function)

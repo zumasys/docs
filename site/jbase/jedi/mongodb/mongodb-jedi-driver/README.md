@@ -8,15 +8,13 @@
 
 ## Document Scope
 
-Briefly state what is covered in this document so the user knows exactly what to expect.
+Beta version of MongoDB jEDI datasheet
 
 ## Description
 
-A brief description of the topic at hand.
+How to use the MongoDB jEDI
 
 ## Details
-
-links to child documents are encouraged to be placed here so we don't have an extremely long document that will overload the user. The child document must be to the point, and must deal with ideally one topic. ideally the links should be in point form.
 
 1. Create a file
 

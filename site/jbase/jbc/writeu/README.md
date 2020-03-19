@@ -11,7 +11,7 @@
 The **WRITEU** statement allows a program to write a record into a previously opened file. An existing record lock will be preserved. It takes the general form:
 
 ```
-WRITEU variable1 ON|TO { variable2,} expression {SETTING setvar} 
+WRITEU variable1 ON|TO { variable2,} expression {SETTING setvar}
 {ON ERROR statements}
 ```
 
@@ -48,3 +48,5 @@ END
 See also: [READU](./../readu), [MATREADU](./../matreadu), [RELEASE](./../release)
 
 Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
