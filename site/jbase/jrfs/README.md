@@ -10,7 +10,6 @@
 [creating-stub-files](./creating-stub-files)  
 [jbase-remote-file-service-(jrfs)](./jbase-remote-file-service-(jrfs))  
 [jconnect-library](./jconnect-library)  
-[jnet_config](./jnet_config)  
 [jql-and-remote-files](./jql-and-remote-files)  
 [jrfs-configuration-files](./jrfs-configuration-files)  
 [jrfs-example](./jrfs-example)  

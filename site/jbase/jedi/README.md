@@ -1,6 +1,5 @@
 # jEDI
 
-[Mongo](./mongodb/README.md)  
-[ODBC](./odbc/README.md)  
+## Currently in preparation
 
 [Back to Knowledgebase](./../README.md)

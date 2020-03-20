@@ -6,8 +6,7 @@
 **Original ID:** 325915  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 Deletes a saved list. It takes the general form:
 
@@ -17,20 +16,15 @@ DELETE-LIST {listname {account-name}}
 
 where:
 
-- **listname**specifies the name of the list to be deleted. If you do not specify listname, the default list will be deleted.
+- **listname** specifies the name of the list to be deleted. If you do not specify listname, the default list will be deleted.
 - **account-name** is the name of the account from which the list was saved. If you do not specify account-name, the current account is assumed.
 
-
-
-
-### EXAMPLE
+### Example
 
 ```
-:DELETE-LIST A.SALES 
+:DELETE-LIST A.SALES
 List "A.SALES" deleted
 ```
-
-
 
 If **d3\_list\_processing = true** is set in the **$JBCRELEASEDIR/config/Config\_EMULATE** file then the command deletes lists from a file or the POINTER-FILE, and it's use may be as:
 
@@ -48,8 +42,5 @@ where Options may be :
 
 - **A** = All Lists are in the POINTER-FILE, useful if the list name is the same as a file name
 - **I**= Suppress all messages
-
-
-
 
 Back to [List Processing](./../list-processing)

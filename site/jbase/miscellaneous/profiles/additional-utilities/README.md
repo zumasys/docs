@@ -41,7 +41,7 @@ c:\BUILDS\ZjBASE_development                       5.6.0      5_60718    20651
 Fin.
 ```
 
-### Whats held in the repository JSON
+### What is held in the repository JSON?
 
 ``` json
 {"jbase_installs": [{

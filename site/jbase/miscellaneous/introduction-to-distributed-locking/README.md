@@ -1,4 +1,4 @@
-# INTRODUCTION TO DISTRIBUTED LOCKING
+# Introduction to Distributed Locking
 
 **Created At:** 4/12/2017 5:34:35 PM  
 **Updated At:** 12/21/2018 5:25:19 PM  
@@ -53,7 +53,7 @@ Once the jBASE release is installed and configured then the Distributed Lock Ser
 
 The full set of options for the Distributed lock service can be displayed using the –h option on the jDLS command line.  However specific option combinations for the Distributed Lock Service daemon are as follows:
 
-**COMMAND SYNTAX:**
+## Command Syntax
 
 ```
 jdls -i {-bPTAD} {-sr,g} {-tnn}
@@ -61,11 +61,10 @@ jdls -k {-AD}
 jdls -K {-o}
 ```
 
-**OPTIONS:**
+## Options
 
-| <!----> | <!----> |
+| Option | Description |
 | --- | --- |
-| **Option** | **Description** |
 | -A | Arbiter only, do not start/stop distributed listener |
 | -b | Run in the Background (Normal mode of operation) |
 | -D | Distributed listener only, do not start/stop lock monitor |
@@ -145,7 +144,7 @@ To be properly effective ALL users of the same database must be configured with 
 
 The following basic options can be specified in the JDLS environment variable:
 
-### **COMMAND EXAMPLE:**
+### Command Example
 
 ```
 JDLS={SERVER=Hostname{, Port}}{,SERVER2=Hostname{, Port}}
@@ -160,7 +159,7 @@ JDLS={SERVER=Hostname{, Port}}{,SERVER2=Hostname{, Port}}
 
 NOTE: The above specifications are completely optional as denoted by the braces, although SERVER2 specification has no meaning without specification of SERVER. If SERVER is not specified but the JDLS environment is set then the configuration will default to ‘localhost’ and port 50002.
 
-### **OPTIONS:**
+#### Option Details
 
 #### WAIT
 

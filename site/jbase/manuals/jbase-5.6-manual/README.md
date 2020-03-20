@@ -43,4 +43,4 @@ To gain an understanding of jBASE licensing, please review [jBASE 5 Licensing Gu
 
 To obtain an evaluation version of jBASE, please email multivalue@zumasys.com.
 
-Back to [Release Notes](./../README.md)
+Back to [Manuals](./../README.md)

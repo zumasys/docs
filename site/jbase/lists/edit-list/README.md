@@ -10,7 +10,7 @@
 <badge text='jql' vertical='middle' />
 <badge text='lists' vertical='middle' />
 
-## Description 
+## Description
 
 Invokes an editor session to allow for creation, modification , merging or deleting of a select list. It takes the general form:
 
@@ -22,21 +22,14 @@ where:
 
 - **list-name** specifies the name of the list to be edited. If the list does not already exist it will be created. If you do not specify a list name, the default list will be used.
 - **account-name** is the name of the account from which the list was saved. If you do not specify account-name, the current account name will be used.
-- options can be:
-ED=editor editor is the name of the editor you want to use. Default is ED. It is possible to specify an editor other than ED.
+- **options** can be:
+  - ED=editor editor is the name of the editor you want to use. Default is ED. It is possible to specify an editor other than ED.
 
-
-
-
-## Note: 
-
+## Note
 
 > The **EDIT-LIST** command is used when it is desired to edit the contents of a new or existing saved list. The command will convert the list into an editable record and pass it to the editor. When the edit session is finished, the record will be reconverted to a list and stored under its original name.
 
-
-
-
-### EXAMPLE
+### Example
 
 ```
 EDIT-LIST A.SALES ED=NOTEPAD
@@ -44,8 +37,6 @@ EDIT-LIST A.SALES ED=NOTEPAD
 
 Edits the list called A.SALES. The editor used is Windows Notepad.
 
-
-
-See also [list storage](./../list-storage).
+See also [List storage](./../list-storage).
 
 Back to [List Processing](./../list-processing)

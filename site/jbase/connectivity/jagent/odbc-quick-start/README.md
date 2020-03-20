@@ -10,21 +10,17 @@
 <badge text='sql' vertical='middle' />
 <badge text='odbc' vertical='middle' />
 
+## Introduction
+
 The ODBC Connector is included with jBASE 5.x but may also be deployed on any Windows operating systems which do not have jBASE 5.x installed.  A self-contained installer (from now on referred to as jODBC installer) is available which installs and registers the ODBC driver.   ([Client Software Download](https://zumasys.us8.list-manage.com/track/click?u=ed1011024b445ab7d2f0c1e6e&id=7aaa8beaa2&e=57befd976d))
 
 On Linux, to set up an ODBC Data Source definition, a jbase\_agent listener must already be running on the jBASE Linux server.  There is an example script to start/stop jbase\_agent on Linux at the end of this document.
 
 Via “Control Panel -&gt; Administrative Tools -&gt; ODBC Data Sources (64-bit)”, define a new Data Source:
 
-
-
 ![291428-odbc-quick-start: 1513360255015](./1513360255015.jpg)
 
-
-
 ![291428-odbc-quick-start: 1513360269208](./1513360269208.jpg)
-
-
 
 To be able to run the Data Source “Test”, the jbase\_agent listener must already be running.
 
@@ -39,8 +35,6 @@ ODBCDEMO
 001 /home/jbtest/ODBCDEMO
 002 /home/jbtest/ODBCDEMO]D
 ```
-
-
 
 For the purposes of this document, we have used the “make-demo-file” utility to create a new test file for querying:
 
@@ -66,8 +60,6 @@ WORKTEL           A            9            Work Tel                            
  14 Records Listed
 ```
 
-
-
 It is possible to use Account authentication for these ODBC connections, but, to keep things simple we will start off by not using any authentication.
 
 This means that the jbase\_agent listener should be started in the account folder where the files to be queried reside.
@@ -86,13 +78,9 @@ Data -&gt; Get Data -&gt; From Other Sources -&gt; From ODBC
 
 Press the “Load” button and the spreadsheet will be populated:
 
-
-
 ![291428-odbc-quick-start: 1513360461019](./1513360461019.jpg)
 
-
 > Note: On initial “Load”, even without authentication in place, Excel may request a User ID and Password, which would be the user credentials of the account where the jbase\_agent listener is running.
-
 
 Multi-valued data is returned in first-normal form, which means that any “singular” fields will be repeated for each multi-valued occurrence.
 
@@ -100,15 +88,13 @@ Having added an “ID” dictionary definition to the ODBCDEMO file, the followi
 
 ![291428-odbc-quick-start: 1513360518762](./1513360518762.jpg)
 
-
-
 Below is a sample script to start jbase\_agent.
 
 ### Info
 
 Please note that it is now also possible to start jbase\_agent as a service, and also via a jbase\_agent config file, see this [link](./../jagent-administration).
 
-```
+``` bash
 #/bin/ksh
 export HOME=/home/jbtest
 stty intr ^C kill ^? icanon opost echo echoe echok onlcr -lcase tab3 erase ^H
@@ -171,16 +157,18 @@ case "$1" in
 esac
 ```
 
-
-
-
 > Note: For the purposes of this test, the script was called “jremote”.
-> 
+>
 > Usage:
-> 
+>
+>``` bash
 > ./jremote start
-> 
+> ```
+> >
+>``` bash
 > ./jremote stop
-> 
+> ```
+>
 > The call to jbase\_agent includes the creation of a log file. If logging (for debug purposes) is not required, the “-F -L 2” options can be omitted.
 
+Back to [jAgent](./../README.md)

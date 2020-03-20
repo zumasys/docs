@@ -10,7 +10,7 @@
 <badge text='jql' vertical='middle' />
 <badge text='lists' vertical='middle' />
 
-## Description 
+## Description
 
 Retrieves a previously stored list and makes it the current active (default) list. It takes the general form:
 
@@ -23,18 +23,11 @@ where:
 - **list-name** specifies the name of the list to be retrieved. If you do not specify a list name, the default list will be used.
 - **account-name** is the name of the account from which the list was saved. If you do not specify account-name, the system will use the current account name.
 
-
-
-
-## Note:
-
+## Note #1
 
 > The GET-LIST command is used to retrieve a list previously stored using the [**SAVE-LIST**](./../save-list) command or the jBC [**WRITELIST**](./../../../jbase-basic-%28jbc%29/writelist)statement. If the list is retrieved successfully, it will become the current active (default) list and will be inherited by the next jBASE command or program.
 
-
-
-
-### EXAMPLE
+### Example
 
 ```
 :GET-LIST A.SALES
@@ -60,16 +53,10 @@ where options may be:
 
 **A**- All Lists are in the POINTER-FILE, useful if the list name is the same as a file name.
 
-## Note:
-
+## Note #2
 
 > If multiple lists are specified then the resulting list is sorted and all entries in the resulting list are unique.
 
-
-
-
-See also [list storage](./../list-storage).
+See also [List storage](./../list-storage).
 
 Back to [List Processing](./../list-processing)
-
-

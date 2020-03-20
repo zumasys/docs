@@ -4,7 +4,7 @@
 **Updated At:** 7/19/2019 9:33:43 AM  
 **Original Doc:** [369781-untitled-question](https://docs.jbase.com/44497-articles/emulation)  
 **Original ID:** 369781  
-**Internal:** Yes  
+**Internal:** No  
 
 ## Description
 
@@ -124,7 +124,7 @@ The entries must be expanded explicitly.
 | **generic\_prime = true\|false** | The emulation will otherwise behave as if coming from a Prime environment. | Compile Time1 |  |
 | **generic\_reality = true\|false** | The emulation will otherwise behave as if coming from a Reality Operating System environment. | Compile Time1 |  |
 | **generic\_universe = true\|false** | The emulation will otherwise behave as if coming from a Universe system. | Compile Time1 |  |
-| **generic\_unidata** | The emulation will otherwise behave as if coming from a Unidata environment. | Compile Time1 |  |
+| **generic\_unidata = true\|false** | The emulation will otherwise behave as if coming from a Unidata environment. | Compile Time1 |  |
 | **header\_with\_s = yes\|no** | For systems (Sequoia) S-types with null "header" WILL use the default column heading. | Run Time |  |
 | **hush\_input\_and\_output = true\|false** | If set then control both input and output on HUSH. | Run Time1 |  |
 | **iconv\_nonnumeric\_return\_null = true\|false** | If true then ICONV will return null instead of the original value when that value is non-numeric and numeric is expected. | Run Time |  |
@@ -300,7 +300,7 @@ List MD WITH *A1 't' OR WITH *A2'115'
 
 ## Note
 
-> some of the "generic" emulation behavior will change at run-time, but for a **complete** change, the code should be recompiled.
+> Some of the "generic" emulation behavior will change at run-time, but for a **complete** change, the code should be recompiled.
 >
 > Despite being set at Run-time, if running from jshell, requires that a new jshell be invoked before the behavior will change.
 
@@ -309,7 +309,7 @@ A knowledge of [terminfo capabilities](./../environment-variables/terminfo) can 
 
 | Code  | Action | Description |
 | --- | --- | --- |
-| @(-n)| **clear\_screen** | Move cursor to position 0,0 and clear to end of screen |
+| @(-n) | **clear\_screen** | Move cursor to position 0,0 and clear to end of screen |
 | @(-n) | **cursor\_home** | Move cursor to position 0,0 |
 | @(-n) | **clear\_eos** | Clear the screen from current position to end of screen |
 | @(-n) | **clear\_eol** | Clear the screen from current position to end of line |

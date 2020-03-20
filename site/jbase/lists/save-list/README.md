@@ -9,7 +9,7 @@
 **Tags:**
 <badge text='lists' vertical='middle' />
 
-## Description 
+## Description
 
 Saves the currently active select list to a named list record. It takes the general form:
 
@@ -29,9 +29,7 @@ SAVE-LIST 6
 
 ...it is then only available to the next command entered. In other words, you can only do at most one **GET-LIST 6** which then uses the internal list (Note that it is not stored in the POINTER-FILE or any file pointed to by JBCLISTFILE). Any subsequent **GET-LIST 6** will fail since the list no longer exists internally or externally. If you need to use numbered lists, we recommendation that you use numbers greater than 10 to avoid conflicts with the internal (and reserved) list numbers.
 
-
-
-### EXAMPLE
+### Example
 
 ```
 jsh ~ -->SSELECT CUSTOMERS WITH POST.CODE = "MK]"
@@ -48,8 +46,6 @@ If **d3\_list\_processing = true** is set in the **$JBCRELEASEDIR/config/Config\
 SAVE-LIST {DICT} filename listname
 ```
 
-
-
-See Also: [list storage](./../list-storage).
+See Also: [List storage](./../list-storage).
 
 Back to [List Processing](./../list-processing)

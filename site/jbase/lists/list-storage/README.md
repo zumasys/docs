@@ -6,8 +6,7 @@
 **Original ID:** 325913  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 The jBASEWORK file is a temporary file which contains information specific to jBASE processes and ports while executing applications. This file should not be accessed while any jBASE processes are active.
 
@@ -15,9 +14,7 @@ The jBASEWORK file also contains default or numbered select lists. These select 
 
 The jBASEWORK can be safely deleted when no users are executing jBASE programs.
 
-The jBASEWORK files can be configured to another directory by using the [JBASEUNIQUE](./../../../environment-variables/jbaseunique)environment variable or the JBCBASETMP environment variable.
-
-
+The jBASEWORK files can be configured to another directory by using the [JBASEUNIQUE](./../../../environment-variables/jbaseunique) environment variable or the JBCBASETMP environment variable.
 
 ### Named Select Lists
 
@@ -26,8 +23,5 @@ Depending upon the JBCLISTFILE environment variable and existence of a POINTER-F
 1. First, if the environment file JBCLISTFILE is configured and is valid then the save list is stored with an identifier of the list name. If JBCLISTID is set then the identifier is **SEL\*AccountName\*ListName**.
 2. If the JBCLISTFILE is not defined or is not valid, and a POINTER-FILE exists, then the list is stored as named in the POINTER-FILE.
 3. If JBCLISTFILE is not set and the POINTER-FILE does not exist, then the list is saved in the jBASEWORK file as **SEL\*AccountName\*ListName**. To store lists in jBASEWORK with an id of just the list name, set a Q-pointer or F-pointer called POINTER-FILE to jBASEWORK.
-
-
-
 
 Back to [List Processing](./../list-processing)

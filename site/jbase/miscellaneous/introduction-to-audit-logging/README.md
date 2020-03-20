@@ -12,7 +12,7 @@ The Introduction to Audit Logging document serves as a starting point for Admini
 
 ## Prerequisites
 
-To configure audit logging for jBASE, you will need an installed and licensed system running jBASE 5.6.
+To configure audit logging for jBASE, you will need an installed and licensed system running jBASE 5.6 or later.
 
 ## Audit Logging Synopsis
 
@@ -129,9 +129,9 @@ Attribute 2 of the item @AUDIT\_CONFIG in file @AUDIT contains the options. Each
 | Rn-m | During a READ operation, attributes n-m will be dumped to the audit log. |
 | R\* | During a READ operation, all attributes will be dumped to the audit log. |
 |     | The above instructions are all for a READ statement. The same syntax is also available for:<ul><li>+W, -W , +W* and so on for WRITE statements .</li><li>+D, -D , +D* and so on for DELETE statements.</li><li>+C, -C , +C* and so on for CHANGES (aka &#39;diff&#39;) in attributes during a WRITE.</li></ul> |
-| +X<br>-X<br> | During the READ statement, translate tabs and commas to attribute marks. This means that configurations where the output format is tabs (+TTAB) or comma separated values (+TCSV) can still be processed by jQL with LIST or SELECT etc. |
-| +Inn<br> | Set the log file interval to nnn minutes. By default, the output directory has one file created per day. You can change the frequency of this file switch using +Innn. For example, to get a new audit log file every hour you would specify +I60. |
-| +K<br>-K<br> | Save the audit log key in the extended information.|
+| +X -X | During the READ statement, translate tabs and commas to attribute marks. This means that configurations where the output format is tabs (+TTAB) or comma separated values (+TCSV) can still be processed by jQL with LIST or SELECT etc. |
+| +Inn | Set the log file interval to nnn minutes. By default, the output directory has one file created per day. You can change the frequency of this file switch using +Innn. For example, to get a new audit log file every hour you would specify +I60. |
+| +K -K | Save the audit log key in the extended information.|
 
 Enabling audit logging on a file
 
@@ -224,15 +224,15 @@ Note: There are entries for each value in the DICT section of @AUDIT. The dictio
 | --- | --- | --- |
 | 2 | EVENT | The event command as follows:<br>1 = A record was READ from the file<br>2 = A record was WRITTEN to a file<br>3 = A record was DELETED from a file<br>4 = The file was CLEAR-FILE'd<br>5 = The file was DELETE-FILE'd<br>6 = A jQL or jSQL query was made on the file |
 | 3 | UNIQUE | A string that uniquely identifies the process. This allows you to separate updates from other processes that might share the same process ID or Port Number.|
-| 4 | UTC | The time of the operation in UTC (Universal Co-ordinated Time) format. You can convert this to a local TIME using OCONV(UTC,"U0FF0") and to a local DATE using OCONV(UTC,"U0FF1"). There are also DICT entries for TIME and DATE that do this. |
+| 4 | UTC | The time of the operation in UTC (Universal Co-ordinated Time) format. You can convert this to a local TIME using OCONV(UTC,"U0FF0") and to a local DATE using OCONV(UTC,"U0FF1").<br>There are also DICT entries for TIME and DATE that do this. |
 | 5 | SEQID | An integer that is an incrementing value which defines the relative audit log update for that process. |
 | 6 | PORT | The jBASE port number. |
 | 7 | PID | The operating system process ID. |
 | 8 | OSNAME | The account name that the process is logged on to as supplied by the operating system. |
 | 9 | JBNAME | The jBASE account name. |
 | 10 | IP | The internet address or host name from where the user has connected. |
-| 11 | EVENTOP | The operand to the event. This can be.. (a) The item-id of the update in the file that caused the audit log record. (b) The jQL or jSQL query made against the file. |
-| 12 | FILEPATH | The full file path of the file where the update occurred. This can be split into its component parts of DIRECTORY using OCONV(FILEPATH,â€U0FF2â€) and FILE using OCONV(FILEPATH,â€U0FF3â€). There are DICT entries for DIRECTORY and FILE that do this. |
+| 11 | EVENTOP | The operand to the event. This can be..<br> (a) The item-id of the update in the file that caused the audit log record.<br>(b) The jQL or jSQL query made against the file. |
+| 12 | FILEPATH | The full file path of the file where the update occurred.<br>This can be split into its component parts of DIRECTORY using OCONV(FILEPATH,"U0FF2") and FILE using OCONV(FILEPATH,"U0FF3").<br>There are DICT entries for DIRECTORY and FILE that do this. |
 | 13 | SOURCE | The name of the jBC source where the update occurred. |
 | 14 | LINENO | The line number within the jBC source where the update occurred. |
 

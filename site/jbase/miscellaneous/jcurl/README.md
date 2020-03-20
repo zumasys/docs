@@ -1,6 +1,6 @@
 # jCURL
 
-jCURL is a module that provides curl/http functionality in jBC (BASIC). 
+jCURL is a module that provides curl/http functionality in jBC (BASIC).
 
 One of the advantages of using curl over other tcp/ip based operations is that when issuing multiple commands to the same host the connection will persist thus improving overall performance.
 
@@ -18,7 +18,8 @@ It provides the following functions:
 * [curlUseMemory](./curlUseMemory)
 * [curlUseVar](./curlUseVar)
 
-### Additional Helper Functions
+## Additional Helper Functions
+
 These functions help facilitate simple http/SOAP requests (utilising jCURL underneath) using an **$http** (jabba) class.
 
 * [addRequestParameter](./addRequestParameter)
@@ -73,7 +74,9 @@ result
 s":{"x-forwarded-proto":"https","host":"postman-echo.com","content-length":"58","accept":"*/*","content-type":"a
 pplication/x-www-form-urlencoded","x-forwarded-port":"80"},"json":{"This is expected to be sent back as part of
 response body.":""},"url":"https://postman-echo.com/post"}
+```
 
+``` html
 header
 HTTP/1.1 200 OK
 Content-Type: application/json; charset=utf-8
