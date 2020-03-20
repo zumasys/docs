@@ -10,7 +10,7 @@
 <badge text='format' vertical='middle' />
 <badge text='jql' vertical='middle' />
 
-## Description 
+## Description
 
 Specifies a format code to be applied to the result of the A code or an operand.  May be as :
 

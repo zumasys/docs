@@ -58,7 +58,6 @@ The An;expression format performs the functions specified in expression on value
 
 The AE format uses both the integer and fractional parts of stored numbers. Scaling of output must be done with format codes. The following are examples of numeric results:
 
-
 | Data Record |  | A Code |  |  |
 | --- | --- | --- | --- | --- |
 | **Field 1** | **Field 2** | **A;1 + 2** | **A3;1 + 2** | **AE;1 + 2** |
@@ -121,7 +120,6 @@ The literal operand supplies a literal text string or numeric value:
 [**System Parameter Operands**](./../system-parameter-operands)
 
 Several A code operands return the value of system parameters. They are:
-
 
 | Operand | Return Value |
 | --- | --- |
@@ -207,7 +205,6 @@ where:
 - **expression** must evaluate to true or false. If true, executes the **THEN** statement. If false, executes the **ELSE** statement.
 - **statement** is a string or numeric value.
 
- 
 Each **IF** statement must have a **THEN** clause and a corresponding **ELSE** clause. **IF** statements can be nested but the result of the statement must evaluate to a single value.
 
 The words **IF**, **THEN** and **ELSE** must be followed by at least one space. Examples of use are as:
@@ -267,7 +264,7 @@ Each value in the HOURS field is multiplied by the value of RATE. The multivalue
 The substring function
 
 ```
-[start-char-no, len] 
+[start-char-no, len]
 ```
 
 extracts the specified number of characters from a string, starting at a specified character.

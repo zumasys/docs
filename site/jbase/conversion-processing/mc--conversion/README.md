@@ -23,7 +23,6 @@ One source of confusion when using MC codes is that input conversion does not al
 
 MC codes are:
 
-
 | <!----> | <!----> |
 | --- | --- |
 | MCA | Extract only alphabetic characters |
@@ -91,7 +90,6 @@ Assuming a source value of AbCdEf, MCU will return ABCDEF.
 ## Extracting Values
 
 The MC codes that can be used to extract characters from a string are:
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -194,7 +192,6 @@ Assuming a source value of ABC]]DEF where ] represents a value mark, MCPN will r
 
 The MC codes that convert ASCII character codes to their binary or hexadecimal representations or vice versa are:
 
-
 | <!----> | <!----> |
 | --- | --- |
 | MCAB{S} | Convert ASCII character codes to binary representation (Use S to suppress spaces). |
@@ -263,7 +260,6 @@ Assuming a source value of 0100000101000010, MCBA will return AB.
 ### Converting numeric values
 
 The MC codes that convert numeric values (as opposed to characters), to equivalent values in other number schemes are:
-
 
 | <!----> | <!----> |
 | --- | --- |

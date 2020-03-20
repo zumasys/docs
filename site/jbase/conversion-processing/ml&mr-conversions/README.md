@@ -83,9 +83,6 @@ Input conversion works with a number that has only thousands separators and a de
 | ML& Text #2-#3 | 12345 |  | Text 12-345 |
 | ML& ((Text#2) #3) | 12345 |  | `(Text12) 345` |
 
-
 In the last example, the leading and trailing parenthesis are ignored.
-
-
 
 Back to [Conversion Processing](./../conversion-processing)

@@ -6,8 +6,6 @@
 **Original ID:** 321577  
 **Internal:** No  
 
-
-
 | <!----> | <!----> |
 | --- | --- |
 | [A](./../a-correlatives) | Algebraic functions. |

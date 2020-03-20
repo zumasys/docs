@@ -6,18 +6,13 @@
 **Original ID:** 278311  
 **Internal:** No  
 
-&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
-
-
-
-
-# Package com.jbase.jremote
+## Package com.jbase.jremote
 
 ## Interface Summary
 
-| Interface<br> | Description<br> |
+| Interface | Description |
 | --- | --- |
-| [JConnection](./../jremote/jremote/jconnection-%28jremote-api%29 "interface in com.jbase.jremote")<br> | <br>The connection to a remote jBASE instance.<br> |
+| [JConnection](./../jremote&jrcs/jremote-java-api/jconnection-%28jremote-api%29 "interface in com.jbase.jremote")<br> | <br>The connection to a remote jBASE instance.<br> |
 | [JConnectionCallbackHandler](./../jremote/jremote/jconnectioncallbackhandler-%28jremote-api%29 "interface in com.jbase.jremote")<br> |  <br> |
 | [JConnectionFactory](./../jremote/jremote/jconnectionfactory-%28jremote-api%29 "interface in com.jbase.jremote")<br> | <br>The connection factory for connections to remote a jBASE instance.<br> |
 | [JCursor](./../jremote/jremote/jcursor-%28jremote-api%29 "interface in com.jbase.jremote")<br> | <br>A cursor to a jBASE file.<br> |
@@ -27,9 +22,7 @@
 | [JStatement](./../jremote/jremote/jstatement-%28jremote-api%29 "interface in com.jbase.jremote")<br> | <br>A jBASE statement object for executing queries.<br> |
 | [JXAConnection](./../jremote/jremote/jxaconnection-%28jremote-api%29 "interface in com.jbase.jremote")<br> |  <br> |
 
-
-
-## Class Summary 
+## Class Summary
 
 | Class<br> | Description<br> |
 | --- | --- |
@@ -39,9 +32,7 @@
 | [JExecuteResults](./../jremote/jremote/jexecuteresults-%28jremote-api%29 "class in com.jbase.jremote")<br> | <br>The results from an executed command.<br> |
 | [JSubroutineParameters](./../jremote/jremote/jsubroutineparameters-%28jremote-api%29 "class in com.jbase.jremote")<br> | <br>A list of parameters to pass to a jBASE subroutine.<br> |
 
-
-
-## Exception Summary 
+## Exception Summary
 
 | Exception<br> | Description<br> |
 | --- | --- |
@@ -50,7 +41,3 @@
 | [JRecordNotFoundException](./../jremote/jremote/jrecordnotfoundexception-%28jremote-api%29 "class in com.jbase.jremote")<br> | <br>A generic jBASE record not found exception.<br> |
 | [JRemoteException](./../jremote/jremote/jremoteexception-%28jremote-api%29 "class in com.jbase.jremote")<br> | <br>A generic exception thrown when an unexpected error occurs whilst communicating with the remote jBASE instance.<br> |
 | [JSubroutineNotFoundException](./../jremote/jremote/jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote")<br> | <br>This exception is thrown when a call is made to a non existent subroutine.<br> |
-
-
-
-

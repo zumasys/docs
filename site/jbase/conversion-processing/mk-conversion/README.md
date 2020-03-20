@@ -36,7 +36,6 @@ Input conversion does not invert. It simply applies the metric processing to the
 
 ### Examples
 
-
 | Source Data | MK3 | MK4 | MK5 | MK7 |
 | --- | --- | --- | --- | --- |
 | 1234 | 1K | 1234 | 1234 | 1234 |

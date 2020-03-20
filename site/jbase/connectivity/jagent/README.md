@@ -3,7 +3,6 @@
 ## Topics
 
 [apis](./apis)  
-[introduction-to-embedded-sql](./introduction-to-embedded-sql)  
 [introduction-to-jagent](./introduction-to-jagent)  
 [introduction-to-jagent-rest-services](./introduction-to-jagent-rest-services)  
 [introduction-to-jodbc](./introduction-to-jodbc)  
@@ -12,7 +11,7 @@
 [jagent-administration](./jagent-administration)  
 [jagent-restful-services-quick-start](./jagent-restful-services-quick-start)  
 [jagent-security](./jagent-security)  
-[jagent-troubleshooting](./jagent-troubleshooting/README.md)  
-[jremote](./jremote)  
+[jagent-troubleshooting](../jagent/jagent-troubleshooting/README.md)  
+[jremote and jrcs](./jremote&jrcs/README.md)  
 [jremote-api](./jremote-api)  
 [odbc-quick-start](./odbc-quick-start)  

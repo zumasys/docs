@@ -17,7 +17,7 @@ With jBASE it is possible to extend the scope of the conversion codes used with 
 As an example, suppose you want to support a conversion code of "XF". The calling jBC source may look like this:
 
 ```
-    XF.RESULT = OCONV("I am on a diet", "XF")
+XF.RESULT = OCONV("I am on a diet", "XF")
 ```
 
 Under normal circumstances, this would fail and the debugger would be entered with an illegal conversion code message.
@@ -40,7 +40,6 @@ RETURN
 ```
 
 Be sure that the cataloged subroutine is visible from the [JBCOBJECTLIST](./../../../environment-variables/jbcobjectlist) environment variable. The subroutine's five parameters are:
-
 
 | Parameter | Description |
 | --- | --- |

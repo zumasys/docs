@@ -66,8 +66,6 @@ TSALES;C;;2
 
 Using this Tfile code in field 8 of a data definition record, which also has a 6 in field 2, will cause the content of field 6 from the current record to be used as the key when accessing the reference file SALES. If the record cannot be found, or if found, field 2 is null, the content of field 6 of the current record will be returned. If the record is found, and field 2 contains a value, that value will be returned.
 
-
-
 ### Example 3
 
 ```

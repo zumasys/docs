@@ -10,7 +10,7 @@
 
 The jBASE design provides for database independence by allowing end users to code additional database drivers thus enabling a infinite number of database types to be used by the same application. In addition jBASE provides an example of how to interface to the jBASE jEDI drivers.
 
-## Example of an application interface into jBASE JEDI DRIVERS
+## Example of an application interface into jBASE jEDI Drivers
 
 Copy the "jediCExample.c" program from the "src" subdirectory in the jBASE release directory and compile.
 
