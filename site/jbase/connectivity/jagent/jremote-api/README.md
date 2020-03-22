@@ -12,7 +12,7 @@
 
 | Interface | Description |
 | --- | --- |
-| [JConnection](./../jremote&jrcs/jremote-java-api/jconnection-%28jremote-api%29 "interface in com.jbase.jremote")<br> | <br>The connection to a remote jBASE instance.<br> |
+| [JConnection](./../jremote&jrcs/jrcs-java-api/jconnection-(jrclient-api)/README.md "interface in com.jbase.jremote")<br> | <br>The connection to a remote jBASE instance.<br> |
 | [JConnectionCallbackHandler](./../jremote/jremote/jconnectioncallbackhandler-%28jremote-api%29 "interface in com.jbase.jremote")<br> |  <br> |
 | [JConnectionFactory](./../jremote/jremote/jconnectionfactory-%28jremote-api%29 "interface in com.jbase.jremote")<br> | <br>The connection factory for connections to remote a jBASE instance.<br> |
 | [JCursor](./../jremote/jremote/jcursor-%28jremote-api%29 "interface in com.jbase.jremote")<br> | <br>A cursor to a jBASE file.<br> |
