@@ -19,5 +19,5 @@
 | Constructor and Description |
 | --- |
 | [JExecuteResults](./../../jexecuteresults-jrclient-api)(String capturing, [JCapture](./../../jcapture-jrclient-api " class in com.jbase.jrcs") captureObj, String returning, [JSelectList](./../../jselectlist-jrclient-api " class in com.jbase.jrcs") returnList)|
- 
+
 Back to [Class Use](./../README.md)
