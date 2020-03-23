@@ -2,8 +2,8 @@
 require("dotenv").config();
 const webpack = require("webpack");
 
-const getConfig = require("vuepress-bar");
-const barConfig = getConfig("site/..");
+//const getConfig = require("vuepress-bar");
+//const barConfig = getConfig("site/..");
 
 module.exports = {
   head: [["link", { rel: "icon", href: "/assets/img/favicon.ico" }]],
