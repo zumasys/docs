@@ -15,7 +15,7 @@ MVConnect is a web application development environment for MultiValue Pick syste
 
 ## MV Connect 1.6.3 Release Notes
 
-For a summary of new features in MVConnect 1.6.3, see [Release Notes](./1.6.3-release-notes/README.md).
+For a summary of new features in MVConnect 1.6.3, see [Release Notes](./release-notes/1.6.3/README.md).
 
 ## Getting to Know MV Connect
 
