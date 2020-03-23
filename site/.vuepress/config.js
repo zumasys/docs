@@ -126,8 +126,7 @@ module.exports = {
             path: "/accuterm/desktop/",
             collapsable: true,
             children: [
-              ["/accuterm/desktop/rezume-session-resilience/", "ReZume Session Resilience"],
-              ["/accuterm/desktop/phi-reports/", "PHI Reports"]
+              ["/accuterm/desktop/rezume-session-resilience/", "ReZume Session Resilience"]
             ]
           },
           {
@@ -170,7 +169,55 @@ module.exports = {
           }
         ]
       },
-      ["/jbase/", "jBASE"],
+      {
+        title: "jBASE",
+        path: "/jbase/",
+        collapsable: true,
+        children: [
+          ["/jbase/jbc/", "jBC"],
+          ["/jbase/dynamic-objects/", "Dynamic Objects"],
+          ["/jbase/jbc-string-operations/", "jBC String Operations"],
+          ["/jbase/debugger/", "jBC Debugger"],
+          ["/jbase/compilation/", "jBC Compilation"],
+          ["/jbase/jbc-runtime/", "jBC Runtime"],
+          ["/jbase/jbc-error-handling/", "jBC Error Handling"],
+          ["/jbase/jcl/", "jCL"],
+          ["/jbase/jql/", "jQL"],
+          ["/jbase/jrfs/", "jRFS]"],
+          ["/jbase/accounts/", "Accounts"],
+          ["/jbase/background-processing/", "Background Processing"],
+          ["/jbase/conversion-processing/", "Conversion Processing"],
+          ["/jbase/database-drivers/", "Database Drivers"],
+          ["/jbase/daemons/", "Daemons"],
+          ["/jbase/editor/", "Editor"],
+          ["/jbase/jbc/embedded-sql-for-jbase-basic/", "Embedded SQL"],
+          ["/jbase/emulation/", "Emulation"],
+          ["/jbase/environment-variables/", "Environment Variables"],
+          ["/jbase/files/", "Files"],
+          ["/jbase/indexes/", "Indexes"],
+          ["/jbase/internationalization/", "Internationalization"],
+          ["/jbase/jshell/", "jSHELL"],
+          ["/jbase/lists/", "Lists"],
+          ["/jbase/porting/", "Porting"],
+          ["/jbase/spooler/", "Spooler"],
+          ["/jbase/tape/", "Tape"],
+          ["/jbase/telnet/", "Telnet"],
+          ["/jbase/terminal/", "Terminals"],
+          ["/jbase/transactions/", "Transactions"],
+          ["/jbase/tools/", "Tools"],
+          ["/jbase/triggers/", "Triggers"],
+          ["/jbase/utilities/", "Utilities"],
+          ["/jbase/administration/", "Administration"],
+          ["/jbase/coding-corner/", "Coding Corner"],
+          ["/jbase/connectivity/", "Connectivity"],
+          ["/jbase/encryption/", "Encryption"],
+          ["/jbase/faq/", "FAQ"],
+          ["/jbase/jedi/", "jEDI"],
+          ["/jbase/miscellaneous/", "Miscellaneous"],
+          ["/jbase/reference-guides/", "Reference Guides"],
+          ["/jbase/release-notes/", "Release Notes"]
+        ]
+      },
       {
         title: "MV Connect",
         path: "/mv-connect/",
