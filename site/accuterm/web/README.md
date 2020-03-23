@@ -29,10 +29,8 @@ After launching your session and connecting to the server, you will have four op
   
 ## Table of Contents
 
-* [Getting Started](./getting-started/README.md)
-* [Release Notes](./release-notes/README.md)
 * [Installing AccuTerm IO Server](./installing-accuterm-io-server/README.md)
-* [Creating Profiles](./user-management/creating-profiles/README.md)  
+* [Creating Profiles](./creating-profiles/README.md)  
 * [Profiles](./profiles/README.md)
   * [Change AccuTerm.IO Password](./profiles/clipboard-settings/README.md)  
   * [Clipboard Settings](./profiles/clipboard-settings/README.md)  
