@@ -1,6 +1,6 @@
-# jBASE Knowledgebase
+# jBASE
 
-## jBASE Table of Contents
+## Table of Contents
 
 | <!----> | <!----> |
 | --- | --- |
