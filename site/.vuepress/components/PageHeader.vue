@@ -12,6 +12,7 @@
 
 <script>
 export default {
+    name: 'PageHeader',
     computed: {
         // Full object list: //github.com/darrenjennings/vuepress-plugin-reading-time#usage
         readingTime() { 
