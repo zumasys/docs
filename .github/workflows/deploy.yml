@@ -6,7 +6,7 @@ on:
 
 env:
   NODE_VERSION: "10.x"
-  SOURCE_DIR: "site/vuepress/dist"
+  SOURCE_DIR: "site/.vuepress/dist"
   VUE_APP_GITHUB_CLIENT_ID: ${{ secrets.VUE_APP_GITHUB_CLIENT_ID }}
   VUE_APP_GITHUB_CLIENT_SECRET: ${{ secrets.VUE_APP_GITHUB_CLIENT_SECRET }}
   VUE_APP_GOOGLE_TAG_MANAGER: ${{ secrets.VUE_APP_GOOGLE_TAG_MANAGER }}
