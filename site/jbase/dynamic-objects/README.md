@@ -4,7 +4,7 @@
 **Updated At:** 12/5/2019 11:18:10 AM  
 **Original Doc:** [dynamic-objects](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects)  
 **Original ID:** 298152  
-**Internal:** No  
+**Internal:** No
 
 ## Description
 
@@ -12,14 +12,14 @@
 
 A jBASE dynamic object can comprise either a list of values called an **array** or a list of key/value pairs called an **object**. An array is a vector and always maintains the same order in which it was created. An object is an unsorted list, and so when accessing the members of the object (e.g. through the $tojson() method or the $iterator) the order of the properties cannot be guaranteed.
 
-- [Introduction to Dynamic Objects](./../introduction-to-dynamic-objects)
-- [Object Creation](./../dynamic-objects-object-creation)
-- [Built-in Classes](./../dynamic-objects-built-in-classes)
-- [Built-in Methods](./../dynamic-objects-built-in-methods)
-- [Instance Methods](./../dynamic-objects-instance-methods)
-- [Static Methods](./../dynamic-objects-static-methods)
-- [Iteration: $iterator](./../iteration-$iterator)
-- [Inheritance](./../dynamic-objects-inheritance)
-- [Exception handling](./../exceptions-try-&-catch-&-throw-&-$setcatch%28%29)
+- [Introduction to Dynamic Objects](./introduction-to-dynamic-objects)
+- [Object Creation](./dynamic-objects-object-creation)
+- [Built-in Classes](./dynamic-objects-built-in-classes)
+- [Built-in Methods](./dynamic-objects-built-in-methods)
+- [Instance Methods](./dynamic-objects-instance-methods)
+- [Static Methods](./dynamic-objects-static-methods)
+- [Iteration: \$iterator](./iteration-$iterator)
+- [Inheritance](./dynamic-objects-inheritance)
+- [Exception handling](./exceptions-try-&-catch-&-throw-&-$setcatch%28%29)
 
-Back to [Dynamic Objects](./../README.md)
+Back to [Knowledgebase](./../README.md)

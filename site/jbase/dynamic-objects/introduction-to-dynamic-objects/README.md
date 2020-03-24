@@ -4,7 +4,7 @@
 **Updated At:** 2/11/2019 7:51:16 AM  
 **Original Doc:** [dynamic-objects-tour](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-tour)  
 **Original ID:** 298072  
-**Internal:** No  
+**Internal:** No
 
 **Tags:**
 <badge text='method' vertical='middle' />
@@ -26,14 +26,14 @@ or with a compiler directive:
 
 Alternatively:
 
-a) You can enable all JabbaScript syntax by setting the **JBC\_JPP2** environment variable to **jabba**:
+a) You can enable all JabbaScript syntax by setting the **JBC_JPP2** environment variable to **jabba**:
 
 ```
 set JBC_JPP2=jabba       [Windows]
 export JBC_JPP2=jabba    [Linux/Aix]
 ```
 
-b) jBASE can auto-detect *existing*Dynamic Objects source code by setting the **JBC\_JPP2** environment variable to **auto**:
+b) jBASE can auto-detect *existing*Dynamic Objects source code by setting the **JBC_JPP2** environment variable to **auto**:
 
 ```
 set JBC_JPP2=auto        [Windows]
@@ -64,21 +64,19 @@ Other ways to create an object:
 - by calling a method of the class that creates and returns an object or an array
 - with one of the Dynamic Objects built-in methods.
 
-
-For example, here we create an object from a JSON string using the built-in [**$fromjson()**](./../method-$fromjson%28%29) method:
+For example, here we create an object from a JSON string using the built-in [**\$fromjson()**](./../method-$fromjson%28%29) method:
 
 ```
 json = \{"Firstname":"Daniel","Lastname":"Klein"}\
 obj = json->$fromjson()
 ```
 
-Under the covers, the **$fromjson()** built-in method uses the **new** keyword.
+Under the covers, the **\$fromjson()** built-in method uses the **new** keyword.
 
 An object has access to any properties that have been created by the class's constructor method. Additionally, you can:
 
 - Dynamically assign properties to the instance.
 - Send messages to instances of the class using the pre-defined methods defined for the Class.
-
 
 Let's create an object and a couple of properties:
 
@@ -94,7 +92,7 @@ To access those properties:
 crt obj1->name : " lived in " : obj1->city : "."
 ```
 
-There are a number of methods that are built into Dynamic Objects. These methods all begin with "$".
+There are a number of methods that are built into Dynamic Objects. These methods all begin with "\$".
 
 For example, to convert our object to a JSON string we can do this:
 
@@ -125,11 +123,9 @@ crt "Our object has ":obj1->$size():" properties."
 
 Let's create a method for our Class. This method will simply add 2 numbers and assign the result to the "sum" property of the object. Note that the "sum" property is created dynamically; there is no template for the class, hence no need to declare it in advance.
 
-
 > **Note:**
-> 
+>
 > At the present time, the source code for methods must be stored in a separate record because they are compiled to shared objects in the same way as subroutines and functions. A near-future enhancement will allow programs and methods to coexist.
-
 
 ```
 method Tour::sum1(addend1, addend2)
@@ -181,7 +177,7 @@ total = obj1->sum3(1001,2002,345,999,876,555)
 crt "After calling sum3() the result is: ":oconv(total, "md0,")
 ```
 
-Use the built-in **$dump()** method to see the internal contents of the object:
+Use the built-in **\$dump()** method to see the internal contents of the object:
 
 ```
 equ verbose to 1  ;* show all properties of the object
@@ -221,7 +217,7 @@ Putting it all together (call this file **tour.jabba** \*\*\*):
     crt obj1->$tojson(beautify)
 ```
 
-...and the method code which, for now, must be a separate source code file (call this file **tour\_methods.jabba** \*\*\*:):
+...and the method code which, for now, must be a separate source code file (call this file **tour_methods.jabba** \*\*\*:):
 
 ```
     method Tour::sum1(addend1, addend2)
@@ -244,9 +240,9 @@ Putting it all together (call this file **tour.jabba** \*\*\*):
     end method
 ```
 
-Compile and catalog both programs (**tour.jabba** and **tour\_methods.jabba**).
+Compile and catalog both programs (**tour.jabba** and **tour_methods.jabba**).
 
-*\*\*\* When compiled and cataloged, the **.jabba** extension is dropped from the name, resulting in the names of the programs becoming **tour** and **tour\_methods**.*
+_\*\*\* When compiled and cataloged, the **.jabba** extension is dropped from the name, resulting in the names of the programs becoming **tour** and **tour_methods**._
 
 You can now run the **tour** program, you should see results like this:
 
@@ -293,19 +289,14 @@ Our JSON string contains an embedded array and an embedded JSON object.
 
 Running that code displays:
 
-``` json
+```json
 {
-        "int":42,
-        "string":"forty-two",
-        "jarray":[
-                1,
-                2,
-                3,
-                4
-        ],
-        "jbase":{
-                "jbase":"Is Great!"
-        }
+  "int": 42,
+  "string": "forty-two",
+  "jarray": [1, 2, 3, 4],
+  "jbase": {
+    "jbase": "Is Great!"
+  }
 }
 ```
 
@@ -381,4 +372,4 @@ Edit record again ?
 
 This is the end of our introduction. All current Dynamic Objects documentation can be found [here](./../dynamic-objects).
 
-Back to [Dynamic Objects - Overview](./../dynamic-objects/README.md)
+Back to [Dynamic Objects - Overview](./../README.md)

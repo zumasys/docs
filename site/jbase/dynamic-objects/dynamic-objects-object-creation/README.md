@@ -4,7 +4,7 @@
 **Updated At:** 4/16/2018 8:18:59 AM  
 **Original Doc:** [dynamic-objects-object-creation](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-object-creation)  
 **Original ID:** 299717  
-**Internal:** No  
+**Internal:** No
 
 There are 2 special methods, otherwise known as magic methods in other languages. These special methods function as interceptors that are automatically called when and object is created or its reference count goes to zero.
 
@@ -42,7 +42,7 @@ args = new object("$vararg")
 
 When an object is created, it automatically calls its [Constructor](./../dynamic-objects-instance-methods) method.
 
-If an object will not have any methods then it is not necessary to give the object a name, or use the built-in [**$jbase**](./../class-$jbase) class, in which case it can be created in any of these ways:
+If an object will not have any methods then it is not necessary to give the object a name, or use the built-in [**\$jbase**](./../class-$jbase) class, in which case it can be created in any of these ways:
 
 ```
 obj = new object
@@ -69,8 +69,8 @@ crt the_answer->$objecttype()  ;* Displays "object"
 crt the_answer->$tojson()      ;* Displays the original json string
 ```
 
-Under the covers, the built-in **$fromjson()** method uses **new object()**.
+Under the covers, the built-in **\$fromjson()** method uses **new object()**.
 
 Refer to the [Instance Methods](./../dynamic-objects-instance-methods) documentation for additional examples.
 
-Back to [Dynamic Objects - Overview](./../dynamic-objects/README.md)
+Back to [Dynamic Objects - Overview](./../README.md)

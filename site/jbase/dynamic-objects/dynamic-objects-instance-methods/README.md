@@ -4,7 +4,7 @@
 **Updated At:** 8/27/2018 12:28:15 PM  
 **Original Doc:** [dynamic-objects-instance-methods](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-instance-methods)  
 **Original ID:** 300351  
-**Internal:** No  
+**Internal:** No
 
 Other than the Dynamic Objects Built-in methods, you can create your own methods which are used by your own classes. These methods are similar to external subroutines or functions in that they perform some task and optionally return a result. However, methods differ from functions and subroutines in that they can only be used by a specific class, thus satisfying the Object Oriented (OO) concept of encapsulation.
 
@@ -124,7 +124,7 @@ Let's first show the methods that are involved as this is where most of the acti
     end method
 ```
 
-The constructor for the **Pets** class is an example of a **Variadic Method**, a method that accepts a variable number of arguments by creating an object using the built-in **$vararg** class.
+The constructor for the **Pets** class is an example of a **Variadic Method**, a method that accepts a variable number of arguments by creating an object using the built-in **\$vararg** class.
 
 Again, the reservered word **this** refers to the particular instance of the object, which is how properties are assigned to the object and how other properties and methods of that object are referenced.
 
@@ -283,7 +283,7 @@ Let's extend that code to shop at more than one place:
     another_todo->$dump(verbose)
 ```
 
-Note that we are calling the built-in **$dump()** method to show the internal representation of the **another\_todo** object.
+Note that we are calling the built-in **\$dump()** method to show the internal representation of the **another_todo** object.
 
 Running that code displays:
 
@@ -387,4 +387,4 @@ The JSON output is now:
 
 Dynamic Objects also supports [static methods](./../dynamic-objects-static-methods).
 
-Back to [Dynamic Objects - Overview](./../dynamic-objects/README.md)
+Back to [Dynamic Objects - Overview](./../README.md)

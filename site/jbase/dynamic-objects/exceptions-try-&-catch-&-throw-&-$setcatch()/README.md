@@ -1,10 +1,10 @@
-# Exceptions: try / catch / throw / $setcatch()
+# Exceptions: try / catch / throw / \$setcatch()
 
 **Created At:** 7/11/2019 12:56:51 PM  
 **Updated At:** 7/16/2019 8:14:26 AM  
 **Original Doc:** [exceptions-try-catch-throw-setcatch](https://docs.jbase.com/42948-dynamic-objects/exceptions-try-catch-throw-setcatch)  
 **Original ID:** 404335  
-**Internal:** No  
+**Internal:** No
 
 Dynamic Objects supports **try**/ **catch**/ **throw** like this:
 
@@ -67,10 +67,10 @@ Oops, we had an exception
 As can be seen from the above example, when an exception is raised we create an exception object. This exception object can be stored in a variable that is passed next to the **catch** statement. The properties of the exception object are:
 
 - **message** - The message that accompanied the exception
-- **message\_operands** - Any operands to the message that accompanied the exception
-- **message\_long** - A concatenation of the message and message operands
-- **catch\_count** - See "Recursive Catch Policy" below
-- **recursive\_catch\_policy** - See "Recursive Catch Policy" below
+- **message_operands** - Any operands to the message that accompanied the exception
+- **message_long** - A concatenation of the message and message operands
+- **catch_count** - See "Recursive Catch Policy" below
+- **recursive_catch_policy** - See "Recursive Catch Policy" below
 - **try** - Shows the source name and line number where the **try** statement was executed
 - **throw** - Shows the source name and line number where the exception was raised
 - **stack** - An array of source names and line numbers showing the stack of subroutines/functions/methods below the current routine.
@@ -241,7 +241,7 @@ We've had a catch
 Stopping now
 ```
 
-### Recursive Catch policy and the $setcatch() Method
+### Recursive Catch policy and the \$setcatch() Method
 
 The question to ask is this -- "What happens if you are inside a **catch** block and another exception is raised while execution an exception block?".
 
@@ -285,16 +285,16 @@ This should be the result of the divide by zero
 Error message for this catch is DIVIDE_ZERO
 ```
 
-This default behavior therefore is to invalidate and take out of context the try/catch block as soon as the **catch** is executed. This behaviour can be changed with the new internal method called **$setcatch()**.
+This default behavior therefore is to invalidate and take out of context the try/catch block as soon as the **catch** is executed. This behaviour can be changed with the new internal method called **\$setcatch()**.
 
-With **$setcatch()** you can change the recursive exception policy as follows
+With **\$setcatch()** you can change the recursive exception policy as follows
 
-- **$setcatch(-1)** This is the default policy and shows to invalidate the try/catch block once the first exception is thrown.
-- **$setcatch(0)** If an exception is thrown, go back to the 'catch' statement again. This will happen indefinitely.
-- **$setcatch(nn)** If an exception is thrown, go back to the 'catch' statement again, but only do this a maximum of nn times.
-- **$getcatch()** Simply return the current value for the recursive exception policy.
+- **\$setcatch(-1)** This is the default policy and shows to invalidate the try/catch block once the first exception is thrown.
+- **\$setcatch(0)** If an exception is thrown, go back to the 'catch' statement again. This will happen indefinitely.
+- **\$setcatch(nn)** If an exception is thrown, go back to the 'catch' statement again, but only do this a maximum of nn times.
+- **\$getcatch()** Simply return the current value for the recursive exception policy.
 
-Note that this call to **$setcatch()** only affects the current running program. It does not affect any parent programs, nor does it affect any child programs started with PERFORM/EXECUTE.
+Note that this call to **\$setcatch()** only affects the current running program. It does not affect any parent programs, nor does it affect any child programs started with PERFORM/EXECUTE.
 
 In the following example, an "unhandled exception" will be raised as an exception within the catch block has no outer block to execute when **throw "ANOTHER"** is executed
 
@@ -353,9 +353,9 @@ Inside catch
 
 As shown much earlier, the exception object has a couple of properties that are relevant to this.
 
-The property **recursive\_catch\_policy** shows the policy as set by **$setcatch()**.
+The property **recursive_catch_policy** shows the policy as set by **\$setcatch()**.
 
-The property **catch\_count** shows how many times we have been called recursively. Therefore a small change to the above example means that if we are called recursively 5 times, we will stop the program.
+The property **catch_count** shows how many times we have been called recursively. Therefore a small change to the above example means that if we are called recursively 5 times, we will stop the program.
 
 ```
 debian-~/tmp9: cat test16.jabba
@@ -381,10 +381,10 @@ Inside catch for loop 5
 We have exceeded our recursion count
 ```
 
-A similar outcome would occur if you called **$setcatch()** like this:
+A similar outcome would occur if you called **\$setcatch()** like this:
 
 ```
     $jbase->$setcatch(5)
 ```
 
-Back to [Dynamic Objects - Overview](./../dynamic-objects/README.md)
+Back to [Dynamic Objects - Overview](./../README.md)

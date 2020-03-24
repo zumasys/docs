@@ -4,7 +4,7 @@
 **Updated At:** 3/13/2018 9:44:04 AM  
 **Original Doc:** [dynamic-objects-static-methods](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-static-methods)  
 **Original ID:** 300559  
-**Internal:** No  
+**Internal:** No
 
 A **Static Method** is one that can be used without creating an object. This means the calling object (identified as **this-&gt;**) is either illegal or inconsequential.
 
@@ -63,4 +63,4 @@ jsh ~ -->find_nth_root 6 12345
 The nearest integer with nth root 6 of 12345 = 5
 ```
 
-Back to [Dynamic Objects - Overview](./../dynamic-objects/README.md)
+Back to [Dynamic Objects - Overview](./../README.md)

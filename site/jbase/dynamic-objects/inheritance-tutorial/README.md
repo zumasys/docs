@@ -4,9 +4,9 @@
 **Updated At:** 12/6/2019 1:46:02 PM  
 **Original Doc:** [inheritance-tutorial](https://docs.jbase.com/42948-dynamic-objects/inheritance-tutorial)  
 **Original ID:** 502408  
-**Internal:** No  
+**Internal:** No
 
-The **$inherit** method allows a class to inherit all the properties and methods of the passed object type. You can pass one or more object like this:
+The **\$inherit** method allows a class to inherit all the properties and methods of the passed object type. You can pass one or more object like this:
 
 ```
 customer = new object("Customer")
@@ -19,14 +19,14 @@ In the above example, the **Transaction** object will inherit all the methods an
 
 This inheritance is usually performed in the constructor, as shown below, but can be called outside the constructor, as shown above.
 
-In the above example, 2 parameters were passed to $inherit. There can be any number of parameters passed, and they can be objects (in which case the properties and classes are inherited) or can be simple names of classes to inherit, like this:
+In the above example, 2 parameters were passed to \$inherit. There can be any number of parameters passed, and they can be objects (in which case the properties and classes are inherited) or can be simple names of classes to inherit, like this:
 
 ```
 transaction = new object("Transaction")
 transaction->$inherit("Customer", "Sales")
 ```
 
-In the example below, we create a simple class called **Customer** with 2 properties, **name** and **town**. We then create a second object whose class-name is **Sales** and we *inherit* the properties from the **Customer**.
+In the example below, we create a simple class called **Customer** with 2 properties, **name** and **town**. We then create a second object whose class-name is **Sales** and we _inherit_ the properties from the **Customer**.
 
 ```
 customer = new object("Customer")   ;* Allocate an object whose class name is 'customer'
@@ -81,4 +81,4 @@ The screen output would be:
 }
 ```
 
-Back to [Dynamic Objects - Overview](./../dynamic-objects/README.md)
+Back to [Dynamic Objects - Overview](./../README.md)

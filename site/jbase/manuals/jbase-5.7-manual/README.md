@@ -4,7 +4,7 @@
 **Updated At:** 2/22/2019 5:52:49 PM  
 **Original Doc:** [jbase-57-manual](https://docs.jbase.com/release-notes/jbase-57-manual)  
 **Original ID:** 299281  
-**Internal:** No  
+**Internal:** No
 
 **Tags:**
 <badge text='jbase 5.7' vertical='middle' />
@@ -16,7 +16,7 @@ Welcome to jBASE!  jBASE is a dynamic, high-performance and flexible NoSQL data
 
 For summary of new features in jBASE 5.7, see [Release Notes for jBASE 5.7](./../jbase-5.7-release-notes).
 
-- [Dynamic Objects](./../../dynamic-objects/dynamic-objects)
+- [Dynamic Objects](./../../dynamic-objects)
 - [Dynamic Files](./../../files/dynamic-files)
 - [jBASE Profiles](./../../jbase/profiles/jbase-profiles)
 - [Upgraded Java drivers for jRemote](./../../jagent/introduction-to-jremote)

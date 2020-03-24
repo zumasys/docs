@@ -4,7 +4,7 @@
 **Updated At:** 12/20/2019 10:17:21 PM  
 **Original Doc:** [jbase-encryption-database-security](https://docs.jbase.com/30301-jbase/jbase-encryption-database-security)  
 **Original ID:** 322165  
-**Internal:** No  
+**Internal:** No
 
 ## Abstract
 
@@ -82,11 +82,11 @@ jsh ~ -->
 
 ### Info #2
 
-- The **filename** used with the **-f** option can be full or relative. If the **-f** option is not used then the default is **$JBCRELEASEDIR/config/filesecurity**.
+- The **filename** used with the **-f** option can be full or relative. If the **-f** option is not used then the default is **\$JBCRELEASEDIR/config/filesecurity**.
 - The **AES** cipher is **AES256**
 - [PBKDF2](https://en.wikipedia.org/wiki/PBKDF2) is a way of obscuring the password
 
-The last step is to **load** the profile into shared memory. ***This needs to be done EACH TIME the system is rebooted or a new security profile needs to be activated.***
+The last step is to **load** the profile into shared memory. **_This needs to be done EACH TIME the system is rebooted or a new security profile needs to be activated._**
 
 ```
 jsh ~ -->jsecurity load
@@ -235,7 +235,7 @@ jsh ~\ebp -->
 - Dynamic Files can be created as encrypted (jBASE 5.7 only)
 - **create-file** with **type=jbc** recognizes the **encrypted=true** option, e.g. **create-file data bp type=ud encrypted=true** (jBASE 5.7 only)
 - At this time, the logs created by **[Audit Logging](./../introduction-to-audit-logging)** are not encrypted. This will be implemented in a future release.
-- The following code, which uses a feature of [**Dynamic Objects**](./../../dynamic-objects/dynamic-objects), can be used to programmatically determine if a file is encrypted:
+- The following code, which uses a feature of [**Dynamic Objects**](./../../dynamic-objects), can be used to programmatically determine if a file is encrypted:
 
 ```
 PROGRAM encrypted

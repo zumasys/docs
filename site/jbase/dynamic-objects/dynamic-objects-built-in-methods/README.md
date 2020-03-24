@@ -4,11 +4,11 @@
 **Updated At:** 1/10/2020 2:17:00 PM  
 **Original Doc:** [dynamic-objects-built-in-methods](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-built-in-methods)  
 **Original ID:** 299323  
-**Internal:** No  
+**Internal:** No
 
 Dynamic Objects contains a number of built-in methods that can be applied to any object where it makes sense, and some of them can even be applied to variables that are not objects.
 
-All built-in methods start with "$".
+All built-in methods start with "\$".
 
 - [\$append()](./../method-$append%28%29)
 - [\$classname()](./../method-$classname%28%29)
@@ -33,8 +33,8 @@ All built-in methods start with "$".
 - [\$objecttype()](./../method-$objecttype%28%29)
 - [\$prepend()](./../method-$prepend%28%29)
 - [\$refcount()](./../method-$refcount%28%29)
-- [\$setboolean()](./../method-$setboolean%28%29)  
-- [\$setstring()](./../method-\$setstring()/README.md)  
+- [\$setboolean()](./../method-$setboolean%28%29)
+- [\$setstring()](<./../method-$setstring()/README.md>)
 - [\$setnull()](./../method-$setnull%28%29)
 - [\$setserialize()](./../method-$setserialize%28%29)
 - [\$size()](./../method-$size%28%29)
@@ -44,4 +44,4 @@ All built-in methods start with "$".
 - [\$tojson()](./../method-$tojson%28%29)
 - [\$valuetype()](./../method-$valuetype%28%29)
 
-Back to [Dynamic Objects - Overview](./../dynamic-objects/README.md)
+Back to [Dynamic Objects - Overview](./../README.md)
