@@ -1,31 +1,27 @@
 # SP-NEWTAB
 
-**Created At:** 4/4/2018 9:45:21 AM  
-**Updated At:** 1/24/2019 8:08:44 AM  
-**Original Doc:** [306221-sp-newtab](https://docs.jbase.com/44205-spooler/306221-sp-newtab)  
-**Original ID:** 306221  
-**Internal:** No  
-
 ## Description
 
-The **SP-NEWTAB** command creates a new spooler structure. It takes the general form:
+The **SP-NEWTAB** command creates and initializes a new spooler structure. It takes the general form:
 
-```
+```nolinenumbers
 SP-NEWTAB
 ```
 
 ## Details
 
-This command can only be executed by root or an administrator. The default directory in which the spooler files are created is called "jspooler". However, **SP-NEWTAB** allows a different directory to be specified. Before a user can access the spooler, its location must be specified using the environment variable JBCSPOOLERDIR. On UNIX platforms, **SP-NEWTAB** prompts for the owner and group to be assigned to the spooler files. If not specified the owner is set to "root" and the group is set to "lp".
+The default directory in which the spooler files are created is called **jspooler** in the directory defined by the [JBCDATADIR](../../environment-variables/jbcdatadir/README.md) environment variable. However, **SP-NEWTAB** allows a different directory to be specified by setting the [JBCSPOOLERDIR](../../environment-variables/jbcspoolerdir/README.md) environment variable. **JBCSPOOLERDIR** can also be used to create, and point to, other spoolers.
 
-**SP-NEWTAB** allows security settings for form queues and print jobs. These can be changed subsequently by using the commands [SP-SECURITY](./../sp-security), [SP-SECURITY-JOBS](./../sp-security-jobs), [SP-SECURITY-OWNER](./../sp-security-owner) and [SP-SECURITY-QUEUE](./../sp-security-queue). Please refer to the documentation for a full discussion of the security settings.
+**SP-NEWTAB** allows security settings for form queues and print jobs. The default assignment is **CREATOR** however this can be changed within the **SP-NEWTAB** dialog or subsequently by using the commands [SP-SECURITY](./../sp-security), [SP-SECURITY-JOBS](./../sp-security-jobs), [SP-SECURITY-OWNER](./../sp-security-owner) and [SP-SECURITY-QUEUE](./../sp-security-queue). Please refer to the documentation for a full discussion of the security settings.
 
-The **SP-NEWTAB** command does not kill despooling daemons. If a process was assigned to any formqueue other than STANDARD when the **SP-NEWTAB** command was executed, the process will be assigned to NO QUEUE.
-
-The default formqueue STANDARD is re-initialized with a LPTR logical device type.
+The default formqueue STANDARD is re-initialized with a LPTR device type on Unix type systems.
 
 > ### Note
 >
-> **SP-NEWTAB** removes all print jobs and form queues. The STANDARD formqueue is recreated.
+> **SP-NEWTAB** removes all print jobs and form queues. The **STANDARD** formqueue is recreated as follows:
+>
+> On Unix type systems, the **STANDARD** for queue is re-initialized with a **LPTR** device type and attempts to determine a default device.
+>
+> On Windows, the **STANDARD** form queue is re-initialized with a **PROG** device type that utilizes the Windows default printer. This printer must support text-based printing however additional printing capabilities, such as producing PDF output, can be achieved with third party products. An example of this is in the **%JBCRELEAEDIR%\samples\Spooler** folder.
 
 Back to [Spooler.](./../jbase-spooler)
