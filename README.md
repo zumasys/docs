@@ -1,11 +1,6 @@
 # Zumasys Documentation
 
-![](https://github.com/zumasys/docs/workflows/Deploy%20to%20Azure/badge.svg)
-
-This is a [VuePress](https://vuepress.vuejs.org/) documentation application that leverages [GitHub](https://github.com) as the
-repository of documentation. The repository is currently hosted in the [Zumasys GitHub](https://github.com/zumasys/docs) and the app
-is available at [Zumasys BetaDocs](https://betadocs.zumasys.com). The documentation was created by way of
-[HelpJuice-to-Markdown](https://github.com/itsxallwater/helpjuice-to-markdown).
+This is a [VuePress](https://vuepress.vuejs.org/) documentation application that leverages [GitHub](https://github.com) as the repository of documentation. The repository is currently hosted in the [Zumasys GitHub](https://github.com/zumasys/docs) and the app is available at [Zumasys Docs](https://docs.zumasys.com). The documentation was created by way of [HelpJuice-to-Markdown](https://github.com/itsxallwater/helpjuice-to-markdown). Search functionality is provided by [Algolia DocSearch](https://docsearch.algolia.com/docs/what-is-docsearch) which crawls the documentation every 24 hours for updating and indexing. The application itself is built and deployed as a static site hosted on Azure Storage via a GitHub action.
 
 ## Directory structure
 
@@ -93,32 +88,11 @@ To run the application locally:
 
 ## Todo List
 
-- [x] Add sidebar links matching docs directory structure
-- [x] Clean up directory structure under the Zumasys folder (i.e. AccuTerm folder -> Mobile and Web)
-- [x] Clean up root directory (move docs project into sub-dir)
-- [ ] Add [Table of Contents](https://vuepress.vuejs.org/guide/markdown.html#table-of-contents)
-- [ ] More [config](https://vuepress.vuejs.org/config/)
-- [ ] More [theme config](https://vuepress.vuejs.org/theme/default-theme-config.html)
-- [ ] More [customization](https://vuepress.vuejs.org/guide/markdown.html)
-- [x] Pull images from HelpJuice into static assets of this project and update links
-- [x] Add [Vssue](https://vssue.js.org/) plugin for comments
-- [x] Add breadcrumbs/navigation trail to docs layout (not seeing a plugin or config for this so we'll do it in Vue)
-- [x] Add [Google Analytics](https://v1.vuepress.vuejs.org/plugin/official/plugin-google-analytics.html) plugin or the [minimal](https://github.com/webmasterish/vuepress-plugin-minimal-analytics) version
-- [ ] Add [Clean URLs](https://vuepress.github.io/en/plugins/clean-urls) plugin (may not be necessary with current directory/README.md structure)
-- [x] Add [Git Log](https://vuepress.github.io/en/plugins/git-log/) plugin (to add Git data to \$page object)
-- [x] Add [Algolia Search](https://community.algolia.com/docsearch/) plugin ([more docs](https://vuepress.vuejs.org/theme/default-theme-config.html#algolia-docsearch))
-- [x] Add [nprogress](https://vuepress.github.io/en/plugins/nprogress/#installation) plugin (to show global page loading bar)
-- [x] Add [reading progress](https://github.com/tolking/vuepress-plugin-reading-progress) plugin (to show reading progress of a document)
-- [x] Add [TypeScript](https://vuepress.github.io/en/plugins/typescript/#installation) plugin (to allow use of TypeScript in VuePress `.vue` files)
 - [ ] Add [check-md](https://github.com/ulivz/vuepress-plugin-check-md) plugin (to check for dead links in Markdown)
 - [ ] Add [flowchart](https://flowchart.vuepress.ulivz.com/#install) plugin (to define flowcharts in docs)
 - [ ] Add [export](https://github.com/ulivz/vuepress-plugin-export) plugin (to allow for export of all docs to PDF)
 - [ ] Add [sitemap](https://github.com/ekoeryanto/vuepress-plugin-sitemap) plugin (to allow for auto creation of sitemap.xml file)
-- [x] Add [SEO](https://github.com/lorisleiva/vuepress-plugin-seo) plugin (for automatic SEO meta tag generation)
-- [ ] Related to above, may also need [autometa](https://github.com/webmasterish/vuepress-plugin-autometa) plugin
-- [x] Add [reading time](https://github.com/darrenjennings/vuepress-plugin-reading-time) plugin (to show etsimated reading time for an article)
-- [x] Add [social share](https://github.com/ntnyq/vuepress-plugin-social-share) plugin (to activate social network share icons)
-- [x] Add [code copy](https://github.com/znicholasbrown/vuepress-plugin-code-copy) plugin (to allow for click-to-copy of source code)
+- [ ] May also need [autometa](https://github.com/webmasterish/vuepress-plugin-autometa) plugin
 - [ ] Add [img lazy](https://github.com/tolking/vuepress-plugin-img-lazy) plugin (to add lazy loading for images)
 - [ ] Add [back to top](https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-back-to-top) plugin (for automatic back-to-top links)
 - [ ] Add [PWA](https://v1.vuepress.vuejs.org/plugin/official/plugin-pwa.html)
@@ -126,6 +100,27 @@ To run the application locally:
 - [ ] Convert TODOs to GitHub Issues
 - [ ] Add jBASE Basic, Jabba to [Prism](https://prismjs.com/#languages)
 - [ ] Clean up brand consistency (e.g. 'AccuTerm' vs 'Accuterm')
-- [x] Add redirects from old HelpJuice docs to point to new docs (to preserve SEO and avoid link rot)
 - [ ] Clean up marketing website links to docs
 - [ ] Update 404 page to have featured content
+- [ ] More [config](https://vuepress.vuejs.org/config/)
+- [ ] More [theme config](https://vuepress.vuejs.org/theme/default-theme-config.html)
+- [ ] More [customization](https://vuepress.vuejs.org/guide/markdown.html)
+- [x] Add sidebar links matching docs directory structure
+- [x] Clean up directory structure under the Zumasys folder (i.e. AccuTerm folder -> Mobile and Web)
+- [x] Clean up root directory (move docs project into sub-dir)
+- [x] Pull images from HelpJuice into static assets of this project and update links
+- [x] Add [Vssue](https://vssue.js.org/) plugin for comments
+- [x] Add breadcrumbs/navigation trail to docs layout (not seeing a plugin or config for this so we'll do it in Vue)
+- [x] Add [Google Analytics](https://v1.vuepress.vuejs.org/plugin/official/plugin-google-analytics.html) plugin or the [minimal](https://github.com/webmasterish/vuepress-plugin-minimal-analytics) version
+- [x] Add [Git Log](https://vuepress.github.io/en/plugins/git-log/) plugin (to add Git data to \$page object)
+- [x] Add [Algolia Search](https://community.algolia.com/docsearch/) plugin ([more docs](https://vuepress.vuejs.org/theme/default-theme-config.html#algolia-docsearch))
+- [x] Add [nprogress](https://vuepress.github.io/en/plugins/nprogress/#installation) plugin (to show global page loading bar)
+- [x] Add [reading progress](https://github.com/tolking/vuepress-plugin-reading-progress) plugin (to show reading progress of a document)
+- [x] Add [TypeScript](https://vuepress.github.io/en/plugins/typescript/#installation) plugin (to allow use of TypeScript in VuePress `.vue` files)
+- [x] Add [SEO](https://github.com/lorisleiva/vuepress-plugin-seo) plugin (for automatic SEO meta tag generation)
+- [x] Add [reading time](https://github.com/darrenjennings/vuepress-plugin-reading-time) plugin (to show etsimated reading time for an article)
+- [x] Add [social share](https://github.com/ntnyq/vuepress-plugin-social-share) plugin (to activate social network share icons)
+- [x] Add [code copy](https://github.com/znicholasbrown/vuepress-plugin-code-copy) plugin (to allow for click-to-copy of source code)
+- [ ] ~~Add redirects from old HelpJuice docs to point to new docs (to preserve SEO and avoid link rot)~~
+- [ ] ~~Add [Table of Contents](https://vuepress.vuejs.org/guide/markdown.html#table-of-contents)~~
+- [ ] ~~Add [Clean URLs](https://vuepress.github.io/en/plugins/clean-urls) plugin (may not be necessary with current directory/README.md structure)~~
