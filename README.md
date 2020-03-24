@@ -1,5 +1,7 @@
 # Zumasys Documentation
 
+![](https://github.com/zumasys/docs/workflows/Deploy%20to%20Azure/badge.svg)
+
 This is a [VuePress](https://vuepress.vuejs.org/) documentation application that leverages [GitHub](https://github.com) as the
 repository of documentation. The repository is currently hosted in the [Zumasys GitHub](https://github.com/zumasys/docs) and the app
 is available at [Zumasys BetaDocs](https://betadocs.zumasys.com). The documentation was created by way of
