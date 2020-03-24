@@ -1,5 +1,7 @@
 # Zumasys Documentation
 
+![](https://github.com/zumasys/docs/workflows/Deploy%20to%20Azure/badge.svg)
+
 This is a [VuePress](https://vuepress.vuejs.org/) documentation application that leverages [GitHub](https://github.com) as the repository of documentation. The repository is currently hosted in the [Zumasys GitHub](https://github.com/zumasys/docs) and the app is available at [Zumasys Docs](https://docs.zumasys.com). The documentation was created by way of [HelpJuice-to-Markdown](https://github.com/itsxallwater/helpjuice-to-markdown). Search functionality is provided by [Algolia DocSearch](https://docsearch.algolia.com/docs/what-is-docsearch) which crawls the documentation every 24 hours for updating and indexing. The application itself is built and deployed as a static site hosted on Azure Storage via a GitHub action.
 
 ## Directory structure
