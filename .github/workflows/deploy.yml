@@ -5,8 +5,6 @@ on:
       - master
 
 env:
-  AZURE_INDEX_DOCUMENT_NAME: "index.html"
-  AZURE_ERROR_DOCUMENT_NAME: ""
   NODE_VERSION: "10.x"
   SOURCE_DIR: "./site/vuepress/dist"
   VUE_APP_GITHUB_CLIENT_ID: ${{ secrets.VUE_APP_GITHUB_CLIENT_ID }}
@@ -33,14 +31,9 @@ jobs:
           npm install
           npm run build --if-present
           npm run test --if-present
-      - name: "Deploy to Azure WebApp"
-        uses: feeloor/azure-static-website-deploy@master
-        env:
-          SOURCE_DIR: ${{ env.SOURCE_DIR }}
-          AZURE_CLIENT_ID: ${{ secrets.AZURE_CLIENT_ID }}
-          AZURE_TENANT_ID: ${{ secrets.AZURE_TENANT_ID }}
-          AZURE_SECRET: ${{ secrets.AZURE_SECRET }}
-          AZURE_SUBSCRIPTION_ID: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-          AZURE_STORAGE_ACCOUNT_NAME: ${{ secrets.AZURE_STORAGE_ACCOUNT_NAME }}
-          AZURE_INDEX_DOCUMENT_NAME: ${{ env.AZURE_INDEX_DOCUMENT_NAME }}
-          AZURE_ERROR_DOCUMENT_NAME: ${{ env.AZURE_ERROR_DOCUMENT_NAME }}
+      - name: "Deploy to Azure Storage"
+        uses: lauchacarro/Azure-Storage-Action@master
+        with:
+          enabled-static-website: "true"
+          folder: ${{ env.SOURCE_DIR }}
+          connection-string: ${{ secrets.CONNECTION_STRING }}
