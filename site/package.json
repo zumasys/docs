@@ -32,7 +32,7 @@
     "vuepress-bar": "^0.2.3",
     "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-git-log": "^1.0.1",
-    "vuepress-plugin-reading-progress": "^1.0.8"
+    "vuepress-plugin-reading-progress": "^1.0.9"
   },
   "devDependencies": {
     "typescript": "^3.8.3",
