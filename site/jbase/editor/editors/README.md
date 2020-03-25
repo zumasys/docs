@@ -6,11 +6,10 @@
 **Original ID:** 325730  
 **Internal:** No  
 
+| **Editors** |   |
+| --- | --- |
+| [jED Quick Reference](./../jed-quick-reference/README.md) | Basic commands for jED |
+| [jED](./../jed/README.md) | Complete reference |
+| [ED](./../ed/README.md) | The line editor. |
 
-
-| **Editors** |
-| --- |
-| [JED Quick Reference](325732-jed) | Basic commands for JED |
-| [JED](./../jed) | Complete reference |
-| [ED](./../ed) | The line editor. |
-
+Back to [Knowledgebase](./../README.md)

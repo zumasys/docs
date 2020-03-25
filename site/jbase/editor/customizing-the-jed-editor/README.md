@@ -6,8 +6,7 @@
 **Original ID:** 369617  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 The **.jedrc** file can be configured in the HOME directory or the current directory to override the default command definitions.  Generally, the syntax is as:
 
@@ -21,14 +20,10 @@ set opt=value{:value{:value...}}
 Where:
 
 - **set opt** sets option opt to true,
-- **set****noopt**sets option opt to false
-- **setopt**= value{:value{:value.....}} sets the command option to a specific value.
-
-
-
+- **set** **noopt** sets option opt to false
+- **setopt** = value{:value{:value.....}} sets the command option to a specific value.
 
 The options are as:
-
 
 | Option | Description |
 | --- | --- |
@@ -70,40 +65,40 @@ The options are as:
 | start\_line | moves the cursor to the start of the current line |
 | toggle\_insert | toggles between the Overwrite and Insert data entry modes |
 
-
-
-
-
 | Value | Description |
 | --- | --- |
 | key\_xxx | constant that corresponds to user's current terminfo definition |
 | ^X | ctrl&lt;A&gt; through ctrl&lt;Z&gt; |
 | \nnn | 3 digit octal number |
 
-
-
-
 An example of use may be as:
 
+```
+File . , Record .jedrc                                       Insert   17:17:17
 
-| File . , Record .jedrc                                       Insert   17:17:17<br>Command-&gt;<br>001 set delete\_line = ^D<br>002 set noexit\_record<br>003 set toggle\_insert = \006<br>004 set escape = \033:\117:\101<br>-------------------------------- End Of Record -------------------------------<br> |
-
+Command->
+001 set delete\_line = ^D
+002 set noexit\_record
+003 set toggle\_insert = \006
+004 set escape = \033:\117:\101
+-------------------------------- End Of Record -------------------------------
+```
 
 where:
 
-Line 1 sets the delete line command to control-D. By default, control-D must be pressed twice to delete a line.
-Line 2 removes the exit record command. The default is control-X. The user may still exit the record the log way - go to the command line and type **ex**.
-Line 3 sets the command to toggle between insert and overwrite modes to octal 6 (control-F).
-Line 4 specifies that the jed command line will be invoked when the octal characters 33, 117 and 101 are sent. This is the sequence issued by the F12 key from the jSHELL console on Windows.
+Line 1 sets the delete line command to control-D. By default, control-D must be pressed twice to delete a line.  
+Line 2 removes the exit record command. The default is control-X. The user may still exit the record the log way - go to the command line and type **ex**.  
+Line 3 sets the command to toggle between insert and overwrite modes to octal 6 (control-F).  
+Line 4 specifies that the jed command line will be invoked when the octal characters 33, 117 and 101 are sent. This is the sequence issued by the F12 key from the jSHELL console on Windows.  
 
-## Note:
+## Note
 
-
-> **Note:** In order to remap any of the command options, you may **first** need to "unmap" the current function.  Failure to unmap a command option that is already mapped will result in the new mapping being ignored.  For instance to set the delete command to Octal 31:
-> 
+> In order to remap any of the command options, you may **first** need to "unmap" the current function.  Failure to unmap a command option that is already mapped will result in the new mapping being ignored.  For instance to set the delete command to Octal 31:
+>
 > - set noback\_tab
 > - set delete\_line = \031
-> 
-> 
+>
+>
 > (the "set noback\_tab" is needed because \031 is already mapped to the value "noback\_tab")
 
+Back to [Editors](./../editors/README.md)
