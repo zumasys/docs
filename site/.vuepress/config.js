@@ -183,7 +183,7 @@ module.exports = {
           ["/jbase/jbc-error-handling/", "jBC Error Handling"],
           ["/jbase/jcl/", "jCL"],
           ["/jbase/jql/", "jQL"],
-          ["/jbase/jrfs/", "jRFS]"],
+          ["/jbase/jrfs/", "jRFS"],
           ["/jbase/accounts/", "Accounts"],
           ["/jbase/background-processing/", "Background Processing"],
           ["/jbase/conversion-processing/", "Conversion Processing"],
