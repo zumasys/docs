@@ -15,7 +15,7 @@
 <badge text='jr' vertical='middle' />
 <badge text='jrscan' vertical='middle' />
 
-## Description 
+## Description
 
 The new file type allows files to be created without specifying a size (modulo, separation, secondary size).  The file will dynamically resize itself as the data in the file grows, and it achieves this transparently and without any pauses that are often associated with other dynamic files. A CLEAR-FILE operation will return the file to its original size.
 
@@ -51,15 +51,8 @@ fbcentos-~: create-file DEMO 1 23
 [ 417 ] File DEMO created , type = JD
 ```
 
-### 
-
-
-
-> ### Note: 
-> 
-> Effective as of jBASE 5.7.1, all files in an account can be converted to Dynamic by issuing this command: [**jrf**](./../jrf)**-E \***
-
-
-
+### Note
+>
+> Effective as of jBASE 5.7.1, all files in an account can be converted to Dynamic by issuing this command: [**jrf**](./../jrf) **-E \***
 
 Return to [Files](./../jbase-files)

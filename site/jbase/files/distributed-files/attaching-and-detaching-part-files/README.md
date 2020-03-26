@@ -10,7 +10,7 @@
 <badge text='distributed files' vertical='middle' />
 <badge text='part files' vertical='middle' />
 
-## Description 
+## Description
 
 Files are attached to a distributed file using the [CREATE-DISTRIB](./../create-distrib-command) command with the -a option. A file must already exist before it can be attached to a distributed file.
 
@@ -35,3 +35,5 @@ A part file can be detached from a distributed file using the create-distrib com
 jsh DEMO ~ --> create-distrib -d DISTCUST 4
 Part file 'DISTCUST.SOUTH', Part number 4 deleted
 ```
+
+Back to [Distributed Files](./../README.md)

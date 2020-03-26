@@ -9,8 +9,6 @@
 **Tags:**
 <badge text='distributed files' vertical='middle' />
 
-
-
 | <!----> | <!----> |
 | --- | --- |
 | [Overview](./../distributed-files-overview) | How distributed files function. |
@@ -25,3 +23,4 @@
 | [Notes](./../considerations-for-distributed-files) | Considerations when using distributed files. |
 | [Example](./../distributed-files-examples) | Steps for creating a distributed file. |
 
+Back to [Files](./../README.md)

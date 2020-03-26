@@ -24,7 +24,7 @@ The **sysrestore** utility can be used to restore multiple accounts from a FILE-
 | U | restoring Ultimate file save |
 | V | verify save |
 | Z | restoring SMA file save |
-| -b**n** | modulo blocking ratio, default value 1 - 4k, where **n** can be:<br><br>| **8**<br> | Source machine used half k frames<br> |<br>| **4**<br> | Source machine used 1k frames<br> |<br>| **2**<br> | Source machine used 2k frames<br> |<br><br> |
+| -b**n** | modulo blocking ratio, default value 1 - 4k |
 | -rfilename | resize filename |
 | -z | force OOG size to one |
 

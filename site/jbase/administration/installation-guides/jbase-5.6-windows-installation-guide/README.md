@@ -119,7 +119,7 @@ Applies to: Express **Advanced**
 
 **Start telnet server** The jBASE telnet server is required to support remote connections to jBASE over telnet. The telnet server runs as a Windows service. By default, the telnet server listens on TCP port 23. See [Windows Telnet](./../../../jbase/windows-telnet-%28telnetd.exe%29) article for information on configuring the jBASE telnet server.
 
-**Start jRCS service** The jBASE Remote Connectivity Server (jRCS) provides remote access to your jBASE system. jBASE System Manager uses this service to perform management tasks on your jBASE system. By default, the jRCS server listens on TCP port 8236. See the jBASE knowledgebase article [JRCS](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/JRCS_JRCS.htm) for more information regarding jRCS.
+**Start jRCS service** The jBASE Remote Connectivity Server (jRCS) provides remote access to your jBASE system. jBASE System Manager uses this service to perform management tasks on your jBASE system. By default, the jRCS server listens on TCP port 8236. See the jBASE knowledgebase article [jRCS](./../../../connectivity/jbase-remote-connectivity-server-(jrcs)/README.md) for more information regarding jRCS.
 
 9. Type a username to be created for the jBASE Administrator. The installer will create a local Windows user account who will "own" the jBASE system files, and can be used to perform jBASE administrative tasks such as creating new jBASE accounts. If the user does not exist, the installer will create the user for you. Then click Next.
 
@@ -180,3 +180,5 @@ The installation of jBASE is complete.  Continue on to [Installing the Compiler
 [Creating Accounts and Users](./../create-accounts-and-users)
 
 [Manual License Key Installation](./../manual-license-key-installation)
+
+Back to [Installation Guides](./../README.md).

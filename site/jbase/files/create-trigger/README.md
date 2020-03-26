@@ -6,8 +6,7 @@
 **Original ID:** 335218  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 The CREATE-TRIGGER ( aka CREATE.TRIGGER ) command is used to specify the database events for which the trigger subroutine is called
 
@@ -15,39 +14,31 @@ The CREATE-TRIGGER ( aka CREATE.TRIGGER ) command is used to specify the databas
 CREATE-TRIGGER -Options FileName {triggername|*} subroutine
 ```
 
+Where **Options** can be:
 
-
-Where Options can be:
-
-
-
-
-| Option<br> | Description<br> |
+| Option | Description |
 | --- | --- |
-| -a<br> | Trigger can amend the record<br> |
-| -d<br> | Trigger can be debugged<br> |
-| -t<br> | trigger can terminate the update<br> |
-| -o<br> | Overwrite any existing trigger definition<br> |
+| -a | Trigger can amend the record |
+| -d | Trigger can be debugged |
+| -t | trigger can terminate the update |
+| -o | Overwrite any existing trigger definition |
 
+## Trigger Names (types of triggers)
 
-Trigger Names (types of triggers)
-
-
-| Option<br> | Description<br> |
+| Option | Description |
 | --- | --- |
-| POSTOPEN<br> | Called before a file is opened<br> |
-| PREREAD<br> | Called before a item is read<br> |
-| POSTREAD<br> | Called after a item is read<br> |
-| PREWRITE<br> | Called before a item is written to disk<br> |
-| POSTWRITE<br> | Called after a item is written to disk<br> |
-| PREDELETE<br> | Called before a item is deleted<br> |
-| POSTDELETE<br> | Called after a item is deleted from disk<br> |
-| PRECLEAR<br> | Called before a clear statement is executed<br> |
-| POSTCLEAR<br> | Called after a clear statement is execute<br> |
-| \*<br> | Called for any event shown above<br> |
+| POSTOPEN | Called before a file is opened |
+| PREREAD | Called before a item is read |
+| POSTREAD | Called after a item is read |
+| PREWRITE | Called before a item is written to disk |
+| POSTWRITE | Called after a item is written to disk |
+| PREDELETE | Called before a item is deleted |
+| POSTDELETE | Called after a item is deleted from disk |
+| PRECLEAR | Called before a clear statement is executed |
+| POSTCLEAR | Called after a clear statement is execute |
+| \* | Called for any event shown above |
 
-
-## NOTES
+## Notes
 
 CREATE-TRIGGER can be run multiple times for the same file. If a trigger has already been defined for the specified event then the overwrite flag must be used to effect the change.
 
@@ -69,4 +60,4 @@ The subroutine SUBBP will be called for every database event to the PAYROLL file
 
 See [Trigger API](./../trigger-api) for instructions on how to create the trigger.
 
-
+Back to [Files](./../README.md).

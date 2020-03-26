@@ -47,3 +47,5 @@ To download the web-based installer for Visual Studio 2015 Community Edition, yo
 [Creating Accounts and Users](./../create-accounts-and-users)
 
 [Manual License Key Installation](./../manual-license-key-installation)
+
+Back to [Installation Guides](./../README.md).

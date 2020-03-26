@@ -167,3 +167,5 @@ Remember, now that you have created the jBASE Account and the corresponding Wind
 [Creating Accounts and Users](./.)
 
 [Manual License Key installation](./../manual-license-key-installation)
+
+Back to [Installation Guides](./../README.md).

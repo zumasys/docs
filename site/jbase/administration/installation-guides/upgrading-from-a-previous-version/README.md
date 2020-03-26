@@ -53,3 +53,5 @@ Such files may include:
 [Manual License Key Installation](./../manual-license-key-installation)
 
 [Manual Installation of jDLS Service](./../../../jbase/manual-installation-of-jdls-service)
+
+Back to [Installation Guides](./../README.md).

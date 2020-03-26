@@ -12,26 +12,26 @@ The ACCOUNT-RESTORE utility can be used to restore data from ACCOUNT-SAVE tapes.
 ACCOUNT-RESTORE {-Options} {TargetDirectory | TargetUserid} {(Options)}
 ```
 
-| Option<br> | Description<br> |
+| Option | Description |
 | --- | --- |
-| -A<br> | Advanced Pick save<br> |
-| -B<br> | convert spaces in filename to underline<br> |
-| -C<br> | force all filenames to upper case<br> |
-| -F<br> | Fujitsu save<br> |
-| -G<br> | Use this option when restoring files from a Sequoia system to allow recognition of G-type tape segments<br> |
-| -L<br> | set when restoring L type records<br> |
-| -M<br> | Reality save<br> |
-| -N<br> | No translation of / and \ in filenames<br> |
-| -R<br> | R91 save<br> |
-| -S<br> | Statistics file .filestats required<br> |
-| -V<br> | verify only, no restore<br> |
-| -U<br> | update already existing files<br> |
-| -X<br> | clear file before restoring records<br> |
-| -Z<br> | SMA save<br> |
-| -b**n**<br> | modulo blocking ratio, default value 1 - 4k, where **n** can be<br><br>| **8**<br> | source machine used half k frames<br> |<br>| **4**<br> | source machine used 1k frames<br> |<br>| **2**<br> | source machine used 2k frames<br> |<br><br> |
-| -f **file**{,bb{,ll}}<br> | read tape data from **file**, or - for stdin , and specify block size bb bytes (default 16k) and a label size of ll bytes {default 80} (or 0 for unlabelled tapes)<br> |
-| -r **file**<br> | resize files listed in **file**. Format is: {DICT} FileName NumBuckets {BucketMult} {SecSize}<br> |
-| -z<br> | force out of group size to 1<br> |
+| -A | Advanced Pick save |
+| -B | convert spaces in filename to underline |
+| -C | force all filenames to upper case |
+| -F | Fujitsu save |
+| -G | Use this option when restoring files from a Sequoia system to allow recognition of G-type tape segments |
+| -L | set when restoring L type records |
+| -M | Reality save |
+| -N | No translation of / and \ in filenames |
+| -R | R91 save |
+| -S | Statistics file .filestats required |
+| -V | verify only, no restore |
+| -U | update already existing files |
+| -X | clear file before restoring records |
+| -Z | SMA save |
+| -b**n** | modulo blocking ratio, default value 1 - 4k |
+| -f **file**{,bb{,ll}} | read tape data from **file**, or - for stdin , and specify block size bb bytes (default 16k) and a label size of ll bytes {default 80} (or 0 for unlabelled tapes) |
+| -r **file** | resize files listed in **file**. Format is: {DICT} FileName NumBuckets {BucketMult} {SecSize} |
+| -z | force out of group size to 1 |
 
 Some ACCOUNT-SAVE tapes provide two or more tape files before the account data proper. The first is usually an empty tape file the second usually contains a tape label, note that sometimes these tape files can also contain invalid data blocks, these should be ignored. Most R83 based ACCOUNT-SAVE formats are preceded by two tape files and so two T-FWD commands should be executed before the ACCOUNT-RESTORE command. Also some R83 based ACCOUNT-SAVE tapes tend to have labels sized at the same block size as the data blocks and so the label size should be used.
 

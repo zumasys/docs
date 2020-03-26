@@ -208,4 +208,4 @@ Total of 3 slots found of which
 
 The effects of the above processes (command line or properties file editing ) are best observed after restarting jBASE, or when shared memory has been reset using "jlicenseupgrade -r".
 
-Back to [jBASE Licensing](./../../../release-notes/5.6.2-release-notes/jbase-5-licensing).
+Back to [Installation Guides](./../README.md).

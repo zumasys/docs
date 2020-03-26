@@ -6,7 +6,7 @@
 **Original ID:** 283759  
 **Internal:** No  
 
-## Alternatives to T-READ**
+## Alternatives to T-READ
 
 If you are experiencing trouble accessing the tape device using the T-READ command, ensure that the device is correctly configured by using the either the UNIX dd utility or the NT backup facility.
 
@@ -42,21 +42,17 @@ DAT1
 JBC__EDI –D/dev/rmt/DevName –R/dev/rmt/RewindDevName –B16384 –I DAT1 –M DAT –LR83,-2
 ```
 
-# **Variable Block Size**
+## Variable Block Size
 
 Some tape devices e.g. DAT and 8MM EXABYTE need to be configured for variable length.
 
-To configure the device on some of the System V Release 4 UNIX systems, try the following command (note that a tape must be in the device and may need to be write enabled) :
-
-```
-tapecntl -v /dev/rmt/devicename
-```
-
 On AIX, use the **smit** utility to configure the tape variable to zero.
 
-**Note**: This command may need to be re-executed when either the tape media is changed or the system rebooted, depending upon platform.
+### Note
 
-Some variable length devices can return an error when an attempt to read the tape at a block size LOWER than the actual block size has been made. The result of the error is either translated as error ‘234’ on NT, or a zero byte transfer on UNIX, thus returning EOF status.
+> This command may need to be re-executed when either the tape media is changed or the system rebooted, depending upon platform.
+
+Some variable length devices can return an error when an attempt to read the tape at a block size LOWER than the actual block size has been made. The result of the error is either translated as error ‘234’ on Windows, or a zero byte transfer on UNIX, thus returning EOF status.
 
 This can happen when the tape has been attached with the default settings. I.e. T-ATT DAT0. The problem is that the tape driver expects to read an 80 byte label, as per the default configuration, and so only requests 80 bytes from the device. However the label could be blocked at 16384, as per the data block. As the 80 byte request is less than the label block size, then the above error situation occurs. This problem has been addressed in later versions of jBASE by changing the default device assignment.
 
@@ -66,7 +62,7 @@ To avoid this problem, use the following tape assignment :
 T-ATT LABEL=R83,16384 SIZE=16384
 ```
 
-# **Tape Labels**
+## Tape Labels
 
 If you are having trouble reading a tape with the T-READ command or READT, it could be because the tape does not contain an expected label. The jBASE jbackup tape, for example, contains a 1000 byte label and a UNIX tar is usually blocked at 5120 bytes. Therefore, set the assignment label parameter to none and increase the requested block size.
 
@@ -81,7 +77,7 @@ If the tape you are trying to read does not contain a label, then the block size
 
 The above QIC method will fail if the tape was written at a block size not divisible by 512, due to the 512 byte padding that occurs. In this case, the original block size must be used, however a good guess would be a block size of 8000, as this is the default used by some legacy systems.
 
-# **Reading from a ‘dd’ copy of a tape file**
+## Reading from a ‘dd’ copy of a tape file
 
 Sometimes it is necessary to transfer the tape file from the tape device to a disk file and then attempt to restore from the disk file. This can be because the tape device is not available on the target system, or the tape copy needs to be delivered quickly over the network.
 
@@ -102,31 +98,23 @@ T-ATT FILE0 DEVICE=MyDatImage LABEL=R83,16384 SIZE=16384
 
 Note: When using ‘dd’ to copy from physical tape to a disk image, the ‘dd’ command will only copy ONE tape file at a time. For multiple tape files, multiple ‘dd’ commands will be required, each to a unique file name.
 
-### 
-
-# **Restoring multiple tape volumes**
+## Restoring multiple tape volumes
 
 Handling of end of tape is extremely unpredictable as legacy vendors have tended to implement different schema, for handling the end of physical tape on different legacy devices. In addition, UNIX platforms do not tend to be consistent when returning an end of tape status. Most return an end of file condition, which cannot be differentiated from a real end of file. Attempting to restore from multiple tape volumes should be avoided.
 
 Note also that the ‘dd’ command cannot detect end of tape as such, and so you should not attempt to ‘dd’ tape files across multiple tape volumes.
 
-### 
-
-
-# **Trouble reading from floppy**
+## Trouble reading from floppy
 
 Floppy disks tend to be blocked at 512 bytes, where the first 12 bytes of each disk block contains some sort header information. The jBASE floppy driver is, by default, configured to ignore the first 12 bytes of each block (note the -H12 option in the FLOPPY0 ‘dev’ file). If all 512 bytes of the disk block is required, then a new device file should be created and the -H12 option removed.
 
 Note that all tape label options which apply to physical tape also apply to the floppy device.
 
-### 
-
-
-# **Trouble restoring an ACCOUNT-SAVE**
+## Trouble restoring an ACCOUNT-SAVE
 
 Attempting to restore an ACCOUNT-SAVE can become very frustrating, this is due mainly to the variation of vendor save implementations, which can not only vary from platform to platform but also from device to device. There are three main types of ACCOUNT-SAVE format.
 
-## **Type1: R83 based**
+## Type1: R83 based
 
 Usually preceded by two dummy tape files, the label block size is the same size as the data block size, of which only 80 bytes is valid. Therefore try to attach the tape as follows for the various devices and then skip two blocks before attempting to restore :
 
@@ -137,7 +125,7 @@ FLOPPY - T-ATT FLOPPY0 LABEL=R83
 8MM - T-ATT 8MM LABEL=R83,16384 SIZE=16384
 ```
 
-FILE-SAVE
+FILE-SAVE  
 Two preceding dummy tape files, then multiple tape files containing each account, then an empty tape file to signify end of save :
 
 ```
@@ -155,7 +143,7 @@ T-FWD
 ACCOUNT-RESTORE –b8
 ```
 
-## **Type2: D3**
+## Type2: D3
 
 Some D3 tapes contain a combination of six label and \_EOF sections before the data begins :
 
@@ -167,7 +155,7 @@ T-FWD 6
 
 The **(L** option should then be used with ACCOUNT-RESTORE.
 
-## **Type3: ROS**
+## Type3: ROS
 
 Zero or two preceding dummy tape files. The label size is either 50 bytes, if from an older REALITY system, or 80 bytes from 6.0/3.0 systems onwards :
 
@@ -180,7 +168,7 @@ FLOPPY - N/A
 8MM - T-ATT 8MM LABEL=ROS70,80 SIZE=16384
 ```
 
-FILE-SAVE
+FILE-SAVE  
 Two preceding dummy tape files followed by one continuous tape file containing all accounts on save, then an empty tape file to signify end of save :
 
 ```
@@ -189,14 +177,14 @@ T-FWD
 SYSRESTORE -b4
 ```
 
-ACCOUNT-SAVE
+ACCOUNT-SAVE  
 One tape file containing the account, then an empty tape file to signify end of save :
 
 ```
 ACCOUNT-RESTORE –b4
 ```
 
-## **Type4: SEQ**
+## Type4: SEQ
 
 One or more preceding dummy tape blocks before the account data. The label is usually sized at 80 bytes. Therefore, try to attach the tape as follows for the various devices :
 
@@ -207,7 +195,7 @@ FLOPPY - T-ATT FLOPPY0 LABEL=R83
 8MM - T-ATT 8MM LABEL=R83,80 SIZE=16384
 ```
 
-FILE-SAVE
+FILE-SAVE  
 Two preceding dummy tape files, then multiple tape files containing each account, then an empty tape file to signify end of save :
 
 ```
@@ -216,7 +204,7 @@ T-FWD
 SYSRESTORE
 ```
 
-ACCOUNT-SAVE
+ACCOUNT-SAVE  
 One dummy tape file then one tape file containing account data, then an empty tape to signify end of save :
 
 ```
@@ -226,7 +214,7 @@ ACCOUNT-RESTORE
 
 Note: Later SEQUOIA save formats may only work with the ACCOUNT-RESTORE command.
 
-## **Manual Examination**
+## Manual Examination
 
 If none of the above attachments resolve your problem, then you need to investigate further. To do this, set the label parameter to NONE and the block size parameter to 32256, then use the T-READ command to examine the tape.
 
@@ -250,3 +238,5 @@ If, however, the blocks returned are all 16384, then the following attachment sh
 ```
 T-ATT DAT0 LABEL=R83,16384 SIZE=16384
 ```
+
+Back to [Restore](./../restore/README.md) 

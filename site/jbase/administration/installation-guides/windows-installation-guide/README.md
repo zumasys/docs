@@ -123,3 +123,5 @@ Applies to: **Express** **Advanced** ![323805-windows-jbase-installation: 152957
 [Creating Accounts and Users](./../create-accounts-and-users)
 
 [Manual License Key installation](./../manual-license-key-installation)
+
+Back to [Installation Guides](./../README.md).

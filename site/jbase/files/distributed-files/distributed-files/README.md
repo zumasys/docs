@@ -1,4 +1,4 @@
-# DISTRIBUTED FILES
+# Distributed Files
 
 **Created At:** 11/28/2017 1:49:41 PM  
 **Updated At:** 12/24/2018 6:23:55 PM  
@@ -6,12 +6,11 @@
 **Original ID:** 289126  
 **Internal:** No  
 
-
-# PREREQUISITES 
+## Prerequisites
 
 In order to make good use of this literature, one must have an installed copy of jBASE, and at least a basic understanding of file operations in jBASE BASIC.
 
-# OVERVIEW  
+## Overview
 
 A Distributed file is a collection of existing files used primarily for the purpose of organizing data into functional groups. Each file within the collection is called a part file.  A distributed file can contain up to 254 part files. The method for determining in which part file a record belongs is called the [partition algorithm](./../partition-algorithm).
 
@@ -19,9 +18,7 @@ As a simple example, suppose your database consists of records which span 42 reg
 
 Distributed files can also be used when the size of a file exceeds the size limit for the operating system (typically 2 gigabytes). This effectively permits file sizes to reach 254 times the maximum file size an operating system would otherwise allow.
 
-
-
-# PART FILES
+## Part Files
 
 The components of a distributed file collection are called part files. They can have any name and can be any file type except a distributed file. They can exist anywhere on the network, accessible via the JEDIFILEPATH environment variable, Q-pointers or F-pointers.
 
@@ -34,20 +31,15 @@ A part file can belong to more than one distributed file although this imposes t
 1. The part file must always have the same part number for each distributed file to which it belongs.
 2. All distributed files to which a part file belongs must use the same partition logic. In other words, when a record is written to the common part file, the partition algorithm for each distributed file must resolve the record's location in the same manner. This is only applicable when the distributed file uses the user-defined partition method.
 
-
 The number of part files and the partition algorithm can be varied at any time throughout the life of the distributed file. However, it should be noted that if the partition algorithm changes, the result may be records that were normally written to one part file, using the original partition algorithm, being written to another part file using the new partition algorithm. This could lead to unwanted duplication.
 
 Another problem that can occur is the wrong file is accessed through the distributed file stub (i.e. the file to which the part files are attached to create the distributed file set).
 
-Be aware that part files are resolved in the same manner as any other file in jBASE. For example, suppose two files exist with the same filename where one is resolved via an F-pointer (in $JEDFILENAME\_MD) and the another is resolved via $JEDIFILEPATH, and that the one in $JEDIFILEPATH is our *actual* part file. What will happen is the actual part file will never be found because the file pointed to by the F-pointer will be found first, as indicated by the **j****show -f** command. To alleviate this problem, it is best to attach the files using a full explicit filepath.
+Be aware that part files are resolved in the same manner as any other file in jBASE. For example, suppose two files exist with the same filename where one is resolved via an F-pointer (in $JEDFILENAME\_MD) and the another is resolved via $JEDIFILEPATH, and that the one in $JEDIFILEPATH is our *actual* part file. What will happen is the actual part file will never be found because the file pointed to by the F-pointer will be found first, as indicated by the **jshow -f** command. To alleviate this problem, it is best to attach the files using a full explicit filepath.
 
-
-
-# CREATING DISTRIBUTED FILES 
+## Creating Distributed Files
 
 A distributed file is created using the [CREATE-FILE](./../../../jbase-basic-%28jbc%29/create) command with the qualifier TYPE=DISTRIB. This will create two files, a dictionary which is a Hash4 (currently fixed at mod3) and the distributed file stub. If desired, the dictionary can be resized using the [jrf](./../../jrf) utility. For example, the following command creates a distributed file called DISTREGION:
-
-
 
 ```
 jsh -->CREATE-FILE DISTREGION TYPE=DISTRIB
@@ -55,13 +47,9 @@ jsh -->CREATE-FILE DISTREGION TYPE=DISTRIB
 [ 417 ] File DISTREGION created , type = DISTRIB
 ```
 
-
-
 The file partition table is empty at this point, and the [partition algorithm](./../partition-algorithm) is set to the default system partition method with a delimiter of ‘-‘ (i.e. all record IDs must be of the form "PartNumber-recordID"). These aspects of the distributed file can be changed with the [create-distrib command](./../create-distrib-command).
 
-
-
-# ATTACHING AND DETACHING PART FILES 
+## Attaching and Detaching Part Files
 
 Files are attached to a distributed file using the [create-distrib command](./../create-distrib-command) with the -a option. A file must already exist before it can be attached to a distributed file.
 
@@ -71,8 +59,6 @@ In the following example an existing file, DISTCUST.SOUTH, is attached to the di
 jsh-->create-distrib -a DISTCUST 4 DISTCUST.SOUTH
 Part file 'DISTCUST.SOUTH', Part number 4 added
 ```
-
-
 
 Note that it is possible to attach a file using a full explicit filepath as in:
 
@@ -89,9 +75,7 @@ jsh --> create-distrib -d DISTCUST 4
 Part file 'DISTCUST.SOUTH', Part number 4 deleted
 ```
 
-
-
-# CONSIDERATIONS FOR DISTRIBUTED FILES 
+## Considerations for Distributed Files
 
 Although jBASE does not restrict from directly populating part files, records should always be written through the distributed file stub. Be aware that if a record is placed in the wrong part file, and that record is subsequently handled through the [partition algorithm](./../partition-algorithm), it will be placed in the part file according to the partition algorithms own relentless logic. This will result in the same record appearing in two part files.
 
@@ -111,10 +95,6 @@ If you delete a part file then you must also [DELETE-DISTRIB](./../delete-distri
 
 Distributed files support secondary indexes and triggers at both the distributed file level and the part file level.
 
+See also: [Distributed File Examples](./../distributed-files-examples)
 
-
-See also: [DISTRIBUTE FILES EXAMPLES.](./../distributed-files-examples)
-
-
-
-Return to [Files](./../../jbase-files)
+Back to [Distributed Files](./../README.md)

@@ -6,13 +6,11 @@
 **Original ID:** 283749  
 **Internal:** No  
 
-
-
-| **Restoring Legacy Data** |
-| --- |
+| Restoring Legacy Data |         |
+| --- | --- |
 | [ACCOUNT-RESTORE](./../account-restore) | Restore from account save. |
 | [ACCOUNT-SAVE](./../account-save) | Creates an SMA compatible account save. |
-| [Multiple Account Restore](./../../multiple-account-restore) | Restore from a multiple account save (M-A-S). |
+| [Multiple Account Restore](./../multiple-account-restore) | Restore from a multiple account save (M-A-S). |
 | [MAGRES](./../magres-utility) | Restore from a MAGSAVE. |
 | [RESTORE-ALL](./../restore-all) | Restore from a Sequoia file save. |
 | [RESTOREADDS](./../restoreadds) | Restore from an ADDS account save. |
@@ -21,9 +19,4 @@
 | [SYSRESTORE](./../sysrestore) | Restore from a file save. |
 | [Troubleshooting](./../../troubleshooting) | Common tape problems. |
 
-
-
-
-[Migrating to jBASE: D3 Systems](./../../../migrating-to-jbase-d3-systems)
-
-[Migrating to jBASE: Universe Systems](./../../../migrating-to-jbase-universe-systems)
+Back to [Restore](./../README.md)

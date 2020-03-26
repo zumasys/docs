@@ -30,7 +30,7 @@ The –Q option prompts the operator before each Account Restore. This option is
 
 The –V option, Verify Option, is used to process the tape in verify mode. This option is passed on to the Account-Restore command.
 
-### COMMAND SYNTAX
+## Command Syntax
 
 ```
 RESTORE.ALL {-Options}
@@ -38,7 +38,7 @@ RESTORE.ALL {-Options}
 
 Restore all accounts from multiple account save or system save
 
-**Where-Options can be:**
+Where **Options** can be:
 
 -V        Verify only, no restore
 
@@ -46,7 +46,7 @@ Restore all accounts from multiple account save or system save
 
 Any other options are passed to ACCOUNT-RESTORE process.
 
-**Example**
+## Example
 
 To restore from a Standard System Sequoia Save, a T-ATT followed by the RESTORE-ALL is all that should be required.
 

@@ -82,3 +82,5 @@ End Users are experiencing this due to additional "redundant" entries being adde
 [Creating Accounts and Users](./../create-accounts-and-users)
 
 [Manual License Key Installation](./../manual-license-key-installation)
+
+Back to [Installation Guides](./../README.md).

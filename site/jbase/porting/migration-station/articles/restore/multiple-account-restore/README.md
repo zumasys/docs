@@ -8,7 +8,9 @@
 
 The M-A-R (multiple account restore) utility can be used to restore data in the format of a multiple account save (known as M-A-S on Reality systems). M-A-R invokes the ACCOUNT-RESTORE utility to restore each account.
 
-## M-A-R {-Options}
+```
+M-A-R {-Options}
+```
 
 | Option | Explanation |
 | --- | --- |

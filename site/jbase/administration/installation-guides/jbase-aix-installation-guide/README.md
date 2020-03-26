@@ -26,7 +26,7 @@ Ensure the volume in which you are installing jBASE 5.6 has sufficient free disk
 
 > **Note:**
 >
-> ```
+> ``` bash
 > df –k
 > ```
 >
@@ -299,3 +299,5 @@ password:
 $ LOGTO PLAY
 jsh PLAY ~ -->
 ```
+
+Back to [Installation Guides](./../README.md).

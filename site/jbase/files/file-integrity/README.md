@@ -1,4 +1,4 @@
-#  File Integrity
+# File Integrity
 
 **Created At:** 7/20/2018 1:10:34 PM  
 **Updated At:** 8/23/2018 10:36:02 AM  
@@ -10,7 +10,7 @@
 <badge text='file system' vertical='middle' />
 <badge text='files' vertical='middle' />
 
-## Description 
+## Description
 
 The jBASE hash files systems have been found to provide a very high level of file integrity in comparison to legacy systems. The main reason for this high level of integrity is mainly due to the jBASE hash file design. Each hash file is a separate entity, and as such can only be updated, from jBASE applications, by the relevant database driver.
 
@@ -24,12 +24,12 @@ However given that the file is not corrupted does not preclude the fact that upd
 
 The following commands can be used to help in the general maintenance of hash files.
 
-
 | Command  | Description |
 | --- | --- |
-| [jstat](./../jstat)<br> | displays hash file statistics<br> |
-| [jcheck](./../jcheck)<br> | check hash file integrity<br> |
-| [jchmod](./../../administration/utilities/jchmod)<br> | modifies hash file parameters<br> |
-| [jrf](./../jrf)<br> | resizes hash files<br> |
-| [jcomp](./../jcomp)<br> | compare hash file contents<br> |
+| [jstat](./../jstat) | displays hash file statistics |
+| [jcheck](./../jcheck) | check hash file integrity |
+| [jchmod](./../../administration/utilities/jchmod) | modifies hash file parameters |
+| [jrf](./../jrf) | resizes hash files |
+| [jcomp](./../jcomp) | compare hash file contents |
 
+Back to [Files](./../README.md)

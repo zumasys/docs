@@ -15,7 +15,6 @@
 [jr-files](./jr-files/README.md)  
 [jrf](./jrf/README.md)  
 [jstat](./jstat/README.md)  
-[remote-files](./remote-files/README.md)  
 [rename-file](./rename-file/README.md)  
 [trigger-api](./trigger-api/README.md)  
 

@@ -20,3 +20,5 @@
 | Windows 8/Server 2012 R2 |  | x | x | x |  |
 | Windows 10/Server 2016|  | x | x | x | x |
 | Windows Server 2019 |   |   |   |  | x |
+
+Back to [Installation Guides](./../README.md).

@@ -49,3 +49,5 @@ jruntime.websession=99TvRhZrzwXahzjI9/NuqTNRlro/g1xpC/MJglgPQDE=
 [Manual Installation of jDLS Service](./../../../jbase/manual-installation-of-jdls-service)
 
 [Creating Accounts and Users](./../create-accounts-and-users)
+
+Back to [Installation Guides](./../README.md).

@@ -37,7 +37,7 @@ jBASE for Linux is officially supported on 64-bit versions of CentOS 5 or above 
 2. To gain root or superuser access, login to your system as root, or from a terminal prompt, type the (su) command.
 
 ``` bash
-$ su
+\$ su
 ```
 
 3. Enter the root password when prompted, and you will notice the command prompt changes to a pound or hash (#) sign.![jbase-linux-installation-guide: blob](./blob.jpg)
@@ -182,9 +182,9 @@ Applies to: **Express,** **Advanced**![jbase-linux-installation-guide: blob](./
 
 **Create SYSTEM file to organize jBASE accounts** In jBASE, the SYSTEM file is optional. However, using a SYSTEM file provides a convenient way to organize your jBASE accounts, and is required for using Q-pointers and the LOGTO command in your jBASE applications.
 
-**Start jDLS distributed locking service** jDLS is responsible for resolving all record locking conflicts for jBASE processes. If jDLS is not running, jBASE will use the normal operating system locks. This is acceptable for small user populations, but the operating system locking mechanism has limits on the number of locks available, and on performance. See the [jBASE Distributed Locking User Guide](http://www.jbase.com/pdf/docs/jBASE-Distributed-Locking-User-Guide.pdf) for more information regarding jDLS.
+**Start jDLS distributed locking service** jDLS is responsible for resolving all record locking conflicts for jBASE processes. If jDLS is not running, jBASE will use the normal operating system locks. This is acceptable for small user populations, but the operating system locking mechanism has limits on the number of locks available, and on performance. See the [Introduction to jBASE Distributed Locking](./../../../miscellaneous/introduction-to-distributed-locking/README.md) for more information regarding jDLS.
 
-**Start jRCS remote connectivity service** The jBASE Remote Connectivity Server (jRCS) provides remote access to your jBASE system. jBASE System Manager uses this service to perform management tasks on your jBASE system. By default, the jRCS server listens on TCP port 8236. See the [jBASE Remote Connectivity Service knowledgebase article](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/JRCS_JRCS.htm) for more information regarding jRCS.
+**Start jRCS remote connectivity service** The jBASE Remote Connectivity Server (jRCS) provides remote access to your jBASE system. jBASE System Manager uses this service to perform management tasks on your jBASE system. By default, the jRCS server listens on TCP port 8236. See the [jBASE Remote Connectivity Service knowledgebase article](./../../../connectivity/jbase-remote-connectivity-server-(jrcs)/README.md) for more information regarding jRCS.
 
 ### Note
 
@@ -206,7 +206,7 @@ Applies to: **Express,** **Advanced**![jbase-linux-installation-guide: blob](./
 
 Applies to: **Advanced**![jbase-linux-installation-guide: blob](./blob-23.jpg)
 
-18. If you opt to start the jDLS service, you can select port-based or process-based locks or press Y to choose the default process-based locks. See the [jBASE Distributed Locking User Guide](http://www.jbase.com/pdf/docs/jBASE-Distributed-Locking-User-Guide.pdf) for more information regarding jDLS.
+18. If you opt to start the jDLS service, you can select port-based or process-based locks or press Y to choose the default process-based locks. See the [Introduction to jBASE Distributed Locking](./../../../miscellaneous/introduction-to-distributed-locking/README.md) for more information regarding jDLS.
 
 Applies to: **Advanced**![jbase-linux-installation-guide: blob](./blob-24.jpg)
 
@@ -314,3 +314,5 @@ CREATE-ACCOUNT jbaseuser
 Contact jBASE support in the United States at 866 582 8447 and from the United Kingdom at 0808 189 3266.  
 
 You may also email devsup@jbase.com and visit [http://www.jbase.com/support/](http://www.jbase.com/support/) for more support options.
+
+Back to [Installation Guides](./../README.md).
