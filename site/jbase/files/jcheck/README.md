@@ -43,13 +43,13 @@ where **option** may be:
 | F | display freespace information |
 | G | reset group if in error |
 | L | limit maximum group malloc to 'n' MB, default 1MB |
-| M | move salvaged file back to original name and move the original file to one with a prefix XLVG\_ ; used with -S option |
+| M | move salvaged file back to original name and move the original file to one with a prefix XLVG\_ ; used with -**S** option |
 | O | display record offset information |
 | P | pause after each group |
 | R | redirect stderr to stdout |
 | S | salvage to file, a file with a prefix of SLVG\_ is created |
 
-The **G** option will clear ALL data from groups where errors are detected. Error detection can be limited to specific groups or ranges of groups by using the **B** and E options. The G option should ONLY be used in isolated cases when the requirement is to bring the file back on-line, as quickly as possible, without regard for data loss. It is also advised that a copy of the file be taken before use of the **G** option. At some point the file should be recovered by the file salvage (-S) together with the normal file recovery mechanisms. This option is restricted to Administrators / root.
+The **G** option will clear ALL data from groups where errors are detected. Error detection can be limited to specific groups or ranges of groups by using the **B** and **E** options. The **G** option should ONLY be used in isolated cases when the requirement is to bring the file back on-line, as quickly as possible, without regard for data loss. It is also advised that a copy of the file be taken before use of the **G** option. At some point the file should be recovered by the file salvage (-**S**) together with the normal file recovery mechanisms. This option is restricted to Administrators / root.
 
 The **M** option should only be use when users are disconnected from the system since moving a file while users are connected may result in additional data loss. This option is restricted to Administrators / root.
 

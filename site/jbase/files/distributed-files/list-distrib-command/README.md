@@ -14,7 +14,7 @@ LIST-DISTRIB FileName
 
 where :
 
-- FileName is the name of the distributed file
+- **FileName** is the name of the distributed file
 
 The [VERIFY-DISTRIB](./../verify-distrib-command) command is much more useful as this not only displays the same information as LIST-DISTRIB, it also verifies the existence of the component part files. If the distributed file uses the user-defined partition method, [VERIFY-DISTRIB](./../verify-distrib-command) also verifies that the subroutine is executable.
 
