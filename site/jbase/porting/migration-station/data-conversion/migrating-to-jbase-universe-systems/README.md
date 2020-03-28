@@ -13,15 +13,13 @@
 <badge text='migration' vertical='middle' />
 <badge text='migrating' vertical='middle' />
 
-
+## Description
 
 This article and accompanying video will provide you with a walkthrough of how to prepare your Universe data to be migrated to jBASE.  You will configure your Universe backup, execute the backup and run a restore of your Universe data onto a jBASE system.
 
 ## Create a "snapshot" of the Universe files
 
-
-
-### Info
+### Info #1
 
 Ideally for a Universe conversion, you will update/refresh the data via rsync to a designated space on a shared resource or the jBASE server that you will be converting to.  This allows a "snapshot" of the system to be taken in a relatively short period of time in that the rsync can update only the changes for the files since the last "snapshot".   This may also be necessary if you are moving from AIX or HPUX and need to change the data bits on the Universe files.
 
@@ -35,7 +33,7 @@ rsync -avz ---exclude '*INDEX0??' /dbms/account /snapshot/account
 
 After this command is complete the /snapshot version of your account will be ready to be processed.
 
-### Info
+### Info #2
 
 You may need to run a Universe utility called finuxi if your data is coming from a AIX or HPUX machine.  This process will need to be run against the data on the /snapshot directory from a Linux box running the Universe fnuxi utility.  Once this process is complete, you can proceed with the next step
 
@@ -79,4 +77,4 @@ jsh> resuv -c -e -p -s -v .
 
 The next process will be to setup the jBASE environment for your system and begin your jBASE conversion.
 
-[Data Conversion](./../data-conversion)
+Back to [Data Conversion](./../README.md)

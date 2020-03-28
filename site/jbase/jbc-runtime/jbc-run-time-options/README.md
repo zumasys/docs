@@ -35,7 +35,7 @@ The Descriptions below are UNIX-centric.
 
 ```
 FOR Loop = 1 TO 10
-    CRT @(0,23):”Loop “:Loop:@(-4):
+    CRT @(0,23) : ”Loop “ : Loop : @(-4) :
     CALL DOTHIS
 NEXT Loop
 CRT “Completed”
@@ -44,7 +44,7 @@ CRT “Completed”
 ### Example 2  
 
 ```
-CRT @(0,23):”Loop “:Loop:@(-4):CHAR(0):
+CRT @(0,23) : ”Loop “ : Loop : @(-4) : CHAR(0):
 ```
 
 ### Note

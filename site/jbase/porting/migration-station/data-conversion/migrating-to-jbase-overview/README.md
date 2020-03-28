@@ -6,9 +6,7 @@
 **Original ID:** 283692  
 **Internal:** No  
 
-
-# 
-
+## Description
 
 jBASE is a packaged set of tools, which provides support for MultiValue applications.
 
@@ -24,42 +22,32 @@ An interface is also provided to enable external applications to access any data
 
 ![migrating-to-jbase: jbaddiagram](./jbaddiagram.jpg)
 
+| **Migrating to jBASE** |   |
+| --- | --- |
+| Installation ([Windows](./../../../../administration/installation-guides/windows-installation-guide/README.md)) ([Linux](./../../../../administration/installation-guides/linux-installation-guide/README.md)) | Installing jBASE |
+| [Environment Variables](./../../../../environment-variables/README.md) | Setting environment variables |
+| [Migration](./../migrating-to-jbase-preparation) | Migration steps (Includes Video Tutorial) |
+| [Restoring Data](./../articles/restore/restoring-data) ([D3](./../migrating-to-jbase-d3-systems)) ([Universe](./../migrating-to-jbase-universe-systems)) | Restoring legacy data into a jBASE environment |
+| [Emulation](./../../articles/emulation/README.md) | Emulation settings |
+| [Data Conversion](./../generic-data-conversion) | Converting legacy directories, files, programs, procs and MD items |
+| [PORTBAS](./../../articles/portbas/README.md) | Migrating BASIC source code |
+| [Keywords](./../../../../compilation/reserved-keywords/README.md) | Compiler reserved words |
+| [Compilation](./../../articles/compile) | Compiling BASIC programs and subroutines |
+| [SYSTEM Functions](./../../../../jbc/system-functions/README.md) | The jBASE SYSTEM function |
+| [Performance](./../../articles/performance/README.md) | Monitoring the performance of jBASE applications |
 
-| **Migrating to jBASE**<br> |
-| --- |
-| Installation ([Windows](./../../administration/installation-guides/windows-installation-guide)) ([Linux](./../../administration/installation-guides/linux-installation-guide))<br> | Installing jBASE<br> |
-| [Environment Variables](./../../environment-variables/introduction-to-environment-variables)<br> | Setting environment variables<br> |
-| [Migration](./../migrating-to-jbase-preparation)<br> | Migration steps (Includes Video Tutorial)<br> |
-| [Restoring Data](./../articles/restore/restoring-data) ([D3](./../migrating-to-jbase-d3-systems)) ([Universe](./../migrating-to-jbase-universe-systems))<br> | Restoring legacy data into a jBASE environment<br> |
-| [Emulation](./../articles/emulation)<br> | Emulation settings<br> |
-| [Data Conversion](./../data-conversion) | Converting legacy directories, files, programs, procs and MD items |
-| [PORTBAS](./../articles/portbas)<br> | Migrating BASIC source code<br> |
-| [Keywords](./../../jbase/compilation/reserved-keywords)<br> | Compiler reserved words<br> |
-| [Compilation](./../articles/compile)<br> | Compiling BASIC programs and subroutines<br> |
-| [SYSTEM Functions](./../../jbase-basic-%28jbc%29/system-functions)<br> | The jBASE SYSTEM function<br> |
-| [Performance](./../articles/performance)<br> | Monitoring the performance of jBASE applications<br> |
-
-
-
-
-### OPEN SYSTEMS
+### Open Systems
 
 - Inter-operate in a non-proprietary way with other systems
 - Enable use of 3rd party hardware or software
 - Use industry standards where ever possible
 
-
-
-
-### PLATFORM INDEPENDENT
+### Platform Independent
 
 - Most portable language is C, library code written in ANSI C.
 - Utilities have been coded in BASIC for ease and speed of maintenance.
 
-
-
-
-### ENVIRONMENT INDEPENDENT
+### Environment Independent
 
 - jBASE does NOT sit between the application and UNIX or Windows.
 - The application executes directly upon the base operating system.
@@ -69,12 +57,10 @@ An interface is also provided to enable external applications to access any data
 - No interim manipulation required to obtain access to the native environment.
 - jBASE applications can exploit the wide variation of tools provided on platforms, e.g. Source Code control, editors, windows applications.
 
-
-
-
-### DATABASE INDEPENDENT
+### Database Independent
 
 - Enable applications users to read and write from any database or device. For example, DB2 or ORACLE.
 - Release interface specifications and examples for coding drivers or application.
 - Provide tools to access SQL databases via embedded SQL.
 
+Back to [Data Conversion](./../../README.md)

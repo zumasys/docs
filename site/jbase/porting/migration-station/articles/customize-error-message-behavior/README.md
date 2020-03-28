@@ -31,7 +31,7 @@ TO: (jbcmessages
 To allow this change to persist after upgrades, copy 'jbc.init.err' (this file is called 'jbcinit.err' on Windows) and the 'jbcmessages' file to another directory outside of JBCRELEASEDIR and set the JBCERRFILE environment variable to the new location of 'jbcmessages'. For example, if you place those files in a directory called '/home/globals/' then…
 
 ```
-            export JBCERRFILE=/home/globals/jbcmessages
+export JBCERRFILE=/home/globals/jbcmessages
 ```
 
 Place this setting in some global profile where all users will pick it up.

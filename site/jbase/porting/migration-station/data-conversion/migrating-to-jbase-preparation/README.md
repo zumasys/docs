@@ -12,11 +12,9 @@
 <badge text='converting from d3' vertical='middle' />
 <badge text='jbase conversion' vertical='middle' />
 
-
+## Description
 
 This article and accompanying video will provide you with an overview of steps and questions or a checklist to be reviewed an answered as preparation for a migration to jBASE.
-
-
 
 ## Source
 
@@ -32,18 +30,12 @@ This article and accompanying video will provide you with an overview of steps a
 5. Licensing?
     - Do you have license to move the source?
 
-
-
-
-## Data 
+## Data
 
 1. Where is it?
     - Single account or spread over multiple accounts.
 2. How big is it?
     - Single tape or multiple tape or network transfer.
-
-
-
 
 ## Security / Users
 
@@ -55,9 +47,6 @@ This article and accompanying video will provide you with an overview of steps a
     - Do you have multiple database users?  e.g. D3 Users
     - Does your application have its own users?
 
-
-
-
 ## Connectivity / Devices
 
 1. How do your applications use connectivity?
@@ -67,9 +56,6 @@ This article and accompanying video will provide you with an overview of steps a
     - Terminal Telnet/SSH connections?
     - Printer connections?
     - Special Device?
-
-
-
 
 ## Transfer
 
@@ -84,9 +70,6 @@ This article and accompanying video will provide you with an overview of steps a
     - Consider amount of downtime needed for final transfer
     - Can some historical files be restored ahead of go-live?
 
-
-
-
 ## Prep the new server
 
 1. Where will your jBASE source and data reside?
@@ -95,9 +78,8 @@ This article and accompanying video will provide you with an overview of steps a
 2. Review the Security/Users section and prep the new system to match
 3. Be sure inter-machine connectivity and devices work with the new server
 
-
-
-
 [Migrating to jBASE: Universe Systems](./../migrating-to-jbase-universe-systems)
 
 [Migrating to jBASE: D3 Systems](./../migrating-to-jbase-d3-systems)
+
+Back to [Data Conversion](.../../README.md)

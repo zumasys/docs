@@ -20,27 +20,27 @@
 <badge text='beginner' vertical='middle' />
 <badge text='introduction' vertical='middle' />
 
-## DOCUMENT SCOPE
+## Document Scope
 
 The Introduction to jBASE document serves as a starting point for Administrators and Developers that are new to jBASE. The following guide is an instructional walkthrough of fundamental system administration tasks and how to begin programming in the jBASE database.
 
-## PREREQUISITES
+## Prerequisites
 
-To perform this introduction of jBASE, you will need an installed and licensed system running a version of **jBASE 5**.  If you need to complete this task, please review the jBASE Installation Guide for Windows or Linux.
+To perform this introduction of jBASE, you will need an installed and licensed system running a version of **jBASE 5.x**.  If you need to complete this task, please review the jBASE Installation Guide for Windows or Linux.
 
-## jBASE SYNOPSIS
+## jBASE Synopsis
 
 **Where is jBASE information?**
 
 jBASE uses Environment Variables extensively. Environment Variables are Operating System global variables for a shell. Very similar to **NAMED COMMON** in that they stay set for the entire time the user is in a shell. Unlike **NAMED COMMON** in PICK since, they are not reset with a **LOGTO**. Only valid strings can be saved in Environment Variables, special OS characters must be escaped or enclosed in quotes or single quotes. Application and Operating System (OS) commands use environment variables to aid in their execution.
 
-- **JBCRELEASEDIR**tells the OS where the jBASE release programs, libraries and supporting files are located
-- **JBCGLOBALDIR**tells jBASE where the configuration files are located
-- **PATH**tells jBASE (actually any OS shell) where the program executables reside
-- **JBCOBJECTLIST**tells jBASE where the shared object (subroutines) reside
-- **JEDIFILENAME\_MD**tells jBASE what file to treat as a traditional PICK MD
-- **JEDIFILENAME\_SYSTEM**tells jBASE what file to treat as a traditional PICK SYSTEM file
-- **JEDIFILEPATH**tells jBASE where to look for files (after looking in the MD)
+- **JBCRELEASEDIR** tells the OS where the jBASE release programs, libraries and supporting files are located
+- **JBCGLOBALDIR** tells jBASE where the configuration files are located
+- **PATH** tells jBASE (actually any OS shell) where the program executables reside
+- **JBCOBJECTLIST** tells jBASE where the shared object (subroutines) reside
+- **JEDIFILENAME\_MD** tells jBASE what file to treat as a traditional PICK MD
+- **JEDIFILENAME\_SYSTEM** tells jBASE what file to treat as a traditional PICK SYSTEM file
+- **JEDIFILEPATH** tells jBASE where to look for files (after looking in the MD)
 
 **Where are the programs?**
 
@@ -48,7 +48,7 @@ jBASE uses Environment Variables extensively. Environment Variables are Operatin
 jshow -c programname
 ```
 
-- **PATH** -- Unix (and jBASE) and all of your applications need to be in the PATH in order to run.
+- **PATH** -- UNIX (and jBASE) and all of your applications need to be in the PATH in order to run.
 - **JBCRELEASEDIR/bin** must be in the **PATH** list for jBASE to run.
 
 **Where are the subroutines?**
@@ -58,7 +58,7 @@ jshow -c subroutinename
 ```
 
 - **JBCOBJECTLIST** -- All jBASE subroutines must be in a directory included in this environment variable
-- Triggers -- The CATALOGed subroutines **lib** directory must be in this list, jQL dictionary CALL or B-correlative subroutines. The **lib** directory must be in this list
+- **Triggers** -- The CATALOGed subroutines **lib** directory must be in this list, jQL dictionary CALL or B-correlative subroutines. The **lib** directory must be in this list
 
 **Where is the data?**
 
@@ -67,10 +67,10 @@ jshow -f filename
 ```
 
 - **JEDIFILEPATH** -- If not set, the files are found in the current directory, the simplest version of where the data is located. The first one on the list is returned.
-- JEDIFILENAME\_SYSTEM -- Stores "Accounts" which each have a VOC or MD known as the
-- JEDIFILENAME\_MD
-- JEDIFILENAME\_MD is the VOC or MD.
-- Q-point files, F-point files would return data before those in JEDIFILEPATH
+- **JEDIFILENAME\_SYSTEM** -- Stores "Accounts" which each have a VOC or MD known as the
+  - **JEDIFILENAME\_MD**
+- **JEDIFILENAME\_MD** is the VOC or MD.
+- Q-pointer files, F-pointer files would return data before those in JEDIFILEPATH
 
 ```
 CUSTOMER
@@ -82,97 +82,106 @@ CUSTOMER
 003 /home/jbase/data/CUSTOMERS]D
 ```
 
-**The VOC or MD is always first.**
+### The VOC or MD is always first
 
 - If CUSTOMER is in the VOC and in the JEDIFILEPATH, it will use the file in the VOC first.
 - If DELETE-FILE is a proc in the VOC, it will run it rather than the first one in the PATH
 
-**jdiag will show important jBASE environment information.**
+### jdiag will show important jBASE environment information
 
 - jdiag -v will give verbose information including all environment variables
 - jdiag -vL will put these items into a jdiag.out item
 
-= VIEW & SET jBASE ENVIRONMENT VARIABLES LINUX= **Linux environment variables needed for all users can be set in /etc/profile**
+## View and set jBASE Environmant Variables
+
+### Linux
+
+### environment variables needed for all users can be set in /etc/profile
 
 - This is where UNIX global variables are set
 - With jBASE 5, the default environment can be set up here.
 
-**User-specific environment variables are set in the home directory.profile**
+### User-specific environment variables are set in the home directory .profile
 
 - Often times they are set in a separate item and sourced into the individual .profile items
 
-**Assign the variable then export it in Linux**
+### Assign the variable, then export it in Linux
 
 - JBCRELEASEDIR=/usr/jbc (this sets a value and is often used in shell scripts)
 - export JBCRELEASEDIR (this exports that value to the Environment, not needed if only used in the shell script)
 
-**Some Linux system shells allow assigning and exporting in one command**
+### Some Linux system shells allow assigning and exporting in one command
 
-- Export JBCRELEASEDIR=/usr/jbc
+- export JBCRELEASEDIR=/usr/jbc
 
-**In Linux, env will set the Environment Variable for the extent of a command**
+### In Linux, env will set the Environment Variable for the extent of a command
 
 - env TZ=PST8PDT date (will display date based on Pacific time zone)
 - This is only temporarily the environment for the command
 
-**In Linux, env can also clear and set the environment**
+### In Linux, env can also clear and set the environment
 
 - env -c PATH=/usr/lib date (will clear the environment and only set PATH)
 
 ## UNIX
 
-**echo command prefixing the variable with the special shell character $**
+### echo command prefixing the variable with the special shell character $
 
 - echo $JBCRELEASEDIR
 - Displays the contents of the JBCRELEASEDIR Environment Variable
 
-**env command**
+### env command
 
 - env
 - Displays the contents of all Environment Variables
 - Env JBCRELEASEDIR
 - Displays the contents of the JBCRELEASEDIR Environment Variable
 
-## WINDOWS
+### Windows
 
-**Windows variables are set in the remote.cmd or in the registry** Variable hierarchy is System variables in the registry, the user variables in the registry, then remote.cmd SET commands **echo command prefixing the variable with the special shell character %**
+### variables are set in the remote.cmd or in the registry
+
+Variable hierarchy is System variables in the registry, the user variables in the registry, then remote.cmd SET commands  
+**echo** command prefixing the variable with the special shell character %
 
 - echo %JBCRELEASEDIR%
 - Displays the contents of the JBCRELEASEDIR Environment Variable
 
-**set command**
+### set command
 
 - set
 - Displays the contents of all Environment Variables
 
-**Environment variables are SET in Windows**
+### Environment variables are SET in Windows
 
 - set JBCRELEASEDIR=/usr/jbc
 
 ## jBASE
 
-**The GETENV() function will retrieve the value in a jBC**program
+### The GETENV() function will retrieve the value of en environment varaible in a jBC program
 
-- **exec\_path = GETENV("PATH")**will return the **PATH** environment variable value to the variable **exec\_path**
+- **exec\_path = GETENV("PATH")** will return the **PATH** environment variable value to the variable **exec\_path**
 
-**The PUTENV() function in JBC will set an environment variable**
+### The PUTENV() function in jBC will set an environment variable
 
-- **return\_code = PUTENV("TZ=PST8PDT")**
+- **return\_code = PUTENV("TZ=PST8PDT")**  
+
 The variable **return\_code** will be a boolean to indicate success or failure to set the environment variable.
+
 - ***PUTENV is only valid for the life of the process and any child shells***
-- **rc = PUTENV("MYSRC=$TEST")**would set **MYSRC**to **$TEST**, not the value of TEST
+- **rc = PUTENV("MYSRC=$TEST")** would set **MYSRC** to **\$TEST**, not the value of TEST
 - ***PUTENV "escapes" the shell characters, therefore the literal value is assigned.***
 
-**If needed, environment variables can be changed**
+### If needed, environment variables can be changed
 
 - **On the command line**
 - These will only be set for this and any child shells
 - **In a JBC program**
 - These will only be set for the extent of the program or child shells spawned
 
-## GET TO KNOW YOUR COMMANDS
+## Get to know your commands
 
-## jSHELL (jSH) - ACESSING jBASE
+### jSHELL (jSH) - Accessing jBASE
 
 The jsh command invokes jSHELL - the jBASE shell. It can be invoked as your login shell by using the normal system administration software supplied with the platform. Either via .bat files (Windows) or .profiles (Unix ).
 
@@ -201,39 +210,41 @@ Beyond this convenient feature, jSHELL also offers many significant advantages o
 - Proc detection and execution
 - Type-ahead is supported
 
-**COMMAND SYNTAX:**
+## jSH Command Syntax
 
 ```
 jsh - -c command -s shell -p prompt
 ```
 
-| **Option** | **Description** |
+| Option | Description |
+| --- | ---|
 | -           | Execute proc from MD/VOC file with the same name as user login. (on Unix the.profile and .jshrc files are processed) |
 | -c           | Specifies that a jsh process should be spawned to execute the command. When the command terminates, the jsh process will also terminate |
 | -s shell     | Specifies which shell emulation to use when executing jsh. The jsh will default to the previous emulation used by the current port |
 | -p prompt   | Specifies the prompt to be used while executing js. |
 | -t           | Opens the tty device and accepts commands from the keyboard when the jSHELL has been invoked to process a command input file. The default action is to exit the shell once the processing of the input file has been completed |
-| -z           | Select foreground and background screen colors (e.g. jsh -z foreground, **foreground,**background). Colors can be WHITE, YELLOW, MAGENTA, RED, CYAN, GREEN, **background**BLUE or BLACK. On Windows, colors can be globally set using the Console setup from the Control Panel or by selecting the Properties of a jShell shortcut |
+| -z           | Select foreground and background screen colors (e.g. jsh -z foreground, **foreground**, background). Colors can be WHITE, YELLOW, MAGENTA, RED, CYAN, GREEN, **background** BLUE or BLACK.<br>On Windows, colors can be globally set using the Console setup from the Control Panel or by selecting the Properties of a jShell shortcut |
 
 If the jsh command is issued without arguments, a jsh process is spawned and this process becomes your command shell. The jsh process will replace the current shell if it is invoked through the UNIX exec command.
 
 To use this tutorial you will need to be logged in to your system and positioned at the shell prompt. If your user account has not been configured to run jSHELL by default, execute it now like this:
 
-**Unix/Linux:**exec jsh -
+**UNIX/Linux:** exec jsh -
 
-**Windows:**jsh.exe-
+**Windows:** jsh.exe-
 
-## jSHOW - FINDING FILES OR PROGRAMS
+## jSHOW - Finding files or orograms
 
 The jshow command can be used to find jBASE files or programs
 
-**COMMAND SYNTAX:**
+**Command Syntax:**
 
 ```
 jshow -Options <programname/filename>
 ```
 
-| **Option** | **Description** |
+| Option | Description |
+| --- | --- |
 | -a           | display subroutine names in dll/shared object (note: under Unix, this must be the complete path to the shared object) |
 | -c           | display compile-time and source file |
 | -f           | file name only search |
@@ -242,11 +253,11 @@ jshow -Options <programname/filename>
 | -s           | subroutine name only search |
 | -v           | verbose mode |
 
-## CREATE-ACCOUNT - CREATING AN ACCOUNT
+## CREATE-ACCOUNT - Creating an Account
 
 The CREATE-ACCOUNT command enables the user to create a new account for use within the jBASE system.
 
-**COMMAND SYNTAX:**
+**Command Syntax:**
 
 ```
 CREATE-ACCOUNT -Options <accountdirectory> <accountname>
@@ -254,11 +265,12 @@ CREATE-ACCOUNT -Options <accountdirectory> <accountname>
 
 **SYNTAX ELEMENTS:**
 
-- **Account Directory -**the full path or a name relative to the current directory
-- **Account Name -**the name of the account record in the SYSTEM file. If Account Name is not specified, the last element in Account Directory is used as the account name.
+- **Account Directory** - the full path or a name relative to the current directory
+- **Account Name** - the name of the account record in the SYSTEM file. If Account Name is not specified, the last element in Account Directory is used as the account name.
 - **Options -**
 
-| **Option** | **Description** |
+| Option | Description |
+| --- | --- |
 | -m md\_path   | full path to existing MD (implies -n) |
 | -n           | do not create an MD for the account |
 | -r           | generate remote.cmd for Telnet (Windows only) |
@@ -266,7 +278,7 @@ CREATE-ACCOUNT -Options <accountdirectory> <accountname>
 | -l dirs     | include additional lib directories |
 | -h or -?     | show help (ignored if there are other options) |
 
-**Creating your demo account for this walkthrough**
+### Creating your demo account for this walkthrough
 
 1. Create the jBASE account JBASEDEMO
 
@@ -279,11 +291,11 @@ C:\jBASE\JBASEDEMO
 jsh JBASEDEMO
 ```
 
-## CREATE-FILE - CREATING A DATA FILE
+## CREATE-FILE - Creating a Data File
 
 The CREATE-FILE command enables the user to create a new file for use within the jBASE system.
 
-**COMMAND SYNTAX:**
+**Command Syntax:**
 
 ```
 CREATE-FILE {DICT|DATA} FileName {DICT NumBuckets} {DATANumBuckets}
@@ -291,20 +303,21 @@ CREATE-FILE {DICT|DATA} FileName {DICT NumBuckets} {DATANumBuckets}
 CREATE-FILE DATA SAMPLE 11 101
 ```
 
-**SYNTAX ELEMENTS:**
+**Syntax Elements:**
 
-- **DICT -**This is an optional keyword to specify dictionary section creation only. Leave this keyword out to create both dictionary and data file.
-- **DATA -**This is an optional keyword to specify data section creation only. Leave this keyword out to create both dictionary and data file.
-- **FileName -**This is the name to be used for the created file. The name can include absolute or relative path information.
-- **NumBuckets -**NumBuckets specifies the number of hashing buckets to allocate to the file.
+- **DICT** - This is an optional keyword to specify dictionary section creation only. Leave this keyword out to create both dictionary and data file.
+- **DATA** - This is an optional keyword to specify data section creation only. Leave this keyword out to create both dictionary and data file.
+- **FileName** - This is the name to be used for the created file. The name can include absolute or relative path information.
+- **NumBuckets** - NumBuckets specifies the number of hashing buckets to allocate to the file.
 
 ### Note
 
-Since the introduction of dynamic files in jBASE 5.7, the default file created in jBASE is a dynamic file and does not require the size of the file to be set.  Dynamic files do not require resizing.  Additional information about dynamic files can be found [here](./../../files/dynamic-files).
+Since the introduction of dynamic files in jBASE 5.7, the default file created in jBASE is a dynamic file and does not require the size of the file to be set.  Dynamic files do not require resizing.  Additional information about dynamic files can be found [here](./../../files/dynamic-files).  
 
-**OPTIONS -**
+#### Options
 
-| **Option** | **Description** |
+|  Option | Description |
+| --- | --- |
 | TJLOG       | Creates a stub file in the current directory that points to the current transaction log set. |
 | DISTRIB     | Creates a stub file in the current directory that references a distributed file. |
 | PERM         | The PERM parameters are used to set the permissions of the file as per the chmod command. |
@@ -314,7 +327,7 @@ Since the introduction of dynamic files in jBASE 5.7, the default file created i
 | NETWORK=YES|NO | The NETWORK parameters disable or enable the file for use over a network. Only applicable to HASH4 and HASH5 file types. The value is set to AUTO by default to use jDLS when enabled. |
 | SECURE=YES|NO | The SECURE parameters disable or enable secure file updates. Only applicable to HASH3 and jPLUS file types. The value is set to NO by default. |
 
-**Create a file**
+### Create a file
 
 1. Create file (data only):
 
@@ -351,29 +364,30 @@ CREATE-FILE SAMPLE
 [ 417 ] File SAMPLE created , type = JD
 ```
 
-## jBASE Editor (jED) - ADD AND EDIT DATA
+## jBASE Editor (jED) -Add and edit data
 
 jBASE is supplied with its own fully-featured screen editor, which can be used for creating, modifying, or deleting records. The jED editor has been designed for ease of use, easy personal configuration and is especially suited to the editing of jBC programs. The jED editor is used in two different modes; command mode and edit mode, with edit being the default mode and the current mode displayed at the top of the screen.
 
-**Command mode -**For entering editor commands.
+**Command mode** - For entering editor commands.
 
-**Edit mode -**For entering or modifying data.
+**Edit mode** - For entering or modifying data.
 
-**COMMAND SYNTAX:**
+**Command Syntax:**
 
 ```
 jed <filename> <record-list>
 ```
 
-**SYNTAX ELEMENTS:**
+**Syntax Elements:**
 
-- **Filename -**This is the name of the "file" containing the records.
-- **Record-list -**It is possible to furnish a list of records to be successively edited. This can be a list of records separated by a space, or "\\*" to indicate all records in the file. Note that the \ is the shell escape character to stop the \* being treated as a wild card that would otherwise be expanded. Additionally, the record-list can be fed to this Command by preceding the jed Command with a jBASE list generating Command such as SELECT or SSELECT. In this case, the record-list is ignored.
-- **Enter Edit Mode -**press the &lt;Esc&gt; key or one that has been reconfigured to perform the same action.
-- **Exit and Update -**FI writes the updated version of the file or record back to disk and releases any lock set. The edit session then terminates or continues with the next record, if this choice is in effect.
-- **Exit and Discard -**EX leaves the file or record as it was at the start of the session, and releases any lock set. If updates have been made you will be prompted for confirmation before the updates are discarded. The edit session then terminates or continues with the next record, if this choice is in effect.
+- **Filename** - This is the name of the "file" containing the records.
+- **Record-list** - It is possible to furnish a list of records to be successively edited. This can be a list of records separated by a space, or "\\*" to indicate all records in the file. Note that the \ is the shell escape character to stop the \* being treated as a wild card that would otherwise be expanded. Additionally, the record-list can be fed to this Command by preceding the jed Command with a jBASE list generating Command such as SELECT or SSELECT. In this case, the record-list is ignored.
+- **Enter Edit Mode** - press the &lt;Esc&gt; key or one that has been reconfigured to perform the same action.
+- **Exit and Update** - FI writes the updated version of the file or record back to disk and releases any lock set. The edit session then terminates or continues with the next record, if this choice is in effect.
+- **Exit and Discard** - EX leaves the file or record as it was at the start of the session, and releases any lock set. If updates have been made you will be prompted for confirmation before the updates are discarded. The edit session then terminates or continues with the next record, if this choice is in effect.
 
-**Add data to file**
+### Add data to file
+
 1. Enter the following command to create the REC1 record in SAMPLE and open in jEditor.
 
 ```
@@ -405,11 +419,12 @@ REC1
 
 ```
 LIST SAMPLE ∗A1 ∗A2 ∗A3
-SAMPLE......   ∗A1...........   ∗A2...........  ∗A3.......... REC1               
-                JBASE              IRVINE          CA 
+SAMPLE......   ∗A1...........   ∗A2...........  ∗A3.......... REC1
+                JBASE              IRVINE          CA
 ```
 
-**Create a dictionary**
+### Create a dictionary
+
 1. Enter the following command to create the dictionary COMPANY for SAMPLE and open in jEditor.
 
 ```
@@ -473,26 +488,28 @@ REC1 JBASE IRVINE CA
 1 Records Listed
 ```
 
-## jSTAT - VIEW FILE SIZE, FORMAT AND PROPERTIES
+## jSTAT - View file size, format and properties
 
 The jstat utilities provide statistical information about jBASE Hash files.
 
-**COMMAND SYNTAX:**
+**Command Syntax:**
 
 ```
 jstat -Options <filename>
 ```
 
-| **Option** | **Description** |
-| -DChr       | specify the alternate delimiter for -m option (default is tab) |
-| -f           | free space display |
-| -m           | machine mode output |
-| -r           | record Display mode |
-| -s           | short summary display |
-| -v           | Verbose display |
-| -w           | Do not wait on locked objects (use caution) |
+| Option | Description |
+| --- | --- |
+| -DChr  | specify the alternate delimiter for -m option (default is tab) |
+| -f     | free space display |
+| -m     | machine mode output |
+| -r     | record Display mode |
+| -s     | short summary display |
+| -v     | Verbose display |
+| -w     | Do not wait on locked objects (use caution) |
 
-**See file statistics**
+### See file statistics
+
 1. Enter jstat command with verbose display and filename.
 
 ```
@@ -512,17 +529,18 @@ Primary file space: Total Frames = 1 , Total Bytes = 0
 Secondary file space:   Total Frames = 0 , Total Bytes = 0
 ```
 
-## jCHMOD - CHANGE FILE PARAMETERS
+## jCHMOD - Change File Parameters
 
 The jchmod utility provides a mechanism to modify Hash file parameters.
 
-**COMMAND SYNTAX:**
+**Command Syntax:**
 
 ```
 jchmod -Options <filename>
 ```
 
-| **Option** | **Description** |
+| Option | Description |
+| --- | --- |
 | -t       | tabulate description about the file |
 | -B           | remove backup of file using jbackup |
 | -C           | remove control file usage flag |
@@ -540,7 +558,7 @@ jchmod -Options <filename>
 | +T           | add transaction boundary support |
 | +Rspec           | add restore spec, used during jrestore |
 
-**Remove Backup Flag of SAMPLE**
+### Remove Backup Flag of SAMPLE
 
 1. Enter jchmod command with the option to remove backup of a file using jbackup.
 
@@ -560,30 +578,31 @@ Backup = NO, Log = NO, Rollback = YES, Secure updates = YES
 3. Enter jchmod command with the option to add a backup of a file using jbackup.
 
 ```
-jchmod +B SAMPLE 
+jchmod +B SAMPLE
 ```
 
 4. Check the result with the jstat command.
 
 ```
-jstat -v SAMPLE 
+jstat -v SAMPLE
 ...
 Backup = YES, Log = NO, Rollback = YES, Secure updates = YES
 ...
 ```
 
-## jRF - CHANGE FILE SIZE, FORMAT AND PROPERTIES
+## jRF - Change file size, Format and Properties
 
-The **jrf**utility provides automated facilities to resize and convert from one Hash file type to another. In order to resize the file enough disk space must be available to create a second temporary version of the file, as the resize process creates a temporary file and then copies the data from the original file to the temporary file. Once copied then the temporary file is renamed to the original file.
+The **jrf** utility provides automated facilities to resize and convert from one Hash file type to another. In order to resize the file enough disk space must be available to create a second temporary version of the file, as the resize process creates a temporary file and then copies the data from the original file to the temporary file. Once copied then the temporary file is renamed to the original file.
 
-**COMMAND SYNTAX:**
+**Command Syntax:**
 
 ```
 jrf {-options} {{DICT} filename1 {{DICT} filename2 ...}}
 jrf {-options} *
 ```
 
-| **Option** | **Description** |
+| Option | Description |
+| --- | --- |
 |    \* |  Process all files in the current directory (ignored if a list of files is supplied) |
 | H3     | Force to HASH3 file type |
 | H4     | Force to HASH4 file type |
@@ -605,9 +624,9 @@ jrf {-options} *
 | Sm{,s{,i}} | Size to a parameter, where n is modulom - modulo,  s - separation,  i - ingroupmaxsz |
 | h or ? | displays syntax and options |
 
-**Change file properties**
+### Change file properties
 
-1. Enter **jrf**command with options verbose display and to allow downsize of file.
+1. Enter **jrf** command with options verbose display and to allow downsize of file.
 
 ```
 jrf -VD SAMPLE
@@ -636,7 +655,7 @@ Primary file space: Total Frames = 3, Total Bytes = 53
 Secondary file space: Total Frames = 0 , Total Bytes = 0
 ```
 
-## CREATING A PROGRAM
+## Creating a Program
 
 ### Create the program file
 
@@ -685,7 +704,7 @@ jBASE RULES
 
 Note that steps 2 through 5 can be conveniently achieved with a few key strokes in the jED editor by pressing the **Esc**ape key and entering **FIBCR** (**FI**le, **B**asic, **C**atalog, **R**un) at the **Command-&gt;** prompt.
 
-## COMPILING A PROGRAM
+## Compiling a Program
 
 The **BASIC** command is provided as a front end program to the jBASE jBC compiler. The **jBC** compiler converts the BASIC code into "C" and invokes the native "C" compiler to convert the "C" source code into a machine native object file.
 
@@ -694,9 +713,9 @@ The **BASIC** command creates the object record as $PROGRAM1 in file BP. The BP 
 The steps used by **BASIC** command are as follows:
 
 - Any supplied record keys with a dollar/pound prefix or a .o or .obj suffix are ignored.
-- The source is moved to the current working directory as a temporary file called **BASIC\_nn.c**, where **nn**is the users port number.
+- The source is moved to the current working directory as a temporary file called **BASIC\_nn.c**, where **nn** is the users port number.
 - The source is compiled using the **jcompile** command.
-- The **.****o**or **.ob**j file is then moved back to the original source file with a dollar/pound prefix and the **.o**or **.ob**j suffix removed.
+- The **.** **o** or **.obj** file is then moved back to the original source file with a dollar/pound prefix and the **.o** or **.obj** suffix removed.
 - The command then cleans up any scratch files it created.
 
 **COMMAND SYNTAX:**
@@ -705,7 +724,8 @@ The steps used by **BASIC** command are as follows:
 BASIC {-Options} <filename> <programname> {(Option}
 ```
 
-| **Option** | **Description** |
+| Option | Description |
+| --- | --- |
 | v           | verbose mode     |
 | -wn         | set the warning level to 0, 1, 2 or 3. See later |
 | -Ipath       | path for include files |
@@ -718,7 +738,7 @@ BASIC {-Options} <filename> <programname> {(Option}
 
 In order to compile and catalog programs and subroutines in jBASE, a 'C' compiler must be installed on the system under the same folder where jBASE is installed. After completing the jBASE installation, one of the optional tasks you can select is to install and configure the compiler. Please refer to the jBASE Installation Guide and rerun the jBASE installer for the option to install the compiler.
 
-## CATALOGING A PROGRAM
+## Cataloging a Program
 
 The **CATALOG** command is provided as a front end program to convert object files generated by the BASIC command into main program executables and shared libraries/DLLs of subroutines.
 
@@ -728,35 +748,37 @@ Subroutine object files are collated into evenly sized shared libraries and then
 
 In order to be able to rebuild a shared library, the object file is retained in the "objdir" subdirectory of the "lib" directory. These object files are no longer required once all the shared libraries have been debugged and ready to release.
 
-The **CATALOG**command invokes the jBASE jBuildSLib command with the subroutine object file to construct the shared libraries. The jBuildSLib command then links several object files together with relevant references to other required libraries and creates a shared library/DD.
+The **CATALOG** command invokes the jBASE jBuildSLib command with the subroutine object file to construct the shared libraries. The jBuildSLib command then links several object files together with relevant references to other required libraries and creates a shared library/DD.
 
-It should be noted that every time a subroutine is cataloged, jBuildSLib is invoked to rebuild the shared library/DLL. However, when the **CATALOG**command is issued with an active select list of program names, the rebuilding is deferred until the list has been fully processed. This means that each shared object/DLL is only rebuilt once, as opposed to once for each subroutine. So when cataloging subroutines, it is much faster to work from an active select list. The same is true when decataloging subroutines.
+It should be noted that every time a subroutine is cataloged, jBuildSLib is invoked to rebuild the shared library/DLL. However, when the **CATALOG** command is issued with an active select list of program names, the rebuilding is deferred until the list has been fully processed. This means that each shared object/DLL is only rebuilt once, as opposed to once for each subroutine. So when cataloging subroutines, it is much faster to work from an active select list. The same is true when decataloging subroutines.
 
-**COMMAND SYNTAX:**
+**Command Syntax:**
 
 ```
 CATALOG {-Options} <filename> <programname>
 ```
 
-| **Option** | **Description** |
+| Option | Description |
+| --- | --- |
 | v           | verbose mode     |
 | Llib         | alternative lib directory to use for shared libraries |
 | obin         | alternative bin directory to use for executables |
 | cExternalLibs | external C library functions |
 
-## BACKUP & RESTORE
+## Backup & Restore
 
-## CREATING A BACKUP (jBACKUP)
+## Creating a Backup (jBACKUP)
 
 The jbackup utility provides fast on-line backup facilities and can also be used to check file integrity. Specify the directories you want to backup and then pipe the directory into the jbackup command.
 
-**COMMAND SYNTAX:**
+**Command Syntax:**
 
 ```
 jbackup -Options <filepath>
 ```
 
-| **Option** | **Description** |
+| Option | Description |
+| --- | --- |
 | -v       | verbose mode     |
 | -e EncMode  | encryption mode (-E extended). EncMode can be: RC2, BASE64, DES, 3DES, BLOWFISH, AES, sha256 |
 | -f           | specify where the backup is stored |
@@ -766,7 +788,7 @@ jbackup -Options <filepath>
 
 ### Create a backup for our account
 
-1.  From jSHELL, enter standard shell by pressing F2 key (notice the j is removed from jsh)
+1. From jSHELL, enter standard shell by pressing F2 key (notice the j is removed from jsh)
 
 ```
 jsh JBASEDEMO ~ -->
@@ -779,52 +801,52 @@ sh JBASEDEMO ~ -->
 jfind <ACCOUNT LOCATION>  - print | jbackup -v -f <BACKUP LOCATION & NAME>  
 ```
 
-- **ACCOUNT LOCATION -** The account we are looking to backup.  The account's location will be located and piped to jbackup.  In our example below, we will be using C:\JBASE\JBASEDEMO.
-- **BACKUP LOCATION & NAME -** The directory that you wish to store your backup in and the name you wish to call your backup.  In our example below, we will be using C:\JBASE\BACKUPS\MYBACKUP.  \*\*Directory is case sensitive and must be created prior to jbackup being run\*\*
-- **OPTIONS -** We will enable verbose backup (-v) and specify where the backup will be stored (-f).
-
+- **ACCOUNT LOCATION** - The account we are looking to backup.  The account's location will be located and piped to jbackup.  In our example below, we will be using C:\JBASE\JBASEDEMO.
+- **BACKUP LOCATION & NAME** - The directory that you wish to store your backup in and the name you wish to call your backup.  In our example below, we will be using C:\JBASE\BACKUPS\MYBACKUP.  \*\*Directory is case sensitive and must be created prior to jbackup being run\*\*
+- **OPTIONS** - We will enable verbose backup (-v) and specify where the backup will be stored (-f).
 
 ```
-sh JBASEDEMO ~ -->jfind C:\JBASE\JBASEDEMO -print | jbackup -v -f C:\JBASE\BACKUPS\MYBACKUP 
-C:\JBASE\JBASEDEMO 
-C:\JBASE\JBASEDEMO\bin 
-C:\JBASE\JBASEDEMO\bin\PROG1.dll 
-C:\JBASE\JBASEDEMO\bin\PROG1.exe 
-C:\JBASE\JBASEDEMO\SAMPLE 
-C:\JBASE\JBASEDEMO\SAMPLE]D 
-C:\JBASE\JBASEDEMO\lib 
-C:\JBASE\JBASEDEMO\lib\.jbase_lock_file 
-C:\JBASE\JBASEDEMO\lib\jLibDefinition 
-C:\JBASE\JBASEDEMO\lib\objdir 
-C:\JBASE\JBASEDEMO\lib\objdir\.jbase_header 
-C:\JBASE\JBASEDEMO\MD]D 
-C:\JBASE\JBASEDEMO\TEST.BP 
-C:\JBASE\JBASEDEMO\TEST.BP\$PROG1 
-C:\JBASE\JBASEDEMO\TEST.BP\.jbase_header 
-C:\JBASE\JBASEDEMO\TEST.BP\PROG1 
-Scanned Files : 16 
+sh JBASEDEMO ~ -->jfind C:\JBASE\JBASEDEMO -print | jbackup -v -f C:\JBASE\BACKUPS\MYBACKUP
+C:\JBASE\JBASEDEMO
+C:\JBASE\JBASEDEMO\bin
+C:\JBASE\JBASEDEMO\bin\PROG1.dll
+C:\JBASE\JBASEDEMO\bin\PROG1.exe
+C:\JBASE\JBASEDEMO\SAMPLE
+C:\JBASE\JBASEDEMO\SAMPLE]D
+C:\JBASE\JBASEDEMO\lib
+C:\JBASE\JBASEDEMO\lib\.jbase_lock_file
+C:\JBASE\JBASEDEMO\lib\jLibDefinition
+C:\JBASE\JBASEDEMO\lib\objdir
+C:\JBASE\JBASEDEMO\lib\objdir\.jbase_header
+C:\JBASE\JBASEDEMO\MD]D
+C:\JBASE\JBASEDEMO\TEST.BP
+C:\JBASE\JBASEDEMO\TEST.BP\$PROG1
+C:\JBASE\JBASEDEMO\TEST.BP\.jbase_header
+C:\JBASE\JBASEDEMO\TEST.BP\PROG1
+Scanned Files : 16
 Written Blocks : 5  
-Reels : 1 
+Reels : 1
 Saved Directories : 5  
 Regular files : 8  
 Linked files : 0  
 Other files : 0  
 Hash files : 3  
 Hash records : 245  
-Control files : 0 .0.0781 MB processed 
+Control files : 0 .0.0781 MB processed
 ```
 
-## RESTORING A BACKUP (jRESTORE)
+## Restoring a Backup (jRESTORE)
 
 The jrestore utility provides fast on-line restores from the saves produced by the jbackup utility. The jrestore can be controlled to restore from any file type on the backup, from single records to multiple directories.
 
-**COMMAND SYNTAX:**
+**Command Syntax:**
 
 ```
 jrestore -Options <filepath>
 ```
 
-| **Option** | **Description** |
+| Option | Description |
+| --- | --- |
 | -a           | restore from current media position |
 | -bn         | set number of read buffers to n (default is 8, minimum is 1) |
 | -c"old new" | restore old directory path as new directory path |
@@ -851,7 +873,7 @@ jrestore -Options <filepath>
 | -U           | update only does not overwrite existing files or records |
 | -V           | verbose dot mode, displays a "." for each file |
 
-**Here are the most common restore scenarios:**
+## Here are the most common restore scenarios
 
 1. Restore the **whole account** (note the use of the -v, -O and -f options):
 
@@ -879,7 +901,7 @@ jrestore -f C:\JBASE\BACKUP -h "^C:\JBASE\JBASEDEMO" -v -O
 jrestore -f C:\JBASE\BACKUP -c "C:\JBASE\JBASEDEMO C:\JBASE\temp" -h"^C:\JBASE\JBASEDEMO\SAMPLE$" -i"^REC1$" -v -O
 ```
 
-**Create a backup for our account**
+## Create a backup for our jBASE account
 
 1.  From jSHELL, enter standard shell by pressing F2 key (notice the j is removed from jsh)
 
@@ -894,8 +916,8 @@ sh JBASEDEMO ~ -->
 jrestore <OPTIONS> <BACKUP LOCATION & NAME>
 ```
 
-- **BACKUP LOCATION & NAME -** The directory that you wish to restore your backup from and the name of your backup.  In our example below we will be using C:\JBASE\BACKUPS\MYBACKUP.  \*\*Directory is case sensitive\*\*
-- **OPTIONS -** We will enable verbose restore (-v), overwrite the existing account (-O) and specify where the backup will be stored (-f).
+- **BACKUP LOCATION & NAME** - The directory that you wish to restore your backup from and the name of your backup.  In our example below we will be using C:\JBASE\BACKUPS\MYBACKUP.  \*\*Directory is case sensitive\*\*
+- **OPTIONS** - We will enable verbose restore (-v), overwrite the existing account (-O) and specify where the backup will be stored (-f).
 
 Running the below jrestore command will overwrite the existing account with your account backup.  Please make sure this is your intention.
 

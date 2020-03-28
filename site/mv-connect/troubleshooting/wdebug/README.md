@@ -8,8 +8,7 @@
 **Original ID:** 317564  
 **Internal:** No  
 
-
-## Description 
+## Description
 
 Once you have verified that MVConnect is successfully responding and is able to call WRESTTEST you are ready to start writing your first Web Service.  Because web functions all run in the background and not in a terminal it is often difficult to troubleshoot what is going on.  All MVConnect programs are executable programs (not subroutines) and can actually be ran directly from TCL.  The issue becomes passing in information from the client.  To assist with this MVConnect has a program called WDEBUG that allows you to save and re-play any web calls.
 
@@ -213,15 +212,15 @@ You can now run your MVConnect program directly from your shell and exercise dif
 
 Because web/rest functions run in the background it is difficult to see actual errors.  Most platforms offer some type of logging for errors.
 
-Jbase documentation on Error Logging [Link](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup42_ERROR_HANDLING.htm)
+jBASE documentation on Error Logging [Link](./../../../jbase/jbc-error-handling/README.md)
 
-New run-time errors option [Link](./../../../../jbase/release-notes/pn5_60517)
+New run-time errors option [Link](./../../../jbase/release-notes/5.6.1-release-notes/pn5_60517/README.md)
 
 Most pick platforms also have a where command to give you some information on what a process is doing.  If a program is taking a long time to finish you may get a invalid request back to your browser but when you look inside your system with a list of processes you may still see the process running.  Use you normal system tools such as where to see what the process is doing.  On jBase you can use the (v option to get more information.
 
 Example
 
-In this example the rest service which is running on line 3 is running jbase\_agent, then SLEEP.TEST.RTNE, and it currently running the jql command SSELECT MD BY A1.
+In this example the rest service which is running on line 3 is running jbase\_agent, then SLEEP.TEST.RTNE, and it currently running the jQL command "SSELECT MD BY A1".
 
 ```
 Port   Device     Account      PID      Command

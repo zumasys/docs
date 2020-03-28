@@ -50,14 +50,14 @@ jsh REL17.7 ~ -->DIVD 124876012 4000
 
 4k or 4096 byte frames
 
-### Where is the TCL stack saved?  On UV, you can save the stack and re-load it; so the user always gets their stack back.
+### Where is the TCL stack saved?  On UV, you can save the stack and re-load it; so the user always gets their stack back
 
 The stack is stored in the $JBCRELEASEDIR/tmp/jutil\_ctrl file withjutil\_jsh\_ and tty with \_ in place of /
 I added these two programs at GW in CBP to SAVE and GET the stack
 
 #### GETSTACK
 
-```     
+```
     kShell = CHAR(255):'k'
     IF NOT(GETENV('JBCRELEASEDIR',JBCRELEASEDIRenv)) THEN
        CRT

@@ -6,7 +6,6 @@
 **Original ID:** 283719  
 **Internal:** No  
 
-
 PortBas is a migration tool used to parse BASIC source code. PortBas scans each supplied BASIC program for the use of [reserved keywords](./../../../jbase/compilation/reserved-keywords) which are not allowed in the jBC program language.
 
 PortBas does not change the variable name but converts the name to mixed case. Thus the variable names LOOP, DATE, DATA become Loop, Date and Data respectively. This enables the program to be read as per the original context. After the scan the BASIC source code is then formatted according to the standard jBC formatting recommendations.

@@ -33,7 +33,7 @@ Note: This is enabled by default for the D3 emulation.
 
 When this option is set, jBASE will log certain messages that are taken from the jBASE error message file, **jbcmessages**. We don't log all error messages, only under the following 2 conditions:
 
-1) the error message in the **jbcmessages** file has the text string:
+1. The error message in the **jbcmessages** file has the text string:
 
 ```
 ** Error
@@ -47,7 +47,7 @@ An example of this is the **SUBROUTINE\_CALL\_FAIL** record:
 ** Error [ SUBROUTINE_CALL_FAIL ] ** ^NEWLINE^^DEBUGCONTINUE^Unable to perform CALL to subroutine %s , Line ^LINENO^ , Source ^SOURCENAME^^NEWLINE^Press C to continue or Q to quit
 ```
 
-2) the error message in the **jbcmessages** file has the text string:
+2. The error message in the **jbcmessages** file has the text string:
 
 ```
 ^LOGERROR^
@@ -130,7 +130,7 @@ LOOP WHILE READNEXT key DO          ;* Read each item id from the error log
 REPEAT
 ```
 
-***It is highly recommended to keep your customized error message file outside of the jBASE directory, $JBCRELEASEDIR. This can be accomplished with the [JBCERRFILE](./../../environment-variables/jbcerrfile) environment variable***
+***It is highly recommended to keep your customized error message file outside of the jBASE directory, $JBCRELEASEDIR. This can be accomplished with the [JBCERRFILE](./../../../environment-variables/jbcerrfile/README.md) environment variable***
 
 * * *
 

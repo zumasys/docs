@@ -35,7 +35,7 @@ For instance to display all the index definitions, in full, for file CUSTOMERS, 
 jsh--> LIST-INDEX -v CUSTOMERS (P
 ```
 
-### Breakdown of MAchine Readable format
+### Breakdown of Machine Readable format
 
 | Tab Number | Description | [INDICES()](./../introduction-to-secondary-indexes) Attribute reference |
 | --- | --- | --- |
