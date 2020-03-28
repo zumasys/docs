@@ -1,4 +1,4 @@
-# INTRODUCTION TO jBASE
+# Introduction to jBASE
 
 **Created At:** 3/10/2017 4:57:22 PM  
 **Updated At:** 12/20/2019 10:45:27 PM  
