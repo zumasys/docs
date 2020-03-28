@@ -101,13 +101,13 @@ I added these two programs at GW in CBP to SAVE and GET the stack
 
 No.  We recommend visiting the knowledgebase:
 
-[http://www.jbase.com/support/knowledgebase/](http://www.jbase.com/support/knowledgebase/)
+[https://docs.zumasys.com/jbase/](https://docs.zumasys.com/jbase/)
 
 ### Is there help for Editor commands?
 
 jED and ED help is available here:
 
-[https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/ed1.htm](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/ed1.htm)
+[https://docs.zumasys.com/jbase/editor/editors/](https://docs.zumasys.com/jbase/editor/editors/)
 
 * * *
 

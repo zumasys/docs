@@ -48,7 +48,7 @@ jBASE uses Environment Variables extensively. Environment Variables are Operatin
 jshow -c programname
 ```
 
-- **PATH** -- UNIX (and jBASE) and all of your applications need to be in the PATH in order to run.
+- **PATH** -- UNIX (and jBASE) binaries and all of your applications need to be in the PATH in order to run.
 - **JBCRELEASEDIR/bin** must be in the **PATH** list for jBASE to run.
 
 **Where are the subroutines?**
@@ -96,7 +96,7 @@ CUSTOMER
 
 ### Linux
 
-### environment variables needed for all users can be set in /etc/profile
+### Environment variables needed for all users can be set in /etc/profile
 
 - This is where UNIX global variables are set
 - With jBASE 5, the default environment can be set up here.
@@ -139,7 +139,7 @@ CUSTOMER
 
 ### Windows
 
-### variables are set in the remote.cmd or in the registry
+### Variables are set in the remote.cmd or in the registry
 
 Variable hierarchy is System variables in the registry, the user variables in the registry, then remote.cmd SET commands  
 **echo** command prefixing the variable with the special shell character %
@@ -183,11 +183,11 @@ The variable **return\_code** will be a boolean to indicate success or failure t
 
 ### jSHELL (jSH) - Accessing jBASE
 
-The jsh command invokes jSHELL - the jBASE shell. It can be invoked as your login shell by using the normal system administration software supplied with the platform. Either via .bat files (Windows) or .profiles (Unix ).
+The jsh command invokes jSHELL - the jBASE shell. It can be invoked as your login shell by using the normal system administration software supplied with the platform. Either via .bat files (Windows) or .profiles (UNIX ).
 
 jSHELL has been designed to ease migration from older systems and to overcome some of the differences between various platform command-line environments. The more primitive features seen on some older platforms (such as the "dot" command stacker) have been replaced with easier to use and more functional equivalents.
 
-The most noticeable difference between jSHELL and other command-line shells, such as the Unix Korn shell (ksh), is that command line arguments such as"\*" and "?" are not expanded by the shell but passed directly to the command that has been invoked. In the same manner, quoted strings(such as "quoted-string") are passed directly to the command with quotes intact. This enables query language statements such as:
+The most noticeable difference between jSHELL and other command-line shells, such as the UNIX Korn shell (ksh), is that command line arguments such as "\*" and "?" are not expanded by the shell but passed directly to the command that has been invoked. In the same manner, quoted strings(such as "quoted-string") are passed directly to the command with quotes intact. This enables query language statements such as:
 
 ```
 SSELECT <filename> = "[SPROUT]" BY *A1
@@ -217,13 +217,13 @@ jsh - -c command -s shell -p prompt
 ```
 
 | Option | Description |
-| --- | ---|
-| -           | Execute proc from MD/VOC file with the same name as user login. (on Unix the.profile and .jshrc files are processed) |
-| -c           | Specifies that a jsh process should be spawned to execute the command. When the command terminates, the jsh process will also terminate |
-| -s shell     | Specifies which shell emulation to use when executing jsh. The jsh will default to the previous emulation used by the current port |
-| -p prompt   | Specifies the prompt to be used while executing js. |
-| -t           | Opens the tty device and accepts commands from the keyboard when the jSHELL has been invoked to process a command input file. The default action is to exit the shell once the processing of the input file has been completed |
-| -z           | Select foreground and background screen colors (e.g. jsh -z foreground, **foreground**, background). Colors can be WHITE, YELLOW, MAGENTA, RED, CYAN, GREEN, **background** BLUE or BLACK.<br>On Windows, colors can be globally set using the Console setup from the Control Panel or by selecting the Properties of a jShell shortcut |
+| --- | --- |
+| -         | Execute proc from MD/VOC file with the same name as user login. (on UNIX the .profile and .jshrc files are processed) |
+| -c        | Specifies that a jsh process should be spawned to execute the command. When the command terminates, the jsh process will also terminate |
+| -s shell  | Specifies which shell emulation to use when executing jsh. The jsh will default to the previous emulation used by the current port |
+| -p prompt | Specifies the prompt to be used while executing js. |
+| -t        | Opens the tty device and accepts commands from the keyboard when the jSHELL has been invoked to process a command input file. The default action is to exit the shell once the processing of the input file has been completed |
+| -z        | Select foreground and background screen colors (e.g. jsh -z foreground, **foreground**, background). Colors can be WHITE, YELLOW, MAGENTA, RED, CYAN, GREEN, **background** BLUE or BLACK.<br>On Windows, colors can be globally set using the Console setup from the Control Panel or by selecting the Properties of a jShell shortcut |
 
 If the jsh command is issued without arguments, a jsh process is spawned and this process becomes your command shell. The jsh process will replace the current shell if it is invoked through the UNIX exec command.
 
@@ -245,15 +245,15 @@ jshow -Options <programname/filename>
 
 | Option | Description |
 | --- | --- |
-| -a           | display subroutine names in dll/shared object (note: under Unix, this must be the complete path to the shared object) |
-| -c           | display compile-time and source file |
-| -f           | file name only search |
-| -h           | display this help screen |
-| -p           | program name only search |
-| -s           | subroutine name only search |
-| -v           | verbose mode |
+| -a  | display subroutine names in dll/shared object (note: under UNIX, this must be the complete path to the shared object) |
+| -c  | display compile-time and source file |
+| -f  | file name only search |
+| -h  | display this help screen |
+| -p  | program name only search |
+| -s  | subroutine name only search |
+| -v  | verbose mode |
 
-## CREATE-ACCOUNT - Creating an Account
+## CREATE-ACCOUNT - Creating a jBASE Account
 
 The CREATE-ACCOUNT command enables the user to create a new account for use within the jBASE system.
 
@@ -267,16 +267,16 @@ CREATE-ACCOUNT -Options <accountdirectory> <accountname>
 
 - **Account Directory** - the full path or a name relative to the current directory
 - **Account Name** - the name of the account record in the SYSTEM file. If Account Name is not specified, the last element in Account Directory is used as the account name.
-- **Options -**
+- **Options** -
 
 | Option | Description |
 | --- | --- |
-| -m md\_path   | full path to existing MD (implies -n) |
-| -n           | do not create an MD for the account |
-| -r           | generate remote.cmd for Telnet (Windows only) |
+| -m md\_path | full path to existing MD (implies -n) |
+| -n          | do not create an MD for the account |
+| -r          | generate remote.cmd for Telnet (Windows only) |
 | -b dirs     | include additional bin directories |
 | -l dirs     | include additional lib directories |
-| -h or -?     | show help (ignored if there are other options) |
+| -h or -?    | show help (ignored if there are other options) |
 
 ### Creating your demo account for this walkthrough
 
@@ -312,7 +312,7 @@ CREATE-FILE DATA SAMPLE 11 101
 
 ### Note
 
-Since the introduction of dynamic files in jBASE 5.7, the default file created in jBASE is a dynamic file and does not require the size of the file to be set.  Dynamic files do not require resizing.  Additional information about dynamic files can be found [here](./../../files/dynamic-files).  
+Since the introduction of dynamic files in jBASE 5.7, the default file created in jBASE is a dynamic file and does not require the size of the file to be set.  Dynamic files do not require resizing.  Additional information about dynamic files can be found [here](./../../../files/dynamic-files/README.md).  
 
 #### Options
 
@@ -320,8 +320,8 @@ Since the introduction of dynamic files in jBASE 5.7, the default file created i
 | --- | --- |
 | TJLOG       | Creates a stub file in the current directory that points to the current transaction log set. |
 | DISTRIB     | Creates a stub file in the current directory that references a distributed file. |
-| PERM         | The PERM parameters are used to set the permissions of the file as per the chmod command. |
-| LOG=YES|NO   | The LOG parameters set or clear the flag which allows the file to be included or excluded when utilizing the item or transaction logging mechanism if licensed on your system. The value is set to YES by default. |
+| PERM        | The PERM parameters are used to set the permissions of the file as per the chmod command. |
+| LOG=YES|NO  | The LOG parameters set or clear the flag which allows the file to be included or excluded when utilizing the item or transaction logging mechanism if licensed on your system. The value is set to YES by default. |
 | TRANS=YES|NO | The TRANS parameters set or clear the flag which allows the file to be included or excluded from within any transaction boundaries defined by an executing program. The value is set to YES by default. |
 | BACKUP=YES|NO | The BACKUP parameters set or clear the flag which allows the file to be included automatically by the jBASE jbackup utility. The value is set to YES by default. |
 | NETWORK=YES|NO | The NETWORK parameters disable or enable the file for use over a network. Only applicable to HASH4 and HASH5 file types. The value is set to AUTO by default to use jDLS when enabled. |
