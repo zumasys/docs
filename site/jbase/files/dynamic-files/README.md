@@ -20,7 +20,7 @@
 
 The new file type allows files to be created without specifying a size (modulo, separation, secondary size).  The file will dynamically resize itself as the data in the file grows, and it achieves this transparently and without any pauses that are often associated with other dynamic files. A CLEAR-FILE operation will return the file to its original size.
 
-The performance of these new dynamic files is at least as good as existing jBASE file types, and in some instances can be significantly quicker. The disc usage of dynamic files is typically no more than 10% than any other jBASE file type.
+The performance of these new dynamic files is at least as good as existing jBASE file types, and in some instances can be significantly quicker. The disc usage of dynamic files is typically no more than 10% greater than any other jBASE file type.
 
 The format is simple:
 
@@ -33,7 +33,7 @@ fbcentos-~: ls -l DEMO*
 -rw-rw-r-- 1 gregc gregc 32768 Dec  1 12:04 DEMO]D
 ```
 
-Simply omit all of the size parameters and jBASE will default to a Dynamic File instead of the usual default of JP (jPlus) files.
+Just omit all of the size parameters and jBASE will default to a Dynamic File instead of the usual default of P (jPlus) files.
 
 An alternate way to create dynamic files is using **TYPE=HASHD** or **TYPE=JD** as below, in which case we ignore the all of the size parameters, e.g. modulo, separation, secondary size.
 
