@@ -429,7 +429,7 @@ Command->
 0002 +TCSV
 ```
 
-2.  Open JED to edit the dictionary file for the file that you wish to configure differently from the default audit logging configuration.
+2. Open JED to edit the dictionary file for the file that you wish to configure differently from the default audit logging configuration.
 
 3. Add @AUDIT\_CONFIG record to file.
 
@@ -592,14 +592,14 @@ EGPG_TTY
 /dev/pts/8
 ```
 
-- 0001 **15 -** This shows the extended attributes start at attribute &lt;15&gt;
-- 0002 **2 -** This shows the operation was a WRITE
-- 0015 **W1 -** The first extended attribute and shows we are defining attribute 1 for a WRITE
-- 0016 **World -** This is the data that goes with the previous declaration, in other words, that attribute 1 during the WRITE had the value World
-- 0017 **C1 -** This extended attribute shows we are going to declare the CHANGE between attribute values for attribute 1.
-- 0018 **Hello -** This is the data associated with the previous declaration, and is the BEFORE image of attribute 1.
-- 0019 **World -** This is the data associated with the previous declaration, and is the AFTER image of attribute 1.
-- 0020 **EGPG\_TTY -** This is the second extended attribute and shows we are defining the value of the environment variable GPG\_TTY.
+- 0001 **15** - This shows the extended attributes start at attribute &lt;15&gt;
+- 0002 **2** - This shows the operation was a WRITE
+- 0015 **W1** - The first extended attribute and shows we are defining attribute 1 for a WRITE
+- 0016 **World** - This is the data that goes with the previous declaration, in other words, that attribute 1 during the WRITE had the value World
+- 0017 **C1** - This extended attribute shows we are going to declare the CHANGE between attribute values for attribute 1.
+- 0018 **Hello** - This is the data associated with the previous declaration, and is the BEFORE image of attribute 1.
+- 0019 **World** - This is the data associated with the previous declaration, and is the AFTER image of attribute 1.
+- 0020 **EGPG\_TTY** - This is the second extended attribute and shows we are defining the value of the environment variable GPG\_TTY.
 - 0021 **/dev/pts/8** - This is the data that goes with the previous declaration, in other words, that the environment variable contained the data /dev/pts/8
 
 ### Extended Informtion with JSON Output
