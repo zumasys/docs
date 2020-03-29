@@ -53,9 +53,9 @@ C:\programs\openssl\bin>jbase_agent -c cert.pem -k key.pem --config %HOME%\jagen
 
 For jRemote, ODBC and JDBC clients, jAgent supports three different authentication modes (See command line options):
 
-- ***1. Anonymous -*** authentication does not verify any user credentials.
-- ***2. User -*** authentication verifies user credentials against a local user credentials database.
-- ***3. Account -*** authentication will attempt to use the provided user credentials to log into a specific jBASE account.
+- ***1. Anonymous*** - authentication does not verify any user credentials.
+- ***2. User*** - authentication verifies user credentials against a local user credentials database.
+- ***3. Account*** - authentication will attempt to use the provided user credentials to log into a specific jBASE account.
 
 For REST clients, an appropriate HTTP-based authentication mechanism must be implemented in the REST code.
 

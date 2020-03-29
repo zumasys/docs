@@ -16,18 +16,18 @@ The spooler on jBASE is a fairly straight-forward process.  The actual print pr
 ## Typical directory structure
 
 ```
-**spooler**-- default directory name for spooler  
-            **jobs** -- Directory Holds "formqueue\_"# directory for each queue  
-                   **formqueue\_0** -- Directory Holds actual print jobs form formqueue "0"  
-                                       **1** -- \*NIX/Windows item of print job "1"  
-                                       **2** -- \*NIX/Windows item of print job "2"  
-                                       **4** -- \*NIX/Windows item of print job "4"  
-                   **formqueue\_1** -- Directory Holds actual print jobs form formqueue "0"  
-                                       **3** -- \*NIX/Windows item of print job "3"  
-                                       **5** -- \*NIX/Windows item of print job "5"  
-             **jobs]D** -- Empty DICT level of jobs file  
-**jspool\_log --**jBASE hashed file.  See typical items listed below  
-             **jspool\_log]D --**jBASE DICT file with dictionary defining items  
+spooler-- default directory name for spooler  
+            jobs -- Directory Holds "formqueue\_"# directory for each queue  
+                   formqueue\_0 -- Directory Holds actual print jobs form formqueue "0"  
+                                       1 -- \*NIX/Windows item of print job "1"  
+                                       2 -- \*NIX/Windows item of print job "2"  
+                                       4 -- \*NIX/Windows item of print job "4"  
+                   formqueue\_1 -- Directory Holds actual print jobs form formqueue "0"  
+                                       3 -- \*NIX/Windows item of print job "3"  
+                                       5 -- \*NIX/Windows item of print job "5"  
+            jobs]D -- Empty DICT level of jobs file  
+            jspool\_log --jBASE hashed file.  See typical items listed below  
+            jspool\_log]D --jBASE DICT file with dictionary defining items  
 ```
 
 ## Typical jspool\_log file items
