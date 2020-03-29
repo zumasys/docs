@@ -1,4 +1,5 @@
-# DYNAMIC FILES
+
+# Dynamic Files
 
 **Created At:** 4/2/2018 9:47:20 PM  
 **Updated At:** 4/16/2019 3:52:12 PM  
@@ -42,7 +43,7 @@ fbcentos-~: create-file DEMO 1 23 TYPE=HASHD
 [ 417 ] File DEMO created , type = JD
 ```
 
-A final way to use dynamic files is to set the**JEDI\_PREFILEOP** environment variable as shown below, in which case this forces the **TYPE=JD** to be added to all **create-file** commands, thus over-riding the usual default of jPlus files and ignoring any modulo/separation provided.
+A final way to use dynamic files is to set the **JEDI\_PREFILEOP** environment variable as shown below, in which case this forces the **TYPE=JD** to be added to all **create-file** commands, thus over-riding the usual default of jPlus files and ignoring any modulo/separation provided.
 
 ```
 fbcentos-~: export JEDI_PREFILEOP=TYPE=HASHD
