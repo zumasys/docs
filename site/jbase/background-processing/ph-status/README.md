@@ -21,7 +21,7 @@ PH-STATUS {-L1 | -L2} {task-id port} {(Options}
 Where:
 
 - **-L1** is the default display format
-- -**L2** is an alternate display format
+  -**L2** is an alternate display format
 - **task-id** is the name of the jBASE background task process specified in the [**PH-START**](./../ph-start) procedure. Use an asterisk (\*) to indicate that you want all tasks for **port** which is the port number of the jBASE background task process for which to limit the display.
 - **-h** Help page
 - **-?** Help page

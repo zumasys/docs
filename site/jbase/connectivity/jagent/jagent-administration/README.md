@@ -18,8 +18,8 @@ jbase_agent [service options] [options]
 
 ### Command Elements
 
-- **Service Options -** install, start, stop and remove jagent service.
-- **Options -** configure jagent behavior. Most options have both long and short forms. For convenience, most options can be specified in a configuration file, and only the --config option is needed on the command line.
+- **Service Options** - install, start, stop and remove jagent service.
+- **Options** - configure jagent behavior. Most options have both long and short forms. For convenience, most options can be specified in a configuration file, and only the --config option is needed on the command line.
 
 | Option| Description|
 | --- | --- |
