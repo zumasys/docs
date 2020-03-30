@@ -56,7 +56,7 @@ You can now use normal jBASE jQL commands to look at the log.  It is usually he
 
 The following record types are used in the transaction journal log (see  dictionary item TYPE).
 
-| TYPE | DESCRIPTION |
+| Type | Description |
 | --- | --- |
 | EOF | end of file |
 | WRITE | record Written |
@@ -101,7 +101,7 @@ The program identified by the “log notify program” is called each time that 
 
 NOTE: The message is designated INFORMATION, WARNING or FATAL ERROR. This designation can be used by the log notify program to decide on a course of action. The messages that can be logged are:
 
-| TYPE | MESSAGE | STDOUT |
+| Type | Message | STDOUT |
 | --- | --- | --- |
 | INFORMATION | Log set changed to *s* | Yes |
 |  | Log set *s*truncated | Yes |

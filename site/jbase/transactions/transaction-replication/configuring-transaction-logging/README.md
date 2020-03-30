@@ -112,7 +112,7 @@ The command is invoked by the following:
 
 Where {options} are identified as:
 
-|  OPTION | DESCRIPTION |
+|  Option | Description |
 | --- | --- |
 | -a status | Set status On/Active, Off/Inactive, or Susp/Suspend |
 | -c | Create file in log set if does not exist. ( use with -f ) |

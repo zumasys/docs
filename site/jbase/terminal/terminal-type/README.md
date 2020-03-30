@@ -28,7 +28,7 @@ TERM ,,,,,,,,7
 
 Will change the terminal type to "7" for jBASE applications, but will cause the TERM variable to be set to "wy50".
 
-## CONFIG\_TERM ENTRIES
+## Config\_TERM Entries
 
 The following entries are provided by default in the Config\_TERM configuration file located in the "config" subdirectory of the jBASE release directory.  
 Each entry contains 2 fields, delimited by tabs, spaces and commas.  

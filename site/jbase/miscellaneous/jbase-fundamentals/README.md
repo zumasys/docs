@@ -78,7 +78,7 @@
     - [Directing CATALOG](#directing-catalog)
     - [jBC and jbuildslib Commands (This has now been superceeded by jcompile)](#jbc-and-jbuildslib-commands-this-has-now-been-superceeded-by-jcompile)
     - [Workshop #1](#workshop-1)
-  - [@](#)
+  - [The \@ function](#the--function)
   - [Arrays](#arrays)
     - [Dynamic Arrays](#dynamic-arrays)
     - [Dimensioned Arrays](#dimensioned-arrays)
@@ -193,8 +193,8 @@ Each line of an address can be another value. A multi value field can be used to
 - Value 2 – floor
 - Value 1 – street address
 - Value 2 – postal box number  
-
-2. **12 Month Accumulator**
+  
+1. **12 Month Accumulator**
 
 If a multivalue field is set up with 12 values, they can be used for monthly accumulators.
 
@@ -575,7 +575,7 @@ This query language is capable of calculating column totals, averages, and perce
 
 Some differences exist between jQL and SQL. They can be summarized as follows:
 
-| **JQL**                     | **SQL**                   |
+| jQL                         | SQL                       |
 | --------------------------- | ------------------------- |
 | Dictionary calculations     | Command line calculations |
 | Many dictionaries per field | One dictionary per field  |
@@ -1064,9 +1064,9 @@ CRT A[-5,2]
 CRT A[-5,-2]
 ```
 
-## @
+## The \@ function
 
-This function positions the cursor for printing. It takes the general form:
+This function positions the cursor for screen display. It takes the general form:
 
 ```
 @(col{, row})
