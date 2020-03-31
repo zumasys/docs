@@ -183,6 +183,17 @@ module.exports = {
         ]
       },
       {
+        title: "Customer Portal",
+        path: "/customer-portal/",
+        collapsable: true,
+        children: [
+          ["/customer-portal/registration/", "Registration"],
+          ["/customer-portal/support-tickets/", "Support Tickets"],
+          ["/customer-portal/navigation/", "Navigation"],
+          ["/customer-portal/customer-management/", "Customer Management"]
+        ]
+      },
+      {
         title: "jBASE",
         path: "/jbase/",
         collapsable: true,
@@ -285,17 +296,6 @@ module.exports = {
               ["/mv-connect/troubleshooting/wdebug/", "WDEBUG"]
             ]
           }
-        ]
-      },
-      {
-        title: "Customer Portal",
-        path: "/customer-portal/",
-        collapsable: true,
-        children: [
-          ["/customer-portal/registration/", "Registration"],
-          ["/customer-portal/support-tickets/", "Support Tickets"],
-          ["/customer-portal/navigation/", "Navigation"],
-          ["/customer-portal/customer-management/", "Customer Management"]
         ]
       },
       {
