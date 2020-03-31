@@ -23,7 +23,8 @@ module.exports = {
       owner: "zumasys",
       repo: "docs",
       clientId: process.env.VUE_APP_GITHUB_CLIENT_ID,
-      clientSecret: process.env.VUE_APP_GITHUB_CLIENT_SECRET
+      clientSecret: process.env.VUE_APP_GITHUB_CLIENT_SECRET,
+      admins: ['ryannmedina', 'itsxallwater']
     },
     // TypeScript in .vue files, markdown files and enhanceApp.ts
     "vuepress-plugin-typescript": {
