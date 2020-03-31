@@ -1,4 +1,4 @@
-# CONFIGURING TRANSACTION LOGGING
+# Configuring Transaction Logging
 
 **Created At:** 3/21/2018 7:04:53 AM  
 **Updated At:** 3/30/2018 12:56:56 PM  

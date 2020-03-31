@@ -8,8 +8,12 @@ In order that an uncorrupted copy of the jBASE folders is made, a DB-PAUSE shoul
 
 After the backup, a DB-RESUME should be issued to allow normal jBASE activity to resume.
 
-[Configuring a full Linux Server backup](./linux-full-backup/README.md)
+[Configuring a full Linux Server backup](./linux-full-backup/README.md)  
 
-## TBD
+[Configuring a Protection group for a Windows jBASE Server](./windows-protection-group/README.md)
+
+[Configuring a Full Backup for a Windows Server Protection Group](./windows-full-backup/README.md)
+
+## To be completed
 
 Back to [FAQ](./../README.md)

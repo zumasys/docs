@@ -1,4 +1,4 @@
-# RESTORING FROM A TRANSACTION LOG
+# Restoring from a Transaction Log
 
 **Created At:** 3/21/2018 7:11:08 AM  
 **Updated At:** 4/18/2018 8:11:53 PM  

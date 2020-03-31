@@ -24,4 +24,4 @@ The order in which the dictionaries are searched for dictionary definitions is a
 2. MD/VOC (see JEDIFILENAME\_MD)
 3. Files specified by JBCDEFDICTS
 
-Back to [jBASE Query Language (JQL)](jbase-query-language-jql-)
+Back to [jBASE Query Language (jQL)](jbase-query-language-jql-)

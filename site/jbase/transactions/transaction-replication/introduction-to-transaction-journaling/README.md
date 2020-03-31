@@ -1,4 +1,4 @@
-# INTRODUCTION TO TRANSACTION JOURNALING
+# Introduction to Transaction Journaling
 
 **Created At:** 3/21/2018 7:20:44 AM  
 **Updated At:** 3/21/2019 10:49:41 PM  
@@ -19,7 +19,7 @@ The Introduction to Transaction Journaling document serves as a starting point f
 
 ## Prerequisites
 
-To perform this steps in this walkthrough document, you will need an installed and licensed system running jBASE 5.6 or greater, along with licensing for Transaction Journaling.  If you need to complete this task, please review jBASE Installation Guide for [Windows](windows-installation) or [Linux](jbase-56-linux-installation-guide).
+To perform this steps in this walkthrough document, you will need an installed and licensed system running jBASE 5.6 or greater, along with licensing for Transaction Journaling.  If you need to complete this task, please review the jBASE Installation Guide for [Windows](windows-installation) or [Linux](jbase-56-linux-installation-guide).
 
 You should also have reviewed Introduction to jBASE, for knowledge of commands and utilities used in this walk-through.
 

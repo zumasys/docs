@@ -1,4 +1,4 @@
-# MONITORING TRANSACTION LOGGING
+# Monitoring Transaction Logging
 
 **Created At:** 3/28/2018 8:55:01 PM  
 **Updated At:** 3/30/2018 3:48:18 PM  

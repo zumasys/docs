@@ -20,4 +20,4 @@ For Sequoia subroutines the developer must include the following header file fro
 
 See also [Calling Subroutines from Dictionary Items](./../calling-a-subroutine-from-a-dictionary-item)
 
-Back to [jBASE Query Language (JQL)](jbase-query-language-jql-)
+Back to [jBASE Query Language (jQL)](jbase-query-language-jql-)

@@ -1,4 +1,4 @@
-# MONITORING TRANSACTION REPLICATION
+# Monitoring Transaction Replication
 
 **Created At:** 3/21/2018 7:09:35 AM  
 **Updated At:** 12/24/2018 6:30:04 PM  

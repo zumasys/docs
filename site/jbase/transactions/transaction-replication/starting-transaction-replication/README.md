@@ -1,4 +1,4 @@
-# STARTING TRANSACTION REPLICATION
+# Starting Transaction Replication
 
 **Created At:** 3/21/2018 6:45:06 AM  
 **Updated At:** 6/28/2018 1:46:47 PM  
