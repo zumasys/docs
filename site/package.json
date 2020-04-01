@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/zumasys/docs#readme",
   "dependencies": {
-    "@vssue/api-github-v3": "^1.4.3",
+    "@vssue/api-github-v4": "^1.4.0",
     "@vssue/vuepress-plugin-vssue": "^1.4.3",
     "dotenv": "^8.2.0",
     "i": "^0.3.6",

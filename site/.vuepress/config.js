@@ -19,7 +19,7 @@ module.exports = {
   plugins: {
     // Vssue (uses gitlab issues to comment)
     "@vssue/vuepress-plugin-vssue": {
-      platform: "github", // set `platform` rather than `api`
+      platform: "github-v4", // set `platform` rather than `api`
       owner: "zumasys",
       repo: "docs",
       clientId: process.env.VUE_APP_GITHUB_CLIENT_ID,
