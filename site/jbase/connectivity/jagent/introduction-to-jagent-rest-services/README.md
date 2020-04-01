@@ -4,7 +4,7 @@
 **Updated At:** 1/18/2019 6:33:07 PM  
 **Original Doc:** [introduction-to-jagent-rest-services](https://docs.jbase.com/30312-jagent/introduction-to-jagent-rest-services)  
 **Original ID:** 229870  
-**Internal:** No  
+**Internal:** No
 
 ## Document Scope
 
@@ -30,6 +30,8 @@ This protocol is currently implemented by the following jBASE components:
 
 ## Resources
 
+<iframe src="//www.youtube.com/embed/7Nu7cRn4Wc4?wmode=opaque" allowfullscreen="" frameborder="0" height="360" width="640" class="fr-draggable"></iframe>
+
 ## Configuring jAGENT
 
 ### Command Syntaz
@@ -43,28 +45,28 @@ jbase_agent [service options] [options]
 - **Service Options** - install, start, stop and remove jagent service.
 - **Options** - configure jagent behavior. Most options have both long and short forms. For convenience, most options can be specified in a configuration file, and only the --config option is needed on the command line.
 
-| Option | Description |
-| --- | --- |
-| --config=[config file name] |  Use [config file name] to specify jagent options. When using the jBASE HTTP API (RESTful services), a configuration file is required, as it specifies how HTTP requests are handled.  E.g. jbase\_agent --config=$JBCRELEASEDIR/config/ jagent\_config |
-| -A [mode]<br>--authentication=[mode] | [mode] = the mode (none \| user \| account) used to authenticate client connections. This option is ignored for jBASE HTTP connections.  E.g. jbase\_agent -A user |
-| -b [interfaceName]<br>--bind\_address=[interfaceName] | Bind to a specific local interface. If not specified then bind to all local interfaces.  E.g. jbase\_agent -b 1.2.3.4 |
-| -c [path to certificate]<br>--certificate=[path to certificate] | [path to certificate] = the path to a valid x509 certificate.  Note --private\_key is mandatory with this option. |
-| -F  |  Create log files for each client connection (P[pid].log) |
-| -h  |  Display this help |
-| -k [path to private key]<br>--private\_key=[path to private key] | [path to privatekey] = the path to a valid private key.  Certificate is mandatory with this option.  E.g. jbase\_agent --private\_key=key.pem --certificate=cert.pem |
-| L [logLevel]<br>--loglevel=[logLevel] |  [logLevel] = a numeric log level that determines the detail to be logged (default level is LOG\_NOTICE).<br>0 NO LOGGING<br>1 LOG\_TRACE<br>2 LOG\_DEBUG<br>3 LOG\_INFO<br>4  LOG\_NOTICE<br>5  LOG\_WARNING<br>6  LOG\_ERROR<br>7  LOG\_CRITICAL<br>8  LOG\_ALERT<br>9  LOG\_EMERGENCY |
-| -n [serviceName]<br>--service\_name=[serviceName] | [serviceName] = name of the service to install, start, stop or remove. |
-| -N | Do not set TCP\_NO\_DELAY. Useful for performance tuning. |
-| -p [listenPort]<br>--port=[listenPort] | [listenPort] = the port that will listen for client connections.  E.g. jbase\_agent -p 20003 |
-| -R [bufferSize]<br>--read\_buf\_size=[bufferSize] | Set read buffer size (in bytes) to [bufferSize]. If not specified uses default buffer size. |
-| -W [bufferSize]<br>--write\_buf\_size=[bufferSize] | Set write buffer size (in bytes) to [bufferSize]. If not specified uses default buffer size. |
+| Option                                                          | Description                                                                                                                                                                                                                                                                    |
+| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| --config=[config file name]                                     |  Use [config file name] to specify jagent options. When using the jBASE HTTP API (RESTful services), a configuration file is required, as it specifies how HTTP requests are handled.  E.g. jbase_agent --config=\$JBCRELEASEDIR/config/ jagent_config                         |
+| -A [mode]<br>--authentication=[mode]                            | [mode] = the mode (none \| user \| account) used to authenticate client connections. This option is ignored for jBASE HTTP connections.  E.g. jbase_agent -A user                                                                                                              |
+| -b [interfaceName]<br>--bind_address=[interfaceName]            | Bind to a specific local interface. If not specified then bind to all local interfaces.  E.g. jbase_agent -b 1.2.3.4                                                                                                                                                           |
+| -c [path to certificate]<br>--certificate=[path to certificate] | [path to certificate] = the path to a valid x509 certificate.  Note --private_key is mandatory with this option.                                                                                                                                                               |
+| -F                                                              |  Create log files for each client connection (P[pid].log)                                                                                                                                                                                                                      |
+| -h                                                              |  Display this help                                                                                                                                                                                                                                                             |
+| -k [path to private key]<br>--private_key=[path to private key] | [path to privatekey] = the path to a valid private key.  Certificate is mandatory with this option.  E.g. jbase_agent --private_key=key.pem --certificate=cert.pem                                                                                                             |
+| L [logLevel]<br>--loglevel=[logLevel]                           |  [logLevel] = a numeric log level that determines the detail to be logged (default level is LOG_NOTICE).<br>0 NO LOGGING<br>1 LOG_TRACE<br>2 LOG_DEBUG<br>3 LOG_INFO<br>4  LOG_NOTICE<br>5  LOG_WARNING<br>6  LOG_ERROR<br>7  LOG_CRITICAL<br>8  LOG_ALERT<br>9  LOG_EMERGENCY |
+| -n [serviceName]<br>--service_name=[serviceName]                | [serviceName] = name of the service to install, start, stop or remove.                                                                                                                                                                                                         |
+| -N                                                              | Do not set TCP_NO_DELAY. Useful for performance tuning.                                                                                                                                                                                                                        |
+| -p [listenPort]<br>--port=[listenPort]                          | [listenPort] = the port that will listen for client connections.  E.g. jbase_agent -p 20003                                                                                                                                                                                    |
+| -R [bufferSize]<br>--read_buf_size=[bufferSize]                 | Set read buffer size (in bytes) to [bufferSize]. If not specified uses default buffer size.                                                                                                                                                                                    |
+| -W [bufferSize]<br>--write_buf_size=[bufferSize]                | Set write buffer size (in bytes) to [bufferSize]. If not specified uses default buffer size.                                                                                                                                                                                   |
 
 - Windows will receive a prompt to allow access to ports for OS firewall
 - Linux will need to open ports for OS firewall
 
 ## Creating your demo account and REST file
 
-1. Create the jBASE account DEMO\_REST
+1. Create the jBASE account DEMO_REST
 
 ```
 JBASEADM ~ -->CREATE-ACCOUNT DEMO_REST
@@ -75,7 +77,7 @@ C:\jBASE\DEMO_REST
 jsh DEMO_REST ~ -->
 ```
 
-2. Create WDB.RESOURCE file in the DEMO\_REST account
+2. Create WDB.RESOURCE file in the DEMO_REST account
 
 ```
 jsh DEMO_REST ~ -->CREATE-FILE WDB.RESOURCE 1 51
@@ -116,7 +118,7 @@ jsh DEMO_REST ~ -->
 jsh DEMO_REST ~ -->CD C:\JBASE\CURRENTVERSION\CONFIG
 ```
 
-3. Open JED and edit JAGENT\_CONFIG file, adding the highlighted information below in lines 100-102
+3. Open JED and edit JAGENT_CONFIG file, adding the highlighted information below in lines 100-102
 
 ```
 jsh DEMO_REST C:\JBASE\CURRENTVERSION\CONFIG -->JED JAGENT_CONFIG
@@ -186,12 +188,12 @@ HELLO FROM LINE 10
 
 ```
 jsh DEMO_REST ~ -->CD C:\JBASE\CURRENTVERSION\
-jsh DEMO_REST C:\JBASE\CURRENTVERSION -->JBASE_AGENT  
+jsh DEMO_REST C:\JBASE\CURRENTVERSION -->JBASE_AGENT
 --config CONFIG\JAGENT_CONFIG
-(5756|12660) NOTICE starting up jAgent,  
+(5756|12660) NOTICE starting up jAgent,
 Process Per Connection mode, listening on port 20002
 , c:\zumasys\src\international\5.6.x\jagent\
-SocketAcceptor.h +63 
+SocketAcceptor.h +63
 ```
 
 6. Keep the terminal session open, start an Internet browser, then browse to:

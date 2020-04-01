@@ -4,9 +4,11 @@
 **Updated At:** 2/25/2019 8:58:43 PM  
 **Original Doc:** [291163-introduction-to-the-jbc-debugger](https://docs.jbase.com/41693-debugger/291163-introduction-to-the-jbc-debugger)  
 **Original ID:** 291163  
-**Internal:** No  
+**Internal:** No
 
 The jBC debugger is a fully featured, interactive diagnostic utility that gives the programmer full access to the program variables and files. It will allow examination of source code, save and restore of debug settings and full access to system commands from within the debug shell. As such it is a powerful tool for detecting and fixing errors within jBC source programs. The main features of the debugger are:
+
+<iframe width="640" height="360" class="fr-draggable" src="https://www.youtube.com/embed/mHxvaH1Mvik?wmode=opaque" frameborder="0" allowfullscreen=""></iframe>
 
 - Set and delete breakpoints to halt program execution. These can be simple line number breaks or based upon the result of an evaluated expression.
 - Set and delete the tracking and display of variable contents.

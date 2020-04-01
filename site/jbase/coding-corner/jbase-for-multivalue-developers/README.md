@@ -4,7 +4,7 @@
 **Updated At:** 1/30/2019 10:34:39 PM  
 **Original Doc:** [359033-jbase-for-multivalue-developers](https://docs.jbase.com/coding-corner/359033-jbase-for-multivalue-developers)  
 **Original ID:** 359033  
-**Internal:** No  
+**Internal:** No
 
 **Tags:**
 <badge text='education' vertical='middle' />
@@ -15,7 +15,9 @@
 <badge text='excercises' vertical='middle' />
 <badge text='training' vertical='middle' />
 
-To follow along with the [jBASE Training Class videos](https://www.youtube.com/playlist?list=PLVXwKjeQzt19GqazZ0l3sAFpAAqz2STMw), you should follow these steps to set up the correct environment.  
+<iframe width="640" height="360" src="https://www.youtube.com/embed/zefl1nnXvy0?wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable"></iframe>
+
+To follow along with the [jBASE Training Class videos](https://www.youtube.com/playlist?list=PLVXwKjeQzt19GqazZ0l3sAFpAAqz2STMw), you should follow these steps to set up the correct environment.
 
 Assuming a clean Windows platform for all of this, run the jBASE 5.7 installer and follow along to install the prerequisites.
 

@@ -108,7 +108,4 @@ Don’t:
 1. SHOUT. We are trying to present a modern look and should be encouraging users to move away from everything in capital letters.
 2. Use HTML except where necessary.
    a. Most tables can be constructed using Markdown “syntax”, although some complex tables such at those in the jBC “FMT” page (../docs/jbase/jbc/fmt/README.md) will need the assistance of some HTML code in order to appear correctly on the web page.
-
-```
-
-```
+   b. It is permissible to embed video content with HTML.

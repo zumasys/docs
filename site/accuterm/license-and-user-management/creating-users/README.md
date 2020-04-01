@@ -6,22 +6,17 @@
 **Updated At:** 10/29/2019 4:56:39 PM  
 **Original Doc:** [accuterm-8-adding-users](https://docs.zumasys.com/accuterm/accuterm-8-adding-users)  
 **Original ID:** 412551  
-**Internal:** No  
-
+**Internal:** No
 
 Each AccuTerm user, whether a Desktop or Web user (and eventually Mobile users), needs to be registered in the customer's Zumasys Customer Portal account. Users are identified by email address. Each user can activate up to 2 Windows computers for AccuTerm 8 Desktop. Users can be granted access to the Web version (and eventually the Mobile version). Each user has a unique License Key, which, along with the email address, is used to activate AccuTerm 8 Desktop on their computer.
 
 ## Adding a Single User
 
-
-
-
+<iframe width="640" height="360" src="https://www.youtube.com/embed/MuB-cyfq4z0?&wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable"></iframe>
 
 ### Info
 
 Prior to creating a user, you will need to have already created your [Customer Portal User](./../../../customer-portal/registration/README.md) and be assigned as an Administrator to your company's account.
-
-
 
 1. Expand the AccuTerm module from the main navigation page in the Customer Portal and select Users & Licenses.
 
@@ -35,23 +30,15 @@ Prior to creating a user, you will need to have already created your [Customer P
 
 ![accuterm-8-adding-users: 1566000868953-1566000868953](./1566000868953-1566000868953.png)
 
-
-
 ## Bulk User Import
 
-
-
-
+<iframe width="640" height="360" src="https://www.youtube.com/embed/WWglbVvpfmg?&wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable"></iframe>
 
 ### Info
 
 Prior to creating a user, you will need to have already created your [Customer Portal User](./../../../customer-portal/registration/README.md) and be assigned as an Administrator to your company's account.
 
-
-
 If you are looking to export users from Microsoft Active Directory, Microsoft Exchange or Office 365, please refer to the following link: [https://www.codetwo.com/admins-blog/export-users-from-active-directory/](https://www.codetwo.com/admins-blog/export-users-from-active-directory/)
-
-
 
 1. Expand the AccuTerm module from the main navigation page in the Customer Portal and select Users & Licenses.
 

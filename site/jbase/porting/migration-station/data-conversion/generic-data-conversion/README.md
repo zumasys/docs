@@ -4,7 +4,9 @@
 **Updated At:** 5/24/2019 7:14:40 PM  
 **Original Doc:** [368880-creating-migrating-accounts-and-converting-programs](https://docs.jbase.com/34463-mv-migration-station/368880-creating-migrating-accounts-and-converting-programs)  
 **Original ID:** 368880  
-**Internal:** No  
+**Internal:** No
+
+<iframe width="640" height="360" class="fr-draggable" src="https://www.youtube.com/embed/KsVIBNmAmQ0?wmode=opaque" frameborder="0" allowfullscreen=""></iframe>
 
 ## What do I start with?
 
@@ -16,29 +18,29 @@ You are now working with directories in your jBASE data directory that contain t
 
 Here is an example of a typical system to be converted.  The directory list was retrieved by doing ls -1d from the jBASE data directory
 
-- Directory -- The directory under the jBASE data directory (in our case /dbms)  
-- Description -- A description of what the account does to aid in figuring out how to convert  
-- SYSTEM file -- A working column for notes on whether to convert and special things to do or done for that conversion:  
-  - Yes = to be converted  
-  - SYSTEM = CREATE-ACCOUNT has been run  
-  - Keep as directory = Keep files but do not add a SYSTEM item.  
-- MD -- Status of MD conversion:  
-  - UpdateMD = UpdateMD run  
-  - Clean = removed superfluous items like CATALOG pointers and other such items not used by jBASE  
-  - Done = Removed PROCS, MACROS and other items that are not pertinent to the jBASE system.  
-- Procs -- Name of proc files, then TESTED if complete  
-- Programs -- Name of program files, then TESTED if complete  
+- Directory -- The directory under the jBASE data directory (in our case /dbms)
+- Description -- A description of what the account does to aid in figuring out how to convert
+- SYSTEM file -- A working column for notes on whether to convert and special things to do or done for that conversion:
+  - Yes = to be converted
+  - SYSTEM = CREATE-ACCOUNT has been run
+  - Keep as directory = Keep files but do not add a SYSTEM item.
+- MD -- Status of MD conversion:
+  - UpdateMD = UpdateMD run
+  - Clean = removed superfluous items like CATALOG pointers and other such items not used by jBASE
+  - Done = Removed PROCS, MACROS and other items that are not pertinent to the jBASE system.
+- Procs -- Name of proc files, then TESTED if complete
+- Programs -- Name of program files, then TESTED if complete
 
-* * *
+---
 
-| Directory | Description | SYSTEM file | MD | Procs/Paragraphs/Macros | Programs |
-| --- | --- | --- | --- | --- | --- |
-| ACCUTERM | Accuterm for D3 | No, load new for jBASE | N/A | N/A | N/A |
-| BAM | Program Generator | SYSTEM | Clean | BAM.PROCS -- TESTEDGEN.PROCS | BAM.BP -- TESTEDGEN.BP -- TESTEDUTIL.BP |
-| D3REF | D3 help account | Keep as directory | N/A | N/A | N/A |
-| DM | Data manager account for D3 | Keep as directory | N/A | N/A | N/A |
-| EDI.PGM | EDI programs | Yes |  |  |  |
-| ... |  |  |  |  |  |
+| Directory | Description                 | SYSTEM file            | MD    | Procs/Paragraphs/Macros      | Programs                                |
+| --------- | --------------------------- | ---------------------- | ----- | ---------------------------- | --------------------------------------- |
+| ACCUTERM  | Accuterm for D3             | No, load new for jBASE | N/A   | N/A                          | N/A                                     |
+| BAM       | Program Generator           | SYSTEM                 | Clean | BAM.PROCS -- TESTEDGEN.PROCS | BAM.BP -- TESTEDGEN.BP -- TESTEDUTIL.BP |
+| D3REF     | D3 help account             | Keep as directory      | N/A   | N/A                          | N/A                                     |
+| DM        | Data manager account for D3 | Keep as directory      | N/A   | N/A                          | N/A                                     |
+| EDI.PGM   | EDI programs                | Yes                    |       |                              |                                         |
+| ...       |                             |                        |       |                              |                                         |
 
 ### SYSTEM file
 
@@ -84,7 +86,7 @@ If the MD does not exist, you can exit the editor and begin the migration of thi
 
 #### MD Step 2
 
-Create a MD\_ORIG file and copy all the MD items to it, so you always have a copy of the MD as it came from your source multi-value system.
+Create a MD_ORIG file and copy all the MD items to it, so you always have a copy of the MD as it came from your source multi-value system.
 
 ```
 jsh> LOGTO BAM
@@ -103,7 +105,7 @@ jsh> UpdateMD
 
 #### MD Step 4
 
-Removing superfluous information and procs and processes is not needed in jBASE. This step will need to be done before go-live, but does not need to be done before converting the account. There are several easy steps to remove those items which are not used in jBASE and further analysis may be needed to determine those procs and processes you will not want in the MD. Remember you will be deleting items from the MD, but all items will remain untouched in MD\_ORIG.
+Removing superfluous information and procs and processes is not needed in jBASE. This step will need to be done before go-live, but does not need to be done before converting the account. There are several easy steps to remove those items which are not used in jBASE and further analysis may be needed to determine those procs and processes you will not want in the MD. Remember you will be deleting items from the MD, but all items will remain untouched in MD_ORIG.
 
 ```
 jsh> SELECT MD WITH *A1 = "V]"   <-- These are catalog pointers and other D3 verb pointers, not used by jBASE.
@@ -111,7 +113,7 @@ xxx Records selected
 >>DELETE MD  <-- This will remove them from the MD file.
 ```
 
-The next step would be to remove all procs, paragraphs and macros from the MD since the majority of them are used for system type processes from the source multi-value machine and may not apply to your new jBASE server. Remember, the items will still exist in MD\_ORIG and can be moved into the MD if needed later.
+The next step would be to remove all procs, paragraphs and macros from the MD since the majority of them are used for system type processes from the source multi-value machine and may not apply to your new jBASE server. Remember, the items will still exist in MD_ORIG and can be moved into the MD if needed later.
 
 ```
 jsh> SELECT MD WITH *A1 = "PQ]""PA]""N]"  <-- This will select procs, paragraphs and macros respectively.
@@ -119,7 +121,7 @@ xxx Records selected
 >>DELETE MD  <-- This will remove them from the MD file.
 ```
 
-All procs, paragraphs and macros are removed. As you find items needed, you can , move them back from MD\_ORIG and test. An example of this would be the logon proc if it existed
+All procs, paragraphs and macros are removed. As you find items needed, you can , move them back from MD_ORIG and test. An example of this would be the logon proc if it existed
 
 ```
 jsh> COPY FROM MD_ORIG TO MD BAM   <-- This is the one-line syntax COPY to copy the logon proc back to the active MD
@@ -127,7 +129,7 @@ jsh> COPY FROM MD_ORIG TO MD BAM   <-- This is the one-line syntax COPY to copy 
 
 ### PROCS/Paragraphs/Macros
 
-PQ and PQN type procs have few inconsistencies between multi-value implementations and will therefore have little need of change to migrate to jBASE. The only thing you will need to do is possibly use the MD\_ORIG from the MD process and find the PROC files that will exist in your account. Using jBASE at the linux shell, you can list the MD\_ORIG items that start with PQ and return a list of all the lines that start with a left parenthesis which is how multi-value runs a proc in a separate file from the MD.
+PQ and PQN type procs have few inconsistencies between multi-value implementations and will therefore have little need of change to migrate to jBASE. The only thing you will need to do is possibly use the MD_ORIG from the MD process and find the PROC files that will exist in your account. Using jBASE at the linux shell, you can list the MD_ORIG items that start with PQ and return a list of all the lines that start with a left parenthesis which is how multi-value runs a proc in a separate file from the MD.
 
 ```
 jsh> bash
@@ -150,7 +152,7 @@ jsh>SORT-ITEM MD WITH *A1 = "PA]""N]"
 
 ### Programs
 
-jBASE BASIC is very similar to all the other multi-value BASIC languages in syntax and function.  A majority of your BASIC code will compile without modification.   The main task is finding those BASIC program source files.   Most multi-value platforms (including jBASE) do not have any identifiers to differentiate BASIC source files from data files such as CUSTOMER or ORDER.   Usually a reliable option is to find those items in the MD\_ORIG which represented CATALOG pointers to BASIC programs.   This is not mandatory, but is probably done on the largest percentage of multi-value machines.  Here are a few variations for discovering the files using that option
+jBASE BASIC is very similar to all the other multi-value BASIC languages in syntax and function.  A majority of your BASIC code will compile without modification.   The main task is finding those BASIC program source files.   Most multi-value platforms (including jBASE) do not have any identifiers to differentiate BASIC source files from data files such as CUSTOMER or ORDER.   Usually a reliable option is to find those items in the MD_ORIG which represented CATALOG pointers to BASIC programs.   This is not mandatory, but is probably done on the largest percentage of multi-value machines.  Here are a few variations for discovering the files using that option
 
 #### D3 machines
 
