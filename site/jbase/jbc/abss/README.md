@@ -8,7 +8,9 @@
 
 ## Description
 
-The **ABSS** function returns the absolute values of all the elements in a dynamic array. If an element in the dynamic array is null, it returns null for that element. It takes the general form:
+The **ABSS** function returns the absolute values of all the elements in a dynamic array. If an element in the dynamic array is null, it returns null for that element. 
+
+It takes the general form:
 
 ```
 ABSS (dynamic.array)
@@ -17,17 +19,18 @@ ABSS (dynamic.array)
 An example of use is as:
 
 ```
-Y = REUSE(300)
-Z = 500:@VM:400:@VM:300:@SM:200:@SM:100
-A = SUBS (Z,Y)
-CRT A
-CRT ABSS (A)
+ EQU arr1 TO REUSE(300)
+ arr2 = 500 : @VM : 400 : @VM : 300 : @SM :200 : @SM : 100
+ result = SUBS (arr1, arr2)
+ CRT "Result is currently = " : result
+ CRT "Result of ABSS(result) is " : ABSS (result)
 ```
 
 The output of this program is:
 
 ```
-200]100]0\-100\-200
+Result is currently = -200ÿ-100ÿ0ü100ü200
+Result of ABSS(result) is 200ÿ100ÿ0ü100ü200
 ```
 
 Go back to [jBASE BASIC](./../README.md)
