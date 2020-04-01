@@ -20,16 +20,16 @@ element in the other array, it returns the existing element. If an element of on
 An example of use is as:
 
 ```
-A=2:@VM:4:@VM:6:@SM:10
-B=1:@VM:2:@VM:3:@VM:4
+addend1 = 2 : @VM : 4 : @VM : 6 : @SM : 10
+addend2 = 1 : @VM : 2 : @VM : 3 : @VM : 4
 
-CRT ADDS (A,B)
+CRT "Result of ADDS(addend1,addend2) is " : ADDS(addend1,addend2)
 ```
 
 to output:
 
 ```
-3]6]9\10]4
+Result of ADDS(addend1,addend2) is 3]6]9\10]4
 ```
 
 Go back to [jBASE BASIC](./../README.md)
