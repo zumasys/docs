@@ -4,7 +4,7 @@
 **Updated At:** 5/24/2019 6:38:38 PM  
 **Original Doc:** [migrating-to-jbase-d3-system](https://docs.jbase.com/34463-mv-migration-station/migrating-to-jbase-d3-system)  
 **Original ID:** 363891  
-**Internal:** No  
+**Internal:** No
 
 **Tags:**
 <badge text='jdevattach' vertical='middle' />
@@ -15,6 +15,8 @@
 <badge text='d3 to jbase restore' vertical='middle' />
 <badge text='d3 conversion ' vertical='middle' />
 <badge text='d3 backup' vertical='middle' />
+
+<iframe width="640" height="360" class="fr-draggable" src="https://www.youtube.com/embed/ZpRmYE59hOg?wmode=opaque" frameborder="0" allowfullscreen=""></iframe>
 
 This article and accompanying video will provide you with a walkthrough of how to prepare your D3 data to be migrated to jBASE.  You will configure your D3 backup, execute the backup and run a restore of your D3 data onto a jBASE system.
 

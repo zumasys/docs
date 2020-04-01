@@ -6,12 +6,9 @@
 **Updated At:** 11/23/2019 12:41:42 AM  
 **Original Doc:** [get-started-with-mv-connect](https://docs.zumasys.com/36307-mv-connect/get-started-with-mv-connect)  
 **Original ID:** 260514  
-**Internal:** No  
+**Internal:** No
 
-
-
-
-
+<iframe src="//www.youtube.com/embed/7Nu7cRn4Wc4?wmode=opaque" allowfullscreen="" frameborder="0" height="360" width="640" class="fr-draggable"></iframe>
 
 ## Introduction
 
@@ -20,12 +17,9 @@ Once you have installed MVConnect you are ready to start developing.  MVConnect
 1. A small web server that runs directly on your Pick box.  This is a non-Pick program that listens for web requests and transfers that call into Pick.  Since jBASE 5.6, RESTful Services have been built into jAgent.  On other platforms and prior to jBASE 5.6, we offer MVAppsvr which facilitates getting into Pick via the Pick executable.  Both of these front end web servers are configured a little differently.  Look here for documentation on how to configure MVAppsvr while this [link](https://docs.jbase.com/30312-jagent/introduction-to-jagent "jAgent documentation") describes how to setup jAgent.
 2. Pick side library for doing web work.  These library pieces are the same for all versions of Pick.  This allows you to write Web and Rest applications that can easily move to different versions of Pick.
 
-
 ### Info
 
 If you are using jBASE/jAgent then MVConnect and all it's API's are available in any account you are working on.  This is because all the MVConnect API's are included with the core jBASE libraries.  There is no need to set up an account.
-
-
 
 ## **MV Connect/MVAppsvr**
 
@@ -33,15 +27,11 @@ If you are using MVConnect with MVAppsvr then by default MVConnect installs an M
 
 ![get-started-with-mv-connect: 1524595434147-mvconnect_4.2018](./1524595434147-mvconnect_4.2018.jpg)
 
-
-
 ## MV Connect REST API Library
 
 The MVConnect Rest API library is a series of subroutines to work with the web call.  These are the normal functions you would see in other languages, such as working with headers, the body, form vars, return codes, etc.
 
 Click [here](./../api/README.md) for MVConnect Rest API Library
-
-
 
 ## Testing Connectivity with wresttest
 
@@ -55,16 +45,12 @@ This test service grabs some information from your system and outputs it in JSON
 
 The important fields are
 
-
-| <!----> | <!----> |
-| --- | --- |
-| Who | What line the Connector processed the request on.   |
-| vars | This is a list of vars.  This will include any vars sent on the URL bar plus any x-www-form-urlencoded data |
+| <!----> | <!---->                                                                                                                                                                             |
+| ------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Who     | What line the Connector processed the request on.                                                                                                                                   |
+| vars    | This is a list of vars.  This will include any vars sent on the URL bar plus any x-www-form-urlencoded data                                                                         |
 | headers | This is headers sent by the client.  The MVConnector will limit the headers sent.  If you wish to send more headers to look at the MVConnector config file and add the header name. |
-| body | When the post is not x-www-form-urlencoded, the raw body will be sent. |
-
-
-
+| body    | When the post is not x-www-form-urlencoded, the raw body will be sent.                                                                                                              |
 
 ## Example of Sending REST Data
 
@@ -78,7 +64,7 @@ Click on the body, change data to raw, adjust output to JSON (application/JSON) 
 
 ![get-started-with-mv-connect: blob](./blob-3.jpg)
 
-Hit the send button and your raw JSON will now be in the body tag.  Notice also that the CONTENT\_TYPE switched to application/JSON.
+Hit the send button and your raw JSON will now be in the body tag.  Notice also that the CONTENT_TYPE switched to application/JSON.
 
 ![get-started-with-mv-connect: blob](./blob-4.jpg)
 
@@ -106,11 +92,11 @@ We are now ready to expose this program as an API.  The WDB.RESOURCE file is wh
 
 ```
 ED WDB.RESOURCE API*HELLOWORLD
-001 P 
-002 Hello World 
-003 HELLOWORLD 
-004  
-005 1 
+001 P
+002 Hello World
+003 HELLOWORLD
+004
+005 1
 006 1
 ```
 
@@ -121,9 +107,9 @@ Now go back to POSTMAN and call your program.  Because we just spit out the str
 Now lets make it interactive. Change your HELLOWORLD program as follows.
 
 ```
-001 CALL WSETCONTENTTYPE("application/json") 
-002 CALL WGETVAR(NAME,"name") 
-003 JSON=\{ "response": "Hello \:NAME:\" }\ 
+001 CALL WSETCONTENTTYPE("application/json")
+002 CALL WGETVAR(NAME,"name")
+003 JSON=\{ "response": "Hello \:NAME:\" }\
 004 CALL WSEND(JSON)
 ```
 
@@ -137,20 +123,12 @@ For example here is code for PHP
 
 ![get-started-with-mv-connect: blob](./blob-8.jpg)
 
-
-
 ## Run MV Connect in a Different Account
 
 While it is generally recommended to run your REST service handlers from the MVDB account, it is possible to LOGTO a different account to run the handler program. The name of the account must be configured in the [WDB.RESOURCE](./../../../jbase/jagent/apis/wdb.resource) file. In addition, the target account requires several q-pointers and cataloged programs:
 
-
-| <!----> | <!----> |
-| --- | --- |
-| WBPD<br> | contains INCLUDE files, not needed at runtime |
-| WREST.BP | catalog all items in target account |
-| WOBJ.BP | catalog all items in target account if JSON parser needed |
-
-
-
-
-
+| <!---->  | <!---->                                                   |
+| -------- | --------------------------------------------------------- |
+| WBPD<br> | contains INCLUDE files, not needed at runtime             |
+| WREST.BP | catalog all items in target account                       |
+| WOBJ.BP  | catalog all items in target account if JSON parser needed |

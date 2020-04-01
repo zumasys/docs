@@ -4,7 +4,7 @@
 **Updated At:** 3/21/2019 10:49:41 PM  
 **Original Doc:** [introduction-to-transactional-journaling](https://docs.jbase.com/43995-transactional-journaling/introduction-to-transactional-journaling)  
 **Original ID:** 304808  
-**Internal:** No  
+**Internal:** No
 
 **Tags:**
 <badge text='journaling' vertical='middle' />
@@ -12,6 +12,8 @@
 <badge text='transaction replication' vertical='middle' />
 <badge text='transaction journalingt' vertical='middle' />
 <badge text='replication' vertical='middle' />
+
+<iframe width="640" height="360" class="fr-draggable" src="https://www.youtube.com/embed/AprrDMIgvUg?wmode=opaque" frameborder="0" allowfullscreen=""></iframe>
 
 ## Document Scope
 

@@ -16,6 +16,8 @@
 <badge text='install ' vertical='middle' />
 <badge text='jbase on linux' vertical='middle' />
 
+<iframe width="640" height="360" class="fr-draggable" src="https://www.youtube.com/embed/Xpsr4LgBZVk?wmode=opaque" frameborder="0" allowfullscreen=""></iframe>
+
 ## System Requirements
 
 jBASE for Linux is officially supported on 64-bit versions of CentOS 5 or above and Red Hat Enterprise Linux 5 or above. If installed on other distributions you may receive a warning but allowed to continue, however prerequisites will not be installed on un-supported operating systems.
