@@ -20,15 +20,15 @@ If both corresponding elements of **array1** and **array2** are null, it returns
 An example of use is as:
 
 ```
-A = 1 : @SM : 4 : @VM : 4 : @SM : 1
-B = 1 : @SM : 1 - 1 : @VM : 2
-CRT ANDS (A,B)
+array1 = 1 : @SM : 4 : @VM : 4 : @SM : 1
+array2 = 1 : @SM : 1 - 1 : @VM : 2
+CRT "Result of ANDS (array1, array2) is " : ANDS (array1, array2)
 ```
 
 to output:
 
 ```
-1\0]1\0
+1ü0ÿ1ü0
 ```
 
 Go back to [jBASE BASIC](./../README.md)

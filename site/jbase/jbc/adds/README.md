@@ -29,7 +29,7 @@ CRT "Result of ADDS(addend1,addend2) is " : ADDS(addend1,addend2)
 to output:
 
 ```
-Result of ADDS(addend1,addend2) is 3]6]9\10]4
+Result of ADDS(addend1,addend2) is 3ÿ6ÿ9ü10ÿ4
 ```
 
 Go back to [jBASE BASIC](./../README.md)
