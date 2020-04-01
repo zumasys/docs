@@ -14,6 +14,8 @@ After the backup, a DB-RESUME should be issued to allow normal jBASE activity to
 
 [Configuring a Full Backup for a Windows Server Protection Group](./windows-full-backup/README.md)
 
+[Restoring data from a Windows Veeam backup](./windows-restore/README.md)
+
 ## To be completed
 
 Back to [FAQ](./../README.md)
