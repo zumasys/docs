@@ -25,11 +25,11 @@ Where **variable** is any variable declared in the program.
 ## Example
 
 ```
-     IF ASSIGNED(record) THEN
-         CRT "The variable 'record' has been assigned a value."
-     END ELSE
-         CRT "The variable 'record' has NOT been assigned a value."
-     END
+IF ASSIGNED(record) THEN
+    CRT "The variable 'record' has been assigned a value."
+END ELSE
+    CRT "The variable 'record' has NOT been assigned a value."
+END
 ```
 
 See also: [UNASSIGNED](./../unassigned)

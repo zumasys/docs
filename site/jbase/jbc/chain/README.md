@@ -14,7 +14,7 @@ The **CHAIN** statement exits the current program and transfers process control 
 CHAIN expression
 ```
 
-Where **expression** should evaluate to a valid UNIX or Windows command, Which may be another jBASE BASIC program.
+Where **expression** should evaluate to a valid UNIX or Windows command, which may be another jBASE BASIC program.
 
 The command string may be suffixed with the ‘I’ option, which will cause any [COMMON](./../common) variables in the current program to be inherited by the new program (providing it is a jBASE BASIC program).
 
@@ -22,7 +22,7 @@ The command string may be suffixed with the ‘I’ option, which will cause any
 
 > There are no restrictions to the **CHAIN** statement. However, it is advisable that your program follows a logical path easily seen by another programmer.
 
-If the program, which contains the **CHAIN** command (the current program) was called from a JCL program, and the program to be executed (the target program) is another jBASE BASIC program, control will return to the original JCL program when the target program terminates. If the target program is a JCL program, control will return to the command shell when the JCL program terminates.
+If the program, which contains the **CHAIN** command (the current program) was called from a jCL program, and the program to be executed (the target program) is another jBASE BASIC program, control will return to the original jCL program when the target program terminates. If the target program is a jCL program, control will return to the command shell when the jCL program terminates.
 
 ### Examples
 
@@ -33,21 +33,21 @@ CHAIN "OFF" ;* exit via the OFF command
 Consider two programs as:
 
 ```
-    PROGRAM Prog1
-    COMMON A,B
-    A = 50;
-    B = 100
-    CHAIN "NEWPROG (I"
+PROGRAM Prog1
+COMMON varA, varB
+varA = 50;
+varB = 100
+CHAIN "newPROG (I"
 ```
 
 ```
-    PROGRAM NEWPROG
-    COMMON I,J
-    * I and J inherited
-    CRT I,J
+PROGRAM newPROG
+COMMON varI, varJ
+* varI and varJ inherited
+CRT varI, varJ
 ```
 
-running prog1 will result in:
+running Prog1 will result in:
 
 ```
 50      100

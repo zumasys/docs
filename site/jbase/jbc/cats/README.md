@@ -23,15 +23,15 @@ Where **DynArr1** and **DynArr2** are dynamic arrays.
 An example of use is as:
 
 ```
-     A = "a" : @SM : "b" : @VM : "c": @VM : "d"
-     B = "x" : @VM : "y" : @SM : "z"
-     CRT  CATS(A, B)
+one_array = "a" : @SM : "b" : @VM : "c": @VM : "d"
+another_array = "x" : @VM : "y" : @SM : "z"
+CRT "Result of CATS(one_array, another_array) is " : OCONV(CATS(one_array, another_array), 'MCP')
 ```
 
 to display:
 
 ```
-ax : @SM : b : @VM : cy : @SM : z : @VM : d
+Result of CATS(one_array, another_array) is ax\b]cy\z]d
 ```
 
 Go back to [jBASE BASIC](./../README.md)

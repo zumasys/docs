@@ -23,9 +23,9 @@ The **variable** list should contain a list of previously opened file variables 
 An example of use is as:
 
 ```
-OPEN "DATAFILE" TO FILEVAR ELSE ABORT 201, "DATAFILE"
+OPEN "DATAFILE" TO fileVar ELSE ABORT 201, "DATAFILE"
 *Operations on file data
-CLOSE FILEVAR
+CLOSE fileVar
 ```
 
 Go back to [jBASE BASIC](./../README.md)

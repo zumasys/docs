@@ -19,7 +19,7 @@ In the following example, the **CLEARINPUT** statement clears the terminal type-
 ```
 CLEARINPUT
 CRT "Do you want to delete this file? (Y or N)";
-INPUT X, 1
+INPUT Answer, 1
 ```
 
 ## Note

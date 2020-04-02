@@ -50,7 +50,7 @@ defining subroutine Hello:
 
 ```
 SUBROUTINE Hello(Message)
-    CRT "HELLO": Message
+    CRT "Hello " : Message
 RETURN
 ```
 

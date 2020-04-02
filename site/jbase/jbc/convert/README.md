@@ -31,9 +31,15 @@ Where:
 Examples of use are as follows:
 
 ```
-OLD.VAL = "a,b,c;d,e|f,g;h,i"
-NEW.VAL = CONVERT(OLD.VAL, ";,|", @AM:@VM:@SVM)
-! NEW.VAL now contains a]b]c^d]e\f]g^h]i
+    oldVal = "a,b,c;d,e|f,g;h,i"
+    newVal = CONVERT(oldVal, ";,|", @AM : @VM : @SVM)
+    CRT "Converted string is " : OCONV(newVal, "MCP")
+```
+
+which results in the following output:
+
+```
+Converted string is a]b]c^d]e\f]g^h]i
 ```
 
 See also: [CONVERT Statement](./../convert-%28statement%29).

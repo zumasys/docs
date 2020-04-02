@@ -18,7 +18,7 @@ Where **expression** can return a result of any type. The **BYTELEN** function w
 
 ## Note
 
-> The **BYTELEN** function will always return the actual byte count for the expression; irrespective of the whether running in International Mode in operation at the time.  This compares with the [LEN](./../len) function, which will return a character count. The character count may differ from the byte count when processing in International Mode.
+> The **BYTELEN** function will always return the actual byte count for the expression; irrespective of the whether International Mode is in operation at the time.  This compares with the [LEN](./../len) function, which will return a character count. The character count may differ from the byte count when processing in International Mode.
 
 Go back to [jBASE BASIC](./../README.md)
 

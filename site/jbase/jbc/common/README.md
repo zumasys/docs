@@ -8,7 +8,7 @@
 
 ## Description
 
-The **COMMON**statement declares a list of variables and matrices that can be shared among various programs. There can be many common areas including a default, unnamed common area. The statement takes the general form:
+The **COMMON** statement declares a list of variables and matrices that can be shared among various programs. There can be many common areas including a default, unnamed common area. The statement takes the general form:
 
 ```
 COMMON {/CommonName/} variable{, variable ... }
@@ -20,7 +20,7 @@ The list of variables should not have been declared or referenced previously in 
 
 ## Note
 
-> The compiler will not, by default, check that variables declared in **COMMON** statements are initialized before they have been used as this may be beyond the scope of this single source code check.
+> The compiler will, by default, not check that variables declared in **COMMON** statements are initialized before they have been used as this may be beyond the scope of this single source code check.
 >
 > The "–Jci" option, when specified to the jBASE BASIC compiler, will force this check to be applied to common variables as well. The initialization of named common is controlled via options in the Config\_EMULATE file.
 >
@@ -31,8 +31,8 @@ The list of variables should not have been declared or referenced previously in 
 An example of use is as:
 
 ```
-    COMMON A, B(2, 6, 10), c
-    COMMON /Common1/ A, D, Array(10, 10)
+COMMON var1, array1(2, 6, 10), var2
+COMMON /Common1/ var1, var3, array2(10, 10)
 ```
 
 Go back to [jBASE BASIC](./../README.md)

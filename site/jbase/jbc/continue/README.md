@@ -18,13 +18,13 @@ The compiler will issue a warning message and ignore the statement if it is foun
 An example of use is as:
 
 ```
-FOR I = 1 TO 30
-    IF MOD(I,2) = 0  THEN CONTINUE
-    ELSE CRT I
-NEXT I
+FOR index = 1 TO 30
+    IF MOD(index,2) = 0  THEN CONTINUE
+    ELSE CRT index
+NEXT index
 ```
 
-The above example will execute the loop 30 times but will only print the value of I when I is a prime number.
+The above example will execute the loop 30 times but will only print the value of "index" when "index" is an odd number.
 
 See also: [BREAK](./../break), [EXIT](./../exit)
 
