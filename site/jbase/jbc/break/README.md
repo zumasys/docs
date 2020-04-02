@@ -19,11 +19,11 @@ Used alone, for instance in a loop, **BREAK** will terminate the innermost loop,
 An example of its use is as:
 
 ```
-  LOOP
-    READNEXT KEY FROM LIST1 ELSE BREAK
-    **code to be executed in the loop
+LOOP
+  READNEXT KEY FROM LIST1 ELSE BREAK
+  **code to be executed in the loop
 
-  REPEAT
+REPEAT
 * Program resumes here after BREAK condition satisfied.
 ```
 

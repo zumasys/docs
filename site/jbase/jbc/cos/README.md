@@ -24,11 +24,10 @@ An example of use is as:
 
 ```
 FOR I = 1 TO 360
-    CRT COS(I)  ;* print cos i for 1 to 360 degrees
+    CRT COS(I)  ;* display cos i for 1 to 360 degrees
 NEXT I
 ```
 
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
-

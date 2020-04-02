@@ -28,9 +28,16 @@ No part of the matched element is recounted toward another match. If substring d
 An example of use is as:
 
 ```
-ARRAY="A":@VM:"AA":@SM:"AAAAA"
-CRT COUNTS(ARRAY, "A")
-CRT COUNTS(ARRAY, "AA")
+    array = "A" : @VM : "AA" : @SM : "AAAAA"
+    CRT OCONV(COUNTS(array, "A"), "MCP")
+    CRT OCONV(COUNTS(array, "AA"), "MCP")
+```
+
+results in the following output:
+
+```
+1]2\5
+0]1\4
 ```
 
 Go back to [jBASE BASIC](./../README.md)

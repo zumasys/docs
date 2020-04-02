@@ -22,7 +22,7 @@ Where:
 
 ## Note
 
-> That there is a one to one correspondence between the characters in expression1 and expression2. That is, conversion of character 1 in expression1 to character 1 in expression2, etc.
+> That there is a one to one correspondence between the characters in **expression1** and **expression2**. That is, conversion of character 1 in **expression1** to character 1 in **expression2**, etc.
 
 An example of use is as follows:
 

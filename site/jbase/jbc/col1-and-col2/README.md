@@ -19,13 +19,18 @@ When a field has been located in a string, it is sometimes useful to know its ex
 An example of use is as:
 
 ```
-A = "A,B,C,D,E"
-Fld = FIELD(A, ",", 2)
-CRT COL1()
-CRT COL2()
+array1 = "A,B,C,D,E"
+Fld = FIELD(array1, ",", 2)
+CRT "COL1() = " : COL1()
+CRT "COL2() = " : COL2()
 ```
 
-Displays the values 2 and 4
+Displays the following result:
+
+```
+COL1() = 2
+COL2() = 4
+```
 
 Go back to [jBASE BASIC](./../README.md)
 

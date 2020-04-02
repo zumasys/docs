@@ -26,8 +26,8 @@ Where:
 An example of use is as follows:
 
 ```
-OPEN "record_file" TO FILEVAR ELSE ABORT 201, "record_file"
-CLEARFILE FILEVAR
+OPEN "record_file" TO fileVar ELSE ABORT 201, "record_file"
+CLEARFILE fileVar
 ```
 
 Go back to [jBASE BASIC](./../README.md)

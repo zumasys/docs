@@ -26,25 +26,30 @@ Where:
 An example of use is as:
 
 ```
-     A = "good" : @AM : "bad" : @AM : "ugly"
-     B = "night" : @AM : "day"
+    strArray1 = "good" : @AM : "bad" : @AM : "ugly"
+    strArray2 = "night" : @AM : "day"
 
-     SELECT A TO 3
-     SELECT B TO blist
+    SELECT strArray1 TO 3
+    SELECT strArray2 TO blist
 
-     adone = 0; bdone = 0
+    adone = @FALSE; bdone = @FALSE
 
-     LOOP
-         READNEXT Ael FROM 3 ELSE adone = 1
-         READNEXT Bel FROM blist ELSE bdone = 1
-     UNTIL adone AND bdone DO
-         CRT Ael, Bel
-         CLEARSELECT 3
-         CLEARSELECT blist
-     REPEAT
+    LOOP
+        READNEXT string1 FROM 3 ELSE adone = @TRUE
+        READNEXT string2 FROM blist ELSE bdone = @TRUE
+    UNTIL adone AND bdone DO
+        CRT "End result is '" : string1, string2 : "'"
+        CLEARSELECT 3
+        CLEARSELECT blist
+    REPEAT
+
 ```
 
-to display: good night
+to display:
+
+```
+End result is 'good     night'
+```
 
 Go back to [jBASE BASIC](./../README.md)
 

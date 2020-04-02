@@ -34,18 +34,21 @@ Where:
 An example of use is as below:
 
 ```
+LOOP
+    INPUT Answer
+UNTIL Answer = '' DO
     BEGIN CASE
-    CASE A = 2
- #      if A = 2 then no operation will be performed
-    CASE A = 1
+    CASE Answer = 2
+* if Answer = 2 then no operation will be performed
+    CASE Answer = 1
         CRT "You won!"
-    CASE 1
+    CASE @TRUE
         CRT "You came nowhere"
     END CASE
-
+REPEAT
 ```
 
-In the above scenario, a single comment is printed depending on the value of A. If A is not 1 or 2 then the default **CASE** 1 rule will be executed as a "catch all".
+In the above scenario, a single comment is printed depending on the value of "Answer". If "Answer" is not 1 or 2 then the default **CASE** 1 rule will be executed as a "catch all".
 
 Go back to [jBASE BASIC](./../README.md)
 
