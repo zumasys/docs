@@ -7,14 +7,16 @@ const webpack = require("webpack");
 
 module.exports = {
   head: [["link", { rel: "icon", href: "/assets/img/favicon.ico" }]],
-  title: "Zumasys Documentation",
+  title: "Zumasys Documentation "+ process.env.NODE_ENV,
   description:
     "The official knowledgebase for all Zumasys products, including: jBASE, AccuTerm, OpenQM, MV Dashboard, MV Connect and the Customer Portal.",
   markdown: {
     lineNumbers: true
   },
   configureWebpack: config => {
-    return { plugins: [new webpack.EnvironmentPlugin({ ...process.env })] };
+    // Set enviorment variables based on NODE_ENV
+    const env = (process.env.NODE_ENV === 'production') ? { ...process.env.production } : { ...process.env.development };
+    return { plugins: [new webpack.EnvironmentPlugin( env )] };
   },
   plugins: {
     // Vssue (uses gitlab issues to comment)
