@@ -12,7 +12,7 @@
 
       <PageEdit />
 
-      <Vssue />
+      <!--<Vssue />-->
 
     <PageNav v-bind="{ sidebarItems }" />
 
