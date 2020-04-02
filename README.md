@@ -41,36 +41,37 @@ To run the application locally:
 > You will need to have [Node.js & npm](https://nodejs.org/en/download/) installed. You'll also need [Git](https://git-scm.com/downloads).
 
 1. `git clone https://github.com/zumasys/docs.git`
-2. `cd docs` (or whatever name you used for your git clone)
-3. `cd site`
-4. `npm install` (Not necessary on subsequent builds)
-5. In order to configure Search with the [Algolia DocSearch](https://docsearch.algolia.com/) you'll need to create a `.env` file in the `site` folder and add the appropriate credentials. Use the `.env.skel` file as your baseline.
-
+1. `cd docs` (or whatever name you used for your git clone)
+1. `cd site`
+1. `npm install` (Not necessary on subsequent builds)
+1. To enable all features you'll need to set up environment variables. Create `.env` (for production) and `.env.development` (for development) files in the `site` folder. Use the `.env.skel` file as your baseline (for both production and development).
+   * In order to configure Search with the [Algolia DocSearch](https://docsearch.algolia.com/) you'll need to add the appropriate credentials.  
+   
    > `cd site && code .env`
-
+   
    ```dotenv
    # Environment Variables
    VUE_APP_ALGOLIA_API_KEY=MyAPIKey
    VUE_APP_ALGOLIA_INDEX_NAME=MyIndexName
    ```
 
-6. Optionally, if you want the [Vssue](https://vssue.js.org/) plugin to work you'll have to populate the following `.env` variables in the file from step 5.
-
+   * Optionally, if you want the [Vssue](https://vssue.js.org/) plugin to work you'll have to populate the following `.env` variables in the file from step 5.
+   
    > `cd site && code .env`
-
+   
    ```dotenv
    # Environment Variables
    VUE_APP_GITHUB_CLIENT_ID=MyClientKey
    VUE_APP_GITHUB_CLIENT_SECRET=MySecretKey
    ```
 
-7. `npm run dev`
-8. When compilation completes you should see the following message
+1. `npm run dev`
+1. When compilation completes you should see the following message
 
    > success [12:25:41] Build 59cc58 finished in 75022 ms!  
    > VuePress dev server listening at [http://localhost:8080/](http://localhost:8080/)
 
-9. Open [localhost:8080](localhost:8080) in your browser.
+1. Open [localhost:8080](localhost:8080) in your browser.
 
 ## TODO - Contributor Guidelines
 
