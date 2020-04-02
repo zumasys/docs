@@ -33,7 +33,7 @@ An example of use is as:
     CRT OCONV(COUNTS(array, "AA"), "MCP")
 ```
 
-results in the follwoing output:
+results in the following output:
 
 ```
 1]2\5
