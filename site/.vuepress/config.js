@@ -14,7 +14,7 @@ module.exports = {
     lineNumbers: true
   },
   configureWebpack: config => {
-    // Set enviorment variables based on NODE_ENV
+    // Set environment variables based on NODE_ENV
     const env = (process.env.NODE_ENV === 'production') ? { ...process.env.production } : { ...process.env.development };
     return { plugins: [new webpack.EnvironmentPlugin( env )] };
   },
