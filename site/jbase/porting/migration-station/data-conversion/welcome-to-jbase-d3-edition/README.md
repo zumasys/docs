@@ -276,4 +276,10 @@ SELECTINDEX index-name{, index-key} FROM file-var {TO select-var}
 - jBASE doesn’t support the IMPORT and EXPORT commands.
 - Not all user exits are supported, see the list [here](./../../jql/conversion-processing/supported-user-exits), but you can write your own in [jBC](./../../jql/conversion-processing/user-exits)
 
+## Additional Behaviour Items
+
+* D3 Ctrl-D. On Linux Ctrl-D is a exit character and will exit you out of jSH.  You can stop this two ways.  
+  * Option 1 is to use stty to set eof to ^E.  Example: stty eof ^E.  
+  * Option #2 is to export IGNOREEOF=999.
+  
 Back to [Data Conversion](./../README.md)
