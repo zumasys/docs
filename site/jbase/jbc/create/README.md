@@ -8,7 +8,7 @@
 
 ## Description
 
-This statement is intended to create files. It can be useful after an [OPENSEQ](./../openseq) statement to create a record in a directory file. **CREATE**creates the record or file if the [OPENSEQ](./../openseq) statement fails.
+This statement is intended to create files. It can be useful after an [OPENSEQ](./../openseq) statement to create a record in a directory file. **CREATE** creates the record or file if the [OPENSEQ](./../openseq) statement fails.
 
 It takes the general form:
 
@@ -16,7 +16,7 @@ It takes the general form:
 CREATE file.variable {THEN statements [ELSE statements] | ELSE statements}
 ```
 
-If the record or file is created, it executes the THEN statements; if no record or file is created, it executes the ELSE statements.
+If the record or file is created, it executes the **THEN** statements; if no record or file is created, it executes the **ELSE** statements.
 
 An [OPENSEQ](./../openseq) statement for the specified file variable must be executed before the **CREATE** statement to associate the pathname or record ID of the file to be created with the file variable. If **file.variable** is null, the **CREATE** statement fails and the program enters the debugger.
 
@@ -28,7 +28,7 @@ In the following example, **record\_file2** does not yet exist. When [OPENSEQ](.
 
 ```
 INCLUDE JBC.h
-OPENSEQ 'TESTENV':DIR_DELIM_CH:'record_file2' TO FILE ELSE
+OPENSEQ 'TESTENV' : DIR_DELIM_CH : 'record_file2' TO FILE ELSE
     CREATE FILE ELSE ABORT
 END
 

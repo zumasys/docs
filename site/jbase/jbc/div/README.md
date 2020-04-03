@@ -22,9 +22,9 @@ The **dividend** and **divisor** expressions can evaluate to any numeric value. 
 An example is as below:
 
 ```
-DIVIDEND = 400; DIVISOR = 2000
-QUOTIENT = DIV(DIVIDEND, DIVISOR)
-PRINT QUOTIENT
+dividend = 400; divisor = 2000
+quotient = DIV(dividend, divisor)
+CRT quotient
 ```
 
 The above will output '0.2'.

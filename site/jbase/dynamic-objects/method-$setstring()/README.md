@@ -6,7 +6,7 @@ The **$setstring()** method forces the value, and therefore the value type, of t
 
 ## Syntax
 
-```nolinenumbers
+```
 obj->$setstring(property name, expression)
 arr->$setstring(value number, expression)
 ```
@@ -25,7 +25,7 @@ None
 
 ## Examples
 
-```text
+```
 obj = new object
 credit_card_number = 9999888877776666
 obj->$setstring("cc", credit_card_number)
@@ -37,7 +37,7 @@ crt obj->$tojson()    ;* Displays {"cc":"9999888877776666","four":"4"}
 
 It is not necessary to use this method with an array as the expression is automatically evaluated to the correct type. For example,
 
-```text
+```
 arr = new array
 arr->$append("42")
 arr->$append(42)

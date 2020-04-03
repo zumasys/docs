@@ -27,32 +27,32 @@ When a jBASE BASIC program detects stacked data, it is taken as keyboard input u
 Stacked data delimited by field marks (xFE) will be treated as a series of separate terminal inputs. An example of use is as:
 
 ```
-PROGRAM EXAMPLE1
-DATA "Y", "N", "CONTINUE" ;* stack input for PROGRAM1
-EXECUTE "PROGRAM1"        ;* execute the program
+PROGRAM Example1
+DATA "Y", "N", "Continue" ;* stack input for Program1
+EXECUTE "Program1"        ;* execute the Program
 ```
 
 ```
-PROGRAM EXAMPLE2
-DATA "Y":@AM:"N":@AM:"CONTINUE"; * stack input for PROGRAM1
-EXECUTE "PROGRAM1"; * execute the program
+PROGRAM Example2
+DATA "Y" : @AM : "N" : @AM : "Continue"; * stack input for Program1
+EXECUTE "Program1"; * execute the Program
 ```
 
-PROGRAM1 can simply be:
+Program1 can simply be:
 
 ```
-PROGRAM PROGRAM1
+PROGRAM Program1
 INPUT reply1
 INPUT reply2
 INPUT reply3
 CRT reply1, reply2, reply3
 ```
 
-Running either EXAMPLE1 or EXAMPLE2 will produce the same result:
+Running either Example1 or Example2 will produce the same result:
 
 ```
-jsh ~ -->EXAMPLE1
-Y       N       CONTINUE
+jsh ~ -->Example1
+Y       N       Continue
 jsh ~ -->
 ```
 

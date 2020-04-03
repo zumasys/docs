@@ -26,11 +26,19 @@ Where:
 An example of use is as:
 
 ```
-A = DROUND((3.14159265999*2*3),4 )
-CRT A
+    pi = 3.14159265358979
+    radius = 3
+    area = DROUND(pi * ( radius^2 ), 4)
+    CRT "The area of a circle with radius of " : radius : " is : " : area
 ```
 
-The above results in 18.8496 being printed out. The equation is resolved, and rounds the result to four decimal places.
+The above results in the following being displayed:
+
+```
+The area of a circle with radius of 3 is : 28.2744
+```
+
+The equation is resolved, and the result is rounded to four decimal places.
 
 Go back to [jBASE BASIC](./../README.md)
 

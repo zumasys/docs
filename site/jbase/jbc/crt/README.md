@@ -35,9 +35,9 @@ Older versions may use DISPLAY in place of **CRT**.
 An example of use is as:
 
 ```
-FOR I = 1 TO 5
-    DISPLAY @(I, 10):I
-NEXT I
+FOR position = 1 TO 5
+    DISPLAY @(position, 10) : position
+NEXT position
 ```
 
 Go back to [jBASE BASIC](./../README.md)

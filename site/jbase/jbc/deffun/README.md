@@ -30,17 +30,17 @@ An example of use is as follows:
 ```
 DEFFUN Add()
 
-A = 10
-B = 20
+arg1 = 10
+arg2 = 20
 
-sum = Add(A, B)
+sum = Add(arg1, arg2)
 
 CRT sum
 
-X = RND(42)
-Y = RND(24)
+arg3 = RND(42)
+arg4 = RND(24)
 
-CRT Add(X, Y)
+CRT Add(arg3, arg4)
 ```
 
 - Function:

@@ -19,13 +19,13 @@ The division of each element of **array1** is by the corresponding element of **
 An example of use is as:
 
 ```
-A = 10 : @VM : 15
-B = 2 : @VM : 5
+dynArray1 = 10 : @VM : 15
+dynArray2 = 2 : @VM : 5
 
-CRT DIVS(A,B)
+CRT DIVS(dynArray1,dynArray2)
 ```
 
-The output of this program is: 5²3
+The output of this program is:  5ÿ3
 
 Go back to [jBASE BASIC](./../README.md)
 

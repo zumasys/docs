@@ -34,6 +34,8 @@ The function returns an integer value to indicate the record lock status of the 
 
 If the return value is negative, then the [SYSTEM(43)](./../system-functions) and [STATUS](./../status-function) function calls can be used to determine the port number of the program that holds the lock. If -1 is returned, more than 1 port could hold the lock and so the port number returned will be the first port number found.
 
+See [this page](./../jbase/../../coding-corner/the-keys-to-record-locking/README.md) for further details on the implications of these statuses.
+
 An example of use is as:
 
 ```

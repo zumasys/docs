@@ -29,10 +29,18 @@ Where **filename** is a string argument representing the relative or absolute pa
 An example of use is as follows:
 
 ```
-info = DIR("MD")
+    info = DIR(".")
+
+    CRT "DIR info returned is : " : OCONV(info, "MCP")
 ```
 
-to assign file information to variable **info**.
+to assign file information to variable **info**, which can then be interrogated.
+
+An example of the results provided is as follows:
+
+```
+DIR info returned is : 4096^19087^60171^D
+```
 
 Go back to [jBASE BASIC](./../README.md)
 

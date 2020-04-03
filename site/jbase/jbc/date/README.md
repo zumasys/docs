@@ -25,10 +25,10 @@ DATE()
 An example of use can be as:
 
 ```
-CRT OCONV(DATE(), "D2")
+CRT OCONV(DATE(), "D4")
 ```
 
-To display today's date in the form: dd MMM yy.
+To display today's date in the form: dd MMM yyyy.
 
 See also: [TIMEDATE](./../timedate)
 

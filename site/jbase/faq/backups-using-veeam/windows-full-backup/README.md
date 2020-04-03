@@ -36,4 +36,30 @@ Then "Apply" and "Finish":
 
 ![Windows_Backup_17](./full_windows_backup_17.png)
 
+Examples of simple Windows scripts to pause and resume jBASE:
+
+pause.cmd
+
+```
+@echo off
+set JBCRELEASEDIR=C:\jBASE5\CurrentVersion
+set JBCGLOBALDIR=%JBCRELEASEDIR%
+set PATH=%JBCRELEASEDIR\bin:%PATH%
+%JBCRELEASEDIR%\bin\DB-PAUSE.exe >nul 2>&1
+exit
+```
+
+resume.cmd
+
+```
+@echo off
+set JBCRELEASEDIR=C:\jBASE5\CurrentVersion
+set JBCGLOBALDIR=%JBCRELEASEDIR%
+set PATH=%JBCRELEASEDIR\bin:%PATH%
+%JBCRELEASEDIR%\bin\DB-RESUME.exe >nul 2>&1
+exit
+```
+
+See [this page](./../../jspool-script&scheduled-task/README.md) for details on how to create a Windows scheduled task.  
+
 Back to [Veeam](./../README.md)

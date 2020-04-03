@@ -28,11 +28,19 @@ Where:
 An example of use is as follows:
 
 ```
-A = "A:B:C:D"
-CRT DCOUNT(A, ":")
+    alphaString = "A : B : C : D"
+    CRT "The result of DCOUNT(alphaString, ':') is " : DCOUNT(alphaString, ':')
+    CRT "The result of COUNT(alphaString, ':')  is " : COUNT(alphaString, ':')
 ```
 
-The above code will display the value 4
+The above code will result in the following output:
+
+```
+The result of DCOUNT(alphaString, ':') is 4
+The result of COUNT(alphaString, ':')  is 3
+```
+
+> Note the difference in result returned by the COUNT function
 
 See also: [COUNT](./../count).
 
