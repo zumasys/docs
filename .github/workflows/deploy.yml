@@ -5,7 +5,7 @@ on:
       - master
 
 env:
-  NODE_VERSION: "10.x"
+  NODE_VERSION: "12.x"
   SOURCE_DIR: "site/.vuepress/dist"
   VUE_APP_GITHUB_CLIENT_ID: ${{ secrets.VUE_APP_GITHUB_CLIENT_ID }}
   VUE_APP_GITHUB_CLIENT_SECRET: ${{ secrets.VUE_APP_GITHUB_CLIENT_SECRET }}
