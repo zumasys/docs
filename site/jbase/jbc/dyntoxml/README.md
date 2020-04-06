@@ -27,8 +27,8 @@ The function takes the contents of the dynamic array, and returns a generic XML 
 An example of use is as:
 
 ```
-a = "Tom" : @AM : "Dick" : @AM : "Harry"
-xml = DYNTOXML(a, "", result)
+nameArray = "Tom" : @AM : "Dick" : @AM : "Harry"
+xml = DYNTOXML(nameArray, "", result)
 CRT xml
 ```
 

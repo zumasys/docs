@@ -26,13 +26,13 @@ Where:
 
 ## Note
 
-> expressions 2 through 4 should all return a numeric value or a runtime error will occur and the program will enter the debugger.
+> **expressions 2** through **4** should all return a numeric value or a runtime error will occur and the program will enter the debugger.
 
 An example of use is as:
 
 ```
-A = "0"; A<2> = "1"; A<3> = "2"
-CRT EXTRACT(A, 2)
+numArray = "0"; numArray<2> = "1"; numArray<3> = "2"
+CRT EXTRACT(numArray, 2)
 ```
 
 to display the value "1".

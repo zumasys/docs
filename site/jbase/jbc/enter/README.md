@@ -35,7 +35,7 @@ Where:
 
 Use **ENTER** to execute any type of program.
 
-If the program which contains the **ENTER** command (the current program) was called from a JCL program, and the program for execution (the target program) is another jBASE BASIC program, control will return to the original JCL program when the target program terminates. If the target program is a JCL program, control will return to the command shell when the JCL program terminates.
+If the program which contains the **ENTER** command (the current program) was called from a jCL program, and the program for execution (the target program) is another jBASE BASIC program, control will return to the original jCL program when the target program terminates. If the target program is a jCL program, control will return to the command shell when the jCL program terminates.
 
 An example is as follows:
 

@@ -32,7 +32,7 @@ where:
 >
 > Variables used to pass data to the executed program should have been assigned to a value beforehand, any variable name may be used to receive data.
 
-The statement not only Passes Data, Dynamic Arrays and lists to programs written in jBASE BASIC, but makes it possible to intercept screen output and error messages from any program.
+The statement not only passes Data, Dynamic Arrays and lists to programs written in jBASE BASIC, but makes it possible to intercept screen output and error messages from any program.
 
 An example of use is as:
 

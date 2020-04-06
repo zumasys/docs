@@ -37,10 +37,10 @@ where **expression** must evaluate to a numeric result, which should be the appr
 Assuming a file has been opened to FileDesc, an example of use is as follows:
 
 ```
-     READ Record FROM FileDesc, RecordKey
-     ELSE CRT "Record ":RecordKey:" is missing"
-         EXIT(1)
-     END
+    READ Record FROM FileDesc, RecordKey
+    ELSE CRT "Record ":RecordKey:" is missing"
+        EXIT(1)
+    END
 ```
 
 See also: [BREAK](./../break).

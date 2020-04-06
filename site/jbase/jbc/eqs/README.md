@@ -21,7 +21,7 @@ Where **array1** and **array2** are both dynamic arrays.
 
 ## Note
 
-> EQS compares each element of the first array with the corresponding element of the second array, returning a one if the two elements are equal in the corresponding element of a dynamic array. It returns a zero if the two elements are not equal. It returns zero if an element of one dynamic array has no corresponding element in the other dynamic array. If either element of a corresponding pair is null, it returns null for that element.
+> **EQS** compares each element of the first array with the corresponding element of the second array, returning a one if the two elements are equal in the corresponding element of a dynamic array. It returns a zero if the two elements are not equal. It returns zero if an element of one dynamic array has no corresponding element in the other dynamic array. If either element of a corresponding pair is null, it returns null for that element.
 
 An example of use is as:
 

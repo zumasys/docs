@@ -31,10 +31,10 @@ If **substring**, **replacement**, **occurrence**, or **begin** evaluates to nul
 An example of use is as:
 
 ```
-A = "AAABBBCCCDDDBBB"
-CRT EREPLACE (A,"BBB","ZZZ")
-CRT EREPLACE (A,"","ZZZ")
-CRT EREPLACE (A,"BBB","")
+alphaString = "AAABBBCCCDDDBBB"
+CRT EREPLACE (alphaString,"BBB","ZZZ")
+CRT EREPLACE (alphaString,"","ZZZ")
+CRT EREPLACE (alphaString,"BBB","")
 ```
 
 to output :

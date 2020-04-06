@@ -31,16 +31,16 @@ where:
 An example of use is as:
 
 ```
-IN_VALUE = "AAAA:BBJIMBB:CCCCC"
-CRT FIELD(IN_VALUE , ":", 3)
-CRT FIELD(IN_VALUE , "JIM", 1)
+in_Value = "AAAA : BBjBASEBB : CCCCC"
+CRT FIELD(in_Value , ":", 3)
+CRT FIELD(in_Value , "jBASE", 1)
 ```
 
 to display:
 
 ```
-CCCCC
-AAAA:BB
+ CCCCC
+AAAA : BB
 ```
 
 See also: [GROUP](./../group)

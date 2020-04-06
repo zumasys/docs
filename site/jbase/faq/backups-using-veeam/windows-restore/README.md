@@ -1,6 +1,6 @@
 # Restoring data from a Windows Veeam backup
 
-When a Veeam Windows backupis made, the backup files can be inspected in File Explorer:
+When a Veeam Windows backup is made, the backup files can be inspected in File Explorer:
 
 ![Windows_Restore_1](./windows_restore_1.png)
 
@@ -8,7 +8,7 @@ To restore data from this backup, you can either double-click on the .vbk file, 
 
 ![Windows_Restore_2](./windows_restore_2.png)
 
-Alternatively, navigate to "Inventory -> Pyhsical & Cloud Infrastructure -> Perform Restore":
+Alternatively, navigate to "Inventory -> Physical & Cloud Infrastructure -> Perform Restore":
 
 ![Windows_Restore_3](./windows_restore_3.png)
 

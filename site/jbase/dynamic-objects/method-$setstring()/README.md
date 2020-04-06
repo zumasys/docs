@@ -6,11 +6,7 @@ The **$setstring()** method will force an expression, and therefore the value ty
 
 ## Syntax
 
-<<<<<<< Updated upstream
 ```
-=======
-```text
->>>>>>> Stashed changes
 obj->$setstring(property name, expression)
 arr->$setstring(value number, expression)
 ```
