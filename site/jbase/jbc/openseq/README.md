@@ -15,7 +15,7 @@
 Opens a file for sequential writing and/or reading. It takes the general form:
 
 ```
-OPENSEQ Path{,File} {READONLY} TO FileVar {LOCKED statements} THEN | ELSE statements
+OPENSEQ Path{,File} {READONLY} TO FileVar {SETTING setvar} {ON ERROR statements} {LOCKED statements} THEN | ELSE statements
 ```
 
 Where:
@@ -24,6 +24,10 @@ Where:
 - **File** specifies additional path information of the target file,
 - **FileVar** contains the file descriptor of the file when the open was successful,
 - **Statements** are conditional jBASE BASIC statements.
+
+If the **SETTING** clause is specified and the read fails, **setvar** will be set to one of [these Incremental File Error values](../incremental-file-errors/README.md).
+
+If the **ON ERROR** clause is specified, the statements following the **ON ERROR** clause will be executed for any of the above Incremental File Errors except error 128.
 
 ## Note
 
