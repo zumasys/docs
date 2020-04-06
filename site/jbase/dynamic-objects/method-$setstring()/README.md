@@ -2,11 +2,15 @@
 
 ## Description
 
-The **$setstring()** method forces the value, and therefore the value type, of the property (or array element number) to be a string.
+The **$setstring()** method will force an expression, and therefore the value type, of the property (or array element number) to be a string.
 
 ## Syntax
 
+<<<<<<< Updated upstream
 ```
+=======
+```text
+>>>>>>> Stashed changes
 obj->$setstring(property name, expression)
 arr->$setstring(value number, expression)
 ```
@@ -23,7 +27,7 @@ arr->$setstring(value number, expression)
 
 None
 
-## Examples
+## Example
 
 ```
 obj = new object
@@ -43,3 +47,5 @@ arr->$append("42")
 arr->$append(42)
 crt arr->$tojson()   ;* Displays ["42",42]
 ```
+
+See also [$setnumber()](../method-$setnumber()/README.md)
