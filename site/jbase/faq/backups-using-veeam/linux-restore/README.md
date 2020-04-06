@@ -50,7 +50,7 @@ You are then presented with the layout of the Linux volume with the complete fil
 
 from which to select the file(s) to be restored:
 
-![Linux_Restore_12](./linux_restore_12.png)
+![Linux_Restore_12](./linux_restore_12.PNG)
 
 It is possible to elect for the files to be copied to a local drive, then proceed with a manual restore to the server itself at a convenient time, i.e. via ftp:
 
