@@ -54,15 +54,15 @@ from which to select the file(s) to be restored:
 
 It is possible to elect for the files to be copied to a local drive, then proceed with a manual restore to the server itself at a convenient time, i.e. via ftp:
 
-![Linux_Restore_13](./linux_restore_13.png)
+![Linux_Restore_13](./linux_restore_13.PNG)
 
 In progress:
 
-![Linux_Restore_14](./linux_restore_14.png)
+![Linux_Restore_14](./linux_restore_14.PNG)
 
 or to restore to the original VM with either "Keep" or "Overwrite"  option, which, as with the Windows version seems to be a slow and error prone process:
 
-![Linux_Restore_15](./linux_restore_15.png)
+![Linux_Restore_15](./linux_restore_15.PNG)
 
 ## To be completed
 
