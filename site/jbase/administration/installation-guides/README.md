@@ -1,5 +1,7 @@
 # Installation Guides
 
+<PageHeader />
+
 ## Topics
 
 [create-a-jbase-program](./create-a-jbase-program)  

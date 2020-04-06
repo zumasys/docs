@@ -1,10 +1,6 @@
 # Platform Availability
 
-**Created At:** 02/24/2020 11:40:33 PM  
-**Updated At:** 02/24/2020 11:40:33 PM  
-**Original Doc:** n/a  
-**Original ID:** n/a  
-**Internal:** No  
+<PageHeader />
 
 ## Platform Availability Matrix
 

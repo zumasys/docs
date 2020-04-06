@@ -1,10 +1,6 @@
 # WINDOWS INSTALLATION GUIDE
 
-**Created At:** 6/21/2018 8:12:52 AM  
-**Updated At:** 11/1/2019 4:42:59 PM  
-**Original Doc:** [323805-windows-jbase-installation](https://docs.jbase.com/36690-installation-guides/323805-windows-jbase-installation)  
-**Original ID:** 323805  
-**Internal:** No
+<PageHeader />
 
 **Tags:**
 <badge text='microsoft' vertical='middle' />

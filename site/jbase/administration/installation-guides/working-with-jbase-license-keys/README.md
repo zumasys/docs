@@ -1,10 +1,6 @@
 # Working with jBASE License Keys
 
-**Created At:** 3/23/2018 7:18:37 AM  
-**Updated At:** 7/8/2019 5:03:39 PM  
-**Original Doc:** [305038-installing-jbase-license-keys](https://docs.jbase.com/36690-installation-guides/305038-installing-jbase-license-keys)  
-**Original ID:** 305038  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jlicenseupgrade' vertical='middle' />

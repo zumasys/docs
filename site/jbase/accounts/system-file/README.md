@@ -1,10 +1,6 @@
 # System File
 
-**Created At:** 5/22/2018 9:52:58 PM  
-**Updated At:** 10/31/2018 7:48:09 AM  
-**Original Doc:** [317964-system-file](https://docs.jbase.com/41717-environment-variables/317964-system-file)  
-**Original ID:** 317964  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

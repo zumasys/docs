@@ -1,10 +1,6 @@
 # CREATE ACCOUNTS AND USERS
 
-**Created At:** 7/6/2017 10:10:43 PM  
-**Updated At:** 9/26/2018 7:44:54 PM  
-**Original Doc:** [create-accounts-and-users](https://docs.jbase.com/36690-installation-guides/create-accounts-and-users)  
-**Original ID:** 262614  
-**Internal:** No
+<PageHeader />
 
 **Tags:**
 <badge text='how to set up users' vertical='middle' />
