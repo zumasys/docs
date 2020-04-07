@@ -119,7 +119,7 @@ For example here is code for PHP
 
 ## Run MV Connect in a Different Account
 
-While it is generally recommended to run your REST service handlers from the MVDB account, it is possible to LOGTO a different account to run the handler program. The name of the account must be configured in the [WDB.RESOURCE](./../../../jbase/jagent/apis/wdb.resource) file. In addition, the target account requires several q-pointers and cataloged programs:
+While it is generally recommended to run your REST service handlers from the MVDB account, it is possible to LOGTO a different account to run the handler program. The name of the account must be configured in the [WDB.RESOURCE](./../../jbase/connectivity/jagent/apis/wdb.resource/README.md) file. In addition, the target account requires several q-pointers and cataloged programs:
 
 | <!---->  | <!---->                                                   |
 | -------- | --------------------------------------------------------- |
