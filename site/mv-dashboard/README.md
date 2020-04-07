@@ -2,19 +2,9 @@
 
 <PageHeader />
 
-**Created At:** 9/25/2017 9:39:18 PM  
-**Updated At:** 11/21/2017 2:25:54 AM  
-**Original Doc:** [getting-started-with-mv-dashoard](https://docs.zumasys.com/36577-mv-dashboard/getting-started-with-mv-dashoard)  
-**Original ID:** 278483  
-**Internal:** No  
-
-
 MultiValue Dashboard is a simple, Pick-based web server that any developer can setup in minutes. Because it’s based on the Pick/BASIC programming language, you can utilize your existing knowledge and expertise without worrying about a steep learning curve.
 
 A MultiValue software developer can use MV Dashboard to produce graphical representations of data in the MultiValue system while leveraging his or her strengths as a BASIC programmer.
-
-
-
 
 ## Using MultiValue Dashboard, You can:
 
@@ -28,8 +18,6 @@ A MultiValue software developer can use MV Dashboard to produce graphical repres
 
 
 ![getting-started-with-mv-dashoard: image003](./image003.jpg)
-
-
 
 
 ## What's New in MV Dashboard 1.5.4?

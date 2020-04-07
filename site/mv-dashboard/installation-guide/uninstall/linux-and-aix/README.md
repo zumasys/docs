@@ -2,13 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 6/20/2017 4:08:12 PM  
-**Updated At:** 11/22/2017 10:36:47 AM  
-**Original Doc:** [uninstall-mv-dashboard-unix](https://docs.zumasys.com/36577-mv-dashboard/uninstall-mv-dashboard-unix)  
-**Original ID:** 260512  
-**Internal:** No  
-
-
 This topic presents instructions for uninstalling MV Dashboard and optionally deleting the account and user.
 
 ## **Uninstalling MV Dashboard on Linux or AIX**

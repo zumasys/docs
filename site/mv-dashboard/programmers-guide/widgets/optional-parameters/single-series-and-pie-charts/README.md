@@ -2,14 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 9/26/2017 6:03:41 PM  
-**Updated At:** 11/24/2017 11:21:48 AM  
-**Original Doc:** [optional-parameters-unique-to-single-series-pie-charts](https://docs.zumasys.com/36577-mv-dashboard/optional-parameters-unique-to-single-series-pie-charts)  
-**Original ID:** 278582  
-**Internal:** No  
-
-
-
 | <!----> | <!----> |
 | --- | --- |
 | name=”string”<br> | Determines the name by which the set of data is represented in the chart. In the above example, the value of this attribute is "Jan" therefore this set of data would be represented on the chart with the name "Jan". Example:<br> |

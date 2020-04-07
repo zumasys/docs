@@ -2,13 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 9/26/2017 12:14:04 PM  
-**Updated At:** 11/21/2017 6:02:43 AM  
-**Original Doc:** [default-chart-options](https://docs.zumasys.com/36577-mv-dashboard/default-chart-options)  
-**Original ID:** 278533  
-**Internal:** No  
-
-
 Default Chart Options Each widget type has a set of default options defined in the MVDB.CONTROL file. For example, the default settings for the FC3DPIE chart is stored in the FC3DPIE.SETTINGS record as follows:
 
 ```

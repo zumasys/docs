@@ -2,14 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 9/26/2017 12:37:37 AM  
-**Updated At:** 11/21/2017 6:02:33 AM  
-**Original Doc:** [additional-features](https://docs.zumasys.com/36577-mv-dashboard/additional-features)  
-**Original ID:** 278502  
-**Internal:** No  
-
-
-
 | <!----> | <!----> |
 | --- | --- |
 | W$PRINTABLE<br> | If set to 1, a print icon is added to the widget’s title bar. Clicking the printer icon will open the widget in a new window and allow the user to print the widget.<br> |

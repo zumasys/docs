@@ -2,15 +2,7 @@
 
 <PageHeader />
 
-**Created At:** 9/26/2017 8:50:05 PM  
-**Updated At:** 11/24/2017 6:58:21 AM  
-**Original Doc:** [optional-parameters-unique-to-2d-area-charts](https://docs.zumasys.com/36577-mv-dashboard/optional-parameters-unique-to-2d-area-charts)  
-**Original ID:** 278605  
-**Internal:** No  
-
-
 # Area Properties
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -21,12 +13,9 @@
 | areaAlpha=”0-100”<br> | Transparency of the area fill.<br> |
 
 
-
-
 # Divisional Lines (Horizontal)
 
 Divisional Lines are horizontal or vertical lines running through the canvas. Each divisional line signifies a smaller unit of the entire axis thus aiding the users in interpreting the chart.
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -40,10 +29,7 @@ Divisional Lines are horizontal or vertical lines running through the canvas. Ea
 | alternateHGridAlpha=”NumericalValue0-100”<br> | Alpha (transparency) of the alternate horizontal grid bands.<br> |
 
 
-
-
 # Divisional Lines (Vertical)
-
 
 | <!----> | <!----> |
 | --- | --- |

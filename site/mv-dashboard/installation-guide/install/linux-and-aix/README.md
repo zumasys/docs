@@ -2,12 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 6/20/2017 4:10:38 PM  
-**Updated At:** 12/10/2018 10:17:16 PM  
-**Original Doc:** [install-mv-dashboard-unix](https://docs.zumasys.com/36577-mv-dashboard/install-mv-dashboard-unix)  
-**Original ID:** 260513  
-**Internal:** No  
-
 **Tags:**
 <badge text='connect' vertical='middle' />
 <badge text='dashboard' vertical='middle' />

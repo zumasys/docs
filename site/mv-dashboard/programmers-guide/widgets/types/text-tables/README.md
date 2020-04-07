@@ -2,13 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 9/26/2017 4:43:24 PM  
-**Updated At:** 11/21/2017 6:01:47 AM  
-**Original Doc:** [text-tables](https://docs.zumasys.com/36577-mv-dashboard/text-tables)  
-**Original ID:** 278560  
-**Internal:** No  
-
-
 Widgets can create HTML tables by setting the W$TYPE to “TABLE” and the following variables:
 
 

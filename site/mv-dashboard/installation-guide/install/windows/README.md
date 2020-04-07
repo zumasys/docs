@@ -2,13 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 6/20/2017 4:14:38 PM  
-**Updated At:** 11/24/2017 1:46:35 PM  
-**Original Doc:** [install-mv-dashboard-windows](https://docs.zumasys.com/36577-mv-dashboard/install-mv-dashboard-windows)  
-**Original ID:** 260517  
-**Internal:** No  
-
-
 MV Connect is web application development environment for Multi-Value Pick systems.  MV Connect is included in the MV Dashboard product installer and is used to create MV Dashboard.  Therefore much of the installation instructions discuss MV Dashboard but once it is installed you can move on to the MV Connector specific instructions.
 
 # **REQUIREMENTS**

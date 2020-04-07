@@ -2,13 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 9/26/2017 5:08:11 PM  
-**Updated At:** 11/21/2017 6:01:57 AM  
-**Original Doc:** [theme-management](https://docs.zumasys.com/36577-mv-dashboard/theme-management)  
-**Original ID:** 278573  
-**Internal:** No  
-
-
 The administrative configuration widget allows an alternate logo and theme colors to be specified. Theme colors can be specified for individual dashboards from within the dashboard definition page. This allows MV Dashboard to be branded with the user's corporate identity. A few themes are included as examples.
 
 An alternate logo may be specified in two ways. A fully-qualified URL may be provided if the logo image to be used resides on a remote system. For example, a reference to a remote image file might look like this: "http://www.example.com/images/logo.jpg". Alternatively, an image file can be stored in the docroot/db/images folder under the install directory for mvappsvr (/usr/local/mvappsvr by default). In this case, the filename alone must be specified in the alternate logo image field. If an image file is saved in the images folder used by MV Dashboard, specify only the file name (e.g. "logo.jpg") as the alternate logo image.

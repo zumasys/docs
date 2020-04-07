@@ -2,12 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 9/26/2017 12:24:14 AM  
-**Updated At:** 11/21/2017 6:03:21 AM  
-**Original Doc:** [defining-links-in-a-widget](https://docs.zumasys.com/36577-mv-dashboard/defining-links-in-a-widget)  
-**Original ID:** 278498  
-**Internal:** No  
-
 
 All widget programs can use the variables below to add links to the widget. When any of these links is clicked, the dashboard controller will re-run all of the widgets on the dashboard and re-display the page. However, the links can tell the dashboard controller to populate specific elements in WIDGET.USER.DATA(1…100) with specific information prior to executing this specific widget subroutine.
 

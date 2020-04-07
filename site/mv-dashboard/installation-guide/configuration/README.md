@@ -2,13 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 6/20/2017 4:13:53 PM  
-**Updated At:** 11/21/2017 9:29:59 AM  
-**Original Doc:** [configure-mv-dashboard](https://docs.zumasys.com/36577-mv-dashboard/configure-mv-dashboard)  
-**Original ID:** 260516  
-**Internal:** No  
-
-
 Now that you have installed the MV Dashboard, you should be able to connect to the application server's configuration utility using your favorite web browser. This is where you will configure your database connection, install the base multivalue database and activate your software.
 
 ## **Connecting to the Configuration Utility**
