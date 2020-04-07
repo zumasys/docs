@@ -2,12 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 8/12/2019 9:23:14 PM  
-**Updated At:** 8/12/2019 9:36:10 PM  
-**Original Doc:** [accuterm-8-web-profiles](https://docs.zumasys.com/accuterm/accuterm-8-web-profiles)  
-**Original ID:** 442705  
-**Internal:** No  
-
 ## General Options
 
 The General Options are applicable to the overall operation of AccuTerm. General Options contain two setting configurations; Profiles Settings and General Settings.

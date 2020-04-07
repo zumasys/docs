@@ -2,12 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 8/8/2019 3:44:39 AM  
-**Updated At:** 11/26/2019 8:30:33 PM  
-**Original Doc:** [accuterm-8-activating-accuterm-desktop-licensing](https://docs.zumasys.com/accuterm/accuterm-8-activating-accuterm-desktop-licensing)  
-**Original ID:** 441442  
-**Internal:** No
-
 <iframe width="640" height="360" src="https://www.youtube.com/embed/oU6MMTJneso?&wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable"></iframe>
 
 One of the changes in AccuTerm 8 is how it is now licensed, by the user. In order to activate AccuTerm 8 Desktop, a user first needs to be provisioned in the [Customer Portal](./../license-and-user-management/creating-users/README.md). Upon being provisioned, the user will receive the license key by email and the administrator can view it in the Customer Portal by selecting the user.

@@ -2,12 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 7/31/2019 10:49:05 PM  
-**Updated At:** 10/29/2019 4:56:39 PM  
-**Original Doc:** [accuterm-8-adding-users](https://docs.zumasys.com/accuterm/accuterm-8-adding-users)  
-**Original ID:** 412551  
-**Internal:** No
-
 Each AccuTerm user, whether a Desktop or Web user (and eventually Mobile users), needs to be registered in the customer's Zumasys Customer Portal account. Users are identified by email address. Each user can activate up to 2 Windows computers for AccuTerm 8 Desktop. Users can be granted access to the Web version (and eventually the Mobile version). Each user has a unique License Key, which, along with the email address, is used to activate AccuTerm 8 Desktop on their computer.
 
 ## Adding a Single User

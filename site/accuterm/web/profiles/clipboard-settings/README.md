@@ -2,15 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 8/16/2019 6:17:53 PM  
-**Updated At:** 8/16/2019 6:23:41 PM  
-**Original Doc:** [accuterm-8-clipboard-settings](https://docs.zumasys.com/accuterm/accuterm-8-clipboard-settings)  
-**Original ID:** 444205  
-**Internal:** No  
-
-
-
-
 ## Paste Options
 
 ![accuterm-8-clipboard-settings: 1565979499582-1565979499582](./1565979499582-1565979499582.png)

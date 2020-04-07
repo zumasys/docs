@@ -2,12 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 8/30/2019 11:27:52 PM  
-**Updated At:** 8/31/2019 3:53:25 AM  
-**Original Doc:** [accuterm-8-release-notes](https://docs.zumasys.com/accuterm/accuterm-8-release-notes)  
-**Original ID:** 449733  
-**Internal:** No  
-
 August 27th, 2019
 
 AccuTerm 8 is designed to run on Windows 7 and above and Windows Server 2012 and above. It is a 32 bit Windows application and requires an Intel x86 / x64 architecture CPU. It is not compatible with ARM processors (Windows CE, Windows Mobile, Windows RT).

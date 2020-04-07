@@ -2,13 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 6/26/2018 10:25:14 PM  
-**Updated At:** 12/13/2019 4:34:56 PM  
-**Original Doc:** [accuterm-session-resilience](https://docs.zumasys.com/accuterm/accuterm-session-resilience)  
-**Original ID:** 324743  
-**Internal:** No  
-
-
 ## Description
 
 AccuTerm ReZume Session Resilience allows an AccuTerm session to resume after an interruption in the network connection between the AccuTerm workstation and the server. This feature is available beginning with AccuTerm 7 release 7.3. To use this feature, a session manager is required on the server. AccuTerm ReZume requires Secure Shell (ssh) connections to the host, and only Linux and AIX hosts are supported at this time.

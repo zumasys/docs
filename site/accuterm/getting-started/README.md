@@ -2,12 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 9/4/2019 11:28:39 PM  
-**Updated At:** 9/4/2019 11:45:04 PM  
-**Original Doc:** [accuterm-8-getting-started](https://docs.zumasys.com/accuterm/accuterm-8-getting-started)  
-**Original ID:** 453456  
-**Internal:** No  
-
 This getting started guide walks you through the process of setting up your Zumasys Customer Portal account, assigning your organization's AccuTerm licenses to your account, adding users and assigning AccuTerm licenses to those users. Additional instructions can be found on how to create roles and profiles for AccuTerm Web and how to install AccuTerm IO on your MultiValue server.
 
 ## Licensing

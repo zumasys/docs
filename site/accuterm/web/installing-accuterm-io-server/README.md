@@ -2,12 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 8/8/2019 1:20:16 AM  
-**Updated At:** 9/17/2019 12:04:25 AM  
-**Original Doc:** [accuterm-8-installing-accuterm-web-server-package](https://docs.zumasys.com/accuterm/accuterm-8-installing-accuterm-web-server-package)  
-**Original ID:** 441431  
-**Internal:** No
-
 <iframe width="640" height="360" src="https://www.youtube.com/embed/rAc3SBvenVw?&wmode=opaque" frameborder="0" allowfullscreen="" class="fr-draggable"></iframe>
 
 ## Info

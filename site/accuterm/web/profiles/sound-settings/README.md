@@ -2,15 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 8/16/2019 6:14:20 PM  
-**Updated At:** 8/16/2019 6:16:15 PM  
-**Original Doc:** [accuterm-8-sound-settings](https://docs.zumasys.com/accuterm/accuterm-8-sound-settings)  
-**Original ID:** 444199  
-**Internal:** No  
-
-
-
-
 ## Sound
 
 ![accuterm-8-sound-settings: 1565979284449-1565979284449](./1565979284449-1565979284449.png)

@@ -2,15 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 8/15/2019 10:20:36 PM  
-**Updated At:** 8/15/2019 10:30:05 PM  
-**Original Doc:** [accuterm-8-terminal-settings](https://docs.zumasys.com/accuterm/accuterm-8-terminal-settings)  
-**Original ID:** 443895  
-**Internal:** No  
-
-
-
-
 ## Terminal Type
 
 ![accuterm-8-terminal-settings: 1565907664520-1565907664520](./1565907664520-1565907664520.png)
