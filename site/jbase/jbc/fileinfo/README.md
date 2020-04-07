@@ -17,13 +17,13 @@ Use the **FILEINFO** function to return information about the specified file var
 FILEINFO(file.variable, key)
 ```
 
-This function is currently limited to return values to determine if the file variable is a valid file descriptor variable.
+This function is currently limited to return values to determine if the file variable is a valid file descriptor.
 
-**Key** Return Status returns 1 if ***file.variable*** is a valid files variable, or 0 if not.
+**Key** returns 1 if **file.variable** is a valid files variable, or 0 if not.
 
 ```
-OPEN "test_rec" TO FILE_VAR ELSE ABORT 201, "This file "
-IF FILEINFO(FILE_VAR, 0) = 1 THEN CRT "File information is valid"
+OPEN "test_rec" TO file_Var ELSE ABORT 201, "This file "
+IF FILEINFO(file_Var, 0) = 1 THEN CRT "File information is valid"
 ELSE
     CRT "Invalid information"
 END

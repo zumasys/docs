@@ -28,6 +28,19 @@ If **dynamic.array** evaluates to null, it returns null. If format evaluates to 
 - GT As Above, except Greater than
 - GTS Add as per GES, except just greater than for dynamic array expression [FMUL](./../fmul)/[FDIV](./../fdiv)/[FADD](./../fadd)/[FSUB](./../fsub).
 
+An example of use is as:
+
+```
+    sales.ytd = 105632 : @VM : 231571 : @VM : 2057913 : @VM : 3156789
+    CRT OCONV( FMTS(sales.ytd, "MR22#11"), "MCP")
+```
+
+which displays the following output to the screen:
+
+```
+    1056.32]    2315.71]   20579.13]   31567.89
+```
+
 See also: [FMT function](./../fmt).
 
 Go back to [jBASE BASIC](./../README.md)

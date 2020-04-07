@@ -17,9 +17,9 @@ FILEUNLOCK [file.variable] [ON ERROR statements]
 where
 
 - **file.variable** specifies a file previously locked with a [FILELOCK](./../filelock) statement. If **file.variable** is not specified, the default file with the [FILELOCK](./../filelock) statement is assumed. If **file.variable** is not a valid file variable then the **FILEUNLOCK** statement will enter the debugger.
-- The ON ERROR clause is optional in the **FILEUNLOCK** statement. The ON ERROR clause allows the programmer to specify an alternative for program termination when encountering a fatal error during processing of the **FILEUNLOCK** statement. If a fatal error occurs, with no ON ERROR clause specified, the program enters the debugger.
+- The **ON ERROR** clause is optional in the **FILEUNLOCK** statement. The **ON ERROR** clause allows the programmer to specify an alternative for program termination when encountering a fatal error during processing of the **FILEUNLOCK** statement. If a fatal error occurs, with no **ON ERROR** clause specified, the program enters the debugger.
 
-If the ON ERROR clause is used, the value returned by the [STATUS](./../status-function)  function is the error number.
+If the **ON ERROR** clause is used, the value returned by the [STATUS](./../status-function)  function is the error number.
 
 In the following example, the first **FILEUNLOCK** statement unlocks the default file. The second **FILEUNLOCK** statement unlocks the file variable FILE.
 

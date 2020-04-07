@@ -29,53 +29,78 @@ The **FOLD** function creates a number of sub-strings such that the length of ea
 Note that "^" represents an Attribute Mark and "]" represents a Value Mark.
 
 ```
-q = "Smoking is one of the leading causes of statistics."
-CRT FOLD(q, 7)
+phrase = "Smoking is one of the leading causes of statistics."
+CRT OCONV(FOLD(phrase, 7), "MCP")
 ```
 
-Output: Smoking^is one^of the^leading^&causes^of^statist^ics.
+This displays:
 
 ```
-q = "Hello world"
-CRT FOLD(q, 5, @VM)
+Smoking^is one^of the^leading^causes^of^statist^ics.
 ```
 
-Output: Hello]world
+* * *
 
 ```
-q = "Let this be a reminder to you all that this organization will not tolerate failure."
-CRT FOLD(q, 30)
+phrase = "Hello world"
+CRT OCONV(FOLD(phrase, 5, @VM), "MCP")
 ```
 
-Output: let this be a reminder to you^all that this organization^will not tolerate failure.
+This displays:
 
 ```
-q = "the end"
-CRT FOLD(q, 0)
+Hello]world
 ```
 
-Output: t^h^e^e^n^d
+* * *
 
 ```
-s = "Space the final frontier"
-folded = FOLD(s, 10, "")
+phrase = "Let this be a reminder to you all that this organization will not tolerate failure."
+CRT OCONV(FOLD(phrase, 30), "MCP")
+```
+
+This displays:
+
+```
+let this be a reminder to you^all that this organization^will not tolerate failure.
+```
+
+* * *
+
+```
+phrase = "the end"
+CRT OCONV(FOLD(phrase, 0), "MCP")
+```
+
+This displays:
+
+```
+t^h^e^e^n^d
+```
+
+* * *
+
+```
+sentence = "Space: the final frontier"
+folded = FOLD(sentence, 10, "")
 CRT OCONV(folded, "mcp")
-folded = FOLD(s, 10, ";")
+folded = FOLD(sentence, 10, ";")
 CRT folded
 ```
 
 This displays:
 
 ```
-Space the]final]frontier
-Space the;final;frontier
+Space: the]final]frontier
+Space: the;final;frontier
 ```
 
 ## Notes
 
-The 3-parameter version of FOLD() is new as of jBASE release 5.6.2. The original 2-parameter version of FOLD() has some ideosyncracies, including allowing a field to be generated the wrong width. The new 3-parameter version of FOLD() fixes these problems, however the original 2-parameter version will continue to work as before for backward compatibility.
-
-The 2-parameter version replaces spaces with attribute marks, CHAR(254). The 3-parameter version replaces spaces with value marks, CHAR(253), if and only if the 3rd parameter is null. See the last example above.
+>The 3-parameter version of FOLD() is new as of jBASE release 5.6.2. The original 2-parameter version of FOLD() has some ideosyncracies, including allowing a field to be generated with the wrong width. The new 3-parameter version of FOLD() fixes these problems, however the original 2-parameter version will continue to work as before for backward compatibility.
+>
+>The 2-parameter version replaces spaces with attribute marks, CHAR(254).  
+>The 3-parameter version replaces spaces with value marks, CHAR(253), if and only if the 3rd parameter is null. See the last example above.
 
 Go back to [jBASE BASIC](./../README.md)
 

@@ -24,28 +24,28 @@ Where:
 - **Var1** is the actual dynamic array that will be searched. **FINDSTR** will normally locate the first occurrence of **expression1** unless **expression2** is specified. If specified then **expression2** will cause a specific occurrence of **expression1** to be located.
 - The three variables **Var2, Var3, Var4** are used to record the Field, Value and Sub-Value positions in which **expression1** was found.
 
-If **expression1** is found as a substring of any element of **Var1** then **Vars 2, 3**and **4** are set to the position in which it was found and the THEN clause of the statement is executed if it is present. If **expression1** is not found within any element of the dynamic array then **Vars 2,3** and **4** are undefined and the ELSE clause of the statement is executed.
+If **expression1** is found as a substring of any element of **Var1** then **Vars 2, 3**and **4** are set to the position in which it was found and the **THEN** clause of the statement is executed if it is present. If **expression1** is not found within any element of the dynamic array then **Vars 2,3** and **4** are undefined and the **ELSE** clause of the statement is executed.
 
 ## Note
 
-> The statement may omit either the THEN clause or the ELSE clause but may not omit both. It is valid for the statement to contain both clauses if required.
+> The statement may omit either the **THEN** clause or the **ELSE** clause but may not omit both. It is valid for the statement to contain both clauses if required.
 
 An example of use is as:
 
 ```
-V.ARRAY = 'ABC' :@FM: 'DEF' :@VM: 'XYZ'  : @SM: 'XYZ'
+v.Array = 'ABC' : @FM : 'DEF' : @VM : 'XYZ'  : @SM : 'XYZ'
 
-FINDSTR 'XY' IN V.ARRAY SETTING V.FLD, V.VAL THEN
-    CRT "FIELD: " : V.FLD, "POSITION: ": V.VAL
+FINDSTR 'XY' IN v.Array SETTING v.Fld, v.Val THEN
+    CRT "Field : " : v.Fld, "Position : " : v.Val
 END ELSE
-    CRT "NOT FOUND"
+    CRT "Not found"
 END
 ```
 
 to display:
 
 ```
-FIELD: 2        POSITION: 2
+Field : 2       Position : 2
 ```
 
 Go back to [jBASE BASIC](./../README.md)

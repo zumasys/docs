@@ -36,7 +36,7 @@ For audit purposes, enter the reason for the restore. It is also possible to ele
 
 ![Linux_Restore_8](./linux_restore_8.png)
 
-In order to be able to achieve a file level restore an Esxi server needs to be available as a File Level Restore helper appliance (FLR): 
+In order to be able to achieve a file level restore an Esxi server needs to be available as a File Level Restore (FLR) helper appliance:
 
 ![Linux_Restore_9](./linux_restore_9.png)
 

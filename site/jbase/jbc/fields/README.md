@@ -29,17 +29,27 @@ If the emulation option, "jbase\_field", is set then the field delimiter may con
 An example of use would be a program that shows how each element of a dynamic array can be changed with the **FIELDS** function, as:
 
 ```
-t = ""
-t<1> = "a:b:c:d:e:f"
-t<2> = "aa:bb:cc:dd:ee:ff" : @VM : "1:2:3:4" : @SVM : ":W:X:Y:Z"
-t<3> = "aaa:bbb:ccc:ddd:eee:fff": @VM : @SVM
-t<4> = "aaaa:bbbb:cccc:dddd:eeee:ffff"
-r1 = FIELDS(t, ":" , 2)
-r2 = FIELDS(t, ":" ,2 ,3)
-r3 = FIELDS(t, "bb" , 1, 1)
+    dyn_t = ""
+    dyn_t<1> = "a:b:c:d:e:f"
+    dyn_t<2> = "aa:bb:cc:dd:ee:ff" : @VM : "1:2:3:4" : @SVM : ":W:X:Y:Z"
+    dyn_t<3> = "aaa:bbb:ccc:ddd:eee:fff": @VM : @SVM
+    dyn_t<4> = "aaaa:bbbb:cccc:dddd:eeee:ffff"
+    dyn_r1 = FIELDS(dyn_t, ":" , 2)
+    dyn_r2 = FIELDS(dyn_t, ":" ,2 ,3)
+    dyn_r3 = FIELDS(dyn_t, "bb" , 1, 1)
+*
+    CRT "dyn_r1 = " : OCONV(dyn_r1, "MCP")
+    CRT "dyn_r2 = " : OCONV(dyn_r2, "MCP")
+    CRT "dyn_r3 = " : OCONV(dyn_r3, "MCP")
 ```
 
-to create three dynamic arrays.
+to create three dynamic arrays, which are populated as follows:
+
+```
+dyn_r1 = b^bb]2\W^bbb]\^bbbb
+dyn_r2 = b:c:d^bb:cc:dd]2:3:4\W:X:Y^bbb:ccc:ddd]\^bbbb:cccc:dddd
+dyn_r3 = a:b:c:d:e:f^aa:]1:2:3:4\:W:X:Y:Z^aaa:]\^aaaa:
+```
 
 Go back to [jBASE BASIC](./../README.md)
 

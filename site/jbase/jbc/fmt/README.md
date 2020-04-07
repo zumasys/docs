@@ -33,13 +33,13 @@ Where **var** is the element to which the **mask code** is to be applied, and th
 An example of use is as:
 
 ``` basic
-VAL = 321456
-CRT FMT(VAL, 'L2%3')
-CRT DQUOTE( FMT(VAL, 'R2#10') )
-CRT FMT(VAL , 'L2%10')
-CRT FMT(VAL, 'R2%10')
-CRT FMT(VAL, 'L2*10')
-CRT FMT(VAL, 'R2*10')
+val = 321456
+CRT FMT(val, 'L2%3')
+CRT DQUOTE( FMT(val, 'R2#10') )
+CRT FMT(val , 'L2%10')
+CRT FMT(val, 'R2%10')
+CRT FMT(val, 'L2*10')
+CRT FMT(val, 'R2*10')
 ```
 
 to output the following to the screen:
