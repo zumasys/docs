@@ -1,10 +1,6 @@
 # Dynamic Objects: Object Creation
 
-**Created At:** 2/19/2018 7:58:18 AM  
-**Updated At:** 4/16/2018 8:18:59 AM  
-**Original Doc:** [dynamic-objects-object-creation](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-object-creation)  
-**Original ID:** 299717  
-**Internal:** No
+<PageHeader />
 
 There are 2 special methods, otherwise known as magic methods in other languages. These special methods function as interceptors that are automatically called when and object is created or its reference count goes to zero.
 

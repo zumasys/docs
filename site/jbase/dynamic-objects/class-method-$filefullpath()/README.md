@@ -1,5 +1,7 @@
 # Class Method: $file::fullpath()
 
+<PageHeader />
+
 ## Description
 
 The **$file::fullpath()** method will resolve a relative file path into a full explicit path. It is platform independent. It will resolve relative paths, symbolic links and so on. The only thing it can't resolve are hard links which by definition are an impossible dilemma to resolve.

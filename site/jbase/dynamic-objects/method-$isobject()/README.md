@@ -1,10 +1,6 @@
 # Method: $isobject()
 
-**Created At:** 2/15/2018 2:30:22 PM  
-**Updated At:** 4/23/2018 10:11:38 AM  
-**Original Doc:** [method-isobject](https://docs.jbase.com/42948-dynamic-objects/method-isobject)  
-**Original ID:** 299333  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

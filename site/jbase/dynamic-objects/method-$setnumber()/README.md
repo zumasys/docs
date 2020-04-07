@@ -1,5 +1,7 @@
 # Method: $setnumber() / $setnumeric()
 
+<PageHeader />
+
 ## Description
 
 The **$setnumber()** method (and its synonym **setnumeric()**) will force an expression, and therefore the value type, of the property (or array element number) to be a number.

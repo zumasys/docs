@@ -1,10 +1,6 @@
 # Exceptions: try / catch / throw / \$setcatch()
 
-**Created At:** 7/11/2019 12:56:51 PM  
-**Updated At:** 7/16/2019 8:14:26 AM  
-**Original Doc:** [exceptions-try-catch-throw-setcatch](https://docs.jbase.com/42948-dynamic-objects/exceptions-try-catch-throw-setcatch)  
-**Original ID:** 404335  
-**Internal:** No
+<PageHeader />
 
 Dynamic Objects supports **try**/ **catch**/ **throw** like this:
 

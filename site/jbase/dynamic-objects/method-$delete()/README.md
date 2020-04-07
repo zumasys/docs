@@ -1,10 +1,6 @@
 # Method: $delete()
 
-**Created At:** 2/15/2018 3:40:49 PM  
-**Updated At:** 1/6/2020 1:02:41 PM  
-**Original Doc:** [method-delete](https://docs.jbase.com/42948-dynamic-objects/method-delete)  
-**Original ID:** 299349  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

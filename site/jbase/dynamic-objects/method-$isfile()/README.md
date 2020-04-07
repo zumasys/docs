@@ -1,10 +1,6 @@
 # Method: $isfile()
 
-**Created At:** 2/15/2018 2:29:11 PM  
-**Updated At:** 4/23/2018 10:11:19 AM  
-**Original Doc:** [method-isfile](https://docs.jbase.com/42948-dynamic-objects/method-isfile)  
-**Original ID:** 299332  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

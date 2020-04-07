@@ -1,10 +1,6 @@
 # Method: $clone()
 
-**Created At:** 3/28/2018 3:10:12 PM  
-**Updated At:** 4/23/2018 10:26:34 AM  
-**Original Doc:** [method-clone](https://docs.jbase.com/42948-dynamic-objects/method-clone)  
-**Original ID:** 305693  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

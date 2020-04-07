@@ -1,10 +1,6 @@
 # Method: $objecttype()
 
-**Created At:** 2/15/2018 2:48:43 PM  
-**Updated At:** 4/23/2018 10:12:45 AM  
-**Original Doc:** [method-objecttype](https://docs.jbase.com/42948-dynamic-objects/method-objecttype)  
-**Original ID:** 299337  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

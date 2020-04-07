@@ -1,10 +1,6 @@
 # Method: $sort() arrays
 
-**Created At:** 11/13/2019 11:15:18 AM  
-**Updated At:** 11/13/2019 11:28:31 AM  
-**Original Doc:** [method-sort-arrays](https://docs.jbase.com/42948-dynamic-objects/method-sort-arrays)  
-**Original ID:** 493376  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

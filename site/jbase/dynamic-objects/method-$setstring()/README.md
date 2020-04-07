@@ -1,5 +1,7 @@
 # Method: $setstring()
 
+<PageHeader />
+
 ## Description
 
 The **$setstring()** method will force an expression, and therefore the value type, of the property (or array element number) to be a string.

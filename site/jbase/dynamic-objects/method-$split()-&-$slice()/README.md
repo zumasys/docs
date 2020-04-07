@@ -1,10 +1,6 @@
 # Method: $split() / $slice()
 
-**Created At:** 1/6/2020 12:10:35 PM  
-**Updated At:** 1/10/2020 2:17:48 PM  
-**Original Doc:** [method-split-slice](https://docs.jbase.com/42948-dynamic-objects/method-split-slice)  
-**Original ID:** 514003  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

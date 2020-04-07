@@ -1,5 +1,7 @@
 # jBASE
 
+<PageHeader />
+
 ## Table of Contents
 
 | <!----> | <!----> |

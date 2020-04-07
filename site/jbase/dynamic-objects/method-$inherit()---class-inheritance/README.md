@@ -1,10 +1,6 @@
 # Method: $inherit() - Class Inheritance
 
-**Created At:** 12/5/2019 11:16:33 AM  
-**Updated At:** 12/25/2019 9:59:39 AM  
-**Original Doc:** [method-inherit-class](https://docs.jbase.com/42948-dynamic-objects/method-inherit-class)  
-**Original ID:** 502199  
-**Internal:** No  
+<PageHeader />
 
 The traditional way to implement inheritance is with a class hierarchy.
 

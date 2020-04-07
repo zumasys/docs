@@ -1,10 +1,6 @@
 # Inheritance Tutorial
 
-**Created At:** 12/6/2019 1:38:59 PM  
-**Updated At:** 12/6/2019 1:46:02 PM  
-**Original Doc:** [inheritance-tutorial](https://docs.jbase.com/42948-dynamic-objects/inheritance-tutorial)  
-**Original ID:** 502408  
-**Internal:** No
+<PageHeader />
 
 The **\$inherit** method allows a class to inherit all the properties and methods of the passed object type. You can pass one or more object like this:
 

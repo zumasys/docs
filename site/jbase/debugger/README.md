@@ -1,5 +1,7 @@
 # Debugger
 
+<PageHeader />
+
 ## Topics
 
 [debugger-symbol-tables](./debugger-symbol-tables)  

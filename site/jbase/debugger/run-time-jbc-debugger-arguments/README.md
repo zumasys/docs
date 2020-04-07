@@ -1,10 +1,6 @@
 # Run-time jBC Debugger Arguments
 
-**Created At:** 12/13/2017 10:22:19 PM  
-**Updated At:** 4/19/2018 11:21:53 PM  
-**Original Doc:** [291165-run-time-debugger-arguments](https://docs.jbase.com/41693-debugger/291165-run-time-debugger-arguments)  
-**Original ID:** 291165  
-**Internal:** No  
+<PageHeader />
 
 When a jBC source program is executed, there are a number of command arguments that can be passed to the run-time libraries, some of which relate to the operation of jBC debug. These are as follows:
 

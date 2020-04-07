@@ -1,10 +1,6 @@
 # Dynamic Objects: $jbase Class
 
-**Created At:** 3/27/2018 1:38:00 PM  
-**Updated At:** 3/27/2018 1:46:57 PM  
-**Original Doc:** [dynamic-objects-jbase-class](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-jbase-class)  
-**Original ID:** 305401  
-**Internal:** No  
+<PageHeader />
 
 The **$jbase** class is a convenience for when you don't need, or want, to create a new class.
 

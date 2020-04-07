@@ -1,10 +1,6 @@
 # Manual Installation of jDLS Service
 
-**Created At:** 7/6/2017 10:07:47 PM  
-**Updated At:** 11/20/2017 9:13:59 PM  
-**Original Doc:** [manual-installation-of-jdls-service](https://docs.jbase.com/30301-jbase/manual-installation-of-jdls-service)  
-**Original ID:** 262612  
-**Internal:** No  
+<PageHeader />
 
 jBASE 5.5.0 onwards for Windows uses shared memory which must be initialized prior to using many jBASE functions, such as jShell. Typically, this function is performed by the 'jBASE Distributed Locking Service' (jDLS). 'jDLS' is designed to be run as a Windows Service.
 

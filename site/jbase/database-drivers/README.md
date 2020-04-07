@@ -1,10 +1,6 @@
 # Database Drivers
 
-**Created At:** 7/6/2018 10:20:58 AM  
-**Updated At:** 9/13/2018 2:43:02 PM  
-**Original Doc:** [database-drivers](https://docs.jbase.com/30301-jbase/database-drivers)  
-**Original ID:** 325728  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

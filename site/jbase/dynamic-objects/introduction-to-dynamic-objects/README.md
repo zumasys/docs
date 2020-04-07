@@ -1,10 +1,6 @@
 # Introduction to Dynamic Objects
 
-**Created At:** 2/7/2018 3:42:15 PM  
-**Updated At:** 2/11/2019 7:51:16 AM  
-**Original Doc:** [dynamic-objects-tour](https://docs.jbase.com/42948-dynamic-objects/dynamic-objects-tour)  
-**Original ID:** 298072  
-**Internal:** No
+<PageHeader />
 
 <iframe src="https://www.youtube.com/embed/IBw92e32oYY?wmode=opaque" allowfullscreen="" frameborder="0" height="360" width="640" class="fr-draggable"></iframe>
 

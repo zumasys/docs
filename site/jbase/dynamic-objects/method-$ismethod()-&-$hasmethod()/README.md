@@ -1,10 +1,6 @@
 # Method: $ismethod() / $hasmethod()
 
-**Created At:** 3/26/2018 9:46:34 AM  
-**Updated At:** 1/6/2020 12:14:38 PM  
-**Original Doc:** [method-ismethod](https://docs.jbase.com/42948-dynamic-objects/method-ismethod)  
-**Original ID:** 305212  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

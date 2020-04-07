@@ -1,10 +1,6 @@
 # Method: $join()
 
-**Created At:** 1/10/2020 1:50:38 PM  
-**Updated At:** 1/10/2020 2:16:12 PM  
-**Original Doc:** [method-join](https://docs.jbase.com/42948-dynamic-objects/method-join)  
-**Original ID:** 515582  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

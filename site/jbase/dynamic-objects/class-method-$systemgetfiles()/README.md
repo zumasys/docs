@@ -1,10 +1,6 @@
 # Class Method: $system::getfiles()
 
-**Created At:** 4/5/2018 1:45:57 PM  
-**Updated At:** 10/5/2018 2:08:22 PM  
-**Original Doc:** [class-method-system-getfiles](https://docs.jbase.com/42948-dynamic-objects/class-method-system-getfiles)  
-**Original ID:** 306496  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

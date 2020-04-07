@@ -1,10 +1,6 @@
 # Method: $merge() arrays
 
-**Created At:** 1/8/2019 10:53:46 PM  
-**Updated At:** 1/10/2019 10:42:12 AM  
-**Original Doc:** [method-merge-arrays](https://docs.jbase.com/42948-dynamic-objects/method-merge-arrays)  
-**Original ID:** 356869  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

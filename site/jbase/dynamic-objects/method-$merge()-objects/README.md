@@ -1,10 +1,6 @@
 # Method: $merge() objects
 
-**Created At:** 1/8/2019 1:25:10 PM  
-**Updated At:** 2/6/2019 7:40:12 AM  
-**Original Doc:** [method-merge-objects](https://docs.jbase.com/42948-dynamic-objects/method-merge-objects)  
-**Original ID:** 356464  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

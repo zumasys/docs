@@ -1,10 +1,6 @@
 # Method: $classname()
 
-**Created At:** 2/15/2018 2:07:35 PM  
-**Updated At:** 9/15/2019 8:31:37 AM  
-**Original Doc:** [method-classname](https://docs.jbase.com/42948-dynamic-objects/method-classname)  
-**Original ID:** 299325  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

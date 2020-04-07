@@ -1,10 +1,6 @@
 # Method: $setnull()
 
-**Created At:** 2/15/2018 3:05:37 PM  
-**Updated At:** 2/12/2019 10:33:10 AM  
-**Original Doc:** [method-setnull](https://docs.jbase.com/42948-dynamic-objects/method-setnull)  
-**Original ID:** 299342  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

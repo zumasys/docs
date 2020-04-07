@@ -1,10 +1,6 @@
 # Method: $sort() objects
 
-**Created At:** 2/15/2018 3:09:58 PM  
-**Updated At:** 11/13/2019 11:29:04 AM  
-**Original Doc:** [method-sort-objects](https://docs.jbase.com/42948-dynamic-objects/method-sort-objects)  
-**Original ID:** 299344  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

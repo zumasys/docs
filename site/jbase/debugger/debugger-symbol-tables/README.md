@@ -1,10 +1,6 @@
 # Debugger Symbol Tables
 
-**Created At:** 12/13/2017 10:32:04 PM  
-**Updated At:** 2/22/2019 6:12:28 PM  
-**Original Doc:** [291167-debugger-symbol-tables](https://docs.jbase.com/41693-debugger/291167-debugger-symbol-tables)  
-**Original ID:** 291167  
-**Internal:** No  
+<PageHeader />
 
 The jBC compiler produces debugging symbol tables for use by the debugger at runtime. These symbol tables are produced for each data area in the program. Issuing the command v -g will display the value of every symbol at every data level within the program. There are three types of data area within a jBC program:
 

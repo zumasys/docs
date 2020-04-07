@@ -1,10 +1,6 @@
 # Method: $inherit() - Object Inheritance
 
-**Created At:** 12/16/2019 10:43:42 AM  
-**Updated At:** 12/24/2019 10:22:55 AM  
-**Original Doc:** [method-inherit-object-inheritance](https://docs.jbase.com/42948-dynamic-objects/method-inherit-object-inheritance)  
-**Original ID:** 507456  
-**Internal:** No  
+<PageHeader />
 
 **Object inheritance** is a mechanism that allows an instance of a class to inherit all of the properties and methods of the classes of other object instances. Object inheritance is [recursive](./../dynamic-objects-inheritance) in the same way as [Class inheritance](./../method-$inherit%28%29---class-inheritance).
 
