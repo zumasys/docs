@@ -1,10 +1,6 @@
 # JBCPRINTER_WIDTH
 
-**Created At:** 7/17/2018 1:08:38 PM  
-**Updated At:** 8/22/2018 9:20:46 AM  
-**Original Doc:** [jbcprinter_width](https://docs.jbase.com/41717-environment-variables/jbcprinter_width)  
-**Original ID:** 327512  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='spooler' vertical='middle' />

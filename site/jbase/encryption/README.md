@@ -1,5 +1,7 @@
 # Encryption
 
+<PageHeader />
+
 ## Topics
 
 [create-an-encrypted-spooler-queue](./create-an-encrypted-spooler-queue/README.md)  

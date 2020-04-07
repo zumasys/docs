@@ -1,10 +1,6 @@
 # JBCDATADIR
 
-**Created At:** 11/3/2017 3:44:25 PM  
-**Updated At:** 7/19/2018 12:38:46 PM  
-**Original Doc:** [jbcdatadir](https://docs.jbase.com/41717-environment-variables/jbcdatadir)  
-**Original ID:** 284167  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='data directories' vertical='middle' />

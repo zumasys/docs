@@ -1,10 +1,6 @@
 # JBC_TCLRESTART
 
-**Created At:** 11/3/2017 5:14:25 PM  
-**Updated At:** 8/22/2018 9:49:44 AM  
-**Original Doc:** [jbc_tclrestart](https://docs.jbase.com/41717-environment-variables/jbc_tclrestart)  
-**Original ID:** 284185  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='environment variables' vertical='middle' />

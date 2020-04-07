@@ -1,10 +1,6 @@
 # JBCDEV_BIN
 
-**Created At:** 11/3/2017 5:21:29 PM  
-**Updated At:** 7/17/2018 1:36:22 PM  
-**Original Doc:** [jbcdev_bin](https://docs.jbase.com/41717-environment-variables/jbcdev_bin)  
-**Original ID:** 284189  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='environment variables' vertical='middle' />

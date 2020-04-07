@@ -1,10 +1,6 @@
 # JBASE_PIVOT_YEAR
 
-**Created At:** 19/2/2020 5:45:39 PM  
-**Updated At:** 19/2/2019 5:45:12 PM  
-**Original Doc:** n/a
-**Original ID:** n/a
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

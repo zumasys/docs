@@ -1,11 +1,6 @@
 # JSQLFILENAME_CATALOG
 
-**Created At:** 3/12/2019 5:18:34 PM  
-**Updated At:** 3/12/2019 5:25:01 PM  
-**Original Doc:** [371305-jsqlfilename_catalog](https://docs.jbase.com/41717-environment-variables/371305-jsqlfilename_catalog)  
-**Original ID:** 371305  
-**Internal:** No  
-
+<PageHeader />
 
 This environment variable is used to designate the file used by SQL queries to a jBASE database to expose regular jBASE files/dictionaries as tables/columns for either local or remote (ODBC) SQL queries.
 

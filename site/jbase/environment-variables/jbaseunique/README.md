@@ -1,10 +1,6 @@
 # JBASEUNIQUE
 
-**Created At:** 11/3/2017 10:46:48 PM  
-**Updated At:** 8/22/2018 8:41:58 AM  
-**Original Doc:** [jbaseunique](https://docs.jbase.com/41717-environment-variables/jbaseunique)  
-**Original ID:** 284227  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='workfiles' vertical='middle' />

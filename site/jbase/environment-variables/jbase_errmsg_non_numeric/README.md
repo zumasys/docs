@@ -1,10 +1,6 @@
 # JBASE_ERRMSG_NON_NUMERIC
 
-**Created At:** 11/3/2017 5:03:03 PM  
-**Updated At:** 10/26/2018 1:10:39 PM  
-**Original Doc:** [jbase_errmsg_non_numeric](https://docs.jbase.com/41717-environment-variables/jbase_errmsg_non_numeric)  
-**Original ID:** 284180  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

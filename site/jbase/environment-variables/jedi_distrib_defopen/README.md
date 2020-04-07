@@ -1,10 +1,6 @@
 # JEDI_DISTRIB_DEFOPEN
 
-**Created At:** 11/3/2017 5:09:57 PM  
-**Updated At:** 8/20/2018 3:47:28 PM  
-**Original Doc:** [jedi_distrib_defopen](https://docs.jbase.com/41717-environment-variables/jedi_distrib_defopen)  
-**Original ID:** 284183  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='environment variables' vertical='middle' />

@@ -1,10 +1,6 @@
 # JBCRELEASEDIR
 
-**Created At:** 11/3/2017 3:43:10 PM  
-**Updated At:** 6/10/2019 8:50:11 AM  
-**Original Doc:** [jbcreleasedir](https://docs.jbase.com/41717-environment-variables/jbcreleasedir)  
-**Original ID:** 284166  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

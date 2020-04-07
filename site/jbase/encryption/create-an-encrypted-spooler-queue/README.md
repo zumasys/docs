@@ -1,10 +1,6 @@
 # Create an Encrypted Spooler Queue
 
-**Created At:** 5/31/2019 4:26:19 PM  
-**Updated At:** 5/31/2019 4:26:45 PM  
-**Original Doc:** [create-an-encrypted-spooler-queue](https://docs.jbase.com/encryption/create-an-encrypted-spooler-queue)  
-**Original ID:** 392677  
-**Internal:** No  
+<PageHeader />
 
 To protect data that is sent to spooler, jobs can be encrypted but only when using device types of **PROG** or **FILE** when the spooler queue is initially created.
 

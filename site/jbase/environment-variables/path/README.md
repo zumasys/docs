@@ -1,10 +1,6 @@
 # PATH
 
-**Created At:** 11/3/2017 3:07:30 PM  
-**Updated At:** 10/16/2018 12:49:12 PM  
-**Original Doc:** [path](https://docs.jbase.com/41717-environment-variables/path)  
-**Original ID:** 284147  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='environment variables' vertical='middle' />

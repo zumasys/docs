@@ -1,5 +1,7 @@
 # Editor
 
+<PageHeader />
+
 ## Topics
 
 [Editors](./editors/README.md)  

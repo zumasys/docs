@@ -1,10 +1,6 @@
 # Encryption Administration
 
-**Created At:** 5/31/2019 4:22:31 PM  
-**Updated At:** 5/31/2019 4:23:25 PM  
-**Original Doc:** [encryption-administration](https://docs.jbase.com/encryption/encryption-administration)  
-**Original ID:** 392675  
-**Internal:** No  
+<PageHeader />
 
 ## Administration
 

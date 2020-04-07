@@ -1,5 +1,7 @@
 # jED Quick Reference
 
+<PageHeader />
+
 jED is a robust, terminal independent screen editing tool.
 
 ## jED Command Syntax

@@ -1,10 +1,6 @@
 # JBCSPOOLER_JOBRESET
 
-**Created At:** 7/13/2018 2:03:36 PM  
-**Updated At:** 8/20/2018 1:04:58 PM  
-**Original Doc:** [jbcspooler_jobreset](https://docs.jbase.com/41717-environment-variables/jbcspooler_jobreset)  
-**Original ID:** 326818  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='reset' vertical='middle' />

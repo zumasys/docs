@@ -1,10 +1,6 @@
 # JBC_DESPOOLSLEEP
 
-**Created At:** 7/13/2018 2:22:45 PM  
-**Updated At:** 8/8/2018 7:13:03 AM  
-**Original Doc:** [326821-jbc_despoolsleep](https://docs.jbase.com/41717-environment-variables/326821-jbc_despoolsleep)  
-**Original ID:** 326821  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='environment variable' vertical='middle' />

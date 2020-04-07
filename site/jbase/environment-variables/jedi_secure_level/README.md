@@ -1,10 +1,6 @@
 # JEDI_SECURE_LEVEL
 
-**Created At:** 11/3/2017 5:12:11 PM  
-**Updated At:** 8/22/2018 8:47:45 AM  
-**Original Doc:** [jedi_secure_level](https://docs.jbase.com/41717-environment-variables/jedi_secure_level)  
-**Original ID:** 284184  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='environment variablesa' vertical='middle' />

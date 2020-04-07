@@ -1,10 +1,6 @@
 # JBC_INVERT_ALPHA_CHARS
 
-**Created At:** 7/13/2018 2:27:46 PM  
-**Updated At:** 8/22/2018 9:16:41 AM  
-**Original Doc:** [jbc_invert_alpha_chars](https://docs.jbase.com/41717-environment-variables/jbc_invert_alpha_chars)  
-**Original ID:** 326823  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='environment variables' vertical='middle' />

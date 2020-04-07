@@ -1,10 +1,6 @@
 # Create Encrypted Files
 
-**Created At:** 5/31/2019 4:24:26 PM  
-**Updated At:** 5/31/2019 4:25:08 PM  
-**Original Doc:** [create-encrypted-files](https://docs.jbase.com/encryption/create-encrypted-files)  
-**Original ID:** 392676  
-**Internal:** No  
+<PageHeader />
 
 To create an encrypted file, use the **CREATE-FILE** command with the **ENCRYPTED=TRUE** option:
 

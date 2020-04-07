@@ -1,10 +1,6 @@
 # JBASE_ERRMSG_TRACE
 
-**Created At:** 11/3/2017 4:57:48 PM  
-**Updated At:** 10/26/2018 1:14:05 PM  
-**Original Doc:** [jbase_errmsg_trace](https://docs.jbase.com/41717-environment-variables/jbase_errmsg_trace)  
-**Original ID:** 284178  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='message logging' vertical='middle' />

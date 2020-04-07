@@ -1,10 +1,6 @@
 # ED
 
-**Created At:** 7/6/2018 10:35:35 AM  
-**Updated At:** 9/7/2018 7:45:58 AM  
-**Original Doc:** [ed](https://docs.jbase.com/46994-editor/ed)  
-**Original ID:** 325733  
-**Internal:** No  
+<PageHeader />
 
 The ED editor provided with jBASE is a limited version of the familiar (but now superseded) ED editors
 

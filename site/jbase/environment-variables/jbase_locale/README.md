@@ -1,10 +1,6 @@
 # JBASE_LOCALE
 
-**Created At:** 11/3/2017 3:09:41 PM  
-**Updated At:** 1/3/2020 5:28:00 PM  
-**Original Doc:** [jbase_locale](https://docs.jbase.com/41717-environment-variables/jbase_locale)  
-**Original ID:** 284149  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

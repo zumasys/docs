@@ -1,10 +1,6 @@
 # JBCNETACCESS
 
-**Created At:** 7/17/2018 1:25:45 PM  
-**Updated At:** 8/22/2018 9:19:43 AM  
-**Original Doc:** [jbcnetaccess](https://docs.jbase.com/41717-environment-variables/jbcnetaccess)  
-**Original ID:** 327517  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jrfs' vertical='middle' />

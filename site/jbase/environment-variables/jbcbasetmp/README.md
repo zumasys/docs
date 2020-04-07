@@ -1,10 +1,6 @@
 # JBCBASETMP
 
-**Created At:** 7/11/2018 2:48:24 PM  
-**Updated At:** 7/13/2018 9:19:46 AM  
-**Original Doc:** [326529-jbcbasetmp](https://docs.jbase.com/41717-environment-variables/326529-jbcbasetmp)  
-**Original ID:** 326529  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='environment variables' vertical='middle' />

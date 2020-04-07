@@ -1,10 +1,6 @@
 # JBC_ENDRESTART
 
-**Created At:** 11/3/2017 5:15:57 PM  
-**Updated At:** 12/24/2018 6:28:59 PM  
-**Original Doc:** [jbc_endrestart](https://docs.jbase.com/41717-environment-variables/jbc_endrestart)  
-**Original ID:** 284186  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

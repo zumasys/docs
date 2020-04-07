@@ -1,10 +1,6 @@
 # JBASE_ERRMSG_DIVIDE_ZERO
 
-**Created At:** 11/3/2017 5:05:34 PM  
-**Updated At:** 10/26/2018 1:09:01 PM  
-**Original Doc:** [jbase_errmsg_divide_zero](https://docs.jbase.com/41717-environment-variables/jbase_errmsg_divide_zero)  
-**Original ID:** 284181  
-**Internal:** No  
+<PageHeader /> 
 
 ## Description
 

@@ -1,10 +1,6 @@
 # jED
 
-**Created At:** 7/6/2018 10:33:33 AM  
-**Updated At:** 4/19/2019 7:34:32 AM  
-**Original Doc:** [jed](https://docs.jbase.com/46994-editor/jed)  
-**Original ID:** 325731  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jedrc' vertical='middle' />

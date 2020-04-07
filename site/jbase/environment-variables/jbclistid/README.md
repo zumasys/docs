@@ -1,10 +1,6 @@
 # JBCLISTID
 
-**Created At:** 7/17/2018 12:22:47 PM  
-**Updated At:** 7/19/2018 12:18:23 PM  
-**Original Doc:** [jbclistid](https://docs.jbase.com/41717-environment-variables/jbclistid)  
-**Original ID:** 327021  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jbasework file' vertical='middle' />

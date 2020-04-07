@@ -1,10 +1,6 @@
 # JBCPRINTER_DEPTH
 
-**Created At:** 7/17/2018 1:02:00 PM  
-**Updated At:** 8/22/2018 9:22:43 AM  
-**Original Doc:** [jbcprinter_depth](https://docs.jbase.com/41717-environment-variables/jbcprinter_depth)  
-**Original ID:** 327511  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='printer' vertical='middle' />
