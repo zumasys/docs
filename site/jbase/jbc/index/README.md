@@ -27,10 +27,10 @@ Where:
 An example of use is as:
 
 ```
-ALPHBT = "abcdefghijklmnopqrstuvwxyzabc"
-CRT INDEX(ALPHBT , "a", 1)
-CRT INDEX(ALPHBT , "a", 2)
-CRT INDEX(ALPHBT, "jkl", 1)
+alphbt = "abcdefghijklmnopqrstuvwxyzabc"
+CRT INDEX(alphbt , "a", 1)
+CRT INDEX(alphbt , "a", 2)
+CRT INDEX(alphbt, "jkl", 1)
 ```
 
 to display:

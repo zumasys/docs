@@ -6,7 +6,7 @@
 **Original ID:** 298072  
 **Internal:** No
 
-<iframe src="//youtu.be/IBw92e32oYY?wmode=opaque" allowfullscreen="" frameborder="0" height="360" width="640" class="fr-draggable"></iframe>
+<iframe src="https://www.youtube.com/embed/IBw92e32oYY?wmode=opaque" allowfullscreen="" frameborder="0" height="360" width="640" class="fr-draggable"></iframe>
 
 **Tags:**
 <badge text='method' vertical='middle' />
@@ -35,7 +35,7 @@ set JBC_JPP2=jabba       [Windows]
 export JBC_JPP2=jabba    [Linux/Aix]
 ```
 
-b) jBASE can auto-detect *existing*Dynamic Objects source code by setting the **JBC_JPP2** environment variable to **auto**:
+b) jBASE can auto-detect *existing* Dynamic Objects source code by setting the **JBC_JPP2** environment variable to **auto**:
 
 ```
 set JBC_JPP2=auto        [Windows]
@@ -347,7 +347,7 @@ The Force is strong with you, Luke Skywalker!
 jsh ~ -->
 ```
 
-The JED and ED editors will convert the object to JSON to be edited and, when written back, will be re-converted to an object:
+The jED and ED editors will convert the object to JSON to be edited and, when written back, will be re-converted to an object:
 
 ```
 jsh ~ -->jed starwars 1

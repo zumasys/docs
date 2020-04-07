@@ -22,7 +22,7 @@ ICONVS(dynamic array, conversion)
 Where:
 
 - **conversion** is an expression that evaluates to one or more valid conversion codes, separated by value marks (ASCII 253).
-- Each element of **dynamic array** is converted to the internal format specified by conversion and is returned in a **dynamic array**. If multiple codes are used, they are applied from left to right. The first conversion code converts the value of each element of **dynamic array**. The second conversion code converts the value of each element of the output of the first conversion, and so on. If dynamic.array evaluates to null, it returns null. If an element of **dynamic array** is null, null it returns null for that element. If conversion evaluates to null, the **ICONVS()** function fails and the program terminates with a run-time error message.
+- Each element of **dynamic array** is converted to the internal format specified by conversion and is returned in a **dynamic array**. If multiple codes are used, they are applied from left to right. The first conversion code converts the value of each element of **dynamic array**. The second conversion code converts the value of each element of the output of the first conversion, and so on. If **dynamic.array** evaluates to null, it returns null. If an element of **dynamic array** is null, null it returns null for that element. If **conversion** evaluates to null, the **ICONVS()** function fails and the program terminates with a run-time error message.
 
 The [STATUS](./../status-function) function reflects the result of the conversion:
 
@@ -36,9 +36,9 @@ The [STATUS](./../status-function) function reflects the result of the conversio
 An example of use is as:
 
 ```
-ARR1 = "3 AUGUST 1997" : @AM : "2 MARCH 2017" : @AM :"17 MAY 1987"
-INTERN_DATE = ICONVS(ARR1,"D")
-CRT CHANGE(INTERN_DATE, @AM, ','):',':STATUS()
+arr1 = "3 August 1997" : @AM : "2 March 2017" : @AM :"17 May 1987"
+intern_Date = ICONVS(arr1,"D")
+CRT CHANGE(intern_Date, @AM, ',') : ',' : STATUS()
 ```
 
 to output :

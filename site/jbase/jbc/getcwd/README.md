@@ -28,8 +28,8 @@ The function itself returns a boolean **TRUE** or **FALSE** value to indicate wh
 An example of use is as follows:
 
 ```
-IF GETCWD(W_DIR) THEN
-    CRT "Current Working Directory = ":W_DIR
+IF GETCWD(work_Dir) THEN
+    CRT "Current Working Directory = " : work_Dir
 END ELSE
     CRT "Could not determine CWD!"
 END

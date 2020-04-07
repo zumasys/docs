@@ -24,7 +24,7 @@ Where:
 
 [comment]: <> ( Add additional **ICONV** extensions for timestamp as per WDx/WTx )
 
-If the conversion code used assumes a numeric value and a non-numeric value is passed then the original value in expression1 is returned unless the emulation option iconv\_nonnumeric\_return\_null is set.
+If the conversion code used assumes a numeric value and a non-numeric value is passed then the original value in **expression1** is returned unless the emulation option iconv\_nonnumeric\_return\_null is set.
 
 An example of use is as:
 
@@ -35,7 +35,9 @@ CRT InternalDate
 
 The above should display the date in internal format.
 
-See also: [OCONV](./../oconv).
+See also: [OCONV](./../oconv/README.md)
+
+See also: [Conversion Processing](./../../conversion-processing/README.md)
 
 Go back to [jBASE BASIC](./../README.md)
 

@@ -30,7 +30,7 @@ MATREAD CUSTREC FROM CUSTOMERS, ID THEN
 END
 ```
 
-This returns the number of elements in the CUSTRECarray to the variable CUSTREC.ELEMENTS.
+This returns the number of elements in the CUSTREC array to the variable CUSTREC.ELEMENTS.
 
 Go back to [jBASE BASIC](./../README.md)
 

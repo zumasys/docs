@@ -28,9 +28,9 @@ An example of use is as:
 
 ```
 IF GETENV("CLASSPATH", ClassPath) THEN
-    CRT "CLASSPATH path is ":ClassPath
+    CRT "CLASSPATH path is " : ClassPath
 END ELSE
-    CRT "CLASSPATH is not set up"
+    CRT "CLASSPATH is not defined"
 END
 ```
 
