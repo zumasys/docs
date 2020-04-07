@@ -368,6 +368,6 @@ Record is not properly formatted JSON. Cannot WRITE record.
 Edit record again ?
 ```
 
-This is the end of our introduction. All current Dynamic Objects documentation can be found [here](./../dynamic-objects).
+This is the end of our introduction. All current Dynamic Objects documentation can be found [here](./../README.md).
 
 Back to [Dynamic Objects - Overview](./../README.md)
