@@ -6,7 +6,7 @@
 **Original ID:** 298072  
 **Internal:** No
 
-<iframe src="//youtu.be/IBw92e32oYY?wmode=opaque" allowfullscreen="" frameborder="0" height="360" width="640" class="fr-draggable"></iframe>
+<iframe src="https://www.youtube.com/embed/IBw92e32oYY?wmode=opaque" allowfullscreen="" frameborder="0" height="360" width="640" class="fr-draggable"></iframe>
 
 **Tags:**
 <badge text='method' vertical='middle' />

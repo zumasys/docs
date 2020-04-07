@@ -20,7 +20,7 @@ INS expression BEFORE Var<expression1{, expression2{, expression3}}>
 Where:
 
 - **expression** evaluates to the element to be inserted in the dynamic array.
-- **expression1** **expression2** and **expression3** should all evaluate to numeric values and specify the Field, Value and Sub-Value before which the new element is to be inserted.
+- **expression1** , **expression2** and **expression3** should all evaluate to numeric values and specify the Field, Value and Sub-Value before which the new element is to be inserted.
 
 ## Note
 
