@@ -1,10 +1,6 @@
 # CREATE-TRIGGER
 
-**Created At:** 8/18/2018 7:50:30 PM  
-**Updated At:** 8/28/2018 6:54:34 AM  
-**Original Doc:** [create-trigger](https://docs.jbase.com/42462-distributed-files/create-trigger)  
-**Original ID:** 335218  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

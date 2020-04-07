@@ -1,10 +1,6 @@
 # Distributed Files
 
-**Created At:** 11/28/2017 1:49:41 PM  
-**Updated At:** 12/24/2018 6:23:55 PM  
-**Original Doc:** [289126-distributed-files](https://docs.jbase.com/44203-distributed-files/289126-distributed-files)  
-**Original ID:** 289126  
-**Internal:** No  
+<PageHeader />
 
 ## Prerequisites
 

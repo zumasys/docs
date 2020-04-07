@@ -1,10 +1,6 @@
 # jRF
 
-**Created At:** 7/5/2018 6:15:31 AM  
-**Updated At:** 4/30/2019 7:21:23 AM  
-**Original Doc:** [jrf](https://docs.jbase.com/42462-distributed-files/jrf)  
-**Original ID:** 325578  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='hash files' vertical='middle' />

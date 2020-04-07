@@ -1,10 +1,6 @@
 # jcheck
 
-**Created At:** 7/20/2018 1:34:43 PM  
-**Updated At:** 8/23/2018 12:06:39 PM  
-**Original Doc:** [jcheck](https://docs.jbase.com/42462-distributed-files/jcheck)  
-**Original ID:** 328694  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='file recovery' vertical='middle' />

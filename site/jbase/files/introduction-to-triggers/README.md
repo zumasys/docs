@@ -1,10 +1,6 @@
 # Introduction to Triggers
 
-**Created At:** 7/12/2017 12:37:15 PM  
-**Updated At:** 9/5/2018 10:18:34 PM  
-**Original Doc:** [263119-introduction-to-triggers](https://docs.jbase.com/42462-distributed-files/263119-introduction-to-triggers)  
-**Original ID:** 263119  
-**Internal:** No  
+<PageHeader />
 
 Database triggers provide users with the capability to monitor updates to the database to file level. The three database updates for which triggers are provided are Write, Delete and Clear. Two database trigger events, a pre update event and a post update event are provided for each update type. The pre update event is triggered before the update to the database is executed and the post update event is triggered after the database update. The trigger events manifest themselves by calling a user supplied subroutine (see trigger API), which can be independently configured for each file. Each user subroutine must make provision for all the event types which could be triggered for that file. The following jBASE database trigger utilities enable users to configure and display database triggers for any file within the database.
 

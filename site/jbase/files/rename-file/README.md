@@ -1,10 +1,6 @@
 # RENAME-FILE
 
-**Created At:** 7/20/2018 1:39:19 PM  
-**Updated At:** 8/23/2018 12:22:51 PM  
-**Original Doc:** [rename-file](https://docs.jbase.com/42462-distributed-files/rename-file)  
-**Original ID:** 328697  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

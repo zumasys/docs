@@ -1,5 +1,7 @@
 # Restoring data from a Linux Veeam backup  
 
+<PageHeader />
+
 When a Veeam Linux backup is made, the backup files can be inspected in File Explorer:
 
 ![Linux_Restore_1](./linux_restore_1.png)

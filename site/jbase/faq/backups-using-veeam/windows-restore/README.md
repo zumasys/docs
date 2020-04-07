@@ -1,5 +1,7 @@
 # Restoring data from a Windows Veeam backup
 
+<PageHeader />
+
 When a Veeam Windows backup is made, the backup files can be inspected in File Explorer:
 
 ![Windows_Restore_1](./windows_restore_1.png)

@@ -1,5 +1,7 @@
 # jSPOOL Script and Scheduled Task
 
+<PageHeader />
+
 Script to restart the jBASE Spooler on Windows:
 
 ``` cmd

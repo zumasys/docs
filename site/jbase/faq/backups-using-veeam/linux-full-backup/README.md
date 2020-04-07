@@ -1,5 +1,7 @@
 # Configuring the full backup of a Linux jBASE server
 
+<PageHeader />
+
 From the Veeam console, select "Home -> Backup Job -> Linux Computer -> New Linux Computer Backup":
 
 ![Linux_Backup_1](./full_linux_backup_1.png)

@@ -1,10 +1,6 @@
 # File Integrity
 
-**Created At:** 7/20/2018 1:10:34 PM  
-**Updated At:** 8/23/2018 10:36:02 AM  
-**Original Doc:** [file-integrity](https://docs.jbase.com/42462-distributed-files/file-integrity)  
-**Original ID:** 328690  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='file system' vertical='middle' />

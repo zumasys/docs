@@ -1,5 +1,7 @@
 # Configuring a Full Backup for a Windows Server Protection Group
 
+<PageHeader />
+
 Navigate to "Inventory -> Protection Group -> Add to bacup -> Windows -> New job":
 
 ![Windows_Backup_9](./full_windows_backup_9.png)

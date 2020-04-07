@@ -1,10 +1,6 @@
 # Partition Algoritm
 
-**Created At:** 11/28/2017 1:54:09 PM  
-**Updated At:** 1/5/2018 7:01:38 PM  
-**Original Doc:** [289127-partition-algorithm](https://docs.jbase.com/44203-distributed-files/289127-partition-algorithm)  
-**Original ID:** 289127  
-**Internal:** No  
+<PageHeader />
 
 ## Overview
 

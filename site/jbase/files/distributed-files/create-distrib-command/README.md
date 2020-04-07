@@ -1,10 +1,6 @@
 # CREATE-DISTRIB Command
 
-**Created At:** 11/28/2017 1:55:37 PM  
-**Updated At:** 4/24/2019 4:21:21 PM  
-**Original Doc:** [289128-create-distrib-command](https://docs.jbase.com/44203-distributed-files/289128-create-distrib-command)  
-**Original ID:** 289128  
-**Internal:** No  
+<PageHeader /> 
 
 **Tags:**
 <badge text='create-file distributed' vertical='middle' />

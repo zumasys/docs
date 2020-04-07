@@ -1,5 +1,7 @@
 # Distributed Files
 
+<PageHeader />
+
 ## Topics
 
 [attaching-and-detaching-part-files](./attaching-and-detaching-part-files)  

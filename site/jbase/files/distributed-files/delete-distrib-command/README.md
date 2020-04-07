@@ -1,10 +1,6 @@
 # DELETE-DISTRIB Command
 
-**Created At:** 11/29/2017 7:14:42 AM  
-**Updated At:** 12/1/2017 11:21:40 PM  
-**Original Doc:** [289267-delete-distrib](https://docs.jbase.com/44203-distributed-files/289267-delete-distrib)  
-**Original ID:** 289267  
-**Internal:** No  
+<PageHeader />
 
 The DELETE-DISTRIB command detaches (de-references) a component part file from a distributed file. It takes the general form:
 

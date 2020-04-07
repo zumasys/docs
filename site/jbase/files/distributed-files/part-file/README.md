@@ -1,10 +1,6 @@
 # Part File  
 
-**Created At:** 11/28/2017 2:06:07 PM  
-**Updated At:** 10/31/2018 8:10:10 AM  
-**Original Doc:** [part-file](https://docs.jbase.com/44203-distributed-files/part-file)  
-**Original ID:** 289135  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='distributed files' vertical='middle' />

@@ -1,10 +1,6 @@
 # Trigger API
 
-**Created At:** 8/18/2018 7:59:47 PM  
-**Updated At:** 11/27/2018 5:21:06 PM  
-**Original Doc:** [triggerapi](https://docs.jbase.com/42462-distributed-files/triggerapi)  
-**Original ID:** 335220  
-**Internal:** No  
+<PageHeader />
 
 The mechanism provided to define the action that takes place when a database trigger event occurs is a jBC subroutine. The name of the subroutine is specified in the [create-trigger](./../create-trigger) command. A different subroutine can be defined for each of the nine database trigger events, however it is usually more convenient to use one subroutine for each file that has a trigger defined, distinguishing between the different events in the subroutine.
 

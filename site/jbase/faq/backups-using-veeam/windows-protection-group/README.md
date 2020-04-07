@@ -1,5 +1,7 @@
 # Configuring a Protection Group for a Windows jBASE server  
 
+<PageHeader />
+
 From the Veeam console, select "Home -> Inventory -> Physical & Cloud Infrastructure -> Create Protection Group":
 
 ![Windows_Backup_1](./full_windows_backup_1.png)
