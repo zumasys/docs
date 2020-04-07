@@ -1,10 +1,6 @@
 # Uses of Class com.jbase.jrcs.JFile (jrclient   API)
 
-**Created At:** 9/25/2017 11:27:57 AM  
-**Updated At:** 9/20/2018 1:01:12 PM  
-**Original Doc:** [com_jbase_jrcs_class-use_jfile](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jfile)  
-**Original ID:** 278026  
-**Internal:** No  
+<PageHeader />
 
 ## Uses of [JFile](./../../jfile-jrclient-api "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-jrclient-api)
 

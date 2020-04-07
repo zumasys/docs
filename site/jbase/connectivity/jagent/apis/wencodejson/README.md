@@ -1,10 +1,6 @@
 # WENCODEJSON
 
-**Created At:** 6/27/2017 7:49:15 PM  
-**Updated At:** 11/22/2017 12:28:49 PM  
-**Original Doc:** [wencodejson](https://docs.jbase.com/34473-docs/wencodejson)  
-**Original ID:** 261442  
-**Internal:** No  
+<PageHeader />
 
 The **WENCODEJSON** subroutine will encode a string to properly be in a JSON value.
 

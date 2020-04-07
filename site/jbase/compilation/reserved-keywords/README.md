@@ -1,10 +1,6 @@
 # Reserved Keywords
 
-**Created At:** 10/31/2017 10:04:09 PM  
-**Updated At:** 11/26/2017 8:04:05 PM  
-**Original Doc:** [keywords](https://docs.jbase.com/49435-compilation/keywords)  
-**Original ID:** 283720  
-**Internal:** No  
+<PageHeader />
 
 The following keywords are required by the jBASE compiler.
 | <!----> |

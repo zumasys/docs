@@ -1,5 +1,7 @@
 # protocol
 
+<PageHeader />
+
 ## Topics
 
 [activationrequest-(jremote-api)](./activationrequest-(jremote-api))  

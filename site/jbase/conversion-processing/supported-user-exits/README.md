@@ -1,10 +1,6 @@
 # Supported User Exits
 
-**Created At:** 6/28/2018 12:55:45 PM  
-**Updated At:** 5/30/2019 5:51:15 PM  
-**Original Doc:** [324980-supported-user-exits](https://docs.jbase.com/46351-conversion-processing/324980-supported-user-exits)  
-**Original ID:** 324980  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='user exits' vertical='middle' />

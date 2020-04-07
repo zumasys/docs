@@ -1,10 +1,6 @@
 # PH-DELETE
 
-**Created At:** 6/14/2018 2:10:39 PM  
-**Updated At:** 7/19/2018 12:11:43 PM  
-**Original Doc:** [ph-delete](https://docs.jbase.com/46465-background-processing/ph-delete)  
-**Original ID:** 321818  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

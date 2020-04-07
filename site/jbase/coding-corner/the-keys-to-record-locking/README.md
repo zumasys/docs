@@ -1,10 +1,6 @@
 # The Keys to Record Locking
 
-**Created At:** 5/14/2018 3:19:23 PM  
-**Updated At:** 5/14/2018 3:37:46 PM  
-**Original Doc:** [the-keys-to-record-locking](https://docs.jbase.com/coding-corner/the-keys-to-record-locking)  
-**Original ID:** 316859  
-**Internal:** No  
+<PageHeader />
 
 This article is concerned with the three R's of record locking: READU, WRITEU, and RELEASE. While this topic covers *the fundamental rules and misconceptions of record locking.* Those of you who are seasoned developers may find some of these ideas sobering, or simply a confirmation that you have been doing it right all along.
 

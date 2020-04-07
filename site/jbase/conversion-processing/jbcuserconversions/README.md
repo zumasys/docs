@@ -1,10 +1,6 @@
 # JBCUserConversions
 
-**Created At:** 6/8/2018 1:36:10 PM  
-**Updated At:** 7/13/2018 11:43:59 AM  
-**Original Doc:** [jbcuserconversions](https://docs.jbase.com/46351-conversion-processing/jbcuserconversions)  
-**Original ID:** 321293  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='conversion processing' vertical='middle' />

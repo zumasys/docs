@@ -1,10 +1,6 @@
 # WSETHEADER
 
-**Created At:** 6/2/2017 6:00:30 PM  
-**Updated At:** 9/16/2018 11:28:28 PM  
-**Original Doc:** [wsetheader](https://docs.jbase.com/34473-docs/wsetheader)  
-**Original ID:** 257604  
-**Internal:** No  
+<PageHeader />
 
 The **WSETHEADER** subroutine allows you to set return headers.
 

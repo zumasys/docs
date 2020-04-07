@@ -1,10 +1,6 @@
 # jAgent Troubleshooting
 
-**Created At:** 8/29/2018 1:53:36 AM  
-**Updated At:** 2/11/2019 4:26:28 PM  
-**Original Doc:** [336527-jagent-troubleshooting](https://docs.jbase.com/30312-jagent/336527-jagent-troubleshooting)  
-**Original ID:** 336527  
-**Internal:** No  
+<PageHeader />
 
 This document explains how the jAgent web server works and how to diagnose when things are not working.
 

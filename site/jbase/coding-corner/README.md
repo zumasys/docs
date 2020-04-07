@@ -1,5 +1,7 @@
 # Coding Corner
 
+<PageHeader />
+
 ## Topics
 
 [best-practices-for-being-pick-like](./best-practices-for-being-pick-like/README.md)  

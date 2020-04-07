@@ -1,10 +1,6 @@
 # BASIC
 
-**Created At:** 11/1/2017 12:25:04 AM  
-**Updated At:** 8/29/2019 9:15:01 AM  
-**Original Doc:** [basic](https://docs.jbase.com/49435-compilation/basic)  
-**Original ID:** 283762  
-**Internal:** No  
+<PageHeader />
 
 ``` bash
 BASIC -v -wn -Ipath FileName Itemlist (On En Wn Ipath Qq

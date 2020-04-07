@@ -1,10 +1,6 @@
 # WGETCOOKIE
 
-**Created At:** 6/27/2017 8:26:30 PM  
-**Updated At:** 11/21/2017 4:27:20 AM  
-**Original Doc:** [wgetcookie](https://docs.jbase.com/34473-docs/wgetcookie)  
-**Original ID:** 261452  
-**Internal:** No  
+<PageHeader />
 
 The **WGETCOOKIE** subroutine retrieves cookies sent in the web request.
 

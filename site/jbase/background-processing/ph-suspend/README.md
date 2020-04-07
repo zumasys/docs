@@ -1,10 +1,6 @@
 # PH-SUSPEND 
 
-**Created At:** 6/14/2018 2:20:27 PM  
-**Updated At:** 7/19/2018 12:06:49 PM  
-**Original Doc:** [ph-suspend](https://docs.jbase.com/46465-background-processing/ph-suspend)  
-**Original ID:** 321826  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

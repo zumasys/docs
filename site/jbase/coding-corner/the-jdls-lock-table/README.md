@@ -1,10 +1,6 @@
 # The jDLS Lock Table
 
-**Created At:** 6/23/2018 9:25:01 AM  
-**Updated At:** 12/21/2018 5:25:52 PM  
-**Original Doc:** [jdls-lock-table](https://docs.jbase.com/coding-corner/jdls-lock-table)  
-**Original ID:** 324479  
-**Internal:** No  
+<PageHeader />
 
 This article describes the jDLS lock table and guidelines for correctly sizing it.
 

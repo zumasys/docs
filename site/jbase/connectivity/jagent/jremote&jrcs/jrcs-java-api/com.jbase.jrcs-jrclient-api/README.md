@@ -1,10 +1,6 @@
 # com.jbase.jrcs (jrclient   API)
 
-**Created At:** 9/25/2017 11:29:38 AM  
-**Updated At:** 9/20/2018 1:06:31 PM  
-**Original Doc:** [com_jbase_jrcs_package-summary](https://docs.jbase.com/jrcs/com_jbase_jrcs_package-summary)  
-**Original ID:** 278042  
-**Internal:** No  
+<PageHeader />
 
 ## Package com.jbase.jrcs
 

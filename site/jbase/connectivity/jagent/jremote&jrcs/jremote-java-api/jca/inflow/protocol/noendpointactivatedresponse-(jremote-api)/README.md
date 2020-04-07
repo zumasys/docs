@@ -1,15 +1,6 @@
 # NoEndpointActivatedResponse (jremote API)
 
-**Created At:** 9/25/2017 12:04:01 PM  
-**Updated At:** 4/4/2018 11:18:54 PM  
-**Original Doc:** [com_jbase_jremote_jca_inflow_protocol_noendpointactivatedresponse](https://docs.jbase.com/39264-protocol/com_jbase_jremote_jca_inflow_protocol_noendpointactivatedresponse)  
-**Original ID:** 278257  
-**Internal:** No  
-
-<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="NoEndpointActivatedResponse (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
-JavaScript is disabled on your browser.
-
-
+<PageHeader />
 
 ## Class NoEndpointActivatedResponse
 

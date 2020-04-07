@@ -1,10 +1,6 @@
 # PH-STATUS
 
-**Created At:** 6/14/2018 2:19:39 PM  
-**Updated At:** 1/21/2020 12:09:08 AM  
-**Original Doc:** [ph-status](https://docs.jbase.com/46465-background-processing/ph-status)  
-**Original ID:** 321824  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

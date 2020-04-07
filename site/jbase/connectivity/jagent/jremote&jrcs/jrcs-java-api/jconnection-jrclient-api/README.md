@@ -1,10 +1,6 @@
 # JConnection (jrclient API)
 
-**Created At:** 9/25/2017 11:28:35 AM  
-**Updated At:** 9/20/2018 1:03:24 PM  
-**Original Doc:** [com_jbase_jrcs_jconnection](https://docs.jbase.com/jrcs/com_jbase_jrcs_jconnection)  
-**Original ID:** 278032  
-**Internal:** No  
+<PageHeader /> 
 
 ## Class JConnection
 

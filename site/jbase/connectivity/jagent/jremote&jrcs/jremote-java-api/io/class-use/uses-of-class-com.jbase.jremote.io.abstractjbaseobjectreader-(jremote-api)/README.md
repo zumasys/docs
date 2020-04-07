@@ -1,15 +1,6 @@
 # Uses of Class com.jbase.jremote.io.AbstractJBaseObjectReader (jremote API)
 
-**Created At:** 9/25/2017 11:43:11 AM  
-**Updated At:** 4/5/2018 10:23:11 PM  
-**Original Doc:** [com_jbase_jremote_io_class-use_abstractjbaseobjectreader](https://docs.jbase.com/39253-class-use/com_jbase_jremote_io_class-use_abstractjbaseobjectreader)  
-**Original ID:** 278086  
-**Internal:** No  
-
-<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.io.AbstractJBaseObjectReader (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->&lt;div&gt;JavaScript is disabled on your browser.&lt;/div&gt;
-
-
-<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+<PageHeader />
 
 ## Uses of Class
 com.jbase.jremote.io.AbstractJBaseObjectReader

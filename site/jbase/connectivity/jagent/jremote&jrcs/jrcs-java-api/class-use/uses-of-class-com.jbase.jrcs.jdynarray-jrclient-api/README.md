@@ -1,10 +1,6 @@
 # Uses of Class com.jbase.jrcs.JDynArray (jrclient   API)
 
-**Created At:** 9/25/2017 11:27:37 AM  
-**Updated At:** 12/24/2018 7:20:14 PM  
-**Original Doc:** [com_jbase_jrcs_class-use_jdynarray](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jdynarray)  
-**Original ID:** 278023  
-**Internal:** No  
+<PageHeader />
 
 ## Uses of [JDynArray](./../../jdynarray-jrclient-api "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-jrclient-api)
 

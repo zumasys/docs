@@ -1,5 +1,7 @@
 # jrcs
 
+<PageHeader />
+
 ## Topics
 
 [class-use](./class-use)  

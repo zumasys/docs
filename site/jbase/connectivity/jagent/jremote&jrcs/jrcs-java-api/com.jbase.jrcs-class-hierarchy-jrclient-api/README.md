@@ -1,10 +1,6 @@
 # com.jbase.jrcs Class Hierarchy (jrclient   API)
 
-**Created At:** 9/25/2017 11:29:49 AM  
-**Updated At:** 9/20/2018 1:05:23 PM  
-**Original Doc:** [com_jbase_jrcs_package-tree](https://docs.jbase.com/jrcs/com_jbase_jrcs_package-tree)  
-**Original ID:** 278043  
-**Internal:** No  
+<PageHeader />
 
 ## Hierarchy For Package com.jbase.jrcs
 

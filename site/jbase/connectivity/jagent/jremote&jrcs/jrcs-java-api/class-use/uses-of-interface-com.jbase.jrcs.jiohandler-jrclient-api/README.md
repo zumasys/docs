@@ -1,10 +1,6 @@
 # Uses of Interface com.jbase.jrcs.JIOHandler (jrclient   API)
 
-**Created At:** 9/25/2017 11:28:10 AM  
-**Updated At:** 9/20/2018 1:01:39 PM  
-**Original Doc:** [com_jbase_jrcs_class-use_jiohandler](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jiohandler)  
-**Original ID:** 278028  
-**Internal:** No  
+<PageHeader />
 
 ## Uses of [JIOHandler](./../../jiohandler-jrclient-api "interface in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-jrclient-api)
 

@@ -1,10 +1,6 @@
 # jcompile
 
-**Created At:** 11/1/2017 12:26:23 AM  
-**Updated At:** 11/27/2017 6:51:38 AM  
-**Original Doc:** [jbc](https://docs.jbase.com/49435-compilation/jbc)  
-**Original ID:** 283763  
-**Internal:** No  
+<PageHeader />
 
 ## Deprecated - needs to be rewriiten to refelct jcompile usage
 

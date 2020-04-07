@@ -1,10 +1,6 @@
 # MP Conversion
 
-**Created At:** 6/8/2018 1:44:05 PM  
-**Updated At:** 7/13/2018 12:57:59 PM  
-**Original Doc:** [mp-conversion](https://docs.jbase.com/46351-conversion-processing/mp-conversion)  
-**Original ID:** 321302  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

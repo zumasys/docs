@@ -1,10 +1,6 @@
 # Troubleshooting jAgent Web Server
 
-**Created At:** 5/18/2018 7:55:44 PM  
-**Updated At:** 5/19/2018 3:07:56 PM  
-**Original Doc:** [317527-troubleshooting-jagent-web-server](https://docs.jbase.com/317527-troubleshooting-jagent-web-server)  
-**Original ID:** 317527  
-**Internal:** No  
+<PageHeader />
 
 ## Overview
 

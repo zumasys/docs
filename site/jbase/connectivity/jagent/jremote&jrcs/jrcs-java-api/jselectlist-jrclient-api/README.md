@@ -1,10 +1,6 @@
 # JSelectList (jrclient   API)
 
-**Created At:** 9/25/2017 11:29:32 AM  
-**Updated At:** 9/20/2018 1:06:51 PM  
-**Original Doc:** [com_jbase_jrcs_jselectlist](https://docs.jbase.com/jrcs/com_jbase_jrcs_jselectlist)  
-**Original ID:** 278041  
-**Internal:** No  
+<PageHeader /> 
 
 ## Class JSelectList
 

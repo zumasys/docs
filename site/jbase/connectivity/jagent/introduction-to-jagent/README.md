@@ -1,10 +1,6 @@
 # Introduction TO jAGENT
 
-**Created At:** 3/10/2017 4:52:38 PM  
-**Updated At:** 12/21/2018 9:41:15 PM  
-**Original Doc:** [introduction-to-jagent](https://docs.jbase.com/30312-jagent/introduction-to-jagent)  
-**Original ID:** 229890  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jbase_agent' vertical='middle' />

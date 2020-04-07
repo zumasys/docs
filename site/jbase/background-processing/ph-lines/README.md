@@ -1,10 +1,6 @@
 # PH-LINES
 
-**Created At:** 6/14/2018 2:12:17 PM  
-**Updated At:** 7/19/2018 12:04:46 PM  
-**Original Doc:** [ph-lines](https://docs.jbase.com/46465-background-processing/ph-lines)  
-**Original ID:** 321820  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

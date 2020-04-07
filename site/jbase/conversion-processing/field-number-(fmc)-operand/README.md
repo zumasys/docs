@@ -1,10 +1,6 @@
 # Field Number (FMC) Operand
 
-**Created At:** 6/12/2018 7:58:15 AM  
-**Updated At:** 6/12/2018 2:50:10 PM  
-**Original Doc:** [321523-field-number-fmc-operand](https://docs.jbase.com/46351-conversion-processing/321523-field-number-fmc-operand)  
-**Original ID:** 321523  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

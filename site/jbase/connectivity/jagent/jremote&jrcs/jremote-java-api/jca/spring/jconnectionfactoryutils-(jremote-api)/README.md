@@ -1,15 +1,6 @@
 # JConnectionFactoryUtils (jremote API)
 
-**Created At:** 9/25/2017 12:07:54 PM  
-**Updated At:** 4/5/2018 11:46:42 PM  
-**Original Doc:** [com_jbase_jremote_jca_spring_jconnectionfactoryutils](https://docs.jbase.com/39268-spring/com_jbase_jremote_jca_spring_jconnectionfactoryutils)  
-**Original ID:** 278287  
-**Internal:** No  
-
-<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="JConnectionFactoryUtils (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":9,"i1":9,"i2":9};<br>var tabs = {65535:["t0","All Methods"],1:["t1","Static Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
-JavaScript is disabled on your browser.
-
-
+<PageHeader />
 
 ## Class JConnectionFactoryUtils
 

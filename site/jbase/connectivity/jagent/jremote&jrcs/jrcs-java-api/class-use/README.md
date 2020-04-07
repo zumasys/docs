@@ -1,5 +1,7 @@
 # class-use
 
+<PageHeader />
+
 ## Topics
 
 [uses-of-class-com.jbase.jrcs.jcapture-jrclient-api](./uses-of-class-com.jbase.jrcs.jcapture-jrclient-api)  

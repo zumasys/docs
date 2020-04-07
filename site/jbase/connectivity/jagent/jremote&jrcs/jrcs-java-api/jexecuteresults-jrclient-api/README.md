@@ -1,10 +1,6 @@
 # JExecuteResults (jrclient API)
 
-**Created At:** 9/25/2017 11:29:09 AM  
-**Updated At:** 9/20/2018 1:05:39 PM  
-**Original Doc:** [com_jbase_jrcs_jexecuteresults](https://docs.jbase.com/jrcs/com_jbase_jrcs_jexecuteresults)  
-**Original ID:** 278037  
-**Internal:** No  
+<PageHeader />
 
 ## Class JExecuteResults
 

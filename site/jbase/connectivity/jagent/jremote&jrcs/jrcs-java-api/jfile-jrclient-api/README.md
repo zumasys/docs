@@ -1,10 +1,6 @@
 # jFile (jrclient API)
 
-**Created At:** 9/25/2017 11:29:14 AM  
-**Updated At:** 9/20/2018 1:05:57 PM  
-**Original Doc:** [com_jbase_jrcs_jfile](https://docs.jbase.com/jrcs/com_jbase_jrcs_jfile)  
-**Original ID:** 278038  
-**Internal:** No  
+<PageHeader />
 
 ## Class jFile
 

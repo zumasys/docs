@@ -1,10 +1,6 @@
 # D1 D2 Conversion
 
-**Created At:** 6/8/2018 1:25:28 PM  
-**Updated At:** 7/12/2018 1:51:18 PM  
-**Original Doc:** [321290-d1-d2-conversion](https://docs.jbase.com/46351-conversion-processing/321290-d1-d2-conversion)  
-**Original ID:** 321290  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

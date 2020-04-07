@@ -1,10 +1,6 @@
 # Uses of Class com.jbase.jrcs.JCapture (jrclient   API)
 
-**Created At:** 9/25/2017 11:27:02 AM  
-**Updated At:** 9/20/2018 12:53:39 PM  
-**Original Doc:** [com_jbase_jrcs_class-use_jcapture](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jcapture)  
-**Original ID:** 278018  
-**Internal:** No  
+<PageHeader />
 
 ## Uses of [JCapture](./../../jcapture-jrclient-api "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-jrclient-api)
 

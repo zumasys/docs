@@ -1,13 +1,6 @@
 # CommitTransactionRequest (jremote API)
 
-**Created At:** 9/25/2017 12:03:38 PM  
-**Updated At:** 4/5/2018 9:53:58 PM  
-**Original Doc:** [com_jbase_jremote_protocol_committransactionrequest](https://docs.jbase.com/39270-protocol/com_jbase_jremote_protocol_committransactionrequest)  
-**Original ID:** 278254  
-**Internal:** No  
-
-<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="CommitTransactionRequest (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//--><br>var methods = {"i0":10};<br>var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};<br>var altColor = "altColor";<br>var rowColor = "rowColor";<br>var tableTab = "tableTab";<br>var activeTableTab = "activeTableTab";
-JavaScript is disabled on your browser.
+<PageHeader />
 
 ## Class CommitTransactionRequest
 All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io"), [InboundRequest](./../../jca/inflow/protocol/inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol")

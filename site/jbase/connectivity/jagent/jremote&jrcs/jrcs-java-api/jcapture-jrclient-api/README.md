@@ -1,10 +1,6 @@
 # JCapture (jrclient API)
 
-**Created At:** 9/25/2017 11:28:22 AM  
-**Updated At:** 9/20/2018 12:54:53 PM  
-**Original Doc:** [com_jbase_jrcs_jcapture](https://docs.jbase.com/jrcs/com_jbase_jrcs_jcapture)  
-**Original ID:** 278030  
-**Internal:** No  
+<PageHeader />
 
 ## Class JCapture
 

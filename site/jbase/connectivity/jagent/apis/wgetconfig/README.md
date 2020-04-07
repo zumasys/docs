@@ -1,10 +1,6 @@
 # WGETCONFIG
 
-**Created At:** 6/27/2017 7:43:55 PM  
-**Updated At:** 11/21/2017 4:30:53 AM  
-**Original Doc:** [wgetconfig](https://docs.jbase.com/34473-docs/wgetconfig)  
-**Original ID:** 261438  
-**Internal:** No  
+<PageHeader />
 
 The WGETCONFIG will retrieve items from the WDB.RESOURCE master config item.
 

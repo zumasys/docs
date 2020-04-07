@@ -1,10 +1,6 @@
 # JDefaultIOHandler (jrclient API)
 
-**Created At:** 9/25/2017 11:28:48 AM  
-**Updated At:** 9/20/2018 1:03:54 PM  
-**Original Doc:** [com_jbase_jrcs_jdefaultiohandler](https://docs.jbase.com/jrcs/com_jbase_jrcs_jdefaultiohandler)  
-**Original ID:** 278035  
-**Internal:** No  
+<PageHeader />
 
 ## Class JDefaultIOHandler
 

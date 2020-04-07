@@ -1,10 +1,6 @@
 # MT Conversion
 
-**Created At:** 6/8/2018 1:46:00 PM  
-**Updated At:** 7/13/2018 10:04:49 AM  
-**Original Doc:** [mt-conversion](https://docs.jbase.com/46351-conversion-processing/mt-conversion)  
-**Original ID:** 321304  
-**Internal:** No  
+<PageHeader /> 
 
 ## Description
 

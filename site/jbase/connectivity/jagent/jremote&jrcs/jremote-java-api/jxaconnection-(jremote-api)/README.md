@@ -1,15 +1,6 @@
 # JXAConnection (jremote API)
 
-**Created At:** 9/25/2017 12:10:24 PM  
-**Updated At:** 4/5/2018 1:12:23 AM  
-**Original Doc:** [com_jbase_jremote_jxaconnection](https://docs.jbase.com/39248-jremote/com_jbase_jremote_jxaconnection)  
-**Original ID:** 278310  
-**Internal:** No  
-
-
-JavaScript is disabled on your browser.
-
-
+<PageHeader />
 
 ## Interface JXAConnection
 

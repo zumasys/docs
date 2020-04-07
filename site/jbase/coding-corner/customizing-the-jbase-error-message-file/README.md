@@ -1,10 +1,6 @@
 # Customizing the jBASE Error Message File
 
-**Created At:** 5/14/2018 3:47:17 PM  
-**Updated At:** 5/14/2018 3:48:06 PM  
-**Original Doc:** [customizing-the-jbase-error-message-file](https://docs.jbase.com/coding-corner/customizing-the-jbase-error-message-file)  
-**Original ID:** 316864  
-**Internal:** No  
+<PageHeader />
 
 When jBASE is installed, the file "jbcinit.err" is placed in the install directory ($JBCRLEASEDIR). The installation process runs the **jmakeerr** program which creates the file "jbcmessages", also in the install directory. However, you can make a copy of "jbcinit.err" and run the **jmakeerr** command to generate error messages that your users are used to rather than changing the programs that rely on them.
 

@@ -1,10 +1,6 @@
 # WDB.RESOURCE
 
-**Created At:** 2/27/2018 9:45:59 PM  
-**Updated At:** 2/27/2018 9:47:17 PM  
-**Original Doc:** [wdbresource](https://docs.jbase.com/34473-docs/wdbresource)  
-**Original ID:** 300753  
-**Internal:** No  
+<PageHeader />
 
 ## WDB.RESOURCE record layout
 

@@ -1,12 +1,6 @@
 # Constant Field Values
 
-
-**Created At:** 2/19/2018 1:33:38 PM  
-**Updated At:** 4/5/2018 12:58:54 AM  
-**Original Doc:** [299736-constant-values](https://docs.jbase.com/39248-jremote/299736-constant-values)  
-**Original ID:** 299736  
-**Internal:** No  
-
+<PageHeader />
 
 # **com.jbase.jremote.DefaultJConnectionFactory**
 

@@ -1,10 +1,6 @@
 # Tfile Conversion
 
-**Created At:** 6/8/2018 1:49:14 PM  
-**Updated At:** 7/13/2018 1:21:29 PM  
-**Original Doc:** [tfile-conversion](https://docs.jbase.com/46351-conversion-processing/tfile-conversion)  
-**Original ID:** 321309  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

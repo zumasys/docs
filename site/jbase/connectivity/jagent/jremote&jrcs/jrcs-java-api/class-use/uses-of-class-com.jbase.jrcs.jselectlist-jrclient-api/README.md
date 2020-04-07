@@ -1,10 +1,6 @@
 # Uses of Class com.jbase.jrcs.JSelectList (jrclient   API)
 
-**Created At:** 9/25/2017 11:28:16 AM  
-**Updated At:** 9/20/2018 12:59:28 PM  
-**Original Doc:** [com_jbase_jrcs_class-use_jselectlist](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jselectlist)  
-**Original ID:** 278029  
-**Internal:** No  
+<PageHeader />
 
 ## Uses of [JSelectList](./../../jselectlist-jrclient-api "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-jrclient-api)
 

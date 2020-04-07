@@ -1,10 +1,6 @@
 # JDynArray (jrclient   API)
 
-**Created At:** 9/20/2017 7:58:52 PM  
-**Updated At:** 9/20/2018 12:54:09 PM  
-**Original Doc:** [com_jbase_jrcs_jdynarray](https://docs.jbase.com/jrcs/com_jbase_jrcs_jdynarray)  
-**Original ID:** 277506  
-**Internal:** No  
+<PageHeader />
 
 ## Class JDynArray
 

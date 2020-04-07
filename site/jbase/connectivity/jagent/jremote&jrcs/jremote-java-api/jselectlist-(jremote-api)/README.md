@@ -1,15 +1,6 @@
 # JSelectList (jremote API)
 
-**Created At:** 9/25/2017 12:10:01 PM  
-**Updated At:** 12/24/2018 8:05:09 PM  
-**Original Doc:** [com_jbase_jremote_jselectlist](https://docs.jbase.com/39248-jremote/com_jbase_jremote_jselectlist)  
-**Original ID:** 278306  
-**Internal:** No  
-
-
-JavaScript is disabled on your browser.
-
-
+<PageHeader />
 
 ## Interface JSelectList
 

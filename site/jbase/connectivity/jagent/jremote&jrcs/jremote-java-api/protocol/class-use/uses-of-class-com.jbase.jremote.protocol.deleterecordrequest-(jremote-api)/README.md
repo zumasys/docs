@@ -1,17 +1,6 @@
 # Uses of Class com.jbase.jremote.protocol.DeleteRecordRequest (jremote API)
 
-**Created At:** 9/25/2017 12:13:01 PM  
-**Updated At:** 4/5/2018 11:14:12 PM  
-**Original Doc:** [com_jbase_jremote_protocol_class-use_deleterecordrequest](https://docs.jbase.com/39271-class-use/com_jbase_jremote_protocol_class-use_deleterecordrequest)  
-**Original ID:** 278333  
-**Internal:** No  
-
-<!--<br>    try {<br>        if (location.href.indexOf('is-external=true') == -1) {<br>            parent.document.title="Uses of Class com.jbase.jremote.protocol.DeleteRecordRequest (jremote   API)";<br>        }<br>    }<br>    catch(err) {<br>    }<br>//-->
-JavaScript is disabled on your browser.
-
-
-
-<!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_top");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
+<PageHeader />
 
 ## Uses of Class
 com.jbase.jremote.protocol.DeleteRecordRequest

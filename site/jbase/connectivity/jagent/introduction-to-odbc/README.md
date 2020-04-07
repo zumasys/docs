@@ -1,10 +1,6 @@
 # Introduction to ODBC
 
-**Created At:** 4/12/2017 9:21:51 PM  
-**Updated At:** 1/15/2020 11:21:59 PM  
-**Original Doc:** [251010-introduction-to-odbc](https://docs.jbase.com/30312-jagent/251010-introduction-to-odbc)  
-**Original ID:** 251010  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='sql' vertical='middle' />

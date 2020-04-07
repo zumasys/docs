@@ -1,10 +1,6 @@
 # Uses of Class com.jbase.jrcs.JExecuteResults (jrclient   API)
 
-**Created At:** 9/25/2017 11:27:51 AM  
-**Updated At:** 9/20/2018 12:59:16 PM  
-**Original Doc:** [com_jbase_jrcs_class-use_jexecuteresults](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jexecuteresults)  
-**Original ID:** 278025  
-**Internal:** No  
+<PageHeader />
 
 ## Uses of [JExecuteResults](./../../jexecuteresults-jrclient-api "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-jrclient-api)
 

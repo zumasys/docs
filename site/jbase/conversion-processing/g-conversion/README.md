@@ -1,10 +1,6 @@
 # G Conversion
 
-**Created At:** 6/8/2018 1:26:40 PM  
-**Updated At:** 7/13/2018 11:41:58 AM  
-**Original Doc:** [g-conversion](https://docs.jbase.com/46351-conversion-processing/g-conversion)  
-**Original ID:** 321292  
-**Internal:** No  
+<PageHeader /> 
 
 ## Description
 

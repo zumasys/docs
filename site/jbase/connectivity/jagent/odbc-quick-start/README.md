@@ -1,10 +1,6 @@
 # ODBC Quick Start
 
-**Created At:** 12/15/2017 5:50:10 PM  
-**Updated At:** 4/22/2019 5:30:52 PM  
-**Original Doc:** [291428-odbc-quick-start](https://docs.jbase.com/30312-jagent/291428-odbc-quick-start)  
-**Original ID:** 291428  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='sql' vertical='middle' />

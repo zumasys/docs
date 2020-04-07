@@ -1,10 +1,6 @@
 # jAgent RESTful Services Quick Start
 
-**Created At:** 8/29/2018 1:44:36 AM  
-**Updated At:** 10/22/2019 3:42:32 PM  
-**Original Doc:** [336524-jagent-quick-start](https://docs.jbase.com/30312-jagent/336524-jagent-quick-start)  
-**Original ID:** 336524  
-**Internal:** No  
+<PageHeader />
 
 ## Introduction
 

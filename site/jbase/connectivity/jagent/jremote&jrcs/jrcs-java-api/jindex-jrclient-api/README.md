@@ -1,10 +1,6 @@
 # jIndex (jrclient API)
 
-**Created At:** 9/25/2017 11:29:21 AM  
-**Updated At:** 9/20/2018 1:06:14 PM  
-**Original Doc:** [com_jbase_jrcs_jindex](https://docs.jbase.com/jrcs/com_jbase_jrcs_jindex)  
-**Original ID:** 278039  
-**Internal:** No  
+<PageHeader />
 
 ## Class jIndex
 

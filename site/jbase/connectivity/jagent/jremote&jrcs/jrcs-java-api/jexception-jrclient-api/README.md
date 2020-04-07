@@ -1,10 +1,6 @@
 # JException (jrclient API)
 
-**Created At:** 9/25/2017 11:29:01 AM  
-**Updated At:** 9/20/2018 1:04:26 PM  
-**Original Doc:** [com_jbase_jrcs_jexception](https://docs.jbase.com/jrcs/com_jbase_jrcs_jexception)  
-**Original ID:** 278036  
-**Internal:** No  
+<PageHeader />
 
 ## Class JException
 

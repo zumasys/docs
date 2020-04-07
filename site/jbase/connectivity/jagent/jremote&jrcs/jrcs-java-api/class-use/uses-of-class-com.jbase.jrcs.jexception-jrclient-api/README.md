@@ -1,10 +1,6 @@
 # Uses of Class com.jbase.jrcs.JException (jrclient API)
 
-**Created At:** 9/25/2017 11:27:44 AM  
-**Updated At:** 12/24/2018 7:11:02 PM  
-**Original Doc:** [com_jbase_jrcs_class-use_jexception](https://docs.jbase.com/39245-class-use/com_jbase_jrcs_class-use_jexception)  
-**Original ID:** 278024  
-**Internal:** No  
+<PageHeader />
 
 ## Uses of [JException](./../../jexception-jrclient-api "class in com.jbase.jrcs") in [com.jbase.jrcs](./../../com.jbase.jrcs-jrclient-api)
 

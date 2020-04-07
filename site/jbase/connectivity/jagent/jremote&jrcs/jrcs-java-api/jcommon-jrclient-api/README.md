@@ -1,10 +1,6 @@
 # JCommon (jrclient API)
 
-**Created At:** 9/25/2017 11:28:29 AM  
-**Updated At:** 9/20/2018 1:03:05 PM  
-**Original Doc:** [com_jbase_jrcs_jcommon](https://docs.jbase.com/jrcs/com_jbase_jrcs_jcommon)  
-**Original ID:** 278031  
-**Internal:** No  
+<PageHeader />
 
 ## Class JCommon
 
