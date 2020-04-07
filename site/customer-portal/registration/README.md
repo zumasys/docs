@@ -2,12 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 10/18/2017 9:16:46 PM  
-**Updated At:** 8/17/2019 12:30:26 AM  
-**Original Doc:** [quick-start](https://docs.zumasys.com/customerportal/quick-start)  
-**Original ID:** 281590  
-**Internal:** No  
-
 Proceed to [https://portal.zumasys.com](https://portal.zumasys.com) and select the link to Sign up now.
 
 ![quick-start: 1548184946418-1548184946418](./1548184946418-1548184946418.png)

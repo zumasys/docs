@@ -2,12 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 11/19/2019 6:47:13 PM  
-**Updated At:** 11/25/2019 8:53:12 PM  
-**Original Doc:** [customer-portal-customer-management](https://docs.zumasys.com/customerportal/customer-portal-customer-management)  
-**Original ID:** 495874  
-**Internal:** No  
-
 **Tags:**
 <badge text='customer' vertical='middle' />
 <badge text='reseller' vertical='middle' />
