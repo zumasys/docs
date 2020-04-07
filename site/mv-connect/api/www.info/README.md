@@ -2,17 +2,7 @@
 
 <PageHeader />
 
-**Created At:** 6/27/2017 8:08:14 PM  
-**Updated At:** 11/25/2017 10:58:35 AM  
-**Original Doc:** [wwwinfo](https://docs.zumasys.com/36566-mv-connect-api/wwwinfo)  
-**Original ID:** 261449  
-**Internal:** No  
-
-
 WWW.INFO is a common variable that stores all the web information.  It is not recommended you directly access the common due to platform/emulation issues.  Instead you can use the WGETINFO function to gain access to any of the commons
-
-
-
 
 | <!----> | <!----> | <!----> |
 | --- | --- | --- |

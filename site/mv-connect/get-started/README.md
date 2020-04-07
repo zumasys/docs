@@ -2,12 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 6/20/2017 4:12:39 PM  
-**Updated At:** 11/23/2019 12:41:42 AM  
-**Original Doc:** [get-started-with-mv-connect](https://docs.zumasys.com/36307-mv-connect/get-started-with-mv-connect)  
-**Original ID:** 260514  
-**Internal:** No
-
 <iframe src="//www.youtube.com/embed/7Nu7cRn4Wc4?wmode=opaque" allowfullscreen="" frameborder="0" height="360" width="640" class="fr-draggable"></iframe>
 
 ## Introduction

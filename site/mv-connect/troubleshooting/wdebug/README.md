@@ -2,12 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 5/20/2018 9:05:17 PM  
-**Updated At:** 6/5/2018 6:35:56 PM  
-**Original Doc:** [317564-troubleshooting-with-wdebug](https://docs.zumasys.com/45719-troubleshooting/317564-troubleshooting-with-wdebug)  
-**Original ID:** 317564  
-**Internal:** No  
-
 ## Description
 
 Once you have verified that MVConnect is successfully responding and is able to call WRESTTEST you are ready to start writing your first Web Service.  Because web functions all run in the background and not in a terminal it is often difficult to troubleshoot what is going on.  All MVConnect programs are executable programs (not subroutines) and can actually be ran directly from TCL.  The issue becomes passing in information from the client.  To assist with this MVConnect has a program called WDEBUG that allows you to save and re-play any web calls.

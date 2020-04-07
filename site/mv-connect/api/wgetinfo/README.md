@@ -2,13 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 6/27/2017 8:07:14 PM  
-**Updated At:** 11/25/2017 10:58:30 AM  
-**Original Doc:** [wgetinfo](https://docs.zumasys.com/36566-mv-connect-api/wgetinfo)  
-**Original ID:** 261448  
-**Internal:** No  
-
-
 The WGETINFO subroutine allows you return directly information from WWW.INFO common.
 
 #### **COMMAND SYNTAX**

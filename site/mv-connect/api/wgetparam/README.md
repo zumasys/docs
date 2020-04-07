@@ -2,13 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 6/24/2017 1:02:28 AM  
-**Updated At:** 11/21/2017 3:24:58 AM  
-**Original Doc:** [wgetparam](https://docs.zumasys.com/36566-mv-connect-api/wgetparam)  
-**Original ID:** 260980  
-**Internal:** No  
-
-
 The WSETPARAM subroutine will retrieve additional URI parameters.
 
 #### **COMMAND SYNTAX**

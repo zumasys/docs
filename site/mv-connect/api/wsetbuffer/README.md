@@ -2,13 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 12/21/2017 10:06:57 PM  
-**Updated At:** 2/9/2018 10:08:16 PM  
-**Original Doc:** [292109-wsetbuffer](https://docs.zumasys.com/36566-mv-connect-api/292109-wsetbuffer)  
-**Original ID:** 292109  
-**Internal:** No  
-
-
 The WSETBUFFER subroutine enables or disables buffering of content passed to the WSEND subroutine. It accepts a single argument, specifying the buffer size in characters, or zero to disable buffering. Buffering may improve performance, and also may aid in producing cleaner output, especially if your handler displays spurious error or warning messages. Be sure to specify a buffer size sufficient for the content created by your handler. Otherwise, when the buffer exceeds the buffer size, all headers and buffered content are sent to the client, and further buffering is disabled.
 
 When buffering is enabled, all content passed to WSEND is buffered. A final call to WFLUSH is used to send the complete response to the client, including all the headers and buffered content. The first header sent by WSEND, Content-Type, indicates the beginning of the response, so any error or warning messages generated before the call to WFLUSH are discarded when buffering is enabled.
