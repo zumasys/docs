@@ -25,10 +25,10 @@ If neither **variable2** nor **listnum** is specified then the default list vari
 An example of use is as:
 
 ```
-ARR_VAR = "key3" : @AM : "key4" : @AM : "key5"
-FORMLIST ARR_VAR TO LIST_VAR
+arr_Var = "key3" : @AM : "key4" : @AM : "key5"
+FORMLIST arr_Var TO list_Var
 LOOP
-    READNEXT Key FROM LIST_VAR ELSE EXIT
+    READNEXT Key FROM list_Var ELSE EXIT
     READ Item FROM Key THEN
         * Do whatever processing is necessary on Item
     END

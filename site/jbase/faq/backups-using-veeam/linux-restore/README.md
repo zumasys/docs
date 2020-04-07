@@ -36,7 +36,7 @@ For audit purposes, enter the reason for the restore. It is also possible to ele
 
 ![Linux_Restore_8](./linux_restore_8.png)
 
-In order to be able to achieve a file level restore an Esxi server needs to be available as a File Level Restore (FLR) helper appliance:
+In order to be able to achieve a file level restore an ESXi server needs to be available as a File Level Restore (FLR) helper appliance:
 
 ![Linux_Restore_9](./linux_restore_9.png)
 
@@ -63,7 +63,5 @@ In progress:
 or to restore to the original VM with either "Keep" or "Overwrite"  option, which, as with the Windows version seems to be a slow and error prone process:
 
 ![Linux_Restore_15](./linux_restore_15.png)
-
-## To be completed
 
 Back to [Veeam](./../README.md)

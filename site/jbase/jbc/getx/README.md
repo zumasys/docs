@@ -28,9 +28,9 @@ Where:
 
 > The **GETX** statement does no pre or post processing of the input data stream nor does it handle any terminal echo characteristics. It is assumed that if this is desired the application - or device driver – will handle it.
 
-If there are no specified length and timeout expressions, the default input length is one (1) character. If there is no length specified, but TermChars is specified, there is no limit to the number of characters input.
+If there are no specified **length** and **Timeout** expressions, the default input length is one (1) character. If there is no **length** specified, but **TermChars** is specified, there is no limit to the number of characters input.
 
-The **GETX** syntax requires a specified THEN or ELSE clause, or both. The THEN clause executes when the data received is error free; the ELSE clause executes when the data is unreceiveable (or a timeout occurs).
+The **GETX** syntax requires a specified **THEN** or **ELSE** clause, or both. The **THEN** clause executes when the data received is error free; the **ELSE** clause executes when the data is unreceiveable (or a timeout occurs).
 
 **GETX** will convert all input into ASCII hexadecimal format after input.
 

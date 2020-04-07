@@ -23,6 +23,24 @@ If the element evaluates to false, it returns the corresponding element from **f
 
 If there is no corresponding element in the correct response array, it returns an empty string for that element. If an element is null, that element evaluates to false.
 
-Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)
+An example of usage is:
+
+```
+dyn_A = 1  : @VM : 0  : @VM : 1  : @VM : 1  : @VM : 1  : @VM : 0
+dyn_B = 11 : @VM : 22 : @VM : 33 : @VM : 44 : @VM : 55 : @VM : 66 : @VM : 77
+dyn_C = 99 : @VM : 88 : @VM : 77 : @VM : 55 : @VM : 66 : @VM : 44 : @VM : 33
+
+dyn_D = IFS(dyn_A, dyn_B, dyn_C)
+
+CRT OCONV(dyn_D, "MCP")
+```
+
+will display the following:
+
+```
+11]88]33]44]55]44
+```
+
+Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

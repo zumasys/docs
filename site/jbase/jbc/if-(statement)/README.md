@@ -36,24 +36,24 @@ Where:
 The simplest form of either clause is of the form:
 
 ```
-IF A THEN CRT A
+IF varA THEN CRT varA
 ```
 
 or
 
 ```
-IF A ELSE CRT A
+IF varA ELSE CRT varA
 ```
 
 However, the **END** keyword may be used to expand the clauses to enclose multiple lines of code as so:
 
 ```
-IF A THEN
-    A = A * 6
-    CRT A
+IF varA THEN
+    varA = varA * 6
+    CRT varA
 END ELSE
-    A = 76
-    CRT A
+    varA = 76
+    CRT varA
 END
 ```
 

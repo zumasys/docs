@@ -123,8 +123,8 @@ U847F     Last error number from statement executed in Proc.
 
 U0DBF     Encrypt a string.
 
-U0FF0     Convert raw unix Coordinated Universal Time into local internal format time.
+U0FF0     Convert raw UNIX Coordinated Universal Time into local internal format time.
 
-U0FF1     Convert raw unix Coordinated Universal Time into local internal format date.
+U0FF1     Convert raw UNIX Coordinated Universal Time into local internal format date.
 
 Back to [Conversion Processing](./../conversion-processing)

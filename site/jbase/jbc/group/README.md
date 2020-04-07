@@ -31,8 +31,8 @@ Where:
 An example of use is as:
 
 ```
-A = "123:-456:-789:-987:-"
-CRT GROUP(A, ":-", 2, 2)
+num_List = "123:-456:-789:-987:-"
+CRT GROUP(num_List, ":-", 2, 2)
 ```
 
 to display:
@@ -41,7 +41,7 @@ to display:
 -456:-789
 ```
 
-on the terminal being the second and third fields and their delimiter within variable A .
+on the terminal, being the second and third fields and their delimiter within variable num_List .
 
 Go back to [jBASE BASIC](./../README.md)
 

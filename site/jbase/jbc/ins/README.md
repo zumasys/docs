@@ -31,18 +31,17 @@ Where:
 An example of use is as:
 
 ```
-ARR_VAL =" "
-FOR I = 1 TO 5
-    INS I BEFORE VAL<1>
+Values = ''
+FOR index = 1 TO 50
+    INS index BEFORE Values<-1>
 NEXT I
 ```
 
 or
 
 ```
-ARR_VAL2 =" "
-FOR I = 2 TO 8
-    INS I*7 BEFORE ARR_VAL2<7,I>
+FOR index = 2 TO 12
+    INS index * 7 BEFORE Values<7, index>
 NEXT I
 ```
 

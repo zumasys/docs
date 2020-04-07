@@ -35,7 +35,9 @@ CRT InternalDate
 
 The above should display the date in internal format.
 
-See also: [OCONV](./../oconv).
+See also: [OCONV](./../oconv/README.md)
+
+See also: [Conversion Processing](./../../conversion-processing/README.md)
 
 Go back to [jBASE BASIC](./../README.md)
 
