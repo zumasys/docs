@@ -1,5 +1,7 @@
 # curlUseFile
 
+<PageHeader />
+
 Tells the curl operation to read or write (depending on the command/direction) directly to the given file name.
 
 ## Synax:

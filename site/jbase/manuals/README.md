@@ -1,5 +1,7 @@
 # jBASE Version Manuals
 
+<PageHeader />
+
 ## Topics
 
 [jBASE 5.6 Manual](./../manuals/jbase-5.6-manual/README.md)

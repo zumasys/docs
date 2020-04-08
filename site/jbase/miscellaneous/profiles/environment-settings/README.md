@@ -1,10 +1,6 @@
 # Environment Settings
 
-**Created At:** 4/5/2018 5:09:19 PM  
-**Updated At:** 4/5/2018 5:13:14 PM  
-**Original Doc:** [environment-settings](https://docs.jbase.com/44253-profiles/environment-settings)  
-**Original ID:** 306598  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

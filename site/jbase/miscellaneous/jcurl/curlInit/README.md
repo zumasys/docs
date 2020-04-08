@@ -1,5 +1,7 @@
 # curlInit
 
+<PageHeader />
+
 Create a [jCURL](../jcurl) handle for subsequent use.
 
 ## Synax:

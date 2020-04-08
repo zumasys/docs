@@ -1,5 +1,7 @@
 # curlClose
 
+<PageHeader />
+
 Closes the designated ***curlHandle***, freeing its resources (and disconnecting any host connections).
 
 ## Synax:

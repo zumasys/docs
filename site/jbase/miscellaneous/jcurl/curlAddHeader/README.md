@@ -1,5 +1,7 @@
 # curlAddHeader
 
+<PageHeader />
+
 Add a header to a given ***curlHandle*** for subsequent execution ([curlExec](../curlExec/#heading)).
 
 ## Synax:

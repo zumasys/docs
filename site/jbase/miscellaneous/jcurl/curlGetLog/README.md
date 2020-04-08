@@ -1,5 +1,7 @@
 # curlGetLog
 
+<PageHeader />
+
 Gets the current log (text) and resets it in preparation for subsequent jCURL operations.
 
 ## Synax:

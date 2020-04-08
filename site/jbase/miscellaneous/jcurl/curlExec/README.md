@@ -1,5 +1,7 @@
 # curlExec
 
+<PageHeader />
+
 Executes the current curl request and returns a ***result*** and ***header(s)***.
 ## Synax:
 

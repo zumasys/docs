@@ -1,10 +1,6 @@
 # Additional Utilities
 
-**Created At:** 4/5/2018 5:20:54 PM  
-**Updated At:** 4/5/2018 5:40:58 PM  
-**Original Doc:** [additional-utilities](https://docs.jbase.com/44253-profiles/additional-utilities)  
-**Original ID:** 306601  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

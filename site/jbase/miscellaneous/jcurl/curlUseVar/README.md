@@ -1,5 +1,7 @@
 # curlUseVar
 
+<PageHeader />
+
 Similar to [curlUseFile](../curlUseFile/#heading) this function sets the post body to the content of ***var***.
 
 ## Synax:

@@ -1,5 +1,7 @@
 # Miscellaneous Items
 
+<PageHeader />
+
 [Introduction to Audit Logging](./introduction-to-audit-logging/README.md)  
 [Introduction to Distributed Locking](./introduction-to-distributed-locking/README.md)  
 [jBASE Fundamentals](./jbase-fundamentals/README.md)  

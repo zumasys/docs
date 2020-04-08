@@ -1,11 +1,6 @@
 # JSON SECTIONS
 
-
-**Created At:** 4/5/2018 4:55:54 PM  
-**Updated At:** 4/5/2018 5:01:23 PM  
-**Original Doc:** [json-sections](https://docs.jbase.com/44253-profiles/json-sections)  
-**Original ID:** 306594  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

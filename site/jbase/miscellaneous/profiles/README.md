@@ -1,5 +1,7 @@
 # Profiles
 
+<PageHeader />
+
 ## Topics
 
 [additional-utilities](./additional-utilities)  

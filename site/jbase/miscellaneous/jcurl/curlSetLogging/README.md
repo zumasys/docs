@@ -1,5 +1,7 @@
 # curlSetLogging
 
+<PageHeader />
+
 Turn on/off logging for the given ***curlHandle***.
 
 ## Synax:

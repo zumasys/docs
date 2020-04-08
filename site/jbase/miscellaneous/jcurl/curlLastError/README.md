@@ -1,5 +1,7 @@
 # curlLastError
 
+<PageHeader />
+
 Get the last exception/error incurred by a jCURL API call.
 
 ## Synax:

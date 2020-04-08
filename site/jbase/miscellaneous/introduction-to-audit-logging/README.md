@@ -1,10 +1,6 @@
 # Introduction to Audit Logging
 
-**Created At:** 3/10/2017 5:00:10 PM  
-**Updated At:** 12/21/2018 10:57:00 PM  
-**Original Doc:** [introduction-to-audit-logging](https://docs.jbase.com/30301-jbase/introduction-to-audit-logging)  
-**Original ID:** 229894  
-**Internal:** No  
+<PageHeader />
 
 ## Document Scope
 

@@ -1,5 +1,7 @@
 # curlUseMemory
 
+<PageHeader />
+
 This function is typically used to reset the ***curlHandle*** if [curlUseFile](../curlUseFile#heading) was previously used.
 
 ## Synax:

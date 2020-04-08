@@ -1,5 +1,7 @@
 # addRequestParameter
 
+<PageHeader />
+
 **Tags:**
 <badge text='curl' vertical='middle' />
 <badge text='http' vertical='middle' />

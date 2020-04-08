@@ -1,10 +1,6 @@
 # jBASE 5.6 MANUAL
 
-**Created At:** 6/9/2017 5:39:05 PM  
-**Updated At:** 2/22/2019 5:52:43 PM  
-**Original Doc:** [jbase-56-manual](https://docs.jbase.com/release-notes/jbase-56-manual)  
-**Original ID:** 258538  
-**Internal:** No  
+<PageHeader />
 
 Welcome to jBASE!  jBASE is a dynamic, high-performance and flexible NoSQL database that gives you the freedom to design your applications around your business needs, not the capabilities of your database.  The Manual introduces key concepts in jBASE, presents the programming and query language, and provides operational and administrative considerations and procedures.
 

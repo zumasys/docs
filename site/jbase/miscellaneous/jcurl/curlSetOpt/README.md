@@ -1,5 +1,7 @@
 # curlSetOpt
 
+<PageHeader />
+
 Set a specific libcurl option for the current ***curlHandle***.
 
 ## Synax:
