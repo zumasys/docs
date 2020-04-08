@@ -27,10 +27,10 @@ The output is in free style text format.
 The function is called as:
 
 ```
-FILE.NAME = "jBASE_DUMP_" : TIME() : "_" : DATE() : "_" : SYSTEM(18)
-CRT "Please send the file " : FILE.NAME : " to jBASE support"
-OUT.FILE = JBASECOREDUMP("" , 0 )
-OUT.FILE2 = JBASECOREDUMP(FILE.NAME, 0)
+file.Name = "jBASE_DUMP_" : TIME() : "_" : DATE() : "_" : SYSTEM(18)
+CRT "Please send the file " : file.Name : " to jBASE support"
+out.File = JBASECOREDUMP("" , 0 )
+out.File2 = JBASECOREDUMP(file.Name, 0)
 EXIT(99)
 ```
 

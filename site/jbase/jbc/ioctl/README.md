@@ -32,14 +32,14 @@ As with the C function, the use of **IOCTL()** is highly dependent upon the data
 First, an example of a program that opens a file and finds the type of file:
 
 ```
-     INCLUDE JBC.h
-     OPEN "MD" TO DSCB ELSE STOP 201,"MD"
-     status=""
-     IF IOCTL(DSCB,JIOCTL_COMMAND_FILESTATUS,status) THEN
-         CRT "Type of file = ": DQUOTE(status<1>)
-     END ELSE
-         CRT "IOCTL FAILED !! unknown file type"
-     END
+    INCLUDE JBC.h
+    OPEN "MD" TO DSCB ELSE STOP 201,"MD"
+    status=""
+    IF IOCTL(DSCB,JIOCTL_COMMAND_FILESTATUS,status) THEN
+        CRT "Type of file = " : DQUOTE(status<1>)
+    END ELSE
+        CRT "IOCTL Failed !! unknown file type"
+    END
 ```
 
 If the **ELSE** clause is taken, it does not necessarily mean there is an error, it only means that the database driver for file "MD" does not support the command that was requested from it. The JBC.h file is supplied with jBASE in $JBCRELEASEDIR/include directory. If the source is compiled with the **jcompile** or **BASIC** command, this directory is automatically included in the search path and no special action is needed by the programmer for the **INCLUDE JBC.h** statement.
@@ -60,7 +60,7 @@ IF IOCTL(DSCB,JBC_COMMAND_GETFILENAME,filename) ELSE
     CRT "IOCTL failed !!"
     EXIT(2)
 END
-CRT "Full file path = ":DQUOTE(filename)
+CRT "Full file path = " : DQUOTE(filename)
 ```
 
 This command is executed by the jBASE BASIC library code rather than the jEDI library code or the database drivers, so it can be run against a file descriptor for any file type.
@@ -83,12 +83,12 @@ Consider the following code:
 
 ```
 INCLUDE JBC.h
-OPEN "MD" TO FILEVAR1 ELSE ...
-OPEN "MD" TO FILEVAR2 ELSE ...
-IF IOCTL(FILEVAR1,JIOCTL_COMMAND_CONVERT,"RB") ...
+OPEN "MD" TO fileVar1 ELSE ...
+OPEN "MD" TO fileVar2 ELSE ...
+IF IOCTL(fileVar1,JIOCTL_COMMAND_CONVERT, "RB") ...
 ```
 
-In the above example, any future file operations using variable **FILEVAR1** will be controlled by the change forced in the **IOCTL()** request. Any file operations using variable **FILEVAR2** will not be affected and will use the default file operation.
+In the above example, any future file operations using variable **fileVar1** will be controlled by the change forced in the **IOCTL()** request. Any file operations using variable **fileVar2** will not be affected and will use the default file operation.
 
 Input to the **IOCTL()** is a string of controls delimited by a comma that tell the database driver what to do.
 
@@ -117,7 +117,7 @@ In the example below, the application wants to open a file, and to ensure that a
 INCLUDE JBC.h
 OPEN "FILE" TO DSCB ELSE STOP 201,"FILE"
 IF IOCTL(DSCB,JIOCTL_COMMAND_CONVERT,"RB,WB") ELSE
-    CRT "UNABLE TO IOCTL FILE 'FILE'" ; EXIT(2)
+    CRT "Unable to IOCTL file 'FILE'" ; EXIT(2)
 END
 ```
 
@@ -129,7 +129,7 @@ OPEN "." TO DSCB ELSE STOP 201,"."
 READ rec FROM DSCB,"prog.o" ELSE STOP 202,"prog.o"
 status = "RS"
 IF IOCTL(DSCB,JIOCTL_COMMAND_CONVERT,status) THEN
-    IF status EQ "T" THEN CRT "TEXT" ELSE CRT "BINARY"
+    IF status EQ "T" THEN CRT "Text" ELSE CRT "Binary"
 END ELSE
     CRT "The IOCTL failed !!"
 END
@@ -267,15 +267,15 @@ LOOP WHILE READNEXT record.key DO
 *
 * Display the information.
 *
-    CRT "Record key ":record.key:" last updated at ":
-    CRT OCONV(record.time,"MTS"):" ":
+    CRT "Record key " : record.key : " last updated at " :
+    CRT OCONV(record.time,"MTS") : " " :
     CRT OCONV(record.date,"D4")
 REPEAT
 ```
 
 ## 6.**JIOCT**L\_COMMAND\_HASH\_RECORD COMMAND
 
-For jBASE hashed files, j4 and jPlus, each record is pseudo-randomly written to one of the buckets (or groups) of the hashed file. The actual bucket it is written to depends upon two factors:
+For jBASE hashed files, j4, jPlus, each record is pseudo-randomly written to one of the buckets (or groups) of the hashed file. The actual bucket it is written to depends upon two factors:
 
 - The actual record key (or item-id)
 - The number of buckets in the file (or modulo)
@@ -298,7 +298,7 @@ OPEN "WEDDING-PRESENTS" TO DSCB ELSE STOP
 key = "PIPE&SLIPPER"
 parm = key
 IF IOCTL(DSCB,JIOCTL_COMMAND_HASH_RECORD,parm) THEN
-    CRT "key ":key:" would be in bucket ":parm<2>
+    CRT "key " : key : " would be in bucket " : parm<2>
 END ELSE
     CRT "IOCTL failed, command not supported"
 END

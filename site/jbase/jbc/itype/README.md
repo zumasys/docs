@@ -20,66 +20,86 @@ Where:
 
 [comment]: <> (The Idescriptor must be compiled before the **ITYPE** function uses it; otherwise, a run-time error message results.)
 
-Using several methods set the I.type to the evaluated I-descriptor in several ways. One way is to read the I-descriptor from a file dictionary into a variable, then use the variable as the argument to the **ITYPE** function. If the I-descriptor references a record ID, the current value of the system variable @ID is used. If the I-descriptor, references field values in a data record, the data is taken from the current value of the system variable @RECORD.
+Using one of several methods, set **i.type** to the evaluated I-descriptor.  
+One way is to read the I-descriptor from a file dictionary into a variable, then use the variable as the argument to the **ITYPE** function.  
+If the I-descriptor references a record ID, the current value of the system variable **@ID** is used.  
+If the I-descriptor references field values in a data record, the data is taken from the current value of the system variable **@RECORD**.
 
-To assign field values to @RECORD, read a record from the data file into @RECORD before invoking the ITYPE function.
+To assign field values to **@RECORD**, read a record from the data file into **@RECORD** before invoking the ITYPE function.
 
 If **i.type** evaluates to null, the **ITYPE** function fails and the program terminates with a run-time error message.
 
 ## Note
 
-> Set the @FILENAME to the name of the file before **ITYPE** execution.
+> Set **@FILENAME** to the name of the file before **ITYPE** execution.
 
 ## Example
 
-This is the SLIPPER file content:
+Here is a complete example:
 
 ```
-Jim Greg Alan
-001 8 001 10 001 5
-```
-
-This is the DICT SLIPPER content:
-
-Item "SIZE"
-
-```
-D
-1
-
-
-10L
-L
-```
-
-This is the program source code:
-
-```
-OPEN 'SLIPPERS' TO FILE ELSE STOP
-OPEN 'DICT','SLIPPERS' TO D.FILE ELSE STOP
-200
 *
-READ ITYPEDESC FROM D.FILE, 'SIZE' ELSE STOP
+* Tear-down and set-up
 *
-EXECUTE 'SELECT SLIPPERS'
-@FILENAME = “SLIPPERS”
-LOOP
-READNEXT @ID DO
+    fileName = 'WORK'
+    EXECUTE "DELETE-FILE " : fileName
+    EXECUTE "CREATE-FILE " : fileName   ;* Assume Type = jD
+    OPEN fileName TO f.Name ELSE ABORT 201, fileName
+    OPEN "DICT", fileName TO d.Name ELSE ABORT 201, "DICT " : fileName
+* DICT item for attribute 1
+    dictRec = ""
+    dictRec<1> = "D"
+    dictRec<2> = "1"
+    dictRec<5> = "25L"
+    dictRec<6> = "S"
+    WRITE dictRec ON d.Name, 'Footwear'
 *
-READ @RECORD FROM FILE, @ID THEN
+* DICT item for I-descriptor
+    dictDesc = "Description"
+    dictRec = ""
+    dictRec<1> = "I"
+    dictRec<2> = "Footwear[@VM, 1, 1] : ', size ' : Footwear[@VM, 2, 1]"
+    dictRec<4> = dictDesc
+    dictRec<5> = "25T"
+    dictRec<6> = "S"
+    WRITE dictRec ON d.Name, dictDesc
 *
-CRT @ID: "Wears slipper, size " ITYPE(ITYPEDESC)
+* Data items
+    dataRec = ""
+    dataRec<1> = "slippers" : @VM : "8"
+    WRITE dataRec ON f.Name, 'Jim'
+    dataRec = ""
+    dataRec<1> = "boots" : @VM : "10"
+    WRITE dataRec ON f.Name, "Greg"
+    dataRec = ""
+    dataRec<1> = "slippers" : @VM : "5"
+    WRITE dataRec ON f.Name, "Alan"
+*
+* Set-up is complete, now to process the data
+*
+    @FILENAME = fileName
+    READ itypeRec FROM d.Name, dictDesc ELSE ABORT 202, "DICT " : fileName : ", " : dictDesc
+*
+    SSELECT f.Name TO footwearList
+    LOOP
+        READNEXT itemID FROM footwearList ELSE BREAK
+        @ID = itemID
+        READ @RECORD FROM f.Name, @ID ELSE ABORT 202, fileName : ", " : itemID
+        itypeResult = ITYPE(itypeRec)
+        CRT @ID : " wears " : itypeResult
+    REPEAT
+*
 END
-REPEAT
 ```
 
 The output of this program is:
 
 ```
-3 records selected
-Jim wears slipper, size 8
-Greg wears slippers, size 10
+[ 417 ] File WORK]D created , type = JD
+[ 417 ] File WORK created , type = JD
 Alan wears slippers, size 5
+Greg wears boots, size 10
+Jim wears slippers, size 8
 ```
 
 Go back to [jBASE BASIC](./../README.md)

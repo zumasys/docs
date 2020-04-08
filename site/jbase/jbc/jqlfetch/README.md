@@ -31,7 +31,7 @@ Where:
 
 Applies Attribute 7 Conversions (or attribute 3 in Prime-style DICTS) to the data
 
-If the property STMT\_PROPERTY\_FORMAT is set then each attribute is also formatted according to the width and justification of the attribute definition and any override caused by the use of [FMT](./../fmt), of DISPLAY.LIKE on the command line.
+If the property STMT\_PROPERTY\_FORMAT is set then each attribute is also formatted according to the width and justification of the attribute definition and any override caused by the use of [FMT](./../fmt), or DISPLAY.LIKE on the command line.
 
 ## Note
 

@@ -16,7 +16,7 @@ JQLGETPROPERTY(PropertyValue, Statement, Column, PropertyName)
 
 Where:
 
-- **PropertyValue** Receives the requested property value from the system or “” if the property is not set 
+- **PropertyValue** Receives the requested property value from the system or “” if the property is not set  
 - **Statement** The result of a valid [JQLCOMPILE(Statement)](./../jqlcompile)
 - **Column** Specifies that you want the value of the property for a specific column (otherwise 0 for the whole statement).
 - **PropertyName** These are EQUATED values defined by INCLUDE’ing the file JQLINTERFACE.h.

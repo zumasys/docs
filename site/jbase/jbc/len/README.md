@@ -23,13 +23,13 @@ The **LEN()** function when used in International Mode will return the number of
 
 ## Note
 
-> If the byte is specifically required then it is recommended that the [BYTELEN](./../bytelen) function be used in place of the **LEN** function. It is also not recommended to use programs manipulating byte counts in International Mode.
+> If the byte length is specifically required then it is recommended that the [BYTELEN](./../bytelen) function be used in place of the **LEN** function. It is also not recommended to use programs manipulating byte counts in International Mode.
 
 An example of use may be as:
 
 ```
-VAL = "qwerty"
-CRT LEN(VAL)
+string_Val= "qwerty"
+CRT LEN(string_Val)
 ```
 
 to display **6**.

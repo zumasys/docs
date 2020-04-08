@@ -21,7 +21,7 @@ Where:
 - **expression1** evaluates to the string that will be searched for in **expression2**.
 - **expression2** evaluates to the dynamic array within which **expression1** will be searched for.
 - If **expression3** is specified then a multivalue search is performed on **expression2**.
-- If both **expression3** and **expression4** are specified then a subvalue search is performed on **expression2**.
+- If both **expression3** and **expression4** are specified, then a subvalue search is performed on **expression2**.
 - **expression5** indicates the field, value or subvalue from which the search will begin.
 - **BY expression6** causes the search to expect the elements to be arranged in a specific order, which can considerably improve the performance of some searches. The available string values for **expression6** are:
 
@@ -37,7 +37,7 @@ Where:
 - **Var** will be set to the position of the Field, MultiValue or SubValue in which **expression1** was found. If it was not found and **expression6** was not specified then **Var** will be set to one position past the end of the searched dimension. If **expression6** specified the order of the elements then **Var** will be set to the position before which the element should be inserted to retain the specified order.
 - The statement must include one of or both of the **THEN** and **ELSE** clauses. If **expression1** is found in an element of the dynamic array, it executes the statements defined by the **THEN** clause. If **expression1** is not found in an element of the dynamic array, it executes the statements defined by the **ELSE** clause.
 
-### nternational Mode
+### International Mode
 
 When the **LOCATE** statement is used in International Mode, the statement will use the currently configured locale to determine the rules by which each string is considered less than or greater than the other will.
 

@@ -26,7 +26,7 @@ Where:
 
 > Specifying a negative value to any of the expressions 1 through 3 will cause the element to append as the last Field, Value or Sub-Value rather than at a specific position. Only one expression may be negative otherwise only the first negative value is used correctly while the others are treated as the value 1.
 >
-> The statement will insert NULL Fields, Values or Sub-Values  accordingly if any of the specified insertion points exceeds the number currently existing.
+> The statement will insert NULL Fields, Values or Sub-Values accordingly if any of the specified insertion points exceeds the number currently existing.
 
 An example of use is as:
 

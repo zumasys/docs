@@ -26,10 +26,10 @@ Where :
 An example of use is as:
 
 ```
-A = INSERT(B, 1, 4; "Field1Value4")
+dynA = INSERT(dynB, 1, 4; "Field1Value4")
 ```
 
-Note that **B** is unchanged and the modified **expression1** is assigned to the variable A.
+Note that **dynB** is unchanged and the modified **expression1** is assigned to the variable dynA.
 
 Go back to [jBASE BASIC](./../README.md)
 
