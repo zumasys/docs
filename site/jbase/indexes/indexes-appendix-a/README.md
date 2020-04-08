@@ -1,10 +1,6 @@
 # Indexes APPENDIX A
 
-**Created At:** 8/16/2018 1:51:28 PM  
-**Updated At:** 9/26/2018 10:54:52 PM  
-**Original Doc:** [indexes-appendix-a](https://docs.jbase.com/48152-indexes/indexes-appendix-a)  
-**Original ID:** 334549  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='index definitions' vertical='middle' />

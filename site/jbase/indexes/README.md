@@ -1,5 +1,7 @@
 # Indexes
 
+<PageHeader />
+
 ## Topics
 
 [create-index](./create-index/README.md)  

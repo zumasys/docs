@@ -1,10 +1,6 @@
 # DELETE-INDEX
 
-**Created At:** 8/18/2018 7:39:09 PM  
-**Updated At:** 9/26/2018 10:51:10 PM  
-**Original Doc:** [delete-index](https://docs.jbase.com/48152-indexes/delete-index)  
-**Original ID:** 335214  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

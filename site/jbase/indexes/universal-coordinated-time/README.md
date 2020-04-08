@@ -1,10 +1,6 @@
 # Universal Coordinated Time
 
-**Created At:** 8/17/2018 9:31:01 AM  
-**Updated At:** 5/16/2019 6:14:14 PM  
-**Original Doc:** [universal-co-ordinated-time](https://docs.jbase.com/48152-indexes/universal-co-ordinated-time)  
-**Original ID:** 334838  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='file indexing' vertical='middle' />

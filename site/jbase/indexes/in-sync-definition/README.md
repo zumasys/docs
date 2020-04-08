@@ -1,10 +1,6 @@
 # In-Sync Definition
 
-**Created At:** 8/17/2018 9:29:47 AM  
-**Updated At:** 9/26/2018 10:52:59 PM  
-**Original Doc:** [in-sync-definition](https://docs.jbase.com/48152-indexes/in-sync-definition)  
-**Original ID:** 334835  
-**Internal:** No  
+<PageHeader /> 
 
 **Tags:**
 <badge text='sync' vertical='middle' />

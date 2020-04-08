@@ -1,5 +1,7 @@
 # SET-MONEY
 
+<PageHeader />
+
 ## Syntax  
 
 ```

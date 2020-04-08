@@ -1,10 +1,6 @@
 # Multi-value Support
 
-**Created At:** 8/17/2018 9:27:56 AM  
-**Updated At:** 9/26/2018 10:55:28 PM  
-**Original Doc:** [multi-value-support](https://docs.jbase.com/48152-indexes/multi-value-support)  
-**Original ID:** 334833  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='subroutine' vertical='middle' />

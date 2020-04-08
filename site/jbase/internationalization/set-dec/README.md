@@ -1,5 +1,7 @@
 # SET-DEC
 
+<PageHeader />
+
 ## Syntax  
 
 ```

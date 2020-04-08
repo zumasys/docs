@@ -1,10 +1,6 @@
 # LIST-INDEX
 
-**Created At:** 8/16/2018 1:56:23 PM  
-**Updated At:** 9/26/2018 10:46:12 PM  
-**Original Doc:** [list-index](https://docs.jbase.com/48152-indexes/list-index)  
-**Original ID:** 334557  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='file indexing' vertical='middle' />

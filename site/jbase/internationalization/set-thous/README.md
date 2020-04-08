@@ -1,5 +1,7 @@
 # SET-THOUS
 
+<PageHeader />
+
 ## Syntax  
 
 ```

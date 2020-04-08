@@ -1,10 +1,6 @@
 # General Index Information
 
-**Created At:** 8/16/2018 1:45:39 PM  
-**Updated At:** 9/26/2018 10:53:33 PM  
-**Original Doc:** [general-index-information](https://docs.jbase.com/48152-indexes/general-index-information)  
-**Original ID:** 334537  
-**Internal:** No  
+<PageHeader />
 
 | Definition | Description |
 | --- | --- |
