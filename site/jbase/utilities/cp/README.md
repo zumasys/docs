@@ -1,10 +1,6 @@
 # CP
 
-**Created At:** 8/16/2018 2:53:19 PM  
-**Updated At:** 10/24/2018 9:50:23 AM  
-**Original Doc:** [cp](https://docs.jbase.com/46963-utilities/cp)  
-**Original ID:** 334587  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

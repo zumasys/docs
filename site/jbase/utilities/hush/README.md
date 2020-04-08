@@ -1,10 +1,6 @@
 # HUSH
 
-**Created At:** 9/7/2018 10:38:18 AM  
-**Updated At:** 10/24/2018 9:09:01 PM  
-**Original Doc:** [hush](https://docs.jbase.com/46963-utilities/hush)  
-**Original ID:** 338150  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='input supression' vertical='middle' />

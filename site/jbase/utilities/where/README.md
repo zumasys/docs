@@ -1,10 +1,6 @@
 # WHERE
 
-**Created At:** 9/3/2018 7:24:40 AM  
-**Updated At:** 9/3/2018 7:59:45 AM  
-**Original Doc:** [where](https://docs.jbase.com/46963-utilities/where)  
-**Original ID:** 337528  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='display' vertical='middle' />

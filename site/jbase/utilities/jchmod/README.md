@@ -1,10 +1,6 @@
 # jchmod
 
-**Created At:** 7/6/2018 12:12:02 PM  
-**Updated At:** 7/7/2018 7:45:33 AM  
-**Original Doc:** [jchmod](https://docs.jbase.com/46963-utilities/jchmod)  
-**Original ID:** 325744  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

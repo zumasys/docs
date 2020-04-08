@@ -1,10 +1,6 @@
 # jrestore
 
-**Created At:** 7/20/2018 2:49:29 PM  
-**Updated At:** 11/8/2019 8:35:07 AM  
-**Original Doc:** [jrestore](https://docs.jbase.com/46963-utilities/jrestore)  
-**Original ID:** 328719  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='recovery' vertical='middle' />

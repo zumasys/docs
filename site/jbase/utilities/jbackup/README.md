@@ -1,10 +1,6 @@
 # jbackup
 
-**Created At:** 7/20/2018 2:35:32 PM  
-**Updated At:** 10/24/2019 10:15:09 AM  
-**Original Doc:** [jbackup](https://docs.jbase.com/46963-utilities/jbackup)  
-**Original ID:** 328714  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='jfilesave' vertical='middle' />

@@ -1,10 +1,6 @@
 # BREAK-KEY-ENABLE
 
-**Created At:** 8/16/2018 2:47:42 PM  
-**Updated At:** 10/24/2018 9:29:39 AM  
-**Original Doc:** [break-key-enable](https://docs.jbase.com/46963-utilities/break-key-enable)  
-**Original ID:** 334580  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

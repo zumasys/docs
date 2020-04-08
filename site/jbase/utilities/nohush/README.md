@@ -1,10 +1,6 @@
 # NOHUSH
 
-**Created At:** 9/7/2018 12:24:08 PM  
-**Updated At:** 12/28/2018 2:11:12 PM  
-**Original Doc:** [nohush](https://docs.jbase.com/46963-utilities/nohush)  
-**Original ID:** 338159  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='echo' vertical='middle' />

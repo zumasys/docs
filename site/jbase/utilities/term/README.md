@@ -1,10 +1,6 @@
 # TERM
 
-**Created At:** 9/11/2018 12:55:47 PM  
-**Updated At:** 12/28/2018 2:08:01 PM  
-**Original Doc:** [338989-term](https://docs.jbase.com/46963-utilities/338989-term)  
-**Original ID:** 338989  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

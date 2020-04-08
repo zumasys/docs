@@ -1,10 +1,6 @@
 # DTX.XTD
 
-**Created At:** 9/11/2018 1:39:45 PM  
-**Updated At:** 12/28/2018 2:12:47 PM  
-**Original Doc:** [dtx-xtd](https://docs.jbase.com/46963-utilities/dtx-xtd)  
-**Original ID:** 339005  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='dtx.xtd' vertical='middle' />

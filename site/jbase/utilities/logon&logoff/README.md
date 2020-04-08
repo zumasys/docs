@@ -1,10 +1,6 @@
 # LOGON/LOGOFF
 
-**Created At:** 9/7/2018 12:06:43 PM  
-**Updated At:** 12/28/2018 2:10:28 PM  
-**Original Doc:** [logon-logoff](https://docs.jbase.com/46963-utilities/logon-logoff)  
-**Original ID:** 338154  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='utility' vertical='middle' />
