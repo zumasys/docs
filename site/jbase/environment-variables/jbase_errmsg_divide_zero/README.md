@@ -1,6 +1,6 @@
 # JBASE_ERRMSG_DIVIDE_ZERO
 
-<PageHeader /> 
+<PageHeader />
 
 ## Description
 
