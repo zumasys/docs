@@ -1,10 +1,6 @@
 # Migrating to jBASE: D3 Systems
 
-**Created At:** 2/8/2019 3:39:22 PM  
-**Updated At:** 5/24/2019 6:38:38 PM  
-**Original Doc:** [migrating-to-jbase-d3-system](https://docs.jbase.com/34463-mv-migration-station/migrating-to-jbase-d3-system)  
-**Original ID:** 363891  
-**Internal:** No
+<PageHeader />
 
 **Tags:**
 <badge text='jdevattach' vertical='middle' />

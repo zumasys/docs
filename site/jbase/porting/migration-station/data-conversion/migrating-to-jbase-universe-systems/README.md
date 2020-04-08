@@ -1,10 +1,6 @@
 # Migrating to jBASE: Universe Systems
 
-**Created At:** 2/12/2019 4:51:53 PM  
-**Updated At:** 5/24/2019 6:38:21 PM  
-**Original Doc:** [migrating-to-jbase-universe](https://docs.jbase.com/34463-mv-migration-station/migrating-to-jbase-universe)  
-**Original ID:** 364614  
-**Internal:** No
+<PageHeader />
 
 **Tags:**
 <badge text='uvbackup' vertical='middle' />

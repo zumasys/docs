@@ -1,10 +1,6 @@
 # Migrating to jBASE: Preparation
 
-**Created At:** 10/31/2017 3:55:46 PM  
-**Updated At:** 5/24/2019 7:45:11 PM  
-**Original Doc:** [migration-checklist](https://docs.jbase.com/34463-mv-migration-station/migration-checklist)  
-**Original ID:** 283606  
-**Internal:** No
+<PageHeader />
 
 **Tags:**
 <badge text='conversion' vertical='middle' />

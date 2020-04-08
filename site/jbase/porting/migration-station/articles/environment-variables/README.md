@@ -1,10 +1,6 @@
 # Environment Variables
 
-**Created At:** 11/3/2017 1:29:00 PM  
-**Updated At:** 1/23/2020 11:02:05 PM  
-**Original Doc:** [environment-variables](https://docs.jbase.com/44497-articles/environment-variables)  
-**Original ID:** 284123  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jedipostfileop' vertical='middle' />

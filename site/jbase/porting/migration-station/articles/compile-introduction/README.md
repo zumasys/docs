@@ -1,10 +1,6 @@
 # Compile Introduction
 
-**Created At:** 11/1/2017 12:21:45 AM  
-**Updated At:** 11/1/2017 12:22:34 AM  
-**Original Doc:** [compile-introduction](https://docs.jbase.com/44497-articles/compile-introduction)  
-**Original ID:** 283761  
-**Internal:** No  
+<PageHeader /> 
 
 The BASIC command is provided as a front end program to the jBASE jbc compiler. The jbc compiler converts the BASIC code into "C" and invokes the native "C" compiler to convert the "C" source code into a machine native object file.
 

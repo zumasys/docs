@@ -1,5 +1,7 @@
 # Restore
 
+<PageHeader />
+
 ## Topics
 
 [account-restore](./account-restore)  
