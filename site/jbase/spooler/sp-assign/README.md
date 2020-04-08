@@ -1,10 +1,6 @@
 # SP-ASSIGN
 
-**Created At:** 4/4/2018 9:49:37 AM  
-**Updated At:** 7/17/2019 9:18:05 AM  
-**Original Doc:** [306225-sp-assign](https://docs.jbase.com/44205-spooler/306225-sp-assign)  
-**Original ID:** 306225  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

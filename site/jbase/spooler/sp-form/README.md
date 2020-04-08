@@ -1,10 +1,6 @@
 # SP-FORM
 
-**Created At:** 4/4/2018 1:45:12 PM  
-**Updated At:** 1/24/2019 8:42:47 AM  
-**Original Doc:** [306273-sp-form](https://docs.jbase.com/44205-spooler/306273-sp-form)  
-**Original ID:** 306273  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

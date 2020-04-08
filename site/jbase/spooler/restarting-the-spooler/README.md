@@ -1,10 +1,6 @@
 # Restarting the Spooler
 
-**Created At:** 9/18/2018 9:51:23 AM  
-**Updated At:** 1/24/2019 8:55:38 AM  
-**Original Doc:** [restarting-the-spooler](https://docs.jbase.com/44205-spooler/restarting-the-spooler)  
-**Original ID:** 339624  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

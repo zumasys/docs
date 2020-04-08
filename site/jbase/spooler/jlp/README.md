@@ -1,10 +1,6 @@
 # jlp
 
-**Created At:** 9/18/2018 10:03:41 AM  
-**Updated At:** 10/1/2018 3:51:04 PM  
-**Original Doc:** [jlp](https://docs.jbase.com/44205-spooler/jlp)  
-**Original ID:** 339628  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

@@ -1,10 +1,6 @@
 # SP-SHUTDOWN
 
-**Created At:** 4/4/2018 1:20:19 PM  
-**Updated At:** 1/24/2019 8:13:18 AM  
-**Original Doc:** [306261-sp-shutdown](https://docs.jbase.com/44205-spooler/306261-sp-shutdown)  
-**Original ID:** 306261  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

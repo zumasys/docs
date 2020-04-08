@@ -1,10 +1,6 @@
 # PORT-DESPOOL
 
-**Created At:** 4/4/2018 9:47:38 AM  
-**Updated At:** 3/12/2019 12:27:22 PM  
-**Original Doc:** [306224-port-despool](https://docs.jbase.com/44205-spooler/306224-port-despool)  
-**Original ID:** 306224  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

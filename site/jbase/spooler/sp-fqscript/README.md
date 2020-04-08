@@ -1,5 +1,7 @@
 # SP-FQSCRIPT
 
+<PageHeader />
+
 ## Description
 
 The **SP-FQSCRIPT** command creates a script from the current spooler configuration that can be used to regenerate

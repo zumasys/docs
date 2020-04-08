@@ -1,10 +1,6 @@
 # SP-FQDELETE
 
-**Created At:** 4/5/2018 8:42:25 AM  
-**Updated At:** 1/24/2019 8:16:11 AM  
-**Original Doc:** [306430-sp-fqdelete](https://docs.jbase.com/44205-spooler/306430-sp-fqdelete)  
-**Original ID:** 306430  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

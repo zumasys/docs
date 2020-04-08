@@ -1,10 +1,6 @@
 # SP-SKIP
 
-**Created At:** 4/4/2018 2:52:53 PM  
-**Updated At:** 1/24/2019 8:15:15 AM  
-**Original Doc:** [306300-sp-skip](https://docs.jbase.com/44205-spooler/306300-sp-skip)  
-**Original ID:** 306300  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

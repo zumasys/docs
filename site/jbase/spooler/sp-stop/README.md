@@ -1,10 +1,6 @@
 # SP-STOP
 
-**Created At:** 4/5/2018 10:24:20 AM  
-**Updated At:** 1/24/2019 8:23:45 AM  
-**Original Doc:** [306456-sp-stop](https://docs.jbase.com/44205-spooler/306456-sp-stop)  
-**Original ID:** 306456  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

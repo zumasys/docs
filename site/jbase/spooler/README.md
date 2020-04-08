@@ -1,5 +1,7 @@
 # Spooler
 
+<PageHeader />
+
 ## Topics
 
 [jbase-spooler](./jbase-spooler/README.md)  

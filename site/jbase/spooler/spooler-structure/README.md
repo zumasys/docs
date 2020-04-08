@@ -1,10 +1,6 @@
 # Spooler Structure
 
-**Created At:** 9/20/2018 8:18:22 AM  
-**Updated At:** 1/24/2019 9:04:14 AM  
-**Original Doc:** [spooler-structure](https://docs.jbase.com/44205-spooler/spooler-structure)  
-**Original ID:** 339936  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='spooler' vertical='middle' />

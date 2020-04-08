@@ -1,10 +1,6 @@
 # SP-DELETE
 
-**Created At:** 4/5/2018 10:19:12 AM  
-**Updated At:** 1/24/2019 8:47:56 AM  
-**Original Doc:** [306454-sp-delete](https://docs.jbase.com/44205-spooler/306454-sp-delete)  
-**Original ID:** 306454  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

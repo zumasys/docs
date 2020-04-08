@@ -1,5 +1,7 @@
 # SP-NEWTAB
 
+<PageHeader />
+
 ## Description
 
 The **SP-NEWTAB** command creates and initializes a new spooler structure. It takes the general form:

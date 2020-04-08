@@ -1,10 +1,6 @@
 # SP-SECURITY-OWNER
 
-**Created At:** 4/5/2018 9:48:40 AM  
-**Updated At:** 1/24/2019 8:25:31 AM  
-**Original Doc:** [306446-sp-security-owner](https://docs.jbase.com/44205-spooler/306446-sp-security-owner)  
-**Original ID:** 306446  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

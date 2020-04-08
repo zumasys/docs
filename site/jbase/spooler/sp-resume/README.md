@@ -1,10 +1,6 @@
 # SP-RESUME
 
-**Created At:** 4/5/2018 10:28:46 AM  
-**Updated At:** 1/24/2019 8:26:49 AM  
-**Original Doc:** [306460-sp-resume](https://docs.jbase.com/44205-spooler/306460-sp-resume)  
-**Original ID:** 306460  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

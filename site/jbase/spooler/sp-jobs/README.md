@@ -1,10 +1,6 @@
 # SP-JOBS
 
-**Created At:** 4/4/2018 2:56:10 PM  
-**Updated At:** 1/24/2019 8:15:43 AM  
-**Original Doc:** [306301-sp-jobs](https://docs.jbase.com/44205-spooler/306301-sp-jobs)  
-**Original ID:** 306301  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

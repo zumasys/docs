@@ -1,10 +1,6 @@
 # SP-SWITCH
 
-**Created At:** 4/5/2018 9:59:46 AM  
-**Updated At:** 1/24/2019 8:22:26 AM  
-**Original Doc:** [306449-sp-switch](https://docs.jbase.com/44205-spooler/306449-sp-switch)  
-**Original ID:** 306449  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

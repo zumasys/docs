@@ -1,10 +1,6 @@
 # SP-CREATE
 
-**Created At:** 4/4/2018 1:33:58 PM  
-**Updated At:** 1/24/2019 8:14:10 AM  
-**Original Doc:** [306268-sp-create](https://docs.jbase.com/44205-spooler/306268-sp-create)  
-**Original ID:** 306268  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
