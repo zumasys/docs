@@ -1,10 +1,6 @@
 # SEARCH
 
-**Created At:** 7/9/2018 12:31:45 PM  
-**Updated At:** 7/13/2018 9:59:50 AM  
-**Original Doc:** [search](https://docs.jbase.com/47026-lists/search)  
-**Original ID:** 325924  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='records' vertical='middle' />

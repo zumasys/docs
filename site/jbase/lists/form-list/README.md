@@ -1,10 +1,6 @@
 # FORM-LIST
 
-**Created At:** 7/9/2018 12:29:43 PM  
-**Updated At:** 7/13/2018 9:29:19 AM  
-**Original Doc:** [form-list](https://docs.jbase.com/47026-lists/form-list)  
-**Original ID:** 325918  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='records' vertical='middle' />

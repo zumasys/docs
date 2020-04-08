@@ -1,10 +1,6 @@
 # GET-LIST
 
-**Created At:** 7/9/2018 12:30:10 PM  
-**Updated At:** 12/20/2018 10:00:04 AM  
-**Original Doc:** [get-list](https://docs.jbase.com/47026-lists/get-list)  
-**Original ID:** 325920  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jql' vertical='middle' />
