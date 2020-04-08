@@ -1,10 +1,6 @@
 # jBASE 5.7.3 Release Notes
 
-**Created At:** 6/27/2019 10:51:18 AM  
-**Updated At:** 7/11/2019 9:52:58 AM  
-**Original Doc:** [jbase-573-release-notes](https://docs.jbase.com/61286-5-7-3-release-notes/jbase-573-release-notes)  
-**Original ID:** 400108  
-**Internal:** No  
+<PageHeader />
 
 ## Patches
 

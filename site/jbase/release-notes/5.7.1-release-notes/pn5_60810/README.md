@@ -1,11 +1,6 @@
 # PN5_60810
 
-**Created At:** 11/13/2018 11:28:03 AM  
-**Updated At:** 11/13/2018 11:31:21 AM  
-**Original Doc:** [pn5_60810](https://docs.jbase.com/48420-5-7-1-release-notes/pn5_60810)  
-**Original ID:** 348600  
-**Internal:** No  
-
+<PageHeader />
 ## Description
 
 NU conversion not working

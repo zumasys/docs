@@ -1,10 +1,6 @@
 # jCL
 
-**Created At:** 5/23/2018 2:32:57 PM  
-**Updated At:** 10/25/2018 7:33:04 PM  
-**Original Doc:** [318022-jcl](https://docs.jbase.com/45792-jcl/318022-jcl)  
-**Original ID:** 318022  
-**Internal:** No  
+<PageHeader />
 
 | <!----> | <!----> |
 | --- | --- |

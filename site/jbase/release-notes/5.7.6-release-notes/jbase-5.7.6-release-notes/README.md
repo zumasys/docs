@@ -1,10 +1,6 @@
 # jBASE 5.7.6 Release notes
 
-**Created At:** 1/13/2020 1:29:14 PM  
-**Updated At:** 1/22/2020 10:26:59 AM  
-**Original Doc:** [jbase-576-release-notes](https://docs.jbase.com/88391-5-7-6-release-notes/jbase-576-release-notes)  
-**Original ID:** 516219  
-**Internal:** No  
+<PageHeader />
 
 This release includes various internal bug fixes and the following enhancements and patches:
 

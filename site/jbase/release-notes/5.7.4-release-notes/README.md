@@ -1,5 +1,7 @@
 # 5.7.4 Release Notes
 
+<PageHeader />
+
 ## Topics
 
 [jbase-5.7.4-release-notes](./jbase-5.7.4-release-notes)  

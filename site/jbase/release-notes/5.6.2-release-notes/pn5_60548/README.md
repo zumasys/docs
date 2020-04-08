@@ -1,10 +1,6 @@
 # PN5_60548
 
-**Created At:** 6/13/2017 9:18:42 AM  
-**Updated At:** 11/21/2017 1:12:44 AM  
-**Original Doc:** [pn5_60548](https://docs.jbase.com/36526-5-6-2-release-notes/pn5_60548)  
-**Original ID:** 258816  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

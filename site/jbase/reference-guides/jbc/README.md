@@ -1,10 +1,6 @@
 # jBASE BASIC Programmers Reference Guide
 
-**Created At:** 7/17/2017 8:02:02 AM  
-**Updated At:** 12/20/2019 10:33:55 PM  
-**Original Doc:** [263498-jbase-basic](https://docs.jbase.com/36868-jbase-basic/263498-jbase-basic)  
-**Original ID:** 263498  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <!-- <badge text='xmltodyn' vertical='middle' />

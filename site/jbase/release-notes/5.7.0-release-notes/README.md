@@ -1,10 +1,6 @@
 # jBASE 5.7.0 Release Notes
 
-**Created At:** 10/16/2017 9:27:22 AM  
-**Updated At:** 7/1/2019 4:31:25 PM  
-**Original Doc:** [jbase-57-release-notes](https://docs.jbase.com/release-notes/jbase-57-release-notes)  
-**Original ID:** 280660  
-**Internal:** No  
+<PageHeader />  
 
 ## Patches
 

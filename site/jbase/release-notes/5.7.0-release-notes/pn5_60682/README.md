@@ -1,11 +1,6 @@
 # PN5_60682
 
-**Created At:** 12/29/2017 10:05:02 AM  
-**Updated At:** 2/16/2018 7:08:35 PM  
-**Original Doc:** [pn5_60682](https://docs.jbase.com/release-notes/pn5_60682)  
-**Original ID:** 292611  
-**Internal:** No  
-
+<PageHeader />
 
 ### Description
 

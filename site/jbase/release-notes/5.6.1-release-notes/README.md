@@ -1,5 +1,7 @@
 # jBASE 5.6.1 Release Notes
 
+<PageHeader />
+
 ## Patches
 
 - [PN5\_60517](./pn5_60517/README.md) - Enhance jBASE error logging, includes the addition of the new **list-runtime-errors** command  

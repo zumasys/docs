@@ -1,10 +1,6 @@
 # PN5_60904
 
-**Created At:** 9/24/2019 7:49:07 AM  
-**Updated At:** 10/6/2019 11:03:58 AM  
-**Original Doc:** [pn5_60904](https://docs.jbase.com/75024-5-7-4-release-notes/pn5_60904)  
-**Original ID:** 459837  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

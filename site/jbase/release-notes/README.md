@@ -1,5 +1,7 @@
 # jBASE Release Notes
 
+<PageHeader />
+
 ## Topics
 
 [5.6.0 release-notes](./5.6.0-release-notes/README.md)  

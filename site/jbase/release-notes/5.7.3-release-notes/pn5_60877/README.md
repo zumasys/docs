@@ -1,10 +1,6 @@
 # PN5_60877
 
-**Created At:** 6/29/2019 7:49:18 AM  
-**Updated At:** 6/29/2019 8:04:10 AM  
-**Original Doc:** [pn5_60877](https://docs.jbase.com/61286-5-7-3-release-notes/pn5_60877)  
-**Original ID:** 401004  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

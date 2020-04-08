@@ -1,10 +1,6 @@
 # PN5_60930
 
-**Created At:** 1/13/2020 4:12:33 PM  
-**Updated At:** 1/15/2020 2:04:05 PM  
-**Original Doc:** [pn5_60930](https://docs.jbase.com/88391-5-7-6-release-notes/pn5_60930)  
-**Original ID:** 516267  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

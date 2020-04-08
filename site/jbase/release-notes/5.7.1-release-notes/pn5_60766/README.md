@@ -1,10 +1,6 @@
 # PN_60766
 
-**Created At:** 8/27/2018 12:31:51 PM  
-**Updated At:** 10/24/2018 8:39:26 PM  
-**Original Doc:** [pn_60766](https://docs.jbase.com/48420-5-7-1-release-notes/pn_60766)  
-**Original ID:** 336211  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
