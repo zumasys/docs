@@ -22,11 +22,11 @@ Where **DynArr** should evaluate to a dynamic array. Null dynamic array element
 An example of use is as:
 
 ```
- VAR_ARR =" "
-FOR I = 2 TO 4
-    INS I*3 BEFORE VAR_ARR<-3>
-NEXT I
-CRT MAXIMUM(VAR_ARR)
+var_Arr =" "
+FOR inx = 2 TO 4
+    INS inx * 3 BEFORE var_Arr<-3>
+NEXT inx
+CRT MAXIMUM(var_Arr)
 ```
 
 to display the number 12.

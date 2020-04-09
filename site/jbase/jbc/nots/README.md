@@ -23,9 +23,9 @@ An empty string is logically false. All other string expressions, including stri
 If any element in **dynamic.array** is null, it returns null for that element.
 
 ```
-X = 5
-Y = 5
-CRT NOTS (X - Y : @VM : X + Y)
+varX = 5
+varY = 5
+CRT NOTS (varX - varY : @VM : varX + varY)
 ```
 
 The above will display 1 and 0.

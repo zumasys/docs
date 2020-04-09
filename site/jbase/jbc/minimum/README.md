@@ -24,11 +24,11 @@ Null dynamic array elements are treated as zero. Non-numeric dynamic array eleme
 An example of use would be as:
 
 ```
-VAR_ARR =" "
-FOR I = 2 TO 4
-    INS I*3 BEFORE VAR_ARR<-3>
-NEXT I
-CRT MINIMUM(VAR_ARR)
+var_Arr =" "
+FOR inx = 2 TO 4
+    INS inx * 3 BEFORE var_Arr<-3>
+NEXT inx
+CRT MINIMUM(var_Arr)
 ```
 
 to display 6

@@ -32,10 +32,10 @@ The compiler will check that the variable specified is indeed a dimensioned arra
 An example of use is as:
 
 ```
-DIM A(8)
-MAT A = 99
+DIM Array(8)
+MAT Array = 99
 ....
-MATWRITEU A ON "NewArray"
+MATWRITEU Array ON "NewArray"
 ```
 
 Go back to [jBASE BASIC](./../README.md)

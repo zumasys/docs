@@ -16,7 +16,7 @@ It takes the general form:
 NOBUF file.variable {THEN statements [ELSE statements] | ELSE statements}
 ```
 
-If the **NOBUF** operation is successful, it executes the THEN statements otherwise, executes the ELSE statements. If file.variable is not a valid file descriptor then **NOBUF** statement fails and the program enters the debugger.
+If the **NOBUF** operation is successful, it executes the **THEN** statements otherwise, executes the **ELSE** statements. If **file.variable** is not a valid file descriptor then **NOBUF** statement fails and the program enters the debugger.
 
 In the following example, if RECORD in DIRFILE can be opened, output buffering is turned off:
 
