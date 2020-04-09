@@ -62,3 +62,4 @@ If you're looking for help, you can reach out the following ways:
 
 To obtain a developers version of MV Dashboard, please email [dashboard@zumasys.com](mailto:dashboard@zumasys.com).
 
+<PageFooter />

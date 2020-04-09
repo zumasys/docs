@@ -19,3 +19,4 @@ Adding a link to a widget requires the following variables to be assigned, and e
 | W$LINK.ICON<br> | This value may include the name of an icon image (in the “icons” directory of the “docs” folder) when using the “C” (corner) location.<br> |
 | W$LINK.ICON.TXT<br> | When displaying a link as an icon in the title bar (“C”) of the widget, this text will display when the user holds the mouse pointer over the icon.<br> |
 
+<PageFooter />

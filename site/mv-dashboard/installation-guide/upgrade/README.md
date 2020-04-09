@@ -21,3 +21,4 @@ To upgrade MV Dashboard:
 7. If you had made any changes to the installed Dashboard components (that is, the dashboards, templates, widgets and widget subroutines provided with the MV Dashboard application), carefully re-apply those changes using the saved item in the CLASHES file as a reference.
 8. If you had added any themes, images or .css files, copy the added items from the backup of the docroot directory and manually apply your changes to the installed dashboard components.
 
+<PageFooter />

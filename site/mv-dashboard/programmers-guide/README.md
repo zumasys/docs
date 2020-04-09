@@ -38,3 +38,4 @@
   * [Web Service Login](./integration/web-service-login/README.md)
 * [PDF Generation](./pdf-generation/README.md)
 * [Fusion Charts](./fusion-charts/README.md)
+<PageFooter />

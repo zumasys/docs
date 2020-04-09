@@ -14,3 +14,4 @@ Widgets can create HTML tables by setting the W$TYPE to “TABLE” and the foll
 
 
 This type of widget allows for easy creation of HTML-based tables. However, if you need more control over the way that these tables are presented, use the HTML type widget to create more complex tables.
+<PageFooter />

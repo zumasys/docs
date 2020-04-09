@@ -25,4 +25,4 @@ To edit other programs or create new programs with the code editor:
 1. Close the code editor.
    | <!----> | <!----> |
    | --- | --- |
-   Note | As installed, the code editor is configured to use the `BASIC` command to compile, and the `CATALOG` command is subsequently invoked by the code editor for the MVDB.SUBS file only. If you want the code editory to compile and catalog your code, configure the code editor to use the `COMPILE-CATALOG` command (see [Running in D3 Flashed Mode](./../running-in-d3-flashed-mode/README.md) for more information). This will result in MVDB.SUBS subroutines to be cataloged twice, which has no negative effect. 
+   Note | As installed, the code editor is configured to use the `BASIC` command to compile, and the `CATALOG` command is subsequently invoked by the code editor for the MVDB.SUBS file only. If you want the code editory to compile and catalog your code, configure the code editor to use the `COMPILE-CATALOG` command (see [Running in D3 Flashed Mode](./../running-in-d3-flashed-mode/README.md) for more information). This will result in MVDB.SUBS subroutines to be cataloged twice, which has no negative effect. <PageFooter />

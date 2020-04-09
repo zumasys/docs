@@ -29,3 +29,4 @@ Any dashboard invoked by this method will have full drilldown capability but the
 > 
 > You must enable the webservice login from the Administrative Configuration widget in the Administrator dashboard before this feature can be used.
 
+<PageFooter />

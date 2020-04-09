@@ -33,4 +33,4 @@ MultiValue Dashboard is supported on the following browsers:
 * Chrome
 
 ## Disk Space
-MultiValue Dashboard requires 150 MB of free space.
+MultiValue Dashboard requires 150 MB of free space.<PageFooter />

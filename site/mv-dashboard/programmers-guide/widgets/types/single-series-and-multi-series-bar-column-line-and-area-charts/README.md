@@ -51,3 +51,4 @@ These charts are very similar, and the methods used in creating these widgets ar
 
 
 
+<PageFooter />

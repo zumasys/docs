@@ -24,3 +24,4 @@ The following topics are presented:
 * [Multiseries & Stacked Charts](./multiseries-and-stacked-charts/README.md)
 * [Pie & Doughnut Charts](./pie-and-doughnut-charts/README.md)
 * [Single Series & Pie Charts](./single-series-and-pie-charts/README.md)
+<PageFooter />

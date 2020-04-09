@@ -19,3 +19,4 @@ http://ipaddress:8180/dbc/MVDB.MAIN?loginid=emailed&htmlid=17503_MOSALES
 
 > NOTE: You must enable the emailed login from the Administrative Configuration widget in the Administrator dashboard before this feature can be used.
 
+<PageFooter />

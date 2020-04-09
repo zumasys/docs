@@ -14,4 +14,4 @@ To start MultiValue Dashboard:
    `http://my.pickserver.com:8180/`
 2. The MultiValue Dashboard Login screen displays. Enter your Login name and password and then click the Login button. By default the Login name and Password are both set to "admin".  
      
-   MultiValue Dashboard is started.
+   MultiValue Dashboard is started.<PageFooter />

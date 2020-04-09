@@ -13,3 +13,4 @@
 | showName=”1”<br> | Can have either the value of 0 or 1. A 1 indicates that the name of this<br>data set will be displayed in the graph, 0 indicates it won't be<br>displayed. This attribute is particular useful when you want to<br>show/hide names of alternate data items or say every x (th) data item.<br>Example: &lt;set ... showName="1" ...&gt;<br> |
 | isSliced=”1”<br> | Determines whether or not the pie appears as a part of the total circle or is sliced out as an individual item. (Applies only to 2D Pie Charts) Example: &lt;set ... isSliced="1" ...&gt;<br> |
 
+<PageFooter />

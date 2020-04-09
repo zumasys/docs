@@ -45,3 +45,4 @@ Anchors (or the marker points) are the polygons that appear at the joint of two 
 | anchorBgAlpha=”Numeric Value”<br> | Alpha of the anchor background.<br> |
 | anchorAlpha=”Numeric Value”<br> | This function lets you set the transparency of the entire anchor (including the border). This attribute is useful, when you do not want the anchors to be visible on the chart, but you want the hover caption and link functionality. In that case, you can set anchorAlpha to 0.<br> |
 
+<PageFooter />

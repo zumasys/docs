@@ -15,3 +15,4 @@ In the HTML widget, to have the word Sales highlighted so that clicking on it wo
 ```
 
 When using an  you are linking to a dashboard, not a widget, so it is necessary to create a dashboard with a one to one relationship with the desired widget.
+<PageFooter />

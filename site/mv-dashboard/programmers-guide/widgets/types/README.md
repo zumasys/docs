@@ -13,4 +13,4 @@ The following topics are presented:
 * [HTML Data](./html-data/README.md)
 * [Text Data](./text-data/README.md)
 * [Programming Notes](./programming-notes/README.md)
-* [Widget Testing & Debugging](./testing-and-debugging/README.md)
+* [Widget Testing & Debugging](./testing-and-debugging/README.md)<PageFooter />

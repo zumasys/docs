@@ -18,3 +18,4 @@ In addition, MV Dashboard automatically provides an Excel icon for downloading a
 [Integration Using Web Service Login](./../integrating-with-web-service-login)
 
 [Integration Using Emailed Login](./../integration-using-emailed-login)
+<PageFooter />

@@ -59,3 +59,4 @@ The Completing the MV Dashboard Setup Wizard dialog box displays.
 10. Select the Start MV Dashboard Service and/or Configure MV Dashboard options then click Finish.
 
 The installation of MV Dashboard is complete.  Continue on to [Configure MV Dashboard](./../configure-mv-dashboard).
+<PageFooter />

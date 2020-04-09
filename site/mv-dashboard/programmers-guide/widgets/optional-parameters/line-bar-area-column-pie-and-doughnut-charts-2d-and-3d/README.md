@@ -73,3 +73,4 @@ The hover caption is the tool tip that shows up when the user moves his/her mous
 | hoverCapBorderColor=”HexColorCode”<br> | Border color of the hover caption box.<br> |
 | hoverCapSepChar=”Char”<br> | The character specified as the value of this attribute separates the name and value displayed in the hover caption box.<br> |
 
+<PageFooter />

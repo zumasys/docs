@@ -154,3 +154,4 @@ Divisional Lines are horizontal or vertical lines running through the canvas. Ea
 | alternateVGridColor=”HexColorCode”<br> | Color of the alternate vertical grid bands.<br> |
 | alternateVGridAlpha=”NumericalValue0-100”<br> | Alpha (transparency) of the alternate vertical grid bands.<br> |
 
+<PageFooter />

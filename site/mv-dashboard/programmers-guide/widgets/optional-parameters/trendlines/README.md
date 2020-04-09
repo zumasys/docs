@@ -16,3 +16,4 @@ Trendlines are the horizontal lines spanning the chart canvas that aid in interp
 | showOnTop=’1/0’<br> | Whether or not the trendline/zone is displayed over other elements of the chart.<br> |
 | alpha=’NumericalValue0-100’<br> | Alpha (transparency) of the trendline.<br> |
 
+<PageFooter />

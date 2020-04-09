@@ -55,3 +55,4 @@ Substitute the actual filename in the above command line. The PDF Configuration 
 ```
 wkhtmltopdf http://www.google.com.ph google.pdf
 ```
+<PageFooter />

@@ -13,3 +13,4 @@ When using a link to invoke a drill-down widget, the values specified in W$LINK.
 
 
 The global variable G$DRILLDOWN.MODE is set to "1" when a widget is being executed as a drill-down widget. This allows a widget to determine whether or not it is being executed as a drill-down widget. Additionally, the global variables G$DD.REFERRER and G$DD.FROM.DB will be set to the name of the widget and dashboard from which the drill-down occurred.
+<PageFooter />

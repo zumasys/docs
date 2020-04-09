@@ -32,3 +32,4 @@
     * [Multiseries & Stacked Charts](./widgets/optional-parameters/multiseries-and-stacked-charts/README.md)
     * [Pie & Doughnut Charts](./widgets/optional-parameters/pie-and-doughnut-charts/README.md)
     * [Single Series & Pie Charts](./widgets/optional-parameters/single-series-and-pie-charts/README.md)
+<PageFooter />

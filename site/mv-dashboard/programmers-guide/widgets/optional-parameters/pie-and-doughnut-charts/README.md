@@ -74,3 +74,4 @@
 | showShadow=”1/0”<br> | Option to show/hide shadow.<br> |
 | shadowColor=”Hex Color”<br> | If you want to set your own shadow color, you’ll need to specify that color for this attribute.<br> |
 
+<PageFooter />

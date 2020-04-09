@@ -21,5 +21,5 @@ The following topics are presented:
 | [PDF Generation](./../programmers-guide/pdf-generation/README.md) | Instructions for enabling widgets to generate PDF files.<br> |
 | [Fusion Charts Documentation](./../programmers-guide/fusion-charts/README.md)<br> | Provides links to the Fusion Charts documentation.<br> |
 
-
-
+  
+<PageFooter />

@@ -30,3 +30,4 @@ When the user submits the form (clicks the "Go" button), the global variable G$S
 | W$INPUT.PROMPT.PARAMS<br> | If specified, this string is used to style the prompt text specified in the W$INPUT.PROMPT string in the same way that the W$INPUT.PARAMS string is used to style the actual field itself.<br> |
 | W$INPUT.BUTTON<br> | The name of the submit button. If not specified, "Go" will be used. This is only a single value – only one button is present to submit all input fields for any widget.<br> |
 
+<PageFooter />

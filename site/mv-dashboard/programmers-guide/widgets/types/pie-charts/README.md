@@ -22,3 +22,4 @@ The following variables are used to define a pie chart widget:
 
 
 
+<PageFooter />

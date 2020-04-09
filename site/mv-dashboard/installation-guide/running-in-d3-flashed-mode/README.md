@@ -54,4 +54,4 @@ To disable flashed mode:
    DEOPTIMIZE DICT WDB.BP  
    DEOPTIMIZE DICT MVDB.SUBS
    ```  
-   Flashed mode is disabled.
+   Flashed mode is disabled.<PageFooter />

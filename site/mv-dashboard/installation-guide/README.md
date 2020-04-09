@@ -15,3 +15,4 @@
   * [Linux and AIX](./uninstall/linux-and-aix/README.md)
   * [Windows](./uninstall/windows/README.md)
 * [Upgrade](./upgrade/README.md)
+<PageFooter />

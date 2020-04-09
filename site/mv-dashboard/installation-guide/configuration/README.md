@@ -403,3 +403,4 @@ http://my.pickserver.com:8180/
 2. The MV Dashboard Login screen displays. Enter your Login name and password and then click the Login button. By default the Login name and Password are both set to "admin".
 
 MV Dashboard is started.
+<PageFooter />

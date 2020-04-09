@@ -9,3 +9,4 @@
 | W$HIDDEN<br> | If set to 1, the widget is run by the dashboard but not displayed.<br> |
 | W$CHART.HEIGHT<br> | The height in pixels of the chart. If left unspecified, Dashboard will automatically select a chart height based on the CHART$WIDTH setting. Note that W$CHART.HEIGHT only applies to pie, line, bar, area and column charts.<br> |
 
+<PageFooter />

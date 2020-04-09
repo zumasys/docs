@@ -45,3 +45,4 @@ delete-account mvdb
 ```
 delete users mvdashboard
 ```
+<PageFooter />
