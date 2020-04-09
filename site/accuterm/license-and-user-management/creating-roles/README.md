@@ -25,3 +25,5 @@ Prior to creating a user, you will need to have already created your [Customer P
 4. Once the role has been created, you can select a user from the Available Users table and assign them to single or multiple roles.
 
 ![accuterm-8-creating-roles: 1566002193757-1566002193757](./1566002193757-1566002193757.png)
+  
+<PageFooter />

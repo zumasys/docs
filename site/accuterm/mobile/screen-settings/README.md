@@ -37,6 +37,5 @@ Since AccuTerm assigns colors to the visual attributes, some of the visual effec
 
 ![494604-accuterm-mobile-screen-settings: 1573845463553-1573845463553](./1573845463553-1573845463553.png)
 
-
-
-
+  
+<PageFooter />

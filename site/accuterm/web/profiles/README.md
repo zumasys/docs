@@ -24,4 +24,5 @@ The General Options are applicable to the overall operation of AccuTerm. General
 
 ![accuterm-8-web-profiles: 1565645089204-1565645089204](./1565645089204-1565645089204.png)
 
-
+  
+<PageFooter />

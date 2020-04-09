@@ -132,3 +132,5 @@ Free DNS service:  [https://www.duckdns.org](https://www.duckdns.org)
 ACME client to install CERT: [https://github.com/Neilpang/acme.sh](https://github.com/Neilpang/acme.sh)
 
 ACME example with DuckDNS: [https://github.com/Neilpang/acme.sh/wiki/dnsapi#27-use-duckdnsorg-api](https://github.com/Neilpang/acme.sh/wiki/dnsapi#27-use-duckdnsorg-api)
+  
+<PageFooter />

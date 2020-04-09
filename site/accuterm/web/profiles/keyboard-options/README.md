@@ -10,4 +10,5 @@ Most terminals provide commands that allow the host to program the function keys
 
 ![accuterm-8-keyboard-options: 1565909574688-1565909574688](./1565909574688-1565909574688.png)
 
-
+  
+<PageFooter />

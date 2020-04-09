@@ -194,3 +194,5 @@ ZModemAuto property is obsolete and has been removed.
 ### Settings object: 
 
 Generally, the same properties that were added, removed or superseded in the Session object have been similarly updated in the Settings object.
+  
+<PageFooter />

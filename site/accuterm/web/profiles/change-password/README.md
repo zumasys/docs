@@ -22,3 +22,5 @@ If you've forgotten or need to change your password and need to reset it, you ca
 4. Next, you will be prompted to change your password. Once you have completed that step, you will be redirected to the login page to authenticate with your new credentials.
 
 ![accuterm-8-change-accutermio-password: 1581532061680-image-(4)](./1581532061680-image-(4).png)
+  
+<PageFooter />

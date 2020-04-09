@@ -35,3 +35,5 @@ After launching your session and connecting to the server, you will have four op
   * [Sound Settings](./profiles/sound-settings/README.md)  
   * [Terminal Screen Options](./profiles/terminal-screen-options/README.md)  
   * [Terminal Settings](./profiles/terminal-settings/README.md)
+  
+<PageFooter />

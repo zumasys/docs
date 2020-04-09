@@ -30,3 +30,5 @@
 | Backspace key sends DEL: | When this option is selected, the BACKSPACE key sends the DEL (delete) control code. When the option is not set (the default), the BACKSPACE key sends the BS (backspace) control code. This option applies to the VT emulations (except VT52) and Linux Console emulation.<br> |
 | Auto-print works just like VT terminal:<br><br> | When this option is selected, the "auto print" slave printer function works the same as a real VT terminal. That is, when AccuTerm is in "auto print" mode, the entire screen line that the cursor is on is printed when AccuTerm receives a CR, LF or FF control code. If this option is not set, then the text is printed as it is received from the host (similar to Wyse auto-print mode). <br> |
 
+  
+<PageFooter />

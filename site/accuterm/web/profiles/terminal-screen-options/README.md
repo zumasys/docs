@@ -72,3 +72,5 @@ The built-in themes are:
 Since AccuTerm assigns colors to the visual attributes, some of the visual effects are not as important as they were on a real terminal. You can disable the underline effect or the blinking effect is you like. The assigned colors will still be used for those attributes, but the actual underline or blink will be disabled.
 
 ![accuterm-8-terminal-screen-options: 1565908467771-1565908467771](./1565908467771-1565908467771.png)
+  
+<PageFooter />

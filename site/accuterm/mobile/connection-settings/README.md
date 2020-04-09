@@ -28,3 +28,5 @@ AccuTerm supports Telnet connections to host machines over a TCP/IP network. Any
 | Keepalive | Although the Telnet protocol specification does not provide for "keepalives", AccuTerm can send periodic commands that should be ignored by most Telnet servers. Using keepalives may prevent the host (or router) from detecting that the connection is idle and forcing a disconnect. To use keepalives, select either DMARK or NOP as the command to send as a keepalive. Enter the desired interval in the every... sec field. |
 | Break key | Normally, AccuTerm sends the Telnet "interrupt process" command when you press the CTRL+BREAK key. If your host requires a different BREAK command, or to use a control character instead of a command, select the desired option from this drop-down list. If you select "control character", enter the decimal value of the control character to send in the code field (for CTRL+C, the decimal value is 3). |
 
+  
+<PageFooter />

@@ -45,6 +45,5 @@ Currently, you can enable or disable the following features:
 
 By selecting the See Details button, you can view the progress of the batch action and the success or failure of each action.
 
-
-
-
+  
+<PageFooter />

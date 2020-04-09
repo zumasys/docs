@@ -12,8 +12,6 @@
 
       <PageEdit />
 
-      <Vssue />
-
     <PageNav v-bind="{ sidebarItems }" />
 
     <slot name="bottom" />

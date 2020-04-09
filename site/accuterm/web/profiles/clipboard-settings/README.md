@@ -22,3 +22,5 @@
 | --- | --- |
 | On Text Selection (highlight): <br> |  Upon selection of text, chose the option to Do Nothing, Copy Text to Clipboard or Display the Text and Copy to Clipboard. |
 
+  
+<PageFooter />

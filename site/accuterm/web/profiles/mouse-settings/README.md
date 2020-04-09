@@ -9,3 +9,5 @@ Allow mouse input for supported applications This option determines whether host
 
 
 ![accuterm-8-mouse-settings: 1565909687318-1565909687318](./1565909687318-1565909687318.png)
+  
+<PageFooter />

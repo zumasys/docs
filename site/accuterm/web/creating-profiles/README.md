@@ -25,3 +25,5 @@ Prior to creating a user, you will need to have already created your [Customer P
 ## Note
 
 Profiles save automatically after you have edited a field.
+  
+<PageFooter />

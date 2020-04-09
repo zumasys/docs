@@ -309,5 +309,5 @@ Diagnostic options:
 -d &lt;level&gt;           display diagnostic messages to stderr. Levels: 1 = error and status messages, 2 = session details, 3 = detailed diagnostic info. This option is only used when running a debug version of 'atsr'.
 
 -o &lt;log\_file&gt;        specifies the name of a file to write stderr messages. Messages are appended to this file.
-
-
+  
+<PageFooter />

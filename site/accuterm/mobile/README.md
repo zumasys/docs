@@ -19,4 +19,5 @@ AccuTerm Mobile offers Terminal Emulation for remote management of host systems 
 * [Screen Settings](./screen-settings/README.md)
 * [Keyboard & Clipboard Settings](./keyboard-and-clipboard-settings/README.md)
 
-
+  
+<PageFooter />

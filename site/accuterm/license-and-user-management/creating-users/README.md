@@ -57,3 +57,5 @@ If you are looking to export users from Microsoft Active Directory, Microsoft Ex
 6. Step 3 - Verify the upload looks correct and select the Complete button. After a few seconds, the user's accounts will be provisioned and display in the Available Users table.
 
 ![accuterm-8-adding-users: 1566001630306-1566001630306](./1566001630306-1566001630306.png)
+  
+<PageFooter />

@@ -21,3 +21,5 @@ You can download the latest version of AccuTerm by visiting [https://www.zumasys
 The Internet is required for activation and if the install is not activated, AccuTerm will enter evaluation mode until the license can be activated.
 
 ![accuterm-8-activating-accuterm-desktop-licensing: 1565998827762-1565998827762](./1565998827762-1565998827762.png)
+  
+<PageFooter />

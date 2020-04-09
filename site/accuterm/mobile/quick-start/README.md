@@ -12,3 +12,5 @@
 3. Connect
 
 ![accuterm-mobile-quick-start-guide: 1573501835007-1573501835007](./1573501835007-1573501835007.png)
+  
+<PageFooter />

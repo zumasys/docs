@@ -33,3 +33,5 @@
     * [Terminal Screen Options](./web/profiles/terminal-screen-options/README.md)  
     * [Terminal Settings](./web/profiles/terminal-settings/README.md)
 
+  
+<PageFooter />

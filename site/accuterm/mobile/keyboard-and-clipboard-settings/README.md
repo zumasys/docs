@@ -17,3 +17,5 @@ Paste Options: end-of-line When the clipboard is "pasted" to an AccuTerm session
 
 
 ![accuterm-mobile-keydocszumasyscom-board-clipboard-settings: 1573846217288-1573846217288](./1573846217288-1573846217288.png)
+  
+<PageFooter />

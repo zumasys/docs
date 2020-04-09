@@ -26,3 +26,5 @@ Select the character set encoding that is used by the application running on the
 | --- | --- |
 | Euro Character: | If your host application needs to display the Euro currency symbol, enter the ASCII value of the Euro symbol, as used on your system. Note: for most character sets there is no standard value for this symbol. Some possible values are 128 (Windows ANSI), 164 (Latin-1 currency and Latin-9 Euro) and 213 (IBM modified code page 850). Unicode (UTF-8) defines the Euro as U+20AC. If you are using Unicode encoding, the Euro character value is ignored. |
 
+  
+<PageFooter />

@@ -24,4 +24,5 @@ This getting started guide walks you through the process of setting up your Zuma
    * Roles allow access to certain profiles ([Creating Roles](./../license-and-user-management/creating-roles/README.md))
    * Profiles are Accuterm Configuration files ([Creating Profiles](./../web/creating-profiles/README.md))
 1. [Install](https://www.zumasys.com/downloads/ "https://www.zumasys.com/downloads/") Accuterm Web server package ([Installing AccuTerm IO Server](./../web/installing-accuterm-io-server/README.md))
-
+  
+<PageFooter />
