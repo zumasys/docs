@@ -40,16 +40,16 @@ to return "XYZ".
 Other examples of use include:
 
 ```
-Q=MATCHFIELD("AA123BBB9","2A0N3A0N",3)
-CRT "Q = ",Q ; * to display: Q = BBB
+part = MATCHFIELD("AA123BBB9", "2A0N3A0N", 3)
+CRT "Q = ", part ; * to display: Q = BBB
 
-ADDR='20 GREEN ST. NATICK, MA.,01234'
-ZIP = MATCHFIELD(ADDR,"0N0X5N",3)
-CRT "ZIP = ",ZIP ; * to display: ZIP = 01234
+addr = '20 Green St. Natick, MA.,01234'
+zip = MATCHFIELD(addr, "0N0X5N", 3)
+CRT "ZIP = ", zip ; * to display: ZIP = 01234
 
-INV='PART12345 BLUE AU'
-COL = MATCHFIELD(INV,"10X4A3X",2)
-CRT "COL = ",COL ; * to display: COL = BLUE
+inv = 'PART12345 BLUE AU'
+col = MATCHFIELD(INV,"10X4A3X",2)
+CRT "COL = ", col ; * to display: COL = BLUE
 ```
 
 Go back to [jBASE BASIC](./../README.md)

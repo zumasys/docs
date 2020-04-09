@@ -27,7 +27,7 @@ Where:
 - until the other process releases the lock. If a **LOCKED** clause is used and the read is successful, a lock will be set.
 - If the **SETTING** clause is specified, **setvar** will be set to the number of fields in the record on a successful read. If the read fails, setvar will be set to one of [these values](./../incremental-file-errors).
 
-If **ON ERROR** is specified, it executes the statements following the **ON ERROR** clause for any of the above Incremental File Errors except error 128.
+If **ON ERROR** is specified, it executes the statements following the **ON ERROR** clause for any Incremental File Errors except 128.
 
 The record is mapped into the array using a predefined algorithm. The record is expected to consist of a number of Field separated records, which are then assigned one at a time to each successive element of the matrix. If there were more fields in the record than elements in the array, then the final element of the array will be assigned all remaining fields. If there were fewer fields in the record than elements in the array then remaining array elements will be assigned a null value.
 

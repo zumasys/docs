@@ -28,7 +28,7 @@ Where **milliseconds** must be an integer, specifying the number of **millisecon
 An example of use is as:
 
 ```
-*To sleep for 10 seconds
+* To sleep for 10 seconds
 MSLEEP 10000
 
 * 40 winks...

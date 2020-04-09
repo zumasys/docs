@@ -32,11 +32,11 @@ The remainder of **expression1** divided by **expression2** calculates the modul
 An example of use is as below:
 
 ```
-FOR I = 1 TO 10000
-    IF MOD (I, 1000) = 0 THEN
+FOR inx = 1 TO 10000
+    IF MOD (inx, 1000) = 0 THEN
         *perform a task
     END
-NEXT I
+NEXT inx
 ```
 
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide)

@@ -35,14 +35,14 @@ Where:
 An example would be as:
 
 ```
-DIM ARR1(45), ARR2(45)
-MAT ARR2 = "Array value"
-MAT ARR1 = MAT ARR2
+DIM arr1(45), arr2(45)
+MAT arr2 = "Array value"
+MAT arr1 = MAT arr2
 
-CRT DQUOTE(ARR1(45))
+CRT DQUOTE(arr1(45))
 ```
 
-to display "Array value", even though it was initially assigned to A
+to display "Array value", even though it was initially assigned to arr2
 
 Go back to [jBASE BASIC](./../README.md)
 

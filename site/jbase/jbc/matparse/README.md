@@ -31,8 +31,8 @@ When specifying starts and end positions with multi-dimensional arrays, it is ne
 An example of use is as:
 
 ```
-DIM A(40)
-MATPARSE A,3,7 FROM Dynamic
+DIM Array(40)
+MATPARSE Array,3,7 FROM Dynamic
 ```
 
 Assign 5 elements of the array starting at element 3.

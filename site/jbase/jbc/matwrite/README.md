@@ -35,7 +35,7 @@ dim sample_arr(20)
 mat sample_arr = 99
 
 matwrite sample_arr on "New array" setting response_code on error
-    crt "Error: ":response_code :" Record could not be written."
+    crt "Error : " : response_code : " Record could not be written."
 end
 ```
 

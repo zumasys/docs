@@ -19,9 +19,9 @@ Where **expression** may evaluate to any numeric value.
 An example of use may be as:
 
 ```
-A = 10
-B = 12
-CRT NEG(A-B)
+varA = 10
+varB = 12
+CRT NEG(varA - varB)
 ```
 
 to display the value 2.

@@ -29,12 +29,12 @@ XY.element = X ?? (INT (X / Y) * Y)
 An example of use is as:
 
 ```
-A=3:@VM:7
-B=2:@SM:7:@VM:4
-CRT MODS(A,B)
+arrA = 3 : @VM : 7
+arrB = 2 : @SM : 7 : @VM : 4
+CRT OCONV(MODS(arrA,arrB), "MCP")
 ```
 
-to display an array containing :  1 ,0 , 3.
+to display an array containing :  1\0]3
 
 Go back to [jBASE BASIC](./../README.md)
 

@@ -57,8 +57,8 @@ Reply MATCHES "0N'.'2N..."
 To check if a variable consists of a string of 4 arbitrary characters followed by the ":" character then 6 numerics then the ";" character and then 2 alphabetic characters., one may go about it as follows:
 
 ```
-VAR_PATTERN = "4X':'6N';'2A"
-MATCHED = TEST_VAR MATCHES VAR_PATTERN
+var_Pattern = "4X':'6N';'2A"
+matched = test_Var MATCHES var_Pattern
 ```
 
 Go back to [jBASE BASIC](./../README.md)

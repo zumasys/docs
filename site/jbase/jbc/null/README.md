@@ -17,7 +17,7 @@ NULL
 An example is as:
 
 ```
-LOCATE A IN B SETTING C ELSE NULL
+LOCATE strA IN strB SETTING varC ELSE NULL
 ```
 
 Go back to [jBASE BASIC](./../README.md)
