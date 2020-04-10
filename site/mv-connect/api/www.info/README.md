@@ -21,3 +21,6 @@ WWW.INFO is a common variable that stores all the web information.  It is not r
 | 36 | Config file | WGETCONFIG |
 | <br> | <br> | <br> |
 
+
+  
+<PageFooter />

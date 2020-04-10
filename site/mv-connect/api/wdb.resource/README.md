@@ -16,3 +16,6 @@
 | 007<br> | set to 1 to save request debug information for use with WDEBUG debugging tool, 0 to disable debug info |
 | 008<br> | resource account name - LOGTO this account before executing the resource handler program specified in attribute 3<br> |
 
+
+  
+<PageFooter />

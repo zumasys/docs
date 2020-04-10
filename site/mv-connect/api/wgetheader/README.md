@@ -26,3 +26,6 @@ EXAMPLE
 CALL WGETHEADER(TOKEN,"Token")
 * TOKEN will have the passed header
 ```
+
+  
+<PageFooter />

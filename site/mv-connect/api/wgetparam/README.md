@@ -35,3 +35,6 @@ CALL WGETPARAM(VALUE,1)
 #### NOTES
 
 Typically on rest calls you send the Primary Key you want retrieved as the first parameter.  You would use this subroutine to retrieve that id.
+
+  
+<PageFooter />

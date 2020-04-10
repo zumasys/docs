@@ -30,3 +30,6 @@ CALL WSETCONTENTTYPE("application/json")
 #### NOTES
 
 Click [here](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Type "Mozilla documentation") to see a list of valid Content Types.
+
+  
+<PageFooter />

@@ -21,3 +21,6 @@ CALL WSETBUFFER(BUF.SIZE)
 | --- | --- |
 | BUF.SIZE<br> | Maximum number of characters to buffer, or zero to disable buffering<br> |
 
+
+  
+<PageFooter />

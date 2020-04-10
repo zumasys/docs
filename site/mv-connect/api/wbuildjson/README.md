@@ -34,3 +34,6 @@ JSON:="}"
 ### NOTES
 
 This is a very simple function.  In order to build arrays you must manually build the strings.  This function has been replaced with the much more powerful WOBJ subroutine.  This function remains for backwards compatibility.
+
+  
+<PageFooter />

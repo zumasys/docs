@@ -332,3 +332,6 @@ The primary one is a jshow -v WRESTEST is shown.  This allows you to see your f
 This should handle most connection issues you will run into.  If you have your rest service being called but is generating errors please refer to the documentation on debugging your Rest Service.
 
 
+
+  
+<PageFooter />

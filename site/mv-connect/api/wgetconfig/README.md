@@ -37,3 +37,6 @@ This function is used internally to get config items.  The config file is in WD
 003 DEFAULT_RESOURCE]MVDB.MAIN
 004 APIKEY]12345
 ```
+
+  
+<PageFooter />

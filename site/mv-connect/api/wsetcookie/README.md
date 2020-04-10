@@ -35,3 +35,6 @@ CALL WSETCOOKIE("mycookie","value",DATE(),TIME+300,"/",".","Y")
 The WSETCOOKIE command basically builds a Set-Cookie header.  This function properly formats the Set-Cookie for you and understands pick date and time formats.  If you wish more control you can use the WSETHEADER and build your own Set-Cookie line.
 
 Here is a good [link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie "Link to Set-Cookie documentation") on how Set-Cookie works.
+
+  
+<PageFooter />

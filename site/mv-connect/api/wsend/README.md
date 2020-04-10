@@ -27,3 +27,6 @@ CALL WSEND(DATATOSEND)
 ```
 CALL WSEND("Hello World")
 ```
+
+  
+<PageFooter />
