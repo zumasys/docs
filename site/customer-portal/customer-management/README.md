@@ -41,3 +41,6 @@ If you do not see your customer(s) listed under your account or do not see the o
 3. Select a specific company by clicking the drop-down on the Company Filter.
 
 ![customer-portal-customer-management: 1574190767690-1574190767690](./1574190767690-1574190767690.png)
+
+  
+<PageFooter />
