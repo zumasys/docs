@@ -20,7 +20,7 @@ The “C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsA
 
 Please also be aware that the Environment Variable settings for the Visual Studio 2017/2019 Build Tools are not 100% reliable, as the folders contain build version numbers which are liable to change over time as Microsoft issues updates.
 
-To that end, there is an [update in jBASE 5.7.7 onwards](#jbase-577-and-later) which moves these settings to the jBASE "system.properties" file.  Further updates will be provided on how any potential changes to these settings will be handled.
+To that end, there is an [update in jBASE 5.7.7 onwards](#jbase-5-7-7-and-later) which moves these settings to the jBASE "system.properties" file.  Further updates will be provided on how any potential changes to these settings will be handled.
 
 * * *
 
