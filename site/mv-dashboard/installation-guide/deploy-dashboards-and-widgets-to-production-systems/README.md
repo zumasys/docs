@@ -26,4 +26,6 @@ Complete these instructions to manually deploy dashboard components to a product
 
    | <!----> | <!----> |
    | --- | --- |
-   NOTE | It is important to remember that you must update the production system with any additions or changes to their application such as new dictionaries, procs or programs and/or q-pointers to new files that support the elements of the dashboard that you are deploying   <PageFooter />
+   NOTE | It is important to remember that you must update the production system with any additions or changes to their application such as new dictionaries, procs or programs and/or q-pointers to new files that support the elements of the dashboard that you are deploying   
+     
+   <PageFooter />
