@@ -20,7 +20,22 @@ The “C:\Windows\system32\config\systemprofile\AppData\Local\Microsoft\WindowsA
 
 Please also be aware that the Environment Variable settings for the Visual Studio 2017/2019 Build Tools are not 100% reliable, as the folders contain build version numbers which are liable to change over time as Microsoft issues updates.
 
-To that end, there is an [update in jBASE 5.7.7 onwards](#jbase-5-7-7-and-later) which moves these settings to the jBASE "system.properties" file.  Further updates will be provided on how any potential changes to these settings will be handled.
+To that end, there is an [update in jBASE 5.7.7 onwards](#jbase-5-7-7-and-later) which moves these settings to the jBASE "system.properties" file.  
+
+## Up-to-date notes on the jBASE 5.7.7 Install
+
+> For a jBASE upgrade, if you wish to retain your existing PATH. INCLUDE and LIB settings, install jBASE as usual and ignore the prompt to "Install or Configure C Compiler and just run the normalupgrade process.
+>
+> For a jBASE upgrade where you wish to take advantage of a "clean" PATH and not have to worry about INCLUDE and LIB, first remove all of the VS 2017/2019 settings from PATH and delete the INCLUDE and LIB entries before starting the upgrade process.
+> Then, when starting the upgrade process, click on the "Install or Configure C Compiler" button. The Installer will then perform several steps culminating in the following screen:  
+>  
+> ![Update Compiler Configuration](./CCompiler_1.png)  
+>  
+> After a short while, the Compiler Configuration will complete and the following screen will appear:  
+> ![Complete Compiler Configuration](./CCompiler_2.png).  
+> Click on the Finish button and complete the upgrade as usual. The system.properties file will now contain the necessary setting to enable you to compile and catalog programs -  [See jBASE 5.7.7 onwards](#jbase-5-7-7-and-later)  
+>
+> For a new jBASE installation, just follow the prompts to install the compiler and then jBASE, as per the [installation guides](./../../administration/installation-guides/jbase-5.6-windows-installation-guide/README.md) and the system.properties file will automatically be updated for you.
 
 * * *
 
@@ -140,5 +155,4 @@ This results in a much shorter PATH setting in the System Environment variables.
 
 Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />
