@@ -48,3 +48,6 @@ CALL WOBJ(OBJECT,ACTION,NODE,VALUE,OPTIONS,RERR)
 | DEBUG | Use to display debug messages to the screen. |
 
 [Back to jAgent APIs](./../README.md)
+
+  
+<PageFooter />

@@ -30,3 +30,6 @@ an additional blank page would be printed, creating a second Hold entry.
 ### Current Release Behavior
 
 No additional Hold entry with a blank page is created.
+
+  
+<PageFooter />

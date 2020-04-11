@@ -34,3 +34,6 @@ Usually, this isn't a problem as a customer will have locked the item with a REA
 An internal lock is applied to make the index update and file update atomic.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

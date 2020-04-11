@@ -49,3 +49,6 @@ Less:(PROFILES LISTA
 generates an active list that contains the elements Sheila and Mary.
 
 Back to [List Processing](./../list-processing)
+
+  
+<PageFooter />

@@ -35,3 +35,6 @@ Input conversion does not invert. It simply applies the text extraction to the i
 | T3 | ABCDEFG | T | ABC |
 
 Back to [Conversion Processing](./../conversion-processing)
+
+  
+<PageFooter />

@@ -72,3 +72,6 @@ Remember to set "crontab" to run a DB-PAUSE before the backup is due to start:
 > This [Veeam Community Forum URL](https://forums.veeam.com/veeam-agent-for-linux-f41/no-character-device-registered-for-veeamsnap-kernel-module-t62256.html) provided some useful pointers as to a set of RPM's which could be downloaded and, via the Veeam application, installed on the Linux system.
 
 Back to [Veeam](./../README.md)
+
+  
+<PageFooter />

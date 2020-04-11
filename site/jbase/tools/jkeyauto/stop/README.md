@@ -26,3 +26,6 @@ stop "This program has finished"
 ```
 
 [Back to jKeyAuto](./../README.md)
+
+  
+<PageFooter />

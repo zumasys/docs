@@ -133,3 +133,6 @@ REPEAT
 The original method of logging errors to the **jbase\_error\_trace** file, by setting the environment variable **JBASE\_ERRMSG\_TRACE=1**, can still be used. However, if **log\_runtime\_errors** is set in the Config\_EMULATE file then it will override this behavior.
 
 Back to [5.6.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

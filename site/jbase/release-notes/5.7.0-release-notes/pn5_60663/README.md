@@ -43,3 +43,6 @@ b                  2
 x                  3
 z                  1
 ```
+
+  
+<PageFooter />

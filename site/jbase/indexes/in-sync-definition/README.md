@@ -23,3 +23,6 @@ If the index is not "in sync" then the commands key-select and query-index will 
 If a file is not "in sync" then you can use the [rebuild-index](./../rebuild-index) command to rebuild the index data from the file data and once [rebuild-index](./../rebuild-index) is run the status will change to "in sync"
 
 Back to [Indexes](./../README.md)
+
+  
+<PageFooter />

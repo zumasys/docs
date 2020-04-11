@@ -26,3 +26,6 @@ The logging setting wraps the current mechanism and simply sets the appropriate 
 ```
 
 Back to [Profiles](./../jbase-profiles)
+
+  
+<PageFooter />

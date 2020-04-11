@@ -32,3 +32,6 @@ PH-CLEAR 100
 Deletes log and history records for port number 100.
 
 Back to [Background Processing](./../README.md)
+
+  
+<PageFooter />

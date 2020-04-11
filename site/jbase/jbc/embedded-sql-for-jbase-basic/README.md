@@ -189,3 +189,6 @@ SQL Pre Processor error -1
 ...this is an indication that either the embedded SQL kit has not been correctly loaded, and does not have the 'nsqlprep' command, or the 'nsqlprep' command does exist but it is not visible to the PATH environment variable.
 
 Go back to [jBASE BASIC](./../README.md)
+
+  
+<PageFooter />

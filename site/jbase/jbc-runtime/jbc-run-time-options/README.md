@@ -82,3 +82,6 @@ And ran it the same way, the output would be:
 Note that the reason for using the **CHANGE** function is that **SYSTEM(1000)** and **SYSTEM(1001)** return the command line with the arguments delimited by an attribute mark, whereas the **SENTENCE** function delimits the arguments with a space character.
 
 [Back to jBC Runtime](./../README.md)
+
+  
+<PageFooter />

@@ -212,3 +212,6 @@ The ODBC driver has not been registered correctly. Use the jODBCManager as descr
 Check that the installer has added the installation directory to the SYSTEM defined PATH environment variable since the ODBC driver has to be able to access the run-time libraries located in the installation directory. Ensure that the PATH length does not exceed the maximum length. Also try to prefix the installation directory instead of having it appended to the end of the PATH and check the result of this action. If this helps, edit the PATH to find which particular directory is causing the ODBC driver to fail. Use the jODBCManager to run the same connection test from the command line.
 
 [ODBC Quick Start](./../odbc-quick-start)
+
+  
+<PageFooter />

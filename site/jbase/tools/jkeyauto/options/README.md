@@ -30,3 +30,6 @@ jkeyauto -S LOCK|UNLOCK|WAIT|TEST locknumber {-ftimeout}
 See the description of the [SYNC](./../sync) statement for the operation of this syntax.
 
 [Back to jKeyAuto](./../README.md)
+
+  
+<PageFooter />

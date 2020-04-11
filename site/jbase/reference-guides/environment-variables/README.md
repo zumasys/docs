@@ -181,3 +181,6 @@ set JEDI_PREFILEOP=TYPE=JP CASE=OFF       (Windows)
 | JRFS\_LOCALPATH\_JQL | set to 1 to allow remote pointer to have a different name than the remote file |
 | JRFS\_SERVERNAME | allows the jRFS client to override the service port |
 | JRFS\_HOSTNAME | allows the jRFS client to override the target host |
+
+  
+<PageFooter />

@@ -44,3 +44,6 @@ SET JBCDEV_BIN=C:\dev\TESTBASE\bin
 See also: [JBCDEV\_LIB](./../jbcdev_lib), [PATH](./../path).
 
 Go Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

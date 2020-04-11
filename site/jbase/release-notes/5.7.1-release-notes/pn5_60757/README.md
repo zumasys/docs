@@ -29,3 +29,6 @@ The **FOOTING** will print on every page except the last page.
 All pages print the FOOTING.
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

@@ -16,3 +16,6 @@ As a simple example, suppose your database consists of records which span 42 reg
 > Distributed files can also be used when the size of a file exceeds the size limit for the operating system (typically 2 gigabytes). This effectively permits file sizes to reach 254 times the maximum file size your operating system allows.
 
 Back to [Distributed Files](./../README.md)
+
+  
+<PageFooter />

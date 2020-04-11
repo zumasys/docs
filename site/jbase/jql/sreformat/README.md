@@ -43,3 +43,6 @@ Two EOF marks terminate the file on tape.
 See the [REFORMAT](./../reformat) command for examples
 
 Back to [jQL](jbase-query-language-jql-)
+
+  
+<PageFooter />

@@ -38,3 +38,6 @@ Q-pointers now resolve regardless of the case of the account name and/or file na
 This change is only effective in D3 emulation.
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

@@ -32,3 +32,6 @@
 | [JException](./../jexception-jrclient-api "class in com.jbase.jrcs") | Represents an exception thrown by all JClient classes |
 
 Back to [jRCS java API](./../README.md)
+
+  
+<PageFooter />

@@ -49,3 +49,6 @@ G0,3
 If the field contains "ABC,DEF,GHI,JKL", ABC,DEF,GHI will be returned. Note that the field separators are included in the returned string.
 
 Back to [Conversion Processing](./../conversion-processing)
+
+  
+<PageFooter />

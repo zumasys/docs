@@ -32,3 +32,6 @@ where system-operand can be any of the following:
 | V | Returns the previous value transformed by a format code |
 
 Back to [A-Correlatives](./../a-correlatives)
+
+  
+<PageFooter />

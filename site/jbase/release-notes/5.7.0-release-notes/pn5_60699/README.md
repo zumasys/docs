@@ -67,3 +67,6 @@ The new behavior populates the variable in the SETTING clause with a dynamic arr
 ```
 JPQ]404]332]QLNUMSEL^241]332]D3MD]Savelist_msg^407]332]QLNUMCNT^405]10]QLNUMLIST^401]QLBADFILE
 ```
+
+  
+<PageFooter />

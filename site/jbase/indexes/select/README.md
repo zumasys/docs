@@ -130,3 +130,6 @@ CLARK B 2
 In this example the index keys are read in reverse order. As a SELECT is assumed to be in forward direction, the first READPREV constitutes a change of direction subject to the rules described in the READPREV description. Hence the first index key is the one that precedes the first JONES entry.
 
 Back to [Indexes](./../README.md)
+
+  
+<PageFooter />

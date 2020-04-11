@@ -350,3 +350,6 @@ P - Send output to the spooler
 R - Suppress 'Error 202 Record not on file' errors  
 
 Back to [jBASE Query Language (jQL)](jbase-query-language-jql-)
+
+  
+<PageFooter />

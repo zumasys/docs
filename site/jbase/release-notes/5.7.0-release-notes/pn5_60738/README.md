@@ -27,3 +27,6 @@ configuration_option = value
 ```
 
 This allows you to cut-and-paste the output into a new configuration.
+
+  
+<PageFooter />

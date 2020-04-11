@@ -85,3 +85,6 @@ In this scenario, attribute 3 will be extracted from the record and passed to a 
 - The use of the **-lD** option shows that when an enquiry is made of the index via query-index , key-select or the jQL commands such as LIST or SELECT, then the string to search for will first of all be converted using an input conversion of type "D". This is primarily used so that these commands can use date (or times) in external format (e.g. 23-jul-1970) but will be compared numerically as internal values against the index data.
 
 Back to [Indexes](./../README.md)
+
+  
+<PageFooter />

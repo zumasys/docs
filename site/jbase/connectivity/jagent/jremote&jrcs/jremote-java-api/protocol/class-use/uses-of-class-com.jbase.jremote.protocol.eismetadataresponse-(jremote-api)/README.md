@@ -21,3 +21,6 @@ com.jbase.jremote.protocol.EISMetaDataResponse
  Constructors in [com.jbase.jremote](./../../../../../jremote-api) with parameters of type [EISMetaDataResponse](./../../eismetadataresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol")  | `EISMetaDataRepository(EISMetaDataResponse mdRespository)` <br> |
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

@@ -32,3 +32,6 @@ A **WRITESEQF** statement following several [WRITESEQ](./../writeseq) statements
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

@@ -13,3 +13,6 @@ All jBASE run-time messages exist in the jbcmessages file as items. Each item co
 **Remember though, that you do not modify the "jbcmessages" file but rather you generate this file by running the "jmakeerr" command against your own version of the "jbcinit.err" file.**
 
 [Back to Coding Corner](./../README.md)
+
+  
+<PageFooter />

@@ -22,3 +22,5 @@ Where Options can be:
 **-a**   Delete ALL triggers.
 
 Back to [Triggers](./../README.md)
+  
+<PageFooter />

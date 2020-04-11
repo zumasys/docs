@@ -35,3 +35,6 @@ jsh ~ -->
 Embedded Value Marks are now handled correctly by the code translator.
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

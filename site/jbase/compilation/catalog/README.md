@@ -78,3 +78,6 @@ libAccount1.so
 - An attempt is made to make sure that the users DLLs do not need to be relocated as this process causes them to become private (i.e. not shared). This is done by setting a unique base address for each generated DLL. The "baseaddress" entry is used for this, the default is 0x30,000,000 (or 768MByte). The jBASE system DLLs are based at 0x20,000,000 (512MByte) so this value should not be used. NT System DLLs are at 0x70,000,000. The first user DLL (normally lib0.dll) will be based at this specified address, with each subsequent one incremented by "maxsize". This should avoid any overlap since the "maxsize" value is based on the size of the objects and not the DLL which is usually about 75% of this figure.
 
 [Back to Compilation](../README.md)
+
+  
+<PageFooter />

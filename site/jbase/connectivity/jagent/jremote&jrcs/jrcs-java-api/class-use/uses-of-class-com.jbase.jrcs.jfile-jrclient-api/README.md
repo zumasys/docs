@@ -16,3 +16,6 @@
 | Modifier and Type | Method | Description |
 | --- | --- | --- |
 | void | JCommon.[setFile](./../../jcommon-jrclient-api#setFile-int-com.jbase.jrcs)(int index, [JFile](./../../jfile-jrclient-api "class in com.jbase.jrcs") file) | Stores a file variable into a specific position in a common block |
+
+  
+<PageFooter />

@@ -21,3 +21,6 @@ By default, all hashed files are marked for inclusion in a transaction, however 
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

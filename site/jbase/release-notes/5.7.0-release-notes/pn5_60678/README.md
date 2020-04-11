@@ -49,3 +49,6 @@ fbcentos-~: create-file DEMO 1 23
 The jstat and jchmod commands work correctly with the new file type.
 
 The **make-demo-file** command includes an option to create the file as type **JD**; this will eventually become the default file type.
+
+  
+<PageFooter />

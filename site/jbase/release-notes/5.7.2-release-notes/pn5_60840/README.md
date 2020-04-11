@@ -24,3 +24,6 @@ RETURN
 ### Current Release Behavior
 
 PREWRITE trigger is now able to amend the record.
+
+  
+<PageFooter />

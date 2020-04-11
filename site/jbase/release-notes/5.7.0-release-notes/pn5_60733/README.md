@@ -26,3 +26,6 @@ the DISPLAY line would display before the inline prompt.
 ### Current Release Behavior
 
 Inline prompts on comment lines are processed in the correct sequence.
+
+  
+<PageFooter />

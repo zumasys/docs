@@ -37,3 +37,6 @@ WARNING: Using alternative emulation file 'C:\jbase5\config\Config_EMULATE_name'
 
 
 When creating a custom emulation, all entries must be entered explicitly, **dup** entries are not recognized.
+
+  
+<PageFooter />

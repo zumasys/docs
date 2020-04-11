@@ -32,3 +32,6 @@ Be sure to select the “Desktop development with C++” option along with the �
 ![359033-jbase-for-multivalue-developers: 1548287245873-1548287245872](./1548287245873-1548287245872.png)
 
 [Back to Coding Corner](./../README.md)
+
+  
+<PageFooter />

@@ -60,3 +60,6 @@ The nearest integer with nth root 6 of 12345 = 5
 ```
 
 Back to [Dynamic Objects - Overview](./../README.md)
+
+  
+<PageFooter />

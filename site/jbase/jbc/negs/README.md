@@ -22,3 +22,6 @@ If the value of an element is negative, the returned value is positive. If **dyn
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

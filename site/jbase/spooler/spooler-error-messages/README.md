@@ -22,3 +22,6 @@ The following is a list of spooler error messages
 | CMND? | Displayed if an invalid spooler editor command is entered. |
 
 Back to [Spooler](./../../../jbase-basic-%28jbc%29/spooler).
+
+  
+<PageFooter />

@@ -39,3 +39,6 @@ to display an array containing :  1\0]3
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

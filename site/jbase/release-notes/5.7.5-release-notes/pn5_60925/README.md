@@ -15,3 +15,6 @@ The tools for profiling jBASE code are set by the **JDIAG** environment variable
 Using  **JDIAG=profile=long:filename=xxx** now allows the **jprof** command to create a report.
 
 Back to [5.7.5 Release Notes](./../README.md)
+
+  
+<PageFooter />

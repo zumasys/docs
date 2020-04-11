@@ -1120,3 +1120,6 @@ Specified by: writeExternal in interface [Externalizable](http://java.sun.com/j2
 Throws:  [IOException](http://java.sun.com/j2se/1.5.0/docs/api/java/io/IOException.html?is-external=true "class or interface in java.io")
 
 Back to [jRCS java API](./../README.md)
+
+  
+<PageFooter />

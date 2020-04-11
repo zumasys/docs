@@ -250,3 +250,6 @@ CASE event EQ TRIGGER_TYPE_PRE_DELETE ;* If call BEFORE a DELETE is performed
 ```
 
 Back to [Triggers](./../README.md)
+
+  
+<PageFooter />

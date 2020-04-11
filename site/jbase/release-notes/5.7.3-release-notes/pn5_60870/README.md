@@ -15,3 +15,6 @@ There was no ability to clear the command stack.
 A new dot-stacker command, **.Z**, can be used to Zap [clear] the entire contents of the command stack.
 
 Back to [5.7.3 Release Notes](./../README.md)
+
+  
+<PageFooter />

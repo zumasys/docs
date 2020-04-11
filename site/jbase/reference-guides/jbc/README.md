@@ -716,3 +716,6 @@ jBASIC is able to create files and directories that can be read by the operating
 | [XTD](./../../jbc/xtd) | function | Returns the decimal representation of a hexadecimal expression. |
 
 [Back to Reference Guides](../README.md)
+
+  
+<PageFooter />

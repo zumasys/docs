@@ -35,3 +35,6 @@ rc = submitRequest(request_handle, time_out, post_data, response_headers, respon
 see also [createRequest](../createRequest/#heading)
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

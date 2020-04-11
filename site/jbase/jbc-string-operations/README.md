@@ -67,3 +67,6 @@ s[-22,1] = t returns "Anyone who needs a will just isn't spending all of their m
 > Negative substring operations are not available in all emulations. Consult your legacy manual.]
 
 [Back to Knowledgebase](./../README.md)
+
+  
+<PageFooter />

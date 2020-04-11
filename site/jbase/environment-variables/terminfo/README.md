@@ -33,3 +33,6 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$JBCRELEASEDIR/lib
 ```
 set TERMINFO=C:\term
 ```
+
+  
+<PageFooter />

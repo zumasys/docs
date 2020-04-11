@@ -240,3 +240,6 @@ ID:LASTVAL
 ```
 
 Back to [jQL](jbase-query-language-jql-)
+
+  
+<PageFooter />

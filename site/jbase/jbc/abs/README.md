@@ -27,3 +27,6 @@ The above will result in the value 10 being assigned to positive\_var.
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

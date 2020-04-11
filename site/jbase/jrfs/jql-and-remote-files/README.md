@@ -25,3 +25,6 @@ JRFS_LOCALPATH_JQL=1
 This will tell jBASE to enable use of remote file path.
 
 Back to [Remote Files](./../jbase-remote-file-service-%28jrfs%29).
+
+  
+<PageFooter />

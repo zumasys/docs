@@ -36,3 +36,6 @@ Due to the additional overhead of resolving Q to Q pointers which is not normall
 | 20. | &lt;1&gt; F<br>&lt;2&gt; /absolute/path/for/DATA<br>&lt;3&gt; /absolute/path/for/DICT<br> | Fpointer to absolute file<br>/absolute/path/for/DATA |
 
 Back to [Accounts](./../README.md)
+
+  
+<PageFooter />

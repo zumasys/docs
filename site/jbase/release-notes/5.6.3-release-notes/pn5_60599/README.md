@@ -27,3 +27,6 @@ This new behavior will be limited to jBASE saves only.
 Records of any size will be okay as long as the (G option is used when running ACCOUNT-SAVE.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

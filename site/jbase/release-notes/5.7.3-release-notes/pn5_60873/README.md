@@ -68,3 +68,6 @@ para SCRIPTS PATEST
 ```
 
 Back to [5.7.3 Release Notes](./../README.md)
+
+  
+<PageFooter />

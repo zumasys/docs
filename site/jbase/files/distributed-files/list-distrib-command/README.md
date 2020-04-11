@@ -21,3 +21,6 @@ LIST-DISTRIB INVENTORY
 ```
 
 Back to [Distributed Files](./../README.md)
+
+  
+<PageFooter />

@@ -47,3 +47,6 @@ Sample ftp function that uses the [$ftp class](../ftpclass-jabba/#heading)
 ```
 
 Back to [jftp.](./../README.md)
+
+  
+<PageFooter />

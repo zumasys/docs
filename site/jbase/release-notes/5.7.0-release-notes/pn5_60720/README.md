@@ -30,3 +30,6 @@ No file name could be found for your query
 ### Current Release Behavior
 
 Q- and F-pointers can now access encrypted Dynamic Files.
+
+  
+<PageFooter />

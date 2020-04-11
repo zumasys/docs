@@ -122,3 +122,6 @@ public int getType()
 Returns:type id of the objects, used during the serialization
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

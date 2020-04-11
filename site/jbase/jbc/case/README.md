@@ -53,3 +53,6 @@ In the above scenario, a single comment is printed depending on the value of "An
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

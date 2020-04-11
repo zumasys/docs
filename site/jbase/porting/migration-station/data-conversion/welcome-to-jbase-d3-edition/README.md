@@ -279,3 +279,6 @@ SELECTINDEX index-name{, index-key} FROM file-var {TO select-var}
   * Option #2 is to export IGNOREEOF=999.
   
 Back to [Data Conversion](./../README.md)
+
+  
+<PageFooter />

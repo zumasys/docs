@@ -45,3 +45,6 @@ The code above displays 1 -1, which indicates that XY999 is greater than XY1000 
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

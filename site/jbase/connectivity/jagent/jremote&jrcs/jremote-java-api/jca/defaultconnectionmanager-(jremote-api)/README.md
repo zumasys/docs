@@ -68,3 +68,6 @@ public Object allocateConnection(javax.resource.spi.ManagedConnectionFactory mcf
 Specified by:`allocateConnection` in interface `javax.resource.spi.ConnectionManager`Throws:`javax.resource.ResourceException`
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

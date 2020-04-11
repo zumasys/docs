@@ -17,3 +17,6 @@ Display status of jDLS and jRLA services (jBASE service, not Windows service) wh
 ### Notes
 
 >To display status of Windows services, the **jdiag** command must be run with elevated privileges (run as administrator).
+
+  
+<PageFooter />

@@ -84,3 +84,6 @@ Optional: Delete the DISTCUST.ERRORS file.
 `DELETE-FILE DISTCUST.ERRORS`
 
 Back to [Distributed Files](./../README.md
+
+  
+<PageFooter />

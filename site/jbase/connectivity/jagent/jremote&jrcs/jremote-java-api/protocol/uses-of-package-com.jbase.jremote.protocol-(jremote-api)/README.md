@@ -45,3 +45,6 @@ Classes in [com.jbase.jremote.protocol](./../com.jbase.jremote.protocol-%28jremo
 | [JSelectListProt](../../../../com/jbase/jremote/protocol/class-use/JSelectListProt.html#com.jbase.jremote.protocol)<br>A serializable list of jBASE file records.<br> |
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

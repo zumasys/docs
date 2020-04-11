@@ -25,3 +25,6 @@ SORT WCOMPS TOTAL PAYMENTS2 PDATE2 GE "26/5/07" AND LE "26/5/07" PDESC2 PAYMENTS
 ```
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

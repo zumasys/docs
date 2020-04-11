@@ -67,3 +67,6 @@ Result:
     ]
 }
 ```
+
+  
+<PageFooter />

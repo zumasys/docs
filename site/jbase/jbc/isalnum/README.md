@@ -25,3 +25,6 @@ When the **ISALNUM()** function is used in International Mode, the properties of
 Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

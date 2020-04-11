@@ -100,3 +100,6 @@ public ByteObject getData()
 ```
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

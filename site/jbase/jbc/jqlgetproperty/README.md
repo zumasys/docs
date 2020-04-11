@@ -30,3 +30,6 @@ This function returns -1 if there is a problem with the parameters or the progra
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

@@ -71,3 +71,6 @@ This also displays "1". Because it is an array it tries to convert "greg" to a n
 ## Notes
 
 The only properties that are inherited are those that are created in the constructor of the inherited class.
+
+  
+<PageFooter />

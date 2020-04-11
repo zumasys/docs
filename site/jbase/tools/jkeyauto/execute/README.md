@@ -44,3 +44,6 @@ perform "LIST MD IF \*A1 \> \'1234\'" SETTING s1
 if it is undesired for the \* &gt; or ' characters as special character, so the normal shell convention of preceding them with a back slash to "delimit" the shell meta-characters is followed.
 
 [Back to jKeyAuto](./../README.md)
+
+  
+<PageFooter />

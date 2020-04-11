@@ -35,3 +35,6 @@ After the backup, a DB-RESUME should be issued to allow normal jBASE activity to
 [Restoring data from a Linux Veeam backup](./linux-restore/README.md)
 
 Back to [FAQ](./../README.md)
+
+  
+<PageFooter />

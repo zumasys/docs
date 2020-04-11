@@ -35,3 +35,6 @@ In this example, the expression [MOD(DATE(),7)](./../mod&rem) will return 0 (FAL
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

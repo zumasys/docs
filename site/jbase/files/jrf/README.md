@@ -48,3 +48,6 @@ jrf {-options} *
 - WARNING: The **jrf** utility should ONLY be executed when users are NOT connected to the database otherwise data loss can occur. In other words, the file should not be opened by another process.
 
 Back to [Files](./../README.md)
+
+  
+<PageFooter />

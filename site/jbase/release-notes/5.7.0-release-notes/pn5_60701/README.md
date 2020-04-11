@@ -29,3 +29,6 @@ In order to display the lock table, it was necessary to include the **-d** optio
 ### Current Release Behavior
 
 Issuing the **-L** option now implies the **-d** option and the lock table is properly displayed.
+
+  
+<PageFooter />

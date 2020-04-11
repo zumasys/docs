@@ -21,3 +21,6 @@
 [tape-commands](./tape-commands/README.md)  
 
 [Back to Knowledgebase](./../README.md)
+
+  
+<PageFooter />

@@ -17,3 +17,6 @@ These synonyms were previously supported, but disappeared in 5.7.0 with the new 
 These synonyms added back to the compiler (or to be more precise, to the pre-processor which converts =&gt; to GE and =&lt; to LE)
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

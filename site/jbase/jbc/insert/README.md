@@ -34,3 +34,6 @@ Note that **dynB** is unchanged and the modified **expression1** is assigned to 
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

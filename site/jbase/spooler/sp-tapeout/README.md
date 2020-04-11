@@ -30,3 +30,6 @@ SP-TAPEOUT (4
 This command will read the next four print job files and spool them to the currently assigned formqueue.
 
 Back to [Spooler](./../jbase-spooler).
+
+  
+<PageFooter />

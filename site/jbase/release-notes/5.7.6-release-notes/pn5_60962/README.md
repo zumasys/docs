@@ -15,3 +15,6 @@ Multisession & Websession licenses require client IP address. On Linux, the utmp
 Properly parse the address found in ut\_host, and determine if it is a valid IPv4 or IPv6 address. Only if it is not a valid address is the test for a "screen" session applied.
 
 Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+
+  
+<PageFooter />

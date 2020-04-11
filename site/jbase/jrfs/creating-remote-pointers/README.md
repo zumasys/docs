@@ -49,3 +49,6 @@ Environment variables JEDIFILENAME\_MD and JEDIFILENAME\_SYSTEM have to be set a
 
 
 Back to [Remote Files](./../jbase-remote-file-service-%28jrfs%29).
+
+  
+<PageFooter />

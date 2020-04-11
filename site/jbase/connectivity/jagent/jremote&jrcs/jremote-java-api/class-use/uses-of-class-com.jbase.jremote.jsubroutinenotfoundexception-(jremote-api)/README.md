@@ -47,3 +47,6 @@ com.jbase.jremote.JSubroutineNotFoundException
  Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29) that throw [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote")  | `JSubroutineParameters`<br> | WrappedJConnection.`call(String subroutineName, JSubroutineParameters parameters)`<br>Call jBASE subroutine.<br> |
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

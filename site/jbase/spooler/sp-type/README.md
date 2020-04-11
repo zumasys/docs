@@ -36,3 +36,6 @@ SP-TYPE formqueue -
 > - Formqueues that are not associated with a formtype use the definitions in the file jspform\_deflt.
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

@@ -36,3 +36,6 @@ The output of this program is: 0]1\0]0
 Back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

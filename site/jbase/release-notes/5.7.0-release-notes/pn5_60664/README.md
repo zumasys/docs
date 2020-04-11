@@ -298,3 +298,6 @@ or alternately
 ```
     $option jabba, case
 ```
+
+  
+<PageFooter />

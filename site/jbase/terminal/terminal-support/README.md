@@ -14,3 +14,6 @@
 | [Terminal Extensions](./../terminal-extensions) | Extending terminal definitions. |
 
 Back to [Terminals](./../README.md)
+
+  
+<PageFooter />

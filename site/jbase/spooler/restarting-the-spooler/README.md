@@ -42,3 +42,6 @@ esac
 ### Windows
 
 To restart the spooler at boot time, create a Windows Scheduled Task.
+
+  
+<PageFooter />

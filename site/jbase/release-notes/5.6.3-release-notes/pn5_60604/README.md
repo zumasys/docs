@@ -42,3 +42,6 @@ The following is valid code:
 ```
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

@@ -64,3 +64,6 @@ The first field is the synonym name. The second field is the real terminfo datab
 | X | datagraphix |
 
 Back to [Terminal](./../README.md)
+
+  
+<PageFooter />

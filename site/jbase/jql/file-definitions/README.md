@@ -25,3 +25,5 @@ The fields of a file definition record that affect jQL reports are:
 | Field 10<br> | Column width for key. Default is 14 characters. Also see JBCIDLEN.<br> |
 
 Back to [jBASE Query Language (jQL)](jbase-query-language-jql-)
+  
+<PageFooter />

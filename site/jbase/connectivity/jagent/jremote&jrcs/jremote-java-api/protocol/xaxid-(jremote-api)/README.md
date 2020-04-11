@@ -100,3 +100,6 @@ Specified by:`writeObject` in interface `JBaseSerializable`Throws:`IOException`
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
 
 
+
+  
+<PageFooter />

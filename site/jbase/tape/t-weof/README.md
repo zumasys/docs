@@ -36,3 +36,6 @@ T-WEOF
 ```
 
 to write an end of file mark, (EOF), at the current media position.
+
+  
+<PageFooter />

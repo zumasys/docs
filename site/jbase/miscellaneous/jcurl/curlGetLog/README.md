@@ -27,3 +27,6 @@ logresult = curlGetLog(curlHandle)
 see also [curlSetLogging](../curlSetLogging/#heading)
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

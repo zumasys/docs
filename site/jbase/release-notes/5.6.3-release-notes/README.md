@@ -96,3 +96,6 @@
 
 - [jBASE 5.6 Manual](./../jbase-5.6-manual)
 - To obtain an evaluation version of jBASE, please email [multivalue@zumasys.com.](mailto:multivalue@zumasys.com.%3C/p%3E)
+
+  
+<PageFooter />

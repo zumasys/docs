@@ -31,3 +31,6 @@ When a variable is referenced in a jkeyauto script, it can be an internal variab
 | $nn | Evaluates to the nn'th position in the command line arguments |
 
 [Back to jKeyAuto](./../README.md)
+
+  
+<PageFooter />

@@ -35,3 +35,6 @@ jsh --> delete-index PRODUCTS value
 ```
 
 Back to [Indexes](./../README.md)
+
+  
+<PageFooter />

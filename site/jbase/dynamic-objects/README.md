@@ -19,3 +19,6 @@ A jBASE dynamic object can comprise either a list of values called an **array** 
 - [Exception handling](./exceptions-try-&-catch-&-throw-&-$setcatch%28%29)
 
 Back to [Knowledgebase](./../README.md)
+
+  
+<PageFooter />

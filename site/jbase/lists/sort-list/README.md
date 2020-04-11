@@ -35,3 +35,6 @@ List 'CUSTOMERNAMES' sorted with 3872 records
 Generates a sorted list of unique customer names.
 
 Back to [List Processing](./../list-processing)
+
+  
+<PageFooter />

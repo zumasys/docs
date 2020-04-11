@@ -27,3 +27,6 @@ IF LTMP<32 ! (LTMP>126 & LTMP LT 255) THEN CRT 'Hello'
 ```
 
 Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+
+  
+<PageFooter />

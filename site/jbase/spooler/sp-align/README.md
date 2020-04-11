@@ -30,3 +30,6 @@ Print jobs assigned with the align option (A), will display a status of **ALIGN*
 | Q  | Quit. Exits the option or command. The alignment command is available only for directly driven formqueues. |
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

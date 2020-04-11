@@ -19,3 +19,6 @@ In order to make the CALL to subroutines in a case insensitive fashion, the comp
 This change takes advantage of a more recent change with the run-time. Now, the run-time will always do the case insensitive work. This means the compiler no longer has to, and so the subroutine name can be left as-is.
 
 The emulation must be D3 for this behavior to be in effect.
+
+  
+<PageFooter />

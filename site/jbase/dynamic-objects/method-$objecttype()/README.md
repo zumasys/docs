@@ -39,3 +39,6 @@ crt dquote(arr->$objecttype())   ;* Displays "array"
 ## Notes
 
 See also **$isobject()**
+
+  
+<PageFooter />

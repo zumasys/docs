@@ -8,3 +8,6 @@ com.jbase.jremote.protocol.XARollbackTransactionRequest
 No usage of com.jbase.jremote.protocol.XARollbackTransactionRequest
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

@@ -32,3 +32,6 @@ See also [BREAK ON/OFF](./../break-on&off), [CONTINUE](./../continue)
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

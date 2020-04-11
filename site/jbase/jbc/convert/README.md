@@ -47,3 +47,6 @@ See also: [CONVERT Statement](./../convert-%28statement%29).
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

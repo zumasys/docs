@@ -32,3 +32,6 @@ where :
 - COPIES is the number of copies specified via the [SP-ASSIGN](./../sp-assign) command
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

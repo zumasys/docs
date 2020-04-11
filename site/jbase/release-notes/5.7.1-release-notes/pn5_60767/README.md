@@ -21,3 +21,6 @@ The resulting data would be decrypted.
 The data remains encrypted after running **jrf** on an encrypted file.
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

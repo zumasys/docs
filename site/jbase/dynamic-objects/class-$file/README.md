@@ -9,3 +9,6 @@ The following methods can be utilized from the **$file** class:
 - $file::getgrouplocks()
 - $file::takegrouplocks()
 - $file::cleargrouplocks()
+
+  
+<PageFooter />

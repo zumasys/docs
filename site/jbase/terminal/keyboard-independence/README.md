@@ -119,3 +119,6 @@ REPEAT
 ```
 
 Back to [Terminal](./../README.md)
+
+  
+<PageFooter />

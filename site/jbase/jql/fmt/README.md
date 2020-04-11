@@ -32,3 +32,6 @@ LIST ORDERS SITE.NAME FMT "32L"
 This command reports records from the ORDERS file using a non-default format specification for the SITE.NAME field.
 
 Back to [jQL](jbase-query-language-jql-)
+
+  
+<PageFooter />

@@ -32,3 +32,6 @@ rc = SOAPSubmitRequest(request_handle, time_out, response_headers, response_data
 see also [SOAPCreateRequest](../SOAPCreateRequest/#heading)
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

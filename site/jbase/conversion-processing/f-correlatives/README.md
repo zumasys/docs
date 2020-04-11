@@ -213,3 +213,6 @@ Obtain the value of field 2. Apply an MD2 format code. Then apply a group extrac
 100 - OCONV(OCONV(Field2, "MD2"), "G0.1" ).
 
 Back to [Conversion Processing](./../conversion-processing)
+
+  
+<PageFooter />

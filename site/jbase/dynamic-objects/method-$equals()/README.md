@@ -138,3 +138,6 @@ Identity is not the same as equality. Two identical objects or arrays are always
 ```
 crt (if obj1 = obj2 then "Objects are identical." else "Objects may be equal but they are not identical.")
 ```
+
+  
+<PageFooter />

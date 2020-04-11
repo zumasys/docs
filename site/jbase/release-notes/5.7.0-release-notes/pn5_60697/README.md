@@ -29,3 +29,6 @@ would be fine.
 ### Current Release Behavior
 
 A-correlatives without semi-colons can now be used to create indexes.
+
+  
+<PageFooter />

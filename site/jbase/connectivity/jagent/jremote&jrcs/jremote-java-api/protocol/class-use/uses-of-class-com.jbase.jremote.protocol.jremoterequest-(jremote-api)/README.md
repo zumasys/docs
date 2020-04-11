@@ -72,3 +72,6 @@ com.jbase.jremote.protocol.JRemoteRequest
 | `class `<br> | `XAStartTransactionRequest`<br>Request jBASE start an XA transaction.<br> |
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

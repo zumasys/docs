@@ -42,3 +42,6 @@ See also: [DELETELIST](./../deletelist), [FORMLIST](./../formlist), [WRITELIST](
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

@@ -27,3 +27,6 @@ would.
 The keyword LIKE now pattern matches correctly with case insensitive record data.
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

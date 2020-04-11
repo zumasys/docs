@@ -31,3 +31,6 @@ Click here [$ftp class](../#ftpclass-jabba) for a practical use of curlUseFile.
 see also [curlUseVar](../curlUseVar) and [curlUseMemory](../curlUseMemory)
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

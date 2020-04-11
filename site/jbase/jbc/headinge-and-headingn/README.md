@@ -13,3 +13,6 @@ The **HEADINGN** statement is the same as the [HEADING](./../heading) statement
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

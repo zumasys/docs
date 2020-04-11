@@ -30,3 +30,6 @@ If -m option is also used, then the Global machine values are used instead of th
 > This command is only available on jBASE 3.
 
 [Back to Tools](./../README.md)
+
+  
+<PageFooter />

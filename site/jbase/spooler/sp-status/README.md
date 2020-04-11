@@ -34,3 +34,6 @@ ENTER ACTION CODE / PAGE NUMBER (P#) ?
 The user can then select the action they wish to carry out.
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

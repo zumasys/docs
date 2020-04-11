@@ -1546,3 +1546,6 @@ Conditionals, looping, variables, comments, input to program, output from progra
 Multiple scripts can be run in background from one connection and set to wait until signaled to go.
 
 [Back to Miscellaneous](./../README.md)
+
+  
+<PageFooter />

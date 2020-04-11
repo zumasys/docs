@@ -18,3 +18,6 @@
 [uses-of-interface-com.jbase.jrcs.jiohandler-jrclient-api](./uses-of-interface-com.jbase.jrcs.jiohandler-jrclient-api)  
 
 Back to [jRCS java API](./../README.md)
+
+  
+<PageFooter />

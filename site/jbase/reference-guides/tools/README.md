@@ -28,3 +28,6 @@
 | [MW42](./../mw42) | Produces diagnostics of resource issues. |
 
 [Back to Reference Guides](../README.md)
+
+  
+<PageFooter />

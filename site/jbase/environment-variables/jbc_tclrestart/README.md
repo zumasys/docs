@@ -24,3 +24,6 @@ On UNIX or on Windows, the JBC\_TCLRESTART environment variable should be set be
 To later enable the feature, use the BITSET(-2). To later disable the feature, use the BITRESET(-2).
 
 Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

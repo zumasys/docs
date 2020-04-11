@@ -40,3 +40,6 @@ S;4;5
 If the referenced field is null, this example will return the content of field 5 of the data record. Otherwise it will return the content of field 4.
 
 Back to [Conversion Processing](./../conversion-processing)
+
+  
+<PageFooter />

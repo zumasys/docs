@@ -102,3 +102,6 @@ jrestore -f BACKUP -h"/CUSTOMERS$" -i".*SMITH.*"
 Reads formatted files and directories from UNIX file BACKUP, limits restore to any hash files whose path name ends in CUSTOMERS, and only restores record ids containing the string SMITH.
 
 Back to [Utilities](./../utilities)
+
+  
+<PageFooter />

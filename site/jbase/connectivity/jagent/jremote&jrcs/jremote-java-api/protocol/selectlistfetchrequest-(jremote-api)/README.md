@@ -138,3 +138,6 @@ Returns:type id of the objects, used during the serializationSee Also:[`JBaseSer
 
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

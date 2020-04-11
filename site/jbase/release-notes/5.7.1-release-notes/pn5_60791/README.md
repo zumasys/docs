@@ -21,3 +21,6 @@ When jlogdup starts, it checks the number of open files allowable and adjusts th
 Note: This is not an issue on Windows as the default number of open files on Windows is 16384.
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

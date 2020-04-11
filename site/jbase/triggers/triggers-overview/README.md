@@ -24,3 +24,6 @@ The following jBASE database trigger utilities enable users to configure and dis
 The trigger events manifest themselves by calling a user supplied subroutine, which can be independently configured for each file. Each user subroutine must make provision for all the event types which could be triggered for that file. The [trigger API](./../trigger-api) document gives more information about this.  The [trigger guidelines document](./../triggers-guidelines) gives more information about best practices when using triggers.
 
 Back to [Triggers](./../README.md)
+
+  
+<PageFooter />

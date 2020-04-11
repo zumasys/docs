@@ -53,3 +53,6 @@ To test for an attached tape within a jBC (BASIC) program:
 ```
 IF SYSTEM(1016)<1,1> LE 0 THEN CRT 'Tape is NOT attached!'
 ```
+
+  
+<PageFooter />

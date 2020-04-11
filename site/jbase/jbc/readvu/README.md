@@ -69,3 +69,6 @@ See also: [WRITE](./../write), [WRITEU](./../writeu), [MATWRITE](./../matwrite),
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

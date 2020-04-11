@@ -111,3 +111,6 @@ create-distrib -pUSER,DistCustSub DISTCUST
 When compared to the system partition algorithm, the user-defined partition method incurs a small performance penalty when calling the jBC subroutine. The exact cost of this is highly dependent on how easily the part number is resolved within the subroutine.
 
 Back to [Distributed Files](./../README.md)
+
+  
+<PageFooter />

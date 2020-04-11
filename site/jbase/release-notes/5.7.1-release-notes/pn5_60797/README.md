@@ -27,3 +27,6 @@ FAIL    SELECT FILE WITH ID EQ "2]"
 This is because the index is looking for a right ignore string match and the trailing wild card had not been trimmed.
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

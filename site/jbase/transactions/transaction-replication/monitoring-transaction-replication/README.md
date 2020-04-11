@@ -88,3 +88,6 @@ jlogmonitor –c"MESSAGE * %"
 The command "MESSAGE \* %" is executed for every message sent to the screen by jlogdup. The use of % is specially interpreted by the jlogmonitor program and will be replaced with the error message.
 
 Back to [Transactional Journaling](./../introduction-to-transaction-journaling)
+
+  
+<PageFooter />

@@ -20,3 +20,6 @@ where:
 | Q | Form Queue configuration list only. |
 
 Back to [Spooler](./../jbase-spooler).
+
+  
+<PageFooter />

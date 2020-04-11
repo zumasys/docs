@@ -186,3 +186,6 @@ com.jbase.jremote.io.JBaseSerializable
 | `class `<br> | `XAXid` <br> |
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

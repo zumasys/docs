@@ -106,3 +106,6 @@ File:                     /home/gregc/tmp/FB2X (from MD/VOC entry FB1)
 7) Better descriptions and finding Q and F pointers. When you look for a file, we provide better information regarding the location.
 
 In the above example, we show that file FB1 exists, but it is via an entry in the MD and actually points to file FB2X. So although we were looking for file FB1, jshow correctly reports that you would actually open file FB2X.
+
+  
+<PageFooter />

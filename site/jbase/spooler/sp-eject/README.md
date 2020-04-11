@@ -17,3 +17,6 @@ where  **n** is the number of pages to eject. The default is one and the maximu
 > If more than the maximum allowed is specified, only one page will be ejected.
 
 Back to [Spooler](./../jbase-spooler).
+
+  
+<PageFooter />

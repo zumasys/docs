@@ -741,3 +741,6 @@ Parameters:
 Throws: `JException` - Encryption level specified is invalid or connection is already active.
 
 Back to [jRCS java API](./../README.md)
+
+  
+<PageFooter />

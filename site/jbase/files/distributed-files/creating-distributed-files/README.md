@@ -20,3 +20,6 @@ jsh DEMO ~ -->CREATE-FILE DISTREGION TYPE=DISTRIB
 The file partition table is empty at this point, and the partition algorithm is set to the default system partition method with a delimiter of ‘-‘ (i.e. all record IDs must be of the form "PartNumber-recordID"). These aspects of the distributed file can be changed with the create-distrib command.
 
 Back to [Distributed Files](./../README.md)
+
+  
+<PageFooter />

@@ -25,3 +25,6 @@ When a distributed file is created on jBASE, the dictionary of the distributed f
 2) use **jchmod +B** on an individual file, e.g. **jchmod +B TESTFILE]D**
 
 Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+
+  
+<PageFooter />

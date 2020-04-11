@@ -28,3 +28,6 @@ crash_and_burn = $development::crash() ;* caveat emptor
 ```
 
 ## Notes
+
+  
+<PageFooter />

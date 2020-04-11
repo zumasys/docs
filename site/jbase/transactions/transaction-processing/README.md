@@ -34,3 +34,6 @@ The transaction boundaries or the start and end of a transaction can be programm
 | [TRANSQUERY](./../../../jbase-basic-%28jbc%29/transquery) | Detects whether or not a transaction is active on the current process |
 
 [Back to Transactions](./../README.md)
+
+  
+<PageFooter />

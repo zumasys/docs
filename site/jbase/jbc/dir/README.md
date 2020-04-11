@@ -45,3 +45,6 @@ DIR info returned is : 4096^19087^60171^D
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

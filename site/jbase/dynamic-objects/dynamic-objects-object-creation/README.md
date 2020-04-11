@@ -70,3 +70,6 @@ Under the covers, the built-in **\$fromjson()** method uses **new object()**.
 Refer to the [Instance Methods](./../dynamic-objects-instance-methods) documentation for additional examples.
 
 Back to [Dynamic Objects - Overview](./../README.md)
+
+  
+<PageFooter />

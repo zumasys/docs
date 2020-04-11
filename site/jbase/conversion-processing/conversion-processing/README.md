@@ -29,3 +29,6 @@
 | [U](./../u-conversion) |  |
 
 Back to [jBASE Query Language (JQL)](jbase-query-language-jql-)
+
+  
+<PageFooter />

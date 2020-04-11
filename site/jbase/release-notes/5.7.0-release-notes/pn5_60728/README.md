@@ -17,3 +17,6 @@ If a file on a **jbackup** contains both UPPER- and lower-case versions of the s
 ### Current Release Behavior
 
 **jrestore** restores all record IDs regardless of the emulation settings.
+
+  
+<PageFooter />

@@ -12,3 +12,6 @@
 [starttransactionrequest-(jremote-api)](./starttransactionrequest-(jremote-api))  
 [transactionoperation-(jremote-api)](./transactionoperation-(jremote-api))  
 [workscheduledresponse-(jremote-api)](./workscheduledresponse-(jremote-api))  
+
+  
+<PageFooter />

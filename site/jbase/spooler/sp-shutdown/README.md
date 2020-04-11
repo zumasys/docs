@@ -79,3 +79,6 @@ Kill was not successful errors occurred during shutdown
 When the kill fails, the error message generated prior to the above should be reported to support so it can be investigated further
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

@@ -11,3 +11,6 @@
 | [Transaction Processing](././../../transactions/transaction-replication/README.md)  | Transaction Logging/Journaling/Replication |  
 
 [Back to Reference Guides](./../README.md)
+
+  
+<PageFooter />

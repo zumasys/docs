@@ -13,3 +13,6 @@ The jBASE RESTOREADDS utility can be used to restore floppy disks saved in the A
 The restoreadds utility will automatically attach to the floppy device FLOPPY0 and then proceed to copy the valid tape blocks to a tape file via device FILE0. Once complete then the normal ACCOUNT-RESTORE is executed. This mechanism will handle multiple floppy disks.
 
 [Back to Restore](./../README.md)
+
+  
+<PageFooter />

@@ -35,3 +35,6 @@ CALL WGETPARAM(VALUE,1)
 >Typically on rest calls you send the Primary Key you want retrieved as the first parameter.  You would use this subroutine to retrieve that id.
 
 [Back to jAgent APIs](./../README.md)
+
+  
+<PageFooter />

@@ -31,3 +31,6 @@ where the variable portno is created as 1001 and then made into an external envi
 Environment variables are only exported to child processes. Once jkeyauto terminates, all the environment variables are lost.
 
 [Back to jKeyAuto](./../README.md)
+
+  
+<PageFooter />

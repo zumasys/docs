@@ -386,3 +386,5 @@ It can be difficult/confusing to debug a program that has a lot of terminal I/O.
 >The process running the jBC program will need to have permissions to write to the tty device. You may need to chmod +w the tty on tty's session.
 
 Back to [jBC Debugger](./../introduction-to-the-jbc-debugger)
+  
+<PageFooter />

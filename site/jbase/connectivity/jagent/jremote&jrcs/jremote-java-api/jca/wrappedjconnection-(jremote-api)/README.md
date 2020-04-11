@@ -488,3 +488,6 @@ Sends an monitoring command and waits for it's response
 Specified by:`monitoring` in interface `JConnection`Parameters:`command` - to sendReturns:respose stringThrows:`JRemoteException` - if monitoring command fails
 
 Return to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

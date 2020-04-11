@@ -48,3 +48,6 @@ L4,7
 L4,7 is translated as return the value if its length is greater than or equal to 4 and less than or equal to 7. Assuming a value of ABCDEF, L4,7 will return ABCDEF
 
 Back to [Conversion Processing](./../conversion-processing)
+
+  
+<PageFooter />

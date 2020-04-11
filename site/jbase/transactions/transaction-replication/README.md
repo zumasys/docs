@@ -13,3 +13,6 @@
 [starting-transaction-replication](./starting-transaction-replication)  
 
 [Back to Transactions](./../README.md)
+
+  
+<PageFooter />

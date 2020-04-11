@@ -17,3 +17,6 @@ LIST LISTBUG ALT1 CONV "T1,20" FMT "20L" DESC CONV "T1,30" FMT "30L" SLINE CONV 
 would display random characters, some of them outside the range of the normal printable character set.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

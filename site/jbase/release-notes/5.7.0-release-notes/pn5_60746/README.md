@@ -27,3 +27,6 @@ only the first MV returned was being used from attribute 3, causing the followin
 ### Current Release Behavior
 
 All multi-values are processed.
+
+  
+<PageFooter />

@@ -12,3 +12,5 @@
 | [Q-pointers and F-pointers](./../accounts/../../accounts/qpointers/README.md) | Support for MD/VOC pointers. |
 
 [Back to Reference Guides](../README.md)
+  
+<PageFooter />

@@ -27,3 +27,6 @@ In the above example, if it is assumed that the alternate form queue owners had 
 > If the security status of print jobs changes, it only affects new print jobs. Any jobs already sent to the spooler will have their security state unaffected.
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

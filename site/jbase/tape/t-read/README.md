@@ -54,3 +54,6 @@ T-READ 2 (X
 ```
 
 to read and display two blocks in hexadecimal and character format.
+
+  
+<PageFooter />

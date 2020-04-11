@@ -46,3 +46,6 @@ If the machine mode option is selected, then 16 values are output,  as follows:
 16. Mean key length.
 
 Back to [Files](./../README.md)
+
+  
+<PageFooter />

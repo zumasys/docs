@@ -27,3 +27,6 @@ The user will then specify which formqueue is to be cleared.
 > Root or the user that generated the print job can only clear print jobs assigned with the P option. Any user can clear print jobs assigned with the U option. Print jobs, which have an OPEN or EDIT status cannot be cleared.
 
 Back to [Spooler](./../jbase-spooler).
+
+  
+<PageFooter />

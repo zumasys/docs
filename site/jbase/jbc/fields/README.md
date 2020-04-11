@@ -54,3 +54,6 @@ dyn_r3 = a:b:c:d:e:f^aa:]1:2:3:4\:W:X:Y:Z^aaa:]\^aaaa:
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

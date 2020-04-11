@@ -29,3 +29,6 @@ dont_page_on_all_breaks
 When **dont\_page\_on\_all\_breaks = true** then additional page ejects are suppressed.
 
 This option is not added to any emulation by default in the **Config\_EMULATE** file, it is documented in **Config\_EMULATE.txt** and should only be used if all else fails.
+
+  
+<PageFooter />

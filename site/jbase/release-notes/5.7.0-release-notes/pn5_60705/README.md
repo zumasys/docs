@@ -21,3 +21,6 @@ Parse Error: expecting ''"'', found '0xC3'.
 ### Current Release Behavior
 
 ASCII characters, char(128) to char(250), should now be allowed within quoted strings.
+
+  
+<PageFooter />

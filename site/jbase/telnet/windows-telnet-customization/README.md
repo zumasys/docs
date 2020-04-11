@@ -234,3 +234,6 @@ This would eliminate the need for a 'jtelnet' entry.
 > The jBASE Telnetd Server must be stopped and restarted in the Windows Services panel for this change to take affect.
 
 Back to [Windows Telnet](./../windows-telnet-%28telnetd.exe%29)
+
+  
+<PageFooter />

@@ -63,3 +63,6 @@ The procedure will create a default form queue named STANDARD, whose device name
 The jBASE spooler form queues and print jobs can be manipulated by using the jBASE spooler commands directly or by using the SP-STATUS and SP-JOBS menus.
 
 Back to [Spooler](./../jbase-spooler).
+
+  
+<PageFooter />

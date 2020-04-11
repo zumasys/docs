@@ -24,3 +24,6 @@ END_;_*
 ### Current Release Behavior
 
 The above examples compile successfully.
+
+  
+<PageFooter />

@@ -46,3 +46,6 @@ The **SEARCH** command will scan the file specified by filename looking for reco
 The **SEARCH** command can be preceded by a select-list.
 
 Back to [List Processing](./../list-processing)
+
+  
+<PageFooter />

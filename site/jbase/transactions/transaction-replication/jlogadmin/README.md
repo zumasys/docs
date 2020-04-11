@@ -49,3 +49,6 @@ Config entries are saved to $JBASERELEASEDIR:/config/jediLoggerConfig.  When up
 > By default the command must be used as root or administrator.  One can override this with the -R (must be upper case) switch. The command can be restricted with normal operating system controls.
 
 Back to [Transaction Journaling](./../introduction-to-transaction-journaling)
+
+  
+<PageFooter />

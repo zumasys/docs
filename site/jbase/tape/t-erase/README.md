@@ -34,3 +34,6 @@ T-ERASE
 ```
 
 to erase a streaming cartridge tape of all data.
+
+  
+<PageFooter />

@@ -15,3 +15,6 @@ jQL phrases (aka macros) could only be defined with "PH" or "M".
 Phrases can now be defined with "H" or "h" in attribute 1.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

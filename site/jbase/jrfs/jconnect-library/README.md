@@ -22,3 +22,6 @@ The jConnect library provides user security on Windows by the jnet\_access file.
 Both security mechanisms utilize the connecting hostname as listed in the hosts file, the remoteusername and the client username as supplied by the client connect request. The jnetok mechanism also requires the correct servername before permission is granted to continue the client connection. The jConnect library will deny access to clients whose remoteusername resolves to a user id of less than one hundred.
 
 Once the security check has completed successfully the jConnect library then proceeds to set the groupid, userid and home directory along with certain other required environment variables. The jConnect library then attempts to match the client connect request components with an entry in the jnet\_env file. If successful then any related environment entries are setup before returning control back to the jBASE Remote File Service modules.
+
+  
+<PageFooter />

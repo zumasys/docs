@@ -41,3 +41,6 @@ set JEDIENABLEQ2Q=1
 > The configuration of MD/VOC files in each account should not be ambiguous. For example, do not use the file "MD" in one account and have both MD and MD]D extant in another account.
 
 Go Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

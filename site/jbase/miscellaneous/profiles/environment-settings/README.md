@@ -14,3 +14,6 @@ This section allows any additional environment variables that need to be include
 ```
 
 Back to [Profiles](./../jbase-profiles)
+
+  
+<PageFooter />

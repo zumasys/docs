@@ -78,3 +78,6 @@ with:(PROSPECTS
 Uses the MYLIST select-list to compare the records in the CUSTOMERS file with records in the PROSPECTS file. Suppresses the output of any records that are exactly the same from both files.
 
 Back to [Files](./../README.md)
+
+  
+<PageFooter />

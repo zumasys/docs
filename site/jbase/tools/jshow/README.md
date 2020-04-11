@@ -38,3 +38,6 @@ When performing a jshow -c on a program/subroutine you may see (DUP) as the disp
 However, you can also see (DUP) if the program/subroutine has bee cataloged into multiple bin/lib directories. (See [CATALOG](./../../../jbase-basic-%28jbc%29/catalog))
 
 [Back to Tools](./../README.md)
+
+  
+<PageFooter />

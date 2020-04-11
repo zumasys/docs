@@ -49,3 +49,6 @@ for i = 0 to array2->$size() - 1
     if rc lt 0 then array1->$append(val)
 next i
 ```
+
+  
+<PageFooter />

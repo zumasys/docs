@@ -34,3 +34,6 @@ CRT "There are ": COUNT(Calc, "*") : " multiplications"
 See also : [DCOUNT.](./../dcount)
 
 Go back to [jBASE BASIC](./../README.md)
+
+  
+<PageFooter />

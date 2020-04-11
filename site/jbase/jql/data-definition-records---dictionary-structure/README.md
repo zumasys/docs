@@ -101,3 +101,6 @@ A data definition record with a number for a key can still be used in the same w
 Some predefined data definition records are automatically available so that, if appropriate data definition records are not included in a file"s dictionary, a report can still be generated. These records do not physically exist on the system but are recognised when used in a jQL command sentence.
 
 The predefined data definition records are named \*A0 to \*Annn. The numeric portion of the key corresponds to the position of the field they report on and the column heading will be the same as the DDR name.
+
+  
+<PageFooter />

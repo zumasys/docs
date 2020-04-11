@@ -21,3 +21,6 @@ CALL WSEND("Hello World")
 ```
 
 [Back to jAgent APIs](./../README.md)
+
+  
+<PageFooter />

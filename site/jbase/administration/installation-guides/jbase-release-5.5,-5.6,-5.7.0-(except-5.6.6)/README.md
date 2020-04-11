@@ -14,3 +14,6 @@ The steps are:
 5. Follow the [compiler installation instructions](./../windows-compiler-installation), beginning at step 2.
 
 Back to [Installation Guides](./../README.md).
+
+  
+<PageFooter />

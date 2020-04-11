@@ -59,3 +59,6 @@ Adjusted local date is  02 APR 2030
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

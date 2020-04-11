@@ -109,3 +109,6 @@ fbcentos-~/tmp5: test6
 
 [ Lots of lines removed ]
 ```
+
+  
+<PageFooter />

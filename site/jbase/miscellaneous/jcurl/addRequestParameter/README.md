@@ -33,3 +33,6 @@ rc = addRequestParameter(request_handle, 'ZIP_CODE', '97035', '')
 see also [createRequest](../createRequest/#heading)
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

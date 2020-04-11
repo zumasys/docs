@@ -25,3 +25,6 @@ The number of part files and the partition algorithm can be varied at any time t
 Another problem that can occur is the wrong file is accessed through the distributed file stub (i.e. the file to which the part files are attached to create the distributed file set; see [Creating Distributed Files](./../creating-distributed-files)). Be aware that part files are resolved in the same manner as any other file in jBASE. For example, suppose two files exist with the same filename where one is resolved via an F-pointer (in $JEDFILENAME\_MD) and the another is resolved via $JEDIFILEPATH, and that the one in $JEDIFILEPATH is our actual part file. What will happen is the actual part file will never be found because the file pointed to by the F-pointer will be found first, as indicated by the [jshow -f](./../../../jbase/tools/jshow) command. To alleviate this problem, it is best to attach the files using a full explicit filepath (see [here](./../attaching-and-detaching-part-files) for further details on attaching/detaching part files).
 
 Back to [Distributed Files](./../README.md)
+
+  
+<PageFooter />

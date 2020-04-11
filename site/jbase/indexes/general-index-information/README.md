@@ -12,3 +12,6 @@
 | [jQL Usage](./../jql-usage-of-secondary-indexes) | This part shows how the jQL commands such as SELECT or COUNT can use the index data to satisfy the request. |
 
 Back to [Indexes](./../README.md)
+
+  
+<PageFooter />

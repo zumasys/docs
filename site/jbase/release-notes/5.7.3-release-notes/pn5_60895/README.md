@@ -40,3 +40,6 @@ In the above example, we would now have the following index keys:
 There are no options in create-index for this enhancement, it just occurs automatically.
 
 Back to [5.7.3 Release Notes](./../README.md)
+
+  
+<PageFooter />

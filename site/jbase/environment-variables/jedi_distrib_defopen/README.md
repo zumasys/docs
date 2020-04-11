@@ -34,3 +34,6 @@ set JEDI_DISTRIB_DEFOPEN=1
 ```
 
 Go Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

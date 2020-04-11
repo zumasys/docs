@@ -41,3 +41,6 @@ String getTermType()
 ```
 
 Back to [jRCS java API](./../README.md)
+
+  
+<PageFooter />

@@ -33,3 +33,6 @@ Previous to this fix, if compiled with D3 emulation then
 Note:  Once you start a process in D3 emulation, the process will remain with  case insensitive subroutine CALLs irrespective of the CASE ON/OFF or  CASING ON/OFF functionality. This is the way native D3 works.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

@@ -26,3 +26,6 @@ If a part file is deleted, then the DELETE-DISTRIB command must be used to remov
 Distributed files support secondary indexes and triggers at both the distributed file level and the part file level.
 
 Back to [Distributed Files](./../README.md)
+
+  
+<PageFooter />

@@ -31,3 +31,6 @@ The user will then enter the fromqueue from which the the print is to be suspend
 > To resume despooling use the RESUME PRINTING option or the [SP-RESUME](./../sp-resume) command.
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

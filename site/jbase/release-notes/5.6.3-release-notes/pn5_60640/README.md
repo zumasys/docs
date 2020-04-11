@@ -54,3 +54,6 @@ Indexes are also built correctly by applying the conversion to each multi-value 
 Note: This patch is limited to only processing multi-values.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

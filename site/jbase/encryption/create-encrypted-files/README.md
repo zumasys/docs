@@ -97,3 +97,6 @@ This will not be implemented, as **jcompile** doesn’t use JEDI to get its file
 If there is an encrypted source code file, you will have to use the **BASIC** command on it.
 
 Back to [Encryption](./../README.md)
+
+  
+<PageFooter />

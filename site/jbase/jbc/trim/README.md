@@ -52,3 +52,6 @@ to remove spaces and tabs. Note the second parameter is ignored in the first cod
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

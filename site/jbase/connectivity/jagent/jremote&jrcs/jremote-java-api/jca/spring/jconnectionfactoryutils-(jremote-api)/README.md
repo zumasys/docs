@@ -86,3 +86,6 @@ Close the given JConnection, obtained from the given JConnectionFactory, if it i
 Parameters:`con` - the Connection to close if necessary (if this is `null`, the call will be ignored)`cf` - the ConnectionFactory that the Connection was obtained from (can be `null`)See Also:[`getConnection(com.jbase.jremote.JConnectionFactory)`](./../jconnectionfactoryutils-%28jremote-api%29#getConnection-com.jbase.jremote)
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

@@ -129,3 +129,6 @@ public void readObject(JBaseObjectReader reader,
 Specified by:`readObject` in interface `JBaseSerializable`Throws:`IOException``ClassNotFoundException`
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

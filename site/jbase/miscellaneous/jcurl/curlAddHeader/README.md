@@ -26,3 +26,6 @@ rc = curlAddHeader(curlHandle, 'accept', '*/*')
 ```
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

@@ -34,3 +34,6 @@ The user will then enter the old name, and the new name on the same line, and pu
 > If **old-formqueue** is invalid, the following error message will be displayed: "FORM-QUEUE CANNOT BE FOUND". Only the name of the formqueue is changed, device assignments remain unchanged
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

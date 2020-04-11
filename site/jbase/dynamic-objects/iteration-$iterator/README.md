@@ -104,3 +104,6 @@ for i = 0 to types->$size()-1
     crt "Key ":dquote(i):" has value ":dquote(types->@i):" and type ":dquote(types->$valuetype(i))
 next i
 ```
+
+  
+<PageFooter />

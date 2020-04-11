@@ -41,3 +41,6 @@ JOB Cleared
 ```
 
 Back to [Spooler](./../jbase-spooler).
+
+  
+<PageFooter />

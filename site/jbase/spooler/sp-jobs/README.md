@@ -108,3 +108,6 @@ The screen display contains the following fields:
 | CP | The number of copies to be despooled |
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

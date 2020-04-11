@@ -25,3 +25,5 @@
 [www.info](./www.info)  
 
 [Back to jAgent](./../README.md)
+  
+<PageFooter />

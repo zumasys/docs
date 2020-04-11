@@ -129,3 +129,6 @@ NOTE: The message is designated INFORMATION, WARNING or FATAL ERROR. This design
 |  | Out of memory to log update | Yes |
 
 Back to [Transactional Journaling](./../introduction-to-transaction-journaling)
+
+  
+<PageFooter />

@@ -51,3 +51,6 @@ Or elect to browse to and restore into a folder on a local drive, then proceed w
 ![Windows_Restore_12](./windows_restore_12.png)
 
 Back to [Veeam](./../README.md)
+
+  
+<PageFooter />

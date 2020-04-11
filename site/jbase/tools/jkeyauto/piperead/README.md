@@ -86,3 +86,6 @@ WAIT
 This example shows us loading program "test1" and waiting until the program sends the prompt "Enter name:". If the program doesn"t send it within 100 seconds we give an error. We then send TO the program the string GREG followed by a line feed. The timer is then started in variable time1. We then wait until the program sends a "Press RETURN" string to its terminal output, again with a 100 second timeout. This then gives us the elapsed time, in seconds, that it took "test1" to process the name GREG and return to us. Finally send a null string to the application and then we issue a WAIT so we wait for program "test1" to complete.
 
 [Back to jKeyAuto](./../README.md)
+
+  
+<PageFooter />

@@ -41,3 +41,6 @@ OSBREAD Data FROM MYPIPE AT 0 LENGTH 10000
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

@@ -29,3 +29,6 @@ If either element of a corresponding pair is null, it returns null for that elem
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

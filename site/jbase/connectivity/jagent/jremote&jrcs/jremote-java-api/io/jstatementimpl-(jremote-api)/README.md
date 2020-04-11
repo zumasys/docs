@@ -124,3 +124,6 @@ Specified by:`setFetchSize` in interface `JStatement`See Also:[`JStatement.setFe
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
 
 
+
+  
+<PageFooter />

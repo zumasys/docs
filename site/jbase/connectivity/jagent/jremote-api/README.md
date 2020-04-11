@@ -37,3 +37,6 @@
 | [JRecordNotFoundException](./../jremote/jremote/jrecordnotfoundexception-%28jremote-api%29 "class in com.jbase.jremote")<br> | <br>A generic jBASE record not found exception.<br> |
 | [JRemoteException](./../jremote/jremote/jremoteexception-%28jremote-api%29 "class in com.jbase.jremote")<br> | <br>A generic exception thrown when an unexpected error occurs whilst communicating with the remote jBASE instance.<br> |
 | [JSubroutineNotFoundException](./../jremote/jremote/jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote")<br> | <br>This exception is thrown when a call is made to a non existent subroutine.<br> |
+
+  
+<PageFooter />

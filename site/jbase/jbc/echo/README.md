@@ -55,3 +55,6 @@ The above would disable the character input echoing while typing in a password. 
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

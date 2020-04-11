@@ -60,3 +60,6 @@
 [xarollbacktransactionrequest-(jremote-api)](./xarollbacktransactionrequest-(jremote-api))  
 [xastarttransactionrequest-(jremote-api)](./xastarttransactionrequest-(jremote-api))  
 [xaxid-(jremote-api)](./xaxid-(jremote-api))  
+
+  
+<PageFooter />

@@ -42,3 +42,6 @@ Hello World
 In the above example, the source for $fromjson() was neither an object nor array, so we don't return an object as such, hence $isobject() returns false. However, the source to $fromjson() is a recognised JSON primitive of "Hello World" and so we return the string "Hello World".
 
 Back to [5.7.4 Release Notes](./../README.md)
+
+  
+<PageFooter />

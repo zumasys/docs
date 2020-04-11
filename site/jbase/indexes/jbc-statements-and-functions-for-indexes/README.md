@@ -12,3 +12,6 @@
 | [SELECTINDEX](./../../jbase-basic-%28jbc%29/selectindex)| Creates an array of record keys based on the specified index.|
 
 Back to [Indexes](./../README.md)
+
+  
+<PageFooter />

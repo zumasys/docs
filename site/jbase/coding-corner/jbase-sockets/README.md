@@ -19,3 +19,6 @@ Here is a github project with a good example on how to create both a socket clie
 [https://github.com/zumasys/jbase\_sockets](https://github.com/zumasys/jbase_sockets)
 
 [Back to Coding Corner](./../README.md)
+
+  
+<PageFooter />

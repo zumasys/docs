@@ -34,3 +34,6 @@ The PAGES column is equivalent to SP-JOBS SIZE field.
 JobNumber, Copies, Date, Time, Acct are as per [SP-JOBS](./../sp-jobs).
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

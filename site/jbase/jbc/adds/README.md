@@ -35,3 +35,6 @@ Result of ADDS(addend1,addend2) is 3ÿ6ÿ9ü10ÿ4
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

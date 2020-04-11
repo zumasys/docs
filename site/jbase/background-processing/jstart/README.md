@@ -43,3 +43,5 @@ jstart -b jpq C:\CODE\PROCLIB\RUNBATCH
 Runs the proc RUNBATCH as a background process.
 
 Back to [Background Processing](./../README.md)
+  
+<PageFooter />

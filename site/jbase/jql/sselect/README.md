@@ -56,3 +56,6 @@ Select all the records in SALES file with an S.CODE value that starts with ABC. 
 See also the [SELECT](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jql2_SELECT.htm) command.
 
 Back to [jQL](jbase-query-language-jql-)
+
+  
+<PageFooter />

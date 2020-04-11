@@ -396,3 +396,6 @@ All the modified lines are indicated.  As you can see all the rest of the code 
 Pick has always been a type of object database/language.  With very structured Includes with Equates much of this can be duplicated.  But as you can see these structures are easier to work with.  You can extend your "Class" to have all your business logic for a particular object.  For example, if we wished to add a calc sales tax we could add a new method to our class.  This, of course, is available today with subroutines but with Classes you can group all your logic into a single Class library.  You could even add a load and write a method to actually read and write your pick records to disk.
 
 The real future power comes when we start using this defined structure to extend an IDE to start doing auto-complete for available methods and properties for a "Class" or object.
+
+  
+<PageFooter />

@@ -61,3 +61,6 @@ LOOP WHILE READNEXT record_key FROM listName DO ...
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

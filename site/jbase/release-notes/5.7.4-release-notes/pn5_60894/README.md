@@ -17,3 +17,6 @@ This was primarily due to the jBASE **stat** command conflicting with the Linux 
 **listf -xml** produces correct xml output.
 
 Back to [5.7.4 Release Notes](./../README.md)
+
+  
+<PageFooter />

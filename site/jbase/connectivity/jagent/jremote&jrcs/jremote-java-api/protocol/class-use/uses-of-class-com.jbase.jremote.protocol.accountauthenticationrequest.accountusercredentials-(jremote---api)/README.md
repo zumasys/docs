@@ -60,3 +60,6 @@ jremote <br>
 <!--<br>  allClassesLink = document.getElementById("allclasses\_navbar\_bottom");<br>  if(window==top) {<br>    allClassesLink.style.display = "block";<br>  }<br>  else {<br>    allClassesLink.style.display = "none";<br>  }<br>  //-->
 
 *Copyright © 2017 jBASE, Inc.. All Rights Reserved.*
+
+  
+<PageFooter />

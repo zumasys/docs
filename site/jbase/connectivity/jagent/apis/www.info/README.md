@@ -21,3 +21,5 @@ Instead the WGETINFO function can be used to gain access to any of the commons
 | 36 | Config file | WGETCONFIG |
 
 [Back to jAgent APIs](./../README.md)
+  
+<PageFooter />

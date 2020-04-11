@@ -40,3 +40,6 @@ to delete the record "001" from the file test\_rec .
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

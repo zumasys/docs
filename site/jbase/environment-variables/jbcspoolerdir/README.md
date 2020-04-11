@@ -38,3 +38,6 @@ SET JBCSPOOLERDIR=C:\home\globals\jspooler
 ```
 
 Go Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

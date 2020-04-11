@@ -17,3 +17,6 @@ jQL would crash.
 ### Current Release Behavior
 
 No crash in jQL.
+
+  
+<PageFooter />

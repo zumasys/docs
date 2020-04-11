@@ -24,3 +24,6 @@ Where **expression** is to be a UTF-8 encoded byte sequence, which is the defaul
 > Use this function to convert UTF-8 data into binary or the latin1 code page for external consumption. i.e. Tape devices.
 
 Go back to [jBASE BASIC](./../README.md)
+
+  
+<PageFooter />

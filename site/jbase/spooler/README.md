@@ -61,3 +61,6 @@
 [spooler-structure](./spooler-structure/README.md)  
 
 [Back to Knowledgebase](./../README.md)
+
+  
+<PageFooter />

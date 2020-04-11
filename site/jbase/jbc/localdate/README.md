@@ -19,3 +19,6 @@ The **LOCALDATE** function uses the specified timestamp and adjusts the value by
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

@@ -53,3 +53,6 @@ CRT "4 GB is": PWR(A, B)
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

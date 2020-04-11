@@ -36,3 +36,6 @@ set JBCLISTFILE=C:\globals\SAVEDLISTS
 See also [List Storage](./../../jbase/lists/list-storage).
 
 Go Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

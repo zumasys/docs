@@ -20,3 +20,6 @@ Triggers give the jBASE application developer a powerful mechanism to easily add
 - Be careful to avoid infinite recursion. For example, if a post-write trigger is defined, do not write anything else to the file in the trigger subroutine; this will result in infinite recursion.
 
 Back to [Triggers](./../README.md)
+
+  
+<PageFooter />

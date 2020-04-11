@@ -45,3 +45,6 @@ jsh --> create-index PRODUCTS BY CALL(5,"CONCAT")
 ```
 
 Back to [Indexes](./../README.md)
+
+  
+<PageFooter />

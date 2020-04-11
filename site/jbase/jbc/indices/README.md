@@ -74,3 +74,6 @@ Attribute 12 returned with the INDICES function shows any option passed to creat
 Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

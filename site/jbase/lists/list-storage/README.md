@@ -21,3 +21,6 @@ Depending upon the JBCLISTFILE environment variable and existence of a POINTER-F
 3. If JBCLISTFILE is not set and the POINTER-FILE does not exist, then the list is saved in the jBASEWORK file as **SEL\*AccountName\*ListName**. To store lists in jBASEWORK with an id of just the list name, set a Q-pointer or F-pointer called POINTER-FILE to jBASEWORK.
 
 Back to [List Processing](./../list-processing)
+
+  
+<PageFooter />

@@ -951,3 +951,6 @@ Regular files : 8
 ```
 
 [Back to Articles](./../README.md)
+
+  
+<PageFooter />

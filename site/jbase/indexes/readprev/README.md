@@ -39,3 +39,6 @@ The following table shows what happens if you do READNEXTs and READPREVs on the 
 | READPREV key ELSE | key becomes "DAVE" | First key in list |
 
 Back to [Indexes](./../README.md)
+
+  
+<PageFooter />

@@ -154,3 +154,6 @@ It is assumed that the SPACESTATIONS file is visible in the server user's home d
 ### Note
 
 A client machine can not make concurrent jRFS requests to more than one jRFS service on a particular remote host without changing the **jnet\_map** client configuration file. In other words, **jnet\_map** can only be set to use one jRFS service at a time for a particular host. There is no restriction as to the number of remote hosts you can connect to, only the number of jRFS services per remote host.
+
+  
+<PageFooter />

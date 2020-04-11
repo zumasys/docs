@@ -336,3 +336,6 @@ HTTP maximum user count exceeded
 Check your jBASE license using (see [Licensing](./../../release-notes/5.6.2-release-notes/jbase-5-licensing "jBASE Licensing")).
 
 This message will also be generated if the database is in a paused or shutdown state (i.e. you need to run **DB-START** or **DB-RESUME**).
+
+  
+<PageFooter />

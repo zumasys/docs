@@ -15,3 +15,6 @@ All built-in classes start with "\$".
 - [\$development](./../class-$development)
 
 Back to [Dynamic Objects - Overview](./../README.md)
+
+  
+<PageFooter />

@@ -48,3 +48,6 @@ to show all the contents of record 7 to the terminal. Note that this code is Jab
 Go back to[jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

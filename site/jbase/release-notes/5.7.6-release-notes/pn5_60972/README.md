@@ -31,3 +31,6 @@ ph-status (a
 \* The **PH-HISTORY** file is now created as a Dynamic File
 
 Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+
+  
+<PageFooter />

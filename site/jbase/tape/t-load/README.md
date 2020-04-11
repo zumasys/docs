@@ -44,3 +44,6 @@ T-LOAD SALES WITH S.CODE EQ "DEF]"
 ```
 
 Loads all records with first three characters of attribute, defined by S.CODE, equal to string "DEF" into file SALES. Do not overwrite any existing record ids.
+
+  
+<PageFooter />

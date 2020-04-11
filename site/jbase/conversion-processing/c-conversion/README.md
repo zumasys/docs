@@ -46,3 +46,6 @@ Concatenates the contents of field 1 with an asterisk (\*), the string ABC, a sp
 See the descriptions of the function codes (A, F, FS and their variants) for other concatenation methods.
 
 Back to [Correlative Processing](./../conversion-processing)
+
+  
+<PageFooter />

@@ -39,3 +39,6 @@ If bit 100 in the table is zero, it sets to one and displays zero; the reverse w
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

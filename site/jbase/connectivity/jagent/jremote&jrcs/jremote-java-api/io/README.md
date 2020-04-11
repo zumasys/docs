@@ -30,3 +30,6 @@
 [okresponse-(jremote-api)](./okresponse-(jremote-api))  
 [response-(jremote-api)](./response-(jremote-api))  
 [sqlerror-(jremote-api)](./sqlerror-(jremote-api))  
+
+  
+<PageFooter />

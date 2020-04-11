@@ -112,3 +112,6 @@ jED and ED help is available here:
 Submit a question to Dan and Bruce by emailing [documentation@jbase.com](mailto:documentation@jbase.com)
 
 [Back to Articles](./../README.md)
+
+  
+<PageFooter />

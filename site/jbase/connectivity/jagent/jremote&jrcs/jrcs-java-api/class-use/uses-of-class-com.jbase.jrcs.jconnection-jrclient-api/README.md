@@ -15,3 +15,6 @@
 | [JSelectList](./../../jselectlist-jrclient-api)(int handle, boolean indexVar, [JConnection](./../../jconnection-jrclient-api "class in com.jbase.jrcs") conn) |
 
 Back to [Class Use](./../README.md)
+
+  
+<PageFooter />

@@ -111,3 +111,6 @@ So a suitable compromise, based on the number of concurrent locks a particular s
 In reality, unless you are getting **Error 37**, we recommend using the default setting until there is a reason to change it. However, if you are starting to get **Error 37**, this would indicate that the application is taking locks and not releasing them. So it would be better to fix the application than to increase the lock table, which could result in performance issues.
 
 [Back to Coding Corner](./../README.md)
+
+  
+<PageFooter />

@@ -30,3 +30,6 @@ CALL WENCODEJSON("",'"',OUTSTR)
 >The WENCODEJSON function is primarily used internally by the other subroutines (such as WBUILDJSON and WOBJ), although it can be called independently if you are performing your own string building.
 
 [Back to jAgent APIs](./../README.md)
+
+  
+<PageFooter />

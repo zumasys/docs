@@ -31,3 +31,6 @@ New option syntax is:
   e.g: jbase_agent --config=odbc
   will cause jbase_agent to look in JBCRELEASEDIR/config for a file called, jagent_config_odbc.
 ```
+
+  
+<PageFooter />

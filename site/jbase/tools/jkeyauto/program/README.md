@@ -60,3 +60,6 @@ The internal variable $PIPE will be set to the pipe number allocated for this pr
 > It is usually possible to reconfigure the kernel if this is a problem.
 
 [Back to jKeyAuto](./../README.md)
+
+  
+<PageFooter />

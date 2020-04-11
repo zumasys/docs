@@ -39,3 +39,5 @@ While the file is being processed data will be read, however when we hit a break
 Note that both \*A43 and \*A44 must be present and TOTAL'd.
 
 Back to [5.6.1 release Notes](./../README.md)
+  
+<PageFooter />

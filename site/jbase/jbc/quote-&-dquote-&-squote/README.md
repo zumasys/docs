@@ -34,3 +34,6 @@ The **QUOTE** and **DQUOTE** functions will enclose the value in double quotatio
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

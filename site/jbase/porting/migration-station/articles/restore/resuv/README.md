@@ -59,3 +59,5 @@ The **-M** option will change references to dictionary files in attribute 3 of F
 | resuv –v . | Restore data to current directory. |
 
 [Back to Restore](./../README.md)
+  
+<PageFooter />

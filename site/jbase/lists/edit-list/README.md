@@ -36,3 +36,6 @@ Edits the list called A.SALES. The editor used is Windows Notepad.
 See also [List storage](./../list-storage).
 
 Back to [List Processing](./../list-processing)
+
+  
+<PageFooter />

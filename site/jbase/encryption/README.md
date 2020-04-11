@@ -10,3 +10,6 @@
 [jbase-encryption](./jbase-encryption/README.md)  
 
 Back to [Knowledgebase](./../README.md)
+
+  
+<PageFooter />

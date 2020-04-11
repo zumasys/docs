@@ -35,3 +35,6 @@ The second KEY-SELECT would ignore the select-list created by the first KEY-SELE
 ### Current Release Behavior
 
 KEY-SELECT/QUERY-INDEX/ISELECT now operate off of the active select-list, regardless of how the select-list was generated.
+
+  
+<PageFooter />

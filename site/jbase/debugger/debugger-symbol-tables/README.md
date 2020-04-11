@@ -25,3 +25,6 @@ will produce a named common data area called **Simple** for the debugger to use.
 > If your program contains the same variable name in both local and global  common areas, the debugger will operate on each instance of the name in turn.
 
 Back to [Debugger](./../README.md)
+
+  
+<PageFooter />

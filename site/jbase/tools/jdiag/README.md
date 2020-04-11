@@ -52,3 +52,6 @@ set JDIAG=TRACE=INDEX
 ```
 
 Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

@@ -15,3 +15,6 @@ REST-SPOOLER
 > This command will restart jspprint processes for all defined form queues.
 
 Back to [Spooler](./../jbase-spooler).
+
+  
+<PageFooter />

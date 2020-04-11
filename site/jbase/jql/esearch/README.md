@@ -60,3 +60,6 @@ KEY2
 Generates a list of all records in the SALES file which contain the strings ABC or DEF.
 
 Back to [jQL](jbase-query-language-jql-)
+
+  
+<PageFooter />

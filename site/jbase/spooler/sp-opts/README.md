@@ -38,3 +38,6 @@ The user will then enter the print job number, and the desired option.
 > Options cannot be changed for print jobs once the job is being despooled.
 
 Back to [Spooler](./../jbase-spooler).
+
+  
+<PageFooter />

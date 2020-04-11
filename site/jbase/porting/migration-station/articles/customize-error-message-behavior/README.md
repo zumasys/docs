@@ -35,3 +35,6 @@ Place this setting in some global profile where all users will pick it up.
 Any future changes to error messages should be done to 'jbc.init.err' in the new location (refer to the documentation in 'jbc.init.err') and then run 'jmakeerr' as above.
 
 [Back to Articles](./../README.md)
+
+  
+<PageFooter />

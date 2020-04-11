@@ -32,3 +32,6 @@ It is not recommended to use programs to manipulate byte counts in International
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

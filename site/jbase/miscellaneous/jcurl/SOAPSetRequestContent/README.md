@@ -42,3 +42,6 @@ rc = SOAPSetRequestContent(request_handle, xml_data, 1)
 see also [SOAPCreateRequest](../SOAPCreateRequest/#heading)
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

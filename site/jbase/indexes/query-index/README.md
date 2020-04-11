@@ -91,3 +91,6 @@ Option **-i** can be used to restrict the number of indexes used to create the l
 Option **-r** is similar to -i except it restrict the number of record keys.
 
 Back to [Indexes](./../README.md)
+
+  
+<PageFooter />

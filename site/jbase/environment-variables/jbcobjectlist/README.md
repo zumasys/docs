@@ -42,3 +42,5 @@ SET JBCOBJECTLIST=%HOME%\lib;C:\dev\TESTBASE\lib
 ```
 
 Go Back to [Environment Variables](./../README.md)
+  
+<PageFooter />

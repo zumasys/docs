@@ -21,3 +21,6 @@ set JSQLFILENAME_CATALOG=/dbms/SQLCATALOG
 ```
 
 See [SQLCATMAN](./../../administration/utilities/sqlcatman).
+
+  
+<PageFooter />

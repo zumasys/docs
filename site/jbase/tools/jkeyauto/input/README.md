@@ -34,3 +34,6 @@ INPUT "This is my name" TO pipeno
 ```
 
 [Back to jKeyAuto](./../README.md)
+
+  
+<PageFooter />

@@ -22,3 +22,6 @@ SP-FQSCRIPT
 > It is recommended to save this script in a secure location.
 
 Back to [Spooler.](./../jbase-spooler/README.md)
+
+  
+<PageFooter />

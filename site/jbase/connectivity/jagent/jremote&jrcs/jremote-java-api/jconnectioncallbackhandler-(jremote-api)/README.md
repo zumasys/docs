@@ -56,3 +56,6 @@ boolean reinitialise(Subject subject,
 The Subject intends to use a connection that was previously initialised for another Subject.
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

@@ -121,3 +121,6 @@ jbase C:\jBASE\PAYROLL
 ```
 
 Change the current directory to **C:\jBASE\PAYROLL**, set up account environment variables for this directory and launch a jShell.
+
+  
+<PageFooter />

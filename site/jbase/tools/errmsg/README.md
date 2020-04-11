@@ -28,3 +28,6 @@ WIN32 API Error (23) - 'Data error (cyclic redundancy check).
 ```
 
 [Back to Tools](./../README.md)
+
+  
+<PageFooter />

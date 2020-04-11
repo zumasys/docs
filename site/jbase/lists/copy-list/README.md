@@ -79,3 +79,6 @@ Copies A.SALES (a previously saved list) to record APRIL.SALES, in file SALES.LI
 See also [List storage](./../list-storage).
 
 Back to [List Processing](./../list-processing)
+
+  
+<PageFooter />

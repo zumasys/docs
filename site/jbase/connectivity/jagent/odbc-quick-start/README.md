@@ -168,3 +168,6 @@ esac
 > The call to jbase\_agent includes the creation of a log file. If logging (for debug purposes) is not required, the “-F -L 2” options can be omitted.
 
 Back to [jAgent](./../README.md)
+
+  
+<PageFooter />

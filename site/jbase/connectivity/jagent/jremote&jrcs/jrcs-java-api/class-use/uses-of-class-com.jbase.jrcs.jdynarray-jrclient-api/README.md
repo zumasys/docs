@@ -57,3 +57,6 @@
 | [JDynArray](./../../jdynarray-jrclient-api)([JDynArray](./../../jdynarray-jrclient-api "class in com.jbase.jrcs") src) | Constructs a dynamic array from another dynamic array |
 
 Back to [Class Use](./../README.md)
+
+  
+<PageFooter />

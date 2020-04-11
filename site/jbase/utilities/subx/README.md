@@ -20,3 +20,6 @@ where **Num1** and **Num2** are hexadecimal numbers.
 > Hexadecimal number **Num2** is subtracted from hexadecimal number **Num1**.
 
 Back to [Utilities](./../utilities)
+
+  
+<PageFooter />

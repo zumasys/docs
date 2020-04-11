@@ -30,3 +30,6 @@ The following keywords are required by the jBASE compiler.
 | XLATE XTD |
 
 [Back to Compilation](../README.md)
+
+  
+<PageFooter />

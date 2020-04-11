@@ -30,3 +30,6 @@ rc = curlExec(curlHandle, result, headers)
 Click here [$ftp class](../#ftpclass-jabba) for a practical use of curlUseVar.
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

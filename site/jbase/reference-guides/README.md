@@ -12,3 +12,6 @@
 | [Transactions](./transactions/README.md) | Transaction Processing |
 
 [Back to Knowledgebase](./../README.md)
+
+  
+<PageFooter />

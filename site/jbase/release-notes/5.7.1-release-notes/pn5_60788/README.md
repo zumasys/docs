@@ -26,3 +26,6 @@ The totals now wrap:
 ```
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

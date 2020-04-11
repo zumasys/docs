@@ -307,3 +307,6 @@ MCDX
 Assuming a source value of 1066, MCDX will return 42A.
 
 Back to [Conversion Processing](./../conversion-processing)
+
+  
+<PageFooter />

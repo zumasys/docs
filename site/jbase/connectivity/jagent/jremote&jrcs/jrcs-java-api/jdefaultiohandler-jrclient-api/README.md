@@ -67,3 +67,6 @@ public void output(String characters)
 Specified by: `output` in interface `JIOHandler`
 
 Back to [jRCS java API](./../README.md)
+
+  
+<PageFooter />

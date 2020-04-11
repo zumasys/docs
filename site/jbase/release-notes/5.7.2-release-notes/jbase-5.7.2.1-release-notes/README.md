@@ -22,3 +22,6 @@
 - [PN5\_60867](./../pn5_60867) - jQL process exits prematurely when a jBC subroutine exits from within a query
 
 Back to [Release Notes](./../README.md)
+
+  
+<PageFooter />

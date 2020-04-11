@@ -32,3 +32,6 @@ jgrep -Options SearchString FileName (Options
 | -r or (R) | raw display exclusive of dollar items |
 
 [Back to Tools](./../README.md)
+
+  
+<PageFooter />

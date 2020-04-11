@@ -31,3 +31,5 @@ set JBCLOGNAME=OBIWAN      [Windows]
 ```
 
 Go Back to [Environment Variables](./../README.md)
+  
+<PageFooter />

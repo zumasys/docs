@@ -44,3 +44,6 @@ When using the **SORT** function in International Mode, the function will use th
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

@@ -23,3 +23,6 @@ where the **-n** option specifies the database to resume (This option is only av
 > This utility is only available in jBASE 4.1 and later.
 
 Back to [Utilities](./../utilities)
+
+  
+<PageFooter />

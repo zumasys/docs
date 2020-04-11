@@ -26,3 +26,6 @@ When no argument is supplied, **OFF** is assumed.
 Note: When the Config\_EMULATE setting **hush\_input\_and\_output = true** and no argument is supplied, the state is toggled.
 
 Back to [Utilities](./../utilities)
+
+  
+<PageFooter />

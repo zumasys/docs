@@ -43,3 +43,6 @@ Also, the length specification in the I-type must accommodate the longest data t
 004
 005 30T
 ```
+
+  
+<PageFooter />

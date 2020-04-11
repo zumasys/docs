@@ -45,3 +45,6 @@ Input conversion works with a number that has only thousands separators and a de
 | MD42Z,$15 &lt; | -001234567 | &lt;$ 12,345.6700&gt; |
 
 Back to [Conversion Processing](./../conversion-processing)
+
+  
+<PageFooter />

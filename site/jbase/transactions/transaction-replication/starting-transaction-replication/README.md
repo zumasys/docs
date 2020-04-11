@@ -224,3 +224,6 @@ If you are running Redhat or Centos here is the command to add an exception
 For other platforms please contact your system administrator for instructions on how to add firewall exceptions
 
 Back to [Transactional Journaling](./../introduction-to-transaction-journaling)
+
+  
+<PageFooter />

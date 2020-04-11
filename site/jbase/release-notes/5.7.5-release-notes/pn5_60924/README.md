@@ -15,3 +15,6 @@ On UNIX/Linux when you performed **jbase\_agent ... start** it would write a fi
 By setting **JAGENT\_TMP\_PATH** (either in the shell environment or in the**jagent\_config** file) the **jagent.lockfile** entries are instead written to the specified path.
 
 Back to [5.7.5 Release Notes](./../README.md)
+
+  
+<PageFooter />

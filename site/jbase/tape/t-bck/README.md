@@ -48,3 +48,6 @@ T-BCK
 ```
 
 The tape device is requested to backward search to the previous end of file mark, (EOF).
+
+  
+<PageFooter />

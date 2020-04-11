@@ -23,3 +23,6 @@ This command will delete the print job or jobs irrespective of status. If all jo
 > This command can only be run by root (UNIX), or an Administrator (Windows).
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

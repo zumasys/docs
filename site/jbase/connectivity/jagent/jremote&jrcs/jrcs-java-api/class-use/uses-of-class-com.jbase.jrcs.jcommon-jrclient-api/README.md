@@ -11,3 +11,6 @@
 | [JCommon](./../../jcommon-jrclient-api "class in com.jbase.jrcs") | JConnection.[attachCommon](./../../jconnection-jrclient-api#attachCommon-)(int numVars, String name) | Attaches a common block by name with a given number of variables |
 
 Back to [Class Use](./../README.md)
+
+  
+<PageFooter />

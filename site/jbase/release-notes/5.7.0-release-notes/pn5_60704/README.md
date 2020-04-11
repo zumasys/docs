@@ -27,3 +27,6 @@ HUSH INPUT - Suppress input only
 ```
 
 These commands are effective for both programs and procs.
+
+  
+<PageFooter />

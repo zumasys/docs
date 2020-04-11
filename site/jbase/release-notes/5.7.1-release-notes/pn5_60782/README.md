@@ -21,3 +21,6 @@ the process would hang or crashed.
 No more issues with hangs or crashes.
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

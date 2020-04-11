@@ -29,3 +29,6 @@ The following commands can be used to help in the general maintenance of hash fi
 | [jcomp](./../jcomp) | compare hash file contents |
 
 Back to [Files](./../README.md)
+
+  
+<PageFooter />

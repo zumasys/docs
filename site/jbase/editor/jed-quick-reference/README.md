@@ -51,3 +51,6 @@ jED Item (Options
 | HX or HEX | Toggle the display of the record in Hexadecimal |
 
 Back to [Editors](./../README.md)
+
+  
+<PageFooter />

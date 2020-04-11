@@ -30,3 +30,6 @@ rc = createRequest(url, 'POST', request_handle)
 ```
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

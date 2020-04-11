@@ -12,3 +12,6 @@ Provides interface for jBC subroutines or C functions to manipulate data during 
 See [Calling Subroutines from Dictionary Items](./../../calling-a-subroutine-from-a-dictionary-item)
 
 Back to [Conversion Processing](conversion-processing)
+
+  
+<PageFooter />

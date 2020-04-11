@@ -19,3 +19,6 @@ User comment lines added to Config\_EMULATE that ended in ":" would cause config
 The **config-strings** command now parses the designated emulation section correctly showing all settings.
 
 Note that this did not affect the actual emulation setting in the jBASE session, only the display of the settings from **config-strings**.
+
+  
+<PageFooter />

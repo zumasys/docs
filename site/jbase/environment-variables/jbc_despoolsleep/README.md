@@ -31,3 +31,6 @@ export JBC_DESPOOLSLEEP=10  [UNIX]
 ```
 
 Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

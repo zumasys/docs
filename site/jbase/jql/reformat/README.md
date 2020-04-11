@@ -56,3 +56,6 @@ Creates new records in the ADDRESS file, keyed on C.CODE from the SALES file. Ea
 See also the SREFORMAT command.
 
 Back to [jQL](jbase-query-language-jql-)
+
+  
+<PageFooter />

@@ -38,3 +38,6 @@ TERM 132,,,,,,112,30
 The terminal line length is set to 132 columns, any paged output to the printer will be formatted into 112 columns and 30 lines per page.
 
 Back to [Utilities](./../utilities)
+
+  
+<PageFooter />

@@ -30,3 +30,6 @@ READELAY 0.5
 for jkeyauto generated timings will only be accurate to the nearest half a second. However jkeyauto will require considerably less CPU time to execute all the PIPEREAD commands it has to do.
 
 [Back to jKeyAuto](./../README.md)
+
+  
+<PageFooter />

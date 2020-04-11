@@ -32,3 +32,6 @@ Source file test3.b compiled successfully
 The warning messages are not displayed.
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

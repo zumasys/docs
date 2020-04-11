@@ -52,3 +52,6 @@ If **COL-HDR-SUPP** or **HDR-SUPP**, or the **C** or **H** options are specified
 See also the [LIST-LABEL](./../list-label) command.
 
 Back to [jQL](jbase-query-language-jql-)
+
+  
+<PageFooter />

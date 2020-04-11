@@ -30,3 +30,6 @@ rc = setRequestHeader(request_handle, 'accept, '*/*')
 see also [createRequest](../createRequest/#heading)
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

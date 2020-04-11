@@ -264,3 +264,6 @@ On many platforms, @(-n) codes are used to control special terminal characterist
 | @(-n) | **foreground colorname** | Set the foreground to one of the supported colors , where "colorname" is one of: black , blue , green, cyan , red , magenta , yellow , white |
 
 [Back to Articles](./../README.md)
+
+  
+<PageFooter />

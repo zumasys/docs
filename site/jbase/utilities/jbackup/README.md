@@ -105,3 +105,6 @@ The **-m10000** option specifies that the maximum amount of data to back up is 1
 >Because of the pipe character used to direct the output of jfind to jbackup, this command should be run with jshelltype **sh** rather than jsh.
 
 Back to [Utilities](./../utilities)
+
+  
+<PageFooter />

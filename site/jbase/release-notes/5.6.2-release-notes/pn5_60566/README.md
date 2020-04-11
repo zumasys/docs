@@ -56,3 +56,6 @@ Both firstname and lastname tags have an invalid character on the end.
 No corruption in tags
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

@@ -45,3 +45,6 @@ Creates a stub file in the current directory that references a distributed file.
 Remote File pointers is one mechanism by which a client application can access files located on a remote system.  A Q-pointer is created in the MD file and set to point to a SYSTEM file entry as normal for Q pointers.
 
 Back to [Files](./../README.md)
+
+  
+<PageFooter />

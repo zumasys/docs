@@ -24,3 +24,6 @@ T-CHK
 ```
 
 to read the tape device up to the next end of file mark.
+
+  
+<PageFooter />

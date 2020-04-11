@@ -25,3 +25,6 @@ The order in which the dictionaries are searched for dictionary definitions is a
 3. Files specified by JBCDEFDICTS
 
 Back to [jBASE Query Language (jQL)](jbase-query-language-jql-)
+
+  
+<PageFooter />

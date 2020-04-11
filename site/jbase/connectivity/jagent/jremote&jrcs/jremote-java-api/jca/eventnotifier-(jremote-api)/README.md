@@ -82,3 +82,6 @@ void notify(javax.resource.spi.ConnectionEventListener listener,
 ```
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

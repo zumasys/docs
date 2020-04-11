@@ -42,3 +42,6 @@
 | [TRACE](./../trace) | Traces the code executed by jkeyauto. |
 | [TYPEDELAY](./../typedelay) | Specify the time delay, in seconds, between each simulated typed character. |
 | [WAIT](./../wait) | Waits until a program loaded with the PROGRAM statement has completed. |
+
+  
+<PageFooter />

@@ -27,3 +27,6 @@ The default form queue STANDARD is re-initialized with a LPTR device type on UNI
 > On Windows, the **STANDARD** form queue is re-initialized with a **PROG** device type that utilizes the Windows default printer. This printer must support text-based printing however additional printing capabilities, such as producing PDF output, can be achieved with third party products. An example of this is in the **%JBCRELEAEDIR%\samples\Spooler** folder.
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

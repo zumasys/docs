@@ -24,3 +24,6 @@ The script is written in the current directory and it's name is:
 create-form-queues      [Unix/Linux]
 create-form-queues.bat  [Windows]
 ```
+
+  
+<PageFooter />

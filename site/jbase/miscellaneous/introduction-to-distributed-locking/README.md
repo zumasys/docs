@@ -401,3 +401,6 @@ Once the failed system is recovered and the Distributed Lock service restarted, 
 This procedure ensures that all locks are released and retaken such that the lock table and/or OS file locks on both Distributed Lock Service systems are correctly synchronized.
 
 [Back to Miscellaneous](./../README.md)
+
+  
+<PageFooter />

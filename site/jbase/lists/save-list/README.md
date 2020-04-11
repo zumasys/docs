@@ -45,3 +45,6 @@ SAVE-LIST {DICT} filename listname
 See Also: [List storage](./../list-storage).
 
 Back to [List Processing](./../list-processing)
+
+  
+<PageFooter />

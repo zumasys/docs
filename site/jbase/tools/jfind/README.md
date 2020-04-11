@@ -41,3 +41,6 @@ This command is useful when used to pipe data to the **jbackup**command, e.g.
 ```
 jfind C:\accounts -print | jbackup -f C:\my_backups\my_accounts.bak
 ```
+
+  
+<PageFooter />

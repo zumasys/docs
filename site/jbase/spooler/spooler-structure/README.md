@@ -107,3 +107,6 @@ Translation item as defined in [SP-TRANSLATE](./../sp-translate) or $JBCRELEASED
 SP-DEVICE defines the device/program used for printing.  This is typically the local printer program lp, but with the PROG device type any program that can read from stdin (INPUT) can be used.
 
 Back to [Spooler](./../jbase-spooler).
+
+  
+<PageFooter />

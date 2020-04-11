@@ -37,3 +37,6 @@ jQL totals and formatting are now correct:
 ```
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

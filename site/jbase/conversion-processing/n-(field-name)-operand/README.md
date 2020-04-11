@@ -57,3 +57,6 @@ A;N(A.VALUE) + N(B.VALUE)RR
 For each subvalue in the field defined by A.VALUE, the system also obtains the corresponding value in B.VALUE and adds it. If A.VALUE returns 1\2\3]7 and B.VALUE returns 5, the result would be four values of 6, 7, 8 and 12 respectively.
 
 Back to [A-Corelatives](./../a-correlatives)
+
+  
+<PageFooter />

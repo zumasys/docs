@@ -38,3 +38,6 @@ The command will open file filename, read the record record-key and create a sel
 A record named APRIL.SALES in file SALES.LISTS contains a list of customer keys. Each key occupies a separate field. The FORM-LIST command generates an active list of customers. You can then issue a subsequent command such as LIST CUSTOMERS which will use the active list.
 
 Back to [List Processing](./../list-processing)
+
+  
+<PageFooter />

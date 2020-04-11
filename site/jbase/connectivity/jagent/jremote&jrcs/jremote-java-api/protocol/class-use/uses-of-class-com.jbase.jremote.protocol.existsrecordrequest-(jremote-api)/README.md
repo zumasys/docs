@@ -8,3 +8,6 @@ com.jbase.jremote.protocol.ExistsRecordRequest
 No usage of com.jbase.jremote.protocol.ExistsRecordRequest
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

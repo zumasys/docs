@@ -25,3 +25,6 @@ There are 2 copies of jlogdup restoring to the database simultaneously
 ```
 
 Back to [5.7.4 Release Notes](./../README.md)
+
+  
+<PageFooter />

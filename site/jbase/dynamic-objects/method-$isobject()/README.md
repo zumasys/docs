@@ -36,3 +36,6 @@ if isobject then crt \"arr" is an object of type \:dquote(arr->$objecttype())
 ```
 
 ## Notes
+
+  
+<PageFooter />

@@ -69,3 +69,6 @@ The BASIC syntax definition can be found in the "syntaxes" sub-folder of the ext
 From a jBASE point-of-view, as of "mvbasic-2.0.2" the syntax and "Intellisense" is complete, but can be modified to suit.
 
 Back to [Coding Corner](./../coding-corner)
+
+  
+<PageFooter />

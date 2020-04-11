@@ -21,3 +21,6 @@ DSCB = 0 ;* This would normally close the file and release the locks
 If the closed file has taken any locks at any time, then a check is made for those locks and the equivalent of a **RELEASE filevar** statement is executed.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

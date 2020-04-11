@@ -12,3 +12,6 @@
 [reserved-keywords](./reserved-keywords/README.md)  
 
 [Back to Knowledgebase](./../README.md)
+
+  
+<PageFooter />

@@ -47,3 +47,6 @@ If supported by the telnet client, then the TERM variable will also be set.
 [Customization](./../windows-telnet-customization)
 
 [Troubleshooting](./../windows-telnet-troubleshooting)
+
+  
+<PageFooter />

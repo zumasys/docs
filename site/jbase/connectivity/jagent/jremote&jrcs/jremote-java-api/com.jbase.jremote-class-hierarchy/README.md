@@ -42,3 +42,6 @@
     - com.jbase.jremote.[JXAConnection](./../jxaconnection-%28jremote-api%29 "interface in com.jbase.jremote") (also extends com.jbase.jremote.[JConnection](./../jconnection-%28jremote-api%29 "interface in com.jbase.jremote"))
 
 
+
+  
+<PageFooter />

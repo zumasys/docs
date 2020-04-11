@@ -44,3 +44,6 @@ Initial array: ["two","three","four"]
 ## Notes
 
 See also [$append()](./../method-$append%28%29)
+
+  
+<PageFooter />

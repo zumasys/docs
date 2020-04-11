@@ -78,3 +78,6 @@ You can also run jAgent as a service.  You should
 6. Test your services again using WRESTTEST.
 7. If everything is working you can then install jAgent as a service as described later in this document.
 8. It is always best to be able to run any jAgent instance locally to diagnose why it isn't working.  Only after you have it working should you move to have it as a service.
+
+  
+<PageFooter />

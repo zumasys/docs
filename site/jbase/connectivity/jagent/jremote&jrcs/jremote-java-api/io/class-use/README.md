@@ -22,3 +22,6 @@
 [uses-of-interface-com.jbase.jremote.io.jbaseobjectreader-(jremote-api)](./uses-of-interface-com.jbase.jremote.io.jbaseobjectreader-(jremote-api))  
 [uses-of-interface-com.jbase.jremote.io.jbaseobjectwriter-(jremote-api)](./uses-of-interface-com.jbase.jremote.io.jbaseobjectwriter-(jremote-api))  
 [uses-of-interface-com.jbase.jremote.io.jbaseserializable-(jremote-api)](./uses-of-interface-com.jbase.jremote.io.jbaseserializable-(jremote-api))  
+
+  
+<PageFooter />

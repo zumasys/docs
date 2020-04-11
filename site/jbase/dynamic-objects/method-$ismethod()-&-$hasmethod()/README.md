@@ -118,3 +118,6 @@ end method
 ```
 
 ## Notes
+
+  
+<PageFooter />

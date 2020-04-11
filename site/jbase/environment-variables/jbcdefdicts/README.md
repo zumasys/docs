@@ -34,3 +34,6 @@ set JBCDEFDICTS=C:\home\PRIVATEDICT]D;C:\globals\GLOBALDICT]D
 ```
 
 Go Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

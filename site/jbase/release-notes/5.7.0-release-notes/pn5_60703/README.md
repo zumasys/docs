@@ -29,3 +29,6 @@ would fail to select any data stored in an index.
 ### Current Release Behavior
 
 Add better support for conversions and correlatives to indexing and queries.
+
+  
+<PageFooter />

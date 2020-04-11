@@ -32,3 +32,6 @@ The **LENDP** function when used in International Mode will return the display l
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

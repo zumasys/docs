@@ -25,3 +25,6 @@ rc = curlClose(curlHandle)
 ```
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

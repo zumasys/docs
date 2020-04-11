@@ -33,3 +33,6 @@ to display an array containing: 4, 10, 18, 0, 0
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

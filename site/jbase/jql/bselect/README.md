@@ -32,3 +32,6 @@ BSELECT SALES WITH S.CODE = "ABC]" P.CODE
 Creates a list containing all P.CODE values from all the records in the SALES file which have an S.CODE that starts with ABC.
 
 Back to [jQL](jbase-query-language-jql-)
+
+  
+<PageFooter />

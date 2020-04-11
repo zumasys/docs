@@ -37,3 +37,6 @@ Result of CATS(one_array, another_array) is ax\b]cy\z]d
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

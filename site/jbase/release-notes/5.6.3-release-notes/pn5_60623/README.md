@@ -25,3 +25,6 @@ Most paragraph keywords are case insensitive, e.g. **DISPLAY** is the same as **
 This behavior requries **Config\_EMULATE** option **case\_insensitive\_md = true**, which is set by default for the **D3** emulation.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

@@ -52,3 +52,6 @@
 | [Miscellaneous](./miscellaneous/README.md) | Miscellaneous Subjects |
 | [Reference Guides](./reference-guides/README.md) | Table Layout |
 | [Release Notes](./release-notes/README.md) | jBASE Release Notes |
+
+  
+<PageFooter />

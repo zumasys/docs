@@ -22,3 +22,6 @@ com.jbase.jremote.io.SQLError
  Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) that return [SQLError](./../../sqlerror-%28jremote-api%29 "class in com.jbase.jremote.io")  | `SQLError`<br> | ErrorResponse.`getSQLError()` <br> |
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

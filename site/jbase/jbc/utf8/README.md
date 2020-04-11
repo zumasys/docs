@@ -23,3 +23,6 @@ This function is useful for converting binary or latin1 code page data into inte
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

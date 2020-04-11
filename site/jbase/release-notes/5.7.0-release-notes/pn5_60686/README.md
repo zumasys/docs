@@ -33,3 +33,6 @@ Added new configuration option, **term\_settings\_persist**. If this option is e
 This behavior is only affective in the jShell.
 
 This option is now included in the D3 emulation.
+
+  
+<PageFooter />

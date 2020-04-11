@@ -43,3 +43,6 @@ then it would fail to display the correct header.
 ### Current Release Behavior
 
 HEADINGs and FOOTINGs can now use lowercase special characters.
+
+  
+<PageFooter />

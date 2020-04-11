@@ -42,3 +42,6 @@ Builds a 5 element string separated by a : character. '**MATBUILD** Dynamic FROM
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

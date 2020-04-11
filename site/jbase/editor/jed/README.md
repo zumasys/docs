@@ -666,3 +666,6 @@ From Edit mode, press &lt;Esc&gt; to invoke the command line.
 | HX or HEX | Toggle the display of the record in Hexadecimal |
 
 Back to [Editors](./../editors/README.md)
+
+  
+<PageFooter />

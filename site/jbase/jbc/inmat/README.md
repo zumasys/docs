@@ -35,3 +35,6 @@ This returns the number of elements in the CUSTREC array to the variable CUSTREC
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

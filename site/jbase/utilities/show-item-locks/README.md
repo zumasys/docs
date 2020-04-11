@@ -16,3 +16,6 @@ SHOW-ITEM-LOCKS
 A lock can be explicitly cleared with the [CLEAR-ITEM-LOCKS](./../clear-item-locks) command.
 
 Back to [Utilities](./../utilities)
+
+  
+<PageFooter />

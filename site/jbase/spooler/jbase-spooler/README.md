@@ -60,3 +60,6 @@
 | [SP-TYPE](./../sp-type) | Assigns a formtype to a formqueue. |
 
 Back to [Knowledgebase](./../../README.md)
+
+  
+<PageFooter />

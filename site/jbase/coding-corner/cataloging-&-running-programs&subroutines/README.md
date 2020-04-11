@@ -109,3 +109,6 @@ However, there may be situations where due to a change to JBCDEV\_LIB (possibly 
 jBASE will use the first one it finds (which may not be the one you want). If this is the case, you will need to either reorganize your PATH/JBOBJECTLIST or possibly perform a DECATALOG on the version(s) you don’t want (be sure to set your JBCDEV\_BIN and JBCDEV\_LIB accordingly when performing these tasks).
 
 [Back to Coding Corner](./../README.md)
+
+  
+<PageFooter />

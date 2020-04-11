@@ -37,3 +37,6 @@ CALL WSETCOOKIE("mycookie","value",DATE(),TIME+300,"/",".","Y")
 >Here is a [link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Set-Cookie "Link to Set-Cookie documentation") for information on how Set-Cookie works.
 
 [Back to jAgent APIs](./../README.md)
+
+  
+<PageFooter />

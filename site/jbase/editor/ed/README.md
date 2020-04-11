@@ -11,3 +11,6 @@ If the user is only familiar with the old style ED editor, by all means continue
 The transition from ED to jED is very simple with the reward being adopting the much more efficient and friendly environment provided by jED.
 
 Back to [Editors](./../editors/README.md)
+
+  
+<PageFooter />

@@ -24,3 +24,6 @@ This release includes various internal bug fixes and the following enhancements 
 - [PN5\_60919](./../pn5_60919) - Licensing: Multi-session licenses limited to 255 sessions and up to 255 licenses per session
 
 Back to [5.7.4 Release Notes](./../README.md)
+
+  
+<PageFooter />

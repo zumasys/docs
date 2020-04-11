@@ -75,3 +75,6 @@ The index is built on sorted attribute 1 and so the index keys (the names of the
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

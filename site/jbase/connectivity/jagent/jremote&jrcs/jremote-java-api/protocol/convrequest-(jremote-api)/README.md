@@ -149,3 +149,6 @@ Specified by:`readObject` in interface `JBaseSerializable`Overrides:`readObject`
 
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

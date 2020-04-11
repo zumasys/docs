@@ -39,3 +39,6 @@ Click the start menu, right-click this PC, choose Properties
 ![verify-your-windows-operating-system: win8_menu](./win8_menu.jpg)![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3397/108662/2012r2.jpg)
 
 Back to [Installation Guides](./../README.md).
+
+  
+<PageFooter />

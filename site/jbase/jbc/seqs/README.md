@@ -40,3 +40,6 @@ The **SEQ** function will return numeric values beyond 255 for UTF-8 byte sequen
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

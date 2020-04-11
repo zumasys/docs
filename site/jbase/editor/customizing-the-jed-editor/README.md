@@ -98,3 +98,6 @@ Line 4 specifies that the jed command line will be invoked when the octal chara
 > (the "set noback\_tab" is needed because \031 is already mapped to the value "noback\_tab")
 
 Back to [Editors](./../editors/README.md)
+
+  
+<PageFooter />

@@ -46,3 +46,5 @@ set JBCPORTNO=300,304,310,350,360-390
 Under normal circumstances, a single port number will suffice. However, if the user is invoking other programs that start a new jBASE process (e.g. BASIC or  EXECUTE @IM:'k') then it would be necessary to assign at least 2 port  numbers for that user so that the secondary process can obtain a port number.
 
 Go Back to [Environment Variables](./../README.md)
+  
+<PageFooter />

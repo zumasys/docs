@@ -35,3 +35,6 @@ to display -2.6999999876543212 to the screen, despite the setting of precision t
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

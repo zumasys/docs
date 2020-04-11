@@ -46,3 +46,6 @@ the table shows what happens if [READNEXT](./../readnext)s and **READPREV**s on 
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

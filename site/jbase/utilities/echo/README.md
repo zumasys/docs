@@ -26,3 +26,5 @@ The jBASE ECHO-ON command sets the jBASE echo enabled flag. This enables input c
 The jBASE ECHO-OFF command resets the jBASE echo enabled flag. This suppresses input character echo, when using a jBASE program.
 
 Back to [Utilities](./../utilities)
+  
+<PageFooter />

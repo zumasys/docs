@@ -19,3 +19,6 @@ The return value is a variable with as many decimal places as the current precis
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

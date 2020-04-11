@@ -20,3 +20,6 @@
 | [Example](./../distributed-files-examples) | Steps for creating a distributed file. |
 
 Back to [Files](./../README.md)
+
+  
+<PageFooter />

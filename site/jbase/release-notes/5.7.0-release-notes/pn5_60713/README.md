@@ -23,3 +23,6 @@ All jAgent functionality has been removed from the **jServControl** command.
 The **jbase\_agent** help screen has been updated to reflect Windows usage.
 
 The **jbase\_agent** command is now the sole utility for managing the jAgent service on all platforms.
+
+  
+<PageFooter />

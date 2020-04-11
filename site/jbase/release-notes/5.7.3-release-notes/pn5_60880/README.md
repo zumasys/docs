@@ -19,3 +19,6 @@ Setting the code page to 850 for **transcmd** no longer encounters a segmentatio
 >As this is a 64 bit build, registry setting are now found in **HKEY\_LOCAL\_MACHINE\SOFTWARE\JAC\jBASE Telnetd Server\CurrentVersion**
 
 Back to [5.7.3 Release Notes](./../README.md)
+
+  
+<PageFooter />

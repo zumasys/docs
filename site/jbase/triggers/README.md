@@ -10,3 +10,6 @@
 [triggers-guidelines](./triggers-guidelines/README.md)  
 
 [Back to Knowledgebase](./../README.md)
+
+  
+<PageFooter />

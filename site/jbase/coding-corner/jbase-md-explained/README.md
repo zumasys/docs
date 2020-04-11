@@ -108,3 +108,6 @@ jBC main() version 5.6 Thu Nov 30 14:17:41 2017
 For a consistent Multi-value experience after migrating an account you should run UpdateMD to populate the MD with various connectives and dictionaries for commands like LIST, SORT, LISTDICT, LISTFILES, etc.
 
 [Back to Coding Corner](./../README.md)
+
+  
+<PageFooter />

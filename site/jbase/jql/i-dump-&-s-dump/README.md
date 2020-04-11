@@ -61,3 +61,6 @@ The following output is generated:
 ```
 
 Back to [jQL](jbase-query-language-jql-)
+
+  
+<PageFooter />

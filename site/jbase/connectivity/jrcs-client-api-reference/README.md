@@ -437,3 +437,6 @@ int locVar = dynTest.Locate("Three", "");
 string locVarContent = dynTest.Extract(locVar);
 string locVarContentAgain = dynTest.Field(JDynArray.AM, locVar);
 ```
+
+  
+<PageFooter />

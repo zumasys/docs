@@ -183,3 +183,6 @@ set JEDI\_PREFILEOP=TYPE=J4 (NT) Don't use quotes
 | JRFS\_HOSTNAME | allows the jRFS client to override the target host |
 
 [Back to Articles](./../README.md)
+
+  
+<PageFooter />

@@ -68,3 +68,6 @@ Result:
 ```
 
 See also [$prepend()](./../method-$prepend%28%29)
+
+  
+<PageFooter />

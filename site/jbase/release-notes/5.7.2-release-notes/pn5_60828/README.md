@@ -20,3 +20,6 @@ There are now 2 new options for converting files to/from case sensitive and case
 ```
 
 Back to [5.7.2 Release Notes](./../README.md)
+
+  
+<PageFooter />

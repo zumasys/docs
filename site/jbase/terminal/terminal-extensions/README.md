@@ -185,3 +185,6 @@ TESTMYTIC > MyFile
 ```
 
 Back to [Terminal](./../README.md)
+
+  
+<PageFooter />

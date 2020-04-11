@@ -17,3 +17,6 @@ jSON configuration files can hold the following sections. If any sections are mi
 > **Note:**jBASE .JSON configuration files support macro expansion, which means you can use any existing environment variables in you configuration, e.g. you could set the system file property to **"system": "%HOME%\\SYSTEM"**
 
 Back to [Profiles](./../jbase-profiles)
+
+  
+<PageFooter />

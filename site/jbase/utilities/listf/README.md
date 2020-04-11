@@ -25,3 +25,6 @@ If **directory** is specified then only files in that path will be displayed.
 |-h or -? | Display a help page with examples |
 
 Back to [Utilities](./../utilities)
+
+  
+<PageFooter />

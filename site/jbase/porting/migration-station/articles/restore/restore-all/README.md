@@ -68,3 +68,6 @@ NOTE: If attempting to use on a dd of a tape file the label information MUST sti
 NOTE: RESTORE-ALL is NOT intended for use with ROS File Saves, as the ROS save is one continuous tape file. However M-A-S type saves may work depending upon the tape labeling schema.
 
 [Back to Restore](./../README.md)
+
+  
+<PageFooter />

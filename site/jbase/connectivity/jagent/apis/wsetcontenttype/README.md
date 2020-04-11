@@ -23,3 +23,5 @@ CALL WSETCONTENTTYPE("application/json")
 ```
 
 [Back to jAgent APIs](./../README.md)
+  
+<PageFooter />

@@ -47,3 +47,6 @@ Creates a list containing the values from field 3 of all the records in the SALE
 Creates a list containing the values from field 3 of records ABC, DEF and GHI in the SALES file. The list s then saved as CUSTOMERS.
 
 Back to [List Processing](./../list-processing)
+
+  
+<PageFooter />

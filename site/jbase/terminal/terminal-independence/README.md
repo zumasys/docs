@@ -53,3 +53,6 @@ Note: in UNIX, the backspace character defined by the stty "erase" setting will 
 The jtic utility also provides the ability to add extra terminal and printer independent control characters to the @() function in BASIC. It can also be used to extend terminal definitions beyond the normal terminfo capabilities.
 
 Back to [Terminal](./../README.md)
+
+  
+<PageFooter />

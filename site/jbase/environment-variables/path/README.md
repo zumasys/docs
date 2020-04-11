@@ -38,3 +38,6 @@ set PATH=%PATH%;%JBCRELEASEDIR%/bin;C:\apps\bin
 If you receive a Windows warning that your path is too long then see this [page](./../notes-on-environment-variables-for-the-jbase-compiler).
 
 Go Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

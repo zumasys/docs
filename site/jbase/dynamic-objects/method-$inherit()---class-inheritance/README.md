@@ -243,3 +243,6 @@ method Test1::Test1()
     this->$inherit("Test2", "Test3, JABBA_INHERIT_NO_EXCEPTION, "Test4")
 end method
 ```
+
+  
+<PageFooter />

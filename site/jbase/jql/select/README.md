@@ -149,3 +149,6 @@ Using the same file from Example 3, this jBC program generates an exploded selec
 ```
 
 Back to [jQL](jbase-query-language-jql-)
+
+  
+<PageFooter />

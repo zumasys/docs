@@ -15,3 +15,6 @@ Specifically, a partition algorithm used with a distributed file would have caus
 More meaningful errors messages are returned from jQL.
 
 Back to [5.7.3 Release Notes](./../README.md)
+
+  
+<PageFooter />

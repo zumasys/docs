@@ -76,3 +76,6 @@ int getVersion()
 
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

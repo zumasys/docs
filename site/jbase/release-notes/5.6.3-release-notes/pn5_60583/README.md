@@ -17,3 +17,6 @@ Prior to this change, attribute 1 in procs, paragraphs and F-pointers had to be 
 This is a universal change, it is not dependent on any particular emulation.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

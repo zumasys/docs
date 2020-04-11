@@ -57,3 +57,6 @@ The subroutine SUBBP will be called for every database event to the PAYROLL file
 See [Trigger API](./../trigger-api) for instructions on how to create the trigger.
 
 Back to [Files](./../README.md).
+
+  
+<PageFooter />

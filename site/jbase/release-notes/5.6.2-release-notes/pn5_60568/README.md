@@ -18,3 +18,6 @@ The fields of the resource records are now normalized as follows:
 - Fields 5 and 6 are "MCN" converted
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

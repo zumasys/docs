@@ -9,3 +9,6 @@
 | [Keyboard independence](./../keyboard-independence) | How keyboard independence is achieved. |
 | [Terminal Extensions](./../terminal-extensions) | Extending terminal definitions. |
 
+
+  
+<PageFooter />

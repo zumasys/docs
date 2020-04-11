@@ -24,3 +24,6 @@ Several of the utilities use a Module Blocking Ratio parameter (-bn), default va
 | **2** | Source machine used 2k frames |
 
 [Back to Articles](./../README.md)
+
+  
+<PageFooter />

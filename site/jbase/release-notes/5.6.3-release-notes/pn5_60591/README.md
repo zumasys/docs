@@ -20,3 +20,6 @@ would not repeat attribute 8.
 This was a case where the jQL parser was not operating on the right-hand side of the formula when there was a conversion.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

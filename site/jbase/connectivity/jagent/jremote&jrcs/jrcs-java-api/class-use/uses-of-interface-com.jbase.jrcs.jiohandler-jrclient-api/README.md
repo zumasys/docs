@@ -21,3 +21,6 @@
 | Modifier and Type | Method | Description |
 | --- | --- | --- |
 | void | JConnection.[setTermIOHandler](./../../jconnection-jrclient-api#setTermIOHandler-com.jbase.jrcs)([JIOHandler](./../../jiohandler-jrclient-api "interface in com.jbase.jrcs") handler) | Sets a terminal I/O handler. |
+
+  
+<PageFooter />

@@ -137,3 +137,6 @@ Where {options} are identified as:
 | -V | View transaction journal administration log file jediLoggerAdminLog |
 
 Back to [Transaction Journaling](./../introduction-to-transaction-journaling)
+
+  
+<PageFooter />

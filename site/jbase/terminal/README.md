@@ -9,3 +9,6 @@
 [Terminal Extension](./terminal-extensions/README.md)  
 
 [Back to Knowledgebase](./../README.md)
+
+  
+<PageFooter />

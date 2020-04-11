@@ -25,3 +25,6 @@ CALL WGETINFO(ALL.VAR.NAMES,25)
 >See WWW.INFO for details on the common.
 
 [Back to jAgent APIs](./../README.md)
+
+  
+<PageFooter />

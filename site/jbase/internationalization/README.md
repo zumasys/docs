@@ -54,3 +54,6 @@ Once the jBASE Initialization has occurred then the language settings can be ove
 - [DATE-FORMAT](./../../../administration/utilities/date-format)
 
 [Back to Knowledgebase](./../README.md)
+
+  
+<PageFooter />

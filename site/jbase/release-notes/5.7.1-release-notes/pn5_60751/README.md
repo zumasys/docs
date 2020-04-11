@@ -29,3 +29,6 @@ compiler_case_insensitive_variables_keywords = true
 With this set, then by default all compilations will be done case insensitive.
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

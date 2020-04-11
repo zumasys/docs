@@ -21,3 +21,6 @@ where the **DATE1** and **DATE2** dictionary items do translates (or other emb
 Embedded conversions are now processed.
 
 Back to [5.7.2 Release Notes](./../README.md)
+
+  
+<PageFooter />

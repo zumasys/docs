@@ -35,3 +35,5 @@ The utility will create data files and subdirectories in the current working dir
 | magres -Q | Restore data |
 
 [Back to Restore](./../README.md)
+  
+<PageFooter />

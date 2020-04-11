@@ -21,3 +21,6 @@ CALL WGETCOOKIE(TOKEN,"Token")
 ```
 
 [Back to jAgent APIs](./../README.md)
+
+  
+<PageFooter />

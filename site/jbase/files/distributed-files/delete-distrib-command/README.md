@@ -26,3 +26,6 @@ DELETE-DISTRIB INVENTORY 42
 to detach (de-reference) the 42nd part file from the distributed file INVENTORY.
 
 Back to [Distributed Files](./../README.md)
+
+  
+<PageFooter />

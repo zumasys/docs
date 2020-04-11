@@ -23,3 +23,6 @@ Example:
 ```
 create-account -e d3 COLLECTIONS
 ```
+
+  
+<PageFooter />

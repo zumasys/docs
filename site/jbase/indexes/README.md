@@ -32,3 +32,6 @@
 [verify-index](./verify-index/README.md)  
 
 [Back to Knowledgebase](./../README.md)
+
+  
+<PageFooter />

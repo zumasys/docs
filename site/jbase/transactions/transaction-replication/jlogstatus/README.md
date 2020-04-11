@@ -62,3 +62,6 @@ Status log totals:                         2 files, 100000 records, 20415568 byt
 ```
 
 Back to [Transactional Journaling](./../introduction-to-transaction-journaling)
+
+  
+<PageFooter />

@@ -40,3 +40,6 @@ If the property STMT\_PROPERTY\_FORMAT is set then each attribute is also format
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

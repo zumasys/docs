@@ -27,3 +27,6 @@ For each process, the function maintains a unique table of 128 bits (numbered 1 
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

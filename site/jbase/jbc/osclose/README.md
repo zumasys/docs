@@ -38,3 +38,6 @@ OSCLOSE MYFILE_VARIABLE
 Go back to [jBASE BASC](./../jbase-basic-programmers-reference-guide).
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

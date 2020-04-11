@@ -30,3 +30,6 @@ where options may be:
 | (P) | output is to printer |
 
 Back to [Triggers](./../README.md)
+
+  
+<PageFooter />

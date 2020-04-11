@@ -36,3 +36,6 @@ CALL WGETVAR(KEY,"APIKEY")
 ```
 
 [Back to jAgent APIs](./../README.md)
+
+  
+<PageFooter />

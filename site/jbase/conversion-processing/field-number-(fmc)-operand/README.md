@@ -51,3 +51,6 @@ A;2 + 3RR
 For each subvalue in field 2 the system also obtains the corresponding subvalue in field 3 and adds it. If field 2 contains 1\2\3]7 and field 3 contains 5\4 the result would be five values of 6, 6, 7, 12 and 4 respectively.
 
 Back to [A-Correlatives](./../a-correlatives)
+
+  
+<PageFooter />

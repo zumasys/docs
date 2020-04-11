@@ -25,3 +25,6 @@ CALL WSETSTATUS(405);*Method not allowed
 >See [link](https://en.wikipedia.org/wiki/List_of_HTTP_status_codes) for list of valid codes
 
 [Back to jAgent APIs](./../README.md)
+
+  
+<PageFooter />

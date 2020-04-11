@@ -26,3 +26,6 @@ rc = curlExec(curlHandle, result, header)
 ```
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

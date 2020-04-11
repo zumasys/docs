@@ -27,3 +27,6 @@
 | Constructor and Description |
 | --- |
 | [JExecuteResults](./../../jexecuteresults-jrclient-api#JExecuteResults-java.lang.String-com.jbase.jrcs.JCapture-java.lang.String-com.jbase.jrcs)(String capturing, [JCapture](./../../jcapture-jrclient-api "class in com.jbase.jrcs") captureObj, String returning, [JSelectList](./../../jselectlist-jrclient-api "class in com.jbase.jrcs") returnList) |
+
+  
+<PageFooter />

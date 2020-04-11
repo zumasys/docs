@@ -59,3 +59,6 @@ SET JBC_OLD_SP_EDIT=1
 See also the behavior of the [standard SP-EDIT](./../../administration/spooler/sp-edit).
 
 Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

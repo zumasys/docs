@@ -19,3 +19,6 @@ Templates for all jRFS configuration files can be found in the "config" subdirec
 | **jnet\_env**<br> | jConnect server environment map file<br> |
 | **jrfs\_config**<br> | jRFS client and server configuration file |
 
+
+  
+<PageFooter />

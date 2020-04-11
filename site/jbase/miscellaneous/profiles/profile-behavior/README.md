@@ -28,3 +28,6 @@ If no JSON config profile is found, and the **JBCRELEASEDIR** environment variab
 When processing the JSON config profile, jBASE internally sets environment variables based on the settings in the JSON file. If the environment variable corresponding to a particular setting is already defined, the environment variable takes precedence over the JSON config setting. For example, if the **JBCDATADIR** environment variable is set before starting jBASE to **/usr/dbms**, and the JSON config file property **jbase\_data\_files** is set to **/opt/jbase**, the **JBCDATADIR** environment variable is not altered and remains **/usr/dbms**.
 
 Back to [Profiles](./../jbase-profiles)
+
+  
+<PageFooter />

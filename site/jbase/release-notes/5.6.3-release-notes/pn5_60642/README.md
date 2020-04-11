@@ -15,3 +15,6 @@ The .L command (the command that displays/initiates the stack) appeared in the l
 The .L command no longer appears in the command stack.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

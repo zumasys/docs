@@ -17,3 +17,6 @@ With JBCEMULATE=D3, the U50BB and WHO command now behave a-la D3 and present 3 v
 This behavior is activated with a new configuration option, **u50bb\_3\_values**, which is set by default for the D3 emulation.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

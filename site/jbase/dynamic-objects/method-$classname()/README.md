@@ -56,3 +56,6 @@ The class name is "Library".
 ```
 
 ## Notes
+
+  
+<PageFooter />

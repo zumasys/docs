@@ -92,3 +92,6 @@ LEVEL STOCK Description.... Components Qty
 ```
 
 Back to [jQL](jbase-query-language-jql-)
+
+  
+<PageFooter />

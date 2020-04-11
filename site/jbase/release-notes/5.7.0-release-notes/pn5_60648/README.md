@@ -43,3 +43,6 @@ f) Delete the original file and rename the temporary file to the real actual fil
 ```
 
 By setting the environment variable **JEDI\_IGNORE\_UPDATE\_NO**, we ignore that error on the new file. This allows files to continue without a problem, but the data inside could be stale.
+
+  
+<PageFooter />

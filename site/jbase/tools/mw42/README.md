@@ -47,3 +47,6 @@ mw42 -f -a -t -n 30 1440 > mw42.out
 to produce a full listing for the application account with timestamps on every line without asking for input. Sample every 30 seconds for 1440 samples and pipe the output to mw42.out
 
 [Back to Tools](./../README.md)
+
+  
+<PageFooter />

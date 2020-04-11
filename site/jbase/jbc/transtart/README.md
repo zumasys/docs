@@ -31,3 +31,6 @@ A program (or series of programs) can only have one active transaction at one ti
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

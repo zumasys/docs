@@ -29,3 +29,6 @@ rc = SOAPCreateRequest(url, soapAction, request_handle)
 ```
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

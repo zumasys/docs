@@ -24,3 +24,6 @@ Two control records can be configured in the SYSTEM file, **FORCE.RESTORELIST**,
 To restore from a Reality M-A-S Save, a T-ATT followed by the M-A-R is all that should be required.
 
 [Back to Articles](./../README.md)
+
+  
+<PageFooter />

@@ -54,3 +54,6 @@ jsh --> SELECT PRODUCTS IF BIRTHDAY GE "23-JUL-56" AND SURNAME EQ "COOPER]"
 To be absolutely sure the index data is used to speed up a query, use the [key-select](./../query-index) command.
 
 Back to [Indexes](./../README.md)
+
+  
+<PageFooter />

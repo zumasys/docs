@@ -24,3 +24,6 @@ Several utilities are provided to convert, add, multiply, subtract and divide nu
 | XTD | Convert hex to decimal | XTD A | 10 |
 
 Back to [Utilities](./../utilities)
+
+  
+<PageFooter />

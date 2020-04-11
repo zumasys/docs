@@ -16,3 +16,6 @@
 [visual-studio-code-pick-basic-extension](./visual-studio-code-pick-basic-extension/README.md)  
 
 [Back to Knowlegebase](./../README.md)
+
+  
+<PageFooter />

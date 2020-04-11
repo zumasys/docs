@@ -32,3 +32,6 @@ CALL WPARSEJSON(JSON,"field1",VALUE,RERR)
 >This is a very simple parser.  It cannot handle nested objects or arrays.  It is recommended to use WOBJ to parse jSON.
 
 [Back to jAgent APIs](./../README.md)
+
+  
+<PageFooter />

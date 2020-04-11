@@ -62,3 +62,6 @@ When jrestore is used, by default it will restore the index information, but wil
 Using the -N option with jrestore will result in the indexes being built as the data is restored. This will slow down the restore time, but means the index is immediately available for use without the need to re-build the indexes with rebuild-index.
 
 Back to [Indexes](./../README.md)
+
+  
+<PageFooter />

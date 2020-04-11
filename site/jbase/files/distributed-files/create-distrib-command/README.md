@@ -95,3 +95,6 @@ CREATE-DISTRIB -v CONVENTIONS
 Verifies the existence of the component part files belonging to the CONVENTIONS distributed file. Also confirms the partition method. If the distributed file uses the user-defined partition method this also verifies that the subroutine can be executed.
 
 Back to [Distributed Files](./../README.md)
+
+  
+<PageFooter />

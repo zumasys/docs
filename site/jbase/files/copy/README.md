@@ -102,3 +102,6 @@ COPY FROM ORDERS TO ORDER.HISTORY ALL
 Copies all records from the ORDERS file to the ORDER.HISTORY file
 
 Back to [Files](./../README.md)
+
+  
+<PageFooter />

@@ -76,3 +76,6 @@ protected void finalize()
 Overrides: `finalize` in class `Object`
 
 Back to [jRCS java API](./../README.md)
+
+  
+<PageFooter />

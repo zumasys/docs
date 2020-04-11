@@ -126,3 +126,6 @@ newmusic:
 ## Notes
 
 The [$dump()](./../method-$dump%28%29) method can be used to see the internal address of any object or array.
+
+  
+<PageFooter />

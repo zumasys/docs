@@ -19,3 +19,6 @@ See also: [READ](./../read) statements, [OPEN](./../open) statement (for a descr
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

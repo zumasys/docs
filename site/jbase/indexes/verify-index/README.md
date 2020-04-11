@@ -40,3 +40,6 @@ where options may be:
 > ```
 
 Back to [Indexes](./../README.md)
+
+  
+<PageFooter />

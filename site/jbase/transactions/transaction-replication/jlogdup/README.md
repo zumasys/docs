@@ -154,3 +154,6 @@ An option “SYNC” exists for the [TRANSTART](../../../jbase-basic-(jbc)/trans
 The transaction journal is not normally encrypted. This option will allow the data content of each record to be encrypted on disk. The data content of each record will be encrypted with an (internally-specified) industry-standard encryption scheme, using an internal key. The record headers remain unencrypted so that all utilities accessing the journal will be unaffected.
 
 Back to [Transactional Journaling](./../introduction-to-transaction-journaling)
+
+  
+<PageFooter />

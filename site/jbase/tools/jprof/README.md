@@ -149,3 +149,6 @@ test2.b 10 1 0.19 REPEAT
 The -i option would sort the output with incrementing Ticks counts. The -n option would additionally sort it by file name, so the "test1.b" entries will be displayed separately to the "test2.b" entries.
 
 [Back to Tools](./../README.md)
+
+  
+<PageFooter />

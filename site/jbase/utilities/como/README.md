@@ -31,3 +31,6 @@ The **COMO** utility provides a means of recording all input and output from the
 > Recorded information can then be found in the **typescript** file.
 
 Back to [Utilities](./../utilities)
+
+  
+<PageFooter />

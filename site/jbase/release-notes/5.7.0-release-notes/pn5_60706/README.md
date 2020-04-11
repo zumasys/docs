@@ -29,3 +29,6 @@ This patch addresses the following issues:
 - Only uses the first instance of the controller
 - Doesn't reprocess any duplicate columns
 
+
+  
+<PageFooter />

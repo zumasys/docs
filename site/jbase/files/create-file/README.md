@@ -117,3 +117,6 @@ CREATE-FILE H:\Payables\File6 3 431
 Creates a dictionary and data section of type j4 on network drive H, directory Payables.
 
 Back to [Files](./../README.md)
+
+  
+<PageFooter />

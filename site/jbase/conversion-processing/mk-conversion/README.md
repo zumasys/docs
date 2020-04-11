@@ -43,3 +43,6 @@ Input conversion does not invert. It simply applies the metric processing to the
 | -0.1234 | -.1 | -.12 | -.123 | -0.1234 |
 
 Back to [Conversion Processing](./../conversion-processing)
+
+  
+<PageFooter />

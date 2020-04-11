@@ -23,3 +23,6 @@ LOCATE strA IN strB SETTING varC ELSE NULL
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

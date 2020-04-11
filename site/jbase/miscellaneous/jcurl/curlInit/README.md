@@ -23,3 +23,6 @@ rc = curlInit(curlHandle)
 ```
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

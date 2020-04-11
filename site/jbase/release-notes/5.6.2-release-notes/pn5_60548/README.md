@@ -17,3 +17,6 @@ When the new emulation option **retain\_prompt\_on\_enter** is set then the PROM
 This emulation option has been added to the D3 emulation.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

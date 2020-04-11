@@ -174,3 +174,6 @@ jBC Statements/Functions
 [Windows Installation Guide](./../../administration/installation-guides/jbase-5.6-windows-installation-guide "Windows Installation Guide")
 
 [Linux Installation Guide](jbase-56-linux-installation-guide "Linux Installation Guide")
+
+  
+<PageFooter />

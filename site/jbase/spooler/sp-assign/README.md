@@ -67,3 +67,6 @@ INCOMPATIBLE OPTIONS: I S, C NOT I, COPIES I
 > **SP-ASSIGN** will close any previously open global print jobs.
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

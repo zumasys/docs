@@ -94,3 +94,6 @@ Distributed files support secondary indexes and triggers at both the distributed
 See also: [Distributed File Examples](./../distributed-files-examples)
 
 Back to [Distributed Files](./../README.md)
+
+  
+<PageFooter />

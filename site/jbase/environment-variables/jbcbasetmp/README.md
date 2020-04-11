@@ -42,3 +42,6 @@ set JBCBASETMP=C:\JBASE30\tmp\workfiles\jTMP%USERNAME%
 ```
 
 Go Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

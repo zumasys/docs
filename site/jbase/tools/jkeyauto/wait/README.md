@@ -54,3 +54,6 @@ print "SLEEP exited with ":s:" and took ":time2-time1:" seconds"
 to execute "SLEEP 5, then go in a loop with a 2 second timeout displaying a "Still waiting to complete" every 2 seconds. When the program finally completes, the exit code from the program is displayed.
 
 [Back to jKeyAuto](./../README.md)
+
+  
+<PageFooter />

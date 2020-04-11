@@ -56,3 +56,6 @@ In most cases, customized conversion codes can also be used as conversions or co
 If JBCUserConversions is called from jQL then the type is set to -1. This gives the user some control as to whether the subroutine was called from jBC or jQL.
 
 Back to [Conversion Processing](./../conversion-processing)
+
+  
+<PageFooter />

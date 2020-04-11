@@ -9,3 +9,6 @@
 [uses-of-class-com.jbase.jremote.jca.inflow.protocol.rollbacktransactionrequest-(jremote-api)](./uses-of-class-com.jbase.jremote.jca.inflow.protocol.rollbacktransactionrequest-(jremote-api))  
 [uses-of-class-com.jbase.jremote.jca.inflow.protocol.transactionoperation-(jremote-api)](./uses-of-class-com.jbase.jremote.jca.inflow.protocol.transactionoperation-(jremote-api))  
 [uses-of-class-com.jbase.jremote.jca.inflow.protocol.workscheduledresponse-(jremote-api)](./uses-of-class-com.jbase.jremote.jca.inflow.protocol.workscheduledresponse-(jremote-api))  
+
+  
+<PageFooter />

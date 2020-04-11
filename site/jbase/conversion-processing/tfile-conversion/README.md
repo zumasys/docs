@@ -71,3 +71,6 @@ A;3(TSALES;X;;2)
 Using this embedded Tfile code in field 8 of a data definition record will cause field 3 of the current record to be used as the key when accessing field 2 of the reference file SALES. If the record cannot be found a null will be returned. If the record is found, the value of field 2 will be returned.
 
 Back to [Conversion Processing](./../conversion-processing)
+
+  
+<PageFooter />

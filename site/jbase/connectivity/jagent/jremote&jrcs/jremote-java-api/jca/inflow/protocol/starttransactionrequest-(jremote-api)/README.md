@@ -117,3 +117,6 @@ public String getTransactionId()
 Specified by:`getTransactionId` in interface `InboundRequest`
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

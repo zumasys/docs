@@ -31,3 +31,6 @@ In this example, all updates to the CUSTOMER file which have been logged, except
 ```
 
 Back to [Transactional Journaling](./../introduction-to-transaction-journaling)
+
+  
+<PageFooter />

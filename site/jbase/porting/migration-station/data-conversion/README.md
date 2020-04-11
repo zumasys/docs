@@ -11,3 +11,6 @@
 [welcome-to-jbase-d3-edition](./welcome-to-jbase-d3-edition)  
 
 [Back to Migration Station](./../../README.md)
+
+  
+<PageFooter />

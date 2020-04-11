@@ -53,3 +53,6 @@ Input save list name: CUSTOMERS.NOT.MK
 XSELECT first prompts for the name of a list to use. Because a list name is not supplied, it prompts for the anti-selection criteria to use. A list is then created which contains all the keys of the CUSTOMERS file where the records do not match the selection criteria. The new list is saved as CUSTOMERS.NOT.MK.
 
 Back to [List Processing](./../list-processing)
+
+  
+<PageFooter />

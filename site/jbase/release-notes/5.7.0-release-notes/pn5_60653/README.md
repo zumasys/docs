@@ -60,3 +60,6 @@ Remember to unset the environment variable once you have done your batch update:
 unset JBC_RAMFILE      [Unix/Linux]
 set JBC_RAMFILE=       [Windows]
 ```
+
+  
+<PageFooter />

@@ -69,3 +69,6 @@
 [time-and-date](./time-and-date/README.md)  
 
 [Back to Knowledgebase](./../README.md)
+
+  
+<PageFooter />

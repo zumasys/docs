@@ -35,3 +35,6 @@ It must be set before running any jBASE program.
 $JBCDATADIR/home is used as the default $HOME environment variable, when $HOME (UNIX) / %HOME% (Windows) is NOT set on a LOGTO.
 
 Go Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

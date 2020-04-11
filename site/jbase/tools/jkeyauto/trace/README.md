@@ -32,3 +32,6 @@ trace off
 to have a loop of 10 iterations waiting for the application to send the "greg" string. Tracing is turned on at the start of the loop and off at the end, to check for errors in the script.
 
 [Back to jKeyAuto](./../README.md)
+
+  
+<PageFooter />

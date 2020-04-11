@@ -111,3 +111,6 @@ END
 ```
 
 Back to [Encryption](./../README.md)
+
+  
+<PageFooter />

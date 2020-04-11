@@ -339,3 +339,6 @@ Parameters:`command` - to sendReturns:respose stringThrows:`JRemoteException` - 
 
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

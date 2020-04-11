@@ -23,3 +23,6 @@
 [uses-of-package-com.jbase.jrcs-jrclient-api](./uses-of-package-com.jbase.jrcs-jrclient-api)  
 
 Back to  [jRemote and jRCS](./../README.md)
+
+  
+<PageFooter />

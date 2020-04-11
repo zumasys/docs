@@ -285,3 +285,6 @@ A;N(S.CODE)[2, N(SUB.CODE.LEN)]
 Extracts a sub-string from the S.CODE field, starting at the character position defined by field 2 and continuing for the number of characters defined by SUB.CODE.LEN.
 
 Back to [Conversion Processing](./../conversion-processing)
+
+  
+<PageFooter />

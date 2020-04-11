@@ -90,3 +90,6 @@ Default spool banner : "P#0000"
 Destination printer  : /dev/lp0
 Initial Job State    : PRINT
 ```
+
+  
+<PageFooter />

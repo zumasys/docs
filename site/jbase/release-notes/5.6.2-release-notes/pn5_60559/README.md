@@ -18,3 +18,6 @@ Enhancements to the SEARCH command for compatibility with D3 functionality
 - Options are case insensitive
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

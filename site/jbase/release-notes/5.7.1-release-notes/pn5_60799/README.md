@@ -25,3 +25,6 @@ This new behavior will only become active if the file has been created caseless.
 Caseless files are created by default in D3 emulation.
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

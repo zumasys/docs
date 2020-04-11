@@ -25,3 +25,6 @@ As they are executables to use in place of **cmd.exe** functionality, the comman
 > If [Transaction Journaling](../../transactions/README.md) is active, the actions performed by jrm and jmv are **not** logged.
 
 [Back to Tools](./../README.md)
+
+  
+<PageFooter />

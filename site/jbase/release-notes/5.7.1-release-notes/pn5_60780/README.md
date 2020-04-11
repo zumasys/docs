@@ -22,3 +22,6 @@ displayed "2" when it should have displayed "0" (zero) because null dynamic arra
 The MINIMUM() function now works correctly.
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

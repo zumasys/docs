@@ -19,3 +19,6 @@ This behavior would only occur if **log\_runtime\_errors** is active within a jS
 ### Current Release Behavior
 
 Only 'real' runtime errors (those marked as **^LOGERROR^** in the **jbcmessages** file) are logged.
+
+  
+<PageFooter />

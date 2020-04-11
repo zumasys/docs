@@ -47,3 +47,6 @@ When lists have the user name as part of the id, then the user name can be speci
 See also: [JBCLISTFILE](./../jbclistfile) and [List Storage](./../../jbase/lists/list-storage) for how lists are stored.
 
 Go Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

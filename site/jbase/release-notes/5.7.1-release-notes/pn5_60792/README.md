@@ -21,3 +21,6 @@ The keyboard generated a 0xf2 character and a segmentation violation then follow
 The character is handled correctly.
 
 Back to [5.7.1 Release Notes](./../README.md)
+
+  
+<PageFooter />

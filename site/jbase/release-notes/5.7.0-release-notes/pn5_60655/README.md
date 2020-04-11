@@ -32,3 +32,6 @@ The above code now returns:
 ```
 07 OCT 2014
 ```
+
+  
+<PageFooter />

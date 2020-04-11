@@ -38,3 +38,6 @@ FORM-QUEUE DEVICE-TYPE(LPTR,TAPE,PORT,PROG) DEVICE NAME:
 The user will then enter the device name.
 
 Back to [Spooler](./../jbase-spooler).
+
+  
+<PageFooter />

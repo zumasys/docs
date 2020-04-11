@@ -167,3 +167,6 @@ If you get a return code of "6" and you can successfully test your class/method 
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

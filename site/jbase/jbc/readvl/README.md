@@ -15,3 +15,6 @@ The **READVL** statement conforms to all the specifications of the [READL](./../
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

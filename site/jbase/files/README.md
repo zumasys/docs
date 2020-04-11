@@ -21,3 +21,6 @@
 [trigger-api](./trigger-api/README.md)  
 
 [Back to Knowledgebase](./../README.md)
+
+  
+<PageFooter />

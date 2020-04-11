@@ -197,3 +197,6 @@ In SQL\*PLUS check updates
 [See also jEDI](./../jedi/README.md)
 
 [Back to Knowledgebase](./../README.md)
+
+  
+<PageFooter />

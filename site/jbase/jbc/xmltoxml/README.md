@@ -65,3 +65,6 @@ If **result** = 1, XML\_VAR will hold an error message.
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

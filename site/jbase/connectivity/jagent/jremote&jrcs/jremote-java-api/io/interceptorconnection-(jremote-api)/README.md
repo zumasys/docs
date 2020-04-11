@@ -124,3 +124,6 @@ Intercept any IO messages and handle required input or output on in / out stream
 Specified by:`receive` in class `AbstractJRemoteConnection`Throws:`JRemoteException`
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

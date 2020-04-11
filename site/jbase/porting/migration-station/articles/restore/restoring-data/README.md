@@ -16,3 +16,6 @@
 | [Troubleshooting](./../../troubleshooting) | Common tape problems. |
 
 Back to [Restore](./../README.md)
+
+  
+<PageFooter />

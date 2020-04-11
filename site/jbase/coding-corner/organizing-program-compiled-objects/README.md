@@ -177,3 +177,6 @@ Example of ACCOUNT-B's SYSTEM entry AFTER sharing ACCOUNT-A's bin and lib direc
 We have added a colon delimiter followed by the path to the bin (or lib) directory in ACCOUNT-A where our object in ACCOUNT-A.  So, there is no need to catalog anything in ACCOUNT-B, it will just automatically search the paths and find the objects.  So, the task is to modify the SYSTEM file entries so that other accounts have visibility to the objects of the account(s) where the code lives.  Pretty simple and a WHOLE lot easier and more flexible (but different) than how we have done things in Pick.  But the change is very worth while.
 
 [Back to Coding Corner](./../README.md)
+
+  
+<PageFooter />

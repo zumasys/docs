@@ -111,3 +111,6 @@ Specified by:`getVersion` in interface `JBaseSerializable`Overrides:`getVersion`
 
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

@@ -49,3 +49,6 @@ P(2A"*"3N"/"2A);(2N"-"2A)
 Will match and return AA\*123/BB, xy\*999/zz, 99-AA or 10-xx. Will fail to match AA&123/BB, A1\*123/BB, 9A-AA or 101-xx, and will return null.
 
 Back to [Conversion Processing](./../conversion-processing)
+
+  
+<PageFooter />

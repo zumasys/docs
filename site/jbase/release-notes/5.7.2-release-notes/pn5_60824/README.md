@@ -74,3 +74,6 @@ Ian is in array at element 1
 ```
 
 Back to [5.7.2 Release Notes](./../README.md)
+
+  
+<PageFooter />

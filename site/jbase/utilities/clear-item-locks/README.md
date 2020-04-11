@@ -48,3 +48,6 @@ Clears the lock on the item R47FC9Z in the multi-level file CASE, data section 2
 See also [SHOW-ITEM-LOCKS](./../show-item-locks)
 
 Back to [Utilities](./../utilities)
+
+  
+<PageFooter />

@@ -178,3 +178,6 @@ Returns true if the operation was successful or false if the records could not b
 Returns:clear successfulThrows:`JRemoteException`
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

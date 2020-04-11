@@ -22,3 +22,6 @@ You can now use 2 added options to REGEXP() with an optional parameter. These co
 INCLUDE JBC.h
 CRT "Match = " : REGEXP("Hello World", "WORLD" , REGEXP_ICASE + REGEXP_EXTENDED)
 ```
+
+  
+<PageFooter />

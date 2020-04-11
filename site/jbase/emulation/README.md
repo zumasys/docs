@@ -356,3 +356,6 @@ A knowledge of [terminfo capabilities](./../environment-variables/terminfo) can 
 | @(-n) | **foreground colorname** | Set the foreground to one of the supported colors , where "colorname" is one of: black , blue , green, cyan , red , magenta , yellow , white |
 
 [Back to Knowledgebase](./../README.md)
+
+  
+<PageFooter />

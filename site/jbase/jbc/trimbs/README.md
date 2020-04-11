@@ -19,3 +19,6 @@ If **dynamic.array** evaluates to null, null is returned. If any element of **dy
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

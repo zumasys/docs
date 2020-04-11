@@ -29,3 +29,6 @@ jDLS can now be managed as a normal Windows service.
 [Manual License Key Installation](./../../administration/installation-guides/manual-license-key-installation)
 
 Back to [Daemons](./../README.md)
+
+  
+<PageFooter />

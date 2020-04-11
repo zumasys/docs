@@ -107,3 +107,6 @@
 - The spooler features a new [FILE Device Type](./../pn5_60673).
 
 Back to [Release Notes](./../README.md)
+
+  
+<PageFooter />

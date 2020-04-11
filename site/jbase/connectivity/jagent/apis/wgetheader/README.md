@@ -27,3 +27,6 @@ CALL WGETHEADER(REQESTMETHOD,"REQUEST_METHOD")
 >You can also get a list of supplied headers by calling WGETOPTIONS with a parameter of 34.
 
 [Back to jAgent APIs](./../README.md)
+
+  
+<PageFooter />

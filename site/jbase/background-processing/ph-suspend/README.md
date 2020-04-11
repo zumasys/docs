@@ -47,3 +47,6 @@ Resumes the jBASE background task process running on port 10173.
 See also [PH-RESUME](./../ph-resume).
 
 Back to [Background Processing](./../README.md)
+
+  
+<PageFooter />

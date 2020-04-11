@@ -52,3 +52,6 @@ Result of GROUPSTORE #2 is : 1*A*B*5
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

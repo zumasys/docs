@@ -82,3 +82,6 @@ Input conversion works with a number that has only thousands separators and a de
 In the last example, the leading and trailing parenthesis are ignored.
 
 Back to [Conversion Processing](./../conversion-processing)
+
+  
+<PageFooter />

@@ -28,3 +28,6 @@ END
 ```
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

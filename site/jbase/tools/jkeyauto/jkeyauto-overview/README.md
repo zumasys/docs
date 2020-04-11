@@ -154,3 +154,6 @@ Sets the delay between characters being sent via the INPUT statement. The defaul
 Wait for a program to complete
 
 [Back to jKeyAuto](./../README.md)
+
+  
+<PageFooter />

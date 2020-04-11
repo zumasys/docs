@@ -24,3 +24,6 @@ The type of the MD can now be overridden with JEDI\_PREFILEOP but only as types 
 The default is still type **JD** if **JEDI\_PREFILEOP** is not used.
 
 Back to [5.7.3 Release Notes](./../README.md)
+
+  
+<PageFooter />

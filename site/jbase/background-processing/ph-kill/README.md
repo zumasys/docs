@@ -35,3 +35,6 @@ PH-KILL 10000
 Terminates the jBASE background task process running on port 10000.
 
 Back to [Background Processing](./../README.md)
+
+  
+<PageFooter />

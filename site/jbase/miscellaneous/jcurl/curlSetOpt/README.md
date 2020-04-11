@@ -176,3 +176,6 @@ The following are equated in JBCCURL.h
 |CURLOPT_GSSAPI_DELEGATION|00210|
 
 Back to [jCurl.](./../README.md)
+
+  
+<PageFooter />

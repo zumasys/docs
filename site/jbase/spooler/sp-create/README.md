@@ -45,3 +45,6 @@ FORM-NAME     DEV TYPE(LPTR,TAPE,PORT,PROG,NT,FILE)     DEVICE NAME:_
 > Parameters must be entered in the order shown in the syntax description. You will be prompted for any missing parameters. There is no limit to the number of formqueues, which can be created.
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

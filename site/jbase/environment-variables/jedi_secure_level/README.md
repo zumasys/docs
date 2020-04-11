@@ -78,3 +78,6 @@ jsh -->unset JEDI_SECURE_LEVEL
 In the above example the secure mode is disabled during the COPY command and so will perform much quicker. When the COPY is completed it is normal operating system practice to flush all modified file data to disk anyway.
 
 Go Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

@@ -8,3 +8,6 @@
 - [PN5\_60529](./pn5_60529/README.md) - jQL: Calculations based on totals using a correlative  
 
 Back to [Release Notes](./../../README.md)
+
+  
+<PageFooter />

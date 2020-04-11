@@ -139,3 +139,6 @@ jcompile.cc.lib=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildToo
 This results in a much shorter PATH setting in the System Environment variables.  
 
 Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

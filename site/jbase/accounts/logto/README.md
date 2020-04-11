@@ -43,3 +43,6 @@ LOGTO homer
 Logs off the current account and into the account "homer".
 
 Back to [Accounts](./../README.md)
+
+  
+<PageFooter />

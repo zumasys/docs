@@ -71,3 +71,6 @@ NEXT index.next
 Note that Attribute 12 returned with the INDICES function shows any option passed to create-index with the (Vnn) option and is therefore a count on the limit on the number of values extracted per attribute to create an index entry. By default this value is 0.
 
 Back to [Indexes](./../README.md)
+
+  
+<PageFooter />

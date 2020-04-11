@@ -40,3 +40,6 @@ crt obj->$tojson(beautify)
 ```
 
 ## Notes
+
+  
+<PageFooter />

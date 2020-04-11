@@ -48,3 +48,6 @@ The screen will show up to 10 form queues at a time. The four fields shown for e
 | 99 | EXIT | Exits the SP-SECURITY menu back to shell |
 
 Back to [Spooler](./../jbase-spooler).
+
+  
+<PageFooter />

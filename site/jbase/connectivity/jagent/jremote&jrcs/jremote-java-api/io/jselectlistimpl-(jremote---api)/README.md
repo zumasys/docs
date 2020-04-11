@@ -396,3 +396,6 @@ Returns an iterator to the select list
 Specified by:`iterator` in interface `JSelectList`Specified by:`iterator` in interface `Iterable<String>`Returns:iteratorSee Also:[`JSelectList.iterator()`](./../../jselectlist-%28jremote-api%29#iterator--)
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

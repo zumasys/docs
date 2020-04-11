@@ -63,3 +63,6 @@ Options:
 
              Options are Case Insensitive.
 ```
+
+  
+<PageFooter />

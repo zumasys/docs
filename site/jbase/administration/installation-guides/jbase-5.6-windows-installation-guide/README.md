@@ -178,3 +178,6 @@ The installation of jBASE is complete.  Continue on to [Installing the Compiler
 [Manual License Key Installation](./../manual-license-key-installation)
 
 Back to [Installation Guides](./../README.md).
+
+  
+<PageFooter />

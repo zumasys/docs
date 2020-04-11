@@ -15,3 +15,6 @@
 [transactionmanager-(jremote-api)](./transactionmanager-(jremote-api))  
 [wrappedjconnection-(jremote-api)](./wrappedjconnection-(jremote-api))  
 [wrappedjfile-(jremote-api)](./wrappedjfile-(jremote-api))  
+
+  
+<PageFooter />

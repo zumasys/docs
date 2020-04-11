@@ -31,3 +31,6 @@ ED D3TST,CUSTOMERS,2001,         // Edit section 2001 of the CUSTOMERS file 
 By default, on new installations, any user with the emulation set to D3 will automatically get this option. For non-D3 users, or those with a previous version of Config\_EMULATE, you will need to add this manually if required.
 
 Back to [5.7.2 Release Notes](./../README.md)
+
+  
+<PageFooter />

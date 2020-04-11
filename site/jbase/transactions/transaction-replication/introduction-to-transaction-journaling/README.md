@@ -42,3 +42,6 @@ Transaction Replication is a secondary process that takes transaction logs and c
 [Configuring Transaction Replication](./../starting-transaction-replication)
 
 [Monitoring Transaction Replication](./../monitoring-transaction-replication)
+
+  
+<PageFooter />

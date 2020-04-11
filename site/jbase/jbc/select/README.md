@@ -73,3 +73,6 @@ However, the CLEAR statement also initializes **Listvar2** to zero, so the secon
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

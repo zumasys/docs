@@ -44,3 +44,6 @@ The printer number is a reference to the Formqueue number. This number can be ma
 Shows typical output to the secondary input buffer of a jCL program where 1134 is the LISTPTR error message identifier. 1171 means that the printer/formqueue is inactive, the printer number is one, and the formqueue number is 1, 127 is reserved and 3 is the number of page skips.
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

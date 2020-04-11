@@ -20,3 +20,6 @@ where **Num1** and **Num2** are any decimal numbers.
 > Decimal number **Num2** is subtracted from decimal number **Num1**.
 
 Back to [Utilities](./../utilities)
+
+  
+<PageFooter />

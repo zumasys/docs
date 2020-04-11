@@ -23,3 +23,6 @@ FORM-QUEUE:
 > The print job status is changed from PRINTING to KILLED and the print job is deleted. If the print job was a hold file, the status of the print job changes to FINISHED. The next print job on the formqueue will then be despooled.
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

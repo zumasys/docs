@@ -40,3 +40,6 @@ would cause unpredictable behavior.
 ### Current Release Behavior
 
 Both issues are fixed.
+
+  
+<PageFooter />

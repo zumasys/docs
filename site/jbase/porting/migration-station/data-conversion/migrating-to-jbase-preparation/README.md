@@ -81,3 +81,6 @@ This article and accompanying video will provide you with an overview of steps a
 [Migrating to jBASE: D3 Systems](./../migrating-to-jbase-d3-systems)
 
 Back to [Data Conversion](.../../README.md)
+
+  
+<PageFooter />

@@ -49,3 +49,6 @@ jsh -->rebuild-index CUSTOMERS lastname
 and the SELECT is re-executed , then instead of scanning through the entire CUSTOMERS file, it will look through the index definition "lastname" instead and will therefore execute considerably quicker.
 
 Back to [Indexes](./../README.md)
+
+  
+<PageFooter />

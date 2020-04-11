@@ -69,3 +69,6 @@ Initial Job State    : PRINT
 ```
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

@@ -79,3 +79,6 @@ Specified by:`next` in interface `JResultSet`Throws:`JRemoteException`
 
 
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
+
+  
+<PageFooter />

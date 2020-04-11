@@ -15,3 +15,6 @@ Performing **DELETE-FILE DICT *filename*** would also delete any additional sub-
 Now only deletes ***filename*****]D**
 
 Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+
+  
+<PageFooter />

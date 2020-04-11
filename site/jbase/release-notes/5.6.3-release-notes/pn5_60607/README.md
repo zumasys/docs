@@ -55,3 +55,6 @@ Options:
 This behavior is activated by setting **d3\_list\_processing = true** in the Config\_EMULATE file.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

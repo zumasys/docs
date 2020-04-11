@@ -67,3 +67,6 @@ or to restore to the original VM with either "Keep" or "Overwrite"  option, whic
 ![Linux_Restore_15](./linux_restore_15.png)
 
 Back to [Veeam](./../README.md)
+
+  
+<PageFooter />

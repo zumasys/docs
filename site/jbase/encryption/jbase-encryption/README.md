@@ -88,3 +88,6 @@ The following functionality will be tested to ensure correct working with the ne
 - rename-file
 
 Back to [Encryption](./../README.md)
+
+  
+<PageFooter />

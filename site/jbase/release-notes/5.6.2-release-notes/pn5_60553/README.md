@@ -17,3 +17,6 @@ Case Independence: Fix miscellaneous issues with jformatcode
 jformatcode now handles the above syntax.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

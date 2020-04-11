@@ -249,3 +249,6 @@ Specified by:`clear` in interface `JFile`Returns:clear successfulThrows:`JRemote
 Back to [jREMOTE API](com_jbase_jremote_package-summary)
 
 
+
+  
+<PageFooter />

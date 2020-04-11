@@ -19,3 +19,6 @@ Wyse & ADDS terminfo for Windows were incomplete and contained errors. Some VT10
 Modified the **jsh** and **TERM** commands to work nicely with Wyse & ADDS terminals.
 
 Wyse 50, Wyse 60, ADDS Viewpoint, ADDS 4000 terminal definitions now work correctly with jBASE, including jShell cursor movement and command stack. The **TERM** command can be used to initialize the terminal. New terminfo source can be used in Linux/Unix since most lack Wyse/ADDS definitions.
+
+  
+<PageFooter />

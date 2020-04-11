@@ -41,3 +41,6 @@ All built-in methods start with "\$".
 - [\$valuetype()](./../method-$valuetype%28%29)
 
 Back to [Dynamic Objects - Overview](./../README.md)
+
+  
+<PageFooter />

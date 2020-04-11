@@ -92,3 +92,6 @@ crt obj->$refcount() ;* reference count is 1
 obj = ""             ;* the object no longer exists
 crt obj->$isobject() ;* returns 0 (zero)
 ```
+
+  
+<PageFooter />

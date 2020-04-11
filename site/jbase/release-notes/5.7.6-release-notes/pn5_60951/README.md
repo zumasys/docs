@@ -36,3 +36,6 @@ EXECUTE
 >This behavior is dependent on the **generic\_pick** emulation setting.
 
 Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+
+  
+<PageFooter />

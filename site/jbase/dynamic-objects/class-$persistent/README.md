@@ -10,3 +10,6 @@ The following methods can be utilized from the **$persistent**class:
 - $persistent::clearlocks()
 - $persistent::getlockfilename()
 - $persistent::count()
+
+  
+<PageFooter />

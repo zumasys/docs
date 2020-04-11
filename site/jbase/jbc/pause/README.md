@@ -26,3 +26,6 @@ If executing a [WAKE](./../wake) statement for the process before the process ex
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+  
+<PageFooter />

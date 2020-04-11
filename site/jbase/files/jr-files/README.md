@@ -71,3 +71,6 @@ The Autosizing and Resilience algorithms add a performance overhead to the use o
 In order to convert from j4 to jR files it is recommended that a new jR file be created and the source data copied from the original file using the jBASE COPY command.
 
 Return to [Files](./../jbase-files)
+
+  
+<PageFooter />

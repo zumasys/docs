@@ -96,3 +96,6 @@ crt source->$merge(destination)->$tojson(formatted)
 ## Notes
 
 Objects can only be merged into other objects, you cannot merge an object with an array (and vice versa). Attempting to do so will produce unpredictable results.
+
+  
+<PageFooter />

@@ -41,3 +41,6 @@ set JBCNETDIR=C:\home\globals\jrfs
 ```
 
 Go Back to [Environment Variables](./../README.md)
+
+  
+<PageFooter />

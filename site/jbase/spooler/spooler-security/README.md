@@ -32,3 +32,6 @@ When the spooler is first created using the SP-NEWTAB command, the security of a
 The default action may be changed using the options presented by SP-NEWTAB. Of course the security for the form queue can be modified at a later stage.
 
 Back to [Spooler](./../jbase-spooler).
+
+  
+<PageFooter />

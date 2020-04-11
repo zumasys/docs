@@ -15,3 +15,6 @@ Both the jBC **SYSTEM(1021)** function and the **jdiag** command truncated the f
 The complete Patch Number is shown in both **SYSTEM(1021)&lt;3&gt;** and the **jdiag** command.
 
 Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+
+  
+<PageFooter />

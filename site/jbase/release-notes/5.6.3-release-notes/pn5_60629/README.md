@@ -23,3 +23,6 @@ The above example will display **300**
 New behavior must be enabled by setting **iconv\_strip\_leading\_zeros = true** in Config\_EMULATE.
 
 Back to [5.6.2 release Notes](./../README.md)
+
+  
+<PageFooter />

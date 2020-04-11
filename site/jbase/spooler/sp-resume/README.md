@@ -31,3 +31,6 @@ The user will then enter the formqueue to resume printing.
 > Despooling will be resumed from the point at which the formqueue was either [SUSPENDED](./../sp-suspend) or [STOPPED](./../sp-stop).
 
 Back to [Spooler.](./../jbase-spooler)
+
+  
+<PageFooter />

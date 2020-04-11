@@ -35,3 +35,6 @@ jservcontrol jRFS start
 Now have a look at the task manager and make sure the jRFS is running and you can check via the Administrative Tools menu to see that the jBASE Remote File Service is showing.
 
 Back to [Remote Files](./../jbase-remote-file-service-%28jrfs%29)
+
+  
+<PageFooter />
