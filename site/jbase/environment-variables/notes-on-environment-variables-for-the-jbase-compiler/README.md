@@ -24,10 +24,13 @@ To that end, there is an [update in jBASE 5.7.7 onwards](#jbase-5-7-7-and-later)
 
 ## Up-to-date notes on the jBASE 5.7.7 Install
 
-> For a jBASE upgrade, if you wish to retain your existing PATH. INCLUDE and LIB settings, install jBASE as usual and ignore the prompt to "Install or Configure C Compiler and just run the normalupgrade process.
+> For a jBASE upgrade, if you wish to retain your existing PATH. INCLUDE and LIB settings, install jBASE as usual and ignore the prompt to "Install or Configure C Compiler and just run the normal upgrade process.
 >
 > For a jBASE upgrade where you wish to take advantage of a "clean" PATH and not have to worry about INCLUDE and LIB, first remove all of the VS 2017/2019 settings from PATH and delete the INCLUDE and LIB entries before starting the upgrade process.
-> Then, when starting the upgrade process, click on the "Install or Configure C Compiler" button. The Installer will then perform several steps culminating in the following screen:  
+> Then, when starting the upgrade process, click on the "Install or Configure C Compiler" button:
+> ![Install C Compiler](./CCompiler_0.png).  
+>
+> The Installer will then perform several steps culminating in the following screen:  
 >  
 > ![Update Compiler Configuration](./CCompiler_1.png)  
 >  
