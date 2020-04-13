@@ -43,7 +43,7 @@ CREATE-FILE TYPE=JR [Modulo] [INTMODS=x[,y[,z]]] [SECURE=YES] [MINSPLIT=m] [HASH
 
 ### **jrscan**
 
-As the internal structure of Resilient files differs from hashed files so much a new utility, *jrscan*has been written to complement the functionality that jcheck provides to other hashed files, although without the destructive recovery. The syntax, from jrscan –h, is:
+As the internal structure of Resilient files differs from hashed files so much a new utility, *jrscan* has been written to complement the functionality that jcheck provides to other hashed files, although without the destructive recovery. The syntax, from jrscan –h, is:
 
 #### Command Syntax #2
 
@@ -72,5 +72,4 @@ In order to convert from j4 to jR files it is recommended that a new jR file be 
 
 Return to [Files](./../jbase-files)
 
-  
 <PageFooter />
