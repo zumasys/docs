@@ -1,10 +1,6 @@
 # jCL F-UREAD
 
-**Created At:** 5/28/2018 10:52:31 AM  
-**Updated At:** 6/11/2018 4:21:06 AM  
-**Original Doc:** [318671-jcl-f-uread](https://docs.jbase.com/45792-jcl/318671-jcl-f-uread)  
-**Original ID:** 318671  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='buffer' vertical='middle' />
@@ -39,3 +35,5 @@ The F-UREAD command is identical to the F-READ  command, except that it also lo
 > It is good practice to F-UREAD a record before you create it. This will reserve the key in the file and avoid double updates. Remember though that the command line immediately following the F-UREAD command will be executed because the record does not exist.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

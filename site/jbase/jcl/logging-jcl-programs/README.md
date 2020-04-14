@@ -1,10 +1,6 @@
 # Logging JCL Programs
 
-**Created At:** 5/23/2018 2:56:03 PM  
-**Updated At:** 6/1/2018 5:32:49 PM  
-**Original Doc:** [318034-logging-jcl-programs](https://docs.jbase.com/45792-jcl/318034-logging-jcl-programs)  
-**Original ID:** 318034  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jcl' vertical='middle' />
@@ -28,3 +24,5 @@ P
 Each time a user logs in to the SALES account, the system will search for a program called SALES in the MD of the account. The jCL program will then run the MENU program from the PROGS file.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

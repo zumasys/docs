@@ -1,10 +1,6 @@
 # jCL RO
 
-**Created At:** 5/28/2018 11:19:51 AM  
-**Updated At:** 6/1/2018 5:35:41 PM  
-**Original Doc:** [318737-jcl-ro](https://docs.jbase.com/45792-jcl/318737-jcl-ro)  
-**Original ID:** 318737  
-**Internal:** No  
+<PageHeader /> 
 
 **Tags:**
 <badge text='secondary' vertical='middle' />
@@ -45,3 +41,5 @@ RO
 ```
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

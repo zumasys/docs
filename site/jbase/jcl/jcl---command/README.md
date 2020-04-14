@@ -1,10 +1,6 @@
 # jCL - command
 
-**Created At:** 5/28/2018 9:55:18 AM  
-**Updated At:** 6/11/2018 4:30:00 AM  
-**Original Doc:** [318587-jcl-command](https://docs.jbase.com/45792-jcl/318587-jcl-command)  
-**Original ID:** 318587  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='buffer' vertical='middle' />
@@ -69,3 +65,5 @@ a a
 This example receives input from the terminal and places it in the 5th parameter of the primary input buffer. It adds 7 to the value stored in the 5th parameter and displays the result. It then subtracts 3 from the result and displays the new value.
 
 Back to [jCL Commands](./../README.md)
+  
+<PageFooter />

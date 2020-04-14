@@ -1,10 +1,6 @@
 # jCL A
 
-**Created At:** 5/28/2018 10:18:40 AM  
-**Updated At:** 6/1/2018 5:34:29 PM  
-**Original Doc:** [318615-jcl-a](https://docs.jbase.com/45792-jcl/318615-jcl-a)  
-**Original ID:** 318615  
-**Internal:** No
+<PageHeader />
 
 ## Description
 
@@ -104,3 +100,5 @@ Issuing an A"3 command would have achieved the same result, except that the star
 The command attempts to copy the second parameter from the PIB, starting with the second character, up to and including, the penultimate character, to the current output buffer.
 
 Back to [jCL Commands](./../README.md)
+  
+<PageFooter />

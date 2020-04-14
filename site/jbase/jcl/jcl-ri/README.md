@@ -1,10 +1,6 @@
 # jCL RI
 
-**Created At:** 5/28/2018 11:17:59 AM  
-**Updated At:** 6/1/2018 5:35:59 PM  
-**Original Doc:** [318736-jcl-ri](https://docs.jbase.com/45792-jcl/318736-jcl-ri)  
-**Original ID:** 318736  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='buffer' vertical='middle' />
@@ -73,3 +69,5 @@ The buffer pointer will be left at the end of the PIB. The primary input buffer 
 ```
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

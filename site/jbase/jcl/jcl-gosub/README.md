@@ -1,10 +1,6 @@
 # jCL GOSUB
 
-**Created At:** 5/28/2018 10:54:51 AM  
-**Updated At:** 6/11/2018 4:28:13 AM  
-**Original Doc:** [318681-jcl-gosub](https://docs.jbase.com/45792-jcl/318681-jcl-gosub)  
-**Original ID:** 318681  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='go' vertical='middle' />
@@ -67,3 +63,5 @@ The GOSUB command on line 10 transfers control to label 1000 on line 31. When th
 See also["\[ \] {n}" command](./../jcl-[]-command)
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

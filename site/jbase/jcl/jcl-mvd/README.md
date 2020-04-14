@@ -1,10 +1,6 @@
 # jCL MVD
 
-**Created At:** 5/28/2018 11:15:04 AM  
-**Updated At:** 6/1/2018 5:24:38 PM  
-**Original Doc:** [318732-jcl-mvd](https://docs.jbase.com/45792-jcl/318732-jcl-mvd)  
-**Original ID:** 318732  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='buffer' vertical='middle' />
@@ -43,3 +39,5 @@ where:
 ```
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

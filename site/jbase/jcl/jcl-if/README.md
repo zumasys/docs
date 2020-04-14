@@ -1,10 +1,6 @@
 # jCL IF
 
-**Created At:** 5/28/2018 11:00:13 AM  
-**Updated At:** 6/11/2018 4:25:35 AM  
-**Original Doc:** [318698-jcl-if](https://docs.jbase.com/45792-jcl/318698-jcl-if)  
-**Original ID:** 318698  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jcl' vertical='middle' />
@@ -131,3 +127,5 @@ IF %1 = X]Y]Z]C GO  10]20]30]40
 will cause program execution to continue from label 40.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

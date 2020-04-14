@@ -1,10 +1,6 @@
 # jCL F-READ
 
-**Created At:** 5/28/2018 10:52:02 AM  
-**Updated At:** 6/11/2018 4:25:44 AM  
-**Original Doc:** [318670-jcl-f-read](https://docs.jbase.com/45792-jcl/318670-jcl-f-read)  
-**Original ID:** 318670  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='read' vertical='middle' />
@@ -55,3 +51,5 @@ Attempts to read record ABC from the SALES file into file buffer 1. If record AB
 See also [F-OPEN](./../jcl-f--open)
 
 Back to [JCL Commands](./../jcl-commands)
+  
+<PageFooter />

@@ -1,10 +1,6 @@
 # jCL C
 
-**Created At:** 6/8/2018 9:48:49 AM  
-**Updated At:** 6/11/2018 4:16:33 AM  
-**Original Doc:** [321276-jcl-c](https://docs.jbase.com/45792-jcl/321276-jcl-c)  
-**Original ID:** 321276  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='debugging' vertical='middle' />
@@ -52,3 +48,5 @@ Comments are useful to improve the readability of a program or help with debuggi
 Lines 2 to 4 are comment lines. Line 10 has a comment after an input command (the "\" is a subvalue mark &lt;ctrl \&gt;).
 
 ack to [jCL Commands](./../README.md)
+  
+<PageFooter />

@@ -1,10 +1,6 @@
 # jCL F-KLOSE
 
-**Created At:** 5/28/2018 10:51:12 AM  
-**Updated At:** 6/11/2018 4:19:44 AM  
-**Original Doc:** [318663-jcl-f-klose](https://docs.jbase.com/45792-jcl/318663-jcl-f-klose)  
-**Original ID:** 318663  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='buffer' vertical='middle' />
@@ -39,3 +35,5 @@ F-K 1
 Closes file buffer 1.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

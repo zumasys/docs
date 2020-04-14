@@ -1,10 +1,6 @@
 # jCL P
 
-**Created At:** 5/28/2018 11:16:48 AM  
-**Updated At:** 6/11/2018 4:23:13 AM  
-**Original Doc:** [318735-jcl-p](https://docs.jbase.com/45792-jcl/318735-jcl-p)  
-**Original ID:** 318735  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='buffer' vertical='middle' />
@@ -77,3 +73,5 @@ PU
 Issue the UNIX grep command.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

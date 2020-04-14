@@ -1,10 +1,6 @@
 # jCL IP
 
-**Created At:** 6/7/2018 9:30:49 AM  
-**Updated At:** 6/11/2018 4:28:01 AM  
-**Original Doc:** [321166-jcl-ip](https://docs.jbase.com/45792-jcl/321166-jcl-ip)  
-**Original ID:** 321166  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='input' vertical='middle' />
@@ -98,3 +94,5 @@ If you want to keep the input data exactly as entered, use the [IBP](./../jcl-ib
 ```
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

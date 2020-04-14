@@ -1,10 +1,6 @@
 # jCL F-FREE
 
-**Created At:** 5/28/2018 10:28:43 AM  
-**Updated At:** 6/11/2018 4:17:56 AM  
-**Original Doc:** [318630-jcl-f-free](https://docs.jbase.com/45792-jcl/318630-jcl-f-free)  
-**Original ID:** 318630  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='unlock' vertical='middle' />
@@ -62,3 +58,5 @@ F-F 1 Key
 Unlocks the record "Key" in the file associated with file buffer 1.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

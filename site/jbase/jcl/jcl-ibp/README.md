@@ -1,10 +1,6 @@
 # jCL IBP
 
-**Created At:** 5/28/2018 10:58:48 AM  
-**Updated At:** 6/11/2018 4:27:51 AM  
-**Original Doc:** [318696-jcl-ibp](https://docs.jbase.com/45792-jcl/318696-jcl-ibp)  
-**Original ID:** 318696  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jcl' vertical='middle' />
@@ -78,3 +74,5 @@ where:
 ```
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

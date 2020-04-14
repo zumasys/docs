@@ -1,10 +1,6 @@
 # jCL-DE
 
-**Created At:** 3/3/2030 10:05:16 AM  
-**Updated At:** 3/3/2030 10:05:16 AM  
-**Original Doc:** [jcl-de](https://static.zumasys.com/jbase//r99/knowledgebase/manuals/3.0/30manpages/man/jcl2_JCL.DE.htm)  
-**Original ID:** n/a
-**Internal:** No  
+<PageHeader />
 
 Displays the current value of LastError.
 
@@ -27,3 +23,5 @@ If LastError contains 404]61^QLNUMSEL, the DE command will display:
 ```
 
 Go back to [jCL Commands](jcl-coimmands)
+  
+<PageFooter />

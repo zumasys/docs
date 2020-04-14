@@ -1,10 +1,6 @@
 # jCL F-OPEN
 
-**Created At:** 5/28/2018 10:51:31 AM  
-**Updated At:** 6/11/2018 4:14:11 AM  
-**Original Doc:** [318664-jcl-f-open](https://docs.jbase.com/45792-jcl/318664-jcl-f-open)  
-**Original ID:** 318664  
-**Internal:** No 
+<PageHeader />
 
 **Tags:**
 <badge text='file' vertical='middle' />
@@ -51,3 +47,5 @@ If the SALES file is opened, execution continues with line 004. Otherwise, the p
 See also  [F-KLOSE](./../jcl-f--klose)
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

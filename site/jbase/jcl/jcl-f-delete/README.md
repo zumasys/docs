@@ -1,10 +1,6 @@
 # jCL F-DELETE
 
-**Created At:** 5/28/2018 10:26:14 AM  
-**Updated At:** 6/11/2018 4:25:25 AM  
-**Original Doc:** [318629-jcl-f-delete](https://docs.jbase.com/45792-jcl/318629-jcl-f-delete)  
-**Original ID:** 318629  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='file' vertical='middle' />
@@ -47,3 +43,5 @@ F-D 1
 If the file cannot be opened by the F-O command, the line immediately following the command will be executed (see the F-O command). If the file is opened, "Key" is moved into field 0 of file buffer 1. F-D 1 then attempts to delete record "Key" from the file.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

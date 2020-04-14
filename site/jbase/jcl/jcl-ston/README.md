@@ -1,10 +1,6 @@
 # jCL STON
 
-**Created At:** 5/29/2018 7:10:38 AM  
-**Updated At:** 6/1/2018 5:39:03 PM  
-**Original Doc:** [318876-jcl-ston](https://docs.jbase.com/45792-jcl/318876-jcl-ston)  
-**Original ID:** 318876  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='buffer' vertical='middle' />
@@ -49,3 +45,5 @@ Typically, you would create the command necessary to start the external job stre
 ```
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

@@ -1,10 +1,6 @@
 # jCL RTN
 
-**Created At:** 5/29/2018 6:57:01 AM  
-**Updated At:** 6/11/2018 4:19:08 AM  
-**Original Doc:** [318873-jcl-rtn](https://docs.jbase.com/45792-jcl/318873-jcl-rtn)  
-**Original ID:** 318873  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='subroutine' vertical='middle' />
@@ -49,3 +45,5 @@ jCL program MENU calls MENU2 from line 51. When MENU2 reaches line 66, control w
 jCL program MENU calls MENU2 from line 51. When MENU2 reaches line 66, control will be returned to MENU at line 53.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

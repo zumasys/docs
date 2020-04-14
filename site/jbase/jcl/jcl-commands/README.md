@@ -1,10 +1,6 @@
 # jCL Commands
 
-**Created At:** 5/28/2018 9:27:45 AM  
-**Updated At:** 10/25/2018 6:39:49 PM  
-**Original Doc:** [jcl-commands](https://docs.jbase.com/45792-jcl/jcl-commands)  
-**Original ID:** 318556  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='debugger' vertical='middle' />
@@ -135,3 +131,5 @@ This section is a brief summary of the jCL  commands, organized by function.
 | [X](./../jcl-x) | Halts execution of a jCL  program and returns control to the shell. |
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

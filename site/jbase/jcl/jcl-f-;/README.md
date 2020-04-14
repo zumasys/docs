@@ -1,10 +1,6 @@
 # jCL-F ;
 
-**Created At:** 5/28/2018 10:24:11 AM  
-**Updated At:** 6/11/2018 4:18:05 AM  
-**Original Doc:** [318627-jcl-f](https://docs.jbase.com/45792-jcl/318627-jcl-f)  
-**Original ID:** 318627  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='arithmetic' vertical='middle' />
@@ -73,3 +69,5 @@ Stack              92
 ?%3 then copies the result to the 3rd parameter of the PIB, replacing the old value.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

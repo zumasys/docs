@@ -1,10 +1,6 @@
 # jCL BO
 
-**Created At:** 5/28/2018 10:20:54 AM  
-**Updated At:** 6/11/2018 4:21:22 AM  
-**Original Doc:** [318617-jcl-bo](https://docs.jbase.com/45792-jcl/318617-jcl-bo)  
-**Original ID:** 318617  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='pointer' vertical='middle' />
@@ -46,3 +42,5 @@ BO
 > SOB - Secondary Output Buffer.
 
 ack to [jCL Commands](./../README.md)
+  
+<PageFooter />

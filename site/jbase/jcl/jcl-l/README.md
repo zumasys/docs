@@ -1,10 +1,6 @@
 # jCL L
 
-**Created At:** 5/28/2018 11:12:38 AM  
-**Updated At:** 6/11/2018 4:23:21 AM  
-**Original Doc:** [318727-jcl-l](https://docs.jbase.com/45792-jcl/318727-jcl-l)  
-**Original ID:** 318727  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='print' vertical='middle' />
@@ -61,3 +57,5 @@ Sales Report for Quarter 4
 ```
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

@@ -1,10 +1,6 @@
 # jCL X
 
-**Created At:** 5/29/2018 2:28:19 PM  
-**Updated At:** 6/11/2018 4:26:08 AM  
-**Original Doc:** [318944-jcl-x](https://docs.jbase.com/45792-jcl/318944-jcl-x)  
-**Original ID:** 318944  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jcl' vertical='middle' />
@@ -38,3 +34,5 @@ The X command stops execution of the program if the file SALES cannot be opened,
 See also List processing
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

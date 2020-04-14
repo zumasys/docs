@@ -1,10 +1,6 @@
 # jCL IF E
 
-**Created At:** 5/28/2018 10:59:53 AM  
-**Updated At:** 6/11/2018 4:26:42 AM  
-**Original Doc:** [318697-jcl-if-e](https://docs.jbase.com/45792-jcl/318697-jcl-if-e)  
-**Original ID:** 318697  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jcl' vertical='middle' />
@@ -49,3 +45,5 @@ Some jCL  commands, particularly those that operate on the PIB, will destroy th
 If the SALES file does not contain any records, which match the criteria, the system will generate the message "No records counted". Using the PH command will stop the message being output on the terminal but the message key 401 will still be placed in the SIB where it can be detected by line 23.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

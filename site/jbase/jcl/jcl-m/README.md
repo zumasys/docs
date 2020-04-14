@@ -1,10 +1,6 @@
 # jCL M
 
-**Created At:** 5/28/2018 11:13:08 AM  
-**Updated At:** 6/11/2018 4:28:22 AM  
-**Original Doc:** [318728-jcl-m](https://docs.jbase.com/45792-jcl/318728-jcl-m)  
-**Original ID:** 318728  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='go' vertical='middle' />
@@ -27,3 +23,5 @@ GO F scans forward from the current location until it finds an M command and th
 See also GO B and GO F commands for examples of usage.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

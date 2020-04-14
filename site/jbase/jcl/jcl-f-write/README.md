@@ -1,10 +1,6 @@
 # jCL F-WRITE
 
-**Created At:** 5/28/2018 10:52:52 AM  
-**Updated At:** 6/11/2018 4:20:56 AM  
-**Original Doc:** [318672-jcl-f-write](https://docs.jbase.com/45792-jcl/318672-jcl-f-write)  
-**Original ID:** 318672  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='buffer' vertical='middle' />
@@ -57,3 +53,5 @@ The "F-UREAD" line reads and locks record ABC in file SALES. If the record does 
 See also [F-OPEN](./../jcl-f-open)
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

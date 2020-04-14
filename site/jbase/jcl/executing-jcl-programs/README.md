@@ -1,10 +1,6 @@
 # Executing jCL programs
 
-**Created At:** 5/23/2018 2:54:43 PM  
-**Updated At:** 6/1/2018 5:29:08 PM  
-**Original Doc:** [318033-executing-jcl-programs](https://docs.jbase.com/45792-jcl/318033-executing-jcl-programs)  
-**Original ID:** 318033  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jcl' vertical='middle' />
@@ -46,3 +42,5 @@ This will chain to jCL  program DAILY in file REPORTS.
 Note that the "pointer" program and the "pointed to" program can have the same name.
 
 Back to [jCL Commands](./../README.md)
+  
+<PageFooter />

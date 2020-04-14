@@ -1,10 +1,6 @@
 # jCL MS
 
-**Created At:** 5/28/2018 11:13:30 AM  
-**Updated At:** 6/1/2018 5:25:21 PM  
-**Original Doc:** [318729-jcl-ms](https://docs.jbase.com/45792-jcl/318729-jcl-ms)  
-**Original ID:** 318729  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='buffer' vertical='middle' />
@@ -42,3 +38,5 @@ MS
 The COPY command on line 4 creates a print file and the hold file number is written to the SIB. The S10 command on line 6 positions the PIB buffer pointer to parameter 10. The MS command on line 8 moves the contents of the SIB into the PIB starting at the 10th parameter of the PIB.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

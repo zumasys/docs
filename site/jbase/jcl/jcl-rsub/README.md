@@ -1,10 +1,6 @@
 # jCL RSUB
 
-**Created At:** 5/28/2018 11:11:49 AM  
-**Updated At:** 6/11/2018 4:16:14 AM  
-**Original Doc:** [318725-jcl-rsub](https://docs.jbase.com/45792-jcl/318725-jcl-rsub)  
-**Original ID:** 318725  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='go' vertical='middle' />
@@ -60,3 +56,5 @@ The RSUB command on line 53 will return control to line 11.
 The RSUB command on line 53 will return control to line 12.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

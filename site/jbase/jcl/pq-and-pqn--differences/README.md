@@ -1,10 +1,6 @@
 # PQ and PQN  Differences
 
-**Created At:** 5/28/2018 10:15:14 AM  
-**Updated At:** 6/6/2019 8:16:56 AM  
-**Original Doc:** [pq-and-pqn-differences](https://docs.jbase.com/45792-jcl/pq-and-pqn-differences)  
-**Original ID:** 318612  
-**Internal:** No  
+<PageHeader />
 
 ## Introduction
 
@@ -33,3 +29,5 @@ These commands are functionally equivalent in both **PQ** and **PQN**-style prog
 **(), G, IF E, RSUB, U, [], GO  B, IFN, RTN, X, +, GO F, M, S, -, GOSUB , P, STOFF, C, IF, RI, STON**
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

@@ -1,10 +1,6 @@
 # jCL D
 
-**Created At:** 5/28/2018 10:21:16 AM  
-**Updated At:** 6/11/2018 4:23:33 AM  
-**Original Doc:** [318618-jcl-d](https://docs.jbase.com/45792-jcl/318618-jcl-d)  
-**Original ID:** 318618  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='display' vertical='middle' />
@@ -54,3 +50,5 @@ Where:
 ```
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

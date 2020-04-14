@@ -1,10 +1,6 @@
 # jCL IF S
 
-**Created At:** 5/28/2018 11:04:16 AM  
-**Updated At:** 6/6/2019 8:22:41 AM  
-**Original Doc:** [318701-jcl-if-s](https://docs.jbase.com/45792-jcl/318701-jcl-if-s)  
-**Original ID:** 318701  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jcl' vertical='middle' />
@@ -37,3 +33,5 @@ where:
 If the **SELECT** command generates an active select list, control will be transferred to label 100.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

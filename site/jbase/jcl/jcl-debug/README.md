@@ -1,10 +1,6 @@
 # JCL DEBUG
 
-**Created At:** 5/28/2018 10:23:13 AM  
-**Updated At:** 6/11/2018 4:17:37 AM  
-**Original Doc:** [318625-jcl-debug](https://docs.jbase.com/45792-jcl/318625-jcl-debug)  
-**Original ID:** 318625  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jcl' vertical='middle' />
@@ -37,3 +33,5 @@ DEBUG [ON|OFF]
 After each input, the program name and the next line to be executed will be redisplayed, together with any additional information requested (for example, the content of the input buffers).
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

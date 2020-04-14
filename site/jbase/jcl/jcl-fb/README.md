@@ -1,10 +1,6 @@
 # jCL FB
 
-**Created At:** 5/28/2018 10:53:16 AM  
-**Updated At:** 6/11/2018 4:12:35 AM  
-**Original Doc:** [318673-jcl-fb](https://docs.jbase.com/45792-jcl/318673-jcl-fb)  
-**Original ID:** 318673  
-**Internal:** No
+<PageHeader />
 
 **Tags:**
 <badge text='buffer' vertical='middle' />
@@ -65,3 +61,5 @@ IP %3
 Here the user is prompted for a name (the record key) and the fast buffer is used to read the record from the SALES file. If the record does not exist, a message is output but processing continues.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

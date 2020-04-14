@@ -1,10 +1,6 @@
 # jCL IBN
 
-**Created At:** 5/28/2018 10:58:19 AM  
-**Updated At:** 6/11/2018 4:15:04 AM  
-**Original Doc:** [318691-jcl-ibn](https://docs.jbase.com/45792-jcl/318691-jcl-ibn)  
-**Original ID:** 318691  
-**Internal:** No  
+<PageHeader />
 
 ## Description  
 
@@ -48,3 +44,5 @@ where **c** is an optional prompt character, which, once used, remains in effect
 ```
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

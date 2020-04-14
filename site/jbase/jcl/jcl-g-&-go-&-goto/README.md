@@ -1,10 +1,6 @@
 # jCL G / GO  / GOTO
 
-**Created At:** 5/28/2018 10:55:27 AM  
-**Updated At:** 6/11/2018 4:19:16 AM  
-**Original Doc:** [318682-jcl-g-go-goto](https://docs.jbase.com/45792-jcl/318682-jcl-g-go-goto)  
-**Original ID:** 318682  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jcl' vertical='middle' />
@@ -92,3 +88,5 @@ GOTO 5
 This example transfers control to label 10 if "A" is entered, to label 20 if "B" is entered and to label 30 if "C" is entered. If the response is not recognized, control returns to label 5.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

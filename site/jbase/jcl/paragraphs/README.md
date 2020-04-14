@@ -1,10 +1,6 @@
 # Paragraphs
 
-**Created At:** 5/28/2018 10:12:58 AM  
-**Updated At:** 4/29/2019 11:22:44 PM  
-**Original Doc:** [318606-paragraphs](https://docs.jbase.com/45792-jcl/318606-paragraphs)  
-**Original ID:** 318606  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
@@ -178,3 +174,5 @@ PARAGRAPHX
 ```
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />

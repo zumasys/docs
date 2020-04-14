@@ -1,10 +1,6 @@
 # jCL GO F
 
-**Created At:** 5/28/2018 10:54:29 AM  
-**Updated At:** 6/11/2018 4:23:44 AM  
-**Original Doc:** [318680-jcl-go-f](https://docs.jbase.com/45792-jcl/318680-jcl-go-f)  
-**Original ID:** 318680  
-**Internal:** No  
+<PageHeader /> 
 
 **Tags:**
 <badge text='go' vertical='middle' />
@@ -52,3 +48,5 @@ GOTO F
 The GO F command on line 5 causes the program to be scanned from line 6, looking for the next M command. In this case, control will be transferred to line 9.
 
 Back to [jCL.](./../README.md)
+  
+<PageFooter />
