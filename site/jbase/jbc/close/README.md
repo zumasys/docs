@@ -1,10 +1,6 @@
 # CLOSE
 
-**Created At:** 8/14/2017 9:27:46 AM  
-**Updated At:** 10/24/2018 10:59:32 PM  
-**Original Doc:** [266856-close](https://docs.jbase.com/36868-jbase-basic/266856-close)  
-**Original ID:** 266856  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

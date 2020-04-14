@@ -1,10 +1,6 @@
 # ABORT
 
-**Created At:** 11/3/2017 10:41:21 AM  
-**Updated At:** 1/5/2018 6:44:07 PM  
-**Original Doc:** [284104-abort](https://docs.jbase.com/36868-jbase-basic/284104-abort)  
-**Original ID:** 284104  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

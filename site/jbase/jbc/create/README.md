@@ -1,10 +1,6 @@
 # CREATE
 
-**Created At:** 8/16/2017 12:54:38 PM  
-**Updated At:** 1/20/2020 8:41:33 PM  
-**Original Doc:** [267387-create](https://docs.jbase.com/36868-jbase-basic/267387-create)  
-**Original ID:** 267387  
-**Internal:** No  
+<PageHeader /> 
 
 ## Description
 

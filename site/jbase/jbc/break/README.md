@@ -1,10 +1,6 @@
 # BREAK
 
-**Created At:** 7/18/2017 10:47:24 AM  
-**Updated At:** 1/5/2018 12:08:23 AM  
-**Original Doc:** [263578-break](https://docs.jbase.com/36868-jbase-basic/263578-break)  
-**Original ID:** 263578  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

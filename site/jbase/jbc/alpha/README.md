@@ -1,10 +1,6 @@
 # ALPHA
 
-**Created At:** 7/17/2017 9:48:00 AM  
-**Updated At:** 1/5/2018 12:03:49 AM  
-**Original Doc:** [263505-alpha](https://docs.jbase.com/36868-jbase-basic/263505-alpha)  
-**Original ID:** 263505  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

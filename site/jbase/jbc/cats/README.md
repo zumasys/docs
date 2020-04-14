@@ -1,10 +1,6 @@
 # CATS
 
-**Created At:** 7/24/2017 1:02:35 PM  
-**Updated At:** 10/25/2018 7:06:35 AM  
-**Original Doc:** [264322-cats](https://docs.jbase.com/36868-jbase-basic/264322-cats)  
-**Original ID:** 264322  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

@@ -1,10 +1,6 @@
 # BITSET
 
-**Created At:** 11/3/2017 2:39:08 PM  
-**Updated At:** 12/24/2018 4:09:38 PM  
-**Original Doc:** [284141-bitset](https://docs.jbase.com/36868-jbase-basic/284141-bitset)  
-**Original ID:** 284141  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='bitset' vertical='middle' />

@@ -1,10 +1,6 @@
 # DEFFUN
 
-**Created At:** 8/16/2017 2:31:45 PM  
-**Updated At:** 1/5/2018 12:45:17 AM  
-**Original Doc:** [267423-deffun](https://docs.jbase.com/36868-jbase-basic/267423-deffun)  
-**Original ID:** 267423  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

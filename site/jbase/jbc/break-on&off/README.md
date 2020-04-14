@@ -1,10 +1,6 @@
 # BREAK ON/OFF
 
-**Created At:** 8/14/2017 2:30:33 PM  
-**Updated At:** 10/25/2018 7:10:38 AM  
-**Original Doc:** [break-on-off](https://docs.jbase.com/36868-jbase-basic/break-on-off)  
-**Original ID:** 266894  
-**Internal:** No  
+<PageHeader /> 
 
 ## Description
 

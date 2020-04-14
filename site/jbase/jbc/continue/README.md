@@ -1,10 +1,6 @@
 # CONTINUE
 
-**Created At:** 9/18/2017 12:02:58 PM  
-**Updated At:** 11/27/2018 9:46:44 AM  
-**Original Doc:** [277124-continue](https://docs.jbase.com/36868-jbase-basic/277124-continue)  
-**Original ID:** 277124  
-**Internal:** No  
+<PageHeader /> 
 
 **Tags:**
 <badge text='program control' vertical='middle' />

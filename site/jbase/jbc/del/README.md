@@ -1,10 +1,6 @@
 # DEL
 
-**Created At:** 8/23/2017 1:23:31 PM  
-**Updated At:** 10/24/2018 11:00:12 PM  
-**Original Doc:** [268474-del](https://docs.jbase.com/36868-jbase-basic/268474-del)  
-**Original ID:** 268474  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='delete from dynamic array' vertical='middle' />

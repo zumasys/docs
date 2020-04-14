@@ -1,10 +1,6 @@
 # CASE
 
-**Created At:** 7/24/2017 12:56:07 PM  
-**Updated At:** 10/24/2018 10:57:46 PM  
-**Original Doc:** [264319-case](https://docs.jbase.com/36868-jbase-basic/264319-case)  
-**Original ID:** 264319  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

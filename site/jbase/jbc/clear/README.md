@@ -1,10 +1,6 @@
 # CLEAR
 
-**Created At:** 8/14/2017 9:23:05 AM  
-**Updated At:** 12/14/2018 9:08:59 PM  
-**Original Doc:** [266849-clear](https://docs.jbase.com/36868-jbase-basic/266849-clear)  
-**Original ID:** 266849  
-**Internal:** No  
+<PageHeader /> 
 
 ## Description
 

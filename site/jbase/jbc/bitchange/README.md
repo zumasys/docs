@@ -1,10 +1,6 @@
 # BITCHANGE
 
-**Created At:** 11/3/2017 1:56:04 PM  
-**Updated At:** 1/5/2018 6:45:38 PM  
-**Original Doc:** [284130-bitchange](https://docs.jbase.com/36868-jbase-basic/284130-bitchange)  
-**Original ID:** 284130  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

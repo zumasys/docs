@@ -1,10 +1,6 @@
 # BITNOT
 
-**Created At:** 11/3/2017 2:14:07 PM  
-**Updated At:** 1/5/2018 6:46:36 PM  
-**Original Doc:** [284135-bitnot](https://docs.jbase.com/36868-jbase-basic/284135-bitnot)  
-**Original ID:** 284135  
-**Internal:** No  
+<PageHeader /> 
 
 ## Description
 

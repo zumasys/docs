@@ -1,10 +1,6 @@
 # CATALOG
 
-**Created At:** 7/24/2017 12:58:25 PM  
-**Updated At:** 1/5/2018 12:14:48 AM  
-**Original Doc:** [264320-catalog](https://docs.jbase.com/36868-jbase-basic/264320-catalog)  
-**Original ID:** 264320  
-**Internal:** No  
+<PageHeader /> 
 
 ## Description
 

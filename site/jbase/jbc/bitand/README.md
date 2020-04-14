@@ -1,10 +1,6 @@
 # BITAND
 
-**Created At:** 11/3/2017 1:48:31 PM  
-**Updated At:** 1/5/2018 6:45:15 PM  
-**Original Doc:** [284129-bitand](https://docs.jbase.com/36868-jbase-basic/284129-bitand)  
-**Original ID:** 284129  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

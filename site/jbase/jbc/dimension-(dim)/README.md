@@ -1,10 +1,6 @@
 # DIMENSION (DIM)
 
-**Created At:** 9/6/2017 7:44:51 AM  
-**Updated At:** 10/30/2018 2:26:22 PM  
-**Original Doc:** [276028-dimension-dim](https://docs.jbase.com/36868-jbase-basic/276028-dimension-dim)  
-**Original ID:** 276028  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='dimensioned array' vertical='middle' />

@@ -1,10 +1,6 @@
 # COUNTS
 
-**Created At:** 8/14/2017 10:08:14 AM  
-**Updated At:** 10/25/2018 7:08:20 AM  
-**Original Doc:** [266863-counts](https://docs.jbase.com/36868-jbase-basic/266863-counts)  
-**Original ID:** 266863  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

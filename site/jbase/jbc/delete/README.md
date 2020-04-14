@@ -1,10 +1,6 @@
 # DELETE
 
-**Created At:** 9/6/2017 7:01:24 AM  
-**Updated At:** 10/30/2018 1:23:48 PM  
-**Original Doc:** [276025-delete](https://docs.jbase.com/36868-jbase-basic/276025-delete)  
-**Original ID:** 276025  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='records' vertical='middle' />

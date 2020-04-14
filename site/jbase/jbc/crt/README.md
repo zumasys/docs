@@ -1,10 +1,6 @@
 # CRT
 
-**Created At:** 8/14/2017 10:25:30 AM  
-**Updated At:** 10/25/2018 7:08:26 AM  
-**Original Doc:** [266868-crt](https://docs.jbase.com/36868-jbase-basic/266868-crt)  
-**Original ID:** 266868  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='display' vertical='middle' />

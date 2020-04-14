@@ -1,10 +1,6 @@
 # DECRYPT
 
-**Created At:** 8/16/2017 1:20:58 PM  
-**Updated At:** 10/25/2018 7:11:54 AM  
-**Original Doc:** [decrypt](https://docs.jbase.com/36868-jbase-basic/decrypt)  
-**Original ID:** 267391  
-**Internal:** No  
+<PageHeader /> 
 
 **Tags:**
 <badge text='encryption' vertical='middle' />

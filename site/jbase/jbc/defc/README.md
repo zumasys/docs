@@ -1,10 +1,6 @@
 # DEFC
 
-**Created At:** 8/16/2017 1:47:34 PM  
-**Updated At:** 11/16/2018 10:37:51 PM  
-**Original Doc:** [267408-defc](https://docs.jbase.com/36868-jbase-basic/267408-defc)  
-**Original ID:** 267408  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='callc' vertical='middle' />

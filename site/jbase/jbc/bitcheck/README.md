@@ -1,10 +1,6 @@
 # BITCHECK
 
-**Created At:** 11/3/2017 2:03:38 PM  
-**Updated At:** 1/5/2018 6:45:49 PM  
-**Original Doc:** [284132-bitcheck](https://docs.jbase.com/36868-jbase-basic/284132-bitcheck)  
-**Original ID:** 284132  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

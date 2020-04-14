@@ -1,10 +1,6 @@
 # COLLECTDATA
 
-**Created At:** 9/6/2017 6:48:55 AM  
-**Updated At:** 1/5/2018 1:30:48 PM  
-**Original Doc:** [276023-collectdata](https://docs.jbase.com/36868-jbase-basic/276023-collectdata)  
-**Original ID:** 276023  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

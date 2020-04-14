@@ -1,10 +1,6 @@
 # CALLJ
 
-**Created At:** 7/24/2017 12:26:25 PM  
-**Updated At:** 4/24/2019 4:19:48 PM  
-**Original Doc:** [264312-callj](https://docs.jbase.com/36868-jbase-basic/264312-callj)  
-**Original ID:** 264312  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='calljee' vertical='middle' />

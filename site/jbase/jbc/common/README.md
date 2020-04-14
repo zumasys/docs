@@ -1,10 +1,6 @@
 # COMMON
 
-**Created At:** 9/6/2017 6:58:52 AM  
-**Updated At:** 1/5/2018 1:32:36 PM  
-**Original Doc:** [276024-common](https://docs.jbase.com/36868-jbase-basic/276024-common)  
-**Original ID:** 276024  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

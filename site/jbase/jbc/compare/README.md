@@ -1,10 +1,6 @@
 # COMPARE
 
-**Created At:** 8/14/2017 9:24:42 AM  
-**Updated At:** 10/24/2018 10:59:11 PM  
-**Original Doc:** [266851-compare](https://docs.jbase.com/36868-jbase-basic/266851-compare)  
-**Original ID:** 266851  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

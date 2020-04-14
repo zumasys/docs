@@ -1,10 +1,6 @@
 # DEFCE
 
-**Created At:** 8/16/2017 2:14:25 PM  
-**Updated At:** 11/16/2018 10:37:49 PM  
-**Original Doc:** [267418-defce](https://docs.jbase.com/36868-jbase-basic/267418-defce)  
-**Original ID:** 267418  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='callc' vertical='middle' />
