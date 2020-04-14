@@ -46,5 +46,4 @@ Remote File pointers is one mechanism by which a client application can access f
 
 Back to [Files](./../README.md)
 
-  
 <PageFooter />

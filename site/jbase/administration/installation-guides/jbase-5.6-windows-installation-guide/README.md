@@ -1,6 +1,6 @@
 # jBASE 5.6 Windows Installation Guide
 
-<PageHeader /> 
+<PageHeader />
 
 **Tags:**
 <badge text='installing jbase on windows' vertical='middle' />
@@ -179,5 +179,4 @@ The installation of jBASE is complete.  Continue on to [Installing the Compiler
 
 Back to [Installation Guides](./../README.md).
 
-  
 <PageFooter />

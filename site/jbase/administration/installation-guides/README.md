@@ -4,6 +4,8 @@
 
 ## Topics
 
+[New -> jBASE 5.7.7 Windows Installation Guide](./jbase-5.7-windows-installation-guide/README.md)  
+
 [create-a-jbase-program](./create-a-jbase-program)  
 [create-accounts-and-users](./create-accounts-and-users)  
 [jbase-5.6-windows-installation-guide](./jbase-5.6-windows-installation-guide)  

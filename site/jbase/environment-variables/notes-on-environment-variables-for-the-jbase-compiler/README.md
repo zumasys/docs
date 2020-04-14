@@ -38,7 +38,7 @@ To that end, there is an [update in jBASE 5.7.7 onwards](#jbase-5-7-7-and-later)
 > ![Complete Compiler Configuration](./CCompiler_2.png).  
 > Click on the Finish button and complete the upgrade as usual. The system.properties file will now contain the necessary setting to enable you to compile and catalog programs -  [See jBASE 5.7.7 onwards](#jbase-5-7-7-and-later)  
 >
-> For a new jBASE installation, just follow the prompts to install the compiler and then jBASE, as per the [installation guides](./../../administration/installation-guides/jbase-5.6-windows-installation-guide/README.md) and the system.properties file will automatically be updated for you.
+> For a new jBASE installation, just follow the prompts to install the compiler and then jBASE, as per the [installation guides](./../../administration/installation-guides/jbase-5.7-windows-installation-guide/README.md) and the system.properties file will automatically be updated for you.
 
 * * *
 

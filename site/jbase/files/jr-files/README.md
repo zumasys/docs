@@ -4,7 +4,7 @@
 
 ## Description
 
-In Badly sized hash files, a situation can arise where data is split across a number of different frames which all have to be read from and written to the disk when the data changes.  If a problem occurred during this period, there was a window of opportunity where the update could be interrupted and the structure of the file damaged.  In jBASE release 5, a new JR File Type has been introduced to eliminate this possibility.  JR files have the following characteristics: they are resistant to corruption in adverse conditions and they have the ability to auto-resize themselves as the population of such files increase.
+In badly sized hash files, a situation can arise where data is split across a number of different frames which all have to be read from and written to the disk when the data changes.  If a problem occurred during this period, there was a window of opportunity where the update could be interrupted and the structure of the file damaged.  In jBASE release 5, a new jR File Type has been introduced to eliminate this possibility.  jR files have the following characteristics: they are resistant to corruption in adverse conditions and they have the ability to auto-resize themselves as the population of such files increase.
 
 ### AutoSizing
 
