@@ -95,7 +95,7 @@ Applies to: **Express** **Advanced**
 
 Applies to: **Express** **Advanced**
 
-![Location Selection](./Location_Selection.png)
+<!-- ![Location Selection](./Location_Selection.png) -->
 
 3. Review the End User License Agreement (EULA) and choose I Agree. Then click Next.
 
