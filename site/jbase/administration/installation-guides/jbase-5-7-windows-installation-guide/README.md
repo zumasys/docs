@@ -1,4 +1,4 @@
-# jBASE 5.7 Windows Installation Guide
+# jBASE 5.7.7 Windows Installation Guide
 
 <PageHeader />
 
