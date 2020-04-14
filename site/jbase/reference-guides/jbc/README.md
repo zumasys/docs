@@ -480,6 +480,7 @@ jBASIC is able to create files and directories that can be read by the operating
 | [FOOTING](./../../jbc/footing) | statement | Defines a footing to be included at the bottom of an output page. |
 | [FORMLIST](./../../jbc/formlist)  | statement | Creates an active select list from a dynamic array. |
 | [FOR](./../../jbc/for)  | statement | Defines the start of a fixed increment loop construct. |
+| [FOR iterator](./../../jbc/for-iterator) | The FOR iterator (available in jBASE 5.7.7 and later) is a generalised iterator to simplify and unify looping constructs. |  
 | [FSUB](./../../jbc/fsub)  | function | Performs subtraction on two floating point numbers. |
 | [FUNCTION](./../../jbc/function) | statement | Declares a user-defined function. |
 | **G** |

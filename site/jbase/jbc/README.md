@@ -108,6 +108,7 @@
 [fold](./fold/README.md)  
 [footing](./footing/README.md)  
 [for](./for/README.md)  
+[for-iterator](./for-iterator/README.md)  
 [formlist](./formlist/README.md)  
 [fsub](./fsub/README.md)  
 [function](./function/README.md)  

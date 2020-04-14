@@ -190,7 +190,6 @@ Update time: 07:26AM
 
 ```
 
-
 ### Example 5
 
 This example illustrates the **FOR** iterator on a select-list:
@@ -227,3 +226,5 @@ The **make-demo-file** creates a random set of data, therefore the content of th
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+<PageFooter />
