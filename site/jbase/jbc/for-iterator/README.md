@@ -8,17 +8,21 @@ The **FOR** iterator can also be used for other variable types as explained belo
 
 ## Syntax
 
-<pre>
+```
 FOR element IN construct {SETTING setvar} {WHILE | UNTIL condition}
-<i>...statement(s)...</i>
-NEXT
-</pre>
 
-<pre>
-FOR element IN construct {USING delimiter} {WHILE | UNTIL condition}
-<i>...statement(s)...</i>
+    ...statement(s)...
+
 NEXT
-</pre>
+```
+
+```
+FOR element IN construct {USING delimiter} {WHILE | UNTIL condition}
+
+    ...statement(s)...
+
+NEXT
+```
 
 Where:
 
@@ -46,10 +50,10 @@ obj->the_answer = 42
 obj->$setnull("nothing")
 obj->$setboolean("true", @true)
 for property in obj setting aux
-    print "Property: ":property
-    print "Key:      ":aux->key
-    print "Type:     ":aux->type
-    print
+    crt "Property: ":property
+    crt "Key:      ":aux->key
+    crt "Type:     ":aux->type
+    crt
 next
 ```
 
@@ -95,9 +99,9 @@ repeat
 
 //Show all Fibonacci numbers less than 1,000
 for n in fib using @vm while n lt 1000
-    print n:" ":
+    crt n : " " :
 next
-print
+crt
 ```
 
 Note that the **SETTING** clause, if used, is meaningless in this context.
@@ -121,16 +125,16 @@ rec<3> = "before" : @svm : "crossing" : @vm : "a" : @vm : "one-way" : @svm : "st
 rec<4> = "--Doug Linder"
 saying = ""
 for val in rec setting ams
-    saying := val:" "
+    saying := val : " "
     a = ams->attribute    ;* Which attribute it was found in
     m = ams->value        ;* Which value it was found in
     s = ams->subvalue     ;* Which sub-value it was found in
     // Check the validity of the settings returned
     if val ne rec<a,m,s> then
-        crt "Iterating on a dynamic array failed! [Actual: ":val:"] [Expected: ":rec<a,m,s>:"]"
+        crt "Iterating on a dynamic array failed! [Actual: " : val : "] [Expected: " : rec<a,m,s> : "]"
     end
 next
-print saying
+crt saying
 ```
 
 Running this program displays:
@@ -148,15 +152,15 @@ Using the **FOR** iterator to select a file gives a marked performance improveme
 ```
 $option jabba
 filename = "demofile"
-execute "delete-file ":filename capturing quiet
-execute "make-demo-file 5 ":filename:" jd" capturing quiet  ;* See Notes section below
+execute "delete-file " : filename capturing quiet
+execute "make-demo-file 5 " : filename : " jd" capturing quiet  ;* See Notes section below
 open filename to filevar else stop 201, filename
 for rec in filevar setting setvar
-    print oconv(rec, "mcp")
-    print setvar->$tojson()
-    print "Key:         ":setvar->key
-    print "Update time: ":oconv(setvar->update_time, "u0ff0")"mth"
-    print
+    crt oconv(rec, "mcp")
+    crt setvar->$tojson()
+    crt "Key:         " : setvar->key
+    crt "Update time: " : oconv(setvar->update_time, "u0ff0")"mth"
+    crt
 next
 ```
 
@@ -197,15 +201,15 @@ This example illustrates the **FOR** iterator on a select-list:
 ```
 $option jabba
 filename = "demofile"
-execute "delete-file ":filename capturing quiet
-execute "make-demo-file 5 ":filename:" jd" capturing quiet
+execute "delete-file " : filename capturing quiet
+execute "make-demo-file 5 " : filename : " jd" capturing quiet
 open filename to filevar else stop 201, filename
 select filevar to select_list
 for id in select_list
     read rec from filevar, id
     firstname = rec<1>
     lastname = rec<2>
-    print id, firstname:" ":lastname
+    crt id, firstname : " " : lastname
 next
 ```
 
