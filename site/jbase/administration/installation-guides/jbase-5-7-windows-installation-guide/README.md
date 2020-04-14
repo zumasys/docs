@@ -41,7 +41,7 @@ For licensing assistance contact Zumasys jBASE support in the United States at 8
 
 ### License Information
 
-![jbase-56-windows-installation-guide: licence_info](./licence_info.jpg)
+<!-- ![jbase-56-windows-installation-guide: licence_info](./licence_info.jpg) -->
 
 ## Installation
 
