@@ -1,10 +1,6 @@
 # RANDOMIZE
 
-**Created At:** 12/11/2018 5:48:02 PM  
-**Updated At:** 12/11/2018 6:20:54 PM  
-**Original Doc:** [randomize](https://docs.jbase.com/36868-jbase-basic/randomize)  
-**Original ID:** 352682  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='rnd' vertical='middle' />

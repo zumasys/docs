@@ -1,10 +1,6 @@
 # READNEXT KEY
 
-**Created At:** 8/16/2018 1:15:49 PM  
-**Updated At:** 10/25/2018 7:50:41 AM  
-**Original Doc:** [readnext-key](https://docs.jbase.com/36868-jbase-basic/readnext-key)  
-**Original ID:** 334503  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jbc with indexes' vertical='middle' />

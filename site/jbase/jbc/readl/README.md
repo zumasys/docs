@@ -1,10 +1,6 @@
 # READL
 
-**Created At:** 9/27/2017 2:18:28 PM  
-**Updated At:** 11/27/2018 9:28:31 AM  
-**Original Doc:** [278657-readl](https://docs.jbase.com/36868-jbase-basic/278657-readl)  
-**Original ID:** 278657  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='record handling' vertical='middle' />

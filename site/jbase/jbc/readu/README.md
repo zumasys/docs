@@ -1,10 +1,6 @@
 # READU
 
-**Created At:** 9/28/2017 6:47:02 AM  
-**Updated At:** 10/27/2018 10:08:33 AM  
-**Original Doc:** [278774-readu](https://docs.jbase.com/36868-jbase-basic/278774-readu)  
-**Original ID:** 278774  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

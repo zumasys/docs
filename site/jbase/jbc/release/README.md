@@ -1,10 +1,6 @@
 # RELEASE
 
-**Created At:** 9/28/2017 7:34:12 AM  
-**Updated At:** 1/5/2018 6:05:46 PM  
-**Original Doc:** [278784-release](https://docs.jbase.com/36868-jbase-basic/278784-release)  
-**Original ID:** 278784  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
