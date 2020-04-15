@@ -1,10 +1,6 @@
 # INPUT
 
-**Created At:** 9/13/2017 1:45:41 PM  
-**Updated At:** 11/27/2018 7:57:04 AM  
-**Original Doc:** [input](https://docs.jbase.com/36868-jbase-basic/input)  
-**Original ID:** 276628  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='external input' vertical='middle' />
@@ -59,5 +55,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

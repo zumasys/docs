@@ -1,10 +1,6 @@
 # LEFT
 
-**Created At:** 9/14/2017 1:44:43 PM  
-**Updated At:** 11/27/2018 8:40:53 AM  
-**Original Doc:** [276812-left](https://docs.jbase.com/36868-jbase-basic/276812-left)  
-**Original ID:** 276812  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='string handling' vertical='middle' />
@@ -51,5 +47,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

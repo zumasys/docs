@@ -1,11 +1,7 @@
 # MATWRITE
 
-**Created At:** 9/15/2017 12:28:29 PM  
-**Updated At:** 11/27/2018 10:05:10 AM  
-**Original Doc:** [276964-matwrite](https://docs.jbase.com/36868-jbase-basic/276964-matwrite)  
-**Original ID:** 276964  
-**Internal:** No  
-
+<PageHeader />
+ 
 **Tags:**
 <badge text='dimensioned arrays' vertical='middle' />
 <badge text='record handling' vertical='middle' />
@@ -43,5 +39,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

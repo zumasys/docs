@@ -1,10 +1,6 @@
 # INDICES
 
-**Created At:** 1/4/2018 7:07:31 AM  
-**Updated At:** 5/17/2018 4:34:07 PM  
-**Original Doc:** [293268-indices](https://docs.jbase.com/36868-jbase-basic/293268-indices)  
-**Original ID:** 293268  
-**Internal:** No  
+<PageHeader />  
 
 ## Description
 
@@ -75,5 +71,4 @@ Go back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

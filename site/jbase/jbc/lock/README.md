@@ -4,8 +4,8 @@
 **Updated At:** 10/4/2019 2:50:08 PM  
 **Original Doc:** [276940-lock](https://docs.jbase.com/36868-jbase-basic/276940-lock)  
 **Original ID:** 276940  
-**Internal:** No  
-
+**Internal:** No<PageHeader />
+  
 **Tags:**
 <badge text='program execution' vertical='middle' />
 
@@ -39,5 +39,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

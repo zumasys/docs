@@ -1,10 +1,6 @@
 # ONGOTO
 
-**Created At:** 9/21/2017 11:57:14 AM  
-**Updated At:** 1/5/2018 5:51:32 PM  
-**Original Doc:** [277534-ongoto](https://docs.jbase.com/36868-jbase-basic/277534-ongoto)  
-**Original ID:** 277534  
-**Internal:** No  
+<PageHeader />  
 
 ## Description
 
@@ -37,23 +33,12 @@ Where:
 An example of use may be as:
 
 ```
-PROMPT ":"
-3 *
-CRT @(29,28): "Hello, please enter 1 to Continue or another key to Exit":
-INPUT VAL
-IF NUM(VAL) THEN
-    IF VAL = 1 THEN
-        GOTO 3
-    END
-    ELSE
-        STOP
-    END
-END
+INPUT Ans,1_
+ON SEQ(Ans) - SEQ(A) + 1 GOSUB RoutineA, RoutineB...
 ```
 
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

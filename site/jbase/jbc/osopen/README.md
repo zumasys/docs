@@ -1,10 +1,6 @@
 # OSOPEN
 
-**Created At:** 9/22/2017 11:58:54 AM  
-**Updated At:** 11/27/2018 9:45:01 AM  
-**Original Doc:** [277623-osopen](https://docs.jbase.com/36868-jbase-basic/277623-osopen)  
-**Original ID:** 277623  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='file handling' vertical='middle' />
@@ -43,5 +39,4 @@ Go back to[jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

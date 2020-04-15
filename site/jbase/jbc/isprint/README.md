@@ -1,10 +1,6 @@
 # ISPRINT
 
-**Created At:** 9/13/2017 1:23:47 PM  
-**Updated At:** 11/27/2018 8:05:49 AM  
-**Original Doc:** [276614-isprint](https://docs.jbase.com/36868-jbase-basic/276614-isprint)  
-**Original ID:** 276614  
-**Internal:** No  
+<PageHeader /> 
 
 **Tags:**
 <badge text='string handling' vertical='middle' />
@@ -29,5 +25,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

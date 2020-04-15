@@ -1,10 +1,6 @@
 # LOOP
 
-**Created At:** 9/15/2017 9:47:47 AM  
-**Updated At:** 4/19/2019 8:04:53 AM  
-**Original Doc:** [276941-loop](https://docs.jbase.com/36868-jbase-basic/276941-loop)  
-**Original ID:** 276941  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='until loop' vertical='middle' />
@@ -48,5 +44,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

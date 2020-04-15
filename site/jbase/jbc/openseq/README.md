@@ -1,10 +1,6 @@
 # OPENSEQ
 
-**Created At:** 9/21/2017 1:35:34 PM  
-**Updated At:** 2/1/2020 11:06:50 PM  
-**Original Doc:** [277543-openseq](https://docs.jbase.com/36868-jbase-basic/277543-openseq)  
-**Original ID:** 277543  
-**Internal:** No
+<PageHeader />
 
 **Tags:**
 <badge text='record handling' vertical='middle' />
@@ -112,7 +108,5 @@ closeseq mypath
 
 Go back to [jBASE BASIC](./../README.md)
 
-Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
-
-  
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)  
 <PageFooter />

@@ -1,10 +1,6 @@
 # INMAT
 
-**Created At:** 11/6/2017 2:27:22 PM  
-**Updated At:** 1/5/2018 6:50:43 PM  
-**Original Doc:** [284346-inmat](https://docs.jbase.com/36868-jbase-basic/284346-inmat)  
-**Original ID:** 284346  
-**Internal:** No  
+<PageHeader />  
 
 ## Description
 
@@ -36,5 +32,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

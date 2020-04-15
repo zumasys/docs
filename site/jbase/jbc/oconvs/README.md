@@ -1,10 +1,6 @@
 # OCONVS
 
-**Created At:** 9/21/2017 10:24:36 AM  
-**Updated At:** 11/27/2018 7:54:48 AM  
-**Original Doc:** [277530-oconvs](https://docs.jbase.com/36868-jbase-basic/277530-oconvs)  
-**Original ID:** 277530  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='dynamic arrays' vertical='middle' />
@@ -41,5 +37,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

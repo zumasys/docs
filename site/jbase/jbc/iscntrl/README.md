@@ -1,10 +1,6 @@
 # ISCNTRL
 
-**Created At:** 9/13/2017 1:17:13 PM  
-**Updated At:** 10/30/2018 9:42:32 AM  
-**Original Doc:** [276610-iscntrl](https://docs.jbase.com/36868-jbase-basic/276610-iscntrl)  
-**Original ID:** 276610  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='string manipulation' vertical='middle' />
@@ -26,6 +22,5 @@ When the **ISCNTRL()** function is used in International Mode, the properties of
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
-
   
 <PageFooter />

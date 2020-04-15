@@ -1,10 +1,6 @@
 # IOCTL
 
-**Created At:** 9/14/2017 8:31:56 AM  
-**Updated At:** 6/6/2019 7:36:44 AM  
-**Original Doc:** [ioctl](https://docs.jbase.com/36868-jbase-basic/ioctl)  
-**Original ID:** 276732  
-**Internal:** No  
+<PageHeader />  
 
 ## Description
 
@@ -334,5 +330,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

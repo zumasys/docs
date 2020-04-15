@@ -1,10 +1,6 @@
 # JQLCOMPILE
 
-**Created At:** 9/14/2017 12:46:46 PM  
-**Updated At:** 11/27/2018 8:45:16 AM  
-**Original Doc:** [276773-5-jqlcompile](https://docs.jbase.com/36868-jbase-basic/276773-5-jqlcompile)  
-**Original ID:** 276773  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='record handling' vertical='middle' />
@@ -35,6 +31,5 @@ For a practical example of use, see the **jexport.b** program in the **$JBCRELEL
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
-
   
 <PageFooter />

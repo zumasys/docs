@@ -1,10 +1,6 @@
 # OPENPATH
 
-**Created At:** 9/21/2017 1:25:59 PM  
-**Updated At:** 11/27/2018 9:39:43 AM  
-**Original Doc:** [277542-openpath](https://docs.jbase.com/36868-jbase-basic/277542-openpath)  
-**Original ID:** 277542  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='record handling' vertical='middle' />
@@ -54,5 +50,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

@@ -1,11 +1,7 @@
 # JQLPUTPROPERTY
 
-**Created At:** 9/14/2017 1:29:30 PM  
-**Updated At:** 11/27/2018 8:44:06 AM  
-**Original Doc:** [276792-jqlputproperty](https://docs.jbase.com/36868-jbase-basic/276792-jqlputproperty)  
-**Original ID:** 276792  
-**Internal:** No  
-
+<PageHeader />
+ 
 **Tags:**
 <badge text='record handling' vertical='middle' />
 <badge text='query language' vertical='middle' />
@@ -39,6 +35,5 @@ For a practical example of use, see the **jexport.b** program in the **$JBCRELEL
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
-
   
 <PageFooter />

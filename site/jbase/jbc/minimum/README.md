@@ -1,10 +1,6 @@
 # MINIMUM
 
-**Created At:** 9/15/2017 12:49:16 PM  
-**Updated At:** 11/27/2018 9:51:04 AM  
-**Original Doc:** [276976-minimum](https://docs.jbase.com/36868-jbase-basic/276976-minimum)  
-**Original ID:** 276976  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='dynamic arrays' vertical='middle' />
@@ -39,5 +35,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

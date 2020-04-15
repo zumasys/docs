@@ -1,10 +1,6 @@
 # NULL
 
-**Created At:** 9/15/2017 2:43:55 PM  
-**Updated At:** 1/5/2018 5:47:11 PM  
-**Original Doc:** [276997-null](https://docs.jbase.com/36868-jbase-basic/276997-null)  
-**Original ID:** 276997  
-**Internal:** No  
+<PageHeader />  
 
 ## Description
 
@@ -24,5 +20,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

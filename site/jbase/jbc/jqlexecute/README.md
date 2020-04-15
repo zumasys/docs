@@ -1,10 +1,6 @@
 # JQLEXECUTE
 
-**Created At:** 9/14/2017 1:01:14 PM  
-**Updated At:** 11/27/2018 10:13:05 AM  
-**Original Doc:** [276783-jqlexecute](https://docs.jbase.com/36868-jbase-basic/276783-jqlexecute)  
-**Original ID:** 276783  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='record handling' vertical='middle' />
@@ -36,5 +32,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

@@ -1,10 +1,6 @@
 # KEYIN
 
-**Created At:** 9/14/2017 1:37:23 PM  
-**Updated At:** 1/5/2018 5:10:01 PM  
-**Original Doc:** [276803-keyin](https://docs.jbase.com/36868-jbase-basic/276803-keyin)  
-**Original ID:** 276803  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
@@ -22,5 +18,4 @@ Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

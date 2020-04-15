@@ -1,10 +1,6 @@
 # NOBUF
 
-**Created At:** 9/15/2017 2:17:18 PM  
-**Updated At:** 1/5/2018 5:46:39 PM  
-**Original Doc:** [276990-nobuf](https://docs.jbase.com/36868-jbase-basic/276990-nobuf)  
-**Original ID:** 276990  
-**Internal:** No  
+<PageHeader />  
 
 ## Description
 
@@ -29,5 +25,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

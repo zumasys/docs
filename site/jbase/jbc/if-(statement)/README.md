@@ -1,10 +1,6 @@
 # IF (statement)
 
-**Created At:** 9/7/2017 9:18:31 AM  
-**Updated At:** 4/19/2019 8:29:32 AM  
-**Original Doc:** [276155-if-statement](https://docs.jbase.com/36868-jbase-basic/276155-if-statement)  
-**Original ID:** 276155  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='if/else' vertical='middle' />
@@ -78,5 +74,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

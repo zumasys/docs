@@ -1,10 +1,6 @@
 # OSREAD
 
-**Created At:** 9/22/2017 12:00:12 PM  
-**Updated At:** 11/27/2018 9:45:29 AM  
-**Original Doc:** [277624-osread](https://docs.jbase.com/36868-jbase-basic/277624-osread)  
-**Original ID:** 277624  
-**Internal:** No  
+<PageHeader /> 
 
 **Tags:**
 <badge text='file handling' vertical='middle' />
@@ -46,5 +42,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

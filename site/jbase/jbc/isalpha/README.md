@@ -1,10 +1,6 @@
 # ISALPHA
 
-**Created At:** 9/13/2017 1:00:19 PM  
-**Updated At:** 10/30/2018 9:52:11 AM  
-**Original Doc:** [276608-isalpha](https://docs.jbase.com/36868-jbase-basic/276608-isalpha)  
-**Original ID:** 276608  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='string manipulation' vertical='middle' />
@@ -29,5 +25,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

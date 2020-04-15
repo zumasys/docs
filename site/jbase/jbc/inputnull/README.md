@@ -1,11 +1,7 @@
 # INPUTNULL
 
-**Created At:** 9/8/2017 2:33:01 PM  
-**Updated At:** 10/30/2018 1:22:25 PM  
-**Original Doc:** [276287-inputnull](https://docs.jbase.com/36868-jbase-basic/276287-inputnull)  
-**Original ID:** 276287  
-**Internal:** No  
-
+<PageHeader />
+  
 **Tags:**
 <badge text='keyboard input' vertical='middle' />
 
@@ -39,5 +35,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

@@ -1,10 +1,6 @@
 # MAKETIMESTAMP
 
-**Created At:** 9/15/2017 10:12:15 AM  
-**Updated At:** 11/27/2018 8:34:29 AM  
-**Original Doc:** [276943-maketimestamp](https://docs.jbase.com/36868-jbase-basic/276943-maketimestamp)  
-**Original ID:** 276943  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='system time' vertical='middle' />
@@ -31,5 +27,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

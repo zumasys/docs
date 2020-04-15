@@ -1,10 +1,6 @@
 # INPUTCLEAR
 
-**Created At:** 9/8/2017 2:25:20 PM  
-**Updated At:** 10/30/2018 1:22:39 PM  
-**Original Doc:** [276286-inputclear](https://docs.jbase.com/36868-jbase-basic/276286-inputclear)  
-**Original ID:** 276286  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
@@ -33,5 +29,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

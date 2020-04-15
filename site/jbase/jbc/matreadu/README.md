@@ -1,10 +1,6 @@
 # MATREADU
 
-**Created At:** 9/15/2017 12:21:38 PM  
-**Updated At:** 11/27/2018 10:02:48 AM  
-**Original Doc:** [276959-matreadu](https://docs.jbase.com/36868-jbase-basic/276959-matreadu)  
-**Original ID:** 276959  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='dimensioned array' vertical='middle' />
@@ -84,5 +80,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

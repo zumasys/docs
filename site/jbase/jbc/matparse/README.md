@@ -1,10 +1,6 @@
 # MATPARSE
 
-**Created At:** 9/15/2017 12:09:41 PM  
-**Updated At:** 11/27/2018 9:49:43 AM  
-**Original Doc:** [276954-matparse](https://docs.jbase.com/36868-jbase-basic/276954-matparse)  
-**Original ID:** 276954  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='dynamic arrays' vertical='middle' />
@@ -41,5 +37,4 @@ Back to [jBASE BASIC](./../jbase-basic-programmers-reference-guide).
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

@@ -1,10 +1,6 @@
 # INS
 
-**Created At:** 9/8/2017 2:54:29 PM  
-**Updated At:** 10/30/2018 9:46:06 AM  
-**Original Doc:** [276289-ins](https://docs.jbase.com/36868-jbase-basic/276289-ins)  
-**Original ID:** 276289  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='dynamic array' vertical='middle' />
@@ -50,6 +46,5 @@ to populate the respective arrays with values.
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
-
   
 <PageFooter />

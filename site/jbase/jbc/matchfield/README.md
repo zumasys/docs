@@ -1,10 +1,6 @@
 # MATCHFIELD
 
-**Created At:** 9/15/2017 12:03:23 PM  
-**Updated At:** 11/27/2018 10:03:03 AM  
-**Original Doc:** [276950-matchfield](https://docs.jbase.com/36868-jbase-basic/276950-matchfield)  
-**Original ID:** 276950  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='string handling' vertical='middle' />
@@ -56,5 +52,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

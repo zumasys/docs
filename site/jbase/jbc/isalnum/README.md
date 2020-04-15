@@ -1,10 +1,6 @@
 # ISALNUM
 
-**Created At:** 9/13/2017 1:04:03 PM  
-**Updated At:** 10/30/2018 9:52:35 AM  
-**Original Doc:** [276609-isalnum](https://docs.jbase.com/36868-jbase-basic/276609-isalnum)  
-**Original ID:** 276609  
-**Internal:** No  
+<PageHeader />  
 
 ## Description
 
@@ -26,5 +22,4 @@ Go back to [jBASE BASIC.](./../jbase-basic-programmers-reference-guide)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

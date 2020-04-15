@@ -1,10 +1,6 @@
 # LENDP
 
-**Created At:** 9/15/2017 8:18:22 AM  
-**Updated At:** 11/27/2018 10:12:52 AM  
-**Original Doc:** [276932-lendp](https://docs.jbase.com/36868-jbase-basic/276932-lendp)  
-**Original ID:** 276932  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='string handling' vertical='middle' />
@@ -33,5 +29,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

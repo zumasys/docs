@@ -1,10 +1,6 @@
 # NOTS
 
-**Created At:** 9/15/2017 2:25:47 PM  
-**Updated At:** 1/5/2018 6:35:36 PM  
-**Original Doc:** [276992-nots](https://docs.jbase.com/36868-jbase-basic/276992-nots)  
-**Original ID:** 276992  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
@@ -34,5 +30,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

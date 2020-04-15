@@ -1,10 +1,6 @@
 # IFS
 
-**Created At:** 9/7/2017 9:33:59 AM  
-**Updated At:** 10/30/2018 9:45:25 AM  
-**Original Doc:** [276157-ifs](https://docs.jbase.com/36868-jbase-basic/276157-ifs)  
-**Original ID:** 276157  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='dynamic arrays' vertical='middle' />
@@ -44,6 +40,5 @@ will display the following:
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
-
   
 <PageFooter />

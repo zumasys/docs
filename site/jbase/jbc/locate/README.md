@@ -1,10 +1,6 @@
 # LOCATE
 
-**Created At:** 9/15/2017 9:27:51 AM  
-**Updated At:** 1/19/2020 9:05:25 AM  
-**Original Doc:** [locate](https://docs.jbase.com/36868-jbase-basic/locate)  
-**Original ID:** 276937  
-**Internal:** No  
+<PageHeader />  
 
 ## Description
 
@@ -90,5 +86,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

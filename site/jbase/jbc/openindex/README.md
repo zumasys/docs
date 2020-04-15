@@ -1,10 +1,6 @@
 # OPENINDEX
 
-**Created At:** 9/21/2017 12:59:17 PM  
-**Updated At:** 11/27/2018 9:46:28 AM  
-**Original Doc:** [277541-openindex](https://docs.jbase.com/36868-jbase-basic/277541-openindex)  
-**Original ID:** 277541  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='file handling' vertical='middle' />
@@ -42,5 +38,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />
