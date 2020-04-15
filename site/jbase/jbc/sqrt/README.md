@@ -1,10 +1,6 @@
 # SQRT
 
-**Created At:** 9/28/2017 10:50:33 AM  
-**Updated At:** 1/5/2018 6:21:46 PM  
-**Original Doc:** [278819-sqrt](https://docs.jbase.com/36868-jbase-basic/278819-sqrt)  
-**Original ID:** 278819  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

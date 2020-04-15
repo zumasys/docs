@@ -1,10 +1,6 @@
 # SOUNDEX
 
-**Created At:** 9/28/2017 9:48:37 AM  
-**Updated At:** 1/5/2018 6:18:33 PM  
-**Original Doc:** [278812-soundex](https://docs.jbase.com/36868-jbase-basic/278812-soundex)  
-**Original ID:** 278812  
-**Internal:** No  
+<PageHeader /> 
 
 ## Description
 

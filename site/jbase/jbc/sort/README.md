@@ -1,10 +1,6 @@
 # SORT
 
-**Created At:** 9/28/2017 9:42:16 AM  
-**Updated At:** 1/5/2018 6:18:18 PM  
-**Original Doc:** [278811-sort](https://docs.jbase.com/36868-jbase-basic/278811-sort)  
-**Original ID:** 278811  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

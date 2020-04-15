@@ -1,10 +1,6 @@
 # SELECT
 
-**Created At:** 9/28/2017 9:10:27 AM  
-**Updated At:** 1/5/2018 6:15:03 PM  
-**Original Doc:** [278801-select](https://docs.jbase.com/36868-jbase-basic/278801-select)  
-**Original ID:** 278801  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

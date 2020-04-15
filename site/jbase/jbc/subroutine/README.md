@@ -1,10 +1,6 @@
 # SUBROUTINE
 
-**Created At:** 11/6/2017 3:04:06 PM  
-**Updated At:** 1/5/2018 6:52:25 PM  
-**Original Doc:** [284390-subroutine](https://docs.jbase.com/36868-jbase-basic/284390-subroutine)  
-**Original ID:** 284390  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

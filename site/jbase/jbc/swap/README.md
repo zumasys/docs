@@ -1,10 +1,6 @@
 # SWAP
 
-**Created At:** 9/28/2017 2:18:05 PM  
-**Updated At:** 1/5/2018 6:25:08 PM  
-**Original Doc:** [278849-swap](https://docs.jbase.com/36868-jbase-basic/278849-swap)  
-**Original ID:** 278849  
-**Internal:** No  
+<PageHeader /> 
 
 ## Description
 

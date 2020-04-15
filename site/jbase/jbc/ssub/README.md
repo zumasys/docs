@@ -1,10 +1,6 @@
 # SSUB
 
-**Created At:** 9/28/2017 12:59:23 PM  
-**Updated At:** 1/5/2018 6:22:26 PM  
-**Original Doc:** [278829-ssub](https://docs.jbase.com/36868-jbase-basic/278829-ssub)  
-**Original ID:** 278829  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

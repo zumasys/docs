@@ -1,10 +1,6 @@
 # SSELECT
 
-**Created At:** 9/28/2017 10:57:41 AM  
-**Updated At:** 1/5/2018 6:22:11 PM  
-**Original Doc:** [278821-sselect](https://docs.jbase.com/36868-jbase-basic/278821-sselect)  
-**Original ID:** 278821  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

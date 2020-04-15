@@ -1,10 +1,6 @@
 # SUBSTRINGS
 
-**Created At:** 9/28/2017 2:13:24 PM  
-**Updated At:** 1/5/2018 6:24:32 PM  
-**Original Doc:** [278846-substrings](https://docs.jbase.com/36868-jbase-basic/278846-substrings)  
-**Original ID:** 278846  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

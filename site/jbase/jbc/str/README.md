@@ -1,10 +1,6 @@
 # STR
 
-**Created At:** 9/28/2017 1:58:40 PM  
-**Updated At:** 1/30/2019 9:52:07 AM  
-**Original Doc:** [278839-str](https://docs.jbase.com/36868-jbase-basic/278839-str)  
-**Original ID:** 278839  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

@@ -1,10 +1,6 @@
 # STRS
 
-**Created At:** 9/28/2017 2:03:36 PM  
-**Updated At:** 1/5/2018 6:23:44 PM  
-**Original Doc:** [278842-strs](https://docs.jbase.com/36868-jbase-basic/278842-strs)  
-**Original ID:** 278842  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
