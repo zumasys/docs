@@ -1,10 +1,6 @@
 # jBC Run-time Options
 
-**Created At:** 5/23/2018 2:04:49 PM  
-**Updated At:** 6/6/2019 8:12:26 AM  
-**Original Doc:** [jbc-run-time-options](https://docs.jbase.com/36868-jbase-basic/jbc-run-time-options)  
-**Original ID:** 318019  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

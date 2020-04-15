@@ -1,10 +1,6 @@
 # Running jBC Programs
 
-**Created At:** 3/16/2020 4:55:49 PM  
-**Updated At:** 3/16/2020 4:55:49 PM  
-**Original Doc:** n/a  
-**Original ID:** n/a  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
