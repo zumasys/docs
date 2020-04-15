@@ -1,10 +1,6 @@
 # PROCREAD
 
-**Created At:** 9/22/2017 2:16:52 PM  
-**Updated At:** 11/27/2018 10:04:58 AM  
-**Original Doc:** [277635-procread](https://docs.jbase.com/36868-jbase-basic/277635-procread)  
-**Original ID:** 277635  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jbc' vertical='middle' />
@@ -39,5 +35,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

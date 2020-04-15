@@ -1,6 +1,6 @@
 # OUT
 
-<PageHeader /> 
+<PageHeader />  
 
 **Tags:**
 <badge text='output' vertical='middle' />

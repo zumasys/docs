@@ -1,11 +1,7 @@
 # PUTENV
 
-**Created At:** 9/22/2017 2:32:07 PM  
-**Updated At:** 11/27/2018 9:18:10 AM  
-**Original Doc:** [putenv](https://docs.jbase.com/36868-jbase-basic/putenv)  
-**Original ID:** 277640  
-**Internal:** No  
-
+<PageHeader />
+  
 **Tags:**
 <badge text='setting environment variables' vertical='middle' />
 <badge text='environment variables' vertical='middle' />
@@ -46,5 +42,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

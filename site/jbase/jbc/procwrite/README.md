@@ -1,10 +1,6 @@
 # PROCWRITE
 
-**Created At:** 9/22/2017 2:21:56 PM  
-**Updated At:** 11/27/2018 9:43:02 AM  
-**Original Doc:** [277636-procwrite](https://docs.jbase.com/36868-jbase-basic/277636-procwrite)  
-**Original ID:** 277636  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jbc' vertical='middle' />
@@ -32,5 +28,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

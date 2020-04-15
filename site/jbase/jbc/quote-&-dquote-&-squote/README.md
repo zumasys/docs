@@ -1,10 +1,6 @@
 # QUOTE / DQUOTE / SQUOTE
 
-**Created At:** 9/22/2017 2:48:11 PM  
-**Updated At:** 4/19/2019 8:11:08 AM  
-**Original Doc:** [quote-dquote-squote](https://docs.jbase.com/36868-jbase-basic/quote-dquote-squote)  
-**Original ID:** 277644  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='dqoute' vertical='middle' />
@@ -34,6 +30,5 @@ The **QUOTE** and **DQUOTE** functions will enclose the value in double quotatio
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
-
   
 <PageFooter />
