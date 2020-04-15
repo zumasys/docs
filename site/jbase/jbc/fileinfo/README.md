@@ -1,10 +1,6 @@
 # FILEINFO
 
-**Created At:** 8/31/2017 7:25:43 AM  
-**Updated At:** 10/25/2018 7:47:21 AM  
-**Original Doc:** [271548-fileinfo](https://docs.jbase.com/36868-jbase-basic/271548-fileinfo)  
-**Original ID:** 271548  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='file operations' vertical='middle' />
@@ -33,5 +29,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

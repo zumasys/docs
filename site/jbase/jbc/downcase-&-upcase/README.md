@@ -28,6 +28,5 @@ When used in International Mode, the conversion from upper case to lower case or
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
-
   
 <PageFooter />

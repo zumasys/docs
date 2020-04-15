@@ -1,10 +1,6 @@
 # FILEUNLOCK
 
-**Created At:** 8/31/2017 7:31:10 AM  
-**Updated At:** 1/5/2018 1:24:28 PM  
-**Original Doc:** [271549-fileunlock](https://docs.jbase.com/36868-jbase-basic/271549-fileunlock)  
-**Original ID:** 271549  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
@@ -36,6 +32,5 @@ FILEUNLOCK FILEVAR
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
-
   
 <PageFooter />

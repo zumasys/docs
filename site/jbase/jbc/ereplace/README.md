@@ -1,10 +1,6 @@
 # EREPLACE
 
-**Created At:** 11/6/2017 1:26:14 PM  
-**Updated At:** 1/5/2018 6:48:24 PM  
-**Original Doc:** [284336-ereplace](https://docs.jbase.com/36868-jbase-basic/284336-ereplace)  
-**Original ID:** 284336  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
@@ -49,5 +45,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

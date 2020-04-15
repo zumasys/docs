@@ -1,10 +1,6 @@
 # FMUL
 
-**Created At:** 1/21/2020 5:00:13 PM  
-**Updated At:** 1/21/2020 5:00:13 PM  
-**Original Doc:** n/a  
-**Original ID:** n/a  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='mathematical operations' vertical='middle' />
@@ -39,5 +35,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

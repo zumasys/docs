@@ -1,10 +1,6 @@
 # FOLD
 
-**Created At:** 11/6/2017 1:58:38 PM  
-**Updated At:** 10/17/2018 1:32:16 PM  
-**Original Doc:** [284339-fold](https://docs.jbase.com/36868-jbase-basic/284339-fold)  
-**Original ID:** 284339  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
@@ -106,5 +102,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

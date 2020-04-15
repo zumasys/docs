@@ -1,10 +1,6 @@
 # GETX
 
-**Created At:** 9/6/2017 2:11:59 PM  
-**Updated At:** 1/5/2018 1:52:40 PM  
-**Original Doc:** [276073-getx](https://docs.jbase.com/36868-jbase-basic/276073-getx)  
-**Original ID:** 276073  
-**Internal:** No  
+<PageHeader />  
 
 ## Description
 
@@ -40,5 +36,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

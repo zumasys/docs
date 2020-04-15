@@ -1,10 +1,6 @@
 # GOTO
 
-**Created At:** 9/6/2017 2:17:53 PM  
-**Updated At:** 10/30/2018 9:58:12 AM  
-**Original Doc:** [goto](https://docs.jbase.com/36868-jbase-basic/goto)  
-**Original ID:** 276074  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='program control' vertical='middle' />
@@ -42,6 +38,5 @@ STOP
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
-
   
 <PageFooter />

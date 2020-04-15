@@ -51,5 +51,4 @@ to load the variable TABLE.VALUE with the hexadecimal values of the bit table.
 
 Go back to [jBASE BASIC](./../README.md)
 
-  
 <PageFooter />

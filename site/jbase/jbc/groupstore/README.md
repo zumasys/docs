@@ -1,9 +1,6 @@
 # GROUPSTORE
 
-**Created At:** 1/22/2020 1:29:09 PM  
-**Updated At:** 11/22/2020 1:29:09 PM
-
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='groupstore' vertical='middle' />
@@ -53,5 +50,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

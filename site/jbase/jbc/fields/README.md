@@ -1,10 +1,6 @@
 # FIELDS
 
-**Created At:** 11/6/2017 1:34:29 PM  
-**Updated At:** 1/5/2018 6:55:17 PM  
-**Original Doc:** [284337-fields](https://docs.jbase.com/36868-jbase-basic/284337-fields)  
-**Original ID:** 284337  
-**Internal:** No  
+<PageHeader />  
 
 ## Description
 
@@ -55,5 +51,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

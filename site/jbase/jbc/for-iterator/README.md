@@ -1,5 +1,7 @@
 # FOR Iterator
 
+<PageHeader />
+
 ## Description
 
 The **FOR** iterator (available on jBASE 5.7.7 and later) is a generalised iterator to simplify and unify looping constructs. It is designed to iterate through dynamic objects and dynamic arrays. Each iteration successively extracts an element. In its simplest form, the loop is terminated when all elements have been extracted.

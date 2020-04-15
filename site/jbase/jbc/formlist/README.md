@@ -1,10 +1,6 @@
 # FORMLIST
 
-**Created At:** 9/5/2017 3:00:01 PM  
-**Updated At:** 1/5/2018 1:28:20 PM  
-**Original Doc:** [275992-formlist](https://docs.jbase.com/36868-jbase-basic/275992-formlist)  
-**Original ID:** 275992  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
@@ -41,5 +37,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

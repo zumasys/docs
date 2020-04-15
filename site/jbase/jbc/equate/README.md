@@ -1,10 +1,6 @@
 # EQUATE
 
-**Created At:** 8/28/2017 8:20:00 AM  
-**Updated At:** 10/24/2018 11:01:29 PM  
-**Original Doc:** [269196-equate](https://docs.jbase.com/36868-jbase-basic/269196-equate)  
-**Original ID:** 269196  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='program variables' vertical='middle' />
@@ -46,5 +42,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

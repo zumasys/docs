@@ -1,10 +1,6 @@
 # Embedded SQL for jBASE BASIC
 
-**Created At:** 10/4/2017 1:15:08 PM  
-**Updated At:** 1/5/2018 6:42:42 PM  
-**Original Doc:** [279582-embedded-sql-for-jbase-basic](https://docs.jbase.com/36868-jbase-basic/279582-embedded-sql-for-jbase-basic)  
-**Original ID:** 279582  
-**Internal:** No  
+<PageHeader />
 
 ## Overview
 
@@ -190,5 +186,4 @@ SQL Pre Processor error -1
 
 Go back to [jBASE BASIC](./../README.md)
 
-  
 <PageFooter />

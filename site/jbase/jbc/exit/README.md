@@ -1,10 +1,6 @@
 # EXIT
 
-**Created At:** 8/28/2017 8:29:31 AM  
-**Updated At:** 10/24/2018 11:01:23 PM  
-**Original Doc:** [269199-exit](https://docs.jbase.com/36868-jbase-basic/269199-exit)  
-**Original ID:** 269199  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='program control' vertical='middle' />
@@ -49,5 +45,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

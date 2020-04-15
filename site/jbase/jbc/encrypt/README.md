@@ -1,10 +1,6 @@
 # ENCRYPT
 
-**Created At:** 8/17/2017 2:19:26 PM  
-**Updated At:** 10/25/2018 7:47:58 AM  
-**Original Doc:** [267804-encrypt](https://docs.jbase.com/36868-jbase-basic/267804-encrypt)  
-**Original ID:** 267804  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='encryption' vertical='middle' />
@@ -76,5 +72,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

@@ -1,10 +1,6 @@
 # FMTS
 
-**Created At:** 11/6/2017 1:42:39 PM  
-**Updated At:** 1/5/2018 6:49:29 PM  
-**Original Doc:** [284338-fmts](https://docs.jbase.com/36868-jbase-basic/284338-fmts)  
-**Original ID:** 284338  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
@@ -47,5 +43,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

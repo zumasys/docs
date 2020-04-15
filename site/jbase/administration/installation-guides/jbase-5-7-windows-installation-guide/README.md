@@ -127,7 +127,7 @@ Applies to: Express **Advanced**
 
 Applies to: Express **Advanced**
 
-![Start Menu Folder](Start_Menu_Folder.png)
+![Start Menu Folder](./Start_Menu_Folder.png)
 
 8. Choose the installation Options/Additional Tasks, then click Next.
 

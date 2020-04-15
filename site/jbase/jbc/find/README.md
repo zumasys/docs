@@ -1,10 +1,6 @@
 # FIND
 
-**Created At:** 8/31/2017 7:38:59 AM  
-**Updated At:** 10/25/2018 7:47:13 AM  
-**Original Doc:** [271550-find](https://docs.jbase.com/36868-jbase-basic/271550-find)  
-**Original ID:** 271550  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='string operations' vertical='middle' />
@@ -55,5 +51,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

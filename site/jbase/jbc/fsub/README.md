@@ -1,11 +1,7 @@
 # FSUB
 
-**Created At:** 9/6/2017 12:38:20 PM  
-**Updated At:** 10/30/2018 1:22:49 PM  
-**Original Doc:** [276053-fsub](https://docs.jbase.com/36868-jbase-basic/276053-fsub)  
-**Original ID:** 276053  
-**Internal:** No  
-
+<PageHeader />
+  
 **Tags:**
 <badge text='mathematical operations' vertical='middle' />
 <badge text='floating point operations' vertical='middle' />
@@ -32,5 +28,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

@@ -1,10 +1,6 @@
 # GROUP
 
-**Created At:** 9/6/2017 7:42:19 AM  
-**Updated At:** 10/30/2018 1:23:25 PM  
-**Original Doc:** [276026-group](https://docs.jbase.com/36868-jbase-basic/276026-group)  
-**Original ID:** 276026  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='grouping' vertical='middle' />
@@ -46,6 +42,5 @@ on the terminal, being the second and third fields and their delimiter within va
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
-
   
 <PageFooter />

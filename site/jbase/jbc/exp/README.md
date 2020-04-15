@@ -1,10 +1,6 @@
 # EXP
 
-**Created At:** 8/28/2017 8:26:58 AM  
-**Updated At:** 10/25/2018 7:47:39 AM  
-**Original Doc:** [269197-exp](https://docs.jbase.com/36868-jbase-basic/269197-exp)  
-**Original ID:** 269197  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='mathematical operations' vertical='middle' />
@@ -32,6 +28,5 @@ zE10 = EXP(10) ;* Get e^10
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
-
   
 <PageFooter />

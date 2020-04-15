@@ -1,11 +1,7 @@
 # FOOTING
 
-**Created At:** 11/6/2017 2:12:14 PM  
-**Updated At:** 1/5/2018 6:50:08 PM  
-**Original Doc:** [284341-footing](https://docs.jbase.com/36868-jbase-basic/284341-footing)  
-**Original ID:** 284341  
-**Internal:** No  
-
+<PageHeader />
+  
 ## Description
 
 The **FOOTING** statement halts all subsequent output to the terminal at the end of each output page. It takes the general from:
@@ -43,5 +39,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

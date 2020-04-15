@@ -1,10 +1,6 @@
 # GET
 
-**Created At:** 9/6/2017 12:42:37 PM  
-**Updated At:** 10/30/2018 9:57:19 AM  
-**Original Doc:** [276055-get](https://docs.jbase.com/36868-jbase-basic/276055-get)  
-**Original ID:** 276055  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='input' vertical='middle' />
@@ -41,7 +37,5 @@ See also: [GETX](./../getx)
 
 Go back to [jBASE BASIC](./../README.md)
 
-Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
-
-  
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)  
 <PageFooter />

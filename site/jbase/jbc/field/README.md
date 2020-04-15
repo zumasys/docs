@@ -1,10 +1,6 @@
 # FIELD
 
-**Created At:** 8/28/2017 8:55:00 AM  
-**Updated At:** 10/25/2018 7:22:20 AM  
-**Original Doc:** [field](https://docs.jbase.com/36868-jbase-basic/field)  
-**Original ID:** 269205  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='string operations' vertical='middle' />
@@ -14,7 +10,7 @@
 This function returns a multi-character delimited field from within a string. It takes the general form:
 
 ```
- FIELD(string, delimiter, occurrence{, extractCount})
+FIELD(string, delimiter, occurrence{, extractCount})
 ```
 
 where:
@@ -49,5 +45,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

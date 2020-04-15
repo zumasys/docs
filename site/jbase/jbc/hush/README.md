@@ -1,10 +1,6 @@
 # HUSH
 
-**Created At:** 9/6/2017 3:01:08 PM  
-**Updated At:** 10/30/2018 1:05:41 PM  
-**Original Doc:** [276081-hush](https://docs.jbase.com/36868-jbase-basic/276081-hush)  
-**Original ID:** 276081  
-**Internal:** No  
+<PageHeader />  
 
 ## Description
 
@@ -34,6 +30,5 @@ HUSH ON
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
-
   
 <PageFooter />
