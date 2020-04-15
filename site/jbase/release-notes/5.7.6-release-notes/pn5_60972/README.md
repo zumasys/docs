@@ -32,5 +32,4 @@ ph-status (a
 
 Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
 
-  
 <PageFooter />

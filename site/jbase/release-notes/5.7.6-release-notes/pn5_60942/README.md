@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-## escription
+## Description
 
 Unexpected **SORT** results on**PH-HISTORY**
 
@@ -16,5 +16,4 @@ All **PH-HISTORY** time and date entries have been corrected to sort or select o
 
 Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
 
-  
 <PageFooter />
