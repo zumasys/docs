@@ -26,6 +26,7 @@
   "dependencies": {
     "@vssue/api-github-v4": "^1.4.0",
     "@vssue/vuepress-plugin-vssue": "^1.4.3",
+    "@vuepress/plugin-google-analytics": "^1.4.0",
     "dotenv": "^8.2.0",
     "i": "^0.3.6",
     "vuepress": "^1.4.0",
