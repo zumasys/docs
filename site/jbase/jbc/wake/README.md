@@ -1,10 +1,6 @@
 # WAKE
 
-**Created At:** 10/4/2017 10:22:28 AM  
-**Updated At:** 1/5/2018 6:30:40 PM  
-**Original Doc:** [279558-wake](https://docs.jbase.com/36868-jbase-basic/279558-wake)  
-**Original ID:** 279558  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

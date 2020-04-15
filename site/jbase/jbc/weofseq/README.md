@@ -1,10 +1,6 @@
 # WEOFSEQ
 
-**Created At:** 10/4/2017 11:40:22 AM  
-**Updated At:** 1/5/2018 6:31:13 PM  
-**Original Doc:** [279567-weofseq](https://docs.jbase.com/36868-jbase-basic/279567-weofseq)  
-**Original ID:** 279567  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

@@ -1,10 +1,6 @@
 # TIMESTAMP
 
-**Created At:** 9/29/2017 2:12:53 PM  
-**Updated At:** 1/5/2018 6:26:25 PM  
-**Original Doc:** [278969-timestamp](https://docs.jbase.com/36868-jbase-basic/278969-timestamp)  
-**Original ID:** 278969  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

@@ -1,10 +1,6 @@
 # TRANSTART
 
-**Created At:** 9/29/2017 2:23:59 PM  
-**Updated At:** 1/5/2018 6:27:15 PM  
-**Original Doc:** [278973-transtart](https://docs.jbase.com/36868-jbase-basic/278973-transtart)  
-**Original ID:** 278973  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

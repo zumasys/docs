@@ -1,10 +1,6 @@
 # WEOF
 
-**Created At:** 10/4/2017 10:24:05 AM  
-**Updated At:** 1/5/2018 6:30:54 PM  
-**Original Doc:** [279559-weof](https://docs.jbase.com/36868-jbase-basic/279559-weof)  
-**Original ID:** 279559  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

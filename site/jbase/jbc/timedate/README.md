@@ -1,10 +1,6 @@
 # TIMEDATE
 
-**Created At:** 9/28/2017 9:21:37 AM  
-**Updated At:** 1/5/2018 6:16:49 PM  
-**Original Doc:** [278806-timedate](https://docs.jbase.com/36868-jbase-basic/278806-timedate)  
-**Original ID:** 278806  
-**Internal:** No  
+<PageHeader />
 
 ## Descrption
 

@@ -1,10 +1,6 @@
 # WRITELIST
 
-**Created At:** 10/4/2017 11:56:15 AM  
-**Updated At:** 1/5/2018 6:31:51 PM  
-**Original Doc:** [279569-writelist](https://docs.jbase.com/36868-jbase-basic/279569-writelist)  
-**Original ID:** 279569  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

@@ -1,10 +1,6 @@
 # XMLTODYN
 
-**Created At:** 10/4/2017 12:40:13 PM  
-**Updated At:** 5/3/2018 5:39:17 PM  
-**Original Doc:** [279578-xmltodyn](https://docs.jbase.com/36868-jbase-basic/279578-xmltodyn)  
-**Original ID:** 279578  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

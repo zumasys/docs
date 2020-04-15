@@ -1,10 +1,6 @@
 # TRIM
 
-**Created At:** 9/29/2017 2:27:09 PM  
-**Updated At:** 1/5/2018 6:28:07 PM  
-**Original Doc:** [278975-trim](https://docs.jbase.com/36868-jbase-basic/278975-trim)  
-**Original ID:** 278975  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

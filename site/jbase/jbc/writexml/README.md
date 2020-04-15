@@ -1,10 +1,6 @@
 # WRITEXML
 
-**Created At:** 10/4/2017 12:25:07 PM  
-**Updated At:** 1/5/2018 6:39:50 PM  
-**Original Doc:** [279575-writexml](https://docs.jbase.com/36868-jbase-basic/279575-writexml)  
-**Original ID:** 279575  
-**Internal:** No  
+<PageHeader />  
 
 ## Description
 

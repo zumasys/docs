@@ -1,10 +1,6 @@
 # TRANS
 
-**Created At:** 9/29/2017 2:16:35 PM  
-**Updated At:** 1/5/2018 6:39:03 PM  
-**Original Doc:** [278970-trans](https://docs.jbase.com/36868-jbase-basic/278970-trans)  
-**Original ID:** 278970  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 

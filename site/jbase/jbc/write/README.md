@@ -1,10 +1,6 @@
 # WRITE
 
-**Created At:** 10/4/2017 11:46:10 AM  
-**Updated At:** 4/19/2019 8:14:40 AM  
-**Original Doc:** [279568-write](https://docs.jbase.com/36868-jbase-basic/279568-write)  
-**Original ID:** 279568  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
