@@ -1,11 +1,6 @@
 # Starting jRFS as a Service on Windows
 
-**Created At:** 4/13/2018 10:31:42 AM  
-**Updated At:** 7/8/2019 11:38:21 PM  
-**Original Doc:** [307819-starting-jrfs-as-a-service-on-windows](https://docs.jbase.com/44204-remote-files/307819-starting-jrfs-as-a-service-on-windows)  
-**Original ID:** 307819  
-**Internal:** No  
-
+<PageHeader />
 
 ## Description 
 

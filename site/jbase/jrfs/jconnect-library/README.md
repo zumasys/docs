@@ -1,10 +1,6 @@
 # jCONNECT LIBRARY
 
-**Created At:** 9/14/2018 7:56:51 AM  
-**Updated At:** 4/24/2019 10:14:58 PM  
-**Original Doc:** [jconnect-library](https://docs.jbase.com/44204-remote-files/jconnect-library)  
-**Original ID:** 339366  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='remote access control' vertical='middle' />

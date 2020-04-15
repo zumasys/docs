@@ -1,11 +1,6 @@
 # CREATING STUB FILES
 
-**Created At:** 4/13/2018 10:39:23 AM  
-**Updated At:** 4/19/2018 12:23:01 PM  
-**Original Doc:** [307820-creating-stub-files](https://docs.jbase.com/44204-remote-files/307820-creating-stub-files)  
-**Original ID:** 307820  
-**Internal:** No  
-
+<PageHeader />
 
 ## Description 
 

@@ -1,10 +1,6 @@
 # REMOTE FILE SERVICE
 
-**Created At:** 9/14/2018 7:56:01 AM  
-**Updated At:** 4/24/2019 10:14:17 PM  
-**Original Doc:** [339365-remote-file-service](https://docs.jbase.com/44204-remote-files/339365-remote-file-service)  
-**Original ID:** 339365  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='client requests to remote files' vertical='middle' />
