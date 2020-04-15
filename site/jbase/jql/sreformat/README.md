@@ -1,10 +1,6 @@
 # SREFORMAT
 
-**Created At:** 6/8/2018 2:04:18 PM  
-**Updated At:** 7/13/2018 10:18:04 AM  
-**Original Doc:** [srefformat](https://docs.jbase.com/46350-jql/srefformat)  
-**Original ID:** 321325  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='files' vertical='middle' />

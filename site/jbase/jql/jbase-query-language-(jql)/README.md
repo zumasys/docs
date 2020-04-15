@@ -1,10 +1,6 @@
 # jBASE Query Language (jQL)
 
-**Created At:** 6/25/2018 12:50:45 PM  
-**Updated At:** 7/13/2018 10:15:00 AM  
-**Original Doc:** [jbase-query-language-jql](https://docs.jbase.com/46350-jql/jbase-query-language-jql)  
-**Original ID:** 324519  
-**Internal:** No  
+<PageHeader />
 
 [Overview](./../jql)
 

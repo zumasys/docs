@@ -1,10 +1,6 @@
 # Data Definition Records - Dictionary Structure
 
-**Created At:** 6/25/2018 1:43:58 PM  
-**Updated At:** 5/16/2019 3:19:29 PM  
-**Original Doc:** [data-definition-records](https://docs.jbase.com/46350-jql/data-definition-records)  
-**Original ID:** 324525  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='structure' vertical='middle' />

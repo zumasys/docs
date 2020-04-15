@@ -1,10 +1,6 @@
 # jQL
 
-**Created At:** 6/8/2018 10:28:11 AM  
-**Updated At:** 6/7/2019 9:53:41 AM  
-**Original Doc:** [jql](https://docs.jbase.com/46350-jql/jql)  
-**Original ID:** 321279  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='without' vertical='middle' />

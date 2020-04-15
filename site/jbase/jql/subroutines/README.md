@@ -1,10 +1,6 @@
 # Subroutines
 
-**Created At:** 6/25/2018 12:56:40 PM  
-**Updated At:** 7/13/2018 10:20:56 AM  
-**Original Doc:** [subroutines](https://docs.jbase.com/46350-jql/subroutines)  
-**Original ID:** 324520  
-**Internal:** No  
+<PageHeader />
 
 jBASE jQL enables users to call Basic subroutines from within correlatives and conversions. There are two flavors of subroutine and each required a different INCLUDE file\*.
 

@@ -1,10 +1,6 @@
 # LIST-ITEM
 
-**Created At:** 6/8/2018 1:59:28 PM  
-**Updated At:** 7/13/2018 10:10:56 AM  
-**Original Doc:** [list-item](https://docs.jbase.com/46350-jql/list-item)  
-**Original ID:** 321318  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='jql' vertical='middle' />
