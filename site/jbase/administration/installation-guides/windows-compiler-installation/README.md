@@ -15,7 +15,7 @@ Note: If you are installing jBASE on Windows 8 (not 8.1) or Windows Server 2012 
 
 ## For jBASE Releases 5.6.6, 5.7.1 and later
 
-The jBASE installer will install and configure a suitable C compiler for compiling JBC programs as a prerequisite to installing jBASE. The compiler installation is initiated by clicking the "Install or Configure C Compiler" button on the Prerequisites page of the jBASE installation.
+The jBASE installer will install and configure a suitable C compiler for compiling jBC programs as a prerequisite to installing jBASE. The compiler installation is initiated by clicking the "Install or Configure C Compiler" button on the Prerequisites page of the jBASE installation.
 
 The steps are:
 
@@ -81,5 +81,4 @@ End Users are experiencing this due to additional "redundant" entries being adde
 
 Back to [Installation Guides](./../README.md).
 
-  
 <PageFooter />

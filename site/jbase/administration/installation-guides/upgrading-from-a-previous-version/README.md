@@ -1,4 +1,4 @@
-# UPGRADING FROM A PREVIOUS VERSION
+# Upgrading from a previous jBASE version
 
 <PageHeader />
 
@@ -52,5 +52,4 @@ Such files may include:
 
 Back to [Installation Guides](./../README.md).
 
-  
 <PageFooter />

@@ -23,7 +23,6 @@ jBASE 5.7 for Windows requires the same minimum hardware specifications as the h
 
 - Windows 8/8.1 64-bit
 - Windows 10 64-bit
-- Windows Server 2012
 - Windows Server 2012 R2  
 - Windows Server 2016  
 
@@ -31,7 +30,7 @@ jBASE 5.7 for Windows requires the same minimum hardware specifications as the h
 
 ## Prerequisites
 
-To install jBASE 5.7 for Windows, you will need the JBASE\_5.7.x.xxx\_rel\_64bit.exe installer, license key and a user account with administrator privileges.  
+To install jBASE 5.7 for Windows, you will need the jbase\_5.7.x.xxx\_64bit.exe installer, license key and a user account with administrator privileges.  
 
 For licensing assistance contact Zumasys jBASE support in the United States at 866 582 8447 and from the United Kingdom at 0808 189 3266 or sales@jbase.com.
 
@@ -41,7 +40,7 @@ For licensing assistance contact Zumasys jBASE support in the United States at 8
 
 ### License Information
 
-<!-- ![jbase-56-windows-installation-guide: licence_info](./licence_info.jpg) -->
+![jBASE Installation License](./jBASE_Installation_License.png)
 
 ## Installation
 
@@ -95,9 +94,9 @@ Applies to: **Express** **Advanced**
 
 Applies to: **Express** **Advanced**
 
-<!-- ![Location Selection](./Location_Selection.png) -->
+![Location Selection](./Company_Location.png) -->
 
-3. Review the End User License Agreement (EULA) and choose I Agree. Then click Next.
+3. Review the End User License Agreement (EULA) and choose to accept the agreement. Then click Next.
 
 Applies to: **Express** **Advanced**
 
