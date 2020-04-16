@@ -94,7 +94,6 @@ To run the application locally:
 - [ ] Add [check-md](https://github.com/ulivz/vuepress-plugin-check-md) plugin (to check for dead links in Markdown)
 - [ ] Add [flowchart](https://flowchart.vuepress.ulivz.com/#install) plugin (to define flowcharts in docs)
 - [ ] Add [export](https://github.com/ulivz/vuepress-plugin-export) plugin (to allow for export of all docs to PDF)
-- [ ] Add [sitemap](https://github.com/ekoeryanto/vuepress-plugin-sitemap) plugin (to allow for auto creation of sitemap.xml file)
 - [ ] May also need [autometa](https://github.com/webmasterish/vuepress-plugin-autometa) plugin
 - [ ] Add [img lazy](https://github.com/tolking/vuepress-plugin-img-lazy) plugin (to add lazy loading for images)
 - [ ] Add [back to top](https://github.com/vuejs/vuepress/tree/master/packages/%40vuepress/plugin-back-to-top) plugin (for automatic back-to-top links)
@@ -108,6 +107,7 @@ To run the application locally:
 - [ ] More [config](https://vuepress.vuejs.org/config/)
 - [ ] More [theme config](https://vuepress.vuejs.org/theme/default-theme-config.html)
 - [ ] More [customization](https://vuepress.vuejs.org/guide/markdown.html)
+- [x] Add [sitemap](https://github.com/ekoeryanto/vuepress-plugin-sitemap) plugin (to allow for auto creation of sitemap.xml file)
 - [x] Add sidebar links matching docs directory structure
 - [x] Clean up directory structure under the Zumasys folder (i.e. AccuTerm folder -> Mobile and Web)
 - [x] Clean up root directory (move docs project into sub-dir)
