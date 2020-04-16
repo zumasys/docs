@@ -190,7 +190,7 @@ The entries must be expanded explicitly.
 | **time\_is\_hours = true\|false** | when set to true, time will be considered in minutes rather than seconds. Thus ICONV(1,"MTS") will return 60 (not 3600). By default this value is set to false in Reality and Sequoia. | Run Time | + |
 | **treat\_with\_as\_and\_with = true\|false** | If set treat jQL WITH &lt;Clause&gt; WITH &lt;Clause&gt; as AND WITH - default is OR WITH.<br />[See Example #7](./#Example-#7)| Run Time| + |
 | **treat\_with\_as\_or\_with = true\|false** | If set treat jQL WITH &lt;Clause&gt; WITH &lt;Clause&gt; as OR WITH - [ this is the default behaviour]. See [Example #8](./#Example-#8)| Run Time | + |
-| **unnamed\_common = unassigned|null|zero** | Indicates how to set un-named common when first referenced. Same as 'named\_common'. | Run Time |  |
+| **unnamed\_common = unassigned\|null\|zero** | Indicates how to set un-named common when first referenced. Same as 'named\_common'. | Run Time |  |
 | **use\_id\_lptr\_reporting = true\|false** | For systems (Prime) that use @ID and @LPTR for default listings. | Run Time |  |
 | **use\_sql\_syntax\_for\_select = true\|false** | Use SQL syntax in SELECT commands. | Run Time |  |
 | **use\_uv\_locate = true\|false** | When set to 'true', use the Universe syntax for the Basic 'LOCATE' function, i.e. 'search string' and 'array to search' parameters are interposed. | Compile Time |  |

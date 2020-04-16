@@ -26,6 +26,7 @@
 [rebuild-index](./rebuild-index/README.md)  
 [select](./select/README.md)  
 [select-(with-index)](./select-(with-index)/README.md)  
+[Secondary Index Examples](./../seconday-index-examples/README.md)  
 [universal-coordinated-time](./universal-coordinated-time/README.md)  
 [using-regular-expressions-with-indexes](./using-regular-expressions-with-indexes/README.md)  
 [using-subroutine-in-index-definitions](./using-subroutine-in-index-definitions/README.md)  
@@ -33,5 +34,4 @@
 
 [Back to Knowledgebase](./../README.md)
 
-  
 <PageFooter />

@@ -28,12 +28,11 @@ The transaction boundaries or the start and end of a transaction can be programm
 
 | <!----> | <!----> |
 | --- | --- |
-| [TRANSTART](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/adv22_TRANSTART.htm) | Marks the beginning of a transaction |
-| [TRANSEND](./../../../jbase-basic-%28jbc%29/transend) | Marks the end of a successfully completed transaction |
-| [TRANSABORT](./../../../jbase-basic-%28jbc%29/transabort) | Aborts the current transaction and reverses any updates to the database |
-| [TRANSQUERY](./../../../jbase-basic-%28jbc%29/transquery) | Detects whether or not a transaction is active on the current process |
+| [TRANSTART](./../../jbc/transtart/README.md) | Marks the beginning of a transaction |
+| [TRANSEND](./../../jbc/transend) | Marks the end of a successfully completed transaction |
+| [TRANSABORT](./../../jbc/transabort) | Aborts the current transaction and reverses any updates to the database |
+| [TRANSQUERY](./../../jbc/transquery) | Detects whether or not a transaction is active on the current process |
 
 [Back to Transactions](./../README.md)
 
-  
 <PageFooter />

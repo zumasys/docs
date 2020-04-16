@@ -12,8 +12,8 @@
 | [Subroutines](./../using-subroutine-in-index-definitions) | Using subroutines with index definitions. |
 | [General Index Information](./../general-index-information) | General definitions about the jBASE Secondary Indexes |
 | [Appendix A](./../indexes-appendix-a) | Index sort sequences. |
-| [Appendix B](./../indexes-appendix-b) | Universal Co-ordinated Time |
-| [Secondary Index Examples](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/adv22_INDEXES_EXAMPLES.htm) | Traversing indexes. |
+| [Appendix B](./../indexes-appendix-b) | Universal Co-ordinated Time |  
+| [Secondary Index Examples](./../seconday-index-examples/README.md) | Traversing indexes. |
 
 | Command| Description |
 | --- | --- |
@@ -27,5 +27,4 @@
 
 Back to [Indexes](./../README.md)
 
-  
 <PageFooter />

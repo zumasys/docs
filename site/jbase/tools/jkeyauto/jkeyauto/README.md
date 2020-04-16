@@ -36,12 +36,11 @@
 | [PUTENV](./../putenv) | Exports a variable to become an external environment variable. |
 | [READDELAY](./../readdelay) | Changes the delay between data reads from a pipe. |
 | [RETURN](./../return) | Return from a previously executed GOSUB. |
-| [SLEEP](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jke2_JKEYAUTO.SLEEP.htm) | Suspends execution for a specified number of seconds. |
+| [SLEEP](./../sleep/README.md) | Suspends execution for a specified number of seconds. |
 | [STOP](./../stop) | Stops execution of the jkeyauto program. |
 | [SYNC](./../sync) | Provides synchronization between multiple copies of jkeyauto. |
 | [TRACE](./../trace) | Traces the code executed by jkeyauto. |
 | [TYPEDELAY](./../typedelay) | Specify the time delay, in seconds, between each simulated typed character. |
 | [WAIT](./../wait) | Waits until a program loaded with the PROGRAM statement has completed. |
 
-  
 <PageFooter />

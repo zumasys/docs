@@ -1,4 +1,4 @@
-# JBC Error Handling
+# jBC Error Handling
 
 <PageHeader />
 
@@ -23,7 +23,7 @@ JBC\_STDERR
 To redirect standard error to standard out in a jBC program set **JBC\_STDERR=1**. This is useful with the [EXECUTE](./../execute) statement for CAPTUREing output that would normally be sent to the screen.
 
 [JBCERRFILE](./../../environment-variables/jbcerrfile)
-This environment variable is used to specify an alternate error message file. See [Advanced Error Message Tracking](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup42_ERROR_HANDLING.htm#Advanced_Error_Message_Tracking).
+This environment variable is used to specify an alternate error message file. See [Advanced Error Message Tracking](#advanced-error-message-tracking).
 
 ## Trapping I/O errors
 
@@ -38,7 +38,7 @@ END ELSE  STOP
 END
 ```
 
-The SYSTEM(0) function can also be used to determine the outcome of I/O options. Operations like [READ](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jbc2_READ.htm) and [WRITE](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jbc2_WRITE.htm) will return non-zero error numbers if the operation fails in some way. Tape statements, like [READT](./../readt) and [WRITET](./../writet), will store the reason code if an error occurs.
+The SYSTEM(0) function can also be used to determine the outcome of I/O options. Operations like [READ](./../jbc/read/README.md) and [WRITE](./../jbc/write/README.md) will return non-zero error numbers if the operation fails in some way. Tape statements, like [READT](./../readt) and [WRITET](./../writet), will store the reason code if an error occurs.
 
 The SYSTEM(0) function does not automatically reset itself; it will hold on to the last error code until some other statement sets it. This can sometimes lead to a wrong conclusion when checking the value. To avoid this situation you can explicitly reset SYSTEM(0) with:
 
@@ -48,13 +48,13 @@ ASSIGN 0 TO SYSTEM(0)
 
 ## Customizing Error Messages
 
-There are two files, **jbcinit.err** and **jbcmesssages**, underneath JBCRELEASEDIR. The **jbcinit.err** file is used to build the **jbcmessages**file. The **jbcinit.err**file contains extensive documentation on how to add new and customize existing messages that display to the user. More details about this [here](https://static.zumasys.com/jbase/r99/knowledgebase/howto/general/common/errmsgconfig.htm).
+There are two files, **jbcinit.err** and **jbcmesssages**, underneath JBCRELEASEDIR. The **jbcinit.err** file is used to build the **jbcmessages** file. The **jbcinit.err** file contains extensive documentation on how to add new and customize existing messages that display to the user. More details about this [here](./../coding-corner/customizing-the-jbase-error-message-file/README.md).
 
 ## Advanced Error Message Tracking
 
 This section details how to track specific error messages.
 
-The [JBASE\_ERRMSG\_TRACE](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/env2_JBASE_ERRMSG_TRACE.htm) environment variable is message-agnostic. When it is set it logs **all** jBASE messages that are 'printable' (i.e. not marked 'NOPRINT') in the **%JBCRELEASEDIR%\jbcmessages** file. This can be problematic when all you want to do is log the occurrences of a few specific error messages. The log produced by **JBASE\_ERRMSG\_TRACE** will also not tell you what process produced the error, what time the error occurred, the port number, the username, etc.
+The [JBASE\_ERRMSG\_TRACE](./../environment-variables/jbase_errmsg_trace/README.md) environment variable is message-agnostic. When it is set it logs **all** jBASE messages that are 'printable' (i.e. not marked 'NOPRINT') in the **%JBCRELEASEDIR%\jbcmessages** file. This can be problematic when all you want to do is log the occurrences of a few specific error messages. The log produced by **JBASE\_ERRMSG\_TRACE** will also not tell you what process produced the error, what time the error occurred, the port number, the username, etc.
 
 For example, suppose we want to only log BASIC program errors that result from the 3 errors that are controlled by  [JBASE\_ERRMSG\_TRACE](./../../environment-variables/jbase_errmsg_trace), [JBASE\_ERRMSG\_ZERO\_USED](./../../environment-variables/jbase_errmsg_zero_used) and  [JBASE\_ERRMSG\_DIVIDE\_ZERO](./../../environment-variables/jbase_errmsg_divide_zero). We don't want the program to drop to the debugger, nor do we want these error messages to display to the user. Setting **JBASE\_ERRMSG\_TRACE=1** will certainly log these occurrences but they will be intermixed with all other messages making it difficult to determine what happened when.
 
@@ -120,7 +120,15 @@ C:\jbase\CurrentVersion\jbcmessages]D
 C:\jbase\CurrentVersion\jbcmessa7es
 ```
 
-b) Open the **C:\custom\jbcinit.err** file with any editor, then locate the line that starts with the string **ZERO\_USED:** and replace the string **WARNING** with the string **NOPRINT** on that line. Note that the **^** characters you see are up-arrows (shift+6 on the keyboard). Make the same change on the lines that start with **DIVIDE\_ZERO:** and **NON\_NUMERIC:**. The final lines must look EXACTLY like [this](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup42_error_message_lines.htm).
+b) Open the **C:\custom\jbcinit.err** file with any editor, then locate the line that starts with the string **ZERO\_USED:** and replace the string **WARNING** with the string **NOPRINT** on that line. Note that the **^** characters you see are up-arrows (shift+6 on the keyboard). Make the same change on the lines that start with **DIVIDE\_ZERO:** and **NON\_NUMERIC:**. The final lines must look EXACTLY like this:
+
+```
+ZERO_USED:0:Invalid or uninitialised variable -- ZERO USED ,^NEWLINE^Var ^VARNAME^ , Line ^LINENO^ , Source ^SOURCENAME^^NOPRINT^
+
+DIVIDE_ZERO:0:Divide by zero !!-- ZERO returned ,^NEWLINE^Line ^LINENO^ , Source ^SOURCENAME^^NOPRINT^
+
+NON_NUMERIC:0:Non-numeric value -- ZERO USED ,^NEWLINE^Variable '^VARNAME^' , Line ^LINENO^ , Source ^SOURCENAME^^NOPRINT^
+```
 
 Be aware that, once this **jbcmessages** file is in use, these 3 errors will NEVER print to the screen, but instead will be captured by the trigger and logged to the **ERRORLOG** file.
 
@@ -183,11 +191,12 @@ c) Optional: change the value the **JBASE\_ERRMSG\_xyz** environment variables b
 Here is a simplistic program to test things out. After running it, if everything is working correctly, there will be 3 records in the **ERRORLOG** file, one record for each of the 3 error conditions.
 
 ```
-   PROGRAM testerrors
-   a = 1234 0003   b = 'xyz'
-   CRT "Test1: use a non numeric --> ":a+b
-   CRT "Test2: divide by 0 --> ":a/0
-   CRT "Test3: invalid or uninitialised --> ":c  ;* variable c was never assigned
+PROGRAM testerrors
+a = 1234 0003
+b = 'xyz'
+CRT "Test1: use a non numeric --> " : a + b
+CRT "Test2: divide by 0 --> " : a / 0
+CRT "Test3: invalid or uninitialised --> ": c  ;* variable c was never assigned
 ```
 
 [Back to Knowledgebase](./../README.md)

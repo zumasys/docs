@@ -39,7 +39,7 @@ To link with external C function libraries:
 `export JBCDEV_CLIB=/usr/global/clib` (UNIX)
 `set JBCDEV_CLIB=C:\GLOBAL\CLIB` (Windows)
 
-Programmers should be aware that by convention jBC program names have an extension of ".b" (and also ".B" on Windows). The [jbc](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup42_JBC.htm)command expects programs specified as "name.b". The BASIC and CATALOG commands do not require programs to have a **.b** extension because they add one when necessary. This can be seen when the verbose option is used on BASIC and CATALOG. If a main program has a **.b** extension, it is dropped when the program is cataloged. For example, if the name of the program is CUSTMAINT.b, the resulting executable created by CATALOG is called CUSTMAINT. If a subroutine has a **.b** extension, then it's internal name should **not** have the extension:
+Programmers should be aware that by convention jBC program names have an extension of ".b" (and also ".B" on Windows). The [jbc](./../compilation/jcompile/README.md) command expects programs specified as "name.b". The BASIC and CATALOG commands do not require programs to have a **.b** extension because they add one when necessary. This can be seen when the verbose option is used on BASIC and CATALOG. If a main program has a **.b** extension, it is dropped when the program is cataloged. For example, if the name of the program is CUSTMAINT.b, the resulting executable created by CATALOG is called CUSTMAINT. If a subroutine has a **.b** extension, then it's internal name should **not** have the extension:
 
 | valid | Invalid |
 | UPDATECUST.B | UPDATECUST.B |
@@ -79,5 +79,4 @@ libAccount1.so
 
 [Back to Compilation](../README.md)
 
-  
 <PageFooter />

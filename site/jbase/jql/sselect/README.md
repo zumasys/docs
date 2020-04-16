@@ -49,7 +49,7 @@ SSELECT SALES WITH S.CODE = "ABC]" BY P.CODE
 
 Select all the records in SALES file with an S.CODE value that starts with ABC. Sort the list into P.CODE order and then save the list as SALES.ABC.
 
-See also the [SELECT](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jql2_SELECT.htm) command.
+See also the [SELECT](./../select/README.md) command.
 
 Back to [jQL](jbase-query-language-jql-)
 

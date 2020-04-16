@@ -593,7 +593,7 @@ jBASIC is able to create files and directories that can be read by the operating
 | [OSDELETE](./../../jbc/osdelete)  | statement | Deletes an OS file. |
 | [OSOPEN](./../../jbc/osopen) | statement | Opens an OS file for processing. |
 | [OSREAD](./../../jbc/osread) | statement | Reads an OS file. |
-| [OSWRITE](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jbc2_OSWRITE.htm) | statement | Writes an OS file. |
+| [OSWRITE](./../../jbc/osbwrite/README.md) | statement | Writes an OS file. |
 | [OUT](./../../jbc/out)  | statement | Sends raw characters to the current output device. |
 | **P** |
 | [PAGE](./../../jbc/page) | statement | Causes the current output device to page. |
@@ -678,7 +678,7 @@ jBASIC is able to create files and directories that can be read by the operating
 | [TIME](./../../jbc/time) | function | Returns the current system time. |
 | [TIMEDATE](./../../jbc/timedate) | function | Returns the current time and date. |
 | [TIMEDIFF](./../../jbc/timediff) | function | Returns the interval between two timestamps as a dynamic array. |
-| [TIMEOUT](./../../jbc/timeout) | function | Terminates a [READBLK](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jbc2_READBLK.htm) or [READSEQ](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/jbc2_READSEQ.htm) statement. |
+| [TIMEOUT](./../../jbc/timeout) | function | Terminates a [READBLK](./../../jbc/readblk/README.md) or [READSEQ](./../../jbc/readseq/README.md) statement. |
 | [TIMESTAMP](./../../jbc/timestamp) | function | Returns a UTC timestamp as decimal seconds. |
 | [TRANS](./../../jbc/trans) | function | Retrieves a field from a file. |
 | [TRANSABORT](./../../jbc/transabort) | statement | Aborts and reverses the current transaction. |

@@ -21,11 +21,10 @@ By default, when a distributed file is opened, all component part files are open
 
 On versions of jBASE prior to 3.3.9, if a record ID resolved to a partition (part file) that did not exist, the process would be trapped to the jBASE debugger with an "Error 22" error message. This behavior has been changed such that a READ from a non-existent partition will take the ELSE clause and a WRITE will be trapped with an 'Error 22' unless the WRITE is supplied with the ON ERROR clause.
 
-If a part file is deleted, then the DELETE-DISTRIB command must be used to remove the reference from the distributed file stub. Also, any user defined partitioning algorithm must be modified. This is detailed in the distributed file [example](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/fil22_example.htm).
+If a part file is deleted, then the DELETE-DISTRIB command must be used to remove the reference from the distributed file stub. Also, any user defined partitioning algorithm must be modified. This is detailed in the distributed file [example](./../../distributed-files/distributed-files-examples/README.md).
 
 Distributed files support secondary indexes and triggers at both the distributed file level and the part file level.
 
 Back to [Distributed Files](./../README.md)
 
-  
 <PageFooter />
