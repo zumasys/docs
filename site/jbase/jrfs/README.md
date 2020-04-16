@@ -10,7 +10,7 @@
 [configuration-files](./configuration-files/README.md)  
 [creating-remote-pointers](./creating-remote-pointers/README.md)  
 [creating-stub-files](./creating-stub-files/README.md)  
-[jbase-remote-file-service-(jrfs)](./jbase-remote-file-service-(jrfs)/README.md)  
+[jbase-remote-file-service-(jrfs)](./jbase-remote-file-service/README.md)  
 [jconnect-library](./jconnect-library/README.md)  
 [jql-and-remote-files](./jql-and-remote-files/README.md)  
 [jrfs-configuration-files](./jrfs-configuration-files/README.md)  
