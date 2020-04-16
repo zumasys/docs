@@ -239,7 +239,7 @@ Stopping now
 
 ### Recursive Catch policy and the \$setcatch() Method
 
-The question to ask is this -- "What happens if you are inside a **catch** block and another exception is raised while execution an exception block?".
+The question to ask is this -- "What happens if you are inside a **catch** block and another exception is raised while execution is in an exception block?".
 
 Different OOPs have different policies, and even then it isn't clear which language has what policy and seems to depend on the version of runtime or compiler or wishful thinking.
 
