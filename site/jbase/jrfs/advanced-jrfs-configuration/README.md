@@ -134,7 +134,7 @@ Note that field &lt;2&gt; contains a dash concatenated with a space concatenated
 <2> account_name  jRFS_service_name
 ```
 
-Note that no dash is required here. A detailed explaination of this can be found [here](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup22_JRFS.htm#RemoteFilePointers).
+Note that no dash is required here. A detailed explaination of this can be found [here](./../../jrfs/remote-file-pointers/README.md).
 
 Extending this example, to access a file called SPACESTATIONS on the remote host through the jRFS\_NEW server, the MD/VOC entry would be
 
@@ -145,7 +145,7 @@ ID: SPACESTATIONS
 <3> SPACESTATIONS
 ```
 
-It is assumed that the SPACESTATIONS file is visible in the server user's home directory or is defined in the **jnet\_env** server configuration file with the [JEDIFILEPATH](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/env2_JEDIFILEPATH.htm) environment variable.
+It is assumed that the SPACESTATIONS file is visible in the server user's home directory or is defined in the **jnet\_env** server configuration file with the [JEDIFILEPATH](./../../environment-variables/jedifilepath/README.md) environment variable.
 
 ### Note
 

@@ -36,7 +36,6 @@ This is due to a bug in Compaq’s Insight Manager program.  Compaq has provide
 
 The most likely problem is that you have a needed DLL missing from your PATH. Because telnetd users need to see the error messages in a non-GUI form, we set things so that Windows will not let an error pop-up box occur for this error, but rather cause the error code to be returned to the calling program.  In most instances this setting has the desired effect of letting a remote error see the error message, however, for reasons unknown to us, Microsoft has made the CMD.EXE suppress the error message for a missing DLL.
 
-Back to [Windows Telnet](./../windows-telnet-%28telnetd.exe%29)
+Back to [Windows Telnet](./../windows-telnet/README.md)
 
-  
 <PageFooter />

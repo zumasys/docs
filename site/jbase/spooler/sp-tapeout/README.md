@@ -17,7 +17,7 @@ where **n** is the number of print jobs to read and requeue.
 
 ### Example
 
-Attach the tape device using the [T-ATT](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/tap2_T_ATT.htm) command and use [T-FWD](./../../../jbase/tape/t-fwd), if required, to position the tape media to the required print job record.
+Attach the tape device using the [T-ATT](./../../tape/t-att/README.md) command and use [T-FWD](./../../tape/t-fwd), if required, to position the tape media to the required print job record.
 
 Assign the required formqueue by using the SP-ASSIGN command.
 
@@ -31,5 +31,4 @@ This command will read the next four print job files and spool them to the curre
 
 Back to [Spooler](./../jbase-spooler).
 
-  
 <PageFooter />

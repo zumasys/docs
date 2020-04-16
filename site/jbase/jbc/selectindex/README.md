@@ -8,7 +8,7 @@
 
 ## Description
 
-This statement will create a dynamic array of record keys based on a single selection of a single index key value. It is more efficient to use a combination of [OPENINDEX](openindex) and [READNEXT](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/adv22_READNEXT.htm) statements rather than the SELECTINDEX, but this statement was included for compatibility with legacy applications.
+This statement will create a dynamic array of record keys based on a single selection of a single index key value. It is more efficient to use a combination of [OPENINDEX](openindex) and [READNEXT](./../readnext/README.md) statements rather than the SELECTINDEX, but this statement was included for compatibility with legacy applications.
 
 The command takes the general form:
 

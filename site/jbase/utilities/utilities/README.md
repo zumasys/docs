@@ -24,7 +24,7 @@
 | [LISTDICTS](llistdicts) | Dictionary listing. |
 | [LISTF](./../listf) | File name listing. |
 | [LISTU](./../listu) | User listing. |
-| [LIST-OPEN-FILES](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup22_LIST_OPEN_FILES.htm) | Shows what files a usr has open. |
+| [LIST-OPEN-FILES](./../list-open-files/README.md) | Shows what files a user has open. |
 | [LOGON LOGOFF](./../logon&logoff) | Log on and log off users. |
 | [MSG](./../msg) | Send a message. |
 | [NOHUSH](./../nohush) | Sets the echo enabled flag. |
@@ -40,5 +40,4 @@
 | [WHO](./../../../environment-variables/jbcemulate) | Port number display. |
 | [XTD.DTX](xtd-dtx) | Conversion from / to decimal / hexadecimal. |
 
-  
 <PageFooter />

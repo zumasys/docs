@@ -1,6 +1,6 @@
 # MT Conversion
 
-<PageHeader /> 
+<PageHeader />  
 
 ## Description
 
@@ -25,7 +25,7 @@ For output conversions, AM and PM designators are automatically displayed. For e
 
 Input conversion is valid. Generally, for selection processing you should specify MT codes in field 7 of the data definition record.
 
-AM or PM designators are taken into account. The result of the input conversion for certain values can be affected by the [time\_is\_hours](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/sup12_EMULATION.htm#TIMEISHOURS) emulation setting.
+AM or PM designators are taken into account. The result of the input conversion for certain values can be affected by the [time\_is\_hours](./../../emulation/README.md) emulation setting.
 
 ### Examples
 
@@ -58,5 +58,4 @@ AM or PM designators are taken into account. The result of the input conversion 
 
 Back to [Conversion Processing](./../conversion-processing)
 
-  
 <PageFooter />

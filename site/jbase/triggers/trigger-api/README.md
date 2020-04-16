@@ -11,7 +11,7 @@
 
 ## Description
 
-The mechanism provided to define the action that takes place when a database trigger event occurs is a jBC subroutine. The name of the subroutine is specified in the [create-trigger](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/adv22_CREATE_TRIGGER.htm) command. A different subroutine can be defined for each of the nine database trigger events, however it is usually more convenient to use one subroutine for each file that has a trigger defined, distinguishing between the different events in the subroutine.
+The mechanism provided to define the action that takes place when a database trigger event occurs is a jBC subroutine. The name of the subroutine is specified in the [create-trigger](./../../triggers/create-trigger/README.md) command. A different subroutine can be defined for each of the nine database trigger events, however it is usually more convenient to use one subroutine for each file that has a trigger defined, distinguishing between the different events in the subroutine.
 
 The subroutine can used to define ancillary updates that need to occur as a result of the primary update. The seven parameters passed to the subroutine allow interrogation and (where applicable) manipulation of the record being updated.
 

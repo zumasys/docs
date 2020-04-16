@@ -194,7 +194,7 @@ The default keystroke sequences available from jED are shown below. If the syste
 | &lt;Ctrl K&gt; | clears text to the end of the line. If the cursor is situated at the end of the text line, then this command will join the following line with the current line. |
 | &lt;Back Space&gt; | performs a destructive backspace. |
 | &lt;Delete&gt; | deletes the character under the current cursor position. |
-| &lt;Ctrl D&gt; | deletes the current line. By default, this key must be pressed twice to delete the line. This is to avoid accidental deletion by users familiar with vi. To override, place "set delete-line = ^D" in the [.jedrc file](https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/ed2_jedrc.htm). |
+| &lt;Ctrl D&gt; | deletes the current line. By default, this key must be pressed twice to delete the line. This is to avoid accidental deletion by users familiar with vi. To override, place "set delete-line = ^D" in the [.jedrc file](./../customizing-the-jed-editor/README.md). |
 | &lt;Ctrl G&gt; | sets the start or end position for marking a block of text. The first &lt;Ctrl G&gt; will mark the start of a block or mark a single line. The second &lt;Ctrl G&gt; with the cursor on a different line will mark a complete block. The block can be unmarked by pressing &lt;Ctrl G&gt; a third time. |
 | &lt;Ctrl L&gt; | inserts a blank line below the current line and positions the cursor on it. |
 | &lt;Ctrl N&gt; | locates the next occurrence of a earlier located string. |
@@ -667,5 +667,4 @@ From Edit mode, press &lt;Esc&gt; to invoke the command line.
 
 Back to [Editors](./../editors/README.md)
 
-  
 <PageFooter />

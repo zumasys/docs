@@ -6,8 +6,6 @@
 
 This guide covers a basic configuration of jRFS. It describes a configuration up between a client machine (omega) and a server (demo), both running Windows.
 
-
-
 ### The jRFS Service
 
 Both client and server machines must have an entry in %SYSTEMROOT%\system32\drivers\etc\services that follows the schema:
@@ -22,11 +20,9 @@ For jRFS the entry required is:
 jRFS    5001/tcp    jRFS      #jBASE Remote file service
 ```
 
-
-
 ### Client Setup
 
-On the client machine, omega, we create a Q pointer called RFSDEMO. This necessitates an [MD/VOC file](https://https://static.zumasys.com/jbase/r99/knowledgebase/manuals/3.0/30manpages/man/acc2_md.htm) being set up on the client. The Q-pointer item is:
+On the client machine, omega, we create a Q pointer called RFSDEMO. This necessitates an [MD/VOC file](./../../accounts/the-md&voc-file/README.md) being set up on the client. The Q-pointer item is:
 
 ```
 RFSDEMO
@@ -47,14 +43,12 @@ ACCDEMO
 
 There are 4 files concerned with configuration of jRFS:
 
-
 | <!----> | <!----> |
 | --- | --- |
 | jnet\_config<br> | jConnect client and server configuration file.<br> |
 | jnet\_map<br> | jConnect client mapping file.<br> |
 | jnet\_env<br> | jConnect server environment map file.<br> |
 | jrfs\_config<br> | jRFS client and server configuration file.<br> |
-
 
 jRFS provides some very useful logging capabilities that are the quickest way to debug your setup. The log entries will tell you what the jConnect software is looking for at the point of failure so that you can rectify the specific problem. **jnet\_config** is where these logs are turned on as follows:
 
@@ -89,8 +83,6 @@ display=on
 
 **jnet\_env** and **jnet\_access** require no changes on the client machine.
 
-
-
 ### Server setup
 
 Create an account entry in the SYSTEM file on the server as follows:
@@ -115,7 +107,7 @@ accesschk=on
 
 This last setting causes a security check to be performed to see if the connecting machine/user id is allowed access.
 
-**On Unix:**
+**On UNIX:**
 
 There are two methods available, ruserok provided by the OS, and jnetok method provided by jRFS. The first method is normally sufficient for user’s needs. This involves adding the client hostname to the /etc/hosts.equiv file on the server, along with a reference to which users are allowed access, as follows:
 
@@ -124,8 +116,6 @@ There are two methods available, ruserok provided by the OS, and jnetok method p
 jbase2 jbaseadmmikeonly this user will be allowed in from jbase2
 jbase1 + all users allowed from jbase1
 ```
-
-
 
 **On Windows:**
 
@@ -139,8 +129,6 @@ omega Steve jrfsuser jRFS jbase
 No changes are required to **jrfs\_config**, **jnet\_env** or **jnet\_map**.
 
 This should be enough to get a simple demo working between two machines. The only potential problems are regarding user names on the Server, the logs ought to make any issues to be resolved obvious.
-
-
 
 #### CLIENT Machine – ‘jbase2’
 
@@ -170,9 +158,6 @@ display=on
 #logfile=
 ```
 
-#### 
-
-
 #### SERVER Machine – ‘sun’
 
 jnet\_config
@@ -193,10 +178,6 @@ JEDIFILENAME_SYSTEM=/home/omega/SYSTEM
 JEDIFILEPATH=/home/omega/data
 ```
 
-
-
-
-
 ### Using jEDI stub files
 
 If attempting to open remote files, which are actually stub files interfacing into an external database, it may be necessary to set up jnet\_env on the server side in order to set up environment variables for jRFS.
@@ -207,8 +188,6 @@ For example using Oracle stub files on NT,  a ‘cannot find orasql8.dll’ err
 ENV:jRFS jrfsuser Steve
 PATH=c:\testing\bin;C:\Oracle\Ora81\bin;C:\Program…
 ```
-
-
 
 This specifies to use these variables when a request comes in for the specified local and remote username. Setting this and stop/starting jRFS Service fixed this.
 
@@ -321,5 +300,4 @@ Etc etc
 May 05 18:10:21:412[DisconSeen] confirming disconnect, fd 224
 ```
 
-  
 <PageFooter />
