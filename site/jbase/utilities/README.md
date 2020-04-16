@@ -27,7 +27,7 @@
 [jrestore](./jrestore/README.md)  
 [listf](./listf/README.md)  
 [listu](./listu/README.md)  
-[logon&logoff](./logon&logoff/README.md)  
+[logon&logoff](./logon-and-logoff/README.md)  
 [msg](./msg/README.md)  
 [nohush](./nohush/README.md)  
 [off](./off/README.md)  
