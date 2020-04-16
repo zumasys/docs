@@ -1,6 +1,6 @@
 # The '@' Function
 
-<PageHeader /> 
+<PageHeader />
 
 **Tags:**
 <badge text='pwd' vertical='middle' />
@@ -108,5 +108,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

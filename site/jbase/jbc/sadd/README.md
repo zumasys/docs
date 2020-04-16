@@ -21,9 +21,9 @@ The [PRECISION](./../precision) declaration has no effect on the value returned 
 Examples of use would be:
 
 ```
-A = 4000000000000000000000000000000
-B = 7
-CRT SADD (A,B)
+strA = 4000000000000000000000000000000
+strB = 7
+CRT SADD (strA, strB)
 ```
 
 to display 4000000000000000000000000000007 to the screen, or
@@ -38,5 +38,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

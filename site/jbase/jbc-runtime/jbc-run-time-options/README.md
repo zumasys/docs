@@ -79,5 +79,4 @@ Note that the reason for using the **CHANGE** function is that **SYSTEM(1000)** 
 
 [Back to jBC Runtime](./../README.md)
 
-  
 <PageFooter />

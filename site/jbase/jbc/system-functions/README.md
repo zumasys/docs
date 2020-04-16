@@ -114,7 +114,7 @@ The following system functions are supported by jBASE:
 - **SYSTEM(1026)** Total amount of memory in use formatted with commas
 - **SYSTEM(1027)** Returns directory PROC; Used by WHERE, LISTU Information about running processes can be obtained via the PROC jedi....
 
-This JEDI enables retrieval of information from executing processes and is the interface now used by the WHERE command...
+This jEDI enables retrieval of information from executing processes and is the interface now used by the WHERE command...
 
 ```
 OPEN SYSTEM(1027) TO PROC ELSE STOP 201, "PROC"
@@ -198,5 +198,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

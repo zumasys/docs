@@ -20,10 +20,10 @@ An example of use is as:
 
 ```
 PRECISION 2
-ADJACENT = 42
-ANGLE = 34
+adjacent = 42
+angle = 34
 
-CRT "Opposite length = ":TAN(ANGLE)*ADJACENT
+CRT "Opposite length = " : TAN(angle) * adjacent
 ```
 
 to display:  Opposite length = 28.14
@@ -32,5 +32,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

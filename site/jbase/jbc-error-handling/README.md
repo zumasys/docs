@@ -1,6 +1,6 @@
 # JBC Error Handling
 
-<PageHeader /> 
+<PageHeader />
 
 ## Description
 

@@ -21,7 +21,7 @@ Examples of use would be:
 ```
 CRT @ (-1):
 FOR I = 0 TO 79
-    CRT @ (I,12+INT(SIN (360/80*(I+1))*10)):"*":
+    CRT @ (I,12 + INT(SIN (360/80 * (I + 1)) * 10)) : "*" :
 NEXT I
 ```
 
@@ -38,5 +38,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

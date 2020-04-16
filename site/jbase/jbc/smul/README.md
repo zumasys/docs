@@ -19,11 +19,11 @@ The function can be used with numbers that may exceed a valid range with standar
 An example of use is as:
 
 ```
-A = 243603310027840922
-B = 3760
-CRT SMUL (A,B)
+strA = 243603310027840922
+strB = 3760
+CRT SMUL (strA, strB)
 
-CRT SMUL (0.0000000000000475,3.61)
+CRT SMUL (0.0000000000000475, 3.61)
 ```
 
 to display 915948445704681866720 and 0.0000000000001714 to the screen.
@@ -32,5 +32,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

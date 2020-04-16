@@ -21,8 +21,8 @@ If **dynamic.array** evaluates to null, it returns null. If any element of **dyn
 An example of use is as:
 
 ```
-ARR1 = "A" : @VM : "B" : @VM : "C"
-CRT STRS (ARR1,3)
+arr1 = "A" : @VM : "B" : @VM : "C"
+CRT STRS (arr1, 3)
 ```
 
 to output:
@@ -37,5 +37,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

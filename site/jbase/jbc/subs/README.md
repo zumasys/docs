@@ -19,10 +19,10 @@ Null elements of argument arrays are treated as zero. Otherwise, a non-numeric e
 An example of use is as:
 
 ```
-X = 1 : @VM : @VM : 5 : @VM : 8 : @SVM : 27 : @VM : 4
-Y = 1 : @VM : 5 : @VM : 8 : @VM : 70: @VM : 19
+dynX = 1 : @VM : @VM : 5 : @VM : 8 : @SVM : 27 : @VM : 4
+dynY = 1 : @VM : 5 : @VM : 8 : @VM : 70: @VM : 19
 
-CRT SUBS(X, Y)
+CRT SUBS(dynX, dynY)
 ```
 
 to display:
@@ -43,5 +43,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

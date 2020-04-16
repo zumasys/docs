@@ -21,9 +21,9 @@ The [PRECISION](./../precision) declaration has no effect on the value returned 
 Examples of use may be as:
 
 ```
-A = 2
-B = 3
-CRT SDIV (A,B)
+strA = 2
+strB = 3
+CRT SDIV (strA, strB)
 ```
 
 to display 0.66666666666666 to the screen, or
@@ -39,5 +39,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

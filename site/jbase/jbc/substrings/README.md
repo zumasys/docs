@@ -25,13 +25,13 @@ When using the **SUBSTRINGS** function in International Mode, **Start** and **Le
 The following example shows how each element of a dynamic array can be changed.
 
 ```
-t = ""
-t<1> = "AAAAA"
-t<2> = "BBBBB" : @VM : "CCCCC" : @SVM: "DDDDD"
-t<3> = "EEEEE" : @VM : @SVM
-r1 = SUBSTRINGS (t,3,2)
-r2 = SUBSTRINGS(t,4,20)
-r3 = SUBSTRINGS(t,0,1)
+dynt = ""
+dynt<1> = "AAAAA"
+dynt<2> = "BBBBB" : @VM : "CCCCC" : @SVM: "DDDDD"
+dynt<3> = "EEEEE" : @VM : @SVM
+r1 = SUBSTRINGS(dynt, 3, 2)
+r2 = SUBSTRINGS(dynt, 4, 20)
+r3 = SUBSTRINGS(dynt, 0, 1)
 ```
 
 The above program creates 3 dynamic arrays. v represents a value mark. s represents a sub-value mark:
@@ -52,5 +52,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

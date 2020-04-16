@@ -19,10 +19,10 @@ If an element of one dynamic array has no corresponding element in the other dyn
 An example of use is:
 
 ```
-A = "A" : @VM : "B" : @SM : "C"
-B = "D" : @SM : "E" : @VM : "F"
-C = '-'
-CRT SPLICE(A,C,B)
+dynA = "A" : @VM : "B" : @SM : "C"
+dynB = "D" : @SM : "E" : @VM : "F"
+varC = '-'
+CRT SPLICE(dynA, varC, dynB)
 ```
 
 to display  "A-D\-E]B-F\C".
@@ -31,5 +31,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

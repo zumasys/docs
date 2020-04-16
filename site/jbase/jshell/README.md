@@ -238,5 +238,4 @@ cmd | cmd cmd & vi *.c
 
 [Back to Knowledgebase](./../README.md)
 
-  
 <PageFooter />
