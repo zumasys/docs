@@ -103,12 +103,12 @@ CUSTOMER
 
 ### Assign the variable, then export it in Linux
 
-- JBCRELEASEDIR=/usr/jbc (this sets a value and is often used in shell scripts)
+- JBCRELEASEDIR=/opt/jbase/CurrentVersion (this sets a value and is often used in shell scripts)
 - export JBCRELEASEDIR (this exports that value to the Environment, not needed if only used in the shell script)
 
 ### Some Linux system shells allow assigning and exporting in one command
 
-- export JBCRELEASEDIR=/usr/jbc
+- export JBCRELEASEDIR=/opt/jbase/CurrentVersion
 
 ### In Linux, env will set the Environment Variable for the extent of a command
 
@@ -150,7 +150,7 @@ Variable hierarchy is System variables in the registry, the user variables in th
 
 ### Environment variables are SET in Windows
 
-- set JBCRELEASEDIR=/usr/jbc
+- set JBCRELEASEDIR=/opt/jbase/CurrentVersion
 
 ## jBASE
 
@@ -952,5 +952,4 @@ Regular files : 8
 
 [Back to Articles](./../README.md)
 
-  
 <PageFooter />

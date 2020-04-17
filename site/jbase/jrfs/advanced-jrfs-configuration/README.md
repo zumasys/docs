@@ -31,13 +31,13 @@ jRFS_NEW  5011/tcp
 
 **3) Create the executable to be used to start the service:**
 
-Copy the **$JBCRELEASEDIR/jRFS** executable to **jRFS\_NEW**. You should place this new executable in a location other than**/usr/jbc/bin** in the event that jBASE needs to be reinstalled. Ensure that permissions are set such that it is executable for all users, i.e. 'rwx--x--x'.
+Copy the **$JBCRELEASEDIR/jRFS** executable to **jRFS\_NEW**. You should place this new executable in a location other than **\$JBCRELEASEDIR/bin** in the event that jBASE needs to be reinstalled. Ensure that permissions are set such that it is executable for all users, i.e. 'rwx--x--x'.
 
 Caveat: In the event that jBASE changes the internal implementation of jRFS, you should be aware that any upgrades to future jBASE releases should include re-copying this executable to its new location.
 
 **4) Create a new script to be used to start and stop the service:**
 
-Copy the **/usr/jbc/src/jRFS.init.d** script to **jRFS\_NEW.init.d**. You should place this new script in a location other than **/usr/jbc/src** in the event that jBASE needs to be reinstalled. The caveat from step 3) applies here as well.
+Copy the **$JBCRELEASEDIR/src/jRFS.init.d** script to **jRFS\_NEW.init.d**. You should place this new script in a location other than **\$JBCRELEASEDIR/src** in the event that jBASE needs to be reinstalled. The caveat from step 3) applies here as well.
 
 Make the following changes to the new script:
 

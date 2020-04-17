@@ -79,8 +79,8 @@ jbackup -f /dev/rmt/floppy -m1 -v < FILELIST
 Reads all files and directories listed in the UNIX file FILELIST and writes the formatted data blocks to the floppy disk device, displaying each file or directory name as it is encountered. The jbackup utility will prompt for the next disk if the amount of data produced exceeds the specified media size of 1 Mbyte.
 
 ```
-jbackup -Ajbase -S/usr/jbc/tmp/jbase_stats >/dev/null
-LIST /usr/jbc/tmp/jbase_stats USING /usr/jbc/jbackup NAME TOTAL SIZE ID-SUPP
+jbackup -Ajbase -S /opt/jbase/CurrentVersion/tmp/jbase_stats >/dev/null
+LIST /opt/jbase/CurrentVersion/tmp/jbase_stats USING /opt/jbase/CurrentVersion/jbackup NAME TOTAL SIZE ID-SUPP
 ```
 
 Reads all files and directories in home directory of user-id "jbase". Generates statistics information and outputs blocks to stdout, which is redirected to /dev/null. The statistics information is then listed using the jbackup dictionary definitions to calculate the file space used.
@@ -106,5 +106,4 @@ The **-m10000** option specifies that the maximum amount of data to back up is 1
 
 Back to [Utilities](./../utilities)
 
-  
 <PageFooter />

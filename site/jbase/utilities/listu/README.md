@@ -25,5 +25,4 @@ The output of the LISTU command is customized by calling the [JBCUserCustomiseDi
 
 Back to [Utilities](./../utilities)
 
-  
 <PageFooter />

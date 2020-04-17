@@ -29,7 +29,7 @@ If the device does not function as expected then contact your hardware represent
 If the device responds correctly, then ensure that the device name is configured in the jBASE release device subdirectory , ‘dev’ for the device you are attempting to attach. Also, ensure that the device entry has read and write permissions for all users.
 
 ```
-ls –l /usr/jbc3.0/dev/DAT1
+ls –l /opt/jbase/CurrentVersion/dev/DAT1
 rw-rw-rw 1 jbaseadm other 433 Sep 17 01:48 DAT1
 ```
 

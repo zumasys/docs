@@ -24,7 +24,7 @@ If the restart of despooler processes is required at system boot time, a script 
 
 ```
 jSpoolInit
-JBCRELEASEDIR=/usr/jbc
+JBCRELEASEDIR=/opt/jbase/CurrentVersion
 export JBCRELEASEDIR
 PATH=/etc:/bin:/usr/bin:$JBCRELEASEDIR/bin
 LD_LIBRARY_PATH=$JBCRELEASEDIR/lib
@@ -43,5 +43,4 @@ esac
 
 To restart the spooler at boot time, create a Windows Scheduled Task.
 
-  
 <PageFooter />

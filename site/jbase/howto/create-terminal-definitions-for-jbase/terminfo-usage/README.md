@@ -18,9 +18,15 @@ This is the name of the terminal capability as defined in the Config_EMULATE fil
 
 ## Config_EMULATE
 
-This file on jBASE provides the definitions for the different emulations that are supported by jBASE. In particular it defines the relationship between the values passed to the @() function and the effect that this returns. For example the default entry shows '@(-1) = clear_screen'. This shows that if you code "PRINT @(-1)" in your application then this will cause the screen to be cleared using the jBASE terminal capability 'clear_screen'.
+This file on jBASE provides the definitions for the different emulations that are supported by jBASE. In particular it defines the relationship between the values passed to the @() function and the effect that this returns. For example the default entry shows '@(-1) = clear_screen'. This shows that if you code "CRT @(-1)" in your application then this will cause the screen to be cleared using the jBASE terminal capability 'clear_screen'.
 
-In the rest of this documentation we have avoided the use of the @(-nn) function calls. This is because the value of the passed parameter varies considerably between different supported emulations. Instead we use the jBASE name to describe the capability. If you look at file /usr/jbc/config/Config_EMULATE you will see these translations. For example if later on we refer to the jBASE name of 'printer_on', you will see that in the default emulation this is the equivalent of using @(-17) in your application.
+In the rest of this documentation we have avoided the use of the @(-nn) function calls.  
+
+This is because the value of the passed parameter varies considerably between different supported emulations. Instead we use the jBASE name to describe the capability.  
+
+If you look at the /opt/jbase/CurrentVersion/config/Config_EMULATE file, you will see these translations.  
+
+For example if later on we refer to the jBASE name of 'printer_on', you will see that in the default emulation this is the equivalent of using @(-17) in your application.
 
 Two tables now follow.
 

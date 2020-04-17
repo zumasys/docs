@@ -177,5 +177,4 @@ set JEDI_PREFILEOP=TYPE=JP CASE=OFF       (Windows)
 | JRFS\_SERVERNAME | allows the jRFS client to override the service port |
 | JRFS\_HOSTNAME | allows the jRFS client to override the target host |
 
-  
 <PageFooter />

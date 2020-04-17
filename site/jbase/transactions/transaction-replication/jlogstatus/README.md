@@ -44,7 +44,7 @@ Full log warning threshold:                70 percent , thereafter every 1 perce
 Journal files synced every:                10 seconds , last sync 10:49:59 08 APR 1998
 Background sync demon:                     (inactive)
 Extended record:                            OFF
-Admin log file:                            10 entries , in file /usr/jbc/config/jediLoggerAdminLog
+Admin log file:                            10 entries , in file /opt/jbase/CurrentVersion/config/jediLoggerAdminLog
 Admin log notify program:                  (undefined)
 Current log file set:                      1, date range 10:41:21 08 APR 1998 to 10:49:59 08 APR 1998
 /home/jbasedev/fb1:                        76.92% capacity
@@ -63,5 +63,4 @@ Status log totals:                         2 files, 100000 records, 20415568 byt
 
 Back to [Transactional Journaling](./../introduction-to-transaction-journaling)
 
-  
 <PageFooter />

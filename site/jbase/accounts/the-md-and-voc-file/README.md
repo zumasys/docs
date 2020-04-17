@@ -18,7 +18,7 @@ The modulo of the MD file should be increased depending on the number of jCL pro
 UpdateMD
 ```
 
-or by copying from the jBASE release directory file; /usr/jbc/src/MD on Unix, and \jBASE\CurrentVersion\src\MD on Windows.
+or by copying from the jBASE release directory file; /opt/jbase/CurrentVersion/src/MD on UNIX, and \jBASE\CurrentVersion\src\MD on Windows.
 
 Short jCL programs are usually placed in the MD file to action other jCL programs in a different file and/or action cataloged jBC programs for instance an APPL Account startup jCL program.
 

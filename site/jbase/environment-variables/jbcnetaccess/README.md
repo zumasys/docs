@@ -17,7 +17,7 @@ Valid file path.
 ## Default
 
 ```
-/usr/jbc/config (UNIX)
+$JBCRELEASEDIR/config (UNIX)
 %JBCRELEASEDIR%\config (Windows)
 ```
 
