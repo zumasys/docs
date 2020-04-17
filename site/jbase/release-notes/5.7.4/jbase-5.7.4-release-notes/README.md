@@ -25,5 +25,4 @@ This release includes various internal bug fixes and the following enhancements 
 
 Back to [5.7.4 Release Notes](./../README.md)
 
-  
 <PageFooter />
