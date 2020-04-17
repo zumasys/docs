@@ -19,7 +19,7 @@
 [verify-your-windows-operating-system](./verify-your-windows-operating-system)  
 [windows-compiler-installation](./windows-compiler-installation)  
 [windows-installation-guide](./windows-installation-guide)  
-[windows-server-2012-&-windows-8-compiler-installation](./windows-server-2012-&-windows-8-compiler-installation)  
+[windows-server-2012-&-windows-8-compiler-installation](./windows-server-2012-and-windows-8-compiler-installation)  
 [working-with-jbase-license-keys](./working-with-jbase-license-keys)  
 
 [Back to Administration](./../README.md)

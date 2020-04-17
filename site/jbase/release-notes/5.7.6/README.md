@@ -33,5 +33,4 @@
 
 Back to [Release Notes](./../README.md)
 
-  
 <PageFooter />
