@@ -130,8 +130,8 @@ WantedBy=multi-user.target
 :FI
 
 # systemctl daemon-reload                   ; This reloads systemd which will load your new config
-# systemctl start jagent_20002.sh
-# systemctl status jagent_20002.sh          ; verify it is running
+# systemctl start jagent_20002
+# systemctl status jagent_20002          ; verify it is running
 ● jagent_20002.service - systemctl service: jagent port 20002
 Loaded: loaded (/usr/lib/systemd/system/jagent_20002.service; enabled; vendor preset: disabled)
 Active: active (running) since Tue 2018-08-14 13:24:37 PDT; 1 weeks 2 days ago
