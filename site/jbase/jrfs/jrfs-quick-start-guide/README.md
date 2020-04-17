@@ -36,7 +36,7 @@ In the [SYSTEM](./../../../environment-variables/system-file) file on the client
 ```
 ACCDEMO
 001 R
-002 
+002
 003
 004 DEMO (hostname of remote machine)
 ```
@@ -191,7 +191,7 @@ PATH=c:\testing\bin;C:\Oracle\Ora81\bin;C:\Program…
 
 This specifies to use these variables when a request comes in for the specified local and remote username. Setting this and stop/starting jRFS Service fixed this.
 
-**Accessing remote files via jDP**
+## Accessing remote files via jDP
 
 jDP advertises files from the MD configured for the user (via JEDIFILENAME\_MD), as well as via HOME and JEDIFILEPATH. Hence the Q pointers which reference the remote files shown earlier should be visible. So far I haven’t been able to do this. In jDP I can ‘see’ local ‘F’ pointered files so the resolution via the MD is working OK. However I can’t ‘see’ even local or remotely defined Q ptr files from jDP, even though they both work OK from jsh.
 
@@ -282,7 +282,7 @@ May 05 18:10:19:412[AccessChk] Now executing as user JRFSUSER
 May 05 18:10:19:412[ChkAccept] security check passed
 May 05 18:10:19:412[ChkAccept] umask set to 0
 May 05 18:10:19:412[Environ] creating environment for client Steve, server jRFS, user jrfsuser
-May 05 18:10:19:412[GetUid] getuid for user jrfsuser 
+May 05 18:10:19:412[GetUid] getuid for user jrfsuser
 May 05 18:10:19:412[AccessChk] Successfully got info into Buffer
 May 05 18:10:19:412[AccessChk] Home directory for user jrfsuser is C:\jbase30\jdp\demo
 May 05 18:10:19:412[GetUid] established user jrfsuser, user directory C:\jbase30\jdp\demo

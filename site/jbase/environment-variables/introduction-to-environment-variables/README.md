@@ -53,7 +53,6 @@ All jBASE programs execute in the same process unless explicitly executed via th
 
 ### Initial Environment VAriables
 
-
 | <!----> | <!----> |
 | --- | --- |
 | PATH | pathnames of executables |
@@ -81,7 +80,6 @@ All jBASE programs execute in the same process unless explicitly executed via th
 ### Addittional jBASE Environment Variables
 
 #### Execution
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -138,7 +136,6 @@ All jBASE programs execute in the same process unless explicitly executed via th
 
 #### Embedded SQL
 
-
 | <!----> | <!----> |
 | --- | --- |
 | JBC\_SQLLIBS | set alternate SQL libraries for embedded SQL |
@@ -166,7 +163,6 @@ set JEDI_PREFILEOP=TYPE=JP CASE=OFF       (Windows)
 ```
 
 #### jRFS
-
 
 | <!----> | <!----> |
 | --- | --- |

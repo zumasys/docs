@@ -1,4 +1,4 @@
-# Advanced jRFS Configuration 
+# Advanced jRFS Configuration
 
 <PageHeader />
 
@@ -68,8 +68,6 @@ PV_PROCESSES=`ps -ef | grep -v grep | grep "jRFS_NEW -b" | $PV_AWK '{ print $2 }
 ```
 
 Note that the service is not started at this time.
-
-
 
 **5) Modify the server configuration files created in step 1):**
 

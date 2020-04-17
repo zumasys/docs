@@ -39,5 +39,4 @@ set JBCNETDIR=C:\JBASESETUP
 
 Go Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />
