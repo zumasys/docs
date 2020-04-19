@@ -45,11 +45,11 @@ Two tables now follow.
 | clear_eol               | el    |    |  
 | clear_eos               | ed    |    |  
 | clear_screen            | clear |     |  
-| cursor_down             ! cud1  |     |  
+| cursor_down             | cud1  |     |  
 | cursor_home             | home<br>cup | We try to use the 'home' variable first. If this is not available we use 'cup' which positions the cursor at column 0, row 0. |  
 | cursor_left             | cub1  |     |  
 | cursor_off              | civis |     |  
-| cursor_on               ! cnorm |     |  
+| cursor_on               | cnorm |     |  
 | cursor_right            | cuf1  |     |  
 | cursor_up               | cuu1  |     |  
 | delete_char             | dch1  |     |  
@@ -105,9 +105,9 @@ Many of the entries are used in the @(-nn) functions and these function calls ar
 | bell                   | bel   | Used by the @SYS.BELL variable. Used by the INPUT statement under certain circumstances to signify an error. |
 | clear_screen           | clear | Used by the jBASE name clear_screen to clear the screen and start a fresh clean page. |
 | clr_eol                | el    | Used by the jBASE name clear_eol to clear to the end of line. |
-| clr_eos                | ed    ! Used by the jBASE name clear_eos to clear to the end of the screen. |
-| column_address         | hpa   ! Used by jBASE to move the cursor to a specific column on the screen using the @(nn) function call where nn is a positive integer. |
-| columns                | cols  ! Used by jBASE to determine the default width of the terminal e.g. when the "SYSTEM(2)" function is executed). It can be over-ridden by the TERM statement or JBCTERM_WIDTH environment variable. It can also be over-ridden if the terminal is connected through a protocol that defined the terminal width, such as many PC terminal emulators connected over telnet. |
+| clr_eos                | ed    | Used by the jBASE name clear_eos to clear to the end of the screen. |
+| column_address         | hpa   | Used by jBASE to move the cursor to a specific column on the screen using the @(nn) function call where nn is a positive integer. |
+| columns                | cols  | Used by jBASE to determine the default width of the terminal e.g. when the "SYSTEM(2)" function is executed). It can be over-ridden by the TERM statement or JBCTERM_WIDTH environment variable. It can also be over-ridden if the terminal is connected through a protocol that defined the terminal width, such as many PC terminal emulators connected over telnet. |
 | cursor_address         | cup   | Used by jBASE to move the cursor to a specific row and column on the screen using the @(nn,mm) function call. May also be used by the jBASE name cursor_home if the 'home' capability is not defined. |
 | cursor_down            | cud1  | Used by the jBASE name cursor_down to move the cursor down one position. |
 | cursor_home            | home  | Used by the jBASE name cursor_home to move the cursor to the home position on the screen, i.e. to column 0 row 0. |
