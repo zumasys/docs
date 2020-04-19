@@ -22,7 +22,7 @@ This release includes various internal bug fixes and the following enhancements 
 
 ## New jBC Statements or Functions
 
-**for** itererator
+**for** iterator
 
 ## New Dynamic Objects Classes and Methods
 

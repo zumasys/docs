@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-This page is intended to help you find out what definitions in the terminfo database are used by jBASE. Using this knowledge you can create a new terminfo definition for a terminal not supported by your Unix platform, or upgrade the terminfo definition if it is lacking in some areas. First though, a short description of some of the terminology we will use.
+This page is intended to help you find out what definitions in the terminfo database are used by jBASE. Using this knowledge you can create a new terminfo definition for a terminal not supported by your UNIX platform, or upgrade the terminfo definition if it is lacking in some areas. First though, a short description of some of the terminology we will use.
 
 ## Variable name
 
@@ -24,9 +24,9 @@ In the rest of this documentation we have avoided the use of the @(-nn) function
 
 This is because the value of the passed parameter varies considerably between different supported emulations. Instead we use the jBASE name to describe the capability.  
 
-If you look at the /opt/jbase/CurrentVersion/config/Config_EMULATE file, you will see these translations.  
+If you look at the $JBCRELEASEDIR/config/Config_EMULATE file, you will see these translations.  
 
-For example if later on we refer to the jBASE name of 'printer_on', you will see that in the default emulation this is the equivalent of using @(-17) in your application.
+For example, if later on we refer to the jBASE name of 'printer_on', you will see that in the default emulation this is the equivalent of using @(-17) in your application.
 
 Two tables now follow.
 

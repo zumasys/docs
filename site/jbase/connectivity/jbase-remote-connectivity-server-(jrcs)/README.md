@@ -391,9 +391,7 @@ Please note that jRCS does not authenticate user accounts via the jBASE SYSTEM f
 
 ### Server Installation - Windows
 
-The current versions of jRCS for Windows do not come with a GUI installer and needs to be installed and started from the command line.
-
-The binaries should be extracted to an appropriate location, such as C:\jBASE30\jRCS\bin for jBASE 3.x installations, C:\jBASE4\jRCS\bin for jBASE 4.x or C:\jBASE5\jRCS\bin for jBASE 5.x installations.
+The current version of jRCS for Windows is now supplied with the jBASE release and is located in %JBCRELEASEDIR%\bin for jBASE 5.x installations.
 
 A command window can then opened at that location, so that jRCS can be installed and started
 
@@ -408,7 +406,7 @@ A command window can then opened at that location, so that jRCS can be installed
 
 ### Server Installation - UNIX
 
-A "jrcsd" binary is supplied for UNIX installations. It should be installed in an appropriate location, such as /usr/jbc/jrcs/bin for jBASE 3.x installations, /opt/jbase4/jrcs/bin for jBASE 4.x and /opt/jbase5/jrcs/bin for jBASE 5.x installations.
+A "jrcsd" binary is supplied for UNIX installations. It should be installed in an appropriate location, such as /usr/jbc/jrcs/bin for jBASE 3.x installations, /opt/jbase4/jrcs/bin for jBASE 4.x and /opt/jbase/CurrentVersion/bin for jBASE 5.x installations.
 
 For Linux installations, a "jrcsd" script is also provided which should be placed in the /etc/pam.d folder.
 
