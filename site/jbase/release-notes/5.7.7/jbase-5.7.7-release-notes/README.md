@@ -18,6 +18,12 @@ This release includes various internal bug fixes and the following enhancements 
 
 ## New Commands
 
+**jfilesave** / **jfilerestore**
+
+## New jBC Statements or Functions
+
+**for** itererator
+
 ## New Dynamic Objects Classes and Methods
 
 Back to [Release Notes](./../../README.md)
