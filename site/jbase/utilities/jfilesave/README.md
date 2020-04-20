@@ -13,6 +13,7 @@ All backups done with **jfilesave** are 100% compatible with [jrestore](../jrest
 ```
 jfilesave {options} {account1 {account2 {account3}} ...})
 ```
+
 ## Options
 
 | Option | Explanation |
@@ -75,13 +76,16 @@ Special Character Strings are case insensitive (%D is the same as %d).
 jfilesave
 ```
 
-Save all accounts defined in the SYSTEM file. The account is skipped if it has a value of **DX** in field 1 of the SYSTEM file entry.<br>Assumes the **JFILESAVE_DEVICE** environment variable is assigned.<br>If the **JFILESAVE_STATFILE** environment variable is defined then a statistics file will be created and populated.
+Save all accounts defined in the SYSTEM file. The account is skipped if it has a value of **DX** in field 1 of the SYSTEM file entry.  
+Assumes the **JFILESAVE_DEVICE** environment variable is assigned.  
+If the **JFILESAVE_STATFILE** environment variable is defined then a statistics file will be created and populated.
 
 ```
 jfilesave -d /backups/daily_%d
 ```
 
-All accounts (without a **DX** in field 1) defined in the SYSTEM file are saved to the /backups directory<br>with a filename of daily_%d, where %d is the current internal date, e.g. daily_18752<br>
+All accounts (without a **DX** in field 1) defined in the SYSTEM file are saved to the /backups directory with a filename of daily_%d, where %d is the current internal date, e.g. daily_18752.  
+
 The **JFILESAVE_DEVICE** environment variable, if defined, is ignored.
 
 ```
@@ -94,8 +98,11 @@ No backup statistics are created unless **JFILESAVE_STATFILE** is defined.
 jfilesave -a -s /tmp/statfile_%d_%t
 ```
 
-Save all accounts defined in the SYSTEM file, including accounts with a value of **DX** in attribute 1.<br>Assumes the JFILESAVE_DEVICE environment variable is assigned.<br>
-The -s option creates statistics in the **/tmp** directory with a filename that incorporates the internal date and internal time, e.g.<br>    /tmp/statfile_18858_20962]D<br>    /tmp/statfile_18858_20962
+Save all accounts defined in the SYSTEM file, including accounts with a value of **DX** in attribute 1.<br>Assumes the JFILESAVE_DEVICE environment variable is assigned.  
+
+The -s option creates statistics in the **/tmp** directory with a filename that incorporates the internal date and internal time, e.g.  
+/tmp/statfile_18858_20962]D  
+/tmp/statfile_18858_20962
 
 ```
 set/export JFILESAVE_DEVICE=$JBCRELEASEDIR%stmp%sbackup_%m
