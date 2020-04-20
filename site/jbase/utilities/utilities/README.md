@@ -21,7 +21,11 @@
 | [ECHO-OFF](./../echo) | Resets the echo enabled flag. |
 | [ECHO-ON](./../echo) | Sets the echo enabled flag. |
 | [HUSH](./../hush) | Resets the echo enabled flag. |
-| [LISTDICTS](llistdicts) | Dictionary listing. |
+| [jbackup](../jbackup/README.md) | Online backup utility. |
+| [jfilerestore](../jfilerestore/README.md) | Restores data from saves produced by [jfilesave](../jfilesave/README.md). |
+| [jfilesave](../jfile/README.md) | Simplified front-end to [jbackup](../jbackup/README.md). |
+| [jrestore](../jrestore/README.md) | Restores data from saves produced by [jbackup](../jfilesave/README.md). |
+| [LISTDICTS](./../listdicts/../README.md) | Dictionary listing. |
 | [LISTF](./../listf) | File name listing. |
 | [LISTU](./../listu) | User listing. |
 | [LIST-OPEN-FILES](./../list-open-files/README.md) | Shows what files a user has open. |

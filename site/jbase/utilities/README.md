@@ -24,6 +24,8 @@
 [hush](./hush/README.md)  
 [jbackup](./jbackup/README.md)  
 [jchmod](./jchmod/README.md)  
+[jfilerestore](./jfilerestore/README.md)  
+[jfilesave](./jfilesave/README.md)  
 [jrestore](./jrestore/README.md)  
 [listf](./listf/README.md)  
 [listu](./listu/README.md)  

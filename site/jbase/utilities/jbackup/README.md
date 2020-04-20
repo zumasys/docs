@@ -2,25 +2,18 @@
 
 <PageHeader />  
 
-**Tags:**
-<badge text='jfilesave' vertical='middle' />
-<badge text='jrestore' vertical='middle' />
-<badge text='jbackup' vertical='middle' />
-<badge text='utilities' vertical='middle' />
-<badge text='backup' vertical='middle' />
-
 ## Description
 
 The **jbackup** utility provides fast on-line backup facilities and can also be used to check file integrity.
 
 ```
-jbackup -Option {Inputlist}
+jbackup -options {inputlist}
 ```
 
 Where:
 
 - **inputlist** is a file containing a list of files, default stdin
-- **option** may be:
+- **options** may be:
 
 | Option | Explanation |
 | --- | --- |
@@ -55,7 +48,7 @@ Where:
  jchmod -B filename
 ```
 
-will cause **jbackup** to skip 'filename'. Other options of interest are +B, -O and +O.
+will cause **jbackup** to skip 'filename'.
 
 This is only effective for jBASE hashed files.  O/S level directory files will always be backed up.  
 To avoid backup of O/S directories place them outside of the backup path and use Q-pointers, F-pointers or symbolic links.  
@@ -102,8 +95,8 @@ The **-m10000** option specifies that the maximum amount of data to back up is 1
 
 ## Note
 
->Because of the pipe character used to direct the output of jfind to jbackup, this command should be run with jshelltype **sh** rather than jsh.
+>Because of the pipe character used to direct the output of jfind to jbackup, this command should be run from an OS shell or with jshelltype **sh** rather than **jsh**.
 
-Back to [Utilities](./../utilities)
+Back to [Utilities](../utilities/README.md)
 
 <PageFooter />

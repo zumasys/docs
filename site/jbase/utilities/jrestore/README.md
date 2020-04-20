@@ -2,14 +2,6 @@
 
 <PageHeader />
 
-**Tags:**
-<badge text='recovery' vertical='middle' />
-<badge text='restore' vertical='middle' />
-<badge text='jrestore' vertical='middle' />
-<badge text='file recovery' vertical='middle' />
-<badge text='backup' vertical='middle' />
-<badge text='file maintenance' vertical='middle' />
-
 ## Description
 
 The **jrestore** utility provides fast on-line restores from the saves produced by the [jbackup](./../jbackup) utility.
@@ -19,10 +11,10 @@ The **jrestore** can be controlled to restore from any file type on the backup, 
 The **jrestore** utility can also be used to verify [jbackup](./../jbackup) saves.
 
 ```
-jrestore -Options
+jrestore -options
 ```
 
-where options may be:
+Where **options** may be:
 
 
 | Option | Explanation |
@@ -101,7 +93,7 @@ jrestore -f BACKUP -h"/CUSTOMERS$" -i".*SMITH.*"
 
 Reads formatted files and directories from UNIX file BACKUP, limits restore to any hash files whose path name ends in CUSTOMERS, and only restores record ids containing the string SMITH.
 
-Back to [Utilities](./../utilities)
+Back to [Utilities](./../../utilities/README.md)
 
   
 <PageFooter />
