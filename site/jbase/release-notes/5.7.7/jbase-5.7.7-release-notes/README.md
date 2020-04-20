@@ -18,7 +18,7 @@ This release includes various internal bug fixes and the following enhancements 
 
 ## New Commands
 
-[jfilesave](../../../utilities/jfilesave/README.md)
+[jfilesave](../../../utilities/jfilesave/README.md)  
 [jfilerestore](../../../utilities/jfilerestore/README.md)
 
 ## New jBC Statements or Functions
@@ -26,6 +26,8 @@ This release includes various internal bug fixes and the following enhancements 
 [for](../../../jbc/for-iterator/README.md) iterator
 
 ## New Dynamic Objects Classes and Methods
+
+### To be supplied
 
 Back to [Release Notes](./../../README.md)
   
