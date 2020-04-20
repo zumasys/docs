@@ -21,5 +21,4 @@ where **Num1** and **Num2** are any decimal numbers.
 
 Back to [Utilities](./../utilities)
 
-  
 <PageFooter />

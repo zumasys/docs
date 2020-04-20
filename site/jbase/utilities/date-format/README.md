@@ -38,5 +38,4 @@ See also [JBASE_PIVOT_YEAR](./../../environment-variables/jbase_pivot_year/READM
 
 Back to [Utilities](./../utilities)
 
-  
 <PageFooter />

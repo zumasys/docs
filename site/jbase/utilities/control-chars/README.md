@@ -32,6 +32,5 @@ Control characters OFF (allowed)
 > The default behavior is to allow the input of control characters. The setting is ignored by the jBC IN statement.
 
 Back to [Utilities](./../utilities)
-
   
 <PageFooter />

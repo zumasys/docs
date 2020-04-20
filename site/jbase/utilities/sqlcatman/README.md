@@ -105,5 +105,4 @@ Removes the entry for 'SQL\_TABLE\_NAME'
 
 Back to [Utilities](./../utilities)
 
-  
 <PageFooter />

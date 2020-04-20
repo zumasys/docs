@@ -39,5 +39,4 @@ to sleep for 300 seconds or 5 minutes.
 
 Back to [Utilities](./../utilities)
 
-  
 <PageFooter />

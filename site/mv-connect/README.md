@@ -4,7 +4,6 @@
 
 MVConnect is a web application development environment for MultiValue Pick systems.  MVConnect is included in the MV Dashboard product installer that is used to create MV Dashboard.  Much of the installation instructions discuss MV Dashboard, but once it is installed you can move on to the MVConnect specific instructions.
 
-
 ![mv-connect-manual: 1574365223932-mv-connect-%2b-zs-software-services-(1)](./1574365223932-mv-connect-and-software-services.png)
 
 ## MV Connect 1.6.3 Release Notes
@@ -30,10 +29,9 @@ For all platforms, we have a cross-platform web server called MVAppsvr that allo
 
 If you're looking for help, you can reach out the following ways:
 
-* MVConnect Support:
-  * [mvconnect@zumasys.com](mailto:mvconnect@zumasys.com)
-  * [949-346-4228](tel:9493464228)
-
+- MVConnect Support:
+  - [mvconnect@zumasys.com](mailto:mvconnect@zumasys.com)
+  - [949-346-4228](tel:9493464228)
 
 ## MV Connect Licensing
 
@@ -41,15 +39,14 @@ To obtain a developer's version of MV Connect, please email [mvconnect@zumasys.c
 
 ## Table of Contents
 
-* [Get Started](./get-started/README.md)  
-* [Release Notes](./release-notes/README.md)
-  * [1.6.3](./release-notes/1.6.3/README.md)
-* [Connection Pooling](./connection-pooling/README.md)   
-* [API](./api/README.md)    
-* [Security](./security/README.md)  
-* [Troubleshooting](./troubleshooting/README.md)
-  * [Web Server](./troubleshooting/web-server/README.md) 
-  * [WDEBUG](./troubleshooting/wdebug/README.md)
+- [Get Started](./get-started/README.md)  
+- [Release Notes](./release-notes/README.md)
+  - [1.6.3](./release-notes/1.6.3/README.md)
+- [Connection Pooling](./connection-pooling/README.md)  
+- [API](./api/README.md)  
+- [Security](./security/README.md)  
+- [Troubleshooting](./troubleshooting/README.md)
+  - [Web Server](./troubleshooting/web-server/README.md)  
+  - [WDEBUG](./troubleshooting/wdebug/README.md)
 
-  
 <PageFooter />

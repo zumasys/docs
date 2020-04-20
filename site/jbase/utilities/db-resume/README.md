@@ -24,5 +24,4 @@ where the **-n** option specifies the database to resume (This option is only av
 
 Back to [Utilities](./../utilities)
 
-  
 <PageFooter />

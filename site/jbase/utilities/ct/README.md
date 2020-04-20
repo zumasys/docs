@@ -23,5 +23,4 @@ An example of use may be as:
 CT CUSTOMERS SMITH
 ```
 
-  
 <PageFooter />

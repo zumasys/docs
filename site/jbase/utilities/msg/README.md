@@ -46,5 +46,4 @@ jBC code to send a message with screen control to user jeff.
 
 Back to [Utilities](./../utilities)
 
-  
 <PageFooter />

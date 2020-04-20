@@ -36,5 +36,4 @@ jsh -->AUTOLOGOUT 15 OFF                     Automatic logout is set for 15 minu
 
 Back to [Utilities](./../utilities)
 
-  
 <PageFooter />

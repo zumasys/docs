@@ -6,19 +6,16 @@ MultiValue Dashboard is a simple, Pick-based web server that any developer can s
 
 A MultiValue software developer can use MV Dashboard to produce graphical representations of data in the MultiValue system while leveraging his or her strengths as a BASIC programmer.
 
-## Using MultiValue Dashboard, You can:
+## Using MultiValue Dashboard, You can  
 
 - Rapidly build web-based graphical interfaces and produce interactive reports
 - Create information alerts that can be delivered by any local RSS
 - Generate widgets using real-time Pick/BASIC code and MultiValue data
 - Easily drag and drop widgets onto a dashboard layout
 
-
 ![getting-started-with-mv-dashoard: image001](./image001.jpg)
 
-
 ![getting-started-with-mv-dashoard: image003](./image003.jpg)
-
 
 ## What's New in MV Dashboard 1.5.4?
 
@@ -34,9 +31,6 @@ A MultiValue software developer can use MV Dashboard to produce graphical repres
 - Renamed some demo widget subroutines to include “DEMO” in the name to avoid collision with production routines.
 - Updated FusionCharts library to latest version.
 
-
-
-
 ## Getting to Know MV Dashboard
 
 MV Dashboard provides the following documentation to help developers and administrators new to MV Dashboard.
@@ -45,18 +39,13 @@ MV Dashboard provides the following documentation to help developers and adminis
 - [Installation Guide](./installation-guide/README.md)
 - [Programmers Guide](./programmers-guide/README.md)
 
-
-
-
 ## Getting Help with MV Dashboard
 
 If you're looking for help, you can reach out the following ways:
 
 - MV Dashboard Support:
-    - [dashboard@zumasys.com](mailto:dashboard@zumasys.com)
-    - 1-866-986-2797
-
-
+  - [dashboard@zumasys.com](mailto:dashboard@zumasys.com)
+  - 1-866-986-2797
 
 ## MV Dashboard Licensing
 

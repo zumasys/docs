@@ -26,5 +26,4 @@ If **directory** is specified then only files in that path will be displayed.
 
 Back to [Utilities](./../utilities)
 
-  
 <PageFooter />

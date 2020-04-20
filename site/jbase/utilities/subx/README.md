@@ -21,5 +21,4 @@ where **Num1** and **Num2** are hexadecimal numbers.
 
 Back to [Utilities](./../utilities)
 
-  
 <PageFooter />
