@@ -49,7 +49,9 @@ Add $fromfile(sourcename) method.
 
 ## 5.7.1  
 
-Add the $dumpmemory() internal method.
+Add the $dumpmemory() internal method.  
+Add static objects $jbase , $file, $development and $system.  
+Support self as a synonym for this.  
 
 ## 5.7.2
 
