@@ -86,6 +86,7 @@ Add internal methods, $split() and $join().
 Add $slice() method as a synonym for $split().  
 Force an inherited class to have a constructor.  
 Add $system->onexit() and $system->onterminate() methods.  
+jabba.h include file introduced.  
 
 ## 5.7.7
 

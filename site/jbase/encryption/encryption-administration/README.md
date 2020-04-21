@@ -70,7 +70,6 @@ jsh ~ -->
 - The **AES** cipher is **AES256**
 - [**PBKDF2**](https://en.wikipedia.org/wiki/PBKDF2) is a way of obscuring the password
 
-
 The last step is to **load** the profile into shared memory. ***This needs to be done EACH TIME the system is rebooted or when a new security profile needs to be activated.***
 
 ```
@@ -86,7 +85,7 @@ File encryption type : AES
 
 There is no maximum length for the encryption key for jBASE data files when using **PBKDF2** to derive the actual key. This is the default. However, if the number of iterations is 0, the maximum key size is 32 characters.
 
-**Caveat!** On Windows, the shared memory that jBASE creates is unloaded when the last jBASE process terminates. This means that you must have at least 1 running jBASE process in order for the security profile to remain loaded. The best way to accomplish this is to start **jDLS** beforehand which will allow shared memory to persist.
+**Caveat!** On Windows, the shared memory that jBASE creates is unloaded when the last jBASE process terminates. This means that you must have at least 1 running jBASE process in order for the security profile to remain loaded. The best way to accomplish this is to start **jDLS** beforehand, which will allow shared memory to persist.
 
 To determine whether or not the security profile has been loaded:
 
@@ -112,5 +111,4 @@ END
 
 Back to [Encryption](./../README.md)
 
-  
 <PageFooter />

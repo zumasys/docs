@@ -14,5 +14,4 @@ All jBASE run-time messages exist in the jbcmessages file as items. Each item co
 
 [Back to Coding Corner](./../README.md)
 
-  
 <PageFooter />

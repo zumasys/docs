@@ -33,5 +33,4 @@ Be sure to select the “Desktop development with C++” option along with the �
 
 [Back to Coding Corner](./../README.md)
 
-  
 <PageFooter />

@@ -39,5 +39,4 @@ If you receive a Windows warning that your path is too long then see this [page]
 
 Go Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

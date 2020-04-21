@@ -183,5 +183,4 @@ In conclusion, you can see that there is nothing here that is mysterious or diff
 
 [Back to Coding Corner](./../README.md)
 
-  
 <PageFooter />

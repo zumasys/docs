@@ -34,5 +34,4 @@ JSON:="}"
 
 [Back to jAgent APIs](./../README.md)
 
-  
 <PageFooter />

@@ -88,5 +88,4 @@ The environment should be configured with JEDIFILENAME\_SYSTEM set to a valid jB
 jbase_agent -A account
 ```
 
-  
 <PageFooter />

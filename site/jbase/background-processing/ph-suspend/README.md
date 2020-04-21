@@ -48,5 +48,4 @@ See also [PH-RESUME](./../ph-resume).
 
 Back to [Background Processing](./../README.md)
 
-  
 <PageFooter />

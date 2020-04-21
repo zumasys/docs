@@ -116,5 +116,4 @@ Both show that we are talking to the web server which is a good thing.  If this
 
 Back to [jAgent](./../README.md)
 
-  
 <PageFooter />

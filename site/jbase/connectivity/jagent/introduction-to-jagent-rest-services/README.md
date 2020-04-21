@@ -198,5 +198,4 @@ SocketAcceptor.h +63
 
 7. Once finished, close the browser and enter Ctrl + C to terminate jAgent session
 
-  
 <PageFooter />

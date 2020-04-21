@@ -38,5 +38,4 @@ set TERM=vt220
 
 Go Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

@@ -42,5 +42,4 @@ set JEDIENABLEQ2Q=1
 
 Go Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

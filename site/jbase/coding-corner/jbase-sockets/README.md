@@ -20,5 +20,4 @@ Here is a github project with a good example on how to create both a socket clie
 
 [Back to Coding Corner](./../README.md)
 
-  
 <PageFooter />

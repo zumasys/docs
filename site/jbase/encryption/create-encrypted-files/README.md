@@ -98,5 +98,4 @@ If there is an encrypted source code file, you will have to use the **BASIC** co
 
 Back to [Encryption](./../README.md)
 
-  
 <PageFooter />

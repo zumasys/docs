@@ -39,5 +39,4 @@ set JBCPRINTER_WIDTH=132
 
 Go Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

@@ -42,5 +42,4 @@ export JBCSCREEN_WIDTH=132
 set JBCSCREEN_WIDTH=132
 ```
 
-  
 <PageFooter />

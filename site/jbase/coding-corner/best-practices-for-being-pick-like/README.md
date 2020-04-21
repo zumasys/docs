@@ -24,5 +24,4 @@ Or ..
 
 Back to [Coding Corner](./../README.md)
 
-  
 <PageFooter />

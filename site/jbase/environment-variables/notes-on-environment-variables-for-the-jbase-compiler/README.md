@@ -156,6 +156,8 @@ jcompile.cc.lib=C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildToo
 
 This results in a much shorter PATH setting in the System Environment variables.  
 
+See also [jBASE 5.7.7 Windows Installation Guide](./../../administration/installation-guides/jbase-5-7-windows-installation-guide/README.md)
+
 Back to [Environment Variables](./../README.md)
 
 <PageFooter />

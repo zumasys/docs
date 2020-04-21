@@ -597,5 +597,4 @@ otherwise explicit references will need to be used within your code.
 
 [Back to Connectivity](./../README.md)
 
-  
 <PageFooter />

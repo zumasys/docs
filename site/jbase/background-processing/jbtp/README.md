@@ -26,5 +26,4 @@ The following commands are used for jBTP control.
 
 Back to [Background Processing](./../README.md)
 
-  
 <PageFooter />

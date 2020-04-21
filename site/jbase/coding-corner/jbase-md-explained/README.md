@@ -1,6 +1,6 @@
 # jBASE MD Explained
 
-<PageHeader /> 
+<PageHeader />  
 
 ## jBASE and the MD / VOC file
 
@@ -89,7 +89,7 @@ LISTU
 
 ## jshow &lt;command&gt;
 
-The jshow command will show how jBASE determines if command is executable and from where:
+The jshow command will show how jBASE determines if **command** is executable and from where:
 
 Below is an example of the standard LISTU command being superseded by an MD proc:
 
@@ -109,5 +109,4 @@ For a consistent Multi-value experience after migrating an account you should ru
 
 [Back to Coding Corner](./../README.md)
 
-  
 <PageFooter />

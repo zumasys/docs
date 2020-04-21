@@ -58,15 +58,15 @@ Record locks:        3020 locks maximum in 151 groups of 20 locks/group
 Once any particular group contains the maximum number of record locks (20 in this case) then, for the next record lock that would hash into that group, **Error 37** (or **39**) would be displayed. This error can be simulated by creating a test file and running this program:
 
 ```
-    PROGRAM jdlstest
-    OPEN "testfile" TO testfile ELSE STOP 201, "testfile"
-    counter = 0
-    doomsday = @FALSE
-    LOOP UNTIL doomsday
-        READU rec FROM testfile, counter ELSE NULL
-        counter++
-        CRT counter:' locked'
-    REPEAT
+PROGRAM jdlstest
+OPEN "testfile" TO testfile ELSE STOP 201, "testfile"
+counter = 0
+doomsday = @FALSE
+LOOP UNTIL doomsday
+    READU rec FROM testfile, counter ELSE NULL
+    counter++
+    CRT counter:' locked'
+REPEAT
 ```
 
 Eventually, one of the lock table groups will fill up and after 30 seconds or so you will see:
@@ -112,5 +112,4 @@ In reality, unless you are getting **Error 37**, we recommend using the default 
 
 [Back to Coding Corner](./../README.md)
 
-  
 <PageFooter />

@@ -27,5 +27,4 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$JBCRELEASEDIR/lib
 
 Go Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

@@ -738,7 +738,6 @@ WDB.RESOURCE - The WDB.RESOURCE file is used to register a REST service handler 
 
 5. Error 404
 
-- Incorrect url/path (e.g. [http://127.0.0.1:20002/helloworld](http://127.0.0.1:20002/helloworld) instead of [http://127.0.0](http://127.0.0).1:20002/**api**/helloworld)
+- Incorrect url/path (e.g. [http://127.0.0.1:20002/helloworld](http://127.0.0.1:20002/helloworld) instead of [http://127.0.0.1:20002/api/helloworld](http://127.0.0.1:20002/api/hellowrld)
 
-  
 <PageFooter />

@@ -30,7 +30,7 @@ where:
 Background tasks started with ZH can run concurrently by setting the following environment variable:
 
 ```
-set Z_DISABLE_QUEUEING=1 [Windows] 
+set Z_DISABLE_QUEUEING=1 [Windows]
 export Z_DISABLE_QUEUEING=1 [Linux/Unix]
 ```
 
@@ -38,5 +38,4 @@ Setting this environment variable disables the queueing behavior so that backgro
 
 Back to [Background Processing](./../README.md)
 
-  
 <PageFooter />

@@ -49,7 +49,6 @@ Level 3 will protect against almost everything including loss of data. This has 
 
 > Flushing will only occur when JEDI\_SECURE\_LEVEL is set to a valid value and the file is created with SECURE=YES or is set via jchmod +S filename
 
-
 Secure mode can (temporarily) be removed with jchmod -S filename
 
 JEDI\_SECURE\_LEVEL can be switched on and off for crucial processes and/or users, but otherwise applies to all j3 and jPLUS files.
@@ -79,5 +78,4 @@ In the above example the secure mode is disabled during the COPY command and so 
 
 Go Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

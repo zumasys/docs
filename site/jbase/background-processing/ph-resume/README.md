@@ -49,5 +49,4 @@ Resumes the jBASE background task process running on port 100.
 
 Back to [Background Processing](./../README.md)
 
-  
 <PageFooter />

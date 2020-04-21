@@ -43,5 +43,4 @@ Allocates port number 100 as available for use by jBASE background task processe
 
 Back to [Background Processing](./../README.md)
 
-  
 <PageFooter />

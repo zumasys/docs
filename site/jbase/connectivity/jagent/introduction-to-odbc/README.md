@@ -213,5 +213,4 @@ Check that the installer has added the installation directory to the SYSTEM defi
 
 [ODBC Quick Start](./../odbc-quick-start)
 
-  
 <PageFooter />

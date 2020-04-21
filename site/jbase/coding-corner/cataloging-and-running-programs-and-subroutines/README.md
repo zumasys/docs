@@ -110,5 +110,4 @@ jBASE will use the first one it finds (which may not be the one you want). If th
 
 [Back to Coding Corner](./../README.md)
 
-  
 <PageFooter />

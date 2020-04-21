@@ -44,5 +44,4 @@ Port number 100 is no longer available for use by jBASE background task processe
 
 Back to [Background Processing](./../README.md)
 
-  
 <PageFooter />

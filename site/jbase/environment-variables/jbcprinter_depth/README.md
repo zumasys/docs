@@ -38,5 +38,4 @@ set JBCPRINTER_DEPTH=62
 
 Go Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

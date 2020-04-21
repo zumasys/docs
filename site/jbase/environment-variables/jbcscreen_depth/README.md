@@ -39,5 +39,4 @@ SET JBCSCREEN_DEPTH=10
 
 Go Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

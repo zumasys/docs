@@ -70,5 +70,4 @@ From a jBASE point-of-view, as of "mvbasic-2.0.2" the syntax and "Intellisense" 
 
 Back to [Coding Corner](./../coding-corner)
 
-  
 <PageFooter />

@@ -36,5 +36,4 @@ Encrypted no access from edit
 
 Back to [Encryption](./../README.md)
 
-  
 <PageFooter />

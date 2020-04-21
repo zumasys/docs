@@ -37,5 +37,4 @@ set JEDIFILEPATH=C:\apps\WB1;C:\apps\WB2;C:\apps\WB3
 
 Go Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

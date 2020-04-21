@@ -1,6 +1,6 @@
 # jBASE Encryption
 
-<PageHeader /> 
+<PageHeader />  
 
 ## Introduction
 
@@ -89,5 +89,4 @@ The following functionality will be tested to ensure correct working with the ne
 
 Back to [Encryption](./../README.md)
 
-  
 <PageFooter />
