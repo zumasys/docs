@@ -242,7 +242,7 @@ Files can take the form of Hash or directory type files. Other types are:
 - Large files
 - Distributed files
 
-A new JEDI will have to be written to interface to other data structures such as other database management systems for instance.
+A new jEDI will have to be written to interface to other data structures such as other database management systems for instance.
 
 1. Hash Files
 
@@ -254,7 +254,7 @@ It is strongly recommended that only jBASE utilities be used to access and maint
 
 A static hashed file is determined by three parameters:
 
-1. **Type**: This Parameter denotes the type of file. The default is J4 (block size = 4096). J3 (block size = 1024).
+1. **Type**: This Parameter denotes the type of file. The default is j4 (block size = 4096). j3 (block size = 1024).
 2. **Modulo**: An prime integer defining the number of groups in the file.
 3. **Separation**: An integer specifying the number of group buffer blocks.
 4. **Multiplier**: An integer specifying block size multiplier. The maximum size permitted for a hashed file is 2Gb.
@@ -314,9 +314,11 @@ Correct Modulo must be determined prior to file creation. After file creation, m
 
 Some assumptions need to be made to approximate correct modulo prior to file creation. The parameters in brackets are intended to illustrate and hence aid understanding of the idea.
 
-1. What is the block size of the file type? (100,000 records to be in the file).
+1. What is the block size of the file type?  
+   a. 4096 for j4/jP  
+   b. 8192 for jD  
 2. How many records do you expect to be in the file? (Each record contains about 1,000 char).
-3. What is is average number of characters in each record? (J4 file with a block size of 4096 char.)
+3. What is is average number of characters in each record? (j4 file with a block size of 4096 char.)
 
 Multiplying the number of records by the average record size, then dividing the product by the block size gives a rough figure that can be used for the modulo. Considering the parameters in brackets above the modulo would be as:
 
@@ -1547,5 +1549,4 @@ Multiple scripts can be run in background from one connection and set to wait un
 
 [Back to Miscellaneous](./../README.md)
 
-  
 <PageFooter />
