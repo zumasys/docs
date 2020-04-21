@@ -9,7 +9,7 @@ DECATALOG {-d} FileName ProgramName
 DELETE-CATALOG {-d} FileName ProgramName
 ```
 
-These commands will remove an executable program from the **bin** directory (or the directory defined by the [JBCDEV_BIN](../envronmemt-variables/../../environment-variables/jbcdev_bin/README.md) environment variable) or remove a subroutine/function/method from the **lib** (or the directory defined by the [JBCDEV_BIN](../envronmemt-variables/../../environment-variables/jbcdev_lib/README.md) environment variable.
+These commands will remove an executable program from the **bin** directory (or the directory defined by the [JBCDEV_BIN](../envronmemt-variables/../../environment-variables/jbcdev_bin/README.md) environment variable) or remove a subroutine/function/method from the **lib** (or the directory defined by the [JBCDEV_LIB](../envronmemt-variables/../../environment-variables/jbcdev_lib/README.md) environment variable.
 
 ## Deleting the intermediate object code
 
