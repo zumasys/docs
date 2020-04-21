@@ -977,7 +977,8 @@ Since all programs are cataloged (and are executable, referenced via `PATH`), th
 It should be noted that:
 
 - All programs, subroutines and functions must be cataloged, with all programs being placed in the `JBCDEV_BIN` directory, and all subroutines and functions in the `JBCDEV_LIB` directory. `PATH` and `JBCOBJECTLIST` should include the same directory as `JBCDEV_BIN` and `JBCDEV_LIB`.
-- It is strongly recommended that programs from different files with the same name not be cataloged into the same _bin_ or _lib_ directory. This is because they tend to overwrite with the last one cataloged being returned.
+- It is strongly recommended that programs from different program files with the same name not be cataloged into the same _bin_ or _lib_ directory. This is because they tend to overwrite with the last one cataloged being returned.
+  - In such a case, separate/multiple `JBCDEV_BIN` and `JBCDEV_LIB` directories may be necessary. See [Organizing Program Compiled Objects](./../../coding-corner/organizing-program-compiled-objects/README.md)
 - Compiler errors are more `C` than legacy MultiValue related.
 
 ### Subroutines and Functions
