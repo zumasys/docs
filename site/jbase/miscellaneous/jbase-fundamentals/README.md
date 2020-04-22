@@ -674,15 +674,13 @@ SORT ORDER BY CUS.NAME WITH ORD.AMT GE “500” BREAK-ON CUS.NAME TOTAL ORD.AMT
 
 **Type A or S**: Legacy style 10 line dictionary. Data descriptor or calculated. From the days when the data base was the OS.
 
-**Type D**: Legacy style 5 line data descriptor. Actually it’s 7 lines, but jBASE is missing two of them, and therefore are not as functional as the legacy.
+**Type D**: Legacy style 5 line data descriptor. Actually it’s 7 lines, but jBASE may ignore two of them, and therefore may not be as functional as the legacy in some cases.
 
-- This is to be corrected in some 4.x release.
 - This type was popular when the database was implemented on another OS.
 
-**Type I**: Legacy style 5 line calculated column. Actually it’s 7 lines, but jBASE is missing two of them, and therefore are not as functional as the legacy.
+**Type I**: Legacy style 5 line calculated column. Actually it’s 7 lines, but jBASE may ignore two two of them, and therefore may not be as functional as the legacy in some cases.
 
-- To be corrected in some 4.x release.
-- When the data base was implemented on another OS.
+- This type was popular when the database was implemented on another OS.
 
 **Type M or PH**: macro or phrase, 2 lines.
 
@@ -697,7 +695,7 @@ Are file dictionary items that contain frequently used portions of a jQL sentenc
 002+  jQL sentence parts or comments
 ```
 
-For example, if a macro named _MYMACRO_ has been created containing _M_ and _CUS.NAME CUS.ADDR CUS.STATE_ on line 1 and 2 respectively, executing the `JED DICT CUSTOMER MYMACRO` command will bring in the editor something that resembles the text below:
+For example, if a macro named _MYMACRO_ has been created containing _M_ and _CUS.NAME CUS.ADDR CUS.STATE_ on line 1 and 2 respectively, executing the `jED DICT CUSTOMER MYMACRO` command will bring in the editor something that resembles the text below:
 
 ```
 001+  M
@@ -734,7 +732,8 @@ Thus issuing a query such as: `LIST CUSTOMER MYMACRO` will automatically include
 001 A
 002 Attribute #
 003 Column heading
-004-006 Blank
+004 Controlling/Dependent attributes
+005-006 Blank
 007 Conversion codes
 008 Correlative codes
 009 Justification
