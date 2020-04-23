@@ -25,9 +25,11 @@ When the command terminates, the total number of entries in the generated list i
 
 If the **BY-EXP** or **BY-EXP-DSND** connectives are used on a multivalued field, the list will have the format:
 
-**record-key]multivalue#**
+```
+record-key]multivalue#
+```
 
-where multivalue# is the position of the multivalue within the field specified by BY-EXP or BY-EXP-DSND. multivalue# can be accessed by a READNEXT Var,n statement in a jBC program.
+where **multivalue#** is the position of the multivalue within the field specified by BY-EXP or BY-EXP-DSND. **multivalue#** can be accessed by a READNEXT Var,n statement in a jBC program.
 
 ### Example 1
 
@@ -51,7 +53,6 @@ Select all the records in SALES file with an S.CODE value that starts with ABC. 
 
 See also the [SELECT](./../select/README.md) command.
 
-Back to [jQL](jbase-query-language-jql-)
-
+Back to [jQL](./../jbase-query-language/README.md)
   
 <PageFooter />

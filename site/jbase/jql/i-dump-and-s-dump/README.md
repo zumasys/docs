@@ -1,6 +1,6 @@
 # I-DUMP / S-DUMP
 
-<PageHeader /> 
+<PageHeader />  
 
 **Tags:**
 <badge text='value mark' vertical='middle' />
@@ -56,7 +56,6 @@ The following output is generated:
 8654^MCBRIDE^KEVIN^SALESREP^8698^5620^215000^140000^90030^^^^^]11639\^  
 ```
 
-Back to [jQL](jbase-query-language-jql-)
+Back to [jQL](./../jbase-query-language/README.md)
 
-  
 <PageFooter />

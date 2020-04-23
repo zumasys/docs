@@ -65,7 +65,7 @@ COL,ROW,SKIP,INDENT,SIZE,SPACE(,C): 2,5,2,0,25,4,C
 | TOWN1 | TOWN2 |
 | POSTCODE1 | POSTCODE2 |
 
-` `
+* * *
 
 | <!----> | <!----> |
 | --- | --- |
@@ -75,7 +75,6 @@ COL,ROW,SKIP,INDENT,SIZE,SPACE(,C): 2,5,2,0,25,4,C
 | TOWN3 | TOWN4 |
 | POSTCODE3 | POSTCODE4 |
 
-Back to [jQL](jbase-query-language-jql-)
+Back to [jQL](./../jbase-query-language/README.md)
 
-  
 <PageFooter />

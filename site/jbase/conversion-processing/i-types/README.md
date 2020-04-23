@@ -236,7 +236,6 @@ The following is a list of I-type functions which can be used directly in jBASE 
 
 Back to [Conversion Processing](./../conversion-processing)
 
-Back to [jBASE Query Language (JQL)](jbase-query-language-jql-)
+Back to [jBASE Query Language (JQL)](./../../jql/jbase-query-language/README.md)
 
-  
 <PageFooter />

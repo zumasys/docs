@@ -90,7 +90,6 @@ Set up a heading for each page which comprises the words "Sales Code: ", the sal
 
 Produce the report on the currently assigned printer.
 
-Back to [jQL](jbase-query-language-jql-)
-
+Back to [jQL](./../jbase-query-language/README.md)
   
 <PageFooter />

@@ -25,7 +25,6 @@ Consider the STOCK file used by a camera factory where each data record can repr
 
 Take as an example the record set that defines a simple camera assembly. The data records contain the following data:
 
-
 | <!----> | <!----> |
 | --- | --- |
 | Key                                         A1<br>001                                        Camera Assy<br>002                                        A21]A22]A23<br>003                                        10  | Key                                      A21<br>001                                      Lens Assy<br>002                                      A210]A211<br>003                                      15  |
@@ -63,7 +62,7 @@ STOCK
 010 10
 ```
 
-Now all we need to do is to create three [data definition records](./../data-definition-records---dictionary-structure) in the dictionary of STOCK - one for each field. We will name them DESC, COMPONENTS, and QTY.
+Now all we need to do is to create three [data definition records](./../data-definition-records-and-dictionary-structure/README.md) in the dictionary of STOCK - one for each field. We will name them DESC, COMPONENTS, and QTY.
 
 The final step is to issue a COUNT or LIST command which uses the WITHIN modifier:
 
@@ -87,7 +86,6 @@ LEVEL STOCK Description.... Components Qty
 8 RECORDS LISTED
 ```
 
-Back to [jQL](jbase-query-language-jql-)
-
+Back to [jQL](./../README.md)
   
 <PageFooter />

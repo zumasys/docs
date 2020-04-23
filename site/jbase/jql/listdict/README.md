@@ -16,7 +16,6 @@ LISTDICT {file-specifier}
 
 where **file-specifier** specifies a dictionary file other than a file named MD/VOC in the JEDIFILEPATH. If **file-specifier** is not defined, **LISTDICT** will work with the first file named MD which is found in the JEDIFILEPATH.
 
-Back to [jQL](jbase-query-language-jql-)
-
+Back to [jQL](./../jbase-query-language/README.md)
   
 <PageFooter />

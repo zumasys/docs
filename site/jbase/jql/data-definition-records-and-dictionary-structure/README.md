@@ -98,5 +98,6 @@ Some predefined data definition records are automatically available so that, if 
 
 The predefined data definition records are named \*A0 to \*Annn. The numeric portion of the key corresponds to the position of the field they report on and the column heading will be the same as the DDR name.
 
-  
+Back to [jQL](./../README.md)
+
 <PageFooter />

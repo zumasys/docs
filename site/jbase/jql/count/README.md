@@ -38,7 +38,6 @@ Count the number of records in the SALES file which have a value greater than 10
 
 Count the number of records in the SALES file which have a VALUE greater than 1000, and display a running total of selected and processed records after each group of 50 records are processed.
 
-Back to [jQL](jbase-query-language-jql-)
+Back to [jQL](./../jbase-query-language/README.md)
 
-  
 <PageFooter />

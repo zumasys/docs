@@ -228,7 +228,6 @@ where:
 
 The following words and symbols have specific meanings when used in a jQL sentence. They should only be used as described later in this chapter and should not be used as user-defined dictionary names.
 
-
 | <!----> | <!----> | <!----> | <!----> | <!----> |
 | --- | --- | --- | --- | --- |
 | ! | # | % | & | ( |
@@ -320,7 +319,7 @@ By default, output from a jQL command will be displayed on your terminal, in col
 
 You can redirect the output to a printer (or the currently-assigned Spooler device) by using the LPTR format specifier or the P option.
 
-### Rerport Layout
+### Report Layout
 
 If the columnar report will not fit in the current page width of the output device, it will be output in "non-columnar" format where each field of each record occupies one row on the page.
 
@@ -345,7 +344,6 @@ N - Suppress paging (i.e. Nopage)
 P - Send output to the spooler  
 R - Suppress 'Error 202 Record not on file' errors  
 
-Back to [jBASE Query Language (jQL)](jbase-query-language-jql-)
+Back to [jBASE Query Language (jQL)](./../jbase-query-language/README.md)
 
-  
 <PageFooter />

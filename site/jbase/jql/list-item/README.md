@@ -27,7 +27,7 @@ where options specific to LIST-ITEM are:
 
 > When not displaying in hexadecimal, unprintable characters are displayed as periods.
 
-### Exxample
+### Example
 
 ```
 LIST-ITEM BP WITH *A1 = "[SUBROUTINE]" (SNP
@@ -35,7 +35,6 @@ LIST-ITEM BP WITH *A1 = "[SUBROUTINE]" (SNP
 
 Lists all jBC program from the BP file that are designated as subroutines on line 1 of each program. Line numbers are suppressed. Non-paged output is directed to the assigned printer.
 
-Back to [jQL](jbase-query-language-jql-)
+Back to [jQL](./../jbase-query-language/README.md)
 
-  
 <PageFooter />

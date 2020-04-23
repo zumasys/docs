@@ -36,7 +36,8 @@
 [u-conversion](./u-conversion/README.md)  
 [user-exits](./user-exits/README.md)  
 
-[Back to Knowledgebase](./../README.md)
+Back to [jBASE Query Language (jQL)](./../jql/jbase-query-language/README.md)
 
-  
+Back to [Knowledgebase](./../README.md)
+
 <PageFooter />

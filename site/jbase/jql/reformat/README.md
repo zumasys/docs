@@ -49,8 +49,8 @@ FILE: ADDRESS
 
 Creates new records in the ADDRESS file, keyed on C.CODE from the SALES file. Each record contains two fields, one with the values from the NAME field and one with the values from the ADDRESS field.
 
-See also the SREFORMAT command.
+See also the [SREFORMAT](./../sreformat/README.md) command.
 
-Back to [jQL](jbase-query-language-jql-)
+Back to [jQL](./../jbase-query-language/README.md)
 
 <PageFooter />

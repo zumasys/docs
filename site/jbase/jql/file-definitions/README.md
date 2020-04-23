@@ -20,6 +20,6 @@ The fields of a file definition record that affect jQL reports are:
 | Field 9<br> | Justification for key. Can be one of the following (see [Data Definition Records](./../data-definition-records---dictionary-structure)):<br><br>| <!----> | <!----> |<br>| --- | --- |<br>| L | Left justified |<br>| R | Right justified |<br>| T | Text |<br>| U | Unlimited |<br><br> |
 | Field 10<br> | Column width for key. Default is 14 characters. Also see JBCIDLEN.<br> |
 
-Back to [jBASE Query Language (jQL)](jbase-query-language-jql-)
+Back to [jBASE Query Language (jQL)](./../jbase-query-language/README.md)
   
 <PageFooter />

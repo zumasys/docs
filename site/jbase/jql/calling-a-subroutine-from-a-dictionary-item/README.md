@@ -235,7 +235,6 @@ ID:LASTVAL
 010 10
 ```
 
-Back to [jQL](jbase-query-language-jql-)
+Back to [jQL](./../jbase-query-language/README.md)
 
-  
 <PageFooter />

@@ -44,7 +44,6 @@ n Records deleted
 
 Selects all records in the SALES file in which the S.CODE field contains ABC, and deletes them.
 
-Back to [jQL](jbase-query-language-jql-)
+Back to [jQL](./../jbase-query-language/README.md)
 
-  
 <PageFooter />

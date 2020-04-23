@@ -27,7 +27,10 @@
 | [T](./../t-conversion) | Text extraction. |
 | [TFILE](./../tfile-conversion) | File translation. |
 | [U](./../u-conversion) |  |
+| [W](./../w-conversion/README.md) | Timestamp conversions |
 
-Back to [jBASE Query Language (JQL)](jbase-query-language-jql-)
+Back to [jBASE Query Language (JQL)](./../../jql/jbase-query-language/README.md)
+
+Back to [Knowledgebase](./../README.md)
 
 <PageFooter />
