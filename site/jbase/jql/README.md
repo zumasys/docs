@@ -6,6 +6,7 @@
 
 [jQL](./jbase-query-language/README.md)  
 [jQL Overview](./jql/README.md)  
+[jQL Keywords and Connectives](./jql-keywords/README.md)
 
 [bselect](./bselect/README.md)  
 [calling-a-subroutine-from-a-dictionary-item](./calling-a-subroutine-from-a-dictionary-item/README.md)  

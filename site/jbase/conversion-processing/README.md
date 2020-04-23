@@ -35,6 +35,7 @@
 [tfile-conversion](./tfile-conversion/README.md)  
 [u-conversion](./u-conversion/README.md)  
 [user-exits](./user-exits/README.md)  
+[w-conversion](./w-conversion/README.md)  
 
 Back to [jBASE Query Language (jQL)](./../jql/jbase-query-language/README.md)
 

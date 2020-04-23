@@ -26,7 +26,7 @@
 | [S](./../s-conversion) | Substitution. |
 | [T](./../t-conversion) | Text extraction. |
 | [TFILE](./../tfile-conversion) | File translation. |
-| [U](./../u-conversion) |  |
+| [U](./../u-conversion) | User exits  |
 | [W](./../w-conversion/README.md) | Timestamp conversions |
 
 Back to [jBASE Query Language (JQL)](./../../jql/jbase-query-language/README.md)

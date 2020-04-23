@@ -18,8 +18,6 @@ Where:
 - **expression1** evaluates to the data upon which the conversion is to be performed.
 - **expression2** should evaluate to the conversion code that is to be performed against the data.
 
-[comment]: <> ( Add additional **ICONV** extensions for timestamp as per WDx/WTx )
-
 If the conversion code used assumes a numeric value and a non-numeric value is passed then the original value in **expression1** is returned unless the emulation option iconv\_nonnumeric\_return\_null is set.
 
 An example of use is as:
