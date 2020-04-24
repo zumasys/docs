@@ -67,7 +67,7 @@ CUST..... *A1......................
 
 ## Total Connectives
 
-The TOTAL connective specifies that a running total of the field be maintained and to output the total at each control break and at the end of the report. 
+The TOTAL connective specifies that a running total of the field be maintained and to output the total at each control break and at the end of the report.  
 Also, use TOTAL in conjunction with the BREAK-ON connective to display intermediate totals at the control breaks.  
 Use the GRAND-TOTAL modifier in the format specification clause to display any specified text on the last total line.  
 
