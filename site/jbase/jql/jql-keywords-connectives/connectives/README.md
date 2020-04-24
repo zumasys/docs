@@ -1,5 +1,7 @@
 # Connectives  
 
+<PageHeader />
+
 ## CNV  
 
 The CNV connective allows the query to override the default conversion as supplied in the dictionary with another conversion.  
@@ -100,8 +102,6 @@ If using the modifier DET-SUPP with TOTAL and BREAK-ON, it displays only the sub
 
 Using report qualifiers, you can tailor the layout of the entire report by setting up headers and footers on each page, adjusting margins and spacing, and determining output orientation (horizontal or vertical).  
 In addition, there are two jQL commands, LIST-LABEL and SORT-LABEL, which enable you to format and sort mailing labels.  
-
-<PageHeader />
 
 Back to [jQL Keywords and Connectives](./../README.md)  
 
