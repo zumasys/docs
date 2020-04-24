@@ -93,7 +93,7 @@ The logical connective AND or OR joins two relational expressions.
 The default connective is OR.  
 If giving two relational expressions without a logical operator between them, items satisfying either expression are selected (as if the OR connective had been used).  
 The connective AND yields a truth-value of true if all the truth values it is combining are true.  
-If any truth-value is false, the result of the AND connective is false. 
+If any truth-value is false, the result of the AND connective is false.  
 The OR connective yields a truth value of true if at least one of the truth values it is combining is true.  
 
 ## Synonyms
@@ -109,7 +109,8 @@ The following sentence lists information about all the CUSTOMER code numbers end
 LIST CUSTOMER = ‘[00’
 ```
 
-The following sentence does not list any rooms because there is no relational operator, the value "[23" is treated as an item-id.
+The following sentence does not list any CUSTOMERS because there is no relational operator, the value "[23" is treated as an item-id.
+
 ```
 LIST CUSTOMER ‘[23’
 ```
