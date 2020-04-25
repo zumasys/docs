@@ -18,7 +18,7 @@ You can nest macros - a macro can refer to another macro - but the resulting com
 SORT SALES BY S.CODE STD.HEADING
 ```
 
-In this example, STD.Heading is a macro, which contains a standard heading clause:
+In this example, STD.HEADING is a macro which contains a standard heading clause:
 
 STD.HEADING  
 

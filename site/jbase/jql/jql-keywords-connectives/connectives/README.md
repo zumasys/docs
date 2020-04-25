@@ -2,11 +2,11 @@
 
 <PageHeader />
 
-## CNV  
+## CONV  
 
-The CNV connective allows the query to override the default conversion as supplied in the dictionary with another conversion.  
+The CONV connective allows the query to override the default conversion as supplied in the dictionary with another conversion, or to define the conversion to be applied to a virtual field.  
 
-### CNV Example  
+### CONV Example  
 
 ```
 LIST CUSTOMER *A1
@@ -17,12 +17,16 @@ CUST..... *A1......
 ```
 
 ```
-LIST CUSTOMER *A1 CNV “MCT”
+LIST CUSTOMER *A1 CONV “MCT”
 
 CUST..... *A1......
 1         Fred Bloggs
 2         Tom Jones
 ```
+
+### Note
+
+>**CNV** is a synonym for **CONV**
 
 ## COL.HDG  
 
@@ -42,6 +46,72 @@ LIST CUSTOMER *A1 COL.HDG “Customer name”
 CUST..... Customer name
 1         FRED BLOGGS
 2         TOM JONES
+```
+
+## EVAL
+
+The EVAL connective allows an expression to be evaluated and used as though it were an I-type defined in a dictionary, i.e. to define a temporary virtual field.
+
+### EVAL Example
+
+Here is a rather esoteric example using a TIMESHEET file which contains a multivalued list of start and stop times.
+
+This example is also a partial demonstration of controlling/dependent attribute definitions:
+
+TIMESHEET dictionary items:
+
+START.TIME
+
+```
+dict = ''
+dict<1> = 'A'
+dict<2> = '2'
+dict<4> = 'C;1;3;4;5;6;7'
+dict<7> = 'MT'
+dict<9> = 'R'
+dict<10>= '10'
+```
+
+STOP.TIME
+
+```
+dict<2> = '3'
+dict<4> = 'D;2'
+```
+
+Anonymised TIMESHEET data:
+
+employee1
+
+```
+item = ''
+item<2> = '41400' : @VM : '37800'
+item<3> = '42000' : @VM : '44100'
+```
+
+employee2
+
+```
+item<2> = '28800' : @VM : '29700' : @VM : '30300' : @VM : '39600' : @VM : '40500' : @VM : '50880' : @VM : '54780'
+item<3> = '29700' : @VM : '30120' : @VM : '39600' : @VM : '40500' : @VM : '50880' : @VM : '57600' : @VM : '55140'
+```
+
+```
+LIST TIMESHEET EVAL "STOP.TIME - START.TIME"
+
+PAGE    1
+
+TIMESHEET.....    STOP.TIME - START.TIME
+
+employee1                            600
+                                    6300
+employee2                            900
+                                     420
+                                    9300
+                                     900
+                                   10380
+                                    6720
+                                     360
 ```
 
 ## FMT
@@ -103,6 +173,6 @@ If using the modifier DET-SUPP with TOTAL and BREAK-ON, it displays only the sub
 Using report qualifiers, you can tailor the layout of the entire report by setting up headers and footers on each page, adjusting margins and spacing, and determining output orientation (horizontal or vertical).  
 In addition, there are two jQL commands, LIST-LABEL and SORT-LABEL, which enable you to format and sort mailing labels.  
 
-Back to [jQL Keywords and Connectives](./../README.md)  
+Back to [jQL Keywords and Connectives : @VM :  (./../README.md)  
 
 <PageFooter />
