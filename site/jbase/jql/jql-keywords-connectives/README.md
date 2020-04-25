@@ -12,8 +12,7 @@
 [Field Qualifiers](./field-qualifiers/README.md)  
 [Using Clause](./using-clause/README.md)  
 [Command Options](./command-options/README.md)  
-
-## To be completed  
+[Macros](./macros/README.md)  
 
 Back to [jQL](./../README.md)
 
