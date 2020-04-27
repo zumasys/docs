@@ -85,7 +85,7 @@ Changes the device in the FILE2 form queue from whatever it was to create files 
 ```
 
 ```
-SP-CREATE TABLE FILE $JBCRELEASEDIR%stmp%stable_%j_%a_%u.txt"
+SP-CREATE TABLE FILE $JBCRELEASEDIR%stmp%stable_%j_%a_%u.txt
 
 This form queue will create a file in the "$JBCRELEASEDIR/tmp" directory ("%JBCRELEASEDIR%\tmp" on Windows) something like:
 
