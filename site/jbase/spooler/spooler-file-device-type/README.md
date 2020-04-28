@@ -52,41 +52,45 @@ $EnvVar The value of the specified Environment Variable
 %h      Hostname
 %s      Directory separator ("/" or "\" depending on the platform)
 %%      A literal "%" (a single "%" is ignored)
-chars   All other characters are taken literally
-
-Spaces (and strings of spaces) in the device name are converted to a single underscore "_" when the a job is despooled.
-Special Character Strings are case insensitive (%A is the same as %a).
 ```
+
+- All other characters are taken literally.  
+- Spaces (and strings of spaces) in the device name are converted to a single underscore "_" when the a job is despooled.  
+- Special Character Strings are case insensitive (%A is the same as %a).
 
 ### Examples
 
 ```
 SP-CREATE TEXT FILE /tmp/file
-
-"/tmp/file.txt" will be overwritten each time a job is despooled to the TEXT form queue.
 ```
+"/tmp/file.txt" will be overwritten each time a job is despooled to the TEXT form queue.
+
+---
 
 ```
 SP-CREATE QJ %q%j
-
-Creates files in the current directory. The file name will consist of the queue name concatenated with the print job number, for example, QJ42.
 ```
+Creates files in the current directory. The file name will consist of the queue name concatenated with the print job number, for example, QJ42.
+
+---
 
 ```
 SP-CREATE UNIQUE FILE $JBCRELEASEDIR%stmp%s%k
-
-Creates files in the jBASE "tmp" directory with a unique key.
 ```
+Creates files in the jBASE "tmp" directory with a unique key.
+
+---
 
 ```
 SP-DEVICE FILE2 FILE %sdbms%sFTP%s%a_%q_%j
-
-Changes the device in the FILE2 form queue from whatever it was to create files in the "/dbms/FTP" directory with filename consisting of the "account name", "form queue name" and "spooler job number".
 ```
+Changes the device in the FILE2 form queue from whatever it was to create files in the "/dbms/FTP" directory with filename consisting of the "account name", "form queue name" and "spooler job number".
+
+---
 
 ```
 SP-CREATE TABLE FILE $JBCRELEASEDIR%stmp%stable_%j_%a_%u.txt
-
+```
 This form queue will create a file in the "$JBCRELEASEDIR/tmp" directory ("%JBCRELEASEDIR%\tmp" on Windows) something like:
 
     table_42_heartofgold_marvin.txt
@@ -96,7 +100,8 @@ where:
     "42" is the spooler job number
     "heartofgold" is the account name
     "marvin" is the user name
-```
+
+---
 
   
 <PageFooter />
