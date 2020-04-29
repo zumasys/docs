@@ -96,6 +96,10 @@ Add the built-in functions $setnumber(), $setnumeric() and $setstring().
 Add a generalised iterator.  
 Add $jobs() class.  
 
+## 5.8.0
+
+Add $system->onexit() and $system->onterminate() methods.
+
 Back to [Dynamic Objects](./../README.md)
 
 <PageFooter />  

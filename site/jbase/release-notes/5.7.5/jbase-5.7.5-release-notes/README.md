@@ -13,6 +13,6 @@ This release includes various internal bug fixes and the following enhancements 
 - [PN5\_60924](./../pn5_60924) - New environment variable to control the location of jagent.lockfile&lt;port&gt; files
 - [PN5\_60925](./../pn5_60925) - **jprof** command no longer creates a report when JDIAG is set with  **JDIAG=profile=long:filename=xxx**
 
-Back to [5.7.5 Release Notes](./../README.md)
+Back to [Release Notes](./../../releasenotes/../README.md)
 
 <PageFooter />

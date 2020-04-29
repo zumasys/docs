@@ -4,7 +4,7 @@
 
 ## Topics
 
-[jbase-5.7.1-release-notes](./jbase-5.7.1-release-notes)  
+[jbase-5.7.1-release-notes](./jbase-5.7.1-release-notes/README.md)  
 [pn5_60750](./pn5_60750)  
 [pn5_60751](./pn5_60751)  
 [pn5_60752](./pn5_60752)  
@@ -54,5 +54,4 @@
 [pn5_60810](./pn5_60810)  
 [pn5_60811](./pn5_60811)  
 
-  
 <PageFooter />
