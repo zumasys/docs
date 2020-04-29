@@ -35,8 +35,8 @@
 | [ASSOC.WITH](./assoc-with/README.md) | Associate two fields |
 | [ASSOCIATED](./assoc-with/README.md) | Synonym for ASSOC.WITH |
 | [ASSOCIATION](./assoc/README.md) | Synonym for ASSOC |
-| AVERAGE |
-| AVG |
+| [AVERAGE](./average/README.md) | Show average of field values |
+| [AVG](./average/README.md) | Synonym for AVERAGE |
 | BEFORE |
 | BETWEEN |
 | BREAK-ON |
@@ -85,7 +85,7 @@
 | EACH |
 | EDELETE |
 | ENUM |
-| ENUMUMERATE |
+| ENUMERATE |
 | EQ |
 | EQUAL |
 | ESEARCH |
