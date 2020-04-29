@@ -23,6 +23,6 @@ This release includes various internal bug fixes and the following enhancements 
 - [PN5\_60917](./../pn5_60917) - Spooler: **SP-CREATE Fnn** creates form queues with the wrong queue number
 - [PN5\_60919](./../pn5_60919) - Licensing: Multi-session licenses limited to 255 sessions and up to 255 licenses per session
 
-Back to [5.7.4 Release Notes](./../README.md)
+Back to [Release Notes](./../../releasenotes/../README.md)
 
 <PageFooter />

@@ -21,7 +21,6 @@
 - [PN5\_60853](./../pn5_60853) - Compiler fails to note a variable declared as a dimensioned array
 - [PN5\_60867](./../pn5_60867) - jQL process exits prematurely when a jBC subroutine exits from within a query
 
-Back to [Release Notes](./../README.md)
+Back to [Release Notes](./../../releasenotes/../README.md)
 
-  
 <PageFooter />

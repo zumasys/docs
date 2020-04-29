@@ -26,6 +26,6 @@
 - [PN5\_60895](./../pn5_60895) - Support sub-valued fields in a secondary index
 - [PN5\_60896](./../pn5_60896) - **jshow -f filename** misleading
 
-Back to [5.7.3 Release Notes](./../README.md)
+Back to [Release Notes](./../../releasenotes/../README.md)
 
 <PageFooter />
