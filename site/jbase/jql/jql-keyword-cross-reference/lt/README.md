@@ -12,8 +12,8 @@ field LT value
 
 where:
 
-**field** is the first field or EVAL expression to be compared
-**value** is the second field, EVAL expression or literal value to be compared.
+**field** is the first field or EVAL expression to be compared.  
+**value** is the second field, EVAL expression or literal value to be compared.  
 
 ## Example
 
