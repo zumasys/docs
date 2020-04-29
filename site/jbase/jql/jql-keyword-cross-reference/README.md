@@ -1,4 +1,4 @@
-# jQL Keyword cross-reference
+# jQL Keyword Cross-Reference
 
 <PageHeader />
 
@@ -14,7 +14,7 @@
 | [+](./plus/README.md) | Plus sign, used in addition |
 | - | Minus sign, used in subtraction |
 | / | Backslash, used in division |
-| < | Synonym for LT |
+| [<](./lt/README.md) | Synonym for LT |
 | <= | Synonym for LE |
 | <> | Synonym for NE |
 | = | Synonym for EQ |
@@ -25,7 +25,7 @@
 | >= | Synonym for GE |
 | A |  Throwaway |
 | AFTER | Synonym for GT |  
-| ALL | ??? |
+| ALL |   |
 | AN | Throwaway |
 | [AND](./and/README.md) | Logical AND |
 | ANY | Throwaway |
@@ -37,8 +37,8 @@
 | [ASSOCIATION](./assoc/README.md) | Synonym for ASSOC |
 | [AVERAGE](./average/README.md) | Show average of field values |
 | [AVG](./average/README.md) | Synonym for AVERAGE |
-| BEFORE |
-| BETWEEN |
+| [BEFORE](./lt/README.md) | Synonym for LT |
+| [BETWEEN](./between/README.md) | Range test |
 | BREAK-ON |
 | BREAK-SUP |
 | BREAK.ON |
@@ -111,7 +111,7 @@
 | ID.ONLY |
 | ID.SUP |
 | ID.SUPP |
-| IF |
+| IF | Synonym for WITH |
 | IN |
 | INQUIRING |
 | INVISIBLE | Throwaway |
@@ -125,7 +125,7 @@
 | LIST.ITEM |
 | LIST.LABEL |
 | LPTR |
-| LT |
+| [LT](./lt/README.md)| Less than |
 | MARGIN |
 | MATCH |
 | MATCHES |
