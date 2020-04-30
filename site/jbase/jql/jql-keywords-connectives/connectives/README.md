@@ -141,7 +141,7 @@ The TOTAL connective specifies that a running total of the field be maintained a
 Also, use TOTAL in conjunction with the BREAK-ON connective to display intermediate totals at the control breaks.  
 Use the GRAND-TOTAL modifier in the format specification clause to display any specified text on the last total line.  
 
-## BREAK-ON Connective  
+## BREAK-ON  
 
 The BREAK-ON connective causes monitoring of the following fields for change permitting up to fifteen breaks within one sentence treated in hierarchical left to right order.  
 The first BREAKON in the sentence is the highest level.  
