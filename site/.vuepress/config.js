@@ -127,18 +127,9 @@ module.exports = {
             path: "/accuterm/license-and-user-management/",
             collapsable: true,
             children: [
-              [
-                "/accuterm/license-and-user-management/creating-users/",
-                "Creating Users"
-              ],
-              [
-                "/accuterm/license-and-user-management/creating-roles/",
-                "Creating Roles"
-              ],
-              [
-                "/accuterm/license-and-user-management/batch-actions/",
-                "Batch Actions"
-              ]
+              ["/accuterm/license-and-user-management/creating-users/", "Creating Users"],
+              ["/accuterm/license-and-user-management/creating-roles/", "Creating Roles"],
+              ["/accuterm/license-and-user-management/batch-actions/", "Batch Actions"]
             ]
           },
           {
@@ -146,7 +137,7 @@ module.exports = {
             path: "/accuterm/desktop/",
             collapsable: true,
             children: [
-              ["/accuterm/desktop/gui/", "GUI"]
+              ["/accuterm/desktop/gui/", "GUI"],
               ["/accuterm/desktop/rezume-session-resilience/", "ReZume Session Resilience"]
             ]
           },
@@ -156,15 +147,9 @@ module.exports = {
             collapsable: true,
             children: [
               ["/accuterm/mobile/quick-start/", "Quick Start"],
-              [
-                "/accuterm/mobile/colors-and-themes-settings/",
-                "Colors & Themes Settings"
-              ],
+              ["/accuterm/mobile/colors-and-themes-settings/", "Colors & Themes Settings"],
               ["/accuterm/mobile/connection-settings/", "Connection Settings"],
-              [
-                "/accuterm/mobile/keyboard-and-clipboard-settings/",
-                "Keyboard & Clipboard Settings"
-              ],
+              ["/accuterm/mobile/keyboard-and-clipboard-settings/", "Keyboard & Clipboard Settings"],
               ["/accuterm/mobile/screen-settings/", "Screen Settings"],
               ["/accuterm/mobile/terminal-settings/", "Terminal Settings"]
             ]
@@ -174,46 +159,22 @@ module.exports = {
             path: "/accuterm/web/",
             collapsable: true,
             children: [
-              [
-                "/accuterm/web/installing-accuterm-io-server/",
-                "Installing AccuTerm IO Server"
-              ],
+              ["/accuterm/web/installing-accuterm-io-server/", "Installing AccuTerm IO Server"],
               ["/accuterm/web/creating-profiles/", "Creating Profiles"],
               {
                 title: "Profiles",
                 path: "/accuterm/web/profiles/",
                 collapsable: true,
                 children: [
-                  [
-                    "/accuterm/web/profiles/change-password/",
-                    "Change AccuTerm.IO Password"
-                  ],
-                  [
-                    "/accuterm/web/profiles/keyboard-options/",
-                    "Keyboard Options"
-                  ],
+                  ["/accuterm/web/profiles/change-password/", "Change AccuTerm.IO Password"],
+                  ["/accuterm/web/profiles/keyboard-options/", "Keyboard Options"],
                   ["/accuterm/web/profiles/mouse-settings/", "Mouse Settings"],
                   ["/accuterm/web/profiles/sound-settings/", "Sound Settings"],
-                  [
-                    "/accuterm/web/profiles/terminal-screen-options/",
-                    "Terminal Screen Options"
-                  ],
-                  [
-                    "/accuterm/web/profiles/terminal-settings/",
-                    "Terminal Settings"
-                  ],
-                  [
-                    "/accuterm/web/profiles/clipboard-settings/",
-                    "Clipboard Settings"
-                  ],
-                  [
-                    "/accuterm/web/profiles/connection-settings/",
-                    "Connection Settings"
-                  ],
-                  [
-                    "/accuterm/web/profiles/font-and-character-settings/",
-                    "Font & Character Settings"
-                  ]
+                  ["/accuterm/web/profiles/terminal-screen-options/", "Terminal Screen Options"],
+                  ["/accuterm/web/profiles/terminal-settings/", "Terminal Settings"],
+                  ["/accuterm/web/profiles/clipboard-settings/", "Clipboard Settings"],
+                  ["/accuterm/web/profiles/connection-settings/", "Connection Settings"],
+                  ["/accuterm/web/profiles/font-and-character-settings/", "Font & Character Settings"]
                 ]
               }
             ]
