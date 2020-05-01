@@ -39,10 +39,10 @@
 | [AVG](./average/README.md) | Synonym for AVERAGE |
 | [BEFORE](./lt/README.md) | Synonym for LT |
 | [BETWEEN](./between/README.md) | Range test |
-| BREAK-ON |
-| BREAK-SUP |
-| BREAK.ON |
-| BREAK.SUP |
+| [BREAK-ON](./break-on/README.md) | Specify a break point |
+| [BREAK-SUP](./break-sup/README.md) | Define a non-displayed break control item|
+| [BREAK.ON](,/../break-on/README.md) | Synonym for BREAK-ON |
+| [BREAK.SUP](./break-sup/README.md) | Synonym for BREAK-SUP
 | BSELECT |
 | BY |
 | BY-DSND |
