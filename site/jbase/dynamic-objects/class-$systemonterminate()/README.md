@@ -72,8 +72,8 @@ obj->onterminate_subcall("I'll be back!")
 ```
 
 ```
-jsh ~ 1 -->test2
-jsh ~ 1 -->exit
+jsh ~ -->test2
+jsh ~ -->exit
 I'll be back!
 
 C:\home>
