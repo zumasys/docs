@@ -14,7 +14,9 @@ $ cat test13.jabba
     fobj = new object("$file")          ;* Create a new instance of the $file class
     print "The absolute file path of ":dquote(relpath):" is " : dquote(fobj->fullpath(relpath))
     print "The absolute file path of ":dquote(relpath):" is " : dquote($file->fullpath(relpath))
+```
 
+```
 $ test13
 The absolute file path of "../../../../bin" is "/home/jbase/bin"
 The absolute file path of "../../../../bin" is "/home/jbase/bin"
