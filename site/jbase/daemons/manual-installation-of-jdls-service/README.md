@@ -10,7 +10,7 @@ If you need to manually install the service (for example, when using the Minimal
 
 From an elevated Windows Command (DOS) prompt type the command:
 
-``` 
+```
 jServControl -s auto -p %JBCRELEASEDIR%\bin\jdls.exe jDLS install start
 ```
 
@@ -20,15 +20,14 @@ jDLS can now be managed as a normal Windows service.
 
 ## Related Topics
 
-[Upgrading from a Previous jBASE Version](./../../administration/installation-guides/upgrading-from-a-previous-version)
+[Upgrading from a Previous jBASE Version](./../../administration/installation-guides/upgrading-from-a-previous-version/../README.md)
 
-[Installing the Compiler](installing-the-windows-compiler)
+[Installing the Compiler](./../../administration/installation-guides/windows-compiler-installation/README.md)
 
-[Creating Accounts and Users](./../../administration/installation-guides/create-accounts-and-users)
+[Creating Accounts and Users](./../../administration/installation-guides/create-accounts-and-users/README.md)
 
-[Manual License Key Installation](./../../administration/installation-guides/manual-license-key-installation)
+[Manual License Key Installation](./../../administration/installation-guides/manual-license-key-installation/README.md)
 
 Back to [Daemons](./../README.md)
 
-  
 <PageFooter />

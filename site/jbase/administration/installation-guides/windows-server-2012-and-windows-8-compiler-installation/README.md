@@ -1,4 +1,4 @@
-# WINDOWS SERVER 2012 & WINDOWS 8 COMPILER INSTALLATION
+# Windows Server 2012 & Windows 8 Compiler Installation
 
 <PageHeader />
 
@@ -34,17 +34,16 @@ To download the web-based installer for Visual Studio 2015 Community Edition, yo
 
 ### See Next
 
-[Installing jBASE on Windows](./../windows-installation-guide)
+[Installing jBASE on Windows](./../windows-installation-guide/README.md)
 
-[Upgrading from a Previous Version](./../upgrading-from-a-previous-version)
+[Upgrading from a Previous Version](./../upgrading-from-a-previous-version/README.md)
 
-[Manual Installation of jDLS Service](./../../../jbase/manual-installation-of-jdls-service)
+[Manual Installation of jDLS Service](./../../../daemons/manual-installation-of-jdls-service/README.md)
 
-[Creating Accounts and Users](./../create-accounts-and-users)
+[Creating Accounts and Users](./../create-accounts-and-users/README.md)
 
-[Manual License Key Installation](./../manual-license-key-installation)
+[Manual License Key Installation](./../manual-license-key-installation/README.md)
 
 Back to [Installation Guides](./../README.md).
 
-  
 <PageFooter />

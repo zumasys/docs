@@ -9,7 +9,7 @@
 
 ## For jBASE Releases 5.5.x, 5.6.x (except 5.6.6) and 5.7.0
 
-Follow this [link](./../jbase-release-5.5,-5.6,-5.7.0-%28except-5.6.6%29) to install a compiler.
+Follow this [link](./../jbase-release-5.5-and-5.6-and-5.7.0/README.md) to install a compiler.
 
 Note: If you are installing jBASE on Windows 8 (not 8.1) or Windows Server 2012 (not R2), please follow this [link](./../windows-server-2012-&-windows-8-compiler-installation) to install a compatible version of Visual Studio BEFORE installing jBASE.
 
@@ -69,15 +69,15 @@ End Users are experiencing this due to additional "redundant" entries being adde
 
 ### See Next
 
-[Installing jBASE on Windows](./../windows-installation-guide)
+[Installing jBASE on Windows](./../windows-installation-guide/README.md)
 
-[Upgrading from a Previous Version](./../upgrading-from-a-previous-version)
+[Upgrading from a Previous Version](./../upgrading-from-a-previous-version/README.md)
 
-[Manual Installation of jDLS Service](./../../../jbase/manual-installation-of-jdls-service)
+[Manual Installation of jDLS Service](./../../../daemons/manual-installation-of-jdls-service/README.md)
 
-[Creating Accounts and Users](./../create-accounts-and-users)
+[Creating Accounts and Users](./../create-accounts-and-users/README.md)
 
-[Manual License Key Installation](./../manual-license-key-installation)
+[Manual License Key Installation](./../manual-license-key-installation/README.md)
 
 Back to [Installation Guides](./../README.md).
 

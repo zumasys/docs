@@ -26,7 +26,7 @@ jBASE 5.7 for Windows requires the same minimum hardware specifications as the h
 - Windows Server 2012 R2  
 - Windows Server 2016  
 
-> [How to verify your Windows Operating System](./../verify-your-windows-operating-system)
+> [How to verify your Windows Operating System](./../verify-your-windows-operating-system/README.md)
 
 ## Prerequisites
 

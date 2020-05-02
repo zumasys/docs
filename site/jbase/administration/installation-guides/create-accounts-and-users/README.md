@@ -1,4 +1,4 @@
-# CREATE ACCOUNTS AND USERS
+# Create Accounts and Users
 
 <PageHeader />
 
@@ -154,11 +154,11 @@ Remember, now that you have created the jBASE Account and the corresponding Wind
 
 ### Related Topics
 
-[Upgrading from a previous jBASE version](./../upgrading-from-a-previous-version)
+[Upgrading from a previous jBASE version](./../upgrading-from-a-previous-version/README.md)
 
-[Installing the Compiler](installing-the-windows-compiler)
+[Installing the Compiler](./../windows-compiler-installation/README.md)
 
-[Manual installation of jDLS service](./../../../jbase/manual-installation-of-jdls-service)
+[Manual installation of jDLS service](./../../../daemons/manual-installation-of-jdls-service/README.md)
 
 [Creating Accounts and Users](./.)
 
@@ -166,5 +166,4 @@ Remember, now that you have created the jBASE Account and the corresponding Wind
 
 Back to [Installation Guides](./../README.md).
 
-  
 <PageFooter />

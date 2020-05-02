@@ -1,4 +1,4 @@
-# VERIFY YOUR WINDOWS OPERATING SYSTEM
+# Verify your Windows Operating System
 
 <PageHeader />
 
@@ -40,5 +40,4 @@ Click the start menu, right-click this PC, choose Properties
 
 Back to [Installation Guides](./../README.md).
 
-  
 <PageFooter />

@@ -15,7 +15,7 @@ where:
 **options** control the appearance of the break-point.  
 **field** is the field name or EVAL expression to be used as a break-point
 
-The **options** are as for BREAK-ON but only the following are useful:
+The **options** are nominally the same as for BREAK-ON but only the following are useful:
 
 ## BREAK-SUP Options  
 

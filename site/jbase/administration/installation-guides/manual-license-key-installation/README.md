@@ -1,4 +1,4 @@
-# MANUAL LICENSE KEY INSTALLATION
+# Manual License Key Installation
 
 <PageHeader />
 
@@ -38,15 +38,14 @@ jruntime.websession=99TvRhZrzwXahzjI9/NuqTNRlro/g1xpC/MJglgPQDE=
 
 ## Related Topics
 
-[Upgrading from a Previous Version](./../upgrading-from-a-previous-version)
+[Upgrading from a Previous Version](./../upgrading-from-a-previous-version/README.md)
 
-[Installing the Compiler](installing-the-windows-compiler)
+[Installing the Compiler](./../windows-compiler-installation/README.md)
 
-[Manual Installation of jDLS Service](./../../../jbase/manual-installation-of-jdls-service)
+[Manual Installation of jDLS Service](./../../../daemons/manual-installation-of-jdls-service/README.md)
 
-[Creating Accounts and Users](./../create-accounts-and-users)
+[Creating Accounts and Users](./../create-accounts-and-users/README.md)
 
 Back to [Installation Guides](./../README.md).
 
-  
 <PageFooter />
