@@ -4,7 +4,7 @@
 
 ## Description
 
-**jfilesave** is a front-end to [jbackup](../jbackup/README.md) that greatly simplifies backing up the accounts defined in the [SYSTEM](../../accounts/system-file/README.md) file.
+**jfilesave** is a front-end to [jbackup](../jbackup/README.md) that simplifies backing up accounts defined in the [SYSTEM](../../accounts/system-file/README.md) file.
 
 All backups done with **jfilesave** are 100% compatible with [jrestore](../jrestore/README.md).
 
@@ -18,20 +18,21 @@ jfilesave {options} {account1 {account2 {account3}} ...})
 
 | Option | Explanation |
 | --- | --- |
-| -a -A | Save ALL accounts including DX'd accounts.<br>Overrides accounts specified on the command line. |
-| -b | Display output as JSON. |
-| -B | Display output as formatted JSON. |
-| -d device | The file where the backup is to be created.<br>It can be a full path or just a name in which case it is created in JBCDATADIR.<br><br> The **JFILESAVE_DEVICE** environment variable can be used to define the device.<br>Refer to the **Special Character Handling** section below. |
-|  -o -O| Overwrite the device file. |
+| -a \| -A | Save ALL accounts including DX'd accounts.<br>Overrides accounts specified on the command line. |
+| -b \| -B | Display output as formatted JSON. This option is ignored unless used with **-?** |
+| -d device | The file where the backup is to be created.<br>It can be a full path or just a name in which case it is created in the current directory.<br><br>The **JFILESAVE_DEVICE** environment variable can be used to define the device.<br>Refer to the **Special Character Handling** section below. |
+| -o \| -O| Overwrite the device file. |
 | -s statfile | This is a full path or relative path for the backup statistics.<br>The file is created if it does not already exist.<br>The file is cleared for each backup.<br><br>The **JFILESAVE_DEVICE** environment variable can be used to define the device.Refer to the **Special Character Handling** section below. |
 | -? | Help page, displays as JSON (overrides all other options except -b or -B) |
-| -h -H | Help page, displays as text (overrides all other options) |
+| -h \| -H | Help page, displays as text (overrides all other options) |
 
 ## Notes
 
 If no **account** is specified then all directories and files under the account (path) defined in field 2 of the **SYSTEM** file entries are saved.
 
 If field 1 of an account record in the **SYSTEM** file has a value of **DX** then the account is skipped unless the **-a** option is used.
+
+Backups cannot be created under an account that is being backed up. This prevents accounts from growing incrementally.
 
 Command line options override environment variable settings.
 
@@ -58,7 +59,7 @@ $EnvVar The value of the specified Environment Variable
 %d      Internal date
 %t      Internal time
 %k      Creates a unique Key
-%m      Month number (1 to 12) for end-of-month designations
+%m      Month number (1 to 12)
 %h      Hostname
 %s      Directory separator ("/" or "\" depending on platform)
 %%      A literal "%" (a single "%" is ignored)
