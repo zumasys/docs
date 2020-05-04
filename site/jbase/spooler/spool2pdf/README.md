@@ -20,7 +20,7 @@ This document covers the use of the jBASE **Spool2pdf** utility and is intended 
 
     On Windows, the [**DOSPrinter**](http://www.dosprinter.net/) command is installed and visible system wide via the PATH environment variable. **DOSPrinter** is a commercial product not affiliated with jBASE.  
 2. Ensure jBASE is installed, appropriately licensed, and the jBASE spooler has been created with [SP-NEWTAB](./../sp-newtab).
-3. Download the [spool2pdf.zip](https://s3.amazonaws.com/helpjuice-static/helpjuice_production%2Fuploads%2Fupload%2Fimage%2F3397%2Fdirect%2F1522776828082-spool2pdf.zip) package and use the appropriate distribution for your platform. The package contains:
+3. Download the [spool2pdf.zip](https://github.com/zumasys/docs/releases/download/v0.5/spool2pdf.zip) package and use the appropriate distribution for your platform. The package contains:
 
 - **jPDF.b** – This program is the device driver that creates the PDF files from spooler output
 - **ParseOptions.b**– This function is used by the jPDF driver to parse the options
