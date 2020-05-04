@@ -123,13 +123,13 @@ The jBASE installer is an interactive script-based installer. The installer will
 
 ![jbase-linux-installation-guide: blob](./blob-8.jpg)
 
-1. The installer checks operating system compatibility, then verifies that all of the required Linux commands used during installation are available. Once the pre-installation tests are complete, a welcome message is displayed. Press enter to start the installation. ![jbase-linux-installation-guide: blob](./blob-8a.jpg)
+2. The installer checks operating system compatibility, then verifies that all of the required Linux commands used during installation are available. Once the pre-installation tests are complete, a welcome message is displayed. Press enter to start the installation. ![jbase-linux-installation-guide: blob](./blob-8a.jpg)
 
-2. Type W if your company is within the EU, otherwise type O if outside the EU. Then press Enter.![jbase-linux-installation-guide: blob](./blob-10.jpg)
+3. Type W if your company is within the EU, otherwise type O if outside the EU. Then press Enter.![jbase-linux-installation-guide: blob](./blob-10.jpg)
 
-3. Press spacebar to page down through the license agreement, then type YES to accept and continue.![jbase-linux-installation-guide: blob](./blob-8b.jpg))
+4. Press spacebar to page down through the license agreement, then type YES to accept and continue.![jbase-linux-installation-guide: blob](./blob-8b.jpg))
 
-4. Choose an installation type.
+5. Choose an installation type.
 
 jBASE provides two installation modes, **Express** and **Advanced**.
 
@@ -138,9 +138,11 @@ jBASE provides two installation modes, **Express** and **Advanced**.
 **Advanced**: allows you to select which features and services to install. Select this option if you need to customize the location of the SYSTEM file, administrator account, or jBASE spooler, or if you do not want some of these features installed.  Also select this option to select which optional services to install (jDLS and jRCS).  
 ![jbase-linux-installation-guide: blob](./blob-8c.jpg)
 
-1. Type an installation path or press Enter to choose the default /opt/jbase/5.5.1 directory.
+6. Type an installation path or press Enter to choose the default /opt/jbase/5.5.1 directory.
 
-Applies to: **Express,** **Advanced**![jbase-linux-installation-guide: blob](./blob-13.jpg)
+Applies to: **Express,** **Advanced**  
+
+![jbase-linux-installation-guide: blob](./blob-13.jpg)
 
 7. If the installer is able to locate an existing jBASE installation, the previous release directory will also be shown on this page. The installer will look for existing installations at the location pointed to by the JBCRELEASEDIR environment variable, as well as commonly used directories for past jBASE releases.
 
@@ -150,7 +152,9 @@ The installer will validate the specified installation directory. If it is a new
 
 If you are performing an Express mode install, the parent of the installation directory will be used as the location for the SYSTEM file, the JBASEADM account and jBASE spooler. For example, if jBASE is installed in the default directory, the parent is '/opt/jbase', so the SYSTEM file will be created as '/opt/jbase/SYSTEM'.
 
-8. Then press Y and then Enter to confirm![jbase-linux-installation-guide: blob](./blob-14.jpg)
+8. Then press Y and then Enter to confirm  
+
+![jbase-linux-installation-guide: blob](./blob-14.jpg)
 
 9. Specify a name for a symbolic link for the new release or press Enter to accept the default. The symbolic link name is typically used for the JBCRELEASEDIR environment variable. For jBASE, the default symbolic link name is 'CurrentVersion'.
 
@@ -158,55 +162,85 @@ If the installer identified a previous jBASE release, the symbolic link name for
 
 Express install will use the default symbolic link name 'CurrentVersion'.
 
-Applies to: **Advanced**![jbase-linux-installation-guide: blob](./blob-15.jpg)
+Applies to: **Advanced**  
 
-10. Then press Y to confirm.![jbase-linux-installation-guide: blob](./blob-16.jpg)
+![jbase-linux-installation-guide: blob](./blob-15.jpg)
+
+10. Then press Y to confirm.  
+
+![jbase-linux-installation-guide: blob](./blob-16.jpg)
 
 11. Specify a Linux user ID to own the jBASE system files, or press Enter to accept the default jbaseadm user account. If the user does not exist, the installer will create the user for you. Press Y to confirm.
 
-Applies to: **Express,** **Advanced**![jbase-linux-installation-guide: blob](./blob-17.jpg)
+Applies to: **Express,** **Advanced**  
+
+![jbase-linux-installation-guide: blob](./blob-17.jpg)
 
 12. Enter a password for the Linux user, and again for verification.
 
-Applies to: **Express,** **Advanced**![jbase-linux-installation-guide: blob](./blob-18.jpg)
+Applies to: **Express,** **Advanced**  
+
+![jbase-linux-installation-guide: blob](./blob-18.jpg)
 
 13. Specify a group ID for the jBASE system files, or press Enter to accept the default jBASE group ID. Then press Y to confirm.
 
-Applies to: **Express,** **Advanced**![jbase-linux-installation-guide: blob](./blob-19.jpg)
+Applies to: **Express,** **Advanced**  
+
+![jbase-linux-installation-guide: blob](./blob-19.jpg)
 
 14. Here you can choose optional tasks to complete during installation, or choose the default to complete all tasks. Options include:
 
-**Create JBASEADM a****ccount for a****dministrative functions** The JBASEADM account can be used to perform jBASE administrative tasks such as creating or deleting other jBASE accounts.
+#### Create JBASEADM account for administrative functions  
 
-**Create SYSTEM file to organize jBASE accounts** In jBASE, the SYSTEM file is optional. However, using a SYSTEM file provides a convenient way to organize your jBASE accounts, and is required for using Q-pointers and the LOGTO command in your jBASE applications.
+The JBASEADM account can be used to perform jBASE administrative tasks such as creating or deleting other jBASE accounts.
 
-**Start jDLS distributed locking service** jDLS is responsible for resolving all record locking conflicts for jBASE processes. If jDLS is not running, jBASE will use the normal operating system locks. This is acceptable for small user populations, but the operating system locking mechanism has limits on the number of locks available, and on performance. See the [Introduction to jBASE Distributed Locking](./../../../miscellaneous/introduction-to-distributed-locking/README.md) for more information regarding jDLS.
+#### Create SYSTEM file to organize jBASE accounts  
 
-**Start jRCS remote connectivity service** The jBASE Remote Connectivity Server (jRCS) provides remote access to your jBASE system. jBASE System Manager uses this service to perform management tasks on your jBASE system. By default, the jRCS server listens on TCP port 8236. See the [jBASE Remote Connectivity Service knowledgebase article](./../../../connectivity/jbase-remote-connectivity-server-(jrcs)/README.md) for more information regarding jRCS.
+In jBASE, the SYSTEM file is optional. However, using a SYSTEM file provides a convenient way to organize your jBASE accounts, and is required for using Q-pointers and the LOGTO command in your jBASE applications.
 
-### Note
+#### Start jDLS distributed locking service
 
-The jRemote client is located in /opt/jbase/CurrentVersion/clients
+jDLS is responsible for resolving all record locking conflicts for jBASE processes. If jDLS is not running, jBASE will use the normal operating system locks. This is acceptable for small user populations, but the operating system locking mechanism has limits on the number of locks available, and on performance. See the [Introduction to jBASE Distributed Locking](./../../../miscellaneous/introduction-to-distributed-locking/README.md) for more information regarding jDLS.
 
-**Initialize the print spooler** Select this option to initialize the default print spooler configuration after a new installation. For upgrade installations, this option will restart the print spooler instead.
+#### Start jRCS remote connectivity service  
 
-Applies to: **Advanced**![jbase-linux-installation-guide: blob](./blob-20.jpg)
+The jBASE Remote Connectivity Server (jRCS) provides remote access to your jBASE system. jBASE System Manager uses this service to perform management tasks on your jBASE system. By default, the jRCS server listens on TCP port 8236. See the [jBASE Remote Connectivity Service knowledgebase article](./../../../connectivity/jbase-remote-connectivity-server-(jrcs)/README.md) for more information regarding jRCS.
+
+#### Note
+
+> The jRCS client is located in /opt/jbase/CurrentVersion/clients/csjrcs
+
+#### Initialize the print spooler  
+
+Select this option to initialize the default print spooler configuration after a new installation. For upgrade installations, this option will restart the print spooler instead.
+
+Applies to: **Advanced**  
+
+![jbase-linux-installation-guide: blob](./blob-20.jpg)
 
 15. Please specify the directory where jBASE user data will be stored, or press Enter to accept the default directory: /opt/jbase. Then press Y to accept the directory.
 
-Applies to: **Advanced**![jbase-linux-installation-guide: blob](./blob-21.jpg)
+Applies to: **Advanced**  
+
+![jbase-linux-installation-guide: blob](./blob-21.jpg)
 
 16. In order to complete the installation you will need to enter your jBASE license key. jBASE cannot be installed without either a permanent or evaluation license key. If you are performing an upgrade, the installer will attempt to locate your existing license keys and allow you to reuse them. Type the letter for the license type and enter the license key to continue.
 
-Applies to: **Express,** **Advanced**![jbase-linux-installation-guide: blob](./blob-22.jpg)
+Applies to: **Express,** **Advanced**  
+
+![jbase-linux-installation-guide: blob](./blob-22.jpg)
 
 17. Specify the TCP port to use for the jBASE Remote Connectivity Server (jRCS), or press Enter to use the default port 8236. Then press Y to accept.
 
-Applies to: **Advanced**![jbase-linux-installation-guide: blob](./blob-23.jpg)
+Applies to: **Advanced**  
+
+![jbase-linux-installation-guide: blob](./blob-23.jpg)
 
 18. If you opt to start the jDLS service, you can select port-based or process-based locks or press Y to choose the default process-based locks. See the [Introduction to jBASE Distributed Locking](./../../../miscellaneous/introduction-to-distributed-locking/README.md) for more information regarding jDLS.
 
-Applies to: **Advanced**![jbase-linux-installation-guide: blob](./blob-24.jpg)
+Applies to: **Advanced**  
+
+![jbase-linux-installation-guide: blob](./blob-24.jpg)
 
 19. After verifying the information displayed on the summary page, type Y to begin the installation process. The following tasks will be completed.
 
@@ -223,13 +257,17 @@ Applies to: **Express,** **Advanced**
 - Create the SYSTEM file (if option is selected)
 - Initialize the spooler (if option is selected and performing a new install)
 - Create the JBASEADM account (if option is selected)
-- Update /etc/init.d with scripts to start jDLS, jRCS, jSPOOL daemons (if option is selected) ![jbase-linux-installation-guide: blob](./blob-25.jpg)
+- Update /etc/init.d with scripts to start jDLS, jRCS, jSPOOL daemons (if option is selected)  
+
+![jbase-linux-installation-guide: blob](./blob-25.jpg)
 
 20. Congratulations, jBASE is now successfully installed. Press Y to login as JBASEADM.
 
 If you have a local firewall installed on this server, it may prevent network users from connecting to the application. Your system administrator may need to allow access to TCP port 8236.
 
-Applies to: **Express,** **Advanced**![jbase-linux-installation-guide: blob](./blob-26.jpg)
+Applies to: **Express,** **Advanced**  
+
+![jbase-linux-installation-guide: blob](./blob-26.jpg)
 
 ### Upgrading from a Previous Version
 
