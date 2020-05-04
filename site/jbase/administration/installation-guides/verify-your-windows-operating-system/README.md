@@ -14,9 +14,11 @@ You should see the details highlighted as below;
 
 ## Windows 8/8.1
 
-Click the Start button, search for Computer, right-click This PC and choose Properties.   ![verify-your-windows-operating-system: win8_start](./win8_start.jpg)
+Click the Start button, search for Computer, right-click This PC and choose Properties.  
 
-![verify-your-windows-operating-system: untitled2](./untitled2.jpg)![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3397/108654/win8_properties.jpg)
+![verify-your-windows-operating-system: win8_start](./win8_start.jpg)
+
+![verify-your-windows-operating-system: untitled2](./untitled2.jpg)![windows 8 sytem proprties](./win8_properties.jpg))
 
 ## Windows 10
 
@@ -36,7 +38,7 @@ Click the start button, right-click Computer and choose Properties.
 
 Click the start menu, right-click this PC, choose Properties
 
-![verify-your-windows-operating-system: win8_menu](./win8_menu.jpg)![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3397/108662/2012r2.jpg)
+![verify-your-windows-operating-system: win8_menu](./win8_menu.jpg)![windows 2012 system properties](./2012r2.jpg)
 
 Back to [Installation Guides](./../README.md).
 

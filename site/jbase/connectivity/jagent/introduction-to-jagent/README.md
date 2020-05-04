@@ -1,4 +1,4 @@
-# Introduction TO jAGENT
+# Introduction to jAgent
 
 <PageHeader />
 

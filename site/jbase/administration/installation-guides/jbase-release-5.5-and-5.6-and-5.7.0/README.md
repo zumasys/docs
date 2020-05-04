@@ -1,4 +1,4 @@
-# jBASE Release 5.5, 5.6, 5.7.0 (except 5.6.6)
+# jBASE Release 5.5, 5.6, 5.7.0 through 5.7.6 (except 5.6.6)
 
 <PageHeader />
 

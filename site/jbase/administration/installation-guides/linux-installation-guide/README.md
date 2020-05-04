@@ -123,22 +123,22 @@ The jBASE installer is an interactive script-based installer. The installer will
 
 ![jbase-linux-installation-guide: blob](./blob-8.jpg)
 
-2. The installer checks operating system compatibility, then verifies that all of the required Linux commands used during installation are available. Once the pre-installation tests are complete, a welcome message is displayed. Press enter to start the installation. ![](https://s3.amazonaws.com/screensteps_live/image_assets/assets/000/179/375/original/307c5313-c01e-4d10-a8a4-8d464b36e32b.png?AWSAccessKeyId=AKIAJRW37ULKKSXWY73Q&Expires=1489165724&Signature=gyd7j%2BmOg66bekOuuEE2ihOphmI%3D)![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3397/108925/blob)
+1. The installer checks operating system compatibility, then verifies that all of the required Linux commands used during installation are available. Once the pre-installation tests are complete, a welcome message is displayed. Press enter to start the installation. ![jbase-linux-installation-guide: blob](./blob-8a.jpg)
 
-3. Type W if your company is within the EU, otherwise type O if outside the EU. Then press Enter.![jbase-linux-installation-guide: blob](./blob-10.jpg)
+2. Type W if your company is within the EU, otherwise type O if outside the EU. Then press Enter.![jbase-linux-installation-guide: blob](./blob-10.jpg)
 
-4. Press spacebar to page down through the license agreement, then type YES to accept and continue.![](https://s3.amazonaws.com/screensteps_live/image_assets/assets/000/179/379/original/10067fd9-8c92-483c-9ffd-94936019fb8c.png?AWSAccessKeyId=AKIAJRW37ULKKSXWY73Q&Expires=1489165724&Signature=AB%2FTLhDi31CJ2frMe8c92MQbKrI%3D)![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3397/108927/blob)
+3. Press spacebar to page down through the license agreement, then type YES to accept and continue.![jbase-linux-installation-guide: blob](./blob-8b.jpg))
 
-5. Choose an installation type.
+4. Choose an installation type.
 
 jBASE provides two installation modes, **Express** and **Advanced**.
 
 **Express**: install jBASE with typical options and services. Select this option if you are new to jBASE and wish to get started quickly. Express mode installs jBASE, creates a jBASE Administrator user and account, creates a SYSTEM file to organize jBASE accounts, initializes the spooler, installs and starts jBASE services.
 
 **Advanced**: allows you to select which features and services to install. Select this option if you need to customize the location of the SYSTEM file, administrator account, or jBASE spooler, or if you do not want some of these features installed.  Also select this option to select which optional services to install (jDLS and jRCS).  
-![](https://s3.amazonaws.com/screensteps_live/image_assets/assets/000/179/425/original/428a1486-f0cf-462c-b57f-06d6d6d73fa1.png?AWSAccessKeyId=AKIAJRW37ULKKSXWY73Q&Expires=1489165724&Signature=z9%2Bd%2BS0XAxNB4N8IzCeYe1P1NZY%3D)![](https://static.helpjuice.com/helpjuice_production/uploads/upload/image/3397/108929/blob)
+![jbase-linux-installation-guide: blob](./blob-8c.jpg)
 
-6. Type an installation path or press Enter to choose the default /opt/jbase/5.5.1 directory.
+1. Type an installation path or press Enter to choose the default /opt/jbase/5.5.1 directory.
 
 Applies to: **Express,** **Advanced**![jbase-linux-installation-guide: blob](./blob-13.jpg)
 
@@ -315,5 +315,4 @@ You may also email devsup@jbase.com and visit [http://www.jbase.com/support/](ht
 
 Back to [Installation Guides](./../README.md).
 
-  
 <PageFooter />

@@ -70,7 +70,7 @@ A failed request from Edge looks like
 
 
 
-If you get any type of page response then jAgent is running.  If you are not getting a connection you should go to the next section and run jAgent in the foreground.  You should also review the jAgent [documentation](https://jbase.helpjuice.com/30312-jagent/introduction-to-jagent)
+If you get any type of page response then jAgent is running.  If you are not getting a connection you should go to the next section and run jAgent in the foreground.  You should also review the jAgent [documentation](./../../../jbase/connectivity/jagent/introduction-to-jagent/README.md)
 
 ## Run jAgent in the Foreground
 
@@ -331,7 +331,4 @@ The primary one is a jshow -v WRESTEST is shown.  This allows you to see your f
 
 This should handle most connection issues you will run into.  If you have your rest service being called but is generating errors please refer to the documentation on debugging your Rest Service.
 
-
-
-  
 <PageFooter />
