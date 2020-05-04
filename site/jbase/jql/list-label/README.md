@@ -77,4 +77,6 @@ COL,ROW,SKIP,INDENT,SIZE,SPACE(,C): 2,5,2,0,25,4,C
 
 Back to [jQL](./../jbase-query-language/README.md)
 
+Back to [jQL Cross Reference](./../jql-keyword-cross-reference/README.md)  
+
 <PageFooter />

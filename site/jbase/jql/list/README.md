@@ -80,4 +80,6 @@ Produce the report on the currently assigned printer.
 
 Back to [jQL](./../jbase-query-language/README.md)
 
+Back to [jQL Cross Reference](./../jql-keyword-cross-reference/README.md)
+
 <PageFooter />

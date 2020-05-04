@@ -43,7 +43,7 @@
 | [BREAK-SUP](./break-sup/README.md) | Define a non-displayed break control item|
 | [BREAK.ON](,/../break-on/README.md) | Synonym for BREAK-ON |
 | [BREAK.SUP](./break-sup/README.md) | Synonym for BREAK-SUP
-| BSELECT |
+| [BSELECT](./../bselect/README.md) |  Creates a select list based on output specifications.  |  
 | BY |
 | BY-DSND |
 | BY-EXP |
@@ -66,7 +66,7 @@
 | COL.SPCS |
 | COL.SUP |
 | CONV |
-| COUNT |
+| [COUNT](./../count/README.md) | Counts records. |  
 | COUNT-SUPP |
 | COUNT.SUP |
 | COUNT.SUPP |
@@ -83,12 +83,12 @@
 | DISPLAYLIKE |
 | DISPLAYNAME |
 | EACH |
-| EDELETE |
+| [EDELETE](./../edelete/README.md) | Deletes selected records from a file. |
 | ENUM |
 | ENUMERATE |
 | EQ |
 | EQUAL |
-| ESEARCH |
+| [ESEARCH](.//../esearch/README.md) | Searches records for specified strings. |
 | EVAL |
 | EVERY |
 | FILE | Throwaway |
@@ -106,7 +106,7 @@
 | HDR.SUP |
 | HEADER |
 | HEADING |
-| I-DUMP |
+| [I-DUMP](./../i-dump-and-s-dump/README.md) | Outputs the entire contents of items. |
 | ID-SUPP |
 | ID.ONLY |
 | ID.SUP |
@@ -119,12 +119,12 @@
 | JACSELECT |
 | LE |
 | LIKE |
-| LIST |
-| LIST-ITEM |
-| LIST-LABEL |
-| LIST.ITEM |
-| LIST.LABEL |
-| LPTR |
+| [LIST](.//../list/README.md) | Generates a formatted report of records and fields from a specified file. |  
+| [LIST-ITEM](./../list-item/README.md) | Outputs the contents of items. |  
+| [LIST-LABEL](./../list-label/README.md) | Outputs data in a format suitable for producing labels. |  
+| [LIST.ITEM](./../list-item/README.md) | Synonym for LIST-ITEM |  
+| [LIST.LABEL](.//../list-label/README.md) | Synonym for LIST-LABEL |  
+| [LPTR](./lptr/README.md) | Direct report to a printer |
 | [LT](./lt/README.md)| Less than |
 | MARGIN |
 | MATCH |
@@ -155,7 +155,7 @@
 | PERCENTAGE |
 | PG |
 | PRINT | Throwaway |
-| REFORMAT |
+| [REFORMAT](.//../reformat/README.md) | Generates a formatted report of records and fields to a file or tape. |
 | REQUIRE-INDEX |
 | REQUIRE-SELECT |
 | REQUIRE.INDEX |
@@ -167,19 +167,20 @@
 | SAMPLED |
 | SAMPLING |
 | SAVING |
-| SELECT |
+| [SDUMP](./../i-dump-and-s-dump/README.md) | Outputs the entire contents of items in sorted order |
+| [SELECT](.//../select/README.md) | Generates a list of record keys or specified fields based on the criteria specified. |  
 | SELECT-ONLY |
 | SELECT.ONLY |
 | SINGLE.VALUE |
 | SINGLEVALUED |
-| SORT |
-| SORT-ITEM |
-| SORT-LABEL |
+| [SORT](.//../sort/README.md) | Generates a sorted formatted report of records and fields from a specified file. |  
+| SORT-ITEM |  |  
+| [SORT-LABEL](.//../sort-label/README.md) | Outputs data in a format suitable for producing labels. |
 | SORT.ITEM |
-| SORT.LABEL |
+| [SORT.LABEL](.//../sort-label/README.md) | Synonym for SORT-LABEL |  
 | SPOKEN |
-| SREFORMAT |
-| SSELECT |
+| [SREFORMAT](.//../sreformat/README.md) | Generates a sorted formatted report of records and fields to a file or tape. |
+| [SSELECT](.//../sselect/README.md) | Generates an sorted list of record keys or fields based on the criteria specified. |  
 | ST-DUMP |
 | STAT |
 | SUBVALUE |

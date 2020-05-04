@@ -46,4 +46,6 @@ Selects all records in the SALES file in which the S.CODE field contains ABC, an
 
 Back to [jQL](./../jbase-query-language/README.md)
 
+Back to [jQL Cross Reference](./../jql-keyword-cross-reference/README.md)
+
 <PageFooter />
