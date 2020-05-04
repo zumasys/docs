@@ -119,7 +119,7 @@
 | JACSELECT |
 | LE |
 | LIKE |
-| [LIST](.//../list/README.md) | Generates a formatted report of records and fields from a specified file. |  
+| [LIST](./../list/README.md) | Generates a formatted report of records and fields from a specified file. |  
 | [LIST-ITEM](./../list-item/README.md) | Outputs the contents of items. |  
 | [LIST-LABEL](./../list-label/README.md) | Outputs data in a format suitable for producing labels. |  
 | [LIST.ITEM](./../list-item/README.md) | Synonym for LIST-ITEM |  
@@ -155,7 +155,7 @@
 | PERCENTAGE |
 | PG |
 | PRINT | Throwaway |
-| [REFORMAT](.//../reformat/README.md) | Generates a formatted report of records and fields to a file or tape. |
+| [REFORMAT](./../reformat/README.md) | Generates a formatted report of records and fields to a file or tape. |
 | REQUIRE-INDEX |
 | REQUIRE-SELECT |
 | REQUIRE.INDEX |
@@ -168,19 +168,19 @@
 | SAMPLING |
 | SAVING |
 | [SDUMP](./../i-dump-and-s-dump/README.md) | Outputs the entire contents of items in sorted order |
-| [SELECT](.//../select/README.md) | Generates a list of record keys or specified fields based on the criteria specified. |  
+| [SELECT](./../select/README.md) | Generates a list of record keys or specified fields based on the criteria specified. |  
 | SELECT-ONLY |
 | SELECT.ONLY |
 | SINGLE.VALUE |
 | SINGLEVALUED |
-| [SORT](.//../sort/README.md) | Generates a sorted formatted report of records and fields from a specified file. |  
+| [SORT](./../sort/README.md) | Generates a sorted formatted report of records and fields from a specified file. |  
 | SORT-ITEM |  |  
-| [SORT-LABEL](.//../sort-label/README.md) | Outputs data in a format suitable for producing labels. |
+| [SORT-LABEL](./../sort-label/README.md) | Outputs data in a format suitable for producing labels. |
 | SORT.ITEM |
-| [SORT.LABEL](.//../sort-label/README.md) | Synonym for SORT-LABEL |  
+| [SORT.LABEL](./../sort-label/README.md) | Synonym for SORT-LABEL |  
 | SPOKEN |
-| [SREFORMAT](.//../sreformat/README.md) | Generates a sorted formatted report of records and fields to a file or tape. |
-| [SSELECT](.//../sselect/README.md) | Generates an sorted list of record keys or fields based on the criteria specified. |  
+| [SREFORMAT](./../sreformat/README.md) | Generates a sorted formatted report of records and fields to a file or tape. |
+| [SSELECT](./../sselect/README.md) | Generates an sorted list of record keys or fields based on the criteria specified. |  
 | ST-DUMP |
 | STAT |
 | SUBVALUE |
