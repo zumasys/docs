@@ -24,8 +24,8 @@ All built-in methods start with "\$".
 - [\$keys()](./../method-$keys%28%29)
 - [\$lasterror()](./../method-$lasterror%28%29)
 - [\$locate()](./../method-$locate%28%29)
-- [\$merge()](./../method-$merge%28%29-arrays) -- arrays
 - [\$merge()](./../method-$merge%28%29-objects) -- objects
+- [\$merge()](./../method-$merge%28%29-arrays) -- arrays
 - [\$objecttype()](./../method-$objecttype%28%29)
 - [\$prepend()](./../method-$prepend%28%29)
 - [\$refcount()](./../method-$refcount%28%29)
@@ -34,8 +34,8 @@ All built-in methods start with "\$".
 - [\$setnull()](./../method-$setnull%28%29)
 - [\$setserialize()](./../method-$setserialize%28%29)
 - [\$size()](./../method-$size%28%29)
-- [\$sort()](./../method-$sort%28%29-arrays) -- arrays
 - [\$sort()](./../method-$sort%28%29-objects) -- objects
+- [\$sort()](./../method-$sort%28%29-arrays) -- arrays
 - [\$split() / \$slice()](./../method-$split%28%29-&-$slice%28%29)
 - [\$tojson()](./../method-$tojson%28%29)
 - [\$valuetype()](./../method-$valuetype%28%29)
