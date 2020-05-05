@@ -7,7 +7,7 @@
 - [PN5\_60652](./pn5_60652/README.md) - Enhancements to the jShell dot stacker
 - [PN5\_60653](./pn5_60653/README.md) - Implement memory-based I/O operations
 - [PN5\_60654](./pn5_60654/README.md) - Change the way the MD is created with the **create-account** command
-- [PN5\_60655](./pn5_60655/README.md) - **OCONV(/README.md)** difference in Sequoia emulation
+- [PN5\_60655](./pn5_60655/README.md) - **OCONV()** difference in Sequoia emulation
 - [PN5\_60656](./pn5_60656/README.md) - Add an option to the **jshow** command to display information about the jBASE system
 - [PN5\_60657](./pn5_60657/README.md) - Stop the compiler from adjusting the casing of a subroutine
 - [PN5\_60658](./pn5_60658/README.md) - jQL: I-type dictionaries do not recognize **@TM**
@@ -42,7 +42,7 @@
 - [PN5\_60700](./pn5_60700/README.md) - Execution of Paragraphs to pass back the values to the SETTING variable
 - [PN5\_60701](./pn5_60701/README.md) - **jDLS -L** does not display the lock table
 - [PN5\_60702](./pn5_60702/README.md) - jQL crashes when TOTAL'ing an **A;IF/THEN** in dict&lt;7&gt;
-- [PN5\_60703](./pn5_60703/README.md) - Indexes: Lookup conversion codes (other than times and dates/README.md) are not applied to queries
+- [PN5\_60703](./pn5_60703/README.md) - Indexes: Lookup conversion codes (other than times and dates) are not applied to queries
 - [PN5\_60704](./pn5_60704/README.md) - Suppress character echo on input
 - [PN5\_60705](./pn5_60705/README.md) - SQL: Extended ACSII characters using SQLSELECT
 - [PN5\_60706](./pn5_60706/README.md) - jQL: Issue with using duplicate association member in queries
