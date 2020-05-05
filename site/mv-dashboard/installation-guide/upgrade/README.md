@@ -13,7 +13,8 @@ To upgrade MV Dashboard:
 1. Perform a full filesave on your multivalue system or, at a minimum, perform an account-save of the MVDB account. Any changes you may have made to the dashboards, templates, widgets and widget subroutines provided with the MV Dashboard application will be copied to a CLASHES file within the MVDB account.
 2. Create a backup of the Dashboard’s docroot directory. This will allow you to re-apply any themes or images you have added or any changes you have made to the installed .css files.
 3. (UNIX Only) Uninstall your current copy of MV Dashboard. See [Uninstalling the Dashboard](https://docs.jbase.com/33938-mvconnect/uninstalling-mv-dashboard-unix) for specific uninstallation instructions for your platform. Note that you should *not*remove the account or user.
-4. Install the latest Dashboard version. See [I](https://jbase.helpjuice.com/admin/questions/introduction-to-mv-connect#_bookmark1)nstalling the Dashboard for specific instructions for your platform.
+4. Install the latest Dashboard version. 
+   a. See the following for specific instructions for your platform:  
     - [UNIX](https://docs.jbase.com/33938-mvconnect/mv-dashboard-unix-installation-guide)
     - [Windows](https://docs.jbase.com/33938-mvconnect/mv-dashboard-windows-installation-guide)
 5. Reconfigure your database connection. See [MV Dashboard Configuration](https://docs.jbase.com/33938-mvconnect/mv-dashboard-configuration) for instructions.

@@ -1,8 +1,8 @@
-# jBASE Release 5.5, 5.6, 5.7.0 (except 5.6.6)
+# jBASE Release 5.5, 5.6, 5.7.0 through 5.7.6 (except 5.6.6)
 
 <PageHeader />
 
-The compiler installer for jBASE release 5.5, 5.6 and 5.7.0 which is invoked by the jBASE installer is not functional at this time, and should not be used to install the compiler for these releases. Instead, an updated compiler installer [jbase\_compiler\_update\_64bit.exe](https://s3.amazonaws.com/helpjuice-static/helpjuice_production%2Fuploads%2Fupload%2Fimage%2F3397%2Fdirect%2F1534457477362-jbase_compiler_update_64bit.exe) should be used.
+The compiler installer for jBASE release 5.5, 5.6 and 5.7.0 which is invoked by the jBASE installer is not functional at this time, and should not be used to install the compiler for these releases. Instead, an updated compiler installer [jbase\_compiler\_update\_64bit.exe](https://github.com/zumasys/docs/releases/download/v0.5/jbase_compiler_update_64bit.exe) should be used.
 
 *Note: if you are installing jBASE on Windows 8 (not 8.1) or Windows Server 2012 (not R2), please follow this [link](./../windows-server-2012-and-windows-8-compiler-installation/README.md) to install a compatible version of Visual Studio BEFORE installing jBASE. Then follow the steps below.*
 The steps are:

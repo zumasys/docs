@@ -25,7 +25,7 @@ Assuming a clean Windows platform for all of this, run the jBASE 5.7 installer a
 - [Download evaluation of Accuterm Terminal Emulator](https://www.zumasys.com/atfiles/downloads/at7/atw73a.exe)
 - [Install and configure Accuterm](https://www.zumasys.com/atfiles/manuals/at7/AccuTerm-7-User-Manual.pdf)
 - Download training files
-  - [wychbooks.zip](https://s3.amazonaws.com/helpjuice-static/helpjuice_production%2Fuploads%2Fupload%2Fimage%2F3397%2Fdirect%2F1548303493356-wychbooks.zip)
+  - [wychbooks.zip](https://github.com/zumasys/docs/releases/download/v0.5/wychbooks.zip)
 
 Be sure to select the “Desktop development with C++” option along with the “.NET desktop development”.  The options shown should be sufficient for the purposes of these videos.  If the Visual Studio 2017 Build Tools have already been installed, then the “Desktop development with C++” option is not required.
 

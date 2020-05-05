@@ -53,6 +53,8 @@ Select all the records in SALES file with an S.CODE value that starts with ABC. 
 
 See also the [SELECT](./../select/README.md) command.
 
-Back to [jQL](./../jbase-query-language/README.md)
+Back to [jQL](./../jbase-query-language/README.md)  
+
+Back to [jQL Cross Reference](./../jql-keyword-cross-reference/README.md)  
   
 <PageFooter />
