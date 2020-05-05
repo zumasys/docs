@@ -23,7 +23,7 @@ The optional second parameter is a **flags** value with is a bit mask as follows
 | Argument | Description |
 | --- | --- |
 | 0x00 | When merging objects, if there is a duplicate key, the **destination** object will replace the value in the **source** object. In other words, the **destination** object's properties unconditionally take precedence. |
-| 0x01 | When merging objects, if there is a duplicate key, the **source** object will be merged into the destination object. The source object's properties takes precedence and embedded objects are merged. This is the default behavior. |
+| 0x01 | When merging objects, if there is a duplicate key, the **source** object will be merged into the destination object. The **source** object's properties takes precedence and embedded objects are merged. This is the default behavior. |
 | 0x02 | When merging objects, if there is a duplicate key, the **source** object will replace the value in the **destination** object. In other words, the **source** object's properties unconditionally take precedence. This option is only valid when **0x01** is also set, hence if you wish to overwrite then the flag value would be **0x03**, i.e. the sum of 0x01 and 0x02. |
 
 If the second parameter is not specified, a default flag value of **0x01** is assumed, meaning we overwrite properties and merge embedded objects.
@@ -34,7 +34,7 @@ The merged object.
 
 ## Examples
 
-This code illustrates merging two objects with distinct properties.
+This code illustrates merging two objects with distinct properties:
 
 ```
 include jabba.h
@@ -242,7 +242,7 @@ Argument = 3
 }
 ```
 
-Note that an argument of **2** is ignored
+Note that an argument of **2** is ignored so the default behavior is taken.
 
 ## Notes
 
