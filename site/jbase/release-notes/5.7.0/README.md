@@ -12,7 +12,7 @@
 - [PN5\_60657](./pn5_60657/README.md) - Stop the compiler from adjusting the casing of a subroutine
 - [PN5\_60658](./pn5_60658/README.md) - jQL: I-type dictionaries do not recognize **@TM**
 - [PN5\_60661](./pn5_60661/README.md) - jQL: Unable to get Value Number from exploded sort using a dictionary subroutine
-- [PN5\_60662](./pn5_60662/README.md) - jQL: Unable to get Value Number from exploded sort using an A-type (10-line/README.md) dictionary
+- [PN5\_60662](./pn5_60662/README.md) - jQL: Unable to get Value Number from exploded sort using an A-type (10-line) dictionary
 - [PN5\_60663](./pn5_60663/README.md) - jQL: Unable to get Value Number from exploded sort using an I-type; **@NV** not recognized
 - [PN5\_60664](./pn5_60664/README.md) - Add persistent locks as an option to jBASE
 - [PN5\_60666](./pn5_60666/README.md)- jQL: The use of **LIST** would cause a memory leak
@@ -53,7 +53,7 @@
 - [PN5\_60713](./pn5_60713/README.md) - jbase\_agent not working as a service on Windows
 - [PN5\_60714](./pn5_60714/README.md) - jBC code with END followed by a comment would not compile
 - [PN5\_60715](./pn5_60715/README.md) - CREATE-FILE reports the wrong filename for the data section
-- [PN5\_60716](./pn5_60716/README.md) - Add optional parameters to REGEXP(/README.md) for case insensivity
+- [PN5\_60716](./pn5_60716/README.md) - Add optional parameters to REGEXP() for case insensivity
 - [PN5\_60717](./pn5_60717/README.md) - jshow enhancements
 - [PN5\_60718](./pn5_60718/README.md) - Allow Dynamic Objects to interact with the database
 - [PN5\_60720](./pn5_60720/README.md) - Unable to access encrypted Dynamic Files with Q- and F-pointers
@@ -67,7 +67,7 @@
 - [PN5\_60744](./pn5_60744/README.md) - New command to generate output of delimited values using jQL syntax
 - [PN5\_60746](./pn5_60746/README.md) - jQL: Repeat function with A/F-correlatives only processes first multi-value
 - [PN5\_60747](./pn5_60747/README.md) - Utilities: The **config-strings**command failed to display emulation lines after commented lines
-- [PN5\_60748](./pn5_60748/README.md) - JDLS not respecting port-based locking on Windows
+- [PN5\_60748](./pn5_60748/README.md) - jDLS not respecting port-based locking on Windows
 
 ## New Commands
 
