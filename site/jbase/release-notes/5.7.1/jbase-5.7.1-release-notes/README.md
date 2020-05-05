@@ -6,7 +6,7 @@
 
 - [PN5\_60750](./../pn5_60750/README.md) - jBASE hangs when run from java
 - [PN5\_60751](./../pn5_60751/README.md) - Improve the case insensitivity option for the compiler
-- [PN5\_60752](./../pn5_60752/README.md) - Prevent the compiler giving 'Unassigned Variable' warnings for the parameters passed with DEFFUN(/README.md)
+- [PN5\_60752](./../pn5_60752/README.md) - Prevent the compiler giving 'Unassigned Variable' warnings for the parameters passed with DEFFUN()
 - [PN5\_60753](./../pn5_60753/README.md) - Support $INSERT and INSERT as compiler directives
 - [PN5\_60754](./../pn5_60754/README.md) - jQL: Issues with F-correlative only returning the first multi-value in ROS emulation
 - [PN5\_60757](./../pn5_60757/README.md) - **PRINTER CLOSE** prevents the **FOOTING** text from being printed on the last page of a print job
