@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 jBC: Allow the jBC debugger to access EQUATE'd variables
-
-
 
 ### Previous Release Behavior
 
@@ -33,8 +31,6 @@ No variables to match expression 'x'
 jBASE debugger->
 ```
 
-
-
 ### Current Release Behavior
 
 ```
@@ -49,5 +45,6 @@ jBASE debugger->/x
 jBASE debugger->
 ```
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

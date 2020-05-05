@@ -21,7 +21,6 @@ would display the the "x" value until the system ran out of memory.
 
 The above code now returns "" (null).
 
-Back to [5.7.2 Release Notes](./../README.md)
-
+Back to [5.7.2 Release Notes](./../jbase-5.7.2.1-release-notes/README.md)
   
 <PageFooter />

@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 SQL: Extended ACSII characters using SQLSELECT
-
-
 
 ### Previous Release Behavior
 
@@ -16,11 +14,10 @@ Using extended characters, char(128) to char(250), within quoted strings would c
 Parse Error: expecting ''"'', found '0xC3'.
 ```
 
-
-
 ### Current Release Behavior
 
 ASCII characters, char(128) to char(250), should now be allowed within quoted strings.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 CREATE-FILE reports the wrong filename for the data section
-
-
 
 ### Previous Release Behavior
 
@@ -21,8 +19,6 @@ jsh home ~ -->
 
 The file would be created correctly but the CREATE-FILE command was picking up attribute 2 of MD entry and reporting that as the name of the data section.
 
-
-
 ### Current Release Behavior
 
 ```
@@ -32,5 +28,6 @@ jsh home ~ -->CREATE-FILE LIST 1 1
 jsh home ~ -->
 ```
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

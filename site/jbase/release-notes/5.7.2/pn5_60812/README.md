@@ -14,7 +14,6 @@ The **md\_int\_only** setting did not apply to MR conversions.
 
 Setting the new **md\_int\_only\_emulate\_jbase3\_clone** configuration option in ROS emulation allows the MR conversion to match the jBASE 3 behavior.
 
-Back to [5.7.2 Release Notes](./../README.md)
+Back to [5.7.2 Release Notes](./../jbase-5.7.2.1-release-notes/README.md)
 
-  
 <PageFooter />

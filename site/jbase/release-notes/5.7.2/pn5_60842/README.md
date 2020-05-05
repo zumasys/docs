@@ -22,7 +22,6 @@ a) SP-LIST now waits for user input after the Queue listing if no option are spe
 
 b) Only 1 spooler report is produced
 
-Back to [5.7.2 Release Notes](./../README.md)
-
+Back to [5.7.2 Release Notes](./../jbase-5.7.2.1-release-notes/README.md)
   
 <PageFooter />

@@ -22,7 +22,6 @@ In order to process all files in the current directory, you now have to specify 
 jrf *
 ```
 
-Back to [5.7.1 Release Notes](./../README.md)
-
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
   
 <PageFooter />

@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Implement memory-based I/O operations.
-
-
 
 ### Previous Release Behavior
 
@@ -61,5 +59,6 @@ unset JBC_RAMFILE      [Unix/Linux]
 set JBC_RAMFILE=       [Windows]
 ```
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)  
   
 <PageFooter />

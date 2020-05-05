@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Unable to stack KEY-SELECTs
-
-
 
 ### Previous Release Behavior
 
@@ -30,11 +28,10 @@ KEY-SELECT GMN WITH STATE "OR"
 
 The second KEY-SELECT would ignore the select-list created by the first KEY-SELECT.
 
-
-
 ### Current Release Behavior
 
 KEY-SELECT/QUERY-INDEX/ISELECT now operate off of the active select-list, regardless of how the select-list was generated.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

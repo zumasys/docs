@@ -2,17 +2,13 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Spooler: New command to create a script for regenerating the spooler form queue definitions
-
-
 
 ### Previous Release Behavior
 
 In a situation where the spooler had to be rebuilt, there was no intrinsic utility to regenerate the form queue definitions.
-
-
 
 ### Current Release Behavior
 
@@ -25,5 +21,6 @@ create-form-queues      [Unix/Linux]
 create-form-queues.bat  [Windows]
 ```
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

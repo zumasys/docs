@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Correct TJ memory access violations when the record key or transaction information exceeds 16k
-
-
 
 ### Previous Release Behavior
 
@@ -26,11 +24,10 @@ OR
 
 Then when the transaction journal data is accessed , we will get memory violations.
 
-
-
 ### Current Release Behavior
 
 No memory violations.
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

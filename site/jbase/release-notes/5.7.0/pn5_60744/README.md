@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Create new command to generate delimited values using jQL syntax
 
@@ -12,7 +12,9 @@ There was no such utility.
 
 ### Current Release Behavior
 
-A new command, **jexport**, generates output of delimited values using jQL syntax. Output can be to a file, stdout or the spooler.
+A new command, **jexport**, generates output of delimited values using jQL syntax.  
+
+Output can be to a file, stdout or the spooler.
 
 ```
 Syntax: jexport {options} filename {sort-criteria} {selection-critera} {output-specs} {LPTR}
@@ -75,5 +77,6 @@ JEXPORT -D@csv -F .\members.txt -o MEMBERS WITH STATE "OH" BY LASTNAME BY FIRSTN
 jexport -f /tmp/active_customers -d@vm CUSTOMERS WITH ACTIVITY BY-DSND TOTAL_SALES CUSTNAME TOTAL_SALES
 ```
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

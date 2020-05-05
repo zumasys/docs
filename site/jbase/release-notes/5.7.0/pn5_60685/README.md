@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 QSELECT and FORM-LIST commands do not allow quoted arguments without spaces between the arguments
-
-
 
 ### Previous Release Behavior
 
@@ -20,8 +18,6 @@ jsh home ~ -->FORM-LIST MD "LIST""SORT"
  ** Error [ 202 ] **
 Record LIST""SORT is not on file
 ```
-
-
 
 ### Current Release Behavior
 
@@ -61,5 +57,6 @@ Requires the Config\_EMULATE option **put\_spaces\_between\_quoted\_arguments** 
 
 This option is not added to any emulation by default.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

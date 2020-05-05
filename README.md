@@ -46,9 +46,9 @@ To run the application locally:
 1. `npm install` (Not necessary on subsequent builds)
 1. To enable all features you'll need to set up environment variables. Create `.env` (for production) and `.env.development` (for development) files in the `site` folder. Use the `.env.skel` file as your baseline (for both production and development).
    * In order to configure Search with the [Algolia DocSearch](https://docsearch.algolia.com/) you'll need to add the appropriate credentials.  
-   
+
    > `cd site && code .env`
-   
+
    ```dotenv
    # Environment Variables
    VUE_APP_ALGOLIA_API_KEY=MyAPIKey
@@ -56,9 +56,9 @@ To run the application locally:
    ```
 
    * Optionally, if you want the [Vssue](https://vssue.js.org/) plugin to work you'll have to populate the following `.env` variables in the file from step 5.
-   
+
    > `cd site && code .env`
-   
+
    ```dotenv
    # Environment Variables
    VUE_APP_GITHUB_CLIENT_ID=MyClientKey

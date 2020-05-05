@@ -16,7 +16,6 @@ Because the process is executed from a java application it did not have a valid 
 
 jBASE now checks if it is valid jBASE process before trying to get at any stacked input.
 
-Back to [5.7.1 Release Notes](./../README.md)
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
 
-  
 <PageFooter />

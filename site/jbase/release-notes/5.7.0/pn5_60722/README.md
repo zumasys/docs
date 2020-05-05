@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 jAgent: Add new convenience options to jbase\_agent
-
-
 
 ### Current Release Behavior
 
@@ -15,7 +13,6 @@ New option syntax is:
 - --config   [default]
 - --config=path
 - --config=extension
-
 
 ```
 --config
@@ -32,5 +29,6 @@ New option syntax is:
   will cause jbase_agent to look in JBCRELEASEDIR/config for a file called, jagent_config_odbc.
 ```
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

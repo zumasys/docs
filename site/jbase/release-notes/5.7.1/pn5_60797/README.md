@@ -26,7 +26,12 @@ FAIL    SELECT FILE WITH ID EQ "2]"
 
 This is because the index is looking for a right ignore string match and the trailing wild card had not been trimmed.
 
-Back to [5.7.1 Release Notes](./../README.md)
+### Current Release Behavior
 
+All this change does is substitute [ and ] with ... if they are located at the start/end of the literal used for limiting.
+
+Selections now work correctly when using wildcards with index selections.
+
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
   
 <PageFooter />

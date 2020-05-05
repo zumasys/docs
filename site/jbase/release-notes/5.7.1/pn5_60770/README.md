@@ -51,7 +51,6 @@ set JBC_JPP2=nocase      [Windows]
 
 Note that for D3 emulations, this has been added as a default option and it now replaces the defunct option **compiler\_case\_insensitive\_variables\_keywords = true**
 
-Back to [5.7.1 Release Notes](./../README.md)
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
 
-  
 <PageFooter />

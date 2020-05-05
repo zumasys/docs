@@ -16,7 +16,6 @@ $INSERT and INSERT are now supported as synonyms for INCLUDE.
 
 This means the syntax is the same as INCLUDE, i.e. "INSERT ITEMID" or "INSERT FILENAME ITEMID"
 
-Back to [5.7.1 Release Notes](./../README.md)
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
 
-  
 <PageFooter />

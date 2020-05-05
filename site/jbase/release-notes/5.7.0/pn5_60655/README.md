@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 OCONV() difference in Sequoia emulation
-
-
 
 ### Previous Release Behavior
 
@@ -23,8 +21,6 @@ would return:
 17082]17089
 ```
 
-
-
 ### Current Release Behavior
 
 The above code now returns:
@@ -33,5 +29,6 @@ The above code now returns:
 07 OCT 2014
 ```
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

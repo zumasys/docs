@@ -14,7 +14,6 @@ Had to use **.sub** to call a function.
 
 Can now call a function directly.
 
-Back to [5.7.1 Release Notes](./../README.md)
-
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
   
 <PageFooter />

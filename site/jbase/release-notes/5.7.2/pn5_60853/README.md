@@ -25,7 +25,6 @@ However, for the emulations that support resizeable dimensioned arrays, the DIM 
 
 All dimensioned arrays passed via the SUBROUTINE statement are now correctly identified as dimensioned arrays.
 
-Back to [5.7.2 Release Notes](./../README.md)
+Back to [5.7.2 Release Notes](./../jbase-5.7.2.1-release-notes/README.md)
 
-  
 <PageFooter />

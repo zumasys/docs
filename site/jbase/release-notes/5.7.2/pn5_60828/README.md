@@ -4,7 +4,7 @@
 
 ## Description
 
-Add new options to the **jrf** command to be able to convert the case of a file
+Add new options to the **jrf** command to enable the case of a file to be converted.
 
 ### Previous Release Behavior
 
@@ -19,7 +19,6 @@ There are now 2 new options for converting files to/from case sensitive and case
   -U  Convert to Case Insensitive
 ```
 
-Back to [5.7.2 Release Notes](./../README.md)
+Back to [5.7.2 Release Notes](./../jbase-5.7.2.1-release-notes/README.md)
 
-  
 <PageFooter />

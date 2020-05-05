@@ -2,17 +2,13 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Enhancement: Add an option to the **jshow** command to display information about the jBASE system
-
-
 
 ### Previous Release Behavior
 
 The option didn't exist.
-
-
 
 ### Current Release Behavior
 
@@ -67,8 +63,6 @@ jsh home ~ -->jshow -d user 123 verbose
 [ Lots of screen output removed ]
 ```
 
-
-
 All the information displayed is readily available as a jBASE Dynamic Object using the **$system**class. For example, to display all your routines (and the OS shared objects that contain them) you can use the code below -- note that this is functionally equivalent to executing "jshow -d routine"
 
 ```
@@ -110,5 +104,6 @@ fbcentos-~/tmp5: test6
 [ Lots of lines removed ]
 ```
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

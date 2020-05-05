@@ -45,7 +45,6 @@ jbase-centos5-~/src/International/5.6.3.1: jpq ihproc
 jbase-centos5-~:
 ```
 
-Back to [5.7.1 Release Notes](./../README.md)
-
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
   
 <PageFooter />

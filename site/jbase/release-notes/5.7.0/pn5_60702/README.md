@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 jQL crashes when TOTAL'ing an A;IF/THEN in dict&lt;7&gt;
-
-
 
 ### Previous Release Behavior
 
@@ -28,8 +26,6 @@ ID: TOT.CHARGES
 
 would crash jQL.
 
-
-
 ### Current Release Behavior
 
 Allow A/S type dictionaries with A-correlatives in dict&lt;7&gt; to be used in totals.
@@ -42,10 +38,10 @@ This new behavior will only be applied if:
 - Attribute 7 is an a correlative
 - Last part of the conversion is some form of formatter, e.g.
 
-
 ```
 A;<<formula>>]formatter
 ```
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

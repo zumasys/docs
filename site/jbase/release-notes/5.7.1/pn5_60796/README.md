@@ -14,7 +14,6 @@ Dictionary conversions other than D, MT, MD and MR were being pre-processed in a
 
 Conversions other that D, MT, MD, MR are not called when comparing against a jQL selection.
 
-Back to [5.7.1 Release Notes](./../README.md)
-
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
   
 <PageFooter />

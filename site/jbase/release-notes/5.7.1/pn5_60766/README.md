@@ -31,7 +31,6 @@ Or add this on line 1 of your source:
 $option self
 ```
 
-Back to [5.7.1 Release Notes](./../README.md)
-
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
   
 <PageFooter />

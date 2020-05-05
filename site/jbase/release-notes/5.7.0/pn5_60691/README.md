@@ -2,17 +2,15 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 jRClient: JIndex start position ignored
-
-
 
 ### Previous Release Behavior
 
 As per the following C# code, specifying a start position on a jBASE index file would always result in the first item in the index being returned:
 
-```
+``` CSharp
        try
        {
            using (jf = _jc.OpenFile("UPC.REF"))
@@ -63,8 +61,6 @@ iKey = 1100327, rKey = 074999011354
 Number of keys read 51
 ```
 
-
-
 ### Current Release Behavior
 
 The start position on the jBASE index file is now recognised and the correct start key is returned:
@@ -80,5 +76,6 @@ iKey = 5612225, rKey = 008236034639
 Number of keys read 51
 ```
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

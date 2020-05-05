@@ -2,17 +2,13 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Add optional parameters to REGEXP() for case insensivity
-
-
 
 ### Previous Release Behavior
 
 REGEXP() had no options to handle case insensitivity.
-
-
 
 ### Current Release Behavior
 
@@ -23,5 +19,6 @@ INCLUDE JBC.h
 CRT "Match = " : REGEXP("Hello World", "WORLD" , REGEXP_ICASE + REGEXP_EXTENDED)
 ```
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

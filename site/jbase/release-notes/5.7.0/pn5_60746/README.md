@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 jQL: Repeat function with A/F-correlatives only processes first multi-value
-
-
 
 ### Previous Release Behavior
 
@@ -22,11 +20,10 @@ only the first MV returned was being used from attribute 3, causing the followin
 (Ttranslatefile;X;;4)
 ```
 
-
-
 ### Current Release Behavior
 
 All multi-values are processed.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

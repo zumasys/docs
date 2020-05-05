@@ -23,7 +23,6 @@ REPEAT
 
 No Segmentation Violation occurs and code runs as expected.
 
-Back to [5.7.2 Release Notes](./../README.md)
+Back to [5.7.2 Release Notes](./../jbase-5.7.2.1-release-notes/README.md)
 
-  
 <PageFooter />

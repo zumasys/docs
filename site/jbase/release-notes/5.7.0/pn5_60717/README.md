@@ -2,19 +2,15 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 **jshow** enhancements
-
-
 
 ### Previous Release Behavior
 
 In the last year or two, the **jshow** utility had fallen behind development, such as with case insensitivity and Dynamic Objects.
 
 This change re-vamps **jshow** to add all the missing features, some new features, and fix some existing bugs.
-
-
 
 ### Current Release Behavior
 
@@ -103,9 +99,12 @@ File path:                .
 File:                     /home/gregc/tmp/FB2X (from MD/VOC entry FB1)
 ```
 
-7) Better descriptions and finding Q and F pointers. When you look for a file, we provide better information regarding the location.
+7) Better descriptions and finding Q and F pointers.  
+
+When you look for a file, we provide better information regarding the location.
 
 In the above example, we show that file FB1 exists, but it is via an entry in the MD and actually points to file FB2X. So although we were looking for file FB1, jshow correctly reports that you would actually open file FB2X.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

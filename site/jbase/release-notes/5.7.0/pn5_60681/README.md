@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 jQL: **MCC** conversion code issues
-
-
 
 ### Previous Release Behavior
 
@@ -14,7 +12,6 @@ Two issues:
 
 1. The **MCC** code would consume all memory when there were @SVMs in the data.
 2. The **Umlaute** character would cause unpredictible behavior, e.g.
-
 
 ```
 001 A
@@ -35,11 +32,10 @@ Because "Umlaute" can have the same ASCII values as jBASE delimiters, using MCC 
 would cause unpredictable behavior.
 ```
 
-
-
 ### Current Release Behavior
 
 Both issues are fixed.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

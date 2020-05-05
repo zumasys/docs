@@ -73,7 +73,6 @@ Ian is in array at element 1
 Ian is in array at element 1
 ```
 
-Back to [5.7.2 Release Notes](./../README.md)
+Back to [5.7.2 Release Notes](./../jbase-5.7.2.1-release-notes/README.md)
 
-  
 <PageFooter />

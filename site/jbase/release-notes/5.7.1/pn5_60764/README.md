@@ -24,7 +24,6 @@ Parenthesis are optional. This is now supported
     DEFFUN MYFUNCTION
 ```
 
-Back to [5.7.1 Release Notes](./../README.md)
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
 
-  
 <PageFooter />

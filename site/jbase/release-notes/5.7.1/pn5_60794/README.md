@@ -19,7 +19,6 @@ READNEXT id, value:     would work
 
 This change does nothing more than check that there is something to assign a result to so that no crash occurs.
 
-Back to [5.7.1 Release Notes](./../README.md)
-
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
   
 <PageFooter />

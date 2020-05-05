@@ -14,7 +14,6 @@ Using "N" instead of "PA" in attribute 1 of a Paragraph, a login Paragraph was n
 
 "N" is now recognized as a valid synonym for Paragraphs when used in the login process.
 
-Back to [5.7.1 Release Notes](./../README.md)
-
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
   
 <PageFooter />

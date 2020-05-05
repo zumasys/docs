@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Paragraphs: Inline prompts on comment lines not processed in the correct sequence
-
-
 
 ### Previous Release Behavior
 
@@ -21,11 +19,10 @@ Given the following paragraph:
 
 the DISPLAY line would display before the inline prompt.
 
-
-
 ### Current Release Behavior
 
 Inline prompts on comment lines are processed in the correct sequence.
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

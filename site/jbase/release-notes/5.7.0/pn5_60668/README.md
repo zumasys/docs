@@ -2,17 +2,13 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 New commands to list or regenerate all indexes and/or triggers from all files in an account
-
-
 
 ### Previous Release Behavior
 
 There was no intrinsic way to display or regenerate indexes and triggers from all files in an account.
-
-
 
 ### Current Release Behavior
 
@@ -64,5 +60,6 @@ Options:
              Options are Case Insensitive.
 ```
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

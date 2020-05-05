@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 jQL: I-type dictionaries do not recognize @TM
-
-
 
 ### Previous Release Behavior
 
@@ -26,13 +24,11 @@ Error in attribute definition item FULLADDR
 Error in Itype: unexpected token: @TM
 ```
 
-
-
 ### Current Release Behavior
 
 @TM is now recognized as a valid I-type token.
 
-Note although that while @TM will be recognised and work fine, as in the above example, there are no plans to extend MV processing to the @TM level. Currently there is @VM and limited @SM level processing only.
+Note that although @TM will be recognised and work fine, as in the above example, there are no plans to extend MV processing to the @TM level. Currently there is @VM and limited @SM level processing only.
 
 Also, the length specification in the I-type must accommodate the longest data to prevent the Text Mark from appearing in the data. A recommended method would be:
 
@@ -44,5 +40,6 @@ Also, the length specification in the I-type must accommodate the longest data t
 005 30T
 ```
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

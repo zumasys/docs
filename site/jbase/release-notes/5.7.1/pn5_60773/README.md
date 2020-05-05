@@ -31,7 +31,6 @@ File:                     ./main]Msection
 jsh danielk ~ -->
 ```
 
-Back to [5.7.1 Release Notes](./../README.md)
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
 
-  
 <PageFooter />

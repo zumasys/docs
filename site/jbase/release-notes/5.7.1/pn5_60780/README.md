@@ -1,6 +1,6 @@
 # PN5_60780
 
-<PageHeader /> 
+<PageHeader />  
 
 ## Description
 
@@ -21,7 +21,6 @@ displayed "2" when it should have displayed "0" (zero) because null dynamic arra
 
 The MINIMUM() function now works correctly.
 
-Back to [5.7.1 Release Notes](./../README.md)
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
 
-  
 <PageFooter />

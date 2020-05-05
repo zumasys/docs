@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Indexes: A-correlative issue with missing semi-colon
-
-
 
 ### Previous Release Behavior
 
@@ -24,11 +22,10 @@ A;10(G1@2)
 
 would be fine.
 
-
-
 ### Current Release Behavior
 
 A-correlatives without semi-colons can now be used to create indexes.
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

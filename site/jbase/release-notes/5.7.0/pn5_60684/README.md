@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
-**mw42**drops to the debugger when an invalid option is supplied as the first argument
-
-
+**mw42** drops to the debugger when an invalid option is supplied as the first argument
 
 ### Previous Release Behavior
 
@@ -21,11 +19,10 @@ Line 216 , Source mw42.b
 jBASE debugger->
 ```
 
-
-
 ### Current Release Behavior
 
 **mw42** does not drop to the debugger; invalid options are now ignored.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

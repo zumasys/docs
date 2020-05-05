@@ -26,7 +26,6 @@ would.
 
 The keyword LIKE now pattern matches correctly with case insensitive record data.
 
-Back to [5.7.1 Release Notes](./../README.md)
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
 
-  
 <PageFooter />

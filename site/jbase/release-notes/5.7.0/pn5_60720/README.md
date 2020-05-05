@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Unable to access encrypted Dynamic Files with Q- and F-pointers
-
-
 
 ### Previous Release Behavior
 
@@ -25,11 +23,10 @@ Unknown decrypt algorithm in KEY
 No file name could be found for your query
 ```
 
-
-
 ### Current Release Behavior
 
 Q- and F-pointers can now access encrypted Dynamic Files.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

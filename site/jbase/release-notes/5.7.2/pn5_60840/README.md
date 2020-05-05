@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 PREWRITE trigger unable to amend the record on the file the trigger is on
-
-
 
 ### Previous Release Behavior
 
@@ -19,11 +17,10 @@ IF event EQ TRIGGER_TYPE_PREWRITE THEN record<6> = "prewritten"
 RETURN
 ```
 
-
-
 ### Current Release Behavior
 
 PREWRITE trigger is now able to amend the record.
 
-  
+Back to [5.7.2 Release Notes](./../jbase-5.7.2.1-release-notes/README.md)
+
 <PageFooter />

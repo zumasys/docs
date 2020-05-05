@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Allow **jdiag** to recognize the emulation from files of the form: Config\_EMULATE\_name
-
-
 
 ### Previous Release Behavior
 
@@ -24,8 +22,6 @@ When a file of this form is present in the $JBCRELEASEDIR/config (%JBCRELEASEDIR
 WARNING: JBCEMULATE Label 'name' not found in file 'C:\jbase5\config\Config_EMULATE'
 ```
 
-
-
 ### Current Release Behavior
 
 The warning now displays as:
@@ -34,9 +30,8 @@ The warning now displays as:
 WARNING: Using alternative emulation file 'C:\jbase5\config\Config_EMULATE_name'
 ```
 
-
-
 When creating a custom emulation, all entries must be entered explicitly, **dup** entries are not recognized.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

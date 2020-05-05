@@ -16,7 +16,6 @@ Some of the jBASE utilities were not working correctly with this security model.
 
 jBASE now employs a system wide security mode as described [here](./../../../encryption/jbase-encryption-database-security/README.md).
 
-Back to [5.7.1 Release Notes](./../README.md)
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
 
-  
 <PageFooter />

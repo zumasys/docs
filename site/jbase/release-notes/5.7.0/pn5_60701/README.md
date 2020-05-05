@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 jDLS -L does not display the lock table
-
-
 
 ### Previous Release Behavior
 
@@ -24,11 +22,10 @@ jdls: Error: Program called with no arguments - nothing to do
 
 In order to display the lock table, it was necessary to include the **-d** option.
 
-
-
 ### Current Release Behavior
 
 Issuing the **-L** option now implies the **-d** option and the lock table is properly displayed.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

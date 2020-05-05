@@ -2,15 +2,13 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Stale header data in JP files (Error number 2017)
 
 ### Previous Release Behavior
 
 The reason Error 2017 occurs is because the header in the group is stale. We keep a track of the **update number**, which is used for consistency. In a group with 4 frames, one frame may have an invalid update number showing it was stale information.
-
-
 
 ### Current Release Behavior
 
@@ -44,5 +42,6 @@ f) Delete the original file and rename the temporary file to the real actual fil
 
 By setting the environment variable **JEDI\_IGNORE\_UPDATE\_NO**, we ignore that error on the new file. This allows files to continue without a problem, but the data inside could be stale.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

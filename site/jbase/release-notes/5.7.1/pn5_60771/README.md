@@ -16,7 +16,6 @@ This value did not exist
 
 While jBASE does not have a structure called Process Identification Block, it does have a near equivalent, which is the slot taken by the licensing software, and this is the value returned.
 
-Back to [5.7.1 Release Notes](./../README.md)
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
 
-  
 <PageFooter />

@@ -8,7 +8,7 @@ PortBas issue with CASING OFF
 
 ### Previous Release Behavior
 
-Running PortBas on:
+Running PortBas on the following statement:
 
 ```
 CASING OFF
@@ -24,7 +24,6 @@ CASING Off
 
 PortBas retains the original code.
 
-Back to [5.7.1 Release Notes](./../README.md)
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
 
-  
 <PageFooter />

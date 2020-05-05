@@ -2,15 +2,13 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Enhancements to the jShell dot-stacker
 
 ### Previous Release Behavior
 
 The dot-stacker functionality and command set were extremely limited, the only commands initially available were .l, .c and .x, and the .c command was not fully functional.
-
-
 
 ### Current Release Behavior
 
@@ -46,5 +44,6 @@ Example:
 export JSH_COMMAND_STACK=username,100
 ```
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 jQL: Unable to get Value Number from exploded sort using an A-type (10-line) dictionary
-
-
 
 ### Previous Release Behavior
 
@@ -36,8 +34,6 @@ z                  1
 
 The **vn** column would always return 1.
 
-
-
 ### Current Release Behavior
 
 ```
@@ -51,5 +47,6 @@ x                  3
 z                  1
 ```
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

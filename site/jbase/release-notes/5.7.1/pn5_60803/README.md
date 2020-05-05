@@ -8,7 +8,7 @@ Q-pointer casing issue
 
 ### Previous Release Behavior
 
-Q-pointers could not resolve with a mixed-case account name and/or file name.
+Q-pointers could not resolve when using a mixed-case account name and/or file name.
 
 Previously something like this would fail.
 
@@ -37,7 +37,6 @@ Q-pointers now resolve regardless of the case of the account name and/or file na
 
 This change is only effective in D3 emulation.
 
-Back to [5.7.1 Release Notes](./../README.md)
-
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
   
 <PageFooter />

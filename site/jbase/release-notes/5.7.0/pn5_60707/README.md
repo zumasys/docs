@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 jQL: Date with embedded conversions produce wrong results
-
-
 
 ### Previous Release Behavior
 
@@ -22,8 +20,6 @@ Previously, the following dictionary conversion would fail:
 010 5
 ```
 
-
-
 ### Current Release Behavior
 
 The above conversion now works correctly, as well as other conversions of the form:
@@ -32,5 +28,6 @@ The above conversion now works correctly, as well as other conversions of the fo
 D2]<<conversion>>
 ```
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

@@ -88,7 +88,7 @@
 | ENUMERATE |
 | EQ |
 | EQUAL |
-| [ESEARCH](.//../esearch/README.md) | Searches records for specified strings. |
+| [ESEARCH](./../esearch/README.md) | Searches records for specified strings. |
 | EVAL |
 | EVERY |
 | FILE | Throwaway |
@@ -123,7 +123,7 @@
 | [LIST-ITEM](./../list-item/README.md) | Outputs the contents of items. |  
 | [LIST-LABEL](./../list-label/README.md) | Outputs data in a format suitable for producing labels. |  
 | [LIST.ITEM](./../list-item/README.md) | Synonym for LIST-ITEM |  
-| [LIST.LABEL](.//../list-label/README.md) | Synonym for LIST-LABEL |  
+| [LIST.LABEL](./../list-label/README.md) | Synonym for LIST-LABEL |  
 | [LPTR](./lptr/README.md) | Direct report to a printer |
 | [LT](./lt/README.md)| Less than |
 | MARGIN |

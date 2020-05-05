@@ -57,7 +57,6 @@ So you can configure the message for **STOPM** as you wish, as well as all the o
 
 The **STOPE** statement simply uses a message in the jbcmessages file whose item id is the first 'Expression', so in fact it operates exactly the same as **STOP**
 
-Back to [5.7.1 Release Notes](./../README.md)
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
 
-  
 <PageFooter />

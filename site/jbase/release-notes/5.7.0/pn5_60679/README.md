@@ -2,17 +2,13 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Add an option to the **create-account** command to set the emulation for the account.
-
-
 
 ### Previous Release Behavior
 
 The **create-account** command would always inherit the emulation from the environment of the current session. This created incompatibility issues when the account was created from the **jbaseadm** account, which uses the **jbase** emulation by default.
-
-
 
 ### Current Release Behavior
 
@@ -24,5 +20,6 @@ Example:
 create-account -e d3 COLLECTIONS
 ```
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

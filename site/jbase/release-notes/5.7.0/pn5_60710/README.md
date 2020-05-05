@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 jQL: NI operand returns zero
-
-
 
 ### Previous Release Behavior
 
@@ -28,11 +26,10 @@ SELECT file RANK
 
 would return 0's in the resulting select-list.
 
-
-
 ### Current Release Behavior
 
 The above SELECT returns non-zero (correct) entries.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

@@ -34,7 +34,6 @@ jsh ~ -->
 
 Embedded Value Marks are now handled correctly by the code translator.
 
-Back to [5.7.1 Release Notes](./../README.md)
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
 
-  
 <PageFooter />

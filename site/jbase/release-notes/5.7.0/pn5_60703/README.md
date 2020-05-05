@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Indexes: Lookup conversion codes (other than times and dates) are not applied to queries
-
-
 
 ### Previous Release Behavior
 
@@ -24,11 +22,10 @@ A dictionary like,
 
 would fail to select any data stored in an index.
 
-
-
 ### Current Release Behavior
 
 Add better support for conversions and correlatives to indexing and queries.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

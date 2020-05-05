@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Spooler: The **SETPTR** banner does not persist after being set by a previous **SETPTR**
-
-
 
 ### Previous Release Behavior
 
@@ -41,8 +39,6 @@ Initial Job State    : HOLD
 In the above example, the banner was reset to the default **P#0000**.
 
 The banner should have been kept as **wibble**, which is the default behavior on platforms that support the **SETPTR** command.
-
-
 
 ### Current Release Behavior
 
@@ -91,5 +87,6 @@ Destination printer  : /dev/lp0
 Initial Job State    : PRINT
 ```
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

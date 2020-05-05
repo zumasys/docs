@@ -27,7 +27,6 @@ However, this type query is tied to resources on the host OS and may see OS limi
 
 Internally there may be a call stack overflow as indexes are recursively selected and merged.
 
-Back to [5.7.1 Release Notes](./../README.md)
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
 
-  
 <PageFooter />

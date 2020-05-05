@@ -2,34 +2,31 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 FOOTING statement creates second print job after PRINTER CLOSE
-
-
 
 ### Previous Release Behavior
 
 Given this code:
 
 ```
-0001     EXECUTE "SP-ASSIGN HS"
-0002     PRINTER ON
-0003     HEADING "Heading"
-0004     FOOTING "Footing"
-0005     PRINT "Line 1"
-0006     PRINT "Line 2"
-0007     PRINTER OFF
-0008     PRINTER CLOSE
+EXECUTE "SP-ASSIGN HS"
+PRINTER ON
+HEADING "Heading"
+FOOTING "Footing"
+PRINT "Line 1"
+PRINT "Line 2"
+PRINTER OFF
+PRINTER CLOSE
 ```
 
 an additional blank page would be printed, creating a second Hold entry.
-
-
 
 ### Current Release Behavior
 
 No additional Hold entry with a blank page is created.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

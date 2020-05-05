@@ -2,13 +2,11 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Runtime: TERM settings don't persist
 
 This behavior can be enabled by setting, [term\_settings\_persist] in Config\_EMULATE and currently only affects anything ran from within a jsh.
-
-
 
 ### Previous Release Behavior
 
@@ -24,8 +22,6 @@ For example, the TERM settings would not be changed to 115,30 when the following
 005 P
 ```
 
-
-
 ### Current Release Behavior
 
 Added new configuration option, **term\_settings\_persist**. If this option is enabled, changes to the TERM layout will persist.
@@ -34,5 +30,6 @@ This behavior is only affective in the jShell.
 
 This option is now included in the D3 emulation.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

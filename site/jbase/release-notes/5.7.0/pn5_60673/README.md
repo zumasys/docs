@@ -2,17 +2,13 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Spooler: Create new FILE device type to send output to an Operating System file
-
-
 
 ### Previous Release Behavior
 
 There was no intrinsic method for depooling a print job directly to an operating system file. The only way it could be done was with the SP-EDIT command with the (I) option.
-
-
 
 ### Current Release Behavior
 
@@ -103,5 +99,6 @@ where:
     "marvin" is the user name
 ```
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

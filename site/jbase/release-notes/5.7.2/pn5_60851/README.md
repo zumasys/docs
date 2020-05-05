@@ -4,7 +4,7 @@
 
 ## Description
 
-Compiler parsing issue a function definition [DEFFUN] has the same name as a DIM() or COMMON array
+Compiler parsing issue when a function definition [DEFFUN] has the same name as a DIM() or COMMON array
 
 ### Previous Release Behavior
 
@@ -30,5 +30,6 @@ jcompile: Returned an error code of 8
 Return code = BASIC_ERROR
 ```
 
+Back to [5.7.2 Release Notes](./../jbase-5.7.2.1-release-notes/README.md)
   
 <PageFooter />

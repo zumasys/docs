@@ -2,17 +2,13 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Suppress character echo on input
-
-
 
 ### Previous Release Behavior
 
 HUSH ON would suppress both input and output; there was no ability to suppress input only.
-
-
 
 ### Current Release Behavior
 
@@ -28,5 +24,6 @@ HUSH INPUT - Suppress input only
 
 These commands are effective for both programs and procs.
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Spooler: SETPTR doesn't inherit Hold status from SP-ASSIGN
-
-
 
 ### Previous Release Behavior
 
@@ -41,8 +39,6 @@ LINE# OPTIONS  CP FORM# REPORT# QUEUENAME
 
 Notice the 'Print mode' from SETPTR lost the Hold status, also confirmed with the subsequent SP-ASSIGN ?
 
-
-
 ### Current Release Behavior
 
 ```
@@ -66,5 +62,6 @@ LINE# OPTIONS  CP FORM# REPORT# QUEUENAME
     1 HS        1     2       0 FILE
 ```
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

@@ -14,7 +14,6 @@ ODBC was not recognizing last value if it was null from an I-type dictionary
 
 We now check when there are less values that the requested one.
 
-Back to [5.7.1 Release Notes](./../README.md)
-
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
   
 <PageFooter />

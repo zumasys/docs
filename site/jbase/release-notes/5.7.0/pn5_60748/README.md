@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 jDLS not respecting port-based locking on Windows
-
-
 
 ### Previous Release Behavior
 
@@ -15,25 +13,29 @@ On Windows, when jDLS is started with port-based locking, programs EXECUTE'd fro
 In this example, LOCKTEST1 locks out LOCKTEST2, even though it is taking a lock on the same record in both programs:
 
 ```
-0001     PROGRAM LOCKTEST1
-0002     CRT "LOCKTEST1 running on port ":SYSTEM(18)
-0003     OPEN "MD" TO md ELSE STOP 201,"MD"
-0004     READU rec FROM md,"LIST" THEN
-0005         CRT 'Port ':SYSTEM(18):' has the lock'
-0006     END ELSE
-0007         STOP 202,"MD LIST"
-0008     END
-0009     EXECUTE "LOCKTEST2"
+PROGRAM LOCKTEST1
+CRT "LOCKTEST1 running on port ":SYSTEM(18)
+OPEN "MD" TO md ELSE STOP 201,"MD"
+READU rec FROM md,"LIST" THEN
+    CRT 'Port ':SYSTEM(18):' has the lock'
+END ELSE
+    STOP 202,"MD LIST"
+END
+EXECUTE "LOCKTEST2"
+```
 
-0001     PROGRAM LOCKTEST2
-0002     CRT "LOCKTEST2 running on port ":SYSTEM(18)
-0003     OPEN "MD" TO md ELSE STOP 201,"MD"
-0004     READU rec FROM md,"LIST" LOCKED
-0005         CRT "Record is locked on port ":SYSTEM(43)
-0006     END THEN
-0007         CRT "Record was not locked"
-0008     END
+```
+PROGRAM LOCKTEST2
+CRT "LOCKTEST2 running on port ":SYSTEM(18)
+OPEN "MD" TO md ELSE STOP 201,"MD"
+READU rec FROM md,"LIST" LOCKED
+    CRT "Record is locked on port ":SYSTEM(43)
+END THEN
+    CRT "Record was not locked"
+END
+```
 
+```
 jsh ~ -->LOCKTEST1
 Running on port 1
 Port 1 has the lock
@@ -41,8 +43,6 @@ LOCKTEST2 running on port 1
 Record is locked on port 1
 jsh ~ -->
 ```
-
-
 
 ### Current Release Behavior
 
@@ -59,5 +59,6 @@ The LOCKTEST1 program does not lock out LOCKTEST2.
 
 Note: This patch makes EXECUTEs compatible with SUBROUTINE calls that lock the same record from the same port number.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

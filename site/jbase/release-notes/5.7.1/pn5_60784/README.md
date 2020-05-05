@@ -4,7 +4,7 @@
 
 ## Description
 
-jQL: Commas in conversion changes sort to left justified in BY / BY-DSND
+jQL: Commas in conversion change sort to left justified in BY / BY-DSND
 
 ### Previous Release Behavior
 
@@ -16,7 +16,7 @@ MR0,
 
 would cause data to be in the wrong order.
 
-For example, "1001" was formated as
+For example, "1001" was formatted as
 
 ```
 1,001
@@ -32,7 +32,7 @@ causing the sort processor to put it at the top
 
 ### Current Release Behavior
 
-The order should be fine as the sort processor ignores formatting for numeric data, e.g.
+The order should now be fine as the sort processor ignores formatting for numeric data, e.g.
 
 ```
    10
@@ -40,7 +40,6 @@ The order should be fine as the sort processor ignores formatting for numeric da
 1,000
 ```
 
-Back to [5.7.1 Release Notes](./../README.md)
+Back to [5.7.1 Release Notes](./../jbase-5.7.1-release-notes/README.md)
 
-  
 <PageFooter />

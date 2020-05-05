@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Allow HEADINGs and FOOTINGs to use case insensitive special characters
-
-
 
 ### Previous Release Behavior
 
@@ -38,11 +36,10 @@ However, if you used lowercase special characters:
 
 then it would fail to display the correct header.
 
-
-
 ### Current Release Behavior
 
 HEADINGs and FOOTINGs can now use lowercase special characters.
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />

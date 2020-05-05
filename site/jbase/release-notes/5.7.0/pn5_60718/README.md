@@ -2,21 +2,19 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 Allow Dynamic Objects to interact with the database (allow READ and WRITE operations)
-
-
 
 ### Previous Release Behavior
 
 Attempting to WRITE a dynamic object resulted in a null record to be written to the file.
 
-
-
 ### Current Release Behavior
 
-These comments apply only to dynamic files, type JD.
+#### Note
+
+>These comments apply only to dynamic files, type JD.
 
 If you create a dynamic object and WRITE it to a dynamic file, it will now be serialised and tagged as a dynamic object. If that same item is then READ back in, the item is converted back to a dynamic object.
 
@@ -43,7 +41,7 @@ The editing utilities ED and JED have been amended to convert the object into a 
 
 For example, if we EDit the above example,
 
-```
+``` json
 C:\home>ed starwars 1
 1 (JSON Object)
 TOP
@@ -60,7 +58,7 @@ BOTTOM
 .
 ```
 
-Both ED and JED will not allow the item to be written if you include JSON code that is invalid. For example,
+Neither ED or jED will allow the item to be written if you include JSON code that is invalid. For example,
 
 ```
 .2
@@ -72,5 +70,6 @@ Error: Parsing error at line 2 , offset 9
 Record is not properly formatted JSON. Cannot WRITE record.
 ```
 
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
   
 <PageFooter />

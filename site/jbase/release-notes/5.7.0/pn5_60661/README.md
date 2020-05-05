@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-### Description
+## Description
 
 jQL: Unable to get Value Number from exploded sort using a dictionary subroutine.
-
-
 
 ### Previous Release Behavior
 
@@ -40,8 +38,6 @@ mvtest........    *a1...........    vn
 
 Nothing would display in the **vn** column.
 
-
-
 ### Current Release Behavior
 
 ```
@@ -54,5 +50,6 @@ mvtest........    *a1...........    vn
 1                 z                  3
 ```
 
-  
+Back to [jBASE 5.7.0 Release Notes](./../README.md)
+
 <PageFooter />
