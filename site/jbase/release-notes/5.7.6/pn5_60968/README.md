@@ -1,6 +1,6 @@
 # PN5_60968
 
-<PageHeader /> 
+<PageHeader />  
 
 ## Description
 
@@ -32,7 +32,6 @@ LOCATE(expression1, expression2{,expression3{,expression4{,expression5}}}; Var{;
 
 Where **expression5** indicates the field, value or subvalue from which the search will begin.
 
-Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+Back to [5.7.6 Release Notes](../jbase-5.7.6-release-notes/README.md)
 
-  
 <PageFooter />

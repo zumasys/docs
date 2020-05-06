@@ -14,7 +14,6 @@ In D3 emulation, issuing a **GET-LIST** on an exploded-list, i.e. a list with en
 
 Value-marks are retained.
 
-Back to [5.7.3 Release Notes](./../README.md)
-
+Back to [5.7.3 Release Notes](./../jbase-5.7.3-release-notes/README.md)
   
 <PageFooter />

@@ -27,7 +27,7 @@ $
 
 ### Current Release Behavior
 
-In these circumstances, the program no longer segmentation violations, but instead terminates cleanly
+In these circumstances, the program no longer generates segmentation violations, but instead terminates cleanly
 
 ```
 $ COUNT LOGSET1
@@ -41,7 +41,6 @@ No file name could be found for your query
 $
 ```
 
-Back to [5.7.4 Release Notes](./../README.md)
-
+Back to [5.7.4 Release Notes](./../jbase-5.7.4-release-notes/README.md)
   
 <PageFooter />

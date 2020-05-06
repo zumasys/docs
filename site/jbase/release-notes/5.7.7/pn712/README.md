@@ -18,6 +18,6 @@ SELECT @AUDIT IF EVENTOP EQ "12345678"
 
 The JEDI for the audit log has been improved and a 3x improvement in speed can be seen.
 
-Back to [5.7.7 release Notes](../jbase-5.7.7-release-notes/README.md)
+Back to [5.7.7 Release Notes](../jbase-5.7.7-release-notes/README.md)
   
 <PageFooter />

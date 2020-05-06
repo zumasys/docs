@@ -22,7 +22,6 @@ jsh ~ -->CREATE-FILE BP TYPE=JBC
 jsh ~ -->
 ```
 
-Back to [5.7.4 Release Notes](./../README.md)
-
+Back to [5.7.4 Release Notes](./../jbase-5.7.4-release-notes/README.md)
   
 <PageFooter />

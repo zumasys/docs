@@ -22,7 +22,6 @@ export JEDI_SECURE_LEVEL=3
 
 When this environment variable is set this way, all updates to the **jspool\_log** file (and any other j3 files created with SECURE=YES or if the secure mode is changed with **jchmod +S**) are flushed to disk immediately.
 
-Back to [5.7.4 Release Notes](./../README.md)
-
+Back to [5.7.4 Release Notes](./../jbase-5.7.4-release-notes/README.md)
   
 <PageFooter />

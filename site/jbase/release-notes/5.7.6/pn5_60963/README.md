@@ -21,7 +21,6 @@ ACCOUNT-SAVE : Skipping file 'ABC*DEF' in directory 'C:\jBASE\TESTACCT'
 
 All valid files with Windows reserved characters are saved.
 
-Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+Back to [5.7.6 Release Notes](../jbase-5.7.6-release-notes/README.md)
 
-  
 <PageFooter />

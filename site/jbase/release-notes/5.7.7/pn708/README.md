@@ -4,7 +4,7 @@
 
 ## Description
 
-Case insensitivity issue with CATALOG/DECATALOG of subroutines/functions/methods 
+Case insensitivity issue with CATALOG/DECATALOG of subroutines/functions/methods.  
 
 ## Previous Release Behavior
 
@@ -59,6 +59,6 @@ UPPERCASE or MixEdCaSE names are internally changed to lowercase
 
 This behavior is effective for subroutines, functions and methods and is triggered by the Config_EMULATE setting case_insensitive_os_file_ids = true.
 
-Back to [5.7.7 release Notes](../jbase-5.7.7-release-notes/README.md)
+Back to [5.7.7 Release Notes](../jbase-5.7.7-release-notes/README.md)
   
 <PageFooter />

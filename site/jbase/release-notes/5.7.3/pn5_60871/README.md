@@ -14,7 +14,6 @@ The default INPUT buffer was 1k [1024 bytes]
 
 The default INPUT buffer is now 32k [32768 bytes].
 
-Back to [5.7.3 Release Notes](./../README.md)
-
+Back to [5.7.3 Release Notes](./../jbase-5.7.3-release-notes/README.md)
   
 <PageFooter />

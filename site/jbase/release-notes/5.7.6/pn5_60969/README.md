@@ -1,6 +1,6 @@
 # PN5_60969
 
-<PageHeader /> 
+<PageHeader />  
 
 ## Description
 
@@ -39,7 +39,6 @@ Date.......    Time....    Error Message.................    Call Stack.........
 
 Thirdly, the root cause could be a momentary lack of resources. So to try to alleviate the errors, we will retry the fork() request up to 5 times before entering the debugger.
 
-Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+Back to [5.7.6 Release Notes](../jbase-5.7.6-release-notes/README.md)
 
-  
 <PageFooter />

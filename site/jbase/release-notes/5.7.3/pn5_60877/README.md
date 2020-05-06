@@ -14,7 +14,6 @@ If a **jbackup** is performed without the -c option on a file with indexes or ot
 
 Restore completes successfully.
 
-Back to [5.7.3 Release Notes](./../README.md)
-
+Back to [5.7.3 Release Notes](./../jbase-5.7.3-release-notes/README.md)
   
 <PageFooter />

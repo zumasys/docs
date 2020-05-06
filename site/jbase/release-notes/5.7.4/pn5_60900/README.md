@@ -23,8 +23,8 @@ The jBASE JSON parser insisted that the source text was an object or an array. T
 A JSON source text can now accept the 4 primitive types of JSON as text, as well as objects and arrays as previously. For example:
 
 ```
-   source = '"Hello World"'
- obj = source->$fromjson()
+source = '"Hello World"'
+obj = source->$fromjson()
 if obj->$isobject() then
    crt "We returned an object like this"
    crt obj->$tojson(1)
@@ -41,7 +41,6 @@ Hello World
 
 In the above example, the source for $fromjson() was neither an object nor array, so we don't return an object as such, hence $isobject() returns false. However, the source to $fromjson() is a recognised JSON primitive of "Hello World" and so we return the string "Hello World".
 
-Back to [5.7.4 Release Notes](./../README.md)
+Back to [5.7.4 Release Notes](./../jbase-5.7.4-release-notes/README.md)
 
-  
 <PageFooter />

@@ -19,7 +19,6 @@ set JSQL_IGNORE_JDPFLAGS=1     [Windows]
 export JSQL_IGNORE_JDPFLAGS=1  [Unix]
 ```
 
-Back to [5.7.3 Release Notes](./../README.md)
-
+Back to [5.7.3 Release Notes](./../jbase-5.7.3-release-notes/README.md)
   
 <PageFooter />

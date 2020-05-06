@@ -26,7 +26,6 @@ This would result in two lib0 shared libraries.
 
 The catalog process now checks that a new shared library (if required) has not already been allocated.
 
-Back to [5.7.3 Release Notes](./../README.md)
+Back to [5.7.3 Release Notes](./../jbase-5.7.3-release-notes/README.md)
 
-  
 <PageFooter />

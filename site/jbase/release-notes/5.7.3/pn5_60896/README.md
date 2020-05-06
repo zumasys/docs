@@ -10,7 +10,6 @@
 
 Prior to this patch, under certain conditions, **jshow -f** would erroneously report that a file was visible.
 
-Back to [5.7.3 Release Notes](./../README.md)
-
+Back to [5.7.3 Release Notes](./../jbase-5.7.3-release-notes/README.md)
   
 <PageFooter />

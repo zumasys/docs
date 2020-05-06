@@ -4,7 +4,7 @@
 
 ## Description
 
-Allow dynamic files (HASHD/JD) to support the network friendly flag
+Allow dynamic files (HASHD/jD) to support the network friendly flag
 
 ### Previous Release Behavior
 
@@ -44,7 +44,6 @@ $ jchmod -t myfile
 ./myfile +B -C +L -M +N -S +T -R
 ```
 
-Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+Back to [5.7.6 Release Notes](../jbase-5.7.6-release-notes/README.md)
 
-  
 <PageFooter />

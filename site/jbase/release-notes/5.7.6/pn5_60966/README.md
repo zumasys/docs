@@ -39,7 +39,6 @@ Polling 2 ports ...
 1 LOCKS CLEARED.
 ```
 
-Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+Back to [5.7.6 Release Notes](../jbase-5.7.6-release-notes/README.md)
 
-  
 <PageFooter />

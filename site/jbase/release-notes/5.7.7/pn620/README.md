@@ -30,6 +30,6 @@ CREATE-INDEX now ignores dict<7> (or dict<3> for I-types).
 
 When querying indexes with dictionaries that have a conversion (<7> or <3>) the matching data in the query is matched against the index data with the conversion subsequently applied. This means that the index is usable by dictionaries that do/don't have the conversion (although without the conversion the query matching values would also need to be based on the non-converted value).
 
-Back to [5.7.7 release Notes](../jbase-5.7.7-release-notes/README.md)
+Back to [5.7.7 Release Notes](../jbase-5.7.7-release-notes/README.md)
   
 <PageFooter />

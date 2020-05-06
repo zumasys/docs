@@ -21,7 +21,6 @@ IF LEN(VAL) EQ l THEN CRT 'Success' ELSE CRT 'Failure' ;! we would see "Failure"
 
 The length restriction has been removed and the above test would print "Success"
 
-Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+Back to [5.7.6 Release Notes](../jbase-5.7.6-release-notes/README.md)
 
-  
 <PageFooter />

@@ -14,7 +14,6 @@ None
 
 The **JConnection** class now allows a keep-alive value to be set.
 
-Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+Back to [5.7.6 Release Notes](../jbase-5.7.6-release-notes/README.md)
 
-  
 <PageFooter />

@@ -14,6 +14,6 @@ On Windows platforms, if the name of the system exceeded 15 characters, there wo
 
 jBASE now uses alternate system calls to find the host name and these do not have any such restriction, although jBASE has enforced an arbirary limit of 255 characters.
 
-Back to [5.7.7 release Notes](../jbase-5.7.7-release-notes/README.md)
+Back to [5.7.7 Release Notes](../jbase-5.7.7-release-notes/README.md)
   
 <PageFooter />

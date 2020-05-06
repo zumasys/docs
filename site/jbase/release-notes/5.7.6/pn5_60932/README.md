@@ -32,7 +32,6 @@ TASK STARTED ON LINE 6 FOR ACCOUNT Administrator Id 1893932350LHJF
 
 In this case, it was port number 6 that the process ran on when the **T** option was used.
 
-Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+Back to [5.7.6 Release Notes](../jbase-5.7.6-release-notes/README.md)
 
-  
 <PageFooter />

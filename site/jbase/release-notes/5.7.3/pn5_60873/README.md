@@ -67,7 +67,6 @@ The proc will continue execution after the **PATEST** paragraph has been execut
 para SCRIPTS PATEST
 ```
 
-Back to [5.7.3 Release Notes](./../README.md)
+Back to [5.7.3 Release Notes](./../jbase-5.7.3-release-notes/README.md)
 
-  
 <PageFooter />

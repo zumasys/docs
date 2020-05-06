@@ -8,7 +8,7 @@
 - [PN5\_60815](./../pn5_60815/README.md) - Paragraphs process inline prompts on commented lines
 - [PN5\_60820](./../pn5_60820/README.md) - jQL: IF/THEN/ELSE A-correlative does not process embedded conversions
 - [PN5\_60822](./../pn5_60822/README.md) - jQL: MV associations not correctly processing input/output conversions
-- [PN5\_60823](./../pn5_60823/README.md) - Segmentation violation using the jBC **CLEAR**statement in a tight loop
+- [PN5\_60823](./../pn5_60823/README.md) - Segmentation violation using the jBC **CLEAR** statement in a tight loop
 - [PN5\_60824](./../pn5_60824/README.md) - Dynamic Objects: New methods $merge() and $locate
 - [PN5\_60828](./../pn5_60826/README.md) - Add new options to the **jrf** command to be able to convert the case of a file
 - [PN5\_60835](./../pn5_60835/README.md) - Support the D3 file syntax of **"account,file,"**

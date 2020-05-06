@@ -16,7 +16,6 @@ This was primarily due to the jBASE **stat** command conflicting with the Linux 
 
 **listf -xml** produces correct xml output.
 
-Back to [5.7.4 Release Notes](./../README.md)
+Back to [5.7.4 Release Notes](./../jbase-5.7.4-release-notes/README.md)
 
-  
 <PageFooter />

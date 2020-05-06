@@ -14,7 +14,6 @@ Util: The **jtic** command produces a segmentation fault on Linux
 
 No more segmentation fault.
 
-Back to [5.7.3 Release Notes](./../README.md)
+Back to [5.7.3 Release Notes](./../jbase-5.7.3-release-notes/README.md)
 
-  
 <PageFooter />

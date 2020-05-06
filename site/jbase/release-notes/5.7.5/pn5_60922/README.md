@@ -20,7 +20,6 @@ The resulting select-list is sorted by the entries in the resulting list.
 
 This option can only be used if **d3\_list\_processing = true** is set in the **Config\_EMULATE** file.
 
-Back to [5.7.5 Release Notes](./../README.md)
+Back to [5.7.5 Release Notes](./../jbase-5.7.5-release-notes/README.md)
 
-  
 <PageFooter />

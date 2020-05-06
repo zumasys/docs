@@ -56,7 +56,6 @@ Executable: (DUP!!)       C:\danielk\bin\slash.exe
                           jBC main() source file c:\home\bp
 ```
 
-Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+Back to [5.7.6 Release Notes](../jbase-5.7.6-release-notes/README.md)
 
-  
 <PageFooter />

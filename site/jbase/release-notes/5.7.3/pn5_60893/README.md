@@ -33,7 +33,6 @@ Running the same program now displays:
 
 This patch is only applicable in Prime, Universe or Unidata emulations.
 
-Back to [5.7.3 Release Notes](./../README.md)
-
+Back to [5.7.3 Release Notes](./../jbase-5.7.3-release-notes/README.md)
   
 <PageFooter />

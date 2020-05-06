@@ -89,7 +89,6 @@ Error 2020: Distributed Files: Item Id malformed and cannot create part number
 
 >In both examples, we've used the ED command to show the error. Inside a jBC application, you can use the ON ERROR clause to return the error to the application rather than giving an error message to the screen
 
-Back to [5.7.4 Release Notes](./../README.md)
+Back to [5.7.4 Release Notes](./../jbase-5.7.4-release-notes/README.md)
 
-  
 <PageFooter />

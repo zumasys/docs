@@ -26,7 +26,6 @@ If a new license is installed using 5.7.4 or greater with this patch, and the nu
 
 However, if a new license is installed using 5.7.4 and the number of sessions/licenses is MORE than 255, then only the 5.7.4 users will see this change. For users on jBASE 5.7.3 or earlier they will see an indeterminate figure, and so will need to upgrade to 5.7.4
 
-Back to [5.7.4 Release Notes](./../README.md)
-
+Back to [5.7.4 Release Notes](./../jbase-5.7.4-release-notes/README.md)
   
 <PageFooter />

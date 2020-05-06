@@ -50,7 +50,6 @@ Hello, World!
 >
 >The current behavior is that it concatenates the lists regardless of their contents. This is now compatible with D3 behavior.
 
-Back to [5.7.4 Release Notes](./../README.md)
+Back to [5.7.4 Release Notes](./../jbase-5.7.4-release-notes/README.md)
 
-  
 <PageFooter />

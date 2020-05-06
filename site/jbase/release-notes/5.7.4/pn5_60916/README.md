@@ -14,7 +14,6 @@ If a SELECT statement references an attribute definition that returns a very lar
 
 Handling of a large number of multi-values is now optimized and the output-phase of SELECT should be almost immediate, regardless of how many values are involved.
 
-Back to [5.7.4 Release Notes](./../README.md)
+Back to [5.7.4 Release Notes](./../jbase-5.7.4-release-notes/README.md)
 
-  
 <PageFooter />

@@ -24,7 +24,6 @@ This behavior is activated by setting the following configuration option in the 
 format_mask_zero_returns_null = true
 ```
 
-Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+Back to [5.7.6 Release Notes](../jbase-5.7.6-release-notes/README.md)
 
-  
 <PageFooter />

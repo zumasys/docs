@@ -34,6 +34,6 @@ C:\home\bp>type test99
     CRT \This is a sentence with reserved words.\
 ```
 
-Back to [5.7.7 release Notes](../jbase-5.7.7-release-notes/README.md)
+Back to [5.7.7 Release Notes](../jbase-5.7.7-release-notes/README.md)
 
 <PageFooter />

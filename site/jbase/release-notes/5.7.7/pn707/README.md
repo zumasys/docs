@@ -14,6 +14,6 @@ The same port number could be used when background tasks are started simultaneou
 
 Unique port numbers are assigned to each task.
 
-Back to [5.7.7 release Notes](../jbase-5.7.7-release-notes/README.md)
+Back to [5.7.7 Release Notes](../jbase-5.7.7-release-notes/README.md)
   
 <PageFooter />

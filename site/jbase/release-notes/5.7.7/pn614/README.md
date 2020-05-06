@@ -39,6 +39,6 @@ These programs must be compiled in native jBASE emulation and are part of the Zu
 
 At run-time any F-correlative is converted using JQL_FCORR_CONV to transform it into a structure that JQL_FCORR_HANDLER will process subsequently using JQL_FCORR_TRANSLATE to do the actual work.
 
-Back to [5.7.7 release Notes](../jbase-5.7.7-release-notes/README.md)
+Back to [5.7.7 Release Notes](../jbase-5.7.7-release-notes/README.md)
   
 <PageFooter />

@@ -12,9 +12,8 @@ There is an entry in the emulation configuration file that defines the behaviour
 
 ### Current Release Behavior
 
-The emulation option works as specified
+The emulation option works as specified.  
 
-Back to [5.7.5 Release Notes](./../README.md)
+Back to [5.7.5 Release Notes](./../jbase-5.7.5-release-notes/README.md)
 
-  
 <PageFooter />

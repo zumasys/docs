@@ -24,7 +24,6 @@ ERROR opening file "my_bad_q_pointer"! Qpointer resolution count of 11 exceeds m
 
 Both commands are now working.
 
-Back to [5.7.6 release Notes](../jbase-5.7.6-release-notes/README.md)
+Back to [5.7.6 Release Notes](../jbase-5.7.6-release-notes/README.md)
 
-  
 <PageFooter />

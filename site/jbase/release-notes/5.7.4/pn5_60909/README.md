@@ -14,7 +14,6 @@ Several jBASE commands which require admin privileges would fail on Windows if t
 
 Commands requiring admin privileges will run on Windows without error if the user is a member of the admimistrators group, regardless of privilege elevation. **jServControl** continues to require elevated privileges due to Windows API constraints.
 
-Back to [5.7.4 Release Notes](./../README.md)
+Back to [5.7.4 Release Notes](./../jbase-5.7.4-release-notes/README.md)
 
-  
 <PageFooter />

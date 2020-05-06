@@ -381,7 +381,6 @@ A similar outcome would occur if you called $setcatch() like this:
     $jbase->$setcatch(5)
 ```
 
-Back to [5.7.3 Release Notes](./../README.md)
-
+Back to [5.7.3 Release Notes](./../jbase-5.7.3-release-notes/README.md)
   
 <PageFooter />

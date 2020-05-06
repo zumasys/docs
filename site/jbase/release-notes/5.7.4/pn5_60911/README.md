@@ -23,7 +23,6 @@ This was a very rare occurence, and the only time we have seen it (and been able
 
 The same test program now runs to completion error free.
 
-Back to [5.7.4 Release Notes](./../README.md)
-
+Back to [5.7.4 Release Notes](./../jbase-5.7.4-release-notes/README.md)
   
 <PageFooter />

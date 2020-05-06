@@ -18,6 +18,6 @@ switchAccount now clears the subroutine cache and picks up the correct subroutin
 
 This behavior was not restricted to switchAccount but anything that issued a JBASELogto(account, action) with an action other than "1" (which is what the LOGTO verb uses).
 
-Back to [5.7.7 release Notes](../jbase-5.7.7-release-notes/README.md)
+Back to [5.7.7 Release Notes](../jbase-5.7.7-release-notes/README.md)
   
 <PageFooter />

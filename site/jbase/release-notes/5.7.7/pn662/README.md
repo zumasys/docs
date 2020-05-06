@@ -22,6 +22,6 @@ which would return null because **cl.exe** is in a path that includes **C:\Progr
 
 The **jshow** commmand can now find files that include a **)** in the path.
 
-Back to [5.7.7 release Notes](../jbase-5.7.7-release-notes/README.md)
+Back to [5.7.7 Release Notes](../jbase-5.7.7-release-notes/README.md)
 
 <PageFooter />

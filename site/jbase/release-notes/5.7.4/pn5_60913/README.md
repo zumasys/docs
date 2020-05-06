@@ -24,7 +24,6 @@ WARNING:
 There are 2 copies of jlogdup restoring to the database simultaneously
 ```
 
-Back to [5.7.4 Release Notes](./../README.md)
+Back to [5.7.4 Release Notes](./../jbase-5.7.4-release-notes/README.md)
 
-  
 <PageFooter />

@@ -39,7 +39,6 @@ jBASE debugger->
 
 >The effective release for this patch is that of jBASE 5.7.2.2
 
-Back to [5.7.4 Release Notes](./../README.md)
-
+Back to [5.7.3 Release Notes](./../jbase-5.7.3-release-notes/README.md)
   
 <PageFooter />

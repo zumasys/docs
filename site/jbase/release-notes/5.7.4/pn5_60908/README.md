@@ -38,7 +38,6 @@ DECATALOG -d . test
 
 will only remove the object code if the current directory is "bp".
 
-Back to [5.7.4 Release Notes](./../README.md)
-
+Back to [5.7.4 Release Notes](./../jbase-5.7.4-release-notes/README.md)
   
 <PageFooter />

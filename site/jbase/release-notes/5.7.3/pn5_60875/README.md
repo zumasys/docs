@@ -16,7 +16,6 @@ For example, if the first index key value was **abc** and the second index key 
 
 All index key values are processed.
 
-Back to [5.7.3 Release Notes](./../README.md)
+Back to [5.7.3 Release Notes](./../jbase-5.7.3-release-notes/README.md)
 
-  
 <PageFooter />

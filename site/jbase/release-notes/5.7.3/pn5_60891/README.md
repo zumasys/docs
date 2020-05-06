@@ -41,7 +41,6 @@ CATALOG bp test_compiler_directive
 
 the output would be **This is a debug build**.
 
-Back to [5.7.3 Release Notes](./../README.md)
-
+Back to [5.7.3 Release Notes](./../jbase-5.7.3-release-notes/README.md)
   
 <PageFooter />
