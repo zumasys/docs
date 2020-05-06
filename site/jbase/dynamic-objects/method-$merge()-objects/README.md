@@ -110,7 +110,7 @@ equ beautify to 5
 pet = new object
 pet->name = "Shadow"
 traits = new object
-traits->name = "Shadow"
+traits->born = 1983
 traits->type = "African grey"
 pet->traits = traits
 
@@ -144,7 +144,7 @@ Initial value of 'pet':
 {
     "name":"Shadow",
     "traits":{
-        "name":"Shadow",
+        "born":1983,
         "type":"African grey"
     }
 }
@@ -167,7 +167,7 @@ Merged object:
 {
     "name":"Shadow",
     "traits":{
-        "name":"Shadow",
+        "born":1983,
         "type":"African grey",
         "talks":"yes",
         "colors":[
