@@ -44,11 +44,11 @@
 | [BREAK.ON](,/../break-on/README.md) | Synonym for BREAK-ON |
 | [BREAK.SUP](./break-sup/README.md) | Synonym for BREAK-SUP
 | [BSELECT](./../bselect/README.md) |  Creates a select list based on output specifications.  |  
-| BY |
-| BY-DSND |
+| [BY](./by/README.md) | Sort by ascending field value |
+| [BY-DSND](./by-dsnd/README.md) | Sort by descending field value |
 | BY-EXP |
 | BY-EXP-DSND |
-| BY.DSND |
+| [BY.DSND](./by-dsnd/README.md) | Synonym for BY-DSND |
 | BY.EXP |
 | BY.EXP.DSND |
 | CALC |
