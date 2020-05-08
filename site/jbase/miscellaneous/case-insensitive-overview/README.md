@@ -2,9 +2,6 @@
 
 <PageHeader />
 
-**Created At:** 6/1/2018 5:17:53 PM  
-**Updated At:** 1/21/2019 1:38:12 PM  
-
 ## Create Case Sensitivity Control
 
 Because jBASE already has many customers who rely on their applications running as they currently do we have the ability to switch any new behavior on and off. Within jBASE there is a config file that lets user tailor how jBASE behaves, although many of the changes are aimed at supporting case sensitivity much of the new behavior is generic enough to be of use to existing users, a good example is that jQL verbs no longer have to be all upper case.
@@ -294,3 +291,5 @@ For new users to jBASE there is now Pick style command stack in the jShell, .L, 
 Just enough to help with the transition.
 
 Back to [Miscellaneous](./../README.md)  
+
+<PageFooter />
