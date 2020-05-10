@@ -4,7 +4,7 @@
 
 ## Create Case Sensitivity Control
 
-Because jBASE already has many customers who rely on their applications running as they currently do we have the ability to switch any new behavior on and off. Within jBASE there is a config file that lets user tailor how jBASE behaves, although many of the changes are aimed at supporting case sensitivity much of the new behavior is generic enough to be of use to existing users, a good example is that jQL verbs no longer have to be all upper case.
+Because jBASE already has many customers who rely on their applications running as they currently do we have the ability to switch any new behavior on and off. Within jBASE there is a config file that lets users tailor how jBASE behaves. Although many of the changes are aimed at supporting case sensitivity, much of the new behavior is generic enough to be of use to existing users. A good example is that jQL verbs no longer have to be all upper case.
 
 To enable this behavior you would to simply set **case\_insensitive\_queries = true** in the **Config\_EMULATE** configuration file.
 
@@ -38,7 +38,7 @@ New utility: **jFormatCode**
 | <!----> | <!----> |
 | --- | --- |
 | Format existing code | jFormatCode -f myfile source\_name.b |
-| Reformat older code so it can be compiled in jBase | jFormatCode -p -f myfile source\_name.b |
+| Reformat older code so it can be compiled in jBASE | jFormatCode -p -f myfile source\_name.b |
 | Get some help | jFormatCode -? |
 
 Code reformatting follows the these simple rules
@@ -71,16 +71,16 @@ will 'fi'le, 'b'asic, 'c'atalog and call the code 't'ranslator.
 
 ### Runtime Strings (String comparison within a jBC process and jQL)
 
-At first glance this will look pretty straight forward as you could do something like:
+At first glance this will look pretty straight forward, as you could do something like:
 
 - my\_id = "abc" then
 - if my\_id = "ABC" then
 
-With case sensitivity enabled the case of a string should not matter, **abc** is **ABC**. In jBASE currently case does matter, it uses standard C libraries for pattern matching, in-fact for almost everything.
+With case sensitivity enabled the case of a string should not matter, **abc** is **ABC**. In jBASE currently, case does matter, it uses standard C libraries for pattern matching, in-fact for almost everything.
 
-To get over this issue whenever a string is assigned an upper case version of the string is also created. This version is used for all pattern matching, however when strings are to be displayed we use the original version.
+To get around this issue, whenever a string is assigned, an upper case version of the string is also created. This version is used for all pattern matching, however when strings are to be displayed we use the original version.
 
-A simple example in jbase could be as follows:
+A simple example in jBASE could be as follows:
 
 ```
 name = "Corwin"
@@ -94,11 +94,11 @@ When looking for "Corwin" in the list of names, we use "CORWIN", the list of nam
 
 ### Filename case
 
-All files listed on JEDIFILEPATH get added to an internal lookup, although this may seem like overkill internally whenever you try to open a file, jBASE will search all locations listed on JEDIFILEPATH until it opens the requested file. This will happen for every OPEN. Because the caching of filenames is only done when a new jBASE process starts, for most processes it should end up being a little more efficient as the internal cache of available files is also used by all child processes.
+All files listed on JEDIFILEPATH get added to an internal lookup, although this may seem like overkill. Internally, whenever you try to open a file, jBASE will search all locations listed on JEDIFILEPATH until it opens the requested file. This will happen for every OPEN. Because the cacheing of filenames is only done when a new jBASE process starts, for most processes it should end up being a little more efficient as the internal cache of available files is also used by all child processes.
 
-Typically most users may start by opening a jShell or some form of menu, any new processes started will always check cached names first.
+Typically, most users may start by opening a jShell or some form of menu, any new processes started will always check cached names first.
 
-There are exceptions, things like a new file is created by another user. In these cases files opened using the existing mechanisms and the cache is updated.
+There are exceptions, things like a new file is created by another user. In these cases, files are opened using the existing mechanisms and the cache is updated.
 
 This new behavior is controlled with the **case\_insensitive\_file\_ids** emulation option.
 
