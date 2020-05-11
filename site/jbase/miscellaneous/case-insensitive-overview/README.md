@@ -107,24 +107,46 @@ This new behavior is controlled with the **case\_insensitive\_file\_ids** emulat
 All files should now support case-less record IDs. For example,
 
 ```
-READ data FROM file, "abc" ELSE NULL READ data FROM file, “ABC” ELSE NULL
+READ data FROM file, "abc" ELSE NULL
+READ data FROM file, “ABC” ELSE NULL
 ```
 
-will return the same record.
+should return the same record.
 
-In order to be able to work with case insensitive record IDs, the files need to be created as case insensitive via the CASE=YES/NO option of [CREATE-FILE](./../../files/create-file/README.md).
+In order to be able to work with case insensitive record IDs, the file needs to be created as case insensitive via the CASE=NO option of [CREATE-FILE](./../../files/create-file/README.md).
 
-If necessary, [jrf](./../../files/jrf/README.md) can be used to revise the case-sensitivity of a file.
+If necessary, [jrf](./../../files/jrf/README.md) can be used to revise the case-sensitivity of an existing file.
 
-You can list which files currently support casing via LISTF.
+You can list which files currently support casing via [LISTF](./../../utilities/listf/README.md).
 
-| FILENAME | TYPE | MODULO | SEP | BCKUP | CASING |
-| ---      | ---  | ---    | --- | ---   | --- |
-| MYFILE]D | J4 | 3 | 1 | yes | no |
-| MYFILE | J4 | 691 | 1 | yes | yes |
-| CUSTOMERS | J4 | 691 | 1 | yes | no |
+```
+FILENAME.................................... TYPE   MODULO  SEP  BCKUP  INSENSITIVE  CRYPT
 
-Any files that support casing will be shown in the CASING column.
+&SAVEDLISTS&]D                                 JD        1    1    yes          no    no
+ &SAVEDLISTS&                                 DIR                  yes          no    no
+CURRENCY-TABLE]D                               JD        1    1    yes          no    no
+ CURRENCY-TABLE                                JD        1    1    yes          no    no
+CUSTOMER]D                                     JD        1    1    yes          no    no
+ CUSTOMER                                      JD       16    1    yes          no    no
+DEMOFILE]D                                     JD        1    1    yes         yes    no
+ DEMOFILE                                      JD        1    1    yes         yes    no
+INVENTORY]D                                    JD        1    1    yes          no    no
+ INVENTORY                                     JD        1    1    yes          no    no
+MD]D                                           J4       11    1    yes          no    no
+ORDERS]D                                       JD        1    1    yes          no    no
+ ORDERS                                        JD       32    1    yes          no    no
+PARTS]D                                        JD        1    1    yes          no    no
+ PARTS                                         JD        1    1    yes          no    no
+PGM]D                                          J4        3    1    yes          no    no
+ PGM                                          DIR                  yes          no    no
+PGM]MOBJECT                                    JD        1    1    yes          no    no
+SALES]D                                        JD        1    1    yes          no    no
+ SALES                                         JD        1    1    yes          no    no
+bin                                           DIR                  yes          no    no
+lib                                           DIR                  yes          no    no
+```
+
+Any files that support casing will be shown in the INSENSITIVE column.
 
 ## jQL
 
