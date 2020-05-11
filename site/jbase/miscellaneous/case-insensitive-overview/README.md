@@ -112,37 +112,9 @@ READ data FROM file, "abc" ELSE NULL READ data FROM file, “ABC” ELSE NULL
 
 will return the same record.
 
-In order to make record IDs case insensitive you will need to run the **jchmod** command with the **+U** option.
+In order to be able to work with case insensitive record IDs, the files need to be created as case insensitive via the CASE=YES/NO option of [CREATE-FILE](./../../files/create-file/README.md).
 
-For example, to make the item-ids of both the dictionary and data section of a file called MYFILE case insensitive:
-
-```
-jchmod +U MYFILE
-jchmod +U MYFILE]D
-```
-
-The first line is for the DATA section, the second is for the dictionary. If the file is large then it may take a few minutes to take effect as it has to build a cross-reference. For dictionaries, it should be nearly instantaneous.
-
-In order to activate this new behavior you need to set the **case\_insensitive\_runtime\_strings** emulation option to **true** in the **Config\_EMULATE** file.
-
-To reverse this:
-
-```
-jchmod -U MYFILE
-jchmod -U MYFILE]D
-```
-
-You can query the **jchmod** status flags with the **-t** option, e.g.
-
-```
-jchmod -t MYFILE
-```
-
-To see all **jchmod** options:
-
-```
-jchmod -?
-```
+If necessary, [jrf](./../../files/jrf/README.md) can be used to revise the case-sensitivity of a file.
 
 You can list which files currently support casing via LISTF.
 

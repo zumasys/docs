@@ -33,12 +33,14 @@ jrf {-options} *
 | **-N** | Decrypt the file. This option has no effect if the file is already decrypted. |
 | **-O** | Encrypt (Obfuscate) the file. This option has no effect if the file is already encrypted. |
 | **-R** | Reporting only (do not actually resize). Display the suggested resize parameters. |
+| **-Sm{,s{,i}}** | Size to parameters    **m** = modulo, **s** = separation, **i** = in group maximum size |
+| **-T** | Convert to Case Sensitive |
+| **-U** | Convert to Case Insensitive |
 | **-V** | Verbose mode |
 | **-V1** | Very verbose mode |
-| **-Sm{,s{,i}}** | Size to parameters    m = modulo, s = separation, i = in group maximum size |
 | **-h** | **-?** | Display syntax and options |
 
-***\*\*\*Invalid options are ignored\*\*\****
+***\*\*\* Invalid options are ignored \*\*\****
 
 ### Notes
 
@@ -49,5 +51,4 @@ jrf {-options} *
 
 Back to [Files](./../README.md)
 
-  
 <PageFooter />

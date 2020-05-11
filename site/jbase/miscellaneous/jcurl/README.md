@@ -4,7 +4,7 @@
 
 jCURL is a module that provides curl/http functionality in jBC (BASIC).
 
-One of the advantages of using curl over other tcp/ip based operations is that when issuing multiple commands to the same host the connection will persist thus improving overall performance.
+One of the advantages of using curl over other tcp/ip based operations is that when issuing multiple commands to the same host the connection will persist, thus improving overall performance.
 
 It provides the following functions:
 
@@ -94,5 +94,4 @@ Connection: keep-alive
 
 [Back to Miscellaneous](./../README.md)
 
-  
 <PageFooter />
