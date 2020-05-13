@@ -12,15 +12,17 @@ The **\$tojson()** method converts an object to a JSON string and optionally for
 obj->$tojson({format type})
 ```
 
-The **format type** is optional and, if used, is specified as a bit mask; different behaviors can be combined by adding them together.
+The **format type** is optional and, if used, is specified as a bit mask; different behaviors can be combined by adding them together.  
+By adding **include jabba.h** to your code then you can use the equated names as specified in the **Arguments** table.
 
 ## Arguments
 
-| Format Type | Description |
-| --- | --- |
-| 1 | Formatted output using @TAB for indentation |
-| 2 | Use @AM instead of a new-line when formatting |
-| 4 | Use 4 spaces instead of @TAB when formatting |
+| Format Type | Description | EQUATE |
+| --- | --- | --- |
+| 1 | Formatted output using @TAB for indentation | JABBA_TOJSON_VERBOSE |
+| 2 | Use @AM instead of a new-line when formatting | JABBA_TOJSON_USE_AM |
+| 4 | Use 4 spaces instead of @TAB when formatting | JABBA_TOJSON_USE_SPACE |
+| 8 | Show embedded comments.<br>Comment lines can start with **#** or **//** | JABBA_TOJSON_COMMENT |
 
 ## Return values
 
@@ -29,6 +31,7 @@ The un-formatted or formatted JSON string.
 ## Examples
 
 ```
+include jabba.h
 calendar = new object
 months = new array
 calendar->year = 2018
@@ -40,7 +43,7 @@ calendar->months = months
 crt calendar->$tojson()   ;* No formatting
 crt calendar->$tojson(1)  ;* Default formatted output
 crt calendar->$tojson(3)  ;* Use attribute marks instead of new-lines
-crt calendar->$tojson(5)  ;* Formatted output using 4 spaces for indentation levels
+crt calendar->$tojson(jabba_tojson_verbose + jabba_tojson_use_space)  ;* Formatted output using 4 spaces for indentation levels
 ```
 
 Results:
