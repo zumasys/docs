@@ -14,8 +14,6 @@ Login to the MultiValue Application Server as the user "admin" with the password
 
 The MV Dashboard Configuration Utility displays. The tabs at the top of the screen allow you to navigate through the various configuration screens.
 
-
-
 ## Configuring your Database Connection
 
 Now that you have connected to the configuration utility, you are ready to configure your database connection. The Database tab provides the interface for setting-up all of the parameters specific to your multivalue database.
@@ -25,6 +23,11 @@ To configure your database connection:
 1. Select the Database tab.
 2. Select the platform from the provided list.
 
+### Common Issues/Notes
+| Issue | Notes |
+| --- | ----- |
+| Account Parent Directory | This directory MUST exist.  If it does not the installer will not move to the next page correctly.  |
+| Package Installer Page | The package installer page will usually refresh 3 times during the package installation.  Each time the page will refresh and show more information at the bottom.  Many times the Next activity button will be off the page.  Make sure you scroll the page down each time you do a action and look for more instructions |
 
 ### JBASE
 
@@ -72,7 +75,7 @@ After the software has validated your entries in the required parameters section
 | DBRetries | Specifies the number of times that the software will attempt to connect to your multivalue database before giving up and displaying an error message. A common reason that the system would not be able to connect to the database would be that the system has exceeded its licensed number of user sessions. Typically, this is set to 3 or some other similar number. |
 
 
-3. Click Save Changes.
+3. Click **_Save Changes_**.
 
 After the software has validated your entries in the required parameters section, the database tab expands to allow you to install the base multivalue database software.
 

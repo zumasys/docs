@@ -73,7 +73,7 @@ MVDBTOOLKIT.WOBJ
 | options              | Manually passed options to curl statement.  Only works with command line version |
 | debug                | Turns debugging on for the call |
 | response             | Response object.  Contains all the response information once the call is made |
-| response.result      | Output from the call |
+| response.data        | Output from the call |
 | response.headers     | Object of response headers. |
 | response.header.name | Name of response header |
 | response.header.value | Value of response header |
