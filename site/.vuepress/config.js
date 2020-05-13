@@ -77,7 +77,7 @@ module.exports = {
     "social-share": {},
     // Meta data
     seo: {
-      author: ($page, $site) => $page.git.authorName || $site.themeConfig.author // author: (_, $site) => $site.themeConfig.author
+      //author: ($page, $site) => $page.git.authorName || $site.themeConfig.author // author: (_, $site) => $site.themeConfig.author
     },
     '@vuepress/google-analytics': {
       'ga': 'UA-115027826-9' // UA-00000000-0
