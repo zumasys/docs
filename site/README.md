@@ -1,5 +1,6 @@
 ---
 home: true
+author: Zumasys
 heroImage: /assets/img/logo-grey.png
 heroText: Product Documentation
 tagline: Welcome to the future

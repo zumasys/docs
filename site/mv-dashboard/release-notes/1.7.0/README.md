@@ -1,6 +1,6 @@
 # MV Dashboard/Connect 1.7.0 Release Notes
 
-Date: 05/11/2020
+<PageHeader />
 
 ## MV Dashboard Enhancements/Patches
 
