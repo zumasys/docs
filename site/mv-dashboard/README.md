@@ -53,6 +53,8 @@ MV Dashboard provides the following documentation to help developers and adminis
 - [Introduction](./introduction/README.md)
 - [Installation Guide](./installation-guide/README.md)
 - [Programmers Guide](./programmers-guide/README.md)
+- [Release Notes](./release-notes/README.md)
+
 
 ## Getting Help with MV Dashboard
 
