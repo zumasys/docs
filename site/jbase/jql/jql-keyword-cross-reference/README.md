@@ -46,16 +46,16 @@
 | [BSELECT](./../bselect/README.md) |  Creates a select list based on output specifications.  |  
 | [BY](./by/README.md) | Sort by ascending field value |
 | [BY-DSND](./by-dsnd/README.md) | Sort by descending field value |
-| BY-EXP |
-| BY-EXP-DSND |
+| [BY-EXP](./by-exp/README.md) | Exploded multi-value sort ascending |
+| [BY-EXP-DSND](./by-exp-dsnd/README.md ) | Exploded multi-value sort descending |
 | [BY.DSND](./by-dsnd/README.md) | Synonym for BY-DSND |
-| BY.EXP |
-| BY.EXP.DSND |
-| CALC |
-| CALCULATE |
-| CAPTION |
-| CNV |
-| COL-FILLER |
+| [BY.EXP](./by-exp/README.md) | Synonym for BY-EXP |
+| [BY.EXP.DSND](./by-exp-dsnd/README.md) | Synonym for BY-EXP_DSND |
+| [CALC](./calc/README.md) | Calculate totals on I-type items |
+| [CALCULATE](./calc/README.md) | Synonym for CALC |
+| CAPTION | Synonym for GRAND-TOTAL |
+| CNV | Synonym for CONV |
+| COL-FILLER |   |
 | COL-HDR-SUPP |
 | COL-SPACES |
 | COL-SUPP |
@@ -99,8 +99,8 @@
 | FOR | Throwaway |
 | FROM |
 | GE |
-| GRAND-TOTAL |
-| GRAND.TOTAL |
+| GRAND-TOTAL | Specify format of totals line |
+| GRAND.TOTAL | Synonym for GRAND-TOTAL |
 | GT |
 | HDR-SUPP |
 | HDR.SUP |

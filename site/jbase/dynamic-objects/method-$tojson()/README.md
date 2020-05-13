@@ -48,7 +48,7 @@ crt calendar->$tojson(jabba_tojson_verbose + jabba_tojson_use_space)  ;* Formatt
 
 Results:
 
-```
+``` json
 {"year":2018,"months":["jan","feb","mar","apr","may","jun","jul","aug","sep","oct","nov","dec"]}
 
 {
