@@ -9,7 +9,7 @@ Supported platforms for MultiValue Dashboard are:
 
 MVDashboard/Connect installs a O/S component called mvappsvr (Web Listener).  This component is supported on the following platforms.  The listener is dependent on xinetd on linux and inetd on Aix.  Redhat/CentOS 7 has introduced systemctl services and often xinetd is not installed by default.  The installer will recognize this and request you install the required package.  If you are running on other versions of Linux the installer "may" work but is not supported by the default installer.  This issue is usually related to the automatic installation of the services.
 
-| Platform                 | Supported  | 1.7.0 |  
+| Platform                 | Supported  | Notes |  
 | ---                      | :-:        | :-:   |  
 | AIX 6                    | x          |      |  
 | AIX 7.1                  | x          |      |  
