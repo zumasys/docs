@@ -33,7 +33,9 @@ CALL WOBJ(OBJECT,ACTION,NODE,VALUE,OPTIONS,RERR)
 | Action<br> | Description<br> |
 | --- | --- |
 | FROMSTRING<br> | Parse a json string into the internal representation used by WOBJ. The VALUE argument contains the json string to parse, and the OBJECT argument returns the internal representation of that object.<br> |
+| FROMJSON       | Alias for FROMSTRING (version 2.0) |
 | TOSTRING<br> | Return a json string format from the internal object representation. The VALUE argument contains the returned json string.<br> |
+| TOJSON       | Alias for TOSTRING (Version 2.0) |
 | GET<br> | Returns the value of a node in the json object. If the node contains an object or an array, a json string representation of the node is returned.<br> |
 | SET.STRING<br> | Set the value of a property in the json object to a string. VALUE contains the string.<br> |
 | SET.NUMBER<br> | Set the value of a property in the json object to a number. VALUE must contain a valid number.<br> |
@@ -55,7 +57,18 @@ CALL WOBJ(OBJECT,ACTION,NODE,VALUE,OPTIONS,RERR)
 | --- | --- |
 | PRETTIFY<br> | Use with the TOSTRING action to add indentation and new-lines to make output more readable.<br> |
 | DEBUG<br> | Use to display debug messages to the screen.<br> |
+| UDO       | Version 2.0.  UDO=1 turns on UDO support.  UDO=0 turn off udo support even if WOBJ.CONFIG item is set to use UDO. |
+| NATIVE    | Version 2.0.  This turns off any platform object enhancements such as UDO support.  This overrides WOBJ.CONFIG item |
 
+#### Config file (Version 2.0)
+
+There is now a optional config file to set default options for WOBJ.  This is a pick item stored in the MD/VOC called WOBJ.CONFIG.
+
+| Attribute | Description                                                    |
+| --------- | -------------------------------------------------------------- |
+|     1     | P - Defined as a config item.                                  |
+|     2     | Platform OBJECT support.  Currently only option is UDO to turn on Universe and/or Unidata UDO support.  This only work if the platform supports UDO.  In the future jBASE objects and QM collections will be added. |
+|     3     | Optional WOBJ binary to use in MVDBTOOLKIT.  This allows you to use a different WOBJ.  You must use the include MVDBTOOLKIT.BP MVDBTOOLKIT.WOBJ.CHOOSE.WOBJ and variable WOBJ.RTNE will be set to the proper routine.  You then use wobj via CALL @WOBJ.RTNE vs CALL WOBJ.RTNE. This feature is used by the standalone MVDBTOOLKIT to use it's own MVDBTOOLKIT.WOBJ included library |
 
 Click on [this link](https://github.com/patrickaaronpayne/demowobj/blob/master/DEMOWOBJ.B) to see a sample program on github.
 

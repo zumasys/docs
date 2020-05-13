@@ -2,6 +2,8 @@
 
 <PageHeader />
 
+# Note: This function has been depreciated and it is recommend you use WOBJ instead.
+
 The WBUILDJSON is a very simple jSON building subroutine.  It basically handles encoding of your values.  This subroutine has been replaced by WOBJ.
 
 ### COMMAND SYNTAX

@@ -35,7 +35,7 @@
 | Directory       |                                               |
 | DefaultMime     |                                               |
 | 404Redirect     |                                               |
-| debug           | in mv_appsvr.conf                             |
+| debug           | debug=1 in [behavior]                         |
 
 
   
