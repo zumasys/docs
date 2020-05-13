@@ -32,7 +32,14 @@ To begin the installation of MV Dashboard, you must download and run the appropr
 
 Complete these instructions to install the dashboard on Linux or AIX. To install the Dashboard on Linux or AIX:
 
-1. Download the installation bin file into desired directory on your MultiValue server.
+1. Download the installation bin file into desired directory on your MultiValue server.  If you have curl or wget on your server you can download the installer
+   1. Browse to http://www.zumasys.com/downloads
+   2. Right click on the version you want and choose "Copy Link"
+   3. In Linux/Aix
+   ```bash
+   # wget <paste link>
+   # ; or with curl
+   # curl -O <paste link>
 2. Go to the directory where you downloaded the installer and run the installation package. For example:
 
 
