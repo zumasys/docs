@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The **CALC** keyword is used to specify that total calcualtions are to be performed on an I-type field or EVAL expression.
+The **CALC** keyword is used to specify that total calculations are to be performed on an I-type field or EVAL expression.
 
 ## Syntax
 

@@ -56,32 +56,32 @@
 | CAPTION | Synonym for GRAND-TOTAL |
 | CNV | Synonym for CONV |
 | COL-FILLER |   |
-| COL-HDR-SUPP |
-| COL-SPACES |
-| COL-SUPP |
-| COL.HDG |
-| COL.HDR |
-| COL.HDR.SUPP |
-| COL.SPACES |
-| COL.SPCS |
-| COL.SUP |
-| CONV |
+| [COL-HDR-SUPP](./col-hdr-supp/README.md) | Suppress printing of default page heading and column headings |
+| [COL-SPACES](./col-spaces/REAME.md) | Define inter-column spacing |
+| [COL-SUPP](./col-supp/README.md) | Suppress all column headings |
+| [COL.HDG](./col-hdg/README.md) | Define an alternative column heading |
+| [COL.HDR](./col-hdg/README.md) | Synonym for COL.HDG |
+| [COL.HDR.SUPP](./col-hdr-supp/README.md) | Synonym for COL-HDR-SUPP |
+| [COL.SPACES](./col-spaces/REAME.md) | Synonym for COL-SPACES |
+| [COL.SPCS](./col-spaces/REAME.md) |  Synonym for COL-SPACES |
+| [COL.SUP](./col-supp/README.md) | Synonym for COL-SUPP |  
+| [CONV](./conv/README.md) | Specify an alternative conversion for a field |
 | [COUNT](./../count/README.md) | Counts records. |  
-| COUNT-SUPP |
-| COUNT.SUP |
-| COUNT.SUPP |
-| DATA |
-| DBL-SPACE |
-| DBL-SPC |
-| DBL.SPC |
+| [COUNT-SUPP](./count-supp/README.md) | Suppress display of record count |
+| [COUNT.SUP](./count-supp/README.md) | Synonym for COUNT-SUPP |
+| [COUNT.SUPP](./count-supp/README.md) | Synonym for COUNT-SUPP |
+| DATA | Throwaway |
+| [DBL-SPACE](./dbl-space/README.md) | Set double-spacing between lines on a report/query |
+| [DBL-SPC](./dbl-space/README.md) | Synonym for DBL-SPACE |
+| [DBL.SPC](./dbl-space/README.md) | Synonym for DBL-SPACE |
 | DEFAULT |
-| DET-SUPP |
-| DET.SUP |
+| [DET-SUPP](./det-supp/README.md) | Suppress reporting of detail lines |
+| [DET.SUP](./det-supp/README.md) | Synonym for DET-SUPP |
 | DICT |
 | DISPLAY.LIKE |
-| DISPLAY.NAME |
+| [DISPLAY.NAME](./col-hdg/README.md) | Synonym for COL.HDG |
 | DISPLAYLIKE |
-| DISPLAYNAME |
+| [DISPLAYNAME](./col-hdg/README.md) | Synonym for COL.HDG |
 | EACH |
 | [EDELETE](./../edelete/README.md) | Deletes selected records from a file. |
 | ENUM |
