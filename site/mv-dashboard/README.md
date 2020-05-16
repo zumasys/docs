@@ -52,6 +52,7 @@ MV Dashboard provides the following documentation to help developers and adminis
 
 - [Introduction](./introduction/README.md)
 - [Installation Guide](./installation-guide/README.md)
+- [Portal Reports)(https://docs.zumasys.com/mv-dashboard/programmers-guide/portal-reports/)
 - [Programmers Guide](./programmers-guide/README.md)
 - [Release Notes](./release-notes/README.md)
 
