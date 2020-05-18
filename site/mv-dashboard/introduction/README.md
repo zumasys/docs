@@ -19,7 +19,8 @@ The following topics are presented:
 | [Optional Parameters](./../programmers-guide/widgets/optional-parameters/README.md)<br> | Details the optional parameters for the widget types.<br> |
 | [Integration With Other Applications](./../programmers-guide/integration/README.md)<br> | Describes how to display dashboard widgets via URL calls from other applications.<br> |
 | [PDF Generation](./../programmers-guide/pdf-generation/README.md) | Instructions for enabling widgets to generate PDF files.<br> |
-| [Fusion Charts Documentation](./../programmers-guide/fusion-charts/README.md)<br> | Provides links to the Fusion Charts documentation.<br> |
+| [Fusion Charts Documentation](./../programmers-guide/fusion-charts/README.md)<br> | Provides links to the Fusion Charts documentation. |
+ | [Portal Reports](./../programmers-guide/portal-reports/README.md) | Links to Portal Reports documentation |
 
   
 <PageFooter />
