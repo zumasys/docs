@@ -2,7 +2,7 @@
 
 ## What are the supported platforms for MultiValue Dashboard
 
-[Requirements Page](../installation-guide/requirements/README.md)
+[Requirements Page](../../installation-guide/requirements/README.md)
 
 ## D3 is on my Linux machine.  How do I connect from Windows to Linux D3?
 
