@@ -77,7 +77,7 @@
 | DEFAULT |
 | [DET-SUPP](./det-supp/README.md) | Suppress reporting of detail lines |
 | [DET.SUP](./det-supp/README.md) | Synonym for DET-SUPP |
-| DICT |
+| DICT | Query the DICT of a file |
 | DISPLAY.LIKE |
 | [DISPLAY.NAME](./col-hdg/README.md) | Synonym for COL.HDG |
 | DISPLAYLIKE |
