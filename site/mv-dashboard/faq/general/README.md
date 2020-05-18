@@ -4,9 +4,9 @@
 
 [Requirements Page](../../installation-guide/requirements/README.md)
 
-## D3 is on my Linux machine.  How do I connect from Windows to Linux D3?
+## Pick is on my Linux machine.  How do I connect from Windows to Linux Pick?
 
-When you load MultiValue Dashboard onto your D3/Linux machine, the MultiValue Dashboard will create a webserver on that machine. You can then access MultiValue Dashboard from any of your machines connected to that webserver using a web browser.
+When you load MultiValue Dashboard onto your Pick/Linux machine, the MultiValue Dashboard will create a webserver on that machine. You can then access MultiValue Dashboard from any of your machines connected to that webserver using a web browser.
 
 ## Is Zumasys available to help with programming for MultiValue Dashboard?
 

@@ -2,7 +2,7 @@
 
 ## How is MultiValue Dashboard licensed?  Are DashBoard users tied to the MV user count?
 
-MultiValue Dashboard is licensed per user for each D3 database instance.
+MultiValue Dashboard is licensed per user for each MV database instance.
 
 ## What's the difference between a single user license and a multi-user license?
 
