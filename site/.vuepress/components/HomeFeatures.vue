@@ -23,7 +23,9 @@
       <p>
         <a href="/mv-dashboard/introduction/">Introduction</a><br />
         <a href="/mv-dashboard/installation-guide/">Installation Guide</a><br />
-        <a href="/mv-dashboard/programmers-guide/">Programmers Guide</a>
+        <a href="/mv-dashboard/programmers-guide/">Programmers Guide</a><br />
+        <a href="/mv-dashboard/programmers-guide/portal-reports/">Portal Reports</a><br />
+        <a href="/mv-dashboard/faq/">FAQs</a>
       </p>
     </div>
     <div class="feature">
