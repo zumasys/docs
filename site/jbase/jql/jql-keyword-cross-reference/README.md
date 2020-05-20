@@ -77,15 +77,15 @@
 | DEFAULT |
 | [DET-SUPP](./det-supp/README.md) | Suppress reporting of detail lines |
 | [DET.SUP](./det-supp/README.md) | Synonym for DET-SUPP |
-| DICT | Query the DICT of a file |
-| DISPLAY.LIKE |
+| DICT | Indicates that the DICT of a file is to be queried |
+| [DISPLAY.LIKE](./display-like/README.md) | Display a field using the attributes of another field |
 | [DISPLAY.NAME](./col-hdg/README.md) | Synonym for COL.HDG |
-| DISPLAYLIKE |
+| [DISPLAYLIKE](./display-like/README.md) | Synonym for DISPLAYLIKE |
 | [DISPLAYNAME](./col-hdg/README.md) | Synonym for COL.HDG |
-| EACH |
+| [EACH](./each/README.md) | Selection qulaifier |
 | [EDELETE](./../edelete/README.md) | Deletes selected records from a file. |
 | ENUM |
-| ENUMERATE |
+| ENUMERATE | Synonym for ENUM |
 | EQ |
 | EQUAL |
 | [ESEARCH](./../esearch/README.md) | Searches records for specified strings. |
@@ -102,21 +102,20 @@
 | GRAND-TOTAL | Specify format of totals line |
 | GRAND.TOTAL | Synonym for GRAND-TOTAL |
 | GT |
-| HDR-SUPP |
-| HDR.SUP |
+| HDR-SUPP | Suppress the display of HEADER information |
+| HDR.SUP | Synonym for HDR-SUPP |
 | HEADER |
 | HEADING |
 | [I-DUMP](./../i-dump-and-s-dump/README.md) | Outputs the entire contents of items. |
 | ID-SUPP |
 | ID.ONLY |
-| ID.SUP |
-| ID.SUPP |
+| ID.SUP | Synonym for ID-SUPP |
+| ID.SUPP | Synonym for ID-SUPP |
 | IF | Synonym for WITH |
 | IN |
 | INQUIRING |
 | INVISIBLE | Throwaway |
 | ITEMS |
-| JACSELECT |
 | LE |
 | LIKE |
 | [LIST](./../list/README.md) | Generates a formatted report of records and fields from a specified file. |  

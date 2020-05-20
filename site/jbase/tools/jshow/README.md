@@ -43,13 +43,12 @@ However, you can also see (DUP) if the program/subroutine has been cataloged int
 >jshow will now also display information on PROCs, PAragraphs and Nouns in the MD/VOC which meet the search criteria, i.e.:
 
 ```
-jsh Train ~ -->jshow listu
-Noun:                     /data/jBCIntro/MD]D/listu (from MD/VOC )
-Executable: (DUP!!)       /home/mikes/5.0_rels/development/bin/listu
-Shared Object: (DUP!!)    /home/mikes/5.0_rels/development/bin/listu.so
-Executable: (DUP!!)       /home/mikes/5.0_rels/development/bin/LISTU
-Shared Object: (DUP!!)    /home/mikes/5.0_rels/development/bin/LISTU.so
-jsh jBCIntro ~ -->
+jsh SandBox ~ -->jshow listu
+Noun:                     /opt/jbase/SandBox/MD]D/listu (from MD/VOC )
+Shared Object: (DUP!!)    /opt/jbase/CurrentVersion/bin/LISTU.so
+Executable: (DUP!!)       /opt/jbase/CurrentVersion/bin/LISTU
+Executable: (DUP!!)       /opt/jbase/CurrentVersion/bin/listu
+Shared Object: (DUP!!)    /opt/jbase/CurrentVersion/bin/listu.so
 ```
 
 >Information on Nouns implemented as of jBASE 5.7.8/5.8.0
