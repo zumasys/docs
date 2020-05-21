@@ -10,7 +10,7 @@ The client consists of a low-level communication library, coupled with a string/
 
 The architecture has a set of advantages, namely the portability of the server and low-level client libraries across platforms (i.e. Windows, UNIXes, etc.), and native support for ActiveX interface. The architecture therefore enables several client types to remotely connect to jBASE. These include C++ programs (low-level library), ActiveX containers (ActiveX portability layer), and additional java and .NET clients. Due to the low overhead involved in calling pure C++/ActiveX functions on client systems and the absence of parameter marshaling, even with three potential layers of calls, the library outperforms existing jBASE connectivity solutions.
 
-![jbase-remote-connectivity-server-jrcs: jrcs](./jrcs.png)
+![jbase-remote-connectivity-server: jrcs](./jrcs.png)
 
 ## Network Architecture
 
@@ -514,13 +514,13 @@ As mentioned above, jRCS authenticates its logons via the system facilities, in 
 
 ## Client Installation
 
-jRCS uses XML over TCP/IP to communicate with the host, so the client library is not really necessary. However, recognizing the fact that XML is not straightforward and easy to interpret in all programming languages, it was decided to create a client library written in C++ to simplify this task. The Windows-based ActiveX client we supply is installed in the $JBCRELEASEDIR\JRCSCLIENT folder or in C:\Program Files\JRCSCLIENT if $JBCRELEASEDIR is unavailable on the client computer. Please note that the jRCS client does not require the installation of any jBASE libraries on the client computer.
+jRCS uses XML over TCP/IP to communicate with the host, so the client library is not really necessary. However, recognizing the fact that XML is not straightforward and easy to interpret in all programming languages, it was decided to create a client library written in C++ to simplify this task. The Windows-based ActiveX client we supply is installed in the \$JBCRELEASEDIR\JRCSCLIENT folder or in C:\Program Files\JRCSCLIENT if \$JBCRELEASEDIR is unavailable on the client computer. Please note that the jRCS client does not require the installation of any jBASE libraries on the client computer.
 
 The C++ dynamic-link library, along with the export library is installed in subfolder lib of the client installation folder. The include folder contains the header files required to compile the client programs, and the OS folder contains OS-specific dependencies of the include files. In order to compile a program using jRCS client, the environment in Microsoft Visual C++ must include the path to the client's include folder for pre-processor and lib folder for linker dependencies. The client must also specify jrcs.lib in the list of libraries the program links with. The installation automatically adds jrcs.dll to the system path, so the dynamic loader can find the library on program start-up.
 
 ## ActiveX Layer
 
-On Windows systems, jRCS adds another layer enabling interoperability with ActiveX containers, such as Visual Basic. The installer writes the library [jrcax.dll](jrcax.dll) into the lib folder, along with jRCS.dll. The library is registered on the system as an ActiveX DLL and is accessible from Visual Basic via a list of references. The ActiveX library exposes a full set of jRCS functions to the client, along with error constants and I/O handler interface.
+On Windows systems, jRCS adds another layer enabling interoperability with ActiveX containers, such as Visual Basic. The installer writes the jrcax.dll library into the lib folder, along with jRCS.dll. The library is registered on the system as an ActiveX DLL and is accessible from Visual Basic via a list of references. The ActiveX library exposes a full set of jRCS functions to the client, along with error constants and I/O handler interface.
 
 ## Sample Program using jRCS for ActiveX /VB.NET
 
