@@ -1,29 +1,27 @@
-# EACH
+# EACH, EVERY
 
 <PageHeader />
 
-The **EACH** keyword indicates that each value or sub-value of a fields must match the specified condition
+The **EACH** keyword indicates that each value or sub-value of a field must match the specified condition
 
 ## Syntax
 
 ```
 WITH EACH field.name operator value
-
-WHERE EACH field.name operator value
 ```
 
 where
 
 **field.name** is the field against which the condition is to be compared.  
-**operator** is any of the jQL operators (EQ, NE, LT, GT, LIKE etc.).
-**value** is the literal value for **field.name** to be compared against.
+**operator** is any of the jQL operators (EQ, NE, LT, GT, LIKE etc.).  
+**value** is the literal value for **field.name** to be compared against.  
 
 ## Example
 
 ```
 LIST BOOK_SALES WITH EACH FORENAME AFTER "ROBERT" FORENAME SURNAME
 
-LIST BOOK_SALES WHERE EACH FORENAME EQ "ROBERT" FORENAME SURNAME
+LIST BOOK_SALES WITH EACH FORENAME EQ "ROBERT" FORENAME SURNAME
 
 LIST BOOK_SALES WITH EACH FORENAME BETWEEN "ADAM" AND "DAVID" FORENAME SURNAME
 

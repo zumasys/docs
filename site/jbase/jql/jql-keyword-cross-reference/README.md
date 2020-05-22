@@ -17,7 +17,7 @@
 | [<](./lt/README.md) | Synonym for LT |
 | <= | Synonym for LE |
 | <> | Synonym for NE |
-| = | Synonym for EQ |
+| [=](./eq/README.md) | Synonym for EQ |
 | =< | Synonym for LE |
 | => | Synonym for GE |
 | > | Synonym for GT |
@@ -84,13 +84,13 @@
 | [DISPLAYNAME](./col-hdg/README.md) | Synonym for COL.HDG |
 | [EACH](./each/README.md) | Selection qulaifier |
 | [EDELETE](./../edelete/README.md) | Deletes selected records from a file. |
-| ENUM |
-| ENUMERATE | Synonym for ENUM |
-| EQ |
-| EQUAL |
+| [ENUM](./enum/README.md) | Count the number of values which occur in a field |  
+| [ENUMERATE](./enum/README.md) | Synonym for ENUM |
+| [EQ](./eq/README.md) | Equals |
+| [EQUAL](./eq/README.md) | Synonym for EQ |
 | [ESEARCH](./../esearch/README.md) | Searches records for specified strings. |
-| EVAL |
-| EVERY |
+| [EVAL](./eval/README.md) | Define an I-type expression to be evaluated |
+| [EVERY](./each/README.md)| Synonym for EACH |
 | FILE | Throwaway |
 | FIRST |
 | FMT |
