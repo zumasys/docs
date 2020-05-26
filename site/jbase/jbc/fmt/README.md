@@ -5,6 +5,8 @@
 **Tags:**
 <badge text='text formatting' vertical='middle' />
 
+**Also see:**  [Output Formatting](./../output-formatting/README.md)
+
 ## Description
 
 This function is useful for formatting data for output, according to a defined mask. It takes the general form:

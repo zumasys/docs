@@ -1,13 +1,13 @@
-# EQ, EQUAL, =  
+# GT, >  
 
 <PageHeader />
 
-The **EQ** relational operator compares a field or EVAL expression against another field, EVAL expression or literal and checks for the first item being equal to the second.
+The **GT** relational operator is used to compare a field or EVAL expression with another field, EVAL expression or literal where the first item is greater than the second item.
 
-## Syntax  
+## Syntax
 
 ```
-field EQ value
+field GT value
 ```
 
 where:
@@ -18,7 +18,7 @@ where:
 ## Example
 
 ```
-LIST PARTS WITH STOCK EQ 100 REORDER
+LIST PARTS WITH STOCK GT 100  
 ```
 
 Back to [Cross Reference](./../README.md)

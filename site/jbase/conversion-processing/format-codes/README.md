@@ -53,7 +53,6 @@ A;N(COST) * N(QTY)]MD2
 
 Shows the MD2 format code applied outside the A code expression. COST is multiplied by QTY and the result formatted by the MD2 format code.
 
-Back to [A-Corelatives](./../a-correlatives)
+Back to [A-Correlatives](./../a-correlatives)
 
-  
 <PageFooter />

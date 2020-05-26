@@ -216,6 +216,7 @@
 [osopen](./osopen/README.md)  
 [osread](./osread/README.md)  
 [out](./out/README.md)  
+[output formatting](./output-formatting/README.md)  
 [page](./page/README.md)  
 [pause](./pause/README.md)  
 [pcperform](./pcperform/README.md)  

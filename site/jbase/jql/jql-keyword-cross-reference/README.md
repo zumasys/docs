@@ -19,10 +19,10 @@
 | <> | Synonym for NE |
 | [=](./eq/README.md) | Synonym for EQ |
 | =< | Synonym for LE |
-| => | Synonym for GE |
-| > | Synonym for GT |
+| [=>](./ge/README.md) | Synonym for GE |
+| [>](./gt/README.md) | Synonym for GT |
 | >< | Synonym for NE |
-| >= | Synonym for GE |
+| [>=](./ge/README.md) | Synonym for GE |
 | A |  Throwaway |
 | AFTER | Synonym for GT |  
 | ALL |   |
@@ -53,8 +53,8 @@
 | [BY.EXP.DSND](./by-exp-dsnd/README.md) | Synonym for BY-EXP_DSND |
 | [CALC](./calc/README.md) | Calculate totals on I-type items |
 | [CALCULATE](./calc/README.md) | Synonym for CALC |
-| CAPTION | Synonym for GRAND-TOTAL |
-| CNV | Synonym for CONV |
+| [CAPTION](./grand-total/README.md) | Synonym for GRAND-TOTAL |
+| [CNV](./conv/README.md) | Synonym for CONV |
 | COL-FILLER |   |
 | [COL-HDR-SUPP](./col-hdr-supp/README.md) | Suppress printing of default page heading and column headings |
 | [COL-SPACES](./col-spaces/REAME.md) | Define inter-column spacing |
@@ -92,25 +92,25 @@
 | [EVAL](./eval/README.md) | Define an I-type expression to be evaluated |
 | [EVERY](./each/README.md)| Synonym for EACH |
 | FILE | Throwaway |
-| FIRST |
-| FMT |
-| FOOTER |
-| FOOTING |
+| FIRST | Synonym for SAMPLE |
+| [FMT](./fmt/README.md) | Specify an alternate output format for a field |
+| [FOOTER](./footing/README.md) | Synonym for FOOTING |
+| [FOOTING](./footing/README.md) | Specify page footing for a report |
 | FOR | Throwaway |
-| FROM |
-| GE |
-| GRAND-TOTAL | Specify format of totals line |
-| GRAND.TOTAL | Synonym for GRAND-TOTAL |
-| GT |
-| HDR-SUPP | Suppress the display of HEADER information |
-| HDR.SUP | Synonym for HDR-SUPP |
-| HEADER |
-| HEADING |
+| [FROM](./from/README.md) | Process records from specified select list |
+| [GE](./ge/README.md) | Greater than or equal to |
+| [GRAND-TOTAL](./grand-total/README.md) | Specify format of totals line |
+| [GRAND.TOTAL](./grand-total/README.md) | Synonym for GRAND-TOTAL |
+| [GT](./gt/README.md) | Greater than |
+| [HDR-SUPP](./hdr-supp/README.md) | Suppress the display of HEADER information |
+| [HDR.SUP](./hdr-supp/README.md) | Synonym for HDR-SUPP |
+| [HEADER](./heading/README.md) | Synonym for HEADING |
+| [HEADING](./heading/README.md) | Define page heading |
 | [I-DUMP](./../i-dump-and-s-dump/README.md) | Outputs the entire contents of items. |
-| ID-SUPP |
-| ID.ONLY |
-| ID.SUP | Synonym for ID-SUPP |
-| ID.SUPP | Synonym for ID-SUPP |
+| [ID.ONLY](./id-only/README.md) | Only display item ID's |
+| [ID-SUPP](./id-supp/README.md) | Suppress the display of item ID |
+| [ID.SUP](./id-supp/README.md) | Synonym for ID-SUPP |
+| [ID.SUPP](./id-supp/README.md) | Synonym for ID-SUPP |
 | IF | Synonym for WITH |
 | IN |
 | INQUIRING |
@@ -184,7 +184,7 @@
 | STAT |
 | SUBVALUE |
 | SUM |
-| SUPP |
+| [SUPP](./hdr-supp/README.md) | Synonym for HDR-SUPP |
 | T-DUMP |
 | T-LOAD |
 | T.DUMP |
