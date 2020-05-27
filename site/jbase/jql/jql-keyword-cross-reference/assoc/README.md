@@ -2,6 +2,8 @@
 
 <PageHeader />
 
+The **ASSOC** keyword indicates that the field is to be treated as part of a existing association of mult-values.
+
 ## Syntax
 
 ```

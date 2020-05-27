@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The LT selection operator is used to comapre a field or EVAL expression against another field, EVAL expression or literal value to check whether the "value" of the first item is less than that of the second.  
+The **LT** selection operator is used to comapre a field or EVAL expression against another field, EVAL expression or literal value to check whether the "value" of the first item is less than that of the second.  
 
 ## Syntax
 

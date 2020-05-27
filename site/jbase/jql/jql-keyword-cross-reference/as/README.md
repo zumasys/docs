@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-Used as a field qulaifier to define a synonym for the field or an EVAL expression it follows.  
+Used as a field qualifier to define a synonym for the field or an EVAL expression it follows.  
 
 ## Syntax
 

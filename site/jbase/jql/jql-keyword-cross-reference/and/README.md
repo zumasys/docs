@@ -7,7 +7,7 @@ Logical operator which links two selection clauses which must both evaluate to T
 ## Syntax  
 
 ```
-WITH condition1 and {WITH} condition2
+WITH condition1 AND {WITH} condition2
 ```
 
 where **condition1** and **condition2** are selection criteria.

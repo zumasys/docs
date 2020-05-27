@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The OR operator is used to link two selection criteria to determine whether either may be True in order for an item to be selected.
+The **OR** operator is used to link two selection criteria to determine whether either may be True in order for an item to be selected.
 
 ## Syntax
 

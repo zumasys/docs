@@ -2,6 +2,8 @@
 
 <PageHeader />
 
+The **COL.SPACES** keyword designates the number of spaces to be insrted between columns of a report/query.
+
 ## Syntax  
 
 ```
