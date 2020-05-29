@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The LPTR keyword directs the query output to a printer.
+The **LPTR** keyword directs the query output to a printer.
 
 ## Syntax  
 

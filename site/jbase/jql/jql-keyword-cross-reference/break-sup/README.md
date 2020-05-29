@@ -2,12 +2,12 @@
 
 <PageHeader />
 
-The BREAK-ON keyword causes jQL to generate a break-point whenever the value of the specified field changes but not actually display that field.
+The **BREAK-SUP** keyword causes jQL to generate a break-point whenever the value of the specified field changes but not actually display that field.
 
 ## Syntax  
 
 ```
-BREAK-ON {options} field
+BREAK-SUP {options} field
 ```
 
 where:

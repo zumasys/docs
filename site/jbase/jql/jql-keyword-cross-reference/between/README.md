@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The BETWEEN operator is used to compare a field or EVAL expression against two other fields, EVAL expressions or literal values to check whether the value of the first item falls between the other two values.
+The **BETWEEN** operator is used to compare a field or EVAL expression against two other fields, EVAL expressions or literal values to check whether the value of the first item falls between the other two values.
 
 ## Syntax
 

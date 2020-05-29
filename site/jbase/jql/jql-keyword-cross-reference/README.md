@@ -15,10 +15,10 @@
 | - | Minus sign, used in subtraction |
 | / | Backslash, used in division |
 | [<](./lt/README.md) | Synonym for LT |
-| <= | Synonym for LE |
+| [<=](./le/README.md) | Synonym for LE |
 | <> | Synonym for NE |
 | [=](./eq/README.md) | Synonym for EQ |
-| =< | Synonym for LE |
+| [=<](./le/README.md) | Synonym for LE |
 | [=>](./ge/README.md) | Synonym for GE |
 | [>](./gt/README.md) | Synonym for GT |
 | >< | Synonym for NE |
@@ -67,9 +67,9 @@
 | [COL.SUP](./col-supp/README.md) | Synonym for COL-SUPP |  
 | [CONV](./conv/README.md) | Specify an alternative conversion for a field |
 | [COUNT](./../count/README.md) | Counts records. |  
-| [COUNT-SUPP](./count-supp/README.md) | Suppress display of record count |
-| [COUNT.SUP](./count-supp/README.md) | Synonym for COUNT-SUPP |
-| [COUNT.SUPP](./count-supp/README.md) | Synonym for COUNT-SUPP |
+| [COUNT-SUPP](./ni-supp/README.md) | Synonym for NI-SUPP |
+| [COUNT.SUP](./count-supp/README.md) | Synonym for NI-SUPP |
+| [COUNT.SUPP](./count-supp/README.md) | Synonym for NI-SUPP |
 | DATA | Throwaway |
 | [DBL-SPACE](./dbl-space/README.md) | Set double-spacing between lines on a report/query |
 | [DBL-SPC](./dbl-space/README.md) | Synonym for DBL-SPACE |
@@ -112,12 +112,12 @@
 | [ID.SUP](./id-supp/README.md) | Synonym for ID-SUPP |
 | [ID.SUPP](./id-supp/README.md) | Synonym for ID-SUPP |
 | IF | Synonym for WITH |
-| IN |
-| INQUIRING |
+| IN | Throwaway |
+| [INQUIRING](./inquiring/README.md) | Prompt for item ID's in query |
 | INVISIBLE | Throwaway |
-| ITEMS |
-| LE |
-| LIKE |
+| ITEMS | Throwaway |
+| [LE](./le/README.md) | Less than or equal to |
+| [LIKE](./matching/README.md) | Synonym for MATCHING |
 | [LIST](./../list/README.md) | Generates a formatted report of records and fields from a specified file. |  
 | [LIST-ITEM](./../list-item/README.md) | Outputs the contents of items. |  
 | [LIST-LABEL](./../list-label/README.md) | Outputs data in a format suitable for producing labels. |  
@@ -125,23 +125,23 @@
 | [LIST.LABEL](./../list-label/README.md) | Synonym for LIST-LABEL |  
 | [LPTR](./lptr/README.md) | Direct report to a printer |
 | [LT](./lt/README.md)| Less than |
-| MARGIN |
-| MATCH |
-| MATCHES |
-| MATCHING |
-| MAX |
-| MIN |
-| MULTI.VALUE |
-| MULTIVALUE |
+| [MARGIN](./margin/README.md) | Define width of left margin |
+| [MATCH](./matching/README.md) | Synonym for MATCHING |
+| [MATCHES](./matching/README.md) | Synonym for MATCHING |
+| [MATCHING](./matching/README.md) | Pattern matching |
+| [MAX](./max/README.md) | Find maximum value of a field |
+| [MIN](./min/README.md) | Find minimum value of a field |
+| [MULTI.VALUE](./multi-value/README.md) | Treat a field as multi-valued |
+| [MULTIVALUE](./multi-value/README.md) | Synonym for MULTI.VALUE |
 | [NE](./ne/README.md) | Not equal |
-| NI-SUPP |
-| NI.SUP |
-| NO |
+| [NI-SUPP](./ni-supp/README.md) | Suppress display of record count |
+| [NI.SUP](./ni-supp/README.md) | Synonym for NI-SUPP |
+| [NO](./no/README.md) | Test for a null field |
 | NO-INDEX |
 | NO.INDEX |
-| NO.NULLS |
+| NO.NULLS | Suppress null fields in MIN and AVG calculations |
 | NO.PAGE |
-| NO.SPLIT |
+| NO.SPLIT | Ensure that, where possible, all of a record fits on a page |  
 | NOPAGE |
 | NOT |
 | NOT.MATCHING |

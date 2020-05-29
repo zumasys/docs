@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The AVERAGE field qualifier is used to determine the mean avarage value of a field.
+The **AVERAGE** field qualifier is used to determine the mean avarage value of a field.
 
 ## Syntax
 

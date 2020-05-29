@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The BY-DSND sort keyword causes jQL to sort records in descending order prior to output or when building a select list.
+The **BY-DSND** sort keyword causes jQL to sort records in descending order prior to output or when building a select list.
 
 ## Syntax
 

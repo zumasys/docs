@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The BY sort keyword causes jQL to sort records prior to output or when building a select list.
+The **BY** sort keyword causes jQL to sort records prior to output or when building a select list.
 
 ## Syntax
 

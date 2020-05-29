@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-ASSOC.WITH is a field qualifier used to indicate that a field is to be associated with another named field.  
+**ASSOC.WITH** is a field qualifier used to indicate that a field is to be associated with another named field.  
 
 ## Syntax
 

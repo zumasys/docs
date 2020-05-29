@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The BREAK-ON keyword causes jQL to display the named field and also to generate a break-point whenever the value of that field changes.
+The **BREAK-ON** keyword causes jQL to display the named field and also to generate a break-point whenever the value of that field changes.
 
 ## Syntax
 
