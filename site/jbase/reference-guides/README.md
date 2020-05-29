@@ -8,6 +8,7 @@
 | [Debugger](./debugger/README.md) | jBASE Debugger |
 | [jBC](./jbc/README.md) | jBASE Basic |  
 | [jCL](./jcl/README.md)| jBASE PROC |
+| [jProf](./jprof/README.md) | jBASE Profiling |
 | [Tools](./tools/README.md) | jBASE Tools |
 | [Transactions](./transactions/README.md) | Transaction Processing |
 
