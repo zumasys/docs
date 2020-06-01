@@ -7,7 +7,8 @@
 [jBASE Fundamentals](./jbase-fundamentals/README.md)  
 [jCurl](./jcurl/README.md)  
 [Overview of Case Insensitivity in jBASE](./case-insensitive-overview/README.md)  
-[Profiles](./profiles/README.md)  
+[Profiles](./profiles/README.md)
+[Multi Tenancy](./multitenancy/README.md)  
 
 [Back to Knowledgebase](./../README.md)
 

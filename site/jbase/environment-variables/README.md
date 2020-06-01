@@ -49,6 +49,8 @@
 [jedifilepath](./jedifilepath/README.md)  
 [jedi_distrib_defopen](./jedi_distrib_defopen/README.md)  
 [jedi_secure_level](./jedi_secure_level/README.md)  
+[jdiag](./jdiag/README.md)
+[jql_trace_debug](./jql_trace_debug/README.md)
 [jsqlfilename_catalog](./jsqlfilename_catalog/README.md)  
 [ld_library_path](./ld_library_path/README.md)  
 [notes-on-environment-variables-for-the-jbase-compiler](./notes-on-environment-variables-for-the-jbase-compiler/README.md)  
