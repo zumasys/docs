@@ -10,8 +10,8 @@ jBASE has excellent Multi-Tenancy capability via heavily definable configuration
 6. O/S security to limit access to files.
 7. Shared code and files between tenants.
 
-A full write up on these cabilities can be found here: https://github.com/zumasys/jbase_multitenancy_windows/blob/master/jBASE_and%20MultiTenancy.docx?raw=true
+A full write up on these cabilities can be found here: [Link](https://github.com/zumasys/jbase_multitenancy_windows/blob/master/jBASE_and%20MultiTenancy.docx?raw=true)
 
-A sample Windows Git template can be found here: https://github.com/zumasys/jbase_multitenancy_windows
+A sample Windows Git template can be found here: [Link](https://github.com/zumasys/jbase_multitenancy_windows)
 
 <PageFooter />
