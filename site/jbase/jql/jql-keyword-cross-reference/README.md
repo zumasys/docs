@@ -139,29 +139,29 @@
 | [NO](./no/README.md) | Test for a null field |
 | [NO-INDEX](./no-index/README.md) | No index to be used for query. |
 | [NO.INDEX](./no-index/README.md) | Synonym for NO-INDEX |
-| NO.NULLS | Suppress null fields in MIN and AVG calculations |
-| NO.PAGE | Synonym for NOPAGE |
-| NO.SPLIT | Ensure that, where possible, all of a record fits on a page |  
-| NOPAGE |
-| NOT |
-| NOT.MATCHING |
+| [NO.NULLS](./no-nulls/README.md) | Suppress null fields in MIN and AVG calculations |
+| [NO.PAGE](./nopage/README.md) | Synonym for NOPAGE |
+| [NO.SPLIT](./no-split/README.md) | Ensure that, where possible, all of a record fits on a page |  
+| [NOPAGE](./nopage/README.md) | Suppress end of page prompt |  
+| [NOT](./ne/README.md) | Synonym for NE |
+| [NOT.MATCHING](./not-matching/README.md) | The inverse of MATCHING |
 | OF | Throwaway |
-| ONLY |
+| [ONLY](./id-only/README.md) | Synony for ID.ONLY |
 | [OR](./or/README.md) | Logical OR |
 | PAGE | Throwaway |
-| PCT |
-| PERCENT |
-| PERCENTAGE |
+| PCT | Synonym for PERCENT |  
+| PERCENT | Report percentages |
+| PERCENTAGE | Synonym for PERCENT |
 | PG | Throwaway |
 | PRINT | Throwaway |
 | [REFORMAT](./../reformat/README.md) | Generates a formatted report of records and fields to a file or tape. |
 | REQUIRE-INDEX |
 | REQUIRE-SELECT |
-| REQUIRE.INDEX |
-| REQUIRE.SELECT |
+| REQUIRE.INDEX | Synonym for REQUIRE-INDEX |
+| REQUIRE.SELECT | Synonym for REQUIRE-SELECT |
 | RETRIEVE |
 | S-DUMP |
-| SAID |
+| SAID | Soundex matching |
 | SAMPLE |
 | SAMPLED |
 | SAMPLING |
@@ -177,7 +177,7 @@
 | [SORT-LABEL](./../sort-label/README.md) | Outputs data in a format suitable for producing labels. |
 | SORT.ITEM |
 | [SORT.LABEL](./../sort-label/README.md) | Synonym for SORT-LABEL |  
-| SPOKEN |
+| SPOKEN | Synonym for SAID |
 | [SREFORMAT](./../sreformat/README.md) | Generates a sorted formatted report of records and fields to a file or tape. |
 | [SSELECT](./../sselect/README.md) | Generates an sorted list of record keys or fields based on the criteria specified. |  
 | ST-DUMP |
@@ -187,8 +187,8 @@
 | [SUPP](./hdr-supp/README.md) | Synonym for HDR-SUPP |
 | T-DUMP |
 | T-LOAD |
-| T.DUMP |
-| T.LOAD |
+| T.DUMP | Synonym for T-DUMP |
+| T.LOAD | Synonym for T-LOAD |
 | TAPE |
 | THAN | Throwaway |
 | THE | Throwaway |
@@ -196,7 +196,7 @@
 | TOTAL |
 | TRANSPORT |
 | UNIQUE |
-| UNLIKE |
+| [UNLIKE](./not-matching/README.md) | Synonym for NOT.MATCHING |
 | USING |
 | VERT |
 | VERTICALLY |
@@ -206,9 +206,7 @@
 | WITHIN |
 | WITHOUT |
 | WITHOUTEACH |
-| said |
-| spoken |
-| ~ |
+| ~ | Synonym for SPOKEN |
 
 ## To be completed
 

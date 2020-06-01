@@ -1,13 +1,13 @@
-# MATCHING, MATCHES, MATCH, LIKE
+# NOT.MATCHING
 
 <PageHeader />
 
-The **MATCHING** selection operator is used to comapre a field or EVAL expression against another field, EVAL expression or literal value to check whether the "value" of the first item matches the pattern specified in the second.  
+The **NOT.MATCHING** selection operator is the inverse of [MATCHING](./../matching/README.md) and is used to comapre a field or EVAL expression against another field, EVAL expression or literal value to check whether the "value" of the first item does not match the pattern specified in the second.  
 
 ## Syntax
 
 ```
-field MATCHING pattern
+field NOT.MATCHING pattern
 ```
 
 where:
@@ -28,13 +28,13 @@ where:
 | nX | This construct matches a sequence of any characters. |
 | "string" | This construct matches the character sequence string exactly. |
 
->The pattern will be applied to all characters in **field** and it must match all characters in **field** to evaluate as Boolean TRUE.
+>The pattern will be applied to all characters in **field** and it must not match all characters in **field** to evaluate as Boolean FALSE.
 >The integer value **n** can be specified as 0. This will cause the pattern to match any number of characters of the specified type.
 
 ## Example
 
 ```
-LIST BOOK_SALES WITH FORENAME MATCHING "CARL..."
+LIST BOOK_SALES WITH FORENAME NOT.MATCHING "CARL..."
 ```
 
 Back to [Cross Reference](./../README.md)

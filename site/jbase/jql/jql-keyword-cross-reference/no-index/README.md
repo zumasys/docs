@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The **NO.INDEX** keyword indicates to the query processor that any index which exist should be ignored.
+The **NO.INDEX** keyword indicates to the query processor that any index which exist should be ignored in the processing of this query.
 
 ## Syntax
 

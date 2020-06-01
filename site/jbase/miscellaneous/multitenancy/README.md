@@ -1,5 +1,7 @@
 # Multi-Tenancy
 
+<PageHeader />
+
 jBASE has excellent Multi-Tenancy capability via heavily definable configuration switches.
 
 1. Independent Spoolers
