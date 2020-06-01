@@ -21,12 +21,12 @@ LIST BOOK_SALES INQUIRING
 a default listing is generated, but the item ID's a prompted for, with a <Return> ending the query.
 
 ```
-BOOK_SALES_SAFE Sale Date.. SURNAME............. FORENAME............ TITLE_ID QTY PRICE GIFT Title............... Author Name.........
+BOOK_SALES      Sale Date.. SURNAME............. FORENAME............ TITLE_ID QTY PRICE GIFT Title............... Author Name.........
 
 
 Record = 13458*41400*3
 
-BOOK_SALES_SAFE Sale Date.. SURNAME............. FORENAME............ TITLE_ID QTY PRICE GIFT Title............... Author Name.........
+BOOK_SALES      Sale Date.. SURNAME............. FORENAME............ TITLE_ID QTY PRICE GIFT Title............... Author Name.........
 
 13458*41400*3   04 NOV 2004 FALCONER             CLARE                     163   1 19.99    0 The Hobbit: Abridged J. R. R. Tolkien
                                                                                               (Modern Classics on

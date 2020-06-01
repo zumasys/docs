@@ -79,15 +79,15 @@ To run the application locally:
 
 ## TODO - Contributors
 
-- The entire [Zumasys Team](https://www.zumasys.com/about/our-people/)
-- Andy Takacs ([@andytakacs](https://github.com/andytakacs))
-- Mike Wright ([@itsxallwater](https://github.com/itsxallwater))
-- Ryan Medina ([@ryannmedina](https://github.com/ryannmedina))
-- Peter Falson ([@pfalson](https://github.com/pfalson))
-- Mike Street ([@mikes-zum](https://github.com/mikes-zum))
-- Pete Schellenbach ([@pschellenbach](https://github.com/pschellenbach))
-- Daniel Klein ([@danielkleinad](https://github.com/danielkleinad))
-- Patrick Payne ([@patrickp](https://github.com/patrickp))
+. The entire [Zumasys Team](https://www.zumasys.com/about/our-people/)
+. Andy Takacs ([@andytakacs](https://github.com/andytakacs))
+. Mike Wright ([@itsxallwater](https://github.com/itsxallwater))
+. Ryan Medina ([@ryannmedina](https://github.com/ryannmedina))
+. Peter Falson ([@pfalson](https://github.com/pfalson))
+. Mike Street ([@mikes-zum](https://github.com/mikes-zum))
+. Pete Schellenbach ([@pschellenbach](https://github.com/pschellenbach))
+. Daniel Klein ([@danielkleinad](https://github.com/danielkleinad))
+. Patrick Payne ([@patrickp](https://github.com/patrickp))
 
 ## Todo List
 
