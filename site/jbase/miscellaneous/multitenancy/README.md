@@ -1,6 +1,6 @@
-# Multi Tenancy
+# Multi-Tenancy
 
-jBASE has excellent multi tenancy capability via heavily definable configuration switches.
+jBASE has excellent Multi-Tenancy capability via heavily definable configuration switches.
 
 1. Independent Spoolers
 2. Independent System File

@@ -137,10 +137,10 @@
 | [NI-SUPP](./ni-supp/README.md) | Suppress display of record count |
 | [NI.SUP](./ni-supp/README.md) | Synonym for NI-SUPP |
 | [NO](./no/README.md) | Test for a null field |
-| NO-INDEX |
-| NO.INDEX |
+| [NO-INDEX](./no-index/README.md) | No index to be used for query. |
+| [NO.INDEX](./no-index/README.md) | Synonym for NO-INDEX |
 | NO.NULLS | Suppress null fields in MIN and AVG calculations |
-| NO.PAGE |
+| NO.PAGE | Synonym for NOPAGE |
 | NO.SPLIT | Ensure that, where possible, all of a record fits on a page |  
 | NOPAGE |
 | NOT |
@@ -148,11 +148,11 @@
 | OF | Throwaway |
 | ONLY |
 | [OR](./or/README.md) | Logical OR |
-| PAGE |
+| PAGE | Throwaway |
 | PCT |
 | PERCENT |
 | PERCENTAGE |
-| PG |
+| PG | Throwaway |
 | PRINT | Throwaway |
 | [REFORMAT](./../reformat/README.md) | Generates a formatted report of records and fields to a file or tape. |
 | REQUIRE-INDEX |
