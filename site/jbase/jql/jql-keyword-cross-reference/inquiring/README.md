@@ -18,7 +18,7 @@ In the following query:
 LIST BOOK_SALES INQUIRING
 ```
 
-a default listing is generated, but the item ID's a prompted for, with a <Return> ending the query.
+a default listing is generated, but the item ID's are prompted for, with a \<Return\> ending the query.
 
 ```
 BOOK_SALES      Sale Date.. SURNAME............. FORENAME............ TITLE_ID QTY PRICE GIFT Title............... Author Name.........
