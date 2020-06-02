@@ -1,18 +1,18 @@
-# MATCHING, MATCHES, MATCH, LIKE
+# LIKE, MATCH, MATCHES, MATCHING
 
 <PageHeader />
 
-The **MATCHING** selection operator is used to comapre a field or EVAL expression against another field, EVAL expression or literal value to check whether the "value" of the first item matches the pattern specified in the second.  
+The **LIKE** selection operator is used to comapre a field or EVAL expression against another field, EVAL expression or literal value to check whether the "value" of the first item matches the pattern specified in the second.  
 
 ## Syntax
 
 ```
-field MATCHING pattern
+field LIKE pattern
 ```
 
 where:
 
-**field** is the first field or EVAL expression to be compared
+**field** is the first field or EVAL expression to be compared.  
 **pattern**  is the field, EVAL expression or literal value used as the pattern against which **field** is to be compared.
 
 ## Note
@@ -34,7 +34,7 @@ where:
 ## Example
 
 ```
-LIST BOOK_SALES WITH FORENAME MATCHING "CARL..."
+LIST BOOK_SALES WITH FORENAME LIKE "CARL..."
 ```
 
 Back to [Cross Reference](./../README.md)

@@ -92,7 +92,7 @@
 | [EVAL](./eval/README.md) | Define an I-type expression to be evaluated |
 | [EVERY](./each/README.md)| Synonym for EACH |
 | FILE | Throwaway |
-| FIRST | Synonym for SAMPLE |
+| [FIRST](./sample/README.md) | Synonym for SAMPLE |
 | [FMT](./fmt/README.md) | Specify an alternate output format for a field |
 | [FOOTER](./footing/README.md) | Synonym for FOOTING |
 | [FOOTING](./footing/README.md) | Specify page footing for a report |
@@ -117,7 +117,7 @@
 | INVISIBLE | Throwaway |
 | ITEMS | Throwaway |
 | [LE](./le/README.md) | Less than or equal to |
-| [LIKE](./matching/README.md) | Synonym for MATCHING |
+| [LIKE](./like/README.md) | Pattern matching |
 | [LIST](./../list/README.md) | Generates a formatted report of records and fields from a specified file. |  
 | [LIST-ITEM](./../list-item/README.md) | Outputs the contents of items. |  
 | [LIST-LABEL](./../list-label/README.md) | Outputs data in a format suitable for producing labels. |  
@@ -126,9 +126,9 @@
 | [LPTR](./lptr/README.md) | Direct report to a printer |
 | [LT](./lt/README.md)| Less than |
 | [MARGIN](./margin/README.md) | Define width of left margin |
-| [MATCH](./matching/README.md) | Synonym for MATCHING |
-| [MATCHES](./matching/README.md) | Synonym for MATCHING |
-| [MATCHING](./matching/README.md) | Pattern matching |
+| [MATCH](./like/README.md) | Synonym for LIKE |
+| [MATCHES](./like/README.md) | Synonym for LIKE |
+| [MATCHING](./like/README.md) | Synonym for LIKE |
 | [MAX](./max/README.md) | Find maximum value of a field |
 | [MIN](./min/README.md) | Find minimum value of a field |
 | [MULTI.VALUE](./multi-value/README.md) | Treat a field as multi-valued |
@@ -144,7 +144,7 @@
 | [NO.SPLIT](./no-split/README.md) | Ensure that, where possible, all of a record fits on a page |  
 | [NOPAGE](./nopage/README.md) | Suppress end of page prompt |  
 | [NOT](./ne/README.md) | Synonym for NE |
-| [NOT.MATCHING](./not-matching/README.md) | The inverse of MATCHING |
+| [NOT.MATCHING](./not-matching/README.md) | Synonym for UNLIKE |
 | OF | Throwaway |
 | [ONLY](./id-only/README.md) | Synony for ID.ONLY |
 | [OR](./or/README.md) | Logical OR |
@@ -155,58 +155,58 @@
 | PG | Throwaway |
 | PRINT | Throwaway |
 | [REFORMAT](./../reformat/README.md) | Generates a formatted report of records and fields to a file or tape. |
-| REQUIRE-INDEX |
-| REQUIRE-SELECT |
-| REQUIRE.INDEX | Synonym for REQUIRE-INDEX |
-| REQUIRE.SELECT | Synonym for REQUIRE-SELECT |
+| [REQUIRE-INDEX](./require-index/README.md) | An index must be used to process this query |  
+| [REQUIRE-SELECT](./require-select/README.md) | Only process query with an active select list |
+| [REQUIRE.INDEX](./require-index/README.md) | Synonym for REQUIRE-INDEX |
+| [REQUIRE.SELECT](./require-select/README.md) | Synonym for REQUIRE-SELECT |
 | RETRIEVE |
-| S-DUMP |
-| SAID | Soundex matching |
-| SAMPLE |
-| SAMPLED |
-| SAMPLING |
-| SAVING |
+| [S-DUMP](./../i-dump-and-s-dump/README.md) | Outputs the sorted contents of items. |
+| [SAID](./said/README.md) | Soundex matching |
+| [SAMPLE](./sample/README.md) | Select a specific number of records |
+| [SAMPLED](./sampled/README.md) | Select only a sample of records |
+| [SAMPLING](./sample/README.md) | Synonym for SAMPLE |
+| [SAVING](./saving/README.md) | Save field value in place of Item ID |
 | [SDUMP](./../i-dump-and-s-dump/README.md) | Outputs the entire contents of items in sorted order |
 | [SELECT](./../select/README.md) | Generates a list of record keys or specified fields based on the criteria specified. |  
-| SELECT-ONLY |
-| SELECT.ONLY |
-| SINGLE.VALUE |
-| SINGLEVALUED |
+| [SELECT-ONLY](./require-select/README.md) | Synonym for REQUIRE-SELECT |
+| [SELECT.ONLY](./require-select/README.md) | Synonym for REQUIRE-SELECT |
+| [SINGLE.VALUE](./single-value/README.md) | Treat a field as single-valued |
+| [SINGLEVALUED](./single-value/README.md) | Synonym for SINGLE.VALUE |
 | [SORT](./../sort/README.md) | Generates a sorted formatted report of records and fields from a specified file. |  
-| SORT-ITEM |  |  
+| [SORT-ITEM](./../list-item/README.md) | Sort items and display in their internal format | |  
 | [SORT-LABEL](./../sort-label/README.md) | Outputs data in a format suitable for producing labels. |
-| SORT.ITEM |
+| [SORT.ITEM](./../list-item/README.md) | Synonym for SORT-ITEM |  
 | [SORT.LABEL](./../sort-label/README.md) | Synonym for SORT-LABEL |  
-| SPOKEN | Synonym for SAID |
+| [SPOKEN](./said/README.md) | Synonym for SAID |
 | [SREFORMAT](./../sreformat/README.md) | Generates a sorted formatted report of records and fields to a file or tape. |
 | [SSELECT](./../sselect/README.md) | Generates an sorted list of record keys or fields based on the criteria specified. |  
 | ST-DUMP |
 | STAT |
 | SUBVALUE |
-| SUM |
+| [SUM](./sum/README.md) | Sum a specified field |
 | [SUPP](./hdr-supp/README.md) | Synonym for HDR-SUPP |
-| T-DUMP |
-| T-LOAD |
-| T.DUMP | Synonym for T-DUMP |
-| T.LOAD | Synonym for T-LOAD |
-| TAPE |
+| [T-DUMP](./../../tape/t-dump/README.md) | Dump records to tape device |
+| [T-LOAD](./../../tape/t-load/README.md) | Load records from a tape device |
+| [T.DUMP](./../../tape/t-dump/README.md) | Synonym for T-DUMP |
+| [T.LOAD](./../../tape/t-load/README.md) | Synonym for T-LOAD |
+| TAPE | Direct output of REFORMAT or SREFORMAT commands to tape |
 | THAN | Throwaway |
 | THE | Throwaway |
-| TO |
-| TOTAL |
-| TRANSPORT |
-| UNIQUE |
-| [UNLIKE](./not-matching/README.md) | Synonym for NOT.MATCHING |
-| USING |
-| VERT |
-| VERTICALLY |
-| WHEN |
-| WITH |
-| WITHEACH |
-| WITHIN |
-| WITHOUT |
-| WITHOUTEACH |
-| ~ | Synonym for SPOKEN |
+| TO | Designate a select list to write to |
+| TOTAL | Report a total of a specified field |
+| TRANSPORT | Display the last value in a set of records |
+| UNIQUE | Use with SAVING to prevent duplicates |
+| [UNLIKE](./unlike/README.md) | The inverse of LIKE |
+| USING | Specify an alternate dictionary to use |
+| VERT | Create a report in vertical format |
+| VERTICALLY | Synonym for VERT |
+| WHEN | Specify multi-value selection criteria |
+| WITH | Specify record selection criteria
+| [WITHEACH](./each/README.md) | Synonym for EACH |
+| [WITHIN](./within/README.md) | Retrieve one record and its sub-records |
+| WITHOUT | Synonym for WITH NO |
+| WITHOUTEACH | The inverse of EACH |
+| [~](./said/README.md) | Synonym for SAID |
 
 ## To be completed
 

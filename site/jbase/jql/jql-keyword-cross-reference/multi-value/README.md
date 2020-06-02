@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The **MULTI.VALUE** keyword specifies the a field or EVAL expression is to be treated as multi-valued.
+The **MULTI.VALUE** keyword specifies that a field or EVAL expression is to be treated as multi-valued.
 
 ## Syntax
 

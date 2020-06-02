@@ -1,4 +1,4 @@
-# LIST-ITEM
+# LIST-ITEM, SORT-ITEM  
 
 <PageHeader />
 
@@ -11,9 +11,11 @@ Displays the contents of items. It takes the general form:
 
 ```
 LIST-ITEM file-specifier {record-list} {selection-criteria} {sort-criteria} {USING file-specifier} {(options}
+
+SORT-ITEM file-specifier {record-list} {selection-criteria} {sort-criteria} {USING file-specifier} {(options}
 ```
 
-where options specific to LIST-ITEM are:
+where options specific to LIST-ITEM / SORT-ITEM are:
 
 | <!----> | <!----> |
 | --- | --- |
@@ -26,6 +28,7 @@ where options specific to LIST-ITEM are:
 ## Note
 
 > When not displaying in hexadecimal, unprintable characters are displayed as periods.
+> **SORT-ITEM** can be used to output a sorted list of items.
 
 ### Example
 
