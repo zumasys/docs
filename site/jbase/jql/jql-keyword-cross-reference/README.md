@@ -180,8 +180,8 @@
 | [SPOKEN](./said/README.md) | Synonym for SAID |
 | [SREFORMAT](./../sreformat/README.md) | Generates a sorted formatted report of records and fields to a file or tape. |
 | [SSELECT](./../sselect/README.md) | Generates an sorted list of record keys or fields based on the criteria specified. |  
-| ST-DUMP |
-| STAT |
+| [ST-DUMP](./../../tape/t-dump/README.md) | Sorted T-DUMP |
+| [STAT](./stat/README.md) | File statistics |
 | SUBVALUE |
 | [SUM](./sum/README.md) | Sum a specified field |
 | [SUPP](./hdr-supp/README.md) | Synonym for HDR-SUPP |

@@ -1,11 +1,6 @@
 # T-FWD
 
-**Created At:** 9/18/2018 9:11:10 AM  
-**Updated At:** 10/1/2018 3:52:15 PM  
-**Original Doc:** [t-fwd](https://docs.jbase.com/49399-tape/t-fwd)  
-**Original ID:** 339619  
-**Internal:** No  
-
+<PageHeader />
 
 ## Description
 
@@ -20,22 +15,13 @@ where:
 - **channel** is the specific channel attachment (0-9).
 - **n** is the number of blocks to move the tape forward.
 
-
-
-
-### Note: 
-
+### Note
 
 > Some tape devices, cannot reliably perform forward spacing individual blocks and therefore specifying the number of blocks to forward space should be avoided for those devices other than half inch units as possible I/O errors can result.
 
-
 If the end of filemark, (EOF), or end of media, (EOM), is detected while forward spacing or forward file searching then the block specification, if any, is overridden and the tape device positioned after the EOF.
 
-
-
-
-
-Examples of use may be:
+## Examples  
 
 ```
 T-FWD 10
@@ -49,5 +35,6 @@ T-FWD
 
 to request the tape device to forward search to the next end of file mark, (EOF).
 
-  
+Back to [Tape Commands](./../tape-commands/README.md)
+
 <PageFooter />

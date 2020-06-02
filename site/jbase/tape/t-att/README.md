@@ -1,10 +1,6 @@
 # T-ATT  
 
-**Created At:** 9/18/2018 8:22:08 AM  
-**Updated At:** 10/1/2018 3:56:18 PM  
-**Original Doc:** [t-att](https://docs.jbase.com/49399-tape/t-att)  
-**Original ID:** 339613  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='spooler tape' vertical='middle' />
@@ -53,5 +49,7 @@ To test for an attached tape within a jBC (BASIC) program:
 ```
 IF SYSTEM(1016)<1,1> LE 0 THEN CRT 'Tape is NOT attached!'
 ```
+
+Back to [Tape Commands](./../tape-commands/README.md)
 
 <PageFooter />

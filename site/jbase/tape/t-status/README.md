@@ -1,10 +1,6 @@
 # T-STATUS
 
-**Created At:** 9/18/2018 8:48:34 AM  
-**Updated At:** 10/1/2018 3:53:06 PM  
-**Original Doc:** [t-status](https://docs.jbase.com/49399-tape/t-status)  
-**Original ID:** 339616  
-**Internal:** No  
+<PageHeader /> 
 
 **Tags:**
 <badge text='spooler tape status' vertical='middle' />
@@ -17,8 +13,6 @@ The T-STATUS command displays the current status of attached tape devices. It ta
 T-STATUS
 ```
 
-
-
 T-STATUS reports, for each attachment, the following information:
 
 - The port number to which the tape device is attached.
@@ -30,6 +24,6 @@ T-STATUS reports, for each attachment, the following information:
 - The block size.
 - The date and time of attachment.
 
+Back to [Tape Commands](./../tape-commands/README.md)
 
-  
 <PageFooter />
