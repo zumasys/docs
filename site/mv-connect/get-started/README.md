@@ -101,10 +101,10 @@ Now go back to POSTMAN and call your program.  Because we just spit out the str
 Now lets make it interactive. Change your HELLOWORLD program as follows.
 
 ```
-001 CALL WSETCONTENTTYPE("application/json")
-002 CALL WGETVAR(NAME,"name")
-003 JSON=\{ "response": "Hello \:NAME:\" }\
-004 CALL WSEND(JSON)
+CALL WSETCONTENTTYPE("application/json")
+CALL WGETVAR(NAME,"name")
+JSON=\{ "response": "Hello \:NAME:\" }\
+CALL WSEND(JSON)
 ```
 
 Adjust the POSTMAN configuration as below and resend
