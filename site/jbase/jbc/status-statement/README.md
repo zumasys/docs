@@ -28,7 +28,7 @@ If the **STATUS** **array** is assigned to an array, the **THEN** statements are
 | 8 | O/S User ID. ID based on the user name and domain of the user a jBASE pseudo user. |
 | 9 | O/S Group ID. |
 | 10 | I-node number; Unique ID of file on file system |
-| 11 | Device on which i-node resides Number of device. The value is an internally calculated value on Windows NT. |
+| 11 | Device on which i-node resides Number of device. The value is an internally calculated value on Windows. |
 | 12 | Device for special character or block Number of device. |
 | 13 |  Time of last access in internal format |
 | 14 | Date of last access in internal format. |

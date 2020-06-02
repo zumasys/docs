@@ -26,7 +26,7 @@ Where:
 
 ## Note
 
-> - **OSBWRITE** immediately writes a file segment out to the UNIX, Windows NT, or Windows 2000 file.
+> - **OSBWRITE** immediately writes a file segment out to the UNIX or Windows file.
 > - It is not necessary to specify a length expression because the number of bytes in expr is written to the file.
 > - Before **OSBWRITE** is used, the file of interest must be open first using either the [OSOPEN](./../osopen) or [OPENSEQ](./../openseq) command.
 > - jBASE uses the ASCII 0 character [CHAR (0)] as a string-end delimiter. Therefore, ASCII 0 cannot be used in any string variable within jBASE. If jBASE reads a string that contains CHAR(0) characters by using [OSBREAD](./../osbread), those characters are converted to CHAR(128).

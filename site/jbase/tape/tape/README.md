@@ -20,10 +20,6 @@ jBASE provides support for the following tape devices. The device control record
 
 The actual tape device files on Unix reside in the "/dev/rmt" directory, however naming conventions differ between the various platforms. On Windows, they are named by convention \\.\TAPE0, etc. Where as the floppy disc is named as \\.\A:
 
-## Note
-
-> Windows 95 does not support tape devices via the Win32 standard interface. However jBASE has been enabled to read and write to the Win95 floppy disc drive.
-
 Compression and formats can vary between different manufacturers of the same device. When reading or writing a tape ensure that the target system device is compatible with your format of written media.
 
 QIC 150 and QIC 525 appear to be readable by most Stream cartridge tape drives. In general higher specification drives tend to be able to read, but not necessarily write, lower specification media tapes.

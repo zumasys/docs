@@ -26,7 +26,7 @@ Where:
 
 ## Note
 
-> A new line in UNIX files is one byte long, whereas in Windows NT it is two bytes long. This means that for a file with newlines, the same **READBLK** statement may return a different set of data depending on the operating system the file is stored under.
+> A new line in UNIX files is one byte long, whereas in Windows it is two bytes long. This means that for a file with newlines, the same **READBLK** statement may return a different set of data depending on the operating system the file is stored under.
 
 The difference between the [READSEQ](./../readseq) statement and the **READBLK** statement is that the **READBLK** statement reads a block of data of a specified length, whereas the [READSEQ](./../readseq) statement reads a single line of data.
 

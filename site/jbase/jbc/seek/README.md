@@ -19,7 +19,7 @@ Where:
 
 **offset** is the number of bytes before or after the reference position. A negative **offset** results in the pointer being moved before the position specified by **relto**. If **offset** is not specified, 0 is assumed.
 
-On Windows NT systems, line endings in files are denoted by the character sequence RETURN + LINEFEED rather than the single LINEFEED used in UNIX files. The value of **offset** should take into account this extra byte on each line in Windows NT file systems.
+On Windows systems, line endings in files are denoted by the character sequence RETURN + LINEFEED rather than the single LINEFEED used in UNIX files. The value of **offset** should take into account this extra byte on each line in Windows file systems.
 
 If **relto** is not specified, 0 is assumed.
 

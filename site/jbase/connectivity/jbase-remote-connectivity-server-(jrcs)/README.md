@@ -20,7 +20,7 @@ This allows the possibility of a communication protocol based on XML, which will
 
 ## Structure of jBASE Remote Server
 
-jBASE Remote Server is the central component of the remote connectivity architecture. It is a program executing as a UNIX daemon, or as a service on Windows NT-based hosts. The server interfaces with jBASE via the jBC library, the component used by native jBASE executables to run jBC programs. Due to the fact that jBC code is pre-compiled into C/C++ by the jBC compiler, the jBC library is a C-based interface and results in very low overhead.
+jBASE Remote Server is the central component of the remote connectivity architecture. It is a program executing as a UNIX daemon, or as a service on Windows-based hosts. The server interfaces with jBASE via the jBC library, the component used by native jBASE executables to run jBC programs. Due to the fact that jBC code is pre-compiled into C/C++ by the jBC compiler, the jBC library is a C-based interface and results in very low overhead.
 
 jBASE Remote Server consists of a listener process (reactor), which listens for new client connections, and server proxy processes responsible for servicing client requests. The listener process is also responsible for clean-up of dead connections and client sessions which have timed out. All communication is handled via a TCP/IP and XML layer, and proxy processes are spawned dynamically upon client connection.
 
@@ -383,7 +383,7 @@ This example illustrates a terminal input message sent to the server with base64
 
 jRCS originally allowed users to only log into the home directories of their respective accounts. An optional parameter is now provided to the Open function of the JConnection object to enable logins into alternate accounts. If the account parameter is specified, after jRCS completes its user authentication step, it will perform the lookup of the alternate user account's home directory and change its current directory to that directory. The .jrcsrc or jrcsrc.cmd scripts will then be executed from this alternate account's home directory, and not from the user's directory.
 
-It is recognized that the alternate account login may entail additional user lookups on UNIX and Windows NT. It is further recognized that the account password feature will not be utilized, i.e. the user will only be authenticated once.
+It is recognized that the alternate account login may entail additional user lookups on UNIX and Windows. It is further recognized that the account password feature will not be utilized, i.e. the user will only be authenticated once.
 
 Please note that jRCS does not authenticate user accounts via the jBASE SYSTEM file. It always uses real OS user names for both authentication and for accessing a specific account name. So, if you log in as user MYUSER and into account MYACCOUNT, both MYUSER and MYACCOUNT must be valid user names defined in the parent OS. This is done by jRCS to determine access privileges, permissions, home directories and to stay consistent with OS authentication strategies.
 
