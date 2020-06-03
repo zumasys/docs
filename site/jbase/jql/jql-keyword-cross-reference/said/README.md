@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The **SAID** selection operator compares a field or EVAL expression against another field, EVAL expression or literal value and tests for the first item having the Soundex code given by the second.  
+The **SAID** selection operator compares a field or EVAL expression against another field, EVAL expression or literal value and tests for the first item having a value which sounds like that of the second.  
 
 ## Syntax
 
@@ -13,7 +13,7 @@ field SAID value
 where:
 
 **field** is the first field or EVAL expression to be compared.  
-**value** is the second field, EVAl expression or literal value to be compared
+**value** is the second field, EVAL expression or literal value to be compared
 
 ## Example
 

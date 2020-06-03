@@ -26,10 +26,12 @@ Using **RETRIEVE** to obtain data records as the verb rather than an existing jQ
 
 Simply put : implement a **PLOT** command that passes the entire command line into **JQLCOMPILE** and the results will be the same as if the first word were replaced with **RETRIEVE**.
 
-For a practical example of use, see the **jexport.b** program in the **$JBCRELELEASEDIR/****samples/JQLBASIC** directory.
+For a practical example of use, see the **jexport.b** program in the **$JBCRELELEASEDIR/samples/JQLBASIC** directory.
 
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
+
+Go back to [jQL Keyword Cross-Reference](./../../jql/jql-keyword-cross-reference/README.md)
   
 <PageFooter />
