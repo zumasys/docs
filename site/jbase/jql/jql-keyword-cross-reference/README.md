@@ -198,8 +198,8 @@
 | UNIQUE | Use with SAVING to prevent duplicates |
 | [UNLIKE](./unlike/README.md) | The inverse of LIKE |
 | USING | Specify an alternate dictionary to use |
-| VERT | Create a report in vertical format |
-| VERTICALLY | Synonym for VERT |
+| [VERT](./vert/README.md) | Create a report in vertical format |
+| [VERTICALLY](./vert/README.md) | Synonym for VERT |
 | [WHEN](./when/README.md) | Specify multi-value selection criteria |
 | [WITH](./with/README.md) | Specify record selection criteria
 | [WITHEACH](./each/README.md) | Synonym for EACH |
