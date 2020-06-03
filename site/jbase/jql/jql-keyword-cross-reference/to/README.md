@@ -12,7 +12,7 @@ TO list.number
 
 where:
 
-**list.number** is an integer from 0 to 10 whch designates the list to be created.
+**list.number** is an integer from 0 to 10, whch designates the list to be created.
 
 If the **TO** keyword is not present, the default list, 0, will be created.
 
@@ -21,6 +21,8 @@ If the **TO** keyword is not present, the default list, 0, will be created.
 ```
 SELECT PARTS WITH STOCK > 100 TO 1
 ```
+
+See also [FROM](./../from/README.md)
 
 Back to [Cross Reference](./../README.md)
 

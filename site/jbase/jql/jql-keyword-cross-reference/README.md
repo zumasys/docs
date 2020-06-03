@@ -192,7 +192,7 @@
 | TAPE | Direct output of REFORMAT or SREFORMAT commands to tape |
 | THAN | Throwaway |
 | THE | Throwaway |
-| TO | Designate a select list to write to |
+| [TO](./to/README.md)| Designate a select list to write to |
 | [TOTAL](./total/README.md) | Report a total of a specified field |
 | [TRANSPORT](./transport/README.md) | Display the last value in a set of records |
 | UNIQUE | Use with SAVING to prevent duplicates |
