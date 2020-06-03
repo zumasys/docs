@@ -12,7 +12,7 @@ SAVING {UNIQUE} field.name
 
 where:
 
-**UNIQUE** specifies that duplicate values are not to be included in the saved list.  
+the optional **UNIQUE** qualifier specifies that duplicate values are not to be included in the saved list.  
 **field.name** is the field or EVAL expression to be saved.
 
 ## Example

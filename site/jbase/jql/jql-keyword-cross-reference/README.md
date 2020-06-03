@@ -6,7 +6,7 @@
 | --- | --- |
 | [!](./or/README.md) | Synonym for Logical OR |
 | [#](./ne/README.md) | Synonym for NE |
-| % | Synonym for PERCENTAGE |
+| [%](./percent/README.md) | Synonym for PERCENTAGE |
 | [&](./and/README.md) | Synonym for AND |
 | ( | Left parenthesis |
 | ) | Right parentesis |
@@ -16,15 +16,15 @@
 | / | Backslash, used in division |
 | [<](./lt/README.md) | Synonym for LT |
 | [<=](./le/README.md) | Synonym for LE |
-| <> | Synonym for NE |
+| [<>](./ne/README.md) | Synonym for NE |
 | [=](./eq/README.md) | Synonym for EQ |
 | [=<](./le/README.md) | Synonym for LE |
 | [=>](./ge/README.md) | Synonym for GE |
 | [>](./gt/README.md) | Synonym for GT |
-| >< | Synonym for NE |
+| [><](./ne/README.md) | Synonym for NE |
 | [>=](./ge/README.md) | Synonym for GE |
 | A |  Throwaway |
-| AFTER | Synonym for GT |  
+| [AFTER](./gt/README.md) | Synonym for GT |  
 | ALL |   |
 | AN | Throwaway |
 | [AND](./and/README.md) | Logical AND |
@@ -111,7 +111,7 @@
 | [ID-SUPP](./id-supp/README.md) | Suppress the display of item ID |
 | [ID.SUP](./id-supp/README.md) | Synonym for ID-SUPP |
 | [ID.SUPP](./id-supp/README.md) | Synonym for ID-SUPP |
-| IF | Synonym for WITH |
+| [IF](./with/README.md) | Synonym for WITH |
 | IN | Throwaway |
 | [INQUIRING](./inquiring/README.md) | Prompt for item ID's in query |
 | INVISIBLE | Throwaway |
@@ -149,9 +149,9 @@
 | [ONLY](./id-only/README.md) | Synony for ID.ONLY |
 | [OR](./or/README.md) | Logical OR |
 | PAGE | Throwaway |
-| PCT | Synonym for PERCENT |  
-| PERCENT | Report percentages |
-| PERCENTAGE | Synonym for PERCENT |
+| [PCT](./percent/README.md) | Synonym for PERCENT |  
+| [PERCENT](./percent/README.md) | Report percentages |
+| [PERCENTAGE](./percent/README.md) | Synonym for PERCENT |
 | PG | Throwaway |
 | PRINT | Throwaway |
 | [REFORMAT](./../reformat/README.md) | Generates a formatted report of records and fields to a file or tape. |
@@ -193,22 +193,20 @@
 | THAN | Throwaway |
 | THE | Throwaway |
 | TO | Designate a select list to write to |
-| TOTAL | Report a total of a specified field |
-| TRANSPORT | Display the last value in a set of records |
+| [TOTAL](./total/README.md) | Report a total of a specified field |
+| [TRANSPORT](./transport/README.md) | Display the last value in a set of records |
 | UNIQUE | Use with SAVING to prevent duplicates |
 | [UNLIKE](./unlike/README.md) | The inverse of LIKE |
 | USING | Specify an alternate dictionary to use |
 | VERT | Create a report in vertical format |
 | VERTICALLY | Synonym for VERT |
-| WHEN | Specify multi-value selection criteria |
-| WITH | Specify record selection criteria
+| [WHEN](./when/README.md) | Specify multi-value selection criteria |
+| [WITH](./with/README.md) | Specify record selection criteria
 | [WITHEACH](./each/README.md) | Synonym for EACH |
 | [WITHIN](./within/README.md) | Retrieve one record and its sub-records |
 | WITHOUT | Synonym for WITH NO |
-| WITHOUTEACH | The inverse of EACH |
+| [WITHOUTEACH](./withouteach/README.md) | The inverse of EACH |
 | [~](./said/README.md) | Synonym for SAID |
-
-## To be completed
 
 Back to [jQL](./../README.md)
 
