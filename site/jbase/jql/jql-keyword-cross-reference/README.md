@@ -197,7 +197,7 @@
 | [TRANSPORT](./transport/README.md) | Display the last value in a set of records |
 | UNIQUE | Use with SAVING to prevent duplicates |
 | [UNLIKE](./unlike/README.md) | The inverse of LIKE |
-| USING | Specify an alternate dictionary to use |
+| [USING](./using/README.md) | Specify an alternate dictionary to use |
 | [VERT](./vert/README.md) | Create a report in vertical format |
 | [VERTICALLY](./vert/README.md) | Synonym for VERT |
 | [WHEN](./when/README.md) | Specify multi-value selection criteria |

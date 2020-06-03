@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The **USING** keyword directs the query processor to use the dictionary of anotther file for this query.
+The **USING** keyword directs the query processor to use the dictionary of another file for this query.
 
 ## Syntax
 
