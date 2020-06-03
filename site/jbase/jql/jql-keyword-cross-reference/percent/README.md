@@ -9,6 +9,7 @@ The **PERCENT** field qualifier causes the query processor to calculate percenta
 ```
 PERCENT field field.qualifiers
 ```
+
 where:
 
 **field** is the field or EVAL expression to be displayed.  

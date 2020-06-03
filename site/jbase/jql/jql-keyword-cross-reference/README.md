@@ -159,7 +159,7 @@
 | [REQUIRE-SELECT](./require-select/README.md) | Only process query with an active select list |
 | [REQUIRE.INDEX](./require-index/README.md) | Synonym for REQUIRE-INDEX |
 | [REQUIRE.SELECT](./require-select/README.md) | Synonym for REQUIRE-SELECT |
-| RETRIEVE |
+| RETRIEVE | Used with compiled jQL in place of LIST/SORT |
 | [S-DUMP](./../i-dump-and-s-dump/README.md) | Outputs the sorted contents of items. |
 | [SAID](./said/README.md) | Soundex matching |
 | [SAMPLE](./sample/README.md) | Select a specific number of records |
