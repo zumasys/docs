@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-Use the **VERT** keyword to cuase the query processor to produce a report in vertical format rather than columnar.
+Use the **VERT** keyword to cause the query processor to produce a report in vertical format rather than columnar.
 
 ## Syntax
 

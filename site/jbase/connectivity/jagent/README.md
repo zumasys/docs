@@ -18,5 +18,6 @@
 [jremote-api](./jremote-api)  
 [odbc-quick-start](./odbc-quick-start)  
 
-  
+[Extended Dictionary Definitions](./extended-dictionary/README.md)
+
 <PageFooter />
