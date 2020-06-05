@@ -5,7 +5,7 @@ on:
       - master
 
 env:
-  NODE_VERSION: "12.x"
+  NODE_VERSION: "14.x"
   SOURCE_DIR: "site/.vuepress/dist"
   VUE_APP_GITHUB_CLIENT_ID: ${{ secrets.VUE_APP_GITHUB_CLIENT_ID }}
   VUE_APP_GITHUB_CLIENT_SECRET: ${{ secrets.VUE_APP_GITHUB_CLIENT_SECRET }}
@@ -19,9 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: "Get latest code"
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
       - name: Use Node.js ${{ env.NODE_VERSION }}
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2-beta
         with:
           node-version: ${{ env.NODE_VERSION }}
       - name: "npm install, build, and test"
