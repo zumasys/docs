@@ -260,7 +260,7 @@ SELECTINDEX index-name{, index-key} FROM file-var {TO select-var}
 - Name of variable on NEXT must match the name on FOR.
 - WHO is R83 format without master dictionary name.
 - Debugger is significantly different.
-- Subroutine calls from dictionaries are supported but each routine will need to have a named common included.
+- Subroutine calls from dictionaries are supported but each routine will need to have a named common included. [link](site\jbase\jql\calling-a-subroutine-from-a-dictionary-item\README.md)
 - Default dictionary items for file ids have different sizing and justification.
 - Programs must be catalogued before being able to a RUN filename progname, but RUN is essentially redundant.
 - D3 default Annn dictionaries are \*Annn in jBASE.
@@ -268,7 +268,7 @@ SELECTINDEX index-name{, index-key} FROM file-var {TO select-var}
 - PROCWRITE to a PQ proc using a space as the delimiter is not supported in jBASE. All procs use the PQN format of an @AM as the delimiter.
 - Initialization of variables is different, so ASSIGNED() function can give different results.
 - FOLD() function is different.
-- jBASE doesn’t support % functions.
+- jBASE doesn’t support % functions. jBASE does support inline C to duplicate these functions.
 - jBASE doesn’t support the IMPORT and EXPORT commands.
 - Not all user exits are supported, see the list [here](./../../../../conversion-processing/supported-user-exits/README.md), but you can write your own in [jBC](./../../../../conversion-processing/user-exits/README.md)
 

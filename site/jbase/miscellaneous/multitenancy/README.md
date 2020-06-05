@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-jBASE has excellent Multi-Tenancy capability via heavily definable configuration switches.
+jBASE has Multi-Tenancy capability via heavily definable configuration switches.
 
 1. Independent Spoolers
 2. Independent System File
@@ -12,8 +12,19 @@ jBASE has excellent Multi-Tenancy capability via heavily definable configuration
 6. O/S security to limit access to files.
 7. Shared code and files between tenants.
 
-A full write up on these cabilities can be found here: [Link](https://github.com/zumasys/jbase_multitenancy_windows/blob/master/jBASE_and%20MultiTenancy.docx?raw=true)
+## Addtional Links
 
-A sample Windows Git template can be found here: [Link](https://github.com/zumasys/jbase_multitenancy_windows)
+<center>
+
+|  |
+| :--: |
+| [Detailed Multi-Tenancy Write-up](./jBASE_and_MultiTenancy.md) |
+| [Sample Windows Git template](https://github.com/zumasys/jbase_multitenancy_windows) |
+| |
+
+</center>
+
+
+
 
 <PageFooter />

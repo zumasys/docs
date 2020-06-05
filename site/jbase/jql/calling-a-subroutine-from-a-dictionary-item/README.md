@@ -42,7 +42,7 @@ Their usage of these arrays is:
 | access(3) | Data item currently being processed. If BY-EXP is used then only the current multi-value from each attribute is included in the item. |
 | access(4) | Item count  (Initialized to 1 at the start of each jQL statement) |
 | access(5) | Attribute being processed. This is the value in attribute 2 of the calling dictionary item. |
-| access(6) | Value mark counter |
+| access(6) | Value mark counter. If doing BY-EXP this will always return 1 which is different from D3.  Access(14) will return the original Value position |
 | access(7) | Sub value mark counter |
 | access(8) | reserved |
 | access(9) | reserved |
@@ -50,7 +50,7 @@ Their usage of these arrays is:
 | access(11) | Data file name |
 | access(12) | reserved |
 | access(13) | reserved |
-| access(14) | Multivalue number from an exploded select-list |
+| access(14) | Multivalue number from an exploded select-list. Duplicates D3 behaviour for access(6) |
 | access(15) | reserved |
 | access(16) | reserved |
 | access(17) | reserved |
