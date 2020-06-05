@@ -260,7 +260,7 @@ SELECTINDEX index-name{, index-key} FROM file-var {TO select-var}
 - Name of variable on NEXT must match the name on FOR.
 - WHO is R83 format without master dictionary name.
 - Debugger is significantly different.
-- Subroutine calls from dictionaries are supported but each routine will need to have a named common included. [link](site\jbase\jql\calling-a-subroutine-from-a-dictionary-item\README.md)
+- Subroutine calls from dictionaries are supported but each routine will need to have a named common included. [link](../../../jql/calling-a-subroutine-from-a-dictionary-item/README.md)
 - Default dictionary items for file ids have different sizing and justification.
 - Programs must be catalogued before being able to a RUN filename progname, but RUN is essentially redundant.
 - D3 default Annn dictionaries are \*Annn in jBASE.
