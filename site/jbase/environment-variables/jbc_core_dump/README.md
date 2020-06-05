@@ -10,6 +10,8 @@
 
 `JBC_CORE_DUMP` is Linux only and will cause a core dump to be captured if a segmentation fault is encountered.
 
+## Note  
+
 > Similar to the `jBC` function [JBASECOREDUMP](./../../jbc/jbasecoredump/README.md).
 
 ## Values
@@ -22,7 +24,7 @@
 
 ## UNIX
 
-```
+``` bash
 export JBC_CORE_DUMP=1
 ```
 
