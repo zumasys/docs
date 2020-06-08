@@ -2,10 +2,10 @@
 
 ## Topics
 
-[transaction-processing](./transaction-processing/README.md)  
-[transaction-replication](./transaction-replication/README.md)  
+[Transaction Journaling - The Manual](./transaction-journaling/README.md)  
+[Transaction Processing](./transaction-processing/README.md)  
+[Transaction Replication](./transaction-replication/README.md)  
 
 [Back to Knowledgebase](./../README.md)
 
-  
 <PageFooter />
