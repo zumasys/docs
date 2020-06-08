@@ -10,7 +10,6 @@
 [Overview of Case Insensitivity in jBASE](./case-insensitive-overview/README.md)  
 [Profiles](./profiles/README.md)  
 
-
 [Back to Knowledgebase](./../README.md)
 
 <PageFooter />

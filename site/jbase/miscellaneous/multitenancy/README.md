@@ -24,7 +24,6 @@ jBASE has Multi-Tenancy capability via heavily definable configuration switches.
 
 </center>
 
-
-
+Back to [Miscellaneous](./../README.md)
 
 <PageFooter />

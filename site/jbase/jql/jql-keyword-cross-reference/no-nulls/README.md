@@ -6,7 +6,7 @@ The **NO.NULLS** keyword indicates to the query processor that null items are to
 
 ## Note
 
->The "NO.NULLS" keyword is only relevant when issed in conjunction with the [AVERAGE](./../average/README.md), [ENUM](./../enum/README.md), [MAX](./../max/README.md) and [MIN](./../min/README.md) qualifier keywords.
+>The "NO.NULLS" keyword is only relevant when issued in conjunction with the [AVERAGE](./../average/README.md), [ENUM](./../enum/README.md), [MAX](./../max/README.md) and [MIN](./../min/README.md) qualifier keywords.
 
 ## Syntax
 
