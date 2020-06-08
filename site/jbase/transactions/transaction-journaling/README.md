@@ -33,11 +33,14 @@ These are the main transaction journaling administration utilities provided with
 [Cluster System - multiple application servers and a single database server](./cluster-system/README.md)  
 [Hot Standby database server](./hot-standby/README.md)  
 [Scripts](./scripts/README.md)  
-[Utilities - jlogadmin](./utilities-jlogadmin/README.md)  
-[Utilities - jlogstatus](./utilities-jlogstatus/README.md)  
-[Utilities - jlogsync](./utilities-jlogsync/README.md)  
-[Utilities - jlogdup](./utilities-jlogdup/README.md)  
-[Utilities - jlogmonitor](./utilities-jlogmonitor/README.md)  
+
+## Utilities  
+
+[jlogadmin](./utilities-jlogadmin/README.md)  
+[jlogstatus](./utilities-jlogstatus/README.md)  
+[jlogsync](./utilities-jlogsync/README.md)  
+[jlogdup](./utilities-jlogdup/README.md)  
+[jlogmonitor](./utilities-jlogmonitor/README.md)  
 
 ### To be updated to reflect current usage  
 
