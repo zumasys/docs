@@ -6,7 +6,7 @@ The jlogstatus command displays the status of the jBASE Transaction Journal. In 
 
 ## Syntax
 
-```
+```bash
 jlogstatus -options
 ```
 
@@ -25,7 +25,7 @@ jlogstatus -options
 
 ## Example
 
-```
+```bash
 jlogstatus -a –v –r 5
 ```
 

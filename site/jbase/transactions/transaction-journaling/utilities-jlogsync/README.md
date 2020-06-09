@@ -9,7 +9,7 @@ The use of the jlogsync program means the jlogsync process instead of individual
 
 ## Syntax
 
-```
+```bash
 jlogsync -options
 ```
 

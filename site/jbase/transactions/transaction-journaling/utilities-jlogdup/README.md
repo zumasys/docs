@@ -6,7 +6,7 @@ The jlogdup command provides the capability to duplicate transaction log set dat
 
 ## Syntax
 
-```
+```bash
 jlogdup -Options INPUT input_spec OUTPUT output_spec
 ```
 
