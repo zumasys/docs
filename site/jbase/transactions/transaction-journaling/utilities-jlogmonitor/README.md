@@ -17,7 +17,7 @@ jlogmonitor {-h|?} {-ccmd} {-Cnn} {-Dnn} {-E} {-Inn) {-Snn}
 | -Dnn   | If the jlogdup process processes no records (or if there is no jlogdup process active), then after nn minutes of inactivity it displays an error message.<br>It repeats the error message every nn minutes while the jlogdup process(es) is inactive. |
 | -E     | If the jlogdup program reports an error, this option causes jlogmonitor to also display an error.<br>You can view the actual nature of the error by either looking at the screen where the jlogdup process is active, or by listing the jlogdup error message file (assuming the –eERRFILE option was used). |
 | -h     | display help  |
-| -lnn   | The status of the Journaler can be ACTIVE, INACTIVE or SUSPENDED.<br>If the status of the journaler is either INACTIVE or SUSPENDED (with jlogadmin) for more than nn minutes, it s=displays an error message.<br>The error message will be repeated every nn minutes that the journaler is not active |
+| -lnn   | The status of the Journaler can be ACTIVE, INACTIVE or SUSPENDED.<br>If the status of the journaler is either INACTIVE or SUSPENDED (with jlogadmin) for more than nn minutes, it displays an error message.<br>The error message will be repeated every nn minutes that the journaler is not active |
 | -Snn   | Use this option to determine if any updates are being applied to the journal logs.<br>If no updates are applied to the current journal log set for nn minutes it displays an error message.<br>It repeats the error message for every nn minutes of system inactivity. |
 
 ## Note  
@@ -26,7 +26,7 @@ jlogmonitor {-h|?} {-ccmd} {-Cnn} {-Dnn} {-E} {-Inn) {-Snn}
 
 ## Example
 
-```
+```bash
 jlogmonitor –c"MESSAGE * %"
 ```
 
