@@ -7,6 +7,24 @@ You can use options in jlogadmin so that the jBASE processes themselves do this 
 
 The use of the jlogsync program means the jlogsync process instead of individual jBASE processes performs file synchronization. Therefore alleviates the overhead of the synchronization from the update processes. Thus, the jlogsync process is not mandatory. However, in a large installation it may provide beneficial performance gains.
 
+## Syntax
+
+```
+jlogsync -options
+```
+
+## Syntax Elements  
+
+| Option | Description |
+| ---    | ---         |
+| -b     | run in the background (normal operation)                                |
+| -d     | display jlogsync demon status                                           |
+| -i     | initialize and become the jlogsync demon                                |
+| -k     | kill the jlogsync demon                                                 |
+| -t nn  | Inactivity timeout period (seconds) for detecting jlogsync being killed |
+| -v     | verbose mode                                                            |
+| -S     | force synchronization now                                               |  
+
 Back to [Transaction Journaling](./../README.md)
 
 <PageFooter />
