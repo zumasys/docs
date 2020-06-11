@@ -39,8 +39,8 @@ The following table describes each of the parameters used for input and output s
 | device=file | S | the file name input/output. Can be more than one. |
 | end=timespec | I | time in log set at which to stop restore/duplication. |
 | hostname=host | S | for set=socket, name of host for network connection. |
-| milestone=true \* | I | periodically send progress information to sender. Requires 'set=socket'. |
-| milestone=file \* | O | update milestone file with progress information from receiver. Requires 'set=socket'. |
+| milestone=true \* | I | periodically send progress information to sender. This is set on the Receiver system Input seciton. Requires 'set=socket'. |
+| milestone=file \* | O | update milestone file with progress information from receiver. This is set on the input section of the sender. Requires 'set=socket'. |
 | noflush=true | O | suppress flush of output at end of transaction. (default false) |
 | notrans=true | O | ignore transaction boundaries. (default false) |
 | port=nn | S | for set=socket, TCP port number for network connection. |
@@ -48,7 +48,7 @@ The following table describes each of the parameters used for input and output s
 | rename=from,to | | convert path name directories 'from' to 'to' on restore.|
 | renamefile=file | O | use rename file list of format 'from,to' to rename files on restore. |
 | retry=nn | I | specifies the interval between retries, when 'terminate=wait'.|
-| set=auto \* | I,L | begin restore/duplication using the log set that includes start time. Requires 'start='. |
+| set=auto \* | I,L | begin restore/duplication using the log set that includes start time. This uses the milestone features. The file must already exist. Requires 'start='. |
 | set=current | I,L | begin restore/duplication using the current log set as input. |
 | set=database | O,D | output is to the database, i.e. restore mode. |
 | set=eldest | I,L | begin restore/duplication using the eldest log set. |
@@ -140,6 +140,26 @@ NOTE: The message is designated INFORMATION, WARNING or FATAL ERROR. This design
 |  | Error errno while writing to log journal | Yes |
 |  | Unable to open logger file *filename* | Yes |
 |  | Out of memory to log update | Yes |
+
+### Milestone Feature
+
+The milestone feature when replicating between two systems will create a milestone record on the sender system that can then be used to restart transaction replication where it stopped.  The milestone parameter is used on both the sender and receiver systems with different parameters.
+
+```
+# Sender System
+jlogdup -v input set=auto start=/tmp/tjstatus.txt terminate=wait output set=socket hostname=172.17.0.4 port=6767 milestone=/tmp/tjstatus.txt
+
+# Receiver System
+jlogdup -v -e /tmp/tjgeterrs -l /tmp/tjgetlog input set=socket hostname=172.17.0.4 port=6767 terminate=wait milestone=true output set=database
+```
+
+Special note:  The milestone file must already exist.  If one does not exist then you must run the sender jlogdup without the set=auto and start=<file> to get the milestone file created.
+
+Example
+```
+jlogdup -v input set=<set to use> start=<where to start in journal> terminate=wait output set=socket hostname=172.17.0.4 port=6767 milestone=/tmp/tjstatus.txt
+```
+Let this run, catch up, and sync for a few minutes.  Check your milestone file and make sure the stamps are caught up.  The milestone is updated once per minute as long as there is activity.  If there is no activity the file will not be updated.  If you wish for this file to constantly update you can setup a phantom that writes a update to a file every minute to trigger activity.
 
 ### Warning threshold
 
