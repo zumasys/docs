@@ -4,7 +4,7 @@
 
 ## Description
 
-Set pivot year for full year calculation when doing a MD conversion on a 2 digit year.  Default is 30.  This means if YY < 30 then it is caluclated as 19YY, else 20YY.
+Set pivot year for full year calculation when doing a MD conversion on a 2 digit year.  Default is 30.  This means if YY < 30 then it is calculated as 19YY, else 20YY.
 
 ## Default
 
