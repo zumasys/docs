@@ -11,9 +11,9 @@ Each configuration which will be described adheres to those goals as identified 
 This should be the minimum standard configuration utilizing Transaction Journaling. The assumptions made here are that jBASE will be the database (native) server.
 Transaction handling will be achieved by the use of the programming commands:
 
-• TRANSTART
-• TRANSEND
-• TRANSABORT
+• [TRANSTART](./../../jbc/../../jbc/transtart/README.md)
+• [TRANSEND](./../../jbc/../../jbc/transend/README.md)
+• [TRANSABORT](./../../jbc/../../jbc/transabort/README.md)
 
 Transactions which are not completed in their entirety will be completely “rolled back” by jBASE, when commanded to so do by the TRANSABORT command. Upon execution of the TRANSEND command all or none of the constituent database updates will be actioned, ensuring database consistency. Any transactional recovery will be achieved through the use of jBASE facilities.
 jBASE transaction journaling will be used to record all database updates.
@@ -41,7 +41,7 @@ Actions performed by this script are:
 
 The command:
 
-```
+```bash
 find /bnk -print | jbackup -v -f –c /dev/rmt/0 -s /tmp/jbstart
 ```
 
@@ -88,9 +88,14 @@ The administrator must ensure that a skeleton system save is made available. Thi
 
 If the operating system and/or jBASE is deemed corrupt or there has been a catastrophic disk failure, resulting in the loss of a disk, then the system should be reconstructed as a skeleton system as discussed above. The details of this recovery are out of the scope of this document.
 Once the system has been brought to an operational state, the database needs to be brought back to a known state. The last backup set produced is recovered by the recover_jbase script. This not only restores the jBASE
-database including saved indexes, but also replays all completed transactions which have been transferred to tape and initiates transaction logging to tape.
-If there has been an application/database error which has resulted in the decision to perform a complete restore of the system, it is clear that if the error can be identified to have taken place at a particular time, (whether precisely or approximately), then the whole of the transaction log should not be replayed. Using the “end=timespec” option of jlogdup will cause the transaction log replay to terminate at the specified time rather than the end of the logset. (See jlogdup section for valid format of timespec). The recover_jbase script will prompt for a time or assume EOS (i.e. all the transaction log is to be replayed). As the
-Warning: If an “end=timespec” parameter has been specified, then the time chosen may cause transactions which began before this time not to be rolled back. Additional database updates pertaining to such transactions and bounded by the corresponding TRANSEND commands may exist on the transaction log file, but will not be executed.  
+database including saved indexes, but also replays all completed transactions which have been transferred to tape and initiates transaction logging to tape.  
+
+If there has been an application/database error which has resulted in the decision to perform a complete restore of the system, it is clear that if the error can be identified to have taken place at a particular time, (whether precisely or approximately), then the whole of the transaction log should not be replayed. Using the “end=timespec” option of jlogdup will cause the transaction log replay to terminate at the specified time rather than the end of the logset. (See [jlogdup](./../utilities-jlogdup/README.md) section for valid format of timespec). The recover_jbase script will prompt for a time or assume EOS (i.e. all the transaction log is to be replayed).  
+
+#### Warning  
+
+>If an “end=timespec” parameter has been specified, then the time chosen may cause transactions which began before this time not to be rolled back.  
+>Additional database updates pertaining to such transactions and bounded by the corresponding TRANSEND commands may exist on the transaction log file, but will not be executed.  
 
 ### Close of business procedures  
 
