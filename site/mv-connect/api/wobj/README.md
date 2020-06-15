@@ -68,7 +68,7 @@ There is now a optional config file to set default options for WOBJ.  This is a 
 | --------- | -------------------------------------------------------------- |
 |     1     | P - Defined as a config item.                                  |
 |     2     | Platform OBJECT support.  Currently only option is UDO to turn on Universe and/or Unidata UDO support.  This only work if the platform supports UDO.  In the future jBASE objects and QM collections will be added. |
-|     3     | Optional WOBJ binary to use in MVDBTOOLKIT.  This allows you to use a different WOBJ.  You must use the include MVDBTOOLKIT.BP MVDBTOOLKIT.WOBJ.CHOOSE.WOBJ and variable WOBJ.RTNE will be set to the proper routine.  You then use wobj via CALL @WOBJ.RTNE vs CALL WOBJ.RTNE. This feature is used by the standalone MVDBTOOLKIT to use it's own MVDBTOOLKIT.WOBJ included library |
+|     3     | Optional WOBJ binary to use in MVDBTOOLKIT.  This allows you to use a different WOBJ.  You must use the include MVDBTOOLKIT.BP MVDBTOOLKIT.WOBJ.CHOOSE.WOBJ and variable WOBJ.RTNE will be set to the proper routine.  You then use wobj via CALL WOBJ vs CALL WOBJ.RTNE. This feature is used by the standalone MVDBTOOLKIT to use it's own MVDBTOOLKIT.WOBJ included library |
 
 Click on [this link](https://github.com/patrickaaronpayne/demowobj/blob/master/DEMOWOBJ.B) to see a sample program on github.
 
