@@ -6,9 +6,10 @@ MVDBToolkit contains a series of functions to assist in cross platform MV develo
 
 | Function                                                      | Description                       |
 | -----------------------------------------                     | --------------------------------- |
+| [MVDBTOOLKIT.WCALL](./mvdbtoolkit-wcall/README.md)          | Web Client Function (Curl wrapper)                |
 | [MVDBTOOLKIT.CONFIG](./mvdbtoolkit-config/README.md)          | Configuration Tool                |
 | [MVDBTOOLKIT.TEST](./mvdbtoolkit-test/README.md)              | Test/QC program                   |
-| [MVDBTOOLKIT.EXECUTE](./mvdbtoolkit-wexecute/README.md)        | Execute O/S commands              |
+| [MVDBTOOLKIT.WEXECUTE](./mvdbtoolkit-wexecute/README.md)        | Execute O/S commands              |
 | [MVDBTOOLKIT.WFILEIO](./mvdbtoolkit-wfileio/README.md)        | Read/Write/Delete O/S commands    |
 | [MVDBTOOLKIT.WGETENV](./mvdbtoolkit-wgetenv/README.md)        | Get O/S environment Variables     |
 | [MVDBTOOLKIT.WPLATFORM](./mvdbtoolkit-wplatform/README.md)    | Get Config information            |
