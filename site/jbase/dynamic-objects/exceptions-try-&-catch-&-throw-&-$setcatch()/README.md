@@ -385,5 +385,4 @@ A similar outcome would occur if you called **\$setcatch()** like this:
 
 Back to [Dynamic Objects - Overview](./../README.md)
 
-  
 <PageFooter />

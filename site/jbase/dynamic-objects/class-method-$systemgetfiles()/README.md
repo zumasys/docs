@@ -50,7 +50,7 @@ crt my_system->$tojson(beautify)
 
 Result:
 
-```
+```json
 {
     "filepath":[
         "C:\\jbase\\globals\\MD",
@@ -68,5 +68,4 @@ Result:
 }
 ```
 
-  
 <PageFooter />

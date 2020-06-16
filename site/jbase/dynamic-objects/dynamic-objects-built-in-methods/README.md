@@ -42,5 +42,4 @@ All built-in methods start with "\$".
 
 Back to [Dynamic Objects - Overview](./../README.md)
 
-  
 <PageFooter />

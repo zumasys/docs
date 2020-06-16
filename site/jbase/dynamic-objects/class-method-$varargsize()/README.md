@@ -4,7 +4,7 @@
 
 ## Description
 
-The **size()** method initially returns the number of arguments from an instance of the **$vararg** class. It is decremented each time a call is made to [**$varargs::next()**](static-method-vararg-next).
+The **size()** method initially returns the number of arguments from an instance of the **\$vararg** class. It is decremented each time a call is made to [**\$varargs::next()**](static-method-vararg-next).
 
 ## Examples
 
@@ -49,5 +49,4 @@ total = homework->sum(1,2,3,4,5)
 crt "Total = " : total
 ```
 
-  
 <PageFooter />

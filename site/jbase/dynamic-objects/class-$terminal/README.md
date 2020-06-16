@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The following methods can be utilized from the **$terminal**class:
+The following methods can be utilized from the **\$terminal** class:
 
 - $terminal::terminfo()
 - $terminal::tparm()

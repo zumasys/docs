@@ -4,9 +4,9 @@
 
 ## Description
 
-The **$file::fullpath()** method will resolve a relative file path into a full explicit path. It is platform independent. It will resolve relative paths, symbolic links and so on. The only thing it can't resolve are hard links which by definition are an impossible dilemma to resolve.
+The **\$file::fullpath()** method will resolve a relative file path into a full explicit path. It is platform independent. It will resolve relative paths, symbolic links and so on. The only thing it can't resolve are hard links which by definition are an impossible dilemma to resolve.
 
-The following example shows how a relative path can be transformed to an absolute full path name. The first **PRINT** line uses an instance of the **\$file** class object, the second uses **$file::fullpath()** as a static method call as no object is required.
+The following example shows how a relative path can be transformed to an absolute full path name. The first **PRINT** line uses an instance of the **\$file** class object, the second uses **\$file::fullpath()** as a static method call as no object is required.
 
 ```
 $ cat test13.jabba
@@ -21,6 +21,5 @@ $ test13
 The absolute file path of "../../../../bin" is "/home/jbase/bin"
 The absolute file path of "../../../../bin" is "/home/jbase/bin"
 ```
-
   
 <PageFooter />

@@ -1,10 +1,10 @@
 # Dynamic Objects: $vararg class
 
-<PageHeader /> 
+<PageHeader />  
 
 ## Description
 
-The methods in the **$vararg** class are used with other methods that are required to handle a variable number of arguments.
+The methods in the **\$vararg** class are used with other methods that are required to handle a variable number of arguments.
 
 ## Class Methods
 
@@ -12,5 +12,4 @@ The methods in the **$vararg** class are used with other methods that are requir
 - [\$vararg::size()](./../class-method-$varargsize%28%29)
 - [\$vararg::reset()](./../class-method-$varargreset%28%29)
 
-  
 <PageFooter />

@@ -83,6 +83,6 @@ C:\home>
 
 Note that, in both examples, termination of the parent process, **jsh** in this case, is what triggered **onterminate()**.
 
-See also [$system::onexit()](../class-method-$systemonexit()/README.md)
+See also [\$system::onexit()](../class-method-$systemonexit()/README.md)
 
 <PageFooter />

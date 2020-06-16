@@ -75,5 +75,4 @@ Standard Deviation = 8.9835
 
 ## Notes
 
-  
 <PageFooter />

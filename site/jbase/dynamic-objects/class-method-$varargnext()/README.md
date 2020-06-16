@@ -46,5 +46,4 @@ crt "Number of vowels = " : 24
 
 ## Notes
 
-  
 <PageFooter />

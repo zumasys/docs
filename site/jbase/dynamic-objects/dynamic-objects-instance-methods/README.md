@@ -198,7 +198,7 @@ As another example, let's create new instances of our objects using the same met
 
 Result:
 
-```
+```json
 {
     "name":"Pavlov",
     "dogs":[
@@ -248,7 +248,7 @@ This method has 1 static argument and any number of arguments can follow it, so 
 
 Running this code displays the object in JSON format:
 
-```
+```json
 {
     "storename":"Walmart",
     "cart":[
@@ -358,7 +358,7 @@ Our main code is now:
 
 The JSON output is now:
 
-```
+```json
 {
     "storename":"Walmart",
     "cart":[
@@ -384,6 +384,5 @@ The JSON output is now:
 Dynamic Objects also supports [static methods](./../dynamic-objects-static-methods).
 
 Back to [Dynamic Objects - Overview](./../README.md)
-
   
 <PageFooter />

@@ -16,5 +16,4 @@ All built-in classes start with "\$".
 
 Back to [Dynamic Objects - Overview](./../README.md)
 
-  
 <PageFooter />

@@ -19,5 +19,4 @@ Inheritance is recursive, meaning that an object can inherit properties and meth
 
 Back to [Dynamic Objects - Overview](./../README.md)
 
-  
 <PageFooter />

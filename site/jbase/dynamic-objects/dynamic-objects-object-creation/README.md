@@ -71,5 +71,4 @@ Refer to the [Instance Methods](./../dynamic-objects-instance-methods) documenta
 
 Back to [Dynamic Objects - Overview](./../README.md)
 
-  
 <PageFooter />
