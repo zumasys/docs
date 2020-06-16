@@ -397,5 +397,6 @@ Pick has always been a type of object database/language.  With very structured 
 
 The real future power comes when we start using this defined structure to extend an IDE to start doing auto-complete for available methods and properties for a "Class" or object.
 
-  
+Back to [FAQ/How To](./../../faq/README.md)
+
 <PageFooter />

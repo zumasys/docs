@@ -1,6 +1,6 @@
 # Method: $lasterror()
 
-<PageHeader /> 
+<PageHeader />  
 
 ## Description
 
@@ -119,7 +119,7 @@ Usually in JSON, new lines are delimited by @LF, or on windows @CR:@LF. As an ex
 
 **\$lasterror()** will always return an object; if **\$fromjson()** processed a valid JSON string then the JSON representation of the object that **$lasterror()** returns will look like this:
 
-```
+```json
 {
     "errno":0,
     "msg":"",
@@ -128,5 +128,4 @@ Usually in JSON, new lines are delimited by @LF, or on windows @CR:@LF. As an ex
 }
 ```
 
-  
 <PageFooter />

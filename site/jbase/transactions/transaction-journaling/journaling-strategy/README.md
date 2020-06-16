@@ -29,6 +29,8 @@ There is no need to switch the transaction log files after the completion of the
 
 See start_tj and backup_jbase scripts.
 
+[Next Page](./../logging-strategy/README.md)
+
 Back to [Transaction Journaling](./../README.md)
 
 <PageFooter />

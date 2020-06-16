@@ -103,6 +103,8 @@ At least 2 logsets must be configured (with jlogadmin) so that when the active l
 
 If a jlogdup process is running in real time to replicate to another machine, it should automatically start reading the next logset when it reaches the end of the current logset. To effect this behavior, use the parameter terminate=wait in the input specification of the jlogdup command.  
 
+[Next Page](./../selective-journaling/README.md)
+
 Back to [Transaction Journaling](./../README.md)
 
 <PageFooter />

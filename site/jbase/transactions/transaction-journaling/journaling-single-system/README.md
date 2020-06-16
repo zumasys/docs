@@ -17,6 +17,8 @@ Thus the logsets are created as below:
 
 ![Picture 3](./Picture3.png)
 
+[Next Page](./../single-system-two-decks/README.md)
+
 Back to [Transaction Journaling](./../README.md)
 
 <PageFooter />

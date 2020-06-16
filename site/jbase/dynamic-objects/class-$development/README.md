@@ -9,5 +9,4 @@ The **$development** class contains general tools for Dynamic Objects developeme
 - [$development::randomstring()](./../class-method-$developmentrandomstring%28%29)
 - [$development::crash()](./../class-method-$developmentcrash%28%29)
 
-  
 <PageFooter />

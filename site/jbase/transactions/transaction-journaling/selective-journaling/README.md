@@ -16,7 +16,8 @@ What is **NOT** journaled? The opposite of above, in particular:
 - When a SUBROUTINE is cataloged, the resulting shared library is not logged.
 - When a PROGRAM is cataloged the resulting binary executable file is not logged.
 - Internal files used by jBASE such as jPMLWorkFile, jBASEWORK, jutil_ctrl will be set to non-logged only when they are automatically created by jBASE.  
-  - If you create any of these files yourself, you should specify that they be not logged (see note on CREATE-FILE below). You may also choose to not log specific application files.  
+  - If you create any of these files yourself, you should specify that they be not logged (see note on CREATE-FILE below).  
+  - You may also choose to not log specific application files.  
 
 It is recommended that most application files be enabled for transaction journaling. Exceptions to this may include temporary scratch files and work files used by an application. Files can be disabled from journaling by specifying LOG=FALSE with the CREATE-FILE command or by using the -L option with the jchmod command. Journaling on a directory can also be disabled with the jchmod command. When this is done, a file called .jbase_header is created in the directory to hold the information.  
 
@@ -37,6 +38,8 @@ JBC_SOB JediInitREMOTE CUSTOMERS darthv.jbaseintl.com
 ```
 
 In general, journaling on specific files should not be disabled for "efficiency" reasons as such measures will backfire when you can least afford it.
+
+[Next Page](./../selective-restores/README.md)
 
 Back to [Transaction Journaling](./../README.md)
 

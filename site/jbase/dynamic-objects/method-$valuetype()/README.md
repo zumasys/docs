@@ -1,6 +1,6 @@
 # Method: $valuetype()
 
-<PageHeader /> 
+<PageHeader />  
 
 ## Description
 
@@ -96,5 +96,4 @@ Property "file_variable" has value: jbasevar
 
 ## Notes
 
-  
 <PageFooter />

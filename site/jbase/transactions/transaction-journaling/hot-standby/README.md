@@ -24,6 +24,8 @@ If a backend RDBMS is configured then Hot Standby/disaster recovery is handled b
 
 The updates contained within a transaction are cached until a TRANSABORT or TRANSEND command is executed for that transaction. No RDBMS activity takes place when the TRANSABORT command is executed, whereas the TRANSEND can result in many RDBMS interactions before success or failure is detected. The application code within jBASE/T24 is unaware of the underlying backend database.  
 
+[Next Page](./../scripts/README.md)
+
 Back to [Transaction Journaling](./../README.md)
 
 <PageFooter />

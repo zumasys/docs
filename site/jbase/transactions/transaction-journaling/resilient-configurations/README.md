@@ -101,6 +101,8 @@ If there has been an application/database error which has resulted in the decisi
 
 This configuration, being a jBASE-only solution will allow for on-line backups to be taken prior to Close of Business procedures.
 
+[Next Page](./../cluster-system/README.md)
+
 Back to [Transaction Journaling](./../README.md)
 
 <PageFooter />

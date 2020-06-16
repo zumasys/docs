@@ -13,6 +13,8 @@ When journaling is running the basic order of operations for updates is as follo
 - There is still the possibility that when the system crashes, the disks containing the data AND the disks with the transaction log data will be lost. By running, a continuous jlogdup to a secondary machine or tape device you can protect against this highly improbable scenario.  
 - To use jBASE Transaction Journaling, you must install an additional license key.
 
+[Next Page](./../transaction-log/README.md)
+
 Back to [Transaction Journaling](./../README.md)
 
 <PageFooter />

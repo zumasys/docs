@@ -33,6 +33,8 @@ The backup verified, so this is the backup set to be used for recovery by the re
 
 > The jlogdup process to tape is still valid. Those transactions which have been dumped to tape can still be recovered.
 
+[Next Page](./../journaling-single-system/README.md)
+
 Back to [Transaction Journaling](./../README.md)
 
 <PageFooter />

@@ -22,7 +22,9 @@ If required, use the jlogdup rename and renamefile options to restore the data t
 
 ## Note
 
->In order to preserve the chronological ordering of the records do not use a SSELECT command on the time field. This may not produce the correct ordering (multiple entries can occur during the same time period – the granularity being one second).
+>In order to preserve the chronological ordering of the records do not use a SSELECT command on the time field. This may not produce the correct ordering (multiple entries can occur during the same time period – the granularity being one second).  
+
+[Next Page](./../failure-recovery/README.md)
 
 Back to [Transaction Journaling](./../README.md)
 
