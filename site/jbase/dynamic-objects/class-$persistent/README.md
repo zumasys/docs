@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The following methods can be utilized from the **$persistent**class:
+The following methods can be utilized from the **\$persistent**class:
 
 - $persistent::setfile()
 - $persistent::lock()
@@ -11,5 +11,4 @@ The following methods can be utilized from the **$persistent**class:
 - $persistent::getlockfilename()
 - $persistent::count()
 
-  
 <PageFooter />

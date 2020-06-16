@@ -99,7 +99,7 @@ Add \$jobs() class.
 ## 5.8.0
 
 Add \$system->onexit() and \$system->onterminate() methods.  
-Add JSON validator  
+Add JSON validator  - jsonlint
 
 Back to [Dynamic Objects](./../README.md)
 

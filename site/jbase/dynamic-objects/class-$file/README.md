@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The following methods can be utilized from the **$file** class:
+The following methods can be utilized from the **\$file** class:
 
 - [\$file::fullpath()](../class-method-$filefullpath()/README.md)
 - $file::getstats()
@@ -10,5 +10,4 @@ The following methods can be utilized from the **$file** class:
 - $file::takegrouplocks()
 - $file::cleargrouplocks()
 
-  
 <PageFooter />
