@@ -57,7 +57,7 @@ validate_json:
         crt "$fromjson() worked!"
     end else
         crt "$fromjson() failed:"
-        crt obj->$lasterror()->$tojson(5)
+        crt obj->$lasterror()->$tojson(beautify)
         crt "The line number property is: ":obj->$lasterror()->line
         crt obj->$lasterror()->msg
     end
