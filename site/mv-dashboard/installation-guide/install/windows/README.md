@@ -12,8 +12,7 @@ This section details the requirements for installing and running MV Dashboard.
 
 ## **Platforms**
 
-A list of supported platforms for MV Dashboard is available at: [www.zumasys.com/products/multivalue-dashboard/support](http://www.zumasys.com/products/multivalue-dashboard/support)
-https://docs.zumasys.com/mv-dashboard/installation-guide/requirements/#platforms
+[Click here for a list of supported platforms for MV Dashboard](./../../requirements/README.md#platforms)
 
 ## **Disk Space**
 
