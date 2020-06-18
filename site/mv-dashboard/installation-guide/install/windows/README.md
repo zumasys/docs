@@ -1,4 +1,4 @@
-# Install MV Dashboard/MV Connect Unix
+# Install MV Dashboard/MV Connect Windows
 
 <PageHeader />
 
