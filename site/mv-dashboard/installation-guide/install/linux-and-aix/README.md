@@ -8,6 +8,8 @@
 <badge text='mvdashboard' vertical='middle' />
 <badge text='mvconnect' vertical='middle' />
 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/qUA49EaLvC8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 MV Connect is web application development environment for Multi-Value Pick systems.  MV Connect is included in the MV Dashboard product installer and is used to create MV Dashboard.  Therefore much of the installation instructions discuss MV Dashboard but once it is installed you can move on to the MV Connector specific instructions.
 
 # **REQUIREMENTS**

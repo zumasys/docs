@@ -2,6 +2,8 @@
 
 <PageHeader />
 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/R9RdK58RNL4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 MV Connect is web application development environment for Multi-Value Pick systems.  MV Connect is included in the MV Dashboard product installer and is used to create MV Dashboard.  Therefore much of the installation instructions discuss MV Dashboard but once it is installed you can move on to the MV Connector specific instructions.
 
 # **REQUIREMENTS**
@@ -11,6 +13,7 @@ This section details the requirements for installing and running MV Dashboard.
 ## **Platforms**
 
 A list of supported platforms for MV Dashboard is available at: [www.zumasys.com/products/multivalue-dashboard/support](http://www.zumasys.com/products/multivalue-dashboard/support)
+https://docs.zumasys.com/mv-dashboard/installation-guide/requirements/#platforms
 
 ## **Disk Space**
 
