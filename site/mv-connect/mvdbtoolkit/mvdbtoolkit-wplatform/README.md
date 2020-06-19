@@ -1,5 +1,7 @@
 # MVDBTOOLKIT.WPLATFORM
 
+<PageHeader />
+
 MVDBTOOLKIT.WPLATFORM will return a OBJ object of the PLATFORM.CONFIG record.  
 
 ## Usage
@@ -8,8 +10,7 @@ Command
 
 CALL MVDBTOOLKIT.WPLATFORM(PLATFORM.OBJ)
 
-
-Example
+### Example
 
 ```BASIC
 CALL MVDBTOOLKIT.WPLATFORM(PLATFORM.OBJ)
@@ -18,5 +19,3 @@ PRINT MVTYPE
 ```
 
 </PageFooter>
-
-

@@ -5,6 +5,7 @@
 This section details the requirements for installing and running MultiValue Dashboard.
 
 ## Platforms
+
 Supported platforms for MultiValue Dashboard are:
 
 MVDashboard/Connect installs a O/S component called mvappsvr (Web Listener).  This component is supported on the following platforms.  The listener is dependent on xinetd on linux and inetd on Aix.  Redhat/CentOS 7 has introduced systemctl services and often xinetd is not installed by default.  The installer will recognize this and request you install the required package.  If you are running on other versions of Linux the installer "may" work but is not supported by the default installer.  This issue is usually related to the automatic installation of the services.
@@ -43,6 +44,7 @@ MVDashboard/Connect installs a O/S component called mvappsvr (Web Listener).  Th
   * Aix
 
 ## Browser
+
 MultiValue Dashboard is supported on the following browsers:
 
 * Internet Explorer
@@ -52,6 +54,7 @@ MultiValue Dashboard is supported on the following browsers:
 * Edge
 
 ## Disk Space
+
 MultiValue Dashboard requires 150 MB of free space.
 
 ## Firewalls

@@ -1,5 +1,7 @@
 # MVDBTOOLKIT.WGETENV
 
+<PageHeader />
+
 MVDBTOOLKIT.WGETENV will read in O/S environment variables.  
 
 ## Usage
@@ -13,7 +15,7 @@ MVDBTOOLKIT(ENVVARIABLE,VALUE)
 | ENVVARIABLE | Environment variable you wish to retrieve |
 | VALUE | Environmant Variable value |
 
-Example
+### Example
 
 ```BASIC
 CALL MVDBTOOLKIT.WGETENV("PATH",PATH)
@@ -22,5 +24,3 @@ PRINT PATH
 ```
 
 </PageFooter>
-
-

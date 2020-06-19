@@ -2,11 +2,9 @@
 
 <PageHeader />
 
-## Description 
+## Description  
 
 Web calls all run in the background making them very difficult to debug when things are not working correctly.  This document will show you the tools and techniques to figure out what is going on.
-
-
 
 ### General troubleshooting techniques
 
@@ -15,9 +13,6 @@ MVConnect is basically exposing pick subroutines out via a web server.  When so
 1. Is the Web server running?
 1. Is the Web server able to talk to Pick?
 1. Is our code actually working
-
-
-
 
 ## Is the Web server running?
 
@@ -30,5 +25,4 @@ There are two different web servers for MVConnect.  On jBase jAgent can be the 
   
 Back to [MV Connect Manual](./../README.md)
 
-  
 <PageFooter />

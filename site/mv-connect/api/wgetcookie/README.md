@@ -4,14 +4,13 @@
 
 The WGETCOOKIE subroutine retrieves cookies sent in the web request.
 
-#### **COMMAND SYNTAX**
+## Command Syntax
 
 ```
 CALL WGETCOOKIE(COOKIEVALUE,COOKIENAME)
 ```
 
-#### **SYNTAX ELEMENTS**
-
+### Syntax Elements
 
 | <!----> | <!----> |
 | --- | --- |
@@ -19,12 +18,10 @@ CALL WGETCOOKIE(COOKIEVALUE,COOKIENAME)
 | COOKIEVALUE | Returns the value of the cookie |
 | COOKIENAME | The name of the cookie you wish to retrieve. |
 
-
-#### EXAMPLE
+#### Example
 
 ```
 CALL WGETCOOKIE(TOKEN,"Token")
 ```
 
-  
 <PageFooter />

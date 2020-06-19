@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-# Patches
+## Patches
 
 - MV.DEBUG rewritten to make debugging request handlers easier.
 - Added ACCOUNT field to WDB.RESOURCE record to cause request to execute in different account.
@@ -11,11 +11,4 @@
 - WREST.BP: redirect WSETHEADER when setting the Content-Type header to call WSETCONTENTTYPE. Fixed WSEND removed extra CR being appended to response.
 - WOBJ: fixed several bugs, including JSON parser, LENGTH, DELETE, SET actions. Added TYPE and VERSION actions. Fixed problem with nested arrays.
 
-
-
-
-# 
-
-
-  
 <PageFooter />

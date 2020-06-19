@@ -1,6 +1,8 @@
 # Portal Setup Documentation
 
-## Portal Sales Report Setup:
+<PageHeader />
+
+## Portal Sales Report Setup
 
 This setup process identifies the fields necessary for deriving sales, gross profit, and margin numbers.  It allows for sales numbers to be broken out by sales person and, if applicable, by branch and/or region.
 
@@ -58,9 +60,7 @@ This setup process identifies the fields necessary for evaluating account receiv
 * Existence of each of the dictionary names entered
 * Customer Dict Name looking to another file for the actual name of the salesman.  An ignorable warning is issued if that is not the case.
 
- 
-
-## Portal AP Report Setup:
+## Portal AP Report Setup
 
 This setup process identifies the fields necessary for evaluating account payables.  It breaks out statistics by amounts, aging categories, and percentages.
 

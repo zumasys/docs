@@ -1,27 +1,25 @@
-# WGETBODY 
+# WGETBODY  
 
 <PageHeader />
 
 The WGETBODY gets the raw body sent in the web request.  Only certain content types pass the raw body.  See the config file to determine which ones.
 
-### **COMMAND SYNTAX**
+## Command Syntax
 
 ```
 CALL WGETBODY(BODY)
 ```
 
-### **SYNTAX ELEMENTS**
-
+### Syntax Elements
 
 | <!----> | <!----> |
 | --- | --- |
 | Parameter | Description |
 | BODY | Returned body |
 
-
 The WGETBODY subroutine only returns a string.  That string is the raw body.
 
-### EXAMPLE
+### Example
 
 ```
 CALL WGETBODY(BODY)
@@ -29,5 +27,4 @@ CALL WGETBODY(BODY)
 CALL WOBJ(BODYOBJ,"FROMSTRING","",BODY,"",RERR)
 ```
 
-  
 <PageFooter />

@@ -16,7 +16,6 @@ jrestore -options
 
 Where **options** may be:
 
-
 | Option | Explanation |
 | --- | --- |
 | -a | restore from current media position |
@@ -42,7 +41,7 @@ Where **options** may be:
 | -P | print and scan files only, no restore |
 | -O | overwrite existing files and records |
 | -R | suppress rewind last reel |
-| -T type | restore hash files as specified file type; the original modulo and separation will be retained rather than use the 'resize' parameters. |
+| -T type | restore hash files as specified file type; the original modulo and separation will be retained rather than use the 'resize' parameters.<br>Valid **types** may be: "J3","HASH3","J4","HASH4","JP","HASHP","JD","HASHD","JR","HASHR" |
 | -U | update only does not overwrite existing files or records |
 | -V | verbose dot mode, displays a "." for each file |
 | -W | Roll forware TJ logfiles after database restore |
@@ -55,13 +54,13 @@ When using jrestore, ensure that the command is executed at the standard shell n
 
 > On Windows, when specifying Windows path names the backslash must be escaped with a backslash, otherwise the backslash character is removed. e.g.
 >
-> ```
+>```
 > C:\\MyApp\\new
-> ```
+>```
 
 Examples of use may be as:
 
-```
+```bash
 jrestore -f /dev/rmt/ctape -P
 ```
 
@@ -69,25 +68,25 @@ Reads formatted files and directories from a streaming cartridge device, display
 
 This option can be used to verify that the tape does not contain any parity or formatting errors and so can be restored at a later date.
 
-```
+```bash
 jrestore -f /dev/rmt/floppy -v
 ```
 
 Reads and restores formatted files and directories from a floppy disk device, displaying each file or directory as it is encountered.
 
-```
+```bash
 jbackup -Ajbase | jrestore -c"/home/old /home/new"
 ```
 
 Reads formatted files and directories from stdin, which is being supplied by jbackup, modifies all occurrences of path string /home/old to /home/new and then restores files and directories using modified path string.
 
-```
+```bash
 jrestore -f BACKUP -d".*PAYROLL$"
 ```
 
 Reads formatted files and directories from UNIX file BACKUP, limits restore to any directories whose path name ends in PAYROLL.
 
-```
+```bash
 jrestore -f BACKUP -h"/CUSTOMERS$" -i".*SMITH.*"
 ```
 

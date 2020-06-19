@@ -4,14 +4,13 @@
 
 The WPARSEJSON is a simple jSON parsing subroutine.  It has been been replaced with WOBJ.
 
-### COMMAND SYNTAX
+## Command Syntax
 
 ```
 CALL WPARSEJSON(JSON,FIELD,VALUE,ERR)
 ```
 
-### SYNTAX ELEMENTS
-
+### Syntax Elements
 
 | <!----> | <!----> |
 | --- | --- |
@@ -21,8 +20,7 @@ CALL WPARSEJSON(JSON,FIELD,VALUE,ERR)
 | VALUE | The returned value |
 | ERR | Any returned errors |
 
-
-#### EXAMPLE
+#### Example
 
 ```
 JSON=\{ "field1":"value1","field2":"value2" }\
@@ -30,9 +28,8 @@ CALL WPARSEJSON(JSON,"field1",VALUE,RERR)
 * VALUE will equal "value1"
 ```
 
-### NOTES
+### Notes
 
-This is a very simple parser.  It cannot handle nested objects or arrays.  It is better to use WOBJ to parse jSON.
+This is a very simple parser.  It cannot handle nested objects or arrays.  It is better to use WOBJ to parse JSON.
 
-  
 <PageFooter />

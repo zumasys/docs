@@ -123,9 +123,8 @@ While it is generally recommended to run your REST service handlers from the MVD
 
 | <!---->  | <!---->                                                   |
 | -------- | --------------------------------------------------------- |
-| WBPD<br> | contains INCLUDE files, not needed at runtime             |
+| WBPD | contains INCLUDE files, not needed at runtime             |
 | WREST.BP | catalog all items in target account                       |
 | WOBJ.BP  | catalog all items in target account if JSON parser needed |
 
-  
 <PageFooter />

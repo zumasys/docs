@@ -10,17 +10,15 @@ A MultiValue software developer can use MV Dashboard to produce graphical repres
 
 The following topics are presented:
 
-
 | <!----> | <!----> |
 | --- | --- |
-| [Widget Programming Environment](./../programmers-guide/widgets/programming-environment/README.md)<br> | Details the widget programming environment.<br> |
-| [Widget Types](./../programmers-guide/widgets/types/README.md)<br> | Describes and lists widget types.<br> |
-| [Widget Output Type Codes](./../programmers-guide/widgets/output-type-codes/README.md)<br> | Details the widget output type codes for color and theme management.<br> |
-| [Optional Parameters](./../programmers-guide/widgets/optional-parameters/README.md)<br> | Details the optional parameters for the widget types.<br> |
-| [Integration With Other Applications](./../programmers-guide/integration/README.md)<br> | Describes how to display dashboard widgets via URL calls from other applications.<br> |
-| [PDF Generation](./../programmers-guide/pdf-generation/README.md) | Instructions for enabling widgets to generate PDF files.<br> |
-| [Fusion Charts Documentation](./../programmers-guide/fusion-charts/README.md)<br> | Provides links to the Fusion Charts documentation. |
+| [Widget Programming Environment](./../programmers-guide/widgets/programming-environment/README.md) | Details the widget programming environment. |
+| [Widget Types](./../programmers-guide/widgets/types/README.md) | Describes and lists widget types. |
+| [Widget Output Type Codes](./../programmers-guide/widgets/output-type-codes/README.md) | Details the widget output type codes for color and theme management. |
+| [Optional Parameters](./../programmers-guide/widgets/optional-parameters/README.md) | Details the optional parameters for the widget types. |
+| [Integration With Other Applications](./../programmers-guide/integration/README.md) | Describes how to display dashboard widgets via URL calls from other applications. |
+| [PDF Generation](./../programmers-guide/pdf-generation/README.md) | Instructions for enabling widgets to generate PDF files. |
+| [Fusion Charts Documentation](./../programmers-guide/fusion-charts/README.md) | Provides links to the Fusion Charts documentation. |
  | [Portal Reports](./../programmers-guide/portal-reports/README.md) | Links to Portal Reports documentation |
 
-  
 <PageFooter />

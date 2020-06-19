@@ -8,19 +8,16 @@ When buffering is enabled, all content passed to WSEND is buffered. A final call
 
 Buffering is disabled by default.
 
-#### **COMMAND SYNTAX**
+## Command Syntax
 
 ```
 CALL WSETBUFFER(BUF.SIZE)
 ```
 
-#### SYNTAX ELEMENTS
+### Syntax Elements
 
-
-| **Parameter**<br> | **Description**<br> |
+| **Parameter** | **Description** |
 | --- | --- |
-| BUF.SIZE<br> | Maximum number of characters to buffer, or zero to disable buffering<br> |
+| BUF.SIZE | Maximum number of characters to buffer, or zero to disable buffering |
 
-
-  
 <PageFooter />

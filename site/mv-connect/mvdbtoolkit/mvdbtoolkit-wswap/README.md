@@ -1,5 +1,7 @@
 # MVDBTOOLKIT.WSWAP
 
+<PageHeader />
+
 MVDBTOOLKIT.WSWAP is a cross platform SWAP command.  Not all MVPlatforms have the same command.  This function should be used if you need to use a SWAP command.
 
 ## Usage
@@ -14,7 +16,7 @@ CALL MVDBTOOLKIT.SWAP(A,B,C)
 | B | String you wish to swap from. |
 | C | String to wish to swap to. |
 
-Example
+### Example
 
 ```BASIC
 S='TEST LINE TEST LINE'
@@ -23,5 +25,3 @@ PRINT S
 ```
 
 </PageFooter>
-
-

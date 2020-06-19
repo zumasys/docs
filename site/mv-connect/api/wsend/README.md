@@ -8,25 +8,22 @@ You can call WSEND multiple times if your content is generated in stages. After 
 
 WSEND can buffer content for performance or other reasons (see WSETBUFFER). By default buffering is disabled. When buffering is enabled, it is possible to set headers after calling WSEND, but before calling WFLUSH. Otherwise, all headers must be set before the first call to WSEND.
 
-#### COMMAND SYNTAX
+## Command Syntax
 
 ```
 CALL WSEND(DATATOSEND)
 ```
 
-#### SYNTAX ELEMENTS
+### Syntax Elements
 
-
-| Parameter<br> | Description<br> |
+| Parameter | Description |
 | --- | --- |
-| DATATOSEND<br> | String you wish to send back to the browser.<br> |
+| DATATOSEND | String you wish to send back to the browser. |
 
-
-#### EXAMPLE
+#### Example
 
 ```
 CALL WSEND("Hello World")
 ```
 
-  
 <PageFooter />

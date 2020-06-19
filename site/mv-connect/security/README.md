@@ -12,7 +12,7 @@ Here are a couple articles discussing this type of setup
 
 The recommended way to do this with MVConnect is to install NGinx or Apache directly on the same box where MVConnect/jAgent is running.  You then setup a proxy in NGINX or Apache to redirect traffic via localhost to MVConnect.
 
-### Apache
+## Apache
 
 Apache has a mod\_proxy module that can reverse proxy. The actual way to configure you settings is based on how your apache configuration files are setup.  A simple way to do this is to add these lines to the end of your /etc/httpd/httpd.conf file.  Set the port on the ProxyPass line to match the port where MVConnect/jAgent is running. By default MVConnect usually runs on 8180 while jAgent is usually running on 20002.
 
@@ -32,7 +32,7 @@ location /api/ {
        proxy_set_header X-Forwarded-Proto $scheme;
        proxy_set_header X-Real-IP $remote_addr;
        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
- 
+
        proxy_pass http://127.0.0.1:2002/api/;
        proxy_redirect off;
  }
@@ -60,20 +60,18 @@ Here we have added a if statement that checks for a header X-API-KEY and it must
 
 ```
 location /zgateway/vpsupply/api/ {
- 
+
                 if ($http_x_api_key !~* "apipassword") {
                         return 403;
                 }
                 proxy_set_header X-Forwarded-Proto $scheme;
                 proxy_set_header X-Real-IP $remote_addr;
                 proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
- 
+
                 proxy_pass http://127.0.0.1:20002/api/;
                 proxy_redirect off;
         }
 ```
-
-
 
 Apache
 
@@ -93,5 +91,4 @@ ProxyPass "http://127.0.0.1:20002/api"
 Back to MV Connect Manual
 ```
 
-  
 <PageFooter />

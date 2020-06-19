@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-A JSON verifier has been written.  
+A JSON validator/verifier has been written.  
 
 The syntax is simple:
 

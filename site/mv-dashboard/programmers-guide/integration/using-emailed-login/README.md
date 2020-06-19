@@ -11,12 +11,11 @@ The report images can be either plain text or html. They should be stored in the
 If a monthly sales report was saved in the MVDB.EMAILED.HTML file as 17503\_MOSALES, the URL string to view that report through the dashboard would be:
 
 ```
-http://ipaddress:8180/dbc/MVDB.MAIN?loginid=emailed&htmlid=17503_MOSALES 
+http://ipaddress:8180/dbc/MVDB.MAIN?loginid=emailed&htmlid=17503_MOSALES
 ```
 
+## Note
 
-
-
-> NOTE: You must enable the emailed login from the Administrative Configuration widget in the Administrator dashboard before this feature can be used.
+>You must enable the emailed login from the Administrative Configuration widget in the Administrator dashboard before this feature can be used.
 
 <PageFooter />

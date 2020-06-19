@@ -19,8 +19,6 @@ First verify that http is specified in the services line.  This tells this inst
 services=jremote,jodbc,http
 ```
 
-
-
 ## IP Address and Port
 
 The second section to review is the port and ip address assignment.  If commented out as below then by default jagent will listen on port 20002 and listen on all ports.
@@ -37,9 +35,7 @@ The second section to review is the port and ip address assignment.  If comment
 ;bind_address = <IP address to listen on>
 ```
 
-
-
-## Try and connect
+## Try to connect
 
 Since jAgent/MVConnect is a web server you can connect to it with any browser.  Due to firewalls it is usually best to use a local tool such as curl to test the webserver.  Curl is usually included with all linux distributions.  If you are on a windows server you can log into the main server desktop and use IE or Chrome.  You can also download dos versions of curl for windows [here](https://curl.haxx.se/dlwiz/).
 
@@ -67,8 +63,6 @@ Here is the same thing with Microsoft Edge.
 A failed request from Edge looks like
 
 ![317533-troubleshooting-jagent-mvconnect: 1526849720517-1526849720517](./1526849720517-1526849720517.jpg)
-
-
 
 If you get any type of page response then jAgent is running.  If you are not getting a connection you should go to the next section and run jAgent in the foreground.  You should also review the jAgent [documentation](./../../../jbase/connectivity/jagent/introduction-to-jagent/README.md)
 
@@ -101,13 +95,11 @@ bash-4.2$ jbase_agent --port 20003
 (31400|140710873688128) NOTICE starting up jAgent, Process Per Connection mode, listening on port 20003, SocketAcceptor.h +63
 ```
 
-
-
 In both cases we have fired up the jAgent on port 20003.  Because we have not defined a configuration file http is actually disabled.  That is ok because the web server will still respond but tell us http is disabled.  Now test the web server again
 
 Curl
 
-```
+```html
 C:\Users\patrickp>curl http://localhost:20003/wresttest
 <!DOCTYPE html>
 .... chopped out a bunch of output as it is all html/css stuff ....
@@ -284,7 +276,7 @@ Viewing the json there is a lot of nice debugging information
 
 The primary one is a jshow -v WRESTEST is shown.  This allows you to see your full environment.  All file pathing is shown as where it look for any code.  This is key to determining why jAgent cannot find a program or file.
 
-```
+```json
 {
    "RestVersion": "1.1",
    "Who": "3 patrickp",

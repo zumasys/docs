@@ -4,14 +4,13 @@
 
 The WGETVAR subroutine allows you to retrieve variables sent in the web request.
 
-### COMMAND SYNTAX
+## Command Syntax
 
 ```
 CALL WGETVAR(VARVALUE,VARNAME)
 ```
 
-### SYNTAX ELEMENTS
-
+### Syntax Elements
 
 | <!----> | <!----> |
 | --- | --- |
@@ -19,16 +18,16 @@ CALL WGETVAR(VARVALUE,VARNAME)
 | VARVALUE | This is the returned value of the variable. |
 | VARNAME | This is a passed in parameter of the value you want retrieved. |
 
-
-#### EXAMPLE
+#### Example
 
 ```
 CALL WGETVAR(VAR1,"var1")
 ```
 
-### NOTES
+### Notes
 
-Only variables sent on the url bar or via x-www-form-urlencoded posts.  Form-Data encoding is not supported. Below is an example from [POSTMAN](https://www.getpostman.com/)
+Only variables sent on the url bar or via x-www-form-urlencoded posts.  
+Form-Data encoding is not supported. Below is an example from [POSTMAN](https://www.getpostman.com/)
 
 ![wgetvar: blob](./blob.jpg)
 
@@ -44,9 +43,4 @@ FOR V=1 TO NUM.VARS
 NEXT V
 ```
 
-
-
-
-
-  
 <PageFooter />

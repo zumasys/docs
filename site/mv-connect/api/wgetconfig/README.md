@@ -4,14 +4,13 @@
 
 The WGETCONFIG will retrieve items from the WDB.RESOURCE master config item.
 
-#### COMMAND SYNTAX
+## Command Syntax
 
 ```
 CALL WGETCONFIG(VALUE,NAME)
 ```
 
-#### SYNTAX ELEMENTS
-
+### Syntax Elements
 
 | <!----> | <!----> |
 | --- | --- |
@@ -19,15 +18,14 @@ CALL WGETCONFIG(VALUE,NAME)
 | VALUE | The returned value |
 | NAME | The name of the config item |
 
-
-#### EXAMPLE
+#### Example
 
 ```
 CALL WGETVAR(KEY,"APIKEY")
 * Will return 12345
 ```
 
-#### NOTES
+#### Notes
 
 This function is used internally to get config items.  The config file is in WDB.RESOURCE CONFIG.
 
@@ -38,5 +36,4 @@ This function is used internally to get config items.  The config file is in WD
 004 APIKEY]12345
 ```
 
-  
 <PageFooter />

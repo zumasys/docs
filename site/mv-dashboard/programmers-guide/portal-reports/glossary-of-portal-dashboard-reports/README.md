@@ -1,6 +1,6 @@
 # Glossary Portal Dashboard Reports
 
- 
+<PageHeader />
 
 ## High level dashboard summarizing Sales, Gross Profit, Margin, AR, and AP
 
@@ -79,11 +79,7 @@
 
 * Bar chart showing Year to Year GP broken out by Region.
 
- 
-
 ## AR Reports
-
- 
 
 ### Current AR Aging
 
@@ -109,10 +105,10 @@
   * 50 Customers with the most days aged.
   * 50 Customers aged over 30 days where their average aging over the past 60 days is longer than it has been over the past 1000 days.
 
-
-
 ## AP Reports
 
 ### Current AP Aging
 
-* Pie chart breaking out all payables broken out by current, 0-30, 31-60, 61-90, and 90+
+* Pie chart breaking out all payables broken out by current, 0-30, 31-60, 61-90, and 90+  
+
+<PageFooter />

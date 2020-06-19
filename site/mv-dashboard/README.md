@@ -43,7 +43,6 @@ MV Dashboard provides the following documentation to help developers and adminis
 - [Release Notes](./release-notes/README.md)
 - [FAQ](./faq/README.md)
 
-
 ## Getting Help with MV Dashboard
 
 If you're looking for help, you can reach out the following ways:

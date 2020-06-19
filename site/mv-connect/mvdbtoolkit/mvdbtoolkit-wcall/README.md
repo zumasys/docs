@@ -13,14 +13,13 @@ To allow for cross platform support the cross platform functions of MVDBTOOLKIT 
 * MVDBTOOLKIT.FILEIO (Reading and writeing O/S files)
 * MVDBTOOLKIT.WEXECUTE (Execute local O/S commands)
 
-
-#### **COMMAND SYNTAX**
+## Command Syntax
 
 ```
 CALL MVDBTOOOLKIT.WCALL(OBJ)
 ```
 
-#### **SYNTAX ELEMENTS**
+### Synatx Elements
 
 Sample JSON
 
@@ -108,4 +107,4 @@ PRINT RESPONSE.RESULT
 
 ```
 
-</responsefooter>
+<PageFooter />

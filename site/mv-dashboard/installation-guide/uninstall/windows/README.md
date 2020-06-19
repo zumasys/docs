@@ -17,8 +17,7 @@ To uninstall MV Dashboard:
 5. Open a Windows Explorer and navigate to the C:\Program Files (x86)\Zumasys\ folder.
 6. Delete the Zumasys folder. MV Connect is uninstalled.
 
-
-### **DELETING THE D3 ACCOUNT AND USER (OPTIONAL)** 
+### Deleting the D3 Acount and User (Optional)
 
 The initial MV Dashboard uninstall process does not delete the D3 account or user. To optionally do this, complete the instructions below.
 
@@ -26,7 +25,6 @@ To delete the d3 account and user:
 
 1. Log into the dm account in D3.
 2. Run the following command to delete the account:
-
 
 ```
 delete-account mvdb
@@ -39,4 +37,5 @@ delete-account mvdb
 ```
 delete users mvdashboard
 ```
+
 <PageFooter />

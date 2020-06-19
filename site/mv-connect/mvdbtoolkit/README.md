@@ -1,19 +1,21 @@
 # MVDBToolkit
 
-MVDBToolkit contains a series of functions to assist in cross platform MV development.  It wraps platform specific functions with toolkit specific functions.  Platform differences are handled via inline includes. 
+<PageHeader />
+
+MVDBToolkit contains a series of functions to assist in cross platform MV development.  It wraps platform specific functions with toolkit specific functions.  Platform differences are handled via inline includes.  
 
 ## Table of Contents
 
-| Function                                                      | Description                       |
-| -----------------------------------------                     | --------------------------------- |
-| [MVDBTOOLKIT.WCALL](./mvdbtoolkit-wcall/README.md)          | Web Client Function (Curl wrapper)                |
-| [MVDBTOOLKIT.CONFIG](./mvdbtoolkit-config/README.md)          | Configuration Tool                |
-| [MVDBTOOLKIT.TEST](./mvdbtoolkit-test/README.md)              | Test/QC program                   |
-| [MVDBTOOLKIT.WEXECUTE](./mvdbtoolkit-wexecute/README.md)        | Execute O/S commands              |
-| [MVDBTOOLKIT.WFILEIO](./mvdbtoolkit-wfileio/README.md)        | Read/Write/Delete O/S commands    |
-| [MVDBTOOLKIT.WGETENV](./mvdbtoolkit-wgetenv/README.md)        | Get O/S environment Variables     |
-| [MVDBTOOLKIT.WPLATFORM](./mvdbtoolkit-wplatform/README.md)    | Get Config information            |
-| [MVDBTOOLKIT.SWAP](./mvdbtoolkit-wswap/README.md)              | Cross platform SWAP statement     |
+| Function                                                      | Description                        |
+| -----------------------------------------                     | ---------------------------------  |
+| [MVDBTOOLKIT.WCALL](./mvdbtoolkit-wcall/README.md)            | Web Client Function (Curl wrapper) |
+| [MVDBTOOLKIT.CONFIG](./mvdbtoolkit-config/README.md)          | Configuration Tool                 |
+| [MVDBTOOLKIT.TEST](./mvdbtoolkit-test/README.md)              | Test/QC program                    |
+| [MVDBTOOLKIT.WEXECUTE](./mvdbtoolkit-wexecute/README.md)      | Execute O/S commands               |
+| [MVDBTOOLKIT.WFILEIO](./mvdbtoolkit-wfileio/README.md)        | Read/Write/Delete O/S commands     |
+| [MVDBTOOLKIT.WGETENV](./mvdbtoolkit-wgetenv/README.md)        | Get O/S environment Variables      |
+| [MVDBTOOLKIT.WPLATFORM](./mvdbtoolkit-wplatform/README.md)    | Get Config information             |
+| [MVDBTOOLKIT.SWAP](./mvdbtoolkit-wswap/README.md)             | Cross platform SWAP statement      |
 
 ## Config Entry
 
@@ -29,37 +31,38 @@ A JSON configuration record is stored in the dictionary of MVDBTOOLKIT.BP called
   }
   ```
 
-  ## Usage
+## Usage
 
   All tools in MVDBTOOLKIT are utilized via Objects.  Instead of passing a number of params in and out of the functions you pass a single Object.  This is not unlike using a single Dynamic arra to pass info in and out of the function.  At this moment the only Object type understood by MVDBTOOLKIT are WOBJ objects.
 
   Each Function has it's own define object definition.  There is very little syntax checking therefore if you are having issues it is recommended you convert your object to jSON and print out the payload.
 
-  Example
+### Example
 
-  ```
-  CALL WOBJ(OBJ,"FROMSTRING","","{}","",RERR); * BLANK OBJECT
-  CALL WOBJ(OBJ,"SET","method","GET","",RERR); * Set method
-  CALL WOBJ(OBJ,"SET","url","https://api.ipify.org?format=json","",RERR); * Set url
+```
+CALL WOBJ(OBJ,"FROMSTRING","","{}","",RERR); * BLANK OBJECT
+CALL WOBJ(OBJ,"SET","method","GET","",RERR); * Set method
+CALL WOBJ(OBJ,"SET","url","https://api.ipify.org?format=json","",RERR); * Set url
 
-  PRINT "jSON pre call"
-  TOBJ=OBJ; GOSUB debug.object
+PRINT "jSON pre call"
+TOBJ=OBJ; GOSUB debug.object
 
-  CALL MVDBTOOLKIT.WCALL(OBJ)
+CALL MVDBTOOLKIT.WCALL(OBJ)
 
-  PRINT;PRINT "jSON after call";PRINT
-  TOBJ=OBJ; GOSUB debug.object
+PRINT;PRINT "jSON after call";PRINT
+TOBJ=OBJ; GOSUB debug.object
 
-  STOP
+STOP
 
-  debug.object: *
-  CALL WOBJ(TOBJ,"TOSTRING","",OUT.JSON,"PRETTIFY",RERR)
-  PRINT OUT.JSON
-  RETURN
-  ```
+debug.object: *
+CALL WOBJ(TOBJ,"TOSTRING","",OUT.JSON,"PRETTIFY",RERR)
+PRINT OUT.JSON
+RETURN
+```
 
-  Output
-  ```
+#### Output
+
+```json
  jsh JBASEADM ~ -->TEST.JSON
 pre JSON
 {
@@ -151,5 +154,4 @@ jSON after call
 jsh JBASEADM ~ -->
 ```
 
-
-
+<PageFooter />

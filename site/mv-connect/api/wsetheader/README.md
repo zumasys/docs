@@ -4,14 +4,13 @@
 
 The WSETHEADER subroutine allows you to set return headers.
 
-### **COMMAND SYNTAX**
+## Command Syntax
 
 ```
 CALL WSETHEADER(HEADERVALUE,HEADERNAME)
 ```
 
-### **SYNTAX ELEMENTS**
-
+### Syntax Elements
 
 | <!----> | <!----> |
 | --- | --- |
@@ -19,12 +18,10 @@ CALL WSETHEADER(HEADERVALUE,HEADERNAME)
 | HEADERVALUE | Set this to what you wish to assign the header. |
 | HEADERNAME | Set to the name of the header you want. |
 
-
-EXAMPLE
+### Example
 
 ```
 CALL WSETHEADER("111-22-3333","Token")
 ```
 
-  
 <PageFooter />

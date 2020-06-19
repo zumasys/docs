@@ -14,12 +14,13 @@ MVDBTOOLKIT.WFILEIO is a multiplatform function to read and write O/S records.  
   "response": {
       "data":"responsedata",
       "status":1,
-      "statusmsg":"statusmsg" 
+      "statusmsg":"statusmsg"
   }
 }
 ```
 
-Example
+### Example
+
 ```BASIC
 * Test WFILEIO
 
@@ -63,5 +64,5 @@ FOBJ=SAVE.FOBJ
 CALL WOBJ(FOBJ,"SET","action","DELETE","",RERR)
 CALL MVDBTOOLKIT.WFILEIO(FOBJ)
 ```
-</PageFooter>
 
+</PageFooter>

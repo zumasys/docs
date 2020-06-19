@@ -24,7 +24,7 @@ cd /usr/local/mvappsvr/bin
 
 4. Change back to the original directory. MV Dashboard is uninstalled.
 
-### **DELETING THE D3 ACCOUNT AND USER (OPTIONAL)** 
+### Deleting the D3 Acount and User (Optional)
 
 The initial MV Dashboard uninstall process does not delete the D3 account or user. To optionally do this, complete the instructions below.
 
@@ -32,7 +32,6 @@ To delete the d3 account and user:
 
 1. Log into the dm account in D3.
 2. Run the following command to delete the account:
-
 
 ```
 delete-account mvdb
@@ -45,4 +44,5 @@ delete-account mvdb
 ```
 delete users mvdashboard
 ```
+
 <PageFooter />

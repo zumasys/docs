@@ -1,5 +1,7 @@
 # MVDBTOOLKIT.WEXECUTE
 
+<PageHeader />
+
 MVDBTOOLKIT.WEXECUTE is a cross platform tool to execute O/S commands.  It is designed to handle all the MV differences.  
 
 ## WOBJ config format
@@ -22,7 +24,8 @@ MVDBTOOLKIT.WEXECUTE is a cross platform tool to execute O/S commands.  It is de
     }
 ```
 
-Example
+### Example
+
 ```BASIC
 CMND='echo MVDBTOOLKIT.TEST'
 
@@ -32,5 +35,5 @@ CALL MVDBTOOLKIT.WEXECUTE(COBJ)
 CALL @WOBJ.RTNE(COBJ,"GET","result.result",CMND.RESULT,"",RERR)
 PRINT CMND.RESULT
 ```
-</PageFooter>
 
+</PageFooter>

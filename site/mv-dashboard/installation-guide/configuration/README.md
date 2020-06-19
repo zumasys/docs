@@ -8,7 +8,7 @@ Now that you have installed the MV Dashboard, you should be able to connect to t
 
 To connect, open your web browser and point it to the name or IP address of your database server. Make sure to include the TCP port number that you selected during the installation in the address bar. For example, if you accepted the default port, your web address might be:
 
-http://my.pickserver.com:8180/config
+<http://my.pickserver.com:8180/config>
 
 Login to the MultiValue Application Server as the user "admin" with the password "admin".
 
@@ -24,15 +24,15 @@ To configure your database connection:
 2. Select the platform from the provided list.
 
 ### Common Issues/Notes
+
 | Issue | Notes |
 | --- | ----- |
 | Account Parent Directory | This directory MUST exist.  If it does not the installer will not move to the next page correctly.  |
 | Package Installer Page | The package installer page will usually refresh 3 times during the package installation.  Each time the page will refresh and show more information at the bottom.  Many times the Next activity button will be off the page.  Make sure you scroll the page down each time you do a action and look for more instructions |
 
-### JBASE
+### jBASE
 
 1. Provide the following parameters in the Required Parameters section of the screen.
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -40,15 +40,12 @@ To configure your database connection:
 | jBASEAccount | Specifies the database account name that houses your application server software. When initially configuring the software, use this field to set the account name. |
 | Account Parent Directory | The parent directory in which the dashboard account directory will be created |
 
-
 2. (Optional) Provide the following parameters in the Optional Parameters section of the screen.
-
 
 | <!----> | <!----> |
 | --- | --- |
 | Segment Size | Specifies the maximum length of the data string that is sent to the multivalue database during any request. The default value for this field is 3000, but it can be adjusted up or down as needed. Typically, this field would be adjusted down if you are experiencing any data loss with data inside the request URI. |
 | DBRetries | Specifies the number of times that the software will attempt to connect to your multivalue database before giving up and displaying an error message. A common reason that the system would not be able to connect to the database would be that the system has exceeded its licensed number of user sessions. Typically, this is set to 3 or some other similar number. |
-
 
 3. Click Save Changes.
 
@@ -58,15 +55,12 @@ After the software has validated your entries in the required parameters section
 
 1. Provide the following parameters in the Required Parameters section of the screen.
 
-
 | <!----> | <!----> |
 | --- | --- |
 | QM Path | Specifies the full operation system path to your QM executable. Typically, the path is as shown below (but can vary depending on your QM installation):/usr/qmsys/bin/qm for Linux and AIXC:\QMSYS\bin\qm.exe for Windows |
 | QMAccount | Specifies the database account name that houses your application server software. When initially configuring the software, use this field to set the account name. |
 
-
 2. (Optional) Provide the following parameters in the Optional Parameters section of the screen.
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -74,15 +68,13 @@ After the software has validated your entries in the required parameters section
 | Segment Size | Specifies the maximum length of the data string that is sent to the multivalue database during any request. The default value for this field is 3000, but it can be adjusted up or down as needed. Typically, this field would be adjusted down if you are experiencing any data loss with data inside the request URI. |
 | DBRetries | Specifies the number of times that the software will attempt to connect to your multivalue database before giving up and displaying an error message. A common reason that the system would not be able to connect to the database would be that the system has exceeded its licensed number of user sessions. Typically, this is set to 3 or some other similar number. |
 
-
 3. Click **_Save Changes_**.
 
 After the software has validated your entries in the required parameters section, the database tab expands to allow you to install the base multivalue database software.
 
-### UNIVERSE
+### UniVerse
 
 1. Provide the following parameters in the Required Parameters section of the screen.
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -90,22 +82,18 @@ After the software has validated your entries in the required parameters section
 | UniverseAccount | Specifies the name of the Universe account (directory) that will hold your software. When initially configuring the software, use this field to set the account name. |
 | Account Parent Directory | The parent directory in which the dashboard account directory will be created |
 
-
 2. (Optional) Provide the following parameters in the Optional Parameters section of the screen.
-
 
 | <!----> | <!----> |
 | --- | --- |
 | Segment Size | Specifies the maximum length of the data string that is sent to the multivalue database during any request. The default value for this field is 3000, but it can be adjusted up or down as needed. Typically, this field would be adjusted down if you are experiencing any data loss with data inside the request URI. |
 | DBRetries | Specifies the number of times that the software will attempt to connect to your multivalue database before giving up and displaying an error message. A common reason that the system would not be able to connect to the database would be that the system has exceeded its licensed number of user sessions. Typically, this is set to 3 or some other similar number. |
 
-
 3. Click Save Changes.
 
-### UNIDATA
+### UniData
 
 1. Provide the following parameters in the Required Parameters section of the screen.
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -115,22 +103,18 @@ After the software has validated your entries in the required parameters section
 | UniDataAccount | Specifies the name of the UniData directory name that will hold your software. When initially configuring the software, use this field to set the account name. Do not enter a full path in this field |
 | Account Parent Directory | The parent directory in which the dashboard account directory will be created |
 
-
 2. (Optional) Provide the following parameters in the Optional Parameters section of the screen.
-
 
 | <!----> | <!----> |
 | --- | --- |
 | Segment Size | Specifies the maximum length of the data string that is sent to the multivalue database during any request. The default value for this field is 3000, but it can be adjusted up or down as needed. Typically, this field would be adjusted down if you are experiencing any data loss with data inside the request URI. |
 | DBRetries | Specifies the number of times that the software will attempt to connect to your multivalue database before giving up and displaying an error message. A common reason that the system would not be able to connect to the database would be that the system has exceeded its licensed number of user sessions. Typically, this is set to 3 or some other similar number. |
 
-
 3. Click Save Changes.
 
 ### D3
 
 1. Provide the following parameters in the Required Parameters section of the screen.
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -140,16 +124,13 @@ After the software has validated your entries in the required parameters section
 | D3Account | Specifies the database account name that houses your application server software. When initially configuring the software, use this field to set the account name. |
 | D3 VME | (For Linux & AIX Only) Specifies the name of the D3 Virtual Machine Environment (VME) that should be used for the dashboard software. Typically, this should be set to "pick0". |
 
-
 2. (Optional) Provide the following parameters in the Optional Parameters section of the screen.
-
 
 | <!----> | <!----> |
 | --- | --- |
 | Working Directory | Specifies the initial working directory that is used for the software. This can be set to any temporary storage directory or the installation directory of the application server software. |
 | Segment Size | Specifies the maximum length of the data string that is sent to the multivalue database during any request. The default value for this field is 3000, but it can be adjusted up or down as needed. Typically, this field would be adjusted down if you are experiencing any data loss with data inside the request URI. |
 | DBRetries | Specifies the number of times that the software will attempt to connect to your multivalue database before giving up and displaying an error message. A common reason that the system would not be able to connect to the database would be that the system has exceeded its licensed number of user sessions. Typically, this is set to 3 or some other similar number. |
-
 
 3. Click Save Changes.
 
@@ -159,23 +140,19 @@ After the software has validated your entries in the required parameters section
 
 After the configuration utility has validated your entries in the required parameters section, the database tab expands to allow you to install the base multivalue database software. This section of the Database tab is used to install or re-install the core software package to your multivalue database. This section is typically only necessary during the initial installation process, however it could also be used as part of an upgrade process or re-initialization of the software.
 
-
 | <!----> | <!----> |
 | --- | --- |
 | IMPORTANT | <ul><li>The multivalue system must be running to install the base package.</li><li>Logging on to the multivalue system into the base account must leave the user at TCL. If you are unable to do this, please contact Zumasys support for assistance.</li></ul> |
 
-
 To install the base multivalue software:
 
-### JBASE
+### jBASE
 
 1. Provide the following parameters in the Install Dashboard Software section of the screen.
-
 
 | <!----> | <!----> |
 | --- | --- |
 | Package Directory | Specifies the system directory that contains the core software packages. These packages were installed with your software and the correct directory typically displays automatically. |
-
 
 2. Click Install.
 
@@ -185,40 +162,34 @@ If the installation process succeeds, a success message and the database softwar
 
 1. Provide the following parameters in the Install Dashboard Software section of the screen.
 
-
 | <!----> | <!----> |
 | --- | --- |
 | Account Parent Directory | The parent directory in which the dashboard account directory will be created. This is a required field that the system will make no attempt to auto-fill. An example of a likely entry might be /u |
 | Package Directory | Specifies the system directory that contains the core software packages. These packages were installed with your software and the correct directory typically displays automatically. |
 
-
 2. Click Install.
 
 If the installation process succeeds, a success message and the database software version are displayed.
 
-### UNIVERSE
+### UniVerse
 
 1. Provide the following parameters in the Install Dashboard Software section of the screen.
-
 
 | <!----> | <!----> |
 | --- | --- |
 | Package Directory | Specifies the system directory that contains the core software packages. These packages were installed with your software and the correct directory typically displays automatically. |
 
-
 2. Click Install.
 
 If the installation process succeeds, a success message and the database software version are displayed.
 
-### UNIDATA
+### UniData
 
 1. Provide the following parameters in the Install Dashboard Software section of the screen.
-
 
 | <!----> | <!----> |
 | --- | --- |
 | Package Directory | Specifies the system directory that contains the core software packages. These packages were installed with your software and the correct directory typically displays automatically. |
-
 
 2. Click Install.
 
@@ -228,7 +199,6 @@ If the installation process succeeds, a success message and the database softwar
 
 1. Provide the following parameters in the Install Dashboard Software section of the screen.
 
-
 | <!----> | <!----> |
 | --- | --- |
 | DMUsername | Specifies the user name of your DM user, or any user with full database privileges. This field defaults to the value DM, and typically does not need to be changed. |
@@ -237,12 +207,11 @@ If the installation process succeeds, a success message and the database softwar
 | Acct. Password | Specifies the password assigned to your DM account (as indicated above). If your DM database account does not employ a password, leave this field blank. |
 | Package Directory | Specifies the system directory that contains the core software packages. These packages were installed with your software and the correct directory typically displays automatically. |
 
-
 2. Click Install.
 
 If the installation process succeeds, a success message and the database software version are displayed.
 
-## **Activating the Dashboard**
+## Activating the Dashboard
 
 To Activate MV Dashboard:
 
@@ -250,25 +219,21 @@ To Activate MV Dashboard:
 2. Enter the license key provided to you by Zumasys.
 3. Click Update.
 
-
-
 | <!----> | <!----> |
 | --- | --- |
-| NOTE<br> | On Windows, after entering the license key, the MV Dashboard service needs to be restarted to enable REST calls for MV Connect. |
+| NOTE | On Windows, after entering the license key, the MV Dashboard service needs to be restarted to enable REST calls for MV Connect. |
 
-
-## **Other Features Available from the Configuration Utility**
+## Other Features Available from the Configuration Utility
 
 The following tabs provide various information on your system, allow you to set configuration utility security and install new applications to the dashboard.
 
-## **Status Tab**
+## Status Tab
 
 The Status tab is intended to provide the software's administrator a summary of its health and configuration status. When logging into the configuration interface, this screen is displayed to give a quick, graphical view into the status of the Application Server.
 
-### **STATUS ICONS**
+### Status Icons
 
 The first section of the Status tab displays five icons that indicate the current status of the software.
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -278,11 +243,9 @@ The first section of the Status tab displays five icons that indicate the curren
 | Database Configured | Displays the database configuration status.<ul><li>Green indicates that the software has been configured and that the configuration appears to be valid.</li><li>Yellow indicates that the software has been configured, but a problem was detected.</li><li>Red indicates that the software has not been configured.</li></ul> |
 | MV Software | Displays the status of the multivalue software part of the installation. |
 
-
-### **SERVER SUMMARY INFORMATION**
+### Server Summary Information
 
 The second section of the Status tab displays general information regarding the installation of your application server software.
-
 
 | <!----> | <!----> |
 | --- | --- |
@@ -293,28 +256,26 @@ The second section of the Status tab displays general information regarding the 
 | Default Handler | Displays which application is executed by default when no application handler is defined in the request URI. |
 | Default Resource | Displays which application program is executed if no application resource is defined in the request URI. |
 
-
-### **INSTALLED APPLICATIONS**
+### Installed Applications
 
 The third section of the Status tab lists all of the applications that are currently installed and configured using the MultiValue Application Server.
 
-### **SECURITY TAB**
+### Security Tab
 
 The Security tab allows you to change the Admin password. This is the password used to access both the configuration utility at /config, and also any multivalue applications that are accessible using the sdbc handler. You can identify these applications by looking for /sdbc/ in the request URI.
 
-### **DOCS TAB**
+### Docs Tab
 
 The Docs tab provides more information about the configuration and setup of the MultiValue Application Server.
 
-### **APPS TAB**
+### Apps Tab
 
 The Apps tab displays your list of installed applications and can be used to install new applications.
 
 - The Installed Applications section displays the package name, version and handler name for all of the software packages that you have installed into the application server.
 - The Install New Application section allows you to install new applications. To install a new application, enter the full system path to the package file that was provided by Zumasys in the Package Path field and click Install. Once the installation has completed, you can access the new software package using its handler name in the request URI.
 
-
-# RUNNING THE DASHBOARD IN FLASHED MODE
+## Running the Dashboard in Flashed Mode
 
 As installed, MV Dashboard control programs and subroutines are not flash-compiled. Complete these instructions to run the dashboard in flashed mode.
 
@@ -325,13 +286,11 @@ To run the dashboard in flashed mode:
 2. Run these commands:
 
 ```
-COMPILE RSS.BP (O 
-COMPILE MVBP.BP (OW 
-COMPILE WDB.BP (OW 
+COMPILE RSS.BP (O
+COMPILE MVBP.BP (OW
+COMPILE WDB.BP (OW
 COMPILE MVDB.SUBS (O
 ```
-
-
 
 3. Change attribute 1 in the COMPILE.SETUP item (controls the manner in which the Dashboard code editor compiles widget subroutines) in the MVDB.CONTROL file in the MVDB account from:
 
@@ -349,18 +308,15 @@ COMPILE %FILENAME% %ITEMNAME% (O
 
 The dashboard will now run in flashed mode and will flash compile any new or modified widget subroutines.
 
-
 | <!----> | <!----> |
 | --- | --- |
-| WARNING<br> | If you choose to run the Dashboard in flashed mode, make sure that all subroutines called from your existing application are flash-compiled as well. |
+| WARNING | If you choose to run the Dashboard in flashed mode, make sure that all subroutines called from your existing application are flash-compiled as well. |
 
-
-# **DISABLING FLASHED MODE**
+## Disabling Flashed Mode
 
 Complete these instructions to disable flashed mode. To disable flashed mode:
 
 1. Change attribute 1 in the COMPILE.SETUP item in the MVDB.CONTROL file in the MVDB account from:
-
 
 ```
 COMPILE %FILENAME% %ITEMNAME% (O
@@ -377,23 +333,19 @@ BASIC %FILENAME% %ITEMNAME%
 3. Un-flash the programs by running the following commands:
 
 ```
-DEOPTIMIZE DICT RSS.BP 
-DEOPTIMIZE DICT MVBP.BP 
-DEOPTIMIZE DICT WDB.BP 
+DEOPTIMIZE DICT RSS.BP
+DEOPTIMIZE DICT MVBP.BP
+DEOPTIMIZE DICT WDB.BP
 DEOPTIMIZE DICT MVDB.SUBS
 ```
 
 Flashed mode is disabled.
 
-
-
-# **STARTING MV DASHBOARD**
-
+## Starting MV Dashboard
 
 | <!----> | <!----> |
 | --- | --- |
-| NOTE<br> | D3 must be running in order to start the dashboard. |
-
+| NOTE| D3 must be running in order to start the dashboard. |
 
 Complete the instructions below to start MV Dashboard.
 
@@ -401,9 +353,10 @@ To start MV Dashboard:
 
 1. Open your web browser and point to the name or IP address of your database server. Make sure to include the TCP port number that you selected during the installation. For example, if you accepted the default port, your web address might be:
 
-http://my.pickserver.com:8180/
+<http://my.pickserver.com:8180/>
 
 2. The MV Dashboard Login screen displays. Enter your Login name and password and then click the Login button. By default the Login name and Password are both set to "admin".
 
 MV Dashboard is started.
+
 <PageFooter />

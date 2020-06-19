@@ -4,14 +4,13 @@
 
 The WENCODEJSON subroutine will encode a string to properly be in a JSON value.
 
-### COMMAND SYNTAX
+## Command Syntax
 
 ```
 CALL WENCODEJSON(OPTION,INSTR,OUTSTR)
 ```
 
-### SYNTAX ELEMENTS
-
+### Syntax Elements
 
 | <!----> | <!----> |
 | --- | --- |
@@ -20,17 +19,15 @@ CALL WENCODEJSON(OPTION,INSTR,OUTSTR)
 | INSTR | The string you wish to encode |
 | OUTSTR | The encoded string. |
 
-
-#### EXAMPLE
+#### Example
 
 ```
 CALL WENCODEJSON("",'"',OUTSTR)
 * OUTSTR = \u0022   (Encoding for ")
 ```
 
-#### NOTES
+#### Notes
 
 The WENCODEJSON function is primarily used internally by the other subroutines (such as WBUILDJSON AND WOBJ).  You can although call it yourself if you are doing your own string building.
 
-  
 <PageFooter />

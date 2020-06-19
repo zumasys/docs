@@ -4,13 +4,13 @@
 
 The WDEBUG program is a debugging tool for REST services.
 
-### **COMMAND SYNTAX**
+## Command Syntax
 
 ```
 WDEBUG
 ```
 
-### **SETUP**
+### Setup
 
 Use the WDEBUG program to:
 
@@ -27,7 +27,7 @@ CREATE-FILE DATA WDB.DEBUG 101
 
 Debug information is enabled for each REST resource independently. Attribute 7 of the WDB.RESOURCE record for each resource contains a flag to enable debugging for that resource. Set attribute 7 of the resource record to 1 to enable debugging.
 
-### **DEBUGGING**
+### Debugging
 
 With debugging enabled for the desired resource, submit a REST request you want to debug, from a client (browser, PostMan, curl, etc.). After the request has been processed, type WDEBUG from a command (TCL, ECL, jsh, etc.) prompt. Recent requests will be displayed, showing some of the request details to help identify the specific request you intend to debug. Select the request by entering the line number at the command prompt. You can also display the previous or next page of requests, refresh the list of requests, clear all requests in the WDB.DEBUG file, or quit the WDEBUG program.
 
@@ -66,7 +66,4 @@ CALL WGETINFO(IS.DEBUGGING,SESSION_WDEBUG_MODE)
 IF IS.DEBUGGING THEN DEBUG
 ```
 
-
-
-  
 <PageFooter />

@@ -37,6 +37,4 @@
 | 404Redirect     |                                               |
 | debug           | debug=1 in [behavior]                         |
 
-
-  
 <PageFooter />

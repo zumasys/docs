@@ -4,14 +4,13 @@
 
 The WGETINFO subroutine allows you return directly information from WWW.INFO common.
 
-#### **COMMAND SYNTAX**
+## Command Syntax
 
 ```
 CALL WGETINFO(POS,VALUE)
 ```
 
-#### **SYNTAX ELEMENTS**
-
+### Syntax Elements
 
 | <!----> | <!----> |
 | --- | --- |
@@ -19,8 +18,7 @@ CALL WGETINFO(POS,VALUE)
 | POS | [WWW.INFO](//WWW.INFO) Dynamic position you wish to get. |
 | VALUE | Returned Value |
 
-
-#### EXAMPLE
+#### Example
 
 ```
 * Dynamically find all Variables passed by client
@@ -33,11 +31,8 @@ FOR V=1 TO NUM.VARS
 NEXT V
 ```
 
-
-
-#### **NOTES**
+#### Notes
 
 See WWW.INFO for details on the common.
 
-  
 <PageFooter />
