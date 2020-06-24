@@ -1,6 +1,6 @@
 # jtic
 
-*<PageHeader />  
+<PageHeader />  
 
 ## Description
 
