@@ -1,10 +1,6 @@
 # Putenv
 
-**Created At:** 8/30/2018 1:35:29 PM  
-**Updated At:** 5/16/2019 6:30:37 PM  
-**Original Doc:** [336886-putenv](https://docs.jbase.com/48575-jkeyauto/336886-putenv)  
-**Original ID:** 336886  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='program profiling' vertical='middle' />
@@ -32,5 +28,4 @@ Environment variables are only exported to child processes. Once jkeyauto termin
 
 [Back to jKeyAuto](./../README.md)
 
-  
 <PageFooter />

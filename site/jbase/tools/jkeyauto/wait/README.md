@@ -1,10 +1,6 @@
 # Wait
 
-**Created At:** 8/30/2018 1:42:10 PM  
-**Updated At:** 5/16/2019 6:30:57 PM  
-**Original Doc:** [wait](https://docs.jbase.com/48575-jkeyauto/wait)  
-**Original ID:** 336893  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='program profiling' vertical='middle' />
@@ -32,8 +28,7 @@ where:
 | -1 | This shows the WAIT statement returned because the timeout operation specified by exprssion\_for was exceeded. |
 | -2 | This shows the value given in expression\_pipe was invalid. |
 
-## Note:
-
+## Note
 
 > Generally, this statement ought to be used in all scripts so that the jkeyauto program does not exit before the child processes created with the PROGRAM statement. Should this happen then jkeyauto will attempt to kill all remaining child processes when it exits.
 
@@ -55,5 +50,4 @@ to execute "SLEEP 5, then go in a loop with a 2 second timeout displaying a "Sti
 
 [Back to jKeyAuto](./../README.md)
 
-  
 <PageFooter />

@@ -1,10 +1,6 @@
 # JBASECOREDUMP
 
-**Created At:** 9/21/2017 10:06:19 AM  
-**Updated At:** 1/5/2018 5:50:03 PM  
-**Original Doc:** [277528-jbasecoredump](https://docs.jbase.com/36868-jbase-basic/277528-jbasecoredump)  
-**Original ID:** 277528  
-**Internal:** No  
+<PageHeader />
 
 ## Description
 
@@ -40,5 +36,4 @@ Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 
-  
 <PageFooter />

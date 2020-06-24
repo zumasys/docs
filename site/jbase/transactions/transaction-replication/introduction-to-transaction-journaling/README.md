@@ -1,10 +1,6 @@
 # Introduction to Transaction Journaling
 
-**Created At:** 3/21/2018 7:20:44 AM  
-**Updated At:** 3/21/2019 10:49:41 PM  
-**Original Doc:** [introduction-to-transactional-journaling](https://docs.jbase.com/43995-transactional-journaling/introduction-to-transactional-journaling)  
-**Original ID:** 304808  
-**Internal:** No
+<PageHeader />
 
 **Tags:**
 <badge text='journaling' vertical='middle' />
@@ -43,5 +39,4 @@ Transaction Replication is a secondary process that takes transaction logs and c
 
 [Monitoring Transaction Replication](./../monitoring-transaction-replication)
 
-  
 <PageFooter />

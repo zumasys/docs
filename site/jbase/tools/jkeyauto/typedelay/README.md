@@ -1,10 +1,6 @@
 # TypeDelay
 
-**Created At:** 8/30/2018 1:36:58 PM  
-**Updated At:** 5/16/2019 6:32:29 PM  
-**Original Doc:** [typedelay](https://docs.jbase.com/48575-jkeyauto/typedelay)  
-**Original ID:** 336889  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='program profiling' vertical='middle' />
@@ -32,5 +28,4 @@ to show the user taking a long time to enter a complicated word , 1.2 seconds pe
 
 [Back to jKeyAuto](./../README.md)
 
-  
 <PageFooter />

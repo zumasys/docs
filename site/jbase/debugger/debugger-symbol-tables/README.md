@@ -26,5 +26,4 @@ will produce a named common data area called **Simple** for the debugger to use.
 
 Back to [Debugger](./../README.md)
 
-  
 <PageFooter />

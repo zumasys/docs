@@ -1,10 +1,6 @@
 # jKEYAUTO
 
-**Created At:** 8/30/2018 1:00:36 PM  
-**Updated At:** 5/16/2019 6:28:02 PM  
-**Original Doc:** [jkeyauto](https://docs.jbase.com/48575-jkeyauto/jkeyauto)  
-**Original ID:** 336869  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='program performance' vertical='middle' />

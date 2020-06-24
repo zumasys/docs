@@ -1,19 +1,17 @@
 # Contribution Guidelines
 
+<PageHeader />
+
 Please note, this is a WIP!
 
 Formatting specifications for Markdown documents
 
-A typical Markdown document:
+A typical Markdown document which will now include "PageHeader" and "PageFooter" markers. These have been commented out here:
 
 ````markdown
 # ENCRYPT
 
-**Created At:** 8/17/2017 2:19:26 PM  
-**Updated At:** 10/25/2018 7:47:58 AM  
-**Original Doc:** [267804-encrypt](https://docs.jbase.com/36868-jbase-basic/267804-encrypt)  
-**Original ID:** 267804  
-**Internal:** No
+# <PageHeader />
 
 **Tags:**
 <badge text='encryption' vertical='middle' />
@@ -82,6 +80,9 @@ Decrypted: This is the string to be encrypted
 See also: [DECRYPT](./../decrypt).
 
 Go back to [jBASE BASIC](./../README.md)
+
+# <PageFooter />
+
 ````
 
 Do:
@@ -94,7 +95,7 @@ Do:
 6. Also highlight the statement/function plus any relevant connectors, i.e. IF, THEN, ELSE
 7. Where possible, make sure that there is a link back to the page on level up.
 8. Remove extraneous and trailing blanks, except where relevant, i.e. two spaces at the end of a line to cause a line-break.
-9. With code examples, space out the code so that people can see what is going on, i,e.:
+9. With code examples, space out the code so that people can see what is going on, i.e.:
 
 ```
 IF chr >= 32 AND chr < 128 THEN CRT CHAR(chr) "#2" : ELSE CRT " " :
@@ -109,3 +110,5 @@ Don’t:
 2. Use HTML except where necessary.
    a. Most tables can be constructed using Markdown “syntax”, although some complex tables such at those in the jBC “FMT” page (../docs/jbase/jbc/fmt/README.md) will need the assistance of some HTML code in order to appear correctly on the web page.
    b. It is permissible to embed video content with HTML.
+
+<PageFooter />

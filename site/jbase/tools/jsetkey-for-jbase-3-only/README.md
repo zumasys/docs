@@ -1,10 +1,6 @@
 # jsetkey (jBASE 3 only)
 
-**Created At:** 8/30/2018 2:15:33 PM  
-**Updated At:** 5/17/2019 9:16:06 AM  
-**Original Doc:** [jsetkey](https://docs.jbase.com/48399-tools/jsetkey)  
-**Original ID:** 336928  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='environment variables' vertical='middle' />
@@ -31,5 +27,4 @@ If -m option is also used, then the Global machine values are used instead of th
 
 [Back to Tools](./../README.md)
 
-  
 <PageFooter />

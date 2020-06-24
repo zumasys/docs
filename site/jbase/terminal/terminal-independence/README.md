@@ -1,10 +1,6 @@
 # Terminal Independence
 
-**Created At:** 11/3/2017 3:18:13 PM  
-**Updated At:** 2/22/2018 5:37:39 PM  
-**Original Doc:** [terminal-independence](https://docs.jbase.com/41717-environment-variables/terminal-independence)  
-**Original ID:** 284156  
-**Internal:** No  
+<PageHeader />
 
 jBASE uses the standard terminfo database supplied on all UNIX platforms. For Windows, jBASE provides a terminfo database for several popular terminal.
 
@@ -16,7 +12,7 @@ jBASE for UNIX includes terminfo definitions for several popular terminals and t
 
 To obtain the terminfo source for a particular terminal, use the "infocmp" command:
 
-```
+```bash
 infocmp vt220
 
 infocmp vt220 > MyNewTermDef
@@ -24,7 +20,7 @@ infocmp vt220 > MyNewTermDef
 
 Use any text editor (vim, nano, etc.) to modify or create a new terminfo definition, then use the "tic" command to compile the terminal definition:
 
-```
+```bash
 tic MyNewTermDef
 ```
 
@@ -34,7 +30,7 @@ jBASE for Windows includes terminfo definitions for many common terminals. The s
 
 It is possible to import terminal definitions from a UNIX system using the "infocmp" command (see above). The output of the infocmp command can be redirected to a text file containing the terminal definition source. Save the terminal definition file in a directory on the Windows system, and use the "jtic" command to compile it into the jBASE terminfo database:
 
-```
+```bash
 jtic MyNewTermDef
 ```
 
@@ -54,5 +50,4 @@ The jtic utility also provides the ability to add extra terminal and printer ind
 
 Back to [Terminal](./../README.md)
 
-  
 <PageFooter />

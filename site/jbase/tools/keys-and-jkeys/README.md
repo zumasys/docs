@@ -1,10 +1,6 @@
 # keys / jkeys
 
-**Created At:** 8/30/2018 2:25:02 PM  
-**Updated At:** 5/17/2019 9:48:22 PM  
-**Original Doc:** [336948-keys-jkeys](https://docs.jbase.com/48399-tools/336948-keys-jkeys)  
-**Original ID:** 336948  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='ascii equivallent' vertical='middle' />
@@ -28,5 +24,4 @@ jsh cindy ~ -->
 
 [Back to Tools](./../README.md)
 
-  
 <PageFooter />

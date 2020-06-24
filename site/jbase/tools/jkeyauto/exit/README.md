@@ -1,10 +1,6 @@
 # Exit
 
-**Created At:** 8/30/2018 1:28:20 PM  
-**Updated At:** 5/16/2019 6:32:00 PM  
-**Original Doc:** [336877-exit](https://docs.jbase.com/48575-jkeyauto/336877-exit)  
-**Original ID:** 336877  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='program profiling' vertical='middle' />
@@ -30,5 +26,4 @@ to return an exit code of 3 to the parent process.
 
 [Back to jKeyAuto](./../README.md)
 
-  
 <PageFooter />

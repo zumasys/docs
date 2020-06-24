@@ -1,10 +1,6 @@
 # Terminal Type
 
-**Created At:** 11/3/2017 3:19:31 PM  
-**Updated At:** 2/22/2018 5:37:52 PM  
-**Original Doc:** [terminal-type](https://docs.jbase.com/41717-environment-variables/terminal-type)  
-**Original ID:** 284157  
-**Internal:** No  
+<PageHeader />
 
 jBASE provides support for a terminal type cross reference mechanism that enables setting of synonym Multivalued terminal types to be mapped to a real terminfo terminal type.
 
@@ -65,5 +61,4 @@ The first field is the synonym name. The second field is the real terminfo datab
 
 Back to [Terminal](./../README.md)
 
-  
 <PageFooter />

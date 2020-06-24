@@ -1,10 +1,6 @@
 # Stop
 
-**Created At:** 8/30/2018 1:37:17 PM  
-**Updated At:** 5/16/2019 6:30:20 PM  
-**Original Doc:** [336891-stop](https://docs.jbase.com/48575-jkeyauto/336891-stop)  
-**Original ID:** 336891  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='program profiling' vertical='middle' />
@@ -27,5 +23,4 @@ stop "This program has finished"
 
 [Back to jKeyAuto](./../README.md)
 
-  
 <PageFooter />

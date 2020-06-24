@@ -20,7 +20,7 @@ jcompile -{abcefhjmrvxEHJRSX?} {-bBaseAddres} {-lLibraryName} {-oOutputExec} {-F
 | -oexec | Define name of output executable. Can also define the name of a shared library, in which case an executable is not created.     |
 | -p     | Use a pre-existing def file for export list.                                                                                    |
 | -P     | Use the new pre-processor                                                                                                       |
-| -slib  | Define name of output shared library. This option will also prevent the creation of an executable. Use instead of the -o option if the shared library has a non-standard extension to its name.                                                                                   |
+| -slib  | Define name of output shared library. This option will also prevent the creation of an executable. Use instead of the -o option if the shared library has a non-standard extension to its name. |
 | -v     | Verbose output showing external commands executed.                                                                              |
 | -x     | Exclude the libjbase during build of shared libraries. Used only when building libjbase itself.                                 |
 | -X     | Exclude the libjbaseutil during build of shared libraries.                                                                      |
@@ -30,9 +30,9 @@ jcompile -{abcefhjmrvxEHJRSX?} {-bBaseAddres} {-lLibraryName} {-oOutputExec} {-F
 | -H     | Verbose help.                                                                                                                   |
 | -Idir  | Define a directory for finding the include files used during the compilation of C or jBC source files.                          |
 | -JJ    | Generate JIMI statistics in the sourcename.sqm file                                                                             |
-| -Jq{?} | Indicate that the code contains embedded SQL statements for either:<br>d   DB2<br>i   Ingres (not fully supported)<br>o   Oracle<br>s   Sybase (not fully supported)<br>x   Informix (not fully supported)                                                                         |
+| -Jq{?} | Indicate that the code contains embedded SQL statements for either:<br>d   DB2<br>i   Ingres (not fully supported)<br>o   Oracle<br>s   Sybase (not fully supported)<br>x   Informix (not fully supported)  |
 | -Ldir  | Define a directory used by the linker to find any libraries defined with the -l option.                                         |
-| -On    | Define the optimisation level , where n is 1 to 4 as follows :<br>-O1   Provides no optimisation and addition of OS debug libraries.<br>-O2   Default option, no optimisation, full jBC debug information.<br>-O3   Limited jBC debug trace points , C optimiser called.<br>-O4   Full optimisation with limited jBC debugger.                                                                                                    |
+| -On    | Define the optimisation level , where n is 1 to 4 as follows :<br>-O1   Provides no optimisation and addition of OS debug libraries.<br>-O2   Default option, no optimisation, full jBC debug information.<br>-O3   Limited jBC debug trace points , C optimiser called.<br>-O4   Full optimisation with limited jBC debugger.  |
 | -R    | Don't link an executable with the jmainfunction.o object. This is used when the main() function is already defined in an object. |
 | -S    | Create source files from jBC source and exit. This allows you to examine the C sources created from the jBC source.              |
 

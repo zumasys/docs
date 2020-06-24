@@ -1,10 +1,6 @@
 # Trace
 
-**Created At:** 8/30/2018 1:13:20 PM  
-**Updated At:** 5/16/2019 6:28:44 PM  
-**Original Doc:** [trace](https://docs.jbase.com/48575-jkeyauto/trace)  
-**Original ID:** 336873  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='program profiling' vertical='middle' />
@@ -33,5 +29,4 @@ to have a loop of 10 iterations waiting for the application to send the "greg" s
 
 [Back to jKeyAuto](./../README.md)
 
-  
 <PageFooter />

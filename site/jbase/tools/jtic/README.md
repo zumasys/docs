@@ -1,16 +1,12 @@
 # jtic
 
-**Created At:** 8/30/2018 2:21:53 PM  
-**Updated At:** 12/28/2018 8:50:54 AM  
-**Original Doc:** [jtic](https://docs.jbase.com/48399-tools/jtic)  
-**Original ID:** 336943  
-**Internal:** No  
+*<PageHeader />  
 
 ## Description
 
 The program is executed as:
 
-```
+```bash
 jtic -Options DescriptionFile
 ```
 
@@ -27,7 +23,7 @@ cuu1=\E[1A, cols#80,
 
 If you want to create a binary with the extended capabilities, use the -x option. Remember when running jtic you will probably require root privileges to write to the /usr/lib/terminfo directory.
 
-jtic Description File
+## jtic Description File
 
 To run jtic you need a description file to describe the capabilities. This file is very similar to that required by the UNIX tic command.
 
@@ -165,7 +161,7 @@ TOP
 
 Generate jBASE terminfo extension file.
 
-```
+```bash
 jtic -x Mytic
 ```
 
@@ -188,5 +184,4 @@ TESTMYTIC > MyFile
 
 [Back to Tools](./../README.md)
 
-  
 <PageFooter />

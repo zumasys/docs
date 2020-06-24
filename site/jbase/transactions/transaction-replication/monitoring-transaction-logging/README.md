@@ -1,10 +1,6 @@
 # Monitoring Transaction Logging
 
-**Created At:** 3/28/2018 8:55:01 PM  
-**Updated At:** 3/30/2018 3:48:18 PM  
-**Original Doc:** [305765-monitoring-transaction-logging](https://docs.jbase.com/43995-transactional-journaling/305765-monitoring-transaction-logging)  
-**Original ID:** 305765  
-**Internal:** No  
+<PageHeader />
 
 ## Overview
 
@@ -130,5 +126,4 @@ NOTE: The message is designated INFORMATION, WARNING or FATAL ERROR. This design
 
 Back to [Transactional Journaling](./../introduction-to-transaction-journaling)
 
-  
 <PageFooter />

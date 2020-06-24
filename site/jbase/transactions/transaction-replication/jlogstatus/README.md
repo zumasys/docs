@@ -1,10 +1,6 @@
 # jlogstatus
 
-**Created At:** 3/29/2018 7:30:55 PM  
-**Updated At:** 4/18/2018 8:15:02 PM  
-**Original Doc:** [305935-jlogstatus](https://docs.jbase.com/43995-transactional-journaling/305935-jlogstatus)  
-**Original ID:** 305935  
-**Internal:** No  
+<PageHeader />  
 
 ## Description
 
@@ -29,13 +25,13 @@ where option may be:
 
 For instance the command:
 
-```
+```bash
 :jlogstatus -a
 ```
 
 may display something like:
 
-```
+```bash
 Journal status:                            active
 Configuration file created:                10:39:00 08 APR 1998 , by root from port 9
 Configuration file modified:               10:47:55 08 APR 1998 , by root from port 9

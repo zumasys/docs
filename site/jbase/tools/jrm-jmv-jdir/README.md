@@ -1,10 +1,6 @@
 # jrm jmv jdir
 
-**Created At:** 8/30/2018 2:13:28 PM  
-**Updated At:** 10/25/2018 8:55:23 AM  
-**Original Doc:** [jrm-jmv-jdir](https://docs.jbase.com/48399-tools/jrm-jmv-jdir)  
-**Original ID:** 336923  
-**Internal:** No  
+<PageHeader />  
 
 ## Description
 
@@ -26,5 +22,4 @@ As they are executables to use in place of **cmd.exe** functionality, the comman
 
 [Back to Tools](./../README.md)
 
-  
 <PageFooter />

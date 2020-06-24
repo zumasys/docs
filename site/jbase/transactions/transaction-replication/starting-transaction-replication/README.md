@@ -1,10 +1,6 @@
 # Starting Transaction Replication
 
-**Created At:** 3/21/2018 6:45:06 AM  
-**Updated At:** 6/28/2018 1:46:47 PM  
-**Original Doc:** [configuring-transaction-replication](https://docs.jbase.com/43995-transactional-journaling/configuring-transaction-replication)  
-**Original ID:** 304802  
-**Internal:** No  
+<PageHeader />  
 
 ## Overview
 
@@ -225,5 +221,4 @@ For other platforms please contact your system administrator for instructions on
 
 Back to [Transactional Journaling](./../introduction-to-transaction-journaling)
 
-  
 <PageFooter />

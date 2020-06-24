@@ -1,10 +1,6 @@
 # Execute
 
-**Created At:** 8/30/2018 1:27:50 PM  
-**Updated At:** 5/16/2019 6:28:02 PM  
-**Original Doc:** [336876-execute](https://docs.jbase.com/48575-jkeyauto/336876-execute)  
-**Original ID:** 336876  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='program profiling' vertical='middle' />
@@ -44,6 +40,5 @@ perform "LIST MD IF \*A1 \> \'1234\'" SETTING s1
 if it is undesired for the \* &gt; or ' characters as special character, so the normal shell convention of preceding them with a back slash to "delimit" the shell meta-characters is followed.
 
 [Back to jKeyAuto](./../README.md)
-
   
 <PageFooter />

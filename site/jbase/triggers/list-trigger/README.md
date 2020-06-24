@@ -1,10 +1,6 @@
 # LIST-TRIGGER
 
-**Created At:** 8/16/2018 2:35:40 PM  
-**Updated At:** 9/5/2018 11:44:46 AM  
-**Original Doc:** [list-trigger](https://docs.jbase.com/48168-triggers/list-trigger)  
-**Original ID:** 334577  
-**Internal:** No
+<PageHeader />
 
 **Tags:**
 <badge text='triggers in jbc' vertical='middle' />
@@ -31,5 +27,4 @@ where options may be:
 
 Back to [Triggers](./../README.md)
 
-  
 <PageFooter />

@@ -1,10 +1,6 @@
 # Program
 
-**Created At:** 9/6/2018 10:25:10 AM  
-**Updated At:** 5/16/2019 6:28:56 PM  
-**Original Doc:** [program](https://docs.jbase.com/48575-jkeyauto/program)  
-**Original ID:** 337994  
-**Internal:** No  
+<PageHeader />  
 
 **Tags:**
 <badge text='program profiling' vertical='middle' />
@@ -61,5 +57,4 @@ The internal variable $PIPE will be set to the pipe number allocated for this pr
 
 [Back to jKeyAuto](./../README.md)
 
-  
 <PageFooter />

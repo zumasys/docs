@@ -1,10 +1,6 @@
 # jkeyauto Overview
 
-**Created At:** 8/30/2018 1:10:49 PM  
-**Updated At:** 5/16/2019 6:28:02 PM  
-**Original Doc:** [336871-overview](https://docs.jbase.com/48575-jkeyauto/336871-overview)  
-**Original ID:** 336871  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='program profiling' vertical='middle' />
@@ -18,30 +14,30 @@ The fundamentals of operation are
 1. A script is built that defines one or more programs to be executed, and then
 2. Use the jkeyauto program to interpret the script, thus controlling one or more programs.
 
-Currently jkeyauto is available on Unix platforms only.
+Currently jkeyauto is available on UNIX platforms only.
 
-The programs that are controlled by jkeyauto need not be jBASE programs ; they can equally be jBASE programs, Unix scripts, Unix programs, telnet sessions and so on.
+The programs that are controlled by jkeyauto need not be jBASE programs ; they can equally be jBASE programs, UNIX scripts, UNIX programs, telnet sessions and so on.
 
 The program jkeyauto is called as:
 
-```
+```bash
 jkeyauto {-h?stx} script_name
 ```
 
 or
 
-```
+```bash
 jkeyauto -S LOCK|UNLOCK|WAIT|TEST locknumber {-ffor_timeout}
 ```
 
 Where:
 
-- **-h**or -**?**display the help screen,
-- **-ffor\_timeout**sets the timeout value for WAITing on a sync lock
-- **-s**ignore any sleep statements
-- **-t**turn tracing ON
-- **-x**upon exit, display all internal variables
-- **-S**manipulate the sync. Lock
+- **-h** or -**?** display the help screen,
+- **-ffor\_timeout** sets the timeout value for WAITing on a sync lock
+- **-s** ignore any sleep statements
+- **-t** turn tracing ON
+- **-x** upon exit, display all internal variables
+- **-S** manipulate the sync. Lock
 - The file **script\_name** contains a list of commands for jkeyauto to execute. All the options, including the alternative invocation with the **-S** option, are fully described later. For most uses, simply invoke it as "jkeyauto scriptname".
 
 ## jkeyauto Script Layout
@@ -155,5 +151,5 @@ Wait for a program to complete
 
 [Back to jKeyAuto](./../README.md)
 
-  
+
 <PageFooter />

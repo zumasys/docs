@@ -1,10 +1,6 @@
 # jprof
 
-**Created At:** 8/24/2018 10:41:30 AM  
-**Updated At:** 5/17/2019 9:48:00 PM  
-**Original Doc:** [jprof](https://docs.jbase.com/48399-tools/jprof)  
-**Original ID:** 336006  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='profiling' vertical='middle' />
@@ -150,5 +146,4 @@ The -i option would sort the output with incrementing Ticks counts. The -n optio
 
 [Back to Tools](./../README.md)
 
-  
 <PageFooter />

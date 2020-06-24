@@ -1,10 +1,6 @@
 # Restoring from a Transaction Log
 
-**Created At:** 3/21/2018 7:11:08 AM  
-**Updated At:** 4/18/2018 8:11:53 PM  
-**Original Doc:** [restoring-from-a-transaction-log](https://docs.jbase.com/43995-transactional-journaling/restoring-from-a-transaction-log)  
-**Original ID:** 304806  
-**Internal:** No  
+<PageHeader />
 
 ## Selective Restores
 
@@ -32,5 +28,4 @@ In this example, all updates to the CUSTOMER file which have been logged, except
 
 Back to [Transactional Journaling](./../introduction-to-transaction-journaling)
 
-  
 <PageFooter />

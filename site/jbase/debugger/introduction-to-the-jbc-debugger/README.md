@@ -29,5 +29,4 @@ The jBC debugger is a fully featured, interactive diagnostic utility that gives 
 
 Back to [Debugger](./../README.md)
 
-  
 <PageFooter />

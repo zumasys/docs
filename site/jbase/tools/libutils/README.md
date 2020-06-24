@@ -1,15 +1,11 @@
 # libutils
 
-**Created At:** 8/30/2018 2:25:23 PM  
-**Updated At:** 5/17/2019 9:49:58 PM  
-**Original Doc:** [libutils](https://docs.jbase.com/48399-tools/libutils)  
-**Original ID:** 336950  
-**Internal:** No  
+<PageHeader />
 
 **Tags:**
 <badge text='terminal independence' vertical='middle' />
 
-The libutils shared library is provided to enable users to code terminal independent code to handle keyboard input. For example:
+The libutils shared library is provided to enable users to develop terminal independent code to handle keyboard input. For example:
 
 ```
 * Include key definitions
@@ -44,5 +40,4 @@ REPEAT
 
 [Back to Tools](./../README.md)
 
-  
 <PageFooter />

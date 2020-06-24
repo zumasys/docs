@@ -1,10 +1,6 @@
 # jshow
 
-**Created At:** 8/30/2018 2:21:31 PM  
-**Updated At:** 6/6/2019 4:24:08 PM  
-**Original Doc:** [jshow](https://docs.jbase.com/48399-tools/jshow)  
-**Original ID:** 336942  
-**Internal:** No  
+<PageHeader />  
 
 ## Description
 

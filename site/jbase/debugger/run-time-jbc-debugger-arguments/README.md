@@ -37,5 +37,4 @@ As the executable code and libraries are usually held in separate directories fr
 
 Back to [jBC Debugger](./../introduction-to-the-jbc-debugger)
 
-  
 <PageFooter />
