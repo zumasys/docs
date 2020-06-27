@@ -22,7 +22,6 @@ would produce different results depending on where the **TOTAL A8** was placed.
 
 Totals for hidden columns are ignored and do not affect the totals of the other columns.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.3 release Notes](./../README.md)
 
-  
 <PageFooter />

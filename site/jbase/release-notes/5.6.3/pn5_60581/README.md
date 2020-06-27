@@ -50,7 +50,6 @@ You can now prepend a "!" to the command:
 
 This functionality is dependent on **execute\_exclamation = true** configuration setting in Config\_EMULATE. This setting is in the D3 emulation by default.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.3 release Notes](./../README.md)
 
-  
 <PageFooter />

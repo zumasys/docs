@@ -13,7 +13,6 @@ Prior to this patch, on Linux systems the code to look up file names could loop 
 1. There was a **/** in the file name, e.g **abc/def**
 2. If **abc** existed but **def** did not.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.3 release Notes](./../README.md)
 
-  
 <PageFooter />

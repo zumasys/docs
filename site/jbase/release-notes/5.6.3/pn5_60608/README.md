@@ -26,8 +26,8 @@ CRT "Loop count " : (I - 1) : " , elapsed " : (t2 - t1) / 1000
 The reason for the 50ms sleep was because some applications did this
 
 ```
-    retry:
-        READU rec FROM FileVar,ItemId LOCKED goto retry ELSE ...
+retry:
+    READU rec FROM FileVar,ItemId LOCKED goto retry ELSE ...
 ```
 
 This  would cause the application to spin, and when this sleep was originally created most systems were single CPU systems and so a spinning process blocked other users, including blocking the process trying to release the lock.
@@ -36,7 +36,6 @@ Now, instead of a 50 ms sleep we do a 5 ms sleep, and only do this one LOCKED i
 
 Note that on Windows systems this behavior only shows itself when jDLS is active
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.3 release Notes](./../README.md)
 
-  
 <PageFooter />

@@ -23,7 +23,6 @@ When the FOR value is set to zero the statement will execute the ELSE clause.
 
 Programs requiring this behavior must be compiled in D3 emulation.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.3 release Notes](./../README.md)
 
-  
 <PageFooter />

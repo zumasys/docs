@@ -22,9 +22,8 @@ The paragraph ID can be used in a case insensitive manner.
 
 Most paragraph keywords are case insensitive, e.g. **DISPLAY** is the same as **display** or **Display**.
 
-This behavior requries **Config\_EMULATE** option **case\_insensitive\_md = true**, which is set by default for the **D3** emulation.
+This behavior requires **Config\_EMULATE** option **case\_insensitive\_md = true**, which is set by default for the **D3** emulation.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.3 release Notes](./../README.md)
 
-  
 <PageFooter />

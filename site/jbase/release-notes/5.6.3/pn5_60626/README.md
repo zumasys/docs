@@ -14,7 +14,6 @@ Errors would be displayed when the **]I** file exceeded 2GB
 
 The index file can now exceed 2gb.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.3 release Notes](./../README.md)
 
-  
 <PageFooter />

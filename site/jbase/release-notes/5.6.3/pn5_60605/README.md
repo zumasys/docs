@@ -16,7 +16,6 @@ This was due to the installer placing $JBCRELEASEDIR/bin before /usr/bin.
 
 The 'who' command now runs as expected from within the jShell and OS shells.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.3 release Notes](./../README.md)
 
-  
 <PageFooter />

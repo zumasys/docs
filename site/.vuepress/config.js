@@ -23,6 +23,7 @@ module.exports = {
   },
   plugins: {
     // Vssue (uses gitlab issues to comment)
+    "@vuepress/search": { searchMaxSuggestions: 12 },
     "@vssue/vuepress-plugin-vssue": {
       platform: "github-v4", // set `platform` rather than `api`
       owner: "zumasys",
@@ -88,10 +89,6 @@ module.exports = {
   },
   themeConfig: {
     logo: "/assets/img/logo-grey.png",
-    algolia: {
-      apiKey: process.env.VUE_APP_ALGOLIA_API_KEY,
-      indexName: process.env.VUE_APP_ALGOLIA_INDEX_NAME
-    },
     nav: [
       { text: "Home", link: "/" },
       {

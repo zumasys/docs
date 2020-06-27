@@ -18,7 +18,6 @@ This problem occurred using the CHDIR() function in jBC -- but was actually foun
 
 All **cd** and CHDIR() now clears and rebuilds the file cache.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.3 release Notes](./../README.md)
 
-  
 <PageFooter />

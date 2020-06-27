@@ -23,7 +23,6 @@ Options    : -r - reset (clear) current license details in IPC shared memory
              -s - standard key
 ```
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.3 release Notes](./../README.md)
 
-  
 <PageFooter />

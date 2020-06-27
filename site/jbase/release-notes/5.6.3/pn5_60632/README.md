@@ -16,7 +16,6 @@ The default spooler sleep time is now 5 seconds but can be overridden with the J
 
 The minimum sleep time is 3 seconds.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.3 release Notes](./../README.md)
 
-  
 <PageFooter />

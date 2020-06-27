@@ -22,7 +22,6 @@ Prior to this patch, dictionaries with the output conversion (attribute 7) in lo
 010 10
 ```
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.3 release Notes](./../README.md)
 
-  
 <PageFooter />

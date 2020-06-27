@@ -18,7 +18,6 @@ If there are already Ann dictionaries in the file, they will override the defaul
 
 Note that the column headers will show as \*An [not An] as this differentiates defaults from user dictionaries.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.3 release Notes](./../README.md)
 
-  
 <PageFooter />

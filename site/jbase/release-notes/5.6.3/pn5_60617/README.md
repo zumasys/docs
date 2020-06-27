@@ -16,7 +16,6 @@ IF 1 THEN LOCATE(a,b,c;pos;'AL') ELSE NULL
 
 jFormatCode would change **LOCATE** to **locate**.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.3 release Notes](./../README.md)
 
-  
 <PageFooter />

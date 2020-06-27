@@ -36,7 +36,6 @@ jQL totals and formatting are now correct:
                            0.00      20,826.97
 ```
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.3 release Notes](./../README.md)
 
-  
 <PageFooter />

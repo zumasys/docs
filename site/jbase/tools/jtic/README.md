@@ -19,7 +19,9 @@ By default, the program jtic will take a source description file called terminfo
 
 You can use any alternative description file to terminfo.src by specifying the description file name on the command line. You can specify an alternative output directory to /usr/lib/terminfo by amending the TERMINFO environment variable. However, when you run a BASIC program that accesses these definitions in an alternative directory, the TERMINFO variable needs to match that when the definition was compiled. By default the jtic program assumes the description file contains standard terminfo definitions: e.g.
 
+```
 cuu1=\E[1A, cols#80,
+```
 
 If you want to create a binary with the extended capabilities, use the -x option. Remember when running jtic you will probably require root privileges to write to the /usr/lib/terminfo directory.
 
@@ -31,9 +33,11 @@ Comment lines start with # as the first character of each line. Blank lines are 
 
 Terminal names. This tells jtic the names of the terminal definition. It is a list of names delimited by | characters. The final field is treated as a comment. Following the terminal names will be the binary definitions, integer values and string values for those terminals. When another set of terminal names are defined, the current definitions are written to file and the current definitions nulled. E.g.
 
+```
 vt100|vt100am|prism-ans|Simple vt100 support
+```
 
-Binary definition. These are just the name of the definition. E.g.xon
+Binary definition. These are just the name of the definition. E.g. xon
 
 Integer value. The name of the definition followed by # then the value. E.g. cols#132
 

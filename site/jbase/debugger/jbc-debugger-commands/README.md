@@ -8,7 +8,7 @@ References to *expr* refer to an evaluated expression. Expressions are detailed 
 
 Many of the commands detailed here are not available when a program has been compiled with the limited debugger. The limited debugger is linked to the program when the -J04 argument is used on the jbc command line. The -JO4 options is normally only used on production release applications. The ? command will list all commands available. All commands are available when the full debugger is in use.
 
-## **Restrictions**
+## Restrictions
 
 If you have a Command Level or Break/End Restart feature in effect, or the break key is disabled, the available options are restricted to:
 
@@ -22,7 +22,7 @@ If you have a Command Level or Break/End Restart feature in effect, or the break
 
 > Note:  There are several ways in which the break key can be disabled. You can use commands such as INHIBIT-BREAK-KEY or BREAK-KEY-OFF. In these cases, the debugger is never entered. Another way is to execute a BREAK OFF statement within the program. In this case, the debugger will still be invoked if a run-time error occurs - such as trying to read a record from a non-file variable.
 
-## **Command List**
+## Command List
 
 | <!----> | <!----> |
 | --- | --- |
@@ -372,7 +372,7 @@ The upper-case **D** will behave like **-Jd** but will include any additional EX
 r {device}
 ```
 
-It can be difficult/confusing to debug a program that has a lot of terminal I/O. In this situation debugging to another *tty*device is an easier route:
+It can be difficult/confusing to debug a program that has a lot of terminal I/O. In this situation debugging to another *tty* device is an easier route:
 
 1. First start or switch to a new session on the jBASE server and get to a shell prompt.
 2. Enter "tty" to get the device name of your terminal.
