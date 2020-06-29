@@ -12,7 +12,7 @@
 - [PN5\_60587](./pn5_60587) - jQL: Prevent hidden columns from corrupting totals of other columns
 - [PN5\_60589](./pn5_60589) - Case Independence: jQL and Secondary Index issue
 - [PN5\_60591](./pn5_60591) - jQL: Issue with A/F correlative using Repeat function
-- [PN5\_60592](./pn5_60592)- A jQL statement with more that 3 BREAK-ONs corrupts totals
+- [PN5\_60592](./pn5_60592) - A jQL statement with more that 3 BREAK-ONs corrupts totals
 - [PN5\_60593](./pn5_60593) - jBC: D3 style input timeout
 - [PN5\_60594](./pn5_60594) - jBC: Map SYSTEM() functions for D3 compatibility
 - [PN5\_60595](./pn5_60595) - Prevent the jShell dot-stacker commands from clashing with user commands
@@ -59,7 +59,7 @@
 - [PN5\_60643](./pn5_60643) - jQL: Incorrect BREAK-ON totals and formatting at major break levels
 - [PN5\_60644](./pn5_60644) - Add a new file type **JBC** to the **CREATE-FILE** command
 - [PN5\_60645](./pn5_60645) - New command **viewindex** to view a jBASE Secondary Index
-- [PN5\_60646](./pn5_60646)  - jQL not correctly processing statements using both FMT and CONV
+- [PN5\_60646](./pn5_60646) - jQL not correctly processing statements using both FMT and CONV
 - [PN5\_60647](./pn5_60647) - SP-ASSIGN resets list pointer
 - [PN5\_60648](./pn5_60648) - Stale header data in JP files (Error number 2017)
 
@@ -94,8 +94,6 @@
 
 ## Additional Notes
 
-- [jBASE 5.6 Manual](./../jbase-5.6-manual)
 - To obtain an evaluation version of jBASE, please email [multivalue@zumasys.com.](mailto:multivalue@zumasys.com.%3C/p%3E)
 
-  
 <PageFooter />
