@@ -4,7 +4,9 @@
 
 ## Description  
 
-On Windows, you can setup jRFS so that it runs as a Windows service. There needs to be a few environment variable changes done to windows first to allow this to happen. As a service, the jRFS does not use the local user settings (It uses the local SYSTEM user on the windows machine), so the environment needs to be set up in the Global Environment variable area. The following are the main variables required.
+On Windows, you can setup jRFS so that it runs as a Windows service. There needs to be a few environment variable changes done to windows first to allow this to happen. As a service, the jRFS does not use the local user settings (It uses the local SYSTEM user on the Windows machine), so the environment needs to be set up in the Global Environment variable area.  
+
+The following are the main variables required.
 
 - JBCRELEASEDIR={Where jBASE is installed}
 - JBCGLOBALDIR={Where jBASE is installed}
