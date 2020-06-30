@@ -23,7 +23,7 @@ You might have a table of ORDERS containing an auto sequenced key, an ORDER\_NBR
 
 CREATE-FILE ORDERS TYPE=ODBC COLS=ORDER\_NBR,PRODUCT,PRICE,DATE\_ORDERED KEY=ORDER\_NBR
 
-The example above will create a stub pointing to the **ORDERS** table, but will treat the **ORDER\_NBR**column as the key to the jBASE dynamic record. The **PRODUCT**, **PRICE,** and **DATE\_ORDERED** columns will be mapped to attributes **1, 2,** **3** and **4** (*datetime* fields are by default split into two fields, therefore the date portion maps to attribute **3** and the time portion to attribute **4**).
+The example above will create a stub pointing to the **ORDERS** table, but will treat the **ORDER\_NBR**column as the key to the jBASE dynamic record. The **PRODUCT**, **PRICE,** and **DATE\_ORDERED** columns will be mapped to attributes **1, 2, 3** and **4** (*datetime* fields are by default split into two fields, therefore the date portion maps to attribute **3** and the time portion to attribute **4**).
 
 ## Steps to create an ODBC jEDI stub using a CSV
 

@@ -1,4 +1,4 @@
-# REMOTE FILE POINTERS
+# Remote File Pointers
 
 <PageHeader />
 
@@ -43,7 +43,6 @@ Where:
 - **ServerName** - Optional network service name.
 - **HostName** - Remote HostName or IP Address.
 
-
 If the optional RemoteAccountName is specified then searching for remote relative filenames will start in the directory path specified by the SYSTEM entry on the remote host. If the specified RemoteAccountName is not a valid accountname entry in the remote SYSTEM file then the open request will fail with file not found If left blank then searching for remote relative filenames will begin in the home directory of the network userid.
 
 The optional ServerName is used to specify an alternative network service required by locating a matching entry in the services file. If left blank the server name will default to jRFS, which is then used to reference the services file and find the required network service. Note that a dash, "-", should be used as a place holder to signify a blank RemoteAccountName when only an alternate ServerName is specified.
@@ -56,18 +55,12 @@ The combination of the second attribute from the remote Dpointer, or the remote 
 
 Alternatively, to eliminate the need for the SYSTEM and MD entries (or if you do not maintain SYSTEM and/or MD files), you can create a remote file stub in a directory that is visible from the JEDIFILEPATH environment variable. For example,
 
-
-
 ```
 ID: FileName   (this is the name you would use to access the remote file)
 <1> JBC__SOB JediInitREMOTE RemoteFileName RemoteSystemName
 ```
 
-
-
 [ Note the two underscore characters between 'JBC' and 'SOB'. ]
-
-
 
 [Remote File Service](./../remote-file-service)
 
@@ -79,7 +72,6 @@ ID: FileName   (this is the name you would use to access the remote file)
 
 [Advanced jRFS Configuration (LINUX/UNIX only)](./../advanced-jrfs-configuration)
 
-###  
+Back to [Remote Files](./../jbase-remote-file-service/README.md)
 
-  
 <PageFooter />

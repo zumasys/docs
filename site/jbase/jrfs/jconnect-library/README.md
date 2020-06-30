@@ -1,4 +1,4 @@
-# jCONNECT LIBRARY
+# jConnect Library
 
 <PageHeader />
 
@@ -19,5 +19,6 @@ Both security mechanisms utilize the connecting hostname as listed in the hosts 
 
 Once the security check has completed successfully the jConnect library then proceeds to set the groupid, userid and home directory along with certain other required environment variables. The jConnect library then attempts to match the client connect request components with an entry in the jnet\_env file. If successful then any related environment entries are setup before returning control back to the jBASE Remote File Service modules.
 
-  
+Back to [Remote Files](./../jbase-remote-file-service/README.md)  
+
 <PageFooter />

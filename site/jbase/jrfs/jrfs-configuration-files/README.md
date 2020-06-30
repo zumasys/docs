@@ -1,4 +1,4 @@
-# jRFS CONFIGURATION FILES
+# jRFS Configuration Files
 
 <PageHeader />
 
@@ -6,7 +6,7 @@
 <badge text='remote files' vertical='middle' />
 <badge text='jrfs' vertical='middle' />
 
-## Description 
+## Description  
 
 The jRFS Server and client both use configuration files stored by default in the directory:
 
@@ -28,8 +28,6 @@ jnet\_map - This file is used to map your client user information to the server 
 
 jrfs\_config - This file contains configuration for the jRFS process.
 
+Back to [Remote Files](./../jbase-remote-file-service/README.md)
 
-Back to [Remote Files](./../jbase-remote-file-service-%28jrfs%29).
-
-  
 <PageFooter />

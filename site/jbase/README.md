@@ -15,8 +15,10 @@
 | [jBC Error Handling](./jbc-error-handling/README.md) | Handling error conditions in jBC programs |
 | [jCL](./jcl/README.md) | jBASE Command Language (PROC) reference |
 | [jQL](./jql/README.md)| jBASE Query Language reference |
-| [jRFS](./jrfs/README.md) | jBASE Remote File Systems |
+| [jRFS](./jrfs/jbase-remote-file-service/README.md) | jBASE Remote File Systems |
+* * *
 | <!----> | <!----> |
+| --- | --- |
 | [Accounts](./accounts/README.md) | How accounts are supported in jBASE |
 | [Background Processing](./background-processing/README.md) | Background processing in jBASE |
 | [Conversion Processing](./conversion-processing/README.md) | Conversions for jQL and jBC |
@@ -40,7 +42,7 @@
 | [Tools](./tools/README.md) | Tools provided by jBASE |
 | [Triggers](./triggers/README.md) | Database triggers |
 | [Utilities](./utilities/README.md) | Command line utilities |
-
+* * *
 | In Addition | <!----> |
 | --- | --- |
 | [Administration](./administration/README.md) | jBASE Administration |
