@@ -82,5 +82,4 @@ This article and accompanying video will provide you with an overview of steps a
 
 Back to [Data Conversion](.../../README.md)
 
-  
 <PageFooter />

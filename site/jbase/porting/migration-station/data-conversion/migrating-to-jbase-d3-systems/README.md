@@ -94,5 +94,4 @@ The next process will be to setup the jBASE environment for your system and begi
 
 Back to [Data Conversion](./../README.md)
 
-  
 <PageFooter />

@@ -36,5 +36,4 @@ Any future changes to error messages should be done to 'jbc.init.err' in the new
 
 [Back to Articles](./../README.md)
 
-  
 <PageFooter />

@@ -265,5 +265,4 @@ On many platforms, @(-n) codes are used to control special terminal characterist
 
 [Back to Articles](./../README.md)
 
-  
 <PageFooter />

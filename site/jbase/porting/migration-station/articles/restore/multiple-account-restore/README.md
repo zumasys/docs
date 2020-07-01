@@ -25,5 +25,4 @@ To restore from a Reality M-A-S Save, a T-ATT followed by the M-A-R is all that 
 
 [Back to Articles](./../README.md)
 
-  
 <PageFooter />

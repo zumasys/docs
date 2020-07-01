@@ -13,7 +13,7 @@ jBASE uses a number of environment variables to modify jBASE behavior. Suitable 
 
 ## Setting/getting
 
-### **Windows**
+### Windows
 
 ```
 set variable=value
@@ -24,7 +24,7 @@ Variables can be configured in the System environment for all users, and/or on a
 
 Windows variables are usually configured in the System Properties panel.
 
-### **UNIX**
+### UNIX
 
 ```
 variable=value
@@ -184,5 +184,4 @@ set JEDI\_PREFILEOP=TYPE=J4 (NT) Don't use quotes
 
 [Back to Articles](./../README.md)
 
-  
 <PageFooter />

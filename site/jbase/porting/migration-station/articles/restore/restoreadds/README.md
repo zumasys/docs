@@ -14,5 +14,4 @@ The restoreadds utility will automatically attach to the floppy device FLOPPY0 a
 
 [Back to Restore](./../README.md)
 
-  
 <PageFooter />

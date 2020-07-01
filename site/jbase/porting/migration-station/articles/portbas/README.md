@@ -64,5 +64,4 @@ The use of the X option will cause PortBas to perform the following actions:
 
 [Back to Articles](./../../README.md)
 
-  
 <PageFooter />

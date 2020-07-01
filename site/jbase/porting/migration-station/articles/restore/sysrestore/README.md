@@ -34,5 +34,4 @@ Verify a FILE-SAVE tape. The names of the accounts and files on the tape are wri
 
 [Back to Restore](./../README.md)
 
-  
 <PageFooter />

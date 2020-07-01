@@ -25,7 +25,7 @@ Ideally for a Universe conversion, you will update/refresh the data via rsync to
 
 This command is run assuming your Universe account is in /dbms/account and you have a shared filesystem with sufficient disk space call /snapshot where you want to replicate the account directory.  This command can be run any numbers of times and will after initial process only update those files that have changed.
 
-```
+```bash
 rsync -avz ---exclude '*INDEX0??' /dbms/account /snapshot/account
 ```
 
@@ -76,6 +76,5 @@ jsh> resuv -c -e -p -s -v .
 The next process will be to setup the jBASE environment for your system and begin your jBASE conversion.
 
 Back to [Data Conversion](./../README.md)
-
   
 <PageFooter />

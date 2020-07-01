@@ -1,6 +1,6 @@
 # Compile Introduction
 
-<PageHeader /> 
+<PageHeader />  
 
 The BASIC command is provided as a front end program to the jBASE jbc compiler. The jbc compiler converts the BASIC code into "C" and invokes the native "C" compiler to convert the "C" source code into a machine native object file.
 
@@ -26,7 +26,6 @@ A jBASE utility jCompileFile is available which invokes the BASIC compiler and p
 jCompileFile -Options SourceFileName
 ```
 
-
 | Option | Description |
 | --- | --- |
 | -p | direct output and report to printer |
@@ -39,6 +38,5 @@ FORM-LIST PortSave jbc_err_FileName
 JED FileName
 jCompileFile -v FileName
 ```
-
   
 <PageFooter />

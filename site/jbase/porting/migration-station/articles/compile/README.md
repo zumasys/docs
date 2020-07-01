@@ -13,5 +13,4 @@
 
 [Back to Articles](./../README.md)
 
-  
 <PageFooter />

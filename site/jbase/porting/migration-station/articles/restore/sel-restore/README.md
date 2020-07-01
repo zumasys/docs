@@ -58,6 +58,5 @@ Number of File on media :22
 Restore record SINGLE from the file number 22 into the file NEWCODES.
 
 [Back to Restore](./../README.md)
-
   
 <PageFooter />

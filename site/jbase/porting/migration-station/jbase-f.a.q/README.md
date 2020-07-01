@@ -54,43 +54,43 @@ I added these two programs at GW in CBP to SAVE and GET the stack
 #### GETSTACK
 
 ```
-    kShell = CHAR(255):'k'
-    IF NOT(GETENV('JBCRELEASEDIR',JBCRELEASEDIRenv)) THEN
-       CRT
-       CRT 'Cannot get thevalue of JBCRELEASEDIR'
-       STOP
-    END
-    UserName = SYSTEM(1020)
-    OPEN '',JBCRELEASEDIRenv:'/tmp/jutil_ctrl'TO F.STACK ELSE
-       STOP 201,JBCRELEASEDIRenv:'/tmp/jutil_ctrl'
-    END
-    EXECUTE kShell:'tty ' CAPTURING TTYDir
-    CONVERT '/' TO '_' IN TTYDir
-    StackID = 'jutil_jsh_':TTYDir
-    READ R.STACK FROM F.STACK,'savestack_':UserNameTHEN
-       WRITE R.STACK ONF.STACK,StackID
-    END
+   kShell = CHAR(255):'k'
+   IF NOT(GETENV('JBCRELEASEDIR',JBCRELEASEDIRenv)) THEN
+      CRT
+      CRT 'Cannot get thevalue of JBCRELEASEDIR'
+      STOP
+   END
+   UserName = SYSTEM(1020)
+   OPEN '',JBCRELEASEDIRenv:'/tmp/jutil_ctrl'TO F.STACK ELSE
+      STOP 201,JBCRELEASEDIRenv:'/tmp/jutil_ctrl'
+   END
+   EXECUTE kShell:'tty ' CAPTURING TTYDir
+   CONVERT '/' TO '_' IN TTYDir
+   StackID = 'jutil_jsh_':TTYDir
+   READ R.STACK FROM F.STACK,'savestack_':UserNameTHEN
+      WRITE R.STACK ONF.STACK,StackID
+   END
 ```
 
 #### SAVESTACK
 
 ```
-    kShell = CHAR(255):'k'
-    IF NOT(GETENV('JBCRELEASEDIR',JBCRELEASEDIRenv)) THEN
-       CRT
-       CRT 'Cannot get thevalue of JBCRELEASEDIR'
-       STOP
-    END
-    UserName = SYSTEM(1020)
-    OPEN'',JBCRELEASEDIRenv:'/tmp/jutil_ctrl' TO F.STACK ELSE
-       STOP 201,JBCRELEASEDIRenv:'/tmp/jutil_ctrl'
-    END
-    EXECUTE kShell:'tty ' CAPTURING TTYDir
-    CONVERT '/' TO '_' IN TTYDir
-    StackID = 'jutil_jsh_':TTYDir
-    READ R.STACK FROM F.STACK,StackID THEN
-       WRITE R.STACK ONF.STACK,'savestack_':UserName
-    END
+   kShell = CHAR(255):'k'
+   IF NOT(GETENV('JBCRELEASEDIR',JBCRELEASEDIRenv)) THEN
+      CRT
+      CRT 'Cannot get thevalue of JBCRELEASEDIR'
+      STOP
+   END
+   UserName = SYSTEM(1020)
+   OPEN'',JBCRELEASEDIRenv:'/tmp/jutil_ctrl' TO F.STACK ELSE
+      STOP 201,JBCRELEASEDIRenv:'/tmp/jutil_ctrl'
+   END
+   EXECUTE kShell:'tty ' CAPTURING TTYDir
+   CONVERT '/' TO '_' IN TTYDir
+   StackID = 'jutil_jsh_':TTYDir
+   READ R.STACK FROM F.STACK,StackID THEN
+      WRITE R.STACK ONF.STACK,'savestack_':UserName
+   END
 ```
 
 ## Is there a &gt;HELP command like in UV for an explanation of stack & TCL commands?
@@ -112,6 +112,5 @@ jED and ED help is available here:
 Submit a question to Dan and Bruce by emailing [documentation@jbase.com](mailto:documentation@jbase.com)
 
 [Back to Articles](./../README.md)
-
   
 <PageFooter />
