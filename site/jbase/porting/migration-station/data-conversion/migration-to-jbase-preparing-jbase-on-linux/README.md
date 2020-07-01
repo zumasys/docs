@@ -19,9 +19,9 @@ Stage a server to run your converted application on jBASE.
 
 | <!----> | <!----> |
 | --- | --- |
-| 16 GB Memory | Though jBASE will run the application with less, the conversion process will utilize the memory and run much more efficient. |
+| 16 GB Memory | Though jBASE will run the application with less, the conversion process will utilize the memory and run much more efficiently. |
 | 2 Processors | A single processor will suffice, however the conversion process will run better with two. It is seldom recommended to use more than 4 in a VM. |
-| 2 File systems | /dbms file system of at least 40GB.   Size is recommended to be twice that of your current system.   This  allows for growth and may vary for you.<br>/u file system of at least 40GB.  This file system would contain non-jBASE hashed files suc as historical pdfs, ftp csv files,etc. |
+| 2 File systems | /dbms file system of at least 40GB.  Size is recommended to be twice that of your current system.  This  allows for growth and may vary according to you requirements.<br>/u file system of at least 40GB.  This file system would contain non-jBASE hashed files such as historical pdfs, ftp csv files,etc. |
 
 Load CentOS 7 or RedHat 7 on the server
 
@@ -55,7 +55,7 @@ Use this to be sure all steps are completed as documented.
 
 ### SELinux
 
-SELinux is a additional security layer that protects your system<br>from attacks. It is recommended that SELinux be turned off or put into<br>Permissive mode while doing your conversion. Permissive mode will make SELinux<br>generate errors in your Logs where it would have stopped programs/services. It<br>is recommended you have an understanding of Linux administration with SELinux<br>before setting it to Active mode.
+SELinux is a additional security layer that protects your system from attacks. It is recommended that SELinux be turned off or put into Permissive mode while doing your conversion. Permissive mode will make SELinux generate errors in your Logs where it would have stopped programs/services. It is recommended you have an understanding of Linux administration with SELinux before setting it to Active mode.
 
 ### Update CentOS/RedHat
 
@@ -85,7 +85,7 @@ systemctl disable firewalld
 
 ### Install latest jBASE with the installer
 
-Get the newest release of jBASE from the jBASE site and load it into a directory with enough space to hold the installer which is generally less than 50MB.
+Obtain the latest release of jBASE from the Zumasys web site and load it into a directory with enough space to hold the installer which is generally less than 50MB.
 
 Run the installer with sh by simply typing sh and the name of the installer .bin
 
@@ -135,7 +135,7 @@ Symbolic link : /opt/jbase/CurrentVersion
 Data directory        : /dbms
 jBASE admin user      : zumasys
 jBASE group           : jbase
-SYSTEM file           : /dbms/SYSTEM   [will create]
+SYSTEM file           : /dbms/SYSTEM     [will create]
 JBASEADM account      : /dbms/JBASEADM   [will create]
 Spooler directory     : /dbms/jspooler   [will initialize spooler]
 Start jDLS            : Y
