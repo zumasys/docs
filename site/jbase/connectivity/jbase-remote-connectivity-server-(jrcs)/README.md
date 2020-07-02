@@ -61,7 +61,7 @@ The following table lists the deliverables for the jBASE Remote Connectivity Lib
 | <!----> | <!----> | <!----> |
 | --- | --- | --- |
 | **Windows File Name** | **UNIX File Name** | **Purpose** |
-| jrcs.exejrcsserver.exe | jrcsd | jBASE Remote Connectivity Server executables. |
+| jrcs.exe \/ jrcsserver.exe | jrcsd | jBASE Remote Connectivity Server executables. |
 | jrcs.dll | libjrcs.so | jBASE C++ Client Library. |
 | jrcs.lib | libjrcs.a | Export library for C++ Client layer. |
 | jrcax.dll |  | ActiveX wrapper for the C++ Client (Windows only). |
