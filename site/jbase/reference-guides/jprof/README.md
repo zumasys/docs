@@ -164,7 +164,7 @@ File I/O      : READ      statement count          : 41
 
 Remove the `-a` for a report sorted by line number and CPU usage: `jprof -f. fb1.txt`
 
- ```bash
+```bash
 # jprof -f. fb1.txt
 Profile of program jsh from profile fb1.txt
 Source name          Line#  Ticks    %      Source
