@@ -22,20 +22,20 @@ Typically you will want to create several files, one for each process that gets 
 
 > Note: Profiling must be started external to the jBASE environment, you need to enter jBASE with profiling already running as a result of setting `JDIAG`. Changing `JDIAG` while you are already running a jBC program will not initiate the profiling, you must initially set `JDIAG`.
 
-```
+```bash
 # export JDIAG=profile=long:filename=fb1.txt
 ```
 
 This command above says we are going to start profiling and the output is going to be in a file called *fb1.txt*.
 
-```
+```bash
 # unset JDIAG
 # export JDIAG=profile=long:filename=fb1_%p.txt
 ```
 
 The commands above first clear the `JDIAG` environment variable using the 'unset' command, then says we are going to start profiling and the output is going to be in files called *fb1_%p.txt* where `%p` will be the separate process numbers that are profiled.
 
-```
+```bash
 # export JDIAG=profile=long:filename=fb1_%p_%t.txt
 ```
 
@@ -69,8 +69,9 @@ C:\>echo %JDIAG%
 
 C:\>
 ```
- 
+
 ## Start the application
+
 Once the `JDIAG` environment variable has been set you enter a command to run the application or start a jsh and run the application. Here is a snap of the steps being used to demonstrate the sequence for this test.
 
 ```
@@ -88,9 +89,10 @@ jsh ROBERT ~ -->exit
 ```
 
 ## Examining the profile
+
 Our profiling output is in a single file called _fb1.txt_. You can cat this file to see the contents but to make more sense of it the `jprof` command is used to parse and present the profiling information. The complete syntax and options can be displayed with the `jprof -h` command.
 
-```
+```bash
 # jprof -h
 Called as :
      jprof -kfilename {-t} profile_list
@@ -124,7 +126,7 @@ Where :
 
 The first use of `jprof` is to display a summary of the profiling log with `jprof -a -f. fb1.txt.`
 
-```
+```bash
 # jprof -a -f. fb1.txt
 Command line  : jsh -
 Process ID    : 57
@@ -159,11 +161,12 @@ File I/O      : READ      statement count          : 41
                 PERFORM   statement count          : 2
 #
 ```
+
 Remove the `-a` for a report sorted by line number and CPU usage: `jprof -f. fb1.txt`
 
- ```
+ ```bash
 # jprof -f. fb1.txt
-Profile of program jsh from profile fb1.txt                                                              
+Profile of program jsh from profile fb1.txt
 Source name          Line#  Ticks    %      Source
 
 make-demo-file.b     361    856      32.93  attr14->$append(50 + RND(2000))
@@ -192,47 +195,47 @@ jsh.b                153    1        0.03   ??
 
 You can see above that the primary sort is on cpu usage by source code line number across all programs or subroutines that were run. It may be more informative to look at each program or subroutine individually so the next use of `jprof` would be to add the `-n` option, `jprof -n -f. fb1.txt`.
 
-```
+```bash
 # jprof -n -f. fb1.txt
-Profile of program jsh from profile fb1.txt                                                              
+Profile of program jsh from profile fb1.txt
 Source name                 Line#  Ticks    %      Source
 
-make-demo-file.b            360    909      5.25   attr13->$append(systemtype<1+RND(csystemtype)>)
-                    	    345    732      4.23   rec->city = city<1+RND(ccity)>
-                     	    356    268      1.54   attr14 = new array
-                     	    358    181      1.04   attr11->$append(hardware<1+RND(chardware)>)
-                     	    353    165      0.95   attr11 = new array
-                     	    362    152      0.87   NEXT x
-                    	    354    118      0.68   attr12 = new array
-                    	    361    109      0.63   attr14->$append(50 + RND(2000))
-                    	    355    100      0.57   attr13 = new array
-                    	    334    99       0.57   WRITE dictentry ON dm, id
-                   	        363    84       0.48   rec->hardware = attr11
-                    	    352    53       0.3    cc = RND(8)
-                    	    335    46       0.26   REPEAT
-                    	    357    30       0.17   FOR x = 1 TO cc
-                     	    349    25       0.14   rec->worktel = worktel<1+RND(cworktel)>
-                    	    348    24       0.13   rec->hometel = hometel<1+RND(chometel)>
-                     	    351    11       0.06
-                    	    347    7        0.04   rec->zip = zip<1+RND(czip)>
+make-demo-file.b             360    909      5.25   attr13->$append(systemtype<1+RND(csystemtype)>)
+                             345    732      4.23   rec->city = city<1+RND(ccity)>
+                             356    268      1.54   attr14 = new array
+                             358    181      1.04   attr11->$append(hardware<1+RND(chardware)>)
+                             353    165      0.95   attr11 = new array
+                             362    152      0.87   NEXT x
+                             354    118      0.68   attr12 = new array
+                             361    109      0.63   attr14->$append(50 + RND(2000))
+                             355    100      0.57   attr13 = new array
+                             334    99       0.57   WRITE dictentry ON dm, id
+                             363    84       0.48   rec->hardware = attr11
+                             352    53       0.3    cc = RND(8)
+                             335    46       0.26   REPEAT
+                             357    30       0.17   FOR x = 1 TO cc
+                             349    25       0.14   rec->worktel = worktel<1+RND(cworktel)>
+                             348    24       0.13   rec->hometel = hometel<1+RND(chometel)>
+                             351    11       0.06
+                             347    7        0.04   rec->zip = zip<1+RND(czip)>
                                 -------- --------
                                    3132     18.01
 
-TRIGTEST                    3      5317     30.74  WRITE RECORD ON F.TEST1,RECORDKEY
-                     	    2      4101     23.71  OPEN "TEST1" TO F.TEST1 ELSE DEBUG
-                    	    4      35         0.2    RETURN
+TRIGTEST                     3      5317     30.74  WRITE RECORD ON F.TEST1,RECORDKEY
+                             2      4101     23.71  OPEN "TEST1" TO F.TEST1 ELSE DEBUG
+                             4      35         0.2    RETURN
                                 -------- ---------
                                    9453     54.65
 
 
 ```
 
-In the output above you can see the display break on each separate program module that was executed during your profile run. 
+In the output above you can see the display break on each separate program module that was executed during your profile run.  
 To display the subroutines that were called in the profile, use just the `-s` option: `jprof -s -f. fb1.txt`
 
-```
+```bash
 # jprof -s -f. fb1.txt
-Subroutines called by program jsh from profile fb1.txt                                                   
+Subroutines called by program jsh from profile fb1.txt
 Times       Subroutine
 
 2000003     TRIGTEST
@@ -248,7 +251,7 @@ Profiling is mainly used to concentrate on CPU usage per process, per user, per 
 Profiling can also be set to jimi mode (jBASE independent metrics information) which provides information on transactions and file I/O. The complete range of profiling environments can be displayed with the command:  
 `JDIAG=help WHO`
 
-```
+```bash
 # JDIAG=help WHO
 JDIAG=option{:option{:option ...}}
 option can be one of ...
@@ -262,7 +265,6 @@ option can be one of ...
         help
 #
 ```
- 
 
 Look for future quick starts on profiling memory and the various other advanced features of jBASE profiling.
   

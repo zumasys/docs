@@ -537,7 +537,7 @@ In order to test how jRCS can be called from Visual Basic, you need to perform t
 9. From the Project menu select References and in the reference dialog check "jBASE Remote Connectivity Library". Close the reference dialog
 10. Double-click the Command1 button and in Command1\_Click type (or paste) the following code:
 
-``` vbnet
+```vbnet
 Private Sub Command1_Click()
 
  Dim Conn As New jConnection
@@ -573,7 +573,7 @@ For a VB.NET project, a reference would need to be added for "JRClient.NET".
 
 The equivalent VB.NET code for the above would be:
 
-``` vbnet
+```vbnet
 Private Sub Command1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Command1.Click
 
  Dim Conn As New jConnection
@@ -589,7 +589,7 @@ Private Sub Command1_Click(ByVal sender As System.Object, ByVal e As System.Even
 
 At the top of the form, the following line will also be required:
 
-``` vbnet
+```vbnet
 Imports jBASE.jrcs
 ```
 
