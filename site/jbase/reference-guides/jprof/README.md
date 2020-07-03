@@ -20,7 +20,10 @@ Typically you will want to create several files, one for each process that gets 
 
 `export JDIAG=profile=long:filename=fb1_%p_%t.txt` <- creates multiple files with `%p` being the pid of the process and `%t` being a time stamp.
 
-> Note: Profiling must be started external to the jBASE environment, you need to enter jBASE with profiling already running as a result of setting `JDIAG`. Changing `JDIAG` while you are already running a jBC program will not initiate the profiling, you must initially set `JDIAG`.
+## Note
+
+>Profiling must be started external to the jBASE environment, you need to enter jBASE with profiling already running as a result of setting `JDIAG`. 
+>Changing `JDIAG` while you are already running a jBC program will not initiate the profiling, you must initially set `JDIAG`.
 
 ```bash
 # export JDIAG=profile=long:filename=fb1.txt
@@ -44,10 +47,6 @@ This command above says we are going to start profiling and the output is going 
 ## Windows Notes
 
 The above examples are for Linux but the concept is the same for Windows. The command to assign and unassign the `JDIAG` environment variable is slightly different using the `set` command.  
-
-![Setting JDIAG env variable Windows](./JDIAG-Windows-Note.png)
-
-The above examples are for Linux but the concept is the same for Windows. The command to assign and unassign the `JDIAG` environment variable is slightly different using the `set` command.
 
 ```
 C:\windows\system32>cd ..
@@ -249,6 +248,7 @@ Different combinations of options will enhance the output until you find the opt
 
 Profiling is mainly used to concentrate on CPU usage per process, per user, per line number of source code. Profiling can be set to concentrate instead on memory usage for resource planning and to identify if you have introduced memory inefficiencies or memory leaks in your application. Program branches can also be profiled, which will examine the flow of your program in the context of subroutine calls and executes.
 Profiling can also be set to jimi mode (jBASE independent metrics information) which provides information on transactions and file I/O. The complete range of profiling environments can be displayed with the command:  
+
 `JDIAG=help WHO`
 
 ```bash
@@ -267,5 +267,7 @@ option can be one of ...
 ```
 
 Look for future quick starts on profiling memory and the various other advanced features of jBASE profiling.
+
+Back to [Reference Guides](./../README.md)  
   
 <PageFooter />
