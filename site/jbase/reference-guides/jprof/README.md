@@ -22,7 +22,7 @@ Typically you will want to create several files, one for each process that gets 
 
 ## Note
 
->Profiling must be started external to the jBASE environment, you need to enter jBASE with profiling already running as a result of setting `JDIAG`. 
+>Profiling must be started external to the jBASE environment, you need to enter jBASE with profiling already running as a result of setting `JDIAG`.  
 >Changing `JDIAG` while you are already running a jBC program will not initiate the profiling, you must initially set `JDIAG`.
 
 ```bash

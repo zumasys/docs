@@ -14,7 +14,7 @@ UNIX: $JBCRELEASEDIR/config
 
 Windows: %JBCRELEASEDIR%\config
 
-> ### Note
+### Note
 >
 > These files may be stored in a different location, as long as the environmental variable is set as:
 >

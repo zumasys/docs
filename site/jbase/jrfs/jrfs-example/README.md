@@ -246,7 +246,9 @@ No file name could be found for your query
 
 The lines we are interested in at this time are the ones with the map string:
 
-'LOCAL:10.44.5.37 jRFS jdean jdean'
+```
+LOCAL:10.44.5.37 jRFS jdean jdean
+```
 
 Using this information (Remember your address and usernames will be different), we will now edit the %JBCRELEASEDIR%\jnet\_map file and add the following to the end. Make sure there is a blank line at the end of the document. This is required to make the file a valid text file. Without this, you may notice that the string is still not found:
 

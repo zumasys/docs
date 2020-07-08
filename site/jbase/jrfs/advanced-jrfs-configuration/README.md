@@ -19,7 +19,7 @@ For purposes of these instructions assume that the new service is called jRFS\_N
 
 **1) Create a new directory to hold the jRFS configuration files for the new service:**
 
-Copy the **jnet\_config**,**jrfs\_config**, and **jnet\_env**files from the templates in the **$JBCRELEASEDIR/config** directory. If desired, you can also copy the **jnet\_access** file to this directory or to a directory in a more secure location. Since **jnet\_access** is not necessary for the task at hand we will not mention it further.
+Copy the **jnet\_config**,**jrfs\_config**, and **jnet\_env** files from the templates in the **$JBCRELEASEDIR/config** directory. If desired, you can also copy the **jnet\_access** file to this directory or to a directory in a more secure location. Since **jnet\_access** is not necessary for the task at hand we will not mention it further.
 
 **2) Define the server port number to 'listen' for jRFS requests:**
 

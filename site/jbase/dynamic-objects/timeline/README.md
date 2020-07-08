@@ -99,6 +99,8 @@ Add \$jobs() class.
 ## 5.8.0
 
 Add \$system->onexit() and \$system->onterminate() methods.  
+Add \$remove() as synonym for \$delete() method.  
+Add @unassigned property.  
 Add JSON validator  - jsonlint
 
 Back to [Dynamic Objects](./../README.md)

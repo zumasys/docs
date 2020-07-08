@@ -29,7 +29,7 @@ As can be noticed, an R-pointer does not point directly to a remote file but ins
 
 Environment variables JEDIFILENAME\_MD and JEDIFILENAME\_SYSTEM have to be set accordingly on client and server side.
 
-> ### Note
+### Note
 >
 > The account name in the SYSTEM file on the client, must also exist in the SYSTEM file on the SERVER, pointing to a valid account location.
 
