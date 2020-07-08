@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-Each AccuTerm user, whether a Desktop or Web user (and eventually Mobile users), needs to be registered in the customer's Zumasys Customer Portal account. Users are identified by email address. Each user can activate up to 2 Windows computers for AccuTerm 8 Desktop. Users can be granted access to the Web version (and eventually the Mobile version). Each user has a unique License Key, which, along with the email address, is used to activate AccuTerm 8 Desktop on their computer.
+Each AccuTerm user, whether a Desktop or Web user (and eventually Mobile users), needs to be registered in the customer's Zumasys Customer Portal account. Users are identified by email address. Each user can activate up to 2 Windows computers for AccuTerm 8 Desktop. Users can be granted access to the Web version (and eventually the Mobile version). Each user has a unique License Key, which, along with the email address, is used to activate AccuTerm 8 Desktop on their computer. If you are using Device based licenses, then you will not need to create a user to utilize Accuterm Standard, only the key that is provided in the Customer Portal.
 
 ## Adding a Single User
 
@@ -10,7 +10,8 @@ Each AccuTerm user, whether a Desktop or Web user (and eventually Mobile users),
 
 ### Info
 
-Prior to creating a user, you will need to have already created your [Customer Portal User](./../../../customer-portal/registration/README.md) and be assigned as an Administrator to your company's account.
+Prior to creating a user, you will need to have already created your [Customer Portal User](./../../../customer-portal/registration/README.md) and be assigned as an Administrator to your company's account. If you have a code from an online purchase, please see the image below to select the option to redeem your license key.
+
 
 1. Expand the AccuTerm module from the main navigation page in the Customer Portal and select Users & Licenses.
 
