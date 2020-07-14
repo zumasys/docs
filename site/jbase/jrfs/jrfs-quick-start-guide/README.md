@@ -1,4 +1,4 @@
-# JRFS Quick Start guide
+# jRFS Quick Start guide
 
 <PageHeader />
 

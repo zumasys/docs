@@ -23,7 +23,7 @@ None of those options were particularly useful in a real-world environment.
 
 ### Current Release Behavior
 
-You can now utilize the**JSH\_PROMPT** environment variable to contain up to 3 values delimited by a comma, as in
+You can now utilize the **JSH\_PROMPT** environment variable to contain up to 3 values delimited by a comma, as in
 
 ```
 set JSH_PROMPT=JSH_PROMPT="$%%s $%%a $%%c -->","$%%>>>",jsh [Windows]
