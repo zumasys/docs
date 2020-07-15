@@ -8,7 +8,15 @@ The **getemulation()** method is used to obtain the current configuration settin
 
 When the object is created, the current configuration (defined by the [JBCEMULATE](./../../environment-variables/jbcemulate) environment variable) is used to set the values of each property.
 
-The properties of the object are the emulation (configuration) options. The value of each property indicates whether the emulation setting has been set to **true**, **false** or is **undefined** within the current emulation according to this table:
+The properties of the object are the emulation (configuration) options. The **Value** of most properties will be defined by the table below, but there are a few settings that can return other values. For example, the **named_common** configuration option can have one of the following values:
+
+```
+zero
+unassigned
+null
+```
+
+Refer to the **Config_EMULATE.txt** file in $JBCGLOBALDIR/config/ (%JBCGLOBALDIR%\config\ on Windows).
 
 | Value | Description |
 | --- | --- |
@@ -61,7 +69,7 @@ The number of emulation options available is: 121
 }
 ```
 
-If this output is compared with the  output from the **config-strings** command then you can verify, for example, that:
+If this output is compared with the output from the **config-strings** command then you can verify, for example, that:
 
 - **alternative\_oconv** is not defined in the emulation
 - **use\_sql\_syntax\_for\_select** is set to **false**
