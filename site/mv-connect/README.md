@@ -19,8 +19,8 @@ MVConnect is a cross-platform Web/Rest API development package.  MVConnect has 
 
 For all platforms, we have a cross-platform web server called MVAppsvr that allows access to Pick by running the Pick executable.  The primary difference is with MVAppsvr an MVDB account is installed to hold the Pick side subroutines.  Since MV Dashboard uses the same MVAppsvr web API kit we combined the two installers.  Therefore if you are installing on other platforms the MVConnect installer is the same as the MV Dashboard installer.  When you are done you will have a free one user copy of MV Dashboard along with the Rest subroutines.  You only use this version if you are not on jBASE 5.6+.  This version can be installed side by side with the jAgent version but keep in mind it has it's own licensing.  On jBASE 5.6 all the Pick side subroutines required for REST are built-in and available in any account.  With the MVAppsvr version, you will have to follow the instructions on how to set up q-pointers to files and code for other accounts.
 
-- [Installing MVAppsvr cross-platform Web Server on Windows](./../../site/mv-dashboard/installation-guide/install/windows/README.md)
-- [Installing MVAppsvr cross-platform Web Server on UNIX](./../../site/mv-dashboard/installation-guide/install/linux-and-aix/README.md)
+- [Installing MVAppsvr cross-platform Web Server on Windows](./../mv-dashboard/installation-guide/install/windows/README.md)
+- [Installing MVAppsvr cross-platform Web Server on UNIX](./../mv-dashboard/installation-guide/install/linux-and-aix/README.md)
 - [Get Started with MVConnect](./get-started/README.md)
 - [Troubleshooting MVConnect](./troubleshooting/README.md)
 - [Connection Pooling with MVConnect](./connection-pooling/README.md)
