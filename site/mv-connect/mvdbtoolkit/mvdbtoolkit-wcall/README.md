@@ -35,6 +35,13 @@ MVDBTOOLKIT.WOBJ
     "datafields": [
         { "name":"field name","value":"field value"}
     ],
+    "files": [
+        {
+           "sourcefile":"Location of file on the server",
+           "filename":"Name to save file on client",
+           "type":"Content type, like application/pdf"
+        }
+    ],
     "insecure":"Yes,Y,YES - Sets the -k on curl",
     "options":"curl options to add to curl command",
     "timeout": 45,
@@ -67,6 +74,10 @@ MVDBTOOLKIT.WOBJ
 | datafields.name      | Name of datafield |
 | datafields.value     | Value of datafield |
 | datafields.fieldtype | Optional.  Set to file if supplied value is via a file |
+| files                | Files to upload
+| files.sourcefile     | File on server to upload |
+| files.filename       | Suggested name to save file on client, no paths |
+| files.type           | Content type.  Standard internet types |
 | insecure             | Set to insecure |
 | timeout              | Timeout for call | -m |
 | options              | Manually passed options to curl statement.  Only works with command line version |
