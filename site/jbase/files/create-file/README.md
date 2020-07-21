@@ -28,6 +28,8 @@ Where:
 
 - **TYPE** - The **tname** parameter is used to specify the type of file to be created. The following file types are provided as standard.
 
+> Note: **Section** can be used to do things like create an OBJECT code section for compiled object code to be stored which is particularly handy when using file system directories/folders to store source code. Creating an OBJECT code section will keep your source code directory from becoming cluttered with object code. An example: `CREATE-FILE TEST.BP,OBJECT TYPE=UD`
+
 **HASH3 or j3**
 The HASH3 file type is portable across platforms and is network friendly in that if a network connection is disconnected during the update procedure then file integrity can still be guaranteed. The HASH3 file type does not use the jRLA or jDLS locking even when enabled but uses the default system locking capability, thus allowing record or item locking with networked applications. The default bucket size of a HASH3 file is 1024 bytes. See [JEDI\_SECURE\_LEVEL](./../../environment-variables/jedi_secure_level) for configurable levels of data flushing.
 
