@@ -44,6 +44,19 @@ The HASH4 file type uses memory mapping when available, otherwise defaults to re
 
 The **UD** file type specifies Windows or UNIX directories and Windows or UNIX files are to be used to represent file and records respectively.
 
+The **JBC** file type is an equivalent to `TYPE=UD` plus the creation of an `OBJECT` section. As an example:
+
+```
+CREATE-FILE TEST.BP TYPE=JBC`
+```
+
+is a functional equivalent to:
+
+```
+CREATE-FILE TEST.BP TYPE=UD
+CREATE-FILE TEST.BP,OBJECT TYPE=UD
+```
+
 **TJLOG**
 Creates a stub file in the current directory that points to the current transaction log set. An additional parameter, SET can be used to specify the log set. For more information see [jlogdup](./../../transactions/transaction-replication/jlogadmin).
 
