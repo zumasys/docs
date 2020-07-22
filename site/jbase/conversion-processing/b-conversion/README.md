@@ -9,7 +9,7 @@
 
 Provides interface for jBC subroutines or C functions to manipulate data during jQL processing. Synonymous with CALL code.
 
-See [Calling Subroutines from Dictionary Items](./../../calling-a-subroutine-from-a-dictionary-item)
+See [Calling Subroutines from Dictionary Items](./../../jql/calling-a-subroutine-from-a-dictionary-item/README.md)
 
 Back to [Conversion Processing](conversion-processing)
 
