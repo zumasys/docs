@@ -1,7 +1,7 @@
 # POSConnect Client Installation Package Preparation Guide
 
 <PageHeader />
-
+Update
 1-	Please use an SSH program to connect to the server
 ssh csp.posconnect.net
 user: pssdev
