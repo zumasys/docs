@@ -26,7 +26,7 @@ Once you have signed up run MVSENDGRID.CONFIG and fill in your user name and pas
 | ---------------------------------------- | -------------------------------- |
 | [MVSENDGRID.CONFIG](./mvsendgrid-config/README.md) | Configuration tool     |
 | [MVSENDGRID.TEST](./mvsendgrid-test/README.md)     | Testing Tool           |
-| [MVSENDGRID.API](./mvsendgrid-api/README.md)       |                        |
+| [MVSENDGRID.API](./mvsendgrid-api/README.md)       | MVSendgrid API Subroutine     |
 
 
 

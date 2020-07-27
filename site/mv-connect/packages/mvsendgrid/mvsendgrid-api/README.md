@@ -19,49 +19,49 @@ Sample JSON
 
 ```JSON
  { "api":"mailsend_v2",
-          "params": {
-             "to": [
-               {
-                 "email":"email address",
-                 "name":"Nice name"
-               }
-             ],
-             "cc": [
-               {
-                 "email":"email address",
-                 "name":"Nice name"
-               }
-             ],
-             "bcc": [
-               {
-                 "email":"email address",
-                 "name":"Nice name"
-               }
-             ],
-             "debug":"Y or N",
-             "replyto":"address",
-             "from":"From email address",
-             "fromname":"From name",
-             "subject":"Subject",
-             "text":"Plain text of your email",
-             "html":"Html version of your email",
-             "files": [
-                 {
-                    "sourcefile":"path to file",
-                    "filename":"file name to present file as",
-                    "type":"type of file, application/pdf for example"
-                 }
-             ]
-          },
-         "result": {
-            "status":"error or ok",
-            "statusmsg:"status msg"
-          }
+    "params": {
+        "to": [
+        {
+            "email":"email address",
+            "name":"Nice name"
         }
+        ],
+        "cc": [
+        {
+            "email":"email address",
+            "name":"Nice name"
+        }
+        ],
+        "bcc": [
+        {
+            "email":"email address",
+            "name":"Nice name"
+        }
+        ],
+        "debug":"Y or N",
+        "replyto":"address",
+        "from":"From email address",
+        "fromname":"From name",
+        "subject":"Subject",
+        "text":"Plain text of your email",
+        "html":"Html version of your email",
+        "files": [
+            {
+            "sourcefile":"path to file",
+            "filename":"file name to present file as",
+            "type":"type of file, application/pdf for example"
+            }
+        ]
+        },
+        "result": {
+        "status":"error or ok",
+        "statusmsg:"status msg"
+        }
+    }
 ```
 
 | Parameter            | Description |
-| ---                  | --- | --- |
+| ---                  | --- |
 | api                  | SendGrid API to use.  Currently only mailsend_v2 is available  |
 | params               | Options to pass to the api (This is a object) |
 | params.to            | Array of TO objects (Receipient)                               |
@@ -99,18 +99,18 @@ CALL MVSENDGRID.API(OBJ)
 ```
 The resulting object will already have this structure.
 ```JSON
- { "api":"mailsend_v2",
-          "params": {
-             "to": [
-             ],
-             "cc": [
-             ],
-             "bcc": [
-             ],
-             "files": [
-             ]
-          }
-        }
+{ "api":"mailsend_v2",
+   "params": {
+        "to": [
+        ],
+        "cc": [
+        ],
+        "bcc": [
+        ],
+        "files": [
+        ]
+    }
+}
 ```
 
 

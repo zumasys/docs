@@ -6,6 +6,6 @@ MVConnect now offers packages which are separate code projects to do certain tas
 
 | Function                                   | Description                                          |
 | -----------------------------------------  | ---------------------------------------------------  |
-| [SendGrid](./mvsendgrid/README.md)         | Tool to send email via SendGrid's Email Api          |
+| [MVSENDGRID](./mvsendgrid/README.md)         | Tool to send email via SendGrid's Email Api          |
 
 <PageFooter />
