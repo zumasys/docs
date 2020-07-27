@@ -2,13 +2,13 @@
 
 <PageHeader />
 
-MVConnect is a web application development environment for MultiValue Pick systems.  MVConnect is included in the MV Dashboard product installer that is used to create MV Dashboard.  Much of the installation instructions discuss MV Dashboard, but once it is installed you can move on to the MVConnect specific instructions.
+MVConnect is a web application development environment for MultiValue Pick systems.  MVConnect is a core web/rest development environment.  Package and Applications can then be built using MVConnect such as Dashboard.
 
 ![mv-connect-manual: 1574365223932-mv-connect-%2b-zs-software-services-(1)](./1574365223932-mv-connect-and-software-services.png)
 
-## MV Connect 1.6.3 Release Notes
+## MV Connect Release Notes
 
-For a summary of new features in MVConnect 1.6.3, see [Release Notes](./release-notes/1.6.3/README.md).
+For a summary of new features in MVConnect 1.6.3, see [Release Notes](./release-notes/README.md).
 
 ## Getting to Know MV Connect
 
