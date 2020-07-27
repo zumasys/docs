@@ -6,6 +6,32 @@ MVDBTOOLKIT.PACKAGE.INSTALLER is a package installation tool.  This tool uses MV
 
 ## Table of Contents
 
-MVDBTOOLKIT.PACKAGE.INSTALLER
+```
+MVDB:MVDBTOOLKIT.PACKAGE.INSTALLER
+Packages url: https://raw.githubusercontent.com/zumasys/MVConnect/master/packages.json
+Getting package list...200 OK
+Number packages: 2
+   1 mvdb 1.7.5
+   2 mvsendgrid 1.0.0
+Package # to install or return to quit ?2
+Installing mvsendgrid 1.0.0
+Platform D3 d3
+Temp Directory: /tmp
+O/S delim: /
+https://raw.githubusercontent.com/zumasys/MVConnect/master/packages/d3/mvsendgrid-d3.pkg
+Downloading https://raw.githubusercontent.com/zumasys/MVConnect/master/packages/d3/mvsendgrid-d3.pkg to /tmp/mvsendgrid-d3.pkg
+Response: 200     OK
+File path:
+Installing...
+Unpacking MV.INSTALL... 2 records.
+Unpacking MV.INSTALL.CF... 3 records.
+Unpacking MVSENDGRID.BP... 3 records.
+
+Install process finished. Status: Success
+MVDB:
+
+```
+
+
 
 <PageFooter />
