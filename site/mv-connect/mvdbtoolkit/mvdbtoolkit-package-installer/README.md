@@ -12,8 +12,10 @@ Packages url: https://raw.githubusercontent.com/zumasys/MVConnect/master/package
 Getting package list...200 OK
 Number packages: 2
    1 mvdb 1.7.5
+     Primary MVConnect/MVDBToolkit package.
    2 mvsendgrid 1.0.0
-Package # to install or return to quit ?2
+     SendGrid API to send Emails
+Package # to install, return for more, q to quit ?2
 Installing mvsendgrid 1.0.0
 Platform D3 d3
 Temp Directory: /tmp
@@ -29,7 +31,6 @@ Unpacking MVSENDGRID.BP... 3 records.
 
 Install process finished. Status: Success
 MVDB:
-
 ```
 
 
