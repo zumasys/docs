@@ -16,6 +16,19 @@ Once you have signed up run MVSENDGRID.CONFIG and fill in your user name and pas
 2. Run MVSENDGRID.CONFIG.  Put in your authentication information
 3. run MVSENDGRID.TEST and send a test email
 
+## Release Notes
+
+[Release Notes](./release-notes/README.md)
+
+## Functions
+
+| Name                           | Description                              |
+| ---------------------------------------- | -------------------------------- |
+| [MVSENDGRID.CONFIG](./mvsendgrid-config/README.md) | Configuration tool     |
+| [MVSENDGRID.TEST](./mvsendgrid-test/README.md)     | Testing Tool           |
+| [MVSENDGRID.API](./mvsendgrid-api/README.md)       |                        |
+
+
 
 
 

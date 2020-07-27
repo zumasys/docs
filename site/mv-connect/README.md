@@ -25,7 +25,7 @@ For all platforms, we have a cross-platform web server called MVAppsvr that allo
 
 - [Installing MVAppsvr cross-platform Web Server on Windows](./../mv-dashboard/installation-guide/install/windows/README.md)
 - [Installing MVAppsvr cross-platform Web Server on UNIX](./../mv-dashboard/installation-guide/install/linux-and-aix/README.md)
-- [Running jAgent on jBASE with MVConnect]
+- [Running jAgent on jBASE with MVConnect](../jbase/connectivity/jagent/jagent-restful-services-quick-start/README.md)
 - [Running WEBSCV on QM with MVConnect]
 - [Get Started with MVConnect](./get-started/README.md)
 - [Troubleshooting MVConnect](./troubleshooting/README.md)
