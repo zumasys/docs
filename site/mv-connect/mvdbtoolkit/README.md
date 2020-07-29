@@ -8,14 +8,17 @@ MVDBToolkit contains a series of functions to assist in cross platform MV develo
 
 | Function                                                      | Description                        |
 | -----------------------------------------                     | ---------------------------------  |
-| [MVDBTOOLKIT.WCALL](./mvdbtoolkit-wcall/README.md)            | Web Client Function (Curl wrapper) |
 | [MVDBTOOLKIT.CONFIG](./mvdbtoolkit-config/README.md)          | Configuration Tool                 |
-| [MVDBTOOLKIT.TEST](./mvdbtoolkit-test/README.md)              | Test/QC program                    |
+| [MVDBTOOLKIT.PACKAGE.INSTALLER](./mvdbtoolkit-package-installer) | Package installer               |
+| [MVDBTOOLKIT.WCALL](./mvdbtoolkit-wcall/README.md)            | Web Client Function (Curl wrapper) |
+| [MVDBTOOLKIT.WCALL.DEBUG](./mvdbtoolkit-wcall-debug/README.md) | Web Client debugging subroutine   |
 | [MVDBTOOLKIT.WEXECUTE](./mvdbtoolkit-wexecute/README.md)      | Execute O/S commands               |
 | [MVDBTOOLKIT.WFILEIO](./mvdbtoolkit-wfileio/README.md)        | Read/Write/Delete O/S commands     |
 | [MVDBTOOLKIT.WGETENV](./mvdbtoolkit-wgetenv/README.md)        | Get O/S environment Variables      |
 | [MVDBTOOLKIT.WPLATFORM](./mvdbtoolkit-wplatform/README.md)    | Get Config information             |
 | [MVDBTOOLKIT.SWAP](./mvdbtoolkit-wswap/README.md)             | Cross platform SWAP statement      |
+| [MVDBTOOLKIT.TEST](./mvdbtoolkit-test/README.md)              | Test/QC program                    |
+| [MVSENDGRID](../packags/mvsendgrid/README.md)                 | Included SendGrid API Package      |
 
 ## Config Entry
 
