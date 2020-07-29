@@ -10,17 +10,14 @@ This is a [VuePress](https://vuepress.vuejs.org/) documentation application that
 ├── site
 │   ├── .vuepress
 │   │   ├── components
-│   │   ├── theme
+│   │   ├── dist
 │   │   ├── public
 │   │   ├── styles
 │   │   │   ├── index.styl
 │   │   │   └── palette.styl
 │   │   ├── theme
 │   │   │   ├── components
-│   │   │   ├── global-components
 │   │   │   ├── layouts
-│   │   │   ├── styles
-│   │   │   ├── util
 │   │   │   └── index.js
 │   │   ├── config.js
 │   │   ├── enchaneApp.js
