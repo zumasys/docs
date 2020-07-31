@@ -15,7 +15,7 @@ The main purpose of jBASE Remote File Service (jRFS) is to allow files to be sha
 | Topic                                                               | Description                                                                |
 | --------------------------------------------------------            | -------------------------------------------- |
 | [jRFS Linux Quick Start](./../jrfs-example)                         | Quick start on Linux                         |
-| [Configuration Files](./../jrfs-configuration-files)                | List of configuration files|
+| [Configuration Files](./../configuration-files)                | List of configuration files|
 | [Starting jRFS as a Service](./../remote-file-service)              | How to configure jRFS as a service |
 | [Creating Stub Files](./../creating-stub-files)                     | Creating STUB files to point to remote files |
 | [Creating Remote Pointers](./../creating-remote-pointers)           | Using SYSTEM and R MD/VOC entries to point at remote files |

@@ -8,13 +8,13 @@ With this example we will setup two jBASE linux machines.  One will act as the s
 
 ### Initial server configuration
 
-We need to define what port jRFS will use both as a client and a server.  The best way to do this is to define it in the $JBCRELEASEDIR/jrfs_config file.
+We need to define what port jRFS will listen on.  You can define this two ways.  Way #1 is to set an enviornment variable.  The other way is to add it to your systems services list.
 
 ```bash
-serverport = 5001
+export JRFS_SERVERNAME=5001
 ```
 
-On linux you can add a jRFS service to /etc/services
+On linux you can add a jRFS service to /etc/services or on windows to c:\\windows\\system32\\drivers\\services
 
 ```bash
 jRFS 5001/tcp # jRFS Server
@@ -91,7 +91,7 @@ Mar 7 16:16:38:13194[Init] Server: INIT request
 
 On the client jBASE linux machine we make the same changes as we did on the server
 
-We need to define what port jRFS will use both as a client and a server.  The best way to do this is to define it in the $JBCRELEASEDIR/jrfs_config file.
+We need to define what port jRFS will use both as a client.  The best way to do this is to define it in the $JBCRELEASEDIR/jrfs_config file. Note that this is NOT used by jRFS on the server side!
 
 ```bash
 serverport = 5001
@@ -141,7 +141,15 @@ jsh JBASEADM ~ --> JED . DEMO.FILE]D
 jsh JBASEADM ~ --> LIST DEMO.FILE
 ```
 
+## Issues
+
 If you are having issues look at the log files on both systems and look for errors. You should see activity in both files.  If you do not see activity on the server you either do not have the ports/ip's setup correctly or you have firewall issues.
+
+Also review if you have any firewalls or SELINUX (or any other security software running).  While debugging an issue it is best to turn these features off to see if they are your issue.
+
+## Windows
+
+The same technique will work on Windows.  The location of files such as the /etc/services file will be at different locations.  
 
 Back to [Remote Files](./../jbase-remote-file-service-%28jrfs%29)
 
