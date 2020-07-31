@@ -54,9 +54,7 @@
 [ld_library_path](./ld_library_path/README.md)  
 [notes-on-environment-variables-for-the-jbase-compiler](./notes-on-environment-variables-for-the-jbase-compiler/README.md)  
 [path](./path/README.md)  
-[system-file](./../accounts/system-file/README.md)  
 [term-(environment-variable)](./term-(environment-variable)/README.md)  
-[terminal-type](./../terminal/terminal-type/README.md/README.md)  
 [terminfo](./terminfo/README.md)  
 
 [Back to Knowledgebase](./../README.md)

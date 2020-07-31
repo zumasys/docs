@@ -283,7 +283,6 @@ module.exports = {
             ]
           },
           ["/mv-connect/security/", "Security"],
-          ["/mv-connect/additional-features/", "Additional Features"],
           {
             title: "Troubleshooting",
             path: "/mv-connect/troubleshooting/",
