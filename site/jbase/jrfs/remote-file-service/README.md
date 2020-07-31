@@ -16,11 +16,35 @@ Before the jRFS process can being to accept client requests the services file mu
 e.g. jRFS 5001/tcp
 ```
 
+## Environment
+
+jRFS just have a proper jBASE environment setup.  On Linux this can be done via a script. On Windows you must either add the required envirnment entries to your default system profile or use the $JBCRELEASEDIR/jnet_env.  
+
+The following environment variables MUST be setup.
+
+    * JBCRELEASEDIR={Where jBASE is installed}
+    * JBCGLOBALDIR={Where jBASE is installed}
+    * JEDIFILEPATH={Path to your files}
+    * PATH={Where the jBASE bin files are installed};%PATH%
+
+It is recommend you also setup the following environments.  Advanced remote q pointers configurations require this.
+
+    * JEDI_FILENAME_MD
+    * JEDIFILENAME_SYSTEM
+
+
 **UNIX**
-The jRFS can be initiated at boot time or manually as root by installing the script, jRFS.init.d, located in the "src" subdirectory of the jBASE release directory.
+The jRFS can be initiated at boot time or manually as root by installing the script, jRFS.init.d, located in the "src" subdirectory of the jBASE release directory. jBASE 5.8 moved from jRFS.init.d files to systemd files.
 
 **Windows**
-The jRFS process can be installed as a service on Windows. See [Starting jRFS as a service on Windows](./../starting-jrfs-as-a-service-on-windows/README.md)
+The jRFS process can be installed as a service on Windows. It is recommended you setup your default jBASE environment in $JBCRELEASEDIR/jnet_env.
+
+
+```bash
+jservcontrol jRFS install
+jservcontrol jRFS start
+```
+
 
 Once started the jRFS process attempts to read the jRFS configuration file, jrfs\_config, This configuration file contains flags which can be asserted to "flag" the jRFS and client request modules to produce trace information for remote file operations. The trace facility can be useful for determining successful Rpointer resolution or confirmation that a remote file operation has been successfully constructed, sent and received. The jRFS process passes control to the jConnect library, which reads the jConnect configuration file, jnet\_config. This configuration file contains flags which can be utilized to specify the security mechanism for client requests and also "flag" the jConnect library to provide trace information. The jConnect trace information can be used to ascertain why a client connect request has been denied.
 
