@@ -18,7 +18,7 @@ MVDBToolkit contains a series of functions to assist in cross platform MV develo
 | [MVDBTOOLKIT.WPLATFORM](./mvdbtoolkit-wplatform/README.md)    | Get Config information             |
 | [MVDBTOOLKIT.SWAP](./mvdbtoolkit-wswap/README.md)             | Cross platform SWAP statement      |
 | [MVDBTOOLKIT.TEST](./mvdbtoolkit-test/README.md)              | Test/QC program                    |
-| [MVSENDGRID](../packags/mvsendgrid/README.md)                 | Included SendGrid API Package      |
+| [MVSENDGRID](../packages/mvsendgrid/README.md)                 | Included SendGrid API Package      |
 
 ## Config Entry
 
