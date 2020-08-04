@@ -6,7 +6,7 @@ ssh csp.posconnect.net
 
 user: pssdev
 
-pass: xxx
+pass: xxxx
 
 2.  Browse to the path:\
     /home/pssdev/PSS_services/dev/src/POSConnect/scripts/install
