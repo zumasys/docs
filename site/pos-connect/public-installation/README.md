@@ -69,7 +69,7 @@ Step 4- License Delivery
 2.  Run the PCT.checkLicense script again (double-click PCT.License on
     Windows), the license information should match similar the system
     information as shown below:
-
+```bash
 The JVM reports the following network information about your system:\
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
@@ -77,8 +77,9 @@ IP Address: 123.123.123.123\
 Hostname: csp.posconnect.net
 
 License Information:\
+```
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
-
+```bash
 License application name: POSConnect\
 License client name: Total Computing Solutions\
 License file name: POSConnect_Test.lic\
@@ -87,3 +88,4 @@ License client hostname 1: csp.posconnect.net\
 License client IP 2: 123.123.123.123\
 License client hostname 2: csp. posconnect.net\
 License expiration date: Mon Dec 31 00:00:00 EST 2021
+```
