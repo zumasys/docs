@@ -13,14 +13,18 @@ pass: xxxx
 
 3.  Run;
 
+```bash
+
 './installPOSConnect.win' script for Windows servers
 
 './installPOSConnect.unix' script for Unix servers
 
+```
+
 4.  Windows package
 
 ./installPOSConnect.win /home/userhomefolder
-
+```bash
 POSConnect system environment and path configuration for Windows
 
 Please use slashes (/) instead of backslashes (\\) in all paths
@@ -32,11 +36,13 @@ environment is 32-bit or 64-bit
 1\. 32-bit
 
 2\. 64-bit
+```
 
 5.  Choose 2 for 64bit package creation
 
 6.  Enter necessary fields
 
+```bash
 Please enter the path to Java Virtual Machine, which is where the java
 executable (java.exe) is located.
 
@@ -66,7 +72,11 @@ Current value: 1
 
 1
 
+```
+
 7.  Check pathnames and verify with Y
+
+```bash
 
 POSConnect environment and path configuration
 
@@ -81,8 +91,11 @@ Installation base directory (service home): pathname with backslash
 Listener count: 1
 
 Are these parameters correct? (y/n)
+```
 
 8.  Enter necessary information
+
+```bash
 
 POSConnect instance configuration
 
@@ -144,8 +157,12 @@ Please enter the name of the license file that the listeners will use
 Current value: POSConnect.lic
 
 POSConnect_X11Live.lic
+```
+
 
 9.  Check the parameters and approve with Y
+
+```bash
 
 POSConnect listener configuration
 
@@ -166,6 +183,7 @@ License file: POSConnect_X11Live.lic
 Proceed with install? (y/n)
 
 Y
+```
 
 10. Go to /home/userhomefolder and locate POSConnect.zip file and share
     it with the client.
