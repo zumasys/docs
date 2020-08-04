@@ -25,7 +25,7 @@ Running these scripts will install the POSConnect listeners, the
 scheduler, and the sweeper as separate Windows services that can be seen
 and controlled from the standard Windows Services control panel.
 
-STEP 2- Encrypt Login Credentials
+STEP 2- Encrypt Login Credentials.
 
 Then follow these steps to enter and encrypt the database login
 credentials.
