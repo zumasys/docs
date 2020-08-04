@@ -47,7 +47,7 @@ Step 3- Validate License
 Go to the POSConnect Install Directory. Then follow these steps to get
 the license information:
 
-Navigate to the scripts directory\
+Navigate to the scripts directory.
 PCT.checkLicense (double-click PCT.license on Windows)
 
 E-mail the output shown below
