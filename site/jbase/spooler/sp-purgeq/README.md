@@ -7,10 +7,10 @@
 This command purges a formqueue of a specific print or all print jobs. It takes the general form:
 
 ```
-SP-PURGEQ
+SP-PURGEQ { FormQueue | { JobList | * } }
 ```
 
-The user will then be prompted as:
+If no options are specified the user will then be prompted as:
 
 ```
 FORM-QUEUE PRINT JOB LIST (OR * FOR ALL):
