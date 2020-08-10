@@ -27,6 +27,7 @@
 [jfilerestore](./jfilerestore/README.md)  
 [jfilesave](./jfilesave/README.md)  
 [jrestore](./jrestore/README.md)  
+[jsonlint](./jsonlint/README.md)  
 [listf](./listf/README.md)  
 [listu](./listu/README.md)  
 [logon&logoff](./logon-and-logoff/README.md)  
