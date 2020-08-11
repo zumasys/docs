@@ -14,6 +14,7 @@ This release includes various internal bug fixes and the following enhancements 
 - [PN797](./../pn797/README.md) - jQL: ACCESS(6) is not being updated for each multi-value when using BY-EXP
 - [PN781](./../pn781/README.md) - jshow does not recognize Nouns in the MD
 - [PN782](./../pn782/README.md) - jQL: Spaces handled incorrectly in A-correlative
+- [PN791](./../pn791/README.md) - jQL: Nested A-correlative aborts process
 - [PN810](./../pn810/README.md) - jQL: SUM correlative function behaves differently in D3
 - [PN813](./../pn813/README.md) - jQL: Math operations in D3 emulation should treat null as 0
 - [PN816](./../pn816/README.md) - jrestore fails on large OS files
