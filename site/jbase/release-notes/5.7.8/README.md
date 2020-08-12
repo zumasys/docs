@@ -19,7 +19,7 @@ This release includes various internal bug fixes and the following enhancements 
 - [PN813](./pn813/README.md) - jQL: Math operations in D3 emulation should treat null as 0
 - [PN816](./pn816/README.md) - jrestore fails on large OS files
 - [PN818](./pn818/README.md) - jQL: Listing multi-valued/sub-valued data returns the wrong delimiters
-- [PN829](./pn829/README.md) - Unable to CATATLOG subroutines in a case insensitive manner
+- [PN829](./pn829/README.md) - Unable to CATALOG subroutines in a case insensitive manner
 
 ## New Commands
 
