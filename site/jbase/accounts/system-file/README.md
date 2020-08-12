@@ -16,7 +16,9 @@ ACCOUNTX
 002 C:\users\accountx or /accounts/accountx
 ```
 
-Fields 7 and 20 through 37, of the SYSTEM record, are used by the jBASE LOGTO and PASSWORD commands. All other fields are reserved. The full format of a SYSTEM record is as follows and will be described in subsequent sections on this page:
+Fields 7 and 20 through 37, of the SYSTEM record, are used by the jBASE LOGTO and PASSWORD commands. All other fields are reserved.  
+
+The full format of a SYSTEM record is as follows and will be described in subsequent sections on this page:
 
 ID:  AccountName
 
@@ -45,7 +47,7 @@ ID:  AccountName
 030 JBC_ENDRESTART
 031 JBCRESTARTPROG
 032 JBCLOGINPROG
-033 Reserved
+033 JBCLOGNAME
 034 JBASE_I18N
 035 JBCPORTNO (multi-valued range)
 036 OTHER ENVIRONMENT VARIABLES (multi-valued)

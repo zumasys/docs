@@ -16,7 +16,7 @@ unassigned
 null
 ```
 
-Refer to the **Config_EMULATE.txt** file in $JBCGLOBALDIR/config/ (%JBCGLOBALDIR%\config\ on Windows).
+Refer to the **Config_EMULATE.txt** file in **\$JBCGLOBALDIR/config**/ (**%JBCGLOBALDIR%\config**\ on Windows).
 
 | Value | Description |
 | --- | --- |
@@ -44,7 +44,7 @@ crt "The number of emulation options available is: ":count
 crt configuration->$tojson(beautify)
 ```
 
-```
+```json
 JBCEMULATE=D3
 The number of emulation options available is: 121
 {
@@ -88,6 +88,7 @@ In **jbase** emulation, this displays:
 ```
 dates_upper_case = 1
 ```
+
 Display all configuration options that are set to **true**:
 
 ```

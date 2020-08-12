@@ -14,7 +14,7 @@ We need to define what port jRFS will listen on.  You can define this two ways. 
 export JRFS_SERVERNAME=5001
 ```
 
-On linux you can add a jRFS service to /etc/services or on windows to c:\\windows\\system32\\drivers\\services
+On Linux you can add a jRFS service to /etc/services or on Windows to c:\\windows\\system32\\drivers\\services
 
 ```bash
 jRFS 5001/tcp # jRFS Server

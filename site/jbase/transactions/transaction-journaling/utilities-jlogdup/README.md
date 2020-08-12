@@ -81,13 +81,13 @@ The indicators in brackets denote:
 
 The time specification, used in the ‘start=’ and ‘end=’ specification can be one of the following formats:
 
-| Timespec             | Meaning |
-| ---                  | ---    |
+| Timespec             | Meaning                                                    |
+| ---                  | ---                                                        |
 | hh:mm:ss             | time of day (todays date assumed)                          |
 | DD-MMM-YYYY          | date (midnight assumed), Any date convention accepted      |
 | hh:mm:ss,DD-MMM-YYYY | both time and date specified either way around             |
 | jbackup_file         | time of file created. Use with 'jbackup -sfilename' option |
-| filename             | regular file, use the time the file was last modified       |
+| filename             | regular file, use the time the file was last modified      |
 
 ### Host  
 
