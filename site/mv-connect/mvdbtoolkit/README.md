@@ -43,9 +43,10 @@ Each Function has its own specific object definition.  There is very little synt
 ### Example
 
 ```
+URL = "https://api.ipify.org?format=json"
 CALL WOBJ(OBJ,"FROMSTRING","","{}","",RERR); * BLANK OBJECT
 CALL WOBJ(OBJ,"SET","method","GET","",RERR); * Set method
-CALL WOBJ(OBJ,"SET","url","https://api.ipify.org?format=json","",RERR); * Set url
+CALL WOBJ(OBJ,"SET","url",URL,"",RERR); * Set url
 
 PRINT "JSON pre call"
 TOBJ=OBJ; GOSUB debug.object
