@@ -6,23 +6,23 @@ MVDBToolkit contains a series of functions to assist in cross platform MV develo
 
 ## Table of Contents
 
-| Function                                                      | Description                        |
-| -----------------------------------------                     | ---------------------------------  |
-| [MVDBTOOLKIT.CONFIG](./mvdbtoolkit-config/README.md)          | Configuration Tool                 |
-| [MVDBTOOLKIT.PACKAGE.INSTALLER](./mvdbtoolkit-package-installer) | Package installer               |
-| [MVDBTOOLKIT.WCALL](./mvdbtoolkit-wcall/README.md)            | Web Client Function (Curl wrapper) |
-| [MVDBTOOLKIT.WCALL.DEBUG](./mvdbtoolkit-wcall-debug/README.md) | Web Client debugging subroutine   |
-| [MVDBTOOLKIT.WEXECUTE](./mvdbtoolkit-wexecute/README.md)      | Execute O/S commands               |
-| [MVDBTOOLKIT.WFILEIO](./mvdbtoolkit-wfileio/README.md)        | Read/Write/Delete O/S commands     |
-| [MVDBTOOLKIT.WGETENV](./mvdbtoolkit-wgetenv/README.md)        | Get O/S environment Variables      |
-| [MVDBTOOLKIT.WPLATFORM](./mvdbtoolkit-wplatform/README.md)    | Get Config information             |
-| [MVDBTOOLKIT.SWAP](./mvdbtoolkit-wswap/README.md)             | Cross platform SWAP statement      |
-| [MVDBTOOLKIT.TEST](./mvdbtoolkit-test/README.md)              | Test/QC program                    |
-| [MVSENDGRID](../packages/mvsendgrid/README.md)                 | Included SendGrid API Package      |
+| Function                                                         | Description                        |
+| ---------------------------------------------------------------- | ---------------------------------- |
+| [MVDBTOOLKIT.CONFIG](./mvdbtoolkit-config/README.md)             | Configuration Tool                 |
+| [MVDBTOOLKIT.PACKAGE.INSTALLER](./mvdbtoolkit-package-installer) | Package installer                  |
+| [MVDBTOOLKIT.WCALL](./mvdbtoolkit-wcall/README.md)               | Web Client Function (Curl wrapper) |
+| [MVDBTOOLKIT.WCALL.DEBUG](./mvdbtoolkit-wcall-debug/README.md)   | Web Client debugging subroutine    |
+| [MVDBTOOLKIT.WEXECUTE](./mvdbtoolkit-wexecute/README.md)         | Execute O/S commands               |
+| [MVDBTOOLKIT.WFILEIO](./mvdbtoolkit-wfileio/README.md)           | Read/Write/Delete O/S commands     |
+| [MVDBTOOLKIT.WGETENV](./mvdbtoolkit-wgetenv/README.md)           | Get O/S environment Variables      |
+| [MVDBTOOLKIT.WPLATFORM](./mvdbtoolkit-wplatform/README.md)       | Get Config information             |
+| [MVDBTOOLKIT.SWAP](./mvdbtoolkit-wswap/README.md)                | Cross platform SWAP statement      |
+| [MVDBTOOLKIT.TEST](./mvdbtoolkit-test/README.md)                 | Test/QC program                    |
+| [MVSENDGRID](../packages/mvsendgrid/README.md)                   | Included SendGrid API Package      |
 
 ## Config Entry
 
-A JSON configuration record is stored in the dictionary of MVDBTOOLKIT.BP called MV.PLATFORM.JSON.  This item is initially populated by MVDBTOOLKIT.CONFIG.  If you wish to make changes you can edit the item directly.
+A JSON configuration record is stored in the dictionary of **MVDBTOOLKIT.BP** called `MV.PLATFORM.JSON`.  This item is initially populated by `MVDBTOOLKIT.CONFIG`.  If you wish to make changes you can edit the item directly.
 
 ```json
 {
@@ -36,9 +36,9 @@ A JSON configuration record is stored in the dictionary of MVDBTOOLKIT.BP called
 
 ## Usage
 
-  All tools in MVDBTOOLKIT are utilized via Objects.  Instead of passing a number of params in and out of the functions you pass a single Object.  This is not unlike using a single Dynamic arra to pass info in and out of the function.  At this moment the only Object type understood by MVDBTOOLKIT are WOBJ objects.
+All tools in MVDBTOOLKIT are utilized via Objects.  Instead of passing several parameters in and out of the functions you pass a single Object.  This is not unlike using a single Dynamic array to pass info in and out of the function.  At this time the only Object type understood by MVDBTOOLKIT are WOBJ objects.
 
-  Each Function has it's own define object definition.  There is very little syntax checking therefore if you are having issues it is recommended you convert your object to jSON and print out the payload.
+Each Function has its own specific object definition.  There is very little syntax checking therefore if you are having issues it is recommended you convert your object to jSON and print out the payload.
 
 ### Example
 
@@ -47,12 +47,12 @@ CALL WOBJ(OBJ,"FROMSTRING","","{}","",RERR); * BLANK OBJECT
 CALL WOBJ(OBJ,"SET","method","GET","",RERR); * Set method
 CALL WOBJ(OBJ,"SET","url","https://api.ipify.org?format=json","",RERR); * Set url
 
-PRINT "jSON pre call"
+PRINT "JSON pre call"
 TOBJ=OBJ; GOSUB debug.object
 
 CALL MVDBTOOLKIT.WCALL(OBJ)
 
-PRINT;PRINT "jSON after call";PRINT
+PRINT;PRINT "JSON after call";PRINT
 TOBJ=OBJ; GOSUB debug.object
 
 STOP
@@ -72,7 +72,7 @@ pre JSON
   "method": "GET",
   "url": "https://api.ipify.org?format=json"
   }
-jSON after call
+JSON after call
 {
   "method": "GET",
   "url": "https://api.ipify.org?format=json",
