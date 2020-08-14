@@ -19,13 +19,13 @@ ProxyPass "/api" "http://127.0.0.1:8180/api" max=5
 
 In this example we are telling Apache any request to /API is to be sent to MVConnector (if you are jBase the default port is 20002).  The max setting on the end tells Apache to use connection pooling and to not allow more than 5 concurrent calls.  Again this feature appears to not work on some Apache configurations due to process vs thread configurations.  The reverse-proxy directive although should work.
 
-### NGIX
+## NGINX
 
-NGIX is a newer webserver competing now with Apache.  It is thread-based and in many ways faster than Apache. The [ngx\_http\_upsream\_module](http://nginx.org/en/docs/http/ngx_http_upstream_module.html#upstream) does the same thing as the Apache mod\_proxy.  Connection pooling appears to be only available now in the commercial product.  See the link above for the max\_conns directive.
+NGINX is a newer webserver competing now with Apache.  It is thread-based and in many ways faster than Apache. The [ngx\_http\_upsream\_module](http://nginx.org/en/docs/http/ngx_http_upstream_module.html#upstream) does the same thing as the Apache mod\_proxy.  Connection pooling appears to be only available now in the commercial product.  See the link above for the max\_conns directive.
 
 ![265134-connection-pooling: 1501364364091](./1501364364091.jpg)
 
-### HAPROXY
+## HAPROXY
 
 [HAProxy](http://www.haproxy.org/) is a standalone Linux based proxy server that is free and does have connection pooling. Haproxy can be installed on Centos with yum: yum install HAProxy.
 
