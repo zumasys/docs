@@ -19,8 +19,8 @@ None
 ## Return values
 
 ```
-0 = the variable is an object or array
-1 = the variable is not an object or array
+0 = the variable is not an object or array
+1 = the variable is an object or array
 ```
 
 ## Examples
