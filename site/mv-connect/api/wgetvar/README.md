@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The WGETVAR subroutine allows you to retrieve variables sent in the web request.
+The WGETVAR subroutine allows you to retrieve variables (query string parameters) sent in the web request.
 
 ## Command Syntax
 
@@ -12,11 +12,10 @@ CALL WGETVAR(VARVALUE,VARNAME)
 
 ### Syntax Elements
 
-| <!----> | <!----> |
-| --- | --- |
-| Parameter | Description |
-| VARVALUE | This is the returned value of the variable. |
-| VARNAME | This is a passed in parameter of the value you want retrieved. |
+| Parameter | Description                                                    |
+| --------- | -------------------------------------------------------------- |
+| VARVALUE  | This is the returned value of the variable.                    |
+| VARNAME   | This is a passed in parameter of the value you want retrieved. |
 
 #### Example
 

@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The WSETPARAM subroutine will retrieve additional URI parameters.
+The WGETPARAM subroutine will retrieve additional URI parameters.
 
 ## Command Syntax
 
@@ -12,10 +12,10 @@ CALL WGETPARAM(VALUE,PARAM)
 
 ### Syntax Elements
 
-| <!----> | <!----> |
-| --- | --- |
-| VALUE | The value of the param you requested. |
-| PARAM | The param number you want (first is 1) |
+| <!----> | <!---->                                |
+| ------- | -------------------------------------- |
+| VALUE   | The value of the param you requested.  |
+| PARAM   | The param number you want (first is 1) |
 
 #### Example
 
