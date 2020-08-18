@@ -2,9 +2,9 @@
 
 <PageHeader />
 
-The WGETBODY gets the raw body sent in the web request.  Only certain content types pass the raw body.  See the config file to determine which ones.
+The `WGETBODY` gets the raw body sent in the web request.  Only certain content types pass the raw body.  See the config file to determine which ones.
 
-## Command Syntax
+## WGETBODY Syntax
 
 ```
 CALL WGETBODY(BODY)
@@ -12,14 +12,13 @@ CALL WGETBODY(BODY)
 
 ### Syntax Elements
 
-| <!----> | <!----> |
-| --- | --- |
-| Parameter | Description |
-| BODY | Returned body |
+| Parameter | Description   |
+| --------- | ------------- |
+| BODY      | Returned body |
 
-The WGETBODY subroutine only returns a string.  That string is the raw body.
+The `WGETBODY` subroutine only returns a string.  That string is the raw body.
 
-### Example
+## WGETBODY Example
 
 ```
 CALL WGETBODY(BODY)

@@ -2,9 +2,9 @@
 
 <PageHeader />
 
-The WGETINFO subroutine allows you return directly information from WWW.INFO common.
+The `WGETINFO` subroutine allows you return directly information from `WWW.INFO` common.
 
-## Command Syntax
+## WGETINFO Syntax
 
 ```
 CALL WGETINFO(POS,VALUE)
@@ -12,13 +12,12 @@ CALL WGETINFO(POS,VALUE)
 
 ### Syntax Elements
 
-| <!----> | <!----> |
-| --- | --- |
-| Parameter | Description |
-| POS | [WWW.INFO](//WWW.INFO) Dynamic position you wish to get. |
-| VALUE | Returned Value |
+| Parameter | Description                                                         |
+| --------- | ------------------------------------------------------------------- |
+| POS       | [WWW.INFO](../www.info/README.md) Dynamic position you wish to get. |
+| VALUE     | Returned Value                                                      |
 
-#### Example
+## WGETINFO Example
 
 ```
 * Dynamically find all Variables passed by client
@@ -31,8 +30,8 @@ FOR V=1 TO NUM.VARS
 NEXT V
 ```
 
-#### Notes
+## WGETINFO Notes
 
-See WWW.INFO for details on the common.
+See [WWW.INFO](../www.info/README.md) for details on the common.
 
 <PageFooter />

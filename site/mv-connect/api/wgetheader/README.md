@@ -2,9 +2,9 @@
 
 <PageHeader />
 
-The WGETHEADER subroutine allows you retrieve headers sent by the client.
+The `WGETHEADER` subroutine allows you retrieve headers sent by the client.
 
-## Command Syntax
+## WGETHEADER Syntax
 
 ```
 CALL WGETHEADER(HEADERVALUE,HEADERNAME)
@@ -12,13 +12,12 @@ CALL WGETHEADER(HEADERVALUE,HEADERNAME)
 
 ### Syntax Elements
 
-| <!----> | <!----> |
-| --- | --- |
-| Parameter | Description |
+| Parameter   | Description                               |
+| ----------- | ----------------------------------------- |
 | HEADERVALUE | This is the returned value of the header. |
-| HEADERNAME | Set to the name of the header you want. |
+| HEADERNAME  | Set to the name of the header you want.   |
 
-### Example
+## WGETHEADER Example
 
 ```
 CALL WGETHEADER(TOKEN,"Token")

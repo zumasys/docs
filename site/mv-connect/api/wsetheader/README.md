@@ -2,9 +2,9 @@
 
 <PageHeader />
 
-The WSETHEADER subroutine allows you to set return headers.
+The `WSETHEADER` subroutine allows you to set return headers.
 
-## Command Syntax
+## WSETHEADER Syntax
 
 ```
 CALL WSETHEADER(HEADERVALUE,HEADERNAME)
@@ -12,13 +12,12 @@ CALL WSETHEADER(HEADERVALUE,HEADERNAME)
 
 ### Syntax Elements
 
-| <!----> | <!----> |
-| --- | --- |
-| Parameter | Description |
+| Parameter   | Description                                     |
+| ----------- | ----------------------------------------------- |
 | HEADERVALUE | Set this to what you wish to assign the header. |
-| HEADERNAME | Set to the name of the header you want. |
+| HEADERNAME  | Set to the name of the header you want.         |
 
-### Example
+## WSETHEADER Example
 
 ```
 CALL WSETHEADER("111-22-3333","Token")

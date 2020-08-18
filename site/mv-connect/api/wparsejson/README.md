@@ -2,9 +2,11 @@
 
 <PageHeader />
 
-The WPARSEJSON is a simple jSON parsing subroutine.  It has been been replaced with WOBJ.
+> Note: This function has been depreciated and it is recommend you use [WOBJ](../wobj/README.md) instead.
 
-## Command Syntax
+The `WPARSEJSON` is a simple JSON parsing subroutine.  It has been been replaced with [WOBJ](../wobj/README.md).
+
+## WPARSEJSON Syntax
 
 ```
 CALL WPARSEJSON(JSON,FIELD,VALUE,ERR)
@@ -12,15 +14,14 @@ CALL WPARSEJSON(JSON,FIELD,VALUE,ERR)
 
 ### Syntax Elements
 
-| <!----> | <!----> |
-| --- | --- |
-| Parameter | Description |
-| JSON | This is the jSON string. |
-| FIELD | The field name you wish to get. |
-| VALUE | The returned value |
-| ERR | Any returned errors |
+| Parameter | Description                     |
+| --------- | ------------------------------- |
+| JSON      | This is the JSON string.        |
+| FIELD     | The field name you wish to get. |
+| VALUE     | The returned value              |
+| ERR       | Any returned errors             |
 
-#### Example
+## WPARSEJSON Example
 
 ```
 JSON=\{ "field1":"value1","field2":"value2" }\
@@ -28,8 +29,8 @@ CALL WPARSEJSON(JSON,"field1",VALUE,RERR)
 * VALUE will equal "value1"
 ```
 
-### Notes
+## WPARSEJSON Notes
 
-This is a very simple parser.  It cannot handle nested objects or arrays.  It is better to use WOBJ to parse JSON.
+This is a very simple parser.  It cannot handle nested objects or arrays.  It is better to use [WOBJ](../wobj/README.md) to parse JSON.
 
 <PageFooter />

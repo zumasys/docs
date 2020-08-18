@@ -2,9 +2,9 @@
 
 <PageHeader />
 
-The WGETVAR subroutine allows you to retrieve variables (query string parameters) sent in the web request.
+The `WGETVAR` subroutine allows you to retrieve variables (query string parameters) sent in the web request.
 
-## Command Syntax
+## WGETVAR Syntax
 
 ```
 CALL WGETVAR(VARVALUE,VARNAME)
@@ -17,20 +17,20 @@ CALL WGETVAR(VARVALUE,VARNAME)
 | VARVALUE  | This is the returned value of the variable.                    |
 | VARNAME   | This is a passed in parameter of the value you want retrieved. |
 
-#### Example
+## WGETVAR Example
 
 ```
 CALL WGETVAR(VAR1,"var1")
 ```
 
-### Notes
+## WGETVAR Notes
 
-Only variables sent on the url bar or via x-www-form-urlencoded posts.  
-Form-Data encoding is not supported. Below is an example from [POSTMAN](https://www.getpostman.com/)
+Only variables sent on the url bar or via `x-www-form-urlencoded` posts.  
+`Form-Data` encoding is not supported. Below is an example from [POSTMAN](https://www.getpostman.com/)
 
 ![wgetvar: blob](./blob.jpg)
 
-You can get a list of all supplied variables by call the WGETINFO subroutine and pass it 25.
+You can get a list of all supplied variables by call the `WGETINFO` subroutine and pass it `25`.
 
 ```
 CALL WGETINFO(VARS, 25)

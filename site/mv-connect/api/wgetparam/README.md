@@ -2,9 +2,9 @@
 
 <PageHeader />
 
-The WGETPARAM subroutine will retrieve additional URI parameters.
+The `WGETPARAM` subroutine will retrieve additional URI parameters.
 
-## Command Syntax
+## WGETPARAM Syntax
 
 ```
 CALL WGETPARAM(VALUE,PARAM)
@@ -12,12 +12,12 @@ CALL WGETPARAM(VALUE,PARAM)
 
 ### Syntax Elements
 
-| <!----> | <!---->                                |
-| ------- | -------------------------------------- |
-| VALUE   | The value of the param you requested.  |
-| PARAM   | The param number you want (first is 1) |
+| Parameter | Description                              |
+| --------- | ---------------------------------------- |
+| VALUE     | The value of the param you requested.    |
+| PARAM     | The param number you want (first is `1`) |
 
-#### Example
+## WGETPARAM Example
 
 Requested URL
 
@@ -30,7 +30,7 @@ CALL WGETPARAM(VALUE,1)
 * Value should equal "1234"
 ```
 
-#### Notest
+## WGETPARAM Notes
 
 Typically on REST calls you send the Primary Key you want retrieved as the first parameter.  You would use this subroutine to retrieve that id.
 
