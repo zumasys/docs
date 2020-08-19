@@ -7,7 +7,7 @@
 [jQL](./jbase-query-language/README.md)  
 [jQL Overview](./jql/README.md)  
 [jQL Keywords and Connectives](./jql-keywords-connectives/README.md)  
-[jQL Keyword Cross-Reference](./jql-keyword-cross-reference/README.md)
+[jQL Keyword Cross-Reference](./jql-keyword-cross-reference/README.md)  
 [jQL Tracing/Explain](./jqltrace/README.md)
 
 [bselect](./bselect/README.md)  

@@ -52,5 +52,4 @@ jED Item (Options
 
 Back to [Editors](./../README.md)
 
-  
 <PageFooter />

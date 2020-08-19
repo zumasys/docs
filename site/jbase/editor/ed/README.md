@@ -12,5 +12,4 @@ The transition from ED to jED is very simple with the reward being adopting the 
 
 Back to [Editors](./../editors/README.md)
 
-  
 <PageFooter />

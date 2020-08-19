@@ -4,7 +4,7 @@
 
 ## Overview
 
-jBASE offers a TRACE/Debugging option that will produce information on how the query was processed.  This is a little like a EXPLAIN feature in other databases.
+jBASE offers a TRACE/Debugging option that will produce information on how the query was processed.  This is a little like the EXPLAIN feature in other databases.
 
 ## Usage
 
@@ -48,8 +48,6 @@ The top logs are showing how jBASE is attempting to match up available indexes t
 
 The next part of the log shows how the indexes are used.  You can see here that the index for STATE was used and returned 856 rows in 0.00s.  It then moved on and did a scan search for LASTNAME and found the 26 items.  
 
-
-
-Back to [jBASE Query Language (jQL)](./../jbase-query-language/README.md)
+Back to [jBASE Query Language (jQL)](../../jql/README.md)
 
 <PageFooter />
