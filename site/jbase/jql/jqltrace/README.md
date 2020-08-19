@@ -42,7 +42,7 @@ Index accepted
  26 Records counted
  ```
 
- On windows you would replace the export statement with SET.  You can do this directly from jsh but you will need to then type jsh to launch a new shell to inherit those new settings.
+ On Windows you would replace the "export" with "set".  You can do this directly from jsh but you will need to launch a new jshell session to inherit those settings.
 
 The top logs are showing how jBASE is attempting to match up available indexes to your current query.  In this example it finds the index STATE with attribute 6 matches up to a index.  Last Name does not.
 
