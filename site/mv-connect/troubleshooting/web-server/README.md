@@ -121,7 +121,7 @@ Or with the browser
 
 ![317533-troubleshooting-jagent-mvconnect: 1526675586835-1526675586835](./1526675586835-1526675586835.jpg)
 
-Both represent we are talking to the web server which is a good thing.  If this is still not working you may need to review your firewall rules.  Verify you have put in the right port number (in this test it was 20003).  Also verify when jAgent fired up it did not throw any errors.  The primary one you may run into is that something is already listening on the port chose (20003 in this example).  If that happens try another port (20004 and on).
+Both represent we are talking to the web server which is a good thing.  If this is still not working you may need to review your firewall rules. Verify you have put in the right port number (in this test it was 20003). Also verify when jAgent fired up it did not throw any errors.  The primary one you may run into is that something is already listening on the port chose (20003 in this example). If that happens try another port (20004 and on).
 
 ## Logging Level
 
@@ -241,7 +241,7 @@ maxrequest = 100000000
 
 ## WRESTTEST
 
-Once you have the webserver responding there is a testing rest api called WRESTTEST to assist you in debugging your environment.  You should be able to browse to http://&lt;your ip&gt;:20002/api/wresttest and you should see the following page.
+Once you have the webserver responding, there is a testing rest api called WRESTTEST to assist you in debugging your environment.  You should be able to browse to http://&lt;your ip&gt;:20002/api/wresttest and see the following page.
 
 ![317533-troubleshooting-jagent-mvconnect: 1526760527506-1526760527506](./1526760527506-1526760527506.jpg)
 
@@ -272,7 +272,7 @@ Edge - JSON Formatter
 
 Chrome - JSON Viewer
 
-Viewing the json there is a lot of nice debugging information
+Viewing the JSON, there is a lot of nice debugging information
 
 The primary one is a jshow -v WRESTEST is shown.  This allows you to see your full environment.  All file pathing is shown as where it look for any code.  This is key to determining why jAgent cannot find a program or file.
 
