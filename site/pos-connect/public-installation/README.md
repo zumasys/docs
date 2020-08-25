@@ -1,5 +1,7 @@
 # POSConnect Client Self-Installation
 
+You may install POSConnect on your application server following these steps.
+
 ## STEP 1- Extract Installation Packet
 
 There are a total of 2 files that are delivered to the client for
@@ -88,3 +90,5 @@ License client IP 2: 123.123.123.123
 License client hostname 2: csp.posconnect.net
 License expiration date: Mon Dec 31 00:00:00 EST 2021
 ```
+
+Please contact support if you need further assistance: posconnect@total-computing.com
