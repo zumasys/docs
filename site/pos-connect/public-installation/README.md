@@ -25,7 +25,7 @@ Running these scripts will install the POSConnect listeners, the
 scheduler, and the sweeper as separate Windows services that can be seen
 and controlled from the standard Windows Services control panel.
 
-## STEP 2- Encrypt Login Credentials.
+## STEP 2- Encrypt Login Credentials
 
 Then follow these steps to enter and encrypt the database login
 credentials.
@@ -85,6 +85,6 @@ License file name: POSConnect_Test.lic
 License client IP 1: 123.123.123.123
 License client hostname 1: csp.posconnect.net
 License client IP 2: 123.123.123.123
-License client hostname 2: csp. posconnect.net
+License client hostname 2: csp.posconnect.net
 License expiration date: Mon Dec 31 00:00:00 EST 2021
 ```
