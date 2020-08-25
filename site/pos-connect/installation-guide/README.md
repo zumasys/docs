@@ -1,4 +1,4 @@
-POSConnect Client Installation Package Preparation
+# POSConnect Client Installation Package Preparation
 
 1.  Please use an SSH program to connect to the server
 

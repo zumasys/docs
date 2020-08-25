@@ -1,6 +1,6 @@
-POSConnect Client Self-Installation
+# POSConnect Client Self-Installation
 
-STEP 1- Extract Installation Packet
+## STEP 1- Extract Installation Packet
 
 There are a total of 2 files that are delivered to the client for
 POSConnect Java Listener installation:
@@ -25,7 +25,7 @@ Running these scripts will install the POSConnect listeners, the
 scheduler, and the sweeper as separate Windows services that can be seen
 and controlled from the standard Windows Services control panel.
 
-STEP 2- Encrypt Login Credentials.
+## STEP 2- Encrypt Login Credentials.
 
 Then follow these steps to enter and encrypt the database login
 credentials.
@@ -42,7 +42,7 @@ Navigate to the scripts directory:
 
 5.  Press RETURN again to Exit
 
-Step 3- Validate License
+## Step 3- Validate License
 
 Go to the POSConnect Install Directory. Then follow these steps to get
 the license information:
@@ -61,7 +61,7 @@ Error reading existing license. Details: java.io.FileNotFoundException:
 ../config/POSConnect_Test.lic (No such file or directory)
 ```
 
-Step 4- License Delivery
+## Step 4- License Delivery
 
 1.  The client will be notified with an email to download the new
     license file from the client Product Repository. Copy this file into
