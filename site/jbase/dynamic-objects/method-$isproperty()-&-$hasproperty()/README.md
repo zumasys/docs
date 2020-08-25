@@ -12,7 +12,7 @@ The **$isproperty()** method, and its synonym, **\$hasproperty()**, determine if
 
 ```
 obj->$isproperty(arg1,{arg2,arg3,...})
-arr->%isproperty(index1,{index2,index3,...})
+arr->$isproperty(index1,{index2,index3,...})
 ```
 
 ## Arguments
