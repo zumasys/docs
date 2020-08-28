@@ -18,7 +18,7 @@ Use the `WDEBUG` program to:
 - Modify request headers, variables, etc. and re-run the request
 - Invoke your REST handler so you can use the system debugger to debug your handler
 
-In order to use `WDEBUG`, the MV Connect startup routine `WDB.INIT` saves request details in the `WDB.DEBUG` file. When you first install MV Connect, only the dictionary of the `WDB.DEBUG` file is created. To use W`DEBUG, you need to create the data section for the file:
+In order to use `WDEBUG`, the MV Connect startup routine `WDB.INIT` saves request details in the `WDB.DEBUG` file. When you first install MV Connect, only the dictionary of the `WDB.DEBUG` file is created. To use `WDEBUG`, you need to create the data section for the file:
 
 ```
 CREATE-FILE DATA WDB.DEBUG 101
