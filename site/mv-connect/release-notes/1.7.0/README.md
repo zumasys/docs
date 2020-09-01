@@ -36,7 +36,7 @@ Date: 05/11/2020
   - Patched WDB.VARS to properly size inbound payloads vs cutting them off at 99999 characters.
   - Null type always returns a NULL
   - TOJSON added as alias to TOSTRING
-  - FROMJSON added as alias to FROMJSON
+  - TOJSON added as alias to FROMJSON
   - SET.ARRAY if not assigned a value defaults to []
   - SET.OBJECT if not assigned value defaults to {}
 
