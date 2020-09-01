@@ -358,5 +358,4 @@ A knowledge of [terminfo capabilities](./../environment-variables/terminfo/READM
 
 [Back to Knowledgebase](./../README.md)
 
-  
 <PageFooter />
