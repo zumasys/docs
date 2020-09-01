@@ -91,4 +91,4 @@ License client hostname 2: csp.posconnect.net
 License expiration date: Mon Dec 31 00:00:00 EST 2021
 ```
 
-Please contact support if you need further assistance: posconnect@total-computing.com
+Please contact support if you need further assistance: support@total-computing.com
