@@ -8,10 +8,9 @@ You may install POSConnect on your application server following these steps.
 
 There are a total of 2 files that are delivered to the client for POSConnect Java Listener installation:
 
-1. POSConnect zip/tar file (Windows/Unix)
+1. POSConnect zip/tar file (Windows/UNIX)
 
-2. POSConnect license file (Delivered after initial setup has been
-    completed)
+2. POSConnect license file (Delivered after initial setup has been completed)
 
 Extract the POSConnect zip/tar file, provided by TCS, to the POSConnect Install Directory.
 
@@ -44,7 +43,10 @@ Navigate to the scripts directory:
 Go to the POSConnect Install Directory. Then follow these steps to get the license information:
 
 Navigate to the scripts directory.
+
+```bash
 PCT.checkLicense (double-click PCT.license on Windows)
+```
 
 E-mail the output shown below
 
