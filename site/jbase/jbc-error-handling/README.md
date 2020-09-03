@@ -12,17 +12,17 @@ The following 3 environment variables control how jBC (BASIC) programs handle sp
 
 | Environment Variable | Error Message |
 | --- | --- |
-| [JBASE\_ERRMSG\_DIVIDE\_ZERO](./../../environment-variables/jbase_errmsg_divide_zero) | Divide by zero !!-- ZERO returned |
-| [JBASE\_ERRMSG\_NON\_NUMERIC](./../../environment-variables/jbase_errmsg_non_numeric) | Non-numeric value -- ZERO USED |
-| [JBASE\_ERRMSG\_ZERO\_USED](./../../environment-variables/jbase_errmsg_zero_used) | Invalid or uninitialised variable -- ZERO USED |
+| [JBASE\_ERRMSG\_DIVIDE\_ZERO](../../jbase/environment-variables/jbase_errmsg_divide_zero/README.md) | Divide by zero !!-- ZERO returned |
+| [JBASE\_ERRMSG\_NON\_NUMERIC](../../jbase/environment-variables/jbase_errmsg_non_numeric/README.md) | Non-numeric value -- ZERO USED |
+| [JBASE\_ERRMSG\_ZERO\_USED](../../jbase/environment-variables/jbase_errmsg_zero_used/README.md) | Invalid or uninitialised variable -- ZERO USED |
 
-[JBASE\_ERRMSG\_TRACE](./../../environment-variables/jbase_errmsg_trace)
+[JBASE\_ERRMSG\_TRACE](../../jbase/environment-variables/jbase_errmsg_trace/README.md)
 Setting this variable will log all error and runtime messages to the **$JBCRELEASEDIR/tmp/jbase\_error\_trace** file. Be aware that this will cause the **jbase\_error\_trace** file to grow very large if left to its own devices.
 
 JBC\_STDERR
 To redirect standard error to standard out in a jBC program set **JBC\_STDERR=1**. This is useful with the [EXECUTE](./../execute) statement for CAPTUREing output that would normally be sent to the screen.
 
-[JBCERRFILE](./../../environment-variables/jbcerrfile)
+[JBCERRFILE](../../jbase/environment-variables/jbcerrfile/README.md)
 This environment variable is used to specify an alternate error message file. See [Advanced Error Message Tracking](#advanced-error-message-tracking).
 
 ## Trapping I/O errors
@@ -31,10 +31,9 @@ Most jBC (BASIC) I/O statements have built-in syntax to trap errors. This is imp
 
 ```
 READ record FROM filevar, id SETTING errornumber ON ERROR  
-CRT "READ failed with error number ":errornumber  
-STOP
-END ELSE  STOP
-202,id
+    CRT "READ failed with error number ":errornumber  
+    STOP
+END ELSE STOP 202,id
 END
 ```
 
@@ -54,9 +53,9 @@ There are two files, **jbcinit.err** and **jbcmesssages**, underneath JBCRELEASE
 
 This section details how to track specific error messages.
 
-The [JBASE\_ERRMSG\_TRACE](./../environment-variables/jbase_errmsg_trace/README.md) environment variable is message-agnostic. When it is set it logs **all** jBASE messages that are 'printable' (i.e. not marked 'NOPRINT') in the **%JBCRELEASEDIR%\jbcmessages** file. This can be problematic when all you want to do is log the occurrences of a few specific error messages. The log produced by **JBASE\_ERRMSG\_TRACE** will also not tell you what process produced the error, what time the error occurred, the port number, the username, etc.
+The [JBASE\_ERRMSG\_TRACE](../../jbase/environment-variables/jbase_errmsg_trace/README.md) environment variable is message-agnostic. When it is set it logs **all** jBASE messages that are 'printable' (i.e. not marked 'NOPRINT') in the **%JBCRELEASEDIR%\jbcmessages** file. This can be problematic when all you want to do is log the occurrences of a few specific error messages. The log produced by **JBASE\_ERRMSG\_TRACE** will also not tell you what process produced the error, what time the error occurred, the port number, the username, etc.
 
-For example, suppose we want to only log BASIC program errors that result from the 3 errors that are controlled by  [JBASE\_ERRMSG\_TRACE](./../../environment-variables/jbase_errmsg_trace), [JBASE\_ERRMSG\_ZERO\_USED](./../../environment-variables/jbase_errmsg_zero_used) and  [JBASE\_ERRMSG\_DIVIDE\_ZERO](./../../environment-variables/jbase_errmsg_divide_zero). We don't want the program to drop to the debugger, nor do we want these error messages to display to the user. Setting **JBASE\_ERRMSG\_TRACE=1** will certainly log these occurrences but they will be intermixed with all other messages making it difficult to determine what happened when.
+For example, suppose we want to only log BASIC program errors that result from the 3 errors that are controlled by  [JBASE\_ERRMSG\_TRACE](../../jbase/environment-variables/jbase_errmsg_trace/README.md), [JBASE\_ERRMSG\_ZERO\_USED](../../jbase/environment-variables/jbase_errmsg_zero_used/README.md) and  [JBASE\_ERRMSG\_DIVIDE\_ZERO](../../jbase/environment-variables/jbase_errmsg_divide_zero/README.md). We don't want the program to drop to the debugger, nor do we want these error messages to display to the user. Setting **JBASE\_ERRMSG\_TRACE=1** will certainly log these occurrences but they will be intermixed with all other messages making it difficult to determine what happened when.
 
 The solution (details to follow) is to remove (unset) **JBASE\_ERRMSG\_TRACE** and place a POSTREAD trigger on your own version of the **jbcmessages** file. The trigger code will look for, and log, the 3 specific errors. Of course, you can add to this list as long as the error message is in the **jbcmessages** file.
 
