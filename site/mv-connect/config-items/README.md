@@ -35,6 +35,8 @@
 | Directory       |                                               |
 | DefaultMime     |                                               |
 | 404Redirect     |                                               |
-| debug           | debug=1 in [behavior]                         |
+| debug           | debug logging (1) [behavior]                  |
+| weblogpath      | Where to store Web Logs [behavior]            |
+| webloglevel     | 0=No logging, 1 = Logging                     |
 
 <PageFooter />

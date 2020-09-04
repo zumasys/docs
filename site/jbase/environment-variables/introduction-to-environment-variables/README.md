@@ -76,6 +76,8 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | JEDIFILEPATH | directory Paths of application files location |
 | JEDIFILENAME\_MD | pathname of file to be used for Master Dictionary entries |
 | JEDIFILENAME\_SYSTEM | pathname of file to be used for SYSTEM entries |
+| JBASE_DYNAMIC_MULTISESSION | Dynamically allocates multi-session licenses when set to 1 |
+
 
 ### Addittional jBASE Environment Variables
 

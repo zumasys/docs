@@ -16,9 +16,12 @@ MVDBToolkit contains a series of functions to assist in cross platform MV develo
 | [MVDBTOOLKIT.WFILEIO](./mvdbtoolkit-wfileio/README.md)           | Read/Write/Delete O/S commands     |
 | [MVDBTOOLKIT.WGETENV](./mvdbtoolkit-wgetenv/README.md)           | Get O/S environment Variables      |
 | [MVDBTOOLKIT.WPLATFORM](./mvdbtoolkit-wplatform/README.md)       | Get Config information             |
+| [MVDBTOOLKIT.WPLATFORM.SAVE](./mvdbtoolkit-wplatform-save/README.md)       | Save Config information             |
 | [MVDBTOOLKIT.SWAP](./mvdbtoolkit-wswap/README.md)                | Cross platform SWAP statement      |
 | [MVDBTOOLKIT.TEST](./mvdbtoolkit-test/README.md)                 | Test/QC program                    |
 | [MVSENDGRID](../packages/mvsendgrid/README.md)                   | Included SendGrid API Package      |
+| [MVDBTOOLKIT.D3.FLASH](./mvdbtoolkit-d3-flash/README.md)                   | Turn on Flash Compile for D3      |
+
 
 ## Config Entry
 
