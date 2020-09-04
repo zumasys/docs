@@ -37,7 +37,7 @@ END ELSE STOP 202,id
 END
 ```
 
-The SYSTEM(0) function can also be used to determine the outcome of I/O options. Operations like [READ](./../jbc/read/README.md) and [WRITE](./../jbc/write/README.md) will return non-zero error numbers if the operation fails in some way. Tape statements, like [READT](./../readt) and [WRITET](./../writet), will store the reason code if an error occurs.
+The SYSTEM(0) function can also be used to determine the outcome of I/O options. Operations like [READ](./../jbc/read/README.md) and [WRITE](./../jbc/write/README.md) will return non-zero error numbers if the operation fails in some way. Tape statements, like [READT](./../jbc/readt/README.md) and [WRITET](./../jbc/writet/README.md), will store the reason code if an error occurs.
 
 The SYSTEM(0) function does not automatically reset itself; it will hold on to the last error code until some other statement sets it. This can sometimes lead to a wrong conclusion when checking the value. To avoid this situation you can explicitly reset SYSTEM(0) with:
 
