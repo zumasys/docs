@@ -20,7 +20,7 @@ For example:
 
 ```
 set JBC_SPOOLER_PORT_BASE=6000     [Windows]
-export JBC_SPOOLER_PORT_BASE=6000  [Linux/Aix/Sun]
+export JBC_SPOOLER_PORT_BASE=6000  [Linux/AIX]
 ```
 
 is the equivalent to setting the port number range 6000-7000 when launching a print job.
