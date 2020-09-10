@@ -28,7 +28,7 @@
 [sp-eject](./sp-eject/README.md)  
 [sp-form](./sp-form/README.md)  
 [sp-fqdelete](./sp-fqdelete/README.md)  
-[sp-fqscript](./sp-fqscript/README.md/README.md)  
+[sp-fqscript](./sp-fqscript/README.md)  
 [sp-jobs](./sp-jobs/README.md)  
 [sp-kill](./sp-kill/README.md)  
 [sp-list](./sp-list/README.md)  
