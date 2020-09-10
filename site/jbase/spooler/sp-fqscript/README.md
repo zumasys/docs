@@ -23,5 +23,4 @@ SP-FQSCRIPT
 
 Back to [Spooler.](./../jbase-spooler/README.md)
 
-  
 <PageFooter />
