@@ -8,7 +8,7 @@
 
 ## Description
 
-The **jrf** utility provides automated facilities to resize and convert from one Hash file type to another. In order to resize the file enough disk space must be available to create a second temporary version of the file, as the resize process creates a temporary file and then copies the data from the original file to the temporary file. Once copied, the temporary file is renamed to the original file.
+The **jrf** utility provides automated facilities to resize and convert from one file type to another. In order to resize the file enough disk space must be available to create a second temporary version of the file; the resize process creates a temporary file and then copies the data from the original file to the temporary file. Once copied, the temporary file is renamed to the original file.
 
 ### Syntax
 
@@ -20,10 +20,11 @@ jrf {-options} *
 | Option | Explanation |
 | --- | --- |
 | \* | Process all files in the current director (ignored if a list of files or a preceding select-list is supplied). |
-| **-H3** | Force to HASH3 file type. |
-| **-H4** | Force to HASH4 file type. |
-| **-H5** | Force to HASHP (jPlus) file type. |
-| **-H7** | Force to HASHD (Dynamic) file type (*default if no other file type is specified*). |
+| **-H3** \| **-Hj3** | Force to HASH3 file type. |
+| **-H4** \| **-Hj4** | Force to HASH4 file type. |
+| **-H5** \| **-Hjp** | Force to HASHP (jPlus) file type. |
+| **-H7** \| **-Hjd** | Force to HASHD (Dynamic) file type (*default if no other file type is specified*). |
+| **-Hmongo** | Force to a Mongo file type. |
 | **-C** | Only the restore specification will be set, so that the file is resized automatically when the file is restored. To resize files to a lower modulo requires that the 'D' option also be invoked along with the 'C' option. |
 | **-D** | Allow downsize of file. |
 | **-E** | Resize empty files. |
@@ -38,7 +39,7 @@ jrf {-options} *
 | **-U** | Convert to Case Insensitive |
 | **-V** | Verbose mode |
 | **-V1** | Very verbose mode |
-| **-h** | **-?** | Display syntax and options |
+| **-h** \| **-?** | Display syntax and options |
 
 ***\*\*\* Invalid options are ignored \*\*\****
 
@@ -46,8 +47,9 @@ jrf {-options} *
 
 - A preceding select-list of file names can be supplied to the **jrf** command.
 - If it becomes necessary to resize a file specified by the **JEDIFILENAME\_MD** environment variable then you must unset **JEDIFILENAME\_MD** prior to resizing. The same holds true for the **JEDIFILENAME\_SYSTEM** environment variable.
-- The temporary file used during the resize operation is created in the directory that the **jrf** command is run from. Therefore, a file cannot be resized via Q-pointer, F-pointer or **JEDIFILEPATH** access. You must **cd** to the directory where the file exists or specify the full path to the file.
+- The temporary file used during the resize operation is created in the directory from where the **jrf** command is run. Therefore a file cannot be resized via Q-pointer, F-pointer or **JEDIFILEPATH** access; you must **cd** to the directory where the file exists or specify the full path to the file.
 - WARNING: The **jrf** utility should ONLY be executed when users are NOT connected to the database otherwise data loss can occur. In other words, the file should not be opened by another process.
+- Converting to/from a Mongo file type is only available on jBASE 5.8 forward.
 
 Back to [Files](./../README.md)
 
