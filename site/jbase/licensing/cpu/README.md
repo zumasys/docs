@@ -4,6 +4,8 @@
 
 ## jBASE Licensing for release 5.8 onwards
 
+**Preliminary**
+
 There is a new licensing scheme for jBASE from release 5.8 onwards. The old licensing scheme will still be supported for the time being.
 
 The main features of the new scheme are
