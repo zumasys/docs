@@ -438,4 +438,32 @@ string locVarContent = dynTest.Extract(locVar);
 string locVarContentAgain = dynTest.Field(JDynArray.AM, locVar);
 ```
 
+## Note  
+
+The behaviour of JDynArray in jRCS and the jRCS client is not guaranteed to be the same as the behaviour of strings in BASIC.
+
+Here is the Javadoc header for the 3-parameter **Locate** function:
+
+```java
+/**
+    * Searches for a string in all values within a given attribute of the dynamic array.
+    * The values are in the specified sort order.
+    *
+    * @param searchStr String to look for
+    * @param amc Attribute number
+    * @param order Order of values, interpreted as follows:
+    * <p> "AL" - ascending, left-justified
+    * <p> "AR" - ascending, right-justified
+    * <p> "AN" - ascending, numeric
+    * <p> "DL" - descending, left-justified
+    * <p> "DR" - descending, right-justified
+    * <p> "DN" - descending, numeric
+    * <p> "" - no order
+    * @return Positive index of matching value or negative index of insertion
+    * point if a match is not found. If order is specified as a blank string, the
+    * function always returns -1 to indicate that the string was not found.
+    * @throws JException
+    */
+```
+
 <PageFooter />

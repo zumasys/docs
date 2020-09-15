@@ -10,7 +10,7 @@ Transaction logging is done by each process.  There are tools to monitor the ov
 
 The program [jlogstatus](./../jlogstatus) is your primary monitoring tool.  It gives you a very nice overview of how your system is configured, what transaction log set you are on, error/log counts, etc
 
-```
+```bash
 jbase01 BASH-4.2$jlogstatus
 Journal status:              active
 Configuration file created:  10:16:22 03 NOV 2017 , by root from port 1
@@ -41,7 +41,7 @@ jBASE has a special jEDI driver that will allow you to view a transaction log se
 1. Use the CREATE-FILE command to create the primary transaction logging journal
 
 ```
-CREATE-FILE TJ1 TYPE=TJLOG
+CREATE-FILE TJ1 TYPE=TJLOG TERMINATE=eos
 [ 417 ] File TJ1]D created , type = J4
 [ 417 ] File TJ1 created , type = TJLOG
 ```
@@ -68,7 +68,7 @@ The following record types are used in the transaction journal log (see  dictio
 
 This specifies the program to execute when the warning threshold of the log set is reached. The log notify program is called every time a message is written to jediLoggerAdminLog. The text of the message can be captured by adding arguments to the command line which the notify program can examine using SENTENCE(). For example, possibly define the program as:
 
-```
+```bash
 /usr/admin/bin/switchlogs “%1” “%2” “%3”
 ```
 

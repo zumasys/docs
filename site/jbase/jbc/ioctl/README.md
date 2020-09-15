@@ -30,11 +30,11 @@ First, an example of a program that opens a file and finds the type of file:
 ```
     INCLUDE JBC.h
     OPEN "MD" TO DSCB ELSE STOP 201,"MD"
-    status=""
-    IF IOCTL(DSCB,JIOCTL_COMMAND_FILESTATUS,status) THEN
-        CRT "Type of file = " : DQUOTE(status<1>)
+    fileType = ""
+    IF IOCTL(DSCB,JIOCTL_COMMAND_FILESTATUS, fileType) THEN
+        CRT "Type of file = " : DQUOTE(fileType<1>)
     END ELSE
-        CRT "IOCTL Failed !! unknown file type"
+        CRT "IOCTL Failed !! Unknown file type"
     END
 ```
 

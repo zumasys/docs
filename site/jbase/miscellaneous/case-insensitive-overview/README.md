@@ -4,13 +4,15 @@
 
 ## Create Case Sensitivity Control
 
-Because jBASE already has many customers who rely on their applications running as they currently do we have the ability to switch any new behavior on and off. Within jBASE there is a config file that lets users tailor how jBASE behaves. Although many of the changes are aimed at supporting case sensitivity, much of the new behavior is generic enough to be of use to existing users. A good example is that jQL verbs no longer have to be all upper case.
+Because jBASE already has many customers who rely on their applications running as they currently do we have the ability to switch any new behavior on and off.  
+
+Within jBASE there is a config file that lets users tailor how jBASE behaves. Although many of the changes are aimed at supporting case sensitivity, much of the new behavior is generic enough to be of use to existing users. A good example is that jQL verbs no longer have to be all upper case.
 
 To enable this behavior you would to simply set **case\_insensitive\_queries = true** in the **Config\_EMULATE** configuration file.
 
 New config flags currently are:
 
-- **case\_insensitive\_md = true** - Ignore the case of cmmands entered in a jShell
+- **case\_insensitive\_md = true** - Ignore the case of commands entered in a jShell
 - **case\_insensitive\_file\_ids = true** - Ignore the case of file names
 - **case\_insensitive\_queries = true** - Ignore the case of jQL syntax
 - **case\_insensitive\_runtime\_strings = true** - Ignore the case of strings in jBC and jQL
@@ -179,23 +181,39 @@ Fields within the dictionary items are not yet full implemented. Attribute 1 and
 This command displays the emulation options for a given emulation, the current emulation being the default if not specified.
 
 ```
-cmd:     config-strings
-desc:    Displays jBASE Config_EMULATE settings for a given emulation.
-usage:   config-strings <<options>>
-options: -help -emulation -list -@
+cmd:           config-strings
+Description:   Displays jBASE Config_EMULATE settings.
+Usage:         config-strings {options}
+               config-strings -h | -help | -?
 
-where:
-        -l -list, list sections in config_EMULATE
-        -e -emulation <<mode>>, display section for a given emulation
-           e.g. -e prime
-        -@, show @ values
-        -h -help, this page
+Options:
+   -a -all, display all configuration options indicating which ones
+            are set and which are unassigned.
+   -c -compact, display in compact format: key = value
+   -e -emulation <<mode>>, display section for emulation <<mode>>
+   -j{n} -json{n}, output is in JSON, where "n" specifies the JSON format.
+                   Refer to the documentation for the $tojson() method.
+                   This option produces an object with two embedded objects:
+                      "header", e.g.
+                           {
+                               "emulation":"jbase",
+                               "system":"athens",
+                               "date":"06 feb 2019",
+                               "time":"15:24:52",
+                               "user":"theaetetus"
+                           },
+                       "emulation" is an object with the emulation settings
+   -l -list,  list sections in config_EMULATE
+   -@, display @ values
 
-e.g.    config-strings            - display setting for JBCEMULATE or default if not set.
-        config-strings -e r83     - display setting for r83
-        config-strings -e r83 -@  - display setting for r83, also show @ values
-        config-strings -l         - list sections in config_emulate
-        config-strings -h         - this page
+Examples:
+   config-strings           display current emulation settings.
+   config-strings -j        display current emulation settings, output as JSON
+   config-strings -a        display all configuration settings
+   config-strings -a -j1    display all settings, output as JSON and is formatted
+   config-strings -e prime  display settings for the prime emulation
+   config-strings -e d3 -@  display settings and @ values for the d3 emulation
+   config-strings -l        list sections in Config_EMULATE.
 ```
 
 ### jFormatCode
