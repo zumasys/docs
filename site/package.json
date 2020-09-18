@@ -25,22 +25,22 @@
   "homepage": "https://github.com/zumasys/docs#readme",
   "dependencies": {
     "@vssue/api-github-v4": "^1.4.0",
-    "@vssue/vuepress-plugin-vssue": "^1.4.3",
-    "@vuepress/plugin-google-analytics": "^1.4.0",
+    "@vssue/vuepress-plugin-vssue": "^1.4.6",
+    "@vuepress/plugin-google-analytics": "^1.5.4",
     "dotenv": "^8.2.0",
     "i": "^0.3.6",
-    "vuepress": "^1.4.0",
-    "vuepress-bar": "^0.2.4",
+    "vuepress": "^1.5.4",
+    "vuepress-bar": "^0.2.7",
     "vuepress-plugin-code-copy": "^1.0.6",
     "vuepress-plugin-git-log": "^1.0.1",
-    "vuepress-plugin-reading-progress": "^1.0.9",
+    "vuepress-plugin-reading-progress": "^1.0.10",
     "vuepress-plugin-sitemap": "^2.3.1"
   },
   "devDependencies": {
-    "typescript": "^3.8.3",
-    "vuepress-plugin-nprogress": "^1.1.6",
+    "typescript": "^3.9.7",
+    "vuepress-plugin-nprogress": "^1.1.8",
     "vuepress-plugin-reading-time": "^0.1.1",
-    "vuepress-plugin-seo": "^0.1.2",
+    "vuepress-plugin-seo": "^0.1.4",
     "vuepress-plugin-social-share": "^0.2.1",
     "vuepress-plugin-typescript": "^0.1.2"
   }
