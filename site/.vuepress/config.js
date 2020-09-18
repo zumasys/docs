@@ -102,7 +102,9 @@ module.exports = {
           { text: "Customer Portal", link: "/customer-portal/" },
           { text: "jBASE", link: "/jbase/" },
           { text: "MV Connect", link: "/mv-connect/" },
-          { text: "MV Dashboard", link: "/mv-dashboard/" }
+          { text: "MV Dashboard", link: "/mv-dashboard/" },
+          { text: "POS Connect", link: "/pos-connect/" }
+
         ]
       }
     ],
@@ -414,7 +416,13 @@ module.exports = {
           ["/mv-dashboard/programmers-guide/portal-reports/", "Portal Reports"],
           ["/mv-dashboard/faq/", "FAQs"]
         ]
-      }
+      },
+      {
+        title: "POS Connect",
+        path: "/pos-connect/",
+        collapsable: true,
+        children: [["/pos-connect/installation-guide/", "Installation Guide"]]
+      },
     ],
     repo: "https://github.com/zumasys/docs",
     docsBranch: "master",

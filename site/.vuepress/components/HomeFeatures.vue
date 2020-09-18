@@ -24,7 +24,9 @@
         <a href="/mv-dashboard/introduction/">Introduction</a><br />
         <a href="/mv-dashboard/installation-guide/">Installation Guide</a><br />
         <a href="/mv-dashboard/programmers-guide/">Programmers Guide</a><br />
-        <a href="/mv-dashboard/programmers-guide/portal-reports/">Portal Reports</a><br />
+        <a href="/mv-dashboard/programmers-guide/portal-reports/"
+          >Portal Reports</a
+        ><br />
         <a href="/mv-dashboard/faq/">FAQs</a>
       </p>
     </div>
@@ -42,11 +44,25 @@
         <a href="/customer-portal/">All Docs</a>
       </p>
     </div>
+    <div class="feature">
+      <h2>POS Connect</h2>
+      <p><a href="/pos-connect/">Installation Guide</a><br /></p>
+    </div>
+    <div class="feature">
+      <h2>Smart Suite</h2>
+      <p>
+        Main (Coming Soon!)<br /></p>
+      </p>
+    </div>
+    <div class="feature">
+      <h2>Proman</h2>
+      <p>Main (Coming Soon!)<br /></p>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Features'
+  name: "Features",
 };
 </script>

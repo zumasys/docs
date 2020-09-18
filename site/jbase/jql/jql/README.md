@@ -218,7 +218,7 @@ where:
 
 ## Note
 
-> Any element of a jQL command sentence (with the exception of the command and filename) can be substituted with a macro.
+> Any element of a jQL command sentence (with the exception of the command and filename) can be substituted with a [macro](../jql-keywords-connectives/macros/README.md).
 >
 > When the REQUIRE-SELECT (or REQUIRE.SELECT) modifier is included in a jQL sentence, it ensures that a select-list must be active before processing the sentence.
 >
@@ -228,48 +228,48 @@ where:
 
 The following words and symbols have specific meanings when used in a jQL sentence. They should only be used as described later in this chapter and should not be used as user-defined dictionary names.
 
-| <!----> | <!----> | <!----> | <!----> | <!----> |
-| --- | --- | --- | --- | --- |
-| ! | # | % | & | ( |
-| / | &lt;= | &lt;&gt; | = | =&lt; |
-| \* | + | - | &gt; | &gt;&lt; |
-| A | AFTER | ALL | AN | AND |
-| ARE | AS | ASSOC | ASSOC.WITH | ASSOCIATED |
-| AVERAGE | AVG |  |  |  |
-| BEFORE | BETWEEN | BREAK-ON / BREAK.ON | BREAK-SUP | BSELECT |
-| BY-DSND / BY.DSND | BY-EXP / BY.EXP | BY-EXP-DSND / BY.EXP.DSND |  |  |
-| CALC | CALCULATE | CAPTION | CNV | COL-FILLER |
-| COL-SPACES | COL-SUPP | COL.HDG | COL.HDR | COL.SPCS |
-| COUNT | COUNT-SUPP | COUNT.SUP | COUNT.SUPP |  |
-| DATA | DBL-SPACE | DBL-SPC / DBL.SPC | DET-SUPP | DICT |
-| DISPLAY.NAME | DISPLAYLIKE | DISPLAYNAME |  |  |
-| EACH | EDELETE | ENUM | ENUMERATE | EQ |
-| ESEARCH | EVAL | EVERY |  |  |
-| FILE | FIRST | FMT | FOOTER | FOOTING |
-| FROM |  |  |  |  |
-| GE | GRAND-TOTAL | GT |
-| HDR-SUPP | HEADER | HEADING |
-| I-DUMP | ID-SUPP | ID.ONLY | ID.SUP | IF |
-| INQUIRING | ITEMS |  |  |  |
-| LE | LIKE | LIST | LIST-INDEX | LIST-LABEL |
-| LPTR |  |  |  |  |
-| MARGIN | MATCH | MATCHES | MATCHING | MAX |
-| MULTI.VALUE | MULTIVALUE |  |  |  |  |
-| NE | NI-SUPP | NI.SUPP | NO | NO-INDEX |
-| NOPAGE | NO.PAGE | NO.SPLIT | NOT | NOT.MATCHING |
-| OF | ONLY | OR |
-| PAGE | PCT | PERCENT | PERCENTAGE | PG |
-| REFORMAT | REQUIRE-INDEX | REQUIRE-SELECT | RETRIEVE |   |
-| S-DUMP | SAID | SAMPLE | SAMPLED | SAMPLING |
-| SAVING | SELECT-ONLY | SINGLE.VALUES |  SINGLE.VALUED | SORT |
-| SORT-ITEM | SPOKEN | SREFORMAT | SSELECT | ST-DUMP |
-| STAT | SUBVALUE | SUPP | said | spoken |
-| ~ | | | | |
-| T-DUMP | T-LOAD | TAPE | THE | TO |
-| TRANSPORT |  |  |  |  |
-| UNIQUE | UNLIKE | USING |
-| VERT | VERTICALLY |
-| WHEN | WITH | WITHEACH | WITHIN | WITHOUT |
+| <!---->           | <!---->         | <!---->                   | <!---->       | <!---->      |
+| ----------------- | --------------- | ------------------------- | ------------- | ------------ |
+| !                 | #               | %                         | &             | (            |
+| /                 | &lt;=           | &lt;&gt;                  | =             | =&lt;        |
+| \*                | +               | -                         | &gt;          | &gt;&lt;     |
+| A                 | AFTER           | ALL                       | AN            | AND          |
+| ARE               | AS              | ASSOC                     | ASSOC.WITH    | ASSOCIATED   |
+| AVERAGE           | AVG             |                           |               |              |
+| BEFORE            | BETWEEN         | BREAK-ON / BREAK.ON       | BREAK-SUP     | BSELECT      |
+| BY-DSND / BY.DSND | BY-EXP / BY.EXP | BY-EXP-DSND / BY.EXP.DSND |               |              |
+| CALC              | CALCULATE       | CAPTION                   | CNV           | COL-FILLER   |
+| COL-SPACES        | COL-SUPP        | COL.HDG                   | COL.HDR       | COL.SPCS     |
+| COUNT             | COUNT-SUPP      | COUNT.SUP                 | COUNT.SUPP    |              |
+| DATA              | DBL-SPACE       | DBL-SPC / DBL.SPC         | DET-SUPP      | DICT         |
+| DISPLAY.NAME      | DISPLAYLIKE     | DISPLAYNAME               |               |              |
+| EACH              | EDELETE         | ENUM                      | ENUMERATE     | EQ           |
+| ESEARCH           | EVAL            | EVERY                     |               |              |
+| FILE              | FIRST           | FMT                       | FOOTER        | FOOTING      |
+| FROM              |                 |                           |               |              |
+| GE                | GRAND-TOTAL     | GT                        |
+| HDR-SUPP          | HEADER          | HEADING                   |
+| I-DUMP            | ID-SUPP         | ID.ONLY                   | ID.SUP        | IF           |
+| INQUIRING         | ITEMS           |                           |               |              |
+| LE                | LIKE            | LIST                      | LIST-INDEX    | LIST-LABEL   |
+| LPTR              |                 |                           |               |              |
+| MARGIN            | MATCH           | MATCHES                   | MATCHING      | MAX          |
+| MULTI.VALUE       | MULTIVALUE      |                           |               |              |  |
+| NE                | NI-SUPP         | NI.SUPP                   | NO            | NO-INDEX     |
+| NOPAGE            | NO.PAGE         | NO.SPLIT                  | NOT           | NOT.MATCHING |
+| OF                | ONLY            | OR                        |
+| PAGE              | PCT             | PERCENT                   | PERCENTAGE    | PG           |
+| REFORMAT          | REQUIRE-INDEX   | REQUIRE-SELECT            | RETRIEVE      |              |
+| S-DUMP            | SAID            | SAMPLE                    | SAMPLED       | SAMPLING     |
+| SAVING            | SELECT-ONLY     | SINGLE.VALUES             | SINGLE.VALUED | SORT         |
+| SORT-ITEM         | SPOKEN          | SREFORMAT                 | SSELECT       | ST-DUMP      |
+| STAT              | SUBVALUE        | SUPP                      | said          | spoken       |
+| ~                 |                 |                           |               |              |
+| T-DUMP            | T-LOAD          | TAPE                      | THE           | TO           |
+| TRANSPORT         |                 |                           |               |              |
+| UNIQUE            | UNLIKE          | USING                     |
+| VERT              | VERTICALLY      |
+| WHEN              | WITH            | WITHEACH                  | WITHIN        | WITHOUT      |
 
 In most cases, a '-' in a compound word can be substituted for a '.' (e.g. LIST-LABEL is synonymous with LIST.LABEL), and those synonyms are also reserved. However, words in the table with a '.' have no equivalent word with a '-' (e.g. there is no ASSOC-WITH word).
 
@@ -287,17 +287,17 @@ SORT SALES WITH PART.NO = "ABC]" BY POSTCODE CUST.NAME POSTCODE TOTAL VALUE DBL-
 
 where:
 
-| <!----> | <!----> | <!----> | <!----> | <!----> |
-| --- | --- | --- | --- | --- |
-| SORT | is the jQL command. |
-| SALES | is the filename. |
-| WITH PART.NO = "ABC]" | is the selection criterion. Select all records which contain a part number that starts with ABC. |
-| BY POSTCODE | is the sort criterion. |
-| CUST.NAME POSTCODE TOTAL VALUE | is the output specification. Column 1 will contain the key of the SALES file, column 2 will contain the customer name and column 3 will contain the POSTCODE. Column 4 will contain VALUE and will be totaled at the end of the report. |
-| DBL-SPC HDR-SUPP | are the format specifications. Double-space the lines and suppress the automatic header. |
-| SAMPLE 100 | take the first 100 records as a sample |
-| (P | is an option. Redirect output to the system printer, rather than to the terminal. |
-| PART.NO, CUST.NAME, POSTCODE, VALUE | are references to data definition records which are present at the dictionary level of the SALES file. |
+| <!---->                             | <!---->                                                                                                                                                                                                                                 | <!----> | <!----> | <!----> |
+| ----------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ------- | ------- |
+| SORT                                | is the jQL command.                                                                                                                                                                                                                     |
+| SALES                               | is the filename.                                                                                                                                                                                                                        |
+| WITH PART.NO = "ABC]"               | is the selection criterion. Select all records which contain a part number that starts with ABC.                                                                                                                                        |
+| BY POSTCODE                         | is the sort criterion.                                                                                                                                                                                                                  |
+| CUST.NAME POSTCODE TOTAL VALUE      | is the output specification. Column 1 will contain the key of the SALES file, column 2 will contain the customer name and column 3 will contain the POSTCODE. Column 4 will contain VALUE and will be totaled at the end of the report. |
+| DBL-SPC HDR-SUPP                    | are the format specifications. Double-space the lines and suppress the automatic header.                                                                                                                                                |
+| SAMPLE 100                          | take the first 100 records as a sample                                                                                                                                                                                                  |
+| (P                                  | is an option. Redirect output to the system printer, rather than to the terminal.                                                                                                                                                       |
+| PART.NO, CUST.NAME, POSTCODE, VALUE | are references to data definition records which are present at the dictionary level of the SALES file.                                                                                                                                  |
 
 ## Default Data Definition Records
 

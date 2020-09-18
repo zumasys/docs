@@ -2,6 +2,6 @@
 
 <PageHeader />
 
-* [Public Installation Guide](./public-installation/README.md)
+* [Installation Guide](./installation-guide/README.md)
   
 <PageFooter />
