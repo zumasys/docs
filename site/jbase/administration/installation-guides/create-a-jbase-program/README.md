@@ -32,13 +32,14 @@ The new file can also be seen in windows explorer
 
 ![introduction-to-file-create-and-simple-program-windows: create-file_mydata](./create-file_mydata.png)
 
-### Create a directory file using CREATE-FILE command
+### Create a jBC type file using CREATE-FILE command
 
 ```
-CREATE-FILE BP TYPE=UD
+CREATE-FILE BP TYPE=JBC
 
-[ 417 ] File BP]D created , type = UD
+[ 417 ] File BP]D created , type = JD
 [ 417 ] File BP created , type = UD
+[ 417 ] File BP]MOBJECT created , type = UD
 ```
 
 Display the newly created file using LISTFILES command
@@ -50,8 +51,9 @@ PATH :C:\jBASE\DEMO                              14:34:09  17 APR 2017
 FILENAME........ TYPE   MODULO  SEP  BCKUP   CASING
 
 
-BP]D             DIR                  yes      no
+BP]D              JD        1    1    yes      no
  BP              DIR                  yes      no
+BP]MOBJECT       DIR                  yes      no
 MD]D              J4       17    1    yes      no
 MYDATA]D          J4        1    1    yes      no
  MYDATA           J4       13    1    yes      no
@@ -149,18 +151,14 @@ LIST BP
 ```
 BP............
 
-$DISPLAYSUB
-$MYTESTPROGRAM
 DISPLAYSUB
 MYTESTPROGRAM
 
 
- 4 Records Listed
+ 2 Records Listed
 ```
 
-The compiled code can also be seen in windows explorer
-
-![introduction-to-file-create-and-simple-program-windows: compiledcode](./compiledcode.png)
+Note that the compiled code for each program is stored in the OBJECT directory (i.e. BP,OBJECT or BP]MOBJECT).
 
 ### Catalog the basic program using CATALOG command
 
