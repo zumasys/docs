@@ -93,36 +93,36 @@ jBASE 5.6 patch release includes Patches PN5\_50468 through PN5\_60512
 | <!----> | <!----> |
 | --- | --- |
 | Patch | Description |
-| [5\_50468](./PN5_50468) | Add support for encryption to UD file types. |
-| [5\_50469](./PN5_50469) | jQL not being able to access encrypted files. |
-| [5\_50470](./PN5_50470) | Add support for encryption to spooler. |
-| [5\_50471](./PN5_50471) | Add extensions to CREATE-FILE to enable encryption. |
-| [5\_50504](./PN5_50504) | The Z and ZH commands do not allow concurrent background tasks |
-| [5\_50507](./PN5_50507) | jQL: Null mutli-values do not display correctly |
-| [5\_50508](./PN5_50508) | jRCS: Incorrect environment variable used for setting telnet parameter used in multi-session licensing |
-| [5\_50509](./PN5_50509) | Case Independence: Extend J4 and JP file creation to allow case insensitive record IDs |
-| [5\_50511](./PN5_50511) | jRCS: Additional code added to insert connection details into \*NIX utmp login record. This facilitates correct identification of client for multi-session licensing. |
-| [5\_50513](./PN5_50513) | Case Independence: The 'not equal' operator (# &lt;&gt; &gt;&lt; NE) fails when comparing a variable with the concatenation of a literal and a variable |
-| [5\_50514](./PN5_50514) | LIST-ITEM command does not display an error when no records are selected |
-| [5\_50515](./PN5_50515) | Case Independence: The CASING statement and CASE command work differently to D3 |
-| [5\_50516](./PN5_50516) | Case Independence: Allow SUBROUTINE names to be case insensitive. |
-| [5\_50519](./PN5_50519) | Case Independence: Various changes to jFormatCode and jBC utilities related to case independence. |
-| [5\_50520](./PN5_50520) | jSQL: ODBC dictionary parsing issue |
-| [5\_50524](./PN5_50524) | Spooler: Update help page for the Windows lp command |
-| [5\_50525](./PN5_50525) | jQL holding on to previous results |
-| [5\_50526](./PN5_50526) | jQL issue with null associated multi-value sets when doing a division operation |
-| [5\_50528](./PN5_50528) | jQL: Incorrect results when using BY-EXP expressions with Print Limiting |
-| [5\_50533](./PN5_50533) | Fix to **jed** so that it recognizes DICT in any case, e.g. dict, Dict, etc. |
-| [5\_50535](./PN5_50535) | Case Independence: Correct defaults for case insensitivity |
-| [5\_50536](./PN5_50536) | Transaction Journaling: Automatic logset switching |
-| [5\_50537](./PN5_50537) | Spooler: Provide compatibility with the D3 SP-ASSIGN syntax when assigning the number of copies |
-| [5\_50538](./PN5_50538) | Transaction Journaling: Add 64 bit file support to TJ log files |
-| [5\_60481](./PN5_60481) | Case Independence: Add a case insensitive version of HASH4 files |
-| [5\_60487](./PN5_60487) | Enhance reliability of mutexes especially on Windows and with memory allocation |
-| [5\_60493](./PN5_60493) | Indexes require 'write' permissions for other users to be able to access it with commands like LIST-INDEX and KEY-SELECT |
-| [5\_60498](./PN5_60498) | Audit Logging: Don't log the DELETE statement if the item does not exist |
-| [5\_60503](./PN5_60503) | Stop the Z command from consuming memory unnecessarily |
-| [5\_60512](./PN5_60512) | D3 compatibility enhancements: ! in PERFORM/EXECUTE and SYSTEM(19) |
+| [5\_50468](./pn5_50468/README.md) | Add support for encryption to UD file types. |
+| [5\_50469](./pn5_50469/README.md) | jQL not being able to access encrypted files. |
+| [5\_50470](./pn5_50470/README.md) | Add support for encryption to spooler. |
+| [5\_50471](./pn5_50471) | Add extensions to CREATE-FILE to enable encryption. |
+| [5\_50504](./pn5_50504) | The Z and ZH commands do not allow concurrent background tasks |
+| [5\_50507](./pn5_50507) | jQL: Null mutli-values do not display correctly |
+| [5\_50508](./pn5_50508) | jRCS: Incorrect environment variable used for setting telnet parameter used in multi-session licensing |
+| [5\_50509](./pn5_50509) | Case Independence: Extend J4 and JP file creation to allow case insensitive record IDs |
+| [5\_50511](./pn5_50511) | jRCS: Additional code added to insert connection details into \*NIX utmp login record. This facilitates correct identification of client for multi-session licensing. |
+| [5\_50513](./pn5_50513) | Case Independence: The 'not equal' operator (# ; <>; ><; NE) fails when comparing a variable with the concatenation of a literal and a variable |
+| [5\_50514](./pn5_50514) | LIST-ITEM command does not display an error when no records are selected |
+| [5\_50515](./pn5_50515) | Case Independence: The CASING statement and CASE command work differently to D3 |
+| [5\_50516](./pn5_50516) | Case Independence: Allow SUBROUTINE names to be case insensitive. |
+| [5\_50519](./pn5_50519) | Case Independence: Various changes to jFormatCode and jBC utilities related to case independence. |
+| [5\_50520](./pn5_50520) | jSQL: ODBC dictionary parsing issue |
+| [5\_50524](./pn5_50524) | Spooler: Update help page for the Windows lp command |
+| [5\_50525](./pn5_50525) | jQL holding on to previous results |
+| [5\_50526](./pn5_50526) | jQL issue with null associated multi-value sets when doing a division operation |
+| [5\_50528](./pn5_50528) | jQL: Incorrect results when using BY-EXP expressions with Print Limiting |
+| [5\_50533](./pn5_50533) | Fix to **jed** so that it recognizes DICT in any case, e.g. dict, Dict, etc. |
+| [5\_50535](./pn5_50535) | Case Independence: Correct defaults for case insensitivity |
+| [5\_50536](./pn5_50536) | Transaction Journaling: Automatic logset switching |
+| [5\_50537](./pn5_50537) | Spooler: Provide compatibility with the D3 SP-ASSIGN syntax when assigning the number of copies |
+| [5\_50538](./pn5_50538) | Transaction Journaling: Add 64 bit file support to TJ log files |
+| [5\_60481](./pn5_60481) | Case Independence: Add a case insensitive version of HASH4 files |
+| [5\_60487](./pn5_60487) | Enhance reliability of mutexes especially on Windows and with memory allocation |
+| [5\_60493](./pn5_60493) | Indexes require 'write' permissions for other users to be able to access it with commands like LIST-INDEX and KEY-SELECT |
+| [5\_60498](./pn5_60498) | Audit Logging: Don't log the DELETE statement if the item does not exist |
+| [5\_60503](./pn5_60503) | Stop the Z command from consuming memory unnecessarily |
+| [5\_60512](./pn5_60512) | D3 compatibility enhancements: ! in PERFORM/EXECUTE and SYSTEM(19) |
 
 ## New Commands
 
@@ -175,5 +175,4 @@ jBC Statements/Functions
 
 [Linux Installation Guide](jbase-56-linux-installation-guide "Linux Installation Guide")
 
-  
 <PageFooter />

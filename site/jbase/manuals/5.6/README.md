@@ -41,5 +41,4 @@ To obtain an evaluation version of jBASE, please email multivalue@zumasys.com.
 
 Back to [Manuals](./../README.md)
 
-  
 <PageFooter />
