@@ -96,22 +96,22 @@ jBASE 5.6 patch release includes Patches PN5\_50468 through PN5\_60512
 | [5\_50468](./pn5_50468/README.md) | Add support for encryption to UD file types. |
 | [5\_50469](./pn5_50469/README.md) | jQL not being able to access encrypted files. |
 | [5\_50470](./pn5_50470/README.md) | Add support for encryption to spooler. |
-| [5\_50471](./pn5_50471) | Add extensions to CREATE-FILE to enable encryption. |
-| [5\_50504](./pn5_50504) | The Z and ZH commands do not allow concurrent background tasks |
-| [5\_50507](./pn5_50507) | jQL: Null mutli-values do not display correctly |
-| [5\_50508](./pn5_50508) | jRCS: Incorrect environment variable used for setting telnet parameter used in multi-session licensing |
-| [5\_50509](./pn5_50509) | Case Independence: Extend J4 and JP file creation to allow case insensitive record IDs |
-| [5\_50511](./pn5_50511) | jRCS: Additional code added to insert connection details into \*NIX utmp login record. This facilitates correct identification of client for multi-session licensing. |
-| [5\_50513](./pn5_50513) | Case Independence: The 'not equal' operator (# ; <>; ><; NE) fails when comparing a variable with the concatenation of a literal and a variable |
-| [5\_50514](./pn5_50514) | LIST-ITEM command does not display an error when no records are selected |
-| [5\_50515](./pn5_50515) | Case Independence: The CASING statement and CASE command work differently to D3 |
-| [5\_50516](./pn5_50516) | Case Independence: Allow SUBROUTINE names to be case insensitive. |
-| [5\_50519](./pn5_50519) | Case Independence: Various changes to jFormatCode and jBC utilities related to case independence. |
-| [5\_50520](./pn5_50520) | jSQL: ODBC dictionary parsing issue |
-| [5\_50524](./pn5_50524) | Spooler: Update help page for the Windows lp command |
-| [5\_50525](./pn5_50525) | jQL holding on to previous results |
-| [5\_50526](./pn5_50526) | jQL issue with null associated multi-value sets when doing a division operation |
-| [5\_50528](./pn5_50528) | jQL: Incorrect results when using BY-EXP expressions with Print Limiting |
+| [5\_50471](./pn5_50471/README.md) | Add extensions to CREATE-FILE to enable encryption. |
+| [5\_50504](./pn5_50504/README.md) | The Z and ZH commands do not allow concurrent background tasks |
+| [5\_50507](./pn5_50507/README.md) | jQL: Null mutli-values do not display correctly |
+| [5\_50508](./pn5_50508/README.md) | jRCS: Incorrect environment variable used for setting telnet parameter used in multi-session licensing |
+| [5\_50509](./pn5_50509/README.md) | Case Independence: Extend J4 and JP file creation to allow case insensitive record IDs |
+| [5\_50511](./pn5_50511/README.md) | jRCS: Additional code added to insert connection details into \*NIX utmp login record. This facilitates correct identification of client for multi-session licensing. |
+| [5\_50513](./pn5_50513/README.md) | Case Independence: The 'not equal' operator (# ; <>; ><; NE) fails when comparing a variable with the concatenation of a literal and a variable |
+| [5\_50514](./pn5_50514/README.md) | LIST-ITEM command does not display an error when no records are selected |
+| [5\_50515](./pn5_50515/README.md) | Case Independence: The CASING statement and CASE command work differently to D3 |
+| [5\_50516](.) | Case Independence: Allow SUBROUTINE names to be case insensitive. |
+| [5\_50519](.) | Case Independence: Various changes to jFormatCode and jBC utilities related to case independence. |
+| [5\_50520](./pn5_50520/README.md) | jSQL: ODBC dictionary parsing issue |
+| [5\_50524](./pn5_50524/README.md) | Spooler: Update help page for the Windows lp command |
+| [5\_50525](./pn5_50525/README.md) | jQL holding on to previous results |
+| [5\_50526](./pn5_50526/README.md) | jQL issue with null associated multi-value sets when doing a division operation |
+| [5\_50528](./pn5_50528/README.md) | jQL: Incorrect results when using BY-EXP expressions with Print Limiting |
 | [5\_50533](./pn5_50533) | Fix to **jed** so that it recognizes DICT in any case, e.g. dict, Dict, etc. |
 | [5\_50535](./pn5_50535) | Case Independence: Correct defaults for case insensitivity |
 | [5\_50536](./pn5_50536) | Transaction Journaling: Automatic logset switching |
