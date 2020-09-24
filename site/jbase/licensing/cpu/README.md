@@ -4,25 +4,28 @@
 
 ## jBASE Licensing for release 5.8 onwards
 
-**Preliminary**
+### Preliminary
 
 There is a new licensing scheme for jBASE from release 5.8 onwards. The old licensing scheme will still be supported for the time being.
 
-The main features of the new scheme are
+The main features of the new scheme are:  
+
 • It allows for CPU based licensing.  
 • Licenses need on-line activation and validation.  
 • Dynamic licenses (later release).  
 
-It is very important to note that the new licensing is server based. Once the license has been activated and applied (see later), then after a 7-day period, jBASE will begin to validate the license is still valid. Once validated, the cycle starts again.
+It is very important to note that the new licensing is server based.  
+
+Once the license has been activated and applied (see later), then after a 7-day period, jBASE will begin to validate the license is still valid. Once validated, the cycle starts again.
 
 If, after a further 7 days (i.e. 14 days in total), jBASE cannot re-validate the license, then jBASE will stop new connections.
 
-While this document explains all the detail of jBASE licensing, the basic operation is straightforward and involves
-• Obtaining a licence key from Zumasys
-• Activating and applying the license by running the following command
+While this document explains all the detail of jBASE licensing, the basic operation is straightforward and involves:  
+• Obtaining a licence key from Zumasys  
+• Activating and applying the license by running the following command:  
 
 ```bash
-$ jlicense activate --license=XXXX-XXXX-XXXX-XXXX
+$ jlicense activate --license=XXXX-XXXX-XXXX-XXXX-XXXX-XXXX
 ```
 
 For developers, a free 2-user license is available, and this is documented later.
@@ -33,10 +36,10 @@ When you purchase jBASE from Zumasys or one of their partners, you will be issue
 
 ## Activating a license
 
-Once you have been supplied with a license key in the format XXXX-XXXX-XXXX-XXXX, you need to activate and apply it using the ‘jlicense’ command. Note that once activated, it will be tied to the jBASE installation where you ran the activate from and will no longer be available unless you follow the deactivation procedure, detailed later.
+Once you have been supplied with a license key in the format XXXX-XXXX-XXXX-XXXX-XXXX-XXXX, you need to activate and apply it using the ‘jlicense’ command. Note that once activated, it will be tied to the jBASE installation where you ran the activate from and will no longer be available unless you follow the deactivation procedure, detailed later.
 
 ```bash
-$ jlicense activate --license=ABCD-EFGH-IJKL-MNOP
+$ jlicense activate --license=ABCD-EFGH-IJKL-MNOP-QRST-UVWX
 
 License is valid. Status is active
 License Key        : ABCD-EFGH-IJKL-MNOP
@@ -100,7 +103,7 @@ License successfully activated for 4 CPUs at 12:50:36  08 SEP 2020
 
 The above steps do not require any communication with the Zumasys licensing server nor any other internet access.
 
-As you are warned by the process, it will overwrite any existing license definition in $JBCRELEASEDIR/config/jbase_cpu_license, so back that up if necessary. What is more likely is that you will be given a new license which you will activate with something like this (as documented earlier)
+As you are warned by the process, it will overwrite any existing license definition in $JBCRELEASEDIR/config/jbase_cpu_license, so back that up if necessary. What is more likely is that you will be given a new license which you will activate with something like this (as documented earlier):  
 
 ```bash
 $ jlicense activate --license=XXXX-XXXX-XXXX-XXXX
@@ -114,10 +117,10 @@ The above steps can be repeated as often as is required until a resolution to th
 
 ## Deactivation and moving systems
 
-From time to time you will want to move your jBASE system elsewhere. This could be for a number of reasons
-• You re-install it on the same system
-• Your machine fails and you move to a backup machine.
-• You upgrade to a different machine.
+From time to time you will want to move your jBASE system elsewhere. This could be for a number of reasons:  
+• You re-install it on the same system.  
+• Your machine fails and you move to a backup machine.  
+• You upgrade to a different machine.  
 
 In these cases, your jBASE license is portable. It is not tied to any particular machine or architecture. It is tied to the jBASE installation when you activated the license. This means if you save/restore your jBASE install files, it is likely you will need to deactivate and activate your license again.
 
