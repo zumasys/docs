@@ -8,7 +8,7 @@ The following methods can be utilized from the **\$system** class:
 - [\$system::getuserinfo()](../class-method-$systemgetuserinfo()/README.md)
 - $system::getbinaries()
 - $system::getroutines()
-- [\$system::isroutine()](../class-method-$systemgetisroutine()/README.md)
+- [\$system::isroutine()](../class-method-$systemisroutine()/README.md)
 - [\$system::getfiles()](../class-method-$systemgetfiles()/README.md)
 - [\$system::onexit()](../class-method-$systemonexit()/README.md)
 - [\$system::onterminate()](../class-method-$systemonterminate()/README.md)
