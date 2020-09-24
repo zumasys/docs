@@ -4,11 +4,12 @@
 
 The following methods can be utilized from the **\$system** class:
 
-- [\$system::getemulation()](./../class-method-$systemgetemulation%28%29)
-- [\$system::getuserinfo()](./../class-method-$systemgetuserinfo%28%29)
-- $system::getroutines()
+- [\$system::getemulation()](../class-method-$systemgetemulation()/README.md)
+- [\$system::getuserinfo()](../class-method-$systemgetuserinfo()/README.md)
 - $system::getbinaries()
-- [\$system::getfiles()](./../class-method-$systemgetfiles%28%29)
+- $system::getroutines()
+- [\$system::isroutine()](../class-method-$systemgetisroutine()/README.md)
+- [\$system::getfiles()](../class-method-$systemgetfiles()/README.md)
 - [\$system::onexit()](../class-method-$systemonexit()/README.md)
 - [\$system::onterminate()](../class-method-$systemonterminate()/README.md)
 
