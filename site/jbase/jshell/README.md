@@ -7,11 +7,9 @@
 <badge text='jshell' vertical='middle' />
 <badge text='shell' vertical='middle' />
 
-## Description
+The jsh command invokes jSHELL - the jBASE shell. It can be invoked as your login shell by using the normal system administration software supplied with the platform. Either via .bat files (Windows) or .profiles (Unix).
 
-The jsh command invokes jSHELL - the jBASE shell. It can be invoked as your login shell by using the normal system administration software supplied with the platform. Either via .bat files (Windows) or .profiles (Unix ).
-
-jSHELL has been designed to ease migration from older systems, and to overcome some of the differences between various platform command line environments. The more primitive features seen on some older platforms (such as the "dot" command stacker) have been replaced with easier to use and more functional equivalents.
+jSHELL has been designed to ease migration from other MV platforms, and to overcome some of the differences between various platform command line environments. The more primitive features seen on some older platforms (such as the "dot" command stacker) have been replaced or augmented with easier to use and more functional equivalents.
 
 The most noticeable difference between jSHELL and other command line shells, such as the Unix Korn shell (ksh), is that command line arguments such as "\*" and "?" are not expanded by the shell but passed directly to the command that has been invoked. In same manner, quoted strings (such as "quoted string") are passed directly to the command with quotes intact. This enables query language statements such as:
 
@@ -33,13 +31,13 @@ Beyond this convenient feature, jSHELL also offers many significant advantages o
 - Alternate shell/command line invocation
 - Command search and recall
 - Active select list prompt
-- Proc detection and execution
+- PROC and paragraph detection and execution
 - Type-ahead is supported
 
 The command is as:
 
 ```
-jsh - -c command -s shell -p prompt
+jsh - -a account -c command -s shell -p prompt
 ```
 
 where option may be:
@@ -47,7 +45,8 @@ where option may be:
 | Option | Description |
 | --- | --- |
 | - | Execute proc from MD/VOC file with same name as user login. (on Unix the .profile and .jshrc files are processed) |
-| -c command | Specifies that a jsh process should be spawned to execute command. When the command terminates, the jsh process will also terminate. |
+| -a account | Log in to the specified account. Usually used in conjunction with the -c option to run a command in the context of a particular account. If the account requires a password, append it to the account with a comma separator. _The -a option may only be used when jsh is invoked from an external process such as bash or cron, not from within jBASE._ <badge text='version-5.8+' vertical='middle' /> |
+| -c command | Specifies that a jsh process should be spawned to execute command. When the command terminates, the jsh process will also terminate. If the command to be executed requires arguments, enclose the command and it's arguments in double-quotes. If any arguments require double-quotes, use a backslash (\\) to escape the argument quotes. |
 | -s shell | Specifies which shell emulation to use when executing jsh. The jsh will default to the previous emulation used by the current port. |
 | -p prompt | Specifies the prompt to be used while executing jsh. |
 | -t | Opens the tty device and accepts commands from the keyboard when the jSHELL has been invoked to process a command input file. The default action is to exit the shell once the processing of the input file has been completed. |
