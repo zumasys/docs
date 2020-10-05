@@ -8,7 +8,7 @@
 [5.6.1 Release Notes](./5.6.1/README.md)  
 [5.6.2 Release Notes](./5.6.2/README.md)  
 [5.6.3 Release Notes](./5.6.3/README.md)  
-[5.6.5, 5.6.6, 5.6.6.1, 5.6.6.2 Release Notes](./5.6.5&5.6.6&5.6.6.1&5.6.6.2/README.md)  
+[5.6.5, 5.6.6, 5.6.6.1, 5.6.6.2 Release Notes](./5.6.5-and-5.6.6-and-5.6.6.1-and-5.6.6.2/README.md)  
 [5.7.0 Release Notes](./5.7.0/README.md)  
 [5.7.1 Release Notes](./5.7.1/jbase-5.7.1-release-notes/README.md)  
 [5.7.2 Release Notes](./5.7.2/jbase-5.7.2.1-release-notes/README.md)  
