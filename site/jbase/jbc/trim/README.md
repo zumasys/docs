@@ -29,6 +29,8 @@ The **type** of trim available are as follows:
 | E | removes trailing spaces and tabs |
 | D | removes leading, trailing and redundant spaces and tabs. |
 
+**Type** is case insensitive (effective as of jBASE 5.8).
+
 An example of use is as:
 
 ```
