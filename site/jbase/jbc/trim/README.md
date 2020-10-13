@@ -4,7 +4,7 @@
 
 ## Description
 
-The **TRIM** statement allows characters to be removed from a string in a number of ways. It takes the general form:
+The **TRIM** function allows characters to be removed from a string in a number of ways. It takes the general form:
 
 ```
 TRIM(expression1 {, expression2{, type}})
@@ -16,7 +16,7 @@ Where:
 
 **expression2** may optionally specify the character to remove from the string. If not specified then the space character is assumed.
 
-The **type** of trim available are as follows:
+The **type** of the TRIM() function can be one of the following single letters:
 
 | Type | Operation |
 | --- | --- |
