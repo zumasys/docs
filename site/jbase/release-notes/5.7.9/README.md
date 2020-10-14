@@ -18,8 +18,9 @@ This release includes various internal bug fixes and the following enhancements 
 - [PN845](./pn845/README.md) - jQL: Conversion is processed in a named-attribute.  
 - [PN846](./pn846/README.md) - jQL: A query involving F and A correlatives with an attribute pointing to a sub-value list hangs.  
 - [PN882](./pn882/README.md) - jQL: BREAK-ON issue when only one detail line [D3 emulation].  
-- [PN885](./pn885/README.md) - Output of BASIC command different on Windows vs Linux.  
-- [PN887](./pn887/README.md) - jQL: Calling subroutine on attribute 7 returns incorrect value.  
+- [PN885](./pn885/README.md) - jBC: Output of BASIC command different on Windows vs Linux.  
+- [PN886](./pn886/README.md) - jQL: Calling subroutine on attribute 7 returns incorrect value.  
+- [PN887](./pn887/README.md) - jQL: Problem with **SELECT** and controlling attributes.  
 - [PN892](./pn892/README.md) - jQL: access(6) not returning the correct value in D3 emulation.  
 - [PN895](./pn895/README.md) - jQL: BY-EXP sort is case sensitive.  
 - [PN896](./pn896/README.md) - New option for jdiag to append config-strings information to jdiag.out.  
