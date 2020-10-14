@@ -110,8 +110,8 @@ Attribute 2 of the item @AUDIT\_CONFIG in file @AUDIT contains the options. Each
 | +G | Copy the Global audit logging definition from @AUDIT\_CONFIG in DICT @AUDIT. Basically then the definition for this file is reset to the default. |
 | +Ttype | Change the format of the output to 'type' where 'type' can be JSON, MV, CSV or TAB. |
 | +N | New definition -- this clears all existing definitions. |
-| +M | Turn on audit logging, equivalent to -R,-D,-W. |
-| -M | Turn off audit logging, equivalent to +R,+D.+W. |
+| +M | Turn on audit logging, equivalent to +R,+D,+W. |
+| -M | Turn off audit logging, equivalent to -R,-D,-W. |
 | +EEnvName | Add the environment variable EnvName to the audit log record, e.g. +EPATH. |
 | -EEnvName | Remove the logging of the environment variable EnvName. |
 | -E\* | Remove the logging of all environment variables. |
