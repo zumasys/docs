@@ -6,29 +6,46 @@ This release includes various internal bug fixes and the following enhancements 
 
 ## Patches
 
-!!!!!!!!!all of these need to be replaced with 5.7.9 release notes!!!!!!!!!!!!!!
-- [PN770](./PN770/README.md) - jQL: A-correlative with N(dict) using a translate does not return all multi-values
-- [PN773](./pn773/README.md) - jQL: T-correlative causes memory error
-- [PN776](./pn776/README.md) - jQL: Multiple Controlling/Dependent instances cause jQL to hang
-- [PN779](./pn779/README.md) - jQL: Missing results sorting on an alphanumeric field
-- [PN797](./pn797/README.md) - jQL: ACCESS(6) is not being updated for each multi-value when using BY-EXP
-- [PN781](./pn781/README.md) - jshow does not recognize Nouns in the MD
-- [PN782](./pn782/README.md) - jQL: Spaces handled incorrectly in A-correlative
-- [PN791](./pn791/README.md) - jQL: Nested A-correlative aborts process
-- [PN810](./pn810/README.md) - jQL: SUM correlative function behaves differently in D3
-- [PN813](./pn813/README.md) - jQL: Math operations in D3 emulation should treat null as 0
-- [PN816](./pn816/README.md) - jrestore fails on large OS files
+- [PN720](./PN720/README.md) - jQL: Memory Leak creating an index with an A-correlative.  
+- [PN779](./pn779/README.md) - jQL - Query using range criteria on right-justified dictionaries with alphanumeric values does not sort correctly.  
+- [PN797](./pn797/README.md) - jQL: ACCESS(6) is not being updated for each value when using BY-EXP.  
+- [PN810](./pn810/README.md) - jQL: A Sum operation of an A or F correlative operates on the entire attribute when it should be operating on each multi-value and, depending on the emulation, each sub-value.  
+- [PN811](./pn811/README.md) - jQL: Erroneous text appears on BREAK-ONE line.  
+- [PN812](./pn812/README.md) - jQL: Dictionary subroutine not operating on sub-values.
+- [PN813](./pn813/README.md) - jQL: Math operations in D3 emulation should treat null as 0.  
 - [PN818](./pn818/README.md) - jQL: Listing multi-valued/sub-valued data returns the wrong delimiters
-- [PN829](./pn829/README.md) - Unable to CATALOG subroutines in a case insensitive manner
-
+- [PN828](./pn828/README.md) - jQL: In D3 emulation, underlining of BREAK-ON totals is the default.  
+- [PN845](./pn845/README.md) - jQL: Conversion is processed in a named-attribute.  
+- [PN846](./pn846/README.md) - jQL: A query involving F and A correlatives with an attribute pointing to a sub-value list hangs.  
+- [PN882](./pn882/README.md) - jQL: BREAK-ON issue when only one detail line [D3 emulation].  
+- [PN885](./pn885/README.md) - Output of BASIC command different on Windows vs Linux.  
+- [PN887](./pn887/README.md) - jQL: Calling subroutine on attribute 7 returns incorrect value.  
+- [PN892](./pn892/README.md) - jQL: access(6) not returning the correct value in D3 emulation.  
+- [PN895](./pn895/README.md) - jQL: BY-EXP sort is case sensitive.  
+- [PN896](./pn896/README.md) - New option for jdiag to append config-strings information to jdiag.out.  
+- [PN906](./pn906/README.md) - Add the ability to temporarily run a program as unlicensed.
+- [PN911](./pn911/README.md) - "&SAVEDLISTS&" argument not accepted by PROC/U01AD.  
+- [PN967](./pn967/README.md) - jQL: Exploded sort causes single value data issue.  
 
 ## Notes
 
-!!!!!!!!!!!need to reword this!!!!!!!!!
-There have been several new configuration options added to the **D3** emulation. If you are running with a variant of the **D3** emulation then the best way forward would be to change your emulation settings to:
+>There have been several new configuration options added to the **D3** emulation.  
+>If you are running with a variant of our **D3** emulation, then the best way forward would be to change your emulation settings to something similar to the following:
+
+```
+jbased3:
+   dup = d3
+   named_common = unassigned
+   md_int_only = true
+   md_int_only_emulate_jbase3 = true
+```
+
+>This will ensure that you continue to make use of any changes made to the standard D3 emulation.  
+>The modifications you employ may be different that those above.
 
 ## New Commands
 
+-
 
 Back to [Release Notes](./../../README.md)
   

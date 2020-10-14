@@ -18,6 +18,7 @@
 [5.7.6 Release Notes](./5.7.6/jbase-5.7.6-release-notes/README.md)  
 [5.7.7 Release Notes](./5.7.7/jbase-5.7.7-release-notes/README.md)  
 [5.7.8 Release Notes](./5.7.8/README.md)  
+[5.7.9 Release Notes](./5.7.9/README.md)
 
 [Back to Knowledgebase](./../README.md)  
 

@@ -4,7 +4,7 @@
 
 ## Description
 
-Add the ability to run a program as unlicensed
+Add the ability to temporarily run a program as unlicensed
 
 ## Previous Release Behavior
 

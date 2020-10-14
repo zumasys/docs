@@ -3,7 +3,7 @@
 <PageHeader />
 
 ## Description
-Queries using a range selection criteria on right-justustified dictionaries involving alphanumeric values does not sort correctly.
+Queries using a range selection criteria on right-justified dictionaries involving alphanumeric values does not sort correctly.
 
 ## Previous Release Behavior
 Given values of:
