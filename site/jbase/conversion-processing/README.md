@@ -16,6 +16,7 @@
 [g-conversion](./g-conversion/README.md)  
 [i-types](./i-types/README.md)  
 [jbcuserconversions](./jbcuserconversions/README.md)  
+[last-function](./last-function/README.md)  
 [l-conversion](./l-conversion/README.md)  
 [literal-operand](./literal-operand/README.md)  
 [mc--conversion](./mc--conversion/README.md)  

@@ -182,6 +182,7 @@ The following is a list of I-type functions which can be used directly in jBASE 
 | ISNULL |  | ISNULL |
 | ISNULLS |  | ISNULLS |
 | ITYPE |  | ITYPE |
+|  | LAST | |
 | LEN | LEN |  |
 | LENS | LENS |  |
 | LES | LES |  |
