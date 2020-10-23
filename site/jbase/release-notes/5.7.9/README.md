@@ -17,7 +17,7 @@ This release includes various internal bug fixes and the following enhancements 
 - [PN828](./pn828/README.md) - jQL: In D3 emulation, underlining of BREAK-ON totals is the default.  
 - [PN845](./pn845/README.md) - jQL: Conversion is processed in a named-attribute.  
 - [PN846](./pn846/README.md) - jQL: A query involving F and A correlatives with an attribute pointing to a sub-value list hangs.  
-- [PN882](./pn882/README.md) - jQL: BREAK-ON issue when only one detail line [D3 emulation].   
+- [PN882](./pn882/README.md) - jQL: BREAK-ON issue when only one detail line [D3 emulation].  
 - [PN884](./pn884/README.md) - jQL erroneously repeating multi-values.  
 - [PN885](./pn885/README.md) - jBC: Output of BASIC command different on Windows vs Linux.  
 - [PN886](./pn886/README.md) - jQL: Calling subroutine on attribute 7 returns incorrect value.  
