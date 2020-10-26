@@ -30,7 +30,7 @@ This protocol is currently implemented by the following jBASE components:
 
 ## Configuring jAGENT
 
-### Command Syntaz
+### Command Syntax
 
 ```
 jbase_agent [service options] [options]
