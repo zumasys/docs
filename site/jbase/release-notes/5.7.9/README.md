@@ -28,11 +28,15 @@ This release includes various internal bug fixes and the following enhancements 
 - [PN906](./pn906/README.md) - Add the ability to temporarily run a program as unlicensed.
 - [PN911](./pn911/README.md) - "&SAVEDLISTS&" argument not accepted by PROC/U01AD.  
 - [PN967](./pn967/README.md) - jQL: Exploded sort causes single value data issue.  
+- [PN976](./pn976/README.md) - jQL: BREAK-ON totals accumulate.  
+- [PN980](./pn980/README.md) - jQL: Nulls are converted to zero when using a substring in A/F correlatives
+- [PN985](./pn985/README.md) - Make **end** a synonym of **clearselect**  
+
 
 ## Notes
 
 >There have been several new configuration options added to the **D3** emulation.  
->If you are running with a variant of our **D3** emulation, then the best way forward would be to change your emulation settings to something similar to the following:
+>If you are running with a variant of our **D3** emulation (or any custom emulation based on a standard one), then the best way forward would be to change your emulation settings to something similar to, for example, the following:
 
 ```
 jbased3:
@@ -42,8 +46,13 @@ jbased3:
    md_int_only_emulate_jbase3 = true
 ```
 
->This will ensure that you continue to make use of any changes made to the standard D3 emulation.  
->The modifications you employ may be different that those above.
+>In this example, the **dup = d3** entry will inherit all configuration options in the **d3** section. If the **d3** section contains any **dup** entries then they will also be inherited, and so on.  All other configuration settings below the **dup** line are either new or will override the inherited setting.  
+>
+>This will ensure that you continue to make use of any changes made to the standard **D3** emulation.  
+>
+>The modifications you employ may be different that those above.  
+>
+>Use the **config-strings** command to review your configuration.
 
 ## New Commands
 

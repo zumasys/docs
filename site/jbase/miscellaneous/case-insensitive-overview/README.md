@@ -181,21 +181,21 @@ Fields within the dictionary items are not yet full implemented. Attribute 1 and
 This command displays the emulation options for a given emulation, the current emulation being the default if not specified.
 
 ```
-cmd:           config-strings
-Description:   Displays jBASE Config_EMULATE settings.
-Usage:         config-strings {options}
-               config-strings -h | -help | -?
+Description: Displays jBASE Config_EMULATE settings.
+Usage:      config-strings {options}
+            config-strings -h | -help | -?
 
 Options:
    -a -all, display all configuration options indicating which ones
             are set and which are unassigned.
    -c -compact, display in compact format: key = value
-   -e -emulation <<mode>>, display section for emulation <<mode>>
    -j{n} -json{n}, output is in JSON, where "n" specifies the JSON format.
                    Refer to the documentation for the $tojson() method.
                    This option produces an object with two embedded objects:
                       "header", e.g.
                            {
+                               "jbcreleasedir":"/opt/jbase/CurrentVersion"
+                               "jbcglobaldir":"/opt/jbase/CurrentVersion"
                                "emulation":"jbase",
                                "system":"athens",
                                "date":"06 feb 2019",
@@ -203,17 +203,13 @@ Options:
                                "user":"theaetetus"
                            },
                        "emulation" is an object with the emulation settings
-   -l -list,  list sections in config_EMULATE
-   -@, display @ values
+   -@, display @(-n) values
 
 Examples:
    config-strings           display current emulation settings.
    config-strings -j        display current emulation settings, output as JSON
    config-strings -a        display all configuration settings
    config-strings -a -j1    display all settings, output as JSON and is formatted
-   config-strings -e prime  display settings for the prime emulation
-   config-strings -e d3 -@  display settings and @ values for the d3 emulation
-   config-strings -l        list sections in Config_EMULATE.
 ```
 
 ### jFormatCode
@@ -248,9 +244,9 @@ e.g:     jFormatCode -file /home/account1 -quiet -replace -no_backup my_prog.b
 
 ### CASE
 
-New command to control case sensitivity at runtime.
+Controls case sensitivity at runtime.
 
-One issue within jBASE is that some commands and functions will behave differently if strings are case insensitive. It may be that 99% of the time its not an issue but when it is you can do:
+One issue within jBASE is that some commands and functions will behave differently if strings are case insensitive. It may be that 99% of the time it's not an issue but when it is you can do:
 
 To disable:
 
@@ -258,7 +254,7 @@ To disable:
 CASE OFF
 ```
 
-after issuing command case sensitivity will be disabled.
+after issuing the above command, case sensitivity will be disabled.
 
 To enable it again simply do:
 
@@ -279,7 +275,7 @@ CASE ON
 
 ### CASING
 
-Just like the new CASE command, within a jBC program you may need to disable case insensitivity. This new jBC statement will simply disable **case\_insensitive\_runtime\_strings** from within a jBC program, e.g.
+Just like the **CASE** command, within a jBC program you may need to disable case insensitivity. This jBC statement will simply disable **case\_insensitive\_runtime\_strings** from within a jBC program, e.g.
 
 ```
 x = 'HELLO'
@@ -298,9 +294,35 @@ match
 
 ## Miscellaneous
 
-For new users to jBASE there is now Pick style command stack in the jShell, .L, .X, .C.
+For new users to jBASE there is Pick style command stack in the jShell.
 
-Just enough to help with the transition.
+```
+jsh ~ -->.?
+
+Username-based command stack.
+Maximum number of stack entries:    100
+Current number of stack entries:      7
+
+.? | .h     Display help
+.a{#}text   Append 'text' to entry '#' [if '#' omitted then appends to entry 1]
+.c#/s1/s2/* Change 's1' to 's2' in entry '#', * = change all stack entries
+.d#         Delete entry number '#'
+.f text     Find first occurrence of 'text', move to top of stack
+.l          List first page
+.ln         List first 'n' lines
+.lm-n       List entries 'm' through 'n' inclusive
+.m#         Move entry number '#' to top of stack
+.p# text    Prepend 'text' to entry '#'
+.r#/s1/s2/* Replace 's1' with 's2' in entry '#', * = replace all
+.s text     Search and display all entries with 'text'
+.{x}#       Execute entry '#' [if 'x' is omitted then '#' is required]
+.z          Zap [clear] the command stack
+
+If '#' is '0' or omitted, this implies entry 1.
+```
+
+All of the dot commands are case insensitive, e.g. **.l** is the same as **.L**
+
 
 Back to [Miscellaneous](./../README.md)  
 
