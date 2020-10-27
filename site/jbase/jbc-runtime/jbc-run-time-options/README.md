@@ -14,7 +14,7 @@ The Descriptions below are UNIX-centric.
 
 | Option | Description |
 | --- | --- |
-| **-Jb** | Run as a background process. A background port number will be allocated and control will return to the calling program. |
+| **-Jb** | Run as a background process. A background port number will be allocated and control will return to the calling program.<br>The process is then run without consuming a jBASE|
 | **-Jc** | To check the variables on exiting the program. This may be useful for debugging code with user-written C functions when looking for corrupted variables. |
 | **-Jd** | To enter the debugger before execution of the first program line. The debugger prompt is displayed immediately. |
 | **-JD** | Same as the -Jd option, to immediately enter the debugger, but will set the JBCDEBUGGER environment variable so that all programs executed by the parent will also immediately enter the debugger. |

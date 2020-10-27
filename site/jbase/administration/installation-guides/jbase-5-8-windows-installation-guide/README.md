@@ -99,6 +99,22 @@ With jBASE 5.8, user profiles are introduced and the default version is stored i
 
 ![Select Start Menu Folder](./58Installer_19.jpg)
 
+![Select Additional Tasks](./58Installer_20.jpg)
+
+![jBASE Administrator User Name](./58Installer_21.jpg)
+
+![jBASE Administrator Password](./58Installer_22.jpg)
+
+![Ready to Install](./58Installer_23.jpg)
+
+![Preparing to Install](./58Installer_24.jpg)
+
+![Information](./58Installer_25.jpg)
+
+![Completing the jBASE 5 Setup Wizard](./58Installer_26.jpg)
+
+![jBASE 5.8 jshell prompt](./58Installer_27.jpg)
+
 ### Upgrading from a previous jBASE version
 
 ### To be completed  

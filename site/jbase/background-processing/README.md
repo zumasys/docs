@@ -18,7 +18,8 @@
 [z](./z/README.md)  
 [zh](./zh/README.md)  
 
+[How to run jBASE commands from Cron/Services without consuming a license](./cron/README.md))
+
 [Back to Knowledgebase](./../README.md)
 
-  
 <PageFooter />

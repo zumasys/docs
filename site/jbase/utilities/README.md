@@ -9,6 +9,7 @@
 [break-key-off](./break-key-off/README.md)  
 [break-key-on](./break-key-on/README.md)  
 [clear-item-locks](./clear-item-locks/README.md)  
+[clearselect](./clearselect/README.md)  
 [como](./como/README.md)  
 [control-chars](./control-chars/README.md)  
 [cp](./cp/README.md)  
@@ -20,6 +21,7 @@
 [db-resume](./db-resume/README.md)  
 [db-status](./db-status/README.md)  
 [dtx.xtd](./dtx.xtd/README.md)  
+[end](./clearselect/README.md)  
 [echo](./echo/README.md)  
 [hush](./hush/README.md)  
 [jbackup](./jbackup/README.md)  
@@ -47,5 +49,4 @@
 
 [Back to Knowledgebase](./../README.md)
 
-  
 <PageFooter />
