@@ -160,7 +160,7 @@ JEDIFILENAME_MD=$HOME/MD
 
 The jbase\_agent process inherits the environment from the invoking process. If a config file is used at startup then additional environment variables can be set/modified in the [ENVIRONMENT] section (see above).
 
-## Starting jjAGENT as a Service
+## Starting jAGENT as a Service
 
 The service options allow jAgent to be installed and started as a Win32 Service on Windows platforms, and as a daemon on Unix platforms.
 
