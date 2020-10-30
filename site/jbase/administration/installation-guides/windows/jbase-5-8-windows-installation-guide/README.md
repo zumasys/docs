@@ -119,6 +119,6 @@ With jBASE 5.8, user profiles are introduced and the default version is stored i
 
 ### To be completed  
 
-Back to [Installation Guides](./../README.md)
+Back to [Windows](./../README.md)
 
 <PageFooter />

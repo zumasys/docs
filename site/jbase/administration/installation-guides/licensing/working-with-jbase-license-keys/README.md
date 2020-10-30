@@ -9,9 +9,7 @@
 <badge text='jlicensinginfo' vertical='middle' />
 <badge text='jinsallkey -v' vertical='middle' />
 
-```
-Document Scope
-```
+## Document Scope
 
 This document will describe the process of installing a license key over an already existing installation. This may be the case in the event of an upgrade, or change in the type of license desired.
 
@@ -204,7 +202,6 @@ Total of 3 slots found of which
 
 The effects of the above processes (command line or properties file editing ) are best observed after restarting jBASE, or when shared memory has been reset using "jlicenseupgrade -r".
 
-Back to [Installation Guides](./../README.md).
+Back to [Licensing](./../README.md).
 
-  
 <PageFooter />

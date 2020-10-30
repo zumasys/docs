@@ -1,4 +1,4 @@
-# jBASE AIX INSTALLATION GUIDE
+# jBASE AIX Installation Guide
 
 <PageHeader />
 
@@ -10,7 +10,7 @@
 <badge text='install jbase on aix' vertical='middle' />
 <badge text='installing jbase on aix ' vertical='middle' />
 
-jBASE 5.6 is a 64-bit release and must be installed onto a 64-bit Operating System.
+jBASE 5.6/5.7 is a 64-bit release and must be installed onto a 64-bit Operating System.
 
 This document assumes you have superuser (su) or root access to the computer.
 
@@ -32,7 +32,7 @@ Ensure the volume in which you are installing jBASE 5.6 has sufficient free disk
 
 ## ‘C’ Compiler
 
-To compile and catalog programs and subroutines, a ‘C’ compiler must be installed on the system where jBASE 5.6 will be installed.
+To compile and catalog programs and subroutines, a ‘C’ compiler must be installed on the system where jBASE 5.6/5.7 will be installed.
 
 jBASE recommends the use of the following compilers, depending on your operating system platform.
 
@@ -179,13 +179,13 @@ jruntime.multisession=5FLY3q6e4P6vTff9AETIQYwyjTnxDVK6sS1uFVfPeFQ=
 
 For further information on jBASE licensing see the jBASE Knowledgebase:
 
-[jBASE 5 Licensing](./../../../release-notes/5.6.2-release-notes/jbase-5-licensing)
+[jBASE 5 Licensing](./../../licensing/working-with-jbase-license-keys/README.md)
 
 ## Configure jBASE Environment Variables
 
 The following settings will allow you to create a basic jBASE environment. For further information on the available environment variables in jBASE see the jBASE Knowledgebase
 
-[Environment Variables](./../../../migration-station/articles/environment-variables)
+[Environment Variables](./../../../../porting/migration-station/articles/environment-variables/README.md)
 
 ``` bash
 # vi /opt/jbase5/5.6/jbase_env.sh
@@ -296,7 +296,6 @@ $ LOGTO PLAY
 jsh PLAY ~ -->
 ```
 
-Back to [Installation Guides](./../README.md).
+Back to [Installation Guides](./../../README.md).
 
-  
 <PageFooter />
