@@ -73,12 +73,12 @@ End Users are experiencing this due to additional "redundant" entries being adde
 
 [Upgrading from a Previous Version](./../upgrading-from-a-previous-version/README.md)
 
-[Manual Installation of jDLS Service](./../../../daemons/manual-installation-of-jdls-service/README.md)
+[Manual Installation of jDLS Service](./../../../../daemons/manual-installation-of-jdls-service/README.md)
 
 [Creating Accounts and Users](./../create-accounts-and-users/README.md)
 
 [Manual License Key Installation](./../manual-license-key-installation/README.md)
 
-Back to [Installation Guides](./../README.md).
+Back to [Windows](./../README.md).
 
 <PageFooter />

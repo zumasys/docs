@@ -60,7 +60,6 @@ Use the **jlicensinginfo** to verify that the license details are correct.
 
 >*Manually editing the **system.properties** file is strongly discouraged.*
 
-Back to [Installation Guides](./../README.md).
+Back to [Licensing](./../README.md).
 
-  
 <PageFooter />

@@ -40,12 +40,12 @@ jruntime.websession=99TvRhZrzwXahzjI9/NuqTNRlro/g1xpC/MJglgPQDE=
 
 [Upgrading from a Previous Version](./../upgrading-from-a-previous-version/README.md)
 
-[Installing the Compiler](./../windows-compiler-installation/README.md)
+[Installing the Compiler](./../../windows/windows-compiler-installation/README.md)
 
 [Manual Installation of jDLS Service](./../../../daemons/manual-installation-of-jdls-service/README.md)
 
 [Creating Accounts and Users](./../create-accounts-and-users/README.md)
 
-Back to [Installation Guides](./../README.md).
+Back to [Licensing](./../README.md).
 
 <PageFooter />

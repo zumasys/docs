@@ -4,25 +4,40 @@
 
 ## Topics
 
-[New -> jBASE 5.8 Windows Installation Guide](./jbase-5-8-windows-installation-guide/README.md)  
+[AIX](./aix/jbase-aix-installation-guide/README.md)  
+[Linux](./linux/linux-installation-guide/README.md)  
+[Windows](./windows/README.md)  
 * * *
-[Recent -> jBASE 5.7.7 Windows Installation Guide](./jbase-5-7-windows-installation-guide/README.md)  
+[Licensing](./licensing/README.md)  
 * * *
-[Create a jBASE Program](./create-a-jbase-program/README.md)  
-[Create Accounts and Users](./create-accounts-and-users/README.md)  
-[jBASE 5.6 Windows Installation Guide](./jbase-5.6-windows-installation-guide/README.md)  
-[jBASE AIX Installation Guide](./jbase-aix-installation-guide/README.md)  
-[jBASE Release 5.5, 5.6 and 5.7.0 (not including 5.6.6)](./jbase-release-5.5-and-5.6-and-5.7.0/README.md)  
-[Licensing a jBASE System](./licensing-a-jbase-system/README.md)  
-[Linux Installation Guide](./linux-installation-guide/README.md)  
-[Manual License Key Installation](./manual-license-key-installation/README.md)  
 [Platform Availability](./platform-availability/README.md)  
+* * *
 [Upgrading from a Previous Version](./upgrading-from-a-previous-version/README.md)  
-[Verify Your Windows Operating System](./verify-your-windows-operating-system/README.md)  
-[Windows Compiler Installation](./windows-compiler-installation/README.md)  
-[Windows Installation Guide](./windows-installation-guide/README.md)  
-[Windows Server 2012 and Windows 8 Compiler Installation](./windows-server-2012-and-windows-8-compiler-installation/README.md)  
-[Working with jBASE License Keys](./working-with-jbase-license-keys/README.md)  
+
+## Note
+
+>There have been several new configuration options added to our **D3** emulation.  
+>If you are running with a variant of our **D3** emulation (or any custom emulation based on a standard one), then the best way forward would be to change your emulation settings to something similar to, for example, the following:
+
+```
+jbased3:
+   dup = d3
+   named_common = unassigned
+   md_int_only = true
+   md_int_only_emulate_jbase3 = true
+```
+
+>In this example, the **dup = d3** entry will inherit all configuration options in the **d3** section.  
+>If the **d3** section contains any **dup** entries then they will also be inherited, and so on.  
+>All other configuration settings below the **dup** line are either new or will override the inherited setting.  
+>
+>This will ensure that you continue to make use of any changes made to the standard **D3** emulation.  
+>
+>The modifications you employ may be different that those above.  
+>
+>Use the **config-strings** command to review your configuration.
+
+* * *
 
 [Back to Administration](./../README.md)
 

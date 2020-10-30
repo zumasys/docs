@@ -1,4 +1,4 @@
-# jBASE 5.7.7 Windows Installation Guide
+# Windows Installation Guide for jBASE 5.7.7 through 5.7.10
 
 <PageHeader />
 
@@ -72,7 +72,9 @@ jBASE is now utilizing the C compiler from Visual Studio 2019 by installing the 
 
 ### jBASE Installation Types
 
-The jBASE installer provides two installation modes: **Express** and **Advanced**.  Continue to [Upgrade from a Previous Version](./../upgrading-from-a-previous-version), if you already have jBASE installed.
+The jBASE installer provides two installation modes: **Express** and **Advanced**.  
+
+Continue to [Upgrading from a Previous Version](./../../upgrading-from-a-previous-version/README.md), if you already have jBASE installed.
 
 **Express:** install jBASE with typical options and services. Select this option if you are new to jBASE and wish to get started quickly. Express mode installs jBASE, creates a jBASE Administrator user and account, creates a SYSTEM file to organize jBASE accounts, initializes the spooler, installs and starts jBASE services.
 
@@ -194,18 +196,18 @@ Applies to: **Express** **Advanced**
 
 The installation of jBASE is complete.  
 
-### related Topics
+### Related Topics
 
-[Upgrading from a Previous Version](./../upgrading-from-a-previous-version)
+[Upgrading from a Previous Version](./../../upgrading-from-a-previous-version/README.md)
 
-[Installing the Compiler](./../windows-compiler-installation)
+[Installing the Compiler](./../windows-compiler-installation/README.md)
 
-[Manual Installation of jDLS Service](./../../../jbase/manual-installation-of-jdls-service)
+[Manual Installation of jDLS Service](./../../../../daemons/manual-installation-of-jdls-service/README.md)
 
-[Creating Accounts and Users](./../create-accounts-and-users)
+[Creating Accounts and Users](./../create-accounts-and-users/README.md)
 
-[Manual License Key Installation](./../manual-license-key-installation)
+[Manual License Key Installation](./../../licensing/manual-license-key-installation/README.md)
 
-Back to [Installation Guides](./../README.md).
+Back to [Windows](./../README.md).
 
 <PageFooter />

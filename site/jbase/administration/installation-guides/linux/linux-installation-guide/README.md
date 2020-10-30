@@ -20,8 +20,8 @@ jBASE for Linux is officially supported on 64-bit versions of CentOS 5 or above 
 
 ### Supported Operating Systems
 
-- CentOS 6 and 7
-- Red Hat Enterprise 6 and 7
+- CentOS 7 and 8
+- Red Hat Enterprise 7 and 8
 
 ### Info
 
@@ -351,6 +351,6 @@ Contact jBASE support in the United States at 866 582 8447 and from the United K
 
 You may also email devsup@jbase.com and visit [http://www.jbase.com/support/](http://www.jbase.com/support/) for more support options.
 
-Back to [Installation Guides](./../README.md).
+Back to [Installation Guides](./../../README.md).
 
 <PageFooter />

@@ -137,6 +137,6 @@ Applies to: **Express** **Advanced** ![323805-windows-jbase-installation: 152957
 
 [Manual License Key installation](./../manual-license-key-installation)
 
-Back to [Installation Guides](./../README.md).
+Back to [Windows](./../README.md).
 
 <PageFooter />

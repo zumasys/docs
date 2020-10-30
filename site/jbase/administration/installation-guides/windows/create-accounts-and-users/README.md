@@ -154,15 +154,15 @@ Remember, now that you have created the jBASE Account and the corresponding Wind
 
 ### Related Topics
 
-[Upgrading from a previous jBASE version](./../upgrading-from-a-previous-version/README.md)
+[Upgrading from a previous jBASE version](./../../upgrading-from-a-previous-version/README.md)
 
 [Installing the Compiler](./../windows-compiler-installation/README.md)
 
-[Manual installation of jDLS service](./../../../daemons/manual-installation-of-jdls-service/README.md)
+[Manual installation of jDLS service](./../../../../daemons/manual-installation-of-jdls-service/README.md)
 
 [Creating Accounts and Users](./.)
 
-[Manual License Key installation](./../manual-license-key-installation)
+[Manual License Key installation](./../../licensing/manual-license-key-installation/README.md)
 
 Back to [Installation Guides](./../README.md).
 
