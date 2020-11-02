@@ -12,34 +12,30 @@ This environment variable specifies the page width for paged terminal output, an
 
 Valid only on jBASE 3.x.
 
-
-
 ## Values
 
 Decimal number
-
-
 
 ## Default
 
 None.
 
-
-
 ## Setting
 
 It should be setup before the jSHELL is invoked.
 
-**UNIX**
+## UNIX
 
 ```
 export JBCSCREEN_WIDTH=132
 ```
 
-**Windows**
+## Windows
 
 ```
 set JBCSCREEN_WIDTH=132
 ```
+
+Back to [Environment Variables](./../README.md)
 
 <PageFooter />

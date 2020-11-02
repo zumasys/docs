@@ -45,5 +45,4 @@ See also: [JBCDEV\_BIN](./../jbcdev_bin), [JBCOBJECTLIST](./../jbcobjectlist).
 
 Go Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

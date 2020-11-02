@@ -38,5 +38,4 @@ set JBASE_TIMEZONE=EST5EDT
 
 Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

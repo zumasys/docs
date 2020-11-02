@@ -22,5 +22,4 @@ To later enable the feature, use the [BITSET](./../../jbase-basic-%28jbc%29/bits
 
 Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

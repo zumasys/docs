@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-[5.7.0 Release Notes](./5.7.0/jbase-5.7.0-release-notes/README.md)  
+[5.7.0 Release Notes](./5.7.0/README.md)  
 [5.7.1 Release Notes](./5.7.1/jbase-5.7.1-release-notes/README.md)  
 [5.7.2 Release Notes](./5.7.2/jbase-5.7.2.1-release-notes/README.md)  
 [5.7.3 Release Notes](./5.7.3/jbase-5.7.3-release-notes/README.md)  

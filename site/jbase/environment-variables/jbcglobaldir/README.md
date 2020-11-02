@@ -30,5 +30,4 @@ On Windows it should be set before running any jBASE program.
 
 Go Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

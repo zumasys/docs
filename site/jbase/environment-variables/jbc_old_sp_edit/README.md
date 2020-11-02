@@ -60,5 +60,4 @@ See also the behavior of the [standard SP-EDIT](./../../administration/spooler/s
 
 Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

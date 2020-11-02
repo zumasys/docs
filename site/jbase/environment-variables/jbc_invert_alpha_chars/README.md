@@ -39,5 +39,4 @@ set JBC_INVERT_ALPHA_CHARS=1
 
 Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />
