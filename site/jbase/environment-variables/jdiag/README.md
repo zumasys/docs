@@ -1,4 +1,4 @@
-# JEDIFILEPATH
+# JDIAG
 
 <PageHeader />
 
