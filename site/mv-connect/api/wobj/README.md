@@ -77,6 +77,78 @@ There is now a optional config file to set default options for `WOBJ`.  This is 
 
 > *Regarding Attribute 3, you must use the include `MVDBTOOLKIT.BP MVDBTOOLKIT.WOBJ.CHOOSE.WOBJ` and variable `WOBJ.RTNE` will be set to the proper routine.  You then use `WOBJ` via `CALL WOBJ` vs `CALL WOBJ.RTNE`. This feature is used by the standalone `MVDBTOOLKIT` to use its own `MVDBTOOLKIT.WOBJ` included library.
 
-Click on [this link](https://github.com/patrickaaronpayne/demowobj/blob/master/DEMOWOBJ.B) to see a sample program on github.
+## Wobj Sample
+
+```
+ JSON = \{ "firstname": "Bob", "lastname":"Smit" }\
+
+ PRINT "PARSE JSON"
+ CALL WOBJ(OBJ,"FROMSTRING","",JSON,"",RERR)
+ PRINT RERR
+
+ PRINT "GET KEYS"
+ CALL WOBJ(OBJ,"KEYS","",OBJ.KEYS,"",RERR)
+ PRINT RERR
+
+ PRINT OBJ.KEYS
+
+ PRINT "LOOP THRU KEYS"
+ FOR X=1 TO DCOUNT(OBJ.KEYS,@SVM)
+    THIS.KEY=OBJ.KEYS<1,1,X>
+    CALL WOBJ(OBJ,"GET",THIS.KEY,KEY.VALUE,"",RERR)
+    PRINT THIS.KEY,KEY.VALUE
+ NEXT X
+
+ PRINT "Add an array"
+ CALL WOBJ(OBJ,"SET.ARRAY","samplearray","[]","",RERR)
+ GOSUB show.json
+
+ PRINT "Create new objects to put in array"
+ FOR X=1 TO 5
+     CALL WOBJ(SOBJ,"FROMSTRING","","{}","",RERR)
+     CALL WOBJ(SOBJ,"SET","objectdesc","SubObject ":X,"",RERR)
+     CALL WOBJ(SOBJ,"SET.NUMBER","count",X,"",RERR)
+     CALL WOBJ(SOBJ,"TOSTRING","",SOBJ.JSON,"",RERR)
+     CALL WOBJ(OBJ,"SET.OBJECT","samplearray[-1]",SOBJ.JSON,"",RERR)
+ NEXT X
+
+ GOSUB show.json
+
+ PRINT "Count number of elements in an array"
+ CALL WOBJ(OBJ,"LENGTH","samplearray",ARRAY.LENGTH,"",RERR)
+ PRINT "Number elements=":ARRAY.LENGTH
+
+ PRINT "Full path to an item"
+ CALL WOBJ(OBJ,"GET","samplearray[2].objectdesc",VALUE,"",RERR)
+ PRINT "value=":VALUE
+
+ PRINT "Dynamically get values"
+ FOR X=1 TO ARRAY.LENGTH
+     PRE="samplearray[":X-1:"]"
+     CALL WOBJ(OBJ,"GET",PRE:'.objectdesc',VALUE,"",RERR)
+     PRINT X,VALUE
+     * OR GET THE OBJECT
+     CALL WOBJ(OBJ,"GET",PRE,SOBJ.JSON,"",RERR)
+     * IT WILL BE JSON
+     CALL WOBJ(SOBJ,"FROMSTRING","",SOBJ.JSON,"",RERR)
+     CALL WOBJ(SOBJ,"GET","objectdesc",VALUE,"",RERR)
+     PRINT X,VALUE
+ NEXT X
+
+ PRINT "Set Boolean"
+ CALL WOBJ(OBJ,"SET.BOOLEAN","boolean","TRUE","",RERR)
+ PRINT "Set Null"
+ CALL WOBJ(OBJ,"SET.NULL","nulltest","","",RERR)
+ GOSUB show.json
+
+ STOP
+
+ show.json: *
+ CALL WOBJ(OBJ,"TOSTRING","",OUT.JSON,"PRETTIFY",RERR)
+ PRINT OUT.JSON
+ RETURN
+ ```
+ 
+
 
 <PageFooter />
