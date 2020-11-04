@@ -19,12 +19,11 @@ jfilesave {options} {account1 {account2 {account3}} ...})
 | Option | Explanation |
 | --- | --- |
 | -a \| -A | Save ALL accounts including DX'd accounts.<br>Overrides accounts specified on the command line. |
-| -b \| -B | Display output as formatted JSON. This option is ignored unless used with **-?** |
+| -b \| -B | Display output as JSON. |
 | -d device | The file where the backup is to be created.<br>It can be a full path or just a name in which case it is created in the current directory.<br><br>The **JFILESAVE_DEVICE** environment variable can be used to define the device.<br>Refer to the **Special Character Handling** section below. |
 | -o \| -O| Overwrite the device file. |
 | -s statfile | This is a full path or relative path for the backup statistics.<br>The file is created if it does not already exist.<br>The file is cleared for each backup.<br><br>The **JFILESAVE_DEVICE** environment variable can be used to define the device.Refer to the **Special Character Handling** section below. |
-| -? | Help page, displays as JSON (overrides all other options except -b or -B) |
-| -h \| -H | Help page, displays as text (overrides all other options) |
+| -h \| -H \| -? | Help page (overrides all other options) |
 
 ## Notes
 

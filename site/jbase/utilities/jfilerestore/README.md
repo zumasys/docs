@@ -16,14 +16,13 @@ jfilerestore -d device {options} {account}
 
 | Option | Explanation |
 | --- | --- |
-| -b \| -B | Display output as JSON. This option is ignored unless used with **-?** |
+| -b \| -B | Display output as JSON. |
 | -c | Full path to the destination account.<br>If this option is omitted then the data is restored in the same account from which it was originally saved.<br>This option can be used to restore an account, a file or a record. |
 | -d device | The location of the backup file that was created with **jfilesave**.<br>It can be a full path or just a name in which case it is created in ""JBCDATADIR**. |
 | -f filename | Restore a single file within an account.<br>If the -i option is used then this option is required. |
 | -i id | Restore a single record from a hashed file or a single file from a directory.<br>Requires the -f option. |
 |  -o \| -O| Overwrite the device file. |
-| -? | Help page, displays as JSON (overrides all other options except -b or -B) |
-| -h \| -H | Help page, displays as text (overrides all other options) |
+| -h \| -H \| -? | Help page (overrides all other options) |
 
 ## Notes
 
