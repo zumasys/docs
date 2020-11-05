@@ -66,7 +66,7 @@ $EnvVar The value of the specified Environment Variable
 
 All other characters are taken literally
 
-On Windows you must escape the "%", e.g. %%d
+On Windows you must escape the "%" if it is set as an environment variable, e.g. %%d
 
 Spaces (and strings of spaces) are converted to a single underscore "_".
 
