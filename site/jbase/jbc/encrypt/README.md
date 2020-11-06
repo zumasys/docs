@@ -7,16 +7,16 @@
 
 ## Description
 
-This function encrypts strings. It takes the general form:
+This function encrypts, hashes or signs a string. It takes the general form:
 
 ```
-ENCRYPT(string, key, method, {extra}{}, password}}))
+ENCRYPT(string, key, method, {extra, {password}}))
 ```
 Where:
 
-- **string** specifies the string to be encrypted.
-- **key** is the value used to encrypt the string. Its use depends on method.
-- **method** is a value which indicates the encryption mechanism to.
+- **string** specifies the string to be encrypted, hashed or signed.
+- **key** is the value used to encrypt or sign the string. Its use depends on method.
+- **method** is a value which indicates the encryption, hash or signature algorithm to use.
 
 The **extra** and **password** arguments are optional, and are used for certain ciphers and signature algorithms.
 

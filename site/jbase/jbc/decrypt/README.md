@@ -7,7 +7,7 @@
 
 ## Description
 
-This function decrypts strings. It takes the general form:
+This function decrypts strings. It also is used to verify digital signatures. It takes the general form:
 
 ```
 DECRYPT(string, key, method, {extra})
@@ -17,7 +17,7 @@ Where:
 
 - **string** specifies the string to be encrypted.
 - **key** is the value used to encrypt the string. Its use depends on method.
-- **method** is a value which indicates the encryption mechanism to.
+- **method** is a value which indicates the encryption or signature algorithm to use.
 
 The **extra** argument is optional, and is used for certain ciphers and signature algorithms.
 
@@ -51,7 +51,7 @@ Encrypted: ▐∞╞/áj╢c─B≤Γ5¿µ_7æ♠╞v┐≤«►▼│├ZüC╕
 Decrypted: This is the string to be encrypted
 ```
 
-See also: [ENCRYPT](encrypt).
+See also: [ENCRYPT](./../encrypt).
 
 Go back to [jBASE BASIC](./../README.md)
 

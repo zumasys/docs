@@ -4,19 +4,18 @@
 
 Beginning with jBASE 5.8, the following information applies to the jBC [ENCRYPT()](../../jbc/encrypt/README.md) and [DECRYPT()](../../jbc/decrypt/README.md) functions.
 
-Support has been added for:
+In addition to the symmetric ciphers supported in previous jBASE releases, support has been added for:
 
 * hashing (MD5, SHA1, SHA384, SHA512)
-* signature (RSA, HMAC)
+* digital signature (RSA, HMAC)
 * signature verification (RSA, HMAC)
 * optional IV for symmetric ciphers
 
-To accommodate enhanced functionality, the number of arguments for the **ENCRYPT()** / **DECRYPT()** functions has been expanded from 3 arguments to 6 arguments where the last 3 are optional, and the last one is reserved:
-
 ```
-ENCRYPT(string, key, method, extra, password)
-DECRYPT(string, key, method, extra, password)
+ENCRYPT(string, key, method, {extra, {password}})
+DECRYPT(string, key, method, {extra})
 ```
+The ENCRYPT function encrypts, hashes or signs a string. The DECRYPT function decrypts a string or verifies a digital signature.
 
 The _extra_ and _password_ arguments are optional, and are used for certain ciphers and signature algorithms.
 
@@ -91,7 +90,7 @@ The base64 mask can be combined with any of the cipher, hash or signature method
 
 For symmetric ciphers, when the _BASE64 version is used, the ENCRYPT function returns the encrypted result using encoded in base64. For DECRYPT, the input string is decoded from base64 before decryption. For hash methods, the ENCRYPT function returns the hash encoded in base64. For signature algorithms, the ENCRYPT function returns the signature is encoded in base64, and the signature is passed to the DECRYPT function encoded in base64.
 
-### WARNING!
+### **WARNING!**
 
 Several of the cipher methods supported by the ENCRYPT function are considered insecure by modern standards. These ciphers are included only for compatibility with existing applications. These insecure ciphers should not be used when developing new applications:
 
