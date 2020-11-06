@@ -14,8 +14,8 @@
 | 30              | Cgi Path                            |              |
 | 31              | Server Port                         |              |
 | 32              | Body                                | `WGETBODY`   |
-| 33              | All Passed Headers Names            |              |
-| 34              | All Passed Header Values            | `WGETHEADER` |
+| 33              | All Passed Headers Values           |              |
+| 34              | All Passed Header Names             | `WGETHEADER` |
 | 35              | Rest Params (params after Resource) | `WGETPARAM`  |
 | 36              | Config file                         | `WGETCONFIG` |
   
