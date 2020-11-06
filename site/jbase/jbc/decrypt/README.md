@@ -10,7 +10,7 @@
 This function decrypts strings. It takes the general form:
 
 ```
-DECRYPT(string, key, method)
+DECRYPT(string, key, method, {extra})
 ```
 
 Where:
@@ -19,47 +19,35 @@ Where:
 - **key** is the value used to encrypt the string. Its use depends on method.
 - **method** is a value which indicates the encryption mechanism to.
 
-The ENCRYPT and DECRYPT functions that are part of jBASE BASIC  now support the following  cipher methods (Defined in JBC.h)
+The **extra** argument is optional, and is used for certain ciphers and signature algorithms.
 
-- JBASE\_CRYPT\_GENERAL General-purpose encryption scheme
-- JBASE\_CRYPT\_AES algorithm (AES256)
-- JBASE\_CRYPT\_AES\_BASE64 algorithm (AES256, BASE64 encoded)
-- JBASE\_CRYPT\_ROT13 Simple ROT13 algorithm. (Key not used)
-- JBASE\_CRYPT\_XOR11 XOR MOD11 algorithm. Uses the first character of a key as a seed value.
-- JBASE\_CRYPT\_RC2 RC2 algorithm
-- JBASE\_CRYPT\_DES DES algorithm
-- JBASE\_CRYPT\_3DES Three Key, Triple DES algorithm
-- JBASE\_CRYPT\_BLOWFISH Blowfish algorithm
-- JBASE\_CRYPT\_BASE64 (See below)
+The ENCRYPT and DECRYPT functions will set a status code that can be checked using the **STATUS()** function. It is recommended that the status always be checked when using ENCRYPT and DECRYPT functions. The following status codes are used:
 
-BASE64 is not really an encryption method, but more of an encoding. The reason for this is that the output of an encryption often results in a binary string. It allows binary data to be represented as a character string. BASE64 operation is not required but is performed in addition to the primary algorithm. e.g. JBASE\_CRYPT\_RC2\_BASE64
+- 0 indicates successful operation
+- 1 indicates the method is not recognized
+- 2 indicates the encryption operation failed
 
-ENCRYPT with this method is the same as a DECRYPT with method JBASE\_CRYPT\_RC2 followed by DECRYPT with method JBASE\_CRYPT\_BASE64.
+In the case of status code 2, **SYSTEM(0)** will return the last error code from the OpenSSL encryption library.
 
-DECRYPT with this method is the same as a DECRYPT with method JBASE\_CRYPT\_BASE64 followed by DECRYPT with method JBASE\_CRYPT\_RC2.
-
-- JBASE\_CRYPT\_RC2\_BASE64 RC2 algorithm
-- JBASE\_CRYPT\_DES\_BASE64 DES algorithm
-- JBASE\_CRYPT\_3DES\_BASE64 Triple DES algorithm
-- JBASE\_CRYPT\_BLOWFISH \_BASE64 Blowfish algorithm.
+Please refer to [this page](../../../jbase/encryption/jbc-encrypt-decrypt-functions/README.md) for a complete description of Initialization Vectors, Hashing, Digital Signatures, Warnings and a list of supported Algorithms (ciphers).
 
 An example of use may be as follows:
 
 ```
 INCLUDE JBC.h
-cipher = JBASE_CRYPT_BLOWFISH_BASE64
-key = "Thunderbirds 2086"
+cipher = JBASE_CRYPT_AES256
+jkey = "Thunderbirds 2086"
 str = "This is the string to be encrypted"
-enc = ENCRYPT( str, key, cipher )
+enc = ENCRYPT( str, jkey, cipher )
 CRT "Encrypted:" :enc
-dec = DECRYPT( enc, key, cipher )
+dec = DECRYPT( enc, jkey, cipher )
 CRT "Decrypted: ":dec
 ```
 
 The above will display as output:
 
 ```
-Encrypted:bjrngdlVNjSsY6iUVhn8pA9WD2cYo7HB8at0QhwvjvApc8Gih8PQ/A==
+Encrypted: ▐∞╞/áj╢c─B≤Γ5¿µ_7æ♠╞v┐≤«►▼│├ZüC╕òæ▼.∩éôU,Ü╝»
 Decrypted: This is the string to be encrypted
 ```
 
