@@ -53,24 +53,22 @@ String  Converted to:
 ======  =============
 $EnvVar The value of the specified Environment Variable
         Do NOT use the Windows %enviromment_variable% syntax!
-%u      Username
-%p      Port number
-%d      Internal date
-%t      Internal time
-%k      Creates a unique Key
-%m      Month number (1 to 12)
-%h      Hostname
-%s      Directory separator ("/" or "\" depending on platform)
-%%      A literal "%" (a single "%" is ignored)
+~u      Username
+~p      Port number
+~d      Internal date
+~t      Internal time
+~k      Creates a unique Key
+~m      Month number (1 to 12)
+~h      Hostname
+~s      Directory separator ("/" or "\" depending on platform)
+~~      A literal "~" (a single "~" is ignored)
 ```
 
 All other characters are taken literally
 
-On Windows you must escape the "%" if it is set as an environment variable, e.g. %%d
-
 Spaces (and strings of spaces) are converted to a single underscore "_".
 
-Special Character Strings are case insensitive (%D is the same as %d).
+Special Character Strings are case insensitive (~D is the same as ~d).
 
 ## Examples
 
@@ -83,10 +81,10 @@ Assumes the **JFILESAVE_DEVICE** environment variable is assigned.
 If the **JFILESAVE_STATFILE** environment variable is defined then a statistics file will be created and populated.
 
 ```
-jfilesave -d /backups/daily_%d
+jfilesave -d /backups/daily_~d
 ```
 
-All accounts (without a **DX** in field 1) defined in the SYSTEM file are saved to the /backups directory with a filename of daily_%d, where %d is the current internal date, e.g. daily_18752.  
+All accounts (without a **DX** in field 1) defined in the SYSTEM file are saved to the /backups directory with a filename of daily_~d, where ~d is the current internal date, e.g. daily_18752.  
 
 The **JFILESAVE_DEVICE** environment variable, if defined, is ignored.
 
@@ -97,7 +95,7 @@ The AP and AR accounts are backed up, assumes **JFILESAVE_DEVICE** is defined.<b
 No backup statistics are created unless **JFILESAVE_STATFILE** is defined.
 
 ```
-jfilesave -a -s /tmp/statfile_%d_%t
+jfilesave -a -s /tmp/statfile_~d_~t
 ```
 
 Save all accounts defined in the SYSTEM file, including accounts with a value of **DX** in attribute 1.<br>Assumes the JFILESAVE_DEVICE environment variable is assigned.  
@@ -107,7 +105,7 @@ The -s option creates statistics in the **/tmp** directory with a filename that 
 /tmp/statfile_18858_20962
 
 ```
-set/export JFILESAVE_DEVICE=$JBCRELEASEDIR%stmp%sbackup_%m
+set/export JFILESAVE_DEVICE=$JBCRELEASEDIR~stmp~sbackup_~m
 ```
 
 Setting this environment variable will cause the **jfilesave** command to backup to the jBASE **tmp** directory with a filename of **backup_** contatenated with the month number, e.g. **backup_3** for the month of March.
