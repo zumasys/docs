@@ -1,4 +1,4 @@
-# Indexes APPENDIX B
+# Indexes - Appendix B
 
 <PageHeader />
 
@@ -27,9 +27,8 @@ UTC2 = (DATE()-732)*86400 + TIME()
 CRT "UTC2 = ":UTC2
 ```
 
-One important aspect to remember is that the UTC is often in the base time of the operating system without any time zone applied. For example on Unix systems you set the time and date of your system in UTC but then individual accounts may have different time zones applied. Thus if you create an index at what appears to be a time of say 10:40:29 then this could actually be a time of 11:40:29 but with a time zone of minus one hour applied.
+One important aspect to remember is that the UTC is often in the base time of the operating system without any time zone applied. For example on UNIX systems you set the time and date of your system in UTC but then individual accounts may have different time zones applied. Thus if you create an index at what appears to be a time of say 10:40:29 then this could actually be a time of 11:40:29 but with a time zone of minus one hour applied.
 
 Back to [Indexes](./../README.md)
 
-  
 <PageFooter />

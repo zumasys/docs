@@ -17,6 +17,7 @@ Where Options can be:
 | -a | Defer building the index (See REBUILD-INDEX) |
 | -c | Make the index case insensitive |
 | -d | Debug of the index code allowed |
+| -f | Force index to build using attribute 7 if attribute 8 is null |
 | -lcode | Index Lookup Code |
 | -n | Any indexes that produce null strings are ignored |
 | -o | Overwrite any existing definition |
@@ -168,5 +169,4 @@ Warning: You now need to rebuild the index data for file "filename" using rebuil
 
 Back to [Indexes](./../README.md)
 
-  
 <PageFooter />

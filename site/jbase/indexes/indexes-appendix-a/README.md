@@ -1,4 +1,4 @@
-# Indexes APPENDIX A
+# Indexes - Appendix A
 
 <PageHeader />
 
@@ -86,5 +86,4 @@ In this scenario, attribute 3 will be extracted from the record and passed to a 
 
 Back to [Indexes](./../README.md)
 
-  
 <PageFooter />
