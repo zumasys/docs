@@ -107,6 +107,9 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | [JDIAG](./jdiag/README.md) | provides a variable amount of trace information |
 | LIB | specify additional paths for linking with libraries. (Windows only) |
 | INCLUDE | specify additional paths for header files |
+| [JBC\_INCLUDE\_FILE](./jbc_include_file/README.md) | a list of source code files that will automatically be compiled prior to compiling the current program. |
+| [JBC\_INCLUDE\_PATH](./jbc_include_path/README.md) | a list of directories the compiler searches through when an INCLUDE statement is seen in a program. |
+| [DECATALOG\_DELETE\_OBJECT\_CODE](./environment-variables/decatalog_delete_object_code/README.md) |  |
 
 #### Miscellaneous
 
@@ -122,6 +125,8 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | [JBCLISTFILE](./jbclistfile/README.md) | specify alternate select list file |
 | [JBCLISTID](./jbclistid/README.md) | force user account name to be part stored list ids. |
 | [JDIAG](./jdiag/README.md) | Turns on internal verbose messaging.  Index detail is an example |
+| [JFILESAVE_DEVICE](../../jbase/utilities/jfilesave/README.md) | Used with the JFILESAVE command, defines the full path to where system backups are stored. |
+| [JFILESAVE_STATFILE](../../jbase/utilities/jfilesave/README.md) | Used with the JFILESAVE command, it defines the full path to where backup statistics are stored.|
 
 
 #### Terminal
