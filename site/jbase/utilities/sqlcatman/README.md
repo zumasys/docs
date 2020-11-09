@@ -11,7 +11,7 @@
 
 ## Description
 
-The **SQLCATMAN** utility provides a means of updating the SQL Catalog lookup table (see [JSQLFILENAME\_CATALOG](https://docs.jbase.com/41717-environment-variables/371305)). This table is used to specify which files are accessible to jBASE via the SQL and ODBC interfaces.
+The **SQLCATMAN** utility provides a means of updating the SQL Catalog lookup table (see [JSQLFILENAME_CATALOG](../../environment-variables/jsqlfilename_catalog/README.md)). This table is used to specify which files are accessible to jBASE via the SQL and ODBC interfaces.
 
 ```
 jsh --> sqlcatman [options] [ -f ( filename (-e dictname)? ) (tablename)? ]
