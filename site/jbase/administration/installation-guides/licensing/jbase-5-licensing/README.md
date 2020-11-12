@@ -8,10 +8,10 @@ With jBASE 5, the licensing model has been redesigned in order to simplify the c
 
 Among the options available with jBASE licensing are:
 
-1. Install a permanent jBASE license as part of the product installation (Please refer to [Windows](./../../../administration/installation-guides/jbase-5.6-windows-installation-guide) or [Linux](./../../../administration/installation-guides/linux-installation-guide) Installation guides ),
-2. Install an evaluation license as part of the product installation (Please refer to [Windows](./../../../administration/installation-guides/jbase-5.6-windows-installation-guide) or [Linux](./../../../administration/installation-guides/linux-installation-guide)  Installation guides ),
-3. [Upgrade a evaluation license to a permanent license,](./../../../administration/installation-guides/working-with-jbase-license-keys)
-4. [Upgrade a standard edition permanent license and add MultiSession license](./../../../administration/installation-guides/working-with-jbase-license-keys).
+1. Install a permanent jBASE license as part of the product installation (Please refer to [Windows](./../../windows/jbase-5.6-windows-installation-guide/README.md) or [Linux](./../../linux/linux-installation-guide/README.md) Installation guides ),
+2. Install an evaluation license as part of the product installation (Please refer to [Windows](./../../windows/jbase-5.6-windows-installation-guide/README.md) or [Linux](./../../linux/linux-installation-guide/README.md)  Installation guides ),
+3. [Upgrade a evaluation license to a permanent license,](./../working-with-jbase-license-keys/README.md)
+4. [Upgrade a standard edition permanent license and add MultiSession license](./../working-with-jbase-license-keys/README.md/working-with-jbase-license-keys).
 
 ## License types
 
@@ -140,7 +140,7 @@ There is also a 'jprocdisp' utility which provides further information regarding
 
 ```
 jBASE 5.2 Monitor (2.5) - Linux                                                                   13:33:33  07 SEP 2010
- 
+
 Port       User     Pid      Files Perf  Del  Read Write Open   Mem   Cpu  Prog
    1       alan   15156      3 (3)    1    1    13     4   12  532K  0.00  1 E jsh (jsh.b,111)
    2       alan   15106      3 (3)    0    1     4     0    6  880K  0.00  1 I jsh (CommandNext.b,103)
@@ -183,5 +183,4 @@ Port 2          Pid 12569        (Active)      M        Update Time 3s ago
 Total Ports 513, allocated 8, active 6, not active 2, License  standard 1,  multisession 5
 ```
 
-  
 <PageFooter />
