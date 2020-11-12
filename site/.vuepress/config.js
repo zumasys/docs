@@ -253,7 +253,11 @@ module.exports = {
             title: "Release Notes",
             path: "/mv-connect/release-notes/",
             collapsable: true,
-            children: [["/mv-connect/release-notes/1.6.3/", "1.6.3"]]
+            children: [
+              ["/mv-connect/release-notes/1.6.3/", "1.6.3"],
+              ["/mv-connect/release-notes/1.6.3/", "1.7.0"],
+              ["/mv-connect/release-notes/1.6.3/", "1.7.4"]
+            ]
           },
           ["/mv-connect/connection-pooling/", "Connection Pooling"],
           {
