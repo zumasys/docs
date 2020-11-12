@@ -8,7 +8,7 @@ If it is required that processes use time calculations which are independent of 
 
 To make sure that jBASE is aware of which location and time-zone your system is located or is operating in, [JBASE_TIMEZONE](./../../environment-variables/jbase_timezone/README.md) and [JBASE_LOCALE](./../../environment-variables/jbase_locale/README.md) should be set accordingly. 
 
-Run the **jtimezones** and **jlocales"** commands for a list of valid settings.
+Run the **jtimezones** and **jlocales** commands for a list of valid settings.
 
 Back to [Miscellaneous](./../README.md)
 
