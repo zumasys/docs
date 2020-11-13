@@ -178,6 +178,14 @@ module.exports = {
                   ["/accuterm/web/profiles/connection-settings/", "Connection Settings"],
                   ["/accuterm/web/profiles/font-and-character-settings/", "Font & Character Settings"]
                 ]
+              },
+              {
+                title: "GUI",
+                path: "/accuterm/web/gui/",
+                collapsable: true,
+                children: [
+                  ["/accuterm/web/gui/staging/", "Staging Updates"]
+                ]
               }
             ]
           }
