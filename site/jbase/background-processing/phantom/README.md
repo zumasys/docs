@@ -19,7 +19,18 @@ where:
 **UNIQUE**  - Append milliseconds past midnight to output filename.  
 **Command** - The command to be executed by the phantom process.
 
-Output from the **PHANTOM** process is stored in a **&PH&** file.
+Output from the **PHANTOM** process is stored in a **&PH&** directory.
+
+## Example
+
+```
+PHANTOM SQUAWK BASIC PGM *
+Phantom process started on process id 107857
+Output is in &PH&/BASIC_19311_48005
+ [107857] Done : BASIC PGM *
+```
+
+If the &PH& directory does not exist, it will be created.
 
 Back to [Background Processing](./../README.md)
 
