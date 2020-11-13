@@ -11,7 +11,7 @@ Among the options available with jBASE licensing are:
 1. Install a permanent jBASE license as part of the product installation (Please refer to [Windows](./../../windows/jbase-5.6-windows-installation-guide/README.md) or [Linux](./../../linux/linux-installation-guide/README.md) Installation guides ),
 2. Install an evaluation license as part of the product installation (Please refer to [Windows](./../../windows/jbase-5.6-windows-installation-guide/README.md) or [Linux](./../../linux/linux-installation-guide/README.md)  Installation guides ),
 3. [Upgrade a evaluation license to a permanent license,](./../working-with-jbase-license-keys/README.md)
-4. [Upgrade a standard edition permanent license and add MultiSession license](./../working-with-jbase-license-keys/README.md/working-with-jbase-license-keys).
+4. [Upgrade a standard edition permanent license and add MultiSession license](./../working-with-jbase-license-keys/README.md).
 
 ## License types
 
