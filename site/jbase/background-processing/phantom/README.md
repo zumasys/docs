@@ -16,7 +16,7 @@ where:
 
 **BRIEF**   - Suppresses output from command.  
 **SQUAWK**  - Display record id of output file.  
-**UNIQUE**  - Append number of seconds past midnight to output filename.  
+**UNIQUE**  - Append milliseconds past midnight to output filename.  
 **Command** - The command to be executed by the phantom process.
 
 Output from the **PHANTOM** process is stored in a **&PH&** file.
