@@ -10,11 +10,11 @@ Command
 
 CALL MVDBTOOLKIT.SWAP(A,B,C)
 
-| Param | Description |
-| ----  | ----------- |
-| A | Variable you wish to apply swap command against. |
-| B | String you wish to swap from. |
-| C | String to wish to swap to. |
+| Param | Description                                      |
+| ----- | ------------------------------------------------ |
+| A     | Variable you wish to apply swap command against. |
+| B     | String you wish to swap from.                    |
+| C     | String to wish to swap to.                       |
 
 ### Example
 
@@ -24,4 +24,4 @@ CALL MVDBTOOLKIT.SWAP(S,"ES","XX")
 PRINT S
 ```
 
-</PageFooter>
+<PageFooter />

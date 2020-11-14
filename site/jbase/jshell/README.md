@@ -142,30 +142,30 @@ jsh ~ -->cd source
 Two other keystrokes within jsh allow you to recall up to 50 previous commands. They are:
 
 ```
-<Ctrl P> Goto previous command
-<Ctrl N> Goto next command
+<Ctrl>+P Goto previous command
+<Ctrl>+N Goto next command
 ```
 
-Using these two keystrokes it is possible to retrace commands by stepping backwards or forwards one command at a time. jsh supports command line editing by using a subset of the jED editor keys, which can be useful if a command needs to be changed. In particular, using the right and left arrow keys to move the cursor to any position in the current command string. The jsh is configured for editing in insert mode by default. This means that any characters typed will be inserted just before the current cursor position. Use the backspace key to delete the previous character and the &lt;Delete&gt; key to delete the character directly under the cursor.
+Using these two keystrokes it is possible to retrace commands by stepping backwards or forwards one command at a time. jsh supports command line editing by using a subset of the jED editor keys, which can be useful if a command needs to be changed. In particular, using the right and left arrow keys to move the cursor to any position in the current command string. The jsh is configured for editing in insert mode by default. This means that any characters typed will be inserted just before the current cursor position. Use the backspace key to delete the previous character and the `<Delete>` key to delete the character directly under the cursor.
 
-The jsh can be placed into overwrite editing mode by pressing **&lt;Ctrl O&gt;**. In this mode all characters typed will replace the character under the cursor.
+The jsh can be placed into overwrite editing mode by pressing `<Ctrl>`+`O`. In this mode all characters typed will replace the character under the cursor.
 
 All the editing commands are shown in the following table:
 
-| Keystroke                        | Command                                               |
-| -------------------------------- | ----------------------------------------------------- |
-| &lt;Right&gt;                    | move the cursor right by one character                |
-| &lt;Left&gt;                     | move the cursor left by one character                 |
-| &lt;Home&gt; or &lt;Ctrl A&gt;   | move the cursor to the start of the command line      |
-| &lt;End&gt; or &lt;Ctrl E&gt;    | move the cursor to the end of the command line        |
-| &lt;Down&gt; or &lt;Ctrl N&gt;   | recall the next command in your history               |
-| &lt;Insert&gt; or &lt;Ctrl O&gt; | toggle Overwrite/Insert mode, default is Insert       |
-| &lt;Up&gt; or &lt;Ctrl P&gt;     | recall the previous command in your command history   |
-| &lt;Ctrl L&gt;                   | list the command history maintained by the shell      |
-| &lt;Ctrl K&gt;                   | delete from the cursor to the end of the command line |
-| &lt;Ctrl W&gt;                   | delete from the cursor to the end of the current word |
-| &lt;Tab&gt;                      | move to the start of the next word                    |
-| &lt;Backtab&gt;                  | move to the start of the previous word                |
+| Keystroke                  | Command                                               |
+| -------------------------- | ----------------------------------------------------- |
+| `<Right>`                  | move the cursor right by one character                |
+| `<Left>`                   | move the cursor left by one character                 |
+| `<Home>` or `<Ctrl>`+`A`   | move the cursor to the start of the command line      |
+| `<End>` or `<Ctrl>`+`E`    | move the cursor to the end of the command line        |
+| `<Down>` or `<Ctrl>`+`N`   | recall the next command in your history               |
+| `<Insert>` or `<Ctrl>`+`O` | toggle Overwrite/Insert mode, default is Insert       |
+| `<Up>` or `<Ctrl>`+`P`     | recall the previous command in your command history   |
+| `<Ctrl>`+`L`               | list the command history maintained by the shell      |
+| `<Ctrl>`+`K`               | delete from the cursor to the end of the command line |
+| `<Ctrl>`+`W`               | delete from the cursor to the end of the current word |
+| `<Tab>`                    | move to the start of the next word                    |
+| `<Backtab>`                | move to the start of the previous word                |
 
 Pick Mode TCL Stack
 

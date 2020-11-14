@@ -25,9 +25,9 @@ Zumasys has tested MV Dashboard with the open-source wkhtmltopdf package. While 
 
 ## wkhtmltopdf Installation (Windows)
 
-Download the 32 bit installation package for wkhtmltopdf from: <http://download.gna.org/wkhtmltopdf/0.12/0.12.3/wkhtmltox- 0.12.3\_msvc2013-win32.exe>.
- 
- Install in the default location of C:\Program Files (x86)\wkhtmltopdf.
+Download the 32 bit installation package for wkhtmltopdf from [https://wkhtmltopdf.org/downloads.html](https://wkhtmltopdf.org/downloads.html).
+
+Install in the default location of C:\Program Files (x86)\wkhtmltopdf.
 
 wkhtmltopdf Installation (Linux)
 

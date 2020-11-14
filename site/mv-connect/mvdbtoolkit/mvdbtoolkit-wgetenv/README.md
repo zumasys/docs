@@ -10,10 +10,10 @@ Command
 
 MVDBTOOLKIT(ENVVARIABLE,VALUE)
 
-| Param | Description |
-| ----  | ----------- |
+| Param       | Description                               |
+| ----------- | ----------------------------------------- |
 | ENVVARIABLE | Environment variable you wish to retrieve |
-| VALUE | Environmant Variable value |
+| VALUE       | Environmant Variable value                |
 
 ### Example
 
@@ -23,4 +23,4 @@ PRINT PATH
 
 ```
 
-</PageFooter>
+<PageFooter />

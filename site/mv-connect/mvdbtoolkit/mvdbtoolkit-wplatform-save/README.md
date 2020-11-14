@@ -18,4 +18,4 @@ CALL WOBJ(PLATFORM.OBJ,"SET.BOLEAN","d3flash",false,"",RERR)
 CALL MVDBTOOLKIT.WPLATFORM.SAVE(PLATFORM.OBJ)
 ```
 
-</PageFooter>
+<PageFooter />

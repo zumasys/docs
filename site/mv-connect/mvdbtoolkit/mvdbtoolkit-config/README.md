@@ -10,4 +10,4 @@ Command
 
 MVDBTOOLKIT.CONFIG
 
-</PageFooter>
+<PageFooter />

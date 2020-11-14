@@ -82,4 +82,4 @@ This setup process identifies the fields necessary for evaluating account payabl
 * Valid file name in the account
 * Existence of each of the dictionary names entered
 
-</pageFooter>
+<PageFooter />

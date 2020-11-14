@@ -14,15 +14,8 @@ jBASE has Multi-Tenancy capability via heavily definable configuration switches.
 
 ## Addtional Links
 
-<center>
-
-|  |
-| :--: |
-| [Detailed Multi-Tenancy Write-up](./jBASE_and_MultiTenancy.md) |
-| [Sample Windows Git template](https://github.com/zumasys/jbase_multitenancy_windows) |
-| |
-
-</center>
+- [Detailed Multi-Tenancy Write-up](./jBASE_and_MultiTenancy.md)
+- [Sample Windows Git template](https://github.com/zumasys/jbase_multitenancy_windows)
 
 Back to [Miscellaneous](./../README.md)
 
