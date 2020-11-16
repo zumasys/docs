@@ -111,9 +111,11 @@ export JSH_PROMPT="$%s $%a $%c -->","$%>>>",msh        [Unix/Linux]
 set JSH_PROMPT="$%%s $%%a $%%c -->","$%%>>>",msh       [Windows]
 ```
 
-* The first field shown in the example is the primary prompt which the jsh user initially sees.
-* The second field shown is the secondary prompt which the jsh user sees when a select list is present
-* The third field shown is the jsh mode of operation, either **jsh**, **msh** or **sh**
+* The first field shown in the example is the primary prompt (jsh, msh or sh).
+* The second field shown is the secondary prompt when a select list is present.
+* The third field shown is the mode of operation: **jsh**, **msh** or **sh**
+
+> On Windows, because **%** is a meta-character, it must be *escaped*.
 
 The above example will display the jShell prompt as:
 
