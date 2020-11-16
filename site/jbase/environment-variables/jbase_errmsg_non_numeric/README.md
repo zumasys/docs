@@ -41,7 +41,7 @@ export JBASE_ERRMSG_NON_NUMERIC=3
 set JBASE_ERRMSG_NON_NUMERIC=3
 ```
 
-Go Back to [Error Handling](./../../jbase-basic-%28jbc%29/jbc-error-handling)
+Go Back to [Error Handling](./../../jbc-error-handling/README.md)
 
 Go Back to [Environment Variables](./../README.md)
 
