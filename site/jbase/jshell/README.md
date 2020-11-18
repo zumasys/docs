@@ -62,26 +62,30 @@ All jShell environment variables must be set prior to invoking the jShell.
 
 The **JSH\_COMMAND\_STACK** environment variable can be used to:
 
-* configure the number of commands in the jShell command history
-* specify that the command stack is username based
+* configure the number of commands in the jShell command history (*stack size*)
+* specify that the command stack is user based
 
-The command history can be set to any number greater or equal to 50.
+The stack size can be set to any number greater or equal to 50.
 
-The command stack can optionally be username based with the literal **USERNAME** (see examples below).
+The command stack can optionally be *user* based with the literal string **USER** or **USERNAME**(see examples below).
 
-For a command stack that has a maximum command history of 500 entries and is port number based:
+For a command stack that has a maximum command history (stack size) of 500 entries and is port number based:
 
 ```
 JSH_COMMAND_STACK=500
+  -or-
+JSH_COMMAND_STACK=,500
 ```
 
-For a command stack that is username based and has a default stack size of 50 entries:
+For a command stack that is user based and has a default stack size of 50 entries:
 
 ```
-JSH_COMMAND_STACK=USERNAME
+JSH_COMMAND_STACK=USER
+   -or-
+JSH_COMMAND_STACK=USER,
 ```
 
-For a command stack that is both username based and has a maximum stack size of 1000 entries:
+For a command stack that is both user based and has a maximum stack size of 1000 entries:
 
 ```
 JSH_COMMAND_STACK=USERNAME,1000
@@ -93,14 +97,18 @@ The *value* of the environment variable is case insensitive, e.g.
 JSH_COMMAND_STACK=UserName
 ```
 
-If the environment variable is unassigned or any part of the value is invalid:
-
-* the stack will be port number based
-* the maximum stack size will be 50
-
-If stack size is less than 50 then the default (minimum) stack size will be set to 50 entries.
-
-If the stack is *username* based and the user is logged in to more than one port then the stack will be shared.
+>#### Notes
+>
+>If the environment variable is unassigned, or any part of the value is invalid such as a non-numeric *stack size*:
+>
+>* the stack will be port number based
+>* the maximum stack size will be 50
+>
+>If stack size is less than 50 then the default (minimum) stack size will be set to 50 entries.
+>
+>If the stack is *user* based and the user is logged in to more than one port then the command stack will be shared.
+>
+>The **user_based_command_stack** configuration option, if set, overrides this environment variable if it is set to use a *port-based* command stack.
 
 ### JSH_PROMPT
 
@@ -111,11 +119,11 @@ export JSH_PROMPT="$%s $%a $%c -->","$%>>>",msh        [Unix/Linux]
 set JSH_PROMPT="$%%s $%%a $%%c -->","$%%>>>",msh       [Windows]
 ```
 
-* The first field shown in the example is the primary prompt (jsh, msh or sh).
-* The second field shown is the secondary prompt when a select list is present.
-* The third field shown is the mode of operation: **jsh**, **msh** or **sh**
+* The first field in the example is the primary prompt (jsh, msh or sh).
+* The second field is the secondary prompt when a select list is present.
+* The third field is the mode of operation: **jsh**, **msh** or **sh**
 
-> On Windows, because **%** is a meta-character, it must be *escaped*.
+> On Windows, because **%** is a meta-character, it must be *escaped* as shown in the example.
 
 The above example will display the jShell prompt as:
 
@@ -127,7 +135,7 @@ where:
 
 **msh** is the shell type  
 **obiwan** is the account name  
-**~** indicates that you are in your home directory  
+**~** indicates that you are in your *home* directory  
 **1** is the port number  
 
 Fields 2 and 3 are optional and will take the usual defaults if not specified.
