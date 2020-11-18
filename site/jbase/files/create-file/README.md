@@ -47,7 +47,7 @@ The **UD** file type specifies Windows or UNIX directories and Windows or UNIX f
 The **JBC** file type is an equivalent to `TYPE=UD` plus the creation of an `OBJECT` section. As an example:
 
 ```
-CREATE-FILE TEST.BP TYPE=JBC`
+CREATE-FILE TEST.BP TYPE=JBC
 ```
 
 is a functional equivalent to:
