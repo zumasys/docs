@@ -180,7 +180,7 @@ The **$inherit()** method allows any number of classes to be inherited. So there
 self->$inherit("Bank", "Account")
 ```
 
-But you would need to be cautious if the same method name was implemented in both classes. It that case, the **Bank** (left most) class would take precedence.
+But you would need to be cautious if the same method name was implemented in both classes, in which case the **Bank** (left most) class would take precedence.
 
 By default, if an inherited class has no constructor then an exception is thrown.
 

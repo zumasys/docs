@@ -18,4 +18,4 @@ CALL WOBJ(PLATFORM.OBJ,"GET","mvtype",MVTYPE,"",RERR)
 PRINT MVTYPE
 ```
 
-</PageFooter>
+<PageFooter />

@@ -9,6 +9,7 @@
 [encryption-administration](./encryption-administration/README.md)  
 [jbase-encryption](./jbase-encryption/README.md)  
 [jbase-encryption-database-security](./jbase-encryption-database-security/README.md)  
+[jBC ENCRYPT() and DECRYPT() functions](./jbc-encrypt-decrypt-functions/README.md)
 
 Back to [Knowledgebase](./../README.md)
 

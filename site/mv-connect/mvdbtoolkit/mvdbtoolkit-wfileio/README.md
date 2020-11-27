@@ -76,4 +76,4 @@ CALL WOBJ(FOBJ,"SET","action","delete","",RERR)
 CALL MVDBTOOLKIT.WFILEIO(FOBJ)
 ```
 
-</PageFooter>
+<PageFooter />

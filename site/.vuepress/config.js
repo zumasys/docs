@@ -178,6 +178,14 @@ module.exports = {
                   ["/accuterm/web/profiles/connection-settings/", "Connection Settings"],
                   ["/accuterm/web/profiles/font-and-character-settings/", "Font & Character Settings"]
                 ]
+              },
+              {
+                title: "GUI",
+                path: "/accuterm/web/gui/",
+                collapsable: true,
+                children: [
+                  ["/accuterm/web/gui/staging/", "Staging Updates"]
+                ]
               }
             ]
           }
@@ -253,7 +261,11 @@ module.exports = {
             title: "Release Notes",
             path: "/mv-connect/release-notes/",
             collapsable: true,
-            children: [["/mv-connect/release-notes/1.6.3/", "1.6.3"]]
+            children: [
+              ["/mv-connect/release-notes/1.6.3/", "1.6.3"],
+              ["/mv-connect/release-notes/1.6.3/", "1.7.0"],
+              ["/mv-connect/release-notes/1.6.3/", "1.7.4"]
+            ]
           },
           ["/mv-connect/connection-pooling/", "Connection Pooling"],
           {

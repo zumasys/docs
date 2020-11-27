@@ -31,7 +31,7 @@
 | [Files](./files/README.md) | File support |
 | [Indexes](./indexes/README.md) | Support for secondary indexes |
 | [Internationalization](./internationalization/README.md) | Settings for internationalization |
-| [jSHELL](./jshell/README.md) | The jBASE command line |
+| [jShell](./jshell/README.md) | The jBASE command line |
 | [Licensing](./licensing/README.md)| jBASE 5 Licensing Overview |
 | [Lists](./lists/README.md) | Manipulating stored lists in jBASE |
 | [Porting](./porting/README.md) | Converting applications to run under jBASE |

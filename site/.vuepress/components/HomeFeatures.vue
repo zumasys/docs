@@ -21,7 +21,7 @@
         <a href="https://www.openqm.com/wp-content/uploads/sites/3/2020/10/OpenQM-4.0-Quick-Start-Installation-and-Configuration.pdf" target="_blank">Cheat Sheet: Quick Start</a><br />
         <a href="https://www.openqm.com/wp-content/uploads/sites/3/2020/10/OpenQM-Data-Integrity-Constraints-1.pdf" target="_blank">Cheat Sheet: Data Integrity Constraints</a><br />
         <a href="https://www.openqm.com/wp-content/uploads/sites/3/2020/09/OpenQM-Application-Event-Profiling.pdf" target="_blank">Cheat Sheet: Application Event Profiling</a><br />
-        <a href="https://www.openqm.com/support/documentation/" target="_blank">Full List</a>
+        <a href="https://www.openqm.com/support/documentation/" target="_blank">All Docs</a>
       </p>
     </div>
     <div class="feature">

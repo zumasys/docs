@@ -18,7 +18,7 @@ PORT TO ALLOCATE ?
 
 where:
 
-- **port**- The port number to allocate
+- **port** - The port number to allocate
 - **port port**- specifies that all ports within the range are to be allocated.
 
 and **options** may be as:
@@ -28,7 +28,7 @@ and **options** may be as:
 
 ## Note
 
-> Enter the port number to allocate to the available list of jBASE background ports. he port number will remain allocated until de-allocated with PH-DELETE command.  Allocated port numbers can still be used for normal foreground processes when not being used for jBASE background processes.
+> Enter the port number to allocate to the available list of jBASE background ports. The port number will remain allocated until de-allocated with PH-DELETE command.  Allocated port numbers can still be used for normal foreground processes when not being used for jBASE background processes.
 >
 > As of jBASE 5.2.31, the user does not require root privileges for this command.
 

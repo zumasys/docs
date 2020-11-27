@@ -36,4 +36,4 @@ CALL @WOBJ.RTNE(COBJ,"GET","result.result",CMND.RESULT,"",RERR)
 PRINT CMND.RESULT
 ```
 
-</PageFooter>
+<PageFooter />

@@ -15,7 +15,7 @@ If you have a Command Level or Break/End Restart feature in effect, or the break
 | <!----> | <!----> |
 | --- | --- |
 | **a** | Abort program |
-| **q** | Quit program |
+| **q{n}** | Quit program (where **n** is the program break level number, e.g. **q2** will **q**uit 2 program levels) |
 | **c** | Continue (may be allowed, depends on reason debug was entered)
 | **end** |  Terminate debugger |
 | **o** | Log off |

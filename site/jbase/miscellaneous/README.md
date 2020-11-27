@@ -9,6 +9,7 @@
 [Multi Tenancy](./multitenancy/README.md)  
 [Overview of Case Insensitivity in jBASE](./case-insensitive-overview/README.md)  
 [Profiles](./profiles/README.md)  
+[Time change and jBASE](time-change/README.md)  
 
 [Back to Knowledgebase](./../README.md)
 
