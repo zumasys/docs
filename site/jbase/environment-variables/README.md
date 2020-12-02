@@ -26,7 +26,7 @@ This works for all shells, although some shells (i.e. ksh) allow "export variabl
 
 Variables are usually configured in the .profile/.bash\_profile of the user login directory.  Global variables can be added to the "/etc/profile" script.
 
-### jBASE Programs
+## jBASE Programs
 
 The jBC functions **PUTENV()** and **GETENV()** can be used to manipulate environment variables. For example:
 
@@ -35,7 +35,7 @@ ok = PUTENV(envar=x)
 ok = GETENV(envar)
 ```
 
-### jBASE Initialization
+## jBASE Initialization
 
 Some environment variables can only be set before jBASE initialization. jBASE initialization occurs when the first jBASE program is executed on a particular **PORT** number.
 
@@ -51,7 +51,7 @@ For instance:
 
 All jBASE programs execute in the same process unless explicitly executed via the **@IM****:"k"** construct.
 
-### Initial Environment VAriables
+## Initial Environment Variables
 
 | <!----> | <!----> |
 | --- | --- |
@@ -78,9 +78,9 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | [JEDIFILENAME\_SYSTEM](./jedifilename_system/README.md) | pathname of file to be used for SYSTEM entries |
 | JBASE_DYNAMIC_MULTISESSION | Dynamically allocates multi-session licenses when set to 1 |
 
-### Additional jBASE Environment Variables
+## Additional jBASE Environment Variables
 
-#### Execution
+### Execution
 
 | <!----> | <!----> |
 | --- | --- |
@@ -98,7 +98,7 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | [JBCOBJECTLIST](./jbcobjectlist/README.md) | set to alternate path(s) for user subroutine libraries<br>Windows - %HOME%\lib<br>UNIX - $HOME/lib |
 | [JBC\_BLOCK\_SYSTEM14](./jbc_block_system14/README.md) | set to 1 to force a 100 millisecond delay on SYSTEM(14) calls. |
 
-#### Development
+### Development
 
 | <!----> | <!----> |
 | --- | --- |
@@ -111,7 +111,7 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | [JBC\_INCLUDE\_PATH](./jbc_include_path/README.md) | a list of directories the compiler searches through when an INCLUDE statement is seen in a program. |
 | [DECATALOG\_DELETE\_OBJECT\_CODE](./environment-variables/decatalog_delete_object_code/README.md) |  |
 
-#### Miscellaneous
+### Miscellaneous
 
 | <!----> | <!----> |
 | --- | --- |
@@ -128,8 +128,7 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | [JFILESAVE_DEVICE](../../jbase/utilities/jfilesave/README.md) | Used with the JFILESAVE command, defines the full path to where system backups are stored. |
 | [JFILESAVE_STATFILE](../../jbase/utilities/jfilesave/README.md) | Used with the JFILESAVE command, it defines the full path to where backup statistics are stored.|
 
-
-#### Terminal
+### Terminal
 
 | <!----> | <!----> |
 | --- | --- |
@@ -142,7 +141,7 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | JBC\_STDERR | set to 1 to redirect standard error to standard out. Useful for CAPTUREing output that would normally be sent to the screen. |
 | JBCCREATEFLAGS | set to 0, 1, 2 for output redirection. (Windows only)<br>0 Direct to current console (default)<br>1 Direct to new console<br>2 Detached for no console |
 
-#### Embedded SQL
+### Embedded SQL
 
 | <!----> | <!----> |
 | --- | --- |
@@ -150,14 +149,13 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | JBC\_SQLPREPROC | set alternate SQL pre-compiler command |
 | JBC\_SQLFIXEDLEN | set to use fixed length types for char input strings |
 
-#### Queries
+### Queries
 
 | <!----> | <!----> |
 | --- | --- |
 | [JBCDEFDICTS](./jbcdefdicts/README.md) | specify alternate default dictionary files |
 
-
-#### CREATE-FILE
+### CREATE-FILE
 
 | <!----> | <!----> |
 | --- | --- |
@@ -171,7 +169,7 @@ export JEDI_PREFILEOP="TYPE=JP CASE=OFF"  (UNIX)
 set JEDI_PREFILEOP=TYPE=JP CASE=OFF       (Windows)
 ```
 
-#### jRFS
+### jRFS
 
 | <!----> | <!----> |
 | --- | --- |

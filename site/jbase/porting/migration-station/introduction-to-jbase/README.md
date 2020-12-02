@@ -229,7 +229,7 @@ To use this tutorial you will need to be logged in to your system and positioned
 
 **Windows:** jsh.exe-
 
-## jSHOW - Finding files or orograms
+## jSHOW - Finding files or programs
 
 The jshow command can be used to find jBASE files or programs
 

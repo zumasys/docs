@@ -207,48 +207,168 @@ module.exports = {
         path: "/jbase/",
         collapsable: true,
         children: [
-          ["/jbase/jbc/", "jBC"],
-          ["/jbase/dynamic-objects/", "Dynamic Objects"],
-          ["/jbase/jbc-string-operations/", "jBC String Operations"],
-          ["/jbase/debugger/", "jBC Debugger"],
-          ["/jbase/compilation/", "jBC Compilation"],
-          ["/jbase/jbc-runtime/", "jBC Runtime"],
-          ["/jbase/jbc-error-handling/", "jBC Error Handling"],
-          ["/jbase/jcl/", "jCL"],
-          ["/jbase/jql/", "jQL"],
-          ["/jbase/jrfs/", "jRFS"],
-          ["/jbase/accounts/", "Accounts"],
-          ["/jbase/background-processing/", "Background Processing"],
-          ["/jbase/conversion-processing/", "Conversion Processing"],
-          ["/jbase/database-drivers/", "Database Drivers"],
-          ["/jbase/daemons/", "Daemons"],
-          ["/jbase/editor/", "Editor"],
-          ["/jbase/jbc/embedded-sql-for-jbase-basic/", "Embedded SQL"],
-          ["/jbase/emulation/", "Emulation"],
-          ["/jbase/environment-variables/", "Environment Variables"],
-          ["/jbase/files/", "Files"],
-          ["/jbase/indexes/", "Indexes"],
-          ["/jbase/internationalization/", "Internationalization"],
-          ["/jbase/jshell/", "jSHELL"],
-          ["/jbase/lists/", "Lists"],
-          ["/jbase/porting/", "Porting"],
-          ["/jbase/spooler/", "Spooler"],
-          ["/jbase/tape/", "Tape"],
-          ["/jbase/telnet/", "Telnet"],
-          ["/jbase/terminal/", "Terminals"],
-          ["/jbase/transactions/", "Transactions"],
-          ["/jbase/tools/", "Tools"],
-          ["/jbase/triggers/", "Triggers"],
-          ["/jbase/utilities/", "Utilities"],
-          ["/jbase/administration/", "Administration"],
-          ["/jbase/coding-corner/", "Coding Corner"],
-          ["/jbase/connectivity/", "Connectivity"],
-          ["/jbase/encryption/", "Encryption"],
-          ["/jbase/faq/", "FAQ"],
-          ["/jbase/jedi/", "jEDI"],
-          ["/jbase/miscellaneous/", "Miscellaneous"],
-          ["/jbase/reference-guides/", "Reference Guides"],
-          ["/jbase/release-notes/", "Release Notes"]
+          ["/jbase/introduction/", "Introduction"],
+          {
+            title:"Getting Started",
+            path: "/jbase/get-started",
+            collapsable: true,
+            children: [
+              ["/jbase/overview/", "Overview"],
+              ["/jbase/fundamentals/", "jBASE Fundamentals"]
+            ]
+          },
+          {
+            title:"Installation",
+            path: "/jbase/installation",
+            collapsable: true,
+            children: [
+              ["/jbase/administration/installation-guides/linux/", "Linux"],
+              ["/jbase/administration/installation-guides/windows/", "Windows"],
+              ["/jbase/administration/installation-guides/aix/", "AIX"],
+              ["/jbase/administration/installation-guides/upgrading/", "Upgrades"]
+            ]
+          },
+          {
+            title:"jBASE BASIC (jBC)",
+            path: "/jbase/basic",
+            collapsable: true,
+            children: [
+              ["/jbase/jbc/", "jBC"],
+              ["/jbase/editor/editors/", "Editors"],
+              ["/jbase/dynamic-objects/", "Dynamic Objects"],
+              ["/jbase/compilation/", "Compilation"],
+              ["/jbase/jbc-runtime/", "Runtime"],
+              ["/jbase/debugger/", "Debugger"],
+              ["/jbase/jbc-error-handling/", "Error Handling"]
+            ]
+          },
+          {
+            title:"jBASE Query Language (jQL)",
+            path: "/jbase/queries",
+            collapsable: true,
+            children: [
+              ["/jbase/jql/", "jQL"],
+              ["/jbase/lists/", "Lists"],
+              ["/jbase/conversion-processing/", "Conversion Processing"]
+            ]
+          },
+          {
+            title: "jBASE Control Language (PROC)",
+            path: "/jbase/jcl",
+            collapsable: true,
+            children: [
+              ["/jbase/jcl/jcl-commands/", "jCL"]
+            ]
+          },
+          {
+            title: "Indexes",
+            path: "/jbase/indexes",
+            collapsable: true,
+            children: [
+              ["/jbase/indexes/indexes", "All about Indexes"]
+            ]
+          },
+          {
+            title:"Files",
+            path: "/jbase/fileinfo",
+            collapsable: true,
+            children: [
+              ["/jbase/miscellaneous/introduction-to-audit-logging/", "Audit Logging"],
+              ["/jbase/encryption/", "Encryption"],
+              ["/jbase/miscellaneous/introduction-to-distributed-locking/", "jDLS"],
+              ["/jbase/jrfs/jrfs-quick-start-guide/","jRFS"]
+            ]
+          },
+          {
+            title: "jEDI",
+            path: "/jbase/jedi",
+            collapsable: true,
+            children: [
+              ["/jbase/jedi/mongodb/mongodb-jedi-driver/", "Mongo DB"],
+              ["/jbase/jedi/odbc/introduction-to-the-odbc-jedi/", "ODBC"]
+            ]
+          },
+          {
+            title: "Transaction Journaling",
+            path: "/jbase/transactions",
+            collapsable: true,
+            children: [
+              ["/jbase/transactions/transaction-processing/", "Logging"],
+              ["/jbase/transactions/transaction-replication/introduction-to-transaction-journaling/", "Replication"]
+            ]
+          },
+          {
+            title: "Connectivity",
+            path: "/jbase/connectivity",
+            collapsable: true,
+            children: [
+              ["/jbase/connectivity/jagent/", "jAgent"],
+              ["/jbase/miscellaneous/jcurl/", "jCurl"],
+              ["/jbase/connectivity/jrcs/", "jRCS"]
+            ]
+          },
+          {
+            title: "Spooler",
+            path: "/jbase/spooler",
+            collapsable: true,
+            children: [
+              ["/jbase/spooler/jbase-spooler/", "jBASE Spooler"]
+            ]
+          },
+          {
+            title: "Administration",
+            path: "/jbase/administration",
+            collapsable: true,
+            children: [
+              ["/jbase/accounts/", "Accounts"],
+              ["/jbase/background-processing/","Background Processing"],
+              ["/jbase/miscellaneous/case-insensitive-overview/","Case Insensitivty"],
+              ["/jbase/daemons/", "Daemons"],
+              ["/jbase/environment-variables/","Environment Variables"],
+              ["/jbase/internationalization/jbase-internationalization/", "Internationalization"],
+              ["/jbase/miscellaneous/multitenancy/","Multi-Tenancy"],
+              ["/jbase/miscellaneous/profiles/jbase-profiles/","Profiles"],
+              ["/jbase/porting/migration-station/data-conversion/generic-data-conversion/","Porting"],
+              ["/jbase/terminal/terminal-support/","Terminals"],
+              ["/jbase/tape/tape-commands/","Tape"],
+              ["/jbase/tools/","Tools"],
+              ["/jbase/utilities/","Utilities"]
+            ]
+          },
+          {
+            title: "Coding Corner",
+            path: "/jbase/coding-corner",
+            collapsable: true,
+            children: [
+              ["/jbase/coding-corner/", "Coding Corner"]
+            ]
+          },
+          {
+            title: "Migration Station",
+            path: "/jbase/porting/migration-station",
+            collapsable: true,
+            children: [
+              ["/jbase/porting/migration-station/data-conversion/", "Data Conversion"]
+            ]
+          },
+          {
+            title: "Release Notes",
+            path: "/jbase/release-notes",
+            collapsable: true,
+            children: [
+              ["/jbase/release-notes/5.7/", "5.7.x"],
+              ["/jbase/release-notes/5.6/", "5.6.x"],
+              ["/jbase/release-notes/5.5/5.5.1/", "5.5.x"]
+            ]
+          },
+          {
+            title: "Technical Support",
+            path: "/jbase/technical-support",
+            collapsable: true,
+            children: [
+              ["/jbase/tecchnical-support/", "jBASE Technical Support"]
+            ]
+          }
         ]
       },
       {

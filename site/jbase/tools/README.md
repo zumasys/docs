@@ -14,7 +14,7 @@
 [jkeyauto](./jkeyauto/README.md)  
 [jprof](./jprof/README.md)  
 [jrm-jmv-jdir](./jrm-jmv-jdir/README.md)  
-[jsetkey-(jbase-3-only)](./jsetkey-for-jbase-3-only/README.md)  
+[jsetkey(jBASE 3 Only)](./jsetkey-for-jbase-3-only/README.md)  
 [jshow](./jshow/README.md)  
 [jtic](./jtic/README.md)  
 [keys-&-jkeys](./keys-andd-jkeys/README.md)  

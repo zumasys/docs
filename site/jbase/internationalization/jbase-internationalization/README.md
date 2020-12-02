@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The code in jBASE 5 releases provides internationalization functionality, sometimes referred to ‘i18n’, (i followed by the 18 characters of nternationalizatio followed by n). This enables applications to take advantage of the internationalization functionality and hence provide for the global market, i.e. a fully internationalized application.
+The code in jBASE 5 releases provides internationalization functionality, sometimes referred to ‘i18n’, (*i followed by the 18 characters of nternationalizatio followed by n*). This enables applications to take advantage of the internationalization functionality and hence provide for the global market, i.e. a fully internationalized application.
 
 When configuring application accounts for international mode, all program variables and data records are to be of type UTF-8 handled internally as UTF-8 encoded byte sequences. The UTF-8 encoding scheme manipulates characters other than those in the standard 7-bit ASCII range (0x00-0x7f) as two-byte or three-byte sequences, rather than the normal single 8-bit byte.
 The number of bytes in the UTF-8 sequence will depend on the original code page. For example, it encodes characters in the range 0x80-0xff, representing the single byte character set ISO-8859- 1, as two bytes. However, it represents characters imported from a Double Byte Character Sequences (DBCS), such as Kanji characters from the Japanese code page “shift_jis”, as three bytes when encoded as a UTF-8 byte sequence.
@@ -56,7 +56,6 @@ Internally, very few of the jBASE library functions need changing to process dat
 ### Character vs. Bytes
 
 ```
-
 LEN, SUBSTRINGS, X[n,m], INDEX
 ```
 
@@ -134,7 +133,7 @@ locale configured for ‘en_US’
 - côte stored as UTF-8 sequence ‘c.C3.B4te’
 - côté stored as UTF-8 sequence ‘c.C3.B4t.C3.A9’
 
-locale configured for ‘fr_FR’ (reverse accented collation) 
+locale configured for ‘fr_FR’ (reverse accented collation)  
 
 - cote
 - côte

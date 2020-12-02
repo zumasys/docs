@@ -23,7 +23,7 @@ The following sections will describe all the different components and behaviors 
 **Key benefits of using jBASE Profiles:**
 
 - ***Centralized configurations:*** Ensure that environment variables and jBASE configurations are centralized for easier administration.
-- ***Reliable roaming experience******:*** Seamlessly migrate production configurations to additional jBASE servers for highly available architectures or simplified disaster recovery.
+- ***Reliable roaming experience:*** Seamlessly migrate production configurations to additional jBASE servers for highly available architectures or simplified disaster recovery.
 
 ### Overview
 
@@ -56,7 +56,7 @@ Having nothing configured will provide a default environment.
 
 > jBASE .json config files will support macro expansion, this simply means you can use any existing environment variables in your configuration.
 >
-> e.g. you could set the system file property to, "system": "%HOME%\\SYSTEM",
+> e.g. On Windows, you could set the system file property to, "system": "%HOME%\\SYSTEM", on UNIX to, "system": "\$HOME\\SYSTEM"
 
 [Profile Behavior Settings](./../profile-behavior)
 
@@ -74,5 +74,4 @@ Having nothing configured will provide a default environment.
 
 Back to [Profiles.](./../README.md)
 
-  
 <PageFooter />
