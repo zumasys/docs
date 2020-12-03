@@ -2,104 +2,6 @@
 
 <PageHeader />
 
-## Table of Contents
-
-- [jBASE Fundamentals](#jbase-fundamentals)
-  - [Table of Contents](#table-of-contents)
-  - [Prerequisites](#prerequisites)
-  - [Document Scope](#document-scope)
-  - [Roots](#roots)
-  - [Just What Are These](#just-what-are-these)
-  - [Ports](#ports)
-  - [Config_EMULATE](#config_emulate)
-  - [MultiValue Data Structure](#multivalue-data-structure)
-    - [MultiValues](#multivalues)
-    - [MultiValue Structure](#multivalue-structure)
-    - [MultiValue Uses](#multivalue-uses)
-  - [Files](#files)
-    - [The CREATE-FILE command](#the-create-file-command)
-    - [Typical File Creation](#typical-file-creation)
-  - [Hashed Types](#hashed-types)
-  - [Hashing Algorithms](#hashing-algorithms)
-    - [Overflow](#overflow)
-  - [Factors Contributing To Overflow](#factors-contributing-to-overflow)
-    - [Effect of overflow](#effect-of-overflow)
-  - [Bucket Information](#bucket-information)
-    - [Sizing & Resizing of Files](#sizing--resizing-of-files)
-    - [What Modulo to use](#what-modulo-to-use)
-    - [Determine Separation](#determine-separation)
-    - [File Performance](#file-performance)
-      - [jstat](#jstat)
-      - [jrf](#jrf)
-      - [Resize during jrestore](#resize-during-jrestore)
-    - [Directory Files](#directory-files)
-  - [MD/VOC/SYSTEM](#mdvocsystem)
-    - [Accounts](#accounts)
-    - [**File and Account Pointers**](#file-and-account-pointers)
-      - [In the MD/VOC](#in-the-mdvoc)
-      - [In SYSTEM](#in-system)
-    - [User Directories](#user-directories)
-    - [The Optional MD](#the-optional-md)
-    - [LOGTO](#logto)
-  - [Understanding jQL](#understanding-jql)
-    - [jQL or SQL](#jql-or-sql)
-    - [Parts of a jQL Sentence](#parts-of-a-jql-sentence)
-    - [Finding A File](#finding-a-file)
-    - [Selection Criteria](#selection-criteria)
-    - [Sort Criteria](#sort-criteria)
-    - [Output Specifications](#output-specifications)
-  - [Dictionaries](#dictionaries)
-    - [Types of Dictionaries](#types-of-dictionaries)
-    - [Dictionaries again](#dictionaries-again)
-    - [Dictionary Processing](#dictionary-processing)
-    - [Date Conversions](#date-conversions)
-    - [Decimal Conversions](#decimal-conversions)
-    - [Time Conversions](#time-conversions)
-    - [Group Extraction](#group-extraction)
-    - [Text Extraction](#text-extraction)
-    - [Table Lookup Example](#table-lookup-example)
-    - [I Types](#i-types)
-    - [JBCUserConversions](#jbcuserconversions)
-    - [Custom Date Conversion](#custom-date-conversion)
-    - [Using JBCUserConversions](#using-jbcuserconversions)
-  - [JCL](#jcl)
-    - [Procs](#procs)
-    - [Proc Example](#proc-example)
-    - [Paragraphs](#paragraphs)
-    - [Paragraph Example](#paragraph-example)
-  - [jBC](#jbc)
-    - [RUN Unnecessary](#run-unnecessary)
-    - [Subroutines and Functions](#subroutines-and-functions)
-    - [jLibDefinition File](#jlibdefinition-file)
-    - [Directing CATALOG](#directing-catalog)
-    - [jBC and jbuildslib Commands (This has now been superceeded by jcompile)](#jbc-and-jbuildslib-commands-this-has-now-been-superceeded-by-jcompile)
-    - [Workshop #1](#workshop-1)
-  - [The \@ function](#the--function)
-  - [Arrays](#arrays)
-    - [Dynamic Arrays](#dynamic-arrays)
-    - [Dimensioned Arrays](#dimensioned-arrays)
-    - [Resizing Arrays](#resizing-arrays)
-  - [Use of OPEN, READ, and WRITE](#use-of-open-read-and-write)
-    - [Workshop #2](#workshop-2)
-  - [ICONV and OCONV](#iconv-and-oconv)
-    - [Workshop #3](#workshop-3)
-    - [Workshop #4](#workshop-4)
-  - [Case Statements](#case-statements)
-  - [LOCATE](#locate)
-  - [Use of INS, INSERT, DEL and DELETE](#use-of-ins-insert-del-and-delete)
-  - [COUNT and DCOUNT](#count-and-dcount)
-    - [Workshop #5](#workshop-5)
-  - [SYSTEM](#system)
-  - [IOCTL](#ioctl)
-    - [IOCTL Example](#ioctl-example)
-  - [User Defined Functions](#user-defined-functions)
-    - [User Defined Functions Example](#user-defined-functions-example)
-  - [EXECUTE or PERFORM](#execute-or-perform)
-  - [jbc Code Optimization](#jbc-code-optimization)
-    - [jprof](#jprof)
-    - [jcover](#jcover)
-    - [jkeyauto](#jkeyauto)
-
 ## Prerequisites
 
 To get the most out of this document, it is recommended that the user has an installed licenced copy of jBASE. A basic understanding of jBASE terminology will be an advantage.
@@ -181,8 +83,7 @@ The structure of multivalued data is where one field has multiple pieces of info
 
 Examples of some typical uses of multi values include:
 
-1. **Multi-Line Address**
-
+. **Multi-Line Address**
 Each line of an address can be another value. A multi value field can be used to store various lines of an address. For example:
 
 - Value 1 – street address
@@ -190,8 +91,7 @@ Each line of an address can be another value. A multi value field can be used to
 - Value 1 – street address
 - Value 2 – postal box number  
   
-1. **12 Month Accumulator**
-
+. **12 Month Accumulator**
 If a multivalue field is set up with 12 values, they can be used for monthly accumulators.
 
 Considering the above example, 5 months worth of sales for a client would be as:
@@ -203,8 +103,8 @@ Considering the above example, 5 months worth of sales for a client would be as:
 - Month 5 – \$2,340
 
 With this structure, it is easy to determine sales for a quarter (1st qtr - $1,700), year-to-date sales ($4,190.50), year-to-date as of any month (YTD through month 4 - \$1,850.50).  
-3. **Invoice Summary:**
 
+. **Invoice Summary:**
 A group of multi value fields can maintain invoice summary information in a client row, or line item information in an invoice row.
 
 If there are four associated fields in the table; invoice number, invoice date, invoice amount and amount received. Then the invoice number is a direct reference to the complete invoice detail row in the invoice table (invoice primary key). Using the invoice date, it is possible to get an aged accounts receivable report (for this client only or for all clients) just by looking at this client row, without examining any of the detail invoice rows. By subtracting the amount received from the invoice amount, the amount due is established.
@@ -838,7 +738,7 @@ Field 2 contains the formula which can be made up of:
 - User subroutines – first argument is the return value
 - jBASE supplies subroutines for multivalues
 - `IF`…`THEN`…`ELSE`
-- Multiple expressions separated by a semi colon (;)
+- Multiple expressions separated by a semi colon ( \; )
 
 ### JBCUserConversions
 
@@ -910,7 +810,7 @@ JED DICT ORDER MYDATE
 LIST ORDER ORD.DATE MYDATE
 ```
 
-## JCL
+## jCL
 
 This is the jBASE procedure language. It is made up of Procedures (Procs)  and Paragraphs.  Procs work with input and output buffers, with `PQ` or `PQN` going on line 1. `PQN` includes file buffers and select registers.
 
@@ -1062,7 +962,7 @@ CRT A[-5,2]
 CRT A[-5,-2]
 ```
 
-## The \@ function
+## The @ function
 
 This function positions the cursor for screen display. It takes the general form:
 
@@ -1473,7 +1373,7 @@ This statement pauses the currently executing program and Executes any operating
 - `PASSDATA` - sends variable contents to executing program. Use `COLLECTDATA` to pick up variable
 - `RTNDATA` - returns variable contents from executing program. Use `RTNDATA` statement to return data
 
-## jbc Code Optimization
+## jBC Code Optimization
 
 Involves the use of `jprof`, `jcover` and `jkeyauto`.
 

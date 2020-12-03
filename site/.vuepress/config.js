@@ -302,7 +302,7 @@ module.exports = {
             path: "/jbase/connectivity",
             collapsable: true,
             children: [
-              ["/jbase/connectivity/jagent/", "jAgent"],
+              ["/mv-connect/api/", "jAgent"],
               ["/jbase/miscellaneous/jcurl/", "jCurl"],
               ["/jbase/connectivity/jrcs/", "jRCS"]
             ]
