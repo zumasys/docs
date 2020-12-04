@@ -36,5 +36,4 @@ After the backup, a DB-RESUME should be issued to allow normal jBASE activity to
 
 Back to [FAQ](./../README.md)
 
-  
 <PageFooter />
