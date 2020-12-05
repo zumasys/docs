@@ -60,41 +60,48 @@ All jShell environment variables must be set prior to invoking the jShell.
 
 ### JSH\_COMMAND\_STACK
 
-The **JSH\_COMMAND\_STACK** environment variable can be used to:
+The **JSH\_COMMAND\_STACK** environment variable has up to 3 optional parameters and is used to:
 
-* configure the number of commands in the jShell command history (*stack size*)
-* specify that the command stack is user based
+* Configure the number of commands in the jShell command history (*stack size*)
+* Specify that the command stack is user based
+* Set the cursor at the end of a recalled command. This allows the jShell to match the behavior of native Opertating System shells. (this feature and any mention of it below will be available in jBASE 5.8 forward)
 
 The stack size can be set to any number greater or equal to 50.
 
-The command stack can optionally be *user* based with the literal string **USER** or **USERNAME**(see examples below).
+The command stack can optionally be *user* based with the literal string **USER** or **USERNAME**.
 
-For a command stack that has a maximum command history (stack size) of 500 entries and is port number based:
+By default, when commands are recalled/redisplayed with the [Navigation and Editing](#navigation-and-editing) keystrokes, the cursor is placed at the beginning of the line. This behavior can be changed to place the cursor at the end of the line with the `+` parameter (see examples below).
+
+#### Examples
+
+To set a command stack that has a maximum command history (stack size) of 500 entries, is port number based, and recalled commands place the cursor at the end of the line:
 
 ```
-JSH_COMMAND_STACK=500
-  -or-
-JSH_COMMAND_STACK=,500
+JSH_COMMAND_STACK=500,+
 ```
 
-For a command stack that is user based and has a default stack size of 50 entries:
+To set the command stack to all default values but place the cursor at the end of recalled commands:
+
+```
+JSH_COMMAND_STACK=+
+```
+
+The previous example can be made user-based with:
+
+```
+JSH_COMMAND_STACK=USER,+
+```
+
+To set a user-based command stack and has the default stack size of 50 entries:
 
 ```
 JSH_COMMAND_STACK=USER
-   -or-
-JSH_COMMAND_STACK=USER,
 ```
 
-For a command stack that is both user based and has a maximum stack size of 1000 entries:
+To set a command stack that is both user-based and has a maximum stack size of 1000 entries:
 
 ```
 JSH_COMMAND_STACK=USERNAME,1000
-```
-
-The *value* of the environment variable is case insensitive, e.g.
-
-```
-JSH_COMMAND_STACK=UserName
 ```
 
 >#### Notes
@@ -103,12 +110,20 @@ JSH_COMMAND_STACK=UserName
 >
 >* the stack will be port number based
 >* the maximum stack size will be 50
+>* the cursor will be placed at the beginning of recalled stack entries
 >
->If stack size is less than 50 then the default (minimum) stack size will be set to 50 entries.
+>If stack size is less than 50 then the default stack size will be set to 50 entries.
 >
 >If the stack is *user* based and the user is logged in to more than one port then the command stack will be shared.
 >
->The **user_based_command_stack** configuration option, if set, overrides this environment variable if it is set to use a *port-based* command stack.
+>The `user_based_command_stack` configuration option, if set, overrides this environment variable if it is set to use a *port-based* command stack.
+>
+>The *value* of the environment variable is case insensitive, e.g.
+>
+>```
+>JSH_COMMAND_STACK=UserName
+>```
+
 
 ### JSH_PROMPT
 
@@ -233,6 +248,8 @@ jsh ~ --><Esc>
 jsh ~ (Cmnd) -->/cd
 jsh ~ -->cd source
 ```
+
+### Navigation and Editing
 
 Two other keystrokes within jsh allow you to recall up to 50 previous commands. They are:
 
