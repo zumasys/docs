@@ -16,18 +16,18 @@ Following changes to jBASE from release 5.7.10 upwards, a number of record locki
 - Extended information kept with the record lock, such as file name, application source and line number where lock was taken, session id, age of lock and any session timeout.
 - Performance improvements
 
-The remainder of this document assumes jBASE release 5.7.10 or higher, and assumes the `jDLS` locking daemon is active.
+The remainder of this document assumes jBASE release 5.7.10 or higher, and assumes the [`jDLS`](./../../jdls/README.md) locking daemon is active.
 
 The record locking strategies that jBASE now employs are as follows:
 
-- Thread based locks. This is the default for jBASE. Each thread level in jBASE (e.g. `PERFORM` creates a new thread level) creates and owns its own locks. Once a thread executes a STOP and returns to the parent jBASE program then locks are released.
+- Thread based locks. This is the default for jBASE. Each thread level in jBASE (e.g. [`PERFORM`](./../../jbc/execute/README.md) creates a new thread level) creates and owns its own locks. Once a thread executes a STOP and returns to the parent jBASE program then locks are released.
 - `PORT` based locks. In this model, a record lock is shared by all threads with the same port number.
 - `PERSISTENT` locks. *NEW*. There are 2 variations to these locks.
   - `PORT` persistent. These locks are compatible with D3 locking. You can use "_d3_" as a synonym for persistent. Locks are shared in the same way as PORT based locks. However, locks are only released under the following circumstances
-    - When explicitly requested to with a statement such as `WRITE`, `RELEASE`, `DELETE`
+    - When explicitly requested to with a statement such as [`WRITE`](./../../jbc/write/README.md), [`RELEASE`](./../../jbc/release/README.md), [`DELETE`](./../../jbc/delete/README.md)
     - When the port logs off
   - `SESSION` persistent. These locks are designed for web-based applications with non-persistent connections. The locks are owned by a session id and are are only released under the following circumstances
-    - When explicitly requested to with a statement such as `WRITE`, `RELEASE`, `DELETE`
+    - When explicitly requested to with a statement such as [`WRITE`](./../../jbc/write/README.md), [`RELEASE`](./../../jbc/release/README.md), [`DELETE`](./../../jbc/delete/README.md)
     - After a prescribed timeout period, defined by the application.
 
 ## Deciding the locking strategy
@@ -42,13 +42,13 @@ By default, all record locks will be Thread based locks.
 
 ### Using jDLS options
 
-The `PORT` based strategy can be chosen by `jDLS` using the `-P` option.
+The `PORT` based strategy can be chosen by [`jDLS`](./../../jdls/README.md) using the `-P` option.
 
-Any of the 3 strategies can be selected using the `-l` option to jDLS i.e. `-lport`, `-lthread` and `-lpersistent`.
+Any of the 3 strategies can be selected using the `-l` option to [`jDLS`](./../../jdls/README.md) i.e. `-lport`, `-lthread` and `-lpersistent`.
 
 ### Emulation options
 
-You can define the following in your `Config_EMULATE` using the `lock_strategy` variable set to port, thread or persistent. For example to enable D3 style record locking as the default, add this line
+You can define the following in your [`Config_EMULATE`](./../../emulation/README.md) using the `lock_strategy` variable set to port, thread or persistent. For example to enable D3 style record locking as the default, add this line
 
 ```
 lock_strategy = persistent
@@ -58,7 +58,7 @@ lock_strategy = d3
 
 ## Changing the locking strategy in the application
 
-The above mechanisms decide the record locking strategy for a jBASE program when it starts. For most customers, simply starting `jDLS` with one of the `-l` options will suffice.
+The above mechanisms decide the record locking strategy for a jBASE program when it starts. For most customers, simply starting [`jDLS`](./../../jdls/README.md) with one of the `-l` options will suffice.
 
 However,there are exception, especially if you are running a web-based application and want to use session based persistent locks, you will need to supply a session id and timeout value.
 
@@ -105,7 +105,7 @@ A number of ways exist to see what locks are outstanding. Some are command line 
 
 ### jDLS -d [-v] [-L] [-X]
 
-The `jDLS` program has always had the ability to display outstanding record locks, mostly commonly used as `jDLS -dvL`. For example the output of `jDLS -dvL`:
+The [`jDLS`](./../../jdls/README.md) program has always had the ability to display outstanding record locks, mostly commonly used as `jDLS -dvL`. For example the output of `jDLS -dvL`:
 
 ```
 Lock monitor at pid:      54673 - Active
@@ -135,7 +135,7 @@ Record locks:        20180 locks maximum in 1009 groups of 20 locks/group
 
 ### SHOW-ITEM-LOCKS
 
-The `SHOW-ITEM-LOCKS` now supports the `(X)` option which displays the extended record information, for example:
+The [`SHOW-ITEM-LOCKS`](./../../utilities/show-item-locks/README.md) now supports the `(X)` option which displays the extended record information, for example:
 
 ```
 jsh jbase ~ -->SHOW-ITEM-LOCKS (X)
@@ -308,7 +308,7 @@ You can now use this file as you would any data file, except remember each item 
 
 Some examples of using the file:
 
-First, list the file (i.e. `LIST MYLOCK`). The DICT item contains defaults, but you can select your own, as you can **ANY** jQL statement. This is the mechanism we use in `SHOW-ITEM-LOCKS` with the `(X)` option earlier.
+First, list the file (i.e. `LIST MYLOCK`). The DICT item contains defaults, but you can select your own, as you can **ANY** jQL statement. This is the mechanism we use in [`SHOW-ITEM-LOCKS`](./../../utilities/show-item-locks/README.md) with the `(X)` option earlier.
 
 ```
 jsh jbase ~ -->LIST MYLOCK
