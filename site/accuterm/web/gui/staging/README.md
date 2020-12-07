@@ -2,6 +2,19 @@
 
 <PageHeader />
 
+
+## Release Notes - December 7th, 2020 
+
+- Initial event handling added to all controls
+- Controls - Continued events integration:
+   - Specialized event handling added to Option control
+- Controls - Continued property integration for all controls
+- Architecture - Add special type handling for controls (grid, list, etc), which pass data as arrays and multi-dimensional arrays. (via setprops)
+- Controls - Initial property integration for:
+   - Tree 
+   - Picture, Frame, Tab and Tab Group
+   - Gauge, Timer, Browser
+
 ## Release Notes - November 24th, 2020   
   
 - Initial event integration for Edit control
