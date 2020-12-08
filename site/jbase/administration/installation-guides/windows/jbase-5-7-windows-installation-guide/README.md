@@ -74,7 +74,7 @@ jBASE is now utilizing the C compiler from Visual Studio 2019 by installing the 
 
 The jBASE installer provides two installation modes: **Express** and **Advanced**.  
 
-Continue to [Upgrading from a Previous Version](./../../upgrading-from-a-previous-version/README.md), if you already have jBASE installed.
+Continue to [Upgrading from a Previous Version](./../../upgrading/README.md), if you already have jBASE installed.
 
 **Express:** install jBASE with typical options and services. Select this option if you are new to jBASE and wish to get started quickly. Express mode installs jBASE, creates a jBASE Administrator user and account, creates a SYSTEM file to organize jBASE accounts, initializes the spooler, installs and starts jBASE services.
 
@@ -198,7 +198,7 @@ The installation of jBASE is complete.
 
 ### Related Topics
 
-[Upgrading from a Previous Version](./../../upgrading-from-a-previous-version/README.md)
+[Upgrading from a Previous Version](./../../upgrading/README.md)
 
 [Installing the Compiler](./../windows-compiler-installation/README.md)
 

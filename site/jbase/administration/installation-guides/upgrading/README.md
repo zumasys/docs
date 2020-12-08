@@ -42,13 +42,13 @@ Such files may include:
 
 ### Related Topics
 
-[Installing the Compiler](installing-the-windows-compiler)
+[Installing the Compiler](./../../installation-guides/windows/windows-compiler-installation/README.mdinstalling-the-windows-compiler)
 
-[Creating Accounts and Users](./../create-accounts-and-users)
+[Creating Accounts and Users](./../../installation-guides/windows/create-accounts-and-users/README.md)
 
-[Manual License Key Installation](./../manual-license-key-installation)
+[Manual License Key Installation](./../../installation-guides/licensing/manual-license-key-installation/README.md)
 
-[Manual Installation of jDLS Service](./../../../jbase/manual-installation-of-jdls-service)
+[Manual Installation of jDLS Service](./../../../daemons/manual-installation-of-jdls-service/README.md)
 
 Back to [Installation Guides](./../README.md).
 

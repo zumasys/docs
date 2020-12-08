@@ -149,7 +149,7 @@ Data File Path................    Item ID.............    Age...    Timeout    P
  1 Records Listed
  ```
 
-You can supply additional `JQL` information to control the columns and the sorting. The `DICT` items are described later in the `PORT` `JEDI` notes. Here is an example of displaying the oldest locks outstanding on your system:
+You can supply additional `jQL` information to control the columns and the sorting. The `DICT` items are described later in the `PORT` `jEDI` notes. Here is an example of displaying the oldest locks outstanding on your system:
 
  ```
  jsh jbase ~ -->SHOW-ITEM-LOCKS BY-DSND AGE (X)
@@ -283,7 +283,7 @@ The second parameter to `JBASEReturnLockInfo()` is where we return the lock info
 
 ### Using the new LOCK JEDI to display and clear locks
 
-A new `JEDI` (database driver) has been created to enable record locks to be displayed, selected and cleared. Once you have a file of type `jlock` then you can treat each record lock as though it were an item in a file, meaning you can run `jQL` queries, do a `SELECT`, `ED` the lock (although your can't modify it), and `DELETE` it or `CLEARFILE` it.
+A new `jEDI` (database driver) has been created to enable record locks to be displayed, selected and cleared. Once you have a file of type `jlock` then you can treat each record lock as though it were an item in a file, meaning you can run `jQL` queries, do a `SELECT`, `ED` the lock (although your can't modify it), and `DELETE` it or `CLEARFILE` it.
 
 To accomplish this you will need a file of type `JLOCK`. There are 2 ways to create the file.
 
