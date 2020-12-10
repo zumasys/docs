@@ -233,12 +233,12 @@ module.exports = {
             path: "/jbase/basic",
             collapsable: true,
             children: [
-              ["/jbase/jbc/", "jBC"],
+              ["/jbase/reference-guides/jbc/", "jBC"],
               ["/jbase/editor/editors/", "Editors"],
               ["/jbase/dynamic-objects/", "Dynamic Objects"],
               ["/jbase/compilation/", "Compilation"],
               ["/jbase/jbc-runtime/", "Runtime"],
-              ["/jbase/debugger/", "Debugger"],
+              ["/jbase/reference-guides/debugger/", "Debugger"],
               ["/jbase/jbc-error-handling/", "Error Handling"]
             ]
           },
@@ -257,7 +257,7 @@ module.exports = {
             path: "/jbase/jcl",
             collapsable: true,
             children: [
-              ["/jbase/jcl/jcl-commands/", "jCL"]
+              ["/jbase/reference-guides/jcl/", "jCL"]
             ]
           },
           {
