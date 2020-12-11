@@ -5,7 +5,7 @@
 **Tags:**
 <badge text='5.7.10+' vertical='middle' />
 
-Following changes to jBASE from release 5.7.10 upwards, a number of record locking enhancements were made. In summary these enhancements are:
+Following changes to jBASE from release 5.7.10 onwards, a number of record locking enhancements were made. In summary these enhancements are:
 
 - New locking persistence model suited for D3 environments
 - New locking persistence model suited for non-persistent applications, for example REST applications
@@ -15,7 +15,7 @@ Following changes to jBASE from release 5.7.10 upwards, a number of record locki
 - User defined event handler for interrupting waits on record locks
 - Performance improvements
 
-The remainder of this document assumes jBASE release 5.7.10 or higher, and assumes the `jDLS` locking demon is active.
+The remainder of this document assumes jBASE release 5.7.10 or higher, and assumes the [`jDLS`](./../../jdls/README.md) locking daemon is active.
 
 The 4 record locking strategies that jBASE now employs are as follows:
 
