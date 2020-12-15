@@ -21,7 +21,7 @@ The 4 record locking strategies that jBASE now employs are as follows:
 
 - `Thread` based locks. This is the default for jBASE. Each thread level in jBASE (e.g. [`PERFORM`](./../../jbc/execute/README.md) creates a new thread level) creates and owns its own locks and does not share them with child or parent programs. The locks are released by the following actions
   - When a [`WRITE`](./../../jbc/write/README.md), [`RELEASE`](./../../jbc/release/README.md) or [`DELETE`](./../../jbc/delete/README.md) statment is performed.
-  - When the program issues a STOP or ABORT or is logged off.
+  - When the program issues a STOP, ABORT, EXIT() or is logged off.
   - When the file variable is closed by any means (e.g. the variable is re-assigned, or goes out of scope such as a RETURN from a SUBROUTINE will cause all local variables to go out of scope)
 - `PORT` based locks. In this model, a record lock is shared by all child and parent threads with the same port number. Locks are released as per Thread models.
 - `D3` locks. *NEW*. These locks are compatible with D3 locking. Fundamentally they work similar to Thread based locks. However, locks are only released under the following circumstances
