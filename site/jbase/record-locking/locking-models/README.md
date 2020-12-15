@@ -296,9 +296,9 @@ The second parameter to `JBASEReturnLockInfo()` is where we return the lock info
 <1,19>  The Thread (PERFORM) level when the lock was taken
 ```
 
-### Using the new LOCK JEDI to display and clear locks
+### Using the new LOCK jEDI to display and clear locks
 
-A new `jEDI` (database driver) has been created to enable record locks to be displayed, selected and cleared. Once you have a file of type `jlock` then you can treat each record lock as though it were an item in a file, meaning you can run `JQL` queries, do a `SELECT`, `ED` the lock (although your can't modify it), and `DELETE` it or `CLEARFILE` it.
+A new `jEDI` (database driver) has been created to enable record locks to be displayed, selected and cleared. Once you have a file of type `jlock` then you can treat each record lock as though it were an item in a file, meaning you can run `jQL` queries, do a `SELECT`, `ED` the lock (although your can't modify it), and `DELETE` it or `CLEARFILE` it.
 
 To accomplish this you will need a file of type `JLOCK`. There are 2 ways to create the file.
 
