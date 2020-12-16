@@ -14,7 +14,7 @@ jbase-centos5-~/bp: cat date1.jabba
     input x
     crt oconv(x, "d")
 
-jbase-centos5-~/bp: date1
+jbase-centos-~/bp: date1
 ?112233445566778899
 jBASE pid 9566: Segmentation violation. Aborting.
 Segmentation fault
@@ -23,10 +23,10 @@ Segmentation fault
 The same thing occurs if a large integer is passed on the command line...
 
 ```
-jbase-centos5-~/bp: cat date2.jabba
+jbase-centos-~/bp: cat date2.jabba
     crt oconv(sentence(1), "d")
 
-jbase-centos5-~/bp: date2 112233445566778899
+jbase-centos-~/bp: date2 112233445566778899
 jBASE pid 9623: Segmentation violation. Aborting.
 Segmentation fault
 ```
