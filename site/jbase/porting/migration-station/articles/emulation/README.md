@@ -8,93 +8,74 @@
 
 ## Description
 
-Emulation support is provided by the **Config\_EMULATE** file in the **config** subdirectory of the jBASE release directory. All text in the file is case insensitive.
+Emulation support is provided by the `Config\_EMULATE` file. This file is located in `$JBCGLOBALDIR/config` (on Linux/AIX) or `%JBCGLOBALDIR%\config` (on Windows). All text in the file is case insensitive. A companion file, `Config\_EMULATE.txt`, with descriptions of all of the configuration options can also be found in the same location.
 
 The format of that file is:
 
 | Code | Definition |
 | --- | --- |
 | **#** | Denotes a comment and the line is ignored. |  
-| **x:** | Denotes a label, signifying the start of an emulation definition. |  
-| **any** | Denotes an emulation definition. |  
+| **label:** | Denotes the name of the emulation, signifying the start of an emulation definition. |  
+| **key = value** | Denotes a configuration entry within the emulation definition, where `key` is the configuration option and `value` is the setting. |  
 
-Labels must be alpha-numeric, i.e. no periods, underlines, etc. If one label directly follows another then the label is synonym for the same emulation definition. The emulation definition ends when another label or the end of file encountered.
+Labels must be alpha-numeric, i.e. no periods, commas, semi-colons, dashes, underlines, etc. If one label *directly* follows another then the label is a synonym for the same emulation definition. The emulation definition ends when another label is found or the end of file encountered.
 
 Multiple emulation definitions can be defined on the same line with each definition delimited by a comma or a semicolon. Emulation definitions can be interrupted by blank lines and can contain any amount of white space, i.e. one or more spaces or tab characters.
 
 Emulation definitions can be declared 'on', 'yes' or 'true' to mean the emulation is enabled or similarly use the strings 'off', 'no' or 'false' to mean the emulation effect is disabled.
 
-To use a different set of emulation definitions from the default set, set the environment variable **JBCEMULATE** in your current environment to the required emulation label. When the environment variable is not configured then the emulation definition defined by the default label is in effect. If the default label is not present then the first label detected will be used for the default emulation.
+To use a different set of emulation definitions from the default set, set the environment variable `JBCEMULATE` in your current environment to the required emulation label. When the environment variable is not configured then the emulation definition defined by the `default` label is in effect. If the `default` label is not present then the first label detected will be used for the default emulation.
 
-Generally any emulation definitions which affect BASIC, (such as the @(-n) codes), use the JBCEMULATE environment variable when the programs are compiled, whereas the other definitions tend to be used at runtime, when the program is executed.
+Generally any emulation definitions which affect BASIC, (such as the `@(-n)` codes), use the `JBCEMULATE` environment variable when the programs are compiled, whereas the other definitions tend to be used at runtime, when the program is executed.
 
-You can create your own custom emulation sections in the **Config\_EMULATE** file but it is recommended to use Alternate Emulations for this purpose.
+You can create your own custom emulation sections in the `Config\_EMULATE` file but it is strongly recommended to use Alternate Emulations instead. This will ensure that important updates are not missed when upgrading to newer versions of jBASE.
 
 ## Alternate Emulations
 
-An Alternate Emulation has the general form:
+An alternate (custom) emulation has the general form:
 
 ```
 Config_EMULATE_name
 ```
 
-where **name** is the name of the emulation. These emulations are also stored in the **config** directory under **$JBCRELEASEDIR**. and follow the exact same rules. The file name of the alternate emulation must be the same as the **label**, i.e. the **x:** line.
+where `name` is the name of the custom emulation. For example, if the custom emulation is named "acme" then the alternate emulation file *must* be named "Config_EMULATE_acme".
 
-Alternate Emulations can contain any combination of configuration options except **dup** entries. If you require the behavior of a **dup** entry then all configuration settings in that section must be explicitly added to the Alternate Emulation.
+These emulations must be stored in the same location as the master `Config\_EMULATE` file and they follow the exact same rules as above.
 
-For example, to create an alternate **jbase** emulation called **jcustom**,which changes the value of the **old\_jql\_output\_style** setting, would be:
+Alternate Emulations can contain any combination of configuration options. The first label in the custom file must be the name of the custom emulation (see example below). Any emulation defined in the `config` directory or in the master jBASE Config_EMULATE can be used as a template for a custom emulation by using the `dup` directive, in which case all of the configuration settings in the template are inherited in the custom emulation. Additional configuration entries can be added after `dup` and if the key matches one of the template entries then it will override the inherited entry.
 
-```
-File name: Config_EMULATE_jcustom
+When jBASE is processing `dup` in an alternate emulation, first the alternate file is searched for the target value of `dup` and, if not found, then the main jBASE `Config_EMULATE` file is searched.
 
-jcustom:
-      @(-1) = clear_screen ; @(-2) = cursor_home ; @(-3) = clear_eos ; @(-4) = clear_eol
-      @(-5) = blink_on ; @(-6) = blink_off
-      @(-7) = prot_on ; @(-8) = prot_off ;
-      @(-9) = cursor_left ; @(-10) = cursor_up ; @(-20) = cursor_down ; @(-19) = cursor_right
-      @(-13) = reverse_on ; @(-14) = reverse_off
-      @(-15) = underline_on ; @(-16) = underline_off
-      @(-17) = printer_on ; @(-18) = printer_off
-      @(-33) = background white ; @(-34) = background yellow ; @(-35) = background magenta ; @(-36) = background red
-      @(-37) = background cyan ; @(-38) = background green ; @(-39) = background blue ; @(-40) = background black
-      @(-41) = foreground white ; @(-42) = foreground yellow ; @(-43) = foreground magenta ; @(-44) = foreground red
-      @(-45) = foreground cyan ; @(-46) = foreground green ; @(-47) = foreground blue ; @(-48) = foreground black
-      @(-57) = foreground white ; @(-58) = foreground yellow ; @(-59) = foreground magenta ; @(-60) = foreground red
-      @(-61) = foreground cyan ; @(-62) = foreground green ; @(-63) = foreground blue ; @(-64) = foreground black
-      @(-200) = cursor_on , @(-201) = cursor_off
-      list_keys = true
-      reality_video = true
-      jbase_field = true
-      named_common = null
-      readv0 = key
-      treat_with_as_or_with = true
-      dates_upper_case = yes
-      use_sql_syntax_for_select = false
-      old_jql_output_style = true
-      itype_trans_replace_delim = false
-      itype_unquoted_numeric_literal = true
-      enter_keeps_common_data = false
-      error_numbers_are_single_attribute = false
-```
+If a `dup` entry is specified and the target emulation is not found then a warning is display and the default emulation is used.
 
-To use this definition, set the **JBCEMULATE** environment variable to **jcustom**, e.g.
+For example, to create a custom emulation called `jbased3`, which inherits from the `D3` emulation in the master Config_EMULATE which, in turn, has a `dup = jbase` entry that  inherits from the `jbase` emulation in the master Config_EMULATE, we will create a file in the `config` directory called `Config_EMULATE_jbased3` with these contents:
 
 ```
-export JBCEMULATE=jcustom   [Linux]
-set JBCEMULATE=jcustom      [Windows]
+jbased3:
+      dup = d3
+      named_common = unassigned
+      md_int_only = true
+      md_int_only_emulate_jbase3 = true
 ```
 
-Note that you can't use the **dup** option with alternate emulations. In other words, you can't do something like this:
+In this example, the `dup = d3` entry will inherit all configuration options in the `d3` section. The `d3` section will inherit all of the configuration options in the `jbase` section. If the `jbase` section had any `dup` entries then they would also be inherited, and so on.
+
+All other configuration settings below the "dup" line are either new or will override the inherited setting. This will ensure that you continue to make use of any changes made to the standard D3 emulation.
+
+In this example, the `named_common` entry overrides the `jbase` setting. The others are new settings that don't exist in the either of the `d3` or `jbase` sections in the master Config_EMULATE file.
+
+To use the `jbased3` emulation, set the `JBCEMULATE` environment variable to `jbased3`:
 
 ```
-jcustom:
-      dup = jbase
-      old_jql_output_style = true
+export JBCEMULATE=jbased3    [Linux]
+set JBCEMULATE=jbased3       [Windows]
 ```
 
-You must expand all of the entries explicitly.
+Use the `config-strings` command to review your configuration.
 
 ### Configuration Definitions
+
+The following table is a sample of the available configuration options. A complete list is in the `Config_EMULATE.txt` file in the `config` directory.
 
 | Variable | Description | Set At: |
 | --- | --- | --- |
