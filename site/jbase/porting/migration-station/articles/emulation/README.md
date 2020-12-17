@@ -8,7 +8,7 @@
 
 ## Description
 
-Emulation support is provided by the `Config\_EMULATE` file. This file is located in `$JBCGLOBALDIR/config` (on Linux/AIX) or `%JBCGLOBALDIR%\config` (on Windows). All text in the file is case insensitive. A companion file, `Config\_EMULATE.txt`, with descriptions of all of the configuration options can also be found in the same location.
+Emulation support is provided by the `Config_EMULATE` file. This file is located in `$JBCGLOBALDIR/config` (on Linux/AIX) or `%JBCGLOBALDIR%\config` (on Windows). All text in the file is case insensitive. A companion file, `Config_EMULATE.txt`, with descriptions of all of the configuration options can also be found in the same location.
 
 The format of that file is:
 
@@ -28,7 +28,7 @@ To use a different set of emulation definitions from the default set, set the en
 
 Generally any emulation definitions which affect BASIC, (such as the `@(-n)` codes), use the `JBCEMULATE` environment variable when the programs are compiled, whereas the other definitions tend to be used at runtime, when the program is executed.
 
-You can create your own custom emulation sections in the `Config\_EMULATE` file but it is strongly recommended to use Alternate Emulations instead. This will ensure that important updates are not missed when upgrading to newer versions of jBASE.
+You can create your own custom emulation sections in the `Config_EMULATE` file but it is strongly recommended to use Alternate Emulations instead. This will ensure that important updates are not missed when upgrading to newer versions of jBASE.
 
 ## Alternate Emulations
 
@@ -40,7 +40,7 @@ Config_EMULATE_name
 
 where `name` is the name of the custom emulation. For example, if the custom emulation is named "acme" then the alternate emulation file *must* be named "Config_EMULATE_acme".
 
-These emulations must be stored in the same location as the master `Config\_EMULATE` file and they follow the exact same rules as above.
+These emulations must be stored in the same location as the master `Config_EMULATE` file and they follow the exact same rules as above.
 
 Alternate Emulations can contain any combination of configuration options. The first label in the custom file must be the name of the custom emulation (see example below). Any emulation defined in the `config` directory or in the master jBASE Config_EMULATE can be used as a template for a custom emulation by using the `dup` directive, in which case all of the configuration settings in the template are inherited in the custom emulation. Additional configuration entries can be added after `dup` and if the key matches one of the template entries then it will override the inherited entry.
 
