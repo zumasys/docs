@@ -46,7 +46,7 @@ Alternate Emulations can contain any combination of configuration options. The f
 
 When jBASE is processing `dup` in an alternate emulation, first the alternate file is searched for the target value of `dup` and, if not found, then the main jBASE `Config_EMULATE` file is searched.
 
-If a `dup` entry is specified and the target emulation is not found then a warning is display and the default emulation is used.
+If a `dup` entry is specified and the target emulation is not found then a warning is displayed and the default emulation is used.
 
 For example, to create a custom emulation called `jbased3`, which inherits from the `D3` emulation in the master Config_EMULATE which, in turn, has a `dup = jbase` entry that  inherits from the `jbase` emulation in the master Config_EMULATE, we will create a file in the `config` directory called `Config_EMULATE_jbased3` with these contents:
 
