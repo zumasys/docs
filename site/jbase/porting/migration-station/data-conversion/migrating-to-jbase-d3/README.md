@@ -1,4 +1,4 @@
-# Migrating to jBASE: D3 Systems
+# Migrating to jBASE: D3
 
 <PageHeader />
 

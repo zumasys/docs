@@ -1,4 +1,7 @@
-# jBASE System Configuration File
+# jBASE Configuration File
+
+<PageHeader />
+
 The jBASE system configuration file, *jbase_config.json*, is used to configure jBASE environment variables, legacy license keys and other configuration data. This file is normally located at `$JBCGLOBALDIR/config/jbase_config.json`. When [JBCGLOBALDIR][docs_jbcglobaldir] and [JBCRELEASEDIR][docs_jbcreleasedir] are separate directories, a stub version of *jbase_config.json* may be found at `$JBCRELEASEDIR/config/jbase_config.json`. The stub config file should, at minimum, specify the location of [JBCGLOBALDIR][docs_jbcglobaldir]. When two configuration files are found (one in [JBCRELEASEDIR][docs_jbcreleasedir] and one in [JBCGLOBALDIR][docs_jbcglobaldir]), the files are combined, and the resulting merged configuration is used for the system configuration.
 
 In special cases, the `JBASE_CONFIG_FILE` environment variable may set before launching a jBASE session. When jBASE starts, this file will be used to configure jBASE, rather than the default configuration.
@@ -18,11 +21,12 @@ The `environment` property in the configuration file is a JSON array containing 
 
 The system environment is updated in the order of the elements in the array. This is important, as the value (or default) in any element may reference other environment variables. If a value references another variable, be sure the referenced variable occurs earlier in the environment array. 
 
-Use normal O/S syntax when referencing an environment variable in a value (or default). For example, on Linux, `"value": "$HOME/bin"` is valid. Similarly, on Windows, use `"value": "%HOME%\\bin"`. 
+Use normal O/S syntax when referencing an environment variable in a value (or default). For example, on Linux, `"value": "$HOME/bin"` is valid. Similarly, on Windows, use `"value": "%HOME%\\bin"`.
 
 > Note: Notice the double backslashes in the Windows example. This is standard JSON string syntax, where a single backslash must be "escaped" using two backslashes (`\\`).
 
 ## jBASE Configuration - Licenses
+
 The `licenses` property in the configuration file is used to store jBASE license keys. This is a JSON object, with up to 5 properties: `runtime`, `system`, `multisession`, `websession` and `eval`.
 
 ``` json
@@ -35,28 +39,31 @@ The `licenses` property in the configuration file is used to store jBASE license
 Normally you should use jBASE utilities such as [jLicenseUpdate](https://docs.zumasys.com/jbase/administration/installation-guides/licensing-a-jbase-system/) to update the licenses property of the configuration file.
 
 ## jBASE Configuration - Other settings
+
 On Linux and AIX, the `umask` property in the configuration file may be used to set the process umask when starting a jBASE session. The value is a 4 digit octal value in the same format as the umask command.
+
 ``` json
     "umask": "0002"
 ```
 
 ## jBASE Directories
-* [JBCRELEASEDIR][docs_jbcreleasedir] - This is the directory where the jBASE release files are stored. This directory is specific to each release of jBASE, and is normally named for the release that it contains. Default location is `/opt/jbase/<release>` (Linux) or `C:\jbase\<release>` (Windows). Normally there is a symbolic link, *CurrentVersion*, pointing to the most recent jBASE release directory. 
-* [JBCGLOBALDIR][docs_jbcglobaldir] - This directory contains jBASE system configuration files. Traditionally it was the same as [JBCRELEASEDIR][docs_jbcreleasedir]; however, by moving the jBASE configuration files out of [JBCRELEASEDIR][docs_jbcreleasedir] and into a separate [JBCGLOBALDIR][docs_jbcglobaldir] directory, the system configuration can easily be maintained when upgrading the jBASE release. Additionally, since it contains the system configuration, backing up the system configuration is simplified. The default location is `/opt/jbase/global` (Linux) or `C:\jbase\global` (Windows). 
+
+* [JBCRELEASEDIR][docs_jbcreleasedir] - This is the directory where the jBASE release files are stored. This directory is specific to each release of jBASE, and is normally named for the release that it contains. Default location is `/opt/jbase/<release>` (Linux) or `C:\jbase\<release>` (Windows). Normally there is a symbolic link, *CurrentVersion*, pointing to the most recent jBASE release directory.
+* [JBCGLOBALDIR][docs_jbcglobaldir] - This directory contains jBASE system configuration files. Traditionally it was the same as [JBCRELEASEDIR][docs_jbcreleasedir]; however, by moving the jBASE configuration files out of [JBCRELEASEDIR][docs_jbcreleasedir] and into a separate [JBCGLOBALDIR][docs_jbcglobaldir] directory, the system configuration can easily be maintained when upgrading the jBASE release. Additionally, since it contains the system configuration, backing up the system configuration is simplified. The default location is `/opt/jbase/global` (Linux) or `C:\jbase\global` (Windows).
   > Note: The default location has changed from previous jBASE releases.
-* [JBCDATADIR][docs_jbcdatadir] - This is the default directory where jBASE data resides. This includes the `SYSTEM` file, user account directories and the spooler. The default location is `/var/opt/jbase/jbase_data` (Linux) or `C:\jbase\jbase_data` (Windows). 
+* [JBCDATADIR][docs_jbcdatadir] - This is the default directory where jBASE data resides. This includes the `SYSTEM` file, user account directories and the spooler. The default location is `/var/opt/jbase/jbase_data` (Linux) or `C:\jbase\jbase_data` (Windows).
   > Note: The default location has changed from previous jBASE releases.
 * `JBCPROCDIR` - jBASE uses the *proc* directory to manage jBASE resources like ports. The default location is `$JBCGLOBALDIR`.
   > Note: This is the parent of the *proc* directory, not the actual *proc* directory.
 * [JBCSPOOLERDIR][docs_jbcspoolerdir] - This is the directory where the jBASE spooler entries are located. The default location is `$JBCDATADIR/jspooler`.
 
 ## Other jBASE Configuration Files
-Besides the system configuration file, *jbase_config.json*, jBASE uses many other configuration files. These are almost always located in `$JBCGLOBALDIR/config`. 
+
+Besides the system configuration file, *jbase_config.json*, jBASE uses many other configuration files. These are almost always located in `$JBCGLOBALDIR/config`.
 
 > Note: In prior releases of jBASE some of these files were located in [JBCRELEASEDIR][docs_jbcreleasedir] and others in [JBCGLOBALDIR][docs_jbcglobaldir]. This was not normally a problem because traditionally both [JBCRELEASEDIR][docs_jbcreleasedir] and [JBCGLOBALDIR][docs_jbcglobaldir] referenced the same directory.
 
 The following table summarizes the other jBASE configuration files. Configuration files which have been moved from [JBCRELEASEDIR][docs_jbcreleasedir] to [JBCGLOBALDIR][docs_jbcglobaldir] are marked with asterisk (*).
-
 
 | *   | config file                | location                                      | description                                                      |
 | --- | -------------------------- | --------------------------------------------- | ---------------------------------------------------------------- |
@@ -93,3 +100,5 @@ The following table summarizes the other jBASE configuration files. Configuratio
 |     | __Licensing__              |
 |     | multisession               | $JBCRELEASEDIR                                | directory listing clients permitted to use multisession licenses |
 |     | websession                 | $JBCRELEASEDIR                                | directory listing clients permitted to use websession licenses   |
+
+<PageFooter />

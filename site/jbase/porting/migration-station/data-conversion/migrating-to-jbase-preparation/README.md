@@ -76,9 +76,9 @@ This article and accompanying video will provide you with an overview of steps a
 2. Review the Security/Users section and prep the new system to match
 3. Be sure inter-machine connectivity and devices work with the new server
 
-[Migrating to jBASE: Universe Systems](./../migrating-to-jbase-universe-systems)
+[Migrating to jBASE: Universe](./../migrating-to-jbase-universe)
 
-[Migrating to jBASE: D3 Systems](./../migrating-to-jbase-d3-systems)
+[Migrating to jBASE: D3](./../migrating-to-jbase-d3)
 
 Back to [Data Conversion](.../../README.md)
 

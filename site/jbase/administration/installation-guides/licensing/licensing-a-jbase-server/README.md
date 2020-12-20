@@ -1,4 +1,4 @@
-# Licensing a jBASE System
+# Licensing a jBASE Server
 
 <PageHeader />
 

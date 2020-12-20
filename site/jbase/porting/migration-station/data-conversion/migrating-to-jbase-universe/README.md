@@ -1,4 +1,4 @@
-# Migrating to jBASE: Universe Systems
+# Migrating to jBASE: Universe
 
 <PageHeader />
 
