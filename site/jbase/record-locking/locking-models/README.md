@@ -112,14 +112,14 @@ One advantage of using the `$lock->setstrategy()` method over the `JBASESetLockS
 include jabba.h
 obj = new object("$lock")
 print obj->$tojson(JABBA_TOJSON_VERBOSE)
-print "The current locking strategy is: ": obj->setstrategy("")->lock_strategy
+print "The current locking strategy is: ":obj->setstrategy("")->lock_strategy
 ```
 
 The other advantage is, if jDLS is not running then the object returned will result in:
 
 ```
 {
-    "errmsg":"Error. jDLS is not active",
+    "errmsg":"Warning: jDLS is not active",
     "lock_strategy":"OS based locks",
     "lock_strategy_int":-1,
     "session_id":"",
