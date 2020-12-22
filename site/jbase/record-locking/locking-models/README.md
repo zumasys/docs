@@ -21,12 +21,12 @@ The 4 record locking strategies that jBASE now employs are as follows:
 
 - `Thread` based locks. This is the default for jBASE. Each thread level in jBASE (e.g. [`PERFORM`](./../../jbc/execute/README.md) creates a new thread level) creates and owns its own locks and does not share them with child or parent programs. The locks are released by the following actions
   - When a [`WRITE`](./../../jbc/write/README.md), [`RELEASE`](./../../jbc/release/README.md) or [`DELETE`](./../../jbc/delete/README.md) statment is performed.
-  - When the program issues a STOP, ABORT, EXIT() or is logged off.
+  - When the program issues a STOP, ABORT, EXIT(), the program ends or is logged off.
   - When the file variable is closed by any means (e.g. the variable is re-assigned, or goes out of scope such as a RETURN from a SUBROUTINE will cause all local variables to go out of scope)
 - `PORT` based locks. In this model, a record lock is shared by all child and parent threads with the same port number. Locks are released as per Thread models.
 - `D3` locks. *NEW*. These locks are compatible with D3 locking. Fundamentally they work similar to Thread based locks. However, locks are only released under the following circumstances
   - When a [`WRITE`](./../../jbc/write/README.md), [`RELEASE`](./../../jbc/release/README.md) or [`DELETE`](./../../jbc/delete/README.md) statment is performed.
-  - When the program issues a STOP or ABORT or is logged off.
+  - When the program issues a STOP, ABORT, EXIT(), the program ends or is logged off.
 - `PERSISTENT` session locks. *NEW* These locks are designed for web-based applications with non-persistent connections. The locks are owned by a prescribed session id rather than the port or thread that took the lock. These locks are only released under the following circumstances
   - When a [`WRITE`](./../../jbc/write/README.md),  [`RELEASE`](./../../jbc/release/README.md) or [`DELETE`](./../../jbc/delete/README.md) statment is performed by a program that has configured themselves with the same session id as that when the lock was taken (see later for how to do this)
   - When they timeout after the prescribed timeout period  
@@ -49,7 +49,7 @@ Any of the 4 strategies can be selected using the `-l` option to jDLS i.e. `-lpo
 
 ### Emulation options
 
-You can define the following in your  [`Config_EMULATE`](./../../emulation/README.md) using the `lock_strategy` variable set to port, thread, d3 or persistent. For example to enable D3 style record locking as the default, add this line:
+You can define the following in your  [`Config_EMULATE`](./../../emulation/README.md) using the `lock_strategy` variable set to `port`, `thread`, `d3` or `persistent`. For example to enable D3 style record locking as the default, add this line:
 
 ```
 lock_strategy = d3
@@ -91,18 +91,39 @@ In the example below, we set the strategy to `PORT` based locks:
 ```
 obj = new object("$lock")
 result = obj->setstrategy("port" , "" , 0)
-print "Current strategy is "
+print "Current strategy is:"
 print result->$tojson(1)
 
-Results in
+Results in:
 
-Current strategy is
+Current strategy is:
 {
     "errmsg":"",
     "lock_strategy":"PORT based locks",
     "lock_strategy_int":1,
     "session_id":"",
     "timeout":0
+}
+```
+
+One advantage of using the `$lock->setstrategy()` method over the `JBASESetLockStrategy()` function is that you can programmatically interrogate the existing locking strategy with the following code:
+
+```
+include jabba.h
+obj = new object("$lock")
+print obj->$tojson(JABBA_TOJSON_VERBOSE)
+print "The current locking strategy is: ": obj->setstrategy("")->lock_strategy
+```
+
+The other advantage is, if jDLS is not running then the object returned will result in:
+
+```
+{
+    "errmsg":"Error. jDLS is not active",
+    "lock_strategy":"OS based locks",
+    "lock_strategy_int":-1,
+    "session_id":"",
+    "timeout":-1
 }
 ```
 
