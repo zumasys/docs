@@ -2,7 +2,22 @@
 
 <PageHeader />
 
+## Release Notes - December 23th, 2020 
 
+- Controls
+   - Tree properties and events 70% integrated
+   - List (Single, Multi, Checkboxes, Dropdown) continued work 
+   - Checkbox events continued work 
+   - Command/Button continued work
+- Architecture 
+   - Add service helper functions to locate properties and parent properties effeciently 
+- Service
+   - Added default properties for gui objects 
+   - Added gui object inheritance from parent 
+   - Initial gcGetProp working
+   - More rigorous error checking
+   - Fixed form closure issue
+  
 ## Release Notes - December 7th, 2020 
 
 - Initial event handling added to all controls
