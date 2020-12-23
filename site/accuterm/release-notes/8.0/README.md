@@ -1,4 +1,4 @@
-# AccuTerm 8.0.1010 Release Notes
+# AccuTerm 8.0 Release Notes
 
 <PageHeader />
 
@@ -8,6 +8,7 @@ AccuTerm 8 is designed to run on Windows 7 and above and Windows Server 2012 and
 
 ## What’s New
 
+- Support for Microsoft Visual Studio Code! A new command, `VSCODE`, has been added to the host programs. This command works like the WED or GED commands, and will open VS Code to edit programs. Used in conjunction with the MultiValue Basic extension for VS Code, you can browse, edit, search and compile programs from VS Code, using AccuTerm as the connector to the MV file system. Search for MultiValue Basic in the VS Code extensions search box to install this extension.
 - Main window: the old MDI interface has been replaced with a simple tabbed interface. Previously you could open multiple sessions in a single main window. AccuTerm 8 supports multiple sessions in multiple main windows.
 - Tear-off tabs: you can drag tabs on the session tab bar to re-order the tabs. You can drag tabs outside of the AccuTerm window to open them in a separate window. You can also drag tabs between different AccuTerm windows.
 - Updated icons: all of the icons used by the main AccuTerm application have been updated to a simple monochrome theme.
@@ -15,7 +16,7 @@ AccuTerm 8 is designed to run on Windows 7 and above and Windows Server 2012 and
 - Simplified startup: the old “welcome” screen has been replaced by a simple startup panel. You have the option from the startup panel to launch a recently used session, open a saved session, or enter typical connection details to create a new session. There is a “More settings” button if you need access to the full settings.
 - Simplified new connection: the old “connection wizard” has been replaced with a simple new connection panel where you can enter typical connection details to create a new session. This is similar to the new startup panel.
 - Secure Shell: the encryption library used for Secure Shell connections has been replaced by the current version of OpenSSH. AccuTerm 8 SSH supports stronger encryption: SHA2 (256 & 512) hashes for message authentication, elliptic curve key exchange (NIST 256, 384 and 521 as well as curve 25519). Other enhanced cryptographic algorithms will be added in future releases.
-- New licensing model: AccuTerm 8 uses a new licensing model, with per-user licenses, instead of a machine license. Administrators can manage licenses for their organization from the Zumasys Customer Portal (portal.zumasys.com). To activate the program, you need to select “Activate” from the evaluation notice screen, or from Help -&gt; Activate. You will need a valid email address and a license key, which is available to the administrator on the customer portal.
+- New licensing model: AccuTerm 8 uses two new licensing models: per-user licenses and device licenses. Administrators can manage licenses for their organization from the Zumasys customer portal (portal.zumasys.com). To activate the program, you need to select “Activate” from the evaluation notice screen, or from Help -> Activate. You will need a license key, which is available to the administrator on the customer portal. For user-based licensing, each user has a unique license key, and the registered user's email address must be supplied when activating the  license. For device-based licensing, a single key is used company-wide, and no email address is used when activating.
 - New session file format: session configuration files are now stored in JSON format instead of the old “ini” format. This will make sharing session profiles between desktop, web and mobile versions easier. AccuTerm 8 can still open the old .atcf files, but it will only save changes using the new JSON (.atsp) format. The same is true for layout (.atly) files – these are now saved as JSON (.atlp) format.
 - Programmer’s mode: a new option for screen size, Variable, will adjust the screen size (text columns and rows) to fit the window size. Previously, only Normal (80 column) and Extended (132 column) were supported. This feature will send a “screen resize” signal to the server when the window is resized. Applications (vi, JED, jsh) that respond to the “screen resize” signal should automatically adjust the screen for the new size.
   
