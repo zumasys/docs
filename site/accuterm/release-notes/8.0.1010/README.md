@@ -2,13 +2,11 @@
 
 <PageHeader />
 
-August 27th, 2019
+August 27, 2019
 
 AccuTerm 8 is designed to run on Windows 7 and above and Windows Server 2012 and above. It is a 32 bit Windows application and requires an Intel x86 / x64 architecture CPU. It is not compatible with ARM processors (Windows CE, Windows Mobile, Windows RT).
 
-
-
-## What’s New 
+## What’s New
 
 - Main window: the old MDI interface has been replaced with a simple tabbed interface. Previously you could open multiple sessions in a single main window. AccuTerm 8 supports multiple sessions in multiple main windows.
 - Tear-off tabs: you can drag tabs on the session tab bar to re-order the tabs. You can drag tabs outside of the AccuTerm window to open them in a separate window. You can also drag tabs between different AccuTerm windows.
@@ -20,18 +18,14 @@ AccuTerm 8 is designed to run on Windows 7 and above and Windows Server 2012 and
 - New licensing model: AccuTerm 8 uses a new licensing model, with per-user licenses, instead of a machine license. Administrators can manage licenses for their organization from the Zumasys Customer Portal (portal.zumasys.com). To activate the program, you need to select “Activate” from the evaluation notice screen, or from Help -&gt; Activate. You will need a valid email address and a license key, which is available to the administrator on the customer portal.
 - New session file format: session configuration files are now stored in JSON format instead of the old “ini” format. This will make sharing session profiles between desktop, web and mobile versions easier. AccuTerm 8 can still open the old .atcf files, but it will only save changes using the new JSON (.atsp) format. The same is true for layout (.atly) files – these are now saved as JSON (.atlp) format.
 - Programmer’s mode: a new option for screen size, Variable, will adjust the screen size (text columns and rows) to fit the window size. Previously, only Normal (80 column) and Extended (132 column) were supported. This feature will send a “screen resize” signal to the server when the window is resized. Applications (vi, JED, jsh) that respond to the “screen resize” signal should automatically adjust the screen for the new size.
-
-
-## Deprecated features
+  
+## Deprecated Features
 
 - Serial port and modem connections: these legacy devices are deprecated. While still supported, in order to access these devices in the settings dialog, you must check the “Enable legacy devices” on the General page of the settings.
 - MDI window arrangements (cascade, tile, minimize, maximize): the new UI allows sessions in the main window to be tiled, but the tiled windows cannot be manually resized. Normally, the session windows occupy the entire main window.
 - Dialer directory (phone book). If you use a modem for connecting to a server, the phone number to dial needs to be entered into a simple phone number dialog. The dialer phone book has been eliminated.
 
-
-
-
-## Upgrading from prior versions of AccuTerm to AccuTerm 8 
+## Upgrading from prior versions of AccuTerm to AccuTerm 8
 
 AccuTerm 8 should be installed in a separate directory from other versions of AccuTerm. AccuTerm 8 does not share any common components with prior versions of AccuTerm. The default installation directory is C:\Program Files\atwin80 (or C:\Program Files (x86)\atwin80 on 64 bit versions of Windows). The atwin.ini file has been renamed atwin80.ini. The application data directory for AccuTerm 8 is C:\Users\username\AppData\Roaming\Zumasys\atwin80. This is where private menu files and ssh key files are stored.
 
@@ -39,37 +33,27 @@ Although the host programs from prior AccuTerm versions are upward compatible wi
 
 To install the updated programs, use Update Host Programs from the MultiValue menu. This will reinstall the base programs in the FTBP file first, then display a dialog where you can select the other libraries and samples that you want to reinstall.
 
-
-
-## MSI-based Installer 
+## MSI-based Installer
 
 The AccuTerm 8 installer uses Microsoft Installer (MSI). The MSI installation file is wrapped in a standard EXE installer which allows the selection of the desired installation type. The EXE installer then launches the MSI install (msiexec) with appropriate options. As with AccuTerm 7, three installation modes are supported: normal (all users), personal (install for current user only), and portable (run from removable device). The silent install options are /SILENT or /VERYSILENT. The format of the setup.ini file used to customize the installation process has been changed. Please see the user manual or online help for more information.
 
-
-
-## Product Activation 
+## Product Activation
 
 The product activation has been changed in AccuTerm 8. The new licensing model is “per user”, rather than “per machine.” Administrators manage licenses for their organization from the Zumasys customer portal (portal.zumasys.com). To activate the program, you need to select “Activate” from the evaluation notice screen, or from the Help -&gt; Activate menu. You will need a valid email address and license key, which is available to the administrator on the customer portal. Activation and license validation requires an Internet connection. The license is validated periodically, contacting the Zumasys license server.
 
-
-
-## Importing your Settings 
+## Importing your Settings
 
 When you run AccuTerm 8 for the first time, AccuTerm checks if there are settings from older versions of AccuTerm that can be imported into AccuTerm 8. This is a one-time offer. It will display a list of the various settings that can be imported and you can choose which ones to import.
 
 The session configuration files and layout files for AccuTerm 8 have changed (script files are the same). The new file extensions are .atsp for session files, and .atlp for layout files. While the AccuTerm 7 .atcf and .atly files will work with AccuTerm 8, the new session files are formatted as JSON and designed to work more efficiently with the new features and for sharing profiles between desktop, web and mobile versions. When you open an AccuTerm 7 configuration file, it is strongly recommended that you save it as the new type. When you click File &gt; Save As, AccuTerm 8 will automatically create the new session or layout file for you.
 
-
-
-## Unicode Support 
+## Unicode Support
 
 To use Unicode (UTF-8) as your host character set encoding, select "Unicode (UTF-8)" from the Host Character Set Encoding drop-down list in the Session Settings -&gt; Terminal -&gt; Font & Character Set page. Select a suitable font to support the language(s) you intend to use. Configure your host to use UTF-8 encoding.
 
-### Note:
+### Note
 
-if you attempt to display characters that are not defined in the selected font, Windows "font linking" will attempt to use another suitable font for those characters. Sometimes the results are acceptable, but if the linked font does not produce suitable results, choose a font that includes all of the characters for the scripts you intend to display.
-
-
+If you attempt to display characters that are not defined in the selected font, Windows "font linking" will attempt to use another suitable font for those characters. Sometimes the results are acceptable, but if the linked font does not produce suitable results, choose a font that includes all of the characters for the scripts you intend to display.
 
 At this time, the only left-to-right text is supported. We plan on adding bidirectional support for mixed left-to-right and right-to-left text in a future release.
 
@@ -77,27 +61,22 @@ To send or receive files containing Unicode data using the AccuTerm file transfe
 
 The AccuTerm host programs must be configured to enable character set conversion. On the ACCUTERM account, from TCL, type FTSETUP to configure the host programs. Choose item 3 (or 4), then set the "Convert character set" option to "yes".
 
-### Note:
+### Note
 
 UTF-8 support in the AccuTerm host programs required some platform-specific enhancements to the host programs. At this time, the following platforms include UTF-8 support:
 
 QM release 3 and up
 
+## AccuTerm Object Model Changes
 
 
-## AccuTerm Object Model Changes 
-
-
-
-### Server object: 
+### Server object
 
 The name of the server object provided by AccuTerm 8 is "atMVSvr80.Server". For convenience, "atPickServer.Server" can also be used to create an AccuTerm 8 Server instance. You need to use one of these names in your CreateObject() function to access the AccuTerm 8 version of the MultiValue server. If you are using a reference to an older version of the AccuTerm MultiValue Server" type library,
 
-you need to change the reference to "AccuTerm 8 MultiValue Server". To make your code version-independent, declare variables that reference the Server object as Object instead of an explicit type. Attempt to create the server object using the generic object name "atPickServer.Server", and if an error occurs, try using the AccuTerm 7, then the AccuTerm 2K2 name instead.
+You need to change the reference to "AccuTerm 8 MultiValue Server". To make your code version-independent, declare variables that reference the Server object as Object instead of an explicit type. Attempt to create the server object using the generic object name "atPickServer.Server", and if an error occurs, try using the AccuTerm 7, then the AccuTerm 2K2 name instead.
 
-
-
-### AccuTerm object: 
+### AccuTerm object
 
 PhoneBookName property is obsolete and has been removed.
 
@@ -107,9 +86,7 @@ ZModemAuto property is obsolete and has been removed.
 
 All of the file transfer properties have been removed. These were a holdover from a very old version of AccuTerm.
 
-
-
-### Session object: 
+### Session object
 
 BackgroundPictureFile property has been added to support background pictures.
 
@@ -189,9 +166,7 @@ U2DeviceLicensing property has been superseded by DeviceLicenseMode property and
 
 ZModemAuto property is obsolete and has been removed.
 
-
-
-### Settings object: 
+### Settings object
 
 Generally, the same properties that were added, removed or superseded in the Session object have been similarly updated in the Settings object.
   
