@@ -28,7 +28,7 @@ Where:
 
 - **TYPE** - The **tname** parameter is used to specify the type of file to be created. The following file types are provided as standard.
 
-> Note: **Section** can be used to do things like create an OBJECT code section for compiled object code to be stored which is particularly handy when using file system directories/folders to store source code. Creating an OBJECT code section will keep your source code directory from becoming cluttered with object code. An example: `CREATE-FILE TEST.BP,OBJECT TYPE=UD`
+> Note: **Section** can be used to do things like create an **OBJECT** section for compiled object code to be stored which is particularly handy when using file system directories/folders to store source code. Creating an **OBJECT** section will keep your source code directory from becoming cluttered with object code. An example: `CREATE-FILE TEST.BP,OBJECT TYPE=UD`. However, for new program files, it is more useful to create a file of type **JBC** which will automatically create the **OBJECT** section for you.
 
 **HASH3 or j3**
 The HASH3 file type is portable across platforms and is network friendly in that if a network connection is disconnected during the update procedure then file integrity can still be guaranteed. The HASH3 file type does not use the jRLA or jDLS locking even when enabled but uses the default system locking capability, thus allowing record or item locking with networked applications. The default bucket size of a HASH3 file is 1024 bytes. See [JEDI\_SECURE\_LEVEL](./../../environment-variables/jedi_secure_level) for configurable levels of data flushing.
@@ -58,10 +58,13 @@ CREATE-FILE TEST.BP,OBJECT TYPE=UD
 ```
 
 **TJLOG**
-Creates a stub file in the current directory that points to the current transaction log set. An additional parameter, SET can be used to specify the log set. For more information see [jlogdup](./../../transactions/transaction-replication/jlogadmin).
+Creates a stub file in the current directory that points to the current transaction log set. An additional parameter, **SET**, can be used to specify the log set. For more information see [jlogdup](./../../transactions/transaction-replication/jlogadmin).
 
 **DISTRIB**
 Creates a stub file in the current directory that references a distributed file. See [distributed files](./../distributed-files/distributed-files-index) for further information.
+
+**JLOCK**
+As of jBASE 5.7.10. this file type is a window into the [jDLS](../../jdls/README.md) lock table. For further information [Locking Models on jBASE](../../record-locking/locking-models/README.md).
 
 - **ENCRYPTED=YES**- The file is encrypted based on the encryption type specified when running the [jsecurity](./../../encryption/jbase-encryption-database-security) command.
 - **PERM**- The **PERM** parameters are used to set the permissions of the file as per the chmod command. i.e. an octal number nnn. By default the value is 666 and will be masked by the current umask setting.

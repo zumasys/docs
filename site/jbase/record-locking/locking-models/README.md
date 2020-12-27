@@ -317,9 +317,9 @@ The second parameter to `JBASEReturnLockInfo()` is where we return the lock info
 <1,19>  The Thread (PERFORM) level when the lock was taken
 ```
 
-### Using the new LOCK jEDI to display and clear locks
+### Using the LOCK jEDI to display and clear locks
 
-A new `jEDI` (database driver) has been created to enable record locks to be displayed, selected and cleared. Once you have a file of type `jlock` then you can treat each record lock as though it were an item in a file, meaning you can run `jQL` queries, do a `SELECT`, `ED` the lock (although your can't modify it), and `DELETE` it or `CLEARFILE` it.
+A new `jEDI` (database driver) has been created to enable record locks to be displayed, selected and cleared. Once you have a file of type `jlock` then you can treat each record lock as though it were an item in a file, meaning you can do things like query the file with `jQL`, do a `SELECT`, edit individual locks (although your can't modify them), and `DELETE-FILE` or `CLEAR-FILE` it.
 
 To accomplish this you will need a file of type `JLOCK`. There are 2 ways to create the file.
 
@@ -338,13 +338,19 @@ jsh jbase ~ -->CREATE-FILE MYLOCK TYPE=OBJECT CLASS=jlock
 [ 417 ] File MYLOCK created , type = OBJECT
 ```
 
+A simplfied syntax can also be used to create the file:
+
+```
+jsh jbase ~ -->CREATE-FILE MYLOCK TYPE=jlock
+```
+
 You now have a file of type `JLOCK`. We pre-fill the `DICT` section with useful items. The `DATA` section contains no records of its own, but is a window into the record locks maintained with jDLS. Each record in the file relates to one record lock.
 
 You can now use this file as you would any data file, except remember each item relates to one record lock.
 
 Some examples of using the file:
 
-First, list the file (i.e. `LIST MYLOCK`). The DICT item contains defaults, but you can select your own, as you can **ANY** jQL statement. This is the mechanism we use in  [`SHOW-ITEM-LOCKS`](./../../utilities/show-item-locks/README.md) with the `(X)` option earlier.
+First, list the file (i.e. `LIST MYLOCK`). The DICT item contains defaults, but you can select your own, as you can any jQL statement. This is the mechanism we use in  [`SHOW-ITEM-LOCKS`](./../../utilities/show-item-locks/README.md) with the `(X)` option earlier.
 
 ```
 jsh jbase ~ -->LIST MYLOCK
@@ -414,7 +420,7 @@ The exception handler can be one of 3 categories:
 
 - A method in a class defined as "class::method"
 - A SUBROUTINE defined as "subroutinename"
-- NULL, meaning and existing handler is removed, defined as ""
+- NULL, meaning an existing handler is removed, defined as ""
 
 The exception handler can be set against:
 
