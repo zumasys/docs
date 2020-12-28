@@ -33,9 +33,9 @@ The 4 record locking strategies that jBASE now employs are as follows:
 
 ## Selecting the locking strategy
 
-The locking strategies shown above can be mixed and matched--different applications can have different strategies, and can even switch strategies in the program. However each record lock will be respected irrespective of strategy.
+The locking strategies shown above can be mixed and matched; different applications can have different strategies and can even switch strategies in the program. However each record lock will be respected irrespective of strategy.
 
-The mechanism for choosing which strategy will be used by jBASE as a default for applications is 4 fold. In order of precedence these are
+The mechanism for choosing which strategy will be used by jBASE as a default for applications is 4 fold. In order of precedence these are:
 
 ### Default strategy
 
@@ -239,7 +239,7 @@ Results in an array with just one object
 
 ## Note #1
 
-> In the above example, the filepath shows as ".\/DEMO". The "\/" is the JSON standard way of escaping a forward slash but unless you're converting to JSON, then internally it will just be "./DEMO".
+> In the above example, the filepath shows as ".\\/DEMO". The "\\/" is the JSON standard way of escaping a forward slash but unless you're converting to JSON, then internally it will just be "./DEMO".
 
 As another example of a jabba program (the Multi Value object script), this will get details of all the locks and print a formatted output:
 
