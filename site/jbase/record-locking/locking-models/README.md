@@ -45,11 +45,16 @@ By default, all record locks will be Thread based locks.
 
 The `PORT` based strategy can be chosen by [`jDLS`](./../../jdls/README.md) using the `-P` option.
 
-Any of the 4 strategies can be selected using the `-l` option to jDLS i.e. `-lport`, `-lthread`, `-ld3` and `-lpersistent`.
+3 of the 4 strategies can be selected using the `-l` option to jDLS i.e. `-lport`, `-lthread` or `-ld3`.
+
+The `persistent` strategy is only available programatically (see [Programmatically changing the lock strategy](#programatically-changing-the-lock-strategy) for how to do this). The reasons for this are twofold:
+
+1) The `persistent` strategy requires a session id and timeout for persistent locks.
+2) Persistent locks are designed for server applications in a non-persistent state, e.g. REST applications, and so the same process will continually be changing their session id and/or  timeout for each connection it processes, hence there is no such thing as a default session id.
 
 ### Emulation options
 
-You can define the following in your  [`Config_EMULATE`](./../../emulation/README.md) using the `lock_strategy` variable set to `port`, `thread`, `d3` or `persistent`. For example to enable D3 style record locking as the default, add this line:
+You can define the following in your  [`Config_EMULATE`](./../../emulation/README.md) using the `lock_strategy` variable set to `port`, `thread` or `d3`. Again, the `persistent` strategy can not be defined in this manner. For example to enable D3 style record locking as the default, add this line:
 
 ```
 lock_strategy = d3
@@ -67,7 +72,7 @@ However,there are exceptions, especially if you are running a web-based applicat
 
 You can change this strategy inside an application in two ways:
 
-First, use the `JBASESetLockStrategy()` function call like this.  
+First, use the `JBASESetLockStrategy()` function call.
 
 In this example, we change the strategy to session based persistent locks:
 
@@ -89,10 +94,11 @@ Second, use the class method `$lock->setstrategy()`, which is very similar to th
 In the example below, we set the strategy to `PORT` based locks:
 
 ```
+include jabba.h
 obj = new object("$lock")
-result = obj->setstrategy("port" , "" , 0)
+result = obj->setstrategy("port")
 print "Current strategy is:"
-print result->$tojson(1)
+print result->$tojson(jabba_tojson_verbose)
 
 Results in:
 
@@ -106,16 +112,18 @@ Current strategy is:
 }
 ```
 
+If you pass an invalid strategy to the function or method then it will default to `THREAD based locks`. 
+
 One advantage of using the `$lock->setstrategy()` method over the `JBASESetLockStrategy()` function is that you can programmatically interrogate the existing locking strategy with the following code:
 
 ```
 include jabba.h
-obj = new object("$lock")
-print obj->$tojson(JABBA_TOJSON_VERBOSE)
-print "The current locking strategy is: ":obj->setstrategy("")->lock_strategy
+locker = new object("$lock")
+print locker->$tojson(jabba_tojson_verbose)
+print "The current locking strategy is: ":locker->setstrategy("")->lock_strategy
 ```
 
-The other advantage is, if jDLS is not running then the object returned will result in:
+A second advantage is, if jDLS is not running then the object returned will result in:
 
 ```
 {
@@ -126,6 +134,8 @@ The other advantage is, if jDLS is not running then the object returned will res
     "timeout":-1
 }
 ```
+
+Finally, a third advantage is that the properties of the object can be referenced by name rather than number, as shown in the above code.
 
 ## Finding and reporting record locks
 
@@ -232,7 +242,6 @@ Results in an array with just one object
                 "session_timeout":120,
                 "wait_count":0,
                 "thread_level":2
-
         }
 ]
 ```
