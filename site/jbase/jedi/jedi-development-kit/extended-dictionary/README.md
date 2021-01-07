@@ -1,4 +1,4 @@
-# Extended Dictionary Definitions  )(EDICT)
+# Extended Dictionary Definitions  (EDICT)
 
 <PageHeader />
 
