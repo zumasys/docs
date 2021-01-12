@@ -3,6 +3,7 @@
 <PageHeader />
 
 **Tags:**
+<badge text='jbcglobaldir' vertical='middle' />
 <badge text='directories' vertical='middle' />
 <badge text='global files' vertical='middle' />
 
