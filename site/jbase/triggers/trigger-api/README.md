@@ -1,4 +1,4 @@
-# TRIGGER-API
+# Trigger API
 
 <PageHeader />
 

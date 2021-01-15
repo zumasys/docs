@@ -24,7 +24,7 @@
 | [Conversion Processing](./conversion-processing/README.md) | Conversions for jQL and jBC |
 | [Database Drivers](./database-drivers/README.md) | How jBASE provides database independence |
 | [Daemons](./daemons/README.md) | Daemons used by jBASE |
-| [Editor](./editor/README.md) | Editors provided by jBASE |
+| [Editors](./editors/README.md) | Editors provided by jBASE |
 | [Embedded SQL](./jbc/embedded-sql-for-jbase-basic/README.md) | Using SQL with jBASE |
 | [Emulation](./emulation/README.md) | Emulation settings |
 | [Environment Variables](./environment-variables/README.md) | Setting environment variables |

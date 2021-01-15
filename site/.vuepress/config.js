@@ -234,7 +234,7 @@ module.exports = {
             collapsable: true,
             children: [
               ["/jbase/reference-guides/jbc/", "jBC"],
-              ["/jbase/editor/editors/", "Editors"],
+              ["/jbase/editors/", "Editors"],
               ["/jbase/dynamic-objects/", "Dynamic Objects"],
               ["/jbase/compilation/", "Compilation"],
               ["/jbase/jbc-runtime/", "Runtime"],
