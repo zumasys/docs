@@ -4,7 +4,7 @@
 
 ## Description
 
-The **\$locks->getjdls()** method will return all the locks that are held by jDLS. 
+The **\$locks->getjdls()** method will return all the locks that are held by jDLS.  
 
 Note that this will not return any record locks held outside of jDLS, nor will it return any group locks or binary locks.
 
@@ -64,7 +64,7 @@ This example will filter the returned locks to the file name 'CUSTOMERS':
     next next_lock
 ```
 
-This final example will filter the returned locks to a specific port number (default is the port number of the calling process). 
+This final example will filter the returned locks to a specific port number (default is the port number of the calling process).  
 
 As an extension, we also get details from a different class method and provide a little information about that user, e.g. account_name and number of files the process has open:
 
