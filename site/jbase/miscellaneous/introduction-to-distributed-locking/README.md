@@ -7,7 +7,7 @@
 
 This document provides a user guide for the deployment and configuration of the jBASE Distributed lock service for a Multiple Application Server environment.
 
-The Distributed lock service is provided as an integral component of the jBASE 4.1.5 release. It is not available on releases prior to jBASE 4.1.5.
+The Distributed lock service is provided as an integral component of the jBASE 5 release.  
 
 ## Overview
 
@@ -115,6 +115,16 @@ Along with other jBASE services, the jBASE Distributed Lock Service can be insta
 ```
 jServControl –v –s manual –p%JBCRELEASEDIR%\bin\jDLS.exe jDLS install
 ```
+
+## Note
+
+>To make use of the alternative locking options available from jBASE 5.7.10 onwards, you could install and start jDLS as follows:
+
+```
+jServControl -s auto -p "%JBCRELEASEDIR%\bin\jdls.exe -lport" jDLS install start
+```
+
+>to install port based locking, for instance.
 
 Once installed the service can then be stopped or started using Windows Services panel.
 
@@ -402,5 +412,4 @@ This procedure ensures that all locks are released and retaken such that the loc
 
 [Back to Miscellaneous](./../README.md)
 
-  
 <PageFooter />
