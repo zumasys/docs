@@ -38,8 +38,6 @@ Command line options override environment variable settings.
 A log of all output is created in the jBASE logs directory.<br>
 The name of this file is **jfilesave_log_[portnumber]**
 
-Options override environment variable settings.
-
 Options are Case Sensitive.
 
 The [jchmod](../jchmod/README.md) command can be used to determine whether or not a hashed file is to be backed up.
