@@ -17,13 +17,13 @@ where:
 
 If used without arguments as:
 
-```text
+```
 SP-COPIES
 ```
 
 the user will be prompted as:
 
-```text
+```
 PRINT JOB #     COPIES:
 ```
 
@@ -34,6 +34,4 @@ The user will enter the print job number and the desired copies.
 > The number of copies of a print job already despooled to the spooler cannot be changed. Parameters must be entered in the order shown. The user will be prompted for any missing parameters.
 
 Back to [Spooler.](./../jbase-spooler)
-
-  
 <PageFooter />

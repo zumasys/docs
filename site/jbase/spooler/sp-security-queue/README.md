@@ -24,5 +24,4 @@ SP-SECURITY-QUEUE MAILSHOT NONE
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

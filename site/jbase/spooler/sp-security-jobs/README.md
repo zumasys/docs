@@ -28,5 +28,4 @@ In the above example, if it is assumed that the alternate form queue owners had 
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

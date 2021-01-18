@@ -32,5 +32,4 @@ The user will then enter the print job list to be deleted.
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

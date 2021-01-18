@@ -108,5 +108,4 @@ SP-DEVICE defines the device/program used for printing.  This is typically the 
 
 Back to [Spooler](./../jbase-spooler).
 
-  
 <PageFooter />

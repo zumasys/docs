@@ -29,13 +29,12 @@ SP-TYPE formqueue -
 > - Formtype entries reside in the $JBCRELEASEDIR/config directory and use the naming convention jspform\_formtype. For example, entering a value of **abcd** would expect to find formtype:
 >
 >
-> ```
+>```
 > jspform_abcd
-> ```
+>```
 >
 > - Formqueues that are not associated with a formtype use the definitions in the file jspform\_deflt.
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

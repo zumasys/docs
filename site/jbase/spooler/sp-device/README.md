@@ -1,5 +1,5 @@
 
-# SP-DEVICE 
+# SP-DEVICE  
 
 <PageHeader />
 
@@ -39,5 +39,4 @@ The user will then enter the device name.
 
 Back to [Spooler](./../jbase-spooler).
 
-  
 <PageFooter />

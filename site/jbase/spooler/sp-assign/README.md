@@ -39,7 +39,7 @@ Available options include:
 | Copies | Defines the number of copies of the print report data to be output. |
 | E | Displays the entry number for every job created instead of just held entries. |
 
-### Restrictions on options
+## Restrictions on options
 
 The following combinations of spooler options are incompatible.
 
@@ -68,5 +68,4 @@ INCOMPATIBLE OPTIONS: I S, C NOT I, COPIES I
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

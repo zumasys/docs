@@ -20,5 +20,4 @@ SP-SECURITY-OWNER LIBRARY personnel footwear
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

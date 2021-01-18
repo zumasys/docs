@@ -29,5 +29,4 @@ The user will then enter the name of the formqueue and the number of pages desir
 
 Back to [Spooler](./../jbase-spooler).
 
-  
 <PageFooter />

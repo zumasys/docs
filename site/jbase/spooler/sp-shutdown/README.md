@@ -80,5 +80,4 @@ When the kill fails, the error message generated prior to the above should be re
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

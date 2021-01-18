@@ -120,5 +120,4 @@ SP-DEVICE INSTRUCTIONS PROG jPDF [new options]
 
 See Also: [Spooler](./../jbase-spooler).
 
-  
 <PageFooter />
