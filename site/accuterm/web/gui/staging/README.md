@@ -2,6 +2,19 @@
 
 <PageHeader />
 
+## Release Notes - January 19th, 2021  
+
+- Controls
+   - Completed: edit, checkbox, label, button and tree
+   - Grid continued work
+- Architecture 
+   - Add more intricate typing for control, form and gui objects
+   - Refactor gpScale to conform to desktop version (applying to gui app and passing through inheritance)
+- Service
+   - Adjust scaling to adhere to sepearte defaults
+   - Data conversion from pick into strictly typed typescript
+   - Refactor code to conform with stricter typing and data converstions
+
 ## Release Notes - December 23th, 2020 
 
 - Controls
