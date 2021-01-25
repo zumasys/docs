@@ -333,8 +333,7 @@ module.exports = {
               ["/jbase/porting/migration-station/data-conversion/generic-data-conversion/","Porting"],
               ["/jbase/terminal/terminal-support/","Terminals"],
               ["/jbase/tape/tape-commands/","Tape"],
-              ["/jbase/tools/","Tools"],
-              ["/jbase/utilities/","Utilities"]
+              ["/jbase/tools-and-utilities/","Tools and Utilities"]
             ]
           },
           {
