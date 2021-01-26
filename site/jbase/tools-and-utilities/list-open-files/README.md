@@ -4,7 +4,7 @@
 
 ## Description
 
-The **LIST-OPEN-FILES** utility can be used to list details of how many files are open by port number.
+The **LIST-OPEN-FILES** utility can be used to list details of what files are open by port number.
 
 ## Sntax Elements
 
@@ -21,13 +21,13 @@ where:
 
 | Option | Description |
 | --- | --- |
-| V | Display a row for each file opened - full path to the file |
-| F | Display a row for each file opened |
+| V | Display a row for each file opened - full path to the file. |
+| F | Display a row for each file opened - file name only. |
 
 ## Example
 
 ```
-Opened files at 14:57:01  25 JAN 2021                                                                                                                 Page    1
+Opened files at 14:57:01  25 JAN 2021                                                                       Page    1
 Port     Application Open Files Actual O/S Open Files
 500      3                      3
 400      4                      4
@@ -37,7 +37,7 @@ Port     Application Open Files Actual O/S Open Files
 ## Verbose Example
 
 ```
-Opened files at 14:57:56  25 JAN 2021                                                                                                                 Page    1
+Opened files at 14:57:56  25 JAN 2021                                                                       Page    1
 Port     File name                                                Ref Count  Inode      rf  blck stat   fd
 500      /opt/jbase5/jbase_data/jspooler/jobs/formqueue_0         1          0000000006  1     0 0213   -1
 500      /opt/jbase5/jbase_data/jspooler/jspool_log               1          0000000000  1     0 020b    6
