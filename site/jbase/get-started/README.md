@@ -4,11 +4,9 @@
 
 A guide to working with jBASE on Windows and UNIX.
 
-## Select your preferred platform 
+## Select your preferred platform  
 
-Windows 10, Windows Server 2012, Windows Server 2016, Windows Server 2019 (as of jBASE 5.8)  
-
-RedHat/CentOS 7, RedHat/CentOS 8 (as of jBASE 5.8)  
+[Platform Availability Matrix](./../administration/installation-guides/platform-availability/README.md)
 
 ## Download jBASE
 
