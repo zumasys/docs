@@ -209,7 +209,7 @@ module.exports = {
         children: [
           ["/jbase/introduction/", "Introduction"],
           {
-            title:"Getting Started",
+            title: "Getting Started",
             path: "/jbase/get-started",
             collapsable: true,
             children: [
@@ -218,7 +218,7 @@ module.exports = {
             ]
           },
           {
-            title:"Installation",
+            title: "Installation",
             path: "/jbase/installation",
             collapsable: true,
             children: [
@@ -229,7 +229,7 @@ module.exports = {
             ]
           },
           {
-            title:"jBASE BASIC (jBC)",
+            title: "jBASE BASIC (jBC)",
             path: "/jbase/basic",
             collapsable: true,
             children: [
@@ -243,7 +243,7 @@ module.exports = {
             ]
           },
           {
-            title:"jBASE Query Language (jQL)",
+            title: "jBASE Query Language (jQL)",
             path: "/jbase/queries",
             collapsable: true,
             children: [
@@ -269,16 +269,16 @@ module.exports = {
             ]
           },
           {
-            title:"Files",
+            title: "Files",
             path: "/jbase/fileinfo",
             collapsable: true,
             children: [
               ["/jbase/miscellaneous/introduction-to-audit-logging/", "Audit Logging"],
               ["/jbase/encryption/", "Encryption"],
               ["/jbase/miscellaneous/introduction-to-distributed-locking/", "jDLS"],
-              ["/jbase/jrfs/jrfs-quick-start-guide/","jRFS"],
-              ["/jbase/record-locking/","jBASE Record Locking"],
-              ["/jbase/triggers/trigger-api/","Triggers"]
+              ["/jbase/jrfs/jrfs-quick-start-guide/", "jRFS"],
+              ["/jbase/record-locking/", "jBASE Record Locking"],
+              ["/jbase/triggers/trigger-api/", "Triggers"]
             ]
           },
           {
@@ -323,17 +323,17 @@ module.exports = {
             collapsable: true,
             children: [
               ["/jbase/accounts/", "Accounts"],
-              ["/jbase/background-processing/","Background Processing"],
-              ["/jbase/miscellaneous/case-insensitive-overview/","Case Insensitivty"],
+              ["/jbase/background-processing/", "Background Processing"],
+              ["/jbase/miscellaneous/case-insensitive-overview/", "Case Insensitivty"],
               ["/jbase/daemons/", "Daemons"],
-              ["/jbase/environment-variables/","Environment Variables"],
+              ["/jbase/environment-variables/", "Environment Variables"],
               ["/jbase/internationalization/jbase-internationalization/", "Internationalization"],
-              ["/jbase/miscellaneous/multitenancy/","Multi-Tenancy"],
-              ["/jbase/miscellaneous/profiles/jbase-profiles/","Profiles"],
-              ["/jbase/porting/migration-station/data-conversion/generic-data-conversion/","Porting"],
-              ["/jbase/terminal/terminal-support/","Terminals"],
-              ["/jbase/tape/tape-commands/","Tape"],
-              ["/jbase/tools-and-utilities/","Tools and Utilities"]
+              ["/jbase/miscellaneous/multitenancy/", "Multi-Tenancy"],
+              ["/jbase/miscellaneous/profiles/jbase-profiles/", "Profiles"],
+              ["/jbase/porting/migration-station/data-conversion/generic-data-conversion/", "Porting"],
+              ["/jbase/terminal/terminal-support/", "Terminals"],
+              ["/jbase/tape/tape-commands/", "Tape"],
+              ["/jbase/tools-and-utilities/", "Tools and Utilities"]
             ]
           },
           {
@@ -555,6 +555,12 @@ module.exports = {
         path: "/pos-connect/",
         collapsable: true,
         children: [["/pos-connect/installation-guide/", "Installation Guide"]]
+      },
+      {
+        title: "Smart Suite",
+        path: "/smartsuite/",
+        collapsable: true,
+        children: [["/smartsuite/release-notes/", "Release Notes"]]
       },
     ],
     repo: "https://github.com/zumasys/docs",
