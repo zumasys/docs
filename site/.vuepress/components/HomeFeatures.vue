@@ -56,8 +56,7 @@
     </div>
     <div class="feature">
       <h2>Smart Suite</h2>
-      <p>
-        Main (Coming Soon!)<br /></p>
+      <p><a href="/smartsuite/release-notes/">Release Notes</a><br /></p>
       </p>
     </div>
     <div class="feature">
