@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-For detailed information about each update including training materials [click here](https://training.total-computing.com/)
+For detailed information about each update including training materials [click here](https://training.total-computing.com/dwkb/tech-update/)
 
 ## Point-of-Sale
 
