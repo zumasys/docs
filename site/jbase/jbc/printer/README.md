@@ -8,6 +8,8 @@ Use the **PRINTER** statement to control the destination of output from the [PRI
 
 ```
 PRINTER ON|OFF|CLOSE
+  optionally PRINTER ON ON PRINTERNO | PRINTER OFF ON PRINTERNO | PRINTER CLOSE ON PRINTERNO
+  
 ```
 
 Where:
