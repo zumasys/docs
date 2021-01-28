@@ -2,6 +2,8 @@
 
 <PageHeader />
 
+For detailed information about each update including training materials [click here](https://training.total-computing.com/)
+
 ## Point-of-Sale
 
 * Added the ability to display product images on Picking Slips
