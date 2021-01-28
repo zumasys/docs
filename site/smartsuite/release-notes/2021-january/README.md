@@ -26,8 +26,19 @@ For detailed information about each update including training materials [click h
 
 * Enhanced image display on mobile view
 
-## Bug Fixes
+## Important Resolved Issues
 
-* 
+* POS report POS.RP.2.2 Summarized by Register does not display the information when there is a Split Tender
+* POS.RP.2.5 (Summarized by Cashier Code) does not actually break out by cashier or tender
+* POS.RP.1.1 Detail by Trans Number doesn't include multi departments per transaction
+* The Store Sales by Store by Date by Interval report (POS.RP.1.4.2) seems to hang when you run the report
+* Prevent parent items from being sold at registers (conversion leftover)
+* transaction delay of 30 seconds or more between each web transaction (the delay appears to have lessened since last week) WebOrders only. 
+* Resolved issues with POST VOID and Transaction Matching
+* 15 day warning on login for password expiration.
+Update Host with Register Password changes
+* Web item quantity display issue
+* POS-RP-1-5-2 via the GUI results related to department 20
+* Gift Card Display Pickslips 
 
 <PageFooter />
