@@ -39,6 +39,6 @@ For detailed information about each update including training materials [click h
 Update Host with Register Password changes
 * Web item quantity display issue
 * POS-RP-1-5-2 via the GUI results related to department 20
-* Gift Card Display Pickslips 
+* Gift Card Display PickSlips
 
 <PageFooter />
