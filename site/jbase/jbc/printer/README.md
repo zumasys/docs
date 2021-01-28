@@ -7,7 +7,7 @@
 Use the **PRINTER** statement to control the destination of output from the [PRINT](./../print) statement. It takes the general form:
 
 ```
-PRINTER ON|OFF|CLOSE
+PRINTER ON|OFF|CLOSE {ON <printernumber>}
 ```
 
 Where:
