@@ -253,6 +253,15 @@ module.exports = {
             ]
           },
           {
+            title: "jBASE Structured Query Language (jSQL)",
+            path: "/jbase/jsql",
+            collapsable: true,
+            children: [
+              ["/jbase/connectivity/ODBC/", "ODBC"],
+              ["/jbase/connectivity/jagent/", "jBASE Agent"]
+            ]
+          },
+          {
             title: "jBASE Control Language (PROC)",
             path: "/jbase/jcl",
             collapsable: true,

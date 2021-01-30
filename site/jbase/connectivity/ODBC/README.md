@@ -4,6 +4,8 @@
 
 **Tags:**
 <badge text='odbc' vertical='middle' />
+<badge text='sql' vertical='middle' />
+<badge text='jagent' vertical='middle' />
 
 [ODBC Installation/Configuration](./odbc-installation-configuration/README.md)
 

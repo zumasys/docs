@@ -1,6 +1,12 @@
 # Extended Dictionary Definitions  (EDICT)
 
 <PageHeader />
+
+**Tags:**
+<badge text='sql' vertical='middle' />
+<badge text='odbc' vertical='middle' />
+<badge text='jagent' vertical='middle' />
+
 The jBASE Extended Dictionary enhances a regular DICT item to provide better control
 when an SQL query (for example) is querying the file.
 
@@ -65,7 +71,7 @@ e.g.
 | EDICT_DATA_TYPE           | EDICT_START_ATTR + 1  | Valid data type values |
 | EDICT_LENGTH              | EDICT_START_ATTR + 2  | Maximum length of a string field otherwise null |
 | EDICT_SCALE               | EDICT_START_ATTR + 2  | Maximum length of a string field; otherwise null |
-| EDICT_DESCRIPTION         | EDICT_START_ATTR + 3  | Text description of the field |
+| EDICT_DESCRIPTION         | EDICT_START_ATTR + 3  | Text description of the field / Auto increment ItemID - next available number |
 | EDICT_COLUMN_NAME         | EDICT_START_ATTR + 4  | If not null used as column name rather than dict |
 | EDICT_MV_GROUP_NAME       | EDICT_START_ATTR + 5  | If not null dictionary entry belongs to the named MV group table |
 | EDICT_SMV_GROUP_NAME      | EDICT_START_ATTR + 6  | If not null dictionary entry belongs to the named SV group table |
@@ -75,7 +81,7 @@ e.g.
 | EDICT_STORAGE_FORMAT      | EDICT_START_ATTR + 10 | Format of data in the Item |
 | EDICT_FOREIGN_KEY_TABLE   | EDICT_START_ATTR + 11 | Table name of foreign key |
 | EDICT_FOREIGN_KEY_COLUMNS | EDICT_START_ATTR + 12 | Column names of foreign key |
-| EDICT_NEXT_ROW_ID         | EDICT_START_ATTR + 13 | Auto increment ItemID - next available number |
+| EDICT_DEFAULT_VALUE         | EDICT_START_ATTR + 13 | Default value if not specified on an SQLINSERT |
 | EDICT_MV_SV_POS           | EDICT_START_ATTR + 14 | Positional multi-value, sub-value |
 | EDICT_XREF_NAME           | EDICT_START_ATTR + 15 | Cross reference to dictionary entry for synonym's entries |
 | EDICT_END_MARKER          | EDICT_START_ATTR + EDICT_LENGTH | |
@@ -92,6 +98,7 @@ e.g.
 | EDict_DT_SCALEDINT32 | 101 | DT_TYPE_LS_ 32-bit signed scaled longword integer |
 | EDict_DT_DECIMAL     | 101 | DT_TYPE_LS_ 32-bit signed handles embedded decimal |
 | EDict_DT_LONGDECIMAL | 104 | DT_TYPE_QS_ 64-bit signed handles embedded decimal |
+| EDict_DT_AUTONUMBER  | 192 | DT_TYPE_AUTONUMBER_ 32-bit signed scaled longword integer |
 
 ## Extended Dictionary Flags (EDICT_FLAGS)
 The extended dictionary flags field is an integer representation of a bit-mapped field where features can be turned on/off.
@@ -135,7 +142,10 @@ To make a column visible but not updatable from SQL you would add **1** and **8*
 >Why would you need to make a column *visible*? See **jDP_Options** (below)
 
 ## jDP_Options
-**jDP_Options** is a special dictionary you can add to a file to set default **EDICT_FLAGS** for columns and tables. The format if this dictionary is:
+**jDP_Options** is a special dictionary you can add to a file to set default **EDICT_FLAGS** for columns and tables.
+This dictionary is automatically created if you create a file and dictionary using [SQLCREATETABLE](../../jsql/#sqlcreatetable).
+
+The format if this dictionary is:
 
 001 G  
 002 *default Column flags*  
