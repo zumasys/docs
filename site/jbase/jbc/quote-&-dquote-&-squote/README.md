@@ -3,8 +3,8 @@
 <PageHeader />
 
 **Tags:**
-<badge text='dqoute' vertical='middle' />
-<badge text='sqoute' vertical='middle' />
+<badge text='dquote' vertical='middle' />
+<badge text='squote' vertical='middle' />
 <badge text='string handling' vertical='middle' />
 
 ## Description
