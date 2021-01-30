@@ -32,5 +32,4 @@ The user will then enter the fromqueue from which the the print is to be suspend
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

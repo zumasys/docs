@@ -64,5 +64,4 @@ The jBASE spooler form queues and print jobs can be manipulated by using the jBA
 
 Back to [Spooler](./../jbase-spooler).
 
-  
 <PageFooter />

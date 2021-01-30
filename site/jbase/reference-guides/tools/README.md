@@ -29,5 +29,4 @@
 
 [Back to Reference Guides](../README.md)
 
-  
 <PageFooter />

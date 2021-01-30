@@ -32,5 +32,4 @@ The user will then enter the formqueue or printjob to be stopped.
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

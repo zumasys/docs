@@ -106,6 +106,7 @@ Add JSON validator  - jsonlint
 ## 5.8.0
 
 Add \$system->getjelf() method.
+Add \$locks class, \$locks->getjdls() method.    
 
 Back to [Dynamic Objects](./../README.md)
 

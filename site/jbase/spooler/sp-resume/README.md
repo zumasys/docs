@@ -32,5 +32,4 @@ The user will then enter the formqueue to resume printing.
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

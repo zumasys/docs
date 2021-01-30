@@ -32,5 +32,4 @@ the user will then enter the appropriate information.
 
 Back to[Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

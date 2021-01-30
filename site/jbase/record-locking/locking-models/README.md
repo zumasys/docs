@@ -112,7 +112,7 @@ Current strategy is:
 }
 ```
 
-If you pass an invalid strategy to the function or method then it will default to `THREAD based locks`. 
+If you pass an invalid strategy to the function or method then it will default to `THREAD based locks`.  
 
 One advantage of using the `$lock->setstrategy()` method over the `JBASESetLockStrategy()` function is that you can programmatically interrogate the existing locking strategy with the following code:
 

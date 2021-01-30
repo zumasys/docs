@@ -42,11 +42,7 @@ An interface is also provided to enable external applications to access any data
 
 ## Platforms  
 
-- Red Hat Linux 7/8
-- AIX 6/7
-- Windows 2012/2016/2019
-
-See the [Platform Availability Guide](./../administration/installation-guides/platform-availability/README.md) for more information.  
+See our [Platform Availability Guide](./../administration/installation-guides/platform-availability/README.md) for more information.  
 
 Back to [Knowledgebase](./../README.md)
 

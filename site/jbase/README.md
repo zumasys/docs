@@ -25,7 +25,7 @@
 | [Conversion Processing](./conversion-processing/README.md) | Conversions for jQL and jBC |
 | [Database Drivers](./database-drivers/README.md) | How jBASE provides database independence |
 | [Daemons](./daemons/README.md) | Daemons used by jBASE |
-| [Editor](./editor/README.md) | Editors provided by jBASE |
+| [Editors](./editors/README.md) | Editors provided by jBASE |
 | [Embedded SQL](./jbc/embedded-sql-for-jbase-basic/README.md) | Using SQL with jBASE |
 | [Emulation](./emulation/README.md) | Emulation settings |
 | [Environment Variables](./environment-variables/README.md) | Setting environment variables |
@@ -41,7 +41,7 @@
 | [Telnet](./telnet/README.md) |  jBASE Windows telnet process |
 | [Terminals](./terminal/README.md) | Support for terminals in jBASE |
 | [Transactions](./transactions/README.md) | Transaction processing and transaction journaling |  
-| [Tools](./tools/README.md) | Tools provided by jBASE |
+| [Tools and Utilities](./tools-and-utilities/README.md) | Tools and Utilities provided by jBASE |
 | [Triggers](./triggers/README.md) | Database triggers |
 | [Utilities](./utilities/README.md) | Command line utilities |
 * * *

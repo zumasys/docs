@@ -9,7 +9,7 @@
 | [jBC](./jbc/README.md) | jBASE Basic |  
 | [jCL](./jcl/README.md)| jBASE PROC |
 | [jProf](./jprof/README.md) | jBASE Profiling |
-| [Tools](./tools/README.md) | jBASE Tools |
+| [Tools and Utilities](./../tools-and-utilities/README.md) | jBASE Tools |
 | [Transactions](./transactions/README.md) | Transaction Processing |
 
 [Back to Knowledgebase](./../README.md)

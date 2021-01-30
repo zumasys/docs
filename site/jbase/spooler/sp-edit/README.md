@@ -34,5 +34,4 @@ See also: [SP-EDITOR COMMANDS](./../sp-editor-commands).
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

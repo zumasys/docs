@@ -12,7 +12,6 @@ SP-LIST {options}
 
 where:
 
-
 | Option | Description |
 | --- | --- |
 | J | Job description list only. |
@@ -21,5 +20,4 @@ where:
 
 Back to [Spooler](./../jbase-spooler).
 
-  
 <PageFooter />

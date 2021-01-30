@@ -8,7 +8,7 @@
 
 ## Description
 
-This statement sends data directly to the terminal, even if a [PRINTER ON](./../printer) statement is currently active. It takes the general form:
+This statement sends data directly to the terminal, even if a [PRINTER ON](./../printer/README.md) statement is currently active. It takes the general form:
 
 ```
 CRT|DISPLAY expression {, expression..} {:}
@@ -36,7 +36,7 @@ FOR position = 1 TO 5
 NEXT position
 ```
 
-Go back to [jBASE BASIC](./../README.md)
+[Back to jKeyAuto](./../../tools-and-utilities/jkeyauto/README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
 

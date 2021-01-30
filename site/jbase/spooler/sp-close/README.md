@@ -16,11 +16,10 @@ where **options** can be:
 - n - closes the specific print job number n. Use this option with care as it is normally only used to close jobs
 which have been left open unintentionally.
 
-> ### Notes
+> ### Note
 >
 > **SP-CLOSE** clears the flag in the assignment environment to indicate that subsequent printer output should be directed to a new print job. The global print job is closed and queued to the despooling process.
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

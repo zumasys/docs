@@ -1,6 +1,6 @@
 # SP-EJECT
 
-<PageHeader /> 
+<PageHeader />  
 
 ## Description
 
@@ -18,5 +18,4 @@ where  **n** is the number of pages to eject. The default is one and the maximu
 
 Back to [Spooler](./../jbase-spooler).
 
-  
 <PageFooter />

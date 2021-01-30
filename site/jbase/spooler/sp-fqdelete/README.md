@@ -25,5 +25,4 @@ The user will then enter the formqueue to be deleted.
 
 Back to [Spooler](./../jbase-spooler).
 
-  
 <PageFooter />

@@ -29,5 +29,4 @@ This is a list of commands available in the spooler editor, and their descriptio
 
 Back to [SP-EDIT](./../sp-edit).
 
-  
 <PageFooter />

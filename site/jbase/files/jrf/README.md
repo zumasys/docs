@@ -48,8 +48,11 @@ jrf {-options} *
 - A preceding select-list of file names can be supplied to the **jrf** command.
 - If it becomes necessary to resize a file specified by the **JEDIFILENAME\_MD** environment variable then you must unset **JEDIFILENAME\_MD** prior to resizing. The same holds true for the **JEDIFILENAME\_SYSTEM** environment variable.
 - The temporary file used during the resize operation is created in the directory from where the **jrf** command is run. Therefore a file cannot be resized via Q-pointer, F-pointer or **JEDIFILEPATH** access; you must **cd** to the directory where the file exists or specify the full path to the file.
-- WARNING: The **jrf** utility should ONLY be executed when users are NOT connected to the database otherwise data loss can occur. In other words, the file should not be opened by another process.
 - Converting to/from a Mongo file type is only available on jBASE 5.8 forward.
+
+## Warning
+
+>The **jrf** utility should ONLY be executed when users are NOT connected to the database otherwise data loss can occur. In other words, the file should not be opened by another process.
 
 Back to [Files](./../README.md)
 

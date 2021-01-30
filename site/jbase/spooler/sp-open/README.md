@@ -18,5 +18,4 @@ where **Rn** optionally limits the global open to specific report number n.
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />
