@@ -15,6 +15,7 @@
 | [jBC Error Handling](./jbc-error-handling/README.md) | Handling error conditions in jBC programs |
 | [jCL](./jcl/README.md) | jBASE Command Language (PROC) reference |
 | [jQL](./jql/README.md)| jBASE Query Language reference |
+| [jSQL](./jsql/README.md)| jBASE Structured Query Language reference |
 | [jRFS](./jrfs/jbase-remote-file-service/README.md) | jBASE Remote File Systems |
 * * *
 | <!----> | <!----> |

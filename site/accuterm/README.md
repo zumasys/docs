@@ -4,7 +4,7 @@
 
 * [Getting Started](./getting-started/README.md)
 * [Release Notes](./release-notes/README.md)
-  * [8.0.1010](./release-notes/8.0.1010/README.md)
+  * [8.0.1023](./release-notes/8.0.1023/README.md)
 * [License Activation](./license-activation/README.md)
 * [License & User Management](./license-and-user-management/README.md)
   * [Creating Users](./license-and-user-management/creating-users/README.md)

@@ -9,7 +9,7 @@
 [introduction-to-jagent-rest-services](./introduction-to-jagent-rest-services)  
 [introduction-to-jodbc](./introduction-to-jodbc)  
 [introduction-to-jremote](./introduction-to-jremote)  
-[introduction-to-odbc](./introduction-to-odbc)  
+[introduction-to-odbc](../odbc/README.md)  
 [jagent-administration](./jagent-administration)  
 [jagent-restful-services-quick-start](./jagent-restful-services-quick-start)  
 [jagent-security](./jagent-security)  
@@ -18,6 +18,6 @@
 [jremote-api](./jremote-api)  
 [odbc-quick-start](./odbc-quick-start)  
 
-[Extended Dictionary Definitions](./extended-dictionary/README.md)
+[Extended Dictionary Definitions](../../files/extended-dictionary/README.md)
 
 <PageFooter />
