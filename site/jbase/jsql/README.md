@@ -60,6 +60,22 @@ jsh -->SQLCREATETABLE CATEGORY (ID INT NOT NULL, DESCRIPTION VARCHAR(30) NOT NUL
 Table CATEGORY created successfully.
 ```
 
+#### SQLDESCRIBE
+Example usage
+```
+jsh -->SQLDESCRIBE JSQLDEMO
+COL_NO  NAME                 HEADING              TYPE                 SQLNULL READ_ONLY  BLOB  VISIBLE  PRIMARY_Controller PRIMARY_PART    USER_VIEW
+------- -------------------- -------------------- -------------------- ------- ---------- ----- -------- ------------------ --------------- ------------------------------
+1       BIRTHDAY             BIRTHDAY             DATE                 YES     NO         NO    YES      NO                 NO              DOD
+2       FIRSTNAME            FIRSTNAME            CSTRING(30)          YES     NO         NO    YES      NO                 NO
+3       LASTNAME             LASTNAME             CSTRING(30)          YES     NO         NO    YES      NO                 NO
+4       RECID                RECID                AUTONUMBER           YES     NO         NO    YES      NO                 NO
+
+Selected 4 rows.
+```
+The following properties - **SQLNULL**, **BLOB**, **PRIMARY_Controlls**, **PRIMARY_PART** -
+are only relevant if your SQL Catalog entry is pointing to an Oracle or DB2 jEDI type file.
+
 #### SQLINSERT
 Example usage
 ```
@@ -88,22 +104,6 @@ RECID                BIRTHDAY   FIRSTNAME                      LASTNAME         
 
 Selected 2 rows.
 ```
-
-#### SQLDESCRIBE
-Example usage
-```
-jsh -->SQLDESCRIBE JSQLDEMO
-COL_NO  NAME                 HEADING              TYPE                 SQLNULL READ_ONLY  BLOB  VISIBLE  PRIMARY_Controller PRIMARY_PART    USER_VIEW
-------- -------------------- -------------------- -------------------- ------- ---------- ----- -------- ------------------ --------------- ------------------------------
-1       BIRTHDAY             BIRTHDAY             DATE                 YES     NO         NO    YES      NO                 NO              DOD
-2       FIRSTNAME            FIRSTNAME            CSTRING(30)          YES     NO         NO    YES      NO                 NO
-3       LASTNAME             LASTNAME             CSTRING(30)          YES     NO         NO    YES      NO                 NO
-4       RECID                RECID                AUTONUMBER           YES     NO         NO    YES      NO                 NO
-
-Selected 4 rows.
-```
-The following properties - **SQLNULL**, **BLOB**, **PRIMARY_Controlls**, **PRIMARY_PART** -  are only relevant
-if your SQL Catalog entry is pointing to an Oracle or DB2 jEDI type file.
 
 #### SQLUPDATE
 Example usage
@@ -160,6 +160,13 @@ RECID                BIRTHDAY   FIRSTNAME                      LASTNAME         
                    2 1968-01-01 PICK                           SYSTEMS                        DATABASE
 
 Selected 1 rows.
+```
+
+#### SQLDROPTABLE
+Example usage
+```
+jsh -->SQLDROPTABLE JSQLDEMO
+Table JSQLDEMO Deleted successfully.
 ```
 
 ## SQL Compliance
