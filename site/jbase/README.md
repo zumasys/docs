@@ -43,7 +43,7 @@
 | [Transactions](./transactions/README.md) | Transaction processing and transaction journaling |  
 | [Tools and Utilities](./tools-and-utilities/README.md) | Tools and Utilities provided by jBASE |
 | [Triggers](./triggers/README.md) | Database triggers |
-| [Utilities](./utilities/README.md) | Command line utilities |
+
 * * *
 | In Addition | <!----> |
 | --- | --- |

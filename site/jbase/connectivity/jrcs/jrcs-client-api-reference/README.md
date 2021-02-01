@@ -442,7 +442,7 @@ string locVarContentAgain = dynTest.Field(JDynArray.AM, locVar);
 
 The behaviour of JDynArray in jRCS and the jRCS client is not guaranteed to be the same as the behaviour of strings in BASIC.
 
-Here is the Javadoc header for the 3-parameter **Locate** function:
+Here is the jRCS Javadoc header for the 3-parameter **Locate** function:
 
 ```java
 /**

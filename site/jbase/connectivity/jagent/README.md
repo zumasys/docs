@@ -14,7 +14,7 @@
 [jagent-restful-services-quick-start](./jagent-restful-services-quick-start)  
 [jagent-security](./jagent-security)  
 [jagent-troubleshooting](../jagent/jagent-troubleshooting/README.md)  
-[jremote and jrcs](./jremote&jrcs/README.md)  
+[jremote and jrcs java apis](./jremote&jrcs/README.md)  
 [jremote-api](./jremote-api)  
 [odbc-quick-start](./odbc-quick-start)  
 

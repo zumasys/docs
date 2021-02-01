@@ -7,7 +7,6 @@
 [jCurl](./miscellaneous/jcurl/README.md)  
 [ODBC](./ODBC/README.md)
 
-
 [Back to Knowledgebase](./../README.md)
 
 <PageFooter />

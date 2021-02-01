@@ -7,7 +7,6 @@
 <badge text='odbc' vertical='middle' />
 <badge text='jagent' vertical='middle' />
 
-
 ## Installation
 
 ### Package contents
@@ -17,11 +16,12 @@ The ODBC Connector is a separate product to the core jBASE install package deplo
 - 64-bit Windows jBASE 5.7< (**jodbc64.msi** and **jodbc32_WIN64.msi** version 1.3)
 - 64-bit Windows jBASE 5.8< (**jodbc64.msi** version 2.0.1)
 
-[Click here to visit the downloads page for jBASE/Windows/ODBC ](https://www.zumasys.com/downloads/#jbase)
+[Click here to visit the downloads page for jBASE/Windows/ODBC](https://www.zumasys.com/downloads/#jbase)
 
 Prior to version 2 there were two separate installs for 64 and 32 bit. Version 2.0.1 combines both versions as well as some important updates for date/time handling and bind parameters.
 
-### Note
+### Note #1
+
 >The 32 bit client is required when using certain products such as Excel and Access even when running on a 64 bit compuer.
 
 The ODBC installer deploys the following files:
@@ -43,12 +43,11 @@ The ODBC installer deploys the following files:
 | icudt40.dll | |
 | msvcr71.dll | MS VC run-time library required by the OpenSSL libraries. Note: the version of the MSVC run-time may change on subsequent versions of the jBASE ODBC Connector (e.g. msvcr80.dll)
 
-## Note
+## Note #2
 
 > The ODBC installer copies the 64 bit ODBC **Driver/Setup** libraries to the Windows\System32 directory and the 32 bit driver to the Windows\SysWOW64 directory.
-
+>
 >For version 1.x the **Supporting** libraries are installed in the **jBASE ODBC Connector** directory under **Program Files** and **ProgramFiles (x86)** for the 64 and 32 bit versions respectively. For version 2.x the driver/setup registration/installer program - **jODBCManager.exe** - is installed in the **Program Files\jBASE ODBC Connector** directory. The remaining dlls are are installed in the aforementioned Windows directories.
-
 
 **ODBC Setup library** is a separate library implementing the ODBC Setup API required by the driver manager to display graphical components such as connection dialogs. Connection dialogs enables users to configure DSNs inside Windows’ ODBC Manager (odbcad32.exe) or input connection details when requested by the driver.
 
@@ -58,7 +57,7 @@ The ODBC installer will automatically register the ODBC driver and ODBC Setup li
 
 ## Configuration
 
-### Addming/Configuring DSNs
+### Adding/Configuring DSNs
 
 ODBC applications usually obtain the connection details from DSNs which may be configured via Microsoft’s ODBC Data Source Administrator (also known as ODBC Manager / odbcad32.exe or Control Panel Administrative Tools Data Sources (ODBC)).
 
@@ -75,11 +74,10 @@ Note, the port value of **20002** is the default if not explicitly set when star
 
 ![1-introduction-to-odbc: initial_odbc_manager_config](../odbc_manager_test_connect.jpg)
 
-
-If you see this following message: 
+If you see this following message:  
 
 ![2-introduction-to-odbc: initial_odbc_manager_config](../odbc_manager_failed_connect.jpg)
- 
+
 check that the server you are trying to reach is running jbase_agent and you have the correct server/IP address and port (it may not be running on 20002). If you have **telnet** available you can test if the server/port is available:
 
 ```telnet 10.10.17.168 20002```
@@ -91,11 +89,13 @@ Likewise if you have **curl**
 You can also try opening a web page using *server:port* although the http option would need to be enabled (this is the default).
 
 ## Example configuration
+
 ![3-introduction-to-odbc: 1556897912210-odbc_test](../1556897912210-odbc_test.jpg)
 
 The **User Catalog** refers to the [JSQLFILENAME_CATALOG](../../../environment-variables/jsqlfilename_catalog/#jsqlfilename-catalog) which is you would normally set as part of [configuring jAgent](../../jagent/jagent-administration/#jagent-configuration-file), although it is not *required*, but can be specified here if you wish to use an existing jAgent service but point to a different set of tables (files).
 
-### Note.
+### Note #3
+
 > Specifying an alternate **User Catalog** may not be sufficient as the tables (files) to which it refers may not be accessible with the existing jAgent environment.
 
 For more information on the implications of the other settings (**User**, **Password**, **Account**, **SSL**, **Compression**) refer to the following [link](../../jagent/introduction-to-jremote/#additional-connection-properties).
@@ -113,10 +113,13 @@ jBASE ODBC Connector accepts the following attributes:
 **PORT**=&lt;jAgent port number&gt;  
 **UID**=&lt;User ID&gt;  
 **PWD**=&lt;User/Account Password&gt;  
-### Note.
+
+### Note #4
+
 > The UID/PWD are only verified if using [Account authentication](../../jagent/introduction-to-jagent/#setting-up-user-authentication).
 
-**Optional**  
+### Optional
+
 ACCOUNT=&lt;jBASE Account&gt; (User authentication will be used if this field is blank)  
 DRIVER=jBASE ODBC Driver (Name of ODBC driver, must be jBASE ODBC Driver)  
 DESCRIPTION=&lt;DSN description&gt;  
@@ -131,7 +134,7 @@ USER\_CATALOG=&lt;location of catalog file&gt;                   (Creat
 
 DSN, DRIVER, UID and PWD are attributes defined by the SQL CLI, all other attributes are jBASE ODBC Connector specific attributes. Attributes highlighted in bold are mandatory attributes.
 
-**Example**:
+### Example
 
 DSN=jBASE_WIN_5.8;SERVER=127.0.0.1;PORT=20002;UID=test;PWD=test
 
@@ -220,8 +223,8 @@ A typical error is 193 which usually means one of the **Supporting** libraries c
 C:\WINDOWS\system32> set PATH=%ProgramFiles(x86)%\jBASE ODBC Connector;%SystemRoot%\SysWOW64
 C:\WINDOWS\system32> odbcad32.exe
 ```
-The **odbcad32.exe** will launch the **OBC Data Source Administrator (32-bit)**. Try to test/add a new **jBASE ODBC Driver** instance. If this succeeds and you have verified the **PATH** and installed components check there are no other versions of all the relevant dlls and any of the paths preceding the **jBASE ODBC Connector** in your **SYSTEM** defined **PATH**.
 
+The **odbcad32.exe** will launch the **OBC Data Source Administrator (32-bit)**. Try to test/add a new **jBASE ODBC Driver** instance. If this succeeds and you have verified the **PATH** and installed components check there are no other versions of all the relevant dlls and any of the paths preceding the **jBASE ODBC Connector** in your **SYSTEM** defined **PATH**.
 
 [ODBC Quick Start](../odbc-quick-start/README.md)
 

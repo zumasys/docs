@@ -19,6 +19,7 @@ If the ODBC driver is to be used to develop client applications accessing a jBAS
 - jBASE and concepts of Multivalue databases
 
 Optionally
+
 - Secure Sockets Layer (SSL) protocol
 
 ## System requirements

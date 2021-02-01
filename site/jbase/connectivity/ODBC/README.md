@@ -15,7 +15,9 @@ The **jBASE ODBC Connector** is an ODBC driver implementing the Open Database Co
 
 ![251010-introduction-to-odbc: odbc](./ODBC_diagram.png)
 
-In the diagram some examples of a **ODBC compliant application** are ***Excel*** and ***Access***. A **C/C++ Client Application** is discussed [here](./developing-with-the-odbc-driver/README.md)
+In the diagram some examples of a **ODBC compliant application** are ***Excel*** and ***Access***.  
+
+A **C/C++ Client Application** is discussed [here](./developing-with-the-odbc-driver/README.md)
 
 **jAgent service** is the jBASE component responsible for accepting and processing incoming client requests and returning results back to the client.
 

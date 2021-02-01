@@ -10,7 +10,8 @@
 The jBASE Extended Dictionary enhances a regular DICT item to provide better control
 when an SQL query (for example) is querying the file.
 
-For example a date type dictionary - INVOICE_DATE - may be in the form
+For example a date type dictionary - INVOICE_DATE - may be in the form:
+
 ```
 001 D
 002 1
@@ -18,7 +19,9 @@ For example a date type dictionary - INVOICE_DATE - may be in the form
 004 Invoice Date
 005 8R
 ```
+
 or
+
 ```
 001 A
 002 1
@@ -32,7 +35,10 @@ or
 010 8
 ```
 
-The extended dictionary typically starts on attribute 30. Taking the first example above
+The extended dictionary typically starts at attribute 30.  
+
+Taking the first example above:
+
 ```
 001 D
 002 1
@@ -47,14 +53,14 @@ The extended dictionary typically starts on attribute 30. Taking the first examp
 ...
 054 JBASE_EDICT_END
 ```
-This specifies that the field (column) is a date type, is visible and the conversion code
-on <7> (or <3> in the case of "D" type) should be used.
-Starting with **jBASE 5.8** the conversion code is irrelevant from an ODBC perspective when using
-date and time fields as long as you specify the codes **123** and **124** respectively.
+
+This specifies that the field (column) is a date type, is visible and the conversion code on <7> (or <3> in the case of "D" type) should be used.  
+
+Starting with **jBASE 5.8** the conversion code is irrelevant from an ODBC perspective when using date and time fields as long as you specify the codes **123** and **124** respectively.
 
 ## Extended Dictionary Header
 
-The default configuration of the extended dictionary starts on attribute 30 of the existing dictionary. When viewing the following table  **EDICT_START_ATTR** => **30**. 
+The default configuration of the extended dictionary starts on attribute 30 of the existing dictionary. When viewing the following table  **EDICT_START_ATTR** => **30**.  
 
 e.g.
 
@@ -101,6 +107,7 @@ e.g.
 | EDict_DT_AUTONUMBER  | 192 | DT_TYPE_AUTONUMBER_ 32-bit signed scaled longword integer |
 
 ## Extended Dictionary Flags (EDICT_FLAGS)
+
 The extended dictionary flags field is an integer representation of a bit-mapped field where features can be turned on/off.
 
 There are two uses of these flags:
@@ -109,6 +116,7 @@ There are two uses of these flags:
 2. Columns (dictionaries)
 
 ### Table options
+
 | Setting | Bit Value |
 | --------- | -------: |
 | Visible | 1 |
@@ -119,6 +127,7 @@ There are two uses of these flags:
 | Not Deletable | 32 |
 
 ### Column options
+
 | Setting | Bit Value |
 | --------- | -------: |
 | Visible | 1 |
@@ -132,7 +141,6 @@ There are two uses of these flags:
 | Use Attr 7 | 256 |
 | Don't Use Attr 7 | 512 |
 
-
 Use the following formulas for determining the flag value you require:
 
 Starting with **flags = 1073741824** if you wanted to hide a dictionary from any SQL related query/discovery simply add **2** to the initial flags value resulting in **1073741826**.
@@ -142,26 +150,32 @@ To make a column visible but not updatable from SQL you would add **1** and **8*
 >Why would you need to make a column *visible*? See **jDP_Options** (below)
 
 ## jDP_Options
-**jDP_Options** is a special dictionary you can add to a file to set default **EDICT_FLAGS** for columns and tables.
+
+**jDP_Options** is a special dictionary you can add to a file to set default **EDICT_FLAGS** for columns and tables.  
+
 This dictionary is automatically created if you create a file and dictionary using [SQLCREATETABLE](../../jsql/#sqlcreatetable).
 
-The format if this dictionary is:
+The format if the dictionary is:
 
-001 G  
-002 *default Column flags*  
-003 *default Table flags*
-
-In the example below the default column flags are set to not visible and tables to visible.
 ```
-jDP_Options
+001 G  
+002 default Column flags  
+003 default Table flags
+```
+
+In the example below the default column flags are set to not visible and tables to visible:  
+
+jDP_Options:
+
+```
 001 G
 002 1073741826
 003 1073741825
 ```
-The advantage of setting the default column flags to be *Not Visible*
-is if you have many duplicate or calculation type dictionaries that would clutter the column
-listing of a table.
-You would then set the **Visible** bit setting in the 
-[EDICT_FLAGS](#extended-dictionary-flags-edict-flags) for the fields you want to appear from a SQL perspective.
+
+The advantage of setting the default column flags to be *Not Visible* is if you have many duplicate or calculation type dictionaries that would clutter the column
+listing of a table.  
+
+You would then set the **Visible** bit setting in the [EDICT_FLAGS](#extended-dictionary-flags-edict-flags) for the fields you want to appear from a SQL perspective.
 
 <PageFooter />

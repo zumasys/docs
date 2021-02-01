@@ -31,6 +31,7 @@ ODBCDEMO
 001 /home/jbtest/ODBCDEMO
 002 /home/jbtest/ODBCDEMO]D
 ```
+
 A [utility](../../../utilities/sqlcatman/README.md) is provided to create/maintain catalog entries although you can also use a jBASE compliant editor (e.g. ED, JED) or write your own program.
 
 For the purposes of this document, we have used the “make-demo-file” utility to create a new test file for querying:
@@ -88,4 +89,5 @@ Having added an “ID” dictionary definition to the ODBCDEMO file, the followi
 ![291428-odbc-quick-start: 1513360518762](../1513360518762.jpg)
 
 See also [Using SQL against a jBASE Database](../../../jsql/README.md)
+
 <PageFooter />
