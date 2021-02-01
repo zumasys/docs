@@ -1,8 +1,11 @@
-# jAGENT
+# jBASE Agent
 
 <PageHeader />
 
 ## Topics
+
+**Tags:**
+<badge text='jagent' vertical='middle' />
 
 [apis](./apis)  
 [introduction-to-jagent](./introduction-to-jagent)  
