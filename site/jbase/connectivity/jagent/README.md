@@ -1,11 +1,13 @@
-# jBASE Agent
+# jAGENT
 
 <PageHeader />
 
 ## Topics
 
 **Tags:**
-<badge text='jagent' vertical='middle' />
+<badge text='odbc' vertical='middle' />
+<badge text='rest' vertical='middle' />
+<badge text='jremote' vertical='middle' />
 
 [apis](./apis)  
 [introduction-to-jagent](./introduction-to-jagent)  

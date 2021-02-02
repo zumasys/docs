@@ -219,7 +219,7 @@ The ODBC driver has not been registered correctly. Use the jODBCManager as descr
 
 A typical error is 193 which usually means one of the **Supporting** libraries could not be found in the **SYSTEM** defined **PATH** or an incorrect version of one of the libraries is being loaded due to the **PATH** precendence. In this case it is best to open a **CMD** command prompt as *System Administrator* and manually set a new **PATH** and test.
 
-```
+``` dos
 C:\WINDOWS\system32> set PATH=%ProgramFiles(x86)%\jBASE ODBC Connector;%SystemRoot%\SysWOW64
 C:\WINDOWS\system32> odbcad32.exe
 ```
