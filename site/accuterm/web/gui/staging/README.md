@@ -2,6 +2,19 @@
 
 <PageHeader />
 
+## Release Notes - February 1st, 2021  
+
+- Controls
+   - Completed: options, picture, and frame
+   - Grid, browser, guage and tabs continued work
+   - Add icon support
+- Architecture  
+   - Update store architecture to miantain reactivity when handling nested objects and arrays
+   - Refactor to allow for Nth number of children controls and implementation
+- Service
+   - Get Props command close to finished
+   - Refactor utility functions for working with store
+   
 ## Release Notes - January 19th, 2021  
 
 - Controls
