@@ -4,7 +4,7 @@
 
 ## Interface JStatement
 
-All Known Implementing Classes:[JStatementImpl](./../io/jstatementimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
+All Known Implementing Classes:[JStatementImpl](./../io/jstatementimpl-(jremote-api) "class in com.jbase.jremote.io")
 * * *
 
 
@@ -84,7 +84,7 @@ Parameters:`rows` -
 
 
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

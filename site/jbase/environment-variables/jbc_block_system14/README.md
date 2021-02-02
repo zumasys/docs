@@ -19,7 +19,7 @@ Not set.
 
 ## Setting
 
-As per normal environment variable. The environment variable can be set dynamically with the [**PUTENV()**](./../../jbase-basic-%28jbc%29/putenv) function.
+As per normal environment variable. The environment variable can be set dynamically with the [**PUTENV()**](./../../jbase-basic-(jbc)/putenv) function.
 
 ## UNIX
 

@@ -6,7 +6,7 @@
 
 **All Implemented Interfaces:**
 
-[JConnectionFactory](./../jconnectionfactory-%28jremote-api%29 "interface in com.jbase.jremote")
+[JConnectionFactory](./../jconnectionfactory-(jremote-api) "interface in com.jbase.jremote")
 
 * * *
 
@@ -311,7 +311,7 @@ public boolean isEnabledCompression()
 
 
 
-Return to [jREMOTE API](com_jbase_jremote_package-summary)
+Return to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

@@ -1,4 +1,4 @@
-# Introduction to jREMOTE
+# Introduction to jRemote
 
 <PageHeader />
 
@@ -31,7 +31,7 @@ This document describes many concepts and methodologies that are highly technica
 
 The following section provides a detailed guide on how to connect and access the jBASE server.
 
-## jREMOTE Packages
+## jRemote Packages
 
 The client packages for both java and .net are in the Clients directory in the main jBase install directory.
 
@@ -239,7 +239,7 @@ cx.close();
 cx.close();
 ```
 
-### jREMOTE Client API Reference
+### jRemote Client API Reference
 
 This API provides client applications with a set of interfaces to access the remote jBASE server. A reference to a *JConnection* instance should have been obtained, as detailed in the previous sections. For more information on how to use this API, please read the jRemote API javadoc documentation.
 

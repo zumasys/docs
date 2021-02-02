@@ -4,7 +4,7 @@
 
 ## Interface JBaseObjectReader
 
-All Known Implementing Classes:[AbstractJBaseObjectReader](./../abstractjbaseobjectwriter-%28jremote-api%29 "class in com.jbase.jremote.io"), [IOJBaseObjectReader](./../iojbaseobjectreader-%28jremote-api%29 "class in com.jbase.jremote.io"), [NIOJBaseObjectReader](./../niojbaseobjectreader-%28jremote-api%29 "class in com.jbase.jremote.io")
+All Known Implementing Classes:[AbstractJBaseObjectReader](./../abstractjbaseobjectwriter-(jremote-api) "class in com.jbase.jremote.io"), [IOJBaseObjectReader](./../iojbaseobjectreader-(jremote-api) "class in com.jbase.jremote.io"), [NIOJBaseObjectReader](./../niojbaseobjectreader-(jremote-api) "class in com.jbase.jremote.io")
 * * *
 
 
@@ -123,7 +123,7 @@ void close()
 ```
 Throws:`IOException`
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

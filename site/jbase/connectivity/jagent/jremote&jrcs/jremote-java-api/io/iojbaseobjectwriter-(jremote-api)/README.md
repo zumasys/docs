@@ -4,7 +4,7 @@
 
 ## Class IOJBaseObjectWriter
 
-All Implemented Interfaces:[JBaseObjectWriter](./../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseObjectWriter](./../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -132,7 +132,7 @@ protected void outUTF(String s)
 Write a UTF8 string. This could be made more efficient by implementing our own UTF8 encoder (or using the DataOutputStream) instead of duplicating the string.
 Specified by:`outUTF` in class `AbstractJBaseObjectWriter`Throws:`IOException`
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

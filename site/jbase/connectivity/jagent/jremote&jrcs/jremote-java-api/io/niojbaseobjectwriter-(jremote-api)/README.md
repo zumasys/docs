@@ -4,7 +4,7 @@
 
 ## Class NIOJBaseObjectWriter
 
-All Implemented Interfaces:[JBaseObjectWriter](./../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseObjectWriter](./../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -160,7 +160,7 @@ protected void checkBuffer(int newDataLength)
 public void setSocketChannel(SocketChannel socketChannel)
 ```
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

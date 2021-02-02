@@ -66,7 +66,7 @@ public JDynArray getRepositoryEntry(String key)
 Obtain the value of a repository entry
 Parameters:`key` - key of the repository entryReturns:value of the repository entry
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

@@ -4,7 +4,7 @@
 
 ## Interface JConnectionFactory
 
-All Known Implementing Classes:[DefaultJConnectionFactory](./../defaultjconnectionfactory-%28jremote-api%29 "class in com.jbase.jremote"), [JRemoteConnectionFactoryImpl](./../jca/jremoteconnectionfactoryimpl-%28jremote-api%29 "class in com.jbase.jremote.jca")
+All Known Implementing Classes:[DefaultJConnectionFactory](./../defaultjconnectionfactory-(jremote-api) "class in com.jbase.jremote"), [JRemoteConnectionFactoryImpl](./../jca/jremoteconnectionfactoryimpl-(jremote-api) "class in com.jbase.jremote.jca")
 * * *
 
 
@@ -93,7 +93,7 @@ Parameters:`handler` -Returns:JConnection The connectionThrows:`JRemoteException
 
 
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

@@ -9,7 +9,7 @@ No usage of com.jbase.jremote.protocol.XAPrepareTransactionRequest
 
 
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

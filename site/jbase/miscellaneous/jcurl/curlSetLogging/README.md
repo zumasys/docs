@@ -33,7 +33,7 @@ END
 logresult = curlGetLog(curlHandle)
 ```
 
-see also [curlGetLog](..curlGetLog/##heading)
+see also [curlGetLog](../curlGetLog/##heading)
 
 Back to [jCurl.](./../README.md)
 

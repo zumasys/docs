@@ -64,7 +64,7 @@ Arrays are zero-based, so the first element is at position 0, the second at posi
 
 If **position** &lt;= 0 then value is inserted at the beginning of the array.
 
-See also [$delete()](./../method-$delete%28%29)
+See also [$delete()](./../method-$delete())
 
   
 <PageFooter />

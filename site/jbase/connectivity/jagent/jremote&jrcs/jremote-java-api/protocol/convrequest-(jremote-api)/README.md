@@ -4,7 +4,7 @@
 
 ## Class ConvRequest
 
-All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -148,7 +148,7 @@ Specified by:`readObject` in interface `JBaseSerializable`Overrides:`readObject`
 
 
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

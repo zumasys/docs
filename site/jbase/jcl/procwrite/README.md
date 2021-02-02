@@ -18,9 +18,9 @@ An example of use may be as:
 PROCWRITE "Success" : CHAR(254) : "0"
 ```
 
-See also: [PROCREAD](./../../../jbase-basic-%28jbc%29/procread)
+See also: [PROCREAD](./../../../jbase-basic-(jbc)/procread)
 
-Go back to [jBASE BASIC](./../../../jbase-basic-%28jbc%29/jbase-basic-programmers-reference-guide).
+Go back to [jBASE BASIC](./../../../jbase-basic-(jbc)/jbase-basic-programmers-reference-guide).
 
 Back to [jCL.](./../README.md)
   

@@ -4,7 +4,7 @@
 
 ## Interface InboundRequest
 
-All Superinterfaces:[JBaseSerializable](./../../../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")All Known Implementing Classes:[ActivationRequest](./../activationrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol"), [CommitTransactionRequest](./../../../../protocol/committransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol"), [RollbackTransactionRequest](./../../../../protocol/rollbacktransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol"), [StartTransactionRequest](./../starttransactionrequest-%28jremote-api%29 "class in com.jbase.jremote.jca.inflow.protocol")
+All Superinterfaces:[JBaseSerializable](./../../../../io/jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")All Known Implementing Classes:[ActivationRequest](./../activationrequest-(jremote-api) "class in com.jbase.jremote.jca.inflow.protocol"), [CommitTransactionRequest](./../../../../protocol/committransactionrequest-(jremote-api) "class in com.jbase.jremote.jca.inflow.protocol"), [RollbackTransactionRequest](./../../../../protocol/rollbacktransactionrequest-(jremote-api) "class in com.jbase.jremote.jca.inflow.protocol"), [StartTransactionRequest](./../starttransactionrequest-(jremote-api) "class in com.jbase.jremote.jca.inflow.protocol")
 * * *
 
 
@@ -56,7 +56,7 @@ JBaseSerializable execute(ClientHandle handle,
 
 
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

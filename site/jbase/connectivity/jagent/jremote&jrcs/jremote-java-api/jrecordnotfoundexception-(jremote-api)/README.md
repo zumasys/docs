@@ -48,7 +48,7 @@ Generally it is a good idea to check if a record exists before reading as throwi
 public JRecordNotFoundException()
 ```
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

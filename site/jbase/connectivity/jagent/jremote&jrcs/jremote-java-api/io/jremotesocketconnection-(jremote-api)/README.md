@@ -224,7 +224,7 @@ public boolean isEnabledCompression()
 public int compressionThreshold()
 ```
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

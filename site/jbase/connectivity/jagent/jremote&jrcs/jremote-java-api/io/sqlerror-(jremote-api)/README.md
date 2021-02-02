@@ -4,7 +4,7 @@
 
 ## Class SQLError
 
-All Implemented Interfaces:[JBaseSerializable](./../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseSerializable](./../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -115,7 +115,7 @@ public int getVersion()
 ```
 Specified by:`getVersion` in interface `JBaseSerializable`
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

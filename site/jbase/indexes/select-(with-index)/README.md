@@ -4,7 +4,7 @@
 
 ## Description
 
-When the SELECT statement is used with an index variable (created with the [OPENINDEX](./../../jbase-basic-%28jbc%29/openindex) statement) then it can be extended to the following syntax:
+When the SELECT statement is used with an index variable (created with the [OPENINDEX](./../../jbase-basic-(jbc)/openindex) statement) then it can be extended to the following syntax:
 
 ```
 SELECT indexvariable {TO select-def} {ATKEY index-key{,record-key{,vmcount}}}

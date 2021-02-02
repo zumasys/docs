@@ -123,7 +123,7 @@ public Response receive()
 Intercept any IO messages and handle required input or output on in / out streams.
 Specified by:`receive` in class `AbstractJRemoteConnection`Throws:`JRemoteException`
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

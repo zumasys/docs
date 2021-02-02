@@ -4,7 +4,7 @@
 
 ## Class AbstractJBaseObjectWriter
 
-All Implemented Interfaces:[JBaseObjectWriter](./../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io")Direct Known Subclasses:[IOJBaseObjectWriter](./../iojbaseobjectwriter-%28jremote-api%29 "class in com.jbase.jremote.io"), [NIOJBaseObjectWriter](./../niojbaseobjectwriter-%28jremote-api%29 "class in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseObjectWriter](./../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")Direct Known Subclasses:[IOJBaseObjectWriter](./../iojbaseobjectwriter-(jremote-api) "class in com.jbase.jremote.io"), [NIOJBaseObjectWriter](./../niojbaseobjectwriter-(jremote-api) "class in com.jbase.jremote.io")
 * * *
 
 
@@ -185,7 +185,7 @@ public void writeRootObject(JBaseSerializable o)
 ```
 Specified by:`writeRootObject` in interface `JBaseObjectWriter`Throws:`IOException`
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

@@ -153,7 +153,7 @@ To make a column visible but not updatable from SQL you would add **1** and **8*
 
 **jDP_Options** is a special dictionary you can add to a file to set default **EDICT_FLAGS** for columns and tables.  
 
-This dictionary is automatically created if you create a file and dictionary using [SQLCREATETABLE](../../jsql/#sqlcreatetable).
+This dictionary is automatically created if you create a file and dictionary using [SQLCREATETABLE](../../jsql/SQL/#sqlcreatetable).
 
 The format if the dictionary is:
 

@@ -106,7 +106,7 @@ Classes in com.jbase.jremote used by com.jbase.jremote.protocol
 
 
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

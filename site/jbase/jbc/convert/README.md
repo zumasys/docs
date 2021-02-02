@@ -4,7 +4,7 @@
 
 ## Description
 
-**CONVERT** is the function form of the [CONVERT](./../convert-%28statement%29) statement. It performs exactly the same function but may also operate on an expression rather than being restricted to variables. The function takes the general form:
+**CONVERT** is the function form of the [CONVERT](./../convert-(statement)) statement. It performs exactly the same function but may also operate on an expression rather than being restricted to variables. The function takes the general form:
 
 ```
 CONVERT(expression1, expression2, expression3)
@@ -38,7 +38,7 @@ which results in the following output:
 Converted string is a]b]c^d]e\f]g^h]i
 ```
 
-See also: [CONVERT Statement](./../convert-%28statement%29).
+See also: [CONVERT Statement](./../convert-(statement)).
 
 Go back to [jBASE BASIC](./../README.md)
 

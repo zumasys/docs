@@ -92,7 +92,7 @@ Results:
 
 ## Notes
 
-See also [$fromjson()](./../method-$fromjson%28%29) and [$setserialize()](./../method-$setserialize%28%29)
+See also [$fromjson()](./../method-$fromjson()) and [$setserialize()](./../method-$setserialize())
 
   
 <PageFooter />
