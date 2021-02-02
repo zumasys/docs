@@ -9,6 +9,7 @@
 [create-trigger](./create-trigger/README.md)  
 [distributed-files](./distributed-files/README.md)  
 [dynamic-files](./dynamic-files/README.md)  
+[extended dictionary](./extended-dictionary/README.md)  
 [file-integrity](./file-integrity/README.md)  
 [introduction-to-triggers](./introduction-to-triggers/README.md)  
 [jbase-files](./jbase-files/README.md)  

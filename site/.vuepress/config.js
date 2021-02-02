@@ -121,7 +121,7 @@ module.exports = {
             title: "Release Notes",
             path: "/accuterm/release-notes/",
             collapsable: true,
-            children: [["/accuterm/release-notes/8.0.1010/", "8.0.1010"]]
+            children: [["/accuterm/release-notes/8.0.1023/", "8.0.1023"]]
           },
           ["/accuterm/license-activation/", "License Activation"],
           {
@@ -253,6 +253,15 @@ module.exports = {
             ]
           },
           {
+            title: "jBASE Structured Query Language (jSQL)",
+            path: "/jbase/jsql",
+            collapsable: true,
+            children: [
+              ["/jbase/connectivity/ODBC/", "ODBC"],
+              ["/jbase/connectivity/jagent/", "jBASE Agent"]
+            ]
+          },
+          {
             title: "jBASE Control Language (PROC)",
             path: "/jbase/jcl",
             collapsable: true,
@@ -367,7 +376,7 @@ module.exports = {
             path: "/jbase/technical-support",
             collapsable: true,
             children: [
-              ["/jbase/tecchnical-support/", "jBASE Technical Support"]
+              ["/jbase/technical-support/", "jBASE Technical Support"]
             ]
           }
         ]

@@ -41,7 +41,8 @@ To link with external C function libraries:
 
 Programmers should be aware that by convention jBC program names have an extension of ".b" (and also ".B" on Windows). The [jbc](./../compilation/jcompile/README.md) command expects programs specified as "name.b". The BASIC and CATALOG commands do not require programs to have a **.b** extension because they add one when necessary. This can be seen when the verbose option is used on BASIC and CATALOG. If a main program has a **.b** extension, it is dropped when the program is cataloged. For example, if the name of the program is CUSTMAINT.b, the resulting executable created by CATALOG is called CUSTMAINT. If a subroutine has a **.b** extension, then it's internal name should **not** have the extension:
 
-| valid | Invalid |
+| Valid | Invalid |
+| --- | --- |
 | UPDATECUST.B | UPDATECUST.B |
 | SUBROUTINE UPDATECUST(a,b,c) | SUBROUTINE UPDATECUST.B(a,b,c) |
 
@@ -57,10 +58,12 @@ The jLibDefinition file is used by default to configure the size and naming conv
 
 The configuration options contained in the jLibDefinition file are as follows:
 
-%n - Use sequence number from 0 upwards
-%a - Use account name, truncated to 8 characters.
-%f - Use source filename
+%n - Use sequence number from 0 upwards.  
+%a - Use account name, truncated to 8 characters.  
+%f - Use source filename.  
 
+| <!----> | <!----> |
+| --- | --- |
 | libname | Naming convention to use for library |
 | exportname | naming convention to use for export file |
 | objectdir | naming convention to use for object directory |

@@ -15,6 +15,7 @@
 | [jBC Error Handling](./jbc-error-handling/README.md) | Handling error conditions in jBC programs |
 | [jCL](./jcl/README.md) | jBASE Command Language (PROC) reference |
 | [jQL](./jql/README.md)| jBASE Query Language reference |
+| [jSQL](./jsql/README.md)| jBASE Structured Query Language reference |
 | [jRFS](./jrfs/jbase-remote-file-service/README.md) | jBASE Remote File Systems |
 * * *
 | <!----> | <!----> |
@@ -42,7 +43,7 @@
 | [Transactions](./transactions/README.md) | Transaction processing and transaction journaling |  
 | [Tools and Utilities](./tools-and-utilities/README.md) | Tools and Utilities provided by jBASE |
 | [Triggers](./triggers/README.md) | Database triggers |
-| [Utilities](./utilities/README.md) | Command line utilities |
+
 * * *
 | In Addition | <!----> |
 | --- | --- |
