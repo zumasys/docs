@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Tags:**
-<badge text='sql' vertical='middle' />
+<badge text='jsql' vertical='middle' />
 <badge text='odbc' vertical='middle' />
 <badge text='jagent' vertical='middle' />
 
