@@ -323,7 +323,6 @@ If '#' is '0' or omitted, this implies entry 1.
 
 All of the dot commands are case insensitive, e.g. **.l** is the same as **.L**
 
-
 Back to [Miscellaneous](./../README.md)  
 
 <PageFooter />
