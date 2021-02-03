@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Tags:**
-<badge text='sql' vertical='middle' />
+<badge text='jsql' vertical='middle' />
 <badge text='odbc' vertical='middle' />
 
 ## Using SQL against a jBASE Database  
