@@ -72,9 +72,7 @@ jshow -f filename
 CUSTOMER
 
 001 F
-
 002 /home/jbase/data/CUSTOMERS
-
 003 /home/jbase/data/CUSTOMERS]D
 ```
 

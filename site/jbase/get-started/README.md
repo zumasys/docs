@@ -29,9 +29,12 @@ These examples can be followed on your local system or using a free docker conta
 
 If you prefer to experiment rather than watch, here is our [Docker cheat-sheet](./docker-container/README.md)
 
-## Find out more about the jBASE platform
+## Find out more about the platform with our Introduction to jBASE
 
-[jBASE Fundamentals](./../fundamentals/README.md)  
+[Some jBASE Fundamentals](./introduction/fundamentals/README.md)  
+[jBC](./introduction/jbc/README.md)  
+[Database](./introduction/database/README.md)  
+[jQL](./introduction/jQL/README.md)  
 
 [Back to Knowledgebase](./../README.md)
 
