@@ -42,7 +42,7 @@ If the **ELSE** clause is taken, it does not necessarily mean there is an error,
 
 The use of this function differs depending on the command.While the **JBC\_COMMAND\_GETFILENAME** command is supported for all database drivers, some common **IOCTL** command numbers also supported by the jBASE database drivers are:
 
-## **1. JBC\_COMMAND\_GETFILENAME COMMAND**
+## 1. JBC\_COMMAND\_GETFILENAME COMMAND
 
 Using this command to the **IOCTL()** function, you can determine the exact file name that was used to open the file. This is helpful because jEDI uses Q-pointers, F-pointers and the **JEDIFILEPATH** environment variable to actually open the file, and the application can never be totally sure where the resultant file was really opened. Normally of course, this is of no concern to the application.
 
@@ -61,7 +61,7 @@ CRT "Full file path = " : DQUOTE(filename)
 
 This command is executed by the jBASE BASIC library code rather than the jEDI library code or the database drivers, so it can be run against a file descriptor for any file type.
 
-## **2. JIOCTL\_COMMAND\_CONVERT COMMAND**
+## 2. JIOCTL\_COMMAND\_CONVERT COMMAND
 
 Some of the jBASE BASIC database drivers will perform an automatic conversion of the input and output record when performing reads and writes.
 
@@ -131,7 +131,7 @@ END ELSE
 END
 ```
 
-## **3. JIOCTL\_COMMAND\_FILESTATUS COMMAND**
+## 3. JIOCTL\_COMMAND\_FILESTATUS COMMAND
 
 The **JIOCTL\_COMMAND\_FILESTATUS** command will return an attribute delimited list of the status of the file to the caller.
 
@@ -204,7 +204,7 @@ END ELSE
 END
 ```
 
-## 4. JIOCTL\_COMMAND\_FINDRECORD COMMAND**
+## 4. JIOCTL\_COMMAND\_FINDRECORD COMMAND
 
 This command will find out if a record exists on a file without the need to actually read in the record.
 
@@ -269,7 +269,7 @@ LOOP WHILE READNEXT record.key DO
 REPEAT
 ```
 
-## 6.**JIOCT**L\_COMMAND\_HASH\_RECORD COMMAND
+## 6. JIOCTL\_COMMAND\_HASH\_RECORD COMMAND
 
 For jBASE hashed files, j4, jPlus, each record is pseudo-randomly written to one of the buckets (or groups) of the hashed file. The actual bucket it is written to depends upon two factors:
 
