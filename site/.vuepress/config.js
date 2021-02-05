@@ -275,7 +275,7 @@ module.exports = {
             path: "/jbase/indexes",
             collapsable: true,
             children: [
-              ["/jbase/indexes/indexes", "All about Indexes"]
+              ["/jbase/indexes/indexes/", "All about Indexes"]
             ]
           },
           {
