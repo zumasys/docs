@@ -10,11 +10,11 @@ The subroutine can used to define ancillary updates that need to occur as a resu
 | --- | --- | --- |
 | 1<br> | **Filevar**<br> | The file variable associated with the update. For example, you can do:<br>````WRITE var ON filevar,"newkey"```<br>however you must then be very careful of calling this subroutine recursively. |
 | 2<br> | **Event**<br> | One of the TRIGGER\_TYPE\_xxx values to show which of the 9 events is currently about to take place. Defined in source $JBCRELEASEDIR/include/JBC.h (UNIX) and %JBCRELEASEDIR%\include\JBC.h (Windows).<br><br>| **Type** | **Event** |<br>| TRIGGER\_TYPE\_PREWRITE | before a WRITE occured |<br>| TRIGGER\_TYPE\_POSTWRITE | after a WRITE occured |<br>| TRIGGER\_TYPE\_PREDELETE | before a DELETE occured |<br>| TRIGGER\_TYPE\_POSTDELETE | after a DELETE occured |<br>| TRIGGER\_TYPE\_PRECLEAR | before a CLEARFILE occured |<br>| TRIGGER\_TYPE\_POSTCLEAR | after a CLEARFILE occured |<br>| TRIGGER\_TYPE\_PREREAD | before a READ occured |<br>| TRIGGER\_TYPE\_POSTREAD | after a READ occured |<br>| TRIGGER\_TYPE\_POSTOPEN | after an OPEN occured |<br><br> |
-| 3 | **Prerc** | The current return code (i.e. status) of the action. For all the TRIGGER\_TYPE\_PRExx events, it will be 0. For all the TRIGGER\_TYPE\_POSTxx events, it will show the current status of the action, with 0 meaning that the action was performed successfully and any other value showing the update failed. For example, if a WRITE fails because the lock table is full, the value in prerc is 1. |
+| 3 | **Prerc** | The current return code (i.e. status) of the action. For all the TRIGGER\_TYPE\_PRExx events, it will be **0**. For all the TRIGGER\_TYPE\_POSTxx events, it will show the current status of the action, with **0** meaning that the action was performed successfully and any other value showing the update failed. For example, if a WRITE fails because the lock table is full, the value in prerc is **1**.<br><br>For **POSTREAD** trigger: a read on a non-existent record would incur a value of **2** |
 | 4 | **Flags** | Various flags to show things like if a WRITE or WRITEV was performed.Not used yet. |
 | 5 | **RecordKey** | The record key (or item-id) of the WRITE or DELETE being performed. For CLEARFILE, this is set to null. |
 | 6 | **Record** | For the WRITE actions, this is the record currently being updated. For the DELETE or CLEARFILE actions, this is set to null. You can modify this variable in your subroutine if you wish. However, the modification will be discarded unless the [create-trigger](./../../triggers/create-trigger/README.md) command was executed with the **-a** option. |
-| 7 | **Userrc** | You can set this to a non-zero value for the TRIGGER\_TYPE\_PRExxx actions so that it will abort the action. However, unless the **-t** option was used with the create-trigger command, it will be meaningless.<br>There are two options to setting this value:<ol><li>Any negative value will cause the action to be terminated. However, nothing will be flagged to the application, and it will appear to all intents and purposes that the action performed. Any positive value is taken to be the return code for the action.</li><li>For example, when a WRITE completes it will normally give a return code of 0. If this variable is then set to say 13 (which is the UNIX error number for &quot;Permission denied&quot;) then the application will fall into the jBASE debugger with error code 13.</li></ol> |
+| 7 | **Userrc** | You can set this to a non-zero value for the TRIGGER\_TYPE\_PRExxx actions so that it will abort the action. However, unless the **-t** option was used with the create-trigger command, it will be meaningless.<br>There are two options to setting this value:<ol><li>Any negative value will cause the action to be terminated. However, nothing will be flagged to the application, and it will appear to all intents and purposes that the action performed. Any positive value is taken to be the return code for the action.</li><li>For example, when a WRITE completes it will normally give a return code of **0**. If this variable is then set to say **13** (which is the UNIX error number for &quot;Permission denied&quot;) then the application will fall into the jBASE debugger with error code **13**.</li></ol> |
 
 ## Assignment of Trigger Subroutine Arguments
 
@@ -22,15 +22,15 @@ The arguments of a trigger subroutine are generally assigned by the database man
 
 | **Trigger Type** | filevar | event | prerc | flags | recordkey | record | userrc |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **Pre-Write** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | ASSIGNED | ASSIGNED | USER DEFINABLE |
-| **Post-Write** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | ASSIGNED | ASSIGNED | USER DEFINABLE |
-| **Pre-Delete** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | ASSIGNED | NULL | USER DEFINABLE |
-| **Post-Delete** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | ASSIGNED | NULL | USER DEFINABLE |
-| **Pre-Clear** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | NULL | NULL | USER DEFINABLE |
-| **Post-Clear** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | NULL | NULL | USER DEFINABLE |
-| **Pre-Read** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | ASSIGNED | NULL | USER DEFINABLE |
-| **Post-Read** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | ASSIGNED | ASSIGNED | USER DEFINABLE |
-| **Post-Open** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | NULL | NULL | USER DEFINABLE |
+| **PREWRITE** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | ASSIGNED | ASSIGNED | USER DEFINABLE |
+| **POSTWRITE** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | ASSIGNED | ASSIGNED | USER DEFINABLE |
+| **PREDELETE** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | ASSIGNED | NULL | USER DEFINABLE |
+| **POSTDELETE** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | ASSIGNED | NULL | USER DEFINABLE |
+| **PRECLEAR** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | NULL | NULL | USER DEFINABLE |
+| **POSTCLEAR** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | NULL | NULL | USER DEFINABLE |
+| **PREREAD** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | ASSIGNED | NULL | USER DEFINABLE |
+| **POSTREAD** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | ASSIGNED | ASSIGNED | USER DEFINABLE |
+| **POSTOPEN** | ASSIGNED\* | ASSIGNED | ASSIGNED | NOT USED | NULL | NULL | USER DEFINABLE |
 
 \* Note that filevar is not the name of the file, but rather the system-level file unit.  It can be treated as such for file operations  within the subroutine, but cannot be treated as a typical variable, *e.g.*, it cannot be used with a PRINT or CRT statement.
 
