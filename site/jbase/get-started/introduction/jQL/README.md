@@ -4,14 +4,14 @@
 
 ## Understanding jQL
 
-jQL is the query language used by jBASE. It takes the form of dictionary items used for selecting and sorting rows, and for displaying columns. The output by default uses sequential ID's in the dictionary of:
+jQL is the query language used by jBASE. It takes the form of dictionary items used for selecting and sorting rows, and for displaying columns. The output, by default, uses sequential ID's in the dictionary of:
 
-- Specified file or `USING` file
+- The specified file or `USING` file
 - `JBCDEFDICTS`
 - `JEDIFILENAME_MD`
 - Universe, Unidata and Prime emulations uses the @ phrase
 
-This query language is capable of calculating column totals, averages, and percentages with the appropriate modifiers applied. Further, modifiers if correctly applied can alter the way a dictionary is used.
+This query language is capable of calculating column totals, averages, and percentages with the appropriate modifiers applied. Further, modifiers, if correctly applied, can alter the way a dictionary is used.
 
 ### jQL or SQL
 
@@ -286,7 +286,7 @@ Field 2 contains the formula which can be made up of:
 
 ### JBCUserConversions
 
-Are user developed subroutines that perform user defined conversions. They take 5 arguments, that is :
+Theses are user developed subroutines which perform user defined conversions. They take 5 arguments, that is :
 
 - result - return value.
 - source - original value.
@@ -321,7 +321,7 @@ END
 A-type
 
 ```
-JED DICT ORDER MYDATE
+jed DICT ORDER MYDATE
 001 A
 002 3
 003 My Date
@@ -334,7 +334,7 @@ LIST ORDER ORD.DATE MYDATE
 D- type
 
 ```
-JED DICT ORDER MYDATE
+jed DICT ORDER MYDATE
 001 D
 002 3
 004 My Date
@@ -345,7 +345,7 @@ LIST ORDER ORD.DATE MYDATE
 I- type
 
 ```
-JED DICT ORDER MYDATE
+jed DICT ORDER MYDATE
 001 I
 002 OCONV(ORD.DATE,”JCAL”)
 003
