@@ -342,7 +342,7 @@ jed DICT ORDER MYDATE
 LIST ORDER ORD.DATE MYDATE
 ```
 
-I- type
+I-type
 
 ```
 jed DICT ORDER MYDATE
