@@ -18,14 +18,14 @@ CREATE-ACCOUNT -Options <accountdirectory> <accountname>
 - **Account Name** - the name of the account record in the SYSTEM file. If Account Name is not specified, the last element in Account Directory is used as the account name.
 - **Options** -
 
-| Option | Description |
-| --- | --- |
-| -m md\_path | full path to existing MD (implies -n) |
-| -n          | do not create an MD for the account |
-| -r          | generate remote.cmd for Telnet (Windows only) |
-| -b dirs     | include additional bin directories |
-| -l dirs     | include additional lib directories |
-| -h or -?    | show help (ignored if there are other options) |
+| Option      | Description                                    |
+| ----------- | ---------------------------------------------- |
+| -m md\_path | full path to existing MD (implies -n)          |
+| -n          | do not create an MD for the account            |
+| -r          | generate remote.cmd for Telnet (Windows only)  |
+| -b dirs     | include additional bin directories             |
+| -l dirs     | include additional lib directories             |
+| -h or -?    | show help (ignored if there are other options) |
 
 ### Creating your demo account for this walkthrough
 
@@ -65,16 +65,16 @@ Since the introduction of dynamic files in jBASE 5.7, the default file created i
 
 #### Options
 
-|  Option | Description |
-| --- | --- |
-| TJLOG       | Creates a stub file in the current directory that points to the current transaction log set. |
-| DISTRIB     | Creates a stub file in the current directory that references a distributed file. |
-| PERM        | The PERM parameters are used to set the permissions of the file as per the chmod command. |
-| LOG=YES|NO  | The LOG parameters set or clear the flag which allows the file to be included or excluded when utilizing the item or transaction logging mechanism if licensed on your system. The value is set to YES by default. |
-| TRANS=YES|NO | The TRANS parameters set or clear the flag which allows the file to be included or excluded from within any transaction boundaries defined by an executing program. The value is set to YES by default. |
-| BACKUP=YES|NO | The BACKUP parameters set or clear the flag which allows the file to be included automatically by the jBASE jbackup utility. The value is set to YES by default. |
-| NETWORK=YES|NO | The NETWORK parameters disable or enable the file for use over a network. Only applicable to HASH4 and HASH5 file types. The value is set to AUTO by default to use jDLS when enabled. |
-| SECURE=YES|NO | The SECURE parameters disable or enable secure file updates. Only applicable to HASH3 and jPLUS file types. The value is set to NO by default. |
+| Option      | Description                                                                                  |
+| ----------- | -------------------------------------------------------------------------------------------- |
+| TJLOG       | Creates a stub file in the current directory that points to the current transaction log set. |
+| DISTRIB     | Creates a stub file in the current directory that references a distributed file.             |
+| PERM        | The PERM parameters are used to set the permissions of the file as per the chmod command.    |
+| LOG=YES     | NO                                                                                           | The LOG parameters set or clear the flag which allows the file to be included or excluded when utilizing the item or transaction logging mechanism if licensed on your system. The value is set to YES by default. |
+| TRANS=YES   | NO                                                                                           | The TRANS parameters set or clear the flag which allows the file to be included or excluded from within any transaction boundaries defined by an executing program. The value is set to YES by default.            |
+| BACKUP=YES  | NO                                                                                           | The BACKUP parameters set or clear the flag which allows the file to be included automatically by the jBASE jbackup utility. The value is set to YES by default.                                                   |
+| NETWORK=YES | NO                                                                                           | The NETWORK parameters disable or enable the file for use over a network. Only applicable to HASH4 and HASH5 file types. The value is set to AUTO by default to use jDLS when enabled.                             |
+| SECURE=YES  | NO                                                                                           | The SECURE parameters disable or enable secure file updates. Only applicable to HASH3 and jPLUS file types. The value is set to NO by default.                                                                     |
 
 ### Create a file
 
@@ -202,19 +202,19 @@ Attribute 0009 - Is specifying the text justification as left
 
 Attribute 0010 - Is specifying the text length as 15 characters
 
-### [Dictionary Data Structure](./../../jql/data-definition-records---dictionary-structure)
+### [Dictionary Data Structure](./../../../jql/data-definition-records-and-dictionary-structure/README.md)
 
-| Field | Description |
-| --- | --- |
-| 001 | D/CODE |
-| 002   | FMC (field-mark count) |
-| 003 | Column heading |
-| 004 | Controlling/Dependent Attributes |
-| 005 - 006 | Not used |
-| 007 | Input/Output Conversion Codes |
-| 008 | Pre-process Conversion Codes |
-| 009 | Format |
-| 010 | Width |
+| Field     | Description                      |
+| --------- | -------------------------------- |
+| 001       | D/CODE                           |
+| 002       | FMC (field-mark count)           |
+| 003       | Column heading                   |
+| 004       | Controlling/Dependent Attributes |
+| 005 - 006 | Not used                         |
+| 007       | Input/Output Conversion Codes    |
+| 008       | Pre-process Conversion Codes     |
+| 009       | Format                           |
+| 010       | Width                            |
 
 3. Press Esc to exit edit mode; then type FI to save and exit the record.
 4. Repeat step #2, adding the dictionaries CITY and STATE as the headers for A2 and A3, update attribute 0002 as follows:
