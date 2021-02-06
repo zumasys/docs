@@ -31,10 +31,10 @@ If you prefer to experiment rather than watch, here is our [Docker cheat-sheet](
 
 ## Find out more about the platform with our Introduction to jBASE
 
-[Some jBASE Fundamentals](./introduction/fundamentals/README.md)  
-[jBC](./introduction/jbc/README.md)  
-[Database](./introduction/database/README.md)  
-[jQL](./introduction/jQL/README.md)  
+[jBASE Fundamentals - Read this first](./introduction/fundamentals/README.md)  
+[jBASE BASIC (jBC)](./introduction/jbc/README.md)  
+[Using the Database](./introduction/database/README.md)  
+[jBASE Query Language (jQL)](./introduction/jQL/README.md)  
 
 [Back to Knowledgebase](./../README.md)
 
