@@ -23,7 +23,7 @@ If the environment variable **JBCSPOOLER\_JOBRESET** is set to a numeric value, 
 
 In an application there is often a requirement to determine the number of a print job that has just been created. This may be for something as simple as reporting the number of the print job to the user of the application.
 
-jBASE provides the [SPOOLER(4)](./../../../jbase-basic-%28jbc%29/spooler) function to return all relevant information about print jobs being generated. The function is particularly useful when generating multiple jobs on different report channels.
+jBASE provides the [SPOOLER(4)](./../../../jbase-basic-(jbc)/spooler) function to return all relevant information about print jobs being generated. The function is particularly useful when generating multiple jobs on different report channels.
 
 Back to [Spooler](./../jbase-spooler).
 

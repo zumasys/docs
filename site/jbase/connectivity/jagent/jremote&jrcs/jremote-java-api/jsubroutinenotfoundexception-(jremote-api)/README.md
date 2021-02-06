@@ -46,7 +46,7 @@ This exception is thrown when a call is made to a non existent subroutine.
 public JSubroutineNotFoundException(String msg)
 ```
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

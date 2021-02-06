@@ -38,7 +38,7 @@ After :  {"year":2018,"type":"wall","months":["jan","feb","mar","apr","may","jun
 
 ## Notes
 
-See also [$tojson()](./../method-$tojson%28%29)
+See also [$tojson()](./../method-$tojson())
 
   
 <PageFooter />

@@ -275,7 +275,9 @@ CASE ON
 
 ### CASING
 
-Just like the **CASE** command, within a jBC program you may need to disable case insensitivity. This jBC statement will simply disable **case\_insensitive\_runtime\_strings** from within a jBC program, e.g.
+Just like the **CASE** command, within a jBC program you may need to disable case insensitivity.  
+
+This jBC statement will simply disable **case\_insensitive\_runtime\_strings** from within a jBC program, e.g.:
 
 ```
 x = 'HELLO'
@@ -322,7 +324,6 @@ If '#' is '0' or omitted, this implies entry 1.
 ```
 
 All of the dot commands are case insensitive, e.g. **.l** is the same as **.L**
-
 
 Back to [Miscellaneous](./../README.md)  
 

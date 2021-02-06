@@ -3,7 +3,7 @@
 <PageHeader />
 
 ## Class CommitTransactionRequest
-All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io"), [InboundRequest](./../../jca/inflow/protocol/inboundrequest-%28jremote-api%29 "interface in com.jbase.jremote.jca.inflow.protocol")
+All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io"), [InboundRequest](./../../jca/inflow/protocol/inboundrequest-(jremote-api) "interface in com.jbase.jremote.jca.inflow.protocol")
 * * *
 
 ```
@@ -112,7 +112,7 @@ Specified by:`getTransactionId` in interface `InboundRequest`
 
 
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

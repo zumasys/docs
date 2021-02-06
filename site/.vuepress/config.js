@@ -257,8 +257,9 @@ module.exports = {
             path: "/jbase/jsql",
             collapsable: true,
             children: [
+              ["/jbase/jsql/SQL/", "Using SQL with jBASE"],
               ["/jbase/connectivity/ODBC/", "ODBC"],
-              ["/jbase/connectivity/jagent/", "jBASE Agent"]
+              ["/jbase/connectivity/jagent/jremote-api/", "jRemote API"]
             ]
           },
           {
@@ -274,7 +275,7 @@ module.exports = {
             path: "/jbase/indexes",
             collapsable: true,
             children: [
-              ["/jbase/indexes/indexes", "All about Indexes"]
+              ["/jbase/indexes/indexes/", "All about Indexes"]
             ]
           },
           {
@@ -314,8 +315,9 @@ module.exports = {
             collapsable: true,
             children: [
               ["/mv-connect/api/", "jAgent"],
-              ["/jbase/miscellaneous/jcurl/", "jCurl"],
-              ["/jbase/connectivity/jrcs/", "jRCS"]
+              ["/jbase/connectivity/jrcs/", "jRCS"],
+              ["/jbase/connectivity/ODBC/", "ODBC"],
+              ["/jbase/miscellaneous/jcurl/", "jCurl"]
             ]
           },
           {

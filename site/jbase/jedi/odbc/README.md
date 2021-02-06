@@ -2,6 +2,9 @@
 
 <PageHeader />
 
+**Tags:**
+<badge text='jedi' vertical='middle' />
+
 [Introduction to the ODBC jEDI](./introduction-to-the-odbc-jedi/README.md)  
 [Installing the ODBC jEDI on Linux/UNIX](./installing-the-odbc-jedi-on-linux&unix/README.md)  
 [Installing the ODBC jEDI on Windows](./installing-the-odbc-jedi-on-windows/README.md)  

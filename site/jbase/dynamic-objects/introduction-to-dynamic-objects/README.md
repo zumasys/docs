@@ -62,7 +62,7 @@ Other ways to create an object:
 - by calling a method of the class that creates and returns an object or an array
 - with one of the Dynamic Objects built-in methods.
 
-For example, here we create an object from a JSON string using the built-in [**\$fromjson()**](./../method-$fromjson%28%29) method:
+For example, here we create an object from a JSON string using the built-in [**\$fromjson()**](./../method-$fromjson()) method:
 
 ```
 json = \{"Firstname":"Daniel","Lastname":"Klein"}\

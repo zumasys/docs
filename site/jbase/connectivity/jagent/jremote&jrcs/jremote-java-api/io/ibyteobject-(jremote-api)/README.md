@@ -4,7 +4,7 @@
 
 ## Interface IByteObject
 
-All Known Implementing Classes:[ByteObject](./../byteobject-%28jremote-api%29 "class in com.jbase.jremote.io"), [JDynArray](./../../jdynarray-%28jremote-api%29 "class in com.jbase.jremote")
+All Known Implementing Classes:[ByteObject](./../byteobject-(jremote-api) "class in com.jbase.jremote.io"), [JDynArray](./../../jdynarray-(jremote-api) "class in com.jbase.jremote")
 * * *
 
 
@@ -53,7 +53,7 @@ byte[] getBytes()
 
 Return the bytes backing this IByteObject.
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

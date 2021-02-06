@@ -4,7 +4,7 @@
 
 ## Class AbstractJRemoteConnection
 
-Direct Known Subclasses:[InterceptorConnection](./../interceptorconnection-%28jremote-api%29 "class in com.jbase.jremote.io"), [JRemoteSocketConnection](./../jremotesocketconnection-%28jremote-api%29 "class in com.jbase.jremote.io")
+Direct Known Subclasses:[InterceptorConnection](./../interceptorconnection-(jremote-api) "class in com.jbase.jremote.io"), [JRemoteSocketConnection](./../jremotesocketconnection-(jremote-api) "class in com.jbase.jremote.io")
 * * *
 
 
@@ -177,7 +177,7 @@ public CharsetDecoder getCharsetDecoder()
 public void setCharset(Charset charset)
 ```
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

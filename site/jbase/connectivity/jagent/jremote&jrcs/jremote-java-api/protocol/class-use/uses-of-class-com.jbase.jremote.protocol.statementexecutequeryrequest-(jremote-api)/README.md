@@ -7,7 +7,7 @@ com.jbase.jremote.protocol.StatementExecuteQueryRequest
 
 No usage of com.jbase.jremote.protocol.StatementExecuteQueryRequest
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

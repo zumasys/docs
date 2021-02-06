@@ -422,7 +422,7 @@ jBASIC is able to create files and directories that can be read by the operating
 | [COMPARE](./../../jbc/compare)  | function | Compares two strings. |
 | [CONTINUE](./../../jbc/continue)  | statement | Used to skip code in a loop. |
 | [CONVERT](./../../jbc/convert) | function | Converts a character string to another. |
-| [CONVERT](./../../jbc/convert-%28statement%29) | statement | Converts a character string to another. |
+| [CONVERT](./../../jbc/convert-(statement)) | statement | Converts a character string to another. |
 | [COS](./../../jbc/cos) | function | Returns the cosine of an angle. |
 | [COUNT](./../../jbc/count) | function | Returns the number of times that one string occurs in another. |
 | [COUNTS](./../../jbc/counts) | function | Counts the number of times a sub-string is repeated in each element of a dynamic array. |
@@ -443,7 +443,7 @@ jBASIC is able to create files and directories that can be read by the operating
 | [DELETELIST](./../../jbc/deletelist) | statement | Deletes a stored list. |
 | [DELETESEQ](./../../jbc/deleteseq) | statement | Deletes a sequential file. |
 | [DELETEU](./../../jbc/deleteu) | statement | Deletes a record without releasing update locks. |
-| [DIMENSION(DIM)](./../../jbc/dimension-%28dim%29)  | statement | Declares fixed length arrays to the compiler. |
+| [DIMENSION(DIM)](./../../jbc/dimension-(dim))  | statement | Declares fixed length arrays to the compiler. |
 | [DISPLAY](./../../jbc/crt) | statement  | Synonym of CRT.  |
 | [DIR](./../../jbc/dir) | function | Returns information about a file. |
 | [DIVS](./../../jbc/divs) | function | Divides corresponding elements in two dynamic arrays. |
@@ -501,7 +501,7 @@ jBASIC is able to create files and directories that can be read by the operating
 | **I** |
 | [ICONV](./../../jbc/iconv) | function | Converts data in external format to internal format. |
 | [ICONVS](./../../jbc/iconvs) | function | Converts elements of a dynamic array to internal format. |
-| [IF](./../../jbc/if-%28statement%29) | statement | Allows conditional execution of statements. |
+| [IF](./../../jbc/if-(statement)) | statement | Allows conditional execution of statements. |
 | [IFS](./../../jbc/ifs)  | function | returns a dynamic array whose elements are chosen individually from one of two arrays based on the contents of a third array. |
 | [IN](./../../jbc/in) | statement | Gets raw data from the input device. |
 | INCLUDE / $INCLUDE / INSERT / $INSERT | statement | Include/insert code from other files |

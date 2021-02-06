@@ -7,7 +7,7 @@ com.jbase.jremote.io.JBaseSerializable
 
 | Package<br> | Description<br> |
 | --- | --- |
- Packages that use [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")  | com.jbase.jremote<br> |  <br> |
+ Packages that use [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")  | com.jbase.jremote<br> |  <br> |
 | com.jbase.jremote.io<br> |  <br> |
 | com.jbase.jremote.jca.inflow<br> |  <br> |
 | com.jbase.jremote.jca.inflow.protocol<br> |  <br> |
@@ -19,12 +19,12 @@ com.jbase.jremote.io.JBaseSerializable
 
 
 
-### Uses of [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote](./../../../../../jremote-api)
+### Uses of [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote](./../../../../../jremote-api)
 
 
 | Modifier and Type<br> | Class and Description<br> |
 | --- | --- |
- Classes in [com.jbase.jremote](./../../../../../jremote-api) that implement [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `class `<br> | `JExecuteResults`<br>The results from an executed command.<br> |
+ Classes in [com.jbase.jremote](./../../../../../jremote-api) that implement [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")  | `class `<br> | `JExecuteResults`<br>The results from an executed command.<br> |
 | `class `<br> | `JSubroutineParameters`<br>A list of parameters to pass to a jBASE subroutine.<br> |
 
 
@@ -32,12 +32,12 @@ com.jbase.jremote.io.JBaseSerializable
 
 
 
-### Uses of [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29)
+### Uses of [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api))
 
 
 | Modifier and Type<br> | Class and Description<br> |
 | --- | --- |
- Classes in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) that implement [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `class `<br> | `ErrorResponse` <br> |
+ Classes in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api)) that implement [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")  | `class `<br> | `ErrorResponse` <br> |
 | `class `<br> | `OKResponse` <br> |
 | `class `<br> | `Response`<br>Represents a response from jsqld.<br> |
 | `class `<br> | `SQLError` <br> |
@@ -46,7 +46,7 @@ com.jbase.jremote.io.JBaseSerializable
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) that return [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `protected JBaseSerializable`<br> | ObjectFactory.`createGenericObjects(int objectType)`<br>Creates any generic (i.e common to all framework clients) objects.<br> |
+ Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api)) that return [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")  | `protected JBaseSerializable`<br> | ObjectFactory.`createGenericObjects(int objectType)`<br>Creates any generic (i.e common to all framework clients) objects.<br> |
 | `protected abstract JBaseSerializable`<br> | ObjectFactory.`createObject(int objectType)`<br>Create JBaseSerializable object from the supplied object type.<br> |
 | `protected JBaseSerializable`<br> | JRemoteObjectFactory.`createObject(int objectType)` <br> |
 | `protected JBaseSerializable`<br> | AbstractJBaseObjectReader.`readJBaseSerializableObject(char code, JBaseSerializable o)` <br> |
@@ -59,7 +59,7 @@ com.jbase.jremote.io.JBaseSerializable
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) with parameters of type [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `protected JBaseSerializable`<br> | AbstractJBaseObjectReader.`readJBaseSerializableObject(char code, JBaseSerializable o)` <br> |
+ Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api)) with parameters of type [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")  | `protected JBaseSerializable`<br> | AbstractJBaseObjectReader.`readJBaseSerializableObject(char code, JBaseSerializable o)` <br> |
 | `JBaseSerializable`<br> | JBaseObjectReader.`readObject(JBaseSerializable o)`<br>Reads/deserializes next object, a JBaseSerializable object should be created and returned if a null argument is passed in.<br> |
 | `JBaseSerializable`<br> | AbstractJBaseObjectReader.`readObject(JBaseSerializable o)`<br>Reads/deserializes next object, the ObjectFactory will be used to create a JBaseSerializable object if a null argument is passed in.<br> |
 | `protected void`<br> | AbstractJBaseObjectWriter.`writeJBaseSerializableObject(JBaseSerializable o)` <br> |
@@ -73,36 +73,36 @@ com.jbase.jremote.io.JBaseSerializable
 
 
 
-### Uses of [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29)
+### Uses of [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-(jremote---api))
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29) that return [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `JBaseSerializable`<br> | InboundObjectFactory.`createObject(int type)` <br> |
+ Methods in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-(jremote---api)) that return [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")  | `JBaseSerializable`<br> | InboundObjectFactory.`createObject(int type)` <br> |
 
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29) with parameters of type [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `protected void`<br> | InboundRequestHandler.`writeResponse(JBaseObjectWriter writer, JBaseSerializable response)` <br> |
+ Methods in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-(jremote---api)) with parameters of type [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")  | `protected void`<br> | InboundRequestHandler.`writeResponse(JBaseObjectWriter writer, JBaseSerializable response)` <br> |
 
 
 
 
 
 
-### Uses of [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
+### Uses of [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-(jremote---api))
 
 
 | Modifier and Type<br> | Interface and Description<br> |
 | --- | --- |
- Subinterfaces of [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)  | `interface `<br> | `InboundRequest` <br> |
+ Subinterfaces of [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-(jremote---api))  | `interface `<br> | `InboundRequest` <br> |
 
 
 
 | Modifier and Type<br> | Class and Description<br> |
 | --- | --- |
- Classes in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29) that implement [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `class `<br> | `ActivationRequest` <br> |
+ Classes in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-(jremote---api)) that implement [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")  | `class `<br> | `ActivationRequest` <br> |
 | `class `<br> | `ActivationResponse`<br>The reply from JRemote when an activation is requested.<br> |
 | `class `<br> | `CommitTransactionRequest` <br> |
 | `class `<br> | `NoEndpointActivatedResponse`<br>The reply from JRemote when no endpoint could be found for activation.<br> |
@@ -115,7 +115,7 @@ com.jbase.jremote.io.JBaseSerializable
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29) that return [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `JBaseSerializable`<br> | StartTransactionRequest.`execute(ClientHandle handle, RequestHandler handler)` <br> |
+ Methods in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-(jremote---api)) that return [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")  | `JBaseSerializable`<br> | StartTransactionRequest.`execute(ClientHandle handle, RequestHandler handler)` <br> |
 | `JBaseSerializable`<br> | RollbackTransactionRequest.`execute(ClientHandle handle, RequestHandler handler)` <br> |
 | `JBaseSerializable`<br> | InboundRequest.`execute(ClientHandle handle, RequestHandler handler)` <br> |
 | `JBaseSerializable`<br> | CommitTransactionRequest.`execute(ClientHandle handle, RequestHandler handler)` <br> |
@@ -126,12 +126,12 @@ com.jbase.jremote.io.JBaseSerializable
 
 
 
-### Uses of [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-%28jremote-api%29)
+### Uses of [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-(jremote-api))
 
 
 | Modifier and Type<br> | Class and Description<br> |
 | --- | --- |
- Classes in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-%28jremote-api%29) that implement [JBaseSerializable](./../../jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `class `<br> | `AccountAuthenticationRequest`<br>Request for authentication.<br> |
+ Classes in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-(jremote-api)) that implement [JBaseSerializable](./../../jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")  | `class `<br> | `AccountAuthenticationRequest`<br>Request for authentication.<br> |
 | `static class `<br> | `AccountAuthenticationRequest.AccountUserCredentials` <br> |
 | `class `<br> | `AuthenticationRequest`<br>Request for authentication.<br> |
 | `static class `<br> | `AuthenticationRequest.UserCredentials` <br> |
@@ -185,7 +185,7 @@ com.jbase.jremote.io.JBaseSerializable
 | `class `<br> | `XAStartTransactionRequest`<br>Request jBASE start an XA transaction.<br> |
 | `class `<br> | `XAXid` <br> |
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

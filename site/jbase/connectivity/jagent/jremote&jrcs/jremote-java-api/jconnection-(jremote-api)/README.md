@@ -4,9 +4,9 @@
 
 ## Interface JConnection
 
-All Known Subinterfaces:[JXAConnection](./../jxaconnection-%28jremote-api%29 "interface in com.jbase.jremote") 
+All Known Subinterfaces:[JXAConnection](./../jxaconnection-(jremote-api) "interface in com.jbase.jremote") 
 
-All Known Implementing Classes:[JConnectionImpl](./../io/jconnectionimpl-%28jremote-api%29 "class in com.jbase.jremote.io"), [WrappedJConnection](./../jca/wrappedjconnection-%28jremote-api%29 "class in com.jbase.jremote.jca")
+All Known Implementing Classes:[JConnectionImpl](./../io/jconnectionimpl-(jremote-api) "class in com.jbase.jremote.io"), [WrappedJConnection](./../jca/wrappedjconnection-(jremote-api) "class in com.jbase.jremote.jca")
 
 * * *
 
@@ -338,7 +338,7 @@ Parameters:`command` - to sendReturns:respose stringThrows:`JRemoteException` - 
 
 
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

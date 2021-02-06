@@ -4,7 +4,7 @@
 
 ## Interface JCursor
 
-All Superinterfaces:Iterable&lt;String&gt;, [JSelectList](./../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote")All Known Implementing Classes:[JCursorImpl](./../io/jcursorimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
+All Superinterfaces:Iterable&lt;String&gt;, [JSelectList](./../jselectlist-(jremote-api) "interface in com.jbase.jremote")All Known Implementing Classes:[JCursorImpl](./../io/jcursorimpl-(jremote-api) "class in com.jbase.jremote.io")
 * * *
 
 
@@ -67,7 +67,7 @@ void update()
 Update changes. This method will apply all pending changes to the cursor.
 Throws:`JRemoteException`
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

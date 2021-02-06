@@ -26,7 +26,7 @@ The location of the SQL Catalog file is set via the JSQLFILENAME\_CATALOG enviro
 
 The Catalog file can be any valid file or directory that jBASE can open. Below is an example entry::
 
-```
+``` jBASE
 ODBCDEMO
 001 /home/jbtest/ODBCDEMO
 002 /home/jbtest/ODBCDEMO]D
@@ -36,7 +36,7 @@ A [utility](../../../utilities/sqlcatman/README.md) is provided to create/mainta
 
 For the purposes of this document, we have used the “make-demo-file” utility to create a new test file for querying:
 
-```
+``` jBASE
 DICT PATH : DICT ODBCDEMO                                                                          Page   1 13:08:11  15 DEC 2017
 *A0...........    D/CODE...    A/AMC....    S/NAME....    V/CONV...    V/CORR...    V/TYPE...    V/MAX
 FIRSTNAME         A            1            First Name                              L               24

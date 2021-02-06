@@ -46,7 +46,7 @@ On AIX use "smitty" to set tape device for variable length.
 | -S SizeKb | max size of device. Floppy only |
 | -H HeaderSize | specifies bytes to skip for each block. |
 | -R DeviceName | device for rewind mode |
-| -P PadChar | value of -1 No pad on [WRITET](./../../../jbase-basic-%28jbc%29/writet), -P0xff pads with 0xff. |
+| -P PadChar | value of -1 No pad on [WRITET](./../../../jbase-basic-(jbc)/writet), -P0xff pads with 0xff. |
 | -B Blocksize | default block size to read and write. |
 
 The Label and block size parameters can be overridden from the T-ATT command line. For instance to attach and read a tape blocked at 5120, i.e. a tar, use the following command.

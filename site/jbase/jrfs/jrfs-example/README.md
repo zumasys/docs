@@ -151,6 +151,6 @@ Also review if you have any firewalls or SELINUX (or any other security software
 
 The same technique will work on Windows.  The location of files such as the /etc/services file will be at different locations.  
 
-Back to [Remote Files](./../jbase-remote-file-service-%28jrfs%29)
+Back to [Remote Files](./../jbase-remote-file-service-(jrfs))
 
 <PageFooter />

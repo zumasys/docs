@@ -4,7 +4,7 @@
 
 ## Interface JBaseObjectWriter
 
-All Known Implementing Classes:[AbstractJBaseObjectWriter](./../abstractjbaseobjectwriter-%28jremote-api%29 "class in com.jbase.jremote.io"), [IOJBaseObjectWriter](./../iojbaseobjectwriter-%28jremote-api%29 "class in com.jbase.jremote.io"), [NIOJBaseObjectWriter](./../niojbaseobjectwriter-%28jremote-api%29 "class in com.jbase.jremote.io")
+All Known Implementing Classes:[AbstractJBaseObjectWriter](./../abstractjbaseobjectwriter-(jremote-api) "class in com.jbase.jremote.io"), [IOJBaseObjectWriter](./../iojbaseobjectwriter-(jremote-api) "class in com.jbase.jremote.io"), [NIOJBaseObjectWriter](./../niojbaseobjectwriter-(jremote-api) "class in com.jbase.jremote.io")
 * * *
 
 
@@ -97,7 +97,7 @@ void close()
 ```
 Throws:`IOException`
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

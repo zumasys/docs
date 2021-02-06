@@ -4,7 +4,7 @@
 
 ## Class JDynArray
 
-All Implemented Interfaces:[IByteObject](./../io/ibyteobject-%28jremote-api%29 "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[IByteObject](./../io/ibyteobject-(jremote-api) "interface in com.jbase.jremote.io")
 * * *
 
 
@@ -816,7 +816,7 @@ public int hashCode()
 ```
 Overrides:`hashCode` in class `Object`
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

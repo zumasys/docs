@@ -5,7 +5,7 @@
 ## Class JRemoteConnectionFactoryImpl
 
 **All Implemented Interfaces:**
-[JConnectionFactory](./../../jconnectionfactory-%28jremote-api%29 "interface in com.jbase.jremote"), Serializable, Referenceable
+[JConnectionFactory](./../../jconnectionfactory-(jremote-api) "interface in com.jbase.jremote"), Serializable, Referenceable
 * * *
 
 
@@ -66,7 +66,7 @@ public JRemoteConnectionFactoryImpl()
 ```
 
 Construct a connection factory for use in a non managed environment using the default connection manager.
-See Also:[`DefaultConnectionManager`](./../defaultconnectionmanager-%28jremote-api%29 "class in com.jbase.jremote.jca")
+See Also:[`DefaultConnectionManager`](./../defaultconnectionmanager-(jremote-api) "class in com.jbase.jremote.jca")
 
 
 #### JRemoteConnectionFactoryImpl
@@ -76,7 +76,7 @@ public JRemoteConnectionFactoryImpl(javax.resource.spi.ManagedConnectionFactory 
 ```
 
 Construct a connection factory for use in a non managed environment using the default connection manager.
-See Also:[`DefaultConnectionManager`](./../defaultconnectionmanager-%28jremote-api%29 "class in com.jbase.jremote.jca")
+See Also:[`DefaultConnectionManager`](./../defaultconnectionmanager-(jremote-api) "class in com.jbase.jremote.jca")
 
 #### JRemoteConnectionFactoryImpl
 
@@ -191,7 +191,7 @@ public Reference getReference()
 Specified by:`getReference` in interface `Referenceable`Throws:`NamingException`See Also:`Referenceable.getReference()`
 
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

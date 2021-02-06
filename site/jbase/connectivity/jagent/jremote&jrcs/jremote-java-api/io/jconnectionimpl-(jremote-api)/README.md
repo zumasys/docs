@@ -4,7 +4,7 @@
 
 ## Class JConnectionImpl
 
-All Implemented Interfaces:[JConnection](./../../jconnection-%28jremote-api%29 "interface in com.jbase.jremote"), [JXAConnection](./../../jxaconnection-%28jremote-api%29 "interface in com.jbase.jremote"), [XAResource](http://java.sun.com/j2se/1.5.0/docs/api/javax/transaction/xa/XAResource.html?is-external=true "class or interface in javax.transaction.xa")
+All Implemented Interfaces:[JConnection](./../../jconnection-(jremote-api) "interface in com.jbase.jremote"), [JXAConnection](./../../jxaconnection-(jremote-api) "interface in com.jbase.jremote"), [XAResource](http://java.sun.com/j2se/1.5.0/docs/api/javax/transaction/xa/XAResource.html?is-external=true "class or interface in javax.transaction.xa")
 * * *
 
 
@@ -157,7 +157,7 @@ public void setOutputStream(OutputStream out)
 ```
 public void setTerminalOutputWriter(Writer writer)
 ```
-Specified by:`setTerminalOutputWriter` in interface `JConnection`See Also:[`JConnection.setTerminalOutputWriter(java.io.Writer)`](./../../jconnection-%28jremote-api%29#setTerminalOutputWriter-java.io)
+Specified by:`setTerminalOutputWriter` in interface `JConnection`See Also:[`JConnection.setTerminalOutputWriter(java.io.Writer)`](./../../jconnection-(jremote-api)#setTerminalOutputWriter-java.io)
 #### 
 
 #### 
@@ -210,7 +210,7 @@ public boolean switchAccount(String user,
 Description copied from interface: `JConnection`
 
 Log into the specified jBASE account.
-Specified by:`switchAccount` in interface `JConnection`Parameters:`user` - username that belongs to the account`account` - name of the account to log into`password` - password of the account to log intoReturns:booleanThrows:`JRemoteException`See Also:[`JConnection.switchAccount(java.lang.String user, java.lang.String account, java.lang.String password)`](./../../jconnection-%28jremote-api%29#switchAccount-java.lang.String-java.lang.String-java.lang)
+Specified by:`switchAccount` in interface `JConnection`Parameters:`user` - username that belongs to the account`account` - name of the account to log into`password` - password of the account to log intoReturns:booleanThrows:`JRemoteException`See Also:[`JConnection.switchAccount(java.lang.String user, java.lang.String account, java.lang.String password)`](./../../jconnection-(jremote-api)#switchAccount-java.lang.String-java.lang.String-java.lang)
 #### 
 
 #### 
@@ -226,7 +226,7 @@ public void close()
 Description copied from interface: `JConnection`
 
 Close any resources used by this connection.
-Specified by:`close` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.close()`](./../../jconnection-%28jremote-api%29#close--)
+Specified by:`close` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.close()`](./../../jconnection-(jremote-api)#close--)
 #### 
 
 #### 
@@ -242,7 +242,7 @@ public JFile open(String fileName)
 Description copied from interface: `JConnection`
 
 Attempts to open a jBASE file or returns null if the file does not exist.
-Specified by:`open` in interface `JConnection`Returns:JFileThrows:`JRemoteException`See Also:[`JConnection.open(java.lang.String fileName)`](./../../jconnection-%28jremote-api%29#open-java.lang)
+Specified by:`open` in interface `JConnection`Returns:JFileThrows:`JRemoteException`See Also:[`JConnection.open(java.lang.String fileName)`](./../../jconnection-(jremote-api)#open-java.lang)
 #### 
 
 #### 
@@ -260,7 +260,7 @@ public JSubroutineParameters call(String subroutineName,
 Description copied from interface: `JConnection`
 
 Call a jBASE subroutine.
-Specified by:`call` in interface `JConnection`Returns:the result parameters from subroutine callThrows:`JSubroutineNotFoundException``JRemoteException`See Also:[`JConnection.call(java.lang.String, com.jbase.jremote.JSubroutineParameters)`](./../../jconnection-%28jremote-api%29#call-java.lang.String-com.jbase.jremote)
+Specified by:`call` in interface `JConnection`Returns:the result parameters from subroutine callThrows:`JSubroutineNotFoundException``JRemoteException`See Also:[`JConnection.call(java.lang.String, com.jbase.jremote.JSubroutineParameters)`](./../../jconnection-(jremote-api)#call-java.lang.String-com.jbase.jremote)
 
 #### execute
 
@@ -272,7 +272,7 @@ public JExecuteResults execute(String command)
 Description copied from interface: `JConnection`
 
 Execute a jBASE command.
-Specified by:`execute` in interface `JConnection`Returns:the execute resultsThrows:`JRemoteException`See Also:[`JConnection.execute(java.lang.String)`](./../../jconnection-%28jremote-api%29#execute-java.lang)
+Specified by:`execute` in interface `JConnection`Returns:the execute resultsThrows:`JRemoteException`See Also:[`JConnection.execute(java.lang.String)`](./../../jconnection-(jremote-api)#execute-java.lang)
 #### 
 
 #### 
@@ -289,7 +289,7 @@ public JExecuteResults execute(String command,
 Description copied from interface: `JConnection`
 
 Execute a jBASE command using an existing select list as a filter.
-Specified by:`execute` in interface `JConnection`Returns:the execute resultsThrows:`JRemoteException`See Also:[`JConnection.execute(java.lang.String, com.jbase.jremote.JSelectList)`](./../../jconnection-%28jremote-api%29#execute-java.lang.String-com.jbase.jremote)
+Specified by:`execute` in interface `JConnection`Returns:the execute resultsThrows:`JRemoteException`See Also:[`JConnection.execute(java.lang.String, com.jbase.jremote.JSelectList)`](./../../jconnection-(jremote-api)#execute-java.lang.String-com.jbase.jremote)
 #### 
 
 #### 
@@ -307,7 +307,7 @@ Description copied from interface: `JConnection`
 Begin a jBASE transaction.
 
 If a transaction already exists then no action will be taken.
-Specified by:`begin` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.begin()`](./../../jconnection-%28jremote-api%29#begin--)
+Specified by:`begin` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.begin()`](./../../jconnection-(jremote-api)#begin--)
 #### 
 
 #### 
@@ -325,7 +325,7 @@ Description copied from interface: `JConnection`
 Commit all pending jBASE operations performed in transaction and mark as complete.
 
 If no transaction exists then no action will be taken.
-Specified by:`commit` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.commit()`](./../../jconnection-%28jremote-api%29#commit--)
+Specified by:`commit` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.commit()`](./../../jconnection-(jremote-api)#commit--)
 #### 
 
 #### 
@@ -343,7 +343,7 @@ Description copied from interface: `JConnection`
 Rollback all jBASE operations performed in transaction and mark as complete.
 
 If no transaction exists then no action will be taken.
-Specified by:`rollback` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.rollback()`](./../../jconnection-%28jremote-api%29#rollback--)
+Specified by:`rollback` in interface `JConnection`Throws:`JRemoteException`See Also:[`JConnection.rollback()`](./../../jconnection-(jremote-api)#rollback--)
 #### 
 
 #### 
@@ -397,7 +397,7 @@ public EISMetaDataRepository getMetaData()
 Description copied from interface: `JConnection`
 
 Return meta data of the connected jBASE instance.
-Specified by:`getMetaData` in interface `JConnection`Returns:EISMetaDataRepository meta data repositoryThrows:`JRemoteException`See Also:[`JConnection.getMetaData()`](./../../jconnection-%28jremote-api%29#getMetaData--)
+Specified by:`getMetaData` in interface `JConnection`Returns:EISMetaDataRepository meta data repositoryThrows:`JRemoteException`See Also:[`JConnection.getMetaData()`](./../../jconnection-(jremote-api)#getMetaData--)
 #### 
 
 #### 
@@ -447,7 +447,7 @@ public JStatement createStatement()
 Description copied from interface: `JConnection`
 
 Create a statement object that enables queries to be executed and a JResultSet returned.
-Specified by:`createStatement` in interface `JConnection`Returns:JStatement jBase statement objectThrows:`JRemoteException`See Also:[`JConnection.createStatement()`](./../../jconnection-%28jremote-api%29#createStatement--)
+Specified by:`createStatement` in interface `JConnection`Returns:JStatement jBase statement objectThrows:`JRemoteException`See Also:[`JConnection.createStatement()`](./../../jconnection-(jremote-api)#createStatement--)
 #### 
 
 #### 
@@ -628,7 +628,7 @@ Send an monitoring request and waits for a reply.
 Specified by:`monitoring` in interface `JConnection`Parameters:`command` - to sendReturns:respose stringThrows:`JRemoteException`
 
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

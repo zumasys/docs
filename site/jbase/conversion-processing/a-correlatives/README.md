@@ -89,7 +89,7 @@ operand(format-code{]format-code}...)
 
 See Format Codes for more information.
 
-[**Field Number (FMC) Operand**](./../field-number-%28fmc%29-operand)
+[**Field Number (FMC) Operand**](./../field-number-(fmc)-operand)
 
 The field number operand returns the content of a specified field in the data record:
 
@@ -99,7 +99,7 @@ field-number{R{R}}
 
 The first R specifies that any non-existent multivalues should use the previous non-null multivalue. When the second R is specified, this means that any non-existent subvalues should use the previous non-null subvalue.
 
-[**Field Name Operand**](./../n-%28field-name%29-operand)
+[**Field Name Operand**](./../n-(field-name)-operand)
 
 The field name operand returns the content of a specified field in the data record:
 

@@ -7,7 +7,7 @@ com.jbase.jremote.protocol.StatementFetchRequest
 
 No usage of com.jbase.jremote.protocol.StatementFetchRequest
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

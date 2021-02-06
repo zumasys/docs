@@ -4,7 +4,7 @@
 
 ## Interface JFile
 
-All Known Implementing Classes:[JFileImpl](./../io/jfileimpl-%28jremote-api%29 "class in com.jbase.jremote.io"), [WrappedJFile](./../jca/wrappedjfile-%28jremote-api%29 "class in com.jbase.jremote.jca")
+All Known Implementing Classes:[JFileImpl](./../io/jfileimpl-(jremote-api) "class in com.jbase.jremote.io"), [WrappedJFile](./../jca/wrappedjfile-(jremote-api) "class in com.jbase.jremote.jca")
 * * *
 
 
@@ -177,7 +177,7 @@ Delete all records from the file.
 Returns true if the operation was successful or false if the records could not be deleted.
 Returns:clear successfulThrows:`JRemoteException`
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

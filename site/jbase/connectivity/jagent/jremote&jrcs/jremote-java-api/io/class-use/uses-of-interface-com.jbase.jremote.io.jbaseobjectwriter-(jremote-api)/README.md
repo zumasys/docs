@@ -7,7 +7,7 @@ com.jbase.jremote.io.JBaseObjectWriter
 
 | Package<br> | Description<br> |
 | --- | --- |
- Packages that use [JBaseObjectWriter](./../../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io")  | com.jbase.jremote<br> |  <br> |
+ Packages that use [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | com.jbase.jremote<br> |  <br> |
 | com.jbase.jremote.io<br> |  <br> |
 | com.jbase.jremote.jca.inflow<br> |  <br> |
 | com.jbase.jremote.jca.inflow.protocol<br> |  <br> |
@@ -15,12 +15,12 @@ com.jbase.jremote.io.JBaseObjectWriter
 
 
 
-### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote](./../../../../../jremote-api)
+### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote](./../../../../../jremote-api)
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote](./../../../../../jremote-api) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `void`<br> | JSubroutineParameters.`writeObject(JBaseObjectWriter writer, int version)` <br> |
+ Methods in [com.jbase.jremote](./../../../../../jremote-api) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | `void`<br> | JSubroutineParameters.`writeObject(JBaseObjectWriter writer, int version)` <br> |
 | `void`<br> | JExecuteResults.`writeObject(JBaseObjectWriter writer, int version)` <br> |
 
 
@@ -28,12 +28,12 @@ com.jbase.jremote.io.JBaseObjectWriter
 
 
 
-### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29)
+### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api))
 
 
 | Modifier and Type<br> | Class and Description<br> |
 | --- | --- |
- Classes in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) that implement [JBaseObjectWriter](./../../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `class `<br> | `AbstractJBaseObjectWriter` <br> |
+ Classes in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api)) that implement [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | `class `<br> | `AbstractJBaseObjectWriter` <br> |
 | `class `<br> | `IOJBaseObjectWriter`<br>jBase object writer based on the DataOutputStream.<br> |
 | `class `<br> | `NIOJBaseObjectWriter`<br>jBase object writer using the new Java IO.<br> |
 
@@ -41,7 +41,7 @@ com.jbase.jremote.io.JBaseObjectWriter
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `void`<br> | SQLError.`writeObject(JBaseObjectWriter writer, int version)` <br> |
+ Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api)) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | `void`<br> | SQLError.`writeObject(JBaseObjectWriter writer, int version)` <br> |
 | `void`<br> | OKResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
 | `void`<br> | JBaseSerializable.`writeObject(JBaseObjectWriter writer, int version)` <br> |
 | `void`<br> | ErrorResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
@@ -51,24 +51,24 @@ com.jbase.jremote.io.JBaseObjectWriter
 
 
 
-### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29)
+### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-(jremote---api))
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `protected void`<br> | InboundRequestHandler.`writeResponse(JBaseObjectWriter writer, JBaseSerializable response)` <br> |
+ Methods in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-(jremote---api)) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | `protected void`<br> | InboundRequestHandler.`writeResponse(JBaseObjectWriter writer, JBaseSerializable response)` <br> |
 
 
 
 
 
 
-### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
+### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-(jremote---api))
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `void`<br> | WorkScheduledResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
+ Methods in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-(jremote---api)) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | `void`<br> | WorkScheduledResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
 | `void`<br> | TransactionOperation.`writeObject(JBaseObjectWriter writer, int version)` <br> |
 | `void`<br> | StartTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
 | `void`<br> | RollbackTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
@@ -82,12 +82,12 @@ com.jbase.jremote.io.JBaseObjectWriter
 
 
 
-### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-%28jremote-api%29)
+### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-(jremote-api))
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-%28jremote-api%29) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `void`<br> | XAXid.`writeObject(JBaseObjectWriter writer, int version)` <br> |
+ Methods in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-(jremote-api)) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | `void`<br> | XAXid.`writeObject(JBaseObjectWriter writer, int version)` <br> |
 | `void`<br> | XAStartTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
 | `void`<br> | XARollbackTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
 | `void`<br> | XAPrepareTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
@@ -138,7 +138,7 @@ com.jbase.jremote.io.JBaseObjectWriter
 | `void`<br> | AccountAuthenticationRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
 | `void`<br> | AccountAuthenticationRequest.AccountUserCredentials.`writeObject(JBaseObjectWriter writer, int version)` <br> |
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

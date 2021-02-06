@@ -4,7 +4,7 @@
 
 ## Interface JResultSet
 
-All Known Implementing Classes:[JResultSetImpl](./../io/jresultsetimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
+All Known Implementing Classes:[JResultSetImpl](./../io/jresultsetimpl-(jremote-api) "class in com.jbase.jremote.io")
 * * *
 
 
@@ -43,7 +43,7 @@ Throws:`JRemoteException`
 JDynArray getRow()
 ```
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

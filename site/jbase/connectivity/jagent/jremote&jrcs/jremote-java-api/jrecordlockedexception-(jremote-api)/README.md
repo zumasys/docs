@@ -48,7 +48,7 @@ See Also:[Serialized Form](./../../jrcs/serialized-form#com.jbase.jremote)
 public JRecordLockedException()
 ```
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

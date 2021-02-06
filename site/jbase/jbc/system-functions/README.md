@@ -44,7 +44,7 @@ The following system functions are supported by jBASE:
 - **SYSTEM(25)** Returns 1 if background process
 - **SYSTEM(26)** Returns current prompt character
 - **SYSTEM(27)** Returns 1 if executed by PROC
-- **SYSTEM(28)** Reserved.
+- **SYSTEM(28)** Returns 1 if the [CASING](../../miscellaneous/case-insensitive-overview/README.md) statement is set to `ON` or if the `case_insensItive_runtime_strings` emulation option is set to `true`.
 - **SYSTEM(29)** Reserved.
 - **SYSTEM(30)** Returns 1 if paging is in effect ([HEADING statement](./../heading))
 - **SYSTEM(31)** Reserved

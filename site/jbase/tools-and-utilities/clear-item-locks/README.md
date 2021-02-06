@@ -16,19 +16,21 @@ CLEAR-ITEM-LOCKS filename
 or
 
 ```
-CLEAR-ITEM-LOCKS filename, itemname
+CLEAR-ITEM-LOCKS filename itemname
 ```
 
-CLEAR-ITEM-LOCKS should be used with extreme caution and only as a last resort. The necessity to use CLEAR-ITEM-LOCKS is a clear indication of an application with a poorly designed locking strategy.
+CLEAR-ITEM-LOCKS should be used with extreme caution and only as a last resort.  
+
+The necessity to use CLEAR-ITEM-LOCKS is a definite indication of an application with a poorly designed locking strategy.
 
 ## Note
 
-> This command can only be issued by a user with root/administrator privileges. To clear a lock on a [distributed file](./../../files/distributed-files/distributed-files/README.md), the part file where the locked item exists must be specified.
+>To clear a lock on a [distributed file](./../../files/distributed-files/distributed-files/README.md), the part file where the locked item exists must be specified.
 
 Examples of use may be as:
 
 ```
-CLEAR-ITEM-LOCKS INVENTORY, PDT603
+CLEAR-ITEM-LOCKS INVENTORY PDT603
 ```
 
 Clears the lock on the item PDT603 in the INVENTORY file.

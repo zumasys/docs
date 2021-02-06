@@ -166,7 +166,7 @@ public void afterPropertiesSet()
 ```
 Specified by:`afterPropertiesSet` in interface `org.springframework.beans.factory.InitializingBean`Throws:`Exception`
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
   
 <PageFooter />

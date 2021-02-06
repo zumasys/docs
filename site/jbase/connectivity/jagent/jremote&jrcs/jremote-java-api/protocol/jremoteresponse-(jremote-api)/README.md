@@ -4,7 +4,7 @@
 
 ## Class JRemoteResponse
 
-All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")Direct Known Subclasses:[ConvResponse](./../convresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol"), [DateTimeResponse](./../datetimeresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol"), [EISMetaDataResponse](./../eismetadataresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol"), [InputOutputResponse](./../inputoutputresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol"), [JediResponse](./../jediresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol"), [JExecuteResults](./../../jexecuteresults-%28jremote-api%29 "class in com.jbase.jremote"), [MonitoringResponse](./../monitoringresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol"), [ReadCommonResponse](./../readcommonresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol"), [SelectListFetchResponse](./../selectlistfetchresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol"), [SetPropertiesResponse](./../setpropertiesresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol"), [StatementFetchResponse](./../statementfetchresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol"), [SubroutineResponse](./../subroutineresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol"), [SwitchAccountResponse](./../switchaccountresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol"), [TransactionResponse](./../transactionresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol")
+All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")Direct Known Subclasses:[ConvResponse](./../convresponse-(jremote-api) "class in com.jbase.jremote.protocol"), [DateTimeResponse](./../datetimeresponse-(jremote-api) "class in com.jbase.jremote.protocol"), [EISMetaDataResponse](./../eismetadataresponse-(jremote-api) "class in com.jbase.jremote.protocol"), [InputOutputResponse](./../inputoutputresponse-(jremote-api) "class in com.jbase.jremote.protocol"), [JediResponse](./../jediresponse-(jremote-api) "class in com.jbase.jremote.protocol"), [JExecuteResults](./../../jexecuteresults-(jremote-api) "class in com.jbase.jremote"), [MonitoringResponse](./../monitoringresponse-(jremote-api) "class in com.jbase.jremote.protocol"), [ReadCommonResponse](./../readcommonresponse-(jremote-api) "class in com.jbase.jremote.protocol"), [SelectListFetchResponse](./../selectlistfetchresponse-(jremote-api) "class in com.jbase.jremote.protocol"), [SetPropertiesResponse](./../setpropertiesresponse-(jremote-api) "class in com.jbase.jremote.protocol"), [StatementFetchResponse](./../statementfetchresponse-(jremote-api) "class in com.jbase.jremote.protocol"), [SubroutineResponse](./../subroutineresponse-(jremote-api) "class in com.jbase.jremote.protocol"), [SwitchAccountResponse](./../switchaccountresponse-(jremote-api) "class in com.jbase.jremote.protocol"), [TransactionResponse](./../transactionresponse-(jremote-api) "class in com.jbase.jremote.protocol")
 * * *
 
 
@@ -68,7 +68,7 @@ public JRemoteResponse()
 public int getVersion()
 ```
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

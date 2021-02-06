@@ -90,7 +90,7 @@ As of jBASE 5.7.10. this file type is a window into the [jDLS](../../jdls/README
 >
 > The file options can be modified after the file has been created using the jchmod utility.
 >
-> On Windows there are certain restricted filenames. See the Microsoft Knowledgebase article [here](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx).
+> On Windows there are certain restricted filenames. See the Microsoft Knowledgebase article [here](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(v=vs.85).aspx).
 
 ### Examples
 

@@ -7,7 +7,7 @@ com.jbase.jremote.JRemoteException
 
 | Package<br> | Description<br> |
 | --- | --- |
- Packages that use [JRemoteException](./../../jremoteexception-%28jremote-api%29 "class in com.jbase.jremote")  | com.jbase.jremote<br> |  <br> |
+ Packages that use [JRemoteException](./../../jremoteexception-(jremote-api) "class in com.jbase.jremote")  | com.jbase.jremote<br> |  <br> |
 | com.jbase.jremote.io<br> |  <br> |
 | com.jbase.jremote.jca<br> |  <br> |
 | com.jbase.jremote.jca.spring<br> |  <br> |
@@ -17,12 +17,12 @@ com.jbase.jremote.JRemoteException
 
 
 
-### Uses of [JRemoteException](./../../jremoteexception-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)
+### Uses of [JRemoteException](./../../jremoteexception-(jremote-api) "class in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)
 
 
 | Modifier and Type<br> | Class and Description<br> |
 | --- | --- |
- Subclasses of [JRemoteException](./../../jremoteexception-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)  | `class `<br> | `JAuthenticationException`<br>A exception thrown when authentication fails.<br> |
+ Subclasses of [JRemoteException](./../../jremoteexception-(jremote-api) "class in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)  | `class `<br> | `JAuthenticationException`<br>A exception thrown when authentication fails.<br> |
 | `class `<br> | `JRecordLockedException`<br>A generic jBASE record locked exception.<br> |
 | `class `<br> | `JRecordNotFoundException`<br>A generic jBASE record not found exception.<br> |
 | `class `<br> | `JSubroutineNotFoundException`<br>This exception is thrown when a call is made to a non existent subroutine.<br> |
@@ -31,7 +31,7 @@ com.jbase.jremote.JRemoteException
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote](./../../../../jremote-api) that throw [JRemoteException](./../../jremoteexception-%28jremote-api%29 "class in com.jbase.jremote")  | `void`<br> | JConnection.`begin()`<br>Begin a jBASE transaction.<br> |
+ Methods in [com.jbase.jremote](./../../../../jremote-api) that throw [JRemoteException](./../../jremoteexception-(jremote-api) "class in com.jbase.jremote")  | `void`<br> | JConnection.`begin()`<br>Begin a jBASE transaction.<br> |
 | `JSubroutineParameters`<br> | JConnection.`call(String subroutineName, JSubroutineParameters parameters)`<br>Call a jBASE subroutine.<br> |
 | `boolean`<br> | JFile.`clear()`<br>Delete all records from the file.<br> |
 | `void`<br> | JSelectList.`close()`<br>Close select list.<br> |
@@ -91,12 +91,12 @@ com.jbase.jremote.JRemoteException
 
 
 
-### Uses of [JRemoteException](./../../jremoteexception-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29)
+### Uses of [JRemoteException](./../../jremoteexception-(jremote-api) "class in com.jbase.jremote") in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-(jremote---api))
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) that throw [JRemoteException](./../../jremoteexception-%28jremote-api%29 "class in com.jbase.jremote")  | `void`<br> | AbstractJRemoteConnection.`authenticate(String user, String password)`<br>Send data for authentication to the server.<br> |
+ Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-(jremote---api)) that throw [JRemoteException](./../../jremoteexception-(jremote-api) "class in com.jbase.jremote")  | `void`<br> | AbstractJRemoteConnection.`authenticate(String user, String password)`<br>Send data for authentication to the server.<br> |
 | `void`<br> | AbstractJRemoteConnection.`authenticate(String user, String account, String password)`<br>Send data for authentication to the server, the server must be configured to authenticate jBASE account connections.<br> |
 | `void`<br> | JConnectionImpl.`begin()` <br> |
 | `JSubroutineParameters`<br> | JConnectionImpl.`call(String subroutineName, JSubroutineParameters parameters)` <br> |
@@ -170,7 +170,7 @@ com.jbase.jremote.JRemoteException
 
 | Constructor and Description<br> |
 | --- |
- Constructors in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) that throw [JRemoteException](./../../jremoteexception-%28jremote-api%29 "class in com.jbase.jremote")  | `JRemoteSocketConnection(String host, int port)` <br> |
+ Constructors in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-(jremote---api)) that throw [JRemoteException](./../../jremoteexception-(jremote-api) "class in com.jbase.jremote")  | `JRemoteSocketConnection(String host, int port)` <br> |
 | `JRemoteSocketConnection(String host, int port, Properties info)` <br> |
 
 
@@ -178,12 +178,12 @@ com.jbase.jremote.JRemoteException
 
 
 
-### Uses of [JRemoteException](./../../jremoteexception-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29)
+### Uses of [JRemoteException](./../../jremoteexception-(jremote-api) "class in com.jbase.jremote") in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-(jremote---api))
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29) that throw [JRemoteException](./../../jremoteexception-%28jremote-api%29 "class in com.jbase.jremote")  | `void`<br> | WrappedJConnection.`begin()` <br> |
+ Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-(jremote---api)) that throw [JRemoteException](./../../jremoteexception-(jremote-api) "class in com.jbase.jremote")  | `void`<br> | WrappedJConnection.`begin()` <br> |
 | `JSubroutineParameters`<br> | WrappedJConnection.`call(String subroutineName, JSubroutineParameters parameters)`<br>Call jBASE subroutine.<br> |
 | `protected void`<br> | WrappedJConnection.`checkStatus()`<br>In a managed environment the `checkStatus` method checks that this handle has not been closed.<br> |
 | `boolean`<br> | WrappedJFile.`clear()` <br> |
@@ -229,29 +229,29 @@ com.jbase.jremote.JRemoteException
 
 
 
-### Uses of [JRemoteException](./../../jremoteexception-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.jca.spring](./../../jca/spring/com.jbase.jremote.jca.spring-%28jremote-api%29)
+### Uses of [JRemoteException](./../../jremoteexception-(jremote-api) "class in com.jbase.jremote") in [com.jbase.jremote.jca.spring](./../../jca/spring/com.jbase.jremote.jca.spring-(jremote-api))
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.jca.spring](./../../jca/spring/com.jbase.jremote.jca.spring-%28jremote-api%29) that throw [JRemoteException](./../../jremoteexception-%28jremote-api%29 "class in com.jbase.jremote")  | `static JConnection`<br> | JConnectionFactoryUtils.`getConnection(JConnectionFactory cf)`<br>Obtain a JConnection from the given JConnectionFactory.<br> |
+ Methods in [com.jbase.jremote.jca.spring](./../../jca/spring/com.jbase.jremote.jca.spring-(jremote-api)) that throw [JRemoteException](./../../jremoteexception-(jremote-api) "class in com.jbase.jremote")  | `static JConnection`<br> | JConnectionFactoryUtils.`getConnection(JConnectionFactory cf)`<br>Obtain a JConnection from the given JConnectionFactory.<br> |
 
 
 
 
 
 
-### Uses of [JRemoteException](./../../jremoteexception-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.protocol](./../../protocol/com.jbase.jremote.protocol-%28jremote-api%29)
+### Uses of [JRemoteException](./../../jremoteexception-(jremote-api) "class in com.jbase.jremote") in [com.jbase.jremote.protocol](./../../protocol/com.jbase.jremote.protocol-(jremote-api))
 
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- Methods in [com.jbase.jremote.protocol](./../../protocol/com.jbase.jremote.protocol-%28jremote-api%29) that throw [JRemoteException](./../../jremoteexception-%28jremote-api%29 "class in com.jbase.jremote")  | `boolean`<br> | JSelectListProt.`hasNext()`<br>Returns whether it is possible to move forward.<br> |
+ Methods in [com.jbase.jremote.protocol](./../../protocol/com.jbase.jremote.protocol-(jremote-api)) that throw [JRemoteException](./../../jremoteexception-(jremote-api) "class in com.jbase.jremote")  | `boolean`<br> | JSelectListProt.`hasNext()`<br>Returns whether it is possible to move forward.<br> |
 | `boolean`<br> | JSelectListProt.`hasPrevious()`<br>Returns whether it is possible to move backwards.<br> |
 | `boolean`<br> | JSelectListProt.`next()`<br>Move to next item.<br> |
 | `boolean`<br> | JSelectListProt.`previous()`<br>Move to previous item.<br> |
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

@@ -4,7 +4,7 @@
 
 ## Class JRemoteException
 
-All Implemented Interfaces:SerializableDirect Known Subclasses:[JAuthenticationException](./../jauthenticationexception-%28jremote-api%29 "class in com.jbase.jremote"), [JRecordLockedException](./../jrecordlockedexception-%28jremote-api%29 "class in com.jbase.jremote"), [JRecordNotFoundException](./../jrecordnotfoundexception-%28jremote-api%29 "class in com.jbase.jremote"), [JSubroutineNotFoundException](./../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote")
+All Implemented Interfaces:SerializableDirect Known Subclasses:[JAuthenticationException](./../jauthenticationexception-(jremote-api) "class in com.jbase.jremote"), [JRecordLockedException](./../jrecordlockedexception-(jremote-api) "class in com.jbase.jremote"), [JRecordNotFoundException](./../jrecordnotfoundexception-(jremote-api) "class in com.jbase.jremote"), [JSubroutineNotFoundException](./../jsubroutinenotfoundexception-(jremote-api) "class in com.jbase.jremote")
 * * *
 
 
@@ -89,7 +89,7 @@ public int getError()
 
 
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

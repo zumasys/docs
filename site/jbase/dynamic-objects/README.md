@@ -16,7 +16,7 @@ A jBASE dynamic object can comprise either a list of values called an **array** 
 - [Static Methods](./dynamic-objects-static-methods)
 - [Iteration: \$iterator](./iteration-$iterator)
 - [Inheritance](./dynamic-objects-inheritance)
-- [Exception handling](./exceptions-try-&-catch-&-throw-&-$setcatch%28%29)  
+- [Exception handling](./exceptions-try-&-catch-&-throw-&-$setcatch())  
 - [Utilities](./utilities-jsonlint/README.md)  
 
 - [Dynamic Objects - Timeline](./timeline/README.md)

@@ -35,7 +35,7 @@ Be aware that part files are resolved in the same manner as any other file in jB
 
 ## Creating Distributed Files
 
-A distributed file is created using the [CREATE-FILE](./../../../jbase-basic-%28jbc%29/create) command with the qualifier TYPE=DISTRIB. This will create two files, a dictionary which is a Hash4 (currently fixed at mod3) and the distributed file stub. If desired, the dictionary can be resized using the [jrf](./../../jrf) utility. For example, the following command creates a distributed file called DISTREGION:
+A distributed file is created using the [CREATE-FILE](./../../../jbase-basic-(jbc)/create) command with the qualifier TYPE=DISTRIB. This will create two files, a dictionary which is a Hash4 (currently fixed at mod3) and the distributed file stub. If desired, the dictionary can be resized using the [jrf](./../../jrf) utility. For example, the following command creates a distributed file called DISTREGION:
 
 ```
 jsh -->CREATE-FILE DISTREGION TYPE=DISTRIB

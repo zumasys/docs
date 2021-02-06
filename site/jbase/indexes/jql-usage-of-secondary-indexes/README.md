@@ -7,7 +7,7 @@
 <badge text='select' vertical='middle' />
 <badge text='file indexing' vertical='middle' />
 
-Once an index has been created with create-index , and assuming the index data is in sync, then you can start to use the index data with special commands such as [key-select](./../query-index) or with jBC statements such as [SELECTINDEX](./../../jbase-basic-%28jbc%29/selectindex).
+Once an index has been created with create-index , and assuming the index data is in sync, then you can start to use the index data with special commands such as [key-select](./../query-index) or with jBC statements such as [SELECTINDEX](./../../jbase-basic-(jbc)/selectindex).
 
 Another way the index data can be used is from jQL commands such as COUNT or SELECT. This occurs automatically and will dramatically speed up the operation of the jQL statements.
 

@@ -4,7 +4,7 @@
 
 ## Class WrappedJFile
 
-All Implemented Interfaces:[JFile](./../../jfile-%28jremote-api%29 "interface in com.jbase.jremote")
+All Implemented Interfaces:[JFile](./../../jfile-(jremote-api) "interface in com.jbase.jremote")
 * * *
 
 
@@ -246,7 +246,7 @@ Returns true if the operation was successful or false if the records could not b
 Specified by:`clear` in interface `JFile`Returns:clear successfulThrows:`JRemoteException`
 
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](../../../../jremote-api/README.md)
 
 
 

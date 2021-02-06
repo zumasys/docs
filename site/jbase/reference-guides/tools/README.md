@@ -15,11 +15,11 @@
 | [JFB](./../jfb) | Generates formatted jBC source code listings. |
 | [JFIND](./../../jfind) | Provides the UNIX *find* capability for Windows. |
 | [JGREP](jgreb) | Provides the UNIX *grep* capability for Windows. |
-| [JIMI](./../jbase-independent-metrics-integration-%28jimi%29) | jBASE Independent Metrics Integration. |
+| [JIMI](./../jbase-independent-metrics-integration-(jimi)) | jBASE Independent Metrics Integration. |
 | [JKEYAUTO](./../jkeyauto/jkeyauto) | Program control language. |
 | [JMSGBOX](jmsgbox) | Message box display utility for Windows. |
 | [JRM JMV JDIR](./../jrm-jmv-jdir) | Remove, move, dir executables. |
-| [JSETKEY](./../jsetkey-%28jbase-3-only%29) | jBASE environment settings (jBASE 3 only). |
+| [JSETKEY](./../jsetkey-(jbase-3-only)) | jBASE environment settings (jBASE 3 only). |
 | [JSHOW](./../jshow) | Displays locations of files, programs and subroutines. |
 | [JSTART](./../../background--processing/jstart) | Start processes. |
 | [JTIC](./../jtic) | jBASE terminfo compiler. |

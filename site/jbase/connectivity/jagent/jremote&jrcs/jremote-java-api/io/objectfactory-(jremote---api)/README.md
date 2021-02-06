@@ -34,7 +34,7 @@ extends Object
 
 | Modifier and Type<br> | Method and Description<br> |
 | --- | --- |
- All Methods [Instance Methods](javascript%3Ashow%282%29;) [Abstract Methods](javascript%3Ashow%284%29;) [Concrete Methods](javascript%3Ashow%288%29;)  | `protected JBaseSerializable`<br> | `createGenericObjects(int objectType)`<br>Creates any generic (i.e common to all framework clients) objects.<br> |
+ All Methods [Instance Methods](javascript%3Ashow(2);) [Abstract Methods](javascript%3Ashow(4);) [Concrete Methods](javascript%3Ashow(8);)  | `protected JBaseSerializable`<br> | `createGenericObjects(int objectType)`<br>Creates any generic (i.e common to all framework clients) objects.<br> |
 | `protected abstract JBaseSerializable`<br> | `createObject(int objectType)`<br>Create JBaseSerializable object from the supplied object type.<br> |
 
 
