@@ -2,5 +2,5 @@
   "default": true,
   "no-inline-html": false,
   "line-length": false,
-  "MD026": { "punctuation": ".,;:!。，；：！？" }
+  "MD026": { "punctuation": ".,;:!。，；！？" }
 }

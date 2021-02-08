@@ -10,7 +10,7 @@ Our examples all use Powershell and Docker Desktop for Windows, but the same com
 
 These are your Templates. When you do a "docker pull", you are pulling a template. Think of a template as a "golden" VM image**.
 
-Lists all your docker images:
+List all your docker images:
 
 ```powershell
 PS C:\WINDOWS\system32> docker image list
@@ -27,7 +27,7 @@ docker pull zumasys/jbase_base
 
 All docker images have their original name plus a hash (internal id for the image)
 
-This command allows you to basically have alias names for the docker:
+This command allows you to define an alias name for the Docker:
 
 ```powershell
 docker tag 
@@ -279,7 +279,31 @@ and you should see something like this in your browser:
 
 Because this is a named VM, it will never be purged without you doing that manually. This means you can continue to use it.  
 
-## To be completed
+To start your container forwarding 10022 to 22 (-p 10022:22), inside your docker, perform the following steps:
+
+```bash
+yum install openssh-server  
+/usr/bin/ssh-keygen -A   
+/usr/sbin/sshd -f /etc/ssh/sshd_config  
+passwd root (create password for root)  
+# Alternatively
+passwd jbaseadm (create password for jbaseadm)
+```
+
+You should then be able to connect via ssh (from WSL, for instance):
+
+```bash
+zumasys@DESKTOP-8KMHUNK:~$ssh root@localhost -p 10022
+The authenticity of host '[localhost]:10022 ([127.0.0.1]:10022)' can't be established.
+ECDSA key fingerprint is SHA256:WwPkUoVIlvVgsWyjvYk7GMhrWTZvds8QDgNSuNFdnnc.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '[localhost]:10022' (ECDSA) to the list of known hosts.
+root@localhost's password:
+-bash-4.2# jb
+Account name or path: JBASEADM
+jsh JBASEADM ~ -->
+
+```
 
 ** A golden image is a template for a virtual machine (VM), virtual desktop, server or hard disk drive. A golden image may also be referred to as a clone image, master image or base image.
 

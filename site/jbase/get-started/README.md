@@ -29,7 +29,7 @@ These examples can be followed on your local system or using a free docker conta
 
 If you prefer to experiment rather than watch, here is our [Docker cheat-sheet](./docker-container/README.md)
 
-## Find out more about the platform with our Introduction to jBASE
+### Find out more about the platform with our Introduction to jBASE:
 
 [jBASE Fundamentals - Read this first](./introduction/fundamentals/README.md)  
 [jBASE BASIC (jBC)](./introduction/jbc/README.md)  
