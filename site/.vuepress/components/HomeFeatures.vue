@@ -15,6 +15,8 @@
       <p>
         <a href="https://docs.zumasys.com/jbase/get-started/">Getting Started</a><br />
         <a href="https://docs.zumasys.com/jbase/basic/">jBASE BASIC (jBC)</a><br />
+        <a href="https://docs.zumasys.com/jbase/dynamic-objects//">Dynamic Objects</a><br />
+         <a href=https://docs.zumasys.com/jbase/spooler/jbase-spooler/>jBASE spooler</a><br />
         <a href="/jbase/">All Docs</a><br /></p>
     </div>
     <div class="feature">
