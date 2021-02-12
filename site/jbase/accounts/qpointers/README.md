@@ -6,7 +6,7 @@
 
 Due to the additional overhead of resolving Q to Q pointers which is not normally necessary in a well maintained system, an environment variable [JEDIENABLEQ2Q](./../../environment-variables/jedienableq2q/README.md) must be set.  
 
-The use of Q to Q pointers should be discouraged.
+The use of Q to Q pointers should be discouraged. However, if these Q-pointer chains exist, they can be displayed with the `listq` command.
 
 ## Note
 
