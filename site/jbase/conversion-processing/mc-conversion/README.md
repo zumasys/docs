@@ -38,7 +38,7 @@ MC codes are:
 | MCNP{c} | Convert paired hexadecimal digits preceded by a period or character c to ASCII code. |
 | MCP{c} | Convert each non-printable character (X"00" - X"IF", X"80" - X"FB") to a period (.) or to character c.<br>System delimiters (X"FC" - X"FF") are always converted to their 7-bit ASCII character equivalents, i.e. "\", "]", "^", "\_" respectively. |
 | MCPN{c} | Same as MCP but insert the two-character hexadecimal representation of the character immediately after the period or character c. |
-| MCPU | Displays non-printable characters in the conventional way UNIX does, so 0x01 to 0x1A are @A to @Z , 0x00 is @^.<br>The other non-printable characters are displayed as "\nnn" (where nnn is the octal equivalent). |
+| MCPU | Converts non-printable characters to present them the same way UNIX does, where 0x01 to 0x1A are @A to @Z , 0x00 is @^.<br>The other non-printable characters are converted as "\nnn" (where nnn is the octal equivalent), including system delimiters. |
 | MCRD or MCR | Convert Roman numerals to the decimal equivalent. Input conversion is effective. |
 | MCT | Convert all upper case letters (A-Z) in the text to lower case, starting with the second character in each word. Change the first character of each word to upper case if it is a letter. |
 | MCU | Convert all lower case letters (a-z) to upper case. |
