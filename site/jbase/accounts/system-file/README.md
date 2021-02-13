@@ -2,6 +2,10 @@
 
 <PageHeader />
 
+**Tags:**
+<badge text='system' vertical='middle' />
+<badge text='account' vertical='middle' />
+
 ## Description
 
 The location of the jBASE SYSTEM file is determined by the [JEDIFILENAME\_SYSTEM](./../jedifilename_system) environment variable. The environment variable is usually setup when the user logs on. By default, jBASE uses a hash file named SYSTEM, in a subdirectory named src, in the jBASE release directory as defined by the environment variable [JBCRELEASEDIR](./../jbcreleasedir).
