@@ -94,7 +94,7 @@ The following system functions are supported by jBASE:
 - **SYSTEM(1014)** Returns relative PROC level
 - **SYSTEM(1015)** Returns effective user name. LOGNAME
 - **SYSTEM(1016)** Returns tape assignment information
-- **SYSTEM(1017)** Returns platform. UNIX, WINNT or WIN95
+- **SYSTEM(1017)** Returns platform. UNIX or WINNT
 - **SYSTEM(1018)** Returns configured processors
 - **SYSTEM(1019)** Returns system information (uname -a)
 - **SYSTEM(1020)** Returns login user name
@@ -191,7 +191,7 @@ status = "Error!! Status unknown"
 - **SYSTEM(1034)** Returns handle of the current thread
 - **SYSTEM(1035)** Returns the license type: 1 = Standard, 4 = MultiSession, 6 = WebSession
 - **SYSTEM(1042)** The sum of **SYSTEM(1013)&lt;3&gt;** + **SYSTEM(1013)&lt;4&gt;**
-- **SYSTEM(1043)** Internal system call to indicate whether the output of a program currently running is bing captured.
+- **SYSTEM(1043)** Internal system call to indicate whether the output of a program currently running is being captured.
 - **SYSTEM(2092)** Return current prompt character(s) (D3 emulation)
 
 Go back to [jBASE BASIC](./../README.md)
