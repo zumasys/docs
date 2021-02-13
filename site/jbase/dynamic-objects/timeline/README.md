@@ -109,7 +109,7 @@ Add \$mcp(), \$mcl(), \$mcu() and \$mcpu() methods.
 
 ## 5.8.0
 
-Add \$system->getjelf() method.
+Add \$system->getjelf() method.  
 Add \$locks class, \$locks->getjdls() method.  
 
 Back to [Dynamic Objects](./../README.md)
