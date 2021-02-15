@@ -85,7 +85,7 @@ if getcwd(directory) then
 end
 
 openseq path to mypath else
-    crt 'cannot find specified path or file'
+    crt 'cannot find specified path or file (':path:')'
     abort
 end
 
@@ -94,11 +94,15 @@ open "dummy_records" to jbasefile else stop 201
 
 * process the line data to obtain the record_id and assign it to the ID variable, record information to
 * myrec variable
-loop
+ID= 1
+eof= 0
+loop until eof do
     readseq line from mypath then
-        write myrec to jbasefile, ID
+        write line to jbasefile, ID
+        ID += 1
     end else
-        crt "Error writing to file ": jbasefile
+        eof= 1
+        crt 'End of file reached or error reading from file (':path:')'
     end
 repeat
 
