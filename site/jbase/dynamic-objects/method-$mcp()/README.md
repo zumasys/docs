@@ -4,7 +4,7 @@
 
 ## Description
 
-The **$mcp() method converts each non-printable character (X"00" - X"1F", X"80" - X"FB") to a period (.) and system delimiters (X"FC" - X"FF") are converted to their 7-bit ASCII character equivalents, i.e. "\\", "]", "^", "_" respectively.
+The **$mcp()** method converts each non-printable character (X"00" - X"1F", X"80" - X"FB") to a period (.) and system delimiters (X"FC" - X"FF") are converted to their 7-bit ASCII character equivalents, i.e. "\\", "]", "^", "_" respectively.
 
 ## Syntax
 

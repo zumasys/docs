@@ -4,7 +4,7 @@
 
 ## Description
 
-The **$mcpu() method converts non-printable characters to present them the same way UNIX does, where 0x00 is `@^`, 0x01 to 0x1A are `@A` to `@Z` respectively and all other non-printable characters, including system delimiters, are converted as `\nnn` (where nnn is the octal equivalent).
+The **$mcpu()** method converts non-printable characters to present them the same way UNIX does, where 0x00 is `@^`, 0x01 to 0x1A are `@A` to `@Z` respectively and all other non-printable characters, including system delimiters, are converted as `\nnn` (where nnn is the octal equivalent).
 
 ## Syntax
 
