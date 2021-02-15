@@ -16,6 +16,8 @@ This release includes internal bug fixes and the following patches:
 
 ## New Features
 
+- New Dynamic Objects methods: `$mcl()`, `$mcu()`, `$mcp()`, `$mcpu()`
+
 [Back to 5.7.x Release Notes](./../README.md)
   
 <PageFooter />
