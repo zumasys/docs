@@ -2,6 +2,18 @@
 
 <PageHeader />
 
+## Release Notes - February 15th, 2021  
+
+- Controls
+   - Completed: timer, guage, and browser
+   - Grid, List and browser continued work
+- Architecture  
+   - Update delete service to reflect store architecture changes
+- Service
+   - Get Props command finished and continued refactor with Methods work 
+   - Set Props command finished and continued refactor with Methods work
+   - Methods 80% complete
+
 ## Release Notes - February 1st, 2021  
 
 - Controls
