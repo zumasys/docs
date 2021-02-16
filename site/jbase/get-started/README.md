@@ -4,7 +4,7 @@
 
 This page is a guide to working with jBASE on Windows and UNIX, with examples for creating jBASE programs, database files and querying the database at the jshell.  
 
-These examples can be followed on your local system or using a free Docker container instance by following the instructions below.
+These examples can be followed on your local system or using a free Docker container instance by following the instructions provided below.
 
 ## Select your preferred platform  
 
