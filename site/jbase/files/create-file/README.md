@@ -36,7 +36,7 @@ The HASH3 file type is portable across platforms and is network friendly in that
 **HASH4 or j4**
 The HASH4 file type uses memory mapping when available, otherwise defaults to reads and writes and is portable across platforms. The HASH4 file type will use jRLA or jDLS locking when enabled but can also be configured to use the default system locking method for networking. The default bucket size of a HASH4 file is 4096 bytes. j4 files use 'INT32' for any offsets, in order to provide compatibility with previous versions of jBASE. As such, j4 files should only be used where the file size will not exceed 2Gb.
 
-**jPLUS or jP (jBASE 4.1 and 5.2)**
+**jPLUS or jP (jBASE 4.X and 5.X)**
 **jPlus** files provide large file support on 64 bit UNIX and Windows platforms, such that Hash files can extend beyond the normal 2GB operating system limit. In addition, jPlus files provide configurable levels of data flushing (see JEDI\_SECURE\_LEVEL) to ensure file integrity in the case of a system failure. Some Operating Systems require large file support to be enabled when the file system is created. Refer to your System Administration Guide for your specific platform.
 
 **jD (jBASE 5.7)**
@@ -136,5 +136,4 @@ Creates a dictionary and data section of type j4 on network drive H, directory P
 
 Back to [Files](./../README.md)
 
-  
 <PageFooter />
