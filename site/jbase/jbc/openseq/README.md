@@ -27,7 +27,12 @@ If the **ON ERROR** clause is specified, the statements following the **ON ERROR
 
 ## Note
 
-> If the file does not exist or cannot be opened it then executes the **ELSE** clause. However, if **JBCEMULATE** is set for Sequoia (use value "seq") emulation then **OPENSEQ** will create the file if it does not exist. This behavior can also be achieved by specifying **openseq_creates = true** in **Config_EMULATE** for the emulation being used. Once open a lock is taken on the file. If the lock cannot be taken then the **LOCKED** clause is executed if it exists otherwise the ELSE clause is executed. If specified, the **READONLY** process takes a read lock on the file, otherwise it takes a write lock. The specified file can be a regular, pipe or special device file. Locks are only taken on regular file types. Once open the file pointer is set to the first line of sequential data.
+> If the file does not exist or cannot be opened it then executes the **ELSE** clause. However, if **JBCEMULATE** is set for Sequoia (use value "seq") emulation, then **OPENSEQ** will create the file if it does not exist.  
+> This behavior can also be achieved by specifying **openseq_creates = true** in **Config_EMULATE** for the emulation being used.  
+> Once open. a lock is taken on the file. If the lock cannot be taken then the **LOCKED** clause is executed, if it exists, otherwise the ELSE clause is executed.  
+> If specified, the **READONLY** process takes a read lock on the file, otherwise a write lock is taken.  
+> The specified file can be a regular, pipe or special device file. Locks are only taken on regular file types.  
+> When opened, the file pointer is set to the first line of sequential data.
 
 A program that uses sequential processing to create (write to)an ASCII text file from a jBASE hashed file is as below. It illustrates the use of the commands:
 
@@ -85,7 +90,7 @@ if getcwd(directory) then
 end
 
 openseq path to mypath else
-    crt 'cannot find specified path or file'
+    crt 'cannot find specified path or file (':path:')'
     abort
 end
 
@@ -94,11 +99,15 @@ open "dummy_records" to jbasefile else stop 201
 
 * process the line data to obtain the record_id and assign it to the ID variable, record information to
 * myrec variable
-loop
+ID= 1
+eof= 0
+loop until eof do
     readseq line from mypath then
-        write myrec to jbasefile, ID
+        write line to jbasefile, ID
+        ID += 1
     end else
-        crt "Error writing to file ": jbasefile
+        eof= 1
+        crt 'End of file reached or error reading from file (':path:')'
     end
 repeat
 

@@ -54,6 +54,7 @@
 | [LIST-OPEN-FILES](./list-open-files/README.md) | Display a list of files open by port |  
 | [LISTF](./listf/README.md) | Displays files in page format. |
 | [LISTFILES](./listf/README.md) | Synonym for LISTF. |  
+| [LISTQ](./listq/README.md) | Displays information about Q-pointer chains |
 | [LISTU](./listu/README.md) | Display information on users logged into jBASE. |
 | [LOGON/LOGOFF](./logon-and-logoff/README.md) | Execute a user login. Logoff another process. |
 | [MSG](./msg/README.md) | Send a message to other users using either port numbers or account/user ids. |  

@@ -207,7 +207,6 @@ module.exports = {
         path: "/jbase/",
         collapsable: true,
         children: [
-          ["/jbase/introduction/", "Introduction"],
           {
             title: "Getting Started",
             path: "/jbase/get-started",

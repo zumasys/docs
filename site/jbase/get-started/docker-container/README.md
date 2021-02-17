@@ -4,18 +4,17 @@
 
 The assumption here is that you already have Docker installed in some form on your system.
 
-Our examples all use Powershell and Docker Desktop for Windows, but the same commands should work just as well at the bash prompt in WSL, on on Linux iteslf, or at the zsh in macOS.
+Our examples all use PowerShell and Docker Desktop for Windows, but the same commands should work just as well at the bash prompt in WSL, on Linux itself, or at the zsh in macOS.
 
 ## Images
 
 These are your Templates. When you do a "docker pull", you are pulling a template. Think of a template as a "golden" VM image**.
 
-Lists all your docker images:
+List all your docker images:
 
 ```powershell
 PS C:\WINDOWS\system32> docker image list
 REPOSITORY           TAG       IMAGE ID       CREATED         SIZE
-centos               7         7e6257c9f8d8   5 months ago    203MB
 zumasys/jbase_base   <none>    37f9777ff8f3   12 months ago   813MB
 ```
 
@@ -27,7 +26,7 @@ docker pull zumasys/jbase_base
 
 All docker images have their original name plus a hash (internal id for the image)
 
-This command allows you to basically have alias names for the docker:
+This command allows you to define an alias name for the Docker:
 
 ```powershell
 docker tag 
@@ -39,7 +38,7 @@ In all of these examples, your output may be different to ours.
 
 We create a local image "jbase_base".
 
-Later we want to push it to docker hub. We tag it as "Zumasys/jbase_base - Alias".  
+Later we may want to push it to docker hub. We tag it as "Zumasys/jbase_base - Alias".  
 
 To get started do:
 
@@ -100,7 +99,7 @@ PS C:\WINDOWS\system32> docker run -it zumasys/jbase_base
 
 You are sitting in that container as root.  
 
-Open a second cmd box and do:
+Open a second PowerShell window and do:
 
 ```powershell
 PS C:\WINDOWS\system32> docker container list
@@ -112,7 +111,7 @@ There you can see all the containers on your system.
 
 CONTAINER ID: Actual Docker ID for your container.  
 IMAGE: What image this container was based on.  
-COMMAND: What command was execute when the container was started.  
+COMMAND: What command was executed when the container was started.  
 CREATED: When it was created.  
 STATUS: Status of the container.  
 PORTS: Any ports forwarded.  
@@ -120,7 +119,7 @@ NAMES: The friendly name for the container.
 
 If we do NOT define one when we start the container, a name will be created for us.  
 
-In this case our new container is called wonderful_leakey. Now go back to your other window and do an exit, then on the second window:
+In this case our new container is called "wonderful_leakey". Now go back to your other window and do an exit, then on the second window:
 
 ```powershell
 PS C:\WINDOWS\system32> docker container list
@@ -177,9 +176,9 @@ CONTAINER ID   NAME              CPU %     MEM USAGE / LIMIT     MEM %     NET I
 5695f09ace19   dazzling_dhawan   0.00%     7.727MiB / 24.88GiB   0.03%     1.17kB / 0B   0B / 0B     1
 ```
 
-Our example container now has a new name, dazzling_dhawan.
+Our example container now has a new name, "dazzling_dhawan".
 
-By default your docker is booted into a private network 172.17.0.X. These Containers can NAT network out of that network but you cannot directly ping from your workstation/network into that private network. All containers inside that network can ping/talk to each other. Think of this as your own private datacenter.  
+By default your docker is booted into a private network 172.17.0.X. These Containers can NAT network out of that network but you cannot directly ping from your workstation/network into that private network. All containers inside that network can ping/talk to each other. Think of this as your own private data centre.  
 
 ## Other limitations
 
@@ -193,7 +192,7 @@ The mysql daemon is really running on the console vs systemctl scripts.
 
 ## Access
 
-Containers usually do NOT run telnet or ssh. You can docker exec and jump directly from cmd into a docker. If you need to run ssh you must install ssh (via yum) and run ssh manually from a prompt (We will show to do this later)
+Containers usually do NOT run telnet or ssh. You can "docker exec" and jump directly from cmd into a docker. If you need to run ssh, you must install ssh (via yum) and run ssh manually from a prompt (We will show how to do this later)
 
 ## Port forwarding
 
@@ -236,12 +235,7 @@ If you would like work with REST, you can log onto the default account and start
 
 ```powershell
 [root@7d4ca225b78a ~]# jb JBASEADM
-jsh JBASEADM ~ -->make-demo-file
-Enter <X> at any prompt to eXit.
 
-How many records to create: 1000
-Filename: DEMOFILR
-File Type (JD=Dynamic=default, JP=jPlus, J4, UD=Directory, X=Exit): X
 jsh JBASEADM ~ -->make-demo-file
 Enter <X> at any prompt to eXit.
 
@@ -279,7 +273,31 @@ and you should see something like this in your browser:
 
 Because this is a named VM, it will never be purged without you doing that manually. This means you can continue to use it.  
 
-## To be completed
+To start your container forwarding 10022 to 22 (-p 10022:22), inside your docker, perform the following steps:
+
+```bash
+yum install openssh-server  
+/usr/bin/ssh-keygen -A   
+/usr/sbin/sshd -f /etc/ssh/sshd_config  
+passwd root (create password for root)  
+# Alternatively
+passwd jbaseadm (create password for jbaseadm)
+```
+
+You should then be able to connect via ssh (from WSL, for instance):
+
+```bash
+zumasys@DESKTOP-8KMHUNK:~$ssh root@localhost -p 10022
+The authenticity of host '[localhost]:10022 ([127.0.0.1]:10022)' can't be established.
+ECDSA key fingerprint is SHA256:WwPkUoVIlvVgsWyjvYk7GMhrWTZvds8QDgNSuNFdnnc.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '[localhost]:10022' (ECDSA) to the list of known hosts.
+root@localhost's password:
+-bash-4.2# jb
+Account name or path: JBASEADM
+jsh JBASEADM ~ -->
+
+```
 
 ** A golden image is a template for a virtual machine (VM), virtual desktop, server or hard disk drive. A golden image may also be referred to as a clone image, master image or base image.
 

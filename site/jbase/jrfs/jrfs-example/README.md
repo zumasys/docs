@@ -10,19 +10,19 @@ With this example we will setup two jBASE linux machines.  One will act as the s
 
 We need to define what port jRFS will listen on.  You can define this two ways.  Way #1 is to set an enviornment variable.  The other way is to add it to your systems services list.
 
-```bash
+```
 export JRFS_SERVERNAME=5001
 ```
 
-On Linux you can add a jRFS service to /etc/services or on Windows to c:\\windows\\system32\\drivers\\services
+On Linux you can add a jRFS service to /etc/services or on Windows to c:\\windows\\system32\\drivers\\etc\\services
 
-```bash
+```
 jRFS 5001/tcp # jRFS Server
 ```
 
 Now we need to be able to see all the tracing information when initially setting up the server so we can track down any configuration issues. The $JBCRELEASEDIR/jnet\_config file is modified first to :
 
-```notepad
+```
 accesschk=off
 trace=on
 debug=on

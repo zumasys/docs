@@ -36,8 +36,9 @@ MC codes are:
 | MCN | Extract only numeric characters (0-9). |
 | MC/N | Extract only non-numeric characters. |
 | MCNP{c} | Convert paired hexadecimal digits preceded by a period or character c to ASCII code. |
-| MCP{c} | Convert each non-printable character (X"00" - X"IF", X"80" - X"FB") to a period (.) or to character c.<br>System delimiters (X"FC" - X"FF") are always converted to their 7-bit ASCII character equivalents, i.e. "\", "]", "^", "\_" respectively. |
+| MCP{c} | Convert each non-printable character (X"00" - X"1F", X"80" - X"FB") to a period (.) or to character c.<br>System delimiters (X"FC" - X"FF") are always converted to their 7-bit ASCII character equivalents, i.e. "\\", "]", "^", "\_" respectively. |
 | MCPN{c} | Same as MCP but insert the two-character hexadecimal representation of the character immediately after the period or character c. |
+| MCPU | Converts non-printable characters to present them the same way UNIX does, where 0x01 to 0x1A are @A to @Z , 0x00 is @^.<br>The other non-printable characters are converted as "\nnn" (where nnn is the octal equivalent), including system delimiters. |
 | MCRD or MCR | Convert Roman numerals to the decimal equivalent. Input conversion is effective. |
 | MCT | Convert all upper case letters (A-Z) in the text to lower case, starting with the second character in each word. Change the first character of each word to upper case if it is a letter. |
 | MCU | Convert all lower case letters (a-z) to upper case. |
@@ -199,7 +200,7 @@ The MC codes that convert ASCII character codes to their binary or hexadecimal r
 
 > The MCAB and MCABS codes convert each ASCII character to its binary equivalent as an eight-digit number. If there is more than one character, MCAB puts a blank space between each pair of eight-digit numbers. MCABS suppresses the spaces.
 
-When converting from binary to ASCII characters, MCBA uses blank spaces as dividers, if they are present. MCBA scans from the right-hand end of the data searching for elements of "eight-bit" binary strings. If it encounters a space and the element is not eight binary digits long, it prepends zeros to the front of the number until it contains eight digits. This continues until the leftmost digit is reached. Zeros are again prepended, if necessary. Each eight-digit element is then converted to its ASCII character equivalent.
+When converting from binary to ASCII characters, MCBA uses blank spaces as dividers, if they are present. MCBA scans from the right-hand end of the data searching for elements of "eight-bit" binary strings. If it encounters a space and the element is not eight binary digits long, it prepends zeros to the front of the number until it contains eight digits. This continues until the leftmost digit is reached. Zeros are again pre-pended, if necessary. Each eight-digit element is then converted to its ASCII character equivalent.
 
 ### Input Conversion #4
 
@@ -276,7 +277,7 @@ If you submit an odd number of hexadecimal digits to the MCXB code, it will add 
 
 The MCXB and MCXBS codes convert each pair of hexadecimal digits to its binary equivalent as a eight-digit number. If there is more than one pair of hexadecimal digit, MCXB puts a blank space between each paid of eight-digit numbers. MCXBS suppresses the spaces.
 
-When converting from binary to hexadecimal digits, MCBX uses blank spaces as dividers if they are present. MCBX effectively scans from the right-hand end of the data searching for elements of eight-bit binary digits. If it encounters a space and the element is not a multiple of eight binary digits, it prepends zeros to the front of the number until contains eight digits. This continues until the leftmost digit is reached. Zeros are again prepended, if necessary. Each eight-digit element is then converted to a hexadecimal character pair.
+When converting from binary to hexadecimal digits, MCBX uses blank spaces as dividers if they are present. MCBX effectively scans from the right-hand end of the data searching for elements of eight-bit binary digits. If it encounters a space and the element is not a multiple of eight binary digits, it prepends zeros to the front of the number until contains eight digits. This continues until the leftmost digit is reached. Zeros are again pre-pended, if necessary. Each eight-digit element is then converted to a hexadecimal character pair.
 
 ### Input Conversion #5
 
@@ -308,5 +309,4 @@ Assuming a source value of 1066, MCDX will return 42A.
 
 Back to [Conversion Processing](./../conversion-processing)
 
-  
 <PageFooter />

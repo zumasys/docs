@@ -44,7 +44,7 @@ The following system functions are supported by jBASE:
 - **SYSTEM(25)** Returns 1 if background process
 - **SYSTEM(26)** Returns current prompt character
 - **SYSTEM(27)** Returns 1 if executed by PROC
-- **SYSTEM(28)** Returns 1 if the [CASING](../../miscellaneous/case-insensitive-overview/README.md) statement is set to `ON` or if the `case_insensItive_runtime_strings` emulation option is set to `true`.
+- **SYSTEM(28)** Returns 1 if the [CASING](../../miscellaneous/case-insensitive-overview/README.md) statement is set to `ON` or the `case_insensitive_runtime_strings` emulation option is set to `false` or undefined.
 - **SYSTEM(29)** Reserved.
 - **SYSTEM(30)** Returns 1 if paging is in effect ([HEADING statement](./../heading))
 - **SYSTEM(31)** Reserved
@@ -94,7 +94,7 @@ The following system functions are supported by jBASE:
 - **SYSTEM(1014)** Returns relative PROC level
 - **SYSTEM(1015)** Returns effective user name. LOGNAME
 - **SYSTEM(1016)** Returns tape assignment information
-- **SYSTEM(1017)** Returns platform. UNIX, WINNT or WIN95
+- **SYSTEM(1017)** Returns platform. UNIX or WINNT
 - **SYSTEM(1018)** Returns configured processors
 - **SYSTEM(1019)** Returns system information (uname -a)
 - **SYSTEM(1020)** Returns login user name
@@ -112,7 +112,7 @@ The following system functions are supported by jBASE:
 - **SYSTEM(1024)** Retrieves details about last signals
 - **SYSTEM(1025)** Returns value of International mode for thread
 - **SYSTEM(1026)** Total amount of memory in use formatted with commas
-- **SYSTEM(1027)** Returns directory PROC; Used by WHERE, LISTU Information about running processes can be obtained via the PROC jedi....
+- **SYSTEM(1027)** Returns directory PROC; Used by WHERE, LISTU. Information about running processes can be obtained via the PROC jedi....
 
 This jEDI enables retrieval of information from executing processes and is the interface now used by the WHERE command...
 
@@ -191,7 +191,7 @@ status = "Error!! Status unknown"
 - **SYSTEM(1034)** Returns handle of the current thread
 - **SYSTEM(1035)** Returns the license type: 1 = Standard, 4 = MultiSession, 6 = WebSession
 - **SYSTEM(1042)** The sum of **SYSTEM(1013)&lt;3&gt;** + **SYSTEM(1013)&lt;4&gt;**
-- **SYSTEM(1043)** Internal system call to indicate whether the output of a program currently running is bing captured.
+- **SYSTEM(1043)** Internal system call to indicate whether the output of a program currently running is being captured.
 - **SYSTEM(2092)** Return current prompt character(s) (D3 emulation)
 
 Go back to [jBASE BASIC](./../README.md)

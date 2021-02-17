@@ -12,7 +12,12 @@
     </div>
     <div class="feature">
       <h2>jBASE</h2>
-      <p><a href="/jbase/">All Docs</a><br /></p>
+      <p>
+        <a href="/jbase/get-started/">Getting Started</a><br />
+        <a href="/jbase/basic/">jBASE BASIC (jBC)</a><br />
+        <a href="/jbase/dynamic-objects/">Dynamic Objects</a><br />
+         <a href=/jbase/spooler/jbase-spooler/>jBASE spooler</a><br />
+        <a href="/jbase/">All Docs</a><br /></p>
     </div>
     <div class="feature">
       <h2>OpenQM</h2>
