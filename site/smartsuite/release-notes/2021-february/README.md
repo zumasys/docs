@@ -6,7 +6,7 @@ For detailed information about each update including training materials [click h
 
 ## TotaLink (Credit-Cards)
 
-* Do you need Signature Caputure devices? This is a question that is often asked our Sales and Support Team. The answer is No, with the introduction of Chip and Pin Technology Merchants can opt for less expensive customer facing devices
+* Do you need Signature Caputure devices? This is a question that is often asked our Sales and Support Team. The answer is No, with the introduction of Chip & Pin Technology Merchants can opt for less expensive customer facing devices
   * Please see [Signature Optional](https://usa.visa.com/dam/VCOM/global/support-legal/documents/visa-nosigflyer-us-can-040518.pdf) White paper
 * Updated payment devices and payment interfaces to conform with PTPE, Contactless, NFC, Chip, PIN Debit, and digital wallets. Please contact [sales@total-computing.com](mailto:sales@total-computing.com) or your account representative for additional information
     > May require processor and/or equipment upgrade
@@ -14,18 +14,18 @@ For detailed information about each update including training materials [click h
 
 ## Point-of-Sale
 
-*  Ability to see Rental Customers Status on all customer reference lookups
+*  Ability to view Rental Customers Status on all customer reference lookup screens
    *  Active Rental
    *  Historical Rental
 *  Order Comfirmation (POS-26-26)
    *  Ability to see detailed information related to online orders, Opened, Completed, Deleted, and Sales Detail information in one location
-*  Added Product Images to Pick-Slip Printouts for assisting in order fulfillment 
+*  Added Product Images to Pick-Slip printouts for assisting in order fulfillment 
      >Requires Setup. Contact Support
 
 
 ## General Merchandise
 
-* Updated Item over-ride freight options in Merchandise Master File for online orders
+* Updated Item override freight options in Merchandise Master File for online orders
 
 ## Webstore
 
