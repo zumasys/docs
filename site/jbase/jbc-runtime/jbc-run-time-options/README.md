@@ -25,8 +25,8 @@ The Descriptions below are UNIX-centric.
 | **-Ju** | To set the terminal output to be unbuffered. Under normal circumstances, data printed to the terminal will only be actually be displayed under the following circumstances:<ul><li>A new line character is printed.</li><li>The maximum number of characters have been buffered.</li><li>The program terminates, or calls another program through the PERFORM, EXECUTE, CHAIN or ENTER command.</li><li>The program pauses due to execution of an INPUT, SLEEP or RQM statement.</li></ul>In Example 1 below, the data is not actually printed until the very last line.Some legacy applications do this sort of thing, and the status message is not displayed when it is required. There are a number of ways to force each PRINT or CRT statement to be displayed:<ul><li>Use this -Ju option.</li><li>Append a CHAR(0) to the end of the string, as in Example 2 below.</li></ul>Note that this incurs a performance penalty and should be avoided if possible. Small terminal populations will probably not see much degradation, but large terminal populations performing lots of screen based activity will incur a significant penalty. |
 | **-Jw** | Prevents the debugger being entered when warning messages are issued. By default, when a run-time error occurs and a warning message is issued, the debugger will be entered. The later section on error messages describes this more fully. This option will not affect fatal run-time errors, where the debugger will still be entered if possible. |
 | **-Jx** | Causes the contents of the all variables in a program to be displayed at the end of a program. |
-| **-JC** | Turns on [coverage support](./../../tools/jcover/README.md). |
-| **-JP** | Turns on [profiling support](./../../tools/jprof/README.md). |
+| **-JC** | Turns on [coverage support](./../../tools-and-utilities/jcover/README.md). |
+| **-JP** | Turns on [profiling support](./../../tools-and-utilities/jprof/README.md). |
 
 ### Example 1
 
