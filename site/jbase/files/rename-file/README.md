@@ -43,5 +43,4 @@ Renames the file **File1**, its dictionary and its control file to **New.File1**
 
 Back to [Files](./../README.md)
 
-  
 <PageFooter />

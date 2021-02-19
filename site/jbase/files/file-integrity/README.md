@@ -30,5 +30,4 @@ The following commands can be used to help in the general maintenance of hash fi
 
 Back to [Files](./../README.md)
 
-  
 <PageFooter />
