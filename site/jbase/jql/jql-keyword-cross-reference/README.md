@@ -54,7 +54,7 @@
 | [CALC](./calc/README.md) | Calculate totals on I-type items |
 | [CALCULATE](./calc/README.md) | Synonym for CALC |
 | [CAPTION](./grand-total/README.md) | Synonym for GRAND-TOTAL |
-| [CLEARSELECT](./../../utilities/clearselect/README.md) | Clear a SELECT list |
+| [CLEARSELECT](./../../tools-and-utilities/clearselect/README.md) | Clear a SELECT list |
 | [CNV](./conv/README.md) | Synonym for CONV |
 | COL-FILLER |   |
 | [COL-HDR-SUPP](./col-hdr-supp/README.md) | Suppress printing of default page heading and column headings |
@@ -85,7 +85,7 @@
 | [DISPLAYNAME](./col-hdg/README.md) | Synonym for COL.HDG |
 | [EACH](./each/README.md) | Selection qulaifier |
 | [EDELETE](./../edelete/README.md) | Deletes selected records from a file. |
-| [END](./../../utilities/clearselect/README.md) | Synonym for CLEARSELECT |
+| [END](./../../tools-and-utilities/clearselect/README.md) | Synonym for CLEARSELECT |
 | [ENUM](./enum/README.md) | Count the number of values which occur in a field |  
 | [ENUMERATE](./enum/README.md) | Synonym for ENUM |
 | [EQ](./eq/README.md) | Equals |

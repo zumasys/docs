@@ -20,7 +20,7 @@ where filename is the name the file to be renamed. The file type must be one of 
 
 > RENAME-FILE doesn't require a '(' when specifying the destination file name.  The destination file name must not exist or the rename will fail.
 >  
-> RENAME-FILE assumes that the dictionary section of the specified file exists. The command will fail if it cannot open the dictionary section. It will rename the data section *and* the dictionary section. If you only want to move the data or dictionary portion of a file, use [jmv](./../tools/../../tools/jrm-jmv-jdir/README.md).
+> RENAME-FILE assumes that the dictionary section of the specified file exists. The command will fail if it cannot open the dictionary section. It will rename the data section *and* the dictionary section. If you only want to move the data or dictionary portion of a file, use [jmv](./../../tools-and-utilities/jrm-jmv-jdir/README.md).
 >
 > RENAME-FILE calls an internal function to perform the rename. If transaction journaling is active, the rename is logged as a MOVEFILE transaction.
 >

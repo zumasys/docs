@@ -125,8 +125,8 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | [JBCLISTFILE](./jbclistfile/README.md) | specify alternate select list file |
 | [JBCLISTID](./jbclistid/README.md) | force user account name to be part stored list ids. |
 | [JDIAG](./jdiag/README.md) | Turns on internal verbose messaging.  Index detail is an example |
-| [JFILESAVE_DEVICE](../../jbase/utilities/jfilesave/README.md) | Used with the JFILESAVE command, defines the full path to where system backups are stored. |
-| [JFILESAVE_STATFILE](../../jbase/utilities/jfilesave/README.md) | Used with the JFILESAVE command, it defines the full path to where backup statistics are stored.|
+| [JFILESAVE_DEVICE](../../jbase/tools-and-utilities/jfilesave/README.md) | Used with the JFILESAVE command, defines the full path to where system backups are stored. |
+| [JFILESAVE_STATFILE](../../jbase/tools-and-utilities/jfilesave/README.md) | Used with the JFILESAVE command, it defines the full path to where backup statistics are stored.|
 
 ### Terminal
 

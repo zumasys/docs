@@ -20,7 +20,7 @@ CREATE-FILE /dbms/SQLCATALOG 1 11
 set JSQLFILENAME_CATALOG=/dbms/SQLCATALOG
 ```
 
-See [SQLCATMAN](./../../administration/utilities/sqlcatman).
+See [SQLCATMAN](./../../administration/tools-and-utilities/sqlcatman).
 
 Back to [Environment Variables](./../README.md)
 

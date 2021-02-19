@@ -173,7 +173,7 @@ Record locks:        20180 locks maximum in 1009 groups of 20 locks/group
 
 ### SHOW-ITEM-LOCKS
 
-The  [`SHOW-ITEM-LOCKS`](./../../utilities/show-item-locks/README.md) now supports the `(X)` option which displays the extended record information, for example:
+The  [`SHOW-ITEM-LOCKS`](./../../tools-and-utilities/show-item-locks/README.md) now supports the `(X)` option which displays the extended record information, for example:
 
 ```
 jsh jbase ~ -->SHOW-ITEM-LOCKS (X)
@@ -359,7 +359,7 @@ You can now use this file as you would any data file, except remember each item 
 
 Some examples of using the file:
 
-First, list the file (i.e. `LIST MYLOCK`). The DICT item contains defaults, but you can select your own, as you can any jQL statement. This is the mechanism we use in  [`SHOW-ITEM-LOCKS`](./../../utilities/show-item-locks/README.md) with the `(X)` option earlier.
+First, list the file (i.e. `LIST MYLOCK`). The DICT item contains defaults, but you can select your own, as you can any jQL statement. This is the mechanism we use in  [`SHOW-ITEM-LOCKS`](./../../tools-and-utilities/show-item-locks/README.md) with the `(X)` option earlier.
 
 ```
 jsh jbase ~ -->LIST MYLOCK

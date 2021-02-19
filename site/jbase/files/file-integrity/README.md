@@ -24,7 +24,7 @@ The following commands can be used to help in the general maintenance of hash fi
 | --- | --- |
 | [jstat](./../jstat) | displays hash file statistics |
 | [jcheck](./../jcheck) | check hash file integrity |
-| [jchmod](./../../administration/utilities/jchmod) | modifies hash file parameters |
+| [jchmod](./../../administration/tools-and-utilities/jchmod) | modifies hash file parameters |
 | [jrf](./../jrf) | resizes hash files |
 | [jcomp](./../jcomp) | compare hash file contents |
 

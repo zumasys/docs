@@ -225,7 +225,7 @@ or
 
 are both invalid.
 
-To correct this problem without affecting the existing applications, jBASE provides a SQL Catalog file (see [SQLCATMAN](../../utilities/sqlcatman/README.md)).
+To correct this problem without affecting the existing applications, jBASE provides a SQL Catalog file (see [SQLCATMAN](../../tools-and-utilities/sqlcatman/README.md)).
 
 Once you have your SQL Catalog file/directory created you could then create an entry like:
 
