@@ -20,25 +20,28 @@ jrf {-options} *
 | Option | Explanation |
 | --- | --- |
 | \* | Process all files in the current director (ignored if a list of files or a preceding select-list is supplied). |
-| **-H3** \| **-Hj3** | Force to HASH3 file type. |
-| **-H4** \| **-Hj4** | Force to HASH4 file type. |
-| **-H5** \| **-Hjp** | Force to HASHP (jPlus) file type. |
-| **-H7** \| **-Hjd** | Force to HASHD (Dynamic) file type (*default if no other file type is specified*). |
-| **-Hmongo** | Force to a Mongo file type. |
-| **-C** | Only the restore specification will be set, so that the file is resized automatically when the file is restored. To resize files to a lower modulo requires that the 'D' option also be invoked along with the 'C' option. |
-| **-D** | Allow downsize of file. |
-| **-E** | Resize empty files. |
-| **-I** | Ignore (do not process) empty files. |
+| **-H3** \| **-Hj3** | Convert to a HASH3 file type |
+| **-H4** \| **-Hj4** | Convert to a HASH4 file type |
+| **-H5** \| **-Hjp** | Convert to a HASHP (jPlus) file type |
+| **-H7** \| **-Hjd** | Convert to a HASHD (Dynamic) file type (*default if no -H file type is specified*) |
+| **-Hjbc** | Convert to a jBC (BASIC Program) file type [Future] |
+| **-Hmongo** | Force to a Mongo file type |
+| **-C** | Only the restore specification will be set, so that the file is resized automatically when the file is restored. To resize files to a lower modulo requires that the 'D' option also be invoked along with the 'C' option |
+| **-D** | Allow downsize of file |
+| **-E** | Resize empty files |
+| **-I** | Ignore (do not resize) empty files |
+| **-K** | Skip files that are the same -H file type |
 | **-L** | Do not transaction log the temporary file created during process. |
 | **-Mn** | Allow the hash method to be overridden when resizing the file. In normal operation the default hash method for the file should be used, however the -M option allows experimentation with different hash methods, which may have a small benefit dependent upon the nature of the record key, 'n' specifies the hash method 3,4,5 or 7. |
-| **-N** | Decrypt the file. This option has no effect if the file is already decrypted. |
-| **-O** | Encrypt (Obfuscate) the file. This option has no effect if the file is already encrypted. |
-| **-R** | Reporting only (do not actually resize). Display the suggested resize parameters. |
+| **-N** | Decrypt the file. This option has no effect if the file is already decrypted |
+| **-O** | Encrypt (Obfuscate) the file. This option has no effect if the file is already encrypted |
+| **-R** | Reporting only (do not actually resize). Display the suggested resize parameters |
 | **-Sm{,s{,i}}** | Size to parameters    **m** = modulo, **s** = separation, **i** = in group maximum size |
 | **-T** | Convert to Case Sensitive |
 | **-U** | Convert to Case Insensitive |
 | **-V** | Verbose mode |
 | **-V1** | Very verbose mode |
+| **-X** | Process all files in the current directory and all sub-directories recursively |
 | **-h** \| **-?** | Display syntax and options |
 
 ***\*\*\* Invalid options are ignored \*\*\****
@@ -46,9 +49,10 @@ jrf {-options} *
 ### Notes
 
 - A preceding select-list of file names can be supplied to the **jrf** command.
-- If it becomes necessary to resize a file specified by the **JEDIFILENAME\_MD** environment variable then you must unset **JEDIFILENAME\_MD** prior to resizing. The same holds true for the **JEDIFILENAME\_SYSTEM** environment variable.
-- The temporary file used during the resize operation is created in the directory from where the **jrf** command is run. Therefore a file cannot be resized via Q-pointer, F-pointer or **JEDIFILEPATH** access; you must **cd** to the directory where the file exists or specify the full path to the file.
-- Converting to/from a Mongo file type is only available on jBASE 5.8 forward.
+- If it becomes necessary to resize the file specified by the **JEDIFILENAME\_MD** environment variable then you must unset **JEDIFILENAME\_MD** prior to resizing. The same holds true for the **JEDIFILENAME\_SYSTEM** environment variable.
+- The temporary file(s) used during the resize operation is created in the directory from where the **jrf** command is run. Therefore a file cannot be resized via Q-pointer, F-pointer or **JEDIFILEPATH** access; you must **cd** to the directory where the file exists or specify the full path to the file.
+- Options are case insensitive, e.g. `-HJD` is the same has `-hjd` or `-Hjd`
+- Options  `-HJBC`, `-HUD`, `-Hmongo`, `-K` and `-X` are only available on jBASE 5.8 forward.
 
 ## Warning
 
