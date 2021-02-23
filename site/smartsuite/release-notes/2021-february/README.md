@@ -6,7 +6,7 @@ For detailed information about each update including training materials [click h
 
 ## TotaLink (Credit-Cards)
 
-* Do you need Signature Caputure devices? This is a question that is often asked our Sales and Support Team. The answer is No, with the introduction of Chip & Pin Technology Merchants can opt for less expensive customer facing devices
+* "Do we need Signature Capture devices?" This is a question that is often asked our sales and support Team. The answer is "No", with the introduction of Chip & Pin Technology Merchants can opt for less expensive customer facing devices
   * Please see [Signature Optional](https://usa.visa.com/dam/VCOM/global/support-legal/documents/visa-nosigflyer-us-can-040518.pdf) White paper
 * Updated payment devices and payment interfaces to conform with PTPE, Contactless, NFC, Chip, PIN Debit, and digital wallets. Please contact [sales@total-computing.com](mailto:sales@total-computing.com) or your account representative for additional information
     > May require processor and/or equipment upgrade
@@ -14,12 +14,12 @@ For detailed information about each update including training materials [click h
 
 ## Point-of-Sale
 
-*  Ability to view Rental Customers Status on all customer reference lookup screens
+*  Ability to view rental customers Status on all customer reference lookup screens
    *  Active Rental
    *  Historical Rental
-*  Order Comfirmation (POS-26-26)
+*  Order Confirmation (POS-26-26)
    *  Ability to see detailed information related to online orders, Opened, Completed, Deleted, and Sales Detail information in one location
-*  Added Product Images to Pick-Slip printouts for assisting in order fulfillment 
+*  Added Product Images to pick-slip printouts for assisting in order fulfillment 
      >Requires Setup. Contact Support
 
 
@@ -38,9 +38,9 @@ For detailed information about each update including training materials [click h
 
 ## Important Resolved Issues
 
-* Addressed BuyBack Display of customers with pervious rentals
+* Addressed BuyBack display of customers with pervious rentals
 * Resolved special web printing when modifying the sort order of the product list
-* Resolved POSConnect Live transactions updating inventory correctly
+* Resolved POSConnect live transactions updating inventory correctly
 * Addressed incorrect tax when mixed with out of state rental transactions.
 * Corrected spelling on reset password for online customers
 * Resolved issue with additional freight on invoices after posting was updated
