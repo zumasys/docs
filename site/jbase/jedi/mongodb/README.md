@@ -1,5 +1,7 @@
 # Mongo DB jEDI
 
+<PageHeader />
+
 **Tags:**
 <badge text='jedi' vertical='middle' />
 We are extremely excited to announce support for MongoDB in jBASE 5.8 thanks to a brand-new addition to the JEDI (jBASE Electronic Data Interface) driver family! MongoDB is a super popular NoSQL database used by the likes of Facebook and Twitter that has revolutionized the conversation around databases over the last decade. It is a cloud-friendly, highly redundant clustered architecture that is built for resilience and massive scalability, and its JSON-based data model are a natural fit for jBASE and MultiValue.
@@ -10,3 +12,5 @@ What makes this so exciting is that you can keep your MultiValue application in 
 [Using the MongoDB jEDI Driver](./mongodb-jedi-driver/README.md)  
 
 [Back to jEDI](../README.md)
+
+<PageFooter />
