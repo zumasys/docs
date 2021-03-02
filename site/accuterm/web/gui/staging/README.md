@@ -2,6 +2,15 @@
 
 <PageHeader />
 
+## Release Notes - February 26th, 2021  
+- Controls
+   - Completed: browser
+   - Grid and List continued work
+- Architecture  
+   - Update grid table types
+- Service
+   - Grid load time efficiency testing 
+
 ## Release Notes - February 15th, 2021  
 
 - Controls
