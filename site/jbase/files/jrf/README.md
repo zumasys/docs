@@ -15,6 +15,7 @@ The **jrf** utility provides automated facilities to resize and convert from one
 ```
 jrf {-options} {{DICT} filename1 {{DICT} filename2 ...}}
 jrf {-options} *
+jrf  -HJBC {-V | -V1} filename
 ```
 
 | Option | Explanation |
@@ -24,7 +25,7 @@ jrf {-options} *
 | **-H4** \| **-Hj4** | Convert to a HASH4 file type |
 | **-H5** \| **-Hjp** | Convert to a HASHP (jPlus) file type |
 | **-H7** \| **-Hjd** | Convert to a HASHD (Dynamic) file type (*default if no -H file type is specified*) |
-| **-Hjbc** | Convert to a jBC (BASIC Program) file type |
+| **-Hjbc** | Convert to a jBC (BASIC Program) file type<br>(All other options are ignored except -V or -V1) |
 | **-Hmongo** | Force to a Mongo file type |
 | **-C** | Only the restore specification will be set, so that the file is resized automatically when the file is restored. To resize files to a lower modulo requires that the 'D' option also be invoked along with the 'C' option |
 | **-D** | Allow downsize of file |
@@ -48,11 +49,12 @@ jrf {-options} *
 
 ### Notes
 
+- Options are case insensitive, e.g. `-HJD` is the same has `-hjd` or `-Hjd`
 - A preceding select-list of file names can be supplied to the **jrf** command.
 - If it becomes necessary to resize the file specified by the **JEDIFILENAME\_MD** environment variable then you must unset **JEDIFILENAME\_MD** prior to resizing. The same holds true for the **JEDIFILENAME\_SYSTEM** environment variable.
 - The temporary file(s) used during the resize operation is created in the directory from where the **jrf** command is run. Therefore a file cannot be resized via Q-pointer, F-pointer or **JEDIFILEPATH** access; you must **cd** to the directory where the file exists or specify the full path to the file.
-- Options are case insensitive, e.g. `-HJD` is the same has `-hjd` or `-Hjd`
-- Options  `-HJBC`, `-HUD`, `-Hmongo`, `-K` and `-X` are only available on jBASE 5.8 forward.
+- If the `-HJBC` option is specified then only one file can be converted at a time.
+- Options  `-HJBC`, `-Hmongo`, `-K` and `-X` are only available on jBASE 5.8 forward.
 
 ## Warning
 
