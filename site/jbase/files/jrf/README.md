@@ -26,12 +26,12 @@ jrf  -HJBC {-V | -V1} filename
 | **-H5** \| **-Hjp** | Convert to a HASHP (jPlus) file type |
 | **-H7** \| **-Hjd** | Convert to a HASHD (Dynamic) file type (*default if no -H file type is specified*) |
 | **-Hjbc** | Convert to a jBC (BASIC Program) file type<br>(All other options are ignored except -V or -V1) |
-| **-Hmongo** | Force to a Mongo file type |
+| **-Hmongo** | Convert to a Mongo file type |
 | **-C** | Only the restore specification will be set, so that the file is resized automatically when the file is restored. To resize files to a lower modulo requires that the 'D' option also be invoked along with the 'C' option |
 | **-D** | Allow downsize of file |
 | **-E** | Resize empty files |
 | **-I** | Ignore (do not resize) empty files |
-| **-K** | Skip files that are the same -H file type |
+| **-K** | Skip files that are the same -H*filetype*<br>This is particularly useful when used in combination with `*` or `-X` |
 | **-L** | Do not transaction log the temporary file created during process. |
 | **-Mn** | Allow the hash method to be overridden when resizing the file. In normal operation the default hash method for the file should be used, however the -M option allows experimentation with different hash methods, which may have a small benefit dependent upon the nature of the record key, 'n' specifies the hash method 3,4,5 or 7. |
 | **-N** | Decrypt the file. This option has no effect if the file is already decrypted |
@@ -58,7 +58,9 @@ jrf  -HJBC {-V | -V1} filename
 
 ## Warning
 
->The **jrf** utility should ONLY be executed when users are NOT connected to the database otherwise data loss can occur. In other words, the file should not be opened by another process.
+>The **jrf** utility should ONLY be executed when users are not connected to the database otherwise data loss can occur. In other words, the file should not be opened by another process.
+
+>It is recommended to have a current backup before running **jrf**.
 
 Back to [Files](./../README.md)
 
