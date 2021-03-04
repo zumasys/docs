@@ -32,7 +32,8 @@ jshow -c subroutinename
 ```
 
 - **JBCOBJECTLIST** -- All jBASE subroutines must be in a directory included in this environment variable.
-- **Triggers** -- The CATALOGed subroutines **lib** directory must be in this list, jQL dictionary CALL or B-correlative subroutines. The **lib** directory must be in this list.
+  - **Triggers** -- The CATALOGed subroutines **lib** directory must be in this list
+  - ***jQL dictionary CALL or B-correlative** subroutines. The **lib** directory must be in this list.
 
 **Where is the data?**
 
@@ -64,7 +65,7 @@ CUSTOMER
 - jdiag -v will give verbose information including all environment variables.
 - jdiag -vL will put these items into a jdiag.out item in the root of your account.
 
-## View and set jBASE Environmant Variables
+## View and set jBASE Environment Variables
 
 ### Linux
 
