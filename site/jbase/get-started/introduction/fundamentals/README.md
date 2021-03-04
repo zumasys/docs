@@ -31,9 +31,9 @@ jshow -c programname
 jshow -c subroutinename
 ```
 
-- **JBCOBJECTLIST** -- All jBASE subroutines must be in a directory included in this environment variable.
-  - **Triggers** -- The CATALOGed subroutines **lib** directory must be in this list
-  - ***jQL dictionary CALL or B-correlative** subroutines. The **lib** directory must be in this list.
+- **JBCOBJECTLIST** -- All jBASE subroutines must be in a directory included in this environment variable.  
+  - **Triggers** -- The CATALOGed subroutines **lib** directory must be in this list  
+  - **jQL dictionary CALL or B-correlative** subroutines. The **lib** directory must be in this list.
 
 **Where is the data?**
 
