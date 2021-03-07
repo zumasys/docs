@@ -7,7 +7,7 @@
 The **CHAIN** statement exits the current program and transfers process control to the program defined by the expression. Process control will never return to the originating program. The statement takes the form:
 
 ```
-CHAIN expression
+CHAIN expression {(I}
 ```
 
 Where **expression** should evaluate to a valid UNIX or Windows command, which may be another jBASE BASIC program.
