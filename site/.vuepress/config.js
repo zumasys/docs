@@ -288,7 +288,7 @@ module.exports = {
               ["/jbase/miscellaneous/introduction-to-distributed-locking/", "jDLS"],
               ["/jbase/jrfs/jrfs-quick-start-guide/", "jRFS"],
               ["/jbase/record-locking/", "jBASE Record Locking"],
-              ["/jbase/triggers/trigger-api/", "Triggers"]
+              ["/jbase/triggers/triggers-overview/", "Triggers"]
             ]
           },
           {
