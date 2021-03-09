@@ -22,11 +22,11 @@ The following commands can be used to help in the general maintenance of hash fi
 
 | Command  | Description |
 | --- | --- |
-| [jstat](./../jstat) | displays hash file statistics |
-| [jcheck](./../jcheck) | check hash file integrity |
-| [jchmod](./../../administration/tools-and-utilities/jchmod) | modifies hash file parameters |
-| [jrf](./../jrf) | resizes hash files |
-| [jcomp](./../jcomp) | compare hash file contents |
+| [jstat](./../jstat/README.md) | displays hash file statistics |
+| [jcheck](./../jcheck/README.md) | check hash file integrity |
+| [jchmod](./../../tools-and-utilities/jchmod/README.md) | modifies hash file parameters |
+| [jrf](./../jrf/README.md) | resizes hash files |
+| [jcomp](./../jcomp/README.md) | compare hash file contents |
 
 Back to [Files](./../README.md)
 
