@@ -15,6 +15,7 @@ All built-in methods start with "\$".
 - [\$equals()](./../method-$equals())
 - [\$fromfile()](./../method-$fromfile())
 - [\$fromjson()](./../method-$fromjson())
+- [\$global()](./../method-$global()/README.md)
 - [\$insert()](./../method-$insert())
 - [\$isfile()](./../method-$isfile())
 - [\$ismethod() / \$hasmethod()](./../method-$ismethod()-&-$hasmethod())
