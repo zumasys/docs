@@ -1,10 +1,10 @@
-# Class Method: $locks->getjdls()
+# Class Method: $lock->getjdls()
 
 <PageHeader />
 
 ## Description
 
-The **\$locks->getjdls()** method will return all the locks that are held by jDLS.  
+The **\$lock->getjdls()** method will return all the locks that are held by jDLS.  
 
 Note that this will not return any record locks held outside of jDLS, nor will it return any group locks or binary locks.
 
