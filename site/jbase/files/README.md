@@ -14,7 +14,7 @@
 | <!----> | <!----> |
 | --- | --- |
 | [Copy](./copy/README.md)  | Copying items between files |
-| [jComp](./jcomp/README.md)  | Comparing items in files !
+| [jComp](./jcomp/README.md)  | Comparing items in files |
 | [jRF](./jrf/README.md)  | Resizing Files |
 | [jStat](./jstat/README.md)  | jBASE File Statistics |
 
