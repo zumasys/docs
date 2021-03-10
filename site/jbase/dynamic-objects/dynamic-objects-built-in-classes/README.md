@@ -8,6 +8,7 @@ All built-in classes start with "\$".
 
 - [\$development](./../class-$development/README.md)  
 - [\$file](./../class-$file/README.md)
+- [\$global](./../class-$global/README.md)
 - [\$jbase](./../class-$jbase/README.md)
 - [\$lock](./../class-$lock/README.md)
 - [\$system](./../class-$system/README.md)

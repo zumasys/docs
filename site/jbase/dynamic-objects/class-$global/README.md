@@ -4,7 +4,7 @@
 
 ## Description
 
-The **\$global()** method is a system-wide class that allows you to define methods that are inherited by all classes. This means you can add a catch-all for any and all objects. In fact the methods for **\$global** can even be called from non-objects.
+ **\$global()** is a system-wide class that allows you to define methods that are inherited by all classes. This means you can add a catch-all for any and all objects. In fact the methods for **\$global** can even be called from non-objects.
 
 ## Examples
 
