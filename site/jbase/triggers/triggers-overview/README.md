@@ -17,6 +17,8 @@ The following jBASE database trigger utilities enable users to configure and dis
 | [DELETE-TRIGGER](./../create-trigger) | delete trigger events for a file |
 | [LIST-TRIGGER](./../list-trigger/README.md) | list triggers events on a file |
 
+## Usage
+
 The trigger events manifest themselves by calling a user supplied subroutine, which can be independently configured for each file. Each user subroutine must make provision for all the event types which could be triggered for that file. The [trigger API](./../trigger-api) document gives more information about this.  The [trigger guidelines document](./../triggers-guidelines) gives more information about best practices when using triggers.
 
 Back to [Triggers](./../README.md)

@@ -284,10 +284,11 @@ module.exports = {
             children: [
               ["/jbase/miscellaneous/introduction-to-audit-logging/", "Audit Logging"],
               ["/jbase/encryption/", "Encryption"],
+              ["/jbase/files/", "File Handling"],
               ["/jbase/miscellaneous/introduction-to-distributed-locking/", "jDLS"],
               ["/jbase/jrfs/jrfs-quick-start-guide/", "jRFS"],
               ["/jbase/record-locking/", "jBASE Record Locking"],
-              ["/jbase/triggers/trigger-api/", "Triggers"]
+              ["/jbase/triggers/triggers-overview/", "Triggers"]
             ]
           },
           {
@@ -367,6 +368,7 @@ module.exports = {
             path: "/jbase/release-notes",
             collapsable: true,
             children: [
+              ["/jbase/release-notes/5.8/", "5.8.x"],
               ["/jbase/release-notes/5.7/", "5.7.x"],
               ["/jbase/release-notes/5.6/", "5.6.x"],
               ["/jbase/release-notes/5.5/5.5.1/", "5.5.x"]
