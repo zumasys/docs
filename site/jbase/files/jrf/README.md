@@ -53,7 +53,7 @@ jrf  -HJBC {-V | -V1} filename
 - A preceding select-list of file names can be supplied to the **jrf** command.
 - If it becomes necessary to resize the file specified by the **JEDIFILENAME\_MD** environment variable then you must unset **JEDIFILENAME\_MD** prior to resizing. The same holds true for the **JEDIFILENAME\_SYSTEM** environment variable.
 - The temporary file(s) used during the resize operation is created in the directory from where the **jrf** command is run. Therefore a file cannot be resized via Q-pointer, F-pointer or **JEDIFILEPATH** access; you must **cd** to the directory where the file exists or specify the full path to the file.
-- If the `-HJBC` option is specified then only one file can be converted at a time.
+- If the `-HJBC` option is specified, it superceeds all other options and only one file can be converted at a time.
 - Options  `-HJBC`, `-Hmongo`, `-K` and `-X` are only available on jBASE 5.8 forward.
 
 ## Warning
