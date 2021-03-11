@@ -1,4 +1,4 @@
-# Method: $clear()
+# Method: $global()
 
 <PageHeader />
 
