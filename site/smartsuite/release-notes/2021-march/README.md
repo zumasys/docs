@@ -7,7 +7,7 @@ For detailed information about each update including training materials [click h
 ## TextBooks
 
 *  Remember with spring break just around the corner
-   *  Create your Summer and Fall terms now
+   *  Create your Summer and Fall [terms now](https://training.total-computing.com/dwkb/textbook-training/)
    *  Set up and prepare your web faculty [adoption notifications](https://training.total-computing.com/dwkb/advanced-faculty-adoptions-store-side/)
 
 ## Buyback
@@ -17,11 +17,11 @@ If you or your staff are not receiving buying guide updates and you would like t
 
 ## General Merchandise
 
-* Added the ability to copy cost and sale prices to any store's Masterfile
+* Added the ability to copy cost and sale prices to any store's Inventory
 
 ## TotaLink (Credit-Cards)
 
-* TCS Customers utilizing host-based registers now can use Pin Pad Devices for sales and returns
+* Customers utilizing host-based registers now can use Pin Pad Devices for sales and returns
 * Take advantage of our new out-of-the-box PCI compliant devices
   * NFC
   * Tap & Go
@@ -36,6 +36,8 @@ If you or your staff are not receiving buying guide updates and you would like t
 
 ## Important Resolved Issues
 
-* 
+* Viewing orders through the webportal
+* Chargeback printing display corrected
+* Truncated shipping address on Pick Slips
 
 <PageFooter />
