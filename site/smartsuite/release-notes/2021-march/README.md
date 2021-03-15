@@ -18,6 +18,7 @@ If you or your staff are not receiving buying guide updates and you would like t
 ## General Merchandise
 
 * Added the ability to copy cost and sale prices to any store's Inventory
+* Added the ability to updated an items costs from Store 1 to all other Stores with that inventory item
 
 ## TotaLink (Credit-Cards)
 
