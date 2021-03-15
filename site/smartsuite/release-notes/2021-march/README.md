@@ -6,9 +6,14 @@ For detailed information about each update including training materials [click h
 
 ## TextBooks
 
-*  Remember with spring break is just around the corner
+*  Remember with spring break just around the corner
    *  Create your Summer and Fall terms now
-   *  Set up and prepare your web faculty adoption notifications
+   *  Set up and prepare your web faculty [adoption notifications](https://training.total-computing.com/dwkb/advanced-faculty-adoptions-store-side/)
+
+## Buyback
+Remember to update the buying guides you plan on using this summer and fall for Buyback, with the [latest versions](https://training.total-computing.com/dwkb/wholesale-guide-update/)
+
+If you or your staff are not receiving buying guide updates and you would like to receive these please email [support@total-computing.com](mailto:support@total-computing.com)
 
 ## General Merchandise
 
@@ -17,17 +22,17 @@ For detailed information about each update including training materials [click h
 ## TotaLink (Credit-Cards)
 
 * TCS Customers utilizing host-based registers now can use Pin Pad Devices for sales and returns
-* Take advantage of our new out-of-the BOX PCI compliant devices
+* Take advantage of our new out-of-the-box PCI compliant devices
   * NFC
-  * Tab & Go
+  * Tap & Go
   * Chip & Pin
   * Digital Wallets
-* Updated payment devices and payment interfaces to conform with PTPE standards Please contact [sales@total-computing.com](mailto:sales@total-computing.com) or your account representative for additional information.
+* Updated payment devices and payment interfaces to conform with P2PE standards Please contact [sales@total-computing.com](mailto:sales@total-computing.com) or your account representative for additional information.
     > May require processor and/or equipment upgrade
 
 ## Webstore
 
-* Remember to optimize online sales with Coupons at checkout
+* Remember to optimize online sales with [Coupons at checkout](https://training.total-computing.com/dwkb/coupon-promo-voucher-gift-certificate-and-gift-card-setup-online-redemption-and-checkout/)
 
 ## Important Resolved Issues
 
