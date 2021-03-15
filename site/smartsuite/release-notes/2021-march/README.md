@@ -4,22 +4,30 @@
 
 For detailed information about each update including training materials [click here](https://training.total-computing.com/dwkb/tech-update/)
 
-## Point-of-Sale
+## TextBooks
 
-*  
+*  Remember with spring break is just around the corner
+   *  Create your Summer and Fall terms now
+   *  Set up and prepare your web faculty adoption notifications
 
 ## General Merchandise
 
-* 
+* Added the ability to copy cost and sale prices to any store's Masterfile
 
 ## TotaLink (Credit-Cards)
 
-* Updated payment devices and payment interfaces to conform with PTPE, Contactless, NFC, Chip, PIN Debit, and digital wallets. Please contact [sales@total-computing.com](mailto:sales@total-computing.com) or your account representative for additional information.
+* TCS Customers utilizing host-based registers now can use Pin Pad Devices for sales and returns
+* Take advantage of our new out-of-the BOX PCI compliant devices
+  * NFC
+  * Tab & Go
+  * Chip & Pin
+  * Digital Wallets
+* Updated payment devices and payment interfaces to conform with PTPE standards Please contact [sales@total-computing.com](mailto:sales@total-computing.com) or your account representative for additional information.
     > May require processor and/or equipment upgrade
 
 ## Webstore
 
-* 
+* Remember to optimize online sales with Coupons at checkout
 
 ## Important Resolved Issues
 
