@@ -22,26 +22,6 @@ module.exports = {
     return { plugins: [new webpack.EnvironmentPlugin(env)] };
   },
   plugins: {
-    // Vssue (uses gitlab issues to comment)
-    "@vssue/vuepress-plugin-vssue": {
-      platform: "github-v4", // set `platform` rather than `api`
-      owner: "zumasys",
-      repo: "docs",
-      clientId: process.env.VUE_APP_GITHUB_CLIENT_ID,
-      clientSecret: process.env.VUE_APP_GITHUB_CLIENT_SECRET,
-      admins: ["ryannmedina", "itsxallwater"],
-      issueContent: ({ options, url }) => {
-        var domains = ["http://localhost:8800", "https://docs.zumasys.com"];
-        var relative = url;
-
-        for (var i = 0; i < domains.length; i++) {
-          if (relative.includes(domains[i]))
-            relative = relative.replace(domains[i], "");
-        }
-
-        return `This issue is auto created by Vssue to store comments of this page: ${relative}`;
-      }
-    },
     // TypeScript in .vue files, markdown files and enhanceApp.ts
     "vuepress-plugin-typescript": {
       tsLoaderOptions: {
