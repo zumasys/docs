@@ -109,7 +109,8 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | INCLUDE | specify additional paths for header files |
 | [JBC\_INCLUDE\_FILE](./jbc_include_file/README.md) | a list of source code files that will automatically be compiled prior to compiling the current program. |
 | [JBC\_INCLUDE\_PATH](./jbc_include_path/README.md) | a list of directories the compiler searches through when an INCLUDE statement is seen in a program. |
-| [DECATALOG\_DELETE\_OBJECT\_CODE](./environment-variables/decatalog_delete_object_code/README.md) |  |
+| [DECATALOG\_DELETE\_OBJECT\_CODE](./decatalog_delete_object_code/README.md) | Delete the intermediate compiled object file when the program (or subroutine) is DECATALOG'd. |
+| [JELF](./jelf/README.md) | Enable Single Shared Object builds in jBASE BASIC and other related options |
 
 ### Miscellaneous
 
