@@ -18,7 +18,7 @@ If you or your staff are not receiving buying guide updates and you would like t
 ## General Merchandise
 
 * Added the ability to copy Cost and Sale prices to any Store's Inventory
-* Added the ability to updated an items Costs from Store 1 to all other Stores with the same inventory item
+* Added the ability to updated an [items Costs from Store 1](https://tcs-training-wp.azurewebsites.net/dwkb/update-item-costs-to-all-stores/) to all other Stores with the same inventory item
 
 ## TotaLink (Credit-Cards)
 
