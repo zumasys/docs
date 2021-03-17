@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-For detailed information about each update including training materials [click here](https://training.total-computing.com/dwkb/tech-update/)
+For detailed information about each update including training materials [click here](https://training.total-computing.com)
 
 ## TextBooks
 
@@ -18,7 +18,7 @@ If you or your staff are not receiving buying guide updates and you would like t
 ## General Merchandise
 
 * Added the ability to copy Cost and Sale prices to any Store's Inventory
-* Added the ability to updated an [items Costs from Store 1](https://tcs-training-wp.azurewebsites.net/dwkb/update-item-costs-to-all-stores/) to all other Stores with the same inventory item
+* Added the ability to update an [item's Costs from Store 1](https://tcs-training-wp.azurewebsites.net/dwkb/update-item-costs-to-all-stores/) to all other Stores with the same inventory item
 
 ## TotaLink (Credit-Cards)
 
@@ -28,7 +28,7 @@ If you or your staff are not receiving buying guide updates and you would like t
   * Tap & Go
   * Chip & Pin
   * Digital Wallets
-* Updated payment devices and payment interfaces to conform with P2PE standards Please contact [sales@total-computing.com](mailto:sales@total-computing.com) or your account representative for additional information.
+* Updated payment devices and payment interfaces to conform with P2PE validated standards Please contact [sales@total-computing.com](mailto:sales@total-computing.com) or your account representative for additional information.
     > May require processor and/or equipment upgrade
 
 ## Webstore
