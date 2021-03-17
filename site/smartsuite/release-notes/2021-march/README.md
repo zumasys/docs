@@ -35,7 +35,7 @@ If you or your staff are not receiving buying guide updates and you would like t
 
 ## Webstore
 
-* Optimize online sales with [coupons at checkout](https://training.total-computing.com/dwkb/coupon-promo-voucher-gift-certificate-and-gift-card-setup-online-redemption-and-checkout/).
+* Optimize online sales with [coupons at checkout](https://training.total-computing.com/dwkb/coupon-promo-voucher-gift-certificate-and-gift-card-setup-online-redemption-and-checkout/)
 
 ## Important Resolved Issues
 
