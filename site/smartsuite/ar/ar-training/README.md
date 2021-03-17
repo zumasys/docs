@@ -2,51 +2,6 @@
 
 <PageHeader />
 
-<!-- TOC -->
-
-- [Accounts Receivable Training](#accounts-receivable-training)
-  - [Introduction](#introduction)
-  - [Initializing your A/R](#initializing-your-ar)
-    - [General Parameters (AR-SU-3)](#general-parameters-ar-su-3)
-    - [Agencies and Agents (AR-5-22 and AR-5-21)](#agencies-and-agents-ar-5-22-and-ar-5-21)
-    - [Class Categories (AR-SU-6 and AR-SU-5)](#class-categories-ar-su-6-and-ar-su-5)
-    - [Customer (account) Types (AR-SU-4)](#customer-account-types-ar-su-4)
-    - [Dunning Letters (AR-4-22-21 and AR-5-6-21)](#dunning-letters-ar-4-22-21-and-ar-5-6-21)
-    - [Dunning Letter Report (AR-4-22-1 & AR-5-6-1)](#dunning-letter-report-ar-4-22-1--ar-5-6-1)
-    - [Print Dunning Letters (AR-4-22-2 & AR-5-6-2)](#print-dunning-letters-ar-4-22-2--ar-5-6-2)
-    - [Non-merchandise Transaction Codes (AR-SU-1)](#non-merchandise-transaction-codes-ar-su-1)
-  - [Adding Customer Accounts](#adding-customer-accounts)
-  - [Adding Charges to Accounts](#adding-charges-to-accounts)
-    - [Register Charges (POS-1, AR/ARRT)](#register-charges-pos-1-ararrt)
-    - [Back Office Charges (AR-3-1)](#back-office-charges-ar-3-1)
-  - [Adding Payments to Accounts](#adding-payments-to-accounts)
-    - [Register Payments (POS-2, ROA)](#register-payments-pos-2-roa)
-    - [Back Office Individual Payments (AR-3-21)](#back-office-individual-payments-ar-3-21)
-    - [Back Office Agent (sponsor) Payments (AR-3-22)](#back-office-agent-sponsor-payments-ar-3-22)
-  - [Checking Account Status](#checking-account-status)
-  - [Making Account Corrections](#making-account-corrections)
-    - [Creating Account Credits and Adjustments](#creating-account-credits-and-adjustments)
-  - [Removing Obsolete Accounts (AR-6)](#removing-obsolete-accounts-ar-6)
-  - [Running Monthly Statements](#running-monthly-statements)
-    - [Agent (sponsored) Accounts](#agent-sponsored-accounts)
-      - [Creating Agent Invoices (AR-5-1)](#creating-agent-invoices-ar-5-1)
-      - [Printing the Preliminary Invoice Report (AR-5-2)](#printing-the-preliminary-invoice-report-ar-5-2)
-      - [Printing the Agent Invoices (AR-5-3)](#printing-the-agent-invoices-ar-5-3)
-      - [Processing Agent Statements (AR-5-4)](#processing-agent-statements-ar-5-4)
-      - [Reprinting Agent Statements (AR-5-5)](#reprinting-agent-statements-ar-5-5)
-    - [Individual (non-sponsored) Accounts](#individual-non-sponsored-accounts)
-      - [Preparing Current Statements (AR-4-1)](#preparing-current-statements-ar-4-1)
-      - [Preparing Previous Statements (AR-4-2)](#preparing-previous-statements-ar-4-2)
-      - [Printing Prepared Statements (AR-4-3)](#printing-prepared-statements-ar-4-3)
-      - [Department Statements (AR-4-21)](#department-statements-ar-4-21)
-  - [Printing A/R Reports](#printing-ar-reports)
-  - [Miscellaneous Account Maintenance](#miscellaneous-account-maintenance)
-    - [Rebuilding the Cross Reference (AR-SU-23)](#rebuilding-the-cross-reference-ar-su-23)
-  - [Example](#example)
-  - [Training Checklist](#training-checklist)
-
-<!-- /TOC -->
-
 ## Introduction
 
 The AR (Accounts Receivable) system tracks customer accounts, charges, and payments for three general account types: sponsored (financial aid) accounts, debit accounts, and open accounts. Open accounts may be either Balance-Forward or Open-Item depending on whether you want payments to be applied against the oldest charges first or against the invoices you specify.

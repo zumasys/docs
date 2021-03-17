@@ -3,38 +3,6 @@
 
 <PageHeader />
 
-<!-- TOC -->
-
-- [Accounts Payable Training](#accounts-payable-training)
-  - [Getting Started](#getting-started)
-    - [Utilities and A/P System Parameters](#utilities-and-ap-system-parameters)
-  - [General Parameters](#general-parameters)
-  - [Maintain Ledger Accounts](#maintain-ledger-accounts)
-  - [Payment Terms](#payment-terms)
-  - [Rebuild Vendor Cross Reference](#rebuild-vendor-cross-reference)
-  - [Check Formatting](#check-formatting)
-  - [Merge Two Vendors](#merge-two-vendors)
-- [Day-to-Day Functions](#day-to-day-functions)
-  - [Vendor Maintenance](#vendor-maintenance)
-  - [Invoices and Credits](#invoices-and-credits)
-- [Check Processing](#check-processing)
-  - [Quick Checks](#quick-checks)
-  - [Batch Checks](#batch-checks)
-    - [Check Preview Edit](#check-preview-edit)
-    - [Print Checks](#print-checks)
-  - [Void a Check](#void-a-check)
-  - [Manual Check Entry and Vendor Payments](#manual-check-entry-and-vendor-payments)
-  - [Check Inquiry](#check-inquiry)
-  - [Reprint Checks](#reprint-checks)
-- [Posting Transactions to General Ledger](#posting-transactions-to-general-ledger)
-  - [Pre-Posting Report](#pre-posting-report)
-  - [Create Journal Entry](#create-journal-entry)
-  - [Change Accounting Period (Optional)](#change-accounting-period-optional)
-  - [Remove Posting Flag](#remove-posting-flag)
-  - [Frequently Asked Questions](#frequently-asked-questions)
-
-<!-- /TOC -->
-
 ## Getting Started
 
 ### Utilities and A/P System Parameters

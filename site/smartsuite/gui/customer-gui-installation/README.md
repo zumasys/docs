@@ -6,19 +6,6 @@ The technical level of these steps are slightly above normal and should be compl
 
 <PageHeader>
 
-<!-- TOC -->
-
-- [Customer GUI Installation](#customer-gui-installation)
-  - [Pre-requisites](#pre-requisites)
-    - [Obtain and Install Required Software](#obtain-and-install-required-software)
-    - [Obtain the Configuration Files (Migration Steps)](#obtain-the-configuration-files-migration-steps)
-    - [Obtain the Configuration Files (New Device)](#obtain-the-configuration-files-new-device)
-    - [Place the Configuration Files](#place-the-configuration-files)
-    - [Start and Test](#start-and-test)
-    - [Cleanup (Migration Only)](#cleanup-migration-only)
-
-<!-- /TOC -->
-
 ## Pre-requisites
 
 There are a handful of items that are required for a new installation of the software. In migration scenarios (switching from an old PC to a new one) the items will already be available on the old PC. It will be necessary to contact TCS support to obtain files for a brand new setup.

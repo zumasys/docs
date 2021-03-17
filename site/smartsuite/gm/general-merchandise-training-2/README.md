@@ -2,38 +2,6 @@
 
 <PageHeader />
 
-<!-- TOC -->
-
-- [General Merchandise Training](#general-merchandise-training)
-  - [Overview](#overview)
-  - [Master File](#master-file)
-  - [Creating a New MF Item](#creating-a-new-mf-item)
-  - [Synonyms](#synonyms)
-  - [Promo Pricing](#promo-pricing)
-  - [Price Tables](#price-tables)
-  - [Purchase Orders](#purchase-orders)
-    - [Creating Pending Orders](#creating-pending-orders)
-    - [Creating Purchase Orders from Pending](#creating-purchase-orders-from-pending)
-    - [Creating Purchase Orders Manually](#creating-purchase-orders-manually)
-    - [Modifying Purchase Orders](#modifying-purchase-orders)
-    - [Printing Purchase Orders](#printing-purchase-orders)
-  - [Receiving](#receiving)
-  - [Returns](#returns)
-  - [Performing a Physical Inventory](#performing-a-physical-inventory)
-    - [PI Overview](#pi-overview)
-    - [Initializing](#initializing)
-  - [Counting & Verifying (Edit Cycle)](#counting--verifying-edit-cycle)
-  - [Printing Reports](#printing-reports)
-    - [Print non-committed sheets](#print-non-committed-sheets)
-    - [Master file status report](#master-file-status-report)
-    - [Print Adjustments / Valuation](#print-adjustments--valuation)
-    - [Utilities](#utilities)
-  - [Posting the Counts](#posting-the-counts)
-  - [Corrections after Posting](#corrections-after-posting)
-  - [Printing Barcode Labels](#printing-barcode-labels)
-
-<!-- /TOC -->
-
 ## Overview
 
 GM/Trade refers to the General Merchandise and Trade Books components of the TCS system. Since most of their functions are similar, they are combined here. All merchandise items are maintained in a master file (MF), referenced by SKU/ISBN. SKUs may be added or deleted as required. Synonyms allow one item to be referenced by more than one SKU. The module handles Purchase Orders, Receiving, Returns, and Physical Inventory. A perpetual inventory is maintained; each receiving adds to the inventory, each sale subtracts from it. You can print bar-coded labels for the merchandise and print various reports.
