@@ -2,6 +2,16 @@
 
 <PageHeader />
 
+## Release Notes - March 15th, 2021  
+- Controls
+   - Completed: tab, tab group
+   - 60% Complete: menu, popup menu, toolbar, status bar
+   - Grid and List continued work
+- Architecture  
+   - Gui/Form Layering ability with z-index 
+- Service
+   - Methods completion: activate
+
 ## Release Notes - February 26th, 2021  
 - Controls
    - Completed: browser
