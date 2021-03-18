@@ -83,15 +83,17 @@ Compiler Setup is complete and we can now install jBASE.
 
 ![Information](./58Installer_13.jpg)
 
-![Install Runtime and jBASE Components](./58Installer_14.jpg)
+![Install Runtime and jBASE Components Briefly](./58Installer_13A.jpg)
 
-We will cover the Advanced Installation Options.
+![Install Runtime and jBASE Components Finished](./58Installer_14.jpg)
+
+We will cover the Advanced Installation Options, which provide control over what is installed and where.
 
 ![Installation Type](./58Installer_15.jpg)
 
 ![Select Destination Location](./58Installer_16.jpg)
 
-With jBASE 5.8, user profiles are introduced and the default version is stored in JBCGLOBALDIR
+With jBASE 5.8, user profiles are introduced and the default version is stored in JBCGLOBALDIR, which may now be a different location than JBCRELEASEDIR.
 
 ![Select Directory for jBASE Global Files](./58Installer_17.jpg)
 
@@ -108,6 +110,8 @@ With jBASE 5.8, user profiles are introduced and the default version is stored i
 ![Ready to Install](./58Installer_23.jpg)
 
 ![Preparing to Install](./58Installer_24.jpg)
+
+The jBASE installation process will be performed here, before displaying the following:
 
 ![Information](./58Installer_25.jpg)
 
