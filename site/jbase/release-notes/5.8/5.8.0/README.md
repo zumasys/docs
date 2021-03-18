@@ -49,7 +49,7 @@ Online CATALOG allows developers and live users to experience changed code witho
 Optionally embed source code into the object meta-data during the compilation, and this can further be optionally encrypted. Never lose the source code used to build the object. ISV’s can distribute the encrypted source code with their object allow on-site debugging of their application using protected source code guaranteed to match what the customer is executing.
 Because the meta-data is embedded, it always follows the object code, which can be moved and copied with regular OS tools entirely at free will. The meta-data includes a SHA of the source code, file name, item id, time/date/username who compiled it, build options, and so on.
 New reporting tools for larger development teams. Find your objects and list the details. Verification tools (e.g. has the source changed since the object was last built?). Maintenance tools — when you CATALOG, we warn if any important options have changed since the last CATALOG of that object e.g. has the JBCEMULATE setting changed?
-LEARN MORE →
+
 
 Back to [5.8.x Release Notes](./../README.md)
 
