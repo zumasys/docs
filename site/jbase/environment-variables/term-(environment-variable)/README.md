@@ -14,7 +14,7 @@ On UNIX, this variable should be set to your terminal type as defined by the UNI
 
 On UNIX, any valid terminfo database entry.
 
-On Windows, any file name (up to the underscore) in the directories under **%JBCRELEASEDIR%\misc\**. Additional terminal definitions can be created using the [**jtic**](./../../jbase/tools/jtic)command.
+On Windows, any file name (up to the underscore) in the directories under **%JBCRELEASEDIR%\misc\**. Additional terminal definitions can be created using the [**jtic**](./../../jbase/tools-and-utilities/jtic)command.
 
 ## Default
 

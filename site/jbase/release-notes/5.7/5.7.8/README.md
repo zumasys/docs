@@ -23,7 +23,7 @@ This release includes various internal bug fixes and the following enhancements 
 
 ## New Commands
 
-[jsonlint](../../utilities/jsonlint/README.md)  
+[jsonlint](../../tools-and-utilities/jsonlint/README.md)  
 
 Back to [5.7.x Release Notes](./../README.md)
   

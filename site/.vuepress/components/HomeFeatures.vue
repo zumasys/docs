@@ -16,6 +16,7 @@
         <a href="/jbase/get-started/">Getting Started</a><br />
         <a href="/jbase/basic/">jBASE BASIC (jBC)</a><br />
         <a href="/jbase/dynamic-objects/">Dynamic Objects</a><br />
+        <a href=/jbase/compilation/single-object-build/>Single Object Build</a><br />
          <a href=/jbase/spooler/jbase-spooler/>jBASE spooler</a><br />
         <a href="/jbase/">All Docs</a><br /></p>
     </div>

@@ -57,7 +57,7 @@ jbased3:
 
 ## New Commands
 
-- [END](./../../../utilities/clearselect/README.md)
+- [END](./../../../tools-and-utilities/clearselect/README.md)
 
 [Back to 5.7.x Release Notes](./../README.md)
   

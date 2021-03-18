@@ -7,8 +7,7 @@
 <badge text='odbc' vertical='middle' />
 <badge text='jagent' vertical='middle' />
 
-The jBASE Extended Dictionary enhances a regular DICT item to provide better control
-when an SQL query (for example) is querying the file.
+The jBASE Extended Dictionary enhances a regular DICT item to provide better control when an SQL query (for example) is querying the file.
 
 For example a date type dictionary - INVOICE_DATE - may be in the form:
 
@@ -173,8 +172,7 @@ jDP_Options:
 003 1073741825
 ```
 
-The advantage of setting the default column flags to be *Not Visible* is if you have many duplicate or calculation type dictionaries that would clutter the column
-listing of a table.  
+The advantage of setting the default column flags to be *Not Visible* is if you have many duplicate or calculation type dictionaries that would clutter the column listing of a table.  
 
 You would then set the **Visible** bit setting in the [EDICT_FLAGS](#extended-dictionary-flags-edict-flags) for the fields you want to appear from a SQL perspective.
 

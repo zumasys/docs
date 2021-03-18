@@ -22,26 +22,6 @@ module.exports = {
     return { plugins: [new webpack.EnvironmentPlugin(env)] };
   },
   plugins: {
-    // Vssue (uses gitlab issues to comment)
-    "@vssue/vuepress-plugin-vssue": {
-      platform: "github-v4", // set `platform` rather than `api`
-      owner: "zumasys",
-      repo: "docs",
-      clientId: process.env.VUE_APP_GITHUB_CLIENT_ID,
-      clientSecret: process.env.VUE_APP_GITHUB_CLIENT_SECRET,
-      admins: ["ryannmedina", "itsxallwater"],
-      issueContent: ({ options, url }) => {
-        var domains = ["http://localhost:8800", "https://docs.zumasys.com"];
-        var relative = url;
-
-        for (var i = 0; i < domains.length; i++) {
-          if (relative.includes(domains[i]))
-            relative = relative.replace(domains[i], "");
-        }
-
-        return `This issue is auto created by Vssue to store comments of this page: ${relative}`;
-      }
-    },
     // TypeScript in .vue files, markdown files and enhanceApp.ts
     "vuepress-plugin-typescript": {
       tsLoaderOptions: {
@@ -207,7 +187,6 @@ module.exports = {
         path: "/jbase/",
         collapsable: true,
         children: [
-          ["/jbase/introduction/", "Introduction"],
           {
             title: "Getting Started",
             path: "/jbase/get-started",
@@ -285,10 +264,11 @@ module.exports = {
             children: [
               ["/jbase/miscellaneous/introduction-to-audit-logging/", "Audit Logging"],
               ["/jbase/encryption/", "Encryption"],
+              ["/jbase/files/", "File Handling"],
               ["/jbase/miscellaneous/introduction-to-distributed-locking/", "jDLS"],
               ["/jbase/jrfs/jrfs-quick-start-guide/", "jRFS"],
               ["/jbase/record-locking/", "jBASE Record Locking"],
-              ["/jbase/triggers/trigger-api/", "Triggers"]
+              ["/jbase/triggers/triggers-overview/", "Triggers"]
             ]
           },
           {
@@ -368,6 +348,7 @@ module.exports = {
             path: "/jbase/release-notes",
             collapsable: true,
             children: [
+              ["/jbase/release-notes/5.8/", "5.8.x"],
               ["/jbase/release-notes/5.7/", "5.7.x"],
               ["/jbase/release-notes/5.6/", "5.6.x"],
               ["/jbase/release-notes/5.5/5.5.1/", "5.5.x"]

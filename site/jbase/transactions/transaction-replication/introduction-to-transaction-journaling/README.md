@@ -23,9 +23,9 @@ You should also have reviewed Introduction to jBASE, for knowledge of commands a
 
 ## Overview
 
-The "Transaction Journaling" product includes both transaction logging and transaction replication.  Transaction logging (sometimes also called transaction journing) is the normal logging of database updates to a transaction log file.  These log files are typically used to restore changes made between backups.
+The "Transaction Journaling" product includes both transaction logging and transaction replication.  Transaction logging (sometimes also called transaction journaling) is the normal logging of database updates to a transaction log file.  These log files are typically used to restore changes made between backups.
 
-Transaction Replication is a secondary process that takes transaction logs and commits them immediately to a second machine.   For purposes of this documentation transaction logging will be used to discuss transaction logging/journaling while transaction replication will be used to describe  updating a second machine (remote).
+Transaction Replication is a secondary process that takes transaction logs and commits them immediately to a second machine.   For purposes of this documentation transaction logging will be used to discuss transaction logging/journaling while transaction replication will be used to describe updating a second machine (remote).
 
 ![introduction-to-transactional-journaling: 1522426235454-transjourn](./1522426235454-transjourn.jpg)
 

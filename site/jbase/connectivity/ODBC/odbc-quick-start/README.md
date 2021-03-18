@@ -32,7 +32,7 @@ ODBCDEMO
 002 /home/jbtest/ODBCDEMO]D
 ```
 
-A [utility](../../../utilities/sqlcatman/README.md) is provided to create/maintain catalog entries although you can also use a jBASE compliant editor (e.g. ED, JED) or write your own program.
+A [utility](../../../tools-and-utilities/sqlcatman/README.md) is provided to create/maintain catalog entries although you can also use a jBASE compliant editor (e.g. ED, JED) or write your own program.
 
 For the purposes of this document, we have used the “make-demo-file” utility to create a new test file for querying:
 

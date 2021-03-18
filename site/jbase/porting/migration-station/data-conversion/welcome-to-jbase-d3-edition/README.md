@@ -89,7 +89,7 @@ will find the location of the CUSTOMER file.
 
 Whether a file is available in a particular account is mainly determined by the setting of the [JEDIFILEPATH](./../../../../environment-variables/jedifilepath/README.md) environment variable, which defines a list of directories in which to search for jBASE data files. Although no MD entries are created when a file is created, “F” and “Q” pointers are still supported and there is a knowledgebase page devoted to “F” and “Q” pointer resolution to be found [here](./../../../../accounts/qpointers/README.md).  If there are instances of “Q” pointers “pointing to” “Q” pointers, then the [JEDIENABLEQTOQ](./../../../../environment-variables/jedienableq2q/README.md) environment variable may need to be set.
 
-- To change the properties of a file, so that it is not backed up, for instance, use the “[jchmod](./../../../../utilities/jchmod/README.md)” utility and +/- with the appropriate flag to add/subtract. The flags are as:
+- To change the properties of a file, so that it is not backed up, for instance, use the “[jchmod](./../../../../tools-and-utilities/jchmod/README.md)” utility and +/- with the appropriate flag to add/subtract. The flags are as:
   - B     add/remove Backup option,
   - M     add/remove auditing,
   - L     add/remove logging (transaction journaling) for a file.
@@ -176,15 +176,15 @@ CREATE-FILE DATA BP TYPE=UD
 - Both utilities will handle all jBASE file types, including directories and will respect any record locks that exist on jBASE files.
 - jrestore does allow selective restores to be performed. A BASIC program can be supplied on request to assist with all the options.
 - The jbackup utility has an option to provide file statistics, should they be required.
-- Further information on jbackup and jrestore can be found [here](./../../../../utilities/jbackup/README.md) and  [here](./../../../../utilities/jrestore/README.md).
+- Further information on jbackup and jrestore can be found [here](./../../../../tools-and-utilities/jbackup/README.md) and  [here](./../../../../tools-and-utilities/jrestore/README.md).
 
 ## TCL commands
 
-- [**WHO**](./../../../../utilities/who/README.md) Unlike D3, “WHO \*” will not produce a list of all ports in use. The WHO command will provide the port number and either the [JBCLOGNAME](./../../../../environment-variables/jbclogname/README.md) or the user name for the current login.
-- **[LISTU](./../../../../utilities/listu/README.md)** Options available are “P”, which directs output to the printer, “N”, which prevents the listing from paging. The output of the LISTU command can be customized by calling the [JBCUserCustomiseDisplay](./../../../../utilities/customizing-the-output-of-commands/README.md) subroutine.
-- **[WHERE](./../../../../utilities/where/README.md)** The WHERE utility can be used to display information on processes executing jBASE programs. Usage: **WHERE** Ports (Options Ports can be one or a range of ports. The verbose option can be useful, providing information about the jBASE process stack, including line numbers for the currently active process.
+- [**WHO**](./../../../../tools-and-utilities/who/README.md) Unlike D3, “WHO \*” will not produce a list of all ports in use. The WHO command will provide the port number and either the [JBCLOGNAME](./../../../../environment-variables/jbclogname/README.md) or the user name for the current login.
+- **[LISTU](./../../../../tools-and-utilities/listu/README.md)** Options available are “P”, which directs output to the printer, “N”, which prevents the listing from paging. The output of the LISTU command can be customized by calling the [JBCUserCustomiseDisplay](./../../../../tools-and-utilities/customizing-the-output-of-commands/README.md) subroutine.
+- **[WHERE](./../../../../tools-and-utilities/where/README.md)** The WHERE utility can be used to display information on processes executing jBASE programs. Usage: **WHERE** Ports (Options Ports can be one or a range of ports. The verbose option can be useful, providing information about the jBASE process stack, including line numbers for the currently active process.
 - **FIND** There is no FIND command in jBASE. There are, however, two replacements:  
-    1. [jgrep](./../../../../tools/jgrep/README.md), which will search for strings in jBASE files or directories.
+    1. [jgrep](./../../../../tools-and-utilities/jgrep/README.md), which will search for strings in jBASE files or directories.
     2. [ESEARCH](./../../../../jql/esearch/README.md), which generates an implicit list of records in a file if they contain (or do not contain) one or more occurrences of specified character strings.
 - **POVF** Although there is a POVF command in jBASE, it only lists the available space on the mounted file systems. On \*NIX, you may need “root” privileges in order to be able to run the command.
 - **[CREATE-FILE](./../../../../files/create-file/README.md)** When you create a file in the current account/directory, the MD does not get updated to reflect that fact. A PROC wrapper can be provided on request if you wish to continue to have this “feature” available.

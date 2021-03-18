@@ -18,8 +18,8 @@ This release includes various internal bug fixes and the following enhancements 
 
 ## New Commands
 
-[jfilesave](../../../utilities/jfilesave/README.md)  
-[jfilerestore](../../../utilities/jfilerestore/README.md)
+[jfilesave](../../../tools-and-utilities/jfilesave/README.md)  
+[jfilerestore](../../../tools-and-utilities/jfilerestore/README.md)
 
 ## New jBC Statements or Functions
 

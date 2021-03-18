@@ -119,7 +119,7 @@ In order to be able to work with case insensitive record IDs, the file needs to 
 
 If necessary, [jrf](./../../files/jrf/README.md) can be used to revise the case-sensitivity of an existing file.
 
-You can list which files currently support casing via [LISTF](./../../utilities/listf/README.md).
+You can list which files currently support casing via [LISTF](./../../tools-and-utilities/listf/README.md).
 
 ```
 FILENAME.................................... TYPE   MODULO  SEP  BCKUP  INSENSITIVE  CRYPT

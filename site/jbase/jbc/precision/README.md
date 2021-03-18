@@ -13,8 +13,6 @@ The **PRECISION** statement informs jBASE as to the number of digits of precisio
 PRECISION integer
 ```
 
-Where **integer** should be in the range 0 to 9.
-
 ## Note
 
 > - A **PRECISION** statement can be specified any number of times in a source file. Only the most recently defined precision will be active at any one time.

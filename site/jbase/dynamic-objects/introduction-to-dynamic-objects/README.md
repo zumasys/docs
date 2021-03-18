@@ -123,7 +123,7 @@ Let's create a method for our Class. This method will simply add 2 numbers and a
 
 > **Note:**
 >
-> At the present time, the source code for methods must be stored in a separate record because they are compiled to shared objects in the same way as subroutines and functions. A near-future enhancement will allow programs and methods to coexist.
+> Source code for methods must be stored in a separate record because they are compiled to shared objects in the same way as subroutines and functions.
 
 ```
 method Tour::sum1(addend1, addend2)

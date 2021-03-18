@@ -8,8 +8,6 @@ If you are new to Dynamic Objects, we recommend you read through the [Introducti
 
 ## General Rules
 
-**At the present time, methods must be kept separate from the programs that use them,** **however this may change in a future release.**
-
 The general form of a method is:
 
 ```

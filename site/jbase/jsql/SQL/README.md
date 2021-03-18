@@ -141,7 +141,7 @@ RECID                BIRTHDAY   FIRSTNAME                      LASTNAME         
 Selected 2 rows.
 ```
 
-***CAUTION:*** 
+***CAUTION:***  
 > Take care when using **SQLUPDATE** that your *WHERE* clause does not inadvertently
 match more records than you intended.
 
@@ -174,7 +174,7 @@ List 'PICK' exited
 
 One of the advantages of using **SQLSELECTL** instead of regular **{S}SELECT** is that in situations where you have a large table/file and you want to get a result set based on a value in another table/file, otherwise known as a *foreign table*.
 
-e.g. a **DESCRIPTION** column. 
+e.g. a **DESCRIPTION** column.  
 
 And if the *foreign table* is large you could also index the **DESCRIPTION** column (see [Indexes](../../indexes/README.md)).
 
@@ -201,7 +201,7 @@ RECID                BIRTHDAY   FIRSTNAME                      LASTNAME         
 Selected 1 rows.
 ```
 
-***CAUTION:*** 
+***CAUTION:***  
 > Take care when using **SQLDELETE** that your *WHERE* clause does not inadvertently match more records than you intended.
 
 ### SQLDROPTABLE
@@ -225,7 +225,7 @@ or
 
 are both invalid.
 
-To correct this problem without affecting the existing applications, jBASE provides a SQL Catalog file (see [SQLCATMAN](../../utilities/sqlcatman/README.md)).
+To correct this problem without affecting the existing applications, jBASE provides a SQL Catalog file (see [SQLCATMAN](../../tools-and-utilities/sqlcatman/README.md)).
 
 Once you have your SQL Catalog file/directory created you could then create an entry like:
 
