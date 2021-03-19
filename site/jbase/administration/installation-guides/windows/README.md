@@ -5,6 +5,7 @@
 ## Topics
 
 [New -> jBASE 5.8 Windows Installation Guide](./jbase-5-8-windows-installation-guide/README.md)  
+[New -> Upgrading to jBASE 5.8 from a previous version](./upgrading-to-5.8-windows/README.md)  
 * * *
 [Current -> jBASE 5.7.7 - 5.7.11 Windows Installation Guide](./jbase-5-7-windows-installation-guide/README.md)  
 * * *

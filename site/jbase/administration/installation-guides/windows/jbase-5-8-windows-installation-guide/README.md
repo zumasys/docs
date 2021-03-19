@@ -127,7 +127,7 @@ The jBASE installation process will be performed here, before displaying the fol
 
 ### Upgrading from a previous jBASE version
 
-### To be completed  
+[Upgrading to jBASE 5.8 from a previous release](./../upgrading-to-5.8-windows/README.md)
 
 Back to [Windows](./../README.md)
 
