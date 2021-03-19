@@ -6,15 +6,15 @@
 
 The cash register is the heart of the TCS system. It is used for sales, returns, buybacks, mail order transactions, and others.
 
-From the Main Menu, select the **Cash Register** option to get to the Sales Entry screen _(POS-1)_. Some logins can be designed to skip this step and automatically logon to the Cash Register.
+From the Main Menu, select the **Cash Register** option to get to the Sales Entry screen *(POS-1)*. Some logins can be designed to skip this step and automatically logon to the Cash Register.
 
 The screen can be divided into three main parts; Upper, Main Sales Entry, and Tender / Totals.
 
-_Upper_ – The Upper portion of the Cash Register screen contains all the information about the transaction itself. The **Sales Clerk** field defaults to the individual logging onto the register. The **Tran Type** field determines the type of the transaction. The **Tran Number** field is a sequential counter for that specific register. The **Store** field defaults to the store number. The **Date** defaults to the current date. The **Register** number is a unique identifying number for that register. All of these components are vital in identifying each individual transaction, and are printed on the register receipt.
+*Upper* – The Upper portion of the Cash Register screen contains all the information about the transaction itself. The **Sales Clerk** field defaults to the individual logging onto the register. The **Tran Type** field determines the type of the transaction. The **Tran Number** field is a sequential counter for that specific register. The **Store** field defaults to the store number. The **Date** defaults to the current date. The **Register** number is a unique identifying number for that register. All of these components are vital in identifying each individual transaction, and are printed on the register receipt.
 
-_Main Sales Entry_ – This is where all of the individual items are entered into the register. Items can be scanned in using the register scanner or entered manually using the keyboard. Many of the programmable function keys of the keyboard will be used in this area.
+*Main Sales Entry* – This is where all of the individual items are entered into the register. Items can be scanned in using the register scanner or entered manually using the keyboard. Many of the programmable function keys of the keyboard will be used in this area.
 
-_Tender / Totals_ – This is where all your tenders will be entered. You will also see the sub-total, tax, and total amounts here.
+*Tender / Totals* – This is where all your tenders will be entered. You will also see the sub-total, tax, and total amounts here.
 
 ### Exiting
 
@@ -26,29 +26,29 @@ The following are the commonly available transaction types with a brief descript
 
 For a complete list for your system, select the ?? Either at the register's Tarn Type field or at Transaction Type Maintenance (POS-2-5).
 
-Open - This is used to _open_ the register. Until the register has been opened, no transactions can be run on the register.
+Open - This is used to *open* the register. Until the register has been opened, no transactions can be run on the register.
 
-SA - This is used for most _Sale_ transactions. Since this is usually set as the default Tran Type there is no function key setup. At the end of each transaction, the cursor will default back to the _Tran Type_ field. _AR_ sales have their own sales _Tran Type_.
+SA - This is used for most *Sale* transactions. Since this is usually set as the default Tran Type there is no function key setup. At the end of each transaction, the cursor will default back to the *Tran Type* field. *AR* sales have their own sales *Tran Type*.
 
-RT - This is used for most _Return_ type transactions. To use this _Tran Type_, either type in the _RT_ code or press the function key labeled _Return_. _AR Returns_ have their own _Tran Type_.
+RT - This is used for most *Return* type transactions. To use this *Tran Type*, either type in the *RT* code or press the function key labeled *Return*. *AR Returns* have their own *Tran Type*.
 
-AR - This is used for all _Accounts Receivable / University Charge_ type transactions.
+AR - This is used for all *Accounts Receivable / University Charge* type transactions.
 
-ARRT - This is used for _Returns_ of _Accounts Receivable / University Charge_ type transactions.
+ARRT - This is used for *Returns* of *Accounts Receivable / University Charge* type transactions.
 
-ROA - This is used for _Accounts Receivable / University Charge_ payments made at the cash register (Received on Account).
+ROA - This is used for *Accounts Receivable / University Charge* payments made at the cash register (Received on Account).
 
-BB - This is used in conjunction with our TEXT module. The _Buy Back_ transaction type will assist you in buying back textbooks.
+BB - This is used in conjunction with our TEXT module. The *Buy Back* transaction type will assist you in buying back textbooks.
 
-PV - This _Post Void_ transaction will void out any previously completed transaction. Security restrictions can and should be placed on this tran type.
+PV - This *Post Void* transaction will void out any previously completed transaction. Security restrictions can and should be placed on this tran type.
 
-RR - This is used to _reprint a Receipt_.
+RR - This is used to *reprint a Receipt*.
 
-NS - _No Sale_ to open the cash drawer.
+NS - *No Sale* to open the cash drawer.
 
-X - The _X_ is used to get an ‘X-REPORT’. This is used when you are ready to count and reconcile your drawer. The x-report will give you all totals for sales and tenders since the last time your drawer was set back to ‘zero’ through a z-close. The x-report **will not** zero out any amounts.
+X - The *X* is used to get an ‘X-REPORT’. This is used when you are ready to count and reconcile your drawer. The x-report will give you all totals for sales and tenders since the last time your drawer was set back to ‘zero’ through a z-close. The x-report **will not** zero out any amounts.
 
-CLOSE - The _CLOSE_ key is used to do a ‘Z-CLOSE’ when you are ready to close out the register and do a final reconciliation of the drawer. The z-close will close out the register and zero out any totals. The z-close report will give you all the same information that the x-report does.
+CLOSE - The *CLOSE* key is used to do a ‘Z-CLOSE’ when you are ready to close out the register and do a final reconciliation of the drawer. The z-close will close out the register and zero out any totals. The z-close report will give you all the same information that the x-report does.
 
 ### Tender Codes
 
@@ -70,7 +70,7 @@ ACCOUNTS RECEIVABLE - Used in most cases of Accounts Receivable / University Cha
 
 ## Entering Transactions
 
-From the Main Menu, select the **Cash Register** option to get to the Sales Entry screen _(POS-1)_. Some logins can be designed to skip this step and automatically logon to the Cash Register.
+From the Main Menu, select the **Cash Register** option to get to the Sales Entry screen *(POS-1)*. Some logins can be designed to skip this step and automatically logon to the Cash Register.
 
 1. The **Sales Clerk** field is filled in automatically by the system with the name of the person currently logged in.
 2. In the **Tran Type** field, enter the transaction type that you would like to use. You can see a list of transaction types by selecting “??.” Each register can have a default transaction type set. (usually **Sale)** If you wish to close the register, enter the transaction type that is set up to close the register; if you wish to open it, enter the transaction type that is set up to do so. Upon first entering the register (anytime after the register has been closed), the transaction type of **OPEN** will automatically appear.
@@ -87,13 +87,13 @@ Scan in the item with the hand-held scanners. You may scan a manufacturer’s ba
 
 ### Manually Entering Items
 
-_By SKU_
+*By SKU*
 
 Enter in the item number. When you manually enter the number, the number must match **exactly** as it is in the Master File. The system **will not** accept only part of the number.
 
-_By Description_
+*By Description*
 
-Enter in any part of the description of the item. The system will match exactly the description you tell it to. For example, if you type in “_SHAM_”, it will pick up ‘Shampoo’ as well as ‘Shamrock’, but will not pick up ‘Shmp’(as an abbreviation for Shampoo).
+Enter in any part of the description of the item. The system will match exactly the description you tell it to. For example, if you type in “*SHAM*”, it will pick up ‘Shampoo’ as well as ‘Shamrock’, but will not pick up ‘Shmp’(as an abbreviation for Shampoo).
 
 If a ‘List Box’ is displayed, you may scroll through the list until you find the item you are looking for. If you do not find the item, you may want to try under a different description. When you have located the item in a list box, choose the corresponding number to the left of the item.
 
@@ -166,10 +166,10 @@ The item inquiry key can be used at any time while in the cash register screen. 
 1. Press the ‘Gift Cert Purchase’ key.
 2. Enter in the information in the field on the display. (fields are optional except the value field – enter in the value of the gift cert) It is recommended that you fill in the “Purchased By” and “Purchased For” fields.
 3. **As you fill in the amount of the gift certificate on the actual gift certificate, you must write down the voucher number on the gift certificate! The voucher number is automatically given to you when you press the ‘Purchase Gift Certificate’ key. The number is located towards the top left hand corner of the screen with the prompt of “Voucher Number:”**
-4. After you have filled in all the necessary information for the gift certificate, and only after you have written the amount and voucher number on the gift certificate, press “_Enter_” to ‘Save’ the gift certificate to the system.
+4. After you have filled in all the necessary information for the gift certificate, and only after you have written the amount and voucher number on the gift certificate, press “*Enter*” to ‘Save’ the gift certificate to the system.
 5. Continue on with your transaction as you would any other transaction.
 
-**_NOTE:_**
+***NOTE:***
 
 You may purchase multiple gift certificates per transaction (if they are buying 2 $20.00 gift certificates, you will be processing two different gift certificates in the system and they will have two separate ‘voucher numbers’.
 
@@ -190,23 +190,23 @@ If you want the memo text printed on any receipts as well...
 
 1. Select each receipt header (POS-3-3)
 2. Select <R>=Receipt Detail
-3. Add a new line number under _NewL_
-4. Set how many spaces you want the memo text _Indent_ed.
-5. Set MEMO as the _Attribute_.
-6. Set _Mask_ to L#nn, where nn plus the indented amount doesn't exceed the number of spaces available on the receipt (typically 40).
-7. You can enter any _Comments_ that you wish.
+3. Add a new line number under *NewL*
+4. Set how many spaces you want the memo text *Indent*ed.
+5. Set MEMO as the *Attribute*.
+6. Set *Mask* to L#nn, where nn plus the indented amount doesn't exceed the number of spaces available on the receipt (typically 40).
+7. You can enter any *Comments* that you wish.
 
 ### Suspend
 
-1. You can suspend **any SALE** transaction as long as you have not placed a _Tender_ (form of payment) towards the transaction.
-    1. Process the _Sale_ transaction as you would any other transaction.
+1. You can suspend **any SALE** transaction as long as you have not placed a *Tender* (form of payment) towards the transaction.
+    1. Process the *Sale* transaction as you would any other transaction.
     2. After all items have been entered into the register, press the **Suspend** key.
-        1. The **suspend** key can be pressed while in either the _sales entry_ screen or in the _tender_ area.
+        1. The **suspend** key can be pressed while in either the *sales entry* screen or in the *tender* area.
     3. At the prompt **Enter the customer’s name**, enter the name of the customer for whom you are suspending the transaction.
         1. Once you enter the customer’s name and press the enter key. The system will move the transaction to a separate file and you will be returned to the Cash Register screen.
-2. To get a **report** on your _suspended_ transactions;
-    1. From the POS Master Menu, choose the **RP** option for the _Report Menu_.
-    2. Next choose option number **6** for _Miscellaneous Reports_, then option number **5** for the _Suspended Transaction Report_.
+2. To get a **report** on your *suspended* transactions;
+    1. From the POS Master Menu, choose the **RP** option for the *Report Menu*.
+    2. Next choose option number **6** for *Miscellaneous Reports*, then option number **5** for the *Suspended Transaction Report*.
 3. You can choose to print the report to your screen (terminal) or to the printer.
 
 ### Resume
@@ -217,26 +217,26 @@ If you want the memo text printed on any receipts as well...
 
 ### Item Exchange
 
-While in the Sales Entry’ screen, press “_Enter_” to accept the default tender of “SA” for a sale transaction.
+While in the Sales Entry’ screen, press “*Enter*” to accept the default tender of “SA” for a sale transaction.
 
 1. Enter items as you would a normal sale transaction.
 2. To enter a ‘return’ item:
-    1. Press the “_ITEM EXCHANGE_” button
-        1. (If you have more than one of the same item being returned, enter in the amount being returned then press the item exchange button -- if two items are being returned, press “_2_” then “_ITEM EXCHANGE_”)
+    1. Press the “*ITEM EXCHANGE*” button
+        1. (If you have more than one of the same item being returned, enter in the amount being returned then press the item exchange button -- if two items are being returned, press “*2*” then “*ITEM EXCHANGE*”)
     2. Enter the item by scanning, manually entering the SKU number, or by description.
-3. When you are through entering in items being sold or returned, press the “_TOTAL_” key.
+3. When you are through entering in items being sold or returned, press the “*TOTAL*” key.
 4. Complete the transaction by entering the amount tendered
 
 ### Store Credit
 
-_Issuing a Store Credit_
+*Issuing a Store Credit*
 
-1. A store credit can be issued any time the balance owed (the total) is a negative balance (whether through a return or exchange). If you have a negative balance after you have pressed the ‘_Total_” key, press the “Store Credit” key.
+1. A store credit can be issued any time the balance owed (the total) is a negative balance (whether through a return or exchange). If you have a negative balance after you have pressed the ‘*Total*” key, press the “Store Credit” key.
 2. A small window will display where you must fill in the name, address, and phone. All the fields in the window are required fields. It is recommended that you enter their name, their ‘company’ or ‘squadron’ for the address, “WP” (for West Point) for City, ST Zip, and then a phone number (any phone number will do)
-3. Press “_Enter_” to save the store credit to the system.
+3. Press “*Enter*” to save the store credit to the system.
 4. Make sure you give the customer the receipt. The receipt will have the voucher number on it, and they must provide the receipt in order to redeem their store credit.
 
-_Redeeming a Store Credit_
+*Redeeming a Store Credit*
 
 1. After entering in the items the customer is purchasing and pressing the total key, press the “Redeem Credit” key.
 2. At the prompt “Enter Voucher Number”, enter the voucher number that is on their original receipt.
@@ -254,7 +254,7 @@ The Tran Abort key can be used any time during the transaction to cancel it out.
 
 Special Orders are used when an item that is not in stock is placed on order by a customer. The order can then be added to another PO going to the same vendor, or created specifically for that customer. When the order arrives, the customer will then be notified to pick up the item. The following document shows how Special Orders work with the TCS software.
 
-Special Orders are used for items not in stock. Three major processes are involved: _Placing the Special Order_, _Receiving the Special Order_, and _Picking up the Special Order_ by the customer.
+Special Orders are used for items not in stock. Three major processes are involved: *Placing the Special Order*, *Receiving the Special Order*, and *Picking up the Special Order* by the customer.
 
 #### Placing Special Orders
 
@@ -264,7 +264,7 @@ Special Orders are used for items not in stock. Three major processes are involv
 
 #### Special Order Maintenance
 
-1. ![](images/word-image-395.png) There are two ways to get to the Special Order Entry screen _(POS-24-1)_. If you wish to enter a new special order, you must access the screen by selecting the **Cash Register** option from the Main Menu and then entering “SPO” as the transaction type. If you are going to modify an existing special order, you can access the screen from the Main Menu by selecting the **Special Orders** option followed by the **Maintenance** option.
+1. ![](images/word-image-395.png) There are two ways to get to the Special Order Entry screen *(POS-24-1)*. If you wish to enter a new special order, you must access the screen by selecting the **Cash Register** option from the Main Menu and then entering “SPO” as the transaction type. If you are going to modify an existing special order, you can access the screen from the Main Menu by selecting the **Special Orders** option followed by the **Maintenance** option.
 2. In the **Special Order ID** field, enter a period to assign the next available ID number to the new special order. If you are modifying an existing order, enter the ID number assigned to that order, the name of the customer, or enter “??” to see a list of existing orders.
 3. In the **Customer Name** field, enter the name of the customer who is placing the order. If the customer is representing an organization, enter the name of that organization in the **Organization** field.
 4. In the **Primary Phone** field, enter the primary phone number where the customer can be reached.
@@ -300,7 +300,7 @@ Special Orders are used for items not in stock. Three major processes are involv
 1. Customer picks up special order items.
 2. Customer takes items to the cashier.
 3. Do a regular Sale transaction.
-4. For the line items enter the Special Order Pickup Modifier. (To set this up go to _Special Order Pickup Modifier_.
+4. For the line items enter the Special Order Pickup Modifier. (To set this up go to *Special Order Pickup Modifier*.
 5. This will take you into Special Order maintenance. Put in the quantity being picked up.
 6. The program will automatically add these items to the current transaction.
 7. Total the transaction.

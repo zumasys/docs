@@ -174,8 +174,6 @@ PosConnect/AR Split Tender
 
 See details [here](./../colleague-split-tender-checkout/README.md)
 
- 
-
 ## Setup
 
 Please contact support to setup AR or POSCONNCECT Split Tender options.

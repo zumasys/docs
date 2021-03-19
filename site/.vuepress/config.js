@@ -554,6 +554,18 @@ module.exports = {
         collapsable: true,
         children: [
           ["/smartsuite/ap/accounts-payable-training/", "Accounts Payable"],
+          ["/smartsuite/ar/ar-training/", "AR Training Guide"],
+          {
+            title: "Accounts Receivable",
+            path: "/smartsuite/ar/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/ar/ar-general-ledger-interface/", "General Ledger Interface"],
+              ["/smartsuite/ar/ar-history/", "Managing AR History"],
+              ["/smartsuite/ar/creating-ar-agents/", "Create AR Agents"],
+              ["/smartsuite/ar/create-ar-customers/", "Create AR Customers"]
+            ]
+          },
           {
             title: "General Ledger",
             path: "/smartsuite/gl/",
@@ -564,18 +576,6 @@ module.exports = {
               ["/smartsuite/gl/month-end-closing/", "EOM CLosing"]
             ]
           },          
-          {
-            title: "Accounts Receivable",
-            path: "/smartsuite/ar/",
-            collapsable: true,
-            children: [
-              ["/smartsuite/ar/ar-training/", "Training Guide"],
-              ["/smartsuite/ar/ar-general-ledger-interface/", "General Ledger Interface"],
-              ["/smartsuite/ar/ar-history/", "Managing AR History"],
-              ["/smartsuite/ar/creating-ar-agents/", "Create AR Agents"],
-              ["/smartsuite/ar/create-ar-customers/", "Create AR Customers"]
-            ]
-          },
           {
             title: "General Merchandise",
             path: "/smartsuite/gm/",
@@ -610,7 +610,7 @@ module.exports = {
             collapsable: true,
             children: [
               ["/smartsuite/hardware/add-logo-to-receipt/", "Add Receipt Logo"],
-              ["/smartsuite/hardware/scanpal-usage-guide", "Scanpal User Guide"]
+              ["/smartsuite/hardware/scanpal-usage-guide/", "Scanpal User Guide"]
             ]
           },
           {
@@ -667,25 +667,25 @@ module.exports = {
             path: "/smartsuite/text/",
             collapsable: true,
             children: [
-              ["/smartsuite/text/adoption-import-file-specification", "Adoption Import File Specs"],
-              ["/smartsuite/text/advanced-faculty-adoptions-web-side", "Advanced Faculty Adoptions - Web"],
+              ["/smartsuite/text/adoption-import-file-specification/", "Adoption Import File Specs"],
+              ["/smartsuite/text/advanced-faculty-adoptions-web-side/", "Advanced Faculty Adoptions - Web"],
               ["/smartsuite/web/advanced-faculty-adoptions-store-side/", "Advanced Faculty Adoptions - Store Side"],
-              ["/smartsuite/text/auto-orders", "Auto Orders"],
-              ["/smartsuite/text/buyback-process", "Buyback Process"],
-              ["/smartsuite/text/buyback-setup", "Buyback Setup"],
-              ["/smartsuite/text/import-adoption-headers", "Import Adoption Headers"],
-              ["/smartsuite/text/manually-add-an-ebook", "Manually Add An Ebook"],
-              ["/smartsuite/text/print-adoption-forms", "Print Adoption Forms"],
-              ["/smartsuite/text/printing-adoption-forms", "Printing Adoption Formsv2"],
-              ["/smartsuite/text/receiving-process", "Receiving PRocess"],
-              ["/smartsuite/text/redshelf-adoption-export", "Redshelf Adoption Export"],
-              ["/smartsuite/text/redshelf-user-guide", "Redshelf User Guide"],
-              ["/smartsuite/text/rental-setup-and-training", "Rental Setup and Training"],
-              ["/smartsuite/text/returns-process", "Returns Process"],
-              ["/smartsuite/text/store-transfers", "Store Transfers"],
-              ["/smartsuite/text/textbook-training", "Textbook Training"],
-              ["/smartsuite/text/transfer-and-import-redshelf-catalog", "Transfer and Import Redshelf Catalog"],
-              ["/smartsuite/text/wholesale-guide-update", "Wholesale Guide Update"]
+              ["/smartsuite/text/auto-orders/", "Auto Orders"],
+              ["/smartsuite/text/buyback-process/", "Buyback Process"],
+              ["/smartsuite/text/buyback-setup/", "Buyback Setup"],
+              ["/smartsuite/text/import-adoption-headers/", "Import Adoption Headers"],
+              ["/smartsuite/text/manually-add-an-ebook/", "Manually Add An Ebook"],
+              ["/smartsuite/text/print-adoption-forms/", "Print Adoption Forms"],
+              ["/smartsuite/text/printing-adoption-forms/", "Printing Adoption Formsv2"],
+              ["/smartsuite/text/receiving-process/", "Receiving PRocess"],
+              ["/smartsuite/text/redshelf-adoption-export/", "Redshelf Adoption Export"],
+              ["/smartsuite/text/redshelf-user-guide/", "Redshelf User Guide"],
+              ["/smartsuite/text/rental-setup-and-training/", "Rental Setup and Training"],
+              ["/smartsuite/text/returns-process/", "Returns Process"],
+              ["/smartsuite/text/store-transfers/", "Store Transfers"],
+              ["/smartsuite/text/textbook-training/", "Textbook Training"],
+              ["/smartsuite/text/transfer-and-import-redshelf-catalog/", "Transfer and Import Redshelf Catalog"],
+              ["/smartsuite/text/wholesale-guide-update/", "Wholesale Guide Update"]
             ]
           },
           {
