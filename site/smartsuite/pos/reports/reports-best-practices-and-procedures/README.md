@@ -6,7 +6,7 @@ Below is a list of the most common report fields and what they do. The purpose o
 
 There is also a best practices on the more optimal ways of running reports. This includes how to report on multiple class or department codes, what to do when you get a "0 records listed" response as well as other things.
 
-### Common Practices
+## Common Practices
 
 - Populate as few fields as possible to get the information you need.
     - Data presented in a report is information that meets **_every single_** field criteria.
@@ -18,7 +18,7 @@ There is also a best practices on the more optimal ways of running reports. This
 - There is currently no way to report on "everything except" unless you enter every valid option.
     - e.g. If you want to report on every class _other than_ 101 you would have to enter every class code except 101, into the Class field.
 
-### Common Fields
+## Common Fields
 
 - Store: Entering a value for Store restricts the report to only display results for the specified store.
     - Note that some items are not store specific, e.g. Class codes or fee codes are store agnostic.

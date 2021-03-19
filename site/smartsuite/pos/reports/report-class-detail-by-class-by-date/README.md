@@ -14,7 +14,6 @@ At first glance the data is very similar to the Class Detail by Date by Class re
 
 ![](./pos-rp-1-3-2.1.png)
 
- 
 
 However, the format changes when you run it for multiple dates. The focus is on the class data, then by date. So class 100 is all grouped together across the date range, totaled for the date range, and then class 101 is reported for the date range, etc.
 
@@ -22,10 +21,10 @@ This example is for a six day span.
 
 ![](./pos-rp-1-3-2.2.png)
 
-### Unique Field Options
+## Unique Field Options
 
 There are no unique fields in this report.
 
-Note: the most common fields are covered in the [Reports: Best Practices and Procedures](http://tcs-training-wp.azurewebsites.net/?post_type=dwkb&p=1227&preview=true) article. Only special usage scenarios or options are covered in this article.
+Note: the most common fields are covered in the [Reports: Best Practices and Procedures](./../reports-best-practices-and-procedures/README.md) article. Only special usage scenarios or options are covered in this article.
 
 <PageFooter />

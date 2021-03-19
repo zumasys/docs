@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-There are several steps to create and setup a kitchen printer. To view the complete in-depth documentation on receipt detail setup refer to the Main POS Training Documentation [here](http://tcs-training-wp.azurewebsites.net/dwkb/pos-training/). This article is meant for information training purposes and setup.
+There are several steps to create and setup a kitchen printer. To view the complete in-depth documentation on receipt detail setup refer to the Main POS Training Documentation [here](./../pos-training/README.md). This article is meant for information training purposes and setup.
 
 1. Create a “Kitchen Printer Receipt” header in POS.3.3
 

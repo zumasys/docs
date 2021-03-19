@@ -16,6 +16,6 @@ Output: Register, Quantity, Sell Price Extended, Item Discount Total, Item Markd
 
 A/R Invoice: Allows you to specify an AR Invoice number to view the other transaction details.
 
-Note: the most common fields are covered in the [Reports: Best Practices and Procedures](http://tcs-training-wp.azurewebsites.net/?post_type=dwkb&p=1227&preview=true) article. Only special usage scenarios or options are covered in this article.
+Note: the most common fields are covered in the [Reports: Best Practices and Procedures](../reports-best-practices-and-procedures/README.md) article. Only special usage scenarios or options are covered in this article.
 
 <PageFooter />

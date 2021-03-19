@@ -1,4 +1,3 @@
-
 # Accounts Payable Training
 
 <PageHeader />

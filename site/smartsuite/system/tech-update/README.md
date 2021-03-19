@@ -6,7 +6,11 @@
 
 #### Rush Preparation
 
-Close all previous Terms ([TX-SU-1-2-2](http://tcs-training-wp.azurewebsites.net/dwkb/textbook-training/#Closing_a_Term)) Update your Buying Guides ([TX-24-21](http://tcs-training-wp.azurewebsites.net/dwkb/wholesale-guide-update/#Overview)) Sync your Registers (SL-2) (POS-6-2) [_Video_](https://www.youtube.com/embed/fiDJG9LgVaA) Verify your Rental Periods ([POS-27-21](http://tcs-training-wp.azurewebsites.net/dwkb/rental-setup-and-training/#Setting_up_rentals_POS-27-21)) GM End of Period Processing ([GM-23](http://tcs-training-wp.azurewebsites.net/dwkb/month-end-closing/#End_of_Period_Processing))
+Close all previous Terms ([TX-SU-1-2-2](http://tcs-training-wp.azurewebsites.net/dwkb/textbook-training/#Closing_a_Term))  
+Update your Buying Guides ([TX-24-21](http://tcs-training-wp.azurewebsites.net/dwkb/wholesale-guide-update/#Overview))  
+Sync your Registers (SL-2) (POS-6-2) [_Video_](https://www.youtube.com/embed/fiDJG9LgVaA)  
+Verify your Rental Periods ([POS-27-21](http://tcs-training-wp.azurewebsites.net/dwkb/rental-setup-and-training/#Setting_up_rentals_POS-27-21))  
+GM End of Period Processing ([GM-23](http://tcs-training-wp.azurewebsites.net/dwkb/month-end-closing/#End_of_Period_Processing))
 
 #### Webstore Featured Catalog
 

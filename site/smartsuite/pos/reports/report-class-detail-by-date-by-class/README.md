@@ -23,6 +23,6 @@ The screenshot below shows data on two days.
 
 There are no unique fields in this report.
 
-Note: the most common fields are covered in the [Reports: Best Practices and Procedures](http://tcs-training-wp.azurewebsites.net/?post_type=dwkb&p=1227&preview=true) article. Only special usage scenarios or options are covered in this article.
+Note: the most common fields are covered in the [Reports: Best Practices and Procedures](../reports-best-practices-and-procedures/README.md) article. Only special usage scenarios or options are covered in this article.
 
 <PageFooter />

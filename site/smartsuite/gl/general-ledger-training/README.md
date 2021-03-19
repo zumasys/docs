@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-# Initial Setup
+## Initial Setup
 
 ## Fiscal Periods
 

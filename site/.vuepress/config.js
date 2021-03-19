@@ -555,6 +555,16 @@ module.exports = {
         children: [
           ["/smartsuite/ap/accounts-payable-training/", "Accounts Payable"],
           {
+            title: "General Ledger",
+            path: "/smartsuite/gl/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/gl/general-ledger-pos-setup/", "GL POS Setup"],
+              ["/smartsuite/gl/general-ledger-training/", "Training Document"],
+              ["/smartsuite/gl/month-end-closing/", "EOM CLosing"]
+            ]
+          },          
+          {
             title: "Accounts Receivable",
             path: "/smartsuite/ar/",
             collapsable: true,
@@ -564,16 +574,6 @@ module.exports = {
               ["/smartsuite/ar/ar-history/", "Managing AR History"],
               ["/smartsuite/ar/creating-ar-agents/", "Create AR Agents"],
               ["/smartsuite/ar/create-ar-customers/", "Create AR Customers"]
-            ]
-          },
-          {
-            title: "General Ledger",
-            path: "/smartsuite/gl/",
-            collapsable: true,
-            children: [
-              ["/smartsuite/gl/general-ledger-pos-setup/", "GL POS Setup"],
-              ["/smartsuite/gl/general-ledger-training/", "Training Document"],
-              ["/smartsuite/gl/month-end-closing/", "EOM CLosing"]
             ]
           },
           {

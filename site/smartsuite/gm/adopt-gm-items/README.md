@@ -28,7 +28,7 @@ You can add POS Fee Code(s) the same way that you would add a sku in the S2=Scre
 
 ![](./Resume-GM-Adoption-Order.jpg)
 
-You can also enter in Fee Code(s), this allows you to collect any additional fees that may be required for the course that has been set by the Instructor or Staff. _\*for details on setting up Fees Codes, reference [POS Training](http://tcs-training-wp.azurewebsites.net/dwkb/pos-training/)_
+You can also enter in Fee Code(s), this allows you to collect any additional fees that may be required for the course that has been set by the Instructor or Staff. _\*for details on setting up Fees Codes, reference [POS Training](.././../pos/pos-training/README.md)_
 
 _Example web cart ![](./Resume-Cart-GM-Fee-Adoption.jpg)_ 
 

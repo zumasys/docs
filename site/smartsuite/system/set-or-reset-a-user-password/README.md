@@ -9,7 +9,7 @@ While the steps on how to change a user’s password are straight forward, there
 2. It is necessary to set the user’s password from the Host Connection. While these steps can be followed on an individual register, passwords ARE NOT sent to all of the other registers.
     1. By setting the password on the host all registers will get the updated password.
     2. Check POS-6-2 to view which registers are communicating. Those who have a "To Be Xfered" amount of zero in the right hand column will immediately have the updated password.
-        1. Steps to restart the register communications can be found in the Smartlane Communications video [here](http://tcs-training-wp.azurewebsites.net/videos/).
+        1. Steps to restart the register communications can be found in the Smartlane Communications video [here](https://youtu.be/fiDJG9LgVaA).
 
 ### To quickly reset the password for the logged in user
 

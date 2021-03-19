@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-## **Simple Overview**
+## Simple Overview
 
 The overall process is listed below with more details following.
 

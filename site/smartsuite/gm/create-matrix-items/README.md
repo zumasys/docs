@@ -1,6 +1,5 @@
 # Create Matrix Items
 
-
 This document explains how to create and modify GM Matrix items. The Matrix is for items that come in different sizes and colors. It allows you to link these items together—maintaining, ordering, and receiving them as a group. Yet it also allows you the flexibility to do those things with individual matrix items as well. Here are the steps to making a matrix item.
 
 1. **Set Up Color Codes**

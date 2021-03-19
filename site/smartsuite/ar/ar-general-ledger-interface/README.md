@@ -1,4 +1,3 @@
-
 # A/R General Ledger Interface
 
 <PageHeader />
@@ -19,7 +18,7 @@ Options 1 and 2 are for Invoices entered in the A/R module.
 
 Options 3 and 4 are for Payments entered in the A/R module.
 
-### Invoices
+## Invoices
 
 **Option 1.  Invoice Pre-Posting Report** Use this report to see what, if any, invoices are eligible for posting.
 
@@ -43,7 +42,7 @@ When the Journal Entry is created you will see a box in the middle of the screen
 
 ![](./ar_gl_post_invoice.png)
 
-### Payments
+## Payments
 
 **Option 3. Manual & Agent Payments Pre-Transfer Report** Use this report to see what, if any, payments can be moved to the G/L Receipts file. This will show Payments that have been manually entered and not previously transferred to the G/L.  The report is sorted by store, date, and batch flag (Manual or Agent).
 

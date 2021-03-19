@@ -166,21 +166,21 @@ The ‘Cancel Any Line’ key may be used multiple times during any transaction.
 
 (These options will also work for Mail Order transactions.)
 
-# Resuming online Financial Aid Transactions
+## Resuming online Financial Aid Transactions
 
 ### Split Tenders FA Transactions.
 
 PosConnect/AR Split Tender
 
-See details here http://tcs-training-wp.azurewebsites.net/dwkb/colleague-split-tender-checkout/
+See details [here](./../colleague-split-tender-checkout/README.md)
 
  
 
-# Setup
+## Setup
 
 Please contact support to setup AR or POSCONNCECT Split Tender options.
 
-# Web Customer View
+## Web Customer View
 
 The change that you will see on the web is, as a customer, they will shop as normal. When they select the option to go to the cart the first thing they see will be the cart details and asking if the will pay with Financial Aid.
 

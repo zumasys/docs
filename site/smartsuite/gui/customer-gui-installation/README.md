@@ -1,10 +1,10 @@
 # Customer GUI Installation
 
+<PageHeader>
+
 Below are the steps that one of our customers can follow to install and setup the TCS application on a desktop computer. Ideally these steps are performed via a remote session by members of the TCS support team but sometimes that isn't feasible.
 
 The technical level of these steps are slightly above normal and should be completed by members of IT staff or individuals comfortable navigating directories, installing applications and copying files.
-
-<PageHeader>
 
 ## Pre-requisites
 

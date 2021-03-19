@@ -1,4 +1,4 @@
-# Textbook Training"
+# Textbook Training
 
 <PageHeader />
 
@@ -443,7 +443,7 @@ Here is an explanation of some of the fields contained in the Adoption Screen.
 - Phone: Enter the phone number. You do not have to enter the dashes. Area code is optional. This field is optional.
 - Entered by: This will come up with the logon of the user automatically. This can be changed to the initials of the person inputting the data.
 - Shelf Tag Note: This is a note that will appear on the shelf tag. Entering a ‘??’ will show valid entries here. The shelf tag does have to be set up to print out the shelf tag note.
-- Misc Materials: If materials other than textbooks are required or suggested, enter a 'Y'. This will bring up a screen to enter description, qty, and required or optional. See the document at this link for additional information. [http://tcs-training-wp.azurewebsites.net/dwkb/1460-2/](http://tcs-training-wp.azurewebsites.net/dwkb/1460-2/)
+- Misc Materials: If materials other than textbooks are required or suggested, enter a 'Y'. This will bring up a screen to enter description, qty, and required or optional. See the document at this link for additional information. [GM Adoptions](../../gm/adopt-gm-items/README.md)
 - ISBN: International Standard Book Number - A unique number that is assigned to almost every title that is produced to identify the book. Enter the ISBN of the title to adopt or enter 3 or more characters of title, or auth/title or /title. Enter '.' to add a new artificial number.
 
 If the title entered does not exist on the local database, it will ask you if you want to search wholesale guide. If you select an ISBN from wholesale guide, it will then ask you if you want to copy it into local database. If you answer yes, it will then take you to Masterfile maintenance screen to complete all necessary data for the textbook. After entering all necessary data, save the record. It will then take you back to the adoption record. It will have information brought in such as author, title, publisher, edition etc. If there is no vendor type set up for the vendor of the book, it will give you an error message that the vendor has no vendor type. Hit return and it will take you into the vendor maintenance screen, so you can fix it. It will then take you back to the adoption screen to continue.

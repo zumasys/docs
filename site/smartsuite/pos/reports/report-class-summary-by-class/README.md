@@ -27,6 +27,6 @@ Sort by Report Code: Allows you to override the numerical listing of class codes
 
 Creating a class Report Category is found in POS-22-3-5. Once a category has been created you can assign it to the classes belonging to that report category in POS-22-3-2.
 
-Note: the most common fields are covered in the [Reports: Best Practices and Procedures](http://tcs-training-wp.azurewebsites.net/?post_type=dwkb&p=1227&preview=true) article. Only special usage scenarios or options are covered in this article.
+Note: the most common fields are covered in the [Reports: Best Practices and Procedures](./../reports-best-practices-and-procedures/README.md) article. Only special usage scenarios or options are covered in this article.
 
 <PageFooter />

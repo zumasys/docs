@@ -1,8 +1,8 @@
-# GMPurchasing Guide
+# GM Purchasing Guide
 
 <PageHeader />
 
-### GM Purchasing Menu
+## GM Purchasing Menu
 
 ![](./word-image-227.png)
 
