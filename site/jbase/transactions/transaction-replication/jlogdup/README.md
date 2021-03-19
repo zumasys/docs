@@ -61,7 +61,6 @@ The following table describes each of the parameters used for input and output s
 | terminate=eof | I | terminate restore/duplication at eof of eldest log set. |
 | terminate=eos | I | terminate restore/duplication at end of current log set. |
 | terminate=wait | I | switch to elder log sets as required and wait for new updates. |
-| timeout=nnn | I | timeout period in seconds for 'terminate=wait'. |
 | verbose=true | | display to stderr a summary of the specification. |
 
 \* Note: set=auto and milestone=xxx require jBASE release 5.7.5 or greater.
