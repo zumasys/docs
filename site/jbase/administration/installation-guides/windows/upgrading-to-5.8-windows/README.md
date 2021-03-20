@@ -10,7 +10,7 @@ Upgrading to jBASE 5.8 for Windows requires that you have a jbase_5.8.x.xxx_64bi
 
 ![Welcome to the jBASE 5 Setup Wizard](./58Upgrade_1.jpg)
 
-Two possibikities here:
+Two possibilities here:
 
 ## Scenario 1  
 
@@ -72,11 +72,13 @@ Select additional options for the install:
 
 ![Installing](./58Upgrade_20.jpg)
 
+Your results may be different, but these  are things to be aware of post-installation:
+
 ![Information](./58Upgrade_21.jpg)
 
 ![Complete the jBASE 5 Setup](./58Upgrade_22.jpg)
 
-It should now be possible to log into a jBASE account using an absolute path, but JEDIFILENAME_SYSTEM may need to be defined in the %JBCGLOBALDIR%\\jbase_config.json to enable LOGTO to function correctly.
+It should now be possible to log into a jBASE account using an absolute path, but JEDIFILENAME_SYSTEM may need to be defined in the %JBCGLOBALDIR%\\jbase_config.json to enable LOGTO or the use of an account name to function correctly.
 
 If option #2 was selected, all of the environment variables necessary for the jBASE compiler are stored in the %JBCRELEASEDIR%\\system.properties file:
 
