@@ -14,9 +14,11 @@ Two possibilities here:
 
 ## Scenario 1  
 
-There is a working compiler installed we will skip installing a compiler and retain all of our current setup, including PATH, INCUDE and LIB settings:
+There is a working compiler installed, we will skip installing a compiler and retain all of our current setup, including PATH, INCUDE and LIB settings:
 
 ![Install jBASE Prerequisites #1](./58Upgrade_2.jpg)
+
+Note that this same option can be taken when upgrading from jBASE 5.7.7 onwards, where the environment variables necessary for the jBASE compiler are already stored in your system.properties file.
 
 ## Scenario 2
 
