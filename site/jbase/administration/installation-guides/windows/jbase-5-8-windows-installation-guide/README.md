@@ -102,7 +102,7 @@ With jBASE 5.8, user profiles are introduced and the default version is stored i
 ![Select Directory for jBASE Global Files](./58Installer_17.jpg)
 
 ![Select Directory for jBASE Data](./58Installer_18.jpg)
-
+exit
 ![Select Start Menu Folder](./58Installer_19.jpg)
 
 Decide which additional options you wish to install:
