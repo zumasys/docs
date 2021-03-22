@@ -38,7 +38,7 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <person>
 <name>Amy</name>
 </person>
-<list>
+</list>
 ```
 
 An example of use is as:
