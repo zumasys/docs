@@ -45,11 +45,13 @@ As of the 5.8 version, jBASE can be licensed using either a conventional license
 
 or using CPU Licensing:
 
-[jBASE CPU Licensing Overview](./../../../licensing/cpu/README.md)  
+[jBASE CPU Licensing Overview](./../../../../licensing/cpu/README.md)  
 
-jBASE 5.8 can either be installed on a clean system or used to upgrade from a previous jBASE 5.x version. We will cover both scanrios here.
+jBASE 5.8 can either be installed on a clean system or used to upgrade from a previous jBASE 5.x version. We will cover both scenarios here.
 
 ### Installing on a clean system
+
+![Welcome to the jBASE 5 Setup Wizard](./58Installer_2A.jpg)
 
 jBASE now utilizes the command-line C compiler from Visual Studio 2019 by installing the Visual Studio Build Tools 2019. This process takes place before the jBASE installation proper.
 
@@ -68,6 +70,8 @@ Click to install the Visual Studio Build Tools.
 After the Build Installation completes, click the "Next" button to continue.
 
 ![Installation Completed](./58Installer_8.jpg)
+
+![Searching for compiler](./58Installer_8A.jpg)
 
 The installer will then save compiler configuration information for later use.
 
@@ -98,8 +102,10 @@ With jBASE 5.8, user profiles are introduced and the default version is stored i
 ![Select Directory for jBASE Global Files](./58Installer_17.jpg)
 
 ![Select Directory for jBASE Data](./58Installer_18.jpg)
-
+exit
 ![Select Start Menu Folder](./58Installer_19.jpg)
+
+Decide which additional options you wish to install:
 
 ![Select Additional Tasks](./58Installer_20.jpg)
 
@@ -121,7 +127,7 @@ The jBASE installation process will be performed here, before displaying the fol
 
 ### Upgrading from a previous jBASE version
 
-### To be completed  
+[Upgrading to jBASE 5.8 from a previous release](./../upgrading-to-5.8-windows/README.md)
 
 Back to [Windows](./../README.md)
 

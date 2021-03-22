@@ -43,9 +43,9 @@ What are Objects?
 
 Object Oriented programming (OOP) is a programming paradigm that relies on the concept of classes and objects. It is used to structure a software program into simple, reusable pieces of code (classes), which are used to create individual instances of objects.
 
-### Compile & Catalog Enhancements
+### Compile & Catalog Enhancements  
 
-Another feature improvement in 5.8 is jBASE’s enhanced features for the development cycle. Now you can store your compiled and catalog’ed programs in an easier-to-use format, one object per subroutine, each object with embedded meta-data. This simplifies the development process and the meta-data provides enhanced maintainability. 
+Another feature improvement in 5.8 is jBASE’s enhanced features for the development cycle. Now you can store your compiled and catalog’ed programs in an easier-to-use format, one object per subroutine, each object with embedded meta-data. This simplifies the development process and the meta-data provides enhanced maintainability.  
 
 Additional improvements include:  
 

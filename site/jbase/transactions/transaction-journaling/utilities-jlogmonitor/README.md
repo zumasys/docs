@@ -23,6 +23,8 @@ jlogmonitor {-h|?} {-ccmd} {-Cnn} {-Dnn} {-E} {-Inn) {-Snn}
 ## Note  
 
 >You must specify at least one of the options, -C, -D, -E, -I or -S.
+>
+>This command has been deprecated on jBASE 5.7 (and later) for docker
 
 ## Example
 
