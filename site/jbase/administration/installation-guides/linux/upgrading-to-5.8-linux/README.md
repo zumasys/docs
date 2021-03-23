@@ -22,7 +22,7 @@ We will opt for the Advanced install so that we have control over how jBASE 5.8 
 
 ![Installation Type](./UpgradingtoLinux58_6.jpg)  
 
-The epel package is instaled, if not present, so that the openssl11-libs can be added.
+The epel package is installed, if not present, so that the openssl11-libs can be added.
 
 ![Checking for dependencies #1](./UpgradingtoLinux58_7.jpg)
 
