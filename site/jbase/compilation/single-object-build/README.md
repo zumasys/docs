@@ -89,7 +89,7 @@ As well as a JELF environment variable, a command called 'jelf' is provided givi
 
 By default, the jBASE debugger continues to debug as normal. It will look for source code in the same manner as always, trying to open the file that was used to build the object. However, if you have used the 'source' option in your JELF environment variable, then the debugger will use the source code embedded in the object.
 
-The jBASE debugger will tell you where it has found the source. In the example below, it finds the source from source embedded in the object. In the second example, the same program is debugged but without embedded source, and so the jBASE debugger prints this difference.
+The jBASE debugger will tell you where it has found the source. In the first example below, it finds the source from source embedded in the object. In the second example, the same program is debugged but without embedded source, and so the jBASE debugger retrieves the current copy from the file. In both examples, the jBASE debugger describes where the source was obtained from.
 
 ```
 $ callbp -Jd
@@ -107,128 +107,311 @@ Source taken from /home/jbase/testing/sobject/callbp.jabba
 jBASE debugger->
 ```
 
-As an example, set JELF=debug and it will show you some information about the shared objects it looks in when the program is loaded. This option (and the 'verbose' option) are hugely helpful when you want to see why a subroutine cannot be found, or why the "wrong" version of a subroutine is being loaded.
+## Using the JELF environment variable
 
+As shown earlier, setting the JELF environment variable to anything will turn on the JELF single object development paradigm. However, other settings for JELF are available, again shown earlier. One of those settings is the 'debug=nn' option, where 'nn' is the debug level.
+
+Setting the debug status to 1 will simply cause any internal errors to be display, otherwise nothing is shown.
+
+Setting the debug status to 2 will show the opening of the automatic catalog maps.
+
+Setting the debug status to 3 will show a very verbose list of all the labels (function names) that have been found and the object file name they were found in.
+
+Below is an example of setting debug status to 3, but it has been truncated for space and brevity
 ```
-$ JELF=debug WHO
-JELF: No JBCOBJECTLIST environment variable. Default to /home/jbase/lib
+$ JELF=debug=3 WHO
+JJELF: No JBCOBJECTLIST environment variable. Default to /home/jbase/lib
 JELF: Directory List /home/jbase/lib
-JELF: Scanning directory /home/jbase/lib
-JELF: File /home/jbase/lib/SUB4.so has 1 label
-JELF: File /home/jbase/lib/SUB1.so has 1 label
-JELF: File /home/jbase/lib/SUB2.so has 4 labels
-JELF: File /home/jbase/lib/SUB6.so has 1 label
-JELF: File /home/jbase/lib/MYSUB.so has 1 label
-JELF: File /home/jbase/lib/SUB5.so has 1 label
-JELF: Directory List /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib
-JELF: Scanning directory /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib
-JELF: Export List /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib/libclasses.so.el had 60 labels
-JELF: Export List /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib/libjbaseutil.so.el had 258 labels
-JELF: Export List /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib/libjsub.so.el had 26 labels
-JELF: Export List /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib/libjwobj.so.el had 27 labels
-JELF: Export List /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib/libjcon.so.el had 22 labels
-JELF: Export List /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib/libjrest.so.el had 21 labels
-JELF: Export List /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib/libSQLSYS.so.el had 16 labels
+JELF: Checking map file List /home/jbase/lib/.jbase_catalog
+JELF: Open map file List /home/jbase/lib/.jbase_catalog, attempt 1 of 2
+JELF: Compare stat size 1204 with minimum size 1064
+JELF: Take a memory map on file /home/jbase/lib/.jbase_catalog for size 1204
+[ Some lines removed for brevity]
+
+JELF: Table of objects found and labels inside objects
+Index  Path                                               Flags      Labels
+0      main()                                             0x00000001 
+JELF: Display map for directory /home/jbase/lib
+  Group    Hash       Offset         Next Offset     Label + Object Name
+  -----    ----       ------         -----------     -------------------
+  0        0x2841fef4 12             104            JBCM__clarke__ohmygoodness__V -- SUB1.so
+           0x36ffdc74 104            0              $$$callbp -- callbp.so
+  1        0x18c79957 68             0              JBC_SUB1 -- SUB1.so
+  2        -----
+JELF: Display map for directory /home/jbase/5.0_rels/devel5/lib
+  Group    Hash       Offset         Next Offset     Label + Object Name
+  -----    ----       ------         -----------     -------------------
+  0        0x0d93c6a9 14404          17956          JBASELoggerSetExtendedRecord -- libjbaseutil.so
+           0x18ee162b 17956          18860          CloseDevices -- libjbaseutil.so
+           0x3f8dcb38 18860          27640          CreateDevAttachFile -- libjbaseutil.so
+           0x09398317 27640          27760          CURLCLOSE -- libjcurl.so
+[ Some lines removed for brevity ]
 1 jbase
 ```
 
-You can also add the 'verbose' option to the 'debug' and verbose output is created. Below is a shortened screen shot of using it.
+### Installing objects using OS commands like 'cp' or 'mv'
+
+Under normal development conditions, the idea way to develop is to compile using BASIC and install using CATALOG. Normally, CATALOG is sufficient and it will do the following:
+
+- Take a lock on the shared objects
+- Re-name the existing shared object if it is in use (Windows) otherwise delete an existing shared object
+- Copy the shared object to the target directory
+- Rebuild the shared object maps
+- Tell running jBASE processes a new version might be available
+- Release the locks
+
+These steps allow you to install a new or modified object into a live system if necessary.
+
+Instead of using CATALOG, you can just use OS commands such as 'cp' or 'mv' or 'tar' to install the shared objects and when a new process starts it will automatically detect any new or modified JELF shared objects. No further action is needed. Running processes will not pick up any changes until they re-start. However any CATALOG command will force running processes to pick up changes irrespective of whether they were installd with CATALOG or 'cp' or 'mv'
+
+### Using the jelf file type to display loaded objects  
+
+You can list all the objects you have and the meta-data about them by creating a file of type 'jelf' and then listing it. For example, first of all create a file (any name, but we've used FB1) as type 'jelf'
 
 ```
-$ JELF=debug,verbose WHO
-JELF: No JBCOBJECTLIST environment variable. Default to /home/jbase/lib
-JELF: Directory List /home/jbase/lib
-JELF: Scanning directory /home/jbase/lib
-JELF: File /home/jbase/lib/SUB4.so has label JBC_SUB4
-JELF: File /home/jbase/lib/SUB4.so has 1 label
-JELF: File /home/jbase/lib/SUB1.so has label JBC_SUB1
-JELF: File /home/jbase/lib/SUB1.so has 1 label
-JELF: File /home/jbase/lib/SUB2.so has label JBC_MySub1
-JELF: File /home/jbase/lib/SUB2.so has label JBC_MySubXYZ
-JELF: File /home/jbase/lib/SUB2.so has label JBC_SUB2
-JELF: File /home/jbase/lib/SUB2.so has label JBC_SUB3
-JELF: File /home/jbase/lib/SUB2.so has 4 labels
-JELF: File /home/jbase/lib/SUB6.so has label JBC_SUB6
-JELF: File /home/jbase/lib/SUB6.so has 1 label
-JELF: File /home/jbase/lib/MYSUB.so has label JBC_MYSUB
-JELF: File /home/jbase/lib/MYSUB.so has 1 label
-JELF: File /home/jbase/lib/SUB5.so has label JBC_SUB5
-JELF: File /home/jbase/lib/SUB5.so has 1 label
-JELF: Directory List /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib
-JELF: Scanning directory /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib
-JELF: File /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib/libicuio.so not in JELF format
-JELF: File /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib/libssl.so not in JELF format
-JELF: File /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib/libclasses.so has label JBCM__$development__crash__V
-JELF: File /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib/libclasses.so has label JBCM__$development__findprogram__V
-JELF: File /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib/libclasses.so has label JBCM__$development__formatcpp__V
-JELF: File /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib/libclasses.so has label JBCM__$development__getopt__V
-JELF: File /home/jbase/5.0_rels_devel1/jbcdevdevelopment/lib/libclasses.so has label JBCM__$development__perror__V
+$ create-file FB1 type=jelf
+[ 417 ] File FB1]D created , type = JD
+[ 417 ] File FB1]D created , type = OBJECT
+[ 417 ] File FB1 created , type = OBJECT
 ```
 
-### $system::getjelf([parm1[,parm2[....]])
+Now you can simply LIST the file. During the file creation, DICTionary items are also created. Hence a "LIST FB1" uses the newly created "1! dictionary item like this
 
-The new method $system::getjelf() allows you to programatically determine the status of the new JELF compilation paradigm. You can pass any number of arguments, each of which can be the name of a shared object OR the shared object itself, and the returned array will also show details about that object.
+```
+$ LIST FB1
 
-In the example below, we call getjelf with 3 parameters. The first is the name of a file that doesn't exist. The second is the name of a shared object, but it isn't in JELF format. The third parameter is the name of a shared object with the JELF extensions (compiled with JELF=1) and will return details about that.
+PAGE    1                                                                          09:59:08  23 MAR 2021
+
+Path.................................... Date..... Time.... Source. Emulation Labels........................
+
+/home/jbase/devel5/core/International/sr 15 MAR 21 19:02:26 No      prime     CHAIN3.TST                    
+c/QA/lib/CHAIN3.TST.so                                                                                      
+/home/jbase/devel5/core/International/sr 15 MAR 21 19:02:22 No                LaunchTestHelper              
+c/QA/lib/LaunchTestHelper.so                                                                                
+/home/jbase/devel5/core/International/sr 15 MAR 21 19:02:22 No                CompileTests       
+```
+You can see all the available DICTionary items that were created by executing "LIST DICT FB1". Or try "LIST FB1 ALL" to display all the data contained in the object.
+
+## The $jelf::getjelf([object_file_name]) class method
+
+The new method $jelf::getjelf() allows you to programatically determine the status of the new JELF compilation paradigm. You can pass an extra single parameter which can be the name of a shared object OR the shared object itself, and the returned array will also show details about that object.
+
+In the example below, we call getjelf with the name of a shared object where we want to find the embedded meta-data.
 
 ```
 $ cat test8.jabba
-    if not($system->getjelf()->jelf->enabled ) then
+    obj = new object("$jelf")
+    if not(obj->getjelf()->option_enabled ) then
         print "Compiler JELF not in operation"
         stop
     end
-    rtn = $system->getjelf("SUBX.so" , "PROG1.so","SUB2.so")
+    rtn = obj->getjelf("/home/jbase/lib/SUB1.so")
     print rtn->$tojson(1)
 
 $ test8
 {
-        "jelf":{
-                "enabled":true,
-                "source":false,
-                "debug":false,
-                "verbose":false,
-                "key":""
-        },
-        "object":[
-                {
-                        "filename":"SUBX.so",
-                        "errmsg":"SUBX.so: No such file or directory"
-                },
-                {
-                        "filename":"PROG1.so",
-                        "errmsg":"Not JELF: Trailer identifiers invalid"
-                },
-                {
-                        "filename":"SUB2.so",
-                        "compile_utc":"1587044146.420556",
-                        "labels":[
-                                "JBC_MySub1",
-                                "JBC_MySubXYZ",
-                                "JBC_SUB2",
-                                "JBC_SUB3"
-                        ]
-                }
-        ]
+        "option_enabled":true,
+        "option_source":false,
+        "option_debug":0,
+        "option_key":"",
+        "is_jelf_executable":0,
+        "filename":"\/home\/jbase\/lib\/SUB1.so",
+        "compile_utc":"1616411009.365743",
+        "user_name":"jbase",
+        "port_number":1,
+        "emulation":"",
+        "jpp2_options":"",
+        "source_item":"",
+        "source_encrypt_key":"",
+        "source_encrypted":false,
+        "source_filename":"\/home\/jbase\/testing\/clarketransport",
+        "source_itemid":"SUB1.b",
+        "command_line":"\"\"",
+        "environment_variables":"{\"JELF\":\"1\"}",
+        "jelf_flags":0,
+        "sha1":"21k9k8hYvY5FJ23hpA39d2aqZSS2gkH+HkXSBd\/WJGc=",
+        "sha2":"55oRWR70Pc0ePIGW\/KWihIRM7lrDxXq7enz4nn1hia8=",
+        "labels":[
+                "JBCM__clarke__ohmyohmy__V",
+                "JBC_SUB1"
+        ],
+        "object_full_path":"\/home\/jbase\/lib\/SUB1.so"
+
 }
-```
-
-### JELF
-
-The JELF command is rarely used by customers, so this change will only be of interest to a few.
-
-The JELF command ignores the JELF environment variable. To ask JELF to create a shared object with a JELF extension, use JELF with the -T option. For example:
 
 ```
-$JELF MYSUB.b -o MYSUB.so -T
+
+## The jelf command
+
+The jelf command gives all sort of information about the JELF single objects. Display the help screen with the -h or --help option like this
+```
+ $ jelf --help
+jelf: Called as
+        jelf help                  Display help screen
+        jelf add objectname        Add JELF information to end of object file
+              [ --symbol-file=objectname     Use a different file to find exported labels ]
+              [ --add-source                 Shows to add source to the JELF ]
+              [ --source-file=filename       If adding source code, this is the file to use ]
+              [ --itemid=itemid              If adding source code, this is the item id to use ]
+              [ --sha1=SHA_BASE_64           SHA256 value of original source with BASE64 encoding
+              [ --sha2=SHA_BASE_64           SHA256 value of trimmed source with BASE64 encoding
+        jelf catalog                Invalidate the cache of loaded objects - as CATALOG does
+        jelf display objectname     Display information about embedded JELF
+              [ --verbose  -v                 Verbose output]
+        jelf getsource objectname  Extract the source item from a JELF object
+              [ --output-filename=filename    Output to file instead of terminal ]
+              [ --output-itemid=itemid        Use a supplied item id ]
+              [ --key=decryptkey              Key for encrypted source ]
+              [ --overwrite                   Overwrite existing item in file ]
+              [ --no-heading                  Don't display a HEADING when output to terminal ]
+        jelf list                   List all the loaded JELF routines
+        jelf rebuild                Re-compile all objects currently in use
+              [ --apply                       Change the rebuild from a scan and report to applying the changes]
+              [ --current                     Rebuild with current environment rather than that during original build]
+              [ --jobs=nnn                    Define maximum number of parallel jobs for the rebuild]
+              [ --verbose  -v                 Verbose output]
+        jelf symbols objectname     Display OS symbols found inside an object file
+        jelf verify                 Verify all loaded objects have a matching source code
+              [ --verbose  -v                 Verbose output]
+              [ --list-emulation              List the settings of JBCEMULATE used to build objects]
 ```
 
-This is how the BASIC command builds shared objects with the JELF extensions, but this is internal to BASIC and rarely noticed by customers.
+### jelf add
 
-## Notes
+This option is used internally by the BASIC compiler to add meta-data to an OS shared object.
 
-## Test Details
+### jelf catalog
 
-## Internal Notes
+Used internally by the CATALOG command to notify running jBASE processes a new copy of the subroutines may be available. This option can also be used if you attempt to install shared objects with 'cp' or 'mv' onto a live system.
+
+### jelf display
+
+This option allows you to display the meta-data for one or more objects. Below is an example of displaying full meta-data information about an object.
+```
+ $ jelf display lib/LaunchTest.so 
+
+lib/LaunchTest.so
+Object path      : lib/LaunchTest.so
+Compiled         : 15 MAR 2021 19:02:22
+User Name        : jbase
+Port Number      : 1
+Emulation        : 
+JPP2 options     : 
+Source Filename  : /home/jbase/devel5/core/International/src/QA/QAControlPrograms
+Source ItemId    : LaunchTest.b
+Source Encrypted : No
+SHA1 Original    : AvVe7z5HqUNOm9WHOxzG+EnocZUoZY9MUxXhjWuUQ28=
+SHA2 Trimmed     : FqS2s7It9QTZent4DAaGhia7d/5qPw7Zb4bw805CTDE=
+Source Item      : 
+Flags            : 
+Command Line     : ""
+Environment Vars : JELF=1
+                   JBCDEV_LIB=/home/jbase/devel5/core/International/src/QA/lib
+                   JBCDEV_BIN=/home/jbase/devel5/core/International/src/QA/bin
+Labels           : $$$LaunchTest (Program LaunchTest)
+```
+
+### jelf getsource
+
+This option allows you to extract any source that was embedded in the JELF shared object, i.e. with the 'source' option in the JELF environment variable. By default, the source is displayed to the terminal, but the use of the --output-filename=filename option and the --output-itemid=itemid option allow it to be sent to a file. If the source was encrypted you'll need the --key=encryptkey option. If the source already exists in the output file, use --overwrite.
+
+Below is an example of extracting a source which was originally in file BP, but it will be extracted into file BPNEW so it can be compared with the current version.
+
+```
+$ jelf getsource --output-filename=BPNEW lib/LaunchTest.so
+Record 'LaunchTest.b' written to file 'BPNEW'
+
+$ diff QAControlPrograms/LaunchTest.b BPNEW/LaunchTest.b
+24c24
+<     EQU SlotsInfoFile     TO "NewSlotsInfo"          ;* File used by RunQA. Only used here to check whether RunQA is currently running
+---
+>     EQU SlotsInfoFile     TO "SlotsInfo"          ;* File used by RunQA. Only used here to check whether RunQA is currently running
+138d137
+< 
+```
+
+### jelf list
+
+This will list all the current JELF shared objects. A more comprehensive way to list the objects is the use of the jelf file type, see the previous section "Using the jelf file type to display loaded objects".
+
+```
+$ jelf list NAME
+
+Filename                                 Port   User       Date      Time     Emulation Source? Labels
+/home/jbase/devel5/core/International/sr 2      jbase      15 MAR 21 19:02:26 prime     No      CHAIN3.TST
+/home/jbase/devel5/core/International/sr 1      jbase      15 MAR 21 19:02:22           No      LaunchTestHelper
+/home/jbase/devel5/core/International/sr 1      jbase      15 MAR 21 19:02:22           No      CompileTests
+```
+
+### jelf rebuild
+
+Rebuild all the currently installed JELF shared objects. This options uses the meta-data inside the JELF shared object to determinate what options were used for the compilation, and will re-compile accordingly. By default, this command will simply scan and report without doing any actual compilations, allowing you to see what will be rebuilt and any problems. You can then re-run the command with the --apply option to force a multi-thread rebuild of all your sources.
+
+Below is an example of running **without** the --apply option, some lines ommitted for brevity. We can see there is one warning because a source has changed and hasn't been re-compiled and catalog'ed since.
+
+```
+jelf rebuild
+/home/jbase/devel5/core/International/src/QA/lib/CHAIN3.TST.so
+    Using original source directly from /home/jbase/devel5/core/International/src/QA/QA/CHAIN3.TST
+/home/jbase/devel5/core/International/src/QA/lib/LaunchTestHelper.so
+    Using original source directly from /home/jbase/devel5/core/International/src/QA/QAControlPrograms/LaunchTestHelper.b
+/[ Some lines removed for brevity ]
+
+1       Warning. Source at /home/jbase/devel5/core/International/src/QA/QAControlPrograms/LaunchTest.b (23 MAR 21 12:53:16) has a newer modification time since to when then object was compiled (23 MAR 21 12:51:09)
+2       Warning. Source at /home/jbase/devel5/core/International/src/QA/QAControlPrograms/LaunchTest.b has a different SHA value to when the object was compiled
+
+JELF Rebuild. End of phase 1. Details written to file jelf_rebuild_1
+Use 'LIST jelf_rebuild_1 ALL' for full details
+Scan completed. To actually apply the build run with the --apply option
+```
+
+If you now run again with the --apply option as shown below, it successfully compiles and catalogs all 29 sources, noting again the single source that had changed in the meantime.
+
+```
+$ jelf rebuild --apply
+
+1       Warning. Source at /home/jbase/devel5/core/International/src/QA/QAControlPrograms/LaunchTest.b (23 MAR 21 12:53:16) has a newer modification time since to when then object was compiled (23 MAR 21 12:51:09)
+2       Warning. Source at /home/jbase/devel5/core/International/src/QA/QAControlPrograms/LaunchTest.b has a different SHA value to when the object was compiled
+
+JELF Rebuild. End of phase 1. Details written to file jelf_rebuild_1
+Use 'LIST jelf_rebuild_1 ALL' for full details
+
+Starting the rebuild process by compiling all objects with found sources
+
+29 objects re-compiled in 00:00:01
+29 compiled successfully with 0 failures.
+Use 'LIST jelf_rebuild_1' for a summary of the operations
+```
+
+### jelf symbols
+
+Display the symbols (language labels) for one or more specified JELF shared object. In the example below we list for all the objects in our lib directory (terminal output truncated for brevity)
+
+```
+$ j jelf symbols lib/*.so 
+lib/AllocateSlot.so
+0   : JBC_AllocateSlot (Sub/Func AllocateSlot)
+lib/BC.so
+0   : jBASEMainFunctionPointer (Sub/Func jBASEMainFunctionPointer)
+lib/BGEndTest.so
+0   : JBC_BGEndTest (Sub/Func BGEndTest)
+lib/BGRunTest.so
+0   : JBC_BGRunTest (Sub/Func BGRunTest)
+lib/BGStartTest.so
+0   : JBC_BGStartTest (Sub/Func BGStartTest)
+lib/CHAIN3.TST.so
+
+```
+
+### jelf verify
+
+Does a simple check on all the JELF shared objects and reports any errors, such as the source being out-of-date or missing. In the example below, we've set "JELF=1" meaning we do not include the source code in the JELF shared object meta-data. However, we always include the SHA of the source, meaning we can detect if the source has changed since the object was installed, which happens in one file as shown below.
+
+```
+$ jelf verify
+Error. Object /home/jbase/devel5/core/International/src/QA/lib/LaunchTest.so is taken from /home/jbase/devel5/core/International/src/QA/QAControlPrograms,LaunchTest.b' and the SHA shows it is the incorrect or out-of-date source
+1 error, no warnings in 20 objects checked
+```
 
 Back to [Compilation](./../README.md)
 
