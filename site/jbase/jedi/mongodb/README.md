@@ -1,4 +1,4 @@
-# Mongo DB jEDI
+# MongoDB jEDI
 
 <PageHeader />
 
@@ -16,6 +16,9 @@ Whether you want to use MongoDB for its compliance and auditing features or you 
 jBASE is the only MV platform that lets you separate the application from the database, so you can store data in a jBASE database or in another database.  
 
 We currently offer jEDI drivers for MongoDB, Oracle, and Microsoft SQL Server.
+
+[![MongoDB jEDI](https://img.youtube.com/vi/mSI5mXbCkkA/0.jpg)](https://www.youtube.com/watch?v=mSI5mXbCkkA)
+
 
 [MongoDB jEDI Driver:Docker Quick Start](./mongodb-docker-quickstart/README.md)  
 [Using the MongoDB jEDI Driver](./mongodb-jedi-driver/README.md)  
