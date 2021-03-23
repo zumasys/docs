@@ -28,7 +28,7 @@ The epel package is installed, if not present, so that the openssl11-libs can be
 
 ![Checking for dependencies #2](./UpgradingtoLinux58_8.jpg)
 
-Release directory can be set or accepted:
+Release directory can be set or accepted, as can all other options:
 
 ![Release directory](./UpgradingtoLinux58_9.jpg)  
 
