@@ -81,7 +81,7 @@ The 'source' option means the source code will be added to the meta-data. See th
 
 The 'key=EncryptionKey' will encryt the embedded source code with the supplied key.
 
-## The jelf command
+## The jelf command #1
 
 As well as a JELF environment variable, a command called 'jelf' is provided giving maintenance features. To see the help screen, execute 'jelf -h'. A more detailed description of the jelf command is given later.
 
@@ -89,7 +89,7 @@ As well as a JELF environment variable, a command called 'jelf' is provided givi
 
 By default, the jBASE debugger continues to debug as normal. It will look for source code in the same manner as always, trying to open the file that was used to build the object. However, if you have used the 'source' option in your JELF environment variable, then the debugger will use the source code embedded in the object.
 
-The jBASE debugger will tell you where it has found the source. In the first example below, it finds the source from source embedded in the object. In the second example, the same program is debugged but without embedded source, and so the jBASE debugger retrieves the current copy from the file. In both examples, the jBASE debugger describes where the source was obtained from.
+The jBASE debugger will tell you where it has found the source. In the first example below, it finds the source code from source embedded in the object. In the second example, the same program is debugged but without embedded source, and so the jBASE debugger retrieves the current copy from the file. In both examples, the jBASE debugger describes where the source was obtained from.
 
 ```
 $ callbp -Jd
@@ -241,7 +241,7 @@ $ test8
 
 ```
 
-## The jelf command
+## The jelf command #2
 
 The jelf command gives all sort of information about the JELF single objects. Display the help screen with the -h or --help option like this
 ```
