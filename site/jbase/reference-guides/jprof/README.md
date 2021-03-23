@@ -68,6 +68,17 @@ C:\>echo %JDIAG%
 
 C:\>
 ```
+Note: to include the %p and %t values (process ID and timestamp) in the filename in Windows the % character needs to be escaped.  From a command line the % sign can be escaped using the caret ^ character.  From a bat file the % sign needs to be escaped using another % sign; e.g.:
+
+Command line:
+```bash
+C:\>set JDIAG=profile=long:filename=fb_^%p_^%t.txt
+```
+
+.bat file:
+```bash
+SET JDIAG=profile=long:filename=fb_%%p_%%t.txt
+```
 
 ## Start the application
 
