@@ -8,7 +8,6 @@ We will refer to this paradigm as JELF. It is opt-in, so as of jBASE 5.8 you hav
 
 [![Single Object Compile & Catalog](https://img.youtube.com/vi/n9oVnkRCAOY/0.jpg)](https://www.youtube.com/watch?v=n9oVnkRCAOY)
 
-
 ## New features of using the JELF single object build paradigm
 
 - On-line CATALOG. When a program is compiled with BASIC and catalog'ed with CATALOG, that program becomes available to all running jBASE programs. This means you no longer have to stop and re-start a jBASE program to pick up the modified or new routine. The only exception is that the running program cannot be currently executing the modified routine, it will wait until a RETURN is made from the routine, but the next CALL will pick up the modified version.
@@ -290,6 +289,7 @@ Used internally by the CATALOG command to notify running jBASE processes a new c
 ### jelf display
 
 This option allows you to display the meta-data for one or more objects. Below is an example of displaying full meta-data information about an object.
+
 ```
  $ jelf display lib/LaunchTest.so 
 

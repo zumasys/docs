@@ -82,7 +82,7 @@ You should see a long build process.  When this is done the driver is built and 
 
 You can now compile the jabba driver.  Go into an account and create a directory to do this work. In that directory add the supplied mongo jabba code.
 
-Right now the IP address of the mongo server is not working if you try to pass it.  Find the IP address of your mongo server and just manually put it in the code.
+Right now the IP address of the mongo server is not working if you try to pass it.  Find the IP address of your mongo server and just manually put it in the code, although a mongo server instance installed locally will be found.
 
 You then compile as follows:
 
