@@ -20,8 +20,48 @@ Use the space bar to page through the License Agreement and then accept:
 
 We will opt for the Advanced install so that we have control over how jBASE 5.8 is installed:
 
-![Type of Installation](./UpgradingtoLinux58_6.jpg)  
+![Installation Type](./UpgradingtoLinux58_6.jpg)  
 
-Back to [Linux](./../README.md)
+The epel package is instaled, if not present, so that the openssl11-libs can be added.
+
+![Checking for dependencies #1](./UpgradingtoLinux58_7.jpg)
+
+![Checking for dependencies #2](./UpgradingtoLinux58_8.jpg)
+
+Release directory can be set or accepted:
+
+![Release directory](./UpgradingtoLinux58_9.jpg)  
+
+![Symbolic Link](./UpgradingtoLinux58_10.jpg)
+
+![Directory for Global jBASE files](./UpgradingtoLinux58_11.jpg)
+
+![Directory for jBASE Data](./UpgradingtoLinux58_12.jpg)
+
+![jBASE User ID](./UpgradingtoLinux58_13.jpg)  
+
+![jBASE Group ID](./UpgradingtoLinux58_14.jpg)
+
+Use the option number to remove what is not required:
+
+![Optional Tasks](./UpgradingtoLinux58_15.jpg)
+
+Set the port number to be used by jRCS, if opted for:
+
+![TCP Port for jRCS](./UpgradingtoLinux58_16.jpg)
+
+Set/Accept the jDLS options:
+
+![jDLS options](./UpgradingtoLinux58_17.jpg)  
+
+![Installation Summary](./UpgradingtoLinux58_18.jpg)  
+
+![Installing jBASE](./UpgradingtoLinux58_19.jpg)  
+
+![Installaion Complete](./UpgradingtoLinux58_20.jpg)  
+
+![Sample Login](./UpgradingtoLinux58_21.jpg)  
+
+Back to [Linux](./../README.md)  
 
 <PageFooter />
