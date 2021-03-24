@@ -7,12 +7,8 @@ The **LISTF4** statement lists the file names for an account in four columns.
 ## Syntax
 
 ```
-LISTF4 {option} {directory}
+LISTF4 {directory}
 ```
-
-| Option | Description  |
-| ---    | ---          |
-| -xml   | Display file details as XML string |
 
 ## Example
 
