@@ -120,6 +120,7 @@ Setting the debug status to 2 will show the opening of the automatic catalog map
 Setting the debug status to 3 will show a very verbose list of all the labels (function names) that have been found and the object file name they were found in.
 
 Below is an example of setting debug status to 3, but it has been truncated for space and brevity
+
 ```
 $ JELF=debug=3 WHO
 JJELF: No JBCOBJECTLIST environment variable. Default to /home/jbase/lib
@@ -192,6 +193,7 @@ c/QA/lib/CHAIN3.TST.so
 c/QA/lib/LaunchTestHelper.so                                                                                
 /home/jbase/devel5/core/International/sr 15 MAR 21 19:02:22 No                CompileTests       
 ```
+
 You can see all the available DICTionary items that were created by executing "LIST DICT FB1". Or try "LIST FB1 ALL" to display all the data contained in the object.
 
 ## The $jelf::getjelf([object_file_name]) class method
@@ -245,7 +247,8 @@ $ test8
 
 ## The jelf command #2
 
-The jelf command gives all sort of information about the JELF single objects. Display the help screen with the -h or --help option like this
+The jelf command gives all sort of information about the JELF single objects. Display the help screen with the -h or --help option like this:
+
 ```
  $ jelf --help
 jelf: Called as
