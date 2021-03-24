@@ -7,8 +7,12 @@ The **LISTF4** statement lists the file names for an account in four columns.
 ## Syntax
 
 ```
-LISTF4
+LISTF4 {option} {directory}
 ```
+
+| Option | Description  |
+| ---    | ---          |
+| -xml   | Display file details as XML string |
 
 ## Example
 
@@ -25,6 +29,10 @@ SUIBP              bin                lib
 
   19 Files Listed
 ```
+
+## Note
+
+>If **directory** is specified then only the files in that path will be displayed.
 
 Back to [Cross Reference](./../README.md)
 
