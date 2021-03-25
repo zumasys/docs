@@ -17,7 +17,7 @@ These examples can be followed on your local system or using a free Docker conta
 ## Install jBASE
 
 [Windows Installation Guide](./../administration/installation-guides/windows/jbase-5-7-windows-installation-guide/README.md)  
-[Linux Installation Guide](./../administration/installation-guides/linux/linux-installation-guide/README.md)
+[Linux Installation Guide](./../administration/installation-guides/linux/linux-installation-guide/README.md)  
 [Docker cheat-sheet](./docker-container/README.md)
 
 ## Install Docker - Windows, Linux
