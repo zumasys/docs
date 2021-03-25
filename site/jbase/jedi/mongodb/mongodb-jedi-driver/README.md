@@ -104,10 +104,11 @@ And from the Mongo shell.
 ```
 
 ### Note
+
 Upcoming Feature Development:
 
- - Sub-value support
- - Improved transformation speed
+- Sub-value support
+- Improved transformation speed
 
 [Back to Mongo](./../README.md)
 

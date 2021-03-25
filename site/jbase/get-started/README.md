@@ -17,15 +17,17 @@ These examples can be followed on your local system or using a free Docker conta
 ## Install jBASE
 
 [Windows Installation Guide](./../administration/installation-guides/windows/jbase-5-7-windows-installation-guide/README.md)  
-[Linux Installation Guide](./../administration/installation-guides/linux/linux-installation-guide/README.md)
+[Linux Installation Guide](./../administration/installation-guides/linux/linux-installation-guide/README.md)  
+[Docker cheat-sheet](./docker-container/README.md)
 
 ## Install Docker - Windows, Linux
 
 ### Docker Instructions
+If you prefer to experiment rather than watch, here is our [Docker cheat-sheet](./docker-container/README.md)
 
 <iframe width="640" height="360" class="fr-draggable" src="https://www.youtube.com/embed/jHYXL1TWMz0?wmode=opaque" frameborder="0" allowfullscreen=""></iframe>
 
-If you prefer to experiment rather than watch, here is our [Docker cheat-sheet](./docker-container/README.md)
+
 
 ### Find out more about the platform with our Introduction to jBASE:  
 

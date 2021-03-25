@@ -119,12 +119,14 @@
 | INVISIBLE | Throwaway |
 | ITEMS | Throwaway |
 | [LE](./le/README.md) | Less than or equal to |
-| [LIKE](./like/README.md) | Pattern matching |
+| [LIKE](./like/README.md) | Pattern matching |  
+| [LIST4](./list4/README.md) | List Item IDs of a file in two or four columns |
 | [LIST](./../list/README.md) | Generates a formatted report of records and fields from a specified file. |  
 | [LIST-ITEM](./../list-item/README.md) | Outputs the contents of items. |  
 | [LIST-LABEL](./../list-label/README.md) | Outputs data in a format suitable for producing labels. |  
 | [LIST.ITEM](./../list-item/README.md) | Synonym for LIST-ITEM |  
 | [LIST.LABEL](./../list-label/README.md) | Synonym for LIST-LABEL |  
+| [LISTF4](./listf4/README.md) | List files in an acount in four columns |
 | [LPTR](./lptr/README.md) | Direct report to a printer |
 | [LT](./lt/README.md)| Less than |
 | [MARGIN](./margin/README.md) | Define width of left margin |
@@ -174,7 +176,8 @@
 | [SELECT.ONLY](./require-select/README.md) | Synonym for REQUIRE-SELECT |
 | [SINGLE.VALUE](./single-value/README.md) | Treat a field as single-valued |
 | [SINGLEVALUED](./single-value/README.md) | Synonym for SINGLE.VALUE |
-| [SORT](./../sort/README.md) | Generates a sorted formatted report of records and fields from a specified file. |  
+| [SORT](./../sort/README.md) | Generates a sorted formatted report of records and fields from a specified file. | 
+| [SORT4](./sort4/README.md) | Sort the Item IDs of a file in four columns |
 | [SORT-ITEM](./../list-item/README.md) | Sort items and display in their internal format | |  
 | [SORT-LABEL](./../sort-label/README.md) | Outputs data in a format suitable for producing labels. |
 | [SORT.ITEM](./../list-item/README.md) | Synonym for SORT-ITEM |  

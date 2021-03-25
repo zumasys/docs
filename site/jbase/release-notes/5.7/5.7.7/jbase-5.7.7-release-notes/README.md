@@ -18,12 +18,12 @@ This release includes various internal bug fixes and the following enhancements 
 
 ## New Commands
 
-[jfilesave](../../../tools-and-utilities/jfilesave/README.md)  
-[jfilerestore](../../../tools-and-utilities/jfilerestore/README.md)
+[jfilesave](./../../../../tools-and-utilities/jfilesave/README.md)  
+[jfilerestore](./../../../../tools-and-utilities/jfilerestore/README.md)
 
 ## New jBC Statements or Functions
 
-[for](../../../jbc/for-iterator/README.md) iterator
+[for](./../../../../jbc/for-iterator/README.md) iterator
 
 ## New Dynamic Objects Classes and Methods
 

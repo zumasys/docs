@@ -8,7 +8,6 @@ We will refer to this paradigm as JELF. It is opt-in, so as of jBASE 5.8 you hav
 
 [![Single Object Compile & Catalog](https://img.youtube.com/vi/n9oVnkRCAOY/0.jpg)](https://www.youtube.com/watch?v=n9oVnkRCAOY)
 
-
 ## New features of using the JELF single object build paradigm
 
 - On-line CATALOG. When a program is compiled with BASIC and catalog'ed with CATALOG, that program becomes available to all running jBASE programs. This means you no longer have to stop and re-start a jBASE program to pick up the modified or new routine. The only exception is that the running program cannot be currently executing the modified routine, it will wait until a RETURN is made from the routine, but the next CALL will pick up the modified version.
@@ -121,6 +120,7 @@ Setting the debug status to 2 will show the opening of the automatic catalog map
 Setting the debug status to 3 will show a very verbose list of all the labels (function names) that have been found and the object file name they were found in.
 
 Below is an example of setting debug status to 3, but it has been truncated for space and brevity
+
 ```
 $ JELF=debug=3 WHO
 JJELF: No JBCOBJECTLIST environment variable. Default to /home/jbase/lib
@@ -193,6 +193,7 @@ c/QA/lib/CHAIN3.TST.so
 c/QA/lib/LaunchTestHelper.so                                                                                
 /home/jbase/devel5/core/International/sr 15 MAR 21 19:02:22 No                CompileTests       
 ```
+
 You can see all the available DICTionary items that were created by executing "LIST DICT FB1". Or try "LIST FB1 ALL" to display all the data contained in the object.
 
 ## The $jelf::getjelf([object_file_name]) class method
@@ -246,7 +247,8 @@ $ test8
 
 ## The jelf command #2
 
-The jelf command gives all sort of information about the JELF single objects. Display the help screen with the -h or --help option like this
+The jelf command gives all sort of information about the JELF single objects. Display the help screen with the -h or --help option like this:
+
 ```
  $ jelf --help
 jelf: Called as
@@ -290,6 +292,7 @@ Used internally by the CATALOG command to notify running jBASE processes a new c
 ### jelf display
 
 This option allows you to display the meta-data for one or more objects. Below is an example of displaying full meta-data information about an object.
+
 ```
  $ jelf display lib/LaunchTest.so 
 

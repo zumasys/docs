@@ -20,10 +20,11 @@ Typically you will want to create several files, one for each process that gets 
 
 `export JDIAG=profile=long:filename=fb1_%p_%t.txt` <- creates multiple files with `%p` being the pid of the process and `%t` being a time stamp.
 
-## Note
+## Linux Notes
 
->Profiling must be started external to the jBASE environment, you need to enter jBASE with profiling already running as a result of setting `JDIAG`.  
->Changing `JDIAG` while you are already running a jBC program will not initiate the profiling, you must initially set `JDIAG`.
+Profiling must be started external to the jBASE environment, you need to enter jBASE with profiling already running as a result of setting `JDIAG`. 
+ 
+Changing `JDIAG` while you are already running a jBC program will not initiate the profiling, you must initially set `JDIAG`.
 
 ```bash
 # export JDIAG=profile=long:filename=fb1.txt
@@ -48,7 +49,7 @@ This command above says we are going to start profiling and the output is going 
 
 The above examples are for Linux but the concept is the same for Windows. The command to assign and unassign the `JDIAG` environment variable is slightly different using the `set` command.  
 
-```
+``` cmd
 C:\windows\system32>cd ..
 
 C:\Windows>cd ..
@@ -67,6 +68,18 @@ C:\>echo %JDIAG%
 %JDIAG%
 
 C:\>
+```
+
+> Note: To include the `%p` and `%t` values (*process ID* and *timestamp*) in the filename in Windows, the `%` character needs to be escaped.  From a command line the `%` sign can be escaped using the caret `^` character.  From a bat file the `%` sign needs to be escaped using another `%` sign; e.g.:
+
+Command line:
+``` cmd
+C:\>set JDIAG=profile=long:filename=fb_^%p_^%t.txt
+```
+
+.bat file:
+``` cmd
+SET JDIAG=profile=long:filename=fb_%%p_%%t.txt
 ```
 
 ## Start the application
