@@ -79,7 +79,7 @@ drwxr-xr-x   2 root root   48 Nov 20 16:28 jBASE.target.wants
 
 ## Note on the config folder
 
->Most of the \$JBCRELEASEDIR/config folder content has now moved to \$JBCGLOBALDIR/config, if your \$JBCGLOBALDIR is now in a different location than your \$JBCRELEASEDIR.
+>If your \$JBCGLOBALDIR is now in a different location than your \$JBCRELEASEDIR, most of the old \$JBCRELEASEDIR/config folder content has been moved to \$JBCGLOBALDIR/config.
 
 Back to [Linux](./../README.md)  
 
