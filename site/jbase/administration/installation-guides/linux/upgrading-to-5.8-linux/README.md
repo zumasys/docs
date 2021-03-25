@@ -62,6 +62,21 @@ Set/Accept the jDLS options:
 
 ![Sample Login](./UpgradingtoLinux58_21.jpg)  
 
+## Note on systemd
+
+>As of the jBASE 5.8 release, systemd will be used to run services, rather than init.d.  
+>See  /etc/systemd/system:
+```
+-rw-rw-r--.  1 root root  366 Oct  6 16:58 jAgent.service
+-rw-rw-r--   1 root root  152 Mar 23 12:36 jBASE.target
+drwxr-xr-x   2 root root   26 Nov 20 16:28 jBASE.target.requires
+drwxr-xr-x   2 root root   48 Nov 20 16:28 jBASE.target.wants
+-rw-rw-r--.  1 root root  380 Jan  5 14:22 jDLS.service
+-rw-rw-r--.  1 root root  281 Oct  6 16:59 jRCS.service
+-rw-rw-r--.  1 root root  266 Oct  6 16:58 jRFS.service
+-rw-rw-r--.  1 root root  366 Oct  6 16:58 jSPOOL.service
+```
+
 Back to [Linux](./../README.md)  
 
 <PageFooter />
