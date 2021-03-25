@@ -37,7 +37,7 @@ This is pretty much all you need to do to enable the JELF style of single shared
 
 ## Using the JELF single object build
 
-These JELF shared objects, created with the BASIC command, can be copied at will between folders/directories. There is no addition file to copy or modify -- just the shared object. The only requirement is the usual jBASE one, which is the shared object must reside in a directory defined in the JBCOBJECTLIST environment variable. As usual, if JBCOBJECTLIST isn't defined, the default is to use $HOME/lib and $JBCRELEASEDIR/lib
+These JELF shared objects, created with the BASIC command, can be copied at will between folders/directories. There is no addition file to copy or modify -- just the shared object. The only requirement is the usual jBASE one, which is the shared object must reside in a directory defined in the JBCOBJECTLIST environment variable. As usual, if JBCOBJECTLIST isn't defined, the default is to use $HOME/lib fand $JBCRELEASEDIR/lib
 
 On AIX and Linux the shared object have a file name extension of .so , and on Windows the shared object has an extension of .dll.
 
@@ -227,7 +227,7 @@ $ test8
         "source_item":"",
         "source_encrypt_key":"",
         "source_encrypted":false,
-        "source_filename":"\/home\/jbase\/testing\/clarketransport",
+        "source_filename":"\/home\/jbase\/testing\/clarke",
         "source_itemid":"SUB1.b",
         "command_line":"\"\"",
         "environment_variables":"{\"JELF\":\"1\"}",
