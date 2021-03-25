@@ -77,6 +77,10 @@ drwxr-xr-x   2 root root   48 Nov 20 16:28 jBASE.target.wants
 -rw-rw-r--.  1 root root  366 Oct  6 16:58 jSPOOL.service
 ```
 
+## Note on the config folder
+
+>Most of the \$JBCRELEASEDIR/config folder content has now moved to \$JBCGLOBALDIR/config, if your \$JBCGLOBALDIR is now in a different location than your \$JBCRELEASEDIR.
+
 Back to [Linux](./../README.md)  
 
 <PageFooter />
