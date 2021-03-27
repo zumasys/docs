@@ -2,7 +2,7 @@
 
 <PageHeader />  
 
-With jBASE 5.8 onwards and 64 bit architecture we can take an approach to compilation which is easier to manage and provides many other features. This approach involves taking a single source that is compiled with BASIC, and this creates a single shared object and that is it! The shared object has meta-data appened to the object similar to the  ELF on Linux, so we've named it a JELF object, even if it isn't exactly an ELF format file.  
+With jBASE 5.8 onwards and 64 bit architecture we can take an approach to compilation which is easier to manage and provides many other features. This approach involves taking a single source that is compiled with BASIC, and this creates a single shared object and that is it! The shared object has meta-data appended to the object, similar to the ELF on Linux, so we've named it a JELF object, even if it isn't exactly an ELF format file.  
 
 We will refer to this paradigm as JELF. It is opt-in, so as of jBASE 5.8 you have to enable it. Without the enablement of JELF, compilation will continue as previous releases, which is the BASIC command creates an object file, and CATALOG will merge a number of object files into larger shared object files. Of course with JELF enabled, we no longer have these larger shared object files, just one object file per source.
 
@@ -13,8 +13,8 @@ We will refer to this paradigm as JELF. It is opt-in, so as of jBASE 5.8 you hav
 - On-line CATALOG. When a program is compiled with BASIC and catalog'ed with CATALOG, that program becomes available to all running jBASE programs. This means you no longer have to stop and re-start a jBASE program to pick up the modified or new routine. The only exception is that the running program cannot be currently executing the modified routine, it will wait until a RETURN is made from the routine, but the next CALL will pick up the modified version.
 - Easy to maintain and understand. Having a simple correlation of one source creating one object makes life easy. A subroutine called DOTHIS would generally be in a source called DOTHIS, it creates an object called DOTHIS.so (or DOTHIS.dll) and this makes it easy to maintain. These objects can easily be copied or moved or deleted individually around accounts if required.
 - Embedded Meta Data. During the BASIC command, we embed meta-data about the compilation into the object, such as date and time, user name and so on. This gives the developer a great choice of information when maintining their code.
-- Embedded source code. Part of the meta-data added to the object includes a hash of the source code, called a SHA. This allows you to use tools described later to see if your source code matches that that was used to build the object. Sometimes developers have multiple copies of source and get confused which copy was used to compiler the current live version! An optional extension is to add source code to each object. This way you can guarantee 100% that the source code you used to compile the object can be retrieved. Never lose source code again. The caveat in this is that we do not include any files included in the compilation with the INCLUDE statement.
-- Encrypted embedded source code. The above-mentioned feature to include source code an be further enhanced by encrypting the source code. This allows a VAR to safely release their source code to a customer and the customer cannot retrieve the source code. However, if there is an on-site problem, the developer and log into the customer site and debug the application. The jBASE debugger will take the source code from the embedded source code and will ask for the security key that was used to encrypt it. This way the VAR can do on-site debug of code, be 100% sure the correct version of code is being debugged, and yet the customer has no access to this source code.
+- Embedded source code. Part of the meta-data added to the object includes a hash of the source code, called a SHA. This allows you to use tools described later to see if your source code matches that which was used to build the object. Sometimes developers have multiple copies of source and get confused which copy was used to compile the current live version! An optional extension is to add source code to each object. This way you can guarantee 100% that the source code you used to compile the object can be retrieved. Never lose source code again. The caveat in this is that we do not include any files inserted into the compilation via the INCLUDE statement.
+- Encrypted embedded source code. The above-mentioned feature to include source code can be further enhanced by encrypting the source code. This allows a VAR to safely release their source code to a customer and the customer cannot retrieve the source code. However, if there is an on-site problem, the developer can log into the customer site and debug the application. The jBASE debugger will retrieve the embedded source code and ask for the security key that was used to encrypt it. This way the VAR can do on-site debug of code, be 100% sure the correct version of code is being debugged, and yet the customer has no access to this source code.
 - Safety of the CATALOG command. When a CATALOG is performed, and an existing copy of the object exists, we check the build variables haven't changed. For example, if you used the (T) option on BASIC for the initial compile but not this one, an error will be flagged. Similarly if you have changed the emulation setting between compiles, this will be flagged.
 - Debug and maintenance options. Multiple options described later enable you to keep control of your application and find common problems.
 
@@ -36,9 +36,9 @@ This is pretty much all you need to do to enable the JELF style of single shared
 
 ## Using the JELF single object build
 
-These JELF shared objects, created with the BASIC command, can be copied at will between folders/directories. There is no addition file to copy or modify -- just the shared object. The only requirement is the usual jBASE one, which is the shared object must reside in a directory defined in the JBCOBJECTLIST environment variable. As usual, if JBCOBJECTLIST isn't defined, the default is to use $HOME/lib fand $JBCRELEASEDIR/lib
+These JELF shared objects, created with the BASIC command, can be copied at will between folders/directories. There is no additional file to copy or modify -- just the shared object. The only requirement is the usual jBASE one, which is the shared object must reside in a directory defined in the JBCOBJECTLIST environment variable. As usual, if JBCOBJECTLIST isn't defined, the default is to use $HOME/lib fand $JBCRELEASEDIR/lib
 
-On AIX and Linux the shared object have a file name extension of .so , and on Windows the shared object has an extension of .dll.
+On AIX and Linux the shared objects have a file name extension of .so , and on Windows the shared object has an extension of .dll.
 
 In the example below, we compile a subroutine called MYSUB1.b, we see the only file created is a shared object, and we can then copy it into our library directory. This final stage, where we 'cp' the shared object, is pretty much all the CATALOG command has to do and most developers will likely just continue to use CATALOG along with BASIC.
 
@@ -154,18 +154,18 @@ JELF: Display map for directory /home/jbase/5.0_rels/devel5/lib
 
 ### Installing objects using OS commands like 'cp' or 'mv'
 
-Under normal development conditions, the idea way to develop is to compile using BASIC and install using CATALOG. Normally, CATALOG is sufficient and it will do the following:
+Under normal development conditions, the ideal way to develop is to compile using BASIC and install using CATALOG. Normally, CATALOG is sufficient and it will do the following:
 
 - Take a lock on the shared objects
-- Re-name the existing shared object if it is in use (Windows) otherwise delete an existing shared object
+- Re-name the existing shared object if it is in use (Windows), otherwise delete an existing shared object
 - Copy the shared object to the target directory
 - Rebuild the shared object maps
 - Tell running jBASE processes a new version might be available
 - Release the locks
 
-These steps allow you to install a new or modified object into a live system if necessary.
+These steps allow you to install a new or modified object into a live system, if necessary.
 
-Instead of using CATALOG, you can just use OS commands such as 'cp' or 'mv' or 'tar' to install the shared objects and when a new process starts it will automatically detect any new or modified JELF shared objects. No further action is needed. Running processes will not pick up any changes until they re-start. However any CATALOG command will force running processes to pick up changes irrespective of whether they were installd with CATALOG or 'cp' or 'mv'
+Instead of using CATALOG, you can just use OS commands such as 'cp' or 'mv' or 'tar' to install the shared objects and when a new process starts it will automatically detect any new or modified JELF shared objects. No further action is needed. Running processes will not pick up any changes until they re-start. However any CATALOG command will force running processes to pick up changes irrespective of whether they were installed with CATALOG or 'cp' or 'mv'
 
 ### Using the jelf file type to display loaded objects  
 
@@ -247,7 +247,10 @@ $ test8
 
 ## The jelf command #2
 
-The jelf command gives all sort of information about the JELF single objects. Display the help screen with the -h or --help option like this:
+The jelf command gives all sorts of information about the JELF single objects.  
+
+Display the help screen with the -h or --help option like this:
+
 
 ```
  $ jelf --help
@@ -291,7 +294,9 @@ Used internally by the CATALOG command to notify running jBASE processes a new c
 
 ### jelf display
 
-This option allows you to display the meta-data for one or more objects. Below is an example of displaying full meta-data information about an object.
+This option allows you to display the meta-data for one or more objects. 
+
+Below is an example of displaying full meta-data information about an object:
 
 ```
  $ jelf display lib/LaunchTest.so 
@@ -353,7 +358,7 @@ Filename                                 Port   User       Date      Time     Em
 
 Rebuild all the currently installed JELF shared objects. This options uses the meta-data inside the JELF shared object to determinate what options were used for the compilation, and will re-compile accordingly. By default, this command will simply scan and report without doing any actual compilations, allowing you to see what will be rebuilt and any problems. You can then re-run the command with the --apply option to force a multi-thread rebuild of all your sources.
 
-Below is an example of running **without** the --apply option, some lines ommitted for brevity. We can see there is one warning because a source has changed and hasn't been re-compiled and catalog'ed since.
+Below is an example of running **without** the --apply option, some lines omitted for brevity. We can see there is one warning because a source has changed and hasn't been re-compiled and catalog'ed since.
 
 ```
 jelf rebuild
@@ -411,7 +416,7 @@ lib/CHAIN3.TST.so
 
 ### jelf verify
 
-Does a simple check on all the JELF shared objects and reports any errors, such as the source being out-of-date or missing. In the example below, we've set "JELF=1" meaning we do not include the source code in the JELF shared object meta-data. However, we always include the SHA of the source, meaning we can detect if the source has changed since the object was installed, which happens in one file as shown below.
+Does a simple check on all the JELF shared objects and reports any errors, such as the source being out-of-date or missing. In the example below, we've set "JELF=1", meaning we do not include the source code in the JELF shared object meta-data. However, we always include the SHA of the source, meaning we can detect if the source has changed since the object was installed, which happens in one file as shown below.
 
 ```
 $ jelf verify
