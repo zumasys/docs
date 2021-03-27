@@ -251,7 +251,6 @@ The jelf command gives all sorts of information about the JELF single objects.
 
 Display the help screen with the -h or --help option like this:
 
-
 ```
  $ jelf --help
 jelf: Called as
@@ -294,7 +293,7 @@ Used internally by the CATALOG command to notify running jBASE processes a new c
 
 ### jelf display
 
-This option allows you to display the meta-data for one or more objects. 
+This option allows you to display the meta-data for one or more objects.  
 
 Below is an example of displaying full meta-data information about an object:
 
