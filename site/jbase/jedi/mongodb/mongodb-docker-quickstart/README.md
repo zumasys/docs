@@ -4,11 +4,11 @@
 
 ## Docker Quick Start
 
-## jBASE Mongo jEDI
+## jBASE MongoDB jEDI
 
 ### Quick start with Docker containers
 
-If you wish to quickly see the Mongo jEDI working, you can pull our sample Docker image with Mongo already built.
+If you wish to quickly see the MongoDB jEDI working, you can pull our sample Docker image with MongoDB already built.
 
 ```bash
 docker pull mongo
@@ -42,9 +42,9 @@ The jabba code in the above example has been modified to pull the IP address fro
 
 * Linux (Centos 7, RedHat 7/8)
 * jBASE 5.8.0 or later
-* Mongo DB installed and listening on port 27017.
+* MongoDB installed and listening on port 27017.
 
-## Mongo Driver install
+## MongoDB Driver install
 
 We need to install the latest mongo-c-driver from the git repository.
 
@@ -181,7 +181,7 @@ makedemofile]D
 
 ```
 
-We can write objects to both a jBASE file and a Mongo file:
+We can write objects to both a jBASE file and a MongoDB file:
 
 ```
 sh support ~ -->create-file mike-jd
@@ -255,7 +255,7 @@ sh support ~ -->mike-verify
 
 ```
 
-Read a Mongo document (i.e. one that wasn’t put there by jBASE). 
+Read a MongoDB document (i.e. one that wasn’t put there by jBASE). 
 
 We will use a start-up document like this:
 
@@ -362,9 +362,9 @@ sh support ~ -->
 
 MongoDB documentation https://docs.mongodb.com/
 
-Mongo shell https://docs.mongodb.com/manual/mongo/
+MongoDB shell https://docs.mongodb.com/manual/mongo/
 
-Mongo shell tutorial https://docs.mongodb.com/manual/reference/mongo-shell/
+MongoDB shell tutorial https://docs.mongodb.com/manual/reference/mongo-shell/
 
 Full documentation on the MongoDB C Driver http://mongoc.org/libmongoc/current/index.html
 
