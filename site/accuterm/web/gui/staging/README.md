@@ -2,6 +2,17 @@
 
 <PageHeader />
 
+## Release Notes - March 29th, 2021  
+- Controls
+   - Continued work: menu, popup menu, toolbar, status bar
+   - Grid and List continued work
+- Architecture  
+   - Gui App/Form rendering with menu, toolbar and status bar  
+   - Add initial draggable form  
+   - Add Message box and framework for other dialog boxes
+- Service
+   - Message Box completion
+
 ## Release Notes - March 15th, 2021  
 - Controls
    - Completed: tab, tab group
