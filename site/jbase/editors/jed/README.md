@@ -371,6 +371,7 @@ where:
 - **string2** is the replacement string. This can be shorter or longer than the original.
 - **option** can be one or more of :
   - *F* executes the replace command from the first line of the file or record.
+  - *C* do a case insensitive search of **string1**
   - *\** replaces ALL occurrences of string1 with string2 on the current line.
   - *nnn* numeric value for the number of times to repeat the replace operation on the current line.
 
@@ -399,6 +400,13 @@ R999//*/F
 ```
 
 Place a "\*" character at the start of every line starting from the first. All lines changed are shown before returning to the original line.
+
+```
+RU/jbase/jBASE/C
+```
+
+Replace all occurrences of the string "jbase" with "jBASE" on the current line. The "C" option causes a case insensitive search of the string "jbase".  
+This option is only available on jBASE 5.8.0 forward.
 
 ```
 R/^/AM/*
