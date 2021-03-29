@@ -107,27 +107,17 @@ If you want to send dunning letters to customers and/or agents who have overdue 
 3. Enter the Left Margin Adjust, the number of spaces on the left of the letter.
 4. Enter the Text to appear on letter. You can include the following variables (with the preceding |) to designate where you want data from the system included in each letter. As you include these variables in your letter, allocate enough space on the line for the variable's value.
 
-|PHONE The store’s customer services phone #, maintained in General Parameters.
-
-|NAME The customer's first and last name.
-
-|ADDRESS All lines of the customerfs address, including City, State and Zip.
-
-|DL1DATE The last date the customer received the 1st dunning letter.
-
-|DL2DATE The last time the customer received the 2nd dunning letter.
-
-|DL3DATE The last time the customer received the 3rd dunning letter.
-
-|PREBAL The outstanding amount due on the customer's account.
-
-|DAYSOLD The number of days the amount is past due.
-
-|LASTSTMT The date the last statement was sent.
-
-|DATE Today's date.
-
-| (A single carat in column 1 of an otherwise blank line, prints a blank line.)
+>|PHONE The store’s customer services phone #, maintained in General Parameters.  
+>|NAME The customer's first and last name.  
+>|ADDRESS All lines of the customerfs address, including City, State and Zip.  
+>|DL1DATE The last date the customer received the 1st dunning letter.  
+>|DL2DATE The last time the customer received the 2nd dunning letter.  
+>|DL3DATE The last time the customer received the 3rd dunning letter.  
+>|PREBAL The outstanding amount due on the customer's account.  
+>|DAYSOLD The number of days the amount is past due.  
+>|LASTSTMT The date the last statement was sent.  
+>|DATE Today's date.  
+>| (A single carat in column 1 of an otherwise blank line, prints a blank line.)  
 
 ![dunning letter maint](./word-image-159.png)
 

@@ -264,7 +264,8 @@ Special Orders are used for items not in stock. Three major processes are involv
 
 #### Special Order Maintenance
 
-1. ![](images/word-image-395.png) There are two ways to get to the Special Order Entry screen *(POS-24-1)*. If you wish to enter a new special order, you must access the screen by selecting the **Cash Register** option from the Main Menu and then entering “SPO” as the transaction type. If you are going to modify an existing special order, you can access the screen from the Main Menu by selecting the **Special Orders** option followed by the **Maintenance** option.
+1. There are two ways to get to the Special Order Entry screen *(POS-24-1)*. If you wish to enter a new special order, you must access the screen by selecting the **Cash Register** option from the Main Menu and then entering “SPO” as the transaction type. If you are going to modify an existing special order, you can access the screen from the Main Menu by selecting the **Special Orders** option followed by the **Maintenance** option.
+   - ![Special Order Maint](./word-image-395.png)  
 2. In the **Special Order ID** field, enter a period to assign the next available ID number to the new special order. If you are modifying an existing order, enter the ID number assigned to that order, the name of the customer, or enter “??” to see a list of existing orders.
 3. In the **Customer Name** field, enter the name of the customer who is placing the order. If the customer is representing an organization, enter the name of that organization in the **Organization** field.
 4. In the **Primary Phone** field, enter the primary phone number where the customer can be reached.
@@ -272,7 +273,7 @@ Special Orders are used for items not in stock. Three major processes are involv
 6. In the **Address** fields, enter the customer’s address.
 7. The **Date of Request** field is automatically filled in with the current date. If the customer requested the items earlier, you can modify it.
 8. In the **Deposit Field**, enter any deposit amount that the customer will pay on the items.
-9. You can enter up to three lines of notes in the **Call Notes** field.
+9.  You can enter up to three lines of notes in the **Call Notes** field.
 10. In the **SKU** field, enter the SKU of the item that is being ordered. The **Description** field is filled in automatically.
 11. In the **QTY** field, enter the quantity that the customer wishes to order.
 12. In the **Special Instructions** field, enter any special instructions on the handling of the item.
