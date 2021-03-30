@@ -6,7 +6,7 @@
 
 ### Utilities and A/P System Parameters
 
-![](./word-image-179.png)
+![ap system params](./word-image-179.png)
 
 The Utilities/Setup menu allows you to establish basic static data about your organization. Generally this data is rarely changed. It also contains rarely used functions that are not part of normal daily or periodic processes.
 
@@ -14,7 +14,7 @@ As with all menus the Global Menu appears at the bottom allowing you to easily s
 
 ## General Parameters
 
-![](./word-image-180.png)
+![ap general parameters](./word-image-180.png)
 
 This is where you enter basic information about your organization.
 
@@ -30,7 +30,7 @@ This is where you enter basic information about your organization.
 
 ## Maintain Ledger Accounts
 
-![](./word-image-181.png)
+![ledger account maint](./word-image-181.png)
 
 _**\*\*\* If you are using the SmartSuite G/L Module you should manage your G/L accounts in the G/L Module and not use this menu option.**_
 
@@ -47,7 +47,7 @@ To delete an account enter a “D” at the Options prompt.
 
 AP-UT-03
 
-![](./word-image-182.png)
+![payment terms maint](./word-image-182.png)
 
 This table is used to automatically calculate due dates and discounts during invoice entry.
 
@@ -62,7 +62,7 @@ This table is used to automatically calculate due dates and discounts during inv
 
 AP-UT-21 Select this option if you want to rebuild the vendor cross reference. This is a process that usually is only used after importing a vendor database.
 
-![](./word-image-183.png)
+![vendor cross reference](./word-image-183.png)
 
 When the process is complete simple press Enter or click on the “Done” button.
 
@@ -72,31 +72,31 @@ AP-UT-22
 
 Formatting checks to fit various check forms is accomplished by using this table. The system supports most standard check formats. It also allows for printing “supplemental” forms in the event that there are more invoices than what can be displayed on the check stub. Or, you can use up checks if the form limit is reached.
 
-![](./word-image-184.png)
+![check formatting maint](./word-image-184.png)
 
 1. Enter the **printer** number where this form will print. Use F6 for printer/form 6. You can also enter #of copies or HS, etc. If you are printing through Print Wizard then enter Wn where n is the printer number. Print Wizard is used whenever there is a need to print logos or signatures on the check stock.
-    1. Options:
-        1.  An.  The literal "A" followed by the "Auxport" printer sequence.  The printer sequence is based on the sequence in GUI Properties, Other, Printer Settings.  Most users use the same printer that is used for reports by just changing the paper in the printer to check stock.  Default printer settings are as follows:
-            1. GUI Interfaces:
-                1. Printer 1 is the **Receipt** Printer.
-                2. Printer 2 is the **Report** Printer.
-                3. Printer 3 is the **Barcode** Printer.
-                4. Printer 4 is the **Customer Display** Pole.
-                5. Printer 5-9 are **Alternate**  Printers.
-                6. Printer 0 is for testing and sends the check "image" to the GUI viewer.
-            2. Accuterm interfaces:
-                1. Sends the check to the Auxport Printer.
-        2. Wn.  The literal "W" followed by:
-            1. '('printer filepath on the server')'
-            2. PDF.  Saves image to c:\\spool\\pdf\\CheckNumber.pdf
-            3. blank... Saves to NT:C:\\SPOOL
+    - Options:
+      1. A#.  The literal "A" followed by the "Auxport" printer sequence.  The printer sequence is based on the sequence in GUI Properties, Other, Printer Settings.  Most users use the same printer that is used for reports by just changing the paper in the printer to check stock.  Default printer settings are as follows:
+         1. GUI Interfaces:
+            1. Printer 1 is the **Receipt** Printer.
+            2. Printer 2 is the **Report** Printer.
+            3. Printer 3 is the **Barcode** Printer.
+            4. Printer 4 is the **Customer Display** Pole.
+            5. Printer 5-9 are **Alternate**  Printers.
+            6. Printer 0 is for testing and sends the check "image" to the GUI viewer.
+         2. Accuterm interfaces:
+            1. Sends the check to the Auxport Printer.
+      2. Wn.  The literal "W" followed by:
+         1. '('printer filepath on the server')'
+         2. PDF.  Saves image to c:\\spool\\pdf\\CheckNumber.pdf
+         3. blank... Saves to NT:C:\\SPOOL
 2. The **Print Sequence** specifies the order of printing the check stock. The system supports two and three section check stock. S=Stub, B=Body. Valid formats include “SB”, “SSB”, “BS”, “BSS”, “SBS”.
 3. If you wish to print a **Form Feed** after the last check (to eject the last form) then enter a “Y” otherwise enter “N”.
 4. The number of physical **Lines on Body** is how many total print lines are available on the Body of the form.
 5. The number of physical **Lines on stub** is how many total print lines are available on the Stub portion of the form.
 6. **Lines on Supplemental** is the number of lines that can be printed on a supplemental form before a new page starts.
 
-**Stub Factors**
+### Stub Factors
 
 1. Specify which **row** number on the stub you are referencing. If the number of Lines on Stub is 12 then this number should not exceed 12.
 2. **Column** is the physical column number on the stub where printing will begin.
@@ -134,7 +134,7 @@ Formatting checks to fit various check forms is accomplished by using this table
 6. **TBM** specifies Top, Middle or Bottom. On a check stub there are three areas 1) the Top row or heading, 2) the Bottom row or footing, and 3) the space between the top and bottom – the middle.
 7. **Comments:** This is free form text for you to note anything unique about the row of data.
 
-**Body Factors**
+### Body Factors
 
 1. Specify which **row** number on the body you are referencing. If the number of Lines on body is 12 then this number should not exceed 12.
 2. **Column** is the physical column number on the body where printing will begin.
@@ -176,39 +176,39 @@ AP-UT-22
 
 If you create two vendor records for the same vendor and there are invoices and payments made on both of them you can combine them into one vendor. This process also deletes the “Transfer From:” vendor.
 
-![](./word-image-185.png)
+![combine vendors](./word-image-185.png)
 
 You may use the cross reference in either Vendor field to search for the vendor by name.
 
 After entering both vendors the following box appears:
 
-![](./word-image-186.png)
+![combine prompt](./word-image-186.png)
 
 If you select “Yes” then you will see the following box, with the appropriate information.
 
-![](./word-image-187.png)
+![combine summary](./word-image-187.png)
 
 Press Enter or click on the “Continue” button to return to the menu.
 
-# Day-to-Day Functions
+## Day-to-Day Functions
 
 The day-to-day functions are accessed from the A/P Master Menu.
 
-## Vendor Maintenance
+### Vendor Maintenance
 
 This menu option is at the bottom center of the screen and is accessed by click on the “hot spot” beginning with “VM” and ending somewhere after the words “Vendor Maintenance”.
 
-![](./word-image-188.png)
+![vendor maint](./word-image-188.png)
 
 1. Vendor ID: This field functions to look up and existing vendor or to add a new vendor. To add a new customer you can enter a numeric value for the vendor or simple enter a period (“.”) and then press enter. If you typed in a number and the vendor record does not exist you will be prompted to add the customer or exit. If you used the period then can start to enter the information immediately.
 
 To look up and exiting vendor simply type 3 or more letters of their name or the Sort Code. If there are more than on matches you will see a list to choose from. Here’s an example:
 
-![](./word-image-189.png)
+![keyword search](./word-image-189.png)
 
 If there is more than one page of names then you can use the navigation at the bottom of the screen to move forward, back, etc., and to select a vendor. You can use your mouse and click on the row that their name is on to select the vendor.
 
-![](./word-image-190.png)
+![nav options](./word-image-190.png)
 
 1. If it will be easier to look up a customer by a common abbreviation then enter that abbreviation in the **Sort Code** field. It may be easier to reference Prentice Hall by PH.
 2. **Name, Address, etc. …..**
@@ -231,15 +231,15 @@ AP-01
 
 Invoices and credits are entered in the same screen. Credits are entered with negative amounts.
 
-![](./word-image-191.png)
+![invoice maint screen](./word-image-191.png)
 
 1. **Vendor:** Enter the vendor number our enter 3 or more letters of the vendor name or sort code to access the vendor.
     1. If the vendor you want to use you can enter a period “.” in the Vendor field to add a new vendor. This will take you to the vendor maintenance screen.
 2. Enter an **Invoice Number.**
     1. If you enter an existing invoice number then the screen will be filled with the data pertaining to that invoice.
     2. If you want to get a list of invoices for this vendor simply enter “??”.  You will be presented with a small prompt for Invoice Status.  You can enter the invoice status that you want to see or you can enter "??" again and get a list of Invoice Status choices.  The Choices include:  
-       - ![](./AP-Status-List-300x244.png)
-    3.  You can then select an invoice from the list.
+       - ![option list](./AP-Status-List-300x244.png)
+    3. You can then select an invoice from the list.
     4. If the invoice is not on file then you can begin filling out the invoice information.
 3. Enter the **Status** of this invoice. The valid codes include:
     1. “O” – Open for Payment.
@@ -254,13 +254,13 @@ Invoices and credits are entered in the same screen. Credits are entered with ne
 10. If the **G/L Account** you enter is flagged for payment tracking then the **Project** field is required.
 11. To delete a transaction enter "D" at "Options prompt".  If the transaction has been journalized or paid you will need to select the "V"=Void option.
 
-# Check Processing
+## Check Processing
 
 Check and voucher processing is done in either Batches of one or more vendors or by Quick Checks of just one invoice on the check.
 
 **All check processes write to the local A/P check file.  If you have the SmartSuite General Ledger system then the check data is also written to the G/L Cash Disbursements file. The  G/L Cash Disbursements file is what is used to create the Disbursements Journal Entry.  There is no process in A/P to post a Journal Entry for any check processing.**
 
-## Quick Checks
+### Quick Checks
 
 Use this method to print a check for a **single invoice**.
 
@@ -269,11 +269,11 @@ Use this method to print a check for a **single invoice**.
     2. Credit memos will not print. Only a positive invoice will print.
 2. At the “Options” prompt choose “Q=Quick Check”.
 
-![](./word-image-192.png)
+![nav options](./word-image-192.png)
 
 1. Get the physical check that will be printed
 
-![](./word-image-193.png)
+![print check screen](./word-image-193.png)
 
 1. Enter the check number twice.
 2. Enter the bank code the check belongs to.
@@ -286,24 +286,23 @@ Use this method to print a check for a **single invoice**.
 
 Use this method to print **one or more checks** for **one or more vendors**.
 
-![](./word-image-194.png)
+![check processing menu](./word-image-194.png)
 
 1. Enter all of your invoices using menu AP-01.
 2. Select Menu AP-02. (Check Processing Menu)
 3. Select option 1 – Create Check Preview. This creates pre-checks that can be edited, modified, or printed.
 
-![](./word-image-195.png)
+![run check preview](./word-image-195.png)
 
-- 1. Enter a payment cutoff date for invoices to include in the check preview.
-    2. Enter the date that will be printed on the checks.
-    3. Enter “Y” or “N” to clear the check preview file. Usually this is “Y”, but if you need to rerun this process and include more vendors than were automatically included on the previous run then enter “N”.
-    4. Enter a “Y” or “N” for Recurring Payments
-    5. Optional. Enter the vendor numbers that you want to include on this check preview. Leaving the vendors blank will select all vendors.
-    6. Optional. You may use the cross reference of 3 or more characters of one or more words of the vendor name to get the customer number.
-    7. Select “R=Run Process”. This will create the check preview records.
-
-1. Optional. Select option 3 to print a report of the pre-checks.
-2. Optional. Select option 2 to view, modify, or delete a pre-check.
+1. Enter a payment cutoff date for invoices to include in the check preview.
+   1. Enter the date that will be printed on the checks.
+   2. Enter “Y” or “N” to clear the check preview file. Usually this is “Y”, but if you need to rerun this process and include more vendors than were automatically included on the previous run then enter “N”.
+   3. Enter a “Y” or “N” for Recurring Payments
+   4. Optional. Enter the vendor numbers that you want to include on this check preview. Leaving the vendors blank will select all vendors.
+   5. Optional. You may use the cross reference of 3 or more characters of one or more words of the vendor name to get the customer number.
+   6. Select “R=Run Process”. This will create the check preview records.
+2. Optional. Select option 3 to print a report of the pre-checks.
+3. Optional. Select option 2 to view, modify, or delete a pre-check.
 
 You should do at least one of the above to ensure that the invoices you are processing are the correct ones.
 
@@ -311,7 +310,7 @@ You should do at least one of the above to ensure that the invoices you are proc
 
 AP-02-03
 
-![](./word-image-196.png)
+![check edit preview](./word-image-196.png)
 
 1. To delete an entire pre-check enter a “D” at the “Options” prompt.
 2. To delete an invoice from the check enter “M” at the “Options” prompt, then enter a space (or press the delete key) over the invoice number to be deleted from the pre-check.
@@ -323,7 +322,7 @@ AP-02-03
 1. Select option 4 to print the checks.
 2. Get the physical checks that will be printed.
 
-![](./word-image-197.png)
+![print checks screen](./word-image-197.png)
 
 1. Enter the first check number twice.
 2. Enter the bank code the checks belong to.
@@ -339,7 +338,7 @@ AP-02-21
 
 Use this feature to void a check that has been printed. **All invoices on the check will return to their open, ready to print, status.** The invoices then are ready to be included on another check run. If you want to void/cancel the invoices then you will have to remove them in invoice maintenance.
 
-![](./word-image-198.png)
+![void check screen](./word-image-198.png)
 
 1. Enter the system **Check Number**. This may not be the physical check number.
 2. Enter the **Bank Code** associated with the check number.
@@ -353,7 +352,7 @@ AP-02-22
 
 If you manually prepared a check for a vendor then use this process to record the check and to update the invoices. This is also where you enter payments from vendors who send you a check for any credits.
 
-![](./word-image-199.png)
+![manual check entry screen](./word-image-199.png)
 
 1. Enter a valid **Vendor #**. You may use the cross reference lookup here.
 2. Enter the physical **Check Number** that was used to pay the vendor.
@@ -372,7 +371,7 @@ AP-02-23
 
 Use the Check Inquiry process to look at checks that have been created. This is very useful when a vendor calls and wants to know information regarding a payment.
 
-![](./word-image-200.png)
+![check inquiry screen](./word-image-200.png)
 
 1. Enter **Vendor** number (or name).
 2. Enter the check number and the bank code in the format of checknumber\*bankcode.
@@ -382,21 +381,21 @@ Use the Check Inquiry process to look at checks that have been created. This is 
 
 AP-02-24
 
-![](./word-image-201.png)
+![reprint checks](./word-image-201.png)
 
 1. Enter the **First Check Number** that you want to reprint. This is the actual system generate number.
 2. Enter the **Last Check Number** that you want to reprint. It you are just reprinting one check then use the same number as the First Check Number.
 3. Select “R” to run the procedure.
 
-# Posting Transactions to General Ledger
+## Posting Transactions to General Ledger
 
 This is for customers who have the SmartSuite General Ledger module installed.  It posts ONLY A/P transactions (invoices and credits), it does not post checks.  Checks are posted in the G/L module.
 
-## Pre-Posting Report
+### Pre-Posting Report
 
 AP-03-01
 
-![](./AP-Preposting-1024x185.jpg)
+![pre posting options](./AP-Preposting-1024x185.jpg)
 
 You may run this report repeatedly. It is just a report.
 
@@ -404,26 +403,26 @@ You may run this report repeatedly. It is just a report.
 2. Enter a letter to indicate what kind of data you want to see on this report. **S** is for Summary, **D** is for Detail, and **E** is for transactions with invalid G/L account numbers (this could be a result of settings in your distributions codes).
 3. Select “R” to run the procedure.
 
-## Create Journal Entry
+### Create Journal Entry
 
 AP-03-02
 
-![](./ap_create_journal.png)
+![entry date options](./ap_create_journal.png)
 
 1. Enter the **Invoice Cutoff Date**. To keep things straight you should use the same date that you used in the Pre-Posting Report, although this is not mandatory.  Only one date for selecting the transactions is required.  All transactions that have not be journalized with this date or older will be included.
 2. Enter the **Accounting Period to Post**.  When the Journal Entry is created and written to the G/L module it will use this accounting period. Use a valid period.
 
-## Change Accounting Period (Optional)
+### Change Accounting Period (Optional)
 
 AP-03-03
 
-![](./ap_change_period.png)
+![change period](./ap_change_period.png)
 
 This process is optional.  The accounting period will be updated with the Accounting Period to Post from AP-03-02.
 
 1. Enter the current **Accounting Period.**
 
-## Remove Posting Flag
+### Remove Posting Flag
 
 This process allows you to re-post transactions that have already been journalized.  Please make sure that you have reversed or deleted the Journal Entry from the G/L account or you will have a double posting.
 
@@ -432,8 +431,6 @@ AP-03-06
 PICTURE
 
 1. **Enter the Journal Code**: This is generally in the format of AP\*nnnn, where nnnn is the number portion of the original journal entry.
-
-* * *
 
 ## Frequently Asked Questions
 
@@ -449,11 +446,11 @@ You can stay ahead of the game by entering vendor 99999 in invoice entry and the
 
 The A/P Master Menu will display a message whenever there are Suspense transactions to be reconciled.  It will look similar to this.
 
-![](./AP-Suspense.png)
+![ap master menu](./AP-Suspense.png)
 
 _**The invoice information will tell you what to do.**_
 
-![](./AP-Suspended.png)
+![fix vendor callout](./AP-Suspended.png)
 
 Q. **How to write off a Credit Memo?**
 

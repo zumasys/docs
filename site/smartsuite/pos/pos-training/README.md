@@ -87,11 +87,11 @@ Scan in the item with the hand-held scanners. You may scan a manufacturer’s ba
 
 ### Manually Entering Items
 
-*By SKU*
+#### By SKU
 
 Enter in the item number. When you manually enter the number, the number must match **exactly** as it is in the Master File. The system **will not** accept only part of the number.
 
-*By Description*
+#### By Description
 
 Enter in any part of the description of the item. The system will match exactly the description you tell it to. For example, if you type in “*SHAM*”, it will pick up ‘Shampoo’ as well as ‘Shamrock’, but will not pick up ‘Shmp’(as an abbreviation for Shampoo).
 
@@ -161,7 +161,7 @@ The item inquiry key can be used at any time while in the cash register screen. 
 
 ### Gift Certificates
 
-#### Purchasing a Gift Certificate:
+#### Purchasing a Gift Certificate
 
 1. Press the ‘Gift Cert Purchase’ key.
 2. Enter in the information in the field on the display. (fields are optional except the value field – enter in the value of the gift cert) It is recommended that you fill in the “Purchased By” and “Purchased For” fields.
@@ -175,7 +175,7 @@ You may purchase multiple gift certificates per transaction (if they are buying 
 
 Only sell a gift certificate during a “SALE” transaction since that is what you are doing – you are ‘selling’ an item to them.
 
-#### Redeeming a Gift Certificate:
+#### Redeeming a Gift Certificate
 
 1. After entering in the items the customer is purchasing and you have pressed the total key, press the “Gift Certificate” tender key.
 2. At the prompt “Enter Voucher Number”, enter in the voucher number written on the gift certificate.
@@ -229,14 +229,14 @@ While in the Sales Entry’ screen, press “*Enter*” to accept the default te
 
 ### Store Credit
 
-*Issuing a Store Credit*
+#### Issuing a Store Credit
 
 1. A store credit can be issued any time the balance owed (the total) is a negative balance (whether through a return or exchange). If you have a negative balance after you have pressed the ‘*Total*” key, press the “Store Credit” key.
 2. A small window will display where you must fill in the name, address, and phone. All the fields in the window are required fields. It is recommended that you enter their name, their ‘company’ or ‘squadron’ for the address, “WP” (for West Point) for City, ST Zip, and then a phone number (any phone number will do)
 3. Press “*Enter*” to save the store credit to the system.
 4. Make sure you give the customer the receipt. The receipt will have the voucher number on it, and they must provide the receipt in order to redeem their store credit.
 
-*Redeeming a Store Credit*
+#### Redeeming a Store Credit
 
 1. After entering in the items the customer is purchasing and pressing the total key, press the “Redeem Credit” key.
 2. At the prompt “Enter Voucher Number”, enter the voucher number that is on their original receipt.
@@ -273,7 +273,7 @@ Special Orders are used for items not in stock. Three major processes are involv
 6. In the **Address** fields, enter the customer’s address.
 7. The **Date of Request** field is automatically filled in with the current date. If the customer requested the items earlier, you can modify it.
 8. In the **Deposit Field**, enter any deposit amount that the customer will pay on the items.
-9.  You can enter up to three lines of notes in the **Call Notes** field.
+9. You can enter up to three lines of notes in the **Call Notes** field.
 10. In the **SKU** field, enter the SKU of the item that is being ordered. The **Description** field is filled in automatically.
 11. In the **QTY** field, enter the quantity that the customer wishes to order.
 12. In the **Special Instructions** field, enter any special instructions on the handling of the item.
