@@ -46,14 +46,18 @@ The jabba code in the above example has been modified to pull the IP address fro
 
 ## MongoDB Driver install
 
-We need to install the latest mongo-c-driver from the git repository.
+We need to install the latest mongo-c-driver from the git repository:
 
+```
 https://github.com/mongodb/mongo-c-driver.git
+```
 
 There are two ways to retrieve this.
 
+```
 1. git clone https://github.com/mongodb/mongo-c-driver.git
 2. curl -O https://github.com/mongodb/mongo-c-driver/archive/r1.16.zip
+```
 
 You now must install dependencies to make this driver.  This driver uses cmake3 which is not available in the default Redhat/Centos installs.  Instead the default cmake is cmake2.  
 
@@ -255,7 +259,7 @@ sh support ~ -->mike-verify
 
 ```
 
-Read a MongoDB document (i.e. one that wasn’t put there by jBASE). 
+Read a MongoDB document (i.e. one that wasn’t put there by jBASE).  
 
 We will use a start-up document like this:
 
@@ -360,15 +364,15 @@ sh support ~ -->
 
 ## Useful URLS
 
-MongoDB documentation https://docs.mongodb.com/
+[MongoDB documentation](https://docs.mongodb.com/)
 
-MongoDB shell https://docs.mongodb.com/manual/mongo/
+[MongoDB shell](https://docs.mongodb.com/manual/mongo/)
 
-MongoDB shell tutorial https://docs.mongodb.com/manual/reference/mongo-shell/
+[MongoDB shell tutorial](https://docs.mongodb.com/manual/reference/mongo-shell/)
 
-Full documentation on the MongoDB C Driver http://mongoc.org/libmongoc/current/index.html
+[Full documentation on the MongoDB C Driver](http://mongoc.org/libmongoc/current/index.html)
 
-Mongo API documentation https://mongoc.org/libmongoc/current/api.html
+[Mongo API documentation](https://mongoc.org/libmongoc/current/api.html)
 
 ## Note #2
 
