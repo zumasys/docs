@@ -563,7 +563,7 @@ module.exports = {
               ["/smartsuite/ar/ar-general-ledger-interface/", "General Ledger Interface"],
               ["/smartsuite/ar/ar-history/", "Managing AR History"],
               ["/smartsuite/ar/creating-ar-agents/", "Create AR Agents"],
-              ["/smartsuite/ar/create-ar-customers/", "Create AR Customers"]
+              ["/smartsuite/ar/create-ar-customer/", "Create AR Customers"]
             ]
           },
           {
