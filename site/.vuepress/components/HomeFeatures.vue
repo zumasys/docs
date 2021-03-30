@@ -7,7 +7,8 @@
         <a href="/accuterm/license-activation/">Licensing</a><br />
         <a href="/accuterm/desktop/">Desktop</a><br />
         <a href="/accuterm/web/">Web</a><br />
-        <a href="/accuterm/mobile/">Mobile</a>
+        <a href="/accuterm/mobile/">Mobile</a><br />
+        <a href="https://static.zumasys.com/zumasys/atfiles/manuals/8/AccuTerm-8-User-Manual.pdf" target="_blank">AccuTerm 8 User Manual</a>
       </p>
     </div>
     <div class="feature">
