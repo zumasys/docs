@@ -37,7 +37,7 @@ If you have a Command Level or Break/End Restart feature in effect, or the break
 | **b** | Display all currently active breakpoints. |
 | **b {-t} nn{,file}** | Set a breakpoint at line *nn* in the current file or that specified by the file modifier. If the **-t** option is specified, then the breakpoint will cause a display of all the trace variables rather than halting the program. |
 | **b {-t} varname** | This form of the **b** command will cause the debugger to be entered whenever the contents of the specified variable are changed. |
-| **b {-t} ex1 op ex2 {AND\|OR .....}** | Set a breakpoint at the line whose value is obtained by performing the operation **op** on expressions *ex1* and *ex2*.<br>See later for a full description of expressions. The **-t** option will cause the debugger to display all the trace points rather than halting program execution.<br>See the following table for value **op** values. |
+| **b {-t} ex1 op ex2 {AND\|OR ...}** | Set a breakpoint at the line whose value is obtained by performing the operation **op** on expressions *ex1* and *ex2*.<br><br>See later for a full description of expressions. The **-t** option will cause the debugger to display all the trace points rather than halting program execution.<br>See the following table for value **op** values. |
 
 ## op values
 
