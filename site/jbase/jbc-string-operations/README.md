@@ -6,7 +6,7 @@
 <badge text='substrings' vertical='middle' />
 <badge text='string operations' vertical='middle' />
 
-A substring can be extracted with the notation:
+A substring can be extracted with the following notation:
 
 ```
 substring = stringvalue[x{,y}]
@@ -58,9 +58,32 @@ s[1,0] returns ''
 s[-22,1] = t returns "Anyone who needs a will just isn't spending all of their money properly." to s.
 ```
 
-## Note
+## Note #1  
 
-> Negative substring operations are not available in all emulations. Consult your legacy manual.]
+A substring can also be extracted with the following notation:
+
+```
+substring = stringvalue[d,x,y]
+```
+
+Where:
+
+- d is a delimiter
+- x is the initial occurrence
+- y is number of delimited fields to extract  
+
+For example:
+
+```
+a = "123-456-789"
+CRT a["-",2,1]
+
+returns "456".
+```
+
+## Note #2
+
+> Negative substring operations are not available in all emulations. Consult your legacy manual.  
 
 [Back to Knowledgebase](./../README.md)
 
