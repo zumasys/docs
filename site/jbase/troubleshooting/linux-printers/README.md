@@ -96,10 +96,10 @@ PROG        3 F3                      0  KILLED         /dbms/scripts/dopdf
 PROG        4 F4                      0  ASSIGNED       /dbms/scripts/dopdf 
 ```
 
-If any printer shows a status of "KILLED" or "I/O Error", usually a spooler restart will fix it.
+If any printer shows a status of "KILLED" or "I/O Error", an SP-RESUME may fix it, i.e.:
 
 ```
-REST-SPOOLER
+SP-RESUME F1
 ```
 
 If this doesn’t fix it, you may need to shutdown and then restart the jBASE spooler.  
