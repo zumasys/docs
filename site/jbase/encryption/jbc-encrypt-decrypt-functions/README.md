@@ -6,7 +6,7 @@ Beginning with jBASE 5.8, the following information applies to the jBC [ENCRYPT(
 
 In addition to the symmetric ciphers supported in previous jBASE releases, support has been added for:
 
-* hashing (MD5, SHA1, SHA384, SHA512)
+* hashing (MD5, SHA1, SHA256, SHA384, SHA512)
 * digital signature (RSA, HMAC)
 * signature verification (RSA, HMAC)
 * optional IV for symmetric ciphers
