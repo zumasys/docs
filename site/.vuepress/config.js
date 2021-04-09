@@ -355,6 +355,14 @@ module.exports = {
             ]
           },
           {
+            title: "Troubleshooting",
+            path: "/jbase/troubleshooting",
+            collapsable: true,
+            children: [
+              ["/jbase/troubleshooting/linux-printers", "Linux Printers"]
+            ]
+          },
+          {
             title: "Technical Support",
             path: "/jbase/technical-support",
             collapsable: true,
