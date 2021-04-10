@@ -22,7 +22,6 @@ we can send text to that device as follows:
 
 ```bash  
 $ echo This is a test | lp -d laser1
-
 ```
 
 at which point, it should be possible to see that text on the laser1 device.
