@@ -83,6 +83,31 @@ The jspool\_log is a standard jBASE hash file and can be LISTed and reported on 
 | SEC\_JOBS | 27 | Job Security |   |
 | SEC\_OWNERS | 28 | Other Queue Owners |   |
 
+## Spooler Job and Queue Status Codes
+
+```
+JOBS (JSTATUS):
+
+EQUATE  DEVJOBS_STATUS_READY        TO  1   ;* Status of job: Ready for printing.
+EQUATE  DEVJOBS_STATUS_PRINTING     TO  2   ;* Status of job: Currently being printed.
+EQUATE  DEVJOBS_STATUS_FINISH       TO  3   ;* Status of job: Completed and being held.
+EQUATE  DEVJOBS_STATUS_OPEN         TO  4   ;* Status of job: Opened and currently being written to.
+EQUATE  DEVJOBS_STATUS_HOLD         TO  5   ;* Status of job: Completed but held back from printing.
+EQUATE  DEVJOBS_STATUS_EDIT         TO  6   ;* Status of job: Being edited by another process.
+EQUATE  DEVJOBS_STATUS_KILLED       TO  7   ;* Status of job: Is a HOLD file, and has been killed.
+EQUATE  DEVJOBS_STATUS_ALIGN        TO  8   ;* Status of job: Being held waiting for ALIGN.
+
+QUEUES (QSTATUS):
+EQUATE  DEVCONFIG_STATUS_IOERROR    TO  1   ;* Device stopped due to an I/O error.
+EQUATE  DEVCONFIG_STATUS_SUSPENDED  TO  2   ;* Device has been suspended temporarily.
+EQUATE  DEVCONFIG_STATUS_STOPPED    TO  3   ;* Device has been stopped by operator.
+EQUATE  DEVCONFIG_STATUS_ALIGN      TO  4   ;* Device has been suspended while ALIGNing paper
+EQUATE  DEVCONFIG_STATUS_ACTIVE     TO  5   ;* Device is actually printing
+EQUATE  DEVCONFIG_STATUS_ASSIGNED   TO  6   ;* Device is assigned, but nothing to do.
+EQUATE  DEVCONFIG_STATUS_NODEVICE   TO  7   ;* Device has no knowledge of where to put its output.
+EQUATE  DEVCONFIG_STATUS_KILLED     TO  8   ;* Device has been killed somehow.
+```
+
 ## The route of a typical print job
 
 ### Print queue settings derived from SP-ASSIGN and TERM

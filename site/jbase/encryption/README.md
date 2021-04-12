@@ -91,7 +91,7 @@ The following functionality has been tested to ensure correct working with the n
 
 [create-an-encrypted-spooler-queue](./create-an-encrypted-spooler-queue/README.md)  
 [create-encrypted-files](./create-encrypted-files/README.md)  
-[encryption-administration](./encryption-administration/README.md)    
+[encryption-administration](./encryption-administration/README.md)  
 [jbase-encryption-database-security](./jbase-encryption-database-security/README.md)  
 [jBC ENCRYPT() and DECRYPT() functions](./jbc-encrypt-decrypt-functions/README.md)
 
