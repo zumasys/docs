@@ -359,7 +359,7 @@ module.exports = {
             path: "/jbase/troubleshooting",
             collapsable: true,
             children: [
-              ["/jbase/troubleshooting/linux-printers", "Linux Printers"]
+              ["/jbase/troubleshooting/linux-printers/", "Linux Printers"]
             ]
           },
           {
@@ -571,7 +571,7 @@ module.exports = {
               ["/smartsuite/ar/ar-general-ledger-interface/", "General Ledger Interface"],
               ["/smartsuite/ar/ar-history/", "Managing AR History"],
               ["/smartsuite/ar/creating-ar-agents/", "Create AR Agents"],
-              ["/smartsuite/ar/create-ar-customers/", "Create AR Customers"]
+              ["/smartsuite/ar/create-ar-customer/", "Create AR Customers"]
             ]
           },
           {
@@ -583,7 +583,7 @@ module.exports = {
               ["/smartsuite/gl/general-ledger-training/", "Training Document"],
               ["/smartsuite/gl/month-end-closing/", "EOM CLosing"]
             ]
-          },          
+          },
           {
             title: "General Merchandise",
             path: "/smartsuite/gm/",
