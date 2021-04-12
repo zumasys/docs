@@ -359,7 +359,7 @@ module.exports = {
             path: "/jbase/troubleshooting",
             collapsable: true,
             children: [
-              ["/jbase/troubleshooting/linux-printers", "Linux Printers"]
+              ["/jbase/troubleshooting/linux-printers/", "Linux Printers"]
             ]
           },
           {
@@ -560,7 +560,154 @@ module.exports = {
         title: "Smart Suite",
         path: "/smartsuite/",
         collapsable: true,
-        children: [["/smartsuite/release-notes/", "Release Notes"]]
+        children: [
+          ["/smartsuite/ap/accounts-payable-training/", "Accounts Payable"],
+          ["/smartsuite/ar/ar-training/", "AR Training Guide"],
+          {
+            title: "Accounts Receivable",
+            path: "/smartsuite/ar/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/ar/ar-general-ledger-interface/", "General Ledger Interface"],
+              ["/smartsuite/ar/ar-history/", "Managing AR History"],
+              ["/smartsuite/ar/creating-ar-agents/", "Create AR Agents"],
+              ["/smartsuite/ar/create-ar-customer/", "Create AR Customers"]
+            ]
+          },
+          {
+            title: "General Ledger",
+            path: "/smartsuite/gl/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/gl/general-ledger-pos-setup/", "GL POS Setup"],
+              ["/smartsuite/gl/general-ledger-training/", "Training Document"],
+              ["/smartsuite/gl/month-end-closing/", "EOM CLosing"]
+            ]
+          },
+          {
+            title: "General Merchandise",
+            path: "/smartsuite/gm/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/gm/adding-gm-items-to-the-web/", "Add Items to Web"],
+              ["/smartsuite/gm/adopt-gm-items/", "Adopt GM Items"],
+              ["/smartsuite/gm/create-matrix-items/", "Create Matrix Items"],
+              ["/smartsuite/gm/creating-a-purchase-order-with-new-matrix-items/", "Create PO With New Matrix Items"],
+              ["/smartsuite/gm/creating-kits-or-bundles/", "Create Kits or Bundles"],
+              ["/smartsuite/gm/general-merchandise-training-2/", "GM Training"],
+              ["/smartsuite/gm/gm-merchandise-for-rush/", "Prepare for Rush"],
+              ["/smartsuite/gm/gm-price-changes/", "Price Changes"],
+              ["/smartsuite/gm/gm-promo-pricing/", "Promo Pricing"],
+              ["/smartsuite/gm/gm-purchasing-guide/", "Purchasing Guide"],
+              ["/smartsuite/gm/matrix-receiving/", "Matrix Receiving"],
+              ["/smartsuite/gm/unkit/", "Unkit Kitted Items"]
+            ]
+          },
+          {
+            title: "Graphic Interface (GUI)",
+            path: "/smartsuite/gui/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/gui/customer-gui-installation/", "Customer Install Instructions"],
+              ["/smartsuite/gui/getting-a-report-into-excel/", "Export Report to Excel"]
+            ]
+          },
+          {
+            title: "Hardware",
+            path: "/smartsuite/hardware/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/hardware/add-logo-to-receipt/", "Add Receipt Logo"],
+              ["/smartsuite/hardware/scanpal-usage-guide/", "Scanpal User Guide"]
+            ]
+          },
+          {
+            title: "Point of Sale",
+            path: "/smartsuite/pos/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/pos/balance-inquiry/", "Balance Inquiry"],
+              ["/smartsuite/pos/card-on-file/", "Card on File"],
+              ["/smartsuite/pos/class-specific-exemptions/", "Class Specific Exemptions"],
+              ["/smartsuite/pos/colleague-split-tender-checkout/", "Split Tender Checkout"],
+              ["/smartsuite/pos/coupon-gc-checkout/", "Coupons, Voucher and GC Online Checkout"],
+              ["/smartsuite/pos/custom-qb-reports/", "Custom Reports via Query Builder"],
+              ["/smartsuite/pos/discount-matrix/", "Discount Matrix"],
+              ["/smartsuite/pos/end-of-day-procedures/", "End of Day Procedures"],
+              ["/smartsuite/pos/gift-receipt-setup/", "Gift Receipt Setup"],
+              ["/smartsuite/pos/kitchen-printer-setup/", "Kitchen Printer Setup"],
+              ["/smartsuite/pos/loyalty-rewards-setup/", "Loyalty and Rewards"],
+              ["/smartsuite/pos/mail-orders/", "Mail Orders"],
+              ["/smartsuite/pos/negative-accounts-bad-checks/", "Negative Accounts/Bad Checks"],
+              ["/smartsuite/pos/online-orders-resume-suspend-and-modify/", "Online Orders"],
+              ["/smartsuite/pos/pos-training/", "Training Document"],
+              ["/smartsuite/pos/print-pickslip/", "Print Pickslips"],
+              ["/smartsuite/pos/register-reconciliation/", "Register Reconciliation"],
+              ["/smartsuite/pos/reports/", "Reports"],
+              ["/smartsuite/pos/resume-order-search-setup/", "Resume Order Search Setup"],
+              ["/smartsuite/pos/sell-and-redeem-gift-cards/", "Sell and Redeem Gift Cards"],
+              ["/smartsuite/pos/setup-of-balance-inquiry-for-gift-card/", "Setup Balance Inquiry for Gift Cards"],
+              ["/smartsuite/pos/vouchers-setup/", "Voucher Setup"],
+              ["/smartsuite/pos/web-order-returns/", "Web Order Returns"]
+            ]
+          },
+          ["/smartsuite/rsl/", "Retail Stock Ledger"],
+          {
+            title: "System Setup",
+            path: "/smartsuite/system/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/system/background-processing/", "Background Processes"],
+              ["/smartsuite/system/background-processing-reports/", "Background Reports"],
+              ["/smartsuite/system/background-processing-self-hosted/", "Background Reports - Self Hosted"],
+              ["/smartsuite/system/tcs-department-class-setup/", "Department and Class Setup"],
+              ["/smartsuite/system/file-transfer-changes-and-setup/", "File Transfers"],
+              ["/smartsuite/system/general-inventory-procedurs/", "General Inventory Procedures"],
+              ["/smartsuite/system/inventory-procedures-tricoder/", "Inventory Procedures - Tricoder"],
+              ["/smartsuite/system/set-or-reset-a-user-password/", "Set or Reset Password"],
+              ["/smartsuite/system/tech-update/", "Tech Updates"],
+              ["/smartsuite/system/how-to-customize-the-touch-screen/", "Touch Screen Layouts"],
+              ["/smartsuite/system/upgrading-to-windows-10/", "Upgrade to Windows 10"]
+            ]
+          },
+          {
+            title: "Textbooks",
+            path: "/smartsuite/text/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/text/adoption-import-file-specification/", "Adoption Import File Specs"],
+              ["/smartsuite/text/advanced-faculty-adoptions-web-side/", "Advanced Faculty Adoptions - Web"],
+              ["/smartsuite/web/advanced-faculty-adoptions-store-side/", "Advanced Faculty Adoptions - Store Side"],
+              ["/smartsuite/text/auto-orders/", "Auto Orders"],
+              ["/smartsuite/text/buyback-process/", "Buyback Process"],
+              ["/smartsuite/text/buyback-setup/", "Buyback Setup"],
+              ["/smartsuite/text/import-adoption-headers/", "Import Adoption Headers"],
+              ["/smartsuite/text/manually-add-an-ebook/", "Manually Add An Ebook"],
+              ["/smartsuite/text/print-adoption-forms/", "Print Adoption Forms"],
+              ["/smartsuite/text/printing-adoption-forms/", "Printing Adoption Formsv2"],
+              ["/smartsuite/text/receiving-process/", "Receiving PRocess"],
+              ["/smartsuite/text/redshelf-adoption-export/", "Redshelf Adoption Export"],
+              ["/smartsuite/text/redshelf-user-guide/", "Redshelf User Guide"],
+              ["/smartsuite/text/rental-setup-and-training/", "Rental Setup and Training"],
+              ["/smartsuite/text/returns-process/", "Returns Process"],
+              ["/smartsuite/text/store-transfers/", "Store Transfers"],
+              ["/smartsuite/text/textbook-training/", "Textbook Training"],
+              ["/smartsuite/text/transfer-and-import-redshelf-catalog/", "Transfer and Import Redshelf Catalog"],
+              ["/smartsuite/text/wholesale-guide-update/", "Wholesale Guide Update"]
+            ]
+          },
+          {
+            title: "Webstore",
+            path: "/smartsuite/web/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/web/advanced-faculty-adoptions-store-side/", "Advanced Faculty Adoptions - Store Side"],
+              ["/smartsuite/web/campus-webstore-parameters/", "Campus Webstore Parameters"],
+              ["/smartsuite/web/legacy-faculty-adoptions-web-side/", "Legacy Faculty Adoptions - Web"]
+            ]
+          },
+          ["/smartsuite/release-notes/", "Release Notes"]
+        ]
       },
     ],
     repo: "https://github.com/zumasys/docs",
