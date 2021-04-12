@@ -98,6 +98,7 @@ EQUATE  DEVJOBS_STATUS_KILLED       TO  7   ;* Status of job: Is a HOLD file, an
 EQUATE  DEVJOBS_STATUS_ALIGN        TO  8   ;* Status of job: Being held waiting for ALIGN.
 
 QUEUES (QSTATUS):
+
 EQUATE  DEVCONFIG_STATUS_IOERROR    TO  1   ;* Device stopped due to an I/O error.
 EQUATE  DEVCONFIG_STATUS_SUSPENDED  TO  2   ;* Device has been suspended temporarily.
 EQUATE  DEVCONFIG_STATUS_STOPPED    TO  3   ;* Device has been stopped by operator.
