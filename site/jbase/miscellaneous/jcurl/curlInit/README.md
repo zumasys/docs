@@ -13,7 +13,7 @@ where:
 | Variable | Type | Description |
 |--|--|--|
 ***result_code*** | integer | result code
-***curlHandle*** | var | a handle to use with other [jCURL](../../jcurl) functions
+***curlHandle*** | var | a handle to use with other [jCURL](./../README.md) functions
 
 ## Example
 
