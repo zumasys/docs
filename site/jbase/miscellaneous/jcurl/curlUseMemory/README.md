@@ -26,7 +26,7 @@ rc = curlExec(curlHandle, result, headers)
 ...
 ```
 
-Click here [$ftp class](../#ftpclass-jabba) for a practical use of curlUseMemory.
+Click here [$ftp class](../jftp/ftpclass-jabba/README.md) for a practical use of curlUseMemory.
 
 see also [curlUseVar](../curlUseVar) and [curlUseFile](../curlUseFile)
 
