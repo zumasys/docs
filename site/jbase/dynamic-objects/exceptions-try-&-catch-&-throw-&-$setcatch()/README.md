@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-Dynamic Objects supports **try**/ **catch**/ **throw** like this:
+Dynamic Objects supports **try**/ **catch** like this:
 
 ```
     try
