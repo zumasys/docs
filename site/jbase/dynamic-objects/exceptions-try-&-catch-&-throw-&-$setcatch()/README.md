@@ -1,8 +1,8 @@
-# Exceptions: try / catch / throw / \$setcatch()
+# Exceptions: try / catch / throw / $setcatch()
 
 <PageHeader />
 
-Dynamic Objects supports **try**/ **catch** like this:
+Dynamic Objects supports **try/catch** like this:
 
 ```
     try
