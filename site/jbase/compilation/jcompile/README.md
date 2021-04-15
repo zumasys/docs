@@ -33,8 +33,20 @@ jcompile -{abcefhjmrvxEHJRSX?} {-bBaseAddres} {-lLibraryName} {-oOutputExec} {-F
 | -Jq{?} | Indicate that the code contains embedded SQL statements for either:<br>d   DB2<br>i   Ingres (not fully supported)<br>o   Oracle<br>s   Sybase (not fully supported)<br>x   Informix (not fully supported)  |
 | -Ldir  | Define a directory used by the linker to find any libraries defined with the -l option.                                         |
 | -On    | Define the optimisation level , where n is 1 to 4 as follows :<br>-O1   Provides no optimisation and addition of OS debug libraries.<br>-O2   Default option, no optimisation, full jBC debug information.<br>-O3   Limited jBC debug trace points , C optimiser called.<br>-O4   Full optimisation with limited jBC debugger.  |
-| -R    | Don't link an executable with the jmainfunction.o object. This is used when the main() function is already defined in an object. |
-| -S    | Create source files from jBC source and exit. This allows you to examine the C sources created from the jBC source.              |
+| -R     | Don't link an executable with the jmainfunction.o object. This is used when the main() function is already defined in an object. |
+| -S     | Create source files from jBC source and exit. This allows you to examine the C sources created from the jBC source.              |
+
+**filename** - can have one of the following extensions :
+| <!----> | <!----> |
+| ---     | ---     |
+| filename.a   | archive library to link with |
+| filename.b   | jBC source file              |
+| filename.c   | C source file                |
+| filename.cpp | C++ source file              |
+| filename.l   | lex/flex source file         |
+| filename.o   | compiled object file         |
+| filename.obj | compiled object file         |
+| filename.y   | Yacc/Bison source file       |
 
 ## Notes
 
@@ -48,7 +60,7 @@ jcompile invoices.b
 ```
 
 The simplest form of the command compiles the jBC source program invoices.b, held in the current directory then writes the resultant
-executable code into an invoices, and invoices.so and an invoioces.so.el in the same directory on Linux, an invoices.exe and an invoices.dll in the same directory on Windows.
+executable code into an invoices, and invoices.so and an invoices.so.el in the same directory on Linux, an invoices.exe and an invoices.dll in the same directory on Windows.
 
 ```bash
 jcompile -JO4 myjbc.b cfunctions.c anobject.o -o myapp
@@ -89,28 +101,7 @@ AIX
 
 Linux  
 
-These environment variable should be set to contain paths to located shared and archived libraries, for linking with subroutines and main programs.
-
-### UNIX
-
-| Suffix | Meaning |
-| --- | --- |
-| .o     | UNIX Object file. |
-| .a     | Archive library file. |
-| .so    | Shared library file.  |
-| .o     | Shared library file. (AIX) |
-| .so.el | Export library |
-
-### Windows
-
-| Suffix | Meaning |
-| --- | --- |
-| .obj | Windows Object file. |
-| .dll | Dynamic linked library file. |
-| .lib | Linked library for linking. |
-| .def | Library definition file. |
-| .exe | Executable file. |
-| .exp | Export List |
+These environment variables should be set to contain paths to located shared and archived libraries, for linking with subroutines and main programs.
 
 #### Note
 

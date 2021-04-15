@@ -21,9 +21,11 @@ BASIC -v -wn -Ipath FileName Itemlist (On En Wn Ipath Qq
 
 If the record key selection is omitted, **BASIC** will use any preceding select list. If the BASIC command has no select list, it will use all records in the specified file. When processing the list of record keys, the **BASIC** command will ignore $ and ! prefixes and .o or .obj suffixes and build up a list of source names. Using this mechanism, you can safely use BASIC on all records in a file, and it will only process the sources you intended.
 
-Note: To copy binary object files such as $PROG or PROG.o from Hash files to directories or vice versa use the B option of the jBASE COPY command. This will ensure conversion of attribute mark characters to new line and vice versa is suppressed thus invalidating the binary object.
+## Note  
 
-This example illustrates the use of the -D option:
+>To copy binary object files such as $PROG or PROG.o from Hash files to directories or vice versa use the "(B" option of the jBASE [COPY](./../../files/copy/README.md) command. This will ensure conversion of attribute mark characters to new line and vice versa is suppressed rather than invalidating the binary object.
+
+The following example illustrates the use of the -D option:
 
 ```
 PROGRAM DEFTEST
@@ -91,5 +93,4 @@ The Qq option is used to specify that the source code contains embedded SQL stat
 
 [Back to Compilation](../README.md)
 
-  
 <PageFooter />

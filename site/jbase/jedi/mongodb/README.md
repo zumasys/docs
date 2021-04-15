@@ -13,7 +13,7 @@ What makes this so exciting is that you can keep your MultiValue application in 
 
 Whether you want to use MongoDB for its compliance and auditing features or you have newer developers who want to write reports and applications connected to a database that they are familiar with, we’ve got you covered!  
 
-jBASE is the only MV platform that lets you separate the application from the database, so you can store data in a jBASE database or in another database.  
+jBASE is the only MV platform that lets you separate the application from the database, so you can store data in a jBASE or in another database.  
 
 We currently offer jEDI drivers for MongoDB, Oracle, and Microsoft SQL Server.
 
