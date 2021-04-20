@@ -37,8 +37,8 @@ jcompile -{abcefhjmrvxEHJRSX?} {-bBaseAddres} {-lLibraryName} {-oOutputExec} {-F
 | -S     | Create source files from jBC source and exit. This allows you to examine the C sources created from the jBC source.              |
 
 **filename** - can have one of the following extensions :
-| <!----> | <!----> |
-| ---     | ---     |
+| <!---->      | <!---->                      |
+| ---          | ---                          |
 | filename.a   | archive library to link with |
 | filename.b   | jBC source file              |
 | filename.c   | C source file                |
