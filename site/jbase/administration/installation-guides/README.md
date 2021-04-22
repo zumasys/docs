@@ -12,7 +12,7 @@
 * * *
 [Platform Availability](./platform-availability/README.md)  
 * * *
-[Upgrading from a Previous Version](./upgrading-from-a-previous-version/README.md)  
+[Upgrading from a Previous Version](./upgrading/README.md)  
 
 ## Note
 
