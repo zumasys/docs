@@ -119,9 +119,9 @@ CUSTOMER
 
 ## UNIX
 
-### echo command prefixing the variable with the special shell character $
+### echo command prefixing the variable with the special shell character \$
 
-- echo $JBCRELEASEDIR
+- echo \$JBCRELEASEDIR
 - Displays the contents of the JBCRELEASEDIR Environment Variable
 
 ### env command
@@ -163,7 +163,7 @@ Variable hierarchy is System variables in the registry, the user variables in th
 The variable **return\_code** will be a boolean to indicate success or failure to set the environment variable.
 
 - ***PUTENV is only valid for the life of the process and any child shells***
-- **rc = PUTENV("MYSRC=$TEST")** would set **MYSRC** to **\$TEST**, not the value of TEST
+- **rc = PUTENV("MYSRC=\$TEST")** would set **MYSRC** to **\$TEST**, not the value of TEST
 - ***PUTENV "escapes" the shell characters, therefore the literal value is assigned.***
 
 ### If needed, environment variables can be changed
@@ -312,14 +312,14 @@ Since the introduction of dynamic files in jBASE 5.7, the default file created i
 
 |  Option | Description |
 | --- | --- |
-| TJLOG       | Creates a stub file in the current directory that points to the current transaction log set. |
-| DISTRIB     | Creates a stub file in the current directory that references a distributed file. |
-| PERM        | The PERM parameters are used to set the permissions of the file as per the chmod command. |
-| LOG=YES|NO  | The LOG parameters set or clear the flag which allows the file to be included or excluded when utilizing the item or transaction logging mechanism if licensed on your system. The value is set to YES by default. |
-| TRANS=YES|NO | The TRANS parameters set or clear the flag which allows the file to be included or excluded from within any transaction boundaries defined by an executing program. The value is set to YES by default. |
-| BACKUP=YES|NO | The BACKUP parameters set or clear the flag which allows the file to be included automatically by the jBASE jbackup utility. The value is set to YES by default. |
+| TJLOG          | Creates a stub file in the current directory that points to the current transaction log set. |
+| DISTRIB        | Creates a stub file in the current directory that references a distributed file. |
+| PERM           | The PERM parameters are used to set the permissions of the file as per the chmod command. |
+| LOG=YES|NO     | The LOG parameters set or clear the flag which allows the file to be included or excluded when utilizing the item or transaction logging mechanism if licensed on your system. The value is set to YES by default. |
+| TRANS=YES|NO   | The TRANS parameters set or clear the flag which allows the file to be included or excluded from within any transaction boundaries defined by an executing program. The value is set to YES by default. |
+| BACKUP=YES|NO  | The BACKUP parameters set or clear the flag which allows the file to be included automatically by the jBASE jbackup utility. The value is set to YES by default. |
 | NETWORK=YES|NO | The NETWORK parameters disable or enable the file for use over a network. Only applicable to HASH4 and HASH5 file types. The value is set to AUTO by default to use jDLS when enabled. |
-| SECURE=YES|NO | The SECURE parameters disable or enable secure file updates. Only applicable to HASH3 and jPLUS file types. The value is set to NO by default. |
+| SECURE=YES|NO  | The SECURE parameters disable or enable secure file updates. Only applicable to HASH3 and jPLUS file types. The value is set to NO by default. |
 
 ### Create a file
 
@@ -358,7 +358,7 @@ CREATE-FILE SAMPLE
 [ 417 ] File SAMPLE created , type = JD
 ```
 
-## jBASE Editor (jED) -Add and edit data
+## jBASE Editor (jED) - Add and edit data
 
 jBASE is supplied with its own fully-featured screen editor, which can be used for creating, modifying, or deleting records. The jED editor has been designed for ease of use, easy personal configuration and is especially suited to the editing of jBC programs. The jED editor is used in two different modes; command mode and edit mode, with edit being the default mode and the current mode displayed at the top of the screen.
 
@@ -696,13 +696,13 @@ HELLO WORLD
 jBASE RULES
 ```
 
-Note that steps 2 through 5 can be conveniently achieved with a few key strokes in the jED editor by pressing the **Esc**ape key and entering **FIBCR** (**FI**le, **B**asic, **C**atalog, **R**un) at the **Command-&gt;** prompt.
+Note that steps 2 through 5 can be conveniently achieved with a few key strokes in the jED editor by pressing the **Esc**ape key and entering **FIBCR** (**FI**le, **B**asic, **C**atalog, **R**un) at the **Command->** prompt.
 
 ## Compiling a Program
 
 The **BASIC** command is provided as a front end program to the jBASE jBC compiler. The **jBC** compiler converts the BASIC code into "C" and invokes the native "C" compiler to convert the "C" source code into a machine native object file.
 
-The **BASIC** command creates the object record as $PROGRAM1 in file BP. The BP file can be any file type supported by jBASE, whether it is a hashed file, directory and so on.
+The **BASIC** command creates the object record as \$PROGRAM1 in file BP. The BP file can be any file type supported by jBASE, whether it is a hashed file, directory and so on.
 
 The steps used by **BASIC** command are as follows:
 
@@ -722,12 +722,12 @@ BASIC {-Options} <filename> <programname> {(Option}
 | --- | --- |
 | v           | verbose mode     |
 | -wn         | set the warning level to 0, 1, 2 or 3. See later |
-| -Ipath       | path for include files |
+| -Ipath      | path for include files |
 | (On         | optimize the code, see below |
 | (En         | optimize the code. As the (O) option |
 | (Wn         | set warning level to 0, 1, 2 or 3, see below |
-| (Ipath       | path for include files |
-| (V           | allow persistent variables in subroutines |
+| (Ipath      | path for include files |
+| (V          | allow persistent variables in subroutines |
 | (Qq         | specifies that the source code contains embedded SQL statements |
 
 In order to compile and catalog programs and subroutines in jBASE, a 'C' compiler must be installed on the system under the same folder where jBASE is installed. After completing the jBASE installation, one of the optional tasks you can select is to install and configure the compiler. Please refer to the jBASE Installation Guide and rerun the jBASE installer for the option to install the compiler.
@@ -842,28 +842,28 @@ jrestore -Options <filepath>
 | Option | Description |
 | --- | --- |
 | -a           | restore from current media position |
-| -bn         | set number of read buffers to n (default is 8, minimum is 1) |
-| -c"old new" | restore old directory path as new directory path |
-| -d"DirRE"   | restore directory files matching regular expression |
-| -f Device   | restore from device file, default stdin |
+| -bn          | set number of read buffers to n (default is 8, minimum is 1) |
+| -c"old new"  | restore old directory path as new directory path |
+| -d"DirRE"    | restore directory files matching regular expression |
+| -f Device    | restore from device file, default stdin |
 | -h"HashRE"   | restore hash files matching regular expression |
 | -H FileList  | restore files using only file names from FileList file |
-| -i"ItemRE   | restore hash file items matching regular expression |
+| -i"ItemRE    | restore hash file items matching regular expression |
 | -I ItemList  | restore hash file items using only item ids from ItemList file |
 | -l"LnkdRE"   | restore links matching regular expression |
 | -n           | control info files not restored |
 | -N           | control info files restored and indexes rebuilt |
-| -o"OfileRE" | restore other files matching regular expression |
-| -pn         | set priority, nice value of parent process |
-| -u"UfileRE" | restore normal file matching regular expression |
+| -o"OfileRE"  | restore other files matching regular expression |
+| -pn          | set priority, nice value of parent process |
+| -u"UfileRE"  | restore normal file matching regular expression |
 | -v           | verbose mode |
 | -F           | use fixed block device. Use for QIC tapes |
 | -B           | force block size to 128k, default 16k |
-| -Cn         | force block size to n bytes, rounded to nearest k |
+| -Cn          | force block size to n bytes, rounded to nearest k |
 | -P           | print and scan files only, no restore |
 | -O           | overwrite existing files and records |
 | -R           | suppress rewind last reel |
-| -T type     | restore hash files as specified file type; the original modulo and separation will be retained rather than use the 'resize' parameters. |
+| -T type      | restore hash files as specified file type; the original modulo and separation will be retained rather than use the 'resize' parameters. |
 | -U           | update only does not overwrite existing files or records |
 | -V           | verbose dot mode, displays a "." for each file |
 
@@ -878,23 +878,20 @@ jrestore -v -O -f C:\JBASE\BACKUP
 2. Restore the **whole account to another location** (note the use of the -c and -d options):
 
 ```
-jrestore -f C:\JBASE\BACKUP -c "C:\JBASE\JBASEDEMO C:\JBASE\TEMP" -d"^C:\JBA
+jrestore -f C:\JBASE\BACKUP -c "C:\JBASE\JBASEDEMO C:\JBASE\TEMP" -d "C:\JBASE\JBASEDEMO" -v
 ```
-
-*-c "&lt;target account&gt; &lt;new location&gt;" -d "^target account" -v*
 
 3. Restore a **hashed file** set, e.g. the dict and data, overwriting the existing one (note the use ofthe -h option):
 
 ```
-jrestore -f C:\JBASE\BACKUP -h "^C:\JBASE\JBASEDEMO" -v -O
+jrestore -f C:\JBASE\BACKUP -h "C:\JBASE\JBASEDEMO" -v -O
 ```
 
-4. Restore a **single record** from a hashed file (most commonly requested scenario). Thisexample is restoring record 'REC1' in the F.SAMPLE file (note the use of the -i option):
+4. Restore a **single record** from a hashed file (most commonly requested scenario). This example is restoring record 'REC1' in the F.SAMPLE file (note the use of the -i option):
 
 ```
-jrestore -f C:\JBASE\BACKUP -c "C:\JBASE\JBASEDEMO C:\JBASE\temp" -h"^C:\JBASE\JBASEDEMO\SAMPLE$" -i"^REC1$" -v -O
+jrestore -f C:\JBASE\BACKUP -c "C:\JBASE\JBASEDEMO C:\JBASE\temp" -h "C:\JBASE\JBASEDEMO\SAMPLE" -i "REC1" -v -O
 ```
-
 ## Create a backup for our jBASE account
 
 1.  From jSHELL, enter standard shell by pressing F2 key (notice the j is removed from jsh)
@@ -926,14 +923,14 @@ Native file C:\JBASE\JBASEDEMO\bin\PROG1.exe
 Hash file C:\JBASE\JBASEDEMO\SAMPLE
 Hash file C:\JBASE\JBASEDEMO\SAMPLE]D
 Native directory C:\JBASE\JBASEDEMO\lib
-Native file C:\JBASE\JBASEDEMO\lib\.jbase_lock_file
+Native file C:\JBASE\JBASEDEMO\lib\\.jbase_lock_file
 Native file C:\JBASE\JBASEDEMO\lib\jLibDefinition
 Native directory C:\JBASE\JBASEDEMO\lib\objdir
-Native file C:\JBASE\JBASEDEMO\lib\objdir\.jbase_header
+Native file C:\JBASE\JBASEDEMO\lib\objdir\\.jbase_header
 Native file 'C:\JBASE\JBASEDEMO\MD]D'
 Native directory C:\JBASE\JBASEDEMO\TEST.BP
-Native file C:\JBASE\JBASEDEMO\TEST.BP\$PROG1
-Native file C:\JBASE\JBASEDEMO\TEST.BP\.jbase_header
+Native file C:\JBASE\JBASEDEMO\TEST.BP\\$PROG1
+Native file C:\JBASE\JBASEDEMO\TEST.BP\\.jbase_header
 Native file C:\JBASE\JBASEDEMO\TEST.BP\PROG1
 Scanned Files : 16
 Blocks : 4
