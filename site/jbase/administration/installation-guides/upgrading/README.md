@@ -42,7 +42,7 @@ Such files may include:
 
 ### Related Topics
 
-[Installing the Compiler](./../../installation-guides/windows/windows-compiler-installation/README.mdinstalling-the-windows-compiler)
+[Installing the Compiler](./../../installation-guides/windows/windows-compiler-installation/README.md)
 
 [Creating Accounts and Users](./../../installation-guides/windows/create-accounts-and-users/README.md)
 

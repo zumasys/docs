@@ -14,7 +14,11 @@ EXECUTE|PERFORM expression {CAPTURING variable} {RETURNING|SETTING variable} {PA
 
 where:
 
-- **Expression** can be formed from any jBASE construct. The system will not verify that the command exists before executing it. Use a new Bourne Shell to execute a command (sh) by default. The shell type can be changed by preceding the command with a CHAR(255) concatenated with either "k", "c", or "s" to signify the Korn shell, C shell or Bourne Shell.
+- **Expression** can be formed from any jBASE construct. The system will not verify that the command exists before executing it. Use a new Bourne Shell to execute a command (sh) by default. The shell type can be changed by preceding the command with a CHAR(255) concatenated with either "k", "c", or "s" to signify the Korn shell, C shell or Bourne Shell. A simple example:
+```
+SCRIPT= '/usr/bin/somescript'
+EXECUTE @IM:'k':SCRIPT
+```
 - The **CAPTURING** clause will capture any output that the executing program would normally send to the terminal screen and place it in the **variable** specified. A field mark in the variable replaces every newline normally sent to the terminal.
 - The **RETURNING** and **SETTING** clauses are identical. Both clauses will capture the output associated with any error messages the executing program issues. The first field of the **variable** will be set to the exit code of the program.
 - The **PASSLIST** clause allows jBASE programs to exchange lists or dynamic arrays between them. The variable should contain the list that the program wishes to pass to the jBASE program it is executing. The program to be executed should be able to process lists, otherwise the list will just be ignored. If the variable name is not specified then the clause will pass the default select list to the executing program.

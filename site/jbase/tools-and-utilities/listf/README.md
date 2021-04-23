@@ -24,6 +24,8 @@ If **directory** is specified then only files in that path will be displayed.
 | -xml | display file details in $HOME and accessible on **$JEDIFILEPATH** as XML string.  This mode also includes **jstat** details. |
 |-h or -? | Display a help page with examples |
 
+See also [LISTF4](./../../jql/jql-keyword-cross-reference/listf4/README.md)  
+
 Back to [Tools and Utilities](./../README.md)
 
 <PageFooter />

@@ -18,6 +18,7 @@ jdiag -options
 
 | <!----> | <!----> |
 | ---   | --- |
+| -e    | display emulation settings (config-strings) |
 | -d    | display disk drive information (Windows only). |
 | -k    | display license key information. |
 | -l    | copy output to log file jdiag.out. |

@@ -45,11 +45,13 @@ As of the 5.8 version, jBASE can be licensed using either a conventional license
 
 or using CPU Licensing:
 
-[jBASE CPU Licensing Overview](./../../../licensing/cpu/README.md)  
+[jBASE CPU Licensing Overview](./../../../../licensing/cpu/README.md)  
 
-jBASE 5.8 can either be installed on a clean system or used to upgrade from a previous jBASE 5.x version. We will cover both scanrios here.
+jBASE 5.8 can either be installed on a clean system or used to upgrade from a previous jBASE 5.x version. We will cover both scenarios here.
 
 ### Installing on a clean system
+
+![Welcome to the jBASE 5 Setup Wizard](./58Installer_2A.jpg)
 
 jBASE now utilizes the command-line C compiler from Visual Studio 2019 by installing the Visual Studio Build Tools 2019. This process takes place before the jBASE installation proper.
 
@@ -69,6 +71,8 @@ After the Build Installation completes, click the "Next" button to continue.
 
 ![Installation Completed](./58Installer_8.jpg)
 
+![Searching for compiler](./58Installer_8A.jpg)
+
 The installer will then save compiler configuration information for later use.
 
 ![Update jBASE Compiler Configuration](./58Installer_9.jpg)
@@ -83,21 +87,25 @@ Compiler Setup is complete and we can now install jBASE.
 
 ![Information](./58Installer_13.jpg)
 
-![Install Runtime and jBASE Components](./58Installer_14.jpg)
+![Install Runtime and jBASE Components Briefly](./58Installer_13A.jpg)
 
-We will cover the Advanced Installation Options.
+![Install Runtime and jBASE Components Finished](./58Installer_14.jpg)
+
+We will cover the Advanced Installation Options, which provide control over what is installed and where.
 
 ![Installation Type](./58Installer_15.jpg)
 
 ![Select Destination Location](./58Installer_16.jpg)
 
-With jBASE 5.8, user profiles are introduced and the default version is stored in JBCGLOBALDIR
+With jBASE 5.8, user profiles are introduced and the default version is stored in JBCGLOBALDIR, which may now be a different location than JBCRELEASEDIR.
 
 ![Select Directory for jBASE Global Files](./58Installer_17.jpg)
 
 ![Select Directory for jBASE Data](./58Installer_18.jpg)
-
+exit
 ![Select Start Menu Folder](./58Installer_19.jpg)
+
+Decide which additional options you wish to install:
 
 ![Select Additional Tasks](./58Installer_20.jpg)
 
@@ -109,6 +117,8 @@ With jBASE 5.8, user profiles are introduced and the default version is stored i
 
 ![Preparing to Install](./58Installer_24.jpg)
 
+The jBASE installation process will be performed here, before displaying the following:
+
 ![Information](./58Installer_25.jpg)
 
 ![Completing the jBASE 5 Setup Wizard](./58Installer_26.jpg)
@@ -117,7 +127,7 @@ With jBASE 5.8, user profiles are introduced and the default version is stored i
 
 ### Upgrading from a previous jBASE version
 
-### To be completed  
+[Upgrading to jBASE 5.8 from a previous release](./../upgrading-to-5.8-windows/README.md)
 
 Back to [Windows](./../README.md)
 

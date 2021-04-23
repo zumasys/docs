@@ -16,7 +16,7 @@ Not set.
 
 ## Setting
 
-Normal environment variable, can be set at any time by:
+Normal environment variable, can be set at any time, as follows:
 
 ## UNIX
 

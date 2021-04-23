@@ -7,7 +7,8 @@
         <a href="/accuterm/license-activation/">Licensing</a><br />
         <a href="/accuterm/desktop/">Desktop</a><br />
         <a href="/accuterm/web/">Web</a><br />
-        <a href="/accuterm/mobile/">Mobile</a>
+        <a href="/accuterm/mobile/">Mobile</a><br />
+        <a href="https://static.zumasys.com/zumasys/atfiles/manuals/8/AccuTerm-8-User-Manual.pdf" target="_blank">AccuTerm 8 User Manual</a>
       </p>
     </div>
     <div class="feature">
@@ -62,7 +63,18 @@
     </div>
     <div class="feature">
       <h2>Smart Suite</h2>
-      <p><a href="/smartsuite/release-notes/">Release Notes</a><br /></p>
+      <p><a href="/smartsuite/ap/accounts-payable-training/">Accounts Payable</a><br />
+      <a href="/smartsuite/ar/">Accounts Receivable</a><br />
+      <a href="/smartsuite/gl/">General Ledger</a><br />
+      <a href="/smartsuite/gm/">General Merchandise</a><br />
+      <a href="/smartsuite/gui/">GUI Interface</a><br />
+      <a href="/smartsuite/hardware/">Hardware</a><br />
+      <a href="/smartsuite/pos/">Point of Sale</a><br />
+      <a href="/smartsuite/rsl/">Retail Stock Ledger</a><br />
+      <a href="/smartsuite/system/">Setup Setup/Settings</a><br />
+      <a href="/smartsuite/text/">Textbooks</a><br />
+      <a href="/smartsuite/web/">CampusWebstore</a><br />
+      <a href="/smartsuite/release-notes/">Release Notes</a><br />
       </p>
     </div>
     <div class="feature">

@@ -5,14 +5,14 @@
 ## Topics
 
 [AIX](./aix/jbase-aix-installation-guide/README.md)  
-[Linux](./linux/linux-installation-guide/README.md)  
+[Linux](./linux/README.md)  
 [Windows](./windows/README.md)  
 * * *
 [Licensing](./licensing/README.md)  
 * * *
 [Platform Availability](./platform-availability/README.md)  
 * * *
-[Upgrading from a Previous Version](./upgrading-from-a-previous-version/README.md)  
+[Upgrading from a Previous Version](./upgrading/README.md)  
 
 ## Note
 

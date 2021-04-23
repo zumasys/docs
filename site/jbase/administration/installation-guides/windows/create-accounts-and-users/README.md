@@ -8,13 +8,13 @@
 
 ## Accounts and Users
 
-jBASE accounts are user accounts inside jBASE, represented as a folder that contains jBASE data and executable files. jBASE Users are normal Windows user accounts and both local and domain users are supported. The jBASE Account depends on the Windows user account for remote access, for example via Telnet.
+jBASE accounts are user accounts inside jBASE, represented as a folder that contains jBASE data and executable files. jBASE Users are normal Windows account users and both local and domain users are supported. The jBASE Account depends on the Windows user account for remote access, for example via Telnet.
 
 ### Configuration of JBASEADM user
 
-If you installed jBASE with the Express or Advanced option above, the installer automatically created a jBASE Account and folder under the jBASE install folder, for example ‘E:\jBASE\jBASEADM’. The installer also created a local Windows user account, or a domain user account, called ‘jbaseadm’ and pointed the user home folder to the Account folder.
+If you installed jBASE with the Express or Advanced option above, the installer may have automatically created a jBASE Account and folder under the jBASE install folder, for example ‘E:\jBASE\jBASEADM’. In such cases, the installer also created a local Windows user account, or a domain user account, called ‘jbaseadm’ and pointed the user home folder to the Account folder.
 
-The Windows user account is important as it allows access to the built-in jBASE telnet server. If you just finished installing jBASE, you will need to login to Windows as the new user account to allow Windows to build the c:\users\jbaseadm profile folder before you can telnet into jBASE.
+The Windows user account is important as it allows access to the built-in jBASE telnet server. As part of the "jbaseadm" user set-up, a skeleton remote.cmd will have been created in the user account that is used by Telnet to define the jBASE environment for the "jbaseadm" user.
 
 jBASE users must be created on the local Windows computer or Active Directory domain of which the computer is a member.
 
