@@ -13,6 +13,8 @@
 
 These instructions describe the system requirements and process for installing and initial configuration of jBASE 5.7.7 and later on a Microsoft Windows operating systems.
 
+There are separate instructions for [jBASE 5.8](./../jbase-5-8-windows-installation-guide/README.md)
+
 ## System Requirements
 
 jBASE 5.7 is a 64-bit application and must be installed on Microsoft Windows 64-bit operating systems.
@@ -96,7 +98,7 @@ Applies to: **Express** **Advanced**
 
 Applies to: **Express** **Advanced**
 
-![Location Selection](./Company_Location.png) -->
+![Location Selection](./Company_Location.png)  
 
 3. Review the End User License Agreement (EULA) and choose to accept the agreement. Then click Next.
 
@@ -110,7 +112,7 @@ Applies to: **Express** **Advanced**
 
 ![Installation Type](./Installation_Type.png)
 
-5. Choose the installation path for jBASE, default is C:\jBASE\5.7.7 Then click Next.
+5. Choose the installation path for jBASE, default in this case is C:\jBASE\5.7.7 Then click Next.
 
 For Windows Server installations, it is recommended to install to an alternate partition than the C:\ System partition if available, however jBASE will install properly on any local partition if there is sufficient free disk space.
 
