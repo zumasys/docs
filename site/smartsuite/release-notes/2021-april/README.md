@@ -40,7 +40,7 @@ For detailed information about each update including training materials [click h
 
 ## Webstore
 
-* Updated checkout for additional fraud prevention related to credit card payments
+* Applied Updates to the checkout process for additional fraud prevention related to credit card payments
 
 ## Important Resolved Issues
 
