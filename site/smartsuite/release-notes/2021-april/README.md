@@ -2,14 +2,14 @@
 
 <PageHeader />
 
-## Employee spotlight
+## Employee Spotlight
 
-Please welcome the newest member of our team!  
-**Shoshana Sokolin**  
+Please welcome the newest member of our team, **Shoshana Sokolin**!
 ![Shoshana Sokolin](./shoshana_techupdate.png)  
-Shoshana officially joined the TCS development team as a Junior Developer at the beginning of April. She is a recent honors graduate student from Touro College and is excited to learn and contribute to our entire product line. She and her husband live in Baltimore, Maryland.
+Shoshana officially joined the TCS development team as a Junior Software Developer at the beginning of April. She is a recent honors graduate student from Touro College and is excited to learn and contribute to our entire product line. She and her husband live in Baltimore, Maryland. In just a few short weeks, she's already contributed to several key features for Smart Suite and the Campus Webstore and we couldn't be more excited to have her on the team!
 
 ## Product Updates
+
 For detailed information about each update including training materials [click here](https://training.total-computing.com/dwkb/tech-update/)
 
 ## Point-of-Sale
@@ -39,7 +39,7 @@ For detailed information about each update including training materials [click h
 
 ## Webstore
 
-* Applied Updates to the checkout process for additional fraud prevention related to credit card payments
+* Applied updates to the checkout process for additional fraud prevention related to credit card payments
 
 ## Important Resolved Issues
 
