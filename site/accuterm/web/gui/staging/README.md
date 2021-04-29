@@ -2,6 +2,16 @@
 
 <PageHeader />
 
+## Release Notes - April 23rd, 2021  
+- Controls
+   - Continued form and gui work: gui (sdi and mdi) and forms (dialog and others)
+   - Grid and List continued work
+- Architecture  
+   - Organize gui store for readability 
+   - Implement focus and initial keyboard accelerators
+- Service
+   - Integrate focus and activate into appropriate methods
+
 ## Release Notes - March 29th, 2021  
 - Controls
    - Continued work: menu, popup menu, toolbar, status bar
