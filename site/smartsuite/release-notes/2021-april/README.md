@@ -19,7 +19,7 @@ For detailed information about each update including training materials [click h
 
 ## General Merchandise
 
-* Updated inventory printing for multiple inventory adjustment reports under physical inventory adjustments
+* Updated inventory printing for multiple inventory adjustments reports for physical inventory reporting
 
 ## Textbooks
 
@@ -33,7 +33,7 @@ For detailed information about each update including training materials [click h
   * IPP350
   * iSMP4 (wireless)
   * ISC-250 Touch  
-* New payment devices and interfaces that conform with current PCI P2PE guidelines, Contactless, NFC, Chip, PIN Debit, and digital wallets are now available. Please contact [sales@total-computing.com](mailto:sales@total-computing.com)
+* Updated payment devices and interfaces that conform with current PCI P2PE guidelines, Contactless, NFC, Chip, PIN Debit, and digital wallets are now available. Please contact [sales@total-computing.com](mailto:sales@total-computing.com)
   
     > May require processor and/or equipment upgrade
 
