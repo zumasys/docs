@@ -8,7 +8,7 @@ Please welcome the newest member of our team
 **Shoshana Sokolin**  
 ![Shoshana Sokolin](./shoshana_techupdate.png)  
 Officially joining the TCS development team as a Junior Developer at the beginning of April.
-As a recent honors student graduate from Touro College, Shoshana is excited to learn and contribute to our product line. She and her husband live in Baltimore, Maryland and she works remotely from her home office.  
+As a recent honors student graduate from Touro College, Shoshana is excited to learn and contribute to our product line. She and her husband live in Baltimore, Maryland.
 
 ## Product Updates
 For detailed information about each update including training materials [click here](https://training.total-computing.com/dwkb/tech-update/)
