@@ -2,12 +2,20 @@
 
 <PageHeader />
 
+## Employee spotlight
+
+Please welcome the newest member of our team  
+**Shoshana Sokolin**  
+picture place holder  
+Officially joining the TCS development team as a Junior Developer at the beginning of April.
+As a recent honors student graduate from Touro College, Shoshana is excited to learn and contribute to our product line. She and her husband live in Baltimore, Maryland and she works remotely from her home office.  
+
 For detailed information about each update including training materials [click here](https://training.total-computing.com/dwkb/tech-update/)
 
 ## Point-of-Sale
 
 * Added Color and Size description to customers e-mailed receipts
-* Added enchancement to receipt printing to show the late fee Fee Terms and Conditions
+* Added enhancement to receipt printing to show the late fee Fee Terms and Conditions
 
 ## General Merchandise
 
