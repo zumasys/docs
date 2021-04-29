@@ -15,8 +15,8 @@ For detailed information about each update including training materials [click h
 
 ## Point-of-Sale
 
-* Added Color and Size description to customers e-mailed receipts
-* Added enhancement to receipt printing to show the late fee Fee Terms and Conditions
+* Added Color and Size descriptions to receipts emailed to web customers
+* Added the ability to display the late fee Terms and Conditions to receipts
 
 ## General Merchandise
 
@@ -24,17 +24,17 @@ For detailed information about each update including training materials [click h
 
 ## Textbooks
 
-* Created a utility to un-post Sales to Wholesalers 
+* We have added utility to un-post Sales to Wholesalers
 
 ## TotaLink (Credit-Cards)
 
-* Some Merchants are experiencing device reboots around 4pm daily. The issue has been brought up with the bank for new orders however, devices received recently maybe effected
-* Time and date adjustment instructions can be found on the [training site](https://training.total-computing.com/dwkb/tech-update/) to manually adjust the time and date on your device
+* Some Merchants are experiencing pinpad device reboots around 4pm daily. The issue has been brought up with the bank for new orders however, devices received recently maybe effected
+* Time and date adjustment instructions can be found on the [training site](https://training.total-computing.com/dwkb/tech-update/) to manually adjust the time on your device
   * IPP320
   * IPP350
   * iSMP4 (wireless)
   * ISC-250 Touch  
-* Updated payment devices and payment interfaces to conform with PTPE, Contactless, NFC, Chip, PIN Debit, and digital wallets. Please contact [sales@total-computing.com](mailto:sales@total-computing.com) or your account representative for additional information.
+* New payment devices and interfaces that conform with current PCI P2PE guidelines, Contactless, NFC, Chip, PIN Debit, and digital wallets are now available. Please contact [sales@total-computing.com](mailto:sales@total-computing.com)
   
     > May require processor and/or equipment upgrade
 
