@@ -204,7 +204,9 @@ module.exports = {
               ["/jbase/administration/installation-guides/linux/", "Linux"],
               ["/jbase/administration/installation-guides/windows/", "Windows"],
               ["/jbase/administration/installation-guides/aix/", "AIX"],
-              ["/jbase/administration/installation-guides/upgrading/", "Upgrades"]
+              ["/jbase/administration/installation-guides/upgrading/", "Upgrades"],
+              ["/jbase/administration/installation-guides/licensing/", "Licensing"],
+              ["/jbase/administration/installation-guides/platform-availability/", "Platform Availability"]
             ]
           },
           {
