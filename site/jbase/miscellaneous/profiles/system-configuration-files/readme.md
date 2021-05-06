@@ -36,7 +36,7 @@ The `licenses` property in the configuration file is used to store jBASE license
     }
 ```
 
-Normally you should use jBASE utilities such as [jLicenseUpdate](https://docs.zumasys.com/jbase/administration/installation-guides/licensing-a-jbase-system/) to update the licenses property of the configuration file.
+Normally you should use jBASE utilities such as [jlicenseupdate](https://docs.zumasys.com/jbase/administration/installation-guides/licensing-a-jbase-server/) to update the licenses property of the configuration file.
 
 ## jBASE Configuration - Other settings
 

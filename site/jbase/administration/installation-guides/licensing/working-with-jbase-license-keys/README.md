@@ -11,7 +11,9 @@
 
 ## Document Scope
 
-This document will describe the process of installing a license key over an already existing installation. This may be the case in the event of an upgrade, or change in the type of license desired.
+This document will describe the process of installing a conventional jBASE license key over an already existing installation on all jBASE 5 release prior to jBASE 5.8. This may be the case in the event of an upgrade, or change in the type of license desired.
+
+For the jBASE 5.8 procedure, please see [jlicenseupdate](./../jlicenseupdate/README.md)
 
 ## Description
 
@@ -20,29 +22,62 @@ Two methods will be described;
 1. Editing the system.properties file.
 2. Using the command line.
 
-Since the key is being installed on a UNIX/LINUX system that already has a jBASE 5.x license installed, the existing shared memory needs to be reinitialized.
+Since the key is being installed on a system that already has a jBASE 5.x license installed, the existing shared memory needs to be reinitialized.
 
-If desired, the memory information can be obtained as:
+If desired, the memory information can be obtained on Windows as:
 
 ```
-C:\Users\10147>jshminfo
+D:\jBASE5\jBASEAdmin>jshminfo
 
-Shared Memory Info,  Key 0x4a520064, Id 68
-header size         1352,  Max 8192
-Initialised         Fri Mar 23 08:33:53 2018
-Revision            1
-total_size_shm      412344
-jdls table size     387768
-size_cache_table    16384
-jrla active         1,   Pid 2404 (Active)
-jdls active         1,   Pid 2404 (Active)
-time_stamp_active   0
-jdls lock count     3020
-jdls lock groups    151
-jdls locks/group    20
-jdls group size     2568 bytes (hdr 8, lock entry 128)
-jdls semcount       32
-jdls sem Key        0x4a520064, Id  1246888036, 1246888037
+Shared Memory Info,  Key 0x4a570064, Id 152
+        header size         2728,  Max 8192
+        Initialised         Thu Apr 29 15:06:08 2021
+        Revision            3 - Support persistent locks
+        total_size_shm      935880
+        jdls table size     387768
+        size_cache_table    16384
+        jrla active         1,   Pid 6384 (Active)
+        jdls active         1,   Pid 6384 (Active)
+        jdls lock count     3020
+        jdls lock groups    151
+        jdls locks/group    20
+        jdls group size     2568 bytes (hdr 8, lock entry 300)
+        jdls semcount       32
+        jdls sem Key        0x4a570064, Id  1247215716, 1247215717
+```
+
+or on UNIX as:
+
+```bash
+bash-4.2$ jshminfo
+
+Shared Memory Properties, Key 0x4a570064, Id 0
+        Size         960040
+        create Pid   1882
+        last Pid     15270
+        attached     3
+        atime        Thu May  6 11:33:25 2021
+        dtime        Thu May  6 09:01:04 2021
+        ctime        Thu May  6 09:01:04 2021
+        owner        root (0)
+        creat        root (0)
+        mode         0666
+
+Shared Memory Info,  Key 0x4a570064, Id 0
+        header size             8192,  Max 8192
+        Initialised             Thu May  6 09:01:04 2021
+        Revision            3 - Support persistent locks
+        total_size_shm          960040
+        jdls table size         411928
+        size_cache_table        16384
+        jrla active             1,   Pid 1933 (Active)
+        jdls active             0,   Pid 0
+        jdls lock count         3020
+        jdls lock groups        151
+        jdls locks/group        20
+        jdls group size         2728 bytes (hdr 8, lock entry 308)
+        jdls semcount           32
+        jdls sem Key            0x4a570064,     Id  3, 4
 ```
 
 If processes are not stopped prior to attempting to install/upgrade a license, the shared memory with the original license configuration will still persist. For this reason, all jBASE processes must be stopped so that the shared memory does not have any attached users.
