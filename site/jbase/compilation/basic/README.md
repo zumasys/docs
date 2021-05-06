@@ -41,6 +41,29 @@ CATALOG BP DEFTEST
 
 When the DEFTEST program is run, it will display the string "Testing". If the program was not compiled with that specific -D option then the string would not display.
 
+The `#ifdef` compiler directive can also be used to insert `block comments` into source code, e.g.
+
+```
+C:\home\bp>type block_comment.jabba
+    print "Example of a block comment."
+#ifdef DOOMSDAY
+    Hesiod's famous description of Askra, the village he lived in:
+
+    Bad in winter,
+        godawful in summer,
+            nice never.
+#endif
+    print "End of example."
+```
+
+When this program is compiled, the lines between the `#ifdef` and `#endif` are ignored.  
+Running the program will produce the following output:
+
+```
+Example of a block comment.
+End of example.
+```
+
 ## Optimization
 
 There are 4 levels of optimization.
