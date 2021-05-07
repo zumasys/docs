@@ -17,7 +17,8 @@ Valid file path
 
 ## Default
 
-The default is the same as JBCRELEASEDIR
+On all jBASE releases prior to 5.8, the default is the same as JBCRELEASEDIR.  
+On jBASE 5.8 and later, with the introduction of user profiles, JBCGLOBALDIR will usually default to another location of the user's choosing, i.e. /opt/jbase5/global or UNIX, C:\jBASE\global on Windows.
 
 ## Setting
 
