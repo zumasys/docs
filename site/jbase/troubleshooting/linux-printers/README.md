@@ -2,6 +2,8 @@
 
 <PageHeader />
 
+<iframe width="640" height="360" src="https://www.youtube.com/embed/VA71g5a8cF0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## What to do when a printer does not work
 
 Firstly, jBASE printer definitions are usually either a path to a Linux printer, a script or command and as such are seldom the actual problem.  It is best to start checking a jBASE printer by investigating the underlying Linux process first.  
