@@ -125,6 +125,7 @@
 [gosub](./gosub/README.md)  
 [goto](./goto/README.md)  
 [group](./group/README.md)  
+[groupstore](./groupstore/README.md)  
 [heading](./heading/README.md)  
 [headinge-and-headingn](./headinge-and-headingn/README.md)  
 [hush](./hush/README.md)  

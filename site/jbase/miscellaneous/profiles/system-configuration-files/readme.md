@@ -23,7 +23,7 @@ The default *jbase_config.json* configuration file consists mostly of comments, 
 
 The `environment` property in the configuration file is a JSON array containing one element per environment variable. Each element is a JSON object with 2 or 3 properties: `name`, `value` and `default`. The *name* property is required, and specifies the name of an environment variable to set. If *value* is specified, then it becomes the value of that variable. If *default* is specified, then it becomes the value of the variable, but only when the variable has not already been set. In this way, environment variables set before starting the jBASE session can override the *default* specified in the configuration file. Using the *value* property will override any variable previously set. You can set the *value* to null ("") to erase an environment variable.
 
-The system environment is updated in the order of the elements in the array. This is important, as the value (or default) in any element may reference other environment variables. If a value references another variable, be sure the referenced variable occurs earlier in the environment array. 
+The system environment is updated in the order of the elements in the array. This is important, as the value (or default) in any element may reference other environment variables. If a value references another variable, be sure the referenced variable occurs earlier in the environment array.  
 
 Use normal O/S syntax when referencing an environment variable in a value (or default). For example, on Linux, `"value": "$HOME/bin"` is valid. Similarly, on Windows, use `"value": "%HOME%\\bin"`.
 
@@ -55,7 +55,7 @@ On Linux and AIX, the `umask` property in the configuration file may be used to 
 * [JBCRELEASEDIR](./../../../environment-variables/jbcreleasedir/README.md) - This is the directory where the jBASE release files are stored. This directory is specific to each release of jBASE, and is normally named for the release that it contains. Default location is `/opt/jbase/<release>` (Linux) or `C:\jbase\<release>` (Windows). Normally there is a symbolic link, *CurrentVersion*, pointing to the most recent jBASE release directory.
 * [JBCGLOBALDIR](./../../../environment-variables/jbcglobaldir/README.md) - This directory contains jBASE system configuration files. Traditionally it was the same as [JBCRELEASEDIR](./../../../environment-variables/jbcreleasedir/README.md); however, by moving the jBASE configuration files out of [JBCRELEASEDIR](./../../../environment-variables/jbcreleasedir/README.md) and into a separate [JBCGLOBALDIR](./../../../environment-variables/jbcglobaldir/README.md) directory, the system configuration can easily be maintained when upgrading the jBASE release. Additionally, since it contains the system configuration, backing up the system configuration is simplified. The default location is `/opt/jbase/global` (Linux) or `C:\jbase\global` (Windows).
   > Note: The default location has changed from previous jBASE releases.
-* [JBCDATADIR](./../../../environment-variables/jbcdatadir/README.md) - This is the default directory where jBASE data resides. This includes the `SYSTEM` file, user account directories and the spooler. The default location is `/jbasedata` (Linux) or `C:\jbase_data` (Windows).
+* [JBCDATADIR](./../../../environment-variables/jbcdatadir/README.md) - This is the default directory where jBASE data resides. This includes the `SYSTEM` file, user account directories and the spooler. The default location is `/jbasedata` (Linux) or `C:\jbasedata` (Windows).
   > Note: The default location has changed from previous jBASE releases.
 * `JBCPROCDIR` - jBASE uses the *proc* directory to manage jBASE resources like ports. The default location is `$JBCGLOBALDIR`.
   > Note: This is the parent of the *proc* directory, not the actual *proc* directory.
@@ -104,5 +104,7 @@ The following table summarizes the other jBASE configuration files. Configuratio
 |     | __Licensing__              |                                               |                                                                  |
 |     | multisession               | $JBCRELEASEDIR                                | directory listing clients permitted to use multisession licenses |
 |     | websession                 | $JBCRELEASEDIR                                | directory listing clients permitted to use websession licenses   |
+
+Back to [Profiles](./../README.md)
 
 <PageFooter />
