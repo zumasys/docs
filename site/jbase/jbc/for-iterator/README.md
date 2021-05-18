@@ -36,6 +36,16 @@ Where:
 
 **WHILE** or **UNTIL** can be used to terminate the loop based on some **condition**. When the **WHILE** clause is specified the loop will only continue with the next iteration if **condition** evaluates to a boolean _TRUE_. When the **UNTIL** clause is specified the loop will only continue with the next iteration if **condition** evaluates to boolean _FALSE_.
 
+A special form of the **FOR** iterator can be used to obtain the record key. The general form is:
+
+```
+FOR rec IN filevar KEY id
+    ...statements...
+NEXT
+```
+
+This iterates on all records in the file opened to `filevar` and assigns the record to the variable `rec` and the record key to the variable `id`.
+
 ## Examples
 
 ### Example 1
