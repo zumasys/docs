@@ -19,7 +19,7 @@ ID: TEST
 005 10R
 ```
 
-An `SQLSELECT` statement using this dictionary would cause a segmentation violation.
+A `SQLSELECT` statement using this dictionary would cause a segmentation violation.
 
 ## Current Release Behavior
 
