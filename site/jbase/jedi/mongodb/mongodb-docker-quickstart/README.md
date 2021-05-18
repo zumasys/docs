@@ -16,13 +16,11 @@ docker run -it mongo:latest
 new window (mongo is running in foreground in the other window)
 docker container list                   - get the name of the mongo container
 docker inspect <mongocontainername>     - get the ip address
-docker pull zumasys/jbase_mongo
-docker run -it zumasys/jbase_mongo /bin/bash
+docker pull zumasys/jbase
+docker run -it zumasys/jbase
 jb JBASEADM
-jed MD mongo.config   (lower case!!)
-# Change line 2 to be the IP address of the mongo container
-create-file test.mongo type=mongo
-make-demo-file 1000 test.mongo
+create-file test.mongo type=mongo host=mongodb://<ip address>:27017
+make-demo-file 1000 test.mongo 
 >Answer Yes
 Your file is now in mongo.
 # to see it, open a new window:
@@ -34,8 +32,6 @@ show tables (You should see your tables )
 db.test.mongo.find()  (This should show your table)
 ```
 
-The jabba code in the above example has been modified to pull the IP address from the mongo.config item. See below about issues with builtin options
-
 ## Build it yourself
 
 ## Requirements
@@ -46,56 +42,33 @@ The jabba code in the above example has been modified to pull the IP address fro
 
 ## MongoDB Driver install
 
-We need to install the latest mongo-c-driver from the git repository:
+As of jBASE 5.8.1, the Mongo driver is built into jBASE and no additional drivers need to be installed.
 
-```
-https://github.com/mongodb/mongo-c-driver.git
-```
+There are 3 ways of defining the host
 
-There are two ways to retrieve this.
+1) With an environment variable
 
-```
-1. git clone https://github.com/mongodb/mongo-c-driver.git
-2. curl -O https://github.com/mongodb/mongo-c-driver/archive/r1.16.zip
-```
+### On Linux
 
-You now must install dependencies to make this driver.  This driver uses cmake3 which is not available in the default Redhat/Centos installs.  Instead the default cmake is cmake2.  
-
-On Centos/Redhat you must install the epel package and then you can install cmake3, although this will normally be installed as a dependency by the jBASE 5.8 installer.  
-Debian must make cmake be the cmake3 version.  
-On Centos cmake is cmake2 and will NOT work.
-
-```
-yum install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
-yum install -y cmake3
-yum install -y make
-yum install -y openssl-devel cyrus-sasl-devel
+```bash
+   $ export JBASE_MONGO_HOST=“mongodb://vroomfondel:27017”
 ```
 
-Now, cd into the mongo-c-driver repository.  
+### On Windows  
 
 ```
-# from the mongo-c-driver directory
-mkdir cmake-build
-cd cmake-build
-cmake3 -DENABLE_AUTOMATIC_INIT_AND_CLEANUP=OFF ..
-make install
+   $ set JBASE_MONGO_HOST=“mongodb://vroomfondel:27017”
 ```
 
-You should see a long build process.  When this is done the driver is built and the lib files are now in /usr/local/lib64 and the headers are in /usr/local/include.
+2) During the create-file
 
-You can now compile the jabba driver.  Go into an account and create a directory to do this work. In that directory add the supplied mongo jabba code.
-
-Right now the IP address of the mongo server is not working if you try to pass it.  Find the IP address of your mongo server and just manually put it in the code, although a mongo server instance installed locally will be found.
-
-You then compile as follows:
-
-cd into the directory with the jabba code.
-
+```bash
+   $ create-flle testfile type=mongo host=“mongodb://localhost:12345”
 ```
-jcompile -I/usr/local/include/libmongoc-1.0 -I/usr/local/include/libbson-1.0 -L/usr/local/lib -lmongoc-1.0 jediMongo.jabba -lmongoc-1.0 -lbson-1.0 -o libjedimongo.so
-cp lib* ../lib   /* or wherever your default lib directory is */
-```
+
+3) Edit the file stub. There should be a “host=xxx” property.
+
+Failing all that, the default is mongodb://localhost:27017. This is usually sufficient for a default install of Mongodb on the same host.  
 
 ```
 sh SandBox ~ -->create-file demofile type=mongo
