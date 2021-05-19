@@ -4,7 +4,7 @@
 
 ## Description
 
-A file made up of keys (or fields) with values made up of hyphenated data, e.g. `nn-nnnnn`, do not return correct results on relational operators like `GT` or `LT`.
+A file made up of keys (or fields) with values consisting of hyphenated data, e.g. `nn-nnnnn`, do not return correct results on relational operators like `GT` or `LT`.
 
 ## Previous Release Behavior
 
@@ -19,7 +19,7 @@ A file made up of keys (or fields) with values made up of hyphenated data, e.g. 
 ```
 LIST TESTFILE WITH RID GT '02-0001'
 
-TESTFO;E......
+TESTFILE......
 
 01-0001
 02-0001
