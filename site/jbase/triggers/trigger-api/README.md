@@ -59,7 +59,7 @@ The table below summarizes the state of each argument at the time the subroutine
 
 ## Flags
 
-As of jBASE 5.8.2, this parameter is now implemented as follows:  
+As of jBASE 5.8.1, this parameter is now implemented as follows:  
 
 **Flags**: Extra optional details about the update. This is a string passed as 2 attributes as follows:  
 
@@ -86,7 +86,7 @@ Then the 'Flags' parameter will appear as this:
 LOCK]NOWAIT]FIELD^3
 ```
 
-## Example
+## Example Trigger Subroutine
 
 ```
 SUBROUTINE CUSTOMERS-CHECK(filevar , event , prerc , flags , recordkey , record , userrc )
