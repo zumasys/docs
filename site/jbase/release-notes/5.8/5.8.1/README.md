@@ -18,6 +18,7 @@ This release also includes internal bug fixes and the following patches:
 
 - [PN638](./pn638/README.md)   - SQL: I-type with `EXTRACT` causes segmentation violation  
 - [PN642](./pn642/README.md)   - jBC: EXECUTE'ing a SELECT/RTNLIST on an empty file returns a select-list  
+- [PN647](./pn647/README.md)   - "Flags" parameter implemented for Trigger API
 - [PN1144](./pn1144/README.md) - jED enhancement  
 - [PN1156](./pn1156/README.md) - I-type definitions with decimal arithmetic are not processed/interpreted correctly  
 - [PN1158](./pn1158/README.md) - SQLSELECTL reports 1 Items selected when 0 returned  
