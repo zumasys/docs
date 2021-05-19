@@ -122,8 +122,7 @@ COMMON /CUSTOMER_CHECK/ openflag , odfile , arfile , defile
 * action was performed successfully and any other value showing the update
 * failed. For example, if a WRITE fails because the lock table is full, the
 * value in prerc is 0.
-* flags: Various flags to show things like if a WRITE or WRITEV was performed. Not
-* used yet.
+* flags: Various flags to show things like if a WRITE or WRITEV was performed.
 * recordkey: The record key (or item-id) of the WRITE or DELETE being performed. For
 * CLEARFILE, this is set to ""
 * record: For the WRITE actions, this is the record currently being updated. For the
