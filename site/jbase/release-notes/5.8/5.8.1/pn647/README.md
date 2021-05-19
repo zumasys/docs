@@ -14,7 +14,7 @@ The **Flags** parameter was not populated.
 
 This parameter is now implemented as follows:
 
-**Flags**: Extra optional details about the update. This is a string passed as 2 attributes as follows:  
+**Flags**: Extra optional details about the update. This is a string passed via 2 attributes as follows:  
 
 **Flags<1>** : A Multi-value list of options as shown below. There can be zero or more multi-values. Each multi value describes one option as follows:  
 
