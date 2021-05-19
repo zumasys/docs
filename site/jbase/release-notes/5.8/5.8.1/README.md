@@ -2,7 +2,17 @@
 
 <PageHeader />
 
-This release includes internal bug fixes and the following patches:
+## New Features in jBASE 5.8.1
+
+### Trigger Enhancements  
+
+In a subroutine which is used with a trigger, the fourth parameter has always been documented as "Flags" and "This parameter not yet implemented".
+
+This parameter has now implemented.
+
+See [Trigger API](./../../../triggers/trigger-api/README.md)
+
+This release also includes internal bug fixes and the following patches:
 
 ## Patches
 
