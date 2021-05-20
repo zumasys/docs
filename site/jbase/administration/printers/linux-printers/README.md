@@ -118,6 +118,6 @@ REST-SPOOLER
 
 to restart.
 
-Back to [Troubleshooting](./../README.md)
+Back to [Printers](./../README.md)
 
 <PageFooter />

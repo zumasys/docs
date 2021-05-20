@@ -324,6 +324,7 @@ module.exports = {
               ["/jbase/miscellaneous/multitenancy/", "Multi-Tenancy"],
               ["/jbase/miscellaneous/profiles/jbase-profiles/", "Profiles"],
               ["/jbase/porting/migration-station/data-conversion/generic-data-conversion/", "Porting"],
+              ["/jbase/administration/printers/","Printers"],
               ["/jbase/terminal/terminal-support/", "Terminals"],
               ["/jbase/tape/tape-commands/", "Tape"],
               ["/jbase/tools-and-utilities/", "Tools and Utilities"]
@@ -354,14 +355,6 @@ module.exports = {
               ["/jbase/release-notes/5.7/", "5.7.x"],
               ["/jbase/release-notes/5.6/", "5.6.x"],
               ["/jbase/release-notes/5.5/5.5.1/", "5.5.x"]
-            ]
-          },
-          {
-            title: "Troubleshooting",
-            path: "/jbase/troubleshooting",
-            collapsable: true,
-            children: [
-              ["/jbase/troubleshooting/linux-printers/", "Linux Printers"]
             ]
           },
           {
