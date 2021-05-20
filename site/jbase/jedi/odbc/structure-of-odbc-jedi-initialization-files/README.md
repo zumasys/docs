@@ -48,7 +48,7 @@ mssql = DSN=MSSQL;UID=sa_new;DATABASE=ds_Portal_prod
 msmatrix = DSN=MSSQL;UID=sa_new;DATABASE=hs_label_matrix
 pgdemo = DSN=PostgreSQL;UID=postgres;DATABASE=demo
 
-[PostGreSQL]
+[PostgreSQL]
 date = date
 time = time
 timestamp = timestamp
