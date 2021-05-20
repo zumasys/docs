@@ -52,6 +52,8 @@ export JBCEMULATE
 set JBCEMULATE=reality
 ```
 
+See also the [Emulation](./../../emulation/README.md) topic.  
+
 Go Back to [Environment Variables](./../README.md)
   
 <PageFooter />

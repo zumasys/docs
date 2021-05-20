@@ -366,10 +366,9 @@ jBASIC is able to create files and directories that can be read by the operating
 
 ## Commands/Statements
 
-| <!----> | <!----> | <!----> |
+| jBASIC Command | Type | Description |
 | --- | --- | --- |
-| jBASIC COMMAND | TYPE | DESCRIPTION |
-| [@](./../../jbc/the-'@'-function) | function | Cursor and screen manipulation. |
+| [@](./../../jbc/the-'@'-function) | function | Cursor and screen manipulation. Built-in @ functions |
 | **A** |
 | [ABORT](./../../jbc/abort) | statement | Program termination. |
 | [ABS](./../../jbc/abs) | function | Returns absolute value. |
@@ -403,6 +402,7 @@ jBASIC is able to create files and directories that can be read by the operating
 | [CATS](./../../jbc/cats) | function | Concatenates corresponding elements in two dynamic arrays. |
 | [CHAIN](./../../jbc/chain) | statement | Transfer of process control. |
 | [CHANGE](./../../jbc/change) | statement | Sub-string replacement. |
+| [CHANGE()](./../../jbc/change()/README.md) | function | The function form of the [CHANGE](./../../jbc/change/README.md) statement |
 | [CHANGETIMESTAMP](./../../jbc/changetimestamp) | function | Adjust existing time stamp to return new timestamp value. |
 | [CHAR](./../../jbc/char) | function | Returns the ASCII equivalent of a numeric expression. |
 | [CHARS](./../../jbc/chars) | function | Returns the ASCII equivalents of the numeric expressions in a dynamic array. |
@@ -416,13 +416,13 @@ jBASIC is able to create files and directories that can be read by the operating
 | [CLEARSELECT](./../../jbc/clearselect) | statement | Clears active select lists. |
 | [CLOSE](./../../jbc/close)  | statement | Closes a previously opened file. |
 | [CLOSESEQ](./../../jbc/closeseq)  | statement | Closes a previously opened sequential file. |
+| [COL1 / COL2](./../../jbc/col1-and-col2) | function  | Determine Character positions before or after a located field.  |
 | [COLLECTDATA](./../../jbc/collectdata) | statement | Retrieves data passed from the PASSDATA clause of an EXECUTE statement |
-| [COL1/COL2](./../../jbc/col1-and-col2) | function  | Determine Character positions before or after a located field.  |
 | [COMMON](./../../jbc/common)  | statement | Declares a list of variables and matrices that can be shared among programs. |
 | [COMPARE](./../../jbc/compare)  | function | Compares two strings. |
 | [CONTINUE](./../../jbc/continue)  | statement | Used to skip code in a loop. |
 | [CONVERT](./../../jbc/convert) | function | Converts a character string to another. |
-| [CONVERT](./../../jbc/convert-(statement)) | statement | Converts a character string to another. |
+| [CONVERT()](./../../jbc/convert-(statement)) | statement | Converts a character string to another. |
 | [COS](./../../jbc/cos) | function | Returns the cosine of an angle. |
 | [COUNT](./../../jbc/count) | function | Returns the number of times that one string occurs in another. |
 | [COUNTS](./../../jbc/counts) | function | Counts the number of times a sub-string is repeated in each element of a dynamic array. |
@@ -443,18 +443,19 @@ jBASIC is able to create files and directories that can be read by the operating
 | [DELETELIST](./../../jbc/deletelist) | statement | Deletes a stored list. |
 | [DELETESEQ](./../../jbc/deleteseq) | statement | Deletes a sequential file. |
 | [DELETEU](./../../jbc/deleteu) | statement | Deletes a record without releasing update locks. |
-| [DIMENSION(DIM)](./../../jbc/dimension-(dim))  | statement | Declares fixed length arrays to the compiler. |
-| [DISPLAY](./../../jbc/crt) | statement  | Synonym of CRT.  |
+| [DIM / DIMENSION](./../../jbc/dimension-(dim))  | statement | Declares fixed length arrays to the compiler. |
 | [DIR](./../../jbc/dir) | function | Returns information about a file. |
-| [DIVS](./../../jbc/divs) | function | Divides corresponding elements in two dynamic arrays. |
+| [DISPLAY](./../../jbc/crt) | statement  | Synonym of CRT.  |
 | [DIV](./../../jbc/div) | function | Calculates the value of the quotient after division of the dividend by the divisor. |
-| [DOWNCASE/ UPPERCASE](./../../jbc/downcase-&-upcase) | function | Converts all uppercase characters in an expression to lowercase. |
+| [DIVS](./../../jbc/divs) | function | Divides corresponding elements in two dynamic arrays. |
+| [DOWNCASE / UPPERCASE](./../../jbc/downcase-&-upcase) | function | Converts all uppercase characters in an expression to lowercase. |
 | [DROUND](./../../jbc/dround) | function | Performs double-precision rounding on a value. |
 | [DTX](./../../jbc/dtx)  | function | Returns the hexadecimal representation of a decimal expression. |
 | [DYNTOXML](./../../jbc/dyntoxml) | function | Converts a dynamic array to XML. |
 | **E** |
 | [EBCDIC](./../../jbc/ebcdic)  | function | Converts a string value from ASCII to EBCDIC. |
 | [ECHO](./../../jbc/echo) | statement | Turns on or off the echoing of characters typed at the keyboard. |
+| [Embedded SQL](./../../jbc/embedded-sql-for-jbase-basic/README.md) | SQL | Embedded SQL for jBASE BASIC |
 | [ENCRYPT](./../../jbc/encrypt) | function | Encrypts strings. |
 | [ENTER](./../../jbc/enter) | statement | Unconditionally passes control to another executable program. |
 | [EQUATE](./../../jbc/equate) | statement | Declares a symbol equivalent to a literal, variable or simple expression. |
@@ -471,6 +472,7 @@ jBASIC is able to create files and directories that can be read by the operating
 | [FIELDS](./../../jbc/fields) | function | Returns a dynamic array of delimited fields from a dynamic array of strings. |
 | [FILEINFO](./../../jbc/fileinfo) | function | Returns information on a specified file variable |
 | [FILELOCK](./../../jbc/filelock) | statement | Attempts to lock an entire file for exclusive use by this program. |
+| [FILEUNLOCK](./../../jbc/fileunlock/README.md) | statement | Release a file locks set by the [FILELOCK](./../../jbc/fileunlock/README.md) statment |
 | [FIND](./../../jbc/find) | statement | Finds the location of a specified string within a dynamic array. |
 | [FINDSTR](./../../jbc/findstr)  | statement | Finds the location of a specified string within a dynamic array. |
 | [FMT](./../../jbc/fmt) | function | Formats a string to a specified pattern. |
@@ -489,6 +491,7 @@ jBASIC is able to create files and directories that can be read by the operating
 | [GETCWD](./../../jbc/getcwd) | function | Returns the name of the current working directory. |
 | [GETENV](./../../jbc/getenv) | function | Determines the value of the specified environment variable. |
 | [GETLIST](./../../jbc/getlist) | statement | Retrieves a previously stored list. |
+| [GETUSERGROUP](./../../JBC/getusergroup/README.md) | function | Returns the group number for the User ID specified by @UID |
 | [GETX](./../../jbc/getx)  | statement | Reads a block of data directly from a device. |
 | [GOSUB](./../../jbc/gosub)  | statement | Causes execution of a local subroutine. |
 | [GOTO](./../../jbc/goto) | statement | Causes program execution to jump to the code at a specified label. |
@@ -505,6 +508,7 @@ jBASIC is able to create files and directories that can be read by the operating
 | [IFS](./../../jbc/ifs)  | function | returns a dynamic array whose elements are chosen individually from one of two arrays based on the contents of a third array. |
 | [IN](./../../jbc/in) | statement | Gets raw data from the input device. |
 | INCLUDE / $INCLUDE / INSERT / $INSERT | statement | Include/insert code from other files |
+| [Incremental File Errors](./../../jbc/incremental-file-errors/README.md) | error codes | File access error codes |
 | [INDEX](./../../jbc/index)  | function | Returns the position of a character or characters within another string. |
 | [INDICES](./../../jbc/indices) | function  | Returns the index(es) on a file variable.  |
 | [INMAT](./../../jbc/inmat) | function | Returns the number of dimensioned array elements. |
@@ -691,6 +695,7 @@ jBASIC is able to create files and directories that can be read by the operating
 | [TRIMF](./../../jbc/trimf) | function | Removes leading blanks. |
 | [TRIMFS](./../../jbc/trimfs) | function | Removes leading spaces and tabs from elements of a dynamic array. |
 | **U** |
+| [@unassigned](./../../jbc/@unassigned/README.md) | statement | Unassigned a variable |
 | [UNASSIGNED](./../../jbc/unassigned) | function | Returns Boolean result for variable assignment. |
 | [UNIQUEKEY](./../../jbc/uniquekey) | function | Returns a unique 16-byte character key. |
 | [UNLOCK](./../../jbc/unlock) | statement | Releases a previously locked execution lock. |

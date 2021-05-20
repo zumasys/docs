@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-[jBC](./../jbc/README.md)  
+[jBC Programmers Reference](./../reference-guides/jbc/README.md)  
 [Editors](./../editors/README.md)  
 [Dynamic Objects](./../dynamic-objects/README.md)  
 [Compilation](./../compilation/README.md)  

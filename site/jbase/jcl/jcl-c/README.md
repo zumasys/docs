@@ -1,4 +1,4 @@
-# jCL C
+# jCL Comments
 
 <PageHeader />
 
@@ -8,23 +8,45 @@
 
 ## Description
 
-The command defines a comment. It indicates that the following text is a comment. All comments are ignored at run-time.  It takes the general form:
+Comments can be specified in a number of ways:
 
 ```
-C
+C {text}
 ```
 
-or
+```
+* {text}
+```
 
 ```
-*
+# {text}
 ```
+
+```
+// {text}
+```
+
+```
+/* {text} */
+```
+```
+/*
+{text}
+{text}
+...
+{text}
+*/
+```
+
+All comments are ignored at run-time.
+
+The last comment type is a block comment where any number of comment lines can exist between `/*` and `*/`.
 
 Comments are useful to improve the readability of a program or help with debugging. Typically, the first few lines of a jCL program are used to describe the program, identify the programmer and record the date it was last modified.
 
 ## Note
 
-> Comments can be used within grouped commands (more than one command on a single line) but  care must be taken though to ensure they will not conflict with normal command syntax.
+> Comments can be used within grouped commands (more than one command on a single line) but care must be taken though to ensure they will not conflict with normal command syntax.
 
 ### Example
 
@@ -47,6 +69,6 @@ Comments are useful to improve the readability of a program or help with debuggi
 
 Lines 2 to 4 are comment lines. Line 10 has a comment after an input command (the "\" is a subvalue mark &lt;ctrl \&gt;).
 
-ack to [jCL Commands](./../README.md)
+Back to [jCL Commands](./../README.md)
   
 <PageFooter />

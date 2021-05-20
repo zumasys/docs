@@ -25,7 +25,7 @@
 | [>=](./ge/README.md) | Synonym for GE |
 | A |  Throwaway |
 | [AFTER](./gt/README.md) | Synonym for GT |  
-| ALL |   |
+| ALL | Use with [CLEARSELECT](./../../tools-and-utilities/clearselect/README.md) to clear all select lists |
 | AN | Throwaway |
 | [AND](./and/README.md) | Logical AND |
 | ANY | Throwaway |
