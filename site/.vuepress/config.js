@@ -339,6 +339,14 @@ module.exports = {
             ]
           },
           {
+            title: "FAQ",
+            path: "/jbase/faq",
+            collapsable: true,
+            children: [
+              ["/jbase/faq/", "Frequently Asked Questions"]
+            ]
+          },
+          {
             title: "Migration Station",
             path: "/jbase/porting/migration-station",
             collapsable: true,

@@ -4,8 +4,8 @@
 
 ## jBASE Statements and Functions by Name
 
-| Name                                                                          | Description          | 
-| ----------------------------------------------------------------------------  | -------------------- | 
+| Name                                                                          | Description          |  
+| ----------------------------------------------------------------------------  | -------------------- |  
 | [@unassigned](./@unassigned/README.md)                                        | Unassigns a variable. |
 | [abort](./abort/README.md)                                                    | The **ABORT** statement terminates the current running program and the program that called it. |
 | [abs](./abs/README.md)                                                        | This function returns the mathematical absolute of the mathematical expression in the argument. |
@@ -341,7 +341,6 @@
 | [xmltodyn](./xmltodyn/README.md)                                              | This function converts XML to a dynamic array. |
 | [xmltoxml](./xmltoxml/README.md)                                              | This function transforms XML using a given XSL. |
 | [xtd](./xtd/README.md)                                                        | The **XTD** function converts hexadecimal numbers into its decimal equivalent. |
-
 
 [Back to Knowledgebase](./../README.md)
 
