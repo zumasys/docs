@@ -100,6 +100,9 @@ The **User Catalog** refers to the [JSQLFILENAME_CATALOG](../../../environment-v
 
 For more information on the implications of the other settings (**User**, **Password**, **Account**, **SSL**, **Compression**) refer to the following [link](../../jagent/introduction-to-jremote/#additional-connection-properties).
 
+### Fetch Row Size
+The default fetch row size is 1000, whereby result sets are accumulated in batches of 1000 before transmitting back to the ODBC connection. You may see performance benefits by increasing this value (e.g. in the example above a value of **10000** was used).
+
 ### Connection strings
 
 Connection strings, as defined by the ODBC SQL CLI, specify the connection parameters supplied to the server when attempting to establish a connection.
