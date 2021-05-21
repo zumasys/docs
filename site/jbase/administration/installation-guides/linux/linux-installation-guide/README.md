@@ -496,6 +496,6 @@ Contact jBASE support in the United States at 866 582 8447 and from the United K
 
 You may also email devsup@jbase.com and visit [http://www.jbase.com/support/](http://www.jbase.com/support/) for more support options.
 
-Back to [Installation Guides](./../../README.md).
+Back to [Linux Installation Guides](./../README.md).
 
 <PageFooter />

@@ -264,10 +264,10 @@ module.exports = {
             path: "/jbase/fileinfo",
             collapsable: true,
             children: [
-              ["/jbase/miscellaneous/introduction-to-audit-logging/", "Audit Logging"],
+              ["/jbase/faq/introduction-to-audit-logging/", "Audit Logging"],
               ["/jbase/encryption/", "Encryption"],
               ["/jbase/files/", "File Handling"],
-              ["/jbase/miscellaneous/introduction-to-distributed-locking/", "jDLS"],
+              ["/jbase/faq/introduction-to-distributed-locking/", "jDLS"],
               ["/jbase/jrfs/jrfs-quick-start-guide/", "jRFS"],
               ["/jbase/record-locking/", "jBASE Record Locking"],
               ["/jbase/triggers/triggers-overview/", "Triggers"]
@@ -299,7 +299,7 @@ module.exports = {
               ["/mv-connect/api/", "jAgent"],
               ["/jbase/connectivity/jrcs/", "jRCS"],
               ["/jbase/connectivity/ODBC/", "ODBC"],
-              ["/jbase/miscellaneous/jcurl/", "jCurl"]
+              ["/jbase/faq/jcurl/", "jCurl"]
             ]
           },
           {
@@ -317,12 +317,12 @@ module.exports = {
             children: [
               ["/jbase/accounts/", "Accounts"],
               ["/jbase/background-processing/", "Background Processing"],
-              ["/jbase/miscellaneous/case-insensitive-overview/", "Case Insensitivty"],
+              ["/jbase/faq/case-insensitive-overview/", "Case Insensitivty"],
               ["/jbase/daemons/", "Daemons"],
               ["/jbase/environment-variables/", "Environment Variables"],
               ["/jbase/internationalization/jbase-internationalization/", "Internationalization"],
-              ["/jbase/miscellaneous/multitenancy/", "Multi-Tenancy"],
-              ["/jbase/miscellaneous/profiles/jbase-profiles/", "Profiles"],
+              ["/jbase/faq/multitenancy/", "Multi-Tenancy"],
+              ["/jbase/faq/profiles/jbase-profiles/", "Profiles"],
               ["/jbase/porting/migration-station/data-conversion/generic-data-conversion/", "Porting"],
               ["/jbase/administration/printers/","Printers"],
               ["/jbase/terminal/terminal-support/", "Terminals"],
