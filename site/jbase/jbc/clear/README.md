@@ -18,9 +18,10 @@ Var2 = 50
 CLEAR
 ```
 
-The above code will clear the variables to zero
+The above code will clear the variables to zero.
 
-Note this does not affect COM{MON}. See [CLEARCOMMON](./../clearcommon "jBC CLEARCOMMON")
+This does not affect COM{MON} unless the `clear_will_clear_common` configuration option is set.  
+See also [CLEARCOMMON](./../clearcommon "jBC CLEARCOMMON")
 
 Go back to [jBASE BASIC](./../README.md)
 
