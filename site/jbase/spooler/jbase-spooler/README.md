@@ -34,6 +34,7 @@
 | [SP-EJECT](./../sp-eject) | Creates a print job containing form feeds. |
 | [SP-FORM](./../sp-form) | Renames an existing formqueue. |
 | [SP-FQDELETE](./../sp-fqdelete) | Deletes a formqueue. |
+| [SP-FQSCRIPT](./../sp-fqscript) | Creates a script to regenerate the current spooler configuration. |
 | [SP-JOBS](./../sp-jobs) | Manipulates and displays status of print jobs. |
 | [SP-KILL](./../sp-kill) | Stops despooling of the current print job. |
 | [SP-LOOK](./../sp-look) | Displays your current spooler assignments. |

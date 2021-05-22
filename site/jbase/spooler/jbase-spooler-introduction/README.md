@@ -41,17 +41,9 @@ Spooler information can also be obtained directly using the following jspstatus 
 | jspstatus 3 | Display assignment information |
 | jspstatus 4 | Display open job information |
 
-## UNIX
 
 ```
-:SP-NEWTAB - Clear all spooler entries.
-:REST-SPOOLER - Restart all spooler queues.
-```
-
-## Windows
-
-```
-SP-NEWTAB - Clear all spooler entries.
+SP-NEWTAB - Creates a new spooler.
 REST-SPOOLER - Restart all spooler queues.
 ```
 

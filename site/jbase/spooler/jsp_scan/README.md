@@ -14,18 +14,15 @@ where:
 
 | Option | Explanation |
 | --- | --- |
-| v | Verbose; show all spool records |
-| j | Show Job records; Default is just to show FormQueue info |
-| c | Clear any invalid SP-EDIT jobs (must be admin) (implies -j) |
+| -v | Verbose; show all spool records |
+| -j | Show Job records; Default is just to show FormQueue info |
+| -c | Clear any invalid SP-EDIT jobs (must be admin) (implies -j) |
+| -h | Help |
 
-## Note
-
-> Use the -h option to display a list of valid options.
-
-### Example
+## Example
 
 ```
-#jsp_scan -c
+jsp_scan -c
 ```
 
 ```
