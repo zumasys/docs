@@ -27,5 +27,4 @@ jBASE provides the [SPOOLER(4)](./../../../jbase-basic-(jbc)/spooler) function t
 
 Back to [Spooler](./../jbase-spooler).
 
-  
 <PageFooter />
