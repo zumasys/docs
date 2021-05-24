@@ -329,19 +329,19 @@ Applies to: **Express,** **Advanced**
 
 ![jbase-linux-installation-guide:](./InstallLinux58_23.jpg)
 
-12. Enter a password for the Linux user, and again for verification.
+16. Enter a password for the Linux user, and again for verification.
 
 Applies to: **Express,** **Advanced**  
 
 ![jbase-linux-installation-guide:](./InstallLinux58_24.jpg)
 
-13. Specify a group ID for the jBASE system files, or press Enter to accept the default jBASE group ID. Then press Y to confirm.
+17. Specify a group ID for the jBASE system files, or press Enter to accept the default jBASE group ID. Then press Y to confirm.
 
 Applies to: **Express,** **Advanced**  
 
 ![jbase-linux-installation-guide:](./InstallLinux58_25.jpg)
 
-14. Here you can choose optional tasks to complete during installation, or choose the default to complete all tasks. Options include:
+18. Here you can choose optional tasks to complete during installation, or choose the default to complete all tasks. Options include:
 
 #### Create JBASEADM account for administrative functions  
 
@@ -371,19 +371,19 @@ Applies to: **Advanced**
 
 ![jbase-linux-installation-guide:](./InstallLinux58_26.jpg)
 
-15.  Specify the TCP port to use for the jBASE Remote Connectivity Server (jRCS), or press Enter to use the default port 8236. Then press Y to accept.
+19.  Specify the TCP port to use for the jBASE Remote Connectivity Server (jRCS), or press Enter to use the default port 8236. Then press Y to accept.
 
 Applies to: **Advanced**  
 
 ![jbase-linux-installation-guide:](./InstallLinux58_27.jpg)
 
-16. If you opt to start the jDLS service, you can select port-based or process-based locks or press Y to choose the default process-based locks. See the [Introduction to jBASE Distributed Locking](./../../../../faq/introduction-to-distributed-locking/README.md) for more information regarding jDLS.
+20. If you opt to start the jDLS service, you can select port-based or process-based locks or press Y to choose the default process-based locks. See the [Introduction to jBASE Distributed Locking](./../../../../faq/introduction-to-distributed-locking/README.md) for more information regarding jDLS.
 
 Applies to: **Advanced**  
 
 ![jbase-linux-installation-guide:](./InstallLinux58_28.jpg)
 
-19. After verifying the information displayed on the summary page, type Y to begin the installation process. The following tasks will be completed.
+21. After verifying the information displayed on the summary page, type Y to begin the installation process. The following tasks will be completed.
 
 Applies to: **Express,** **Advanced**
 
@@ -404,7 +404,7 @@ Applies to: **Express,** **Advanced**
 
 ![jbase-linux-installation-guide:](./InstallLinux58_30.jpg)
 
-20. Congratulations, jBASE is now successfully installed. Press Y to login as JBASEADM.
+22. Congratulations, jBASE is now successfully installed. Press Y to login as JBASEADM.
 
 If you have a local firewall installed on this server, it may prevent network users from connecting to the application. Your system administrator may need to allow access to TCP port 8236.
 
@@ -416,11 +416,13 @@ Applies to: **Express,** **Advanced**
 
 See [Upgrading to jBASE 5.8.x from a previous version](./../upgrading-to-5.8-linux/README.md)  
 
-The jBASE installer will examine the directory pointed to by the JBCRELEASEDIR environment variable for a previous jBASE installation. If JBCRELEASEDIR does not point to a valid jBASE installation, the installer will test common installation locations for previous jBASE versions. The 'jdiag' command is used to that the directory contains a jBASE installation, as well as the previous jBASE release number.
+The jBASE installer will examine the directory pointed to by the JBCRELEASEDIR environment variable for a previous jBASE installation. If JBCRELEASEDIR does not point to a valid jBASE installation, the installer will test common installation locations for previous jBASE versions.  
 
-If a previous jBASE release is found, the contents of the previous release 'config' directory will be backed up to 'config\_pre\_&lt;new version&gt; in the destination directory. For example, if, prior to installing this release of jBASE, JBCRELEAESEDIR points to '/opt/jbase5/5.2' and the new installation destination directory is '/opt/jbase/5.5.1', then the contents of '/opt/jbase5/5.2/config' will be backed up as '/opt/jbase/5.5.1/config\_pre\_5.5.1'.
+If a previous jBASE release is found, the contents of the previous release 'config' directory will be backed up to 'config\_pre\_&lt;new version&gt; in the destination directory. For example, if, prior to installing this release of jBASE, JBCRELEAESEDIR points to '/opt/jbase/5.8' and the new installation destination directory is '/opt/jbase/5.8.1', then the contents of '/opt/jbase/5.8/config' will be backed up as '/opt/jbase/5.8.1/config\_pre\_5.8.1'.
 
-If you have modified any of the configuration files in the previous release 'config' directory, you will need to apply your modifications to the corresponding files in the new installation 'config' directory. Such files may include:
+As of jBASE 5.8.0, most content in the "config", "proc" and "tmp" directories which previously resided under $JBCRELEASEDIR will now reside under $JBCGLOBALDIR, along with the "runtime-errors" file and will not change between releases. 
+
+Such files may include:
 
 **Config\_EMULATE** - Contains the JBCEMULATE settings
 
@@ -434,61 +436,61 @@ If you have modified any of the configuration files in the previous release 'con
 
 **jLibDefinition** - Define shared object items
 
-When upgrading a previous release of jBASE, the installer will not overwrite any existing JBASEADM account, SYSTEM file or jBASE Spooler configuration.
+When upgrading a previous release of jBASE, the installer will not overwrite any existing accounts, SYSTEM file or jBASE Spooler configuration.
 
 ## Administration
 
 ### jBASE Users
 
-jBASE users are normal Linux users. The installer automatically creates a Linux user group called jBASE. To create new Linux users joined to this group, follow the instructions below.
+jBASE users are normal Linux users. The installer automatically creates a Linux user group called "jbase".  
+
+To create new Linux users joined to this group, follow the instructions below.
 
 It is recommended that all jBASE users belong to the 'jbase' group, as their primary group. That way, they not only have access to other files belonging to the 'jbase' group, but any files they create will also belong to the 'jbase' group, and be accessible by other members of this group.
 
-1. If you just completed the jBASE install above, exit out of the jSHELL prompt, by typing exit then Enter.![jbase-linux-installation-guide: blob](./blob-27.jpg)
+1. If you just completed the jBASE install above, if applicable, exit out of the jSHELL prompt, by typing 'exit' then Enter:
+
+![jbase-linux-installation-guide](./InstallLinux58_31A.jpg)
 
 2. Run the useradd command to add a new Linux user called for example, jbaseuser. This can be any username you wish.
 
-``` bash
-useradd -m -k /opt/jbase/CurrentVersion/src/skel -g jbase jbaseuser
-```
+![jbase-linux-installation-guide](./InstallLinux58_32.jpg)
 
-![jbase-linux-installation-guide: blob](./blob-28.jpg)
+This command witll create a "jbasetest" user which is a member of the "jbase" group and will use the default .profile supplied with the jBASE install to facilitae login.
+
+The deafult user profile is predicated on there being an existing SYSTEM file and at least one account to log to, in this case "JBASEADM".
 
 3. Set the Linux password for the new user:
 
-``` bash
-# passwd jbaseuser
-```
+![jbase-linux-installation-guide](./InstallLinux58_33.jpg)
 
-![jbase-linux-installation-guide: blob](./blob-29.jpg)
+4. As a test that everything works, as root, it should now be possible to "su - jbasetest" and the log in to the JBASEADM account:
+
+![jbase-linux-installation-guide](./InstallLinux58_34.jpg)
 
 ### jBASE Accounts
 
 Now that we have created a Linux user, in order to login to jBASE, we must create a corresponding jBASE Account.
 
-1. From the root command prompt, launch the jSHELL prompt by typing jbase.
+1. From the root command prompt, launch the jSHELL prompt by typing jlogin.
 
-``` bash
-# jbase
-```
+2. If prompted, type JBASEADM for the username.
 
-2. If prompted, type JBASEADM for the username.![jbase-linux-installation-guide: blob](./blob-30.jpg)
+3. You should now be back at the jSHELL prompt, type create-account jbaseuser, or any account name to match the Linux user account you created in the previous section.
 
-3. You should now be back at the jSHELL prompt, type CREATE-ACCOUNT jbaseuser, or any account name to match the Linux user account you created in the previous section.
+![jbase-linux-installation-guide:](./InstallLinux58_35.jpg)
 
-```
-CREATE-ACCOUNT jbaseuser
-```
+1. Congratulations, now you have created the corresponding jBASE Account.
 
-![jbase-linux-installation-guide: blob](./blob-31.jpg)
+2. You may now logto the new account:
 
-4. Congratulations, now you have created the corresponding jBASE Account.
+![jbase-linux-installation-guide:](./InstallLinux58_36.jpg)
 
-5. You may now login to the jSHELL prompt as the user:
+6. You may also connect remotely from another Linux OS or Windows, typically with SSH protocol and a terminal emulator such as AccuTerm or Putty.  
 
-![jbase-linux-installation-guide: blob](./blob-32.jpg)
+7. First you are logging in with the Linux User username and password. Then, the jBASE environment variables automatically launch the jlogin prompt. When prompted, enter the jBASE account username to continue. You should now be at the jSHELL prompt.
 
-6. You may also connect remotely from another Linux OS or Windows, typically with SSH protocol and a terminal emulator such as AccuTerm or Putty. First you are logging in with the Linux User username and password. Then, the jBASE environment variables automatically launch the jSHELL prompt. If prompted, enter the jBASE account username to continue. You should now be at the jSHELL prompt.![jbase-linux-installation-guide: blob](./blob-33.jpg)
+![jbase-linux-installation-guide:](./InstallLinux58_37.jpg)
 
 ## Support
 
