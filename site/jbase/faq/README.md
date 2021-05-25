@@ -8,7 +8,7 @@
 [Dynamic Objects - Quick Start](./../dynamic-objects/quick-start-on-dynamic-objects/README.md)  
 [How to run jBASE commands from Cron/Services without consuming a license](./../background-processing/cron/README.md)  
 [Introduction to Audit Logging](./introduction-to-audit-logging/README.md)  
-[Introduction to Distributed Locking](./introduction-to-distributed-locking/README.md)  
+[Introduction to Distributed Locking](./../coding-corner/introduction-to-distributed-locking/README.md)  
 [jBASE Fundamentals](./jbase-fundamentals/README.md)  
 [jCurl](./jcurl/README.md)  
 [Multi Tenancy](./multitenancy/README.md)  
