@@ -267,7 +267,7 @@ module.exports = {
               ["/jbase/faq/introduction-to-audit-logging/", "Audit Logging"],
               ["/jbase/encryption/", "Encryption"],
               ["/jbase/files/", "File Handling"],
-              ["/jbase/faq/introduction-to-distributed-locking/", "jDLS"],
+              ["/jbase/coding-corner/introduction-to-distributed-locking/", "jDLS"],
               ["/jbase/jrfs/jrfs-quick-start-guide/", "jRFS"],
               ["/jbase/record-locking/", "jBASE Record Locking"],
               ["/jbase/triggers/triggers-overview/", "Triggers"]
