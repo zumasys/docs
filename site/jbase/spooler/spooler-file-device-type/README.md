@@ -103,4 +103,6 @@ where:
 
 ---
 
+Back to [Spooler](./../README.md)
+
 <PageFooter />

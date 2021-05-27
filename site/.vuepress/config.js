@@ -307,7 +307,7 @@ module.exports = {
             path: "/jbase/spooler",
             collapsable: true,
             children: [
-              ["/jbase/spooler/jbase-spooler/", "jBASE Spooler"]
+              ["/jbase/spooler/spooler/", "jBASE Spooler"]
             ]
           },
           {

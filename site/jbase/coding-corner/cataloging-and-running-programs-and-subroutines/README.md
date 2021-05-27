@@ -1,12 +1,10 @@
-# CATALOGING & RUNNING PROGRAMS/SUBROUTINES
+# Cataloging and Running Programs/Subroutines
 
 <PageHeader />
 
 ## Understanding BASIC/CATALOG on jBASE
 
-jBASE differs to other MultiValue platforms in many ways and one of the primary areas is BASIC run-time. In jBASE all programs must be cataloged to run. The use of:
-
-e.g.
+jBASE differs to other MultiValue platforms in many ways and one of the primary areas is BASIC run-time. In jBASE all programs must be cataloged to run. For example, the use of:
 
 ```
  RUN BP MYPROG
