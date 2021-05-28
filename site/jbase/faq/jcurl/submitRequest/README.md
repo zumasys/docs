@@ -1,12 +1,14 @@
 # submitRequest
 
+<PageHeader />
+
 **Tags:**
 <badge text='curl' vertical='middle' />
 <badge text='http' vertical='middle' />
 
 Submit an request for a given **$http** handle.
 
-## Synax:
+## Syntax
 
 ***result_code*** = **submitRequest**(***request_handle***, ***time_out***, ***post_data***, ***response_headers***, ***response_data***, ***http_status***)
 
@@ -32,9 +34,8 @@ rc = submitRequest(request_handle, time_out, post_data, response_headers, respon
 ...
 ```
 
-see also [createRequest](../createRequest/#heading)
+see also [createRequest](./../createRequest/#heading)
 
 Back to [jCurl.](./../README.md)
 
-  
 <PageFooter />

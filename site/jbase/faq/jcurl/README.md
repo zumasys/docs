@@ -8,32 +8,32 @@ One of the advantages of using curl over other tcp/ip based operations is that w
 
 It provides the following functions:
 
-* [curlAddHeader](./curlAddHeader)
-* [curlClose](./curlClose)
-* [curlExec](./curlExec)
-* [curlGetLog](./curlGetLog)
-* [curlInit](./curlInit)
-* [curlLastError](./curlLastError)
-* [curlSetLogging](./curlSetLogging)
-* [curlSetOpt](./curlSetOpt)
-* [curlUseFile](./curlUseFile)
-* [curlUseMemory](./curlUseMemory)
-* [curlUseVar](./curlUseVar)
+* [curlAddHeader](./curlAddHeader/README.md)
+* [curlClose](./curlClose/README.md)
+* [curlExec](./curlExec/README.md)
+* [curlGetLog](./curlGetLog/README.md)
+* [curlInit](./curlInit/README.md)
+* [curlLastError](./curlLastError/README.md)
+* [curlSetLogging](./curlSetLogging/README.md)
+* [curlSetOpt](./curlSetOpt/README.md)
+* [curlUseFile](./curlUseFile/README.md)
+* [curlUseMemory](./curlUseMemory/README.md)
+* [curlUseVar](./curlUseVar/README.md)
 
 ## Additional Helper Functions
 
 These functions help facilitate simple http/SOAP requests (utilising jCURL underneath) using an **$http** (jabba) class.
 
-* [addRequestParameter](./addRequestParameter)
-* [createRequest](./createRequest)
-* [setRequestContent](./setRequestContent)
-* [setRequestHeader](./setRequestHeader)
-* [submitRequest](./submitRequest)
-* [SOAPCreateRequest](./SOAPCreateRequest)
-* [SOAPSetRequestContent](./SOAPSetRequestContent)
-* [SOAPSubmitRequest](./SOAPSubmitRequest)
+* [addRequestParameter](./addRequestParameter/README.md)
+* [createRequest](./createRequest/README.md)
+* [setRequestContent](./setRequestContent/README.md)
+* [setRequestHeader](./setRequestHeader/README.md)
+* [submitRequest](./submitRequest/README.md)
+* [SOAPCreateRequest](./SOAPCreateRequest/README.md)
+* [SOAPSetRequestContent](./SOAPSetRequestContent/README.md)
+* [SOAPSubmitRequest](./SOAPSubmitRequest/README.md)
 
-For an indepth example of jCURL: see [ftp example](jftp)
+For an in-depth example of jCURL: see [ftp example](./jftp/README.md)
 
 ## Sample Usage
 

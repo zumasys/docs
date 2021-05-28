@@ -1,12 +1,14 @@
 # setRequestHeader
 
+<PageHeader />
+
 **Tags:**
 <badge text='curl' vertical='middle' />
 <badge text='http' vertical='middle' />
 
 Add a header/value to the given **$http** request.
 
-## Synax
+## Syntax
 
 ***result_code*** = **setRequestHeader**(***request_handle***, ***header_name***, ***header_value***)
 
@@ -27,9 +29,8 @@ rc = setRequestHeader(request_handle, 'accept, '*/*')
 ...
 ```
 
-see also [createRequest](../createRequest/#heading)
+see also [createRequest](./../createRequest/#heading)
 
 Back to [jCurl.](./../README.md)
 
-  
 <PageFooter />

@@ -6,9 +6,9 @@
 <badge text='curl' vertical='middle' />
 <badge text='http' vertical='middle' />
 
-Create an **$http** handle for subsequent http requests (see also [SOAPCreateRequest](../SOAPCreateRequest/#heading)) using the [jCURL](../../jcurl) module.
+Create an **$http** handle for subsequent http requests (see also [SOAPCreateRequest](../SOAPCreateRequest/#heading)) using the [jCURL](./../README.md) module.
 
-## Synax
+## Syntax
 
 ***result_code*** = **createRequest**(***url***, ***http_method***, ***request_handle***)
 
@@ -31,5 +31,4 @@ rc = createRequest(url, 'POST', request_handle)
 
 Back to [jCurl.](./../README.md)
 
-  
 <PageFooter />

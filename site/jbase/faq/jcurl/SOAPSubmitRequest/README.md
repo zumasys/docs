@@ -1,13 +1,15 @@
 # SOAPSubmitRequest
 
+<PageHeader />
+
 **Tags:**
 <badge text='curl' vertical='middle' />
 <badge text='soap' vertical='middle' />
 <badge text='http' vertical='middle' />
 
-Add a header to a given curlHandle for subsequent execution ([curlExec](../curlExec/#heading)).
+Add a header to a given curlHandle for subsequent execution ([curlExec](./../curlExec/#heading)).
 
-## Synax:
+## Syntax
 
 ***result_code*** = **SOAPSubmitRequest**(***request_handle***, ***time_out***, ***respHeaders***, ***respData***, ***soapStatus***)
 
@@ -23,15 +25,15 @@ where:
 ***soapStatus*** | dyn_array |status code and text
 
 ## Example
+
 ```
 time_out = 5
 rc = SOAPCreateRequest(url, soapAction, request_handle)
 rc = SOAPSubmitRequest(request_handle, time_out, response_headers, response_data, soap_status)
 ```
 
-see also [SOAPCreateRequest](../SOAPCreateRequest/#heading)
+see also [SOAPCreateRequest](./../SOAPCreateRequest/#heading)
 
 Back to [jCurl.](./../README.md)
 
-  
 <PageFooter />

@@ -1,5 +1,7 @@
 # SOAPSetRequestContent
 
+<PageHeader />
+
 **Tags:**
 <badge text='curl' vertical='middle' />
 <badge text='soap' vertical='middle' />
@@ -7,7 +9,7 @@
 
 Set the content for a SOAP request (**$http** handle).
 
-## Synax:
+## Syntax
 
 ***result_code*** = **SOAPSetRequestContent**(***request_handle***, ***reqDoc***, ***stringFlag***)
 
@@ -39,9 +41,8 @@ rc = SOAPSetRequestContent(request_handle, xml_data, 1)
 ...
 ```
 
-see also [SOAPCreateRequest](../SOAPCreateRequest/#heading)
+see also [SOAPCreateRequest](./../SOAPCreateRequest/#heading)
 
 Back to [jCurl.](./../README.md)
 
-  
 <PageFooter />

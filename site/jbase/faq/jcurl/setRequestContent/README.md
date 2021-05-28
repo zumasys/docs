@@ -1,12 +1,14 @@
 # setRequestContent
 
+<PageHeader />
+
 **Tags:**
 <badge text='curl' vertical='middle' />
 <badge text='http' vertical='middle' />
 
 Set the body content for an **$http** request.
 
-## Synax:
+## Syntax
 
 ***result_code*** = **setRequestContent**(***request_handle***, ***content***)
 
@@ -27,9 +29,8 @@ rc = setRequestContent(request_handle, content)
 ...
 ```
 
-see also [createRequest](../createRequest/#heading)
+see also [createRequest](./../createRequest/#heading)
 
 Back to [jCurl.](./../README.md)
 
-  
 <PageFooter />

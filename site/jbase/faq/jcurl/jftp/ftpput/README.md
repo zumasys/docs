@@ -1,12 +1,14 @@
 # FTPPUT
 
+<PageHeader />
+
 **Tags:**
 <badge text='curl' vertical='middle' />
 <badge text='ftp' vertical='middle' />
 
 Sample ftp function that uses the [$ftp class](../ftpclass-jabba/#heading)
 
-### FTPPUT.b
+## FTPPUT.b
 
 ```
 !
@@ -41,5 +43,4 @@ Sample ftp function that uses the [$ftp class](../ftpclass-jabba/#heading)
 
 Back to [jftp.](./../README.md)
 
-  
 <PageFooter />

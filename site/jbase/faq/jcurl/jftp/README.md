@@ -1,17 +1,19 @@
-# FTP example using jCURL
+# ftp example using jCURL
 
 **Tags:**
 <badge text='curl' vertical='middle' />
 <badge text='ftp' vertical='middle' />
 
-The following links provide source code to a working {S}FTP functions utilising jCURL.
+The following links provide source code to a working {S}FTP functions utilising jCURL:
 
-* [FTPPUT](ftpput)
-* [FTPGET](ftpget)
-* [FTPPUTF](ftpputf)
-* [FTPGETF](ftpgetf)
+## Example source code
 
-Each are based on the [$ftp class](ftpclass-jabba/#heading) which makes extensive use of the jCURL api.
+* [FTPPUT](./ftpput/README.md)
+* [FTPGET](./ftpget/README.md)
+* [FTPPUTF](./ftpputf/README.md)
+* [FTPGETF](./ftpgetf/README.md)
+
+Each are based on the [$ftp class](./ftpclass-jabba/#heading) which makes extensive use of the jCURL api.
 
 To build these utilities you will also need the following includes:
 
@@ -34,7 +36,7 @@ $option jabba
     IF NOT(ftpobj->$isobject()) THEN ftpobj = new object("$ftp")
 ```
 
-You may also need to set the environment variable
+You may also need to set the environment variable:
 > JBC_INCLUDE_PATH
 
 to the directory where you place these two includes.
@@ -47,7 +49,7 @@ export JBC_INCLUDE_PATH=/dbms/global/INCLUDE
 set JBC_INCLUDE_PATH=c:\dbms\global\INCLUDE
 ```
 
-## Example use
+## Example usage
 
 TESTFTP.b
 
@@ -125,5 +127,4 @@ TESTFTP.b
 
 Back to [jCurl.](./../README.md)
 
-  
 <PageFooter />

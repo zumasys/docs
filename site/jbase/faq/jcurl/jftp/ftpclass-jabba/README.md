@@ -1,5 +1,7 @@
 # $ftp class
 
+<PageHeader />
+
 **Tags:**
 <badge text='curl' vertical='middle' />
 <badge text='ftp' vertical='middle' />
@@ -7,7 +9,7 @@
 
 This is a sample class that uses [jCURL](../../../jcurl) extensively to provide FTP functionality to jBC.
 
-> see also [FTPGET](../FTPGET/#heading), [FTPPUT](../FTPPUT/#heading), [FTPGETF](../FTPGETF/#heading), [FTPPUTF](../FTPPUTF/#heading)
+> see also [FTPGET](./../ftpget/#heading), [FTPPUT](./../ftpput/#heading), [FTPGETF](./../ftpgetf/#heading), [FTPPUTF](./../ftpputf/#heading)
 
 ## ftpclass.jabba
 
@@ -254,5 +256,4 @@ end method
 
 Back to [jftp.](./../README.md)
 
-  
 <PageFooter />

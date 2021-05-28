@@ -8,7 +8,7 @@
 
 Add a parameter/value(s) to a given **$http** handle for subsequent execution ([submitRequest](../submitRequest/#heading)).
 
-## Synax:
+## Syntax
 
 ***result_code*** = **addRequestParameter**(***request_handle***, ***parameter_name***, ***parameter_value***, ***content_handling***)
 
@@ -34,5 +34,4 @@ see also [createRequest](../createRequest/#heading)
 
 Back to [jCurl.](./../README.md)
 
-  
 <PageFooter />

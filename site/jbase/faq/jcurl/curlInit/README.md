@@ -2,9 +2,9 @@
 
 <PageHeader />
 
-Create a [jCURL](../jcurl) handle for subsequent use.
+Create a [jCURL](./../README.md) handle for subsequent use.
 
-## Synax:
+## Syntax
 
 ***result_code*** = **curlInit**(***curlHandle***)
 
@@ -24,5 +24,4 @@ rc = curlInit(curlHandle)
 
 Back to [jCurl.](./../README.md)
 
-  
 <PageFooter />
