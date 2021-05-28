@@ -14,11 +14,6 @@ For detailed information about each update including training materials [click h
 * Added additional parameters to limit or remove transaction props
   * Change Due
   * Next Transaction
-
-## General Merchandise
-
-* Updated inventory printing for multiple inventory adjustments reports for physical inventory reporting
-
 ## Textbooks
 
 * Remember to reset Beginning Inventory
