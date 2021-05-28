@@ -17,8 +17,8 @@ For detailed information about each update including training materials [click h
 ## Textbooks
 
 * Remember to reset Beginning Inventory
-  * if you have added new terms, open/closed terms
-  * Buyback completion
+  * If you have added new terms, open/closed terms
+  * Buyback season completed
 ## TotaLink (Credit-Cards)
 * Added transaction Integrity checking
   * Pulls prior authorizations from the processor for transactions where the response communication is lost
