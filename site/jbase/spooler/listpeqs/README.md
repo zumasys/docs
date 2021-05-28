@@ -35,5 +35,4 @@ JobNumber, Copies, Date, Time, Acct are as per [SP-JOBS](./../sp-jobs).
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

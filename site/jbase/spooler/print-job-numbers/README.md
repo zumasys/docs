@@ -4,7 +4,7 @@
 
 ## Assigning the Job Number
 
-Prints jobs are identified by number. The jBASE spooler uses a control record in the jspool\_log file - NextJobNumber - to assign print job numbers. The structure of this record is:
+Print jobs are identified by number. The jBASE spooler uses a control record in the jspool\_log file - NextJobNumber - to assign print job numbers. The structure of this record is:
 
 ```
 <1> Date job number was last reset
@@ -27,5 +27,4 @@ jBASE provides the [SPOOLER(4)](./../../../jbase-basic-(jbc)/spooler) function t
 
 Back to [Spooler](./../jbase-spooler).
 
-  
 <PageFooter />

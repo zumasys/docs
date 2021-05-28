@@ -60,7 +60,7 @@ The procedure will create a default form queue named STANDARD, whose device name
 | `NT -d PrinterName` | Direct output to named printer |
 | `NT -d \\ServerName\ShareName` | Direct output to network printer |
 
-The jBASE spooler form queues and print jobs can be manipulated by using the jBASE spooler commands directly or by using the SP-STATUS and SP-JOBS menus.
+The jBASE spooler form queues and print jobs can be manipulated by using the jBASE spooler commands directly or by using the `SP-STATUS` and `SP-JOBS` menus.
 
 Back to [Spooler](./../jbase-spooler).
 

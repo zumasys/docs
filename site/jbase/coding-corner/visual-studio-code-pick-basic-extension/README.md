@@ -8,7 +8,9 @@ Would you like to update your coding environment and inject some color into your
 
 Visual Studio Code is a free download which has an extension entitled “MV Basic”.
 
-In jBASE Development and Support, we commonly use folders for our BASIC source code and add a “.b” suffix to enable it to be identified.  Use of “jcompile” also mandates the use of the “.b” suffix.  The standard syntax definition for the PickBasic extension has no suffix by default, and also uses “.pick” and .”txt”, but it is easy to add the .b”.
+In jBASE Development and Support, we commonly use folders for our BASIC source code and add a “.b” suffix to enable it to be identified.  Use of the [jcompile](./../../compilation/jcompile/README.md) utility also mandates the use of the “.b” suffix.  
+
+The standard syntax definition for the PickBasic extension has no suffix by default, and also uses “.pick” and .”txt”, but it is easy to add the .b”.
 
 For Windows, Visual Studio Code can be downloaded from this location:
 
@@ -19,9 +21,9 @@ Visual Studio Code also works on Linux, unfortunately it will only install and w
 ## Instructions
 
 - Details of the MV Basic extension can be found [here](https://github.com/mvextensions/mvbasic/blob/master/doc/Extension%20Guide.md)
-- Once Visual Studio Code is installed:
-  - On Windows, navigate to the `C:\Users\<yourname>\.vscode\extensions\mvextensions.mvbasic-2.0.x`
-  - On Linux, navigate to `/home/<yourname>/.vscode/extensions/mvextensions.mvbasic-2.0.x`
+- Once Visual Studio Code and the MV Basic extension are installed:
+  - On Windows, navigate to the `C:\Users\<yourname>\.vscode\extensions\mvextensions.mvbasic-2.x.x`
+  - On Linux, navigate to `/home/<yourname>/.vscode/extensions/mvextensions.mvbasic-2.x.x`
     > Note #1: If you graduate to using the Insiders version of Visual Studio Code the ".vscode" folder becomes ".vscode-insiders"
 - Open the `package.json` file in Visual Studio Code
 - Under the “languages, extensions” tag, set your preferred suffixes:

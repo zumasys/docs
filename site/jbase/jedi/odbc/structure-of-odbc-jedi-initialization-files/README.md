@@ -46,6 +46,12 @@ CSVdir = /dbms/JEDICSV
 default = DSN=MySQL;UID=user;DATABASE=db
 mssql = DSN=MSSQL;UID=sa_new;DATABASE=ds_Portal_prod
 msmatrix = DSN=MSSQL;UID=sa_new;DATABASE=hs_label_matrix
+pgdemo = DSN=PostgreSQL;UID=postgres;DATABASE=demo
+
+[PostgreSQL]
+date = date
+time = time
+timestamp = timestamp
 
 [ODBC_default]
 passwd = expswrd
@@ -54,11 +60,31 @@ passwd = expswrd
 PasswdsEncrypted = 1
 passwd = xiCixHC0SM1UMR5e2zdCq+iU66cPSU30
 
-[ODBC_matrix]
+[ODBC_msmatrix]
 passwd = expswrd
+
+[ODBC_pgdemo]
+passwd = postgres
 ```
 
 ### Note #3
+
+By default **date**, **time** and **timestamp** types all default to *DATETIME*. For databases such as ***PostgreSQL*** you need to create a section keyed by the *DSN* value (see the example above) and specify the data types for:
+
+* date
+* time
+* timestamp
+
+Additional data types are:
+
+* char
+* varchar
+* number
+* decimal
+* text
+
+Where **text** is akin to ***BLOB***.
+### Note #4
 
 Any value, or part thereof, can make use of an environment variable. Environment variables are always in the format of *$variable*, and the / character for the **CSVdir** is the same for both Linux/Unix and Windows.
 

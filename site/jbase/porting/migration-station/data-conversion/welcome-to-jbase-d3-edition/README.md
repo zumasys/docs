@@ -197,7 +197,7 @@ Switching between the three can be accomplished by the use of function keys (F1 
 
 ## BASIC
 
-- The jBASE compiler now supports [case-insensitivity](./../../../../miscellaneous/case-insensitive-overview/README.md). This does not imply that the jBASE compiler will understand every nuance of the D3 BASIC syntax
+- The jBASE compiler now supports [case-insensitivity](./../../../../faq/case-insensitive-overview/README.md). This does not imply that the jBASE compiler will understand every nuance of the D3 BASIC syntax
 - In D3, to execute an operating system command, you needed to precede it with an exclamation mark. With jBASE, that is no longer necessary. By default, the command will be executed using the same shell as your original program, but it is possible to tell jBASE which shell to use as follows:
   - CHAR(255):”k” - Korn shell on UNIX, command shell on Windows.
   - CHAR(255):”c” – C shell (not commonly used), command shell on Windows.

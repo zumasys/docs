@@ -6,7 +6,7 @@ This release includes internal bug fixes and the following patches:
 
 ## Patches
 
-- [PN0730](./pn730/README.md)   - EDELETE without record list clears entire file
+- [PN0730](./pn730/README.md)  - EDELETE without record list clears entire file
 - [PN1053](./pn1053/README.md) - jQL: BY-EXP limiter issue  
 - [PN1061](./pn1061/README.md) - Windows group lock could hang entire system  
 - [PN1065](./pn1065/README.md) - Index created incorrectly  

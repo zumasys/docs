@@ -204,7 +204,9 @@ module.exports = {
               ["/jbase/administration/installation-guides/linux/", "Linux"],
               ["/jbase/administration/installation-guides/windows/", "Windows"],
               ["/jbase/administration/installation-guides/aix/", "AIX"],
-              ["/jbase/administration/installation-guides/upgrading/", "Upgrades"]
+              ["/jbase/administration/installation-guides/upgrading/", "Upgrades"],
+              ["/jbase/administration/installation-guides/licensing/", "Licensing"],
+              ["/jbase/administration/installation-guides/platform-availability/", "Platform Availability"]
             ]
           },
           {
@@ -262,10 +264,10 @@ module.exports = {
             path: "/jbase/fileinfo",
             collapsable: true,
             children: [
-              ["/jbase/miscellaneous/introduction-to-audit-logging/", "Audit Logging"],
+              ["/jbase/faq/introduction-to-audit-logging/", "Audit Logging"],
               ["/jbase/encryption/", "Encryption"],
               ["/jbase/files/", "File Handling"],
-              ["/jbase/miscellaneous/introduction-to-distributed-locking/", "jDLS"],
+              ["/jbase/coding-corner/introduction-to-distributed-locking/", "jDLS"],
               ["/jbase/jrfs/jrfs-quick-start-guide/", "jRFS"],
               ["/jbase/record-locking/", "jBASE Record Locking"],
               ["/jbase/triggers/triggers-overview/", "Triggers"]
@@ -297,7 +299,7 @@ module.exports = {
               ["/mv-connect/api/", "jAgent"],
               ["/jbase/connectivity/jrcs/", "jRCS"],
               ["/jbase/connectivity/ODBC/", "ODBC"],
-              ["/jbase/miscellaneous/jcurl/", "jCurl"]
+              ["/jbase/faq/jcurl/", "jCurl"]
             ]
           },
           {
@@ -305,7 +307,7 @@ module.exports = {
             path: "/jbase/spooler",
             collapsable: true,
             children: [
-              ["/jbase/spooler/jbase-spooler/", "jBASE Spooler"]
+              ["/jbase/spooler/spooler/", "jBASE Spooler"]
             ]
           },
           {
@@ -315,13 +317,14 @@ module.exports = {
             children: [
               ["/jbase/accounts/", "Accounts"],
               ["/jbase/background-processing/", "Background Processing"],
-              ["/jbase/miscellaneous/case-insensitive-overview/", "Case Insensitivty"],
+              ["/jbase/faq/case-insensitive-overview/", "Case Insensitivty"],
               ["/jbase/daemons/", "Daemons"],
               ["/jbase/environment-variables/", "Environment Variables"],
               ["/jbase/internationalization/jbase-internationalization/", "Internationalization"],
-              ["/jbase/miscellaneous/multitenancy/", "Multi-Tenancy"],
-              ["/jbase/miscellaneous/profiles/jbase-profiles/", "Profiles"],
+              ["/jbase/faq/multitenancy/", "Multi-Tenancy"],
+              ["/jbase/faq/profiles/jbase-profiles/", "Profiles"],
               ["/jbase/porting/migration-station/data-conversion/generic-data-conversion/", "Porting"],
+              ["/jbase/administration/printers/","Printers"],
               ["/jbase/terminal/terminal-support/", "Terminals"],
               ["/jbase/tape/tape-commands/", "Tape"],
               ["/jbase/tools-and-utilities/", "Tools and Utilities"]
@@ -333,6 +336,14 @@ module.exports = {
             collapsable: true,
             children: [
               ["/jbase/coding-corner/", "Coding Corner"]
+            ]
+          },
+          {
+            title: "FAQ",
+            path: "/jbase/faq",
+            collapsable: true,
+            children: [
+              ["/jbase/faq/", "Frequently Asked Questions"]
             ]
           },
           {
@@ -352,14 +363,6 @@ module.exports = {
               ["/jbase/release-notes/5.7/", "5.7.x"],
               ["/jbase/release-notes/5.6/", "5.6.x"],
               ["/jbase/release-notes/5.5/5.5.1/", "5.5.x"]
-            ]
-          },
-          {
-            title: "Troubleshooting",
-            path: "/jbase/troubleshooting",
-            collapsable: true,
-            children: [
-              ["/jbase/troubleshooting/linux-printers/", "Linux Printers"]
             ]
           },
           {

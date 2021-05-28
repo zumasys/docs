@@ -16,5 +16,4 @@ REST-SPOOLER
 
 Back to [Spooler](./../jbase-spooler).
 
-  
 <PageFooter />

@@ -53,7 +53,6 @@
 | [Encryption](./encryption/README.md) | Encryption Topics |
 | [FAQ](./faq/README.md) | Frequently Asked Questions (and some not so frequently) |
 | [jEDI](./jedi/README.md) | jBASE jEDI Drivers |
-| [Miscellaneous](./miscellaneous/README.md) | Miscellaneous Subjects |
 | [Reference Guides](./reference-guides/README.md) | Table Layout |
 | [Release Notes](./release-notes/README.md) | jBASE Release Notes |
 

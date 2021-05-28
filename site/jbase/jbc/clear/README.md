@@ -1,6 +1,6 @@
 # CLEAR
 
-<PageHeader /> 
+<PageHeader />
 
 ## Description
 
@@ -18,9 +18,16 @@ Var2 = 50
 CLEAR
 ```
 
-The above code will clear the variables to zero
+The above code will clear the variables to zero.
 
-Note this does not affect COM{MON}. See [CLEARCOMMON](./../clearcommon "jBC CLEARCOMMON")
+This does not affect COM{MON}, unless the `clear_will_clear_common` emulation option is set.  
+With this emulation option in place, only normal un-named COMMON will be cleared. It will not clear named common.
+
+See also [CLEARCOMMON](./../clearcommon "jBC CLEARCOMMON")
+
+## Note
+
+>`clear_will_clear_common` is set by default in "d3" emulation.
 
 Go back to [jBASE BASIC](./../README.md)
 

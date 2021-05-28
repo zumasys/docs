@@ -21,7 +21,7 @@ Due to the technical nature of this document, prerequisite knowledge of the foll
 - jBASE and concepts of MultiValue databases
 - Concepts of at least one *RDBMS*
 
-If additional knowledge of jBASE is needed, please review the [Introduction to jBASE](./../../../miscellaneous/jbase-fundamentals/README.md) documentation for information on commands and utilities used in this walk-through.
+If additional knowledge of jBASE is needed, please review the [Introduction to jBASE](./../../../faq/jbase-fundamentals/README.md) documentation for information on commands and utilities used in this walk-through.
 
 Additionally, in order to properly perform the steps listed in the installation and configuration sections of this document, you will need a licensed system running jBASE 5.6 or greater. If you do not yet have a valid licensed jBASE system, please contact Zumasys licensing to obtain the components needed to construct one.
 

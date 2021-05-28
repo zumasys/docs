@@ -111,9 +111,8 @@ PORT-DESPOOL (X)
 
 ## Note #2
 >
-> When issuing a **PORT-DESPOOL** command under BASIC control, issuing  ‘capture’ output will not allow the job to be despooled.
+> When executing a **PORT-DESPOOL** command under BASIC control, issuing  ‘capture’ output will not allow the job to be despooled.
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-[Audit Logging](./../miscellaneous/introduction-to-audit-logging/README.md)  
+[Audit Logging](./../faq/introduction-to-audit-logging/README.md)  
 [Encryption](./../encryption/README.md)  
 [File Handling](./../files/README.md)  
 [jEDI -> MongoDB](./../jedi/mongodb/mongodb-jedi-driver/README.md)  
