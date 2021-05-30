@@ -49,17 +49,14 @@ Spooler information can also be obtained directly using the following jspstatus 
 
 ## Note
 
->Any action that creates a new form queue or changes an exististing form queue updates a script that can be used to regenerated the spooler configuration.
->
->The script is stored under the [jspooler](../sp-newtab/README.md) directory.
->
->The name of the script is `create-form-queues` on Linux/AIX and `create-form-queues.bat` on Windows.
->
->The script does not set any [spooler security](../sp-security/README.md) settings.
->
->The script can be edited to ensure that the spooler queues are created as desired.
->
->The script can be generated manually with the [sp-fqscript](../sp-fqscript/README.md) command.
+>As of jBASE 5.8.2, any action that creates a new form queue or changes an existing form queue, updates a script that can be used to regenerated the spooler configuration.
+>   
+>The name of the script is `create-form-queues` on Linux/AIX and `create-form-queues.bat` on Windows and is stored under the [jspooler](../sp-newtab/README.md) directory.
+>  
+>The script:
+>* does not set any [spooler security](../sp-security/README.md) settings.  
+>* can be edited to ensure that the spooler queues are created as desired. 
+>* can be generated manually with the [sp-fqscript](../sp-fqscript/README.md) command.
 
 Back to [Spooler](./../jbase-spooler).
 
