@@ -36,7 +36,7 @@
 | [SP-EJECT](./sp-eject/README.md)                       | Creates a print job containing form feeds.                                 |
 | [SP-FORM](./sp-form/README.md)                         | Renames an existing formqueue.                                             |
 | [SP-FQDELETE](./sp-fqdelete/README.md)                 | Deletes a formqueue.                                                       |
-| [SP-FQSCRIPT](./sp-fqscript/README.md)                 | Creates a script to rebuild spooler form queue.                            |
+| [SP-FQSCRIPT](./sp-fqscript/README.md)                 | Creates a script to rebuild spooler form queues.                           |
 | [SP-JOBS](./sp-jobs/README.md)                         | Manipulates and displays status of print jobs.                             |
 | [SP-KILL](./sp-kill/README.md)                         | Stops despooling of the current print job.                                 |
 | [SP-LIST](./sp-list/README.md)                         | List the spooler configuration.                                            |
@@ -49,9 +49,9 @@
 | [SP-PURGEQ](./sp-purgeq/README.md)                     | Purges a formqueue of a print jobs.                                        |
 | [SP-RESUME](./sp-resume/README.md)                     | Resumes despooling from a formqueue.                                       |
 | [SP-SECURITY](./sp-security/README.md)                 | Invokes the spooler security menu.                                         |
-| [SP-SECUIRY-JOBS](./sp-security-jobs/README.md)        | Modifies the security status of print jobs.                                |
+| [SP-SECURITY-JOBS](./sp-security-jobs/README.md)       | Modifies the security status of print jobs.                                |
 | [SP-SECURITY-OWNER](./sp-security-owner/README.md)     | Defines alternate owners of the spooler.                                   |
-| [SP-SECUIRY-QUEUE](./sp-security-queue/README.md)      | Modifies the security state of a formqueue.                                |
+| [SP-SECURITY-QUEUE](./sp-security-queue/README.md)     | Modifies the security state of a formqueue.                                |
 | [SP-SHUTDOWN](./sp-shutdown/README.md)                 | Shuts down all the jBASE printer daemons.                                  |
 | [SP-SKIP](./sp-skip/README.md)                         | Changes the number of blank pages to eject at the end of each print job.   |
 | [SP-STATUS](./sp-status/README.md)                     | Invokes the SP-STATUS menu.                                                |
