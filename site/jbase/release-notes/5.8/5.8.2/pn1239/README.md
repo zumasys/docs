@@ -4,7 +4,7 @@
 
 ## Description
 
-With the `null_eq_zero = true` emaulation setting, a jQL query will match on `0` whereas jSQL will not.
+With the `null_eq_zero = true` emulation setting, a jQL query will match on `0` whereas jSQL will not.
 
 ## Previous Release Behavior
 
