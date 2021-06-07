@@ -17,7 +17,7 @@ make-demo-file testfile 10 jd
 Null out attribute 15 in one record.
 
 ```
-SQLSELECT BIRTHDATE FROM mdf WHERE BIRTHDATE <> '0'
+SQLSELECT BIRTHDATE FROM testfile WHERE BIRTHDATE <> '0'
 ```
 
 Returns 10 rows
@@ -28,7 +28,7 @@ Returns 9 rows.
 
 ## Notes
 
-Dictionary must be either right justified or an extended dictionary set to a numeric.
+Dictionary must be either right justified or an extended dictionary set to numeric.
 
 Back to [5.8.2 Release Notes](./../README.md)
   
