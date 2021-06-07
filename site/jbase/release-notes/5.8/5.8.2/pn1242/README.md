@@ -4,7 +4,7 @@
 
 ## Description
 
-jQL: F-correlative with Repeat operator causes sementation error in ROS emulation
+jQL: F-correlative with Repeat operator causes segmentation error in ROS emulation
 
 ## Previous Release Behavior
 

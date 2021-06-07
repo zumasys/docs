@@ -4,7 +4,7 @@
 
 ## Description
 
-With `null_eq_zero = true`, a jQL query will match on `0` whereas jSQL will not.
+With the `null_eq_zero = true` emaulation setting, a jQL query will match on `0` whereas jSQL will not.
 
 ## Previous Release Behavior
 
@@ -28,7 +28,7 @@ Returns 9 rows.
 
 ## Notes
 
-Dictionary must be either right justified or extended dictionary set to a numeric.
+Dictionary must be either right justified or an extended dictionary set to a numeric.
 
 Back to [5.8.2 Release Notes](./../README.md)
   
