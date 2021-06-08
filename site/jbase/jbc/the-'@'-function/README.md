@@ -73,6 +73,7 @@ Other @ codes include:
 | @FALSE | 0 |
 | @FF | Form feed character for printing |
 | @FILENAME | Used in I-type dictionaries |
+| @FILEVAR | File variable (i.e. used in an I-type subroutine) |
 | @FM | see @AM |
 | @ID | Used in I-type dictionaries |
 | @IM | CHAR(255) |
