@@ -14,6 +14,16 @@ This release includes internal bug fixes and the following enhancements and patc
 - [PN1242](./pn1242/README.md) - jQL: F-correlative with Repeat operator causes segmentation error in ROS emulation
 - [PN1251](./pn1251/README.md) - jQL: Scanning a file can cause a segmentation error  
 
+## New @variables
+
+The following @variables have been implemented:
+
+[@FILEVAR](./../../../jbc/@variables/#filevar)  
+[@USER1](./../../../jbc/@variables/#user1)  
+[@USER2](./../../../jbc/@variables/#user2)  
+[@USER3](./../../../jbc/@variables/#user3)  
+[@USER4](./../../../jbc/@variables/#user4)  
+
 ## Note
 
 >New dictionary items `MOD.DATE` and `MOD.TIME` have been added to display the date/time a record was modified.  
