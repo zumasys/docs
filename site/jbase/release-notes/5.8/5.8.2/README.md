@@ -14,7 +14,10 @@ This release includes internal bug fixes and the following enhancements and patc
 - [PN1242](./pn1242/README.md) - jQL: F-correlative with Repeat operator causes segmentation error in ROS emulation
 - [PN1251](./pn1251/README.md) - jQL: Scanning a file can cause a segmentation error  
 
->Note: New dictionary items `MOD.DATE` and `MOD.TIME` have been added. Use [UpdateMD](../../../../jbase/accounts/the-md-and-voc-file/README.md) to update your local MD/VOC files.
+## Note
+
+>New dictionary items `MOD.DATE` and `MOD.TIME` have been added to display the date/time a record was modified.  
+>Use [UpdateMD](../../../../jbase/accounts/the-md-and-voc-file/README.md) to update your local MD/VOC files.
 
 [Back to 5.8.x Release Notes](./../README.md)
   

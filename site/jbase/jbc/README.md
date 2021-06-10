@@ -4,7 +4,9 @@
 
 ## Topics
 
+[@functions](./@functions/README.md)  
 [@unassigned](./@unassigned/README.md)  
+[@variables](./@variables/README.md)  
 [abort](./abort/README.md)  
 [abs](./abs/README.md)  
 [abss](./abss/README.md)  
@@ -299,7 +301,6 @@
 [swap](./swap/README.md)  
 [system-functions](./system-functions/README.md)  
 [tan](./tan/README.md)  
-[the-'@'-function](./the-'@'-function/README.md)  
 [time](./time/README.md)  
 [timedate](./timedate/README.md)  
 [timediff](./timediff/README.md)  
