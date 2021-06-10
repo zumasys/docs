@@ -6,6 +6,9 @@
 
 **$iterator** is a constructor for the Iterator class. When an object of this type is created, it allows you to iterate (loop) through all keys and values in an object or array.
 
+Note: jBASE jabba also support a FOR interator that can be used to interate a variety of objects and arrays.  You can read more about the FOR interator here: https://docs.zumasys.com/jbase/jbc/for-iterator/
+
+
 ## Examples
 
 Iterate through an array:
