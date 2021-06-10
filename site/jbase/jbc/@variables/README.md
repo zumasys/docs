@@ -4,6 +4,7 @@
 
 **Tags:**
 <badge text='@variable' vertical='middle' />
+<badge text='pwd' vertical='middle' />
 <badge text='@' vertical='middle' />
 
 ## @variables used in BASIC and I-type dictionary items
@@ -51,7 +52,7 @@
 ### @EOF
 
 - Read-only
-- End-of-file marker
+- End-of-file marker - CHAR(04)
 
 ### @ESC
 
@@ -81,7 +82,7 @@
 ### @FM
 
 - Read-only
-- File Mark [see @AM](#am)
+- File Mark - [see @AM](#am)
 
 ### @ID
 
