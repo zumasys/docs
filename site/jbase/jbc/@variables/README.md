@@ -3,7 +3,6 @@
 <PageHeader />
 
 **Tags:**
-<badge text='pwd' vertical='middle' />
 <badge text='@variable' vertical='middle' />
 <badge text='@' vertical='middle' />
 
