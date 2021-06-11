@@ -213,6 +213,11 @@
 - Read-only
 - Operating system login name
 
+### @USER0
+
+- Read-write
+- User defined
+
 ### @USER1
 
 - Read-write
