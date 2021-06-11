@@ -19,6 +19,7 @@ This release includes internal bug fixes and the following enhancements and patc
 The following @variables have been implemented:
 
 [@FILEVAR](./../../../jbc/@variables/#filevar)  
+[@USER0](./../../../jbc/@variables/#user0)  
 [@USER1](./../../../jbc/@variables/#user1)  
 [@USER2](./../../../jbc/@variables/#user2)  
 [@USER3](./../../../jbc/@variables/#user3)  
