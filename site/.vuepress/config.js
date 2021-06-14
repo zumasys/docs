@@ -193,7 +193,8 @@ module.exports = {
             collapsable: true,
             children: [
               ["/jbase/overview/", "Overview"],
-              ["/jbase/fundamentals/", "jBASE Fundamentals"]
+              ["/jbase/fundamentals/", "jBASE Fundamentals"],
+              ["/jbase/cheat-sheets/", "jBASE Cheat Sheets"]
             ]
           },
           {
