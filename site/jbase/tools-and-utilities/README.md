@@ -45,7 +45,7 @@
 | [JRESTORE](./jrestore/README.md) | Provides fast on-line restores from the saves produced by the jbackup utility. |
 | [JRM JMV JDIR](./jrm-jmv-jdir/README.md) | Remove, move, dir executables. |
 | [JSETKEY](./jsetkey-for-jbase-3-only/README.md) | jBASE environment settings (**jBASE 3 only**). |
-| [JSHOW](./../jshow) | Displays locations of files, programs and subroutines. |
+| [JSHOW](./jshow/README.md) | Displays locations of files, programs and subroutines. |
 | [JSTART](./../../background--processing/jstart) | Start processes. |
 | [JSONLINT](./jsonlint/README.md) | Validates a JSON file. |
 | [JTIC](./jtic/README.md) | jBASE terminfo compiler. |
