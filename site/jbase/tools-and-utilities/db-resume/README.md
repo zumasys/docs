@@ -22,6 +22,8 @@ where the **-n** option specifies the database to resume (This option is only av
 
 > This utility is only available in jBASE 4.1 and later.
 
+See also [DB-PAUSE](./../db-pause/README.md)
+
 Back to [Tools and Utilities](./../README.md)
 
 <PageFooter />

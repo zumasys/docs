@@ -40,6 +40,8 @@ Transactions will be blocked immediately.
 
 > This utility is only available in jBASE 4.1 and later.
 
+See also [DB-RESUME](./../db-resume/README.md)
+
 Back to [Tools and Utilities](./../README.md)
 
 <PageFooter />
