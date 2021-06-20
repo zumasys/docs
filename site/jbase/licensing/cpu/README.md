@@ -5,8 +5,6 @@
 **Tags:**
 <badge text='5.8+' vertical='middle' />
 
-## Preliminary  
-
 A new licensing model has been introduced with release 5.8 of jBASE and this document serves to describe it. The old model will be retained for the forseeable future, though a timeline for deprecation will be set.
 
 The following licensing subscriptions are supported in jBASE from release 5.8 and beyond:
@@ -36,7 +34,9 @@ Set environment variable JBASE_DISABLE_DEVELOPER_LICENSE_WARNING to remove this 
 
 ## The New jlicense Command
 
-In the old model there were a number of licensing programs, but for the new license there is a single licensing program that covers everything. Run `jlicense --help` to see what is available.
+In the old model there were a number of licensing programs, but for the new license there is a single licensing program that covers everything.  
+
+Run `jlicense --help` to see what is available.
 
 > [The jlicense command](./../jlicense/README.md)
 
