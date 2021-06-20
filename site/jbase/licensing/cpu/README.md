@@ -215,4 +215,8 @@ JLibLicenseConsume(dp);             // Start consuming a jBASE license
 
 If you have any concerns about this, or need help with the interfaces, please contact jBASE/Zumasys support.
 
+Back to [Installation Guides: Licensing](./../../administration/installation-guides/licensing/README.md)
+
+Back to [jBASE Licensing Overview](./../README.md)
+
 <PageFooter />

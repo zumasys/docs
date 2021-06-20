@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-**jlicenseupdate** is a new utility to allow conventional jBASE 5.8 licenses to be installed or updated.
+**jlicenseupdate** is a new utility to allow conventional jBASE licenses to be installed or updated on jBASE 5.8 and above until such time as this form of licensing is deprecated.
 
 ## Syntax
 
