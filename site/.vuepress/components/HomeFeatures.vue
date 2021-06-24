@@ -19,10 +19,10 @@
         <a href="/jbase/dynamic-objects/">Dynamic Objects</a><br />
         <a href="/jbase/compilation/single-object-build/">Single Object Build</a><br />
         <a href="/jbase/spooler/jbase-spooler/">jBASE spooler</a><br />
-        <a href="/assets/downloads/D3_on_jBASE_Cheatsheet.pdf" target="_blank">Cheat Sheet: D3 on jBASE</a><br />
-        <a href="/assets/downloads/UniVerse_on_jBASE_Cheatsheet.pdf" target="_blank">Cheat Sheet: UniVerse on jBASE</a><br />
-        <a href="/assets/downloads/Dynamic_Objects_Cheat_Sheet.pdf" target="_blank">Cheat Sheet: Dynamic Objects</a><br />
-        <a href="/assets/downloads/Dynamic_Objects_Try_Catch_Cheat_Sheet.pdf" target="_blank">Cheat Sheet: Dynamic Objects try/catch</a><br />
+        <a href="/assets/downloads/D3_on_jBASE_Cheatsheet.pdf" download>Cheat Sheet: D3 on jBASE</a><br />
+        <a href="/assets/downloads/UniVerse_on_jBASE_Cheatsheet.pdf" download>Cheat Sheet: UniVerse on jBASE</a><br />
+        <a href="/assets/downloads/Dynamic_Objects_Cheat_Sheet.pdf" download>Cheat Sheet: Dynamic Objects</a><br />
+        <a href="/assets/downloads/Dynamic_Objects_Try_Catch_Cheat_Sheet.pdf" download>Cheat Sheet: Dynamic Objects try/catch</a><br />
         <a href="/jbase/">All Docs</a><br /></p>
     </div>
     <div class="feature">

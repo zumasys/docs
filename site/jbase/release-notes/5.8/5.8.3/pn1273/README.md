@@ -14,7 +14,7 @@ Mechanism not available
 
 ## Current Release Behavior
 
-You can now defer an open in a couple of ways.  
+You can now defer a file open in a couple of ways.  
 
 Note that when enabled, the OPEN will NEVER take the ELSE clause.  
 
