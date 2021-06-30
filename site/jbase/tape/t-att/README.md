@@ -26,6 +26,7 @@ to attach a file or pipe, where:
 - **deviceid** is the device identifier, specified as a file in the device release directory /opt/jbase/CurrentVersion/dev (UNIX) or C:\jBASE\CurrentVersion\dev (Windows). Typically the deviceid would be SCT0, Streaming Cartridge Tape, or FILE0, UNIX file device. The deviceid file defines the media type, e.g. floppy disk or 8mm, and default device information, e.g. blocksize.
  
 ## Note
+
 It is important to understand how a device is defined in jBASE because this can impact the behavior of other commands such as T-ATT or ACCOUNT-RESTORE.  Failing to use a properly defined device can lead to various, confusing errors with these commands.  For more information about device definition in jBASE, see https://docs.zumasys.com/jbase/tape/tape/#tape
 
 ```
