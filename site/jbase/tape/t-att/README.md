@@ -27,8 +27,8 @@ to attach a file or pipe, where:
  
 ## Note
 It is important to understand how a device is defined in jBASE because this can impact the behavior of other commands such as T-ATT or ACCOUNT-RESTORE.  Failing to use a properly defined device can lead to various, confusing errors with these commands.  For more information about device definition in jBASE, see https://docs.zumasys.com/jbase/tape/tape/#tape
-```
 
+```
 - **devicepathname** is the path name of the file or pipe to use for I/O. The devicepathname mandatory if the deviceid defines a device type of file or pipe.
 - **size** is the required block size in bytes. The block size can be any value between 512 and 65535. The usual default is 8192. The block size will be resized if the tape label defines a size different to the current attachment, when reading from the tape device. Care should be taken when reading unlabelled tapes to ensure that the correct block size is specified at attachment otherwise blocks can be truncated or filemarks detected prematurely. On some tape devices I/O errors can be reported if the block size is incorrect.
 - **label-type**is the type of tape label to be used when writing to the tape. Label-type can be:  
