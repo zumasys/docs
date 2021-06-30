@@ -35,7 +35,7 @@ Some ACCOUNT-SAVE tapes provide two or more tape files before the account data p
 
 ## Note
 
->In the examples below, you'll see the use the T-ATT command with a device id of FILE1 or SCT0.  These device ids are defined in the jBASE device definition file in jBASE, see https://docs.zumasys.com/jbase/tape/tape/#tape.  It is vital that the correct device with the correct definition be used when attaching the device for your ACCOUNT-RESTORE operation.  Using even a slightly incorrect device definition can alter the format of the media being read from the device and may cause confusing errors and failure of the ACCOUNT-RESTORE process.  Specifically, errors involving the restore processes inability to read a header can be the result of an improper device id specification on your T-ATT directive. Do not assume that the device id used in the examples below are correct for your use case.
+>In the examples below, you'll see the use the T-ATT command with a device id of FILE1 or SCT0.  These device ids are defined in the jBASE device definition file in jBASE, see https://docs.zumasys.com/jbase/tape/tape/#tape.  It is vital that the correct device with the correct definition be used when attaching the device for your ACCOUNT-RESTORE operation.  Using even a slightly incorrect device definition can alter the format of the media being read from the device and may cause confusing errors and failure of the ACCOUNT-RESTORE process.  Specifically, errors involving the inability to properly read a header can be the result of an improper device id specification on your T-ATT directive. Do not assume that the device id used in the examples below are correct for your use case.
 
 
 
