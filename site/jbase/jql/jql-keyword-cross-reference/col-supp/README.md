@@ -12,11 +12,13 @@ COL-SUPP
 
 ## Example  
 
-When the command:
+When this command:
 
 ```
 LIST ORDERS AVG PRICE QTY CALC ILINE_TOTAL SAMPLE 5
 ```
+
+produces:  
 
 ```
 ORDERS....    PRICE.....    Qty    Line Total
