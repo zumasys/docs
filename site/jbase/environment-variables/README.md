@@ -97,6 +97,7 @@ All jBASE programs execute in the same process unless explicitly executed via th
 | JBCRESTARTPROG | set to command to be executed after off (Linux/AIX) |
 | [JBCOBJECTLIST](./jbcobjectlist/README.md) | set to alternate path(s) for user subroutine libraries<br>Windows - %HOME%\lib<br>UNIX - $HOME/lib |
 | [JBC\_BLOCK\_SYSTEM14](./jbc_block_system14/README.md) | set to 1 to force a 100 millisecond delay on SYSTEM(14) calls. |
+| [JBCCALLDEPTH](./jbccalldepth/README.md) | Set the stack size for a CALL |
 
 ### Development
 
