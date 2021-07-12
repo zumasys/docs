@@ -42,7 +42,7 @@
 | [JIMI](./jimi/README.md) | jBASE Independent Metrics Integration. |
 | [JKEYAUTO](./jkeyauto/jkeyauto/README.md) | Program control language. |
 | [JMSGBOX](./jmsgbox/README.md) | Message box display utility for Windows. |
-| [JPROF](./jbase/tools-and-utilities/jprof/#jprof) | enables developers to analyze applications to determine potential bottlenecks or trouble spots within the application code. |
+| [JPROF](./jprof/README.md) | Enables developers to analyze applications to determine potential bottlenecks or trouble spots within the application code. |
 | [JRESTORE](./jrestore/README.md) | Provides fast on-line restores from the saves produced by the jbackup utility. |
 | [JRM JMV JDIR](./jrm-jmv-jdir/README.md) | Remove, move, dir executables. |
 | [JSETKEY](./jsetkey-for-jbase-3-only/README.md) | jBASE environment settings (**jBASE 3 only**). |
