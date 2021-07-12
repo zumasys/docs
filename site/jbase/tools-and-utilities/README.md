@@ -79,7 +79,7 @@
 | [ASCII CODE CHART](./ascii-code-chart/README.md) | ASCII Code Chart. |
 | [CUSTOMIZING COMMANDS](././customizing-the-output-of-commands/README.md) | Customizing the Output of Commands. |
 | [ENCRYPTION](./../encryption/jbase-encryption-database-security/README.md) | File encryption and decryption. |
-| [JCOVER OUTPUT FILE](./layout-of-the-jcover-output-file/README.md) | Layour of the JCOVER output file |  
+| [JCOVER OUTPUT FILE](./layout-of-the-jcover-output-file/README.md) | Layout of the JCOVER output file |  
 
 [Back to Reference Guides](../README.md)
 
