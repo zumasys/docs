@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-# Package com.jbase.jremote.jca.spring
+## Package com.jbase.jremote.jca.spring
 
 | Class | Description |
 | --- | --- |
@@ -10,9 +10,6 @@
 | [JConnectionFactoryUtils](./../jconnectionfactoryutils-(jremote-api) "class in com.jbase.jremote.jca.spring") | <br>Helper class that provides static methods for obtaining JRemote Connections from a [`JConnectionFactory`](./../../../jconnectionfactory-(jremote-api) "interface in com.jbase.jremote").<br> |
 | [JRemoteLocalTransactionManager](./../jremotelocaltransactionmanager-(jremote-api) "class in com.jbase.jremote.jca.spring") |   |
 
-Back to [jRemote API](../../../../jremote-api/README.md)
+Back to [jRemote API](./../../README.md)
 
-
-
-  
 <PageFooter />

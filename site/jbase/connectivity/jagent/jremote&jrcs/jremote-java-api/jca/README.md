@@ -16,5 +16,6 @@
 [wrappedjconnection-(jremote-api)](./wrappedjconnection-(jremote-api))  
 [wrappedjfile-(jremote-api)](./wrappedjfile-(jremote-api))  
 
-  
+Back to [jRemote API](./../../README.md)
+
 <PageFooter />

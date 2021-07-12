@@ -61,5 +61,6 @@
 [xastarttransactionrequest-(jremote-api)](./xastarttransactionrequest-(jremote-api))  
 [xaxid-(jremote-api)](./xaxid-(jremote-api))  
 
+Back to [jRemote API](./../../README.md)
   
 <PageFooter />

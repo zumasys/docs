@@ -12,6 +12,6 @@
 [jremotelocaltransactionmanager-(jremote-api)](./jremotelocaltransactionmanager-(jremote-api))  
 [uses-of-package-com.jbase.jremote.jca.spring-(jremote-api)](./uses-of-package-com.jbase.jremote.jca.spring-(jremote-api))  
 
-
+Back to [jRemote API](./../../README.md)
   
 <PageFooter />

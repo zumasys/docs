@@ -8,8 +8,7 @@
 [JConnectionFactory](./../../jconnectionfactory-(jremote-api) "interface in com.jbase.jremote"), Serializable, Referenceable
 * * *
 
-
-```
+```java
 public class JRemoteConnectionFactoryImpl
 extends Object
 implements javax.resource.Referenceable, Serializable, JConnectionFactory
@@ -23,16 +22,13 @@ When used in a managed environment it is expected that this factory will be cons
 
 The non managed environment will use a default ConnectionManager that offers little or no support for connection pooling.
 
-
-
 ### Constructor Summary
 
-
-| Constructor and Description<br> |
+| Constructor and Description |
 | --- |
-| `JRemoteConnectionFactoryImpl()`<br>Construct a connection factory for use in a non managed environment using the default connection manager.<br> |
-| `JRemoteConnectionFactoryImpl(javax.resource.spi.ManagedConnectionFactory mcf)`<br>Construct a connection factory for use in a non managed environment using the default connection manager.<br> |
-| `JRemoteConnectionFactoryImpl(javax.resource.spi.ManagedConnectionFactory mcf, javax.resource.spi.ConnectionManager cm)`<br>Constructor for managed connection factory.<br> |
+| `JRemoteConnectionFactoryImpl()`<br>Construct a connection factory for use in a non managed environment using the default connection manager. |
+| `JRemoteConnectionFactoryImpl(javax.resource.spi.ManagedConnectionFactory mcf)`<br>Construct a connection factory for use in a non managed environment using the default connection manager. |
+| `JRemoteConnectionFactoryImpl(javax.resource.spi.ManagedConnectionFactory mcf, javax.resource.spi.ConnectionManager cm)`<br>Constructor for managed connection factory. |
 
 
 
@@ -42,36 +38,34 @@ The non managed environment will use a default ConnectionManager that offers lit
 ### Method Summary
 
 
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
-| `JConnection`<br> | `getConnection()`<br>Get a connection to a remote jBASE instance.<br> |
-| `JConnection`<br> | `getConnection(JConnectionCallbackHandler handler)`<br>Get a connection to a remote jBASE instance, in a managed environment the callback handler provides ancillary connection initialisation.<br> |
-| `JConnection`<br> | `getConnection(String user, String password)`<br>Get a connection to a remote jBASE instance.<br> |
-| `JConnection`<br> | `getConnection(String user, String password, Properties props)`<br>Get a connection to a remote jBASE instance.<br> |
-| `JConnection`<br> | `getConnection(String user, String account, String password)`<br>Get a connection to a remote jBASE account.<br> |
-| `protected JConnection`<br> | `getConnection(String user, String account, String password, JConnectionCallbackHandler handler)` <br> |
-| `Reference`<br> | `getReference()` <br> |
-| `void`<br> | `setReference(Reference reference)` <br> |
-
+| `JConnection` | `getConnection()`<br>Get a connection to a remote jBASE instance. |
+| `JConnection` | `getConnection(JConnectionCallbackHandler handler)`<br>Get a connection to a remote jBASE instance, in a managed environment the callback handler provides ancillary connection initialisation. |
+| `JConnection` | `getConnection(String user, String password)`<br>Get a connection to a remote jBASE instance. |
+| `JConnection` | `getConnection(String user, String password, Properties props)`<br>Get a connection to a remote jBASE instance. |
+| `JConnection` | `getConnection(String user, String account, String password)`<br>Get a connection to a remote jBASE account. |
+| `protected JConnection` | `getConnection(String user, String account, String password, JConnectionCallbackHandler handler)`  |
+| `Reference` | `getReference()`  |
+| `void` | `setReference(Reference reference)`  |
 
 - Methods inherited from class java.lang.Object
-    - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+  - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
 ### Constructor Detail
 
 #### JRemoteConnectionFactoryImpl
 
-```
+```java
 public JRemoteConnectionFactoryImpl()
 ```
 
 Construct a connection factory for use in a non managed environment using the default connection manager.
 See Also:[`DefaultConnectionManager`](./../defaultconnectionmanager-(jremote-api) "class in com.jbase.jremote.jca")
 
-
 #### JRemoteConnectionFactoryImpl
 
-```
+```java
 public JRemoteConnectionFactoryImpl(javax.resource.spi.ManagedConnectionFactory mcf)
 ```
 
@@ -80,22 +74,18 @@ See Also:[`DefaultConnectionManager`](./../defaultconnectionmanager-(jremote-api
 
 #### JRemoteConnectionFactoryImpl
 
-```
+```java
 public JRemoteConnectionFactoryImpl(javax.resource.spi.ManagedConnectionFactory mcf,
                                     javax.resource.spi.ConnectionManager cm)
 ```
 
 Constructor for managed connection factory. The application server will use this constructor and supply a configured ManagedConnectionFactory and ConnectionManager. This class will hook into the application server connection pool via the supplied ConnectionManager.
 
-
-
 ### Method Detail
-
-
 
 #### getConnection
 
-```
+```java
 public JConnection getConnection()
                           throws JRemoteException
 ```
@@ -103,12 +93,12 @@ public JConnection getConnection()
 Description copied from interface: `JConnectionFactory`
 
 Get a connection to a remote jBASE instance.
-Specified by:`getConnection` in interface `JConnectionFactory`Returns:JConnection The connectionThrows:`JRemoteException`
-
+Specified by:`getConnection` in interface `JConnectionFactory`  
+Returns:JConnection The connectionThrows:`JRemoteException`
 
 #### getConnection
 
-```
+```java
 public JConnection getConnection(String user,
                                  String password)
                           throws JRemoteException
@@ -117,12 +107,12 @@ public JConnection getConnection(String user,
 Description copied from interface: `JConnectionFactory`
 
 Get a connection to a remote jBASE instance.
-Specified by:`getConnection` in interface `JConnectionFactory`Returns:JConnection The connectionThrows:`JRemoteException`
-
+Specified by:`getConnection` in interface `JConnectionFactory`  
+Returns:JConnection The connectionThrows:`JRemoteException`
 
 #### getConnection
 
-```
+```java
 public JConnection getConnection(String user,
                                  String password,
                                  Properties props)
@@ -132,11 +122,12 @@ public JConnection getConnection(String user,
 Description copied from interface: `JConnectionFactory`
 
 Get a connection to a remote jBASE instance.
-Specified by:`getConnection` in interface `JConnectionFactory`Returns:JConnection The connectionThrows:`JRemoteException`
+Specified by:`getConnection` in interface `JConnectionFactory`  
+Returns:JConnection The connectionThrows:`JRemoteException`
 
 #### getConnection
 
-```
+```java
 public JConnection getConnection(String user,
                                  String account,
                                  String password)
@@ -146,13 +137,12 @@ public JConnection getConnection(String user,
 Description copied from interface: `JConnectionFactory`
 
 Get a connection to a remote jBASE account.
-Specified by:`getConnection` in interface `JConnectionFactory`Returns:JConnection The connectionThrows:`JRemoteException`
-
-
+Specified by:`getConnection` in interface `JConnectionFactory`  
+Returns:JConnection The connectionThrows:`JRemoteException`
 
 #### getConnection
 
-```
+```java
 public JConnection getConnection(JConnectionCallbackHandler handler)
                           throws JRemoteException
 ```
@@ -160,40 +150,40 @@ public JConnection getConnection(JConnectionCallbackHandler handler)
 Description copied from interface: `JConnectionFactory`
 
 Get a connection to a remote jBASE instance, in a managed environment the callback handler provides ancillary connection initialisation.
-Specified by:`getConnection` in interface `JConnectionFactory`Returns:JConnection The connectionThrows:`JRemoteException`
-
-
+Specified by:`getConnection` in interface `JConnectionFactory`  
+Returns:JConnection The connectionThrows:`JRemoteException`
 
 #### getConnection
 
-```
+```java
 protected JConnection getConnection(String user,
                                     String account,
                                     String password,
                                     JConnectionCallbackHandler handler)
                              throws JRemoteException
 ```
+
 Throws:`JRemoteException`
 
 #### setReference
 
-```
+```java
 public void setReference(Reference reference)
 ```
+
 See Also:`Referenceable.setReference(Reference)`
 
 #### getReference
 
-```
+```java
 public Reference getReference()
                        throws NamingException
 ```
-Specified by:`getReference` in interface `Referenceable`Throws:`NamingException`See Also:`Referenceable.getReference()`
 
+Specified by:`getReference` in interface `Referenceable`  
+Throws:`NamingException`  
+See Also:`Referenceable.getReference()`
 
-Back to [jRemote API](../../../../jremote-api/README.md)
-
-
-
+Back to [jRemote API](./../../README.md)
   
 <PageFooter />

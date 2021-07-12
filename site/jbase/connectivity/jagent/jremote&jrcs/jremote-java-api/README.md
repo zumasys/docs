@@ -33,6 +33,4 @@
 [protocol](./protocol)  
 [uses-of-package-com.jbase.jremote](./uses-of-package-com.jbase.jremote)  
 
-
-  
 <PageFooter />

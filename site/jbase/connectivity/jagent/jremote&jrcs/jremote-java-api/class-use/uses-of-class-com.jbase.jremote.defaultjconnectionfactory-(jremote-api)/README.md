@@ -3,10 +3,11 @@
 <PageHeader />
 
 ## Uses of Class
+
 com.jbase.jremote.DefaultJConnectionFactory
 
 No usage of com.jbase.jremote.DefaultJConnectionFactory
 
-Return to [jRemote API](../../../../jremote-api/README.md)
+Back to [jRemote API](./../../README.md)
   
 <PageFooter />
