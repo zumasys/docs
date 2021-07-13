@@ -4,7 +4,7 @@
 
 ## Description
 
-Set the stack size for a CALL
+Set the maximum number of subroutine CALL levels.
 
 ## Values
 
