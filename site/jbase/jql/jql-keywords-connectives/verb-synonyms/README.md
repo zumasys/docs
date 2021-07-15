@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-It is possible to add synonyms to the MD/VOC for frequently used verbs.
+It is possible to add synonyms to the MD/VOC for frequently used verbs by creating a "VQ" entry.
 
 ## Syntax
 
