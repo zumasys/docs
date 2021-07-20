@@ -2,6 +2,21 @@
 
 <PageHeader />
 
+## Release Notes - July 20th, 2021  
+- Controls
+   - Form resize, minimized, maximize completed
+   - Drop Down Combo properties completed
+   - List Control properties completed
+   - Tree keyboard navigation completed
+   - Grid keyboard navigation completed
+   - Grid column sync fixed
+- Architecture
+   - Added temporary state change
+   - Integrated visible/enabled properties into objects 
+- Service
+   - Control service completed
+   - Added page to assist self-signed certificates
+
 ## Release Notes - July 8th, 2021  
 - Controls
    - Edit properties completed
