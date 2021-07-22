@@ -83,7 +83,7 @@ Compiler Setup is complete and we can now install jBASE.
 
 ![Company Location](./58Installer_11.jpg)
 
-![License Agreement](58Installer_12.jpg)
+![License Agreement](./58Installer_12.jpg)
 
 ![Information](./58Installer_13.jpg)
 
