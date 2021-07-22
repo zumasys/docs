@@ -120,7 +120,8 @@ module.exports = {
             collapsable: true,
             children: [
               ["/accuterm/desktop/gui/", "GUI"],
-              ["/accuterm/desktop/rezume-session-resilience/", "ReZume Session Resilience"]
+              ["/accuterm/desktop/rezume-session-resilience/", "ReZume Session Resilience"],
+              ["/accuterm/desktop/installation/", "Installation"]
             ]
           },
           {
