@@ -13,7 +13,7 @@ The following licensing subscriptions are supported in jBASE from release 5.8 an
 | ------------- | --------- | --------- | --------------------------------------------------------------------------------------------------- |
 | User          | Yes       | Yes       | Restrict usage to a specified number of logged in and connected users.*                             |
 | CPU           | No        | Yes       | Restrict jBASE programs to a specified number of CPUs. All running jBASE programs will be included. |
-| Multi-session | Yes       | No        | Not relevant with the use of CPU licensing.                                                         |
+| Multi-session | Yes       | Yes       | **Effective from jBASE 5.8.3 onwards**                                                                  |
 | Web session   | Yes       | No        | Not relevant with the use of CPU licensing.                                                         |
 
 > * = Background jobs do not take a license, nor do a small number of jBASE administration utilities.
@@ -88,8 +88,7 @@ Products                        Runtime
 Current license usage
     Actual free standard        0
     Actual used standard        0
-    multisession                0
-    websession                  0
+    Multisession not found      --
     Uname                       deepthought
 
 Total of 1 found distributed as follows: 

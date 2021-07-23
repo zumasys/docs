@@ -1,4 +1,4 @@
-# jSHELL
+# jshell
 
 <PageHeader />
 
@@ -7,17 +7,17 @@
 <badge text='jshell' vertical='middle' />
 <badge text='shell' vertical='middle' />
 
-The jsh command invokes jShell - the jBASE shell. It can be invoked as your login shell by using the normal system administration software supplied with the platform. Either via .bat files (Windows) or .profiles (Unix).
+The jsh command invokes jshell - the jBASE shell. It can be invoked as your login shell by using the normal system administration software supplied with the platform. Either via .bat files (Windows) or .profiles (Unix).
 
-jShell has been designed to ease migration from other MV platforms, and to overcome some of the differences between various platform command line environments. The more primitive features seen on some older platforms (such as the "dot" command stacker) have been replaced or augmented with easier to use and more functional equivalents.
+jshell has been designed to ease migration from other MV platforms, and to overcome some of the differences between various platform command line environments. The more primitive features seen on some older platforms (such as the "dot" command stacker) have been replaced or augmented with easier to use and more functional equivalents.
 
-The most noticeable difference between jShell and other command line shells, such as the Unix Korn shell (ksh), is that command line arguments such as "\*" and "?" are not expanded by the shell but passed directly to the command that has been invoked. In same manner, quoted strings (such as "quoted string") are passed directly to the command with quotes intact. This enables query language statements such as:
+The most noticeable difference between jshell and other command line shells, such as the Unix Korn shell (ksh), is that command line arguments such as "\*" and "?" are not expanded by the shell but passed directly to the command that has been invoked. In same manner, quoted strings (such as "quoted string") are passed directly to the command with quotes intact. This enables query language statements such as:
 
 ```
 SSELECT file = "[SPROUT]" BY *A1
 ```
 
-to be issued directly from jShell. If the same command was issued from the ksh prompt, it would have to be issued as:
+to be issued directly from jshell. If the same command was issued from the ksh prompt, it would have to be issued as:
 
 ```
 SSELECT file = \"[SPROUT]\" BY \*A1
@@ -25,7 +25,7 @@ SSELECT file = \"[SPROUT]\" BY \*A1
 
 to avoid the quotes being removed and the "\*" being expanded by the Korn shell.
 
-Beyond this convenient feature, jShell also offers many significant advantages over traditional shells and is easier to use. Some of the main features of the jsh are:
+Beyond this convenient feature, jshell also offers many significant advantages over traditional shells and is easier to use. Some of the main features of the jsh are:
 
 - Customizable prompt
 - Alternate shell/command line invocation
@@ -42,29 +42,29 @@ jsh - -a account -c command -s shell -p prompt
 
 where option may be:
 
-| Option                    | Description                                                                                                                                                                                                                                                                                                                                                                                              |
-| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| -                         | Execute proc from MD/VOC file with same name as user login. (on Unix the .profile and .jshrc files are processed)                                                                                                                                                                                                                                                                                        |
-| -a account                | Log in to the specified account. Usually used in conjunction with the -c option to run a command in the context of a particular account. If the account requires a password, append it to the account with a comma separator. _The -a option may only be used when jsh is invoked from an external process such as bash or cron, not from within jBASE._ <badge text='version-5.8+' vertical='middle' /> |
-| -c command                | Specifies that a jsh process should be spawned to execute command. When the command terminates, the jsh process will also terminate. If the command to be executed requires arguments, enclose the command and it's arguments in double-quotes. If any arguments require double-quotes, use a backslash (\\) to escape the argument quotes.                                                              |
-| -s shell                  | Specifies which shell emulation to use when executing jsh. The jsh will default to the previous emulation used by the current port.                                                                                                                                                                                                                                                                      |
-| -p prompt                 | Specifies the prompt to be used while executing jsh. This option can take up to 3 fields in the same format as the [JSH_PROMPT](#jsh_prompt) environment varialble described below.                                                                                                                                                                                                                                                                                                                                                    |
-| -t                        | Opens the tty device and accepts commands from the keyboard when the jShell has been invoked to process a command input file. The default action is to exit the shell once the processing of the input file has been completed.                                                                                                                                                                          |
-| -z foreground, background | Select foreground and background screen colors (e.g. jsh -z foreground,background). Colors can be WHITE, YELLOW, MAGENTA, RED, CYAN, GREEN, BLUE or BLACK. Defaults will be BLUE foreground on WHITE background. Colors can also be set in the Properties of the jShell shortcut.                                                                                                                        |
+| Option | Description  |
+| ------ | ------------ |
+| -           | Execute proc from MD/VOC file with same name as user login. (on Unix the .profile and .jshrc files are processed)  |
+| -a account  | Log in to the specified account. Usually used in conjunction with the -c option to run a command in the context of a particular account. If the account requires a password, append it to the account with a comma separator.<br> _The -a option may only be used when jsh is invoked from an external process such as bash or cron, not from within jBASE._ <badge text='version-5.8+' vertical='middle' /> |
+| -c command  | Specifies that a jsh process should be spawned to execute command. When the command terminates, the jsh process will also terminate. If the command to be executed requires arguments, enclose the command and it's arguments in double-quotes. If any arguments require double-quotes, use a backslash (\\) to escape the argument quotes.  |
+| -s shell    | Specifies which shell emulation to use when executing jsh. The jsh will default to the previous emulation used by the current port.  |
+| -p prompt   | Specifies the prompt to be used while executing jsh. This option can take up to 3 fields in the same format as the [JSH_PROMPT](#jsh_prompt) environment variable described below.  |
+| -t          | Opens the tty device and accepts commands from the keyboard when the jshell has been invoked to process a command input file. The default action is to exit the shell once the processing of the input file has been completed.  |
+| -z foreground, background | Select foreground and background screen colors (e.g. jsh -z foreground,background). Colors can be WHITE, YELLOW, MAGENTA, RED, CYAN, GREEN, BLUE or BLACK. Defaults will be BLUE foreground on WHITE background. Colors can also be set in the Properties of the jshell shortcut.  |
 
 If the jsh command is issued without arguments, a jsh process is spawned and this process becomes the command shell. The jsh process will replace the current shell if it is invoked through the UNIX exec command.
 
 ## Environment Variables
 
-All jShell environment variables must be set prior to invoking the jShell.
+All jshell environment variables must be set prior to invoking the jshell.
 
 ### JSH\_COMMAND\_STACK
 
 The **JSH\_COMMAND\_STACK** environment variable has up to 3 optional parameters and is used to:
 
-* Configure the number of commands in the jShell command history (*stack size*)
-* Specify that the command stack is user based
-* Set the cursor at the end of a recalled command. This allows the jShell to match the behavior of native Opertating System shells. (this feature and any mention of it below will be available in jBASE 5.8 forward)
+- Configure the number of commands in the jshell command history (*stack size*)
+- Specify that the command stack is user based
+- Set the cursor at the end of a recalled command. This allows the jshell to match the behavior of native Operating System shells. (this feature and any mention of it below will be available in jBASE 5.8 forward)
 
 The stack size can be set to any number greater or equal to 50.
 
@@ -127,7 +127,7 @@ JSH_COMMAND_STACK=USERNAME,1000
 
 ### JSH_PROMPT
 
-The **JSH_PROMPT** environment variable can be used to customize the jShell prompt characters. It can contain up to 3 comma-delimited fields as in:
+The **JSH_PROMPT** environment variable can be used to customize the jshell prompt characters. It can contain up to 3 comma-delimited fields as in:
 
 ```
 export JSH_PROMPT="$%s $%a $%c -->","$%>>>",msh        [Unix/Linux]
@@ -140,7 +140,7 @@ set JSH_PROMPT="$%%s $%%a $%%c -->","$%%>>>",msh       [Windows]
 
 > On Windows, because **%** is a meta-character, it must be *escaped* as shown in the example.
 
-The above example will display the jShell prompt as:
+The above example will display the jshell prompt as:
 
 ```
 msh obiwan ~ 1 -->
@@ -176,7 +176,7 @@ Fields 1 and 2 can accept values from the following table:
 
 ## Using jsh
 
-To use this tutorial, the user should be logged in and positioned at the shell prompt. If the user account has not been configured to run jShell by default, execute it now like this:
+To use this tutorial, the user should be logged in and positioned at the shell prompt. If the user account has not been configured to run jshell by default, execute it now like this:
 
 ## UNIX/Linux
 
@@ -190,7 +190,7 @@ exec jsh
 jsh.exe
 ```
 
-The default jShell prompt should now appear:
+The default jshell prompt should now appear:
 
 ```
 jsh user cwd -->
@@ -239,7 +239,7 @@ Where **newprompt** is a string defining the new prompt. The string can contain 
 
 The shell operates in two distinct modes, command mode and operating mode. Operating mode is the usual mode and is used to issue all commands to the system. Command mode is used to issue commands to jsh itself.
 
-At the jShell prompt, the / command introduces a search string to jsh. The search string is compared against every command in your command history and if a match is found, the command is recalled as the current command, just as if you had typed it in again. Command mode is normally entered by hitting the escape key on your keyboard.
+At the jshell prompt, the / command introduces a search string to jsh. The search string is compared against every command in your command history and if a match is found, the command is recalled as the current command, just as if you had typed it in again. Command mode is normally entered by hitting the escape key on your keyboard.
 
 If you include the **$%m** sequence when you configure the prompt, the prompt will change to indicate whether or not you are in the shell command mode. For example, if the prompt has otherwise been left in its default state, the following sequence will locate the last **cd** command in your command history. Note the appearance of the **(Cmd)** string as part of the prompt on the middle line:
 
@@ -297,13 +297,13 @@ All the editing commands are shown in the following table:
 | .s text      | Search and display all entries with 'text'                  |
 | .{x}#        | Execute entry '#' [if 'x' is omitted then '#'  is required] |
 
-## jShell Emulation Modes
+## jshell Emulation Modes
 
 If the user is familiar with operating UNIX under other shells, jsh may be made to work in the environment with which the user is most comfortable. Switching between the various emulation modes in jsh by using the function keys:
 
 | Function Key | Emulation Mode                                    |
 | ------------ | ------------------------------------------------- |
-| F1           | jShell (jsh)                                      |
+| F1           | jshell (jsh)                                      |
 | F2           | native Platform Shell. ( CMD.exe, ksh, csh, etc ) |
 | F3           | mixed shell (msh)                                 |
 

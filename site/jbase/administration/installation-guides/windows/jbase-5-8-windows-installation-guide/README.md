@@ -53,7 +53,8 @@ jBASE 5.8 can either be installed on a clean system or used to upgrade from a pr
 
 ![Welcome to the jBASE 5 Setup Wizard](./58Installer_2A.jpg)
 
-jBASE now utilizes the command-line C compiler from Visual Studio 2019 by installing the Visual Studio Build Tools 2019. This process takes place before the jBASE installation proper.
+jBASE now utilizes the command-line C compiler from Visual Studio 2019 by installing the Visual Studio Build Tools 2019.   
+This process takes place before the jBASE installation proper.
 
 ![Install jBASE Prerequisites](./58Installer_3.jpg)
 

@@ -168,7 +168,11 @@ Applies to: **Express** **Advanced**
 
 ![License_Key](./License_Key.png)
 
-jBASE requires a valid license key in order to operate. Either a permanent or evaluation key may be used. If you have been issued a Multisession or Websession license key, enter these keys in the respective fields. If you are upgrading from a previous version of jBASE, the installer will attempt to locate your existing license keys and use them to populate the license key fields on this page. *Note: the installer will not continue unless you enter a license key.*
+jBASE requires a valid license key in order to operate. Either a permanent or evaluation key may be used. If you have been issued a Multisession or Websession license key, enter these keys in the respective fields. If you are upgrading from a previous version of jBASE, the installer will attempt to locate your existing license keys and use them to populate the license key fields on this page.  
+
+## Note
+
+>The installer will not continue unless you enter a license key.
 
 For licensing assistance contact Zumasys jBASE support in the United States at 866 582 8447 and from the United Kingdom at 0808 189 3266 or sales@jbase.com.
 

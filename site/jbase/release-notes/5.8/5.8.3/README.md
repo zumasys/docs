@@ -15,7 +15,9 @@ This release includes internal bug fixes and the following enhancements and patc
 - [PN1274](./pn1274/README.md) - LIST-ITEM segvs in d3 emulation
 - [PN1276](./pn1276/README.md) - SELECT of a single item ignored by READNEXT on jBASE 5.8.2
 - [PN1280](./pn1280/README.md) - PROC: Make the IF command case insensitive  
-- [PN1289](./pn1289/README.md) - Floating point numbers not displayed correctly
+- [PN1289](./pn1289/README.md) - Floating point numbers not displayed correctly  
+- [PN1299](./pn1299/README.md) - Provide support for IEEE maths  
+- [PN1322](./pn1322/README.md) - Restrict size of jBASE error log
 
 [Back to 5.8.x Release Notes](./../README.md)
   
