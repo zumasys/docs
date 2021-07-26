@@ -25,7 +25,7 @@ jrf  -HJBC {-V | -V1} filename
 | **-H4** \| **-Hj4** | Convert to a HASH4 file type |
 | **-H5** \| **-Hjp** | Convert to a HASHP (jPlus) file type |
 | **-H7** \| **-Hjd** | Convert to a HASHD (Dynamic) file type (*default if no -H file type is specified*) |
-| **-Hjbc** | Convert to a jBC (BASIC Program) file type<br>(All other options are ignored except -V or -V1) |
+| **-Hjbc** | Convert to a jBC (BASIC Program) file type<br>(All other options are ignored except -E, -V, -V1) |
 | **-Hmongo** | Convert to a Mongo file type |
 | **-C** | Only the restore specification will be set, so that the file is resized automatically when the file is restored. To resize files to a lower modulo requires that the 'D' option also be invoked along with the 'C' option |
 | **-D** | Allow downsize of file |
