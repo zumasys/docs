@@ -65,7 +65,7 @@ Due to the recent deprecation of Windows SDK for Windows 7 compiler, jBASE has b
 
 End Users are experiencing this due to additional "redundant" entries being added to the PATH, INCLUDE and LIB Environment Variables.
 
-[Here](./../../../environment-variables/notes-on-environment-variables-for-the-jbase-compiler) is an approach to resolving this warning, removing the "redundant" entries from your PATH, together with the INCLUDE entries, that will help cut down on the size.
+[Here](./../../../../environment-variables/notes-on-environment-variables-for-the-jbase-compiler/README.md) is an approach to resolving this warning, removing the "redundant" entries from your PATH, together with the INCLUDE entries, that will help cut down on the size.
 
 ### See Next
 
