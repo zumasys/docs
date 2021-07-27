@@ -40,7 +40,8 @@ module.exports = {
         "customer-portal",
         "jbase",
         "mv-connect",
-        "mv-dashboard"
+        "mv-dashboard",
+        "totalink"
       ]
     },
     // Add article reading time estimate
@@ -83,7 +84,8 @@ module.exports = {
           { text: "jBASE", link: "/jbase/" },
           { text: "MV Connect", link: "/mv-connect/" },
           { text: "MV Dashboard", link: "/mv-dashboard/" },
-          { text: "POS Connect", link: "/pos-connect/" }
+          { text: "POS Connect", link: "/pos-connect/" },
+          {text : "TotaLink", link: "/totalink/"}
 
         ]
       }
@@ -711,6 +713,14 @@ module.exports = {
             ]
           },
           ["/smartsuite/release-notes/", "Release Notes"]
+        ]
+      },
+      {
+        title: "TotaLink",
+        path: "/totalink/",
+        collapsable: true,
+        children: [
+          ["/totalink/", "API"],
         ]
       },
     ],
