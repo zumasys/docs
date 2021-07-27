@@ -32,7 +32,7 @@
 | <!----> | <!----> |
 | --- | --- |
 | [Extended Dictionaries](./extended-dictionary/README.md)  | Dictionay Extensions for ODBC |
-| [File Integrity](./file-integrity/README.md)  | File Integratity |
+| [File Integrity](./file-integrity/README.md)  | File Integrity |
 
 [Back to Knowledgebase](./../README.md)
 
