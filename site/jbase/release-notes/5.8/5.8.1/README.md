@@ -2,17 +2,7 @@
 
 <PageHeader />
 
-## New Features in jBASE 5.8.1
-
-### Trigger Enhancements  
-
-In a subroutine which is used with a trigger, the fourth parameter has always been documented as "Flags" and "This parameter not yet implemented".
-
-This parameter has now implemented.
-
-See [Trigger API](./../../../triggers/trigger-api/README.md)
-
-This release also includes internal bug fixes and the following patches:
+This release includes internal bug fixes and the following patches:
 
 ## Patches
 
@@ -25,6 +15,16 @@ This release also includes internal bug fixes and the following patches:
 - [PN1165](./pn1165/README.md) - jBC: New `key` operator to the `for` iterator  
 - [PN1169](./pn1169/README.md) - SQLSELECT duplicating multi-value rows  
 - [PN1198](./pn1198/README.md) - TRANS function causes segmentation violation in SQLSELECT  
+
+## New Features in jBASE 5.8.1
+
+### Trigger Enhancements  
+
+In a subroutine which is used with a trigger, the fourth parameter has always been documented as "Flags" and "This parameter not yet implemented".
+
+The `Flags` parameter has now been implemented.
+
+See [Trigger API](./../../../triggers/trigger-api/README.md)
 
 [Back to 5.8.x Release Notes](./../README.md)
   

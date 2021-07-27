@@ -29,9 +29,20 @@ ACCOUNT-RESTORE {-Options} {TargetDirectory | TargetUserid} {(Options)}
 | -r **file** | resize files listed in **file**. Format is: {DICT} FileName NumBuckets {BucketMult} {SecSize} |
 | -z | force out of group size to 1 |
 
-Some ACCOUNT-SAVE tapes provide two or more tape files before the account data proper. The first is usually an empty tape file the second usually contains a tape label, note that sometimes these tape files can also contain invalid data blocks, these should be ignored. Most R83 based ACCOUNT-SAVE formats are preceded by two tape files and so two T-FWD commands should be executed before the ACCOUNT-RESTORE command. Also some R83 based ACCOUNT-SAVE tapes tend to have labels sized at the same block size as the data blocks and so the label size should be used.
+Some ACCOUNT-SAVE tapes provide two or more tape files before the account data proper. The first is usually an empty tape file the second usually contains a tape label, note that sometimes these tape files can also contain invalid data blocks, these should be ignored.  
+Most R83 based ACCOUNT-SAVE formats are preceded by two tape files and so two T-FWD commands should be executed before the ACCOUNT-RESTORE command.  
+Also some R83 based ACCOUNT-SAVE tapes tend to have labels sized at the same block size as the data blocks and so the label size should be used.
 
 ## Examples
+
+## Note
+
+>In the examples below, you'll see the use the T-ATT command with a device id of FILE1 or SCT0.  These device ids are defined in the jBASE device definition file in jBASE, [see TAPE](./../../../../../tape/tape/README.md).  
+>It is vital that the correct device with the correct definition be used when attaching the device for your ACCOUNT-RESTORE operation.  
+>Using even a slightly incorrect device definition can alter the format of the media being read from the device and may cause confusing errors and failure of the ACCOUNT-RESTORE process.  
+>Specifically, errors involving the inability to properly read a header can be the result of an improper device id specification on your T-ATT directive.  
+>Do not assume that the device id used in the examples below are correct for your use case.  
+>Start off with FILE0 and then progress to FILE1, D3FILESAVE or a custom definition if there are sections of the tape block which need to be ignored.
 
 ROS QIC Example - No Preceding tape files.
 

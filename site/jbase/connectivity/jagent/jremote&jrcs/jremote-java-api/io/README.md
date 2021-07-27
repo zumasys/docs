@@ -31,5 +31,6 @@
 [response-(jremote-api)](./response-(jremote-api))  
 [sqlerror-(jremote-api)](./sqlerror-(jremote-api))  
 
-  
+Back to [jRemote API](./../../README.md)
+
 <PageFooter />

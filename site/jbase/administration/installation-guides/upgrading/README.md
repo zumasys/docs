@@ -8,6 +8,11 @@
 
 ## Overview
 
+For instructions on upgrading to jBASE 5.8, see either:
+
+[Upgrading to jBASE 5.8 on Linux](./../linux/upgrading-to-5.8-linux/README.md)  
+[Upgrading to jBASE 5.8 on Windows](./../windows/upgrading-to-5.8-windows/README.md)  
+
 The jBASE installer will examine the directory pointed to by the JBCRELEASEDIR environment variable for a previous jBASE installation.
 
 If a **config** directory is found in the previous jBASE release directory, the current contents of the previous 'config' directory will be backed up to 'config\_pre\_&lt;new version&gt; in the destination directory.

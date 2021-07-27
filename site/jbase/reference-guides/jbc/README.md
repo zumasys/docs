@@ -341,20 +341,20 @@
 <badge text='beginners' vertical='middle' />
 <badge text='jbc' vertical='middle' />
 
-## jBASIC Language Overview
+## jBC Language Overview
 
-jBASIC, sometimes referred to as jBC is a BASIC style language modeled after PICK system. It is used mostly to build business applications that can utilize a multivalue database or a third party dbms depending on the configuration it is given.
+jBC, sometimes referred to as jBC is a BASIC style language modeled after PICK system. It is used mostly to build business applications that can utilize a multivalue database or a third party dbms depending on the configuration it is given.
 
-## Benefits of jBASIC
+## Benefits of jBC
 
-- jBASIC comes with a built in debugger.
-- Applications built using jBASIC are fast, without the overhead.
+- jBC comes with a built in debugger.
+- Applications built using jBC are fast, without the overhead.
 - Calls can be made to OS functions and vice versa.
-- jBASIC is able to read/open operating system files and vice versa.
-- Since the source code is converted to pre-compiled 'C', jBASIC applications have more operating system resources available to them, making them very flexible.
+- jBC is able to read/open operating system files and vice versa.
+- Since the source code is converted to pre-compiled 'C', jBC applications have more operating system resources available to them, making them very flexible.
 - File and record level locking capability.
 - Applications are portable between binary compatible environments, however moving applications to an alternative operating system requires that the application be recompiled on the target system. No modifications to the application source are required as any operating system specific modifications will have been implemented by jBASE in the run-time libraries.
-- SQL support is provided, making it possible to use jBASIC programs with a third party SQL database.
+- SQL support is provided, making it possible to use jBC programs with a third party SQL database.
 
 ## Variables
 
@@ -362,13 +362,16 @@ Variable names begin with an alphabetic character, which can be followed by any 
 
 ## File and Directory Organization
 
-jBASIC is able to create files and directories that can be read by the operating system.
+jBC is able to create files and directories that can be read by the operating system.
 
 ## Commands/Statements
 
-| jBASIC Command | Type | Description |
+| jBC Command | Type | Description |
 | --- | --- | --- |
-| [@](./../../jbc/the-'@'-function) | function | Cursor and screen manipulation. Built-in @ functions |
+| **@** |  
+| [@functions](./../../jbc/@functions/README.md) | functions | Cursor and screen manipulation. |
+| [@unassigned](./../../jbc/@unassigned/README.md) | statement | Unassigns a variable |
+| [@variables](./../../jbc/@variables/README.md) | variables | Built-in @ variables |
 | **A** |
 | [ABORT](./../../jbc/abort) | statement | Program termination. |
 | [ABS](./../../jbc/abs) | function | Returns absolute value. |

@@ -4,11 +4,11 @@
 
 ## Class AbstractJBaseObjectWriter
 
-All Implemented Interfaces:[JBaseObjectWriter](./../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")Direct Known Subclasses:[IOJBaseObjectWriter](./../iojbaseobjectwriter-(jremote-api) "class in com.jbase.jremote.io"), [NIOJBaseObjectWriter](./../niojbaseobjectwriter-(jremote-api) "class in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseObjectWriter](./../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  
+Direct Known Subclasses:[IOJBaseObjectWriter](./../iojbaseobjectwriter-(jremote-api) "class in com.jbase.jremote.io"), [NIOJBaseObjectWriter](./../niojbaseobjectwriter-(jremote-api)  "class in com.jbase.jremote.io")
 * * *
 
-
-```
+```java
 public abstract class AbstractJBaseObjectWriter
 extends Object
 implements JBaseObjectWriter
@@ -16,126 +16,104 @@ implements JBaseObjectWriter
 
 ### Constructor Summary
 
-
-| Constructor and Description<br> |
+| Constructor and Description |
 | --- |
-| `AbstractJBaseObjectWriter()` <br> |
-
-
-
-
-
+| `AbstractJBaseObjectWriter()`  |
 
 ### Method Summary
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
-| `protected abstract void`<br> | `flush()` <br> |
-| `protected abstract void`<br> | `outByte(byte[] b)` <br> |
-| `protected abstract void`<br> | `outByte(int b)` <br> |
-| `protected abstract void`<br> | `outInt(int i)` <br> |
-| `protected abstract void`<br> | `outUTF(String s)` <br> |
-| `void`<br> | `writeInt(int i)` <br> |
-| `protected void`<br> | `writeJBaseSerializableObject(JBaseSerializable o)` <br> |
-| `void`<br> | `writeObject(byte[] data)` <br> |
-| `void`<br> | `writeObject(IByteObject o)` <br> |
-| `void`<br> | `writeObject(JBaseSerializable o)` <br> |
-| `void`<br> | `writeObject(String o)` <br> |
-| `void`<br> | `writeRootObject(JBaseSerializable o)` <br> |
-
+| `protected abstract void` | `flush()`  |
+| `protected abstract void` | `outByte(byte[] b)`  |
+| `protected abstract void` | `outByte(int b)`  |
+| `protected abstract void` | `outInt(int i)`  |
+| `protected abstract void` | `outUTF(String s)`  |
+| `void` | `writeInt(int i)`  |
+| `protected void` | `writeJBaseSerializableObject(JBaseSerializable o)`  |
+| `void` | `writeObject(byte[] data)`  |
+| `void` | `writeObject(IByteObject o)`  |
+| `void` | `writeObject(JBaseSerializable o)`  |
+| `void` | `writeObject(String o)`  |
+| `void` | `writeRootObject(JBaseSerializable o)`  |
 
 - Methods inherited from class java.lang.Object
-    - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+  - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 - Methods inherited from interface com.jbase.jremote.io.JBaseObjectWriter
-    - `close`
+  - `close`
 
 ### Constructor Detail
 
 #### AbstractJBaseObjectWriter
 
-```
+```java
 public AbstractJBaseObjectWriter()
 ```
-
-
-
-
-
-### 
-
 
 ### Method Detail
 
 #### outByte
 
-```
+```java
 protected abstract void outByte(byte[] b)
                          throws IOException
 ```
-Throws:`IOException`
-#### 
 
+Throws:`IOException`
 
 #### outByte
 
-```
+```java
 protected abstract void outByte(int b)
                          throws IOException
 ```
-Throws:`IOException`
-#### 
 
+Throws:`IOException`
 
 #### outInt
 
-```
+```java
 protected abstract void outInt(int i)
                         throws IOException
 ```
-Throws:`IOException`
-#### 
 
+Throws:`IOException`
 
 #### outUTF
 
-```
+```java
 protected abstract void outUTF(String s)
                         throws IOException
 ```
-Throws:`IOException`
-#### 
 
+Throws:`IOException`
 
 #### flush
 
-```
+```java
 protected abstract void flush()
                        throws IOException
 ```
-Throws:`IOException`
-#### 
 
+Throws:`IOException`
 
 #### writeInt
 
-```
+```java
 public void writeInt(int i)
               throws IOException
 ```
-Specified by:`writeInt` in interface `JBaseObjectWriter`Throws:`IOException`
-#### 
 
+Specified by:`writeInt` in interface `JBaseObjectWriter`Throws:`IOException`
 
 #### writeObject
 
-```
+```java
 public void writeObject(String o)
                  throws IOException
 ```
-Specified by:`writeObject` in interface `JBaseObjectWriter`Throws:`IOException`
-#### 
 
+Specified by:`writeObject` in interface `JBaseObjectWriter`Throws:`IOException`
 
 #### writeObject
 
@@ -143,51 +121,45 @@ Specified by:`writeObject` in interface `JBaseObjectWriter`Throws:`IOException`
 public void writeObject(byte[] data)
                  throws IOException
 ```
-Specified by:`writeObject` in interface `JBaseObjectWriter`Throws:`IOException`
-#### 
 
+Specified by:`writeObject` in interface `JBaseObjectWriter`Throws:`IOException`
 
 #### writeObject
 
-```
+```java
 public void writeObject(IByteObject o)
                  throws IOException
 ```
-Specified by:`writeObject` in interface `JBaseObjectWriter`Throws:`IOException`
-#### 
 
+Specified by:`writeObject` in interface `JBaseObjectWriter`Throws:`IOException`
 
 #### writeObject
 
-```
+```java
 public void writeObject(JBaseSerializable o)
                  throws IOException
 ```
-Specified by:`writeObject` in interface `JBaseObjectWriter`Throws:`IOException`
-#### 
 
+Specified by:`writeObject` in interface `JBaseObjectWriter`Throws:`IOException`
 
 #### writeJBaseSerializableObject
 
-```
+```java
 protected void writeJBaseSerializableObject(JBaseSerializable o)
                                      throws IOException
 ```
-Throws:`IOException`
-#### 
 
+Throws:`IOException`
 
 #### writeRootObject
 
-```
+```java
 public void writeRootObject(JBaseSerializable o)
                      throws IOException
 ```
+
 Specified by:`writeRootObject` in interface `JBaseObjectWriter`Throws:`IOException`
 
-Back to [jRemote API](../../../../jremote-api/README.md)
+Back to [jRemote API](./../../README.md)
 
-
-
-  
 <PageFooter />

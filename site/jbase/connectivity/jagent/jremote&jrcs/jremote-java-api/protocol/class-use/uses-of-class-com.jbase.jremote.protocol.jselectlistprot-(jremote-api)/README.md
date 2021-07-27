@@ -3,79 +3,64 @@
 <PageHeader />
 
 ## Uses of Class
+
 com.jbase.jremote.protocol.JSelectListProt
 
-| Package<br> | Description<br> |
+| Package |
 | --- | --- |
- Packages that use [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol")  | com.jbase.jremote<br> |  <br> |
-| com.jbase.jremote.io<br> |  <br> |
-| com.jbase.jremote.protocol<br> |  <br> |
-
-
-
+ Packages that use [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol")  |
+| com.jbase.jremote |
+| com.jbase.jremote.io |
+| com.jbase.jremote.protocol |
 
 ### Uses of [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol") in [com.jbase.jremote](./../../../../../jremote-api)
 
-
-| Constructor and Description<br> |
+| Constructor and Description |
 | --- |
- Constructors in [com.jbase.jremote](./../../../../../jremote-api) with parameters of type [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol")  | `JExecuteResults(JSelectListProt selectListProt, JDynArray capturingVar, JDynArray settingVar)` <br> |
-
-
-
-
-
+| Constructors in [com.jbase.jremote](./../../../../../jremote-api) with parameters of type [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol")  |
+|`JExecuteResults(JSelectListProt selectListProt, JDynArray capturingVar, JDynArray settingVar)`  |
 
 ### Uses of [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol") in [com.jbase.jremote.io](./../../../io/com.jbase.jremote.io-(jremote---api))
 
-
-| Modifier and Type<br> | Field and Description<br> |
+| Modifier and Type | Field and Description |
 | --- | --- |
- Fields in [com.jbase.jremote.io](./../../../io/com.jbase.jremote.io-(jremote---api)) declared as [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol")  | `protected JSelectListProt`<br> | JSelectListImpl.`data` <br> |
+| Fields in [com.jbase.jremote.io](./../../../io/com.jbase.jremote.io-(jremote---api)) declared as [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol")  |
+| `protected JSelectListProt` | JSelectListImpl.`data`  |
 
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote.io](./../../../io/com.jbase.jremote.io-(jremote---api)) that return [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol")  | `protected JSelectListProt`<br> | JSelectListImpl.`fetchNext(boolean fetchData)` <br> |
-| `protected JSelectListProt`<br> | JSelectListImpl.`fetchPrevious(boolean fetchData)` <br> |
-| `JSelectListProt`<br> | JSelectListImpl.`getData()`<br>Obtains a reference to the serializable part of the select list<br> |
+| Methods in [com.jbase.jremote.io](./../../../io/com.jbase.jremote.io-(jremote---api)) that return [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol")  |
+|`protected JSelectListProt` | JSelectListImpl.`fetchNext(boolean fetchData)`  |
+| `protected JSelectListProt` | JSelectListImpl.`fetchPrevious(boolean fetchData)`  |
+| `JSelectListProt` | JSelectListImpl.`getData()`<br>Obtains a reference to the serializable part of the select list |
 
-
-
-| Constructor and Description<br> |
+| Constructor and Description |
 | --- |
- Constructors in [com.jbase.jremote.io](./../../../io/com.jbase.jremote.io-(jremote---api)) with parameters of type [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol")  | `JCursorImpl(AbstractJRemoteConnection connection, JSelectListProt data)`<br>Constructs a cursor from a serializable select list.<br> |
-| `JSelectListImpl(AbstractJRemoteConnection connection, JSelectListProt data)`<br>Constructs a select list from a serializable select list.<br> |
-
-
-
-
-
+| Constructors in [com.jbase.jremote.io](./../../../io/com.jbase.jremote.io-(jremote---api)) with parameters of type [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol")  |
+| `JCursorImpl(AbstractJRemoteConnection connection, JSelectListProt data)`<br>Constructs a cursor from a serializable select list. |
+| `JSelectListImpl(AbstractJRemoteConnection connection, JSelectListProt data)`<br>Constructs a select list from a serializable select list. |
 
 ### Uses of [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol") in [com.jbase.jremote.protocol](./../../com.jbase.jremote.protocol-(jremote-api))
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote.protocol](./../../com.jbase.jremote.protocol-(jremote-api)) that return [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol")  | `JSelectListProt`<br> | SelectListFetchRequest.`getModifiedSelectList()` <br> |
-| `JSelectListProt`<br> | SelectListCommitRequest.`getModifiedSelectList()` <br> |
-| `JSelectListProt`<br> | StatementExecuteQueryRequest.`getSelectList()` <br> |
-| `JSelectListProt`<br> | SelectListFetchResponse.`getSelectList()` <br> |
-| `JSelectListProt`<br> | JediResponse.`getSelectList(CharsetEncoder encoder, CharsetDecoder decoder)` <br> |
+| Methods in [com.jbase.jremote.protocol](./../../com.jbase.jremote.protocol-(jremote-api)) that return [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol")  |
+| `JSelectListProt` | SelectListFetchRequest.`getModifiedSelectList()`  |
+| `JSelectListProt` | SelectListCommitRequest.`getModifiedSelectList()`  |
+| `JSelectListProt` | StatementExecuteQueryRequest.`getSelectList()`  |
+| `JSelectListProt` | SelectListFetchResponse.`getSelectList()`  |
+| `JSelectListProt` | JediResponse.`getSelectList(CharsetEncoder encoder, CharsetDecoder decoder)`  |
 
-
-
-| Constructor and Description<br> |
+| Constructor and Description |
 | --- |
- Constructors in [com.jbase.jremote.protocol](./../../com.jbase.jremote.protocol-(jremote-api)) with parameters of type [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol")  | `JExecuteRequest(String command, JSelectListProt selectList)` <br> |
-| `JSelectListProt(JSelectListProt sl, boolean copyModifiedOnly)`<br>Copy constructor<br> |
-| `SelectListCommitRequest(JSelectListProt modifiedSelectList)` <br> |
-| `SelectListFetchRequest(int selectListId, int fetchDirection, int fetchSize, boolean fetchData, JSelectListProt modifiedSelectList)` <br> |
-| `StatementExecuteQueryRequest(JDynArray queries, JSelectListProt selectList)` <br> |
-| `StatementExecuteQueryRequest(String query, JSelectListProt selectList)` <br> |
+| Constructors in [com.jbase.jremote.protocol](./../../com.jbase.jremote.protocol-(jremote-api)) with parameters of type [JSelectListProt](./../../jselectlistprot-(jremote-api) "class in com.jbase.jremote.protocol")  |
+| `JExecuteRequest(String command, JSelectListProt selectList)`  |
+| `JSelectListProt(JSelectListProt sl, boolean copyModifiedOnly)`<br>Copy constructor |
+| `SelectListCommitRequest(JSelectListProt modifiedSelectList)`  |
+| `SelectListFetchRequest(int selectListId, int fetchDirection, int fetchSize, boolean fetchData, JSelectListProt modifiedSelectList)`  |
+| `StatementExecuteQueryRequest(JDynArray queries, JSelectListProt selectList)`  |
+| `StatementExecuteQueryRequest(String query, JSelectListProt selectList)`  |
 
-Back to [jRemote API](../../../../jremote-api/README.md)
+Back to [jRemote API](./../../README.md)
 
-  
 <PageFooter />

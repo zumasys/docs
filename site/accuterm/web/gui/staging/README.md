@@ -2,6 +2,43 @@
 
 <PageHeader />
 
+## Release Notes - July 20th, 2021  
+- Controls
+   - Form resize, minimized, maximize completed
+   - Drop Down Combo properties completed
+   - List Control properties completed
+   - Tree keyboard navigation completed
+   - Grid keyboard navigation completed
+   - Grid column sync fixed
+- Architecture
+   - Added temporary state change
+   - Integrated visible/enabled properties into objects 
+- Service
+   - Control service completed
+   - Added page to assist self-signed certificates
+
+## Release Notes - July 8th, 2021  
+- Controls
+   - Edit properties completed
+   - Form properties completed
+   - Command properties completed
+   - Menu properties completed
+   - Default icons added
+   - Client application grid cleanup
+   - Default images icons completed
+   - Menu toolbar properties completed
+   - Grid events completed
+   - Icon support added for grid, tree, list, edit, buttons
+   - Grid dropdown support added
+- Architecture  
+   - Activate, focus, and zIndex complete
+   - Hotkeys funtional in apps as well as forms
+   - Initial implementation of MDI
+- Service
+   - Continued work on SetProp and GetProp service
+   - Delete service completed
+   - Added ability to host custom images
+
 ## Release Notes - April 23rd, 2021  
 - Controls
    - Continued form and gui work: gui (sdi and mdi) and forms (dialog and others)

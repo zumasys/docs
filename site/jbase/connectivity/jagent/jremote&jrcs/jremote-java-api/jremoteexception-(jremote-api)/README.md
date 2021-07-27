@@ -4,11 +4,12 @@
 
 ## Class JRemoteException
 
-All Implemented Interfaces:SerializableDirect Known Subclasses:[JAuthenticationException](./../jauthenticationexception-(jremote-api) "class in com.jbase.jremote"), [JRecordLockedException](./../jrecordlockedexception-(jremote-api) "class in com.jbase.jremote"), [JRecordNotFoundException](./../jrecordnotfoundexception-(jremote-api) "class in com.jbase.jremote"), [JSubroutineNotFoundException](./../jsubroutinenotfoundexception-(jremote-api) "class in com.jbase.jremote")
+All Implemented Interfaces:Serializable  
+Direct Known Subclasses:[JAuthenticationException](./../jauthenticationexception-(jremote-api) "class in com.jbase.jremote"), [JRecordLockedException](./../jrecordlockedexception-(jremote-api) "class in com.jbase.jremote"), [JRecordNotFoundException](./../jrecordnotfoundexception-(jremote-api) "class in com.jbase.jremote"), [JSubroutineNotFoundException](./../jsubroutinenotfoundexception-(jremote-api) "class in com.jbase.jremote")
+
 * * *
 
-
-```
+```java
 public class JRemoteException
 extends Exception
 ```
@@ -17,81 +18,60 @@ A generic exception thrown when an unexpected error occurs whilst communicating 
 
 ### Constructor Summary
 
-
-| Constructor and Description<br> |
+| Constructor and Description |
 | --- |
-| `JRemoteException()` <br> |
-| `JRemoteException(ErrorResponse response)` <br> |
-| `JRemoteException(String msg)` <br> |
-| `JRemoteException(String msg, int error)` <br> |
-
-
-
-
-
+| `JRemoteException()`  |
+| `JRemoteException(ErrorResponse response)`  |
+| `JRemoteException(String msg)`  |
+| `JRemoteException(String msg, int error)`  |
 
 ### Method Summary
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
-| `int`<br> | `getError()` <br> |
-
-
-
+| `int` | `getError()`  |
 
 - Methods inherited from class java.lang.Throwable
-    - `addSuppressed, fillInStackTrace, getCause, getLocalizedMessage, getMessage, getStackTrace, getSuppressed, initCause, printStackTrace, printStackTrace, printStackTrace, setStackTrace, toString`
-
+  - `addSuppressed, fillInStackTrace, getCause, getLocalizedMessage, getMessage, getStackTrace, getSuppressed, initCause, printStackTrace, printStackTrace, printStackTrace, setStackTrace, toString`
 
 - Methods inherited from class java.lang.Object
-    - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`
+  - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, wait, wait, wait`
 
 ### Constructor Detail
 
 #### JRemoteException
 
-```
+```java
 public JRemoteException()
 ```
 
 #### JRemoteException
 
-```
+```java
 public JRemoteException(String msg)
 ```
 
 #### JRemoteException
 
-```
+```java
 public JRemoteException(String msg,
                         int error)
 ```
 
 #### JRemoteException
 
-```
+```java
 public JRemoteException(ErrorResponse response)
 ```
-
-
-
-### 
-
 
 ### Method Detail
 
 #### getError
 
-```
+```java
 public int getError()
 ```
 
+Back to [jRemote API](./../../README.md)
 
-
-Back to [jRemote API](../../../../jremote-api/README.md)
-
-
-
-  
 <PageFooter />

@@ -25,8 +25,8 @@ The securty for a print job can be in one of three states:
 
 When the spooler is first created using the SP-NEWTAB command, the security of any created formqueues is to have:
 
-- **Form queues:** The state is CREATOR
-- **Print Jobs:** The state is CREATOR
+- **Form queues:** The state is `NONE`
+- **Print Jobs:** The state is `NONE`
 - **Alternate owners**: None.
 
 The default action may be changed using the options presented by SP-NEWTAB. Of course the security for the form queue can be modified at a later stage.

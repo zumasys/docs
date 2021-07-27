@@ -9,7 +9,7 @@ DECATALOG {-d} FileName ProgramName
 DELETE-CATALOG {-d} FileName ProgramName
 ```
 
-These commands will remove an executable program from the **bin** directory (or the directory defined by the [JBCDEV_BIN](../envronmemt-variables/../../environment-variables/jbcdev_bin/README.md) environment variable) or remove a subroutine/function/method from the **lib** (or the directory defined by the [JBCDEV_LIB](../envronmemt-variables/../../environment-variables/jbcdev_lib/README.md) environment variable.
+These commands will remove an executable program from the **bin** directory (or the directory defined by the [JBCDEV_BIN](./../../environment-variables/jbcdev_bin/README.md) environment variable) or remove a subroutine/function/method from the **lib** (or the directory defined by the [JBCDEV_LIB](./../../environment-variables/jbcdev_lib/README.md) environment variable.
 
 ## Deleting the intermediate object code
 
@@ -21,7 +21,7 @@ There are 2 ways to achieve this behavior:
 
 1. by using the **-d** option, e.g. **DECATALOG -d filename program**
 
-2. by setting the **DECATALOG_DELETE_OBJECT_CODE** environment variable, e.g. **export DECATALOG_DELETE_OBJECT_CODE=1** on Unix / **set DECATALOG_DELETE_OBJECT_CODE=1** on Windows
+2. by setting the [DECATALOG_DELETE_OBJECT_CODE](./../../environment-variables/decatalog_delete_object_code/README.md) environment variable,   e.g. **export DECATALOG_DELETE_OBJECT_CODE=1** on Unix / **set DECATALOG_DELETE_OBJECT_CODE=1** on Windows
 
 When this feature is implemented the **DECATALOG** command will look for and delete the intermediate object code files if said object code is in the **OBJECT** data section (e.g **bp,OBJECT**) or, if the **OBJECT** data section does not exist, is in the source code file.
 
@@ -43,5 +43,4 @@ will only remove the object code if the current working directory is **bp**.
 
 [Back to Compilation](../README.md)
 
-  
 <PageFooter />

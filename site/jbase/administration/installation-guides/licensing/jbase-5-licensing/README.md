@@ -4,7 +4,7 @@
 
 ## Description
 
-With jBASE 5, the licensing model has been redesigned in order to simplify the components that are required while maintaining flexibility with regards to license maintenance and allowing the licensing model to be expanded as licensing requirements and paradigms evolve.
+With jBASE 5, prior to jBASE 5.8, the licensing model has been designed to simplify the components that are required while maintaining flexibility with regards to license maintenance and allowing the licensing model to be expanded as licensing requirements and paradigms evolve.
 
 Among the options available with jBASE licensing are:
 
@@ -182,5 +182,9 @@ Port 2          Pid 12569        (Active)      M        Update Time 3s ago
 
 Total Ports 513, allocated 8, active 6, not active 2, License  standard 1,  multisession 5
 ```
+
+Back to [Installation Guides:Licensing](./../README.md)  
+
+Back to [jBASE Licensing Overview](./../../../../licensing/README.md)
 
 <PageFooter />

@@ -3,144 +3,118 @@
 <PageHeader />
 
 ## Uses of Interface
+
 com.jbase.jremote.io.JBaseObjectWriter
 
-| Package<br> | Description<br> |
+| Package | Description |
 | --- | --- |
- Packages that use [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | com.jbase.jremote<br> |  <br> |
-| com.jbase.jremote.io<br> |  <br> |
-| com.jbase.jremote.jca.inflow<br> |  <br> |
-| com.jbase.jremote.jca.inflow.protocol<br> |  <br> |
-| com.jbase.jremote.protocol<br> |  <br> |
-
-
+ Packages that use [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | com.jbase.jremote |   |
+| com.jbase.jremote.io |   |
+| com.jbase.jremote.jca.inflow |   |
+| com.jbase.jremote.jca.inflow.protocol |   |
+| com.jbase.jremote.protocol |   |
 
 ### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote](./../../../../../jremote-api)
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote](./../../../../../jremote-api) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | `void`<br> | JSubroutineParameters.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | JExecuteResults.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-
-
-
-
-
+ Methods in [com.jbase.jremote](./../../../../../jremote-api) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  |
+| `void`| JSubroutineParameters.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | JExecuteResults.`writeObject(JBaseObjectWriter writer, int version)`  |
 
 ### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api))
 
-
-| Modifier and Type<br> | Class and Description<br> |
+| Modifier and Type | Class and Description |
 | --- | --- |
- Classes in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api)) that implement [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | `class `<br> | `AbstractJBaseObjectWriter` <br> |
-| `class `<br> | `IOJBaseObjectWriter`<br>jBase object writer based on the DataOutputStream.<br> |
-| `class `<br> | `NIOJBaseObjectWriter`<br>jBase object writer using the new Java IO.<br> |
+ Classes in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api)) that implement [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  |
+| `class` | `AbstractJBaseObjectWriter`  |
+| `class` | `IOJBaseObjectWriter`<br>jBase object writer based on the DataOutputStream. |
+| `class` | `NIOJBaseObjectWriter`<br>jBase object writer using the new Java IO. |
 
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api)) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | `void`<br> | SQLError.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | OKResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | JBaseSerializable.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | ErrorResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-
-
-
-
-
+ Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api)) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  |
+| `void` | SQLError.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | OKResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | JBaseSerializable.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | ErrorResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
 
 ### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-(jremote---api))
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-(jremote---api)) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | `protected void`<br> | InboundRequestHandler.`writeResponse(JBaseObjectWriter writer, JBaseSerializable response)` <br> |
-
-
-
-
-
+ Methods in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-(jremote---api)) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | `protected void` | InboundRequestHandler.`writeResponse(JBaseObjectWriter writer, JBaseSerializable response)` <br> |
 
 ### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-(jremote---api))
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-(jremote---api)) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | `void`<br> | WorkScheduledResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | TransactionOperation.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | StartTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | RollbackTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | NoEndpointActivatedResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | CommitTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | ActivationResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | ActivationRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-
-
-
-
-
+ Methods in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-(jremote---api)) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  |
+| `void` | WorkScheduledResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | TransactionOperation.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | StartTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | RollbackTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | NoEndpointActivatedResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | CommitTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | ActivationResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | ActivationRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
 
 ### Uses of [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-(jremote-api))
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-(jremote-api)) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | `void`<br> | XAXid.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | XAStartTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | XARollbackTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | XAPrepareTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | XAEndTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | XACommitTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | WriteRecordRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | TransactionResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | SwitchAccountResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | SwitchAccountRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | SubroutineResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | StatementFetchResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | StatementFetchRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | StatementExecuteQueryRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | SetPropertiesResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | SetPropertiesRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | SelectListFetchResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | SelectListFetchRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | SelectListCommitRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | SelectListCloseRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | SelectFileRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | RemoteInputRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | ReleaseRecordLockRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | ReadRecordRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | ReadCommonResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | ReadCommonRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | OpenFileRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | MonitoringResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | MonitoringRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | JSelectListProt.`writeObject(JBaseObjectWriter writer, int version)`<br>Serialize object<br> |
-| `void`<br> | JRemoteRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | JExecuteRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | JediResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | InputOutputResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | ExistsRecordRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | EISMetaDataResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | EISMetaDataRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | EchoResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | EchoRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | DeleteRecordRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | DateTimeResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | ConvResponse.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | ConvRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | CloseFileRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | ClearFileRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | CallSubroutineRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | AuthenticationRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | AuthenticationRequest.UserCredentials.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | AccountAuthenticationRequest.`writeObject(JBaseObjectWriter writer, int version)` <br> |
-| `void`<br> | AccountAuthenticationRequest.AccountUserCredentials.`writeObject(JBaseObjectWriter writer, int version)` <br> |
+ Methods in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-(jremote-api)) with parameters of type [JBaseObjectWriter](./../../jbaseobjectwriter-(jremote-api) "interface in com.jbase.jremote.io")  | 
+| `void` | XAXid.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | XAStartTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | XARollbackTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | XAPrepareTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | XAEndTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | XACommitTransactionRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | WriteRecordRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | TransactionResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | SwitchAccountResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | SwitchAccountRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | SubroutineResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | StatementFetchResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | StatementFetchRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | StatementExecuteQueryRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | SetPropertiesResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | SetPropertiesRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | SelectListFetchResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | SelectListFetchRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | SelectListCommitRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | SelectListCloseRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | SelectFileRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | RemoteInputRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | ReleaseRecordLockRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | ReadRecordRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | ReadCommonResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | ReadCommonRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | OpenFileRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | MonitoringResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | MonitoringRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | JSelectListProt.`writeObject(JBaseObjectWriter writer, int version)`<br>Serialize object |
+| `void` | JRemoteRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | JExecuteRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | JediResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | InputOutputResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | ExistsRecordRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | EISMetaDataResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | EISMetaDataRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | EchoResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | EchoRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | DeleteRecordRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | DateTimeResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | ConvResponse.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | ConvRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | CloseFileRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | ClearFileRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | CallSubroutineRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | AuthenticationRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | AuthenticationRequest.UserCredentials.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | AccountAuthenticationRequest.`writeObject(JBaseObjectWriter writer, int version)`  |
+| `void` | AccountAuthenticationRequest.AccountUserCredentials.`writeObject(JBaseObjectWriter writer, int version)`  |
 
-Back to [jRemote API](../../../../jremote-api/README.md)
+Back to [jRemote API](./../../README.md)
 
-
-
-  
 <PageFooter />

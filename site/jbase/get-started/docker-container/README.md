@@ -200,7 +200,7 @@ If you wish to access ports from your windows desktop you must port forward them
 
 ## Create a VM like setup
 
-If you wish to have as close to a VM, here is what you do:
+If you wish to have as close to a VM as possible, here is what you do:
 
 ```powershell
 PS C:\WINDOWS\system32> docker run -it -d --name jbase -p 20022:20002 -p 10022:22 zumasys/jbase_base

@@ -120,7 +120,8 @@ module.exports = {
             collapsable: true,
             children: [
               ["/accuterm/desktop/gui/", "GUI"],
-              ["/accuterm/desktop/rezume-session-resilience/", "ReZume Session Resilience"]
+              ["/accuterm/desktop/rezume-session-resilience/", "ReZume Session Resilience"],
+              ["/accuterm/desktop/installation/", "Installation"]
             ]
           },
           {
@@ -193,7 +194,8 @@ module.exports = {
             collapsable: true,
             children: [
               ["/jbase/overview/", "Overview"],
-              ["/jbase/fundamentals/", "jBASE Fundamentals"]
+              ["/jbase/fundamentals/", "jBASE Fundamentals"],
+              ["/jbase/cheat-sheets/", "jBASE Cheat Sheets"]
             ]
           },
           {

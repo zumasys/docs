@@ -5,10 +5,10 @@
 ## Class JSubroutineParameters
 
 All Implemented Interfaces:[JBaseSerializable](./../io/jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io"), Serializable, Cloneable, Iterable&lt;JDynArray&gt;, Collection&lt;JDynArray&gt;, List&lt;JDynArray&gt;, RandomAccess
+
 * * *
 
-
-```
+```java
 public class JSubroutineParameters
 extends ArrayList<JDynArray>
 implements JBaseSerializable
@@ -18,7 +18,7 @@ A list of parameters to pass to a jBASE subroutine.
 
 JSubroutineParameters is based on ArrayList and its typical usage is as follows:
 
-```
+```java
 JSubroutineParameters subroutineParams = new JSubroutineParameters();
 subroutineParams.add(new JDynArray());
 subroutineParams.add(new JDynArray("two"));
@@ -34,101 +34,88 @@ See Also:`JConnection.call(java.lang.String, com.jbase.jremote.JSubroutineParame
 ### Nested Class Summary
 
 - Nested classes/interfaces inherited from interface com.jbase.jremote.io.JBaseSerializable
-    - `JBaseSerializable.TYPE`
-
-
-
-
-
+  - `JBaseSerializable.TYPE`
 
 ### Field Summary
 
 - Fields inherited from class java.util.AbstractList
-    - `modCount`
-
-
-
-
-
+  - `modCount`
 
 ### Constructor Summary
 
-
-| Constructor and Description<br> |
+| Constructor and Description |
 | --- |
-| `JSubroutineParameters()` <br> |
-
-
-
-
-
+| `JSubroutineParameters()`  |
 
 ### Method Summary
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
-| `int`<br> | `getType()` <br> |
-| `int`<br> | `getVersion()` <br> |
-| `void`<br> | `readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | `writeObject(JBaseObjectWriter writer, int version)` <br> |
-
+| `int` | `getType()`  |
+| `int` | `getVersion()`  |
+| `void` | `readObject(JBaseObjectReader reader, int version)`  |
+| `void` | `writeObject(JBaseObjectWriter writer, int version)`  |
 
 - Methods inherited from class java.util.ArrayList
-    - `add, add, addAll, addAll, clear, clone, contains, ensureCapacity, forEach, get, indexOf, isEmpty, iterator, lastIndexOf, listIterator, listIterator, remove, remove, removeAll, removeIf, removeRange, replaceAll, retainAll, set, size, sort, spliterator, subList, toArray, toArray, trimToSize`
+  - `add, add, addAll, addAll, clear, clone, contains, ensureCapacity, forEach, get, indexOf, isEmpty, iterator, lastIndexOf, listIterator, listIterator, remove, remove, removeAll, removeIf, removeRange, replaceAll, retainAll, set, size, sort, spliterator, subList, toArray, toArray, trimToSize`
 - Methods inherited from class java.util.AbstractList
-    - `equals, hashCode`
+  - `equals, hashCode`
 - Methods inherited from class java.util.AbstractCollection
-    - `containsAll, toString`
+  - `containsAll, toString`
 - Methods inherited from class java.lang.[Object](http://java.sun.com/j2se/1.5.0/docs/api/java/lang/Object.html?is-external=true "class or interface in java.lang")`finalize, getClass, notify, notifyAll, wait, wait, wait`
 - Methods inherited from interface java.util.List
-    - `containsAll, equals, hashCode`
+  - `containsAll, equals, hashCode`
 - Methods inherited from interface java.util.Collection
-    - `parallelStream, stream`
+  - `parallelStream, stream`
 
 ### Constructor Detail
 
 #### JSubroutineParameters
 
-```
+```java
 public JSubroutineParameters()
 ```
-
-
 
 ### Method Detail
 
 #### getType
 
-```
+```java
 public int getType()
 ```
-Specified by:`getType` in interface `JBaseSerializable`Returns:type id of the objects, used during the serialization
+
+Specified by:`getType` in interface `JBaseSerializable`  
+Returns:type id of the objects, used during the serialization
+
 #### getVersion
 
-```
+```java
 public int getVersion()
 ```
+
 Specified by:`getVersion` in interface `JBaseSerializable`
+
 #### writeObject
 
-```
+```java
 public void writeObject(JBaseObjectWriter writer,
                         int version)
                  throws IOException
 ```
+
 Specified by:`writeObject` in interface `JBaseSerializable`Throws:`IOException`
+
 #### readObject
 
-```
+```java
 public void readObject(JBaseObjectReader reader,
                        int version)
                 throws IOException,
                        ClassNotFoundException
 ```
+
 Specified by:`readObject` in interface `JBaseSerializable`Throws:`IOException``ClassNotFoundException`
 
-Back to [jRemote API](../../../../jremote-api/README.md)
-
+Back to [jRemote API](./../../README.md)
   
 <PageFooter />
