@@ -1,26 +1,25 @@
 # BLCREDIT
+
 <PageHeader />
 This endpoint Credits an authorized form of payment with the specified amount in the request
 
-
-
 ## POST Request Format
 
-| Attribute | Description                                                                                                           | Required
-| --------- | --------------------------------------------------------------------------------------------------------------------- |------------
-| atoken    | Authorization token to allow access to the service                                                                    | :heavy_check_mark:
-| entity    | This tells the api what databse to use for your transactions                                                          | :heavy_check_mark:
-| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/loction                             | :heavy_check_mark:
-| reg       | this identifies the POS station, user, termial or process requesting transaction                                                                                                                         | :heavy_check_mark:
-| date      | Date of the request made to TotaLink                                                                                  |
-| tran      | This is the sequential number for the REG requesting the transaction                                                  |
-| invoice   | Invoice must be unique per card request in order to request Inquiry from `/BLINQUIRY`                                 |
-| amount    | This is the amount that will be credited back to the credit card                                                     | :heavy_check_mark:
-| manual     | If flag is set to 0 then it requests an MSR (magnetic stripe), EMV (chip), or NFC (contactless) payment card interaction, else  it will request manually-entered data                                                                                                                                |
-| debug     | If flag is set then error messages will be more verbose                                                               |
-
+| Attribute | Description                                                                                                                                                           | Required           |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| atoken    | Authorization token to allow access to the service                                                                                                                    | :heavy_check_mark: |
+| entity    | This tells the api what databse to use for your transactions                                                                                                          | :heavy_check_mark: |
+| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/loction                                                                             | :heavy_check_mark: |
+| reg       | this identifies the POS station, user, termial or process requesting transaction                                                                                      | :heavy_check_mark: |
+| date      | Date of the request made to TotaLink                                                                                                                                  |
+| tran      | This is the sequential number for the REG requesting the transaction                                                                                                  |
+| invoice   | Invoice must be unique per card request in order to request Inquiry from `/blinquire`                                                                                 |
+| amount    | This is the amount that will be credited back to the credit card                                                                                                      | :heavy_check_mark: |
+| manual    | If flag is set to 0 then it requests an MSR (magnetic stripe), EMV (chip), or NFC (contactless) payment card interaction, else  it will request manually-entered data |
+| debug     | If flag is set then error messages will be more verbose                                                                                                               |
 
 ## Example Request
+
 ```Javascript
 {
     "atoken": {{atoken}},
@@ -37,13 +36,15 @@ This endpoint Credits an authorized form of payment with the specified amount in
 ```
 
 ## Example Response
-|Attribute| Description                                     |                                                 
-|----------|------------------------------------------------|
-|verified  | 1 if success 0 if failure                      |
-|errorCode | Error Code                                     |
-|errMessage| Error Message                                  |
-|resultId  | If error ocurred will be empty, otherwise will hold the reqID that can be used for |
-|ccvRec    | Base 64 Encoded String which holds the Token   |
+
+| Attribute  | Description                                                                        |
+| ---------- | ---------------------------------------------------------------------------------- |
+| verified   | 1 if success 0 if failure                                                          |
+| errorCode  | Error Code                                                                         |
+| errMessage | Error Message                                                                      |
+| resultId   | If error ocurred will be empty, otherwise will hold the reqID that can be used for |
+| ccvRec     | Base 64 Encoded String which holds the Token                                       |
+
 ```Javascript
 {
     "verified": "1",

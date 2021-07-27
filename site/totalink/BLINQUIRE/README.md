@@ -1,21 +1,23 @@
 # BLINQUIRE
+
 <PageHeader />
 This endpoint provides information on a given transaction through the provided invoice in the response
 
 ## POST Request Format
 
-| Attribute | Description                                                                                                           | Required
-| --------- | --------------------------------------------------------------------------------------------------------------------- |------------
-| atoken    | Authorization token to allow access to the service                                                                    | :heavy_check_mark:
-| entity    | This tells the api what databse to use for your transactions                                                          | :heavy_check_mark:
-| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/loction                             | :heavy_check_mark:
-| reg       | this identifies the POS station, user, termial or process requesting transaction                                                                                                                         | :heavy_check_mark:
-| date      | Date of the request made to TotaLink                                                                                  |
-| tran      | This is the sequential number for the REG requesting the transaction                                                  |
-| invoice   | Invoice must be unique per card request in order to request Inquiry from `/BLINQUIRY`                                 | :heavy_check_mark:
-| debug     | If flag is set then error messages will be more verbose                                                               |
+| Attribute | Description                                                                               | Required           |
+| --------- | ----------------------------------------------------------------------------------------- | ------------------ |
+| atoken    | Authorization token to allow access to the service                                        | :heavy_check_mark: |
+| entity    | This tells the api what databse to use for your transactions                              | :heavy_check_mark: |
+| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/loction | :heavy_check_mark: |
+| reg       | this identifies the POS station, user, termial or process requesting transaction          | :heavy_check_mark: |
+| date      | Date of the request made to TotaLink                                                      |
+| tran      | This is the sequential number for the REG requesting the transaction                      |
+| invoice   | Invoice must be unique per card request in order to request Inquiry from `/blinquire`     | :heavy_check_mark: |
+| debug     | If flag is set then error messages will be more verbose                                   |
 
 ## Sample Request
+
 ```Javascript
 {
     "atoken": {{atoken}},
@@ -30,14 +32,16 @@ This endpoint provides information on a given transaction through the provided i
 ```
 
 ## Sample Response
-|Attribute| Description                                     |                                                 
-|----------|------------------------------------------------|
-|verified  | Flag will be set to 1 if call was successfull or 0 if it failed                    |
-|errorCode | Error Code                                     |
-|errMessage| Error Message                                  |
-|resultId  | This is the reqid of the transaction           |
-|ccvRec    | Base 64 Encoded String which holds the Token   |
-|signature | Base 64 encoded GZIPPED BMP file               |
+
+| Attribute  | Description                                                     |
+| ---------- | --------------------------------------------------------------- |
+| verified   | Flag will be set to 1 if call was successfull or 0 if it failed |
+| errorCode  | Error Code                                                      |
+| errMessage | Error Message                                                   |
+| resultId   | This is the reqid of the transaction                            |
+| ccvRec     | Base 64 Encoded String which holds the Token                    |
+| signature  | Base 64 encoded GZIPPED BMP file                                |
+
 ```javascript
 {
     "verified": "1",

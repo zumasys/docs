@@ -1,24 +1,26 @@
 # BLSALE
+
 <PageHeader />
 
-The `/BLSALE` endpoint authorizes the form of payment and captures the payment. See below for request/response examples.
+The BLSALE endpoint authorizes the form of payment and captures the payment. See below for request/response examples.
 
 ## POST Request Format
 
-| Attribute | Description                                                                                                           |Required
-| --------- | --------------------------------------------------------------------------------------------------------------------- |--------------------
-| atoken    | Authorization token to access API                                                                                     | :heavy_check_mark:
-| entity    | Description of the resource / service                                                                                 | :heavy_check_mark:
-| store     | This is a unique assignment for your location(s) Merchant accounts are assigned by store/Location                                                                                                                            | :heavy_check_mark:
-| reg       | This identifies the POS station, user, terminal or process requesting a transaction                                                                                                                         | :heavy_check_mark:
-| date      | This is the date of the request made to TotaLink                                                                    |
-| tran      | This is the sequential number for the REG requesting the transaction                                                                                                                         |
-| invoice   | This is the sequential number that will allow INQUIRY based on this ID through BLINQUIRY                                                                                                      |
-| amount    | Amount to be authorized with two implied decimals places (example: to specify "$10.00," use "1000")                                                                                                                             | :heavy_check_mark:
-| manual    | If flag is set to 0 then it requests an MSR (magnetic stripe), EMV (chip), or NFC (contactless) payment card interaction, else  it will request manually-entered data                                                  |
-| debug     | If flag is set then error messages will be more verbose                                                               |
+| Attribute | Description                                                                                                                                                           | Required           |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| atoken    | Authorization token to access API                                                                                                                                     | :heavy_check_mark: |
+| entity    | Description of the resource / service                                                                                                                                 | :heavy_check_mark: |
+| store     | This is a unique assignment for your location(s) Merchant accounts are assigned by store/Location                                                                     | :heavy_check_mark: |
+| reg       | This identifies the POS station, user, terminal or process requesting a transaction                                                                                   | :heavy_check_mark: |
+| date      | This is the date of the request made to TotaLink                                                                                                                      |
+| tran      | This is the sequential number for the REG requesting the transaction                                                                                                  |
+| invoice   | This is the sequential number that will allow INQUIRY based on this ID through blinquire                                                                              |
+| amount    | Amount to be authorized with two implied decimals places (example: to specify "$10.00," use "1000")                                                                   | :heavy_check_mark: |
+| manual    | If flag is set to 0 then it requests an MSR (magnetic stripe), EMV (chip), or NFC (contactless) payment card interaction, else  it will request manually-entered data |
+| debug     | If flag is set then error messages will be more verbose                                                                                                               |
 
 ## Example Request
+
 ```Javascript
 {
     "atoken": {{atoken}},
@@ -36,16 +38,16 @@ The `/BLSALE` endpoint authorizes the form of payment and captures the payment. 
 
 ## Example Response
 
-|Attribute| Description                                     |                                                 
-|----------|------------------------------------------------|
-|verified  | Flag will be set to 1 if call was succesfull or 0 if it failed                    |
-|errorCode | Error Code                                     |
-|errMessage| Error Message                                  |
-|resultId  | If error ocurred will be empty, otherwise will hold the reqID that can be used for the BLTOKENREFUND endpoint|
-|ccvRec    | Base 64 Encoded String which holds the Token   |
-|token     | Token that is represented as a 16 character string                            |
-|expiry    | Expiration date for card used formated as MMYY | 
-|signature | Base 64 encode GZIPPED BMP FILE                |
+| Attribute  | Description                                                                                                   |
+| ---------- | ------------------------------------------------------------------------------------------------------------- |
+| verified   | Flag will be set to 1 if call was succesfull or 0 if it failed                                                |
+| errorCode  | Error Code                                                                                                    |
+| errMessage | Error Message                                                                                                 |
+| resultId   | If error ocurred will be empty, otherwise will hold the reqID that can be used for the BLTOKENREFUND endpoint |
+| ccvRec     | Base 64 Encoded String which holds the Token                                                                  |
+| token      | Token that is represented as a 16 character string                                                            |
+| expiry     | Expiration date for card used formated as MMYY                                                                |
+| signature  | Base 64 encode GZIPPED BMP FILE                                                                               |
 
 ```Javascript
 {
