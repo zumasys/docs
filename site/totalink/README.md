@@ -22,3 +22,5 @@ Endpoint URL: [https://test-gateway.total-computing.com/api](https://test-gatewa
 | [bliframe](./BLIFRAME/README.md)           | Returns an html file for data capture             |
 
 To request access to TotaLink please contact [sales@zumasys.com](mailto:sales@zumasys.com)
+
+<PageFooter />
