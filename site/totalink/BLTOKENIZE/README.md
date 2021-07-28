@@ -6,7 +6,7 @@ This endpoint tokenizes a form of payment for use in other endpoints such as BLT
 ## POST Attribute Format
 
 | Attribute | Description                                                                                                                                           | Required           |
-| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
 | atoken    | Authorization token to allow access to the service                                                                                                    | :heavy_check_mark: |
 | entity    | This tells the api what databse to use for your transactions                                                                                          | :heavy_check_mark: |
 | store     | The unique assignment for you location(s) Merchant accounts are assigned by store/loction                                                             | :heavy_check_mark: |
