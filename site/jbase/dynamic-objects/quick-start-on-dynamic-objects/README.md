@@ -2,7 +2,8 @@
 
 <PageHeader />
 
-This article is designed to get you started on created database/object classes for your business objects.  We will be using the NorthWinds sample database from [https://github.com/zumasys/z2018](https://github.com/zumasys/z2018).  The purpose of this article is to show how you can build reusable classes that handle all extract, transform and load ([ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load)) work in and out of a PICK object.
+This article is designed to get you started on created database/object classes for your business objects. We will be using the NorthWinds sample database from [https://github.com/zumasys/z2018](https://github.com/zumasys/z2018).  
+The purpose of this article is to show how you can build reusable classes that handle all extract, transform and load ([ETL](https://en.wikipedia.org/wiki/Extract,_transform,_load)) work in and out of a PICK object.
 
 Here is our layout for our pick record
 
