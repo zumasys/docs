@@ -122,7 +122,7 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 | [JBCSPOOLERDIR](./../jbcspoolerdir) | specify alternate spooler directory |
 | [JBCSPOOLER\_JOBRESET](./../jbcspooler_jobreset) | controls how the print job counter is reset |
 | [JBC\_DESPOOLSLEEP](./../jbc_despoolsleep) | specify the interval for despoolers to check for queued jobs |
-| [JBC\_INVERT\_ALPHA\_CHARS](./../jbc_invert_alpha_chars) | set to 1 to invert the case of alphabetic characters entered with [INPUT](./../../jbase-basic-(jbc)/input). |
+| [JBC\_INVERT\_ALPHA\_CHARS](./../jbc_invert_alpha_chars) | set to 1 to invert the case of alphabetic characters entered with [INPUT](./../../jbc/input/README.md). |
 | [JBC\_OLD\_SP\_EDIT](./../jbc_old_sp_edit) | specifies the alternative SP-EDIT format |
 | [JBCLISTFILE](jbclistfile) | specify alternate select list file |
 | [JBCLISTID](./../jbclistid) | force user account name to be part stored list ids. |

@@ -34,7 +34,7 @@ Total byte count:            6,514,464,555
 
 ## Viewing the Transaction Log
 
-jBASE has a special jEDI driver that will allow you to view a transaction log set directly as if it was a jBASE hash file. When you do this jBASE will create a stub file (dictionary) that will point to one of your transaction logs (by default it will be the current one).
+jBASE has a special jEDI driver that will allow you to view a transaction log set directly as if it was a jBASE hash file. When you do this, jBASE will create a stub file (dictionary) that will point to one of your transaction logs (by default it will be the current one).
 
 ### Create transaction logs
 
@@ -46,9 +46,14 @@ CREATE-FILE TJ1 TYPE=TJLOG TERMINATE=eos
 [ 417 ] File TJ1 created , type = TJLOG
 ```
 
-This creates an entry in the TJ1 directory: TJ1 JBC\_\_SOB jBASE\_TJ\_INIT SET: set=current terminate=eos
+This creates an entry in the current directory:
 
-You can now use normal jBASE jQL commands to look at the log.  It is usually helpful to look at this log and see what is logging.  You often will find items such as tmp directories or the spooler that are generating alot of transactions which don't need to be replicated.
+```
+TJ1 
+JBC__SOB jBASE_TJ_INIT SET: set=current terminate=eos
+```
+
+You can now use normal jBASE jQL commands to look at the log.  It is usually helpful to look at this log and see what is logging.  You often will find items such as tmp directories or the spooler that are generating a lot of transactions which don't need to be replicated.
 
 The following record types are used in the transaction journal log (see  dictionary item TYPE).
 
@@ -95,31 +100,34 @@ END
 
 The program identified by the “log notify program” is called each time that a message is entered into jediLoggerAdminLog. It is the responsibility of the called program to deal with the reason for the message being entered. The function SENTENCE returns information from JediLoggerAdminLog about the latest entry.
 
-NOTE: The message is designated INFORMATION, WARNING or FATAL ERROR. This designation can be used by the log notify program to decide on a course of action. The messages that can be logged are:
+## Note  
+
+>The message is designated INFORMATION, WARNING or FATAL ERROR.  
+>This designation can be used by the log notify program to decide on a course of action. The messages that can be logged are:
 
 | Type | Message | STDOUT |
 | --- | --- | --- |
 | INFORMATION | Log set changed to *s* | Yes |
-|  | Log set *s*truncated | Yes |
-|  | File *f*for log set *s*REMOVED | Yes |
-|  | File *f*for log set *n*changed to *newfilename* | Yes |
-|  | *n*files imported to log set *n*(see -i option) | Yes |
-|  | Status of logger set to *status*(current log set *s*) | Yes |
-|  | Sync count changed from every *n1*seconds to every  *n2* seconds | Yes |
-|  | Log file warning threshold set to *p*initial percentage thereafter every additional *q*percent or *n*seconds | Yes |
+|  | Log set *s* truncated | Yes |
+|  | File *f* for log set *s* REMOVED | Yes |
+|  | File *f* for log set *n* changed to *newfilename* | Yes |
+|  | *n* files imported to log set *n* (see -i option) | Yes |
+|  | Status of logger set to *status* (current log set *s*) | Yes |
+|  | Sync count changed from every *n1* seconds to every  *n2* seconds | Yes |
+|  | Log file warning threshold set to *p* initial percentage thereafter every additional *q* percent or *n* seconds | Yes |
 |  | Admin. Log Notify Program now set to *program* | Yes |
 |  | Admin. Log Notify Program REMOVED | Yes |
-|  | Extended Record Status now set to *on|off* | Yes |
+|  | Extended Record Status now set to *on\|off* | Yes |
 |  | Log set switch detected, was set *n1*, now set *n2* | No |
 |  | Kill initiated on jlogdup process id *pid*: Process id pid from port *n* | Yes |
 |  | First record read from set *n* | Yes |
-|  | Termination  Statistics:   usr   *x*,   sys   *y*,   elapsed *z r*records read from current log set number *n*: *r*records, *b*blocks, *rb*record bytes , *e*errors in *file* | Yes |
+|  | Termination  Statistics:   usr   *x*,   sys   *y*,   elapsed *z*: *r* records read from current log set number *n*: *r* records, *b* blocks, *rb* record bytes , *e* errors in *file* | Yes |
 | WARNING | Journal Log Files now at *p*% capacity | No |
 | FATAL ERROR | Unable to open logger configuration file *filename* | Yes |
 |  | Sync demon appears to have died prematurely | Yes |
-|  | Error number *errno*while reading from file *filename* | No |
-|  | Error number *errno*while writing to log file | No |
-|  | Error errno while writing to log journal file *filename*" | Yes |
+|  | Error number *errno* while reading from file *filename* | No |
+|  | Error number *errno* while writing to log file | No |
+|  | Error errno while writing to log journal file *filename* | Yes |
 |  | Error errno while writing to log journal | Yes |
 |  | Unable to open logger file *filename* | Yes |
 |  | Out of memory to log update | Yes |
