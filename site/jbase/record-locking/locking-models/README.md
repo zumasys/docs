@@ -23,17 +23,21 @@ The remainder of this document assumes jBASE release 5.7.10 or higher, and assum
 
 The 4 record locking strategies that jBASE now employs are as follows:
 
-- `Thread` based locks. This is the default for jBASE. Each thread level in jBASE (e.g. [`PERFORM`](./../../jbc/execute/README.md) creates a new thread level) creates and owns its own locks and does not share them with child or parent programs. The locks are released by the following actions
-  - When a [`WRITE`](./../../jbc/write/README.md), [`RELEASE`](./../../jbc/release/README.md) or [`DELETE`](./../../jbc/delete/README.md) statment is performed.
-  - When the program issues a STOP, ABORT, EXIT(), the program ends or is logged off.
-  - When the file variable is closed by any means (e.g. the variable is re-assigned, or goes out of scope such as a RETURN from a SUBROUTINE will cause all local variables to go out of scope)
-- `PORT` based locks. In this model, a record lock is shared by all child and parent threads with the same port number. Locks are released as per Thread models.
-- `D3` locks. *NEW*. These locks are compatible with D3 locking. Fundamentally they work similar to Thread based locks. However, locks are only released under the following circumstances
-  - When a [`WRITE`](./../../jbc/write/README.md), [`RELEASE`](./../../jbc/release/README.md) or [`DELETE`](./../../jbc/delete/README.md) statment is performed.
-  - When the program issues a STOP, ABORT, EXIT(), the program ends or is logged off.
-- `PERSISTENT` session locks. *NEW* These locks are designed for web-based applications with non-persistent connections. The locks are owned by a prescribed session id rather than the port or thread that took the lock. These locks are only released under the following circumstances
-  - When a [`WRITE`](./../../jbc/write/README.md),  [`RELEASE`](./../../jbc/release/README.md) or [`DELETE`](./../../jbc/delete/README.md) statment is performed by a program that has configured themselves with the same session id as that when the lock was taken (see later for how to do this)
-  - When they timeout after the prescribed timeout period  
+- `Thread` based locks. 
+  - This is the default for jBASE. Each thread level in jBASE (e.g. [`PERFORM`](./../../jbc/execute/README.md) creates a new thread level) creates and owns its own locks and does not share them with child or parent programs. The locks are released by the following actions:
+    - When a [`WRITE`](./../../jbc/write/README.md), [`RELEASE`](./../../jbc/release/README.md) or [`DELETE`](./../../jbc/delete/README.md) statment is performed.
+    - When the program issues a STOP, ABORT, EXIT(), the program ends or is logged off.
+    - When the file variable is closed by any means (e.g. the variable is re-assigned, or goes out of scope such as a RETURN from a SUBROUTINE will cause all local variables to go out of scope)
+- `PORT` based locks. 
+  - In this model, a record lock is shared by all child and parent threads with the same port number. Locks are released as per Thread models.
+- `D3` locks. *NEW*. 
+  - These locks are compatible with D3 locking. Fundamentally they work similar to Thread based locks. However, locks are only released under the following circumstances:
+    - When a [`WRITE`](./../../jbc/write/README.md), [`RELEASE`](./../../jbc/release/README.md) or [`DELETE`](./../../jbc/delete/README.md) statment is performed.
+    - When the program issues a STOP, ABORT, EXIT(), the program ends or is logged off.
+- `PERSISTENT` session locks. *NEW* 
+  - These locks are designed for web-based applications with non-persistent connections. The locks are owned by a prescribed session id rather than the port or thread that took the lock. These locks are only released under the following circumstances:
+    - When a [`WRITE`](./../../jbc/write/README.md),  [`RELEASE`](./../../jbc/release/README.md) or [`DELETE`](./../../jbc/delete/README.md) statment is performed by a program that has configured themselves with the same session id as that when the lock was taken (see later for how to do this)
+    - When they timeout after the prescribed timeout period  
 
 ## Selecting the locking strategy
 
@@ -51,7 +55,9 @@ The `PORT` based strategy can be chosen by [`jDLS`](./../../jdls/README.md) usin
 
 3 of the 4 strategies can be selected using the `-l` option to jDLS i.e. `-lport`, `-lthread` or `-ld3`.
 
-The `persistent` strategy is only available programatically (see [Programmatically changing the lock strategy](#programatically-changing-the-lock-strategy) for how to do this). The reasons for this are twofold:
+The `persistent` strategy is only available programatically (see [Programmatically changing the lock strategy](#programatically-changing-the-lock-strategy) for how to do this).   
+
+The reasons for this are twofold:
 
 1) The `persistent` strategy requires a session id and timeout for persistent locks.
 2) Persistent locks are designed for server applications in a non-persistent state, e.g. REST applications, and so the same process will continually be changing their session id and/or  timeout for each connection it processes, hence there is no such thing as a default session id.
