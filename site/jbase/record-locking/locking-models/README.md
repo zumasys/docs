@@ -13,7 +13,11 @@ Following changes to jBASE from release 5.7.10 onwards, a number of record locki
 - Simple and flexible mechanisms to report and clear record locks.
 - Extended information kept with the record lock, such as file name, application source and line number where lock was taken, session id, age of lock and any session timeout.
 - User defined event handler for interrupting waits on record locks
-- Performance improvements
+- Performance improvements  
+
+## Note
+
+>As part of these changes, the $persistent class has been deprecated.
 
 The remainder of this document assumes jBASE release 5.7.10 or higher, and assumes the [`jDLS`](./../../jdls/README.md) locking daemon is active.
 
