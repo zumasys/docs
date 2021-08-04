@@ -7,10 +7,10 @@
   - Browser events and controls completed
   - Timer properties completed
   - Menu properties completed
-  - Tree menu highlighting fixed
-  - Updated menu tabs
+  - Tree menu highlighting updated
+  - Menu tabs updated
 - Styles
-  - Buttons and input box improvements
+  - Button and input box improvements
   - Icons added to header
 
 
