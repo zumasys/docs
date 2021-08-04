@@ -2,6 +2,18 @@
 
 <PageHeader />
 
+## Release Notes - August 4th, 2021  
+- Controls
+  - Browser events and controls completed
+  - Timer properties completed
+  - Menu properties completed
+  - Tree menu highlighting fixed
+  - Updated menu tabs
+- Styles
+  - Buttons and input box improvements
+  - Icons added to header
+
+
 ## Release Notes - July 20th, 2021  
 - Controls
    - Form resize, minimized, maximize completed
