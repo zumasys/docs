@@ -16,7 +16,7 @@ Where **expression1** is the character string to be searched for occurrences.
 
 > Both **expression1** and **expression2** may evaluate to any data type but logically they will evaluate to character strings.
 
-The count is made on overlapping occurrences as a pattern match from each character in expression1.
+The count is made on overlapping occurrences as a pattern match from each character in **expression1**.
 
 This means that the string **jjj** occurs 3 times in the string **jjjjj**.
 
@@ -29,6 +29,8 @@ CRT "There are ": COUNT(Calc, "*") : " multiplications"
 
 See also : [DCOUNT.](./../dcount)
 
-Go back to [jBASE BASIC](./../README.md)
+Go back to [jBASE BASIC](./../README.md)  
+
+Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)  
 
 <PageFooter />

@@ -44,7 +44,7 @@ UNTIL Answer = '' DO
 REPEAT
 ```
 
-In the above scenario, a single comment is printed depending on the value of "Answer". If "Answer" is not 1 or 2 then the default **CASE** 1 rule will be executed as a "catch all".
+In the above scenario, a single comment is displayed depending on the value of "Answer". If "Answer" is not 1 or 2 then the default **CASE** 1 rule will be executed as a "catch all".
 
 Go back to [jBASE BASIC](./../README.md)
 

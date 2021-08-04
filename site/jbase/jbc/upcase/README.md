@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-See also: [DOWNCASE/UPCASE.](./../downcase-&-upcase)
+See also: [DOWNCASE/UPCASE.](./../downcase-upcase)
 
 Go back to [jBASE BASIC](./../README.md)
 
