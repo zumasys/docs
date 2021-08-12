@@ -2,6 +2,15 @@
 
 <PageHeader />
 
+## Release Notes - August 12th, 2021  
+- Controls
+  - Tab navigation updated
+  - Close command updated
+- Styles
+  - Grid styles updated
+- Service
+  - White Labeling support for Enterprise
+
 ## Release Notes - August 4th, 2021  
 - Controls
   - Browser events and controls completed
