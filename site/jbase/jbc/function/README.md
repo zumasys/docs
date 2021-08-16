@@ -10,11 +10,13 @@ Identifies a user-defined function, which can be invoked by other jBASE BASIC pr
 FUNCTION name {({MAT} variable, {MAT} variable...) }
 ```
 
-Where:
+## Syntax
 
 **Name** is the name by which the function is invoked.
 
 **Variable** is an expression used to pass values between the calling program and the function.
+
+## Notes
 
 The **FUNCTION** statement is used to identify user-written source code functions. Each function must be coded in a separate record and the record Id must match that of the Function Name, which in turn should match the reference in the calling program.
 
@@ -23,6 +25,8 @@ The optional comma separated variable list can be a number of expressions that p
 An extra 'hidden' variable is used to return a value from the user-written function. The value to be returned can be specified within the Function by the [RETURN(value)](./../return/README.md) statement. If using the [RETURN](./../return/README.md) statement without a value then by default it returns an empty string.
 
 The calling program must specify a [DEFFUN](./../deffun/README.md) or DEFB statement to describe the function to be called and the function source must be cataloged and locatable similar to subroutines.
+
+## Example
 
 An example of use would be:
 
