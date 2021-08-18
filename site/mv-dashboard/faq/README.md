@@ -10,6 +10,6 @@
 * [Widgets](./widgets/README.md)  
 * [What is](./what-is/README.md)  
 
-Back to [MV DAshboard](./../README.md)
+Back to [MV Dashboard](./../README.md)
 
 <PageFooter />
