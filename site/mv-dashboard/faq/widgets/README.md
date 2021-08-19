@@ -1,5 +1,7 @@
 # Widgets
 
+<PageHeader />
+
 ## How do you get started creating your own Widgets?
 
 When you log in to the dashboard as user ADMIN, you will see a tab for Admin Area. That tab will then give you tabs for Users, Widgets, and Dashboards. Under Dashboards, you will see several dashboards provided with the base system. In the Actions column you will see an icon to click for Edit Dashboard. Click on the Edit Dashboard for Chart Demo to see an example of how a dashboard is configured. You will note that Chart Demo consists of several widgets.
@@ -17,3 +19,7 @@ If the horizontal width is not sufficient to get a good display with columnar ch
 ## Are FusionWidgets and Maps supported?
 
 Zumasys has licensed a third-party product called FusionCharts as part of the MultiValue Dashboard product. FusionCharts has advanced features supporting FusionWidgets and Maps at an additional cost. Zumasys does not currently offer those features but may in the future with the additional cost passed on via different licensing options.
+
+Back to [MVDashboard FAQ](./../README.md)
+
+<PageFooter />
