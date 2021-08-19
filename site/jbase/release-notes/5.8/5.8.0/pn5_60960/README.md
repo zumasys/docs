@@ -27,7 +27,7 @@ DB-WARMSTART
 
 The DB-REMOVE command has been deprecated.
 
-The folder $JBCRELEASEDIR/databases will not longer be used.
+The folder $JBCRELEASEDIR/databases will no longer be used.
 
 Back to [5.8.0 Release Notes](./../README.md)
 
