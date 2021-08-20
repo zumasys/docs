@@ -162,7 +162,7 @@ If the amount of space consumed in the file system, which the active logset resi
 
 ### Sync Transactions
 
-An option “SYNC” exists for the [TRANSTART](../../../jbase-basic-(jbc)/transtart/README.md) command which will force-flush the database and journal following a transaction commit. The option in jlogadmin allows for this option to be invoked globally. If “Sync Transactions” is set to “on” then all committed transactions will cause the force-flush. If set to “off” then committed will not automatically force-flush the database and journal unless the “SYNC” option is present in individual [TRANSTART](../../../jbase-basic-(jbc)/transtart/README.md) commands.
+An option “SYNC” exists for the [TRANSTART](../../../jbc/transtart/README.md) command which will force-flush the database and journal following a transaction commit. The option in jlogadmin allows for this option to be invoked globally. If “Sync Transactions” is set to “on” then all committed transactions will cause the force-flush. If set to “off” then committed will not automatically force-flush the database and journal unless the “SYNC” option is present in individual [TRANSTART](../../../jbc/transtart/README.md) commands.
 
 ### Encrypt Records
 

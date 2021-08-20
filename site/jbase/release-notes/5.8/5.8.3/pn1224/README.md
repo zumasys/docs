@@ -25,7 +25,7 @@ These are:
 
 ### Note
 
->The main difference between Segmentation Fault and Bus Error is that Segmentation Fault indicates an invalid access to a valid memory, while Bus Error indicates an access to an invalid address.  
+>The main difference between Segmentation Fault and Bus Error is that Segmentation Fault indicates an invalid access to a valid memory address, while Bus Error indicates an access to an invalid address.  
 
 When one of these signals occur, we print a few lines of detail to the terminal and some information to a file. The file information is defined by JBC_CORE_DUMP, see below. As an example of the terminal output ...
 

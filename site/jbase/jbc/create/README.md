@@ -36,8 +36,8 @@ END
 
 ### Warning
 
-**OPENSEQ** will automatically create the target file if **openseq\_creates = true** (in ***Config\_EMULATE***).
-You can verify by running **config-strings**.
+**OPENSEQ** will automatically create the target file if **openseq\_creates = true** is present (in ***Config\_EMULATE***).  
+You can verify this by running **config-strings**.
 
 Go back to [jBASE BASIC](./../README.md)
 

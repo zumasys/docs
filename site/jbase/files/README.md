@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-## At the jShell
+## At the jshell
 
 | <!----> | <!----> |
 | --- | --- |
@@ -14,6 +14,7 @@
 | <!----> | <!----> |
 | --- | --- |
 | [Copy](./copy/README.md)  | Copying items between files |
+| [Delete](./delete/README.md) | Delete items from a file |
 | [jComp](./jcomp/README.md)  | Comparing items in files |
 | [jRF](./jrf/README.md)  | Resizing Files |
 | [jStat](./jstat/README.md)  | jBASE File Statistics |
@@ -32,7 +33,7 @@
 | <!----> | <!----> |
 | --- | --- |
 | [Extended Dictionaries](./extended-dictionary/README.md)  | Dictionay Extensions for ODBC |
-| [File Integrity](./file-integrity/README.md)  | File Integratity |
+| [File Integrity](./file-integrity/README.md)  | File Integrity |
 
 [Back to Knowledgebase](./../README.md)
 

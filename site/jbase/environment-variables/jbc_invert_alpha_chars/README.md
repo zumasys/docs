@@ -7,7 +7,7 @@
 
 ## Description
 
-With this environment variable set the case of alphabetic characters entered with the jBC **[INPUT](./../../jbase-basic-(jbc)/input)** statement is inverted.
+With this environment variable set the case of alphabetic characters entered with the jBC [INPUT](./../../jbc/input/README.md) statement is inverted.
 
 ## Values
 
@@ -19,7 +19,7 @@ None.
 
 ## Note
 
-> The environment variable is ignored by the jBC [**IN**](./../../jbase-basic-(jbc)/in) statement.
+> The environment variable is ignored by the jBC [**IN**](./../../jbc/in) statement.
 
 ## Setting
 

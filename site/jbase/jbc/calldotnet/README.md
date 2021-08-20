@@ -76,7 +76,7 @@ csc /out:myNameSpace.dll /target:library sourcefile.cs
 
 The name of the ‘.DLL’ created must be the same as the ‘namespace’ as used in the class library t locate the ‘dotNetWrapper.dll’ library:
 
-After creating the library, place it in the same private directory as the application. (i.e. the same directory as the jBASE BASIC executable that will call the class) This is a requirement of the .NET paradigm and not jBASE. The directory should also be in the PATH environment variable.
+After creating the library, place it in the same private directory as the application. (i.e. the same directory as the jBASE BASIC executable that will call the class). This is a requirement of the .NET paradigm and not jBASE. The directory should also be in the PATH environment variable.
 
 After creating the functions above, the function can be used as:
 

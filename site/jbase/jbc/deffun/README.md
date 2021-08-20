@@ -4,7 +4,7 @@
 
 ## Description
 
-This statement is used to declare an external jBASE BASIC function to the jBASE BASIC compiler and optionally define its arguments. The statement is used in the program that calls the function. It takes the general form:
+This statement is used to declare an external function to the jBASE BASIC compiler and optionally define its arguments. The statement is used in the program that calls the function. It takes the general form:
 
 ```
 DEFFUN FuncName({ {MAT} Argument1, {MAT} Argument2...})

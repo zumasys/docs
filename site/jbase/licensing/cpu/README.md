@@ -20,7 +20,8 @@ The following licensing subscriptions are supported in jBASE from release 5.8 an
 
 ## The No-License Installation
 
-jBASE may be run without any license subject to hard-coded restrictions. Without any defined license, jBASE will default to a 2-user development license and a self-explanatory message appears like this:
+jBASE may be run without a license subject to hard-coded restrictions.   
+Without any defined license, jBASE will default to a 2-user development license and a self-explanatory message appears like this:
 
 ```
 $ jsh

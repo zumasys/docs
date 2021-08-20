@@ -47,7 +47,7 @@ set JBCERRFILE=C:\home\globals\jbcmessages
 >
 > For example, to prevent a program entering the debugger when an uninitialized variable is encountered, remove the **^WARNING^** string from the ZERO\_USED message.
 
-Back to [Error Handling](./../../jbase-basic-(jbc)/jbc-error-handling)
+Back to [Error Handling](./../../jbc-error-handling/README.md)
 
 Go Back to [Environment Variables](./../README.md)
 

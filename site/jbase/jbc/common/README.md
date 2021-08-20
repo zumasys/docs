@@ -22,7 +22,7 @@ The list of variables should not have been declared or referenced previously in 
 >
 > Variables declared without naming the common area may only be shared between the program and its subroutines (unless [CHAIN](./../chain) is used). Variables declared in a named common area may be shared across program boundaries. When any common area is shared, all programs using it should have declared the same number of variables within it.
 >
-> [Dim](./../dimension-(dim))ensioned arrays are declared and dimensioned within the **COMMON** statement.
+> [Dim](./../dimension-dim)ensioned arrays are declared and dimensioned within the **COMMON** statement.
 
 An example of use is as:
 

@@ -7,7 +7,7 @@
 The **CLOSESEQ** statement closes the file previously opened for sequential access. It takes the general form:
 
 ```
-CLOSESEQ FileVar,
+CLOSESEQ FileVar
 ```
 
 Where:

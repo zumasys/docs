@@ -21,7 +21,7 @@ Where:
 
 The **extra** argument is optional, and is used for certain ciphers and signature algorithms.
 
-The ENCRYPT and DECRYPT functions will set a status code that can be checked using the **STATUS()** function. It is recommended that the status always be checked when using ENCRYPT and DECRYPT functions. The following status codes are used:
+The ENCRYPT and DECRYPT functions will set a status code that can be checked using the [STATUS()](./../status-function/README.md) function. It is recommended that the status always be checked when using **ENCRYPT** and **DECRYPT** functions. The following status codes are used:
 
 - 0 indicates successful operation
 - 1 indicates the method is not recognized

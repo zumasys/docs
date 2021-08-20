@@ -4,7 +4,7 @@
 
 ## Description
 
-A mechanism was required to defer a real file OPEN. This is because some jAgent routines open thousands of files into named common, yet only use a few of them.  
+A mechanism was required to defer a real file OPEN. This is because some jAgent routines may open thousands of files into named common, yet only use a few of them.  
 
 These OPENs would occur for every REST request
 

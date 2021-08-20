@@ -57,6 +57,10 @@ It is recommended that executables or subroutines of the same name are not avail
 >The (W) option will suppress the warning messages entirely and not do any checks. Using this option gives the same behaviour as prior to this patch.  
 >The jED editor provides 2 new options, W and O, which can be used in the same way as the (W and (O options described above.  
 
+## Note #3
+
+>With the advent if single objects in jBASE 5.8.x, multiple-entry shared object libraries are no longer necessary - see [SIngle Object Build](./../../compilation/single-object-build/README.md)  
+
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

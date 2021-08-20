@@ -56,7 +56,7 @@ export JBC_OLD_SP_EDIT=1
 SET JBC_OLD_SP_EDIT=1
 ```
 
-See also the behavior of the [standard SP-EDIT](./../../administration/spooler/sp-edit).
+See also the behavior of the [standard SP-EDIT](./../../spooler/sp-edit/README.md).
 
 Back to [Environment Variables](./../README.md)
 
