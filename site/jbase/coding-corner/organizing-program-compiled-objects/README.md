@@ -4,7 +4,7 @@
 
 | Note |
 | --- |
-|This article assumes you are using the 'legacy' mode of object creation.  At release 5.8 of jBASE, a new object creation model called Single Object was introduced.  To use it, you must opt-in meaning that the legacy model of objection creation remains the default behavior.  If you use Single Object, then this article does not apply to you. |
+|This article assumes you are using the 'legacy' mode of object creation.  At release 5.8 of jBASE, a new object creation model called Single Object was introduced.  To use it, you must opt-in meaning that the legacy model of objection creation remains the default behavior and you must set the JELF environment variable to use single object build.  If you use Single Object, then this article does not apply to you. |
 
 ## Flexibility is a Dual-Edged Sword
 
