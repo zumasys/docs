@@ -2,7 +2,7 @@
 
 <PageHeader />  
 
-With jBASE 5.8 onwards and 64 bit architecture we can take an approach to compilation which is easier to manage and provides many other features. This approach involves taking a single source that is compiled with BASIC, and this creates a single shared object and that is it! The shared object has meta-data appended to the object, similar to the ELF on Linux, so we've named it a JELF object, even if it isn't exactly an ELF format file.  
+With jBASE 5.8 onwards and 64 bit architecture, we can take an approach to compilation which is easier to manage and provides many other features. This approach involves taking a single source that is compiled with BASIC, and this creates a single shared object and that is it! The shared object has meta-data appended to the object, similar to the ELF on Linux, so we've named it a JELF object, even if it isn't exactly an ELF format file.  
 
 We will refer to this paradigm as JELF. It is opt-in, so as of jBASE 5.8 you have to enable it. Without the enablement of JELF, compilation will continue as previous releases, which is the BASIC command creates an object file, and CATALOG will merge a number of object files into larger shared object files. Of course with JELF enabled, we no longer have these larger shared object files, just one object file per source.
 
