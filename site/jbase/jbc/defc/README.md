@@ -81,6 +81,121 @@ int_result = MyCalc(int1, int2)
 CRT var_result, int_result
 ```
 
+## Dealing with non-Standard C data types
+There may be situations where you need to work with a structure/class object beyond the bounds of the standard
+INT, STRING, VAR types. In these situations these object/pointers should be stored in a regular jBC var as follows:
+
+```
+void storeMyStruct(DPSTRUCT * dp, MyStruct* ptr, VAR * jbcVAR) {
+    if (ptr) {
+        if (jbcVAR->VarUnion.DynamicObjectPointer) {
+            VAR_RELEASE_VB(jbcVAR); // in case you’re reusing an existing MyStruct VAR handle in the jBC code
+        }
+        VAR_INITIALISE_VB(jbcVAR);
+        STORE_VBO(jbcVAR, ptr);
+    } else {
+        jbcVAR->VarUnion.DynamicObjectPointer = 0;
+    }
+}
+
+MyStruct * getMyStruct(JBASEDP VAR* jbcVAR)
+{
+    MyStruct * ptr;
+
+    ptr = (MyStruct*)(jbcVAR->VarUnion.DynamicObjectPointer);
+
+    return ptr;
+}
+
+INT32 createMyStruct(DPSTRUCT dp, VAR * input, VAR * jbcVAR) {
+    INT32 rc = 0;
+    char * string_val = (char*)CONV_SFB(input);
+    MyStruct * ptr = some_func_to_create_MyStruct(string_val);
+    if (ptr) {
+        storeMyStruct(dp, ptr, jbcVAR);
+    } else {
+        rc = -1;
+    }
+    return rc;
+}
+
+INT32 getMyStruct(DPSTRUCT dp, VAR * input, VAR * jbcVAR) {
+    INT32 rc = 0;
+    char * string_val = (char*)CONV_SFB(input);
+    MyStruct * ptr = some_func_to_create_MyStruct(string_val);
+    if (ptr) {
+        storeMyStruct(dp, ptr, jbcVAR);
+    } else {
+        rc = -1;
+    }
+    return rc;
+}
+```
+**createMyStruct()** can now be called from a jBC program:
+```
+DEFC INT createMyStruct(VAR, VAR)
+...
+rc = createMyStruct(my_jbc_input_var, h_MyStruct)
+```
+**h_MyStruct** can now be passed to another DEFC function to in turn call an external C API that expects a **MyStruct** object.
+```
+DEFC INT useMyStruct(VAR, VAR)
+...
+rc = useMyStruct(h_MyStruct, resultVar) ;! resultVar could be any type of result, even another struct/class abstract VAR
+```
+...and...
+```
+INT32 useMyStruct(DPSTRUCT * dp, VAR * jbcVAR, VAR * resultVar) {
+    MyStruct * ptr = getMyStruct(dp, jbcVAR);
+    ....
+}
+```
+
+If using c++ you could use a template class instead of hard coding your object type (e.g. MyStruct).
+```
+template <class T>
+
+T * getPtr(VAR* v_ptr, DPSTRUCT * dp)
+{
+        T * ptr;
+
+        ptr = (T*)(v_ptr->VarUnion.DynamicObjectPointer);
+
+        return ptr;
+}
+
+template <class T>
+
+void storePtr(T * ptr, VAR * v_ptr, DPSTRUCT * dp)
+{
+        if (ptr)
+        {
+                if (v_ptr->VarUnion.DynamicObjectPointer)
+                {
+                        VAR_RELEASE_VB(v_ptr);
+                }
+                VAR_INITIALISE_VB(v_ptr);
+                STORE_VBO(v_ptr, ptr);
+        }
+        else
+        {
+                v_ptr->VarUnion.DynamicObjectPointer = 0;
+        }
+}
+```
+And then...
+```
+MyStruct * getMyStruct(DPSTRUCT * dpVAR * v_ptr)
+{
+        return getPtr<MyStruct>(dp, v_ptr);
+}
+
+void storeMyStruct(DPSTRUCT * dp, MyStruct * ptr, VAR * v_ptr)
+{
+        storePtr<MyStruct>(dp, ptr, v_ptr);
+}
+```
+
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)
