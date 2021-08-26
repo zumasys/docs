@@ -38,5 +38,4 @@ The Japanese Date format is only relevant when using an ‘ICONV’ to convert a
 
 Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

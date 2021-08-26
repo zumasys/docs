@@ -33,5 +33,4 @@ where :
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

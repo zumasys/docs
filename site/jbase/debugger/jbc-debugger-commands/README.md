@@ -15,7 +15,7 @@ If you have a Command Level or Break/End Restart feature in effect, or the break
 | <!----> | <!----> |
 | --- | --- |
 | **a** | Abort program |
-| **q** | Quit program |
+| **q{n}** | Quit program (where **n** is the program break level number, e.g. **q2** will **q**uit 2 program levels) |
 | **c** | Continue (may be allowed, depends on reason debug was entered)
 | **end** |  Terminate debugger |
 | **o** | Log off |
@@ -37,7 +37,7 @@ If you have a Command Level or Break/End Restart feature in effect, or the break
 | **b** | Display all currently active breakpoints. |
 | **b {-t} nn{,file}** | Set a breakpoint at line *nn* in the current file or that specified by the file modifier. If the **-t** option is specified, then the breakpoint will cause a display of all the trace variables rather than halting the program. |
 | **b {-t} varname** | This form of the **b** command will cause the debugger to be entered whenever the contents of the specified variable are changed. |
-| **b {-t} ex1 op ex2 {AND\|OR .....}** | Set a breakpoint at the line whose value is obtained by performing the operation **op** on expressions *ex1* and *ex2*.<br>See later for a full description of expressions. The **-t** option will cause the debugger to display all the trace points rather than halting program execution.<br>See the following table for value **op** values. |
+| **b {-t} ex1 op ex2 {AND\|OR ...}** | Set a breakpoint at the line whose value is obtained by performing the operation **op** on expressions *ex1* and *ex2*.<br><br>See later for a full description of expressions. The **-t** option will cause the debugger to display all the trace points rather than halting program execution.<br>See the following table for value **op** values. |
 
 ## op values
 
@@ -99,7 +99,7 @@ jsh home ~ -->
 | **n {nn}** | Displays the next *nn* lines of source from the current file, which is automatically loaded by the debugger if the **p** command has been used or it resides in the current working directory. |
 | **off** | Enter **o** or **off** to log off. If you enter **off** (or **OFF**), the effect is immediate. If you enter **o** (or **O**), you will be prompted for confirmation. The same restrictions apply as for the OFF command; if there are non-jBASE programs active, OFF will only terminate jBASE programs until it encounters the first non-jBASE program (usually the login shell). |
 | **p {pathlist}** | Defines the list of directories and path names (delimited by : ) that the debugger will then search to find source codes. p without a path list displays the current Path. |
-| **q {nn}** | Quit the program. *nn* is the termination status returned to any calling program. |
+| **q {nn}** | Quit the program. *nn* is the termination status returned to any calling program.<br>When you do a 'q' from the debugger, it shows what program you are returning to and gives a list of alternate quit suggestions.<br>For example:<br><br>DEBUG statement seen<br>Source changed to ./test3.jabba<br>0003 DEBUG<br>jBASE debugger->q<br>jBASE debugger , QUIT from program './test3' - return to program './test2'<br>Note. Command 'q2' - return to program 'test1'<br>Note. Command 'q3' - return to program 'jsh'<br>    Note. Command 'q4' - exit process id 2923<br><br>So a 'q' or 'q1' works as normal (except it shows you what program you are returning to)<br>A 'q2' will quit 2 programs, the current (test3) and the parent (test2) and return to 'test1'<br>A 'q3' will quit 3 programs, the current (test3) , two parent processes (test2 and test1) and return to 'jsh'<br>A 'q4' will quit 4 programs, which is all of them, and so exit the process.<br> |
 | **r device** | The debugger will take all input from, and send all output to, the specified device. Note that if the device is another terminal (or Xterm shell), that you will need to prevent the target shell from interfering with the input stream by issuing the sleep command to it. A large value should be used, or the sleep should be issued repeatedly in a loop. |
 | **s {-td{m}} {nn}** | Continue execution of jBC code in single line steps before returning to debug. The value *nn* changes the number of lines executed before returning to debug.<br>***t*** is used to display the trace table after every line executed, rather than wait for entry to debug.<br>**d** displays each line of code before executing each line of code and the optional *m* is used to set the delay in seconds (default is 5 deci-seconds). |
 | **S {-td{m}} {nn}** | Same as **s** except this will 'step over' gosub/subroutine calls, the code within the gosub/subroutine will not be displayed. |
@@ -346,7 +346,7 @@ A possible better method than the **f** option - if you know your application - 
 b $f = {filename}
 ```
 
-This will cause a break when the above condition is true. The caveat is that you need to know the source (which may not be the same as the program/subroutine). Use [jshow](./../../tools/jshow) if you are unsure:
+This will cause a break when the above condition is true. The caveat is that you need to know the source (which may not be the same as the program/subroutine). Use [jshow](./../../tools-and-utilities/jshow) if you are unsure:
 
 ```
 !jshow -c {subroutine/program}

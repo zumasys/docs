@@ -73,7 +73,7 @@ Where options:
 | -W           | Use 'W'ide char types for OLESQL |
 | prefix_chars | Leading characters to strip from dictionary when creating column names in comma separated file |
 
-jCreateCSV also recognizes jDC (jBASE extended dictionary) definitions which include details such as associated multi-value names.
+jCreateCSV also recognizes jDC ([jBASE extended dictionary](../../../files/extended-dictionary/README.md)) definitions which include details such as associated multi-value names.
 
 To specify the above options for jCreateCSV within the JEDI_CSV gui please refer to the [jEDIdrivers.ini](./../jedidrivers/README.md) section of the knowledgebase.
 

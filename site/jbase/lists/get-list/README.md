@@ -21,7 +21,7 @@ where:
 
 ## Note #1
 
-> The GET-LIST command is used to retrieve a list previously stored using the [**SAVE-LIST**](./../save-list) command or the jBC [**WRITELIST**](./../../../jbase-basic-%28jbc%29/writelist)statement. If the list is retrieved successfully, it will become the current active (default) list and will be inherited by the next jBASE command or program.
+> The GET-LIST command is used to retrieve a list previously stored using the [**SAVE-LIST**](./../save-list/README.md) command or the jBC [**WRITELIST**](./../../jbc/writelist/README.md) statement. If the list is retrieved successfully, it will become the current active (default) list and will be inherited by the next jBASE command or program.
 
 ### Example
 

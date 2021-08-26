@@ -4,7 +4,7 @@
 
 ## Document Scope
 
-Beta version of MongoDB jEDI datasheet
+MongoDB jEDI datasheet
 
 ## Description
 
@@ -103,19 +103,12 @@ And from the Mongo shell.
 { "_id" : "02", "firstname" : "CLIVE", "lastname" : "AUBERT", "addr1" : "10260 SW GREENBURG RD", "addr2" : "LEVEL 42", "city" : "SPRINGFIELD", "state" : "CA", "zip" : "12345", "hometel" : "(524) 555-2437", "worktel" : "(124) 555-1337", "email" : "clivea@alice.com", "hardware" : [ "ISERIES", "SOLARIS", "SPARC", "SOLARIS", "ASUS" ], "os" : [ "NT", "HPUX", "NT", "LINUX RH9", "LINUX RH8" ], "systemtype" : [ "jBASE", "ROS", "QM", "D3", "jBASE" ], "numusers" : [ 1691, 618, 1982, 845, 952 ], "_type" : "object" }
 ```
 
-### Warning
+### Note
 
-*Notable limitations currently:*
+Upcoming Feature Development:
 
-Does not support sub-values
-
-The transformations are slow
-
-Uses jBASE record locking only
-
-Quite a manual effort to build a driver, we don’t ship with a pre-built version
-
-Documentation limited (err…. this is it so far)
+- Sub-value support
+- Improved transformation speed
 
 [Back to Mongo](./../README.md)
 

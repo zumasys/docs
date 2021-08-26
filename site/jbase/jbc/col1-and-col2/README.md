@@ -4,7 +4,7 @@
 
 ## Description
 
-These functions can be used in conjunction with the **FIELD** function to determine the character positions one position before and one position after the location of the last field. It takes the general form:
+These functions can be used in conjunction with the [FIELD](./../field/README.md) function to determine the character positions one position before and one position after the location of the last field. It takes the general form:
 
 ```
 COL1() / COL2()

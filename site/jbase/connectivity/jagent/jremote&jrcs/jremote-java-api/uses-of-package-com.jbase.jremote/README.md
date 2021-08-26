@@ -1,4 +1,4 @@
-# USES OF PACKAGE com.jbase.jremote
+# Uses of package com.jbase.jremote
 
 <PageHeader />
 
@@ -104,9 +104,6 @@ Classes in com.jbase.jremote used by com.jbase.jremote.protocol
 | JRemoteException<br>A generic exception thrown when an unexpected error occurs whilst communicating with the remote jBASE instance.<br> |
 | JSubroutineParameters<br>A list of parameters to pass to a jBASE subroutine.<br> |
 
-
-
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
-
+Back to [jRemote API](./../../README.md)
   
 <PageFooter />

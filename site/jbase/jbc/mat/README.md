@@ -26,7 +26,7 @@ Where:
 
 ## Note
 
-> If any element of the array Array2 has not been assigned a value then a runtime error message will occur. This can be avoided by coding the statement '**MAT** Array2 = "" ' after the [DIM](./../dimension-%28dim%29) statement.
+> If any element of the array Array2 has not been assigned a value then a runtime error message will occur. This can be avoided by coding the statement '**MAT** Array2 = "" ' after the [DIM](./../dimension-dim) statement.
 
 An example would be as:
 

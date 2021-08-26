@@ -39,5 +39,6 @@ set JBASE_LOCALE=en_US
 > JBASE_I18N does not need to have been set for this environment variable to be used.
 >
 
-  
+Back to [Environment Variables](./../README.md)
+
 <PageFooter />

@@ -14,7 +14,7 @@
 | [CREATE-FILE](./create-file/README.md)                     | Creating files with the jEDI Development Kit          |
 | [Environment Variables](./environment-variables/README.md) | jEDIJDK Environment Variables                         |
 | [Exception Handling](./exception-handling/README.md)       | Handling data exceptions with the jEDIJDK             |
-| [Appendix](./extended-dictionary/README.md)                | Extended dictionary headers and data type definitions |
+| [Appendix](../../files/extended-dictionary/README.md)                | Extended dictionary headers and data type definitions |
 
 Back to [jEDI](./../jedi-development-kit/README.md)
 

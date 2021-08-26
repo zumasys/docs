@@ -15,7 +15,11 @@ The following IOCTL commands can be use to manipulate sequential files.
 | JIOCTL\_COMMAND\_SEQ\_CHANGE\_PADCHAR | Change SEQ Pad char |
 | JIOCTL\_COMMAND\_SEEK | Reposition the pointer to a specified position in the SEQ file |
 
-## EXAMPLES
+## Note
+
+>If variable length records are to be processed, then JIOCTL_COMMAND_SEQ_CHANGE_RECORDSIZE should be set to a value of 0 (zero).  
+
+## Examples
 
 ```
 INCLUDE JBC.h
@@ -93,7 +97,7 @@ CLOSESEQ outstream
 
 ```
 
-See also [Serial I/O Extensions](./../serial-i&o-extensions)
+See also [Serial I/O Extensions](./../serial-io-extensions)
 
 Go back to [jBASE BASIC](./../README.md)
 

@@ -6,7 +6,6 @@
 
 The following is a list of spooler error messages
 
-
 | Error | Most Likely Cause |
 | --- | --- |
 | CANNOT ALIGN - PRINTER BUSY | Displayed if an attempt is made to align a formqueue, which is currently being despooled? |
@@ -21,7 +20,6 @@ The following is a list of spooler error messages
 | THERE IS NO JOB WAITING FOR ALIGNMENT | Displayed if an attempt is made to execute the align option or command for a formqueue without a print job waiting for alignment. |
 | CMND? | Displayed if an invalid spooler editor command is entered. |
 
-Back to [Spooler](./../../../jbase-basic-%28jbc%29/spooler).
+Back to [Spooler](./../README.md).
 
-  
 <PageFooter />

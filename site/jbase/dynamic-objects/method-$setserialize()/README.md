@@ -106,7 +106,7 @@ Results:
 
 ## Notes
 
-See also [$tojson()](./../method-$tojson%28%29)
+See also [$tojson()](./../method-$tojson())
 
   
 <PageFooter />

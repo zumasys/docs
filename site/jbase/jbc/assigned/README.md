@@ -16,7 +16,7 @@ Where **variable** is any variable declared in the program.
 
 ## Note
 
-> Provision of this function is due to its implementation in older versions of the language. It is advised to program in such a way so as to avoid using this statement.
+>This function has been provided for backward compatibility purposes, as it has been implemented in older implementations of the language. It is advised to program in such a way that this statement will not be needed.
 
 ## Example
 

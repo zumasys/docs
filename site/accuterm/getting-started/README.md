@@ -17,7 +17,6 @@ This getting started guide walks you through the process of setting up your Zuma
 
 [Install](https://www.zumasys.com/downloads/ "https://www.zumasys.com/downloads/") and activate AccuTerm Desktop ([License Activation](./../license-activation/README.md))
 
-
 ### AccuTerm Web
 
 1. Create roles and profiles

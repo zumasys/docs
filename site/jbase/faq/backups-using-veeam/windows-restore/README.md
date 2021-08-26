@@ -52,5 +52,4 @@ Or elect to browse to and restore into a folder on a local drive, then proceed w
 
 Back to [Veeam](./../README.md)
 
-  
 <PageFooter />

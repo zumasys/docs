@@ -22,7 +22,7 @@ Where %a = account or directory name and %n = number in sequence.
 
 If subroutines were cataloged in the user account name, ‘username’, then the shared object libraries produced would be named, libusername0.so libusername1.so libusername2.so and so on.
 
-## Note
+## Note #1
 
 > To guard against libraries being cataloged incorrectly, perhaps under the wrong user account name, the definition of libname should be changed to libusername%n.so. This will ensure that any shared objects are created using the proper user account name.
 
@@ -47,6 +47,19 @@ To enable the application executables to be found the $HOME/bin path should be a
 To enable the executing application to call the correct application subroutines the JBCOBJECTLIST or LD\_LIBRARY\_PATH environment variable should be assigned to the application shared library path, $HOME/lib. If the main application program or any subroutine programs make calls to subroutines in other directories then the path of the shared library directories should also be added to the JBCOBJECTLIST or LD\_LIBRARY\_PATH environment variable.
 
 It is recommended that executables or subroutines of the same name are not available from different directories. This can make application execution very confusing and is reliant on assigning the lib or bin directories to the environment variable in the correct sequence. The assignment of the environment variables should be included and exported in the .profile script file.
+
+## Note #2
+
+>As of jBASE 5.7.6 and later, CATALOG will issue a warning if the command being cataloged clashes with another command found in the user's PATH.  
+>[See also PN5_60927](./../../release-notes/5.7/5.7.6/pn5_60927/README.md)  
+>There are 2 new options now available with CATALOG:  
+>The (O) option will override the "Do you wish to continue with CATALOG?" prompt and so the catalog will always go ahead despite any warnings.  
+>The (W) option will suppress the warning messages entirely and not do any checks. Using this option gives the same behaviour as prior to this patch.  
+>The jED editor provides 2 new options, W and O, which can be used in the same way as the (W and (O options described above.  
+
+## Note #3
+
+>With the advent if single objects in jBASE 5.8.x, multiple-entry shared object libraries are no longer necessary - see [SIngle Object Build](./../../compilation/single-object-build/README.md)  
 
 Go back to [jBASE BASIC](./../README.md)
 

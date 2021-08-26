@@ -25,7 +25,7 @@
 | [>=](./ge/README.md) | Synonym for GE |
 | A |  Throwaway |
 | [AFTER](./gt/README.md) | Synonym for GT |  
-| ALL |   |
+| ALL | Use with [CLEARSELECT](./../../tools-and-utilities/clearselect/README.md) to clear all select lists |
 | AN | Throwaway |
 | [AND](./and/README.md) | Logical AND |
 | ANY | Throwaway |
@@ -54,6 +54,7 @@
 | [CALC](./calc/README.md) | Calculate totals on I-type items |
 | [CALCULATE](./calc/README.md) | Synonym for CALC |
 | [CAPTION](./grand-total/README.md) | Synonym for GRAND-TOTAL |
+| [CLEARSELECT](./../../tools-and-utilities/clearselect/README.md) | Clear a SELECT list |
 | [CNV](./conv/README.md) | Synonym for CONV |
 | COL-FILLER |   |
 | [COL-HDR-SUPP](./col-hdr-supp/README.md) | Suppress printing of default page heading and column headings |
@@ -84,6 +85,7 @@
 | [DISPLAYNAME](./col-hdg/README.md) | Synonym for COL.HDG |
 | [EACH](./each/README.md) | Selection qulaifier |
 | [EDELETE](./../edelete/README.md) | Deletes selected records from a file. |
+| [END](./../../tools-and-utilities/clearselect/README.md) | Synonym for CLEARSELECT |
 | [ENUM](./enum/README.md) | Count the number of values which occur in a field |  
 | [ENUMERATE](./enum/README.md) | Synonym for ENUM |
 | [EQ](./eq/README.md) | Equals |
@@ -117,12 +119,14 @@
 | INVISIBLE | Throwaway |
 | ITEMS | Throwaway |
 | [LE](./le/README.md) | Less than or equal to |
-| [LIKE](./like/README.md) | Pattern matching |
+| [LIKE](./like/README.md) | Pattern matching |  
+| [LIST4](./list4/README.md) | List Item IDs of a file in two or four columns |
 | [LIST](./../list/README.md) | Generates a formatted report of records and fields from a specified file. |  
 | [LIST-ITEM](./../list-item/README.md) | Outputs the contents of items. |  
 | [LIST-LABEL](./../list-label/README.md) | Outputs data in a format suitable for producing labels. |  
 | [LIST.ITEM](./../list-item/README.md) | Synonym for LIST-ITEM |  
 | [LIST.LABEL](./../list-label/README.md) | Synonym for LIST-LABEL |  
+| [LISTF4](./listf4/README.md) | List files in an acount in four columns |
 | [LPTR](./lptr/README.md) | Direct report to a printer |
 | [LT](./lt/README.md)| Less than |
 | [MARGIN](./margin/README.md) | Define width of left margin |
@@ -172,7 +176,8 @@
 | [SELECT.ONLY](./require-select/README.md) | Synonym for REQUIRE-SELECT |
 | [SINGLE.VALUE](./single-value/README.md) | Treat a field as single-valued |
 | [SINGLEVALUED](./single-value/README.md) | Synonym for SINGLE.VALUE |
-| [SORT](./../sort/README.md) | Generates a sorted formatted report of records and fields from a specified file. |  
+| [SORT](./../sort/README.md) | Generates a sorted formatted report of records and fields from a specified file. | 
+| [SORT4](./sort4/README.md) | Sort the Item IDs of a file in four columns |
 | [SORT-ITEM](./../list-item/README.md) | Sort items and display in their internal format | |  
 | [SORT-LABEL](./../sort-label/README.md) | Outputs data in a format suitable for producing labels. |
 | [SORT.ITEM](./../list-item/README.md) | Synonym for SORT-ITEM |  

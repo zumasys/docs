@@ -3,96 +3,69 @@
 <PageHeader />
 
 ## Uses of Interface
+
 com.jbase.jremote.JSelectList
 
-| Package<br> | Description<br> |
+| Package | Description |
 | --- | --- |
- Packages that use [JSelectList](./../../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote")  | com.jbase.jremote<br> |  <br> |
-| com.jbase.jremote.io<br> |  <br> |
-| com.jbase.jremote.jca<br> |  <br> |
+| Packages that use [JSelectList](./../../jselectlist-(jremote-api) "interface in com.jbase.jremote")  | com.jbase.jremote |   |
+| com.jbase.jremote.io |   |
+| com.jbase.jremote.jca |   |
 
+### Uses of [JSelectList](./../../jselectlist-(jremote-api) "interface in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)
 
-
-
-
-
-### Uses of [JSelectList](./../../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)
-
-
-| Modifier and Type<br> | Interface and Description<br> |
+| Modifier and Type | Interface and Description |
 | --- | --- |
- Subinterfaces of [JSelectList](./../../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)  | `interface `<br> | `JCursor`<br>A cursor to a jBASE file.<br> |
+ Subinterfaces of [JSelectList](./../../jselectlist-(jremote-api) "interface in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)  |  
+|`interface` | `JCursor`<br>A cursor to a jBASE file. |
 
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote](./../../../../jremote-api) that return [JSelectList](./../../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote")  | `JSelectList`<br> | JConnection.`createSelectList(JDynArray jd)`<br>Create a select list object from an existing dynamic array containing a list of keys separated by attribute markers.<br> |
-| `JSelectList`<br> | JExecuteResults.`getReturnList()` <br> |
-| `JSelectList`<br> | JFile.`select()`<br>Returns a select list containing the record keys in this jBASE file.<br> |
+| Methods in [com.jbase.jremote](./../../../../jremote-api) that return [JSelectList](./../../jselectlist-(jremote-api) "interface in com.jbase.jremote")  |  
+|`JSelectList` | JConnection.`createSelectList(JDynArray jd)`<br>Create a select list object from an existing dynamic array containing a list of keys separated by attribute markers. |
+| `JSelectList` | JExecuteResults.`getReturnList()`  |
+| `JSelectList` | JFile.`select()`<br>Returns a select list containing the record keys in this jBASE file. |
 
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote](./../../../../jremote-api) with parameters of type [JSelectList](./../../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote")  | `JResultSet`<br> | JStatement.`execute(JDynArray queries, JSelectList selectList)`<br>Execute query using an existing select list as a filter.<br> |
-| `JResultSet`<br> | JStatement.`execute(String query, JSelectList selectList)`<br>Execute query using an existing select list as a filter.<br> |
-| `JExecuteResults`<br> | JConnection.`execute(String command, JSelectList selectList)`<br>Execute a jBASE command using an existing select list as a filter.<br> |
+| Methods in [com.jbase.jremote](./../../../../jremote-api) with parameters of type [JSelectList](./../../jselectlist-(jremote-api) "interface in com.jbase.jremote")  |
+| `JResultSet` | JStatement.`execute(JDynArray queries, JSelectList selectList)`<br>Execute query using an existing select list as a filter. |
+| `JResultSet` | JStatement.`execute(String query, JSelectList selectList)`<br>Execute query using an existing select list as a filter. |
+| `JExecuteResults` | JConnection.`execute(String command, JSelectList selectList)`<br>Execute a jBASE command using an existing select list as a filter. |
 
+### Uses of [JSelectList](./../../jselectlist-(jremote-api) "interface in com.jbase.jremote") in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-(jremote---api))
 
-
-
-
-
-### Uses of [JSelectList](./../../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote") in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29)
-
-
-| Modifier and Type<br> | Class and Description<br> |
+| Modifier and Type | Class and Description |
 | --- | --- |
- Classes in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) that implement [JSelectList](./../../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote")  | `class `<br> | `JCursorImpl`<br>A cursor to a jBASE file.<br> |
-| `class `<br> | `JSelectListImpl`<br>A select list to a jBASE file.<br> |
+| Classes in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-(jremote---api)) that implement [JSelectList](./../../jselectlist-(jremote-api) "interface in com.jbase.jremote")| `class` | `JCursorImpl`<br>A cursor to a jBASE file. |
+| `class` | `JSelectListImpl`<br>A select list to a jBASE file. |
 
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) that return [JSelectList](./../../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote")  | `JSelectList`<br> | JConnectionImpl.`createSelectList(JDynArray jd)` <br> |
-| `JSelectList`<br> | JFileImpl.`select()` <br> |
+| Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-(jremote---api)) that return [JSelectList](./../../jselectlist-(jremote-api) "interface in com.jbase.jremote")  |  
+|`JSelectList` | JConnectionImpl.`createSelectList(JDynArray jd)`  |
+| `JSelectList` | JFileImpl.`select()`  |
 
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) with parameters of type [JSelectList](./../../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote")  | `JResultSet`<br> | JStatementImpl.`execute(JDynArray queries, JSelectList selectList)` <br> |
-| `JResultSet`<br> | JStatementImpl.`execute(String query, JSelectList selectList)` <br> |
-| `JExecuteResults`<br> | JConnectionImpl.`execute(String command, JSelectList selectList)` <br> |
+| Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-(jremote---api)) with parameters of type [JSelectList](./../../jselectlist-(jremote-api) "interface in com.jbase.jremote")  |
+| `JResultSet` | JStatementImpl.`execute(JDynArray queries, JSelectList selectList)`  |
+| `JResultSet` | JStatementImpl.`execute(String query, JSelectList selectList)`  |
+| `JExecuteResults` | JConnectionImpl.`execute(String command, JSelectList selectList)`  |
 
+### Uses of [JSelectList](./../../jselectlist-(jremote-api) "interface in com.jbase.jremote") in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-(jremote---api))
 
-
-
-
-
-### Uses of [JSelectList](./../../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote") in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29)
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29) that return [JSelectList](./../../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote")  | `JSelectList`<br> | WrappedJConnection.`createSelectList(JDynArray jd)` <br> |
-| `JSelectList`<br> | WrappedJFile.`select()` <br> |
+| Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-(jremote---api)) that return [JSelectList](./../../jselectlist-(jremote-api) "interface in com.jbase.jremote")|
+| `JSelectList` | WrappedJConnection.`createSelectList(JDynArray jd)`  |
+| `JSelectList` | WrappedJFile.`select()`  |
 
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29) with parameters of type [JSelectList](./../../jselectlist-%28jremote-api%29 "interface in com.jbase.jremote")  | `JExecuteResults`<br> | WrappedJConnection.`execute(String command, JSelectList selectList)` <br> |
+| Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-(jremote---api)) with parameters of type [JSelectList](./../../jselectlist-(jremote-api) "interface in com.jbase.jremote")  |
+|`JExecuteResults` | WrappedJConnection.`execute(String command, JSelectList selectList)`  |
 
+Back to [jRemote API](./../../README.md)
 
-
-
-
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
-
-
-
-  
 <PageFooter />

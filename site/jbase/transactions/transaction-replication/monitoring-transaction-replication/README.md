@@ -57,7 +57,6 @@ The jlogmonitor command can be used to monitor potential problems with the [jlog
 ```
 jlogmonitor {-h|?} {-ccmd} {-Cnn} {-Dnn} {-E} {-Inn) {-Snn}
 ```
-
 Where option may be:
 
 | Option | Description |
@@ -74,6 +73,8 @@ Where option may be:
 > ### Note
 >
 > At least one of the options, -C, -D, -E, -I or -S, must be specified.
+>
+> This command has been deprecated on jBASE 5.7 (and later) for docker
 
 ### Example
 

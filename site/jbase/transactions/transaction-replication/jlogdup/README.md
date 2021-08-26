@@ -61,7 +61,6 @@ The following table describes each of the parameters used for input and output s
 | terminate=eof | I | terminate restore/duplication at eof of eldest log set. |
 | terminate=eos | I | terminate restore/duplication at end of current log set. |
 | terminate=wait | I | switch to elder log sets as required and wait for new updates. |
-| timeout=nnn | I | timeout period in seconds for 'terminate=wait'. |
 | verbose=true | | display to stderr a summary of the specification. |
 
 \* Note: set=auto and milestone=xxx require jBASE release 5.7.5 or greater.
@@ -163,7 +162,7 @@ If the amount of space consumed in the file system, which the active logset resi
 
 ### Sync Transactions
 
-An option “SYNC” exists for the [TRANSTART](../../../jbase-basic-(jbc)/transtart/README.md) command which will force-flush the database and journal following a transaction commit. The option in jlogadmin allows for this option to be invoked globally. If “Sync Transactions” is set to “on” then all committed transactions will cause the force-flush. If set to “off” then committed will not automatically force-flush the database and journal unless the “SYNC” option is present in individual [TRANSTART](../../../jbase-basic-(jbc)/transtart/README.md) commands.
+An option “SYNC” exists for the [TRANSTART](../../../jbc/transtart/README.md) command which will force-flush the database and journal following a transaction commit. The option in jlogadmin allows for this option to be invoked globally. If “Sync Transactions” is set to “on” then all committed transactions will cause the force-flush. If set to “off” then committed will not automatically force-flush the database and journal unless the “SYNC” option is present in individual [TRANSTART](../../../jbc/transtart/README.md) commands.
 
 ### Encrypt Records
 

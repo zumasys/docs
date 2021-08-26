@@ -3,141 +3,111 @@
 <PageHeader />
 
 ## Uses of Interface
+
 com.jbase.jremote.io.JBaseObjectReader
 
-| Package<br> | Description<br> |
+| Package | Description |
 | --- | --- |
- Packages that use [JBaseObjectReader](./../../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io")  | com.jbase.jremote<br> |  <br> |
-| com.jbase.jremote.io<br> |  <br> |
-| com.jbase.jremote.jca.inflow<br> |  <br> |
-| com.jbase.jremote.jca.inflow.protocol<br> |  <br> |
-| com.jbase.jremote.protocol<br> |  <br> |
+ Packages that use [JBaseObjectReader](./../../jbaseobjectreader-(jremote-api) "interface in com.jbase.jremote.io")  | com.jbase.jremote |   |
+| com.jbase.jremote.io |   |
+| com.jbase.jremote.jca.inflow |   |
+| com.jbase.jremote.jca.inflow.protocol |   |
+| com.jbase.jremote.protocol |   |
 
+### Uses of [JBaseObjectReader](./../../jbaseobjectreader-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote](./../../../../../jremote-api)
 
-
-
-
-
-### Uses of [JBaseObjectReader](./../../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote](./../../../../../jremote-api)
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote](./../../../../../jremote-api) with parameters of type [JBaseObjectReader](./../../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `void`<br> | JSubroutineParameters.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | JExecuteResults.`readObject(JBaseObjectReader reader, int version)` <br> |
+ Methods in [com.jbase.jremote](./../../../../../jremote-api) with parameters of type [JBaseObjectReader](./../../jbaseobjectreader-(jremote-api) "interface in com.jbase.jremote.io")  | `void`<br> | JSubroutineParameters.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | JExecuteResults.`readObject(JBaseObjectReader reader, int version)`  |
 
+### Uses of [JBaseObjectReader](./../../jbaseobjectreader-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api))
 
-
-
-
-
-### Uses of [JBaseObjectReader](./../../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29)
-
-
-| Modifier and Type<br> | Class and Description<br> |
+| Modifier and Type | Class and Description |
 | --- | --- |
- Classes in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) that implement [JBaseObjectReader](./../../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `class `<br> | `AbstractJBaseObjectReader`<br>Deserializes JBaseSerializable objects sent from the jbase\_agent server, or any other source of serialized JCF objects.<br> |
-| `class `<br> | `IOJBaseObjectReader`<br>jBase object reader based on the DataInputStream.<br> |
-| `class `<br> | `NIOJBaseObjectReader`<br>jBase object reader based on the new Java IO.<br> |
+ Classes in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api)) that implement [JBaseObjectReader](./../../jbaseobjectreader-(jremote-api) "interface in com.jbase.jremote.io")  |
+| `class` | `AbstractJBaseObjectReader`<br>Deserializes JBaseSerializable objects sent from the jbase\_agent server, or any other source of serialized JCF objects. |
+| `class` | `IOJBaseObjectReader`<br>jBase object reader based on the DataInputStream. |
+| `class` | `NIOJBaseObjectReader`<br>jBase object reader based on the new Java IO. |
 
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-%28jremote---api%29) with parameters of type [JBaseObjectReader](./../../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `void`<br> | SQLError.`readObject(JBaseObjectReader reader, int version)`<br>Method : readObject() Description: Read object off the wire.<br> |
-| `void`<br> | OKResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | JBaseSerializable.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | ErrorResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
+| Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api)) with parameters of type [JBaseObjectReader](./../../jbaseobjectreader-(jremote-api) "interface in com.jbase.jremote.io")  | `void`<br> | SQLError.`readObject(JBaseObjectReader reader, int version)`<br>Method : readObject() Description: Read object off the wire. |
+| `void` | OKResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | JBaseSerializable.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | ErrorResponse.`readObject(JBaseObjectReader reader, int version)`  |
 
+### Uses of [JBaseObjectReader](./../../jbaseobjectreader-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-(jremote---api))
 
-
-
-
-
-### Uses of [JBaseObjectReader](./../../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29)
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-%28jremote---api%29) with parameters of type [JBaseObjectReader](./../../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `protected InboundRequest`<br> | InboundRequestHandler.`readRequest(JBaseObjectReader reader)` <br> |
+ Methods in [com.jbase.jremote.jca.inflow](./../../../jca/inflow/com.jbase.jremote.jca.inflow-(jremote---api)) with parameters of type [JBaseObjectReader](./../../jbaseobjectreader-(jremote-api) "interface in com.jbase.jremote.io")  | `protected InboundRequest`<br> | InboundRequestHandler.`readRequest(JBaseObjectReader reader)`  |
 
+### Uses of [JBaseObjectReader](./../../jbaseobjectreader-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-(jremote---api))
 
-
-
-
-### Uses of [JBaseObjectReader](./../../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29)
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-%28jremote---api%29) with parameters of type [JBaseObjectReader](./../../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `void`<br> | WorkScheduledResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | TransactionOperation.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | StartTransactionRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | RollbackTransactionRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | NoEndpointActivatedResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | CommitTransactionRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | ActivationResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | ActivationRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
+ Methods in [com.jbase.jremote.jca.inflow.protocol](./../../../jca/inflow/protocol/com.jbase.jremote.jca.inflow.protocol-(jremote---api)) with parameters of type [JBaseObjectReader](./../../jbaseobjectreader-(jremote-api) "interface in com.jbase.jremote.io")  |
+| `void`| WorkScheduledResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | TransactionOperation.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | StartTransactionRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | RollbackTransactionRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | NoEndpointActivatedResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | CommitTransactionRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | ActivationResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | ActivationRequest.`readObject(JBaseObjectReader reader, int version)`  |
 
+### Uses of [JBaseObjectReader](./../../jbaseobjectreader-(jremote-api) "interface in com.jbase.jremote.io") in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-(jremote-api))
 
-
-
-
-
-### Uses of [JBaseObjectReader](./../../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io") in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-%28jremote-api%29)
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-%28jremote-api%29) with parameters of type [JBaseObjectReader](./../../jbaseobjectreader-%28jremote-api%29 "interface in com.jbase.jremote.io")  | `void`<br> | XAXid.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | WriteRecordRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | TransactionResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | SwitchAccountResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | SwitchAccountRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | SubroutineResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | StatementFetchResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | StatementFetchRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | StatementExecuteQueryRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | SetPropertiesResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | SetPropertiesRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | SelectListFetchResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | SelectListFetchRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | SelectListCommitRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | SelectListCloseRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | SelectFileRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | RemoteInputRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | ReleaseRecordLockRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | ReadRecordRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | ReadCommonResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | ReadCommonRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | OpenFileRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | MonitoringResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | MonitoringRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | JSelectListProt.`readObject(JBaseObjectReader reader, int version)`<br>Serialize object<br> |
-| `void`<br> | JRemoteRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | JExecuteRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | JediResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | InputOutputResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | ExistsRecordRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | EISMetaDataResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | EISMetaDataRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | EchoResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | EchoRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | DeleteRecordRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | DateTimeResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | ConvResponse.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | ConvRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | CloseFileRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | ClearFileRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | CallSubroutineRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | AuthenticationRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | AuthenticationRequest.UserCredentials.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | AccountAuthenticationRequest.`readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | AccountAuthenticationRequest.AccountUserCredentials.`readObject(JBaseObjectReader reader, int version)` <br> |
+ Methods in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-(jremote-api)) with parameters of type [JBaseObjectReader](./../../jbaseobjectreader-(jremote-api) "interface in com.jbase.jremote.io")  | 
+|`void`  | XAXid.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | WriteRecordRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | TransactionResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | SwitchAccountResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | SwitchAccountRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | SubroutineResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | StatementFetchResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | StatementFetchRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | StatementExecuteQueryRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | SetPropertiesResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | SetPropertiesRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | SelectListFetchResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | SelectListFetchRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | SelectListCommitRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | SelectListCloseRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | SelectFileRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | RemoteInputRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | ReleaseRecordLockRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | ReadRecordRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | ReadCommonResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | ReadCommonRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | OpenFileRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | MonitoringResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | MonitoringRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | JSelectListProt.`readObject(JBaseObjectReader reader, int version)`<br>Serialize object |
+| `void` | JRemoteRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | JExecuteRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | JediResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | InputOutputResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | ExistsRecordRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | EISMetaDataResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | EISMetaDataRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | EchoResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | EchoRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | DeleteRecordRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | DateTimeResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | ConvResponse.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | ConvRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | CloseFileRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | ClearFileRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | CallSubroutineRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | AuthenticationRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | AuthenticationRequest.UserCredentials.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | AccountAuthenticationRequest.`readObject(JBaseObjectReader reader, int version)`  |
+| `void` | AccountAuthenticationRequest.AccountUserCredentials.`readObject(JBaseObjectReader reader, int version)`  |
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](./../../README.md)
 
-
-
-  
 <PageFooter />

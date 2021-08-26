@@ -5,12 +5,12 @@ MVDBTOOLKIT.WFILEIO is a multiplatform function to read and write O/S records.  
 ## WOBJ config format
 
 ```JSON
-{ "ACTION":"READ,WRTE,DELETE",
-  "PATH":"PATH TO THE FILE",
-  "DATA":"DATA FOR A WRITE",
+{ "action":"read,write,delete",
+  "path":"PATH TO THE FILE",
+  "data":"DATA FOR A WRITE",
   "dosletter":"OPTIONAL DOS LETTER TO ADD TO PATH",
-  "NEWLINE":"CR,LF,CRLF,DOS,UNIX",
-  "PERMISSIONS":"TBD"
+  "newline":"CR,LF,CRLF,DOS,UNIX,MV,RAW",
+  "permissions":"TBD"
   "response": {
       "data":"responsedata",
       "status":1,
@@ -18,6 +18,17 @@ MVDBTOOLKIT.WFILEIO is a multiplatform function to read and write O/S records.  
   }
 }
 ```
+
+## New Line
+Due to JSON not liking char(254) it is recommended you do not work with nl->@am conversions.  The newline parameter will control how these conversions are done both on a read (how the variable will be returned to your code) or when converting to write.
+
+| Type        | Read                                | Write                                             |
+|-------------|-------------------------------------|---------------------------------------------------|
+| CR          | All new lines are converted to CR   | All new lines including @AM are converted to CR   |
+| LF or Unix  | All new lines are converted to LF   | All new lines including @AM are converted to LF   |
+| CRLF or DOS | All new lines are converted to CRLF | All new lines including @AM are converted to CRLF |
+| MV          | All new lines are converted to @AM  | ??                                                |
+| RAW         | No conversion is done               | No conversion is done                             |
 
 ### Example
 
@@ -32,7 +43,7 @@ USER.NO=FIELD(OCONV('','U50BB'),' ',1)
 * Build config object to write a item
 
 CALL WOBJ(FOBJ,"FROMSTRING","","{}","",RERR)
-CALL WOBJ(FOBJ,"SET","action","WRITE","",RERR)
+CALL WOBJ(FOBJ,"SET","action","write","",RERR)
 TMP.FILE.NAME=TMP.DIR:FILEDELIM:'TMP-':USER.NO:'.txt'
 TEST.MSG=TMP.FILE.NAME
 
@@ -47,7 +58,7 @@ CALL MVDBTOOLKIT.WFILEIO(FOBJ)
 
 * Use WFILEIO to read item back in
 
-CALL WOBJ(FOBJ,"SET","action","READ","",RERR)
+CALL WOBJ(FOBJ,"SET","action","read","",RERR)
 
 * Go read the record
 
@@ -61,8 +72,8 @@ PRINT RESPONSE.DATA
 * Lets now delete it
 
 FOBJ=SAVE.FOBJ
-CALL WOBJ(FOBJ,"SET","action","DELETE","",RERR)
+CALL WOBJ(FOBJ,"SET","action","delete","",RERR)
 CALL MVDBTOOLKIT.WFILEIO(FOBJ)
 ```
 
-</PageFooter>
+<PageFooter />

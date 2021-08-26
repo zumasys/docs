@@ -22,7 +22,6 @@ The user will then specify the formqueue they wish to apply the setting.
 
 Print jobs assigned with the align option (A), will display a status of **ALIGN** while suspended and waiting for alignment, before being despooled. This menu option or command prompts for one of the following options.
 
-
 | Option | Explanation |
 | --- | --- |
 | A  |  Align. Despools a character mask of the job to enable forms alignment. |
@@ -31,5 +30,4 @@ Print jobs assigned with the align option (A), will display a status of **ALIGN*
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

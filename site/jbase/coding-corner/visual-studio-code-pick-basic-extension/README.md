@@ -8,7 +8,9 @@ Would you like to update your coding environment and inject some color into your
 
 Visual Studio Code is a free download which has an extension entitled “MV Basic”.
 
-In jBASE Development and Support, we commonly use folders for our BASIC source code and add a “.b” suffix to enable it to be identified.  Use of “jcompile” also mandates the use of the “.b” suffix.  The standard syntax definition for the PickBasic extension has no suffix by default, and also uses “.pick” and .”txt”, but it is easy to add the .b”.
+In jBASE Development and Support, we commonly use folders for our BASIC source code and add a “.b” suffix to enable it to be identified.  Use of the [jcompile](./../../compilation/jcompile/README.md) utility also mandates the use of the “.b” suffix.  
+
+The standard syntax definition for the PickBasic extension has no suffix by default, and also uses “.pick” and .”txt”, but it is easy to add the .b”.
 
 For Windows, Visual Studio Code can be downloaded from this location:
 
@@ -18,35 +20,29 @@ Visual Studio Code also works on Linux, unfortunately it will only install and w
 
 ## Instructions
 
-1. Details of the MV Basic extension can be found [here](https://github.com/mvextensions/mvbasic/blob/master/doc/Extension%20Guide.md)
-
-2. Once Visual Studio Code is installed:
-
-a) on Windows, navigate to the “C:\Users\\&lt;yourname&gt;\.vscode\extensions\mvextensions.mvbasic-2.0.x”
-
-b) on Linux, navigate to "/home/&lt;yourname&gt;/.vscode/extensions/mvextensions.mvbasic-2.0.x"
-
-## Note #1
-
-> If you graduate to using the Insiders version of Visual Studio Code the ".vscode" folder becomes ".vscode-insiders"
-
-and open the “package.json” file in Visual Studio Code.
-
-Under the “languages, extensions” tag, set your preferred suffixes:
+- Details of the MV Basic extension can be found [here](https://github.com/mvextensions/mvbasic/blob/master/doc/Extension%20Guide.md)
+- Once Visual Studio Code and the MV Basic extension are installed:
+  - On Windows, navigate to the `C:\Users\<yourname>\.vscode\extensions\mvextensions.mvbasic-2.x.x`
+  - On Linux, navigate to `/home/<yourname>/.vscode/extensions/mvextensions.mvbasic-2.x.x`
+    > Note #1: If you graduate to using the Insiders version of Visual Studio Code the ".vscode" folder becomes ".vscode-insiders"
+- Open the `package.json` file in Visual Studio Code
+- Under the “languages, extensions” tag, set your preferred suffixes:
 
 ![MVBasicExtensions](./MVBasicExtensions.png)  
 
-Under the "MVBasic.languageType" tag, set "jBASE" as your preferred language:  
+- Under the "MVBasic.languageType" tag, set "jBASE" as your preferred language:  
 
 ![MVBasicLanguage](./MVBasicLanguage.png)  
-3. Save the changes. When the changes are saved, Visual Studio Code should invite you to reload, otherwise, exit and restart. You can then edit individual items or open a complete folder.  It is also possible to change other settings such as font size, font family, tab size and whether “autosave” is enabled or not:
+
+- Save the changes. When the changes are saved, Visual Studio Code should invite you to reload, otherwise, exit and restart. You can then edit individual items or open a complete folder.  It is also possible to change other settings such as font size, font family, tab size and whether “autosave” is enabled or not:
 
 ![UserSettings](./UserSettings.png)
-4. End result – syntax highlighting:
+
+- End result – syntax highlighting:
 
 ![EncryptTest](./EncryptTest.png)
 
-> ### Note #2
+> Note #2:
 >
 > To install Visual Studio Code on Linux, proceed as follows:
 >

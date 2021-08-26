@@ -25,7 +25,7 @@
 [readprev](./readprev/README.md)  
 [rebuild-index](./rebuild-index/README.md)  
 [select](./select/README.md)  
-[select-(with-index)](./select-(with-index)/README.md)  
+[select-with-index](./select-with-index/README.md)  
 [Secondary Index Examples](./../seconday-index-examples/README.md)  
 [universal-coordinated-time](./universal-coordinated-time/README.md)  
 [using-regular-expressions-with-indexes](./using-regular-expressions-with-indexes/README.md)  

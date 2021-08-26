@@ -4,11 +4,11 @@
 
 ## Class AccountAuthenticationRequest
 
-All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")
+
 * * *
 
-
-```
+```java
 public class AccountAuthenticationRequest
 extends JRemoteRequest
 ```
@@ -17,95 +17,85 @@ Request for authentication.
 
 ### Nested Class Summary
 
-
-| Modifier and Type<br> | Class and Description<br> |
+| Modifier and Type | Class and Description |
 | --- | --- |
-| `static class `<br> | `AccountAuthenticationRequest.AccountUserCredentials` <br> |
-
+| `static class` | `AccountAuthenticationRequest.AccountUserCredentials`  |
 
 - Nested classes/interfaces inherited from interface com.jbase.jremote.io.JBaseSerializable
-    - `JBaseSerializable.TYPE`
-
-
-
-
-
+  - `JBaseSerializable.TYPE`
 
 ### Constructor Summary
 
-
-| Constructor and Description<br> |
+| Constructor and Description |
 | --- |
-| `AccountAuthenticationRequest(String user, String account, String password)` <br> |
-
-
-
-
-
+| `AccountAuthenticationRequest(String user, String account, String password)`  |
 
 ### Method Summary
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
-| `int`<br> | `getType()` <br> |
-| `int`<br> | `getVersion()` <br> |
-| `void`<br> | `readObject(JBaseObjectReader reader, int version)` <br> |
-| `void`<br> | `writeObject(JBaseObjectWriter writer, int version)` <br> |
-
+| `int` | `getType()`  |
+| `int` | `getVersion()`  |
+| `void` | `readObject(JBaseObjectReader reader, int version)`  |
+| `void` | `writeObject(JBaseObjectWriter writer, int version)`  |
 
 - Methods inherited from class java.lang.Object
-    - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+  - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
 ### Constructor Detail
 
 #### AccountAuthenticationRequest
 
-```
+```java
 public AccountAuthenticationRequest(String user,
                                     String account,
                                     String password)
 ```
 
-
-
-
-
-
-
 ### Method Detail
 
 #### writeObject
 
-```
+```java
 public void writeObject(JBaseObjectWriter writer,
                         int version)
                  throws IOException
 ```
-Specified by:`writeObject` in interface `JBaseSerializable`Overrides:`writeObject` in class `JRemoteRequest`Throws:`IOException`
+Specified by:`writeObject` in interface `JBaseSerializable`  
+Overrides:`writeObject` in class `JRemoteRequest`  
+Throws:`IOException`
+
 #### readObject
 
-```
+```java
 public void readObject(JBaseObjectReader reader,
                        int version)
                 throws IOException,
                        ClassNotFoundException
 ```
-Specified by:`readObject` in interface `JBaseSerializable`Overrides:`readObject` in class `JRemoteRequest`Throws:`IOException``ClassNotFoundException`
+
+Specified by:`readObject` in interface `JBaseSerializable`  
+Overrides:`readObject` in class `JRemoteRequest`  
+Throws:`IOException``ClassNotFoundException`
+
 #### getType
 
-```
+```java
 public int getType()
 ```
-Returns:type id of the objects, used during the serializationSee Also:[`JBaseSerializable.getType()`](./../../io/jbaseserializable-%28jremote-api%29#getType--)
+
+Returns:type id of the objects, used during the serialization  
+See Also:[`JBaseSerializable.getType()`](./../../io/jbaseserializable-(jremote-api)#getType--)
+
 #### getVersion
 
-```
+```java
 public int getVersion()
 ```
-Specified by:`getVersion` in interface `JBaseSerializable`Overrides:`getVersion` in class `JRemoteRequest`
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Specified by:`getVersion` in interface `JBaseSerializable`  
+Overrides:`getVersion` in class `JRemoteRequest`
 
+Back to [jRemote API](./../../README.md)
   
 <PageFooter />

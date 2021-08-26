@@ -56,7 +56,7 @@ This section is a brief summary of the jCL  commands, organized by function.
 
 | Operator | Description |
 | --- | --- |
-| [( )](./../jcl-%28%29-command) | Terminates the current jCL  program and begins execution of (chains to) another jCL program. |
+| [( )](./../jcl-()-command) | Terminates the current jCL  program and begins execution of (chains to) another jCL program. |
 | [\[ \]](./../jcl-[]-command) | Calls an external jCL  program routine. |
 | [G, GO , GOTO](./../jcl-g-&-go--&-goto) | Transfers control to the jCL  program statement with the specified label. |
 | [GO  B](./../jcl-go--b) | Transfers control backward to the previous M (mark) command and continue execution from that point. |
@@ -127,7 +127,7 @@ This section is a brief summary of the jCL  commands, organized by function.
 
 | Command | Description |
 | --- | --- |
-| [( )](./../jcl-%28%29-command) | Terminates the current jCL  program and begins execution of another jCL program. |
+| [( )](./../jcl-()-command) | Terminates the current jCL  program and begins execution of another jCL program. |
 | [X](./../jcl-x) | Halts execution of a jCL  program and returns control to the shell. |
 
 Back to [jCL.](./../README.md)

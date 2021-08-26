@@ -4,56 +4,15 @@
 
 **Tags:**
 <badge text='languages' vertical='middle' />
-<badge text='date format' vertical='middle' />
-<badge text='currency format' vertical='middle' />
 <badge text='internationalization' vertical='middle' />
 
-## Description
+## Introduction
 
-jBASE utilizes the internationalization support inherent in the environment but also provides five additional commands to override these facilities. The commands are:
+jBASE 5 incorporates modifications to the underlying jBASE library functions and components to provide the tools and mechanisms whereby global communities can internationalize and localize applications. The internationalization functionality provides applications with the capability for correct handling of locale dependent collation sequencing, along with processing of unique character properties, code page data import/export and terminal/printer data input and output. The jBASE library functions, when used in International Mode, process internally using character rather than byte orientated values and properties such that applications can be easily coded or converted with minimum change for the international market.
 
-| Command | Explanation |
-| --- | --- |
-| SET-DEC | Set decimal point |
-| SET-MONEY | Set currency symbol |
-| SET-THOUS | Set thousands separator |
-| SET-LANG | Set language |
-| DATE-FORMAT | Set date format |
-
-When the jBASE application executes the default setting are obtained from the default language settings. This language setting provides primary control over the currency symbol, decimal point character, thousands separator, and the textual names of the days of the week and months of the year.
-
-The usual system defaults are:
-
-| Parameter | Default Value |
-| --- | --- |
-| Currency | **$** |
-| Decimal point | **.** |
-| Thousands separator | **,** |
-| Language | **C** |
-| Months | **January, February, March,...., December** |
-| Days | **Monday, Tuesday,...., Sunday** |
-| Date format | **mm/dd/yy** |
-
-## Note
-
-> On UNIX, languages are usually found in the /usr/lib/locale directory, the LANG environment variable is usually set to /usr/lib/locale/C. The default language can be modified by the jBASE SET-LANG command.
->
-> On Windows the settings are controlled from the Regional Settings Applet on the control panel.  
->  
-> In most cases, these settings have been made redundant by the introduction of the [JBASE_LOCALE](./../environment-variables/jbase_locale/README.md) and [JBASE_TIMEZONE](./../environment-variables/jbase_timezone/README.md) environment variables.
->
-
-## Language Modifiers
-
-Once the jBASE Initialization has occurred then the language settings can be overridden with the additional jBASE utilities as follows:
-
-- [SET-DECIMAL](./set-dec/README.md)
-- [SET-MONEY](./set-money/README.md)
-- [SET-THOUS](./set-thous/README.md)
-- [SET-LANG](set-lang)
-- [DATE-FORMAT](./../../../administration/utilities/date-format)
+[jBASE, Internationalization and UTF-8](./jbase-internationalization/README.md)  
+[What is Internationalization](./whatis-internationalization/README.md)
 
 [Back to Knowledgebase](./../README.md)
 
-  
 <PageFooter />

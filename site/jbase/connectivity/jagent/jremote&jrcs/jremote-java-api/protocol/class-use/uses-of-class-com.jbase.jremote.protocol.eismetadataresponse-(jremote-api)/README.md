@@ -3,24 +3,19 @@
 <PageHeader />
 
 ## Uses of Class
+
 com.jbase.jremote.protocol.EISMetaDataResponse
 
-| Package<br> | Description<br> |
+| Package | Description |
 | --- | --- |
- Packages that use [EISMetaDataResponse](./../../eismetadataresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol")  | com.jbase.jremote<br> |  <br> |
+ Packages that use [EISMetaDataResponse](./../../eismetadataresponse-(jremote-api) "class in com.jbase.jremote.protocol")  | com.jbase.jremote |   |
 
+### Uses of [EISMetaDataResponse](./../../eismetadataresponse-(jremote-api) "class in com.jbase.jremote.protocol") in [com.jbase.jremote](./../../../../../jremote-api)
 
-
-
-
-### Uses of [EISMetaDataResponse](./../../eismetadataresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol") in [com.jbase.jremote](./../../../../../jremote-api)
-
-
-| Constructor and Description<br> |
+| Constructor and Description |
 | --- |
- Constructors in [com.jbase.jremote](./../../../../../jremote-api) with parameters of type [EISMetaDataResponse](./../../eismetadataresponse-%28jremote-api%29 "class in com.jbase.jremote.protocol")  | `EISMetaDataRepository(EISMetaDataResponse mdRespository)` <br> |
+ Constructors in [com.jbase.jremote](./../../../../../jremote-api) with parameters of type [EISMetaDataResponse](./../../eismetadataresponse-(jremote-api) "class in com.jbase.jremote.protocol")  | `EISMetaDataRepository(EISMetaDataResponse mdRespository)`  |
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](./../../README.md)
 
-  
 <PageFooter />

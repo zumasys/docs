@@ -36,5 +36,4 @@ $JBCDATADIR/home is used as the default $HOME environment variable, when $HOME (
 
 Go Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

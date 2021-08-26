@@ -1,8 +1,10 @@
-# jremote
+# jRemote
 
 <PageHeader />
 
 ## Topics
+
+<badge text='jagent' vertical='middle' />
 
 [class-use](./class-use)  
 [com.jbase.jremote-class-hierarchy](./com.jbase.jremote-class-hierarchy)  
@@ -31,6 +33,4 @@
 [protocol](./protocol)  
 [uses-of-package-com.jbase.jremote](./uses-of-package-com.jbase.jremote)  
 
-
-  
 <PageFooter />

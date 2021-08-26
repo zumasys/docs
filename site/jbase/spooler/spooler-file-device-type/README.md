@@ -93,7 +93,7 @@ SP-CREATE TABLE FILE $JBCRELEASEDIR%stmp%stable_%j_%a_%u.txt
 ```
 This form queue will create a file in the "$JBCRELEASEDIR/tmp" directory ("%JBCRELEASEDIR%\tmp" on Windows) something like:
 
-    table_42_heartofgold_marvin.txt
+table_42_heartofgold_marvin.txt
 
 where:
     "table", ".txt" and all "_"s are plain text
@@ -103,5 +103,6 @@ where:
 
 ---
 
-  
+Back to [Spooler](./../README.md)
+
 <PageFooter />

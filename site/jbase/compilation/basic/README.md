@@ -21,9 +21,11 @@ BASIC -v -wn -Ipath FileName Itemlist (On En Wn Ipath Qq
 
 If the record key selection is omitted, **BASIC** will use any preceding select list. If the BASIC command has no select list, it will use all records in the specified file. When processing the list of record keys, the **BASIC** command will ignore $ and ! prefixes and .o or .obj suffixes and build up a list of source names. Using this mechanism, you can safely use BASIC on all records in a file, and it will only process the sources you intended.
 
-Note: To copy binary object files such as $PROG or PROG.o from Hash files to directories or vice versa use the B option of the jBASE COPY command. This will ensure conversion of attribute mark characters to new line and vice versa is suppressed thus invalidating the binary object.
+## Note  
 
-This example illustrates the use of the -D option:
+>To copy binary object files such as $PROG or PROG.o from Hash files to directories or vice versa use the "(B" option of the jBASE [COPY](./../../files/copy/README.md) command. This will ensure conversion of attribute mark characters to new line and vice versa is suppressed rather than invalidating the binary object.
+
+The following example illustrates the use of the -D option:
 
 ```
 PROGRAM DEFTEST
@@ -38,6 +40,29 @@ CATALOG BP DEFTEST
 ```
 
 When the DEFTEST program is run, it will display the string "Testing". If the program was not compiled with that specific -D option then the string would not display.
+
+The `#ifdef` compiler directive can also be used to insert `block comments` into source code by using an undefined symbol, e.g.
+
+```
+C:\home\bp>type block_comment.jabba
+    print "Example of a block comment."
+#ifdef DOOMSDAY
+    Hesiod's famous description of Askra, the village he lived in:
+
+    Bad in winter,
+        godawful in summer,
+            nice never.
+#endif
+    print "End of example."
+```
+
+When this program is compiled, the lines between the `#ifdef` and `#endif` are ignored because `DOOMSDAY` is undefined.  
+Running the program will produce the following output:
+
+```
+Example of a block comment.
+End of example.
+```
 
 ## Optimization
 
@@ -91,5 +116,4 @@ The Qq option is used to specify that the source code contains embedded SQL stat
 
 [Back to Compilation](../README.md)
 
-  
 <PageFooter />

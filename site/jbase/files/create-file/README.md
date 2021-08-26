@@ -28,7 +28,7 @@ Where:
 
 - **TYPE** - The **tname** parameter is used to specify the type of file to be created. The following file types are provided as standard.
 
-> Note: **Section** can be used to do things like create an OBJECT code section for compiled object code to be stored which is particularly handy when using file system directories/folders to store source code. Creating an OBJECT code section will keep your source code directory from becoming cluttered with object code. An example: `CREATE-FILE TEST.BP,OBJECT TYPE=UD`
+> Note: **Section** can be used to do things like create an **OBJECT** section for compiled object code to be stored which is particularly handy when using file system directories/folders to store source code. Creating an **OBJECT** section will keep your source code directory from becoming cluttered with object code. An example: `CREATE-FILE TEST.BP,OBJECT TYPE=UD`. However, for new program files, it is more useful to create a file of type **JBC** which will automatically create the **OBJECT** section for you.
 
 **HASH3 or j3**
 The HASH3 file type is portable across platforms and is network friendly in that if a network connection is disconnected during the update procedure then file integrity can still be guaranteed. The HASH3 file type does not use the jRLA or jDLS locking even when enabled but uses the default system locking capability, thus allowing record or item locking with networked applications. The default bucket size of a HASH3 file is 1024 bytes. See [JEDI\_SECURE\_LEVEL](./../../environment-variables/jedi_secure_level) for configurable levels of data flushing.
@@ -36,7 +36,7 @@ The HASH3 file type is portable across platforms and is network friendly in that
 **HASH4 or j4**
 The HASH4 file type uses memory mapping when available, otherwise defaults to reads and writes and is portable across platforms. The HASH4 file type will use jRLA or jDLS locking when enabled but can also be configured to use the default system locking method for networking. The default bucket size of a HASH4 file is 4096 bytes. j4 files use 'INT32' for any offsets, in order to provide compatibility with previous versions of jBASE. As such, j4 files should only be used where the file size will not exceed 2Gb.
 
-**jPLUS or jP (jBASE 4.1 and 5.2)**
+**jPLUS or jP (jBASE 4.X and 5.X)**
 **jPlus** files provide large file support on 64 bit UNIX and Windows platforms, such that Hash files can extend beyond the normal 2GB operating system limit. In addition, jPlus files provide configurable levels of data flushing (see JEDI\_SECURE\_LEVEL) to ensure file integrity in the case of a system failure. Some Operating Systems require large file support to be enabled when the file system is created. Refer to your System Administration Guide for your specific platform.
 
 **jD (jBASE 5.7)**
@@ -47,7 +47,7 @@ The **UD** file type specifies Windows or UNIX directories and Windows or UNIX f
 The **JBC** file type is an equivalent to `TYPE=UD` plus the creation of an `OBJECT` section. As an example:
 
 ```
-CREATE-FILE TEST.BP TYPE=JBC`
+CREATE-FILE TEST.BP TYPE=JBC
 ```
 
 is a functional equivalent to:
@@ -58,10 +58,13 @@ CREATE-FILE TEST.BP,OBJECT TYPE=UD
 ```
 
 **TJLOG**
-Creates a stub file in the current directory that points to the current transaction log set. An additional parameter, SET can be used to specify the log set. For more information see [jlogdup](./../../transactions/transaction-replication/jlogadmin).
+Creates a stub file in the current directory that points to the current transaction log set. An additional parameter, **SET**, can be used to specify the log set. For more information see [jlogdup](./../../transactions/transaction-replication/jlogadmin).
 
 **DISTRIB**
 Creates a stub file in the current directory that references a distributed file. See [distributed files](./../distributed-files/distributed-files-index) for further information.
+
+**JLOCK**
+As of jBASE 5.7.10. this file type is a window into the [jDLS](../../jdls/README.md) lock table. For further information [Locking Models on jBASE](../../record-locking/locking-models/README.md).
 
 - **ENCRYPTED=YES**- The file is encrypted based on the encryption type specified when running the [jsecurity](./../../encryption/jbase-encryption-database-security) command.
 - **PERM**- The **PERM** parameters are used to set the permissions of the file as per the chmod command. i.e. an octal number nnn. By default the value is 666 and will be masked by the current umask setting.
@@ -87,7 +90,7 @@ Creates a stub file in the current directory that references a distributed file.
 >
 > The file options can be modified after the file has been created using the jchmod utility.
 >
-> On Windows there are certain restricted filenames. See the Microsoft Knowledgebase article [here](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247%28v=vs.85%29.aspx).
+> On Windows there are certain restricted filenames. See the Microsoft Knowledgebase article [here](http://msdn.microsoft.com/en-us/library/windows/desktop/aa365247(v=vs.85).aspx).
 
 ### Examples
 
@@ -133,5 +136,4 @@ Creates a dictionary and data section of type j4 on network drive H, directory P
 
 Back to [Files](./../README.md)
 
-  
 <PageFooter />

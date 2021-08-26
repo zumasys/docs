@@ -93,7 +93,7 @@ is changed to:
 newmusic = music
 ```
 
-then appending the new value to the **favorites** array would result in both objects showing the same contents because they both refer to the same internal object address and the reference count of the object would then increase to 2 (refer to the [$refcount()](./../method-$refcount%28%29) method):
+then appending the new value to the **favorites** array would result in both objects showing the same contents because they both refer to the same internal object address and the reference count of the object would then increase to 2 (refer to the [$refcount()](./../method-$refcount()) method):
 
 ```
 music:
@@ -125,7 +125,7 @@ newmusic:
 
 ## Notes
 
-The [$dump()](./../method-$dump%28%29) method can be used to see the internal address of any object or array.
+The [$dump()](./../method-$dump()) method can be used to see the internal address of any object or array.
 
   
 <PageFooter />

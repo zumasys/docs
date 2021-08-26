@@ -47,7 +47,7 @@ IF var_In NE '' THEN CRT 'You entered : ', DQUOTE(var_In)
 STOP
 ```
 
-The above example attempts to read a single character from the input device, within a time of 30 seconds . The [LOOP](./../loop) will exit when a character has been input, then will display the character that was entered.
+The above example attempts to read a single character from the input device, within a time of 3 seconds (30 corresponds to 30 tenths of a second). The [LOOP](./../loop) will exit when a character has been input, then will display the character that was entered.
 
 See also:  [IN](./../in), [INPUTNULL](./../inputnull).
 

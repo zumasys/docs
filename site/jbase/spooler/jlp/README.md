@@ -35,7 +35,7 @@ If **FileName** is omitted, then all input is assumed to come from stdin.
 
 ## Note
 
-> The jlp command will respect the current form queue assignment from the most recent SP-ASSIGN command. The action of this program is also affected by the 'JBC\_PRINT\_ASSIGN\_n' environment variables.
+> The jlp command will respect the current form queue assignment from the most recent SP-ASSIGN command.
 
   
 <PageFooter />

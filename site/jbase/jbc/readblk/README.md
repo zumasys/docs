@@ -15,11 +15,11 @@ The **READBLK** statement reads a block of data beginning at the current positio
 It takes the general form:
 
 ```
-READBLK variable FROM filevariable, blocksize { THEN statements [ELSE statements] | ELSE statements }
+READBLK variable FROM filevariable, blocksize {SETTING setvar} { THEN statements [ELSE statements] | ELSE statements }
 ```
 
 Where:
-
+- If using **SETTING**, the **setvar** will be set to one of [these values](./../incremental-file-errors) on an error condition.
 - **filevariable** specifies a file previously opened for sequential processing.
 - **blocksize** specifies the size of the data block to be handled.
 - If the data can be read from the file, the **THEN** statements are executed; any **ELSE** statements are ignored. If the file is not readable or if the end of file is encountered, the **ELSE** statements are executed and the **THEN** statements are ignored. If the **ELSE** statements are executed, **variable** is set to an empty string. If either **filevariable** or **blocksize** evaluates to null, the **READBLK** statement fails and the program enters the debugger.

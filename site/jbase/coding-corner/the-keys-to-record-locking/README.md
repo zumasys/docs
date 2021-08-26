@@ -181,6 +181,8 @@ If you intend to convert over to jBASE, this may cause you to rework some of you
 
 In conclusion, you can see that there is nothing here that is mysterious or difficult. If you follow these few simple rules and concepts you can master the keys to record locking.
 
-[Back to Coding Corner](./../README.md)
+[Back to Coding Corner](./../README.md)  
+
+[Back to Record Locking](./../../record-locking/README.md)  
 
 <PageFooter />

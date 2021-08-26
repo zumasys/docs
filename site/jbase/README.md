@@ -15,6 +15,7 @@
 | [jBC Error Handling](./jbc-error-handling/README.md) | Handling error conditions in jBC programs |
 | [jCL](./jcl/README.md) | jBASE Command Language (PROC) reference |
 | [jQL](./jql/README.md)| jBASE Query Language reference |
+| [jSQL](./jsql/README.md)| jBASE Structured Query Language reference |
 | [jRFS](./jrfs/jbase-remote-file-service/README.md) | jBASE Remote File Systems |
 * * *
 | <!----> | <!----> |
@@ -24,14 +25,14 @@
 | [Conversion Processing](./conversion-processing/README.md) | Conversions for jQL and jBC |
 | [Database Drivers](./database-drivers/README.md) | How jBASE provides database independence |
 | [Daemons](./daemons/README.md) | Daemons used by jBASE |
-| [Editor](./editor/README.md) | Editors provided by jBASE |
+| [Editors](./editors/README.md) | Editors provided by jBASE |
 | [Embedded SQL](./jbc/embedded-sql-for-jbase-basic/README.md) | Using SQL with jBASE |
 | [Emulation](./emulation/README.md) | Emulation settings |
 | [Environment Variables](./environment-variables/README.md) | Setting environment variables |
 | [Files](./files/README.md) | File support |
 | [Indexes](./indexes/README.md) | Support for secondary indexes |
 | [Internationalization](./internationalization/README.md) | Settings for internationalization |
-| [jSHELL](./jshell/README.md) | The jBASE command line |
+| [jShell](./jshell/README.md) | The jBASE command line |
 | [Licensing](./licensing/README.md)| jBASE 5 Licensing Overview |
 | [Lists](./lists/README.md) | Manipulating stored lists in jBASE |
 | [Porting](./porting/README.md) | Converting applications to run under jBASE |
@@ -40,9 +41,9 @@
 | [Telnet](./telnet/README.md) |  jBASE Windows telnet process |
 | [Terminals](./terminal/README.md) | Support for terminals in jBASE |
 | [Transactions](./transactions/README.md) | Transaction processing and transaction journaling |  
-| [Tools](./tools/README.md) | Tools provided by jBASE |
+| [Tools and Utilities](./tools-and-utilities/README.md) | Tools and Utilities provided by jBASE |
 | [Triggers](./triggers/README.md) | Database triggers |
-| [Utilities](./utilities/README.md) | Command line utilities |
+
 * * *
 | In Addition | <!----> |
 | --- | --- |
@@ -52,7 +53,6 @@
 | [Encryption](./encryption/README.md) | Encryption Topics |
 | [FAQ](./faq/README.md) | Frequently Asked Questions (and some not so frequently) |
 | [jEDI](./jedi/README.md) | jBASE jEDI Drivers |
-| [Miscellaneous](./miscellaneous/README.md) | Miscellaneous Subjects |
 | [Reference Guides](./reference-guides/README.md) | Table Layout |
 | [Release Notes](./release-notes/README.md) | jBASE Release Notes |
 

@@ -96,12 +96,22 @@ Add the built-in functions \$setnumber(), \$setnumeric() and \$setstring().
 Add a generalised iterator.  
 Add \$jobs() class.  
 
-## 5.8.0
+## 5.7.8 through 5.7.10
 
 Add \$system->onexit() and \$system->onterminate() methods.  
 Add \$remove() as synonym for \$delete() method.  
 Add @unassigned property.  
 Add JSON validator  - jsonlint
+
+## 5.7.11
+
+Add \$mcp(), \$mcl(), \$mcu() and \$mcpu() methods.
+
+## 5.8.0
+
+Add \$system->getjelf() method.  
+Add \$locks class, \$locks->getjdls() method.  
+Add \$global class.
 
 Back to [Dynamic Objects](./../README.md)
 

@@ -10,7 +10,7 @@
 PROCWRITE expression
 ```
 
-where expression may evaluate to any valid data type.
+where **expression** may evaluate to any valid data type.
 
 An example of use may be as:
 
@@ -18,9 +18,9 @@ An example of use may be as:
 PROCWRITE "Success" : CHAR(254) : "0"
 ```
 
-See also: [PROCREAD](./../../../jbase-basic-%28jbc%29/procread)
+See also: [PROCREAD](./../../jbc/procread/README.md)
 
-Go back to [jBASE BASIC](./../../../jbase-basic-%28jbc%29/jbase-basic-programmers-reference-guide).
+Go back to [jBASE BASIC](./../../reference-guides/jbc/README.md).
 
 Back to [jCL.](./../README.md)
   

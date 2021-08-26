@@ -12,7 +12,7 @@
 
 ## Document Scope
 
-This document covers the use of the jBASE **Spool2pdf** utility and is intended to be read as a companion to the [Spooler documentation.](./..)
+This document covers the use of the jBASE **Spool2pdf** utility and is intended to be read as a companion to the [Spooler documentation.](./../README.md)
 
 ## Prerequisites / Installation
 
@@ -23,9 +23,9 @@ This document covers the use of the jBASE **Spool2pdf** utility and is intended 
 3. Download the [spool2pdf.zip](https://github.com/zumasys/docs/releases/download/v0.5/spool2pdf.zip) package and use the appropriate distribution for your platform. The package contains:
 
 - **jPDF.b** – This program is the device driver that creates the PDF files from spooler output
-- **ParseOptions.b**– This function is used by the jPDF driver to parse the options
+- **ParseOptions.b** – This function is used by the jPDF driver to parse the options
 - **jspform\_pdf** – This is the Form Type file for use on Linux/UNIX platforms
-- **jspform\_winpdf**– This is the Form Type file for use on Windows  
+- **jspform\_winpdf** – This is the Form Type file for use on Windows  
 
 4. Extract the contents of **jPDF.tar.gz** (Linux/AIX) or **jPDF.zip**  (Windows):
 
@@ -120,5 +120,4 @@ SP-DEVICE INSTRUCTIONS PROG jPDF [new options]
 
 See Also: [Spooler](./../jbase-spooler).
 
-  
 <PageFooter />

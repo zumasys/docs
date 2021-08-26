@@ -1,6 +1,10 @@
-# System File
+# jBASE Accounts: System File
 
 <PageHeader />
+
+**Tags:**
+<badge text='system' vertical='middle' />
+<badge text='account' vertical='middle' />
 
 ## Description
 
@@ -93,7 +97,6 @@ In most cases, if a value is not included then the environment variable will rem
 An example of use is as:
 
 ```
-
 D
 C:\accounts\payables
 

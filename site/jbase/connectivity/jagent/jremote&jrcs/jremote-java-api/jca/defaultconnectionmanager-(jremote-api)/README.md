@@ -5,10 +5,10 @@
 ## Class DefaultConnectionManager
 
 All Implemented Interfaces:Serializable, javax.resource.spi.ConnectionManager
+
 * * *
 
-
-```
+```java
 public class DefaultConnectionManager
 extends Object
 implements javax.resource.spi.ConnectionManager
@@ -22,52 +22,40 @@ A default implementation of ConnectionManager enables the resource adapter to pr
 
 ### Constructor Summary
 
-
-| Constructor and Description<br> |
+| Constructor and Description |
 | --- |
-| `DefaultConnectionManager()` <br> |
-
-
-
-
-
+| `DefaultConnectionManager()`  |
 
 ### Method Summary
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
-| `Object`<br> | `allocateConnection(javax.resource.spi.ManagedConnectionFactory mcf, javax.resource.spi.ConnectionRequestInfo info)` <br> |
-
+| `Object` | `allocateConnection(javax.resource.spi.ManagedConnectionFactory mcf, javax.resource.spi.ConnectionRequestInfo info)`  |
 
 - Methods inherited from class java.lang.Object
-    - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+  - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
 ### Constructor Detail
 
 #### DefaultConnectionManager
 
-```
+```java
 public DefaultConnectionManager()
 ```
-
-
-
-### 
-
 
 ### Method Detail
 
 #### allocateConnection
 
-```
+```java
 public Object allocateConnection(javax.resource.spi.ManagedConnectionFactory mcf,
                                  javax.resource.spi.ConnectionRequestInfo info)
                           throws javax.resource.ResourceException
 ```
-Specified by:`allocateConnection` in interface `javax.resource.spi.ConnectionManager`Throws:`javax.resource.ResourceException`
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Specified by:`allocateConnection` in interface `javax.resource.spi.ConnectionManager`  
+Throws:`javax.resource.ResourceException`
 
-  
+Back to [jRemote API](./../../README.md)
+
 <PageFooter />

@@ -3,13 +3,11 @@
 <PageHeader />
 
 ## Uses of Class
+
 com.jbase.jremote.protocol.MonitoringResponse
 
 No usage of com.jbase.jremote.protocol.MonitoringResponse
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](./../../README.md)
 
-
-
-  
 <PageFooter />

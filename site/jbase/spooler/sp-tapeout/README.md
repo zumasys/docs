@@ -15,7 +15,7 @@ SP-TAPEOUT (n
 
 where **n** is the number of print jobs to read and requeue.
 
-### Example
+## Example
 
 Attach the tape device using the [T-ATT](./../../tape/t-att/README.md) command and use [T-FWD](./../../tape/t-fwd), if required, to position the tape media to the required print job record.
 

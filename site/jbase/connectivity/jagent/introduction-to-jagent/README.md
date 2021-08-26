@@ -160,7 +160,7 @@ JEDIFILENAME_MD=$HOME/MD
 
 The jbase\_agent process inherits the environment from the invoking process. If a config file is used at startup then additional environment variables can be set/modified in the [ENVIRONMENT] section (see above).
 
-## Starting jjAGENT as a Service
+## Starting jAGENT as a Service
 
 The service options allow jAgent to be installed and started as a Win32 Service on Windows platforms, and as a daemon on Unix platforms.
 
@@ -301,9 +301,9 @@ C:\programs\openssl\bin>jbase_agent -c cert.pem -k key.pem --config %HOME%\jagen
 
 For jRemote, ODBC and JDBC clients, jAgent supports three different authentication modes (See command line options):
 
-- ***1. Anonymous*** - authentication does not verify any user credentials.
-- ***2. User*** - authentication verifies user credentials against a local user credentials database.
-- ***3. Account*** - authentication will attempt to use the provided user credentials to log into a specific jBASE account.
+- ***1. anonymous*** - authentication does not verify any user credentials.
+- ***2. user*** - authentication verifies user credentials against a local user credentials database.
+- ***3. account*** - authentication will attempt to use the provided user credentials to log into a specific jBASE account.
 
 For REST clients, an appropriate HTTP-based authentication mechanism must be implemented in the REST code.
 

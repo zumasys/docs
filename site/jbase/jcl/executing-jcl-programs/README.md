@@ -10,11 +10,11 @@ jCL programs can be executed in several ways:
 - Enter the name of the program from jSHELL,
 - "jump to" another jCL  program of the same type by using the ( ) command,
 - "call" another jCL program of the same type, as a subroutine, by using the [ ] command,
-- Using  [PERFORM](./../../../jbase-basic-%28jbc%29/execute) , [EXECUTE](./../../../jbase-basic-%28jbc%29/execute) or [CHAIN](./../../../jbase-basic-%28jbc%29/chain)  statement from a jBC  program, or
-- Convert the program to a UNIX executable and call it from any shell. Change the first line to
+- Using  [PERFORM](./../../jbc/execute/README.md) , [EXECUTE](./../../jbc/execute/README.md) or [CHAIN](./../../jbc/chain/README.md)  statement from a jBC  program, or
+- Convert the program to a UNIX executable and call it from any shell. Change the first line to:
 
 ``` bash
-#!usr/jbc/bin/jpq
+#!opt/jbase/CurrentVersion/bin/jpq
 ```
 
 and then use chmod to create an executable file.

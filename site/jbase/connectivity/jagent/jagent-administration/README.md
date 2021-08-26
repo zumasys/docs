@@ -310,7 +310,7 @@ default_path = /api/wresttest
 ; Specify the HTTP headers to pass to a JBC subroutine. The header names
 ; are converted to upper-case, prefixed with "HTTP_" and any dashes (-)
 ; are converted to underscores (_). For example, "User-Agent" is passed
-; as "HTTP_USER_AGENT".
+; as "HTTP_USER_AGENT". You can also enter * to allow all headers.
 http_headers = Accept,Cookie,Connection,User-Agent,Referer,Host
 
 #-----------------------------------------------------------------------#

@@ -3,11 +3,11 @@
 <PageHeader />
 
 ## Uses of Class
+
 com.jbase.jremote.jca.spring.ConnectionHolder
 
 No usage of com.jbase.jremote.jca.spring.ConnectionHolder
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](./../../README.md)
 
-  
 <PageFooter />

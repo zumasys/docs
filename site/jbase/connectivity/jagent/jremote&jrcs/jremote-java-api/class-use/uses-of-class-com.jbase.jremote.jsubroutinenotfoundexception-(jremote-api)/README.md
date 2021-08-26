@@ -3,50 +3,37 @@
 <PageHeader />
 
 ## Uses of Class
+
 com.jbase.jremote.JSubroutineNotFoundException
 
-| Package<br> | Description<br> |
+| Package |
+| --- |
+| Packages that use [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-(jremote-api) "class in com.jbase.jremote")  |
+| com.jbase.jremote |
+| com.jbase.jremote.io |
+| com.jbase.jremote.jca |
+
+### Uses of [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-(jremote-api) "class in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)
+
+| Modifier and Type | Method and Description |
 | --- | --- |
- Packages that use [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote")  | com.jbase.jremote<br> |  <br> |
-| com.jbase.jremote.io<br> |  <br> |
-| com.jbase.jremote.jca<br> |  <br> |
+| Methods in [com.jbase.jremote](./../../../../jremote-api) that throw [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-(jremote-api) "class in com.jbase.jremote") |
+|`JSubroutineParameters` | JConnection.`call(String subroutineName, JSubroutineParameters parameters)`<br>Call a jBASE subroutine. |
 
+### Uses of [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-(jremote-api) "class in com.jbase.jremote") in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-(jremote---api))
 
-
-
-
-### Uses of [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote](./../../../../jremote-api) that throw [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote")  | `JSubroutineParameters`<br> | JConnection.`call(String subroutineName, JSubroutineParameters parameters)`<br>Call a jBASE subroutine.<br> |
+ Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-(jremote---api)) that throw [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-(jremote-api) "class in com.jbase.jremote")  |
+|`JSubroutineParameters` | JConnectionImpl.`call(String subroutineName, JSubroutineParameters parameters)`  |
 
+### Uses of [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-(jremote-api) "class in com.jbase.jremote") in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-(jremote---api))
 
-
-
-
-
-### Uses of [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29)
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) that throw [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote")  | `JSubroutineParameters`<br> | JConnectionImpl.`call(String subroutineName, JSubroutineParameters parameters)` <br> |
+ Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-(jremote---api)) that throw [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-(jremote-api) "class in com.jbase.jremote")  |
+| `JSubroutineParameters` | WrappedJConnection.`call(String subroutineName, JSubroutineParameters parameters)`<br>Call jBASE subroutine. |
 
+Back to [jRemote API](./../../README.md)
 
-
-
-
-
-### Uses of [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29)
-
-
-| Modifier and Type<br> | Method and Description<br> |
-| --- | --- |
- Methods in [com.jbase.jremote.jca](./../../jca/com.jbase.jremote.jca-%28jremote---api%29) that throw [JSubroutineNotFoundException](./../../jsubroutinenotfoundexception-%28jremote-api%29 "class in com.jbase.jremote")  | `JSubroutineParameters`<br> | WrappedJConnection.`call(String subroutineName, JSubroutineParameters parameters)`<br>Call jBASE subroutine.<br> |
-
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
-
-  
 <PageFooter />

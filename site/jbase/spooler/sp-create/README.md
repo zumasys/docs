@@ -45,7 +45,7 @@ FORM-NAME     DEV TYPE(LPTR,TAPE,PORT,PROG,NT,FILE)     DEVICE NAME:_
 > Parameters must be entered in the order shown in the syntax description. You will be prompted for any missing parameters.  
 > There is no limit to the number of formqueues which can be created.
 
-### Examples
+## Examples
 
 Create print queue MAINPTR to print to printer HPLaserJet via program lp
 
@@ -59,7 +59,7 @@ Create print queue TAPE1 to print to the DAT0 tape drive
  SP-CREATE TAPE1 TAPE DAT0
 ```
 
-### Windows only examples
+## Windows only examples
 
 Create print queue SERVERDFLT to print directly to the windows server default printer
 

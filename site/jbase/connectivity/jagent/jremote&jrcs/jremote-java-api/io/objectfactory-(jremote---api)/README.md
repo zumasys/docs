@@ -5,85 +5,68 @@
 ## Class ObjectFactory
 
 - java.lang.Object
-    - com.jbase.jremote.io.ObjectFactory
-
+  - com.jbase.jremote.io.ObjectFactory
 
 - Direct Known Subclasses:InboundObjectFactory, JRemoteObjectFactory
+
 * * *
 
-
-```
+```java
 public abstract class ObjectFactory
 extends Object
 ```
 
 ### Constructor Summary
 
-
-| Constructor and Description<br> |
+| Constructor and Description |
 | --- |
- Constructors  | `ObjectFactory()` <br> |
-
-
-
-
-
+ Constructors  | `ObjectFactory()`  |
 
 ### Method Summary
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- All Methods [Instance Methods](javascript%3Ashow%282%29;) [Abstract Methods](javascript%3Ashow%284%29;) [Concrete Methods](javascript%3Ashow%288%29;)  | `protected JBaseSerializable`<br> | `createGenericObjects(int objectType)`<br>Creates any generic (i.e common to all framework clients) objects.<br> |
-| `protected abstract JBaseSerializable`<br> | `createObject(int objectType)`<br>Create JBaseSerializable object from the supplied object type.<br> |
-
-
-
+ All Methods <br>[Instance Methods](javascript%3Ashow(2);) <br>[Abstract Methods](javascript%3Ashow(4);) <br>[Concrete Methods](javascript%3Ashow(8);)  | `protected JBaseSerializable` | `createGenericObjects(int objectType)`<br>Creates any generic (i.e common to all framework clients) objects. |
+| `protected abstract JBaseSerializable` | `createObject(int objectType)`<br>Create JBaseSerializable object from the supplied object type. |
 
 ### Methods inherited from class java.lang.Object
+
 `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
 ### Constructor Detail
 
 - #### ObjectFactory
 
-```
+```java
 public ObjectFactory()
 ```
-
-
-
-
-
 
 ### Method Detail
 
 - #### createObject
 
-```
+```java
 protected abstract JBaseSerializable createObject(int objectType)
                                            throws UnknownTypeException
 ```
 
-Create JBaseSerializable object from the supplied object type.
-Parameters:`objectType` - type identifierReturns:an instance of a class implementing JBaseSerializableThrows:`UnknownTypeException`
-
-
-
-
+Create JBaseSerializable object from the supplied object type.  
+Parameters:`objectType` - type identifier  
+Returns:an instance of a class implementing JBaseSerializable  
+Throws:`UnknownTypeException`
 
 - #### createGenericObjects
 
-
-```
+```java
 protected JBaseSerializable createGenericObjects(int objectType)
                                           throws UnknownTypeException
 ```
 
-Creates any generic (i.e common to all framework clients) objects. If the object is not generic calls the client specific createObject method.
-Parameters:`objectType` - type identifierReturns:an instance of a class implementing JBaseSerializableThrows:`UnknownTypeException`
+Creates any generic (i.e common to all framework clients) objects. If the object is not generic calls the client specific createObject method.  
+Parameters:`objectType` - type identifier  
+Returns:an instance of a class implementing JBaseSerializable  
+Throws:`UnknownTypeException`
 
-
-
+Back to [jRemote API](./../../README.md)
   
 <PageFooter />

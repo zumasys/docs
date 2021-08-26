@@ -6,7 +6,7 @@
 
 This guide covers a basic configuration of jRFS. It describes a configuration up between a client machine (omega) and a server (demo), both running Windows.
 
-### The jRFS Service
+## The jRFS Service
 
 Both client and server machines must have an entry in %SYSTEMROOT%\system32\drivers\etc\services that follows the schema:
 
@@ -20,7 +20,7 @@ For jRFS the entry required is:
 jRFS    5001/tcp    jRFS      #jBASE Remote file service
 ```
 
-### Client Setup
+## Client Setup
 
 On the client machine, omega, we create a Q pointer called RFSDEMO. This necessitates an [MD/VOC file](./../../accounts/the-md&voc-file/README.md) being set up on the client. The Q-pointer item is:
 
@@ -83,7 +83,7 @@ display=on
 
 **jnet\_env** and **jnet\_access** require no changes on the client machine.
 
-### Server setup
+## Server setup
 
 Create an account entry in the SYSTEM file on the server as follows:
 
@@ -107,7 +107,7 @@ accesschk=on
 
 This last setting causes a security check to be performed to see if the connecting machine/user id is allowed access.
 
-**On UNIX:**
+## UNIX
 
 There are two methods available, ruserok provided by the OS, and jnetok method provided by jRFS. The first method is normally sufficient for user’s needs. This involves adding the client hostname to the /etc/hosts.equiv file on the server, along with a reference to which users are allowed access, as follows:
 
@@ -117,7 +117,7 @@ jbase2 jbaseadmmikeonly this user will be allowed in from jbase2
 jbase1 + all users allowed from jbase1
 ```
 
-**On Windows:**
+## Windows
 
 Only the jnetok method is supported on Windows, which will require the **jnet\_access**file to be configured. This file contains account and password to map to, note that account must have profile set up with home directory. In this case account=jrfsuser and password=jbase
 
@@ -130,7 +130,7 @@ No changes are required to **jrfs\_config**, **jnet\_env** or **jnet\_map**.
 
 This should be enough to get a simple demo working between two machines. The only potential problems are regarding user names on the Server, the logs ought to make any issues to be resolved obvious.
 
-#### CLIENT Machine – ‘jbase2’
+### Client Machine – ‘jbase2’
 
 jnet\_config
 
@@ -158,7 +158,7 @@ display=on
 #logfile=
 ```
 
-#### SERVER Machine – ‘sun’
+### Server Machine – ‘sun’
 
 jnet\_config
 

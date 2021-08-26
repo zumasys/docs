@@ -45,5 +45,4 @@ Shows typical output to the secondary input buffer of a jCL program where 1134 i
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

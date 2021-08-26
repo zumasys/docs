@@ -31,7 +31,7 @@ By default create-index will build the index and will not require a rebuild-inde
 
 Option **-a** means you want to rebuild all the indexes defined for the file. This can also be achieved by specifying **\*** as the index name. Otherwise you must specify on the command line one or more index names to rebuild.
 
-Option **-r** will rebuild all files in the directory name specified. This is a useful operation after using, for example, [jrestore](./../../utilities/jrestore/README.md) to restore your database and then you can use the option -r to rebuild all files in a certain directory.
+Option **-r** will rebuild all files in the directory name specified. This is a useful operation after using, for example, [jrestore](./../../tools-and-utilities/jrestore/README.md) to restore your database and then you can use the option -r to rebuild all files in a certain directory.
 
 Back to [Indexes](./../README.md)
 

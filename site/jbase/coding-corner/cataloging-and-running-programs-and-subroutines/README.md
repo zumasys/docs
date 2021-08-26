@@ -1,12 +1,10 @@
-# CATALOGING & RUNNING PROGRAMS/SUBROUTINES
+# Cataloging and Running Programs/Subroutines
 
 <PageHeader />
 
 ## Understanding BASIC/CATALOG on jBASE
 
-jBASE differs to other MultiValue platforms in many ways and one of the primary areas is BASIC run-time. In jBASE all programs must be cataloged to run. The use of:
-
-e.g.
+jBASE differs to other MultiValue platforms in many ways and one of the primary areas is BASIC run-time. In jBASE all programs must be cataloged to run. For example, the use of:
 
 ```
  RUN BP MYPROG
@@ -98,7 +96,7 @@ This is a common issue when making a copy of a program and neglecting to change 
 
 The [PORTBAS](../../migration-station/articles/portbas/README.md) utility can be used to either rectify or report the status of any such occurrences.
 
-Without making any changes, if you attempt to [CATALOG](../../jbase-basic-(jbc)/catalog/README.md) both of these the second one will fail reporting that MYSUB has already been cataloged and refer you to the object code that was used for that catalog at which point you need to determine which one is correct and which one should be modified and recompiled/cataloged.
+Without making any changes, if you attempt to [CATALOG](../../jbc/catalog/README.md) both of these the second one will fail reporting that MYSUB has already been cataloged and refer you to the object code that was used for that catalog at which point you need to determine which one is correct and which one should be modified and recompiled/cataloged.
 
 ## jSHOW shows multiple results
 

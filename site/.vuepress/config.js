@@ -22,26 +22,6 @@ module.exports = {
     return { plugins: [new webpack.EnvironmentPlugin(env)] };
   },
   plugins: {
-    // Vssue (uses gitlab issues to comment)
-    "@vssue/vuepress-plugin-vssue": {
-      platform: "github-v4", // set `platform` rather than `api`
-      owner: "zumasys",
-      repo: "docs",
-      clientId: process.env.VUE_APP_GITHUB_CLIENT_ID,
-      clientSecret: process.env.VUE_APP_GITHUB_CLIENT_SECRET,
-      admins: ["ryannmedina", "itsxallwater"],
-      issueContent: ({ options, url }) => {
-        var domains = ["http://localhost:8800", "https://docs.zumasys.com"];
-        var relative = url;
-
-        for (var i = 0; i < domains.length; i++) {
-          if (relative.includes(domains[i]))
-            relative = relative.replace(domains[i], "");
-        }
-
-        return `This issue is auto created by Vssue to store comments of this page: ${relative}`;
-      }
-    },
     // TypeScript in .vue files, markdown files and enhanceApp.ts
     "vuepress-plugin-typescript": {
       tsLoaderOptions: {
@@ -60,7 +40,8 @@ module.exports = {
         "customer-portal",
         "jbase",
         "mv-connect",
-        "mv-dashboard"
+        "mv-dashboard",
+        "totalink"
       ]
     },
     // Add article reading time estimate
@@ -103,7 +84,8 @@ module.exports = {
           { text: "jBASE", link: "/jbase/" },
           { text: "MV Connect", link: "/mv-connect/" },
           { text: "MV Dashboard", link: "/mv-dashboard/" },
-          { text: "POS Connect", link: "/pos-connect/" }
+          { text: "POS Connect", link: "/pos-connect/" },
+          { text: "TotaLink", link: "/totalink/" }
 
         ]
       }
@@ -121,7 +103,7 @@ module.exports = {
             title: "Release Notes",
             path: "/accuterm/release-notes/",
             collapsable: true,
-            children: [["/accuterm/release-notes/8.0.1010/", "8.0.1010"]]
+            children: [["/accuterm/release-notes/8.0.1023/", "8.0.1023"]]
           },
           ["/accuterm/license-activation/", "License Activation"],
           {
@@ -140,7 +122,8 @@ module.exports = {
             collapsable: true,
             children: [
               ["/accuterm/desktop/gui/", "GUI"],
-              ["/accuterm/desktop/rezume-session-resilience/", "ReZume Session Resilience"]
+              ["/accuterm/desktop/rezume-session-resilience/", "ReZume Session Resilience"],
+              ["/accuterm/desktop/installation/", "Installation"]
             ]
           },
           {
@@ -178,6 +161,14 @@ module.exports = {
                   ["/accuterm/web/profiles/connection-settings/", "Connection Settings"],
                   ["/accuterm/web/profiles/font-and-character-settings/", "Font & Character Settings"]
                 ]
+              },
+              {
+                title: "GUI",
+                path: "/accuterm/web/gui/",
+                collapsable: true,
+                children: [
+                  ["/accuterm/web/gui/staging/", "Staging Updates"]
+                ]
               }
             ]
           }
@@ -199,48 +190,193 @@ module.exports = {
         path: "/jbase/",
         collapsable: true,
         children: [
-          ["/jbase/jbc/", "jBC"],
-          ["/jbase/dynamic-objects/", "Dynamic Objects"],
-          ["/jbase/jbc-string-operations/", "jBC String Operations"],
-          ["/jbase/debugger/", "jBC Debugger"],
-          ["/jbase/compilation/", "jBC Compilation"],
-          ["/jbase/jbc-runtime/", "jBC Runtime"],
-          ["/jbase/jbc-error-handling/", "jBC Error Handling"],
-          ["/jbase/jcl/", "jCL"],
-          ["/jbase/jql/", "jQL"],
-          ["/jbase/jrfs/", "jRFS"],
-          ["/jbase/accounts/", "Accounts"],
-          ["/jbase/background-processing/", "Background Processing"],
-          ["/jbase/conversion-processing/", "Conversion Processing"],
-          ["/jbase/database-drivers/", "Database Drivers"],
-          ["/jbase/daemons/", "Daemons"],
-          ["/jbase/editor/", "Editor"],
-          ["/jbase/jbc/embedded-sql-for-jbase-basic/", "Embedded SQL"],
-          ["/jbase/emulation/", "Emulation"],
-          ["/jbase/environment-variables/", "Environment Variables"],
-          ["/jbase/files/", "Files"],
-          ["/jbase/indexes/", "Indexes"],
-          ["/jbase/internationalization/", "Internationalization"],
-          ["/jbase/jshell/", "jSHELL"],
-          ["/jbase/lists/", "Lists"],
-          ["/jbase/porting/", "Porting"],
-          ["/jbase/spooler/", "Spooler"],
-          ["/jbase/tape/", "Tape"],
-          ["/jbase/telnet/", "Telnet"],
-          ["/jbase/terminal/", "Terminals"],
-          ["/jbase/transactions/", "Transactions"],
-          ["/jbase/tools/", "Tools"],
-          ["/jbase/triggers/", "Triggers"],
-          ["/jbase/utilities/", "Utilities"],
-          ["/jbase/administration/", "Administration"],
-          ["/jbase/coding-corner/", "Coding Corner"],
-          ["/jbase/connectivity/", "Connectivity"],
-          ["/jbase/encryption/", "Encryption"],
-          ["/jbase/faq/", "FAQ"],
-          ["/jbase/jedi/", "jEDI"],
-          ["/jbase/miscellaneous/", "Miscellaneous"],
-          ["/jbase/reference-guides/", "Reference Guides"],
-          ["/jbase/release-notes/", "Release Notes"]
+          {
+            title: "Getting Started",
+            path: "/jbase/get-started",
+            collapsable: true,
+            children: [
+              ["/jbase/overview/", "Overview"],
+              ["/jbase/fundamentals/", "jBASE Fundamentals"],
+              ["/jbase/cheat-sheets/", "jBASE Cheat Sheets"]
+            ]
+          },
+          {
+            title: "Installation",
+            path: "/jbase/installation",
+            collapsable: true,
+            children: [
+              ["/jbase/administration/installation-guides/linux/", "Linux"],
+              ["/jbase/administration/installation-guides/windows/", "Windows"],
+              ["/jbase/administration/installation-guides/aix/", "AIX"],
+              ["/jbase/administration/installation-guides/upgrading/", "Upgrades"],
+              ["/jbase/administration/installation-guides/licensing/", "Licensing"],
+              ["/jbase/administration/installation-guides/platform-availability/", "Platform Availability"]
+            ]
+          },
+          {
+            title: "jBASE BASIC (jBC)",
+            path: "/jbase/basic",
+            collapsable: true,
+            children: [
+              ["/jbase/reference-guides/jbc/", "jBC"],
+              ["/jbase/editors/", "Editors"],
+              ["/jbase/dynamic-objects/", "Dynamic Objects"],
+              ["/jbase/compilation/", "Compilation"],
+              ["/jbase/jbc-runtime/", "Runtime"],
+              ["/jbase/reference-guides/debugger/", "Debugger"],
+              ["/jbase/jbc-error-handling/", "Error Handling"]
+            ]
+          },
+          {
+            title: "jBASE Query Language (jQL)",
+            path: "/jbase/queries",
+            collapsable: true,
+            children: [
+              ["/jbase/jql/", "jQL"],
+              ["/jbase/lists/", "Lists"],
+              ["/jbase/conversion-processing/", "Conversion Processing"]
+            ]
+          },
+          {
+            title: "jBASE Structured Query Language (jSQL)",
+            path: "/jbase/jsql",
+            collapsable: true,
+            children: [
+              ["/jbase/jsql/SQL/", "Using SQL with jBASE"],
+              ["/jbase/connectivity/ODBC/", "ODBC"],
+              ["/jbase/connectivity/jagent/jremote-api/", "jRemote API"]
+            ]
+          },
+          {
+            title: "jBASE Control Language (PROC)",
+            path: "/jbase/jcl",
+            collapsable: true,
+            children: [
+              ["/jbase/reference-guides/jcl/", "jCL"]
+            ]
+          },
+          {
+            title: "Indexes",
+            path: "/jbase/indexes",
+            collapsable: true,
+            children: [
+              ["/jbase/indexes/indexes/", "All about Indexes"]
+            ]
+          },
+          {
+            title: "Files",
+            path: "/jbase/fileinfo",
+            collapsable: true,
+            children: [
+              ["/jbase/faq/introduction-to-audit-logging/", "Audit Logging"],
+              ["/jbase/encryption/", "Encryption"],
+              ["/jbase/files/", "File Handling"],
+              ["/jbase/coding-corner/introduction-to-distributed-locking/", "jDLS"],
+              ["/jbase/jrfs/jrfs-quick-start-guide/", "jRFS"],
+              ["/jbase/record-locking/", "jBASE Record Locking"],
+              ["/jbase/triggers/triggers-overview/", "Triggers"]
+            ]
+          },
+          {
+            title: "jEDI",
+            path: "/jbase/jedi",
+            collapsable: true,
+            children: [
+              ["/jbase/jedi/mongodb/mongodb-jedi-driver/", "Mongo DB"],
+              ["/jbase/jedi/odbc/introduction-to-the-odbc-jedi/", "ODBC"]
+            ]
+          },
+          {
+            title: "Transaction Journaling",
+            path: "/jbase/transactions",
+            collapsable: true,
+            children: [
+              ["/jbase/transactions/transaction-processing/", "Logging"],
+              ["/jbase/transactions/transaction-replication/introduction-to-transaction-journaling/", "Replication"]
+            ]
+          },
+          {
+            title: "Connectivity",
+            path: "/jbase/connectivity",
+            collapsable: true,
+            children: [
+              ["/mv-connect/api/", "jAgent"],
+              ["/jbase/connectivity/jrcs/", "jRCS"],
+              ["/jbase/connectivity/ODBC/", "ODBC"],
+              ["/jbase/faq/jcurl/", "jCurl"]
+            ]
+          },
+          {
+            title: "Spooler",
+            path: "/jbase/spooler",
+            collapsable: true,
+            children: [
+              ["/jbase/spooler/", "jBASE Spooler"]
+            ]
+          },
+          {
+            title: "Administration",
+            path: "/jbase/administration",
+            collapsable: true,
+            children: [
+              ["/jbase/accounts/", "Accounts"],
+              ["/jbase/background-processing/", "Background Processing"],
+              ["/jbase/faq/case-insensitive-overview/", "Case Insensitivty"],
+              ["/jbase/daemons/", "Daemons"],
+              ["/jbase/environment-variables/", "Environment Variables"],
+              ["/jbase/internationalization/jbase-internationalization/", "Internationalization"],
+              ["/jbase/faq/multitenancy/", "Multi-Tenancy"],
+              ["/jbase/faq/profiles/jbase-profiles/", "Profiles"],
+              ["/jbase/porting/migration-station/data-conversion/generic-data-conversion/", "Porting"],
+              ["/jbase/administration/printers/", "Printers"],
+              ["/jbase/terminal/terminal-support/", "Terminals"],
+              ["/jbase/tape/tape-commands/", "Tape"],
+              ["/jbase/tools-and-utilities/", "Tools and Utilities"]
+            ]
+          },
+          {
+            title: "Coding Corner",
+            path: "/jbase/coding-corner",
+            collapsable: true,
+            children: [
+              ["/jbase/coding-corner/", "Coding Corner"]
+            ]
+          },
+          {
+            title: "FAQ",
+            path: "/jbase/faq",
+            collapsable: true,
+            children: [
+              ["/jbase/faq/", "Frequently Asked Questions"]
+            ]
+          },
+          {
+            title: "Migration Station",
+            path: "/jbase/porting/migration-station",
+            collapsable: true,
+            children: [
+              ["/jbase/porting/migration-station/data-conversion/", "Data Conversion"]
+            ]
+          },
+          {
+            title: "Release Notes",
+            path: "/jbase/release-notes",
+            collapsable: true,
+            children: [
+              ["/jbase/release-notes/5.8/", "5.8.x"],
+              ["/jbase/release-notes/5.7/", "5.7.x"],
+              ["/jbase/release-notes/5.6/", "5.6.x"],
+              ["/jbase/release-notes/5.5/5.5.1/", "5.5.x"]
+            ]
+          },
+          {
+            title: "Technical Support",
+            path: "/jbase/technical-support",
+            collapsable: true,
+            children: [
+              ["/jbase/technical-support/", "jBASE Technical Support"]
+            ]
+          }
         ]
       },
       {
@@ -253,7 +389,11 @@ module.exports = {
             title: "Release Notes",
             path: "/mv-connect/release-notes/",
             collapsable: true,
-            children: [["/mv-connect/release-notes/1.6.3/", "1.6.3"]]
+            children: [
+              ["/mv-connect/release-notes/1.6.3/", "1.6.3"],
+              ["/mv-connect/release-notes/1.6.3/", "1.7.0"],
+              ["/mv-connect/release-notes/1.6.3/", "1.7.4"]
+            ]
           },
           ["/mv-connect/connection-pooling/", "Connection Pooling"],
           {
@@ -422,6 +562,167 @@ module.exports = {
         path: "/pos-connect/",
         collapsable: true,
         children: [["/pos-connect/installation-guide/", "Installation Guide"]]
+      },
+      {
+        title: "Smart Suite",
+        path: "/smartsuite/",
+        collapsable: true,
+        children: [
+          ["/smartsuite/ap/accounts-payable-training/", "Accounts Payable"],
+          ["/smartsuite/ar/ar-training/", "AR Training Guide"],
+          {
+            title: "Accounts Receivable",
+            path: "/smartsuite/ar/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/ar/ar-general-ledger-interface/", "General Ledger Interface"],
+              ["/smartsuite/ar/ar-history/", "Managing AR History"],
+              ["/smartsuite/ar/creating-ar-agents/", "Create AR Agents"],
+              ["/smartsuite/ar/create-ar-customer/", "Create AR Customers"]
+            ]
+          },
+          {
+            title: "General Ledger",
+            path: "/smartsuite/gl/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/gl/general-ledger-pos-setup/", "GL POS Setup"],
+              ["/smartsuite/gl/general-ledger-training/", "Training Document"],
+              ["/smartsuite/gl/month-end-closing/", "EOM CLosing"]
+            ]
+          },
+          {
+            title: "General Merchandise",
+            path: "/smartsuite/gm/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/gm/adding-gm-items-to-the-web/", "Add Items to Web"],
+              ["/smartsuite/gm/adopt-gm-items/", "Adopt GM Items"],
+              ["/smartsuite/gm/create-matrix-items/", "Create Matrix Items"],
+              ["/smartsuite/gm/creating-a-purchase-order-with-new-matrix-items/", "Create PO With New Matrix Items"],
+              ["/smartsuite/gm/creating-kits-or-bundles/", "Create Kits or Bundles"],
+              ["/smartsuite/gm/general-merchandise-training-2/", "GM Training"],
+              ["/smartsuite/gm/gm-merchandise-for-rush/", "Prepare for Rush"],
+              ["/smartsuite/gm/gm-price-changes/", "Price Changes"],
+              ["/smartsuite/gm/gm-promo-pricing/", "Promo Pricing"],
+              ["/smartsuite/gm/gm-purchasing-guide/", "Purchasing Guide"],
+              ["/smartsuite/gm/matrix-receiving/", "Matrix Receiving"],
+              ["/smartsuite/gm/unkit/", "Unkit Kitted Items"]
+            ]
+          },
+          {
+            title: "Graphic Interface (GUI)",
+            path: "/smartsuite/gui/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/gui/customer-gui-installation/", "Customer Install Instructions"],
+              ["/smartsuite/gui/getting-a-report-into-excel/", "Export Report to Excel"]
+            ]
+          },
+          {
+            title: "Hardware",
+            path: "/smartsuite/hardware/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/hardware/add-logo-to-receipt/", "Add Receipt Logo"],
+              ["/smartsuite/hardware/scanpal-usage-guide/", "Scanpal User Guide"]
+            ]
+          },
+          {
+            title: "Point of Sale",
+            path: "/smartsuite/pos/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/pos/balance-inquiry/", "Balance Inquiry"],
+              ["/smartsuite/pos/card-on-file/", "Card on File"],
+              ["/smartsuite/pos/class-specific-exemptions/", "Class Specific Exemptions"],
+              ["/smartsuite/pos/colleague-split-tender-checkout/", "Split Tender Checkout"],
+              ["/smartsuite/pos/coupon-gc-checkout/", "Coupons, Voucher and GC Online Checkout"],
+              ["/smartsuite/pos/custom-qb-reports/", "Custom Reports via Query Builder"],
+              ["/smartsuite/pos/discount-matrix/", "Discount Matrix"],
+              ["/smartsuite/pos/end-of-day-procedures/", "End of Day Procedures"],
+              ["/smartsuite/pos/gift-receipt-setup/", "Gift Receipt Setup"],
+              ["/smartsuite/pos/kitchen-printer-setup/", "Kitchen Printer Setup"],
+              ["/smartsuite/pos/loyalty-rewards-setup/", "Loyalty and Rewards"],
+              ["/smartsuite/pos/mail-orders/", "Mail Orders"],
+              ["/smartsuite/pos/negative-accounts-bad-checks/", "Negative Accounts/Bad Checks"],
+              ["/smartsuite/pos/online-orders-resume-suspend-and-modify/", "Online Orders"],
+              ["/smartsuite/pos/pos-training/", "Training Document"],
+              ["/smartsuite/pos/print-pickslip/", "Print Pickslips"],
+              ["/smartsuite/pos/register-reconciliation/", "Register Reconciliation"],
+              ["/smartsuite/pos/reports/", "Reports"],
+              ["/smartsuite/pos/resume-order-search-setup/", "Resume Order Search Setup"],
+              ["/smartsuite/pos/sell-and-redeem-gift-cards/", "Sell and Redeem Gift Cards"],
+              ["/smartsuite/pos/setup-of-balance-inquiry-for-gift-card/", "Setup Balance Inquiry for Gift Cards"],
+              ["/smartsuite/pos/vouchers-setup/", "Voucher Setup"],
+              ["/smartsuite/pos/web-order-returns/", "Web Order Returns"]
+            ]
+          },
+          ["/smartsuite/rsl/", "Retail Stock Ledger"],
+          {
+            title: "System Setup",
+            path: "/smartsuite/system/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/system/background-processing/", "Background Processes"],
+              ["/smartsuite/system/background-processing-reports/", "Background Reports"],
+              ["/smartsuite/system/background-processing-self-hosted/", "Background Reports - Self Hosted"],
+              ["/smartsuite/system/tcs-department-class-setup/", "Department and Class Setup"],
+              ["/smartsuite/system/file-transfer-changes-and-setup/", "File Transfers"],
+              ["/smartsuite/system/general-inventory-procedurs/", "General Inventory Procedures"],
+              ["/smartsuite/system/inventory-procedures-tricoder/", "Inventory Procedures - Tricoder"],
+              ["/smartsuite/system/set-or-reset-a-user-password/", "Set or Reset Password"],
+              ["/smartsuite/system/tech-update/", "Tech Updates"],
+              ["/smartsuite/system/how-to-customize-the-touch-screen/", "Touch Screen Layouts"],
+              ["/smartsuite/system/upgrading-to-windows-10/", "Upgrade to Windows 10"]
+            ]
+          },
+          {
+            title: "Textbooks",
+            path: "/smartsuite/text/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/text/adoption-import-file-specification/", "Adoption Import File Specs"],
+              ["/smartsuite/text/advanced-faculty-adoptions-web-side/", "Advanced Faculty Adoptions - Web"],
+              ["/smartsuite/web/advanced-faculty-adoptions-store-side/", "Advanced Faculty Adoptions - Store Side"],
+              ["/smartsuite/text/auto-orders/", "Auto Orders"],
+              ["/smartsuite/text/buyback-process/", "Buyback Process"],
+              ["/smartsuite/text/buyback-setup/", "Buyback Setup"],
+              ["/smartsuite/text/import-adoption-headers/", "Import Adoption Headers"],
+              ["/smartsuite/text/manually-add-an-ebook/", "Manually Add An Ebook"],
+              ["/smartsuite/text/print-adoption-forms/", "Print Adoption Forms"],
+              ["/smartsuite/text/printing-adoption-forms/", "Printing Adoption Formsv2"],
+              ["/smartsuite/text/receiving-process/", "Receiving PRocess"],
+              ["/smartsuite/text/redshelf-adoption-export/", "Redshelf Adoption Export"],
+              ["/smartsuite/text/redshelf-user-guide/", "Redshelf User Guide"],
+              ["/smartsuite/text/rental-setup-and-training/", "Rental Setup and Training"],
+              ["/smartsuite/text/returns-process/", "Returns Process"],
+              ["/smartsuite/text/store-transfers/", "Store Transfers"],
+              ["/smartsuite/text/textbook-training/", "Textbook Training"],
+              ["/smartsuite/text/transfer-and-import-redshelf-catalog/", "Transfer and Import Redshelf Catalog"],
+              ["/smartsuite/text/wholesale-guide-update/", "Wholesale Guide Update"]
+            ]
+          },
+          {
+            title: "Webstore",
+            path: "/smartsuite/web/",
+            collapsable: true,
+            children: [
+              ["/smartsuite/web/advanced-faculty-adoptions-store-side/", "Advanced Faculty Adoptions - Store Side"],
+              ["/smartsuite/web/campus-webstore-parameters/", "Campus Webstore Parameters"],
+              ["/smartsuite/web/legacy-faculty-adoptions-web-side/", "Legacy Faculty Adoptions - Web"]
+            ]
+          },
+          ["/smartsuite/release-notes/", "Release Notes"]
+        ]
+      },
+      {
+        title: "TotaLink",
+        path: "/totalink/",
+        collapsable: true,
+        children: [
+          ["/totalink/", "API"],
+        ]
       },
     ],
     repo: "https://github.com/zumasys/docs",

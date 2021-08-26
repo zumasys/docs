@@ -8,7 +8,7 @@
 
 ## Description
 
-This statement sends data directly to the terminal, even if a [PRINTER ON](./../printer) statement is currently active. It takes the general form:
+This statement sends data directly to the terminal, even if a [PRINTER ON](./../printer/README.md) statement is currently active. It takes the general form:
 
 ```
 CRT|DISPLAY expression {, expression..} {:}
@@ -16,7 +16,7 @@ CRT|DISPLAY expression {, expression..} {:}
 
 **expression** can evaluate to any data type. The **CRT** statement will convert the result to a string type for printing. Expressions separated by commas will be sent to the screen separated by a tab character.
 
-The **CRT** statement will append a newline sequence to the final expression unless it is terminated with a colon ":" character.
+The **CRT** statement will append a newline sequence to the final **expression** unless it is terminated with a colon ":" character.
 
 ## Note
 
@@ -35,6 +35,8 @@ FOR position = 1 TO 5
     DISPLAY @(position, 10) : position
 NEXT position
 ```
+
+[Back to jKeyAuto](./../../tools-and-utilities/jkeyauto/README.md)
 
 Go back to [jBASE BASIC](./../README.md)
 

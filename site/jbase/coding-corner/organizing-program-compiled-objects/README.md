@@ -2,6 +2,10 @@
 
 <PageHeader />
 
+| Note |
+| --- |
+|This article assumes you are using the 'legacy' mode of object creation.  As of jBASE release 5.8, a new object creation model called Single Object was introduced.  To use it, you must opt-in, meaning that the legacy model of objection creation remains the default behavior and you must set the [JELF](./../../environment-variables/jelf/README.md) environment variable to use [Single Object Build](./../../compilation/single-object-build/README.md).  If you use Single Object Build, then this article does not apply to you. |
+
 ## Flexibility is a Dual-Edged Sword
 
 jBASE is wonderful in the way that it allows the administrator to have a high-degree of control of his development and deployment scheme.  Unlike traditional MultiValue environments, jBASE really allows the system architect to layout the system structure any way he/she wishes.

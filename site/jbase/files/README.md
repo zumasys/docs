@@ -1,24 +1,39 @@
-# Files
+# File Handling
 
 <PageHeader />
 
-## Topics
+## At the jshell
 
-[copy](./copy/README.md)  
-[create-file](./create-file/README.md)  
-[create-trigger](./create-trigger/README.md)  
-[distributed-files](./distributed-files/README.md)  
-[dynamic-files](./dynamic-files/README.md)  
-[file-integrity](./file-integrity/README.md)  
-[introduction-to-triggers](./introduction-to-triggers/README.md)  
-[jbase-files](./jbase-files/README.md)  
-[jcheck](./jcheck/README.md)  
-[jcomp](./jcomp/README.md)  
-[jr-files](./jr-files/README.md)  
-[jrf](./jrf/README.md)  
-[jstat](./jstat/README.md)  
-[rename-file](./rename-file/README.md)  
-[trigger-api](./trigger-api/README.md)  
+| <!----> | <!----> |
+| --- | --- |
+| [Create-File](./create-file/README.md) | Creating Files in jBASE |
+| [Rename-File](./rename-file/README.md) | Rename your file |  
+
+## File Utilities
+
+| <!----> | <!----> |
+| --- | --- |
+| [Copy](./copy/README.md)  | Copying items between files |
+| [Delete](./delete/README.md) | Delete items from a file |
+| [jComp](./jcomp/README.md)  | Comparing items in files |
+| [jRF](./jrf/README.md)  | Resizing Files |
+| [jStat](./jstat/README.md)  | jBASE File Statistics |
+
+## File Types  
+
+| <!----> | <!----> |
+| --- | --- |
+| [Overview](./jbase-files/README.md)  | Overview of jBASE file types |
+| [Distributed Files](./distributed-files/README.md)  | Distributed files |
+| [Dynamic Files](./dynamic-files/README.md)  | Dynamic Files |
+| [jR Files](./jr-files/README.md)  | Resiliant files |
+
+## Other Topics  
+
+| <!----> | <!----> |
+| --- | --- |
+| [Extended Dictionaries](./extended-dictionary/README.md)  | Dictionay Extensions for ODBC |
+| [File Integrity](./file-integrity/README.md)  | File Integrity |
 
 [Back to Knowledgebase](./../README.md)
 

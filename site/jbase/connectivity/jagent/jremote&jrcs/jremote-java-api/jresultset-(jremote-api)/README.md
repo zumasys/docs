@@ -4,11 +4,11 @@
 
 ## Interface JResultSet
 
-All Known Implementing Classes:[JResultSetImpl](./../io/jresultsetimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
+All Known Implementing Classes:[JResultSetImpl](./../io/jresultsetimpl-(jremote-api) "class in com.jbase.jremote.io")
+
 * * *
 
-
-```
+```java
 public interface JResultSet
 ```
 
@@ -16,36 +16,28 @@ Allows iteration of a result set fetched in blocks.
 
 ### Method Summary
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
-| `JDynArray`<br> | `getRow()` <br> |
-| `boolean`<br> | `next()` <br> |
+| `JDynArray` | `getRow()`  |
+| `boolean` | `next()`  |
 
 ### Method Detail
 
-
-
 #### next
 
-```
+```java
 boolean next()
       throws JRemoteException
 ```
+
 Throws:`JRemoteException`
-
-
-
 
 #### getRow
 
-```
+```java
 JDynArray getRow()
 ```
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](./../../README.md)
 
-
-
-  
 <PageFooter />

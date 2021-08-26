@@ -1,4 +1,4 @@
-# TRIGGER-API
+# Trigger API
 
 <PageHeader />
 
@@ -14,9 +14,9 @@ The subroutine can used to define ancillary updates that need to occur as a resu
 | SubroutineParameter | Description |
 | --- | --- |
 | Filevar | The file variable associated with the update. For instance:<br><br>```WRITE var ON filevar,"newkey"```<br><br>however caution must be exercised not to call this subroutine recursively. |
-| Event | One of the TRIGGER\_TYPE\_xxx values to show which of the 9 events is currently about to take place. Defined in source $JBCRELEASEDIR/include/JBC.h (UNIX) and %JBCRELEASEDIR%\include\JBC.h (Windows).<br>[See Table #1 below](./#Table-#1) |
+| Event | One of the TRIGGER\_TYPE\_xxx values to show which of the 9 events is currently about to take place. Defined in source $JBCRELEASEDIR/include/JBC.h (UNIX) and %JBCRELEASEDIR%\include\JBC.h (Windows).<br>[See Table #1 below](#table-1-trigger-events) |
 | Prerc | The current return code (i.e. status) of the action. For all the TRIGGER\_TYPE\_PRExx events, it will be 0. For all the TRIGGER\_TYPE\_POSTxx events, it will show the current status of the action, with 0 meaning that the action was performed successfully and any other value showing the update failed. For example, if a WRITE fails because the lock table is full, the value in prerc is 1. |
-| Flags | Various flags to show things like if a WRITE or WRITEV was performed.  **Not used yet**. |
+| Flags | Various flags to indicate if a WRITE or WRITEV was performed, for instance.  [See Flags below](#flags). |
 | RecordKey | The record key (or item-id) of the WRITE or DELETE being performed. For CLEARFILE, this is set to null. |
 | Record| For the WRITE actions, this is the record currently being updated. For the DELETE or CLEARFILE actions, this is set to null. It is possible to modify this variable in user defined subroutines if need be.  However, the modification will be discarded unless the [create-trigger](./../../../files/create-trigger) command was executed with the -a option.|
 | Userrc | This can be set to a non-zero value for the TRIGGER\_TYPE\_PRExxx actions so that it will abort the action. However, unless the -t option was used with the [create-trigger](./../../../files/create-trigger) command, it will be meaningless.<br>There are two options to setting this value:<ol><li>Any negative value will cause the action to be terminated. However, nothing will be flagged to the application, and it will appear to all intents and purposes that the action performed. Any positive value is taken to be the return code for the action.</li><li>For example, when a WRITE completes it will normally give a return code of 0. If this variable is then set to say 13 (which is the Unix error number for &quot;Permission denied&quot;) then the application will fall into the jBASE debugger with error code 13.</li></ol> |
@@ -57,7 +57,36 @@ The table below summarizes the state of each argument at the time the subroutine
 
 > filevar is not the name of the file, but rather the system-level file unit.  It can be treated as such for file operations  within the subroutine, but cannot be treated as a typical variable, e.g., it cannot be used with a PRINT or CRT statement.
 
-## Example
+## Flags
+
+As of jBASE 5.8.1, this parameter is now implemented as follows:  
+
+**Flags**: Extra optional details about the update. This is a string passed via 2 attributes as follows:  
+
+**Flags<1>** : A Multi-value list of options as shown below. There can be zero or more multi-values. Each multi value describes one option as follows:  
+
+"LOCK"    A record lock is being taken with a READU statement, or the lock is being maintained and not released with a WRITEU statement.  
+"NOWAIT"  The READU statement contains a LOCKED clause meaning it will not wait should a lock be taken.  
+"FIELD"   A single field number (attribute) is being requested to be read or written, e.g. a WRITEV or READV statement.  
+
+**Flags<2>** : If Flags<1> contains "FIELD" then this is the attribute number.
+
+For example, if your application does this:
+
+```
+READVU rec FROM FILEVAR,"ITEMID",3 LOCKED
+   PRINT "The record is already locked"
+END THEN
+......
+```
+
+Then the 'Flags' parameter will appear as this:
+
+```
+LOCK]NOWAIT]FIELD^3
+```
+
+## Example Trigger Subroutine
 
 ```
 SUBROUTINE CUSTOMERS-CHECK(filevar , event , prerc , flags , recordkey , record , userrc )
@@ -93,8 +122,7 @@ COMMON /CUSTOMER_CHECK/ openflag , odfile , arfile , defile
 * action was performed successfully and any other value showing the update
 * failed. For example, if a WRITE fails because the lock table is full, the
 * value in prerc is 0.
-* flags: Various flags to show things like if a WRITE or WRITEV was performed. Not
-* used yet.
+* flags: Various flags to show things like if a WRITE or WRITEV was performed.
 * recordkey: The record key (or item-id) of the WRITE or DELETE being performed. For
 * CLEARFILE, this is set to ""
 * record: For the WRITE actions, this is the record currently being updated. For the

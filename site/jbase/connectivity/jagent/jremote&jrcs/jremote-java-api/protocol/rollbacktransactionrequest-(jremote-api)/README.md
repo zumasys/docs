@@ -4,11 +4,11 @@
 
 ## Class RollbackTransactionRequest
 
-All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")
+
 * * *
 
-
-```
+```java
 public class RollbackTransactionRequest
 extends JRemoteRequest
 ```
@@ -18,65 +18,45 @@ Request to commit transaction.
 ### Nested Class Summary
 
 - Nested classes/interfaces inherited from interface com.jbase.jremote.io.JBaseSerializable
-    - `JBaseSerializable.TYPE`
-
-
-
-
-
+  - `JBaseSerializable.TYPE`
 
 ### Constructor Summary
 
-
-| Constructor and Description<br> |
+| Constructor and Description |
 | --- |
-| `RollbackTransactionRequest()` <br> |
-
-
-
-
-
+| `RollbackTransactionRequest()`  |
 
 ### Method Summary
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
-| `int`<br> | `getType()` <br> |
-
+| `int` | `getType()`  |
 
 - Methods inherited from class com.jbase.jremote.protocol.JRemoteRequest
-    - `getVersion, readObject, writeObject`
-
+  - `getVersion, readObject, writeObject`
 
 - Methods inherited from class java.lang.Object
-    - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
-
-### 
-
+  - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
 ### Constructor Detail
 
 #### RollbackTransactionRequest
 
-```
+```java
 public RollbackTransactionRequest()
 ```
-
-
-
-
 
 ### Method Detail
 
 #### getType
 
-```
+```java
 public int getType()
 ```
-Returns:type id of the objects, used during the serializationSee Also:[`JBaseSerializable.getType()`](./../../io/jbaseserializable-%28jremote-api%29#getType--)
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Returns:type id of the objects, used during the serialization  
+See Also:[`JBaseSerializable.getType()`](./../../io/jbaseserializable-(jremote-api)#getType--)
 
+Back to [jRemote API](./../../README.md)
   
 <PageFooter />

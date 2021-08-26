@@ -22,7 +22,7 @@ Where:
 
 ## Note
 
-> The statement will have no effect if the record name does not exist within the file. If the program against the file record was holding a lock, it will release the lock.
+> The statement will have no effect if the record name does not exist within the file. If a lock was being held by the program against the file record, then the lock will be released.
 
 An example of use is as:
 

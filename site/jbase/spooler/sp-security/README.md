@@ -37,7 +37,6 @@ The screen will show up to 10 form queues at a time. The four fields shown for e
 
 ## Menu Options
 
-
 | Option # | Name | Description |
 | --- | --- | --- |
 | 1 | QUEUE SECURITY | Use this option to modify the security state of the form queue. The syntax of the remainder of the command is similar to the [SP-SECURITY-QUEUE](./../sp-security-queue)  command. |
@@ -48,6 +47,5 @@ The screen will show up to 10 form queues at a time. The four fields shown for e
 | 99 | EXIT | Exits the SP-SECURITY menu back to shell |
 
 Back to [Spooler](./../jbase-spooler).
-
   
 <PageFooter />

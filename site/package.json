@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "Zumasys Documentation",
   "scripts": {
-    "build": "node --max_old_space_size=8192 ./node_modules/vuepress/cli.js build",
-    "build-old": "vuepress build",
+    "build": ".vuepress/scripts/build.sh",
+    "build-old": "node --max_old_space_size=8192 ./node_modules/vuepress/cli.js build",
+    "build-older": "vuepress build",
     "debug": "node --nolazy --max_old_space_size=8192 --inspect-brk=9229 ./node_modules/vuepress/cli.js build",
     "dev": "node --max_old_space_size=8192 ./node_modules/vuepress/cli.js dev"
   },

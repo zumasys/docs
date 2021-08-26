@@ -68,5 +68,4 @@ or to restore to the original VM with either "Keep" or "Overwrite"  option, whic
 
 Back to [Veeam](./../README.md)
 
-  
 <PageFooter />

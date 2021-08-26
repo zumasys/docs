@@ -24,5 +24,4 @@ FORM-QUEUE:
 
 Back to [Spooler.](./../jbase-spooler)
 
-  
 <PageFooter />

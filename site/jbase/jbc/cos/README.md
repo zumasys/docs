@@ -14,7 +14,7 @@ Where **expression** must evaluate to a numeric result or a runtime error will o
 
 ## Note
 
-> The function assumes the value returned by expression to be in degrees.
+> The function assumes the value returned by **expression** to be in degrees.
 
 An example of use is as:
 

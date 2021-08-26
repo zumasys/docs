@@ -31,6 +31,5 @@ FORMQUEUE TABLE#:
 > The translation table entry is only examined when the despooler is initiated. The despooling process must therefore be stopped and restarted to effect any changes made to either the formqueue assignment or the translation table.
 
 Back to [Spooler.](./../jbase-spooler)
-
   
 <PageFooter />

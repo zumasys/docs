@@ -60,6 +60,6 @@
 [uses-of-class-com.jbase.jremote.protocol.xastarttransactionrequest-(jremote-api)](./uses-of-class-com.jbase.jremote.protocol.xastarttransactionrequest-(jremote-api))  
 [uses-of-class-com.jbase.jremote.protocol.xaxid-(jremote-api)](./uses-of-class-com.jbase.jremote.protocol.xaxid-(jremote-api))  
 
+Back to [jRemote API](./../../README.md)
 
-  
 <PageFooter />

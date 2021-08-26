@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-With jBASE 5, the licensing model has been redesigned in order to simplify the components that are required while maintaining flexibility with regards to license maintenance and allowing the licensing model to be expanded as licensing requirements and paradigms evolve.
+With jBASE 5, prior to release 5.8, the licensing model has been designed to simplify the components that are required while maintaining flexibility with regards to license maintenance and allowing the licensing model to be expanded as licensing requirements and paradigms evolve.
 
 ## Server Licenses  
 

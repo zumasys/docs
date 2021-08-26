@@ -1,4 +1,4 @@
-# jREMOTE and jRCS  
+# jRemote and jRCS java
 
 <PageHeader />
 

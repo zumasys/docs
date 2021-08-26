@@ -48,5 +48,4 @@ See also: [JBCLISTFILE](./../jbclistfile) and [List Storage](./../../jbase/lists
 
 Go Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

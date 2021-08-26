@@ -8,8 +8,6 @@ If you are new to Dynamic Objects, we recommend you read through the [Introducti
 
 ## General Rules
 
-**At the present time, methods must be kept separate from the programs that use them,** **however this may change in a future release.**
-
 The general form of a method is:
 
 ```
@@ -47,7 +45,7 @@ To start out, let's create a simple Math class with 2 methods:
     end method
 ```
 
-The constructor of the class creates one property, **pi** which is referenced within the class with the **this** keyword (explained next). The **circumference()**method uses the property to do its calculation. If we ever wanted to change the precision of **pi** then we would only have to change it in one place and the rest of the class that uses it would be unaffected.
+The constructor of the class creates one property, **pi** which is referenced within the class with the **this** keyword (explained next). The **circumference()** method uses the property to do its calculation. If we ever wanted to change the precision of **pi** then we would only have to change it in one place and the rest of the class that uses it would be unaffected.
 
 The keyword **this**is used in methods to reference properties and other methods within the class. It is also possible to use **self** instead of **this**.  This is an option, by default we always use **this** but setting an option in the usual way will change from using **this** to **self**.
 

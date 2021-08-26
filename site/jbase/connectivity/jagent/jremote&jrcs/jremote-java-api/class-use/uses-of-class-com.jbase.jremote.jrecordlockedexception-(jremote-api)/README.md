@@ -3,39 +3,31 @@
 <PageHeader />
 
 ## Uses of Class
+
 com.jbase.jremote.JRecordLockedException
 
-| Package<br> | Description<br> |
+| Package |
+| --- |
+| Packages that use [JRecordLockedException](./../../jrecordlockedexception-(jremote-api) "class in com.jbase.jremote")  |
+| com.jbase.jremote |
+| com.jbase.jremote.io |
+
+### Uses of [JRecordLockedException](./../../jrecordlockedexception-(jremote-api) "class in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)
+
+| Modifier and Type | Method and Description |
 | --- | --- |
- Packages that use [JRecordLockedException](./../../jrecordlockedexception-%28jremote-api%29 "class in com.jbase.jremote")  | com.jbase.jremote<br> |  <br> |
-| com.jbase.jremote.io<br> |  <br> |
+ Methods in [com.jbase.jremote](./../../../../jremote-api) that throw [JRecordLockedException](./../../jrecordlockedexception-(jremote-api) "class in com.jbase.jremote")  |
+|`JDynArray` | JFile.`readU(String recordKey, boolean blockedRead)`<br>Read a record where the supplied recordKey is the key to the record and locks it for update. |
+| `boolean` | JFile.`writeU(String recordKey, JDynArray record, boolean blockedWrite)`<br>Write the supplied record to the jBASE file. |
 
+### Uses of [JRecordLockedException](./../../jrecordlockedexception-(jremote-api) "class in com.jbase.jremote") in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-(jremote---api))
 
-
-
-
-### Uses of [JRecordLockedException](./../../jrecordlockedexception-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote](./../../../../jremote-api)
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
- Methods in [com.jbase.jremote](./../../../../jremote-api) that throw [JRecordLockedException](./../../jrecordlockedexception-%28jremote-api%29 "class in com.jbase.jremote")  | `JDynArray`<br> | JFile.`readU(String recordKey, boolean blockedRead)`<br>Read a record where the supplied recordKey is the key to the record and locks it for update.<br> |
-| `boolean`<br> | JFile.`writeU(String recordKey, JDynArray record, boolean blockedWrite)`<br>Write the supplied record to the jBASE file.<br> |
+ Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-(jremote---api)) that throw [JRecordLockedException](./../../jrecordlockedexception-(jremote-api) "class in com.jbase.jremote")  |
+|`JDynArray` | JFileImpl.`readU(String recordKey, boolean blockedRead)`  |
+| `boolean` | JFileImpl.`writeU(String recordKey, JDynArray record, boolean blockedWrite)`  |
 
-
-
-
-
-
-### Uses of [JRecordLockedException](./../../jrecordlockedexception-%28jremote-api%29 "class in com.jbase.jremote") in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29)
-
-
-| Modifier and Type<br> | Method and Description<br> |
-| --- | --- |
- Methods in [com.jbase.jremote.io](./../../io/com.jbase.jremote.io-%28jremote---api%29) that throw [JRecordLockedException](./../../jrecordlockedexception-%28jremote-api%29 "class in com.jbase.jremote")  | `JDynArray`<br> | JFileImpl.`readU(String recordKey, boolean blockedRead)` <br> |
-| `boolean`<br> | JFileImpl.`writeU(String recordKey, JDynArray record, boolean blockedWrite)` <br> |
-
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
-
+Back to [jRemote API](./../../README.md)
   
 <PageFooter />

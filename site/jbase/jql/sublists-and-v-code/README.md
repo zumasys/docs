@@ -25,28 +25,54 @@ Consider the STOCK file used by a camera factory where each data record can repr
 
 Take as an example the record set that defines a simple camera assembly. The data records contain the following data:
 
-| <!----> | <!----> |
-| --- | --- |
-| Key                                         A1<br>001                                        Camera Assy<br>002                                        A21]A22]A23<br>003                                        10  | Key                                      A21<br>001                                      Lens Assy<br>002                                      A210]A211<br>003                                      15  |
+```
+    A1
+001 Camera Assy
+002 A21]A22]A23
+003 10
 
-| <!----> | <!----> |
-| --- | --- |
-| Key                                        A22<br>001                                       Body<br>002                                      <br>003                                       10 | Key                                      A23<br>001                                     Shutter Assy      <br>002                                     A230]A231  <br>003                                     11 |
+    A21
+001 Lens Assy
+002 A210]A211
+003 15
 
-| <!----> | <!----> |
-| --- | --- |
-| Key                                         A210<br>001                                        Optics<br>002                                        <br>003                                        19 | Key                                      A211<br>001                                      Barrel<br>002<br>003                                      21 |
+    A22
+001 Body
+002
+003 10
 
-| <!----> | <!----> |
-| --- | --- |
-| Key                                        A230<br>001                                        Iris Mech<br>002<br>003                                        13 | Key                                          A231<br>001                                          Iris Housing<br>002      <br>003                                          14                                 |
+    A23
+001 Shutter Assy
+002 A230]A231
+003 11
+
+    A210
+001 Optics
+002
+003 19
+
+    A211
+001 Barrel
+002
+003 21
+
+    A230
+001 Iris Mech
+002
+003 13
+
+    A231
+001 Iris Housing
+002
+003 14
+
+```
 
 The key is the part number, field 1 contains the description, field 2 is a multivalued list of components that go to make up the part, and field 3 is the current stock level.
 
 Record A1 represents assembled cameras. It points to the sub-assemblies (A21, A22 and A23) that are used to make each camera. The sub-assemblies in turn point to their component parts; A21 points to A210 and A211, A22 does not have any components, and A23 points to A230.
 
-Having established the logical data relationships, we now need to ensure that the system understands that field 2 is a multivalued sublist. We do this by updating field 8 in the file definition record to read "V;;2",
-like this:
+Having established the logical data relationships, we now need to ensure that the system understands that field 2 is a multivalued sublist. We do this by updating field 8 in the file definition record to read "V;;2", like this:
 
 ```
 STOCK

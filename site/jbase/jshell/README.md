@@ -1,4 +1,4 @@
-# jSHELL
+# jshell
 
 <PageHeader />
 
@@ -7,19 +7,17 @@
 <badge text='jshell' vertical='middle' />
 <badge text='shell' vertical='middle' />
 
-## Description
+The jsh command invokes jshell - the jBASE shell. It can be invoked as your login shell by using the normal system administration software supplied with the platform. Either via .bat files (Windows) or .profiles (Unix).
 
-The jsh command invokes jSHELL - the jBASE shell. It can be invoked as your login shell by using the normal system administration software supplied with the platform. Either via .bat files (Windows) or .profiles (Unix ).
+jshell has been designed to ease migration from other MV platforms, and to overcome some of the differences between various platform command line environments. The more primitive features seen on some older platforms (such as the "dot" command stacker) have been replaced or augmented with easier to use and more functional equivalents.
 
-jSHELL has been designed to ease migration from older systems, and to overcome some of the differences between various platform command line environments. The more primitive features seen on some older platforms (such as the "dot" command stacker) have been replaced with easier to use and more functional equivalents.
-
-The most noticeable difference between jSHELL and other command line shells, such as the Unix Korn shell (ksh), is that command line arguments such as "\*" and "?" are not expanded by the shell but passed directly to the command that has been invoked. In same manner, quoted strings (such as "quoted string") are passed directly to the command with quotes intact. This enables query language statements such as:
+The most noticeable difference between jshell and other command line shells, such as the Unix Korn shell (ksh), is that command line arguments such as "\*" and "?" are not expanded by the shell but passed directly to the command that has been invoked. In same manner, quoted strings (such as "quoted string") are passed directly to the command with quotes intact. This enables query language statements such as:
 
 ```
 SSELECT file = "[SPROUT]" BY *A1
 ```
 
-to be issued directly from jSHELL. If the same command was issued from the ksh prompt, it would have to be issued as:
+to be issued directly from jshell. If the same command was issued from the ksh prompt, it would have to be issued as:
 
 ```
 SSELECT file = \"[SPROUT]\" BY \*A1
@@ -27,45 +25,158 @@ SSELECT file = \"[SPROUT]\" BY \*A1
 
 to avoid the quotes being removed and the "\*" being expanded by the Korn shell.
 
-Beyond this convenient feature, jSHELL also offers many significant advantages over traditional shells and is easier to use. Some of the main features of the jsh are:
+Beyond this convenient feature, jshell also offers many significant advantages over traditional shells and is easier to use. Some of the main features of the jsh are:
 
 - Customizable prompt
 - Alternate shell/command line invocation
 - Command search and recall
 - Active select list prompt
-- Proc detection and execution
+- [PROC](../jcl/README.md) and paragraph detection and execution
 - Type-ahead is supported
 
 The command is as:
 
 ```
-jsh - -c command -s shell -p prompt
+jsh - -a account -c command -s shell -p prompt
 ```
 
 where option may be:
 
-| Option | Description |
-| --- | --- |
-| - | Execute proc from MD/VOC file with same name as user login. (on Unix the .profile and .jshrc files are processed) |
-| -c command | Specifies that a jsh process should be spawned to execute command. When the command terminates, the jsh process will also terminate. |
-| -s shell | Specifies which shell emulation to use when executing jsh. The jsh will default to the previous emulation used by the current port. |
-| -p prompt | Specifies the prompt to be used while executing jsh. |
-| -t | Opens the tty device and accepts commands from the keyboard when the jSHELL has been invoked to process a command input file. The default action is to exit the shell once the processing of the input file has been completed. |
-| -z foreground, background | Select foreground and background screen colors (e.g. jsh -z foreground,background). Colors can be WHITE, YELLOW, MAGENTA, RED, CYAN, GREEN, BLUE or BLACK. Defaults will be BLUE foreground on WHITE background. Colors can also be set in the Properties of the jShell shortcut. |
+| Option | Description  |
+| ------ | ------------ |
+| -           | Execute proc from MD/VOC file with same name as user login. (on Unix the .profile and .jshrc files are processed)  |
+| -a account  | Log in to the specified account. Usually used in conjunction with the -c option to run a command in the context of a particular account. If the account requires a password, append it to the account with a comma separator.<br> _The -a option may only be used when jsh is invoked from an external process such as bash or cron, not from within jBASE._ <badge text='version-5.8+' vertical='middle' /> |
+| -c command  | Specifies that a jsh process should be spawned to execute command. When the command terminates, the jsh process will also terminate. If the command to be executed requires arguments, enclose the command and it's arguments in double-quotes. If any arguments require double-quotes, use a backslash (\\) to escape the argument quotes.  |
+| -s shell    | Specifies which shell emulation to use when executing jsh. The jsh will default to the previous emulation used by the current port.  |
+| -p prompt   | Specifies the prompt to be used while executing jsh. This option can take up to 3 fields in the same format as the [JSH_PROMPT](#jsh_prompt) environment variable described below.  |
+| -t          | Opens the tty device and accepts commands from the keyboard when the jshell has been invoked to process a command input file. The default action is to exit the shell once the processing of the input file has been completed.  |
+| -z foreground, background | Select foreground and background screen colors (e.g. jsh -z foreground,background). Colors can be WHITE, YELLOW, MAGENTA, RED, CYAN, GREEN, BLUE or BLACK. Defaults will be BLUE foreground on WHITE background. Colors can also be set in the Properties of the jshell shortcut.  |
 
 If the jsh command is issued without arguments, a jsh process is spawned and this process becomes the command shell. The jsh process will replace the current shell if it is invoked through the UNIX exec command.
 
-## Environment Variable Options
+## Environment Variables
 
-| <!----> | <!----> |  <!----> |
-| --- | --- | --- |
-| Stack Size | JSH\_COMMAND\_STACK=100 | Set command stack depth to 100 |
-| User based | JSH\_COMMAND\_STACK=USERNAME | Stack will be per user. |
-| User and Stack | JSH\_COMMAND\_STACK=USERNAME,1000 | Set stack to depth of 1000 commands and user based.  This is closest to D3 tcl-stack style |
+All jshell environment variables must be set prior to invoking the jshell.
+
+### JSH\_COMMAND\_STACK
+
+The **JSH\_COMMAND\_STACK** environment variable has up to 3 optional parameters and is used to:
+
+- Configure the number of commands in the jshell command history (*stack size*)
+- Specify that the command stack is user based
+- Set the cursor at the end of a recalled command. This allows the jshell to match the behavior of native Operating System shells. (this feature and any mention of it below will be available in jBASE 5.8 forward)
+
+The stack size can be set to any number greater or equal to 50.
+
+The command stack can optionally be *user* based with the literal string **USER** or **USERNAME**.
+
+By default, when commands are recalled/redisplayed with the [Navigation and Editing](#navigation-and-editing) keystrokes, the cursor is placed at the beginning of the line. This behavior can be changed to place the cursor at the end of the line with the `+` parameter (see examples below).
+
+#### Examples
+
+To set a command stack that has a maximum command history (stack size) of 500 entries, is port number based, and recalled commands place the cursor at the end of the line:
+
+```
+JSH_COMMAND_STACK=500,+
+```
+
+To set the command stack to all default values but place the cursor at the end of recalled commands:
+
+```
+JSH_COMMAND_STACK=+
+```
+
+The previous example can be made user-based with:
+
+```
+JSH_COMMAND_STACK=USER,+
+```
+
+To set a user-based command stack and has the default stack size of 50 entries:
+
+```
+JSH_COMMAND_STACK=USER
+```
+
+To set a command stack that is both user-based and has a maximum stack size of 1000 entries:
+
+```
+JSH_COMMAND_STACK=USERNAME,1000
+```
+
+>#### Notes
+>
+>If the environment variable is unassigned, or any part of the value is invalid such as a non-numeric *stack size*:
+>
+>* the stack will be port number based
+>* the maximum stack size will be 50
+>* the cursor will be placed at the beginning of recalled stack entries
+>
+>If stack size is less than 50 then the default stack size will be set to 50 entries.
+>
+>If the stack is *user* based and the user is logged in to more than one port then the command stack will be shared.
+>
+>The `user_based_command_stack` configuration option, if set, overrides this environment variable if it is set to use a *port-based* command stack.
+>
+>The *value* of the environment variable is case insensitive, e.g.
+>
+>```
+>JSH_COMMAND_STACK=UserName
+>```
+
+
+### JSH_PROMPT
+
+The **JSH_PROMPT** environment variable can be used to customize the jshell prompt characters. It can contain up to 3 comma-delimited fields as in:
+
+```
+export JSH_PROMPT="$%s $%a $%c -->","$%>>>",msh        [Unix/Linux]
+set JSH_PROMPT="$%%s $%%a $%%c -->","$%%>>>",msh       [Windows]
+```
+
+* The first field in the example is the primary prompt (jsh, msh or sh).
+* The second field is the secondary prompt when a select list is present.
+* The third field is the mode of operation: **jsh**, **msh** or **sh**
+
+> On Windows, because **%** is a meta-character, it must be *escaped* as shown in the example.
+
+The above example will display the jshell prompt as:
+
+```
+msh obiwan ~ 1 -->
+```
+
+where:
+
+**msh** is the shell type  
+**obiwan** is the account name  
+**~** indicates that you are in your *home* directory  
+**1** is the port number  
+
+Fields 2 and 3 are optional and will take the usual defaults if not specified.
+
+Fields 1 and 2 can accept values from the following table:
+
+| Value | Replaced With |
+| ----- | ----------------------------------------------- |
+| EnvVal |the value of the specified environment variable |
+| %a | the user account name |
+| %m | the phrase "(Cmd)" if the shell is in command mode |
+| %n | the new line sequence |
+| %C | the current working directory |
+| %c | the current working directory with any portion matching the home directory replaced with ~ |
+| %p | the port number |
+| %e | the entry number in the stack currently being edited |
+| %d | the current date in **dd mmm yyyy** format |
+| %t | the time of day in **hh:mm:ss** format |
+| %u | the host name as defined by the UNIX command uname (UNIX only) |
+| %y | the tty name (UNIX only) |
+| %s | the name of the jshelltype that will execute the commands at the prompt |
+| chars |all other characters are taken as literals and included in the prompt |
 
 ## Using jsh
 
-To use this tutorial, the user ought to be logged in and positioned at the shell prompt. If the user account has not been configured to run jSHELL by default, execute it now like this:
+To use this tutorial, the user should be logged in and positioned at the shell prompt. If the user account has not been configured to run jshell by default, execute it now like this:
 
 ## UNIX/Linux
 
@@ -79,21 +190,19 @@ exec jsh
 jsh.exe
 ```
 
-Note that some Unix SVR4.x systems have their own shell called jsh. If the PATH environment variable includes the directory containing the SVR4x native jsh before the jBASE release directory path, it is possible the native version is executed rather than the jBASE version. Either change the PATH list or use the absolute path name to the jsh executable.
-
-The default jSHELL prompt should now appear:
+The default jshell prompt should now appear:
 
 ```
 jsh user cwd -->
 ```
 
-Where user is the user's login name and cwd is the current working directory. For this exercise it is assumed login name is 'jbase' and 'current working directory' is the home directory for jBASE. In this case the prompt will appear as:
+Where user is the user's login name and cwd is the current working directory. For this exercise it is assumed login name is *jbase* and current working directory is the home directory for jBASE. In this case the prompt will appear as:
 
 ```
 jsh jbase ~ -->
 ```
 
-The tilde character (~) is a short-hand method of referring the user's  home directory. The shell expands this character to the full path name of the login home directory before executing commands. If changed to a sub-directory called source using 'cd' the prompt would appear as:
+The tilde character (~) is a short-hand method of referring to the user's home directory. The shell expands this character to the full path name of the login home directory before executing commands. If changed to a sub-directory called *source* using **cd**, the prompt would appear as:
 
 ```
 jsh jbase ~ --> cd source
@@ -111,28 +220,28 @@ Note that the secondary prompt is only displayed for an active select-list, i.e.
 
 Where **newprompt** is a string defining the new prompt. The string can contain terminal control characters such as a bell character by specifying special character sequences in the **newprompt** string. The character sequences allowed are:
 
-| Sequence | Replaced With |
-| --- | --- |
-| $EnvVar | the value of the specified environment variable |
-| $%a | the user account name |
-| $%m | the phrase "(Cmd)" if the shell is in command mode |
-| $%n | the new line sequence |
-| $%C | the current working directory |
-| $%c | the current working directory with any portion matching the home directory replaced with ~ |
-| $%p | the port number |
-| $%e | the entry number in the stack currently being edited |
-| $%d | the current date in dd mmm yyyy format |
-| $%t | the time of day in hh:mm:ss format |
-| $%u | the host name as defined by the UNIX command uname (UNIX only) |
-| $%y | the tty name (UNIX only) |
-| $%s | the name of the jshelltype that will execute the commands at the prompt |
-| chars | all other characters are taken as literals and included in the prompt |
+| Sequence | Replaced With                                                                              |
+| -------- | ------------------------------------------------------------------------------------------ |
+| $EnvVar  | the value of the specified environment variable                                            |
+| $%a      | the user account name                                                                      |
+| $%m      | the phrase "(Cmd)" if the shell is in command mode                                         |
+| $%n      | the new line sequence                                                                      |
+| $%C      | the current working directory                                                              |
+| $%c      | the current working directory with any portion matching the home directory replaced with ~ |
+| $%p      | the port number                                                                            |
+| $%e      | the entry number in the stack currently being edited                                       |
+| $%d      | the current date in dd mmm yyyy format                                                     |
+| $%t      | the time of day in hh:mm:ss format                                                         |
+| $%u      | the host name as defined by the UNIX command uname (UNIX only)                             |
+| $%y      | the tty name (UNIX only)                                                                   |
+| $%s      | the name of the jshelltype that will execute the commands at the prompt                    |
+| chars    | all other characters are taken as literals and included in the prompt                      |
 
 The shell operates in two distinct modes, command mode and operating mode. Operating mode is the usual mode and is used to issue all commands to the system. Command mode is used to issue commands to jsh itself.
 
-There is only one command available in the current implementation of jsh - the / command. This character introduces a search string to jsh. The search string is compared against every command in your command history and if a match is found, the command is recalled as the current command, just as if you had typed it in again. Command mode is normally entered by hitting the escape key on your keyboard.
+At the jshell prompt, the / command introduces a search string to jsh. The search string is compared against every command in your command history and if a match is found, the command is recalled as the current command, just as if you had typed it in again. Command mode is normally entered by hitting the escape key on your keyboard.
 
-If you include the $%m sequence when you configure the prompt, the prompt will change to indicate whether or not you are in the shell command mode. For example, if the prompt has otherwise been left in its default state, the following sequence will locate the last cd command in your command history. Note the appearance of the "(Cmd)" string as part of the prompt on the middle line:
+If you include the **$%m** sequence when you configure the prompt, the prompt will change to indicate whether or not you are in the shell command mode. For example, if the prompt has otherwise been left in its default state, the following sequence will locate the last **cd** command in your command history. Note the appearance of the **(Cmd)** string as part of the prompt on the middle line:
 
 ```
 jsh ~ --><Esc>
@@ -140,61 +249,63 @@ jsh ~ (Cmnd) -->/cd
 jsh ~ -->cd source
 ```
 
+### Navigation and Editing
+
 Two other keystrokes within jsh allow you to recall up to 50 previous commands. They are:
 
 ```
-<Ctrl P> Goto previous command
-<Ctrl N> Goto next command
+<Ctrl>+P Goto previous command
+<Ctrl>+N Goto next command
 ```
 
-Using these two keystrokes it is possible to retrace commands by stepping backwards or forwards one command at a time. jsh supports command line editing by using a subset of the jED editor keys, which can be useful if a command needs to be changed. In particular, using the right and left arrow keys to move the cursor to any position in the current command string. The jsh is configured for editing in insert mode by default. This means that any characters typed will be inserted just before the current cursor position. Use the backspace key to delete the previous character and the &lt;Delete&gt; key to delete the character directly under the cursor.
+Using these two keystrokes it is possible to retrace commands by stepping backwards or forwards one command at a time. jsh supports command line editing by using a subset of the jED editor keys, which can be useful if a command needs to be changed. In particular, using the right and left arrow keys to move the cursor to any position in the current command string. The jsh is configured for editing in insert mode by default. This means that any characters typed will be inserted just before the current cursor position. Use the backspace key to delete the previous character and the `<Delete>` key to delete the character directly under the cursor.
 
-The jsh can be placed into overwrite editing mode by pressing **&lt;Ctrl O&gt;**. In this mode all characters typed will replace the character under the cursor.
+The jsh can be placed into overwrite editing mode by pressing `<Ctrl>`+`O`. In this mode all characters typed will replace the character under the cursor.
 
 All the editing commands are shown in the following table:
 
-| Keystroke | Command |
-| --- | --- |
-| &lt;Right&gt; | move the cursor right by one character |
-| &lt;Left&gt; | move the cursor left by one character |
-| &lt;Home&gt; or &lt;Ctrl A&gt; | move the cursor to the start of the command line |
-| &lt;End&gt; or &lt;Ctrl E&gt; | move the cursor to the end of the command line |
-| &lt;Down&gt; or &lt;Ctrl N&gt; | recall the next command in your history |
-| &lt;Insert&gt; or &lt;Ctrl O&gt; | toggle Overwrite/Insert mode, default is Insert |
-| &lt;Up&gt; or &lt;Ctrl P&gt; | recall the previous command in your command history |
-| &lt;Ctrl L&gt; | list the command history maintained by the shell |
-| &lt;Ctrl K&gt; | delete from the cursor to the end of the command line |
-| &lt;Ctrl W&gt; | delete from the cursor to the end of the current word |
-| &lt;Tab&gt; | move to the start of the next word |
-| &lt;Backtab&gt; | move to the start of the previous word |
+| Keystroke                  | Command                                               |
+| -------------------------- | ----------------------------------------------------- |
+| `<Right>`                  | move the cursor right by one character                |
+| `<Left>`                   | move the cursor left by one character                 |
+| `<Home>` or `<Ctrl>`+`A`   | move the cursor to the start of the command line      |
+| `<End>` or `<Ctrl>`+`E`    | move the cursor to the end of the command line        |
+| `<Down>` or `<Ctrl>`+`N`   | recall the next command in your history               |
+| `<Insert>` or `<Ctrl>`+`O` | toggle Overwrite/Insert mode, default is Insert       |
+| `<Up>` or `<Ctrl>`+`P`     | recall the previous command in your command history   |
+| `<Ctrl>`+`L`               | list the command history maintained by the shell      |
+| `<Ctrl>`+`K`               | delete from the cursor to the end of the command line |
+| `<Ctrl>`+`W`               | delete from the cursor to the end of the current word |
+| `<Tab>`                    | move to the start of the next word                    |
+| `<Backtab>`                | move to the start of the previous word                |
 
-Pick Mode TCL Stack
+## Pick Mode TCL Stack
 
-| Keystroke | Command |
-| --- | --- |
-| .? or .H | Show help |
-| .a# text | Append 'text' to entry '#' |
-| .c#/s1/s2/\* | Change 's1' to 's2' in entry '#', \* = change all |
-| .d# | Delete entry number '#' |
-| .f text | Find first occurrence of 'text', move to top of stack |
-| .l | List first page |
-| .ln | List first 'n' lines |
-| .lm-n | List entries 'm' through 'n' inclusive |
-| .m# | Move entry number '#' to top of stack |
-| .p# text | Prepend 'text' to entry '#' |
-| .r#/s1/s2/\* | Replace 's1' with 's2' in entry '#', \* = replace all |
-| .s text | Search and display all entries with 'text' |
-| .{x}# | Execute entry '#' [if 'x' is omitted then '#'  is required] |
+| Keystroke    | Command                                                     |
+| ------------ | ----------------------------------------------------------- |
+| .? or .H     | Show help                                                   |
+| .a# text     | Append 'text' to entry '#'                                  |
+| .c#/s1/s2/\* | Change 's1' to 's2' in entry '#', \* = change all           |
+| .d#          | Delete entry number '#'                                     |
+| .f text      | Find first occurrence of 'text', move to top of stack       |
+| .l           | List first page                                             |
+| .ln          | List first 'n' lines                                        |
+| .lm-n        | List entries 'm' through 'n' inclusive                      |
+| .m#          | Move entry number '#' to top of stack                       |
+| .p# text     | Prepend 'text' to entry '#'                                 |
+| .r#/s1/s2/\* | Replace 's1' with 's2' in entry '#', \* = replace all       |
+| .s text      | Search and display all entries with 'text'                  |
+| .{x}#        | Execute entry '#' [if 'x' is omitted then '#'  is required] |
 
-## jsh Emulation Modes
+## jshell Emulation Modes
 
 If the user is familiar with operating UNIX under other shells, jsh may be made to work in the environment with which the user is most comfortable. Switching between the various emulation modes in jsh by using the function keys:
 
-| Function Key | Emulation Mode |
-| --- | --- |
-| F1 | jSHELL (jsh) |
-| F2 | native Platform Shell. ( CMD.exe, ksh, csh, etc ) |
-| F3 | mixed shell (msh) |
+| Function Key | Emulation Mode                                    |
+| ------------ | ------------------------------------------------- |
+| F1           | jshell (jsh)                                      |
+| F2           | native Platform Shell. ( CMD.exe, ksh, csh, etc ) |
+| F3           | mixed shell (msh)                                 |
 
 ## Note
 
@@ -206,13 +317,13 @@ jshelltype shell
 >
 > Where shell can be :
 >
-> - jsh pre-processes meta characters like the asterisk (\*), as expected by legacy multi-value systems. Note that only in jsh mode is JEDIFILENAME\_MD examined for Q-pointers, Procs and Paragraphs.
-> - sh native system shell. On Unix depends of SHELL, on Windows CMD.exe.
-> - msh mixed shell. pre-processes meta characters as a combination of jsh and sh.
+> - **jsh** pre-processes meta characters like the asterisk (\*), as expected by legacy multi-value systems. Note that only in jsh mode is **JEDIFILENAME\_MD** examined for Q-pointers, Procs and Paragraphs.
+> - **sh** native system shell. On Unix depends of SHELL, on Windows CMD.exe.
+> - **msh** mixed shell. pre-processes meta characters as a combination of jsh and sh.
 
 ## msh Mapped Sequences
 
-Options specified on the command line will have the leading bracket escaped. For example:
+Options specified on the command line will have the leading parenthesis escaped. For example:
 
 ```
 CT File1 Record1 (X becomes CT File1 Record1 \(X

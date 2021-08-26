@@ -8,93 +8,74 @@
 
 ## Description
 
-Emulation support is provided by the **Config\_EMULATE** file in the **config** subdirectory of the jBASE release directory. All text in the file is case insensitive.
+Emulation support is provided by the `Config_EMULATE` file. This file is located in `$JBCGLOBALDIR/config` (on Linux/AIX) or `%JBCGLOBALDIR%\config` (on Windows). All text in the file is case insensitive. A companion file, `Config_EMULATE.txt`, with descriptions of all of the configuration options can also be found in the same location.
 
 The format of that file is:
 
 | Code | Definition |
 | --- | --- |
 | **#** | Denotes a comment and the line is ignored. |  
-| **x:** | Denotes a label, signifying the start of an emulation definition. |  
-| **any** | Denotes an emulation definition. |  
+| **label:** | Denotes the name of the emulation, signifying the start of an emulation definition. |  
+| **key = value** | Denotes a configuration entry within the emulation definition, where `key` is the configuration option and `value` is the setting. |  
 
-Labels must be alpha-numeric, i.e. no periods, underlines, etc. If one label directly follows another then the label is synonym for the same emulation definition. The emulation definition ends when another label or the end of file encountered.
+Labels must be alpha-numeric, i.e. no periods, commas, semi-colons, dashes, underlines, etc. If one label *directly* follows another then the label is a synonym for the same emulation definition. The emulation definition ends when another label is found or the end of file encountered.
 
 Multiple emulation definitions can be defined on the same line with each definition delimited by a comma or a semicolon. Emulation definitions can be interrupted by blank lines and can contain any amount of white space, i.e. one or more spaces or tab characters.
 
 Emulation definitions can be declared 'on', 'yes' or 'true' to mean the emulation is enabled or similarly use the strings 'off', 'no' or 'false' to mean the emulation effect is disabled.
 
-To use a different set of emulation definitions from the default set, set the environment variable **JBCEMULATE** in your current environment to the required emulation label. When the environment variable is not configured then the emulation definition defined by the default label is in effect. If the default label is not present then the first label detected will be used for the default emulation.
+To use a different set of emulation definitions from the default set, set the environment variable `JBCEMULATE` in your current environment to the required emulation label. When the environment variable is not configured then the emulation definition defined by the `default` label is in effect. If the `default` label is not present then the first label detected will be used for the default emulation.
 
-Generally any emulation definitions which affect BASIC, (such as the @(-n) codes), use the JBCEMULATE environment variable when the programs are compiled, whereas the other definitions tend to be used at runtime, when the program is executed.
+Generally any emulation definitions which affect BASIC, (such as the `@(-n)` codes), use the `JBCEMULATE` environment variable when the programs are compiled, whereas the other definitions tend to be used at runtime, when the program is executed.
 
-You can create your own custom emulation sections in the **Config\_EMULATE** file but it is recommended to use Alternate Emulations for this purpose.
+You can create your own custom emulation sections in the `Config_EMULATE` file but it is strongly recommended to use Alternate Emulations instead. This will ensure that important updates are not missed when upgrading to newer versions of jBASE.
 
 ## Alternate Emulations
 
-An Alternate Emulation has the general form:
+An alternate (custom) emulation has the general form:
 
 ```
 Config_EMULATE_name
 ```
 
-where **name** is the name of the emulation. These emulations are also stored in the **config** directory under **$JBCRELEASEDIR**. and follow the exact same rules. The file name of the alternate emulation must be the same as the **label**, i.e. the **x:** line.
+where `name` is the name of the custom emulation. For example, if the custom emulation is named "acme" then the alternate emulation file *must* be named "Config_EMULATE_acme".
 
-Alternate Emulations can contain any combination of configuration options except **dup** entries. If you require the behavior of a **dup** entry then all configuration settings in that section must be explicitly added to the Alternate Emulation.
+These emulations must be stored in the same location as the master `Config_EMULATE` file and they follow the exact same rules as above.
 
-For example, to create an alternate **jbase** emulation called **jcustom**,which changes the value of the **old\_jql\_output\_style** setting, would be:
+Alternate Emulations can contain any combination of configuration options. The first label in the custom file must be the name of the custom emulation (see example below). Any emulation defined in the `config` directory or in the master jBASE Config_EMULATE can be used as a template for a custom emulation by using the `dup` directive, in which case all of the configuration settings in the template are inherited in the custom emulation. Additional configuration entries can be added after `dup` and if the key matches one of the template entries then it will override the inherited entry.
 
-```
-File name: Config_EMULATE_jcustom
+When jBASE is processing `dup` in an alternate emulation, first the alternate file is searched for the target value of `dup` and, if not found, then the main jBASE `Config_EMULATE` file is searched.
 
-jcustom:
-      @(-1) = clear_screen ; @(-2) = cursor_home ; @(-3) = clear_eos ; @(-4) = clear_eol
-      @(-5) = blink_on ; @(-6) = blink_off
-      @(-7) = prot_on ; @(-8) = prot_off ;
-      @(-9) = cursor_left ; @(-10) = cursor_up ; @(-20) = cursor_down ; @(-19) = cursor_right
-      @(-13) = reverse_on ; @(-14) = reverse_off
-      @(-15) = underline_on ; @(-16) = underline_off
-      @(-17) = printer_on ; @(-18) = printer_off
-      @(-33) = background white ; @(-34) = background yellow ; @(-35) = background magenta ; @(-36) = background red
-      @(-37) = background cyan ; @(-38) = background green ; @(-39) = background blue ; @(-40) = background black
-      @(-41) = foreground white ; @(-42) = foreground yellow ; @(-43) = foreground magenta ; @(-44) = foreground red
-      @(-45) = foreground cyan ; @(-46) = foreground green ; @(-47) = foreground blue ; @(-48) = foreground black
-      @(-57) = foreground white ; @(-58) = foreground yellow ; @(-59) = foreground magenta ; @(-60) = foreground red
-      @(-61) = foreground cyan ; @(-62) = foreground green ; @(-63) = foreground blue ; @(-64) = foreground black
-      @(-200) = cursor_on , @(-201) = cursor_off
-      list_keys = true
-      reality_video = true
-      jbase_field = true
-      named_common = null
-      readv0 = key
-      treat_with_as_or_with = true
-      dates_upper_case = yes
-      use_sql_syntax_for_select = false
-      old_jql_output_style = true
-      itype_trans_replace_delim = false
-      itype_unquoted_numeric_literal = true
-      enter_keeps_common_data = false
-      error_numbers_are_single_attribute = false
-```
+If a `dup` entry is specified and the target emulation is not found then a warning is displayed and the default emulation is used.
 
-To use this definition, set the **JBCEMULATE** environment variable to **jcustom**, e.g.
+For example, to create a custom emulation called `jbased3`, which inherits from the `D3` emulation in the master Config_EMULATE which, in turn, has a `dup = jbase` entry that  inherits from the `jbase` emulation in the master Config_EMULATE, we will create a file in the `config` directory called `Config_EMULATE_jbased3` with these contents:
 
 ```
-export JBCEMULATE=jcustom   [Linux]
-set JBCEMULATE=jcustom      [Windows]
+jbased3:
+      dup = d3
+      named_common = unassigned
+      md_int_only = true
+      md_int_only_emulate_jbase3 = true
 ```
 
-Note that you can't use the **dup** option with alternate emulations. In other words, you can't do something like this:
+In this example, the `dup = d3` entry will inherit all configuration options in the `d3` section. The `d3` section will inherit all of the configuration options in the `jbase` section. If the `jbase` section had any `dup` entries then they would also be inherited, and so on.
+
+All other configuration settings below the "dup" line are either new or will override the inherited setting. This will ensure that you continue to make use of any changes made to the standard D3 emulation.
+
+In this example, the `named_common` entry overrides the `jbase` setting. The others are new settings that don't exist in the either of the `d3` or `jbase` sections in the master Config_EMULATE file.
+
+To use the `jbased3` emulation, set the `JBCEMULATE` environment variable to `jbased3`:
 
 ```
-jcustom:
-      dup = jbase
-      old_jql_output_style = true
+export JBCEMULATE=jbased3    [Linux]
+set JBCEMULATE=jbased3       [Windows]
 ```
 
-You must expand all of the entries explicitly.
+Use the `config-strings` command to review your configuration.
 
 ### Configuration Definitions
+
+The following table is a sample of the available configuration options. A complete list is in the `Config_EMULATE.txt` file in the `config` directory.
 
 | Variable | Description | Set At: |
 | --- | --- | --- |
@@ -103,14 +84,16 @@ You must expand all of the entries explicitly.
 | **alternate\_chain\_exit = true\|false** | If set then under certain circumstances drops an extra run level on returning from a CHAIN command. This is an emulation of jBASE 3.4 behaviour. Current behaviour is believed to be preferable. Only set this if necessary for backwards compatibility. | Run Time |
 | **alternative\_oconv = true\|false** | If set then for the "DD" and "DM" output conversions, single digit results are prefixed by zero. Default for Sequoia. | Run Time |
 | **breakon\_l\_suppresses\_blank\_line = true\|false** | If set then "L" in a "BREAK-ON" clause means suppress the blank line before the data line. The default is to skip the break line, i.e. only output a blank line. | Run Time |
-| **byexp\_mv\_dup\_like\_d3 = true\|false** | If set, when using BY-EXP, reuse the first, and only, value in single valued attributes. The default behaviour, i.e. with "byexp\_mv\_dup\_like\_d3" unset or false, is to assume a null value for the 2nd and subsequent values. Currently, this option is not set under any emulation in the "Config\_EMULATE" file supplied with the jBASE Installation. | Run Time |
+| **byexp\_mv\_dup\_like\_d3 = true\|false** | If set, when using BY-EXP, reuse the first, and only, value in single valued attributes. The default behaviour, i.e. with "byexp\_mv\_dup\_like\_d3" unset or false, is to assume a null value for the 2nd and subsequent values. | Run Time |
 | **case\_insensitive\_file\_ids = true\|false** | If set, try and ignore the case of file names, default behaviour will be to open the first UPPER CASE version of the file name. | Run Time |
 | **case\_insensitive\_md = true\|false** | If set, the MD does not care about case, everything should end up as UPCASE. | Run Time |
 | **case\_insensitive\_queries = true\|false** | If set, verbs used in jQL queries and dictionaries ignore case. | Run Time |
 | **case\_insensitive\_runtime\_strings = true\|false** | If set, any jBASE functions which accept a VAR as a parameter will UPCASE it. | Run Time |
+| **chk\_typeahead\_on\_inputminus = true\|false** | If set then check for type-ahead when INPUT x,-1 syntax is used. | Run Time |
 | **compiler\_case\_insensitive\_subroutines = true\|false** | If set, all SUBROUTINE names are case insensitive. | Compile Time |
-| **compiler\_case\_insensitive\_variables\_keywords = true\|false** | If set, the compiler ignores the case on variable names and keywords. [Not currently implemented] | Compile Time |
-| **chk\_typeahead\_on\_inputminus = true\|false** | If set then check for typeahead when INPUT x,-1 syntax is used. | Run Time |
+| **compiler\_case\_insensitive\_variables\_keywords = true\|false** | If set, the compiler ignores the case on variable names and keywords. | Compile Time |
+| **compiler\_options = list of options** | This list is pre-pended to the JBC_JPP2 environment variable (see "jpp2 -h" for options). | Compile Time |
+| **compiler\_requires\_explicit\_item\_list = true\|false** | If set, forces the BASIC, CATALOG, DECATALOG commands to require an explicit item-list or "*". | Compile Time | 
 | **conv\_mct\_uv\_compat = true\|false** | Universe compatible capitalisation after non-alpha characters. | Run Time |
 | **conv\_old\_mct = true\|false** | Capitalise character following non-alpha character, e.g. "-" (hyphen). | Run Time |
 | **dates\_upper\_case = yes\|no**<br> | If "yes" then date conversions (e.g. "DM" and "DW") force the text to uppercase format, e.g. "March" is forced to "MARCH". Without this option, the casing for dates is dependent upon the operating system.<br> | Run Time<br> |
@@ -126,28 +109,28 @@ You must expand all of the entries explicitly.
 | **generic\_prime = true\|false**<br> | The emulation will otherwise behave as if coming from a Prime environment.<br> | Compile Time1<br> |
 | **generic\_reality = true\|false**<br> | The emulation will otherwise behave as if coming from a Reality Operating System environment.<br> | Compile Time1<br> |
 | **generic\_universe = true\|false**<br> | The emulation will otherwise behave as if coming from a Universe system.<br> | Compile Time1<br> |
-| **generic\_unidata = true\|false**<br> | The emulation will otherwise behave as if coming from a Unidata environment.<br> | Compile Time1<br> |
+| **generic\_unidata = true\|false**<br> | The emulation will otherwise behave as if coming from a UniData environment.<br> | Compile Time1<br> |
 | **header\_with\_s = yes\|no**<br> | For systems (Sequoia) S-types with null "header" WILL use the default column heading.<br> | Run Time<br> |
 | **hush\_input\_and\_output = true\|false**<br> | If set then control both input and output on HUSH.<br> | Run Time1<br> |
 | **iconv\_nonnumeric\_return\_null = true\|false**<br> | If true then ICONV will return null instead of the original value when that value is non-numeric and numeric is expected.<br> | Run Time<br> |
 | **insert\_default\_zero\_to\_one = true\|false**<br> | If set, treat a param value of zero as one for INSERT function.<br> | Run Time<br> |
 | **invert\_F\_correl = yes\|no**<br> | Set this for systems (Reality) where the F correlative operates on the top stack elements in the reverse order to that expected for certain operators<br> | Run Time<br> |
 | **itype\_trans\_replace\_delim = true\|false**<br> | Set to replace delimiters with spaces in the TRANS() function ( ITYPES only ).<br> | Run Time<br> |
-| **itype\_unquoted\_numeric\_literal = true\|false**<br> | Set for systems (Universe/Unidata ) where the 3rd and 4th parameters of the 'FIELD'' function can be specified as an unquoted numeric. The unquoted numeric will be treated as a numeric literal in these cases, rather than an attribute reference.<br> | Run Time<br> |
+| **itype\_unquoted\_numeric\_literal = true\|false**<br> | Set for systems (Universe/UniData ) where the 3rd and 4th parameters of the 'FIELD'' function can be specified as an unquoted numeric. The unquoted numeric will be treated as a numeric literal in these cases, rather than an attribute reference.<br> | Run Time<br> |
 | **jbase\_field = yes\|no**<br> | For systems (jBASE and Prime), FIELD function will use the entire delimiter not just the first character.<br> | Run Time<br> |
 | **jpqn\_replace\_semicolon = true\|false**<br> | Set by default under Ultimate emulation. When moving data from the Input buffer to the Primary Output buffer using the A command in PQN Procs, any semicolons are replaced with specified delimiter, e.g. : A' changes abc;def;xyz to abc"def"xyz.<br> | Run Time<br> |
 | **jql\_A\_substring\_literal = true\|false**<br> | For systems (as yet unknown) which assume unquoted numerics (inside substring extraction) should be treated as Numeric literals (NOT attribute references as expected by default).<br> | Run Time<br> |
 | **jql\_acalc\_int\_only = true\|false**<br> | Set for systems (Reality, R83, Universe) where integer only arithmetic is performed in calculations within "A;" correlatives/conversions.<br> | Run Time<br> |
 | **jql\_divide\_by\_zero\_zero = true\|false**<br> | For systems (R91), division by zero in conversions/correlatives will return zero. (The default behaviour is to return the numerator unchanged).<br> | Run Time<br> |
-| **jql\_mv\_subcall = true\|false**<br> | For systems (Sequoia) the user subroutine will be called for each multivalue and subvalue in data being processed by jQL. Default is false<br> | Run Time<br> |
-| **length\_field\_formatting = true\|false**<br> | For systems that preceed formatting with a length field.<br> | Run Time<br> |
+| **jql\_mv\_subcall = true\|false**<br> | For systems (Sequoia) the user subroutine will be called for each multi-value and sub-value in data being processed by jQL. Default is false<br> | Run Time<br> |
+| **length\_field\_formatting = true\|false**<br> | For systems that precede formatting with a length field.<br> | Run Time<br> |
 | **list\_keys = yes\|no**<br> | If set then commands such as T-DUMP , T-LOAD , COPY will by default display all the record keys and use the (I) option to suppress this. Without this option then by default the reverse is true e.g. T-DUMP will not list any record keys but the (I) option indicates that record keys should be displayed<br> | Run Time2<br> |
 | **locate\_null\_only\_in\_array = yes\|no**<br> | Set for systems requiring null to only match within the real array, not the implied array, e.g. : FIND "" IN "abc" will return 'true' under the default mode.<br> | Run Time<br> |
 | **long\_who = yes\|no**<br> | If set, the WHO command is extended to give the node name and UNIX account name.<br> | Run Time<br> |
 | **log\_runtime\_errors = true\|false**<br> | If true, runtime errors such as divide by zero are logged in the $JBCRELEASEDIR/runtime-errors directory, assuming the error message in $JBCRELEASEDIR/jbcmessages contains the string ^LOGERRORS^.<br> | Run Time<br> |
 | **make\_locate\_dr\_like\_dn = true\|false**<br> | Set for systems requiring the DR of the LOCATE statement to act like DN.<br> | Compile Time<br> |
 | **match\_last\_delimiter = true\|false**<br> | If set to 'true' then the last delimiter in pattern match string is used within the pattern to match, e.g.: "a]b]c]" will match "c]".<br> | Run Time<br> |
-| **matread\_assigns\_to\_end = true\|false**<br> | Additional attributes are appended to the last element of a DIMensioned array by 'MATREAD'. By default additional attributes are returned in element '0' of the DIMensioned array. Set 'true' under Sequoia emulation. [Runtime]<br> | Run Time<br> |
+| **matread\_assigns\_to\_end = true\|false**<br> | Additional attributes are appended to the last element of a DIMensioned array by 'MATREAD'. By default additional attributes are returned in element '0' of the DIMensioned array. Set 'true' under Sequoia emulation.<br> | Run Time<br> |
 | **md\_int\_only = true\|false**<br> | If set, only integers will be allowed in MD or MR conversions. If a decimal number is used then it will be treated as non-numeric, returning the original value, e.g. OCONV(12.99,'MD2') returns '12.99' instead of '0.13' .<br> | Run Time<br> |
 | **multiple\_cmd\_execution = true\|false**<br> | For systems that allow execution of multiple commands if provided as a dynamic array to 'PERFORM'/'EXECUTE' statements.<br> | Run Time<br> |
 | **named\_common = unassigned\|null\|zero**<br> | Indicates how to set named common when first referenced. Default is unassigned.<br>'setting' can be :<br><br><br>| <br> | a) "zero" to initialise to numeric 0.<br> |<br>| <br> | b) "unassigned" to keep it as an unassigned variable.<br> |<br>| <br> | c) "null" to create it as a zero length null string.<br> |<br><br> | Run Time2<br> |

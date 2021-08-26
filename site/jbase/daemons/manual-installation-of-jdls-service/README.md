@@ -22,11 +22,11 @@ jDLS can now be managed as a normal Windows service.
 
 [Upgrading from a Previous jBASE Version](./../../administration/installation-guides/upgrading-from-a-previous-version/../README.md)
 
-[Installing the Compiler](./../../administration/installation-guides/windows-compiler-installation/README.md)
+[Installing the Compiler](./../../administration/installation-guides/windows/windows-compiler-installation/README.md)
 
 [Creating Accounts and Users](./../../administration/installation-guides/create-accounts-and-users/README.md)
 
-[Manual License Key Installation](./../../administration/installation-guides/manual-license-key-installation/README.md)
+[Manual License Key Installation](./../../administration/installation-guides/licensing/manual-license-key-installation/README.md)
 
 Back to [Daemons](./../README.md)
 

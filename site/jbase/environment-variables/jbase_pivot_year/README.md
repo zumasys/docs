@@ -30,5 +30,4 @@ set JBASE_PIVOT_YEAR=40
 
 Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

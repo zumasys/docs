@@ -4,11 +4,11 @@
 
 ## Interface JStatement
 
-All Known Implementing Classes:[JStatementImpl](./../io/jstatementimpl-%28jremote-api%29 "class in com.jbase.jremote.io")
+All Known Implementing Classes:[JStatementImpl](./../io/jstatementimpl-(jremote-api) "class in com.jbase.jremote.io")
+
 * * *
 
-
-```
+```java
 public interface JStatement
 ```
 
@@ -16,75 +16,75 @@ A jBASE statement object for executing queries.
 
 ### Method Summary
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
-| `JResultSet`<br> | `execute(JDynArray queries)`<br>Execute query.<br> |
-| `JResultSet`<br> | `execute(JDynArray queries, JSelectList selectList)`<br>Execute query using an existing select list as a filter.<br> |
-| `JResultSet`<br> | `execute(String query)`<br>Execute query.<br> |
-| `JResultSet`<br> | `execute(String query, JSelectList selectList)`<br>Execute query using an existing select list as a filter.<br> |
-| `void`<br> | `setFetchSize(int rows)`<br>Sets the fetch size.<br> |
+| `JResultSet` | `execute(JDynArray queries)`<br>Execute query. |
+| `JResultSet` | `execute(JDynArray queries, JSelectList selectList)`<br>Execute query using an existing select list as a filter. |
+| `JResultSet` | `execute(String query)`<br>Execute query. |
+| `JResultSet` | `execute(String query, JSelectList selectList)`<br>Execute query using an existing select list as a filter. |
+| `void` | `setFetchSize(int rows)`<br>Sets the fetch size. |
 
 ### Method Detail
 
 #### execute
 
-```
+```java
 JResultSet execute(String query)
             throws JRemoteException
 ```
 
 Execute query.
-Parameters:`query` - as a stringReturns:result setThrows:`JRemoteException`
-
+Parameters:`query` - as a string  
+Returns:result set  
+Throws:`JRemoteException`
 
 #### execute
 
-```
+```java
 JResultSet execute(String query,
                    JSelectList selectList)
             throws JRemoteException
 ```
 
 Execute query using an existing select list as a filter.
-Parameters:`query` - as a string`selectList` -Returns:result setThrows:`JRemoteException`
-
+Parameters:`query` - as a string`selectList`  
+Returns:result set  
+Throws:`JRemoteException`
 
 #### execute
 
-```
+```java
 JResultSet execute(JDynArray queries)
             throws JRemoteException
 ```
 
 Execute query.
-Parameters:`queries` - query as a dynamic arrayReturns:result setThrows:`JRemoteException`
-
+Parameters:`queries` - query as a dynamic array  
+Returns:result set  
+Throws:`JRemoteException`
 
 #### execute
 
-```
+```java
 JResultSet execute(JDynArray queries,
                    JSelectList selectList)
             throws JRemoteException
 ```
 
 Execute query using an existing select list as a filter.
-Parameters:`queries` - query as a dynamic array`selectList` -Returns:result setThrows:`JRemoteException`
-
+Parameters:`queries` - query as a dynamic array`selectList`  
+Returns:result set  
+Throws:`JRemoteException`
 
 #### setFetchSize
 
-```
+```java
 void setFetchSize(int rows)
 ```
 
 Sets the fetch size.
 Parameters:`rows` -
 
+Back to [jRemote API](./../../README.md)
 
-
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
-
-  
 <PageFooter />

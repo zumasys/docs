@@ -2,8 +2,6 @@
 
 <PageHeader />
 
-## Description
-
 The **FOR** iterator (available on jBASE 5.7.7 and later) is a generalised iterator to simplify and unify looping constructs. It is designed to iterate through dynamic objects and dynamic arrays. Each iteration successively extracts an element. In its simplest form, the loop is terminated when all elements have been extracted.
 
 The **FOR** iterator can also be used for other variable types as explained below.
@@ -37,6 +35,16 @@ Where:
 **delimiter** is the character used to separate each **element** in the **construct**.
 
 **WHILE** or **UNTIL** can be used to terminate the loop based on some **condition**. When the **WHILE** clause is specified the loop will only continue with the next iteration if **condition** evaluates to a boolean _TRUE_. When the **UNTIL** clause is specified the loop will only continue with the next iteration if **condition** evaluates to boolean _FALSE_.
+
+A special form of the **FOR** iterator can be used to obtain the record key. The general form is:
+
+```
+FOR rec IN filevar KEY id
+    ...statements...
+NEXT
+```
+
+This iterates on all records in the file opened to `filevar` and assigns the record to the variable `rec` and the record key to the variable `id`.
 
 ## Examples
 

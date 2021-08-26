@@ -73,5 +73,4 @@ Remember to set "crontab" to run a DB-PAUSE before the backup is due to start:
 
 Back to [Veeam](./../README.md)
 
-  
 <PageFooter />

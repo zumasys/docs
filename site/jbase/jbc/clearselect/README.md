@@ -17,7 +17,7 @@ Where:
 
 ## Note
 
-> If neither ListName nor ListNumber are specified then it clears the default list (0).
+> If neither **ListName** nor **ListNumber** are specified then it clears the default list (0).
 
 An example of use is as:
 

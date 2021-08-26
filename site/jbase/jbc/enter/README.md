@@ -27,7 +27,7 @@ Where:
 
 ## Note
 
-> The jBASE BASIC [COMMON](./../common) data area can be passed to another jBASE BASIC program by specifying the option "I" after the program name. Pass the [COMMON](./../common) data area only to another jBASE BASIC program.
+> The jBASE BASIC [COMMON](./../common) data area can be passed to another jBASE BASIC program by specifying the option "(I" after the program name. Pass the [COMMON](./../common) data area only to another jBASE BASIC program.
 
 Use **ENTER** to execute any type of program.
 
@@ -36,7 +36,7 @@ If the program which contains the **ENTER** command (the current program) was ca
 An example is as follows:
 
 ```
-ENTER "menu"
+ENTER "menu (I"   ;* COMMON is passed to program "menu"
 ```
 
 or

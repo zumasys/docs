@@ -3,17 +3,11 @@
 <PageHeader />
 
 ## Uses of Class
+
 com.jbase.jremote.protocol.JExecuteRequest
 
 No usage of com.jbase.jremote.protocol.JExecuteRequest
 
+Back to [jRemote API](./../../README.md)
 
-
-
-
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
-
-
-
-  
 <PageFooter />

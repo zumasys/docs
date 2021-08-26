@@ -26,7 +26,7 @@ If used after a [READ](./../read) statement, the **STATUS** function returns, if
 
 If used after a [READL](./../readl), [READU](./../readu), [READVL](./../readvl), or [READVU](./../readvu) statement, if the statement includes the LOCKED clause, the returned value is the terminal number, as returned by the WHO command, of the user who set the lock.
 
-If used after a [READSEQ](./../readseq) statement,
+If used after a [READSEQ](./../readseq) statement, the **STATUS** function will return 1 if at end-of-file.
 
 If used after a [READT](./../readt), [REWIND](./../rewind), [WEOF](./../weof), or [WRITET](./../writet) statement, the returned value is hardware-dependent (I.e. varies according to the characteristics of the specific tape drive unit).  
 The documentation that accompanied drive unit for may offer information about interpreting the values returned by the **STATUS** function.

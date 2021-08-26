@@ -112,10 +112,10 @@ Where {options} are identified as:
 | --- | --- |
 | -a status | Set status On/Active, Off/Inactive, or Susp/Suspend |
 | -c | Create file in log set if does not exist. ( use with -f ) |
-| -d[1-4] | Delete logset |
+| -d[1-16] | Delete logset |
 | -f set,fileno,file | Change log filename in log set whereSet:  Logsetfileno: File numberFile: File name |
 | -h | Display help |
-| -i[1-4],filename{,filename...} | Import a log set to override one of the 4 standard log sets. The -o argument is optional. If used it suppresses the warning and confirmation message. You can specify  up to 16 filenames to define the imported log set |
+| -i[1-16],filename{,filename...} | Import a log set to override one of the 4 standard log sets. The -o argument is optional. If used it suppresses the warning and confirmation message. You can specify  up to 16 filenames to define the imported log set |
 | -j pwd | Password protect journal with “pwd” |
 | -k pid | \* | ? | Kill jlogdup process ‘pid’ or ‘\*’ all or ‘?’ to list. |
 | -l num | next | eldest | Switch to log set where num log set number 1-4 next next sequential log set eldest earliest log set |

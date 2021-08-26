@@ -1,4 +1,4 @@
-# JEDIFILEPATH
+# JDIAG
 
 <PageHeader />
 
@@ -11,16 +11,14 @@
 This environment variable **JDIAG** turns on special debugging features.
 
 ## Values
-| Option          | Description                                      |
-| --------------- | ------------------------------------------------ |
-| TRACE=LICENSING | Extended Licening output                         |
-| TRACE=INDEX     | jQL index help                                   |
-| TRACE=INDEXVERBOSE | Very verbose jQL help                         |
-| TRACE=jSQLBREAK | sql debugging |
-| TRACE=SCANFILE  | Scanfile debugging |
 
-
-
+| Option             | Description                                      |
+| ---------------    | ------------------------------------------------ |
+| TRACE=LICENSING    | Extended Licening output                         |
+| TRACE=INDEX        | jQL index help                                   |
+| TRACE=INDEXVERBOSE | Very verbose jQL help                            |
+| TRACE=jSQLBREAK    | SQL debugging                                    |
+| TRACE=SCANFILE     | Scanfile debugging                               |
 
 ## Default
 

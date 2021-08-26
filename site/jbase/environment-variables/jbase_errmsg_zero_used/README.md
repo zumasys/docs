@@ -32,7 +32,7 @@ The value is stored as a bit mask so different behaviors can be combined by addi
 
 For example, to suppress the error message and avoid going into the debugger, set the variable to 3.
 
-As per normal environment variables, it can be set at any time or in a BASIC program with the jBC [PUTENV](./../../jbase-basic-%28jbc%29/putenv) function.
+As per normal environment variables, it can be set at any time or in a BASIC program with the jBC [PUTENV](./../../jbc/putenv/README.md) function.
 
 ### UNIX
 
@@ -46,9 +46,8 @@ export JBASE_ERRMSG_ZERO_USED=3
 set JBASE_ERRMSG_ZERO_USED=3
 ```
 
-Go Back to [Error Handling](./../../jbase-basic-%28jbc%29/jbc-error-handling)
+Go Back to [Error Handling](./../../jbc-error-handling/README.md)
 
 Go Back to [Environment Variables](./../README.md)
 
-  
 <PageFooter />

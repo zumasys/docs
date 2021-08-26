@@ -13,8 +13,8 @@ BITOR(expression1, expression2)
 If either **expression1** or **expression2** evaluates to the null value, null is returned.
 
 The bitwise OR operation compares two integers bit by bit. It returns the bit 1 if the bit in either or both numbers is 1; else, it returns the bit 0.
-Non integer values are truncated before the operation is performed.
-The **BITOR** operation is performed on a 32-bit twos-complement word. It should be noted that differences in hardware architecture can make the use of the high-order bit non portable.
+Non-integer values are truncated before the operation is performed.
+The **BITOR** operation is performed on a 32-bit twos-complement word. It should be noted that differences in hardware architecture can make the use of the high-order bit non-portable.
 
 An example of use is as :
 

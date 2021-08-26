@@ -10,7 +10,7 @@ The script is written in the current directory and is called **create-form-queue
 
 It takes the general form:
 
-```bash
+```
 SP-FQSCRIPT
 ```
 

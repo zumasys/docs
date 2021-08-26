@@ -8,8 +8,8 @@ The Introduction to jAgent REST Services document serves as a starting point for
 
 ## Prerequisites
 
-To perform this steps in this walkthrough document, you will need an installed and licensed system running jBASE 5.6 or later. If you need to complete this task, please review jBASE 5.6 Installation Guide for Windows or Linux.
-You should also have reviewed Introduction to jBASE, for knowledge of commands and utilities used in this walkthrough.
+To perform this steps in this walk-through document, you will need an installed and licensed system running jBASE 5.6 or later. If you need to complete this task, please review jBASE 5.6 Installation Guide for Windows or Linux.
+You should also have reviewed Introduction to jBASE, for knowledge of commands and utilities used in this walk-through.
 
 ## jAGENT Synopsis
 
@@ -20,7 +20,7 @@ Communication is established via TCP socket connections and by means of a well d
 This protocol is currently implemented by the following jBASE components:
 
 - jBASE jRemote Client API (Requires Client)
-- jBASE JDBC Driver 2.0+ (Requires Client)
+- jBASE jDBC Driver 2.0+ (Requires Client)
 - jBASE ODBC Driver (Requires Client)
 - HTTP-based RESTful APIs
 
@@ -30,7 +30,7 @@ This protocol is currently implemented by the following jBASE components:
 
 ## Configuring jAGENT
 
-### Command Syntaz
+### Command Syntax
 
 ```
 jbase_agent [service options] [options]
@@ -38,12 +38,12 @@ jbase_agent [service options] [options]
 
 ### Command Elements
 
-- **Service Options** - install, start, stop and remove jagent service.
-- **Options** - configure jagent behavior. Most options have both long and short forms. For convenience, most options can be specified in a configuration file, and only the --config option is needed on the command line.
+- **Service Options** - install, start, stop and remove jAgent service.
+- **Options** - configure jAgent behavior. Most options have both long and short forms. For convenience, most options can be specified in a configuration file, and only the --config option is needed on the command line.
 
 | Option                                                          | Description                                                                                                                                                                                                                                                                    |
 | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| --config=[config file name]                                     |  Use [config file name] to specify jagent options. When using the jBASE HTTP API (RESTful services), a configuration file is required, as it specifies how HTTP requests are handled.  E.g. jbase_agent --config=\$JBCRELEASEDIR/config/ jagent_config                         |
+| --config=[config file name]                                     |  Use [config file name] to specify jAgent options. When using the jBASE HTTP API (RESTful services), a configuration file is required, as it specifies how HTTP requests are handled.  E.g. jbase_agent --config=\$JBCRELEASEDIR/config/ jagent_config                         |
 | -A [mode]<br>--authentication=[mode]                            | [mode] = the mode (none \| user \| account) used to authenticate client connections. This option is ignored for jBASE HTTP connections.  E.g. jbase_agent -A user                                                                                                              |
 | -b [interfaceName]<br>--bind_address=[interfaceName]            | Bind to a specific local interface. If not specified then bind to all local interfaces.  E.g. jbase_agent -b 1.2.3.4                                                                                                                                                           |
 | -c [path to certificate]<br>--certificate=[path to certificate] | [path to certificate] = the path to a valid x509 certificate.  Note --private_key is mandatory with this option.                                                                                                                                                               |
@@ -184,12 +184,8 @@ HELLO FROM LINE 10
 
 ```
 jsh DEMO_REST ~ -->CD C:\JBASE\CURRENTVERSION\
-jsh DEMO_REST C:\JBASE\CURRENTVERSION -->JBASE_AGENT
---config CONFIG\JAGENT_CONFIG
-(5756|12660) NOTICE starting up jAgent,
-Process Per Connection mode, listening on port 20002
-, c:\zumasys\src\international\5.6.x\jagent\
-SocketAcceptor.h +63
+jsh DEMO_REST C:\JBASE\CURRENTVERSION -->JBASE_AGENT --config CONFIG\JAGENT_CONFIG
+(5756|12660) NOTICE starting up jAgent, Process Per Connection mode, listening on port 20002, c:\zumasys\src\international\5.6.x\jagent\SocketAcceptor.h +63
 ```
 
 6. Keep the terminal session open, start an Internet browser, then browse to:

@@ -70,7 +70,7 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 | [JBASE\_DATE\_FORMAT](./../jbase_date_format) | specifies the format of how dates are converted to/from internal and external date representations |
 | TZ | timezone (UNIX only) |
 | LC\_ALL | will override a specified list of locale settings (UNIX only) |
-| [TERM](./../term-%28environment-variable%29) | specifies terminal type as per terminfo database |
+| [TERM](./../term-(environment-variable)) | specifies terminal type as per terminfo database |
 | [TERMINFO](./../terminfo) | specifies directory for terminal settings |
 | [JBCPORTNO](./../jbcportno) | forced Port number for use by user; automatically allocated unless this is set |
 | [JBCLOGNAME](./../jbclogname) | user name to use in-place of login id |
@@ -122,7 +122,7 @@ With jBASE 5.x all programs execute in the same process unless explicitly execut
 | [JBCSPOOLERDIR](./../jbcspoolerdir) | specify alternate spooler directory |
 | [JBCSPOOLER\_JOBRESET](./../jbcspooler_jobreset) | controls how the print job counter is reset |
 | [JBC\_DESPOOLSLEEP](./../jbc_despoolsleep) | specify the interval for despoolers to check for queued jobs |
-| [JBC\_INVERT\_ALPHA\_CHARS](./../jbc_invert_alpha_chars) | set to 1 to invert the case of alphabetic characters entered with [INPUT](./../../jbase-basic-%28jbc%29/input). |
+| [JBC\_INVERT\_ALPHA\_CHARS](./../jbc_invert_alpha_chars) | set to 1 to invert the case of alphabetic characters entered with [INPUT](./../../jbc/input/README.md). |
 | [JBC\_OLD\_SP\_EDIT](./../jbc_old_sp_edit) | specifies the alternative SP-EDIT format |
 | [JBCLISTFILE](jbclistfile) | specify alternate select list file |
 | [JBCLISTID](./../jbclistid) | force user account name to be part stored list ids. |

@@ -4,11 +4,11 @@
 
 ## Interface JConnectionFactory
 
-All Known Implementing Classes:[DefaultJConnectionFactory](./../defaultjconnectionfactory-%28jremote-api%29 "class in com.jbase.jremote"), [JRemoteConnectionFactoryImpl](./../jca/jremoteconnectionfactoryimpl-%28jremote-api%29 "class in com.jbase.jremote.jca")
+All Known Implementing Classes:[DefaultJConnectionFactory](./../defaultjconnectionfactory-(jremote-api) "class in com.jbase.jremote"), [JRemoteConnectionFactoryImpl](./../jca/jremoteconnectionfactoryimpl-(jremote-api) "class in com.jbase.jremote.jca")
+
 * * *
 
-
-```
+```java
 public interface JConnectionFactory
 ```
 
@@ -16,48 +16,43 @@ The connection factory for connections to remote a jBASE instance.
 
 ### Method Summary
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
-| `JConnection`<br> | `getConnection()`<br>Get a connection to a remote jBASE instance.<br> |
-| `JConnection`<br> | `getConnection(JConnectionCallbackHandler handler)`<br>Get a connection to a remote jBASE instance, in a managed environment the callback handler provides ancillary connection initialization.<br> |
-| `JConnection`<br> | `getConnection(String user, String password)`<br>Get a connection to a remote jBASE instance.<br> |
-| `JConnection`<br> | `getConnection(String user, String password, Properties props)`<br>Get a connection to a remote jBASE instance.<br> |
-| `JConnection`<br> | `getConnection(String user, String account, String password)`<br>Get a connection to a remote jBASE account.<br> |
+| `JConnection` | `getConnection()`<br>Get a connection to a remote jBASE instance. |
+| `JConnection` | `getConnection(JConnectionCallbackHandler handler)`<br>Get a connection to a remote jBASE instance, in a managed environment the callback handler provides ancillary connection initialization. |
+| `JConnection` | `getConnection(String user, String password)`<br>Get a connection to a remote jBASE instance. |
+| `JConnection` | `getConnection(String user, String password, Properties props)`<br>Get a connection to a remote jBASE instance. |
+| `JConnection` | `getConnection(String user, String account, String password)`<br>Get a connection to a remote jBASE account. |
 
 ### Method Detail
 
-
-
 #### getConnection
 
-```
+```java
 JConnection getConnection()
                    throws JRemoteException
 ```
 
 Get a connection to a remote jBASE instance.
-Returns:JConnection The connectionThrows:`JRemoteException`
-
-
-
-
+Returns:JConnection The connection  
+Throws:`JRemoteException`
 
 #### getConnection
 
-```
+```java
 JConnection getConnection(String user,
                           String password)
                    throws JRemoteException
 ```
 
 Get a connection to a remote jBASE instance.
-Parameters:`user` -`password` -Returns:JConnection The connectionThrows:`JRemoteException`
-
+Parameters:`user` -`password`  
+Returns:JConnection The connection  
+Throws:`JRemoteException`
 
 #### getConnection
 
-```
+```java
 JConnection getConnection(String user,
                           String password,
                           Properties props)
@@ -65,12 +60,13 @@ JConnection getConnection(String user,
 ```
 
 Get a connection to a remote jBASE instance.
-Parameters:`user` -`password` -`props` -Returns:JConnection The connectionThrows:`JRemoteException`
-
+Parameters:`user` -`password` -`props`  
+Returns:JConnection The connection  
+Throws:`JRemoteException`
 
 #### getConnection
 
-```
+```java
 JConnection getConnection(String user,
                           String account,
                           String password)
@@ -78,22 +74,22 @@ JConnection getConnection(String user,
 ```
 
 Get a connection to a remote jBASE account.
-Parameters:`user` -`account` -`password` -Returns:JConnection The connectionThrows:`JRemoteException`
-
+Parameters:`user` -`account` -`password`  
+Returns:JConnection The connection  
+Throws:`JRemoteException`
 
 #### getConnection
 
-```
+```java
 JConnection getConnection(JConnectionCallbackHandler handler)
                    throws JRemoteException
 ```
 
 Get a connection to a remote jBASE instance, in a managed environment the callback handler provides ancillary connection initialisation.
-Parameters:`handler` -Returns:JConnection The connectionThrows:`JRemoteException`
+Parameters:`handler`  
+Returns:JConnection The connection  
+Throws:`JRemoteException`
 
-
-
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
-
+Back to [jRemote API](./../../README.md)
   
 <PageFooter />

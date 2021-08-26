@@ -4,11 +4,11 @@
 
 ## Class JSelectListProt
 
-All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-%28jremote-api%29 "interface in com.jbase.jremote.io")
+All Implemented Interfaces:[JBaseSerializable](./../../io/jbaseserializable-(jremote-api) "interface in com.jbase.jremote.io")
+
 * * *
 
-
-```
+```java
 public class JSelectListProt
 extends Object
 implements JBaseSerializable
@@ -19,136 +19,112 @@ A serializable list of jBASE file records.
 ### Nested Class Summary
 
 - Nested classes/interfaces inherited from interface com.jbase.jremote.io.JBaseSerializable
-    - `JBaseSerializable.TYPE`
-
-
-
-
-
+  - `JBaseSerializable.TYPE`
 
 ### Field Summary
 
-
-| Modifier and Type<br> | Field and Description<br> |
+| Modifier and Type | Field and Description |
 | --- | --- |
-| `protected CharsetDecoder`<br> | `_decoder` <br> |
-| `protected CharsetEncoder`<br> | `_encoder` <br> |
-| `protected boolean`<br> | `hasRecords` <br> |
-| `protected int`<br> | `id` <br> |
-| `protected List<String>`<br> | `keys` <br> |
-| `protected int`<br> | `position` <br> |
-| `protected List<JDynArray>`<br> | `records` <br> |
-| `protected HashSet<Integer>`<br> | `updatedRecords` <br> |
-
-
-
-
-
+| `protected CharsetDecoder` | `_decoder`  |
+| `protected CharsetEncoder` | `_encoder`  |
+| `protected boolean` | `hasRecords`  |
+| `protected int` | `id`  |
+| `protected List<String>` | `keys`  |
+| `protected int` | `position`  |
+| `protected List<JDynArray>` | `records`  |
+| `protected HashSet<Integer>` | `updatedRecords`  |
 
 ### Constructor Summary
 
-
-| Constructor and Description<br> |
+| Constructor and Description |
 | --- |
-| `JSelectListProt()`<br>Constructs an empty list<br> |
-| `JSelectListProt(JDynArray keys)`<br>Constructs a select list from specified dynamic array.<br> |
-| `JSelectListProt(JSelectListProt sl, boolean copyModifiedOnly)`<br>Copy constructor<br> |
-
-
-
-
-
+| `JSelectListProt()`Constructs an empty list |
+| `JSelectListProt(JDynArray keys)`Constructs a select list from specified dynamic array. |
+| `JSelectListProt(JSelectListProt sl, boolean copyModifiedOnly)`Copy constructor |
 
 ### Method Summary
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
-| `int`<br> | `getId()`<br>Returns the ID of this select list.<br> |
-| `String`<br> | `getKey()`<br>Obtains the current key.<br> |
-| `int`<br> | `getNumModified()`<br>Returns the number if modified records<br> |
-| `int`<br> | `getPosition()`<br>Returns the current position.<br> |
-| `JDynArray`<br> | `getRecord()`<br>Obtains the current record value.<br> |
-| `int`<br> | `getType()` <br> |
-| `int`<br> | `getVersion()` <br> |
-| `void`<br> | `goToPosition(int position)`<br>Move to the specified position.<br> |
-| `boolean`<br> | `hasNext()`<br>Returns whether it is possible to move forward.<br> |
-| `boolean`<br> | `hasPrevious()`<br>Returns whether it is possible to move backwards.<br> |
-| `boolean`<br> | `hasRecordData()`<br>Indicates whether this select list contains record data.<br> |
-| `boolean`<br> | `next()`<br>Move to next item.<br> |
-| `boolean`<br> | `previous()`<br>Move to previous item.<br> |
-| `void`<br> | `readObject(JBaseObjectReader reader, int version)`<br>Serialize object<br> |
-| `void`<br> | `setCharsetDecoder(CharsetDecoder decoder)` <br> |
-| `void`<br> | `setCharsetEncoder(CharsetEncoder encoder)` <br> |
-| `void`<br> | `setHasRecordData(boolean hasRecords)`<br>Mark select list to contain record data.<br> |
-| `void`<br> | `setRecord(JDynArray record)`<br>Modifies the value of the current record<br> |
-| `int`<br> | `size()`<br>Returns the no.<br> |
-| `void`<br> | `writeObject(JBaseObjectWriter writer, int version)`<br>Serialize object<br> |
-
+| `int` | `getId()`Returns the ID of this select list. |
+| `String` | `getKey()`Obtains the current key. |
+| `int` | `getNumModified()`Returns the number if modified records |
+| `int` | `getPosition()`Returns the current position. |
+| `JDynArray` | `getRecord()`Obtains the current record value. |
+| `int` | `getType()`  |
+| `int` | `getVersion()`  |
+| `void` | `goToPosition(int position)`Move to the specified position. |
+| `boolean` | `hasNext()`Returns whether it is possible to move forward. |
+| `boolean` | `hasPrevious()`Returns whether it is possible to move backwards. |
+| `boolean` | `hasRecordData()`Indicates whether this select list contains record data. |
+| `boolean` | `next()`Move to next item. |
+| `boolean` | `previous()`Move to previous item. |
+| `void` | `readObject(JBaseObjectReader reader, int version)`Serialize object |
+| `void` | `setCharsetDecoder(CharsetDecoder decoder)`  |
+| `void` | `setCharsetEncoder(CharsetEncoder encoder)`  |
+| `void` | `setHasRecordData(boolean hasRecords)`Mark select list to contain record data. |
+| `void` | `setRecord(JDynArray record)`Modifies the value of the current record |
+| `int` | `size()`Returns the no. |
+| `void` | `writeObject(JBaseObjectWriter writer, int version)`Serialize object |
 
 - Methods inherited from class java.lang.Object
-    - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+  - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 
 ### Field Detail
 
 #### id
 
-```
+```java
 protected int id
 ```
 
 #### position
 
-```
+```java
 protected int position
 ```
 
 #### hasRecords
 
-```
+```java
 protected boolean hasRecords
 ```
 
 #### keys
 
-```
+```java
 protected List<String> keys
 ```
 
 #### records
 
-```
+```java
 protected List<JDynArray> records
 ```
 
 #### updatedRecords
 
-```
+```java
 protected HashSet<Integer> updatedRecords
 ```
 
 #### \_encoder
 
-```
+```java
 protected CharsetEncoder _encoder
 ```
 
 #### \_decoder
 
-```
+```java
 protected CharsetDecoder _decoder
 ```
-
-
-
-### 
-
 
 ### Constructor Detail
 
 #### JSelectListProt
 
-```
+```java
 public JSelectListProt()
 ```
 
@@ -156,7 +132,7 @@ Constructs an empty list
 
 #### JSelectListProt
 
-```
+```java
 public JSelectListProt(JDynArray keys)
 ```
 
@@ -164,7 +140,7 @@ Constructs a select list from specified dynamic array.
 Parameters:`keys` - Dynamic array containing keys separated by attribute markers.
 #### JSelectListProt
 
-```
+```java
 public JSelectListProt(JSelectListProt sl,
                        boolean copyModifiedOnly)
 ```
@@ -172,150 +148,169 @@ public JSelectListProt(JSelectListProt sl,
 Copy constructor
 Parameters:`sl` -`copyModifiedOnly` - if true, copies modified items only.
 
-
 ### Method Detail
 
 #### setCharsetEncoder
 
-```
+```java
 public void setCharsetEncoder(CharsetEncoder encoder)
 ```
 
 #### setCharsetDecoder
 
-```
+```java
 public void setCharsetDecoder(CharsetDecoder decoder)
 ```
 
 #### getId
 
-```
+```java
 public int getId()
 ```
 
 Returns the ID of this select list.
 Returns:
+
 #### size
 
-```
+```java
 public int size()
 ```
 
 Returns the no. of items inside this select list.
 Returns:
+
 #### hasRecordData
 
-```
+```java
 public boolean hasRecordData()
 ```
 
 Indicates whether this select list contains record data.
 Returns:
+
 #### setHasRecordData
 
-```
+```java
 public void setHasRecordData(boolean hasRecords)
 ```
 
 Mark select list to contain record data.
 Parameters:`hasRecords` -
+
 #### getKey
 
-```
+```java
 public String getKey()
 ```
 
 Obtains the current key.
 Returns:key
+
 #### getRecord
 
-```
+```java
 public JDynArray getRecord()
 ```
 
 Obtains the current record value.
 Returns:record value
+
 #### setRecord
 
-```
+```java
 public void setRecord(JDynArray record)
 ```
 
 Modifies the value of the current record
 Parameters:`record` -
+
 #### getNumModified
 
-```
+```java
 public int getNumModified()
 ```
 
 Returns the number if modified records
 Returns:
+
 #### next
 
-```
+```java
 public boolean next()
              throws JRemoteException
 ```
 
 Move to next item.
-Returns:true if OK, false otherwiseThrows:`JRemoteException`
+Returns:true if OK, false otherwise  
+Throws:`JRemoteException`
+
 #### previous
 
-```
+```java
 public boolean previous()
                  throws JRemoteException
 ```
 
 Move to previous item.
-Returns:true if OK, false otherwiseThrows:`JRemoteException`
+Returns:true if OK, false otherwise  
+Throws:`JRemoteException`
+
 #### hasNext
 
-```
+```java
 public boolean hasNext()
                 throws JRemoteException
 ```
 
 Returns whether it is possible to move forward.
-Returns:true if YES, false otherwiseThrows:`JRemoteException`
+Returns:true if YES, false otherwise  
+Throws:`JRemoteException`
+
 #### hasPrevious
 
-```
+```java
 public boolean hasPrevious()
                     throws JRemoteException
 ```
 
 Returns whether it is possible to move backwards.
-Returns:true if YES, false otherwiseThrows:`JRemoteException`
+Returns:true if YES, false otherwise  
+Throws:`JRemoteException`
+
 #### getPosition
 
-```
+```java
 public int getPosition()
 ```
 
 Returns the current position. The first item in the list has position 1.
 Returns:
+
 #### goToPosition
 
-```
+```java
 public void goToPosition(int position)
 ```
 
 Move to the specified position. The first item in the list has position 1.
 Parameters:`position` -
+
 #### writeObject
 
-```
+```java
 public void writeObject(JBaseObjectWriter writer,
                         int version)
                  throws IOException
 ```
 
 Serialize object
-Specified by:`writeObject` in interface `JBaseSerializable`Throws:`IOException`
+Specified by:`writeObject` in interface `JBaseSerializable`  
+Throws:`IOException`
+
 #### readObject
 
-```
+```java
 public void readObject(JBaseObjectReader reader,
                        int version)
                 throws IOException,
@@ -323,21 +318,26 @@ public void readObject(JBaseObjectReader reader,
 ```
 
 Serialize object
-Specified by:`readObject` in interface `JBaseSerializable`Throws:`IOException``ClassNotFoundException`
+Specified by:`readObject` in interface `JBaseSerializable`  
+Throws:`IOException``ClassNotFoundException`
+
 #### getType
 
-```
+```java
 public int getType()
 ```
-Specified by:`getType` in interface `JBaseSerializable`Returns:type id of the objects, used during the serialization
+
+Specified by:`getType` in interface `JBaseSerializable`  
+Returns:type id of the objects, used during the serialization
+
 #### getVersion
 
-```
+```java
 public int getVersion()
 ```
+
 Specified by:`getVersion` in interface `JBaseSerializable`
 
-Back to [jREMOTE API](com_jbase_jremote_package-summary)
+Back to [jRemote API](./../../README.md)
 
-  
 <PageFooter />
