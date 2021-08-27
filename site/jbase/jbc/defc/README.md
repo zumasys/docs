@@ -118,18 +118,6 @@ INT32 createMyStruct(DPSTRUCT dp, VAR * input, VAR * jbcVAR) {
     }
     return rc;
 }
-
-INT32 getMyStruct(DPSTRUCT dp, VAR * input, VAR * jbcVAR) {
-    INT32 rc = 0;
-    char * string_val = (char*)CONV_SFB(input);
-    MyStruct * ptr = some_func_to_create_MyStruct(string_val);
-    if (ptr) {
-        storeMyStruct(dp, ptr, jbcVAR);
-    } else {
-        rc = -1;
-    }
-    return rc;
-}
 ```
 **createMyStruct()** can now be called from a jBC program:
 ```
