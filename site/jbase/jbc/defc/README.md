@@ -85,7 +85,7 @@ CRT var_result, int_result
 There may be situations where you need to work with a structure/class object beyond the bounds of the standard
 INT, STRING, VAR types. In these situations these object/pointers should be stored in a regular jBC var as follows:
 
-```
+``` C
 void storeMyStruct(DPSTRUCT * dp, MyStruct* ptr, VAR * jbcVAR) {
     if (ptr) {
         if (jbcVAR->VarUnion.DynamicObjectPointer) {
@@ -120,7 +120,7 @@ INT32 createMyStruct(DPSTRUCT dp, VAR * input, VAR * jbcVAR) {
 }
 ```
 **createMyStruct()** can now be called from a jBC program:
-```
+``` C
 DEFC INT createMyStruct(VAR, VAR)
 ...
 rc = createMyStruct(my_jbc_input_var, h_MyStruct)
@@ -132,7 +132,7 @@ DEFC INT useMyStruct(VAR, VAR)
 rc = useMyStruct(h_MyStruct, resultVar) ;! resultVar could be any type of result, even another struct/class abstract VAR
 ```
 ...and...
-```
+``` C
 INT32 useMyStruct(DPSTRUCT * dp, VAR * jbcVAR, VAR * resultVar) {
     MyStruct * ptr = getMyStruct(dp, jbcVAR);
     ....
@@ -140,7 +140,7 @@ INT32 useMyStruct(DPSTRUCT * dp, VAR * jbcVAR, VAR * resultVar) {
 ```
 
 If using c++ you could use a template class instead of hard coding your object type (e.g. MyStruct).
-```
+``` C++
 template <class T>
 
 T * getPtr(VAR* v_ptr, DPSTRUCT * dp)
@@ -172,7 +172,7 @@ void storePtr(T * ptr, VAR * v_ptr, DPSTRUCT * dp)
 }
 ```
 And then...
-```
+``` C++
 MyStruct * getMyStruct(DPSTRUCT * dpVAR * v_ptr)
 {
         return getPtr<MyStruct>(dp, v_ptr);
