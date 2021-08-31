@@ -25,7 +25,7 @@ drwxrwxrwt.  2 root  root        15 Aug 31 17:07 .X11-unix
 drwxrwxrwt.  2 root  root         6 Aug 21  2020 .XIM-unix
 ```
 
-Change the properties of the jBASE Linux installer to make it execuatble, and then we can get started:
+Change the properties of the jBASE Linux installer to make it executable, and then we can get started:
 
 ```bash
 [root@cranfield tmp]# chmod u+x Linux_jBASE_5.8.3_948d8070_64bit.bin
