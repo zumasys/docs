@@ -8,6 +8,8 @@
 [Linux](./linux/README.md)  
 [Windows](./windows/README.md)  
 * * *
+[Unattended Installation](./unattended-install/README.md)  
+* * *
 [Licensing](./licensing/README.md)  
 * * *
 [Platform Availability](./platform-availability/README.md)  
