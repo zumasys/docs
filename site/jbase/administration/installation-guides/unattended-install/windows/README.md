@@ -1,4 +1,4 @@
-# Unatrtended jBASE 5.8 install on Windows
+# Unattended jBASE 5.8 install on Windows
 
 <PageHeader />
 
