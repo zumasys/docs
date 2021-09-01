@@ -41,9 +41,18 @@ The following changes apply to the Linux installer for jBASE release 5.8:
           - To view an example of "installation_options", perform a normal install, and examine the $JBCRELEASEDIR/config/jbase_config.json file.  
     . -- log=*filename* : create a log during the installation.  
 
+## Example
+
+```bash
+[root@cranfield tmp]# ./Linux_jBASE_5.8.3_948d8070_64bit.bin -- unattended config=jbase_config.json log=install.log
+```
+
 ## Unattended Installation
 
-During unattended install, if user interaction would normally be required, the installer will default to the "OK" or "Ignore" choice. Using the LOG and CONFIG options is recommended for unattended installations.
+During unattended install, if user interaction would normally be required, the installer will default to the "OK" or "Ignore" choice. Using the LOG and CONFIG options is recommended for unattended installations.  
+
+See also [Unattended jBASE Installs](./../../../../administration/installation-guides/unattended-install/README.md)
+
 Back to [5.8.0 Release Notes](./../README.md)
 
 <PageFooter />

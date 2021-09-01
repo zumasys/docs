@@ -7,29 +7,30 @@
 On Linux, with a jBASE installer and a jbase_config.json file containing our proposed jBASE configuration, we can start an unattended install:
 
 ```bash
-[root@cranfield tmp]# ls -la
-total 57636
-drwxrwxrwt. 27 root  root      4096 Aug 31 17:08 .
-dr-xr-xr-x. 17 root  root      4096 Aug 21  2020 ..
-drwx------.  2 mikes mikes       19 Aug 31 17:08 .esd-1000
+[zumasys@cranfield tmp]$ ls -la
+total 57640
+drwxrwxrwt. 21 root  root      4096 Sep  1 11:50 .
+dr-xr-xr-x. 18 root  root      4096 Sep  1 11:50 ..
+drwx------.  2 mikes mikes       19 Sep  1 10:34 .esd-1000
 drwxrwxrwt.  2 root  root         6 Aug 21  2020 .font-unix
 drwxr-xr-x.  2 root  root        17 Aug 31 15:25 hsperfdata_root
-drwxrwxrwt.  2 root  root      4096 Aug 31 17:07 .ICE-unix
--rw-r--r--.  1 root  root     25262 Aug 31 15:22 jbase_config.json
+drwxrwxrwt.  2 root  root        83 Sep  1 10:34 .ICE-unix
+-rw-r--r--.  1 root  root     25742 Sep  1 11:37 jbase_config.json
 -rw-r--r--.  1 root  root  58969139 Aug 31 15:23 Linux_jBASE_5.8.3_948d8070_64bit.bin
 
 ..snip..
 
--r--r--r--.  1 root  root        11 Aug 31 17:07 .X0-lock
-drwxrwxrwt.  2 root  root        15 Aug 31 17:07 .X11-unix
+-r--r--r--.  1 root  root        11 Sep  1 10:34 .X0-lock
+drwxrwxrwt.  2 root  root        15 Sep  1 10:34 .X11-unix
 drwxrwxrwt.  2 root  root         6 Aug 21  2020 .XIM-unix
 ```
 
 Change the properties of the jBASE Linux installer to make it executable, and then we can get started:
 
 ```bash
-[root@cranfield tmp]# chmod u+x Linux_jBASE_5.8.3_948d8070_64bit.bin
-[root@cranfield tmp]# ./Linux_jBASE_5.8.3_948d8070_64bit.bin -- unattended -- config=jbase_config.json -- log=install.log
+[zumasys@cranfield tmp]$ sudo chmod u+x Linux_jBASE_5.8.3_948d8070_64bit.bin
+[sudo] password for zumasys:
+[zumasys@cranfield tmp]$ sudo ./Linux_jBASE_5.8.3_948d8070_64bit.bin -- unattended config=jbase_config.json log=install.log
 ```
 
 From here, the jBASE installer will continue on its own, using the parameters set in the jbase_config.json file:
@@ -49,12 +50,16 @@ ncurses-compat-libs package not required.
 Installing dependency "OpenSSL"...
 Loaded plugins: fastestmirror, langpacks
 epel-release-latest-7.noarch.rpm                                                                                                                             |  15 kB  00:00:00
-Examining /var/tmp/yum-root-7iGzyN/epel-release-latest-7.noarch.rpm: epel-release-7-13.noarch
-Marking /var/tmp/yum-root-7iGzyN/epel-release-latest-7.noarch.rpm to be installed
+Examining /var/tmp/yum-root-FAFkBA/epel-release-latest-7.noarch.rpm: epel-release-7-13.noarch
+Marking /var/tmp/yum-root-FAFkBA/epel-release-latest-7.noarch.rpm to be installed
 Resolving Dependencies
 --> Running transaction check
 ---> Package epel-release.noarch 0:7-13 will be installed
 --> Finished Dependency Resolution
+base/7/x86_64                                                                                                                                                | 3.6 kB  00:00:00
+extras/7/x86_64                                                                                                                                              | 2.9 kB  00:00:00
+updates/7/x86_64                                                                                                                                             | 2.9 kB  00:00:00
+updates/7/x86_64/primary_db                                                                                                                                  |  10 MB  00:00:01
 
 Dependencies Resolved
 
@@ -84,7 +89,7 @@ Installed:
 Complete!
 Loaded plugins: fastestmirror, langpacks
 Loading mirror speeds from cached hostfile
-epel/x86_64/metalink                                                                                                                                         |  34 kB  00:00:00
+epel/x86_64/metalink                                                                                                                                         |  33 kB  00:00:00
  * base: mirror.freethought-internet.co.uk
  * epel: mirror.freethought-internet.co.uk
  * extras: mirror.freethought-internet.co.uk
@@ -156,7 +161,7 @@ Copying jBASE release files into /opt/jbase5/5.8.3...
 Finishing jBASE installation...
 
 Installation completed successfully
-Remember to set a password for 'jbaseadm'.
+Remember to set a password for 'jbase'.
 
 Check firewall rules to ensure jRCS port 8236 is open.
 
@@ -166,10 +171,7 @@ SELinux is enabled and may interfere with critical jBASE services.
 We can then log into the account that has been created and confirm that jBASE is correctly configured and licensed:
 
 ```bash
-[root@cranfield tmp]# jb JBASEADM
-[ 417 ] File /opt/jbase5/global/config/jutil_ctrl]D created , type = JD
-[ 417 ] File /opt/jbase5/global/config/jutil_ctrl created , type = JD
-jsh JBASEADM ~ -->jdiag
+jsh jbaseadmin ~ -->jdiag
         jdiag - jBASE diagnostic '$Revision: 1.15 $'
 
 System Information
@@ -177,9 +179,9 @@ System Information
 
 System                      : Linux cranfield.jinternal.com 3.10.0-1160.36.2.el7.x86_64.#1 SMP Wed Jul 21 11:57:15 UTC 2021 x86_64
 OS Release                  : CentOS Linux release 7.9.2009 (Core)
-UNIX User                   : root (uid 0, euid 0)
-Tty name                    : /dev/pts/1
-Time                        : Tue Aug 31 17:18:12 2021
+UNIX User                   : zumasys (uid 1001, euid 1001)
+Tty name                    : /dev/pts/2
+Time                        : Wed Sep  1 11:52:17 2021
 
 Environment
 ===========
@@ -189,20 +191,22 @@ JBCPORTNO                   : '400-5000'
 JBCRELEASEDIR               : '/opt/jbase5/5.8.3'
 JBCGLOBALDIR                : '/opt/jbase5/global'
 JBCDATADIR                  : '/jbasedata'
-HOME                        : '/jbasedata/JBASEADM'
-JEDIFILEPATH                : '/jbasedata/JBASEADM'
-JEDIFILENAME_MD             : '/jbasedata/JBASEADM/MD'
-MD file is (DICT)           : '/jbasedata/JBASEADM/MD]D'
+HOME                        : '/jbasedata/jbaseadmin'
+JEDIFILEPATH                : '/jbasedata/jbaseadmin'
+JEDIFILENAME_MD             : '/jbasedata/jbaseadmin/MD'
+MD file is (DICT)           : '/jbasedata/jbaseadmin/MD]D'
 JEDIFILENAME_SYSTEM         : '/jbasedata/SYSTEM]D'
 RELEASE Information         : Major 5.8 , Minor 3 , Tue Jun 29 13:45:13 2021 , Patch 948d8070 (Change 25007)
 Spooler dir (JBCSPOOLERDIR) : '/jbasedata/jspooler'
 JBCEMULATE                  : 'jbase'
-Object path (JBCOBJECTLIST) : '/jbasedata/JBASEADM/lib'
+Object path (JBCOBJECTLIST) : '/jbasedata/jbaseadmin/lib'
 jBASE Compiler Run-time     : '/opt/jbase5/5.8.3/config/system.properties'
-Program dir (JBCDEV_BIN)    : '/jbasedata/JBASEADM/bin'
-Subroutine dir (JBCDEV_LIB) : '/jbasedata/JBASEADM/lib'
+Program dir (JBCDEV_BIN)    : '/jbasedata/jbaseadmin/bin'
+Subroutine dir (JBCDEV_LIB) : '/jbasedata/jbaseadmin/lib'
 Max open files              : 1024
-jsh JBASEADM ~ -->jlicensinginfo -V
+There are No warnings, jBASE seems to be loaded correctly
+
+jsh jbaseadmin ~ -->jlicensinginfo -V
 jBASE: Warning: The JBC_CORE_DUMP variable requests a core dump on error,
    but the value of 'ulimit -c' is zero, meaning no core dump will be produced.
 To prevent this warning, change 'ulimit -c' or
@@ -227,15 +231,15 @@ User Slot Information
   Revision 1, size 2097408, max user 8192, peak slot used 3
   Slot  Port     PID          Time Started           Time Thread            Ages          Lic? Back? Thread Type License Type  Client Host
   ----  ----     ---          ------------           -----------            ----          ---- ----- ----------- ------------  -----------
-  0     400      5035         Aug 31 17:18:08 2021   Aug 31 17:18:27 2021   1    20       Y    N     Normal      Standard      msft-5-0-10-65-30-4b-d9-2f.home
-**1     401      5065         Aug 31 17:18:28 2021                          0    0        N    N     Normal      Unlicensed    msft-5-0-10-65-30-4b-d9-2f.home
-  2     5000     4948         Aug 31 17:17:19 2021   Aug 31 17:18:27 2021   1    69       Y    Y     Normal      Unlicensed    cranfield.jinternal.com
+  0     400      22537        Sep  1 11:52:12 2021   Sep  1 11:52:50 2021   1    39       Y    N     Normal      Standard      msft-5-0-10-65-30-4b-d9-2f.home
+**1     401      22583        Sep  1 11:52:51 2021                          0    0        N    N     Normal      Unlicensed    msft-5-0-10-65-30-4b-d9-2f.home
+  2     5000     22413        Sep  1 11:50:35 2021   Sep  1 11:52:50 2021   1    136      Y    Y     Normal      Unlicensed    cranfield.jinternal.com
 
 Total of 3 slots found distributed as follows:
   1 licensed
   1 unlicensed
   1 background (unlicensed)
-jsh JBASEADM ~ -->
+
 ```
 
 ### Appendix
@@ -719,22 +723,40 @@ Below is a copy of the jbase_config.json file used to drive the unattended insta
         ######################################################################################
         #
         "runtime":"qP2XhdjqbdbiqzvfDBgPisP3ITiDfhyT",
-        "eval":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-        "multisession":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+        "eval":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+        "multisession":"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx="
+    },
+    "installation_options" :
+    {
+      "installation_path":"/opt/jbase5/5.8.3",
+      "symlink":"/opt/jbase5/CurrentVersion",
+      "jdls_options":"port",
+      "telnet_options":"true",
+      "jrcs_options":"true",
+      "create_system_file":"true",
+      "spooler_options":"true",
+      "create_admin_user":"true",
+      "admin_user":"jbase",
+      "admin_group":"jbase",
+      "create_admin_account":"true",
+      "jbaseadmdir":"/jbasedata/jbaseadmin"
     }
 }
 ```
 
 ## Note
 
->Conventional jBASE license keys can be installed in this manner
+>Conventional jBASE license keys can be installed in this manner  
+>In this example, we have changed some additional installer defaults to suit our preferences.
+
+See [Installation Options](./../installation-options/README.md)
 
 ## Log files
 
 Here is an example of the log file which is created by the unattended install:
 
 ```bash
-[root@cranfield tmp]# cat install.log
+[zumasys@cranfield tmp]$ cat install.log
 ksh package already installed.
 ncurses-devel package already installed.
 ncurses-compat-libs package not required.
@@ -742,7 +764,8 @@ Installing dependency "OpenSSL"...
 openssl11-libs package installed.
 openssl11-libs package already installed.
 gcc package already installed.
-Initializing the installation environment and checking for previous jBASE installations...
+Initializing the installation environment and checking
+for previous jBASE installations...
 jbasesetup: phase=init target= xit=0
 initial setup defaults:
 DFLT_RELEASEDIR=/opt/jbase5/5.8.3
@@ -752,21 +775,40 @@ DFLT_GLOBALDIR=/opt/jbase5/global
 DFLT_DATADIR=/jbasedata
 DFLT_SYSTEM=/jbasedata/SYSTEM]D
 DFLT_SPOOLERDIR=/jbasedata/jspooler
-DFLT_ADMINDIR=/jbasedata/JBASEADM
+DFLT_ADMINDIR=/jbasedata/jbaseadmin
 DFLT_SYMLINK=/opt/jbase5/CurrentVersion
+PREV_JDLS_OPTIONS=port
+DFLT_JDLS_OPTIONS=port
+PREV_TELNET_OPTIONS=true
+DFLT_TELNET_OPTIONS=true
+PREV_JRCS_OPTIONS=8236
+DFLT_JRCS_OPTIONS=8236
+PREV_SPOOLER_OPTIONS=true
+DFLT_SPOOLER_OPTIONS=true
+PREV_CREATE_ADMIN_USER=true
+DFLT_CREATE_ADMIN_USER=true
+PREV_CREATE_ADMIN_ACCOUNT=true
+DFLT_CREATE_ADMIN_ACCOUNT=true
+PREV_CREATE_SYSTEM_FILE=true
+DFLT_CREATE_SYSTEM_FILE=true
+PREV_ADMIN_USER=jbase
+DFLT_ADMIN_USER=jbase
+PREV_ADMIN_GROUP=jbase
+DFLT_ADMIN_GROUP=jbase
 Shutting down jBASE daemons...
 jbasesetup: phase=stop target= xit=0
 environment reset prefix: export HOME="/root";unset JBASE_DATABASE;unset JBASE_DISABLE_DEVELOPER_LICENSE_WARNING;unset JBASE_LOCALE;unset JBCBASETMP;unset JBCDATADIR;unset JBCDEV_B
 IN;unset JBCDEV_LIB;unset JBCEMULATE;unset JBCERRFILE;unset JBCGLOBALDIR;unset JBCLKFILE;unset JBCLOGNAME;unset JBCOBJECTLIST;unset JBCPAUSEFILE;unset JBCPORTNO;unset JBCRELEASEDIR
 ;unset JBCSPOOLERDIR;unset JEDIENABLEQ2Q;unset JEDIFILENAME_MD;unset JEDIFILENAME_SYSTEM;unset JEDIFILEPATH;unset JEDI_POSTFILEOP;unset JEDI_PREFILEOP;unset LD_LIBRARY_PATH;unset L
-IBPATH;unset MINIJBASE;export PATH="/usr/lib64/qt-3.3/bin:/root/perl5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin";export SHLVL="3";export TERM="vt220";unset A_
-_z;export _INSTALL_RELEASE="5.8.3";export _INSTALL_CHANGE="25007";export _INSTALL_LOG="/tmp/install.log";export _INSTALL_CONFIG="/tmp/jbase_config.json";
+IBPATH;unset MINIJBASE;export PATH="/sbin:/bin:/usr/sbin:/usr/bin";export SHLVL="2";export TERM="vt220";unset A__z;export _INSTALL_RELEASE="5.8.3";export _INSTALL_CHANGE="25007";ex
+port _INSTALL_LOG="/tmp/install.log";export _INSTALL_CONFIG="/tmp/jbase_config.json";
 Preparing to install jBASE...
 jbasesetup: phase=pre target= xit=0
 Finished preparing for install
 Creating jBASE release directory /opt/jbase5/5.8.3...
 Copying jBASE release files into /opt/jbase5/5.8.3...
 Finishing jBASE installation...
+Group 'jbase' already exists.
 Ready to create directories using:
 {
     "DFLT_RELEASEDIR":"/opt/jbase5/5.8.3",
@@ -776,15 +818,33 @@ Ready to create directories using:
     "DFLT_DATADIR":"/jbasedata",
     "DFLT_SYSTEM":"/jbasedata/SYSTEM]D",
     "DFLT_SPOOLERDIR":"/jbasedata/jspooler",
-    "DFLT_ADMINDIR":"/jbasedata/JBASEADM",
+    "DFLT_ADMINDIR":"/jbasedata/jbaseadmin",
     "DFLT_SYMLINK":"/opt/jbase5/CurrentVersion",
+    "PREV_JDLS_OPTIONS":"port",
+    "DFLT_JDLS_OPTIONS":"port",
+    "PREV_TELNET_OPTIONS":"true",
+    "DFLT_TELNET_OPTIONS":"true",
+    "PREV_JRCS_OPTIONS":8236,
+    "DFLT_JRCS_OPTIONS":8236,
+    "PREV_SPOOLER_OPTIONS":"true",
+    "DFLT_SPOOLER_OPTIONS":"true",
+    "PREV_CREATE_ADMIN_USER":"true",
+    "DFLT_CREATE_ADMIN_USER":"true",
+    "PREV_CREATE_ADMIN_ACCOUNT":"true",
+    "DFLT_CREATE_ADMIN_ACCOUNT":"true",
+    "PREV_CREATE_SYSTEM_FILE":"true",
+    "DFLT_CREATE_SYSTEM_FILE":"true",
+    "PREV_ADMIN_USER":"jbase",
+    "DFLT_ADMIN_USER":"jbase",
+    "PREV_ADMIN_GROUP":"jbase",
+    "DFLT_ADMIN_GROUP":"jbase",
     "INSTALL_TYPE":"unattended",
     "JBCRELEASEDIR":"/opt/jbase5/5.8.3",
     "JBCGLOBALDIR":"/opt/jbase5/global",
     "JBCDATADIR":"/jbasedata",
     "SYMLINK":"/opt/jbase5/CurrentVersion",
     "CREATE_ADMIN_USER":"True",
-    "ADMIN_USER":"jbaseadm",
+    "ADMIN_USER":"jbase",
     "ADMIN_PSWD":"",
     "ADMIN_GROUP":"jbase",
     "CREATE_ADMIN_ACCOUNT":"True",
@@ -798,7 +858,7 @@ Ready to create directories using:
     "COPY_PREV_SPOOLER_CONFIG":0,
     "JEDIFILENAME_SYSTEM":"/jbasedata/SYSTEM]D",
     "COPY_PREV_SYSTEM_FILE":0,
-    "JBASEADMDIR":"/jbasedata/JBASEADM"
+    "JBASEADMDIR":"/jbasedata/jbaseadmin"
 }
 Created symbolic link '/opt/jbase5/CurrentVersion'
 Installed jBASE services target (jBASE.target)
@@ -817,19 +877,20 @@ systemctl enable jBASE.target OK
 environment reset prefix: export HOME="/root";unset JBASE_DATABASE;unset JBASE_DISABLE_DEVELOPER_LICENSE_WARNING;unset JBASE_LOCALE;unset JBCBASETMP;unset JBCDATADIR;unset JBCDEV_B
 IN;unset JBCDEV_LIB;unset JBCEMULATE;unset JBCERRFILE;unset JBCGLOBALDIR;unset JBCLKFILE;unset JBCLOGNAME;unset JBCOBJECTLIST;unset JBCPAUSEFILE;unset JBCPORTNO;unset JBCRELEASEDIR
 ;unset JBCSPOOLERDIR;unset JEDIENABLEQ2Q;unset JEDIFILENAME_MD;unset JEDIFILENAME_SYSTEM;unset JEDIFILEPATH;unset JEDI_POSTFILEOP;unset JEDI_PREFILEOP;unset LD_LIBRARY_PATH;unset L
-IBPATH;unset MINIJBASE;export PATH="/usr/lib64/qt-3.3/bin:/root/perl5/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin";export SHLVL="3";export TERM="vt220";unset A_
-_z;export _INSTALL_RELEASE="5.8.3";export _INSTALL_CHANGE="25007";export _INSTALL_LOG="/tmp/install.log";export _INSTALL_CONFIG="/tmp/jbase_config.json";
+IBPATH;unset MINIJBASE;export PATH="/sbin:/bin:/usr/sbin:/usr/bin";export SHLVL="2";export TERM="vt220";unset A__z;export _INSTALL_RELEASE="5.8.3";export _INSTALL_CHANGE="25007";ex
+port _INSTALL_LOG="/tmp/install.log";export _INSTALL_CONFIG="/tmp/jbase_config.json";
 jBASE is functional
 Successfully registered this jBASE installation
 Successfully created SYSTEM file.
 jbasesetup: phase=post target= xit=0
 Spooler initialized.
 Installation completed successfully
-Remember to set a password for 'jbaseadm'.
+Remember to set a password for 'jbase'.
 
 Check firewall rules to ensure jRCS port 8236 is open.
 
 SELinux is enabled and may interfere with critical jBASE services.
+[zumasys@cranfield tmp]$
 ```
 
 Back to [Unattended Installs](./../README.md)

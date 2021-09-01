@@ -9,6 +9,10 @@ The following pages provide an overview of the process for each platform:
 [Linux](./linux/README.md)  
 [Windows](./windows/README.md)  
 
+[Installation Options](./installation-options/README.md)  
+
+See also [PN885](./../../../release-notes/5.8/5.8.0/pn855/README.md)  
+
 Back to [Installation Guides](./../README.md)
 
 <PageFooter />
