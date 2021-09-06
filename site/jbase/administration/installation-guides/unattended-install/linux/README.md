@@ -4,6 +4,8 @@
 
 ## What is needed
 
+Ideally, before starting out, you would have a non-root user created with "sudoer" privileges and perhaps a "jbase" group also created, of which this same user is a member.
+
 On Linux, with a jBASE installer and a jbase_config.json file containing our proposed jBASE configuration, we can start an unattended install:
 
 ```bash
@@ -270,8 +272,8 @@ Below is a copy of the jbase_config.json file used to drive the unattended insta
         # executables and libraries. Normally, it is automatically set based on the
         # jBASE installation directory.
         {
-        		"name": "JBCRELEASEDIR", 
-        		"value": "/opt/jbase5/5.8.3"},
+          "name": "JBCRELEASEDIR", 
+          "value": "/opt/jbase5/5.8.3"},
         #
         # JBCGLOBALDIR defines the directory for jBASE global files. Normally, it is
         # set by the initial configuration read from $JBCRELEASEDIR/config/jbase_config.json.
@@ -445,8 +447,8 @@ Below is a copy of the jbase_config.json file used to drive the unattended insta
         # violation occurs. Note: this is not supported for Windows.
         #
         {
-        		"name": "JBC_CORE_DUMP", 
-        		"value": "all"
+            "name": "JBC_CORE_DUMP", 
+            "value": "all"
         },
         #
         # NOTE: $JBCRELEASEDIR/config/system.properties contains settings used by the C
@@ -639,7 +641,7 @@ Below is a copy of the jbase_config.json file used to drive the unattended insta
         # JBCNETACCESS specifies the location of the jRFS security access file.
         #   {"name": "JBCNETACCESS", "value": "<security access file>",
         #
-        # JBCNETDIR	specifies the location of the jRFS configuration files.
+        # JBCNETDIR specifies the location of the jRFS configuration files.  
         #   {"name": "JBCNETDIR", "value": "<path to jRFS config directory>"},
         #
         # JRFS_REMOTE_JQL set to 1 to allow jQL to be executed remotely.
@@ -747,7 +749,8 @@ Below is a copy of the jbase_config.json file used to drive the unattended insta
 ## Note
 
 >Conventional jBASE license keys can be installed in this manner  
->In this example, we have changed some additional installer defaults to suit our preferences.
+>In this example, we have changed some additional installer defaults to suit our preferences.  
+>New-style jBASE licenses would need to be installed using the [jlicense](./../../../../licensing/jlicense/README.md) utility as a post-installation task.  
 
 See [Installation Options](./../installation-options/README.md)
 
