@@ -170,7 +170,7 @@ Check firewall rules to ensure jRCS port 8236 is open.
 SELinux is enabled and may interfere with critical jBASE services.
 ```
 
-We can then log into the account that has been created and confirm that jBASE is correctly configured and licensed:
+We can then log into the account which has been created and confirm that jBASE is correctly configured and licensed:
 
 ```bash
 jsh jbaseadmin ~ -->jdiag
@@ -750,7 +750,7 @@ Below is a copy of the jbase_config.json file used to drive the unattended insta
 
 >Conventional jBASE license keys can be installed in this manner  
 >In this example, we have changed some additional installer defaults to suit our preferences.  
->New-style jBASE licenses would need to be installed using the [jlicense](./../../../../licensing/jlicense/README.md) utility as a post-installation task.  
+>New-style jBASE licenses would need to be added via the [jlicense](./../../../../licensing/jlicense/README.md) utility as a post-installation task.  
 
 See [Installation Options](./../installation-options/README.md)
 
@@ -767,8 +767,7 @@ Installing dependency "OpenSSL"...
 openssl11-libs package installed.
 openssl11-libs package already installed.
 gcc package already installed.
-Initializing the installation environment and checking
-for previous jBASE installations...
+Initializing the installation environment and checking for previous jBASE installations...
 jbasesetup: phase=init target= xit=0
 initial setup defaults:
 DFLT_RELEASEDIR=/opt/jbase5/5.8.3
@@ -877,11 +876,7 @@ systemctl enable jRCS.service: OK
 systemctl enable jSPOOL.service: OK
 systemctl start jBASE.target OK
 systemctl enable jBASE.target OK
-environment reset prefix: export HOME="/root";unset JBASE_DATABASE;unset JBASE_DISABLE_DEVELOPER_LICENSE_WARNING;unset JBASE_LOCALE;unset JBCBASETMP;unset JBCDATADIR;unset JBCDEV_B
-IN;unset JBCDEV_LIB;unset JBCEMULATE;unset JBCERRFILE;unset JBCGLOBALDIR;unset JBCLKFILE;unset JBCLOGNAME;unset JBCOBJECTLIST;unset JBCPAUSEFILE;unset JBCPORTNO;unset JBCRELEASEDIR
-;unset JBCSPOOLERDIR;unset JEDIENABLEQ2Q;unset JEDIFILENAME_MD;unset JEDIFILENAME_SYSTEM;unset JEDIFILEPATH;unset JEDI_POSTFILEOP;unset JEDI_PREFILEOP;unset LD_LIBRARY_PATH;unset L
-IBPATH;unset MINIJBASE;export PATH="/sbin:/bin:/usr/sbin:/usr/bin";export SHLVL="2";export TERM="vt220";unset A__z;export _INSTALL_RELEASE="5.8.3";export _INSTALL_CHANGE="25007";ex
-port _INSTALL_LOG="/tmp/install.log";export _INSTALL_CONFIG="/tmp/jbase_config.json";
+environment reset prefix: export HOME="/root";unset JBASE_DATABASE;unset JBASE_DISABLE_DEVELOPER_LICENSE_WARNING;unset JBASE_LOCALE;unset JBCBASETMP;unset JBCDATADIR;unset JBCDEV_BIN;unset JBCDEV_LIB;unset JBCEMULATE;unset JBCERRFILE;unset JBCGLOBALDIR;unset JBCLKFILE;unset JBCLOGNAME;unset JBCOBJECTLIST;unset JBCPAUSEFILE;unset JBCPORTNO;unset JBCRELEASEDIR;unset JBCSPOOLERDIR;unset JEDIENABLEQ2Q;unset JEDIFILENAME_MD;unset JEDIFILENAME_SYSTEM;unset JEDIFILEPATH;unset JEDI_POSTFILEOP;unset JEDI_PREFILEOP;unset LD_LIBRARY_PATH;unset LIBPATH;unset MINIJBASE;export PATH="/sbin:/bin:/usr/sbin:/usr/bin";export SHLVL="2";export TERM="vt220";unset A__z;export _INSTALL_RELEASE="5.8.3";export _INSTALL_CHANGE="25007";export _INSTALL_LOG="/tmp/install.log";export _INSTALL_CONFIG="/tmp/jbase_config.json";
 jBASE is functional
 Successfully registered this jBASE installation
 Successfully created SYSTEM file.
