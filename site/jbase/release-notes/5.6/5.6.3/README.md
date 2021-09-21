@@ -4,7 +4,7 @@
 
 ## Patches
 
-- [PN5\_60581](./pn5_60581) - Allow "!" to execute Operating System (OS) commands in Procs and Paragraphs
+- [PN5\_60581](./pn5_60581/README.md) - Allow "!" to execute Operating System (OS) commands in Procs and Paragraphs
 - [PN5\_60582](./pn5_60582) - New environment variable to configure the jShell command stack history and/or specify a username based stack
 - [PN5\_60583](./pn5_60583) - Allow attribute 1 in F-pointers and PQ/PQN/PA/PR items to be caseless
 - [PN5\_60584](./pn5_60584) - jQL: Allow [Ann] style default dictionaries for d3 emulation
@@ -65,24 +65,24 @@
 
 ## New Commands
 
-- viewindex (see patch [PN5\_60545](./../5.6.2-release-notes/pn5_60545))
+- viewindex (see patch [PN5\_60545](./pn5_60545/README.md))
 
 ## New jBC Statements
 
 -
 
-## New Modules
+## New Environment Variables  
 
-- [PN5\_60627](./../5.6.2-release-notes/pn5_60627)
+- JSH_PROMPT (see [PN5\_60627](./pn5_60627/README.md))
 
 ## Changes to Current Behavior
 
 - The **U** option of the **jchmod** command has been deprecated. Case insensitive files must be created with **CREATE-FILE** command, e.g. **CREATE-FILE BOOKS 11 101 CASE=FALSE**
-- Default spooler sleep time reduced to 5 seconds, was 30 seconds (see patch [PN5\_60632](./../5.6.2-release-notes/pn5_60632))
+- Default spooler sleep time reduced to 5 seconds, was 30 seconds (see patch [PN5\_60632](./pn5_60632))
 
 ## Changes to Commands
 
-- New JBC file type added to the CREATE-FILE command (see patch [PN5\_60644](./../5.6.2-release-notes/pn5_60644))
+- New JBC file type added to the CREATE-FILE command (see patch [PN5\_60644](./pn5_60644))
 
 ## Changes to jBC
 
