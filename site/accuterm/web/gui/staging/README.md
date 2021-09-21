@@ -2,6 +2,14 @@
 
 <PageHeader />
 
+## Release Notes - September 21st, 2021
+
+- Controls
+  - Grid properties updated
+  - Toolbar buttons fixed
+- Service
+  - GUI & Terminal navigation added  
+
 ## Release Notes - August 31th, 2021
 
 - Controls
