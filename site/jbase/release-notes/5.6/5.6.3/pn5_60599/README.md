@@ -10,7 +10,7 @@ Add support for large records when using ACCOUNT-SAVE and ACCOUNT-RESTORE comman
 
 ### Previous Release Behavior
 
-Records greater than 32k where always truncated even with the (G option.
+Records greater than 32k were always truncated even with the (G option.
 
 ### Current Release Behavior
 
