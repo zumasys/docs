@@ -39,6 +39,6 @@ The above scenario produces the correct result and compares correctly when using
 
 Note that the **-c** option is no longer used -- we pick that up from the emulation by default.
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

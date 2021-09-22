@@ -38,6 +38,6 @@ Examples:
    [View the LASTNAME index starting at ID '123456' of index keys beginning with 'K']
 ```
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

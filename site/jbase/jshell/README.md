@@ -7,11 +7,11 @@
 <badge text='jshell' vertical='middle' />
 <badge text='shell' vertical='middle' />
 
-The jsh command invokes jshell - the jBASE shell. It can be invoked as your login shell by using the normal system administration software supplied with the platform. Either via .bat files (Windows) or .profiles (Unix).
+The jsh command invokes jshell - the jBASE shell. It can be invoked as your login shell by using the normal system administration software supplied with the platform. Either via .bat files (Windows) or .profiles (UNIX).
 
 jshell has been designed to ease migration from other MV platforms, and to overcome some of the differences between various platform command line environments. The more primitive features seen on some older platforms (such as the "dot" command stacker) have been replaced or augmented with easier to use and more functional equivalents.
 
-The most noticeable difference between jshell and other command line shells, such as the Unix Korn shell (ksh), is that command line arguments such as "\*" and "?" are not expanded by the shell but passed directly to the command that has been invoked. In same manner, quoted strings (such as "quoted string") are passed directly to the command with quotes intact. This enables query language statements such as:
+The most noticeable difference between jshell and other command line shells, such as the UNIX Korn shell (ksh), is that command line arguments such as "\*" and "?" are not expanded by the shell but passed directly to the command that has been invoked. In same manner, quoted strings (such as "quoted string") are passed directly to the command with quotes intact. This enables query language statements such as:
 
 ```
 SSELECT file = "[SPROUT]" BY *A1
@@ -44,8 +44,8 @@ where option may be:
 
 | Option | Description  |
 | ------ | ------------ |
-| -           | Execute proc from MD/VOC file with same name as user login. (on Unix the .profile and .jshrc files are processed)  |
-| -a account  | Log in to the specified account. Usually used in conjunction with the -c option to run a command in the context of a particular account. If the account requires a password, append it to the account with a comma separator.<br> _The -a option may only be used when jsh is invoked from an external process such as bash or cron, not from within jBASE._ <badge text='version-5.8+' vertical='middle' /> |
+| -           | Execute proc from MD/VOC file with same name as user login. (on UNIX the .profile and .jshrc files are processed)  |
+| -a account  | Log in to the specified account. Usually used in conjunction with the -c option to run a command in the context of a particular account. If the account requires a password, append it to the account with a comma separator.<br> _The -a option may only be used when jsh is invoked from an external process such as bash or cron, not from within jBASE._ <badge text='Version-5.8+' vertical='middle' /> |
 | -c command  | Specifies that a jsh process should be spawned to execute command. When the command terminates, the jsh process will also terminate. If the command to be executed requires arguments, enclose the command and it's arguments in double-quotes. If any arguments require double-quotes, use a backslash (\\) to escape the argument quotes.  |
 | -s shell    | Specifies which shell emulation to use when executing jsh. The jsh will default to the previous emulation used by the current port.  |
 | -p prompt   | Specifies the prompt to be used while executing jsh. This option can take up to 3 fields in the same format as the [JSH_PROMPT](#jsh_prompt) environment variable described below.  |
@@ -108,9 +108,9 @@ JSH_COMMAND_STACK=USERNAME,1000
 >
 >If the environment variable is unassigned, or any part of the value is invalid such as a non-numeric *stack size*:
 >
->* the stack will be port number based
->* the maximum stack size will be 50
->* the cursor will be placed at the beginning of recalled stack entries
+> - the stack will be port number based
+> - the maximum stack size will be 50
+> - the cursor will be placed at the beginning of recalled stack entries
 >
 >If stack size is less than 50 then the default stack size will be set to 50 entries.
 >
@@ -124,19 +124,18 @@ JSH_COMMAND_STACK=USERNAME,1000
 >JSH_COMMAND_STACK=UserName
 >```
 
-
 ### JSH_PROMPT
 
 The **JSH_PROMPT** environment variable can be used to customize the jshell prompt characters. It can contain up to 3 comma-delimited fields as in:
 
 ```
-export JSH_PROMPT="$%s $%a $%c -->","$%>>>",msh        [Unix/Linux]
+export JSH_PROMPT="$%s $%a $%c -->","$%>>>",msh        [UNIX/Linux]
 set JSH_PROMPT="$%%s $%%a $%%c -->","$%%>>>",msh       [Windows]
 ```
 
-* The first field in the example is the primary prompt (jsh, msh or sh).
-* The second field is the secondary prompt when a select list is present.
-* The third field is the mode of operation: **jsh**, **msh** or **sh**
+- The first field in the example is the primary prompt (jsh, msh or sh).
+- The second field is the secondary prompt when a select list is present.
+- The third field is the mode of operation: **jsh**, **msh** or **sh**
 
 > On Windows, because **%** is a meta-character, it must be *escaped* as shown in the example.
 
@@ -318,7 +317,7 @@ jshelltype shell
 > Where shell can be :
 >
 > - **jsh** pre-processes meta characters like the asterisk (\*), as expected by legacy multi-value systems. Note that only in jsh mode is **JEDIFILENAME\_MD** examined for Q-pointers, Procs and Paragraphs.
-> - **sh** native system shell. On Unix depends of SHELL, on Windows CMD.exe.
+> - **sh** native system shell. On UNIX depends of SHELL, on Windows CMD.exe.
 > - **msh** mixed shell. pre-processes meta characters as a combination of jsh and sh.
 
 ## msh Mapped Sequences

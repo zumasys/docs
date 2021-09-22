@@ -16,6 +16,6 @@ As per the D3 documentation, SYSTEM(0) returns the last error number usually. Th
 
 However,  if the last error was caused by a LOCKED clause being taken on a READU,  then SYSTEM(0), under D3 emulation, returns the port number of the process holding the lock.
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

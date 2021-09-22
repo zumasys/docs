@@ -33,7 +33,7 @@ Space the;final;frontier
 
 Note that the current 2-parameter version of FOLD() has some ideosyncracies, including allowing a field to be generated the wrong width. This new 3-parameter version of FOLD() fixes these problems, however the old 2-parameter version will continue to work as before for backward compatibility.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />

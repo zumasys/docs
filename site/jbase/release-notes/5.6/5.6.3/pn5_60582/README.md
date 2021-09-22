@@ -58,6 +58,6 @@ If the stack is username based and the user is logged in to more than one port t
 
 This environment variable must be set prior to entering the jShell.
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

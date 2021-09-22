@@ -30,7 +30,7 @@ Record '1' written to file 'encfile'
 
 Doesn't abort when writing a null record to an encrypted file.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />

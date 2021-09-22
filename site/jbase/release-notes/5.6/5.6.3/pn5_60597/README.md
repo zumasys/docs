@@ -25,6 +25,6 @@ export JBC_SPOOLER_PORT_BASE=6000  [Linux/AIX]
 
 is the equivalent to setting the port number range 6000-7000 when launching a print job.
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

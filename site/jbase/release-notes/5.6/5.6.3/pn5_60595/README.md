@@ -14,6 +14,6 @@ The jShell dot-stacker commands would override user commands. For example, if a 
 
 The jShell no longer overrides user commands, however if a user command  matches a pattern recognized by the dot-stacker then the user's command  will still be overridden.
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

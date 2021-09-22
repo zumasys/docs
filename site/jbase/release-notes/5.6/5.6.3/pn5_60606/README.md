@@ -22,6 +22,6 @@ Those commands now only require 1 list:
 OR-LISTS list1
 ```
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

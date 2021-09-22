@@ -59,6 +59,6 @@ Fields 1 and 2 can accept values from the following table:
 
 The  **-pPROMPT** option to jsh has also been enhanced so that it can take up to 3 fields in the same format as the **JSH\_PROMPT** environment variable.
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

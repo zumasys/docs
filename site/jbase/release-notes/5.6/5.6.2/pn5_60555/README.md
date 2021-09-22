@@ -19,7 +19,7 @@ Running this program in Viewpoint emulation, pressing the TAB key would display 
 
 The TAB character is interpreted correctly in Viewpoint emulation on Windows.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />

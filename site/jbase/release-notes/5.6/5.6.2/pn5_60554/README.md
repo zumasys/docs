@@ -26,7 +26,7 @@ All sorts where alpha numeric, e.g. McMURPHY would sort after MURPHY.
 
 When sorting, all attribute data is sorted caseless, e.g. McMURPHY = MCMURPHY = mcmurphy
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />

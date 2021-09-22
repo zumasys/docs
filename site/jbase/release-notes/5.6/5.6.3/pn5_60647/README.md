@@ -31,6 +31,6 @@ READNEXT would always return only the first item in the select list, looping for
 
 READNEXT does not reset the list pointer when SP-ASSIGN is EXECUTE'd.
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

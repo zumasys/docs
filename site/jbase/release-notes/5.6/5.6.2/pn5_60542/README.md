@@ -30,7 +30,7 @@ In D3 emulation, or with **case\_insensitive\_runtime\_strings** set in Config\_
 consid = 123
 ```
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />

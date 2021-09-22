@@ -28,7 +28,7 @@ should now be able to resolve the path to myfile.
 
 Note that this patch is only for Q-pointers that do not populate attribute 2, i.e. HOME directory Q-pointers.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />

@@ -14,6 +14,6 @@ Variables named **MM** and **ME** were treated as reserved words, subsequently c
 
 **MM** and **ME** are not treated as reserved words and can be used as normal variables.
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

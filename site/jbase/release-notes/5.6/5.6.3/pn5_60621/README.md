@@ -28,6 +28,6 @@ INCLUDE file-inc BILL.CHGS
 INCLUDE file-inc BILL.CHGS.PARENT
 ```
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

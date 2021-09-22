@@ -25,7 +25,7 @@ However, the string constant 'x' retains the case insensitive version 'X'. And w
 
 In the above example, the first line displays 'xx' and the second line displays 'x'.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />

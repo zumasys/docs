@@ -20,6 +20,6 @@ We always store an upper case version of the ID.
 
 Note: This case insensitivity matches D3 which means it is ALWAYS case insensitive regardless of CASING ON/OFF or CASE ON/OFF.
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

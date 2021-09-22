@@ -14,7 +14,7 @@ jlogdup and jlogstatus were consuming a license.
 
 jlogdup and jlogstatus no longer consume a license.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />
