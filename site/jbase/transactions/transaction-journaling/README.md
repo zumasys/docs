@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-## jBASE resiliance features
+## jBASE resilience features
 
 This document is intended as a guide for system/database administrators in their configuration and maintenance of resilient systems utilising the jBASE database. Knowledge of the administration of and the maintenance of standard systems based on jBASE is assumed.
 

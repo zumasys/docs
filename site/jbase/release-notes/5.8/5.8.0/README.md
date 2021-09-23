@@ -18,9 +18,9 @@ MongoDB is the most popular NoSQL database and voted most wanted database among 
 ### Docker Containers
 
 Docker Certification  
-jBASE is officially Docker certified. With a single command, you can pull down a working jBASE image from the Docker Hub and have your jBASE application up and running in a container. What used to take days can now be accomplished in seconds—it really is that easy.  
+jBASE is officially Docker certified. With a single command, you can pull down a working jBASE image from the Docker Hub and have your jBASE application up and running in a container. What used to take days can now be accomplished in seconds — it really is that easy.  
 
-With Docker, you can package every piece of your application and database into lightweight, portable containers that build themselves. If you have ever built a MultiValue environment from the ground up, you know it is a long process. Our Docker images bundle everything you need—from Linux to jBASE—to get your application working with the click of a button.  
+With Docker, you can package every piece of your application and database into lightweight, portable containers that build themselves. If you have ever built a MultiValue environment from the ground up, you know it is a long process. Our Docker images bundle everything you need — from Linux to jBASE — to get your application working with the click of a button.  
 
 Can you containerize a MultiValue database from one of our competitors? Probably. But chances are good it will still look and act like a monolithic virtual machine. jBASE is the only MultiValue database that can be broken down in the true spirit of containers with your database and application running in separate Docker containers.  
 
@@ -64,7 +64,7 @@ Maintenance tools — when you CATALOG, we warn if any important options have ch
 [PN5_60898](./pn5_60898/README.md)  - Correct the (M) option on the BASIC compiler in order to use multi-tasking for compilations  
 [PN5_60928](./pn5_60928/README.md)  - Simplify the restore options for use with jrestore  
 [PN5_60935](./pn5_60935/README.md)  - Add the ability in jED to format embedded C code  
-[PN5_60960](./pn5_60960/README.md)  - DB-PAUSE and other utilties no longer have a defined database  
+[PN5_60960](./pn5_60960/README.md)  - DB-PAUSE and other utilities no longer have a defined database  
 
 Back to [5.8.x Release Notes](./../README.md)
 

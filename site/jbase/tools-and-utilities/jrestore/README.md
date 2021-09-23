@@ -46,7 +46,7 @@ Where **options** may be:
 | -V | verbose dot mode, displays a "." for each file |
 | -W | Roll forware TJ logfiles after database restore |
 | -X | Clear existing hashed files b efore population |
-| -Z"RegExp"(jBASE 5.8) | All-encompassing option that allows anything to be restored.<br>It is similar to: -u"regexp" -h"regexp" -d"regexp" -o"regexp" -l"regexp".<br>This option can be specified more than once on the command line. |
+| -Z"RegExp" (**jBASE 5.8**) | All-encompassing option that allows anything to be restored.<br>It is similar to: -u"regexp" -h"regexp" -d"regexp" -o"regexp" -l"regexp".<br>This option can be specified more than once on the command line. |
 
 When using jrestore, ensure that the command is executed at the standard shell not in jsh otherwise the double quotes and other meta characters will lose their meaning.
 
