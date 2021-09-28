@@ -13,14 +13,12 @@ At the present time there is no option within the jBASE installer to perform a s
 
 https://visualstudio.microsoft.com/thank-you-downloading-visual-studio/?sku=BuildTools&rel=16
 
+# Install Build Tools, excluding workloads and com, after having renamed the installer
 
-# Install Build Tools excluding workloads and com
-
-
-C:\Temp>vs_buildtools__2b4062ad.93cf.4f3b.a595.bb9c9fb9622f.exe --quiet --wait --nocache --norestart --includeRecommended --add Microsoft.VisualStudio.Workload.MSBuildTools --add Microsoft.VisualStudio.Workload.VCTools --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64
+C:\Temp>vs_buildtools.exe --quiet --wait --nocache --norestart --includeRecommended --add Microsoft.VisualStudio.Workload.MSBuildTools --add Microsoft.VisualStudio.Workload.VCTools --add Microsoft.VisualStudio.Component.VC.Tools.x86.x64
 ```
 
-On Windows, with a jBASE installer and a jbase_config.json file containing our proposed jBASE configuration, we can start an unattended install:
+On Windows, with a jBASE installer and a jbase_config.json file containing our proposed jBASE configuration, we can now start an unattended install:
 
 ```bash
 C:\Temp>dir
@@ -44,8 +42,14 @@ C:\Temp>jbase_5.8.3_948d8070_64bit.exe /SILENT /CONFIG=jbase_config.json /LOG=in
 As the unattended jBASE install does not perform any compiler steps, we then need to use the installer again to update the jBASE system.properties file with the correct PATH, INCLUDE and LIB variables for the BASIC compiler to use:
 
 ```bash
+set JBCRELEASEDIR=C:\jBASE5\CurrentVersion
+
 jbase_5.8.3_948d8070_64bit.exe /Compiler
 ```
+
+## Note
+
+>With this option, the installer needs to know where jBASE is currrently installed , so JBCRELEASEDIR needs to be set first.  
 
 ## Appendix
 
