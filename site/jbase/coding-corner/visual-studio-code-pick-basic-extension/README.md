@@ -66,7 +66,7 @@ From a jBASE point-of-view, as of "mvbasic-2.0.2" the syntax and "Intellisense" 
 
 ## Notes
 
->AccuTerm 8 now has a VSCODE option in addition to WED.  
+>AccuTerm 8 now has a VSCODE connector in addition to WED.  
 >If you prefer a browser interface, there is now also a [VSCode server which offers a browser interface to your code](https://github.com/gitpod-io/openvscode-server/) 
 
 Back to [Coding Corner](./../coding-corner)
