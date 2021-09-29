@@ -29,7 +29,7 @@
     "@vssue/vuepress-plugin-vssue": "^1.4.6",
     "@vuepress/plugin-google-analytics": "^1.5.4",
     "dotenv": "^8.2.0",
-    "i": "^0.3.6",
+    "i": "^0.3.7",
     "vuepress": "^1.5.4",
     "vuepress-bar": "^0.2.7",
     "vuepress-plugin-code-copy": "^1.0.6",
