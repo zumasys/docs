@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-This release includes internal bug fixes and the following enhancements and patches:
+This release includes internal bug fixes and the following patches:
 
 ## Patches
 
