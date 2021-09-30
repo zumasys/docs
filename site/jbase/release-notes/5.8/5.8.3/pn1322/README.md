@@ -23,4 +23,3 @@ $ export JBC_LOG_SIZE=100{M|G|K}
 Back to [5.8.3 Release Notes](./../README.md)
 
 <PageFooter />
-

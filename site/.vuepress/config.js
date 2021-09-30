@@ -564,6 +564,12 @@ module.exports = {
         children: [["/pos-connect/installation-guide/", "Installation Guide"]]
       },
       {
+        title: "Rover",
+        path: "/rover/",
+        collapsable: true,
+        children: [["/rover/client-setup/", "Client Setup"]]
+      },
+      {
         title: "Smart Suite",
         path: "/smartsuite/",
         collapsable: true,

@@ -6,10 +6,10 @@ Beginning with jBASE 5.8, the following information applies to the jBC [ENCRYPT(
 
 In addition to the symmetric ciphers supported in previous jBASE releases, support has been added for:
 
-* hashing (MD5, SHA1, SHA256, SHA384, SHA512)
-* digital signature (RSA, HMAC)
-* signature verification (RSA, HMAC)
-* optional IV for symmetric ciphers
+* Hashing (MD5, SHA1, SHA256, SHA384, SHA512)
+* Digital signature (RSA, HMAC)
+* Signature verification (RSA, HMAC)
+* Optional IV for symmetric ciphers
 
 ```
 ENCRYPT(string, key, method, {extra, {password}})
@@ -50,7 +50,7 @@ For HMAC signatures, the key is a string of random bytes. For RSA signature gene
 
 The following symmetric ciphers are supported:
 
-* JBASE\_CRYPT\_GENERAL General*purpose encryption scheme  
+* JBASE\_CRYPT\_GENERAL General purpose encryption scheme  
 * JBASE\_CRYPT\_AES128 AES 128 bit algorithm in CBC mode  
 * JBASE\_CRYPT\_AES128\_CTR AES 128 bit algorithm in CTR mode  
 * JBASE\_CRYPT\_AES256 AES 256 bit algorithm in CBC mode  

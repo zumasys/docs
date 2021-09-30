@@ -14,7 +14,7 @@ When selectively restoring a file from a backup created with jbackup, the option
 
 The -Z "FileExpression" option simplifies the selective restore of file name.
 
-The -Z option is followed by a regular expression which defines the file to be restored. This option replaces the -u , -h , -d , -o and -l option all into a single option, and removes some of the anomalies. You cannot use these options in conjunction with -Z.
+The -Z option is followed by a regular expression which defines the file to be restored. This option replaces the -u , -h , -d , -o and -l options into one single option and removes some of the anomalies. You cannot use these options in conjunction with -Z.
 
 Below is an example of restoring a single file called BP from account OWL. It doesn't matter if BP is a hashed file, a directory/folder, a linked file, whatever -- it gets restored!
 

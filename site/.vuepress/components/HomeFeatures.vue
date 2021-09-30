@@ -116,14 +116,16 @@
       </p>
     </div>
     <div class="feature">
-      <h2>Proman</h2>
-      <p>Main (Coming Soon!)<br /></p>
+      <h2>Rover</h2>
+      <p><a href="/rover/client-setup">Client Setup</a><br /></p>
     </div>
     <div class="feature">
       <h2>TotaLink</h2>
-      <p>
-        <a href="/totalink/">API</a>
-      </p>
+      <p><a href="/totalink/">API</a><br /></p>
+    </div>
+    <div class="feature">
+      <h2>Proman</h2>
+      <p>Main (Coming Soon!)<br /></p>
     </div>
   </div>
 </template>

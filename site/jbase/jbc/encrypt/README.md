@@ -12,6 +12,7 @@ This function encrypts, hashes or signs a string. It takes the general form:
 ```
 ENCRYPT(string, key, method, {extra, {password}}))
 ```
+
 Where:
 
 - **string** specifies the string to be encrypted, hashed or signed.
@@ -33,6 +34,7 @@ In the case of status code 2, **SYSTEM(0)** will return the last error code from
 Please refer to [this page](../../../jbase/encryption/jbc-encrypt-decrypt-functions/README.md) for a complete description of Initialization Vectors, hashing, Digital Signatures and a list of supported Algorithms (ciphers).
 
 An example of use may be as follows:
+
 ```
 INCLUDE JBC.h
 cipher = JBASE_CRYPT_AES256
