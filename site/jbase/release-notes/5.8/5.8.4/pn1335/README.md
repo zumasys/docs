@@ -6,7 +6,7 @@
 
 BASIC FMT returns CHAR(251) and space padding when wrapping is implied.
 
-With 'wrap_r_just=true' set in config_EMULATE, the right justified columns in jQL wrap.  
+With 'wrap_r_just=true' set in Config_EMULATE, the right justified columns in jQL wrap.  
 
 For example, 12345 right justified in a field of 3 will wrap as:
 
