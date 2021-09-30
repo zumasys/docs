@@ -20,17 +20,18 @@ For detailed information about each update including training materials [click h
 * Added a new Rental Report to list outstanding rentals by customer name [click here for instructions and menu path updates](https://training.total-computing.com/dwkb/)
 
 ## Webstore
-* Tagging items has entered into beta testing 
+* Tagging items has entered into beta testing
 
 ## Things to Remember
-* Returns to Publishers is coming up soon
-* Make sure that you prepare your system setup for Spring Adoptions.
+* Returns to Publishers are coming up soon
+* Make sure that you prepare your system and setup for Spring Adoptions
 
 ## Coming soon...
 *  (Update in finial stages of development) New ShipEngine interface for online orders.
-*  (Update in Beta Testing) Redesigned inventory ecommerce tags to help your business expose your online products expected release October 2021
+*  (Update in Beta Testing) Redesigned inventory ecommerce tags to help your business expose your online products, expected release October 2021
 *  Advanced checkout
 *  (Completed and Released, September 2021) Enhanced and redesigned Redshelf interface to coordinate with  recent modification made by Redshelf
+*  VPAT Compliance is in the final testing phase, expected release October 2021
 
 ## TotaLink (Credit-Cards)
 * Added transaction Integrity checking
@@ -43,8 +44,9 @@ For detailed information about each update including training materials [click h
 
 ## Important Resolved Issues
 
-* Resolved reporting issues related partial tax on certain transaction tax modifiers for the Daily Summary Report.
-* Addressed the issue where some customer experienced combinations of tenders that didn't allow for the "Aborting" "Exiting" of transactions cleanly after partial payments.
+* Resolved reporting issues related partial tax on certain transaction tax modifiers for the Daily Summary Report
+* Addressed the issue where some customer experienced combinations of tenders that didn't allow for the "Aborting" "Exiting" of transactions cleanly after partial payments
 * Updated rental customer flag maintenance to honor customer status flag of "I"
+* Resolved transaction exits and aborts when using some forms of split tenders
 
 <PageFooter />
