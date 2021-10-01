@@ -8,7 +8,7 @@ For detailed information about each update including training materials [click h
   
 ## Textbooks
 ### Redshelf Import 
-
+For detailed information about each update including training materials [click here for training information](https://training.total-computing.com/dwkb/tech-update/)
 * We have added new features to the RedShelf import processes that allows you to easily import your book-list:
   * Copy and Paste your download link
   * Auto import new titles
