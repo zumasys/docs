@@ -7,9 +7,13 @@ This release includes internal bug fixes and the following patches:
 ## Patches
 
 - [PN931](./pn931/README.md)    - Add SYSTEM(9010) Function  
+- [PN1250](./pn1250/README.md)  - ON GOTO needs to no-op if zero parameter  
 - [PN1305](./pn1305/README.md)  - Debugger Stack issue  
+- [PN1314](./pn1314/README.md)  - jQL IF inside two parentheses causes Parse Error  
 - [PN1323](./pn1323/README.md)  - Segv when testing WITHIN keyword in 'd3' emulation  
-- [PN1335](./pn1335/README.md)  - BASIC FMT inserts CHAR(251) and space on fold/wrap
+- [PN1331](./pn1331/README.md)  - A correlative named attribute with extraneous spaces fails  
+- [PN1335](./pn1335/README.md)  - BASIC FMT inserts CHAR(251) and space on fold/wrap  
+- [PN1336](./pn1336/README.md)  - TRANS interprets D-type dict in the attr parameter to act as a synonym to the attr of the dict  
 - [PN1338](./pn1338/README.md)  - jQL query involving BY and WITH attr_0_dict = 'item list' causes segv
 - [PN1341](./pn1341/README.md)  - Alternative behaviour of the DELETE command  
 - [PN1344](./pn1344/README.md)  - F-Correlatives in 'universe' emulation need integer calculation  
