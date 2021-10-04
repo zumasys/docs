@@ -27,6 +27,7 @@ This release includes internal bug fixes and the following patches:
 - [PN1352](./pn1352/README.md)  - jQL: MR or MD conversion in F-correlative causing missing closed parenthesis  
 - [PN1353](./pn1353/README.md)  - jQL: Multiple conversions in an F-correlative involving multivalues are not operating on all values.
 - [PN1421](./pn1421/README.md)  - jBC: CHANGE causes a SEGV  
+- [PN1425](./pn1425/README.md)  - jQ: AND # dict causes segv when index present  
 
 [Back to 5.8.x Release Notes](./../README.md)
   
