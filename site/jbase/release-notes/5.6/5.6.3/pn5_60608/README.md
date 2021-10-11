@@ -36,6 +36,6 @@ Now, instead of a 50 ms sleep we do a 5 ms sleep, and only do this one LOCKED i
 
 Note that on Windows systems this behavior only shows itself when jDLS is active
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

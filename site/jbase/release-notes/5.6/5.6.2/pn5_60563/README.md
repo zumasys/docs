@@ -20,7 +20,7 @@ jsh home ~ -->MSG !1 Time is nature's way of keeping everything from happening a
 jsh home ~ -->From Einstein / Port 1: Time is nature's way of keeping everything from happening all at once.
 ```
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />

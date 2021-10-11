@@ -26,6 +26,6 @@ PortBas would not recognize **CRT**, **VAR** or **SORT** as a reserved words.
 
 PortBas now converts the reserved words in the above examples to **Crt**, **Var**, **Sort**.
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

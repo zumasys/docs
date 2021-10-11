@@ -42,10 +42,11 @@
 | [JIMI](./jimi/README.md) | jBASE Independent Metrics Integration. |
 | [JKEYAUTO](./jkeyauto/jkeyauto/README.md) | Program control language. |
 | [JMSGBOX](./jmsgbox/README.md) | Message box display utility for Windows. |
+| [JPROF](./jprof/README.md) | Enables developers to analyze applications to determine potential bottlenecks or trouble spots within the application code. |
 | [JRESTORE](./jrestore/README.md) | Provides fast on-line restores from the saves produced by the jbackup utility. |
 | [JRM JMV JDIR](./jrm-jmv-jdir/README.md) | Remove, move, dir executables. |
 | [JSETKEY](./jsetkey-for-jbase-3-only/README.md) | jBASE environment settings (**jBASE 3 only**). |
-| [JSHOW](./../jshow) | Displays locations of files, programs and subroutines. |
+| [JSHOW](./jshow/README.md) | Displays locations of files, programs and subroutines. |
 | [JSTART](./../../background--processing/jstart) | Start processes. |
 | [JSONLINT](./jsonlint/README.md) | Validates a JSON file. |
 | [JTIC](./jtic/README.md) | jBASE terminfo compiler. |
@@ -79,7 +80,7 @@
 | [ASCII CODE CHART](./ascii-code-chart/README.md) | ASCII Code Chart. |
 | [CUSTOMIZING COMMANDS](././customizing-the-output-of-commands/README.md) | Customizing the Output of Commands. |
 | [ENCRYPTION](./../encryption/jbase-encryption-database-security/README.md) | File encryption and decryption. |
-| [JCOVER OUTPUT FILE](./layout-of-the-jcover-output-file/README.md) | Layour of the JCOVER output file |  
+| [JCOVER OUTPUT FILE](./layout-of-the-jcover-output-file/README.md) | Layout of the JCOVER output file |  
 
 [Back to Reference Guides](../README.md)
 

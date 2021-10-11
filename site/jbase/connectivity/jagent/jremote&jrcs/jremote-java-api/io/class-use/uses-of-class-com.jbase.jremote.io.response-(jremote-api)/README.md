@@ -2,83 +2,60 @@
 
 <PageHeader />
 
-Uses of Class
+## Uses of Class
+
 com.jbase.jremote.io.Response
 
-
-
-| Package<br> | Description<br> |
+| Package | Description |
 | --- | --- |
- Packages that use [Response](./../../response-(jremote-api) "class in com.jbase.jremote.io")  | com.jbase.jremote<br> |  <br> |
-| com.jbase.jremote.io<br> |  <br> |
-| com.jbase.jremote.protocol<br> |  <br> |
-
-
-
-
-
-
-
+ Packages that use [Response](./../../response-(jremote-api) "class in com.jbase.jremote.io")  | com.jbase.jremote |   |
+| com.jbase.jremote.io |   |
+| com.jbase.jremote.protocol |   |
 
 ### Uses of [Response](./../../response-(jremote-api) "class in com.jbase.jremote.io") in [com.jbase.jremote](./../../../../../jremote-api)
 
-
-| Modifier and Type<br> | Class and Description<br> |
+| Modifier and Type | Class and Description |
 | --- | --- |
- Subclasses of [Response](./../../response-(jremote-api) "class in com.jbase.jremote.io") in [com.jbase.jremote](./../../../../../jremote-api)  | `class `<br> | `JExecuteResults`<br>The results from an executed command.<br> |
-
-
-
-
-
+ Subclasses of [Response](./../../response-(jremote-api) "class in com.jbase.jremote.io") in [com.jbase.jremote](./../../../../../jremote-api)  |
+|`class` | `JExecuteResults`<br>The results from an executed command. |
 
 ### Uses of [Response](./../../response-(jremote-api) "class in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api))
 
-
-| Modifier and Type<br> | Class and Description<br> |
+| Modifier and Type| Class and Description |
 | --- | --- |
- Subclasses of [Response](./../../response-(jremote-api) "class in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api))  | `class `<br> | `ErrorResponse` <br> |
-| `class `<br> | `OKResponse` <br> |
+ Subclasses of [Response](./../../response-(jremote-api) "class in com.jbase.jremote.io") in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api))  |
+| `class`| `ErrorResponse` |
+| `class`| `OKResponse`  |
 
-
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description|
 | --- | --- |
- Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api)) that return [Response](./../../response-(jremote-api) "class in com.jbase.jremote.io")  | `Response`<br> | JRemoteSocketConnection.`receive()` <br> |
-| `Response`<br> | InterceptorConnection.`receive()`<br>Intercept any IO messages and handle required input or output on in / out streams.<br> |
-| `abstract Response`<br> | AbstractJRemoteConnection.`receive()` <br> |
-| `Response`<br> | JConnectionImpl.`sendWaitForResponse(JRemoteRequest req)`<br>Uses underlying connection to send a request and wait for the response.<br> |
-| `Response`<br> | AbstractJRemoteConnection.`sendWaitForResponse(JRemoteRequest request)`<br>Convenient method which simply calls #send followed by #receive.<br> |
-
-
-
-
-
+ Methods in [com.jbase.jremote.io](./../../com.jbase.jremote.io-(jremote---api)) that return [Response](./../../response-(jremote-api) "class in com.jbase.jremote.io")  | `Response`<br> | JRemoteSocketConnection.`receive()` |
+| `Response`| InterceptorConnection.`receive()`<br>Intercept any IO messages and handle required input or output on in / out streams. |
+| `abstract Response`| AbstractJRemoteConnection.`receive()` |
+| `Response` | JConnectionImpl.`sendWaitForResponse(JRemoteRequest req)`<br>Uses underlying connection to send a request and wait for the response.|
+| `Response`| AbstractJRemoteConnection.`sendWaitForResponse(JRemoteRequest request)`<br>Convenient method which simply calls #send followed by #receive.|
 
 ### Uses of [Response](./../../response-(jremote-api) "class in com.jbase.jremote.io") in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-(jremote-api))
 
-
-| Modifier and Type<br> | Class and Description<br> |
+| Modifier and Type| Class and Description |
 | --- | --- |
- Subclasses of [Response](./../../response-(jremote-api) "class in com.jbase.jremote.io") in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-(jremote-api))  | `class `<br> | `ConvResponse` <br> |
-| `class `<br> | `DateTimeResponse` <br> |
-| `class `<br> | `EchoResponse` <br> |
-| `class `<br> | `EISMetaDataResponse`<br>Response object which reads general meta data of the underlying EIS instance.<br> |
-| `class `<br> | `InputOutputResponse` <br> |
-| `class `<br> | `JediResponse` <br> |
-| `class `<br> | `JRemoteResponse` <br> |
-| `class `<br> | `MonitoringResponse` <br> |
-| `class `<br> | `ReadCommonResponse` <br> |
-| `class `<br> | `SelectListFetchResponse` <br> |
-| `class `<br> | `SetPropertiesResponse` <br> |
-| `class `<br> | `StatementFetchResponse` <br> |
-| `class `<br> | `SubroutineResponse` <br> |
-| `class `<br> | `SwitchAccountResponse` <br> |
-| `class `<br> | `TransactionResponse`<br>Response to transactions related requests.<br> |
+ Subclasses of [Response](./../../response-(jremote-api) "class in com.jbase.jremote.io") in [com.jbase.jremote.protocol](./../../../protocol/com.jbase.jremote.protocol-(jremote-api))  |
+| `class` | `ConvResponse`  |
+| `class` | `DateTimeResponse`  |
+| `class` | `EchoResponse`  |
+| `class` | `EISMetaDataResponse`<br> Response object which reads general meta data of the underlying EIS instance. |
+| `class` | `InputOutputResponse`  |
+| `class` | `JediResponse`  |
+| `class` | `JRemoteResponse`  |
+| `class` | `MonitoringResponse`  |
+| `class` | `ReadCommonResponse`  |
+| `class` | `SelectListFetchResponse`  |
+| `class` | `SetPropertiesResponse`  |
+| `class` | `StatementFetchResponse`  |
+| `class` | `SubroutineResponse`  |
+| `class` | `SwitchAccountResponse`  |
+| `class` | `TransactionResponse`<br>Response to transactions related requests. |
 
-Back to [jRemote API](../../../../jremote-api/README.md)
+Back to [jRemote API](./../../README.md)
 
-
-
-  
 <PageFooter />

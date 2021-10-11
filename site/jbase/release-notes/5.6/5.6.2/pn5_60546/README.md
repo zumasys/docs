@@ -14,7 +14,7 @@ KEY-SELECT/QUERY-INDEX using EQ or NE would work but LT, GT, LE, GE did not work
 
 Index queries now work using any comparative operator.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />

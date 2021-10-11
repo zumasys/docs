@@ -16,13 +16,13 @@ DELETESEQ Expression {SETTING setvar} {ON ERROR statements} {LOCKED Statements} 
 or
 
 ```
-DELETESEQ Expression, FileVar{SETTING setvar} {ON ERROR Statements} {LOCKED Statements} THEN | ELSE Statements
+DELETESEQ Expression, FileVar {SETTING setvar} {ON ERROR Statements} {LOCKED Statements} THEN | ELSE Statements
 ```
 
 Where:
 
-- **Expression** specifies the variable to contain next record from sequential file.
-- **FileVar** specifies the file descriptor of the file opened for sequential access.
+- **Expression** specifies the explicit path of an operating system file to delete.
+- **Expression,FileVar** **FileVar** is a file that resides in the directory path specified by **Expression**
 - **Statements** are conditional jBASE BASIC statements.
 
 Go back to [jBASE BASIC](./../README.md)

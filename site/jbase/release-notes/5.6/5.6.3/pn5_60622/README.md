@@ -18,6 +18,6 @@ would fail to compile.
 
 jFormatCode now handles the LOCATE statement and LOCATE function correctly.
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

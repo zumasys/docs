@@ -42,6 +42,6 @@ jsh home ~ -->SELECT MD SAMPLE 42
 jsh home ~ -->
 ```
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

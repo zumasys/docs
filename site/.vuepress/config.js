@@ -40,7 +40,8 @@ module.exports = {
         "customer-portal",
         "jbase",
         "mv-connect",
-        "mv-dashboard"
+        "mv-dashboard",
+        "totalink"
       ]
     },
     // Add article reading time estimate
@@ -83,7 +84,8 @@ module.exports = {
           { text: "jBASE", link: "/jbase/" },
           { text: "MV Connect", link: "/mv-connect/" },
           { text: "MV Dashboard", link: "/mv-dashboard/" },
-          { text: "POS Connect", link: "/pos-connect/" }
+          { text: "POS Connect", link: "/pos-connect/" },
+          { text: "TotaLink", link: "/totalink/" }
 
         ]
       }
@@ -120,7 +122,8 @@ module.exports = {
             collapsable: true,
             children: [
               ["/accuterm/desktop/gui/", "GUI"],
-              ["/accuterm/desktop/rezume-session-resilience/", "ReZume Session Resilience"]
+              ["/accuterm/desktop/rezume-session-resilience/", "ReZume Session Resilience"],
+              ["/accuterm/desktop/installation/", "Installation"]
             ]
           },
           {
@@ -193,7 +196,8 @@ module.exports = {
             collapsable: true,
             children: [
               ["/jbase/overview/", "Overview"],
-              ["/jbase/fundamentals/", "jBASE Fundamentals"]
+              ["/jbase/fundamentals/", "jBASE Fundamentals"],
+              ["/jbase/cheat-sheets/", "jBASE Cheat Sheets"]
             ]
           },
           {
@@ -307,7 +311,7 @@ module.exports = {
             path: "/jbase/spooler",
             collapsable: true,
             children: [
-              ["/jbase/spooler/spooler/", "jBASE Spooler"]
+              ["/jbase/spooler/", "jBASE Spooler"]
             ]
           },
           {
@@ -324,7 +328,7 @@ module.exports = {
               ["/jbase/faq/multitenancy/", "Multi-Tenancy"],
               ["/jbase/faq/profiles/jbase-profiles/", "Profiles"],
               ["/jbase/porting/migration-station/data-conversion/generic-data-conversion/", "Porting"],
-              ["/jbase/administration/printers/","Printers"],
+              ["/jbase/administration/printers/", "Printers"],
               ["/jbase/terminal/terminal-support/", "Terminals"],
               ["/jbase/tape/tape-commands/", "Tape"],
               ["/jbase/tools-and-utilities/", "Tools and Utilities"]
@@ -560,6 +564,12 @@ module.exports = {
         children: [["/pos-connect/installation-guide/", "Installation Guide"]]
       },
       {
+        title: "Rover",
+        path: "/rover/",
+        collapsable: true,
+        children: [["/rover/client-setup/", "Client Setup"]]
+      },
+      {
         title: "Smart Suite",
         path: "/smartsuite/",
         collapsable: true,
@@ -710,6 +720,14 @@ module.exports = {
             ]
           },
           ["/smartsuite/release-notes/", "Release Notes"]
+        ]
+      },
+      {
+        title: "TotaLink",
+        path: "/totalink/",
+        collapsable: true,
+        children: [
+          ["/totalink/", "API"],
         ]
       },
     ],

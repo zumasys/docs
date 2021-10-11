@@ -7,8 +7,7 @@
 All Implemented Interfaces:javax.resource.spi.ConnectionRequestInfo
 * * *
 
-
-```
+```java
 public class JRemoteConnectionRequestInfo
 extends Object
 implements javax.resource.spi.ConnectionRequestInfo
@@ -20,57 +19,37 @@ A ConnectionRequestInfo object is used by the resource adapter to pass connectio
 
 ### Constructor Summary
 
-
-| Constructor and Description<br> |
+| Constructor and Description |
 | --- |
-| `JRemoteConnectionRequestInfo(JConnectionCallbackHandler handler)` <br> |
-
-
-
-
-
+| `JRemoteConnectionRequestInfo(JConnectionCallbackHandler handler)`  |
 
 ### Method Summary
 
-
-| Modifier and Type<br> | Method and Description<br> |
+| Modifier and Type | Method and Description |
 | --- | --- |
-| `JConnectionCallbackHandler`<br> | `getCallbackHandler()` <br> |
-
+| `JConnectionCallbackHandler` | `getCallbackHandler()`  |
 
 - Methods inherited from class java.lang.Object
-    - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
+  - `clone, equals, finalize, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait`
 - Methods inherited from interface javax.resource.spi.ConnectionRequestInfo
-    - `equals, hashCode`
+  - `equals, hashCode`
 
 ### Constructor Detail
 
-
-
 #### JRemoteConnectionRequestInfo
 
-```
+```java
 public JRemoteConnectionRequestInfo(JConnectionCallbackHandler handler)
 ```
 
-
-
-
-
-### 
-
-
 ### Method Detail
-
-
 
 #### getCallbackHandler
 
-```
+```java
 public JConnectionCallbackHandler getCallbackHandler()
 ```
 
-Back to [jRemote API](../../../../jremote-api/README.md)
+Back to [jRemote API](./../../README.md)
 
-  
 <PageFooter />

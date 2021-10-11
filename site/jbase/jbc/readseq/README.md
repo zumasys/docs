@@ -33,6 +33,8 @@ READSEQ VAR_LINE FROM FILE_VAR THEN CRT VAR_LINE
 
 to open a "report file" and read the first line from it.
 
+See also [PN1073](./../../release-notes/5.8/5.8.2/pn1073/README.md/#new-file-seq-delimiter-method) for changes to delimiter functionality as of jBASE 5.8.2.
+
 Go back to [jBASE BASIC](./../README.md)
 
 Go back to [Programmers' Reference Guide](./../../reference-guides/jbc/README.md)

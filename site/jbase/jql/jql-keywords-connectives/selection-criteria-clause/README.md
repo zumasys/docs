@@ -9,7 +9,7 @@ Each selection criterion specifies a field (data or key) for testing to determin
 The selection criterion begins with the connective (WITH (or IF) and must also include a field name.  
 The field name can be followed by a value selection clause otherwise it defaults to NE ““ (not equal NULL)
 
-## Syntx  
+## Syntax  
 
 ```
 WITH | IF { NOT } { EACH } field {value-selection clause} {{AND | OR}

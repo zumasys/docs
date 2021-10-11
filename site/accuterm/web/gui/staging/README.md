@@ -2,6 +2,86 @@
 
 <PageHeader />
 
+## Release Notes - September 21st, 2021
+
+- Controls
+  - Grid properties updated
+  - Toolbar buttons fixed
+- Service
+  - GUI & Terminal navigation added  
+
+## Release Notes - August 31th, 2021
+
+- Controls
+  - Command button updated
+  - Dropdown selection updated
+  - GUI and Terminal navigation added
+- Styles
+  - Word wrapping updated
+  - Menu wrapping updated
+- Service
+  - Sort service implemented
+
+## Release Notes - August 12th, 2021
+
+- Controls
+  - Tab navigation updated
+  - Close command updated
+- Styles
+  - Grid styles updated
+- Service
+  - White Labeling support for Enterprise
+
+## Release Notes - August 4th, 2021
+
+- Controls
+  - Browser events and controls completed
+  - Timer properties completed
+  - Menu properties completed
+  - Tree menu highlighting updated
+  - Menu tabs updated
+- Styles
+  - Button and input box improvements
+  - Icons added to header
+
+
+## Release Notes - July 20th, 2021  
+- Controls
+   - Form resize, minimized, maximize completed
+   - Drop Down Combo properties completed
+   - List Control properties completed
+   - Tree keyboard navigation completed
+   - Grid keyboard navigation completed
+   - Grid column sync fixed
+- Architecture
+   - Added temporary state change
+   - Integrated visible/enabled properties into objects 
+- Service
+   - Control service completed
+   - Added page to assist self-signed certificates
+
+## Release Notes - July 8th, 2021  
+- Controls
+   - Edit properties completed
+   - Form properties completed
+   - Command properties completed
+   - Menu properties completed
+   - Default icons added
+   - Client application grid cleanup
+   - Default images icons completed
+   - Menu toolbar properties completed
+   - Grid events completed
+   - Icon support added for grid, tree, list, edit, buttons
+   - Grid dropdown support added
+- Architecture  
+   - Activate, focus, and zIndex complete
+   - Hotkeys funtional in apps as well as forms
+   - Initial implementation of MDI
+- Service
+   - Continued work on SetProp and GetProp service
+   - Delete service completed
+   - Added ability to host custom images
+
 ## Release Notes - April 23rd, 2021  
 - Controls
    - Continued form and gui work: gui (sdi and mdi) and forms (dialog and others)

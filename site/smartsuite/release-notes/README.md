@@ -6,6 +6,9 @@
 * [2021 February](./2021-february/README.md)
 * [2021 March](./2021-march/README.md)
 * [2021 April](./2021-april/README.md)
-* [2021 May](./2021-may/README.md)  
+* [2021 May](./2021-may/README.md)
+* [2021 July](./2021-july/README.md)
+* [2021 August](./2021-august/README.md)
+* [2021 September](./2021-september/README.md)  
 
 <PageFooter />

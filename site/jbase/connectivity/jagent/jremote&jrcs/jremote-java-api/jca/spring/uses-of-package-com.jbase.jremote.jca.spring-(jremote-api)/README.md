@@ -2,12 +2,12 @@
 
 <PageHeader />
 
-# Uses of Package
+## Uses of Package
+
 com.jbase.jremote.jca.spring
 
 No usage of com.jbase.jremote.jca.spring
 
-Back to [jRemote API](../../../../jremote-api/README.md)
-
+Back to [jRemote API](./../../README.md)
   
 <PageFooter />

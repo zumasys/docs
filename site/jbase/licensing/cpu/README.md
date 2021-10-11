@@ -5,8 +5,6 @@
 **Tags:**
 <badge text='5.8+' vertical='middle' />
 
-## Preliminary  
-
 A new licensing model has been introduced with release 5.8 of jBASE and this document serves to describe it. The old model will be retained for the forseeable future, though a timeline for deprecation will be set.
 
 The following licensing subscriptions are supported in jBASE from release 5.8 and beyond:
@@ -15,14 +13,15 @@ The following licensing subscriptions are supported in jBASE from release 5.8 an
 | ------------- | --------- | --------- | --------------------------------------------------------------------------------------------------- |
 | User          | Yes       | Yes       | Restrict usage to a specified number of logged in and connected users.*                             |
 | CPU           | No        | Yes       | Restrict jBASE programs to a specified number of CPUs. All running jBASE programs will be included. |
-| Multi-session | Yes       | No        | Not relevant with the use of CPU licensing.                                                         |
+| Multi-session | Yes       | Yes       | **Effective from jBASE 5.8.3 onwards**                                                                  |
 | Web session   | Yes       | No        | Not relevant with the use of CPU licensing.                                                         |
 
 > * = Background jobs do not take a license, nor do a small number of jBASE administration utilities.
 
 ## The No-License Installation
 
-jBASE may be run without any license subject to hard-coded restrictions. Without any defined license, jBASE will default to a 2-user development license and a self-explanatory message appears like this:
+jBASE may be run without a license subject to hard-coded restrictions.   
+Without any defined license, jBASE will default to a 2-user development license and a self-explanatory message appears like this:
 
 ```
 $ jsh
@@ -36,7 +35,9 @@ Set environment variable JBASE_DISABLE_DEVELOPER_LICENSE_WARNING to remove this 
 
 ## The New jlicense Command
 
-In the old model there were a number of licensing programs, but for the new license there is a single licensing program that covers everything. Run `jlicense --help` to see what is available.
+In the old model there were a number of licensing programs, but for the new license there is a single licensing program that covers everything.  
+
+Run `jlicense --help` to see what is available.
 
 > [The jlicense command](./../jlicense/README.md)
 
@@ -88,8 +89,7 @@ Products                        Runtime
 Current license usage
     Actual free standard        0
     Actual used standard        0
-    multisession                0
-    websession                  0
+    Multisession not found      --
     Uname                       deepthought
 
 Total of 1 found distributed as follows: 
@@ -214,5 +214,9 @@ JLibLicenseConsume(dp);             // Start consuming a jBASE license
 ```
 
 If you have any concerns about this, or need help with the interfaces, please contact jBASE/Zumasys support.
+
+Back to [Installation Guides: Licensing](./../../administration/installation-guides/licensing/README.md)
+
+Back to [jBASE Licensing Overview](./../README.md)
 
 <PageFooter />

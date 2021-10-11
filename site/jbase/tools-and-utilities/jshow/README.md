@@ -32,7 +32,7 @@ Where:
 
 When performing a jshow -c on a program/subroutine you may see (DUP) as the display shows multiple occurrences. This is normal for non-subroutines (program) in that programs - when cataloged - produce a binary executable and a shared library (the latter is for efficiency when executing or running a the jshell).
 
-However, you can also see (DUP) if the program/subroutine has been cataloged into multiple bin/lib directories. (See [CATALOG](./../../../jbase-basic-(jbc)/catalog))
+However, you can also see (DUP) if the program/subroutine has been cataloged into multiple bin/lib directories. (See [CATALOG](./../../jbc/catalog/README.md))
 
 ### Note  
 

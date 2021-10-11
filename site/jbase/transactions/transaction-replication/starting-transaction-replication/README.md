@@ -49,7 +49,7 @@ The receiving system must have a licensed copy of jBASE with transaction journal
 
 ### Cloning
 
-1. With this option you use tools you have to make a clone/duplicate of your production box.  Cloning is a advanced feature and it is expected that you have knowledge on how to do this correctly.  This process you should be doing with the sender box shut down.  You cannot clone a active box because the actual jBASE files may be corrupted due to them being in use.
+1. With this option you use tools you have to make a clone/duplicate of your production box.  Cloning is an advanced feature and it is expected that you have knowledge on how to do this correctly.  This process should be done with the sender box shut down.  You cannot clone a active box because the jBASE files may become corrupted due to them being in use.
 2. Update the cloned box to be a new box.  
     - New IP
     - Change host name
@@ -176,7 +176,7 @@ You can at any time redo the above process to re-sync your secondary system.  T
 
 ### Service Configuration
 
-Add service to automatically start and run in the background.  This is specific to each environment. You must setup the background process to the exact same permissions your test above had.
+Add service to automatically start and run in the background. This is specific to each environment. You must setup the background process to the exact same permissions your test above had.
 
 ### Log Rotation
 
@@ -194,7 +194,7 @@ When restarting transaction replication after a failure, you can use the milesto
 
 ### Stopping logging
 
-jlogadmin with the -k command will stop transaction journaling.  You must stop this on both systems.  The receiving system even if requested to stop will continue to run until the sending system is also stopped.
+jlogadmin with the -k command will stop transaction journaling. You must stop this on both systems. The receiving system even if requested to stop will continue to run until the sending system is also stopped.
 
 ```
 #jlogadmin -R -k*

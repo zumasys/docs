@@ -1,5 +1,7 @@
 # General
 
+<PageHeader />
+
 ## What are the supported platforms for MultiValue Dashboard
 
 [Requirements Page](../../installation-guide/requirements/README.md)
@@ -15,3 +17,7 @@ Yes.  Please contact 866-ZUMASYS for a quote.
 ## I am having problems with the source code editor
 
 There is a reported bug in the dashboard source code editor. We are working to duplicate and resolve the reported issue. Until resolved, it is recommended that the dashboard source code editor ONLY be used for viewing source code. If intending to create, or modify, source code use ED, WED, or your normal source code editor.
+
+Back to [MVDashboard FAQ](./../README.md)
+
+<PageFooter />

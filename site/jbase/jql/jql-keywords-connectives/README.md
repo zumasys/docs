@@ -13,6 +13,7 @@
 [Using Clause](./using-clause/README.md)  
 [Command Options](./command-options/README.md)  
 [Macros](./macros/README.md)  
+[Verb Synonyms](./verb-synonyms/README.md)  
 
 Back to [jQL](./../README.md)
 

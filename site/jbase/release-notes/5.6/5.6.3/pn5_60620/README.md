@@ -20,6 +20,6 @@ This behavior is triggered by using the -m option, e.g.
 jFormatCode -m -p -r mycode.b
 ```
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

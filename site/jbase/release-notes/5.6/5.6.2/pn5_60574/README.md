@@ -29,7 +29,7 @@ LIST ALBUMS ARTIST TITLE YEAR
 
 The whole record is accessible except for the attribute that contains the CHAR(0), which is truncated at the CHAR(0) position. IOW, this patch does not fix the issue of displaying \*A1 in the above example but will allow the rest of the record to be accessed.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />

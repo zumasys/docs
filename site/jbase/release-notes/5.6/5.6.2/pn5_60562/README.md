@@ -19,7 +19,7 @@ The problem was found that
 
 There is now a cache of the 10 most recently files OPEN'd, which can give up to a 24x performance improvement.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />

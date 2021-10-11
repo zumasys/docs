@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-## jBASE resiliance features
+## jBASE resilience features
 
 This document is intended as a guide for system/database administrators in their configuration and maintenance of resilient systems utilising the jBASE database. Knowledge of the administration of and the maintenance of standard systems based on jBASE is assumed.
 
@@ -39,15 +39,15 @@ These are the main transaction journaling administration utilities provided with
 [Selective Journaling](./selective-journaling/README.md)  
 [Selective Restores](./selective-restores/README.md)  
 
-[Online Backup and Restore](./online-backup-restore/README.md)
-[Warmstart](./warmstart/README.md)
-[Transactions](./transactions/README.md)
-[Databases](./databases/README.md)
-[DB-START](./db-start/README.md)
-[DB-PAUSE](./db-pause/README.md)
-[DB-RESUME](./db-resume/README.md)
-[DB-STATUS](./db-status/REAME.md)
-[DB-SHUTDOWN](./db-shutdown/README.md)
+[Online Backup and Restore](./online-backup-restore/README.md)  
+[Warmstart](./warmstart/README.md)  
+[Transactions](./transactions/README.md)  
+[Databases](./databases/README.md)  
+[DB-START](./db-start/README.md)  
+[DB-PAUSE](./db-pause/README.md)  
+[DB-RESUME](./db-resume/README.md)  
+[DB-STATUS](./db-status/REAME.md)  
+[DB-SHUTDOWN](./db-shutdown/README.md)  
 
 [Failure Conditions and Recovery Remedies](./failure-recovery/README.md)  
 [Transaction Journaling on a single system](./journaling-single-system/README.md)  

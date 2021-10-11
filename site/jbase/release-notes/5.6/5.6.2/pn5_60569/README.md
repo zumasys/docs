@@ -51,7 +51,7 @@ Should now output
 42
 ```
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />

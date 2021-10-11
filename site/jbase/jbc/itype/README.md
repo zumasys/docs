@@ -27,7 +27,8 @@ If **i.type** evaluates to null, the **ITYPE** function fails and the program te
 
 ## Note
 
-> Set **@FILENAME** to the name of the file before **ITYPE** execution.
+> Set **@FILENAME** to the name of the file before **ITYPE** execution.  
+> Note also that this function should be able to evaluate regular "A/S" and "D" type dictionary items.
 
 ## Example
 

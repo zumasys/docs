@@ -25,7 +25,7 @@ Where:
 
 > If the method is static,  a ‘$' must appended before the name.  This ‘$’ will be removed from the method name before calling it.
 >
-> In order to use **CALLJ**, a Java virtual machine must be present, a CLASSPATH environment variable must be set to point to the class to be invoked.
+> In order to use **CALLJ**, a Java virtual machine must be present and a CLASSPATH environment variable must be set to point to the class to be invoked.
 
 The Java virtual machine is loaded dynamically at run-time, so a compiled basic application has no dependencies on any Java virtual machine. By default, the program will search for:
 

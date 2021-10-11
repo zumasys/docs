@@ -13,9 +13,9 @@ BITAND(expression1, expression2)
 The bitwise AND operation compares two integers bit by bit. It returns a bit of 1 if both bits are 1; else, it returns a bit of 0.
 If either **expression1** or **expression2** evaluates to the null value, null is returned.
 
-Non integer values are truncated before the operation is performed.
-The BITAND operation is performed on a 32-bit twos-complement word.
-It should however be noted that differences in hardware architecture can make the use of the high-order bit non portable.
+Non-integer values are truncated before the operation is performed.
+The **BITAND** operation is performed on a 32-bit twos-complement word.
+It should however be noted that differences in hardware architecture can make the use of the high-order bit non-portable.
 
 An example of use would be as:
 

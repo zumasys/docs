@@ -21,7 +21,7 @@ END
 
 ## Note  
 
-> It is also possible to start a program in DEBUG mode using the "-Jd" runtime option, see [here](./../../debugger/invoking-the-jbc-debugger/README.md) for more details of debugging options.
+> It is also possible to start a program in **DEBUG** mode using the "-Jd" runtime option, see [here](./../../debugger/invoking-the-jbc-debugger/README.md) for more details of debugging options.
 
 Go back to [jBASE BASIC](./../README.md)
 

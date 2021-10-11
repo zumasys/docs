@@ -17,9 +17,9 @@ Where:
 
 ## Note
 
-> Each character in an element is matched to substring only once. Therefore, when substring is longer than one character and a match is found, the search continues with the character following the matched substring.
+> Each character in an element is matched to **substring** only once. Therefore, when **substring** is longer than one character and a match is found, the search continues with the character following the matched **substring**.
 
-No part of the matched element is recounted toward another match. If substring does not appear in an element, a 0 value is returned. If substring is an empty string, the number of characters in the element is returned. If substring is null, the **COUNTS** function fails and the program terminates with a run-time error message. If any element in dynamic.array is null, null is returned.
+No part of the matched element is recounted toward another match. If **substring** does not appear in an element, a 0 value is returned. If **substring** is an empty string, the number of characters in the element is returned. If **substring** is null, the **COUNTS** function fails and the program terminates with a run-time error message. If any element in dynamic.array is null, null is returned.
 
 An example of use is as:
 

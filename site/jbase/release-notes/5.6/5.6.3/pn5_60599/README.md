@@ -10,7 +10,7 @@ Add support for large records when using ACCOUNT-SAVE and ACCOUNT-RESTORE comman
 
 ### Previous Release Behavior
 
-Records greater than 32k where always truncated even with the (G option.
+Records greater than 32k were always truncated even with the (G option.
 
 ### Current Release Behavior
 
@@ -26,6 +26,6 @@ This new behavior will be limited to jBASE saves only.
 
 Records of any size will be okay as long as the (G option is used when running ACCOUNT-SAVE.
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

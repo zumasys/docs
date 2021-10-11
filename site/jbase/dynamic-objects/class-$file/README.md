@@ -9,5 +9,6 @@ The following methods can be utilized from the **\$file** class:
 - $file::getgrouplocks()
 - $file::takegrouplocks()
 - $file::cleargrouplocks()
+- [\$file::seq_delimiter()](./../class-method-$fileseq_delimiter()/README.md)
 
 <PageFooter />

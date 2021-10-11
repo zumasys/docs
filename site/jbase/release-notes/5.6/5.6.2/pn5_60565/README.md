@@ -61,7 +61,7 @@ capture : <1>Program start<2>SYSTEM(10) [0]<3>SYSTEM(40) [test_prog]<4>Setting D
         : SYSTEM(10) [0]
 ```
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />

@@ -17,7 +17,7 @@ Enhancements to the SEARCH command for compatibility with D3 functionality
 - Add D option to display line(s) containing the string(s) (implies I option to also display IDs)
 - Options are case insensitive
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />

@@ -11,7 +11,7 @@
 
 ## Description
 
-It is possible for a user to modify the output characteristics of the **WHERE** and **LISTU** (which are utility programs). This is achieved by creating a subroutine that is called by these programs. The subroutine must be accessible to all users who will call the programs.
+It is possible for a user to modify the output characteristics of the [WHERE](./../where/README.md) and [LISTU](./../listu/README.md) (which are utility programs). This is achieved by creating a subroutine that is called by these programs. The subroutine must be accessible to all users who will call the programs.
 
 This subroutine has the fixed name **JBCUserCustomiseDisplay**. It is passed a single parameter that is both the input and the output parameters. This subroutine is called as a common subroutine for **WHERE** and **LISTU** and is called once at the start of each program to present the heading information, and once again for each line of data that will be output to the screen (or printer). The subroutine can choose to modify the headers and output data as required, and can do so differently for each command, or add it's own options. For example, a new command line option such as **(U)**could be added on the command line to specify that user location details should be displayed.
 
@@ -115,7 +115,7 @@ In this example we:
 
 - Remove the device name column as we did in the first example.
 - Insert a new column of our own which we will call 'Location'. This column will be filled in by data we create ourselves. In this example it is simply a cross reference between the port number and a record keyed on the port number.
-- The account name field will be changed to have a width of 16. This will allow us extra room to add a (S) to the account name if we find the user is in sales.
+- The account name field will be changed to have a width of 16. This will allow us extra room to add an (S) to the account name if we find the user is in sales.
 
 So the output of WHERE will change from:
 

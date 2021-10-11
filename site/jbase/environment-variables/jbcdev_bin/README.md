@@ -26,7 +26,7 @@ The value of JBCDEV\_BIN can be overridden with the CATALOG -o option.
 
 ## Setting
 
-As per normal environment variable, must be set prior to envoking a jBASE process.
+As per normal environment variable, must be set prior to invoking a jBASE process.
 
 ## UNIX
 

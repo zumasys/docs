@@ -30,7 +30,7 @@ This is because, in the SPOOLER() function, we saved and restored the default sa
 
 The above code now works as expected and the SPOOLER() call has no adverse effect on the LOOP/READNEXT construct.
 
-Back to [5.6.2 release Notes](./../README.md)
+Back to [5.6.2 Release Notes](./../README.md)
 
   
 <PageFooter />

@@ -12,7 +12,7 @@ jBASE includes support for a subset of the ANSI standard for SQL (Structured Que
 In this document the term *tables* is synonymous with *files*.
 
 > ***Note***: all commands that incur database updates will impact the jBASE database
-in the same way as other I/O operations (i.e. [transaction journalling](../../transactions/transaction-journaling/#transaction-journaling-the-manual), [auditing](../../faq/introduction-to-audit-logging/#document-scope)).
+in the same way as other I/O operations (i.e. [Transaction Journalling](../../transactions/transaction-journaling/#transaction-journaling-the-manual), [Auditing](../../faq/introduction-to-audit-logging/#document-scope)).
 
 See also [Introduction to ODBC](../../connectivity/ODBC/README.md)
 
@@ -142,8 +142,7 @@ Selected 2 rows.
 ```
 
 ***CAUTION:***  
-> Take care when using **SQLUPDATE** that your *WHERE* clause does not inadvertently
-match more records than you intended.
+> Take care when using **SQLUPDATE** that your *WHERE* clause does not inadvertently match more records than you intended.
 
 ### SQLSELECTL
 
@@ -154,8 +153,7 @@ jsh -->SQLSELECTL RECID FROM JSQLDEMO WHERE FIRSTNAME = 'PICK'
 1 Items selected
 ```
 
-Now with an active select list you can save it or use any other applicable
-[jQL](../../jql/README.md) command.
+Now with an active select list you can save it or use any other applicable [jQL](../../jql/README.md) command.
 
 ``` shell
 >SAVE-LIST PICK

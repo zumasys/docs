@@ -13,9 +13,8 @@
 - [PN5\_60658](./pn5_60658/README.md) - jQL: I-type dictionaries do not recognize **@TM**
 - [PN5\_60661](./pn5_60661/README.md) - jQL: Unable to get Value Number from exploded sort using a dictionary subroutine
 - [PN5\_60662](./pn5_60662/README.md) - jQL: Unable to get Value Number from exploded sort using an A-type (10-line) dictionary
-- [PN5\_60663](./pn5_60663/README.md) - jQL: Unable to get Value Number from exploded sort using an I-type; **@NV** not recognized
-- [PN5\_60664](./pn5_60664/README.md) - Add persistent locks as an option to jBASE
-- [PN5\_60666](./pn5_60666/README.md)- jQL: The use of **LIST** would cause a memory leak
+- [PN5\_60663](./pn5_60663/README.md) - jQL: Unable to get Value Number from exploded sort using an I-type; **@NV** not recognized  
+- [PN5\_60666](./pn5_60666/README.md)- jQL: The use of **LIST** would cause a memory leak  
 - [PN5\_60668](./pn5_60668/README.md) - New commands to list or regenerate all indexes and triggers from all files in an account
 - [PN5\_60672](./pn5_60672/README.md) - Spooler: New command to create a script for regenerating spooler form queue definitions
 - [PN5\_60673](./pn5_60673/README.md) - Spooler: Create new **FILE** device type to send output to an Operating System file

@@ -41,7 +41,11 @@ jbased3:
 
 [New Locking Models](../../../../jbase/record-locking/locking-models/README.md)
 
-[Debugger enhancement](../../../../jbase/debugger/jbc-debugger-commands/README.md) - The `q` command: Quiting out of jBC programs
+[Debugger enhancement](../../../../jbase/debugger/jbc-debugger-commands/README.md) - The `q` command: Quitting out of jBC programs
+
+## Deprecated features
+
+The $persistent class, introduced in jBASE 5.7.0 has been deprecated. [See $lock](./../../../dynamic-objects/class-$lock/README.md).
 
 [Back to 5.7.x Release Notes](./../README.md)
   

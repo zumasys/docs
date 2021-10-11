@@ -48,8 +48,8 @@ You can now prepend a "!" to the command:
 003 !ps > ps.out
 ```
 
-This functionality is dependent on **execute\_exclamation = true** configuration setting in Config\_EMULATE. This setting is in the D3 emulation by default.
+The new functionality is dependent on the **execute\_exclamation = true** configuration setting in Config\_EMULATE. This setting is present in the D3 emulation by default.
 
-Back to [5.6.3 release Notes](./../README.md)
+Back to [5.6.3 Release Notes](./../README.md)
 
 <PageFooter />

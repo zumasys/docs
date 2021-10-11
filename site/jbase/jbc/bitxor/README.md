@@ -14,7 +14,7 @@ BITXOR(expression1, expression2)
 
 If either **expression1** or **expression2** evaluates to the null value, null is returned.
 Non integer values are truncated before the operation is performed.
-The **BITXOR** operation is performed on a 32-bit twos-complement word. It should be noted that differences in hardware architecture can make the use of the high-order bit nonportable.
+The **BITXOR** operation is performed on a 32-bit twos-complement word. It should be noted that differences in hardware architecture can make the use of the high-order bit non-portable.
 
 An example of use is as:
 

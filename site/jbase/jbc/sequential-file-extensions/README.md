@@ -97,7 +97,7 @@ CLOSESEQ outstream
 
 ```
 
-See also [Serial I/O Extensions](./../serial-i&o-extensions)
+See also [Serial I/O Extensions](./../serial-io-extensions)
 
 Go back to [jBASE BASIC](./../README.md)
 

@@ -1,5 +1,7 @@
 # Licensing/Upgrades
 
+<PageHeader />
+
 ## How is MultiValue Dashboard licensed?  Are DashBoard users tied to the MV user count?
 
 MultiValue Dashboard is licensed per user for each MV database instance.
@@ -11,3 +13,7 @@ The single user license is free and a multi-user license is paid. The single use
 ## What happens when I want to upgrade from the single user license to the multi-user license?
 
 Contact Zumasys and a new System ID will be provided.
+
+Back to [MVDashboard FAQ](./../README.md)
+
+<PageFooter />
