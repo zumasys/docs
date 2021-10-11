@@ -9,15 +9,65 @@
 
 ## Description
 
-File records which contain sublists can be accessed with the COUNT and LIST commands and the WITHIN modifier. For the commands and the modifier to function properly, the V processing code must be included in field 8 of the file definition record. See the File Specifiers topic in the jQL Command Sentence Construction topic for more details.
+File records which contain sublists can be accessed with the COUNT and LIST commands and the WITHIN modifier. For the commands and the modifier to function properly there are two methods both of which can be utilized in the file definition or the dictionary definition keyed by the filename.
 
-This can be done as:
+1. The V processing code in attribute <8>.
+2. Place the field-no in attribute <6>
+
+See the File Specifiers topic in the jQL Command Sentence Construction topic for more details.
+
+**MD/VOC STOCK**
+```
+001 F
+002 STOCK
+003 STOCK]D
+004
+005
+006
+007
+008 V;;2
+```
+
+where **2** is the number of the field which contains the sublist.
+
+Alternative method:
+```
+001 F
+002 STOCK
+003 STOCK]D
+004
+005
+006 2
+```
+
+The same methodology applies to Q pointers.
+
+Alternatively you can use the dictionary (e.g. if you don't rely on MD/VOC for file access):
+
+**DICT STOCK STOCK**
+```
+001 D
+002 0
+003 
+004 Stock
+005 6R
+006 S
+007
+008 V;;2
+```
 
 ```
-V;;field-no
+001 A
+002 0
+003 Stock
+004
+005
+006 2
+007
+008
+009 R
+010
 ```
-
-where **field-no** is the number of the field which contains the sublist.
 
 ### Example
 
