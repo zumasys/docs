@@ -32,6 +32,7 @@ See the File Specifiers topic in the jQL Command Sentence Construction topic for
 where **2** is the number of the field which contains the sublist.
 
 Alternative method:
+
 ```
 001 F
 002 STOCK
