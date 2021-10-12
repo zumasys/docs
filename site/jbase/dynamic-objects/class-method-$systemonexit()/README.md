@@ -81,6 +81,8 @@ jsh ~ 2 -->
 
 Note that, in both examples, the program returned to the jShell as that was the parent process.
 
-See also [\$system::ontermintate()](../class-$systemonterminate()/README.md)
+See also [\$system::ontermintate()](../class-$systemonterminate()/README.md)  
+
+[Back to $system class](./../class-$system/README.md)  
 
 <PageFooter />

@@ -10,6 +10,9 @@ The methods in the **\$vararg** class are used with other methods that are requi
 
 - [\$vararg::next()](./../class-method-$varargnext())
 - [\$vararg::size()](./../class-method-$varargsize())
-- [\$vararg::reset()](./../class-method-$varargreset())
+- [\$vararg::reset()](./../class-method-$varargreset())  
+
+
+[Back to Dynamic Objects](./../README.md)
 
 <PageFooter />

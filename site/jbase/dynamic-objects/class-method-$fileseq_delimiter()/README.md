@@ -1,4 +1,4 @@
-# Class Method: \$file::seq_delimiter()
+# Class Method: $file::seq_delimiter()
 
 <PageHeader />
 
@@ -115,6 +115,6 @@ Line = 'Line'
 Line = 'Time is 16:31:16  22 MAY 2021^M^JAnother^M^JLine^M^J'
 ```
 
-Back to [\$file Class](./../README.md)
+Back to [$file Class](./../class-$file/README.md)
 
 <PageFooter />

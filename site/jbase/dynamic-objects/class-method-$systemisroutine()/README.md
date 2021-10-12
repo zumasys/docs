@@ -77,6 +77,8 @@ This example uses the **JBASEIsRoutine()** function call to determine the routin
 
 **DEFC JBASEIsRoutine(STRING)** can be used instead of using **JBC.h**.
 
-See also [\$system::ontermintate()](../class-$systemonterminate()/README.md)
+See also [\$system::onterminate()](../class-$systemonterminate()/README.md)  
+
+[Back to $system class](./../class-$system/README.md)  
 
 <PageFooter />

@@ -9,14 +9,15 @@
 
 ## Description
 
-File records which contain sublists can be accessed with the COUNT and LIST commands and the WITHIN modifier. For the commands and the modifier to function properly there are two methods both of which can be utilized in the file definition or the dictionary definition keyed by the filename.
+File records which contain sublists can be accessed with the [COUNT](./../count/README.md) and [LIST](./../list/README.md) commands and the [WITHIN](./../jql-keyword-cross-reference/within/README.md) modifier. For the commands and the modifier to function properly there are two methods both of which can be utilized in the file definition or the dictionary definition keyed by the filename.
 
 1. The V processing code in attribute <8>.
 2. Place the field-no in attribute <6>
 
 See the File Specifiers topic in the jQL Command Sentence Construction topic for more details.
 
-**MD/VOC STOCK**
+### MD/VOC STOCK
+
 ```
 001 F
 002 STOCK
@@ -44,7 +45,8 @@ The same methodology applies to Q pointers.
 
 Alternatively you can use the dictionary (e.g. if you don't rely on MD/VOC for file access):
 
-**DICT STOCK STOCK**
+## DICT STOCK STOCK
+
 ```
 001 D
 002 0
