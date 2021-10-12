@@ -30,4 +30,6 @@ Running this program displays:
 abcdefghijklmnopqrstuvwxyz!@#$%^&*()_-+=[]0123456789
 ```
   
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
+
 <PageFooter />

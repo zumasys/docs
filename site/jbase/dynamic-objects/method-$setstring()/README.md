@@ -48,5 +48,6 @@ crt arr->$tojson()   ;* Displays ["42",42]
 
 See also [$setnumber()](../method-$setnumber()/README.md)
 
-  
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
+
 <PageFooter />

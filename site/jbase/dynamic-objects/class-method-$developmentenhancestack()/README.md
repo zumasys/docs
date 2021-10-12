@@ -23,7 +23,7 @@ $development->enhancestack(stackname, {newdir})
 
 ## Return value
 
-Any array of surce file name and line numbers 
+Any array of source file names and line numbers 
 
 ## Example
 
@@ -73,7 +73,9 @@ Result:
 
 ## Notes
 
-In order to to illustrate the ability to obtain line numbers, this example was tested on a system where the jBASE release was built with debug information.
+**This method applies to Linux only.**
+
+In order to illustrate the ability to obtain line numbers, this example was tested on a system where the jBASE release was built to include debug information.
 
 Back to [$development Class](./../class-$development/README.md)
 

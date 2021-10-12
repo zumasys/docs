@@ -127,5 +127,6 @@ newmusic:
 
 The [$dump()](./../method-$dump()) method can be used to see the internal address of any object or array.
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
   
 <PageFooter />

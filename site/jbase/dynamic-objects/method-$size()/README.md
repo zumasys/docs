@@ -38,5 +38,6 @@ crt "The array, also called ":dquote(jarray->$classname()):", only increased in 
 
 ## Notes
 
-  
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
+
 <PageFooter />

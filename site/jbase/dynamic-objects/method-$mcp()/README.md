@@ -30,4 +30,6 @@ Running this program displays:
 1^2]3\4_5
 ```
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
+
 <PageFooter />
