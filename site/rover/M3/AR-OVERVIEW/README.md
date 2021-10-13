@@ -1,8 +1,8 @@
 ## Accounts Receivable Overview
 <PageHeader />
 
-[Data Entry Procedures](../assets/AR-ENTRY/README.md) | [Reports and Inquiries](../assets/AR-REPORT/README.md)
-| [Update Processes](../assets/AR-PROCESS/README.md)
+[Data Entry Procedures](./README.md) | [Reports and Inquiries](./README.md)
+| [Update Processes](./README.md)
 
 **Purpose**
 The Accounts Receivable module provides the ability to enter and maintain
@@ -25,9 +25,8 @@ maintain the data directly associated with the module.
 The Accounts Receivable file (AR) maintains one record for each receiv- ables
 item in the system. Records created by a shipment or return are keyed by
 either the shipment number, a manually assigned number or a system assigned
-sequential number, depending upon the settings in the [MRK.CONTROL](MRK-
-CONTROL/README.md) record requirements. Records entered directly through
-[AR.E](../assets/AR-E/README.md) are either assigned numbers automatically numbers by the
+sequential number, depending upon the settings in the [MRK.CONTROL](./README.md) record requirements. Records entered directly through
+[AR.E](./README.md) are either assigned numbers automatically numbers by the
 system or manually by the operator. Each record contains a header section
 which maintains information about the customer and terms of payment, and a
 line item section which includes part numbers, cost, quantities, and general
@@ -60,8 +59,8 @@ applied.
 The accounts receivable register (ARREG) file contains one record for each
 general ledger account number affected by any accounts receivable procedure.
 This is the interface file to the general ledger module. In the
-[AR.E](../assets/AR-E/README.md) procedure, the register date entered is assigned to these
-records. In the [CASH.E](../assets/CASH-E/README.md) procedure, the check date is assigned.
+[AR.E](./README.md) procedure, the register date entered is assigned to these
+records. In the [CASH.E](./README.md) procedure, the check date is assigned.
 This gives the user a level of control as to which fiscal period an item is to
 fall. For example, if an AR item is entered for an invoice of $100, two ARREG
 records will be created. One record for $100 will exist for the accounts
@@ -114,35 +113,35 @@ since these are usually run overnight.
 **Setup Procedures**
 There are three setup processes which must be performed prior to beginning the
 normal flow of activities. The first is the definition of the terms codes
-([TERMS.E](TERMS-E/README.md)). While additional codes may be added at any time, the
+([TERMS.E](./README.md)). While additional codes may be added at any time, the
 codes you intend to use immediately must be available. Customer records must
-also be entered ([CUST.E](CUST-E/README.md)) for at least the customers which you
+also be entered ([CUST.E](./README.md)) for at least the customers which you
 intend to use immediately, the rest may be added as required. The accounts
-receivable control record ([AR.CONTROL](AR-CONTROL/README.md)) must also be setup
+receivable control record ([AR.CONTROL](./README.md)) must also be setup
 before normal activities may begin.
 
 Optionally, you will need to set up the sales tax code file
-([STAX.E](STAX-E/README.md)) if you wish to track detail sales tax history by
+([STAX.E](./README.md)) if you wish to track detail sales tax history by
 district.
 
 **Flow of Activities**
 The flow of processing for the accounts receivable module can begin in any one
 of three places. First, items which are shipped through the Marketing module
 create AR records. Second, AR items may be entered directly through
-[AR.E](AR-E/README.md) for non-shipment items. Third, items may be created
-automatically by the [ARR.P1](ARR-P1/README.md) batch recurring entry procedure.
+[AR.E](./README.md) for non-shipment items. Third, items may be created
+automatically by the [ARR.P1](./README.md) batch recurring entry procedure.
 This will create AR items for all eligible recurring ARR item. Once the item
-is present in the AR file, it may be paid through the [CASH.E](CASH-E/README.md)
-procedure. The invoice printing process ([AR.F1](AR-F1/README.md) or
-[AR.F2](AR-F2/README.md)) may be used to print or re-print any invoices.
+is present in the AR file, it may be paid through the [CASH.E](./README.md)
+procedure. The invoice printing process ([AR.F1](./README.md) or
+[AR.F2](./README.md)) may be used to print or re-print any invoices.
 
 The maintenance of the Customer file ([CUST.E](CUST-E/README.md)) and the Terms file
-([TERMS.E](TERMS-E/README.md)) should be done as new items are required or changes
+([TERMS.E](./README.md)) should be done as new items are required or changes
 need to be made.
 
 At some point in time it may be appropriate purge some of the older accounts
 receivable and cash records from the system. This is done with the
-[AR.P3](AR-P3/README.md) and [CASH.P1](CASH-P1/README.md) procedures.
+[AR.P3](./README.md) and [CASH.P1](./README.md) procedures.
 
 While all of the cross-reference files in the accounts receivable module are
 maintained automatically, it may be necessary to rebuild these files with the
