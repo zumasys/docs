@@ -1,7 +1,6 @@
 ## Engineering Overview
 <PageHeader />
 
-[Data Entry Procedures](./README.md) | [Reports and Inquiries](./README.md) | [Update Processes](./README.md)
 
 **Purpose**
 The Engineering module provides for the entry and maintenance of the Parts
@@ -94,8 +93,8 @@ normal flow of activities is setting up the unit of measure table. This table
 defines all of the valid unit of measure codes which may be used within the
 system. Specifically, these codes must be present before items may be entered
 into the Parts Master. The procedure used to update this table is
-[UM.CONTROL](./README.md). If you want to use the ECN system you will need
-to setup the parameters defined in the [ECN.CONTROL](./README.md)
+UM.CONTROL. If you want to use the ECN system you will need
+to setup the parameters defined in the ECN.CONTROL
 procedure.
 
 Other modules in the system such as the Inventory and Purchasing modules may
@@ -111,46 +110,46 @@ then the definition of the configurations and the subsequent creation of
 configured parts is also performed. There is not necessarily a particular
 order in which the functions are performed.
 
-The Parts Master is updated by the [PARTS.E](./README.md) procedure. All part
+The Parts Master is updated by the PARTS.E procedure. All part
 numbers for component parts as well as assemblies should be entered in the
-Parts Master using [PARTS.E](./README.md). Records may not be deleted directly
+Parts Master using PARTS.E. Records may not be deleted directly
 by this procedure because the system must check to insure that there are no
 files in the data base which reference the part number. Since this is a time
 consuming process it is not done online. Instead a status field is provided
 which may be set to a delete code. The batch procedure
-[PARTS.P2](./README.md) may then be run to validate that the part number is
+PARTS.P2 may then be run to validate that the part number is
 not referenced and then delete it.
 
-Bills of Material are entered with the [BOM.E](./README.md) procedure. Before a
+Bills of Material are entered with the BOM.E procedure. Before a
 record can be added to the BOM file its part number must first be entered in
-the Parts Master file using [PARTS.E](./README.md). In addition, any part
+the Parts Master file using PARTS.E. In addition, any part
 number which will be called out on the bill of material must also have been
 entered on the Parts Master. Records may also be deleted with this procedure
 when required.
 
-Standard Costs are entered with the [COST.E](./README.md) procedure. If the
+Standard Costs are entered with the COST.E procedure. If the
 cost method being used to value inventory is standard then cost data should be
 entered for each part number identified in the parts master. Even if standard
 is not setup as the costing method for inventory valuation you may maintain
 standards for other purposes. Standard costs may be rolled up with the
-procedure [COST.P1](./README.md), and may be rolled over (book to previous,
-current to book) with the [COST.P2](./README.md) procedure. The cost rollover
+procedure COST.P1, and may be rolled over (book to previous,
+current to book) with the COST.P2 procedure. The cost rollover
 is usually performed only once or twice a year after a physical inventory.
 
-Engineering Change Notices (ECN) are entered with the [ECN.E](./README.md)
-procedure. The [ECN.F1](./README.md) procedure may be used to print an ECN form
+Engineering Change Notices (ECN) are entered with the ECN.E
+procedure. The ECN.F1 procedure may be used to print an ECN form
 if desired. When the ECN has been approved and is ready to be implemented, the
-[ECN.P1](./README.md) procedure can be run to post the changes for the parts
+ECN.P1 procedure can be run to post the changes for the parts
 referenced to the Parts Master file. Mass changes to the Bill of Materials
-file can be performed using the [BOM.P3](./README.md) procedure, which can
+file can be performed using the BOM.P3 procedure, which can
 optionally post the assembly numbers changed to a specified ECN record. If you
-were going to post the changes from [BOM.P3](./README.md) to the ECN, you would
-want to perform this step before running [ECN.P1](./README.md).
+were going to post the changes from BOM.P3 to the ECN, you would
+want to perform this step before running ECN.P1.
 
-Product Configurations are entered with the [PRODCON.E](./README.md)
+Product Configurations are entered with the PRODCON.E
 procedure. This defines the options available when configuring specific
-products with the [PRODCON.E2](./README.md) procedure. When items are
-configured using [PRODCON.E2](./README.md) the Parts Master and Bill of
+products with the PRODCON.E2 procedure. When items are
+configured using PRODCON.E2 the Parts Master and Bill of
 Material records are created automatically.
 
 The cross reference files PARTMODEL, PARTCATEGORY and PARTMFG are all updated
@@ -159,10 +158,10 @@ which will rebuild all of the files based on the information in the Parts
 Master.
 
 The Where Used file (WU) is automatically update when changes are mode to the
-bill of material with the [BOM.E](./README.md) procedure. The batch process
-[WU.P1](./README.md) may be used to regenerate the entire file if required.
+bill of material with the BOM.E procedure. The batch process
+WU.P1 may be used to regenerate the entire file if required.
 
-The batch procedure [PARTS.P2](./README.md) determines which parts that have
+The batch procedure PARTS.P2 determines which parts that have
 been setup for deletion are eligible and the deletes them. This procedure is
 also usually setup in a batch process to run on a regular basis.
 

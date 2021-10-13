@@ -1,8 +1,6 @@
 ## ACE Overview
 <PageHeader />
 
-[Data Entry Procedures](./README.md) | [Reports and Inquiries](./README.md) | [Update Processes](./README.md)
-
 **Purpose**
 The ACE module controls all data entry screens, menus and security. There are
 development tools available to create new or modify existing procedure and

@@ -1,9 +1,6 @@
 ## Accounts Receivable Overview
 <PageHeader />
 
-[Data Entry Procedures](./README.md) | [Reports and Inquiries](./README.md)
-| [Update Processes](./README.md)
-
 **Purpose**
 The Accounts Receivable module provides the ability to enter and maintain
 customer invoices and process payments against those invoices. The module
@@ -25,8 +22,8 @@ maintain the data directly associated with the module.
 The Accounts Receivable file (AR) maintains one record for each receiv- ables
 item in the system. Records created by a shipment or return are keyed by
 either the shipment number, a manually assigned number or a system assigned
-sequential number, depending upon the settings in the [MRK.CONTROL](./README.md) record requirements. Records entered directly through
-[AR.E](./README.md) are either assigned numbers automatically numbers by the
+sequential number, depending upon the settings in the MRK.CONTROL   record requirements. Records entered directly through
+AR.E   are either assigned numbers automatically numbers by the
 system or manually by the operator. Each record contains a header section
 which maintains information about the customer and terms of payment, and a
 line item section which includes part numbers, cost, quantities, and general
@@ -59,8 +56,8 @@ applied.
 The accounts receivable register (ARREG) file contains one record for each
 general ledger account number affected by any accounts receivable procedure.
 This is the interface file to the general ledger module. In the
-[AR.E](./README.md) procedure, the register date entered is assigned to these
-records. In the [CASH.E](./README.md) procedure, the check date is assigned.
+AR.E   procedure, the register date entered is assigned to these
+records. In the CASH.E   procedure, the check date is assigned.
 This gives the user a level of control as to which fiscal period an item is to
 fall. For example, if an AR item is entered for an invoice of $100, two ARREG
 records will be created. One record for $100 will exist for the accounts
@@ -88,60 +85,38 @@ items by customer number.
 The Customer Name cross-reference file (CUSTNAME) maintains an index to all
 customer records for each word of the customer name. Anywhere within the
 system where the customer number is prompted the user may elect to enter a
-word from the customer's name instead to obtain the customer number. Each word
-is processed by a soundex algorithm so that even misspelled words can be
-cross-referenced accurately.
+word from the customer's name instead to obtain the customer number. Each word is processed by a soundex algorithm so that even misspelled words can be cross-referenced accurately.
 
 **System Interface**
-This module contains interfaces to the Engineering, General Ledger, and
-Marketing modules. It validates part numbers with the Parts Master file in the
-Engineering module, and validates account numbers in the General Ledger chart
-of accounts. The shipment posting process creates accounts receivable items
-which contain all invoice information about a shipment.
+This module contains interfaces to the Engineering, General Ledger, and Marketing modules. It validates part numbers with the Parts Master file in the Engineering module, and validates account numbers in the General Ledger chart of accounts. The shipment posting process creates accounts receivable items which contain all invoice information about a shipment.
 
 **User Interface**
-The user interface to the module consists of data entry procedures to enter
-accounts receivable items and recurring records, reports and inquiries, and
-batch update procedures. Access to these procedures is controlled by the
-user's security profile. For example, some users may be allowed to enter new
-AR items while others may only be allowed to make changes to existing records.
-Some users may only be allowed to look at the data without the ability to
-change it, and some may not even be able to access the procedure. Access to
-batch procedures is usually restricted to use by only the system administrator
-since these are usually run overnight.
+The user interface to the module consists of data entry procedures to enter accounts receivable items and recurring records, reports and inquiries, and batch update procedures. Access to these procedures is controlled by the user's security profile. For example, some users may be allowed to enter new AR items while others may only be allowed to make changes to existing records. Some users may only be allowed to look at the data without the ability to change it, and some may not even be able to access the procedure. Access to batch procedures is usually restricted to use by only the system administratorsince these are usually run overnight.
 
 **Setup Procedures**
-There are three setup processes which must be performed prior to beginning the
-normal flow of activities. The first is the definition of the terms codes
-([TERMS.E](./README.md)). While additional codes may be added at any time, the
-codes you intend to use immediately must be available. Customer records must
-also be entered ([CUST.E](./README.md)) for at least the customers which you
-intend to use immediately, the rest may be added as required. The accounts
-receivable control record ([AR.CONTROL](./README.md)) must also be setup
+There are three setup processes which must be performed prior to beginning thenormal flow of activities. The first is the definition of the terms codes TERMS.E. While additional codes may be added at any time, the codes you intend to use immediately must be available. Customer records must
+also be entered CUST.E for at least the customers which you intend to use immediately, the rest may be added as required. The accounts
+receivable control record AR.CONTROL  must also be setup
 before normal activities may begin.
 
-Optionally, you will need to set up the sales tax code file
-([STAX.E](./README.md)) if you wish to track detail sales tax history by
+Optionally, you will need to set up the sales tax code file STAX.E if you wish to track detail sales tax history by
 district.
 
 **Flow of Activities**
 The flow of processing for the accounts receivable module can begin in any one
 of three places. First, items which are shipped through the Marketing module
 create AR records. Second, AR items may be entered directly through
-[AR.E](./README.md) for non-shipment items. Third, items may be created
-automatically by the [ARR.P1](./README.md) batch recurring entry procedure.
+AR.E   for non-shipment items. Third, items may be created
+automatically by the ARR.P1   batch recurring entry procedure.
 This will create AR items for all eligible recurring ARR item. Once the item
-is present in the AR file, it may be paid through the [CASH.E](./README.md)
-procedure. The invoice printing process ([AR.F1](./README.md) or
-[AR.F2](./README.md)) may be used to print or re-print any invoices.
+is present in the AR file, it may be paid through the CASH.E procedure. The invoice printing process AR.F1 or AR.F2 may be used to print or re-print any invoices.
 
-The maintenance of the Customer file ([CUST.E](CUST-E/README.md)) and the Terms file
-([TERMS.E](./README.md)) should be done as new items are required or changes
+The maintenance of the Customer file CUST.E and the Terms file TERMS.E should be done as new items are required or changes
 need to be made.
 
 At some point in time it may be appropriate purge some of the older accounts
 receivable and cash records from the system. This is done with the
-[AR.P3](./README.md) and [CASH.P1](./README.md) procedures.
+AR.P3 and CASH.P1 procedures.
 
 While all of the cross-reference files in the accounts receivable module are
 maintained automatically, it may be necessary to rebuild these files with the

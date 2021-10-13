@@ -1,8 +1,6 @@
 ## Inventory Overview
 <PageHeader />
 
-[Data Entry Procedures](./README.md) | [Reports and Inquiries](./README.md) | [Update Processes](./README.md)
-
 **Purpose**
 The Inventory module provides the ability to define inventory locations and to
 maintain information regarding the balance of materials stored in these
@@ -77,21 +75,21 @@ since these are usually run overnight.
 There are two setup procedures which need to be addressed before beginning
 with the normal flow of activities. The first is defining the valid inventory
 locations. These must be present before inventory transactions may be entered.
-The procedure used to define these locations is [INVLOC.E](./README.md). The
+The procedure used to define these locations is INVLOC.E. The
 second is the setup of default and control information in the
-[INV.CONTROL](./README.md) procedure.
+INV.CONTROL procedure.
 
 **Flow of Activities**
 The only ongoing activity associated with the Inventory module is the entry of
 inventory transactions. There are two procedures available to enter these
-transactions, they are [IT.E](./README.md) and [IT.E2](./README.md). The result of
+transactions, they are IT.E and IT.E2. The result of
 using either one of these procedures is the same, the difference is that
-[IT.E](./README.md) is used to enter one transaction at a time while
-[IT.E2](./README.md) is used to enter several transactions at once.
-[IT.E](./README.md) should be used in situations where you want to enter a single
+IT.E is used to enter one transaction at a time while
+IT.E2 is used to enter several transactions at once.
+IT.E should be used in situations where you want to enter a single
 transaction from time-to-time and want it to update the inventory balance
 immediately. An example of this would be the stock clerk recording the
-transaction every time they issue a part to someone. [IT.E2](./README.md) should
+transaction every time they issue a part to someone. IT.E2 should
 be used when several transactions have been accumulated and are entered all at
 once. A situation where you would choose to use this procedure is when the
 stockroom records each issue of material on a sign-out sheet which is later
@@ -109,7 +107,7 @@ for entry and posting.
 The physical inventory is intended for use as a 'wall-to-wall' count process,
 however it may be limited to selected inventory locations as desired.
 
-The Usage file is updated by the procedure [USAGE.P1](./README.md). This procedure determines the total usage for each part for the month specified by
+The Usage file is updated by the procedure USAGE.P1. This procedure determines the total usage for each part for the month specified by
 accumulating the appropriate inventory transactions for the period. The
 procedure should be run at the end of each month.
 

@@ -1,8 +1,6 @@
 ## Project Management Overview
 <PageHeader />
 
-[Data Entry Procedures](./README.md) | [Reports and Inquiries](./README.md) | [Update Processes](./README.md)
-
 **Purpose**
 The project module provides the ability to plan and track the activities of a
 project. Within a project you can define tasks with budgets for both cost and
@@ -15,10 +13,10 @@ Several types of information can be attached to a project by referencing the
 project and task number in procedures such as order entry, purchasing, work
 orders, inventory, labor, accounts payable and accounts receivable. This
 information is associated as revenue or cost depending on the source. Projects
-may also be adjusted using the [PROJADJ.E](./README.md) procedure.
+may also be adjusted using the PROJADJ.E procedure.
 
 **Prerequisites**
-Entry of the customer record in [CUST.E](./README.md) if you choose to
+Entry of the customer record in CUST.E if you choose to
 associate the project with a customer.
 
 **Data Files**
@@ -41,7 +39,7 @@ created by the user. These associations are created within the other modules,
 not from within the project. For example, a sales order is associated with a
 project by entering the project number and task on the sales order, not by
 entering the sales order number in the project. The
-[PROJECT.P1](./README.md) procedure loads this information into the
+PROJECT.P1 procedure loads this information into the
 appropriate project record when it is run.
 
 **User Interface**
@@ -61,17 +59,17 @@ There are no setup procedures required for the project module.
 
 **Flow of Activities**
 The flow of activites in the project midule begins wth the defintion of the
-project with [PROJECT.E](./README.md). One or more projects may be defined
+project with PROJECT.E. One or more projects may be defined
 in a parent child relationship. Once the projects are defined orders and
 transactions from other modules may reference the projects by entering the
 project and task number in procedures assciated with the module. On a periodic
-basis the [PROJECT.P1](./README.md) procedure may be run to gather the
+basis the PROJECT.P1 procedure may be run to gather the
 information from all of the orders and transactions that reference a project,
 and post this information to the project record. Each time this is done the
 previous data is replaced.
 
 When a project is completed its status should be set to closed. This prevents
-subsequent executions of [PROJECT.P1](./README.md) from overwriting the
+subsequent executions of PROJECT.P1 from overwriting the
 data that has been captured.
 
 

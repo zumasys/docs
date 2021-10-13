@@ -1,8 +1,6 @@
 ## Purchasing/Receiving Overview
 <PageHeader />
 
-[Data Entry Procedures](./README.md) | [Reports and Inquiries](./README.md) | [Update Processes](./README.md)
-
 **Purpose**
 The Purchasing module provides the ability to enter and maintain purchase
 order information, and to make receipts and debits against these orders. A
@@ -87,51 +85,51 @@ these are usually run overnight.
 **Setup Procedures**
 There are three setup processes which must be performed prior to beginning the
 normal flow of activities. The first is the definition of the terms codes
-([TERMS.E](./README.md)). While additional codes may be added at any time, the
+TERMS.E. While additional codes may be added at any time, the
 codes you intend to use immediately must be available. Vendor records must
-also be entered ([VENDOR.E](./README.md)) for at least the vendors which you
+also be entered VENDOR.E for at least the vendors which you
 intend to use immediately, the rest may be added as required. The purchase
-order control record ([PO.CONTROL](./README.md)) must also be setup before
+order control record PO.CONTROL must also be setup before
 normal activities may begin.
 
 **Flow of Activities**
 The flow of processing for the purchasing module begins with the entry of the
-purchase order in the [PO.E](./README.md) procedure. All items which are
+purchase order in the PO.E procedure. All items which are
 purchased should be entered in the purchase order file, this includes items
 which are not for production use or do not have a part number. The decision to
 enter multiple items on one purchase order or to create separate orders for
 each item is an internal procedural decision. The procedure allows the user to
 delete purchase order records provided that there have been no receipt
 transactions posted against the order. The purchase orders may be printed with
-the [PO.F1](./README.md) procedure for pre-printed forms or the
-[PO.F2](./README.md) procedure for blank paper or letter head forms. There is
-also an option in the [PO.CONTROL](./README.md) procedure which allows you
-to print a purchase order directly from the [PO.E](./README.md) procedure when it
+the PO.F1 procedure for pre-printed forms or the
+PO.F2 procedure for blank paper or letter head forms. There is
+also an option in the PO.CONTROL procedure which allows you
+to print a purchase order directly from the PO.E procedure when it
 is filed.
 
 After a purchase order is in the system receipts may be posted against it. The
-[RECEIPTS.E](./README.md) procedure provides this capability. Multiple
+RECEIPTS.E procedure provides this capability. Multiple
 items on the same purchase order may be posted on the same receipt
 transaction. If an error was made when the receipt was entered it may be
-reversed with the [RECEIPTS.E3](./README.md) procedure provided that no
+reversed with the RECEIPTS.E3 procedure provided that no
 additional receipts have been entered against the purchase order, and the
 associated accounts payable accrual record has not been changed. Debits for
-rejected receipts may be entered with the [RECEIPTS.E2](./README.md)
+rejected receipts may be entered with the RECEIPTS.E2
 procedure. A full or partial debit of the items may be entered. All of the
 receipts procedures automatically create inventory transactions for items with
 a part number assigned.
 
 If you are using the vendor rating system, you will want to enter any
-information about rejected items with the [DMR.E](./README.md) procedure. This
+information about rejected items with the DMR.E procedure. This
 may be at the point of receipt or at a later time.
 
-The maintenance of the Vendor file ([VENDOR.E](./README.md)) and the Terms
-file ([TERMS.E](./README.md)) should be done as new items are required or
+The maintenance of the Vendor file VENDOR.E and the Terms
+file TERMS.E should be done as new items are required or
 changes need to be made.
 
 At some point in time it may be appropriate purge some of the older purchase
 order and receipt records from the system. This is done with the
-[PO.P4](./README.md) and [RECEIPTS.P2](./README.md) procedures.
+PO.P4 and RECEIPTS.P2 procedures.
 
 While all of the cross-reference files in the purchasing module are maintained
 automatically, it may be necessary to rebuild these files with the batch

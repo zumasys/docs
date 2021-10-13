@@ -1,9 +1,6 @@
 ## Field Service Overview
 <PageHeader />
 
-[Data Entry Procedures](./README.md) | [Reports and Inquiries](.T/README.md)
-| [Update Processes](./README.md)
-
 **Purpose**
 The Field Service module provides the functions required to administer and
 execute the activities required for a field serive organization. These include
@@ -83,27 +80,27 @@ the system administrator since these are usually run overnight.
 The following are required setup procedures which must be performed prior to
 the normal flow of activities:
 
-[TERMS.E](./README.md)
+TERMS.E
 Definition of the payment terms for customers.
 
-[CUST.E](./README.md)
+CUST.E
 Identification of customers.
 
-[FS.CONTROL](./README.md)
+FS.CONTROL
 Definition of control information used in the module.
 
-[REP.E](./README.md)
+REP.E
 Identification of sales representatives.
 
-[PRICE.E](./README.md)
+PRICE.E
 Entry of product prices.
 
-[STAX.E](./README.md)
+STAX.E
 Sale tax code entry.
 
 **Flow of Activities**
 The flow of processing for the field service module begins with the entry of
-the service order in the [FSO.E](./README.md) procedure. This may occur before
+the service order in the FSO.E procedure. This may occur before
 the the service call is made based on a call from a customer needing service
 or a scheduled preventive maintenance. In these cases basic information about
 the customer and the item to be serviced are entered and a service order form
@@ -112,18 +109,18 @@ performed information regarding the labor expended and the materials consumed
 are entered into the order. When all the information has been entered the
 order may be placed in a completed status. Inventory is depleted at this time.
 
-Once the service order has been closed, the [FSO.P1](./README.md) procedure
+Once the service order has been closed, the FSO.P1 procedure
 will post the information, updating the sales history file (SALES), the
 commission file (COMM) and, when active will update the accounts receivable
 module with the amounts due. Accounts payable deits will be created for
 chargebacks as well.
 
-The maintenance of the Customer file ([CUST.E](./README.md)) and the Terms file
-([TERMS.E](./README.md)) should be done as new items are required or changes
+The maintenance of the Customer file CUST.E and the Terms file
+TERMS.E should be done as new items are required or changes
 need to be made.
 
 Items should be added and updated as required to the serial master file as
-required using [SERIAL.E](./README.md).
+required using SERIAL.E.
 
 At some point in time it may be appropriate purge some of the older service
 orders the system. This is done with the purge procedure provided in the batch
