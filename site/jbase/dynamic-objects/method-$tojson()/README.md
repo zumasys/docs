@@ -94,5 +94,6 @@ Results:
 
 See also [$fromjson()](./../method-$fromjson()) and [$setserialize()](./../method-$setserialize())
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
   
 <PageFooter />

@@ -185,5 +185,6 @@ Vacations 1 and 3 are equal.
 
 Take note of the addresses and reference counts of the objects. It's the address that indicates whether or not the objects are identical.
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
   
 <PageFooter />

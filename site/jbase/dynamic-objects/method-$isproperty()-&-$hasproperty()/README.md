@@ -72,5 +72,6 @@ This also displays "1". Because it is an array it tries to convert "greg" to a n
 
 The only properties that are inherited are those that are created in the constructor of the inherited class.
 
-  
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
+
 <PageFooter />

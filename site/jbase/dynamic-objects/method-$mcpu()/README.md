@@ -30,4 +30,6 @@ Running this program displays:
 ^@ ^A ^Z \376 \375 \374 \377
 ```
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
+
 <PageFooter />

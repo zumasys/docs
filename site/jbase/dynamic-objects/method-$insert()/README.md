@@ -66,5 +66,6 @@ If **position** &lt;= 0 then value is inserted at the beginning of the array.
 
 See also [$delete()](./../method-$delete())
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
   
 <PageFooter />

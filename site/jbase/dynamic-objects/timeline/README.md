@@ -113,6 +113,10 @@ Add \$system->getjelf() method.
 Add \$locks class, \$locks->getjdls() method.  
 Add \$global class.
 
+## 5.8.2
+
+Add \$file->seq_delimiter() method.
+
 Back to [Dynamic Objects](./../README.md)
 
 <PageFooter />  

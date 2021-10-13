@@ -58,4 +58,6 @@ The class name is "Library".
 ## Notes
 
   
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
+
 <PageFooter />

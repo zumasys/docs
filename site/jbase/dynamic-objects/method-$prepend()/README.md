@@ -45,5 +45,6 @@ Initial array: ["two","three","four"]
 
 See also [$append()](./../method-$append())
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
   
 <PageFooter />

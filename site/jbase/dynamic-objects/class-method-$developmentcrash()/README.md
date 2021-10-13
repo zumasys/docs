@@ -4,7 +4,7 @@
 
 ## Description
 
-The **\crash()** method will cause the system to crash with an access violation.
+The **crash()** method will cause the system to crash with an access violation.
 
 ## Syntax
 
@@ -28,5 +28,7 @@ crash_and_burn = $development::crash() ;* caveat emptor
 ```
 
 ## Notes
+
+Back to [$development Class](./../class-$development/README.md)
 
 <PageFooter />

@@ -60,5 +60,6 @@ Result:
 
 There is a difference between **undefined** and **null**. Undefined simple means the variable has not been assigned a value, i.e. the absence of data, whereas null is a value that means **no value at all**.
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
   
 <PageFooter />

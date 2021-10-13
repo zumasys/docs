@@ -37,5 +37,6 @@ if isobject then crt \"arr" is an object of type \:dquote(arr->$objecttype())
 
 ## Notes
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
   
 <PageFooter />

@@ -96,4 +96,6 @@ Property "file_variable" has value: jbasevar
 
 ## Notes
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
+
 <PageFooter />
