@@ -266,7 +266,7 @@ module.exports = {
             children: [
               ["/smartsuite/web/advanced-faculty-adoptions-store-side/", "Advanced Faculty Adoptions - Store Side"],
               ["/smartsuite/web/campus-webstore-parameters/", "Campus Webstore Parameters"],
-              ["/smartsuite/web/legacy-faculty-adoptions-web-side/", "Legacy Faculty Adoptions - Web"]
+              ["/smartsuite/web/legacy-faculty-adoptions-web-side/", "Legacy Faculty Adoptions - Web"],
               ["/smartsuite/web/SSO-with-azure-setup/", "SSO with Azure AD - Setup"]
             ]
           },
