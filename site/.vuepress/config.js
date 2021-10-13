@@ -125,7 +125,7 @@ module.exports = {
           ["/rover/FS-OVERVIEW/", "Field Service"],
           ["/rover/GL-OVERVIEW/", "General Ledger"],
           ["/rover/INV-OVERVIEW/", "Inventory"],
-          ["/rover/M3-SERVICES/", "Services Setup"],
+          ["/rover/M3-Services/", "Services Setup"],
           ["/rover/MFG-OVERVIEW/", "Manufacturing Planning"],
           ["/rover/MRK-OVERVIEW/", "Marketing"],
           ["/rover/PRO-OVERVIEW/", "Production"],
