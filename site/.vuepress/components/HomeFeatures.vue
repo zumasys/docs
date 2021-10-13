@@ -119,7 +119,7 @@
       <h2>Rover</h2>
       <p>
         <a href="/rover/client-setup">Client Setup</a><br />
-        <a href="/rover/M3">All Docs</a>
+        <a href="/rover/">All Docs</a>
       </p>
     </div>
     <div class="feature">

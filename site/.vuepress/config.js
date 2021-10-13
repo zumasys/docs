@@ -116,7 +116,21 @@ module.exports = {
         collapsable: true,
         children: [
           ["/rover/client-setup/", "Client Setup"],
-          ["/rover/M3/", "All Docs"]
+          ["/rover/ACCOUNT-CONTROL/", "Account Control"],
+          ["/rover/ACE-OVERVIEW/", "ACE Utilities"],
+          ["/rover/AP-OVERVIEW/", "Accounts Payable"],
+          ["/rover/DOC-OVERVIEW/", "Document Control"],
+          ["/rover/ENG-OVERVIEW/", "Engineering"],
+          ["/rover/EXEC-OVERVIEW/", "Executive Summary"],
+          ["/rover/FS-OVERVIEW/", "Field Service"],
+          ["/rover/GL-OVERVIEW/", "General Ledger"],
+          ["/rover/INV-OVERVIEW/", "Inventory"],
+          ["/rover/M3-SERVICES/", "Services Setup"],
+          ["/rover/MFG-OVERVIEW/", "Manufacturing Planning"],
+          ["/rover/MRK-OVERVIEW/", "Marketing"],
+          ["/rover/PRO-OVERVIEW/", "Production"],
+          ["/rover/PROJ-OVERVIEW/", "Project Management"],
+          ["/rover/PUR-OVERVIEW/", "Purchasing"]
         ]
       },
       {
