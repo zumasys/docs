@@ -1,7 +1,7 @@
 ## Sales and Marketing Overview
 <PageHeader />
 
-[Data Entry Procedures](../asstes/MRK-ENTRY/README.md) | [Reports and Inquiries](../asstes/MRK-REPORT/README.md) | [Update Processes](../asstes/MRK-PROCESS/README.md)
+[Data Entry Procedures](./README.md) | [Reports and Inquiries](./README.md) | [Update Processes](./README.md)
 
 **Purpose**
 The Marketing module provides the functions required to administer the
@@ -127,76 +127,76 @@ these are usually run overnight.
 The following are required setup procedures which must be performed prior to
 the normal flow of activities:
 
-[TERMS.E](../asstes/TERMS-E/README.md) Definition of the payment terms for customers
-[CUST.E](../asstes/CUST-E/README.md) Identification of customers
-[MRK.CONTROL](../asstes/MRK-CONTROL/README.md) Definition of control information used in the
+[TERMS.E](./README.md) Definition of the payment terms for customers
+[CUST.E](./README.md) Identification of customers
+[MRK.CONTROL](./README.md) Definition of control information used in the
 module
 
 Optionally, the following setup procedures can be performed to make complete
 use of all available marketing functions:
 
-[REP.E](../asstes/REP-E/README.md) Identification of sales representatives
-[PRICE.E](../asstes/PRICE-E/README.md) Entry of product prices
-[FAIL.CONTROL](../asstes/FAIL-CONTROL/README.md) Definition of valid failure codes for RMA
+[REP.E](./README.md) Identification of sales representatives
+[PRICE.E](./README.md) Entry of product prices
+[FAIL.CONTROL](./README.md) Definition of valid failure codes for RMA
 processing
-[MTBF.CONTROL](../asstes/MTBF-CONTROL/README.md) Definition of MTBF calculation parameters
-[STAX.E](../asstes/STAX-E/README.md) Sales tax
+[MTBF.CONTROL](./README.md) Definition of MTBF calculation parameters
+[STAX.E](./README.md) Sales tax
 
 **Flow of Activities**
 The flow of processing for the marketing module begins with the entry of the
-sales order in the [SO.E](../asstes/SO-E/README.md) procedure. All items which are sold should
+sales order in the [SO.E](./README.md) procedure. All items which are sold should
 be entered in the sales order file, including items which do not have a
 specific part number assigned, such as non-inventory items. The procedure
 allows the deletion of the sales order record, provided there have been no
 shipments made against it.
 
 After the sales order is on file, shipments may be made against that order,
-either using the batch shipment creation procedure ([SO.P1](../asstes/SO-P1/README.md)), or
-creating a single shipment record in the [SHIP.E](../asstes/SHIP-E/README.md) procedure. Once
+either using the batch shipment creation procedure ([SO.P1](./README.md)), or
+creating a single shipment record in the [SHIP.E](./README.md) procedure. Once
 created, the shipper is considered "requested" and a shipment picklist can be
 printed. Generally, the picklist is manually filled in with the actual
 shipment information such as ship quantity, and that information is then
-entered into the [SHIP.E2](../asstes/SHIP-E2/README.md) procedure which will move inventory.
+entered into the [SHIP.E2](./README.md) procedure which will move inventory.
 
-Once the [SHIP.E2](../asstes/SHIP-E2/README.md) procedure has been executed against a
-shipment, the [SHIP.P1](../asstes/SHIP-P1/README.md) procedure will post the shipping
+Once the [SHIP.E2](./README.md) procedure has been executed against a
+shipment, the [SHIP.P1](./README.md) procedure will post the shipping
 information, updating the sales history file (SALES), the commission file
 (COMM) and, when active will update the accounts receivable module with the
 amounts due. If an error is discovered in the shipment after posting then a
-shipment reversal may be done with the [SHIP.E3](../asstes/SHIP-E3/README.md) procedure.
+shipment reversal may be done with the [SHIP.E3](./README.md) procedure.
 
 Prior to posting, changes may be made to the shipper via
-[SHIP.E2](../asstes/SHIP-E2/README.md). Once it has been posted, the shipper can be reversed
-via [SHIP.E3](../asstes/SHIP-E3/README.md). When the record is saved the inventory
+[SHIP.E2](./README.md). Once it has been posted, the shipper can be reversed
+via [SHIP.E3](./README.md). When the record is saved the inventory
 transactions will be reversed and when the record is posted reversing sales,
 commission and accounts receivable records will be created.
 
 Authorizations for returned merchandise may be entered with
-[RMA.E](../asstes/RMA-E/README.md). The rma record may be created from a shipment, sales order
+[RMA.E](./README.md). The rma record may be created from a shipment, sales order
 or field service order. Receipts may be made against an rma for the full or
-partial amount via [RMAREC.E](../asstes/RMAREC-E/README.md) and [RMAREC.E2](../asstes/RMAREC-E2/README.md).
-The intent of of [RMAREC.E](../asstes/RMAREC-E/README.md) is to allow personnel on the
+partial amount via [RMAREC.E](./README.md) and [RMAREC.E2](./README.md).
+The intent of of [RMAREC.E](./README.md) is to allow personnel on the
 receiving dock to identify what has been received. However, inventory will not
 be moved against this receipt until it has been confirmed via
-[RMAREC.E2](../asstes/RMAREC-E2/README.md).
+[RMAREC.E2](./README.md).
 
-In addtion to confirming the receipt, [RMAREC.E2](../asstes/RMAREC-E2/README.md) allows entry
+In addtion to confirming the receipt, [RMAREC.E2](./README.md) allows entry
 of additional information such as failure codes, miscellaneous charges, etc.
 Once the receipt has been confirmed, it can be posted via
-[RMAREC.P1](../asstes/RMAREC-P1/README.md). The posting process updates the sales history file
+[RMAREC.P1](./README.md). The posting process updates the sales history file
 (SALES), the commissions file (COMM) and the accounts receivable file (AR). An
 accounts receivable credit memo will only be created if the rma record has
 been flagged to create one.
 
 Prior to posting, changes may be made to the rma receipt via
-[RMAREC.E2](../asstes/RMAREC-E2/README.md). Once the receipt has been posted, it can be
-reversed via [RMAREC.E3](../asstes/RMAREC-E3/README.md). When the record is saved the
+[RMAREC.E2](./README.md). Once the receipt has been posted, it can be
+reversed via [RMAREC.E3](./README.md). When the record is saved the
 inventory transactions will be reversed and when the record is posted
 reversing sales, commission and accounts receivable (if applicable) records
 will be created.
 
-The maintenance of the Customer file ([CUST.E](../asstes/CUST-E/README.md)) and the Terms file
-([TERMS.E](../asstes/TERMS-E/README.md)) should be done as new items are required or changes
+The maintenance of the Customer file ([CUST.E](./README.md)) and the Terms file
+([TERMS.E](./README.md)) should be done as new items are required or changes
 need to be made.
 
 At some point in time it may be appropriate purge some of the older sales
