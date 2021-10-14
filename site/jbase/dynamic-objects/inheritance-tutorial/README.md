@@ -77,7 +77,6 @@ The screen output would be:
 }
 ```
 
-Back to [Dynamic Objects - Overview](./../README.md)
+Back to [Inheritance](./../dynamic-objects-inheritance/README.md)  
 
-  
 <PageFooter />

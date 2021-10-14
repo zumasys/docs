@@ -8,6 +8,6 @@ The following methods can be utilized from the **\$locks** class:
 
 See also [jBASE Locking Models](../../record-locking/locking-models/README.md)  
 
-[Back to Dynamic Objects](./../README.md)
+[Back to Built-in Classes](./../dynamic-objects-built-in-classes/README.md)
 
 <PageFooter />
