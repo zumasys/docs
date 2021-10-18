@@ -40,5 +40,6 @@ After :  {"year":2018,"type":"wall","months":["jan","feb","mar","apr","may","jun
 
 See also [$tojson()](./../method-$tojson())
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
   
 <PageFooter />

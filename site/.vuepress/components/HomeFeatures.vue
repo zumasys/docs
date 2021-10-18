@@ -117,7 +117,10 @@
     </div>
     <div class="feature">
       <h2>Rover</h2>
-      <p><a href="/rover/client-setup">Client Setup</a><br /></p>
+      <p>
+        <a href="/rover/client-setup">Client Setup</a><br />
+        <a href="/rover/">All Docs</a>
+      </p>
     </div>
     <div class="feature">
       <h2>TotaLink</h2>

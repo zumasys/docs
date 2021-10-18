@@ -244,5 +244,6 @@ method Test1::Test1()
 end method
 ```
 
+Back to [Inheritance](./../dynamic-objects-inheritance/README.md)  
   
 <PageFooter />

@@ -62,5 +62,6 @@ Found "parmenides" at position 2.
 
 Remember, arrays are zero-based so if the first element in the array is located then the position returned will be 0 (zero).
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
   
 <PageFooter />

@@ -56,5 +56,6 @@ Results:
 
 Arrays are permitted to have duplicate values, objects are not.
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
   
 <PageFooter />

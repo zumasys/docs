@@ -87,4 +87,6 @@ As an extension, we also get details from a different class method and provide a
     next next_lock
 ```
 
+Back to [$lock Class](./../class-$lock/README.md)
+
 <PageFooter />

@@ -35,5 +35,6 @@ crt filename->$isfile()     ;* Displays 0 (zero)
 
 ## Notes
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
   
 <PageFooter />

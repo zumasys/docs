@@ -8,4 +8,6 @@ This class has no static or internal methods.
 
 For examples, refer to the [\$ismethod()](./../method-$ismethod()-&-$hasmethod()) and the [\$fromfile()](./../method-$fromfile()) documentation.
 
+[Back to Built-in Classes](./../dynamic-objects-built-in-classes/README.md)
+
 <PageFooter />

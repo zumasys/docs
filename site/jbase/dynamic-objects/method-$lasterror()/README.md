@@ -128,4 +128,6 @@ Usually in JSON, new lines are delimited by @LF, or on windows @CR:@LF. As an ex
 }
 ```
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
+
 <PageFooter />

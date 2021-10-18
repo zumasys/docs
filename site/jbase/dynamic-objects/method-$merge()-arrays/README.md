@@ -50,5 +50,7 @@ for i = 0 to array2->$size() - 1
 next i
 ```
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
+
   
 <PageFooter />

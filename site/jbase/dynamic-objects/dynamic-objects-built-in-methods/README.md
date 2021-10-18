@@ -19,17 +19,17 @@ All built-in methods start with "\$".
 - [\$isfile()](./../method-$isfile())
 - [\$ismethod() / \$hasmethod()](./../method-$ismethod()-&-$hasmethod())
 - [\$isobject()](./../method-$isobject())
-- [\$isproperty() / \$hasproperty()](./../method-$isproperty()-&-$hasproperty())
-- [\$mcl()](./../method-$mcl()/README.md)
-- [\$mcu()](./../method-$mcu()/README.md)
-- [\$mcp()](./../method-$mcp()/README.md)
-- [\$mcpu()](./../method-$mcpu()/README.md)
+- [\$isproperty() / \$hasproperty()](./../method-$isproperty()-&-$hasproperty())  
 - [\$join()](./../method-$join())
 - [\$keys()](./../method-$keys())
 - [\$lasterror()](./../method-$lasterror())
 - [\$locate()](./../method-$locate())
-- [\$merge()](./../method-$merge()-objects) -- objects
+- [\$mcl()](./../method-$mcl()/README.md)
+- [\$mcu()](./../method-$mcu()/README.md)
+- [\$mcp()](./../method-$mcp()/README.md)
+- [\$mcpu()](./../method-$mcpu()/README.md)  
 - [\$merge()](./../method-$merge()-arrays) -- arrays
+- [\$merge()](./../method-$merge()-objects) -- objects
 - [\$objecttype()](./../method-$objecttype())
 - [\$prepend()](./../method-$prepend())
 - [\$refcount()](./../method-$refcount())
@@ -37,9 +37,9 @@ All built-in methods start with "\$".
 - [\$setstring()](<./../method-$setstring()/README.md>)
 - [\$setnull()](./../method-$setnull())
 - [\$setserialize()](./../method-$setserialize())
-- [\$size()](./../method-$size())
-- [\$sort()](./../method-$sort()-objects) -- objects
+- [\$size()](./../method-$size())  
 - [\$sort()](./../method-$sort()-arrays) -- arrays
+- [\$sort()](./../method-$sort()-objects) -- objects
 - [\$split() / \$slice()](./../method-$split()-&-$slice())
 - [\$tojson()](./../method-$tojson())
 - [\$valuetype()](./../method-$valuetype())

@@ -40,5 +40,6 @@ crt dquote(arr->$objecttype())   ;* Displays "array"
 
 See also **$isobject()**
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
   
 <PageFooter />

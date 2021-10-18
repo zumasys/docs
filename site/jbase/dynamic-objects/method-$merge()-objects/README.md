@@ -248,4 +248,6 @@ Note that an argument of **2** is ignored so the default behavior is taken.
 
 Objects can only be merged into other objects, you cannot merge an object with an array (and vice versa). Attempting to do so will produce unpredictable results.
 
+Back to [Built-in Methods](./../dynamic-objects-built-in-methods/README.md)  
+
 <PageFooter />
