@@ -16,6 +16,7 @@ For detailed information about each update including training materials [click h
 
 *  Added VAT compatibility to the webstore
 *  Added State codes APO/FPO/DC to all online checkout and payment options
+*  Ruby online chat services are now avaiable to ecommerce users. Please contact [sales@total-computing.com](mailto:sales@total-computing.com)
 
 ## General Merchandise
 
