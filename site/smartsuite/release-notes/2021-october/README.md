@@ -1,37 +1,36 @@
-# Smart Suite Release September 2021
+# Smart Suite Release October 2021
 
 <PageHeader />
+
+We are currently updating our support ticketing portal to better assist all of our customers. During this time automated responses will not be available, we will notify customers via email on the status of your support ticket. Please make sure your email support request are sent to support@total-computing.com
 
 ## Product Updates
 
 For detailed information about each update including training materials [click here](https://training.total-computing.com/dwkb/tech-update/)
   
-## Textbooks
-### Redshelf Import 
-For detailed information about each update including training materials [click here for training information](https://training.total-computing.com/dwkb/tech-update/)
-* We have added new features to the RedShelf import processes that allows you to easily import your book-list:
-  * Copy and Paste your download link
-  * Auto import new titles
-  * Auto remove stagnant titles
-  * Auto rebuild cross references
-  * Only updates Shelf Tag labels for only items that have changed (Updated Shelf Tags)
-
 ## Point-of-Sale
-* Added a new Rental Report to list outstanding rentals by customer name [click here for instructions and menu path updates](https://training.total-computing.com/dwkb/)
+
+*  Added the ability to reprint an X-Report by sequence. (update training site)
 
 ## Webstore
-* Tagging items has entered into beta testing
+
+*  Added VAT compatibility to the webstore
+*  Added State codes APO/FPO/DC to all online checkout and payment options
+
+## General Merchandise
+
+*  Updated screens have been added to accommodate Web TAG's
 
 ## Things to Remember
-* Returns to Publishers are coming up soon
-* Make sure that you prepare your system and setup for Spring Adoptions
-
+  
+*  Returns to Textbook vendors should be completed by now
+*  Make sure you have setup your spring term for Ordering and Buyback
+*  Setup Faculty access for adoptions if you haven't already
+*  Import your course list for the Spring Semester
+  
 ## Coming soon...
-*  (Update in finial stages of development) New ShipEngine interface for online orders.
+*  (Update in Beta) New ShipEngine interface for online orders.
 *  (Update in Beta Testing) Redesigned inventory ecommerce tags to help your business expose your online products, expected release October 2021
-*  Advanced checkout
-*  (Completed and Released, September 2021) Enhanced and redesigned Redshelf interface to coordinate with  recent modification made by Redshelf
-*  VPAT Compliance is in the final testing phase, expected release October 2021
 
 ## TotaLink (Credit-Cards)
 * Added transaction Integrity checking
@@ -44,9 +43,7 @@ For detailed information about each update including training materials [click h
 
 ## Important Resolved Issues
 
-* Resolved reporting issues related partial tax on certain transaction tax modifiers for the Daily Summary Report
-* Addressed the issue where some customer experienced combinations of tenders that didn't allow for the "Aborting" "Exiting" of transactions cleanly after partial payments
-* Updated rental customer flag maintenance to honor customer status flag of "I"
-* Resolved transaction exits and aborts when using some forms of split tenders
+Addressed issue Faculty and Staff had when entering in special characters in the comments of Faculty Adoptions online
+Addressed NQ for child items on the webstore to display correctly
 
 <PageFooter />
