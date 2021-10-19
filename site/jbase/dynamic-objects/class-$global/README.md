@@ -125,6 +125,6 @@ print oconv(obj->length("This is a much longer string", stringvalue), "mcp")   ;
 
 This method is akin to the BASIC `COMMON` statement.
 
-[Back to Dynamic Objects](./../README.md)
-  
+[Back to Built-in Classes](./../dynamic-objects-built-in-classes/README.md)  
+
 <PageFooter />

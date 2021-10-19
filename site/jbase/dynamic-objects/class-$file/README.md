@@ -11,6 +11,6 @@ The following methods can be utilized from the **\$file** class:
 - $file::cleargrouplocks()
 - [$file::seq_delimiter()](./../class-method-$fileseq_delimiter()/README.md)
 
-[Back to Dynamic Objects](./../README.md)
+[Back to Built-in Classes](./../dynamic-objects-built-in-classes/README.md)
 
 <PageFooter />

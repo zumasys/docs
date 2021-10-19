@@ -22,6 +22,6 @@ sys = new object("$system")
 
 Once this object is created, a call to any of the methods creates a sub-object that can be used to obtain the related information.
 
-[Back to Dynamic Objects](./../README.md)
+[Back to Built-in Classes](./../dynamic-objects-built-in-classes/README.md)
 
 <PageFooter />

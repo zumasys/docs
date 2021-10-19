@@ -7,6 +7,6 @@ The following methods can be utilized from the **\$terminal** class:
 - $terminal::terminfo()
 - $terminal::tparm()
 
-[Back to Dynamic Objects](./../README.md)
+[Back to Built-in Classes](./../dynamic-objects-built-in-classes/README.md)
 
 <PageFooter />

@@ -89,5 +89,6 @@ Running this code produces the following output:
 }
 ```
 
+Back to [Inheritance](./../dynamic-objects-inheritance/README.md)  
   
 <PageFooter />

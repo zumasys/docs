@@ -13,6 +13,6 @@ The methods in the **\$vararg** class are used with other methods that are requi
 - [\$vararg::reset()](./../class-method-$varargreset())  
 
 
-[Back to Dynamic Objects](./../README.md)
+[Back to Built-in Classes](./../dynamic-objects-built-in-classes/README.md)
 
 <PageFooter />
