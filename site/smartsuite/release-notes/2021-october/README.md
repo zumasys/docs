@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-We are currently updating our support ticketing portal to better assist all of our customers. During this time automated responses will not be available, we will notify customers via email on the status of your support ticket. Please make sure your email support request are sent to support@total-computing.com
+We are currently updating our support ticketing portal to better assist all of our customers. During this time automated responses will not be available, we will notify customers via email on the status of your support request that we receive. Please make sure your email support request are sent to support@total-computing.com
 
 ## Product Updates
 
@@ -10,17 +10,22 @@ For detailed information about each update including training materials [click h
   
 ## Point-of-Sale
 
-*  Added the ability to reprint an X-Report by sequence. (update training site)
+*  Added the ability to reprint an X-Report by sequence
+*  Updated Web Store Parameters screens to accommodate TAG Setup
 
 ## Webstore
 
-*  Added VAT compatibility to the webstore
+*  Added VAT compatibility to the Webstore
 *  Added State codes APO/FPO/DC to all online checkout and payment options
-*  Ruby online chat services are now avaiable to ecommerce users. Please contact [sales@total-computing.com](mailto:sales@total-computing.com)
+*  Ruby online chat services are now available to ecommerce users. Please contact [sales@total-computing.com](mailto:sales@total-computing.com)
 
 ## General Merchandise
 
-*  Updated screens have been added to accommodate Web TAG's
+*  Updated screens have been added to accommodate Web TAG's in the Master File Menu
+
+## Textbooks
+
+We have added additional functions to the Textbook export process to allow for Closed Terms.
 
 ## Things to Remember
   
@@ -41,10 +46,9 @@ For detailed information about each update including training materials [click h
 
     > May require processor and/or equipment upgrade
 
-
 ## Important Resolved Issues
 
 Addressed issue Faculty and Staff had when entering in special characters in the comments of Faculty Adoptions online
-Addressed NQ for child items on the webstore to display correctly
+Addressed NQ for child items on the Webstore to display correctly
 
 <PageFooter />
