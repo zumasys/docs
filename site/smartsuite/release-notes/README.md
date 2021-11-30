@@ -10,6 +10,6 @@
 * [2021 July](./2021-july/README.md)
 * [2021 August](./2021-august/README.md)
 * [2021 September](./2021-september/README.md)
-* [2021 September](./2021-october/README.md)
+* [2021 November](./2021-november/README.md)
 
 <PageFooter />

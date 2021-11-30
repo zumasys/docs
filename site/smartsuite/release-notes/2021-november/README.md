@@ -12,12 +12,15 @@ For detailed information about each update including training materials [click h
 
 *  Added the ability to reprint an X-Report by sequence
 *  Updated Web Store Parameters screens to accommodate TAG Setup
+*  Added controls to Rental Customers to help manage delinquent accounts
 
 ## Webstore
 
-*  Added VAT compatibility to the Webstore
-*  Added State codes APO/FPO/DC to all online checkout and payment options
-*  Ruby online chat services are now available to ecommerce users. Please contact [sales@total-computing.com](mailto:sales@total-computing.com)
+*  ShipEngine interface for online orders is now available
+*  Ruby online chat services are now available to ecommerce users
+*  Added ability to customize the subject lines of your Web Orders
+  
+  For more information about these features please contact [sales@total-computing.com](mailto:sales@total-computing.com)
 
 ## General Merchandise
 
@@ -35,8 +38,8 @@ We have added additional functions to the Textbook export process to allow for C
 *  Import your course list for the Spring Semester
   
 ## Coming soon...
-*  (Update in Beta) New ShipEngine interface for online orders.
-*  (Update in Beta Testing) Redesigned inventory ecommerce tags to help your business expose your online products, expected release October 2021
+* Apple Enrollment DEP
+* Enhanced Serial number tracking
 
 ## TotaLink (Credit-Cards)
 * Added transaction Integrity checking
@@ -48,7 +51,9 @@ We have added additional functions to the Textbook export process to allow for C
 
 ## Important Resolved Issues
 
-Addressed issue Faculty and Staff had when entering in special characters in the comments of Faculty Adoptions online
-Addressed NQ for child items on the Webstore to display correctly
+Added VAT compatibility to the Webstore
+Added State codes APO/FPO/DC to all online checkout and payment options
+Ruby online chat services are now available to ecommerce users
+Added ability to customize the subject lines of your Web Orders
 
 <PageFooter />
