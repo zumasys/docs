@@ -17,5 +17,6 @@
 * [Purchasing](./PUR-OVERVIEW/README.md)
 * [ACE Utilities](./ACE-OVERVIEW/README.md)
 * [Services Setup](./M3-Services/README.md)
+* [Tips & Tricks](./TipsandTricks/README.md)
 
 <PageFooter />
