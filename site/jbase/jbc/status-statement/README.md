@@ -39,8 +39,8 @@ If the **STATUS** **array** is assigned to an array, the **THEN** statements are
 | 19 | Number of bytes left in output queue (applicable to terminals only) |
 | 20 | File name |
 | 21 | jBASE File types j3, j4, jPLUS |
-| 22 | jBASE File types j3, j4, jPLUS |
-| 23 | jBASE File types j3, j4, jPLUS |
+| 22 | jBASE File Modulo
+| 23 | jBASE File Seperation
 | 24 | Part numbers of part files belonging to a distributed file multivalued list |
 
 
