@@ -11,7 +11,7 @@
 - [PN5\_60871](./../pn5_60871/README.md) - jBC: Increase default **INPUT** buffer to 32k
 - [PN5\_60872](./../pn5_60872/README.md) - jEDI: F-pointers do not allow comments after the "F" on line one
 - [PN5\_60873](./../pn5_60873/README.md) - Enhance **jpq**, the Proc processor, to allow external calls to paragraphs
-- [PN5\_60875](./../pn5_60875/README.md) - **READNEXT KEY** does not process all records in Universe or Prime emulations
+- [PN5\_60875](./../pn5_60875/README.md) - **READNEXT KEY** does not process all records in UniVerse or Prime emulations
 - [PN5\_60877](./../pn5_60877/README.md) - Prevent process abort when restoring over an existing file with indexes
 - [PN5\_60879](./../pn5_60879/README.md) - Prevent process abort with **Tn,m** conversion
 - [PN5\_60880](./../pn5_60880/README.md) - Create 64-bit build of **telnet**/**transcmd** with a registry option to set the code page

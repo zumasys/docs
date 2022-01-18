@@ -22,7 +22,7 @@ A = FMT('12345','3R')
 ```
 
 it returns 123 char(251) space 45 as the value for A.  
-In Universe, this would return 123.  
+In UniVerse, this would return 123.  
 As FMT is a UniVerse\/PI Open style function, we will follow their convention.
 
 ## Previous Release Behavior

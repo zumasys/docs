@@ -8,7 +8,7 @@ F-Correlatives in 'universe' emulation need integer calculation
 
 ## Previous Release Behavior
 
-Universe processes all its calculations in F correlatives as integers, we need to emulate this.  
+UniVerse processes all its calculations in F correlatives as integers, we need to emulate this.  
 For example, this simple calculation gives the answer 3, instead of 3.3333
 
 ```

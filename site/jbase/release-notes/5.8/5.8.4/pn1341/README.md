@@ -8,7 +8,7 @@ Provide alternative behavior of DELETE command
 
 ## Previous Release Behavior  
 
-In Universe this series of commands returns the following:
+In UniVerse this series of commands returns the following:
 
 ```
 SSELECT LOG WITH WS.NO =  "100A-PM_ACCT-357"

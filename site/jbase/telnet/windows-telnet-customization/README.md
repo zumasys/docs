@@ -14,7 +14,7 @@ You can edit the registry by using Registry Editor (Regedit.exe or Regedt32.exe)
 
 Create a registry entry of type REG\_SZ with the name Banner under registry key:
 
-```
+```text
 HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 ```
 
@@ -31,7 +31,7 @@ In the "Value data:" string, the sequence "\n" generates an end of line output, 
 
 Create a registry entry of type REG\_SZ with the name PreBanner under registry key:
 
-```
+```text
 HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 ```
 
@@ -48,7 +48,7 @@ In the "Value data:" string, the sequence "\n" generates an end of line output, 
 
 Create a registry entry of type REG\_SZ with the name LogonPrompt under registry key:
 
-```
+```text
 HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 ```
 
@@ -59,13 +59,13 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 | Name | Type | Data |
 | LogonPrompt | REG\_SZ | Windows User Name: |
 
-If this registry value is not present, the default logon prompt is "Account Name: ".
+If this registry value is not present, the default logon prompt is "User name: ".
 
 ## Changing the password prompt
 
 Create a registry entry of type REG\_SZ with the name PasswordPrompt under registry key:
 
-```
+```text
 HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 ```
 
@@ -82,7 +82,7 @@ If this registry value is not present, the default password prompt is "Password:
 
 Create a registry entry of type REG\_SZ with the name FailedLogonMessage under registry key:
 
-```
+```text
 HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 ```
 
@@ -103,7 +103,7 @@ If this registry value is not present, the default message  is:
 
 Create a registry entry of type REG\_DWORD with the name LogEventLogon under registry key:
 
-```
+```text
 HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 ```
 
@@ -113,7 +113,7 @@ If this registry entry is present and set to 0, then normal logon and logoff eve
 
 Create a registry entry of type REG\_DWORD with the name BreakChar under registry key:
 
-```
+```text
 HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 ```
 
@@ -123,7 +123,7 @@ Enter the numeric value that corresponds to the control character to issue a "br
 
 Create a registry entry of type REG\_SZ with the name CommandProcessor under registry key:
 
-```
+```text
 HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 ```
 
@@ -146,7 +146,7 @@ By default, all services invoke CMD.EXE as the command processor. By adding the 
 
 Create a registry entry of type REG\_DWORD with the name IncreaseLogonPriority under registry key:
 
-```
+```text
 HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 ```
 
@@ -158,7 +158,7 @@ If this registry entry is present and set to 1 then the priority of the logon pr
 
 Create a registry entry of type REG\_DWORD with the name ExitDetectionTimeout under registry key:
 
-```
+```text
 HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 ```
 
@@ -177,7 +177,7 @@ If this registry value is not present, the default value is 400 milliseconds "0x
 
 Create a registry entry of type REG\_DWORD with the name LogonAttempts under registry key:
 
-```
+```text
 HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 ```
 
@@ -190,11 +190,45 @@ HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 
 If this registry value is not present, the default value is 3 attempts "0x00000003 (3)".
 
+## Defining the Logon Provider
+
+Create a registry entry of type REG\_DWORD with the name Logon Provider under registry key:
+
+```text
+HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
+```
+
+**Example**:
+
+| <!----> | <!----> | <!----> |
+| --- | --- | --- |
+| Name | Type | Data |
+| LogonProvider | REG\_DWORD | 0x00000002 (2) |
+
+If this registry value is not present, the default value is 0, LOGON32_PROVIDER_DEFAULT.
+
+## Setting the default logon domain
+
+Create a registry entry of type REG\_SZ with the name DefaultDomain under registry key:
+
+```text
+HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
+```
+
+**Example**:
+
+| <!----> | <!----> | <!----> |
+| --- | --- | --- |
+| Name | Type | Data |
+| DefaultDomain | REG\_SZ | domain |
+
+If this registry value is not present, no default domain name is assumed.
+
 ## Parsing the “remote.cmd” file
 
 Create a registry entry of type REG\_DWORD with the name ParseProfile under registry key:
 
-```
+```text
 HKEY_LOCAL_MACHINE\Software\Wow6432Node\JAC\jBASE Telnetd Server\CurrentVersion
 ```
 
@@ -217,11 +251,15 @@ The industry standard telnet port is 23 but it can be changed to any port number
 
 To change the port for jBASE telnetd, so as not to affect port number 23, you must add a 'jtelnet' entry with the desired port number. For example, the following entry in the Windows 'services' file will start the jBASE telnetd service on port 2323:
 
+```text
 jtelnet  2323/tcp
+```
 
 If jBASE telnetd is the only telnet server on the system, you could change the original 'telnet' entry to a different port number with:
 
+```text
 telnet  2323/tcp
+```
 
 This would eliminate the need for a 'jtelnet' entry.
 

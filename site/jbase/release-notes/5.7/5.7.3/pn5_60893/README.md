@@ -31,7 +31,7 @@ Running the same program now displays:
 
 ### Notes
 
-This patch is only applicable in Prime, Universe or Unidata emulations.
+This patch is only applicable in Prime, UniVerse or UniData emulations.
 
 Back to [5.7.3 Release Notes](./../jbase-5.7.3-release-notes/README.md)
   

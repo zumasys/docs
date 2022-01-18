@@ -10,7 +10,7 @@ jQL: Incorrect results when using BY-EXP expressions with Print Limiting
 
 If a limiting expression was used with BY-EXP, e.g.:
 
-```
+```text
 LIST filename BY-EXP MYCOL EQ "42" ...
 ```
 

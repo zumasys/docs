@@ -27,11 +27,11 @@ Another way is to set the default compiler options in Config\_EMULATE, for examp
 compiler_options = universe
 ```
 
-This patch has now added this option as a default for Universe emulations, so to enable **STOPM** and **STOPE** while running in Universe you need do nothing. If you want these Universe emulations in other emulation types, you can use one of the above mechanisms.
+This patch has now added this option as a default for UniVerse emulations, so to enable **STOPM** and **STOPE** while running in UniVerse you need do nothing. If you want these UniVerse emulations in other emulation types, you can use one of the above mechanisms.
 
 See PN5\_60770 for more details on setting compiler options.
 
-The syntax is similar to Universe, e.g.
+The syntax is similar to UniVerse, e.g.
 
 ```
 STOPM {Expression { , Expression { , Expression ...}}
@@ -39,7 +39,7 @@ STOPM {Expression { , Expression { , Expression ...}}
 STOPE {Expression { , Expression { , Expression ...}}
 ```
 
-On Universe it only supports a single 'Expression' , but jBASE supports multiple 'Expression' separated by a comma.
+On UniVerse it only supports a single 'Expression' , but jBASE supports multiple 'Expression' separated by a comma.
 
 The **STOPM** statement uses the STOPM item in the jBASE error message file &lt;JBASEDIRECTORY&gt;/jbcmessages , and it looks like this
 
