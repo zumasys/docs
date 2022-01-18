@@ -20,7 +20,7 @@ The manner in which we decide options during compilation is now like this:
 
 1) If the file name ends in **.jabba**, we set the jabba option and turn off case sensitivity (i.e. we become case insensitive for keywords and variables).
 
-2) Any options in Config\_EMULATE with the 'compiler\_options = xxx' statement are processed. This was added for this change, and the Universe emulation now contains this
+2) Any options in Config\_EMULATE with the 'compiler\_options = xxx' statement are processed. This was added for this change, and the UniVerse emulation now contains this
 
 ```
 compiler_options = universe

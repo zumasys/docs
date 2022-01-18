@@ -8,7 +8,7 @@ New option to **jdiag** to append **config-strings** information to **jdiag.out*
 
 ## Previous Release Behavior
 
-Currently you need to run both a **jdiag -vl** and a **config-strings > config.out** and then send 2 files to Zumasys for analysis. Often the **config-strings** is forgotten.
+Currently you need to run both a **jdiag -vl** and a **config-strings > config.out** and then send 2 files to Rocket for analysis. Often the **config-strings** is forgotten.
 
 ## Current Release Behavior
 

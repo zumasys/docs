@@ -52,9 +52,9 @@ rec2              5     11
 
 ## Notes
 
-The default jBASE behavior is shared by Universe. The D3 behavior is shared by QM.
+The default jBASE behavior is shared by UniVerse. The D3 behavior is shared by QM.
 
-jBASE and Universe native behavior is to sum the lowest delimited values. So if an attribute has only multi-values it will sum them. But if one of those multi-values has more than one sub-value then it only sums the sub-values and leaves single value multi-values as their own total.
+jBASE and UniVerse native behavior is to sum the lowest delimited values. So if an attribute has only multi-values it will sum them. But if one of those multi-values has more than one sub-value then it only sums the sub-values and leaves single value multi-values as their own total.
 
 Back to [5.7.9 Release Notes](./../README.md)
   

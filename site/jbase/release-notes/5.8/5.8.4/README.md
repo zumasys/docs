@@ -18,8 +18,8 @@ This release includes internal bug fixes and the following patches:
 - [PN1331](./pn1331/README.md)  - jQL: A correlative named attribute with extraneous spaces fails  
 - [PN1335](./pn1335/README.md)  - jBC: BASIC FMT inserts CHAR(251) and space on fold/wrap  
 - [PN1336](./pn1336/README.md)  - jQL: TRANS interprets D-type dict in the attr parameter as a synonym to the attr of the dict  
-- [PN1337](./pn1337/README.md)  - jQL: IType IF THEN ELSE compound expression produces incorrect result  
-- [PN1338](./pn1338/README.md)  - jQL query involving BY and WITH attr_0_dict = 'item list' causes segv
+- [PN1337](./pn1337/README.md)  - jQL: I-type IF THEN ELSE compound expression produces incorrect result  
+- [PN1338](./pn1338/README.md)  - jQL: query involving BY and WITH attr_0_dict = 'item list' causes segv
 - [PN1341](./pn1341/README.md)  - Runtime: Alternative behaviour of the DELETE command  
 - [PN1344](./pn1344/README.md)  - jQL: F-Correlatives in 'universe' emulation need integer calculation  
 - [PN1350](./pn1350/README.md)  - jQL: ICONV on a $amount with an MD conversion returns an empty string  
@@ -27,7 +27,7 @@ This release includes internal bug fixes and the following patches:
 - [PN1352](./pn1352/README.md)  - jQL: MR or MD conversion in F-correlative causing missing closed parenthesis  
 - [PN1353](./pn1353/README.md)  - jQL: Multiple conversions in F-correlative involving multivalues not operating on all values.
 - [PN1421](./pn1421/README.md)  - jBC: CHANGE causes a SEGV  
-- [PN1425](./pn1425/README.md)  - jQ: AND # dict causes segv when index present  
+- [PN1425](./pn1425/README.md)  - jQL: AND # dict causes segv when index present  
 
 [Back to 5.8.x Release Notes](./../README.md)
   

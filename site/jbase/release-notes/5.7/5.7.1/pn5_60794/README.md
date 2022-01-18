@@ -8,7 +8,7 @@ jed/ED crashes with 'generic\_universe' or 'generic\_unidata' using exploded sel
 
 ### Previous Release Behavior
 
-When running in Universe or Unidata emulation a second value is expected when calling READNEXT:
+When running in UniVerse or UniData emulation a second value is expected when calling READNEXT:
 
 ```
 READNEXT id:            would fail

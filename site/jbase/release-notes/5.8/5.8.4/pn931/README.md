@@ -16,7 +16,7 @@ Same as previous/this is a feature request.
 
 ## Notes
 
-Add SYSTEM(9010), returning a value of "JBASE" to meet equivalency to other platforms including Universe, Unidata and OpenQM.
+Add SYSTEM(9010), returning a value of "JBASE" to meet equivalency to other platforms including UniVerse, UniData and OpenQM.
 
 ```
 CRT "The contents of SYSTEM(9010) are : " : system(9010)

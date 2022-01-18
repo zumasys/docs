@@ -14,7 +14,7 @@ The DEFFUN statement would need () even if there were no parameters, e.g.
     DEFFUN MYFUNCTION()
 ```
 
-This was incompatible with Universe code.
+This was incompatible with UniVerse code.
 
 ### Current Release Behavior
 

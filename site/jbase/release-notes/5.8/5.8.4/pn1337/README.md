@@ -8,7 +8,7 @@ An IF-THEN-ELSE expression where the result expressions are compound (e.g. 'str1
 
 ## Previous Release Behavior
 
-In an IType:
+In an I-type:
 
 ```
 IF 1 THEN 'one' ELSE 'not':'one'
