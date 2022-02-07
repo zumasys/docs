@@ -108,3 +108,4 @@ This endpoint retrieves Customer Detail as a JSON encoded repsonse.
     ]
 }
 ```
+<PageFooter />
