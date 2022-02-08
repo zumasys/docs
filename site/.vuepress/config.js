@@ -591,6 +591,7 @@ module.exports = {
         collapsable: true,
         children: [
           ["/smartsuite/ap/accounts-payable-training/", "Accounts Payable"],
+          ["/smartsuite/api/", "APIs"],
           ["/smartsuite/ar/ar-training/", "AR Training Guide"],
           {
             title: "Accounts Receivable",
@@ -707,7 +708,6 @@ module.exports = {
               ["/smartsuite/text/adoption-import-file-specification/", "Adoption Import File Specs"],
               ["/smartsuite/text/advanced-faculty-adoptions-web-side/", "Advanced Faculty Adoptions - Web"],
               ["/smartsuite/web/advanced-faculty-adoptions-store-side/", "Advanced Faculty Adoptions - Store Side"],
-              ["/smartsuite/api/", "APIs"],
               ["/smartsuite/text/auto-orders/", "Auto Orders"],
               ["/smartsuite/text/buyback-process/", "Buyback Process"],
               ["/smartsuite/text/buyback-setup/", "Buyback Setup"],
