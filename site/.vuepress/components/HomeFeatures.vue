@@ -103,6 +103,7 @@
         <a href="/smartsuite/ap/accounts-payable-training/">Accounts Payable</a
         ><br />
         <a href="/smartsuite/ar/">Accounts Receivable</a><br />
+        <a href="/smartsuite/api/">APIs</a><br />
         <a href="/smartsuite/gl/">General Ledger</a><br />
         <a href="/smartsuite/gm/">General Merchandise</a><br />
         <a href="/smartsuite/gui/">GUI Interface</a><br />

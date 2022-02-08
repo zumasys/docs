@@ -4,7 +4,7 @@
 
 [Accounts Payable](./ap/README.md)  
 [Accounts Receivable](./ar/README.md)  
-[APIs](./api/README.md)
+[APIs](./api/README.md)  
 [General Ledger](./gl/README.md)  
 [General Merchandise](./gm/README.md)  
 [Graphical Interface (GUI)](./gui/README.md)  
