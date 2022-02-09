@@ -3,7 +3,7 @@
 <PageHeader />
 Year 2022
 
-* [2022 February](./2021-january/README.md)
+* [2022 February](./2022-february/README.md)
   
 Year 2021
 * [2021 January](./2021-january/README.md)
