@@ -1,7 +1,11 @@
 # Smart Suite Release Notes
 
 <PageHeader />
+Year 2022
 
+* [2022 February](./2021-january/README.md)
+  
+Year 2021
 * [2021 January](./2021-january/README.md)
 * [2021 February](./2021-february/README.md)
 * [2021 March](./2021-march/README.md)
