@@ -1,4 +1,4 @@
-# Smart Suite Release January 2021
+# Smart Suite Release February 2022
 
 <PageHeader />
 
