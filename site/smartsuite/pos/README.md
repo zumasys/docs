@@ -23,6 +23,7 @@
 [Resume Order Search](./resume-order-search-setup/readme.md)  
 [Sell and Redeem Gift Cards](./sell-and-redeem-gift-cards/readme.md)  
 [Setup Balance Inquiry for Gift Cards](./setup-of-balance-inquiry-for-gift-card/readme.md)  
+[User-Cashier Maintenance](./user-cashier-maintenance/readme.md)  
 [Voucher Setup](./vouchers-setup/readme.md)  
 [Web Order Returns](./web-order-returns/readme.md)  
 
