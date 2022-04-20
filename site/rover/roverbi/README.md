@@ -1,5 +1,6 @@
 # Rover BI Quick Reference
 
-## getrecord
+## Datasets
+### getrecord
 
-## getreport
+### getreport
