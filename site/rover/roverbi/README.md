@@ -31,7 +31,7 @@ For `getreport`:
 push(response.data.report_lines)
 ```
 
-For `getrecord` when selecting from file $filename, which contains one "table" (subgroup of columns) called $tablename:
+For `getrecord` when selecting from file `$filename`, which contains one "table" (subgroup of columns) called `$tablename`:
 ```
 var arr = response.data.$filename_items;
 if(arr.length != 0){
