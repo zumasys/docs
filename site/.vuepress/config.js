@@ -282,7 +282,6 @@ module.exports = {
             path: "/jbase/connectivity",
             collapsable: true,
             children: [
-              ["/mv-connect/api/", "jAgent"],
               ["/jbase/connectivity/jrcs/", "jRCS"],
               ["/jbase/connectivity/ODBC/", "ODBC"],
               ["/jbase/faq/jcurl/", "jCurl"]
