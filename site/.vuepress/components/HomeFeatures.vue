@@ -3,20 +3,9 @@
     <div class="feature">
       <h2>Smart Suite</h2>
       <p>
-        <a href="/smartsuite/ap/accounts-payable-training/">Accounts Payable</a
-        ><br />
-        <a href="/smartsuite/ar/">Accounts Receivable</a><br />
-        <a href="/smartsuite/api/">APIs</a><br />
-        <a href="/smartsuite/gl/">General Ledger</a><br />
-        <a href="/smartsuite/gm/">General Merchandise</a><br />
-        <a href="/smartsuite/gui/">GUI Interface</a><br />
-        <a href="/smartsuite/hardware/">Hardware</a><br />
         <a href="/smartsuite/pos/">Point of Sale</a><br />
-        <a href="/smartsuite/rsl/">Retail Stock Ledger</a><br />
-        <a href="/smartsuite/system/">Setup Setup/Settings</a><br />
-        <a href="/smartsuite/text/">Textbooks</a><br />
-        <a href="/smartsuite/web/">CampusWebstore</a><br />
         <a href="/smartsuite/release-notes/">Release Notes</a><br />
+        <a href="/smartsuite/">All Docs</a>
       </p>
     </div>
     <div class="feature">
@@ -36,18 +25,20 @@
     <div class="feature">
       <h2>Rocket Software</h2>
       <p>
+        <a href="/accuterm/">AccuTerm (Moving soon!)</a><br />
         <a
-          href="https://www.openqm.com/wp-content/uploads/sites/3/2020/10/OpenQM-4.0-Quick-Start-Installation-and-Configuration.pdf"
+          href="https://docs.rocketsoftware.com/bundle/hjd1647625106945/page/jqr1647625107914.html"
           target="_blank"
           >Customer Portal (AccuTerm/jBASE)</a
         ><br />
+        <a href="/jbase/">jBASE (Moving soon!)</a><br />
         <a
-          href="https://www.openqm.com/wp-content/uploads/sites/3/2020/10/OpenQM-Data-Integrity-Constraints-1.pdf"
+          href="https://docs.rocketsoftware.com/bundle/pdy1647626978888/page/jlw1647626979784.html"
           target="_blank"
           >MV Connect</a
         ><br />
         <a
-          href="https://www.openqm.com/wp-content/uploads/sites/3/2020/09/OpenQM-Application-Event-Profiling.pdf"
+          href="https://docs.rocketsoftware.com/bundle/kzn1647627508192/page/uet1647627509997.html"
           target="_blank"
           >MV Dashboard</a
         ><br />
