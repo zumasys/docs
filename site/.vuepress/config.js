@@ -28,8 +28,6 @@ module.exports = {
         // All options of ts-loader
       }
     },
-    // Git Log/Details
-    "git-log": { onlyFirstAndLastCommit: false },
     // Loading Progress Bar
     "vuepress-plugin-nprogress": {},
     // Reading Progress Bar
@@ -559,6 +557,7 @@ module.exports = {
     editLinks: true,
     nextLinks: false,
     prevLinks: false,
-    editLinkText: "Help us improve this page!"
+    editLinkText: "Help us improve this page!",
+    lastUpdated: "Last Updated"
   }
 };
