@@ -6,7 +6,7 @@ This document outlines how to set up a new customer with Rover BI.
 IMPORTANT: Customer MUST be running an up-to-date version of QM for Rover BI to function properly.
 
 ## Azure hybrid connection
-- [Hybrid connection setup guide](./hybrid-connection.md)
+- [Hybrid connection setup guide](../hybrid-connection/README.md)
 
 ## Create tenant from reports.rovererp.com/manager
 - Obtain license key from Entrinsik for new customer
