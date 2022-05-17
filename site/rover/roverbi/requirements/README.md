@@ -3,7 +3,7 @@
 
 This document outlines how to set up a new customer with Rover BI.
 
-IMPORTANT: Customer MUST be running an up-to-date version of QM for Rover BI to function properly.
+IMPORTANT: Customer MUST be running an up-to-date version of QM, and have a recent ACE update for Rover BI to function properly.
 
 ## Azure hybrid connection
 - [Hybrid connection setup guide](../hybrid-connection/README.md)
