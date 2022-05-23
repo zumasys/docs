@@ -20,5 +20,6 @@
 * [Tips & Tricks](./TipsandTricks/README.md)
 * [Rover BI (Under Construction)](./roverbi/README.md)
 * [Customer Portal](./Customer-Portal/README.md)
+* [Rover Hub Onboarding](./Rover-Hub-Onboarding/README.md)
 
 <PageFooter />
