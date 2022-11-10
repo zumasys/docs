@@ -37,6 +37,6 @@ These steps are covered by [Microsoft’s documentation](https://docs.microsoft.
 ## secrets file
 
 At this point, all that's left to do is add the new client entry to the secrets file on prod-rover-api.
-Format should be `"clientCode": "http://endpointHostname:endpointPort/roverAcct/"`
+Follow the format from the other customer entries.  When you are finished, make sure to update the Prod API Secrets note in LastPass.
 
 <PageFooter />
