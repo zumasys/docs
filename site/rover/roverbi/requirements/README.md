@@ -30,6 +30,6 @@ This document outlines how to set up a new customer with Rover BI.
 - Add NEW FIELD
   - Name/Label must be `clientCode`
   - Type must be `Text`
-  - Default Value must match the client code in the secrets file in Azure
+  - Default Value must match the customer's subscription key in the secrets file in Azure
 
 <PageFooter />
