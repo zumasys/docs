@@ -12,7 +12,7 @@ The steps below are to provide some helpful information and specific values for 
 - Select the “Create new hybrid connection” at the top of the next blade. (Note: you could add a previously configured connection to a second web app from the list of connections)
 - Provide the appropriate information:	
   - Hybrid connection name unique to this customer
-  - Endpoint host.  This MUST be the name of the computer where mvConnect is installed.  This can be found by opening a command prompt on the destination server and entering `hostname`. Copy and past that into the Endpoint Host filed.
+  - Endpoint host.  This MUST be the name of the computer where mvConnect is installed.  This can be found by opening a command prompt on the destination server and entering `hostname`. Copy and paste that into the Endpoint Host filed.
   - Endpoint Port.  8180 or whatever port we are going to communicate to. If they have caddy, this would be 443 (or possibly 80)
   - Service Bus Namespace (Create New)
     - Name (must be unique to this customer)
