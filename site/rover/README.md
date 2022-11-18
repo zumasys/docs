@@ -18,7 +18,7 @@
 * [ACE Utilities](./ACE-OVERVIEW/README.md)
 * [Services Setup](./M3-Services/README.md)
 * [Tips & Tricks](./TipsandTricks/README.md)
-* [Rover BI (Under Construction)](./roverbi/README.md)
+* [Rover BI](https://start.zumasys.com/rover/roverbi)
 * [Customer Portal](./Customer-Portal/README.md)
 * [Rover Hub Onboarding](./Rover-Hub-Onboarding/README.md)
 
