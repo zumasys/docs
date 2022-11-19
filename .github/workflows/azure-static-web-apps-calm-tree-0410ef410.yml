@@ -29,7 +29,7 @@ jobs:
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
           app_location: "/site" # App source code path
           api_location: "" # Api source code path - optional
-          output_location: "/dist" # Built app content directory - optional
+          output_location: "/site/.vuepress/dist" # Built app content directory - optional
           build_timeout_in_minutes: 180
           ###### End of Repository/Build Configurations ######
 
