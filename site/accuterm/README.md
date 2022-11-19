@@ -2,35 +2,6 @@
 
 <PageHeader />
 
-* [Getting Started](./getting-started/README.md)
-* [Release Notes](./release-notes/README.md)
-  * [8.0.1023](./release-notes/8.0.1023/README.md)
-* [License Activation](./license-activation/README.md)
-* [License & User Management](./license-and-user-management/README.md)
-  * [Creating Users](./license-and-user-management/creating-users/README.md)
-  * [Creating Roles](./license-and-user-management/creating-roles/README.md)  
-  * [Batch Actions](./license-and-user-management/batch-actions/README.md)  
-* [Desktop](./desktop/README.md) 
-  * [Rezume Session Resilience](./desktop/rezume-session-resilience/README.md)  
-* [Mobile](./mobile/README.md) 
-  * [Quick Start](./mobile/quick-start/README.md)
-  * [Connection Settings](./mobile/connection-settings/README.md)
-  * [Terminal Settings](./mobile/terminal-settings/README.md)
-  * [Colors & Themes Settings](./mobile/colors-and-themes-settings/README.md)
-  * [Screen Settings](./mobile/screen-settings/README.md)
-  * [Keyboard & Clipboard Settings](./mobile/keyboard-and-clipboard-settings/README.md) 
-* [Web](./web/README.md)
-  * [Installing AccuTerm IO Server](./web/installing-accuterm-io-server/README.md)
-  * [Creating Profiles](./web/creating-profiles/README.md)  
-  * [Profiles](./web/profiles/README.md)
-    * [Change AccuTerm.IO Password](./web/profiles/clipboard-settings/README.md)  
-    * [Clipboard Settings](./web/profiles/clipboard-settings/README.md)  
-    * [Connection Settings](./web/profiles/connection-settings/README.md)  
-    * [Font and Character Settings](./web/profiles/font-and-character-settings/README.md)  
-    * [Keyboard Options](./web/profiles/keyboard-options/README.md)  
-    * [Mouse Settings](./web/profiles/mouse-settings/README.md)  
-    * [Sound Settings](./web/profiles/sound-settings/README.md)  
-    * [Terminal Screen Options](./web/profiles/terminal-screen-options/README.md)  
-    * [Terminal Settings](./web/profiles/terminal-settings/README.md)
+AccuTerm documentation has moved to [Rocket Software](https://docs.rocketsoftware.com/bundle?name_filter.field=title&name_filter.value=AccuTerm&rpp=10&sort.field=last_uploaded&sort.value=desc). If you're seeing this, for some reason you were not redirected automatically so please click that link.
 
 <PageFooter />
