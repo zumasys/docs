@@ -3,7 +3,7 @@ home: true
 author: Zumasys
 heroImage: /assets/img/logo-grey.png
 heroText: Product Documentation
-tagline: Home for all Zumasys product documentation
+tagline: The knowledgebase for all Zumasys products
 footer: MIT Licensed | Copyright © 2019-present Zumasys
 ---
 

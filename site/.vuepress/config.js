@@ -7,9 +7,9 @@ const webpack = require("webpack");
 
 module.exports = {
   head: [["link", { rel: "icon", href: "/assets/img/favicon.ico" }]],
-  title: "Zumasys Documentation",
+  title: "Zumasys: Product Documentation",
   description:
-    "The official knowledgebase for all Zumasys products.",
+    "The knowledgebase for all Zumasys products.",
   markdown: {
     lineNumbers: true
   },
@@ -75,22 +75,16 @@ module.exports = {
         text: "Docs",
         ariaLabel: "Documentation Menu",
         items: [
-          { text: "POS Connect", link: "/pos-connect/" },
           { text: "Rover", link: "/rover/" },
           { text: "Smart Suite", link: "/smartsuite/" },
-          { text: "TotaLink", link: "/totalink/" }
+          { text: "TotaLink", link: "/totalink/" },
+          { text: "POS Connect", link: "/pos-connect/" }
         ]
       }
     ],
     //sidebar: barConfig.sidebar,
     sidebar: [
       "/",
-      {
-        title: "POS Connect",
-        path: "/pos-connect/",
-        collapsable: true,
-        children: [["/pos-connect/installation-guide/", "Installation Guide"]]
-      },
       {
         title: "Rover",
         path: "/rover/",
@@ -276,6 +270,12 @@ module.exports = {
         children: [
           ["/totalink/", "API"],
         ]
+      },
+      {
+        title: "POS Connect",
+        path: "/pos-connect/",
+        collapsable: true,
+        children: [["/pos-connect/installation-guide/", "Installation Guide"]]
       },
     ],
     repo: "https://github.com/zumasys/docs",
