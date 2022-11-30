@@ -1,6 +1,12 @@
-# Rover
+# Rover ERP Overview
 
 <PageHeader />
+
+![Rover ERP Logo](/assets/img/rover-erp.png)
+
+Rover ERP is a dynamic, powerful enterprise resource planner with a strong foundation in manufacturing and distribution processes. It includes a web based, mobile and desktop friendly interface as well as a traditional Windows Desktop thick client. To see more, [contact sales](mailto:sales@zumasys.com) today!
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yCBx1glrlXY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## General Documentation
 

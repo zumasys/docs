@@ -1,8 +1,10 @@
-# TotaLink API
+# Rover Pay Overview
 
 <PageHeader />
 
-## Table Contents
+Rover Pay, formerly TotaLink, is your one stop shop for merchant services including credit card and ACH payment processing. Rover Pay allows you to modernize your credit card and ACH workflows on both the web and in-person while affording you extremely competitive processing fees. To request access to Rover Pay please contact [sales@zumasys.com](mailto:sales@zumasys.com)
+
+## APIs
 
 Endpoint URL: [https://test-gateway.total-computing.com/api](https://test-gateway.total-computing.com/api)
 
@@ -20,7 +22,5 @@ Endpoint URL: [https://test-gateway.total-computing.com/api](https://test-gatewa
 | [blsignature](./BLSIGNATURE/README.md)     | Prompt Bolt Device for signature                  |
 | [blinquire](./BLINQUIRE/README.md)         | Inquire about an prior transaction using Invoice  |
 | [bliframe](./BLIFRAME/README.md)           | Returns an html file for data capture             |
-
-To request access to TotaLink please contact [sales@zumasys.com](mailto:sales@zumasys.com)
 
 <PageFooter />

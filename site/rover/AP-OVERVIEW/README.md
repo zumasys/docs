@@ -2,6 +2,8 @@
 
 <PageHeader />
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qt-Puu2vgMM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 [ Data Entry Procedures ](AP-ENTRY/README.md) | [ Reports and Inquiries ](AP-REPORT/README.md) | [ Update Processes ](AP-PROCESS/README.md)
 
 **Purpose**  

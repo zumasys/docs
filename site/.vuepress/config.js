@@ -65,28 +65,24 @@ module.exports = {
   },
   themeConfig: {
     logo: "/assets/img/logo-grey.png",
-    algolia: {
-      apiKey: process.env.VUE_APP_ALGOLIA_API_KEY,
-      indexName: process.env.VUE_APP_ALGOLIA_INDEX_NAME
-    },
     nav: [
       { text: "Home", link: "/" },
-      {
-        text: "Docs",
-        ariaLabel: "Documentation Menu",
-        items: [
-          { text: "Rover", link: "/rover/" },
-          { text: "Smart Suite", link: "/smartsuite/" },
-          { text: "TotaLink", link: "/totalink/" },
-          { text: "POS Connect", link: "/pos-connect/" }
-        ]
-      }
+      // {
+      //   text: "Docs",
+      //   ariaLabel: "Documentation Menu",
+      //   items: [
+      //     { text: "Rover", link: "/rover/" },
+      //     { text: "Smart Suite", link: "/smartsuite/" },
+      //     { text: "TotaLink", link: "/totalink/" },
+      //     { text: "POS Connect", link: "/pos-connect/" }
+      //   ]
+      // }
     ],
     //sidebar: barConfig.sidebar,
     sidebar: [
       "/",
       {
-        title: "Rover",
+        title: "Rover ERP",
         path: "/rover/",
         collapsable: true,
         children: [
@@ -109,7 +105,7 @@ module.exports = {
         ]
       },
       {
-        title: "Smart Suite",
+        title: "Rover POS",
         path: "/smartsuite/",
         collapsable: true,
         children: [
@@ -264,19 +260,19 @@ module.exports = {
         ]
       },
       {
-        title: "TotaLink",
+        title: "Rover Pay",
         path: "/totalink/",
         collapsable: true,
         children: [
           ["/totalink/", "API"],
         ]
       },
-      {
-        title: "POS Connect",
-        path: "/pos-connect/",
-        collapsable: true,
-        children: [["/pos-connect/installation-guide/", "Installation Guide"]]
-      },
+      // {
+      //   title: "POS Connect",
+      //   path: "/pos-connect/",
+      //   collapsable: true,
+      //   children: [["/pos-connect/installation-guide/", "Installation Guide"]]
+      // },
     ],
     repo: "https://github.com/zumasys/docs",
     docsBranch: "master",
