@@ -23,7 +23,7 @@
         <a href="/smartsuite/pos/">Rover POS</a><i> (formerly Smart Suite)</i><br />
         <a href="/rover/rover-marketplace-overview">Rover Marketplace: Overview</a></br>
         <a href="/rover/rover-scan-overview">Rover Scan: Overview</a></br>
-        <a href="/smartsuite/">All Smart Suite Docs</a>
+        <a href="https://training.total-computing.com/" target="_blank">All Smart Suite Docs</a>
       </p>
     </div>
     <div class="feature spacer">

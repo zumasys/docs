@@ -12,7 +12,7 @@ Output: Register, Transaction #, Date, Time, Cashier Code, Transaction Type, Pos
 
 ![](./pos-rp-1-1.1.png)
 
-#### Unique Field Options
+## Unique Field Options
 
 A/R Invoice: Allows you to specify an AR Invoice number to view the other transaction details.
 

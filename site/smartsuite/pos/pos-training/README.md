@@ -79,7 +79,7 @@ From the Main Menu, select the **Cash Register** option to get to the Sales Entr
 5. The **Description** field is filled in automatically. If the SKU or ISBN that you enter doesn’t have a price associated with it, you must fill in the **Price** field with the appropriate price. The **Extended** field is calculated by multiplying the value in the **Price** field with the value in the **Qty** field.
 6. To move from the item entry section of the cash register screen to the tender entry section, press the Total key. When the Total modifier has been entered, the **Sub Total**, **Sales Tax**, and **TOTAL** fields are automatically filled in.
 7. In the **Modifier or Tender** field, enter the tender amount followed by the tender code. For three dollars in cash, you would enter “3.00” and then press the key for the tender that you wish to use. You can also enter a modifier in this field to void an item or transaction, return to the item entry section, apply a discount to the transaction, and the like.
-8. Once you have entered enough tenders to meet or exceed the total amount due, the system will tell you the amount of change that should be given to the customer. It then gives you the option to continue or reprint the receipt. Once you press \[ENTER\] to continue, you will be returned to the **Tran Type** field to begin a new transaction.
+8. Once you have entered enough tenders to meet or exceed the total amount due, the system will tell you the amount of change that should be given to the customer. It then gives you the option to continue or reprint the receipt. Once you press `[ENTER]` to continue, you will be returned to the **Tran Type** field to begin a new transaction.
 
 ### Scanning Items
 
@@ -169,11 +169,9 @@ The item inquiry key can be used at any time while in the cash register screen. 
 4. After you have filled in all the necessary information for the gift certificate, and only after you have written the amount and voucher number on the gift certificate, press “*Enter*” to ‘Save’ the gift certificate to the system.
 5. Continue on with your transaction as you would any other transaction.
 
-***NOTE:***
-
-You may purchase multiple gift certificates per transaction (if they are buying 2 $20.00 gift certificates, you will be processing two different gift certificates in the system and they will have two separate ‘voucher numbers’.
-
-Only sell a gift certificate during a “SALE” transaction since that is what you are doing – you are ‘selling’ an item to them.
+> NOTE: You may purchase multiple gift certificates per transaction (if they are buying 2 $20.00 gift certificates, you will be processing two different gift certificates in the system and they will have two separate ‘voucher numbers’.
+> 
+> Only sell a gift certificate during a “SALE” transaction since that is what you are doing – you are ‘selling’ an item to them.
 
 #### Redeeming a Gift Certificate
 
@@ -189,7 +187,7 @@ After entering an item to purchase, you can press the “Memo” key to add a fr
 If you want the memo text printed on any receipts as well...
 
 1. Select each receipt header (POS-3-3)
-2. Select <R>=Receipt Detail
+2. Select `<R>`=Receipt Detail
 3. Add a new line number under *NewL*
 4. Set how many spaces you want the memo text *Indent*ed.
 5. Set MEMO as the *Attribute*.
@@ -279,7 +277,7 @@ Special Orders are used for items not in stock. Three major processes are involv
 12. In the **Special Instructions** field, enter any special instructions on the handling of the item.
 13. If the customer picks up the items, enter the number of items picked up in the **Picked Up** field. The **Date Picked Up** field is automatically filled in with the current date, but it can be modified.
 14. Repeat steps 10 through 13 for each item you would like to order.
-15. Press \[ENTER\] twice to save the order.
+15. Press `[ENTER]` twice to save the order.
 16. If you want to create Pending Orders for the items, enter “Y.” Otherwise, enter “N.”
 17. Optional Step: For GM or TRADE create a Pending Order. For Text items, add them to a Manual PO.
 18. Finish the Sales transaction.

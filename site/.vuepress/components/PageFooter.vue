@@ -1,11 +1,9 @@
 <template>
-    <div class="page-footer">
-        <Vssue />
-    </div>
+  <div class="page-footer"></div>
 </template>
 
 <script>
 export default {
-    name: 'PageFooter'
-}
+  name: "PageFooter",
+};
 </script>

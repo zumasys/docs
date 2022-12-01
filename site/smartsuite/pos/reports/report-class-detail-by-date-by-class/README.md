@@ -18,8 +18,7 @@ The screenshot below shows data on two days.
 
 ![](./pos-rp-1-1.2.png)
 
-
-#### Unique Field Options
+## Unique Field Options
 
 There are no unique fields in this report.
 

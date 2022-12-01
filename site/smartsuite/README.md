@@ -8,23 +8,14 @@ Rover POS, formerly Smart Suite, is a point-of-sale as a service application tha
 
 ## Smart Suite
 
-Traditional Smart Suite also includes a host of modules for Higher Education businesses.
+Traditional Smart Suite also includes a host of modules for Higher Education businesses. Most documentation can be found on the Smart Suite [knowledgebase](https://training.total-computing.com/). Additional documentation is below:
 
-* [Accounts Payable](./ap/README.md)  
-* [Accounts Receivable](./ar/README.md)  
 * [APIs](./api/README.md)  
-* [General Ledger](./gl/README.md)  
-* [General Merchandise](./gm/README.md)  
-* [Graphical Interface (GUI)](./gui/README.md)  
-* [Hardware Devices](./hardware/README.md)  
-* [Retail Stock Ledger](./rsl/README.md)  
-* [System Setup](./system/README.md)  
-* [Textbooks](./text/README.md)  
-* [Webstore](./web/README.md)  
 * [Release Notes](./release-notes/README.md)  
+* [SSO w/ Azure Setup](./sso-with-azure-setup/README.md)  
 
 ## POS Connect
 
-* [Installation Guide](/pos-connect/)
+* [Installation Guide](/pos-connect/README.md)  
   
 <PageFooter />

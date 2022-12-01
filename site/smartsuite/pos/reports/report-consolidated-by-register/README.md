@@ -12,7 +12,7 @@ Output: Register, Quantity, Sell Price Extended, Item Discount Total, Item Markd
 
 ![](./pos-rp-1-2.1.png)
 
-#### Unique Field Options
+## Unique Field Options
 
 A/R Invoice: Allows you to specify an AR Invoice number to view the other transaction details.
 

@@ -16,12 +16,11 @@ This screenshot shows a single day with the "Sort by Report Code" field set to a
 
 ![](./pos-rp-1-3-3.1.png)
 
-
 In this example we have six days worth of data. The format of this report remains the same, the numbers simply include more days.
 
 ![](./pos-rp-1-3-3.2.png)
 
-#### Unique Field Options
+## Unique Field Options
 
 Sort by Report Code: Allows you to override the numerical listing of class codes into their class report group. This is essentially an override of the default numerical sorting of class codes.
 

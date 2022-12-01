@@ -1,6 +1,6 @@
 # Running Reports Best Practices and Procedures
 
-<PageHeader >
+<PageHeader />
 
 Below is a list of the most common report fields and what they do. The purpose of this article is to avoid having to specify "the Store field restricts the report to the specified store" on every single report article.
 
