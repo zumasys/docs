@@ -8,6 +8,9 @@ These are the release notes for version 1.0.12 of the Rover Web application.
 
 ## Features
 
+- **Customers**
+  - Upgraded the search function to display results to a data table
+  - Now tracking recently viewed customers in a new data table
 - **Tickets & Time**
   - Upgraded the main display to a data table
   - Added `Status` and `Date` columns
