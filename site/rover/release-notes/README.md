@@ -8,6 +8,7 @@ Public release notes coming soon. [Reach out](mailto:sales@zumasys.com) to hear 
 
 ## Rover Web
 
+[v1.0.13](./web-1-0-13/README.md)
 [v1.0.12](./web-1-0-12/README.md)
 
 <PageFooter />
