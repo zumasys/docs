@@ -11,7 +11,7 @@ These are the release notes for version 1.0.14 of the Rover Web application.
 - **Sales Quotes**
   - Default to first company
   
- - **Customers**
+- **Customers**
   - Remove recently viewed customers
 
 - **Sales Orders**
@@ -22,6 +22,7 @@ These are the release notes for version 1.0.14 of the Rover Web application.
 
 - **Invoices**
   - Successful payments
+
 - **Sales Orders**
   - Sort by ID
 
