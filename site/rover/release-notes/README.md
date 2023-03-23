@@ -8,6 +8,8 @@ Public release notes coming soon. [Reach out](mailto:sales@zumasys.com) to hear 
 
 ## Rover Desktop - .NET Client
 
+[v1.2.14](./desktop/1-2-14/README.md)
+
 [v1.2.13](./desktop/1-2-13/README.md)
 
 ## Rover Web
