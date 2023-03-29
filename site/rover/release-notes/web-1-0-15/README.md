@@ -9,39 +9,36 @@ These are the release notes for version 1.0.15 of the Rover Web application.
 ## Features
   
 - **Customers**
-  - Customer module UI updated to match designs
+  - Updated the user interface to deliver a brand new look. Check it out!
 
 - **Sales Quotes**
-  - Added delete button for parts
-  - Edit part description
+  - You can now delete `Parts` from a quote
+  - You can now edit the description of `Parts`
 
 - **Sales Orders**
-  - Add Rep column to datatable
+  - The datatable now contains the `Rep` field
 
 - **Scan**
-  - Inventory Order program 
+  - You can now perform an inventory transfer into a sales order. Contact us for more details!
 
 - **General**
-  - Update title UI in navigation bar
+  - Updated the page title font in the navigation bar
 
 ## Bug Fixes
 
 - **Customers**
-  - Contact log default new log to current user
-  - Customer search navigates to search results
-
-- **Tickets & Time**
-  - Fixed billing time on new ticket
+  - Updated new contact log form to set the user by default 
+  - Searching for customers now navigates to the search results automatically
 
 - **Attachments**
-  - Refresh after adding/removing 
+  - Adding or removing attachments now refreshes the list of attachments
 
 - **Sales Quotes**
-  - Assign line item field on quote creation
-  - Default contact name in customer module
+  - Line items are now properly set on quote creation
+    - This also fixes issues with quotes total calculation
+  - Contact name now defaults to first contact when creating a quote in the customer module
 
 - **Sales Opportunities**
-  - Saving when adding Quote ID
-  - Saving when adding Order ID
+  - Fixed issue when saving sales quote and orders after entering 
 
 <PageFooter />
