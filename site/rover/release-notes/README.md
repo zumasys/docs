@@ -10,6 +10,8 @@ Public release notes coming soon. [Reach out](mailto:sales@zumasys.com) to hear 
 
 Download latest [here!](https://roverdesktop.blob.core.windows.net/apps/rover-installer@latest.zip)
 
+[v1.2.15](./desktop/1-2-14/README.md)
+
 [v1.2.14](./desktop/1-2-14/README.md)
 
 [v1.2.13](./desktop/1-2-13/README.md)
