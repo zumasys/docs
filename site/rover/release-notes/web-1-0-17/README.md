@@ -6,6 +6,11 @@
 
 These are the release notes for version 1.0.17 (4/11/2023) of the Rover Web application.
 
+## Updates
+
+- **Footer**
+  - Footer now includes link to version notes.
+
 ## Bug Fixes
 
 - **Customers**
