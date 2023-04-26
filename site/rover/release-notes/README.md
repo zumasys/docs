@@ -4,7 +4,11 @@
 
 ## Rover ERP
 
-Public release notes coming soon. [Reach out](mailto:sales@zumasys.com) to hear more about what an upgrade can do for your system!
+Here's a sneak peek of what's to come in Rover Web as of [v1.0.17](./web-1-0-17/README.md).
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vIqJ_ito4as" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[Reach out](mailto:sales@zumasys.com) to hear more about what an upgrade can do for your system!
 
 ## Rover Desktop - .NET Client
 
@@ -31,11 +35,5 @@ Download latest [here!](https://roverdesktop.blob.core.windows.net/apps/rover-in
 [v1.0.13](./web-1-0-13/README.md)
 
 [v1.0.12](./web-1-0-12/README.md)
-
-### Sneak Peek
-
-Here's a sneak peek of what's to come in Rover Web as of [v1.0.17](./web-1-0-17/README.md).
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vIqJ_ito4as" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 <PageFooter />
