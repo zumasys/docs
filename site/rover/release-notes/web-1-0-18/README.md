@@ -44,7 +44,7 @@ These are the release notes for version 1.0.18 (05/01/2023) of the Rover Web app
   - Issue with saving customers in General Tab has been resolved.
 
 - **Sales Opportunities**
-  - Closing sales opportunties after making changes now reverts back to the original record.
+  - Closing sales opportunities after making changes now reverts back to the original record.
 
 - **General**
   - Dates have been updated to work in Firefox browser.
