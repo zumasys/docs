@@ -257,4 +257,12 @@ This cheat sheet provides a list of commonly used processes, reports, and entry 
 |Review audit report | AP/AP.REPORT | [PRECHECKS.R1](../AP-OVERVIEW/AP-REPORT/PRECHECKS-R1/README.md) | Same list, but with check number (optional). |
 |Post checks | AP/AP.PROCESS | [CHECKS.P1](../AP-OVERVIEW/AP-PROCESS/CHECKS-P1/README.md) | Leave start/end number blank to post all. Enter a range to post selected checks if some checks printed incorrectly. |
 
+#### Additional Procedures
+| Activity      | Menu/Sub    | Procedure        | Notes |
+|---------------|-------------|------------------|-------|
+|Vendor inquiry |  AP/AP.REPORT | [VENDOR.Q](../AP-OVERVIEW/AP-REPORT/VENDOR-Q/README.md)     | View vendor receipts and AP activity. |
+|Void checks    |  AP/AP.ENTRY  | [CHECKS.E2](../AP-OVERVIEW/AP-ENTRY/CHECKS-E2/README.md)    | |
+|List checks    |  AP/AP.REPORT | [CHECKS.R1](../AP-OVERVIEW/AP-REPORT/CHECKS-R1/README.md)    | |
+|AP Accrual listing | AP/AP.REPORT | [AP.R9](../AP-OVERVIEW/AP-REPORT/AP-R1/AP-R9/README.md)     | Shows all RECEIPTS that aren't matched to an AP record. |
+
 </PageFooter>
