@@ -19,6 +19,7 @@ Rover ERP is a dynamic, powerful enterprise resource planner with a strong found
 
 ## Modules
 
+* [Overview (Cheat Sheet)](./cheat-sheet/README.md)
 * [Accounts Payable](./AP-OVERVIEW/README.md)
 * [Document Control](./DOC-OVERVIEW/README.md)
 * [Engineering](./ENG-OVERVIEW/README.md)
