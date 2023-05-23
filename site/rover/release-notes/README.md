@@ -14,6 +14,8 @@ Here's a sneak peek of what's to come in Rover Web as of [v1.0.18](./web-1-0-18/
 
 Download latest [here!](https://roverdesktop.blob.core.windows.net/apps/rover-installer@latest.zip)
 
+[v1.2.17](./desktop/1-2-17/README.md)
+
 [v1.2.16](./desktop/1-2-16/README.md)
 
 [v1.2.15](./desktop/1-2-15/README.md)
