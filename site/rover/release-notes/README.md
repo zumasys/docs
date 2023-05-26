@@ -26,6 +26,8 @@ Download latest [here!](https://roverdesktop.blob.core.windows.net/apps/rover-in
 
 ## Rover Web
 
+[v1.0.19](./web-1-0-19/README.md)
+
 [v1.0.18](./web-1-0-18/README.md)
 
 [v1.0.17](./web-1-0-17/README.md)
