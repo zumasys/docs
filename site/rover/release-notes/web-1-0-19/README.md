@@ -30,4 +30,10 @@ These are the release notes for version 1.0.19 (05/26/2023) of the Rover Web app
   - Contacts Log: Fixed issue where adding contacts log entries was not working properly.
   - Customer Address: Fixed issue where the address was not being displayed properly and not being saved properly.
 
+## Sneak Peek
+
+Here's a sneak peek of what's to come in Rover Web courtesy of our most recent internal demo day.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jb5Ht7JaWr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <PageFooter />
