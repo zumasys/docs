@@ -4,25 +4,23 @@
 
 ## Rover ERP
 
-Here's a sneak peek of what's to come in Rover Web as of [v1.0.18](./web-1-0-18/README.md).
+Here's a sneak peek of what's to come in Rover Web as of [v1.0.19](./web-1-0-19/README.md).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/jb5Ht7JaWr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-[Reach out](mailto:sales@zumasys.com) to hear more about what an upgrade can do for your system!
+📧 [Reach out](mailto:sales@zumasys.com) to hear more about what an upgrade can do for your system!
 
 ## Rover Desktop - .NET Client
 
-Download latest [here!](https://roverdesktop.blob.core.windows.net/apps/rover-installer@latest.zip)
+🚀 Download the latest desktop client latest [here!](https://roverdesktop.blob.core.windows.net/apps/rover-installer@latest.zip)
 
-[v1.2.17](./desktop/1-2-17/README.md)
-
-[v1.2.16](./desktop/1-2-16/README.md)
-
-[v1.2.15](./desktop/1-2-15/README.md)
-
-[v1.2.14](./desktop/1-2-14/README.md)
-
-[v1.2.13](./desktop/1-2-13/README.md)
+| Version                               | Date       | Download                                                                         |
+| ------------------------------------- | ---------- | -------------------------------------------------------------------------------- |
+| [v1.2.17](./desktop/1-2-17/README.md) | 2023-05-23 | [🔗](https://roverdesktop.blob.core.windows.net/apps/rover-installer-1.2.17.zip) |
+| [v1.2.16](./desktop/1-2-16/README.md) | 2023-04-17 | [🔗](https://roverdesktop.blob.core.windows.net/apps/rover-installer-1.2.16.zip) |
+| [v1.2.15](./desktop/1-2-15/README.md) | 2023-04-04 | [🔗](https://roverdesktop.blob.core.windows.net/apps/rover-installer-1.2.15.zip) |
+| [v1.2.14](./desktop/1-2-14/README.md) | 2023-03-22 | [🔗](https://roverdesktop.blob.core.windows.net/apps/rover-installer-1.2.14.zip) |
+| [v1.2.13](./desktop/1-2-13/README.md) | 2023-03-21 | [🔗](https://roverdesktop.blob.core.windows.net/apps/rover-installer-1.2.13.zip) |
 
 ## Rover Web
 
