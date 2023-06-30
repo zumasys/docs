@@ -36,4 +36,10 @@ These are the release notes for version 1.0.20 (06/21/2023) of the Rover Web app
   - General: Fixed issue where creating a customer showed an error but the customer was created.
   - Contacts: Fixed issue creating, editing, and deleting contacts. Contact type dropdown menu is not populating.
 
+## Sneak Peek
+
+Here's a sneak peek of what's to come in Rover Web courtesy of our most recent internal demo day.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cEspiKs3f4Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 <PageFooter />
