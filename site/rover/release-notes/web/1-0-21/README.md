@@ -66,5 +66,11 @@ These are the release notes for version 1.0.21 (07/31/2023) of the Rover Web app
   - Tickets & Time: Fixed bug that caused no tickets to display with customers with large amount of tickets.
   - Tickets & Time: Fixed sorting tickets by date.
 
+## Sneak Peek
+
+Here's a sneak peek of what's to come in Rover Web courtesy of our most recent internal demo day.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8j7BpU8ZAcY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 
 <PageFooter />
