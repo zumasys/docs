@@ -1,15 +1,15 @@
-##  Field Service Overview
+# Field Service Overview
 
 <PageHeader />
 
-[ Data Entry Procedures ](FS-ENTRY/README.md) | [ Reports and Inquiries ](FS-REPORT/README.md) | [ Update Processes ](FS-PROCESS/README.md)
+[Data Entry Procedures](FS-ENTRY/README.md) | [Reports and Inquiries](FS-REPORT/README.md) | [Update Processes](FS-PROCESS/README.md)
 
 **Purpose**  
 The Field Service module provides the functions required to administer and
-execute the activities required for a field serive organization. These include
+execute the activities required for a field service organization. These include
 service order creation, monitoring and posting, preventive maintenance
 tracking and scheduling, warranty tracking, inventory management, time and
-materials tracking, invoicing, and chargeback processing.
+materials tracking, invoicing, and charge back processing.
 
 **Prerequisites**  
 The Engineering and Inventory modules must be installed before using this
@@ -30,11 +30,11 @@ a part used page which identifies the parts used during the service and their
 associated charges, and a revenue summary page which summarizes the charges,
 costs and profit or loss for the order.  
   
-The Serial file (SERIAL) maintains a history and status of each product for
+The Serial file (`SERIAL`) maintains a history and status of each product for
 which service has or could be performed. It also maintains warranty
 information and preventive maintenance schedules.  
   
-The Customer file (CUST) maintains one record for each customer used in the
+The Customer file (`CUST`) maintains one record for each customer used in the
 field service process. The records are optionally keyed by a user defined
 number or automatically assigned a sequential number if desired. Along with
 the standard customer information such as address, phone, contact, etc., the
@@ -83,32 +83,32 @@ the system administrator since these are usually run overnight.
 The following are required setup procedures which must be performed prior to
 the normal flow of activities:  
   
-[ TERMS.E ](../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E)   
+[TERMS.E](../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E)
 Definition of the payment terms for customers.  
   
-[ CUST.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E)   
+[CUST.E](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E)
 Identification of customers.  
   
-[ FS.CONTROL ](FS-CONTROL/README.md)   
+[FS.CONTROL](FS-ENTRY/FS-CONTROL/README.md)
 Definition of control information used in the module.  
   
-[ REP.E ](../../rover/AP-OVERVIEW/AP-ENTRY/PRECOMM-E/PRECOMM-E-1/REP-E)   
+[REP.E](../../rover/AP-OVERVIEW/AP-ENTRY/PRECOMM-E/PRECOMM-E-1/REP-E)
 Identification of sales representatives.  
   
-[ PRICE.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/PRICE-E)   
+[PRICE.E](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/PRICE-E)
 Entry of product prices.  
   
-[ STAX.E ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/STAX-E)   
+[STAX.E](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/STAX-E)
 Sale tax code entry.
 
 **Flow of Activities**  
-The flow of processing for the field service module begins with the entry of the service order in the [ FSO.E ](FSO-E/README.md) procedure. This may occur before the the service call is made based on a call from a customer needing service or a scheduled preventive maintenance. In these cases basic information about the customer and the item to be serviced are entered and a service order form may be printed. This step may be skipped if desired. After the service is performed information regarding the labor expended and the materials consumed are entered into the order. When all the information has been entered the order may be placed in a completed status. Inventory is depleted at this time.   
+The flow of processing for the field service module begins with the entry of the service order in the [FSO.E](FS-ENTRY/FS-CONTROL/FSO-E/README.md) procedure. This may occur before the the service call is made based on a call from a customer needing service or a scheduled preventive maintenance. In these cases basic information about the customer and the item to be serviced are entered and a service order form may be printed. This step may be skipped if desired. After the service is performed information regarding the labor expended and the materials consumed are entered into the order. When all the information has been entered the order may be placed in a completed status. Inventory is depleted at this time.
   
-Once the service order has been closed, the [ FSO.P1 ](FSO-P1/README.md) procedure will post the information, updating the sales history file (SALES), the commission file (COMM) and, when active will update the accounts receivable module with the amounts due. Accounts payable deits will be created for chargebacks as well.   
+Once the service order has been closed, the [FSO.P1](FS-PROCESS/FSO-P1/README.md) procedure will post the information, updating the sales history file (SALES), the commission file (COMM) and, when active will update the accounts receivable module with the amounts due. Accounts payable debits will be created for charge backs as well.
   
-The maintenance of the Customer file ( [ CUST.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) ) and the Terms file ( [ TERMS.E ](../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E) ) should be done as new items are required or changes need to be made.   
+The maintenance of the Customer file ( [CUST.E](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) ) and the Terms file ( [TERMS.E](../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E) ) should be done as new items are required or changes need to be made.
   
-Items should be added and updated as required to the serial master file as required using [ SERIAL.E ](SERIAL-E/README.md) .   
+Items should be added and updated as required to the serial master file as required using [SERIAL.E](FS-ENTRY/SERIAL-E/README.md) .
   
 At some point in time it may be appropriate purge some of the older service
 orders the system. This is done with the purge procedure provided in the batch
