@@ -4,7 +4,7 @@
 
 Rover ERP is accessed through a program that must be installed on each client computer.
 
-[You can find the latest client installer here](https://roverdesktop.blob.core.windows.net/apps/rover-installer-1.4.1.zip)
+[You can find the latest client installer here](https://roverdesktop.blob.core.windows.net/apps/rover-installer-1.5.0.zip)
 
 Download the client linked above and extract it. Double click on `setup`.
 
