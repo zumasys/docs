@@ -17,8 +17,7 @@ These are the release notes for version 1.5.0 of the Rover Desktop application.
 **Forms**
 - Addresses an issue with Prev/Next buttons on certain forms not moving through items correctly.  
 - Addresses retaining the previously focused control after Prev/Next button clicks.
-- Addresses issue with bottom navigation button on certain vertical scrollbars being hidden by the form status bar.
-- Addresses application crash durring certain form operations where a dialog is presented from a selection grid.
+- Addresses application crash during certain form operations where a dialog is presented from a selection grid.
 
 
 <PageFooter />
