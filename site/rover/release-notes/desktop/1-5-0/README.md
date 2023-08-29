@@ -6,7 +6,7 @@
 
 These are the release notes for version 1.5.0 of the Rover Desktop application.
 
-<!-- You can download this version [here!](https://roverdesktop.blob.core.windows.net/apps/rover-installer-1.5.0.zip) !-->
+This version was replaced by 1.5.1 to address an installer issue. 1.5.1 can be downloaded [here!](https://roverdesktop.blob.core.windows.net/apps/rover-installer-1.5.1.zip) !-->
 
 ## Bug Fixes
 
