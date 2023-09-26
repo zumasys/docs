@@ -36,17 +36,17 @@ Displays all open orders along with their ID’s, Reps, Type, Order Date, Purcha
 #### OUTSTANDING INVOICES 
 Lists all outstanding invoices. Pulls this information from AP.E in Rover client. 
 
- ![POS Open_Invoices](./RPOS-openinvoices.jpg)
+ ![POS Open_Invoices](./RPOS-openinvoices.png)
 
 ##### PAYMENT METHODS
 Allows the saving of multiple payment methods for quick and easy checkouts. 
 
-![POS payment_info](./RPOS-paymentinfo.jpg)
+![POS payment_info](./RPOS-paymentinfo.png)
 
 
 ## Order Information
 
-![POS Order_Info](./RPOS-orderinfo.jpg)
+![POS Order_Info](./RPOS-orderinfo.png)
  
 On the order information screen you will be presented with the Address Information list.  The addresses are automatically pulled from the entries that already exist in CUST.E from the Rover client. Conversely, pressing the “Use New Address” button will create a new address in CUST.E once the new address has been saved. 
 
@@ -57,7 +57,7 @@ Confirm that the order information on the right of the page is correct then hit 
 
 ## Order Completion
 
-![POS Order_Completion](./RPOS-ordercomplete.jpg)
+![POS Order_Completion](./RPOS-ordercomplete.png)
 
 The Sales Order has now been created.  Customers equipped with Rover Pay can continue to payment of the order. 
 
