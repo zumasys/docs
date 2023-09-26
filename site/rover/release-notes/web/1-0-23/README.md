@@ -22,6 +22,9 @@ These are the release notes for version 1.0.23 (09/19/2023) of the Rover Web app
     - Search, modify, and create new fields service orders.
     - Add operations based on the type of field service order.
     - Track time to complete and capture customer signature.
+   
+- **Icons**
+  - New and improved module icons in the sidebar. Check them out!
 
 
 - **Login**
