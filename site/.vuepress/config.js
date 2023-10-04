@@ -79,7 +79,7 @@ module.exports = {
           ["/rover/MRK-OVERVIEW/", "Marketing"],
           ["/rover/PRO-OVERVIEW/", "Production"],
           ["/rover/PROJ-OVERVIEW/", "Project Management"],
-          ["/rover/PUR-OVERVIEW/", "Purchasing"]
+          ["/rover/PUR-OVERVIEW/", "Purchasing"],
           ["/rover/POS/", "Rover POS"]
         ]
       },
