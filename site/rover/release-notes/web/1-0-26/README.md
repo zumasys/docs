@@ -9,8 +9,8 @@ These are the release notes for version 1.0.26 (10/30/2023) of the Rover Web app
 ## Features
 
 - **Point of Sale**
-  - Aging summary information has been to the invoice tab! You can now view the breakdown of the customer's outstanding invoices.
-  - Customer statements can now be downloaded or emailed in the invoices tab.
+  - Aging summary information has been added to the invoice tab! You can now view the breakdown of the customer's outstanding invoices.
+  - Customer statements can now be downloaded/emailed in the invoices tab.
 
 ## Updates
 
