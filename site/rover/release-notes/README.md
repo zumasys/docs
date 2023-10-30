@@ -4,9 +4,9 @@
 
 ## Rover ERP
 
-Here's a sneak peek of what's to come in Rover Web as of [v1.0.25](./web/1-0-25/README.md).
+Here's a sneak peek of what's to come in Rover Web as of [v1.0.26](./web/1-0-26/README.md).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/l3u8ToUIcfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/35xZMPMm7o8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 📧 [Reach out](mailto:sales@zumasys.com) to hear more about what an upgrade can do for your system!
 
@@ -31,9 +31,10 @@ Here's a sneak peek of what's to come in Rover Web as of [v1.0.25](./web/1-0-25/
 
 | Version                           | Date       | Video                                             |
 | --------------------------------- | ---------- | ------------------------------------------------- |
+| [v1.0.26](./web/1-0-26/README.md) | 2023-10-30 | [📹](https://www.youtube.com/watch?v=35xZMPMm7o8) |
 | [v1.0.25](./web/1-0-25/README.md) | 2023-10-11 | N/A |
 | [v1.0.24](./web/1-0-24/README.md) | 2023-10-04 | N/A |
-| [v1.0.23](./web/1-0-23/README.md) | 2023-09-19 | [📹](https://www.youtube.com/watch?v=l3u8ToUIcfI) 
+| [v1.0.23](./web/1-0-23/README.md) | 2023-09-19 | [📹](https://www.youtube.com/watch?v=l3u8ToUIcfI) |
 | [v1.0.22](./web/1-0-22/README.md) | 2023-08-15 | N/A |
 | [v1.0.21](./web/1-0-21/README.md) | 2023-07-31 | [📹](https://www.youtube.com/watch?v=8j7BpU8ZAcY) |
 | [v1.0.20](./web/1-0-20/README.md) | 2023-06-21 | [📹](https://www.youtube.com/watch?v=cEspiKs3f4Q) |
