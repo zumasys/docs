@@ -24,7 +24,7 @@ You can download this version [here!](https://roverdesktop.blob.core.windows.net
 
 **Editor**
 - Addresses issue with Ctrl-F when an existing search term is already populated in find textbox.
-- Cancels text selection when iniating search from selected text.
+- Cancels text selection when initiating search from selected text.
 
 
 
