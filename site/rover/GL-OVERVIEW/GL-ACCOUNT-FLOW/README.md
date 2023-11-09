@@ -63,6 +63,7 @@ In this example the customer was charged $100 but only $98 was netted because th
 
 ## Invoicing a Non-PO Receipt Item or Expense Directly in AP.E
 In the example below the item costs $110 and was paid early to get the terms discount of $2.00. Because there was no PO issued, the invoice was entered directly in AP.E.
+
 ![Invoice Receipt Item](./invoicereceiptitem.png)
 
 ## Creating a Debit Memo for a Non-PO Item or Expense Directly in AP.E
