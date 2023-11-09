@@ -73,7 +73,7 @@ module.exports = {
           ["/rover/EXEC-OVERVIEW/", "Executive Summary"],
           ["/rover/FS-OVERVIEW/", "Field Service"],
           {
-          title: "General Ledge"
+          title: "General Ledger",
           path: "/rover/GL-OVERVIEW/",
           collapsable: true,
           children: [
