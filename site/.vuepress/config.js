@@ -72,7 +72,16 @@ module.exports = {
           ["/rover/ENG-OVERVIEW/", "Engineering"],
           ["/rover/EXEC-OVERVIEW/", "Executive Summary"],
           ["/rover/FS-OVERVIEW/", "Field Service"],
-          ["/rover/GL-OVERVIEW/", "General Ledger"],
+          {
+          title: "General Ledge"
+          path: "/rover/GL-OVERVIEW/",
+          collapsable: true,
+          children: [
+            ["/rover/GL-OVERVIEW/GL-ACCOUNT-FLOW/", "Account Flow"],
+            ["/rover/GL-OVERVIEW/GL-ENTRY/", "Entry"],
+            ["/rover/GL-OVERVIEW/GL-PROCESS/", "Process"],
+            ["/rover/GL-OVERVIEW/GL-REPORT/", "Report"]
+          },
           ["/rover/INV-OVERVIEW/", "Inventory"],
           ["/rover/M3-Services/", "Services Setup"],
           ["/rover/MFG-OVERVIEW/", "Manufacturing Planning"],
