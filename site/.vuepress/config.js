@@ -80,7 +80,7 @@ module.exports = {
             ["/rover/GL-OVERVIEW/GL-ACCOUNT-FLOW/", "Account Flow"],
             ["/rover/GL-OVERVIEW/GL-ENTRY/", "Entry"],
             ["/rover/GL-OVERVIEW/GL-PROCESS/", "Process"],
-            ["/rover/GL-OVERVIEW/GL-REPORT/", "Report"]
+            ["/rover/GL-OVERVIEW/GL-REPORT/", "Report"]]
           },
           ["/rover/INV-OVERVIEW/", "Inventory"],
           ["/rover/M3-Services/", "Services Setup"],
