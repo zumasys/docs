@@ -89,7 +89,8 @@ module.exports = {
           ["/rover/PRO-OVERVIEW/", "Production"],
           ["/rover/PROJ-OVERVIEW/", "Project Management"],
           ["/rover/PUR-OVERVIEW/", "Purchasing"],
-          ["/rover/POS/", "Rover POS"]
+          ["/rover/POS/", "Rover POS"],
+          ["site/rover/workflowmgmt/", "Workflow Management"]
         ]
       },
       {
