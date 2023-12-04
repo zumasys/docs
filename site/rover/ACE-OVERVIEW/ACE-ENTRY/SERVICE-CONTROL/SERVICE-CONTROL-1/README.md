@@ -4,7 +4,7 @@
 
 ##
 
-![](./SERVICE-CONTROL-1.jpg)
+![SERVICE_CONTROL](./SERVICE-CONTROL-1.png)
 
 **Control ID** Automatically populated with "SERVICE".  
   
