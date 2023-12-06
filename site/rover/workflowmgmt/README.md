@@ -13,7 +13,7 @@ Note: This provides control over how accounts will or will not use Alerts. Servi
 
 ![SERVICE_CONTROL](./servicecontrol.png)
 
-To learn more about SERVICE.CONTROL please read our [Manage Services (SERVICE.CONTROL)](ACE-OVERVIEW/ACE-ENTRY/SERVICE-CONTROL/SERVICE-CONTROL-1/README.md) page.
+To learn more about SERVICE.CONTROL please read our [Manage Services (SERVICE.CONTROL)](./../ACE-OVERVIEW/ACE-ENTRY/SERVICE-CONTROL/SERVICE-CONTROL-1/README.md) page.
 
 ## Set Host Mail Parameters (MAIL.CONTROL)
 If the ability to forward messages to external email is required, the MAIL.CONTROL procedure must be setup.
