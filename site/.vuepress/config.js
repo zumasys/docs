@@ -66,7 +66,15 @@ module.exports = {
         children: [
           ["/rover/client-setup/", "Client Setup"],
           ["/rover/ACCOUNT-CONTROL/", "Account Control"],
-          ["/rover/ACE-OVERVIEW/", "ACE Utilities"],
+          {
+          title: "ACE Utilities",
+          path: "/rover/ACE-OVERVIEW/",
+          collapsable: true,
+          children: [
+            ["/rover/ACE-OVERVIEW/ACE-ENTRY/", "ACE Entry"],
+            ["/rover/ACE-OVERVIEW/ACE-PROCESS/", "ACE Process"],
+            ["/rover/ACE-OVERVIEW/ACE-REPORT/", "ACE Report"]]
+          },
           ["/rover/AP-OVERVIEW/", "Accounts Payable"],
           ["/rover/DOC-OVERVIEW/", "Document Control"],
           ["/rover/ENG-OVERVIEW/", "Engineering"],
