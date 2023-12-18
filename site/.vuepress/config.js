@@ -140,9 +140,25 @@ module.exports = {
             ["/rover/GL-OVERVIEW/GL-PROCESS/", "GL Process"],
             ["/rover/GL-OVERVIEW/GL-REPORT/", "GL Report"]]
           },
-          ["/rover/INV-OVERVIEW/", "Inventory"],
+          {
+          title: "Inventory",
+          path: "/rover/INV-OVERVIEW/",
+          collapsable: true,
+          children: [
+            ["/rover/INV-OVERVIEW/INV-ENTRY/", "Inventory Entry"],
+            ["/rover/INV-OVERVIEW/INV-PROCESS/", "Inventory Process"],
+            ["/rover/INV-OVERVIEW/INV-REPORT/", "Inventory Report"]]
+          },
           ["/rover/M3-Services/", "Services Setup"],
-          ["/rover/MFG-OVERVIEW/", "Manufacturing Planning"],
+          {
+          title: "Manufacturing Planning",
+          path: "/rover/MFG-OVERVIEW/",
+          collapsable: true,
+          children: [
+            ["/rover/MFG-OVERVIEW/MFG-ENTRY/", "Manufacturing Entry"],
+            ["/rover/MFG-OVERVIEW/MFG-PROCESS/", "Manufacturing Process"],
+            ["/rover/MFG-OVERVIEW/MFG-REPORT/", "Manufacturing Report"]]
+          },
           ["/rover/MRK-OVERVIEW/", "Marketing"],
           ["/rover/PRO-OVERVIEW/", "Production"],
           ["/rover/PROJ-OVERVIEW/", "Project Management"],
