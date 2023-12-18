@@ -103,18 +103,42 @@ module.exports = {
             ["/rover/DOC-OVERVIEW/DOC-REPORT/", "DOC Report"],
             ["/rover/DOC-OVERVIEW/Doc-Control/", "DOC Control"]]
           },
-          ["/rover/ENG-OVERVIEW/", "Engineering"],
-          ["/rover/EXEC-OVERVIEW/", "Executive Summary"],
-          ["/rover/FS-OVERVIEW/", "Field Service"],
+          {
+          title: "Engineering",
+          path: "/rover/ENG-OVERVIEW/",
+          collapsable: true,
+          children: [
+            ["/rover/ENG-OVERVIEW/ENG-ENTRY/", "ENG Entry"],
+            ["/rover/ENG-OVERVIEW/ENG-PROCESS/", "ENG Process"],
+            ["/rover/ENG-OVERVIEW/ENG-REPORT/", "ENG Report"]]
+          },
+          {
+          title: "Executive Summary",
+          path: "/rover/EXEC-OVERVIEW/",
+          collapsable: true,
+          children: [
+            ["/rover/EXEC-OVERVIEW/EXEC-ENTRY/", "Executive Entry"],
+            ["/rover/EXEC-OVERVIEW/EXEC-PROCESS/", "Executive Process"],
+            ["/rover/EXEC-OVERVIEW/EXEC-REPORT/", "Executive Report"]]
+          },
+          {
+          title: "Field Service",
+          path: "/rover/FS-OVERVIEW/",
+          collapsable: true,
+          children: [
+            ["/rover/FS-OVERVIEW/FS-ENTRY/", "Field Service Entry"],
+            ["/rover/FS-OVERVIEW/FS-PROCESS/", "Field Service Process"],
+            ["/rover/FS-OVERVIEW/FS-REPORT/", "Field Service Report"]]
+          },
           {
           title: "General Ledger",
           path: "/rover/GL-OVERVIEW/",
           collapsable: true,
           children: [
-            ["/rover/GL-OVERVIEW/GL-ACCOUNT-FLOW/", "Account Flow"],
-            ["/rover/GL-OVERVIEW/GL-ENTRY/", "Entry"],
-            ["/rover/GL-OVERVIEW/GL-PROCESS/", "Process"],
-            ["/rover/GL-OVERVIEW/GL-REPORT/", "Report"]]
+            ["/rover/GL-OVERVIEW/GL-ACCOUNT-FLOW/", "GL Account Flow"],
+            ["/rover/GL-OVERVIEW/GL-ENTRY/", "GL Entry"],
+            ["/rover/GL-OVERVIEW/GL-PROCESS/", "GL Process"],
+            ["/rover/GL-OVERVIEW/GL-REPORT/", "GL Report"]]
           },
           ["/rover/INV-OVERVIEW/", "Inventory"],
           ["/rover/M3-Services/", "Services Setup"],
