@@ -93,7 +93,6 @@ module.exports = {
             ["/rover/AR-OVERVIEW/AR-PROCESS/", "AR Process"],
             ["/rover/AR-OVERVIEW/AR-REPORT/", "AR Report"]]
           },
-          ["/rover/DOC-OVERVIEW/", "Document Control"],
           {
           title: "Document Control",
           path: "/rover/DOC-OVERVIEW/",
