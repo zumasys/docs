@@ -75,7 +75,15 @@ module.exports = {
             ["/rover/ACE-OVERVIEW/ACE-PROCESS/", "ACE Process"],
             ["/rover/ACE-OVERVIEW/ACE-REPORT/", "ACE Report"]]
           },
-          ["/rover/AP-OVERVIEW/", "Accounts Payable"],
+          {
+          title: "Accounts Payable",
+          path: "/rover/AP-OVERVIEW/",
+          collapsable: true,
+          children: [
+            ["/rover/ACE-OVERVIEW/AP-ENTRY/", "AP Entry"],
+            ["/rover/ACE-OVERVIEW/AP-PROCESS/", "AP Process"],
+            ["/rover/ACE-OVERVIEW/AP-REPORT/", "AP Report"]]
+          },
           ["/rover/DOC-OVERVIEW/", "Document Control"],
           ["/rover/ENG-OVERVIEW/", "Engineering"],
           ["/rover/EXEC-OVERVIEW/", "Executive Summary"],
