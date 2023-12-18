@@ -84,7 +84,26 @@ module.exports = {
             ["/rover/AP-OVERVIEW/AP-PROCESS/", "AP Process"],
             ["/rover/AP-OVERVIEW/AP-REPORT/", "AP Report"]]
           },
+          {
+          title: "Accounts Receivable",
+          path: "/rover/AR-OVERVIEW/",
+          collapsable: true,
+          children: [
+            ["/rover/AR-OVERVIEW/AR-ENTRY/", "AR Entry"],
+            ["/rover/AR-OVERVIEW/AR-PROCESS/", "AR Process"],
+            ["/rover/AR-OVERVIEW/AR-REPORT/", "AR Report"]]
+          },
           ["/rover/DOC-OVERVIEW/", "Document Control"],
+          {
+          title: "Document Control",
+          path: "/rover/DOC-OVERVIEW/",
+          collapsable: true,
+          children: [
+            ["/rover/DOC-OVERVIEW/DOC-ENTRY/", "DOC Entry"],
+            ["/rover/DOC-OVERVIEW/DOC-PROCESS/", "DOC Process"],
+            ["/rover/DOC-OVERVIEW/DOC-REPORT/", "DOC Report"]
+            ["/rover/DOC-OVERVIEW/Doc-Control/", "DOC Control"]]
+          },
           ["/rover/ENG-OVERVIEW/", "Engineering"],
           ["/rover/EXEC-OVERVIEW/", "Executive Summary"],
           ["/rover/FS-OVERVIEW/", "Field Service"],
