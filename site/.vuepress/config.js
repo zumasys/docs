@@ -80,9 +80,9 @@ module.exports = {
           path: "/rover/AP-OVERVIEW/",
           collapsable: true,
           children: [
-            ["/rover/ACE-OVERVIEW/AP-ENTRY/", "AP Entry"],
-            ["/rover/ACE-OVERVIEW/AP-PROCESS/", "AP Process"],
-            ["/rover/ACE-OVERVIEW/AP-REPORT/", "AP Report"]]
+            ["/rover/AP-OVERVIEW/AP-ENTRY/", "AP Entry"],
+            ["/rover/AP-OVERVIEW/AP-PROCESS/", "AP Process"],
+            ["/rover/AP-OVERVIEW/AP-REPORT/", "AP Report"]]
           },
           ["/rover/DOC-OVERVIEW/", "Document Control"],
           ["/rover/ENG-OVERVIEW/", "Engineering"],
