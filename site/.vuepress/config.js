@@ -159,10 +159,34 @@ module.exports = {
             ["/rover/MFG-OVERVIEW/MFG-PROCESS/", "Manufacturing Process"],
             ["/rover/MFG-OVERVIEW/MFG-REPORT/", "Manufacturing Report"]]
           },
-          ["/rover/MRK-OVERVIEW/", "Marketing"],
-          ["/rover/PRO-OVERVIEW/", "Production"],
+          {
+          title: "Marketing ",
+          path: "/rover/MRK-OVERVIEW/",
+          collapsable: true,
+          children: [
+            ["/rover/MRK-OVERVIEW/MRK-ENTRY/", "Marketing Entry"],
+            ["/rover/MRK-OVERVIEW/MRK-PROCESS/", "Marketing Process"],
+            ["/rover/MRK-OVERVIEW/MRK-REPORT/", "Marketing Report"]]
+          },
+          {
+          title: "Production",
+          path: "/rover/PRO-OVERVIEW/",
+          collapsable: true,
+          children: [
+            ["/rover/PRO-OVERVIEW/PRO-ENTRY/", "Production Entry"],
+            ["/rover/PRO-OVERVIEW/PRO-PROCESS/", "Production Process"],
+            ["/rover/PRO-OVERVIEW/PRO-REPORT/", "Production Report"]]
+          },
           ["/rover/PROJ-OVERVIEW/", "Project Management"],
-          ["/rover/PUR-OVERVIEW/", "Purchasing"],
+          {
+          title: "Purchasing",
+          path: "/rover/PUR-OVERVIEW/",
+          collapsable: true,
+          children: [
+            ["/rover/PUR-OVERVIEW/PUR-ENTRY/", "Purchasing Entry"],
+            ["/rover/PUR-OVERVIEW/PUR-PROCESS/", "Purchasing Process"],
+            ["/rover/PUR-OVERVIEW/PUR-REPORT/", "Purchasing Report"]]
+          },
           ["/rover/POS/", "Rover POS"],
           ["/rover/workflowmgmt/", "Workflow Management"]
         ]
