@@ -1,15 +1,17 @@
 # Workflow Management
-<PageHeader />
 
-## Define/Launch Alert Event Monitor (SERVICE.CONTROL) Task alert
+Workflow Management module provides the infrastructure required to provide real time feedback and notification based on user defined events.
+- Events are defined to notify one or more users of specific events which have occurred.
+	- For example, an event is setup to notify a specific user anytime an inventory item falls below its safety stock level.
+
+The following article outlines the steps to activate event alerts. 
+
+## Activating Procedure Alerts (SERVICE.CONTROL)
 
 SERVICE.CONTROL is the transaction used to 
 - Start/Stop phantom processes.
-- Define parameters for phantom process launch (start)
-- Monitor events that match criteria of all active Alerts
 - Defines parameters for launching phantom process'
-There also exists an option to drilldown further on the process through properties to edit information for that phantom. 
-Note: This provides control over how accounts will or will not use Alerts. Services must be manually started in each data account the first time.
+  This provides control over how accounts will or will not use Alerts. Procedure Alert must be manually started in each data account the first time.
 
 ![SERVICE_CONTROL](./servicecontrol.png)
 
@@ -47,26 +49,18 @@ Process Alert Definition procedure is used to:
 	- They can be setup to prompt the user for specific information when utilized by the Process Alert Submission procedure.
 - These alerts are data account specific 
 
-Workflow Management module provides the infrastructure required to provide real time feedback and notification based on user defined events.
-- Events are defined to notify one or more users of specific events which have occurred.
-	- For example, an event is setup to notify a specific user anytime an inventory item falls below its safety stock level.
-
 ![PADEF_ENTRY](./padefe.png)
 
 ## Process Alert Submission (PALERT.E)
 PALERT.E is the transaction used to:
 - Setup an alert for monitoring by the system.
 - User selects an alert (defined with PADEF.E) from a predefined template and supplies information requested.
-- Defined as: 
-	- One-time events which are deleted after triggered persistent events which continue to report on recurring events.
 - Criteria section:
 	- User completes answers to questions listed.
 	- Specifies which users are notified
 - Events may be defined as: 
 	- Persistent - they remain in effect until specifically removed
 	- One-time event
-NOTE: These alerts are data account specific.
+NOTE: These alerts are data account specific. They must be turned on for each data account. 
 
 ![PALERT_ENTRY](./palerte.png)
-
-<PageFooter />
