@@ -192,7 +192,7 @@ module.exports = {
         ]
       },
       {
-        title: "Rover POS",
+        title: "Rover POS (Formerly SmartSuite)",
         path: "/smartsuite/",
         collapsable: true,
         children: [
