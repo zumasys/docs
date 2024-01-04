@@ -17,6 +17,9 @@ These are the release notes for version 1.0.29 (1/3/2024) of the Rover Web appli
 			- Add a prompt to appear when changing the price of a part.
 			![POS Price change prompt](/assets/img/screenshots/release-notes/rover-web-1.0.29/pos-show-change-price.gif)
 			- Change the order of page to allow entering order information before selecting parts.
+			![POS order information before parts](/assets/img/screenshots/release-notes/rover-web-1.0.29/pos-order-info-before-parts.gif)
+			- A Quick Scan option has been added to support dedicated scanner support and better compatibility for keyboard-shim type scanners
+			![POS order information before parts](/assets/img/screenshots/release-notes/rover-web-1.0.29/pos-quick-scan.gif)
 			- Hide _New Address_ button that appears in Order Information tab.
 
 	- **Field Services** 
