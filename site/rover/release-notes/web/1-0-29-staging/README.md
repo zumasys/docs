@@ -8,11 +8,9 @@ These are the release notes for version 1.0.29 (1/3/2024) of the Rover Web appli
 
 ## New Features
 
--  **Rover Portal**
-
 -  **Rover Web**
 	- **Point of Sale** 
-		- New flags have been added to `MRK.CONTROL`
+		- New flags have been added to `MRK.CONTROL` in the 'POS' tab.
 			- Disable editing of part description
 			- Add a prompt to appear when changing the price of a part.
 			![POS Price change prompt](/assets/img/screenshots/release-notes/rover-web-1.0.29/pos-show-change-price.gif)
@@ -23,13 +21,11 @@ These are the release notes for version 1.0.29 (1/3/2024) of the Rover Web appli
 			- Hide _New Address_ button that appears in Order Information tab.
 
 	- **Field Services** 
-		- New flags have been added to `FS.CONTROL`
+		- New flags have been added to `FS.CONTROL` in the 'Report Types' tab.
 			- Hide the `REP` table.
 			- Hide the date info section. 
 
 ## Updates
-
--  **Rover Portal**
 	
 -  **Rover Web**
 	- **Point of Sale** 
