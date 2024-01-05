@@ -19,6 +19,8 @@ These are the release notes for version 1.0.29 (1/3/2024) of the Rover Web appli
 			- A Quick Scan option has been added to support dedicated scanner support and better compatibility for keyboard-shim type scanners
 			![POS order information before parts](/assets/img/screenshots/release-notes/rover-web-1.0.29/pos-quick-scan.gif)
 			- Hide _New Address_ button that appears in Order Information tab.
+    	- Before navigating away from POS or from the current customer user will see a modal displaying in-progress transactions.
+        ![POS Transactions in progress](/assets/img/screenshots/release-notes/rover-web-1.0.29/pos-transaction-modal.png)
 
 	- **Field Services** 
 		- New flags have been added to `FS.CONTROL` in the 'Report Types' tab.
