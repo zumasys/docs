@@ -1,14 +1,14 @@
-# Rover Desktop v1.7.4 Release Notes
+# Rover Desktop v1.7.5 Release Notes
 
-<badge text= "Version 1.7.4" vertical="middle" />
+<badge text= "Version 1.7.5" vertical="middle" />
 
 <PageHeader />
 
-These are the release notes for version 1.7.4 of the Rover Desktop application.  Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Desktop%20v1.7.4) or [Support](mailto:help@zumasys.com?subjectRover%20Desktop%20v1.7.4) with any questions!
+These are the release notes for version 1.7.5 of the Rover Desktop application.  Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Desktop%20v1.7.5) or [Support](mailto:help@zumasys.com?subjectRover%20Desktop%20v1.7.5) with any questions!
 
-You can download this version [here!](https://roverdesktop.blob.core.windows.net/apps/rover-installer-1.7.4.zip)
+You can download this version [here!](https://roverdesktop.blob.core.windows.net/apps/rover-installer-1.7.5.zip)
 
-This version was replaced by 1.7.4 to address an issue found after release. 1.7.4 can be downloaded [here!](https://roverdesktop.blob.core.windows.net/apps/rover-installer-1.7.4.zip)
+This release replaces the 1.7.5 release to address an issue in that build.
 
 ## Bug Fixes
  
@@ -25,7 +25,6 @@ This version was replaced by 1.7.4 to address an issue found after release. 1.7.
  
 **Studio**
 - Addresses issues with CloseCall property on forms not being persisted during build.
-
 
 
 <PageFooter />
