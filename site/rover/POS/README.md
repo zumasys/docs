@@ -77,10 +77,13 @@ Finalizing an order that has a payment required will automatically load the paym
 Lists all outstanding invoices. 
 *If you are using the ROVER database, this information gets pulled from AP.E.
 
-a.	“Load All Invoices”. Selecting this will display all open invoices regardless of age.
-b.	Search field will allow you to search for a single invoice.
-c.	Aging Summary will display the customers aging, selecting one of the aging categories, Curren, 32-60, 61-90, 90+, will display all the invoices in that aging category.
-d.	This is where the invoices will be displayed, from here you can click on 1 or more of the displayed invoices and add them to the current register transaction. 
+a. “Load All Invoices”. Selecting this will display all open invoices regardless of age.
+
+b. Search field will allow you to search for a single invoice.
+
+c. Aging Summary will display the customers aging, selecting one of the aging categories, Curren, 32-60, 61-90, 90+, will display all the invoices in that aging category.
+
+d. This is where the invoices will be displayed, from here you can click on 1 or more of the displayed invoices and add them to the current register transaction. 
 Once an invoice has been added to the current transactions, you can click on the Invoice # and you will be allowed to edit the amount payed on that invoice.
 
 ![Edit Invoice](./RoverPOS-009.png)
@@ -93,9 +96,11 @@ Selecting this option will show all the selected customer’s receipts.
 
 ![Receipt History](./RoverPOS-010.png)
 
-a.	Clicking on the print option to the right of the transaction information will reprint the receipt for that transaction.  
-b.	This will display the Tender/Payment type that was used, the “split” shows there were multiple payment types used.
-c.	If the transaction is from the current day, you will have the option to void the transaction, you will then be prompted to confirm “Yes”, or “No” if you wish to continue.
+a. Clicking on the print option to the right of the transaction information will reprint the receipt for that transaction.  
+
+b. This will display the Tender/Payment type that was used, the “split” shows there were multiple payment types used.
+
+c. If the transaction is from the current day, you will have the option to void the transaction, you will then be prompted to confirm “Yes”, or “No” if you wish to continue.
 
 ### 4) Payment Methods on File
 
@@ -103,20 +108,24 @@ This is where you can view or add a saved payment option for a customer. A custo
 
 ![On file](./RoverPOS-011.png)
 
-a.	Displays the current saved payment methods that a customer has on file. The Credit Card ID is the token that was received from the card processor, this is NOT the actual credit card number.
-b.	Select the trash can to delete a card on file, this cannot be undone, if a saved payment is deleted you will need to renter it again.
-c.	Select the “Add” button to create a new ‘Card on File’.
+a. Displays the current saved payment methods that a customer has on file. The Credit Card ID is the token that was received from the card processor, this is NOT the actual credit card number.
+
+b. Select the trash can to delete a card on file, this cannot be undone, if a saved payment is deleted you will need to renter it again.
+
+c. Select the “Add” button to create a new ‘Card on File’.
 
 ![Credit Card Details](./RoverPOS-012.png)
 
 i.	In this section you will enter the credit card information, this section is a secure ‘I-Frame’ from the credit card processor, data entered here is not entered into the POS software. Fill out the fields and then select the “Validate Card”.
+
 ii.	After getting the credit card validated, enter in the customer’s name and billing information. Once the fields are entered then select the Save button. If the card is validated and the address information is all correct, then the new card will be added to the COF display above
 
 ### 5) Other Transactions
 
 Here you can select to:
-a)	Receive Cash on Account – After selecting this option you will be prompted to add a ‘Note’ and then the amount to add. After entering this information, you will be taken directly to the Payment options. No other options are available with this type of transaction.
-b)	Receive Other Income - After selecting this option you will be prompted to add a ‘Note’ and then the amount to add. After entering this information, you will be taken directly to the Payment options. No other options are available with this type of transaction.
+a) Receive Cash on Account – After selecting this option you will be prompted to add a ‘Note’ and then the amount to add. After entering this information, you will be taken directly to the Payment options. No other options are available with this type of transaction.
+
+b) Receive Other Income - After selecting this option you will be prompted to add a ‘Note’ and then the amount to add. After entering this information, you will be taken directly to the Payment options. No other options are available with this type of transaction.
 
 
 ## Order Information
