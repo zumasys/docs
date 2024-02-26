@@ -123,6 +123,7 @@ ii.	After getting the credit card validated, enter in the customer’s name and 
 ### 5) Other Transactions
 
 Here you can select to:
+
 a) Receive Cash on Account – After selecting this option you will be prompted to add a ‘Note’ and then the amount to add. After entering this information, you will be taken directly to the Payment options. No other options are available with this type of transaction.
 
 b) Receive Other Income - After selecting this option you will be prompted to add a ‘Note’ and then the amount to add. After entering this information, you will be taken directly to the Payment options. No other options are available with this type of transaction.
