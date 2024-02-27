@@ -10,7 +10,7 @@ A new version of Rover is here! Rover POS allows you to interact with Rover in a
 
 Depending on your licensed modules and security levels, the modules available to you may differ as seen in the screenshot below.
 
-![Modules](./RoverPOS-002.png)
+![Modules](./RoverPOS-002x.png)
 
 ![Steps](./RoverPOS-003.png)
 
