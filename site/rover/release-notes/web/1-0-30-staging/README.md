@@ -21,6 +21,9 @@ These are the release notes for version 1.0.30 (3/4/2024) of the Rover Web appli
       ![Offline Data Caching](/assets/img/screenshots/release-notes/rover-web-1.0.30/pos-caching.png)
     - When offline, if you have data saved, the icon will be yellow, and you will still be able to perform customer and prices searches in Point of Sale.
       ![Offline Parts Search](/assets/img/screenshots/release-notes/rover-web-1.0.30/pos-offline-parts-search.png)
+- **Draft Orders**
+	- Ability to start an order and save the current progress. A new tab `Unsaved Orders` has been added to manage all draft orders.
+	  ![Draft Sales Orders](/assets/img/screenshots/release-notes/rover-web-1.0.30/draft-orders.gif)
   - **Invoices**
     - Ability to use stored Credit Card or Bank Account for payment
     - Ability to save new Payment Method
