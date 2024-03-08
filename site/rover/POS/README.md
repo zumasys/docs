@@ -2,7 +2,6 @@
 
 <PageHeader />
 
-![RoverPOS](./RoverPOS-001.png)
 
 A new version of Rover is here! Rover POS allows you to interact with Rover in a POS environment through our new web client. Make sales and move inventory between different customers through an easy-to-follow web interface.
 
