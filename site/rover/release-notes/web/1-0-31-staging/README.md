@@ -10,20 +10,24 @@ These are the release notes for version 1.0.31 (3/20/2024) of the Rover Web appl
 
 - **Rover Web**
   - **Sales**
-    - Filtering and sorting on in Opportunities, Quotes, and Orders are now stored.
+    - Filtering and sorting in Opportunities, Quotes, and Orders are now saved after making changes.
+  - **POS**
+    - Pagination has been added to the parts search table.
 
 ## Updates
 
 - **Offline Mode**
-  - Sales tax calculations and error message are now 
+
+  - Sales tax calculations error message are now hidden when in offline mode.
 
 - **POS**
+
   - Ability to hide download/email buttons have been added to `MRK.CONTROL`
-  - Fix issue with sale `TYPE` not persisting after refresh.
-  - Parts inforamtion 
+  - Fix issue with sale `TYPE` not saving after refresh.
+  - `RACK` parts information has been added to the draft orders table.
 
 - **General**
-  - Table formatting sty;es has been updated to align text, numbers, and dates.
-
+  - Table formatting styles has been updated to align text, numbers, and dates.
+  - Tables defaults have been updated to be sorted by descending date.
 
 <PageFooter />
