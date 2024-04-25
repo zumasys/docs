@@ -18,6 +18,7 @@ These are the release notes for version 1.0.32 (4/17/2024) of the Rover Web appl
 - **Rover Web**
   - **Payment Processing**
     - An issue has been resolved where in certain cases an incorrect payment method was passed to the backend system. 
-  
+  - **POS**
+    - Improved the Parts Search Scanning behavior when "Auto Add Parts" is disabled in user settings
 
 <PageFooter />
