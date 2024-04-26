@@ -17,13 +17,25 @@ These are the release notes for version 1.0.32 (4/26/2024) of the Rover Web appl
   - **Point of Sale** A Pick Ticket can now be printed after order creation. There is a user based default pick ticket printer option available in "Settings", and the printer can be optionally changed for each print request.
       > Note: Currently only supported by select ERPs. 
   - **Point of Sale** Improvements to payment processing after order origination.  
+  - **Point of Sale** Additional fields have been added to `MRK.CONTROL` to show more information about the sales order in the Order Summary page.
+    - Tax Codes
+    - Ship Via
+    - Sales Reps
+    - Pay Terms
+    - Order Status
+  - **Point of Sale** Sales Order Shopping Cart Enhancements
+    - You can now view inventory for parts in both the part search and the cart. Click on the available quantity labels to view.
+    - Custom sales order line item fields defined in `SO` FDICT can now be viewed and updated.
+    - Line item notes have been added in the additional section. Click on the left hand column to expand the row!
   - **API Improvements** Improvements to default communication of user context from Rover Web to backend API endpoints.
+
 ## Bug Fixes
 
 - **Rover Web**
   - **Payment Processing**
     - An issue has been resolved where in certain cases an incorrect payment method was passed to the backend system. 
   - **Point of Sale**
-    - Improved the Parts Search Scanning behavior when "Auto Add Parts" is disabled in user settings
+    - Improved the Parts Search Scanning behavior when "Auto Add Parts" is disabled in user settings.
+    - Updating items in the shopping cart now focuses back to the part search.
 
 <PageFooter />
