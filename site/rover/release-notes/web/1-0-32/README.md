@@ -35,5 +35,12 @@ These are the release notes for version 1.0.32 (4/26/2024) of the Rover Web appl
   - **Point of Sale**
     - Improved the Parts Search Scanning behavior when "Auto Add Parts" is disabled in user settings.
     - Updating items in the shopping cart now focuses back to the part search.
+  - **Opportunities**
+    - Cleaned up UI for headers for id, phone number and name fields
+    - Added error handling for if a date or customer did not come back
+    - Fixed missing statuses
+  - **Field Service**
+    - Added error handling if certain inputs were not selected (ex: operations type, report type)
+    - Fix added to not allow multiple updates by disabling button
 
 <PageFooter />
