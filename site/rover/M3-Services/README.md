@@ -2,47 +2,23 @@
 
 <PageHeader />
 
-## Build the Release(Visual Studio)
+Rover ERP utilizes the M3Services Windows Service to process documents, emails, and other connectivity processes.
 
-1. Open the M3Services solution.
-2. Select "Release" for the build type.
-3. From the Build pull-down menu select "Build Solution."
+[You can find the latest client installer here](../release-notes/README.md)
 
-## Copy Solution to the Hosting Server
+## Installing M3Services
 
-1. Create a new folder at E:\FileShare\InstalleShie;d_2016_Projects\Version_x.x where x.x is the next version number
-2. Copy the M3ServiceInstallation folder from the previous version folder into the new folder.
-3. Copy the M3ServicesSolution folder from the development machine into the new folder.
+1. Open up `Control Panel` and uninstall any previously installed M3Services.
+2. Unzip the M3ServicesSetup_5.xx.zip file and run the `setup.exe` contained within it.
+3. Move through the installation prompts, selecting the defaults.
+4. After the install is complete, launch Windows `Services` and start M3Services for the first time.
 
-## Publish Files from Solution
+## Verifying the Install
 
-1. Open a command window as administrator.
-2. Navigate to E:\FileShare\InstallShield_2016_Projects\Version_x.x\M3ServicesInstallation.
-3. Run M3Services_Publish.bat
+If you'd like, you can optionally verify that the service is running and that Rover ERP is communicating with it correctly.
 
-## Build InstallShield Setup
-
-1. Open Windows file explorer.
-2. Navigate to E:\FileShare \InstallShield_2016_Projects\Version_x.x\M3ServicesInstallation.
-3. Double click on M3ServicesSetup.ism to open InstallShield.
-4. In the tree menu on the left click on Installation Information > General Information.
-5. In the panel on the right, change the Product Version to the new version.
-6. Click on the Build button in the toolbar and click on Build Release001 in the menu that appears.
-7. Close InstallShield.
-
-## Copy InstallShield Setup
-
-1. Open a command window as administrator.
-2. Navigate to E:\FileShare \InstallShield_2016_Projects\Version_x.x\M3ServicesInstallation\Zipped.
-3. Run M3ServicesSetup_GetDisk1.bat.
-
-## Create and Store Zip Setup File
-
-1. Navigate to E:\FileShare \InstallShield_2016_Projects\Version_x.x\M3ServicesInstallation\Zipped\M3ServicesSetup.
-2. Select all of the files in the folder, create a zip file and name it M3ServicesSetup_x.x.
-3. Move the zip file to E:\FileShare\Software\Rover\M3Services\Current.
-4. Delete the previous zip file in that folder.
-5. Create a new folder name Version_x.x in E:\FileShare\Software\Rover\M3Services\Releases.
-6. Copy the zip file into the folder.
+1. Launch the Rover desktop client.
+2. Launch `M3SERVICES.CONTROL`.
+3. Click `Test Connection` and verify the popup box displays the new version.
 
 <PageFooter />
