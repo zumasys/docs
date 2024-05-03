@@ -21,6 +21,7 @@ These are the release notes for version 1.0.33 (5/03/2024) of the Rover Web appl
     - The Cart UI has been improved for smaller devices.
     - Fixed issue with the sales order line item ids being out of order when creating a new order.
     - The Book Date field in the additional information section now updates correctly.
+    - Pos part table fixed undefined bug causing table to break
 
  - **Rover Scan**
     - PICK and PACK Shipment balance calculation has been updated.
@@ -29,4 +30,7 @@ These are the release notes for version 1.0.33 (5/03/2024) of the Rover Web appl
 - **Tickets & Time**
    - Fixed issue with incorrect customer name displaying.
 
+- **Field Service**
+   - Improved pagination for larger data sets
+   
 <PageFooter />
