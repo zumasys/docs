@@ -4,7 +4,7 @@
 
 ## Rover ERP
 
-Here's a sneak peek of what's to come in Rover Web as of [v1.0.32](./web/1-0-31/README.md).
+Here's a sneak peek of what's to come in Rover Web as of [v1.0.33](./web/1-0-33/README.md).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8Zs5ogs9tyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
@@ -35,6 +35,7 @@ Here's a sneak peek of what's to come in Rover Web as of [v1.0.32](./web/1-0-31/
 
 | Version                           | Date       | Video                                              |
 | --------------------------------- | ---------- | -------------------------------------------------- |
+| [v1.0.33](./web/1-0-33/README.md) | 2024-05-03 | N/A                                                |
 | [v1.0.32](./web/1-0-32/README.md) | 2024-04-26 | N/A                                                |
 | [v1.0.31](./web/1-0-31/README.md) | 2024-03-21 | N/A                                                |
 | [v1.0.30](./web/1-0-30/README.md) | 2024-03-01 | N/A                                                |
