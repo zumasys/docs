@@ -49,6 +49,7 @@ Rover ERP is a dynamic, powerful enterprise resource planner with a strong found
 
 ## Rover Gateway
 
+* [Check out our Swagger docs!](https://api.rovererp.com/swagger/index.html)
 * More to come. [Reach out](mailto:sales@zumasys.com) today for access to the test API gateway!
 
 <PageFooter />
