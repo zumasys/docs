@@ -11,9 +11,9 @@ These are the release notes for version 1.0.32 (4/26/2024) of the Rover Web appl
 - **Rover Web**
   - **Accounting**
     - A GL Transaction entry screen is now available to enter new GL Journal entries via Rover Web.
-      ![GL Transaction Entry](/assets/img/screenshots/release-notes/rover-web-1.0.32/gl-entry-screen.gif)
+      ![GL Transaction Entry](./gl-entry-screen.gif)
   - **Point of Sale** A Pick Ticket can now be printed after order creation. There is a user based default pick ticket printer option available in "Settings", and the printer can be optionally changed for each print request.
-      > Note: Currently only supported by select ERPs. 
+      > Note: Currently only supported by select ERPs.
   - **Point of Sale** Improvements to payment processing after order origination.  
   - **Point of Sale** Additional fields have been added to `MRK.CONTROL` to show more information about the sales order in the Order Summary page.
     - Tax Codes

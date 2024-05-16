@@ -4,44 +4,34 @@
 
 <PageHeader />
 
-These are the release notes for version 1.0.34 (5TBD) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v1.0.33) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v1.0.33) today!
+These are the release notes for version 1.0.34 (5TBD) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v1.0.34) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v1.0.34) today!
 
 ## New Features
 
 - **Rover Web**
-   - **Point of Sale**
-      - Partial Shipment Option, which includes:
-    
-        ![Partial Ship Option](/assets/img/screenshots/release-notes/rover-web-1.0.34/PartialShip.png)
-
-        - New Ship Options Screen
-        - PO Origination capabilities
-  
-            ![POS Ship Form](/assets/img/screenshots/release-notes/rover-web-1.0.34/ShipForm.png)
-
-        - Shipment Address updates
-  
-            ![POS Ship Address Form](/assets/img/screenshots/release-notes/rover-web-1.0.34/shipaddress.png)
-
-      - Optional "On the Fly" Customer Creation from the POS Customer Search
-
-        ![POS On the Fly Customer Creation](/assets/img/screenshots/release-notes/rover-web-1.0.34/OnTheFlyCust.png)
-
-      - Customer Search via Phone Number
-      - Open Order Total Display on each invoice line
-    
-        ![Source Order Total](/assets/img/screenshots/release-notes/rover-web-1.0.34/SourceOrderTotal.png)
-        
-      - Optional Credit Memo Application to Order
-      - Mixed User/Register Mode
-      - Payment Overage checkbox can be hidden
-      - Payment Overage can now have a default value
+  - **Point of Sale**
+    - Partial Shipment Option, which includes:
+    ![Partial Ship Option](./PartialShip.png)
+    - New Ship Options Screen
+    - PO Origination capabilities
+    ![POS Ship Form](./ShipForm.png)
+    - Shipment Address updates
+    ![POS Ship Address Form](./shipaddress.png)
+    - Optional "On the Fly" Customer Creation from the POS Customer Search
+    ![POS On the Fly Customer Creation](./OnTheFlyCust.png)
+    - Customer Search via Phone Number
+    - Open Order Total Display on each invoice line
+    ![Source Order Total](./SourceOrderTotal.png)
+    - Optional Credit Memo Application to Order
+    - Mixed User/Register Mode
+    - Payment Overage checkbox can be hidden
+    - Payment Overage can now have a default value
 
 ## Bug Fixes
 
 - **Rover Web**
-   - **Point of Sale**
-      - Voided Transaction Receipt now accurately reflects the Void action, instead of the original transaction.
-      - Updating an Invoice Amount will now clear all Tenders and reset the overage default
+  - **Point of Sale**
+    - Voided Transaction Receipt now accurately reflects the Void action, instead of the original transaction.
+    - Updating an Invoice Amount will now clear all Tenders and reset the overage default
 
 <PageFooter />
