@@ -26,6 +26,9 @@ These are the release notes for version 1.0.34 (5TBD) of the Rover Web applicati
     - Mixed User/Register Mode
     - Payment Overage checkbox can be hidden
     - Payment Overage can now have a default value
+    - New category filter using tree-based selection. Enable using `MRK.CONTROL`
+    - Ability to show keyword search in parts table. Enable using `MRK.CONTROL`
+    - Cost column has been added to the cart view. Enable using `MRK.CONTROL`
   - **Accounting**
     - A new GL Card which allows viewing, interfacing, and posting Registers and GL Transactions
     ![Accounting GL Card](./accounting-gl-card.gif)
@@ -37,5 +40,8 @@ These are the release notes for version 1.0.34 (5TBD) of the Rover Web applicati
   - **Point of Sale**
     - Voided Transaction Receipt now accurately reflects the Void action, instead of the original transaction.
     - Updating an Invoice Amount will now clear all Tenders and reset the overage default
+    - Fixed issue with ACH payment options missing.
+  - **Inventory**
+    - Updated inventory to include Plan Group, Shortages, and Allocated amounts.
 
 <PageFooter />
