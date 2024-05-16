@@ -26,7 +26,9 @@ These are the release notes for version 1.0.34 (5TBD) of the Rover Web applicati
     - Mixed User/Register Mode
     - Payment Overage checkbox can be hidden
     - Payment Overage can now have a default value
-
+  - **Accounting**
+    - A new GL Card which allows viewing, interfacing, and posting Registers and GL Transactions
+    ![Accounting GL Card](./accounting-gl-card.gif)
 ## Bug Fixes
 
 - **Rover Web**
