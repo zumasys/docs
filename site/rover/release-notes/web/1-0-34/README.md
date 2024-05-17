@@ -34,6 +34,9 @@ These are the release notes for version 1.0.34 (5TBD) of the Rover Web applicati
     ![Accounting GL Card](./accounting-gl-card.gif)
     - An Invoice Date column has been added to the Accounts Receivable Data Table, and the Customer Name column has been moved to the first column of the table
     ![Accounting AR Table](./accounting-ar-table-invoice-date.png)
+  - **Invoices**
+    - The Invoices page will be deprecated in 1.0.35 now that the Accounting page is available.
+
 ## Bug Fixes
 
 - **Rover Web**
