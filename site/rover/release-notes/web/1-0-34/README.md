@@ -46,5 +46,7 @@ These are the release notes for version 1.0.34 (5TBD) of the Rover Web applicati
     - Fixed issue with ACH payment options missing.
   - **Inventory**
     - Updated inventory to include Plan Group, Shortages, and Allocated amounts.
+  - **Accounting**
+    - Fixed an issue with select drill downs from the AR KPI
 
 <PageFooter />
