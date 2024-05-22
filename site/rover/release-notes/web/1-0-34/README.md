@@ -10,25 +10,28 @@ These are the release notes for version 1.0.34 (5TBD) of the Rover Web applicati
 
 - **Rover Web**
   - **Point of Sale**
-    - Partial Shipment Option, which includes:
+    - Partial Shipment Option, enabled using `MRK.CONTROL`, which includes:
     ![Partial Ship Option](./PartialShip.png)
     - New Ship Options Screen
     - PO Origination capabilities
     ![POS Ship Form](./ShipForm.png)
     - Shipment Address updates
     ![POS Ship Address Form](./shipaddress.png)
-    - Optional "On the Fly" Customer Creation from the POS Customer Search
-    ![POS On the Fly Customer Creation](./OnTheFlyCust.png)
+    - "On the Fly" Customer Creation from the POS Customer Search. Enable using `MRK.CONTROL`
+      > Enabling this feature also enables the addition of the selected sales rep on an order to the Customer Record if none exist
+
+      ![POS On the Fly Customer Creation](./OnTheFlyCust.png)
     - Customer Search via Phone Number
     - Open Order Total Display on each invoice line
     ![Source Order Total](./SourceOrderTotal.png)
-    - Optional Credit Memo Application to Order
-    - Mixed User/Register Mode
+    - Optional Credit Memo Application to Order. Enable using `MRK.CONTROL`
+    - Mixed User/Register Mode. Enable using `MRK.CONTROL`
     - Payment Overage checkbox can be hidden
     - Payment Overage can now have a default value
     - New category filter using tree-based selection. Enable using `MRK.CONTROL`
     - Ability to show keyword search in parts table. Enable using `MRK.CONTROL`
     - Cost column has been added to the cart view. Enable using `MRK.CONTROL`
+    - Select Sales Rep during Order Creation. Enable using `MRK.CONTROL`
   - **Accounting**
     - A new GL Card which allows viewing, interfacing, and posting Registers and GL Transactions
     ![Accounting GL Card](./accounting-gl-card.gif)
@@ -43,6 +46,7 @@ These are the release notes for version 1.0.34 (5TBD) of the Rover Web applicati
   - **Point of Sale**
     - Voided Transaction Receipt now accurately reflects the Void action, instead of the original transaction.
     - Updating an Invoice Amount will now clear all Tenders and reset the overage default
+    - Cash Drawer Pop Error Resolved
     - Fixed issue with ACH payment options missing.
   - **Inventory**
     - Updated inventory to include Plan Group, Shortages, and Allocated amounts.
