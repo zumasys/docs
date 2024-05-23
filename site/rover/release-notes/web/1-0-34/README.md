@@ -39,6 +39,9 @@ These are the release notes for version 1.0.34 (5TBD) of the Rover Web applicati
     ![Accounting AR Table](./accounting-ar-table-invoice-date.png)
   - **Invoices**
     - The Invoices page will be deprecated in 1.0.35 now that the Accounting page is available.
+  - **Customers**
+    - KPI cards added under general tab with navigation and additional information for Invoices, Tickets and Orders
+    ![KPI Card](./kpicards.png)
 
 ## Bug Fixes
 
