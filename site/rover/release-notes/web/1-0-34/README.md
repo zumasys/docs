@@ -29,11 +29,12 @@ These are the release notes for version 1.0.34 (5TBD) of the Rover Web applicati
       > Note: Currently only supported by select ERPs, requires Register Mode.
     - Payment Overage can now have a default value
       > Note: Currently only supported by select ERPs, requires Register Mode.
-    - New category filter using tree-based selection. Enable using `MRK.CONTROL`
+    - New category filter using tree-based selection. Select the 'POS Show Category Filter' option in `MRK.CONTROL`
     ![POS Category Filter](./CategoryFilter.png)
-    - Ability to show keyword search in parts table. Enable using `MRK.CONTROL`
+    - Ability to show keyword search in parts table. Select the 'POS Show Keyword Search' option in `MRK.CONTROL`
     - Cost column has been added to the cart view. Enable using `MRK.CONTROL`
     - Select Sales Rep during Order Creation. Enable using `MRK.CONTROL`
+    - Creating orders now navigates to the orders tab to finalize shipping. To change the navigation to the order confirmation page select the 'POS Show Confirmation Page' option in `MRK.CONTROL`
   - **Accounting**
     - A new GL Card which allows viewing, interfacing, and posting Registers and GL Transactions
     ![Accounting GL Card](./accounting-gl-card.gif)
