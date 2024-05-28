@@ -16,6 +16,7 @@ These are the release notes for version 1.0.35 (5TBD) of the Rover Web applicati
 ## Bug Fixes
 
 - **Rover Web**
-
+  - **Point of Sale**
+    - Fixed behavior when hitting the Enter key while "Quick Scan" is enabled, this will now perform a search as expected.
 
 <PageFooter />
