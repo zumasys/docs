@@ -45,6 +45,11 @@ These are the release notes for version 1.0.34 (5/23/2024) of the Rover Web appl
   - **Customers**
     - KPI cards added under general tab with navigation and additional information for Invoices, Tickets and Orders
     ![KPI Card](./kpicards.png)
+  
+- **Rover Customer Portal**
+  - **Orders**
+    - Added a notes field under additional information in orders tab
+    ![Order Notes](./notes_header.png)
 
 ## Bug Fixes
 
