@@ -17,6 +17,8 @@ These are the release notes for version 1.1.0 (5TBD) of the Rover Web applicatio
     - Payout now routes the user to the payment screen to select refund type
     - Payout now supports a receipt lookup option for refund type
     ![Payout Receipt Lookup](./receipt_lookup.png)
+    - Point of sale now supports payment requirement based on Terms Net Days. Upon order finalization, customer with Terms Net Days greater than one will prompt user to either Continue to Payment or end the transaction.
+    ![Terms Based Payment Prompt](./terms_based_payment.png)
 
 ## Bug Fixes
 
