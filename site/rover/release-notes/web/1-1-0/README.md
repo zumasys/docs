@@ -19,6 +19,8 @@ These are the release notes for version 1.1.0 (5TBD) of the Rover Web applicatio
     ![Payout Receipt Lookup](./receipt_lookup.png)
     - Point of sale now supports payment requirement based on Terms Net Days. Upon order finalization, customer with Terms Net Days greater than one will prompt user to either Continue to Payment or end the transaction.
     ![Terms Based Payment Prompt](./terms_based_payment.png)
+    - Point of Sale now supports an option to bypass register mode. To enable, add `"bypass_reg_mode":"Y"` to the user response.
+    - Point of Sale now supports displaying SO custom fields **selectively** in the Additional Information Section of the Order Info screen. This is enabled via the `pos_extra_info` properties in MRK.CONTROL (Shown as a selection list titled POS Extra Info). If no selection is made, all SO custom fields will be displayed by default.
 
 ## Bug Fixes
 
