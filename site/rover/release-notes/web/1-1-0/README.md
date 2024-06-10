@@ -65,7 +65,6 @@ These are the release notes for version 1.1.0 (5TBD) of the Rover Web applicatio
 
 - **Customer Portal**
   - Invalid date coming back in invoice table for due date resolved
-  - Hotfix for invoices loading in table
- 
+  - Added the ability to see the invoices table only once the invoice data is ready
 
 <PageFooter />
