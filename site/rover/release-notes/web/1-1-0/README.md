@@ -30,19 +30,42 @@ These are the release notes for version 1.1.0 (5TBD) of the Rover Web applicatio
       > Note: Currently only supported by select ERPs.
     - When utilizing "Mixed User/Register Mode", a flag can now be included on a user login response to allow register mode bypass for a particular user.
       > Note: Currently only supported by select ERPs.
+    - Ability to download invoices and view in another tab directly from table
+    ![POS Download Invoice](./pos-download-invoice.png)
+
+- **Customer Portal**
+  - Print/export for invoices, tickets and orders table
+  - Defaulted invoices to 50 per page for invoices
+  - Changed row per page options and can sort by invoice amount
+  - Notes field added under additional information for orders tab
+  ![Customer Portal Notes](./customer-portal-notes.png)
+
 ## Bug Fixes
 
 - **Rover Web**
   - **Point of Sale**
-    - Fixed behavior when hitting the Enter key while "Quick Scan" is enabled, this will now perform a search as expected.
+    - Fixed behavior when hitting the Enter key while "Quick Scan" is enabled, this will now perform a search as expected
     - QAV Table always shows headers
-    - Payout payment submition now works as expected
+    - Payout payment submission now works as expected
     - Payment via Split Tender with a credit in the invoice list now works as expected
     - Line item custom field values are now populated in the sales order when adding to cart.    
     - Fixed issues with Mixed User/Register Mode not prompting for a user with admin credentials to select a register when the Rover Local Web Service is running, but the authenticated user lacks required permissions to select a register.
     - Fixed issues with inventory dialog display scrolling the base page headers out of view.
+    - Credit Card entry modifications to user experience and fixed bug with adding/deleting cards
+    - Delivery dates on line items now reflect the ship date entered in the order header
   - **Customers**
     - Creating a new ticket now defaults the customer field to the current customer
     - Fixed issues with navigation after adding or deleting an shipping address.
+    - Credit Card entry modifications to user experience and fixed bug with adding/deleting cards
+    - Delivery dates on line items now reflect the ship date entered in the order header
+  - **Customers**
+    - Creating a new ticket now defaults the customer field to the current customer
+  - **Accounting**
+    - Removed a search bar that served no purpose
+
+- **Customer Portal**
+  - Invalid date coming back in invoice table for due date resolved
+  - Hotfix for invoices loading in table
+ 
 
 <PageFooter />
