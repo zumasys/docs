@@ -21,6 +21,15 @@ These are the release notes for version 1.1.0 (5TBD) of the Rover Web applicatio
     ![Terms Based Payment Prompt](./terms_based_payment.png)
     - Point of Sale now supports an option to bypass register mode. To enable, add `"bypass_reg_mode":"Y"` to the user response.
     - Point of Sale now supports displaying SO custom fields **selectively** in the Additional Information Section of the Order Info screen. This is enabled via the `pos_extra_info` properties in MRK.CONTROL (Shown as a selection list titled POS Extra Info). If no selection is made, all SO custom fields will be displayed by default.
+    - Ability to download invoices and view in another tab directly from table
+    ![POS Download Invoice](./pos-download-invoice.png)
+
+- **Customer Portal**
+  - Print/export for invoices, tickets and orders table
+  - Defaulted invoices to 50 per page for invoices
+  - Changed row per page options and can sort by invoice amount
+  - Notes field added under additional information for orders tab
+  ![Customer Portal Notes](./customer-portal-notes.png)
 
 ## Bug Fixes
 
@@ -30,7 +39,15 @@ These are the release notes for version 1.1.0 (5TBD) of the Rover Web applicatio
     - QAV Table always shows headers
     - Payout payment submition now works as expected
     - Payment via Split Tender with a credit in the invoice list now works as expected
+    - Credit Card entry modifications to user experience and fixed bug with adding/deleting cards
   - **Customers**
     - Creating a new ticket now defaults the customer field to the current customer
+  - **Accounting**
+    - Removed a search bar that served no purpose
+
+- **Customer Portal**
+  - Invalid date coming back in invoice table for due date resolved
+  - Hotfix for invoices loading in table
+  
 
 <PageFooter />
