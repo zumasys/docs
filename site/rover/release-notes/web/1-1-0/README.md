@@ -35,11 +35,12 @@ These are the release notes for version 1.1.0 (5TBD) of the Rover Web applicatio
 
 - **Rover Web**
   - **Point of Sale**
-    - Fixed behavior when hitting the Enter key while "Quick Scan" is enabled, this will now perform a search as expected.
+    - Fixed behavior when hitting the Enter key while "Quick Scan" is enabled, this will now perform a search as expected
     - QAV Table always shows headers
-    - Payout payment submition now works as expected
+    - Payout payment submission now works as expected
     - Payment via Split Tender with a credit in the invoice list now works as expected
     - Credit Card entry modifications to user experience and fixed bug with adding/deleting cards
+    - Delivery dates on line items now reflect the ship date entered in the order header
   - **Customers**
     - Creating a new ticket now defaults the customer field to the current customer
   - **Accounting**
