@@ -1,4 +1,4 @@
-# Rover Web v1.1.0 Draft Release Notes
+# Rover Web v1.1.1 Release Notes
 
 <badge text= "Version 1.1.1" vertical="middle" />
 
@@ -9,6 +9,9 @@ These are the release notes for version 1.1.1 (06/10/2024) of the Rover Web appl
 ## New Features
 
 - **Rover Web**
+  - **Customer Inquiry**
+    - KPI cards have been added to the customer module, general tab. Clicking a card will activate the associated tab in the interface.
+    ![Customer Module KPI Cards](./CustomerKPICards.png)
   - **Point of Sale**
     - Point of sale now allows requiring entry of user credentials for every order, allowing different users to enter orders on the same machine without logging out and back in. This is enabled via the `pos_require_entry_user_authentication` property in MRK.CONTROL (Shown as Require Entry User authentication).
     ![Point of Sale Entry User](./pos-entry-user.gif)
@@ -21,6 +24,12 @@ These are the release notes for version 1.1.1 (06/10/2024) of the Rover Web appl
     ![Terms Based Payment Prompt](./terms_based_payment.png)
     - Point of Sale now supports an option to bypass register mode. To enable, add `"bypass_reg_mode":"Y"` to the user response.
     - Point of Sale now supports displaying SO custom fields **selectively** in the Additional Information Section of the Order Info screen. This is enabled via the `pos_extra_info` properties in MRK.CONTROL (Shown as a selection list titled POS Extra Info). If no selection is made, all SO custom fields will be displayed by default.
+    - When validation mode is enabled in POS, a validation call is made after initial customer selection before the Order Information tab is displayed.
+      > Note: Currently only supported by select ERPs.
+    - When validation mode is enabled in POS, the validation call can now return an error message to be displayed in the UI.
+      > Note: Currently only supported by select ERPs.
+    - When utilizing "Mixed User/Register Mode", a flag can now be included on a user login response to allow register mode bypass for a particular user.
+      > Note: Currently only supported by select ERPs.
     - Ability to download invoices and view in another tab directly from table
     ![POS Download Invoice](./pos-download-invoice.png)
 
@@ -39,6 +48,14 @@ These are the release notes for version 1.1.1 (06/10/2024) of the Rover Web appl
     - QAV Table always shows headers
     - Payout payment submission now works as expected
     - Payment via Split Tender with a credit in the invoice list now works as expected
+    - Line item custom field values are now populated in the sales order when adding to cart.    
+    - Fixed issues with Mixed User/Register Mode not prompting for a user with admin credentials to select a register when the Rover Local Web Service is running, but the authenticated user lacks required permissions to select a register.
+    - Fixed issues with inventory dialog display scrolling the base page headers out of view.
+    - Credit Card entry modifications to user experience and fixed bug with adding/deleting cards
+    - Delivery dates on line items now reflect the ship date entered in the order header
+  - **Customers**
+    - Creating a new ticket now defaults the customer field to the current customer
+    - Fixed issues with navigation after adding or deleting an shipping address.
     - Credit Card entry modifications to user experience and fixed bug with adding/deleting cards
     - Delivery dates on line items now reflect the ship date entered in the order header
   - **Customers**
@@ -48,7 +65,6 @@ These are the release notes for version 1.1.1 (06/10/2024) of the Rover Web appl
 
 - **Customer Portal**
   - Invalid date coming back in invoice table for due date resolved
-  - Hotfix for invoices loading in table
-  
+  - Added the ability to see the invoices table only once the invoice data is ready
 
 <PageFooter />
