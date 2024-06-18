@@ -2,8 +2,9 @@
 
 <PageHeader />
 
+Rover POS allows your business users to originate orders, fulfill orders, process payments and more. Depending on your needs, configure the application to allow your users to perform any combination of those tasks in an easy-to-follow web interface. Whether you are using Rover ERP, Smart Suite, IMACS or any number of other back-end systems this modern interface can be made available to your users! The documentation that follows seeks to cover all standard functionality of the product, and your experience may vary further depending on your configuration and customization.
 
-A new version of Rover is here! Rover POS allows you to interact with Rover in a POS environment through our new web client. Make sales and move inventory between different customers through an easy-to-follow web interface.
+> NOTE: Please note that while you may use this version in tandem with [Smart Suite POS](../../smartsuite/pos/README.md), closing the register in one application will result in the register being closed for the other application.
 
 ## Overview
 
