@@ -1,4 +1,4 @@
-# Rover Web v1.2.0 Draft Release Notes
+# Rover Web v1.1.2 Release Notes
 
 <badge text= "Version 1.1.2" vertical="middle" />
 
