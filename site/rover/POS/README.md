@@ -29,11 +29,13 @@ When in the POS screen the screen options are as follows:
 3)	The Recently Viewed options will show and keep track of the most recent customers that have been processed, this is for quick access if you have a frequent customer.
 4)	If you have searched for a customer, the search results tab is where you will see the results of the search.
 5)	Register Actions is where you will select to do some additional register functions.
+
 	a.	Close Register.
 	b.	Add additional cash to the register drawer.
 	c.	Withdraw cash from the register drawer.
 	d.	Perform a NO SALE transaction where you can just open the cash drawer.
 6)	This shows the currently logged on user, your options here are:
+
 	a.	Logout
 	b.	Settings – the options in here will vary depending on your user security options.
 7)	The “X” in the Recently Viewed results is where you can remove a recent customer if you do not wish them to appear in the recent shout cuts.
@@ -71,39 +73,40 @@ Here you can search for parts to add to the order, you will enter your part numb
 
 ![Orders](./RoverPOS-Orders.png)
 
-	a.	You can select the “Load All Orders” label ‘A’ to load and view all orders that need to be finalized. If payment is required when you finalize an order, you will be taken directly to the payment screen.
-	b.	In the search field you can scan/enter an order to see a single order
+a.	You can select the “Load All Orders” label ‘A’ to load and view all orders that need to be finalized. If payment is required when you finalize an order, you will be taken directly to the payment screen.
+b.	In the search field you can scan/enter an order to see a single order
 
 3)	Invoices – If you select the Invoice tab,
 
 ![Invoices](./RoverPOS-Invoices.png)
 
-	a.	Load All Order will change to be “Load All Invoices”. Selecting this will display all open invoices regardless of age.
-	b.	Search field will allow you to search for a single invoice.
-	c.	Aging Summary will display the customers aging, selecting one of the aging categories, Current, 31-60, 61-90, 90+, will display all the invoices in that aging category.
-	d.	This is where the invoices will be displayed, from here you can click on 1 or more of the displayed invoices add them to the current register transaction. After selecting the invoices, you will then click on ‘Continue to Payment” to select the payment option.
+a.	Load All Order will change to be “Load All Invoices”. Selecting this will display all open invoices regardless of age.
+b.	Search field will allow you to search for a single invoice.
+c.	Aging Summary will display the customers aging, selecting one of the aging categories, Current, 31-60, 61-90, 90+, will display all the invoices in that aging category.
+d.	This is where the invoices will be displayed, from here you can click on 1 or more of the displayed invoices add them to the current register transaction. After selecting the invoices, you will then click on ‘Continue to Payment” to select the payment option.
 
 4)	Receipt History – Selecting this option will display the selected customers’ receipts.
 
 ![Receipt History](./RoverPOS-Receipt.png)
 
 If there is a receipt from the current day, there will be an option to ‘Post Void’ the transaction.  This Icon will be immediately to the left of the print icon.
-	a.	Clicking on the print option to the right of the transaction information will reprint the receipt for that transaction.
-	b.	This will display the Tender/Payment type that was used, the “split” shows there were multiple payment types used.
-	c.	Clicking here will email a copy of the receipt to the email address that you enter.
+
+a.	Clicking on the print option to the right of the transaction information will reprint the receipt for that transaction.
+b.	This will display the Tender/Payment type that was used, the “split” shows there were multiple payment types used.
+c.	Clicking here will email a copy of the receipt to the email address that you enter.
 
 5)	Payment Methods on File – this is where you can view or add Card On File “COF” options for a customer. A customer can have multiple cards on file.
 
 ![Payment Methods](./RoverPOS-Methods.png)
 
-	a.	Displays the current saved payment methods that a customer has on file. The Credit Card ID is the token that was received from the card processor, this is NOT the actual credit card number.
-	b.	Select the Trash Can to delete a card on file, this can not be undone, if a COF is deleted then you will need to get the information again and Add a COF  again.
-	c.	Select the “Add” button to create a new ‘Card On File’.
+a.	Displays the current saved payment methods that a customer has on file. The Credit Card ID is the token that was received from the card processor, this is NOT the actual credit card number.
+b.	Select the Trash Can to delete a card on file, this can not be undone, if a COF is deleted then you will need to get the information again and Add a COF  again.
+c.	Select the “Add” button to create a new ‘Card On File’.
 
-![Card Details](RoverPOS-Card_Details.png)
+![Card Details](./RoverPOS-Card_Details.png)
 
-	i.	In this section you will enter the credit card information, this section is a secure ‘I-Frame’ from the credit card processor, data entered here is not entered in to the POS software. Fill out the fields and then select the “Validate Card”.
-	ii.	After getting the credit card validated, enter in the customer’s name and billing information. Once the fields are entered then select the Save button. If the card is validated and the address information is all correct then the new card will be added to the COF display above.
+i.	In this section you will enter the credit card information, this section is a secure ‘I-Frame’ from the credit card processor, data entered here is not entered in to the POS software. Fill out the fields and then select the “Validate Card”.
+ii.	After getting the credit card validated, enter in the customer’s name and billing information. Once the fields are entered then select the Save button. If the card is validated and the address information is all correct then the new card will be added to the COF display above.
 
 6)	Other Transactions – Here you can select to
 	a.	Receive Cash on Account – After selecting this option you will be prompted to add a ‘Note’ and then the amount to add. After entering this information, you will be taken directly to the Payment options. No other options are available with this type of transaction.
@@ -119,7 +122,7 @@ When completing a transaction, after selecting the ‘Continue to Payment’ or 
 
 •	Card on File – When selecting this option if there is only one card on file then you will be prompted to enter the amount of the transaction to charge to the card. If there are multiple cards on file then you will be prompted to select the card to use and also enter the amount to charge to the card.
 
-![Select Card](RoverPOS-Select_Card.png)
+![Select Card](./RoverPOS-Select_Card.png)
 
 •	Manual Card Entry – will open an I-Frame (this is a secure window to the card processor) and prompt you to manually enter the card information.
 
