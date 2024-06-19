@@ -6,184 +6,136 @@ Rover POS allows your business users to originate orders, fulfill orders, proces
 
 > NOTE: Please note that while you may use this version in tandem with [Smart Suite POS](../../smartsuite/pos/README.md), closing the register in one application will result in the register being closed for the other application.
 
-## Overview
+## Logging in
 
-Depending on your licensed modules and security levels, the modules available to you may differ as seen in the screenshot below.
+Log to the URL that has been provided for you and then enter your Username and Password
 
-![Modules](./RoverPOS-002x.png)
+![Login](./RoverPOS-login.png)
 
-![Steps](./RoverPOS-003.png)
+## Starting Register
 
-1. This button toggles the sidebar descriptions ON and OFF. Normally you will use the POS option, which will be populated based on your security settings.
-2. This is where you will scan/type in the invoice barcode or enter a customer name to search for customers. You can also look up an order # if you need to finalize an order before using the invoice.
-3. The Recently Viewed options will show and keep track of the most recent customers that have been processed, this is for quick access if you have a frequent customer.
-4. The search results tab is where you will see the results of a search.
-5. Register Actions is where you will select some additional register functions.
- a.	Close Register.
- b.	Add additional cash to the register drawer.
- c.	Withdraw cash from the register drawer.
- d.	Perform a NO SALE transaction, where you can open the cash drawer.
-6. This shows the currently logged-on user, your options here are:
- a.	Logout
- b.	Settings – the options in here will vary depending on your user security options.
-7. The “X” in the Recently Viewed results is where you can remove a recent customer if you do not wish them to appear in the recent shout cuts.
+Once you log in, you will be prompted to enter in the starting cash for your Register.
 
-## Getting Started
+![StartingRegister](./RoverPOS-Starting_Register.png)
 
-We can start the Rover POS process by selecting POS on the leftmost menu. It will open up a new screen that will allow you to select the customer you wish to sell to. You can search for the desired customer using either their Name or ID, you can also scan/enter in an invoice # or order #. 
+## POS Screen Options
 
-*If using the ROVER database, the customers that are listed here are directly linked to CUST.E in Rover. Once a new customer is added to that Rover module, you can quickly find them listed in Rover POS.
+When in the POS screen the screen options are as follows:
 
+![POSScreenOptions](./RoverPOS-Screen_Options.png)
 
-![POS Screen](./RoverPOS-004.png)
+1)	This button toggles the side bar descriptions ON and OFF, normally you will just use the POS option, the dashboard option will be populated based off of your role in the company.
+2)	This is where you will scan/type in the Invoice barcode or enter in a customer name to search for the customers. You can also look up an Order # if you need to finalize an order before using the invoice.
+3)	The Recently Viewed options will show and keep track of the most recent customers that have been processed, this is for quick access if you have a frequent customer.
+4)	If you have searched for a customer, the search results tab is where you will see the results of the search.
+5)	Register Actions is where you will select to do some additional register functions.
+	a.	Close Register.
+	b.	Add additional cash to the register drawer.
+	c.	Withdraw cash from the register drawer.
+	d.	Perform a NO SALE transaction where you can just open the cash drawer.
+6)	This shows the currently logged on user, your options here are:
+	a.	Logout
+	b.	Settings – the options in here will vary depending on your user security options.
+7)	The “X” in the Recently Viewed results is where you can remove a recent customer if you do not wish them to appear in the recent shout cuts.
+8)	Load Customers will display all customers and allow you to scroll through them.
+9)	If you create and order and ‘Save’ the order to complete later, this is where you will find the draft saved order. 
 
-## Customer Lookup
+## Processing an Invoice
+
+After scanning an invoice into the search field, the customer associated with the invoice will be loaded and the invoice will be loaded to the transaction. 
+
+![ProcessingAnInvoice](./RoverPOS-Processing_Invoice.png)
+
+1)	Customer that is associated with the invoice.
+2)	Invoice number and the amount due for this invoice.
+3)	Select the “Continue to Payment” to proceed to the payment options. 
+
+## Processing a Transaction
+
+### Customer Lookup
 
 To lookup a customer, enter in 3 or more letters in the customer’s name and the search results tab will highlight and display the number of accounts that match your lookup.
 
-You will select the customer you are looking for or click in the search field and enter a new search.
-
 ![Customer Lookup](./RoverPOS-005.png)
 
+You will select the customer you are looking for or click in the search field and enter a new search.
 
-## Create Your Order
+After you have selected a customer, there are several actions you can view or select from
 
-After we have selected our customer, a new screen will open showing a few different options. 
+![Actions](./RoverPOS-Actions.png)
 
-## Parts
-*Parts Tab is only available if you have the ROVER parts module.
+1)	Parts – *Parts Tab is only available if you have the ROVER parts module.
+Here you can search for parts to add to the order, you will enter your part number or part of the description in the ‘Search for Parts’ field, once displayed you will select the part and quantity to add to the order.
 
-Search for part numbers and names using multiple filters. Use this to create and prepare orders. It will initially open on the code price and will list all parts in alphabetical order. By selecting the different filters, we can narrow down the search to specific parts. Alternatively, we can also search for our desired part by using either the description of the part or the part number. Clicking “RESET SEARCH” will clear all filters and keywords, returning us to the alphabetical code price list. It will display the price along with the quantity you want to add to your cart. Click “Add to Cart” and we can then click “Create Order” to continue with this sales order.
+2)	Orders – this is where you can view all of the open orders for this customer, you can select from the list to finalize an order if needed. 
 
-*If you find that the quantity or price is incorrect, you will be able to change either of those by clicking on the part name on the right after adding it to your cart.
+![Orders](./RoverPOS-Orders.png)
 
+	a.	You can select the “Load All Orders” label ‘A’ to load and view all orders that need to be finalized. If payment is required when you finalize an order, you will be taken directly to the payment screen.
+	b.	In the search field you can scan/enter an order to see a single order
 
-![Parts](./RoverPOS-006.png)
+3)	Invoices – If you select the Invoice tab,
 
-![Orders](./RoverPOS-007.png)
+![Invoices](./RoverPOS-Invoices.png)
 
-### 1) Orders
-Displays all open orders along with their ID’s, Reps, Type, Order Date, Purchase Order #, and buttons to allow you to download or email the receipt. 
-Finalizing an order that has a payment required will automatically load the payment screen with the newly created Invoice.
+	a.	Load All Order will change to be “Load All Invoices”. Selecting this will display all open invoices regardless of age.
+	b.	Search field will allow you to search for a single invoice.
+	c.	Aging Summary will display the customers aging, selecting one of the aging categories, Current, 31-60, 61-90, 90+, will display all the invoices in that aging category.
+	d.	This is where the invoices will be displayed, from here you can click on 1 or more of the displayed invoices add them to the current register transaction. After selecting the invoices, you will then click on ‘Continue to Payment” to select the payment option.
 
-*If you are using the ROVER database, this information gets pulled after a sales order has been created in SO.E.
+4)	Receipt History – Selecting this option will display the selected customers’ receipts.
 
+![Receipt History](./RoverPOS-Receipt.png)
 
+If there is a receipt from the current day, there will be an option to ‘Post Void’ the transaction.  This Icon will be immediately to the left of the print icon.
+	a.	Clicking on the print option to the right of the transaction information will reprint the receipt for that transaction.
+	b.	This will display the Tender/Payment type that was used, the “split” shows there were multiple payment types used.
+	c.	Clicking here will email a copy of the receipt to the email address that you enter.
 
-### 2) Invoices
+5)	Payment Methods on File – this is where you can view or add Card On File “COF” options for a customer. A customer can have multiple cards on file.
 
-![Invoices](./RoverPOS-008.png)
+![Payment Methods](./RoverPOS-Methods.png)
 
-Lists all outstanding invoices. 
-*If you are using the ROVER database, this information gets pulled from AP.E.
+	a.	Displays the current saved payment methods that a customer has on file. The Credit Card ID is the token that was received from the card processor, this is NOT the actual credit card number.
+	b.	Select the Trash Can to delete a card on file, this can not be undone, if a COF is deleted then you will need to get the information again and Add a COF  again.
+	c.	Select the “Add” button to create a new ‘Card On File’.
 
-A. “Load All Invoices”. Selecting this will display all open invoices regardless of age.
+![Card Details](RoverPOS-Card_Details.png)
 
-B. Search field will allow you to search for a single invoice.
+	i.	In this section you will enter the credit card information, this section is a secure ‘I-Frame’ from the credit card processor, data entered here is not entered in to the POS software. Fill out the fields and then select the “Validate Card”.
+	ii.	After getting the credit card validated, enter in the customer’s name and billing information. Once the fields are entered then select the Save button. If the card is validated and the address information is all correct then the new card will be added to the COF display above.
 
-C. Aging Summary will display the customers aging, selecting one of the aging categories, Curren, 32-60, 61-90, 90+, will display all the invoices in that aging category.
+6)	Other Transactions – Here you can select to
+	a.	Receive Cash on Account – After selecting this option you will be prompted to add a ‘Note’ and then the amount to add. After entering this information, you will be taken directly to the Payment options. No other options are available with this type of transaction.
+	b.	Receive Other Income - After selecting this option you will be prompted to add a ‘Note’ and then the amount to add. After entering this information, you will be taken directly to the Payment options. No other options are available with this type of transaction.
 
-D. This is where the invoices will be displayed, from here you can click on 1 or more of the displayed invoices and add them to the current register transaction. 
-Once an invoice has been added to the current transactions, you can click on the Invoice # and you will be allowed to edit the amount payed on that invoice.
-
-![Edit Invoice](./RoverPOS-009.png)
-
-After selecting the invoices to include for payment, you will then click “Continue to Payment” to select the payment option.
-
-### 3) Receipt History
-
-Selecting this option will show all the selected customer’s receipts.
-
-![Receipt History](./RoverPOS-010.png)
-
-A. Clicking on the print option to the right of the transaction information will reprint the receipt for that transaction.  
-
-B. This will display the Tender/Payment type that was used, the “split” shows there were multiple payment types used.
-
-C. If the transaction is from the current day, you will have the option to void the transaction, you will then be prompted to confirm “Yes”, or “No” if you wish to continue.
-
-### 4) Payment Methods on File
-
-This is where you can view or add a saved payment option for a customer. A customer can have multiple forms of payment on file.
-
-![On file](./RoverPOS-011.png)
-
-A. Displays the current saved payment methods that a customer has on file. The Credit Card ID is the token that was received from the card processor, this is NOT the actual credit card number.
-
-B. Select the trash can to delete a card on file, this cannot be undone, if a saved payment is deleted you will need to renter it again.
-
-C. Select the “Add” button to create a new ‘Card on File’.
-
-![Credit Card Details](./RoverPOS-012.png)
-
-i.	In this section you will enter the credit card information, this section is a secure ‘I-Frame’ from the credit card processor, data entered here is not entered into the POS software. Fill out the fields and then select the “Validate Card”.
-
-ii.	After getting the credit card validated, enter in the customer’s name and billing information. Once the fields are entered then select the Save button. If the card is validated and the address information is all correct, then the new card will be added to the COF display above
-
-### 5) Other Transactions
-
-Here you can select to:
-
-A) Receive Cash on Account – After selecting this option you will be prompted to add a ‘Note’ and then the amount to add. After entering this information, you will be taken directly to the Payment options. No other options are available with this type of transaction.
-
-B) Receive Other Income - After selecting this option you will be prompted to add a ‘Note’ and then the amount to add. After entering this information, you will be taken directly to the Payment options. No other options are available with this type of transaction.
-
-
-## Order Information
-
-![Order Information](./RoverPOS-013.png)
- 
-On the order information screen, you will be presented with the Address Information list. The addresses are automatically pulled from the entries that already exist in CUST.E from the Rover client. Pressing the “Use New Address” button will create a new address in CUST.E once the new address has been saved.
-
-The Additional Information section allows for a parts order number, type of shipping, and ship date. The type of shipping is determined by MRK.CONTROL so more can be added. There is also the option of a signature that can be added to the receipt.
-
-Confirm that the order information on the right of the page is correct then hit “Confirm Order”. Any kind of delivery costs, taxes, and other fees will be calculated there and displayed with a total.
- 
 ## Tender Options
 
-When completing a transaction, after selecting the ‘Continue to Payment’ or if you did one of the ‘Other Transactions” options that took you straight to the payment page. Here you will select one of the payment types, you may use more than one payment type in a transaction.
+When completing a transaction, after selecting the ‘Continue to Payment’ or if you did one of the ‘Other Transactions” options that took you straight to the payment page. Here you will select one of the payment types, you may use more than one payment type in a transaction
 
-![Tender Options](./RoverPOS-014.png)
+![Tender Options](./RoverPOS-Tender_Options.png)
 
-·	Credit Card – This option will trigger the credit card device associated to the register number to turn on and prompt the cashier to insert the card and validate the tender amount.
- 
-·	Card on File – When selecting this option if there is only one card on file then you will be prompted to enter the amount of the transaction to charge to the card. If there are multiple cards on file, you will be prompted to select the card to use and enter the amount to charge it.
+•	Credit Card – This option will trigger the credit card device associated to the register number to turn on and prompt the cashier to insert the card and validate the tender amount.
 
-![Select Credit Card](./RoverPOS-015.png)
+•	Card on File – When selecting this option if there is only one card on file then you will be prompted to enter the amount of the transaction to charge to the card. If there are multiple cards on file then you will be prompted to select the card to use and also enter the amount to charge to the card.
 
-·	Manual Card Entry – this will open an I-Frame (this is a secure window to the card processor) and prompt you to manually enter the card information.
+![Select Card](RoverPOS-Select_Card.png)
 
-![Card Entry](./RoverPOS-016.png)
+•	Manual Card Entry – will open an I-Frame (this is a secure window to the card processor) and prompt you to manually enter the card information.
 
-·	Cash – Selecting this method will prompt you to enter the cash amount to use, the default will be any remaining amount owed.
+![Manual Entry](./RoverPOS-Manual_Entry.png)
 
-![Cash](./RoverPOS-017.png)
+•	Cash – Selecting this method will prompt you to enter the cash amount to use, the default will be any remaining amount owed.
 
-If you tender an amount greater than the balance due, you will have the option to “Apply Overage to Account”, select the check box to apply or uncheck to receive change back.
+![Cash](./RoverPOS-Cash.png)
 
-![Overage](./RoverPOS-018.png)
+•	Check – Select the check option, you will be prompted to enter the check number and the amount to submit with this tender type.
 
-If the customer is receiving the change, the amount due to the customer will be displayed below the receipt options.
+![Check](./RoverPOS-Check.png)
 
-![Payment Complete](./RoverPOS-019.png)
+•	e-Check – Select the e-Check to enter you bank account information to have a your account debited, you will enter in the “Account Number”, “Routing Number”, “Amount” to debit, and then select if this is a Checking or Savings account and then select the approval box to authorize the payment option
 
-·	Check – Select the check option, you will be prompted to enter the check number and the amount to submit with this tender type.
-
-![Check Number](./RoverPOS-020.png)
-
-·	e-Check – Select the e-Check to enter your bank account information to have your account debited, you will enter the “Account Number”, “Routing Number”, and “Amount” to debit, and then select if this is a Checking or Savings account and then select the approval box to authorize the payment option
-
-![Bank Account](./RoverPOS-021.png)
-
-
-## Order Completion
-
-![Receipt Number](./RoverPOS-022.png)
-
-Here you will select your receipt option: print it, email it or No Receipt.
-
-
-The Sales Order has now been created. Customers equipped with Rover Pay can continue to the payment of the order.
+![eCheck](./RoverPOS-eCheck.png)
  
 
 <PageFooter />
