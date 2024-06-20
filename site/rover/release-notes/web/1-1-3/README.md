@@ -16,4 +16,6 @@ These are the release notes for version 1.1.3 (06/20/2024) of the Rover Web appl
     - Addresses an issue with the part number dropdown not being initialized to the existing value when editing an existing ticket.
     
 - **Rover Portal**
+  - **Orders**
+    - Customer number is being passed in when doing a search for a part or price of a item.
 <PageFooter />
