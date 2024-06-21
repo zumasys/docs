@@ -17,5 +17,6 @@ These are the release notes for version 1.1.3 (06/20/2024) of the Rover Web appl
     
 - **Rover Portal**
   - **Orders**
-    - Customer number is being passed in when doing a search for a part or price of a item.
+    - Customer numbers are now included in searches for parts or item prices.
+    - Resolved an issue where search results were previously limited to 100 entries. The search now returns a complete set of results.
 <PageFooter />
