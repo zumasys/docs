@@ -12,8 +12,8 @@ These are the release notes for version 1.2.0 TBD) of the Rover Web application 
       - Server side receipt printing with printer selection dialog.
       > Note: Currently only supported by select ERPs.
       - Optional "Maintain Cart Sort" function can be enabled using `MRK.CONTROL`.  This modifies the default behavior where line items in the cart are added to the top, and moved to the top as edits are made to the line items.
-      - Optional "Increment Line Item Qty without Price Match" function can be enabled using `MRK.CONTROL`.  This modifies the default behavior where as a part is added to the cart, if the same part is already in the cart, the qty of the existing line item will only be incremented if the price in the cart matches the price of the part.  If the price has been adjusted in the cart, adding another instance of that same part will add a new line.  With this toggle enabled, the existing line item will have it's Qty incremented even if the price does not match.      
-      - Payment Submit buttons are now disabled after an initial click to avlid duplicate transactions.
+      - Optional "Increment Line Item Qty without Price Match" function can be enabled using `MRK.CONTROL`.  This modifies the default behavior where as a part is added to the cart, if the same part is already in the cart, the qty of the existing line item will only be incremented if the price in the cart matches the price of the part.  If the price has been adjusted in the cart, adding another instance of that same part will add a new line.  With this toggle enabled, the existing line item will have its Qty incremented even if the price does not match.      
+      - Payment Submit buttons are now disabled after an initial click to avoid duplicate transactions.
 
 ## Bug Fixes
 
@@ -21,7 +21,7 @@ These are the release notes for version 1.2.0 TBD) of the Rover Web application 
   - **Point of Sale**
     - Addressed an issue with order code validation which allowed orders to be placed without an order type specified in certain situations.
   - **Customer Inquiry**
-    - UI imprivement to resolves issues with "+ Add" button being hidden at certain screen resolutions in the Credit Cards tab of Customer Inquiry
+    - UI improvement to resolve issues with "+ Add" button being hidden at certain screen resolutions in the Credit Cards tab of Customer Inquiry
     
 
 <PageFooter />
