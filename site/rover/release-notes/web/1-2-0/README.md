@@ -20,6 +20,7 @@ These are the release notes for version 1.2.0 TBD) of the Rover Web application 
 - **Rover Web**
   - **Point of Sale**
     - Addressed an issue with order code validation which allowed orders to be placed without an order type specified in certain situations.
+    - Addressed an issue in which the "Order Information" step when editing and creating an order was not visible in Register mode.
   - **Customer Inquiry**
     - UI improvement to resolve issues with "+ Add" button being hidden at certain screen resolutions in the Credit Cards tab of Customer Inquiry
     
