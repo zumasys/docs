@@ -22,11 +22,11 @@ We will also need your logo and favicon logo (the icon displayed in the browser 
 
 ## ACH Capabilities
 
-If you would like to take advantage of ACH payments, you will need to verify that your bank can accept ACH files (NACHA files) or sign up for TotaLink.
+If you would like to take advantage of ACH payments, you will need to verify that your bank can accept ACH files (NACHA files) or sign up for Rover Pay.
 
 ## Credit Card Capabilities
 
-If you would like to take advantage of integrated Credit Card payments you will need to sign up for TotaLink.
+If you would like to take advantage of integrated Credit Card payments you will need to sign up for Rover Pay.
 
 ## Contact Configuration
 

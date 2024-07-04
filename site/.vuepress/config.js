@@ -3,9 +3,9 @@ const webpack = require("webpack");
 
 module.exports = {
   head: [["link", { rel: "icon", href: "/assets/img/favicon.ico" }]],
-  title: "Zumasys: Product Documentation",
+  title: "Product Documentation",
   description:
-    "The knowledgebase for all Zumasys products.",
+    "Your home for Rover Business Suite product support and documentation.",
   markdown: {
     lineNumbers: true
   },
@@ -29,10 +29,7 @@ module.exports = {
     // Reading Progress Bar
     "reading-progress": {
       readingDir: [
-        "pos-connect",
-        "rover",
-        "smartsuite",
-        "totalink"
+        "rover"
       ]
     },
     // Add article reading time estimate
@@ -67,167 +64,152 @@ module.exports = {
           ["/rover/client-setup/", "Client Setup"],
           ["/rover/ACCOUNT-CONTROL/", "Account Control"],
           {
-          title: "ACE Utilities",
-          path: "/rover/ACE-OVERVIEW/",
-          collapsable: true,
-          children: [
-            ["/rover/ACE-OVERVIEW/ACE-ENTRY/", "ACE Entry"],
-            ["/rover/ACE-OVERVIEW/ACE-PROCESS/", "ACE Process"],
-            ["/rover/ACE-OVERVIEW/ACE-REPORT/", "ACE Report"]]
+            title: "ACE Utilities",
+            path: "/rover/ACE-OVERVIEW/",
+            collapsable: true,
+            children: [
+              ["/rover/ACE-OVERVIEW/ACE-ENTRY/", "ACE Entry"],
+              ["/rover/ACE-OVERVIEW/ACE-PROCESS/", "ACE Process"],
+              ["/rover/ACE-OVERVIEW/ACE-REPORT/", "ACE Report"]]
           },
           {
-          title: "Accounts Payable",
-          path: "/rover/AP-OVERVIEW/",
-          collapsable: true,
-          children: [
-            ["/rover/AP-OVERVIEW/AP-ENTRY/", "AP Entry"],
-            ["/rover/AP-OVERVIEW/AP-PROCESS/", "AP Process"],
-            ["/rover/AP-OVERVIEW/AP-REPORT/", "AP Report"]]
+            title: "Accounts Payable",
+            path: "/rover/AP-OVERVIEW/",
+            collapsable: true,
+            children: [
+              ["/rover/AP-OVERVIEW/AP-ENTRY/", "AP Entry"],
+              ["/rover/AP-OVERVIEW/AP-PROCESS/", "AP Process"],
+              ["/rover/AP-OVERVIEW/AP-REPORT/", "AP Report"]]
           },
           {
-          title: "Accounts Receivable",
-          path: "/rover/AR-OVERVIEW/",
-          collapsable: true,
-          children: [
-            ["/rover/AR-OVERVIEW/AR-ENTRY/", "AR Entry"],
-            ["/rover/AR-OVERVIEW/AR-PROCESS/", "AR Process"],
-            ["/rover/AR-OVERVIEW/AR-REPORT/", "AR Report"]]
+            title: "Accounts Receivable",
+            path: "/rover/AR-OVERVIEW/",
+            collapsable: true,
+            children: [
+              ["/rover/AR-OVERVIEW/AR-ENTRY/", "AR Entry"],
+              ["/rover/AR-OVERVIEW/AR-PROCESS/", "AR Process"],
+              ["/rover/AR-OVERVIEW/AR-REPORT/", "AR Report"]]
           },
           {
-          title: "Document Control",
-          path: "/rover/DOC-OVERVIEW/",
-          collapsable: true,
-          children: [
-            ["/rover/DOC-OVERVIEW/DOC-ENTRY/", "DOC Entry"],
-            ["/rover/DOC-OVERVIEW/DOC-PROCESS/", "DOC Process"],
-            ["/rover/DOC-OVERVIEW/DOC-REPORT/", "DOC Report"],
-            ["/rover/DOC-OVERVIEW/Doc-Control/", "DOC Control"]]
+            title: "Document Control",
+            path: "/rover/DOC-OVERVIEW/",
+            collapsable: true,
+            children: [
+              ["/rover/DOC-OVERVIEW/DOC-ENTRY/", "DOC Entry"],
+              ["/rover/DOC-OVERVIEW/DOC-PROCESS/", "DOC Process"],
+              ["/rover/DOC-OVERVIEW/DOC-REPORT/", "DOC Report"],
+              ["/rover/DOC-OVERVIEW/Doc-Control/", "DOC Control"]]
           },
           {
-          title: "Engineering",
-          path: "/rover/ENG-OVERVIEW/",
-          collapsable: true,
-          children: [
-            ["/rover/ENG-OVERVIEW/ENG-ENTRY/", "ENG Entry"],
-            ["/rover/ENG-OVERVIEW/ENG-PROCESS/", "ENG Process"],
-            ["/rover/ENG-OVERVIEW/ENG-REPORT/", "ENG Report"]]
+            title: "Engineering",
+            path: "/rover/ENG-OVERVIEW/",
+            collapsable: true,
+            children: [
+              ["/rover/ENG-OVERVIEW/ENG-ENTRY/", "ENG Entry"],
+              ["/rover/ENG-OVERVIEW/ENG-PROCESS/", "ENG Process"],
+              ["/rover/ENG-OVERVIEW/ENG-REPORT/", "ENG Report"]]
           },
           {
-          title: "Executive Summary",
-          path: "/rover/EXEC-OVERVIEW/",
-          collapsable: true,
-          children: [
-            ["/rover/EXEC-OVERVIEW/EXEC-ENTRY/", "Executive Entry"],
-            ["/rover/EXEC-OVERVIEW/EXEC-PROCESS/", "Executive Process"],
-            ["/rover/EXEC-OVERVIEW/EXEC-REPORT/", "Executive Report"]]
+            title: "Executive Summary",
+            path: "/rover/EXEC-OVERVIEW/",
+            collapsable: true,
+            children: [
+              ["/rover/EXEC-OVERVIEW/EXEC-ENTRY/", "Executive Entry"],
+              ["/rover/EXEC-OVERVIEW/EXEC-PROCESS/", "Executive Process"],
+              ["/rover/EXEC-OVERVIEW/EXEC-REPORT/", "Executive Report"]]
           },
           {
-          title: "Field Service",
-          path: "/rover/FS-OVERVIEW/",
-          collapsable: true,
-          children: [
-            ["/rover/FS-OVERVIEW/FS-ENTRY/", "Field Service Entry"],
-            ["/rover/FS-OVERVIEW/FS-PROCESS/", "Field Service Process"],
-            ["/rover/FS-OVERVIEW/FS-REPORT/", "Field Service Report"]]
+            title: "Field Service",
+            path: "/rover/FS-OVERVIEW/",
+            collapsable: true,
+            children: [
+              ["/rover/FS-OVERVIEW/FS-ENTRY/", "Field Service Entry"],
+              ["/rover/FS-OVERVIEW/FS-PROCESS/", "Field Service Process"],
+              ["/rover/FS-OVERVIEW/FS-REPORT/", "Field Service Report"]]
           },
           {
-          title: "General Ledger",
-          path: "/rover/GL-OVERVIEW/",
-          collapsable: true,
-          children: [
-            ["/rover/GL-OVERVIEW/GL-ACCOUNT-FLOW/", "GL Account Flow"],
-            ["/rover/GL-OVERVIEW/GL-ENTRY/", "GL Entry"],
-            ["/rover/GL-OVERVIEW/GL-PROCESS/", "GL Process"],
-            ["/rover/GL-OVERVIEW/GL-REPORT/", "GL Report"]]
+            title: "General Ledger",
+            path: "/rover/GL-OVERVIEW/",
+            collapsable: true,
+            children: [
+              ["/rover/GL-OVERVIEW/GL-ACCOUNT-FLOW/", "GL Account Flow"],
+              ["/rover/GL-OVERVIEW/GL-ENTRY/", "GL Entry"],
+              ["/rover/GL-OVERVIEW/GL-PROCESS/", "GL Process"],
+              ["/rover/GL-OVERVIEW/GL-REPORT/", "GL Report"]]
           },
           {
-          title: "Inventory",
-          path: "/rover/INV-OVERVIEW/",
-          collapsable: true,
-          children: [
-            ["/rover/INV-OVERVIEW/INV-ENTRY/", "Inventory Entry"],
-            ["/rover/INV-OVERVIEW/INV-PROCESS/", "Inventory Process"],
-            ["/rover/INV-OVERVIEW/INV-REPORT/", "Inventory Report"]]
+            title: "Inventory",
+            path: "/rover/INV-OVERVIEW/",
+            collapsable: true,
+            children: [
+              ["/rover/INV-OVERVIEW/INV-ENTRY/", "Inventory Entry"],
+              ["/rover/INV-OVERVIEW/INV-PROCESS/", "Inventory Process"],
+              ["/rover/INV-OVERVIEW/INV-REPORT/", "Inventory Report"]]
           },
           ["/rover/M3-Services/", "Services Setup"],
           {
-          title: "Manufacturing Planning",
-          path: "/rover/MFG-OVERVIEW/",
-          collapsable: true,
-          children: [
-            ["/rover/MFG-OVERVIEW/MFG-ENTRY/", "Manufacturing Entry"],
-            ["/rover/MFG-OVERVIEW/MFG-PROCESS/", "Manufacturing Process"],
-            ["/rover/MFG-OVERVIEW/MFG-REPORT/", "Manufacturing Report"]]
+            title: "Manufacturing Planning",
+            path: "/rover/MFG-OVERVIEW/",
+            collapsable: true,
+            children: [
+              ["/rover/MFG-OVERVIEW/MFG-ENTRY/", "Manufacturing Entry"],
+              ["/rover/MFG-OVERVIEW/MFG-PROCESS/", "Manufacturing Process"],
+              ["/rover/MFG-OVERVIEW/MFG-REPORT/", "Manufacturing Report"]]
           },
           {
-          title: "Marketing ",
-          path: "/rover/MRK-OVERVIEW/",
-          collapsable: true,
-          children: [
-            ["/rover/MRK-OVERVIEW/MRK-ENTRY/", "Marketing Entry"],
-            ["/rover/MRK-OVERVIEW/MRK-PROCESS/", "Marketing Process"],
-            ["/rover/MRK-OVERVIEW/MRK-REPORT/", "Marketing Report"]]
+            title: "Marketing ",
+            path: "/rover/MRK-OVERVIEW/",
+            collapsable: true,
+            children: [
+              ["/rover/MRK-OVERVIEW/MRK-ENTRY/", "Marketing Entry"],
+              ["/rover/MRK-OVERVIEW/MRK-PROCESS/", "Marketing Process"],
+              ["/rover/MRK-OVERVIEW/MRK-REPORT/", "Marketing Report"]]
           },
           {
-          title: "Production",
-          path: "/rover/PRO-OVERVIEW/",
-          collapsable: true,
-          children: [
-            ["/rover/PRO-OVERVIEW/PRO-ENTRY/", "Production Entry"],
-            ["/rover/PRO-OVERVIEW/PRO-PROCESS/", "Production Process"],
-            ["/rover/PRO-OVERVIEW/PRO-REPORT/", "Production Report"]]
+            title: "Production",
+            path: "/rover/PRO-OVERVIEW/",
+            collapsable: true,
+            children: [
+              ["/rover/PRO-OVERVIEW/PRO-ENTRY/", "Production Entry"],
+              ["/rover/PRO-OVERVIEW/PRO-PROCESS/", "Production Process"],
+              ["/rover/PRO-OVERVIEW/PRO-REPORT/", "Production Report"]]
           },
           ["/rover/PROJ-OVERVIEW/", "Project Management"],
           {
-          title: "Purchasing",
-          path: "/rover/PUR-OVERVIEW/",
-          collapsable: true,
-          children: [
-            ["/rover/PUR-OVERVIEW/PUR-ENTRY/", "Purchasing Entry"],
-            ["/rover/PUR-OVERVIEW/PUR-PROCESS/", "Purchasing Process"],
-            ["/rover/PUR-OVERVIEW/PUR-REPORT/", "Purchasing Report"]]
+            title: "Purchasing",
+            path: "/rover/PUR-OVERVIEW/",
+            collapsable: true,
+            children: [
+              ["/rover/PUR-OVERVIEW/PUR-ENTRY/", "Purchasing Entry"],
+              ["/rover/PUR-OVERVIEW/PUR-PROCESS/", "Purchasing Process"],
+              ["/rover/PUR-OVERVIEW/PUR-REPORT/", "Purchasing Report"]]
           },
-          ["/rover/POS/", "Rover POS"],
-          ["/rover/workflowmgmt/", "Workflow Management"]
+          ["/rover/workflow-management/", "Workflow Management"]
         ]
       },
       {
-        title: "Rover POS (Formerly SmartSuite)",
-        path: "/smartsuite/",
-        collapsable: true,
-        children: [
-          ["/smartsuite/pos/balance-inquiry/", "Balance Inquiry"],
-          ["/smartsuite/pos/card-on-file/", "Card on File"],
-          ["/smartsuite/pos/class-specific-exemptions/", "Class Specific Exemptions"],
-          ["/smartsuite/pos/colleague-split-tender-checkout/", "Split Tender Checkout"],
-          ["/smartsuite/pos/coupon-gc-checkout/", "Coupons, Voucher and GC Online Checkout"],
-          ["/smartsuite/pos/custom-qb-reports/", "Custom Reports via Query Builder"],
-          ["/smartsuite/pos/discount-matrix/", "Discount Matrix"],
-          ["/smartsuite/pos/end-of-day-procedures/", "End of Day Procedures"],
-          ["/smartsuite/pos/gift-receipt-setup/", "Gift Receipt Setup"],
-          ["/smartsuite/pos/kitchen-printer-setup/", "Kitchen Printer Setup"],
-          ["/smartsuite/pos/loyalty-rewards-setup/", "Loyalty and Rewards"],
-          ["/smartsuite/pos/mail-orders/", "Mail Orders"],
-          ["/smartsuite/pos/negative-accounts-bad-checks/", "Negative Accounts/Bad Checks"],
-          ["/smartsuite/pos/online-orders-resume-suspend-and-modify/", "Online Orders"],
-          ["/smartsuite/pos/pos-training/", "Training Document"],
-          ["/smartsuite/pos/print-pickslip/", "Print Pickslips"],
-          ["/smartsuite/pos/register-reconciliation/", "Register Reconciliation"],
-          ["/smartsuite/pos/reports/", "Reports"],
-          ["/smartsuite/pos/resume-order-search-setup/", "Resume Order Search Setup"],
-          ["/smartsuite/pos/sell-and-redeem-gift-cards/", "Sell and Redeem Gift Cards"],
-          ["/smartsuite/pos/setup-of-balance-inquiry-for-gift-card/", "Setup Balance Inquiry for Gift Cards"],
-          ["/smartsuite/pos/vouchers-setup/", "Voucher Setup"],
-          ["/smartsuite/pos/web-order-returns/", "Web Order Returns"]
-        ]
+        title: "Rover POS",
+        path: "/rover/business-suite/pos/",
       },
       {
         title: "Rover Pay",
-        path: "/totalink/",
-        collapsable: true,
-        children: [
-          ["/totalink/", "API"],
-        ]
+        path: "/rover/business-suite/pay/",
+      },
+      {
+        title: "Rover BI",
+        path: "/rover/business-suite/bi/",
+      },
+      {
+        title: "Rover Portal",
+        path: "/rover/business-suite/portal/",
+      },
+      {
+        title: "Rover Gateway",
+        path: "/rover/business-suite/gateway/",
+      },
+      {
+        title: "Release Notes",
+        path: "/rover/release-notes/",
       },
     ],
     repo: "https://github.com/zumasys/docs",
