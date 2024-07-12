@@ -29,7 +29,8 @@
     <div class="feature spacer">
       <h2>Product Demos</h2>
       <p>
-        <a href="https://zumasys.navattic.com/tx30b9v" target="_blank">Rover POS (Order Creation)</a>
+        <a href="https://zumasys.navattic.com/tx30b9v" target="_blank">Rover POS (Order Creation)</a><br />
+        <a href="https://zumasys.navattic.com/vn907jr" target="_blank">Rover Tickets & Time (Ticket Creation)</a>
       </p>
     </div>
     <div class="spacer"><br /></div>
