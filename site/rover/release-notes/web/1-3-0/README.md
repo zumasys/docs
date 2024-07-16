@@ -14,7 +14,8 @@ These are the DRAFT release notes for version 1.3.0 (~7/15/2024) of the Rover We
       - Customizable lookups are supported in the inventory dialog in the part lookup. These can be configured in MRK.CONTROL to select which items to show. Currently only lookups with certain signatures are supported with more support coming in the future.
       ![Parts Lookup](./parts-lookup.gif)
       - Added invoice date under "invoices" tab
-
+    - **Field Services**
+      -Improved performance of initial load of the Field Services form.
 ## Bug Fixes
 
 - **Rover Customer Portal**
