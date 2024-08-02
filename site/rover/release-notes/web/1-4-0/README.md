@@ -9,12 +9,13 @@ These are the release notes for version 1.4.0 - DRAFT (8/2/2024) of the Rover We
 ## New Features
 - **Rover Web**
   - **Point of Sale**
-    - Shopping Cart UI improvements. (Add detail here)
-    ![Override Ship To](./CartUpdates.png)
-    - Credit creation from existing invoice. (Add detail here)
+    - The Shopping Cart UI has been improved to allow editing multiple line items at the same time and improve saving of line item notes.
+    ![Cart Updates](./CartUpdates.png)
+    - The invoices workflow has been updated to allow issuing a refund to an invoice. This can only be done for one invoice at a time. When processing a refund, a display is presented to allow selecting which line items and quantities to refund.
     > Note: Currently only supported by select ERPs.
+    ![Invoice Credit](./pos-invoice-refund.gif)
     - In order header before part selection workflows, existing orders, invoices, receipt history and payment method menu items are now avaialble on the order header stage of POS.
-    ![Override Ship To](./OrderHeaderMenu.png)
+    ![Order Header Menu](./OrderHeaderMenu.png)
 ## Bug Fixes
 
 - **Rover Web**
