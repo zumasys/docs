@@ -1,4 +1,4 @@
-# Rover Web v1.3.1 Release Notes
+# Rover Web v1.4.0 Draft Release Notes
 
 <badge text= "Version 1.4.0 - DRAFT" vertical="middle" />
 
@@ -10,7 +10,7 @@ These are the release notes for version 1.4.0 - DRAFT (8/2/2024) of the Rover We
 - **Rover Web**
   - **Point of Sale**
     - Shopping Cart UI improvements. (Add detail here)
-    ![Override Ship To](./OrderHeaderMenu.png)
+    ![Override Ship To](./CartUpdates.png)
     - Credit creation from existing invoice. (Add detail here)
     > Note: Currently only supported by select ERPs.
     - In order header before part selection workflows, existing orders, invoices, receipt history and payment method menu items are now avaialble on the order header stage of POS.
