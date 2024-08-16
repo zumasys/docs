@@ -15,7 +15,7 @@ These are the release notes for version 1.5.0 (8/16/2024) of the Rover Web appli
     - Added additional validate API call after and Order has been edited.
   - **Field Services**
     - Pagination has been added to the Field Services table to improve speed of loading data.
-    - ![Field Service Pagination](./1.5.0-field-service-pagination.gif)
+    - ![Field Service Pagination](./field-service-pagination.gif)
 ## Bug Fixes
 
 - **Rover Web**
