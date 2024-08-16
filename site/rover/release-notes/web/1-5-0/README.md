@@ -22,6 +22,3 @@ These are the release notes for version 1.5.0 (8/15/2024) of the Rover Web appli
     - Fixed issue where creating a new field service then searching did not load the latest changes.
     - Fixed issue with sorting and filtering not returning the correct Field Services
 <PageFooter />
-
-
-Ah, the negative qty entry
