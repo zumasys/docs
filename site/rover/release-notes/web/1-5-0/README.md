@@ -12,7 +12,8 @@ These are the DRAFT release notes for version 1.5.0 (8/16/2024) of the Rover Web
     - Ability to skip the sales tax calculation API call has been added. This is enabled by the "POS Skip Calc Tax" setting in MRK.CONTROL.
     > Note: Currently only supported by select ERPs.
     - Added ability to allow negative prices when editing parts in the cart. This is enabled by the "POS Allow Negative" setting in MRK.CONTROL.
-    - Added additional validate API call after and Order has been edited.
+    - Added additional validate API call after an order has been selected for edit.
+    - Receipt email/view is now available for Rover ERP integration after payment processing.
   - **Field Services**
     - Pagination has been added to the Field Services table to improve speed of loading data.
     - ![Field Service Pagination](./field-service-pagination.gif)
@@ -21,10 +22,10 @@ These are the DRAFT release notes for version 1.5.0 (8/16/2024) of the Rover Web
 - **Rover Web**
   - **POS**
     - Fixed issue where switching between modules would bypass the register selection.
-    - Fixed issue iFrame loading that cause credit card entry to fail.
+    - Fixed issue with credit card entry not displaying an error if card validation failed.
   - **Field Services**
     - Fixed issue where creating a new field service then searching did not load the latest changes.
-    - Fixed issue with sorting and filtering not returning the correct Field Services
+    - Fixed issue with sorting and filtering not returning the correct Field Services.
   - **General**
     - Fixed issue where printing table data would only print the first page.
 <PageFooter />
