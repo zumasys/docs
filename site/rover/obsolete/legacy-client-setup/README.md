@@ -2,6 +2,8 @@
 
 <PageHeader />
 
+> NOTE: The legacy Desktop client has reached end of life and should be replaced by the .NET client. Please contact <help@zumasys.com> for assistance with upgrading your system.
+
 ## Running Setup
 
 Rover (formerly known as "Millennium III") is accessed through a program that must be installed on each client computer. The options presented during installation will vary depending on various parameter settings that may be defined in the setup initialization file. For more information about these settings please refer to the Setup Administration section in this document.
