@@ -4,6 +4,7 @@
 
 ## Table of Contents
 
-- [Securing Rover with ACCOUNT.CONTROL](./ACCOUNT-CONTROL/README.md)
+- [Securing Rover with ACCOUNT.CONTROL](./account-control/README.md)
+- [Installing the .NET Desktop Client](./client-setup/README.md)
 
 <PageFooter />

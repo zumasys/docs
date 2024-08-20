@@ -62,7 +62,7 @@ module.exports = {
         collapsable: true,
         children: [
           ["/rover/administration/", "Administration"],
-          ["/rover/client-setup/", "Client Setup"],
+          ["/rover/administration/client-setup/", "Client Setup"],
           {
             title: "ACE Utilities",
             path: "/rover/ACE-OVERVIEW/",
