@@ -61,8 +61,16 @@ module.exports = {
         path: "/rover/",
         collapsable: true,
         children: [
-          ["/rover/administration/", "Administration"],
-          ["/rover/administration/client-setup/", "Client Setup"],
+          {
+            title: "Administration",
+            path: "/rover/administration/",
+            collapsable: true,
+            children: [
+              ["/rover/administration/", "Administration"],
+              ["/rover/administration/client-setup/", "Client Setup"],
+              ["/rover/administration/m3-services/", "M3 Services Setup"],
+            ]
+          },
           {
             title: "ACE Utilities",
             path: "/rover/ACE-OVERVIEW/",
@@ -146,7 +154,6 @@ module.exports = {
               ["/rover/INV-OVERVIEW/INV-PROCESS/", "Inventory Process"],
               ["/rover/INV-OVERVIEW/INV-REPORT/", "Inventory Report"]]
           },
-          ["/rover/M3-Services/", "Services Setup"],
           {
             title: "Manufacturing Planning",
             path: "/rover/MFG-OVERVIEW/",

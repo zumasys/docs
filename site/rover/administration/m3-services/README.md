@@ -9,7 +9,7 @@ Rover ERP utilizes the M3Services Windows Service to process documents, emails, 
 ## Installing M3Services
 
 1. Open up `Control Panel` and uninstall any previously installed M3Services.
-2. Unzip the M3ServicesSetup_5.xx.zip file and run the `setup.exe` contained within it.
+2. Unzip the _M3ServicesSetup_5.xx.zip_ file and run the `setup.exe` contained within it.
 3. Move through the installation prompts, selecting the defaults.
 4. After the install is complete, launch Windows `Services` and start M3Services for the first time.
 
