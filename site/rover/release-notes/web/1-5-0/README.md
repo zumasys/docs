@@ -1,6 +1,6 @@
-# Rover Web v1.5.0 Draft Release Notes
+# Rover Web v1.5.0 Release Notes
 
-<badge text= "Version 1.5.0 - Draft" vertical="middle" />
+<badge text= "Version 1.5.0" vertical="middle" />
 
 <PageHeader />
 
