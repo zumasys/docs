@@ -9,7 +9,6 @@ These are the release notes for version 1.6.1 (8/29/2024) of the Rover Web appli
 ## Bug Fixes
 
 - **General**
-  - Resolves an error with a customer specific integration/
-
+  - Resolves an error with custom dataset integrations
 
 <PageFooter />
