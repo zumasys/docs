@@ -14,6 +14,7 @@ These are the release notes for version 1.7.0 (TBD) of the Rover Web application
     - On small screen format devices (iPad Mini in portrait mode), a collapsible section was added to more easily view the cart summary section.
      - ![Collapsible Parts](./CategoryCollapse.gif) 
      - (PENDING, not yet in TEST) Adds a default filter to the Orders table to return "New" status orders.
+   - Added ability to selectively display custom fields in the Cart Summary section. This is enabled by the "POS Extra Info" setting in MRK.CONTROL
 
 ## Bug Fixes
 
@@ -24,6 +25,7 @@ These are the release notes for version 1.7.0 (TBD) of the Rover Web application
   - Invoice table search now includes selected customer ID in request.
   - Resolves an issue with a product filter not resetting when a category is changed.
   - (PENDING, not yet in TEST) Resolves an issue with items in the Orders table not being sorted properly.
+  - Resolved issue with MRK.CONTROL and CO.CONTROL API request repeating multiple times.
 
 
 <PageFooter />
