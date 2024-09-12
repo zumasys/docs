@@ -12,9 +12,9 @@ These are the release notes for version 1.7.0 (9/13/2024) of the Rover Web appli
   - **Point of Sale**
     - Ability to clear selected category on search. This is enabled by the "POS Clear Category on Search" setting in MRK.CONTROL.
     - On small screen format devices (iPad Mini in portrait mode), a collapsible section was added to more easily view the cart summary section.
-     - ![Collapsible Parts](./CategoryCollapse.gif) 
-     - Adds a default filter to the Orders table to return "New" status orders.
-   - Added ability to selectively display custom fields in the Cart Summary section. This is enabled by the "POS Extra Info" setting in MRK.CONTROL
+    - ![Collapsible Parts](./CategoryCollapse.gif) 
+    - Adds a default filter to the Orders table to return "New" status orders.
+    - Added ability to selectively display custom fields in the Cart Summary section. This is enabled by the "POS Extra Info" setting in MRK.CONTROL
 
 ## Bug Fixes
 
