@@ -19,7 +19,7 @@ These are the release notes for version 1.7.0 (TBD) of the Rover Web application
 ## Bug Fixes
 
 - **Field Services**
-  - Resolves an issue with pagination on the main Field Services table.
+  - Resolves an issue with pagination and customer search on the main Field Services table.
 - **Point of Sale**
   - Button and section labels in point of sale have been updated for consistency.
   - Invoice table search now includes selected customer ID in request.
