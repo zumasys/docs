@@ -29,5 +29,8 @@ These are the release notes for version 1.7.0 (9/13/2024) of the Rover Web appli
   - Part unit of measure is now properly displayed on the shopping cart view.
 - **Tickets & Time**
   - Resolves an issue where total hours failed to populate in some situations.
+- **Sales**
+  - Resolves an issue with incorrect customer name appearing when opening Order, Opportunities, or Quotes dialog
+  - Resolves an issue with customer filter not resetting when switching between sales module and customer module.
 
 <PageFooter />
