@@ -15,6 +15,8 @@ These are the release notes for version 1.7.0 (9/13/2024) of the Rover Web appli
     - ![Collapsible Parts](./CategoryCollapse.gif) 
     - Adds a default filter to the Orders table to return "New" status orders.
     - Added ability to selectively display custom fields in the Cart Summary section. This is enabled by the "POS Extra Info" setting in MRK.CONTROL
+  - **Customer Inquiry**
+    - Adds print/export option to Contact Log.
 
 ## Bug Fixes
 
@@ -27,10 +29,13 @@ These are the release notes for version 1.7.0 (9/13/2024) of the Rover Web appli
   - Resolves an issue with items in the Orders table not being sorted properly.
   - Resolved issue with MRK.CONTROL and CO.CONTROL API request repeating multiple times.
   - Part unit of measure is now properly displayed on the shopping cart view.
+  - Resolves an issue with note and amount display fields not being cleared between transactions.
 - **Tickets & Time**
   - Resolves an issue where total hours failed to populate in some situations.
 - **Sales**
   - Resolves an issue with incorrect customer name appearing when opening Order, Opportunities, or Quotes dialog
   - Resolves an issue with customer filter not resetting when switching between sales module and customer module.
-
+- **Scan**
+  - Resolves an issue with duplicate submit being made on certain mobile computers in a custom scan applciation.
+    > Note: Currently only supported by select ERPs.
 <PageFooter />
