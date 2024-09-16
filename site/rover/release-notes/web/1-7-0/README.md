@@ -15,6 +15,7 @@ These are the release notes for version 1.7.0 (9/13/2024) of the Rover Web appli
     ![Collapsible Parts](./CategoryCollapse.gif) 
     - Adds a default filter to the Orders table to return "New" status orders.
     - Added ability to selectively display custom fields in the Cart Summary section. This is enabled by the "POS Extra Info" setting in MRK.CONTROL
+    - Shipping Orders now requires `SHIP.E` to be included in the user security record. 
   - **Customer Inquiry**
     - Adds print/export option to Contact Log.
 
@@ -36,6 +37,6 @@ These are the release notes for version 1.7.0 (9/13/2024) of the Rover Web appli
   - Resolves an issue with incorrect customer name appearing when opening Order, Opportunities, or Quotes dialog
   - Resolves an issue with customer filter not resetting when switching between sales module and customer module.
 - **Scan**
-  - Resolves an issue with duplicate submit being made on certain mobile computers in a custom scan applciation.
+  - Resolves an issue with duplicate submit being made on certain mobile computers in a custom scan application.
     > Note: Currently only supported by select ERPs.
 <PageFooter />
