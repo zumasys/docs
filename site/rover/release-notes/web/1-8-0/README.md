@@ -21,6 +21,10 @@ These are the release notes for version 1.8.0 (9/24/2024) of the Rover Web appli
     ![End Job Stock Transfer](./end-job.png)
     - A new WO Completion page has been added to enable completing quantity in work orders, sending completed parts to a stock location or another work order
     ![WO Completion](./wo-completion.png)
+    - A new User setting, **Use User ID as Employee ID** has been added to the Scan section to allow users to opt to automatically fill in the Employee ID field in Scan's Start Job, End Job, and WO Completion.
+     ![User ID as Employee ID Setting](./user-id-as-employee-id.png)
+     ![Autofilling Employee ID](./default-employee-id.gif)
+
 
 ## Bug Fixes
 
