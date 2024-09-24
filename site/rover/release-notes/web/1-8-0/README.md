@@ -4,7 +4,7 @@
 
 <PageHeader />
 
-These are the release notes for version 1.8.0 (9/20/2024) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v1.7.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v1.7.0) today!
+These are the release notes for version 1.8.0 (9/24/2024) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v1.7.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v1.7.0) today!
 
 ## New Features
 
@@ -15,6 +15,12 @@ These are the release notes for version 1.8.0 (9/20/2024) of the Rover Web appli
         > Only supported by select ERPs
     - If validation is turned on, a validation request will be sent upon clicking "Select Parts." The user will not be able to proceed until the Order Information is successfully validated.
     - The Parts Search is now re-focused after an item is added to the cart via mouse-click.
+  - **Scan**
+    - The End Job page now supports new optional stock transfer behaviors when ending a job. These are controlled by WO.CONTROL.
+    ![WO.CONTROL End Job Stock Transfer Behaviors](./wo-control.png)
+    ![End Job Stock Transfer](./end-job.png)
+    - A new WO Completion page has been added to enable completing quantity in work orders, sending completed parts to a stock location or another work order
+    ![WO Completion](./wo-completion.png)
 
 ## Bug Fixes
 
@@ -23,4 +29,6 @@ These are the release notes for version 1.8.0 (9/20/2024) of the Rover Web appli
   - Invoices summary is retained on the Confirrmation screen
   - Vendor selection on the Ship View has been fixed
   - Error/ Success messages are no longer duplicated/layered
+- **Scan**
+  - Start Job page correctly supports logging into a new job
 <PageFooter />
