@@ -35,4 +35,7 @@ These are the release notes for version 1.8.0 (9/24/2024) of the Rover Web appli
   - Error/ Success messages are no longer duplicated/layered
 - **Scan**
   - Start Job page correctly supports logging into a new job
+- **Invoice**
+  - The Invoices page has been removed. Please navigate to the POS to access invoices.
+
 <PageFooter />
