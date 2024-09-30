@@ -16,7 +16,7 @@ These are the release notes for version 1.8.0 (9/30/2024) of the Rover Web appli
     - If validation is turned on, a validation request will be sent upon clicking "Select Parts." The user will not be able to proceed until the Order Information is successfully validated.
     - The Parts Search is now re-focused after an item is added to the cart via mouse-click.
     - Added ability to prompt to reprint a PICK ticket if the order has already been printed.
-    - > Only supported by select ERPs
+      > Only supported by select ERPs
   - **Scan**
     - The End Job page now supports new optional stock transfer behaviors when ending a job. These are controlled by WO.CONTROL.
     ![WO.CONTROL End Job Stock Transfer Behaviors](./wo-control.png)
