@@ -27,7 +27,7 @@ You will need to use the settings provided to you by our team.
 
 These settings determine whether or not you want to give your users the option to change the defaults set above.
 
-It is generally recommended to have all of these options **UNCHECKED**.
+It is generally recommended to have all of these options **CHECKED** unless you want to hide this information.
 
 ![Login Prompts - Visiblilty](./login-visibility.png)
 
