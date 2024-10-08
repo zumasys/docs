@@ -10,14 +10,14 @@ These are the release notes for version 1.9.0 (10/?/2024) of the Rover Web appli
 
 - **Rover Web**
   - **Production Scheduling**
-    - The Production Scheduling module has made its initial debut on the web! This initial release provides the ability to view work order, Gannt chart to view scheduled operations, ability to drag and drop operations to the Gannt chart, and allow moving operations to different work centers. To get setup contact your _Client Success Manager_ or [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20Production%20PScheduling).
+    - The Production Scheduling module has made its initial debut on the web! This initial release provides the ability to view work order, Gantt chart to view scheduled operations, ability to drag and drop operations to the Gantt chart, and allow moving operations to different work centers. To get setup contact your _Client Success Manager_ or [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20Production%20PScheduling).
     - A new option has been added to `WC.E` to enable scheduling for work centers.
     ![WC.E](./work-center-form.png)
     - To create a scheduling group navigate to the schedule tab in `WO.CONTROL` to create a new group.
     ![WO.CONTROL](./wo-control-scheduling.png)
     - View, filter, and sort work orders in the Work Orders table.
     ![Work Orders Table](./production-scheduling-work-orders.gif)
-    - Drag and drop operations to the Gannt chart
+    - From scheduling table drop a work order or individual operation into Gantt chart to schedule
     ![Scheduling Operations](./production-scheduling-drag-and-drop.gif)
     - Modify scheduled operations by dragging or clicking on the operation.
     ![Edit Scheduled Operations](./production-scheduling-adjusting-operations.gif)
