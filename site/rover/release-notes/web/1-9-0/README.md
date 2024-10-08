@@ -24,10 +24,12 @@ These are the release notes for version 1.9.0 (10/?/2024) of the Rover Web appli
   - **Point of Sale**
     - Credit Card payment option is now hidden when in User Mode
     - Updated Modular security access rights in POS. Cash functions and views will only be enabled for users with the `CASH.E` command. Invoice views will only be enabled for users with the `AR.E` command.  
-    - Added `sell_as` property at the `PRICE` level will dictate how line items are consolidated. Setting `sell_as` to "new" will result in the line item automatically being added as new line, instead of incrementing the quantity of an existing line itme.
+    - Added `sell_as` property at the `PRICE` level will dictate how line items are consolidated. Setting `sell_as` to "new" will result in the line item automatically being added as new line, instead of incrementing the quantity of an existing line item.
+    - Sales Orders table has now been added to the main menu. You can now filter, sort, and select and order to view or load to edit.
   - **Accounting**
     - Only users with the `ACCOUNTING` command will have access to the accounting module. Access rights within accounting will now be modular as well. The `GLCHART.E` command will enable the GL tab, the `AR.E` command will enable the AR tab, and the `AP.E` command will enable the AP tab.
 
 ## Bug Fixes
-
+  - **Point of Sale**
+    - Issue with edited addresses becoming overwritten when loading in orders from the Orders table and draft.
 <PageFooter />
