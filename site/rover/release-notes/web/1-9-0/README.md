@@ -10,22 +10,22 @@ These are the release notes for version 1.9.0 (10/?/2024) of the Rover Web appli
 
 - **Rover Web**
   - **Production Scheduling**
-    - The Production Scheduling module has made its initial debut on the web! This initial release provides the ability to view work order, Gantt chart to view scheduled operations, ability to drag and drop operations to the Gantt chart, and allow moving operations to different work centers. To get setup contact your _Client Success Manager_ or [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20Production%20PScheduling).
-    - A new option has been added to `WC.E` to enable scheduling for work centers.
+    - The Production Scheduling module has made its debut on the web! This initial release provides a basic work order view, Gantt chart to visualize scheduled operations, the option to drag and drop operations onto the Gantt chart, and options to move operations to different work centers. To get set up, contact your _Client Success Manager_ or [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20Production%20PScheduling).
+    - A new option has been added to `WC.E` to enable scheduling for work centers.  This must be checked to allow operations associated with a workcenter to be scheduled in Rover Web.
     ![WC.E](./work-center-form.png)
-    - To create a scheduling group navigate to the schedule tab in `WO.CONTROL` to create a new group.
+    - Scheduling groups are used to associate multiple work centers that can be used to complete a given operation.  Once defined, scheduling groups are displayed on the Scheduling tab as a drop down in the upper right corner.  Choosing a schedule group will select work orders containing operations associated with a work center in the group.  Additionally, those work centers will be loaded as rows in the Gantt chart to facilitate scheduling.  To create a scheduling group navigate to the schedule tab in `WO.CONTROL`.
     ![WO.CONTROL](./wo-control-scheduling.png)
-    - View, filter, and sort work orders in the Work Orders table.
+    - View, filter, and sort work orders in the Work Orders table.  Work Order notes are editable.
     ![Work Orders Table](./production-scheduling-work-orders.gif)
-    - From scheduling table drop a work order or individual operation into Gantt chart to schedule
+    - From the scheduling table drag and drop a work order or individual operation into Gantt chart to schedule.
     ![Scheduling Operations](./production-scheduling-drag-and-drop.gif)
-    - Modify scheduled operations by dragging or clicking on the operation.
+    - Modify scheduled operations by dragging or clicking on the operation.  Additional operations can be created and linked to scheduled operations.  These can represent time after operation completion to reset the work center, or prepare it for the next process.
     ![Edit Scheduled Operations](./production-scheduling-adjusting-operations.gif)
   - **Point of Sale**
-    - Credit Card payment option is now hidden when in User Mode
+    - Credit Card payment option is now hidden when in User Mode.
     - Updated Modular security access rights in POS. Cash functions and views will only be enabled for users with the `CASH.E` command. Invoice views will only be enabled for users with the `AR.E` command.  
-    - Added `sell_as` property at the `PRICE` level will dictate how line items are consolidated. Setting `sell_as` to "new" will result in the line item automatically being added as new line, instead of incrementing the quantity of an existing line item.
-    - Sales Orders table has now been added to the main menu. You can now filter, sort, and select and order to view or load to edit.
+    - Added `sell_as` property at the `PRICE` level to control how line items are consolidated. Setting `sell_as` to "new" will result in the line item automatically being added as new line, instead of incrementing the quantity of an existing line item.
+    - Sales Orders table has now been added to the main menu. You can now filter, sort, and select an order to view or load to edit prior to customer selection.
   - **Accounting**
     - Only users with the `ACCOUNTING` command will have access to the accounting module. Access rights within accounting will now be modular as well. The `GLCHART.E` command will enable the GL tab, the `AR.E` command will enable the AR tab, and the `AP.E` command will enable the AP tab.
 
