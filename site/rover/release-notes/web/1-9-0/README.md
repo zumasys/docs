@@ -26,6 +26,8 @@ These are the release notes for version 1.9.0 (10/?/2024) of the Rover Web appli
     - Updated Modular security access rights in POS. Cash functions and views will only be enabled for users with the `CASH.E` command. Invoice views will only be enabled for users with the `AR.E` command.  
     - Added `sell_as` property at the `PRICE` level to control how line items are consolidated. Setting `sell_as` to "new" will result in the line item automatically being added as new line, instead of incrementing the quantity of an existing line item.
     - Sales Orders table has now been added to the main menu. You can now filter, sort, and select an order to view or load to edit prior to customer selection.
+    - POS now supports host sale payments. Selecting the "Credit Card" Payment Method will only trigger the payment device once payment is submitted. User can also select to allow manual card number entry. Setting the `CC Pin Pad Mode` in `MRK.CONTROL` to "Host Sale" will enable this feature. 
+      > Note: Only supported by ERPs in Register Mode
   - **Accounting**
     - Only users with the `ACCOUNTING` command will have access to the accounting module. Access rights within accounting will now be modular as well. The `GLCHART.E` command will enable the GL tab, the `AR.E` command will enable the AR tab, and the `AP.E` command will enable the AP tab.
 
