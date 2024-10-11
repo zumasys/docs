@@ -34,4 +34,7 @@ These are the release notes for version 1.9.0 (10/?/2024) of the Rover Web appli
 ## Bug Fixes
   - **Point of Sale**
     - Issue with edited addresses becoming overwritten when loading in orders from the Orders table and draft.
+    - Sales Tax amounts from the Parts (Order creation) tab are no longer erroneously displayed in Orders (Select/ship orders), Invoices, or Payment sections.
+  - **Accounting**
+    - Discrepancies between the AR aging KPI card and drilldown data in AR data tables have been reconciled. 
 <PageFooter />
