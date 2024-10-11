@@ -28,6 +28,8 @@ These are the release notes for version 1.9.0 (10/?/2024) of the Rover Web appli
     - Sales Orders table has now been added to the main menu. You can now filter, sort, and select an order to view or load to edit prior to customer selection.
     - POS now supports host sale payments. Selecting the "Credit Card" Payment Method will only trigger the payment device once payment is submitted. User can also select to allow manual card number entry. Setting the `CC Pin Pad Mode` in `MRK.CONTROL` to "Host Sale" will enable this feature. 
       > Note: Only supported by ERPs in Register Mode
+    - POS Payment Options now include help text.
+    - Custom Fields in the Order Information view now honor the `required` FDICT flag.
   - **Accounting**
     - Only users with the `ACCOUNTING` command will have access to the accounting module. Access rights within accounting will now be modular as well. The `GLCHART.E` command will enable the GL tab, the `AR.E` command will enable the AR tab, and the `AP.E` command will enable the AP tab.
 
@@ -35,6 +37,7 @@ These are the release notes for version 1.9.0 (10/?/2024) of the Rover Web appli
   - **Point of Sale**
     - Issue with edited addresses becoming overwritten when loading in orders from the Orders table and draft.
     - Sales Tax amounts from the Parts (Order creation) tab are no longer erroneously displayed in Orders (Select/ship orders), Invoices, or Payment sections.
+    - Routing Number help image now displays properly
   - **Accounting**
     - Discrepancies between the AR aging KPI card and drilldown data in AR data tables have been reconciled. 
 <PageFooter />
