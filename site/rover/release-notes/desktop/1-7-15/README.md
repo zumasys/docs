@@ -11,7 +11,7 @@ You can download this version [here!](https://roverdesktop.blob.core.windows.net
 ## Bug Fixes
 
 - Resolves issue with screen update on nested datagrids related to subvalue data handling.
-- Resolves issues with form setup call being blocked when a form is launched during save event of an intial form from a secondary tab.
+- Resolves issues with form setup call being blocked when a form is launched during save event of an initial form from a secondary tab.
 - Resolves issue with form activation after a dock of the workspace to a desktop edge.
 
 
