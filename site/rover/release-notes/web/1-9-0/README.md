@@ -30,14 +30,18 @@ These are the release notes for version 1.9.0 (10/?/2024) of the Rover Web appli
       > Note: Only supported by ERPs in Register Mode
     - POS Payment Options now include help text.
     - Custom Fields in the Order Information view now honor the `required` FDICT flag.
+    - Up to two Custom Fields are now displayed in the line item alongside Part Number, Description, Price, and Quantity. Any additional fields will appear in the expanded row.
   - **Accounting**
     - Only users with the `ACCOUNTING` command will have access to the accounting module. Access rights within accounting will now be modular as well. The `GLCHART.E` command will enable the GL tab, the `AR.E` command will enable the AR tab, and the `AP.E` command will enable the AP tab.
+   - **Customers**
+    - Existing and new contact log dates can now be edited.
 
 ## Bug Fixes
   - **Point of Sale**
     - Issue with edited addresses becoming overwritten when loading in orders from the Orders table and draft.
     - Sales Tax amounts from the Parts (Order creation) tab are no longer erroneously displayed in Orders (Select/ship orders), Invoices, or Payment sections.
     - Routing Number help image now displays properly
+    - A bug was fixed that prevented all orders from loading after selecting a customer.
   - **Accounting**
     - Discrepancies between the AR aging KPI card and drilldown data in AR data tables have been reconciled. 
 <PageFooter />
