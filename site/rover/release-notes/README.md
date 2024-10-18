@@ -81,6 +81,7 @@ Here's a sneak peek of what's to come in Rover Web as of [v1.8.0](./web/1-8-0/RE
 
 | Version                              | Date       | Download                                                                        |
 | ------------------------------------ | ---------- | ------------------------------------------------------------------------------- |
+| [v5.26](./m3services/5-26/README.md) | 2024-10-18 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.26.zip) |
 | [v5.25](./m3services/5-25/README.md) | 2024-10-14 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.25.zip) |
 | [v5.24](./m3services/5-24/README.md) | 2024-05-09 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.24.zip) |
 | [v5.23](./m3services/5-23/README.md) | 2024-04-25 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.23.zip) |
