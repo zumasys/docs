@@ -17,4 +17,15 @@ These are the release notes for version 1.10.0 (10/24/2024) of the Rover Web app
         - When selecting a purchase order from the table, you will be taken to a screen where you can either receive all items or clear all quantities received for the purchase order. You can also check the top box to select all and fill the available quantity received, or select items individually. Entering a partial quantity will result in an orange tint on the row, while entering a greater quantity will result in a red tint. The correct quantity will be displayed in blue.
         ![Select Receipt](./receipt-select.png)
     - **Production Scheduling**
-        - New columns BOM, Urgent and Request date have been added to the unscheduled order data table.
+        - New columns BOM, Urgent and Request date have been added to the unscheduled order table.
+        - Added ability to edit work order notes within the unscheduled order table.
+    - **Point of Sale**
+      - Added support for read only custom fields.
+        > Note: Currently only supported by select ERPs.
+      - Additional help text has been added to the Payment section.
+
+## Bug Fixes
+ - **General**
+   - Email dialog now automatically adds email address when navigating to the next field.
+   - Calendar popup no longer appears unintentionally when using browser autocomplete. 
+    > Note: Issue only appeared in Microsoft Edge.
