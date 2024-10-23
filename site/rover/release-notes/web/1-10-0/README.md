@@ -17,7 +17,9 @@ These are the release notes for version 1.10.0 (10/24/2024) of the Rover Web app
         - When selecting a purchase order from the table, you will be taken to a screen where you can either receive all items or clear all quantities received for the purchase order. You can also check the top box to select all and fill the available quantity received, or select items individually. Entering a partial quantity will result in an orange tint on the row, while entering a greater quantity will result in a red tint. The correct quantity will be displayed in blue.
         ![Select Receipt](./inventory-row-handling.gif)
     - **Production Scheduling**
-        - New columns BOM, Urgent and Request date have been added to the unscheduled order table.
+        - Added default filtering for initial loading of purchase orders, excluding finalized or closed statuses.
+        - Made quantity non-editable on scheduled orders.
+        - Added viewable notes for scheduled orders.
         - Added ability to edit work order notes within the unscheduled order table.
     - **Point of Sale**
       - Added support for read only custom fields.
