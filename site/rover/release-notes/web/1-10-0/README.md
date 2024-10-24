@@ -25,6 +25,7 @@ These are the release notes for version 1.10.0 (10/24/2024) of the Rover Web app
     - Added support for read only custom fields.
       > Note: Currently only supported by select ERPs.
     - Additional help text has been added to the Payment section.
+    - Confirmation dialog when navigating away from POS now allows you to save progress as a draft.
     - Added keyboard shortcuts support for parts table. Toggle to enable has been added in the settings menu.
       - Loading parts now focus on the first part quantity field.
       - Pressing the 'Enter' will add the part to that cart.
@@ -45,5 +46,6 @@ These are the release notes for version 1.10.0 (10/24/2024) of the Rover Web app
   - **Production Scheduling**
     - Fixed issue with scheduled work orders appearing in unscheduled work order table.
     - Fixed issue with 'Add Operation' displaying incorrect time.
+    - Fixed issue with Confirmation dialog always navigating to the customers section. Will now navigate to the section that was selected.
   - **Customers**
     - Fixed issue with KPI cards not focusing on the correct tab when clicking.
