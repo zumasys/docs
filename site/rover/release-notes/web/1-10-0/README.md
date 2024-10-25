@@ -43,9 +43,9 @@ These are the release notes for version 1.10.0 (10/24/2024) of the Rover Web app
       > Note: Issue only appeared in Microsoft Edge.
   - **POS**
     - Fixed issue with cart line items sub-totaling appearing offscreen.
+    - Fixed issue with Confirmation dialog always navigating to the customers section. Will now navigate to the section that was selected.
   - **Production Scheduling**
     - Fixed issue with scheduled work orders appearing in unscheduled work order table.
-    - Fixed issue with 'Add Operation' displaying incorrect time.
-    - Fixed issue with Confirmation dialog always navigating to the customers section. Will now navigate to the section that was selected.
+    - Fixed issue with 'Add Operation' displaying incorrect time in the Gantt chart.
   - **Customers**
     - Fixed issue with KPI cards not focusing on the correct tab when clicking.
