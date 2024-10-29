@@ -4,7 +4,7 @@
 
 <PageHeader />
 
-These are the release notes for version 1.10.0 (10/24/2024) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v1.10.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v1.10.0) today!
+These are the release notes for version 1.10.0 (10/29/2024) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v1.10.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v1.10.0) today!
 
 ## New Features
 
@@ -26,11 +26,11 @@ These are the release notes for version 1.10.0 (10/24/2024) of the Rover Web app
       > Note: Currently only supported by select ERPs.
     - Additional help text has been added to the Payment section.
     - Confirmation dialog when navigating away from POS now allows you to save progress as a draft.
-    - Added keyboard shortcuts support for parts table. To enable, toggle the new "Keyboard Shortcuts" located in the POS settings menu.
-      - Loading parts now focus on the first part quantity field.
-      - Pressing the 'Enter' will add the part to that cart.
-      - Shift + 'Arrow Up' and 'Arrow Down' will move the focus up or down the parts table.
-      - Shift + 'F' will focus on part search.
+    - Added keyboard shortcuts support for parts table. To enable, toggle the new "Keyboard Shortcuts" located in the POS settings menu. Click the icon or press `Ctrl` + `Shift` + `?` to view all shortcuts. Loading parts now focus on the first part quantity field. When the focus is on the quantity field, you can use the following keyboard shortcuts:
+      - `Enter` will add the focused part to that cart.
+      - `Shift` + `Arrow Up`  will move the focus to the previous part quantity field.
+      - `Shift` + `Arrow Down` will move the focus to the next part quantity field.
+      - `Shift` + `F` will focus on part search.
   - **General**
     - UI enhancements for settings page.
 
