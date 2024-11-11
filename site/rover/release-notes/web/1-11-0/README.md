@@ -24,7 +24,7 @@ These are the release notes for version 1.11.0 (11/12/2024) of the Rover Web app
   - **Production Scheduling**
     - Additional Operations now display the added Title as the Label in the Gantt Chart, instead of the base Operation.
   - **Customers**
-    - Quotes and Orders Badge counts are now accurate.
-    - Quotes and Orders Date sort now works properly.
-    - Quotes Date filter now works properly.
-    - Quotes and Orders paging is now functional.
+    - Fixed scenarios where Quotes and Orders badge counts were inaccurate.
+    - Quotes and Orders date sort now works properly.
+    - Quotes date filter now works properly.
+    - Fixed scenarios where Quotes and Orders paging were not functional.
