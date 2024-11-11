@@ -13,6 +13,8 @@ These are the release notes for version 1.11.0 (11/12/2024) of the Rover Web app
     - Invoice Payment capabilites will only be available for users with the `CASH.E` command
   - **Accounting**
     - Invoice Payment capabilites will only be available for users with the `CASH.E` command
+  - **POS**
+    - MRK toggle added to the Opportunities tab.
 
 ## Bug Fixes
 
@@ -28,3 +30,5 @@ These are the release notes for version 1.11.0 (11/12/2024) of the Rover Web app
     - Quotes and Orders date sort now works properly.
     - Quotes date filter now works properly.
     - Fixed scenarios where Quotes and Orders paging were not functional.
+  - **Inventory**
+    - Fixed sorting issue when selecting a rows-per-page option greater than 10, paginating, and then applying a sort.
