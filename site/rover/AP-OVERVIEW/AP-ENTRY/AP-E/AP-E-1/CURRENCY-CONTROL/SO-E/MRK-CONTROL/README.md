@@ -8,6 +8,7 @@
 [ Module Interfaces ](MRK-CONTROL-3/README.md)   
 [ Credit Cards ](MRK-CONTROL-4/README.md)   
 [ Accounting ](MRK-CONTROL-5/README.md)   
+[ POS ](MRK-CONTROL-6/README.md)
 
 **Purpose**  
 The MRK.CONTROL procedure is used to define default information which will be
