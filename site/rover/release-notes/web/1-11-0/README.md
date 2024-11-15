@@ -47,3 +47,5 @@ These are the release notes for version 1.11.0 (11/16/2024) of the Rover Web app
     - Fixed sorting issue when selecting a rows-per-page option greater than 10, paginating, and then applying a sort.
   - **Settings**
     - Resolved issues with "Check Rover Web Local Service" error displaying for users without POS registers in use.
+  - **Accounting**
+    - Corrected a display issue with Receivables "Invoices Due Next:" tables loading invoices by the system's aging type instead of due date, resulting in the table often being empty.
