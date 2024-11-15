@@ -13,10 +13,10 @@ These are the release notes for version 1.11.0 (11/16/2024) of the Rover Web app
     - Select implementations now support the option for the host backend to force a user logging in to update their password.
     ![Password Update](./password-update.gif)
   - **Customers**
-    - Invoice Payment capabilites will only be available for users with the `CASH.E` command
+    - Invoice Payment capabilites will only be available for users with the `CASH.E` command.
   - **Accounting**
     - Invoice Payment capabilites will only be available for users with the 
-    `CASH.E` command
+    `CASH.E` command.
   - **POS**
     - `MRK.CONTROL` toggle added to the Opportunities tab.
     - `MRK.CONTROL` toggle to hide AR Aging on the POS Invoices tab.
