@@ -6,7 +6,7 @@
 
 Here's a sneak peek of what's to come in Rover Web as of [v1.10.0](./web/1-10-0/README.md).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/c75COiVBQSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed?listType=playlist&list=PLsvtvn1cJxTIV4jUw9nAGUvMSU4esKECW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 📧 [Reach out](mailto:sales@zumasys.com) to hear more about what an upgrade can do for your system!
 
