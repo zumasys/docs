@@ -23,7 +23,7 @@ These are the release notes for version 1.11.0 (11/16/2024) of the Rover Web app
     - There has been a redesign of the Invoices Tab in POS, allowing for more compatibility with smaller screens and more convenient features including downloading and emailing of an invoice and the ability to clear all invoices from the cart.
     ![POS Invoice Redesign](./pos-invoice-redesign.png)
   - **Production Scheduling**
-    - A new "Operation Time Increment" property has been added to `WO.CONTROL`.  This settings allows for drag/drop events on the Gantt chart to snap to increments of time.  Set this value to 15 minutes, and when dragging a work order operation it will always snap the nearest quarter hour.  Additionally, this value is used in date/time pickers within Production Schduling for consistency.  Times can be manually entered to bypass this increment.
+    - A new "Operation Time Increment" property has been added to `WO.CONTROL`.  This settings allows for drag/drop events on the Gantt chart to snap to increments of time.  Set this value to 15 minutes, and when dragging a work order operation it will always snap the nearest quarter hour.  Additionally, this value is used in date/time pickers within Production Scheduling for consistency.  Times can be manually entered to bypass this increment.
     - Notes are now editable on work orders from the Gannt chart view in addition to the Unscheduled Orders table.
     All columns on the Uncheduled Orders Table are now sortable and fitlerable.
 
