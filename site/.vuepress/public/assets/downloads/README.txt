@@ -1,10 +1,3 @@
-# Contribution Guidelines
-
-<PageHeader />
-
-Zumasys writes all product documentation in [Markdown](https://www.markdownguide.org/). You can find a template [here](/assets/downloads/README.txt) or described below:
-
-````markdown
 # Put Your Title Here
 
 <PageHeader />
@@ -45,31 +38,5 @@ More information here. You can have as many `##` sections as you'd like.
 - It is highly recommended and encouraged that you use VS Code and:
   - [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
   - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
-
-<PageFooter />
-
-````
-
-## How to Write Documentation
-
-1. Do not use line numbers is example code, as the code blocks will automatically be numbered in Markdown.
-2. Use `backticks (``)` to format variable names (single backtick) and code blocks (triple backtick).
-3. Highlight keywords, i.e. **string**, **key** and **method** in this case.
-4. Where possible, make sure that there is a link back to the page on level up.
-5. Remove extraneous and trailing blanks, except where relevant, i.e. two spaces at the end of a line to cause a line-break.
-6. With code examples, space out the code so that people can see what is going on, i.e.:
-
-``` mvbasic
-IF chr >= 32 AND chr < 128 THEN CRT CHAR(chr) "#2" : ELSE CRT " " :
-```
-
-7. Write URLs as links with Markdown syntax.
-
-## How Not to Write Documentation
-
-1. NO SHOUTING. We are trying to present a modern look and should be encouraging users to move away from everything in capital letters.
-2. Avoid using HTML except where necessary.
-   a. Most tables can be constructed using Markdown syntax so try that first before opting for HTML tables.
-   b. It is permissible to embed video content with HTML.
 
 <PageFooter />
