@@ -9,7 +9,12 @@ These are the release notes for version 2.0.0 (12/3/2024) of the Rover Web appli
 ## New Features
 
 - **Rover Web**
-
+    - **Point of Sale**
+        - Custom Part Inventory Lookup tables now support sorting and filtering.
+        ![POS INV Lookup Filters](./pos-inv-lookup-filter.gif)
+    - **Customer Inquiry**
+        - The Opportunities table has been updated to fetch results in smaller batches to improve performance and reliability.
+        ![Opportunities Lazy Load](./opportunities-lazy-load.gif)
 
 ## Bug Fixes
 
