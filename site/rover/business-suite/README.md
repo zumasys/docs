@@ -28,4 +28,8 @@ Rover Hub is a web based interface you can use to allow your users to perform th
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SszwMRa588Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+## Integrations
+
+[Integrations](integrations/README.md)
+
 <PageFooter />
