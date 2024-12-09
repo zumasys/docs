@@ -15,9 +15,12 @@ These are the release notes for version 2.0.0 (12/3/2024) of the Rover Web appli
     - **Point of Sale**
         - Custom Part Inventory Lookup tables now support sorting and filtering.
         ![POS INV Lookup Filters](./pos-inv-lookup-filter.gif)
+        - Custom subtotaling has been added to the POS cart summary view, allowing for integration specific subtotal items such as freight, handling charges, etc to be displayed to the user.
+          > Note: Currently only supported by select ERPs. 
     - **Customer Inquiry**
         - The Opportunities table has been updated to fetch results in smaller batches to improve performance and reliability.
         ![Opportunities Lazy Load](./opportunities-lazy-load.gif)
+        - Improvements to new opportunity creation from within Customer Inquiry.  New opportunites are created without leaving the currently selected customer.  Newly created opportunites are immediately reflected in the opportunites table.
     - **Production Scheduling**
         - There is now an option in `WO.CONTROL` to choose the layout of the scheduling tab in Production Scheduling.  The Gantt chart can now be displayed at the top or bottom of the screen.
         - Also in `WO.CONTROL` there are now settings to allow for cutom colors to be applied to Gannt chart items based on the status of the parent Work Order.
@@ -27,3 +30,8 @@ These are the release notes for version 2.0.0 (12/3/2024) of the Rover Web appli
 ## Bug Fixes
 
 - **Rover Web**
+    **General**
+        - Errors during customer search operations are now displayed to the user. 
+    **Point of Sale**
+        - When an error occurs during a customer search in POS, the search result list is now cleared.
+
