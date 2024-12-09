@@ -34,8 +34,10 @@ These are the release notes for version 2.0.0 (12/3/2024) of the Rover Web appli
     - Also in `WO.CONTROL` there are now settings to allow for custom colors to be applied to Gantt chart items based on the status of the parent Work Order.
       ![Gantt Chart Colors](./chart-status-colors.png) -
   - **Inventory**
-    - Inventory Module now supports metadata response information dialog upon record saving.
-    - Inventory Module now supports Form Option Selection upon record saving.
+    - Inventory Module now supports Form Option Selection upon record save.
+        ![Custom Info Dialog](./form-control-prompt.png) -
+    - Inventory Module now supports display of custom informational dialogs upon record save.  These custom dialogs are to support integration specific requirements upon request.
+        ![Custom Info Dialog](./custom-dialog-on-save.png) -
 
 ## Bug Fixes
 
@@ -44,4 +46,4 @@ These are the release notes for version 2.0.0 (12/3/2024) of the Rover Web appli
     - Errors during customer search operations are now displayed to the user.
   - **Point of Sale**
     - When an error occurs during a customer search in POS, the search result list is now cleared.
-      - Date Sort for Invoices is now sorting correctly
+      - Issues with date sort on invoice data table have been resolved.
