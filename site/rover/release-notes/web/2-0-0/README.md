@@ -9,12 +9,20 @@ These are the release notes for version 2.0.0 (12/3/2024) of the Rover Web appli
 ## New Features
 
 - **Rover Web**
+    - **Rover AI Assistant**
+        - The Rover AI Assistant is now available for Enterprise subscribers who utilize Rover BI. AI Assistant is an end-to-end ERP assistant, able to answer questions about the business and also take instruction to perform a myraid of business actions.
+        ![Rover AI Assistant](./rover-ai.gif)
     - **Point of Sale**
         - Custom Part Inventory Lookup tables now support sorting and filtering.
         ![POS INV Lookup Filters](./pos-inv-lookup-filter.gif)
     - **Customer Inquiry**
         - The Opportunities table has been updated to fetch results in smaller batches to improve performance and reliability.
         ![Opportunities Lazy Load](./opportunities-lazy-load.gif)
+    - **Production Scheduling**
+        - There is now an option in `WO.CONTROL` to choose the layout of the scheduling tab in Production Scheduling.  The Gantt chart can now be displayed at the top or bottom of the screen.
+        - Also in `WO.CONTROL` there are now settings to allow for cutom colors to be applied to Gannt chart items based on the status of the parent Work Order.
+        ![Gantt Chart Colors](./chart-status-colors.png)
+
 
 ## Bug Fixes
 
