@@ -9,6 +9,7 @@ These are the release notes for version 2.0.0 (12/3/2024) of the Rover Web appli
 ## New Features
 
 - **Rover Web**
+
   - **Rover AI Assistant**
     - The Rover AI Assistant is now available for Enterprise subscribers who utilize Rover BI. AI Assistant is an end-to-end ERP assistant, able to answer questions about the business and also take instruction to perform a myriad of business actions.
       ![Rover AI Assistant](./rover-ai.gif)
@@ -31,7 +32,10 @@ These are the release notes for version 2.0.0 (12/3/2024) of the Rover Web appli
   - **Production Scheduling**
     - There is now an option in `WO.CONTROL` to choose the layout of the scheduling tab in Production Scheduling. The Gantt chart can now be displayed at the top or bottom of the screen.
     - Also in `WO.CONTROL` there are now settings to allow for custom colors to be applied to Gantt chart items based on the status of the parent Work Order.
-      ![Gantt Chart Colors](./chart-status-colors.png)
+      ![Gantt Chart Colors](./chart-status-colors.png) -
+  - **Inventory**
+    - Inventory Module now supports metadata response information dialog upon record saving.
+    - Inventory Module now supports Form Option Selection upon record saving.
 
 ## Bug Fixes
 
@@ -40,3 +44,4 @@ These are the release notes for version 2.0.0 (12/3/2024) of the Rover Web appli
     - Errors during customer search operations are now displayed to the user.
   - **Point of Sale**
     - When an error occurs during a customer search in POS, the search result list is now cleared.
+      - Date Sort for Invoices is now sorting correctly
