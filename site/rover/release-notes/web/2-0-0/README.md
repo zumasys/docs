@@ -9,7 +9,6 @@ These are the release notes for version 2.0.0 (12/3/2024) of the Rover Web appli
 ## New Features
 
 - **Rover Web**
-
   - **Rover AI Assistant**
     - The Rover AI Assistant is now available for Enterprise subscribers who utilize Rover BI. AI Assistant is an end-to-end ERP assistant, able to answer questions about the business and also take instruction to perform a myriad of business actions.
       ![Rover AI Assistant](./rover-ai.gif)
@@ -24,7 +23,7 @@ These are the release notes for version 2.0.0 (12/3/2024) of the Rover Web appli
     - Input fields in the Order additional information section enhancements:
       - Ability to show field as a toggle has been added. Enable by setting FDICT `boolean` flag.
       - Ability to validate fields when input has changed has been added. Enable by setting FDICT `web_validate` flag.
-    - Order validation codes have been updated. To view changes navigate to [POS integrations page](../../../business-suite/integrations/pos/README.md#validation-codes).
+    - Order validation codes have been updated. To view changes navigate to [POS Integrations](../../../business-suite/integrations/pos/README.md#validation-codes).
   - **Customer Inquiry**
     - The Opportunities table has been updated to fetch results in smaller batches to improve performance and reliability.
       ![Opportunities Lazy Load](./opportunities-lazy-load.gif)
