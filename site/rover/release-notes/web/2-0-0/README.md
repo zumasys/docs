@@ -28,13 +28,17 @@ These are the release notes for version 2.0.0 (12/3/2024) of the Rover Web appli
         - There is now an option in `WO.CONTROL` to choose the layout of the scheduling tab in Production Scheduling.  The Gantt chart can now be displayed at the top or bottom of the screen.
         - Also in `WO.CONTROL` there are now settings to allow for custom colors to be applied to Gantt chart items based on the status of the parent Work Order.
         ![Gantt Chart Colors](./chart-status-colors.png)
+    - **Inventory**
+        - Inventroy Module now supports metadata response information dialog upon record saving. 
+        - Inventory Module now supports Form Option Selection upon record saving.
 
 
 ## Bug Fixes
 
 - **Rover Web**
-    **General**
+    - **General**
         - Errors during customer search operations are now displayed to the user. 
-    **Point of Sale**
+    - **Point of Sale**
         - When an error occurs during a customer search in POS, the search result list is now cleared.
+        - Date Sort for Invoices is now sorting correctly
 
