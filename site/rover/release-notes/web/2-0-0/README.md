@@ -4,13 +4,13 @@
 
 <PageHeader />
 
-These are the release notes for version 2.0.0 (12/3/2024) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v2.0.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v2.0.0) today!
+These are the release notes for version 2.0.0 (12/9/2024) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v2.0.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v2.0.0) today!
 
 ## New Features
 
 - **Rover Web**
   - **Rover AI Assistant**
-    - The Rover AI Assistant is now available for Enterprise subscribers who utilize Rover BI. AI Assistant is an end-to-end ERP assistant, able to answer questions about the business and also take instruction to perform a myriad of business actions.
+    - The Rover AI Assistant is now available for Enterprise subscribers who utilize Rover BI. AI Assistant is an end-to-end ERP assistant, able to answer questions about the business and also take instruction to perform a myriad of business actions.  For more information on Rover AI Assistant, contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=RoverAI)
       ![Rover AI Assistant](./rover-ai.gif)
   - **Point of Sale**
     - Custom Part Inventory Lookup tables now support sorting and filtering.
