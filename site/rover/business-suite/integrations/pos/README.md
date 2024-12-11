@@ -18,4 +18,19 @@ These validation codes are used to determine which section of POS triggered an A
 
 Additionally, support for specific fields in the Order Information section can trigger a validation if the field has a defined FDICT and has `web_validate` flag enabled.
 
+## POS Partial Ship Fields
+
+```json
+{
+    "pos_partial_ship_fields_items": [
+        {
+            "pos_partial_ship_field": "101" // Vendor
+        },
+        {
+            "pos_partial_ship_field": "80"
+        }
+    ]
+}
+```
+
 <PageFooter />
