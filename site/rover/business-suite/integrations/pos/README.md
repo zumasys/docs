@@ -22,7 +22,7 @@ Additionally, support for specific fields in the Order Information section can t
 
 ```json
 {
-    "pos_partial_ship_fields_items": [
+    "pos_partial_ship_field_items": [
         {
             "pos_partial_ship_field": "101" // Vendor
         },
