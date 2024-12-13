@@ -10,6 +10,6 @@ These are the release notes for version 2.1.0 (TBD) of the Rover Web application
 
 - **Rover Web**
   - **Point of Sale**
-    - Added ability to specify `SO` line item fields in Partial Ship table. Requires update to [MRK.CONTROL](../../..//AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-partial-ship-fields).
+    - Added ability to specify `SO` line item fields in Partial Ship table. Requires update to [MRK.CONTROL](../../..//AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-partial-ship).
 
 ## Bug Fixes
