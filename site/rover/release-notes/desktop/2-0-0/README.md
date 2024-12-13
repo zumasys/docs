@@ -18,6 +18,7 @@ You can download this version [here!](https://roverdesktop.blob.core.windows.net
 - Double-clicking a control now opens context menus for the item as it did in the legacy Rover client.
 - Additional  scaling options have been added to settings menu.
 - Outlook is no longer launched as a modal window during email operations.
+- Adds "Report Log" menu item to forms to access new Report Log feature when enabled via future ACE upgrade.
 
 ## Bug Fixes
 - When "Automatically Select Text in Current Control" setting is enabled, it is now possible to select a portion of the control value.
