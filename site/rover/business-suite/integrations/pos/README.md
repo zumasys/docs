@@ -20,14 +20,22 @@ Additionally, support for specific fields in the Order Information section can t
 
 ## POS Partial Ship Fields
 
+MRK.CONTROL response JSON format to show additional fields in the POS Partial Ship section.
+
 ```json
 {
     "pos_partial_ship_field_items": [
         {
-            "pos_partial_ship_field": "101" // Vendor
+            "pos_partial_ship_field": "46" // Ship Quantity
         },
         {
-            "pos_partial_ship_field": "80"
+            "pos_partial_ship_field": "101" // Vendor
+        },
+                {
+            "pos_partial_ship_field": "103" // PO Number
+        },
+        {
+            "pos_partial_ship_field": "80" // Custom field 1
         }
     ]
 }

@@ -40,11 +40,11 @@ This table allows you to specify fields defined in `SO FDICT` to be displayed in
 
 ### POS Partial Ship
 
-This table allows you to specify fields defined in `SO FDICT` to be displayed in the POS Partial Ship section. This is useful to change the default fields as well as add new fields to the table.
+This table allows you to specify fields defined in `SO FDICT` to be displayed in the POS Partial Ship section. This is useful to add additional fields in the table as well as hide Ship Quantity, Vendor, or PO Number.  
 
-> Default behavior when left blank is to show Ship Qty, Vendor, and PO Number. If you want to show all of these fields in addition to new ones we require adding field ids "46", "101", and "103" to display the default fields.
+> Default behavior when no fields are selected is to show Ship Quantity (46), Vendor (101), and PO Number (103). If you want to show any of the default fields, you must specify 46, 101 and/or 103 in the table.
 
-[Integrations](../../../../../../../../business-suite/integrations/pos/README.md)
+[Integrations](../../../../../../../../business-suite/integrations/pos/README.md#pos-partial-ship-fields)
 
 ### Feature Toggles
 
