@@ -1,10 +1,10 @@
-# Rover Web Settings Overview
+# Rover Business Suite: Settings Overview
 
 <PageHeader />
 
-Rover Web Settings allow users to enable and  application that is saved on their device. T
+Rover Business Suite has many user settings which allow users to enable and disable application functionality local to their device.
 
-![Rover Scan Logo](rover-web-settings.png)
+![Rover Scan Logo](./rover-web-settings.png)
 
 ## Scan
 
