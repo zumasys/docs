@@ -19,6 +19,9 @@ These are the release notes for version 2.1.0 (TBD) of the Rover Web application
   - **Accounting Module**
     - The main view of the Accounting module features an Orders table displaying entries that align with the criteria used to produce the KPI summary data. When an order is selected, a tabbed interface opens, providing sections for order details and customer details.
     ![Accounting Orders](./accounting-orders.png)
+  - **Production Module**
+    - The production module now supports view only user permissions, allowing users with no write access to see current work orders and scheduling without the ability to make or save changes.
+    ![Production Scheduling Read Only Access](./prod-sched-read-only.gif)
 ## Bug Fixes
 
 - **Rover Web**
