@@ -20,3 +20,10 @@ These are the release notes for version 2.1.0 (TBD) of the Rover Web application
     - The main view of the Accounting module features an Orders table displaying entries that align with the criteria used to produce the KPI summary data. When an order is selected, a tabbed interface opens, providing sections for order details and customer details.
     ![Accounting Orders](./accounting-orders.png)
 ## Bug Fixes
+
+- **Rover Web**
+  - **Scan**
+    - **Transfer**
+      - Fixed an issue were messages are displayed as errors when they should be warnings.
+    - **WO Completion**
+      - Fixed an issue were messages are displayed as errors when they should be warnings.
