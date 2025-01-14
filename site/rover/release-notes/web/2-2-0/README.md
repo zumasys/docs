@@ -14,5 +14,7 @@ These are the release notes for version 2.2.0 (TBD) of the Rover Web application
     - Added ability to view and edit parts information.
     - Added Inventory, Commitments, Shortages, On Order, Lot, Usage, Allocations, and Transactions tabs to the Parts view.
     - Added ability to add lookup table to the Parts view. Requires update to [INV.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-2/README.md).
-
+  - **Point of Sale**
+    - Customer Ship-To addresses can now be lazy loaded to improve performance for integrations with large numbers of ship-to addressses on individual customer records.
+      > Only supported by select ERPs
 ## Bug Fixes
