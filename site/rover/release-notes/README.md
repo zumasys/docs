@@ -41,6 +41,7 @@ Here's a sneak peek of what's to come in Rover Web as of [v1.11.2](./web/1-11-2/
 
 | Version                           | Date       | Video                                             |
 | --------------------------------- | ---------- | ------------------------------------------------- |
+| [v2.1.0](./web/2-1-0/README.md)   | 2025-01-13 | N/A                                               |
 | [v2.0.1](./web/2-0-1/README.md)   | 2024-12-18 | N/A                                               |
 | [v2.0.0](./web/2-0-0/README.md)   | 2024-12-09 | N/A                                               |
 | [v1.11.2](./web/1-11-2/README.md) | 2024-11-21 | N/A                                               |
