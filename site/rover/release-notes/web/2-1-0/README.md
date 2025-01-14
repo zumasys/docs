@@ -10,8 +10,8 @@ These are the release notes for version 2.1.0 (1/13/2025) of the Rover Web appli
 
 - **Rover Web**
   - **Point of Sale**
-    - Added ability to specify `SO` line item fields in Partial Ship table. Requires update to [MRK.CONTROL](../../..//AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-partial-ship).
-    - This feature enables customers to send SMS messages directly from the POS order tables. When activated, an SMS button appears alongside the existing download and email icons. Clicking the SMS button initiates an action to send relevant order information via SMS.
+    - Added ability to specify `SO` line item fields in Partial Ship table. Requires update to [MRK.CONTROL](../../../AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-partial-ship).
+    - Added ability to send SMS messages directly from the POS order tables. When activated, an SMS button appears alongside the existing download and email icons. Clicking the SMS button initiates an action to send relevant order information via SMS.
     > Only supported by select ERPs
     ![SMS Order Button](./sms.png)
   - **Customers Module**
@@ -23,6 +23,7 @@ These are the release notes for version 2.1.0 (1/13/2025) of the Rover Web appli
   - **Production Module**
     - The production module now supports view only user permissions, allowing users with no write access to see current work orders and scheduling without the ability to make or save changes.
     ![Production Scheduling Read Only Access](./prod-sched-read-only.gif)
+
 ## Bug Fixes
 
 - **Rover Web**
