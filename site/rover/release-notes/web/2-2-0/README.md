@@ -17,4 +17,9 @@ These are the release notes for version 2.2.0 (TBD) of the Rover Web application
   - **Point of Sale**
     - Customer Ship-To addresses can now be lazy loaded to improve performance for integrations with large numbers of ship-to addressses on individual customer records.
       > Only supported by select ERPs
+    - Auto submission of search is now controlled by a User Setting.  When disabled, entries into customer and part lookup fields in POS are not automatically submitted after a timeout.
+    ![Auto Search User Setting](./auto-search-user-setting.png)
+    - Payouts are now allowed when more than one credit is selected.
+    - Additional options have been added to control when payment overages can remain on account rather then being returned as change.
+      > Only supported by select ERPs
 ## Bug Fixes
