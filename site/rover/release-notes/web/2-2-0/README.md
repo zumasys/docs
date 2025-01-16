@@ -25,9 +25,9 @@ These are the release notes for version 2.2.0 (1/16/2025) of the Rover Web appli
     - Payouts are now allowed when more than one credit is selected.
     - Additional options have been added to control when payment overages can remain on account rather then being returned as change.
       > Only supported by select ERPs
-
   - **General**
     - Field definition update processing now allows for partial updates.
+    
 ## Bug Fixes
   - **Customer Inquiry**
     - Resolved issues with Opportunities not saving properly, updated UI to more clearly indicate the button for saving an opportunity inside an open customer tab.
