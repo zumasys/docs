@@ -17,6 +17,10 @@ These are the release notes for version 2.2.0 (1/16/2025) of the Rover Web appli
     - Payouts are now allowed when more than one credit is selected.
     - Additional options have been added to control when payment overages can remain on account rather then being returned as change.
       > Only supported by select ERPs
+    - Support for custom Lookup driven Orders tables on both the main page and within Point of Sale when a customer is selected.
+     ![MRK Control Orders Lookups](./order-lookup-mrk-control.png)
+     ![Main Page Order Lookup](./order-lookup-main.png)
+     ![Customer Order Lookup](./order-lookup-customer.png)
   - **General**
     - Field definition update processing now allows for partial updates.
 
