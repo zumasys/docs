@@ -22,6 +22,9 @@ These are the release notes for version 2.2.0 (1/16/2025) of the Rover Web appli
      ![MRK Control Orders Lookups](./order-lookup-mrk-control.png)
      ![Main Page Order Lookup](./order-lookup-main.png)
      ![Customer Order Lookup](./order-lookup-customer.png)
+    - Scanning in the parts search now honors the Auto Add Part user setting. If the setting is turned off, scanned parts will not be automatically added to the cart when only one result is found. To make adjusting this behavior mid-transaction easier, a new toggle has been added to change this in Point of Sale. (This toggle will not affect a user's saved setting.)
+    ![POS Auto Add Scanning](./pos-auto-add.gif)
+
   - **General**
     - Field definition update processing now allows for partial updates.
 
