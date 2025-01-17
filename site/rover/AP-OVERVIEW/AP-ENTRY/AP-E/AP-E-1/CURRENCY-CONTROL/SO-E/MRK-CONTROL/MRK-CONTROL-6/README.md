@@ -58,6 +58,14 @@ This table allows you to specify fields defined in `SO FDICT` to be displayed in
 
 **Manually Load Invoices** Checking this box will prevent invoices from being automatically loaded when navigating the invoices tab.
 
+### POS Show New Customer Button
+
+Checking this box will display a button to show a dialog to create a new customer in the main customer search screen.
+
+### POS Require Ship Signature
+
+Checking this box will require a signature when finalizing an order.
+
 <badge text= "Version 1.7.19.0" vertical="middle" />
 
 <PageFooter />
