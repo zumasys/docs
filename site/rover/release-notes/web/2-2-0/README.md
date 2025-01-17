@@ -1,6 +1,6 @@
-# Rover Web v2.2.0 Draft Release Notes
+# Rover Web v2.2.0 Release Notes
 
-<badge text= "Version 2.2.0 Draft" vertical="middle" />
+<badge text= "Version 2.2.0" vertical="middle" />
 
 <PageHeader />
 
