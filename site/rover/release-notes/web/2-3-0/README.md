@@ -23,3 +23,7 @@ These are the release notes for version 2.3.0 (TBD) of the Rover Web application
   - **General**
     - Improvements to error message display, including new options for confirmation prompts and the ability to load specific pages when modal errors are closed.
       > Functionality varies based on ERP.
+
+## Bug Fixes
+  - **Accounting**
+    - The Orders on hold KPI will no longer display without user permissions when not yet configured
