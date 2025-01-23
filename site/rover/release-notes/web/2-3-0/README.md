@@ -23,6 +23,9 @@ These are the release notes for version 2.3.0 (TBD) of the Rover Web application
   - **General**
     - Improvements to error message display, including new options for confirmation prompts and the ability to load specific pages when modal errors are closed.
       > Functionality varies based on ERP.
+  - **Accounting**
+    - The Orders KPI table now supports drill down to display order details including customer details, AR, and receipts history. With some ERP integrations supporting release of orders on hold.
+      ![Accounting Order Details](./accounting-order-details.gif)
 
 ## Bug Fixes
   - **Accounting**
