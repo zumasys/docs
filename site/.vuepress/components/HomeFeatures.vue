@@ -23,7 +23,7 @@
         <a href="/rover/business-suite/scan/">Rover Scan</a></br>
         <a href="/rover/release-notes/">Rover Release Notes</a><br />
         <a href="/rover/">All Rover ERP Docs</a><br />
-        <a href="https://training.total-computing.com/" target="_blank">All Smart Suite Docs</a>
+        <a href="/smartsuite/">All Smart Suite Docs</a>
       </p>
     </div>
     <div class="feature spacer">
