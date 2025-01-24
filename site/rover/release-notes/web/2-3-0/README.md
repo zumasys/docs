@@ -18,11 +18,11 @@ These are the release notes for version 2.3.0 (1/23/2025) of the Rover Web appli
     - ![Part Inventory](./inventory-parts-3.png)
     - Added ability to add lookup table to the Parts view. Requires update to [INV.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-2/README.md).
   - **Point of Sale**
-  - Add ability to display "New Customer" button on the main POS screen. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-show-new-customer-button).
-  - Added host based print action to Invoice table.
-    > Only supported by select ERPs
-  - Additional User based register selection options to support environments where registers are not defined by hardware.
-    > Only supported by select ERPs
+    - Add ability to display "New Customer" button on the main POS screen. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-show-new-customer-button).
+    - Added host based print action to Invoice table.
+      > Only supported by select ERPs
+    - Additional User based register selection options to support environments where registers are not defined by hardware.
+      > Only supported by select ERPs
   - **General**
     - Improvements to error message display, including new options for confirmation prompts and the ability to load specific pages when modal errors are closed.
       > Functionality varies based on ERP.
