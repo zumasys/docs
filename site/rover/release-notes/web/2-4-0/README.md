@@ -17,5 +17,5 @@ These are the release notes for version 2.4.0 (TBD) of the Rover Web application
 
 - **Rover Web**
     - **General**
-    - Issue with attempting to download a fresh copy of PDF has been resolved.
+    
   
