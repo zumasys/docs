@@ -40,7 +40,7 @@ Scan settings allow users to set up their own preferences for [Rover Scan](../sc
 
 ### Keyboard Shortcuts
 - Toggle to turn keyboard shortcuts on and off.
-- <img width="197" alt="shortcuts" src="https://github.com/user-attachments/assets/880f9c8b-5c73-4091-887f-8ea2b57f889c" />
+  <img width="197" alt="shortcuts" src="https://github.com/user-attachments/assets/880f9c8b-5c73-4091-887f-8ea2b57f889c" />
 
 ### Auto Save Orders As Draft
 - A toggle switch that enables automatic, continuous saving of an order without requiring manual intervention.
