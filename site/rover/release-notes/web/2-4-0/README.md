@@ -13,7 +13,7 @@ These are the release notes for version 2.4.0 (TBD) of the Rover Web application
       - Added support for custom company logo to display in the header of Rover Web after login.  This logo is distinct from the logo used for the login page.
     - **Point of Sale**
       - Adds ability to add non-stock items to orders.. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md#allow-non-stock-parts).
-        ![Part View](./inventory-parts-2.png)  
+        ![Non-Stock Items](./pos-non-stock.gif)  
 
 ## Bug Fixes
 
