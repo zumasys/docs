@@ -66,6 +66,10 @@ Checking this box will display a button to show a dialog to create a new custome
 
 Checking this box will require a signature when finalizing an order.
 
+### Allow Non-stock Parts
+
+Checking this box will allow non-stock items to be added via the cart view in Point of Sale.
+
 <badge text= "Version 1.7.19.0" vertical="middle" />
 
 <PageFooter />
