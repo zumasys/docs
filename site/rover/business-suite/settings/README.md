@@ -22,7 +22,7 @@ Scan settings allow users to set up their own preferences for [Rover Scan](../sc
 
 ### Scanner Mode
 - A toggle switch that allows users to enable or disable scanner mode.
-- When enabled, scanner mode will apply to all input fields, facilitating seamless data entry using a scanner.
+- When enabled, scanner mode will apply to all applicable input fields, facilitating seamless data entry using a scanner.
 
 ## POS
 
@@ -30,7 +30,7 @@ Scan settings allow users to set up their own preferences for [Rover Scan](../sc
 - A toggle switch that, when enabled, ensures that after a customer is selected and an order is searched for, the order opens in edit mode instead of finalize order mode.
 
 ### Load Default Customers
-- A toggle switch to automatically load all customers by default.
+- A toggle switch to automatically load all customers table by default when entering the POS module.
 
 ### Hide Line Item Custom Fields
 - A toggle switch to hide custom fields in cart view.
@@ -59,7 +59,7 @@ Scan settings allow users to set up their own preferences for [Rover Scan](../sc
 - A dropdown menu to select the default module or page upon login.
 
 ### Waive Convenience Fee by Default
-- A toggle switch to automatically waive convenience fees.
+- A toggle switch to automatically waive convenience fees when paying an invoice.
 
 ## Actions
 
