@@ -9,15 +9,13 @@ These are the release notes for version 2.4.1 (2/06/2025) of the Rover Web appli
 ## New Features
 
 - **Rover Web**
-    - **Customer Inquiry**
-      - Tickets tab data table is now sorted by date descending by default.      
+  - **Customer Inquiry**
+    - Tickets tab data table is now sorted by date descending by default.
 
 ## Bug Fixes
 
 - **Rover Web**
-    - **Point of Sale**
-      - Addressed an issue with missing custom fields in the cart summary.
-    - **General**
-      - Addressed an issue with user's default printer not being honored in the printer selection dialog.
-    
-  
+  - **Point of Sale**
+    - Addressed an issue with missing custom fields in the cart summary.
+  - **General**
+    - Addressed an issue with user's default printer not being honored in the printer selection dialog.
