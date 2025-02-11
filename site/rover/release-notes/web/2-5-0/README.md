@@ -9,13 +9,12 @@ These are the release notes for version 2.5.0 (TBD) of the Rover Web application
 ## New Features
 
 - **Rover Web**
-    - **Point of Sale**
-    - Add ability to require signature when finalizing orders. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-require-ship-signature).
-  - ** General **
+  - **Point of Sale**
+  - Add ability to require signature when finalizing orders. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-require-ship-signature).
+  - **General**
 
 ## Bug Fixes
 
 - **Rover Web**
-    - **General**
-    
-  
+  - **Inventory Parts**
+    - Fixed UI issue where Parts and Inventory tabs disappear if no lookup is defined in `INV.CONTROL`
