@@ -18,3 +18,8 @@ These are the release notes for version 2.5.0 (TBD) of the Rover Web application
 - **Rover Web**
   - **Inventory Parts**
     - Fixed UI issue where Parts and Inventory tabs disappear if no lookup is defined in `INV.CONTROL`
+  - **POS**
+    - Product Dialog now takes up more space on the screen and full width on mobile devices.
+    - Updated customer table header alignment.
+    - Fixed issue with deleting duplicate part numbers removing the first instance of the part number.
+    - Auto Save orders as draft skips "Transaction in Progress" dialog.
