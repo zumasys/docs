@@ -11,7 +11,11 @@ These are the release notes for version 2.5.0 (TBD) of the Rover Web application
 - **Rover Web**
   - **Point of Sale**
   - Add ability to require signature when finalizing orders. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-require-ship-signature).
+  - **Tickets and Time**
+    - Adding priority, status, and contacts to ticket details.
   - **General**
+    - Adding support for lookup for contacts. This is enabled for Tickets, Opportunities, Quotes, Orders, and Customers. Requires update to [CONTACT.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/CONTACT-CONTROL/CONTACT-CONTROL-1/README.md#contact-lookup).
+    ![Contact Lookup](./contact-lookup.gif)
 
 ## Bug Fixes
 

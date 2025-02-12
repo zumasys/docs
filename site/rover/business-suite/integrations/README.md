@@ -8,4 +8,6 @@
 
 [Rover Inventory Module](inventory/README.md)
 
+[Contact Control](contact-control/README.md)
+
 <PageFooter />

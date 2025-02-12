@@ -4,7 +4,7 @@
 
 ##
 
-![](./CONTACT-CONTROL-1.jpg)
+![](./CONTACT-CONTROL-1.png)
 
 **Control ID** The ID "CONTACT" is automatically assigned by the procedure.  
   
@@ -15,6 +15,13 @@
 **FILE.NAME** Enter the file name you want associated with this contact. For
 example, to use this contact in  
 reports for the Accounts Receivable module, enter AR in this field.  
+
+
+## Contact Lookup
+
+This defines the lookup used for Rover Web. This allows for greater flexibility in the lookup for contacts. This is enabled for Tickets, Opportunities, Quotes, Orders, and Customers.
+
+[Integrations](../../../../business-suite/integrations/contact-control/README.md#contact-lookup)
   
   
 <badge text= "Version 8.10.57" vertical="middle" />
