@@ -20,6 +20,12 @@ These are the release notes for version 2.5.0 (TBD) of the Rover Web application
     - Adding support for lookup for contacts. This is enabled for __Tickets__, __Opportunities__, __Quotes__, __Orders__, and __Customers__. Requires update to [CONTACT.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/CONTACT-CONTROL/CONTACT-CONTROL-1/README.md#contact-lookup).
     ![Contact Lookup](./contact-lookup.gif)
 
+- **Rover Portal**
+  - **Settings**
+    - User settings now allow for selection of a branch when multiple branch options are available for a selected company.
+    [POS RMA](./pos-rma.gif)
+      > Only supported by select ERPs
+
 ## Bug Fixes
 
 - **Rover Web**
