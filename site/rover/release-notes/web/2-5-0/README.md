@@ -11,7 +11,7 @@ These are the release notes for version 2.5.0 (TBD) of the Rover Web application
 - **Rover Web**
   - **Point of Sale**
     - Add ability to require signature when finalizing orders. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-require-ship-signature).
-    - Added support for automatic processing of RMAs from the Invoices tab. This must be enabled via `MRK.CONTROL` in the _"Enable RMA Refund"_. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/README.md#enable-rma-refund). ![POS RMA](./pos-rma.gif)
+    - Added support for automatic processing of RMAs from the Invoices tab. This must be enabled via `MRK.CONTROL` using the _"Enable RMA Refund"_ checkbox. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/README.md#enable-rma-refund). ![POS RMA](./pos-rma.gif)
 
   - **Tickets and Time**
     - Added `priority`, `status`, and `contacts` to ticket details.
