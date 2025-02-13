@@ -10,23 +10,24 @@ These are the release notes for version 2.5.0 (TBD) of the Rover Web application
 
 - **Rover Web**
   - **Point of Sale**
-    - Add ability to require signature when finalizing orders. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-require-ship-signature).
-    - Added support for automatic processing of RMAs from the Invoices tab. This must be enabled via `MRK.CONTROL` using the _"Enable RMA Refund"_ checkbox. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/README.md#enable-rma-refund). ![POS RMA](./pos-rma.gif)
-
+    - Add ability to require signature when finalizing orders. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-require-ship-signature).
+    - Added support for automatic processing of RMAs from the Invoices tab. This must be enabled via `MRK.CONTROL` using the _"Enable RMA Refund"_ checkbox in the `RMA` tab. Automatic processing applies to any __Customers__ whose `TERMS.E` type has _"Auto-Process RMA"_ enabled. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/README.md#enable-rma-refund). ![POS RMA](./pos-rma.gif)
   - **Tickets and Time**
-    - Added `priority`, `status`, and `contacts` to ticket details.
-    - Added ability to assign multiple contacts to one ticket.
+    - Added `priority`, `status`, and `contacts` to ticket details.
+    - Added ability to assign multiple contacts to one ticket.
   - **General**
-    - Adding support for lookup for contacts. This is enabled for __Tickets__, __Opportunities__, __Quotes__, __Orders__, and __Customers__. Requires update to [CONTACT.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/CONTACT-CONTROL/CONTACT-CONTROL-1/README.md#contact-lookup).
-    ![Contact Lookup](./contact-lookup.gif)
+    - Enhanced the contact lookup feature. This is enabled for __Tickets__, __Opportunities__, __Quotes__, __Orders__, and __Customers__. Requires update to [CONTACT.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/CONTACT-CONTROL/CONTACT-CONTROL-1/README.md#contact-lookup).
+    ![Contact Lookup](./contact-lookup.gif)
 
 ## Bug Fixes
 
 - **Rover Web**
   - **Inventory Parts**
-    - Fixed UI issue where __Parts__ and __Inventory__ tabs disappear if no lookup is defined in `INV.CONTROL`
+    - Fixed a UI issue where the __Parts__ and __Inventory__ tabs would disappear if no lookup was defined in `INV.CONTROL`
   - **POS**
-    - Product Dialog is now easier to read on smaller form factor devices.
-    - Updated customer table header alignment.
-    - Fixed issue with deleting duplicate part numbers removing the first instance of the part number.
-    - Enabling `Auto Save Orders as Draft` in user settings suppresses the _"Transaction in Progress"_ dialog when navigating away from __POS__ with an unsaved order in the cart.
+    - The _"Product Details"_ modal is now easier to read on smaller form factor devices.
+    - Updated the customer table header alignment.
+    - Fixed issue where deletion of a duplicate part from the cart removing the first instance of the part rather than the selected line.
+    - Enabling `Auto Save Orders as Draft` in user settings now suppresses the _"Transaction in Progress"_ dialog when navigating away from __POS__ with an unsaved order in the cart.
+
+<PageFooter />
