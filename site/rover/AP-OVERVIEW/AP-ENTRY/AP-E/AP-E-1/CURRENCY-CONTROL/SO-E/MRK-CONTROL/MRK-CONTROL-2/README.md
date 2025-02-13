@@ -41,6 +41,14 @@ credit memos or invoices in accounts receivable.
   
 **WO Type** Enter the repair type code to be assigned to work orders that are
 created for the associated RMA type code. Repair codes are setup in  
+
+### Enable RMA Refund 
+
+Enables the ability to process RMAs in Rover Web Point of Sale.
+
+### Auto-Process RMA Terms Document
+
+Selects what document to reference when determining if an RMA Receipt created via Rover Web Point of Sale can be automatically confirmed and posted to an AR Credit Memo. This is determined using the Auto-Process RMA setting in TERMS.E for the terms code associated with the document selected (AR for the item being RMA'ed or Customer) 
   
   
 <badge text= "Version 8.10.57" vertical="middle" />
