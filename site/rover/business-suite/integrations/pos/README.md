@@ -41,4 +41,17 @@ MRK.CONTROL response JSON format to show additional fields in the POS Partial Sh
 }
 ```
 
+## POS Lookups
+
+### Customer Lookup
+
+MRK.CONTROL response JSON format to show additional fields in the POS Customer lookup. Omit or set as empty string to keep the original customer lookup table.
+
+```json
+{
+    "pos_customer_lookup": "POS.CUSTOMER.LOOKUP"
+}
+```
+
+
 <PageFooter />
