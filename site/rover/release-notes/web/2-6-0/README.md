@@ -10,7 +10,10 @@ These are the release notes for version 2.6.0 (draft) of the Rover Web applicati
 
 ### Rover Web
 
-#### POS
+### General
+    - Lookup based datatables now support multi-select filters for columns with defined valid values.  
+
+#### Point of Sale
     - Added to use lookup table for customer search. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md).
 
 
@@ -18,5 +21,7 @@ These are the release notes for version 2.6.0 (draft) of the Rover Web applicati
 
 ### Rover Web
 
+#### Point of Sale
+    - Resolved issues with part search failures occurring when search parameter length limits were exceeded.
 #### Inventory
- - Fixed the display of vendor and manufacturer information in part details.
+    - Fixed the display of vendor and manufacturer information in part details.
