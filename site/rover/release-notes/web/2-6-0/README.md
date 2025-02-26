@@ -29,6 +29,7 @@ These are the release notes for version 2.6.0 (draft) of the Rover Web applicati
 - Partial Ship button is now disabled when processing the update.
 - Ship Via filter within the order information section now filters correctly.
 - Errors when validating customer selected now navigate back to the customer search screen.
+- When creating a new order, POS correctly defaults the order's terms to the terms of the customer selected.
 
 #### Inventory
 - Fixed the display of vendor and manufacturer information in part details.
