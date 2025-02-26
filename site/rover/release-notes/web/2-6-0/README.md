@@ -24,7 +24,12 @@ These are the release notes for version 2.6.0 (draft) of the Rover Web applicati
 ### Rover Web
 
 #### Point of Sale
+
 - Resolved issues with part search failures occurring when search parameter length limits were exceeded.
+- Partial Ship button is now disabled when processing the update.
+- Ship Via filter within the order information section now filters correctly.
+- Errors when validating customer selected now navigate back to the customer search screen.
+
 #### Inventory
 - Fixed the display of vendor and manufacturer information in part details.
 #### Tickets and Time
