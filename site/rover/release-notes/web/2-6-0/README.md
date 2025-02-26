@@ -27,3 +27,6 @@ These are the release notes for version 2.6.0 (draft) of the Rover Web applicati
 - Resolved issues with part search failures occurring when search parameter length limits were exceeded.
 #### Inventory
 - Fixed the display of vendor and manufacturer information in part details.
+#### Tickets and Time
+- Improved handling of contact entry to ensure the field always shows the correct name.
+- Improved support for multiple contacts when saving a new ticket.
