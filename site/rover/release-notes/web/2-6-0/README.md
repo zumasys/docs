@@ -8,6 +8,15 @@ These are the release notes for version 2.6.0 (draft) of the Rover Web applicati
 
 ## New Features
 
-- **Rover Web**
-  - **POS**
+### Rover Web
+
+#### POS
     - Added to use lookup table for customer search. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md).
+
+
+## Bug Fixes
+
+### Rover Web
+
+#### Inventory
+ - Fixed the display of vendor and manufacturer information in part details.
