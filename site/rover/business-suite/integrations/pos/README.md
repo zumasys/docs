@@ -49,7 +49,7 @@ MRK.CONTROL response JSON format to show additional fields in the POS Customer l
 
 ```json
 {
-    "pos_customer_lookup": "POS.CUSTOMER.LOOKUP"
+    "pos_customer_lookup": "CUST*POS.LOOKUP"
 }
 ```
 

@@ -15,7 +15,7 @@ These are the release notes for version 2.6.0 (draft) of the Rover Web applicati
 > Only supported by select ERPs  
 
 #### Point of Sale
-- Added to use lookup table for customer search. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md).
+- Added to use lookup table for customer search. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-7/README.md#customer-lookup).
 > Only supported by select ERPs
 
 
@@ -26,7 +26,7 @@ These are the release notes for version 2.6.0 (draft) of the Rover Web applicati
 #### Point of Sale
 
 - Resolved issues with part search failures occurring when search parameter length limits were exceeded.
-- Partial Ship button is now disabled when processing the update.
+- Partial Ship button is now disabled when processing the shipment.
 - Ship Via filter within the order information section now filters correctly.
 - Errors when validating customer selected now navigate back to the customer search screen.
 - When creating a new order, POS correctly defaults the order's terms to the terms of the customer selected.
