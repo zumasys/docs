@@ -5,6 +5,8 @@
 **Form Details**  
 [ Form Details ](AR-CONTROL-1/README.md)   
 
+[ Web ](AR-CONTROL-6/README.md)   
+
 **Purpose**  
 The AR.CONTROL procedure is used to define default information which will be
 used by the Accounts Receivable procedures.

@@ -22,7 +22,8 @@ to be allowed by the user.
 **Hide** Check this box if you want the data hidden from the user. When a
 field is hidden it is also assumed to be blocked from update, so there is no
 need to check the Block checkbox.  
-  
+
+[Integrations](../../../../business-suite/integrations/security/README.md#blockhide-fields)
   
 <badge text= "Version 8.10.57" vertical="middle" />
 
