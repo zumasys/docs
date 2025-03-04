@@ -12,7 +12,5 @@ These are the release notes for version 2.7.0 (TBD) of the Rover Web application
 
 #### Accounting
 
-- Added ability to select fields to edit/show when paying invoices. [AR.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL/AR-CONTROL-6/README.md).
-  > Only supported by select ERPs
 - Added security feature to restrict write access to certain fields. [SECURITY.E](../../../../rover/ACE-OVERVIEW/ACE-ENTRY/SECURITY-E/SECURITY-E-3/README.md).
     Only supported by select ERPs
