@@ -15,6 +15,9 @@ These are the release notes for version 2.7.0 (TBD) of the Rover Web application
 - Added security feature to restrict write access to certain fields. [SECURITY.E](../../../../rover/ACE-OVERVIEW/ACE-ENTRY/SECURITY-E/SECURITY-E-3/README.md).
     Only supported by select ERPs
 
+#### Point of Sale
+  
+- Sales Opportunities are now available in the Point of Sale module. This change removes opportunities from the Sales module.
 
 ## Bug Fixes
 
@@ -24,3 +27,4 @@ These are the release notes for version 2.7.0 (TBD) of the Rover Web application
 
 - Resolved an issue where selecting a recently viewed customer may bring up a previously viewed order.
 - Inventory lookups now work with lookups with exploded multivalued data such as PO line items.
+- Fixed issue with required options in the order header information not being enforced.
