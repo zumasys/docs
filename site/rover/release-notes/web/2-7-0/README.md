@@ -23,6 +23,11 @@ These are the release notes for version 2.7.0 (TBD) of the Rover Web application
 
 ### Rover Web
 
+#### Customers
+  
+- Fixed issue where contacts updated on a customer would show the contacts on a customer in a different tab.
+    > This was a UI related issue and did not update the actual customer record.
+
 #### Point of Sale
 
 - Resolved an issue where selecting a recently viewed customer may bring up a previously viewed order.
