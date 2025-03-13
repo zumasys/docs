@@ -13,11 +13,11 @@ These are the release notes for version 2.7.0 (TBD) of the Rover Web application
 #### Accounting
 
 - Added security feature to restrict write access to certain fields. [SECURITY.E](../../../../rover/ACE-OVERVIEW/ACE-ENTRY/SECURITY-E/SECURITY-E-3/README.md).
-    Only supported by select ERPs
+  > Only supported by select ERPs
 
 #### Point of Sale
   
-- Sales Opportunities are now available in the Point of Sale module. This change removes opportunities from the Sales module.
+- _Sales Opportunities_ are now available in the `Point of Sale` module if enabled in `MRK.CONTROL`. This update also removes opportunities from the `Sales` module.
 
 ## Bug Fixes
 
@@ -25,8 +25,8 @@ These are the release notes for version 2.7.0 (TBD) of the Rover Web application
 
 #### Customers
   
-- Fixed issue where contacts updated on a customer would show the contacts on a customer in a different tab.
-    > This was a UI related issue and did not update the actual customer record.
+- Fixed a UI bug where contacts updated on one customer would show in the contacts on other customers.
+  > This was strictly a UI issue and did not update the actual customer record.
 
 #### Point of Sale
 
