@@ -4,7 +4,7 @@
 
 ##
 
-![](./BQ-E-1.jpg)
+![](./BQ-E1.jpg)
 
 **Batch Queue ID** Enter the ID by which this batch queue will be referenced.  
   
