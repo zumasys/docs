@@ -18,6 +18,7 @@ These are the release notes for version 2.7.0 (TBD) of the Rover Web application
 #### Point of Sale
   
 - _Sales Opportunities_ are now available in the `Point of Sale` module if enabled in `MRK.CONTROL`. This update also removes opportunities from the `Sales` module.
+- Support to allow prices to be calculated based on the `CALC.PRICE` correlative has been added.
 
 ## Bug Fixes
 

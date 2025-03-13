@@ -41,6 +41,47 @@ MRK.CONTROL response JSON format to show additional fields in the POS Partial Sh
 }
 ```
 
+## POS Calc Price
+
+`calc_price` is a field that replaces the POS price calculation based on `std_price_items` and `code_items`. This allows the host to calculate the price and skip any price calculation on the client side.
+
+The PRICE FDICT should include the correlative `CALC` with the following format:
+
+```json
+{
+ "fdict_items": [
+  {
+   "file_name": "PRICE",
+   "correl_field_no_items": [
+    {
+     "correl_field_no": "0",
+     "correl_desc": "Calc.Price",
+     "correl_conv": "MD4",
+     "correl_dict_id": "CALC.PRICE",
+    }
+   ]
+  }
+ ]
+}
+```
+
+The PRICE API response will allow need to include `calc_price` with parts returned.
+
+```json
+{
+    "price_items": [
+        {
+            "part_number": "93",
+            "calc_price": "6.0000"
+        },
+        {
+            "part_number": "94",
+            "calc_price": "7.0000"
+        }
+    ]
+}
+```
+
 ## POS Lookups
 
 ### Customer Lookup
