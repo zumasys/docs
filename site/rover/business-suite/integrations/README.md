@@ -10,8 +10,6 @@
 
 [Contact Control](contact-control/README.md)
 
-[AR Control](ar-control/README.md)
-
 [Security](security/README.md)
 
 
