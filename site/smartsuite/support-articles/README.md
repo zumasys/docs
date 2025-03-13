@@ -1,0 +1,6 @@
+# Support Articles
+
+<PageHeader />
+
+
+<PageFooter />
