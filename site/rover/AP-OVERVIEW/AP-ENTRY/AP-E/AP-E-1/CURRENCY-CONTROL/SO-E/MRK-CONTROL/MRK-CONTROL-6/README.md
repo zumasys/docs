@@ -70,6 +70,18 @@ Checking this box will require a signature when finalizing an order.
 
 Checking this box will allow non-stock items to be added via the cart view in Point of Sale.
 
+### POS Show Order Tab
+
+Checking this box will display the orders tab in the customer selection within POS.
+
+[Integrations](../../../../../../../../business-suite/integrations/pos/README.md#pos-show-orders-tab)
+
+### POS Show Opportunities Tab
+
+Checking this box will display the opportunities tab in the customer selection within POS. This enables the ability to create, modify, or view opportunities.
+
+[Integrations](../../../../../../../../business-suite/integrations/pos/README.md#pos-show-opportunities-tab)
+
 <badge text= "Version 1.7.19.0" vertical="middle" />
 
 <PageFooter />

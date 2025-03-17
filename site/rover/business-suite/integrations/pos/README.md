@@ -41,6 +41,29 @@ MRK.CONTROL response JSON format to show additional fields in the POS Partial Sh
 }
 ```
 
+## POS Show Orders Tab
+
+MRK.CONTROL response JSON format to show the orders tab in the customers selection within POS.
+
+```json
+{
+    "pos_show_orders_tab": "Y"
+}
+```
+
+## POS Show Opportunities Tab
+
+MRK.CONTROL response JSON format to show the opportunites tab in the customers selection within POS.
+
+> Requires `SOQUOTE.E` to be defined in the user commands.
+
+ ```json
+{
+    "pos_show_opp_tab": "Y"
+}
+```
+
+
 ## POS Calc Price
 
 `calc_price` is a field that replaces the POS price calculation based on `std_price_items` and `code_items`. This allows the host to calculate the price and skip any price calculation on the client side.
