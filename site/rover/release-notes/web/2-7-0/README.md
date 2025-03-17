@@ -4,7 +4,7 @@
 
 <PageHeader />
 
-These are the release notes for version 2.7.0 (TBD) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v2.7.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v2.7.0) today!
+These are the release notes for version 2.7.0 (3/17/25) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v2.7.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v2.7.0) today!
 
 ## New Features
 
@@ -18,6 +18,8 @@ These are the release notes for version 2.7.0 (TBD) of the Rover Web application
 #### Point of Sale
   
 - _Sales Opportunities_ are now available in the `Point of Sale` module if enabled in `MRK.CONTROL`. This update also removes opportunities from the `Sales` module.
+- `MRK.CONTROL` toggles for controlling visibility of Orders, and Opportunities tabs in the main Point of Sale screen have been adjusted. Updated settings require opting into display of these tabs rather than opting out.  
+- Shipping functionality on Orders has been restricted to user with SHIP.E command access.
 - Support to allow prices to be calculated based on the `CALC.PRICE` correlative has been added.
 
 ## Bug Fixes
