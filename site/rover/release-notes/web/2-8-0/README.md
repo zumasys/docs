@@ -10,6 +10,10 @@ These are the release notes for version 2.8.0 (TBD) of the Rover Web application
 
 ### Rover Web
 
+#### Accounting
+
+ - AP and AR tables now default to open invoices (previously all) and showing 25 records per page (previously 5).
+
 ## Bug Fixes
 
 ### Rover Customer Portal
