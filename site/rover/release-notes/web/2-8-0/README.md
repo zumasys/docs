@@ -22,6 +22,10 @@ These are the release notes for version 2.8.0 (TBD) of the Rover Web application
 
 ### Rover Web
 
+#### Point of Sale
+
+ - Voiding transactions in receipt history will no longer process duplicate void actions when the button is clicked while a transaction is already processing.
+
 #### Tickets
   
 - Clicking "Save" multiple times in quick succession will no longer save duplicate billing entries to the ticket.
