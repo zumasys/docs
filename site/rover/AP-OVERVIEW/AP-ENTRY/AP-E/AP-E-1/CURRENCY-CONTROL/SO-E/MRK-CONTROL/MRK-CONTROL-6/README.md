@@ -58,6 +58,8 @@ This table allows you to specify fields defined in `SO FDICT` to be displayed in
 
 **Manually Load Invoices** Checking this box will prevent invoices from being automatically loaded when navigating the invoices tab.
 
+**Skip Close Out Report** Checking this box will prevent a register closeout report from being sent to the register when closing.
+
 ### POS Show New Customer Button
 
 Checking this box will display a button to show a dialog to create a new customer in the main customer search screen.
