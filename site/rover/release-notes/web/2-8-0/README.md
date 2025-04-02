@@ -17,12 +17,16 @@ These are the release notes for version 2.8.0 (TBD) of the Rover Web application
 #### Customer Inquiry
 
 - Access to Tickets & Time and Accounts Receivable tabs now enforce user level access defined in `SECURITY.E`
+- Ability to add a phone number when creating a new customer has been added.
+- Ability to restrict changes to credit settings has been enabled through `SECURITY.E` input restrictions.
 
 #### Point of Sale
 
 - A toggle has been added to control printing of register closeout reports.
  [MRK.CONTROL](../../../../rover\AP-OVERVIEW\AP-ENTRY\AP-E\AP-E-1\CURRENCY-CONTROL\SO-E\MRK-CONTROL\MRK-CONTROL-6\README.md#feature-toggles)
  > Only supported by select ERPs
+
+- Ability to add a phone number when creating a new customer has been added.
  
 #### Production Scheduling
 
@@ -40,6 +44,7 @@ These are the release notes for version 2.8.0 (TBD) of the Rover Web application
 #### Point of Sale
 
  - Voiding transactions in receipt history will no longer process duplicate void actions when the button is clicked while a transaction is already processing.
+ - Fixed issue with saving custom fields on non-stock items.
 
 #### Tickets
   
