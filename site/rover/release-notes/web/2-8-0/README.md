@@ -12,7 +12,7 @@ These are the release notes for version 2.8.0 (TBD) of the Rover Web application
 
 #### Accounting
 
- - AP and AR tables now default to open invoices (previously all) and showing 25 records per page (previously 5).
+- AP and AR tables now default to open invoices (previously all) and showing 25 records per page (previously 5).
 
 #### Customer Inquiry
 
@@ -27,7 +27,7 @@ These are the release notes for version 2.8.0 (TBD) of the Rover Web application
  > Only supported by select ERPs
 
 - Ability to add a phone number when creating a new customer has been added.
- 
+
 #### Production Scheduling
 
 - Production Scheduling now supports Workorder Substatus values when defined in Rover in `WO.CONTROL`.  This allows for more granular status values to be applied to meet specific workflow requirements.
@@ -37,17 +37,15 @@ These are the release notes for version 2.8.0 (TBD) of the Rover Web application
 
 ### Rover Customer Portal
 
- - Display formatting for smaller screens has been improved. 
+- Display formatting for smaller screens has been improved.
 
 ### Rover Web
 
 #### Point of Sale
 
- - Voiding transactions in receipt history will no longer process duplicate void actions when the button is clicked while a transaction is already processing.
- - Fixed issue with saving custom fields on non-stock items.
+- Voiding transactions in receipt history will no longer process duplicate void actions when the button is clicked while a transaction is already processing.
+- Fixed issue with saving custom fields on non-stock items.
 
 #### Tickets
   
 - Clicking "Save" multiple times in quick succession will no longer save duplicate billing entries to the ticket.
-
-
