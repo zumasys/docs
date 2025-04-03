@@ -45,6 +45,7 @@ These are the release notes for version 2.8.0 (TBD) of the Rover Web application
 
 - Voiding transactions in receipt history will no longer process duplicate void actions when the button is clicked while a transaction is already processing.
 - Fixed issue with saving custom fields on non-stock items.
+- Fixed issue with custom ID fields missing from the Parts search table.
 
 #### Tickets
   
