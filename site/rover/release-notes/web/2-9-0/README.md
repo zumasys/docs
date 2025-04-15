@@ -10,6 +10,10 @@ These are the release notes for version 2.9.0 (TBD) of the Rover Web application
 
 ### Rover Web
 
+#### General 
+
+- Users can now press the "Enter" to apply filters in data tables instead of clicking the "Apply" button.
+
 #### Production Scheduling
 
 - The main work order listing table can now be controlled via a lookup, selected in WO.CONTROL.
