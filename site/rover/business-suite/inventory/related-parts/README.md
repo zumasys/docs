@@ -1,3 +1,4 @@
+
 # Related Parts Setup
 
 <PageHeader />
@@ -39,18 +40,18 @@ To define a new group of related parts:
 1. Select the desired option group from the dropdown.
 2. Click **Add Part**.
 
-    ![AddPartButton](./Add_parts_to_selected_group.png)
+    ![AddPartButton](./add-parts-to-selected-group.png)
 
 3. In the dialog:
    - Enter part number or description.
    - Set **Required** if the part must be included when adding the parent part to a Sales Quote or Sales Order.
    - Define the **Default Quantity**.
 
-    ![AddPartDialog](./Add_part_dialog_after_button_click.png)
+    ![AddPartDialog](./add-part-dialog-after-button-click.png)
 
 4. Click the **Search** field to bring up matching parts.
 
-    ![PartSearch](./Add_Part_Search_results.png)
+    ![PartSearch](./add-part-search-results.png)
 
 5. Select a part and confirm by clicking **Select**, then **Save**.
 
@@ -58,17 +59,17 @@ To define a new group of related parts:
 
 - To add a **Child Group**, select an existing group and click **Add Child Group**.
 
-    ![AddChildGroup](./Add_child_group_with_Add_Child_Group_button.png)
+    ![AddChildGroup](./add-child-group-with-add-child-group-button.png)
 
 - To remove a group, select it and click **Remove Option Group**.
 >Note: Groups cannot be removed if they contain parts.
-    ![RemoveGroup](./Removing_an_empty_option_group.png)
+    ![RemoveGroup](./removing-an-empty-option-group.png)
 
 ## Viewing Group Contents
 
 Once a group is created and selected, the list of associated parts will appear below.
 
-![ViewGroup](./Select_an_option_group_to_view_parts.png)
+![ViewGroup](./select-an-option-group-to-view-parts.png)
 
 Each entry includes:
 - **Part ID**
