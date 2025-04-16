@@ -18,6 +18,40 @@ These validation codes are used to determine which section of POS triggered an A
 
 Additionally, support for specific fields in the Order Information section can trigger a validation if the field has a defined FDICT and has `web_validate` flag enabled.
 
+## Validation Prompt
+
+To enable a prompt to display after an error or confirmation. Add this information to the response from the validation API. A modal will appear and once a selection is made a subsequent validation API call will be made with the selection chosen.
+
+Sample of the validation response
+
+```json
+{
+    "errorDisplay": {
+        "cancelButtonLabel": "Cancel Custom",
+        "confirmButtonLabel": "Confirm Custom",
+        "confirmValidate": true,
+        "dialog": false,
+        "errors": [
+            "Item xxx can only be sold in qty of yyy, do you wish to override?"
+        ],
+        "warning": false
+    },
+    "record": { /* record information goes here */},
+    "recordId": "",
+    "status": "error"
+}
+```
+
+Sample of the validation request override confirmation/dismiss
+
+```json
+{
+    "metaData": {
+        "validate_override": "Y" // or "N" on Cancel
+    }
+}
+```
+
 ## POS Partial Ship Fields
 
 MRK.CONTROL response JSON format to show additional fields in the POS Partial Ship section.
