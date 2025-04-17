@@ -2,6 +2,20 @@
 
 <PageHeader />
 
+This article describes how to integrate your back end to various Rover POS features.
+
+## Table of Contents <!-- omit from toc -->
+
+- [Validation Codes](#validation-codes)
+- [Validation Prompts](#validation-prompts)
+- [Partial Ship Fields](#partial-ship-fields)
+- [Show Orders Tab](#show-orders-tab)
+- [Show Opportunities Tab](#show-opportunities-tab)
+- [Calc Price](#calc-price)
+- [Lookups](#lookups)
+  - [Customer Lookup](#customer-lookup)
+  - [Inventory Lookup](#inventory-lookup)
+
 ## Validation Codes
 
 These validation codes are used to determine which section of POS triggered an API call to validate the current sales order.
@@ -18,7 +32,7 @@ These validation codes are used to determine which section of POS triggered an A
 
 Additionally, support for specific fields in the Order Information section can trigger a validation if the field has a defined FDICT and has `web_validate` flag enabled.
 
-## Validation Prompt
+## Validation Prompts
 
 To enable a prompt to display after an error or confirmation. Add this information to the response from the validation API. A modal will appear and once a selection is made a subsequent validation API call will be made with the selection chosen.
 
@@ -52,7 +66,7 @@ Sample of the validation request override confirmation/dismiss
 }
 ```
 
-## POS Partial Ship Fields
+## Partial Ship Fields
 
 MRK.CONTROL response JSON format to show additional fields in the POS Partial Ship section.
 
@@ -75,7 +89,7 @@ MRK.CONTROL response JSON format to show additional fields in the POS Partial Sh
 }
 ```
 
-## POS Show Orders Tab
+## Show Orders Tab
 
 MRK.CONTROL response JSON format to show the orders tab in the customers selection within POS.
 
@@ -85,7 +99,7 @@ MRK.CONTROL response JSON format to show the orders tab in the customers selecti
 }
 ```
 
-## POS Show Opportunities Tab
+## Show Opportunities Tab
 
 MRK.CONTROL response JSON format to show the opportunites tab in the customers selection within POS.
 
@@ -97,8 +111,7 @@ MRK.CONTROL response JSON format to show the opportunites tab in the customers s
 }
 ```
 
-
-## POS Calc Price
+## Calc Price
 
 `calc_price` is a field that replaces the POS price calculation based on `std_price_items` and `code_items`. This allows the host to calculate the price and skip any price calculation on the client side.
 
@@ -139,17 +152,103 @@ The PRICE API response will allow need to include `calc_price` with parts return
 }
 ```
 
-## POS Lookups
+## Lookups
+
+POS supports the use of database lookups to drive searches and tabular data in various sections. Generally speaking, the value expected for these lookup properties follows the format of _FILE*LOOKUP.NAME_ i.e. "INV*LASTPRICE".
+
+Those values are used in conjunction with API calls to the _doLookup_ endpoint which is used to dynamically interact with the back end to process lookups. An example request is shown below:
+
+``` json
+{
+    "lookupName": "LASTPRICE",
+    "id": "10",
+    "file": "INV",
+    "parameters": {
+        "coCode": "1",
+        "custId": "71",
+        "parts": "10"
+    },
+    "filters": {},
+    "fullRecords": false
+}
+```
+
+Your response should include an array called `data` to contain the data and an array called `fDicts` to contained the data schema. An example response is shown below:
+
+``` json
+{
+    "data": [
+        {
+            "date": "03/30/22",
+            "invoice": "4966869",
+            "qtysold": "1",
+            "price": "113.090",
+            "branch": "1 Rochester",
+            "writer": "Tester",
+            "shiptoname": "Zumasys",
+            "customer": "123"
+        }
+    ],
+    "fDicts": [
+        { 
+            "conv": "D",
+            "dict_name": "date"
+        },
+        { 
+            "conv": "",
+            "dict_name": "invoice"
+        },
+        { 
+            "conv": "",
+            "dict_name": "qtysold"
+        },
+        { 
+            "conv": "MR3",
+            "dict_name": "price"
+        },
+        { 
+            "conv": "",
+            "dict_name": "branch"
+        },
+        { 
+            "conv": "",
+            "dict_name": "writer"
+        },
+        { 
+            "conv": "",
+            "dict_name": "shiptoname"
+        },
+        { 
+            "conv": "",
+            "dict_name": "customer"
+        },
+    ]
+}
+```
 
 ### Customer Lookup
 
-MRK.CONTROL response JSON format to show additional fields in the POS Customer lookup. Omit or set as empty string to keep the original customer lookup table.
+To add an alternative Custoemr Lookup, your `MRK.CONTROL` response needs to include a property called `pos_customer_lookup`. Omit or set as empty string to keep the original customer lookup table.
 
-```json
+``` json
 {
     "pos_customer_lookup": "CUST*POS.LOOKUP"
 }
 ```
 
+### Inventory Lookup
+
+To enable Inventory Lookups, your `MRK.CONTROL` response needs to include an array called `pos_inv_lookups_items`. This array is optional and you are free to omit if you do not want to add inventory lookups. As this section allows for an array of lookups, the `inv_lookup_desc` property is used to present a user friendly description to select from for display purposes.
+
+``` json
+{
+    "pos_inv_lookups_items": [
+        {
+            "pos_inv_lookups": "INV*LASTPRICE", "inv_lookup_desc": "Last Price Paid",
+            "pos_inv_lookups": "INV*ALLOCATION", "inv_lookup_desc": "Order Allocation"
+        }
+    ]
+}
+```
 
 <PageFooter />
