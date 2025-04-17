@@ -15,6 +15,7 @@ This article describes how to integrate your back end to various Rover POS featu
 - [Lookups](#lookups)
   - [Customer Lookup](#customer-lookup)
   - [Inventory Lookup](#inventory-lookup)
+- [Categories and Filters](#categories-and-filters)
 
 ## Validation Codes
 
@@ -250,5 +251,60 @@ To enable Inventory Lookups, your `MRK.CONTROL` response needs to include an arr
     ]
 }
 ```
+
+## Categories and Filters
+
+You can provide custom categories to your users to select from with the `CAT.CONTROL` API. Each `category` object within can contain an array called `subcategories` containing more categories allowing you to create as many levels of depth as your system requires. An example JSON response is shown below:
+
+``` json
+[
+    {
+        "control_id": "CAT",
+        "category_items": [
+            {
+                "category": "plumbing",
+                "description": "Plumbing",
+                "subcategories": [
+                    {
+                        "category": "plumbing-plumbing-specialties",
+                        "description": "Plumbing Specialties",
+                        "subcategories": [
+                            {
+                                "category": "plumbing-plumbing-specialties-vacuum-breakers",
+                                "description": "Vacuum Breakers"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
+```
+
+Filters present an additional level of power as they allow you to display different dropdown filters at the header of the parts table and those filters can be made dynamic based on the search results you are returning with your _prices_ endpoint response. To do this, make sure your prices response includes a `control_items` array, top level next to your current `price_items` array. An example is shown below:
+
+``` json
+"control_items": [
+        {
+            "control_id": "WEB",
+            "web_category_items": [
+                {
+                    "web_category": "Brand",
+                    "web_category_title": "Brand",
+                    "web_category_description": "Brand"
+                },
+                {
+                    "web_category": "3M",
+                    "parent_category": "Brand",
+                    "web_category_title": "3M",
+                    "web_category_description": "Brand"
+                }
+            ]
+        }
+]
+```
+
+In this example, "Brand" serves as the top level filter and "3M" is an option within. Do not be confused by the use of the term category here even though we're describing filter functionality.
 
 <PageFooter />
