@@ -6,16 +6,20 @@ This article describes how to integrate your back end to various Rover POS featu
 
 ## Table of Contents <!-- omit from toc -->
 
-- [Validation Codes](#validation-codes)
-- [Validation Prompts](#validation-prompts)
-- [Partial Ship Fields](#partial-ship-fields)
-- [Show Orders Tab](#show-orders-tab)
-- [Show Opportunities Tab](#show-opportunities-tab)
-- [Calc Price](#calc-price)
-- [Lookups](#lookups)
-  - [Customer Lookup](#customer-lookup)
-  - [Inventory Lookup](#inventory-lookup)
-- [Categories and Filters](#categories-and-filters)
+- [Rover POS](#rover-pos)
+  - [Validation Codes](#validation-codes)
+  - [Validation Prompts](#validation-prompts)
+  - [Partial Ship Fields](#partial-ship-fields)
+  - [Show Orders Tab](#show-orders-tab)
+  - [Show Quotes Tab](#show-quotes-tab)
+  - [Show Opportunities Tab](#show-opportunities-tab)
+  - [Calc Price](#calc-price)
+  - [Lookups](#lookups)
+    - [Customer Lookup](#customer-lookup)
+    - [Inventory Lookup](#inventory-lookup)
+    - [Order Lookup](#order-lookup)
+    - [Quote Lookup](#quote-lookup)
+  - [Categories and Filters](#categories-and-filters)
 
 ## Validation Codes
 
@@ -99,12 +103,25 @@ MRK.CONTROL response JSON format to show the orders tab in the customers selecti
     "pos_show_orders_tab": "Y"
 }
 ```
+> Requires `SO.E` or `PSO.E`to be defined in the user commands. If [command rights](../security/README.md#command-rights) are enabled, `view` must be set to `true`.
+
+## Show Quotes Tab
+
+MRK.CONTROL response JSON format to enable the quotes tab in both the main tab as well as the customers selection within POS.
+
+```json
+{
+    "show_soquote_tab": "Y"
+}
+```
+
+> Requires `SOQUOTE.E` to be defined in the user commands. If [command rights](../security/README.md#command-rights) are enabled, `view` must be set to `true`.
 
 ## Show Opportunities Tab
 
-MRK.CONTROL response JSON format to show the opportunites tab in the customers selection within POS.
+MRK.CONTROL response JSON format to show the opportunities tab in the customers selection within POS.
 
-> Requires `SOQUOTE.E` to be defined in the user commands.
+> Requires `SALEOPP.E` to be defined in the user commands.
 
  ```json
 {
@@ -229,7 +246,7 @@ Your response should include an array called `data` to contain the data and an a
 
 ### Customer Lookup
 
-To add an alternative Custoemr Lookup, your `MRK.CONTROL` response needs to include a property called `pos_customer_lookup`. Omit or set as empty string to keep the original customer lookup table.
+To add an alternative Customer Lookup, your `MRK.CONTROL` response needs to include a property called `pos_customer_lookup`. Omit or set as empty string to keep the original customer lookup table.
 
 ``` json
 {
@@ -249,6 +266,28 @@ To enable Inventory Lookups, your `MRK.CONTROL` response needs to include an arr
             "pos_inv_lookups": "INV*ALLOCATION", "inv_lookup_desc": "Order Allocation"
         }
     ]
+}
+```
+
+### Order Lookup
+
+To add an alternative Order Lookup, your `MRK.CONTROL` response needs to include a property called `posSearchOrdersLookup` for the search and `posCustomerOrdersLookup` for the customer tab. Omit or set as empty string to keep the original order lookup table.
+
+``` json
+{
+    "posCustomerOrdersLookup": "SO*POS.LOOKUP",
+    "posSearchOrdersLookup": "SO*POS.CUST.LOOKUP"
+}
+```
+
+### Quote Lookup
+
+The lookup for quotes is required to be set in the `MRK.CONTROL` response. Add `pos_soquote_lookup` and `pos_cust_soquote_lookup` to your response to view in POS for both the main and customer tabs.
+
+``` json
+{
+    "pos_soquote_lookup": "SOQUOTE*POS.LOOKUP",
+    "pos_cust_soquote_lookup": "SOQUOTE*POS.CUST.LOOKUP"
 }
 ```
 
