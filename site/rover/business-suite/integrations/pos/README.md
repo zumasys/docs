@@ -6,20 +6,19 @@ This article describes how to integrate your back end to various Rover POS featu
 
 ## Table of Contents <!-- omit from toc -->
 
-- [Rover POS](#rover-pos)
-  - [Validation Codes](#validation-codes)
-  - [Validation Prompts](#validation-prompts)
-  - [Partial Ship Fields](#partial-ship-fields)
-  - [Show Orders Tab](#show-orders-tab)
-  - [Show Quotes Tab](#show-quotes-tab)
-  - [Show Opportunities Tab](#show-opportunities-tab)
-  - [Calc Price](#calc-price)
-  - [Lookups](#lookups)
-    - [Customer Lookup](#customer-lookup)
-    - [Inventory Lookup](#inventory-lookup)
-    - [Order Lookup](#order-lookup)
-    - [Quote Lookup](#quote-lookup)
-  - [Categories and Filters](#categories-and-filters)
+- [Validation Codes](#validation-codes)
+- [Validation Prompts](#validation-prompts)
+- [Partial Ship Fields](#partial-ship-fields)
+- [Show Orders Tab](#show-orders-tab)
+- [Show Quotes Tab](#show-quotes-tab)
+- [Show Opportunities Tab](#show-opportunities-tab)
+- [Calc Price](#calc-price)
+- [Lookups](#lookups)
+  - [Customer Lookup](#customer-lookup)
+  - [Inventory Lookup](#inventory-lookup)
+  - [Order Lookup](#order-lookup)
+  - [Quote Lookup](#quote-lookup)
+- [Categories and Filters](#categories-and-filters)
 
 ## Validation Codes
 
