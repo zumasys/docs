@@ -6,19 +6,20 @@ This article describes how to integrate your back end to various Rover POS featu
 
 ## Table of Contents <!-- omit from toc -->
 
-- [Validation Codes](#validation-codes)
-- [Validation Prompts](#validation-prompts)
-- [Partial Ship Fields](#partial-ship-fields)
-- [Show Orders Tab](#show-orders-tab)
-- [Show Quotes Tab](#show-quotes-tab)
-- [Show Opportunities Tab](#show-opportunities-tab)
-- [Calc Price](#calc-price)
-- [Lookups](#lookups)
-  - [Customer Lookup](#customer-lookup)
-  - [Inventory Lookup](#inventory-lookup)
-  - [Order Lookup](#order-lookup)
-  - [Quote Lookup](#quote-lookup)
-- [Categories and Filters](#categories-and-filters)
+- [Rover POS](#rover-pos)
+  - [Validation Codes](#validation-codes)
+  - [Validation Prompts](#validation-prompts)
+  - [Partial Ship Fields](#partial-ship-fields)
+  - [Show Orders Tab](#show-orders-tab)
+  - [Show Quotes Tab](#show-quotes-tab)
+  - [Show Opportunities Tab](#show-opportunities-tab)
+  - [Calc Price](#calc-price)
+  - [Lookups](#lookups)
+    - [Customer Lookup](#customer-lookup)
+    - [Inventory Lookup](#inventory-lookup)
+    - [Order Lookup](#order-lookup)
+    - [Quote Lookup](#quote-lookup)
+  - [Categories and Filters](#categories-and-filters)
 
 ## Validation Codes
 
@@ -270,12 +271,12 @@ To enable Inventory Lookups, your `MRK.CONTROL` response needs to include an arr
 
 ### Order Lookup
 
-To add an alternative Order Lookup, your `MRK.CONTROL` response needs to include a property called `posSearchOrdersLookup` for the search and `posCustomerOrdersLookup` for the customer tab. Omit or set as empty string to keep the original order lookup table.
+To add an alternative Order Lookup, your `MRK.CONTROL` response needs to include a property called `pos_search_orders_lookup` for the search and `pos_customer_orders_lookup` for the customer tab. Omit or set as empty string to keep the original order lookup table.
 
 ``` json
 {
-    "posCustomerOrdersLookup": "SO*POS.LOOKUP",
-    "posSearchOrdersLookup": "SO*POS.CUST.LOOKUP"
+    "pos_search_orders_lookup": "SO*POS.LOOKUP",
+    "pos_customer_orders_lookup": "SO*POS.CUST.LOOKUP"
 }
 ```
 
