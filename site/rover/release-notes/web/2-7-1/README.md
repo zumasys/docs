@@ -12,3 +12,4 @@ These are the release notes for version 2.7.1 (3/25/2025) of the Rover Web appli
   - **Point of Sale**
     - Addressed an issue with cached price fetch for offline data.
 
+<PageFooter />
