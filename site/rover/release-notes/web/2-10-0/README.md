@@ -16,5 +16,8 @@ These are the release notes for version 2.10.0 (TBD) of the Rover Web applicatio
     - ![Selection Dialog](./quote-dialog-buttons.gif)
     - Parts now support relationships to group and/or required parts to be added to a quote.
     - ![Parts Relationships](./quote-part-relationship.gif)
-  
+  - **Inventory**
+    - Related parts section has been add to the part detail page. You can now group, require selection, track relationship, default the quantity for each part.
+    - ![Related Parts](./related-parts.gif)
+
 <PageFooter />
