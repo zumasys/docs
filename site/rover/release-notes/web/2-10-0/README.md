@@ -23,6 +23,8 @@ These are the release notes for version 2.10.0 (TBD) of the Rover Web applicatio
   - Related Parts section has been add to the part detail page.  A hierarchy of part relationships can be defined which are then visible in the part detail display in Quote creation in Point of Sale.  Parts can be defined to have other related parts required for purchase, or for selection of related parts to be required.  For example, selection of one or more required accessories when a specific parent part is selected.
   ![Related Parts](./related-parts.gif)
 
+  Additional documentation for Related Parts functionality is available - [Here](../../../../rover/business-suite/inventory/related-parts/README.md)
+
 #### Production Scheduling
 
   - Additional workorder fields are now available for view/edit via the main Workorders tab in Production Scheduling.
