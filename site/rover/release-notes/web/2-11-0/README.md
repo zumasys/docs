@@ -1,4 +1,4 @@
-# Rover Web v2.11.0 Release Notes
+# Rover Web v2.11.0 Draft Release Notes
 
 <badge text= "Version 2.11.0" vertical="middle" />
 
@@ -32,5 +32,7 @@ These are the release notes for version 2.11.0 (TBD) of the Rover Web applicatio
 
 #### Point of Sale
 
+  - Addressed an issue with lazy loading of part search results in point of sale. 
+  - Addressed an issue with duplicate fetch of order list, when enabled, after customer selection.
 
 <PageFooter />
