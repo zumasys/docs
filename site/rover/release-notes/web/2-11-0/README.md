@@ -4,7 +4,7 @@
 
 <PageHeader />
 
-These are the release notes for version 2.11.0 (TBD) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v2.11.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v2.11.0) today!
+These are the release notes for version 2.11.0 (5/15/2025) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v2.11.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v2.11.0) today!
 
 ## New Features
 
@@ -32,7 +32,9 @@ These are the release notes for version 2.11.0 (TBD) of the Rover Web applicatio
 
 #### Point of Sale
 
-  - Addressed an issue with lazy loading of part search results in point of sale. 
+  - Addressed an issue with lazy loading of part search results in point of sale.
   - Addressed an issue with duplicate fetch of order list, when enabled, after customer selection.
+  - Addressed an issue with incorrect success message when creating an order. Message now correctly states the order was created rather than a quote..
+  - Addressed an issue with scanning parts causing duplicate validation requests.
 
 <PageFooter />
