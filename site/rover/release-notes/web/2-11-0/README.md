@@ -34,7 +34,7 @@ These are the release notes for version 2.11.0 (5/15/2025) of the Rover Web appl
 
   - Addressed an issue with lazy loading of part search results in point of sale.
   - Addressed an issue with duplicate fetch of order list, when enabled, after customer selection.
-  - Addressed an issue with incorrect success message when creating an order. Message now correctly states the order was created rather than a quote..
+  - Addressed an issue with incorrect success message when creating an order. Message now correctly states the order was created rather than a quote.
   - Addressed an issue with scanning parts causing duplicate validation requests.
 
 <PageFooter />
