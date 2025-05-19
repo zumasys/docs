@@ -56,7 +56,7 @@ field.
   
 **Index** To obtain better performance on certain reports and lookups you can
 enable an index for a field. Check this box if you want an index created for
-the associated field. Mainting indexes involves some amount of overhead for
+the associated field. Maintaining indexes involves some amount of overhead for
 the system, so be selective in choosing which fields are to be indexed.  
   
 **SQL** Check this box if the associated field is to be included when an SQL

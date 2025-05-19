@@ -46,7 +46,7 @@ the default of "A" is used.
 the operator chosen. For example, if you specify that a field must be equal to
 a value, then only items equal to that value will be included in the lookup.  
   
-**Compare Oper** Enter the operator to be used in the comparison. Options are:  
+**Compare Operation** Enter the operator to be used in the comparison. Options are:  
 EQ - Equal To  
 GT - Greater Than  
 LT - Less Than  
