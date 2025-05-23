@@ -7,13 +7,13 @@ This endpoint is used to refund an amount that was previously authorized through
 | Attribute | Description                                                                               | Required           |
 | --------- | ----------------------------------------------------------------------------------------- | ------------------ |
 | atoken    | Authorization token to allow access to the service                                        | :heavy_check_mark: |
-| entity    | This tells the api what databse to use for your transactions                              | :heavy_check_mark: |
-| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/loction | :heavy_check_mark: |
-| reg       | this identifies the POS station, user, termial or process requesting transaction          | :heavy_check_mark: |
+| entity    | This tells the api what database to use for your transactions                              | :heavy_check_mark: |
+| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/location | :heavy_check_mark: |
+| reg       | this identifies the POS station, user, terminal or process requesting transaction          | :heavy_check_mark: |
 | date      | Date of the request made to Rover Pay                                                     |
 | tran      | This is the sequential number for the REG requesting the transaction                      |
 | invoice   | Invoice must be unique per card request in order to request Inquiry from `blinquire`      |
-| ctoken    | This is the token recieved from `BLTOKENIZE`                                              | :heavy_check_mark: |
+| ctoken    | This is the token received from `BLTOKENIZE`                                              | :heavy_check_mark: |
 | expiry    | Credit card expiration date                                                               | :heavy_check_mark: |
 | amount    | Amount to be refunded from the previous authorized amount                                 | :heavy_check_mark: |
 | reqid     | This is the resultID from the transaction                                                 | :heavy_check_mark: |
@@ -45,7 +45,7 @@ This endpoint is used to refund an amount that was previously authorized through
 | verified   | 1 if success 0 if failure                                     |
 | errorCode  | Error Code                                                    |
 | errMessage | Error Message                                                 |
-| resultId   | If error ocurred will be empty, otherwise will hold the reqID |
+| resultId   | If error occurred will be empty, otherwise will hold the reqID |
 | ccvRec     | Base 64 Encoded String which holds the Token                  |
 
 ```Javascript
