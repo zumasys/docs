@@ -8,13 +8,13 @@ This endpoint finalizes a transaction on an authorized form of payment.
 | Attribute | Description                                                                               | Required           |
 | --------- | ----------------------------------------------------------------------------------------- | ------------------ |
 | atoken    | Authorization token to allow access to the service                                        | :heavy_check_mark: |
-| entity    | This tells the api what databse to use for your transactions                              | :heavy_check_mark: |
-| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/loction | :heavy_check_mark: |
-| reg       | this identifies the POS station, user, termial or process requesting transaction          | :heavy_check_mark: |
+| entity    | This tells the api what database to use for your transactions                              | :heavy_check_mark: |
+| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/location | :heavy_check_mark: |
+| reg       | this identifies the POS station, user, terminal or process requesting transaction          | :heavy_check_mark: |
 | date      | Date of the request made to Rover Pay                                                     |
 | tran      | This is the sequential number for the REG requesting the transaction                      |
 | invoice   | Invoice must be unique per card request in order to request Inquiry from blinquire        |
-| ctoken    | This is the token recieved from BLTOKENIZE                                                | :heavy_check_mark: |
+| ctoken    | This is the token received from BLTOKENIZE                                                | :heavy_check_mark: |
 | expiry    | Credit Card expiration date                                                               | :heavy_check_mark: |
 | amount    | Amount to be credited back to the credit card                                             |
 | reqid     | This is the resultID from the transaction                                                 | :heavy_check_mark: |
@@ -43,7 +43,7 @@ This endpoint finalizes a transaction on an authorized form of payment.
 
 | Attribute  | Description                                                    |
 | ---------- | -------------------------------------------------------------- |
-| verified   | Flag will be set to 1 if call was succesfull or 0 if it failed |
+| verified   | Flag will be set to 1 if call was successful or 0 if it failed |
 | errorCode  | Error Code                                                     |
 | errMessage | Error Message                                                  |
 | resultId   | Result ID that can be used as the reqIid                       |

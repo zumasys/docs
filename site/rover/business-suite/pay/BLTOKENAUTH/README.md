@@ -8,13 +8,13 @@ This endpoint authorizes a tokenized form of payment for a specified amount.
 | Attribute | Description                                                                                                                                                           | Required           |
 | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
 | atoken    | Authorization token to allow access to the service                                                                                                                    | :heavy_check_mark: |
-| entity    | This tells the api what databse to use for your transactions                                                                                                          | :heavy_check_mark: |
-| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/loction                                                                             | :heavy_check_mark: |
-| reg       | this identifies the POS station, user, termial or process requesting transaction                                                                                      | :heavy_check_mark: |
+| entity    | This tells the api what database to use for your transactions                                                                                                          | :heavy_check_mark: |
+| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/location                                                                             | :heavy_check_mark: |
+| reg       | this identifies the POS station, user, terminal or process requesting transaction                                                                                      | :heavy_check_mark: |
 | date      | Date of the request made to Rover Pay                                                                                                                                 |
 | tran      | This is the sequential number for the REG requesting the transaction                                                                                                  |
 | invoice   | Invoice must be unique per card request in order to request Inquiry from blinquire                                                                                    |
-| ctoken    | This is the token recieved from BLTOKENIZE                                                                                                                            | :heavy_check_mark: |
+| ctoken    | This is the token received from BLTOKENIZE                                                                                                                            | :heavy_check_mark: |
 | amount    | Amount to be authorized with two implied decimal places (example: to specify "$10.00," use "1000")                                                                    | :heavy_check_mark: |
 | manual    | If flag is set to 0 then it requests an MSR (magnetic stripe), EMV (chip), or NFC (contactless) payment card interaction, else  it will request manually-entered data |
 | debug     | If flag is set then error messages will be more verbose                                                                                                               |
@@ -41,7 +41,7 @@ This endpoint authorizes a tokenized form of payment for a specified amount.
 
 | Attribute  | Description                                                    |
 | ---------- | -------------------------------------------------------------- |
-| verified   | Flag will be set to 1 if call was succesfull or 0 if it failed |
+| verified   | Flag will be set to 1 if call was successful or 0 if it failed |
 | errorCode  | Error Code                                                     |
 | errMessage | Error Message                                                  |
 | resultId   | Result ID that can be used as the reqID field                  |

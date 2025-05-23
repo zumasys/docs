@@ -7,11 +7,11 @@
 
 **Purpose**  
 WO.P7 is used to transfer all labor records from one work order to another.
-Both work orders must be open. The labor hours and dollars will be transfered
+Both work orders must be open. The labor hours and dollars will be transferred
 and the labor record will be updated to reference the "to" work order number.  
   
 The output from this procedure will display the labor ID and a message that
-indicates the labor was successfully transfered.
+indicates the labor was successfully transferred.
 
 **Frequency of Use**  
 As required.

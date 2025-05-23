@@ -24,15 +24,15 @@ into this field for you but can be changed as required. If the post date falls
 into a closed fiscal period, you will need to change this date to one that
 falls within an open fiscal period before the record can be deleted.  
   
-**Amount** Enter the amount of the cash being transfered.  
+**Amount** Enter the amount of the cash being transferred.
   
 **From Cash Account** Enter the cash account number from which the amount will
-be transfered.  
+be transferred.
   
 **Cash.Account** Enter the cash account number into which the amount is to be
-transfered.  
+transferred.
   
-**Accounts** Enter the clearing account number which will be used to offset the cash accounts when this record is filed. This will be defaulted from teh [ AR.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) screen if it has been entered there.   
+**Accounts** Enter the clearing account number which will be used to offset the cash accounts when this record is filed. This will be defaulted from the [ AR.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) screen if it has been entered there.
   
 **Notes** Enter any notes desired.  
   

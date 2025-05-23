@@ -8,9 +8,9 @@ This endpoint Credits an authorized form of payment with the specified amount in
 | Attribute | Description                                                                                                                                                           | Required           |
 | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
 | atoken    | Authorization token to allow access to the service                                                                                                                    | :heavy_check_mark: |
-| entity    | This tells the api what databse to use for your transactions                                                                                                          | :heavy_check_mark: |
-| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/loction                                                                             | :heavy_check_mark: |
-| reg       | this identifies the POS station, user, termial or process requesting transaction                                                                                      | :heavy_check_mark: |
+| entity    | This tells the api what database to use for your transactions                                                                                                          | :heavy_check_mark: |
+| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/location                                                                             | :heavy_check_mark: |
+| reg       | this identifies the POS station, user, terminal or process requesting transaction                                                                                      | :heavy_check_mark: |
 | date      | Date of the request made to Rover Pay                                                                                                                                 |
 | tran      | This is the sequential number for the REG requesting the transaction                                                                                                  |
 | invoice   | Invoice must be unique per card request in order to request Inquiry from `/blinquire`                                                                                 |
@@ -42,7 +42,7 @@ This endpoint Credits an authorized form of payment with the specified amount in
 | verified   | 1 if success 0 if failure                                                          |
 | errorCode  | Error Code                                                                         |
 | errMessage | Error Message                                                                      |
-| resultId   | If error ocurred will be empty, otherwise will hold the reqID that can be used for |
+| resultId   | If error occurred will be empty, otherwise will hold the reqID that can be used for |
 | ccvRec     | Base 64 Encoded String which holds the Token                                       |
 
 ```Javascript

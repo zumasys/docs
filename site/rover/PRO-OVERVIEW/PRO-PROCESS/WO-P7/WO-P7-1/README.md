@@ -41,7 +41,7 @@ bar or pressing the F9 key or Ctrl+S.
 removed.  
   
 **To WO** Enter the work order number to which the labor records will be
-transfered.  
+transferred.
   
 **From Assembly** The assembly part number of the From work order.  
   
