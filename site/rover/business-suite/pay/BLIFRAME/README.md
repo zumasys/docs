@@ -10,11 +10,11 @@ Store information should be placed in the query parameters as shown below
 
 | Attribute | Description                                                                                                   |
 | --------- | ------------------------------------------------------------------------------------------------------------- |
-| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/loction                     |
-| reg       | this identifies the POS station, user, termial or process requesting                                          |
+| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/location                     |
+| reg       | this identifies the POS station, user, terminal or process requesting                                          |
 | date      | Date of the request made to Rover Pay                                                                         |
-| tran      | If error ocurred will be empty, otherwise will hold the reqID that can be used for the BLTOKENREFUND endpoint |
-| entity    | This tells the api what databse to use for your transactions                                                  |
+| tran      | If error occurred will be empty, otherwise will hold the reqID that can be used for the BLTOKENREFUND endpoint |
+| entity    | This tells the api what database to use for your transactions                                                  |
 | addr      | address                                                                                                       |
 | zip       | zip code                                                                                                      |
 

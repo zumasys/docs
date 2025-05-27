@@ -20,7 +20,7 @@ This is a [VuePress](https://vuepress.vuejs.org/) documentation application that
 │   │   │   ├── layouts
 │   │   │   └── index.js
 │   │   ├── config.js
-│   │   ├── enchaneApp.js
+│   │   ├── enhanceApp.js
 │   ├── accuterm (AccuTerm documentation lives here)
 │   ├── customer-portal (Customer Portal documentation lives here)
 │   ├── jbase (jBASE documentation lives here)
@@ -118,7 +118,7 @@ To run the application locally:
 - [x] Add [reading progress](https://github.com/tolking/vuepress-plugin-reading-progress) plugin (to show reading progress of a document)
 - [x] Add [TypeScript](https://vuepress.github.io/en/plugins/typescript/#installation) plugin (to allow use of TypeScript in VuePress `.vue` files)
 - [x] Add [SEO](https://github.com/lorisleiva/vuepress-plugin-seo) plugin (for automatic SEO meta tag generation)
-- [x] Add [reading time](https://github.com/darrenjennings/vuepress-plugin-reading-time) plugin (to show etsimated reading time for an article)
+- [x] Add [reading time](https://github.com/darrenjennings/vuepress-plugin-reading-time) plugin (to show estimated reading time for an article)
 - [x] Add [social share](https://github.com/ntnyq/vuepress-plugin-social-share) plugin (to activate social network share icons)
 - [x] Add [code copy](https://github.com/znicholasbrown/vuepress-plugin-code-copy) plugin (to allow for click-to-copy of source code)
 - [ ] ~~Add redirects from old HelpJuice docs to point to new docs (to preserve SEO and avoid link rot)~~

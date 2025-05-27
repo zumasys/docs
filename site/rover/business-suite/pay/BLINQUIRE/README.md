@@ -8,9 +8,9 @@ This endpoint provides information on a given transaction through the provided i
 | Attribute | Description                                                                               | Required           |
 | --------- | ----------------------------------------------------------------------------------------- | ------------------ |
 | atoken    | Authorization token to allow access to the service                                        | :heavy_check_mark: |
-| entity    | This tells the api what databse to use for your transactions                              | :heavy_check_mark: |
-| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/loction | :heavy_check_mark: |
-| reg       | this identifies the POS station, user, termial or process requesting transaction          | :heavy_check_mark: |
+| entity    | This tells the api what database to use for your transactions                              | :heavy_check_mark: |
+| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/location | :heavy_check_mark: |
+| reg       | this identifies the POS station, user, terminal or process requesting transaction          | :heavy_check_mark: |
 | date      | Date of the request made to Rover Pay                                                     |
 | tran      | This is the sequential number for the REG requesting the transaction                      |
 | invoice   | Invoice must be unique per card request in order to request Inquiry from `/blinquire`     | :heavy_check_mark: |
@@ -35,7 +35,7 @@ This endpoint provides information on a given transaction through the provided i
 
 | Attribute  | Description                                                     |
 | ---------- | --------------------------------------------------------------- |
-| verified   | Flag will be set to 1 if call was successfull or 0 if it failed |
+| verified   | Flag will be set to 1 if call was successful or 0 if it failed |
 | errorCode  | Error Code                                                      |
 | errMessage | Error Message                                                   |
 | resultId   | This is the reqid of the transaction                            |

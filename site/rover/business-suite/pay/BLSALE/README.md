@@ -40,13 +40,13 @@ The BLSALE endpoint authorizes the form of payment and captures the payment. See
 
 | Attribute  | Description                                                                                                   |
 | ---------- | ------------------------------------------------------------------------------------------------------------- |
-| verified   | Flag will be set to 1 if call was succesfull or 0 if it failed                                                |
+| verified   | Flag will be set to 1 if call was successful or 0 if it failed                                                |
 | errorCode  | Error Code                                                                                                    |
 | errMessage | Error Message                                                                                                 |
-| resultId   | If error ocurred will be empty, otherwise will hold the reqID that can be used for the BLTOKENREFUND endpoint |
+| resultId   | If error occurred will be empty, otherwise will hold the reqID that can be used for the BLTOKENREFUND endpoint |
 | ccvRec     | Base 64 Encoded String which holds the Token                                                                  |
 | token      | Token that is represented as a 16 character string                                                            |
-| expiry     | Expiration date for card used formated as MMYY                                                                |
+| expiry     | Expiration date for card used formatted as MMYY                                                                |
 | signature  | Base 64 encode GZIPPED BMP FILE                                                                               |
 
 ```Javascript
