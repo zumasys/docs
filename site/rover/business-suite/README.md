@@ -22,6 +22,8 @@ Rover Hub is a web based interface you can use to allow your users to perform th
 
 [Rover Inventory](inventory/README.md)
 
+[Rover Sales](sales/README.md)
+
 [Rover Web Settings](settings/README.md)
 
 ![Rover BI Logo](/assets/img/rover-hub.png)
