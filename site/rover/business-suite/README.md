@@ -16,6 +16,8 @@ Rover Hub is a web based interface you can use to allow your users to perform th
 
 [Rover Pay](pay/README.md)
 
+[Rover Accounting](accounting/README.md)
+
 [Rover POS](pos/README.md)
 
 [Rover Scan](scan/README.md)
