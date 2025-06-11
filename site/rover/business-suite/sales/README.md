@@ -57,6 +57,7 @@ The Customers workspace in Rover ERP serves as the central command center for ma
 - View every quote created for the customer.
 - Track quote status (open, sent, accepted, lost) and link to related opportunities.
 - Generate new quotes or duplicate past ones from this tab.
+- [Quotes & Orders](quotes-orders/README.md)
 
 ##### Orders
 - Access full sales order history for the customer.
@@ -78,4 +79,3 @@ The Customers workspace in Rover ERP serves as the central command center for ma
 - **API & Extensibility:** All tabs and data are available via API for integrations with other systems or custom reporting.
 
 <PageFooter />
-
