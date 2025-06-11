@@ -16,13 +16,13 @@ These are the release notes for version 2.12.0 (TBD) of the Rover Web applicatio
 
 #### Tickets & Time
 - Tickets interface has been updated with "Recently Viewed" Tab.
-![Tickets Recently Viewed](./tickets-recently)
+![Tickets Recently Viewed](./tickets-recently.png)
 - Tickets are opened into tabs, multiple tickets can be opened for viewing.
-![Tickets Multiple](./tickets-multiple-tabs")
+![Tickets Multiple](./tickets-multiple-tabs.png)
 - Ticket create/edit view has been improved, additional fields added.  
 - Billing records associated with Tickets now support attachments.
-![Billing Attachments](./tickets-billing-attachments.png"")
-![Billing Details](./tickets-billing-detail.png"")
+![Billing Attachments](./tickets-billing-attachments.png)
+![Billing Details](./tickets-billing-detail.png)
 
 #### Production Scheduling
 
