@@ -20,7 +20,11 @@ Rover Hub is a web based interface you can use to allow your users to perform th
 
 [Rover Scan](scan/README.md)
 
+[Rover Field Services](field-services/README.md)
+
 [Rover Inventory](inventory/README.md)
+
+[Rover Sales](sales/README.md)
 
 [Rover Web Settings](settings/README.md)
 
