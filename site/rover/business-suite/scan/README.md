@@ -1,4 +1,4 @@
-# Rover Scan Overview
+# Rover Scan
 
 <PageHeader />
 
