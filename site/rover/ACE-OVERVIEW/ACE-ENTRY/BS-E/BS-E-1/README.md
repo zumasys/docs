@@ -72,7 +72,7 @@ dates each time the service processes the batch queues specified. This field
 is typically set to either Saturday or Sunday.  
   
 **Previous Day** Individual jobs included in the batch queues may have date
-parameters that need to be defined when the job is run. To aviod having to
+parameters that need to be defined when the job is run. To avoid having to
 reset these dates manually each day the jobs can use one of the following
 pseudo names in place of an actual date: @SD (today's date), @WSD (week start
 date), @WED (week end date), @MSD (month start date), @MED (month end date).

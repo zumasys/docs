@@ -14,7 +14,7 @@ has been installed, there may be restrictions on the client versions that can
 be, or should be, used to access the host. This forma allows you to specify
 the applicable version methods that may present problems and provide feedback
 to the user about what actions should be taken. You also have the option of
-dissallowing access in certain cases.
+disallowing access in certain cases.
 
 **Frequency of Use**  
 As required, but usually when installing a new version of the ACE host
