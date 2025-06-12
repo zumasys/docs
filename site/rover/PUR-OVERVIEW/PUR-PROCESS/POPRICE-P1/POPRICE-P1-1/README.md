@@ -51,7 +51,7 @@ the percentage with a minus sign (e.g. -10.00) to reduce the price by 10%.
 If nothing is entered, 4 decimals will default.  
   
 **Update Prices** Do not check this box if you wish to do trial run, with no
-updates occuring. Check the box when you are ready to update the prices. A
+updates occurring. Check the box when you are ready to update the prices. A
 report will be printed in either case.  
   
 **Category** If you wish to restrict the price updates to a category of parts,

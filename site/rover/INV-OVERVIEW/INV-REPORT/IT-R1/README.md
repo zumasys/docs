@@ -8,7 +8,7 @@
 **Purpose**  
 The IT.R1 procedure is used to create an inventory transaction listing for a
 specified date range. The records included in the report are sorted by
-transaction date and part number with page breaks occuring on changes in the
+transaction date and part number with page breaks occurring on changes in the
 transaction date.
 
 **Frequency of Use**  
