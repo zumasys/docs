@@ -42,9 +42,6 @@ module.exports = {
       backgroundColor: "#eb6b3b",
       staticIcon: true
     },
-    '@vuepress/google-analytics': {
-      'ga': 'UA-115027826-9' // UA-00000000-0
-    },
     'sitemap': {
       hostname: 'https://docs.zumasys.com'
     }

@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/zumasys/docs#readme",
   "dependencies": {
-    "@vuepress/plugin-google-analytics": "^1.5.4",
     "dotenv": "^16.0.3",
     "vuepress": "^1.5.4",
     "vuepress-bar": "^0.4.4",
