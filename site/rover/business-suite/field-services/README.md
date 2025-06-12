@@ -4,6 +4,15 @@
 
 Rover Field Services is a browser-based module that manages service work performed in the field. Technicians, dispatchers, and managers can create work orders, capture details, and link service events directly to equipment and customers.
 
+## Recent Enhancements
+
+- **Multi-Tab Ticket Interface** – open several service orders at once and switch between them easily.
+- **Quick Search and Contact Enhancements** – global search finds tickets or contacts by number, name or phone.
+- **Status Management and Kanban Board** – drag tickets between statuses and the system saves the change automatically.
+- **Attach Photos and Signatures** – add images or customer signatures directly to time entries or completion reports.
+- **Email or PDF Output** – after saving a ticket you can immediately email or download a service report.
+- **Mobile Access for Technicians** – the responsive interface works on tablets and phones for field updates.
+
 ## Key Features & Capabilities
 
 ### Work Order Management

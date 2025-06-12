@@ -9,16 +9,18 @@ Rover Business Suite is a web based interface you can use to allow your users to
 ## Modules
 
 - [Rover Accounting](accounting/README.md)
+- [Rover AI Assistant](ai-assistant/README.md)
 - [Rover BI](bi/README.md)
 - [Rover Field Services](field-services/README.md)
 - [Rover Gateway](gateway/README.md)
 - [Rover Inventory](inventory/README.md)
+- [Rover Marketplace](marketplace/README.md)
 - [Rover Pay](pay/README.md)
 - [Rover Production](production/README.md)
 - [Rover POS](pos/README.md)
 - [Rover Sales](sales/README.md)
 - [Rover Scan](scan/README.md)
-<!-- [Rover Marketplace](marketplace/README.md) -->
+- [Rover Tickets & Time](tickets-time/README.md)
 
 ## General Information
 

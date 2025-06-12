@@ -4,6 +4,15 @@
 
 The Production workspace in Rover ERP empowers users to manage and schedule all manufacturing activities with precision. Using a single, browser-based interface, users can plan, adjust, and monitor every production detail—from work order scheduling to status tracking, resource allocation, and shop floor execution.
 
+## Recent Enhancements
+
+- **Visual Production Schedule** – configurable Gantt chart with color-coded sub‑statuses and custom bar colors.
+- **Drag-and-Drop Scheduling Improvements** – auto-scroll when dragging and enforcement of sequencing and capacity rules.
+- **Production Issue Codes** – flag jobs with issues like machine breakdowns and view icons directly on the schedule.
+- **Work Order Management** – sub-status fields and permission-based editing of main work order list.
+- **Live Validations and Feedback** – warnings if capacity is exceeded or operations are scheduled out of sequence.
+- **User Permissions and View-Only Mode** – allow inquiry-only users to see the schedule without making changes.
+
 ## Key Sections & Tabs
 
 1. **General Production Information**

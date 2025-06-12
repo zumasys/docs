@@ -4,6 +4,15 @@
 
 The Rover ERP Accounting Module is a browser-based financial management system designed for modern, distributed businesses. It offers real-time visibility into your general ledger, accounts payable and accounts receivable so you can maintain accurate financial reporting and compliance across the enterprise.
 
+## Recent Enhancements
+
+- **Automated Credit Hold Release** – orders placed on hold automatically release once overdue invoices are paid or credit is approved.
+- **Enhanced AR Visibility** – new inquiry screens and reports show which customers are on credit hold with aging summaries at a glance.
+- **Financial Dashboard Integration** – KPI widgets display DSO, DPO and orders on credit hold with drill‑down capability.
+- **Recurring Entries Automation** – set up recurring AP or AR entries that generate on schedule.
+- **Real‑Time Interface to GL** – transactions post immediately to the general ledger for timely reporting.
+- **Ease of Use Enhancements** – streamlined email dialogs and running totals in cash receipt entry improve daily workflows.
+
 ## Key Features & Functionalities
 
 ### Accounting Dashboard
