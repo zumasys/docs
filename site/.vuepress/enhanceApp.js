@@ -8,15 +8,15 @@ export default ({
     // Google Tag Manager integration
     //www.analyticsmania.com/post/single-page-web-app-with-google-tag-manager/#developers-help
     if (process.env.NODE_ENV === 'production' && process.env.VUE_APP_GOOGLE_TAG_MANAGER && typeof window !== 'undefined') {
-        (function(w,d,s,l,i)    {
+        (function (w, d, s, l, i) {
             w[l] = w[l] || [];
-            w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
+            w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
             var f = d.getElementsByTagName(s)[0];
             var j = d.createElement(s);
-            var dl = l !='dataLayer' ? '&l='+ l : '';
+            var dl = l != 'dataLayer' ? '&l=' + l : '';
             j.async = true;
-            j.src = 'https://www.googletagmanager.com/gtm.js?id='+ i + dl;
-            f.parentNode.insertBefore(j,f);
+            j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
         })(window, document, 'script', 'dataLayer', process.env.VUE_APP_GOOGLE_TAG_MANAGER);
 
         router.afterEach(function (to) {
@@ -73,8 +73,8 @@ export default ({
         };
 
         router.afterEach(() => {
-            setTimeout(insertToggle, 0);
+            setTimeout(insertToggle, 200);
         });
-        setTimeout(insertToggle, 0);
+        setTimeout(insertToggle, 200);
     }
 }
