@@ -1,40 +1,14 @@
-import { defineUserConfig, defaultTheme } from 'vuepress'
-import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
-import nprogress from 'vuepress-plugin-nprogress'
-import readingProgress from 'vuepress-plugin-reading-progress'
-import readingTime from 'vuepress-plugin-reading-time'
-import codeCopy from 'vuepress-plugin-code-copy'
-import typescriptPlugin from 'vuepress-plugin-typescript'
-import { sitemapPlugin } from 'vuepress-plugin-sitemap'
-import dotenv from 'dotenv'
+import { viteBundler } from '@vuepress/bundler-vite'
+import { defaultTheme } from '@vuepress/theme-default'
+import { defineUserConfig } from 'vuepress'
 
-dotenv.config()
 
 export default defineUserConfig({
+  bundler: viteBundler(),
   head: [['link', { rel: 'icon', href: '/assets/img/favicon.ico' }]],
   title: 'Product Documentation',
   description: 'Your home for Rover Business Suite product support and documentation.',
-  markdown: {
-    code: { lineNumbers: true }
-  },
   define: { 'process.env': process.env },
-  plugins: [
-    typescriptPlugin(),
-    nprogress(),
-    readingProgress({
-      readingDir: ['rover']
-    }),
-    readingTime(),
-    codeCopy({
-      selector: 'pre[class*="language-"] code',
-      align: 'top',
-      color: '#eb6b3b',
-      backgroundColor: '#eb6b3b',
-      staticIcon: true
-    }),
-    googleAnalyticsPlugin({ id: 'UA-115027826-9' }),
-    sitemapPlugin({ hostname: 'https://docs.zumasys.com' })
-  ],
   theme: defaultTheme({
     logo: "/assets/img/logo-grey.png",
     nav: [
@@ -43,13 +17,13 @@ export default defineUserConfig({
     sidebar: [
       "/",
       {
-        title: "Rover ERP",
-        path: "/rover/",
+        text: "Rover ERP",
+        link: "/rover/",
         collapsible: true,
         children: [
           {
-            title: "Administration",
-            path: "/rover/administration/",
+            text: "Administration",
+            link: "/rover/administration/",
             collapsible: true,
             children: [
               ["/rover/administration/", "Administration"],
@@ -58,8 +32,8 @@ export default defineUserConfig({
             ]
           },
           {
-            title: "ACE Utilities",
-            path: "/rover/ACE-OVERVIEW/",
+            text: "ACE Utilities",
+            link: "/rover/ACE-OVERVIEW/",
             collapsible: true,
             children: [
               ["/rover/ACE-OVERVIEW/ACE-ENTRY/", "ACE Entry"],
@@ -67,8 +41,8 @@ export default defineUserConfig({
               ["/rover/ACE-OVERVIEW/ACE-REPORT/", "ACE Report"]]
           },
           {
-            title: "Accounts Payable",
-            path: "/rover/AP-OVERVIEW/",
+            text: "Accounts Payable",
+            link: "/rover/AP-OVERVIEW/",
             collapsible: true,
             children: [
               ["/rover/AP-OVERVIEW/AP-ENTRY/", "AP Entry"],
@@ -76,8 +50,8 @@ export default defineUserConfig({
               ["/rover/AP-OVERVIEW/AP-REPORT/", "AP Report"]]
           },
           {
-            title: "Accounts Receivable",
-            path: "/rover/AR-OVERVIEW/",
+            text: "Accounts Receivable",
+            link: "/rover/AR-OVERVIEW/",
             collapsible: true,
             children: [
               ["/rover/AR-OVERVIEW/AR-ENTRY/", "AR Entry"],
@@ -85,8 +59,8 @@ export default defineUserConfig({
               ["/rover/AR-OVERVIEW/AR-REPORT/", "AR Report"]]
           },
           {
-            title: "Document Control",
-            path: "/rover/DOC-OVERVIEW/",
+            text: "Document Control",
+            link: "/rover/DOC-OVERVIEW/",
             collapsible: true,
             children: [
               ["/rover/DOC-OVERVIEW/DOC-ENTRY/", "DOC Entry"],
@@ -95,8 +69,8 @@ export default defineUserConfig({
               ["/rover/DOC-OVERVIEW/Doc-Control/", "DOC Control"]]
           },
           {
-            title: "Engineering",
-            path: "/rover/ENG-OVERVIEW/",
+            text: "Engineering",
+            link: "/rover/ENG-OVERVIEW/",
             collapsible: true,
             children: [
               ["/rover/ENG-OVERVIEW/ENG-ENTRY/", "ENG Entry"],
@@ -104,8 +78,8 @@ export default defineUserConfig({
               ["/rover/ENG-OVERVIEW/ENG-REPORT/", "ENG Report"]]
           },
           {
-            title: "Executive Summary",
-            path: "/rover/EXEC-OVERVIEW/",
+            text: "Executive Summary",
+            link: "/rover/EXEC-OVERVIEW/",
             collapsible: true,
             children: [
               ["/rover/EXEC-OVERVIEW/EXEC-ENTRY/", "Executive Entry"],
@@ -113,8 +87,8 @@ export default defineUserConfig({
               ["/rover/EXEC-OVERVIEW/EXEC-REPORT/", "Executive Report"]]
           },
           {
-            title: "Field Service",
-            path: "/rover/FS-OVERVIEW/",
+            text: "Field Service",
+            link: "/rover/FS-OVERVIEW/",
             collapsible: true,
             children: [
               ["/rover/FS-OVERVIEW/FS-ENTRY/", "Field Service Entry"],
@@ -122,8 +96,8 @@ export default defineUserConfig({
               ["/rover/FS-OVERVIEW/FS-REPORT/", "Field Service Report"]]
           },
           {
-            title: "General Ledger",
-            path: "/rover/GL-OVERVIEW/",
+            text: "General Ledger",
+            link: "/rover/GL-OVERVIEW/",
             collapsible: true,
             children: [
               ["/rover/GL-OVERVIEW/GL-ACCOUNT-FLOW/", "GL Account Flow"],
@@ -132,8 +106,8 @@ export default defineUserConfig({
               ["/rover/GL-OVERVIEW/GL-REPORT/", "GL Report"]]
           },
           {
-            title: "Inventory",
-            path: "/rover/INV-OVERVIEW/",
+            text: "Inventory",
+            link: "/rover/INV-OVERVIEW/",
             collapsible: true,
             children: [
               ["/rover/INV-OVERVIEW/INV-ENTRY/", "Inventory Entry"],
@@ -141,8 +115,8 @@ export default defineUserConfig({
               ["/rover/INV-OVERVIEW/INV-REPORT/", "Inventory Report"]]
           },
           {
-            title: "Manufacturing Planning",
-            path: "/rover/MFG-OVERVIEW/",
+            text: "Manufacturing Planning",
+            link: "/rover/MFG-OVERVIEW/",
             collapsible: true,
             children: [
               ["/rover/MFG-OVERVIEW/MFG-ENTRY/", "Manufacturing Entry"],
@@ -150,8 +124,8 @@ export default defineUserConfig({
               ["/rover/MFG-OVERVIEW/MFG-REPORT/", "Manufacturing Report"]]
           },
           {
-            title: "Marketing ",
-            path: "/rover/MRK-OVERVIEW/",
+            text: "Marketing ",
+            link: "/rover/MRK-OVERVIEW/",
             collapsible: true,
             children: [
               ["/rover/MRK-OVERVIEW/MRK-ENTRY/", "Marketing Entry"],
@@ -159,8 +133,8 @@ export default defineUserConfig({
               ["/rover/MRK-OVERVIEW/MRK-REPORT/", "Marketing Report"]]
           },
           {
-            title: "Production",
-            path: "/rover/PRO-OVERVIEW/",
+            text: "Production",
+            link: "/rover/PRO-OVERVIEW/",
             collapsible: true,
             children: [
               ["/rover/PRO-OVERVIEW/PRO-ENTRY/", "Production Entry"],
@@ -169,8 +143,8 @@ export default defineUserConfig({
           },
           ["/rover/PROJ-OVERVIEW/", "Project Management"],
           {
-            title: "Purchasing",
-            path: "/rover/PUR-OVERVIEW/",
+            text: "Purchasing",
+            link: "/rover/PUR-OVERVIEW/",
             collapsible: true,
             children: [
               ["/rover/PUR-OVERVIEW/PUR-ENTRY/", "Purchasing Entry"],
@@ -181,32 +155,32 @@ export default defineUserConfig({
         ]
       },
       {
-        title: "Rover POS",
-        path: "/rover/business-suite/pos/",
+        text: "Rover POS",
+        link: "/rover/business-suite/pos/",
       },
       {
-        title: "Rover Pay",
-        path: "/rover/business-suite/pay/",
+        text: "Rover Pay",
+        link: "/rover/business-suite/pay/",
       },
       {
-        title: "Rover BI",
-        path: "/rover/business-suite/bi/",
+        text: "Rover BI",
+        link: "/rover/business-suite/bi/",
       },
       {
-        title: "Rover Sales",
-        path: "/rover/business-suite/sales/",
+        text: "Rover Sales",
+        link: "/rover/business-suite/sales/",
       },
       {
-        title: "Rover Portal",
-        path: "/rover/business-suite/portal/",
+        text: "Rover Portal",
+        link: "/rover/business-suite/portal/",
       },
       {
-        title: "Rover Gateway",
-        path: "/rover/business-suite/gateway/",
+        text: "Rover Gateway",
+        link: "/rover/business-suite/gateway/",
       },
       {
-        title: "Release Notes",
-        path: "/rover/release-notes/",
+        text: "Release Notes",
+        link: "/rover/release-notes/",
       },
     ],
     repo: "https://github.com/zumasys/docs",
