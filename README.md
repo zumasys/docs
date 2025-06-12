@@ -121,6 +121,7 @@ To run the application locally:
 - [x] Add [reading time](https://github.com/darrenjennings/vuepress-plugin-reading-time) plugin (to show estimated reading time for an article)
 - [x] Add [social share](https://github.com/ntnyq/vuepress-plugin-social-share) plugin (to activate social network share icons)
 - [x] Add [code copy](https://github.com/znicholasbrown/vuepress-plugin-code-copy) plugin (to allow for click-to-copy of source code)
+- [x] Support dark mode with a theme toggle
 - [ ] ~~Add redirects from old HelpJuice docs to point to new docs (to preserve SEO and avoid link rot)~~
 - [ ] ~~Add [Table of Contents](https://vuepress.vuejs.org/guide/markdown.html#table-of-contents)~~
 - [ ] ~~Add [Clean URLs](https://vuepress.github.io/en/plugins/clean-urls) plugin (may not be necessary with current directory/README.md structure)~~
