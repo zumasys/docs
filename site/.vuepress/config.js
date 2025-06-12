@@ -1,55 +1,41 @@
-require("dotenv").config();
-const webpack = require("webpack");
+import { defineUserConfig, defaultTheme } from 'vuepress'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
+import nprogress from 'vuepress-plugin-nprogress'
+import readingProgress from 'vuepress-plugin-reading-progress'
+import readingTime from 'vuepress-plugin-reading-time'
+import codeCopy from 'vuepress-plugin-code-copy'
+import typescriptPlugin from 'vuepress-plugin-typescript'
+import { sitemapPlugin } from 'vuepress-plugin-sitemap'
+import dotenv from 'dotenv'
 
-module.exports = {
-  head: [["link", { rel: "icon", href: "/assets/img/favicon.ico" }]],
-  title: "Product Documentation",
-  description:
-    "Your home for Rover Business Suite product support and documentation.",
+dotenv.config()
+
+export default defineUserConfig({
+  head: [['link', { rel: 'icon', href: '/assets/img/favicon.ico' }]],
+  title: 'Product Documentation',
+  description: 'Your home for Rover Business Suite product support and documentation.',
   markdown: {
-    lineNumbers: true
+    code: { lineNumbers: true }
   },
-  configureWebpack: config => {
-    // Set environment variables based on NODE_ENV
-    const env =
-      process.env.NODE_ENV === "production"
-        ? { ...process.env }
-        : { ...process.env.development };
-    return { plugins: [new webpack.EnvironmentPlugin(env)] };
-  },
-  plugins: {
-    // TypeScript in .vue files, markdown files and enhanceApp.ts
-    "vuepress-plugin-typescript": {
-      tsLoaderOptions: {
-        // All options of ts-loader
-      }
-    },
-    // Loading Progress Bar
-    "vuepress-plugin-nprogress": {},
-    // Reading Progress Bar
-    "reading-progress": {
-      readingDir: [
-        "rover"
-      ]
-    },
-    // Add article reading time estimate
-    "vuepress-plugin-reading-time": {},
-    // Copy icon on <code>
-    "vuepress-plugin-code-copy": {
+  define: { 'process.env': process.env },
+  plugins: [
+    typescriptPlugin(),
+    nprogress(),
+    readingProgress({
+      readingDir: ['rover']
+    }),
+    readingTime(),
+    codeCopy({
       selector: 'pre[class*="language-"] code',
-      align: "top",
-      color: "#eb6b3b",
-      backgroundColor: "#eb6b3b",
+      align: 'top',
+      color: '#eb6b3b',
+      backgroundColor: '#eb6b3b',
       staticIcon: true
-    },
-    '@vuepress/google-analytics': {
-      'ga': 'UA-115027826-9' // UA-00000000-0
-    },
-    'sitemap': {
-      hostname: 'https://docs.zumasys.com'
-    }
-  },
-  themeConfig: {
+    }),
+    googleAnalyticsPlugin({ id: 'UA-115027826-9' }),
+    sitemapPlugin({ hostname: 'https://docs.zumasys.com' })
+  ],
+  theme: defaultTheme({
     logo: "/assets/img/logo-grey.png",
     nav: [
       { text: "Home", link: "/" },
@@ -59,12 +45,12 @@ module.exports = {
       {
         title: "Rover ERP",
         path: "/rover/",
-        collapsable: true,
+        collapsible: true,
         children: [
           {
             title: "Administration",
             path: "/rover/administration/",
-            collapsable: true,
+            collapsible: true,
             children: [
               ["/rover/administration/", "Administration"],
               ["/rover/administration/client-setup/", "Client Setup"],
@@ -74,7 +60,7 @@ module.exports = {
           {
             title: "ACE Utilities",
             path: "/rover/ACE-OVERVIEW/",
-            collapsable: true,
+            collapsible: true,
             children: [
               ["/rover/ACE-OVERVIEW/ACE-ENTRY/", "ACE Entry"],
               ["/rover/ACE-OVERVIEW/ACE-PROCESS/", "ACE Process"],
@@ -83,7 +69,7 @@ module.exports = {
           {
             title: "Accounts Payable",
             path: "/rover/AP-OVERVIEW/",
-            collapsable: true,
+            collapsible: true,
             children: [
               ["/rover/AP-OVERVIEW/AP-ENTRY/", "AP Entry"],
               ["/rover/AP-OVERVIEW/AP-PROCESS/", "AP Process"],
@@ -92,7 +78,7 @@ module.exports = {
           {
             title: "Accounts Receivable",
             path: "/rover/AR-OVERVIEW/",
-            collapsable: true,
+            collapsible: true,
             children: [
               ["/rover/AR-OVERVIEW/AR-ENTRY/", "AR Entry"],
               ["/rover/AR-OVERVIEW/AR-PROCESS/", "AR Process"],
@@ -101,7 +87,7 @@ module.exports = {
           {
             title: "Document Control",
             path: "/rover/DOC-OVERVIEW/",
-            collapsable: true,
+            collapsible: true,
             children: [
               ["/rover/DOC-OVERVIEW/DOC-ENTRY/", "DOC Entry"],
               ["/rover/DOC-OVERVIEW/DOC-PROCESS/", "DOC Process"],
@@ -111,7 +97,7 @@ module.exports = {
           {
             title: "Engineering",
             path: "/rover/ENG-OVERVIEW/",
-            collapsable: true,
+            collapsible: true,
             children: [
               ["/rover/ENG-OVERVIEW/ENG-ENTRY/", "ENG Entry"],
               ["/rover/ENG-OVERVIEW/ENG-PROCESS/", "ENG Process"],
@@ -120,7 +106,7 @@ module.exports = {
           {
             title: "Executive Summary",
             path: "/rover/EXEC-OVERVIEW/",
-            collapsable: true,
+            collapsible: true,
             children: [
               ["/rover/EXEC-OVERVIEW/EXEC-ENTRY/", "Executive Entry"],
               ["/rover/EXEC-OVERVIEW/EXEC-PROCESS/", "Executive Process"],
@@ -129,7 +115,7 @@ module.exports = {
           {
             title: "Field Service",
             path: "/rover/FS-OVERVIEW/",
-            collapsable: true,
+            collapsible: true,
             children: [
               ["/rover/FS-OVERVIEW/FS-ENTRY/", "Field Service Entry"],
               ["/rover/FS-OVERVIEW/FS-PROCESS/", "Field Service Process"],
@@ -138,7 +124,7 @@ module.exports = {
           {
             title: "General Ledger",
             path: "/rover/GL-OVERVIEW/",
-            collapsable: true,
+            collapsible: true,
             children: [
               ["/rover/GL-OVERVIEW/GL-ACCOUNT-FLOW/", "GL Account Flow"],
               ["/rover/GL-OVERVIEW/GL-ENTRY/", "GL Entry"],
@@ -148,7 +134,7 @@ module.exports = {
           {
             title: "Inventory",
             path: "/rover/INV-OVERVIEW/",
-            collapsable: true,
+            collapsible: true,
             children: [
               ["/rover/INV-OVERVIEW/INV-ENTRY/", "Inventory Entry"],
               ["/rover/INV-OVERVIEW/INV-PROCESS/", "Inventory Process"],
@@ -157,7 +143,7 @@ module.exports = {
           {
             title: "Manufacturing Planning",
             path: "/rover/MFG-OVERVIEW/",
-            collapsable: true,
+            collapsible: true,
             children: [
               ["/rover/MFG-OVERVIEW/MFG-ENTRY/", "Manufacturing Entry"],
               ["/rover/MFG-OVERVIEW/MFG-PROCESS/", "Manufacturing Process"],
@@ -166,7 +152,7 @@ module.exports = {
           {
             title: "Marketing ",
             path: "/rover/MRK-OVERVIEW/",
-            collapsable: true,
+            collapsible: true,
             children: [
               ["/rover/MRK-OVERVIEW/MRK-ENTRY/", "Marketing Entry"],
               ["/rover/MRK-OVERVIEW/MRK-PROCESS/", "Marketing Process"],
@@ -175,7 +161,7 @@ module.exports = {
           {
             title: "Production",
             path: "/rover/PRO-OVERVIEW/",
-            collapsable: true,
+            collapsible: true,
             children: [
               ["/rover/PRO-OVERVIEW/PRO-ENTRY/", "Production Entry"],
               ["/rover/PRO-OVERVIEW/PRO-PROCESS/", "Production Process"],
@@ -185,7 +171,7 @@ module.exports = {
           {
             title: "Purchasing",
             path: "/rover/PUR-OVERVIEW/",
-            collapsable: true,
+            collapsible: true,
             children: [
               ["/rover/PUR-OVERVIEW/PUR-ENTRY/", "Purchasing Entry"],
               ["/rover/PUR-OVERVIEW/PUR-PROCESS/", "Purchasing Process"],
@@ -228,4 +214,5 @@ module.exports = {
     editLinkText: "Help us improve this page!",
     lastUpdated: "Last Updated"
   }
-};
+  })
+})

@@ -2,7 +2,7 @@
 
 [![Azure Static Web Apps CI/CD](https://github.com/zumasys/docs/actions/workflows/azure-static-web-apps-calm-tree-0410ef410.yml/badge.svg)](https://github.com/zumasys/docs/actions/workflows/azure-static-web-apps-calm-tree-0410ef410.yml)
 
-This is a [VuePress](https://vuepress.vuejs.org/) documentation application that leverages [GitHub](https://github.com) as the repository of documentation. The repository is currently hosted in the [Zumasys GitHub](https://github.com/zumasys/docs) and the app is available at [Zumasys Docs](https://docs.zumasys.com). The documentation was created by way of [HelpJuice-to-Markdown](https://github.com/itsxallwater/helpjuice-to-markdown). Search functionality is provided by [Algolia DocSearch](https://docsearch.algolia.com/docs/what-is-docsearch) which crawls the documentation every 24 hours for updating and indexing. The application itself is built and deployed as a static site hosted on Azure Storage via a GitHub action.
+This is a [VuePress 2](https://v2.vuepress.vuejs.org/) documentation application that leverages [GitHub](https://github.com) as the repository of documentation. The repository is currently hosted in the [Zumasys GitHub](https://github.com/zumasys/docs) and the app is available at [Zumasys Docs](https://docs.zumasys.com). The documentation was created by way of [HelpJuice-to-Markdown](https://github.com/itsxallwater/helpjuice-to-markdown). Search functionality is provided by [Algolia DocSearch](https://docsearch.algolia.com/docs/what-is-docsearch) which crawls the documentation every 24 hours for updating and indexing. The application itself is built and deployed as a static site hosted on Azure Storage via a GitHub action.
 
 ## Directory structure
 
@@ -20,7 +20,7 @@ This is a [VuePress](https://vuepress.vuejs.org/) documentation application that
 │   │   │   ├── layouts
 │   │   │   └── index.js
 │   │   ├── config.js
-│   │   ├── enhanceApp.js
+│   │   ├── clientAppEnhance.js
 │   ├── accuterm (AccuTerm documentation lives here)
 │   ├── customer-portal (Customer Portal documentation lives here)
 │   ├── jbase (jBASE documentation lives here)
@@ -63,9 +63,8 @@ To run the application locally:
    ```
 
 1. `npm run dev`
-1. When compilation completes you should see the following message
+1. When compilation completes you should see a message similar to:
 
-   > success [12:25:41] Build 59cc58 finished in 75022 ms!  
    > VuePress dev server listening at [http://localhost:8080/](http://localhost:8080/)
 
 1. Open [localhost:8080](localhost:8080) in your browser.
