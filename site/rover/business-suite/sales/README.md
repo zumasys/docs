@@ -6,6 +6,15 @@
 
 Rover Sales extends Rover ERP with tools for managing customer relationships, opportunities, quotes, and sales orders from any device.
 
+## Recent Enhancements
+
+- **Customer & Prospect Management** – faster global contact search and filtering for large databases.
+- **Activity Tracking & Tasks** – simplified logging of calls and follow-ups directly from a customer record.
+- **Quoting & Sales Orders** – quotes created in POS automatically appear here for follow-up or conversion.
+- **Pricing and Promotions** – standardized pricing matrix applies complex discounts without manual calculation.
+- **Sales Dashboards and KPIs** – role-based BI dashboards show pipeline status and recent quotes.
+- **Order to Cash Process** – take deposits via Rover Pay and track shipment and invoice status in one place.
+
 ## Customers Overview
 
 The Customers workspace in Rover ERP serves as the central command center for managing all aspects of your customer relationships, transactions, and operational history. With a single, browser-based screen, users can view, edit, and take action on every important customer detail—from contact info to invoices, sales history, opportunity tracking, and beyond.

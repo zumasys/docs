@@ -6,6 +6,13 @@
 
 Rover Scan is the dedicated, browser-based mobile operations hub within the Rover ERP Web Application. Designed for warehouse, shop floor, and field service teams, it enables fast, barcode-driven workflows on any device—smartphones, tablets, or traditional desktops—without the need for proprietary hardware or installed software.
 
+## Recent Enhancements
+
+- **Pack Verification** – scan items during packing to verify shipment contents and print packing lists or labels.
+- **Scanner Configuration** – set prefix or suffix values for scanners directly in client settings.
+- **User Interface Refresh** – clearer prompts, highlighted next actions and audible alerts on errors.
+- **Multi‑Language Labels** – buttons and prompts support multiple languages for a diverse workforce.
+
 ## Key Features & Functionalities
 
 The main Rover Scan interface presents users with a series of high-contrast, touch-friendly tiles for each primary operation:

@@ -30,6 +30,10 @@ Rover Business Suite is a web based interface you can use to allow your users to
 
 [Rover Sales](sales/README.md)
 
+[Rover Tickets & Time](tickets-time/README.md)
+
+[Rover AI Assistant](ai-assistant/README.md)
+
 [Rover Web Settings](settings/README.md)
 
 ![Rover BI Logo](/assets/img/rover-hub.png)
