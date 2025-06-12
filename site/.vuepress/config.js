@@ -193,6 +193,10 @@ export default defineUserConfig({
         path: "/rover/business-suite/bi/",
       },
       {
+        title: "Rover Sales",
+        path: "/rover/business-suite/sales/",
+      },
+      {
         title: "Rover Portal",
         path: "/rover/business-suite/portal/",
       },
@@ -213,6 +217,5 @@ export default defineUserConfig({
     prevLinks: false,
     editLinkText: "Help us improve this page!",
     lastUpdated: "Last Updated"
-  }
   })
 })

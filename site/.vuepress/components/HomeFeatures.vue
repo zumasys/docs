@@ -21,6 +21,7 @@
       <p>
         <a href="/rover/business-suite/gateway/">Rover Gateway</a></br>
         <a href="/rover/business-suite/scan/">Rover Scan</a></br>
+        <a href="/rover/business-suite/field-services/">Rover Field Services</a></br>
         <a href="/rover/release-notes/">Rover Release Notes</a><br />
         <a href="/rover/">All Rover ERP Docs</a><br />
         <a href="/smartsuite/">All Smart Suite Docs</a>

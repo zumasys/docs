@@ -4,6 +4,18 @@
 
 Rover POS allows your business users to originate orders, fulfill orders, process payments and more. Depending on your needs, configure the application to allow your users to perform any combination of those tasks in an easy-to-follow web interface. Whether you are using Rover ERP, Smart Suite, IMACS or any number of other back-end systems this modern interface can be made available to your users! The documentation that follows seeks to cover all standard functionality of the product, and your experience may vary further depending on your configuration and customization.
 
+## Recent Enhancements
+
+- **Integrated Quote & Opportunity Management** – manage quotes from POS and convert them to orders with a click.
+- **Advanced Order Processing & Payments** – capture signatures, handle returns and process multiple tenders via Rover Pay.
+- **Flexible Part Search and Pricing** – real-time pricing uses ERP calculations with margin visibility options.
+- **Configuration & Upsell with Part Relationships** – nested option groups prompt for accessories or required components.
+- **Enhanced Customer Management** – faster search with optional new-customer button on the main screen.
+- **UI and Workflow Enhancements** – bulk line editing, unsaved change warnings, auto-focus and on-screen keypad support.
+- **Inventory Visibility** – click inventory numbers for details by location, on order and allocations.
+- **Custom Subtotals and Taxes** – display fees like hazardous material charges separately and handle line-by-line tax.
+- **Quick Scan Mode** – optimized for rapid barcode scanning in high-volume environments.
+
 > NOTE: Please note that while you may use this version in tandem with [Smart Suite POS](../../smartsuite/pos/README.md), closing the register in one application will result in the register being closed for the other application.
 
 ## Logging in
