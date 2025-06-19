@@ -26,9 +26,9 @@ export default defineUserConfig({
             link: "/rover/administration/",
             collapsible: true,
             children: [
-              ["/rover/administration/", "Administration"],
-              ["/rover/administration/client-setup/", "Client Setup"],
-              ["/rover/administration/m3-services/", "M3 Services Setup"],
+              { link: "/rover/administration/", text: "Administration" },
+              { link: "/rover/administration/client-setup/", text: "Client Setup" },
+              { link: "/rover/administration/m3-services/", text: "M3 Services Setup" },
             ]
           },
           {
@@ -36,122 +36,123 @@ export default defineUserConfig({
             link: "/rover/ACE-OVERVIEW/",
             collapsible: true,
             children: [
-              ["/rover/ACE-OVERVIEW/ACE-ENTRY/", "ACE Entry"],
-              ["/rover/ACE-OVERVIEW/ACE-PROCESS/", "ACE Process"],
-              ["/rover/ACE-OVERVIEW/ACE-REPORT/", "ACE Report"]]
+              { link: "/rover/ACE-OVERVIEW/ACE-ENTRY/", text: "ACE Entry" },
+              { link: "/rover/ACE-OVERVIEW/ACE-PROCESS/", text: "ACE Process" },
+              { link: "/rover/ACE-OVERVIEW/ACE-REPORT/", text: "ACE Report" }]
           },
           {
             text: "Accounts Payable",
             link: "/rover/AP-OVERVIEW/",
             collapsible: true,
             children: [
-              ["/rover/AP-OVERVIEW/AP-ENTRY/", "AP Entry"],
-              ["/rover/AP-OVERVIEW/AP-PROCESS/", "AP Process"],
-              ["/rover/AP-OVERVIEW/AP-REPORT/", "AP Report"]]
+              { link: "/rover/AP-OVERVIEW/AP-ENTRY/", text: "AP Entry" },
+              { link: "/rover/AP-OVERVIEW/AP-PROCESS/", text: "AP Process" },
+              { link: "/rover/AP-OVERVIEW/AP-REPORT/", text: "AP Report" }]
           },
           {
             text: "Accounts Receivable",
             link: "/rover/AR-OVERVIEW/",
             collapsible: true,
             children: [
-              ["/rover/AR-OVERVIEW/AR-ENTRY/", "AR Entry"],
-              ["/rover/AR-OVERVIEW/AR-PROCESS/", "AR Process"],
-              ["/rover/AR-OVERVIEW/AR-REPORT/", "AR Report"]]
+              { link: "/rover/AR-OVERVIEW/AR-ENTRY/", text: "AR Entry" },
+              { link: "/rover/AR-OVERVIEW/AR-PROCESS/", text: "AR Process" },
+              { link: "/rover/AR-OVERVIEW/AR-REPORT/", text: "AR Report" }]
           },
           {
             text: "Document Control",
             link: "/rover/DOC-OVERVIEW/",
             collapsible: true,
             children: [
-              ["/rover/DOC-OVERVIEW/DOC-ENTRY/", "DOC Entry"],
-              ["/rover/DOC-OVERVIEW/DOC-PROCESS/", "DOC Process"],
-              ["/rover/DOC-OVERVIEW/DOC-REPORT/", "DOC Report"],
-              ["/rover/DOC-OVERVIEW/Doc-Control/", "DOC Control"]]
+              { link: "/rover/DOC-OVERVIEW/DOC-ENTRY/", text: "DOC Entry" },
+              { link: "/rover/DOC-OVERVIEW/DOC-PROCESS/", text: "DOC Process" },
+              { link: "/rover/DOC-OVERVIEW/DOC-REPORT/", text: "DOC Report" },
+              { link: "/rover/DOC-OVERVIEW/Doc-Control/", text: "DOC Control" }]
           },
           {
             text: "Engineering",
             link: "/rover/ENG-OVERVIEW/",
             collapsible: true,
             children: [
-              ["/rover/ENG-OVERVIEW/ENG-ENTRY/", "ENG Entry"],
-              ["/rover/ENG-OVERVIEW/ENG-PROCESS/", "ENG Process"],
-              ["/rover/ENG-OVERVIEW/ENG-REPORT/", "ENG Report"]]
+              { link: "/rover/ENG-OVERVIEW/ENG-ENTRY/", text: "ENG Entry" },
+              { link: "/rover/ENG-OVERVIEW/ENG-PROCESS/", text: "ENG Process" },
+              { link: "/rover/ENG-OVERVIEW/ENG-REPORT/", text: "ENG Report" }]
           },
           {
             text: "Executive Summary",
             link: "/rover/EXEC-OVERVIEW/",
             collapsible: true,
             children: [
-              ["/rover/EXEC-OVERVIEW/EXEC-ENTRY/", "Executive Entry"],
-              ["/rover/EXEC-OVERVIEW/EXEC-PROCESS/", "Executive Process"],
-              ["/rover/EXEC-OVERVIEW/EXEC-REPORT/", "Executive Report"]]
+              { link: "/rover/EXEC-OVERVIEW/EXEC-ENTRY/", text: "Executive Entry" },
+              { link: "/rover/EXEC-OVERVIEW/EXEC-PROCESS/", text: "Executive Process" },
+              { link: "/rover/EXEC-OVERVIEW/EXEC-REPORT/", text: "Executive Report" }]
           },
           {
             text: "Field Service",
             link: "/rover/FS-OVERVIEW/",
             collapsible: true,
             children: [
-              ["/rover/FS-OVERVIEW/FS-ENTRY/", "Field Service Entry"],
-              ["/rover/FS-OVERVIEW/FS-PROCESS/", "Field Service Process"],
-              ["/rover/FS-OVERVIEW/FS-REPORT/", "Field Service Report"]]
+              { link: "/rover/FS-OVERVIEW/FS-ENTRY/", text: "Field Service Entry" },
+              { link: "/rover/FS-OVERVIEW/FS-PROCESS/", text: "Field Service Process" },
+              { link: "/rover/FS-OVERVIEW/FS-REPORT/", text: "Field Service Report" }]
           },
           {
             text: "General Ledger",
             link: "/rover/GL-OVERVIEW/",
             collapsible: true,
             children: [
-              ["/rover/GL-OVERVIEW/GL-ACCOUNT-FLOW/", "GL Account Flow"],
-              ["/rover/GL-OVERVIEW/GL-ENTRY/", "GL Entry"],
-              ["/rover/GL-OVERVIEW/GL-PROCESS/", "GL Process"],
-              ["/rover/GL-OVERVIEW/GL-REPORT/", "GL Report"]]
+              { link: "/rover/GL-OVERVIEW/GL-ACCOUNT-FLOW/", text: "GL Account Flow" },
+              { link: "/rover/GL-OVERVIEW/GL-ENTRY/", text: "GL Entry" },
+              { link: "/rover/GL-OVERVIEW/GL-PROCESS/", text: "GL Process" },
+              { link: "/rover/GL-OVERVIEW/GL-REPORT/", text: "GL Report" }]
           },
           {
             text: "Inventory",
             link: "/rover/INV-OVERVIEW/",
             collapsible: true,
             children: [
-              ["/rover/INV-OVERVIEW/INV-ENTRY/", "Inventory Entry"],
-              ["/rover/INV-OVERVIEW/INV-PROCESS/", "Inventory Process"],
-              ["/rover/INV-OVERVIEW/INV-REPORT/", "Inventory Report"]]
+              { link: "/rover/INV-OVERVIEW/INV-ENTRY/", text: "Inventory Entry" },
+              { link: "/rover/INV-OVERVIEW/INV-PROCESS/", text: "Inventory Process" },
+              { link: "/rover/INV-OVERVIEW/INV-REPORT/", text: "Inventory Report" }]
           },
           {
             text: "Manufacturing Planning",
             link: "/rover/MFG-OVERVIEW/",
             collapsible: true,
             children: [
-              ["/rover/MFG-OVERVIEW/MFG-ENTRY/", "Manufacturing Entry"],
-              ["/rover/MFG-OVERVIEW/MFG-PROCESS/", "Manufacturing Process"],
-              ["/rover/MFG-OVERVIEW/MFG-REPORT/", "Manufacturing Report"]]
+              { link: "/rover/MFG-OVERVIEW/MFG-ENTRY/", text: "Manufacturing Entry" },
+              { link: "/rover/MFG-OVERVIEW/MFG-PROCESS/", text: "Manufacturing Process" },
+              { link: "/rover/MFG-OVERVIEW/MFG-REPORT/", text: "Manufacturing Report" }]
           },
           {
             text: "Marketing ",
             link: "/rover/MRK-OVERVIEW/",
             collapsible: true,
             children: [
-              ["/rover/MRK-OVERVIEW/MRK-ENTRY/", "Marketing Entry"],
-              ["/rover/MRK-OVERVIEW/MRK-PROCESS/", "Marketing Process"],
-              ["/rover/MRK-OVERVIEW/MRK-REPORT/", "Marketing Report"]]
+              { link: "/rover/MRK-OVERVIEW/MRK-ENTRY/", text: "Marketing Entry" },
+              { link: "/rover/MRK-OVERVIEW/MRK-PROCESS/", text: "Marketing Process" },
+              { link: "/rover/MRK-OVERVIEW/MRK-REPORT/", text: "Marketing Report" }]
           },
           {
             text: "Production",
             link: "/rover/PRO-OVERVIEW/",
             collapsible: true,
             children: [
-              ["/rover/PRO-OVERVIEW/PRO-ENTRY/", "Production Entry"],
-              ["/rover/PRO-OVERVIEW/PRO-PROCESS/", "Production Process"],
-              ["/rover/PRO-OVERVIEW/PRO-REPORT/", "Production Report"]]
+              { link: "/rover/PRO-OVERVIEW/PRO-ENTRY/", text: "Production Entry" },
+              { link: "/rover/PRO-OVERVIEW/PRO-PROCESS/", text: "Production Process" },
+              { link: "/rover/PRO-OVERVIEW/PRO-REPORT/", text: "Production Report" }]
           },
-          ["/rover/PROJ-OVERVIEW/", "Project Management"],
+          { link: "/rover/PROJ-OVERVIEW/", text: "Project Management" },
           {
             text: "Purchasing",
             link: "/rover/PUR-OVERVIEW/",
             collapsible: true,
             children: [
-              ["/rover/PUR-OVERVIEW/PUR-ENTRY/", "Purchasing Entry"],
-              ["/rover/PUR-OVERVIEW/PUR-PROCESS/", "Purchasing Process"],
-              ["/rover/PUR-OVERVIEW/PUR-REPORT/", "Purchasing Report"]]
+              { link: "/rover/PUR-OVERVIEW/PUR-ENTRY/", text: "Purchasing Entry" },
+              { link: "/rover/PUR-OVERVIEW/PUR-PROCESS/", text: "Purchasing Process" },
+              { link: "/rover/PUR-OVERVIEW/PUR-REPORT/", text: "Purchasing Report" }
+            ]
           },
-          ["/rover/workflow-management/", "Workflow Management"]
+          { link: "/rover/workflow-management/", text: "Workflow Management" }
         ]
       },
       {
