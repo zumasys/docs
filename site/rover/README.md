@@ -18,6 +18,7 @@ Rover ERP is a dynamic, powerful enterprise resource planner with a strong found
 
 * [Desktop Client Setup](./administration/client-setup/README.md)
 * [M3Services Setup](./administration/m3-services/README.md)
+* [Shopify Setup](./shopify-setup/README.md)
 
 ### System Utilities
 
