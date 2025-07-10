@@ -45,7 +45,7 @@ be expecting to retrieve the data.
   
 **Record ID** Enter the record ID which contains the data to be imported.  
   
-**Clear history** Check this box if you wish to clear the history from the import file after updating the SHIP records. This data will default in from the [ SHIP.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) record but can be changed as required.   
+**Clear history** Check this box if you wish to clear the history from the import file after updating the SHIP records. This data will default in from the [ SHIP.CONTROL ](../..) record but can be changed as required.   
   
 **History days** Enter the number of days of history that you want to keep in the import file. This field should be used if all shipments are not processed through [ SHIP.E2 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2) on the same day the were done on the Fedex / UPS computer. For example, if you process a Fedex shipment on the shipper's computer and want to come back tomorrow and process [ SHIP.E2 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2) , you will want the import record to be available. Leaving this field empty means that the import record will be cleared each time this procedure is run.   
   

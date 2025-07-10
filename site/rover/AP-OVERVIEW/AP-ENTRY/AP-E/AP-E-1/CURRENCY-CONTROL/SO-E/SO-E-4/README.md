@@ -19,7 +19,7 @@ shipped.
   
 **Ship Zip** Enter the zip code to which the order will be shipped.  
   
-**Ship Country** Enter the country to which the order will be shipped. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) .   
+**Ship Country** Enter the country to which the order will be shipped. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../../../../ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) .   
   
 **Validate Address** Click this button to validate the shipping address.  
   
@@ -40,7 +40,7 @@ customer of the shipment.
   
 **Ship Phone** Enter the phone number for this shipping address.  
   
-**Ship Via** Enter the method of shipment or carrier to be used when shipping the items on the sales order to the customer. If ship methods have been defined in the [ SHIP.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) procedure, this entry will be validated.   
+**Ship Via** Enter the method of shipment or carrier to be used when shipping the items on the sales order to the customer. If ship methods have been defined in the [ SHIP.CONTROL ](../../../../../ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) procedure, this entry will be validated.   
   
 **Saturday Delivery** Check this box if the order will be delivered on a Saturday. If you do not know until the order is ready to be shipped if it will be delivered on a Saturday, you can update the associated shipper record with this information via [ SHIP.E ](SHIP-E/README.md) , [ SHIP.E2 ](SHIP-E2/README.md) or [ SHIP.E4 ](SHIP-E4/README.md) .   
   
@@ -62,18 +62,18 @@ program will attempt to load this number in for you based on the ship via
 method. This number will only be passed to the ship record if the freight code
 is set to third party.  
   
-**Freight Type** This field controls the way in which the data in the freight amount field is interpreted. On new orders the contents of this field are defaulted based on the settings in the [ SHIP.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) procedure. The possible entries are:   
+**Freight Type** This field controls the way in which the data in the freight amount field is interpreted. On new orders the contents of this field are defaulted based on the settings in the [ SHIP.CONTROL ](../../../../../ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) procedure. The possible entries are:   
   
-Estimated - The freight amount entered on the order is only an estimate, the amount incurred will be used on the invoice. The amount will be calculated based on the parameters in the [ SHIP.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) procedure.   
+Estimated - The freight amount entered on the order is only an estimate, the amount incurred will be used on the invoice. The amount will be calculated based on the parameters in the [ SHIP.CONTROL ](../../../../../ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) procedure.   
   
-Actual - The freight amount entered on the order is the amount that will appear on the invoice, not the amount actually incurred. The amount will be calculated based on the parameters in the [ SHIP.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) procedure.   
+Actual - The freight amount entered on the order is the amount that will appear on the invoice, not the amount actually incurred. The amount will be calculated based on the parameters in the [ SHIP.CONTROL ](../../../../../ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) procedure.   
   
 TBD - The amount is ignored and the actual freight charges incurred will be
 used.  
   
-**Freight Amount** Depending on the setting in the Freight Type field the amount entered in this field will represent either an estimate of freight charges or the amount that will actually be charged on the invoice. The amount may be calculated if the parameters are set in [ SHIP.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) for the freight carrier associated to the Ship Via to access the carrier's rating system. but may be set manually as well.   
+**Freight Amount** Depending on the setting in the Freight Type field the amount entered in this field will represent either an estimate of freight charges or the amount that will actually be charged on the invoice. The amount may be calculated if the parameters are set in [ SHIP.CONTROL ](../../../../../ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) for the freight carrier associated to the Ship Via to access the carrier's rating system. but may be set manually as well.   
   
-**Freight Lock** Check this box if the amount entered in the freight amount field is being set manually and is not to be calculated based on the parameters in the [ SHIP.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) procedure.   
+**Freight Lock** Check this box if the amount entered in the freight amount field is being set manually and is not to be calculated based on the parameters in the [ SHIP.CONTROL ](../../../../../ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) procedure.   
   
 **Tax Freight** Check this box if freight charges are taxable.  
   
@@ -182,7 +182,7 @@ field and clicking this button.
 view the error message by placing the cursor in the credit card number field
 of the associated transaction and clicking this button.  
   
-**Calc Freight** Press this button to recalculate the freight. This only applies if the parameters are set in [ SHIP.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) for the freight carrier associated to the Ship Via to access the carrier's rating system.   
+**Calc Freight** Press this button to recalculate the freight. This only applies if the parameters are set in [ SHIP.CONTROL ](../../../../../ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) for the freight carrier associated to the Ship Via to access the carrier's rating system.   
   
 **Payment Plan** Check this box if the amounts entered for the credit cards
 represent a partial payment of the total order and that the balance will be

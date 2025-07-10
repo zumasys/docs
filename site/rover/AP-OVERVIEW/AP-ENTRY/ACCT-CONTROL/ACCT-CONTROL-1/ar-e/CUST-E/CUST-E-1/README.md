@@ -41,7 +41,7 @@ purposes.
   
 **Sort Zip** Enter the zip code portion of the address information.  
   
-**Sort Country** Enter the country portion of the address information. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](ship-control/README.md) .   
+**Sort Country** Enter the country portion of the address information. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../CUST-E-8/ship-control) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](ship-control/README.md) .   
   
 **Resale#** Enter the customer's resale number.  
   
