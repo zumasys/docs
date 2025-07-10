@@ -215,7 +215,7 @@ This cheat sheet provides a list of commonly used processes, reports, and entry 
 | Activity      | Menu/Sub    | Procedure        | Notes |
 |---------------|-------------|------------------|-------|
 |Post shipments | AR/AR.PROCESS | [SHIP.P1](../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/comm-e/SHIP-P1/README.md) | This can be run on demand and/or nightly. |
-|Enter / update A/R records | AR/AR.ENTRY | [AR.E](../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/README.md) | Can create credit/debit memos (print when saved).
+|Enter / update A/R records | AR/AR.ENTRY | [AR.E](../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E/README.md) | Can create credit/debit memos (print when saved).
 |Print invoices from A/R | AR/AR.REPORT | [AR.F4](../AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/AP-CONTROL-2/FORM-CONTROL/FORM-CONTROL-3/AR-F4/README.md) | Print/email/fax invoice. |
 |Apply cash | AR/AR.ENTRY | [CASH.E](../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/README.md) | Check the “Load” field to load all open records for a customer. Uncheck this to enter the invoice numbers manually (for larger customers). Can place cash on account and/or write off.
 |Reverse a cash entry | AR/AR.ENTRY | [CASH.E2](../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/CASH-E2/README.md) | |
