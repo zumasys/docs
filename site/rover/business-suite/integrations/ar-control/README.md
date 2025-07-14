@@ -1,6 +1,0 @@
-# AR Control
-
-<PageHeader />
-
-
-<PageFooter />

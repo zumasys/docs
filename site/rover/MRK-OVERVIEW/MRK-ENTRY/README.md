@@ -42,7 +42,7 @@
 [ SALEOPP.CONTROL ](SALEOPP-CONTROL/README.md) Define Sales Opportunity Defaults   
 [ SALEOPP.E ](SALEOPP-E/README.md) Sales Opportunity Entry   
 [ SERIAL.E ](../../../rover/FS-OVERVIEW/FS-ENTRY/SERIAL-E) Update Serial Number Information   
-[ SHIP.CONTROL ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) Define Valid Ship Methods   
+[ SHIP.CONTROL ](../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) Define Valid Ship Methods   
 [ SHIP.E ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E) Enter Shipments   
 [ SHIP.E2 ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2) Enter/Confirm Shipments   
 [ SHIP.E3 ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2/SHIP-E3) Reverse Posted Shipments   
