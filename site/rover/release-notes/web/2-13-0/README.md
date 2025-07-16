@@ -20,6 +20,7 @@ These are the release notes for version 2.13.0 (7/16/2025) of the Rover Web appl
   - Tenders can optionally be cleared based on an error response from payment processing.
     > Only supported by select ERPs
   - Ability to add/update/view coupons to sales orders has been added. Requires [MRK.CONTROL](../../../AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-8/README.md#allow-coupons) toggle to be enabled.
+  ![Coupons](./pos-coupons.gif)
 
 #### Inventory
 
