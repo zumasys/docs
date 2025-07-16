@@ -38,6 +38,7 @@ These are the release notes for version 2.13.0 (7/16/2025) of the Rover Web appl
 
 #### General
 
+- Display of credit card payment methods is now tied to the "ccAllow" property in the /payment/info API response.  
 - Search button has been added to fields with file dictionary references. This allows the ability to search against multiple lookup.
   > Availability is limited to input fields in Inventory Work Orders, Point of Sale Orders, and Point of Sale Quotes.
 
