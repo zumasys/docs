@@ -358,7 +358,7 @@ Add `pos_allow_coupons` to your `MRK.CONTROL` response to enable this feature.
 }
 ```
 
-Coupons are a list of coupons objects that can be added to a sales order. 
+Coupons are a list of coupons objects that can be added to a sales order. A coupon can associate with either one or multiple part line items. This does required the `coupon_li` to have a match a `lis` in the order `lis_items`. The sum of `coup_li_items` `coup_li_disc` is presented in the receipt view.
 
 ``` json
 
@@ -366,9 +366,16 @@ Coupons are a list of coupons objects that can be added to a sales order.
         "so_id": "",
         "coupon_id_items": [
             {
-                "coupon_id": "COUPON_1",
-                "coupon_title": "Coupon Title",
-                "coup_disc_amt": "10.00"
+                "coupon_id": "11",
+                "coup_disc_amt": "10.00",
+                "coup_li_items": [
+                    {
+                        "coup_li": "1",
+                        "coup_li_disc": "10.00"
+                    }
+                ],
+                "coupon_type": "1",
+                "coupon_title": "NO LIMIT 1"
             }
         ]
     }

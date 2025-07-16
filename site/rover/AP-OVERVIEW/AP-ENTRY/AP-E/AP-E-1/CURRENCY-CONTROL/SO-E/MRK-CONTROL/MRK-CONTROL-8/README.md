@@ -1,8 +1,8 @@
-# POS - Order Header
+# POS - Order Header Tab
 
 <PageHeader />
 
-![Point of Sale Lookup Tab](./MRK-CONTROL-7.png)
+![Point of Sale Order Header Tab](./MRK-CONTROL-8.png)
 
 ## Overview
 

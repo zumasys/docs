@@ -1,8 +1,8 @@
-# POS - Select Cust
+# POS - Select Customer Tab
 
 <PageHeader />
 
-![Point of Sale Lookup Tab](./MRK-CONTROL-7.png)
+![Point of Sale Select Customer Tab](./MRK-CONTROL-7.png)
 
 ## Overview
 
