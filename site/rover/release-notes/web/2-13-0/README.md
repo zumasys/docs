@@ -19,8 +19,6 @@ These are the release notes for version 2.13.0 (7/16/2025) of the Rover Web appl
   - An MRK.CONTROL toggle has been added to allow the option groups in part detail for related parts to be collapsed by default.
   - Tenders can optionally be cleared based on an error response from payment processing.
     > Only supported by select ERPs
-  - Ability to add/update/view coupons to sales orders has been added. Requires [MRK.CONTROL](../../../AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-8/README.md#allow-coupons) toggle to be enabled.
-  ![Coupons](./pos-coupons.gif)
 
 #### Inventory
 
@@ -39,8 +37,6 @@ These are the release notes for version 2.13.0 (7/16/2025) of the Rover Web appl
 #### General
 
 - Display of credit card payment methods is now tied to the "ccAllow" property in the /payment/info API response.  
-- Search button has been added to fields with file dictionary references. This allows the ability to search against multiple lookup.
-  > Availability is limited to input fields in Inventory Work Orders, Point of Sale Orders, and Point of Sale Quotes.
 
 ## Bug Fixes
 
