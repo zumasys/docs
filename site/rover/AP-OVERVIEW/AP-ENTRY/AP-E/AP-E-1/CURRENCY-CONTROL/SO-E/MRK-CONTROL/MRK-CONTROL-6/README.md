@@ -48,8 +48,6 @@ This table allows you to specify fields defined in `SO FDICT` to be displayed in
 
 ### Feature Toggles
 
-**Hide Load Customer Button** Checking this box will hide the load customer button in the main customer search screen.
-
 **Disable Downloading Statements** Checking this box will hide the download statement button in the invoices tab.
 
 **Disable Emailing Statements** Checking this box will hide the email statement button in the invoices tab.

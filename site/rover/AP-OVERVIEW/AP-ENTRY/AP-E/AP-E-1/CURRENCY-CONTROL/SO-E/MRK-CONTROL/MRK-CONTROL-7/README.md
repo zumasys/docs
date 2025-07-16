@@ -1,34 +1,44 @@
-# POS Lookup
+# POS - Select Customer Tab
 
 <PageHeader />
 
-![Point of Sale Lookup Tab](./MRK-CONTROL-7.png)
+![Point of Sale Select Customer Tab](./MRK-CONTROL-7.png)
 
 ## Overview
 
-These controls are used to configure the Rover Web POS module lookup tables
+These controls are used to configure the Rover Web POS customer selection page.
 
-### Inventory Display Lookups
+### Main Page
 
-The Inventory Display Lookups tab is used to configure the inventory search functionality in the POS module. Click on the `Available Quantity` icon to display the lookup tables.
+#### Recently Viewed
 
-### Main Screen Orders Lookup
+#### Search Results
 
-The Main Screen Orders Lookup table is used to replace the orders table with a lookup table in the POS main order tab.
+**Customer Lookup** The Customer Lookup tab is used to replace the customer table with a lookup table in the POS main customer tab.
 
-### Customer Orders Lookup
+> [Integrations](../../../../../../../../business-suite/integrations/pos/README.md#customer-lookup)
 
-The Customer Orders Lookup table is used to replace the customer orders table with a lookup table in the customer order tab.
+**Filter Inactive Customers** Checking this box will filter inactive customers from the search results.
 
-### Customer Lookup
+#### Opportunities
 
-The Customer Lookup tab is used to replace the customer table with a lookup table in the POS main customer tab.
+#### Quotes
 
-[Integrations](../../../../../../../../business-suite/integrations/pos/README.md#customer-lookup)
+#### Orders
 
-### Parts Lookup
+#### Drafts
 
-Currently still under development.
+### Behavior
+
+**Hide Load Customer Button** Checking this box will hide the load customer button in the main customer search screen.
+
+**Allow Customer Creations** Checking this box will add a "New Customer" button next to the customer search and allow customer creation when a search result returns empty.
+
+### Order Action Items
+
+**Hide Action Buttons** Checking this box will hide the actions buttons that appear on the right side of the orders tables.
+
+**POS Allow Edit Order** Checking this box will add the ability to edit an order within POS.
 
 <badge text= "Version 1.7.19.0" vertical="middle" />
 
