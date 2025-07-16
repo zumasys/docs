@@ -16,7 +16,7 @@ The field object controls the UI and controls of an Input in Rover Web.
 
 ### Lookups
 
-Lookups can be used on an individual field if the `reference_file` property is defined and a corresponding FDICT with lookups exists. If all condition are met a "Search" icon will appear to the right of the input.
+Lookups can be used on an individual field if the `reference_file` property is defined and a corresponding FDICT with lookups exists. If all conditions are met a "Search" icon will appear to the right of the input.
 
 ```json 
 {
