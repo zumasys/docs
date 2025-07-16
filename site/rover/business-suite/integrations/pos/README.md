@@ -20,20 +20,22 @@ This article describes how to integrate your back end to various Rover POS featu
     - [Order Lookup](#order-lookup)
     - [Quote Lookup](#quote-lookup)
   - [Categories and Filters](#categories-and-filters)
-
+  - [Coupons](#coupons)
+  
 ## Validation Codes
 
 These validation codes are used to determine which section of POS triggered an API call to validate the current sales order.
 
-| Code                | Description                                 |
-| ------------------- | ------------------------------------------- |
-| CUSTOMER_SELECTED   | Selecting a customer to create a new order. |
-| ORDER_INFO_SELECTED | Navigating to the order information section |
-| EDIT_ORDER          | Selecting an order to edit.                 |
-| PARTS_SELECTED      | Navigating to the parts sections.           |
-| DRAFT_ORDER         | Selecting a draft order to edit.            |
-| LIS_ITEM            | Add/Edit/Remove a part from the cart.       |
-| SHIP_SEQ            | Selecting a new shipping address            |
+| Code                | Description                                  |
+| ------------------- | -------------------------------------------- |
+| CUSTOMER_SELECTED   | Selecting a customer to create a new order.  |
+| ORDER_INFO_SELECTED | Navigating to the order information section  |
+| EDIT_ORDER          | Selecting an order to edit.                  |
+| PARTS_SELECTED      | Navigating to the parts sections.            |
+| DRAFT_ORDER         | Selecting a draft order to edit.             |
+| LIS_ITEM            | Add/Edit/Remove a part from the cart.        |
+| SHIP_SEQ            | Selecting a new shipping address             |
+| COUPON_ID           | Add/Edit/Remove a coupon from a sales order. |
 
 Additionally, support for specific fields in the Order Information section can trigger a validation if the field has a defined FDICT and has `web_validate` flag enabled.
 
@@ -345,5 +347,34 @@ Filters present an additional level of power as they allow you to display differ
 ```
 
 In this example, "Brand" serves as the top level filter and "3M" is an option within. Do not be confused by the use of the term category here even though we're describing filter functionality.
+
+## Coupons
+
+Add `pos_allow_coupons` to your `MRK.CONTROL` response to enable this feature.
+
+``` json
+{
+    "pos_allow_coupons": "Y"
+}
+```
+
+Coupons are a list of coupons objects that can be added to a sales order. 
+
+``` json
+
+    {
+        "so_id": "",
+        "coupon_id_items": [
+            {
+                "coupon_id": "COUPON_1",
+                "coupon_title": "Coupon Title",
+                "coup_disc_amt": "10.00"
+            }
+        ]
+    }
+
+```
+
+Rover calculates the order total after each change to the coupon or a price/quantity change to a line item. This requires validation to be enabled by default. Each coupon update will send a validation request with the COUPON.I
 
 <PageFooter />

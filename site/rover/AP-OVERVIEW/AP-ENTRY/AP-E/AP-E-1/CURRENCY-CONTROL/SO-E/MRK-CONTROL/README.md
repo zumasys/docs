@@ -9,6 +9,9 @@
 [ Credit Cards ](MRK-CONTROL-4/README.md)   
 [ Accounting ](MRK-CONTROL-5/README.md)   
 [ POS ](MRK-CONTROL-6/README.md)
+[ POS - Select Cust](MRK-CONTROL-7/README.md)
+[ POS - Order Header](MRK-CONTROL-8/README.md)
+[ POS - Parts/Cart](MRK-CONTROL-9/README.md)
 
 **Purpose**  
 The MRK.CONTROL procedure is used to define default information which will be
