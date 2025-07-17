@@ -21,6 +21,9 @@ This article describes how to integrate your back end to various Rover POS featu
     - [Quote Lookup](#quote-lookup)
   - [Categories and Filters](#categories-and-filters)
   - [Coupons](#coupons)
+  - [Sales Order Cash Deposit](#sales-order-cash-deposit)
+    - [Sales Order](#sales-order)
+    - [Post Payment](#post-payment)
   
 ## Validation Codes
 
@@ -382,6 +385,49 @@ Coupons are a list of coupons objects that can be added to a sales order. A coup
 
 ```
 
-Rover calculates the order total after each change to the coupon or a price/quantity change to a line item. This requires validation to be enabled by default. Each coupon update will send a validation request with the COUPON.I
+Rover calculates the order total after each change to the coupon or a price/quantity change to a line item. This requires validation to be enabled by default. Each coupon update will send a validation request with the COUPON.ID
+
+## Sales Order Cash Deposit
+
+Add `pos_allow_cash_deposit` to your `MRK.CONTROL` response to enable this feature.
+
+``` json
+{
+    "pos_allow_cash_deposit": "Y"
+}
+```
+
+This process takes the `order_amount` from the order and creates an invoice similar to paying an invoice. The type of `CASH` would be `OA`. The order ID will add to the tender list.
+
+### Sales Order
+
+```json
+{
+    "so_id": "28456",
+    "order_amount": "178.20",
+}
+```
+
+### Post Payment
+
+```json
+{
+    "payment_type": "CA",
+    "check_amount": "178.20",
+    "cust": "989",
+    "tran_type": "fmp",
+    "li_items": [
+        {
+            "li": "1",
+            "amount": "178.20",
+            "type": "OA",
+            "ar_app_amt": "178.20",
+            "pay_note": "",
+            "new_ar_id": ""
+        }
+    ],
+    "so_id": "28456"
+}
+```
 
 <PageFooter />

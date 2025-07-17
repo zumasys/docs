@@ -15,6 +15,8 @@ These are the release notes for version 2.14.0 (TBD) of the Rover Web applicatio
 - Ability to add/update/view coupons to sales orders has been added. Requires [MRK.CONTROL](../../../AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-8/README.md#allow-coupons) toggle to be enabled.
 ![Coupons](./pos-coupons.gif)
 
+- Ability to apply a cash deposit to a sales order has been added. Requires [MRK.CONTROL](../../../AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-7/README.md#pos-allow-cash-deposit) toggle to be enabled.
+
 #### General
 
 - Search button has been added to fields with file dictionary references. This allows the ability to search against multiple lookup.

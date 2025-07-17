@@ -40,6 +40,12 @@ These controls are used to configure the Rover Web POS customer selection page.
 
 **POS Allow Edit Order** Checking this box will add the ability to edit an order within POS.
 
+#### POS Allow Cash Deposit
+
+Checking this box will add the ability to add a deposit for a sales order.
+
+[Integrations](../../../../../../../../business-suite/integrations/pos/README.md#sales-order-cash-deposit)
+
 <badge text= "Version 1.7.19.0" vertical="middle" />
 
 <PageFooter />
