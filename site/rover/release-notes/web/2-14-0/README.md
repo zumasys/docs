@@ -16,6 +16,7 @@ These are the release notes for version 2.14.0 (TBD) of the Rover Web applicatio
 ![Coupons](./pos-coupons.gif)
 
 - Ability to apply a cash deposit to a sales order has been added. Requires [MRK.CONTROL](../../../AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-7/README.md#pos-allow-cash-deposit) toggle to be enabled.
+- ![Cash Deposit](./pos-cash-deposit.gif)
 
 #### General
 

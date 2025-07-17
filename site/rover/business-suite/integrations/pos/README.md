@@ -23,6 +23,7 @@ This article describes how to integrate your back end to various Rover POS featu
   - [Coupons](#coupons)
   - [Sales Order Cash Deposit](#sales-order-cash-deposit)
     - [Sales Order](#sales-order)
+    - [Payment metadata](#payment-metadata)
     - [Post Payment](#post-payment)
   
 ## Validation Codes
@@ -403,8 +404,26 @@ This process takes the `order_amount` from the order and creates an invoice simi
 
 ```json
 {
-    "so_id": "28456",
-    "order_amount": "178.20",
+    "so_id": "28460",
+    "order_amount": "10.00",
+}
+```
+
+### Payment metadata
+
+Since deposit uses the payment API (Invoices) we send a query parameter on the request
+
+`/payment?deposit=true`
+
+Which adds `deposit` to the metadata payload on the request.
+
+```json
+{
+    "record": {/* Invoice information */},
+    "filename": "CASH" ,
+    "metaData": {
+        "deposit": true,
+    }
 }
 ```
 
@@ -413,20 +432,20 @@ This process takes the `order_amount` from the order and creates an invoice simi
 ```json
 {
     "payment_type": "CA",
-    "check_amount": "178.20",
-    "cust": "989",
+    "check_amount": "10.00",
+    "change_amt": 0,
     "tran_type": "fmp",
     "li_items": [
         {
             "li": "1",
-            "amount": "178.20",
+            "amount": "10.00",
             "type": "OA",
-            "ar_app_amt": "178.20",
+            "ar_app_amt": "10.00",
             "pay_note": "",
             "new_ar_id": ""
         }
     ],
-    "so_id": "28456"
+    "so_id": "28460"
 }
 ```
 
