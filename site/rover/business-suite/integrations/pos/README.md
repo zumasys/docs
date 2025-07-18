@@ -398,7 +398,7 @@ Add `pos_allow_cash_deposit` to your `MRK.CONTROL` response to enable this featu
 }
 ```
 
-This process requires the property `allow_deposit` with the value `Y` to appear in the order action. The `order_amount` from the order and creates an invoice similar to paying an invoice. The type of `CASH` would be `OA`. The order ID will add to the tender list.
+This process requires the property `accept_deposit` with the value `Y` to appear in the order actions. The `order_amount` from the order and creates an invoice similar to paying an invoice. The type of `CASH` would be `OA`. The order ID will add to the tender list.
 
 ### Sales Order
 
@@ -406,7 +406,7 @@ This process requires the property `allow_deposit` with the value `Y` to appear 
 {
     "so_id": "28460",
     "order_amount": "10.00",
-    "allow_deposit": "Y"
+    "accept_deposit": "Y"
 }
 ```
 
