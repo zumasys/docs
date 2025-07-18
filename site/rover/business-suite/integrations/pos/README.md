@@ -390,7 +390,7 @@ Rover calculates the order total after each change to the coupon or a price/quan
 
 ## Sales Order Cash Deposit
 
-Add `pos_allow_cash_deposit` to your `MRK.CONTROL` response to enable this feature.
+Add `pos_allow_cash_deposit` to your `MRK.CONTROL` response to enable this feature. 
 
 ``` json
 {
@@ -398,7 +398,7 @@ Add `pos_allow_cash_deposit` to your `MRK.CONTROL` response to enable this featu
 }
 ```
 
-This process takes the `order_amount` from the order and creates an invoice similar to paying an invoice. The type of `CASH` would be `OA`. The order ID will add to the tender list.
+This process requires the property `allow_deposit` with the value `Y` to appear in the order action. The `order_amount` from the order and creates an invoice similar to paying an invoice. The type of `CASH` would be `OA`. The order ID will add to the tender list.
 
 ### Sales Order
 
@@ -406,6 +406,7 @@ This process takes the `order_amount` from the order and creates an invoice simi
 {
     "so_id": "28460",
     "order_amount": "10.00",
+    "allow_deposit": "Y"
 }
 ```
 
