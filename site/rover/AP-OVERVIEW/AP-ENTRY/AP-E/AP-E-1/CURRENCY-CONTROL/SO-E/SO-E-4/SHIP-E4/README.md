@@ -6,7 +6,7 @@
 [ Form Details ](SHIP-E4-1/README.md)   
 
 **Purpose**  
-The [ SHIP.E2 ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2) procedure is used to approve a shipment for posting to Accounts Receivable. This is an option procedure. A flag exists in [ SHIP.CONTROL ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) named "Require Approval?" that will require this option to be used before any posting can occur.   
+The [ SHIP.E2 ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2) procedure is used to approve a shipment for posting to Accounts Receivable. This is an option procedure. A flag exists in [ SHIP.CONTROL ](../../../../../../ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) named "Require Approval?" that will require this option to be used before any posting can occur.   
   
 The main purpose of this procedure is to allow the Accounting Department to
 review all shipments prior to posting, rather than post directly after the
