@@ -188,32 +188,6 @@ MENU.E provides various icon options:
 <!-- ![Report Integration](./report-integration.png) -->
 <!-- *Adding reports to menus with proper command syntax* -->
 
-## Troubleshooting
 
-### Common Issues and Solutions
-
-| Issue | Solution |
-|-------|----------|
-| Command doesn't appear in menu | Check user security permissions |
-| Menu item shows but won't execute | Verify command name spelling and syntax |
-| Icons not displaying | Ensure icon names are valid and exist |
-| Menu changes not visible | Clear browser cache or restart M3 session |
-
-### Validation Checklist
-
-Before deploying menu changes:
-- [ ] All command names are spelled correctly
-- [ ] Icons display properly
-- [ ] Descriptions are clear and helpful
-- [ ] Security permissions are appropriate
-- [ ] Menu organization is logical
-- [ ] All commands execute successfully
-
-## Related Documentation
-
-For additional information, see:
-- [SECURITY.E](../SECURITY-E/) - Managing user permissions
-- [RD.E](../RD-E/) - Report writer for menu-compatible reports
-- [Menu Structure Overview](../../menu-structure/) - Complete menu hierarchy guide
 
 <PageFooter />
