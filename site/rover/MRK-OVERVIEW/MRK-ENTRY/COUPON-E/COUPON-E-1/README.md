@@ -17,8 +17,8 @@ sequential number.
 the coupon is effective immediately.  
   
 **Exp Date** Enter the expiration date of the coupon. If no date is entered,
-the coupon is effective indefinately or until maximum number of uses has been
-reached.  
+the coupon is effective indefinitely or until maximum number of uses has been
+reached.
   
 **Inactive** Check this box to inactivate this coupon.  
   
