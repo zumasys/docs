@@ -16,6 +16,7 @@ Here's a sneak peek of what's to come in Rover Web as of [v2.12.4](./web/2-12-4/
 
 | Version                               | Date       | Download                                                                         |
 | ------------------------------------- | ---------- | -------------------------------------------------------------------------------- |
+| [v2.3.0](./desktop/2-3-0/README.md)   | 2025-08-06 | [🔗](https://roverdesktop.blob.core.windows.net/apps/rover-installer-2.3.0.zip)  |
 | [v2.2.0](./desktop/2-2-0/README.md)   | 2024-12-20 | [🔗](https://roverdesktop.blob.core.windows.net/apps/rover-installer-2.2.0.zip)  |
 | [v2.1.0](./desktop/2-1-0/README.md)   | 2024-12-18 | [🔗](https://roverdesktop.blob.core.windows.net/apps/rover-installer-2.1.0.zip)  |
 | [v2.0.0](./desktop/2-0-0/README.md)   | 2024-12-13 | [🔗](https://roverdesktop.blob.core.windows.net/apps/rover-installer-2.0.0.zip)  |
