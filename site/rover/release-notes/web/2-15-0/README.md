@@ -18,6 +18,8 @@ These are the release notes for version 2.15.0 (TBD) of the Rover Web applicatio
 - Many Multi-select fields now support filtering for easier selection of items.
 ![Multi-select Filtering](./multi-select-filter.png)
 
+- The Recently Viewed Customers display found in multiple modules (Point of Sale, Customer Inquiry, Field Services) will now be limited to 10 customers. Recently viewed lists will be truncated to include the 10 most recent customers the next time a customer not present in the list is viewed. This will improve application performance, especially on mobile devices, and keep results relevant and easily navigable.
+
 ## Bug Fixes
 
 ### Rover Web
