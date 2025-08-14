@@ -15,12 +15,20 @@ These are the release notes for version 2.15.0 (TBD) of the Rover Web applicatio
 - Search button has been added to fields with file dictionary references. This allows the ability to search for valid values using the lookups defined for that field.
   > Availability is limited to input fields in Inventory Work Orders, Point of Sale Orders, and Point of Sale Quotes.
 
-- Many Multi-select fields now support filtering for easier selection of items.
-![Multi-select Filtering](./multi-select-filter.png)
+- Many multi-select fields now support filtering for easier selection of items.
 
-- The Recently Viewed Customers display found in multiple modules (Point of Sale, Customer Inquiry, Field Services) will now be limited to 10 customers. Recently viewed lists will be truncated to include the 10 most recent customers the next time a customer not present in the list is viewed. This will improve application performance, especially on mobile devices, and keep results relevant and easily navigable.
+  ![Multi-select Filtering](./multi-select-filter.png)
 
-- "Follow Up Date" column has been added to Opportunity data tables throughout the application.
+- The _Recently Viewed Customers_ display found in multiple modules (**Point of Sale**, **Customers**, **Field Services**) will now be limited to 10 customers. Recently viewed lists will be truncated to include the 10 most recent customers the next time a customer not present in the list is viewed. This improves application performance, especially on mobile devices, and keep results relevant and easily navigable.
+
+- Showed some love to the _Sales Opportunities_ table.
+  - Added a _Follow Up Date_ column with a hover to show how many days away (or behind) the date is.
+
+    ![Sales Opportunity Follow Up Dates](./opps-follow-up-date.png)
+  - Added a quick action for _Adding Log Entries_ so you no longer have to open an opportunity for editing to log tasks to it.
+
+    ![Sales Opportunity Log Entry Quick Action](./opps-log-entry-action.png)
+
 ## Bug Fixes
 
 ### Rover Web
