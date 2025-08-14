@@ -20,6 +20,7 @@ These are the release notes for version 2.15.0 (TBD) of the Rover Web applicatio
 
 - The Recently Viewed Customers display found in multiple modules (Point of Sale, Customer Inquiry, Field Services) will now be limited to 10 customers. Recently viewed lists will be truncated to include the 10 most recent customers the next time a customer not present in the list is viewed. This will improve application performance, especially on mobile devices, and keep results relevant and easily navigable.
 
+- "Follow Up Date" column has been added to Opportunity data tables throughout the application.
 ## Bug Fixes
 
 ### Rover Web
@@ -27,5 +28,9 @@ These are the release notes for version 2.15.0 (TBD) of the Rover Web applicatio
 #### Point of Sale
 
 - Improved scanning functionality behaviors when host-side validation is enabled. Pending validations will now be cancelled to allow additional scans to be accepted and validated, preventing data loss.
+
+- Improved behavior during rapid clicking of category options.  Pending requests for products are now cancelled allowing the latest request to fill the results.
+
+- Resolved issues with validation confirmation prompts not being honored.  Validation bypass, when enabled by a backend, is now properly handled.
 
 <PageFooter />
