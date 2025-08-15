@@ -12,9 +12,6 @@ These are the release notes for version 2.15.0 (8/14/2025) of the Rover Web appl
 
 #### General
 
-- Search button has been added to fields with file dictionary references. This allows the ability to search for valid values using the lookups defined for that field.
-  > Availability is limited to input fields in Inventory Work Orders, Point of Sale Orders, and Point of Sale Quotes.
-
 - Many multi-select fields now include built-in filtering, making it quicker to find and select items.    
 
   ![Multi-select Filtering](./multi-select-filter.png)
