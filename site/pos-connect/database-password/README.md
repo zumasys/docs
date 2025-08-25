@@ -1,8 +1,10 @@
+<PageHeader />  
+
 # Database Password Update
 
 ## Step 1: Encrypt Login Credentials
 
-Next follow these steps to enter and encrypt the database login credentials.
+Follow these steps to enter and encrypt the database login credentials.
 
 1. Navigate to the `scripts` directory
 2. `PCT.editProps`
@@ -14,15 +16,12 @@ Next follow these steps to enter and encrypt the database login credentials.
 
 # Troubleshooting: Updating DASU and DASP Environment Variable Credentials
 
-<PageHeader />  
-
-This article describes how to resolve issues caused by outdated hardcoded credentials in the Colleague DASU and DASP environment variables, including updating the relevant code and restarting the necessary services.
 
 ## Overview
 
 During the Colleague login process, the environment variables `DASU` and `DASP` are set by logic stored in `XTCS.EXT.SRC.CODE` and `XTCS.POS.SET.DAS.VARS`. Old, hardcoded usernames and passwords in these files can prevent users from authenticating successfully.
 
-To correct this, the credentials must be updated in the source code, followed by restarting the listeners.
+To correct this, the credentials must be updated in the code, followed by restarting the listeners.
 
 ---
 
