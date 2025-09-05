@@ -19,6 +19,8 @@ These are the release notes for version 2.16.0 (TBD) of the Rover Web applicatio
 
 ### Rover Web
 
-#### Point of Sale
+#### Inventory
+
+ - Fixed multiple issues with pagination and changing rows per page in the Parts search results table.
 
 <PageFooter />
