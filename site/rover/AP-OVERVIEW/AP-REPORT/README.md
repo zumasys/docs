@@ -39,7 +39,8 @@
 [ CHECKS.R6 ](CHECKS-R6/README.md) Cleared Checks   
 [ CHECKS.R7 ](CHECKS-R7/README.md) List Checks for a Precheck Run   
 [ CHECKS.R8 ](CHECKS-R8/README.md) Checks Distribution Listing   
-[ CHECKS.R9 ](CHECKS-R9/README.md) Open Debit A/P Prepayment Checks   
+[ CHECKS.R9 ](CHECKS-R9/README.md) Open Debit A/P Prepayment Checks  
+[ CHECKS.R10 ](CHECKS-R10/README.md) Electronic Payment Advice Report  
 [ COMM.R5 ](COMM-R5/README.md) Commission Payment Report   
 [ LASER.L1 ](LASER-L1/README.md) Print File or Address Labels   
 [ PRECHECKS.R1 ](PRECHECKS-R1/README.md) Prechecks Listing by Run Number   
