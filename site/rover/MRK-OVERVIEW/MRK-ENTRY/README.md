@@ -15,7 +15,7 @@
 [ FAIL.CONTROL ](FAIL-CONTROL/README.md) Define RMA Failure Codes   
 [ GROUP.CONTROL ](../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/CAMPAIGN-E/CAMPAIGN-E-1/GROUP-CONTROL) Define Valid Marketing Groups   
 [ LOSTSALE.CONTROL ](LOSTSALE-CONTROL/README.md) Lost Sale Control Entry Procedure   
-[ LOSTSALE.E ](LOSTSALE-E/README.md) Lost Sale Entry Procedure   
+[ LOSTSALE.E ](LOSTSALE-CONTROL/LOSTSALE-E/README.md) Lost Sale Entry Procedure   
 [ MASS.EMAIL ](MASS-EMAIL/README.md) Mass Email   
 [ MRK.CONTROL ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) Enter Marketing Module Controls and Defaults   
 [ MRKCODE.E ](MRKCODE-E/README.md) Enter Marketing Codes   
@@ -25,7 +25,7 @@
 [ PRICE.E ](../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/PRICE-E) Enter Part Prices   
 [ PRICE.E2 ](PRICE-E2/README.md) Enter Part Prices by Customer Code   
 [ PROSPECT.CONTROL ](PROSPECT-CONTROL/README.md) Define Prospect Controls   
-[ PROSPECT.E ](PROSPECT-E/README.md) Enter Prospects   
+[ PROSPECT.E ](PROSPECT-CONTROL/PROSPECT-E/README.md) Enter Prospects   
 [ QUOTE.CONTROL ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-1/SOQUOTE-E/SOQUOTE-E-1/QUOTE-CONTROL) Enter Quote Controls and Defaults   
 [ QUOTE.E ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-1/SOQUOTE-E/QUOTE-E) Enter Quotes   
 [ PSO.E ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-2/PSO-E) Enter Point of Sale Orders   

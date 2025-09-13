@@ -137,8 +137,8 @@ use of all available marketing functions:
   
 [ REP.E ](../../rover/AP-OVERVIEW/AP-ENTRY/PRECOMM-E/PRECOMM-E-1/REP-E) Identification of sales representatives   
 [ PRICE.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/PRICE-E) Entry of product prices   
-[ FAIL.CONTROL ](FAIL-CONTROL/README.md) Definition of valid failure codes for RMA processing   
-[ MTBF.CONTROL ](MTBF-CONTROL/README.md) Definition of MTBF calculation parameters   
+[ FAIL.CONTROL ](MRK-ENTRY/FAIL-CONTROL/README.md) Definition of valid failure codes for RMA processing   
+[ MTBF.CONTROL ](MRK-ENTRY/MTBF-CONTROL/README.md) Definition of MTBF calculation parameters   
 [ STAX.E ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/STAX-E) Sales tax 
 
 **Flow of Activities**  
@@ -154,7 +154,7 @@ Authorizations for returned merchandise may be entered with [ RMA.E ](../../rove
   
 In addtion to confirming the receipt, [ RMAREC.E2 ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMA-E/RMA-E-1/RMAREC-E2) allows entry of additional information such as failure codes, miscellaneous charges, etc. Once the receipt has been confirmed, it can be posted via [ RMAREC.P1 ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMAREC-P1) . The posting process updates the sales history file (SALES), the commissions file (COMM) and the accounts receivable file (AR). An accounts receivable credit memo will only be created if the rma record has been flagged to create one.   
   
-Prior to posting, changes may be made to the rma receipt via [ RMAREC.E2 ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMA-E/RMA-E-1/RMAREC-E2) . Once the receipt has been posted, it can be reversed via [ RMAREC.E3 ](RMAREC-E3/README.md) . When the record is saved the inventory transactions will be reversed and when the record is posted reversing sales, commission and accounts receivable (if applicable) records will be created.   
+Prior to posting, changes may be made to the rma receipt via [ RMAREC.E2 ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMA-E/RMA-E-1/RMAREC-E2) . Once the receipt has been posted, it can be reversed via [ RMAREC.E3 ](MRK-ENTRY/RMAREC-E3/README.md) . When the record is saved the inventory transactions will be reversed and when the record is posted reversing sales, commission and accounts receivable (if applicable) records will be created.   
   
 The maintenance of the Customer file ( [ CUST.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) ) and the Terms file ( [ TERMS.E ](../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E) ) should be done as new items are required or changes need to be made.   
   

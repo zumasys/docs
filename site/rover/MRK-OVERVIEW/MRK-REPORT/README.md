@@ -21,7 +21,7 @@
 [ PRICE.R2 ](PRICE-R2/README.md) Part Configuration Price Breakdown   
 [ PRICE.R3 ](PRICE-R3/README.md) Horizontal Price Listing   
 [ PROSPECT.R1 ](PROSPECT-R1/README.md) Prospect Listing by Name   
-[ PROSPECT.R2 ](PROSPECT-R2/README.md) Prospect Listing by Rep   
+[ PROSPECT.R2 ](../MRK-ENTRY/REP-CONTROL/PROSPECT-R2/README.md) Prospect Listing by Rep   
 [ PROSPECT.R3 ](PROSPECT-R3/README.md) Prospect Listing by Campaign Date Range   
 [ PROSPECT.R4 ](PROSPECT-R4/README.md) Prospect Listing by Cutoff Date   
 [ PROSPECT.R5 ](PROSPECT-R5/README.md) Prospect Pipeline Report   
@@ -54,8 +54,8 @@
 [ SALES.Q ](SALES-Q/README.md) Sales Analysis Inquiry   
 [ SALES.R1 ](SALES-R1/README.md) Sales Listing by Part or Model   
 [ SALES.R2 ](SALES-R2/README.md) Summary Sales Listing by Part or Model   
-[ SALES.R3 ](SALES-R3/README.md) Sales Listing by Rep   
-[ SALES.R4 ](SALES-R4/README.md) Summary Sales Listing by Rep   
+[ SALES.R3 ](../MRK-ENTRY/REP-CONTROL/SALES-R3/README.md) Sales Listing by Rep   
+[ SALES.R4 ](../MRK-ENTRY/REP-CONTROL/SALES-R4/README.md) Summary Sales Listing by Rep   
 [ SALES.R5 ](SALES-R5/README.md) Sales Listing by Customer   
 [ SALES.R6 ](SALES-R6/README.md) Summary Sales Listing by Customer   
 [ SALES.R7 ](SALES-R7/README.md) Sales Listing by Date   
@@ -63,7 +63,7 @@
 [ SALES.R9 ](SALES-R9/README.md) Sales Revenue by Period   
 [ SALES.R10 ](SALES-R10/README.md) Sales Listing by Model   
 [ SALES.R11 ](SALES-R11/README.md) Customer Sales by Dollar Value   
-[ SALES.R12 ](SALES-R12/README.md) Summary Sales and Backlog by Rep and Customer   
+[ SALES.R12 ](../MRK-ENTRY/REP-CONTROL/SALES-R12/README.md) Summary Sales and Backlog by Rep and Customer   
 [ SALES.R13 ](SALES-R13/README.md) Sales Profitability by Category   
 [ SALES.R14 ](SALES-R14/README.md) Summary Sales by Customer Code   
 [ SALES.R15 ](SALES-R15/README.md) Sales by Customer by Part   
@@ -71,17 +71,17 @@
 [ SALES.R17 ](SALES-R17/README.md) Forecast to Sales Comparison   
 [ SALES.R18 ](SALES-R18/README.md) Sales by Customer by Descending Amount   
 [ SALES.R19 ](SALES-R19/README.md) Customer Sales by State   
-[ SALES.R20 ](SALES-R20/README.md) Sales by Rep by Descending Amount   
-[ SALES.R21 ](SALES-R21/README.md) Rep Sales by State by Customer   
-[ SALES.R22 ](SALES-R22/README.md) Rep Sales by State by Descending Customer Amount   
+[ SALES.R20 ](../MRK-ENTRY/REP-CONTROL/SALES-R20/README.md) Sales by Rep by Descending Amount   
+[ SALES.R21 ](../MRK-ENTRY/REP-CONTROL/SALES-R21/README.md) Rep Sales by State by Customer   
+[ SALES.R22 ](../MRK-ENTRY/REP-CONTROL/SALES-R22/README.md) Rep Sales by State by Descending Customer Amount   
 [ SALES.R23 ](SALES-R23/README.md) Net Sales Revenue by Period by Customer   
-[ SALES.R24 ](SALES-R24/README.md) Sales by Rep by Category   
+[ SALES.R24 ](../MRK-ENTRY/REP-CONTROL/SALES-R24/README.md) Sales by Rep by Category   
 [ SALES.R25 ](SALES-R25/README.md) Sales by Part by Descending Amount   
 [ SALES.R26 ](SALES-R26/README.md) Customer Sales Report with Cost Break-Down   
 [ SALES.R27 ](SALES-R27/README.md) Net Sales Revenue by Period by Customer by Part   
-[ SALES.R28 ](SALES-R28/README.md) Sales by Rep by Part   
+[ SALES.R28 ](../MRK-ENTRY/REP-CONTROL/SALES-R28/README.md) Sales by Rep by Part   
 [ SALES.R29 ](SALES-R29/README.md) Part Category Sales by State   
-[ SALES.R30 ](SALES-R30/README.md) Net Sales Revenue by Period by Rep   
+[ SALES.R30 ](../MRK-ENTRY/REP-CONTROL/SALES-R30/README.md) Net Sales Revenue by Period by Rep   
 [ SALES.R31 ](SALES-R31/README.md) Summary Customer Sales Report by Year   
 [ SALES.R32 ](SALES-R32/README.md) Sales by Marketing Code   
 [ SERIAL.R1 ](SERIAL-R1/README.md) Serial Number Listing by Part Number   
@@ -126,8 +126,8 @@
 [ SO.R17 ](SO-R17/README.md) SO Pick List   
 [ SOBOOK.R1 ](SOBOOK-R1/README.md) Sales Order Bookings by Part or Model   
 [ SOBOOK.R2 ](SOBOOK-R2/README.md) Summary Sales Order Bookings by Part or Model   
-[ SOBOOK.R3 ](SOBOOK-R3/README.md) Sales Order Bookings by Rep   
-[ SOBOOK.R4 ](SOBOOK-R4/README.md) Summary Sales Order Bookings by Rep   
+[ SOBOOK.R3 ](../MRK-ENTRY/REP-CONTROL/SOBOOK-R3/README.md) Sales Order Bookings by Rep   
+[ SOBOOK.R4 ](../MRK-ENTRY/REP-CONTROL/SOBOOK-R4/README.md) Summary Sales Order Bookings by Rep   
 [ SOBOOK.R5 ](SOBOOK-R5/README.md) Sales Order Bookings by Customer   
 [ SOBOOK.R6 ](SOBOOK-R6/README.md) Summary Sales Order Bookings by Customer   
 [ SOBOOK.R7 ](SOBOOK-R7/README.md) Sales Order Bookings by Date   
@@ -139,7 +139,7 @@
 [ SOQUOTE.R2 ](SOQUOTE-R2/README.md) Sales Order Quote Listing by Expiration Date   
 [ SOQUOTE.R3 ](SOQUOTE-R3/README.md) Sales Order Quote Listing by Customer   
 [ SOQUOTE.R4 ](SOQUOTE-R4/README.md) Sales Order Quote Listing by Prospect   
-[ SOQUOTE.R5 ](SOQUOTE-R5/README.md) Sales Order Quote by Rep   
+[ SOQUOTE.R5 ](../MRK-ENTRY/REP-CONTROL/SOQUOTE-R5/README.md) Sales Order Quote by Rep   
 [ STAX.R1 ](../../../rover/AR-OVERVIEW/AR-REPORT/STAX-R1) Sales Tax Code Listing   
 [ WARR.R1 ](WARR-R1/README.md) Warranty Listing   
   
