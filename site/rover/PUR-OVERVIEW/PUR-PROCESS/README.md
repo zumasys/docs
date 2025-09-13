@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-[ PO.P1 ](PO-P1/README.md) Purge Purchase Order Records   
+[ PO.P1 ](RECEIPTS-P2/PO-P1/README.md) Purge Purchase Order Records   
 [ PO.P3 ](PO-P3/README.md) Rebuild Open Order Amount in Vendor File   
 [ PO.P4 ](PO-P4/README.md) Mass Close Open Purchase Orders   
 [ POPRICE.P1 ](POPRICE-P1/README.md) Update Purchase Prices by Vendor   

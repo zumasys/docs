@@ -9,7 +9,7 @@
 [ CONTAINER.R4 ](CONTAINER-R4/README.md) Container Receipt Report   
 [ CONTAINER.R5 ](CONTAINER-R5/README.md) Containers Due for Arrival   
 [ DMR.R1 ](DMR-R1/README.md) DMR Listing for a Date Range   
-[ DMR.R2 ](DMR-R2/README.md) DMR Listing for a Vendor   
+[ DMR.R2 ](DMR-R1/DMR-R2/README.md) DMR Listing for a Vendor   
 [ DMR.R3 ](DMR-R3/README.md) DMR Listing for a Part Number   
 [ LASER.L1 ](../../../rover/AP-OVERVIEW/AP-REPORT/LASER-L1) Print File or Adress Labels   
 [ MRP.R4 ](../../../rover/MFG-OVERVIEW/MFG-REPORT/MRP-R4) Purchasing Action Report   
