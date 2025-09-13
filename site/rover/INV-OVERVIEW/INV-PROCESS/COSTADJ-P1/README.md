@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](COSTADJ-P1-1/README.md)   
+[ Form Details ](COSTADJ-P1-1/)   
 
 **Purpose**  
 The COSTADJ.P1 procedure is used to purge inactive COSTADJ records from the

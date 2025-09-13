@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INV-R1-1/README.md)   
+[ Form Details ](INV-R1-1/)   
 
 **Purpose**  
 The INV.R1 procedure is used to produce a costed inventory listing. The report

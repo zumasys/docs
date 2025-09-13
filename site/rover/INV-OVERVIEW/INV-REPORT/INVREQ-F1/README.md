@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INVREQ-F1-1/README.md)   
+[ Form Details ](INVREQ-F1-1/)   
 
 **Purpose**  
 

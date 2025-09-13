@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](IT-E6-1/README.md)   
+[ Form Details ](IT-E6-1/)   
 
 **Purpose**  
 

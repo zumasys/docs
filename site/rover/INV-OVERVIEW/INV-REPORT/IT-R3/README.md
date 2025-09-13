@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](IT-R3-1/README.md)   
+[ Form Details ](IT-R3-1/)   
 
 **Purpose**  
 The IT.R3 procedure is used to create an inventory transaction listing for a

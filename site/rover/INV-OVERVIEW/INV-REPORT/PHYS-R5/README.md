@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](PHYS-R5-1/README.md)   
+[ Form Details ](PHYS-R5-1/)   
 
 **Purpose**  
 The [ PHYS.R2 ](../../../../rover/INV-OVERVIEW/INV-REPORT/PHYS-R2) procedure is used to print a cost variation report for all uncounted parts. All parts with a quantity on hand in a stocking location included in the physical for which no tag has been created will appear on this report. The quantities should then be verified and tags created for these items.   

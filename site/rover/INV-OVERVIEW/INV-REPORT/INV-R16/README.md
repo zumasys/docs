@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INV-R16-1/README.md)   
+[ Form Details ](INV-R16-1/)   
 
 **Purpose**  
 The INV.R16 procedure is used to produce a report which shows inventory availability for specified part numbers. The component requirements are combined for all specified assemblies. If you wish to view the requirements by assembly number run procedure [ INV.R4 ](../../../../rover/INV-OVERVIEW/INV-REPORT/INV-R4) .   

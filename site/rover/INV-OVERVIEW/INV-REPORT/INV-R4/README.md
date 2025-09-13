@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INV-R4-1/README.md)   
+[ Form Details ](INV-R4-1/)   
 
 **Purpose**  
 The INV.R4 procedure is used to produce a report which shows inventory

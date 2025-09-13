@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INVLOC-R1-1/README.md)   
+[ Form Details ](INVLOC-R1-1/)   
 
 **Purpose**  
 The INVLOC.R1 procedure is used to print a listing of all inventory locations

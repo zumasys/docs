@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INVREQ-E-1/README.md)   
+[ Form Details ](INVREQ-E-1/)   
 
 **Purpose**  
 The INVREQ.E procedure is used to enter new requisitions into the system and to change existing requisitions. The procedure consists of information about the requestor, due date and notes and what is being requested, such as part number, quantity and locations. The requisition can be filled by entering the Req. ID in [ IT.E2 ](../../../../rover/INV-OVERVIEW/INV-ENTRY/IT-E2) which will then update the requisition with the quantities issued. 

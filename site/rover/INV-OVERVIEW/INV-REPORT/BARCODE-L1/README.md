@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](BARCODE-L1-1/README.md)   
+[ Form Details ](BARCODE-L1-1/)   
 
 **Purpose**  
 The BARCODE.L1 procedure is used to print bar codes for any set of char-

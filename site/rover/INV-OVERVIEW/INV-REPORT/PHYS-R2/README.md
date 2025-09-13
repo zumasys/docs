@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](PHYS-R2-1/README.md)   
+[ Form Details ](PHYS-R2-1/)   
 
 **Purpose**  
 The PHYS.R2 procedure is used to print a cost variation report of all parts

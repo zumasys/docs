@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](IT-P1-1/README.md)   
+[ Form Details ](IT-P1-1/)   
 
 **Purpose**  
 The IT.P1 procedure is used to purge posted inventory transaction records from

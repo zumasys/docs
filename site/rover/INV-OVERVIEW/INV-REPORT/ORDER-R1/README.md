@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](ORDER-R1-1/README.md)   
+[ Form Details ](ORDER-R1-1/)   
 
 **Purpose**  
 The ORDER.R1 procedure provides a list of all material on order by part

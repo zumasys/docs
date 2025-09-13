@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](PHYS-R6-1/README.md)   
+[ Form Details ](PHYS-R6-1/)   
 
 **Purpose**  
 The PHYS.R6 procedure is used to print a report of all parts counted for a

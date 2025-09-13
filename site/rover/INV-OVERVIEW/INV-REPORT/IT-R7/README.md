@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](IT-R7-1/README.md)   
+[ Form Details ](IT-R7-1/)   
 
 **Purpose**  
 The IT.R7 procedure is used to create an inventory transaction listing for a

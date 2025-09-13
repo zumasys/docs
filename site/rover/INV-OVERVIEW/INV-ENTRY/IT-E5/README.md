@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](IT-E5-1/README.md)   
+[ Form Details ](IT-E5-1/)   
 
 **Purpose**  
 The IT.E5 procedure is used to enter multiple inventory transactions to record

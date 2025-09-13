@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](PHYS-P2-1/README.md)   
+[ Form Details ](PHYS-P2-1/)   
 
 **Purpose**  
 The PHYS.P2 procedure is used to create extra, blank tags to be used as part

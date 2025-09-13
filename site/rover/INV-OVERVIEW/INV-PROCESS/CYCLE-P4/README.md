@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](CYCLE-P4-1/README.md)   
+[ Form Details ](CYCLE-P4-1/)   
 
 **Purpose**  
 The CYCLE.P4 procedure is used to purge posted cycle count records from the

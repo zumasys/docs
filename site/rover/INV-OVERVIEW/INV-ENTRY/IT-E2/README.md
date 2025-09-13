@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](IT-E2-1/README.md)   
+[ Form Details ](IT-E2-1/)   
 
 **Purpose**  
 The IT.E2 procedure is used to enter multiple inventory transactions in one

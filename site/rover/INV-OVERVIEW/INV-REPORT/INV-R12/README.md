@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INV-R12-1/README.md)   
+[ Form Details ](INV-R12-1/)   
 
 **Purpose**  
 The INV.R12 procedure is used to produce a inventory listing for specified

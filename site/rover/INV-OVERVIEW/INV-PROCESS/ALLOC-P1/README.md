@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](ALLOC-P1-1/README.md)   
+[ Form Details ](ALLOC-P1-1/)   
 
 **Purpose**  
 The ALLOC.P1 procedure recalculates and sets the allocated inventory figures

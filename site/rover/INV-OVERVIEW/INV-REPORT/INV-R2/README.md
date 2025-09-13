@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INV-R2-1/README.md)   
+[ Form Details ](INV-R2-1/)   
 
 **Purpose**  
 The INV.R2 procedure is used to produce a report which shows what parts are

@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](COMMIT-P1-1/README.md)   
+[ Form Details ](COMMIT-P1-1/)   
 
 **Purpose**  
 The COMMIT.P1 procedure recalculates and sets the committed inventory figures

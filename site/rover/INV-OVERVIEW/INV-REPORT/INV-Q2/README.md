@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INV-Q2-1/README.md)   
+[ Form Details ](INV-Q2-1/)   
 
 **Purpose**  
 The INV.Q2 procedure provides an inquiry of the status of inventory by part

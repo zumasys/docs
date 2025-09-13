@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](USAGE-R3-1/README.md)   
+[ Form Details ](USAGE-R3-1/)   
 
 **Purpose**  
 USAGE.R3 shows 12 monthly usage columns based on the cutoff month and year

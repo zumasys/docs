@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INV-R14-1/README.md)   
+[ Form Details ](INV-R14-1/)   
 
 **Purpose**  
 The purpose of INV.R14 is to give you an estimate of the inventory balance as

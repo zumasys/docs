@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](COMMIT-R1-1/README.md)   
+[ Form Details ](COMMIT-R1-1/)   
 
 **Purpose**  
 The COMMIT.R1 procedure provides a list of all material commitments by part

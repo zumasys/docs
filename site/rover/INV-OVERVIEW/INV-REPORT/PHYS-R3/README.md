@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](PHYS-R3-1/README.md)   
+[ Form Details ](PHYS-R3-1/)   
 
 **Purpose**  
 The PHYS.R3 procedure is used to print an audit report of all tags which have
