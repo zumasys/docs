@@ -11,9 +11,9 @@
 [ ROUTING.P1 ](ROUTING-P1/README.md) Reload Work Center Data into the Routings   
 [ ROUTING.P2 ](ROUTING-P2/README.md) Routing Mass Update Procedure   
 [ WO.P1 ](WO-P1/README.md) Rebuild Work Order Cross-References   
-[ WO.P2 ](WO-P2/README.md) Purge Work Order Records   
-[ WO.P3 ](WO-P3/README.md) Finalize Closed Work Orders   
-[ WO.P4 ](WO-P4/README.md) Work Order Variance Posting   
+[ WO.P2 ](PICKER-P1/WO-P2/README.md) Purge Work Order Records   
+[ WO.P3 ](../PRO-ENTRY/WO-E2/WO-P3/README.md) Finalize Closed Work Orders   
+[ WO.P4 ](../PRO-ENTRY/WO-E2/WO-P3/WO-P4/README.md) Work Order Variance Posting   
 [ WO.P5 ](WO-P5/README.md) Mass Close Work Order Procedure   
 [ WO.P6 ](WO-P6/README.md) Reload Picker and Woinv Data   
 [ WO.P7 ](WO-P7/README.md) Work Order Labor Transfer   

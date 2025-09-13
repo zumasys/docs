@@ -4,7 +4,6 @@
 
 ##  Materials Used
 
-![](images/ST-E5-2.jpg)
 
 **Pull Part** Displays the part numbers consumed when the original transaction
 took place. These items will be reversed.  

@@ -4,7 +4,6 @@
 
 ##
 
-![](images/WO-P7-1.jpg)
 
 **Job ID** Enter a unique ID if you wish to enter and save the parameters to
 this procedure for future use. If you only need to run the procedure and do

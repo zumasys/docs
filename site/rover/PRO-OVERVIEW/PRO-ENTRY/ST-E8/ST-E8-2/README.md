@@ -4,7 +4,6 @@
 
 ##  Materials Used
 
-![](images/ST-E8-2.jpg)
 
 **Pull Part** Contains the part numbers consumed by the transaction. These
 will be reversed.  

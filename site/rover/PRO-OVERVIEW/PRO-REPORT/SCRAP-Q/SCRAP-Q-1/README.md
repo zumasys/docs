@@ -4,7 +4,6 @@
 
 ##
 
-![](images/SCRAP-Q-1.jpg)
 
 ** **  
   
