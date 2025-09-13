@@ -25,7 +25,7 @@ with the module.
   
 The Chart of Accounts file (GLCHART) maintains one record for each account number to be used. They are entered individually through the [ GLCHART.E ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E) procedure. The structure of the account number is completely user defined.   
   
-The journal transaction file (GLTRANS) maintains one record for each journal entry made. These records are either entered through the [ GLTRANS.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E) procedure, created as a result of reversing a journal ( [ GLTRANS.E2 ](GLTRANS-E2/README.md) ) or created by the module interface procedure ( [ GLINT.P1 ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL/GL-CONTROL-1/GLINT-P1) ). Each record contains a list of debits and credits to be made and must balance before filing.   
+The journal transaction file (GLTRANS) maintains one record for each journal entry made. These records are either entered through the [ GLTRANS.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E) procedure, created as a result of reversing a journal ( [ GLTRANS.E2 ](GL-ENTRY/GLTRANS-E2/README.md) ) or created by the module interface procedure ( [ GLINT.P1 ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL/GL-CONTROL-1/GLINT-P1) ). Each record contains a list of debits and credits to be made and must balance before filing.
   
 The fiscal year definition file (FY) maintains one record for each fiscal year
 required. Fiscal years and periods are completely user defined with any number
@@ -78,7 +78,7 @@ The flow of processing for the general ledger module originates from two places.
   
 The entry of the chart of accounts ( [ GLCHART.E ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E) ) and the fiscal year ( [ FY.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E/GLTRANS-E-1/FY-E) ) must be done prior to utilizing this module. Optionally, budgets and beginning balances may be entered directly into the GLBAL file. Beginning balances may also be entered through journal entries into the prior period, if desired.   
   
-At some point in time it may be appropriate purge some of the older journal entries from the system. This is done with the [ GLTRANS.P2 ](GLTRANS-P2/README.md) procedures. 
+At some point in time it may be appropriate purge some of the older journal entries from the system. This is done with the [ GLTRANS.P2 ](GL-PROCESS/GLTRANS-P2/README.md) procedures.
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

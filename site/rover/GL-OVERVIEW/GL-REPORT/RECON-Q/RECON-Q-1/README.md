@@ -4,7 +4,7 @@
 
 ##
 
-![](images/RECON-Q-1.jpg)
+<!-- TODO: add screenshot -->
 
 **Record Id**  
   
