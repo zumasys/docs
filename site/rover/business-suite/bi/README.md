@@ -19,6 +19,10 @@ Rover BI is the dynamic and powerful web-based dashboarding and reporting platfo
 3. Switch between dashboards using the drop‑down on your BI homepage. Administrators manage global dashboards in **Web Control → Dashboards**.
 4. Dashboards and widgets respect security permissions—items you do not have access to simply will not appear.
 
+## Guides
+
+- [Getting Started Guide](./getting-started.md)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NZMqXIsj6R4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <PageFooter />
