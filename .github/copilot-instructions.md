@@ -5,6 +5,7 @@ This repository contains the Zumasys product documentation built with VuePress. 
 ## Repository Overview
 
 This is a VuePress 1.x-based documentation site for Zumasys products including:
+
 - **Rover Business Suite**: Comprehensive ERP system with modules for AP, AR, GL, Inventory, Manufacturing, etc.
 - **POS Connect**: Point-of-sale integration solutions
 - **SmartSuite**: Additional business management tools
@@ -23,23 +24,23 @@ The site is deployed as a static application on Azure Storage via GitHub Actions
 ## Directory Structure
 
 ```
-├── .github/                    # GitHub workflows and configuration
-│   └── workflows/             # CI/CD pipeline for Azure deployment
-├── site/                      # Main documentation source
-│   ├── .vuepress/            # VuePress configuration
-│   │   ├── components/       # Vue components for documentation
-│   │   ├── config.js         # Main VuePress configuration
-│   │   ├── enhanceApp.js     # App-level enhancements
-│   │   ├── public/           # Static assets (images, downloads)
-│   │   ├── scripts/          # Build scripts
-│   │   ├── styles/           # Custom CSS/Stylus styles
-│   │   └── theme/            # Custom theme components
-│   ├── pos-connect/          # POS Connect documentation
-│   ├── rover/                # Rover Business Suite documentation
-│   ├── smartsuite/           # SmartSuite documentation
-│   ├── README.md             # Homepage content
-│   └── package.json          # Dependencies and build scripts
-├── CONTRIBUTING.md           # Documentation writing guidelines
+├── .github/                 # GitHub workflows and configuration
+│   └── workflows/           # CI/CD pipeline for Azure deployment
+├── site/                    # Main documentation source
+│   ├── .vuepress/           # VuePress configuration
+│   │   ├── components/      # Vue components for documentation
+│   │   ├── config.js        # Main VuePress configuration
+│   │   ├── enhanceApp.js    # App-level enhancements
+│   │   ├── public/          # Static assets (images, downloads)
+│   │   ├── scripts/         # Build scripts
+│   │   ├── styles/          # Custom CSS/Stylus styles
+│   │   └── theme/           # Custom theme components
+│   ├── pos-connect/         # POS Connect documentation
+│   ├── rover/               # Rover Business Suite documentation
+│   ├── smartsuite/          # SmartSuite documentation
+│   ├── README.md            # Homepage content
+│   └── package.json         # Dependencies and build scripts
+├── CONTRIBUTING.md          # Documentation writing guidelines
 └── README.md                # Repository overview
 ```
 
@@ -53,6 +54,7 @@ The site is deployed as a static application on Azure Storage via GitHub Actions
 ## Development Workflow
 
 ### Local Development
+
 1. Navigate to `site/` directory
 2. Run `npm install` (first time only)
 3. Set up environment variables in `.env` and `.env.development` (use `.env.skel` as template)
@@ -62,12 +64,14 @@ The site is deployed as a static application on Azure Storage via GitHub Actions
 ### Content Guidelines
 
 #### File Organization
-- Each article should be in its own folder as `README.md`
+
+- Each article should be in its own folder with the folder name as the article name, and the markdown article content as `README.md`
 - Place article-specific images in the same folder as the article
 - Use descriptive folder names that match article topics
 - Place downloadable files in `site/.vuepress/public/assets/downloads/`
 
 #### Markdown Standards
+
 - Use **exactly one** `#` heading per article
 - Include `<PageHeader />` at the top and `<PageFooter />` at the bottom
 - Use proper heading hierarchy (`##`, `###`, etc.) for subsections
@@ -78,6 +82,7 @@ The site is deployed as a static application on Azure Storage via GitHub Actions
 - Use badge tags for categorization: `<badge text='category' vertical='middle' />`
 
 #### Content Style
+
 - Write in modern, professional tone (avoid ALL CAPS)
 - Use Markdown syntax over HTML when possible
 - Space out code examples for readability
@@ -86,6 +91,7 @@ The site is deployed as a static application on Azure Storage via GitHub Actions
 - Include descriptive variable names and clear examples
 
 #### VuePress-Specific Features
+
 - Custom components available in `.vuepress/components/`
 - Page header and footer components for consistent styling
 - Reading progress and time estimation plugins
@@ -96,6 +102,7 @@ The site is deployed as a static application on Azure Storage via GitHub Actions
 ## Plugin Configuration
 
 The site uses several VuePress plugins:
+
 - `vuepress-plugin-code-copy`: Copy button on code blocks
 - `vuepress-plugin-reading-time`: Reading time estimates
 - `reading-progress`: Reading progress bar (enabled for Rover docs)
@@ -106,6 +113,7 @@ The site uses several VuePress plugins:
 ## Common Tasks
 
 ### Adding New Documentation
+
 1. Create a new folder in the appropriate product directory (`rover/`, `pos-connect/`, `smartsuite/`)
 2. Add `README.md` with proper headers and content structure
 3. Include any necessary images in the same folder
@@ -113,11 +121,13 @@ The site uses several VuePress plugins:
 5. Test locally with `npm run dev`
 
 ### Modifying Theme or Styling
+
 - Custom styles: `site/.vuepress/styles/`
 - Theme components: `site/.vuepress/theme/`
 - Global configuration: `site/.vuepress/config.js`
 
 ### Adding Static Assets
+
 - Images for articles: Place in article folder
 - Downloadable files: `site/.vuepress/public/assets/downloads/`
 - Theme assets: `site/.vuepress/public/assets/`

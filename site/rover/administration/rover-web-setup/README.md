@@ -14,6 +14,7 @@ Using the Rover ERP Web Client requires properly setup `SECURITY` records via `S
 | AR.E        | POS Invoices / Accounting AR Tab       |
 | AP.E        | Accounting AP Tab                      |
 | GLCHART.E   | Accounting GL Tab                      |
+| SO.E2       | Accounting Credit Hold Release Access  |
 | CASH.E      | POS Receipt History and POF tabs       |
 | CUST.Q      | Customer Module                        |
 | FSO.E       | Field Services Module                  |
