@@ -73,7 +73,7 @@ One or more of these types can be associated to a document revision.
   
 **Signoff Description** Enter a description of the associated signoff type.  
   
-**Categories** Define the valid document categories to be used in [ DOC.E ](../../../../../../rover/DOC-OVERVIEW/Doc-Control/DOC-E) . More than one category can be assigned to a document.   
+**Categories** Define the valid document categories to be used in [ DOC.E ](../../../DOC-E/README.md) . More than one category can be assigned to a document.
   
 **Userid** Enter the userid of the person to define their role within the
 document control module.  
