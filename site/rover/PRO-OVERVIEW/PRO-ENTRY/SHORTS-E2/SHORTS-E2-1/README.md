@@ -4,7 +4,6 @@
 
 ##
 
-![](images/SHORTS-E2-1.jpg)
 
 **Transaction Id** The inventory transaction number is assigned by system and
 does not appear as a prompt on the screen.  

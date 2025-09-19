@@ -1,0 +1,12 @@
+{
+  "modules": [
+    {
+      "module": "Production",
+      "summary": {
+        "errors": 0,
+        "warnings": 0
+      },
+      "links": []
+    }
+  ]
+}
