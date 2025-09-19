@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](USAGE-R1-1/README.md)   
+[ Form Details ](USAGE-R1-1/)   
 
 **Purpose**  
 The USAGE.R1 procedure is used to print a slow moving inventory report. The

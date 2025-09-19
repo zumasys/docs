@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INV-R8-1/README.md)   
+[ Form Details ](INV-R8-1/)   
 
 **Purpose**  
 The INV.R8 procedure is used to produce an inventory listing for a selected

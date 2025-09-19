@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](PHYS-P5-1/README.md)   
+[ Form Details ](PHYS-P5-1/)   
 
 **Purpose**  
 The PHYS.P5 procedure is used to purge posted physical tag records from the

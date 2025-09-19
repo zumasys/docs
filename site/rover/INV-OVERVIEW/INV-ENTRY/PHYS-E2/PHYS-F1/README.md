@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](PHYS-F1-1/README.md)   
+[ Form Details ](PHYS-F1-1/)   
 
 **Purpose**  
 The PHYS.F1 procedure is used to print physical inventory tags. The format is

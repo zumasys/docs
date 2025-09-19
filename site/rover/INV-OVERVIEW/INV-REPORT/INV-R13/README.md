@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INV-R13-1/README.md)   
+[ Form Details ](INV-R13-1/)   
 
 **Purpose**  
 

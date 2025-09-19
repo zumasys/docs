@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](PHYS-P3-1/README.md)   
+[ Form Details ](PHYS-P3-1/)   
 
 **Purpose**  
 The PHYS.P3 procedure is used to void a range of tags. While tags may be voided one at a time in the [ PHYS.E ](../../../../rover/INV-OVERVIEW/INV-ENTRY/PHYS-E) procedure, it occasionally happens that a range of tags must be voided due to either damage or having blank tags that do not get used. 

@@ -3,8 +3,8 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](BIN-CONTROL-1/README.md)   
-[ Change History ](BIN-CONTROL-2/README.md)   
+[ Form Details ](BIN-CONTROL-1/)   
+[ Change History ](BIN-CONTROL-2/)   
 
 **Purpose**  
 The BIN.CONTROL procedure is used to define the valid bin numbers which may be

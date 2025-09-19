@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](LOT-R1-1/README.md)   
+[ Form Details ](LOT-R1-1/)   
 
 **Purpose**  
 The LOT.R1 procedure is used to create indented lot trace reports. The lot

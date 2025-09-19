@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](PROJECT-P1-1/README.md)   
+[ Form Details ](PROJECT-P1-1/)   
 
 **Purpose**  
 The PROJECT.P1 procedure is used to post all activity associated with a

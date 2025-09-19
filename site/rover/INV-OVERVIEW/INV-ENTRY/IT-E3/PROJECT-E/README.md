@@ -3,9 +3,9 @@
 <PageHeader />
 
 **Form Details**  
-[ General ](PROJECT-E-1/README.md)   
-[ Tasks ](PROJECT-E-2/README.md)   
-[ Attachments ](PROJECT-E-3/README.md)   
+[ General ](PROJECT-E-1/)   
+[ Tasks ](PROJECT-E-2/)   
+[ Attachments ](PROJECT-E-3/)   
 
 **Purpose**  
 PROJECT.E is the starting point for the project system. It is the method used

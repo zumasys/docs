@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](CYCLE-R1-1/README.md)   
+[ Form Details ](CYCLE-R1-1/)   
 
 **Purpose**  
 The CYCLE.R1 procedure is used to print a cycle count sheet of all parts to be

@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INV-R7-1/README.md)   
+[ Form Details ](INV-R7-1/)   
 
 **Purpose**  
 The INV.R7 procedure is used to produce a negative on hand inventory listing

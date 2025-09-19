@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INVREG-P1-1/README.md)   
+[ Form Details ](INVREG-P1-1/)   
 
 **Purpose**  
 The INVREG.P1 procedure is used to purge posted inventory register records
