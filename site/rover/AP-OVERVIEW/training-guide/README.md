@@ -416,7 +416,7 @@ The bank reconciliation procedure is used to enter cleared amounts and dates for
 **After Saving:**
 - Deposits and checks are flagged as cleared in the system
 - Reconciliation record can be reopened using existing Recon ID
-- Bank reconciliation listing available via [`RECON.R1`](../AP-REPORT/RECON-R1/README.md) report
+- Bank reconciliation listing available via [`RECON.R1`](../../GL-OVERVIEW/GL-REPORT/RECON-R1/README.md) report
 
 ### General Ledger Interface ([`GLINT.P1`](../AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL/GL-CONTROL-1/GLINT-P1/README.md))
 
