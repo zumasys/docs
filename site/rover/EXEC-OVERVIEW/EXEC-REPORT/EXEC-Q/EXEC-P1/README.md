@@ -21,7 +21,7 @@ The information is retrieved from a variety of files in the system.
 Daily.
 
 **Prerequisites**  
-Setup of the EXEC record ( [ EXEC.CONTROL ](../../../../../rover/EXEC-OVERVIEW/EXEC-ENTRY/EXEC-CONTROL) ) and the establishment of the fiscal year record in the FY file for both the present and next fiscal year. 
+Setup of the EXEC record ( [ EXEC.CONTROL ](../../../EXEC-ENTRY/EXEC-CONTROL/README.md) ) and the establishment of the fiscal year record in the FY file for both the present and next fiscal year. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

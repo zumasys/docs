@@ -25,7 +25,7 @@ found in the TERMS file.
 which have not yet been invoiced. Net days  
 from the TERMS file have been applied.  
 3\. Any projected AR items entered in the Control  
-record with the [ EXEC.CONTROL ](../../../../../rover/EXEC-OVERVIEW/EXEC-ENTRY/EXEC-CONTROL) procedure.   
+record with the [ EXEC.CONTROL ](../../../EXEC-ENTRY/EXEC-CONTROL/README.md) procedure.   
 Any eligible items from 1. or 2. with a calculated  
 date in the 'past due' column will be moved into  
 the current field.  
@@ -45,7 +45,7 @@ dates are adjusted based upon the net days found in the TERMS file
 2\. Any recurring AP items found in the APR file which have not yet been
 invoiced.  
   
-3\. Any items found in the Control record [ EXEC.CONTROL ](../../../../../rover/EXEC-OVERVIEW/EXEC-ENTRY/EXEC-CONTROL) .   
+3\. Any items found in the Control record [ EXEC.CONTROL ](../../../EXEC-ENTRY/EXEC-CONTROL/README.md) .   
   
 4\. Accrued accounts payable records i.e. purchase orders that have been
 received but not invoiced.  
