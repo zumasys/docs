@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](ORDER-P1-1/README.md)   
+[ Form Details ](ORDER-P1-1/)   
 
 **Purpose**  
 The ORDER.P1 procedure recalculates and sets the on order quantities in the

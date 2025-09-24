@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](ALLOC-R1-1/README.md)   
+[ Form Details ](ALLOC-R1-1/)   
 
 **Purpose**  
 The ALLOC.R1 procedure provides a list of all material allocations by part

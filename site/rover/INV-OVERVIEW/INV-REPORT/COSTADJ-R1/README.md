@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](COSTADJ-R1-1/README.md)   
+[ Form Details ](COSTADJ-R1-1/)   
 
 **Purpose**  
 The COSTADJ.R1 procedure is used to print a listing of all inventory cost

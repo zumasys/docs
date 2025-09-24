@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](PHYS-P4-1/README.md)   
+[ Form Details ](PHYS-P4-1/)   
 
 **Purpose**  
 The PHYS.P4 procedure is used to post physical tag records to inventory. This

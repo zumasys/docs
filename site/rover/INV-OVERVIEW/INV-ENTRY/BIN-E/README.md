@@ -3,8 +3,8 @@
 <PageHeader />
 
 **Form Details**  
-[ Bins ](BIN-E-1/README.md)   
-[ Change History ](BIN-E-2/README.md)   
+[ Bins ](BIN-E-1/)   
+[ Change History ](BIN-E-2/)   
 
 **Purpose**  
 The BIN.E procedure is used to enter reference bin locations for a given part

@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](CYCLE-R4-1/README.md)   
+[ Form Details ](CYCLE-R4-1/)   
 
 **Purpose**  
 The CYCLE.R4 procedure is used to print an audit report of all tags which have

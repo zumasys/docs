@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](USAGE-R2-1/README.md)   
+[ Form Details ](USAGE-R2-1/)   
 
 **Purpose**  
 USAGE.R2 shows an inventory balance as of any past date, similar to [ INV.R14 ](../../../../rover/INV-OVERVIEW/INV-REPORT/INV-R14) , and also shows usage for the selected period, as well as average usage. The average usage is used in combination with the inventory balance to calculate projected months of stock available. The report can be sorted by part number, category or inventory location. You can also select by category and/or location.   

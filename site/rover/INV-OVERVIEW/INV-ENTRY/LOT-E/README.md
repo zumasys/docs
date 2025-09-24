@@ -3,13 +3,13 @@
 <PageHeader />
 
 **Form Details**  
-[ General ](LOT-E-1/README.md)   
-[ Allocations ](LOT-E-2/README.md)   
-[ Sources ](LOT-E-3/README.md)   
-[ Destinations ](LOT-E-4/README.md)   
-[ Used by Current Lot ](LOT-E-5/README.md)   
-[ Using Current Lot ](LOT-E-6/README.md)   
-[ Attachments ](LOT-E-7/README.md)   
+[ General ](LOT-E-1/)   
+[ Allocations ](LOT-E-2/)   
+[ Sources ](LOT-E-3/)   
+[ Destinations ](LOT-E-4/)   
+[ Used by Current Lot ](LOT-E-5/)   
+[ Using Current Lot ](LOT-E-6/)   
+[ Attachments ](LOT-E-7/)   
 
 **Purpose**  
 The LOT.E procedure provides the ability to inquire and/or update the

@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](LOT-R3-1/README.md)   
+[ Form Details ](LOT-R3-1/)   
 
 **Purpose**  
 The LOT.R3 procedure is used to list all of the lot numbers on file with an

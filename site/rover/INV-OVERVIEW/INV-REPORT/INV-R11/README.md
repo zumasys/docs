@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INV-R11-1/README.md)   
+[ Form Details ](INV-R11-1/)   
 
 **Purpose**  
 The INV.R11 procedure is used to produce a negative on hand inventory listing

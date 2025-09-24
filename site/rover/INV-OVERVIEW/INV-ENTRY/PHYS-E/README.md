@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](PHYS-E-1/README.md)   
+[ Form Details ](PHYS-E-1/)   
 
 **Purpose**  
 The PHYS.E procedure is used to enter inventory quantities counted as a result
@@ -36,7 +36,7 @@ This procedure is used when a Physical Inventory is in process.
 Initialization of the inventory control record ( [ INV.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) ) and entry of the required inventory locations and General Ledger account numbers.   
 Prior to this procedure, the following procedures must have been executed:  
 1) Generate Physical Tags ( [ PHYS.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/PHYS-P1) )   
-2) Print Physical Tags ( [ PHYS.F1 ](PHYS-F1/README.md) ) 
+2) Print Physical Tags ( [ PHYS.F1 ](PHYS-F1/) ) 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

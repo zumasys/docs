@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INV-R9-1/README.md)   
+[ Form Details ](INV-R9-1/)   
 
 **Purpose**  
 This report provides a listing of all the inventory in the locations specified

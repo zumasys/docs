@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](CYCLE-R2-1/README.md)   
+[ Form Details ](CYCLE-R2-1/)   
 
 **Purpose**  
 The CYCLE.R2 procedure is used to print an audit report of all tags generated

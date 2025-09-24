@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](INV-R10-1/README.md)   
+[ Form Details ](INV-R10-1/)   
 
 **Purpose**  
 The INV.R10 procedure is used to produce an on-hand quantity listing by part
