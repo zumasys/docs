@@ -4,7 +4,6 @@
 
 ##
 
-![](images/WO-E4-1.jpg)
 
 ** ** There is no record ID in this process so none is prompted.  
   
