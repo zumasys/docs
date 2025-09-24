@@ -1,10 +1,8 @@
-##  Control Record G/L Account Listing (CONTROL.R1)
+# Control Record G/L Account Listing (CONTROL.R1)
 
 <PageHeader />
 
-##
-
-![](images/CONTROL-R1-1.jpg)
+<!-- TODO: add screenshot -->
 
 **Job ID** Enter a unique ID if you wish to enter and save the parameters to
 this procedure for future use. If you only need to run the procedure and do
@@ -44,11 +42,10 @@ program.
   
 **Last Status Time** The time at which the last status message was generated.  
   
-**Exclude Null Fields** Check this box if you wish to excluded fields that have no account number entered in them. Example: No g/l account number is entered in the the AR Acct# field in [ AR.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) . If this box is checked, an entry for the AR Acct# will not appear on the report. If the box is not checked, it will appear. You might not want to check the box if you want to audit the control records to find out which fields are missing a value.   
+**Exclude Null Fields** Check this box if you wish to excluded fields that have no account number entered in them. Example: No g/l account number is entered in the the AR Acct# field in [AR.CONTROL](../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL). If this box is checked, an entry for the AR Acct# will not appear on the report. If the box is not checked, it will appear. You might not want to check the box if you want to audit the control records to find out which fields are missing a value.  
   
 **Sort by Account Number** Check this box if you wish to run the report by
 account number.  
-  
   
 <badge text= "Version 8.10.57" vertical="middle" />
 
