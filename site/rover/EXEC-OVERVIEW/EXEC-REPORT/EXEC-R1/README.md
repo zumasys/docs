@@ -18,13 +18,13 @@ etc. actually occurred. For example, sales orders were only entered during the
 month on 10 business days for a total of 12,000.00. The daily month-to-date
 average would be = 12,000.00 / 10 days not 12,000.00 / 30 days.  
   
-This information is also available via the [ EXEC.Q ](../../../../rover/EXEC-OVERVIEW/EXEC-REPORT/EXEC-Q) inquiry. 
+This information is also available via the [ EXEC.Q ](../EXEC-Q/README.md) inquiry. 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-The [ EXEC.P1 ](../../../../rover/EXEC-OVERVIEW/EXEC-REPORT/EXEC-Q/EXEC-P1) procedure must have been run for the date selected. 
+The [ EXEC.P1 ](../EXEC-Q/EXEC-P1/README.md) procedure must have been run for the date selected. 
 
 **Data Fields**
 
