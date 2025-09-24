@@ -1,14 +1,14 @@
-##  Document Entry (DOC.E)
+# Document Entry (DOC.E)
 
 <PageHeader />
 
 **Form Details**  
-[ General ](DOC-E-1/README.md)   
-[ Revision History ](DOC-E-2/README.md)   
-[ Change History ](DOC-E-3/README.md)   
+[General](DOC-E-1/README.md)
+[Revision History](DOC-E-2/README.md)
+[Change History](DOC-E-3/README.md)
 
 **Purpose**  
-The DOC.E procedure is used to enter new documents into the system and to change existing documents. This can only be done by "Admin" type users as defined in [ DOC.CONTROL ](../README.md) .
+The DOC.E procedure is used to enter new documents into the system and to change existing documents. This can only be done by "Admin" type users as defined in [DOC.CONTROL](../README.md) .
   
 The General tab is where the main information related to the document is
 entered.  
@@ -49,7 +49,7 @@ Documents cannot be deleted but they can be changed to status "Retired".
 As required.
 
 **Prerequisites**  
-Initialization of the document control record ( [ DOC.CONTROL ](../README.md) ).
+Initialization of the document control record ( [DOC.CONTROL](../README.md) ).
 
 <badge text= "Version 8.10.57" vertical="middle" />
 
