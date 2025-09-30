@@ -135,4 +135,28 @@ Here's a sneak peek of what's to come in Rover Web as of [v2.12.4](./web/2-12-4/
 | [v5.22](./m3services/5-22/README.md) | 2024-04-16 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.22.zip) |
 | [v5.21](./m3services/5-21/README.md) | 2024-02-20 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.21.zip) |
 
+### Legacy M3Services Versions
+
+| Version                              | Download                                                                       |
+| ------------------------------------ | ------------------------------------------------------------------------------ |
+| v5.20                                | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.20.zip) |
+| v5.19                                | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.19.zip) |
+| v5.18                                | X                                                                              |
+| v5.17                                | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.17.zip) |
+| v5.16                                | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.16.zip) |
+| v5.15                                | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.15.zip) |
+| v5.14                                | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.14.zip) |
+| v5.13                                | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.13.zip) |
+| v5.12                                | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.12.zip) |
+| v5.11                                | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.11.zip) |
+| v5.10                                | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.10.zip) |
+| v5.9                                 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.9.zip)  |
+| v5.8                                 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.8.zip)  |
+| v5.7                                 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.7.zip)  |
+| v5.6                                 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.6.zip)  |
+| v5.5                                 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.5.zip)  |
+| v5.4                                 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.4.zip)  |
+| v5.3                                 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.3.zip)  |
+| v5.2                                 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.2.zip)  |
+
 <PageFooter />
