@@ -121,6 +121,8 @@ Here's a sneak peek of what's to come in Rover Web as of [v2.12.4](./web/2-12-4/
 
 ## M3Services
 
+> For Linux installations, you must install the PERL script separately. [Dowlnload here.](https://roverdesktop.blob.core.windows.net/apps/M3ServicesCmd)
+
 | Version                              | Date       | Download                                                                       |
 | ------------------------------------ | ---------- | ------------------------------------------------------------------------------ |
 | [v5.31](./m3services/5-31/README.md) | 2025-09-22 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.31.zip) |
