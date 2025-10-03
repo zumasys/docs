@@ -30,7 +30,7 @@ This procedure can load figures into the SF (Sales Forecast) file, the ID (Indep
 As required.
 
 **Prerequisites**  
-Part numbers must be defined in [ PARTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) . 
+Part numbers must be defined in [ PARTS.E ](../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E) . 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

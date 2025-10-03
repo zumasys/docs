@@ -20,7 +20,7 @@ Another way in which bin locations are added to the system is through the invent
 As required.
 
 **Prerequisites**  
-Entry of valid inventory locations ( [ INVLOC.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/INVLOC-E) ) and parts records ( [ PARTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) ). 
+Entry of valid inventory locations ( [ INVLOC.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/INVLOC-E) ) and parts records ( [ PARTS.E ](../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

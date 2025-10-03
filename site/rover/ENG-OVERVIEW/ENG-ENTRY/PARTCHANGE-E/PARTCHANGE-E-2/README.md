@@ -83,7 +83,7 @@ used.
 in it's own box. This information in addition to the weight, length, width and
 height is used when calculating the shipping charges for an order.  
   
-**Equiv Part** Enter the equivalent part numbers for the main part number being defined in this procedure. You can enter any number of equivalent part numbers. If you wish to clear all data in this field and the supercedes field, enter the tilde (~) character. .Please note that the entries in this field will over-write all existing equivalent part numbers entered in [ PARTS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) .   
+**Equiv Part** Enter the equivalent part numbers for the main part number being defined in this procedure. You can enter any number of equivalent part numbers. If you wish to clear all data in this field and the supercedes field, enter the tilde (~) character. .Please note that the entries in this field will over-write all existing equivalent part numbers entered in [ PARTS.E ](../../../ENG-ENTRY/PARTS-E) .   
   
 **Supercede Flag** Check this box if the equivalent part number to the left
 supercedes the main part number entered on the first tab. This box may only be
@@ -95,7 +95,7 @@ note that the entries made in this procedure will over-write all existing
 specifications posted to the parts records. If a tilde (~) is entered in this
 field, all existing specifications will be deleted.  
   
-**Notes** Enter any notes applicable to the part number. Please note that the entries in this field will over-write the existing notes entered in [ PARTS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) .   
+**Notes** Enter any notes applicable to the part number. Please note that the entries in this field will over-write the existing notes entered in [ PARTS.E ](../../../ENG-ENTRY/PARTS-E) .   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

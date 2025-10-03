@@ -27,7 +27,7 @@ Sales forecast items may also be created automatically based on planning plannin
 As required.
 
 **Prerequisites**  
-Part numbers must be defined in [ PARTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) . 
+Part numbers must be defined in [ PARTS.E ](../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E) . 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

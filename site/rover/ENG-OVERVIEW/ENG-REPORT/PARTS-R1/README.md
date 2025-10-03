@@ -10,7 +10,7 @@ The PARTS.R1 procedure creates a parts master listing. The user may restrict
 the output to include only specified categories or all part numbers. The
 report is sorted by category and part number.  
   
-If the report is sent to Excel or the grid viewer, the data for each part will appear on a single row. The description and notes will be capped at 500 characters each. Only the first five manufacturers entered in [ PARTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) will appear on the report. 
+If the report is sent to Excel or the grid viewer, the data for each part will appear on a single row. The description and notes will be capped at 500 characters each. Only the first five manufacturers entered in [ PARTS.E ](../../ENG-ENTRY/PARTS-E) will appear on the report. 
 
 **Frequency of Use**  
 As required.

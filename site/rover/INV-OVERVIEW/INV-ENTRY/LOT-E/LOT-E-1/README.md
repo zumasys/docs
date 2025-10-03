@@ -22,7 +22,7 @@ as required.
   
 **Date Created** Contains the date on which the lot record was created.  
   
-**Exp Date** The date on which the items defined by this lot have expired and may no longer be used. This date is set automatically by the system if a shelf life has been defined in the [ PARTS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) procedure. It may be changed in this procedure if required. If you are defining a new lot and you leave this field blank then an expiration date will be calculated and placed into this field based on the shelf life defined in the PARTS file.   
+**Exp Date** The date on which the items defined by this lot have expired and may no longer be used. This date is set automatically by the system if a shelf life has been defined in the [ PARTS.E ](../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E) procedure. It may be changed in this procedure if required. If you are defining a new lot and you leave this field blank then an expiration date will be calculated and placed into this field based on the shelf life defined in the PARTS file.   
   
 **Hold Code** The lot may be placed on hold by enter a code in this field.
 When a code is entered the current date will be defaulted as the hold date.  
