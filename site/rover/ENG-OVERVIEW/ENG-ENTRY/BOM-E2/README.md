@@ -31,7 +31,7 @@ The line item data should begin on the 5th row.
 As required.
 
 **Prerequisites**  
-Entry of Part records ( [ PARTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) ). [ PARTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) can be found in the data entry section of the engineering module. 
+Entry of Part records ( [ PARTS.E ](../PARTS-E/README.md) ). [ PARTS.E ](../PARTS-E/README.md) can be found in the data entry section of the engineering module. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

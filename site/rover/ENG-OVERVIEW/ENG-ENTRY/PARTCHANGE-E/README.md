@@ -20,7 +20,7 @@ will be displayed on PARTS SELECTED tab. You may add or delete items from the
 list. You may also manually enter the part numbers into the list without
 having used the above selection options.  
   
-The GENERAL CHANGES, MATERIAL CONTROL CHANGES, CUSTOMER/SUPPLIER and IMAGES tabs mimic the tabs in the [ PARTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) (master parts entry) procedure. If you wish to change the existing data, enter the new value in the appropriate field. For example, to change the status of the parts to "I" (i.e. inactive), type in "I" in the status field on the GENERAL CHANGES tab.   
+The GENERAL CHANGES, MATERIAL CONTROL CHANGES, CUSTOMER/SUPPLIER and IMAGES tabs mimic the tabs in the [ PARTS.E ](../PARTS-E) (master parts entry) procedure. If you wish to change the existing data, enter the new value in the appropriate field. For example, to change the status of the parts to "I" (i.e. inactive), type in "I" in the status field on the GENERAL CHANGES tab.   
   
 On the MATERIAL CONTROL CHANGES tab, you may update the planning group data.
 If you use multiple planning groups, you will need to update the data for each

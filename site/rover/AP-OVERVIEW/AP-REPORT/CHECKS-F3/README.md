@@ -6,9 +6,9 @@
 [ Form Details ](CHECKS-F3-1/README.md)   
 
 **Purpose**  
-The CHECKS.F3 procedure is used to print commission checks on pre-printed check forms. All records in the Precomm file for a selected check run are selected for printing. After entering the check run number, the starting check number is entered. The number to enter is the first check which will actually be printed. Remember that a blank check may occur due to feeding the paper through the printer. Do not count this blank check. It must be voided manually through the [ CHECKS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) procedure.   
+The CHECKS.F3 procedure is used to print commission checks on pre-printed check forms. All records in the Precomm file for a selected check run are selected for printing. After entering the check run number, the starting check number is entered. The number to enter is the first check which will actually be printed. Remember that a blank check may occur due to feeding the paper through the printer. Do not count this blank check. It must be voided manually through the [ CHECKS.E ](../../AP-ENTRY/CHECKS-E) procedure.   
   
-Should it become necessary to re-print checks for a check run, due to a printer jam or the incorrect entry of the check number, reload the checks into the printer and enter the new starting check number. All previously printed checks must be voided in the [ CHECKS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) procedure. The actual Checks and COMM files are not updated until the [ CHECKS.P3 ](CHECKS-P3/README.md) posting process. 
+Should it become necessary to re-print checks for a check run, due to a printer jam or the incorrect entry of the check number, reload the checks into the printer and enter the new starting check number. All previously printed checks must be voided in the [ CHECKS.E ](../../AP-ENTRY/CHECKS-E) procedure. The actual Checks and COMM files are not updated until the [ CHECKS.P3 ](CHECKS-P3/README.md) posting process. 
 
 **Frequency of Use**  
 As required.
