@@ -4,7 +4,8 @@
 
 ##
 
-![](./FY-E-1.jpg)
+<img width="1292" height="1124" alt="FY E" src="https://github.com/user-attachments/assets/9206b17f-bd71-44c2-8e46-def27e65aaf1" />
+
 
 **FYID** There is one fiscal year record for each fiscal year required. Each
 is identified by "FY" followed by the four digit year (e.g. FY1990).  
