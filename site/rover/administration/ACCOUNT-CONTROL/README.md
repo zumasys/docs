@@ -21,7 +21,8 @@ All users and their security profiles must be entered via the `SECURITY.E` proce
 
 ## Usage
 
-![ACCOUNT.CONTROL](./ACCOUNT-CONTROL.jpg)
+<img width="1232" height="1092" alt="acct-control" src="https://github.com/user-attachments/assets/8a2d4999-a2e6-48e2-a482-09e208c4e864" />
+
 <!-- TODO: Update screenshot above and prompts below -->
 
 - The `ID` of this record is always defaulted by the system as _ACCOUNTS_.
