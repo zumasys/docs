@@ -4,7 +4,8 @@
 
 ##
 
-![](./BS-E-1.jpg)
+<img width="1311" height="1054" alt="BS-E" src="https://github.com/user-attachments/assets/3c7737dd-04e0-4e20-8884-fd39aaa49f33" />
+
 
 **Service ID** Enter the name of the batch service you want to create or edit.  
   
