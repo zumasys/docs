@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-[ CRP.Q ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E/WC-E-1/CRP-P1/CRP-P1-1/CRP-CONTROL/CRP-CONTROL-1/CRP-Q) Capacity Requirements Planning Inquiry   
+[ CRP.Q ](CRP-Q/README.md) Capacity Requirements Planning Inquiry   
 [ CRP.R1 ](CRP-R1/README.md) Capacity Requirements Planning Horizontal Report   
 [ CRP.R2 ](CRP-R2/README.md) Capacity Requirements Planning Vertical Report   
 [ FORECAST.R1 ](FORECAST-R1/README.md) Forecast Listing for a specific Id   
