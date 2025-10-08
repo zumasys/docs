@@ -12,7 +12,7 @@ this procedure is utilized to calculate the Projected Accounts Receivable and
 Projected Accounts Payable amounts.
 
 **Frequency of Use**  
-The entries in this procedure must be loaded prior to executing the [ EXEC.P1 ](../../EXEC-REPORT/EXEC-Q/EXEC-P1/README.md) procedure for a specific date. Depending upon the manner in which the data is entered, daily updates of this procedure may be required. This would be necessary for items such as the entry of a beginning cash balance as a projected AR item with a cutoff date of "-1". The amount entered would fall into the Past Due bucket and affect the projected cash figures into the future. 
+The entries in this procedure must be loaded prior to executing the [ EXEC.P1 ](../../EXEC-PROCESS/EXEC-P1/README.md) procedure for a specific date. Depending upon the manner in which the data is entered, daily updates of this procedure may be required. This would be necessary for items such as the entry of a beginning cash balance as a projected AR item with a cutoff date of "-1". The amount entered would fall into the Past Due bucket and affect the projected cash figures into the future. 
 
 **Prerequisites**  
 None.
