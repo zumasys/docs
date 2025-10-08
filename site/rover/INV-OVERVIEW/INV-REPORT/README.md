@@ -9,9 +9,9 @@
 [ COSTADJ.R2 ](COSTADJ-R2/README.md) Average Cost Adjustment Listing by Part   
 [ CYCLE.R1 ](CYCLE-R1/README.md) Print Cycle Count Sheets   
 [ CYCLE.R2 ](CYCLE-R2/README.md) Cycle Tag Audit Report   
-[ CYCLE.R3 ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/CYCLE-P1/CYCLE-P2/CYCLE-R3) Cycle Tag Cost Variation Listing   
+[ CYCLE.R3 ](CYCLE-R3/README.md) Cycle Tag Cost Variation Listing   
 [ CYCLE.R4 ](CYCLE-R4/README.md) Unposted Cycle Tag Report   
-[ INV.Q ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-2/INV-Q) Inventory Inquiry   
+[ INV.Q ](INV-Q/README.md) Inventory Inquiry   
 [ INV.Q2 ](INV-Q2/README.md) Inventory Availability Inquiry by Specs   
 [ INV.Q3 ](INV-Q3/README.md) Inventory Availability Inquiry by Location   
 [ INV.R1 ](INV-R1/README.md) Costed Inventory Listing by Category   
