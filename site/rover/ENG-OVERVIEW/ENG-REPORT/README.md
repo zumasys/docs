@@ -6,7 +6,7 @@
 [ BOM.R2 ](BOM-R2/README.md) Costed Bill of Material Listing   
 [ BOM.R3 ](BOM-R3/README.md) Multi-Level Bill of Material Listing   
 [ BOM.R4 ](BOM-R4/README.md) Costed Multi-Level Bill of Material Listing   
-[ BOM.R5 ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E/ECN-E/BOM-P3/BOM-R5) Bill of Material Mass Change Report   
+[ BOM.R5 ](BOM-R5/README.md) Bill of Material Mass Change Report   
 [ BOM.R6 ](BOM-R6/README.md) Bill of Material Comparison Report   
 [ BOM.R7 ](BOM-R7/README.md) ECN Requirements for an Assembly   
 [ BOM.R8 ](BOM-R8/README.md) Critical Path Report   
@@ -16,7 +16,7 @@
 [ COST.R1 ](COST-R1/README.md) Cost Listing   
 [ ECN.F1 ](ECN-F1/README.md) Engineering Change Notice Form   
 [ ECN.R1 ](ECN-R1/README.md) Engineering Change Notice Report   
-[ ECN.R2 ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E/ECN-E/ECN-E-1/ECN-CONTROL/ECN-CONTROL-1/ECN-E2/ECN-R2) ECNs Not Posted - Signoff Requirements   
+[ ECN.R2 ](ECN-R2/README.md) ECNs Not Posted - Signoff Requirements   
 [ PARTS.L1 ](PARTS-L1/README.md) Print Part Barcode Labels   
 [ PARTS.R1 ](PARTS-R1/README.md) Parts Master Listing   
 [ PARTS.R2 ](PARTS-R2/README.md) Parts Master Listing by Cat, ABC   
