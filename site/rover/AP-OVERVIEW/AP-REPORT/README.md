@@ -39,8 +39,9 @@
 [ CHECKS.R6 ](CHECKS-R6/README.md) Cleared Checks   
 [ CHECKS.R7 ](CHECKS-R7/README.md) List Checks for a Precheck Run   
 [ CHECKS.R8 ](CHECKS-R8/README.md) Checks Distribution Listing   
-[ CHECKS.R9 ](CHECKS-R9/README.md) Open Debit A/P Prepayment Checks  
-[ CHECKS.R10 ](CHECKS-R10/README.md) Electronic Payment Advice Report  
+[ CHECKS.R9 ](CHECKS-R9/README.md) Open Debit A/P Prepayment Checks   
+[ CHECKS.R10 ](CHECKS-R10/README.md) Electronic Payment Advice Report   
+[ COMM.R4 ](COMM-R4/README.md) Commissions Eligible for Payment by Rep   
 [ COMM.R5 ](COMM-R5/README.md) Commission Payment Report   
 [ LASER.L1 ](LASER-L1/README.md) Print File or Address Labels   
 [ PRECHECKS.R1 ](PRECHECKS-R1/README.md) Prechecks Listing by Run Number   
@@ -48,6 +49,8 @@
 [ TERMS.R1 ](TERMS-R1/README.md) Terms Listing   
 [ VENDOR.Q ](VENDOR-Q/README.md) Vendor Inquiry   
 [ VENDOR.R1 ](VENDOR-R1/README.md) Vendor Listing   
+[ VENDOR.R2 ](VENDOR-R2/README.md) Vendor Rating Listing   
+[ VENDOR.R3 ](VENDOR-R3/README.md) Supplier Performance Report   
 [ VENDOR.R4 ](VENDOR-R4/README.md) Vendor Activity Report   
   
 <badge text= "Version 8.10.57" vertical="middle" />
