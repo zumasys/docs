@@ -17,7 +17,6 @@
 [ PRODCON.E2 ](PRODCON-E2/README.md) Configure Products   
 [ SPEC.CONTROL ](SPEC-CONTROL/README.md) Enter Valid Specification Codes   
 [ UM.CONTROL ](UM-CONTROL/README.md) Define valid unit of measure codes   
-[ WEB.CONTROL ](WEB-CONTROL/README.md) WEB Site Control Parameters   
   
 <badge text= "Version 8.10.57" vertical="middle" />
 
