@@ -4,6 +4,6 @@
 
 The following procedures are used for project management data entry functions:
 
-[PROJECT-E](PROJECT-E/README.md) - Project Entry
+- [PROJECT-E](PROJECT-E/README.md) Project Entry
 
 <PageFooter />
