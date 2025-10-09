@@ -1,8 +1,8 @@
-##  Purchasing/Receiving Reports and Inquiries
+# Purchasing/Receiving Reports and Inquiries
 
 <PageHeader />
 
-[ AP.R12 ](../../../rover/AP-OVERVIEW/AP-REPORT/AP-R12) Purchase Price Variance Report   
+[ AP.R12 ](../../AP-OVERVIEW/AP-REPORT/AP-R12/README.md) Purchase Price Variance Report   
 [ CONTAINER.R1 ](CONTAINER-R1/README.md) Container Receiving Worksheet   
 [ CONTAINER.R2 ](CONTAINER-R2/README.md) Container Stocking Worksheet   
 [ CONTAINER.R3 ](CONTAINER-R3/README.md) Container Summary Report   
@@ -11,12 +11,12 @@
 [ DMR.R1 ](DMR-R1/README.md) DMR Listing for a Date Range   
 [ DMR.R2 ](DMR-R2/README.md) DMR Listing for a Vendor   
 [ DMR.R3 ](DMR-R3/README.md) DMR Listing for a Part Number   
-[ LASER.L1 ](../../../rover/AP-OVERVIEW/AP-REPORT/LASER-L1) Print File or Adress Labels   
-[ MRP.R4 ](../../../rover/MFG-OVERVIEW/MFG-REPORT/MRP-R4) Purchasing Action Report   
-[ MRP.R5 ](../../../rover/MFG-OVERVIEW/MFG-REPORT/MRP-R5) Purchasing Action Report by Part   
+[ LASER.L1 ](../../AP-OVERVIEW/AP-REPORT/LASER-L1/README.md) Print File or Adress Labels   
+[ MRP.R4 ](../../MFG-OVERVIEW/MFG-REPORT/MRP-R4/README.md) Purchasing Action Report   
+[ MRP.R5 ](../../MFG-OVERVIEW/MFG-REPORT/MRP-R5/README.md) Purchasing Action Report by Part   
 [ PO.F1 ](PO-F1/README.md) Purchase Order Forms Printing (Pre-printed)   
-[ PO.F2 ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/AP-CONTROL-2/FORM-CONTROL/FORM-CONTROL-3/PO-F3/PO-F2) Purchase Order Forms Printing (Blank Paper)   
-[ PO.F3 ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/AP-CONTROL-2/FORM-CONTROL/FORM-CONTROL-3/PO-F3) Purchase Order E-Form Printing (PDF forms)   
+[ PO.F2 ](PO-F2/README.md) Purchase Order Forms Printing (Blank Paper)   
+[ PO.F3 ](PO-F3/README.md) Purchase Order E-Form Printing (PDF forms)   
 [ PO.R1 ](PO-R1/README.md) Open Purchase Order Listing by Part Number   
 [ PO.R2 ](PO-R2/README.md) Open Purchase Order Listing by Vendor   
 [ PO.R3 ](PO-R3/README.md) Past Due Purchase Order Listing by Part Number   
@@ -44,15 +44,15 @@
 [ POREQ.R1 ](POREQ-R1/README.md) Purchase Requisition Listing   
 [ PTAX.R1 ](PTAX-R1/README.md) Purchasing Sales Tax Code Listing   
 [ RECEIPTS.F1 ](RECEIPTS-F1/README.md) Debit Receipts Form Printing (Blank Paper)   
-[ RECEIPTS.F2 ](../../../rover/AP-OVERVIEW/AP-REPORT/AP-F3/RECEIPTS-F2) Debit Receipts Form Printing (PDF)   
+[ RECEIPTS.F2 ](RECEIPTS-F2/README.md) Debit Receipts Form Printing (PDF)   
 [ RECEIPTS.R1 ](RECEIPTS-R1/README.md) Receipts Within a Specified Date Range   
 [ RECEIPTS.R2 ](RECEIPTS-R2/README.md) Receipts for a Vendor   
 [ RECEIPTS.R3 ](RECEIPTS-R3/README.md) Print Receipts Travelers   
 [ RECEIPTS.R4 ](RECEIPTS-R4/README.md) Receipt Traveler For All Line Items   
-[ VENDOR.R1 ](../../../rover/AP-OVERVIEW/AP-REPORT/VENDOR-R1) Vendor Listing   
-[ VENDOR.R2 ](../../../rover/AP-OVERVIEW/AP-REPORT/VENDOR-Q/VENDOR-Q-9/DMR-CONTROL/DMR-CONTROL-1/VENDOR-P2/VENDOR-R2) Vendor Rating Listing   
-[ VENDOR.R3 ](../../../rover/AP-OVERVIEW/AP-REPORT/VENDOR-Q/VENDOR-Q-9/DMR-CONTROL/DMR-CONTROL-1/VENDOR-P2/VENDOR-R3) Supplier Performance Report   
-[ TERMS.R1 ](../../../rover/AP-OVERVIEW/AP-REPORT/TERMS-R1) Terms Listing   
+[ VENDOR.R1 ](../../AP-OVERVIEW/AP-REPORT/VENDOR-R1/README.md) Vendor Listing   
+[ VENDOR.R2 ](../../AP-OVERVIEW/AP-REPORT/VENDOR-R2/README.md) Vendor Rating Listing   
+[ VENDOR.R3 ](../../AP-OVERVIEW/AP-REPORT/VENDOR-R3/README.md) Supplier Performance Report   
+[ TERMS.R1 ](../../AP-OVERVIEW/AP-REPORT/TERMS-R1/README.md) Terms Listing   
   
 <badge text= "Version 8.10.57" vertical="middle" />
 
