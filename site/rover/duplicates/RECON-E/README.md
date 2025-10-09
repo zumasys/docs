@@ -16,7 +16,7 @@ which the bank registered. There is a section where adjustments can be entered
 to handle entries on the bank statement which do no correspond to any specific
 M3 entries.  
   
-This procedure has no General Ledger impact. Any adjustments and/or variances must be processed either through valid M3 module procedures such as [ CASH.E3 ](CASH-E3/README.md) or [ CHECKS.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) or through a journal entry in [ GLTRANS.E ](GLTRANS-E/README.md) . 
+This procedure has no General Ledger impact. Any adjustments and/or variances must be processed either through valid M3 module procedures such as [ CASH.E3 ](CASH-E3/README.md) or [ CHECKS.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) or through a journal entry in [ GLTRANS.E ](GLTRANS-E/README.md) . 
 
 **Frequency of Use**  
 Upon receipt of bank statement.
