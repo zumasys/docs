@@ -1,22 +1,22 @@
-##  Sales and Marketing Reports and Inquiries
+# Sales and Marketing Reports and Inquiries
 
 <PageHeader />
 
 [ COMM.R1 ](COMM-R1/README.md) Commission Listing by Rep   
 [ COMM.R2 ](COMM-R2/README.md) Commission Statement by Rep   
 [ COMM.R3 ](COMM-R3/README.md) Open Commission Listing by Rep   
-[ COMM.R4 ](../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F4/CHECKS-P3/COMM-P3/COMM-R4) Commissions Eligible for Payment by Rep   
+[ COMM.R4 ](../../AP-OVERVIEW/AP-REPORT/COMM-R4/README.md) Commissions Eligible for Payment by Rep   
 [ CPRICE.R1 ](CPRICE-R1/README.md) Contract Price Listing by Date   
-[ CUST.Q ](../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/CUST-Q) Customer Inquiry   
-[ CUST.R1 ](../../../rover/AR-OVERVIEW/AR-REPORT/CUST-R1) Customer List by Name   
-[ CUST.R2 ](../../../rover/AP-OVERVIEW/AP-ENTRY/PRECOMM-E/PRECOMM-E-1/REP-E/REP-E-1/CUST-R2) Customer List by Rep   
-[ CUST.R4 ](../../../rover/AR-OVERVIEW/AR-REPORT/CUST-R4) Summary Customer Credit Listing   
+[ CUST.Q ](../../AR-OVERVIEW/AR-REPORT/CUST-Q/README.md) Customer Inquiry   
+[ CUST.R1 ](../../AR-OVERVIEW/AR-REPORT/CUST-R1/README.md) Customer List by Name   
+[ CUST.R2 ](../../AR-OVERVIEW/AR-REPORT/CUST-R2/README.md) Customer List by Rep   
+[ CUST.R4 ](../../AR-OVERVIEW/AR-REPORT/CUST-R4/README.md) Summary Customer Credit Listing   
 [ DD250.F1 ](DD250-F1/README.md) Print DD250 Form   
 [ FAIL.R1 ](FAIL-R1/README.md) MTBF Observed Report   
 [ FAIL.R2 ](FAIL-R2/README.md) Failure Statistics Report   
-[ LASER.L1 ](../../../rover/AP-OVERVIEW/AP-REPORT/LASER-L1) Print File or Adress Labels   
+[ LASER.L1 ](../../AP-OVERVIEW/AP-REPORT/LASER-L1/README.md) Print File or Adress Labels   
 [ LOSTSALE.R1 ](LOSTSALE-R1/README.md) Lost Sale Report by Reason Code   
-[ MSHIP.F1 ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-F1) Print Misc Ship Packing Slip (PDF)   
+[ MSHIP.F1 ](MSHIP-F1/README.md) Print Misc Ship Packing Slip (PDF)   
 [ PRICE.R1 ](PRICE-R1/README.md) Price List by Part Number   
 [ PRICE.R2 ](PRICE-R2/README.md) Part Configuration Price Breakdown   
 [ PRICE.R3 ](PRICE-R3/README.md) Horizontal Price Listing   
@@ -85,17 +85,17 @@
 [ SALES.R31 ](SALES-R31/README.md) Summary Customer Sales Report by Year   
 [ SALES.R32 ](SALES-R32/README.md) Sales by Marketing Code   
 [ SERIAL.R1 ](SERIAL-R1/README.md) Serial Number Listing by Part Number   
-[ SHIP.F1 ](../../../rover/AR-OVERVIEW/AR-REPORT/AR-F1/SHIP-F1) Print Invoice Forms (Pre-printed)   
-[ SHIP.F2 ](../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-4/AR-F2/SHIP-F2) Print Invoice Forms (Blank Paper)   
-[ SHIP.F3 ](../../../rover/AR-OVERVIEW/AR-REPORT/AR-F1/SHIP-F1/SHIP-F3) Print Packing Slip Forms (Pre-printed)   
+[ SHIP.F1 ](SHIP-F1/README.md) Print Invoice Forms (Pre-printed)   
+[ SHIP.F2 ](SHIP-F2/README.md) Print Invoice Forms (Blank Paper)   
+[ SHIP.F3 ](SHIP-F3/README.md) Print Packing Slip Forms (Pre-printed)   
 [ SHIP.F4 ](SHIP-F4/README.md) Print Packing Slip Forms (Blank Paper)   
-[ SHIP.F5 ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/AP-CONTROL-2/FORM-CONTROL/FORM-CONTROL-3/AR-F4/SHIP-F5) Print Invoice Forms (PDF)   
+[ SHIP.F5 ](SHIP-F5/README.md) Print Invoice Forms (PDF)   
 [ SHIP.F6 ](SHIP-F6/README.md) Print Packing Slip Forms (PDF)   
 [ SHIP.F7 ](SHIP-F7/README.md) Print Proforma Invoice (PDF)   
 [ SHIP.F8 ](SHIP-F8/README.md) Bill of Lading EForm Printing   
 [ SHIP.F9 ](SHIP-F9/README.md) Shipment Certificate of Origin   
 [ SHIP.L1 ](SHIP-L1/README.md) Print Shipment Labels   
-[ SHIP.R1 ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SO-P1-1/SHIP-R1) Shipping Pick List   
+[ SHIP.R1 ](SHIP-R1/README.md) Shipping Pick List   
 [ SHIP.R2 ](SHIP-R2/README.md) Shipments Not Confirmed   
 [ SHIP.R3 ](SHIP-R3/README.md) Confirmed Shipments Not Posted   
 [ SHIP.R4 ](SHIP-R4/README.md) Shipments Listing by Date   
@@ -133,14 +133,14 @@
 [ SOBOOK.R7 ](SOBOOK-R7/README.md) Sales Order Bookings by Date   
 [ SOBOOK.R8 ](SOBOOK-R8/README.md) Summary Sales Order Bookings by Date   
 [ SOBOOK.R9 ](SOBOOK-R9/README.md) Sales Order Bookings by Period   
-[ SOQUOTE.F1 ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-1/SOQUOTE-E/SOQUOTE-F1) Print Sales Order Quotations   
+[ SOQUOTE.F1 ](SOQUOTE-F1/README.md) Print Sales Order Quotations   
 [ SOQUOTE.F2 ](SOQUOTE-F2/README.md) Print Sales Order eForm Quotations   
 [ SOQUOTE.R1 ](SOQUOTE-R1/README.md) Sales Order Quote Listing by Date   
 [ SOQUOTE.R2 ](SOQUOTE-R2/README.md) Sales Order Quote Listing by Expiration Date   
 [ SOQUOTE.R3 ](SOQUOTE-R3/README.md) Sales Order Quote Listing by Customer   
 [ SOQUOTE.R4 ](SOQUOTE-R4/README.md) Sales Order Quote Listing by Prospect   
 [ SOQUOTE.R5 ](SOQUOTE-R5/README.md) Sales Order Quote by Rep   
-[ STAX.R1 ](../../../rover/AR-OVERVIEW/AR-REPORT/STAX-R1) Sales Tax Code Listing   
+[ STAX.R1 ](../../AR-OVERVIEW/AR-REPORT/STAX-R1/README.md) Sales Tax Code Listing   
 [ WARR.R1 ](WARR-R1/README.md) Warranty Listing   
   
 <badge text= "Version 8.10.57" vertical="middle" />
