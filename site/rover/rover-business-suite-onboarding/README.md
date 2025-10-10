@@ -1,11 +1,9 @@
 
-# Rover Hub Onboarding
+# Rover Business Suite Onboarding
 
 <PageHeader />
 
-![Rover BI Logo](/assets/img/rover-hub.png)
-
-This document covers the setup and configuration steps for use of the Rover Hub.
+This document covers the setup and configuration steps for use of the Rover Business Suite web applications.
 
 ## Theme Setup
 
@@ -16,7 +14,7 @@ Your site can be configured to have your colors and logos. We can take a look at
 3. Secondary Color
 4. Sidebar Color
 
-![Rover Hub Specs](./Hub1.png)
+![Rover Business Suite Specs](./rbs.png)
 
 We will also need your logo and favicon logo (the icon displayed in the browser tab).
 
@@ -35,7 +33,7 @@ To allow a contact to Register, you will need to ensure that:
 1. The contact has a valid associated email.
 2. The contact has been enabled for use of the Portal.
 
-![Rover Contacts](./Hub-Rover1.png)
+![Rover Contacts](./rbs-contacts.png)
 
 A contact will need to register with their associated email address as their username.
 
