@@ -58,6 +58,25 @@ To run the application locally:
 
 8. Open [localhost:8080](localhost:8080) in your browser.
 
+## Maintenance Tools
+
+### Link Validation
+
+A Node.js script is available to validate all markdown links in the documentation. This helps ensure that:
+
+* All links point to existing files/directories
+* Links to directories end with `/README.md`
+* No broken links exist after file reorganization
+
+To run the link validator:
+
+```bash
+cd site
+npm run validate-links
+```
+
+See [scripts/README.md](scripts/README.md) for more details.
+
 ## Todo List
 
 * [ ] Migrate to VuePress 2
