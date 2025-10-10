@@ -101,9 +101,7 @@ module.exports = {
             collapsable: true,
             children: [
               ["/rover/DOC-OVERVIEW/DOC-ENTRY/", "DOC Entry"],
-              ["/rover/DOC-OVERVIEW/DOC-PROCESS/", "DOC Process"],
-              ["/rover/DOC-OVERVIEW/DOC-REPORT/", "DOC Report"],
-              ["/rover/DOC-OVERVIEW/Doc-Control/", "DOC Control"]]
+              ["/rover/DOC-OVERVIEW/DOC-REPORT/", "DOC Report"]]
           },
           {
             title: "Engineering",
