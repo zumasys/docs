@@ -21,7 +21,7 @@
 - [PICKER.E2](PICKER-E2/README.md) Enter Picklist Transactions
 - [PICKER.E3](PICKER-E3/README.md) Secondary Picklist Pull Entry
 - [PLAN.CONTROL](PLAN-CONTROL/README.md) Production Planning Control Parameters
-- [PLAN.E](PLAN-E/README.md) Production Planning Entry
+- [PLAN.E](../../MFG-OVERVIEW/MFG-ENTRY/PLAN-E/README.md) Production Planning Entry
 - [QC.E](QC-E/README.md) Update QC Information
 - [ROUTING.E](ROUTING-E/README.md) Enter Routings
 - [SHORTS.E](SHORTS-E/README.md) Enter Shortage Information
