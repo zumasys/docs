@@ -21,7 +21,7 @@ None.
 
 **Part#** The part numbers that is short.  
 **Desc** The description of the part number.  
-**Notes** Any notes from the shortage file, entered via [ SHORTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-2/INV-Q/INV-Q-1/SHORTS-E) , regarding the shortage.   
+**Notes** Any notes from the shortage file, entered via [ SHORTS.E ](../../PRO-ENTRY/SHORTS-E/README.md) , regarding the shortage.   
 **WO.ID** All of the work order numbers that show the part as short.  
 **Assembly Number** The part number that identifies the assembly being
 produced on the work order.  

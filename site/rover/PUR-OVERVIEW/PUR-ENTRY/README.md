@@ -1,24 +1,23 @@
-##  Purchasing/Receiving Data Entry Procedures
+# Purchasing Data Entry Procedures
 
 <PageHeader />
 
-[ CONTACT.CONTROL ](../../../rover/AP-OVERVIEW/AP-ENTRY/CONTACT-CONTROL) Contact Control Entry   
-[ CONTAINER.E ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/CONTAINER-E) Enter Container Receipts   
-[ CONTAINER.E2 ](CONTAINER-E2/README.md) Container Receipt Confirmation and Price Update   
-[ DMR.CONTROL ](../../../rover/AP-OVERVIEW/AP-REPORT/VENDOR-Q/VENDOR-Q-9/DMR-CONTROL) Enter Vendor Rating Parameters   
-[ DMR.E ](../../../rover/AP-OVERVIEW/AP-REPORT/VENDOR-Q/VENDOR-Q-9/DMR-CONTROL/DMR-CONTROL-1/DMR-E) Enter or Modify Discrepant Material Records   
-[ PO.CONTROL ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-2/PO-CONTROL) Enter or Modify Purchasing Defaults and Controls   
-[ PO.E ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E) Enter Purchase Orders   
-[ PO.NOTES ](PO-NOTES/README.md) Enter Pre-defined Purchase Order Notes   
-[ POPRICE.E ](../../../rover/MFG-OVERVIEW/MFG-REPORT/MRP-R5/POPRICE-E) Enter Purchase Price Information   
-[ POREQ.E ](../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E/VENDOR-E-1/POREQ-E) Enter Purchase Requisitions   
-[ PTAX.E ](PTAX-E/README.md) Enter Purchasing Sales Tax Codes   
-[ RECEIPTS.E ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2/RECEIPTS-E3/RECEIPTS-E) Enter Receipts Against Purchase Orders   
-[ RECEIPTS.E2 ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2) Enter Debits Against Existing Receipts   
-[ RECEIPTS.E3 ](../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2/RECEIPTS-E3) Reverse Existing Receipts Records   
-[ TERMS.E ](../../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E) Enter Payment Terms Codes   
-[ VENDOR.E ](../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E) Enter Vendor Information   
-  
+The following procedures are available for entry of purchasing data. The procedures shown below may be run individually or, where logically related, in sequence.
+
+- [CONTAINER.E](CONTAINER-E/README.md) Container Entry  
+- [CONTAINER.E2](CONTAINER-E2/README.md) Container Entry  
+- [DMR.CONTROL](DMR-CONTROL/README.md) Define DMR Control Parameters  
+- [DMR.E](DMR-E/README.md) DMR Entry  
+- [PO.CONTROL](PO-CONTROL/README.md) Purchase Order Control Record Entry  
+- [PO.E](PO-E/README.md) Purchase Order Entry  
+- [PO.NOTES](PO-NOTES/README.md) Purchase Order Notes Entry  
+- [POPRICE.E](POPRICE-E/README.md) Enter Product Pricing by Vendor  
+- [POREQ.E](POREQ-E/README.md) Purchase Requisition Entry  
+- [PTAX.E](PTAX-E/README.md) Purchase Tax Code Entry  
+- [RECEIPTS.E](RECEIPTS-E/README.md) Receipt Entry  
+- [RECEIPTS.E2](RECEIPTS-E2/README.md) Receipt Reversal Entry
+- [RECEIPTS.E3](RECEIPTS-E3/README.md) Mass Receipt Entry
+
 <badge text= "Version 8.10.57" vertical="middle" />
 
 <PageFooter />

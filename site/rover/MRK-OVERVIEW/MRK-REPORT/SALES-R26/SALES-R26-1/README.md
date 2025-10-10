@@ -45,7 +45,7 @@ bar or pressing the F9 key or Ctrl+S.
 costs posted to the COST record and not the cost that was posted to the SALES
 record at the time the transaction occurred.  
   
-**Cost Group** Enter the cost group to be used when using the current standard cost in this report. The cost group must be defined in the [ INV.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) procedure. Leave blank if using the actual sales cost.   
+**Cost Group** Enter the cost group to be used when using the current standard cost in this report. The cost group must be defined in the [ INV.CONTROL ](../../../../INV-OVERVIEW/INV-ENTRY/INV-CONTROL/README.md) procedure. Leave blank if using the actual sales cost.   
   
 **Report Type** Enter the type of report you wish to run:  
   

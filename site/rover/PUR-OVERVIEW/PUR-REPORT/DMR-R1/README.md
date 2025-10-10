@@ -6,7 +6,7 @@
 [ Form Details ](DMR-R1-1/README.md)   
 
 **Purpose**  
-The [ DMR.R2 ](DMR-R2/README.md) procedure is used to produce a listing of all discrepant material reports entered for a specified date range. 
+The [ DMR.R2 ](../DMR-R2/README.md) procedure is used to produce a listing of all discrepant material reports entered for a specified date range. 
 
 **Frequency of Use**  
 As required.

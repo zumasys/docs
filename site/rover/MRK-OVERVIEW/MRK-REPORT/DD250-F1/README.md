@@ -14,7 +14,7 @@ printing.
 As required, generally along with other shipping paperwork.
 
 **Prerequisites**  
-Entry of the DD250 information using [ DD250.E ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/DD250-E) . 
+Entry of the DD250 information using [ DD250.E ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/DD250-E/README.md) . 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

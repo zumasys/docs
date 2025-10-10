@@ -6,7 +6,7 @@
 [ Form Details ](REG-R1-1/README.md)   
 
 **Purpose**  
-The REG.R1 procedure is used to print a listing of all register transactions for a selected record. The intent is to display all register entries, regardless of which register file they are in. For example, running against an AR record will show not only the [ AR.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) activity, but also the SHIP activity, including the cost of goods transactions in the INVREG file. 
+The REG.R1 procedure is used to print a listing of all register transactions for a selected record. The intent is to display all register entries, regardless of which register file they are in. For example, running against an AR record will show not only the [ AR.E ](../../../AR-OVERVIEW/AR-ENTRY/AR-E/README.md) activity, but also the SHIP activity, including the cost of goods transactions in the INVREG file. 
 
 **Frequency of Use**  
 As required.
@@ -30,7 +30,7 @@ number that generated the invoice.
 **Rec.Date** The transaction date of the record (e.g. invoice date).  
 **Reference** The reference or source document.  
 **Amount** The amount (dollar value) of the register record entry.  
-**Procedure** The procedure which caused this register record to occur (e.g. [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) , [ CHECKS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) , etc.).   
+**Procedure** The procedure which caused this register record to occur (e.g. [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) , [ CHECKS.E ](../../../AP-OVERVIEW/AP-ENTRY/CHECKS-E/README.md) , etc.).   
 **Account** The GL account number from the register record.  
 **Description** The description of the GL account number.  
 **GL.Date** This field contains the date on which the register record was

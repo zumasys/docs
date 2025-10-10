@@ -18,7 +18,7 @@ will have the flag remove which indicates a check is being processed.
 As required.
 
 **Prerequisites**  
-The [ COMM.P3 ](../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F4/CHECKS-P3/COMM-P3) procedure must have been run and the [ CHECKS.P3 ](../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F4/CHECKS-P3) process must not have been run for the selected check run number. 
+The [ COMM.P3 ](../COMM-P3/README.md) procedure must have been run and the [ CHECKS.P3 ](../CHECKS-P3/README.md) process must not have been run for the selected check run number. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

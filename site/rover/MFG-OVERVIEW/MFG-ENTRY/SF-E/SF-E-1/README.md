@@ -13,7 +13,7 @@ added or changed.
 in the parts master file. It is shown for information only and may not be
 changed.  
   
-**Group** Enter the planning group which applies to this sales forecast. This field will be verified against the planning group(s) entered in [ PLAN.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/PLAN-CONTROL) . If you have only one planning group this field will be defaulted and skipped.   
+**Group** Enter the planning group which applies to this sales forecast. This field will be verified against the planning group(s) entered in [ PLAN.CONTROL ](../../PLAN-CONTROL/README.md) . If you have only one planning group this field will be defaulted and skipped.   
   
 **Schedule Date** Enter the dates on which sales quantities are to be
 forecasted. Quantities are entered on the next prompt.  

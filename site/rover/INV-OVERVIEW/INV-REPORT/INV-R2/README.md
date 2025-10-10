@@ -14,7 +14,7 @@ on hand without creating a work order and physically pulling the parts.
 The report is not a cummulative "what if" process and does not consider any
 current obligations for the parts.  
   
-The inventory locations which are to be considered for this report are identified in the [ INV.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) procedure. 
+The inventory locations which are to be considered for this report are identified in the [ INV.CONTROL ](../../INV-ENTRY/INV-CONTROL/README.md) procedure. 
 
 **Frequency of Use**  
 As required.

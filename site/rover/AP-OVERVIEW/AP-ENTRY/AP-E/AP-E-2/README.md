@@ -34,7 +34,7 @@ Cost file when the receipt was posted.
 **Original Cost** This is the original actual cost. This cost reflects the
 actual cost as it originally appeared on the AP item, before any changes.  
   
-**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](INV-CONTROL/README.md) . The cost group is used to define the costing method for this AP item.   
+**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../INV-OVERVIEW/INV-ENTRY/INV-CONTROL/README.md) . The cost group is used to define the costing method for this AP item.   
   
 **Project Id** If this AP line item is for a project, enter the project
 number. This will cause the costs associated with this AP line item to be
@@ -69,7 +69,7 @@ based on the exchange rate.
   
 **Amount** Enter the amount.  
   
-**Expense Acct** Enter the expense account number to which the associated amount will be distributed. For items received via a purchase order, this account number is loaded from the PO. For new AP items, if the vendor has a specific account number entered on the [ VENDOR.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E) screen, that number is defaulted.   
+**Expense Acct** Enter the expense account number to which the associated amount will be distributed. For items received via a purchase order, this account number is loaded from the PO. For new AP items, if the vendor has a specific account number entered on the [ VENDOR.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E/README.md) screen, that number is defaulted.   
   
 **Acct Description** This field contains the account description and is for
 reference only.  

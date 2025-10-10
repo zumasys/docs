@@ -6,7 +6,7 @@
 
 ![](./ACCT-CONTROL-3.jpg)
 
-**Collection Status** Enter the status code list that will be available in [ AR.E ](AR-E/README.md) on the collections tab.   
+**Collection Status** Enter the status code list that will be available in [ AR.E ](../../../../AR-OVERVIEW/AR-ENTRY/AR-E/README.md) on the collections tab.   
   
 **Status Desc** Enter the description for the status code.  
   

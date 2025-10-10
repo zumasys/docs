@@ -40,7 +40,7 @@ bar or pressing the F9 key or Ctrl+S.
 **Part Number** Enter the part number that will be used for the configuration
 price listing.  
   
-**Quantity** Enter a quantity if you want to have it used in the price configuration process. This would apply if quantity price breaks are defined in [ PRICE.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/PRICE-E) . If no quantity is entered, then a quantity of one is assumed.   
+**Quantity** Enter a quantity if you want to have it used in the price configuration process. This would apply if quantity price breaks are defined in [ PRICE.E ](../../../MRK-ENTRY/PRICE-E/README.md) . If no quantity is entered, then a quantity of one is assumed.   
   
 **Cust ID** Enter a customer number if contract pricing is to be considered in
 the price breakdown.  

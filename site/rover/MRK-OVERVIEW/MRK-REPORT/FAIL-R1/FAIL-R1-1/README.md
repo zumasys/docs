@@ -37,7 +37,7 @@ destination and may not be available in all cases.
 function which may also be activated by clicking the save button in the tool
 bar or pressing the F9 key or Ctrl+S.  
   
-**Model Number** Enter all of the model numbers you want to have included on the report or leave this field blank to include all model numbers in the listing. You may enter only those models for which MTBF data has been collected as defined in the [ MTBF.CONTROL ](../../../../../rover/MRK-OVERVIEW/MRK-ENTRY/MTBF-CONTROL) procedure. Depending on how the models were defined you may be required to enter only a portion of the model number such as a prefix rather than the specific model number.   
+**Model Number** Enter all of the model numbers you want to have included on the report or leave this field blank to include all model numbers in the listing. You may enter only those models for which MTBF data has been collected as defined in the [ MTBF.CONTROL ](../../../../../rover/MRK-OVERVIEW/MRK-ENTRY/MTBF-CONTROL/README.md) procedure. Depending on how the models were defined you may be required to enter only a portion of the model number such as a prefix rather than the specific model number.   
   
 **Time Period (in months)** Enter the number of months of history to be used
 in performing the MTBF calculation.  

@@ -28,7 +28,7 @@ save room on the report for an extra column of figures.
 that occured within the current year are to be included in the report (e.g. do
 not include the beginning balance for the year).  
   
-**Factor** Enter the factor which will determine how amounts will be displayed on this financial report. If this field is left blank, the method selected in the [ gl.control ](gl-control/README.md) record will be used.   
+**Factor** Enter the factor which will determine how amounts will be displayed on this financial report. If this field is left blank, the method selected in the [ gl.control ](../../GL-CONTROL/README.md) record will be used.   
   
 **Col type** Enter the code which will define the value which will print in
 each of the columns. One type code is entered for each column of amounts to

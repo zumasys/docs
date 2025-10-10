@@ -16,7 +16,7 @@ statement.
 As required.
 
 **Prerequisites**  
-The aging periods and column headings must be established in the [ AR.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) record.   
+The aging periods and column headings must be established in the [ AR.CONTROL ](../../AR-ENTRY/AR-CONTROL/README.md) record.   
 
 **Data Fields**
 
@@ -30,7 +30,7 @@ printed.
 **Open Amount** The amount currently open on the AR Item.  
 **Balance to Date** The cummulative open balance of the AR items on the report
 up to and including the item on the same line.  
-**Aging** The total amount due, aged over the periods as defined in the [ AR.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) record.   
+**Aging** The total amount due, aged over the periods as defined in the [ AR.CONTROL ](../../AR-ENTRY/AR-CONTROL/README.md) record.   
 **Total Due** The total due of all items appearing on the statement.  
   
 <badge text= "Version 8.10.57" vertical="middle" />

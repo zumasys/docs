@@ -13,7 +13,7 @@ which have been defined for use in the purchasing system.
 As required.
 
 **Prerequisites**  
-Entry of sales tax codes ( [ PTAX.E ](../../../../rover/PUR-OVERVIEW/PUR-ENTRY/PTAX-E) ). 
+Entry of sales tax codes ( [ PTAX.E ](../../../../rover/PUR-OVERVIEW/PUR-ENTRY/PTAX-E/README.md) ). 
 
 **Data Fields**
 

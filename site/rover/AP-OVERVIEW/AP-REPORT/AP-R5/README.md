@@ -6,7 +6,7 @@
 [ Form Details ](AP-R5-1/README.md)   
 
 **Purpose**  
-This will print a detail list of all AP item due for payment as of a selected date. This is intended to be a pre-processing audit report for the computer generated checks, meaning that it shows the user what the system would pay if the check processing were executed with the same date. If items appear on this report which you do not wish to pay, use the [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) process to change the date to pay. A cutoff date is prompted when running this report. All items due for payment on or before that date will be printed. 
+This will print a detail list of all AP item due for payment as of a selected date. This is intended to be a pre-processing audit report for the computer generated checks, meaning that it shows the user what the system would pay if the check processing were executed with the same date. If items appear on this report which you do not wish to pay, use the [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) process to change the date to pay. A cutoff date is prompted when running this report. All items due for payment on or before that date will be printed. 
 
 **Frequency of Use**  
 When using the computer generated checks, this should be run immediately

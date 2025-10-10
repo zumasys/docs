@@ -26,7 +26,7 @@ transactions occur against a work order.
 **Woreg Id** The record id of the work order register.  
 **Date** The date for which the register entry was made.  
 **Amount** The total amount of the register record.  
-**Procedure** The procedure which caused this register record to occur (e.g. [ WOMATL.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-2/WOMATL-E) , [ WOOP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-2/WOOP-E) , etc.).   
+**Procedure** The procedure which caused this register record to occur (e.g. [ WOMATL.E ](../../../duplicates/WOMATL-E/README.md) , [ WOOP.E ](../../../duplicates/WOOP-E/README.md) , etc.).   
 **Record Id** The record id which caused this register record to occur (e.g.
 WOMATL id, WOOP id, etc.).  
   

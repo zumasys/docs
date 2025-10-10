@@ -26,8 +26,8 @@ None.
 **Receipt/AP Id** The Purchase Order Number plus the receipt number. The
 receipt number is a sequential number assigned from the purchase order record
 to identify the receipt.  
-**Packing Slip** The packing slip number as entered in the [ RECEIPTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2/RECEIPTS-E3/RECEIPTS-E) procedure.   
-**Receipt Date** The date the receipt was made as entered in the [ RECEIPTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2/RECEIPTS-E3/RECEIPTS-E) procedure.   
+**Packing Slip** The packing slip number as entered in the [ RECEIPTS.E ](../../PUR-ENTRY/RECEIPTS-E/README.md) procedure.   
+**Receipt Date** The date the receipt was made as entered in the [ RECEIPTS.E ](../../PUR-ENTRY/RECEIPTS-E/README.md) procedure.   
 **Vendor Number** The number of the vendor on the purchase order.  
 **Vendor Name** The name of the purchase order vendor.  
 **Buyer** The name of the buyer as entered on the purchase order.  
@@ -47,7 +47,7 @@ measure.
 **Stocking U/M** The internal unit of measure used for stocking the part.  
 **Stocking Qty** The quantity received in terms of the internal unit of
 measure. This is the quantity which is applied to inventory.  
-**Unit Cost** The cost the part was received against in [ RECEIPTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2/RECEIPTS-E3/RECEIPTS-E) .   
+**Unit Cost** The cost the part was received against in [ RECEIPTS.E ](../../PUR-ENTRY/RECEIPTS-E/README.md) .   
 **Price Per** If the vendor prices the material based upon some grouping or
 packaging requirement. For example, if the price = .395 per 1000 pcs the price
 per would be equal to 1000.  

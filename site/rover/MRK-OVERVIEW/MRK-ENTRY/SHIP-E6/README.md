@@ -22,11 +22,11 @@ that are not reversed will be removed.
 If the original shipment was paid by a credit card, then the credit card
 transaction will be reversed after prompting the user for the option to
 reverse the charges.  
-The reversal will be posted by the [ SHIP.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/comm-e/SHIP-P1) procedure and a credit memo will be created in the Accounts Receivable system.   
+The reversal will be posted by the [ SHIP.P1 ](../../MRK-PROCESS/SHIP-P1/README.md) procedure and a credit memo will be created in the Accounts Receivable system.   
   
-Unlike [ SHIP.E3 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2/SHIP-E3) , this procedure is not a total reversal; therefore the miscellaneous charges and freight will not be reversed. To reverse those charges a total reversal must be done with [ SHIP.E3 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2/SHIP-E3) . Also, any credit memos applied to the original shipment will not be reopened.   
+Unlike [ SHIP.E3 ](../SHIP-E3/README.md) , this procedure is not a total reversal; therefore the miscellaneous charges and freight will not be reversed. To reverse those charges a total reversal must be done with [ SHIP.E3 ](../SHIP-E3/README.md) . Also, any credit memos applied to the original shipment will not be reopened.   
   
-Shipment records which have not been posted may be changed with the [ SHIP.E2 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2) procedure. 
+Shipment records which have not been posted may be changed with the [ SHIP.E2 ](../SHIP-E2/README.md) procedure. 
 
 **Frequency of Use**  
 As required.

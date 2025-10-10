@@ -61,10 +61,10 @@ entries, enter the ending number in this field.
 **Journal Type** If you wish to run this report for a specific types of
 journals, enter the types in this field. The valid entries are:  
   
-1\. Gltrans - Journal entries created in [ GLTRANS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E) .   
-2\. Recon - Journal entries created via [ RECON.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/CASH-E-1/RECON-E) .   
-2\. Recurring = Recurring journal entries created via [ GLRECUR.P1 ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL/GL-CONTROL-1/GLTRANS-P1/GLTRANS-P1-1/GLRECUR-P1) .   
-3\. Register - Journal entries created from one of the four reigster files (APREG, ARREG, INVREG and WOREG) via the [ GLINT.P1 ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL/GL-CONTROL-1/GLINT-P1) procedure.   
+1\. Gltrans - Journal entries created in [ GLTRANS.E ](../../../GL-ENTRY/GLTRANS-E/README.md) .   
+2\. Recon - Journal entries created via [ RECON.E ](../../../../AR-OVERVIEW/AR-ENTRY/RECON-E/README.md) .   
+2\. Recurring = Recurring journal entries created via [ GLRECUR.P1 ](../../../GL-PROCESS/GLRECUR-P1/README.md) .   
+3\. Register - Journal entries created from one of the four reigster files (APREG, ARREG, INVREG and WOREG) via the [ GLINT.P1 ](../../../GL-PROCESS/GLINT-P1/README.md) procedure.   
   
 Leave this field blank to include all journals.  
   

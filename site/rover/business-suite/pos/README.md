@@ -16,7 +16,7 @@ Rover POS allows your business users to originate orders, fulfill orders, proces
 - **Custom Subtotals and Taxes** – display fees like hazardous material charges separately and handle line-by-line tax.
 - **Quick Scan Mode** – optimized for rapid barcode scanning in high-volume environments.
 
-> NOTE: Please note that while you may use this version in tandem with [Smart Suite POS](../../smartsuite/pos/README.md), closing the register in one application will result in the register being closed for the other application.
+> NOTE: Please note that while you may use this version in tandem with [Smart Suite POS](README.md), closing the register in one application will result in the register being closed for the other application.
 
 ## Logging in
 

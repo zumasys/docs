@@ -54,7 +54,7 @@ be selected.
 **Customer** Enter the customer number. If this field is present, then any
 open AR record with a customer number matching this will be selected.  
   
-**Status desc** This field contains the description of the collection status code, as found in [ ACCT.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL) .   
+**Status desc** This field contains the description of the collection status code, as found in [ ACCT.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) .   
   
 **Customer name** This field contains the customer name.  
   

@@ -13,9 +13,9 @@ as well as the ability to update purchase order prices for those PO line items
 on the container to be updated. The unit price and price per can be updated
 from this screen. The affected purchase orders will be updated and PO booking
 records will be created as needed.  
-When the container is physically received, the status should be changed to "R" and the information should be verified for accuracy. When it is determined that all information is correct on the container, the status should be changed to "C" to confirm the receipt. This will create receipt records and cause inventory transactions to occur. The container receipts will be posted through the normal receipts posting process, [ RECEIPTS.P1 ](../../../../rover/AP-OVERVIEW/AP-REPORT/APREG-R1/RECEIPTS-P1) .   
+When the container is physically received, the status should be changed to "R" and the information should be verified for accuracy. When it is determined that all information is correct on the container, the status should be changed to "C" to confirm the receipt. This will create receipt records and cause inventory transactions to occur. The container receipts will be posted through the normal receipts posting process, [ RECEIPTS.P1 ](../../PUR-PROCESS/RECEIPTS-P1/README.md) .   
   
-Once the receipts records have been created, the container cannot be deleted, and the receipt records cannot be modified through this process. [ RECEIPTS.E2 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2) can be used to correct individual receipt records on the container. 
+Once the receipts records have been created, the container cannot be deleted, and the receipt records cannot be modified through this process. [ RECEIPTS.E2 ](../RECEIPTS-E2/README.md) can be used to correct individual receipt records on the container. 
 
 **Frequency of Use**  
 As required.

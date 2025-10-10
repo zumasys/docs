@@ -6,15 +6,15 @@
 
 ![](./PRECOMM-E-1.jpg)
 
-**Seq** Enter Prechecks ID/Sequence number to be edited. There are several lookups that can be performed from this field by check run number and vendor if you do not know the precheck id. You can, also, run [ PRECOMM.R1 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/PRECOMM-R1) to obtain a listing of all existing precheck records.   
+**Seq** Enter Prechecks ID/Sequence number to be edited. There are several lookups that can be performed from this field by check run number and vendor if you do not know the precheck id. You can, also, run [ PRECOMM.R1 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/PRECOMM-R1/README.md) to obtain a listing of all existing precheck records.   
   
 **Co Code** The company code for this precheck record. This field is for
 reference only and cannot be changed. Any A/P items which are added to this
 record must have a matching company code.  
   
-**Check** Check # Assigned by system during [ CHECKS.F1 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F1) or [ CHECKS.F2 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F2) procedure. If required the check# can be changed usually due to a paper jam. However, once a check# has been issued AP Items cannot be added or deleted or modified.   
+**Check** Check # Assigned by system during [ CHECKS.F1 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F1/README.md) or [ CHECKS.F2 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F2/README.md) procedure. If required the check# can be changed usually due to a paper jam. However, once a check# has been issued AP Items cannot be added or deleted or modified.   
   
-**Run** This field displays the check run number that this precheck record has been created for. The check run number is assigned when the [ COMM.P3 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F4/CHECKS-P3/COMM-P3) procedure is processed.   
+**Run** This field displays the check run number that this precheck record has been created for. The check run number is assigned when the [ COMM.P3 ](../../../AP-PROCESS/COMM-P3/README.md) procedure is processed.   
   
 **Check Date** Date that will print on check.  
   
@@ -22,12 +22,12 @@ record must have a matching company code.
 total of the gross pay amount. It is displayed for reference only and cannot
 be changed. NOTE: More than 1 check may have been issued to this rep.  
   
-**Disb.Acct** Distribution Account check amounts will be posted to. This account is assigned when the precheck records are created in [ COMM.P3 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F4/CHECKS-P3/COMM-P3) but can be changed in this procedure if required.   
+**Disb.Acct** Distribution Account check amounts will be posted to. This account is assigned when the precheck records are created in [ COMM.P3 ](../../../AP-PROCESS/COMM-P3/README.md) but can be changed in this procedure if required.   
   
 **Rep** This field displays the rep id for this precheck record. This field is
 displayed for reference only and cannot be changed.  
   
-**Rep Name** This field displays the name of the associate rep as it is defined in [ REP.E ](REP-E/README.md) .   
+**Rep Name** This field displays the name of the associate rep as it is defined in [ REP.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/REP-E/README.md) .   
   
 **COMM.ID** This field displays the commission ids that have been selected for
 payment against this precheck record. You may delete a commission id by using

@@ -10,7 +10,7 @@
 [ Attachments ](QC-E-5/README.md)   
 
 **Purpose**  
-The QC.E procedure is used to enter test results and ultimately disposition parts after inspection. The QC may reference a PO receipt, a work order, or be processed directly to a part number. The test steps and instructions may be predefined in [ PARTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) . They will be auto-loaded when the part number is entered.   
+The QC.E procedure is used to enter test results and ultimately disposition parts after inspection. The QC may reference a PO receipt, a work order, or be processed directly to a part number. The test steps and instructions may be predefined in [ PARTS.E ](../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) . They will be auto-loaded when the part number is entered.   
   
 Once the test is complete, the user has the option of accepting or rejecting
 all or part of the quantity. Additionally, they can invoke screens to issue
@@ -21,7 +21,7 @@ completions, scrap material, create an NCMR, etc.
 As required.
 
 **Prerequisites**  
-None. Test steps and instructions may be predefined in [ PARTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) to make the data entry easier. 
+None. Test steps and instructions may be predefined in [ PARTS.E ](../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) to make the data entry easier. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

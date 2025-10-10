@@ -11,7 +11,7 @@ form. The requisition to be printed may be selected individually, by a range
 of requisition numbers or by a range of requisition dates.
 
 **Frequency of Use**  
-Requisition forms may be printed as required and may be also be reprinted at any time. The [ POREQ.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E/VENDOR-E-1/POREQ-E) procedure may be enabled to automatically print the forms as well by setting parameters in the [ FORM.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/AP-CONTROL-2/FORM-CONTROL) procedure. 
+Requisition forms may be printed as required and may be also be reprinted at any time. The [ POREQ.E ](../../PUR-ENTRY/POREQ-E/README.md) procedure may be enabled to automatically print the forms as well by setting parameters in the [ FORM.CONTROL ](../../../ACE-OVERVIEW/ACE-ENTRY/FORM-CONTROL/README.md) procedure. 
 
 **Prerequisites**  
 Entry of the selected requisitions.

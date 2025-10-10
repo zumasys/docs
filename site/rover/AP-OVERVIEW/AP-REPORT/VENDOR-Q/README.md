@@ -15,7 +15,7 @@
 [ Attachments ](VENDOR-Q-10/README.md)   
 
 **Purpose**  
-The VENDOR.Q procedure provides an on-line inquiry for a selected vendor. Included at the bottom of the screen is an aging of all balances according to the aging periods defined in the [ AP.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) file. 
+The VENDOR.Q procedure provides an on-line inquiry for a selected vendor. Included at the bottom of the screen is an aging of all balances according to the aging periods defined in the [ AP.CONTROL ](../../AP-ENTRY/AP-CONTROL/README.md) file. 
 
 **Frequency of Use**  
 As required.

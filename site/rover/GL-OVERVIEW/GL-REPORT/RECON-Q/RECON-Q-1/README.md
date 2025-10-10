@@ -9,7 +9,7 @@
 **Cash Account** Enter the cash or credit card account number(s) you wish to
 view activity for.  
   
-**Account Description** The descripton for the associated account number as it was entered in [GLCHART.E](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E).  
+**Account Description** The descripton for the associated account number as it was entered in [GLCHART.E](../../../GL-ENTRY/GLCHART-E/README.md).  
   
 **Current Balance** This field contains the current balance in the associated
 account for the current fiscal year. The balance is calculated by taking the
@@ -39,7 +39,7 @@ below.
   
 **Trans Date** The date the transaction occurred.  
   
-**Type** The type of transaction. The valid entries would be: CHECK, CASH, JOURNAL (journal entry made via [GLTRANS.E](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E) ), CC-AR (credit card payment made via [AR.E](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E)), CC-SH (credit card payment made via shipping process), CREV (cash reversal), VOID (voided check). If the source is JOURNAL, the entry was made via [GLTRANS.E](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E) as a miscellaneous posting to the cash account.  
+**Type** The type of transaction. The valid entries would be: CHECK, CASH, JOURNAL (journal entry made via [GLTRANS.E](../../../GL-ENTRY/GLTRANS-E/README.md) ), CC-AR (credit card payment made via [AR.E](../../../../AR-OVERVIEW/AR-ENTRY/AR-E/README.md)), CC-SH (credit card payment made via shipping process), CREV (cash reversal), VOID (voided check). If the source is JOURNAL, the entry was made via [GLTRANS.E](../../../GL-ENTRY/GLTRANS-E/README.md) as a miscellaneous posting to the cash account.  
   
 **Record Id** The record id. If the transaction type is CASH, CHECK or G/L,
 the record id will be the CASH id, check number or journal entry. If the

@@ -6,13 +6,13 @@
 [ Form Details ](WARR-R1-1/README.md)   
 
 **Purpose**  
-The WARR.R1 procedure is used to produce a listing of all the warranty records which have been entered via the [ WARR.E ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/WARR-E) procedure. 
+The WARR.R1 procedure is used to produce a listing of all the warranty records which have been entered via the [ WARR.E ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/WARR-E/README.md) procedure. 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-Entry of warranty data ( [ WARR.E ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/WARR-E) ). 
+Entry of warranty data ( [ WARR.E ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/WARR-E/README.md) ). 
 
 **Data Fields**
 

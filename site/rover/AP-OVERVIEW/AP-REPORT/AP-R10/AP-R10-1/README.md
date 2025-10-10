@@ -45,7 +45,7 @@ wish to select all invoices dated prior to the end date entered.
 to be selected for this report. Leaving this field null assumes you wish to
 select all invoices since the start date entered.  
   
-**Batch Number** If you wish to run this report for a specific batch number, enter the number in this field. Batch numbers are assigned in [ AP.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) .   
+**Batch Number** If you wish to run this report for a specific batch number, enter the number in this field. Batch numbers are assigned in [ AP.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) .   
   
 **Sort by ID or Date** If you wish to sort this report by AP Id (voucher
 number), enter 'I'. To sort by date, enter 'D'.  

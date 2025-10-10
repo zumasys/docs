@@ -16,7 +16,7 @@ created for a specific record. It can be run as required to audit the activity
 of a record.
 
 **Prerequisites**  
-Accounts Receivable register transactions are created automatically by the system through the [ AR.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) , [ CASH.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E) , [ SHIP.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/comm-e/SHIP-P1) and [ ARR.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-4/AR-F2/ARR-P1) procedures. 
+Accounts Receivable register transactions are created automatically by the system through the [ AR.E ](../../AR-ENTRY/AR-E/README.md) , [ CASH.E ](../../AR-ENTRY/CASH-E/README.md) , [ SHIP.P1 ](../../../duplicates/SHIP-P1/README.md) and [ ARR.P1 ](../../AR-PROCESS/ARR-P1/README.md) procedures. 
 
 **Data Fields**
 
@@ -25,7 +25,7 @@ Accounts Receivable register transactions are created automatically by the syste
 **Reg Id** The record id of the ARREG entry.  
 **Date** The date for which the register entry was made.  
 **Amount** The total amount of the register record.  
-**Procedure** The procedure which caused this register record to occur (e.g. [ AR.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) , [ CASH.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E) , etc.).   
+**Procedure** The procedure which caused this register record to occur (e.g. [ AR.E ](../../AR-ENTRY/AR-E/README.md) , [ CASH.E ](../../AR-ENTRY/CASH-E/README.md) , etc.).   
 **Record Id** The record id which caused this register record to occur (e.g.
 AR id, Cash number, etc.).  
   

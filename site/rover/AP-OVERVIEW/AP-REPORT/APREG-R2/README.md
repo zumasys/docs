@@ -15,7 +15,7 @@ created for a specific record. It can be run as required to audit the activity
 of a record.
 
 **Prerequisites**  
-Accounts Payable register transactions are created automatically by the system through the [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) , [ CHECKS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) and [ APR.P1 ](../../../../rover/AP-OVERVIEW/AP-PROCESS/APR-P1) procedures. 
+Accounts Payable register transactions are created automatically by the system through the [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) , [ CHECKS.E ](../../AP-ENTRY/CHECKS-E/README.md) and [ APR.P1 ](../../../../rover/AP-OVERVIEW/AP-PROCESS/APR-P1/README.md) procedures. 
 
 **Data Fields**
 
@@ -24,7 +24,7 @@ Accounts Payable register transactions are created automatically by the system t
 **Reg Id** The record id of the APREG entry.  
 **Date** The date for which the register entry was made.  
 **Amount** The total amount of the register record.  
-**Procedure** The procedure which caused this register record to occur (e.g. [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) , [ CHECKS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) , etc.).   
+**Procedure** The procedure which caused this register record to occur (e.g. [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) , [ CHECKS.E ](../../AP-ENTRY/CHECKS-E/README.md) , etc.).   
 **Record Id** The record id which caused this register record to occur (e.g.
 AP id, Check number, etc.).  
   

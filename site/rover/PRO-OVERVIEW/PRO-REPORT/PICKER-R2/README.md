@@ -23,7 +23,7 @@ work order you are checking would be the last in line for the parts.
 As required.
 
 **Prerequisites**  
-Creation of the picking list through [ WO.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-E) . 
+Creation of the picking list through [ WO.E ](../../PRO-ENTRY/WO-E/README.md) . 
 
 **Data Fields**
 

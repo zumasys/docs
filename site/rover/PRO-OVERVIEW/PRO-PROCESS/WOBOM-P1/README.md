@@ -6,7 +6,7 @@
 [ Form Details ](WOBOM-P1-1/README.md)   
 
 **Purpose**  
-The WOBOM.P1 procedure is used to purge inactive work order bills of material from the data base. The criteria used to deterime which records are purged is based on a user defined cut-off date. All work order bills of material whose associated work order status is set to "F" (final) and close date is less than or equal to the cut-off date will be deleted. If you do not want to delete work order bill of material records until their associated work order is deleted then you do not need to run this procedure. The work order purge procedure ( [ WO.P2 ](../../../../rover/PRO-OVERVIEW/PRO-PROCESS/PICKER-P1/WO-P2) ) will delete the work order bill of material at the same time it deletes the work order. 
+The WOBOM.P1 procedure is used to purge inactive work order bills of material from the data base. The criteria used to deterime which records are purged is based on a user defined cut-off date. All work order bills of material whose associated work order status is set to "F" (final) and close date is less than or equal to the cut-off date will be deleted. If you do not want to delete work order bill of material records until their associated work order is deleted then you do not need to run this procedure. The work order purge procedure ( [ WO.P2 ](../WO-P2/README.md) ) will delete the work order bill of material at the same time it deletes the work order. 
 
 **Frequency of Use**  
 The frequency with which a purge is performed will vary depending on such

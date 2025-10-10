@@ -48,7 +48,7 @@ select all invoices since the start date entered.
 **State** Enter the state(s) you wish to run this report for. If this field is
 left blank, all states will be included.  
   
-**Use Customer State** Check this box, if you wish to base this report on the primary address for the customer as opposed to the ship to state. The primary and/or main address for a customer is defined on the general tab in [ cust.e ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-2/CASH-E4/CASH-E4-1/cust-e) . If this box is not checked, the state that the product was shipped to will be used. This state can be found on the address tab in [ ar.e ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e) .   
+**Use Customer State** Check this box, if you wish to base this report on the primary address for the customer as opposed to the ship to state. The primary and/or main address for a customer is defined on the general tab in [ cust.e ](../../../../duplicates/cust-e/README.md) . If this box is not checked, the state that the product was shipped to will be used. This state can be found on the address tab in [ ar.e ](../../../../duplicates/ar-e/README.md) .   
   
 **Co Code** Enter the company codes you wish to appear on this report. If left
 blank all company codes will be included.  

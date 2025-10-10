@@ -53,7 +53,7 @@ DATE SUMMARY - Lists the total quantity and dollars received by date.
 **Co Code** Enter the company codes you wish to appear on this report. If left
 blank all company codes will be included.  
   
-**Debit Receipts Only** Check this box if you only wish to include debit receipts in the report. Debit receipts are receipt that were created via [ RECEIPTS.E2 ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2) .   
+**Debit Receipts Only** Check this box if you only wish to include debit receipts in the report. Debit receipts are receipt that were created via [ RECEIPTS.E2 ](../../../PUR-ENTRY/RECEIPTS-E2/README.md) .   
   
 **Exclude Totals** Check this box if you wish to exclude totals from the
 report.  

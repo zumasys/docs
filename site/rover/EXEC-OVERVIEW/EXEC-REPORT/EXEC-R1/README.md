@@ -24,7 +24,7 @@ This information is also available via the [ EXEC.Q ](../EXEC-Q/README.md) inqui
 As required.
 
 **Prerequisites**  
-The [ EXEC.P1 ](../EXEC-Q/EXEC-P1/README.md) procedure must have been run for the date selected. 
+The [ EXEC.P1 ](../../EXEC-PROCESS/EXEC-P1/README.md) procedure must have been run for the date selected. 
 
 **Data Fields**
 

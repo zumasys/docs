@@ -6,7 +6,7 @@
 [ Form Details ](SHIP-R2-1/README.md)   
 
 **Purpose**  
-The SHIP.R2 procedure is used to print a listing of all shipment records which have not been confirmed with the [ SHIP.E2 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2) procedure by setting the shipment status to "S" shipped. The report is sorted by shipment date. 
+The SHIP.R2 procedure is used to print a listing of all shipment records which have not been confirmed with the [ SHIP.E2 ](../../MRK-ENTRY/SHIP-E2/README.md) procedure by setting the shipment status to "S" shipped. The report is sorted by shipment date. 
 
 **Frequency of Use**  
 As required.

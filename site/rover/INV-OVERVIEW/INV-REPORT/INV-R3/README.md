@@ -6,13 +6,13 @@
 [ Form Details ](INV-R3-1/README.md)   
 
 **Purpose**  
-The INV.R3 procedure is used to produce a report which displays the number of parts to be counted by date, as assigned by the cycle date assignment procedure ( [ INV.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/CYCLE-P1/CYCLE-P1-1/INV-P1) ). The report is run for a specific inventory location. This report is intended to be used to audit the effects of the [ INV.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/CYCLE-P1/CYCLE-P1-1/INV-P1) procedure and verify the number of parts to be counted by ABC code is correct. 
+The INV.R3 procedure is used to produce a report which displays the number of parts to be counted by date, as assigned by the cycle date assignment procedure ( [ INV.P1 ](../../INV-PROCESS/INV-P1/README.md) ). The report is run for a specific inventory location. This report is intended to be used to audit the effects of the [ INV.P1 ](../../INV-PROCESS/INV-P1/README.md) procedure and verify the number of parts to be counted by ABC code is correct. 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-The [ INV.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/CYCLE-P1/CYCLE-P1-1/INV-P1) procedure should have been run to assign the cycle dates. 
+The [ INV.P1 ](../../INV-PROCESS/INV-P1/README.md) procedure should have been run to assign the cycle dates. 
 
 **Data Fields**
 

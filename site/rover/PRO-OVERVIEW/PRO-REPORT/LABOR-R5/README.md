@@ -22,7 +22,7 @@ None.
 **Employee ID** The number assigned to the employee.  
 **Name** The employee's name.  
 **Func** The code which defines the function performed with the labor hours.  
-**Description** The description of the function as defined in the [ LABOR.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/LABOR-CONTROL) procedure.   
+**Description** The description of the function as defined in the [ LABOR.CONTROL ](../../PRO-ENTRY/LABOR-CONTROL/README.md) procedure.   
 **Hours** The actual hours posted.  
   
 <badge text= "Version 8.10.57" vertical="middle" />

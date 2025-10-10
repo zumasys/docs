@@ -15,7 +15,7 @@ As required to maintain sufficient file storage space and processing
 efficiency.
 
 **Prerequisites**  
-Entry of requisitions ( [ POREQ.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E/VENDOR-E-1/POREQ-E) ) 
+Entry of requisitions ( [ POREQ.E ](../../PUR-ENTRY/POREQ-E/README.md) ) 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

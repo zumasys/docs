@@ -15,7 +15,7 @@ requested.
 As required.
 
 **Prerequisites**  
-Building of the MRP files ( [ MRP.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-3/poprice-e/PLAN-E/MRP-P1) ). 
+Building of the MRP files ( [ MRP.P1 ](../../MFG-PROCESS/MRP-P1/README.md) ). 
 
 **Data Fields**
 

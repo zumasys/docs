@@ -15,7 +15,7 @@ before running the cost variation report, or posting the tags to inventory.
 As required.
 
 **Prerequisites**  
-The counts should have been entered in the [ PHYS.E ](../../../../rover/INV-OVERVIEW/INV-ENTRY/PHYS-E) procedure. 
+The counts should have been entered in the [ PHYS.E ](../../../../rover/INV-OVERVIEW/INV-ENTRY/PHYS-E/README.md) procedure. 
 
 **Data Fields**
 

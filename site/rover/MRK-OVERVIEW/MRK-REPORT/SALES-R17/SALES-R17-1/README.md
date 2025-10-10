@@ -37,7 +37,7 @@ destination and may not be available in all cases.
 function which may also be activated by clicking the save button in the tool
 bar or pressing the F9 key or Ctrl+S.  
   
-**C)alendar or F)iscal Period** Enter the letter "C" if you want to report by calendar period. "F" will report by fiscal period as defined by the [ FY.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E/GLTRANS-E-1/FY-E) procedure.   
+**C)alendar or F)iscal Period** Enter the letter "C" if you want to report by calendar period. "F" will report by fiscal period as defined by the [ FY.E ](../../../../GL-OVERVIEW/GL-ENTRY/FY-E/README.md) procedure.   
   
 **Start Month/Period** If you are reporting by calendar period, enter the
 number of the month to be used as the first period in the report. For example,

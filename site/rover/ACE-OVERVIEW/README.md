@@ -1,8 +1,10 @@
-##  ACE Overview
+# ACE Overview
 
 <PageHeader />
 
-[ Data Entry Procedures ](ACE-ENTRY/README.md) | [ Reports and Inquiries ](ACE-REPORT/README.md) | [ Update Processes ](ACE-PROCESS/README.md)
+- [Data Entry Procedures](ACE-ENTRY/README.md)
+- [Reports and Inquiries](ACE-REPORT/README.md)
+- [Update Processes](ACE-PROCESS/README.md)
 
 **Purpose**  
 The ACE module controls all data entry screens, menus and security. There are
@@ -37,14 +39,11 @@ four screens of information regarding each data entry, report or process
 screen in the system. Associated with this file, but not accessible
 individually are:  
   
-  
 1\. The Screen Definition file (SD) containing the screen format and  
 vidoe codes.  
   
-  
 2\. The Procedure Execution file (PE) containing the compiled  
 (executable) version of the screen.  
-  
   
 3\. The Screen Image file (SI) which contains the the precise image  
 of the screen. This is built the first time each terminal type  
@@ -59,14 +58,11 @@ file is used to define the characteristics of a particular terminal model.
   
 The Security file (SECURITY) contains several levels of information:  
   
-  
 1\. User profiles (PROFILE.E) which contains the valid procedures  
 for each user.  
   
-  
 2\. Secured account names (ACCOUNTS.E) which identify, by account,  
 which accounts are secured.  
-  
   
 3\. User line (USER.E) information about which terminal type is  
 assigned to each serial line.

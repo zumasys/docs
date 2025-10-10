@@ -20,7 +20,7 @@ None.
 
 **Check#** The record ID of the item in the CHECKS file.  
 **Vend#** The vendor number.  
-**Vendor.Name** The name of the vendor as it appears in the Vendor file. If the check was entered via [ CHECKS.E4 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4) , then this is the first line of the notes.   
+**Vendor.Name** The name of the vendor as it appears in the Vendor file. If the check was entered via [ CHECKS.E4 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/README.md) , then this is the first line of the notes.   
 **Chk.Date** The date of the check.  
 **Check.Amount** The total amount of the check.  
 **St** The current status of the check record. (P = posted, other codes are

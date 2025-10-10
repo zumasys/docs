@@ -95,7 +95,7 @@ a starting and ending zip code will be required. Enter the ending zip code
 here. Only enter the first 5 numbers of the zip code. This option is helpful
 if you only wish to update the reps for certain territories.  
   
-**State List** If you wish to update the rep for customers with certain states, enter those states here. Please note that in order for the update to occur the state that is entered here must match exactly the state that is entered on the general tab in [ CUST.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) . For example, if you enter CA here and CALIF in [ CUST.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) , the rep will not be updated.   
+**State List** If you wish to update the rep for customers with certain states, enter those states here. Please note that in order for the update to occur the state that is entered here must match exactly the state that is entered on the general tab in [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) . For example, if you enter CA here and CALIF in [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) , the rep will not be updated.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

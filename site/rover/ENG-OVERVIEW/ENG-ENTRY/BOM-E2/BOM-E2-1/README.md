@@ -32,7 +32,7 @@ the PARTS file.
 part number. It is shown on the screen for reference only and may not be
 changed.  
   
-**Code** Enter one of the following codes which defines the designation for this part number in reference to this bill of material. The code is initially defaulted from the PARTS file record for the associated part number, but may be changed as required. Subsequent changes to the code in the PARTS file do not affect the bill of material record, however the [ BOM.P1 ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E/BOM-E-1/BOM-P1) procedure is available to reset all type codes equal to the code in the PARTS file. The available codes are...   
+**Code** Enter one of the following codes which defines the designation for this part number in reference to this bill of material. The code is initially defaulted from the PARTS file record for the associated part number, but may be changed as required. Subsequent changes to the code in the PARTS file do not affect the bill of material record, however the [ BOM.P1 ](../../../ENG-PROCESS/BOM-P1/README.md) procedure is available to reset all type codes equal to the code in the PARTS file. The available codes are...   
 C - Component part from stock.  
 A - Completed assembly from stock.  
 P - Assembly whose components will be pulled  

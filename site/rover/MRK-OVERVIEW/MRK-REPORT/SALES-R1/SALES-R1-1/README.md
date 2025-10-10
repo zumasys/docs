@@ -50,7 +50,7 @@ model. If no entry is made in this field, the report will sort by part number.
 **Co Code** Enter the company codes you wish to appear on this report. If left
 blank all company codes will be included.  
   
-**Order Types** If you wish to run this report for specific sales order types, enter the type codes in this field. These type codes would have originally been entered on the order in [ SO.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) .   
+**Order Types** If you wish to run this report for specific sales order types, enter the type codes in this field. These type codes would have originally been entered on the order in [ SO.E ](../../../MRK-ENTRY/SO-E/README.md) .   
   
 **Category** Enter the category codes you wish to run the report for. If no
 entry is made in this field, all categories will be included.  

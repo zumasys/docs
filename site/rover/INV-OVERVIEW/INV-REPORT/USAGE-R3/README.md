@@ -13,7 +13,7 @@ entered. It can be run for specific part numbers, categories, or all parts.
 As required.
 
 **Prerequisites**  
-[ USAGE.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/USAGE-P1) must be run monthly. 
+[ USAGE.P1 ](../../INV-PROCESS/USAGE-P1/README.md) must be run monthly. 
 
 **Data Fields**
 

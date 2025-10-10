@@ -6,7 +6,7 @@
 [ Form Details ](CHECKS-P6-1/README.md)   
 
 **Purpose**  
-The purpose of CHECKS.P6 is to change the check date on posted checks. Checks can be selected for a range of checks or a check run that was created via the [ AP.P1 ](../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F5/AP-P1) procedure. Checks that have been voided or cleared will not be selected.   
+The purpose of CHECKS.P6 is to change the check date on posted checks. Checks can be selected for a range of checks or a check run that was created via the [ AP.P1 ](../AP-P1/README.md) procedure. Checks that have been voided or cleared will not be selected.   
   
 When the checks were originally posted, ARREG (register) records were created
 to track the debits and credits that will be posted to the general ledger.

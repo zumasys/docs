@@ -16,9 +16,9 @@ These are the release notes for version 2.3.0 (1/23/2025) of the Rover Web appli
       ![Part View](./inventory-parts-2.png)
     - Added Inventory, Commitments, Shortages, On Order, Lot, Usage, Allocations, and Transactions tabs to the Parts view.
     - ![Part Inventory](./inventory-parts-3.png)
-    - Added ability to add lookup table to the Parts view. Requires update to [INV.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-2/README.md).
+    - Added ability to add lookup table to the Parts view. Requires update to [INV.CONTROL](../../../INV-OVERVIEW/INV-ENTRY/INV-CONTROL/INV-CONTROL-2/README.md).
   - **Point of Sale**
-    - Add ability to display "New Customer" button on the main POS screen. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-show-new-customer-button).
+    - Add ability to display "New Customer" button on the main POS screen. Requires update to [MRK.CONTROL](../../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-show-new-customer-button).
     - Added host based print action to Invoice table.
       > Only supported by select ERPs
     - Additional User based register selection options to support environments where registers are not defined by hardware.
@@ -31,5 +31,8 @@ These are the release notes for version 2.3.0 (1/23/2025) of the Rover Web appli
       ![Accounting Order Details](./accounting-order-details.gif)
 
 ## Bug Fixes
-  - **Accounting**
-    - The Orders on hold KPI will no longer display without user permissions when not yet configured
+
+- **Accounting**
+  - The Orders on hold KPI will no longer display without user permissions when not yet configured
+
+<PageFooter />

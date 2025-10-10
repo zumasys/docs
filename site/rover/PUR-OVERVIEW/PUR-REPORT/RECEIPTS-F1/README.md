@@ -14,7 +14,7 @@ and, if desired, a copy can be maintained with the accounting records.
 As required.
 
 **Prerequisites**  
-Entry of the debit with [ RECEIPTS.E2 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2) . 
+Entry of the debit with [ RECEIPTS.E2 ](../../PUR-ENTRY/RECEIPTS-E2/README.md) . 
 
 **Data Fields**
 

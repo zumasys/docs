@@ -14,7 +14,7 @@ items or to update notes.
 As required.
 
 **Prerequisites**  
-The checks must already exist on the system in the Checks file and the AP1099 file must have been created if updating the the 1099 amount. The AP1099 file is created using procedure [ AP1099.P1 ](AP1099-P1/README.md) . 
+The checks must already exist on the system in the Checks file and the AP1099 file must have been created if updating the the 1099 amount. The AP1099 file is created using procedure [ AP1099.P1 ](../../AP-PROCESS/AP1099-P1/README.md) . 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

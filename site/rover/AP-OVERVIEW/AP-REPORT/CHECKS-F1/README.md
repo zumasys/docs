@@ -6,15 +6,15 @@
 [ Form Details ](CHECKS-F1-1/README.md)   
 
 **Purpose**  
-The CHECKS.F1 procedure is used to print accounts payable checks on pre-printed check forms. All records in the Prechecks file for a selected check run are selected for printing. After entering the check run number, the starting check number is entered. The number to enter is the first check which will actually be printed. Remember that a blank check may occur due to feeding the paper through the printer. Do not count this blank check. It must be voided manually through the [ CHECKS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) procedure.   
+The CHECKS.F1 procedure is used to print accounts payable checks on pre-printed check forms. All records in the Prechecks file for a selected check run are selected for printing. After entering the check run number, the starting check number is entered. The number to enter is the first check which will actually be printed. Remember that a blank check may occur due to feeding the paper through the printer. Do not count this blank check. It must be voided manually through the [ CHECKS.E ](../../AP-ENTRY/CHECKS-E/README.md) procedure.   
   
-Should it become necessary to re-print checks for a check run, due to a printer jam or the incorrect entry of the check number, reload the checks into the printer and enter the new starting check number. All previously printed checks must be voided in the [ CHECKS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) procedure. The actual Checks and AP files are not updated until the [ CHECKS.P1 ](../../../../rover/AP-OVERVIEW/AP-PROCESS/CHECKS-P1) posting process. 
+Should it become necessary to re-print checks for a check run, due to a printer jam or the incorrect entry of the check number, reload the checks into the printer and enter the new starting check number. All previously printed checks must be voided in the [ CHECKS.E ](../../AP-ENTRY/CHECKS-E/README.md) procedure. The actual Checks and AP files are not updated until the [ CHECKS.P1 ](../../../../rover/AP-OVERVIEW/AP-PROCESS/CHECKS-P1/README.md) posting process. 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-The creation of a check run through the [ AP.P1 ](AP-P1/README.md) process. 
+The creation of a check run through the [ AP.P1 ](../../AP-PROCESS/AP-P1/README.md) process. 
 
 **Data Fields**
 

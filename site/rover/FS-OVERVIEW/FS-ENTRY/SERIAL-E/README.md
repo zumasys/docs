@@ -18,7 +18,7 @@ serial numbers, as required.
 As required.
 
 **Prerequisites**  
-Enabling the serial number control flag in the marketing control record ( [ MRK.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) ). 
+Enabling the serial number control flag in the marketing control record ( [ MRK.CONTROL ](../../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

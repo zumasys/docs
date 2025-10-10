@@ -17,7 +17,7 @@ assign the next sequential number.
   
 **Part** Enter the part number.  
   
-**Part desc** This field contains the part description, as found in [ PARTS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) . It is displayed for reference only.   
+**Part desc** This field contains the part description, as found in [ PARTS.E ](../../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) . It is displayed for reference only.   
   
 **Rev** Enter the part rev.  
   
@@ -31,14 +31,14 @@ from the vendor number entry. It may be entered or changed, as required.
   
 **Qty** Enter the total quantity being processed.  
   
-**Sample Pct** This field contans the sampling percentage. It is originally defaulted from [ PARTS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) and may be changed as needed.   
+**Sample Pct** This field contans the sampling percentage. It is originally defaulted from [ PARTS.E ](../../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) and may be changed as needed.   
   
 **Sample** This field contains the sample quantity to be tested. It is
 calculated as the total quantity factored by the sample percentage.  
   
-**Insp Step** This field contans the inspection step. It may be defaulted from the [ PARTS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) data and changed as needed.   
+**Insp Step** This field contans the inspection step. It may be defaulted from the [ PARTS.E ](../../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) data and changed as needed.   
   
-**Insp Instruct** This field contans the inspection instructions. It may be defaulted from the [ PARTS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) data and changed as needed.   
+**Insp Instruct** This field contans the inspection instructions. It may be defaulted from the [ PARTS.E ](../../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) data and changed as needed.   
   
 **Insp Results** Enter the inspeciton results.  
   
@@ -58,7 +58,7 @@ inventory movements; shop movements; work order completions; etc.
 **Function** Select the function you wish to perform. These functions include:
 moving accepted material; scrapping material; making ship movements; etc.  
   
-**INV.Q** Click on this button to invoke the [ INV.Q ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-2/INV-Q) screen.   
+**INV.Q** Click on this button to invoke the [ INV.Q ](../../../../INV-OVERVIEW/INV-REPORT/INV-Q/README.md) screen.   
   
 **App Date** This field contains the approval date. It defaults to the date on
 which the approval field above is entered and can be changed as required.  

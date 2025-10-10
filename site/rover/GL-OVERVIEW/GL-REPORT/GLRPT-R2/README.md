@@ -6,7 +6,7 @@
 [ Form Details ](GLRPT-R2-1/README.md)   
 
 **Purpose**  
-The GLRPT.R2 procedure is used print a financial report using a structure or framework which has been established through the [ GLRPT.E ](../../../../rover/GL-OVERVIEW/GL-ENTRY/GLRPT-E) procedure. These financial reports are user defined and include such reports as the balance sheet, income statment and subsidiary ledgers. 
+The GLRPT.R2 procedure is used print a financial report using a structure or framework which has been established through the [ GLRPT.E ](../../../../rover/GL-OVERVIEW/GL-ENTRY/GLRPT-E/README.md) procedure. These financial reports are user defined and include such reports as the balance sheet, income statment and subsidiary ledgers. 
 
 **Frequency of Use**  
 As required.

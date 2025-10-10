@@ -20,7 +20,7 @@ cash and/or check records, the procedure will only do so for the items being
 loaded into the record and not for any items that are currently showing as
 uncleared.  
   
-Like [ recon.e ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e) , this procedure has no General Ledger impact. Any adjustments and/or variances that will be made via a journal entry in [ gltrans.e ](gltrans-e/README.md) will still need to be entered directly into [ recon.e ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e) . 
+Like [ recon.e ](../../../AR-OVERVIEW/AR-ENTRY/RECON-E/README.md) , this procedure has no General Ledger impact. Any adjustments and/or variances that will be made via a journal entry in [ gltrans.e ](../../GL-ENTRY/GLTRANS-E/README.md) will still need to be entered directly into [ recon.e ](../../../AR-OVERVIEW/AR-ENTRY/RECON-E/README.md) . 
 
 **Frequency of Use**  
 As required.

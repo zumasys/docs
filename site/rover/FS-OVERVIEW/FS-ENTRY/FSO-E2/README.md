@@ -10,7 +10,7 @@
 [ Project ](FSO-E2-5/README.md)   
 
 **Purpose**  
-The FSO.E2 procedure is used to reverse existing field service records which have already been posted. The user enters the number of the FSO to be reversed and the data from the field service order is displayed for review but may not be changed. When the record is filed inventory transactions are created to move any parts used back into inventory. The reversal will be posted by the [ FSO.P1 ](../../../../rover/FS-OVERVIEW/FS-PROCESS/FSO-P1) procedure and a credit memo will be created in the Accounts Receivable system. 
+The FSO.E2 procedure is used to reverse existing field service records which have already been posted. The user enters the number of the FSO to be reversed and the data from the field service order is displayed for review but may not be changed. When the record is filed inventory transactions are created to move any parts used back into inventory. The reversal will be posted by the [ FSO.P1 ](../../../../rover/FS-OVERVIEW/FS-PROCESS/FSO-P1/README.md) procedure and a credit memo will be created in the Accounts Receivable system. 
 
 **Frequency of Use**  
 As required.

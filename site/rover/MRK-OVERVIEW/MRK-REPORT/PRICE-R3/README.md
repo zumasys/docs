@@ -6,9 +6,9 @@
 [ Form Details ](PRICE-R3-1/README.md)   
 
 **Purpose**  
-The PRICE.R3 procedure provides the ability to list the prices defined in [ PRICE.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/PRICE-E) in a horizontal format that can easily be exported to Excel or the grid viewer. There are selection options for category, status and pricing code. There is also an option to exclude the standard prices from the report.   
+The PRICE.R3 procedure provides the ability to list the prices defined in [ PRICE.E ](../../MRK-ENTRY/PRICE-E/README.md) in a horizontal format that can easily be exported to Excel or the grid viewer. There are selection options for category, status and pricing code. There is also an option to exclude the standard prices from the report.   
   
-This report will only display the first price entered for the first quantity break entered for the standard and code specific prices. Run [ PRICE.R1 ](../../../../rover/MRK-OVERVIEW/MRK-REPORT/PRICE-R1) (sales and marketing module > reports & inquiries section) to obtain a complete price listing. 
+This report will only display the first price entered for the first quantity break entered for the standard and code specific prices. Run [ PRICE.R1 ](../../../../rover/MRK-OVERVIEW/MRK-REPORT/PRICE-R1/README.md) (sales and marketing module > reports & inquiries section) to obtain a complete price listing. 
 
 **Frequency of Use**  
 As required.

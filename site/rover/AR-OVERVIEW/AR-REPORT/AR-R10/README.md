@@ -24,9 +24,9 @@ None.
 **Open.Amount** The current open amount of the AR item.  
 **Inv Date** The invoice date.  
 **Due.Date** The date on which the AR item was due to be paid.  
-**Next.Action** The next action date that has been entered in the [ AR.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) screen for this AR item.   
-**Status** The current collection status that has been assigned to this AR item in [ AR.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) .   
-**Status.Description** The description of the collection status code, as read from the [ ACCT.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL) screen.   
+**Next.Action** The next action date that has been entered in the [ AR.E ](../../AR-ENTRY/AR-E/README.md) screen for this AR item.   
+**Status** The current collection status that has been assigned to this AR item in [ AR.E ](../../AR-ENTRY/AR-E/README.md) .   
+**Status.Description** The description of the collection status code, as read from the [ ACCT.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) screen.   
   
 <badge text= "Version 8.10.57" vertical="middle" />
 

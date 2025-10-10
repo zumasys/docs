@@ -24,7 +24,7 @@ changed on an existing serial record.
 **Model** Contains the model number as found on the parts master file. The
 field is loaded initially from the parts master, but may be entered manually.  
   
-**Vendor** Enter the identification of the primary vendor to be debited for warranty charges against this serial number. If this serial number is entered in the field service order entry ( [ FSO.E ](../../../../../rover/FS-OVERVIEW/FS-ENTRY/FS-CONTROL/FSO-E) ) procedure, this vendor will be loaded into FSO record for you but can be changed in [ FSO.E ](../../../../../rover/FS-OVERVIEW/FS-ENTRY/FS-CONTROL/FSO-E) .   
+**Vendor** Enter the identification of the primary vendor to be debited for warranty charges against this serial number. If this serial number is entered in the field service order entry ( [ FSO.E ](../../FSO-E/README.md) ) procedure, this vendor will be loaded into FSO record for you but can be changed in [ FSO.E ](../../FSO-E/README.md) .   
   
 **Vendor Name** Contains the name of the vendor identified in the vendor
 field.  

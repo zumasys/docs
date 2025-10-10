@@ -23,7 +23,7 @@ desired.
 As required.
 
 **Prerequisites**  
-[ MRP.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-3/poprice-e/PLAN-E/MRP-P1) must be run to build the reporting and inquiry files. 
+[ MRP.P1 ](../../MFG-PROCESS/MRP-P1/README.md) must be run to build the reporting and inquiry files. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

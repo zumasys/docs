@@ -21,7 +21,7 @@ None.
 
 **Part#** The number of the part that is short.  
 **Desc** The description of the part as defined on the parts master.  
-**Notes** Any notes that were entered about the shortage in the [ SHORTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-2/INV-Q/INV-Q-1/SHORTS-E) procedure.   
+**Notes** Any notes that were entered about the shortage in the [ SHORTS.E ](../../PRO-ENTRY/SHORTS-E/README.md) procedure.   
 **WO ID** The numbers of the work orders which show a shortage for the part.  
 **Assembly** The number of the assembly being built on the work order.  
 **Model** The model number of the assembly being built on the work order.  

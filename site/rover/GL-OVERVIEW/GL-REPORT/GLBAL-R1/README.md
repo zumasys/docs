@@ -6,7 +6,7 @@
 [ Form Details ](GLBAL-R1-1/README.md)   
 
 **Purpose**  
-The GLBAL.R1 procedure is used to print a General Ledger Trial Balance report. All accounts found in the GLCHART file are selected for this report. The amounts printed represent the current balance of the account based upon the report date selected. The report period and year are defaulted from the [ GL.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL) record. The amounts on the report will change when the report date is changed. 
+The GLBAL.R1 procedure is used to print a General Ledger Trial Balance report. All accounts found in the GLCHART file are selected for this report. The amounts printed represent the current balance of the account based upon the report date selected. The report period and year are defaulted from the [ GL.CONTROL ](../../GL-ENTRY/GL-CONTROL/README.md) record. The amounts on the report will change when the report date is changed. 
 
 **Frequency of Use**  
 As required.

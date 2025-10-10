@@ -13,7 +13,7 @@ which have been defined.
 As required.
 
 **Prerequisites**  
-Entry of sales tax codes ( [ STAX.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/STAX-E) ). 
+Entry of sales tax codes ( [ STAX.E ](../../AR-ENTRY/STAX-E/README.md) ). 
 
 **Data Fields**
 

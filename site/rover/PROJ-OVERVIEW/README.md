@@ -1,5 +1,9 @@
-## Project Management Overview
+# Project Management Overview
+
 <PageHeader />
+
+- [Data Entry Procedures](PROJ-ENTRY/README.md)
+- [Update Processes](PROJ-PROCESS/README.md)
 
 **Purpose**
 The project module provides the ability to plan and track the activities of a
@@ -71,7 +75,6 @@ previous data is replaced.
 When a project is completed its status should be set to closed. This prevents
 subsequent executions of PROJECT.P1 from overwriting the
 data that has been captured.
-
 
 (C) Copyright 2015, Rover Data Systems, Inc.
 All rights reserved.<br>

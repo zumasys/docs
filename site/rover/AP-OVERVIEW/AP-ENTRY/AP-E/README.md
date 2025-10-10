@@ -40,9 +40,9 @@ the Related AP tab, in order to close them all with one invoice.
 The fourth screen is the AP register history, showing all amount and account
 activity, and is for reference only.  
   
-When an invoice is received for a material receipt, an accrual record will have been created by the [ RECEIPTS.P1 ](RECEIPTS-P1/README.md) procedure and contain as much information as was known at the time the purchase order was entered. Updating this record with the actual amounts from the invoice will convert it from an accrual to an open accounts payable item.   
+When an invoice is received for a material receipt, an accrual record will have been created by the [ RECEIPTS.P1 ](../../../PUR-OVERVIEW/PUR-PROCESS/RECEIPTS-P1/README.md) procedure and contain as much information as was known at the time the purchase order was entered. Updating this record with the actual amounts from the invoice will convert it from an accrual to an open accounts payable item.   
   
-Debit AP records can also be created via the [ CHECKS.E ](CHECKS-E/README.md) procedure when a prepayment type check is entered. This type of AP record will have the invoice amount equal to the negative check amount. They cannot be updated in AP.E.   
+Debit AP records can also be created via the [ CHECKS.E ](../CHECKS-E/README.md) procedure when a prepayment type check is entered. This type of AP record will have the invoice amount equal to the negative check amount. They cannot be updated in AP.E.   
   
 Once filed, the APREG file (Accounts Payable Register) is updated for all
 dollar amounts on the record. If an existing record is filed, the net effect
@@ -55,7 +55,7 @@ against the record, and provided that the user have delete rights.
 As required.
 
 **Prerequisites**  
-Initialization of the Accounts Payable control record ( [ AP.CONTROL ](AP-CONTROL/README.md) ), and entry of the vendor and terms records to be referenced. If the items are for inventoried parts, the part number must exist on the Parts file and the inventory locations must exist on the Invloc file. 
+Initialization of the Accounts Payable control record ( [ AP.CONTROL ](../AP-CONTROL/README.md) ), and entry of the vendor and terms records to be referenced. If the items are for inventoried parts, the part number must exist on the Parts file and the inventory locations must exist on the Invloc file. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

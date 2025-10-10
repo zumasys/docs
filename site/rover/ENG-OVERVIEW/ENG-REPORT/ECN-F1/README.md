@@ -6,7 +6,7 @@
 [ Form Details ](ECN-F1-1/README.md)   
 
 **Purpose**  
-The ECN.F1 procedure is used to print an ECN form that contains the information entered with [ ECN.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E/ECN-E) . 
+The ECN.F1 procedure is used to print an ECN form that contains the information entered with [ ECN.E ](../../ENG-ENTRY/ECN-E/README.md) . 
 
 **Frequency of Use**  
 As required.

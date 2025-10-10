@@ -16,7 +16,7 @@ which will be posted to General Ledger. It can be run as required to audit
 progress through the period.
 
 **Prerequisites**  
-Accounts Payable register transactions are created automatically by the system through the [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) , [ CHECKS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) , [ RECEIPTS.P1 ](RECEIPTS-P1/README.md) and [ APR.P1 ](../../../../rover/AP-OVERVIEW/AP-PROCESS/APR-P1) procedures. 
+Accounts Payable register transactions are created automatically by the system through the [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) , [ CHECKS.E ](../../AP-ENTRY/CHECKS-E/README.md) , [ RECEIPTS.P1 ](../../../PUR-OVERVIEW/PUR-PROCESS/RECEIPTS-P1/README.md) and [ APR.P1 ](../../../../rover/AP-OVERVIEW/AP-PROCESS/APR-P1/README.md) procedures. 
 
 **Data Fields**
 
@@ -31,7 +31,7 @@ the result of an AP transaction.
 **Apreg ID** The record id of the APREG entry.  
 **Apreg Date** The date for which the register entry was made.  
 **Apreg Amount** The total amount of the register record.  
-**Procedure Name** The procedure which caused this register record to occur (e.g. [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) , [ CHECKS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) , etc.).   
+**Procedure Name** The procedure which caused this register record to occur (e.g. [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) , [ CHECKS.E ](../../AP-ENTRY/CHECKS-E/README.md) , etc.).   
 **Record Id** The record id which caused this register record to occur (e.g.
 AP id, Check number, etc.).  
 **Post Date** The date this register was posted to General Legder.  

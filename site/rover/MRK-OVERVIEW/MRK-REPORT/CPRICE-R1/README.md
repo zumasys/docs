@@ -6,7 +6,7 @@
 [ Form Details ](CPRICE-R1-1/README.md)   
 
 **Purpose**  
-The CPRICE.R1 procedure provides the ability to list all of the contract prices defined in the [ CPRICE.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/CPRICE-E) procedure. Optional entries are for active contracts only or contracts for certain customers only. The report is listed in contract number sequence. 
+The CPRICE.R1 procedure provides the ability to list all of the contract prices defined in the [ CPRICE.E ](../../MRK-ENTRY/CPRICE-E/README.md) procedure. Optional entries are for active contracts only or contracts for certain customers only. The report is listed in contract number sequence. 
 
 **Frequency of Use**  
 As required.
@@ -16,7 +16,7 @@ None.
 
 **Data Fields**
 
-**Contract Number** The contract number as entered in [ CPRICE.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/CPRICE-E) .   
+**Contract Number** The contract number as entered in [ CPRICE.E ](../../MRK-ENTRY/CPRICE-E/README.md) .   
 **Contract Date** The date the contract was entered.  
 **Customer** The customer names that this contract is for.  
 **Part Number** The part number(s) as defined in the parts master that are

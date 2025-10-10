@@ -6,7 +6,7 @@
 [ Form Details ](SOQUOTE-R2-1/README.md)   
 
 **Purpose**  
-SOQUOTE.R2 provides a report of all quotes entered through [ SOQUOTE.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-1/SOQUOTE-E) that will expire by a user specified cutoff date. You may limit the listing to a specific status. 
+SOQUOTE.R2 provides a report of all quotes entered through [ SOQUOTE.E ](../../MRK-ENTRY/SOQUOTE-E/README.md) that will expire by a user specified cutoff date. You may limit the listing to a specific status. 
 
 **Frequency of Use**  
 As required.

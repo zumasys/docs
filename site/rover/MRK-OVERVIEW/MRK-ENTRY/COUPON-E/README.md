@@ -7,7 +7,7 @@
 [ Usage History ](COUPON-E-2/README.md)   
 
 **Purpose**  
-The purpose of COUPON.E is to enter or modify coupon data that is to be used in [ SO.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) and the eCommerce site. Each coupon can be defined with parameters such as certain parts, customers, categories or web categories that limit which orders or line items within orders that the coupon will apply to. The coupon must be defined with a discount percent or a discount amount, but not both. Also, minimum order amounts or maximum discount amounts can be specified. Additionally, maximum number of uses overall or by customer can be defined for the coupon.   
+The purpose of COUPON.E is to enter or modify coupon data that is to be used in [ SO.E ](../SO-E/README.md) and the eCommerce site. Each coupon can be defined with parameters such as certain parts, customers, categories or web categories that limit which orders or line items within orders that the coupon will apply to. The coupon must be defined with a discount percent or a discount amount, but not both. Also, minimum order amounts or maximum discount amounts can be specified. Additionally, maximum number of uses overall or by customer can be defined for the coupon.   
 Every time a coupon is used on an order, the coupon is updated for number of
 times used. Once a coupon has been used at least once, the discount amount/%
 and other criteria cannot be changed.  

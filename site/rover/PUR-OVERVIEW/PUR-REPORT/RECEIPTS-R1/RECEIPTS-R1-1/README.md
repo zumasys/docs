@@ -57,7 +57,7 @@ program.
 Enter a "P" to sort the report by the post date. The post date is the date the
 receipt was entered on the system.  
   
-**Debit Receipts Only** Check this box if you only wish to include debit receipts in the report. Debit receipts are receipt that were created via [ RECEIPTS.E2 ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2) .   
+**Debit Receipts Only** Check this box if you only wish to include debit receipts in the report. Debit receipts are receipt that were created via [ RECEIPTS.E2 ](../../../PUR-ENTRY/RECEIPTS-E2/README.md) .   
   
 **Exclude Debit Receipts** Check this box if you wish to exclude debit
 receipts from the report.  

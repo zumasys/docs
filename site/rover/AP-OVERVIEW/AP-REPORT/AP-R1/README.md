@@ -17,7 +17,7 @@ the Receiving process through the date entered will be selected for this
 report. Leaving the cutoff date null assumes you wish to print all accrual
 items.  
   
-This is not a balancing report to be used in reconciling the General Ledger. It looks only at the current state of the accounts payable file. For balancing the accrual account, use the [ AP.R9 ](AP-R9/README.md) report. 
+This is not a balancing report to be used in reconciling the General Ledger. It looks only at the current state of the accounts payable file. For balancing the accrual account, use the [ AP.R9 ](../AP-R9/README.md) report. 
 
 **Frequency of Use**  
 As required.

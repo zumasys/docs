@@ -15,7 +15,7 @@ to a particular vendor or rep or time period within the year.
 Generally, this is an annual procedure. However, it may be used as required.
 
 **Prerequisites**  
-The AP1099 file must be generated for the applicable year using the [ AP1099.P1 ](AP1099-P1/README.md) procedure. 
+The AP1099 file must be generated for the applicable year using the [ AP1099.P1 ](../../AP-PROCESS/AP1099-P1/README.md) procedure. 
 
 **Data Fields**
 

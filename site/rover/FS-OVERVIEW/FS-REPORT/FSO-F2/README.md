@@ -14,7 +14,7 @@ Usually printed before the equipment is delivered so ti can be presented to
 the customer at the time of delivery.
 
 **Prerequisites**  
-Entry of the selected field service orders ( [ FSO.E ](../../../../rover/FS-OVERVIEW/FS-ENTRY/FS-CONTROL/FSO-E) ). 
+Entry of the selected field service orders ( [ FSO.E ](../../FS-ENTRY/FSO-E/README.md) ). 
 
 **Data Fields**
 

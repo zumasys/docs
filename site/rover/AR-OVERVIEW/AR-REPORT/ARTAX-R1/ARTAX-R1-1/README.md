@@ -60,7 +60,7 @@ see only those records which have not yet been posted to the GL, enter 'N'. To
 list only records for which the register date differs from the record date,
 enter 'D'.  
   
-**State** If you wish to run this report for selected states, enter the state code(s). These state codes must exist in the [ STAX.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/STAX-E) records for this field to have an impact.   
+**State** If you wish to run this report for selected states, enter the state code(s). These state codes must exist in the [ STAX.E ](../../../AR-ENTRY/STAX-E/README.md) records for this field to have an impact.   
   
 **Co Code** Enter the company codes you wish included in this report. Leave
 blank to include all companies.  

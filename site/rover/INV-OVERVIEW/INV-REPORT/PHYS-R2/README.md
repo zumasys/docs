@@ -18,7 +18,7 @@ are posted to inventory.
 As required.
 
 **Prerequisites**  
-The counts should have been entered in the [ PHYS.E ](../../../../rover/INV-OVERVIEW/INV-ENTRY/PHYS-E) procedure and all uncounted tags should have been voided. 
+The counts should have been entered in the [ PHYS.E ](../../../../rover/INV-OVERVIEW/INV-ENTRY/PHYS-E/README.md) procedure and all uncounted tags should have been voided. 
 
 **Data Fields**
 

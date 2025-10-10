@@ -45,7 +45,7 @@ entry.
 **Credit Amount** Contains the credit amount from the line of the journal
 entry.  
   
-**Detail** Press this button to see the detail register information, if any, related to this line of the journal entry. This information will only be available if the journal entry was created through the [ GLINT.P1 ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL/GL-CONTROL-1/GLINT-P1) procedure from a detail register file.   
+**Detail** Press this button to see the detail register information, if any, related to this line of the journal entry. This information will only be available if the journal entry was created through the [ GLINT.P1 ](../../../GL-PROCESS/GLINT-P1/README.md) procedure from a detail register file.   
   
 **Balance** This field contains the balance of the account at each month end.  
   

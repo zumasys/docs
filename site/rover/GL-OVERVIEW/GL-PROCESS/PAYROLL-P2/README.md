@@ -18,15 +18,15 @@ Below is the layout of the file.
 3\. Column 3 - Debit Amount  
 4\. Column 4 - Credit Amount  
   
-If the g/l account numbers do not exist in the database or have been inactivated, they will not be added to the journal. You can use [ GLTRANS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E) to update the information on the record.   
+If the g/l account numbers do not exist in the database or have been inactivated, they will not be added to the journal. You can use [ GLTRANS.E ](../../GL-ENTRY/GLTRANS-E/README.md) to update the information on the record.   
   
-Please note that this journal entry will not autumatically post to the general ledger. The status will be set to hold. However, you will we be given an option to open [ GLTRANS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E) to view the journal. If you have set the post status to "P" in [ GL.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL) , when you save the record in [ GLTRANS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E) , the journal will be posted. 
+Please note that this journal entry will not autumatically post to the general ledger. The status will be set to hold. However, you will we be given an option to open [ GLTRANS.E ](../../GL-ENTRY/GLTRANS-E/README.md) to view the journal. If you have set the post status to "P" in [ GL.CONTROL ](../../GL-ENTRY/GL-CONTROL/README.md) , when you save the record in [ GLTRANS.E ](../../GL-ENTRY/GLTRANS-E/README.md) , the journal will be posted. 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-The general ledger account numbers that will be referenced on the file that will be used in this process need to be defined in the system. Use [ glchart.e ](glchart-e/README.md) to enter account numbers. 
+The general ledger account numbers that will be referenced on the file that will be used in this process need to be defined in the system. Use [ glchart.e ](../../GL-ENTRY/GLCHART-E/README.md) to enter account numbers. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

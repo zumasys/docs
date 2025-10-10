@@ -6,7 +6,7 @@
 [ Form Details ](CYCLE-P3-1/README.md)   
 
 **Purpose**  
-The CYCLE.P3 procedure is used to cancel a cycle count for which cycle records have been created. This procedure will select all records for the cycle date entered, and assign new cycle dates based upon the number of days in the [ INV.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) procedure. All cycle records will be voided. 
+The CYCLE.P3 procedure is used to cancel a cycle count for which cycle records have been created. This procedure will select all records for the cycle date entered, and assign new cycle dates based upon the number of days in the [ INV.CONTROL ](../../INV-ENTRY/INV-CONTROL/README.md) procedure. All cycle records will be voided. 
 
 **Frequency of Use**  
 This procedure is run as required to cancel a cycle count.

@@ -43,7 +43,7 @@ calendar month then enter the number associated with each day.
   
 **Saturday** Check this box if the process is to be run on Saturdays.  
   
-**Month End** Check this box if the process is to be run on the last day of the fiscal month as defined in [ FY.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E/GLTRANS-E-1/FY-E) .   
+**Month End** Check this box if the process is to be run on the last day of the fiscal month as defined in [ FY.E ](../../../../GL-OVERVIEW/GL-ENTRY/FY-E/README.md) .   
   
 **Frequency** An entry in this field is only applicable if the Type is set to
 continuous or repeating. If the type is continuous it contains the number of

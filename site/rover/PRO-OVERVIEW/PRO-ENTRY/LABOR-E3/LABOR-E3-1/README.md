@@ -45,9 +45,9 @@ dollars for this labor record.
   
 **Task Id** The project task ID posted to this labor record.  
   
-**Function Description** Displays the description from the [ LABOR.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/LABOR-CONTROL) record for the labor function entered.   
+**Function Description** Displays the description from the [ LABOR.CONTROL ](../../LABOR-CONTROL/README.md) record for the labor function entered.   
   
-**Rate Description** Displays the description from the [ LABOR.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/LABOR-CONTROL) record for the rate type entered.   
+**Rate Description** Displays the description from the [ LABOR.CONTROL ](../../LABOR-CONTROL/README.md) record for the rate type entered.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

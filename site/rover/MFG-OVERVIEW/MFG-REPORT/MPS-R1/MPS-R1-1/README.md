@@ -39,9 +39,9 @@ bar or pressing the F9 key or Ctrl+S.
   
 **Group** Enter the planning group for which you wish to run this MPS report.  
   
-**Buyer** If you want to restrict the listing to items which are assigned to a specific buyer, then enter the code which identifies the buyer at this prompt. The buyer is associated to the part number in the [ PARTS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) procedure.   
+**Buyer** If you want to restrict the listing to items which are assigned to a specific buyer, then enter the code which identifies the buyer at this prompt. The buyer is associated to the part number in the [ PARTS.E ](../../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) procedure.   
   
-**Planner** If you want to restrict the listing to items which are assigned to a specific planner, then enter the code which identifies the planner at this prompt. The planner is associated to the part number in the [ PARTS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) procedure.   
+**Planner** If you want to restrict the listing to items which are assigned to a specific planner, then enter the code which identifies the planner at this prompt. The planner is associated to the part number in the [ PARTS.E ](../../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) procedure.   
   
 **Category** Enter each part category you would like included in the report.
 The categories will be printed in the order they are entered. If you want to

@@ -14,7 +14,7 @@ detail format, displaying every part number, or only a summary version.
 As required.
 
 **Prerequisites**  
-The forecast must have been entered via the [ SF.E ](../../../../rover/MFG-OVERVIEW/MFG-ENTRY/SF-E) procedure. 
+The forecast must have been entered via the [ SF.E ](../../../../rover/MFG-OVERVIEW/MFG-ENTRY/SF-E/README.md) procedure. 
 
 **Data Fields**
 

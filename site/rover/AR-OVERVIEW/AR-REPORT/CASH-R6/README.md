@@ -14,7 +14,7 @@ account number will print at the end of the report.
 **Frequency of Use**  
 
 **Prerequisites**  
-Invoices must be written off in the [ CASH.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E) (cash entery) screen. Invoices that were written off through journal entries or another entry screen will not appear on this report. 
+Invoices must be written off in the [ CASH.E ](../../AR-ENTRY/CASH-E/README.md) (cash entery) screen. Invoices that were written off through journal entries or another entry screen will not appear on this report. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

@@ -12,15 +12,15 @@ check run are selected for printing. After entering the check run number, the
 starting check number is entered. The number to enter is the first check in
 the stack loaded in the printer.  
   
-Should it become necessary to re-print checks for a check run, due to a printer jam or the incorrect entry of the check number, reload the checks into the printer and enter the new starting check number. Before reprinting, use [ CHECKS.P1 ](../../../../rover/AP-OVERVIEW/AP-PROCESS/CHECKS-P1) to post the checks that were printed correctly. The checks that did not print correctly can be voided in [ CHECKS.E2 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E2) or deleted in [ CHECKS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) .   
+Should it become necessary to re-print checks for a check run, due to a printer jam or the incorrect entry of the check number, reload the checks into the printer and enter the new starting check number. Before reprinting, use [ CHECKS.P1 ](../../../../rover/AP-OVERVIEW/AP-PROCESS/CHECKS-P1/README.md) to post the checks that were printed correctly. The checks that did not print correctly can be voided in [ CHECKS.E2 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E2/README.md) or deleted in [ CHECKS.E ](../../AP-ENTRY/CHECKS-E/README.md) .   
   
-The actual Checks and AP files are not updated until the [ CHECKS.P1 ](../../../../rover/AP-OVERVIEW/AP-PROCESS/CHECKS-P1) posting process. 
+The actual Checks and AP files are not updated until the [ CHECKS.P1 ](../../../../rover/AP-OVERVIEW/AP-PROCESS/CHECKS-P1/README.md) posting process. 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-The creation of a check run through the [ AP.P1 ](AP-P1/README.md) process. 
+The creation of a check run through the [ AP.P1 ](../../AP-PROCESS/AP-P1/README.md) process. 
 
 **Data Fields**
 

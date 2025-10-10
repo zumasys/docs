@@ -6,7 +6,7 @@
 [ Form Details ](RMAREC-R3-1/README.md)   
 
 **Purpose**  
-The [ RMA.R1 ](../../../../rover/MRK-OVERVIEW/MRK-REPORT/RMA-R1) procedure is used to list all RMA receipts for a date range. The report is sorted by the date of the receipt. 
+The [ RMA.R1 ](../../../../rover/MRK-OVERVIEW/MRK-REPORT/RMA-R1/README.md) procedure is used to list all RMA receipts for a date range. The report is sorted by the date of the receipt. 
 
 **Frequency of Use**  
 As required.

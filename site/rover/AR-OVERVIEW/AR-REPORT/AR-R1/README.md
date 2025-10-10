@@ -30,7 +30,7 @@ None.
 **Dist.Amount** The total amount of the AR item, less freight and misc.  
 **Freight.Amt** The freight amount on the AR item.  
 **Misc.Amount** The total of all miscellaneous amounts on the AR item.  
-**Sales.Tax** The total sales tax amount. This figure is extracted from the miscellaneous amount field when the account number matches the sales tax account found in the [ AR.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) entry.   
+**Sales.Tax** The total sales tax amount. This figure is extracted from the miscellaneous amount field when the account number matches the sales tax account found in the [ AR.CONTROL ](../../AR-ENTRY/AR-CONTROL/README.md) entry.   
 **St** The current status of the AR item. (O=open, P=paid)  
   
 <badge text= "Version 8.10.57" vertical="middle" />

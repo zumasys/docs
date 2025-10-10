@@ -27,7 +27,7 @@ will be stored on the lot record.
 **Ref Bin** Enter a reference bin if desired for this lot number and location.
 It will be stored on the lot record.  
   
-**Adj Loc** This is the adjustment location that will be used for the inventory transactions. This is just a pass-through location. It will be defaulted from the [ INV.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) "Conversion Location" entry, but can be changed.   
+**Adj Loc** This is the adjustment location that will be used for the inventory transactions. This is just a pass-through location. It will be defaulted from the [ INV.CONTROL ](../../INV-CONTROL/README.md) "Conversion Location" entry, but can be changed.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

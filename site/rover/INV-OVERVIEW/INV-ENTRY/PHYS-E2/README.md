@@ -6,7 +6,7 @@
 [ Form Details ](PHYS-E2-1/README.md)   
 
 **Purpose**  
-The PHYS.E2 procedure is similar to the [ PHYS.E ](../../../../rover/INV-OVERVIEW/INV-ENTRY/PHYS-E) procedure in that inventory quantities can be entered for a selected tag. This screen allows entry of one tag at a time, rather that multiple tags as in the [ PHYS.E ](../../../../rover/INV-OVERVIEW/INV-ENTRY/PHYS-E) process.   
+The PHYS.E2 procedure is similar to the [ PHYS.E ](../../../../rover/INV-OVERVIEW/INV-ENTRY/PHYS-E/README.md) procedure in that inventory quantities can be entered for a selected tag. This screen allows entry of one tag at a time, rather that multiple tags as in the [ PHYS.E ](../../../../rover/INV-OVERVIEW/INV-ENTRY/PHYS-E/README.md) process.   
   
 Additionally, more fields are available for change, and new tags may be
 created in this procedure. For this reason, this procedure should be used only
@@ -19,12 +19,12 @@ no modifications are allowed.
 This procedure is used when a Physical Inventory is in process.
 
 **Prerequisites**  
-Initialization of the inventory control record ( [ INV.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) ) and entry of the required inventory locations and General Ledger account numbers.   
+Initialization of the inventory control record ( [ INV.CONTROL ](../INV-CONTROL/README.md) ) and entry of the required inventory locations and General Ledger account numbers.   
   
 Prior to this procedure, the following procedures must have been executed:  
   
-1) Generate Physical Tags ( [ PHYS.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/PHYS-P1) )   
-2) Print Phyical Tags ( [ PHYS.F1 ](PHYS-F1/README.md) ) 
+1) Generate Physical Tags ( [ PHYS.P1 ](../../INV-PROCESS/PHYS-P1/README.md) )   
+2) Print Phyical Tags ( [ PHYS.F1 ](../../INV-REPORT/PHYS-F1/README.md) ) 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

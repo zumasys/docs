@@ -14,7 +14,7 @@ each field, representing the year-to- date amounts.
 As required.
 
 **Prerequisites**  
-The [ SALES.P2 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/CUST-Q/SALES-P2) procedure must be run to build the analysis files. 
+The [ SALES.P2 ](../../MRK-PROCESS/SALES-P2/README.md) procedure must be run to build the analysis files. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

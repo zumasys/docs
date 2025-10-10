@@ -15,7 +15,7 @@ charges.
 As required.
 
 **Prerequisites**  
-Entry of the selected RMAREC records ( [ RMAREC.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMA-E/RMA-E-1/RMAREC-E2/RMAREC-E) or [ RMAREC.E2 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMA-E/RMA-E-1/RMAREC-E2) ). 
+Entry of the selected RMAREC records ( [ RMAREC.E ](../../MRK-ENTRY/RMAREC-E/README.md) or [ RMAREC.E2 ](../../MRK-ENTRY/RMAREC-E2/README.md) ). 
 
 **Data Fields**
 

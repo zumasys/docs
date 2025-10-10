@@ -14,7 +14,7 @@ location to be counted.
 Normally, cycle listings are printed daily for the parts to be counted.
 
 **Prerequisites**  
-The [ CYCLE.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/CYCLE-P1) procedure must have been run to generate cycle tags for a given cycle date. 
+The [ CYCLE.P1 ](../../INV-PROCESS/CYCLE-P1/README.md) procedure must have been run to generate cycle tags for a given cycle date. 
 
 **Data Fields**
 

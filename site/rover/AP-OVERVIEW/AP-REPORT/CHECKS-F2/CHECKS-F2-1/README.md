@@ -43,7 +43,7 @@ field is entered only if you are going to print checks created via the
 present in the Checks file, leave this field blank and enter the check numbers
 to be printed in the "Check Number" field.  
   
-**Starting Check** Enter the number of the first check to be printed. If a check is wasted because of a printer malfunction, it must be voided with the [ CHECKS.E2 ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E2) procedure. Any checks which are used for the form alignment process are voided automatically.   
+**Starting Check** Enter the number of the first check to be printed. If a check is wasted because of a printer malfunction, it must be voided with the [ CHECKS.E2 ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E2/README.md) procedure. Any checks which are used for the form alignment process are voided automatically.   
   
 **Check Number(s)** Enter the selected check number(s) which are to be
 printed. These checks must already exist in the Checks file. If you are

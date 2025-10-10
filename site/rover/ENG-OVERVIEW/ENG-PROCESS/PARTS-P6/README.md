@@ -13,7 +13,7 @@ determine the number of parts that will be affected by the change before
 making the the change.  
   
   
-It is recommended that you run [ PARTS.P3 ](PARTS-P3.htm) and [ PARTS.P5 ](../../../../rover/ENG-OVERVIEW/ENG-PROCESS/PARTS-P5) after updating the specifications with this process. 
+It is recommended that you run [ PARTS.P3 ](PARTS-P3.htm) and [ PARTS.P5 ](../../../../rover/ENG-OVERVIEW/ENG-PROCESS/PARTS-P5/README.md) after updating the specifications with this process. 
 
 **Frequency of Use**  
 As required.

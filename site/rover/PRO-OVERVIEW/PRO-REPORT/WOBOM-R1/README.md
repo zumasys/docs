@@ -6,13 +6,13 @@
 [ Form Details ](WOBOM-R1-1/README.md)   
 
 **Purpose**  
-The [ BOM.R1 ](../../../../rover/ENG-OVERVIEW/ENG-REPORT/BOM-R1) procedure is used to create work order bill of material listings. The user may specify each bill of material he would like to see by entering the work order number which identifies it. 
+The [ BOM.R1 ](../../../../rover/ENG-OVERVIEW/ENG-REPORT/BOM-R1/README.md) procedure is used to create work order bill of material listings. The user may specify each bill of material he would like to see by entering the work order number which identifies it. 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-Creation of the work order bill of material record ( [ WO.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-E) ). 
+Creation of the work order bill of material record ( [ WO.E ](../../PRO-ENTRY/WO-E/README.md) ). 
 
 **Data Fields**
 

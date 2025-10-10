@@ -37,7 +37,7 @@ destination and may not be available in all cases.
 function which may also be activated by clicking the save button in the tool
 bar or pressing the F9 key or Ctrl+S.  
   
-**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) . The cost group is used to define the costing method and to group inventory locations together for averaging the cost within those locations.   
+**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../INV-OVERVIEW/INV-ENTRY/INV-CONTROL/README.md) . The cost group is used to define the costing method and to group inventory locations together for averaging the cost within those locations.   
   
 **C)urrent S)tandard or P)revious** Enter "C" to view the current cost or "P"
 to view the previous cost. Enter "S" or leave blank to view the standard cost.  

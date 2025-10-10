@@ -37,7 +37,7 @@ procedure is actually completed.
 As required.
 
 **Prerequisites**  
-The batch queue must have been previously defined in the BE.E procedure. Jobs which are to be executed as part of the administrator queue must be defined with a unique procedure name in the JD (job definition file). This is accomplished by placing a name in the JOB.ID prompt of any report or batch procedure and pre-storing the answers to the prompts (e.g. [ MRP.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-3/poprice-e/PLAN-E/MRP-P1) can be saved as [ MRP.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-3/poprice-e/PLAN-E/MRP-P1) *NIGHTLY). 
+The batch queue must have been previously defined in the BE.E procedure. Jobs which are to be executed as part of the administrator queue must be defined with a unique procedure name in the JD (job definition file). This is accomplished by placing a name in the JOB.ID prompt of any report or batch procedure and pre-storing the answers to the prompts (e.g. [ MRP.P1 ](../../../MFG-OVERVIEW/MFG-PROCESS/MRP-P1/README.md) can be saved as [ MRP.P1 ](../../../MFG-OVERVIEW/MFG-PROCESS/MRP-P1/README.md) *NIGHTLY). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

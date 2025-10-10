@@ -100,7 +100,7 @@ the service order.
 **PO Number** Enter the purchase order number assigned by the customer for the
 service order. This number will be referenced on the invoice.  
   
-**Invoice Number** Contains the invoice number assigned for the service order. This number is assigned at the time the invoice is created during the posting of the order with [ FSO.P1 ](../../../../../rover/FS-OVERVIEW/FS-PROCESS/FSO-P1) . It may not be changed.   
+**Invoice Number** Contains the invoice number assigned for the service order. This number is assigned at the time the invoice is created during the posting of the order with [ FSO.P1 ](../../../../../rover/FS-OVERVIEW/FS-PROCESS/FSO-P1/README.md) . It may not be changed.   
   
 **Terms** Enter the terms code that defines the payment requirments for the
 service order.  

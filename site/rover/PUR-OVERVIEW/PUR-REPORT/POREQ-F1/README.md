@@ -11,7 +11,7 @@ letter head. Threquisition to be pedrinted may be select ly individually, by a
 range of requisition numbers or by a range of requisition dates.
 
 **Frequency of Use**  
-Requisition forms may be printed as required and may be also be re-printed at any time. The [ POREQ.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E/VENDOR-E-1/POREQ-E) procedure may be enabled to automatically print the forms as well by setting parameters on the printing tab in [ PO.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-2/PO-CONTROL) . 
+Requisition forms may be printed as required and may be also be re-printed at any time. The [ POREQ.E ](../../PUR-ENTRY/POREQ-E/README.md) procedure may be enabled to automatically print the forms as well by setting parameters on the printing tab in [ PO.CONTROL ](../../PUR-ENTRY/PO-CONTROL/README.md) . 
 
 **Prerequisites**  
 Entry of the selected requisitions.

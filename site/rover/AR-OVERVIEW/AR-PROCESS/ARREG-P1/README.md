@@ -6,7 +6,7 @@
 [ Form Details ](ARREG-P1-1/README.md)   
 
 **Purpose**  
-The [ ARREG.R1 ](../../../../rover/AR-OVERVIEW/AR-REPORT/ARREG-R1) procedure is used to purge ARREG records from the data base. The criteria used to deterime which records are purged is based on a user defined cut-off date. All ARREG records which have a posted date that is less than or equal to the cut-off date will be deleted. The post date indicates that the record was posted to general ledger. 
+The [ ARREG.R1 ](../../../../rover/AR-OVERVIEW/AR-REPORT/ARREG-R1/README.md) procedure is used to purge ARREG records from the data base. The criteria used to deterime which records are purged is based on a user defined cut-off date. All ARREG records which have a posted date that is less than or equal to the cut-off date will be deleted. The post date indicates that the record was posted to general ledger. 
 
 **Frequency of Use**  
 The frequency with which a purge is performed will vary depending on such

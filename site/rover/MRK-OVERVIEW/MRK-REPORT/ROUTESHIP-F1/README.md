@@ -19,15 +19,15 @@ None.
 **Data Fields**
 
 **Load Day** The day of the week the routeship is loaded.  
-**Route Description** The description of this particular route as entered in [ ROUTESHIP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/ROUTE-E/ROUTESHIP-E) .   
+**Route Description** The description of this particular route as entered in [ ROUTESHIP.E ](../../MRK-ENTRY/ROUTESHIP-E/README.md) .   
 **Route#** The master route# that was used to created this Routeship.  
 **Load Date** The date and day this routeship should be loaded.  
 **Stop Nbr** The stop number on the route.  
 **Order Nbr** The order number to be delivered.  
 **Customer** The customer number and name for the stop.  
 **Customer Address** The customer's address for this stop.  
-**Driver** The driver as entered in [ ROUTESHIP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/ROUTE-E/ROUTESHIP-E) , or can be manually written.   
-**Trailer** The trailer as entered in [ ROUTESHIP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/ROUTE-E/ROUTESHIP-E) , or can be manually written.   
+**Driver** The driver as entered in [ ROUTESHIP.E ](../../MRK-ENTRY/ROUTESHIP-E/README.md) , or can be manually written.   
+**Trailer** The trailer as entered in [ ROUTESHIP.E ](../../MRK-ENTRY/ROUTESHIP-E/README.md) , or can be manually written.   
   
 <badge text= "Version 8.10.57" vertical="middle" />
 

@@ -15,7 +15,7 @@ materials consumed.
 Usually before the service is performed.
 
 **Prerequisites**  
-Entry of the selected field service orders ( [ FSO.E ](../../../../rover/FS-OVERVIEW/FS-ENTRY/FS-CONTROL/FSO-E) ). 
+Entry of the selected field service orders ( [ FSO.E ](../../FS-ENTRY/FSO-E/README.md) ). 
 
 **Data Fields**
 

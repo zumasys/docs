@@ -1,8 +1,10 @@
-##  Engineering Overview
+# Engineering Overview
 
 <PageHeader />
 
-[ Data Entry Procedures ](ENG-ENTRY/README.md) | [ Reports and Inquiries ](ENG-REPORT/README.md) | [ Update Processes ](ENG-PROCESS/README.md)
+- [Data Entry Procedures](ENG-ENTRY/README.md)
+- [Reports and Inquiries](ENG-REPORT/README.md)
+- [Update Processes](ENG-PROCESS/README.md)
 
 **Purpose**  
 The Engineering module provides for the entry and maintenance of the Parts
@@ -90,7 +92,7 @@ usually restricted to use by only the system administrator since these are
 usually run overnight.
 
 **Setup Procedures**  
-The only setup procedure which needs to be addressed before beginning with the normal flow of activities is setting up the unit of measure table. This table defines all of the valid unit of measure codes which may be used within the system. Specifically, these codes must be present before items may be entered into the Parts Master. The procedure used to update this table is [ UM.CONTROL ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-1/UM-CONTROL) . If you want to use the ECN system you will need to setup the parameters defined in the [ ECN.CONTROL ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E/ECN-E/ECN-E-1/ECN-CONTROL) procedure.   
+The only setup procedure which needs to be addressed before beginning with the normal flow of activities is setting up the unit of measure table. This table defines all of the valid unit of measure codes which may be used within the system. Specifically, these codes must be present before items may be entered into the Parts Master. The procedure used to update this table is [UM.CONTROL](ENG-ENTRY/UM-CONTROL/README.md) . If you want to use the ECN system you will need to setup the parameters defined in the [ECN.CONTROL](ENG-ENTRY/ECN-CONTROL/README.md) procedure.
   
 Other modules in the system such as the Inventory and Purchasing modules may
 require that the costs be rolled up prior to operation if standard costs are
@@ -105,24 +107,24 @@ then the definition of the configurations and the subsequent creation of
 configured parts is also performed. There is not necessarily a particular
 order in which the functions are performed.  
   
-The Parts Master is updated by the [ PARTS.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) procedure. All part numbers for component parts as well as assemblies should be entered in the Parts Master using [ PARTS.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) . Records may not be deleted directly by this procedure because the system must check to insure that there are no files in the data base which reference the part number. Since this is a time consuming process it is not done online. Instead a status field is provided which may be set to a delete code. The batch procedure [ PARTS.P2 ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-1/PARTS-P2) may then be run to validate that the part number is not referenced and then delete it.   
+The Parts Master is updated by the [PARTS.E](ENG-ENTRY/PARTS-E/README.md) procedure. All part numbers for component parts as well as assemblies should be entered in the Parts Master using [PARTS.E](ENG-ENTRY/PARTS-E/README.md) . Records may not be deleted directly by this procedure because the system must check to insure that there are no files in the data base which reference the part number. Since this is a time consuming process it is not done online. Instead a status field is provided which may be set to a delete code. The batch procedure [PARTS.P2](ENG-PROCESS/PARTS-P2/README.md) may then be run to validate that the part number is not referenced and then delete it.
   
-Bills of Material are entered with the [ BOM.E ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E) procedure. Before a record can be added to the BOM file its part number must first be entered in the Parts Master file using [ PARTS.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) . In addition, any part number which will be called out on the bill of material must also have been entered on the Parts Master. Records may also be deleted with this procedure when required.   
+Bills of Material are entered with the [BOM.E](ENG-ENTRY/BOM-E/README.md) procedure. Before a record can be added to the BOM file its part number must first be entered in the Parts Master file using [PARTS.E](ENG-ENTRY/PARTS-E/README.md) . In addition, any part number which will be called out on the bill of material must also have been entered on the Parts Master. Records may also be deleted with this procedure when required.
   
-Standard Costs are entered with the [ COST.E ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E) procedure. If the cost method being used to value inventory is standard then cost data should be entered for each part number identified in the parts master. Even if standard is not setup as the costing method for inventory valuation you may maintain standards for other purposes. Standard costs may be rolled up with the procedure [ COST.P1 ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1) , and may be rolled over (book to previous, current to book) with the [ COST.P2 ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2) procedure. The cost rollover is usually performed only once or twice a year after a physical inventory.   
+Standard Costs are entered with the [COST.E](ENG-ENTRY/COST-E/README.md) procedure. If the cost method being used to value inventory is standard then cost data should be entered for each part number identified in the parts master. Even if standard is not setup as the costing method for inventory valuation you may maintain standards for other purposes. Standard costs may be rolled up with the procedure [COST.P1](ENG-PROCESS/COST-P1/README.md) , and may be rolled over (book to previous, current to book) with the [COST.P2](ENG-PROCESS/COST-P2/README.md) procedure. The cost rollover is usually performed only once or twice a year after a physical inventory.
   
-Engineering Change Notices (ECN) are entered with the [ ECN.E ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E/ECN-E) procedure. The [ ECN.F1 ](ECN-F1/README.md) procedure may be used to print an ECN form if desired. When the ECN has been approved and is ready to be implemented, the [ ECN.P1 ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/ECN-P1) procedure can be run to post the changes for the parts referenced to the Parts Master file. Mass changes to the Bill of Materials file can be performed using the [ BOM.P3 ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E/ECN-E/BOM-P3) procedure, which can optionally post the assembly numbers changed to a specified ECN record. If you were going to post the changes from [ BOM.P3 ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E/ECN-E/BOM-P3) to the ECN, you would want to perform this step before running [ ECN.P1 ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/ECN-P1) .   
+Engineering Change Notices (ECN) are entered with the [ECN.E](ENG-ENTRY/ECN-E/README.md) procedure. The [ECN.F1](ENG-REPORT/ECN-F1/README.md) procedure may be used to print an ECN form if desired. When the ECN has been approved and is ready to be implemented, the [ECN.P1](ENG-PROCESS/ECN-P1/README.md) procedure can be run to post the changes for the parts referenced to the Parts Master file. Mass changes to the Bill of Materials file can be performed using the [BOM.P3](ENG-PROCESS/BOM-P3/README.md) procedure, which can optionally post the assembly numbers changed to a specified ECN record. If you were going to post the changes from [BOM.P3](ENG-PROCESS/BOM-P3/README.md) to the ECN, you would want to perform this step before running [ECN.P1](ENG-PROCESS/ECN-P1/README.md) .
   
-Product Configurations are entered with the [ PRODCON.E ](PRODCON-E/README.md) procedure. This defines the options available when configuring specific products with the [ PRODCON.E2 ](PRODCON-E2/README.md) procedure. When items are configured using [ PRODCON.E2 ](PRODCON-E2/README.md) the Parts Master and Bill of Material records are created automatically.   
+Product Configurations are entered with the [PRODCON.E](ENG-ENTRY/PRODCON-E/README.md) procedure. This defines the options available when configuring specific products with the [PRODCON.E2](ENG-ENTRY/PRODCON-E2/README.md) procedure. When items are configured using [PRODCON.E2](ENG-ENTRY/PRODCON-E2/README.md) the Parts Master and Bill of Material records are created automatically.
   
 The cross reference files PARTMODEL, PARTCATEGORY and PARTMFG are all updated
 automatically when a record is filed. There is also a batch update procedure
 which will rebuild all of the files based on the information in the Parts
 Master.  
   
-The Where Used file (WU) is automatically update when changes are mode to the bill of material with the [ BOM.E ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E) procedure. The batch process [ WU.P1 ](WU-P1/README.md) may be used to regenerate the entire file if required.   
+The Where Used file (WU) is automatically update when changes are mode to the bill of material with the [BOM.E](ENG-ENTRY/BOM-E/README.md) procedure. The batch process [WU.P1](ENG-PROCESS/WU-P1/README.md) may be used to regenerate the entire file if required.
   
-The batch procedure [ PARTS.P2 ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-1/PARTS-P2) determines which parts that have been setup for deletion are eligible and the deletes them. This procedure is also usually setup in a batch process to run on a regular basis. 
+The batch procedure [PARTS.P2](ENG-PROCESS/PARTS-P2/README.md) determines which parts that have been setup for deletion are eligible and the deletes them. This procedure is also usually setup in a batch process to run on a regular basis.
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

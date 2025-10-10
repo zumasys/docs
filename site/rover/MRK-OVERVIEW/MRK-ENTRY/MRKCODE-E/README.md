@@ -6,7 +6,7 @@
 [ Marketing Sales Defaults ](MRKCODE-E-1/README.md)   
 
 **Purpose**  
-The MRKCODE.E procedure is used to define attributes that are to be applied to the sales order. These attributes include the sales account number and cost of goods location to be used. The MRKCODE record ID can be referenced in the parts master file so that when the part is entered in a sales order the attributes in the associated MRKCODE record are applied. This allows you to apply a specific sales account to pre- defined groups of products. If no MRKCODE is present in the parts master record, the standard defaults from the [ MRK.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) record are used. 
+The MRKCODE.E procedure is used to define attributes that are to be applied to the sales order. These attributes include the sales account number and cost of goods location to be used. The MRKCODE record ID can be referenced in the parts master file so that when the part is entered in a sales order the attributes in the associated MRKCODE record are applied. This allows you to apply a specific sales account to pre- defined groups of products. If no MRKCODE is present in the parts master record, the standard defaults from the [ MRK.CONTROL ](../MRK-CONTROL/README.md) record are used. 
 
 **Frequency of Use**  
 Marketing codes are usually defined when the system is being setup prior any

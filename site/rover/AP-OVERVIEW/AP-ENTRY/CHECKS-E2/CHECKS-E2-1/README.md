@@ -64,7 +64,7 @@ the a/p file and can be reopened if required. The void date will become the
 register (i.e. g/l date) used in these transactions. However, if the void date
 is before the last register date used on the A/P record, the last register
 date will be used and not the void date.  
-Warning: If the AP record has multiple payments/checks posted against it or was created from a "pre-payment" check, you will not be able to void it. You will be given the option to void all additional invoices against the check but will have to use [ AP.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) to void these records.   
+Warning: If the AP record has multiple payments/checks posted against it or was created from a "pre-payment" check, you will not be able to void it. You will be given the option to void all additional invoices against the check but will have to use [ AP.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) to void these records.   
   
 **Vendor.Name** The name of the vendor to which the check is being paid.  
   

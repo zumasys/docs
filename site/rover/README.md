@@ -10,49 +10,49 @@ Rover ERP is a dynamic, powerful enterprise resource planner with a strong found
 
 ## General Documentation
 
-* [Administration](./administration/README.md)
-* [Minimum System Requirements](./system-requirements/README.md)
-* [Release Notes](./release-notes/README.md)
-* [KB Articles](./KB-Articles/README.md)
+* [Administration](administration/README.md)
+* [Minimum System Requirements](system-requirements/README.md)
+* [Release Notes](release-notes/README.md)
+* [KB Articles](KB-Articles/README.md)
 
 ### Installations / Setups
 
-* [Desktop Client Setup](./administration/client-setup/README.md)
-* [M3Services Setup](./administration/m3-services/README.md)
-* [Shopify Setup](./shopify-setup/README.md)
+* [Desktop Client Setup](administration/client-setup/README.md)
+* [M3Services Setup](administration/m3-services/README.md)
+* [Shopify Setup](shopify-setup/README.md)
 
 ### System Utilities
 
-* [ACE Utilities](./ACE-OVERVIEW/README.md)
-* [Tips & Tricks](./tips-and-tricks/README.md)
+* [ACE Utilities](ACE-OVERVIEW/README.md)
+* [Tips & Tricks](tips-and-tricks/README.md)
 
 ## Modules
 
-* [Overview (Cheat Sheet)](./cheat-sheet/README.md)
-* [Accounts Payable](./AP-OVERVIEW/README.md)
-   * [AP Training Guide](./AP-OVERVIEW/training-guide/README.md)
-* [Document Control](./DOC-OVERVIEW/README.md)
-* [Engineering](./ENG-OVERVIEW/README.md)
-* [Executive Summary](./EXEC-OVERVIEW/README.md)
-* [Field Service](./FS-OVERVIEW/README.md)
-* [General Ledger](./GL-OVERVIEW/README.md)
-* [Inventory](./INV-OVERVIEW/README.md)
-* [Manufacturing Planning](./MFG-OVERVIEW/README.md)
-* [Marketing](./MRK-OVERVIEW/README.md)
-* [Production](./PRO-OVERVIEW/README.md)
-* [Project Management](./PROJ-OVERVIEW/README.md)
-* [Purchasing](./PUR-OVERVIEW/README.md)
+* [Overview (Cheat Sheet)](cheat-sheet/README.md)
+* [Accounts Payable](AP-OVERVIEW/README.md)
+  * [AP Training Guide](AP-OVERVIEW/training-guide/README.md)
+* [Document Control](DOC-OVERVIEW/README.md)
+* [Engineering](ENG-OVERVIEW/README.md)
+* [Executive Summary](EXEC-OVERVIEW/README.md)
+* [Field Service](FS-OVERVIEW/README.md)
+* [General Ledger](GL-OVERVIEW/README.md)
+* [Inventory](INV-OVERVIEW/README.md)
+* [Manufacturing Planning](MFG-OVERVIEW/README.md)
+* [Marketing](MRK-OVERVIEW/README.md)
+* [Production](PRO-OVERVIEW/README.md)
+* [Project Management](PROJ-OVERVIEW/README.md)
+* [Purchasing](PUR-OVERVIEW/README.md)
 
-## Rover Hub
+## Rover Business Suite
 
-* [Overview](./business-suite/README.md)
-* [Onboarding](./rover-hub-onboarding/README.md)
-* [Customer Portal](./customer-portal/README.md)
-* [Web Security Settings](./administration/rover-web-setup/README.md)
+* [Overview](business-suite/README.md)
+* [Onboarding](rover-business-suite-onboarding/README.md)
+* [Customer Portal](business-suite/portal/README.md)
+* [Web Security Settings](administration/rover-web-setup/README.md)
 
 ## Rover BI
 
-* [Overview](./rover-bi-overview/README.md)
+* [Overview](business-suite/bi/README.md)
 
 ## Rover Gateway
 
