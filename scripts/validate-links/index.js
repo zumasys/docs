@@ -16,7 +16,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Configuration
-const BASE_DIR = path.join(__dirname, '..', 'site');
+const BASE_DIR = path.join(__dirname, '..', '..', 'site');
 const SCAN_FOLDERS = ['rover', 'pos-connect', 'smartsuite'];
 
 // Parse command line arguments
