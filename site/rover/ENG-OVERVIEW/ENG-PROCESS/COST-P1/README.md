@@ -81,7 +81,7 @@ You should always run this procedure prior to running the cost rollover procedur
 **Prerequisites**  
 All of the parts and bill of material records to be included in the rollup must be entered through the [ PARTS.E ](../../ENG-ENTRY/PARTS-E/README.md) and [ BOM.E ](BOM-E/README.md) procedures as well as the material costs for each component part through [ COST.E ](COST-E/README.md) . If you want the system to calculate the labor costs based on routing file data then you must also enter all of the appropriate routing records with the [ ROUTING.E ](ROUTING-E/README.md) procedure, otherwise you may enter a labor amount directly with the [ COST.E ](COST-E/README.md) procedure.   
   
-Since the cost rollup relies on the low level code in the parts master to determine the order in which the parts are to be processed you must insure that these low level codes reflect the current product structure. The [ PARTS.P4 ](PARTS-P4/README.md) procedure generates the low level codes. 
+Since the cost rollup relies on the low level code in the parts master to determine the order in which the parts are to be processed you must insure that these low level codes reflect the current product structure. The [ PARTS.P4 ](../PARTS-P4/README.md) procedure generates the low level codes. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

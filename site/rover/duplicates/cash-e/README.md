@@ -26,7 +26,7 @@ in the application amount field. For credit memos, the amount is entered as a
 positive number. To create a debit memo (e.g. charge back), enter the amount
 as a negative number.  
   
-If you will be using [ RECON.E ](RECON-E/README.md) to reconcile your bank statements, it is recommended that a deposit id be entered on all cash receipts. In [ recon.e ](recon-e/README.md) , there is a option to load in all un-cleared cash receipts. These cash receipts are loaded in by date by deposit id so that the deposit amount in [ recon.e ](recon-e/README.md) reflects the deposit amount referenced on the bank statement. Therefore, when assigning deposit ids, the same deposit id may be used for multiple checks if the checks will be part of the same deposit made into the bank account.   
+If you will be using [ RECON.E ](../RECON-E/README.md) to reconcile your bank statements, it is recommended that a deposit id be entered on all cash receipts. In [ recon.e ](../recon-e/README.md) , there is a option to load in all un-cleared cash receipts. These cash receipts are loaded in by date by deposit id so that the deposit amount in [ recon.e ](../recon-e/README.md) reflects the deposit amount referenced on the bank statement. Therefore, when assigning deposit ids, the same deposit id may be used for multiple checks if the checks will be part of the same deposit made into the bank account.   
   
 To apply excess cash to a write off account instead of creating a debit memo, the corresponding flag in [ AR.CONTROL ](../../AR-OVERVIEW/AR-ENTRY/AR-CONTROL/README.md) must be set to "Y", and the user will be prompted at file time for confirmation before the update occurs.   
   

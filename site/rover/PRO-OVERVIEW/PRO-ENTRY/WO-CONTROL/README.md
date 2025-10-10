@@ -8,7 +8,7 @@
 [ Repair Codes ](WO-CONTROL-3/README.md)   
 
 **Purpose**  
-The WO.CONTROL procedure is used to define default information which will be used by the work order entry procedure ( [ WO.E ](WO-E/README.md) ). The information entered in this procedure is loaded into the corresponding fields on new work orders so that the same information does not have to be entered on every order. The user has the option of changing any of these defaults after they are loaded.   
+The WO.CONTROL procedure is used to define default information which will be used by the work order entry procedure ( [ WO.E ](../WO-E/README.md) ). The information entered in this procedure is loaded into the corresponding fields on new work orders so that the same information does not have to be entered on every order. The user has the option of changing any of these defaults after they are loaded.   
   
 In addition to the default fields there are several account number fields
 which must be defined so that the cost accounting functions will operate

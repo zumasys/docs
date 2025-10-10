@@ -20,7 +20,7 @@ mailmerge or other activities related to the campaign.
 As required.
 
 **Prerequisites**  
-If group codes are to be used for determining which customers and prospects are to be included in a campaign they must forst be defined in the [ GROUP.CONTROL ](GROUP-CONTROL/README.md) procedure and referenced on each customer or prospect. 
+If group codes are to be used for determining which customers and prospects are to be included in a campaign they must forst be defined in the [ GROUP.CONTROL ](../GROUP-CONTROL/README.md) procedure and referenced on each customer or prospect. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

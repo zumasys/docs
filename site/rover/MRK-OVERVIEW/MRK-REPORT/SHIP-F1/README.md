@@ -8,7 +8,7 @@
 **Purpose**  
 The SHIP.F1 procedure is used to print invoice/packing slips on pre- printed forms. One copy of this form is usually sent along with the materials as the packing slip with another copy sent separately as the invoice, and the remaining copies for internal files. Another approach is to use this procedure for printing the packing slip only and using the [ AR.F1 ](../../../AR-OVERVIEW/AR-REPORT/AR-F1/README.md) procedure to print invoices as a separate activity. The user determines which shipments are to be printed by entering their numbers.   
   
-The [ SHIP.F3 ](SHIP-F3/README.md) procedure is available to print the same form except without the dollar values shown. 
+The [ SHIP.F3 ](../SHIP-F3/README.md) procedure is available to print the same form except without the dollar values shown. 
 
 **Frequency of Use**  
 Invoice/Packing slip forms may be printed as required and may be also be re-

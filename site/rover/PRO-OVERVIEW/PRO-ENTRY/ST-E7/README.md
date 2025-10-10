@@ -29,7 +29,7 @@ If the balance on hand in the from operation will go negative as a result of
 processing the transaction a message will appear to warn the operator of this
 situation. The operator may still proceed with the transaction if appropriate.  
   
-This procedure performs the same function as [ ST.E3 ](ST-E3/README.md) except that it is optomized for bar coded entry based on settings defined in the [ BAR.CONTROL ](../BAR-CONTROL/README.md) procedure. 
+This procedure performs the same function as [ ST.E3 ](../ST-E3/README.md) except that it is optomized for bar coded entry based on settings defined in the [ BAR.CONTROL ](../BAR-CONTROL/README.md) procedure. 
 
 **Frequency of Use**  
 As required.

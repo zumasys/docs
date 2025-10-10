@@ -24,7 +24,7 @@ This procedure does not allow records to be deleted directly but instead provide
 As required.
 
 **Prerequisites**  
-Entry of valid unit of measure codes ( [ UM.CONTROL ](UM-CONTROL/README.md) ). 
+Entry of valid unit of measure codes ( [ UM.CONTROL ](../UM-CONTROL/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

@@ -25,7 +25,7 @@ against them.
 As required.
 
 **Prerequisites**  
-Initialization of the purchase order control record ( [ PO.CONTROL ](PO-CONTROL/README.md) ), and entry of the vendors to be referenced. 
+Initialization of the purchase order control record ( [ PO.CONTROL ](../PO-CONTROL/README.md) ), and entry of the vendors to be referenced. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

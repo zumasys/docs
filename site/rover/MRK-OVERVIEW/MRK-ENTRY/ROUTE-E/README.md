@@ -22,7 +22,7 @@ order is entered for that customer, if a route# exists for the customer, then
 the route record is read to determine when the next scheduled delivery date
 will be and this will be defaulted as the sales order schedule date.  
   
-The route record is also used when creating Routeship records via [ ROUTESHIP.E ](ROUTESHIP-E/README.md) or [ ROUTESHIP.P1 ](ROUTESHIP-P1/README.md) for delivery of the shipments for the customers on the route. 
+The route record is also used when creating Routeship records via [ ROUTESHIP.E ](../ROUTESHIP-E/README.md) or [ ROUTESHIP.P1 ](ROUTESHIP-P1/README.md) for delivery of the shipments for the customers on the route. 
 
 **Frequency of Use**  
 As required.

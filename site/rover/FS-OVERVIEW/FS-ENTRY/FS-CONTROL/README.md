@@ -14,7 +14,7 @@
 The FS.CONTROL procedure is used to define various tables of information that
 are used in the field service procedures.  
   
-The first tab contains default information such as the sales account number and cost of goods sold location, which are loaded during the entry of a field service order ( [ FSO.E ](FSO-E/README.md) ).   
+The first tab contains default information such as the sales account number and cost of goods sold location, which are loaded during the entry of a field service order ( [ FSO.E ](../FSO-E/README.md) ).   
   
 The second tab contains a list of all the service units available for use.
 These are typically service vans or trucks.  

@@ -6,7 +6,7 @@
 [ Form Details ](PO-F3-1/README.md)   
 
 **Purpose**  
-The [ PO.F2 ](PO-F2/README.md) procedure is used to print purchase order forms on blank paper using a predefined PDF document as the form background. One copy is usually sent to the vendor, while others may be maintained on file as a legal copy of the agreement between you and the vendor. The user determines which purchase orders are to be printed by entering their numbers, a date range or range of numbers.   
+The [ PO.F2 ](../PO-F2/README.md) procedure is used to print purchase order forms on blank paper using a predefined PDF document as the form background. One copy is usually sent to the vendor, while others may be maintained on file as a legal copy of the agreement between you and the vendor. The user determines which purchase orders are to be printed by entering their numbers, a date range or range of numbers.   
   
 The purchase order form includes information about all of the receipts which
 have processed against it. Therefore, reprints run at a later date may not

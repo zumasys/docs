@@ -20,7 +20,7 @@ need to be made manually to the bill of material and/or routing records.
 As required.
 
 **Prerequisites**  
-Entry of the ECN control parameters through [ECN.CONTROL](ECN-CONTROL/README.md).
+Entry of the ECN control parameters through [ECN.CONTROL](../ECN-CONTROL/README.md).
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

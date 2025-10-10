@@ -7,7 +7,7 @@
 [ Change History ](DMR-CONTROL-2/README.md)   
 
 **Purpose**  
-The DMR.CONTROL procedure is used to define the quality, exception and delivery codes used by the vendor rating system. This information is used when identifying deviations in the [ DMR.E ](DMR-E/README.md) procedure and also in the calculation of vendor delivery performance. 
+The DMR.CONTROL procedure is used to define the quality, exception and delivery codes used by the vendor rating system. This information is used when identifying deviations in the [ DMR.E ](../DMR-E/README.md) procedure and also in the calculation of vendor delivery performance. 
 
 **Frequency of Use**  
 Typically at system setup and adjusted as required.

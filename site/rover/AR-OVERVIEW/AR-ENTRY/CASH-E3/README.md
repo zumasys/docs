@@ -29,7 +29,7 @@ that if you delete records from a prior fiscal/calendar period and you re-run
 your cash reports for those periods, the reports will not match the reports
 you ran earlier for those periods.  
   
-If you will be using [ RECON.E ](RECON-E/README.md) to reconcile your bank statements, it is recommended that a deposit id be entered on all cash receipts. This will help matching the deposit amounts on the statement to separate deposits displayed on the [ RECON.E ](RECON-E/README.md) screen. Therefore, when assigning deposit ids in CASH.E3, the same deposit id may be used for multiple cash records if they will be part of the same deposit made into the bank account. 
+If you will be using [ RECON.E ](../RECON-E/README.md) to reconcile your bank statements, it is recommended that a deposit id be entered on all cash receipts. This will help matching the deposit amounts on the statement to separate deposits displayed on the [ RECON.E ](../RECON-E/README.md) screen. Therefore, when assigning deposit ids in CASH.E3, the same deposit id may be used for multiple cash records if they will be part of the same deposit made into the bank account. 
 
 **Frequency of Use**  
 As required.

@@ -20,7 +20,7 @@ As each Precomm record is processed, it is deleted from the Precomm file.
 As required.
 
 **Prerequisites**  
-A check run must have been created through the [ COMM.P3 ](COMM-P3/README.md) procedure and all checks must have been successfully printed. 
+A check run must have been created through the [ COMM.P3 ](../COMM-P3/README.md) procedure and all checks must have been successfully printed. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

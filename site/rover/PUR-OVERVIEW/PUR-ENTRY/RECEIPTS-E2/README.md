@@ -29,7 +29,7 @@ A debit receipt record can be modified or deleted using RECEIPTS.E2 while it is 
 As required.
 
 **Prerequisites**  
-Entry of the receipt record to be debited ( [ RECEIPTS.E ](RECEIPTS-E/README.md) ). 
+Entry of the receipt record to be debited ( [ RECEIPTS.E ](../RECEIPTS-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

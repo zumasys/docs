@@ -19,7 +19,7 @@ levels. This allows tighter control of the load on the factory.
   
 Using MS.E you lay-out the planned completion dates and quantities for the item. If you use [ PLAN.E ](../PLAN-E/README.md) or [ WO.E ](../../../PRO-OVERVIEW/PRO-ENTRY/WO-E/README.md) screens to release master schedule items as work orders, then each date and quantity that is consumed will be flagged so that it no longer appears on the MPS since it has been replaced by a firm order. If you enter work orders on [ WO.E ](../../../PRO-OVERVIEW/PRO-ENTRY/WO-E/README.md) without selecting a master schedule item, you will need to remove the planned dates from the MS.E manually.   
   
-Master schedule items may also be created automatically based on planning bills. (See [ PB.E ](PB-E/README.md) and [ PB.P1 ](../../MFG-PROCESS/PB-P1/README.md) ) 
+Master schedule items may also be created automatically based on planning bills. (See [ PB.E ](../PB-E/README.md) and [ PB.P1 ](../../MFG-PROCESS/PB-P1/README.md) ) 
 
 **Frequency of Use**  
 As required.

@@ -18,7 +18,7 @@ vendor's quality over a period of time.
 As required.
 
 **Prerequisites**  
-Initialization of the purchase order control record ( [ PO.CONTROL ](PO-CONTROL/README.md) ). 
+Initialization of the purchase order control record ( [ PO.CONTROL ](../PO-CONTROL/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

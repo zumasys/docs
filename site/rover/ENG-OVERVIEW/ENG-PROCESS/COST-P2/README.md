@@ -19,7 +19,7 @@ difference between the current and standard costs.
 The rollover process is usually run only once a year at the close of a fiscal year. It is also used during system implementation to initialize the standard costs after they have been entered into the system via the current cost fields with [ COST.E ](COST-E/README.md) . 
 
 **Prerequisites**  
-A cost rollup ( [ COST.P1 ](COST-P1/README.md) ) should always be performed prior to running this procedure. 
+A cost rollup ( [ COST.P1 ](../COST-P1/README.md) ) should always be performed prior to running this procedure. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

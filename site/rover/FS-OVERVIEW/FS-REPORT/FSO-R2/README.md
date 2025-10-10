@@ -6,7 +6,7 @@
 [ Form Details ](FSO-R2-1/README.md)   
 
 **Purpose**  
-FSO.R2 provides an analysis of the service orders processed for a user specified time period. The report allows you to specify which service units to include in the listing or to include all service units. A separate page and totals are generated for each service unit. A single line is generated for each date within the period and the information on each line represents the totals for all orders processed on that day by the service unit. The [ FSO.R3 ](FSO-R3/README.md) report provides the same information except with all service units grouped together for each date. 
+FSO.R2 provides an analysis of the service orders processed for a user specified time period. The report allows you to specify which service units to include in the listing or to include all service units. A separate page and totals are generated for each service unit. A single line is generated for each date within the period and the information on each line represents the totals for all orders processed on that day by the service unit. The [ FSO.R3 ](../FSO-R3/README.md) report provides the same information except with all service units grouped together for each date. 
 
 **Frequency of Use**  
 As required.

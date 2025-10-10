@@ -8,7 +8,7 @@
 [ Container Parameters ](PO-CONTROL-3/README.md)   
 
 **Purpose**  
-The PO.CONTROL procedure is used to define default information which will be used by the purchase order entry procedure ( [ PO.E ](../../PUR-OVERVIEW/PUR-ENTRY/PO-E/README.md) ). The information entered in this procedure is loaded into the corresponding fields on new purchase orders so that the same information does not have to be entered on every purchase order. The user has the option of changing any of these defaults on the purchase order after they are loaded. The procedure also defines the options for automatic printing of purchase orders and receipt travelers from [ PO.E ](../../PUR-OVERVIEW/PUR-ENTRY/PO-E/README.md) and [ RECEIPTS.E ](RECEIPTS-E/README.md) .   
+The PO.CONTROL procedure is used to define default information which will be used by the purchase order entry procedure ( [ PO.E ](../../PUR-OVERVIEW/PUR-ENTRY/PO-E/README.md) ). The information entered in this procedure is loaded into the corresponding fields on new purchase orders so that the same information does not have to be entered on every purchase order. The user has the option of changing any of these defaults on the purchase order after they are loaded. The procedure also defines the options for automatic printing of purchase orders and receipt travelers from [ PO.E ](../../PUR-OVERVIEW/PUR-ENTRY/PO-E/README.md) and [ RECEIPTS.E ](../RECEIPTS-E/README.md) .   
   
 The one field that is not a default which must be entered is the PO location.
 This defines the inventory location (INVLOC) which contains the purchases

@@ -13,7 +13,7 @@ finalized. The status of each work order is changed to "F" (final) and all of
 the appropriate work order variances are calculated. After a work order is
 finalized no other transactions may be made against it.  
   
-There are several variances calculated for standard cost work orders and only one for average cost work orders. When the variances are calculated work order register records are created for subsequent posting to the general ledger. Only those amounts not already posted by the work order posting process ( [ WO.P4 ](WO-P4/README.md) ) are used in creating the register records.   
+There are several variances calculated for standard cost work orders and only one for average cost work orders. When the variances are calculated work order register records are created for subsequent posting to the general ledger. Only those amounts not already posted by the work order posting process ( [ WO.P4 ](../WO-P4/README.md) ) are used in creating the register records.   
   
 The variances calculated for standard cost work orders are material, labor,
 outside processing, fixed overhead, variable overhead, material overhead and

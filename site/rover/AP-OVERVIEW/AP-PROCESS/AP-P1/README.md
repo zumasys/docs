@@ -23,7 +23,7 @@ checks are actually posted.
 Any AP items which are selected for payment are flagged so they will not be
 processed again.  
   
-If you need to make changes to an existing check run, you can do so via the [ PRECHECKS.E ](../../AP-ENTRY/PRECHECKS-E/README.md) procedure. This procedure is found in the data entry section of the Accounts Payable Module. You can, also, cancel a check run via [ PRECHECKS.P1 ](PRECHECKS-P1/README.md) which is found the processes section of the Accounts Payable Module. AP.P1 cannot be used to edit or cancel a check run. 
+If you need to make changes to an existing check run, you can do so via the [ PRECHECKS.E ](../../AP-ENTRY/PRECHECKS-E/README.md) procedure. This procedure is found in the data entry section of the Accounts Payable Module. You can, also, cancel a check run via [ PRECHECKS.P1 ](../PRECHECKS-P1/README.md) which is found the processes section of the Accounts Payable Module. AP.P1 cannot be used to edit or cancel a check run. 
 
 **Frequency of Use**  
 As required.

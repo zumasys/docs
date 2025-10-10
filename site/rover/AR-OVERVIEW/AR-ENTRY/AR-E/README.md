@@ -12,7 +12,7 @@
 [ Change History ](AR-E-7/README.md)   
 
 **Purpose**  
-The AR.E procedure is used to enter or update Account Receivable records/invoices. In addtion to creating new invoices, records created from sales order shipments, RMA receipts or FSO records can be accessed and edited in this procedure. Invoices or credits created from [ CASH.E ](CASH-E/README.md) may also be viewed in this procedure but changes are not permitted to them.. If a change is required, the original cash record must be reversed or an offsetting AR record created.   
+The AR.E procedure is used to enter or update Account Receivable records/invoices. In addtion to creating new invoices, records created from sales order shipments, RMA receipts or FSO records can be accessed and edited in this procedure. Invoices or credits created from [ CASH.E ](../CASH-E/README.md) may also be viewed in this procedure but changes are not permitted to them.. If a change is required, the original cash record must be reversed or an offsetting AR record created.   
   
 There are two (2) screens available in the AR.E procedure. The first is the
 header screen. The header screen relates primarily to control information
@@ -39,7 +39,7 @@ sales order. Inventory is, also, not updated from this procedure.
 As required.
 
 **Prerequisites**  
-Entry of valid customers ( [ CUST.E ](CUST-E/README.md) ). Entry of valid general ledger account numbers ( [ GLCHART.E ](../../../GL-OVERVIEW/GL-ENTRY/GLCHART-E/README.md) ). Entry of part numbers if they are to entered ( [ PARTS.E ](PARTS-E/README.md) ). 
+Entry of valid customers ( [ CUST.E ](../CUST-E/README.md) ). Entry of valid general ledger account numbers ( [ GLCHART.E ](../../../GL-OVERVIEW/GL-ENTRY/GLCHART-E/README.md) ). Entry of part numbers if they are to entered ( [ PARTS.E ](PARTS-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

@@ -20,7 +20,7 @@ By setting the post flag in the [ GL.CONTROL ](../GL-CONTROL/README.md) procedur
 As required.
 
 **Prerequisites**  
-The fiscal year must have been defined in the [ FY.E ](FY-E/README.md) procedure and the account numbers must have been defined by the [ GLCHART.E ](../GLCHART-E/README.md) process. 
+The fiscal year must have been defined in the [ FY.E ](../FY-E/README.md) procedure and the account numbers must have been defined by the [ GLCHART.E ](../GLCHART-E/README.md) process. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

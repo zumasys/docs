@@ -13,7 +13,7 @@ the information defined in the planning bills.
 This procedure is usually run at the beginning of a planning cycle.
 
 **Prerequisites**  
-Setting of the planning bill low level codes if the multi-level option is used. ( [ PB.P3 ](PB-P3/README.md) ) 
+Setting of the planning bill low level codes if the multi-level option is used. ( [ PB.P3 ](../PB-P3/README.md) ) 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

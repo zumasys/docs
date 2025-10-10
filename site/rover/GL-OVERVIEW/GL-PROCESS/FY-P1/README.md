@@ -18,7 +18,7 @@ Note: Prior to closing the year, check the following:
 2\. Verify that all accounts have been flagged as Income Statement or Balance Sheet accounts in [ GLCHART.E ](../../GL-ENTRY/GLCHART-E/README.md) .   
 3\. Verify that the Retained Earnings account has been entered in [ GL.CONTROL ](../../GL-ENTRY/GL-CONTROL/README.md) .   
   
-It is important to note that this procedure does not 'finally' close a year and that journal entries may continue to be made via the [ GLTRANS.E ](../../GL-ENTRY/GLTRANS-E/README.md) procedure into the closed year until such time as it is finally closed via the [ FY.P2 ](FY-P2/README.md) procedure. Such journal entries will roll forward into the retained earning account in the now current fiscal year as required.   
+It is important to note that this procedure does not 'finally' close a year and that journal entries may continue to be made via the [ GLTRANS.E ](../../GL-ENTRY/GLTRANS-E/README.md) procedure into the closed year until such time as it is finally closed via the [ FY.P2 ](../FY-P2/README.md) procedure. Such journal entries will roll forward into the retained earning account in the now current fiscal year as required.   
   
 Before a year end close may occur, the next fiscal year must be identified in the FY file using the [ FY.E ](FY-E/README.md) procedure. 
 

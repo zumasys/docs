@@ -28,7 +28,7 @@ As each Prechecks record is processed, it is deleted from the Precheck file.
 As required.
 
 **Prerequisites**  
-A check run must have been created through the [ AP.P1 ](AP-P1/README.md) procedure and all checks must have been successfully printed. 
+A check run must have been created through the [ AP.P1 ](../AP-P1/README.md) procedure and all checks must have been successfully printed. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

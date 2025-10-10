@@ -14,7 +14,7 @@
 [ Export ](SO-E-9/README.md)   
 
 **Purpose**  
-The SO.E procedure is used to enter new sales orders into the system and to change existing sales orders. Default data is loaded from [ MRK.CONTROL ](MRK-CONTROL/README.md) , and, once the customer ID is entered, from the customer master record. SO.E contains header information, such as customer information, and also line item information about what is being sold, such as part number, date, quantity, and unit price. Using the Detail Line Item Tab, the user may enter multiple ship due dates and quantities for each line item.   
+The SO.E procedure is used to enter new sales orders into the system and to change existing sales orders. Default data is loaded from [ MRK.CONTROL ](../MRK-CONTROL/README.md) , and, once the customer ID is entered, from the customer master record. SO.E contains header information, such as customer information, and also line item information about what is being sold, such as part number, date, quantity, and unit price. Using the Detail Line Item Tab, the user may enter multiple ship due dates and quantities for each line item.   
   
 Part numbers must exist in the Parts master. Alternatively, the user is
 allowed to leave the part number field blank and use the description field if
@@ -30,7 +30,7 @@ the shipment or AR record.
 A separate tab is provided for tracking shipments. The shipping data is
 populated from the shipment records.  
   
-The Change History tab tracks changes to the sales order at the data field level if this has been setup in [ MRK.CONTROL ](MRK-CONTROL/README.md) .   
+The Change History tab tracks changes to the sales order at the data field level if this has been setup in [ MRK.CONTROL ](../MRK-CONTROL/README.md) .   
   
 On the Header Tab the Status field is "N" (New) when there are no shipments
 against the sales order; "C" (Closed) when sales order is shipped complete and
@@ -62,13 +62,13 @@ will get a message. A credit hold at the customer level prevents any shipment
 being processed for the customer but is does not prevent new orders being
 entered.  
   
-Sales orders may be deleted provided that no shipments have been entered against the sales order. Tip: An un-posted shipment can be deleted in [ SHIP.E ](SHIP-E/README.md) to enable you to delete the sales order. Changes to the scheduled dates and quantities on the sales order may be made after a shipment, provided that the quantity is not reduced below the amount shipped.   
+Sales orders may be deleted provided that no shipments have been entered against the sales order. Tip: An un-posted shipment can be deleted in [ SHIP.E ](../SHIP-E/README.md) to enable you to delete the sales order. Changes to the scheduled dates and quantities on the sales order may be made after a shipment, provided that the quantity is not reduced below the amount shipped.   
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-Initialization of the marketing control record ( [ MRK.CONTROL ](MRK-CONTROL/README.md) ), and entry of the customer and terms records to be referenced. If the orders are for inventoried parts, the part number must exist on the Parts file and the inventory locations must exist on the Invloc file. Also optional are the Rep and Price files. All valid sales tax codes must be entered via the [ STAX.E ](STAX-E/README.md) procedure. 
+Initialization of the marketing control record ( [ MRK.CONTROL ](../MRK-CONTROL/README.md) ), and entry of the customer and terms records to be referenced. If the orders are for inventoried parts, the part number must exist on the Parts file and the inventory locations must exist on the Invloc file. Also optional are the Rep and Price files. All valid sales tax codes must be entered via the [ STAX.E ](STAX-E/README.md) procedure. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 
