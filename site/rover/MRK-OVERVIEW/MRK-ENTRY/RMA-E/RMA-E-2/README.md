@@ -110,7 +110,7 @@ returned.
 **Corr Action** Enter notes describing the action taken correct the problem
 with the returned items.  
   
-**Explode Phantom** Check this box if you want to receive the components of phantom assemblies when receiving a line item that is a phantom part. If unchecked, then the phantom assembly will be received as a normal part number. This setting will default from the [ MRK.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) entry but can be changed.   
+**Explode Phantom** Check this box if you want to receive the components of phantom assemblies when receiving a line item that is a phantom part. If unchecked, then the phantom assembly will be received as a normal part number. This setting will default from the [ MRK.CONTROL ](../../MRK-CONTROL/README.md) entry but can be changed.   
   
 **Prev** Press this button to go to the previous line item.  
   

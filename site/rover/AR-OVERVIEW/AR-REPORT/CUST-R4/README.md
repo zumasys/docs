@@ -30,12 +30,12 @@ None.
 
 **Cust#** The number assigned to the customer record.  
 **Name** The name of the customer.  
-**Start Date** The date this customer started doing business with your company. This date will only appear on the report if it was entered in the [ CUST.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) procedure.   
-**Credit Hold** A "Y" will appear in this column if the customer was placed on credit hold in [ CUST.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) .   
+**Start Date** The date this customer started doing business with your company. This date will only appear on the report if it was entered in the [ CUST.E ](../../AR-ENTRY/CUST-E/README.md) procedure.   
+**Credit Hold** A "Y" will appear in this column if the customer was placed on credit hold in [ CUST.E ](../../AR-ENTRY/CUST-E/README.md) .   
 **Credit Limit** The credit or dollar limit that was given to this  
 **A/R Balance** The current open invoice amount for this  
 **Order Balance** The current sales order balance for this customer.  
-**Day Limit** The number of days you consider an invoice past due. This field can be set by customer in [ CUST.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) . If no entry is made in [ CUST.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) , the report will use the past due days field in [ AR.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) .   
+**Day Limit** The number of days you consider an invoice past due. This field can be set by customer in [ CUST.E ](../../AR-ENTRY/CUST-E/README.md) . If no entry is made in [ CUST.E ](../../AR-ENTRY/CUST-E/README.md) , the report will use the past due days field in [ AR.CONTROL ](../../AR-ENTRY/AR-CONTROL/README.md) .   
 **Invoices Past Due** The number of invoices that are past due based on the
 entry made into the day limit/past due days field.  
 **Avg Pay Days** The average pay days for this customer.  

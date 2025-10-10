@@ -45,7 +45,7 @@ shipment.
 **Original Invoice** This field contains the invoice number that was created
 for the original shipment.  
   
-**Invoice#** This field contains the invoice number assigned to this shipment. If you have selected the option in [ MRK.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) to assign invoices manually, the original invoice number prefaced by an "R" will be loaded into this field for you but can be changed as required. If you have opted to assign the invoice number at ship or post time, no invoice number will loaded into this field for you and you will not be able to enter a number.   
+**Invoice#** This field contains the invoice number assigned to this shipment. If you have selected the option in [ MRK.CONTROL ](../../MRK-CONTROL/README.md) to assign invoices manually, the original invoice number prefaced by an "R" will be loaded into this field for you but can be changed as required. If you have opted to assign the invoice number at ship or post time, no invoice number will loaded into this field for you and you will not be able to enter a number.   
   
 **Notes** The notes from the original shipment record are defaulted into this
 field, but they may be changed to describe the reason for the reversal.  

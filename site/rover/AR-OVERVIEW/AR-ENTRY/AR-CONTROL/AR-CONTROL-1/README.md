@@ -13,7 +13,7 @@ multiple company codes you may select from a list of available companies or
 you may enter the id directly e.g. AR3. This record contains the default
 information used in the AR module by company code.  
   
-**AR Acct#** This is the default Accounts Receivable account used by the [ AR.E ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) procedure. This is loaded into the AR record automatically and can be changed as required.   
+**AR Acct#** This is the default Accounts Receivable account used by the [ AR.E ](../../AR-E/README.md) procedure. This is loaded into the AR record automatically and can be changed as required.   
   
 **Misc Acct#** This field can be used to default an account number into the
 Miscellaneous Account field, after a Miscellaneous amount has been entered.
@@ -35,7 +35,7 @@ calculated. This should be used when the account number is most often the
 same, thus saving data entry keystrokes. This account number cannot be the
 same as the a/r trade account number.  
   
-**Sales Acct#** This field can be used to default an account number into the [ AR.E ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) line item Distribution account field, after a Distribution amount has been entered. This should be used when the account number is most often the same, thus saving data entry keystrokes.   
+**Sales Acct#** This field can be used to default an account number into the [ AR.E ](../../AR-E/README.md) line item Distribution account field, after a Distribution amount has been entered. This should be used when the account number is most often the same, thus saving data entry keystrokes.   
   
 **Cash Acct#** This field can be used to default an account number into the Cash Account field in [ CASH.E ](CASH-E/README.md) .   
   
@@ -56,7 +56,7 @@ have an overriding number of days specified, will use this number of days. If
 you wish to place orders on hold when the customer is 1 day past due on any of
 their invoices, enter 1. Enter 2 for 2 days past due, etc.  
   
-**Default Reg Date** In [ AR.E ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) , the register date defaults to the current system date. If you wish to default the register date to the invoice date, then set this field.   
+**Default Reg Date** In [ AR.E ](../../AR-E/README.md) , the register date defaults to the current system date. If you wish to default the register date to the invoice date, then set this field.   
   
 **Period Start Date** This field is used to control the entry of dates in the AR module and in the shipping entry procedures such as [ ship.e ](ship-e/README.md) and [ ship.e2 ](ship-e2/README.md) . When used in conjunction with the period end date, it can ensure that dates entered are within an acceptable range. This is especially helpful when used to keep from posting records into a previously closed period.   
   

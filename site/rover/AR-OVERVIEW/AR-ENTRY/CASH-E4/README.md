@@ -30,15 +30,15 @@ When the record is saved, the procedure will verify that the total of all
 checks matches the total deposit amount. If the two amounts do not match, you
 will not be able to save the record.  
   
-The amounts are posted immediately upon the filing and individual cash records will be created for each check. In order to correct any data entry mistakes, the cash record may be reversed through [ CASH.E2 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/CASH-E2) and then re-entered correctly via this procedure or [ CASH.E ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E) . [ CASH.E ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E) is similar to cash.e4 except that the checks are entered individually and not in batch.   
+The amounts are posted immediately upon the filing and individual cash records will be created for each check. In order to correct any data entry mistakes, the cash record may be reversed through [ CASH.E2 ](../CASH-E2/README.md) and then re-entered correctly via this procedure or [ CASH.E ](../CASH-E/README.md) . [ CASH.E ](../CASH-E/README.md) is similar to cash.e4 except that the checks are entered individually and not in batch.   
   
-If you will be using [ RECON.E ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/CASH-E-1/RECON-E) to reconcile your bank statements, it is recommended that a deposit id be entered on all cash receipts. In [ recon.e ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e) , there is a option to load in all un-cleared cash receipts. These cash receipts are loaded in by date by deposit id so that the deposit amount in [ recon.e ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e) reflects the deposit amount referenced on the bank statement. Therefore, when assigning deposit ids, the same deposit id may be used for multiple checks if the checks will be part of the same deposit made into the bank account. 
+If you will be using [ RECON.E ](../RECON-E/README.md) to reconcile your bank statements, it is recommended that a deposit id be entered on all cash receipts. In [ recon.e ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e) , there is a option to load in all un-cleared cash receipts. These cash receipts are loaded in by date by deposit id so that the deposit amount in [ recon.e ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e) reflects the deposit amount referenced on the bank statement. Therefore, when assigning deposit ids, the same deposit id may be used for multiple checks if the checks will be part of the same deposit made into the bank account. 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-Initialization of the accounts receivable control record ( [ AR.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) ), and entry of the customer and terms records to be referenced. 
+Initialization of the accounts receivable control record ( [ AR.CONTROL ](../AR-CONTROL/README.md) ), and entry of the customer and terms records to be referenced. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

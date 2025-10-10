@@ -14,7 +14,7 @@ customer account, and after they have been assigned a date received.
 As required.
 
 **Prerequisites**  
-Entry of the selected RMA records ( [ RMA.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMA-E) ). 
+Entry of the selected RMA records ( [ RMA.E ](../../MRK-ENTRY/RMA-E/README.md) ). 
 
 **Data Fields**
 

@@ -14,13 +14,13 @@ If an entry is made into a prior year which has been closed (not finally
 closed) any amounts will roll forward into the beginning balances of the
 current year, as required.  
   
-By setting the post flag in the [ GL.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL) procedure, journal entries may either be posted on-line when filed, or filed and then posted in a batch process later. The latter method allows the auditing of journal entries prior to posting, but does require additional steps. 
+By setting the post flag in the [ GL.CONTROL ](../GL-CONTROL/README.md) procedure, journal entries may either be posted on-line when filed, or filed and then posted in a batch process later. The latter method allows the auditing of journal entries prior to posting, but does require additional steps. 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-The fiscal year must have been defined in the [ FY.E ](FY-E/README.md) procedure and the account numbers must have been defined by the [ GLCHART.E ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E) process. 
+The fiscal year must have been defined in the [ FY.E ](FY-E/README.md) procedure and the account numbers must have been defined by the [ GLCHART.E ](../GLCHART-E/README.md) process. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

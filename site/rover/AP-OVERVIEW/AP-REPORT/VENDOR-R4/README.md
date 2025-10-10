@@ -9,7 +9,7 @@
 This report will print an activity listing for each vendor which has activity
 for the selected period. One page is printed for each vendor.  
   
-This report is similar to [ AP.R4 ](../../../../rover/AP-OVERVIEW/AP-REPORT/AP-R4) but will include misc. checks that were issued to the vendor. Misc.checks are checks that were not used to pay an invoice. 
+This report is similar to [ AP.R4 ](../../../../rover/AP-OVERVIEW/AP-REPORT/AP-R4/README.md) but will include misc. checks that were issued to the vendor. Misc.checks are checks that were not used to pay an invoice. 
 
 **Frequency of Use**  
 As required.

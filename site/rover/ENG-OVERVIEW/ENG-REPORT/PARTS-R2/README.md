@@ -13,7 +13,7 @@ code after they have been stratified.
 As required.
 
 **Prerequisites**  
-The [ PARTS.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/CYCLE-P1/CYCLE-P1-1/INV-P1/PARTS-P1) process must have been run to stratify the parts. 
+The [ PARTS.P1 ](../../ENG-PROCESS/PARTS-P1/README.md) process must have been run to stratify the parts. 
 
 **Data Fields**
 

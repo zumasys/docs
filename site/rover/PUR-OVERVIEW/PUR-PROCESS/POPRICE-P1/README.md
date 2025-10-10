@@ -18,7 +18,7 @@ system.
 As required.
 
 **Prerequisites**  
-An existing price must exist in [ POPRICE.E ](../../../../rover/MFG-OVERVIEW/MFG-REPORT/MRP-R5/POPRICE-E) . This procedure is not used to assign new prices. 
+An existing price must exist in [ POPRICE.E ](../../PUR-ENTRY/POPRICE-E/README.md) . This procedure is not used to assign new prices. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

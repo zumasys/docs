@@ -22,15 +22,15 @@ be loaded for you. If no PO exists for the part & vendor, then upon filing the
 container information a purchase order will be created. The status will
 initially be set to "N" for the container.  
   
-When the container is physically received, the status should be changed to "R" and the information should be verified for accuracy. When it is determined that all information is correct on the container, the status should be changed to "C" to confirm the receipt. This will create receipt records and cause inventory transactions to occur. The container receipts will be posted through the normal receipts posting process, [ RECEIPTS.P1 ](../../../../../../../../../rover/AP-OVERVIEW/AP-REPORT/APREG-R1/RECEIPTS-P1) .   
+When the container is physically received, the status should be changed to "R" and the information should be verified for accuracy. When it is determined that all information is correct on the container, the status should be changed to "C" to confirm the receipt. This will create receipt records and cause inventory transactions to occur. The container receipts will be posted through the normal receipts posting process, [ RECEIPTS.P1 ](../../PUR-PROCESS/RECEIPTS-P1/README.md) .   
   
-Once the receipts records have been created, the container cannot be deleted, and the receipt records cannot be modified through this process. [ RECEIPTS.E2 ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2) can be used to correct individual receipt records on the container. 
+Once the receipts records have been created, the container cannot be deleted, and the receipt records cannot be modified through this process. [ RECEIPTS.E2 ](../RECEIPTS-E2/README.md) can be used to correct individual receipt records on the container. 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-Initialization of the purchase order control record ( [ PO.CONTROL ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-2/PO-CONTROL) ), and entry of the vendor records to be referenced. 
+Initialization of the purchase order control record ( [ PO.CONTROL ](../PO-CONTROL/README.md) ), and entry of the vendor records to be referenced. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

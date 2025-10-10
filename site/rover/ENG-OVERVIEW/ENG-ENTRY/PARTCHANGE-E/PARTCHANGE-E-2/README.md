@@ -33,7 +33,7 @@ I - Inactive (no longer used).
 D - Delete (part flagged for deletion).  
 If this code is entered the part will  
 become a candidate for deletion by the  
-[ PARTS.P2 ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-1/PARTS-P2) procedure.   
+[ PARTS.P2 ](../../../ENG-PROCESS/PARTS-P2/README.md) procedure.   
   
 A value must be entered in this field. You cannot use the tilde character to
 delete the data in it.  
@@ -60,7 +60,7 @@ being pulled as part of the kitting list.
 A value must be entered in this field. You cannot use the tilde character to
 delete the data in it.  
   
-**Um** Enter the unit of measure used to account for this part in inventory. The valid codes are entered in the [ UM.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-1/UM-CONTROL) procedure.   
+**Um** Enter the unit of measure used to account for this part in inventory. The valid codes are entered in the [ UM.CONTROL ](../../UM-CONTROL/README.md) procedure.   
   
 **Fractions** Enter a Y in this field if fractional quantities of this part
 may be stored in inventory. If a Y is not entered then inventory transactions
@@ -83,7 +83,7 @@ used.
 in it's own box. This information in addition to the weight, length, width and
 height is used when calculating the shipping charges for an order.  
   
-**Equiv Part** Enter the equivalent part numbers for the main part number being defined in this procedure. You can enter any number of equivalent part numbers. If you wish to clear all data in this field and the supercedes field, enter the tilde (~) character. .Please note that the entries in this field will over-write all existing equivalent part numbers entered in [ PARTS.E ](../../../ENG-ENTRY/PARTS-E) .   
+**Equiv Part** Enter the equivalent part numbers for the main part number being defined in this procedure. You can enter any number of equivalent part numbers. If you wish to clear all data in this field and the supercedes field, enter the tilde (~) character. .Please note that the entries in this field will over-write all existing equivalent part numbers entered in [ PARTS.E ](../../../ENG-ENTRY/PARTS-E/README.md) .   
   
 **Supercede Flag** Check this box if the equivalent part number to the left
 supercedes the main part number entered on the first tab. This box may only be
@@ -95,7 +95,7 @@ note that the entries made in this procedure will over-write all existing
 specifications posted to the parts records. If a tilde (~) is entered in this
 field, all existing specifications will be deleted.  
   
-**Notes** Enter any notes applicable to the part number. Please note that the entries in this field will over-write the existing notes entered in [ PARTS.E ](../../../ENG-ENTRY/PARTS-E) .   
+**Notes** Enter any notes applicable to the part number. Please note that the entries in this field will over-write the existing notes entered in [ PARTS.E ](../../../ENG-ENTRY/PARTS-E/README.md) .   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

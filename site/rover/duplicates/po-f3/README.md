@@ -12,14 +12,14 @@ The purchase order form includes information about all of the receipts which
 have processed against it. Therefore, reprints run at a later date may not
 look exactly like previous copies.  
   
-You may designate that the user be given the option of outputing the sales order form to print, email, fax etc. through the [ PO.CONTROL ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-2/PO-CONTROL) procedure. You may also specify footer text that will cause one copy for each footer specified to be printed. 
+You may designate that the user be given the option of outputing the sales order form to print, email, fax etc. through the [ PO.CONTROL ](../PO-CONTROL/README.md) procedure. You may also specify footer text that will cause one copy for each footer specified to be printed. 
 
 **Frequency of Use**  
 Purchase order forms may be printed as required and may be also be reprinted
 at any time.
 
 **Prerequisites**  
-The path to the PDF file to be used as the form background must be specified in the [ FORM.CONTROL ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/AP-CONTROL-2/FORM-CONTROL) procedure. 
+The path to the PDF file to be used as the form background must be specified in the [ FORM.CONTROL ](../../ACE-OVERVIEW/ACE-ENTRY/FORM-CONTROL/README.md) procedure. 
 
 **Data Fields**
 

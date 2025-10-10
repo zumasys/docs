@@ -25,7 +25,7 @@ None.
 **Receipt Number** A sequential number assigned from the RMA record to
 identify the receipt. The full receipt ID is made up of the RMA Number
 followed by a dash (-), followed by a sequential number.  
-**Receipt Date** The date the receipt was made as entered in the [ RMAREC.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMA-E/RMA-E-1/RMAREC-E2/RMAREC-E) or [ RMAREC.E2 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMA-E/RMA-E-1/RMAREC-E2) procedure.   
+**Receipt Date** The date the receipt was made as entered in the [ RMAREC.E ](../../MRK-ENTRY/RMAREC-E/README.md) or [ RMAREC.E2 ](../../MRK-ENTRY/RMAREC-E2/README.md) procedure.   
 **Customer No** The number of the customer on the RMA.  
 **Customer Name** The name of the RMA customer.  
 **Contact** The name of the contact as entered on the RMA.  

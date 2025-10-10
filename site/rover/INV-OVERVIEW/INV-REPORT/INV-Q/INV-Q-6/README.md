@@ -18,7 +18,7 @@ year period.
 this chart to display it in its own window where it can be resized for better
 viewing if required.  
   
-**Chart Months** The field controls the number of months that are displayed in the usage chart. The number of months initially loaded into this field for you is 12 unless there have been fewer than 12 months of usage for the part. Please note that the the total number of months the system will track usage on for any part is defined in [ INV.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) . Therefore, a number should not be entered that is greater than the number entered in [ INV.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) .   
+**Chart Months** The field controls the number of months that are displayed in the usage chart. The number of months initially loaded into this field for you is 12 unless there have been fewer than 12 months of usage for the part. Please note that the the total number of months the system will track usage on for any part is defined in [ INV.CONTROL ](../../../INV-ENTRY/INV-CONTROL/README.md) . Therefore, a number should not be entered that is greater than the number entered in [ INV.CONTROL ](../../../INV-ENTRY/INV-CONTROL/README.md) .   
   
 **Apply** Click this button to apply the chart months specified.  
   

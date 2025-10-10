@@ -15,7 +15,7 @@ disposition. This information is used to generate reports on NCMR records.
 As required.
 
 **Prerequisites**  
-Initialization of the noncoforming material control record ( [ NCMR.CONTROL ](../../../../rover/PRO-OVERVIEW/PRO-ENTRY/NCMR-CONTROL) ). 
+Initialization of the noncoforming material control record ( [ NCMR.CONTROL ](../../../../rover/PRO-OVERVIEW/PRO-ENTRY/NCMR-CONTROL/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

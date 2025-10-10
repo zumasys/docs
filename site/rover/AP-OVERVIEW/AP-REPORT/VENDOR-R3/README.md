@@ -16,7 +16,7 @@ more months of statistics to report on.
 As required.
 
 **Prerequisites**  
-The [ VENDOR.P2 ](../../../../../../../../../rover/AP-OVERVIEW/AP-REPORT/VENDOR-Q/VENDOR-Q-9/DMR-CONTROL/DMR-CONTROL-1/VENDOR-P2) procedure must have been run to summarize the vendor statistics for the period(s) on which you want to report. 
+The [ VENDOR.P2 ](../../AP-PROCESS/VENDOR-P2/README.md) procedure must have been run to summarize the vendor statistics for the period(s) on which you want to report. 
 
 **Data Fields**
 
@@ -38,7 +38,7 @@ type.
 applying the factor (Reject% x Factor%).  
 **Quality Rating** 100% minus the total of the weighted scores.  
 **Delivery Perfor**  
-**Work Days from Due Date** Each period range as defined in the [ PO.CONTROL ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-2/PO-CONTROL) procedure. For example, "5 days early to 0 days late".   
+**Work Days from Due Date** Each period range as defined in the [ PO.CONTROL ](../../../duplicates/PO-CONTROL/README.md) procedure. For example, "5 days early to 0 days late".   
 **Receipts** The number of receipts made during the rating period that fall
 within the associated "Work Days from Due Date".  
 **Factor%** The weighting factor applied to receipts made in the associated
@@ -46,8 +46,8 @@ within the associated "Work Days from Due Date".
 **Value** The number of receipts multiplied by the factor.  
 **Delivery Rating** The sum of the factored values.  
 **Overall Perform**  
-**Quality Rating** The Quality Rating multiplied by the Quality weighting as defined in the [ VENDOR.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E) procedure.   
-**Delivery Rating** The Delivery Rating multiplied by the Delivery weighting as defined in the [ VENDOR.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E) procedure.   
+**Quality Rating** The Quality Rating multiplied by the Quality weighting as defined in the [ VENDOR.E ](../../AP-ENTRY/VENDOR-E/README.md) procedure.   
+**Delivery Rating** The Delivery Rating multiplied by the Delivery weighting as defined in the [ VENDOR.E ](../../AP-ENTRY/VENDOR-E/README.md) procedure.   
 **Overall Rating** The sum of the weighted quality and delivery ratings.  
   
 <badge text= "Version 8.10.57" vertical="middle" />

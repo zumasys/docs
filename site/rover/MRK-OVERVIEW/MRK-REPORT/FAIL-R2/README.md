@@ -6,7 +6,7 @@
 [ Form Details ](FAIL-R2-1/README.md)   
 
 **Purpose**  
-The FAIL.R2 procedure provides a listing of the failures reported for returned products broken down by the failure codes defined in the [ FAIL.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/FAIL-CONTROL) procedure. The product groups which may be listed are defined in the [ MTBF.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/MTBF-CONTROL) procedure. You may elect to list a single product group or a combination of all groups.   
+The FAIL.R2 procedure provides a listing of the failures reported for returned products broken down by the failure codes defined in the [ FAIL.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/FAIL-CONTROL/README.md) procedure. The product groups which may be listed are defined in the [ MTBF.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/MTBF-CONTROL/README.md) procedure. You may elect to list a single product group or a combination of all groups.   
   
 The report will list the number of failures reported for any given failure
 code as well as the percentage it represents of all other failures. If you
@@ -20,11 +20,11 @@ codes for a single return.
 As required.
 
 **Prerequisites**  
-The product groups in the [ MTBF.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/MTBF-CONTROL) procedure must be defined, and the failure codes must be defined in the [ FAIL.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/FAIL-CONTROL) procedure. [ FAIL.R1 ](../../../../rover/MRK-OVERVIEW/MRK-REPORT/FAIL-R1) must have been run to summarize the failure statistics from RMA reocrds. 
+The product groups in the [ MTBF.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/MTBF-CONTROL/README.md) procedure must be defined, and the failure codes must be defined in the [ FAIL.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/FAIL-CONTROL/README.md) procedure. [ FAIL.R1 ](../../../../rover/MRK-OVERVIEW/MRK-REPORT/FAIL-R1/README.md) must have been run to summarize the failure statistics from RMA reocrds. 
 
 **Data Fields**
 
-**Fail Code** The failure code as defined in [ FAIL.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/FAIL-CONTROL) .   
+**Fail Code** The failure code as defined in [ FAIL.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/FAIL-CONTROL/README.md) .   
 **Description** The description of the associated failure code.  
 **Quantity Failed** The number of units which were assigned with the failure
 code.  

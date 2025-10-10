@@ -6,9 +6,9 @@
 [ Form Details ](CHECKS-F4-1/README.md)   
 
 **Purpose**  
-The [ CHECKS.F3 ](../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F3) procedure is used to print commission checks on pre-printed laser check forms. All records in the Precomm file for a selected check run are selected for printing. After entering the check run number, the starting check number is entered. The number to enter is the first check loaded in the printer.   
+The [ CHECKS.F3 ](../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F3/README.md) procedure is used to print commission checks on pre-printed laser check forms. All records in the Precomm file for a selected check run are selected for printing. After entering the check run number, the starting check number is entered. The number to enter is the first check loaded in the printer.   
   
-Should it become necessary to re-print checks for a check run, due to a printer jam or the incorrect entry of the check number, reload the checks into the printer and enter the new starting check number. All previously printed checks must be voided in the [ CHECKS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) procedure. The actual Checks and COMM files are not updated until the [ CHECKS.P3 ](CHECKS-P3/README.md) posting process. 
+Should it become necessary to re-print checks for a check run, due to a printer jam or the incorrect entry of the check number, reload the checks into the printer and enter the new starting check number. All previously printed checks must be voided in the [ CHECKS.E ](../../AP-ENTRY/CHECKS-E/README.md) procedure. The actual Checks and COMM files are not updated until the [ CHECKS.P3 ](CHECKS-P3/README.md) posting process. 
 
 **Frequency of Use**  
 As required.

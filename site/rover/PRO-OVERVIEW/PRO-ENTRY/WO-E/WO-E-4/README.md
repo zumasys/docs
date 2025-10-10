@@ -120,9 +120,9 @@ overhead less completion variance.
   
 **Net Balance** The net dollar balance currently present in the work order.  
   
-**Other Cost Amt** The total of "other amounts" applied to the work order at finalization time as defined in [ COST.E ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E) .   
+**Other Cost Amt** The total of "other amounts" applied to the work order at finalization time as defined in [ COST.E ](../../../../ENG-OVERVIEW/ENG-ENTRY/COST-E/README.md) .   
   
-**Other Amount** The total of "other amounts" applied to the work order at finalization time as defined in [ COST.E ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E) .   
+**Other Amount** The total of "other amounts" applied to the work order at finalization time as defined in [ COST.E ](../../../../ENG-OVERVIEW/ENG-ENTRY/COST-E/README.md) .   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

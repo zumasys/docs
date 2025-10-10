@@ -27,7 +27,7 @@ according to the ratios and quantities entered.
 As required.
 
 **Prerequisites**  
-Entry of valid inventory locations ( [ INVLOC.E ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/INVLOC-E) ) and assignment of the conversion adjustment location in [ INV.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) . 
+Entry of valid inventory locations ( [ INVLOC.E ](../INVLOC-E/README.md) ) and assignment of the conversion adjustment location in [ INV.CONTROL ](../INV-CONTROL/README.md) . 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

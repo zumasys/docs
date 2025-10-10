@@ -60,7 +60,7 @@ header, then the foreign price will be displayed here. The foreign price can
 also be entered or changed here, and the price will be recalculated based on
 the exchange rate.  
   
-**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) . The cost group is used to define the costing method for this AR item when SALES and COMM records are created.   
+**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../INV-OVERVIEW/INV-ENTRY/INV-CONTROL/README.md) . The cost group is used to define the costing method for this AR item when SALES and COMM records are created.   
   
 **Project Id** If this AR line item is for a project, enter the project
 number. This will cause the revenue associated with this AR line item to be

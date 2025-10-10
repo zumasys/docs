@@ -24,7 +24,7 @@ information will be loaded for you.
 number entered. The name displayed is for information only and may not be
 changed.  
   
-**Function Description** Displays the description from the [ LABOR.CONTROL ](../../../../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/LABOR-CONTROL) record for the labor function entered.   
+**Function Description** Displays the description from the [ LABOR.CONTROL ](../../LABOR-CONTROL/README.md) record for the labor function entered.   
   
 **Work Center** Displays the work center associated with the operation to be
 charged with the time.  

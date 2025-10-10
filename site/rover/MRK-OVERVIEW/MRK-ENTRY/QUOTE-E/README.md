@@ -27,7 +27,7 @@ material and routings, if desired, when the quote is approved and filed.
 As required.
 
 **Prerequisites**  
-Initialization of the marketing control record ( [ MRK.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) ) and the entry of the rep records to be referenced. When the quote is "author- ized", the component material must be present in the Parts file. Similarily, the routing steps must be identified in the Routing file. 
+Initialization of the marketing control record ( [ MRK.CONTROL ](../MRK-CONTROL/README.md) ) and the entry of the rep records to be referenced. When the quote is "author- ized", the component material must be present in the Parts file. Similarily, the routing steps must be identified in the Routing file. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

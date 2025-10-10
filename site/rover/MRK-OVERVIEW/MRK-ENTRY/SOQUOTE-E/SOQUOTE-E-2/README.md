@@ -13,7 +13,7 @@ automatically assigned if the prior line item is numeric.
   
 **Cost** This field contains the cost of the item.  
   
-**Price Per** Enter the price per factor to be used in conjunction with the unit price. For example, if the material being ordered is priced "per hundred", then 100 should be entered into this field. If this line item has a part number, the price per will default based on the part's unit of measure. The price per is entered for the unit of measure in the [ UM.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-1/UM-CONTROL) procedure.   
+**Price Per** Enter the price per factor to be used in conjunction with the unit price. For example, if the material being ordered is priced "per hundred", then 100 should be entered into this field. If this line item has a part number, the price per will default based on the part's unit of measure. The price per is entered for the unit of measure in the [ UM.CONTROL ](../../../../ENG-OVERVIEW/ENG-ENTRY/UM-CONTROL/README.md) procedure.   
   
 **Discount Percent** Enter the percentage discount to be applied to this line
 item.  

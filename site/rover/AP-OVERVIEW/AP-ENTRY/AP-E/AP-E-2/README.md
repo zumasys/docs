@@ -69,7 +69,7 @@ based on the exchange rate.
   
 **Amount** Enter the amount.  
   
-**Expense Acct** Enter the expense account number to which the associated amount will be distributed. For items received via a purchase order, this account number is loaded from the PO. For new AP items, if the vendor has a specific account number entered on the [ VENDOR.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E) screen, that number is defaulted.   
+**Expense Acct** Enter the expense account number to which the associated amount will be distributed. For items received via a purchase order, this account number is loaded from the PO. For new AP items, if the vendor has a specific account number entered on the [ VENDOR.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E/README.md) screen, that number is defaulted.   
   
 **Acct Description** This field contains the account description and is for
 reference only.  

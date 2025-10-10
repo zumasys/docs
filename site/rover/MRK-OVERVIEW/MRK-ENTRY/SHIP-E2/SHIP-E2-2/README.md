@@ -16,7 +16,7 @@ to the shipper that is not on the sales order. When the record is saved, this
 line item will be added to the sales order. The actual line item number will
 not be assigned until the record is saved.  
   
-**Close So Li** Check this box if you wish to close the line item on the sales order short. If this box is checked when the record is saved, the open quantity on the sales order will be reduced to match the quantity shipped. If this box is checked and no quantity is scheduled to ship against this shipper, the open quantity on the sales order will be cancelled. If you decide to ship the part number in the future against this sales order, you will need to use [ SO.E ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) to re-open the order. If you check this box on a new line item, the program will uncheck the box.   
+**Close So Li** Check this box if you wish to close the line item on the sales order short. If this box is checked when the record is saved, the open quantity on the sales order will be reduced to match the quantity shipped. If this box is checked and no quantity is scheduled to ship against this shipper, the open quantity on the sales order will be cancelled. If you decide to ship the part number in the future against this sales order, you will need to use [ SO.E ](../../SO-E/README.md) to re-open the order. If you check this box on a new line item, the program will uncheck the box.   
   
 **Part Number** Contains the part number to be shipped, and is loaded from the
 sales order for the sales order line number entrered. The part number is shown
@@ -45,9 +45,9 @@ as required.
 number is being pulled for shipment. If the line item does not contain a part
 number then no entry is required.  
   
-**Cost/Goods Loc** Enter the cost of goods location to be used for the line item. This location is defaulted from the [ MRK.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) record.   
+**Cost/Goods Loc** Enter the cost of goods location to be used for the line item. This location is defaulted from the [ MRK.CONTROL ](../../MRK-CONTROL/README.md) record.   
   
-**Sales Account#** Enter the general ledger account number to be used as the sales account for the line item. The account number is defaulted from the [ MRK.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) record.   
+**Sales Account#** Enter the general ledger account number to be used as the sales account for the line item. The account number is defaulted from the [ MRK.CONTROL ](../../MRK-CONTROL/README.md) record.   
   
 **Taxable** Check this box if the items on this line are taxable. This is
 initially defaulted from the sales order line item.  

@@ -23,13 +23,13 @@ checks are actually posted.
 Any AP items which are selected for payment are flagged so they will not be
 processed again.  
   
-If you need to make changes to an existing check run, you can do so via the [ PRECHECKS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/PRECHECKS-E) procedure. This procedure is found in the data entry section of the Accounts Payable Module. You can, also, cancel a check run via [ PRECHECKS.P1 ](PRECHECKS-P1/README.md) which is found the processes section of the Accounts Payable Module. AP.P1 cannot be used to edit or cancel a check run. 
+If you need to make changes to an existing check run, you can do so via the [ PRECHECKS.E ](../../AP-ENTRY/PRECHECKS-E/README.md) procedure. This procedure is found in the data entry section of the Accounts Payable Module. You can, also, cancel a check run via [ PRECHECKS.P1 ](PRECHECKS-P1/README.md) which is found the processes section of the Accounts Payable Module. AP.P1 cannot be used to edit or cancel a check run. 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-Setup of the [ AP.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) record ( [ AP.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) ) and the establishment of dates and amounts to pay in the AP records. It is highly recommended that the [ AP.R5 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/AP-R5) report be run to give visibility to the AP items which would be selected by this AP.P1 process when the cutoff date is used. 
+Setup of the [ AP.CONTROL ](../../AP-ENTRY/AP-CONTROL/README.md) record ( [ AP.CONTROL ](../../AP-ENTRY/AP-CONTROL/README.md) ) and the establishment of dates and amounts to pay in the AP records. It is highly recommended that the [ AP.R5 ](../../AP-REPORT/AP-R5/README.md) report be run to give visibility to the AP items which would be selected by this AP.P1 process when the cutoff date is used. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

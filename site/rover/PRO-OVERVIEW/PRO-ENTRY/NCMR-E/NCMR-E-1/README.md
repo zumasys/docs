@@ -12,7 +12,7 @@ this field blank to assign the next sequential number when saved.
 **Type Code** Enter the type code assigned to this NCMR. The list of type
 codes can be assigned in NCMR.E.  
   
-**Status** Select the status code for this NCMR record. These codes are defined in the [ NCMR.CONTROL ](../../../../../rover/PRO-OVERVIEW/PRO-ENTRY/NCMR-CONTROL) screen.   
+**Status** Select the status code for this NCMR record. These codes are defined in the [ NCMR.CONTROL ](../../../../../rover/PRO-OVERVIEW/PRO-ENTRY/NCMR-CONTROL/README.md) screen.   
   
 **Close date** This field contains the date on whcih this record was closed.  
   
@@ -70,9 +70,9 @@ found in the Parts file. It cannot be changed.
   
 **Reject qty** Enter the quantity that were rejected.  
   
-**Discrepancy code** Select the appropriate discrepancy code from the list. This list is updated in [ NCMR.CONTROL ](../../../../../rover/PRO-OVERVIEW/PRO-ENTRY/NCMR-CONTROL) .   
+**Discrepancy code** Select the appropriate discrepancy code from the list. This list is updated in [ NCMR.CONTROL ](../../../../../rover/PRO-OVERVIEW/PRO-ENTRY/NCMR-CONTROL/README.md) .   
   
-**Discrepancy desc** This field contains the discrepancy description, as found in [ NCMR.CONTROL ](../../../../../rover/PRO-OVERVIEW/PRO-ENTRY/NCMR-CONTROL) and cannot be changed here.   
+**Discrepancy desc** This field contains the discrepancy description, as found in [ NCMR.CONTROL ](../../../../../rover/PRO-OVERVIEW/PRO-ENTRY/NCMR-CONTROL/README.md) and cannot be changed here.   
   
 **Discrepancy Loc** Select the location where the discrepancy was located.  
   
@@ -87,15 +87,15 @@ the evaluation.
   
 **Corrective action notes** Enter any pertinent corrective action notes.  
   
-**Disposition** Select the apprpriate disposition code. This list is defined in [ NCMR.CONTROL ](../../../../../rover/PRO-OVERVIEW/PRO-ENTRY/NCMR-CONTROL) .   
+**Disposition** Select the apprpriate disposition code. This list is defined in [ NCMR.CONTROL ](../../../../../rover/PRO-OVERVIEW/PRO-ENTRY/NCMR-CONTROL/README.md) .   
   
 **Disp Notes** Enter any pertinent disposition notes.  
   
-**Approved By** Enter your name when this NCMR has been approved. Your user login ID must match one on file in [ NCMR.CONTROL ](../../../../../rover/PRO-OVERVIEW/PRO-ENTRY/NCMR-CONTROL) for this field to be allowed.   
+**Approved By** Enter your name when this NCMR has been approved. Your user login ID must match one on file in [ NCMR.CONTROL ](../../../../../rover/PRO-OVERVIEW/PRO-ENTRY/NCMR-CONTROL/README.md) for this field to be allowed.   
   
 **Approved date** This field contains the date which this record was approved.  
   
-**Create DMR** If this option is selected, [ DMR.E ](../../../../../rover/AP-OVERVIEW/AP-REPORT/VENDOR-Q/VENDOR-Q-9/DMR-CONTROL/DMR-CONTROL-1/DMR-E) will be opened and will be populated with the data entered on this screen.   
+**Create DMR** If this option is selected, [ DMR.E ](../../../../PUR-OVERVIEW/PUR-ENTRY/DMR-E/README.md) will be opened and will be populated with the data entered on this screen.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

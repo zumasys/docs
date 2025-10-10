@@ -37,7 +37,7 @@ destination and may not be available in all cases.
 function which may also be activated by clicking the save button in the tool
 bar or pressing the F9 key or Ctrl+S.  
   
-**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) . The cost group is used to define the costing method and to group inventory locations together for averaging the cost within those locations.   
+**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../INV-OVERVIEW/INV-ENTRY/INV-CONTROL/README.md) . The cost group is used to define the costing method and to group inventory locations together for averaging the cost within those locations.   
   
 **Current or Standard Cost** You have the option of rolling up either the
 current costs or the standard (book) costs. In the normal flow of operations
@@ -47,7 +47,7 @@ standard cost fields is generally done only when a new item is added to the
 product line and production on the item is to begin prior to the next formal
 cost rollover.  
   
-**Plan Group** Enter the planning group that should be used in this process. This procedures uses the routing and make/buy code entered in [ PARTS.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) to calculate the labor and material that should be applied to this part. These fields are defined by planning group in [ PARTS.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) . Therefore, if more than one planning group has been set-up for this account, the program needs to know which planning group should be used in this procedure. If no entry has been made into this field, COST.P1 will use the data associated to the first planning group entered into [ PARTS.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) .   
+**Plan Group** Enter the planning group that should be used in this process. This procedures uses the routing and make/buy code entered in [ PARTS.E ](../../../ENG-ENTRY/PARTS-E/README.md) to calculate the labor and material that should be applied to this part. These fields are defined by planning group in [ PARTS.E ](../../../ENG-ENTRY/PARTS-E/README.md) . Therefore, if more than one planning group has been set-up for this account, the program needs to know which planning group should be used in this procedure. If no entry has been made into this field, COST.P1 will use the data associated to the first planning group entered into [ PARTS.E ](../../../ENG-ENTRY/PARTS-E/README.md) .   
   
 **Effective Date** Enter the date to be used for the bill of material
 effectivity date. Bill of material line items will be included or excluded
@@ -76,7 +76,7 @@ program.
   
 **Last Status Time** The time at which the last status message was generated.  
   
-**Use Manual Labor Entries** Check this box if you wish to include the labor amount entered in [ COST.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E) in the rollup. Please note, that this option will only apply if a routing is not found for the part. If a routing is found, the labor amount will be based on the routing and the manual entry made in [ COST.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E) will be replaced with the calculated amount. Also, if this box is not checked and no routing is found for the part, the labor amount entered in [ COST.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E) will be deleted and the labor will not be included in the rollup.   
+**Use Manual Labor Entries** Check this box if you wish to include the labor amount entered in [ COST.E ](../../../ENG-ENTRY/COST-E/README.md) in the rollup. Please note, that this option will only apply if a routing is not found for the part. If a routing is found, the labor amount will be based on the routing and the manual entry made in [ COST.E ](../../../ENG-ENTRY/COST-E/README.md) will be replaced with the calculated amount. Also, if this box is not checked and no routing is found for the part, the labor amount entered in [ COST.E ](../../../ENG-ENTRY/COST-E/README.md) will be deleted and the labor will not be included in the rollup.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

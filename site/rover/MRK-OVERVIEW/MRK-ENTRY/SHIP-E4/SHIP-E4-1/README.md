@@ -20,7 +20,7 @@ N - The items have not been shipped.
 S - The items have been shipped.  
 P - The shipment has been posted and the accounts receivable record has been
 created.  
-If the status code is not already set to "P" then the user may enter the code "N" for new, or "S" for shipped. The "N" status sets the shipment as a new shipment just as the [ SHIP.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E) procedure does, and does not create any inventory transactions. The "S" status will confirm the shipment by creating inventory transactions, and will be posted the next time the procedure [ SHIP.P1 ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/comm-e/SHIP-P1) is run. Once the status has been set to "S" and the record has been filed, you may not reset the status to "N".   
+If the status code is not already set to "P" then the user may enter the code "N" for new, or "S" for shipped. The "N" status sets the shipment as a new shipment just as the [ SHIP.E ](../../SHIP-E/README.md) procedure does, and does not create any inventory transactions. The "S" status will confirm the shipment by creating inventory transactions, and will be posted the next time the procedure [ SHIP.P1 ](../../../MRK-PROCESS/SHIP-P1/README.md) is run. Once the status has been set to "S" and the record has been filed, you may not reset the status to "N".   
   
 **Approve Date** This field contains the date on which accounting approved
 this shipment.  
@@ -44,14 +44,14 @@ desired.
 **Waybill#** Enter the number of the waybill which will accompany the
 shipment.  
   
-**Route#** The shipment route that this shipment will be delivered on as defined by [ ROUTESHIP.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/ROUTE-E/ROUTESHIP-E) . It is displayed here for information only.   
+**Route#** The shipment route that this shipment will be delivered on as defined by [ ROUTESHIP.E ](../../ROUTESHIP-E/README.md) . It is displayed here for information only.   
   
-**Load Date** The route's load date for this shipment as defined by [ ROUTESHIP.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/ROUTE-E/ROUTESHIP-E) . It is displayed here for information only.   
+**Load Date** The route's load date for this shipment as defined by [ ROUTESHIP.E ](../../ROUTESHIP-E/README.md) . It is displayed here for information only.   
   
 **Notes** Enter any notes which pertain to the entire shipment. These notes
 will print on the shipment form.  
   
-**Ship Seq No** Contains the shipping sequence number define in [ cust.e ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-2/CASH-E4/CASH-E4-1/cust-e) . If present this number will default in for you from [ so.e ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2/SHIP-E2-1/so-e) but can be changed as required. There is a right click option to display all shipping addresses available for this customer.   
+**Ship Seq No** Contains the shipping sequence number define in [ cust.e ](../../../../duplicates/cust-e/README.md) . If present this number will default in for you from [ so.e ](../../../../duplicates/so-e/README.md) but can be changed as required. There is a right click option to display all shipping addresses available for this customer.   
   
 **Ship Name** Enter the name of the company the shipment will be sent to.  
   
@@ -106,7 +106,7 @@ customer by the carrier.
 **Freight Amount** Enter the dollar amount of any freight charges to be billed
 to the customer for the shipment.  
   
-**Freight Account#** If a freight amount is entered the general ledger account number associated with it should be entered in this field. The account number is defaulted initially from the [ MRK.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) record.   
+**Freight Account#** If a freight amount is entered the general ledger account number associated with it should be entered in this field. The account number is defaulted initially from the [ MRK.CONTROL ](../../MRK-CONTROL/README.md) record.   
   
 **Status** The status field contains the current status of the shipment
 record. It will display one of the following designations.  

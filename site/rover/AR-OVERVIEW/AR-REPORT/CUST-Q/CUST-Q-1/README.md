@@ -104,11 +104,11 @@ and commission defaults.
 **Refresh** Click this button to display the most current information for the
 customer currently being displayed.  
   
-**Notes** Notes regarding the customer which are loaded into all new sales order records. It may be updated in [ CUST.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) .   
+**Notes** Notes regarding the customer which are loaded into all new sales order records. It may be updated in [ CUST.E ](../../../AR-ENTRY/CUST-E/README.md) .   
   
-**Highest AR Bal** This is the highest AR balance for the time period specified in [ ACCT.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL) .   
+**Highest AR Bal** This is the highest AR balance for the time period specified in [ ACCT.CONTROL ](../../../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) .   
   
-**Avg AR Balance** This is the average AR daily balance for the time period specified in [ ACCT.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL) , excluding zero balances.   
+**Avg AR Balance** This is the average AR daily balance for the time period specified in [ ACCT.CONTROL ](../../../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) , excluding zero balances.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

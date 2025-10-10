@@ -51,7 +51,7 @@ included.
 **Categories** Enter all of the part categories to be included in the listing.
 If you leave this field blank then all categories will be included.  
   
-**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) and used to determine the cost method for calculating inventory cost on this report. Leave this field empty to use the cost group assigned to the inventory location(s). This would apply only if you have multiple cost groups.   
+**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../INV-ENTRY/INV-CONTROL/README.md) and used to determine the cost method for calculating inventory cost on this report. Leave this field empty to use the cost group assigned to the inventory location(s). This would apply only if you have multiple cost groups.   
   
 **Plan Group** Enter the planning group which you wish to use for this report.
 This field will control the MRP quantities and the available inventory

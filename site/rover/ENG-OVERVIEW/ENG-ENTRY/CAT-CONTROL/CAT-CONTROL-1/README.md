@@ -13,7 +13,7 @@ for this procedure.
   
 **Description** Enter the description of the corresponding category code.  
   
-**POS Discount%** Enter the discount that is to be allowed on all part numbers with the associated category code. This percentage will be defaulted automatically when the item is entered on an order. Note: This only applies to point of sales ( [ PSO.E ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-2/PSO-E) ).   
+**POS Discount%** Enter the discount that is to be allowed on all part numbers with the associated category code. This percentage will be defaulted automatically when the item is entered on an order. Note: This only applies to point of sales ( [ PSO.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/PSO-E/README.md) ).   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

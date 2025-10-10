@@ -19,7 +19,7 @@ which it is used. Only end item assembly numbers will be listed.
 As required.
 
 **Prerequisites**  
-Building the Where Used file ( [ WU.P1 ](../../../../rover/ENG-OVERVIEW/ENG-PROCESS/WU-P1) ). 
+Building the Where Used file ( [ WU.P1 ](../../../../rover/ENG-OVERVIEW/ENG-PROCESS/WU-P1/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

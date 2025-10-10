@@ -25,7 +25,7 @@ but stocked eggs as individual units, you would enter 12 into this field.
 **Picklist Labels** Check this box if the part is to have labels printed when
 it appears on a work order picklist.  
   
-**Create WO** If you wish to have the sales order entry process ( [ SO.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) ) create work orders automatically for this part, check this box. You must also make sure the [ MRK.CONTROL ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) flag which controls the work order creation option is set to "P".   
+**Create WO** If you wish to have the sales order entry process ( [ SO.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/SO-E/README.md) ) create work orders automatically for this part, check this box. You must also make sure the [ MRK.CONTROL ](../../../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/README.md) flag which controls the work order creation option is set to "P".   
   
 **Bom U/M** This is the bill of material unit of measure which will be displayed in [ BOM.E ](BOM-E/README.md) . The quantity entered for this part in [ BOM.E ](BOM-E/README.md) will be in the BOM U/M.   
   
@@ -74,7 +74,7 @@ placing purchase orders for the part number.
 **Planner** Enter the code used to define the planner who is responsible for
 planning the part number.  
   
-**Routing ID** If the parts record defines an assembly then enter the ID of the routing which is used when the item is produced. If no routing is entered the system will use the default routing in the [ WO.CONTROL ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL) record when a work order is created.   
+**Routing ID** If the parts record defines an assembly then enter the ID of the routing which is used when the item is produced. If no routing is entered the system will use the default routing in the [ WO.CONTROL ](../../../../PRO-OVERVIEW/PRO-ENTRY/WO-CONTROL/README.md) record when a work order is created.   
   
 **Invloc** Enter the home location for this part. This location will be used
 as a default in the picker.  
@@ -82,7 +82,7 @@ as a default in the picker.
 **WIP.Loc** Enter the work in process location normally used to create this
 part. This field will be defaulted into the work order.  
   
-**RI.Loc** Enter the inventory location to be used as the receiving location. If this location is different than the inventory location, this field will be defaulted into [ PO.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E) line items as the inspection location. If this field is left empty, the home inventory location will be used.   
+**RI.Loc** Enter the inventory location to be used as the receiving location. If this location is different than the inventory location, this field will be defaulted into [ PO.E ](../../../../PUR-OVERVIEW/PUR-ENTRY/PO-E/README.md) line items as the inspection location. If this field is left empty, the home inventory location will be used.   
   
 **Stock Loc** Enter the default stockroom location for which materials will be
 pulled when a work order is created for this part.  

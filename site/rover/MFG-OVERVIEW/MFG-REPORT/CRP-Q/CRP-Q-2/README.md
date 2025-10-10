@@ -59,7 +59,7 @@ requirement.
 **Detail Reference** Displays any reference information associated with the
 requirement such as a customer name associated with a work order.  
   
-**** Click this button to display view the details of the associated item. In the case of work orders this will invoke the work order entry procedure ( [ WO.E ](../../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-E) ). For master schedule items the [ MS.E ](MS-E/README.md) procedure will be invoked.   
+**** Click this button to display view the details of the associated item. In the case of work orders this will invoke the work order entry procedure ( [ WO.E ](../../../../PRO-OVERVIEW/PRO-ENTRY/WO-E/README.md) ). For master schedule items the [ MS.E ](MS-E/README.md) procedure will be invoked.   
   
 **Detail Chart** Displays a chart indicating the capacity required for each
 period compared with what is available.  

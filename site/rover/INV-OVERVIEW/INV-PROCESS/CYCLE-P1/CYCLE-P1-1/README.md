@@ -50,7 +50,7 @@ program.
   
 **Last Status Time** The time at which the last status message was generated.  
   
-**Location** If you only wish to create cycle tags for specific inventory locations, enter those inventory locations in this field. The location must be defined in [ INV.CONTROL ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) as a cycle count location.   
+**Location** If you only wish to create cycle tags for specific inventory locations, enter those inventory locations in this field. The location must be defined in [ INV.CONTROL ](../../../INV-ENTRY/INV-CONTROL/README.md) as a cycle count location.   
   
 **Bin Number** If you only wish to create cycle tags for certain bin
 numbers/locations, enter those bin numbers in this field. Please note that

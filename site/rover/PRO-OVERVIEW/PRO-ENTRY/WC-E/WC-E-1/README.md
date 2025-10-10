@@ -42,16 +42,16 @@ at this operation.
 which are normally applied to a single job. This is used as the default during
 routing entry.  
   
-**Indirect Function** Enter the function code to be used for recording any time that is not accounted for during the day. This must be an indirect function (e.g. one that is associated with an account number as defined in [ LABOR.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/LABOR-CONTROL) ). For example, if the employee had clocked in at 8:00 and clocked out at 17:00, but had only accounted for 6 hours (including breaks and lunch) using the [ EMPTIME.E1 ](EMPTIME-E1/README.md) and [ EMPTIME.E2 ](EMPTIME-E2/README.md) procedures, the system would post a labor entry for the remaining two hours using the indirect function specified in this field.   
+**Indirect Function** Enter the function code to be used for recording any time that is not accounted for during the day. This must be an indirect function (e.g. one that is associated with an account number as defined in [ LABOR.CONTROL ](../../LABOR-CONTROL/README.md) ). For example, if the employee had clocked in at 8:00 and clocked out at 17:00, but had only accounted for 6 hours (including breaks and lunch) using the [ EMPTIME.E1 ](EMPTIME-E1/README.md) and [ EMPTIME.E2 ](EMPTIME-E2/README.md) procedures, the system would post a labor entry for the remaining two hours using the indirect function specified in this field.   
   
-**Auto Restart** Enter the letter "Y" if employees associated with this work center are to be automatically logged back into the same job they were on, when they last clocked out. If this field is left blank, the default entry defined in [ LABOR.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/LABOR-CONTROL) will be used. If the restart field in the employee file ( [ EMP.E ](EMP-E/README.md) ) is set then it will take precedence over the entry in this field.   
+**Auto Restart** Enter the letter "Y" if employees associated with this work center are to be automatically logged back into the same job they were on, when they last clocked out. If this field is left blank, the default entry defined in [ LABOR.CONTROL ](../../LABOR-CONTROL/README.md) will be used. If the restart field in the employee file ( [ EMP.E ](EMP-E/README.md) ) is set then it will take precedence over the entry in this field.   
   
 **Standard Labor Rate** Enter the standard labor rate associated with the work
 center. This rate is used in the cost rollup procedure when calculating labor
 costs for an assembly. The data in this field is what is used by the system
 during labor posting if no rate is found in the employee file.  
   
-**Labor Account** Enter the general ledger account number to be used when labor is posted to a work order from this work center. If an account is entered here, it will be used for labor posting instead of the labor account specified in [ WO.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL) . If no account is entered, the labor account in [ WO.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL) is used. The offset account is defined by the WIP location for the work order.   
+**Labor Account** Enter the general ledger account number to be used when labor is posted to a work order from this work center. If an account is entered here, it will be used for labor posting instead of the labor account specified in [ WO.CONTROL ](../../WO-CONTROL/README.md) . If no account is entered, the labor account in [ WO.CONTROL ](../../WO-CONTROL/README.md) is used. The offset account is defined by the WIP location for the work order.   
   
 **Fixed Overhead Percent** Enter the percentage to be used for calculating
 fixed overhead for the work center. The standard labor rate is multiplied by
@@ -59,7 +59,7 @@ this percentage in the cost rollup procedure to obtain the fixed overhead
 amount for the assembly. This data is used as the fixed overhead percent
 during labor posting.  
   
-**FOH Account** Enter the general ledger account number to be used when fixed overhead is posted to a work order from this work center. If an account is entered here, it will be used instead of the fixed overhead account specified in [ WO.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL) . If no account is entered, the fixed overhead account in [ WO.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL) is used. The offset account is defined by the WIP location for the work order.   
+**FOH Account** Enter the general ledger account number to be used when fixed overhead is posted to a work order from this work center. If an account is entered here, it will be used instead of the fixed overhead account specified in [ WO.CONTROL ](../../WO-CONTROL/README.md) . If no account is entered, the fixed overhead account in [ WO.CONTROL ](../../WO-CONTROL/README.md) is used. The offset account is defined by the WIP location for the work order.   
   
 **Variable Overhead Percent** Enter the percentage to be used for calculating
 variable overhead for the work center. The standard labor rate is multiplied
@@ -67,7 +67,7 @@ by this percentage in the cost rollup procedure to obtain the variable
 overhead amount for the assembly. This is the data used to calculate the
 variable overhead amount during labor posting.  
   
-**VOH Account** Enter the general ledger account number to be used when variable overhead is posted to a work order from this work center. If an account is entered here, it will be used instead of the variable overhead account specified in [ WO.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL) . If no account is entered, the variable overhead account in [ WO.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL) is used. The offset account is defined by the WIP location for the work order.   
+**VOH Account** Enter the general ledger account number to be used when variable overhead is posted to a work order from this work center. If an account is entered here, it will be used instead of the variable overhead account specified in [ WO.CONTROL ](../../WO-CONTROL/README.md) . If no account is entered, the variable overhead account in [ WO.CONTROL ](../../WO-CONTROL/README.md) is used. The offset account is defined by the WIP location for the work order.   
   
 **Current Labor Rate** Enter the current labor rate associated with the work
 center. This rate is used in the cost rollup procedure when calculating labor
@@ -96,9 +96,9 @@ if any. The hours should represent the net total for all shifts and all
 employees in a 24-hours period with breaks deducted. Note: Crew Size does not
 affect this figure in Capacity Requirements Planning (i.e. CRP).  
   
-**Shift Start** Enter the start times for each shift in the work center. These times are used by the time tracking system to determine if employees have clocked in on time. If there is a start time entry in the employee file, it will be used instead of this entry. If the entry in the employee file is blank and this field is also blank, the default entries defined in [ LABOR.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/LABOR-CONTROL) are used.   
+**Shift Start** Enter the start times for each shift in the work center. These times are used by the time tracking system to determine if employees have clocked in on time. If there is a start time entry in the employee file, it will be used instead of this entry. If the entry in the employee file is blank and this field is also blank, the default entries defined in [ LABOR.CONTROL ](../../LABOR-CONTROL/README.md) are used.   
   
-**Shift End** Enter the end times for each shift in the work center. These times are used by the time tracking system to determine if employees have clocked out on time. If there is a start time entry in the employee file, it will be used instead of this entry. If the entry in the employee file is blank and this field is also blank, the default entries defined in [ LABOR.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/LABOR-CONTROL) are used.   
+**Shift End** Enter the end times for each shift in the work center. These times are used by the time tracking system to determine if employees have clocked out on time. If there is a start time entry in the employee file, it will be used instead of this entry. If the entry in the employee file is blank and this field is also blank, the default entries defined in [ LABOR.CONTROL ](../../LABOR-CONTROL/README.md) are used.   
   
 **Break Start** Enter the start times for each break period. The dates must be
 entered in 24 hour format. For example, 8:00 A.M. would be entered as 8:00 and

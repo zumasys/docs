@@ -6,7 +6,7 @@
 [ Form Details ](PTAX-E-1/README.md)   
 
 **Purpose**  
-The PTAX.E procedure is used to define the various purchase tax codes which will be used in processing Purchase Orders and Accounts Payable transactions. Each record specifies a description of the code and a purchase tax percent. The accrual account associated with purchase sales tax is defined in [ AP.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) , as well as a default tax code. 
+The PTAX.E procedure is used to define the various purchase tax codes which will be used in processing Purchase Orders and Accounts Payable transactions. Each record specifies a description of the code and a purchase tax percent. The accrual account associated with purchase sales tax is defined in [ AP.CONTROL ](../../../AP-OVERVIEW/AP-ENTRY/AP-CONTROL/README.md) , as well as a default tax code. 
 
 **Frequency of Use**  
 Purchase Tax codes are usually defined when the system is being setup prior to

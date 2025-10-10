@@ -6,7 +6,7 @@
 [ Form Details ](PARTS-P5-1/README.md)   
 
 **Purpose**  
-This process loads [ SPEC.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-1/SPEC-CONTROL) with any specifications that are already defined in [ PARTS.E ](../../ENG-ENTRY/PARTS-E) . This is used most often when specifications already exist in parts records that may have been imported from another system. Running this process avoids the need to key these specifications in by hand. 
+This process loads [ SPEC.CONTROL ](../../ENG-ENTRY/SPEC-CONTROL/README.md) with any specifications that are already defined in [ PARTS.E ](../../ENG-ENTRY/PARTS-E/README.md) . This is used most often when specifications already exist in parts records that may have been imported from another system. Running this process avoids the need to key these specifications in by hand. 
 
 **Frequency of Use**  
 As required.

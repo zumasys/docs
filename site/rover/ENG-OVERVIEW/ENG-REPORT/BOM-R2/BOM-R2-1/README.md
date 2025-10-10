@@ -44,7 +44,7 @@ S - Standard Costs
 P - Previous Costs  
 If left blank then "S" is assumed.  
   
-**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) . The cost group is used to retrieve the correct unit cost from the COST records.   
+**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../INV-OVERVIEW/INV-ENTRY/INV-CONTROL/README.md) . The cost group is used to retrieve the correct unit cost from the COST records.   
   
 **Effective Date** Enter the date to use in determining which items on the
 bill of material are to be included based on their effectivity date.  

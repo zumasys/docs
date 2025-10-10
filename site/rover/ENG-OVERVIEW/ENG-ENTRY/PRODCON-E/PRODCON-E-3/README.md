@@ -22,13 +22,13 @@ automatically create work orders during the sales order process.
 **WO Labels** Check here if the configured items will be called out on other
 bills of material, and you want a picking label printed for them.  
   
-**Bom U/M** This is the bill of material unit of measure which will be displayed in [ BOM.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E) . The quantity entered for this part in [ BOM.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E) will be in the BOM U/M.   
+**Bom U/M** This is the bill of material unit of measure which will be displayed in [ BOM.E ](../../BOM-E/README.md) . The quantity entered for this part in [ BOM.E ](../../BOM-E/README.md) will be in the BOM U/M.   
   
-**Bom Um Factor** Enter the factor to be used in conjunction with the Bill of Material unit of measure to convert to stock units of measure in [ BOM.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E) . For example, if you were stocking this part in feet, but wanted to define the quantity to be used per next assembly in inches, then you would enter 12 in this field.   
+**Bom Um Factor** Enter the factor to be used in conjunction with the Bill of Material unit of measure to convert to stock units of measure in [ BOM.E ](../../BOM-E/README.md) . For example, if you were stocking this part in feet, but wanted to define the quantity to be used per next assembly in inches, then you would enter 12 in this field.   
   
-**Serial Rqd** Check here if a serial number must be designated when the part is sold through [ PSO.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-2/PSO-E) .   
+**Serial Rqd** Check here if a serial number must be designated when the part is sold through [ PSO.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/PSO-E/README.md) .   
   
-**No Cat Disc** Check here if this part should not receive its normal category discount found in [ CAT.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-2/CAT-CONTROL) when sales occur in [ PSO.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-2/PSO-E) .   
+**No Cat Disc** Check here if this part should not receive its normal category discount found in [ CAT.CONTROL ](../../CAT-CONTROL/README.md) when sales occur in [ PSO.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/PSO-E/README.md) .   
   
 **Taxable** Check here if the part is to be shown as taxable on a POS order.  
   
@@ -65,7 +65,7 @@ planning the product.
 **WIP Loc** Enter the work in process location normally used to create this
 part. This field will be defaulted into the work order.  
   
-**RI Loc** Enter the inventory location to be used as the receiving location. If this location is different than the inventory location, this field will be defaulted into [ PO.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E) line items as the inspection location. If this field is left empty, the home inventory location will be used.   
+**RI Loc** Enter the inventory location to be used as the receiving location. If this location is different than the inventory location, this field will be defaulted into [ PO.E ](../../../../PUR-OVERVIEW/PUR-ENTRY/PO-E/README.md) line items as the inspection location. If this field is left empty, the home inventory location will be used.   
   
 **Stock Loc** Enter the default stockroom location for which materials will be
 pulled when a work order is created for this part.  

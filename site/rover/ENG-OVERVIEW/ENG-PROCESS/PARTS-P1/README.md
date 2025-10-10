@@ -21,7 +21,7 @@ Normally, this is done when the system is first implemented and all parts have
 been entered. It may be run any time after that, as required.
 
 **Prerequisites**  
-Entry of Parts records ( [ PARTS.E ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) ), assignment of costs, and the entry of Inventory locations ( [ INVLOC.E ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/INVLOC-E) ). 
+Entry of Parts records ( [ PARTS.E ](../../ENG-ENTRY/PARTS-E/README.md) ), assignment of costs, and the entry of Inventory locations ( [ INVLOC.E ](../../../INV-OVERVIEW/INV-ENTRY/INVLOC-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

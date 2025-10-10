@@ -6,7 +6,7 @@
 
 ![](./CPRICE-E-1.jpg)
 
-**CONTRACT.ID** Enter the contract ID or leave blank to allow the system to assign the next sequential number for the contract ID. This contract ID can be associated to one or more customers using this procedure or via entry in [ CUST.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) . Then the contract pricing will be applied when a sales order is entered for the customer or when a price is calculated for a part number, such as in the configurator.   
+**CONTRACT.ID** Enter the contract ID or leave blank to allow the system to assign the next sequential number for the contract ID. This contract ID can be associated to one or more customers using this procedure or via entry in [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) . Then the contract pricing will be applied when a sales order is entered for the customer or when a price is calculated for a part number, such as in the configurator.   
   
 **Date** The date the contract was entered into the system. This is defaulted
 to the current date for new contracts and cannot be changed.  
@@ -38,7 +38,7 @@ commission will be used in the sales order.
 **Part Description** This field displays the part description for information
 only.  
   
-**Cust Id** Enter the customer number(s) that this contract will apply to. This will update the customer record also. The contracts that apply to the customer can be updated on [ CUST.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) and viewed on [ CUST.Q ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/CUST-Q) .   
+**Cust Id** Enter the customer number(s) that this contract will apply to. This will update the customer record also. The contracts that apply to the customer can be updated on [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) and viewed on [ CUST.Q ](../../../../AR-OVERVIEW/AR-REPORT/CUST-Q/README.md) .   
   
 **Cust Name** The customer name associated with the customer ID entered is
 displayed here for information only.  

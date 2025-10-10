@@ -40,7 +40,7 @@ inventory transaction processing, require them to be present. After the
 locations are initially defined new location may be added as required.
 
 **Prerequisites**  
-The general ledger account numbers to be used in defining the inventory locations must first be entered using [ GLCHART.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E) . 
+The general ledger account numbers to be used in defining the inventory locations must first be entered using [ GLCHART.E ](../../../GL-OVERVIEW/GL-ENTRY/GLCHART-E/README.md) . 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

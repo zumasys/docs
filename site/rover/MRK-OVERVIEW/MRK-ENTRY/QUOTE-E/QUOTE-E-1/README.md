@@ -17,7 +17,7 @@ must be predefined in the CO.CONTROL procedure.
   
 **Date** Enter the quote date as you want it to appear on the printed quote.  
   
-**Expire Date** The date on which this quote expires. This is originally defaulted by adding the valid days from the [ QUOTE.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-1/SOQUOTE-E/SOQUOTE-E-1/QUOTE-CONTROL) screen to the quote date. It may then be changed as required.   
+**Expire Date** The date on which this quote expires. This is originally defaulted by adding the valid days from the [ QUOTE.CONTROL ](../../QUOTE-CONTROL/README.md) screen to the quote date. It may then be changed as required.   
   
 **Status** This field contains a code which identifies the current status of
 the quote. When first entered, an "N" is automatically placed into this field.

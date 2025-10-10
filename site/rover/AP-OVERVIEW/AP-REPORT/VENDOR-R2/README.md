@@ -17,7 +17,7 @@ one or more months of statistics to report on.
 As required.
 
 **Prerequisites**  
-The [ VENDOR.P2 ](../../../../../../../../../rover/AP-OVERVIEW/AP-REPORT/VENDOR-Q/VENDOR-Q-9/DMR-CONTROL/DMR-CONTROL-1/VENDOR-P2) procedure must have been run to summarize the vendor statistics for the period(s) on which you want to report. 
+The [ VENDOR.P2 ](../../AP-PROCESS/VENDOR-P2/README.md) procedure must have been run to summarize the vendor statistics for the period(s) on which you want to report. 
 
 **Data Fields**
 

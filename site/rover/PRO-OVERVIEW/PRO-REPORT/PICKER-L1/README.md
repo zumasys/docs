@@ -22,7 +22,7 @@ print 12 parts per page.
 As required.
 
 **Prerequisites**  
-The WO LABELS option must be selected in the parts master entry screen, [ PARTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) , for any part that requires a label. This option/field can be found on the material control tab of [ PARTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) . 
+The WO LABELS option must be selected in the parts master entry screen, [ PARTS.E ](../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) , for any part that requires a label. This option/field can be found on the material control tab of [ PARTS.E ](../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) . 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

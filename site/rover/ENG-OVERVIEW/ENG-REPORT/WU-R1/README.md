@@ -15,7 +15,7 @@ and part number sequence.
 As required.
 
 **Prerequisites**  
-Building the Where Used file ( [ WU.P1 ](../../../../rover/ENG-OVERVIEW/ENG-PROCESS/WU-P1) ). 
+Building the Where Used file ( [ WU.P1 ](../../../../rover/ENG-OVERVIEW/ENG-PROCESS/WU-P1/README.md) ). 
 
 **Data Fields**
 

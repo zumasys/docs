@@ -21,7 +21,7 @@ None.
 **Data Fields**
 
 **Part Number** The part number to which the sale was made.  
-**Part Description** The first line of part description as entered in [ parts.e ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/po-control/PO-CONTROL-1/parts-e) .   
+**Part Description** The first line of part description as entered in [ parts.e ](../../../duplicates/parts-e/README.md) .   
 **Category** The category for the reference part.  
 **Currrent Quantity** The total quantity sold for the current period as
 defined by the dates entered.  

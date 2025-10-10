@@ -86,7 +86,7 @@ delivery).
 **Saturday Delivery** Check this box if the order will be delivered on a
 Saturday.  
   
-**Auto Created** This is checked if the record was created automatically through the debit receipt process ( [ RECEIPTS.E2 ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2) ). It is for information only and cannot be changed. If checked, then the line item data cannot be changed in MSHIP.E. It is controlled through the [ RECEIPTS.E2 ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2) entry. Upon changing the status to "S" this record will process the debit receipt.   
+**Auto Created** This is checked if the record was created automatically through the debit receipt process ( [ RECEIPTS.E2 ](../../../../PUR-OVERVIEW/PUR-ENTRY/RECEIPTS-E2/README.md) ). It is for information only and cannot be changed. If checked, then the line item data cannot be changed in MSHIP.E. It is controlled through the [ RECEIPTS.E2 ](../../../../PUR-OVERVIEW/PUR-ENTRY/RECEIPTS-E2/README.md) entry. Upon changing the status to "S" this record will process the debit receipt.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

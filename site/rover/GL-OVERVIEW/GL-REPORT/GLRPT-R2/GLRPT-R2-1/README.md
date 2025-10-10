@@ -48,9 +48,9 @@ field.
 field defaults to the report year in the Control file record GL. This is a
 required field.  
   
-**Profit/Loss** Enter the profit or loss amount from the current income statement. This field will only be prompted when the financial report contains "PROFIT" in the account number field (see [ GLRPT.E ](../../../../../rover/GL-OVERVIEW/GL-ENTRY/GLRPT-E) ) This is useful when there is not a current profit or loss account number to use for the report.   
+**Profit/Loss** Enter the profit or loss amount from the current income statement. This field will only be prompted when the financial report contains "PROFIT" in the account number field (see [ GLRPT.E ](../../../../../rover/GL-OVERVIEW/GL-ENTRY/GLRPT-E/README.md) ) This is useful when there is not a current profit or loss account number to use for the report.   
   
-**Override Suppress** If you want to override the suppress option entered in the [ GLRPT.E ](../../../../../rover/GL-OVERVIEW/GL-ENTRY/GLRPT-E) procedure, check this box. This option is used primarily when you want to see each detail account printed for balancing purposes.   
+**Override Suppress** If you want to override the suppress option entered in the [ GLRPT.E ](../../../../../rover/GL-OVERVIEW/GL-ENTRY/GLRPT-E/README.md) procedure, check this box. This option is used primarily when you want to see each detail account printed for balancing purposes.   
   
 **Suppress ID** This field allows you to suppress the printing of the report
 name in the heading of the report.  

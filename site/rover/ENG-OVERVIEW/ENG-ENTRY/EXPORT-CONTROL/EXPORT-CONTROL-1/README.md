@@ -8,7 +8,7 @@
 
 **Control ID**  
   
-**SchB Code** Input the schedule B code to be defined. These will be used in the [ PARTS.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) export tab.   
+**SchB Code** Input the schedule B code to be defined. These will be used in the [ PARTS.E ](../../PARTS-E/README.md) export tab.   
   
 **Group Desc** Enter the description of the grouping for this schedule B code.  
   

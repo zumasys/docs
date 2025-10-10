@@ -6,7 +6,7 @@
 [ Form Details ](AR-R6-1/README.md)   
 
 **Purpose**  
-The [ AR.R1 ](../../../../rover/AR-OVERVIEW/AR-REPORT/AR-R1) procedure is used to print an invoice register of invoices and credit memos by customer name. The report selects all items issued for a selected period and summarizes them by customer name. 
+The [ AR.R1 ](../../../../rover/AR-OVERVIEW/AR-REPORT/AR-R1/README.md) procedure is used to print an invoice register of invoices and credit memos by customer name. The report selects all items issued for a selected period and summarizes them by customer name. 
 
 **Frequency of Use**  
 As required.
@@ -22,7 +22,7 @@ None.
 **Dist.Amount** The total amount of the AR item, less freight and misc.  
 **Freight.Amt** The freight amount on the AR item.  
 **Misc.Amount** The total of all miscellanous amounts on the AR item.  
-**Sales.Tax** The total sales tax amount. This figure is extracted from the miscellaneous amount field when the account number matches the sales tax account found in the [ AR.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) entry.   
+**Sales.Tax** The total sales tax amount. This figure is extracted from the miscellaneous amount field when the account number matches the sales tax account found in the [ AR.CONTROL ](../../AR-ENTRY/AR-CONTROL/README.md) entry.   
   
 <badge text= "Version 8.10.57" vertical="middle" />
 

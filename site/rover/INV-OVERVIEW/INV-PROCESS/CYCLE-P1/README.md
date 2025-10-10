@@ -13,7 +13,7 @@ for which no cycle count is already in process. Records are written to the
 Cycle file, with an assigned, sequential tag number generated from the LIID
 file.  
   
-The cycle date is initially assigned to the inventory file when [ INV.P1 ](INV-P1/README.md) is processed or when a new part is created in [ PARTS.E ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) . The cycle date is updated in the inventory file each time the part is included in a cycle count. Please note that the cycle count must be posted via [ CYCLE.P2 ](CYCLE-P2/README.md) for the count and cycle date to be updated.   
+The cycle date is initially assigned to the inventory file when [ INV.P1 ](INV-P1/README.md) is processed or when a new part is created in [ PARTS.E ](../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) . The cycle date is updated in the inventory file each time the part is included in a cycle count. Please note that the cycle count must be posted via [ CYCLE.P2 ](CYCLE-P2/README.md) for the count and cycle date to be updated.   
   
 There are options in this procedure to limit the number of cycle records that
 are generated based on inventory location, bin number and on hand count. When

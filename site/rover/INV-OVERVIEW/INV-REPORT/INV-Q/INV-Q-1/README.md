@@ -15,7 +15,7 @@ displayed. This will be the standard cost associated with the first cost group
 using a standard costing method, otherwise it will be the first standard cost
 if any associated with the part number.  
   
-**Avg Cost** Contains the current average cost for the part number being displayed. This is the average across all cost groups for which this part has on-hand quantity. If there is zero on-hand, then this will be the cost associated with the first cost group defined in [ INV.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) . If this part has never existed in the first cost group, and there is zero on-hand, then this average cost will be zero.   
+**Avg Cost** Contains the current average cost for the part number being displayed. This is the average across all cost groups for which this part has on-hand quantity. If there is zero on-hand, then this will be the cost associated with the first cost group defined in [ INV.CONTROL ](../../../INV-ENTRY/INV-CONTROL/README.md) . If this part has never existed in the first cost group, and there is zero on-hand, then this average cost will be zero.   
   
 **Mo Usage** Displays the average monthly usage for the part.  
   
@@ -29,15 +29,15 @@ part number.
   
 **Commited** Contains the quantity of the part commited at the associated
 location. Commitments can come from one of three sources.  
-1\. Sales Orders which have the commit flag in [ SO.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) set for this item. Please note that only the part sold is committed and not the lower level components of an assembly. However, if the part sold is a phantom assembly, the components on the bill of material will show as committed.   
+1\. Sales Orders which have the commit flag in [ SO.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/SO-E/README.md) set for this item. Please note that only the part sold is committed and not the lower level components of an assembly. However, if the part sold is a phantom assembly, the components on the bill of material will show as committed.   
 2\. Point of sale (retail) orders which have open quantities, such as layaway.  
 3\. Work Orders which have been set up to backflush material will be committed
 once their status is set to "P" (pulled).  
   
 **Allocated** Contains the quantity of parts allocated at each location.
 Allocations can come from one of two sources:  
-1\. Pending shipments if the "allocate shipments" box in [ MRK.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) has been set to "Y". If the part to be shipped is a phantom assembly the components will be loaded into the shipper and allocated. In all other cases only the item to be shipped is allocated. Pending shipments are shipments with a status of "N" (new).   
-2\. Work Orders which are in an "R" (release) status. If the "allocate?" option box is set to "Y" in [ WO.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-E) , components listed on the picker are allocated when the work order is released. Please note that if the component on the picker is an assembly, the components used on that sub-assembly will not show as allocations against this work order.   
+1\. Pending shipments if the "allocate shipments" box in [ MRK.CONTROL ](../../../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/README.md) has been set to "Y". If the part to be shipped is a phantom assembly the components will be loaded into the shipper and allocated. In all other cases only the item to be shipped is allocated. Pending shipments are shipments with a status of "N" (new).   
+2\. Work Orders which are in an "R" (release) status. If the "allocate?" option box is set to "Y" in [ WO.E ](../../../../PRO-OVERVIEW/PRO-ENTRY/WO-E/README.md) , components listed on the picker are allocated when the work order is released. Please note that if the component on the picker is an assembly, the components used on that sub-assembly will not show as allocations against this work order.   
   
 **Shortages** Contains the quantity of the part number which is short for the
 associated location.  

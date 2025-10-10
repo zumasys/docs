@@ -28,7 +28,7 @@ Employees are usually loaded initially when the system is first installed,
 with additions being made in the future as required.
 
 **Prerequisites**  
-Entry of the work center records if they are to be referenced in the employee records ( [ WC.E ](../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E) ). 
+Entry of the work center records if they are to be referenced in the employee records ( [ WC.E ](../WC-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

@@ -6,7 +6,7 @@
 
 ![](./SO-E-9.jpg)
 
-**End User Cntry** Enter the end user country. It must be one of the end user countries entered in [ CUST.E ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) . This will be defaulted from the customer record if only one end user country is specified in [ CUST.E ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) .   
+**End User Cntry** Enter the end user country. It must be one of the end user countries entered in [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) . This will be defaulted from the customer record if only one end user country is specified in [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) .   
   
 **End User** Enter the end user for this order.  
   

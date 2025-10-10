@@ -39,7 +39,7 @@ sales order. Inventory is, also, not updated from this procedure.
 As required.
 
 **Prerequisites**  
-Entry of valid customers ( [ CUST.E ](CUST-E/README.md) ). Entry of valid general ledger account numbers ( [ GLCHART.E ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E) ). Entry of part numbers if they are to entered ( [ PARTS.E ](PARTS-E/README.md) ). 
+Entry of valid customers ( [ CUST.E ](CUST-E/README.md) ). Entry of valid general ledger account numbers ( [ GLCHART.E ](../../GL-OVERVIEW/GL-ENTRY/GLCHART-E/README.md) ). Entry of part numbers if they are to entered ( [ PARTS.E ](PARTS-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

@@ -8,7 +8,7 @@
 **Purpose**  
 The GLCHART.R2 procedure is used to print a listing of inactive accounts that are still posted to open or control records and could interface to the g/l if not changed. In this report, you select which files you wish to search on. For example, if you wish to check all control records - [ MRK.CONTROL ](MRK-CONTROL/README.md) , [ WO.CONTROL ](WO-CONTROL/README.md) , [ COST.CONTROL ](COST-CONTROL/README.md) , etc. - you would check the control records box. To search all open accounts receivable (including recurring a/r and artax) records, you would check the open a/r box.   
   
-It is also possible to enter one or more active accounts on the screen. This allows the user to see where accounts are used prior to trying to set them to inactive in [ GLCHART.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E) . 
+It is also possible to enter one or more active accounts on the screen. This allows the user to see where accounts are used prior to trying to set them to inactive in [ GLCHART.E ](../../GL-ENTRY/GLCHART-E/README.md) . 
 
 **Frequency of Use**  
 As required.

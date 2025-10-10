@@ -6,7 +6,7 @@
 [ Form Details ](AP-R2-1/README.md)   
 
 **Purpose**  
-The AP.R2 procedure is used to create a listing of all A/P items which have a hold flag present. The hold flags and dates were placed on the record during the [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) procedure as required by the user. 
+The AP.R2 procedure is used to create a listing of all A/P items which have a hold flag present. The hold flags and dates were placed on the record during the [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) procedure as required by the user. 
 
 **Frequency of Use**  
 As required.

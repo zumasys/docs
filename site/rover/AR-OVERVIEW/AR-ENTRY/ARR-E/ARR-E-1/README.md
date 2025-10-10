@@ -36,7 +36,7 @@ Total of all line item amounts
 **PO#** Enter the purchase order number against which this ARR record is being
 entered. This is an optional field.  
   
-**AR Acct#** Enter the G/L account number against which the AR records will be charged. This account number is defaulted from the [ AR.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) file and can be changed if necessary.   
+**AR Acct#** Enter the G/L account number against which the AR records will be charged. This account number is defaulted from the [ AR.CONTROL ](../../AR-CONTROL/README.md) file and can be changed if necessary.   
   
 **Freight Amt** Enter the freight amount which is being charged on this
 invoice.  
@@ -118,7 +118,7 @@ exhausted the automatic settings will not be used.
 **Invoice No** These are the Invoice record Id's which were created for this
 recurring record, on the dates listed.  
   
-**Invoice Date** Displays the date on which the invoice was created by the [ ARR.P1 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-4/AR-F2/ARR-P1) process.   
+**Invoice Date** Displays the date on which the invoice was created by the [ ARR.P1 ](../../../AR-PROCESS/ARR-P1/README.md) process.   
   
 **Calc** Click this button to calculate the tax rate for the address entered
 on the Ship Address page.  

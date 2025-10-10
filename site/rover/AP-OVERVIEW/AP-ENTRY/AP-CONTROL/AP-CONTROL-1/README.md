@@ -13,19 +13,19 @@ multiple company codes you may select from a list of available companies or
 you may enter the id directly e.g. AP3. This record contains the default
 information used in the AP module by company code.  
   
-**AP Acct#** This is the default Account Payable account number used by the [ AP.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) procedure. This is loaded into the AP record automatically and can be changed as required.   
+**AP Acct#** This is the default Account Payable account number used by the [ AP.E ](../../AP-E/README.md) procedure. This is loaded into the AP record automatically and can be changed as required.   
   
-**Prechecks AP Account** When creating checks through [ CHECKS.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) , there is an option to create a check (i.e. a precheck) without defining a A/P id or expense account. When using this option, the system will create a debit AP.ID that can be viewed in [ AP.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) . In this field, enter the A/P trade account that should be posted to these debit A/P records. If no entry is made in this field, the account referenced in the AP ACCT# field will be used.   
+**Prechecks AP Account** When creating checks through [ CHECKS.E ](../../CHECKS-E/README.md) , there is an option to create a check (i.e. a precheck) without defining a A/P id or expense account. When using this option, the system will create a debit AP.ID that can be viewed in [ AP.E ](../../AP-E/README.md) . In this field, enter the A/P trade account that should be posted to these debit A/P records. If no entry is made in this field, the account referenced in the AP ACCT# field will be used.   
   
-**Misc Acct#** This field is used during [ AP.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) , when an amount is entered in the Miscellaneous Amount field in the header screen. This account number is defaulted and may be changed, as required.   
+**Misc Acct#** This field is used during [ AP.E ](../../AP-E/README.md) , when an amount is entered in the Miscellaneous Amount field in the header screen. This account number is defaulted and may be changed, as required.   
   
-**Freight Acct#** This account number is used as a default during [ AP.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) , when an amount is entered in the Freight Amount field.   
+**Freight Acct#** This account number is used as a default during [ AP.E ](../../AP-E/README.md) , when an amount is entered in the Freight Amount field.   
   
-**Terms Code** The terms code entered in this field is used in [ AP.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) when a vendor has no default terms code entered.   
+**Terms Code** The terms code entered in this field is used in [ AP.E ](../../AP-E/README.md) when a vendor has no default terms code entered.   
   
-**Discount Acct#** This account number is used in conjunction with the terms discount applied in the header of [ AP.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) . An entry is made in the APREG file only if the discount is actually taken during a check run, or on a manual check.   
+**Discount Acct#** This account number is used in conjunction with the terms discount applied in the header of [ AP.E ](../../AP-E/README.md) . An entry is made in the APREG file only if the discount is actually taken during a check run, or on a manual check.   
   
-**Unit of Measure** This field is used as a default in the line items of [ AP.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) , when a part is entered which does not contain a unit of measure.   
+**Unit of Measure** This field is used as a default in the line items of [ AP.E ](../../AP-E/README.md) , when a part is entered which does not contain a unit of measure.   
   
 **Disbursement Acct#** Enter the account number here for your cash account.
 This is the account number which will be credited when a payment is made.  
@@ -64,7 +64,7 @@ placed into inventory, and the estimated freight on the PO differs from the
 standard freight cost in inventory, this account number is used to post the
 difference to General Ledger.  
   
-**Default reg date** In [ AP.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) , the register date is defaulted to the current system date. If you wish to have the register date default to the invoice date, then set this field.   
+**Default reg date** In [ AP.E ](../../AP-E/README.md) , the register date is defaulted to the current system date. If you wish to have the register date default to the invoice date, then set this field.   
   
 **Period Start Date** This field is used in conjunction with the period end
 date and provides control over the entry of the register date in the AP
@@ -79,7 +79,7 @@ module. If present, any register date entered after the end date will result
 in an error message being displayed. This field is used to control dates when
 the General Ledger is either not being used, or not closed on a timely basis.  
   
-**Prevent Non-Approved Vendors** Check this box if only approved vendors can be entered on new purchase orders, requisitions or, invoices. An exception to this rule is invoices that will be created from purchase order receipts for vendors that may have been approved at the time the purchase order was placed but are no longer approved. A vendor is considered non-approved if a "Y" has not been entered in the APPROVED field in the [ VENDOR.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E) screen. If this option is not selected a warning message will appear when entering non-approved vendors but the users will still be able to add the vendor to the order/invoice.   
+**Prevent Non-Approved Vendors** Check this box if only approved vendors can be entered on new purchase orders, requisitions or, invoices. An exception to this rule is invoices that will be created from purchase order receipts for vendors that may have been approved at the time the purchase order was placed but are no longer approved. A vendor is considered non-approved if a "Y" has not been entered in the APPROVED field in the [ VENDOR.E ](../../VENDOR-E/README.md) screen. If this option is not selected a warning message will appear when entering non-approved vendors but the users will still be able to add the vendor to the order/invoice.   
   
 **Desc** This field contains the description of the associated account number,
 as found in the GLCHART file.  

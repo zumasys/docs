@@ -6,7 +6,7 @@
 [ Form Details ](PRICE-R1-1/README.md)   
 
 **Purpose**  
-The PRICE.R1 procedure provides the ability to list all of the prices defined in the [ PRICE.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/PRICE-E) procedure. The report is listed in part number sequence. 
+The PRICE.R1 procedure provides the ability to list all of the prices defined in the [ PRICE.E ](../../MRK-ENTRY/PRICE-E/README.md) procedure. The report is listed in part number sequence. 
 
 **Frequency of Use**  
 As required.

@@ -29,12 +29,12 @@ assigned.
   
 **Affected Areas** The names of the areas that are affected by the ECN.  
   
-**Affected Area Description** This field contains the description assigned to the associated affected area code. It is defined in the [ ECN.CONTROL ](../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E/ECN-E/ECN-E-1/ECN-CONTROL) procedure.   
+**Affected Area Description** This field contains the description assigned to the associated affected area code. It is defined in the [ ECN.CONTROL ](../../ECN-CONTROL/README.md) procedure.   
   
 **Approval Type** The types or areas associated with the approval name and
 date.  
   
-**Approved By** Enter the name of the person giving approval of the ECN for the associated approval type. The person approving the ECN must be logged on with a login ID that has been defined in [ ECN.CONTROL ](../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E/ECN-E/ECN-E-1/ECN-CONTROL) as having authority to approve the particular type.   
+**Approved By** Enter the name of the person giving approval of the ECN for the associated approval type. The person approving the ECN must be logged on with a login ID that has been defined in [ ECN.CONTROL ](../../ECN-CONTROL/README.md) as having authority to approve the particular type.   
   
 **Approved Date** Enter the date on which the change on the ECN is to take
 effect for the associated routing.  

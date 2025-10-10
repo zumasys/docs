@@ -20,7 +20,7 @@ sorted. You may also request a summary view which displays only totals.
 As required.
 
 **Prerequisites**  
-[ MPS.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/PLAN-CONTROL/PLAN-CONTROL-1/MPS-P1) must be run to generate the MPS report files. 
+[ MPS.P1 ](../../MFG-PROCESS/MPS-P1/README.md) must be run to generate the MPS report files. 
 
 **Data Fields**
 

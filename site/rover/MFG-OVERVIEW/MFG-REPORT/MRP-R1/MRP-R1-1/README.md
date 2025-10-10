@@ -37,11 +37,11 @@ destination and may not be available in all cases.
 function which may also be activated by clicking the save button in the tool
 bar or pressing the F9 key or Ctrl+S.  
   
-**Group** Enter the name of the planning group that you want to run the MRP report against. The groups are defined in the [ PLAN.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/PLAN-CONTROL) procedure. If no group is entered, then the first group defined in [ PLAN.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/PLAN-CONTROL) is used.   
+**Group** Enter the name of the planning group that you want to run the MRP report against. The groups are defined in the [ PLAN.CONTROL ](../../../MFG-ENTRY/PLAN-CONTROL/README.md) procedure. If no group is entered, then the first group defined in [ PLAN.CONTROL ](../../../MFG-ENTRY/PLAN-CONTROL/README.md) is used.   
   
-**Buyer** If you want to limit the MRP listing to include only those items for a specific buyer, then enter the code used to identify the buyer at this prompt. The buyer is associated to the part number in [ PARTS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) .   
+**Buyer** If you want to limit the MRP listing to include only those items for a specific buyer, then enter the code used to identify the buyer at this prompt. The buyer is associated to the part number in [ PARTS.E ](../../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) .   
   
-**Planner** If you want to limit the MRP listing to include only those items for a specific planner, then enter the code used to identify the planner at this prompt. The planner is associated to the part number in [ PARTS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) .   
+**Planner** If you want to limit the MRP listing to include only those items for a specific planner, then enter the code used to identify the planner at this prompt. The planner is associated to the part number in [ PARTS.E ](../../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) .   
   
 **Category** Enter each part category you would like included in the report.
 The categories will be printed in the order they are entered. If you want to

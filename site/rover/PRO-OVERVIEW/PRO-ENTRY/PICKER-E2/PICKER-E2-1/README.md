@@ -11,7 +11,7 @@ wish to process.
   
 **Item** Line item number identifying an item to be pulled from inventory. Line items can only be added/deleted if the [ wo.control ](wo-control/README.md) record has been flagged to allow changes in this procedure.   
   
-**Part** The part number to be pulled from inventory. This field may be changed if the [ WO.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL) record has been flagged to allow changes. If that flag has not been set, changes to this field are only permiitted via [ PICKER.E1 ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/PICKER-E1) .   
+**Part** The part number to be pulled from inventory. This field may be changed if the [ WO.CONTROL ](../../WO-CONTROL/README.md) record has been flagged to allow changes. If that flag has not been set, changes to this field are only permiitted via [ PICKER.E1 ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/PICKER-E1) .   
   
 **Description** The description of the part to be pulled. It may not be
 changed.  
@@ -19,7 +19,7 @@ changed.
 **Required Quantity** The total quantity required from this line item. It may
 not be changed.  
   
-**Pull Loc** This field contains the inventory location that the parts will be pulled from. If the [ WO.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL) has been flagged to allow changes to this field, you will be able to change the location. If the [ WO.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL) has not allowed to allow such changes, this field is displayed for reference only and the location must be changed from [ PICKER.E1 ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/PICKER-E1) .   
+**Pull Loc** This field contains the inventory location that the parts will be pulled from. If the [ WO.CONTROL ](../../WO-CONTROL/README.md) has been flagged to allow changes to this field, you will be able to change the location. If the [ WO.CONTROL ](../../WO-CONTROL/README.md) has not allowed to allow such changes, this field is displayed for reference only and the location must be changed from [ PICKER.E1 ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/PICKER-E1) .   
   
 **Pulled Inventory** Enter the quantity actually pulled from inventory into
 the work order.  

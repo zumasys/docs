@@ -15,7 +15,7 @@ credits applied after this date will not appear on the statement.
 As required.
 
 **Prerequisites**  
-The aging periods must be established in the [ AR.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) record. 
+The aging periods must be established in the [ AR.CONTROL ](../../AR-ENTRY/AR-CONTROL/README.md) record. 
 
 **Data Fields**
 
@@ -29,7 +29,7 @@ printed.
 **Open Amount** The open balance of the associated AR item.  
 **Cumm Balance** The cummulative balance of all the AR items through the item
 on the associated line.  
-**Aging** The total amount due, aged over the periods as defined in the [ AR.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) record.   
+**Aging** The total amount due, aged over the periods as defined in the [ AR.CONTROL ](../../AR-ENTRY/AR-CONTROL/README.md) record.   
 **Total Due** The total due of all items appearing on the statement.  
   
 <badge text= "Version 8.10.57" vertical="middle" />

@@ -42,7 +42,7 @@ freight carrier.
 **Actual Ship Charges** The total actual freight charged by the freight
 carrier for this shipment.  
   
-**Calculated Freight** This is the freight amount calculated by the freight carrier based on the package information displayed and the parameters in [ SHIP.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) . This is available for UPS and FedEx. It is only calculated if the freight type is "Acutal" or "Estimated" and if the freight lock is not on.   
+**Calculated Freight** This is the freight amount calculated by the freight carrier based on the package information displayed and the parameters in [ SHIP.CONTROL ](../../SHIP-CONTROL/README.md) . This is available for UPS and FedEx. It is only calculated if the freight type is "Acutal" or "Estimated" and if the freight lock is not on.   
   
 **Pkg Type Code**  
   
@@ -60,7 +60,7 @@ carrier for this shipment.
   
 **Pkg Value**  
   
-**Frt Markup Amt** This is the markup amount based on the parameters specified in [ SHIP.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) for the carrier. It is included in the freight amount.   
+**Frt Markup Amt** This is the markup amount based on the parameters specified in [ SHIP.CONTROL ](../../SHIP-CONTROL/README.md) for the carrier. It is included in the freight amount.   
   
 **Ship Service Code** This is the ship via and the associated service code for
 the carrier that was used to determine the calculated freight.  

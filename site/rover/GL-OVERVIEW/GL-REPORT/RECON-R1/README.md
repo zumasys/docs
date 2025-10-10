@@ -6,7 +6,7 @@
 [ Form Details ](RECON-R1-1/README.md)   
 
 **Purpose**  
-The RECON.R1 procedure is used to print a listing of bank reconciliation data which was entered in [ RECON.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/CASH-E-1/RECON-E) . The user is prompted for a Recon ID and the month start date, month end date and cash account number will be displayed for verification.   
+The RECON.R1 procedure is used to print a listing of bank reconciliation data which was entered in [ RECON.E ](../../../AR-OVERVIEW/AR-ENTRY/RECON-E/README.md) . The user is prompted for a Recon ID and the month start date, month end date and cash account number will be displayed for verification.   
   
 There are six (6) sections available with this report:  
   
@@ -31,14 +31,14 @@ A record must exist in the Recon file.
 **1\. Cleared Deposits**  
 **Date** The date of the deposit. Lines on this report are a summary of all
 Cash records containing the same deposit date and deposit ID.  
-**Dep.ID** The deposit ID assigned to the Cash record in [ CASH.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E) .   
+**Dep.ID** The deposit ID assigned to the Cash record in [ CASH.E ](../../../AR-OVERVIEW/AR-ENTRY/CASH-E/README.md) .   
 **Deposit.Amt** The total amount of the deposit.  
 **Cleared.Amt** The amount shown on the bank statement.  
 **Variance** The difference between the deposit amount and the cleared amount.  
 **2 Uncleared Deposits**  
 **Date** The date of the deposit. Lines on this report are a summary of all
 Cash records containing the same deposit date and deposit ID.  
-**Dep.ID** The deposit ID assigned to the Cash record in [ CASH.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E) .   
+**Dep.ID** The deposit ID assigned to the Cash record in [ CASH.E ](../../../AR-OVERVIEW/AR-ENTRY/CASH-E/README.md) .   
 **Deposit.Amt** The total amount of the deposit.  
 **3\. Cleared Checks**  
 **Check** The check number from the Checks file.  

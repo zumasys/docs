@@ -3,9 +3,9 @@
 <PageHeader />
 
 **Form Details**  
-[ General ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL/GL-CONTROL-1)   
-[ Posting Groups ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL/GL-CONTROL-2)   
-[ Account Groups ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL/GL-CONTROL-3)   
+[ General ](../../GL-OVERVIEW/GL-ENTRY/GL-CONTROL/GL-CONTROL-1/README.md)   
+[ Posting Groups ](../../GL-OVERVIEW/GL-ENTRY/GL-CONTROL/GL-CONTROL-2/README.md)   
+[ Account Groups ](../../GL-OVERVIEW/GL-ENTRY/GL-CONTROL/GL-CONTROL-3/README.md)   
 
 **Purpose**  
 The GL.CONTROL procedure is used to define control information which will be
@@ -40,7 +40,7 @@ setting up the system. The report period and year should be changed as
 required to report against prior periods.
 
 **Prerequisites**  
-All account number must have been previously defined in the [ GLCHART.E ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E) procedure. 
+All account number must have been previously defined in the [ GLCHART.E ](../../GL-OVERVIEW/GL-ENTRY/GLCHART-E/README.md) procedure. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

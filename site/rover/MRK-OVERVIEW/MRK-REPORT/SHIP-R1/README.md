@@ -18,7 +18,7 @@ shipped are pulled from finished goods inventory. The frequency depends upon
 the daily activity level of the business.
 
 **Prerequisites**  
-Creation of shipment records with either [ SO.P1 ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1) , [ SHIP.E ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E) or [ SHIP.E2 ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2) . 
+Creation of shipment records with either [ SO.P1 ](../../MRK-PROCESS/SO-P1/README.md) , [ SHIP.E ](../../MRK-ENTRY/SHIP-E/README.md) or [ SHIP.E2 ](../../MRK-ENTRY/SHIP-E2/README.md) . 
 
 **Data Fields**
 

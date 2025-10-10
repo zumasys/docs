@@ -31,7 +31,7 @@ used as the Sales account for the Marketing module.
 **Misc Acct#** Enter the default General Ledger account number which can be
 used for miscellaneous charges by the shipping process.  
   
-**FET Account:** Enter the General Ledger account number which will used when a Federal Excise Tax (FET) charge is posted via [ SHIP.P1 ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/comm-e/SHIP-P1) .   
+**FET Account:** Enter the General Ledger account number which will used when a Federal Excise Tax (FET) charge is posted via [ SHIP.P1 ](../../../MRK-PROCESS/SHIP-P1/README.md) .   
   
 **Commit Range** The information in this field is used to determine which
 scheduled quantities on a new sales order are to be defaulted to the "commit"
@@ -50,15 +50,15 @@ always want to default the current date then you would enter "0" into this
 field. Leave the field blank if you do not want a default date to be
 automatically loaded.  
   
-**Valid SO Type** Define valid SO type codes and their descriptions for use in sales order entry. If any type codes are entered here, they will be used in [ SO.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) for lookup and validation.   
+**Valid SO Type** Define valid SO type codes and their descriptions for use in sales order entry. If any type codes are entered here, they will be used in [ SO.E ](../../SO-E/README.md) for lookup and validation.   
   
-**SO Type Code Description** Enter the description of the associated type code for display/lookup purposes in [ SO.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) .   
+**SO Type Code Description** Enter the description of the associated type code for display/lookup purposes in [ SO.E ](../../SO-E/README.md) .   
   
-**Hold Code** Define valid SO hold codes and their descriptions for use in sales order entry. If any hold codes are entered here, they will be used in [ SO.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) for lookup and validation.   
+**Hold Code** Define valid SO hold codes and their descriptions for use in sales order entry. If any hold codes are entered here, they will be used in [ SO.E ](../../SO-E/README.md) for lookup and validation.   
   
 **Hold Code Description** Enter a description for the associated hold code.  
   
-**Auto Generate Ship** If you wish to have the [ SO.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) process automatically call the [ SHIP.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E) allocation process, then check this box.   
+**Auto Generate Ship** If you wish to have the [ SO.E ](../../SO-E/README.md) process automatically call the [ SHIP.E ](../../SHIP-E/README.md) allocation process, then check this box.   
   
 **Auto Load Ship Qty** If you wish to have the open sales order quantity
 automatically loaded in the shipment entry procedures, check this box.  
@@ -85,11 +85,11 @@ written into the SERIAL file when shipments and/or returns are processed. If
 this field is not set to 'Y', serial number may still be entered, but will not
 update the serial number tracking file.  
   
-**Display ATP** This field controls the display of ATP during the [ SO.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) procedure. Enter a zero "0" to skip the display of ATP. An entry of "1" will display ATP for all planning groups. An entry of "2" will cause a display of only the planning group which matches the FG (pull) location on the line of the sales order.   
+**Display ATP** This field controls the display of ATP during the [ SO.E ](../../SO-E/README.md) procedure. Enter a zero "0" to skip the display of ATP. An entry of "1" will display ATP for all planning groups. An entry of "2" will cause a display of only the planning group which matches the FG (pull) location on the line of the sales order.   
   
-**Update ATP** Check this box if you want the available to promise in MPS to be updated automatically after the sales order is filed in [ SO.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) .   
+**Update ATP** Check this box if you want the available to promise in MPS to be updated automatically after the sales order is filed in [ SO.E ](../../SO-E/README.md) .   
   
-**Display Inv** Enter a zero if you do not wish to display the inventory status for the specified part number in [ SO.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) If you wish to display the inventory status enter one of the following:   
+**Display Inv** Enter a zero if you do not wish to display the inventory status for the specified part number in [ SO.E ](../../SO-E/README.md) If you wish to display the inventory status enter one of the following:   
   
 "1" to display the inventory status on the entered part number only.  
   
@@ -99,13 +99,13 @@ level of the bill of material.
 "3" to display the inventory status on the entered part number and all levels
 of the bill of material.  
   
-**Load Customer Notes** Check this box if you wish to load the customer notes from the "general" tab in [ CUST.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) into the sales order via [ SO.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) . If checked, these notes will be loaded into the sales orders after entry of the customer number on new records.   
+**Load Customer Notes** Check this box if you wish to load the customer notes from the "general" tab in [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) into the sales order via [ SO.E ](../../SO-E/README.md) . If checked, these notes will be loaded into the sales orders after entry of the customer number on new records.   
   
-**Display Credit Memos** Check this box if you wish to display open credit memos upon entry of the customer number on new records in [ SO.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) . This will display a list box from which the user can select one or more credit memos to apply to the sales order balance. The credit memos will still be displayed on the ship/tax/credit tab of [ SO.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) regardless of this setting.   
+**Display Credit Memos** Check this box if you wish to display open credit memos upon entry of the customer number on new records in [ SO.E ](../../SO-E/README.md) . This will display a list box from which the user can select one or more credit memos to apply to the sales order balance. The credit memos will still be displayed on the ship/tax/credit tab of [ SO.E ](../../SO-E/README.md) regardless of this setting.   
   
-**Default taxable flag** Checking this box controls the taxable flag default in both [ SOQUOTE.E ](SOQUOTE-E/README.md) and [ SO.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) . When this box is checked and a sales tax percentage is non-zero and a line item is entered, the taxable flag will default to "Y" (checked) automatically. You will need to remove the check from any line items that should not be taxable manually. If it is not checked, then the user is responsible for deciding what lines items are taxable.   
+**Default taxable flag** Checking this box controls the taxable flag default in both [ SOQUOTE.E ](SOQUOTE-E/README.md) and [ SO.E ](../../SO-E/README.md) . When this box is checked and a sales tax percentage is non-zero and a line item is entered, the taxable flag will default to "Y" (checked) automatically. You will need to remove the check from any line items that should not be taxable manually. If it is not checked, then the user is responsible for deciding what lines items are taxable.   
   
-If you use this field, then the taxable flag in [ PARTS.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) will be ignored.   
+If you use this field, then the taxable flag in [ PARTS.E ](../../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) will be ignored.   
   
 **Assign Invoice (How)** Enter the letter "M" if invoice numbers are to be
 assigned manually at shipment time, or enter "S" if they are to be assigned by

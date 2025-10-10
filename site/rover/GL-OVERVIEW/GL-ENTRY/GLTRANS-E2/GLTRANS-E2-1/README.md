@@ -11,7 +11,7 @@ enter the transaction number in the next field. If the posting status is not
 set to post on-line, and you wish to modify an existing reversal, enter that
 number here.  
   
-**Previous.id** Enter the transaction number you wish to reverse. The transaction must exist on file and must have been previously posted. If it was not posted, you should use [ GLTRANS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E) to modify the existing record. If found, the transaction will be loaded into the current screen, with all dollar amounts reversed. To completely reverse the prior tran- saction, simply file the record. You may, if you wish, make any other adjustments to this transaction once it has been loaded.   
+**Previous.id** Enter the transaction number you wish to reverse. The transaction must exist on file and must have been previously posted. If it was not posted, you should use [ GLTRANS.E ](../../GLTRANS-E/README.md) to modify the existing record. If found, the transaction will be loaded into the current screen, with all dollar amounts reversed. To completely reverse the prior tran- saction, simply file the record. You may, if you wish, make any other adjustments to this transaction once it has been loaded.   
   
 **Fiscal year** Enter the fiscal year into which this is being posted. This
 year must exist in the FY file and must not have been finally closed.  

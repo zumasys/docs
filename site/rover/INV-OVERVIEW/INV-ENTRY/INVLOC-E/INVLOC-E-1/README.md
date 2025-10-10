@@ -10,7 +10,7 @@
   
 **Description.** Enter a description of this inventory location.  
   
-**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) . The cost group is used to group inventory locations together with a common costing method as defined on [ INV.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) . The cost group should not be changed on existing records if there are existing quantities on hand in this location.   
+**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../INV-CONTROL/README.md) . The cost group is used to group inventory locations together with a common costing method as defined on [ INV.CONTROL ](../../INV-CONTROL/README.md) . The cost group should not be changed on existing records if there are existing quantities on hand in this location.   
   
 **Type** Enter one of the following location type codes:  
 SK - Stocking location.  

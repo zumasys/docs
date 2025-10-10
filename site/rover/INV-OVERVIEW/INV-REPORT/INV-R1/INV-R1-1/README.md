@@ -37,9 +37,9 @@ destination and may not be available in all cases.
 function which may also be activated by clicking the save button in the tool
 bar or pressing the F9 key or Ctrl+S.  
   
-**Cost Group** These are the cost groups as defined in [ INV.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) . The cost method assigned to the cost group will default into the subsequent entry for cost method. The cost group is used to retrieve the correct unit cost from the COST and inventory records. The cost group and method cannot be changed, but are displayed for the use of the subsequent check boxes.   
+**Cost Group** These are the cost groups as defined in [ INV.CONTROL ](../../../INV-ENTRY/INV-CONTROL/README.md) . The cost method assigned to the cost group will default into the subsequent entry for cost method. The cost group is used to retrieve the correct unit cost from the COST and inventory records. The cost group and method cannot be changed, but are displayed for the use of the subsequent check boxes.   
   
-**Cost Method** The system will pre-load the cost method defined in the [ INV.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) procedure associated with the cost group(s). If the method is lot costing then lot cost will be used for all lot controlled parts and average cost will be used for non-lot controlled parts. If you wish to run the report for standard costs for the cost group, check the next box.   
+**Cost Method** The system will pre-load the cost method defined in the [ INV.CONTROL ](../../../INV-ENTRY/INV-CONTROL/README.md) procedure associated with the cost group(s). If the method is lot costing then lot cost will be used for all lot controlled parts and average cost will be used for non-lot controlled parts. If you wish to run the report for standard costs for the cost group, check the next box.   
   
 Within standard cost, there are 3 options, Standard, Current and Previous. All
 3 of these options are part of Standard Costing.  

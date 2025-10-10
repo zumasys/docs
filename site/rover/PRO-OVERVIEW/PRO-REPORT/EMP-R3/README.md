@@ -6,7 +6,7 @@
 [ Form Details ](EMP-R3-1/README.md)   
 
 **Purpose**  
-EMP.R3 is used to list all employees that have not been clocked into the system via the [ EMPTIME.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E/WC-E-1/EMPTIME-E1/EMPTIME-E2/EMPTIME-E) procedure. 
+EMP.R3 is used to list all employees that have not been clocked into the system via the [ EMPTIME.E ](../../PRO-ENTRY/EMPTIME-E/README.md) procedure. 
 
 **Frequency of Use**  
 As required.

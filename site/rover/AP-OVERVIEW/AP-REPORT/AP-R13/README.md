@@ -6,7 +6,7 @@
 [ Form Details ](AP-R13-1/README.md)   
 
 **Purpose**  
-This report shows billed freight variances based on data in the accounts payable file (AP). Only AP records that have been linked to AP purchase receipts that have an estimated freight cost are shown. The linkage between the AP records is done through the field on [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) called "Freight Receipts". The actual freight bill that is entered manually in [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) is compared to the freight receipts that are linked to it. The user is prompted for start and end invoice cutoff dates. 
+This report shows billed freight variances based on data in the accounts payable file (AP). Only AP records that have been linked to AP purchase receipts that have an estimated freight cost are shown. The linkage between the AP records is done through the field on [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) called "Freight Receipts". The actual freight bill that is entered manually in [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) is compared to the freight receipts that are linked to it. The user is prompted for start and end invoice cutoff dates. 
 
 **Frequency of Use**  
 As required.

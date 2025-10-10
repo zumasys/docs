@@ -6,7 +6,7 @@
 [ Form Details ](SOQUOTE-R3-1/README.md)   
 
 **Purpose**  
-SOQUOTE.R3 provides a report of all quotes entered through [ SOQUOTE.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-1/SOQUOTE-E) in customer number sequence. You may limit the listing to a start and/or end date range, specific customers, and for a specific status. 
+SOQUOTE.R3 provides a report of all quotes entered through [ SOQUOTE.E ](../../MRK-ENTRY/SOQUOTE-E/README.md) in customer number sequence. You may limit the listing to a start and/or end date range, specific customers, and for a specific status. 
 
 **Frequency of Use**  
 As required.

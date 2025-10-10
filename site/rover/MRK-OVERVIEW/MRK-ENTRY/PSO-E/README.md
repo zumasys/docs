@@ -22,7 +22,7 @@ retail environments.
 As required.
 
 **Prerequisites**  
-Setup of the [ MRK.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) and [ PSO.CONTROL ](PSO-CONTROL.htm) procedures. 
+Setup of the [ MRK.CONTROL ](../MRK-CONTROL/README.md) and [ PSO.CONTROL ](PSO-CONTROL.htm) procedures. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

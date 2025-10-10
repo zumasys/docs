@@ -13,9 +13,9 @@ If you wish to add a line item to the receipt, enter "N" for the line number.
 New line items will be added to the RMA when the record is saved.  
   
   
-**Part Id** Contains the part number of the item being received. This information is defined in the [ RMA.E ](../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMA-E) procedure and may not be changed.   
+**Part Id** Contains the part number of the item being received. This information is defined in the [ RMA.E ](../../RMA-E/README.md) procedure and may not be changed.   
   
-**Description** Contains the description of the item being received as defined in the [ RMA.E ](../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMA-E) procedure. This information may not be changed.   
+**Description** Contains the description of the item being received as defined in the [ RMA.E ](../../RMA-E/README.md) procedure. This information may not be changed.   
   
 **Quantity** Enter the number of items being received for a given lot number
 destined for a particular bin number. Multiple entries are permitted provided
@@ -29,7 +29,7 @@ number associated with the quantity received.
 is bin controlled, then enter the bin location into which the parts will be
 placed.  
   
-**WO ID** Displays the work order, if any, associated with the quantity received. This field may not be changed. A work order is generated for the part(s) when the RMA receipt is confirmed. To generate the work order, the RMA type used must be associated with a valid work order repair code in [ MRK.CONTROL ](../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) .   
+**WO ID** Displays the work order, if any, associated with the quantity received. This field may not be changed. A work order is generated for the part(s) when the RMA receipt is confirmed. To generate the work order, the RMA type used must be associated with a valid work order repair code in [ MRK.CONTROL ](../../MRK-CONTROL/README.md) .   
   
 **Serial No** If the items being returned are identified by serial numbers,
 then enter the serial number of each item being received.  

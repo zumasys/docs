@@ -17,7 +17,7 @@ A shipment with the status "N" (New) is an unconfirmed shipment. In SHIP.E2 it
 is possible to make changes to the freight, shipping address, ship date, line
 items, quantity shipped, etc., before confirming.  
   
-Inventory is not updated until the shipment is confirmed by changing the status code to "S" (Shipped). After confirming it is still possible to change the quantity shipped, or the quantity can be changed to zero on a line item but line items can no longer be removed entirely. Any changes to quantities will result in adjusting inventory transactions. Once the shipment has been posted ( [ SHIP.P1 ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/comm-e/SHIP-P1) ) it can no longer be changed in SHIP.E2. However, the entire shipment can be reversed using [ SHIP.E3 ](SHIP-E3/README.md) .   
+Inventory is not updated until the shipment is confirmed by changing the status code to "S" (Shipped). After confirming it is still possible to change the quantity shipped, or the quantity can be changed to zero on a line item but line items can no longer be removed entirely. Any changes to quantities will result in adjusting inventory transactions. Once the shipment has been posted ( [ SHIP.P1 ](../SHIP-P1/README.md) ) it can no longer be changed in SHIP.E2. However, the entire shipment can be reversed using [ SHIP.E3 ](SHIP-E3/README.md) .   
   
 SHIP.E2 consists of five screens. The first contains header information such
 as ship via, shipping address and freight charges. The second screen contains
@@ -40,7 +40,7 @@ record is saved.
 As required.
 
 **Prerequisites**  
-Initialization of the marketing control record ( [ MRK.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) ), entry of the required inventory locations and creation of sales orders. 
+Initialization of the marketing control record ( [ MRK.CONTROL ](../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/README.md) ), entry of the required inventory locations and creation of sales orders. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

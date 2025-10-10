@@ -50,7 +50,7 @@ check this box.
 the types you wish to include in this field. If no entry is made in this
 field, all types will be included. The valid types are:  
   
-1\. AR - Entries created via [ AR.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) .   
+1\. AR - Entries created via [ AR.E ](../../../../AR-OVERVIEW/AR-ENTRY/AR-E/README.md) .   
 2\. FSO - Entries created from a field service order.  
 3\. PSO - Entries created from point of sale orders.  
 4\. RMA - Entries created from an RMA receipt.  

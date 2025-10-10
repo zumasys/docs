@@ -18,7 +18,7 @@ You also specify which types of credit card you will accept, users who are
 allowed to see the numbers of stored cards, and if card keys, provided by the
 gateway, are to be stored instead of the actual credit card numbers.  
   
-Note: You will also need to associate credit card types with the general ledger account numbers in the [ MRK.CONTROL ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) procedure. 
+Note: You will also need to associate credit card types with the general ledger account numbers in the [ MRK.CONTROL ](../../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/README.md) procedure. 
 
 **Frequency of Use**  
 At system setup or when the gateway provider is changed.

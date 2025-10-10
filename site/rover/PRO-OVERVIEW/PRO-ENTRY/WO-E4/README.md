@@ -19,7 +19,7 @@ part number or customer name.
 As required.
 
 **Prerequisites**  
-The work orders must already exist in the system. Also, [ FORM.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/AP-CONTROL-2/FORM-CONTROL) must be set up to determine what documents to print during a reprint selection. 
+The work orders must already exist in the system. Also, [ FORM.CONTROL ](../../../ACE-OVERVIEW/ACE-ENTRY/FORM-CONTROL/README.md) must be set up to determine what documents to print during a reprint selection. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

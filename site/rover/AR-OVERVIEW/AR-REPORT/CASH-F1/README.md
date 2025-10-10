@@ -16,7 +16,7 @@ cash record ID.
 As required.
 
 **Prerequisites**  
-Entry of the bank name and number in the accounting control procedure ( [ ACCT.CONTROL ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL) ). If this data has not been entered in [ acct.control ](acct-control/README.md) , it will have to be manually entered on the deposit slip form. A deposit.id must be entered on cash transactions created via [ cash.e ](cash-e/README.md) and [ cash.e3 ](cash-e3/README.md) . 
+Entry of the bank name and number in the accounting control procedure ( [ ACCT.CONTROL ](../../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) ). If this data has not been entered in [ acct.control ](acct-control/README.md) , it will have to be manually entered on the deposit slip form. A deposit.id must be entered on cash transactions created via [ cash.e ](cash-e/README.md) and [ cash.e3 ](cash-e3/README.md) . 
 
 **Data Fields**
 

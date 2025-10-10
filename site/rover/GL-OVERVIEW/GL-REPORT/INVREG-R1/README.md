@@ -26,7 +26,7 @@ whenever inventory movement occurs with a cost involved.
 **Reg Id** The record id of the Invreg entry.  
 **Date** The date for which the register entry was made.  
 **Amount** The total amount of the register record.  
-**Procedure** The procedure which caused this register record to occur (e.g. [ IT.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-E/IT-E) , [ RECEIPTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2/RECEIPTS-E3/RECEIPTS-E) , etc.).   
+**Procedure** The procedure which caused this register record to occur (e.g. [ IT.E ](../../../INV-OVERVIEW/INV-ENTRY/IT-E/README.md) , [ RECEIPTS.E ](../../../PUR-OVERVIEW/PUR-ENTRY/RECEIPTS-E/README.md) , etc.).   
 **Record Id** The record id which caused theis register record to occur (e.g.
 IT id, Receipt number, etc.).  
   

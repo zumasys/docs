@@ -49,7 +49,7 @@ requirements from the higher level planning bills exploded so that the
 requirements for the lower level planning bills are a function of their
 relationship to the higher level planning bills. Check this box if you want
 the explosion to be done or leave unchecked if not.  
-Warning! It is important that you do not answer yes to the "Use Planning Bills" option in [ MPS.P1 ](../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/PLAN-CONTROL/PLAN-CONTROL-1/MPS-P1) if you are loading sales forecast with the explode option set to yes in this procedure. Answering yes to both options will have the effect of overstating the forecast for the lower level items (e.g. both a sales and production forecast will be shown for these items).   
+Warning! It is important that you do not answer yes to the "Use Planning Bills" option in [ MPS.P1 ](../../MPS-P1/README.md) if you are loading sales forecast with the explode option set to yes in this procedure. Answering yes to both options will have the effect of overstating the forecast for the lower level items (e.g. both a sales and production forecast will be shown for these items).   
   
 **Plan Group** Enter the planning group that applies to the planning bill that
 you wish to process.  

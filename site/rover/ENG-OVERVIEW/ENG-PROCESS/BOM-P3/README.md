@@ -28,7 +28,7 @@ actions that you have specified:
 the existing line item, and a start effectivity on the new item.  
 \- Phase-Out the line item by setting the end effectivity date.  
   
-If you specify an Engineering Change Notice (ECN) when the procedure is run, the proposed changes are loaded into the ECN. Once loaded into the ECN, the entries may be modified if required, and posted to the bills of material by the [ ECN.P1 ](../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/ECN-P1) procedure. If an ECN is not specified the changes are posted directly to the bills of material. 
+If you specify an Engineering Change Notice (ECN) when the procedure is run, the proposed changes are loaded into the ECN. Once loaded into the ECN, the entries may be modified if required, and posted to the bills of material by the [ ECN.P1 ](../ECN-P1/README.md) procedure. If an ECN is not specified the changes are posted directly to the bills of material. 
 
 **Frequency of Use**  
 As required.

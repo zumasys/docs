@@ -32,7 +32,7 @@ part number for each level.
 As required.
 
 **Prerequisites**  
-Entry of the specified Bill of Material records ( [ BOM.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E) ). 
+Entry of the specified Bill of Material records ( [ BOM.E ](../../ENG-ENTRY/BOM-E/README.md) ). 
 
 **Data Fields**
 

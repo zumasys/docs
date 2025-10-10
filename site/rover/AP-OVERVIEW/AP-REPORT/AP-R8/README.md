@@ -18,7 +18,7 @@ None.
 
 **Data Fields**
 
-**Batch** The batch number entered for this item in [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) .   
+**Batch** The batch number entered for this item in [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) .   
 **AP.Id** The record ID of the item in the AP file.  
 **Vendor** The vendor number on the AP item.  
 **Vendor** The name of the vendor as it appears in the VENDOR file.  

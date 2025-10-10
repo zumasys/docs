@@ -21,7 +21,7 @@ Sales order forms may be printed as required and may be also be re-printed at
 any time.
 
 **Prerequisites**  
-Entry of the selected sales orders ( [ SO.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) ). 
+Entry of the selected sales orders ( [ SO.E ](../../MRK-ENTRY/SO-E/README.md) ). 
 
 **Data Fields**
 

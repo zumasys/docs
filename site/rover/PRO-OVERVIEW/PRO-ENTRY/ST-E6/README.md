@@ -7,7 +7,7 @@
 [ Materials Used ](ST-E6-2/README.md)   
 
 **Purpose**  
-The ST.E6 procedure is used to enter individual shop transactions which record the movement of assemblies from one routing step to another. The operator enters the work order number and quantity being moved, the operation the assemblies are moving from, and the operation they are moving to. This procedure performs the same function as [ ST.E ](ST-E/README.md) except that it optomized for use with bar code wedge readers based on setting in the [ BAR.CONTROL ](../../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E/WC-E-1/EMPTIME-E1/EMPTIME-E2/EMPTIME-E/BAR-CONTROL) procedure.   
+The ST.E6 procedure is used to enter individual shop transactions which record the movement of assemblies from one routing step to another. The operator enters the work order number and quantity being moved, the operation the assemblies are moving from, and the operation they are moving to. This procedure performs the same function as [ ST.E ](ST-E/README.md) except that it optomized for use with bar code wedge readers based on setting in the [ BAR.CONTROL ](../BAR-CONTROL/README.md) procedure.   
   
 When the operator's entry is filed the system creates a record in the Shop
 Transaction file (ST) which records the pertinent information about the
@@ -22,7 +22,7 @@ situation. The operator may still proceed with the transaction if appropriate.
 As required.
 
 **Prerequisites**  
-Setup of the [ BAR.CONTROL ](../../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E/WC-E-1/EMPTIME-E1/EMPTIME-E2/EMPTIME-E/BAR-CONTROL) record. 
+Setup of the [ BAR.CONTROL ](../BAR-CONTROL/README.md) record. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

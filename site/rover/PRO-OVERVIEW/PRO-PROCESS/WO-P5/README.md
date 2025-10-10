@@ -15,7 +15,7 @@ Work orders may be selected based on a date range, work order number range or
 status. The selection can, also be limited to work orders created specifically
 for a sales order or purchase order.  
   
-If you want to view the work orders that will be selected before actually closing them, do not select the "update work orders" option. By not selecting this option, you are basically run the process in a test mode. It is recommended that you first run the procedure in a test mode before actually closing the work orders. Any work orders that are accidentally closed, can be re-opened in [ WO.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-E) .   
+If you want to view the work orders that will be selected before actually closing them, do not select the "update work orders" option. By not selecting this option, you are basically run the process in a test mode. It is recommended that you first run the procedure in a test mode before actually closing the work orders. Any work orders that are accidentally closed, can be re-opened in [ WO.E ](../../PRO-ENTRY/WO-E/README.md) .   
   
 Any shortages, commitments or allocations that exist for the work orders being
 closed will be removed as part of this process.

@@ -15,7 +15,7 @@ Prices are usually loaded initially when the system is first installed, with
 additions and/or changes being made in the future as required.
 
 **Prerequisites**  
-Entry of the parts records ( [ PARTS.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) ) and optionally the vendor records ( [ VENDOR.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E) ). 
+Entry of the parts records ( [ PARTS.E ](../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) ) and optionally the vendor records ( [ VENDOR.E ](../../../AP-OVERVIEW/AP-ENTRY/VENDOR-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

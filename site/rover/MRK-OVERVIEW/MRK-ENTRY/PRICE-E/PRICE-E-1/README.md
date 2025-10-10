@@ -91,7 +91,7 @@ date.
 **Alt End Date** Enter the last date on which the alternate price will be
 effective. Sales order dates after this date will default to the code price.  
   
-**Price Per** Contains the price per factor for the unit of measure of the part number. It is displayed for information only and may not be changed. This factor is maintained in [ UM.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-1/UM-CONTROL) and used in the sales order and shipping processes.   
+**Price Per** Contains the price per factor for the unit of measure of the part number. It is displayed for information only and may not be changed. This factor is maintained in [ UM.CONTROL ](../../../../ENG-OVERVIEW/ENG-ENTRY/UM-CONTROL/README.md) and used in the sales order and shipping processes.   
   
 **Recalc** Select this button if you wish to have the code prices recalculated
 based upon the percentage off from standard.  

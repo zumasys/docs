@@ -52,7 +52,7 @@ AP or Checks records check here.
 thereby selecting all AP items and miscelleneous checks for vendors flagged
 for 1099.  
   
-**Use Vendor 1099 Box** Check this box if you wish the box number posted to the VENDOR record via [ VENDOR.E ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E) to print on the 1099 form instead of the box number posted to the A/P record. If this box is not checked the box number that has been entered into [ AP.E ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) will be used in this procedure regardless if the 1099 is to be generated from the A/P or VENDOR file.   
+**Use Vendor 1099 Box** Check this box if you wish the box number posted to the VENDOR record via [ VENDOR.E ](../../../AP-ENTRY/VENDOR-E/README.md) to print on the 1099 form instead of the box number posted to the A/P record. If this box is not checked the box number that has been entered into [ AP.E ](../../../AP-ENTRY/AP-E/README.md) will be used in this procedure regardless if the 1099 is to be generated from the A/P or VENDOR file.   
   
 **Rep** f you want generate/regenerate the 1099 file for a specific rep, enter
 that rep number here. If you leave this field null, all reps with a 1099

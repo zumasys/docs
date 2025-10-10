@@ -6,7 +6,7 @@
 [ Form Details ](AP-R7-1/README.md)   
 
 **Purpose**  
-The [ AP.R1 ](../../../../rover/AP-OVERVIEW/AP-REPORT/AP-R1) procedure is used to print an invoice register of invoices and debit memos. The report selects all items issued for a selected period. The report may be sorted either by AP item (invoice/memo number) or by date. 
+The [ AP.R1 ](../../../../rover/AP-OVERVIEW/AP-REPORT/AP-R1/README.md) procedure is used to print an invoice register of invoices and debit memos. The report selects all items issued for a selected period. The report may be sorted either by AP item (invoice/memo number) or by date. 
 
 **Frequency of Use**  
 As required.

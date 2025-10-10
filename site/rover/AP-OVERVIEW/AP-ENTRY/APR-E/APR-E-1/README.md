@@ -37,7 +37,7 @@ item: O = Open C = Closed /
 entered. This is an optional field. If this record was created automatically
 by the Purchasing/Receiving process, this number will already be present.  
   
-**AP Acct#** Enter the G/L account number against which this A/P record will be charged. This account number is defaulted from the [ AP.CONTROL ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) file and can be changed if necessary.   
+**AP Acct#** Enter the G/L account number against which this A/P record will be charged. This account number is defaulted from the [ AP.CONTROL ](../../AP-CONTROL/README.md) file and can be changed if necessary.   
   
 **Freight Amt** Enter the freight amount which is being charged on this
 invoice.  

@@ -27,7 +27,7 @@ file.
 **Qty** The quantity of the component item needed to build the item being
 quoted.  
   
-**Cost** The unit cost of the component item. This cost is either standard or actual, depending upon how the [ QUOTE.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-1/SOQUOTE-E/SOQUOTE-E-1/QUOTE-CONTROL) record has been set up.   
+**Cost** The unit cost of the component item. This cost is either standard or actual, depending upon how the [ QUOTE.CONTROL ](../../QUOTE-CONTROL/README.md) record has been set up.   
   
 **Total Cost** The total material cost of the component items.  
   

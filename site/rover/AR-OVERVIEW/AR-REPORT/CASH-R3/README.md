@@ -6,7 +6,7 @@
 [ Form Details ](CASH-R3-1/README.md)   
 
 **Purpose**  
-The [ CASH.R1 ](../../../../rover/AR-OVERVIEW/AR-REPORT/CASH-R1) procedure is used to print a cash receipts / check register for a selected deposit number. The deposit number is a user-defined field which can be used to "batch" cash receipts. 
+The [ CASH.R1 ](../../../../rover/AR-OVERVIEW/AR-REPORT/CASH-R1/README.md) procedure is used to print a cash receipts / check register for a selected deposit number. The deposit number is a user-defined field which can be used to "batch" cash receipts. 
 
 **Frequency of Use**  
 As required.

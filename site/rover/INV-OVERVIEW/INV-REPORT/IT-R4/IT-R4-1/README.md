@@ -53,7 +53,7 @@ program.
   
 **Last Status Time** The time at which the last status message was generated.  
   
-**Exclude ShopTransactions** Check this box if you wish to exclude inventory transactions that were created when the work order was completed or when the work order completion was reversed. This option would generally be selected if you wanted an inventory listing of all component material issued to the work order to match the material cost displayed in [ WO.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-E) and costed work order reports.   
+**Exclude ShopTransactions** Check this box if you wish to exclude inventory transactions that were created when the work order was completed or when the work order completion was reversed. This option would generally be selected if you wanted an inventory listing of all component material issued to the work order to match the material cost displayed in [ WO.E ](../../../../PRO-OVERVIEW/PRO-ENTRY/WO-E/README.md) and costed work order reports.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

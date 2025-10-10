@@ -44,7 +44,7 @@ the AR record.
 **Status** This field contains the collection status code, as read in the AR
 record.  
   
-**** Press this button to open the associated AR item in [ AR.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) .   
+**** Press this button to open the associated AR item in [ AR.E ](../../../AR-ENTRY/AR-E/README.md) .   
   
 **Refresh** Press this button to refresh the data on the screen.  
   

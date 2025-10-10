@@ -6,7 +6,7 @@
 [ Form Details ](FSO-R3-1/README.md)   
 
 **Purpose**  
-FSO.R3 provides an analysis of the service orders processed for a user specified time period. The report allows you to specify which service units to include in the listing or to include all service units. This report summarizes all of the service units selected into a single set of totals per day. Use the [ FSO.R2 ](../../../../../rover/FS-OVERVIEW/FS-REPORT/FSO-R2) report for the same information by individual service units. 
+FSO.R3 provides an analysis of the service orders processed for a user specified time period. The report allows you to specify which service units to include in the listing or to include all service units. This report summarizes all of the service units selected into a single set of totals per day. Use the [ FSO.R2 ](../FSO-R2/README.md) report for the same information by individual service units. 
 
 **Frequency of Use**  
 As required.

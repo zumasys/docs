@@ -40,7 +40,7 @@ procedures in the Field Service Module. This is usually done as part of
 setting up the system. The entries may be changed after that time as required.
 
 **Prerequisites**  
-The sales account number must have been defined in the GL chart of accounts ( [ GLCHART.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E) ), and the cost of goods sold location must have been defined using [ INVLOC.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/INVLOC-E) . 
+The sales account number must have been defined in the GL chart of accounts ( [ GLCHART.E ](../../../GL-OVERVIEW/GL-ENTRY/GLCHART-E/README.md) ), and the cost of goods sold location must have been defined using [ INVLOC.E ](../../../INV-OVERVIEW/INV-ENTRY/INVLOC-E/README.md) . 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

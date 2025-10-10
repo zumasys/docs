@@ -6,7 +6,7 @@
 
 ![](./ARR-E-3.jpg)
 
-**Ship Seq** Contains the shipping sequence number defined in [ cust.e ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-2/CASH-E4/CASH-E4-1/cust-e) .   
+**Ship Seq** Contains the shipping sequence number defined in [ cust.e ](../../../../duplicates/cust-e/README.md) .   
   
 **Ship Name** Enter the name of the company.  
   

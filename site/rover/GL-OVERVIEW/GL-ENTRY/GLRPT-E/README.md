@@ -39,7 +39,7 @@ account number - Process the amount of the account
 As required.
 
 **Prerequisites**  
-The fiscal year must have been defined in the [ FY.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E/GLTRANS-E-1/FY-E) procedure and the account numbers must have been defined by the [ GLCHART.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E) process. 
+The fiscal year must have been defined in the [ FY.E ](../FY-E/README.md) procedure and the account numbers must have been defined by the [ GLCHART.E ](../GLCHART-E/README.md) process. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

@@ -46,13 +46,13 @@ work order, then you would want to enter "Y"es.
   
 **Revenue Budget** Enter the revenue budget for this task.  
   
-**Total Scheduled Cost** This is the total costs scheduled so far for the project including such items as PO's and purchase requisitions. It is updated via [ PROJECT.P1 ](../../../../../../rover/INV-OVERVIEW/INV-ENTRY/IT-E3/PROJECT-P1) and is shown here for display only.   
+**Total Scheduled Cost** This is the total costs scheduled so far for the project including such items as PO's and purchase requisitions. It is updated via [ PROJECT.P1 ](../../../PROJ-PROCESS/PROJECT-P1/README.md) and is shown here for display only.   
   
-**Total Scheduled Revenue** This is the total revenue from sales orders scheduled so far for the project. It is updated via [ PROJECT.P1 ](../../../../../../rover/INV-OVERVIEW/INV-ENTRY/IT-E3/PROJECT-P1) and is shown here for display only.   
+**Total Scheduled Revenue** This is the total revenue from sales orders scheduled so far for the project. It is updated via [ PROJECT.P1 ](../../../PROJ-PROCESS/PROJECT-P1/README.md) and is shown here for display only.   
   
-**Total Actual Cost** This is the actual cost incurred so far for the project including such items as PO receipts, AP records, field service order costs, work orders, labor and material. It is updated via [ PROJECT.P1 ](../../../../../../rover/INV-OVERVIEW/INV-ENTRY/IT-E3/PROJECT-P1) and is shown here for display only.   
+**Total Actual Cost** This is the actual cost incurred so far for the project including such items as PO receipts, AP records, field service order costs, work orders, labor and material. It is updated via [ PROJECT.P1 ](../../../PROJ-PROCESS/PROJECT-P1/README.md) and is shown here for display only.   
   
-**Total Actual Revenue** This is the actual revenue so far for the project including such items as shipments, AR records, and field service revenue. It is updated via [ PROJECT.P1 ](../../../../../../rover/INV-OVERVIEW/INV-ENTRY/IT-E3/PROJECT-P1) and is shown here for display only.   
+**Total Actual Revenue** This is the actual revenue so far for the project including such items as shipments, AR records, and field service revenue. It is updated via [ PROJECT.P1 ](../../../PROJ-PROCESS/PROJECT-P1/README.md) and is shown here for display only.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

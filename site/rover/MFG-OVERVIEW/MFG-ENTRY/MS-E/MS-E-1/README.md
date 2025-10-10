@@ -13,7 +13,7 @@ changed.
 in the parts master file. It is shown for information only and may not be
 changed.  
   
-**Group** Enter the planning group which applies to this master schedule. This field will be verified against the planning group(s) entered in [ PLAN.CONTROL ](../../../../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/PLAN-CONTROL) . If you have only one planning group this field will be defaulted and skipped.   
+**Group** Enter the planning group which applies to this master schedule. This field will be verified against the planning group(s) entered in [ PLAN.CONTROL ](../../PLAN-CONTROL/README.md) . If you have only one planning group this field will be defaulted and skipped.   
   
 **Schedule Date** Enter the dates on which the master schedule items will be
 scheduled.  
@@ -38,9 +38,9 @@ schedule requirement.
 **Order Qty** The schedule quantity for the order that has satisfied this
 master schedule requirement.  
   
-**Load Dates** Select this button to load the list of schedule dates based upon the planning horizon defined in [ PLAN.CONTROL ](../../../../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/PLAN-CONTROL) . You must first enter a starting date in the associated field.   
+**Load Dates** Select this button to load the list of schedule dates based upon the planning horizon defined in [ PLAN.CONTROL ](../../PLAN-CONTROL/README.md) . You must first enter a starting date in the associated field.   
   
-**Start Date** Enter the starting date to use when the dates are to be auto loaded based upon the [ PLAN.CONTROL ](../../../../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/PLAN-CONTROL) planning horizon.   
+**Start Date** Enter the starting date to use when the dates are to be auto loaded based upon the [ PLAN.CONTROL ](../../PLAN-CONTROL/README.md) planning horizon.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

@@ -20,7 +20,7 @@ Purchase order forms may be printed as required and may be also be re-printed
 at any time.
 
 **Prerequisites**  
-Entry of the selected purchase orders ( [ PO.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E) ). 
+Entry of the selected purchase orders ( [ PO.E ](../../PUR-ENTRY/PO-E/README.md) ). 
 
 **Data Fields**
 

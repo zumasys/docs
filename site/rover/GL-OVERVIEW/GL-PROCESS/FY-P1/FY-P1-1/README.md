@@ -37,9 +37,9 @@ destination and may not be available in all cases.
 function which may also be activated by clicking the save button in the tool
 bar or pressing the F9 key or Ctrl+S.  
   
-**Current period** This field contains the current fiscal period that is entered in [ GL.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL) . This field cannot be changed in this procedure. If you wish to close a different year, update the year in [ GL.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL) .   
+**Current period** This field contains the current fiscal period that is entered in [ GL.CONTROL ](../../../GL-ENTRY/GL-CONTROL/README.md) . This field cannot be changed in this procedure. If you wish to close a different year, update the year in [ GL.CONTROL ](../../../GL-ENTRY/GL-CONTROL/README.md) .   
   
-**Current year** This field contains the current fiscal year that is entered in [ GL.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL) . This field cannot be changed in this procedure. If you wish to close a different year, update the year in [ GL.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL) .   
+**Current year** This field contains the current fiscal year that is entered in [ GL.CONTROL ](../../../GL-ENTRY/GL-CONTROL/README.md) . This field cannot be changed in this procedure. If you wish to close a different year, update the year in [ GL.CONTROL ](../../../GL-ENTRY/GL-CONTROL/README.md) .   
   
 **Next fiscal period** The fiscal period which will become the new, current
 period after this period end process is run. This is shown in order to make

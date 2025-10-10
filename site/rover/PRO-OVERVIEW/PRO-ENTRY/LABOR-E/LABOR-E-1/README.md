@@ -61,9 +61,9 @@ up to 2 decimal places and both positive and negative numbers.
 code defines the factor to be applied to the pay rate for circumstances such
 as overtime.  
   
-**Function Description** Displays the description from the [ LABOR.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/LABOR-CONTROL) record for the labor function entered.   
+**Function Description** Displays the description from the [ LABOR.CONTROL ](../../LABOR-CONTROL/README.md) record for the labor function entered.   
   
-**Rate Description** Displays the description from the [ LABOR.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/LABOR-CONTROL) record for the rate type entered.   
+**Rate Description** Displays the description from the [ LABOR.CONTROL ](../../LABOR-CONTROL/README.md) record for the rate type entered.   
   
 **Work Center Description** This field contains the first line of description
 for the referenced work center. It is displayed for reference only and cannot

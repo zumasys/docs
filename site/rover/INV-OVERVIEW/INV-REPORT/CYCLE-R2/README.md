@@ -15,7 +15,7 @@ running the cost variation report, or posting the cycle count.
 As required.
 
 **Prerequisites**  
-The cycle counts should have been entered in the [ CYCLE.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/CYCLE-P1/CYCLE-P2/CYCLE-E) procedure. 
+The cycle counts should have been entered in the [ CYCLE.E ](../../INV-ENTRY/CYCLE-E/README.md) procedure. 
 
 **Data Fields**
 

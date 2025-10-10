@@ -6,7 +6,7 @@
 
 ![](./AR-E-6.jpg)
 
-**Collect Status** Enter the status of collections for this AR item. The list may be pre-defined in [ ACCT.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL) .   
+**Collect Status** Enter the status of collections for this AR item. The list may be pre-defined in [ ACCT.CONTROL ](../../../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) .   
   
 **Next Date** Enter the next date on which action is required for this AR
 item.  
@@ -29,7 +29,7 @@ item.
   
 **New Log Entry** Press this button to open a new log entry.  
   
-**Status desc** This field contains the status of the status code entered, as read from [ ACCT.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL) .   
+**Status desc** This field contains the status of the status code entered, as read from [ ACCT.CONTROL ](../../../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) .   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

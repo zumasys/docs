@@ -22,7 +22,7 @@ R - The items have been received.
 P - The receipt has been posted and the accounts payable record has been
 created.  
   
-If the status code is not already set to "P" then the user may enter the code "N" for new, or "R" for received. The "N" status sets the receipt as a new receipt and does not create any inventory transactions. The "R" status will confirm the receipt by creating inventory transactions and will then be posted the next time [ RECEIPTS.P1 ](../../../../../../../../../../rover/AP-OVERVIEW/AP-REPORT/APREG-R1/RECEIPTS-P1) procedure is run. Once the status has been set to "R" and the record has been filed, you may not reset the status to "N" or make any changes to the receipt.   
+If the status code is not already set to "P" then the user may enter the code "N" for new, or "R" for received. The "N" status sets the receipt as a new receipt and does not create any inventory transactions. The "R" status will confirm the receipt by creating inventory transactions and will then be posted the next time [ RECEIPTS.P1 ](../../../PUR-PROCESS/RECEIPTS-P1/README.md) procedure is run. Once the status has been set to "R" and the record has been filed, you may not reset the status to "N" or make any changes to the receipt.   
   
 **Vendor** Contains the name of the vendor associated with the purchase order.
 This data is loaded from the vendor record and may not be changed.  

@@ -59,7 +59,7 @@ all states will be included for the selected time period.
 **Company Code** If you wish to limit this report to certain company codes,
 enter the codes in this field.  
   
-**Use Ship To State?** Check this box if you wish to base the report on the ship to state. If this box is not checked, the state for the primary customer address will be used. The primary customer address is defined on the general tab of [ cust.e ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-2/CASH-E4/CASH-E4-1/cust-e) .   
+**Use Ship To State?** Check this box if you wish to base the report on the ship to state. If this box is not checked, the state for the primary customer address will be used. The primary customer address is defined on the general tab of [ cust.e ](../../../../duplicates/cust-e/README.md) .   
   
 **Print Previous Year Data** Check this box, if you only wish to print this
 report for the current date range and do not wish to compare the data to a

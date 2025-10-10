@@ -6,7 +6,7 @@
 [ Form Details ](PARTS-P2-1/README.md)   
 
 **Purpose**  
-The PARTS.P2 procedure deletes Parts Master records which have been flagged for deletion in the status field. The status field may be set by the [ PARTS.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) procedure.   
+The PARTS.P2 procedure deletes Parts Master records which have been flagged for deletion in the status field. The status field may be set by the [ PARTS.E ](../../ENG-ENTRY/PARTS-E/README.md) procedure.   
   
 The procedure first selects all of the part records with the status field set
 to "D". Then it checks every record in the data base which uses part numbers

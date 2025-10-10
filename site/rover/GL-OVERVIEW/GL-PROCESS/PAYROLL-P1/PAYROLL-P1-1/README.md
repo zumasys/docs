@@ -22,7 +22,7 @@ for the period specified. Employees may be added or removed from this list.
   
 **Name** Displays the name of the associated employee.  
   
-**Type** Displays each posting type for the hours accumulated during the period selected. These codes are defined in the [ LABOR.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/LABOR-CONTROL) procedure and typically contain entries such as "R" for regular, "O" for overtime, "D" for double time etc.   
+**Type** Displays each posting type for the hours accumulated during the period selected. These codes are defined in the [ LABOR.CONTROL ](../../../../PRO-OVERVIEW/PRO-ENTRY/LABOR-CONTROL/README.md) procedure and typically contain entries such as "R" for regular, "O" for overtime, "D" for double time etc.   
   
 **Hours** Displays the hours accumulated for each type.  
   

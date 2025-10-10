@@ -17,14 +17,14 @@ The sales order form includes information about all of the shipments which
 have processed against it. Therefore, reprints run at a later date may not
 look exactly like previous copies.  
   
-You may designate that the user be given the option of outputing the sales order form to print, email, fax etc. through the [ MRK.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) procedure. 
+You may designate that the user be given the option of outputing the sales order form to print, email, fax etc. through the [ MRK.CONTROL ](../../MRK-ENTRY/MRK-CONTROL/README.md) procedure. 
 
 **Frequency of Use**  
 Sales order forms may be printed as required and may be also be re-printed at
 any time.
 
 **Prerequisites**  
-The path to the PDF file to be used as the form background must be specified in the [ FORM.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/AP-CONTROL-2/FORM-CONTROL) procedure. 
+The path to the PDF file to be used as the form background must be specified in the [ FORM.CONTROL ](../../../ACE-OVERVIEW/ACE-ENTRY/FORM-CONTROL/README.md) procedure. 
 
 **Data Fields**
 

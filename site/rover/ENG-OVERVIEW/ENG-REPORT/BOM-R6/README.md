@@ -20,7 +20,7 @@ beneath each element that is different.
 As required.
 
 **Prerequisites**  
-Entry of the selected Bill of Material records ( [ BOM.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E) ). 
+Entry of the selected Bill of Material records ( [ BOM.E ](../../ENG-ENTRY/BOM-E/README.md) ). 
 
 **Data Fields**
 

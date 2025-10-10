@@ -31,7 +31,7 @@ is for display only.
 generated. For items created from shipments, this will be the shipment record
 ID. For items created from RMA receipts this will be the RMAREC record ID.  
   
-**Status** This field represents the status of this AR item. O = open P = paid in full. If you wish to close an open invoice, you can change the status to "P" provided no payments have been applied to this invoice. When the record is saved, all amounts (invoice, misc. freight, distribution, etc.) will be changed to zero and register records (i.e. ARREG records) will be created. The date that will be posted to these ARREG records and ultimately the g/l will be the date in the REGISTER DATE field on the header tab. SALES and COMM records will also be generated to reflect this change if line items are present on the invoice and you have set-up the [ ACCT.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL) procedure to create SALES and/or COMM records from AR.E.   
+**Status** This field represents the status of this AR item. O = open P = paid in full. If you wish to close an open invoice, you can change the status to "P" provided no payments have been applied to this invoice. When the record is saved, all amounts (invoice, misc. freight, distribution, etc.) will be changed to zero and register records (i.e. ARREG records) will be created. The date that will be posted to these ARREG records and ultimately the g/l will be the date in the REGISTER DATE field on the header tab. SALES and COMM records will also be generated to reflect this change if line items are present on the invoice and you have set-up the [ ACCT.CONTROL ](../../../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) procedure to create SALES and/or COMM records from AR.E.   
   
 You cannot change the status to "O" on a paid invoice. To re-open the invoice,
 you must adjust the invoice amount plus the related amounts like freight, tax,
@@ -45,7 +45,7 @@ set by the procedures that print the invoices. It may be modified if required.
 **Invoice Date** Enter the invoice date for this item. This date will be used
 for the aging report.  
   
-**Register Date** Enter the date that the AR Register should be updated for this transaction. This will determine when interface to the G/L will occur. In [ AR.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) , there is an option to load in the invoice date as the register date. If this option is not selected, the current date will be loaded into this field for you.   
+**Register Date** Enter the date that the AR Register should be updated for this transaction. This will determine when interface to the G/L will occur. In [ AR.CONTROL ](../../AR-CONTROL/README.md) , there is an option to load in the invoice date as the register date. If this option is not selected, the current date will be loaded into this field for you.   
   
 If this date is changed on an existing record, the date on the existing ARREG records will not be changed. Use [ AR.E2 ](AR-E2/README.md) to change the existing register dates for this invoice. This date will be used on any new ARREG records that are created to reflect an amount or account number change.   
   
@@ -55,13 +55,13 @@ tax.
   
 **PO Number** Enter the customer's purchase order number.  
   
-**AR Acct#** The Accounts Receivable account number. This is defaulted from the [ AR.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) record and may be changed if desired.   
+**AR Acct#** The Accounts Receivable account number. This is defaulted from the [ AR.CONTROL ](../../AR-CONTROL/README.md) record and may be changed if desired.   
   
 **Freight Amt** If freight is being added to the invoice, enter the amount.  
   
 **Freight Taxable** Check this box if the freight is taxable.  
   
-**Freight Acct** Enter the general ledger account number used for freight out. This number will default from the [ AR.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) record and can be changed if required.   
+**Freight Acct** Enter the general ledger account number used for freight out. This number will default from the [ AR.CONTROL ](../../AR-CONTROL/README.md) record and can be changed if required.   
   
 **Ship Via** The ship via for this customer.  
   
@@ -71,9 +71,9 @@ you wish in this field. (e.g. 'C' for credit hold).
 **Hold Date** The date which the hold flag was entered. This is for
 information.  
   
-**Currency Code** If a foreign currency controls this invoice, enter the currency code here. That will load the exchange rate defined in [ CURRENCY.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL) . If this invoice is from a shipment, the currency code will be loaded in from the sales order.   
+**Currency Code** If a foreign currency controls this invoice, enter the currency code here. That will load the exchange rate defined in [ CURRENCY.CONTROL ](../../CURRENCY-CONTROL/README.md) . If this invoice is from a shipment, the currency code will be loaded in from the sales order.   
   
-**Exchange Rate** This is the exchange rate associated with the currency code as defined in [ CURRENCY.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL) . It can be changed as needed.   
+**Exchange Rate** This is the exchange rate associated with the currency code as defined in [ CURRENCY.CONTROL ](../../CURRENCY-CONTROL/README.md) . It can be changed as needed.   
   
 **Terms Code** Enter the terms code used for this customer. This code defaults
 from the customer file and can be changed as required.  

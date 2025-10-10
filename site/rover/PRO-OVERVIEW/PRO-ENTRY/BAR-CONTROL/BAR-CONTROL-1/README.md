@@ -8,17 +8,17 @@
 
 **Control ID** The ID "BAR" is automatically assigned by the procedure.  
   
-**EMPTIME Auto File** Check this box if you want the [ EMPTIME.E ](../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E/WC-E-1/EMPTIME-E1/EMPTIME-E2/EMPTIME-E) procedure to automatically file the record after the last field is entered.   
+**EMPTIME Auto File** Check this box if you want the [ EMPTIME.E ](../../EMPTIME-E/README.md) procedure to automatically file the record after the last field is entered.   
   
-**EMPTIME Auto Exit** Check this box if you want the [ EMPTIME.E ](../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E/WC-E-1/EMPTIME-E1/EMPTIME-E2/EMPTIME-E) procedure to be closed automatically after the transaction is processed.   
+**EMPTIME Auto Exit** Check this box if you want the [ EMPTIME.E ](../../EMPTIME-E/README.md) procedure to be closed automatically after the transaction is processed.   
   
-**EMPTIME.E1 Auto File** Check this box if you want the [ EMPTIME.E1 ](../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E/WC-E-1/EMPTIME-E1) procedure to automatically file the record after the last field is entered.   
+**EMPTIME.E1 Auto File** Check this box if you want the [ EMPTIME.E1 ](../../EMPTIME-E1/README.md) procedure to automatically file the record after the last field is entered.   
   
-**EMPTIME.E1 Auto Exit** Check this box if you want the [ EMPTIME.E1 ](../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E/WC-E-1/EMPTIME-E1) procedure to be closed automatically after the transaction is processed.   
+**EMPTIME.E1 Auto Exit** Check this box if you want the [ EMPTIME.E1 ](../../EMPTIME-E1/README.md) procedure to be closed automatically after the transaction is processed.   
   
-**EMPTIME.E2 Auto File** Check this box if you want the [ EMPTIME.E2 ](../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E/WC-E-1/EMPTIME-E1/EMPTIME-E2) procedure to automatically file the record after the last field is entered.   
+**EMPTIME.E2 Auto File** Check this box if you want the [ EMPTIME.E2 ](../../EMPTIME-E2/README.md) procedure to automatically file the record after the last field is entered.   
   
-**EMPTIME.E2 Auto Exit** Check this box if you want the [ EMPTIME.E2 ](../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E/WC-E-1/EMPTIME-E1/EMPTIME-E2) procedure to be closed automatically after the transaction is processed.   
+**EMPTIME.E2 Auto Exit** Check this box if you want the [ EMPTIME.E2 ](../../EMPTIME-E2/README.md) procedure to be closed automatically after the transaction is processed.   
   
 **EMPTIME.E3 Auto File** Check this box if you want the [ EMPTIME.E3 ](EMPTIME-E3/README.md) procedure to automatically file the record after the last field is entered.   
   

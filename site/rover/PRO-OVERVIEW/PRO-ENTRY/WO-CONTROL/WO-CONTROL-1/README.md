@@ -60,7 +60,7 @@ pulled.
 **Destination Location** Enter the default location to be used as the
 destination location for work order entry.  
   
-**Labor by Routing** If your inventory costing method is set to average or actual cost (see [ INV.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) ), you have the option of letting the system calculate the value of labor for the items built based on the hours in the work order routing instead of the actual hours posted through labor transactions. This option may be appropriate if you do not plan to post labor transactions or if you make partial completions from a work order. Variances between the actual labor posted and the routing labor will be posted when the work order is finalized.   
+**Labor by Routing** If your inventory costing method is set to average or actual cost (see [ INV.CONTROL ](../../../../INV-OVERVIEW/INV-ENTRY/INV-CONTROL/README.md) ), you have the option of letting the system calculate the value of labor for the items built based on the hours in the work order routing instead of the actual hours posted through labor transactions. This option may be appropriate if you do not plan to post labor transactions or if you make partial completions from a work order. Variances between the actual labor posted and the routing labor will be posted when the work order is finalized.   
   
 **Backflush Labor** If you do not post labor transactions to work orders, you
 may have the system post labor automatically based on the routing by checking
@@ -75,7 +75,7 @@ transactions created when labor is backflushed.
 **Backflush Labor Function** Enter the labor function to be used when labor
 records are created for backflushed labor.  
   
-**Material by Picker** If you check this box the value of material for items completed from the work order will be based on the value of the items in the picker. This only applies when the inventory costing method is average or actual (see [ INV.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) ). This can be useful in cases where all of the materials are not moved into the work order before completions are made. This avoids having earlier completions carrying a lower material value than later completions. It also prevents the presence of excess materials or deficits of material from affecting the value.   
+**Material by Picker** If you check this box the value of material for items completed from the work order will be based on the value of the items in the picker. This only applies when the inventory costing method is average or actual (see [ INV.CONTROL ](../../../../INV-OVERVIEW/INV-ENTRY/INV-CONTROL/README.md) ). This can be useful in cases where all of the materials are not moved into the work order before completions are made. This avoids having earlier completions carrying a lower material value than later completions. It also prevents the presence of excess materials or deficits of material from affecting the value.   
   
 **Backflush Material** Check this box if the default setting for new work
 orders should be set to backflush.  

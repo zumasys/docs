@@ -28,7 +28,7 @@ transaction for subsequent posting to the general ledger.
 Each time the materials for a work order are pulled.
 
 **Prerequisites**  
-Creation of the picklist by setting the work order status to "R" (released) in [ WO.E ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-E) , and the actual kitting of the work order. 
+Creation of the picklist by setting the work order status to "R" (released) in [ WO.E ](../WO-E/README.md) , and the actual kitting of the work order. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

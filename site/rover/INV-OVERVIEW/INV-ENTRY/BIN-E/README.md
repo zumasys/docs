@@ -14,13 +14,13 @@ stockroom personnel in finding the location of parts within the warehouse. Bin
 locations are displayed on the inventory inquiry screen and the work order
 picking list.  
   
-Another way in which bin locations are added to the system is through the inventory transaction procedure ( [ IT.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-E/IT-E) ). It allows you to specify the bin location at which the parts were stored after they were moved. An example of this would be when parts are moved from receiving inspection to the stockroom. This avoids the need to enter those bins in this procedure. 
+Another way in which bin locations are added to the system is through the inventory transaction procedure ( [ IT.E ](../IT-E/README.md) ). It allows you to specify the bin location at which the parts were stored after they were moved. An example of this would be when parts are moved from receiving inspection to the stockroom. This avoids the need to enter those bins in this procedure. 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-Entry of valid inventory locations ( [ INVLOC.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/INVLOC-E) ) and parts records ( [ PARTS.E ](../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E) ). 
+Entry of valid inventory locations ( [ INVLOC.E ](../INVLOC-E/README.md) ) and parts records ( [ PARTS.E ](../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

@@ -6,7 +6,7 @@
 [ Form Details ](COST-P1-1/README.md)   
 
 **Purpose**  
-The COST.P1 procedure rolls up the costs for each part number in the parts master file. Material, labor and overhead costs are calculated and loaded as part of the process. The user may specify if the current or book costs are to be rolled up and if all or only specified part numbers are to be processed. Normally only current costs are rolled up and then rolled over via the [ COST.P2 ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2) procedure. The ability to rollup book standard costs is available primarily for the purpose of introducing new products prior to the formal rollup and rollover of current costs.   
+The COST.P1 procedure rolls up the costs for each part number in the parts master file. Material, labor and overhead costs are calculated and loaded as part of the process. The user may specify if the current or book costs are to be rolled up and if all or only specified part numbers are to be processed. Normally only current costs are rolled up and then rolled over via the [ COST.P2 ](../COST-P2/README.md) procedure. The ability to rollup book standard costs is available primarily for the purpose of introducing new products prior to the formal rollup and rollover of current costs.   
   
 Costs are rolled up based on the low level code by processing the parts at
 each level beginning at the lowest and continuing until the top level is
@@ -76,10 +76,10 @@ inventory. The same holds true for book standards to the degree that the
 resultant changes in inventory values can be properly reflected through manual
 entries to the general ledger.  
   
-You should always run this procedure prior to running the cost rollover procedure ( [ COST.P2 ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2) ). 
+You should always run this procedure prior to running the cost rollover procedure ( [ COST.P2 ](../COST-P2/README.md) ). 
 
 **Prerequisites**  
-All of the parts and bill of material records to be included in the rollup must be entered through the [ PARTS.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) and [ BOM.E ](BOM-E/README.md) procedures as well as the material costs for each component part through [ COST.E ](COST-E/README.md) . If you want the system to calculate the labor costs based on routing file data then you must also enter all of the appropriate routing records with the [ ROUTING.E ](ROUTING-E/README.md) procedure, otherwise you may enter a labor amount directly with the [ COST.E ](COST-E/README.md) procedure.   
+All of the parts and bill of material records to be included in the rollup must be entered through the [ PARTS.E ](../../ENG-ENTRY/PARTS-E/README.md) and [ BOM.E ](BOM-E/README.md) procedures as well as the material costs for each component part through [ COST.E ](COST-E/README.md) . If you want the system to calculate the labor costs based on routing file data then you must also enter all of the appropriate routing records with the [ ROUTING.E ](ROUTING-E/README.md) procedure, otherwise you may enter a labor amount directly with the [ COST.E ](COST-E/README.md) procedure.   
   
 Since the cost rollup relies on the low level code in the parts master to determine the order in which the parts are to be processed you must insure that these low level codes reflect the current product structure. The [ PARTS.P4 ](PARTS-P4/README.md) procedure generates the low level codes. 
 

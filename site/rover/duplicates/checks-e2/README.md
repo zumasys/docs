@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E2/CHECKS-E2-1)   
+[ Form Details ](../../AP-OVERVIEW/AP-ENTRY/CHECKS-E2/CHECKS-E2-1/README.md)   
 
 **Purpose**  
 The CHECKS.E2 procedure is used to place checks into either a 'stop payment'
@@ -23,7 +23,7 @@ procedure rather than re-opening them.
 As required.
 
 **Prerequisites**  
-Initialization of the Accounts Payable control record ( [ AP.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) ), and entry of the vendor and terms records to be referenced. 
+Initialization of the Accounts Payable control record ( [ AP.CONTROL ](../../AP-OVERVIEW/AP-ENTRY/AP-CONTROL/README.md) ), and entry of the vendor and terms records to be referenced. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

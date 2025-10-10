@@ -48,7 +48,7 @@ select all checks since the start date entered.
 **Include Notes** If you wish to include the check notes on this report, check
 this box.  
   
-**Include Misc** Check this box if you wish to include miscellaneous checks. Miscellaneous checks are entered in [ CHECKS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) and are issued to pay non-accounts payable expenses. Checks that are issued to pay for both a/p invoices and misc. expenses will be included in this report even if this option is not selected. Checks that are classified as "pre-pays" will, also, be included in this report.   
+**Include Misc** Check this box if you wish to include miscellaneous checks. Miscellaneous checks are entered in [ CHECKS.E ](../../../AP-ENTRY/CHECKS-E/README.md) and are issued to pay non-accounts payable expenses. Checks that are issued to pay for both a/p invoices and misc. expenses will be included in this report even if this option is not selected. Checks that are classified as "pre-pays" will, also, be included in this report.   
   
 **Disb Account** Enter the cash account number for which you wish to list
 checks. Leave this field empty to print all checks.  

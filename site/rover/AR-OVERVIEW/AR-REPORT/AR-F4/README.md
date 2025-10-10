@@ -6,13 +6,13 @@
 [ Form Details ](AR-F4-1/README.md)   
 
 **Purpose**  
-The AR.F4 procedure is used to print / reprint invoices on blank paper using a PDF background. Any AR item, whether it came from the shipments process, was entered through [ AR.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) , or was created through [ ARR.P1 ](ARR-P1/README.md) may be selected and printed. If invoices are printed using the [ SHIP.F2 ](SHIP-F2/README.md) or [ SHIP.F5 ](SHIP-F5/README.md) procedures, then the AR.F4 process need only be run when a reprint of an invoice is required. 
+The AR.F4 procedure is used to print / reprint invoices on blank paper using a PDF background. Any AR item, whether it came from the shipments process, was entered through [ AR.E ](../../AR-ENTRY/AR-E/README.md) , or was created through [ ARR.P1 ](ARR-P1/README.md) may be selected and printed. If invoices are printed using the [ SHIP.F2 ](SHIP-F2/README.md) or [ SHIP.F5 ](SHIP-F5/README.md) procedures, then the AR.F4 process need only be run when a reprint of an invoice is required. 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-Entry of the selected Shipment reocrds ( [ SHIP.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E) or [ SHIP.E2 ](SHIP-E2/README.md) ). 
+Entry of the selected Shipment reocrds ( [ SHIP.E ](../../../MRK-OVERVIEW/MRK-ENTRY/SHIP-E/README.md) or [ SHIP.E2 ](SHIP-E2/README.md) ). 
 
 **Data Fields**
 

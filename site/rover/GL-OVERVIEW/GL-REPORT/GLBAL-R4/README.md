@@ -15,7 +15,7 @@ specified.
 As required.
 
 **Prerequisites**  
-The account groups and sub groups must be assigned either through the [ GL.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL) and [ GLCHART.P2 ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-P2) procedures, or manually through the [ GLCHART.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E) procedure. 
+The account groups and sub groups must be assigned either through the [ GL.CONTROL ](../../GL-ENTRY/GL-CONTROL/README.md) and [ GLCHART.P2 ](../../GL-PROCESS/GLCHART-P2/README.md) procedures, or manually through the [ GLCHART.E ](../../GL-ENTRY/GLCHART-E/README.md) procedure. 
 
 **Data Fields**
 

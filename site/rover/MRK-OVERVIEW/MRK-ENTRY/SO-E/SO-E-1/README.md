@@ -24,7 +24,7 @@ only one company code exists it will be defaulted into the field for you.
 **Plan Group** Enter the planning group assigned to the sales order. This will
 be used to default the correct finished goods location into the line items.  
   
-**Type** Enter or select the order type to be used with the sales order. Order types are available as filtering options in many standard sales order reports and are defined in the [ MRK.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) procedure. If the order types have been defined in the [ MRK.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) procedure, the description for the type codes can be displayed in a drop down list from this field. When entering an order type that has not been defined in the [ MRK.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) procedure, enter the code (1 character) and not the description.   
+**Type** Enter or select the order type to be used with the sales order. Order types are available as filtering options in many standard sales order reports and are defined in the [ MRK.CONTROL ](../../MRK-CONTROL/README.md) procedure. If the order types have been defined in the [ MRK.CONTROL ](../../MRK-CONTROL/README.md) procedure, the description for the type codes can be displayed in a drop down list from this field. When entering an order type that has not been defined in the [ MRK.CONTROL ](../../MRK-CONTROL/README.md) procedure, enter the code (1 character) and not the description.   
   
 **Quote** Enter the SOQUOTE number you wish to load. This field will load an
 entire quote into the sales order. Use the line item quote field to enter
@@ -105,7 +105,7 @@ then the next delivery date after today's date will be defaulted here. After
 the order is filed, this field is removed to prevent confusion in the event
 that lines may contain varying schedule dates.  
   
-**Hold Code** Select the hold code to be used with the order. Hold codes are defined in the [ MRK.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) procedure. The purpose of placing an order on credit hold is to prevent a shipment from being processed. Hold orders are also not included in MRP. If the bill to customer is put on credit hold shipments are prevented from being processed regardless of whether this field is used.   
+**Hold Code** Select the hold code to be used with the order. Hold codes are defined in the [ MRK.CONTROL ](../../MRK-CONTROL/README.md) procedure. The purpose of placing an order on credit hold is to prevent a shipment from being processed. Hold orders are also not included in MRP. If the bill to customer is put on credit hold shipments are prevented from being processed regardless of whether this field is used.   
   
 **Hold Date** Enter the date on which the order was placed on hold.  
   
@@ -131,11 +131,11 @@ in the help menu for this prompt which allows you to select the rep by name.
 **Order%** Enter the percent of the order credited to the associated sales
 rep. This field can total more than 100%.  
   
-**Currency Code** If the order is to be placed in a foreign currency, enter the currency code here. That will load the exchange rate defined in [ CURRENCY.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL) .   
+**Currency Code** If the order is to be placed in a foreign currency, enter the currency code here. That will load the exchange rate defined in [ CURRENCY.CONTROL ](../../../../AR-OVERVIEW/AR-ENTRY/CURRENCY-CONTROL/README.md) .   
   
-**Exchange Rate** This is the exchange rate associated with the currency code as defined in [ CURRENCY.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL) . It can be changed as needed.   
+**Exchange Rate** This is the exchange rate associated with the currency code as defined in [ CURRENCY.CONTROL ](../../../../AR-OVERVIEW/AR-ENTRY/CURRENCY-CONTROL/README.md) . It can be changed as needed.   
   
-**Notes** Enter any notes that apply to the entire sales order. These notes will appear on the sales order acknowlegment. If you have predefined notes available you may load them by selecting the appropriate option from the help menu for this prompt. You may, also, load in notes from the customer record automically by setting the "Load Customer Notes" field to "Y" in the [ MRK.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) procedure. If, the customer number changes on an existing sales order, the customer notes will only be loaded in if the SO notes field is empty.   
+**Notes** Enter any notes that apply to the entire sales order. These notes will appear on the sales order acknowlegment. If you have predefined notes available you may load them by selecting the appropriate option from the help menu for this prompt. You may, also, load in notes from the customer record automically by setting the "Load Customer Notes" field to "Y" in the [ MRK.CONTROL ](../../MRK-CONTROL/README.md) procedure. If, the customer number changes on an existing sales order, the customer notes will only be loaded in if the SO notes field is empty.   
   
 **Header Line** Enter the line item number for the associated item. If you are
 using sequential line numbers you may enter the letter "N" in this field to

@@ -52,7 +52,7 @@ fall to be selected for this report.
 **Customer** If you wish to limit this report to certain customers, enter the
 customer ids in this field.  
   
-**Price Code** If you wish to limit this report to certain pricing/customer codes, enter those code in this field. Please note that this report will use the default pricing code that has been defined for the customer in [ CUST.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) and not the pricing code entered on the order.   
+**Price Code** If you wish to limit this report to certain pricing/customer codes, enter those code in this field. Please note that this report will use the default pricing code that has been defined for the customer in [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) and not the pricing code entered on the order.   
   
 **Category** If you only wish certain categories of parts to be included in
 the report totals, enter those categories in this field.  

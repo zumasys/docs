@@ -6,7 +6,7 @@
 [ Form Details ](SHIP-R3-1/README.md)   
 
 **Purpose**  
-The SHIP.R3 procedure is used to print a listing of all shipment records which have not been posted by the [ SHIP.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/comm-e/SHIP-P1) procedure. The report is sorted by shipment date. 
+The SHIP.R3 procedure is used to print a listing of all shipment records which have not been posted by the [ SHIP.P1 ](../../MRK-PROCESS/SHIP-P1/README.md) procedure. The report is sorted by shipment date. 
 
 **Frequency of Use**  
 As required.

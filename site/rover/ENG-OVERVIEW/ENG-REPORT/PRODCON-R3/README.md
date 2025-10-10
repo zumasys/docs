@@ -26,7 +26,7 @@ the configuration is reached.
 **Select Max** The maximum number of selections that may be made if this group
 within the configuration is reached.  
 **Opt** The option number or identifier.  
-**Act** Set to "Y" if the option is active and available for selection, "E" if it is only available through [ PRODCON.E2 ](../../../../rover/ENG-OVERVIEW/ENG-ENTRY/PRODCON-E/PRODCON-E2) , and "N" or null if the option is not available.   
+**Act** Set to "Y" if the option is active and available for selection, "E" if it is only available through [ PRODCON.E2 ](../../ENG-ENTRY/PRODCON-E2/README.md) , and "N" or null if the option is not available.   
 **Description** The description of the option.  
 **Specification** The specification code that is associated with the option.  
 **Part Number** The part number, if any, associated with the option.  

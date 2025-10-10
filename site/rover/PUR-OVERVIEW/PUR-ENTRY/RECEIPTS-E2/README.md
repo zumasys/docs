@@ -21,7 +21,7 @@ Mship" flag has been checked. In this case, the status "R" will trigger a
 creation of an MSHIP record to provide a shipping document for sending the
 parts back to the vendor.  
   
-If the debit receipt is tied to an MSHIP record, then [ MSHIP.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E) must be used to trigger the inventory update by setting the status to "S" in [ MSHIP.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E) , which will cause the parts to be removed from inventory. The status of the debit receipt then will be automatically updated to "S"hipped.   
+If the debit receipt is tied to an MSHIP record, then [ MSHIP.E ](../../../MRK-OVERVIEW/MRK-ENTRY/MSHIP-E/README.md) must be used to trigger the inventory update by setting the status to "S" in [ MSHIP.E ](../../../MRK-OVERVIEW/MRK-ENTRY/MSHIP-E/README.md) , which will cause the parts to be removed from inventory. The status of the debit receipt then will be automatically updated to "S"hipped.   
   
 A debit receipt record can be modified or deleted using RECEIPTS.E2 while it is in a "N"ew status, but after the inventory has been updated, if an entry was made in error it can be reversed using [ RECEIPTS.E3 ](RECEIPTS-E3/README.md) . A debit/Mship record can also be deleted before it has been shipped (Status "R"). 
 

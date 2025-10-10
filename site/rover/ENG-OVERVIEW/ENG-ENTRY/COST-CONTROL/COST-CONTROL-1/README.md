@@ -22,7 +22,7 @@ divided by the standard lot size for the part.
 fixed portion of the material overhead costs for a component part. This amount
 is divided by the standard lot size for the part.  
   
-**Material Overhead Account** Enter the account number to be used when applying material overhead to parts received through purchase orders. The account number to be used for material overhead on assembled items should be defined in the [ WO.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL) procedure.   
+**Material Overhead Account** Enter the account number to be used when applying material overhead to parts received through purchase orders. The account number to be used for material overhead on assembled items should be defined in the [ WO.CONTROL ](../../../../PRO-OVERVIEW/PRO-ENTRY/WO-CONTROL/README.md) procedure.   
   
 **Standard Labor Rate** Enter the default labor rate to be used by the cost
 rollup procedure when there is no labor rate specified in the work center.  

@@ -9,7 +9,7 @@
 [ Change History ](ARR-E-4/README.md)   
 
 **Purpose**  
-The ARR.E procedure is used to enter or update recurring entries in the AR module. All information which is needed to create an AR record is entered, along with a series of dates on which the recurring entry will generate that AR item. The selected dates must fall within a valid and/or open fiscal period in order for an AR record or invoice to be generated during the posting process, [ ARR.P1 ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-4/AR-F2/ARR-P1) .   
+The ARR.E procedure is used to enter or update recurring entries in the AR module. All information which is needed to create an AR record is entered, along with a series of dates on which the recurring entry will generate that AR item. The selected dates must fall within a valid and/or open fiscal period in order for an AR record or invoice to be generated during the posting process, [ ARR.P1 ](../../AR-PROCESS/ARR-P1/README.md) .   
   
 The header screen relates primarily to control information about the
 particular record. For memo or other miscellaeous billings, the amount being
@@ -34,7 +34,7 @@ in this field have been exhausted the automatic settings will not be used.
 As required.
 
 **Prerequisites**  
-Entry of valid customers ( [ CUST.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) ). Entry of valid general ledger account numbers ( [ GLCHART.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E) ). Entry of part numbers if they are to entered ( [ PARTS.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) ). 
+Entry of valid customers ( [ CUST.E ](../CUST-E/README.md) ). Entry of valid general ledger account numbers ( [ GLCHART.E ](../../../GL-OVERVIEW/GL-ENTRY/GLCHART-E/README.md) ). Entry of part numbers if they are to entered ( [ PARTS.E ](../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

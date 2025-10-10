@@ -74,7 +74,7 @@ reduce the quantity the amount of the reduction will be subtracted from
 successive steps in the routing beginning with the first step until the amount
 of the change is consumed.  
   
-**Routing** Enter the identification of the routing to be used with the work order. The system will attempt to load a routing with an ID that is the same as the part number previously entered. If it does not find a routing on file it will load the default routing defined by the [ WO.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL) procedure.   
+**Routing** Enter the identification of the routing to be used with the work order. The system will attempt to load a routing with an ID that is the same as the part number previously entered. If it does not find a routing on file it will load the default routing defined by the [ WO.CONTROL ](../../WO-CONTROL/README.md) procedure.   
   
 **Route Rev** Enter the revision of the routing to be used.  
   
@@ -137,9 +137,9 @@ order is in a status of "R" (released). If you will be backflushing material,
 the allocation for the component material will be based on the open balance of
 the work order.  
   
-**Backflush Material** Check this box if you want component materials to be backflushed as the assembly is moved through the manufacturing process. This field is originally defaulted from the [ WO.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL) data. Note: For backflushing to occur you check the "Create Picker" prompt. For backflush work orders, if any component is coded with a "P" operation in the bill of material, then the work order status will be set to "R" when the picklist is created, and the picker step must be performed to pull those parts coded as "P" before the first operation is started. The parts not coded as "P" will be backflushed.   
+**Backflush Material** Check this box if you want component materials to be backflushed as the assembly is moved through the manufacturing process. This field is originally defaulted from the [ WO.CONTROL ](../../WO-CONTROL/README.md) data. Note: For backflushing to occur you check the "Create Picker" prompt. For backflush work orders, if any component is coded with a "P" operation in the bill of material, then the work order status will be set to "R" when the picklist is created, and the picker step must be performed to pull those parts coded as "P" before the first operation is started. The parts not coded as "P" will be backflushed.   
   
-**Backflush Labor** If you wish to backflush labor at standard, check this box. This field is originally defaulted from the [ WO.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL) data.   
+**Backflush Labor** If you wish to backflush labor at standard, check this box. This field is originally defaulted from the [ WO.CONTROL ](../../WO-CONTROL/README.md) data.   
   
 **Work in process location** Enter the work in process location where this
 work order will be assembled.  

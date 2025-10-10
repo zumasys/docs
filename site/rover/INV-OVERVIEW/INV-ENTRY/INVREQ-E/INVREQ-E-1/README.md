@@ -22,7 +22,7 @@ current date will be loaded as the default on new records.
   
 **Due Date** Enter the due date for receiving the parts.  
   
-**Status** This field contains the current status of the requisition. The following options are available: O - Open C - Closed. When a new requisition is entered the status will be set to "N". When the requisition is filled using [ IT.E2 ](../../../../../rover/INV-OVERVIEW/INV-ENTRY/IT-E2) , the system will set the status to "C" automatically. You may also set the status to "C" manually to close one that will not be filled.   
+**Status** This field contains the current status of the requisition. The following options are available: O - Open C - Closed. When a new requisition is entered the status will be set to "N". When the requisition is filled using [ IT.E2 ](../../../../../rover/INV-OVERVIEW/INV-ENTRY/IT-E2/README.md) , the system will set the status to "C" automatically. You may also set the status to "C" manually to close one that will not be filled.   
   
 **Status Desc** Contains the text Open or closed depending on the entry in the
 status field.  
@@ -43,7 +43,7 @@ specific location that is required to be used.
   
 **To Loc** Enter the location the parts will be moved to, if known.  
   
-**Qty Issued** This is the quantity of this part number that has been moved, for reference only. This is updated automatically by [ IT.E2 ](../../../../../rover/INV-OVERVIEW/INV-ENTRY/IT-E2) .   
+**Qty Issued** This is the quantity of this part number that has been moved, for reference only. This is updated automatically by [ IT.E2 ](../../../../../rover/INV-OVERVIEW/INV-ENTRY/IT-E2/README.md) .   
   
 **Notes** Enter any notes associated with this inventory requisition. They
 will print in the requisition form.  

@@ -60,7 +60,7 @@ cost will become "A" parts.
 "B". For example, if you enter 30, then 30% of parts ranked by usage & cost
 after "A" parts will become "B" parts. The rest will become "C" parts.  
   
-**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) . The cost group is used to define the costing method and will be used to determine which unit cost to use in the stratification process.   
+**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../INV-OVERVIEW/INV-ENTRY/INV-CONTROL/README.md) . The cost group is used to define the costing method and will be used to determine which unit cost to use in the stratification process.   
   
 **Part Status** If you want to limit the part population to include only
 certain part statuses, enter them here.  

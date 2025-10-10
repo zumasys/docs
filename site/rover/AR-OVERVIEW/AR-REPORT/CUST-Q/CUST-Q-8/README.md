@@ -16,7 +16,7 @@
   
 **Invoice Date** The date of the invoice.  
   
-**Date** The date the invoice was issued or the date the invoice is due. If the aging method in the [ ACCT.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL) procedure is "D" this date will be the due date. If the terms code on the invoice allows for multiple due dates, the invoice may be listed more than once. If the aging method in [ ACCT.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL) is not set to "D" this date will be the invoice date and the invoice will only be listed once.   
+**Date** The date the invoice was issued or the date the invoice is due. If the aging method in the [ ACCT.CONTROL ](../../../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) procedure is "D" this date will be the due date. If the terms code on the invoice allows for multiple due dates, the invoice may be listed more than once. If the aging method in [ ACCT.CONTROL ](../../../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) is not set to "D" this date will be the invoice date and the invoice will only be listed once.   
   
 **Amount** The original invoice amount.  
   

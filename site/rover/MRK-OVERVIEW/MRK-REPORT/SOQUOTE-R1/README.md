@@ -6,7 +6,7 @@
 [ Form Details ](SOQUOTE-R1-1/README.md)   
 
 **Purpose**  
-SOQUOTE.R1 provides a report of all quotes entered through [ SOQUOTE.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-1/SOQUOTE-E) . You may limit the listing to a start and/or end date range, and for a specific status. 
+SOQUOTE.R1 provides a report of all quotes entered through [ SOQUOTE.E ](../../MRK-ENTRY/SOQUOTE-E/README.md) . You may limit the listing to a start and/or end date range, and for a specific status. 
 
 **Frequency of Use**  
 As required.

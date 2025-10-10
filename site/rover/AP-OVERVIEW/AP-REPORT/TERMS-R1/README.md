@@ -13,7 +13,7 @@ defined.
 As required.
 
 **Prerequisites**  
-Entry of payment terms records ( [ TERMS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E) ). 
+Entry of payment terms records ( [ TERMS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E/README.md) ). 
 
 **Data Fields**
 

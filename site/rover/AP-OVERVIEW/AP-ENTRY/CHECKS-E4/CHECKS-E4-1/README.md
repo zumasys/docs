@@ -6,7 +6,7 @@
 
 ![](images/CHECKS-E4-1.jpg)
 
-**Check#** Enter the number of the hand check which you are logging into the system. As checks should already have been manually prepared, you must enter a check number. No changes are allowed to an existing check record, for audit purposes. If a refund check needs to be deleted, it should be done through [ CHECKS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) . If deleted, the original AR credit memos will not be reopened.   
+**Check#** Enter the number of the hand check which you are logging into the system. As checks should already have been manually prepared, you must enter a check number. No changes are allowed to an existing check record, for audit purposes. If a refund check needs to be deleted, it should be done through [ CHECKS.E ](../../CHECKS-E/README.md) . If deleted, the original AR credit memos will not be reopened.   
   
 **Co Code** Enter the company code for this check. The company code must be
 pre-defined in the CO.CONTROL procedure. If only one code exists, it will
@@ -44,7 +44,7 @@ characters, will be printed on the check stub.
 **Check.Amt** Enter the amount for which the check was issued. This is the
 actual amount paid by the check.  
   
-**Disb.Acct#** Enter the G/L account number from which this check is being paid. This account number is defaulted from the [ AP.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) record and may be changed if desired.   
+**Disb.Acct#** Enter the G/L account number from which this check is being paid. This account number is defaulted from the [ AP.CONTROL ](../../AP-CONTROL/README.md) record and may be changed if desired.   
   
 **Disb Acct Desc**  
   

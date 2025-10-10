@@ -15,7 +15,7 @@ produced, showing all routeshipments that were created. If a record already
 exists for that route#/load date, then a message on the report will indicate
 that.  
   
-The routeship records can be adjusted manually as needed using [ ROUTESHIP.E ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-1/ROUTE-E/ROUTESHIP-E) . 
+The routeship records can be adjusted manually as needed using [ ROUTESHIP.E ](../../MRK-ENTRY/ROUTESHIP-E/README.md) . 
 
 **Frequency of Use**  
 As required. This procedure could be run daily to automatically create each

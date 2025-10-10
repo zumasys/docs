@@ -3,7 +3,7 @@
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/rmarec-p1/RMAREC-P1-1)   
+[ Form Details ](../../MRK-OVERVIEW/MRK-PROCESS/RMAREC-P1/RMAREC-P1-1/README.md)   
 
 **Purpose**  
 The RMAREC.P1 procedure is used to post previously entered RMA receipts. If
@@ -19,7 +19,7 @@ Less frequent processing may be done if desired but should be done at least
 once a month before the end of the month closing.
 
 **Prerequisites**  
-Setup of the appropriate account numbers in the [ AR.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) procedure. 
+Setup of the appropriate account numbers in the [ AR.CONTROL ](../../AR-OVERVIEW/AR-ENTRY/AR-CONTROL/README.md) procedure. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

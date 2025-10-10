@@ -6,7 +6,7 @@
 
 ![](./GLTRANS-E-1.jpg)
 
-**Gltrans ID** The number of the transaction (journal entry). For new transactions, this number will be automatically assigned when the record is filed. Existing numbers can be entered only if the transaction has not yet been posted (the post flag in the [ GL.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL) record is set to 'H').   
+**Gltrans ID** The number of the transaction (journal entry). For new transactions, this number will be automatically assigned when the record is filed. Existing numbers can be entered only if the transaction has not yet been posted (the post flag in the [ GL.CONTROL ](../../GL-CONTROL/README.md) record is set to 'H').   
   
 **Load** If you wish to load in the account numbers from an existing journal,
 enter the existing transaction number here. This function can only be used

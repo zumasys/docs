@@ -28,7 +28,7 @@ procedures in the Marketing Module. This is usually done as part of setting up
 the system. The entries may be changed after that time as required.
 
 **Prerequisites**  
-The finished goods and cost of goods sold locations must have been previously defined in the Inventory Location file ( [ INVLOC.E ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/INVLOC-E) ). 
+The finished goods and cost of goods sold locations must have been previously defined in the Inventory Location file ( [ INVLOC.E ](../../../INV-OVERVIEW/INV-ENTRY/INVLOC-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

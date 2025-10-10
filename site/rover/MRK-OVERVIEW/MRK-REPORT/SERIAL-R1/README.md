@@ -13,7 +13,7 @@ part number. The report is sorted by serial number.
 As required.
 
 **Prerequisites**  
-The process of tracking serial numbers must have been enabled in the [ MRK.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) procedure. 
+The process of tracking serial numbers must have been enabled in the [ MRK.CONTROL ](../../MRK-ENTRY/MRK-CONTROL/README.md) procedure. 
 
 **Data Fields**
 

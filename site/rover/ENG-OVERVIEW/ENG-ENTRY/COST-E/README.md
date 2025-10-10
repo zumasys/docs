@@ -31,7 +31,7 @@ done manually within the general ledger.
 As required.
 
 **Prerequisites**  
-Entry of part numbers into the Parts Master ( [ PARTS.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) ). Bills of material do not need to be entered ( [ BOM.E ](BOM-E/README.md) ) until a cost rollup is to be performed, however their part numbers must be identified in the Parts Master. 
+Entry of part numbers into the Parts Master ( [ PARTS.E ](../PARTS-E/README.md) ). Bills of material do not need to be entered ( [ BOM.E ](BOM-E/README.md) ) until a cost rollup is to be performed, however their part numbers must be identified in the Parts Master. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

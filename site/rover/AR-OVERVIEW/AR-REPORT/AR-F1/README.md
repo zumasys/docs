@@ -6,13 +6,13 @@
 [ Form Details ](AR-F1-1/README.md)   
 
 **Purpose**  
-The AR.F1 procedure is used to print / re-print invoices on pre- printed forms. Any AR item, whether it came from the shipments process, was entered through [ AR.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) , or was created through [ ARR.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-4/AR-F2/ARR-P1) may be selected and printed. If invoices are printed using the [ SHIP.F1 ](SHIP-F1/README.md) procedure, then the AR.F1 process need only be run when a re-print of an invoice is required. 
+The AR.F1 procedure is used to print / re-print invoices on pre- printed forms. Any AR item, whether it came from the shipments process, was entered through [ AR.E ](../../AR-ENTRY/AR-E/README.md) , or was created through [ ARR.P1 ](../../AR-PROCESS/ARR-P1/README.md) may be selected and printed. If invoices are printed using the [ SHIP.F1 ](SHIP-F1/README.md) procedure, then the AR.F1 process need only be run when a re-print of an invoice is required. 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-Entry of the selected Shipment reocrds ( [ SHIP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E) or [ SHIP.E2 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2) ). 
+Entry of the selected Shipment reocrds ( [ SHIP.E ](../../../MRK-OVERVIEW/MRK-ENTRY/SHIP-E/README.md) or [ SHIP.E2 ](../../../MRK-OVERVIEW/MRK-ENTRY/SHIP-E2/README.md) ). 
 
 **Data Fields**
 

@@ -8,7 +8,7 @@
 
 **Control ID** The entry NCMR will be defaulted and is the only option.  
   
-**Type code** Enter the list of type codes that can be assigned during [ NCMR.E ](../../../../../rover/PRO-OVERVIEW/PRO-ENTRY/NCMR-E) .   
+**Type code** Enter the list of type codes that can be assigned during [ NCMR.E ](../../../../../rover/PRO-OVERVIEW/PRO-ENTRY/NCMR-E/README.md) .   
   
 **Type Description** Enter the description of the associated type code.  
   

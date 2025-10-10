@@ -40,7 +40,7 @@ setting up the system. The report period and year should be changed as
 required to report against prior periods.
 
 **Prerequisites**  
-All account number must have been previously defined in the [ GLCHART.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E) procedure. 
+All account number must have been previously defined in the [ GLCHART.E ](../GLCHART-E/README.md) procedure. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

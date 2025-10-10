@@ -42,7 +42,7 @@ close the requisition.
 **Requested Date** Enter the date on which the requisition was initiated. The
 current date will be loaded as the default on new records.  
   
-**Approved By** Enter the name of the person granting approval of this requisition. If approval userids and dollar limits exist in [ PO.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-2/PO-CONTROL) , then they will be checked when this entry is made.   
+**Approved By** Enter the name of the person granting approval of this requisition. If approval userids and dollar limits exist in [ PO.CONTROL ](../../PO-CONTROL/README.md) , then they will be checked when this entry is made.   
   
 **Approved Date** Enter the date on which approval was granted for the
 requisition.  

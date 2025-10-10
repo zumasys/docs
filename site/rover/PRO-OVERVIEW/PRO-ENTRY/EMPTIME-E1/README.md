@@ -12,7 +12,7 @@ This procedure is used for clocking employees into the system. It is usually use
 When employees end their shift.
 
 **Prerequisites**  
-Employee information must be entered using the [ EMP.E ](EMP-E/README.md) procedure and control parameters must be defined in the [ LABOR.CONTROL ](../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/LABOR-CONTROL) and [ BAR.CONTROL ](BAR-CONTROL/README.md) procedures. 
+Employee information must be entered using the [ EMP.E ](EMP-E/README.md) procedure and control parameters must be defined in the [ LABOR.CONTROL ](../LABOR-CONTROL/README.md) and [ BAR.CONTROL ](BAR-CONTROL/README.md) procedures. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

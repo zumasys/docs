@@ -20,7 +20,7 @@
   
 **Cash.Account** Enter the cash account number into which the amount is to be transferred.
   
-**Accounts** Enter the clearing account number which will be used to offset the cash accounts when this record is filed. This will be defaulted from the [ AR.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) screen if it has been entered there.
+**Accounts** Enter the clearing account number which will be used to offset the cash accounts when this record is filed. This will be defaulted from the [ AR.CONTROL ](../../AR-CONTROL/README.md) screen if it has been entered there.
   
 **Notes** Enter any notes desired.  
   
@@ -32,9 +32,9 @@
   
 **Check Number** If the transfer being processed was a check, enter the check number here. For cash or electronic transfer you may either enter "CASH" or some other designation here, or leave this field empty.  
   
-**Deposit ID** This optional field may be used to group a series of cash entries by a common deposit number and later print them on a single cash deposit report. Deposit slips may, also, be printed via [ CASH.F1 ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-2/CASH-F1) . If you will be using [ RECON.E ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/CASH-E-1/RECON-E) to reconcile your bank statements, a deposit id is recommended.   
+**Deposit ID** This optional field may be used to group a series of cash entries by a common deposit number and later print them on a single cash deposit report. Deposit slips may, also, be printed via [ CASH.F1 ](../../../AR-REPORT/CASH-F1/README.md) . If you will be using [ RECON.E ](../../RECON-E/README.md) to reconcile your bank statements, a deposit id is recommended.   
   
-**Bank Number** Enter the bank number for this cash transaction. This number will print on the deposit slip form , [ CASH.F1 ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-2/CASH-F1) .   
+**Bank Number** Enter the bank number for this cash transaction. This number will print on the deposit slip form , [ CASH.F1 ](../../../AR-REPORT/CASH-F1/README.md) .   
   
 **AP Check Number** You may optionally enter the check number that will be created to offset the cash entry. This check number must not exist in the CHECKS file. If not entered, a number will be generated prefixed by "T" to use as the check ID.  
   

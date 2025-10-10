@@ -27,7 +27,7 @@ record.
 As required.
 
 **Prerequisites**  
-Entry of work center records to be referenced in the routing ( [ WC.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E) ). 
+Entry of work center records to be referenced in the routing ( [ WC.E ](../WC-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

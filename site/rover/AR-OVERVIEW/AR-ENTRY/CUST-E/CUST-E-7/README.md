@@ -25,7 +25,7 @@ is 5.00, the customer will be given a $5.00 rebate.
 **Rebate Freq** Enter the frequency with which the rebate will be given to a
 customer.  
   
-INVOICE - A miscellaneous charge (credit) will be added to the invoice for the rebate amount at the time the invoice is created. This rebate will not be applied to misc. invoices created via [ AR.E ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) .   
+INVOICE - A miscellaneous charge (credit) will be added to the invoice for the rebate amount at the time the invoice is created. This rebate will not be applied to misc. invoices created via [ AR.E ](../../AR-E/README.md) .   
   
 **From Sales Amt** Enter the starting range or sales volume the customer
 should receive a rebate for. For example, you may offer a rebate to customers

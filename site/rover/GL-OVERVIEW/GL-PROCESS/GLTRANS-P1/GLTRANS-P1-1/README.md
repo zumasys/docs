@@ -45,9 +45,9 @@ posted.
 **Journal Types** If you wish to post all journal entries, leave this field
 blank.  
   
-If you only wish to post journals that were generated from the register files, enter REGISTER in this field. These journal entries are created via [ GLINT.P1 ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL/GL-CONTROL-1/GLINT-P1) .   
+If you only wish to post journals that were generated from the register files, enter REGISTER in this field. These journal entries are created via [ GLINT.P1 ](../../GLINT-P1/README.md) .   
   
-If you only wish to post miscellaneous/manual journals, enter GLTRANS in this field. These journal entries are created via [ GLTRANS.E ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E) , [ GLRECUR.P1 ](GLRECUR-P1/README.md) and [ RECON.E ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/CASH-E-1/RECON-E) .   
+If you only wish to post miscellaneous/manual journals, enter GLTRANS in this field. These journal entries are created via [ GLTRANS.E ](../../../GL-ENTRY/GLTRANS-E/README.md) , [ GLRECUR.P1 ](GLRECUR-P1/README.md) and [ RECON.E ](../../../../AR-OVERVIEW/AR-ENTRY/RECON-E/README.md) .   
   
 **Gltrans Id** If you only wish to post specified journal entries enter the
 numbers here.  

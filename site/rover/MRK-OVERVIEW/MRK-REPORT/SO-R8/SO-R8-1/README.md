@@ -60,7 +60,7 @@ on the listing will be printed. Enter the letter "P" for part, or "M" for
 model. You are prompted for this entry only if you selected the detail option
 in the previous prompt.  
   
-**Calendar or Fiscal Period** Enter the letter "C" if you want to report by calendar period. "F" will report by fiscal period as defined by the [ FY.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E/GLTRANS-E-1/FY-E) procedure.   
+**Calendar or Fiscal Period** Enter the letter "C" if you want to report by calendar period. "F" will report by fiscal period as defined by the [ FY.E ](../../../../GL-OVERVIEW/GL-ENTRY/FY-E/README.md) procedure.   
   
 **Co Code** Enter the company codes you wish to appear on this report. If left
 blank all company codes will be included.  

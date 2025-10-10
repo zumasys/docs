@@ -6,7 +6,7 @@
 [ Form Details ](SHIP-F1-1/README.md)   
 
 **Purpose**  
-The SHIP.F1 procedure is used to print invoice/packing slips on pre- printed forms. One copy of this form is usually sent along with the materials as the packing slip with another copy sent separately as the invoice, and the remaining copies for internal files. Another approach is to use this procedure for printing the packing slip only and using the [ AR.F1 ](../../../../../rover/AR-OVERVIEW/AR-REPORT/AR-F1) procedure to print invoices as a separate activity. The user determines which shipments are to be printed by entering their numbers.   
+The SHIP.F1 procedure is used to print invoice/packing slips on pre- printed forms. One copy of this form is usually sent along with the materials as the packing slip with another copy sent separately as the invoice, and the remaining copies for internal files. Another approach is to use this procedure for printing the packing slip only and using the [ AR.F1 ](../../../AR-OVERVIEW/AR-REPORT/AR-F1/README.md) procedure to print invoices as a separate activity. The user determines which shipments are to be printed by entering their numbers.   
   
 The [ SHIP.F3 ](SHIP-F3/README.md) procedure is available to print the same form except without the dollar values shown. 
 
@@ -15,7 +15,7 @@ Invoice/Packing slip forms may be printed as required and may be also be re-
 printed at any time.
 
 **Prerequisites**  
-Entry of the selected Shipment reocrds ( [ SHIP.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E) or [ SHIP.E2 ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2) ). 
+Entry of the selected Shipment reocrds ( [ SHIP.E ](../../MRK-ENTRY/SHIP-E/README.md) or [ SHIP.E2 ](../../MRK-ENTRY/SHIP-E2/README.md) ). 
 
 **Data Fields**
 

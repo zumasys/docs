@@ -46,7 +46,7 @@ deleteing uncounted tags. This is a required field.
 **Ending Tag#** Enter the ending tag number that should be used when deleteing
 uncounted tags. This is a required field.  
   
-**Reset Cycle Date** Check this box if you wish to reset the cycle date based on the parameters defined in the [ INV.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) procedure. The date will only be reset if another tag does not exist for the same part and location. Example: three cycle tags were created for part AAA in location STOCK for three different lot numbers and two of the tags are deleted. If this option is selected, the date will not be reset because the thrid tag was not deleted.   
+**Reset Cycle Date** Check this box if you wish to reset the cycle date based on the parameters defined in the [ INV.CONTROL ](../../../INV-ENTRY/INV-CONTROL/README.md) procedure. The date will only be reset if another tag does not exist for the same part and location. Example: three cycle tags were created for part AAA in location STOCK for three different lot numbers and two of the tags are deleted. If this option is selected, the date will not be reset because the thrid tag was not deleted.   
   
 If this option is not selected the parts will continue to appear in future
 cycle runs until the parts are counted.  

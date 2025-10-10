@@ -28,7 +28,7 @@ for you but can be changed as required. If the post date falls into a closed
 fiscal period, you will need to change this date to one that falls within an
 open fiscal period before the record can be deleted.  
   
-**Cust** If the payment was received for an existing customer, enter the customer id in this field. The name entered in [ CUST.E ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) for the customer will be loaded into the NAME field for you. If required, the customer number is one of several fields that can be changed on existing records.   
+**Cust** If the payment was received for an existing customer, enter the customer id in this field. The name entered in [ CUST.E ](../../CUST-E/README.md) for the customer will be loaded into the NAME field for you. If required, the customer number is one of several fields that can be changed on existing records.   
   
 **Misc Name** Enter the name of the company or individual the payment was
 received from in this field. If a customer id has been entered, the name will
@@ -44,9 +44,9 @@ field empty.
 **Cash.Account** Enter the cash account number into which the amount is to be
 deposited.  
   
-**Deposit ID** This optional field may be used to group a series of cash entries by a common deposit number and later print them on a single cash deposit report. Deposit slips may ,also, be printed via [ CASH.F1 ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-2/CASH-F1) . If you will be using [ RECON.E ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/CASH-E-1/RECON-E) to reconcile your bank statements, a deposit id is recommended. If required, the deposit id is one of several fields that can be changed on existing records.   
+**Deposit ID** This optional field may be used to group a series of cash entries by a common deposit number and later print them on a single cash deposit report. Deposit slips may ,also, be printed via [ CASH.F1 ](../../../AR-REPORT/CASH-F1/README.md) . If you will be using [ RECON.E ](../../RECON-E/README.md) to reconcile your bank statements, a deposit id is recommended. If required, the deposit id is one of several fields that can be changed on existing records.   
   
-**Bank Number** Enter the bank number for this cash transaction. This number will print on the deposit slip form , [ CASH.F1 ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-2/CASH-F1) . If required, the bank number is one of several fields that can be changed on existing records.   
+**Bank Number** Enter the bank number for this cash transaction. This number will print on the deposit slip form , [ CASH.F1 ](../../../AR-REPORT/CASH-F1/README.md) . If required, the bank number is one of several fields that can be changed on existing records.   
   
 **Notes** Enter any notes desired. If required, the notes are one of several
 fields that can be changed on existing records.  

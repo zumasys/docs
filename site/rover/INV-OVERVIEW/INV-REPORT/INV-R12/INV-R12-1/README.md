@@ -49,7 +49,7 @@ program.
 **Category** If you wish to limit this report to certain categories of
 reports, enter the categories in this field.  
   
-**Ref Bins** If you wish to limit the parts that appear on this report to parts with the same bin number, enter the bin numbers in this field. For purposes of this report the bins used are reference bins. Quantities on hand are not maintained for reference bins and the totals that appear on this report are for the location and not the bin number. If you wish to run a report that will show you the quantities on hand by bin number for bin controlled locations, use [ INV.R9 ](../../../../../rover/INV-OVERVIEW/INV-REPORT/INV-R9) .   
+**Ref Bins** If you wish to limit the parts that appear on this report to parts with the same bin number, enter the bin numbers in this field. For purposes of this report the bins used are reference bins. Quantities on hand are not maintained for reference bins and the totals that appear on this report are for the location and not the bin number. If you wish to run a report that will show you the quantities on hand by bin number for bin controlled locations, use [ INV.R9 ](../../../../../rover/INV-OVERVIEW/INV-REPORT/INV-R9/README.md) .   
   
 **Include Ref Bins** Checki this box if you wish the reference bins that have
 been defined for a location to appear on the report. Pleae note that reference

@@ -6,13 +6,13 @@
 [ Form Details ](PHYS-R4-1/README.md)   
 
 **Purpose**  
-PHYS.R4 provides physical inventory count sheets for the purpose of recording counted quantities during a physical inventory. You may specify the locations to be included in the listing and if the current balance is to be printed on the report. If you prefer to print individual tags for each part, use the [ PHYS.F1 ](../../../../rover/INV-OVERVIEW/INV-ENTRY/PHYS-E2/PHYS-F1) procedure. 
+PHYS.R4 provides physical inventory count sheets for the purpose of recording counted quantities during a physical inventory. You may specify the locations to be included in the listing and if the current balance is to be printed on the report. If you prefer to print individual tags for each part, use the [ PHYS.F1 ](../PHYS-F1/README.md) procedure. 
 
 **Frequency of Use**  
 During physical inventory.
 
 **Prerequisites**  
-The [ PHYS.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/PHYS-P1) procedure must have been run to generate the physical inventory count records. 
+The [ PHYS.P1 ](../../INV-PROCESS/PHYS-P1/README.md) procedure must have been run to generate the physical inventory count records. 
 
 **Data Fields**
 

@@ -22,7 +22,7 @@ None.
 **Data Fields**
 
 **Status** The status of the prospect.  
-**Status Description** The description of the status, as found in [ PROSPECT.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/PROSPECT-CONTROL) .   
+**Status Description** The description of the status, as found in [ PROSPECT.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/PROSPECT-CONTROL/README.md) .   
 **Name** The name of the prospect.  
 **City** The city where the prospect is located.  
 **State** The state in which the prospect is located.  
@@ -30,13 +30,13 @@ None.
 **Rep** The sales rep assigned to the prospect.  
 **Rep Name** The name of the sales rep, from the REP file.  
 **Source** The source of the prospect.  
-**Stage** The stage(s) as found in [ PROSPECT.E ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/PROSPECT-CONTROL/PROSPECT-E) .   
+**Stage** The stage(s) as found in [ PROSPECT.E ](../../MRK-ENTRY/PROSPECT-E/README.md) .   
 **Units** The number of units for each stage.  
 **Ext Amount** The extended price for each stage.  
 **Est Close** The estimated close of each stage.  
 **Prob** The estimated probability of close of each stage.  
 **Stat** The status of each stage.  
-**Notes** The header notes from [ PROSPECT.E ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/PROSPECT-CONTROL/PROSPECT-E) .   
+**Notes** The header notes from [ PROSPECT.E ](../../MRK-ENTRY/PROSPECT-E/README.md) .   
   
 <badge text= "Version 8.10.57" vertical="middle" />
 

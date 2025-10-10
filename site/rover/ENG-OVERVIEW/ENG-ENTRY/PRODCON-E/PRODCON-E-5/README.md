@@ -39,7 +39,7 @@ already been selected.
 **Required** Check this box if the user is required to select the associated
 sub-option list during the configuration process.  
   
-**Active** Enter the letter "Y" if the associated option is to be displayed in the configurator. Setting this field to "N" allows you to remove options that were once valid from the configuration process, while maintaining the structure of the definition record. You may also set the value to "E" which indicates expert mode, allowing users of [ PRODCON.E2 ](../../../../../rover/ENG-OVERVIEW/ENG-ENTRY/PRODCON-E/PRODCON-E2) to have access to these options.   
+**Active** Enter the letter "Y" if the associated option is to be displayed in the configurator. Setting this field to "N" allows you to remove options that were once valid from the configuration process, while maintaining the structure of the definition record. You may also set the value to "E" which indicates expert mode, allowing users of [ PRODCON.E2 ](../../PRODCON-E2/README.md) to have access to these options.   
   
 **Add Desc** Check this box if you want the description of the associated
 option to be added to the parts master description if it is selected.  

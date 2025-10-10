@@ -30,7 +30,7 @@ on the second screen.
 As required.
 
 **Prerequisites**  
-Initialization of the marketing control record ( [ MRK.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) ), and entry of the customer and terms records to be referenced. If the orders are for inventoried parts, the part number must exist on the Parts file and the inventory locations must exist on the Invloc file. 
+Initialization of the marketing control record ( [ MRK.CONTROL ](../MRK-CONTROL/README.md) ), and entry of the customer and terms records to be referenced. If the orders are for inventoried parts, the part number must exist on the Parts file and the inventory locations must exist on the Invloc file. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

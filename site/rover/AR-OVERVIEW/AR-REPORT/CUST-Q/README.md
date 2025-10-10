@@ -24,7 +24,7 @@ contact log.
   
 The number of days of sales history which is displayed depends on parameters used when running [ SALES.P2 ](SALES-P2/README.md) , a separate procedure that updates sales analysis data. Note that this update is normally setup as as part of the nightly batch processing.   
   
-The number of days of A/R activity displayed depends on the setting in [ ACCT.CONTROL ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL) .   
+The number of days of A/R activity displayed depends on the setting in [ ACCT.CONTROL ](../../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) .   
   
 Information in CUST.Q is read-only data. You do have the ability to log transactions by using a button provided to add a new log transaction. Log transactions are stored in a separate data file. Customer data should be entered through the customer entry procedure ( [ CUST.E ](CUST-E/README.md) )   
 

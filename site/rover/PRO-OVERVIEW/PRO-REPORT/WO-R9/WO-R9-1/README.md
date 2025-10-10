@@ -45,7 +45,7 @@ period, enter the period number.
 **Start Year** Enter the year to use along with the month in the previous
 prompt to define the first period. You must enter the full year such as 2004.  
   
-**C)alendar or F)iscal Per?** Enter the letter "C" if you want to report by calendar period. "F" will report by fiscal period as defined by the [ FY.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E/GLTRANS-E-1/FY-E) procedure.   
+**C)alendar or F)iscal Per?** Enter the letter "C" if you want to report by calendar period. "F" will report by fiscal period as defined by the [ FY.E ](../../../../GL-OVERVIEW/GL-ENTRY/FY-E/README.md) procedure.   
   
 **D)ollars or H)ours?** Enter the letter "D" if you want to summarize earned
 dollars for each period. Enter "H" to summarize earned hours for each period.  

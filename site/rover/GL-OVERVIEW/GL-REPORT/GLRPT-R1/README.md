@@ -6,7 +6,7 @@
 [ Form Details ](GLRPT-R1-1/README.md)   
 
 **Purpose**  
-The GLRPT.R1 procedure is used to list the structure of selected or all GLRPT financial report frameworks. The report is used to audit the data entry of the report structures entered by [ GLRPT.E ](../../../../rover/GL-OVERVIEW/GL-ENTRY/GLRPT-E) . 
+The GLRPT.R1 procedure is used to list the structure of selected or all GLRPT financial report frameworks. The report is used to audit the data entry of the report structures entered by [ GLRPT.E ](../../../../rover/GL-OVERVIEW/GL-ENTRY/GLRPT-E/README.md) . 
 
 **Frequency of Use**  
 As required.

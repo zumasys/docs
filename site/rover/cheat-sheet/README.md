@@ -71,7 +71,7 @@ This cheat sheet provides a list of commonly used processes, reports, and entry 
 | Activity      | Menu/Sub    | Procedure        | Notes |
 |---------------|-------------|------------------|-------|
 |Update PO controls and defaults | PUR/PUR.ENTRY | [PO.CONTROL](../AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/po-control/README.md) |
-|Update DMR controls | PUR/PUR.ENTRY | [DMR.CONTROL](../AP-OVERVIEW/AP-REPORT/VENDOR-Q/VENDOR-Q-9/DMR-CONTROL) |
+|Update DMR controls | PUR/PUR.ENTRY | [DMR.CONTROL](../PUR-OVERVIEW/PUR-ENTRY/DMR-CONTROL/README.md) |
 |Update vendor information | PUR/PUR.ENTRY | [VENDOR.E](../AP-OVERVIEW/AP-ENTRY/VENDOR-E/README.md) | Create all contact information.
 |Define PO prices | PUR/PUR.ENTRY | [POPRICE.E](../AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-3/poprice-e/README.md) | Can define prices for each vendor for a part.
 |Define standard notes | PUR/PUR.ENTRY | [PO.NOTES](../PUR-OVERVIEW/PUR-ENTRY/PO-NOTES/README.md) |
@@ -207,8 +207,8 @@ This cheat sheet provides a list of commonly used processes, reports, and entry 
 | Activity      | Menu/Sub    | Procedure        | Notes |
 |---------------|-------------|------------------|-------|
 |Establish control and defaults | AR/AR.ENTRY | [ACCT.CONTROL](../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) |
-|Establish control and defaults | AR/AR.ENTRY | [AR.CONTROL](..) |
-|Define terms codes | AR/AR.ENTRY | [TERMS.E](..) |
+|Establish control and defaults | AR/AR.ENTRY | [AR.CONTROL](../README.md) |
+|Define terms codes | AR/AR.ENTRY | [TERMS.E](../README.md) |
 |Update customer data | AR/AR.ENTRY | [CUST.E](../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/README.md) | Update contact information.
 
 #### Daily Procedures

@@ -17,7 +17,7 @@ No inventory movements occur as a result of this procedure.
 As required.
 
 **Prerequisites**  
-Initialization of the marketing control record ( [ MRK.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) ), entry of the required inventory locations and creation of sales orders. 
+Initialization of the marketing control record ( [ MRK.CONTROL ](../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/README.md) ), entry of the required inventory locations and creation of sales orders. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

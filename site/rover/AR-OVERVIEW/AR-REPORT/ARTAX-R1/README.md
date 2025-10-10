@@ -16,7 +16,7 @@ which will be reported to the appropriate sales tax collection authority. It
 can be run as required to audit progress through the period.
 
 **Prerequisites**  
-Sales Tax register records are created automatically by the system through the [ AR.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) , [ SHIP.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/comm-e/SHIP-P1) , [ RMA.P1 ](RMA-P1.htm) and [ ARR.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-4/AR-F2/ARR-P1) procedures. 
+Sales Tax register records are created automatically by the system through the [ AR.E ](../../AR-ENTRY/AR-E/README.md) , [ SHIP.P1 ](../../../duplicates/SHIP-P1/README.md) , [ RMA.P1 ](RMA-P1.htm) and [ ARR.P1 ](../../AR-PROCESS/ARR-P1/README.md) procedures. 
 
 **Data Fields**
 
@@ -28,7 +28,7 @@ sales tax entry.
 **Record Date** The date of the AR item.  
 **ARTAX ID** The record id which was sequentially assigned to this detail
 record in the ARTAX file.  
-**ARTAX Date** The date on which the ARTAX record was created. This should normally be the same as the AR record date. It will only differ if records have been manually altered using [ ARTAX.E ](../../../../rover/AR-OVERVIEW/AR-ENTRY/ARTAX-E) .   
+**ARTAX Date** The date on which the ARTAX record was created. This should normally be the same as the AR record date. It will only differ if records have been manually altered using [ ARTAX.E ](../../../../rover/AR-OVERVIEW/AR-ENTRY/ARTAX-E/README.md) .   
 **ARTAX Amount** The amount of sales tax collected for the associated sales
 tax code and AR item.  
 **Post Date** The date which the [ ARTAX.P1 ](ARTAX-P1/README.md) procedure was run to flag ARTAX records as posted. This is important when you are allowing AR items to be posted into a prior period and you wish to know the exact sales tax figures of those postings.   

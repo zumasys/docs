@@ -22,14 +22,14 @@ None.
 
 **Check#** The record ID of the item in the CHECKS file.  
 **Vend#** The vendor number.  
-**Vendor.Name** The name of the vendor as it appears in the Vendor file. If this check was entered via [ CHECKS.E4 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4) and the option to print notes was not selected, then this is the first line of the notes.   
+**Vendor.Name** The name of the vendor as it appears in the Vendor file. If this check was entered via [ CHECKS.E4 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/README.md) and the option to print notes was not selected, then this is the first line of the notes.   
 **Chk.Date** The date of the check.  
 **Check.Amount** The total amount of the check.  
 **Invoice Number** The invoice number associated with the prepayment.  
 **Debit ID** The Debit ID created as a result of the prepayment check.  
 **St** The current status of the check record. (P = posted, other codes are
 user-defined)  
-**Notes** Optionally, the notes as entered in [ CHECKS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) will be printed.   
+**Notes** Optionally, the notes as entered in [ CHECKS.E ](../../AP-ENTRY/CHECKS-E/README.md) will be printed.   
   
 <badge text= "Version 8.10.57" vertical="middle" />
 

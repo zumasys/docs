@@ -9,7 +9,7 @@
 **Transaction Number** Enter the number of the inventory transaction you want
 to view.  
   
-**Date** The post date of the transaction. This date is usually the actual date on which the transaction was entered, however procedures such as [ RECEIPTS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2/RECEIPTS-E3/RECEIPTS-E) and [ SHIP.E2 ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2) may allow the user to set this date.   
+**Date** The post date of the transaction. This date is usually the actual date on which the transaction was entered, however procedures such as [ RECEIPTS.E ](../../../../PUR-OVERVIEW/PUR-ENTRY/RECEIPTS-E/README.md) and [ SHIP.E2 ](../../../../MRK-OVERVIEW/MRK-ENTRY/SHIP-E2/README.md) may allow the user to set this date.   
   
 **Quantity** The quantity moved by the transaction.  
   

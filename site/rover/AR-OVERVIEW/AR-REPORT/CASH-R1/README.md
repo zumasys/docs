@@ -6,7 +6,7 @@
 [ Form Details ](CASH-R1-1/README.md)   
 
 **Purpose**  
-The CASH.R1 procedure is used to print a cash receipts / check register for a selected period. The report has an option to include miscellaneous cash receipts processed through [ CASH.E3 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/CASH-E3) . Miscellaneous cash receipts should be excluded when using this report as a balancing tool. 
+The CASH.R1 procedure is used to print a cash receipts / check register for a selected period. The report has an option to include miscellaneous cash receipts processed through [ CASH.E3 ](../../AR-ENTRY/CASH-E3/README.md) . Miscellaneous cash receipts should be excluded when using this report as a balancing tool. 
 
 **Frequency of Use**  
 As required.

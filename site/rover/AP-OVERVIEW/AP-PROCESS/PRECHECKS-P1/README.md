@@ -18,7 +18,7 @@ will have the flag remove which indicates a check is being processed.
 As required.
 
 **Prerequisites**  
-The [ AP.P1 ](../../../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F5/AP-P1) procedure must have been run and the [ CHECKS.P1 ](../../../../../../rover/AP-OVERVIEW/AP-PROCESS/CHECKS-P1) process must not have been run for the selected check run number. 
+The [ AP.P1 ](../AP-P1/README.md) procedure must have been run and the [ CHECKS.P1 ](../CHECKS-P1/README.md) process must not have been run for the selected check run number. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

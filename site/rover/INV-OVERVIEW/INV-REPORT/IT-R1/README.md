@@ -29,7 +29,7 @@ taken.
 **To.Loc** The name of the inventory location to which the material was moved.  
 **From.WO** The work order from which the material was moved.  
 **To.WO** The work order to which the material was sent.  
-**Created.By** A name which describes the procedure which caused the transaction to occur. These include [ IT.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-E/IT-E) , RECEIPTS, PICKER, PHYS, CYCLE and SHIPMENT.   
+**Created.By** A name which describes the procedure which caused the transaction to occur. These include [ IT.E ](../../INV-ENTRY/IT-E/README.md) , RECEIPTS, PICKER, PHYS, CYCLE and SHIPMENT.   
 **Record.ID** The ID of the record which initiated the transaction.  
 **Li#** The line item number on the record which initiated the transaction.  
   

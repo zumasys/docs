@@ -28,7 +28,7 @@ customer. The recommended format is XXX/XXX-XXXX.
 **Date** Enter the start date for this customer. This will default to the
 current system date.  
   
-**Inactive Date** Enter the date the customer's account become inactive on. If a date has been entered, you will be given a warning in certain procedures such as [ so.e ](so-e/README.md) or [ ar.e ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e) that the customer has been flagged as inactive.   
+**Inactive Date** Enter the date the customer's account become inactive on. If a date has been entered, you will be given a warning in certain procedures such as [ so.e ](so-e/README.md) or [ ar.e ](../../../../duplicates/ar-e/README.md) that the customer has been flagged as inactive.   
   
 **Customer Address** Enter the street address for this customer. Do not
 include the city, state, or zip. Enter those in the adjacent, separate fields.
@@ -41,7 +41,7 @@ purposes.
   
 **Sort Zip** Enter the zip code portion of the address information.  
   
-**Sort Country** Enter the country portion of the address information. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](ship-control/README.md) .   
+**Sort Country** Enter the country portion of the address information. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../../../duplicates/SHIP-CONTROL/README.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](ship-control/README.md) .   
   
 **Resale#** Enter the customer's resale number.  
   
@@ -101,7 +101,7 @@ operator will be warned in sales order entry when the customer has exceeded
 their credit limit, and will be asked if the sales order they have entered
 should be placed on hold.  
   
-**Due Days** If you wish to have the [ SO.E ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) procedure check if the customer is past due on any orders, place the number of days to use as a check in this field. If there is an entry in the Past Due Days field in [ AR.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) , this field will override that entry. If you wish to place orders on hold when the customer is 1 day past due on any of their invoices, enter 1. Enter 2 for 2 days past due, etc. If you wish to have this customer not be checked for being past due, enter 999 or leave blank if [ AR.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) entry is blank. The operator will be warned in sales order entry when the customer is past due, and will be asked if the sales order they have entered should be placed on hold.   
+**Due Days** If you wish to have the [ SO.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/SO-E/README.md) procedure check if the customer is past due on any orders, place the number of days to use as a check in this field. If there is an entry in the Past Due Days field in [ AR.CONTROL ](../../AR-CONTROL/README.md) , this field will override that entry. If you wish to place orders on hold when the customer is 1 day past due on any of their invoices, enter 1. Enter 2 for 2 days past due, etc. If you wish to have this customer not be checked for being past due, enter 999 or leave blank if [ AR.CONTROL ](../../AR-CONTROL/README.md) entry is blank. The operator will be warned in sales order entry when the customer is past due, and will be asked if the sales order they have entered should be placed on hold.   
   
 **Credit Hold** Check this box if you want to place the customer on credit
 hold. If the credit hold is set then the operator will be warned in sales
@@ -110,7 +110,7 @@ sales order they have entered should be placed on hold. Shipments for this
 customer cannot be processed when this box is checked. Note:This customer must
 be the bill to customer for the credit hold to take effect.  
   
-**Bank No** Enter the bank's internal id number for the primary checking account this customer will issue checks from. This number will default into [ cash.e ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-2/CASH-F1/cash-e) for you but can be changed as required. The bank number is printed on the cash deposit slip form which can be submitted to your bank along with the customer checks.   
+**Bank No** Enter the bank's internal id number for the primary checking account this customer will issue checks from. This number will default into [ cash.e ](../../../../duplicates/cash-e/README.md) for you but can be changed as required. The bank number is printed on the cash deposit slip form which can be submitted to your bank along with the customer checks.   
   
 **Group Code** Select each of the groupings that apply to the customer.
 Groupings are used to classify customers by various attributes and are used to
@@ -128,7 +128,7 @@ exporter. This will be used in sales order entry.
   
 **Ecommerce Level** This field controls which categories of products, as defined in [ WEB.CONTROL ](WEB-CONTROL/README.md) , are available to the customer when they visit the ecommerce web site. Valid entries are 0 thru 9 with 9 being the highest level. If a web category has zero or null specified then anybody visiting the web site will be able to see the products in the category. If the level for a category is greater than zero than only customers with a number greater than or equal to that number will be able to see the products in that category.   
   
-**Notes** Enter any applicable notes here. If the field, "Load Customer Notes", in the [ MRK.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) procedure is set to "Y", these notes will be loaded into [ SO.E ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) after entry of the customer number on new orders. Any notes that are considered confidential should be added to the notes tab of this procedure.   
+**Notes** Enter any applicable notes here. If the field, "Load Customer Notes", in the [ MRK.CONTROL ](../../../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/README.md) procedure is set to "Y", these notes will be loaded into [ SO.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/SO-E/README.md) after entry of the customer number on new orders. Any notes that are considered confidential should be added to the notes tab of this procedure.   
   
 **Open** Click here to open this website.  
   

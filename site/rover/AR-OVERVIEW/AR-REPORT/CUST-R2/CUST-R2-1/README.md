@@ -49,7 +49,7 @@ program.
   
 **Last Status Time** The time at which the last status message was generated.  
   
-**Inactive Reps Only** Check this box if you wish to run the report for inactive reps only. It is recommended that you select this optoin after inactivating a rep so that the rep id can be removed, if required, from the customer records via [ CUST.E ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) .   
+**Inactive Reps Only** Check this box if you wish to run the report for inactive reps only. It is recommended that you select this optoin after inactivating a rep so that the rep id can be removed, if required, from the customer records via [ CUST.E ](../../../AR-ENTRY/CUST-E/README.md) .   
   
 **Exclude Inactive Reps** Check this box if you wish to exclude inactive reps
 from the report.  

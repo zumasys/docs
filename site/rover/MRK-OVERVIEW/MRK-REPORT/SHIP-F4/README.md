@@ -6,14 +6,14 @@
 [ Form Details ](SHIP-F4-1/README.md)   
 
 **Purpose**  
-The [ SHIP.F3 ](../../../../rover/AR-OVERVIEW/AR-REPORT/AR-F1/SHIP-F1/SHIP-F3) procedure is used to print packing slips on blank paper or letterhead. One copy of this form is usually sent along with the materials as the packing slip with another copy kept for internal files. The user determines which shipments are to be printed by entering their numbers. 
+The [ SHIP.F3 ](../SHIP-F3/README.md) procedure is used to print packing slips on blank paper or letterhead. One copy of this form is usually sent along with the materials as the packing slip with another copy kept for internal files. The user determines which shipments are to be printed by entering their numbers. 
 
 **Frequency of Use**  
 Packing slip forms may be printed as required and may be also be re-printed at
 any time.
 
 **Prerequisites**  
-Entry of the selected Shipment reocrds ( [ SHIP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E) or [ SHIP.E2 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2) ). 
+Entry of the selected Shipment reocrds ( [ SHIP.E ](../../MRK-ENTRY/SHIP-E/README.md) or [ SHIP.E2 ](../../MRK-ENTRY/SHIP-E2/README.md) ). 
 
 **Data Fields**
 

@@ -15,7 +15,7 @@ procedures in the Accounts Receivable Module. This is usually done as part of
 setting up the system. The entries may be changed after that time as required.
 
 **Prerequisites**  
-The General Ledger account number must have been previously defined in the chart of accounts ( [ GLCHART.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E) ). 
+The General Ledger account number must have been previously defined in the chart of accounts ( [ GLCHART.E ](../../../GL-OVERVIEW/GL-ENTRY/GLCHART-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

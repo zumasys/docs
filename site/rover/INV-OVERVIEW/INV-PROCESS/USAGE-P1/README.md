@@ -29,7 +29,7 @@ debits against purchase order receipts since those transactions constitute a
 return rather than a consumption of the materials. Also not included are
 records generated as a result of a cycle or physical inventory.  
   
-All months currently maintained which are in excess of the number of months defined in the [ INV.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) record will be dropped. 
+All months currently maintained which are in excess of the number of months defined in the [ INV.CONTROL ](../../INV-ENTRY/INV-CONTROL/README.md) record will be dropped. 
 
 **Frequency of Use**  
 This procedure should be run at the end of each month after all inventory

@@ -26,7 +26,7 @@ The information displayed includes the on hand balance and on order for each
 location, shortage information, usage history, lot information, allocations,
 commitments and open order information.  
   
-There is, also, a tab to display the inventory transaction history for the part number for a selected number of days. In the [ INV.CONTROL ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) procedure, there is a field that controls how may days of transaction history will be viewed in this procedure. Transactions created prior to that point can still be viewed by running the inventory transaction reports. The inventory transaction reports can be found in the report section of the inventory module and begin with the term IT.R. 
+There is, also, a tab to display the inventory transaction history for the part number for a selected number of days. In the [ INV.CONTROL ](../../INV-ENTRY/INV-CONTROL/README.md) procedure, there is a field that controls how may days of transaction history will be viewed in this procedure. Transactions created prior to that point can still be viewed by running the inventory transaction reports. The inventory transaction reports can be found in the report section of the inventory module and begin with the term IT.R. 
 
 **Frequency of Use**  
 As required.

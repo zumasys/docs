@@ -26,7 +26,7 @@ processed again.
 As required.
 
 **Prerequisites**  
-Setup of the Commission Pay Account and Commission Expense Account field in [ ACCT.CONTROL ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL) procedure. It is highly recommended that the [ COMM.R4 ](COMM-R4/README.md) report be run to give visibility to the commissions which would be selected by this process when the cutoff date is used. 
+Setup of the Commission Pay Account and Commission Expense Account field in [ ACCT.CONTROL ](../../AP-ENTRY/ACCT-CONTROL/README.md) procedure. It is highly recommended that the [ COMM.R4 ](COMM-R4/README.md) report be run to give visibility to the commissions which would be selected by this process when the cutoff date is used. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

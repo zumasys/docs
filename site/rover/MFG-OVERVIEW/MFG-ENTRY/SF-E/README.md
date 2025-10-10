@@ -20,14 +20,14 @@ master schedule item. This allows you to determine when demand should be
 driven down to mrp and in what periods rather than basing that directly on a
 sales order or forecast item.  
   
-Sales forecast items may also be created automatically based on planning planning bills. (See [ PB.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E/WC-E-1/CRP-P1/CRP-P1-1/CRP-CONTROL/CRP-CONTROL-1/CRP-Q/CRP-Q-2/MS-E/PB-E) and [ PB.P1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/PLAN-CONTROL/PLAN-CONTROL-1/MPS-P1/MPS-P1-1/PB-P1) )   
+Sales forecast items may also be created automatically based on planning planning bills. (See [ PB.E ](../PB-E/README.md) and [ PB.P1 ](../../MFG-PROCESS/PB-P1/README.md) )   
   
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-Part numbers must be defined in [ PARTS.E ](../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E) . 
+Part numbers must be defined in [ PARTS.E ](../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) . 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

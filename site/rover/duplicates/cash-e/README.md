@@ -28,7 +28,7 @@ as a negative number.
   
 If you will be using [ RECON.E ](RECON-E/README.md) to reconcile your bank statements, it is recommended that a deposit id be entered on all cash receipts. In [ recon.e ](recon-e/README.md) , there is a option to load in all un-cleared cash receipts. These cash receipts are loaded in by date by deposit id so that the deposit amount in [ recon.e ](recon-e/README.md) reflects the deposit amount referenced on the bank statement. Therefore, when assigning deposit ids, the same deposit id may be used for multiple checks if the checks will be part of the same deposit made into the bank account.   
   
-To apply excess cash to a write off account instead of creating a debit memo, the corresponding flag in [ AR.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) must be set to "Y", and the user will be prompted at file time for confirmation before the update occurs.   
+To apply excess cash to a write off account instead of creating a debit memo, the corresponding flag in [ AR.CONTROL ](../../AR-OVERVIEW/AR-ENTRY/AR-CONTROL/README.md) must be set to "Y", and the user will be prompted at file time for confirmation before the update occurs.   
   
 The amounts are posted immediately upon the filing of the cash record. The check number, bank number, deposit id and notes may be changed on existing records. Additionally, the cash/deposit account and post date may be changed on posted records but not on records that have been cleared or reversed. If the post date or cash account are changed, reversing register records will be created to offset the original entries and new register records will be created for the new account and/or date. Please note that both the original post date and new date must occur in an open fiscal period. For all other data entry mistakes, the cash record may be reversed with the [ CASH.E2 ](CASH-E2/README.md) procedure, then re-entered correctly. 
 
@@ -36,7 +36,7 @@ The amounts are posted immediately upon the filing of the cash record. The check
 As required.
 
 **Prerequisites**  
-Initialization of the accounts receivable control record ( [ AR.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) ), and entry of the customer and terms records to be referenced. 
+Initialization of the accounts receivable control record ( [ AR.CONTROL ](../../AR-OVERVIEW/AR-ENTRY/AR-CONTROL/README.md) ), and entry of the customer and terms records to be referenced. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

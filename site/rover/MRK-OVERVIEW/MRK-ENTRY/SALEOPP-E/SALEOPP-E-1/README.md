@@ -80,7 +80,7 @@ Prospect file, and is for reference only.
 **Prospect Phone** This field contains the prospect phone number and is for
 reference only.  
   
-**PROSPECT.E** Select this button to link to the [ PROSPECT.E ](../../../../../rover/MRK-OVERVIEW/MRK-ENTRY/PROSPECT-CONTROL/PROSPECT-E) procedure.   
+**PROSPECT.E** Select this button to link to the [ PROSPECT.E ](../../PROSPECT-E/README.md) procedure.   
   
 **Customer Name** This field contains the customer name and is for reference
 only.  
@@ -88,7 +88,7 @@ only.
 **Customer Phone** This field contains the customer phone and is for reference
 only.  
   
-**CUST.E** Select this button to link to the [ CUST.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E)   
+**CUST.E** Select this button to link to the [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md)   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

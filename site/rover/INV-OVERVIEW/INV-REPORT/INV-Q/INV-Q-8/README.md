@@ -6,7 +6,7 @@
 
 ![](./INV-Q-8.jpg)
 
-**Trans Date** This field contains the transaction date. This is usually the same as the date that the transaction was processed on. However, in certain procedures ( [ SHIP.E2 ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2) , [ RECEIPTS.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2/RECEIPTS-E3/RECEIPTS-E) ), the transaction date can be changed to a date other than the current date. Therefore, it is possible to process a transaction on 9/16/09 but date it 9/1/09. The date that appears in this field would be 9/1/09. The transaction detail lookup will display the date and time the transaction was processed on.   
+**Trans Date** This field contains the transaction date. This is usually the same as the date that the transaction was processed on. However, in certain procedures ( [ SHIP.E2 ](../../../../MRK-OVERVIEW/MRK-ENTRY/SHIP-E2/README.md) , [ RECEIPTS.E ](../../../../PUR-OVERVIEW/PUR-ENTRY/RECEIPTS-E/README.md) ), the transaction date can be changed to a date other than the current date. Therefore, it is possible to process a transaction on 9/16/09 but date it 9/1/09. The date that appears in this field would be 9/1/09. The transaction detail lookup will display the date and time the transaction was processed on.   
   
 **Trans Qty** The inventory transaction quantity.  
   

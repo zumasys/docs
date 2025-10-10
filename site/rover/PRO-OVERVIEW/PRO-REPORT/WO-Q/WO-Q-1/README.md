@@ -44,7 +44,7 @@ time the data was refreshed.
   
 **Part number** This field displays the part/assembly of the work order.  
   
-**Description** This field contains the description of the part/assembly, as originally loaded into [ WO.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-E) when the work order was created. To display the entire description in a text box, right-click or double click in the description field.   
+**Description** This field contains the description of the part/assembly, as originally loaded into [ WO.E ](../../../PRO-ENTRY/WO-E/README.md) when the work order was created. To display the entire description in a text box, right-click or double click in the description field.   
   
 **WO Qty** This field contains the work order quantity, representing the
 number of units to be built.  
@@ -70,7 +70,7 @@ specific customer.
 **Notes** This field contains the work order notes. To view the notes in a
 text box, press the inquiry button to the right.  
   
-**WO.E** You may press this button to automatically invoke the [ WO.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-E) screen for the associated work order.   
+**WO.E** You may press this button to automatically invoke the [ WO.E ](../../../PRO-ENTRY/WO-E/README.md) screen for the associated work order.   
   
 **Notes** Press this button to display the work order notes in a text box.  
   

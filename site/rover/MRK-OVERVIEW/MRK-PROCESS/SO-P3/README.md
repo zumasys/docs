@@ -6,7 +6,7 @@
 [ Form Details ](SO-P3-1/README.md)   
 
 **Purpose**  
-The SO.P3 procedure recalculates and sets the open order amount in the customer file. This amount is displayed on query procedures such as the customer inquiry ( [ CUST.Q ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/CUST-Q) ). 
+The SO.P3 procedure recalculates and sets the open order amount in the customer file. This amount is displayed on query procedures such as the customer inquiry ( [ CUST.Q ](../../../AR-OVERVIEW/AR-REPORT/CUST-Q/README.md) ). 
 
 **Frequency of Use**  
 The open order amount is maintained automatically as sales orders are entered

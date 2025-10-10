@@ -15,7 +15,7 @@ you to enter a PO number and a list of all AP items with that PO number
 assigned.  
   
   
-When creating a new AP record do not include a dash in the AP ID. Only records created through a purchase order receipt can contain a dash. If you enter an AP ID that you believe was created from a purchase order receipt and you receive an error message, verify that the receipt was posted. Until a receipt is posted, the AP ID cannot be accessed in this procedure. If the receipt was posted, it is possible that the AP ID was deleted in AP.E and no longer exists. You should be able to verify this by running a report called [ APREG.R2 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/APREG-R2) which will list all APREG entries for a given record id. If the AP ID was deleted it cannot be re-used in AP.E.   
+When creating a new AP record do not include a dash in the AP ID. Only records created through a purchase order receipt can contain a dash. If you enter an AP ID that you believe was created from a purchase order receipt and you receive an error message, verify that the receipt was posted. Until a receipt is posted, the AP ID cannot be accessed in this procedure. If the receipt was posted, it is possible that the AP ID was deleted in AP.E and no longer exists. You should be able to verify this by running a report called [ APREG.R2 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/APREG-R2/README.md) which will list all APREG entries for a given record id. If the AP ID was deleted it cannot be re-used in AP.E.   
   
 There is a load option available from this field to create an invoice/debit memo from an MSHIP record. MSHIP records are created via [ MSHIP.E ](MSHIP-E/README.md) (miscellaneous shipment entry screen) and are generated to return material to a vendor. The vendor information and line item information will be loaded into this screen. However, the unit prices are not entered in [ MSHIP.E ](MSHIP-E/README.md) and will, therefore, need to be entered in this procedure along with the g/l account numbers.   
   
@@ -42,9 +42,9 @@ is important when calculating discounts. If you are entering an invoice for a
 prior period, be aware that this invoice will now be present on the aging
 report if it re-run for that period.  
   
-**Register Date** Enter the date that should be posted to the a/p register records and ultimately the general ledger. If the 'default register date to invoice date' option is selected in the [ AP.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) procedure, the invoice-date will be loaded into this field for you. If that option is not selected, the current date will loaded into this field for you.   
+**Register Date** Enter the date that should be posted to the a/p register records and ultimately the general ledger. If the 'default register date to invoice date' option is selected in the [ AP.CONTROL ](../../AP-CONTROL/README.md) procedure, the invoice-date will be loaded into this field for you. If that option is not selected, the current date will loaded into this field for you.   
   
-If this date is changed on an existing record, the date on the existing APREG records will not be changed. Use [ AP.E2 ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E2) to change the existing register dates for this invoice. This date will be posted to new APREG records that are created to reflect an amount or account number change.   
+If this date is changed on an existing record, the date on the existing APREG records will not be changed. Use [ AP.E2 ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E2/README.md) to change the existing register dates for this invoice. This date will be posted to new APREG records that are created to reflect an amount or account number change.   
   
 **Inv Amount** Enter the net amount of the invoice. This is the actual amount
 owed to the vendor. The amount entered here must equal:  
@@ -61,7 +61,7 @@ by the Purchasing/Receiving process, this number will already be present.
 **Pack Slip** Enter the packing slip number which accompanied the material
 received.  
   
-**AP Acct#** Enter the G/L account number against which this A/P record will be charged. This account number is defaulted from the [ AP.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) file and can be changed if necessary.   
+**AP Acct#** Enter the G/L account number against which this A/P record will be charged. This account number is defaulted from the [ AP.CONTROL ](../../AP-CONTROL/README.md) file and can be changed if necessary.   
   
 **Terms Code** Enter the terms code which identifies the terms the vendor
 agreed to for this A/P record. This is defaulted from the Vendor file and can

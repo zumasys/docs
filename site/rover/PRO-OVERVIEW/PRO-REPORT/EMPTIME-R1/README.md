@@ -19,7 +19,7 @@ None.
 
 **Data Fields**
 
-**Home Center** The employees home work center as defined in the [ EMP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E/WC-E-1/EMPTIME-E1/EMPTIME-E2/EMP-E) procedure for the employee. This may be different than the work center of the job the employee is currently working in.   
+**Home Center** The employees home work center as defined in the [ EMP.E ](../../PRO-ENTRY/EMP-E/README.md) procedure for the employee. This may be different than the work center of the job the employee is currently working in.   
 **Employee#** The employee number.  
 **Name** The employee's name.  
 **Clock-In Date** The date on which the employee clocked in.  
@@ -29,8 +29,8 @@ format (i.e. 1:00 P.M. is 13:00).
 working on was started.  
 **Func Start Time** The time at which each job the employee is currently
 working on was started.  
-**Func** The function codes the employee is currently working in. These are defined in the [ LABOR.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/LABOR-CONTROL) procedure.   
-**WO.ID** If the function code defines a direct labor function (i.e. no account number is associated with it in [ LABOR.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/LABOR-CONTROL) ) the work order number the employee is logged into will be displayed.   
+**Func** The function codes the employee is currently working in. These are defined in the [ LABOR.CONTROL ](../../PRO-ENTRY/LABOR-CONTROL/README.md) procedure.   
+**WO.ID** If the function code defines a direct labor function (i.e. no account number is associated with it in [ LABOR.CONTROL ](../../PRO-ENTRY/LABOR-CONTROL/README.md) ) the work order number the employee is logged into will be displayed.   
 **Oper** If a work order is present this column contains the operation number
 the employee is logged into.  
 **Work Center** If a work order is present this column contains the work

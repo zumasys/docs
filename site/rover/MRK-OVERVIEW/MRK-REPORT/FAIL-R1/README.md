@@ -19,7 +19,7 @@ well as the confidence level.
 As required.
 
 **Prerequisites**  
-The parameters in the [ MTBF.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/MTBF-CONTROL) procedure must be defined, and data must have been summarized by the [ FAIL.P1 ](FAIL-P1/README.md) procedure. 
+The parameters in the [ MTBF.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/MTBF-CONTROL/README.md) procedure must be defined, and data must have been summarized by the [ FAIL.P1 ](FAIL-P1/README.md) procedure. 
 
 **Data Fields**
 
@@ -34,7 +34,7 @@ of time the product was in operation for each 24 hour period.
 the time of shipment until the product is put into operation.  
 **Confidence Level** The confidence level, stated as a percentage, used in the
 calculation.  
-**Model** The model code associated with the MTBF data as defined in the [ MTBF.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/MTBF-CONTROL) procedure.   
+**Model** The model code associated with the MTBF data as defined in the [ MTBF.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/MTBF-CONTROL/README.md) procedure.   
 **Number Shipped** The number of units shipped within the time period
 specified.  
 **Operating Hours** The total number of operating hours calculated for the

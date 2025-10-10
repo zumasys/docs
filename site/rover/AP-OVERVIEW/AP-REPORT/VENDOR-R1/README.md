@@ -14,7 +14,7 @@ vendors, only non-approved vendors, or all vendors.
 As required.
 
 **Prerequisites**  
-Entry of vendor records ( [ VENDOR.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E) ). 
+Entry of vendor records ( [ VENDOR.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E/README.md) ). 
 
 **Data Fields**
 
@@ -25,7 +25,7 @@ base.
 code.  
 **Phone** The telephone number of the vendor.  
 **Fax** The number to use for sending a facsimili to the vendor.  
-**Contact** The name of the first contact entered in [ VENDOR.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E) .   
+**Contact** The name of the first contact entered in [ VENDOR.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E/README.md) .   
 **Buyer** The name of the buyer who normally deals with this vendor.  
 **Notes** General notes concerning the vendor.  
 **A** Approved flag.  

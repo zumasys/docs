@@ -26,8 +26,8 @@ made.
 **Receipt Number** A sequential number assigned from the purchase order record
 to identify the receipt. The full receipt ID is made up of the PO Number
 followed by a dash (-), followed by a sequential number.  
-**Packing Slip** The packing slip number as entered in the [ RECEIPTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2/RECEIPTS-E3/RECEIPTS-E) procedure.   
-**Receipt Date** The date the receipt was made as entered in the [ RECEIPTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2/RECEIPTS-E3/RECEIPTS-E) procedure.   
+**Packing Slip** The packing slip number as entered in the [ RECEIPTS.E ](../../PUR-ENTRY/RECEIPTS-E/README.md) procedure.   
+**Receipt Date** The date the receipt was made as entered in the [ RECEIPTS.E ](../../PUR-ENTRY/RECEIPTS-E/README.md) procedure.   
 **Vendor Number** The number of the vendor on the purchase order.  
 **Vendor Name** The name of the purchase order vendor.  
 **Buyer** The name of the buyer as entered on the purchase order.  

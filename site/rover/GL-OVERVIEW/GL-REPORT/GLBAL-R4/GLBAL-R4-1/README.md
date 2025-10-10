@@ -41,7 +41,7 @@ bar or pressing the F9 key or Ctrl+S.
 balance. This field will default to the report period which is in the
 GL.CCONTROL record.  
   
-**Report Year** Enter the fiscal year for which you wish to run this report. The entry will default to the year contained in the [ GL.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL) record.   
+**Report Year** Enter the fiscal year for which you wish to run this report. The entry will default to the year contained in the [ GL.CONTROL ](../../../GL-ENTRY/GL-CONTROL/README.md) record.   
   
 **Suppress Zero Balances** Check this box if you do not want accounts with
 zero balances included in the report.  

@@ -20,7 +20,7 @@ you.
 You may leave this field blank if there is no serial number available, however
 the service history for the serial number will not be updated.  
   
-**Vendor Id** Enter the vendor that should be invoiced for any warranty charges. If a vendor has been defined in [ SERIAL.E ](../../../../../../rover/FS-OVERVIEW/FS-ENTRY/SERIAL-E) , it will be loaded into this screen for you but can be changed as required.   
+**Vendor Id** Enter the vendor that should be invoiced for any warranty charges. If a vendor has been defined in [ SERIAL.E ](../../SERIAL-E/README.md) , it will be loaded into this screen for you but can be changed as required.   
   
 **Hold Code** A user defined code indicating that the order is on hold. Only
 new/open orders can be placed on hold and the status cannot be updated to "C"
@@ -34,7 +34,7 @@ credit hold) will be entered into the hold code field.
 **Order Type** Enter the code that identifies the type of order being
 processed.  
   
-**Status** The system will default the status of "O" (open) when the order is first entered. When you have made all of your entries and are ready for the to be posted, enter the letter "C" (complete). When the order is filed with a "C" status inventory and labor will be posted, and the order will be available for processing by the invoice posting procedure [ FSO.P1 ](../../../../../../rover/FS-OVERVIEW/FS-PROCESS/FSO-P1) .   
+**Status** The system will default the status of "O" (open) when the order is first entered. When you have made all of your entries and are ready for the to be posted, enter the letter "C" (complete). When the order is filed with a "C" status inventory and labor will be posted, and the order will be available for processing by the invoice posting procedure [ FSO.P1 ](../../../FS-PROCESS/FSO-P1/README.md) .   
   
 **Order Date** Enter the date on which the original request for service was
 made. On new orders the system will default the current date which may be
@@ -45,7 +45,7 @@ performed.
   
 **Service Date** Enter the date on which the service was performed.  
   
-**Post Date** Contains the date on which the order was posted and an invoice was created by the [ FSO.P1 ](../../../../../../rover/FS-OVERVIEW/FS-PROCESS/FSO-P1) procedure. It may not be changed.   
+**Post Date** Contains the date on which the order was posted and an invoice was created by the [ FSO.P1 ](../../../FS-PROCESS/FSO-P1/README.md) procedure. It may not be changed.   
   
 **Service Unit** Enter the identification of the service unit (van, truck
 etc.) that was used in performing the service.  
@@ -112,7 +112,7 @@ the service order.
 **PO Number** Enter the purchase order number assigned by the customer for the
 service order. This number will be referenced on the invoice.  
   
-**Invoice.No** Contains the invoice number assigned for the service order. This number is assigned at the time the invoice is created during the posting of the order with [ FSO.P1 ](../../../../../../rover/FS-OVERVIEW/FS-PROCESS/FSO-P1) . It may not be changed.   
+**Invoice.No** Contains the invoice number assigned for the service order. This number is assigned at the time the invoice is created during the posting of the order with [ FSO.P1 ](../../../FS-PROCESS/FSO-P1/README.md) . It may not be changed.   
   
 **Terms** Enter the terms code that defines the payment requirments for the
 service order.  

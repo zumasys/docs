@@ -6,7 +6,7 @@
 [ Form Details ](BOM-R5-1/README.md)   
 
 **Purpose**  
-The BOM.R5 procedure is used to create a report of the items that will be affected if a mass change update ( [ BOM.P3 ](../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E/ECN-E/BOM-P3) ) were to be performed using the same parameters.   
+The BOM.R5 procedure is used to create a report of the items that will be affected if a mass change update ( [ BOM.P3 ](../../ENG-PROCESS/BOM-P3/README.md) ) were to be performed using the same parameters.   
   
 The procedure determines which bills of material to list based on the part
 number and/or reference designator you specify. You may also limit the items

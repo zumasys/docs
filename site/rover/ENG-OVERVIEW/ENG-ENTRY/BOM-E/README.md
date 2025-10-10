@@ -24,13 +24,13 @@ an existing record and making the appropriate changes. This is done by
 entering the part number of an existing Bill of Material at the prompt called
 "Master".  
   
-The Bills of Material may also be updated through the ECN process based on entries made in [ ECN.E ](ECN-E/README.md) and posted through [ ECN.P1 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/ECN-P1) . 
+The Bills of Material may also be updated through the ECN process based on entries made in [ ECN.E ](ECN-E/README.md) and posted through [ ECN.P1 ](../../ENG-PROCESS/ECN-P1/README.md) . 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-Entry of Part records ( [ PARTS.E ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) ). 
+Entry of Part records ( [ PARTS.E ](../PARTS-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

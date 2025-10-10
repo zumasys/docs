@@ -57,7 +57,7 @@ the report will be run for all register files
 **Account Number** If you wish to limit this report to specific g/l account
 numbers, enter the account numbers in this field.  
   
-**Include GLTRANS records** Check this box if you wish to include transactions that were made for manual journal entries via [ GLTRANS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/recon-e/RECON-E-4/GLTRANS-E) or the g/l recurring process and not from the interface procedure.   
+**Include GLTRANS records** Check this box if you wish to include transactions that were made for manual journal entries via [ GLTRANS.E ](../../../GL-ENTRY/GLTRANS-E/README.md) or the g/l recurring process and not from the interface procedure.   
   
 **Include Account Description** Check this box if you wish to include
 description for the g/l account number on the report.  

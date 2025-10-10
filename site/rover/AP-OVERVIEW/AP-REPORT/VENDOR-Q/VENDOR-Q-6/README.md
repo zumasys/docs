@@ -16,7 +16,7 @@ a word or portion of a word from the contact name to display a list of
 possible entries to select from. If the contact is not already on file you may
 create it by clicking the "New Contact" button.  
   
-**Contact Type** Enter the type code to be associated with the contact. The list of options available is defined in the [ CONTACT.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/CONTACT-CONTROL) procedure.   
+**Contact Type** Enter the type code to be associated with the contact. The list of options available is defined in the [ CONTACT.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/CONTACT-CONTROL/README.md) procedure.   
   
 **Contact Name** Displays the name of each contact.  
   

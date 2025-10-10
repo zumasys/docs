@@ -6,7 +6,7 @@
 [ Form Details ](AP-F3-1/README.md)   
 
 **Purpose**  
-AP.F3 provides a printed form, using a PDF background, for debits being issued to a vendor. While the [ RECEIPTS.F2 ](RECEIPTS-F2/README.md) procedure will print debit receipt debit memos, it is possible to directly enter a debit memo via [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) . This procedure will provide a form to be sent to the vendor. 
+AP.F3 provides a printed form, using a PDF background, for debits being issued to a vendor. While the [ RECEIPTS.F2 ](RECEIPTS-F2/README.md) procedure will print debit receipt debit memos, it is possible to directly enter a debit memo via [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) . This procedure will provide a form to be sent to the vendor. 
 
 **Frequency of Use**  
 As required.
@@ -16,7 +16,7 @@ Existence of the debit in the AP file.
 
 **Data Fields**
 
-**Debit Number** The debit number assigned to the return which was assigned during the [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) procedure. This ID may also have been assigned during a debit receipt.   
+**Debit Number** The debit number assigned to the return which was assigned during the [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) procedure. This ID may also have been assigned during a debit receipt.   
 **DATE** The date the debit was initiated.  
 **PAGE** The page number.  
 **VENDOR** The name, number and address of the vendor to whom the items are

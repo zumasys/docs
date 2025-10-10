@@ -6,7 +6,7 @@
 [ Form Details ](FY-P2-1/README.md)   
 
 **Purpose**  
-The FY.P2 procedure is used to FINALLY close a fiscal year in the General Ledger module. The user is prompted to enter the fiscal year which is to be finally closed. All fiscal periods must have closed and the [ FY.P1 ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL/GL-CONTROL-1/FY-P1) procedure must have been run to close the fiscal year prior to executing this procedure.   
+The FY.P2 procedure is used to FINALLY close a fiscal year in the General Ledger module. The user is prompted to enter the fiscal year which is to be finally closed. All fiscal periods must have closed and the [ FY.P1 ](../FY-P1/README.md) procedure must have been run to close the fiscal year prior to executing this procedure.   
   
 This process sets a flag in the FY record for the fiscal year and will
 disallow any further journal entries from occurring for that year. This
@@ -17,7 +17,7 @@ and finalized for the selected year.
 Annually.
 
 **Prerequisites**  
-The fiscal year must have been closed using the [ FY.P1 ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL/GL-CONTROL-1/FY-P1) procedure. 
+The fiscal year must have been closed using the [ FY.P1 ](../FY-P1/README.md) procedure. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

@@ -40,7 +40,7 @@ bar or pressing the F9 key or Ctrl+S.
 **Cutoff Date** Enter the date to be used as the cutoff date for this report.
 Any invoices with dates to pay after this date will not be included.  
   
-**Exclude CC Invoices** Check this box if you wish to exclude invoices that are scheduled to be paid by credit card from the report. Please note that the system uses the terms code to determine if the invoice is scheduled to be paid by credit card. You would use the [ TERMS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E) procedure to flag a terms code as a credit card type term. If you do not have access to this procedure, please contact your administrator.   
+**Exclude CC Invoices** Check this box if you wish to exclude invoices that are scheduled to be paid by credit card from the report. Please note that the system uses the terms code to determine if the invoice is scheduled to be paid by credit card. You would use the [ TERMS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E/README.md) procedure to flag a terms code as a credit card type term. If you do not have access to this procedure, please contact your administrator.   
   
 **Force Discount** Check this box if you wish to take a discount on all items,
 regardless as to the date. Do not check this box if you wish to use the

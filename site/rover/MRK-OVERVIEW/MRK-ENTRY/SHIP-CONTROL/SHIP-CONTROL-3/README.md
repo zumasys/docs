@@ -39,7 +39,7 @@ the country is used by the freight carrier.
 country fields on this tab. The change history will be displayed on the
 country change history tab.  
   
-**Export Restrictions** Check this box to enable export restrictions. This will enable certain edits in [ CUST.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) , [ SO.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) and shipping regarding the customer export flag and the ship to country and end user country. The limit entries box must also be checked.   
+**Export Restrictions** Check this box to enable export restrictions. This will enable certain edits in [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) , [ SO.E ](../../SO-E/README.md) and shipping regarding the customer export flag and the ship to country and end user country. The limit entries box must also be checked.   
   
 **List Embargoed** Press this button to display a list of embargoed/sanctioned
 countries.  

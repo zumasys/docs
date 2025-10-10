@@ -6,14 +6,14 @@
 [ Form Details ](SHIP-F5-1/README.md)   
 
 **Purpose**  
-The SHIP.F5 procedure is used to print invoices on blank paper using a PDF form background. Another approach is to use [ AR.F2 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-4/AR-F2) or [ AR.F4 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/AP-CONTROL-2/FORM-CONTROL/FORM-CONTROL-3/AR-F4) procedures to print invoices as a separate activity after the shipment has been posted and an AR record is created. The user determines which shipments are to be printed by entering their numbers. Alternatively, records may be selected for printing with a range of dates or a range of invoice numbers. 
+The SHIP.F5 procedure is used to print invoices on blank paper using a PDF form background. Another approach is to use [ AR.F2 ](../../../AR-OVERVIEW/AR-REPORT/AR-F2/README.md) or [ AR.F4 ](../../../AR-OVERVIEW/AR-REPORT/AR-F4/README.md) procedures to print invoices as a separate activity after the shipment has been posted and an AR record is created. The user determines which shipments are to be printed by entering their numbers. Alternatively, records may be selected for printing with a range of dates or a range of invoice numbers. 
 
 **Frequency of Use**  
 Invoice forms may be printed as required and may be also be reprinted at any
 time.
 
 **Prerequisites**  
-Entry of the selected Shipment records ( [ SHIP.E ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E) or [ SHIP.E2 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2) ). 
+Entry of the selected Shipment records ( [ SHIP.E ](../../MRK-ENTRY/SHIP-E/README.md) or [ SHIP.E2 ](../../MRK-ENTRY/SHIP-E2/README.md) ). 
 
 **Data Fields**
 

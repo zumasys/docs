@@ -19,7 +19,7 @@ the rep by name.
 new records, the current date will be loaded into this field for you but can
 be changed as required.  
   
-**Inactive Date** Enter the date this rep stooped working for your company. After inactivating a rep, you should run a report called [ CUST.R2 ](CUST-R2/README.md) to list all customers that have been assigined to this rep. Untill the rep is removed from the customer record (i.e. [ CUST.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) ), it will get loaded into new quotes and sales orders.   
+**Inactive Date** Enter the date this rep stooped working for your company. After inactivating a rep, you should run a report called [ CUST.R2 ](CUST-R2/README.md) to list all customers that have been assigined to this rep. Untill the rep is removed from the customer record (i.e. [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) ), it will get loaded into new quotes and sales orders.   
   
 **Address** Enter up to 4 lines of address.  
   
@@ -46,7 +46,7 @@ sales order change notices.
   
 **1099** Check here if this rep requires 1099 reporting.  
   
-**1099 Box** Enter the box on the 1099 form which is to used to print forms for this rep. This field will be used as a default into the [ CHECKS.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) procedure.   
+**1099 Box** Enter the box on the 1099 form which is to used to print forms for this rep. This field will be used as a default into the [ CHECKS.E ](../../../../AP-OVERVIEW/AP-ENTRY/CHECKS-E/README.md) procedure.   
   
 **ID Number** Enter the rep's payer ID number. This may be a social security
 number in the case of a sole proprietor or individual, or a federal tax ID.  

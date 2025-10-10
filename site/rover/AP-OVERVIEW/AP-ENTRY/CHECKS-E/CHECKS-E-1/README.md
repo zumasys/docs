@@ -73,14 +73,14 @@ actual amount paid by the check. If there is a discount amount being applied,
 this amount will be the total of the AP items being paid, less the discount
 amount entered.  
   
-**Disb.Acct#** Enter the G/L account number from which this check is being paid. This account number is defaulted from the [ AP.CONTROL ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) record and may be changed if desired.   
+**Disb.Acct#** Enter the G/L account number from which this check is being paid. This account number is defaulted from the [ AP.CONTROL ](../../AP-CONTROL/README.md) record and may be changed if desired.   
   
 **Disb Acct Desc**  
   
 **Disc.Amt** Enter the amount of discount which was taken on this check. This
 is the total discount for all AP items being paid.  
   
-**Disc.Acct#** Enter the G/L account number which is being credited for the discount amount. This is defaulted from the [ AP.CONTROL ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) file and may be changed if desired.   
+**Disc.Acct#** Enter the G/L account number which is being credited for the discount amount. This is defaulted from the [ AP.CONTROL ](../../AP-CONTROL/README.md) file and may be changed if desired.   
   
 **Disc Acct Desc**  
   

@@ -6,7 +6,7 @@
 [ Form Details ](PO-R9-1/README.md)   
 
 **Purpose**  
-The PO.R9 procedure is used to create the purchase order activity report. The user specifies the date range to be used in selecting which records are to be included in the report. The system selects any record which has been filed with the [ PO.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E) procedure within the date range specified. The primary use for this report is for monitoring the activity of the purchasing department over a specific period of time, usually on a daily basis. 
+The PO.R9 procedure is used to create the purchase order activity report. The user specifies the date range to be used in selecting which records are to be included in the report. The system selects any record which has been filed with the [ PO.E ](../../PUR-ENTRY/PO-E/README.md) procedure within the date range specified. The primary use for this report is for monitoring the activity of the purchasing department over a specific period of time, usually on a daily basis. 
 
 **Frequency of Use**  
 As required.

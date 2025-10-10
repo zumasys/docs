@@ -21,8 +21,8 @@ None.
 
 **Part Number** The number that identifies the part being displayed.  
 **Description** The description of the associated part number.  
-**Min Qty** The minimum acceptable inventory balance as defined in the safety stock field in [ PARTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) .   
-**Max Qty** The maximum acceptable inventory balance as defined in [ PARTS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) .   
+**Min Qty** The minimum acceptable inventory balance as defined in the safety stock field in [ PARTS.E ](../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) .   
+**Max Qty** The maximum acceptable inventory balance as defined in [ PARTS.E ](../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) .   
 **Avg Use** The average monthly usage of the part.  
 **On Hand** The current on hand balance in inventory.  
 **PO ID** The numbers of any open purchase orders on file for the part number.  

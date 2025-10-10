@@ -16,7 +16,7 @@ allows you to select the prospect by name or phone number.
   
 **Prospect Date** Enter the date this prospect was originally entered.  
   
-**Status** Enter the status of this prospect. The list of valid entries for this field may be defined in [ PROSPECT.CONTROL ](../../../../../../rover/MRK-OVERVIEW/MRK-ENTRY/PROSPECT-CONTROL) . If that list is left empty, then any user defined status code may be used.   
+**Status** Enter the status of this prospect. The list of valid entries for this field may be defined in [ PROSPECT.CONTROL ](../../PROSPECT-CONTROL/README.md) . If that list is left empty, then any user defined status code may be used.   
   
 **Status Date** Enter the date associated to the status code.  
   
@@ -66,7 +66,7 @@ select customers for marketing compaiagns.
   
 **Notes** Enter any general notes for this prospect.  
   
-**Status Desc** This field contains the description of the status code, as it appears in the [ PROSPECT.CONTROL ](../../../../../../rover/MRK-OVERVIEW/MRK-ENTRY/PROSPECT-CONTROL) record.   
+**Status Desc** This field contains the description of the status code, as it appears in the [ PROSPECT.CONTROL ](../../PROSPECT-CONTROL/README.md) record.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

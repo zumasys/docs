@@ -45,7 +45,7 @@ blank.
 **End Date** Enter the end date through which orders will be included in the
 selection. If left blank all orders through the current date will be included.  
   
-**List Name** Specifiy the name of the list to be updated in the customer records. Valid list names are defined in [ WEB.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-7/WEB-CONTROL) .   
+**List Name** Specifiy the name of the list to be updated in the customer records. Valid list names are defined in [ WEB.CONTROL ](../../../../ACE-OVERVIEW/ACE-ENTRY/WEB-CONTROL/README.md) .   
   
 **Sort By** Indicate the order in which the lists should be sorted. Options
 are Order Date or Part Number. The Order Date option puts the most recent

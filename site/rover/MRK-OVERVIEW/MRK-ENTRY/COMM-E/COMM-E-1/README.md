@@ -76,7 +76,7 @@ particular invoice/shipper. When commission records are created for you from
 the shipping or RMA procedures, no data will appear in this field. Instead the
 commission will be based on the sales and/or profit amount.  
   
-**Commission Amount** This field displays the extended commission amount (1). If a flat commission amount is entered, it is loaded into this field. (2). If no flat commissiion amount is entered, the commission and order percents will be multiplied by either the gross sales or profit amount. In the [ ACCT.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL) procedure, you tell the system if the commission amount should be based on the sales amount or the profit. If the amount is based on the profit, the cost of goods amount will be subtracted from the gross sales before calculating the commission amount.   
+**Commission Amount** This field displays the extended commission amount (1). If a flat commission amount is entered, it is loaded into this field. (2). If no flat commissiion amount is entered, the commission and order percents will be multiplied by either the gross sales or profit amount. In the [ ACCT.CONTROL ](../../../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) procedure, you tell the system if the commission amount should be based on the sales amount or the profit. If the amount is based on the profit, the cost of goods amount will be subtracted from the gross sales before calculating the commission amount.   
   
 **Eligible Amount** Displays the portion of the total commision amount that is
 due and payable. The eligible amount is the commission amount multiplied by

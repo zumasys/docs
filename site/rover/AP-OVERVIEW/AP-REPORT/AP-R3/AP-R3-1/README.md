@@ -55,7 +55,7 @@ If you wish to print a summary aging (one line per vendor), select "Summary".
 aging. This option should not be selected when reconciling the report to the
 general ledger.  
   
-**Exclude CC Terms** Check this box if you wish to exclude invoices with credit card terms. A terms code is flagged as a credit card terms in [ TERMS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E) .. Typically invoices with credit terms have already been paid by crediit card but still show as open until an invoice for the credit card statement is received and entered in the system. This option would be selected if you wanted to exclude these invoices from the report. This option should not be selected when reconciling the report to the general ledger.   
+**Exclude CC Terms** Check this box if you wish to exclude invoices with credit card terms. A terms code is flagged as a credit card terms in [ TERMS.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E/README.md) .. Typically invoices with credit terms have already been paid by crediit card but still show as open until an invoice for the credit card statement is received and entered in the system. This option would be selected if you wanted to exclude these invoices from the report. This option should not be selected when reconciling the report to the general ledger.   
   
 **Vendor#** Enter a vendor number if you wish to run the aging report for that
 vendor only. Otherwise, leave this field null to print all vendors. If you do

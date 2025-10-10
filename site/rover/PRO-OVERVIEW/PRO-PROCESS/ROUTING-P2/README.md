@@ -18,7 +18,7 @@ The correct information must be present in the work center file.
 **Data Fields**
 
 **WORK.CENTER** Enter the specified work centers to be added or deleted.  
-**DESCRIPTION** Description of the work center as defined in [ WC.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E) .   
+**DESCRIPTION** Description of the work center as defined in [ WC.E ](../../PRO-ENTRY/WC-E/README.md) .   
 **OPER** If you will be adding work centers, to the routing then enter the
 operation number you wish to use. You can leave this field blank if you want
 the system to automatically re-assign all operation numbers for you. If you do

@@ -6,7 +6,7 @@
 [ Form Details ](POPRICE-R1-1/README.md)   
 
 **Purpose**  
-The POPRICE.R1 procedure provides the ability to list all of the prices defined in the [ POPRICE.E ](../../../../rover/MFG-OVERVIEW/MFG-REPORT/MRP-R5/POPRICE-E) procedure. The report is listed in part number sequence. There is an option to choose only selected part 
+The POPRICE.R1 procedure provides the ability to list all of the prices defined in the [ POPRICE.E ](../../PUR-ENTRY/POPRICE-E/README.md) procedure. The report is listed in part number sequence. There is an option to choose only selected part 
 
 **Frequency of Use**  
 As required.

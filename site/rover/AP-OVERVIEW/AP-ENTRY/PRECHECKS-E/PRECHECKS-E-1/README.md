@@ -6,13 +6,13 @@
 
 ![](./PRECHECKS-E-1.jpg)
 
-**Seq** Enter Prechecks ID/Sequence number to be edited. Run [ PRECHECKS.R1 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/PRECHECKS-R1) to obtain ID listing.   
+**Seq** Enter Prechecks ID/Sequence number to be edited. Run [ PRECHECKS.R1 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/PRECHECKS-R1/README.md) to obtain ID listing.   
   
 **Co Code** The company code for this precheck record. This field is for
 reference only and cannot be changed. Any A/P items which are added to this
 record must have a matching company code.  
   
-**Run** Check Run Number Assigned by System during [ AP.P1 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F5/AP-P1) procedure.   
+**Run** Check Run Number Assigned by System during [ AP.P1 ](../../../AP-PROCESS/AP-P1/README.md) procedure.   
   
 **Check Date** Date that will print on check.  
   
@@ -24,11 +24,11 @@ may have been issued to this vendor.
 **Disb.Acct** Distribution Account check amounts will be posted to. Cannot be
 edited via this program.  
   
-**Vendor** Vendor selected for payment in [ AP.P1 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F5/AP-P1) .   
+**Vendor** Vendor selected for payment in [ AP.P1 ](../../../AP-PROCESS/AP-P1/README.md) .   
   
 **Vendor Name** Vendor Name associated with Vendor Id in the Vendor file.  
   
-**Check** Check # Assigned by system during [ CHECKS.F1 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F1) or [ CHECKS.F2 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F2) procedure. If required the check# can be changed usually due to a paper jam. However, once a check# has been issued AP Items cannot be added or deleted or modified.   
+**Check** Check # Assigned by system during [ CHECKS.F1 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F1/README.md) or [ CHECKS.F2 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F2/README.md) procedure. If required the check# can be changed usually due to a paper jam. However, once a check# has been issued AP Items cannot be added or deleted or modified.   
   
 **AP.Items** AP IDs selected for payment. You can insert new vouchers and
 delete existing ones at this point.  

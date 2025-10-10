@@ -16,7 +16,7 @@ number. This account will be debited when container records are entered and
 before a confirmed receipt has occured. The description of the account entered
 will display to the right of the prompt for verification.  
   
-**Misc Charge Desc** Enter descriptions of the types of miscellaneous charges that can be entered on [ CONTAINER.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/CONTAINER-E) . These will be defaulted into [ CONTAINER.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/CONTAINER-E) to be associated with the corresponding dollars entered for the various charges. They could represent such things as freight, port charges, custom fees, etc.   
+**Misc Charge Desc** Enter descriptions of the types of miscellaneous charges that can be entered on [ CONTAINER.E ](../../CONTAINER-E/CONTAINER-E/README.md) . These will be defaulted into [ CONTAINER.E ](../../CONTAINER-E/CONTAINER-E/README.md) to be associated with the corresponding dollars entered for the various charges. They could represent such things as freight, port charges, custom fees, etc.   
   
 **Container O/P Adjust Loc** Enter the inventory location which defines the
 adjustment location and account for container receipts of outside processing

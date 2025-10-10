@@ -12,7 +12,7 @@
 [ Change History ](RMAREC-E2-7/README.md)   
 
 **Purpose**  
-The [ RMAREC.E ](RMAREC-E/README.md) procedure is used to receive items previously identified on an RMA with the [ RMA.E ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMA-E) procedure and/or to confirm receipts already entered with [ RMAREC.E ](RMAREC-E/README.md) . You have the option of performing the RMA receipt process in one or two steps. With the two step process you enter the initial receipt information using [ RMAREC.E ](RMAREC-E/README.md) which limits the user to defining only basic information about what was received, specifically quantity and optionally lot number. Inventory is not moved with [ RMAREC.E ](RMAREC-E/README.md) . The second step uses RMAREC.E2 to verify the receipt and add additional information such as failure codes. The one step process skips the [ RMAREC.E ](RMAREC-E/README.md) procedure using RMAREC.E2 for both steps. You still have the option of using RMAREC.E2 in two steps by setting the status code to "R" (received) and then changing it later to "C" (confirmed).   
+The [ RMAREC.E ](RMAREC-E/README.md) procedure is used to receive items previously identified on an RMA with the [ RMA.E ](../RMA-E/README.md) procedure and/or to confirm receipts already entered with [ RMAREC.E ](RMAREC-E/README.md) . You have the option of performing the RMA receipt process in one or two steps. With the two step process you enter the initial receipt information using [ RMAREC.E ](RMAREC-E/README.md) which limits the user to defining only basic information about what was received, specifically quantity and optionally lot number. Inventory is not moved with [ RMAREC.E ](RMAREC-E/README.md) . The second step uses RMAREC.E2 to verify the receipt and add additional information such as failure codes. The one step process skips the [ RMAREC.E ](RMAREC-E/README.md) procedure using RMAREC.E2 for both steps. You still have the option of using RMAREC.E2 in two steps by setting the status code to "R" (received) and then changing it later to "C" (confirmed).   
   
 You enter the RMA number for the items being received and enter the quantity
 of each item received. You do not have to receive all of the items in one
@@ -35,9 +35,9 @@ The second tab contains information about the item(s) being returned,
 including restocking inventory locations and the credit amounts the customer
 will receive, if any.  
   
-The third tab has component information for phantom parts being received on the line item tab. These phantom components will be generated based on a setting in [ RMA.E ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMA-E) line item called "Explode Phantoms?". If this is checked then when a quantity is entered for a line item in either [ RMAREC.E ](RMAREC-E/README.md) or RMAREC.E2, then the phantom components will be generated with the appropriate quantities based on the bill of material for the phantom. The component quantities can be manually adjusted as necessary. When the receipt is confirmed the component parts will be received into inventory instead of the phantom.   
+The third tab has component information for phantom parts being received on the line item tab. These phantom components will be generated based on a setting in [ RMA.E ](../RMA-E/README.md) line item called "Explode Phantoms?". If this is checked then when a quantity is entered for a line item in either [ RMAREC.E ](RMAREC-E/README.md) or RMAREC.E2, then the phantom components will be generated with the appropriate quantities based on the bill of material for the phantom. The component quantities can be manually adjusted as necessary. When the receipt is confirmed the component parts will be received into inventory instead of the phantom.   
   
-Tab four contains information relating to field service labor operations that would be loaded from a field service order that was entered in [ RMA.E ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMA-E) and may generate credits. Field service parts are loaded as line items in tab 2.   
+Tab four contains information relating to field service labor operations that would be loaded from a field service order that was entered in [ RMA.E ](../RMA-E/README.md) and may generate credits. Field service parts are loaded as line items in tab 2.   
   
 Tab five contains information about repair steps that were taken. Both labor
 and material can be applied to the RMAREC record, and each item can be flagged
@@ -48,7 +48,7 @@ an invoice in Accounts Receivable.
 As required.
 
 **Prerequisites**  
-Entry of an RMA with the [ RMA.E ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMA-E) procedure. 
+Entry of an RMA with the [ RMA.E ](../RMA-E/README.md) procedure. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

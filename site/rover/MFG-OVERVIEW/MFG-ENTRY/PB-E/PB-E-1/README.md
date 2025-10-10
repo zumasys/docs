@@ -6,9 +6,9 @@
 
 ![](./PB-E-1.jpg)
 
-**PB.ID** Enter the identification of the planning bill you want to add or update. Planning bill IDs are user defined and may represent a logical product group or options package. If you want the system to make use of the planning bills in the [ MPS.P1 ](../../../../../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/PLAN-CONTROL/PLAN-CONTROL-1/MPS-P1) process then the planning bill IDs you want used must be defined on the parts master as MPS items. Please note that this not required if you are only using the planning bills as a means to load the forecast or MPS directly for the items defined within each planning bill. In this case you are only concerned with the items in the planning bill and not the planning bill itself.   
+**PB.ID** Enter the identification of the planning bill you want to add or update. Planning bill IDs are user defined and may represent a logical product group or options package. If you want the system to make use of the planning bills in the [ MPS.P1 ](../../../MFG-PROCESS/MPS-P1/README.md) process then the planning bill IDs you want used must be defined on the parts master as MPS items. Please note that this not required if you are only using the planning bills as a means to load the forecast or MPS directly for the items defined within each planning bill. In this case you are only concerned with the items in the planning bill and not the planning bill itself.   
   
-**Group** Enter the planning group which applies to this master schedule. This field will be verified against the planning group(s) entered in [ PLAN.CONTROL ](../../../../../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/PLAN-CONTROL) . If you have only one planning group this field will be defaulted and skipped.   
+**Group** Enter the planning group which applies to this master schedule. This field will be verified against the planning group(s) entered in [ PLAN.CONTROL ](../../PLAN-CONTROL/README.md) . If you have only one planning group this field will be defaulted and skipped.   
   
 **Description** Enter an optional one line description of the planning bill.
 If a part number is used as the planning bill ID then the first line of the

@@ -32,7 +32,7 @@ associated date.
   
 **Group Description** Displays the description of the associated group code.  
   
-**Contact Type** Contact types are defined in the [ CONTACT.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CONTACT-CONTROL) procedure. They are associated with the contacts for customers and prospects to identify their role in the company. For example, you may define different type codes for sales, purchasing, accounts payable, accounts receivable, engineering etc. You can limit the codes included to those defined in this list. If the codes you identified are not found in the customer or prospect then the first contact in the list for that company will be used. If no type codes are entered in this field a single entry for each qualified customer using the first contact will be included.   
+**Contact Type** Contact types are defined in the [ CONTACT.CONTROL ](../../../../AP-OVERVIEW/AP-ENTRY/CONTACT-CONTROL/README.md) procedure. They are associated with the contacts for customers and prospects to identify their role in the company. For example, you may define different type codes for sales, purchasing, accounts payable, accounts receivable, engineering etc. You can limit the codes included to those defined in this list. If the codes you identified are not found in the customer or prospect then the first contact in the list for that company will be used. If no type codes are entered in this field a single entry for each qualified customer using the first contact will be included.   
   
 **Contact Code Description** Displays the description of the associated
 contact code.  

@@ -40,7 +40,7 @@ entered.
 **Notes** Enter any notes that may be helpful in explaining the reason for the
 rejection.  
   
-**Receipt Id** If applicable, enter the purchase order receipt that this DMR record was created for. There is an option in [ RECEIPTS.E2 ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2) to create the DMR records for the material being returned to the vendor.   
+**Receipt Id** If applicable, enter the purchase order receipt that this DMR record was created for. There is an option in [ RECEIPTS.E2 ](../../RECEIPTS-E2/README.md) to create the DMR records for the material being returned to the vendor.   
   
 **Ncmr Id** If applicable, enter the NCMR Id that is associated to this DMR
 record.  

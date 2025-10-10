@@ -14,7 +14,7 @@ ID for this procedure.
 **Description** Enter the description of the rebate that should appear on the
 invoice.  
   
-**Account Number** Enter the default account number that should be used when issuing a credit for this type of rebate. A account number may, also, be defined per customer in [ CUST.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) .   
+**Account Number** Enter the default account number that should be used when issuing a credit for this type of rebate. A account number may, also, be defined per customer in [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) .   
   
 **Percentage** Enter the default percentage for this rebate type. If this
 field is not left blank, it will default into the customer record for you.  
@@ -30,14 +30,14 @@ receive a rebate for. For example, you may offer a rebate to customers who
 sell between 5,000.00 and 10,000.00 in a given month. This amount should
 always be greater than the "to" amount for the previous entry.  
   
-You will have an option in [ CUST.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) to load in these defaults.   
+You will have an option in [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) to load in these defaults.   
   
 **To Amount** Enter the ending range or sales volume the customer should
 receive a rebate for. For example, you may offer a rebate to customers who
 sell between 5,000.00 and 10,000.00 in a given month. This amount should
 always be greater than the from amount.  
   
-You will have an option in [ CUST.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) to load in these defaults.   
+You will have an option in [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) to load in these defaults.   
   
 **Account Number** Enter the g/l account number that should be used for this
 rebate type.  

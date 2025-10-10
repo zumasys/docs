@@ -10,7 +10,7 @@
   
 **Customer** The customer name is displayed for reference.  
   
-**Qty** The quantity breaks to use for this quote. This field is originally defaulted from the [ QUOTE.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-1/SOQUOTE-E/SOQUOTE-E-1/QUOTE-CONTROL) record and may be changed as needed.   
+**Qty** The quantity breaks to use for this quote. This field is originally defaulted from the [ QUOTE.CONTROL ](../../QUOTE-CONTROL/README.md) record and may be changed as needed.   
   
 **Material Cost** The total unit material cost as calculated from the bill of
 material defined.  
@@ -26,7 +26,7 @@ identified.
   
 **Total Cost** The total of all costs for this quantity.  
   
-**Markup Pct** The markup percentages for each quantity break. This field is originally defaulted from the [ QUOTE.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-1/SOQUOTE-E/SOQUOTE-E-1/QUOTE-CONTROL) record and may be changed as needed.   
+**Markup Pct** The markup percentages for each quantity break. This field is originally defaulted from the [ QUOTE.CONTROL ](../../QUOTE-CONTROL/README.md) record and may be changed as needed.   
   
 **Price** This field represents the total unit price as calculated from all
 available information. This field may be manually altered as needed.  

@@ -9,7 +9,7 @@
 [ Employees ](CRP-Q-4/README.md)   
 
 **Purpose**  
-The CRP.Q procedure provides an inquiry of the status of production capacity for each work center included in the capacity plan as defined in the [ CRP.CONTROL ](../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E/WC-E-1/CRP-P1/CRP-P1-1/CRP-CONTROL) procedure.   
+The CRP.Q procedure provides an inquiry of the status of production capacity for each work center included in the capacity plan as defined in the [ CRP.CONTROL ](../../MFG-ENTRY/CRP-CONTROL/README.md) procedure.   
   
 The user controls the type of periods displayed (Day, Week, Month) and how
 many. The information displayed for each period includes the capacity,

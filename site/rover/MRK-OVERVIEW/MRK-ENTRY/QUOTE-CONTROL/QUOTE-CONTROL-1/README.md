@@ -19,19 +19,19 @@ procedures. Once defaulted, they may be modified on the quote as required.
 **Markup%** Enter the default markup percent to be used for each quantity
 break.  
   
-**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) and used to determine the cost method for calculating material costs.   
+**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../INV-OVERVIEW/INV-ENTRY/INV-CONTROL/README.md) and used to determine the cost method for calculating material costs.   
   
-**Default Comm%** Enter the default commission percent to use when calculating the total cost of the part being quoted. This percent will be defaulted into [ QUOTE.E ](../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-1/SOQUOTE-E/QUOTE-E) in the event there is no specific rep identified on the Quote, or the rep has no commission percent assigned.   
+**Default Comm%** Enter the default commission percent to use when calculating the total cost of the part being quoted. This percent will be defaulted into [ QUOTE.E ](../../QUOTE-E/README.md) in the event there is no specific rep identified on the Quote, or the rep has no commission percent assigned.   
   
 **Valid Days** Enter the number of days which quotes are normally valid. This
 field will be used to default the expiration date in the quote entry
 procedures.  
   
-**Update BOM** If you wish to allow the user to update the BOM when a quote is authorized, check this box. This will cause a message to appear at file time in [ QUOTE.E ](../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-1/SOQUOTE-E/QUOTE-E) , prompting the user to approve updating the BOM.   
+**Update BOM** If you wish to allow the user to update the BOM when a quote is authorized, check this box. This will cause a message to appear at file time in [ QUOTE.E ](../../QUOTE-E/README.md) , prompting the user to approve updating the BOM.   
   
-**Update Routing** If you wish to allow the user to update routings when a quote is authorized, check this box. This will cause a message to appear at file time in [ QUOTE.E ](../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-1/SOQUOTE-E/QUOTE-E) , prompting the user to approve updating the   
+**Update Routing** If you wish to allow the user to update routings when a quote is authorized, check this box. This will cause a message to appear at file time in [ QUOTE.E ](../../QUOTE-E/README.md) , prompting the user to approve updating the   
   
-**Price Calculation** This field will be used during [ SOQUOTE.E ](../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-1/SOQUOTE-E) to load the price fields in the line items. "P" will use the price file for the associated   
+**Price Calculation** This field will be used during [ SOQUOTE.E ](../../SOQUOTE-E/README.md) to load the price fields in the line items. "P" will use the price file for the associated   
 quantity. "M" will use the cost data entered and the markup  
 percentage to calculate the price.  
   

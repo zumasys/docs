@@ -6,7 +6,7 @@
 
 ![](./AR-E-4.jpg)
 
-**Ship Address** This field contains the ship name and street address for this invoice. If this record was posted from a shipment, then the address was loaded from that shipment record. There is a lookup from this field to display and selecting one of the shipping addresses that have been defined for the customer in [ CUST.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) . If this field is empty, then customer address will print as the ship address in [ AR.F2 ](AR-F2/README.md) .   
+**Ship Address** This field contains the ship name and street address for this invoice. If this record was posted from a shipment, then the address was loaded from that shipment record. There is a lookup from this field to display and selecting one of the shipping addresses that have been defined for the customer in [ CUST.E ](../../CUST-E/README.md) . If this field is empty, then customer address will print as the ship address in [ AR.F2 ](AR-F2/README.md) .   
   
 **Ship City** This field contains the ship city which will print on the
 invoice form.  

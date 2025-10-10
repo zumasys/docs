@@ -52,7 +52,7 @@ this vendor.
 **1099.Flag** If this vendor requires 1099 reporting, enter a "Y", otherwise
 enter either an "N" or leave null.  
   
-**1099 Box** Enter the box on the 1099 form which is to used to print forms for this vendor. This field will be used as a default into the [ AP.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) procedure. If this field is left empty the non-employee compensation box is assumed.   
+**1099 Box** Enter the box on the 1099 form which is to used to print forms for this vendor. This field will be used as a default into the [ AP.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) procedure. If this field is left empty the non-employee compensation box is assumed.   
   
 **ID.Number** Enter the vendor's payer ID number. This may be a social
 security number in the case of a sole proprietor or individual, or a federal
@@ -81,7 +81,7 @@ terms file.
 This information is loaded from the TERMS file for reference only and may not
 be changed.  
   
-**Account** Enter the General Ledger account number assigned to this vendor. A valid account number entered here will default into the [ PO.E ](PO-E/README.md) and [ AP.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E) screens.   
+**Account** Enter the General Ledger account number assigned to this vendor. A valid account number entered here will default into the [ PO.E ](PO-E/README.md) and [ AP.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) screens.   
   
 **Account Desc** This field contains the description of the GL chart of
 account.  

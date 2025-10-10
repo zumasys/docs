@@ -3,8 +3,8 @@
 <PageHeader />
 
 **Form Details**  
-[ Line Items ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2/RECEIPTS-E3/RECEIPTS-E/RECEIPTS-E-1)   
-[ Components ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2/RECEIPTS-E3/RECEIPTS-E/RECEIPTS-E-2)   
+[ Line Items ](../../PUR-OVERVIEW/PUR-ENTRY/RECEIPTS-E/RECEIPTS-E-1/README.md)   
+[ Components ](../../PUR-OVERVIEW/PUR-ENTRY/RECEIPTS-E/RECEIPTS-E-2/README.md)   
 
 **Purpose**  
 The RECEIPTS.E procedure provides the ability to post receipts against
@@ -24,13 +24,13 @@ the second tab of RECEIPTS.E. Any necessary bin numbers or lot numbers must be
 entered on the component parts and the inventory transactions will be done for
 the component parts, not the phantom.  
   
-A receipt record can be modified or deleted using RECEIPTS.E while it is in a "N"ew status, but after the inventory has been updated, if an entry was made in error it can be reversed using [ RECEIPTS.E3 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/RECEIPTS-E2/RECEIPTS-E3) . 
+A receipt record can be modified or deleted using RECEIPTS.E while it is in a "N"ew status, but after the inventory has been updated, if an entry was made in error it can be reversed using [ RECEIPTS.E3 ](../../PUR-OVERVIEW/PUR-ENTRY/RECEIPTS-E3/RECEIPTS-E3/README.md) . 
 
 **Frequency of Use**  
 As required.
 
 **Prerequisites**  
-Entry of the purchase order to be received ( [ PO.E ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E) ). 
+Entry of the purchase order to be received ( [ PO.E ](../../PUR-OVERVIEW/PUR-ENTRY/PO-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

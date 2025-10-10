@@ -37,7 +37,7 @@ destination and may not be available in all cases.
 function which may also be activated by clicking the save button in the tool
 bar or pressing the F9 key or Ctrl+S.  
   
-**Start Date** Enter the first date which will be assigned as a cycle date. Make sure that working days and holidays have been established in [ MC.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/CYCLE-P1/CYCLE-P1-1/INV-P1/MC-CONTROL) .   
+**Start Date** Enter the first date which will be assigned as a cycle date. Make sure that working days and holidays have been established in [ MC.CONTROL ](../../../../MFG-OVERVIEW/MFG-ENTRY/MC-CONTROL/README.md) .   
   
 **Inventory Only** This field controls which part numbers will be assigned a
 cycle date in inventory. If you wish to assign dates only to parts which have
@@ -46,7 +46,7 @@ the part has inventory, a commitment, allocation or order, or has had
 inventory at one time in the past. To assign cycle dates to all part numbers
 in the parts file, leave the box unchecked (default).  
   
-**Use Home Location** If you wish to use the inventory location found in the Parts file, check this box. Leave the box unchecked to assign cycle dates for all locations found in the [ INV.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) procedure (default).   
+**Use Home Location** If you wish to use the inventory location found in the Parts file, check this box. Leave the box unchecked to assign cycle dates for all locations found in the [ INV.CONTROL ](../../../INV-ENTRY/INV-CONTROL/README.md) procedure (default).   
   
 **Plan Group** Enter the planning group for selecting the part's home
 location. If not using the home location option, the plan group will be used

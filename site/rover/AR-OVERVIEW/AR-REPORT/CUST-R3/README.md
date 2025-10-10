@@ -6,7 +6,7 @@
 [ Form Details ](CUST-R3-1/README.md)   
 
 **Purpose**  
-The customer credit hold report provides a list of all customers that are currently flagged as being on credit hold. The credit hold flag is set using the [ CUST.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) procedure. 
+The customer credit hold report provides a list of all customers that are currently flagged as being on credit hold. The credit hold flag is set using the [ CUST.E ](../../AR-ENTRY/CUST-E/README.md) procedure. 
 
 **Frequency of Use**  
 As required.

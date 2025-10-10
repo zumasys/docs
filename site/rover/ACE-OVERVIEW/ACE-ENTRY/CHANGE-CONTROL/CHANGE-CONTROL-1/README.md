@@ -9,9 +9,9 @@
 **Control ID** The control id for this record. "CHANGE' will be loaded in for
 you and cannot be changed.  
   
-**Email Address** Enter the email addresses that will be sent a change notice. The email addresses will appear in a list when the AR record is saved in [ AR.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) . They can optionally be selected or not at that time. The default selection is controlled with the next field.   
+**Email Address** Enter the email addresses that will be sent a change notice. The email addresses will appear in a list when the AR record is saved in [ AR.E ](../../../../AR-OVERVIEW/AR-ENTRY/AR-E/README.md) . They can optionally be selected or not at that time. The default selection is controlled with the next field.   
   
-**Default Email** When an AR record is filed in [ AR.E ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) and a change notice is triggered, then the email addresses will appear in a list to optionally be sent the notice. This field controls whether this email address is always defaulted to send a notice.   
+**Default Email** When an AR record is filed in [ AR.E ](../../../../AR-OVERVIEW/AR-ENTRY/AR-E/README.md) and a change notice is triggered, then the email addresses will appear in a list to optionally be sent the notice. This field controls whether this email address is always defaulted to send a notice.   
   
 **AR Data Field** This is the field number in the AR file. Use the help option
 to load in selected fields that when changed will cause a change notice to be

@@ -3,11 +3,11 @@
 <PageHeader />
 
 **Form Details**  
-[ Defaults ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1)   
-[ Bank Accounts ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-2)   
-[ AR Collection ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3)   
-[ Vendor ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-4)   
-[ Change History ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-5)   
+[ Defaults ](../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/README.md)   
+[ Bank Accounts ](../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-2/README.md)   
+[ AR Collection ](../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/README.md)   
+[ Vendor ](../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-4/README.md)   
+[ Change History ](../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-5/README.md)   
 
 **Purpose**  
 The ACCT.CONTROL procedure is used to define default information which will be
@@ -20,7 +20,7 @@ you change the fields in this procedure, the aging reports will change the
 next time you run them. The last two bucketss (4 and 5) will be summarized
 into one on the a/r statements due to spacing restrictions.  
   
-On the BANK ACCOUNTS tab in this procedure, you can enter in the names and accounts of the banks that will be used in banking transactions. If present, the names and accounts will print on the deposit slips that are generated via [ CASH.F1 ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-2/CASH-F1) . 
+On the BANK ACCOUNTS tab in this procedure, you can enter in the names and accounts of the banks that will be used in banking transactions. If present, the names and accounts will print on the deposit slips that are generated via [ CASH.F1 ](../../AR-OVERVIEW/AR-REPORT/CASH-F1/README.md) . 
 
 **Frequency of Use**  
 The entries in this procedure must be loaded prior to using the aging reports.

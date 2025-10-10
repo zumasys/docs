@@ -63,9 +63,9 @@ check this box.
 **Open Balance** Check this box if you only wish to include customers with an
 open A/R or sales order amount.  
   
-**Past Due Invoices** Check this box if you only wish to include customers with past due invoices. For purposes of this report, the invoice is considered past due if it exceeds the day limit referenced in [ CUST.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) or [ AR.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) .   
+**Past Due Invoices** Check this box if you only wish to include customers with past due invoices. For purposes of this report, the invoice is considered past due if it exceeds the day limit referenced in [ CUST.E ](../../../AR-ENTRY/CUST-E/README.md) or [ AR.CONTROL ](../../../AR-ENTRY/AR-CONTROL/README.md) .   
   
-**No Dollar Limit** Check this box if you only wish to include customers for which no dollar or credit limit has been defined in [ CUST.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) .   
+**No Dollar Limit** Check this box if you only wish to include customers for which no dollar or credit limit has been defined in [ CUST.E ](../../../AR-ENTRY/CUST-E/README.md) .   
   
 **Exceed Credit Limit** Check this box if you wish to include customers that
 have exceeded their credit limit.  

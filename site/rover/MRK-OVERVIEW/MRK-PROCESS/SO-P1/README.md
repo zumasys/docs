@@ -13,7 +13,7 @@ This procedure may be run as required, but is usually run on a daily or weekly
 period for a pre-defined period relative to the current date.
 
 **Prerequisites**  
-Setup of the [ MRK.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) record ( [ MRK.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) ). 
+Setup of the [ MRK.CONTROL ](../../MRK-ENTRY/MRK-CONTROL/README.md) record ( [ MRK.CONTROL ](../../MRK-ENTRY/MRK-CONTROL/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

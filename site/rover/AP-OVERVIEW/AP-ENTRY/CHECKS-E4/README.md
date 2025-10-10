@@ -20,13 +20,13 @@ records are created.
 You may, also, print the check on a laser based check form from this
 procedure. The A/R credit memos will not print on the check.  
   
-An existing check record cannot be changed. [ CHECKS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E) must be used to delete the record, if necessary. If deleted, the credit memos and debit memo will not be reopened. If you delete records from a prior fiscal/calendar period and you re-run your check reports for those periods, the reports will not match the reports you ran earlier for those periods. 
+An existing check record cannot be changed. [ CHECKS.E ](../CHECKS-E/README.md) must be used to delete the record, if necessary. If deleted, the credit memos and debit memo will not be reopened. If you delete records from a prior fiscal/calendar period and you re-run your check reports for those periods, the reports will not match the reports you ran earlier for those periods. 
 
 **Frequency of Use**  
 As required to process refund checks.
 
 **Prerequisites**  
-Initialization of the Accounts Payable control record ( [ AP.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) ), the Accounts Receivable control record ( [ AR.CONTROL ](AR-CONTROL/README.md) ) and entry of the customer record to be referenced. The credit memos to be closed must exist in the AR file. 
+Initialization of the Accounts Payable control record ( [ AP.CONTROL ](../AP-CONTROL/README.md) ), the Accounts Receivable control record ( [ AR.CONTROL ](AR-CONTROL/README.md) ) and entry of the customer record to be referenced. The credit memos to be closed must exist in the AR file. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

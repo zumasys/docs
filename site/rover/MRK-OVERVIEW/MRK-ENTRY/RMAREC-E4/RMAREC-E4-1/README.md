@@ -22,7 +22,7 @@ place is displayed in this field.
   
 **Part Id** Contains the part number of the item being received.  
   
-**Description** Contains the description of the item being received as defined in the [ RMA.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMA-E) procedure.   
+**Description** Contains the description of the item being received as defined in the [ RMA.E ](../../RMA-E/README.md) procedure.   
   
 **Quantity** The quantities of the items received associated with the lot
 number and bin location into which they were received.  

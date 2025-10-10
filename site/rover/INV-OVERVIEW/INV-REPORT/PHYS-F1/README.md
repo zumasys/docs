@@ -29,7 +29,7 @@ tag.
 performed the count.  
 **Counted By** The initials of the person who performed the count.  
 **Date** The date on which the count was performed.  
-**Entered** The date on which this tag was entered into the system in [ PHYS.E ](../../../../../rover/INV-OVERVIEW/INV-ENTRY/PHYS-E) .   
+**Entered** The date on which this tag was entered into the system in [ PHYS.E ](../../INV-ENTRY/PHYS-E/README.md) .   
   
 <badge text= "Version 8.10.57" vertical="middle" />
 

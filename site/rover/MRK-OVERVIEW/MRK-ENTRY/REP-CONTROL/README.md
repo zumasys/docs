@@ -29,7 +29,7 @@ This procedure should be updated when adding new users or removing old users
 from the system.
 
 **Prerequisites**  
-The user id(s) must be added first in SECURITY.E and the rep id(s) must first be added in [ REP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/PRECOMM-E/PRECOMM-E-1/REP-E) . 
+The user id(s) must be added first in SECURITY.E and the rep id(s) must first be added in [ REP.E ](../REP-E/README.md) . 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

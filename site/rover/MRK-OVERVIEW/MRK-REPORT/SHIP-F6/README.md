@@ -17,7 +17,7 @@ Packing slip forms may be printed as required and may be also be reprinted at
 any time.
 
 **Prerequisites**  
-Entry of the selected Shipment reocrds ( [ SHIP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E) or [ SHIP.E2 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E/SO-P1/SHIP-E2) ). 
+Entry of the selected Shipment reocrds ( [ SHIP.E ](../../MRK-ENTRY/SHIP-E/README.md) or [ SHIP.E2 ](../../MRK-ENTRY/SHIP-E2/README.md) ). 
 
 **Data Fields**
 

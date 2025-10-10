@@ -35,7 +35,7 @@ If you will be using [ RECON.E ](RECON-E/README.md) to reconcile your bank state
 As required.
 
 **Prerequisites**  
-Initialization of the accounts receivable control record ( [ AR.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) ), and entry of the general ledger account numbers to be referenced. 
+Initialization of the accounts receivable control record ( [ AR.CONTROL ](../AR-CONTROL/README.md) ), and entry of the general ledger account numbers to be referenced. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

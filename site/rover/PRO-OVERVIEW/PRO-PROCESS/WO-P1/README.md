@@ -15,7 +15,7 @@ Therefore, the only time you really need to run this procedure is when the
 file has been corrupted or records have been purged from the work order file.
 
 **Prerequisites**  
-Entry of work order records ( [ WO.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-E) ). 
+Entry of work order records ( [ WO.E ](../../PRO-ENTRY/WO-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

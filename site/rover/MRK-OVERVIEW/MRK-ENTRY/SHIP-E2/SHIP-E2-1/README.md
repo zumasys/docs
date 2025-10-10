@@ -20,9 +20,9 @@ N - The items have not been shipped.
 S - The items have been shipped.  
 P - The shipment has been posted and the accounts receivable record has been
 created.  
-If the status code is not already set to "P" then the user may enter the code "N" for new, or "S" for shipped. The "N" status sets the shipment as a new shipment just as the [ SHIP.E ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E) procedure does, and does not create any inventory transactions. The "S" status will confirm the shipment by creating inventory transactions, and will be posted the next time the procedure [ SHIP.P1 ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/comm-e/SHIP-P1) is run. Once the status has been set to "S" and the record has been filed, you may not reset the status to "N".   
+If the status code is not already set to "P" then the user may enter the code "N" for new, or "S" for shipped. The "N" status sets the shipment as a new shipment just as the [ SHIP.E ](../../SHIP-E/README.md) procedure does, and does not create any inventory transactions. The "S" status will confirm the shipment by creating inventory transactions, and will be posted the next time the procedure [ SHIP.P1 ](../../../MRK-PROCESS/SHIP-P1/README.md) is run. Once the status has been set to "S" and the record has been filed, you may not reset the status to "N".   
   
-**Invoice#** This field contains the invoice number assigned to the shipment. The way in which the invoice number is assigned depends upon the parameters defined in the [ MRK.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) procedure. The control setting will be set to one of the following options.   
+**Invoice#** This field contains the invoice number assigned to the shipment. The way in which the invoice number is assigned depends upon the parameters defined in the [ MRK.CONTROL ](../../MRK-CONTROL/README.md) procedure. The control setting will be set to one of the following options.   
   
 \- Require the entry of an invoice number.  
 \- Let the system assign the number when the  
@@ -75,7 +75,7 @@ of the shipping address.
   
 **Ship Zip** The zip code the shipment is being delivered to.  
   
-**Ship Country** Enter the country this shipment will be sent to. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-1/SHIP-CONTROL) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) .   
+**Ship Country** Enter the country this shipment will be sent to. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../SHIP-CONTROL/README.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) .   
   
 **Ship Attn** Enter the name of the person or contact that this shipment is
 being delivered to.  
@@ -104,7 +104,7 @@ to the line items and miscellaneous charges that have been flagged as taxable.
 If no line items or misc. charges have been flagged as taxable, no tax will be
 added to the invoice.  
   
-If a resale number is entered on the header tab of [ SO.E ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) , tax will not be applied to the line items or miscellaneous charges. However, tax will applied to the freight if the freight amount is flagged as taxable.   
+If a resale number is entered on the header tab of [ SO.E ](../../SO-E/README.md) , tax will not be applied to the line items or miscellaneous charges. However, tax will applied to the freight if the freight amount is flagged as taxable.   
   
 **Tax Pcts** Displays the tax percentage for the associated tax code.  
   
@@ -134,9 +134,9 @@ the customer.
 **Cod** Check this box if the shipment is to be sent C.O.D. (cash on
 delivery).  
   
-**Freight Amount** Enter the dollar amount of any freight charges to be billed to the customer for the shipment. If a freight charge was entered on the sales order (via [ SO.E ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) ) with a freight type of ACTUAL, the freight amount will be loaded into this field for you but can be changed as required.   
+**Freight Amount** Enter the dollar amount of any freight charges to be billed to the customer for the shipment. If a freight charge was entered on the sales order (via [ SO.E ](../../SO-E/README.md) ) with a freight type of ACTUAL, the freight amount will be loaded into this field for you but can be changed as required.   
   
-**Freight Account#** If a freight amount is entered the general ledger account number associated with it should be entered in this field. The account number is defaulted initially from the [ MRK.CONTROL ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) record.   
+**Freight Account#** If a freight amount is entered the general ledger account number associated with it should be entered in this field. The account number is defaulted initially from the [ MRK.CONTROL ](../../MRK-CONTROL/README.md) record.   
   
 **Freight Taxable** Check this box if the freight is taxable.  
   

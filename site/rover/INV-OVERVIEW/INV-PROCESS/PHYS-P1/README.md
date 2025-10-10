@@ -20,7 +20,7 @@ This process does not 'freeze' any inventory locations.
 This procedure should be run when a physical inventory is to be taken.
 
 **Prerequisites**  
-The physical inventory control data must be entered into the [ INV.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) procedure to define the parameters of a physical. It is incumbent upon the user to stop inventory movements when the actual count is in process. 
+The physical inventory control data must be entered into the [ INV.CONTROL ](../../INV-ENTRY/INV-CONTROL/README.md) procedure to define the parameters of a physical. It is incumbent upon the user to stop inventory movements when the actual count is in process. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

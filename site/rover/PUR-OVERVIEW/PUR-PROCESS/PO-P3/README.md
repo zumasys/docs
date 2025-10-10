@@ -6,7 +6,7 @@
 [ Form Details ](PO-P3-1/README.md)   
 
 **Purpose**  
-The PO.P3 procedure recalculates and sets the open order amount in the vendor file. This amount is displayed on query procedures such as the vendor inquiry ( [ VENDOR.Q ](../../../../rover/AP-OVERVIEW/AP-REPORT/VENDOR-Q) ). 
+The PO.P3 procedure recalculates and sets the open order amount in the vendor file. This amount is displayed on query procedures such as the vendor inquiry ( [ VENDOR.Q ](../../../../rover/AP-OVERVIEW/AP-REPORT/VENDOR-Q/README.md) ). 
 
 **Frequency of Use**  
 The open order amount is maintained automatically as purchase orders are
@@ -15,7 +15,7 @@ to run this procedure is when the file has been corrupted or records have been
 purged from the purchase order file.
 
 **Prerequisites**  
-Entry of purchase order records ( [ PO.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E) ). 
+Entry of purchase order records ( [ PO.E ](../../PUR-ENTRY/PO-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

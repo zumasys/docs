@@ -12,7 +12,7 @@ The SOQUOTE.F1 procedure is used to print sales quotes on plain paper forms.
 As required.
 
 **Prerequisites**  
-Entry of the selected SOQUOTE records ( [ SOQUOTE.E ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-1/SOQUOTE-E) ). 
+Entry of the selected SOQUOTE records ( [ SOQUOTE.E ](../../MRK-ENTRY/SOQUOTE-E/README.md) ). 
 
 **Data Fields**
 

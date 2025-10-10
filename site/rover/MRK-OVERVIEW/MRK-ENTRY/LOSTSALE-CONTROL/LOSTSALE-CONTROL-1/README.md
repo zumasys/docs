@@ -8,7 +8,7 @@
 
 ** **  
   
-**Reason Code** Enter up to a 6 digit code which will be used as the identifier for the associated lost sale. Lost sales can be tracked via [ LOSTSALE.E ](../../../../../rover/MRK-OVERVIEW/MRK-ENTRY/LOSTSALE-CONTROL/LOSTSALE-E) .   
+**Reason Code** Enter up to a 6 digit code which will be used as the identifier for the associated lost sale. Lost sales can be tracked via [ LOSTSALE.E ](../../LOSTSALE-E/README.md) .   
   
 **Code Description** Enter the description for the associated code.  
   

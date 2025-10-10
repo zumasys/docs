@@ -13,7 +13,7 @@ defined in the system.
 As required.
 
 **Prerequisites**  
-The inventory locations must have been entered in the [ INVLOC.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/INVLOC-E) procedure. 
+The inventory locations must have been entered in the [ INVLOC.E ](../../INV-ENTRY/INVLOC-E/README.md) procedure. 
 
 **Data Fields**
 

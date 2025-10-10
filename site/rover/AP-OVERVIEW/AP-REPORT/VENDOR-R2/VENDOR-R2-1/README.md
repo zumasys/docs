@@ -37,13 +37,13 @@ destination and may not be available in all cases.
 function which may also be activated by clicking the save button in the tool
 bar or pressing the F9 key or Ctrl+S.  
   
-**Start Month** Enter the starting month number for which you want to summarize and print the statistics. The rating information is compiled by the [ VENDOR.P2 ](../../../../../../../../../../rover/AP-OVERVIEW/AP-REPORT/VENDOR-Q/VENDOR-Q-9/DMR-CONTROL/DMR-CONTROL-1/VENDOR-P2) procedure and this report is used to print that information.   
+**Start Month** Enter the starting month number for which you want to summarize and print the statistics. The rating information is compiled by the [ VENDOR.P2 ](../../../AP-PROCESS/VENDOR-P2/README.md) procedure and this report is used to print that information.   
   
-**Start Year** Enter the starting year for which you want to summarize and print the statistics. The rating information is compiled by the [ VENDOR.P2 ](../../../../../../../../../../rover/AP-OVERVIEW/AP-REPORT/VENDOR-Q/VENDOR-Q-9/DMR-CONTROL/DMR-CONTROL-1/VENDOR-P2) procedure and this report is used to print that information.   
+**Start Year** Enter the starting year for which you want to summarize and print the statistics. The rating information is compiled by the [ VENDOR.P2 ](../../../AP-PROCESS/VENDOR-P2/README.md) procedure and this report is used to print that information.   
   
-**End Month** Enter the ending month number for which you want to summarize and print the statistics. The rating information is compiled by the [ VENDOR.P2 ](../../../../../../../../../../rover/AP-OVERVIEW/AP-REPORT/VENDOR-Q/VENDOR-Q-9/DMR-CONTROL/DMR-CONTROL-1/VENDOR-P2) procedure and this report is used to print that information.   
+**End Month** Enter the ending month number for which you want to summarize and print the statistics. The rating information is compiled by the [ VENDOR.P2 ](../../../AP-PROCESS/VENDOR-P2/README.md) procedure and this report is used to print that information.   
   
-**End Year** Enter the ending year for which you want to summarize and print the statistics. The rating information is compiled by the [ VENDOR.P2 ](../../../../../../../../../../rover/AP-OVERVIEW/AP-REPORT/VENDOR-Q/VENDOR-Q-9/DMR-CONTROL/DMR-CONTROL-1/VENDOR-P2) procedure and this report is used to print that information.   
+**End Year** Enter the ending year for which you want to summarize and print the statistics. The rating information is compiled by the [ VENDOR.P2 ](../../../AP-PROCESS/VENDOR-P2/README.md) procedure and this report is used to print that information.   
   
 **Include All Vendors** Select this option if you wish to include all vendors
 on this report. If this opttion is not selected, only vendors with activity in

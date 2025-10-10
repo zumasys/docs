@@ -14,7 +14,7 @@ make part, buy part, planned order and master schedule. The planner has the
 option of release all of the items as displayed, or may make adjustments to
 specific items before they are released.  
   
-The planner will not be able to create purchase orders for parts on "buy hold" or work orders for parts on "make hold". The buy hold and make hold options are updated in the [ PARTS.E ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/PARTS-E) procedure. 
+The planner will not be able to create purchase orders for parts on "buy hold" or work orders for parts on "make hold". The buy hold and make hold options are updated in the [ PARTS.E ](../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) procedure. 
 
 **Frequency of Use**  
 As required.

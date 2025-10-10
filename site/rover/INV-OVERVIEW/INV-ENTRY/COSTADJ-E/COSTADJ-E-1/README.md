@@ -12,7 +12,7 @@ record is filed. It is not displayed for entry.
 **Part Number** Enter the number of the part whose average cost is to be
 changed.  
   
-**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) . The cost group is used to define the costing method and to group inventory locations together for averaging the cost within those locations.   
+**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../INV-CONTROL/README.md) . The cost group is used to define the costing method and to group inventory locations together for averaging the cost within those locations.   
   
 **Lot No** If lot costing is active and the part number you have selected is
 lot control then enter the lot number to be adjusted.  

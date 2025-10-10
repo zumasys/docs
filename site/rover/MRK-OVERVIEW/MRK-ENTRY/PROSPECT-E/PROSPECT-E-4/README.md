@@ -12,7 +12,7 @@ is for reference only.
 **Name** This field contains the prospect name from the first screen and is
 for reference only.  
   
-**Sales Stage** Select the sales step for this line. Valid entries are defined in the [ PROSPECT.CONTROL ](../../../../../../rover/MRK-OVERVIEW/MRK-ENTRY/PROSPECT-CONTROL) procedure.   
+**Sales Stage** Select the sales step for this line. Valid entries are defined in the [ PROSPECT.CONTROL ](../../PROSPECT-CONTROL/README.md) procedure.   
   
 **Sales Product** Enter the product being proposed for this sales stage.  
   
@@ -29,7 +29,7 @@ be entered in this field.
   
 **Sales Prob** Enter the probablilty percentage that this item will close.  
   
-**Sales Status** Enter the status code for this line. If valid status codes have been defined in [ PROSPECT.CONTROL ](../../../../../../rover/MRK-OVERVIEW/MRK-ENTRY/PROSPECT-CONTROL) , then only those codes will be allowed.   
+**Sales Status** Enter the status code for this line. If valid status codes have been defined in [ PROSPECT.CONTROL ](../../PROSPECT-CONTROL/README.md) , then only those codes will be allowed.   
   
 **Sales Quote** This field contains the sales order quotation for the SOQUOTE
 file.  

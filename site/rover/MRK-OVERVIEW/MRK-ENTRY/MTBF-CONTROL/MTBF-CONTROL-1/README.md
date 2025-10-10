@@ -37,7 +37,7 @@ HC10-C]. This tells the system that all items beginning with HC10, followed by
 any 2 characters, followed by -C and any other set of characters would be
 included.  
   
-**Last FAIL.P1 Date** Contains the last date through which the [ FAIL.P1 ](../../../../../rover/MRK-OVERVIEW/MRK-REPORT/FAIL-R1/FAIL-P1) process to collect MTBF data has been run. This data is posted by the [ FAIL.P1 ](../../../../../rover/MRK-OVERVIEW/MRK-REPORT/FAIL-R1/FAIL-P1) procedure and may not be updated.   
+**Last FAIL.P1 Date** Contains the last date through which the [ FAIL.P1 ](../../../MRK-PROCESS/FAIL-P1/README.md) process to collect MTBF data has been run. This data is posted by the [ FAIL.P1 ](../../../MRK-PROCESS/FAIL-P1/README.md) procedure and may not be updated.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

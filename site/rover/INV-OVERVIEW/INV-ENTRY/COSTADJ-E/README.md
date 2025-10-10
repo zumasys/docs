@@ -15,7 +15,7 @@ adjustments for reasons such as data entry errors.
 As required.
 
 **Prerequisites**  
-The system must be set up as average cost ( [ INV.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) ). 
+The system must be set up as average cost ( [ INV.CONTROL ](../INV-CONTROL/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

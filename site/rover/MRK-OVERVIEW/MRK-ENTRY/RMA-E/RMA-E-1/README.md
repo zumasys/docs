@@ -25,7 +25,7 @@ all of the items are received you may enter the letter "C" in this field.
   
 **Status** Shows the current status of the RMA which may "Open" or "Closed".  
   
-**Pending Receipt** This box is checked if there is a pending receipt (not yet confirmed) for this RMA. A receipt is considered pending if the status on the receipt is set to "R" or “received”. When the status on the receipt is changed to "C" (for confirmed) via [ RMAREC.E2 ](RMAREC-E2/README.md) , this box will no longer appear as checked. This field is displayed for reference only and cannot be manually updated in this procedure.   
+**Pending Receipt** This box is checked if there is a pending receipt (not yet confirmed) for this RMA. A receipt is considered pending if the status on the receipt is set to "R" or ï¿½receivedï¿½. When the status on the receipt is changed to "C" (for confirmed) via [ RMAREC.E2 ](RMAREC-E2/README.md) , this box will no longer appear as checked. This field is displayed for reference only and cannot be manually updated in this procedure.   
   
 **Date Assigned** Enter the date on which the RMA was assigned. The system
 will default the current date.  
@@ -44,7 +44,7 @@ for that shipment will be loaded into this field and may not be altered. If a
 shipment number was not entered, and you know the number of the sales order
 against which the items were shipped, you may enter it in this field.  
   
-**Backorder SO** If a sales order number is present then you are given the option of backordering the quantity returned on the original sales order. The sales order can be backordered when the rma is created via RMA.E or when the rma receipt is posted via [ RMAREC.P1 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/RMAREC-P1) . In [ MRK.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) , you select the option to be used. If no option is selected in [ MRK.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) and the "backorder?" box is checked, the sales order will be backordered from RMA.E.   
+**Backorder SO** If a sales order number is present then you are given the option of backordering the quantity returned on the original sales order. The sales order can be backordered when the rma is created via RMA.E or when the rma receipt is posted via [ RMAREC.P1 ](../../../MRK-PROCESS/RMAREC-P1/README.md) . In [ MRK.CONTROL ](../../MRK-CONTROL/README.md) , you select the option to be used. If no option is selected in [ MRK.CONTROL ](../../MRK-CONTROL/README.md) and the "backorder?" box is checked, the sales order will be backordered from RMA.E.   
   
 If you have opted to backorder the sales order via RMA.E, the backorder
 quantity on the sales order will be updated each time you change the quantity

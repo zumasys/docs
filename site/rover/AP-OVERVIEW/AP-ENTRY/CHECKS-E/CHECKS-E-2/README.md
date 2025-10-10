@@ -6,7 +6,7 @@
 
 ![](./CHECKS-E-2.jpg)
 
-**Comm Id** If this check was created via the commission check run process, [ COMM.P3 ](../../../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F4/CHECKS-P3/COMM-P3) , the commission ids that were paid against this check will be displayed here. They are displayed for reference only and cannot be changed.   
+**Comm Id** If this check was created via the commission check run process, [ COMM.P3 ](../../../AP-PROCESS/COMM-P3/README.md) , the commission ids that were paid against this check will be displayed here. They are displayed for reference only and cannot be changed.   
   
 **Comm Amts** This field displays the amount that was paid against the
 associated commission id.  

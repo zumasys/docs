@@ -18,7 +18,7 @@ None.
 
 **Data Fields**
 
-**ID** The ID number assigned to the recurring journal entry. This is the ID you would use to access the record using [ GLRECUR.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL/GL-CONTROL-1/GLTRANS-P1/GLTRANS-P1-1/GLRECUR-P1/GLRECUR-E) .   
+**ID** The ID number assigned to the recurring journal entry. This is the ID you would use to access the record using [ GLRECUR.E ](../../GL-ENTRY/GLRECUR-E/README.md) .   
 **Start** The starting period number and year for which journal entries are to
 be created based on the recurring journal record.  
 **End** The ending period number and year for which journal entries are to be

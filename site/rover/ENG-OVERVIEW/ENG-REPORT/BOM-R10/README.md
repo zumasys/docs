@@ -6,7 +6,7 @@
 [ Form Details ](BOM-R10-1/README.md)   
 
 **Purpose**  
-This report compares the inventory average cost for an assembly to the calculated cost of an indented bill of material such as [ BOM.R4 ](../../../../rover/ENG-OVERVIEW/ENG-REPORT/BOM-R4) produces. There is an option to run for a range of bill of material numbers or to run all bill of materials. There is also an option to enter a variance percent, so that only those BOM's with a cost variance between the two costs are listed.   
+This report compares the inventory average cost for an assembly to the calculated cost of an indented bill of material such as [ BOM.R4 ](../../../../rover/ENG-OVERVIEW/ENG-REPORT/BOM-R4/README.md) produces. There is an option to run for a range of bill of material numbers or to run all bill of materials. There is also an option to enter a variance percent, so that only those BOM's with a cost variance between the two costs are listed.   
   
 This report only applies if you are using a cost method of average or lot
 cost.
@@ -15,7 +15,7 @@ cost.
 As required.
 
 **Prerequisites**  
-Entry of the specified Bill of Material records ( [ BOM.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1/COST-E/BOM-E) ). 
+Entry of the specified Bill of Material records ( [ BOM.E ](../../ENG-ENTRY/BOM-E/README.md) ). 
 
 **Data Fields**
 

@@ -37,13 +37,13 @@ destination and may not be available in all cases.
 function which may also be activated by clicking the save button in the tool
 bar or pressing the F9 key or Ctrl+S.  
   
-**Disb.Acct#** Enter the cash disbursement G/L account number which will be used for this check run. This entry is defaulted from the [ AP.CONTROL ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) file.   
+**Disb.Acct#** Enter the cash disbursement G/L account number which will be used for this check run. This entry is defaulted from the [ AP.CONTROL ](../../../AP-ENTRY/AP-CONTROL/README.md) file.   
   
 **Check Date** Enter the date to be used as the check date. This can differ
 from both the cutoff date and the current date as needed. This date will also
 be used to calculated discount eligilibity.  
   
-**Co Code** Enter the company code the checks will be issued against. This code must be predefined in the CO.CONTROL procedure. If only one code exists, it will automatically be inserted into this procedure for you. The disbursement account number will be loaded in from the [ AR.CONTROL ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) record for this company code.   
+**Co Code** Enter the company code the checks will be issued against. This code must be predefined in the CO.CONTROL procedure. If only one code exists, it will automatically be inserted into this procedure for you. The disbursement account number will be loaded in from the [ AR.CONTROL ](../../../../AR-OVERVIEW/AR-ENTRY/AR-CONTROL/README.md) record for this company code.   
   
 **Use Company Code** Check this box if you wish to only pay a/p records that
 are issued against the company code referenced above. If this box is not
@@ -67,7 +67,7 @@ by credit card.
 Please note that the system uses the terms code on the AP record to determine
 if the invoice is scheduled to be paid by a credit card.  
   
-**Electronic Vendors** Chose an option if you want to limit the vendors to only include vendors that are part of the electronic payment system or exclude them. If this option is selected, vendors with an "Electronic Collection ID" on [ VENDOR.E ](../../../../../../rover/AP-OVERVIEW/AP-ENTRY/VENDOR-E) will included/excluded in the vendor lookups or when using the batch creation option. However, you may manually enter any AP ID.   
+**Electronic Vendors** Chose an option if you want to limit the vendors to only include vendors that are part of the electronic payment system or exclude them. If this option is selected, vendors with an "Electronic Collection ID" on [ VENDOR.E ](../../../AP-ENTRY/VENDOR-E/README.md) will included/excluded in the vendor lookups or when using the batch creation option. However, you may manually enter any AP ID.   
 Leave blank to ignore this option.  
   
 **Cutoff Date** Enter the date which will be compared to the date to pay in

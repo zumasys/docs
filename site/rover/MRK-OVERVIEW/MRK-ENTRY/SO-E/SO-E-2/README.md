@@ -38,7 +38,7 @@ schedule date.
   
 **Open Qty** Contains the open balance on the associated date.  
   
-**Commited** Check this box if you want the associated schedule quantity to be commited in Inventory. If you are entering a new order and the default commit days has been defined in the [ MRK.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) procedure then the system will automatically check the box for any date that falls on or before the current date plus the number of days specified in [ MRK.CONTROL ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) .   
+**Commited** Check this box if you want the associated schedule quantity to be commited in Inventory. If you are entering a new order and the default commit days has been defined in the [ MRK.CONTROL ](../../MRK-CONTROL/README.md) procedure then the system will automatically check the box for any date that falls on or before the current date plus the number of days specified in [ MRK.CONTROL ](../../MRK-CONTROL/README.md) .   
   
 **Orig Schedule Date** This is the original requested schedule date from the
 customer. This may differ from the schedule schedule date once that date has

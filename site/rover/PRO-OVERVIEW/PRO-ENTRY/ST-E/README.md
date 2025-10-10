@@ -21,7 +21,7 @@ If the balance on hand in the from operation will go negative as a result of
 processing the transaction a message will appear to warn the operator of this
 situation. The operator may still proceed with the transaction if appropriate.  
   
-The [ ST.E6 ](../../../../../../../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/WC-E/WC-E-1/EMPTIME-E1/EMPTIME-E2/EMPTIME-E/BAR-CONTROL/BAR-CONTROL-1/ST-E6) procedure performs the same function as this procedure but is optomized for bar coded entry. 
+The [ ST.E6 ](../ST-E6/README.md) procedure performs the same function as this procedure but is optomized for bar coded entry. 
 
 **Frequency of Use**  
 As required.

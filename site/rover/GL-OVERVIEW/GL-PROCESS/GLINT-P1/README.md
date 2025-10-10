@@ -27,7 +27,7 @@ the date on the gltrans (journal entry) record to an open period if required.
 Generally, this procedure is performed as part of each month end.
 
 **Prerequisites**  
-Setup of the [ GL.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL) record ( [ GL.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL) ) and the establishment of a fiscal year via the [ FY.E ](FY-E/README.md) procedure. 
+Setup of the [ GL.CONTROL ](../../GL-ENTRY/GL-CONTROL/README.md) record ( [ GL.CONTROL ](../../GL-ENTRY/GL-CONTROL/README.md) ) and the establishment of a fiscal year via the [ FY.E ](FY-E/README.md) procedure. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

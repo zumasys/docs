@@ -22,7 +22,7 @@ Vendors are usually loaded initially when the system is first installed, with
 additions being made in the future as required.
 
 **Prerequisites**  
-Entry of terms records if they are to be referenced in the vendor records ( [ TERMS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E) ). 
+Entry of terms records if they are to be referenced in the vendor records ( [ TERMS.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

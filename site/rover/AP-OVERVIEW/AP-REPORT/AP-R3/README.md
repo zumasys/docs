@@ -35,7 +35,7 @@ print all vendors.
 As required.
 
 **Prerequisites**  
-The column headings and date ranges to be included in each column must be entered into the [ ACCT.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL) entry procedure. 
+The column headings and date ranges to be included in each column must be entered into the [ ACCT.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) entry procedure. 
 
 **Data Fields**
 
@@ -49,7 +49,7 @@ invoice. This is the original amount of the invoice.
 **Checks** All checks which have been paid against this AP item, through the
 cut-off date specified.  
 **Chk.Date** The date on which any checks were paid.  
-**"Aging Columns"** There are four (4) aging columns available on this report. An example of these is: Current 31-60 days 61-90 days over 90 days The actual column titles and day break points is determined by what is entered in the [ ACCT.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL) entry screen.   
+**"Aging Columns"** There are four (4) aging columns available on this report. An example of these is: Current 31-60 days 61-90 days over 90 days The actual column titles and day break points is determined by what is entered in the [ ACCT.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) entry screen.   
   
 <badge text= "Version 8.10.57" vertical="middle" />
 

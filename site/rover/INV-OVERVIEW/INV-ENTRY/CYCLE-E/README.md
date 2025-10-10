@@ -32,7 +32,7 @@ Normally, this procedure is used daily for the cycle count sheet generated on
 that day.
 
 **Prerequisites**  
-Initialization of the inventory control record ( [ INV.CONTROL ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) ) and entry of the required inventory locations and General Ledger account numbers.   
+Initialization of the inventory control record ( [ INV.CONTROL ](../INV-CONTROL/README.md) ) and entry of the required inventory locations and General Ledger account numbers.   
   
 Prior to this procedure, the following steps must have been performed:  
   

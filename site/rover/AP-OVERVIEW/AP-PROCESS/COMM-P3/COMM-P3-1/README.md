@@ -44,7 +44,7 @@ you.
 **Check Date** Enter the date to be used as the check date. This can differ
 from both the cutoff date and the current date as needed.  
   
-**Disb.Acct#** Enter the cash disbursement G/L account number which will be used for this check run. This entry is defaulted from the [ AP.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) file but can be changed as required. If no entry is made in this field, the account entered in the [ AP.CONTROL ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) record will be used.   
+**Disb.Acct#** Enter the cash disbursement G/L account number which will be used for this check run. This entry is defaulted from the [ AP.CONTROL ](../../../AP-ENTRY/AP-CONTROL/README.md) file but can be changed as required. If no entry is made in this field, the account entered in the [ AP.CONTROL ](../../../AP-ENTRY/AP-CONTROL/README.md) record will be used.   
   
 **Cutoff Date** Enter the date which will be used to determine which
 commission records and amounts are eligable to be paid. This field is only

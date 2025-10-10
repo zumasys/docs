@@ -45,7 +45,7 @@ wish to select all invoices dated prior to the end date entered.
 to be selected for this report. Leaving this field null assumes you wish to
 select all invoices since the start date entered.  
   
-**Sort By** If you wish to sort this report by AR Id (invoice number), enter 'I'. To sort by date, enter 'D'. To sort by customer name, enter 'C'. This field defaults depending upon whether you are assigning sequential invoice numbers in the [ MRK.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) procedure.   
+**Sort By** If you wish to sort this report by AR Id (invoice number), enter 'I'. To sort by date, enter 'D'. To sort by customer name, enter 'C'. This field defaults depending upon whether you are assigning sequential invoice numbers in the [ MRK.CONTROL ](../../../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/README.md) procedure.   
   
 **Co Code** Enter the company codes you wish to appear on this report. If left
 blank all company codes will be included.  

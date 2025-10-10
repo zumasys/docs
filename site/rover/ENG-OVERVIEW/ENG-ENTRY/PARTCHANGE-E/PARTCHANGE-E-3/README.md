@@ -22,7 +22,7 @@ A - High cost, long lead time or single source.
 B - Moderate cost, lead time and multiple  
 sources.  
 C - Low cost and/or short lead time.  
-(Not a critical part) The ABC code may be set automatically by the ABC stratification procedure ( [ PARTS.P1 ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/CYCLE-P1/CYCLE-P1-1/INV-P1/PARTS-P1) ) if desired.   
+(Not a critical part) The ABC code may be set automatically by the ABC stratification procedure ( [ PARTS.P1 ](../../../ENG-PROCESS/PARTS-P1/README.md) ) if desired.   
   
 **Lot Control** Enter a "Y" in this field if the parts are to be lot
 controlled. Please note that changes can only be made to this field, if there
@@ -33,7 +33,7 @@ quantity on hand exists. If it does exist, this field will not be changed.
 **WO Labels** Enter "Y" if this part is to have labels printed when it appears
 on a work order picklist.  
   
-**Create WO** If you wish to have the sales order entry process ( [ SO.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E) ) create work orders automatically for this part, enter "Y". You must also make sure the [ MRK.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) flag which controls the work order creation option is set to "P".   
+**Create WO** If you wish to have the sales order entry process ( [ SO.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/SO-E/README.md) ) create work orders automatically for this part, enter "Y". You must also make sure the [ MRK.CONTROL ](../../../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/README.md) flag which controls the work order creation option is set to "P".   
   
 **Bom Um**  
   
@@ -67,7 +67,7 @@ placing purchase orders for the part number.
 **Planner** Enter the code used to define the planner who is responsible for
 planning the part number.  
   
-**Routing ID** If the parts record defines an assembly then enter the ID of the routing which is used when the item is produced. If no routing is entered the system will use the default routing in the [ WO.CONTROL ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL) record when a work order is created.   
+**Routing ID** If the parts record defines an assembly then enter the ID of the routing which is used when the item is produced. If no routing is entered the system will use the default routing in the [ WO.CONTROL ](../../../../PRO-OVERVIEW/PRO-ENTRY/WO-CONTROL/README.md) record when a work order is created.   
   
 **Invloc** Enter the home location for this part. This location will be used
 as a default in the picker.  
@@ -75,7 +75,7 @@ as a default in the picker.
 **WIP.Loc** Enter the work in process location normally used to create this
 part. This field will be defaulted into the work order.  
   
-**RI.Loc** Enter the inventory location to be used as the receiving location. If this location is different than the inventory location, this field will be defaulted into [ PO.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E) line items as the inspection location. If this field is left empty, the home inventory location will be used.   
+**RI.Loc** Enter the inventory location to be used as the receiving location. If this location is different than the inventory location, this field will be defaulted into [ PO.E ](../../../../PUR-OVERVIEW/PUR-ENTRY/PO-E/README.md) line items as the inspection location. If this field is left empty, the home inventory location will be used.   
   
 **Stock Loc** Enter the default stockroom location for which materials will be
 pulled when a work order is created for this part.  

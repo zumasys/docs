@@ -23,7 +23,7 @@ procedure rather than re-opening them.
 As required.
 
 **Prerequisites**  
-Initialization of the Accounts Payable control record ( [ AP.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) ), and entry of the vendor and terms records to be referenced. 
+Initialization of the Accounts Payable control record ( [ AP.CONTROL ](../AP-CONTROL/README.md) ), and entry of the vendor and terms records to be referenced. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

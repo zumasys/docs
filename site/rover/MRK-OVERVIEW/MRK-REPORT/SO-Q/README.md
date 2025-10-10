@@ -11,13 +11,13 @@ include any sales order with a status of "N" or "B". All open line items,
 including the schedule date and open quantities for each date will be
 displayed.  
   
-The On Hand Inventory figure that is displayed is for all inventory locations that are in the same plan group as the location identified on the sales order line, and that have a "Use in Planning" flag set in the [ INVLOC.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/INVLOC-E) . This will allow all inventory to be displayed, in the event it is being stored in a different location than the SO is expecting. In addition, use of the Use in Planning flag allows this procedure to not display inventory that is not generally available. This may include return or inspection locations.   
+The On Hand Inventory figure that is displayed is for all inventory locations that are in the same plan group as the location identified on the sales order line, and that have a "Use in Planning" flag set in the [ INVLOC.E ](../../../INV-OVERVIEW/INV-ENTRY/INVLOC-E/README.md) . This will allow all inventory to be displayed, in the event it is being stored in a different location than the SO is expecting. In addition, use of the Use in Planning flag allows this procedure to not display inventory that is not generally available. This may include return or inspection locations.   
   
 There is an inquiry button on the far right, next to the On Hand Inventory
 field that will display the detailed inventory status of the part number on
 the line.  
   
-The [ SHIP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E) button on the left will invoke the [ SHIP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/SO-E-4/SHIP-E) procedure and the data to be auto-loaded. 
+The [ SHIP.E ](../../MRK-ENTRY/SHIP-E/README.md) button on the left will invoke the [ SHIP.E ](../../MRK-ENTRY/SHIP-E/README.md) procedure and the data to be auto-loaded. 
 
 **Frequency of Use**  
 As required.

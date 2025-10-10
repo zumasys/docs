@@ -10,7 +10,7 @@ The IT.R7 procedure is used to create an inventory transaction listing for a
 specified batch number within a date range. The records included in the report
 are sorted by transaction date.  
   
-The batch number is most commonly assigned by the [ IT.E4 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/IT-E4) inventory conversion procedure. All transactions resulting from a single [ IT.E4 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/IT-E4) process are assigned a single batch number. This allows the user to see everything that was affected. 
+The batch number is most commonly assigned by the [ IT.E4 ](../../INV-ENTRY/IT-E4/README.md) inventory conversion procedure. All transactions resulting from a single [ IT.E4 ](../../INV-ENTRY/IT-E4/README.md) process are assigned a single batch number. This allows the user to see everything that was affected. 
 
 **Frequency of Use**  
 As required.

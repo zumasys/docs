@@ -3,10 +3,10 @@
 <PageHeader />
 
 **Form Details**  
-[ General ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/PRECOMM-E/PRECOMM-E-1/REP-E/REP-E-1)   
-[ Contacts ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/PRECOMM-E/PRECOMM-E-1/REP-E/REP-E-2)   
-[ Contact Log ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/PRECOMM-E/PRECOMM-E-1/REP-E/REP-E-3)   
-[ Attachments ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/PRECOMM-E/PRECOMM-E-1/REP-E/REP-E-4)   
+[ General ](../../MRK-OVERVIEW/MRK-ENTRY/REP-E/REP-E-1/README.md)   
+[ Contacts ](../../MRK-OVERVIEW/MRK-ENTRY/REP-E/REP-E-2/README.md)   
+[ Contact Log ](../../MRK-OVERVIEW/MRK-ENTRY/REP-E/REP-E-3/README.md)   
+[ Attachments ](../../MRK-OVERVIEW/MRK-ENTRY/REP-E/REP-E-4/README.md)   
 
 **Purpose**  
 The REP.E procedure provides for the entry and maintenance of the Sales Rep
@@ -16,7 +16,7 @@ information about the rep such as their name, address, telephone and fax
 numbers, contact, and sales commission percentages which are defaulted in the
 sales order entry procedure.  
   
-There are fields for start and inactive dates in this procedure so that you can track when the rep started and stopped working for your company. When a rep becomes inactive, it is recommended that you run the [ CUST.R2 ](../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/PRECOMM-E/PRECOMM-E-1/REP-E/REP-E-1/CUST-R2) report for the rep. This report will give you a listing of all customers that have been assigned to this rep. Until the rep is removed from the customer record, it will get loaded into new quotes and sales orders. 
+There are fields for start and inactive dates in this procedure so that you can track when the rep started and stopped working for your company. When a rep becomes inactive, it is recommended that you run the [ CUST.R2 ](../../AR-OVERVIEW/AR-REPORT/CUST-R2/README.md) report for the rep. This report will give you a listing of all customers that have been assigned to this rep. Until the rep is removed from the customer record, it will get loaded into new quotes and sales orders. 
 
 **Frequency of Use**  
 Sales reps are usually loaded initially when the system is first installed,

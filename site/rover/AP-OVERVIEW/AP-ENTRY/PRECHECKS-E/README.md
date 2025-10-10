@@ -6,7 +6,7 @@
 [ Form Details ](PRECHECKS-E-1/README.md)   
 
 **Purpose**  
-The PRECHECKS.E procedure is used to modify prechecks records that were created through the [ AP.P1 ](AP-P1/README.md) procedure. These records may be modified any time before the [ CHECKS.P1 ](../../../../rover/AP-OVERVIEW/AP-PROCESS/CHECKS-P1) posting process is run. The user may add vouchers, delete vouchers, change the amt to pay or discount amt on a voucher within a specific record. An entire PRECHECKS record may, also, be deleted.   
+The PRECHECKS.E procedure is used to modify prechecks records that were created through the [ AP.P1 ](AP-P1/README.md) procedure. These records may be modified any time before the [ CHECKS.P1 ](../../../../rover/AP-OVERVIEW/AP-PROCESS/CHECKS-P1/README.md) posting process is run. The user may add vouchers, delete vouchers, change the amt to pay or discount amt on a voucher within a specific record. An entire PRECHECKS record may, also, be deleted.   
   
 New records cannot be created through this procedure. In cases where a PRECHECKS record does not exist for a specific vendor, the [ AP.P1 ](AP-P1/README.md) procedure will need to be processed.   
   

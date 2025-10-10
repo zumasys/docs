@@ -12,7 +12,7 @@ changed.
 **Description** Displays the description of the associated part number as it
 appears in the PARTS master file. Only the first line is displayed.  
   
-**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL) . The cost group is used to define the costing method and to group inventory locations together for averaging the cost within those locations.   
+**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../INV-OVERVIEW/INV-ENTRY/INV-CONTROL/README.md) . The cost group is used to define the costing method and to group inventory locations together for averaging the cost within those locations.   
   
 **Total Current Cost** The amount in this field represents the total cost of
 the associated part number, and is the total of all of the other costs.  
@@ -272,11 +272,11 @@ the part number for calculating costs of purchased parts. This lot size is
 only used when calculating the material overhead that should be applied to the
 part. The lot size on the routing file is used in the calculation of labor.  
   
-**Stamp Date Current** This field is for reference only and cannot be changed. It is updated when [ COST.P1 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1) or [ COST.P2 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2) is processed.   
+**Stamp Date Current** This field is for reference only and cannot be changed. It is updated when [ COST.P1 ](../../../ENG-PROCESS/COST-P1/README.md) or [ COST.P2 ](../../../ENG-PROCESS/COST-P2/README.md) is processed.   
   
-**Stamp Date Std** This field is for reference only and cannot be changed. It is updated when [ COST.P1 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1) or [ COST.P2 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2) is processed.   
+**Stamp Date Std** This field is for reference only and cannot be changed. It is updated when [ COST.P1 ](../../../ENG-PROCESS/COST-P1/README.md) or [ COST.P2 ](../../../ENG-PROCESS/COST-P2/README.md) is processed.   
   
-**Stamp Date Previous** This field is for reference only and cannot be changed. It is updated when [ COST.P1 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2/COST-P1) or [ COST.P2 ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-2/INV-CONTROL/INV-CONTROL-1/COST-P2) is processed.   
+**Stamp Date Previous** This field is for reference only and cannot be changed. It is updated when [ COST.P1 ](../../../ENG-PROCESS/COST-P1/README.md) or [ COST.P2 ](../../../ENG-PROCESS/COST-P2/README.md) is processed.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

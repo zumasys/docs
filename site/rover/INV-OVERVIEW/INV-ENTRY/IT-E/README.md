@@ -27,7 +27,7 @@ situation. If the "Negatives OK" flag in the associated INVLOC file is set to
 As required.
 
 **Prerequisites**  
-Entry of valid inventory locations ( [ INVLOC.E ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/INVLOC-E) ). 
+Entry of valid inventory locations ( [ INVLOC.E ](../INVLOC-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

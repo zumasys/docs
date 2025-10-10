@@ -25,7 +25,7 @@ numbers posted.
 As
 
 **Prerequisites**  
-[ AP.CONTROL ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL) , Payment Tab, Electronic Payments fields must be completed prior to [ AP.P1 ](../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F5/AP-P1) . A check run must have been created through the [ AP.P1 ](../../../../rover/AP-OVERVIEW/AP-REPORT/CHECKS-F5/AP-P1) procedure and all checks must have been successfully printed. Need to create a LIID for ECHECKS if starting with a number other than 1. 
+[ AP.CONTROL ](../../AP-ENTRY/AP-CONTROL/README.md) , Payment Tab, Electronic Payments fields must be completed prior to [ AP.P1 ](../AP-P1/README.md) . A check run must have been created through the [ AP.P1 ](../AP-P1/README.md) procedure and all checks must have been successfully printed. Need to create a LIID for ECHECKS if starting with a number other than 1. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 
