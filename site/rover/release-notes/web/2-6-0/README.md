@@ -11,14 +11,17 @@ These are the release notes for version 2.6.0 (2/26/25) of the Rover Web applica
 ### Rover Web
 
 ### General
+
 - Lookup based datatables now support multi-select filters for columns with defined valid values.
 ![Lookup Filters](./lookup-filters.gif)
+
 > Only supported by select ERPs  
 
 #### Point of Sale
-- Added to use lookup table for customer search. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-7/README.md#customer-lookup).
-> Only supported by select ERPs
 
+- Added to use lookup table for customer search. Requires update to [MRK.CONTROL](../../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/MRK-CONTROL-7/README.md#customer-lookup).
+
+> Only supported by select ERPs
 
 ## Bug Fixes
 
@@ -33,7 +36,12 @@ These are the release notes for version 2.6.0 (2/26/25) of the Rover Web applica
 - When creating a new order, POS correctly defaults the order's terms to the terms of the customer selected.
 
 #### Inventory
+
 - Fixed the display of vendor and manufacturer information in part details.
+
 #### Tickets and Time
+
 - Improved handling of contact entry to ensure the field always shows the correct name.
 - Improved support for multiple contacts when saving a new ticket.
+
+<PageFooter />

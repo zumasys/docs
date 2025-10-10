@@ -23,7 +23,8 @@ These are the release notes for version 2.8.0 (4/3/25) of the Rover Web applicat
 #### Point of Sale
 
 - A toggle has been added to control printing of register closeout reports.
- [MRK.CONTROL](../../../../rover\AP-OVERVIEW\AP-ENTRY\AP-E\AP-E-1\CURRENCY-CONTROL\SO-E\MRK-CONTROL\MRK-CONTROL-6\README.md#feature-toggles)
+ [MRK.CONTROL](../../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/MRK-CONTROL-6/README.md#feature-toggles)
+
  > Only supported by select ERPs
 
 - Ability to add a phone number when creating a new customer has been added.
@@ -50,3 +51,5 @@ These are the release notes for version 2.8.0 (4/3/25) of the Rover Web applicat
 #### Tickets
   
 - Clicking "Save" multiple times in quick succession will no longer save duplicate billing entries to the ticket.
+
+<PageFooter />

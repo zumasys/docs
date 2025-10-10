@@ -1,9 +1,9 @@
-##  Receipt Debit EForm (RECEIPTS.F2)
+# Receipt Debit EForm (RECEIPTS.F2)
 
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](RECEIPTS-F2-1/README.md)   
+[Form Details](RECEIPTS-F2-1/README.md)
 
 **Purpose**  
 RECEIPTS.F2 provides a printed form, using a PDF background, for items being
@@ -15,7 +15,7 @@ accounting records.
 As required.
 
 **Prerequisites**  
-Entry of the debit with [ RECEIPTS.E2 ](RECEIPTS-E2/README.md) . 
+Entry of the debit with [RECEIPTS.E2](../../PUR-ENTRY/RECEIPTS-E2/README.md).
 
 **Data Fields**
 

@@ -10,7 +10,7 @@ These are the release notes for version 2.1.0 (1/13/2025) of the Rover Web appli
 
 - **Rover Web**
   - **Point of Sale**
-    - Added ability to specify `SO` line item fields in Partial Ship table. Requires update to [MRK.CONTROL](../../../AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-partial-ship).
+    - Added ability to specify `SO` line item fields in Partial Ship table. Requires update to [MRK.CONTROL](../../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-partial-ship).
     - Added ability to send SMS messages directly from the POS order tables. When activated, an SMS button appears alongside the existing download and email icons. Clicking the SMS button initiates an action to send relevant order information via SMS.
     > Only supported by select ERPs
 
@@ -33,3 +33,5 @@ These are the release notes for version 2.1.0 (1/13/2025) of the Rover Web appli
       - Fixed an issue were messages are displayed as errors when they should be warnings.
     - **WO Completion**
       - Fixed an issue were messages are displayed as errors when they should be warnings.
+
+<PageFooter />
