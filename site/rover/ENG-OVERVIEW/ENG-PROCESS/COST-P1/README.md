@@ -23,7 +23,7 @@ the cost is derived by taking the total of all
 component material costs (excluding assemblies  
 but including the material costs of phantoms)  
 on the bill of material. Component part costs  
-are entered directly by the user via [ COST.E ](COST-E/README.md) .   
+are entered directly by the user via [ COST.E ](../../ENG-ENTRY/COST-E/README.md) .   
   
   
 Labor If a routing record is referenced for the assembly  
@@ -31,17 +31,17 @@ then labor costs are calculated based on the hours
 in the routing, divided by the standard lot size,  
 and multiplied by the rates defined in the work  
 center records. Otherwise the entry made by the  
-user through [ COST.E ](COST-E/README.md) is used.   
+user through [ COST.E ](../../ENG-ENTRY/COST-E/README.md) is used.   
   
   
 Outside Processing This amount is entered directly by the user  
-through [ COST.E ](COST-E/README.md) .   
+through [ COST.E ](../../ENG-ENTRY/COST-E/README.md) .   
   
   
 Fixed Overhead If a routing is present then this amount is  
 the sum of all of the labor amounts for each  
 work center multiplied by the work center fixed  
-overhead by the user via [ COST.E ](COST-E/README.md) multiplied   
+overhead by the user via [ COST.E ](../../ENG-ENTRY/COST-E/README.md) multiplied   
 by the default fixed overhead percentage.  
   
   
@@ -49,7 +49,7 @@ Variable Overhead If a routing is present then this amount is
 the sum of all of the labor amounts for each work  
 center multiplied by the work center variable  
 overhead percent. Otherwise it is the labor amount  
-entered by the user via [ COST.E ](COST-E/README.md) multiplied by the   
+entered by the user via [ COST.E ](../../ENG-ENTRY/COST-E/README.md) multiplied by the   
 default variable overhead percentage.  
   
   
@@ -67,7 +67,7 @@ the cost is derived by taking the total of all
 component freight costs (excluding assemblies  
 but including the freight costs of phantoms)  
 on the bill of material. Component part freight costs  
-are entered directly by the user via [ COST.E ](COST-E/README.md) . 
+are entered directly by the user via [ COST.E ](../../ENG-ENTRY/COST-E/README.md) . 
 
 **Frequency of Use**  
 The rollup procedure may be run as often as required if current costs are
@@ -79,7 +79,7 @@ entries to the general ledger.
 You should always run this procedure prior to running the cost rollover procedure ( [ COST.P2 ](../COST-P2/README.md) ). 
 
 **Prerequisites**  
-All of the parts and bill of material records to be included in the rollup must be entered through the [ PARTS.E ](../../ENG-ENTRY/PARTS-E/README.md) and [ BOM.E ](BOM-E/README.md) procedures as well as the material costs for each component part through [ COST.E ](COST-E/README.md) . If you want the system to calculate the labor costs based on routing file data then you must also enter all of the appropriate routing records with the [ ROUTING.E ](ROUTING-E/README.md) procedure, otherwise you may enter a labor amount directly with the [ COST.E ](COST-E/README.md) procedure.   
+All of the parts and bill of material records to be included in the rollup must be entered through the [ PARTS.E ](../../ENG-ENTRY/PARTS-E/README.md) and [ BOM.E ](../../ENG-ENTRY/BOM-E/README.md) procedures as well as the material costs for each component part through [ COST.E ](../../ENG-ENTRY/COST-E/README.md) . If you want the system to calculate the labor costs based on routing file data then you must also enter all of the appropriate routing records with the [ ROUTING.E ](../../../PRO-OVERVIEW/PRO-ENTRY/ROUTING-E/README.md) procedure, otherwise you may enter a labor amount directly with the [ COST.E ](../../ENG-ENTRY/COST-E/README.md) procedure.   
   
 Since the cost rollup relies on the low level code in the parts master to determine the order in which the parts are to be processed you must insure that these low level codes reflect the current product structure. The [ PARTS.P4 ](../PARTS-P4/README.md) procedure generates the low level codes. 
 

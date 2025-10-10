@@ -68,7 +68,7 @@ Sales orders may be deleted provided that no shipments have been entered against
 As required.
 
 **Prerequisites**  
-Initialization of the marketing control record ( [ MRK.CONTROL ](../MRK-CONTROL/README.md) ), and entry of the customer and terms records to be referenced. If the orders are for inventoried parts, the part number must exist on the Parts file and the inventory locations must exist on the Invloc file. Also optional are the Rep and Price files. All valid sales tax codes must be entered via the [ STAX.E ](STAX-E/README.md) procedure. 
+Initialization of the marketing control record ( [ MRK.CONTROL ](../MRK-CONTROL/README.md) ), and entry of the customer and terms records to be referenced. If the orders are for inventoried parts, the part number must exist on the Parts file and the inventory locations must exist on the Invloc file. Also optional are the Rep and Price files. All valid sales tax codes must be entered via the [ STAX.E ](../../../AR-OVERVIEW/AR-ENTRY/STAX-E/README.md) procedure. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

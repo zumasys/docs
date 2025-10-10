@@ -31,7 +31,7 @@ process is run it will select the skipped day and generate tags for both days.
 Each date's records can be processed separately from that point.
 
 **Prerequisites**  
-Stratification of the ABC codes into the Parts file ( [ PARTS.P1 ](PARTS-P1/README.md) ) and assignment of the cycle dates into the Inv file ( [ INV.P1 ](../INV-P1/README.md) ). 
+Stratification of the ABC codes into the Parts file ( [ PARTS.P1 ](../../../ENG-OVERVIEW/ENG-PROCESS/PARTS-P1/README.md) ) and assignment of the cycle dates into the Inv file ( [ INV.P1 ](../INV-P1/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

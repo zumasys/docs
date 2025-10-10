@@ -44,7 +44,7 @@ This table allows you to specify fields defined in `SO FDICT` to be displayed in
 
 > Default behavior when no fields are selected is to show Ship Quantity (46), Vendor (101), and PO Number (103). If you want to show any of the default fields, you must specify 46, 101 and/or 103 in the table.
 
-[Integrations](../../../../../../../../business-suite/integrations/pos/README.md#pos-partial-ship-fields)
+[Integrations](../../../../business-suite/integrations/pos/README.md#pos-partial-ship-fields)
 
 ### Feature Toggles
 
@@ -74,13 +74,13 @@ Checking this box will allow non-stock items to be added via the cart view in Po
 
 Checking this box will display the orders tab in the customer selection within POS.
 
-[Integrations](../../../../../../../../business-suite/integrations/pos/README.md#pos-show-orders-tab)
+[Integrations](../../../../business-suite/integrations/pos/README.md#pos-show-orders-tab)
 
 ### POS Show Opportunities Tab
 
 Checking this box will display the opportunities tab in the customer selection within POS. This enables the ability to create, modify, or view opportunities.
 
-[Integrations](../../../../../../../../business-suite/integrations/pos/README.md#pos-show-opportunities-tab)
+[Integrations](../../../../business-suite/integrations/pos/README.md#pos-show-opportunities-tab)
 
 <badge text= "Version 1.7.19.0" vertical="middle" />
 

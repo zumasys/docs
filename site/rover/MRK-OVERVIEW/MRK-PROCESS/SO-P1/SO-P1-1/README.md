@@ -62,7 +62,7 @@ program.
   
 **Last Status Time** The time at which the last status message was generated.  
   
-**Use Ship Date** If this option is selected, [ SHIP.R1 ](SHIP-R1/README.md) will be launched for you after all shippers have been created. The shipper numbers will be loaded into the [ SHIP.R1 ](SHIP-R1/README.md) procedure for you so you do not have to re-enter them.   
+**Use Ship Date** If this option is selected, [ SHIP.R1 ](../../../MRK-REPORT/SHIP-R1/README.md) will be launched for you after all shippers have been created. The shipper numbers will be loaded into the [ SHIP.R1 ](../../../MRK-REPORT/SHIP-R1/README.md) procedure for you so you do not have to re-enter them.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

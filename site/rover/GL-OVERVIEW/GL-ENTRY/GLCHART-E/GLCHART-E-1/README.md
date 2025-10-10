@@ -13,7 +13,7 @@ cannot be used as
 part of the account number due to it's use as connectors in file keys such as
 the GLBAL file.  
   
-**Inactive** Check this field if the account number is no longer considered active. This will prevent the account number from being used on any new transaction. Transactions that already reference the account number are not affected. There is a report called [ GLCHART.R2 ](GLCHART-R2/README.md) that will tell you which 'inactive' accounts are used on the control, stax, invloc, etc. records. It is recommended that you run this report in order to prevent an inactive account from being loaded into a new sales order, purchase order, etc.   
+**Inactive** Check this field if the account number is no longer considered active. This will prevent the account number from being used on any new transaction. Transactions that already reference the account number are not affected. There is a report called [ GLCHART.R2 ](../../../GL-REPORT/GLCHART-R2/README.md) that will tell you which 'inactive' accounts are used on the control, stax, invloc, etc. records. It is recommended that you run this report in order to prevent an inactive account from being loaded into a new sales order, purchase order, etc.   
   
 **Acct.name** Enter the descriptive name of this account number. This can be
 entered as any combination of alpha and/or numeric characters, but it is
@@ -28,9 +28,9 @@ credit account.
 into next year), or "I" if an Income Statement account (roll balances into
 Retained Earnings).  
   
-**Group** Enter the group to which this account number is assigned, (e.g. ASSETS, LIABILITIES, etc.) This group ID is initially identified in the [ GL.CONTROL ](GL-CONTROL/README.md) screen and can be assigned to account numbers via the [ GLCHART.P2 ](GLCHART-P2/README.md) procedure.   
+**Group** Enter the group to which this account number is assigned, (e.g. ASSETS, LIABILITIES, etc.) This group ID is initially identified in the [ GL.CONTROL ](../../GL-CONTROL/README.md) screen and can be assigned to account numbers via the [ GLCHART.P2 ](../../../GL-PROCESS/GLCHART-P2/README.md) procedure.   
   
-**Subgroup** Enter the sub group to which this account number is assigned, (e.g. CASH, AR, etc.) This sub group ID is initially identified in the [ GL.CONTROL ](GL-CONTROL/README.md) screen and can be assigned to account numbers via the [ GLCHART.P2 ](GLCHART-P2/README.md) procedure.   
+**Subgroup** Enter the sub group to which this account number is assigned, (e.g. CASH, AR, etc.) This sub group ID is initially identified in the [ GL.CONTROL ](../../GL-CONTROL/README.md) screen and can be assigned to account numbers via the [ GLCHART.P2 ](../../../GL-PROCESS/GLCHART-P2/README.md) procedure.   
   
 **Detail** This field is used to control the level of detail you list on the
 Detailed G/L Report. If you select the "Detail" option on the report and this

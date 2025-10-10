@@ -16,7 +16,7 @@ may be updated.
 Generally, this is an annual procedure. However, it may be used as required.
 
 **Prerequisites**  
-The AP1099 file must be generated for the applicable year using the [ AP1099.P1 ](AP1099-P1/README.md) procedure. 
+The AP1099 file must be generated for the applicable year using the [ AP1099.P1 ](../../AP-PROCESS/AP1099-P1/README.md) procedure. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

@@ -22,7 +22,7 @@ users are to be signing off on documents, then their userids need to be added
 also to the Security section and they need to be assigned a signoff type, as
 defined in the Signoff type list.  
   
-Documents are created by Admin users in [ DOC.E ](../../DOC-E/README.md) and can be viewed by editors and signers in [ DOC.E2 ](../../DOC-E2/README.md) . [ DOC.Q ](../README.md) is used for searching and displaying documents. If general users (that are not defined here) are given view access to [ DOC.Q ](../README.md) , then they will be able to view published documents.
+Documents are created by Admin users in [ DOC.E ](../DOC-E/README.md) and can be viewed by editors and signers in [ DOC.E2 ](../DOC-E2/README.md) . [ DOC.Q ](../README.md) is used for searching and displaying documents. If general users (that are not defined here) are given view access to [ DOC.Q ](../README.md) , then they will be able to view published documents.
   
 If the Send Signoff Notifications box is checked, this will happen as follows:  
 1\. When a pending revision is started, editors will be notified.  

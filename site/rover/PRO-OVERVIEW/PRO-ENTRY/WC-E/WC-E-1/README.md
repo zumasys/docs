@@ -42,9 +42,9 @@ at this operation.
 which are normally applied to a single job. This is used as the default during
 routing entry.  
   
-**Indirect Function** Enter the function code to be used for recording any time that is not accounted for during the day. This must be an indirect function (e.g. one that is associated with an account number as defined in [ LABOR.CONTROL ](../../LABOR-CONTROL/README.md) ). For example, if the employee had clocked in at 8:00 and clocked out at 17:00, but had only accounted for 6 hours (including breaks and lunch) using the [ EMPTIME.E1 ](EMPTIME-E1/README.md) and [ EMPTIME.E2 ](EMPTIME-E2/README.md) procedures, the system would post a labor entry for the remaining two hours using the indirect function specified in this field.   
+**Indirect Function** Enter the function code to be used for recording any time that is not accounted for during the day. This must be an indirect function (e.g. one that is associated with an account number as defined in [ LABOR.CONTROL ](../../LABOR-CONTROL/README.md) ). For example, if the employee had clocked in at 8:00 and clocked out at 17:00, but had only accounted for 6 hours (including breaks and lunch) using the [ EMPTIME.E1 ](../../EMPTIME-E1/README.md) and [ EMPTIME.E2 ](../../EMPTIME-E2/README.md) procedures, the system would post a labor entry for the remaining two hours using the indirect function specified in this field.   
   
-**Auto Restart** Enter the letter "Y" if employees associated with this work center are to be automatically logged back into the same job they were on, when they last clocked out. If this field is left blank, the default entry defined in [ LABOR.CONTROL ](../../LABOR-CONTROL/README.md) will be used. If the restart field in the employee file ( [ EMP.E ](EMP-E/README.md) ) is set then it will take precedence over the entry in this field.   
+**Auto Restart** Enter the letter "Y" if employees associated with this work center are to be automatically logged back into the same job they were on, when they last clocked out. If this field is left blank, the default entry defined in [ LABOR.CONTROL ](../../LABOR-CONTROL/README.md) will be used. If the restart field in the employee file ( [ EMP.E ](../../EMP-E/README.md) ) is set then it will take precedence over the entry in this field.   
   
 **Standard Labor Rate** Enter the standard labor rate associated with the work
 center. This rate is used in the cost rollup procedure when calculating labor
@@ -88,7 +88,7 @@ work center is calculated based on the scheduled hours for each employee. If
 checked the capacity dates and hours fields will be automatically updated
 using the employee information and may not be changed.  
   
-**Capacity Date** Enter the date on which the associated capacity hours become effective. You may enter multiple date and hour combinations to specify what the daily capacity of the work center will be for a period of time. The hours entered are used as the work center capacity until the next date. Note: If you are using Capacity Requirements Planning (i.e. CRP), a date and hours entry is required for the work center capacity to be included in CRP. If you decide to change any of the dates and associated hours, you must run the [ CRP.P1 ](CRP-P1/README.md) process to reset the capacity files.   
+**Capacity Date** Enter the date on which the associated capacity hours become effective. You may enter multiple date and hour combinations to specify what the daily capacity of the work center will be for a period of time. The hours entered are used as the work center capacity until the next date. Note: If you are using Capacity Requirements Planning (i.e. CRP), a date and hours entry is required for the work center capacity to be included in CRP. If you decide to change any of the dates and associated hours, you must run the [ CRP.P1 ](../../../../MFG-OVERVIEW/MFG-PROCESS/CRP-P1/README.md) process to reset the capacity files.   
   
 **Capacity Hours** Enter the daily hours of capacity available for the work
 center beginning on the associated date and ending on the next date present,

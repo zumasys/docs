@@ -39,7 +39,7 @@ Multiple lines are available.
   
 **Affected Areas** Enter the names of the areas that are affected by the ECN.  
   
-**Affected Area Description** This field contains the description assigned to the associated affected area code. It is defined in the [ ECN.CONTROL ](ECN-CONTROL/README.md) procedure.   
+**Affected Area Description** This field contains the description assigned to the associated affected area code. It is defined in the [ ECN.CONTROL ](../../ECN-CONTROL/README.md) procedure.   
   
 **Approval Type** Enter the type or area associated with the approval name and
 date. A list of pre-defined approval types will be loaded automatically, and

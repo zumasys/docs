@@ -100,11 +100,11 @@ There are three setup processes which must be performed prior to beginning the n
 Optionally, you will need to set up the sales tax code file ( [STAX.E](AR-ENTRY/STAX-E/README.md) ) if you wish to track detail sales tax history by district.
 
 **Flow of Activities**  
-The flow of processing for the accounts receivable module can begin in any one of three places. First, items which are shipped through the Marketing module create AR records. Second, AR items may be entered directly through [AR.E](AR-ENTRY/AR-E/README.md) for non-shipment items. Third, items may be created automatically by the [ARR.P1](AR-PROCESS/ARR-P1/README.md) batch recurring entry procedure. This will create AR items for all eligible recurring ARR item. Once the item is present in the AR file, it may be paid through the [CASH.E](AR-ENTRY/CASH-E/README.md) procedure. The invoice printing process ( [AR.F1](AR-F1/README.md) or [AR.F2](AR-REPORT/AR-F2/README.md) ) may be used to print or re-print any invoices.
+The flow of processing for the accounts receivable module can begin in any one of three places. First, items which are shipped through the Marketing module create AR records. Second, AR items may be entered directly through [AR.E](AR-ENTRY/AR-E/README.md) for non-shipment items. Third, items may be created automatically by the [ARR.P1](AR-PROCESS/ARR-P1/README.md) batch recurring entry procedure. This will create AR items for all eligible recurring ARR item. Once the item is present in the AR file, it may be paid through the [CASH.E](AR-ENTRY/CASH-E/README.md) procedure. The invoice printing process ( [AR.F1](AR-REPORT/AR-F1/README.md) or [AR.F2](AR-REPORT/AR-F2/README.md) ) may be used to print or re-print any invoices.
   
 The maintenance of the Customer file ( [CUST.E](AR-ENTRY/CUST-E/README.md) ) and the Terms file ( [TERMS.E](../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E/README.md) ) should be done as new items are required or changes need to be made.
   
-At some point in time it may be appropriate purge some of the older accounts receivable and cash records from the system. This is done with the [AR.P3](AR-P3/README.md) and [CASH.P1](CASH-P1/README.md) procedures.
+At some point in time it may be appropriate purge some of the older accounts receivable and cash records from the system. This is done with the [AR.P3](AR-PROCESS/AR-P3/README.md) and [CASH.P1](AR-PROCESS/CASH-P1/README.md) procedures.
   
 While all of the cross-reference files in the accounts receivable module are
 maintained automatically, it may be necessary to rebuild these files with the

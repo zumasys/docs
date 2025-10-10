@@ -49,14 +49,14 @@ desired.
 **Waybill#** Enter the number of the waybill which will accompany the
 shipment.  
   
-**Route#** The shipment route that this shipment will be delivered on as defined by [ ROUTESHIP.E ](ROUTESHIP-E/README.md) . It is displayed here for information only.   
+**Route#** The shipment route that this shipment will be delivered on as defined by [ ROUTESHIP.E ](../../ROUTESHIP-E/README.md) . It is displayed here for information only.   
   
-**Load Date** The route's load date for this shipment as defined by [ ROUTESHIP.E ](ROUTESHIP-E/README.md) . It is displayed here for information only.   
+**Load Date** The route's load date for this shipment as defined by [ ROUTESHIP.E ](../../ROUTESHIP-E/README.md) . It is displayed here for information only.   
   
 **Notes** Enter any notes which pertain to the entire shipment. These notes
 will print on the shipment form.  
   
-**Ship Seq No** Contains the shipping sequence number define in [ cust.e ](cust-e/README.md) . If present this number will default in for you from [ so.e ](so-e/README.md) but can be changed as required. There is a right click option to display all shipping addresses available for this customer.   
+**Ship Seq No** Contains the shipping sequence number define in [ cust.e ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) . If present this number will default in for you from [ so.e ](../../SO-E/README.md) but can be changed as required. There is a right click option to display all shipping addresses available for this customer.   
   
 **Commercial?** Check this box if the shipment is being sent to a commercial
 address.  
@@ -75,7 +75,7 @@ of the shipping address.
   
 **Ship Zip** The zip code the shipment is being delivered to.  
   
-**Ship Country** Enter the country this shipment will be sent to. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../SHIP-CONTROL/README.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) .   
+**Ship Country** Enter the country this shipment will be sent to. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../SHIP-CONTROL/README.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](../../SHIP-CONTROL/README.md) .   
   
 **Ship Attn** Enter the name of the person or contact that this shipment is
 being delivered to.  

@@ -16,7 +16,7 @@ will be included.
 Usually once each period before closing.
 
 **Prerequisites**  
-Entry of of recurring records with [ GLRECUR.E ](GLRECUR-E/README.md) . 
+Entry of of recurring records with [ GLRECUR.E ](../../GL-ENTRY/GLRECUR-E/README.md) . 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

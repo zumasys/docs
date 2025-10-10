@@ -37,7 +37,7 @@ destination and may not be available in all cases.
 function which may also be activated by clicking the save button in the tool
 bar or pressing the F9 key or Ctrl+S.  
   
-**Cycle Date** Enter the date for which you wish to create cycle tag records. All inventory records with a cycle date less than or equal to the date entered will be selected. The cycle date was initially assigned to the inventory record when the [ INV.P1 ](INV-P1/README.md) procedure was run.   
+**Cycle Date** Enter the date for which you wish to create cycle tag records. All inventory records with a cycle date less than or equal to the date entered will be selected. The cycle date was initially assigned to the inventory record when the [ INV.P1 ](../../INV-P1/README.md) procedure was run.   
   
 **Plan Group** Enter the plan group for which you want to generate cycle
 tickets. Leave blank to generate  

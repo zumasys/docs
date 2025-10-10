@@ -42,7 +42,7 @@ terms of Net 10th with a cutoff day of 25, all invoices dated prior to the
 25th will be assigned a due date of the 10th of next month. Any invoice with a
 date after the 25th of the month will be assigned the 10th two months out.  
   
-**Net Due Days** Enter the net due days you wish to be used when running accounts receivable reports such as the aging report, [ AR.R3 ](AR-R3/README.md) , by due date. If this field is empty then the net due days will be used. All other reports and queries will use the net due days as well.   
+**Net Due Days** Enter the net due days you wish to be used when running accounts receivable reports such as the aging report, [ AR.R3 ](../../../../AR-OVERVIEW/AR-REPORT/AR-R3/README.md) , by due date. If this field is empty then the net due days will be used. All other reports and queries will use the net due days as well.   
   
 **Net Due PCT** Enter the percent you wish to be used when using the report
 due days.  

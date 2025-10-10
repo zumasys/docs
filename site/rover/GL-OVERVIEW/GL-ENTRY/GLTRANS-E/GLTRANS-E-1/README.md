@@ -14,7 +14,7 @@ with new records. This function is usually used when recording entries like
 payroll. The account numbers used are the same but the amounts differ on each
 entry.  
   
-**Fiscal year** Enter the fiscal year into which this transaction is being posted. This may be any year which has previously been identified through the [ FY.E ](FY-E/README.md) procedure. However, if the fiscal year you enter has already been identified as "finally closed", then that fiscal year will not be acceptable. Once entered, each subsequent record will default the fiscal year automatically to the fiscal year previously entered. It can then be overridden if required.   
+**Fiscal year** Enter the fiscal year into which this transaction is being posted. This may be any year which has previously been identified through the [ FY.E ](../../FY-E/README.md) procedure. However, if the fiscal year you enter has already been identified as "finally closed", then that fiscal year will not be acceptable. Once entered, each subsequent record will default the fiscal year automatically to the fiscal year previously entered. It can then be overridden if required.   
   
 **Date** The date to which this transaction is being posted. It must fall
 within the previously defined fiscal year. It must also NOT be in a previously
@@ -25,7 +25,7 @@ default to the previously entered date. It can then be overridden if required.
 transactions for a period on a report by journal number. This helps to
 identify potential posting problems by grouping the journal entries.  
   
-**Year to Reverse** If you want a reversing entry for this transaction to be created automatically, then enter the fiscal year in which the reversal is to posted. The year must have been previously defined with [ FY.E ](FY-E/README.md) .   
+**Year to Reverse** If you want a reversing entry for this transaction to be created automatically, then enter the fiscal year in which the reversal is to posted. The year must have been previously defined with [ FY.E ](../../FY-E/README.md) .   
   
 **Date to Reverse** If you want a reversing entry for this transaction to be
 created automatically, then enter the date on which the reversal is to posted.  

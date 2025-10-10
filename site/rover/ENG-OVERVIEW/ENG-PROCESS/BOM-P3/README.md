@@ -34,7 +34,7 @@ If you specify an Engineering Change Notice (ECN) when the procedure is run, the
 As required.
 
 **Prerequisites**  
-None required, but you may want to use the [ BOM.R5 ](BOM-R5/README.md) report first to see which items will be affected before you actually make the change with this procedure. 
+None required, but you may want to use the [ BOM.R5 ](../../ENG-REPORT/BOM-R5/README.md) report first to see which items will be affected before you actually make the change with this procedure. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

@@ -28,7 +28,7 @@ each action taken.
 **Action Description** Enter a brief description of the action taken on the
 associated date.  
   
-**Group Code** Select each of the group codes that are to be included in the marketing campaign. Group codes are defined in the [ GROUP.CONTROL ](GROUP-CONTROL/README.md) procedure and are referenced on customers and prospects. Group codes may define attributes such as a sales region, industry, SIC code or any other criteria that you deem appropriate for classifying customers and prospects. If no group codes are entered then all customers or prospects will be included.   
+**Group Code** Select each of the group codes that are to be included in the marketing campaign. Group codes are defined in the [ GROUP.CONTROL ](../../GROUP-CONTROL/README.md) procedure and are referenced on customers and prospects. Group codes may define attributes such as a sales region, industry, SIC code or any other criteria that you deem appropriate for classifying customers and prospects. If no group codes are entered then all customers or prospects will be included.   
   
 **Group Description** Displays the description of the associated group code.  
   

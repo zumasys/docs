@@ -65,7 +65,7 @@ actual amount of money being applied.
   
 **Bank Number** Enter the bank number for this cash transaction. This number will print on the deposit slip form , [ CASH.F1 ](../../../AR-REPORT/CASH-F1/README.md) . If required, the bank number is one of several fields that can be changed on existing records.   
   
-**Deposit.ID** This field is used to assign a "deposit batch" number to a series of cash entries. These cash entries may then be reported as a group. Deposit slips may, also, be printed via [ CASH.F1 ](../../../AR-REPORT/CASH-F1/README.md) . If you will be using [ RECON.E ](RECON-E/README.md) to reconcile your bank statements, a deposit id is recommended. If required, the deposit id is one of several fields that can be changed on existing records.   
+**Deposit.ID** This field is used to assign a "deposit batch" number to a series of cash entries. These cash entries may then be reported as a group. Deposit slips may, also, be printed via [ CASH.F1 ](../../../AR-REPORT/CASH-F1/README.md) . If you will be using [ RECON.E ](../../RECON-E/README.md) to reconcile your bank statements, a deposit id is recommended. If required, the deposit id is one of several fields that can be changed on existing records.   
   
 **Currency Code** If this cash receipt is in a foreign currency, enter the currency code here. That will load the exchange rate defined in [ CURRENCY.CONTROL ](../../CURRENCY-CONTROL/README.md) .   
   

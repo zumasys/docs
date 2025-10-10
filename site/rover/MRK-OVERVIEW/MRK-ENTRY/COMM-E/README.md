@@ -9,7 +9,7 @@
 [ Change History ](COMM-E-2/README.md)   
 
 **Purpose**  
-The COMM.E procedure provides for the entry and maintenance of the Commission file (COMM). The ID to each commission record is sequentially assigned by the system. Each record contains detail information from the shipment process which is automatically created during the [ SHIP.P1 ](SHIP-P1/README.md) procedure.   
+The COMM.E procedure provides for the entry and maintenance of the Commission file (COMM). The ID to each commission record is sequentially assigned by the system. Each record contains detail information from the shipment process which is automatically created during the [ SHIP.P1 ](../../MRK-PROCESS/SHIP-P1/README.md) procedure.   
   
 This procedure is normally used to modify existing commission records which,
 for one reason or another, may have been posted in error or need some

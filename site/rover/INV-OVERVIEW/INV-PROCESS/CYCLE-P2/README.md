@@ -22,7 +22,7 @@ storage and reporting.
 This procedure should be run daily, after the cycle count has occurred.
 
 **Prerequisites**  
-The cycle count for the selected date must have been done and the counted entered through [ CYCLE.E ](CYCLE-E/README.md) . It is also highly recommended that the Cost Variation report ( [ CYCLE.R3 ](CYCLE-R3/README.md) ) be run to get a preview of what effect the posting will have. 
+The cycle count for the selected date must have been done and the counted entered through [ CYCLE.E ](../../INV-ENTRY/CYCLE-E/README.md) . It is also highly recommended that the Cost Variation report ( [ CYCLE.R3 ](../../INV-REPORT/CYCLE-R3/README.md) ) be run to get a preview of what effect the posting will have. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

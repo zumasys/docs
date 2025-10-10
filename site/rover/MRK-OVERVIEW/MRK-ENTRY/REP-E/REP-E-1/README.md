@@ -19,7 +19,7 @@ the rep by name.
 new records, the current date will be loaded into this field for you but can
 be changed as required.  
   
-**Inactive Date** Enter the date this rep stooped working for your company. After inactivating a rep, you should run a report called [ CUST.R2 ](CUST-R2/README.md) to list all customers that have been assigined to this rep. Untill the rep is removed from the customer record (i.e. [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) ), it will get loaded into new quotes and sales orders.   
+**Inactive Date** Enter the date this rep stooped working for your company. After inactivating a rep, you should run a report called [ CUST.R2 ](../../../../AR-OVERVIEW/AR-REPORT/CUST-R2/README.md) to list all customers that have been assigined to this rep. Untill the rep is removed from the customer record (i.e. [ CUST.E ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) ), it will get loaded into new quotes and sales orders.   
   
 **Address** Enter up to 4 lines of address.  
   

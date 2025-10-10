@@ -49,7 +49,7 @@ routings appearing at the bottom of each form.
   
 **Explode Phantoms** Check this box if you want to receive the components of phantom assemblies when receiving a PO line item that is a phantom part. If unchecked, then the phantom assembly will be received as a normal part number. This setting will default into [ PO.E ](../../PO-E/README.md) for each purchase order but can be changed for an individual PO.   
   
-**Do not Backorder Po** Check this box if you do not want a backorder created for any line item on a purchase order that is received short. When the receipt is processed via [ receipts.e ](receipts-e/README.md) , a check mark will default into the "close li" field for you but can be removed.   
+**Do not Backorder Po** Check this box if you do not want a backorder created for any line item on a purchase order that is received short. When the receipt is processed via [ receipts.e ](../../RECEIPTS-E/README.md) , a check mark will default into the "close li" field for you but can be removed.   
   
 **Receipt Status** Enter the default you wish to use for the status field in [ RECEIPTS.E ](../../RECEIPTS-E/README.md) and [ RECEIPTS.E2 ](../../RECEIPTS-E2/README.md) . Using an "N" status will allow yu to save a receipt without processing it. For example, you may wish to save an unfinished receipt, then come back to it later. A status of "R" will immediately post the receipt to inventory and the purchase order.   
   
@@ -59,7 +59,7 @@ tolerance percentage, the receipt process will not be allowed.
   
 **Create Work Order?** Check this box if you wish to generate a work order from [ PO.E ](../../PO-E/README.md) for outside processing items. An outside processing work order is issued for the same part number as entered in the purchase order.   
   
-**Outside Processing Routing** Enter the routing id that should be used when creating work orders from [ po.e ](po-e/README.md) when a routing has not been defined in [ parts.e ](parts-e/README.md) for the selected part.   
+**Outside Processing Routing** Enter the routing id that should be used when creating work orders from [ po.e ](../../PO-E/README.md) when a routing has not been defined in [ parts.e ](../../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) for the selected part.   
   
 **Track Qtys** Check this box, if you wish to track the quantities purchased
 and received by operation. If this box is checked, and the purchase order was

@@ -58,9 +58,9 @@ enter either an "N" or leave null.
 security number in the case of a sole proprietor or individual, or a federal
 tax ID.  
   
-**Quality Weight%** Enter the percentage to be applied to quality performance when rating the overall performance of the vendor. For example, you may want to place a higher percentage on delivery for distributors since they are not directly responsible for quality issues. A vendor that manufactures the items it delivers might need more emphasis placed on the quality factor in the rating. If no entry is made in this field, the qualtity percentage entered in [ DMR.CONTROL ](DMR-CONTROL/README.md) will be used.   
+**Quality Weight%** Enter the percentage to be applied to quality performance when rating the overall performance of the vendor. For example, you may want to place a higher percentage on delivery for distributors since they are not directly responsible for quality issues. A vendor that manufactures the items it delivers might need more emphasis placed on the quality factor in the rating. If no entry is made in this field, the qualtity percentage entered in [ DMR.CONTROL ](../../../../PUR-OVERVIEW/PUR-ENTRY/DMR-CONTROL/README.md) will be used.   
   
-**Delivery Weight%** Enter the percentage to be applied to delivery performance when rating the overall performance of the vendor. For example, you may want to place a higher percentage on delivery for distributors since they are not directly responsible for quality issues. A vendor that manufactures the items it delivers might need more emphasis placed on the quality factor in the rating. If no entry is made in this field, the delivery percentage entered in [ DMR.CONTROL ](DMR-CONTROL/README.md) will be used.   
+**Delivery Weight%** Enter the percentage to be applied to delivery performance when rating the overall performance of the vendor. For example, you may want to place a higher percentage on delivery for distributors since they are not directly responsible for quality issues. A vendor that manufactures the items it delivers might need more emphasis placed on the quality factor in the rating. If no entry is made in this field, the delivery percentage entered in [ DMR.CONTROL ](../../../../PUR-OVERVIEW/PUR-ENTRY/DMR-CONTROL/README.md) will be used.   
   
 **Telephone** Enter the telephone number for this vendor. The suggested format
 is XXX/XXX-XXXX.  
@@ -81,7 +81,7 @@ terms file.
 This information is loaded from the TERMS file for reference only and may not
 be changed.  
   
-**Account** Enter the General Ledger account number assigned to this vendor. A valid account number entered here will default into the [ PO.E ](PO-E/README.md) and [ AP.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) screens.   
+**Account** Enter the General Ledger account number assigned to this vendor. A valid account number entered here will default into the [ PO.E ](../../../../PUR-OVERVIEW/PUR-ENTRY/PO-E/README.md) and [ AP.E ](../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) screens.   
   
 **Account Desc** This field contains the description of the GL chart of
 account.  
@@ -91,7 +91,7 @@ account.
 **Sep Check** Check this box to default each AP item to be paid on a separate
 check, rather than grouping it with other AP items for the same vendor.  
   
-**Order Minimum** If applicable, enter the minimum amount a purchase order can be taken for this vendor. If a purchase requisition is entered in [ POREQ.E ](POREQ-E/README.md) or a purchase order is entered in [ PO.E ](PO-E/README.md) for an amount that is less than this amount, a warning message will be issued.   
+**Order Minimum** If applicable, enter the minimum amount a purchase order can be taken for this vendor. If a purchase requisition is entered in [ POREQ.E ](../../../../PUR-OVERVIEW/PUR-ENTRY/POREQ-E/README.md) or a purchase order is entered in [ PO.E ](../../../../PUR-OVERVIEW/PUR-ENTRY/PO-E/README.md) for an amount that is less than this amount, a warning message will be issued.   
   
 **Currency Code** If applicable, enter the currency code for this vendor.  
   

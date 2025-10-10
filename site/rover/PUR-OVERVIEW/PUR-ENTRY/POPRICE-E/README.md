@@ -8,7 +8,7 @@
 [ Attachments ](POPRICE-E-3/README.md)   
 
 **Purpose**  
-The POPRICE.E procedure provides for the entry and maintenance of vendor supplied components for use by the Planner Screen ( [ PLAN.E ](PLAN-E/README.md) ). The record ID is a part number. Both standard and special pricing are allowed, with an effectivity date for controlling either purchase dates or "toggling" the effective prices each period that price changes are required. In the latter case (part number and vendor number) the same data may be entered, but each part number can carry a different price depending upon the vendor number. The [ PLAN.E ](PLAN-E/README.md) procedure will use this information to automatically create purchase orders based on the best price quantity combination. 
+The POPRICE.E procedure provides for the entry and maintenance of vendor supplied components for use by the Planner Screen ( [ PLAN.E ](../../../MFG-OVERVIEW/MFG-ENTRY/PLAN-E/README.md) ). The record ID is a part number. Both standard and special pricing are allowed, with an effectivity date for controlling either purchase dates or "toggling" the effective prices each period that price changes are required. In the latter case (part number and vendor number) the same data may be entered, but each part number can carry a different price depending upon the vendor number. The [ PLAN.E ](../../../MFG-OVERVIEW/MFG-ENTRY/PLAN-E/README.md) procedure will use this information to automatically create purchase orders based on the best price quantity combination. 
 
 **Frequency of Use**  
 Prices are usually loaded initially when the system is first installed, with

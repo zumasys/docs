@@ -50,7 +50,7 @@ will calculate the unit insurance value for the line item.
   
 **Total Qty** The total quantity to be shipped for this line item.  
   
-**UM** This is the unit of measure for the associated part number as defined in [ Parts.E ](Parts-E/README.md) . It is for reference only and cannot be changed.   
+**UM** This is the unit of measure for the associated part number as defined in [ Parts.E ](../../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) . It is for reference only and cannot be changed.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

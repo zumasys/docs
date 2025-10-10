@@ -97,7 +97,7 @@ receiving location into the stock location is done as a separate transaction.
 receiving location is a work in process location, or the work order into which
 the parts are to be moved after being received.  
   
-**Close Li** If the quantity received is less than the quantity ordered and you wish to close the line item short, check this box. The order/scheduled quantity will be adjusted to match the receipt quantity. If, for example, the order quantity is 100 and you receive in 98, the order quantity will be changed to 98. If this receipt is reversed via [ receipts.e3 ](receipts-e3/README.md) , the order quantity will not revert back to 100. A check mark will default into this box for you, if the "do not backorder po" field is checked in the [ po.control ](../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E/PO-E-1/po-control) procedure. If this box is not checked the line item will be backordered.   
+**Close Li** If the quantity received is less than the quantity ordered and you wish to close the line item short, check this box. The order/scheduled quantity will be adjusted to match the receipt quantity. If, for example, the order quantity is 100 and you receive in 98, the order quantity will be changed to 98. If this receipt is reversed via [ receipts.e3 ](../../RECEIPTS-E3/README.md) , the order quantity will not revert back to 100. A check mark will default into this box for you, if the "do not backorder po" field is checked in the [ po.control ](../../PO-CONTROL/README.md) procedure. If this box is not checked the line item will be backordered.   
   
 **Receive All** Pressing this button will cause all of the open purchase order
 quantities to be defaulted into the quantity fields. At that point, changes

@@ -23,7 +23,7 @@ code.
 **Approval Description** Enter the description of the associated approval
 code.  
   
-**Authorized User Ids** Enter the login ID's of those people authorized to approved this type. These login ID's will be used in [ ECN.E2 ](ECN-E2/README.md) to verify that the person appoving the ECN is authorized.   
+**Authorized User Ids** Enter the login ID's of those people authorized to approved this type. These login ID's will be used in [ ECN.E2 ](../../ECN-E2/README.md) to verify that the person appoving the ECN is authorized.   
   
 **Affected Areas** Enter all of the affected areas that are valid for an ECN. If left blank, then there will be no restrictions on the approval type entry in [ ECN.E ](../../ECN-E/README.md) .   
   

@@ -19,7 +19,7 @@ shipped.
   
 **Ship Zip** Enter the zip code to which the order will be shipped.  
   
-**Ship Country** Enter the country to which the order will be shipped. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../SHIP-CONTROL/README.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) .   
+**Ship Country** Enter the country to which the order will be shipped. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../SHIP-CONTROL/README.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](../../SHIP-CONTROL/README.md) .   
   
 **Validate Address** Click this button to validate the shipping address.  
   
@@ -42,7 +42,7 @@ customer of the shipment.
   
 **Ship Via** Enter the method of shipment or carrier to be used when shipping the items on the sales order to the customer. If ship methods have been defined in the [ SHIP.CONTROL ](../../SHIP-CONTROL/README.md) procedure, this entry will be validated.   
   
-**Saturday Delivery** Check this box if the order will be delivered on a Saturday. If you do not know until the order is ready to be shipped if it will be delivered on a Saturday, you can update the associated shipper record with this information via [ SHIP.E ](SHIP-E/README.md) , [ SHIP.E2 ](SHIP-E2/README.md) or [ SHIP.E4 ](SHIP-E4/README.md) .   
+**Saturday Delivery** Check this box if the order will be delivered on a Saturday. If you do not know until the order is ready to be shipped if it will be delivered on a Saturday, you can update the associated shipper record with this information via [ SHIP.E ](../../SHIP-E/README.md) , [ SHIP.E2 ](../../SHIP-E2/README.md) or [ SHIP.E4 ](../../SHIP-E4/README.md) .   
   
 **Shipper Account** If required, enter the shipper's / company's account
 number in this field.  
@@ -111,7 +111,7 @@ amount to this order.
 **Tax rate** This field contains the total of the tax percentages listed. They
 may not be changes manually.  
   
-**Get Rate** Click this button to recalculate the sales tax rate. This really only has an effect if you are using a sales tax rate service which you've identified in the [ STAX.CONTROL ](STAX-CONTROL/README.md) procedure. This button should be clicked if you have changed the shipping address so that the proper rate will be calculated.   
+**Get Rate** Click this button to recalculate the sales tax rate. This really only has an effect if you are using a sales tax rate service which you've identified in the [ STAX.CONTROL ](../../../../AR-OVERVIEW/AR-ENTRY/STAX-CONTROL/README.md) procedure. This button should be clicked if you have changed the shipping address so that the proper rate will be calculated.   
   
 **Creditcard No** If all or part of the payment is being made with a credit
 card enter each credit card to be billed. Card numbers that were entered

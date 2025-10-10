@@ -31,7 +31,7 @@ number, there is an option in the help menu for this prompt which allows you
 to select the  
 customer by name.  
   
-**Customer Name** The name of the customer as it appears in [ cust.e ](cust-e/README.md) .   
+**Customer Name** The name of the customer as it appears in [ cust.e ](../../CUST-E/README.md) .   
   
 **Cash Account** Enter the General Ledger account number to be debited for the
 cash amount. This number will default from the AR Control record and can be

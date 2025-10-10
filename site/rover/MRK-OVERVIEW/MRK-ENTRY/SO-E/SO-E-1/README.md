@@ -85,7 +85,7 @@ XXX/XXX-XXXX.
   
 **Email** Enter the email address of the order contact person.  
   
-**Price Code** Select the price code for this order. This code in conjunction with each part on the order is used to determine pricing for the items. This field is originally defaulted from the customer. The price codes are defined in [ PRICE.CONTROL ](PRICE-CONTROL/README.md) .   
+**Price Code** Select the price code for this order. This code in conjunction with each part on the order is used to determine pricing for the items. This field is originally defaulted from the customer. The price codes are defined in [ PRICE.CONTROL ](../../PRICE-CONTROL/README.md) .   
   
 **Pay Terms** Select the payment terms that are to be applied to invoices
 generated against the sales order.  
@@ -121,7 +121,7 @@ open balances on the order to zero.
 **Close Date** Enter the date on which this order was closed or cancelled. The
 date is automatically set by the system when the last shipment is posted.  
   
-**Pending Ship** This box is checked if there is a pending shipment (not yet shipped) for this sales order. A shipper is considered pending if the status on the associated shipper is set to "N" or New. When the status on the shipper is changed to "S" (for shipped) via [ SHIP.E2 ](SHIP-E2/README.md) , this box will no longer appear as checked. This field is displayed for reference only and cannot be manually updated in this procedure.   
+**Pending Ship** This box is checked if there is a pending shipment (not yet shipped) for this sales order. A shipper is considered pending if the status on the associated shipper is set to "N" or New. When the status on the shipper is changed to "S" (for shipped) via [ SHIP.E2 ](../../SHIP-E2/README.md) , this box will no longer appear as checked. This field is displayed for reference only and cannot be manually updated in this procedure.   
   
 **Rep** Enter the rep(s) receiving credit for this order. This field is
 related to the Order% field and you may enter as many reps and order

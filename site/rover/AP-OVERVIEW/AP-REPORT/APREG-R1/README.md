@@ -16,7 +16,7 @@ which will be posted to General Ledger. It can be run as required to audit
 progress through the period.
 
 **Prerequisites**  
-Accounts Payable register transactions are created automatically by the system through the [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) , [ CHECKS.E ](../../AP-ENTRY/CHECKS-E/README.md) , [ RECEIPTS.P1 ](RECEIPTS-P1/README.md) and [ APR.P1 ](../../../../rover/AP-OVERVIEW/AP-PROCESS/APR-P1/README.md) procedures. 
+Accounts Payable register transactions are created automatically by the system through the [ AP.E ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/README.md) , [ CHECKS.E ](../../AP-ENTRY/CHECKS-E/README.md) , [ RECEIPTS.P1 ](../../../PUR-OVERVIEW/PUR-PROCESS/RECEIPTS-P1/README.md) and [ APR.P1 ](../../../../rover/AP-OVERVIEW/AP-PROCESS/APR-P1/README.md) procedures. 
 
 **Data Fields**
 

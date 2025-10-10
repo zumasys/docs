@@ -4,7 +4,7 @@
 
 Rover ERP utilizes the M3Services Windows Service to process documents, emails, and other connectivity processes.
 
-[You can find the latest client installer here](../release-notes/README.md)
+[You can find the latest client installer here](../../release-notes/README.md)
 
 ## Installing M3Services
 

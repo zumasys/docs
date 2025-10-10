@@ -54,7 +54,7 @@ will be retrieved for the corresponding rep.
   
 **Ship Zip** Enter the ship-to zip code.  
   
-**Ship Country** Enter the country to which the items will be shipped. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](SHIP-CONTROL/README.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](ship-control/README.md) .   
+**Ship Country** Enter the country to which the items will be shipped. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../SHIP-CONTROL/README.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](../../SHIP-CONTROL/README.md) .   
   
 **Ship Attn** Enter the ship-to attention line.  
   
@@ -64,7 +64,7 @@ collected from the recipient by the freight carrier. Enter the letter "T" if
 the freight charges are to be paid by a third party. Enter the letter "F" if
 no charges are to be billed to the customer.  
   
-**Ship Via** Enter the method of shipment or carrier to be used when shipping the items on this shipment. If ship methods have been defined in the [ SHIP.CONTROL ](SHIP-CONTROL/README.md) procedure, this entry will be validated.   
+**Ship Via** Enter the method of shipment or carrier to be used when shipping the items on this shipment. If ship methods have been defined in the [ SHIP.CONTROL ](../../SHIP-CONTROL/README.md) procedure, this entry will be validated.   
   
 **Third Party Account Number** If a thirdy party will be paying for the
 freight charges, enter their account number here. When the record is created

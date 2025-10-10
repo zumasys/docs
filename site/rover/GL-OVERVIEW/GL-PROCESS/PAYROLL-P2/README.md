@@ -26,7 +26,7 @@ Please note that this journal entry will not autumatically post to the general l
 As required.
 
 **Prerequisites**  
-The general ledger account numbers that will be referenced on the file that will be used in this process need to be defined in the system. Use [ glchart.e ](glchart-e/README.md) to enter account numbers. 
+The general ledger account numbers that will be referenced on the file that will be used in this process need to be defined in the system. Use [ glchart.e ](../../GL-ENTRY/GLCHART-E/README.md) to enter account numbers. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

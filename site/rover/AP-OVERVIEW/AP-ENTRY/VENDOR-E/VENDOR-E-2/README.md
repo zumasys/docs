@@ -38,7 +38,7 @@ telephon number.
   
 **** Click this button to send an email to the contact.  
   
-**New Contact** Click this button to create a new contact. This will launch the contact entry procedure ( [ CONTACT.E ](CONTACT-E/README.md) ) and add the ID of the new contact to the list of existing contacts for the vendor. If a contact record already exists and you simply want to add it to the list enter contact id in the first open contact id field or enter a portion of the name to invoke a lookup.   
+**New Contact** Click this button to create a new contact. This will launch the contact entry procedure ( [ CONTACT.E ](../../CONTACT-E/README.md) ) and add the ID of the new contact to the list of existing contacts for the vendor. If a contact record already exists and you simply want to add it to the list enter contact id in the first open contact id field or enter a portion of the name to invoke a lookup.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

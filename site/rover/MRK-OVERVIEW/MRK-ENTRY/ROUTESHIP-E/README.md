@@ -29,7 +29,7 @@ where the split is to occur, and using the right click option. A new routeship
 record will be created using the route# with an "A" appended to it for the new
 record key.  
   
-The Routeship ID is stored on each shipment record. A shipment may only be referenced on one routeship record. ROUTESHIP records can also be created through a batch method using [ ROUTESHIP.P1 ](ROUTESHIP-P1/README.md) . 
+The Routeship ID is stored on each shipment record. A shipment may only be referenced on one routeship record. ROUTESHIP records can also be created through a batch method using [ ROUTESHIP.P1 ](../../MRK-PROCESS/ROUTESHIP-P1/README.md) . 
 
 **Frequency of Use**  
 As required.

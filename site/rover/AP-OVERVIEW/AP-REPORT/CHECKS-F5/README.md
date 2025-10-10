@@ -19,7 +19,7 @@ The actual Checks and AP files are not updated until the [ CHECKS.P1 ](../../../
 As required.
 
 **Prerequisites**  
-The creation of a check run through the [ AP.P1 ](AP-P1/README.md) process. 
+The creation of a check run through the [ AP.P1 ](../../AP-PROCESS/AP-P1/README.md) process. 
 
 **Data Fields**
 

@@ -50,7 +50,7 @@ percentage you may enter that amount in this field.
 **Vendor** If you are going to have a purchase order created as a result of
 saving this sales order, enter the vendor number you wish to use.  
   
-**PO Cost** Enter the cost to which the vendor has agreed for this part. The program will attempt to load in the unit price from [ poprice.e ](poprice-e/README.md) after entry of the vendor number provided no cost has already been entered for this line item. When a purchase order is created, this amount will be placed onto the line item of the PO as the unit price.   
+**PO Cost** Enter the cost to which the vendor has agreed for this part. The program will attempt to load in the unit price from [ poprice.e ](../../../../PUR-OVERVIEW/PUR-ENTRY/POPRICE-E/README.md) after entry of the vendor number provided no cost has already been entered for this line item. When a purchase order is created, this amount will be placed onto the line item of the PO as the unit price.   
   
 **Vendor Name** This field contains the name of the vendor, as found in the
 Vendor file. It is for reference only.  

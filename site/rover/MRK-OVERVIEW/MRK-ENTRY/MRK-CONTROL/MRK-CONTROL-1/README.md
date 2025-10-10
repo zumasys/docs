@@ -63,7 +63,7 @@ automatically loaded.
 **Auto Load Ship Qty** If you wish to have the open sales order quantity
 automatically loaded in the shipment entry procedures, check this box.  
   
-**Auto Set Ship Date** This field allows you to set a flag that will auto set the ship date in [ SHIP.E2 ](SHIP-E2/README.md) when the status field is changed from "N" to "S".   
+**Auto Set Ship Date** This field allows you to set a flag that will auto set the ship date in [ SHIP.E2 ](../../SHIP-E2/README.md) when the status field is changed from "N" to "S".   
   
 **Allocate Shipments** Check this box if the items specified on shipments are
 to be allocated in inventory.  
@@ -103,7 +103,7 @@ of the bill of material.
   
 **Display Credit Memos** Check this box if you wish to display open credit memos upon entry of the customer number on new records in [ SO.E ](../../SO-E/README.md) . This will display a list box from which the user can select one or more credit memos to apply to the sales order balance. The credit memos will still be displayed on the ship/tax/credit tab of [ SO.E ](../../SO-E/README.md) regardless of this setting.   
   
-**Default taxable flag** Checking this box controls the taxable flag default in both [ SOQUOTE.E ](SOQUOTE-E/README.md) and [ SO.E ](../../SO-E/README.md) . When this box is checked and a sales tax percentage is non-zero and a line item is entered, the taxable flag will default to "Y" (checked) automatically. You will need to remove the check from any line items that should not be taxable manually. If it is not checked, then the user is responsible for deciding what lines items are taxable.   
+**Default taxable flag** Checking this box controls the taxable flag default in both [ SOQUOTE.E ](../../SOQUOTE-E/README.md) and [ SO.E ](../../SO-E/README.md) . When this box is checked and a sales tax percentage is non-zero and a line item is entered, the taxable flag will default to "Y" (checked) automatically. You will need to remove the check from any line items that should not be taxable manually. If it is not checked, then the user is responsible for deciding what lines items are taxable.   
   
 If you use this field, then the taxable flag in [ PARTS.E ](../../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/README.md) will be ignored.   
   

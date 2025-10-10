@@ -23,7 +23,7 @@ parts back to the vendor.
   
 If the debit receipt is tied to an MSHIP record, then [ MSHIP.E ](../../../MRK-OVERVIEW/MRK-ENTRY/MSHIP-E/README.md) must be used to trigger the inventory update by setting the status to "S" in [ MSHIP.E ](../../../MRK-OVERVIEW/MRK-ENTRY/MSHIP-E/README.md) , which will cause the parts to be removed from inventory. The status of the debit receipt then will be automatically updated to "S"hipped.   
   
-A debit receipt record can be modified or deleted using RECEIPTS.E2 while it is in a "N"ew status, but after the inventory has been updated, if an entry was made in error it can be reversed using [ RECEIPTS.E3 ](RECEIPTS-E3/README.md) . A debit/Mship record can also be deleted before it has been shipped (Status "R"). 
+A debit receipt record can be modified or deleted using RECEIPTS.E2 while it is in a "N"ew status, but after the inventory has been updated, if an entry was made in error it can be reversed using [ RECEIPTS.E3 ](../RECEIPTS-E3/README.md) . A debit/Mship record can also be deleted before it has been shipped (Status "R"). 
 
 **Frequency of Use**  
 As required.

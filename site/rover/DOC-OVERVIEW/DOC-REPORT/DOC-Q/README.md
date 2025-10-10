@@ -23,7 +23,7 @@ published version of a document.
 As required.
 
 **Prerequisites**  
-Initialization of the document control record ( [ DOC.CONTROL ](DOC-CONTROL/README.md) ) and creation of the document record using [ DOC.E ](../DOC-E/README.md) by an Admin user.
+Initialization of the document control record ( [ DOC.CONTROL ](../../DOC-ENTRY/DOC-CONTROL/README.md) ) and creation of the document record using [ DOC.E ](../../DOC-ENTRY/DOC-E/README.md) by an Admin user.
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

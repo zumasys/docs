@@ -7,7 +7,7 @@
 [ Components ](RECEIPTS-E3-2/README.md)   
 
 **Purpose**  
-The RECEIPTS.E3 procedure provides the ability to delete an existing receipt from the system. The receipt may be removed provided that there have been no additional receipts entered against the purchase order, the receipt does not have a debit posted against it, and no change has been made to the associated accounts payable accrual record. RECEIPTS.E3 also cannot be used if the AP record has already been deleted by the user in which case it is advisable to use [ RECEIPTS.E2 ](../../RECEIPTS-E2/README.md) .   
+The RECEIPTS.E3 procedure provides the ability to delete an existing receipt from the system. The receipt may be removed provided that there have been no additional receipts entered against the purchase order, the receipt does not have a debit posted against it, and no change has been made to the associated accounts payable accrual record. RECEIPTS.E3 also cannot be used if the AP record has already been deleted by the user in which case it is advisable to use [ RECEIPTS.E2 ](../RECEIPTS-E2/README.md) .   
   
 The operator enters the number of the receipt to be deleted which causes the
 original receipt data to be loaded onto the screen. The operator then uses the
@@ -36,7 +36,7 @@ deleted.
 As required.
 
 **Prerequisites**  
-Entry of the receipt record to be deleted ( [ RECEIPTS.E ](RECEIPTS-E/README.md) or [ RECEIPTS.E2 ](../../RECEIPTS-E2/README.md) ). 
+Entry of the receipt record to be deleted ( [ RECEIPTS.E ](../RECEIPTS-E/README.md) or [ RECEIPTS.E2 ](../RECEIPTS-E2/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

@@ -43,7 +43,7 @@ web site until the customer adds it to their shopping cart. The text entered
 in this field will be displayed in place of the price. Leave this field blank
 if the price is to be shown in the regular item lists.  
   
-**Web Image Path** Enter the path name to the image that is to be displayed on the web page. The web site doesn't actually use the image in this location because it maintains the images directly on the web server for efficiency, only the name is associated with the part and it must be the same as the name of the image on the web server. Your choices may be limited to a certain path based on settings in the [ WEB.CONTROL ](WEB-CONTROL/README.md) procedure.   
+**Web Image Path** Enter the path name to the image that is to be displayed on the web page. The web site doesn't actually use the image in this location because it maintains the images directly on the web server for efficiency, only the name is associated with the part and it must be the same as the name of the image on the web server. Your choices may be limited to a certain path based on settings in the [ WEB.CONTROL ](../../../../ACE-OVERVIEW/ACE-ENTRY/WEB-CONTROL/README.md) procedure.   
   
 **Web Image** Web Image.  
   

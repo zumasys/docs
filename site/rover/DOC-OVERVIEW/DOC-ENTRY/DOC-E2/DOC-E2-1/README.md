@@ -13,7 +13,7 @@ documents.
   
 **Category** The document category.  
   
-**Title** The document title will be displayed in [ DOC.Q ](../../DOC-Q/README.md) and in the lookups.
+**Title** The document title will be displayed in [ DOC.Q ](../../../DOC-REPORT/DOC-Q/README.md) and in the lookups.
   
 **Desc** The document description.  
   
@@ -25,7 +25,7 @@ Signoff - For changes or drafts in the signoff process.
 Released - When a document or revision change has been fully signed off.  
 Retired - For documents no longer in use.  
   
-New documents are automatically set to "Draft" status. Other statuses can only be changed by a document controller (administrator security level in [ DOC.CONTROL ](../../DOC-Q/DOC-CONTROL/README.md) ) in [ DOC.E ](../../DOC-E/README.md) .
+New documents are automatically set to "Draft" status. Other statuses can only be changed by a document controller (administrator security level in [ DOC.CONTROL ](../../DOC-CONTROL/README.md) ) in [ DOC.E ](../../DOC-E/README.md) .
   
 **T Curr Rev** This is the current revision of the document if it has been
 released.  
@@ -70,9 +70,9 @@ out the document. This person must be an editor for the document.
 also added to the signoff list to the right. A user must be an editor to check
 out a document.  
   
-**Req Sign Type** The signoff type as defined in [ DOC.CONTROL ](../../DOC-Q/DOC-CONTROL/README.md) .
+**Req Sign Type** The signoff type as defined in [ DOC.CONTROL ](../../DOC-CONTROL/README.md) .
   
-**Req Sign User** The signoff user is optional. If entered, this userid will be allowed to sign off a pending revision. If not entered, then any user within the signoff type will be allowed to sign off a pending revision. The association of which users belong to which types is defined in [ DOC.CONTROL ](../../DOC-Q/DOC-CONTROL/README.md) .
+**Req Sign User** The signoff user is optional. If entered, this userid will be allowed to sign off a pending revision. If not entered, then any user within the signoff type will be allowed to sign off a pending revision. The association of which users belong to which types is defined in [ DOC.CONTROL ](../../DOC-CONTROL/README.md) .
   
 **Req Type Dependent** This is to control if there is a specific order in
 which the signoffs need to happen. The first in the list will have no entry

@@ -17,7 +17,7 @@ assigned.
   
 When creating a new AP record do not include a dash in the AP ID. Only records created through a purchase order receipt can contain a dash. If you enter an AP ID that you believe was created from a purchase order receipt and you receive an error message, verify that the receipt was posted. Until a receipt is posted, the AP ID cannot be accessed in this procedure. If the receipt was posted, it is possible that the AP ID was deleted in AP.E and no longer exists. You should be able to verify this by running a report called [ APREG.R2 ](../../../../../rover/AP-OVERVIEW/AP-REPORT/APREG-R2/README.md) which will list all APREG entries for a given record id. If the AP ID was deleted it cannot be re-used in AP.E.   
   
-There is a load option available from this field to create an invoice/debit memo from an MSHIP record. MSHIP records are created via [ MSHIP.E ](MSHIP-E/README.md) (miscellaneous shipment entry screen) and are generated to return material to a vendor. The vendor information and line item information will be loaded into this screen. However, the unit prices are not entered in [ MSHIP.E ](MSHIP-E/README.md) and will, therefore, need to be entered in this procedure along with the g/l account numbers.   
+There is a load option available from this field to create an invoice/debit memo from an MSHIP record. MSHIP records are created via [ MSHIP.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/MSHIP-E/README.md) (miscellaneous shipment entry screen) and are generated to return material to a vendor. The vendor information and line item information will be loaded into this screen. However, the unit prices are not entered in [ MSHIP.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/MSHIP-E/README.md) and will, therefore, need to be entered in this procedure along with the g/l account numbers.   
   
 **Co Code** Enter the company codes you wish to appear on this report. If left
 blank all company codes will be included.  
@@ -85,9 +85,9 @@ if required.
 **Discount Acct#** Enter the G/L account number against which the discount
 amount is being charged.  
   
-**Currency Code** If a foreign currency controls this AP record, enter the currency code here. That will load the exchange rate defined in [ CURRENCY.CONTROL ](CURRENCY-CONTROL/README.md) . If this record is from a receipt, the currency code will be loaded in from the purchase order.   
+**Currency Code** If a foreign currency controls this AP record, enter the currency code here. That will load the exchange rate defined in [ CURRENCY.CONTROL ](../../../../AR-OVERVIEW/AR-ENTRY/CURRENCY-CONTROL/README.md) . If this record is from a receipt, the currency code will be loaded in from the purchase order.   
   
-**Exchange Rate** This is the exchange rate associated with the currency code as defined in [ CURRENCY.CONTROL ](CURRENCY-CONTROL/README.md) . It can be changed as needed.   
+**Exchange Rate** This is the exchange rate associated with the currency code as defined in [ CURRENCY.CONTROL ](../../../../AR-OVERVIEW/AR-ENTRY/CURRENCY-CONTROL/README.md) . It can be changed as needed.   
   
 **Status** This field indicates the status of this A/P item: A = Accrual (no
 invoice), O = Open, P = Precheck Processing and C = Closed (paid). You cannot

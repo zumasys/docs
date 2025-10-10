@@ -29,7 +29,7 @@ a list of all approved manufacturers for selection from the Parts Master.
 **Revision** Enter the revision level of the item being purchased if
 applicable.  
   
-**Explode Phantom** Check this box if you want to receive the components of phantom assemblies when receiving a line item that is a phantom part. If unchecked, then the phantom assembly will be received as a normal part number. This setting will default from the [ PO.CONTROL ](PO-CONTROL/README.md) entry but can be changed.   
+**Explode Phantom** Check this box if you want to receive the components of phantom assemblies when receiving a line item that is a phantom part. If unchecked, then the phantom assembly will be received as a normal part number. This setting will default from the [ PO.CONTROL ](../../PO-CONTROL/README.md) entry but can be changed.   
   
 **Desc** Enter the description of the item being purchased. This description
 is defaulted from the PARTS file when a part number is entered.  
@@ -130,7 +130,7 @@ order is the same as the final assembly number on the work order then the
 value of the item received is assigned as outside processing cost to the work
 order. Otherwise it is treated as material cost.  
   
-**Work Order Oper** Enter the work order operation these parts will be received into. If an operation number is present, the quantity purchased and received will be posted to the work order record and can be viewed in [ WO.E ](WO-E/README.md) . If the "track qtys" field is checked in the [ PO.CONTROL ](PO-CONTROL/README.md) procedure, an entry must be made into this field for outside processing operations/work centers.   
+**Work Order Oper** Enter the work order operation these parts will be received into. If an operation number is present, the quantity purchased and received will be posted to the work order record and can be viewed in [ WO.E ](../../../../PRO-OVERVIEW/PRO-ENTRY/WO-E/README.md) . If the "track qtys" field is checked in the [ PO.CONTROL ](../../PO-CONTROL/README.md) procedure, an entry must be made into this field for outside processing operations/work centers.   
   
 There is a lookup from this field to display the outside processing
 operations/work centers for the work order.  

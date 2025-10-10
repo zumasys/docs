@@ -12,7 +12,7 @@
   
 **End User Stmt** Check here if the end user statement has been attached.  
   
-**Export List** This is a list of the export regulations that have to be checked before an export can be shipped. This is loaded from the list entered in [ EXPORT.CONTROL ](EXPORT-CONTROL/README.md) and cannot be changed.   
+**Export List** This is a list of the export regulations that have to be checked before an export can be shipped. This is loaded from the list entered in [ EXPORT.CONTROL ](../../../../AR-OVERVIEW/AR-ENTRY/EXPORT-CONTROL/README.md) and cannot be changed.   
   
 **Export List Chk** Check here if the associated list has been checked. This
 can only be updated by an authorized employee.  

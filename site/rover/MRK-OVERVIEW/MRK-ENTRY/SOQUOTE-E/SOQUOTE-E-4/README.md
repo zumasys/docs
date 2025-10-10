@@ -19,7 +19,7 @@ shipped.
   
 **Ship Zip** Enter the zip code to which the order will be shipped.  
   
-**Ship Country** Enter the country to which the order will be shipped. Please note that you may be required to entrer the country name as it has been entered in the [ SHIP.CONTROL ](../../SHIP-CONTROL/README.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E/CUST-E-8/ship-control) .   
+**Ship Country** Enter the country to which the order will be shipped. Please note that you may be required to entrer the country name as it has been entered in the [ SHIP.CONTROL ](../../SHIP-CONTROL/README.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](../../SHIP-CONTROL/README.md) .   
   
 **Commercial?** Check this box if the shipment is being sent to a commercial
 address. If not checked, it is considered a residential shipment.  

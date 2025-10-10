@@ -22,7 +22,7 @@ access to the report procedures themselves, they will not be able to run the
 report.  
   
 REP Reports:  
-[ SALES.R3 ](SALES-R3/README.md) . [ SALES.R4 ](SALES-R4/README.md) , [ SALES.R12 ](SALES-R12/README.md) , [ SALES.R20 ](SALES-R20/README.md) , [ SALES.R21 ](SALES-R21/README.md) , [ SALES.R22 ](SALES-R22/README.md) , [ SALES.R24 ](SALES-R24/README.md) , [ SALES.R28 ](SALES-R28/README.md) , [ SALES.R30 ](SALES-R30/README.md) , [ SOBOOK.R3 ](SOBOOK-R3/README.md) , [ SOBOOK.R4 ](SOBOOK-R4/README.md) , [ SOQUOTE.R5 ](SOQUOTE-R5/README.md) , [ PROSPECT.R2 ](PROSPECT-R2/README.md) . 
+[ SALES.R3 ](../../MRK-REPORT/SALES-R3/README.md) . [ SALES.R4 ](../../MRK-REPORT/SALES-R4/README.md) , [ SALES.R12 ](../../MRK-REPORT/SALES-R12/README.md) , [ SALES.R20 ](../../MRK-REPORT/SALES-R20/README.md) , [ SALES.R21 ](../../MRK-REPORT/SALES-R21/README.md) , [ SALES.R22 ](../../MRK-REPORT/SALES-R22/README.md) , [ SALES.R24 ](../../MRK-REPORT/SALES-R24/README.md) , [ SALES.R28 ](../../MRK-REPORT/SALES-R28/README.md) , [ SALES.R30 ](../../MRK-REPORT/SALES-R30/README.md) , [ SOBOOK.R3 ](../../MRK-REPORT/SOBOOK-R3/README.md) , [ SOBOOK.R4 ](../../MRK-REPORT/SOBOOK-R4/README.md) , [ SOQUOTE.R5 ](../../MRK-REPORT/SOQUOTE-R5/README.md) , [ PROSPECT.R2 ](../../MRK-REPORT/PROSPECT-R2/README.md) . 
 
 **Frequency of Use**  
 This procedure should be updated when adding new users or removing old users

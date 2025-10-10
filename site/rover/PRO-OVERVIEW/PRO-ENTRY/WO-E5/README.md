@@ -12,7 +12,7 @@ for closed. This is the only update that occurs to the work order in this
 procedure. The users can then re-open the work order, post additional cost or
 material to it.  
   
-The previous variances that were calculated against the work order will be adjusted when the work order is re-finalized via [ wo.e2 ](../wo-e2/README.md) or [ wo.p3 ](wo-p3/README.md) . 
+The previous variances that were calculated against the work order will be adjusted when the work order is re-finalized via [ wo.e2 ](../wo-e2/README.md) or [ wo.p3 ](../../PRO-PROCESS/WO-P3/README.md) . 
 
 **Frequency of Use**  
 As required.

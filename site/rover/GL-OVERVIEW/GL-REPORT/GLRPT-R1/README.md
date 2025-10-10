@@ -21,7 +21,7 @@ The account number must be present in the GLCHART file.
 be processed.  
 **From Account** The beginning account number to be printed on this line of
 the report, or one of the valid action codes.  
-**To Account** The ending account number to printed if a range has been entered in [ glrpt.e ](glrpt-e/README.md) .   
+**To Account** The ending account number to printed if a range has been entered in [ glrpt.e ](../../GL-ENTRY/GLRPT-E/README.md) .   
 **Mask** If a range of account numbers has been selected, then a mask can be
 applied to limit the number of items selected.  
 **Description** The description of the account number as it appears in the

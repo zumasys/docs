@@ -19,7 +19,7 @@ procedures in the Accounts Payable Module. This is usually done as part of
 setting up the system. The entries may be changed after that time as required.
 
 **Prerequisites**  
-All account number must have been previously defined in the [ GLCHART.E ](GLCHART-E/README.md) procedure. All inventory locations must be previously defined in the Inventory Location file ( [ INVLOC.E ](INVLOC-E/README.md) ). 
+All account number must have been previously defined in the [ GLCHART.E ](../../../GL-OVERVIEW/GL-ENTRY/GLCHART-E/README.md) procedure. All inventory locations must be previously defined in the Inventory Location file ( [ INVLOC.E ](../../../INV-OVERVIEW/INV-ENTRY/INVLOC-E/README.md) ). 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

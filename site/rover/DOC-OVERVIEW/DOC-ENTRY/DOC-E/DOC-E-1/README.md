@@ -10,9 +10,9 @@
 document. You may also leave it blank to create a new document and have the
 system assign the next sequential number.  
   
-**Category** Enter a category, if desired. The valid values are defined in [DOC.CONTROL](../../DOC-Q/DOC-CONTROL/README.md) .
+**Category** Enter a category, if desired. The valid values are defined in [DOC.CONTROL](../../DOC-CONTROL/README.md) .
   
-**Title** Enter a title for the document. This will be displayed in [DOC.Q](../../DOC-Q/README.md) and in the lookups.
+**Title** Enter a title for the document. This will be displayed in [DOC.Q](../../../DOC-REPORT/DOC-Q/README.md) and in the lookups.
   
 **Desc** Enter a longer description or any notes associated with the document.  
   
@@ -24,7 +24,7 @@ Signoff - For changes or drafts in the signoff process.
 Released - When a document or revision change has been fully signed off.  
 Retired - For documents no longer in use.  
   
-New documents are automatically set to "Draft" status. Other statuses can only be changed by a document controller (administrator security level in [DOC.CONTROL](../../DOC-Q/DOC-CONTROL/README.md)).
+New documents are automatically set to "Draft" status. Other statuses can only be changed by a document controller (administrator security level in [DOC.CONTROL](../../DOC-CONTROL/README.md)).
   
 **T Curr Rev** This is the current revision of the document if it has been
 released. This is for view only.  
@@ -75,9 +75,9 @@ Editors are not allowed to sign off the document unless they are also added to
 the signoff list to the right. A user must be an editor to check out a
 document.  
   
-**Req Sign Type** Enter the signoff type. These must be defined in [DOC.CONTROL](../../DOC-Q/DOC-CONTROL/README.md).
+**Req Sign Type** Enter the signoff type. These must be defined in [DOC.CONTROL](../../DOC-CONTROL/README.md).
   
-**Req Sign User** Enter the signoff userid. This is optional. If entered, this userid will be allowed to sign off a pending revision. If not entered, then any user within the signoff type will be allowed to sign off a pending revision. The association of which users belong to which types is defined in [DOC.CONTROL](../../DOC-Q/DOC-CONTROL/README.md).
+**Req Sign User** Enter the signoff userid. This is optional. If entered, this userid will be allowed to sign off a pending revision. If not entered, then any user within the signoff type will be allowed to sign off a pending revision. The association of which users belong to which types is defined in [DOC.CONTROL](../../DOC-CONTROL/README.md).
   
 **Req Type Dependent** This is to control if there is a specific order in
 which the signoffs need to happen. The first in the list will have no entry

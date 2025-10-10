@@ -69,7 +69,7 @@ I - Inactive (no longer used).
 D - Delete (part flagged for deletion).  
 If this code is entered the part will  
 become a candidate for deletion by the  
-[ PARTS.P2 ](PARTS-P2/README.md) procedure.   
+[ PARTS.P2 ](../../../ENG-PROCESS/PARTS-P2/README.md) procedure.   
   
 **Type** Enter the code which defines the type of part defined in this record.
 Valid codes are...  
@@ -90,7 +90,7 @@ room, but are moved in bulk to work-in-
 process where they are consumed rather than  
 being pulled as part of the kitting list.  
   
-**UM** Enter the unit of measure used to account for this part in inventory. The valid codes are entered in the [ UM.CONTROL ](UM-CONTROL/README.md) procedure.   
+**UM** Enter the unit of measure used to account for this part in inventory. The valid codes are entered in the [ UM.CONTROL ](../../UM-CONTROL/README.md) procedure.   
   
 **Fractions** Check this box if fractional quantities of this part may be
 stored in inventory. If the box is not checked then inventory transactions
@@ -121,7 +121,7 @@ numbers.
 supersedes the main part number entered on the first tab. This box may only be
 checked for one part number in the list.  
   
-**Specs** This field may contain any user defined specifications which can be used to group this part number with other part numbers with similar specifications. You may limit the entries available to the user by specifying valid codes with the [ SPEC.CONTROL ](SPEC-CONTROL/README.md) procedure.   
+**Specs** This field may contain any user defined specifications which can be used to group this part number with other part numbers with similar specifications. You may limit the entries available to the user by specifying valid codes with the [ SPEC.CONTROL ](../../SPEC-CONTROL/README.md) procedure.   
   
 **Notes** Enter any notes applicable to the part number.  
   

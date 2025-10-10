@@ -37,7 +37,7 @@ requirements.
 **Quantity** The quantity that needs to ordered on the associated required
 date.  
 **Total** The total of all sugessted orders for the part number.  
-**Unit.Cost** The anticipated cost of the part number as defined in the [ POPRICE.E ](POPRICE-E/README.md) procedure.   
+**Unit.Cost** The anticipated cost of the part number as defined in the [ POPRICE.E ](../../../PUR-OVERVIEW/PUR-ENTRY/POPRICE-E/README.md) procedure.   
 **Extended Cost** The extension of the unit price and the total quantity
 required.  
   

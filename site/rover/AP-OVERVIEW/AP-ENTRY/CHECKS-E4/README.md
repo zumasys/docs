@@ -26,7 +26,7 @@ An existing check record cannot be changed. [ CHECKS.E ](../CHECKS-E/README.md) 
 As required to process refund checks.
 
 **Prerequisites**  
-Initialization of the Accounts Payable control record ( [ AP.CONTROL ](../AP-CONTROL/README.md) ), the Accounts Receivable control record ( [ AR.CONTROL ](AR-CONTROL/README.md) ) and entry of the customer record to be referenced. The credit memos to be closed must exist in the AR file. 
+Initialization of the Accounts Payable control record ( [ AP.CONTROL ](../AP-CONTROL/README.md) ), the Accounts Receivable control record ( [ AR.CONTROL ](../../../AR-OVERVIEW/AR-ENTRY/AR-CONTROL/README.md) ) and entry of the customer record to be referenced. The credit memos to be closed must exist in the AR file. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

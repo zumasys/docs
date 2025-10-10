@@ -12,7 +12,7 @@ The GLTRANS.P1 procedure is used to post all un-posted GLTRANS records. Unposted
 As required.
 
 **Prerequisites**  
-Setup of the [ GL.CONTROL ](../../GL-ENTRY/GL-CONTROL/README.md) record ( [ GL.CONTROL ](../../GL-ENTRY/GL-CONTROL/README.md) ) and the establishment of a fiscal year via the [ FY.E ](FY-E/README.md) procedure. All account numbers used must be present in the GLCHART file. 
+Setup of the [ GL.CONTROL ](../../GL-ENTRY/GL-CONTROL/README.md) record ( [ GL.CONTROL ](../../GL-ENTRY/GL-CONTROL/README.md) ) and the establishment of a fiscal year via the [ FY.E ](../../GL-ENTRY/FY-E/README.md) procedure. All account numbers used must be present in the GLCHART file. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

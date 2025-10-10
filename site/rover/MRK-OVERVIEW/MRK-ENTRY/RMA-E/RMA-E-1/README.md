@@ -25,7 +25,7 @@ all of the items are received you may enter the letter "C" in this field.
   
 **Status** Shows the current status of the RMA which may "Open" or "Closed".  
   
-**Pending Receipt** This box is checked if there is a pending receipt (not yet confirmed) for this RMA. A receipt is considered pending if the status on the receipt is set to "R" or �received�. When the status on the receipt is changed to "C" (for confirmed) via [ RMAREC.E2 ](RMAREC-E2/README.md) , this box will no longer appear as checked. This field is displayed for reference only and cannot be manually updated in this procedure.   
+**Pending Receipt** This box is checked if there is a pending receipt (not yet confirmed) for this RMA. A receipt is considered pending if the status on the receipt is set to "R" or �received�. When the status on the receipt is changed to "C" (for confirmed) via [ RMAREC.E2 ](../../RMAREC-E2/README.md) , this box will no longer appear as checked. This field is displayed for reference only and cannot be manually updated in this procedure.   
   
 **Date Assigned** Enter the date on which the RMA was assigned. The system
 will default the current date.  

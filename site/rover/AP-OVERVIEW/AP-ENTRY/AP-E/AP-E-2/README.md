@@ -34,7 +34,7 @@ Cost file when the receipt was posted.
 **Original Cost** This is the original actual cost. This cost reflects the
 actual cost as it originally appeared on the AP item, before any changes.  
   
-**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](INV-CONTROL/README.md) . The cost group is used to define the costing method for this AP item.   
+**Cost Group** Enter the cost group which will be validated against [ INV.CONTROL ](../../../../INV-OVERVIEW/INV-ENTRY/INV-CONTROL/README.md) . The cost group is used to define the costing method for this AP item.   
   
 **Project Id** If this AP line item is for a project, enter the project
 number. This will cause the costs associated with this AP line item to be

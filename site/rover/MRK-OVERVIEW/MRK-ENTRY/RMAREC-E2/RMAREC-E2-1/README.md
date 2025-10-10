@@ -33,7 +33,7 @@ an invoice, then the invoice number will display here.
 **Tax Amount** The amount of tax that will be applied to this a/r record. This
 amount is displayed for reference only and cannot be changed.  
   
-**Post To AR** Check this box if you wish to create an a/r record for this receipt. When the receipt is posted (via [ rmarec.p1 ](../../../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/rmarec-p1) ) the "post to a/r" field in [ RMA.E ](../../RMA-E/README.md) will be updated.   
+**Post To AR** Check this box if you wish to create an a/r record for this receipt. When the receipt is posted (via [ rmarec.p1 ](../../../MRK-PROCESS/RMAREC-P1/README.md) ) the "post to a/r" field in [ RMA.E ](../../RMA-E/README.md) will be updated.   
   
 **Invoice Amount** This field contains the total value of this receipt
 including freight, miscellaneous charges and tax.  

@@ -56,7 +56,7 @@ deposits to the ending bank statement.
 If this field does not reconcile to the general legder (i.e. the trial balance
 reports), you should do the following:  
 1\. Verify that all register records have been interfaced to the g/l .  
-2\. Verify that all journal entries have been posted to the g/l. You can run [ GLTRANS.R2 ](GLTRANS-R2/README.md) to view any un-posted transactions.   
+2\. Verify that all journal entries have been posted to the g/l. You can run [ GLTRANS.R2 ](../../../../GL-OVERVIEW/GL-REPORT/GLTRANS-R2/README.md) to view any un-posted transactions.   
 3\. Verify that no additional CASH or CHECK transactions have been made into
 the associated period but not referenced on this record. You can do this by
 selecting the LOAD NEW DEPOSITS and LOAD NEW CHECK options on the following

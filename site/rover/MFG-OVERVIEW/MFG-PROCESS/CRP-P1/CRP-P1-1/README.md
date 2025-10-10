@@ -37,7 +37,7 @@ destination and may not be available in all cases.
 function which may also be activated by clicking the save button in the tool
 bar or pressing the F9 key or Ctrl+S.  
   
-**Start Date** Enter the date to be used as the start date for the first period in the CRP horizon. The period sizes defined in the [ CRP.CONTROL ](CRP-CONTROL/README.md) record are offset from this date to determine the period start and end dates for the horizontal report.   
+**Start Date** Enter the date to be used as the start date for the first period in the CRP horizon. The period sizes defined in the [ CRP.CONTROL ](../../../MFG-ENTRY/CRP-CONTROL/README.md) record are offset from this date to determine the period start and end dates for the horizontal report.   
   
 **Include Wor Orders** Check this box if you want to include work orders in
 the CRP file.  

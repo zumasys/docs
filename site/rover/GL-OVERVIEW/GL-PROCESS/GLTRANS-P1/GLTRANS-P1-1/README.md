@@ -47,7 +47,7 @@ blank.
   
 If you only wish to post journals that were generated from the register files, enter REGISTER in this field. These journal entries are created via [ GLINT.P1 ](../../GLINT-P1/README.md) .   
   
-If you only wish to post miscellaneous/manual journals, enter GLTRANS in this field. These journal entries are created via [ GLTRANS.E ](../../../GL-ENTRY/GLTRANS-E/README.md) , [ GLRECUR.P1 ](GLRECUR-P1/README.md) and [ RECON.E ](../../../../AR-OVERVIEW/AR-ENTRY/RECON-E/README.md) .   
+If you only wish to post miscellaneous/manual journals, enter GLTRANS in this field. These journal entries are created via [ GLTRANS.E ](../../../GL-ENTRY/GLTRANS-E/README.md) , [ GLRECUR.P1 ](../../GLRECUR-P1/README.md) and [ RECON.E ](../../../../AR-OVERVIEW/AR-ENTRY/RECON-E/README.md) .   
   
 **Gltrans Id** If you only wish to post specified journal entries enter the
 numbers here.  

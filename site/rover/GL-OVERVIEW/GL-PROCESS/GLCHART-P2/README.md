@@ -6,7 +6,7 @@
 [ Form Details ](GLCHART-P2-1/README.md)   
 
 **Purpose**  
-The GLCHART.P2 procedure assigns the account group and subgroup from the information in the [ GL.CONTROL ](../../GL-ENTRY/GL-CONTROL/README.md) screen. This information is used to run the [ GLBAL.R4 ](GLBAL-R4/README.md) report.   
+The GLCHART.P2 procedure assigns the account group and subgroup from the information in the [ GL.CONTROL ](../../GL-ENTRY/GL-CONTROL/README.md) screen. This information is used to run the [ GLBAL.R4 ](../../GL-REPORT/GLBAL-R4/README.md) report.   
 
 **Frequency of Use**  
 As required.

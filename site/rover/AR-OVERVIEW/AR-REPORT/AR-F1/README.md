@@ -6,7 +6,7 @@
 [ Form Details ](AR-F1-1/README.md)   
 
 **Purpose**  
-The AR.F1 procedure is used to print / re-print invoices on pre- printed forms. Any AR item, whether it came from the shipments process, was entered through [ AR.E ](../../AR-ENTRY/AR-E/README.md) , or was created through [ ARR.P1 ](../../AR-PROCESS/ARR-P1/README.md) may be selected and printed. If invoices are printed using the [ SHIP.F1 ](SHIP-F1/README.md) procedure, then the AR.F1 process need only be run when a re-print of an invoice is required. 
+The AR.F1 procedure is used to print / re-print invoices on pre- printed forms. Any AR item, whether it came from the shipments process, was entered through [ AR.E ](../../AR-ENTRY/AR-E/README.md) , or was created through [ ARR.P1 ](../../AR-PROCESS/ARR-P1/README.md) may be selected and printed. If invoices are printed using the [ SHIP.F1 ](../../../MRK-OVERVIEW/MRK-REPORT/SHIP-F1/README.md) procedure, then the AR.F1 process need only be run when a re-print of an invoice is required. 
 
 **Frequency of Use**  
 As required.

@@ -16,7 +16,7 @@ These controls are used to configure the Rover Web POS customer selection page.
 
 **Customer Lookup** The Customer Lookup tab is used to replace the customer table with a lookup table in the POS main customer tab.
 
-> [Integrations](../../../../../../../../business-suite/integrations/pos/README.md#customer-lookup)
+> [Integrations](../../../../business-suite/integrations/pos/README.md#customer-lookup)
 
 **Filter Inactive Customers** Checking this box will filter inactive customers from the search results.
 
@@ -44,7 +44,7 @@ These controls are used to configure the Rover Web POS customer selection page.
 
 Checking this box will add the ability to add a deposit for a sales order.
 
-[Integrations](../../../../../../../../business-suite/integrations/pos/README.md#sales-order-cash-deposit)
+[Integrations](../../../../business-suite/integrations/pos/README.md#sales-order-cash-deposit)
 
 <badge text= "Version 1.7.19.0" vertical="middle" />
 

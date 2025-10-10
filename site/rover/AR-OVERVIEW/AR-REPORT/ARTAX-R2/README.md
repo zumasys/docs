@@ -30,7 +30,7 @@ the ARTAX file.
 **Date** The date on which the ARTAX record was created. This should normally be the same as the AR record date. It will only differ if records have been manually altered using [ ARTAX.E ](../../../../rover/AR-OVERVIEW/AR-ENTRY/ARTAX-E/README.md) .   
 **Amount** The amount of sales tax collected for the associated sales tax code
 and AR item.  
-**Post Date** The date which the [ ARTAX.P1 ](ARTAX-P1/README.md) procedure was run to flag ARTAX records as posted. This is important when you are allowing AR items to be posted into a prior period and you wish to know the exact sales tax figures of those postings.   
+**Post Date** The date which the [ ARTAX.P1 ](../../AR-PROCESS/ARTAX-P1/README.md) procedure was run to flag ARTAX records as posted. This is important when you are allowing AR items to be posted into a prior period and you wish to know the exact sales tax figures of those postings.   
   
 <badge text= "Version 8.10.57" vertical="middle" />
 

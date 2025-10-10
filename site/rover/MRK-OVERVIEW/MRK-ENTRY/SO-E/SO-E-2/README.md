@@ -61,7 +61,7 @@ If contract pricing or quantity pricing is used, then this field should be
 skipped, and the price will be calculated and stored after the schedule dates
 and total order quantity are entered.  
   
-**Price Per** Enter the price per factor to be used in conjunction with the unit price entered. For example, if the material being ordered is priced "per hundred", then 100 should be entered into this field. If this line item has a part number, the price per will default based on the part's unit of measure. The price per is entered for the unit of measure in the [ UM.CONTROL ](UM-CONTROL/README.md) procedure.   
+**Price Per** Enter the price per factor to be used in conjunction with the unit price entered. For example, if the material being ordered is priced "per hundred", then 100 should be entered into this field. If this line item has a part number, the price per will default based on the part's unit of measure. The price per is entered for the unit of measure in the [ UM.CONTROL ](../../../../ENG-OVERVIEW/ENG-ENTRY/UM-CONTROL/README.md) procedure.   
   
 **Discount%** Enter the discount percent to be applied to the unit price when
 shipments are invoiced.  
@@ -149,7 +149,7 @@ items on the first level bill of material for the line item part number.
 **Multi Level** Click this button to display the available balances of all
 items on all levels of the bill of material for the line item part number.  
   
-**Inv Inquiry** Click this button to launch the inventory inquiry procedure ( [ INV.Q ](INV-Q/README.md) ) for the line item part number.   
+**Inv Inquiry** Click this button to launch the inventory inquiry procedure ( [ INV.Q ](../../../../INV-OVERVIEW/INV-REPORT/INV-Q/README.md) ) for the line item part number.   
   
 **Avail To Prom** Click this button to view the available to promise for the
 part number.  

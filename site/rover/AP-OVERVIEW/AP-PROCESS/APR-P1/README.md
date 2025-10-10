@@ -18,7 +18,7 @@ Generally, this process is run on a nonthly basis. However, it may be run more
 frequently if required.
 
 **Prerequisites**  
-Recurring accounts payable records must have been created through the [ APR.E ](APR-E/README.md) procedure. 
+Recurring accounts payable records must have been created through the [ APR.E ](../../AP-ENTRY/APR-E/README.md) procedure. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

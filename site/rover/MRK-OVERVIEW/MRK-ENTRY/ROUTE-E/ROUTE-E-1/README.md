@@ -23,7 +23,7 @@ a bi-weekly interval would be 14 days. When routeship records are created in
 batch mode, this interval will be checked to see if this route is due to be
 scheduled.  
   
-**Last Load Date** This is the last load date that was associated with this route. This is updated when routeship records are created via [ ROUTESHIP.E ](../../ROUTESHIP-E/README.md) or [ ROUTESHIP.P1 ](ROUTESHIP-P1/README.md) . It can also be changed here to control when the next shipment delivery will be scheduled for this route. It is used in conjunction with the delivery interval period. If no delivery interval is specified, then it is just for information only.   
+**Last Load Date** This is the last load date that was associated with this route. This is updated when routeship records are created via [ ROUTESHIP.E ](../../ROUTESHIP-E/README.md) or [ ROUTESHIP.P1 ](../../../MRK-PROCESS/ROUTESHIP-P1/README.md) . It can also be changed here to control when the next shipment delivery will be scheduled for this route. It is used in conjunction with the delivery interval period. If no delivery interval is specified, then it is just for information only.   
   
 **Previous Load Date** This is the previous load date that was associated with
 this route. This is kept for information only in case the latest routeship

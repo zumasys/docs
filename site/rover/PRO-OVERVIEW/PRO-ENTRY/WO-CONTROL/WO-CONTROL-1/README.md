@@ -33,7 +33,7 @@ always set this field to 0.
   
 **Create Picker?** Check this box if a picker record is normally created.  
   
-**Allow Picker Updates** Check this box if updates to the part number and location fields are allowed in [ PICKER.E2 ](PICKER-E2/README.md) . If this box is not checked, you will need to use [ PICKER.E1 ](PICKER-E1/README.md) to make those changes.   
+**Allow Picker Updates** Check this box if updates to the part number and location fields are allowed in [ PICKER.E2 ](../../PICKER-E2/README.md) . If this box is not checked, you will need to use [ PICKER.E1 ](PICKER-E1/README.md) to make those changes.   
   
 **Prevent Excess Completions** Check this box if a work order cannot be
 completed for a quantity greater than what is was issued for. If this box is
@@ -70,7 +70,7 @@ the hours specified in the work order routing.
 **Backflush Employee** Enter the employee number to be used on labor
 transactions created when labor is backflushed.  
   
-**Backflush Labor Rate Type** Enter the labor rate type code (defined in [ LABOR.CONTROL ](LABOR-CONTROL/README.md) ) to be used when labor transactions are created by the labor backflush process.   
+**Backflush Labor Rate Type** Enter the labor rate type code (defined in [ LABOR.CONTROL ](../../LABOR-CONTROL/README.md) ) to be used when labor transactions are created by the labor backflush process.   
   
 **Backflush Labor Function** Enter the labor function to be used when labor
 records are created for backflushed labor.  

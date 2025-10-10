@@ -13,7 +13,7 @@ These are the release notes for version 2.5.0 (2/13/2025) of the Rover Web appli
 #### Point of Sale
 
 - Add ability to require signature when finalizing orders. Requires update to [MRK.CONTROL](../../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/MRK-CONTROL-6/README.md#pos-require-ship-signature).
-- Added support for automatic processing of __RMAs__ from the __Invoices__ tab. This must be enabled via `MRK.CONTROL` using the _"Enable RMA Refund"_ checkbox in the `RMA` tab. Automatic processing applies to any __Customers__ whose `TERMS.E` type has _"Auto-Process RMA"_ enabled. Requires update to [MRK.CONTROL](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL/MRK-CONTROL-2/README.md#enable-rma-refund).
+- Added support for automatic processing of __RMAs__ from the __Invoices__ tab. This must be enabled via `MRK.CONTROL` using the _"Enable RMA Refund"_ checkbox in the `RMA` tab. Automatic processing applies to any __Customers__ whose `TERMS.E` type has _"Auto-Process RMA"_ enabled. Requires update to [MRK.CONTROL](../../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/MRK-CONTROL-2/README.md#enable-rma-refund).
 ![POS RMA](./pos-rma.gif)
 
 #### Tickets and Time

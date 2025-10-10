@@ -19,7 +19,7 @@ The Executive file (EXEC) maintains one record for each date for which data is
 generated.
 
 **System Interface**  
-Data is retrieved from the Accounts Payable, Accounts Receivable, Inventory, General Ledger, Marketing and Purchasing modules. The normal flow of activities in those modules generates data which is used by the [EXEC.P1](EXEC-REPORT/EXEC-Q/EXEC-P1/README.md) procedure.
+Data is retrieved from the Accounts Payable, Accounts Receivable, Inventory, General Ledger, Marketing and Purchasing modules. The normal flow of activities in those modules generates data which is used by the [EXEC.P1](EXEC-PROCESS/EXEC-P1/README.md) procedure.
 
 **User Interface**  
 The user interface to the module consists of a data entry procedure to enter

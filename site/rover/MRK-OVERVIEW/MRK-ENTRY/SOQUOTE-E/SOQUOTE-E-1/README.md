@@ -21,7 +21,7 @@ automatically be inserted into this procedure for you.
   
 **Date** Enter the date on which the prices are being quoted.  
   
-**Valid Thru** The date through which this quote is valid. This date is originally defaulted as the quote date plus the number of days identified in the [ QUOTE.CONTROL ](QUOTE-CONTROL/README.md) record.   
+**Valid Thru** The date through which this quote is valid. This date is originally defaulted as the quote date plus the number of days identified in the [ QUOTE.CONTROL ](../../QUOTE-CONTROL/README.md) record.   
   
 **Status** The current status of this quote. This is a user defined field and
 is associated with the status date. An empty status field is assumed to be an
@@ -75,7 +75,7 @@ customer.
 **Reason Code** Enter any user defined reason code for this quotation. For
 example, this can be used as a reason code for losing the quote.  
   
-**Cost Method** This field will control how line item prices will be derived. It originally defaults from the [ QUOTE.CONTROL ](QUOTE-CONTROL/README.md) screen and can be changed per quote as required.   
+**Cost Method** This field will control how line item prices will be derived. It originally defaults from the [ QUOTE.CONTROL ](../../QUOTE-CONTROL/README.md) screen and can be changed per quote as required.   
   
 **Rep** The sales rep who is responsible for this quote.  
   

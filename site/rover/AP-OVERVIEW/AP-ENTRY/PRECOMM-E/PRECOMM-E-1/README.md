@@ -27,7 +27,7 @@ be changed. NOTE: More than 1 check may have been issued to this rep.
 **Rep** This field displays the rep id for this precheck record. This field is
 displayed for reference only and cannot be changed.  
   
-**Rep Name** This field displays the name of the associate rep as it is defined in [ REP.E ](REP-E/README.md) .   
+**Rep Name** This field displays the name of the associate rep as it is defined in [ REP.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/REP-E/README.md) .   
   
 **COMM.ID** This field displays the commission ids that have been selected for
 payment against this precheck record. You may delete a commission id by using

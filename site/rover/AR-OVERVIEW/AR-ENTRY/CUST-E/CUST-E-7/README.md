@@ -14,9 +14,9 @@ for display purposes only.
 **Rebate Type** Enter the type of rebate that will be offered to this
 customer.  
   
-**Rebate Description** Displays the description that has been entered for this rebate in the [ REBATE.CONTROL ](REBATE-CONTROL/README.md) procedure. The description is displayed here for reference only and cannot be changed. If the frequency of this rebate is "INVOICE" this description will print on the a/r invoice.   
+**Rebate Description** Displays the description that has been entered for this rebate in the [ REBATE.CONTROL ](../../../../MRK-OVERVIEW/MRK-ENTRY/REBATE-CONTROL/README.md) procedure. The description is displayed here for reference only and cannot be changed. If the frequency of this rebate is "INVOICE" this description will print on the a/r invoice.   
   
-**Rebate Acct** Enter the account number, the rebate dollars should be applied to. If you wish to use the account numbers entered in [ REBATE.CONTROL ](REBATE-CONTROL/README.md) leave this field blank.   
+**Rebate Acct** Enter the account number, the rebate dollars should be applied to. If you wish to use the account numbers entered in [ REBATE.CONTROL ](../../../../MRK-OVERVIEW/MRK-ENTRY/REBATE-CONTROL/README.md) leave this field blank.   
   
 **Rebate Pct** Enter the percentage of the invoice that will be given as a
 rebate. For example, if the invoice if for $100.00 and the rebate percentage

@@ -32,11 +32,11 @@ module.
 their component demand rescheduled if the order needs to be expedited. Leave
 blank to not reschedule.  
   
-**MRP/MPS Running** If [ MRP.P1 ](MRP-P1/README.md) or [ MPS.P1 ](MPS-P1/README.md) is currently being run this box will be checked. After completion this will be blank. If the process is aborted, then this field will need to be cleared before rerunning. This is to prevent [ MRP.P1 ](MRP-P1/README.md) and [ MPS.P1 ](MPS-P1/README.md) from being run concurrently.   
+**MRP/MPS Running** If [ MRP.P1 ](../../../MFG-PROCESS/MRP-P1/README.md) or [ MPS.P1 ](../../../MFG-PROCESS/MPS-P1/README.md) is currently being run this box will be checked. After completion this will be blank. If the process is aborted, then this field will need to be cleared before rerunning. This is to prevent [ MRP.P1 ](../../../MFG-PROCESS/MRP-P1/README.md) and [ MPS.P1 ](../../../MFG-PROCESS/MPS-P1/README.md) from being run concurrently.   
   
-**Last Update Date** This is the date MRP was last updated ( [ MRP.P1 ](MRP-P1/README.md) was last run) for this plan group.   
+**Last Update Date** This is the date MRP was last updated ( [ MRP.P1 ](../../../MFG-PROCESS/MRP-P1/README.md) was last run) for this plan group.   
   
-**Last Update time** This is the time MRP was last updated ( [ MRP.P1 ](MRP-P1/README.md) was last run) for this plan group.   
+**Last Update time** This is the time MRP was last updated ( [ MRP.P1 ](../../../MFG-PROCESS/MRP-P1/README.md) was last run) for this plan group.   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

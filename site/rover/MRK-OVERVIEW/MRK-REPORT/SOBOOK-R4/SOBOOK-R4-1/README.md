@@ -48,7 +48,7 @@ enter the rep numbers in this field. To include all rep numbers leave the
 field blank. If you do not know the rep number, there is an option in the help
 menu for this prompt which allows you to select the rep by name.  
   
-**Rep Name** Contains the name of the rep as defined in [ rep.e ](rep-e/README.md) . It is displayed for reference only and cannot be changed.   
+**Rep Name** Contains the name of the rep as defined in [ rep.e ](../../../MRK-ENTRY/REP-E/README.md) . It is displayed for reference only and cannot be changed.   
   
 **Co Code** Enter the company codes you wish to appear on this report. If left
 blank all company codes will be included.  

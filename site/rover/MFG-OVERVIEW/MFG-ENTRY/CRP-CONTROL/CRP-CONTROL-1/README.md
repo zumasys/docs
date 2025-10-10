@@ -22,9 +22,9 @@ to reset the capacity files.
   
 **Update On-Line** Check this box if capacity is to be updated on-line as work orders are added or changed. If you choose not to update on-line then the capacity files can be regenerated on an appropriate basis by the [ CRP.P1 ](../../../MFG-PROCESS/CRP-P1/README.md) process. The online update adds demand as it created or checged through work orders. It does not decrease demand based on shop activity therefore it is recommended that the [ CRP.P1 ](../../../MFG-PROCESS/CRP-P1/README.md) regeneration process be run nightly.   
   
-**Inquiry Period** Select the default entry to be used for the period setting in the Capacity Requirement Planning Inquiry ( [ CRP.Q ](CRP-Q/README.md) ). If not set "Day" will be used.   
+**Inquiry Period** Select the default entry to be used for the period setting in the Capacity Requirement Planning Inquiry ( [ CRP.Q ](../../../MFG-REPORT/CRP-Q/README.md) ). If not set "Day" will be used.   
   
-**Inquiry Horizon** Enter the default entry to be used as the number of periods to display in the Capacity Requirements Planning Inquiry ( [ CRP.Q ](CRP-Q/README.md) ). If no entry is made 13 will be used as the default.   
+**Inquiry Horizon** Enter the default entry to be used as the number of periods to display in the Capacity Requirements Planning Inquiry ( [ CRP.Q ](../../../MFG-REPORT/CRP-Q/README.md) ). If no entry is made 13 will be used as the default.   
   
 **Period Size** Enter the number of days to be used as the length of each
 period on the CRP horizontal report. For example, to get weekly buckets you

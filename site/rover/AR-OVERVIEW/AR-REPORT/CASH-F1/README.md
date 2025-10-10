@@ -16,16 +16,16 @@ cash record ID.
 As required.
 
 **Prerequisites**  
-Entry of the bank name and number in the accounting control procedure ( [ ACCT.CONTROL ](../../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) ). If this data has not been entered in [ acct.control ](acct-control/README.md) , it will have to be manually entered on the deposit slip form. A deposit.id must be entered on cash transactions created via [ cash.e ](cash-e/README.md) and [ cash.e3 ](cash-e3/README.md) . 
+Entry of the bank name and number in the accounting control procedure ( [ ACCT.CONTROL ](../../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) ). If this data has not been entered in [ acct.control ](../../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) , it will have to be manually entered on the deposit slip form. A deposit.id must be entered on cash transactions created via [ cash.e ](../../AR-ENTRY/CASH-E/README.md) and [ cash.e3 ](../../AR-ENTRY/CASH-E3/README.md) . 
 
 **Data Fields**
 
 **Company Name** The name of the company as defined in the co.control
 procedure.  
-**Bank Name** The name of the bank as entered in [ acct.control ](acct-control/README.md) .   
-**Bank Account** The bank account as defined in [ acct.control ](acct-control/README.md) .   
-**Deposit Slip Id** The deposit slip id as entered in [ cash.e ](cash-e/README.md) or [ cash.e3 ](cash-e3/README.md) .   
-**Bank No** The customer's bank id/number as entered in [ cash.e ](cash-e/README.md) or [ cash.e3 ](cash-e3/README.md) .   
+**Bank Name** The name of the bank as entered in [ acct.control ](../../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) .   
+**Bank Account** The bank account as defined in [ acct.control ](../../../AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/README.md) .   
+**Deposit Slip Id** The deposit slip id as entered in [ cash.e ](../../AR-ENTRY/CASH-E/README.md) or [ cash.e3 ](../../AR-ENTRY/CASH-E3/README.md) .   
+**Bank No** The customer's bank id/number as entered in [ cash.e ](../../AR-ENTRY/CASH-E/README.md) or [ cash.e3 ](../../AR-ENTRY/CASH-E3/README.md) .   
 **Check Amount** The amount of the check.  
 **Cash Number** The id number assigned by the system to the cash transaction
 record. The following two fields plus this one will only print on the report

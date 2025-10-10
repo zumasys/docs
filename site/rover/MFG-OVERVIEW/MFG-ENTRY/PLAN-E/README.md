@@ -20,7 +20,7 @@ The planner will not be able to create purchase orders for parts on "buy hold" o
 As required.
 
 **Prerequisites**  
-The [ MRP.P1 ](MRP-P1/README.md) procedure must be run if planned orders are to be released. 
+The [ MRP.P1 ](../../MFG-PROCESS/MRP-P1/README.md) procedure must be run if planned orders are to be released. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

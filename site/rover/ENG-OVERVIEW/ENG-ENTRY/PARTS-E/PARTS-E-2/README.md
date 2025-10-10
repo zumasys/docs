@@ -20,18 +20,18 @@ of measure to convert to stock units of measure in the purchase order
 procedures. For example, if you were buying eggs from the vendor in dozens,
 but stocked eggs as individual units, you would enter 12 into this field.  
   
-**Low Level** The low level code indicates the lowest level in the product structure that this part is used. It is set by the [ PARTS.P4 ](PARTS-P4/README.md) procedure and is shown here for reference only.   
+**Low Level** The low level code indicates the lowest level in the product structure that this part is used. It is set by the [ PARTS.P4 ](../../../ENG-PROCESS/PARTS-P4/README.md) procedure and is shown here for reference only.   
   
 **Picklist Labels** Check this box if the part is to have labels printed when
 it appears on a work order picklist.  
   
 **Create WO** If you wish to have the sales order entry process ( [ SO.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/SO-E/README.md) ) create work orders automatically for this part, check this box. You must also make sure the [ MRK.CONTROL ](../../../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/README.md) flag which controls the work order creation option is set to "P".   
   
-**Bom U/M** This is the bill of material unit of measure which will be displayed in [ BOM.E ](BOM-E/README.md) . The quantity entered for this part in [ BOM.E ](BOM-E/README.md) will be in the BOM U/M.   
+**Bom U/M** This is the bill of material unit of measure which will be displayed in [ BOM.E ](../../BOM-E/README.md) . The quantity entered for this part in [ BOM.E ](../../BOM-E/README.md) will be in the BOM U/M.   
   
-**Bom UM Factor** Enter the factor to be used in conjunction with the Bill of Material unit of measure to convert to stock units of measure in [ BOM.E ](BOM-E/README.md) . For example, if you were stocking this part in feet, but wanted to define the quantity to be used per next assembly in inches, then you would enter 12 in this field.   
+**Bom UM Factor** Enter the factor to be used in conjunction with the Bill of Material unit of measure to convert to stock units of measure in [ BOM.E ](../../BOM-E/README.md) . For example, if you were stocking this part in feet, but wanted to define the quantity to be used per next assembly in inches, then you would enter 12 in this field.   
   
-If any bills of material have already been built using a previous factor, then the [ BOM.P4 ](BOM-P4/README.md) procedure must be run to update all necessary BOM records.   
+If any bills of material have already been built using a previous factor, then the [ BOM.P4 ](../../../ENG-PROCESS/BOM-P4/README.md) procedure must be run to update all necessary BOM records.   
   
 **ABC Code** Enter the ABC class code for this part. Options are...  
 A - High cost, long lead time or single source.  
@@ -39,12 +39,12 @@ A - High cost, long lead time or single source.
 B - Moderate cost, lead time and multiple  
 sources.  
 C - Low cost and/or short lead time.  
-(Not a critical part) The ABC code may be set automatically by the ABC stratification procedure ( [ PARTS.P1 ](PARTS-P1/README.md) ) if desired.   
+(Not a critical part) The ABC code may be set automatically by the ABC stratification procedure ( [ PARTS.P1 ](../../../ENG-PROCESS/PARTS-P1/README.md) ) if desired.   
   
 **Serial Rqd** Check this box if a serial number must be designated when the
 part is sold.  
   
-**No Cat Disc** Check this box if this part should not receive it's normal category discount found in [ CAT.CONTROL ](CAT-CONTROL/README.md) when sales occur in [ PSO.E ](PSO-E/README.md) .   
+**No Cat Disc** Check this box if this part should not receive it's normal category discount found in [ CAT.CONTROL ](../../CAT-CONTROL/README.md) when sales occur in [ PSO.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/PSO-E/README.md) .   
   
 **Taxable** Check this box if the part is to be shown as taxable on a sales
 order or POS order.  

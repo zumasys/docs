@@ -55,7 +55,7 @@ then enter the rep numbers in this field. To include all rep numbers leave the
 field blank. If you do not know the rep number, there is an option in the help
 menu for the prompt which allows you to select the rep by name.  
   
-**Rep Name** Contains the name of the rep as defined in [ rep.e ](rep-e/README.md) . It is displayed for reference only and cannot be changed.   
+**Rep Name** Contains the name of the rep as defined in [ rep.e ](../../../MRK-ENTRY/REP-E/README.md) . It is displayed for reference only and cannot be changed.   
   
 **Customer** If you only wish to run this report for specific customers, enter
 the customer numbers in this field.  

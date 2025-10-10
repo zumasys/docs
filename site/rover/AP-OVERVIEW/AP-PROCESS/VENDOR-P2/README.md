@@ -23,7 +23,7 @@ month.
   
 The procedure selects all of the Receipts and DMR records which occured during the month specified and determines the early/late days for each receipt to calculate delivery performance. The quality performance is determined using the DMR records and the weightings for each are specified in [ DMR.CONTROL ](../../../PUR-OVERVIEW/PUR-ENTRY/DMR-CONTROL/README.md) .   
   
-Multiple months of statistics are kept and can be reported using [ VENDOR.R2 ](VENDOR-R2/README.md) or [ VENDOR.R3 ](VENDOR-R3/README.md) or viewed on [ VENDOR.Q ](../../AP-REPORT/VENDOR-Q/README.md) . All months currently maintained which are in excess of the number of months defined in the [ DMR.CONTROL ](../../../PUR-OVERVIEW/PUR-ENTRY/DMR-CONTROL/README.md) record will be dropped. 
+Multiple months of statistics are kept and can be reported using [ VENDOR.R2 ](../../AP-REPORT/VENDOR-R2/README.md) or [ VENDOR.R3 ](../../AP-REPORT/VENDOR-R3/README.md) or viewed on [ VENDOR.Q ](../../AP-REPORT/VENDOR-Q/README.md) . All months currently maintained which are in excess of the number of months defined in the [ DMR.CONTROL ](../../../PUR-OVERVIEW/PUR-ENTRY/DMR-CONTROL/README.md) record will be dropped. 
 
 **Frequency of Use**  
 This procedure should be run at the end of each month after all receipts and

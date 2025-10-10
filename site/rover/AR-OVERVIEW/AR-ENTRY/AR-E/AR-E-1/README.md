@@ -47,7 +47,7 @@ for the aging report.
   
 **Register Date** Enter the date that the AR Register should be updated for this transaction. This will determine when interface to the G/L will occur. In [ AR.CONTROL ](../../AR-CONTROL/README.md) , there is an option to load in the invoice date as the register date. If this option is not selected, the current date will be loaded into this field for you.   
   
-If this date is changed on an existing record, the date on the existing ARREG records will not be changed. Use [ AR.E2 ](AR-E2/README.md) to change the existing register dates for this invoice. This date will be used on any new ARREG records that are created to reflect an amount or account number change.   
+If this date is changed on an existing record, the date on the existing ARREG records will not be changed. Use [ AR.E2 ](../../AR-E2/README.md) to change the existing register dates for this invoice. This date will be used on any new ARREG records that are created to reflect an amount or account number change.   
   
 **Invoice Amt** The total invoice amount due from the customer. This is before
 discounts, and inclusive of items such as freight, miscellaneous charges and
@@ -130,7 +130,7 @@ description.
   
 **Cash#** The ID of the cash transaction which posted the application amount.  
   
-**Checks** The list of checks, or other miscellaneous applications made through the [ CASH.E ](CASH-E/README.md) procedure. These items are for display only and cannot be changed.   
+**Checks** The list of checks, or other miscellaneous applications made through the [ CASH.E ](../../CASH-E/README.md) procedure. These items are for display only and cannot be changed.   
   
 **Dates** The post dates of the checks.  
   
@@ -142,7 +142,7 @@ tax codes. This field may not be updated directly.
 **Tax Rate** The tax rate used for this customer. This is calculated as the
 total of the sales tax code percentages.  
   
-**Get Tax Rate** Click this button to load the current tax rates for the shipping address specified. This operation is performed only if a service provider has been specified in [ STAX.CONTROL ](STAX-CONTROL/README.md) .   
+**Get Tax Rate** Click this button to load the current tax rates for the shipping address specified. This operation is performed only if a service provider has been specified in [ STAX.CONTROL ](../../STAX-CONTROL/README.md) .   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

@@ -11,7 +11,7 @@ files for posted checks. This procedure is used to correct the check numbers
 when a error occurred during the printing process and was not detected until
 after the check run was posted.  
   
-This procedure should be used with caution. When a check is deleted/voided via [ checks.e ](checks-e/README.md) or [ checks.e2 ](checks-e2/README.md) , reversing entries are made in the apreg, ap and/or check files to reflect this transaction. Checks.p4, however, does not create these reversing transactions. Instead it changes the check numbers posted to the ap, apreg and checks files. A date stamp is posted to the new check number in the checks file to indicate that the check was created/updated via this procedure.   
+This procedure should be used with caution. When a check is deleted/voided via [ checks.e ](../../AP-ENTRY/CHECKS-E/README.md) or [ checks.e2 ](../../AP-ENTRY/CHECKS-E2/README.md) , reversing entries are made in the apreg, ap and/or check files to reflect this transaction. Checks.p4, however, does not create these reversing transactions. Instead it changes the check numbers posted to the ap, apreg and checks files. A date stamp is posted to the new check number in the checks file to indicate that the check was created/updated via this procedure.   
 
 **Frequency of Use**  
 As required.

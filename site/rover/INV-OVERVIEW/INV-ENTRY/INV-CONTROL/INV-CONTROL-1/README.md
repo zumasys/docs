@@ -34,15 +34,15 @@ different cost for the part. This account will be used to capture the
 difference. This account may also be used when reversing work order
 completions at a different cost than the one the work order was completed at.  
   
-**Manual Adjust Account** Enter the general ledger account number to be used as the offset account for manual average cost adjustments entered in the [ COSTADJ.E ](COSTADJ-E/README.md) procedure.   
+**Manual Adjust Account** Enter the general ledger account number to be used as the offset account for manual average cost adjustments entered in the [ COSTADJ.E ](../../COSTADJ-E/README.md) procedure.   
   
-**Rollover Adjust Account** Enter the general ledger account number to be used as the offset account for cost adjustments made by the cost rollover procedure ( [ COST.P2 ](COST-P2/README.md) ) or the cost rollup procedure ( [ COST.P1 ](COST-P1/README.md) ).   
+**Rollover Adjust Account** Enter the general ledger account number to be used as the offset account for cost adjustments made by the cost rollover procedure ( [ COST.P2 ](../../../../ENG-OVERVIEW/ENG-PROCESS/COST-P2/README.md) ) or the cost rollup procedure ( [ COST.P1 ](../../../../ENG-OVERVIEW/ENG-PROCESS/COST-P1/README.md) ).   
   
-**Trans History Days** Enter the number of days of history to be kept on the Inventory file for viewing on [ INV.Q ](INV-Q/README.md) . All history will still be maintained on the Inventory Transaction file and can still be viewed via the IT.R series reports. Please note that [ INV.P2 ](INV-P2/README.md) will need to be run after making a change in this field.   
+**Trans History Days** Enter the number of days of history to be kept on the Inventory file for viewing on [ INV.Q ](../../../INV-REPORT/INV-Q/README.md) . All history will still be maintained on the Inventory Transaction file and can still be viewed via the IT.R series reports. Please note that [ INV.P2 ](../../../INV-PROCESS/INV-P2/README.md) will need to be run after making a change in this field.   
   
-**Conversion Location** Enter an adjustment location to be used in [ IT.E4 ](IT-E4/README.md) for inventory conversion. This will be a pass-through location for the parts being consumed and the parts being created to be moved into and out of.   
+**Conversion Location** Enter an adjustment location to be used in [ IT.E4 ](../../IT-E4/README.md) for inventory conversion. This will be a pass-through location for the parts being consumed and the parts being created to be moved into and out of.   
   
-**Months of Usage** Enter the number of months of usage to maintain in the Usage file. During the [ USAGE.P1 ](USAGE-P1/README.md) process, all months in excess of this number will be dropped. If this field is left blank, 12 months are maintained.   
+**Months of Usage** Enter the number of months of usage to maintain in the Usage file. During the [ USAGE.P1 ](../../../INV-PROCESS/USAGE-P1/README.md) process, all months in excess of this number will be dropped. If this field is left blank, 12 months are maintained.   
   
 **Average Months** This field defines the number of months of usage to be used
 in calculating the average monthly usage used in various areas of the system.
@@ -58,7 +58,7 @@ included in the physical inventory for the assoociated plan group.
 **Physical adjust location** Enter the INVLOC to be used by the Physical
 Inventory process for quantity adjustments.  
   
-**Physical Date** This is the date a physical inventory was started by executing the [ PHYS.P1 ](PHYS-P1/README.md) process. Removal of this date means that you are cancelling a physical after tags have been generated. Make sure this is really what you want to do. When the tag posting process runs, this date will be removed automatically.   
+**Physical Date** This is the date a physical inventory was started by executing the [ PHYS.P1 ](../../../INV-PROCESS/PHYS-P1/README.md) process. Removal of this date means that you are cancelling a physical after tags have been generated. Make sure this is really what you want to do. When the tag posting process runs, this date will be removed automatically.   
   
 **Invloc** Enter the inventory locations which are to have parts stratified.  
   
@@ -77,7 +77,7 @@ in a cycle count for this location.
 **Adjust Loc** Enter the INVLOC to be used by the Cycle count process for
 quantity adjustments.  
   
-**Cycle Count in Process** If [ CYCLE.P1 ](CYCLE-P1/README.md) is currently being run this box will be checked. After completion this will be blank. If the process is aborted, then this field will need to be cleared before rerunning. This is to prevent [ CYCLE.P1 ](CYCLE-P1/README.md) from being run concurrently.   
+**Cycle Count in Process** If [ CYCLE.P1 ](../../../INV-PROCESS/CYCLE-P1/README.md) is currently being run this box will be checked. After completion this will be blank. If the process is aborted, then this field will need to be cleared before rerunning. This is to prevent [ CYCLE.P1 ](../../../INV-PROCESS/CYCLE-P1/README.md) from being run concurrently.   
   
 **Account Name** Enter the name of the account that will be sending inventory
 to or receiving inventory from the current account.  

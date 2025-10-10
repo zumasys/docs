@@ -55,7 +55,7 @@ checking account this customer will issue checks from.
   
 **Discount Pct** The default discount percent.  
   
-**Code** The user defined code for this customer. This code is used for product pricing structures defined in [ PRICE.E ](PRICE-E/README.md) .   
+**Code** The user defined code for this customer. This code is used for product pricing structures defined in [ PRICE.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/PRICE-E/README.md) .   
   
 **Resale#** The customers resale number.  
   

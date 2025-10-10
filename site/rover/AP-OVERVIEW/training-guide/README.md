@@ -84,7 +84,7 @@ The Accounts Payable module provides complete functionality for managing vendor 
 
 ## Setup Procedures
 
-### Chart of Accounts Setup ([`GLCHART.E`](../AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/README.md))
+### Chart of Accounts Setup ([`GLCHART.E`](../../GL-OVERVIEW/GL-ENTRY/GLCHART-E/README.md))
 
 Before using the Accounts Payable module, you must define all General Ledger account numbers that will be used for AP transactions. This includes:
 
@@ -118,7 +118,7 @@ Configure aging and reporting parameters:
 
 *Note: Data is processed dynamically rather than stored in bucketed format, providing real-time aging accuracy.*
 
-### AP Controls and Defaults ([`AP.CONTROL`](../AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/README.md))
+### AP Controls and Defaults ([`AP.CONTROL`](../AP-ENTRY/AP-CONTROL/README.md))
 
 Establish default information for the AP module:
 
@@ -152,7 +152,7 @@ The vendor master file contains essential information for each supplier:
 - Sales tax settings
 - Currency information (if applicable)
 
-### Recurring Payments Setup ([`APR.E`](../AP-PROCESS/APR-P1/APR-E/README.md))
+### Recurring Payments Setup ([`APR.E`](../AP-ENTRY/APR-E/README.md))
 
 For regular expenses like rent, utilities, or service contracts:
 
@@ -221,7 +221,7 @@ Modify register dates for specific business requirements:
 
 *Use this function carefully as it affects financial reporting accuracy.*
 
-### Hand Check Entry ([`CHECKS.E`](../AP-ENTRY/AP-E/CHECKS-E/README.md))
+### Hand Check Entry ([`CHECKS.E`](../AP-ENTRY/CHECKS-E/README.md))
 
 Enter manually written checks for various purposes:
 
@@ -255,7 +255,7 @@ Manage problematic payments:
 - Prevent duplicate payments
 - Track bank fees and adjustments
 
-### Create AP from Receipts ([`RECEIPTS.P1`](../AP-REPORT/APREG-R1/RECEIPTS-P1/README.md))
+### Create AP from Receipts ([`RECEIPTS.P1`](../../PUR-OVERVIEW/PUR-PROCESS/RECEIPTS-P1/README.md))
 
 Automatically generate AP accrual records from purchase order receipts:
 
@@ -282,7 +282,7 @@ Use aging and due date reports to make payment decisions:
 - Sorts by due date and vendor
 - Shows available discounts
 
-### Create Check Run ([`AP.P1`](../AP-REPORT/CHECKS-F5/AP-P1/README.md))
+### Create Check Run ([`AP.P1`](../AP-PROCESS/AP-P1/README.md))
 
 Load selected AP items into the Prechecks work file using three methods:
 
@@ -341,7 +341,7 @@ Complete the payment process:
 
 ## Commission Check Processing
 
-### Determine Eligible Commissions ([`COMM.R4`](../AP-REPORT/CHECKS-F4/CHECKS-P3/COMM-P3/COMM-R4/README.md))
+### Determine Eligible Commissions ([`COMM.R4`](../AP-REPORT/COMM-R4/README.md))
 
 Review commission records ready for payment:
 
@@ -350,7 +350,7 @@ Review commission records ready for payment:
 - Identifies commission periods
 - Displays salesperson information
 
-### Create Commission Run ([`COMM.P3`](../AP-REPORT/CHECKS-F4/CHECKS-P3/COMM-P3/README.md))
+### Create Commission Run ([`COMM.P3`](../AP-PROCESS/COMM-P3/README.md))
 
 Generate Precomm records for processing:
 
@@ -380,7 +380,7 @@ Remove commission items from payment queue:
 - Professional commission checks
 - Custom commission layouts
 
-### Post Commission Checks ([`CHECKS.P3`](../AP-REPORT/CHECKS-F4/CHECKS-P3/README.md))
+### Post Commission Checks ([`CHECKS.P3`](../AP-PROCESS/CHECKS-P3/README.md))
 
 Complete commission payment processing:
 
@@ -409,7 +409,7 @@ Maintain vendor banking details:
 - **Account Type** - Checking or savings
 - **ACH Email** - Electronic notification address
 
-### Select ACH Items ([`AP.P1`](../AP-REPORT/CHECKS-F5/AP-P1/README.md))
+### Select ACH Items ([`AP.P1`](../AP-PROCESS/AP-P1/README.md))
 
 Restrict payment selection to ACH-eligible vendors:
 
@@ -463,7 +463,7 @@ Summarize invoice General Ledger distribution:
 - Supports GL reconciliation
 - Assists in budgeting analysis
 
-### Accrual Report ([`AP.R9`](../AP-REPORT/AP-R1/AP-R9/README.md))
+### Accrual Report ([`AP.R9`](../AP-REPORT/AP-R9/README.md))
 
 List uninvoiced AP items as of cutoff date:
 
@@ -488,7 +488,7 @@ Review detailed register activity:
 - Selected vendors
 - Particular transaction types
 
-### Bank Reconciliation ([`RECON.E`](../AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E/CASH-E-1/RECON-E/README.md))
+### Bank Reconciliation ([`RECON.E`](../../AR-OVERVIEW/AR-ENTRY/RECON-E/README.md))
 
 The bank reconciliation procedure is used to enter cleared amounts and dates for checks and deposits after they have been processed by the bank:
 
@@ -512,7 +512,7 @@ The bank reconciliation procedure is used to enter cleared amounts and dates for
 - Reconciliation record can be reopened using existing Recon ID
 - Bank reconciliation listing available via [`RECON.R1`](../../GL-OVERVIEW/GL-REPORT/RECON-R1/README.md) report
 
-### General Ledger Interface ([`GLINT.P1`](../AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GL-CONTROL/GL-CONTROL-1/GLINT-P1/README.md))
+### General Ledger Interface ([`GLINT.P1`](../../GL-OVERVIEW/GL-PROCESS/GLINT-P1/README.md))
 
 Transfer AP activity to General Ledger:
 
@@ -523,7 +523,7 @@ Transfer AP activity to General Ledger:
 
 ## Year-End 1099 Processing
 
-### Generate 1099 Data ([`AP1099.P1`](../AP-REPORT/AP1099-R1/AP1099-P1/README.md))
+### Generate 1099 Data ([`AP1099.P1`](../AP-PROCESS/AP1099-P1/README.md))
 
 Compile data for 1099 reporting:
 

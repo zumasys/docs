@@ -45,7 +45,7 @@ horizontal report.
 **Usa Planning Bills** Check this box if you want the MPS to be processed at
 multiple levels based upon the planning bill definitions or leave it unchecked
 to ignore the planning bills and process at a single level.  
-Warning! If you ran the [ PB.P1 ](PB-P1/README.md) procedure to create sales forecast records and you used the explode option, you should not answer yes to this prompt because the forecast for the component items may be overstated (i.e. both a sales forecast and production forecast will be present).   
+Warning! If you ran the [ PB.P1 ](../../PB-P1/README.md) procedure to create sales forecast records and you used the explode option, you should not answer yes to this prompt because the forecast for the component items may be overstated (i.e. both a sales forecast and production forecast will be present).   
   
 **Pass Requirements to MRP** The response to this prompt determines if the component demand from the master schedule is to be loaded into the MPS output file (MPSO) which may then be used by the MRP generation process [ MRP.P1 ](../../MRP-P1/README.md) . This option allows you to run the MPS without affecting the prior MPS output if desired. You might want to do this if you are attempting to resolve issues at the MPS level, but are not ready to commit any changes made to the MRP.   
   

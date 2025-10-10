@@ -37,15 +37,15 @@ same as the a/r trade account number.
   
 **Sales Acct#** This field can be used to default an account number into the [ AR.E ](../../AR-E/README.md) line item Distribution account field, after a Distribution amount has been entered. This should be used when the account number is most often the same, thus saving data entry keystrokes.   
   
-**Cash Acct#** This field can be used to default an account number into the Cash Account field in [ CASH.E ](CASH-E/README.md) .   
+**Cash Acct#** This field can be used to default an account number into the Cash Account field in [ CASH.E ](../../CASH-E/README.md) .   
   
 **Sales Tax Acct** Enter the account number to be used for collection of sales
 tax. This field is used if sales tax has been charged and no valid account
 number was found in the STAX record.  
   
-**Transfer Clearing Acct** This field can be used to default an account number into the Clearing Account field in [ CASH.E5 ](CASH-E5/README.md) .   
+**Transfer Clearing Acct** This field can be used to default an account number into the Clearing Account field in [ CASH.E5 ](../../CASH-E5/README.md) .   
   
-**Write Off Acct** Enter the account number which may be used in [ CASH.E ](CASH-E/README.md) when an amount is being written-off. There are two options for entry into this field: 1. Enter a single account number and it will be used without prompting. 2. Enter a list of account numbers and the user will be prompted to select one.   
+**Write Off Acct** Enter the account number which may be used in [ CASH.E ](../../CASH-E/README.md) when an amount is being written-off. There are two options for entry into this field: 1. Enter a single account number and it will be used without prompting. 2. Enter a list of account numbers and the user will be prompted to select one.   
   
 **Write Off Acct Description** This field contains the description of the
 associated account number and is for reference only.  
@@ -58,21 +58,21 @@ their invoices, enter 1. Enter 2 for 2 days past due, etc.
   
 **Default Reg Date** In [ AR.E ](../../AR-E/README.md) , the register date defaults to the current system date. If you wish to default the register date to the invoice date, then set this field.   
   
-**Period Start Date** This field is used to control the entry of dates in the AR module and in the shipping entry procedures such as [ ship.e ](ship-e/README.md) and [ ship.e2 ](ship-e2/README.md) . When used in conjunction with the period end date, it can ensure that dates entered are within an acceptable range. This is especially helpful when used to keep from posting records into a previously closed period.   
+**Period Start Date** This field is used to control the entry of dates in the AR module and in the shipping entry procedures such as [ ship.e ](../../../../MRK-OVERVIEW/MRK-ENTRY/SHIP-E/README.md) and [ ship.e2 ](../../../../MRK-OVERVIEW/MRK-ENTRY/SHIP-E2/README.md) . When used in conjunction with the period end date, it can ensure that dates entered are within an acceptable range. This is especially helpful when used to keep from posting records into a previously closed period.   
   
 **Period End Date** This field is used to control the entry of dates in the AR
 module. When used in conjunction with the period start date, it can ensure
 that dates entered are within an acceptable range. This is especially helpful
 when used to keep from posting records into a future period.  
   
-**Cash App Method** Select the default application type which is to be used in the [ CASH.E ](CASH-E/README.md) procedure. This application method will automatically load and can be changed during the procedure as required. Select the method which is most often used. Options are:   
+**Cash App Method** Select the default application type which is to be used in the [ CASH.E ](../../CASH-E/README.md) procedure. This application method will automatically load and can be changed during the procedure as required. Select the method which is most often used. Options are:   
 Specific - Specific invoices  
 Oldest - Oldest invoice first  
 Range - User specified  
   
-**Net Memos** If, during [ CASH.E ](CASH-E/README.md) , one of the automatic apply methods are used, do you want to net credit memos and on account records during the processing of a range of AR items? If so, check this box.   
+**Net Memos** If, during [ CASH.E ](../../CASH-E/README.md) , one of the automatic apply methods are used, do you want to net credit memos and on account records during the processing of a range of AR items? If so, check this box.   
   
-**Write off Excess Cash** Check this box if you want to allow [ CASH.E ](CASH-E/README.md) to write off excess cash received instead of requiring it to be applied as an on-account item. If this is allowed, a message will be displayed upon filing the CASH entry to verify this when a positive balance remains. The write off account listed above will be used. If multiplie write off accounts are listed the user will be presented with the list to choose from.   
+**Write off Excess Cash** Check this box if you want to allow [ CASH.E ](../../CASH-E/README.md) to write off excess cash received instead of requiring it to be applied as an on-account item. If this is allowed, a message will be displayed upon filing the CASH entry to verify this when a positive balance remains. The write off account listed above will be used. If multiplie write off accounts are listed the user will be presented with the list to choose from.   
   
 **AR Account Desc** This field contains the description of the AR account
 number.  

@@ -3,7 +3,7 @@
 <PageHeader />
 
 - [ACCT.CONTROL](ACCT-CONTROL/README.md) Accounting Control Record Entry
-- [AP.CONTROL](AP-E/CHECKS-E/AP-CONTROL/README.md) Control Record Entry
+- [AP.CONTROL](AP-CONTROL/README.md) Control Record Entry
 - [AP.E](AP-E/README.md) A/P Entry
 - [AP.E2](AP-E2/README.md) A/P Register Date Adjustment
 - [AP1099.E](AP1099-E/README.md) AP1099 Adjustment

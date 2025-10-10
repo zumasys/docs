@@ -40,7 +40,7 @@ the Related AP tab, in order to close them all with one invoice.
 The fourth screen is the AP register history, showing all amount and account
 activity, and is for reference only.  
   
-When an invoice is received for a material receipt, an accrual record will have been created by the [ RECEIPTS.P1 ](RECEIPTS-P1/README.md) procedure and contain as much information as was known at the time the purchase order was entered. Updating this record with the actual amounts from the invoice will convert it from an accrual to an open accounts payable item.   
+When an invoice is received for a material receipt, an accrual record will have been created by the [ RECEIPTS.P1 ](../../../PUR-OVERVIEW/PUR-PROCESS/RECEIPTS-P1/README.md) procedure and contain as much information as was known at the time the purchase order was entered. Updating this record with the actual amounts from the invoice will convert it from an accrual to an open accounts payable item.   
   
 Debit AP records can also be created via the [ CHECKS.E ](../CHECKS-E/README.md) procedure when a prepayment type check is entered. This type of AP record will have the invoice amount equal to the negative check amount. They cannot be updated in AP.E.   
   

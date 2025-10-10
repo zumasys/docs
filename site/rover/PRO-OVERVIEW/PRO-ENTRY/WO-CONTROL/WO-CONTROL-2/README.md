@@ -6,9 +6,9 @@
 
 ![](./WO-CONTROL-2.jpg)
 
-**Material** Enter the general ledger account number to be used when material dollars are manually adjusted using the [ WOMATL.E ](WOMATL-E/README.md) procedure. The offset account for the entry is defined by the WIP location for the work order.   
+**Material** Enter the general ledger account number to be used when material dollars are manually adjusted using the [ WOMATL.E ](../../WOMATL-E/README.md) procedure. The offset account for the entry is defined by the WIP location for the work order.   
   
-**Outside Processing** Enter the general ledger account number to be used when outside processing is posted to a work order with the [ WOOP.E ](WOOP-E/README.md) procedure. The offset account is defined by the WIP location for the work order.   
+**Outside Processing** Enter the general ledger account number to be used when outside processing is posted to a work order with the [ WOOP.E ](../../WOOP-E/README.md) procedure. The offset account is defined by the WIP location for the work order.   
   
 **Labor** Enter the general ledger account number to be used when labor is
 posted to a work order. The offset account is defined by the WIP location for

@@ -31,7 +31,7 @@ the credit card.
   
 **Cc Country** Enter the billing country for the associated credit card.  
   
-**View Credit Card** For security purposes only the last four digits of the credit card number appear in the credit card number field after initial entry. To view the entire credit card number click this button. Note: Only users whose login IDs have been specified in [ CC.CONTROL ](CC-CONTROL/README.md) .   
+**View Credit Card** For security purposes only the last four digits of the credit card number appear in the credit card number field after initial entry. To view the entire credit card number click this button. Note: Only users whose login IDs have been specified in [ CC.CONTROL ](../../CC-CONTROL/README.md) .   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />

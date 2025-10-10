@@ -9,7 +9,7 @@
 **Control ID** The ID to the control record is assigned as "LABOR" by the
 system. No entry is required.  
   
-**Auto Restart** This field defines to default for the auto restart option. If automatic restart is checked then, when the employee clocks-in he will automatically be restarted on the same job function and, if applicable, work order that he was logged into when he last clocked out. If the job was a work order that has since been closed, he will be placed into the default overhead function defined in his work center. The auto restart field in the work center ( [ WC.E ](../../WC-E/README.md) ) takes precedence over this field, and the restart field in the employee file ( [ EMP.E ](EMP-E/README.md) ) takes precedence over that.   
+**Auto Restart** This field defines to default for the auto restart option. If automatic restart is checked then, when the employee clocks-in he will automatically be restarted on the same job function and, if applicable, work order that he was logged into when he last clocked out. If the job was a work order that has since been closed, he will be placed into the default overhead function defined in his work center. The auto restart field in the work center ( [ WC.E ](../../WC-E/README.md) ) takes precedence over this field, and the restart field in the employee file ( [ EMP.E ](../../EMP-E/README.md) ) takes precedence over that.   
   
 **Shift Start** Enter the start time for each shift. This is used by the time
 keeping system to determine if employees have clocked in on time.  

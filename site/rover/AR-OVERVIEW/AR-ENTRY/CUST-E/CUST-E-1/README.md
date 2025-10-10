@@ -28,7 +28,7 @@ customer. The recommended format is XXX/XXX-XXXX.
 **Date** Enter the start date for this customer. This will default to the
 current system date.  
   
-**Inactive Date** Enter the date the customer's account become inactive on. If a date has been entered, you will be given a warning in certain procedures such as [ so.e ](so-e/README.md) or [ ar.e ](../../../../duplicates/ar-e/README.md) that the customer has been flagged as inactive.   
+**Inactive Date** Enter the date the customer's account become inactive on. If a date has been entered, you will be given a warning in certain procedures such as [ so.e ](../../../../MRK-OVERVIEW/MRK-ENTRY/SO-E/README.md) or [ ar.e ](../../../../duplicates/ar-e/README.md) that the customer has been flagged as inactive.   
   
 **Customer Address** Enter the street address for this customer. Do not
 include the city, state, or zip. Enter those in the adjacent, separate fields.
@@ -41,7 +41,7 @@ purposes.
   
 **Sort Zip** Enter the zip code portion of the address information.  
   
-**Sort Country** Enter the country portion of the address information. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../../../duplicates/SHIP-CONTROL/README.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](ship-control/README.md) .   
+**Sort Country** Enter the country portion of the address information. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../../../duplicates/SHIP-CONTROL/README.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](../../../../MRK-OVERVIEW/MRK-ENTRY/SHIP-CONTROL/README.md) .   
   
 **Resale#** Enter the customer's resale number.  
   
@@ -60,16 +60,16 @@ allows you to select the rep by name.
   
 **Order%** Enter the order percent for each rep.  
   
-**Price Code** Select the price code for this customer. This code is used for product pricing structures defined in [ PRICE.E ](PRICE-E/README.md) . The price codes are defined in [ PRICE.CONTROL ](PRICE-CONTROL/README.md) .   
+**Price Code** Select the price code for this customer. This code is used for product pricing structures defined in [ PRICE.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/PRICE-E/README.md) . The price codes are defined in [ PRICE.CONTROL ](../../../../MRK-OVERVIEW/MRK-ENTRY/PRICE-CONTROL/README.md) .   
   
 **Discount Pct** Enter a default discount percent.  
   
-**Contract Id** Enter any price contracts that apply to this customer. The contract pricing and commission will override any standard pricing and commission defaults. Price contract information is maintained using [ CPRICE.E ](CPRICE-E/README.md) .   
+**Contract Id** Enter any price contracts that apply to this customer. The contract pricing and commission will override any standard pricing and commission defaults. Price contract information is maintained using [ CPRICE.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/CPRICE-E/README.md) .   
   
 **Partials Ok** Check this box if the customer normally allows partial
 shipments.  
   
-**Route Id** The delivery route for this customer as defined on [ ROUTE.E ](ROUTE-E/README.md) . It is displayed here for information only.   
+**Route Id** The delivery route for this customer as defined on [ ROUTE.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/ROUTE-E/README.md) . It is displayed here for information only.   
   
 **Ship via** Select the method of shipping normally used by the customer.  
   
@@ -116,7 +116,7 @@ be the bill to customer for the credit hold to take effect.
 Groupings are used to classify customers by various attributes and are used to
 select customers for marketing compaigns.  
   
-**Marketing Opt Out** Check this box if the customer is to be excluded from marketing campaigns. This is checked when customers and prospects are selected for exporting in the [ CAMPAIGN.E ](CAMPAIGN-E/README.md) procedure.   
+**Marketing Opt Out** Check this box if the customer is to be excluded from marketing campaigns. This is checked when customers and prospects are selected for exporting in the [ CAMPAIGN.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/CAMPAIGN-E/README.md) procedure.   
   
 **Website** Enter the URL for the customer's website.  
   
@@ -126,7 +126,7 @@ is an exporter, the end user countries will need to be entered.
 **End User Countries** Enter the end user countries if this customer is an
 exporter. This will be used in sales order entry.  
   
-**Ecommerce Level** This field controls which categories of products, as defined in [ WEB.CONTROL ](WEB-CONTROL/README.md) , are available to the customer when they visit the ecommerce web site. Valid entries are 0 thru 9 with 9 being the highest level. If a web category has zero or null specified then anybody visiting the web site will be able to see the products in the category. If the level for a category is greater than zero than only customers with a number greater than or equal to that number will be able to see the products in that category.   
+**Ecommerce Level** This field controls which categories of products, as defined in [ WEB.CONTROL ](../../../../ACE-OVERVIEW/ACE-ENTRY/WEB-CONTROL/README.md) , are available to the customer when they visit the ecommerce web site. Valid entries are 0 thru 9 with 9 being the highest level. If a web category has zero or null specified then anybody visiting the web site will be able to see the products in the category. If the level for a category is greater than zero than only customers with a number greater than or equal to that number will be able to see the products in that category.   
   
 **Notes** Enter any applicable notes here. If the field, "Load Customer Notes", in the [ MRK.CONTROL ](../../../../MRK-OVERVIEW/MRK-ENTRY/MRK-CONTROL/README.md) procedure is set to "Y", these notes will be loaded into [ SO.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/SO-E/README.md) after entry of the customer number on new orders. Any notes that are considered confidential should be added to the notes tab of this procedure.   
   

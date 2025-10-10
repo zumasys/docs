@@ -6,7 +6,7 @@
 
 ![](./FORM-CONTROL-3.jpg)
 
-**Procedure ID** Enter the name of the procedure for which you are identifying text (e.g. [ AR.F4 ](AR-F4/README.md) , [ PO.F3 ](PO-F3/README.md) ). The associated text will be loaded into the body of the email.   
+**Procedure ID** Enter the name of the procedure for which you are identifying text (e.g. [ AR.F4 ](../../../../AR-OVERVIEW/AR-REPORT/AR-F4/README.md) , [ PO.F3 ](../../../../PUR-OVERVIEW/PUR-REPORT/PO-F3/README.md) ). The associated text will be loaded into the body of the email.   
   
 **Subject text** Enter the text you wish to insert into the subject line of
 the resulting email. The code "&#ID" can be used to insert the record ID (e.g.

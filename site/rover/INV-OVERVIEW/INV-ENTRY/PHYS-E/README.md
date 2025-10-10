@@ -36,7 +36,7 @@ This procedure is used when a Physical Inventory is in process.
 Initialization of the inventory control record ( [ INV.CONTROL ](../INV-CONTROL/README.md) ) and entry of the required inventory locations and General Ledger account numbers.   
 Prior to this procedure, the following procedures must have been executed:  
 1) Generate Physical Tags ( [ PHYS.P1 ](../../INV-PROCESS/PHYS-P1/README.md) )   
-2) Print Physical Tags ( [ PHYS.F1 ](PHYS-F1/README.md) ) 
+2) Print Physical Tags ( [ PHYS.F1 ](../../INV-REPORT/PHYS-F1/README.md) ) 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

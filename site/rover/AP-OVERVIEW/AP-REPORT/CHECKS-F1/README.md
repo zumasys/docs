@@ -14,7 +14,7 @@ Should it become necessary to re-print checks for a check run, due to a printer 
 As required.
 
 **Prerequisites**  
-The creation of a check run through the [ AP.P1 ](AP-P1/README.md) process. 
+The creation of a check run through the [ AP.P1 ](../../AP-PROCESS/AP-P1/README.md) process. 
 
 **Data Fields**
 

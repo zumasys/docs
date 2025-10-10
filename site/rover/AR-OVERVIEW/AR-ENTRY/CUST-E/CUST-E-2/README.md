@@ -26,7 +26,7 @@ not enter the city state and zip in this field.
   
 **Ship Zip** Enter the zip code for the associated address.  
   
-**Ship Country** Enter the country portion of the address information. Please note that you may be required to entrer the country name as it has been entered in the [ SHIP.CONTROL ](../../../../duplicates/SHIP-CONTROL/README.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](ship-control/README.md) .   
+**Ship Country** Enter the country portion of the address information. Please note that you may be required to entrer the country name as it has been entered in the [ SHIP.CONTROL ](../../../../duplicates/SHIP-CONTROL/README.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](../../../../MRK-OVERVIEW/MRK-ENTRY/SHIP-CONTROL/README.md) .   
   
 **Ship Email** Enter the email address for this address.  
   

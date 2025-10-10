@@ -42,8 +42,8 @@ Allocations can come from one of two sources:
 **Shortages** Contains the quantity of the part number which is short for the
 associated location.  
 Shortages are created two ways:  
-1\. When a component part on a work order is pulled short (i.e. using [ PICKER.E2 ](PICKER-E2/README.md) ). When a work order is created in a "R" (released) status, the component material is allocated against the work order. Once the work order is pulled, the allocations are deleted since the material has now been pulled into the work order, or is due to be backflushed at a later time. However, if any of the material is pulled short, a shortage will be tracked against the part number for that work order. If the shortage is for an assembly, only the assembly will show as short not the components used on that assembly. If you are using MRP, requirements may be calculated for the components as a result of the assembly shortage.   
-2\. Shortages can also be manually created via [ SHORTS.E ](SHORTS-E/README.md) . This may occur when parts are lost or damaged.   
+1\. When a component part on a work order is pulled short (i.e. using [ PICKER.E2 ](../../../../PRO-OVERVIEW/PRO-ENTRY/PICKER-E2/README.md) ). When a work order is created in a "R" (released) status, the component material is allocated against the work order. Once the work order is pulled, the allocations are deleted since the material has now been pulled into the work order, or is due to be backflushed at a later time. However, if any of the material is pulled short, a shortage will be tracked against the part number for that work order. If the shortage is for an assembly, only the assembly will show as short not the components used on that assembly. If you are using MRP, requirements may be calculated for the components as a result of the assembly shortage.   
+2\. Shortages can also be manually created via [ SHORTS.E ](../../../INV-ENTRY/SHORTS-E/README.md) . This may occur when parts are lost or damaged.   
   
 **Available** Contains the number of parts that are not committed and/or
 allocated. This figure represents the on-hand balance minus the greater of

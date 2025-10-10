@@ -139,8 +139,8 @@ use of all available marketing functions:
   
 [REP.E](MRK-ENTRY/REP-E/README.md) Identification of sales representatives
 [PRICE.E](MRK-ENTRY/PRICE-E/README.md) Entry of product prices
-[FAIL.CONTROL](FAIL-CONTROL/README.md) Definition of valid failure codes for RMA processing
-[MTBF.CONTROL](MTBF-CONTROL/README.md) Definition of MTBF calculation parameters
+[FAIL.CONTROL](MRK-ENTRY/FAIL-CONTROL/README.md) Definition of valid failure codes for RMA processing
+[MTBF.CONTROL](MRK-ENTRY/MTBF-CONTROL/README.md) Definition of MTBF calculation parameters
 [STAX.E](../AR-OVERVIEW/AR-ENTRY/STAX-E/README.md) Sales tax
 
 **Flow of Activities**  
@@ -156,7 +156,7 @@ Authorizations for returned merchandise may be entered with [RMA.E](MRK-ENTRY/RM
   
 In addtion to confirming the receipt, [RMAREC.E2](MRK-ENTRY/RMAREC-E2/README.md) allows entry of additional information such as failure codes, miscellaneous charges, etc. Once the receipt has been confirmed, it can be posted via [RMAREC.P1](MRK-PROCESS/RMAREC-P1/README.md) . The posting process updates the sales history file (SALES), the commissions file (COMM) and the accounts receivable file (AR). An accounts receivable credit memo will only be created if the rma record has been flagged to create one.
   
-Prior to posting, changes may be made to the rma receipt via [RMAREC.E2](MRK-ENTRY/RMAREC-E2/README.md) . Once the receipt has been posted, it can be reversed via [RMAREC.E3](RMAREC-E3/README.md) . When the record is saved the inventory transactions will be reversed and when the record is posted reversing sales, commission and accounts receivable (if applicable) records will be created.
+Prior to posting, changes may be made to the rma receipt via [RMAREC.E2](MRK-ENTRY/RMAREC-E2/README.md) . Once the receipt has been posted, it can be reversed via [RMAREC.E3](MRK-ENTRY/RMAREC-E3/README.md) . When the record is saved the inventory transactions will be reversed and when the record is posted reversing sales, commission and accounts receivable (if applicable) records will be created.
   
 The maintenance of the Customer file ( [CUST.E](../AR-OVERVIEW/AR-ENTRY/CUST-E/README.md) ) and the Terms file ( [TERMS.E](../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E/README.md) ) should be done as new items are required or changes need to be made.
   

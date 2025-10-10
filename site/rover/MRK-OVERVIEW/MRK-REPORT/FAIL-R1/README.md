@@ -19,7 +19,7 @@ well as the confidence level.
 As required.
 
 **Prerequisites**  
-The parameters in the [ MTBF.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/MTBF-CONTROL/README.md) procedure must be defined, and data must have been summarized by the [ FAIL.P1 ](FAIL-P1/README.md) procedure. 
+The parameters in the [ MTBF.CONTROL ](../../../../rover/MRK-OVERVIEW/MRK-ENTRY/MTBF-CONTROL/README.md) procedure must be defined, and data must have been summarized by the [ FAIL.P1 ](../../MRK-PROCESS/FAIL-P1/README.md) procedure. 
 
 **Data Fields**
 
