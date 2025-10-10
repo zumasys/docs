@@ -1,8 +1,10 @@
-##  Accounts Receivable Overview
+# Accounts Receivable Overview
 
 <PageHeader />
 
-[ Data Entry Procedures ](AR-ENTRY/README.md) | [ Reports and Inquiries ](AR-REPORT/README.md) | [ Update Processes ](AR-PROCESS/README.md)
+- [Data Entry Procedures](AR-ENTRY/README.md)
+- [Reports and Inquiries](AR-REPORT/README.md)
+- [Update Processes](AR-PROCESS/README.md)
 
 **Purpose**  
 The Accounts Receivable module provides the ability to enter and maintain
@@ -22,7 +24,7 @@ tax percentages.
 There are eight primary data files and three cross-reference files which
 maintain the data directly associated with the module.  
   
-The Accounts Receivable file (AR) maintains one record for each receiv- ables item in the system. Records created by a shipment or return are keyed by either the shipment number, a manually assigned number or a system assigned sequential number, depending upon the settings in the [ MRK.CONTROL ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) record requirements. Records entered directly through [ AR.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) are either assigned numbers automatically numbers by the system or manually by the operator. Each record contains a header section which maintains information about the customer and terms of payment, and a line item section which includes part numbers, cost, quantities, and general ledger sales account numbers.   
+The Accounts Receivable file (AR) maintains one record for each receiv- ables item in the system. Records created by a shipment or return are keyed by either the shipment number, a manually assigned number or a system assigned sequential number, depending upon the settings in the [MRK.CONTROL](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/MRK-CONTROL) record requirements. Records entered directly through [AR.E](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) are either assigned numbers automatically numbers by the system or manually by the operator. Each record contains a header section which maintains information about the customer and terms of payment, and a line item section which includes part numbers, cost, quantities, and general ledger sales account numbers.
   
 The recurring Accounts Receivable file (ARR) maintains one record for each
 recurring receivables item in the system. Records are assigned numbers
@@ -48,7 +50,7 @@ zero check amount. It is also possible to create an on-account cash record in
 the AR file for the balance of the check amount if it has not been fully
 applied.  
   
-The accounts receivable register (ARREG) file contains one record for each general ledger account number affected by any accounts receivable procedure. This is the interface file to the general ledger module. In the [ AR.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) procedure, the register date entered is assigned to these records. In the [ CASH.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E) procedure, the check date is assigned. This gives the user a level of control as to which fiscal period an item is to fall. For example, if an AR item is entered for an invoice of $100, two ARREG records will be created. One record for $100 will exist for the accounts receivable account number identified in the AR item. A second record will be placed into the ARREG file for -$100 against the general ledger account number specified in the account distribution.   
+The accounts receivable register (ARREG) file contains one record for each general ledger account number affected by any accounts receivable procedure. This is the interface file to the general ledger module. In the [AR.E](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) procedure, the register date entered is assigned to these records. In the [CASH.E](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E) procedure, the check date is assigned. This gives the user a level of control as to which fiscal period an item is to fall. For example, if an AR item is entered for an invoice of $100, two ARREG records will be created. One record for $100 will exist for the accounts receivable account number identified in the AR item. A second record will be placed into the ARREG file for -$100 against the general ledger account number specified in the account distribution.
   
 The Terms file (TERMS) contains the records which define the terms of payment
 wich may be included on the receivables item. These records are keyed by a
@@ -93,16 +95,16 @@ batch procedures is usually restricted to use by only the system administrator
 since these are usually run overnight.
 
 **Setup Procedures**  
-There are three setup processes which must be performed prior to beginning the normal flow of activities. The first is the definition of the terms codes ( [ TERMS.E ](../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E) ). While additional codes may be added at any time, the codes you intend to use immediately must be available. Customer records must also be entered ( [ CUST.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) ) for at least the customers which you intend to use immediately, the rest may be added as required. The accounts receivable control record ( [ AR.CONTROL ](../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) ) must also be setup before normal activities may begin.   
+There are three setup processes which must be performed prior to beginning the normal flow of activities. The first is the definition of the terms codes ( [TERMS.E](../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E) ). While additional codes may be added at any time, the codes you intend to use immediately must be available. Customer records must also be entered ( [CUST.E](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) ) for at least the customers which you intend to use immediately, the rest may be added as required. The accounts receivable control record ( [AR.CONTROL](../../rover/AP-OVERVIEW/AP-ENTRY/CHECKS-E4/AR-CONTROL) ) must also be setup before normal activities may begin.
   
-Optionally, you will need to set up the sales tax code file ( [ STAX.E ](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/STAX-E) ) if you wish to track detail sales tax history by district. 
+Optionally, you will need to set up the sales tax code file ( [STAX.E](../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/SO-E/STAX-E) ) if you wish to track detail sales tax history by district.
 
 **Flow of Activities**  
-The flow of processing for the accounts receivable module can begin in any one of three places. First, items which are shipped through the Marketing module create AR records. Second, AR items may be entered directly through [ AR.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) for non-shipment items. Third, items may be created automatically by the [ ARR.P1 ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-4/AR-F2/ARR-P1) batch recurring entry procedure. This will create AR items for all eligible recurring ARR item. Once the item is present in the AR file, it may be paid through the [ CASH.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E) procedure. The invoice printing process ( [ AR.F1 ](AR-F1/README.md) or [ AR.F2 ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-4/AR-F2) ) may be used to print or re-print any invoices.   
+The flow of processing for the accounts receivable module can begin in any one of three places. First, items which are shipped through the Marketing module create AR records. Second, AR items may be entered directly through [AR.E](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-3/AR-E) for non-shipment items. Third, items may be created automatically by the [ARR.P1](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-4/AR-F2/ARR-P1) batch recurring entry procedure. This will create AR items for all eligible recurring ARR item. Once the item is present in the AR file, it may be paid through the [CASH.E](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-1/CASH-E) procedure. The invoice printing process ( [AR.F1](AR-F1/README.md) or [AR.F2](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/AR-E-4/AR-F2) ) may be used to print or re-print any invoices.
   
-The maintenance of the Customer file ( [ CUST.E ](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) ) and the Terms file ( [ TERMS.E ](../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E) ) should be done as new items are required or changes need to be made.   
+The maintenance of the Customer file ( [CUST.E](../../rover/AP-OVERVIEW/AP-ENTRY/ACCT-CONTROL/ACCT-CONTROL-1/ar-e/CUST-E) ) and the Terms file ( [TERMS.E](../../rover/AP-OVERVIEW/AP-ENTRY/TERMS-E) ) should be done as new items are required or changes need to be made.
   
-At some point in time it may be appropriate purge some of the older accounts receivable and cash records from the system. This is done with the [ AR.P3 ](AR-P3/README.md) and [ CASH.P1 ](CASH-P1/README.md) procedures.   
+At some point in time it may be appropriate purge some of the older accounts receivable and cash records from the system. This is done with the [AR.P3](AR-P3/README.md) and [CASH.P1](CASH-P1/README.md) procedures.
   
 While all of the cross-reference files in the accounts receivable module are
 maintained automatically, it may be necessary to rebuild these files with the

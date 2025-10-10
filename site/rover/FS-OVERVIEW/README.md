@@ -2,7 +2,9 @@
 
 <PageHeader />
 
-[Data Entry Procedures](FS-ENTRY/README.md) | [Reports and Inquiries](FS-REPORT/README.md) | [Update Processes](FS-PROCESS/README.md)
+- [Data Entry Procedures](FS-ENTRY/README.md)
+- [Reports and Inquiries](FS-REPORT/README.md)
+- [Update Processes](FS-PROCESS/README.md)
 
 **Purpose**  
 The Field Service module provides the functions required to administer and
