@@ -178,6 +178,69 @@ function findCorrectPath(sourceFile, brokenUrl) {
 }
 
 /**
+ * Check if a path exists with case-insensitive matching
+ * Returns the actual path if found, null otherwise
+ */
+function findPathCaseInsensitive(targetPath) {
+  // First try exact match
+  if (fs.existsSync(targetPath)) {
+    return targetPath;
+  }
+  
+  // Try to find the path case-insensitively by traversing each part
+  const parts = targetPath.split(path.sep);
+  let currentPath = parts[0] + path.sep; // Start with drive letter on Windows or / on Unix
+  
+  for (let i = 1; i < parts.length; i++) {
+    if (!parts[i]) continue; // Skip empty parts
+    
+    if (!fs.existsSync(currentPath)) {
+      return null;
+    }
+    
+    try {
+      const items = fs.readdirSync(currentPath);
+      const matchingItem = items.find(item => 
+        item.toLowerCase() === parts[i].toLowerCase()
+      );
+      
+      if (matchingItem) {
+        currentPath = path.join(currentPath, matchingItem);
+      } else {
+        return null;
+      }
+    } catch (error) {
+      return null;
+    }
+  }
+  
+  return fs.existsSync(currentPath) ? currentPath : null;
+}
+
+/**
+ * Check if a sibling directory reference is missing the ../
+ * Returns the corrected path if found, null otherwise
+ */
+function checkSiblingDirectory(sourceFile, brokenUrl) {
+  // Only check simple paths (not ones already starting with ../)
+  if (brokenUrl.startsWith('../') || brokenUrl.startsWith('./')) {
+    return null;
+  }
+  
+  // Try adding ../ to see if it exists
+  const sourceDir = path.dirname(sourceFile);
+  const siblingPath = path.resolve(sourceDir, '..', brokenUrl);
+  const actualSiblingPath = findPathCaseInsensitive(siblingPath);
+  
+  if (actualSiblingPath) {
+    // Return the corrected relative path
+    return '../' + brokenUrl;
+  }
+  
+  return null;
+}
+
+/**
  * Validate a single link from a source file
  */
 function validateLink(sourceFile, link) {
@@ -195,13 +258,15 @@ function validateLink(sourceFile, link) {
   const sourceDir = path.dirname(sourceFile);
   const targetPath = path.resolve(sourceDir, urlWithoutAnchor);
   
-  // Check if path exists
-  const exists = fs.existsSync(targetPath);
+  // Check if path exists (case-insensitive)
+  const actualPath = findPathCaseInsensitive(targetPath);
+  const exists = actualPath !== null;
   
   if (!exists) {
-    // Check if it would exist with /README.md appended
+    // Check if it would exist with /README.md appended (case-insensitive)
     const withReadme = path.join(targetPath, 'README.md');
-    const withReadmeExists = fs.existsSync(withReadme);
+    const actualWithReadme = findPathCaseInsensitive(withReadme);
+    const withReadmeExists = actualWithReadme !== null;
     
     if (withReadmeExists) {
       issues.push({
@@ -212,23 +277,37 @@ function validateLink(sourceFile, link) {
       });
       stats.missingReadme++;
     } else {
-      // Try to find the correct path
-      const correctPath = findCorrectPath(sourceFile, urlWithoutAnchor);
-      issues.push({
-        type: 'invalid-path',
-        message: `Target path does not exist`,
-        suggestion: correctPath,
-        fixable: !!correctPath,
-      });
-      stats.invalidPaths++;
+      // Check if it's a sibling directory reference missing ../
+      const siblingPath = checkSiblingDirectory(sourceFile, urlWithoutAnchor);
+      
+      if (siblingPath) {
+        issues.push({
+          type: 'invalid-path',
+          message: `Missing '../' for sibling directory`,
+          suggestion: siblingPath,
+          fixable: true,
+        });
+        stats.invalidPaths++;
+      } else {
+        // Try to find the correct path by searching all files
+        const correctPath = findCorrectPath(sourceFile, urlWithoutAnchor);
+        issues.push({
+          type: 'invalid-path',
+          message: `Target path does not exist`,
+          suggestion: correctPath,
+          fixable: !!correctPath,
+        });
+        stats.invalidPaths++;
+      }
     }
   } else {
     // Path exists - check if it's a directory without /README.md
-    const stat = fs.statSync(targetPath);
+    const stat = fs.statSync(actualPath);
     
     if (stat.isDirectory()) {
-      const readmePath = path.join(targetPath, 'README.md');
-      if (fs.existsSync(readmePath)) {
+      const readmePath = path.join(actualPath, 'README.md');
+      const actualReadmePath = findPathCaseInsensitive(readmePath);
+      if (actualReadmePath) {
         issues.push({
           type: 'missing-readme',
           message: `Link points to directory but should end with /README.md`,
