@@ -1,6 +1,3 @@
-require("dotenv").config();
-const webpack = require("webpack");
-
 module.exports = {
   head: [["link", { rel: "icon", href: "/assets/img/favicon.ico" }]],
   title: "Product Documentation",
@@ -9,13 +6,34 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-  configureWebpack: config => {
-    // Set environment variables based on NODE_ENV
-    const env =
-      process.env.NODE_ENV === "production"
-        ? { ...process.env }
-        : { ...process.env.development };
-    return { plugins: [new webpack.EnvironmentPlugin(env)] };
+  chainWebpack: (config) => {
+    // Add image optimization to the existing images rule
+    config.module
+      .rule('images')
+      .use('url-loader')
+        .loader('url-loader')
+        .tap(options => options)
+        .end()
+      .use('image-webpack-loader')
+        .loader('image-webpack-loader')
+        .options({
+          bypassOnDebug: true,
+          mozjpeg: {
+            progressive: true,
+            quality: 75
+          },
+          optipng: {
+            enabled: true,
+            optimizationLevel: 7
+          },
+          pngquant: {
+            quality: [0.65, 0.90],
+            speed: 4
+          },
+          gifsicle: {
+            enabled: false
+          }
+        });
   },
   plugins: {
     // TypeScript in .vue files, markdown files and enhanceApp.ts

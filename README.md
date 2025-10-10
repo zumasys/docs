@@ -39,24 +39,13 @@ To run the application locally:
 2. `cd docs` (or whatever name you used for your git clone)
 3. `cd site`
 4. `npm i` (Not necessary on subsequent builds)
-5. To enable all features you'll need to set up environment variables. Create `.env` (for production) and `.env.development` (for development) files in the `site` folder. Use the `.env.skel` file as your baseline (for both production and development).
-   * Optionally, if you want the [Vssue](https://vssue.js.org/) plugin to work you'll have to populate the following `.env` variables in the file from step 5.
-
-   > `cd site && code .env`
-
-   ```dotenv
-   # Environment Variables
-   VUE_APP_GITHUB_CLIENT_ID=MyClientKey
-   VUE_APP_GITHUB_CLIENT_SECRET=MySecretKey
-   ```
-
-6. `npm run dev`
-7. When compilation completes you should see the following message
+5. `npm run dev`
+6. When compilation completes you should see the following message
 
    > success [12:25:41] Build 59cc58 finished in 75022 ms!  
    > VuePress dev server listening at [http://localhost:8080/](http://localhost:8080/)
 
-8. Open [localhost:8080](localhost:8080) in your browser.
+7. Open [localhost:8080](localhost:8080) in your browser.
 
 ## Maintenance Tools
 
