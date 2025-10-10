@@ -63,8 +63,11 @@ function findReadmeFiles(dir) {
       const fullPath = path.join(dir, item.name);
       
       if (item.isDirectory()) {
-        // Skip node_modules and hidden directories
-        if (item.name !== 'node_modules' && !item.name.startsWith('.')) {
+        // Skip node_modules, hidden directories, obsolete, and duplicates
+        if (item.name !== 'node_modules' && 
+            item.name !== 'obsolete' && 
+            item.name !== 'duplicates' && 
+            !item.name.startsWith('.')) {
           results.push(...findReadmeFiles(fullPath));
         }
       } else if (item.isFile() && item.name === 'README.md') {
@@ -122,15 +125,21 @@ function extractMarkdownLinks(content) {
 function findCorrectPath(sourceFile, brokenUrl) {
   // Extract the target article name from the broken URL
   const urlParts = brokenUrl.split('/');
-  const targetName = urlParts[urlParts.length - 1].replace('/README.md', '');
+  let targetName = urlParts[urlParts.length - 1];
+  
+  // If the last part is README.md, use the directory name before it
+  if (targetName.toLowerCase() === 'readme.md') {
+    targetName = urlParts[urlParts.length - 2];
+  }
   
   if (!targetName) return null;
   
-  // Search for README.md files that match the target name
+  // Search for README.md files that match the target name (case-insensitive)
   const sourceDir = path.dirname(sourceFile);
+  const targetNameLower = targetName.toLowerCase();
   const candidates = allReadmeFiles.filter(file => {
     const parentDir = path.basename(path.dirname(file));
-    return parentDir === targetName;
+    return parentDir.toLowerCase() === targetNameLower;
   });
   
   if (candidates.length === 0) return null;
