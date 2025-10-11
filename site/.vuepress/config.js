@@ -7,33 +7,36 @@ module.exports = {
     lineNumbers: true
   },
   chainWebpack: (config) => {
-    // Add image optimization to the existing images rule
-    config.module
-      .rule('images')
-      .use('url-loader')
-        .loader('url-loader')
-        .tap(options => options)
-        .end()
-      .use('image-webpack-loader')
-        .loader('image-webpack-loader')
-        .options({
-          bypassOnDebug: true,
-          mozjpeg: {
-            progressive: true,
-            quality: 75
-          },
-          optipng: {
-            enabled: true,
-            optimizationLevel: 7
-          },
-          pngquant: {
-            quality: [0.65, 0.90],
-            speed: 4
-          },
-          gifsicle: {
-            enabled: false
-          }
-        });
+    // Only apply image optimization in non-CI environments
+    // CI environments can optimize images as a pre-build step instead
+    if (!process.env.CI && !process.env.GITHUB_ACTIONS) {
+      config.module
+        .rule('images')
+        .use('url-loader')
+          .loader('url-loader')
+          .tap(options => options)
+          .end()
+        .use('image-webpack-loader')
+          .loader('image-webpack-loader')
+          .options({
+            bypassOnDebug: true,
+            mozjpeg: {
+              progressive: true,
+              quality: 75
+            },
+            optipng: {
+              enabled: true,
+              optimizationLevel: 7
+            },
+            pngquant: {
+              quality: [0.65, 0.90],
+              speed: 4
+            },
+            gifsicle: {
+              enabled: false
+            }
+          });
+    }
   },
   plugins: {
     // TypeScript in .vue files, markdown files and enhanceApp.ts
