@@ -5,6 +5,7 @@
     <div>
       <ProductLogos />
     </div>
+    <Assistant />
     <div class="spacer"><br /></div>
     <div class="feature spacer">
       <h2>Zumasys</h2>
@@ -44,8 +45,9 @@
 
 <script>
 import ProductLogos from "@theme/components/ProductLogos.vue";
+import Assistant from "./Assistant.vue";
 export default {
-  components: { ProductLogos },
+  components: { ProductLogos, Assistant },
   name: "Features",
 };
 </script>
