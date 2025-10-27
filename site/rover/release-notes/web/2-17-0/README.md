@@ -1,6 +1,6 @@
-# Rover Web v2.16.0 Draft Release Notes
+# Rover Web v2.17.0 Release Notes
 
-<badge text= "Version 2.16.0" vertical="middle" />
+<badge text= "Version 2.17.0" vertical="middle" />
 
 <PageHeader />
 
@@ -10,22 +10,17 @@ These are the release notes for version 2.17.0 (TBD) of the Rover Web applicatio
 
 ### Rover Web
 
-#### General
+#### Production Scheduling
 
- - Search button has been added to fields with file dictionary references. This allows the ability to search for valid values using the lookups defined for that field.
-  > Availability is limited to input fields in Inventory Work Orders, Point of Sale Orders, and Point of Sale Quotes.
- 
-
-#### Point of Sale
-
+ - Added a clickable link from the Bar Overlay in work order scheduling to link to the work order details.
+ ![Prod Sched Overlay WO Link](./prod-sched-wo-link.gif)
 
 ## Bug Fixes
 
 ### Rover Web
 
-#### Point of Sale
+#### Production Scheduling
 
-#### Inventory
-
+ - Corrected an issue that could cause the Scheduled Orders Gantt Chart's search button to get stuck on a loading spinner
 
 <PageFooter />
