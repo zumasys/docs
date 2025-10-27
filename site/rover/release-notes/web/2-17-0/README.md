@@ -34,6 +34,16 @@ These are the release notes for version 2.17.0 (10/27/2025) of the Rover Web app
 
   - Related parts are now supported in Rover Portal for Orders in alignment with Sales Quote related parts in Rover Web.
 
+#### Tickets
+
+  - New tickets can now be created via Rover Portal. 
+
+   ![New Ticket Button](./ticket-creation-button.png)
+   ![New Ticket Dialog](./ticket-creation-dialog.png)
+
+  - Existing tickets can now be updated with new attachments.
+     ![New Ticket Dialong](./ticket-attachments.png)
+     
 ## Bug Fixes
 
 ### Rover Web
@@ -55,5 +65,5 @@ These are the release notes for version 2.17.0 (10/27/2025) of the Rover Web app
 #### Invoices
 
   - Resolved issue with ACH payment not allowing account numbers with leading zeros.  Additional UI cleanup to make field validation more clear.
-  
+
 <PageFooter />
