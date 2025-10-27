@@ -50,5 +50,10 @@ These are the release notes for version 2.17.0 (10/27/2025) of the Rover Web app
 
   - Addressed issue with the title of scan forms flashing to incorrect values and reverting to "Scan".
 
+### Rover Portal
 
+#### Invoices
+
+  - Resolved issue with ACH payment not allowing account numbers with leading zeros.  Additional UI cleanup to make field validation more clear.
+  
 <PageFooter />
