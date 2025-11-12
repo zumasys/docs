@@ -13,7 +13,10 @@ These are the release notes for version 2.19.0 (TBD) of the Rover Web applicatio
 #### General 
 
 #### Point of Sale
-
+ 
+ - The "Quick Scan" toggle has been moved out of the parts selection screen and into User Settings to simplify experience and avoid accidental clicks.
+ ![user settings](./quickscan-usersettings.png)
+ ![POS](./quickscan-pos.png)
 
 ## Bug Fixes
 
