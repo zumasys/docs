@@ -18,6 +18,22 @@ These are the release notes for version 2.19.0 (TBD) of the Rover Web applicatio
  ![user settings](./quickscan-usersettings.png)
  ![POS](./quickscan-pos.png)
 
+ - Entering new payment methods on file now supports credit card pin pad devices.  If the active register has a pin pad attached and defined, clicking "Add" will now present a dialog to input the name and address details.  An optional "Manual" checkbox allows for the card number to be manually keyed on the pin pad.  User based settings control the visibility of the manual checkbox. `allow_manual_cof_pinpad_entry` is the user login response property for this option.
+    > Only supported by select ERPs
+
+    ![Card on File Pin Pad](./cof-pinpad.gif)
+    ![Card On File iframe](./cof-iframe.gif)
+
+- Additional columns have been added to the payment methods on file table to indicate when the card was added, the user who added it, and whether the card was read (pin pad), manual (pin pad, manually keyed), or entered via iframe.
+
+- The "Manual Credit Card" payment button is now hidden by default when a register is in use with a pin pad enabled.  This can be overridden per register with a toggle `cc_allow_iframe` in the register settings.
+    > Only supported by select ERPs
+
+- The "Manual" checkbox for pin pad based credit card payments can now be optionally hidden on a per user basis. `allow_manual_payment_pinpad_entry` is the user login response property for this option.
+    > Only supported by select ERPs
+
+    ![Pin Pad Manual Payment](./payment-pinpad-manual.png)
+
 ## Bug Fixes
 
 ### Rover Web
