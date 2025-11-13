@@ -1,10 +1,10 @@
-# Rover Web v2.19.0 Draft Release Notes
+# Rover Web v2.19.0 Release Notes
 
 <badge text= "Version 2.19.0" vertical="middle" />
 
 <PageHeader />
 
-These are the release notes for version 2.19.0 (TBD) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v2.19.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v2.19.0) today!
+These are the release notes for version 2.19.0 (11/13/2025) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v2.19.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v2.19.0) today!
 
 ## New Features
 
@@ -49,9 +49,12 @@ These are the release notes for version 2.19.0 (TBD) of the Rover Web applicatio
 
 ### Rover Web
 
+#### Point of Sale
+ - An issue was resolved that caused quote totals to not display consistently.
+
 #### Production
 
- - We have fixed an issue that prevented orders and operations from being scheduled via the pop up menu on the unscheduled orders tab.
+ - An issue was resolved that prevented orders and operations from being scheduled via the pop up menu on the unscheduled orders tab.
 
 
 <PageFooter />
