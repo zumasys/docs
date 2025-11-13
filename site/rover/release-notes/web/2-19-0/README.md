@@ -34,13 +34,24 @@ These are the release notes for version 2.19.0 (TBD) of the Rover Web applicatio
 
     ![Pin Pad Manual Payment](./payment-pinpad-manual.png)
 
+#### Production
+
+ - Quantity and Balance fields have been added to the work order details screen
+ ![WO Qty Completed and Balance](./wo-comp-bal.png)
+
+ - The Overlay display when clicking into line items in the Scheduling tab can now be customized using FORMSDEF with the definition ID of `PRODUCTION.SCHEDULING.OVERLAY.OVERRIDE`
+ ![Formsdef](./formsdef-prodsched-override.png)
+ ![Overlay](./overlay-prodsched-override.png)
+
+
+
 ## Bug Fixes
 
 ### Rover Web
 
-#### Point of Sale
+#### Production
 
-#### Inventory
+ - We have fixed an issue that prevented orders and operations from being scheduled via the pop up menu on the unscheduled orders tab.
 
 
 <PageFooter />
