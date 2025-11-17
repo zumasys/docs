@@ -43,6 +43,8 @@ Here's a sneak peek of what's to come in Rover Web as of [v2.12.4](./web/2-12-4/
 
 | Version                           | Date       | Video                                             |
 | --------------------------------- | ---------- | ------------------------------------------------- |
+| [v2.18.0](./web/2-18-0/README.md) | 2025-10-30 | N/A                                               |
+| [v2.17.0](./web/2-17-0/README.md) | 2025-10-27 | N/A                                               |
 | [v2.16.0](./web/2-16-0/README.md) | 2025-09-17 | N/A                                               |
 | [v2.15.1](./web/2-15-1/README.md) | 2025-08-14 | N/A                                               |
 | [v2.15.0](./web/2-15-0/README.md) | 2025-08-14 | N/A                                               |
@@ -126,6 +128,7 @@ Here's a sneak peek of what's to come in Rover Web as of [v2.12.4](./web/2-12-4/
 
 | Version                              | Date       | Download                                                                       |
 | ------------------------------------ | ---------- | ------------------------------------------------------------------------------ |
+| [v5.33](./m3services/5-33/README.md) | 2025-11-05 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.33.zip) |
 | [v5.31](./m3services/5-31/README.md) | 2025-09-22 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.31.zip) |
 | [v5.30](./m3services/5-30/README.md) | 2025-07-23 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.30.zip) |
 | [v5.29](./m3services/5-29/README.md) | 2025-05-01 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.29.zip) |

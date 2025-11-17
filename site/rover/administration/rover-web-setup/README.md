@@ -25,6 +25,7 @@ Using the Rover ERP Web Client requires properly setup `SECURITY` records via `S
 | PSO.E       | Point of Sale Module                   |
 | AR.E        | POS Invoices / Accounting AR Tab       |
 | SHIP.E      | Allow creation of SHIP records in POS  |
+| PRODUCTION  | Production Module Menu Item            |
 | WO.E        | Production Scheduling                  |
 | SO.E        | Sales Module (Sales Order tab)         |
 | SOQUOTE.E   | Sales Module (Sales Quotes tab)        |
