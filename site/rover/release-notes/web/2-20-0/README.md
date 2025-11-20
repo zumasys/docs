@@ -4,7 +4,7 @@
 
 <PageHeader />
 
-These are the release notes for version 2.20.0 (TBD) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v2.19.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v2.19.0) today!
+These are the release notes for version 2.20.0 (11/20/2025) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v2.19.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v2.19.0) today!
 
 ## New Features
 
@@ -17,10 +17,6 @@ These are the release notes for version 2.20.0 (TBD) of the Rover Web applicatio
 
 ### Rover Web
 
-#### General 
-
-#### Point of Sale
-
 #### Production
 
  - Improvements were made to scrolling behavior in the production scheduling gantt chart during drag and drop.   
@@ -28,6 +24,8 @@ These are the release notes for version 2.20.0 (TBD) of the Rover Web applicatio
  - Production Board now support export and print. 
 
  ![Production Board Export](./production-print-export.gif) 
+
+ - The default date range populated for both the Scheduling Chart, and Production Board display is now the current work week.  Additionally, changes to the selected range that are manually entered are shared between these two screens.
 
 
 
