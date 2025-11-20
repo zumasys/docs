@@ -44,4 +44,10 @@ These are the release notes for version 2.20.0 (11/20/2025) of the Rover Web app
  - An issue was resolved impacting date filters on lookup based data tables throughout the application.
 
 
+#### Production
+
+ - Corrected an issue causing scheduling overlays to not display when clicking an unscheduled order if the Unscheduled Orders table was configured to use a lookup.
+ 
+ - Fixed an issue that caused the Unscheduled Orders table to not use conditional formatting or styling if the table was configured not to use a lookup. Further improved support of formatting and styling for both lookup and non-lookup versions.
+
 <PageFooter />
