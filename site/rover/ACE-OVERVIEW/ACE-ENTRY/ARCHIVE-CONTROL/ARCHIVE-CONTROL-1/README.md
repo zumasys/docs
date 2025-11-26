@@ -4,7 +4,7 @@
 
 ##
 
-![](ARCHIVE-CONTROL-1.jpg)
+![](./ARCHIVE-CONTROL-1.jpg)
 
 **Data Account** Enter the name of the data account for which archival and purge settings are being defined. This field is automatically populated and identifies the account containing the operational data files.
 
