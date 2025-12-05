@@ -1,4 +1,4 @@
-##  A/P Checks - Void or Stop Payment (CHECKS.E2)
+#  A/P Checks - Void or Stop Payment (CHECKS.E2)
 
 <PageHeader />
 

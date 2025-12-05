@@ -1,4 +1,4 @@
-##  Enter A/R Cash (CASH.E)
+#  Enter A/R Cash (CASH.E)
 
 <PageHeader />
 
@@ -30,7 +30,7 @@ If you will be using [ RECON.E ](../RECON-E/README.md) to reconcile your bank st
   
 To apply excess cash to a write off account instead of creating a debit memo, the corresponding flag in [ AR.CONTROL ](../AR-CONTROL/README.md) must be set to "Y", and the user will be prompted at file time for confirmation before the update occurs.   
   
-The amounts are posted immediately upon the filing of the cash record. The check number, bank number, deposit id and notes may be changed on existing records. Additionally, the cash/deposit account and post date may be changed on posted records but not on records that have been cleared or reversed. If the post date or cash account are changed, reversing register records will be created to offset the original entries and new register records will be created for the new account and/or date. Please note that both the original post date and new date must occur in an open fiscal period. For all other data entry mistakes, the cash record may be reversed with the [ CASH.E2 ](../CASH-E2/README.md) procedure, then re-entered correctly. 
+The amounts are posted immediately upon the filing of the cash record. The check number, bank number, deposit id and notes may be changed on existing records. Additionally, the cash/deposit account and post date may be changed on posted records but not on records that have been cleared or reversed. If the post date or cash account are changed, reversing register records will be created to offset the original entries and new register records will be created for the new account and/or date. Please note that both the original post date and new date must occur in an open fiscal period. For all other data entry mistakes, the cash record may be reversed with the [ CASH.E2 ](CASH-E2/README.md) procedure, then re-entered correctly. 
 
 **Frequency of Use**  
 As required.

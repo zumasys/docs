@@ -1,4 +1,4 @@
-##  G/L Transaction Entry (GLTRANS.E)
+#  G/L Transaction Entry (GLTRANS.E)
 
 <PageHeader />
 

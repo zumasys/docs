@@ -1,4 +1,4 @@
-##  Work Order Bill of Material Entry (WOBOM.E)
+#  Work Order Bill of Material Entry (WOBOM.E)
 
 <PageHeader />
 

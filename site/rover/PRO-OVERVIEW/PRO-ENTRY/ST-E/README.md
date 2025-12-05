@@ -1,4 +1,4 @@
-##  Shop Transaction Entry (ST.E)
+#  Shop Transaction Entry (ST.E)
 
 <PageHeader />
 

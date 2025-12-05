@@ -1,4 +1,4 @@
-##  Receipts Reversal/Deletion (RECEIPTS.E3)
+#  Receipts Reversal/Deletion (RECEIPTS.E3)
 
 <PageHeader />
 

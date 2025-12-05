@@ -1,4 +1,4 @@
-##  Inventory Control Definitions (INV.CONTROL)
+#  Inventory Control Definitions (INV.CONTROL)
 
 <PageHeader />
 

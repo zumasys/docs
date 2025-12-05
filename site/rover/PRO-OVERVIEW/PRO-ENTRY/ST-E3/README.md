@@ -1,4 +1,4 @@
-##  Work Order Completion Entry (ST.E3)
+#  Work Order Completion Entry (ST.E3)
 
 <PageHeader />
 

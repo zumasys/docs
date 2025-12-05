@@ -1,4 +1,4 @@
-##  Receipts Entry (RECEIPTS.E)
+#  Receipts Entry (RECEIPTS.E)
 
 <PageHeader />
 

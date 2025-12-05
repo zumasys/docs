@@ -1,9 +1,9 @@
-##  Document Control Settings (DOC.CONTROL)
+# Document Control Settings (DOC.CONTROL)
 
 <PageHeader />
 
-**Form Details**  
-[ Form Details ](DOC-CONTROL-1/README.md)   
+**Form Details**
+[Form Details](DOC-CONTROL-1/README.md)
 
 **Purpose**  
 This control procedure is used to define the settings for the Document control
@@ -22,19 +22,20 @@ users are to be signing off on documents, then their userids need to be added
 also to the Security section and they need to be assigned a signoff type, as
 defined in the Signoff type list.  
   
-Documents are created by Admin users in [ DOC.E ](../DOC-E/README.md) and can be viewed by editors and signers in [ DOC.E2 ](../DOC-E2/README.md) . [ DOC.Q ](../README.md) is used for searching and displaying documents. If general users (that are not defined here) are given view access to [ DOC.Q ](../README.md) , then they will be able to view published documents.
+Documents are created by Admin users in [DOC.E](../DOC-E/README.md) and can be viewed by editors and signers in [DOC.E2](../DOC-E2/README.md) . [DOC.Q](../README.md) is used for searching and displaying documents. If general users (that are not defined here) are given view access to [DOC.Q](../README.md) , then they will be able to view published documents.
   
 If the Send Signoff Notifications box is checked, this will happen as follows:  
-1\. When a pending revision is started, editors will be notified.  
-2\. When an editor is added to an existing document in a pending revision or
+
+1. When a pending revision is started, editors will be notified.  
+2. When an editor is added to an existing document in a pending revision or
 signoff status, the editor will be notified.  
-3\. When a document is changed to signoff status, the signers will be
+3. When a document is changed to signoff status, the signers will be
 notified. Only those signers who are not dependent on another signer will be
 notified at this step.  
-4\. When a document is signed off by one of the approvers, the admin user(s)
+4. When a document is signed off by one of the approvers, the admin user(s)
 will be notified. Additionally, if another signer is dependent on that
 signoff, that person will be notified.  
-5\. When a document has been fully signed off, the admin user(s) will be
+5. When a document has been fully signed off, the admin user(s) will be
 notified.
 
 **Frequency of Use**  

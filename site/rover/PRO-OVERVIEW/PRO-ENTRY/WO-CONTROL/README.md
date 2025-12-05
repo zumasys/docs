@@ -1,4 +1,4 @@
-##  Work Order Entry Defaults (WO.CONTROL)
+#  Work Order Entry Defaults (WO.CONTROL)
 
 <PageHeader />
 
@@ -22,7 +22,7 @@ procedures in the Production Module. This is usually done as part of setting
 up the system. The entries may be changed after that time as required.
 
 **Prerequisites**  
-The receiving, stocking and PO locations must have been previously defined in the Inventory Location file ( [ INVLOC.E ](../../../INV-OVERVIEW/INV-ENTRY/INVLOC-E/README.md) ), as well as the terms code to be referenced. 
+The receiving, stocking and PO locations must have been previously defined in the Inventory Location file ( [ INVLOC.E ](../../INV-OVERVIEW/INV-ENTRY/INVLOC-E/README.md) ), as well as the terms code to be referenced. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

@@ -1,4 +1,4 @@
-##  Post RMA Receipts (RMAREC.P1)
+#  Post RMA Receipts (RMAREC.P1)
 
 <PageHeader />
 
@@ -19,7 +19,7 @@ Less frequent processing may be done if desired but should be done at least
 once a month before the end of the month closing.
 
 **Prerequisites**  
-Setup of the appropriate account numbers in the [ AR.CONTROL ](../../../AR-OVERVIEW/AR-ENTRY/AR-CONTROL/README.md) procedure. 
+Setup of the appropriate account numbers in the [ AR.CONTROL ](../../AR-OVERVIEW/AR-ENTRY/AR-CONTROL/README.md) procedure. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

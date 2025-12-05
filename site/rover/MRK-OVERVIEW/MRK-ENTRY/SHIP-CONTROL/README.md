@@ -1,4 +1,4 @@
-##  Define Shipping Methods (SHIP.CONTROL)
+#  Define Shipping Methods (SHIP.CONTROL)
 
 <PageHeader />
 

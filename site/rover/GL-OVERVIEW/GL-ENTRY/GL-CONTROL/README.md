@@ -1,4 +1,4 @@
-##  GL Control Record Entry (GL.CONTROL)
+#  GL Control Record Entry (GL.CONTROL)
 
 <PageHeader />
 

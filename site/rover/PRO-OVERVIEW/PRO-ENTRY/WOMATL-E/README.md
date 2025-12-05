@@ -1,4 +1,4 @@
-##  Work Order Material Adjustments Entry (WOMATL.E)
+#  Work Order Material Adjustments Entry (WOMATL.E)
 
 <PageHeader />
 

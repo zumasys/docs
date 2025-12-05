@@ -1,4 +1,4 @@
-##  Chart of Account Entry (GLCHART.E)
+#  Chart of Account Entry (GLCHART.E)
 
 <PageHeader />
 
