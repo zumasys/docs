@@ -2,8 +2,9 @@
 
 <PageHeader />
 
-**Form Details**
-[Form Details](DOC-CONTROL-1/README.md)
+**Form Details**  
+
+- [Form Details](DOC-CONTROL-1/README.md)
 
 **Purpose**  
 This control procedure is used to define the settings for the Document control

@@ -1,9 +1,10 @@
-#  A/P Checks - Void or Stop Payment (CHECKS.E2)
+# A/P Checks - Void or Stop Payment (CHECKS.E2)
 
 <PageHeader />
 
 **Form Details**  
-[ Form Details ](CHECKS-E2-1/README.md)   
+
+- [Form Details](CHECKS-E2-1/README.md)
 
 **Purpose**  
 The CHECKS.E2 procedure is used to place checks into either a 'stop payment'
@@ -23,7 +24,7 @@ procedure rather than re-opening them.
 As required.
 
 **Prerequisites**  
-Initialization of the Accounts Payable control record ( [ AP.CONTROL ](../AP-CONTROL/README.md) ), and entry of the vendor and terms records to be referenced. 
+Initialization of the Accounts Payable control record ([AP.CONTROL](../AP-CONTROL/README.md)), and entry of the vendor and terms records to be referenced.
 
 <badge text= "Version 8.10.57" vertical="middle" />
 
