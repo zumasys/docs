@@ -4,11 +4,15 @@
 
 <PageHeader />
 
-These are the release notes for version 2.21.0 (12/29/2025) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v2.21.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v2.21.0) today!
+These are the release notes for version 2.21.0 (1/13/2026) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v2.21.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v2.21.0) today!
 
 ## New Features
 
 ### Rover Web
+
+### General
+
+ - Added support for dynamic, `FORMSDEF.E` defined forms to return warning response to the UI.  Those warning can be displayed as toast messages with auto-dismiss, or as modal dialogs requiring feedback from the end user.
 
 #### Production
 
@@ -23,12 +27,22 @@ These are the release notes for version 2.21.0 (12/29/2025) of the Rover Web app
 #### Point of Sale
  
  - Upon creation of a quote, users are now directed to the Quotes table.
+ 
+ - Refactored how line item additional field details are defined in `MRK.CONTROL`.  Added the ability for changes to line item detail fields to trigger validation from the cart dialog.
 
 ## Bug Fixes
+
+### General
+ 
+ - Addressed an issue with filter dialogs on Rover BI embedded dashboards being obscured by the Rover Web copyright footer.
 
 ### Point of Sale
 
  - Corrected an issue that would prevent parts from being automatically added to the cart when only one search result was found.
+ 
+ - Corrected an issue causing automated addition of a product to the cart to fail in specific situations when using a barcode scanner, and rapidly scanning inputs.
+
+ - Corrected an issue causing automated addition of a product to the cart to fail when POS is using Part search mode rather than Price search mode.
 
 ### Production
 
