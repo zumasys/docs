@@ -4,7 +4,7 @@
 
 <PageHeader />
 
-These are the release notes for version 2.21.0 (1/13/2026) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v2.21.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v2.21.0) today!
+These are the release notes for version 2.21.0 (1/14/2026) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v2.21.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v2.21.0) today!
 
 ## New Features
 
