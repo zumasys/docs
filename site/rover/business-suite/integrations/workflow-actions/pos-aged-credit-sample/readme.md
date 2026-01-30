@@ -585,6 +585,9 @@ To enable the use of a lookup data table to display in the Invoices section of P
 
 ##### Response
 
+<details>
+<summary>Sample Json</summary>
+
 ```json
 {
   "fDicts": [
@@ -1352,6 +1355,8 @@ To enable the use of a lookup data table to display in the Invoices section of P
   "total_records_found": "622"
 }
 ```
+
+</details>
 
 ## Displaying a Formsdef form from Validation Response
 
