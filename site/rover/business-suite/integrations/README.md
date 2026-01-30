@@ -14,5 +14,8 @@
 
 [FDICT](fdict/README.md)
 
+## Rover Web Feature Integration Guides
+
+[Custom Point of Sale and Accounting Approval process](workflow-actions/pos-aged-credit-sample/readme.md)
 
 <PageFooter />
