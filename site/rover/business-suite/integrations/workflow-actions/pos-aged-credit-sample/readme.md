@@ -17,10 +17,10 @@
   - [Sample FDICT APPROVAL response](#sample-fdict-approval-response)
   - [Sample save PUTRECORD from FORMSDEF](#sample-save-putrecord-from-formsdef)
 - [Display Pending Approval Link in Accounting](#display-pending-approval-link-in-accounting)
-  - [Sample ACCT.CONTROL](#sample-acctcontrol)
-  - [Sample Lookup](#sample-lookup-1)
-    - [Request](#request-1)
-    - [Response](#response-1)
+  - [Sample ACCT.CONTROL](#sample-acct-control)
+  - [Sample Lookup](#sample-lookup-2)
+    - [Request](#request-2)
+    - [Response](#response-2)
   - [Sample Formsdef](#sample-formsdef)
 
 ## Enabling Point of Sale Payment Validation
