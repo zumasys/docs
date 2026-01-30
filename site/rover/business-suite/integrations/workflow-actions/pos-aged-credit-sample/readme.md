@@ -28,6 +28,8 @@
 The CASH file FDICT response needs to include a new section `validate_bp_items`. This section is an array of items, it must contain an item with `validate_ver` of 2.
 
 #### Sample
+<details>
+<summary>JSON Example</summary>
 
 ```json
 {
@@ -208,6 +210,8 @@ The CASH file FDICT response needs to include a new section `validate_bp_items`.
 }
 ```
 
+</details>
+
 ## Invoices Lookup
 
 To enable the use of a lookup data table to display in the Invoices section of POS, provide a new property on MRK control responses `pos_customer_invoices_lookup`
@@ -215,6 +219,9 @@ To enable the use of a lookup data table to display in the Invoices section of P
 ![invoices lookup](./invoices-lookup-table.png)
 
 #### Sample MRK response
+
+<details>
+<summary>Sample Json</summary>
 
 ```json
 [
@@ -557,6 +564,8 @@ To enable the use of a lookup data table to display in the Invoices section of P
   }
 ]
 ```
+
+</details>
 
 #### Sample LOOKUP
 
@@ -1357,6 +1366,9 @@ The formsdef form provided must then be provided as a form when requested via a 
 
 #### Validate Response Sample
 
+<details>
+<summary>Sample Json</summary>
+
 ```json
 {
   "response": {
@@ -1392,11 +1404,16 @@ The formsdef form provided must then be provided as a form when requested via a 
 }
 ```
 
+</details>
+
 #### Formsdef GETRECORD response
 
 Request GETRECORD for FORMSDEF with `id`="APPROVAL.REQ"
 
 `field_items` is a list of fields to display. These must be defined in FDICT for the file of the name specified in `file_name`. We will request this when displaying the form.
+
+<details>
+<summary>Sample Json</summary>
 
 ```json
 {
@@ -1426,7 +1443,12 @@ Request GETRECORD for FORMSDEF with `id`="APPROVAL.REQ"
 }
 ```
 
+</details>
+
 #### Sample FDICT APPROVAL response
+
+<details>
+<summary>Sample Json</summary>
 
 ```json
 {
@@ -1735,7 +1757,12 @@ Request GETRECORD for FORMSDEF with `id`="APPROVAL.REQ"
 }
 ```
 
+</details>
+
 #### Sample save PUTRECORD from FORMSDEF
+
+<details>
+<summary>Sample Json</summary>
 
 ```json
 {
@@ -1762,6 +1789,8 @@ Request GETRECORD for FORMSDEF with `id`="APPROVAL.REQ"
 }
 ```
 
+</details>
+
 ## Display Pending Approval Link in Accounting
 
 Custom cards are governed by a new property `acct_card_lookups_items` in the ACCT.CONTROL response. These have three properties
@@ -1777,6 +1806,9 @@ Custom cards are governed by a new property `acct_card_lookups_items` in the ACC
 ![accounting approval form](./accounting-custom-lookup-dynamic-form.png)
 
 #### Sample ACCT.CONTROL
+
+<details>
+<summary>Sample Json</summary>
 
 ```json
 [
@@ -1865,9 +1897,14 @@ Custom cards are governed by a new property `acct_card_lookups_items` in the ACC
 ]
 ```
 
+</details>
+
 #### Sample Lookup
 
 ##### Request
+
+<details>
+<summary>Sample Json</summary>
 
 ```json
 {
@@ -1881,7 +1918,12 @@ Custom cards are governed by a new property `acct_card_lookups_items` in the ACC
 }
 ```
 
+</details>
+
 ##### Response
+
+<details>
+<summary>Sample Json</summary>
 
 ```json
 {
@@ -2183,7 +2225,12 @@ Custom cards are governed by a new property `acct_card_lookups_items` in the ACC
 }
 ```
 
+</details>
+
 #### Sample Formsdef
+
+<details>
+<summary>Sample Json</summary>
 
 ```json
 {
@@ -2246,3 +2293,5 @@ Custom cards are governed by a new property `acct_card_lookups_items` in the ACC
   ]
 }
 ```
+
+</details>
