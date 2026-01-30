@@ -1,3 +1,28 @@
+# POS Aged Credit Sample
+
+<PageHeader />
+
+## Table of Contents
+
+- [Enabling Point of Sale Payment Validation](#enabling-point-of-sale-payment-validation)
+  - [Sample](#sample)
+- [Invoices Lookup](#invoices-lookup)
+  - [Sample MRK response](#sample-mrk-response)
+  - [Sample LOOKUP](#sample-lookup)
+    - [Request](#request)
+    - [Response](#response)
+- [Displaying a Formsdef form from Validation Response](#displaying-a-formsdef-form-from-validation-response)
+  - [Validate Response Sample](#validate-response-sample)
+  - [Formsdef GETRECORD response](#formsdef-getrecord-response)
+  - [Sample FDICT APPROVAL response](#sample-fdict-approval-response)
+  - [Sample save PUTRECORD from FORMSDEF](#sample-save-putrecord-from-formsdef)
+- [Display Pending Approval Link in Accounting](#display-pending-approval-link-in-accounting)
+  - [Sample ACCT.CONTROL](#sample-acctcontrol)
+  - [Sample Lookup](#sample-lookup-1)
+    - [Request](#request-1)
+    - [Response](#response-1)
+  - [Sample Formsdef](#sample-formsdef)
+
 ## Enabling Point of Sale Payment Validation
 
 The CASH file FDICT response needs to include a new section `validate_bp_items`. This section is an array of items, it must contain an item with `validate_ver` of 2.
