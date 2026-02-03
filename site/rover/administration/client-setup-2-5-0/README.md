@@ -7,7 +7,7 @@ Rover ERP is accessed through a program that must be installed on each client co
 
 To install, download the client linked above and extract it. Double click on `setup` to begin the process and follow the instructions below.
 
-> NOTE: It is possible to use services like Microsoft Intune to automate installation of this application on your domain computers. [Command-line Install Options](./cli-setup/README.md)
+> NOTE: It is possible to use services like Microsoft Intune to automate installation of this application on your domain computers. [Command-line Install Options](../cli-setup/README.md)
 
 ## Installing the Rover Client
 
