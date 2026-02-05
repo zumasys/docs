@@ -16,6 +16,8 @@
   - [Formsdef GETRECORD response](#formsdef-getrecord-response)
   - [Sample FDICT APPROVAL response](#sample-fdict-approval-response)
   - [Sample save PUTRECORD from FORMSDEF](#sample-save-putrecord-from-formsdef)
+  - [Sample PUTRECORD CASH response for non-validate](#sample-cash-putrecord-response)
+- [Lookup display tabs in POS](#lookup-display-tabs-in-pos)
 - [Display Pending Approval Link in Accounting](#display-pending-approval-link-in-accounting)
   - [Sample ACCT.CONTROL](#sample-acct-control)
   - [Sample Lookup](#sample-lookup-2)
@@ -1791,6 +1793,419 @@ Request GETRECORD for FORMSDEF with `id`="APPROVAL.REQ"
     ]
   },
   "filename": "APPROVAL"
+}
+```
+
+</details>
+
+#### Lookup Display Tabs in POS
+
+Point of sale supports displaying an arbitrary number of lookup data tables as sections within point of sale after a customer is selected. These are shown after Parts, Quotes, Orders, Invoices, Receipt History, and Payment Methods On File.
+
+![POS lookup tabs](./pos-lookups.png)
+
+This is defined in MRK.CONTROL as a new property called `pos_section_lookups_items`
+
+<details>
+<summary>MRK CONTROL JSON</summary>
+
+```json
+
+[
+    {
+        "control_id": "MRK1",
+        "cg_location": "CG",
+        "auto_set_ship_date": "N",
+        "assign_invoice_(how)": "S",
+        "allocate_shipments": "Y",
+        "accounting_orders_lookup": "SO*ON.HOLD",
+        "accounting_orders_lookup_desc": "Orders on hold",
+        "alloc_multiple_locations": "Y",
+        "accounting_release_items": [
+            {
+                "accounting_release": "RON"
+            },
+            {
+                "accounting_release": "VERN"
+            },
+            {
+                "accounting_release": "CATHIEM"
+            },
+            {
+                "accounting_release": "BONNIE"
+            },
+            {
+                "accounting_release": "CHRISTIANO"
+            }
+        ],
+        "allocation_sequence": "1",
+        "allow_po_creation": "Y",
+        "allow_customer_creation": "Y",
+        "allow_mixed_mode": "Y",
+        "apply_cm_to_open_order": "Y",
+        "assign_invoice_(when)": "S",
+        "assign_invoice_(with)": "L",
+        "auto_generate_ship": "N",
+        "auto_create_wo": "P",
+        "auto_create_sub-assembly_wo": "Y",
+        "auto_load_ship_qty": "Y",
+        "auto_process_rma_terms_document": "CUST",
+        "backorder_so": "ENTRY",
+        "breakout_tax": "N",
+        "cart_field_validation": "Y",
+        "commit_range": "999",
+        "fg_location": "FG",
+        "explode_phantoms": "Y",
+        "display_atp": "0",
+        "default_taxable_flag": "N",
+        "default_cust_terms": "AR",
+        "default_apply_overage_to_account": "N",
+        "customer_inquiry_lookup": "CUST*POS.CUST2",
+        "customer_inquiry_recently_viewed_lookup": "Y",
+        "default_image": "https://prodroverstorage.blob.core.windows.net/rover/icon-120x120-1.png",
+        "disable_downloading_statements": "N",
+        "disable_emailing_statements": "N",
+        "disable_updating_part_description": "N",
+        "display_inv": "0",
+        "display_credit_memos": "N",
+        "fet_account:": "000-0736F",
+        "fob_dest": "Irvine",
+        "filter_inactive_customers": "N",
+        "freight_acct#": "000-0930",
+        "misc_acct#": "TARIFF",
+        "log_serials": "Y",
+        "load_customer_notes": "Y",
+        "hide_pos_notes": "N",
+        "hide_load_customer_button": "N",
+        "hide_drafted_orders": "N",
+        "gppct_and_cost": "Y",
+        "gppct_cost_type": "Basis5",
+        "hide_parts_tab": "N",
+        "hide_order_buttons": "Y",
+        "hide_po_no": "N",
+        "hide_use_new_address": "N",
+        "hold_code_items": [
+            {
+                "hold_code": "C",
+                "hold_code_description": "Credit"
+            },
+            {
+                "hold_code": "E",
+                "hold_code_description": "Engineering HOLD LONG DES"
+            },
+            {
+                "hold_code": "W",
+                "hold_code_description": "Web Hold"
+            }
+        ],
+        "manually_load_orders": "N",
+        "manually_load_invoices": "N",
+        "sales_acct#": "000-1000",
+        "required_date_offset": "1",
+        "pos_price_strategy": "P",
+        "order_information_precedes_create_order": "N",
+        "order_header_shipto_display": "Top",
+        "pos_allow_partial_shipments": "Y",
+        "pos_allow_non_stock_parts": "Y",
+        "pos_allow_cash_deposit": "Y",
+        "part_cart_update_mode": "Y",
+        "pos_allow_coupons": "Y",
+        "pos_allow_payout": "Y",
+        "pos_allow_shipto_override": "N",
+        "pos_allow_refund": "Y",
+        "pos_maintain_cart_sort": "Y",
+        "pos_force_same_part_qty_increment": "N",
+        "pos_clear_category_on_search": "Y",
+        "pos_cc_pin_pad": "T",
+        "pos_auto_validate": "Y",
+        "pos_customer_orders_lookup": "SO*POS.CUST.OPEN",
+        "pos_cust_soquote_lookup": "SOQUOTE*POS.CUST.LOOKUP",
+        "pos_collapse_part_option_groups": "Y",
+        "pos_customer_invoices_lookup": "AR*POS.CUSTOMER",
+        "pos_disable_check_payout": "Y",
+        "pos_extra_info_items": [
+            {
+                "pos_extra_info": "15"
+            },
+            {
+                "pos_extra_info": "7"
+            },
+            {
+                "pos_extra_info": "10"
+            },
+            {
+                "pos_extra_info": "9"
+            }
+        ],
+        "pos_host_receipt_print": "Y",
+        "pos_hide_invoices_ar_kpi": "N",
+        "pos_lazy_load_shiptos": "N",
+        "pos_inv_lookups_items": [
+            {
+                "pos_inv_lookups": "SO*PART.ALL",
+                "inv_lookup_desc": "SO PART"
+            },
+            {
+                "pos_inv_lookups": "FORECAST*ALL",
+                "inv_lookup_desc": "Forecast Listing"
+            },
+            {
+                "pos_inv_lookups": "PO*PARTS.OPEN",
+                "inv_lookup_desc": "Lookup Open POs for a Part Number"
+            },
+            {
+                "pos_inv_lookups": "RMA*PARTS.OPEN",
+                "inv_lookup_desc": "Open Items for a Part Number Lookup"
+            },
+            {
+                "pos_inv_lookups": "IT*PART.NUMBER",
+                "inv_lookup_desc": "Part Number Lookup"
+            },
+            {
+                "pos_inv_lookups": "SHIP*Open Shipments",
+                "inv_lookup_desc": "List All Un-Confirmed Shipments"
+            },
+            {
+                "pos_inv_lookups": "AR*HOLD.LOOKUP",
+                "inv_lookup_desc": "Lookup Open Items on Hold"
+            },
+            {
+                "pos_inv_lookups": "ARR*CUST.OPEN",
+                "inv_lookup_desc": "Open ARR Listing by Customer"
+            },
+            {
+                "pos_inv_lookups": "PRICE*STD.PRICE",
+                "inv_lookup_desc": "Standard Price"
+            },
+            {
+                "pos_inv_lookups": "SO*PART.ALL",
+                "inv_lookup_desc": "Part Number Lookup for All Orders"
+            }
+        ],
+        "pos_parts_lookup": "PARTS*POS.PARTS",
+        "pos_order_code_items": [
+            {
+                "pos_order_code": "A",
+                "default_selection": "Y",
+                "pos_order_desc": "Ship",
+                "so_type_code": "C",
+                "ship_via_code": "03"
+            },
+            {
+                "pos_order_code": "B",
+                "default_selection": "N",
+                "pos_order_desc": "Will Call",
+                "so_type_code": "C",
+                "ship_via_code": "UPS BLUE"
+            },
+            {
+                "pos_order_code": "C",
+                "default_selection": "N",
+                "pos_order_desc": "Delivery",
+                "so_type_code": "D",
+                "ship_via_code": "02",
+                "signature_required": "Y"
+            },
+            {
+                "pos_order_code": "D",
+                "pos_order_desc": "Test",
+                "so_type_code": "C",
+                "ship_via_code": "UPS Worldwide Expedited"
+            }
+        ],
+        "pos_part_status_items": [
+            {
+                "pos_part_status": "A"
+            },
+            {
+                "pos_part_status": "C"
+            },
+            {
+                "pos_part_status": "P"
+            }
+        ],
+        "pos_partial_ship_field_items": [
+            {
+                "pos_partial_ship_field": "46"
+            },
+            {
+                "pos_partial_ship_field": "101"
+            },
+            {
+                "pos_partial_ship_field": "104"
+            },
+            {
+                "pos_partial_ship_field": "201"
+            }
+        ],
+        "prompt_on_price_override": "Y",
+        "post_invoice_on_ship": "Y",
+        "pos_show_pay_terms": "Y",
+        "pos_show_book_date": "N",
+        "pos_require_price_change_reason": "N",
+        "pos_require_entry_user_authentication": "N",
+        "pos_register_selection_mode": "U",
+        "pos_require_ship_signature": "Y",
+        "pos_rma_refund": "N",
+        "pos_section_lookups_items": [
+            {
+                "pos_section_lookups": "SO*POS.CUST.OPEN",
+                "section_lookup_desc": "POS open orders per customer"
+            },
+            {
+                "pos_section_lookups": "SO*POS.OPEN.ALL",
+                "section_lookup_desc": "POS all open orders"
+            }
+        ],
+        "pos_show_freight_amount": "Y",
+        "pos_show_edit_order": "Y",
+        "pos_show_category_filter": "Y",
+        "pos_show_order_status": "N",
+        "pos_show_keyword_search": "Y",
+        "pos_show_invoice_print": "Y",
+        "pos_show_order_confirmation_page": "N",
+        "pos_show_opp_tab": "Y",
+        "pos_show_orders_tab": "Y",
+        "pos_show_part_cost_column": "Y",
+        "pos_show_tax_codes": "Y",
+        "pos_show_ship_via": "Y",
+        "pos_show_sales_rep": "Y",
+        "pos_show_ship_id": "Y",
+        "pos_terms_require_payment": "Y",
+        "pos_skip_calc_tax": "Y",
+        "pos_soquote_lookup": "SOQUOTE*POS.LOOKUP",
+        "prohibit_open_po_shipments": "N",
+        "require_customer_parts_search": "N",
+        "sched_days": "30",
+        "schedule_horizon": "999",
+        "update_atp": "N",
+        "search_using_parts": "N",
+        "show_pick_ticket_print": "Y",
+        "skip_close_out_report": "Y",
+        "show_soquote_tab": "Y",
+        "suppress_invoice_parts": "Y",
+        "tariff_pct": "10.00",
+        "type_items": [
+            {
+                "type": "VISA",
+                "rma_receipt_location": "MRB",
+                "rma_cg_location": "CG",
+                "account_number": "VISA-ACCR",
+                "rma_freight_account": "000-0930",
+                "rma_credit": "Y",
+                "rma_sales_account": "000-0900",
+                "rma_type_description": "Warranty Repair",
+                "wo_type": "WR"
+            },
+            {
+                "type": "MC",
+                "rma_receipt_location": "MRB",
+                "rma_cg_location": "CG",
+                "account_number": "MC-ACCR",
+                "rma_freight_account": "000-0940",
+                "rma_sales_account": "000-0930",
+                "rma_type_description": "Billable Repair",
+                "wo_type": "BR"
+            },
+            {
+                "type": "DEFAULT",
+                "rma_receipt_location": "SCRAP",
+                "rma_cg_location": "CG",
+                "account_number": "000-0104",
+                "rma_freight_account": "000-0940",
+                "rma_credit": "Y",
+                "rma_sales_account": "000-0930",
+                "rma_type_description": "Scrap & Credit"
+            },
+            {
+                "type": "DISC",
+                "account_number": "000-0104"
+            },
+            {
+                "type": "AMEX",
+                "account_number": "000-0104"
+            }
+        ],
+        "use_lookup_for_recently_viewed": "N",
+        "use_gm_pct": "Y",
+        "valid_so_type_items": [
+            {
+                "valid_so_type": "R",
+                "so_type_code_description": "Return"
+            },
+            {
+                "valid_so_type": "W",
+                "so_type_code_description": "Wholesale"
+            },
+            {
+                "valid_so_type": "D",
+                "so_type_code_description": "Domestic"
+            },
+            {
+                "valid_so_type": "I",
+                "so_type_code_description": "International"
+            },
+            {
+                "valid_so_type": "C",
+                "so_type_code_description": "Credit Type Orders"
+            },
+            {
+                "valid_so_type": "T",
+                "so_type_code_description": "Rottler Test"
+            },
+            {
+                "valid_so_type": "z",
+                "so_type_code_description": "next test"
+            }
+        ]
+    }
+]
+
+```
+
+</details>
+
+#### Sample CASH Putrecord Response
+
+A formsdef response can also be displayed when payment is submitted, not only on validate. The only difference in request sent to PUTRECORD is the metaData property `validate_only` will not be set to "Y".
+
+![Formsdef on putrecord payment](./post-payment-formsdef.png)
+
+<details>
+<summary>Sample response</summary>
+
+```json
+{
+    "response": {
+        "status": "success",
+        "recordId": "",
+        "metaData": {
+            "workflow_action": {
+                "formId": "APPROVAL.REQ",
+                "recordId": "",
+                "fileName": "APPROVAL",
+                "title": "Please Request Approval",
+                "record": {
+                    "type": "AR",
+                    "request_date": "02-05-26",
+                    "request_by": "alexk",
+                    "li_items": [
+                        {
+                            "li": 1,
+                            "li_id": "24223",
+                            "li_amount": "39.60"
+                        },
+                        {
+                            "li": 2,
+                            "li_id": "24224",
+                            "li_amount": "-100.00"
+                        }
+                    ]
+                },
+                "type": "formsdef"
+            }
+        }
+    }
 }
 ```
 
