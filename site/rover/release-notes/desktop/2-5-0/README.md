@@ -23,6 +23,7 @@ You can download this version [here!](https://roverdesktop.blob.core.windows.net
 * Adds “Legacy Z-Index mode” to keep all Rover forms at the same z-index, preventing non-Rover forms from being displayed between Rover app forms.
 * Repurposes the “Dock Form” button to “Switch to Workspace.”
 * Updates the default installation port to 43522.
+* Removes Explorer and Messages panes from Studio Designer.
 
 ## Bug Fixes
 
@@ -51,6 +52,7 @@ You can download this version [here!](https://roverdesktop.blob.core.windows.net
 * Ensures the workspace form is the owner of the locked record dialog when the message is displayed before an editor window is active, improving visibility.
 * Ensures the “Show Multiple Configurations” setting is not overwritten by the installer unless “Overwrite Existing Configuration” is selected.
 * Resolves issues where additional setting fields’ read-only state is not set properly when switching between configurations.
+* Resolves an issue with before input messages being suppressed on initial focus events after tab changes.
 
 
 
