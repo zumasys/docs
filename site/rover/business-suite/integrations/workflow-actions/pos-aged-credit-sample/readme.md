@@ -216,6 +216,10 @@ The CASH file FDICT response needs to include a new section `validate_bp_items`.
 
 ## Invoices Lookup
 
+Lookups provide a means of displaying host-controlled data tables in Web, allowing the ERP backend to determine what columns are displayed, what file to search, and what query to run. The API Gateway does not create a select statement.
+
+A lookup request is sent to the `/Lookup` endpoint on the host.
+
 To enable the use of a lookup data table to display in the Invoices section of POS, provide a new property on MRK control responses `pos_customer_invoices_lookup`
 
 ![invoices lookup](./invoices-lookup-table.png)
