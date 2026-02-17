@@ -2,12 +2,12 @@
 
 <PageHeader />
 
-Rover ERP is accessed through a program that must be installed on each client computer. You can find the latest client installer [here](https://roverdesktop.blob.core.windows.net/apps/rover-installer-2.4.0.zip).
+Rover ERP is accessed through a program that must be installed on each client computer. You can find the latest client installer [here](https://roverdesktop.blob.core.windows.net/apps/rover-installer-2.5.0.zip).
 <!-- TODO: Update to point to @latest link -->
 
 To install, download the client linked above and extract it. Double click on `setup` to begin the process and follow the instructions below.
 
-> NOTE: It is possible to use services like Microsoft Intune to automate installation of this application on your domain computers.
+> NOTE: It is possible to use services like Microsoft Intune to automate installation of this application on your domain computers. [Command-line Install Options](../cli-setup/README.md)
 
 ## Installing the Rover Client
 
@@ -17,19 +17,17 @@ Use the default installation path and select Everyone
 
 ![Select Installation Folder](./select-install.png)
 
-### Login Prompts - Defaults
+### Connection Details
 
 You will need to use the settings provided to you by our team.
 
 ![Login Prompts - Defaults](./login-default.png)
 
-### Login Prompts - Visiblilty
+### Login Prompt Options
 
-These settings determine whether or not you want to give your users the option to change the defaults set above.
+These options determine which prompts display on the login screen, and whether Advanced Settings are editable.
 
-It is generally recommended to have all of these options **CHECKED** unless you want to hide this information.
-
-![Login Prompts - Visiblilty](./login-visibility.png)
+![Login Prompts - Visiblilty](./login-prompt-modes.png)
 
 ### Confirm Installation
 

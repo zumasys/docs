@@ -7,7 +7,7 @@ Rover ERP is accessed through a program that must be installed on each client co
 
 To install, download the client linked above and extract it. Double click on `setup` to begin the process and follow the instructions below.
 
-> NOTE: It is possible to use services like Microsoft Intune to automate installation of this application on your domain computers. [Command-line Install Options](../cli-setup/README.md)
+> NOTE: It is possible to use services like Microsoft Intune to automate installation of this application on your domain computers.
 
 ## Installing the Rover Client
 
@@ -17,17 +17,19 @@ Use the default installation path and select Everyone
 
 ![Select Installation Folder](./select-install.png)
 
-### Connection Details
+### Login Prompts - Defaults
 
 You will need to use the settings provided to you by our team.
 
 ![Login Prompts - Defaults](./login-default.png)
 
-### Login Prompt Options
+### Login Prompts - Visiblilty
 
-These options determine which prompts display on the login screen, and whether Advanced Settings are editable.
+These settings determine whether or not you want to give your users the option to change the defaults set above.
 
-![Login Prompts - Visiblilty](./login-prompt-modes.png)
+It is generally recommended to have all of these options **CHECKED** unless you want to hide this information.
+
+![Login Prompts - Visiblilty](./login-visibility.png)
 
 ### Confirm Installation
 
