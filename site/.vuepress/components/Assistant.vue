@@ -42,7 +42,7 @@ export default {
   data() {
     return {
       isOpen: false,
-      assistantUrl: "https://reports.zumasyslabs.com/assistants/admin:support-assistant/chat?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIzNTM0NDJhMS0yOGUwLTQ2ZmUtOGE2ZS1hMmQ3ZjRjMTVhYjAiLCJpYXQiOjE3NTA4Njk2MjYuNTE1fQ.olPNTo0vXT0BNJg9A4sD1kpn5NbV_3uzJ1qoXNr1qvY&embedded=true"
+      assistantUrl: "https://reports.zumasyslabs.com/assistants/admin%3Asupport-assistant/chat?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiIzNTM0NDJhMS0yOGUwLTQ2ZmUtOGE2ZS1hMmQ3ZjRjMTVhYjAiLCJpYXQiOjE3NTA4Njk2MjYuNTE1fQ.CmjpriJ-OKgYphwhCiPxKpVmMWyPAyB_tsGCmdEkjn8&embedded=true"
     };
   },
   methods: {
