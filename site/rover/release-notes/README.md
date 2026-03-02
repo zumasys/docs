@@ -130,10 +130,12 @@ Here's a sneak peek of what's to come in Rover Web as of [v2.12.4](./web/2-12-4/
 
 ## M3Services
 
-> For Linux installations, you must install the PERL script separately. [Dowlnload here.](https://roverdesktop.blob.core.windows.net/apps/M3ServicesCmd)
+> For Linux installations, you must install the PERL script separately. [Download here.](https://roverdesktop.blob.core.windows.net/apps/M3ServicesCmd)
 
 | Version                              | Date       | Download                                                                       |
 | ------------------------------------ | ---------- | ------------------------------------------------------------------------------ |
+| [v5.35](./m3services/5-35/README.md) | 2026-02-27 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.35.zip) |
+| [v5.34](./m3services/5-34/README.md) | 2026-02-25 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.34.zip) |
 | [v5.33](./m3services/5-33/README.md) | 2025-11-05 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.33.zip) |
 | [v5.31](./m3services/5-31/README.md) | 2025-09-22 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.31.zip) |
 | [v5.30](./m3services/5-30/README.md) | 2025-07-23 | [🔗](https://roverdesktop.blob.core.windows.net/apps/M3ServicesSetup_5.30.zip) |
