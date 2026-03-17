@@ -31,7 +31,11 @@
 
 This feature allows the POS shipping workflow to display a dynamic, host-driven form for collecting additional shipping header information before an order is shipped. The form is defined using the existing **FORMSDEF** system with a module of **SALES**, and is configured through the **MRK.CONTROL** response.
 
+![Shipping Detail Screen](./ship-details-screen.png)
+
 Additionally, the ship submit button on the Orders page can be configured with **Quick Ship** and **Detailed Ship** modes, allowing the host to control which shipping options are available to the user and which is the default.
+
+![Shipping button options](./ship-process-names.png)
 
 ## Prerequisites
 
