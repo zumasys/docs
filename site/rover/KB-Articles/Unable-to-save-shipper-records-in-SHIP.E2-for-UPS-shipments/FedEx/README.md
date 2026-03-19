@@ -1,4 +1,4 @@
-# Unable to save shipper record in SHIP.E2 for UPS shipments
+# Unable to save shipper records in SHIP.E2 for UPS shipments
 
 <PageHeader />
 Problem Statement
