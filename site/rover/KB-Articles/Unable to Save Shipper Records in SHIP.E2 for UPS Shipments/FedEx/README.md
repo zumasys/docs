@@ -1,4 +1,4 @@
-# Printer Not Activated Error 41 (Legacy Client)
+# Unable to save shipper record in SHIP.E2 for UPS shipments
 
 <PageHeader />
 Problem Statement
