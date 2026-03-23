@@ -10,5 +10,6 @@
 * [Resolving Unexpected Trakker Menu Display And Slow Remote Login In RoverERP](./Resolving-unexpected-trakker-menu-display-and-slow-remote-login-in-rovererp/README.md)
 * [Unable To Create The Excel File (Legacy Client)](./Unable-to-create-the-excel-file-legacy-client/README.md)
 * [Troubleshooting Rover Disconnects](./Troubleshooting-Rover-Disconnects/README.md)
-* [ACH Payments](./ACH-Payments/README.md)
+* [ACH Payments](./ACH-Payments/README.md) 
+* [AP Check Run Approval Process](./AP-Check-Run-Approval-Process/README.md)
 <PageFooter />
