@@ -1,49 +1,51 @@
 # ACH Payments
 
 <PageHeader />
-STEP 1 - SETUP 
 
-1. VENDOR.E 
+<badge text='accounts payable' vertical='middle' />
 
-![ACH Payments ](./ACH-Payments.jpg)
+## Step 1 - Setup
 
-PAY USING ACH Field Help 
+1. Open **VENDOR.E**.
 
-![ACH Payments 2 ](./ACH-Payments-2.jpg)
+![ACH Payments](./ACH-Payments.jpg)
 
-2. AP.CONTROL 
+Review **PAY USING ACH** field help.
 
-![ACH Payments 3 ](./ACH-Payments-3.jpg)
+![ACH Payments 2](./ACH-Payments-2.jpg)
 
-Note: Changes may be required to the format of the file that is transmitted to your bank. 
+2. Open **AP.CONTROL**.
 
-STEP 2 - Create Check Run for ACH Payments 
+![ACH Payments 3](./ACH-Payments-3.jpg)
 
-1. Enter the check run via AP.P1 
+> Note: Your bank may require changes to the ACH file format before transmission.
 
-![ACH Payments 4 ](./ACH-Payments-4.jpg)
+## Step 2 - Create Check Run for ACH Payments
 
-2. Create ACH payment File  
+1. Enter the check run in **AP.P1**.
 
-![ACH Payments 5 ](./ACH-Payments-5.jpg)
+![ACH Payments 4](./ACH-Payments-4.jpg)
 
-Procedure help for CHECK.P7 
+2. Create the ACH payment file.
 
-![ACH Payments 6 ](./ACH-Payments-6.jpg)
+![ACH Payments 5](./ACH-Payments-5.jpg)
 
-3. Post the check run via CHECKS.P1 
+Review procedure help for **CHECK.P7**.
 
-4. Transmit ACH file via CHECKS.P8 
+![ACH Payments 6](./ACH-Payments-6.jpg)
 
-![ACH Payments 7 ](./ACH-Payments-7.jpg)
+3. Post the check run in **CHECKS.P1**.
 
-Procedure help for CHECKS.P8 
+4. Transmit the ACH file in **CHECKS.P8**.
 
-![ACH Payments 8 ](./ACH-Payments-8.jpg)
+![ACH Payments 7](./ACH-Payments-7.jpg)
 
-If the transmission method is set to “automated”, M3 services must be running on the server and the first 3 fields in the “automated transmission settings” section of AP.CONTROL must be populated. 
+Review procedure help for **CHECKS.P8**.
 
- The commands referenced in this document are part of the accounts payable module. 
+![ACH Payments 8](./ACH-Payments-8.jpg)
 
- 
+If the transmission method is set to "automated", M3 services must be running on the server, and the first three fields in the "automated transmission settings" section of **AP.CONTROL** must be populated.
+
+The commands referenced in this document are part of the Accounts Payable module.
+
 <PageFooter />
