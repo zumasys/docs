@@ -1,6 +1,6 @@
 # Troubleshooting Rover Disconnects 
 
-# Rover ERP – Client Update Installation, Logging & GDI Monitoring Guide
+## Rover ERP – Client Update Installation, Logging & GDI Monitoring Guide
 
 ## Overview
 
@@ -30,9 +30,8 @@ Before updating, verify which version of the Rover ERP client you are running.
 3. In the About dialog, note the version number displayed
 4. If it is lower than the version provided by your support engineer, proceed with the update. If already at that version, no further update is required.
 
-::: tip
-Capture a screenshot of the version info if you need to confirm with IT.
-:::
+**tip:** Capture a screenshot of the version info if you need to confirm with IT.
+
 
 > **Summary:** Use Help → About to confirm if you need the update.
 
@@ -77,9 +76,8 @@ If you notice sluggish performance or lag after enabling logging:
 2. Uncheck **Enable logging**
 3. Save your changes and restart Rover ERP
 
-::: warning
-If a crash occurs while logging is disabled, you will not have logs to send to support. Consider re-enabling logging temporarily if directed by your engineer.
-:::
+ **warning:** If a crash occurs while logging is disabled, you will not have logs to send to support. Consider re-enabling logging temporarily if directed by your engineer.
+
 
 > **Summary:** Disable logging if it significantly slows down performance, but re-enable when asked to collect logs.
 
