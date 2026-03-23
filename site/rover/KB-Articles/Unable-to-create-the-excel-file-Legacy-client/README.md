@@ -8,6 +8,6 @@ Confirm whether Excel is listed as an application in SECURITY.E2.
 3. Enable "Use XLS"
 In SECURITY.E2, ask users to check the "Use XLS" box.
 
-![Screenshot](unable-to-create-the-excel-file.png)
-![Screenshot](unable-to-create-the-excel-file-2.png)
+![unable to create the excel file](unable-to-create-the-excel-file.png)
+![unable to create the excel file 2](unable-to-create-the-excel-file-2.png)
 <PageFooter />
