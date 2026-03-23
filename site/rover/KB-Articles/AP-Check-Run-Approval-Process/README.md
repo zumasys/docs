@@ -36,6 +36,8 @@ Open the check run in **PRECHECKS.E2** to approve invoices.
 
 Once saved, the system will remember which invoices have been approved or unapproved. The status will change to **"Pending Approval"**.
 
+![AP Check Run Approval Process 3 ](./AP-Check-Run-Approval-Process-3.jpg)
+
 **3. Mark Ready to Pay**
 
 When ready to print the checks, check the **Ready to Pay** box.
@@ -43,6 +45,8 @@ When ready to print the checks, check the **Ready to Pay** box.
 - When the record is saved, any invoice that is **not** marked as approved will be removed from the PRECHECK record
 - For example, if AP ID `1-9` was not approved, it will no longer appear in PRECHECKS.E2
 - The status message will show who approved the ID and when it was approved
+
+![AP Check Run Approval Process 4 ](./AP-Check-Run-Approval-Process-4.jpg)
 
 **4. Reapproval After Changes**
 
@@ -54,5 +58,7 @@ If any changes are made in **PRECHECKS.E**, the record will need to be reapprove
 
 - Check runs **cannot** be printed or posted in **CHECKS.P1** if the entire check run has not been approved
 - An error will be generated if at least one precheck record remains unapproved at the time of printing or posting
+
+![AP Check Run Approval Process 5 ](./AP-Check-Run-Approval-Process-5.jpg)
 
 <PageFooter />
