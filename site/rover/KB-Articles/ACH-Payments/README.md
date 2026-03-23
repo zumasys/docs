@@ -5,7 +5,7 @@ STEP 1 - SETUP
 
 1. VENDOR.E 
 
-![ACH Payments ](./ACH-Payments.JPG)
+![ACH Payments ](./ACH-Payments.jpg)
 
 
 <PageFooter />
