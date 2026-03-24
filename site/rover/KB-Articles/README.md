@@ -14,4 +14,5 @@
 * [AP Check Run Approval Process](./AP-Check-Run-Approval-Process/README.md)
 * [Network Power Outage](./Network-Power-Outage/README.md)
 * [Resolving Locked Records In Rover](./Resolving-Locked-Records-In-Rover/README.md)
+* [Rover Support Logs Sop](./Rover-Support-Logs-SOP/README.md)
 <PageFooter />
