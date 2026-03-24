@@ -12,4 +12,5 @@
 * [Troubleshooting Rover Disconnects](./Troubleshooting-Rover-Disconnects/README.md)
 * [ACH Payments](./ACH-Payments/README.md) 
 * [AP Check Run Approval Process](./AP-Check-Run-Approval-Process/README.md)
+* [Network Power Outage](./Network-Power-Outage/README.md)
 <PageFooter />
