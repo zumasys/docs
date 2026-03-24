@@ -22,4 +22,5 @@
 * [How to Update the QC Signature on the PO.F3 Form Without Interrupting PO Processing in RoverERP](./How-to-Update-the-QC-Signature-on-the-PO-F3-Form-Without-Interrupting-PO-Processing-in-RoverERP/README.md)
 * [Troubleshooting Login Issues on a Reassigned Laptop in RoverERP](./Troubleshooting-Login-Issues-on-a-Reassigned-Laptop-in-RoverERP/README.md)
 * [Resolving Unposted RECEIPTS.P1 Transactions Impacting Accounts Payable in RoverERP](./Resolving-Unposted-RECEIPTS-P1-Transactions-Impacting-Accounts-Payable-in-RoverERP/README.md)
+* [Troubleshooting "Could Not Connect" Error When Logging into RoverERP After Server Move](./Troubleshooting-Could-Not-Connect-Error-When-Logging-into-RoverERP-After-Server-Move/README.md)
 <PageFooter />
