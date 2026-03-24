@@ -16,4 +16,5 @@
 * [Resolving Locked Records In Rover](./Resolving-Locked-Records-In-Rover/README.md)
 * [Rover Support Logs Sop](./Rover-Support-Logs-SOP/README.md)
 * [Resolving Usage Data Not Updating Due to USAGE.P1 Process Not Running](./Resolving-Usage-Data-Not-Updating-USAGE-P1/README.md)
+* [How to Search for Sales Orders with the Hold Type "DRAFT" in RoverERP](./Searching-Sales-Orders-With-DRAFT-Hold-Type/README.md)
 <PageFooter />
