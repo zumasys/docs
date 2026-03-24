@@ -207,7 +207,8 @@ module.exports = {
               ["/rover/PUR-OVERVIEW/PUR-PROCESS/", "Purchasing Process"],
               ["/rover/PUR-OVERVIEW/PUR-REPORT/", "Purchasing Report"]]
           },
-          ["/rover/workflow-management/", "Workflow Management"]
+          ["/rover/workflow-management/", "Workflow Management"],
+          ["/rover/KB-Articles/", "KB Articles"]
         ]
       },
       {
