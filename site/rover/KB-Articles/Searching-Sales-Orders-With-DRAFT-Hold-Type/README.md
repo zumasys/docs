@@ -31,7 +31,7 @@ Users need to identify and review sales orders that are currently in a **DRAFT**
 2. When prompted, enter `DRAFT` in the hold code field to filter for orders with the **DRAFT** hold type
 3. If you leave the hold code field blank, the report will list all orders currently on hold, regardless of hold type
 
-![searching sales order](./searching%20sales%20order.jpg)
+![Searching Sales Order With Draft Hold Type](./Searching-Sales-Order-With-Draft-Hold-Type.jpg)
 
 ### 2. Review the Report Output
 
