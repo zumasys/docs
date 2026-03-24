@@ -20,4 +20,5 @@
 * [How To Reverse A Shipment Or Specific Line Items In RoverERP](./How-To-Reverse-A-Shipment-Or-Specific-Line-Items-In-RoverERP/README.md)
 * [MRP Report Returns Blank Due To Stuck Update-in-Process Flag In RoverERP](./MRP-Report-Returns-Blank-Due-To-Stuck-Update-In-Process-Flag-In-RoverERP/README.md)
 * [How to Update the QC Signature on the PO.F3 Form Without Interrupting PO Processing in RoverERP](./How-to-Update-the-QC-Signature-on-the-PO-F3-Form-Without-Interrupting-PO-Processing-in-RoverERP/README.md)
+* [Troubleshooting Login Issues on a Reassigned Laptop in RoverERP](./Troubleshooting-Login-Issues-on-a-Reassigned-Laptop-in-RoverERP/README.md)
 <PageFooter />
