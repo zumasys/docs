@@ -17,13 +17,12 @@ These are the release notes for version 2.23.0 (3/25/2026) of the Rover Web appl
 - Enhanced the AR and AP search experience with a dynamic heading that shows "Search Results for - {term}", a reset button to clear search terms and column filters, and automatic clearing of the search input after each search.
 ![Search Results improvement](./ar-search-results.png)
 
-- Updated the AR/AP landing and detail pages with responsive UI components for a more modern and flexible layout.
 - The accounting dashboard now supports dynamic card lookups rendered from backend configuration, with context-aware form dialogs.
 
 ### Customer Inquiry
 
-- Added a new **Receipt History** tab to the Customer Inquiry form, providing quick access to receipt history for any customer.
-![Customer Receipt History](./customers-receipt-history.png)
+- Added a new **Payment History** tab to the Customer Inquiry form, providing quick access to receipt history for any customer.
+![Customer Payment History](./customers-payment-history.png)
 
 - The search input is now automatically focused when navigating to Customer Inquiry, so users can begin typing immediately.
 
@@ -39,9 +38,12 @@ These are the release notes for version 2.23.0 (3/25/2026) of the Rover Web appl
 ![POS Shipping](./pos-shipping.png)
 
 - After order finalization, host systems can now drive navigation behavior, providing better user workflows.
+
 - Added support for additional fields in the cart for sales order quotes with corrected correlative handling.
 ![POS Quotes Additional Fields](./pos-quote-addl-fields.png)
 
+- Improvements to cart dialog display, specifically addressing layout on smaller tablet screens.
+![POS Cart Dialog](./pos-cart-dialog.png)
 ### Production / Scheduling
 
 - The scheduling gantt chart now displays non-working days and holidays sourced from MC control configuration and warns users when rescheduling items to non-working days.
