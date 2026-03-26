@@ -1,4 +1,4 @@
-# Resolving High Resource Usage Warning in RoverERP
+﻿# Resolving High Resource Usage Warning in RoverERP
 
 <PageHeader />
 
@@ -26,7 +26,7 @@ Users receive a warning message in RoverERP stating:
 - High GDI usage can occur if many RoverERP windows or modules are open at the same time
 - This is a known issue and is being addressed in future updates
 
-![Warning Resource Usage Is High ](./warning-Resource-Usage-Is-High.jpg)
+![Warning Resource Usage Is High ](./Warning-Resource-Usage-Is-High.jpg)
 
 ---
 
