@@ -34,4 +34,5 @@
 * [Resolving Parts on Order Still Driving Demand in RoverERP](./Resolving-Parts-on-Order-Still-Driving-Demand-in-RoverERP/README.md)
 * [Resolving Unposted Transactions from RECEIPTS.P1 in RoverERP](./Resolving-Unposted-Transactions-from-RECEIPTS-P1-in-RoverERP/README.md)
 * [Resolving ServicesClientTcp.ExecuteService Errors in RoverERP Due to Virus Blockers](./Resolving-ServicesClientTcp-ExecuteService-Errors-in-RoverERP-Due-to-Virus-Blockers/README.md)
+* [Troubleshooting Slowness or Inability to Login in RoverERP](./Troubleshooting-Slowness-or-Inability-to-Login-in-RoverERP/README.md)
 <PageFooter />
