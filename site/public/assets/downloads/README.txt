@@ -11,14 +11,14 @@ Other notes:
 
 - There should only be one `#` section in an article. 
 - Leave the `<PageHeader/>` and `<PageFooter/>` tags where they are. 
-- This file should be left as `README.md` and you should place it inside a folder that represents the article name. 
+- This file should be left as `index.md` and you should place it inside a folder that represents the article name. 
 - Any images that you want to include inline should be placed in that folder too.
 
 ```
 * article-name (this is the folder)
   * image1.png (an image for the article)
   * image3.png (another image for the article)
-  * README.md (this file/the article you just made)
+  * index.md (this file/the article you just made)
 ```
 
 If your article needs to reference a file for download like a `.docx` or a `.pdf`, please place it into the `site/public/assets/downloads` directory and link to it like so:

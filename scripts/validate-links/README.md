@@ -7,7 +7,7 @@ This directory contains utility scripts for maintaining the Zumasys documentatio
 A Node.js script that validates all markdown links in the documentation to ensure they:
 
 1. Point to existing files/directories
-2. End with `/README.md` (not just the directory name)
+2. End with `/index.md` (not just the directory name)
 3. Use correct relative paths
 
 ### Usage
@@ -65,7 +65,7 @@ npm run validate-links -- --fix 2>&1 | tee link-fix-report.txt
 
 ### What it checks
 
-The script scans all `README.md` files in the following directories:
+The script scans all `index.md` files in the following directories:
 
 - `rover/`
 - `pos-connect/`
@@ -74,13 +74,13 @@ The script scans all `README.md` files in the following directories:
 For each markdown link it finds, it validates:
 
 1. **Invalid Paths** - Links that point to non-existent files or directories
-2. **Missing /README.md** - Links that point to a directory but don't include `/README.md` at the end
+2. **Missing /index.md** - Links that point to a directory but don't include `/index.md` at the end
 
 ### Auto-Fix Mode (--fix)
 
 When run with the `--fix` flag, the script will automatically correct:
 
-1. **Missing /README.md suffixes** - Appends `/README.md` to directory links
+1. **Missing /index.md suffixes** - Appends `/index.md` to directory links
 2. **Broken links with findable targets** - Searches for the target article and updates the path
 3. **Preserves anchors** - Keeps any `#section` anchors in the URL
 
@@ -105,13 +105,13 @@ The script provides detailed output showing:
 #### Example Output
 
 ```text
-File: rover/PUR-OVERVIEW/PUR-REPORT/PO-F2/README.md
+File: rover/PUR-OVERVIEW/PUR-REPORT/PO-F2/index.md
   Line 24:49 - [ PO.E ](../../../../../../../../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/CURRENCY-CONTROL/PO-E)
     ✗ Target path does not exist
     
   Line 6:17 - [ Form Details ](PO-F2-1)
-    ⚠ Link should end with /README.md
-      → Suggestion: PO-F2-1/README.md
+    ⚠ Link should end with /index.md
+      → Suggestion: PO-F2-1/index.md
 ```
 
 ### Exit Codes
@@ -135,25 +135,25 @@ The script:
 ### Common Issues Found
 
 1. **Incorrect relative paths** - Often caused by overly complex `../` navigation that points to wrong locations
-2. **Missing /README.md suffix** - Links like `[Text](folder-name)` should be `[Text](folder-name/README.md)`
+2. **Missing /index.md suffix** - Links like `[Text](folder-name)` should be `[Text](folder-name/index.md)`
 3. **Broken links after file reorganization** - Links that weren't updated when files were moved
 
 ### Best Practices
 
 Based on the script's findings, follow these guidelines:
 
-1. Always end directory links with `/README.md`:
+1. Always end directory links with `/index.md`:
 
    ```markdown
    ✗ [PO Entry](PO-E)
-   ✓ [PO Entry](PO-E/README.md)
+   ✓ [PO Entry](PO-E/index.md)
    ```
 
 2. Use relative paths from the current file:
 
    ```markdown
    ✗ [PO.E](../../../../../../../../../../../rover/AP-OVERVIEW/...)
-   ✓ [PO.E](../../PUR-ENTRY/PO-E/README.md)
+   ✓ [PO.E](../../PUR-ENTRY/PO-E/index.md)
    ```
 
 3. Keep directory structure in mind when creating links

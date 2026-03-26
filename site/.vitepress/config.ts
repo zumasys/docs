@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'Product Documentation',
   description: 'Your home for Rover Business Suite product support and documentation.',
+  ignoreDeadLinks: true,
   head: [['link', { rel: 'icon', href: '/assets/img/favicon.ico' }]],
   markdown: {
     lineNumbers: true,

@@ -1,0 +1,21 @@
+# Engineering Update Processes
+
+<PageHeader />
+
+- [BOM.P1](BOM-P1/index.md) Reset Bill of Material Type Codes
+- [BOM.P2](BOM-P2/index.md) Remove Non-effective lines from Bills of Material
+- [BOM.P3](BOM-P3/index.md) Bill of Material Mass Change Update
+- [BOM.P4](BOM-P4/index.md) Bill of Material BOM Qty Reset
+- [COST.P1](COST-P1/index.md) Rollup Standard Costs
+- [COST.P2](COST-P2/index.md) Rollover Standard Costs
+- [ECN.P1](ECN-P1/index.md) Post ECN Data to Parts Master
+- [PARTS.P1](PARTS-P1/index.md) Stratify Parts for Cycle Counting
+- [PARTS.P2](PARTS-P2/index.md) Delete Parts Flagged for Deletion
+- [PARTS.P4](PARTS-P4/index.md) Regenerate Low Level Codes
+- [PARTS.P5](PARTS-P5/index.md) Rebuild the SPEC.CONTROL Record
+- [PARTS.P6](PARTS-P6/index.md) Mass Change the Part Specs
+- [WU.P1](WU-P1/index.md) Regenerate Where Used File
+
+<badge text= "Version 8.10.57" vertical="middle" />
+
+<PageFooter />

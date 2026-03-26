@@ -18,7 +18,7 @@ This is a [VitePress](https://vitepress.dev/) documentation application that lev
 │   ├── pos-connect (POS Connect docs)
 │   ├── rover (Rover docs)
 │   ├── smartsuite (SmartSuite docs)
-│   ├── README.md (The home page of the docs)
+│   ├── index.md (The home page of the docs)
 │   └── package.json
 └── README.md (You are here!)
 ```
@@ -48,7 +48,7 @@ To run the application locally:
 A Node.js script is available to validate all markdown links in the documentation. This helps ensure that:
 
 * All links point to existing files/directories
-* Links to directories end with `/README.md`
+* Links to directories end with `/index.md`
 * No broken links exist after file reorganization
 
 To run the link validator:

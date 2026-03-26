@@ -3,10 +3,10 @@
 /**
  * Markdown Link Validator and Auto-Fixer for Zumasys Documentation
  * 
- * This script scans all README.md files in rover, pos-connect, and smartsuite folders
+ * This script scans all index.md files in rover, pos-connect, and smartsuite folders
  * and validates that all markdown links:
  * 1. Point to existing files/directories
- * 2. End with /README.md (not just the directory name)
+ * 2. End with /index.md (not just the directory name)
  * 3. Use correct relative paths
  * 
  * With --fix flag, it will automatically correct fixable issues.
@@ -47,11 +47,11 @@ const stats = {
   unfixable: 0,
 };
 
-// Store all README.md files for searching
+// Store all index.md files for searching
 let allReadmeFiles = [];
 
 /**
- * Find all README.md files recursively in a directory
+ * Find all index.md files recursively in a directory
  */
 function findReadmeFiles(dir) {
   const results = [];
@@ -70,7 +70,7 @@ function findReadmeFiles(dir) {
             !item.name.startsWith('.')) {
           results.push(...findReadmeFiles(fullPath));
         }
-      } else if (item.isFile() && item.name === 'README.md') {
+      } else if (item.isFile() && item.name === 'index.md') {
         results.push(fullPath);
       }
     }
@@ -127,14 +127,14 @@ function findCorrectPath(sourceFile, brokenUrl) {
   const urlParts = brokenUrl.split('/');
   let targetName = urlParts[urlParts.length - 1];
   
-  // If the last part is README.md, use the directory name before it
+  // If the last part is index.md, use the directory name before it
   if (targetName.toLowerCase() === 'readme.md') {
     targetName = urlParts[urlParts.length - 2];
   }
   
   if (!targetName) return null;
   
-  // Search for README.md files that match the target name (case-insensitive)
+  // Search for index.md files that match the target name (case-insensitive)
   const sourceDir = path.dirname(sourceFile);
   const targetNameLower = targetName.toLowerCase();
   const candidates = allReadmeFiles.filter(file => {
@@ -272,16 +272,16 @@ function validateLink(sourceFile, link) {
   const exists = actualPath !== null;
   
   if (!exists) {
-    // Check if it would exist with /README.md appended (case-insensitive)
-    const withReadme = path.join(targetPath, 'README.md');
+    // Check if it would exist with /index.md appended (case-insensitive)
+    const withReadme = path.join(targetPath, 'index.md');
     const actualWithReadme = findPathCaseInsensitive(withReadme);
     const withReadmeExists = actualWithReadme !== null;
     
     if (withReadmeExists) {
       issues.push({
         type: 'missing-readme',
-        message: `Link should end with /README.md`,
-        suggestion: `${urlWithoutAnchor}/README.md`,
+        message: `Link should end with /index.md`,
+        suggestion: `${urlWithoutAnchor}/index.md`,
         fixable: true,
       });
       stats.missingReadme++;
@@ -310,24 +310,24 @@ function validateLink(sourceFile, link) {
       }
     }
   } else {
-    // Path exists - check if it's a directory without /README.md
+    // Path exists - check if it's a directory without /index.md
     const stat = fs.statSync(actualPath);
     
     if (stat.isDirectory()) {
-      const readmePath = path.join(actualPath, 'README.md');
+      const readmePath = path.join(actualPath, 'index.md');
       const actualReadmePath = findPathCaseInsensitive(readmePath);
       if (actualReadmePath) {
         issues.push({
           type: 'missing-readme',
-          message: `Link points to directory but should end with /README.md`,
-          suggestion: `${urlWithoutAnchor}/README.md`,
+          message: `Link points to directory but should end with /index.md`,
+          suggestion: `${urlWithoutAnchor}/index.md`,
           fixable: true,
         });
         stats.missingReadme++;
       } else {
         issues.push({
           type: 'invalid-path',
-          message: `Directory exists but has no README.md`,
+          message: `Directory exists but has no index.md`,
           suggestion: null,
           fixable: false,
         });
@@ -407,7 +407,7 @@ function fixFileIssues(filePath, fileIssues) {
 }
 
 /**
- * Process a single README.md file
+ * Process a single index.md file
  */
 function processFile(filePath) {
   const relativePath = path.relative(BASE_DIR, filePath);
@@ -500,7 +500,7 @@ function main() {
     
     const files = findReadmeFiles(folderPath);
     allFiles.push(...files);
-    console.log(`Found ${files.length} README.md files in ${folder}/`);
+    console.log(`Found ${files.length} index.md files in ${folder}/`);
   }
   
   stats.totalFiles = allFiles.length;
@@ -529,7 +529,7 @@ function main() {
   console.log(`Total files scanned:        ${stats.totalFiles}`);
   console.log(`Total links found:          ${stats.totalLinks}`);
   console.log(`${colors.green}Valid links:                ${stats.validLinks}${colors.reset}`);
-  console.log(`${colors.yellow}Missing /README.md:         ${stats.missingReadme}${colors.reset}`);
+  console.log(`${colors.yellow}Missing /index.md:         ${stats.missingReadme}${colors.reset}`);
   console.log(`${colors.red}Invalid paths:              ${stats.invalidPaths}${colors.reset}`);
   
   if (FIX_MODE) {
