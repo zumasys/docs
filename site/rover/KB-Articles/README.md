@@ -28,4 +28,5 @@
 * [Warning: Resource Usage Is High](./Warning-Resource-Usage-Is-High/README.md)
 * [RPC Server Is Unavailable Upon Logging Into Rover](./RPC-Server-Is-Unavailable-Upon-Logging-Into-Rover/README.md)
 * [PO Not Showing Up or Delayed in "On Order" Tab in INV.Q](./PO-Not-Showing-Up-or-Delayed-in-On-Order-Tab-in-INV-Q/README.md)
+* [Resolving "Open failed: Execute (2): -2146827284" Error When Uploading Files in RoverERP](./Resolving-Open-failed-Execute-2-2146827284-Error-When-Uploading-Files-in-RoverERP/README.md)
 <PageFooter />
