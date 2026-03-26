@@ -26,4 +26,5 @@
 * [Service/Batch Will Stall or Show a Status of "Non Responding"](./Service-Batch-Stall-Or-Non-Responding/README.md)
 * [Application Error Upon Logging in (Legacy Client)](./Application-Error-Upon-Logging-In-Legacy-Client/README.md)
 * [Warning: Resource Usage Is High](./Warning-Resource-Usage-Is-High/README.md)
+* [RPC Server Is Unavailable Upon Logging Into Rover](./RPC-Server-Is-Unavailable-Upon-Logging-Into-Rover/README.md)
 <PageFooter />
