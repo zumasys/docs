@@ -10,7 +10,7 @@ When you run the script with the `--fix` flag, it will:
 
 1. **Scan all files** just like validation mode
 2. **Identify fixable issues**:
-   - Missing `/README.md` suffixes
+   - Missing `/index.md` suffixes
    - Broken links where the target article can be found
 3. **Update the links** in place
 4. **Report what was fixed** and what still needs manual attention
@@ -42,22 +42,22 @@ npm run validate-links -- --fix --backup
 
 ### ✅ Automatically Fixable
 
-1. **Missing /README.md Suffix**
+1. **Missing /index.md Suffix**
    ```markdown
    Before: [PO Entry](PO-E)
-   After:  [PO Entry](PO-E/README.md)
+   After:  [PO Entry](PO-E/index.md)
    ```
 
 2. **Broken Links with Findable Targets**
    ```markdown
    Before: [PO.E](../../../../../../../rover/AP-OVERVIEW/.../PO-E)
-   After:  [PO.E](../../PUR-ENTRY/PO-E/README.md)
+   After:  [PO.E](../../PUR-ENTRY/PO-E/index.md)
    ```
 
 3. **Preserves Anchors**
    ```markdown
    Before: [Setting](CONTROL#feature-toggle)
-   After:  [Setting](CONTROL/README.md#feature-toggle)
+   After:  [Setting](CONTROL/index.md#feature-toggle)
    ```
 
 ### ❌ Requires Manual Fixing
@@ -70,7 +70,7 @@ npm run validate-links -- --fix --backup
 
 The auto-fix feature includes intelligent path finding:
 
-- **Searches all README.md files** in your documentation
+- **Searches all index.md files** in your documentation
 - **Finds articles by name** (e.g., finds `PO-E` wherever it exists)
 - **Prefers closer matches** - Chooses paths in the same module/section when multiple matches exist
 - **Calculates correct relative paths** automatically
@@ -86,10 +86,10 @@ Since this project uses Git, you can easily review and revert changes:
 git diff
 
 # See specific file changes
-git diff site/rover/PUR-OVERVIEW/PUR-REPORT/PO-F2/README.md
+git diff site/rover/PUR-OVERVIEW/PUR-REPORT/PO-F2/index.md
 
 # Revert a specific file
-git checkout site/rover/PUR-OVERVIEW/PUR-REPORT/PO-F2/README.md
+git checkout site/rover/PUR-OVERVIEW/PUR-REPORT/PO-F2/index.md
 
 # Revert all changes
 git checkout .
@@ -106,8 +106,8 @@ npm run validate-links -- --fix --backup
 This creates `.backup` files:
 
 ```
-PO-F2/README.md
-PO-F2/README.md.backup  ← Original preserved
+PO-F2/index.md
+PO-F2/index.md.backup  ← Original preserved
 ```
 
 ## Example Output
@@ -115,10 +115,10 @@ PO-F2/README.md.backup  ← Original preserved
 ### Validation Mode (No --fix)
 
 ```
-File: rover\PUR-OVERVIEW\PUR-REPORT\PO-F2\README.md
+File: rover\PUR-OVERVIEW\PUR-REPORT\PO-F2\index.md
   Line 24:49 - [ PO.E ](../../../../../../../rover/AP-OVERVIEW/.../PO-E)
     ✗ Target path does not exist
-      → Suggestion: ../../PUR-ENTRY/PO-E/README.md
+      → Suggestion: ../../PUR-ENTRY/PO-E/index.md
 
 Total issues: 2421
 ⚠ Issues found! Run with --fix to automatically fix them:
@@ -128,7 +128,7 @@ Total issues: 2421
 ### Auto-Fix Mode (With --fix)
 
 ```
-File: rover\PUR-OVERVIEW\PUR-REPORT\PO-F2\README.md
+File: rover\PUR-OVERVIEW\PUR-REPORT\PO-F2\index.md
   Line 24:49 - [ PO.E ](../../../../../../../rover/AP-OVERVIEW/.../PO-E)
     ✗ Target path does not exist
   ✓ Fixed 1 issue(s)
@@ -167,7 +167,7 @@ Let the script fix what it can automatically.
 git diff
 
 # Check specific files
-git diff site/rover/PUR-OVERVIEW/PUR-REPORT/PO-F2/README.md
+git diff site/rover/PUR-OVERVIEW/PUR-REPORT/PO-F2/index.md
 ```
 
 ### 4. Test Locally
@@ -198,7 +198,7 @@ Based on the current state of the documentation:
 - **Total Links**: 5,154
 - **Valid Links**: 2,733 (53%)
 - **Fixable Issues**: ~1,500-1,800 (estimated)
-  - Missing /README.md: 175 (all auto-fixable)
+  - Missing /index.md: 175 (all auto-fixable)
   - Broken links: 2,246 (many auto-fixable with smart path finding)
 - **Manual Fixes Needed**: ~600-900 (estimated)
 
