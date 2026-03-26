@@ -33,7 +33,7 @@ always set this field to 0.
   
 **Create Picker?** Check this box if a picker record is normally created.  
   
-**Allow Picker Updates** Check this box if updates to the part number and location fields are allowed in [ PICKER.E2 ](../../PICKER-E2/index.md) . If this box is not checked, you will need to use [ PICKER.E1 ](PICKER-E1/index.md) to make those changes.   
+**Allow Picker Updates** Check this box if updates to the part number and location fields are allowed in [ PICKER.E2 ](../../PICKER-E2/index.md) . If this box is not checked, you will need to use [ PICKER.E1 ](../../PICKER-E/index.md) to make those changes.   
   
 **Prevent Excess Completions** Check this box if a work order cannot be
 completed for a quantity greater than what is was issued for. If this box is

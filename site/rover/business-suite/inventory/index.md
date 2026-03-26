@@ -484,3 +484,5 @@ Once a PO is chosen, its open lines appear with the following columns. Use the r
 [Related Parts](related-parts/index.md)
 
 [PO Receipts](receiving/index.md)
+
+<PageFooter />

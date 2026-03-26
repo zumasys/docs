@@ -11,3 +11,5 @@ These are the release notes for version 1.11.2 (11/21/2024) of the Rover Web app
 - **Rover Web**
   - **Point of Sale**
     - Removing Opportunities tab from Point of Sale main page. Will be added back in a future release.
+
+<PageFooter />

@@ -1,5 +1,7 @@
 # BLSIGNATURE
 
+<PageHeader />
+
 This endpoint is used to request a signature capture from the POS Bolt device.
 
 ## POST Request Attributes
@@ -51,3 +53,5 @@ This endpoint is used to request a signature capture from the POS Bolt device.
     "signature": "H4sICAAAAAAC/1NJRy5CTVAA7NChDcJQAEXR+xdBNygmQNR3FcJwDMQk/RgEvoY059iXa966Pa5Vda+W6j3qVY1GVbfv/mvOGQAAAAB/6HKg3Q+0T9cDAAAAAMBZfQYABOvB024qAAA="
 }
 ```
+
+<PageFooter />

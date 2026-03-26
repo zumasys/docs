@@ -1,5 +1,7 @@
 # BLTOKENREFUND
 
+<PageHeader />
+
 This endpoint is used to refund an amount that was previously authorized through `BLAUTH` or `BLTOKENAUTH`
 
 ## POST Attribute Format
@@ -57,3 +59,5 @@ This endpoint is used to refund an amount that was previously authorized through
     "ccvRec": "OTQ3ODg0ODcxODY1MDA3Nv4xMjIy/v7+/v5FTkNSWVBURUT+/v5CTP5Q/v5bRDEwXSBBIGNoYXJnZSBmb3IgdGhpcyB0cmFuc2FjdGlvbiwgYW5kIGFtb3VudCBhbHJlYWR5IGV4aXN0cyEH/TwxPj1DaGFyZ2UgdGhpcyBjYXJkIGFnYWluLCA8Mj49VXNlIGV4aXN0aW5nIGF1dGhvcml6YXRpb24sIDwzPj1FeGl0/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v5UT0tFTi1SRVRVUk7+/kJPTFT+/v7+/v4xKjE5NTYyKjExMCo0MTY0Miox/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v5yYzc4MjY="
 }
 ```
+
+<PageFooter />

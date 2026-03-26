@@ -1,5 +1,7 @@
 # Workflow Management
 
+<PageHeader />
+
 Workflow Management module provides the infrastructure required to provide real time feedback and notification based on user defined events.
 - Events are defined to notify one or more users of specific events which have occurred.
 	- For example, an event is setup to notify a specific user anytime an inventory item falls below its safety stock level.
@@ -64,3 +66,5 @@ PALERT.E is the transaction used to:
 NOTE: These alerts are data account specific. They must be turned on for each data account. 
 
 ![PALERT_ENTRY](./palerte.png)
+
+<PageFooter />

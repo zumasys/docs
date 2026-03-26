@@ -19,3 +19,5 @@ These are the release notes for version 2.4.1 (2/06/2025) of the Rover Web appli
     - Addressed an issue with missing custom fields in the cart summary.
   - **General**
     - Addressed an issue with user's default printer not being honored in the printer selection dialog.
+
+<PageFooter />

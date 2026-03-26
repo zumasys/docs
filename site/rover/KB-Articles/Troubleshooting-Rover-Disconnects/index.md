@@ -1,5 +1,7 @@
 # Troubleshooting Rover Disconnects 
 
+<PageHeader />
+
 ## Rover ERP – Client Update Installation, Logging & GDI Monitoring Guide
 
 ## Overview

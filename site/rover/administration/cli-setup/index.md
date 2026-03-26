@@ -1,5 +1,7 @@
 # Rover Installer Command-Line Options
 
+<PageHeader />
+
 This document describes the command-line properties available when installing Rover using `msiexec`.
 
 ## Overview
@@ -248,3 +250,5 @@ msiexec /i "rover-installer.msi" /qn ^
     CLI_READONLY_CONNECTION_TYPE="0|1" ^
     CLI_READONLY_ACCOUNT="0|1"
 ```
+
+<PageFooter />

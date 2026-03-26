@@ -13,7 +13,7 @@ work order. The user specifies the work orders to be printed.
 As required.
 
 **Prerequisites**  
-The work order picking list must have been processed by [ PICKER.E1 ](../../../../rover/AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/PICKER-E1) . 
+The work order picking list must have been processed by [ PICKER.E1 ](../../PRO-ENTRY/PICKER-E/index.md) . 
 
 **Data Fields**
 

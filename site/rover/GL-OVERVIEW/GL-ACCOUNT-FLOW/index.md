@@ -1,4 +1,6 @@
 # G/L Account Flow
+
+<PageHeader />
 ### Accountant's Guide
 
 ## Introduction
@@ -131,3 +133,5 @@ In the average cost environment, costs start flowing from purchase order receipt
 In a "Standard Cost" method the standard cost is used as the unit cost. Standard costs are entered and maintained using the COST.E procedure. 
 
 ![Standard Cost](./standardcost.png)
+
+<PageFooter />

@@ -21,3 +21,5 @@ Store information should be placed in the query parameters as shown below
 ## Example URL
 
 `https://test-gateway.total-computing.com/api/bliframe?store=<store>&reg=<reg>&date=<date>&tran=<tran>&entity=<entity>&addr=<addr>&zip=<zip>`
+
+<PageFooter />

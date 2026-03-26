@@ -1,5 +1,7 @@
 # BLTOKENSALE
 
+<PageHeader />
+
 This endpoint is used to finalize a sale using a tokenized form of payment.
 Token can be received through BLTOKENIZE
 
@@ -55,3 +57,5 @@ Token can be received through BLTOKENIZE
     "ccvRec": "NCoqKioqKioqMDA3Nv4xMjIy/v5QUFM2MTP+MjAzMTExMTYzNTI4/v5FTkNSWVBURUT+Vv5WaXNh/v5Q/v5bRDIwXSBDaGFyZ2UgQWNjZXB0ZWQu/v7+/v7+MSoxOTU2MioxMTAqcmM3ODMqMTH+/v7+/v7+/v7+/v4xMDD+/v7+/v7+/lRPS0VOLVNBTEX+OTQ3ODg0ODcxODY1MDA3Nv5CT0xU/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+Wv5Y/nJjNzgyNQ=="
 }
 ```
+
+<PageFooter />

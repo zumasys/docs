@@ -58,3 +58,5 @@ This endpoint finalizes a transaction on an authorized form of payment.
     "ccvRec": "NCoqKioqKioqMDA3Nv4xMjIy/v5QUFMxNTL+MjAzNTYzNzQ3MzM3/v5FTkNSWVBURUT+Vv5WaXNh/v5Q/v5bRDIwXSBDaGFyZ2UgQWNjZXB0ZWQu/v7+/v7+MSoxOTU2MioxMTAqcmM3ODMqNv7+/v7+/v7+/v7+/jgwMP7+/v7+/v7+Q0MtQ09NUExFVEX+/kJPTFT+/v7+/v4xKjE5NTYyKjExMCpyYzc4Myo1/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v5yYzc4MjM="
 }
 ```
+
+<PageFooter />

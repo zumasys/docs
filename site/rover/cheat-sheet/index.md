@@ -157,7 +157,7 @@ This cheat sheet provides a list of commonly used processes, reports, and entry 
 |---------------|-------------|------------------|-------|
 |Create / edit work order | PRO/PRO.ENTRY | [WO.E](../PRO-OVERVIEW/PRO-ENTRY/WO-E/index.md) | WO status is set to Control File Status Code. Set the appropriate routing. Set start and end dates or allow scheduling. Print WO traveler ([WO.R1](../PRO-OVERVIEW/PRO-REPORT/WO-R1/index.md)). Print picking list of material required ([PICKER.R1](../PRO-OVERVIEW/PRO-REPORT/PICKER-R1/index.md)). |
 |Material is physically pulled. | | |
-|Make changes to the pick list | PRO/PRO.ENTRY | [PICKER.E1](../AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/WO-CONTROL/WO-CONTROL-1/PICKER-E1/index.md) | |
+|Make changes to the pick list | PRO/PRO.ENTRY | [PICKER.E1](../PRO-OVERVIEW/PRO-ENTRY/PICKER-E/index.md) | |
 |Issue material to the WO | PRO/PRO.ENTRY | [PICKER.E2](../PRO-OVERVIEW/PRO-ENTRY/PICKER-E2/index.md) | Pull quantity defaults to required quantity. Change quantities to generate shortages. WO status changes to “P” (pulled).
 |Make assembly | | |
 |Report shop movements | PRO/PRO.ENTRY | [ST.E](../PRO-OVERVIEW/PRO-ENTRY/ST-E/index.md) or [ST.E2](../PRO-OVERVIEW/PRO-ENTRY/ST-E2/index.md) | Optional

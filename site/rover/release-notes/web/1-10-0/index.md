@@ -49,3 +49,5 @@ These are the release notes for version 1.10.0 (10/29/2024) of the Rover Web app
     - Fixed issue with 'Add Operation' displaying incorrect time in the Gantt chart.
   - **Customers**
     - Fixed issue with KPI cards not focusing on the correct tab when clicking.
+
+<PageFooter />

@@ -55,3 +55,5 @@ This endpoint is used to CREDIT a specified amount to a tokenized form of paymen
     "ccvRec": "NCoqKioqKioqMDA3Nv4xMjIy/v5SRUZVTkT+MjAzMjUzMTUxMDc0/v5FTkNSWVBURUT+Vv5WaXNh/v5Q/v5bRDIwXSBDaGFyZ2UgQWNjZXB0ZWQu/v7+/v7+MSoxOTU2MioxMTAqcmM3ODMqMTD+/v7+/v7+/v7+/v4tMzUz/v7+/v7+/v5UT0tFTi1DUkVESVT+OTQ3ODg0ODcxODY1MDA3Nv5CT0xU/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+Vf5V/nJjNzgyNw=="
 }
 ```
+
+<PageFooter />

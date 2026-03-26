@@ -60,3 +60,5 @@ This endpoint authorizes the form of payment and returns a JSON encoded repsonse
     "signature": "H4sICAAAAAAC/1NJRy5CTVAA7MuhEcJAAADBe08hTFQqQOBphepSEGXgPiYiHkHErr255+u9VNWjulefUVs1GlWtRz+bcwYAAAAAAABc1+2H9/unFwAAgGvaBwBEpsRWbioAAA=="
 }
 ```
+
+<PageFooter />

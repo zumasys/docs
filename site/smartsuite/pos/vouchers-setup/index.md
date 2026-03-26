@@ -1,5 +1,7 @@
 # POS Vouchers, Gift Certificate & Gift Card Setup, Issuing and Redemption
 
+<PageHeader />
+
 <PageHEader />
 
 ## Voucher Requirements

@@ -58,3 +58,5 @@ This endpoint tokenizes a form of payment for use in other endpoints such as BLT
     "signature": "H4sICAAAAAAC/1NJRy5CTVAA7NChEcJQAAXB+w1QQjSDooKI+LSS6iiITn4MAssgYnbtzTNv249HVa3VvXqPelWjUdXz07/NOQMAAAAAgF8sf2xv7gMAAACAy5wDACjwxz1uKgAA"
 }
 ```
+
+<PageFooter />

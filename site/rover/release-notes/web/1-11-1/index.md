@@ -11,3 +11,5 @@ These are the release notes for version 1.11.1 (11/20/2024) of the Rover Web app
 - **Rover Web**
   - **General**
     - Issue with email dialogs not allowing for email addresses to be selected is fixed.
+
+<PageFooter />

@@ -52,3 +52,5 @@ This endpoint provides information on a given transaction through the provided i
     "signature": "H4sICAAAAAAC/1NJRy5CTVAA7MsxEcJAAADBezdMqiigoMdDFKABUQhACk6ehoKeIhNmt725y/W2VNW5OlWvUY9qNKpaP/3bnDMAAAAAgH+1/fA+93nH/XgvAAAAAHAQ7wEAPv2Cy24qAAA="
 }
 ```
+
+<PageFooter />

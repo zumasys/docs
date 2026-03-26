@@ -46,3 +46,5 @@ These are the release notes for version 2.0.0 (12/9/2024) of the Rover Web appli
   - **Point of Sale**
     - When an error occurs during a customer search in POS, the search result list is now cleared.
       - Issues with date sort on invoice data table have been resolved.
+
+<PageFooter />

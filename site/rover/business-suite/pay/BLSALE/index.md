@@ -61,3 +61,5 @@ The BLSALE endpoint authorizes the form of payment and captures the payment. See
     "signature": "H4sICAAAAAAC/1NJRy5CTVAA7NGhDcJQAEXR+7foCA2qsqqinlWYjoHY5GMQeERDco59ueqd98etqo5qrV6jntVoVLV99m9zzgAAAAAAgL+yXdTuP7SL2wAAAACu9x4AaX1gW24qAAA="
 }
 ```
+
+<PageFooter />

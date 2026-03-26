@@ -262,6 +262,12 @@ function validateLink(sourceFile, link) {
   if (!urlWithoutAnchor) {
     return issues;
   }
+
+  // Skip absolute paths starting with / — these are served from the site's
+  // public/ directory by VitePress and are not relative filesystem paths.
+  if (urlWithoutAnchor.startsWith('/')) {
+    return issues;
+  }
   
   // Resolve the absolute path
   const sourceDir = path.dirname(sourceFile);

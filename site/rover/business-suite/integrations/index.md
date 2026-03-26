@@ -18,6 +18,6 @@
 
 [Custom Point of Sale and Accounting Approval process](workflow-actions/pos-aged-credit-sample/readme.md)
 
-[Dynamic Form driven Additional Shipping information entry](formsdef/pos-shipping-formsdef/readme.md)
+[Dynamic Form driven Additional Shipping information entry](formsdef/pos-shipping-formsdef/index.md)
 
 <PageFooter />
