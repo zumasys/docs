@@ -3,11 +3,9 @@
   "version": "1.0.0",
   "description": "Zumasys Documentation",
   "scripts": {
-    "build": ".vuepress/scripts/build.sh",
-    "build-old": "node --max_old_space_size=8192 ./node_modules/vuepress/cli.js build",
-    "build-older": "vuepress build",
-    "debug": "node --nolazy --max_old_space_size=8192 --inspect-brk=9229 ./node_modules/vuepress/cli.js build",
-    "dev": "node --max_old_space_size=8192 ./node_modules/vuepress/cli.js dev",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview",
     "validate-links": "node ../scripts/validate-links/index.js"
   },
   "repository": {
@@ -25,19 +23,8 @@
     "url": "https://github.com/zumasys/docs/issues"
   },
   "homepage": "https://github.com/zumasys/docs#readme",
-  "dependencies": {
-    "vuepress": "^1.5.4",
-    "vuepress-bar": "^0.4.4",
-    "vuepress-plugin-code-copy": "^1.0.6",
-    "vuepress-plugin-git-log": "^1.0.1",
-    "vuepress-plugin-reading-progress": "^1.0.10",
-    "vuepress-plugin-sitemap": "^2.3.1"
-  },
   "devDependencies": {
-    "image-webpack-loader": "^7.0.1",
     "typescript": "^4.9.3",
-    "vuepress-plugin-nprogress": "^1.1.8",
-    "vuepress-plugin-reading-time": "^0.1.1",
-    "vuepress-plugin-typescript": "^0.3.1"
+    "vitepress": "^1.6.3"
   }
 }
