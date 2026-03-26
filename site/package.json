@@ -1,6 +1,7 @@
 {
   "name": "zumasys-docs",
   "version": "1.0.0",
+  "type": "module",
   "description": "Zumasys Documentation",
   "scripts": {
     "dev": "vitepress dev",

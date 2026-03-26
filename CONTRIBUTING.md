@@ -28,7 +28,7 @@ Other notes:
   * README.md (this file/the article you just made)
 ```
 
-If your article needs to reference a file for download like a `.docx` or a `.pdf`, please place it into the `site/.vuepress/public/assets/downloads` directory and link to it like so:
+If your article needs to reference a file for download like a `.docx` or a `.pdf`, please place it into the `site/public/assets/downloads` directory and link to it like so:
 
 `[link-text](/assets/downloads/file-to-download.pdf)`
 

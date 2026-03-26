@@ -1,10 +1,10 @@
 ---
-home: true
-author: Zumasys
-heroImage: /assets/img/logo-grey.png
-heroText: Rover Business Suite
-tagline: Your home for Rover Business Suite product support and documentation.
-footer: MIT Licensed | Copyright © 2019-present Zumasys
+layout: home
+hero:
+  image:
+    src: /assets/img/logo-grey.png
+    alt: Rover Business Suite
+  name: Rover Business Suite
+  tagline: Your home for Rover Business Suite product support and documentation.
+features: []
 ---
-
-<HomeFeatures />

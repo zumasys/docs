@@ -2,25 +2,19 @@
 
 [![Azure Static Web Apps CI/CD](https://github.com/zumasys/docs/actions/workflows/azure-static-web-apps-calm-tree-0410ef410.yml/badge.svg)](https://github.com/zumasys/docs/actions/workflows/azure-static-web-apps-calm-tree-0410ef410.yml)
 
-This is a [VuePress](https://vuepress.vuejs.org/) documentation application that leverages [GitHub](https://github.com) as the repository of documentation. The repository is currently hosted in the [Zumasys GitHub](https://github.com/zumasys/docs) and the app is available at [Zumasys Docs](https://docs.zumasys.com). The application itself is built and deployed as a static site hosted on Azure Storage via a GitHub action.
+This is a [VitePress](https://vitepress.dev/) documentation application that leverages [GitHub](https://github.com) as the repository of documentation. The repository is currently hosted in the [Zumasys GitHub](https://github.com/zumasys/docs) and the app is available at [Zumasys Docs](https://docs.zumasys.com). The application itself is built and deployed as a static site hosted on Azure Storage via a GitHub action.
 
 ## Directory structure
 
 ```text
 ├── site
-│   ├── .vuepress
-│   │   ├── components
-│   │   ├── dist
-│   │   ├── public
-│   │   ├── styles
-│   │   │   ├── index.styl
-│   │   │   └── palette.styl
-│   │   ├── theme
-│   │   │   ├── components
-│   │   │   ├── layouts
-│   │   │   └── index.js
-│   │   ├── config.js
-│   │   ├── enhanceApp.js
+│   ├── .vitepress
+│   │   ├── config.ts
+│   │   └── dist          (build output, git-ignored)
+│   ├── public
+│   │   └── assets
+│   │       ├── downloads
+│   │       └── img
 │   ├── pos-connect (POS Connect docs)
 │   ├── rover (Rover docs)
 │   ├── smartsuite (SmartSuite docs)
@@ -42,10 +36,10 @@ To run the application locally:
 5. `npm run dev`
 6. When compilation completes you should see the following message
 
-   > success [12:25:41] Build 59cc58 finished in 75022 ms!  
-   > VuePress dev server listening at [http://localhost:8080/](http://localhost:8080/)
+   > vitepress v1.x.x  
+   > ➜  Local:   http://localhost:5173/
 
-7. Open [localhost:8080](localhost:8080) in your browser.
+7. Open [localhost:5173](http://localhost:5173) in your browser.
 
 ## Maintenance Tools
 
@@ -68,7 +62,5 @@ See [scripts/README.md](scripts/README.md) for more details.
 
 ## Todo List
 
-* [ ] Migrate to VuePress 2
-* [ ] Review Plugins (related to migration)
-* [ ] Check out more on [awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)
+* [ ] Review and migrate any custom VitePress theme components as needed
 * [ ] Update 404 page to have featured content
