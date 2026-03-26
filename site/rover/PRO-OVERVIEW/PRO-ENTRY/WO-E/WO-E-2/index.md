@@ -14,7 +14,7 @@ operation. Work centers may be changed as required. If a new operation has
 been added then the setup, preoperation and postoperation hours will be loaded
 from the Work Center file.  
   
-**Skill Code** Select the skill code that is required of the person performing the associated operation. Skill codes are defined in the [ SKILL.CONTROL ](SKILL-CONTROL.htm) procedure.   
+**Skill Code** Select the skill code that is required of the person performing the associated operation. Skill codes are defined in the SKILL.CONTROL procedure.   
   
 **Outside Processing** This box will be checked when the operation is for an
 outside processing step.  

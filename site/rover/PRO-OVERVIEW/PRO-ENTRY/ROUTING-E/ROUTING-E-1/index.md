@@ -38,7 +38,7 @@ information defined.
   
 **Work Center** Enter the work center at which the operation is performed.  
   
-**Skill Code** Select the skill code that applies to this operation. Skill codes are defined in the [ SKILL.CONTROL ](SKILL-CONTROL.htm) procedure and defines the skills an employee must have to perform the operation.   
+**Skill Code** Select the skill code that applies to this operation. Skill codes are defined in the SKILL.CONTROL procedure and defines the skills an employee must have to perform the operation.   
   
 **Description** Enter a description and/or instructions which are associated
 with the operation.  

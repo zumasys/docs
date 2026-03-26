@@ -22,7 +22,7 @@ retail environments.
 As required.
 
 **Prerequisites**  
-Setup of the [ MRK.CONTROL ](../MRK-CONTROL/index.md) and [ PSO.CONTROL ](PSO-CONTROL.htm) procedures. 
+Setup of the [ MRK.CONTROL ](../MRK-CONTROL/index.md) and PSO.CONTROL procedures. 
 
 <badge text= "Version 8.10.57" vertical="middle" />
 

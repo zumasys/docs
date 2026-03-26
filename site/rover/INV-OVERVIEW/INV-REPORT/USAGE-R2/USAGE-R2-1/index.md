@@ -44,7 +44,7 @@ bar or pressing the F9 key or Ctrl+S.
 **Sort By** Enter the method you wish to sort the report by:  
 1\. Part Number (Default)  
 2\. Category  
-3\. Inventory Location (as set-up in [ parts.e ](../../../../duplicates/parts-e/index.md) )   
+3\. Inventory Location (as set-up in [ parts.e ](../../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/index.md) )   
   
 **Inv Date** Enter the date you want to use as the date for inventory
 quantities. The projected months of stock will be determined as of this date

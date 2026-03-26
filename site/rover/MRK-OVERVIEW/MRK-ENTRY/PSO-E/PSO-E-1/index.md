@@ -66,7 +66,7 @@ setting up a package price.
 already been taken (i.e. received by the customer) from a prfevious posting of
 the order. It may not be updated manually.  
   
-**Pay Type** Enter the payment type used for this order. You may enter multiple payments if split payments are made by the customer. The entry made here must match the valid entries listed in [ PSO.CONTROL ](PSO-CONTROL.htm) .   
+**Pay Type** Enter the payment type used for this order. You may enter multiple payments if split payments are made by the customer. The entry made here must match the valid entries listed in PSO.CONTROL .   
   
 **Tendered** Enter the amount tendered by the customer for the associated
 payment type.  

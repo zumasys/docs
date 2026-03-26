@@ -6,7 +6,7 @@
 [ Form Details ](GLTRANS-P1-1/index.md)   
 
 **Purpose**  
-The GLTRANS.P1 procedure is used to post all un-posted GLTRANS records. Unposted GLTRANS journal entries may occur in one of two ways. First, the [ GL.CONTROL ](../../GL-ENTRY/GL-CONTROL/index.md) may be setup to allow the filing of [ GLTRANS.E ](../../GL-ENTRY/GLTRANS-E/index.md) without posting. This allows the editing of all transactions prior to posting. Second, all GLTRANS records created though the [ GLINT.P2 ](GLINT-P2.htm) interface posting process are filed without posting. 
+The GLTRANS.P1 procedure is used to post all un-posted GLTRANS records. Unposted GLTRANS journal entries may occur in one of two ways. First, the [ GL.CONTROL ](../../GL-ENTRY/GL-CONTROL/index.md) may be setup to allow the filing of [ GLTRANS.E ](../../GL-ENTRY/GLTRANS-E/index.md) without posting. This allows the editing of all transactions prior to posting. Second, all GLTRANS records created though the GLINT.P2 interface posting process are filed without posting. 
 
 **Frequency of Use**  
 As required.

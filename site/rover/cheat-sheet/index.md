@@ -20,9 +20,9 @@ This cheat sheet provides a list of commonly used processes, reports, and entry 
 #### Setup Procedures
 | Activity                      | Menu/Sub       | Procedure    | Notes |
 |---------------                |-------------   |--------------|-------|
-|Define valid units of measure  | ENG/ENG.ENTRY  | [UM.CONTROL](../AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-1/UM-CONTROL/)   |
-|Define categories              | ENG/ENG.ENTRY  | [CAT.CONTROL](../AP-OVERVIEW/AP-ENTRY/AP-E/AP-E-1/MSHIP-E/MSHIP-E-2/Parts-E/PARTS-E-2/CAT-CONTROL/)  |
-|Define cost defaults           | ENG/ENG.ENTRY  | [COST.CONTROL](../AP-OVERVIEW/AP-ENTRY/AP-E/CHECKS-E/AP-CONTROL/GLCHART-E/GLCHART-E-1/GLCHART-R2/COST-CONTROL/) |
+|Define valid units of measure  | ENG/ENG.ENTRY  | [UM.CONTROL](../ENG-OVERVIEW/ENG-ENTRY/UM-CONTROL/index.md)   |
+|Define categories              | ENG/ENG.ENTRY  | [CAT.CONTROL](../ENG-OVERVIEW/ENG-ENTRY/CAT-CONTROL/index.md)  |
+|Define cost defaults           | ENG/ENG.ENTRY  | [COST.CONTROL](../ENG-OVERVIEW/ENG-ENTRY/COST-CONTROL/index.md) |
 
 #### Daily Procedures
 | Activity      | Menu/Sub    | Procedure        | Notes |

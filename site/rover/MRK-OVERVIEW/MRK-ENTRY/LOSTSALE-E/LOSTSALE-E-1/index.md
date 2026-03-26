@@ -19,11 +19,11 @@ defaulted.
   
 **Customer** Enter the customer number for this transaction.  
   
-**Customer Name** The name of the customer as defined in [ cust.e ](../../../../duplicates/cust-e/index.md) . The name is displayed for reference only and cannot be changed.   
+**Customer Name** The name of the customer as defined in [ cust.e ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/index.md) . The name is displayed for reference only and cannot be changed.   
   
 **Part No** Enter the part number for which an order was not placed.  
   
-**Part Description** The description of the part as defined in [ parts.e ](../../../../duplicates/parts-e/index.md) . The description of the part is displayed for reference only and cannot be changed.   
+**Part Description** The description of the part as defined in [ parts.e ](../../../../ENG-OVERVIEW/ENG-ENTRY/PARTS-E/index.md) . The description of the part is displayed for reference only and cannot be changed.   
   
 **Qty** Enter the quantity of the part number that was not ordered.  
   

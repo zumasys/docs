@@ -16,7 +16,7 @@ which will be reported to the appropriate sales tax collection authority. It
 can be run as required to audit progress through the period.
 
 **Prerequisites**  
-Sales Tax register records are created automatically by the system through the [ AR.E ](../../AR-ENTRY/AR-E/index.md) , [ SHIP.P1 ](../../../duplicates/SHIP-P1/index.md) , [ RMA.P1 ](RMA-P1.htm) and [ ARR.P1 ](../../AR-PROCESS/ARR-P1/index.md) procedures. 
+Sales Tax register records are created automatically by the system through the [ AR.E ](../../AR-ENTRY/AR-E/index.md) , [ SHIP.P1 ](../../../MRK-OVERVIEW/MRK-PROCESS/SHIP-P1/index.md) , RMA.P1 and [ ARR.P1 ](../../AR-PROCESS/ARR-P1/index.md) procedures. 
 
 **Data Fields**
 

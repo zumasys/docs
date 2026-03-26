@@ -48,7 +48,7 @@ S - Standard Costs
 P - Previous Costs  
 If left blank then "S" is assumed.  
   
-**Plan Group** Enter the planning group that should be used in this report. Enter the planning group that should be used in this process. This entry is required to determine the make/buy status of the part. If no entry is made into this field, the report will used the first planning group that has been entered into [ parts.e ](../../../../duplicates/parts-e/index.md) . If you wish to to match this report to the costs appearing in [ COST.E ](../../../ENG-ENTRY/COST-E/index.md) , you will need to use the same planning group that was used in the cost rollup procedure, [ COST.P1 ](../../../ENG-PROCESS/COST-P1/index.md) .   
+**Plan Group** Enter the planning group that should be used in this report. Enter the planning group that should be used in this process. This entry is required to determine the make/buy status of the part. If no entry is made into this field, the report will used the first planning group that has been entered into [ parts.e ](../../../ENG-ENTRY/PARTS-E/index.md) . If you wish to to match this report to the costs appearing in [ COST.E ](../../../ENG-ENTRY/COST-E/index.md) , you will need to use the same planning group that was used in the cost rollup procedure, [ COST.P1 ](../../../ENG-PROCESS/COST-P1/index.md) .   
   
 **C$X64** Enter the date to use in determining which items on the bills of
 material are to be included in the listing. The start and end effectivity

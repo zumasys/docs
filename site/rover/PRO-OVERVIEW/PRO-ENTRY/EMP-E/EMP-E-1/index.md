@@ -95,7 +95,7 @@ be assigned to beginning on the associated date.
 **Capacity Hours** Enter the hours that the employee is assigned to the
 associated work center.  
   
-**Skill Code** Select each of the skill codes that apply to the employee. Skill codes are defined in the [ SKILL.CONTROL ](SKILL-CONTROL.htm) procedure and indicate the skills the employee is capable of performing.   
+**Skill Code** Select each of the skill codes that apply to the employee. Skill codes are defined in the SKILL.CONTROL procedure and indicate the skills the employee is capable of performing.   
   
 **Skill Description** Displays a short description of the associated skill
 code.  

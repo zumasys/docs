@@ -16,7 +16,7 @@ which will be posted to General Ledger. It can be run as required to audit
 progress through the period.
 
 **Prerequisites**  
-Accounts Receivable register transactions are created automatically by the system through the [ AR.E ](../../AR-ENTRY/AR-E/index.md) , [ CASH.E ](../../AR-ENTRY/CASH-E/index.md) , [ SHIP.P1 ](../../../duplicates/SHIP-P1/index.md) and [ ARR.P1 ](../../AR-PROCESS/ARR-P1/index.md) procedures. 
+Accounts Receivable register transactions are created automatically by the system through the [ AR.E ](../../AR-ENTRY/AR-E/index.md) , [ CASH.E ](../../AR-ENTRY/CASH-E/index.md) , [ SHIP.P1 ](../../../MRK-OVERVIEW/MRK-PROCESS/SHIP-P1/index.md) and [ ARR.P1 ](../../AR-PROCESS/ARR-P1/index.md) procedures. 
 
 **Data Fields**
 

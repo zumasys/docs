@@ -51,7 +51,7 @@ shipment.
 **Notes** Enter any notes which pertain to the entire shipment. These notes
 will print on the shipment form.  
   
-**Ship Seq No** Contains the shipping sequence number define in [ cust.e ](../../../../duplicates/cust-e/index.md) . If present this number will default in for you from [ so.e ](../../../../duplicates/so-e/index.md) but can be changed as required. There is a right click option to display all shipping addresses available for this customer.   
+**Ship Seq No** Contains the shipping sequence number define in [ cust.e ](../../../../AR-OVERVIEW/AR-ENTRY/CUST-E/index.md) . If present this number will default in for you from [ so.e ](../../SO-E/index.md) but can be changed as required. There is a right click option to display all shipping addresses available for this customer.   
   
 **Ship Name** Enter the name of the company the shipment will be sent to.  
   

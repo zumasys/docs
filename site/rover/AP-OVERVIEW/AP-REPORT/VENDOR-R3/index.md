@@ -38,7 +38,7 @@ type.
 applying the factor (Reject% x Factor%).  
 **Quality Rating** 100% minus the total of the weighted scores.  
 **Delivery Perfor**  
-**Work Days from Due Date** Each period range as defined in the [ PO.CONTROL ](../../../duplicates/PO-CONTROL/index.md) procedure. For example, "5 days early to 0 days late".   
+**Work Days from Due Date** Each period range as defined in the [ PO.CONTROL ](../../../PUR-OVERVIEW/PUR-ENTRY/PO-CONTROL/index.md) procedure. For example, "5 days early to 0 days late".   
 **Receipts** The number of receipts made during the rating period that fall
 within the associated "Work Days from Due Date".  
 **Factor%** The weighting factor applied to receipts made in the associated

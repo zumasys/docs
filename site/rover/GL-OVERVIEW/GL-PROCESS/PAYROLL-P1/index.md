@@ -23,7 +23,7 @@ Columns 2 and three will be repeated for each rate type defined in the [ LABOR.C
 Typically this process will be run for each pay period.
 
 **Prerequisites**  
-The employee numbers need to be set-up in a procedure called [ EMP.E ](../../../duplicates/EMP-E/index.md) . These employee numbers or id(s) should be the same as those used by your payroll service/software.   
+The employee numbers need to be set-up in a procedure called [ EMP.E ](../../../PRO-OVERVIEW/PRO-ENTRY/EMP-E/index.md) . These employee numbers or id(s) should be the same as those used by your payroll service/software.   
   
 The valid rate types used by your company must be defined in [ LABOR.CONTROL ](../../../PRO-OVERVIEW/PRO-ENTRY/LABOR-CONTROL/index.md) (production module > data entry section). Examples of rate types are "R" for regular, "O" for over-time and "D" for double-time. 
 

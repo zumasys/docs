@@ -28,7 +28,7 @@ customer. The recommended format is XXX/XXX-XXXX.
 **Date** Enter the start date for this customer. This will default to the
 current system date.  
   
-**Inactive Date** Enter the date the customer's account become inactive on. If a date has been entered, you will be given a warning in certain procedures such as [ so.e ](../../../../MRK-OVERVIEW/MRK-ENTRY/SO-E/index.md) or [ ar.e ](../../../../duplicates/ar-e/index.md) that the customer has been flagged as inactive.   
+**Inactive Date** Enter the date the customer's account become inactive on. If a date has been entered, you will be given a warning in certain procedures such as [ so.e ](../../../../MRK-OVERVIEW/MRK-ENTRY/SO-E/index.md) or [ ar.e ](../../AR-E/index.md) that the customer has been flagged as inactive.   
   
 **Customer Address** Enter the street address for this customer. Do not
 include the city, state, or zip. Enter those in the adjacent, separate fields.
@@ -41,7 +41,7 @@ purposes.
   
 **Sort Zip** Enter the zip code portion of the address information.  
   
-**Sort Country** Enter the country portion of the address information. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../../../duplicates/SHIP-CONTROL/index.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](../../../../MRK-OVERVIEW/MRK-ENTRY/SHIP-CONTROL/index.md) .   
+**Sort Country** Enter the country portion of the address information. Please note that you may be required to enter the country name as it has been entered in the [ SHIP.CONTROL ](../../../../MRK-OVERVIEW/MRK-ENTRY/SHIP-CONTROL/index.md) procedure. For example, instead of entering U.S.A. you may need to enter United States. If this requirement has been applied to your account, an error message will be displayed if the entry made into this field does not match the entry found in [ ship.control ](../../../../MRK-OVERVIEW/MRK-ENTRY/SHIP-CONTROL/index.md) .   
   
 **Resale#** Enter the customer's resale number.  
   
@@ -110,7 +110,7 @@ sales order they have entered should be placed on hold. Shipments for this
 customer cannot be processed when this box is checked. Note:This customer must
 be the bill to customer for the credit hold to take effect.  
   
-**Bank No** Enter the bank's internal id number for the primary checking account this customer will issue checks from. This number will default into [ cash.e ](../../../../duplicates/cash-e/index.md) for you but can be changed as required. The bank number is printed on the cash deposit slip form which can be submitted to your bank along with the customer checks.   
+**Bank No** Enter the bank's internal id number for the primary checking account this customer will issue checks from. This number will default into [ cash.e ](../../CASH-E/index.md) for you but can be changed as required. The bank number is printed on the cash deposit slip form which can be submitted to your bank along with the customer checks.   
   
 **Group Code** Select each of the groupings that apply to the customer.
 Groupings are used to classify customers by various attributes and are used to

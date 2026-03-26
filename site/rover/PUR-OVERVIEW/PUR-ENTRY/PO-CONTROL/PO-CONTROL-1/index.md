@@ -100,7 +100,7 @@ vendor record.
 should be used when there is no F.O.B. specified in the associated vendor
 record.  
   
-**Ship Via to Vendor** Enter the default method of shipment when returning items to a vendor. This will be used in [ MSHIP.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/MSHIP-E/index.md) and for debit receipts processing when a shipment to the vendor is created. If you are using the UPS interface for miscellaneous shipments, this must be a valid method on [ SHIP.CONTROL ](../../../../duplicates/SHIP-CONTROL/index.md) .   
+**Ship Via to Vendor** Enter the default method of shipment when returning items to a vendor. This will be used in [ MSHIP.E ](../../../../MRK-OVERVIEW/MRK-ENTRY/MSHIP-E/index.md) and for debit receipts processing when a shipment to the vendor is created. If you are using the UPS interface for miscellaneous shipments, this must be a valid method on [ SHIP.CONTROL ](../../../../MRK-OVERVIEW/MRK-ENTRY/SHIP-CONTROL/index.md) .   
   
   
 <badge text= "Version 8.10.57" vertical="middle" />
