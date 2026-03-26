@@ -29,4 +29,5 @@
 * [RPC Server Is Unavailable Upon Logging Into Rover](./RPC-Server-Is-Unavailable-Upon-Logging-Into-Rover/README.md)
 * [PO Not Showing Up or Delayed in "On Order" Tab in INV.Q](./PO-Not-Showing-Up-or-Delayed-in-On-Order-Tab-in-INV-Q/README.md)
 * [Resolving "Open failed: Execute (2): -2146827284" Error When Uploading Files in RoverERP](./Resolving-Open-failed-Execute-2-2146827284-Error-When-Uploading-Files-in-RoverERP/README.md)
+* [Resolving Random Screen Jumping and Unexpected Tab Openings in RoverERP](./Resolving-Random-Screen-Jumping-and-Unexpected-Tab-Openings-in-RoverERP/README.md)
 <PageFooter />
