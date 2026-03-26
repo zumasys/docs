@@ -16,7 +16,7 @@ One of the more common reasons a service or batch will stall or show a status of
 
 Open **SERVICE.CONTROL**, highlight the affected batch, and press the **Properties** button.
 
-![Service Batch Stall Or Non Responding](./Service-Batch-Stall-Or-Non-Responding.jpg)
+![Service Control](./Service-Control.jpg)
 
 ---
 
@@ -24,7 +24,7 @@ Open **SERVICE.CONTROL**, highlight the affected batch, and press the **Properti
 
 **SERVICEPROP.E** will open. Press the **More Settings** button.
 
-![Service Batch Stall Or Non Responding 2](./Service-Batch-Stall-Or-Non-Responding-2.jpg)
+![Serviceprop E](./Serviceprop-E.jpg)
 
 ---
 
@@ -32,7 +32,7 @@ Open **SERVICE.CONTROL**, highlight the affected batch, and press the **Properti
 
 **BS.E2** will open. Press the **Edit Queue** button.
 
-![Service Batch Stall Or Non Responding 3](./Service-Batch-Stall-Or-Non-Responding-3.jpg)
+![Bs E2](./Bs-E2.jpg)
 
 ---
 
@@ -42,7 +42,7 @@ Open **SERVICE.CONTROL**, highlight the affected batch, and press the **Properti
 
 The name of the command executed by the job is shown in the **Procedure** column. Some commands place a lock on the records being created or updated. If a job did not complete — for example, `PARTS.P4` — it may be the result of a record lock.
 
-![Service Batch Stall Or Non Responding 4](./Service-Batch-Stall-Or-Non-Responding-4.jpg)
+![Bq E2](./Bq-E2.jpg)
 
 ---
 
@@ -52,7 +52,7 @@ Open **SYSTEM.D** (ACE module > Reports & Inquiries menu) and navigate to the **
 
 This tab displays all users currently logged into the system along with the number of locks held by each user. In the **Locks** column, there are lookups to display the specific records locked by an individual user or all users.
 
-![Service Batch Stall Or Non Responding 5](./Service-Batch-Stall-Or-Non-Responding-5.jpg)
+![System D](./System-D.jpg)
 
 ---
 
