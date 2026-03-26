@@ -32,4 +32,5 @@
 * [Resolving Random Screen Jumping and Unexpected Tab Openings in RoverERP](./Resolving-Random-Screen-Jumping-and-Unexpected-Tab-Openings-in-RoverERP/README.md)
 * [Resolving Locked Out User or Record in RoverERP Reconciliation](./Resolving-Locked-Out-User-or-Record-in-RoverERP-Reconciliation/README.md)
 * [Resolving Parts on Order Still Driving Demand in RoverERP](./Resolving-Parts-on-Order-Still-Driving-Demand-in-RoverERP/README.md)
+* [Resolving Unposted Transactions from RECEIPTS.P1 in RoverERP](./Resolving-Unposted-Transactions-from-RECEIPTS-P1-in-RoverERP/README.md)
 <PageFooter />
