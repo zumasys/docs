@@ -22,6 +22,11 @@ These are the release notes for version 2.23.0 (3/25/2026) of the Rover Web appl
 
 ### Ticketing
 
+### Scan
+
+ - The font for text and placeholders in input fields for Scan apps was changed from fixed-width to standard font used elsewhere.
+ - A new user setting, Select on Focus, has been added to the Settings page. When enabled (default), clicking into an input field on Scan forms will highlight the full text, allowing for easier input, particularly for numbers.
+
 ## Bug Fixes
 
 ### General
@@ -35,5 +40,9 @@ These are the release notes for version 2.23.0 (3/25/2026) of the Rover Web appl
 ### Production
 
 ### UI / Styling
+
+### Scan
+
+- For Formsdef-defined Scan forms, the first editable field of the form is now activated on opening the form.
 
 <PageFooter />
