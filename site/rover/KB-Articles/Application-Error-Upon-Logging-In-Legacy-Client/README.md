@@ -1,4 +1,4 @@
-# Resolving "Error Accessing the OLE Registry" When Logging into M3 After Windows Update
+# Application Error Upon Logging In (Legacy Client)
 
 <PageHeader />
 
