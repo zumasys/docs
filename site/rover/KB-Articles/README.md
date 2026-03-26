@@ -30,4 +30,5 @@
 * [PO Not Showing Up or Delayed in "On Order" Tab in INV.Q](./PO-Not-Showing-Up-or-Delayed-in-On-Order-Tab-in-INV-Q/README.md)
 * [Resolving "Open failed: Execute (2): -2146827284" Error When Uploading Files in RoverERP](./Resolving-Open-failed-Execute-2-2146827284-Error-When-Uploading-Files-in-RoverERP/README.md)
 * [Resolving Random Screen Jumping and Unexpected Tab Openings in RoverERP](./Resolving-Random-Screen-Jumping-and-Unexpected-Tab-Openings-in-RoverERP/README.md)
+* [Resolving Locked Out User or Record in RoverERP Reconciliation](./Resolving-Locked-Out-User-or-Record-in-RoverERP-Reconciliation/README.md)
 <PageFooter />
