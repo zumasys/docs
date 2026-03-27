@@ -47,6 +47,7 @@ Users need to reverse an entire shipment or specific line items on a shipper in 
 - The line items on the sales order are re-opened, but the original shipper remains visible on the line item
 - Once a shipper has been applied to a line item, the line cannot be deleted, but the quantity can be set to zero if needed
 
+![How To Reverse A Shipment](./How-To-Reverse-A-Shipment.jpg)
 
 ---
 
