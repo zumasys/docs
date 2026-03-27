@@ -41,7 +41,7 @@ Navigate to the **Related AP Items** tab.
 - Enter the AP IDs of the vendor invoices that were paid on the credit card statement.
 - The AP IDs can be in either **"invoiced"** or **"accrual"** status.
 
-![Ap E2](Ap-E2.jpg)
+![Ap E2](./Ap-E2.jpg)
 
 **3. Adjust Payment Amounts if Needed**
 
@@ -58,13 +58,13 @@ In **AP.E**, leave the **AP ID** field blank.
 
 - Enter the vendor number, invoice number, date, and amount for the new consolidated invoice.
 
-![Ap E3](Ap-E3.jpg)
+![Ap E3](./Ap-E3.jpg)
 
 **2. Add Related Receipts or Invoices**
 
 On the **Related AP Items** tab, enter the AP IDs or receipts you wish to consolidate into this single invoice.
 
-![Ap E4](Ap-E4.jpg)
+![Ap E4](./Ap-E4.jpg)
 
 **3. Save the Record**
 
@@ -85,7 +85,7 @@ When the record is saved:
 - Verify that any differences between statement and related amounts are properly expensed to the appropriate GL account.
 - Ensure that the status of fully paid invoices is set to **"closed."**
 
-![Ap E5](Ap-E5.jpg)
+![Ap E5](./Ap-E5.jpg)
 
 ---
 
