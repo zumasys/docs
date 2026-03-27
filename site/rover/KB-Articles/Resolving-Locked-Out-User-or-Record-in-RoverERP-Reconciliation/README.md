@@ -26,21 +26,17 @@ A user is locked out of a reconciliation record in RoverERP and cannot access or
 
 ## Resolution Steps
 
-### 1. Access the User List
+- 1.Confirm that no other users are actively using the record
 
-- Navigate to: System.D > User List
+Check for background windows or secondary devices.
 
-### 2. Locate the Locked User
+- 2.Navigate to System.D
 
-- Find the user who is locked out of the record in the list
+- 3.Open User List
 
-### 3. Log Off the User
+- 4.Locate the user who is locking the record
 
-- Select the locked user and click "Logoff" to terminate their session
-
-### 4. Retry Accessing the Record
-
-- Have the user attempt to access the reconciliation record again
+- 5.Check with the user and ask them to log out. If they are in the middle of processing data, you can end up mismatched/corrupt data.  The logoff command should only be used when a line is truly hung
 
 ---
 
