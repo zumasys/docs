@@ -23,6 +23,7 @@ Users encounter errors related to ServicesClientTcp.ExecuteService when using Ro
 - Antivirus or endpoint protection software (for example, SentinelOne) is blocking or interfering with RoverERP network or service communication
 - Required application files or network traffic are being quarantined or restricted by security software
 
+![So E](./So-E.jpg)
 
 ---
 
