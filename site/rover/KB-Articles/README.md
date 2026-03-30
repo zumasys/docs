@@ -36,4 +36,5 @@
 * [Resolving ServicesClientTcp.ExecuteService Errors in RoverERP Due to Virus Blockers](./Resolving-ServicesClientTcp-ExecuteService-Errors-in-RoverERP-Due-to-Virus-Blockers/README.md)
 * [Troubleshooting Slowness or Inability to Login in RoverERP](./Troubleshooting-Slowness-or-Inability-to-Login-in-RoverERP/README.md)
 * [Using the Related AP Items Function in AP.E for Credit Card Payments and Invoice Consolidation](./Using-Related-AP-Items-in-AP-E-for-Credit-Card-Payments-and-Invoice-Consolidation/README.md)
+* [Managing Procedure Access Rights with SECURITY.E3 in RoverERP](./Managing-Procedure-Access-Rights-with-SECURITY-E3-in-RoverERP/README.md)
 <PageFooter />
