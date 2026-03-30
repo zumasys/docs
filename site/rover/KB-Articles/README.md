@@ -38,4 +38,5 @@
 * [Using the Related AP Items Function in AP.E for Credit Card Payments and Invoice Consolidation](./Using-Related-AP-Items-in-AP-E-for-Credit-Card-Payments-and-Invoice-Consolidation/README.md)
 * [Managing Procedure Access Rights with SECURITY.E3 in RoverERP](./Managing-Procedure-Access-Rights-with-SECURITY-E3-in-RoverERP/README.md)
 * [How to Check Software Versions in RoverERP](./How-to-Check-Software-Versions-in-RoverERP/README.md)
+* [Using SYSTEM.D: The System Dashboard in RoverERP](./Using-SYSTEM-D-The-System-Dashboard-in-RoverERP/README.md)
 <PageFooter />
