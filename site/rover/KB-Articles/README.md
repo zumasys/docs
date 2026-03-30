@@ -44,4 +44,5 @@
 * [Managing Account Services with SERVICE.CONTROL in RoverERP](./Managing-Account-Services-with-SERVICE-CONTROL-in-RoverERP/README.md)
 * [Understanding Service Actions in RoverERP](./Understanding-Service-Actions-in-RoverERP/README.md)
 * [Setting Up Batch Services in RoverERP](./Setting-Up-Batch-Services-in-RoverERP/README.md)
+* [Working with Batch Queues (BQ.E2) in RoverERP](./Working-with-Batch-Queues-BQ-E2-in-RoverERP/README.md)
 <PageFooter />
