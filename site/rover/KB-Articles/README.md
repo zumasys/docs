@@ -42,4 +42,5 @@
 * [Using SECURITY.E2 for Password Reset and Printer Reset in RoverERP](./Using-SECURITY-E2-for-Password-Reset-and-Printer-Reset-in-RoverERP/README.md)
 * [Securing Accounts with ACCOUNT.CONTROL in RoverERP](./Securing-Accounts-with-ACCOUNT-CONTROL-in-RoverERP/README.md)
 * [Managing Account Services with SERVICE.CONTROL in RoverERP](./Managing-Account-Services-with-SERVICE-CONTROL-in-RoverERP/README.md)
+* [Understanding Service Actions in RoverERP](./Understanding-Service-Actions-in-RoverERP/README.md)
 <PageFooter />
