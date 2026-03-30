@@ -40,4 +40,5 @@
 * [How to Check Software Versions in RoverERP](./How-to-Check-Software-Versions-in-RoverERP/README.md)
 * [Using SYSTEM.D: The System Dashboard in RoverERP](./Using-SYSTEM-D-The-System-Dashboard-in-RoverERP/README.md)
 * [Using SECURITY.E2 for Password Reset and Printer Reset in RoverERP](./Using-SECURITY-E2-for-Password-Reset-and-Printer-Reset-in-RoverERP/README.md)
+* [Securing Accounts with ACCOUNT.CONTROL in RoverERP](./Securing-Accounts-with-ACCOUNT-CONTROL-in-RoverERP/README.md)
 <PageFooter />
