@@ -43,4 +43,5 @@
 * [Securing Accounts with ACCOUNT.CONTROL in RoverERP](./Securing-Accounts-with-ACCOUNT-CONTROL-in-RoverERP/README.md)
 * [Managing Account Services with SERVICE.CONTROL in RoverERP](./Managing-Account-Services-with-SERVICE-CONTROL-in-RoverERP/README.md)
 * [Understanding Service Actions in RoverERP](./Understanding-Service-Actions-in-RoverERP/README.md)
+* [Setting Up Batch Services in RoverERP](./Setting-Up-Batch-Services-in-RoverERP/README.md)
 <PageFooter />
