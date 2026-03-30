@@ -104,6 +104,8 @@ After entering all required values, save the job run procedure attributes. When 
 - Only system printers can be used as output destinations for batch jobs
 - Use the reset function if a batch queue becomes stuck due to incomplete jobs
 
+![Action](./Action.jpg)
+
 ---
 
 ## Additional Information
