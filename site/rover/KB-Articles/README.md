@@ -45,4 +45,5 @@
 * [Understanding Service Actions in RoverERP](./Understanding-Service-Actions-in-RoverERP/README.md)
 * [Setting Up Batch Services in RoverERP](./Setting-Up-Batch-Services-in-RoverERP/README.md)
 * [Working with Batch Queues (BQ.E2) in RoverERP](./Working-with-Batch-Queues-BQ-E2-in-RoverERP/README.md)
+* [Resolving "Invalid Username/Password" Error for a Single User in RoverERP](./Resolving-Invalid-Username-Password-Error-for-a-Single-User-in-RoverERP/README.md)
 <PageFooter />
