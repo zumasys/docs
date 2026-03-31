@@ -48,4 +48,5 @@
 * [Resolving "Invalid Username/Password" Error for a Single User in RoverERP](./Resolving-Invalid-Username-Password-Error-for-a-Single-User-in-RoverERP/README.md)
 * [Resolving USAGE.P1 Not Capturing Data for a Specific Period in RoverERP](./Resolving-USAGE-P1-Not-Capturing-Data-for-a-Specific-Period-in-RoverERP/README.md)
 * [Common RoverERP Commands: Account Management](./Common-RoverERP-Commands-Account-Management/README.md)
+* [Orders or Line Items on Hold Cannot Be Shipped in RoverERP](./Orders-or-Line-Items-on-Hold-Cannot-Be-Shipped-in-RoverERP/README.md)
 <PageFooter />
