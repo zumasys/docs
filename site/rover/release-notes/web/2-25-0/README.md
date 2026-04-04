@@ -8,8 +8,14 @@ These are the release notes for version 2.25.0 (TBD) of the Rover Web applicatio
 
 ## New Features
 
+### General
+
+- Added 'sticky' preferences when exporting data tables. The default selection of columns to export will match the columns previously selected by the user. 
+
 ### Accounting
 
 - Updated the AR/AP landing pages with responsive UI components for a more modern and flexible layout.
+
+
 
 <PageFooter />
