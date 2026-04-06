@@ -4,23 +4,6 @@
 
 <badge text='Administration' vertical='middle' />
 
-## Problem Statement
-
-Users need to identify the current software versions of the RoverERP client, ACE, M3, and database (QM) components.
-
----
-
-## Symptoms
-
-- Uncertainty about which versions of RoverERP components are installed
-- Need to verify software versions for troubleshooting, support, or compliance purposes
-
----
-
-## Cause
-
-- Software version information is required for support, upgrades, or compatibility checks
-
 ---
 
 ## Resolution Steps
