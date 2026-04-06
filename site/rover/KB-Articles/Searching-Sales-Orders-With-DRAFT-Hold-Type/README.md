@@ -8,28 +8,13 @@ Users need to identify and review sales orders that are currently in a **DRAFT**
 
 ---
 
-## Symptoms
-
-- Sales orders in **DRAFT** hold status are not progressing to shipment
-- Users require a method to search for and list all sales orders with the hold type **DRAFT**
-- There is uncertainty about how to generate a report of orders on hold
-
----
-
-## Cause
-
-- In the standard RoverERP product, any order or line item placed on hold (including **DRAFT** status) cannot be shipped
-- Users may not be aware of the correct procedure or report to use for identifying orders with a specific hold type
-
----
-
 ## Resolution Steps
 
 ### 1. Use the SO.R2 Report to List Orders on Hold
 
-1. Navigate to: **Sales Orders > Reports > SO.R2** (Orders on Hold)
-2. When prompted, enter `DRAFT` in the hold code field to filter for orders with the **DRAFT** hold type
-3. If you leave the hold code field blank, the report will list all orders currently on hold, regardless of hold type
+1. SO.R2 will generate a list of orders on hold.
+2. There is a prompt for the hold code so you can run the report for a specific code.
+3.  If no entry is made in the field, all orders on hold will get selected.
 
 ![Searching Sales Order With Draft Hold Type](./Searching-Sales-Order-With-Draft-Hold-Type.jpg)
 
@@ -54,13 +39,6 @@ Users need to identify and review sales orders that are currently in a **DRAFT**
 
 > **Note:**  
 > The **SO.R2** report is the standard method for listing orders on hold in RoverERP. If your organization has custom modifications, the process may differ. Consult your system administrator if you do not see expected results.
-
----
-
-## Additional Information
-
-- Orders or line items on hold cannot be shipped until the hold is released
-- For further assistance or if you encounter issues with the report, contact RoverERP support
 
 ---
 
