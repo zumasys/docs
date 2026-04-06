@@ -1,70 +1,67 @@
-# MRP Report Returns Blank Due to Stuck Update-in-Process Flag in RoverERP
+# MRP Report Returns Blank in RoverERP
 
 <PageHeader />
 
 ## Problem Statement
 
-Users are attempting to run an MRP report (**MRP.CR4**) in RoverERP, but the report is returning blank results. This issue persists even when correct selections are made and the process has worked successfully in the past.
+Users are running an MRP report (**MRP.R4** or **MRP.R5**) in RoverERP, but the report is returning blank results. This issue persists even when correct selections are made and the process has worked successfully in the past.
 
 ---
 
 ## Symptoms
 
-- **MRP.CR4** returns no data (blank report), despite valid selections
+- **MRP.R4** or **MRP.R5** returns no data (blank report) despite valid selections
 - The issue can be replicated by logging in as the affected user
-- Users confirm that the report has worked previously and provide examples of successful past reports
+- Users confirm the report has worked previously and can provide examples of past successful reports
 
 ---
 
-## Cause
+## Troubleshooting Steps
 
-- The **MRP.P1** job, which updates MRP data, did not complete successfully during its last run
-- The **update in process** flag in **PLAN.CONTROL** was not cleared, preventing subsequent MRP processes and reports from running correctly
+### 1. Check MRP.Q for Details
 
----
+- Open **MRP.Q** (the MRP Query screen) and look up the affected part(s)
+- MRP.Q provides detailed information about individual parts and will display the **date and time MRP was last run**
+- Use this information to determine whether MRP data is current and whether the last run completed successfully
 
-## Resolution Steps
+### 2. Rerun MRP.P1 If Needed
 
-### 1. Check the Status of the MRP.P1 Job
+If MRP data is missing or out of date, **MRP.P1** can be run to rebuild the MRP files.
 
-- Review job logs or status messages to determine if the last **MRP.P1** run completed successfully
-- Look for any errors or indications that the process was interrupted
+**How the process works:**
+- When **MRP.P1** starts, it checks the **"Update In Process"** box in **PLAN.CONTROL**
+- When the process completes successfully, the box is automatically unchecked
+- This flag exists to prevent MRP.P1 from being run simultaneously by multiple users
 
-### 2. Clear the Update in Process Flag
+**If the previous MRP.P1 run failed to complete:**
+- The **"Update In Process"** box in **PLAN.CONTROL** will remain checked
+- This box must be **manually unchecked** before MRP.P1 can be rerun
+- Once cleared, run **MRP.P1** and monitor it to ensure it completes without errors
 
-- Access **PLAN.CONTROL** in RoverERP
-- Locate the **update in process** flag
-- If the flag is set, clear it to indicate that no update is currently running
+### 3. Rerun the MRP Report
 
-### 3. Rerun the MRP.P1 Job
-
-- Execute **MRP.P1** to update MRP data
-- Monitor the process to ensure it completes without errors
-
-### 4. Run the MRP Report Again
-
-- After **MRP.P1** completes, have the user rerun **MRP.CR4** with their desired selections
-- Confirm that the report now returns data as expected
+- After **MRP.P1** completes successfully, have the user rerun **MRP.R4** or **MRP.R5** with their desired selections
+- Confirm the report now returns data as expected
 
 ---
 
 ## Verification
 
-- [ ] **MRP.CR4** displays data based on the user's selections
-- [ ] The **update in process** flag in **PLAN.CONTROL** is cleared after **MRP.P1** completes
-- [ ] Users can generate MRP reports as they have in the past
+- [ ] **MRP.Q** shows current MRP data with a recent last-run date/time
+- [ ] The **"Update In Process"** flag in **PLAN.CONTROL** is unchecked after **MRP.P1** completes
+- [ ] **MRP.R4** or **MRP.R5** displays data based on the user's selections
 
 ---
 
-> **Note:**  
-> If the issue recurs, review the scheduling and completion of **MRP.P1** jobs to ensure they are not interrupted. Training may be required if users are unfamiliar with the correct report selections or process steps.
+> **Note:**
+> If the issue recurs, review the scheduling and completion of **MRP.P1** jobs to ensure they are not being interrupted. Training may be needed if users are unfamiliar with the correct report selections or process steps.
 
 ---
 
 ## Additional Information
 
-- If you continue to experience issues with MRP reports or job processing, contact RoverERP support for further troubleshooting
-- Always verify that all control flags are cleared before rerunning critical MRP processes
+- If you continue to experience issues with MRP reports or job processing, contact RoverERP support for further assistance
+- Always verify that the **"Update In Process"** flag is cleared before rerunning **MRP.P1**
 
 ---
 
