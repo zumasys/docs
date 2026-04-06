@@ -4,17 +4,11 @@
 
 <badge text='Administration' vertical='middle' />
 
-## Problem Statement
+## Purpose of how ACCOUNT.CONTROL is used to secure the accounts.
 
-Administrators need to control access to accounts in RoverERP by enabling or disabling security on an account-by-account basis.
+- If the account should be secured, the “secured” box must be checked. If the account is not listed in the record or the ‘secured’ box is not checked, the account is considered unsecured.
 
----
-
-## Symptoms
-
-- Some accounts allow users to log in without a password
-- Users exiting the menu are left at the system-level command prompt instead of being logged off
-- There is a need to enforce password prompts and secure access for specific accounts
+- If the account is secured, users with a security level of “user” in SECURITY.E will only be able to access the commands entered on their profile for the account. If the account is unsecured, users will be able to access most commands.
 
 ---
 
