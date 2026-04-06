@@ -52,9 +52,4 @@ Purchase orders (POs) are not appearing or are delayed in the "On Order" tab wit
 
 ---
 
-## Additional Information
-
-- Avoid keeping the part open in INV.Q while entering new POs in PO.E to minimize the chance of delayed updates
-- Monitor for future updates that may address this refresh behavior
-
 <PageFooter />
