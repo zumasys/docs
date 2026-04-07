@@ -13,17 +13,27 @@ These are the release notes for version 2.25.0 (4/7/2026) of the Rover Web appli
 - Column selections on print and export dialogs are now persisted across navigation, so users no longer need to re-select columns each time they print or export data.
 
 - The application header bar can now be configured to remain sticky while scrolling, keeping navigation controls always accessible. 
+![Inline MEssage](./persistent-topbar.png)
+
+- Support for an inline message with granular severity has been added to dynamic form display.
+![Inline MEssage](./dynamic-form-inline.png)
+
+### Accounting
+
+- Updated the AR/AP landing pages with responsive UI components for a more modern and flexible layout.
 
 ### Production / Scheduling
 
-- The Gantt chart now supports click-and-drag panning, allowing users to navigate across the timeline more fluidly without needing to use scroll controls.
+- The scheduling chart now supports click-and-drag panning, allowing users to navigate across the timeline more fluidly without needing to use scroll controls.
+![Schedule Panning](./production-schedule-panning.gif)
 
-- Improved single-day display behavior in the Gantt chart for more accurate time axis representation.
+- Improved single-day display behavior in the scheduling chart for more accurate time axis representation.
 
 - Timestamps have been removed from start and stop date range parameters in scheduling, resulting in cleaner and more predictable date filtering behavior.
 
 ### Scan 
 - Scan app names are also now displayed in the header bar for improved usability on scanning workflows.
+![Schedule Panning](./scan-headers.gif)
 
 ### Tickets & Time
 

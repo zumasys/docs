@@ -8,9 +8,6 @@ These are the release notes for version 2.26.0 (TBD) of the Rover Web applicatio
 
 ## New Features
 
-### Accounting
-
-- Updated the AR/AP landing pages with responsive UI components for a more modern and flexible layout.
 
 
 
