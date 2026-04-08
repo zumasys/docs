@@ -360,3 +360,9 @@ nav.VPSidebar {
     overflow: hidden !important;
   }
 }
+
+/* Hero name color */
+.VPHero .name.clip {
+  color: #009bd8 !important;
+  -webkit-text-fill-color: #009bd8 !important;
+}
