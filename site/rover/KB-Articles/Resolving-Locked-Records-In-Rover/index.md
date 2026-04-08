@@ -45,7 +45,7 @@ A user may be unable to access a record because Rover believes the record is alr
 2. Navigate to **System.D**.
 3. Open **User List**.
 4. Locate the user who is locking the record.
-5. Click **Logoff** for that user.
+5. Check with the user and ask them to log out. If they are in the middle of processing data, you can end up mismatched/corrupt data.  The logoff command should only be used when a line is truly hung.
 
 > **Note:**  
 > This process can be used to resolve other types of locked records in Rover.

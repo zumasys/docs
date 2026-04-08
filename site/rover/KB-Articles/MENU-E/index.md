@@ -72,7 +72,9 @@ AP.MENU (Primary Menu)
 <!-- *Selecting a target menu using the lookup function* -->
 
 #### 2. Add New Command Entry
-1. Navigate to an empty line in the menu
+1. Navigate to an empty line in the menu 
+
+* OR use the insert row option or F11 function key to insert the command into desired location in the list of commands. 
 2. Enter the command name in the **Command** field
 3. Add a descriptive title in the **Description** field
 4. Select an appropriate icon from the available options
