@@ -1,12 +1,31 @@
 import { defineConfig } from 'vitepress'
+import { join } from 'path'
+import { readFileSync } from 'fs'
 
 export default defineConfig({
-  title: 'Product Documentation',
-  description: 'Your home for Rover Business Suite product support and documentation.',
+  title: 'Rover Data',
+  description: 'Your home for Rover product support and documentation.',
   ignoreDeadLinks: true,
   head: [['link', { rel: 'icon', href: '/assets/img/favicon.ico' }]],
   markdown: {
     lineNumbers: true,
+  },
+  transformPageData(pageData, ctx) {
+    try {
+      const filePath = join(ctx.siteConfig.root, pageData.relativePath)
+      const src = readFileSync(filePath, 'utf-8')
+      // Strip frontmatter, code blocks, inline code, images, and HTML tags
+      const text = src
+        .replace(/^---[\s\S]*?---\n?/, '')
+        .replace(/```[\s\S]*?```/g, '')
+        .replace(/`[^`]*`/g, '')
+        .replace(/!\[.*?\]\(.*?\)/g, '')
+        .replace(/<[^>]+>/g, '')
+      const words = text.trim().split(/\s+/).filter((w: string) => w.length > 0).length
+      pageData.frontmatter.readingTime = Math.max(1, Math.ceil(words / 200))
+    } catch {
+      // non-critical — skip if file can't be read
+    }
   },
   themeConfig: {
     logo: '/assets/img/logo-grey.png',
@@ -179,6 +198,9 @@ export default defineConfig({
     },
     lastUpdated: {
       text: 'Last Updated',
+    },
+    search: {
+      provider: 'local',
     },
   },
 })

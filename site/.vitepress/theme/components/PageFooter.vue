@@ -1,9 +1,3 @@
 <template>
-  <div class="page-footer">
-    <Assistant />
-  </div>
+  <hr class="page-footer-divider" aria-hidden="true" />
 </template>
-
-<script setup lang="ts">
-import Assistant from './Assistant.vue'
-</script>
