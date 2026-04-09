@@ -6,6 +6,12 @@ export default defineConfig({
   title: 'Rover Data',
   description: 'Your home for Rover product support and documentation.',
   ignoreDeadLinks: true,
+  metaChunk: true,
+  vite: {
+    build: {
+      chunkSizeWarningLimit: 3000,
+    },
+  },
   head: [['link', { rel: 'icon', href: '/assets/img/favicon.ico' }]],
   markdown: {
     lineNumbers: true,
