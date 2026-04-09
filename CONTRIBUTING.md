@@ -18,17 +18,17 @@ Other notes:
 
 - There should only be one `#` section in an article. 
 - Leave the `<PageHeader/>` and `<PageFooter/>` tags where they are. 
-- This file should be left as `README.md` and you should place it inside a folder that represents the article name. 
+- This file should be left as `index.md` and you should place it inside a folder that represents the article name. 
 - Any images that you want to include inline should be placed in that folder too.
 
 ```
 * article-name (this is the folder)
   * image1.png (an image for the article)
   * image3.png (another image for the article)
-  * README.md (this file/the article you just made)
+  * index.md (this file/the article you just made)
 ```
 
-If your article needs to reference a file for download like a `.docx` or a `.pdf`, please place it into the `site/.vuepress/public/assets/downloads` directory and link to it like so:
+If your article needs to reference a file for download like a `.docx` or a `.pdf`, please place it into the `site/public/assets/downloads` directory and link to it like so:
 
 `[link-text](/assets/downloads/file-to-download.pdf)`
 
@@ -67,10 +67,10 @@ IF chr >= 32 AND chr < 128 THEN CRT CHAR(chr) "#2" : ELSE CRT " " :
 ```
 
 - Write URLs as links with Markdown syntax.
-  - Good: `[link text](./path/to/README.md)`
-  - Bad: `[ link text ](./path/to/README.md)`
-  - Good: `([link text])(./path/to/README.md)`
-  - Bad: `( [ link text ] )(./path/to/README.md)`
+  - Good: `[link text](./path/to/index.md)`
+  - Bad: `[ link text ](./path/to/index.md)`
+  - Good: `([link text])(./path/to/index.md)`
+  - Bad: `( [ link text ] )(./path/to/index.md)`
   - Good: `[link text](https://external.url/path/to/thing)`
   - Bad: `https://external.url/path/to/thing`
 

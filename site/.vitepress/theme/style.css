@@ -1,0 +1,368 @@
+:root {
+  --vp-c-brand-1: #eb6b3b;
+  --vp-c-brand-2: #d95e30;
+  --vp-c-brand-3: #c75228;
+  --vp-c-brand-soft: rgba(235, 107, 59, 0.14);
+}
+
+.dark {
+  --vp-c-brand-1: #f07d52;
+  --vp-c-brand-2: #eb6b3b;
+  --vp-c-brand-3: #d95e30;
+  --vp-c-brand-soft: rgba(235, 107, 59, 0.16);
+}
+
+/* PageHeader breadcrumb */
+.page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.page-breadcrumb ol {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0.85rem;
+  color: var(--vp-c-text-2);
+}
+
+.page-breadcrumb li {
+  display: flex;
+  align-items: center;
+}
+
+/* Override .vp-doc li + li { margin-top: 8px } which would push items 2+ down */
+.page-breadcrumb li + li {
+  margin-top: 0;
+}
+
+.page-breadcrumb .sep {
+  margin: 0 0.35rem;
+  opacity: 0.5;
+}
+
+.page-breadcrumb a {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+}
+
+.page-breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.page-breadcrumb .current {
+  color: var(--vp-c-text-2);
+}
+
+.reading-time {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.8rem;
+  color: var(--vp-c-text-3);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+/* PageFooter divider */
+.page-footer-divider {
+  margin: 2rem 0 1rem;
+  border: none;
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+/* HomeFeatures card grid */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.feature {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  background: var(--vp-c-bg-soft);
+}
+
+.feature h2 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 0 0.75rem;
+  color: var(--vp-c-text-1);
+  border: none;
+  padding: 0;
+}
+
+.feature p,
+.feature ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0.875rem;
+  line-height: 1.8;
+  list-style: none;
+}
+
+.feature a {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+}
+
+.feature a:hover {
+  text-decoration: underline;
+}
+
+/* Reduce sidebar width and left padding/gutter */
+:root {
+  --vp-sidebar-width: 240px !important;
+}
+
+html:root {
+  --vp-sidebar-width: 240px;
+}
+
+.VPSidebar,
+nav.VPSidebar {
+  padding-left: 24px !important;
+  padding-right: 16px !important;
+  width: 240px !important;
+}
+
+/* Fix sidebar indentation hierarchy */
+.VPSidebarItem.level-0 > .item {
+  padding-left: 0 !important;
+}
+
+.VPSidebarItem.level-1 > .item {
+  padding-left: 8px !important;
+}
+
+.VPSidebarItem.level-2 > .item {
+  padding-left: 24px !important;
+}
+
+.VPSidebarItem.level-3 > .item {
+  padding-left: 40px !important;
+}
+
+/* Align navbar brand/logo */
+.VPNavBarTitle.has-sidebar,
+.VPNavBar .VPNavBarTitle.has-sidebar {
+  padding-left: 8px !important;
+  width: 240px !important;
+  max-width: 240px !important;
+  box-sizing: border-box !important;
+  overflow: hidden;
+}
+
+/* Remove border from logo/title link - divider-line handles this */
+.VPNavBarTitle .title {
+  border-bottom: none !important;
+}
+
+/* Override the 80px padding on navbar title container */
+@media (min-width: 960px) {
+  .VPNavBar.has-sidebar .container > .title {
+    padding-left: 8px !important;
+    width: var(--vp-sidebar-width) !important;
+    box-sizing: border-box !important;
+  }
+  
+  /* Align search/nav content with article content */
+  .VPNavBar.has-sidebar .container > .content {
+    padding-left: calc(var(--vp-sidebar-width) + 24px) !important;
+  }
+  
+  .VPNavBar.has-sidebar .VPNavBarSearch {
+    padding-left: 0 !important;
+  }
+  
+  .VPSidebar {
+    width: var(--vp-sidebar-width) !important;
+  }
+  
+  /* Reduce gap between sidebar and content */
+  .VPContent.has-sidebar {
+    padding-left: var(--vp-sidebar-width) !important;
+  }
+  
+  /* Remove all extra padding/margin to close the gap */
+  .VPDoc.has-sidebar {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+  
+  .VPDoc.has-sidebar .container {
+    padding-left: 0 !important;
+    gap: 0 !important;
+    justify-content: flex-start !important;
+  }
+  
+  .VPDoc.has-sidebar .content {
+    padding-left: 24px !important;
+    padding-right: 16px !important;
+  }
+  
+  .VPDoc.has-sidebar .content-container {
+    margin-left: 0 !important;
+    max-width: none !important;
+    margin-right: 0 !important;
+    flex-grow: 1 !important;
+  }
+
+  .VPDoc .aside {
+    flex-grow: 0 !important;
+    flex-shrink: 0 !important;
+    width: 224px !important;
+    padding-left: 24px !important;
+  }
+  
+  /* Segmented header divider with gaps */
+  .VPNavBar.has-sidebar .divider {
+    padding-left: 0 !important;
+    width: 100% !important;
+  }
+  
+  .VPNavBar.has-sidebar .divider-line {
+    background-color: transparent !important;
+    position: relative;
+  }
+  
+  /* Title area segment (under logo + title) */
+  .VPNavBar.has-sidebar .divider-line::before {
+    content: '';
+    position: absolute;
+    left: 16px;
+    width: 187px;
+    height: 1px;
+    background-color: var(--vp-c-divider);
+  }
+  
+  /* Main content area segment */
+  .VPNavBar.has-sidebar .divider-line::after {
+    content: '';
+    position: absolute;
+    left: 264px;
+    right: 16px;
+    height: 1px;
+    background-color: var(--vp-c-divider);
+  }
+
+  /* VPLocalNav divider - match content width */
+  .VPLocalNav.has-sidebar {
+    border-bottom: none !important;
+  }
+  
+  .VPLocalNav.has-sidebar .container {
+    position: relative;
+    border-bottom: none !important;
+  }
+  
+  .VPLocalNav.has-sidebar .container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 24px;
+    right: 16px;
+    height: 1px;
+    background-color: var(--vp-c-divider);
+  }
+}
+
+/* VPLocalNav divider for smaller screens (below sidebar breakpoint) */
+@media (max-width: 959px) {
+  .VPLocalNav {
+    border-bottom: none !important;
+  }
+  
+  .VPLocalNav .container {
+    position: relative;
+    border-bottom: none !important;
+  }
+  
+  .VPLocalNav .container::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 32px;
+    right: 32px;
+    height: 1px;
+    background-color: var(--vp-c-divider);
+  }
+}
+
+/* Homepage content area */
+.home-links {
+  max-width: 960px;
+  margin: 2rem auto 0;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.home-links h2 {
+  border-bottom: none;
+}
+
+.home-links p {
+  line-height: 2;
+}
+
+.home-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.home-column {
+  flex: 1;
+  min-width: 200px;
+}
+
+.home-column h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.home-column p {
+  line-height: 2.2;
+}
+
+.home-column a {
+  color: var(--vp-c-brand-1);
+  text-decoration: none;
+}
+
+.home-column a:hover {
+  text-decoration: underline;
+}
+
+/* Hide hero image on mobile */
+@media (max-width: 799px) {
+  .VPHero.has-image .image,
+  .VPHero.has-image .image-container,
+  .VPHero.has-image .image-bg,
+  .VPHero .VPImage.image-src {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+  }
+}
+
+/* Hero name color */
+.VPHero .name.clip {
+  color: #009bd8 !important;
+  -webkit-text-fill-color: #009bd8 !important;
+}

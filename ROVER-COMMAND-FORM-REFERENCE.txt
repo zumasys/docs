@@ -1,0 +1,251 @@
+=======================================================================================================
+ROVER ERP - COMPLETE COMMAND/FORM REFERENCE GUIDE
+=======================================================================================================
+
+This is a quick reference for finding documentation on specific Rover ERP commands, forms, and processes.
+
+Forms are organized by module using this naming convention:
+  [MODULE]-E       = Data Entry Form (e.g., PO-E, SO-E, LABOR-E)
+  [MODULE]-P1      = Process/Batch (e.g., MRP-P1, CYCLE-P1)
+  [MODULE]-R1      = Report (e.g., PO-R1, AR-R1)
+  [MODULE]-Q       = Inquiry/Query (e.g., EXEC-Q, INV-Q)
+  [MODULE]-F1      = Form Report (e.g., PO-F1, PHYS-F1)
+
+=======================================================================================================
+QUICK FIND BY MODULE CODE
+=======================================================================================================
+
+ACE  -> Application Control & Entry        | ACE-OVERVIEW/  | 330 files
+AP   -> Accounts Payable                   | AP-OVERVIEW/   | 318 files
+AR   -> Accounts Receivable                | AR-OVERVIEW/   | 270 files
+DOC  -> Document Control                   | DOC-OVERVIEW/  | 26 files
+ENG  -> Engineering (Parts, BOM, ECN)      | ENG-OVERVIEW/  | 229 files
+EXEC -> Executive Summary                  | EXEC-OVERVIEW/ | 38 files
+FS   -> Field Service                      | FS-OVERVIEW/   | 84 files
+GL   -> General Ledger                     | GL-OVERVIEW/   | 166 files
+INV  -> Inventory                          | INV-OVERVIEW/  | 299 files
+MFG  -> Manufacturing Planning (MPS/MRP)   | MFG-OVERVIEW/  | 143 files
+MRK  -> Sales & Marketing (SO, Shipping)   | MRK-OVERVIEW/  | 492 files [LARGEST]
+PRO  -> Production (WO, Labor, QC)         | PRO-OVERVIEW/  | 257 files
+PROJ -> Project Management                 | PROJ-OVERVIEW/ | 9 files
+PUR  -> Purchasing/Receiving               | PUR-OVERVIEW/  | 163 files
+
+=======================================================================================================
+FORM FINDER BY FUNCTION (Where to find specific capabilities)
+=======================================================================================================
+
+ACCOUNTING & FINANCE:
+  AP-E           -> Invoice Entry (Accounts Payable)
+  AP-CONTROL     -> Accounts Payable Control/Setup
+  AR-E           -> Invoice Entry (Accounts Receivable)
+  AR-CONTROL     -> Accounts Receivable Control/Setup
+  GL-CONTROL     -> General Ledger Control/Setup
+  GLTRANS-E      -> GL Journal Entries
+  GLBAL-E        -> GL Account Balances
+  GLCHART-E      -> Chart of Accounts
+  FY-E           -> Fiscal Year Setup
+  EXEC-Q         -> Executive Financial Queries
+
+PURCHASING & RECEIVING:
+  PO-E           -> Purchase Order Entry
+  PO-CONTROL     -> PO Control/Setup
+  POREQ-E        -> Purchase Requisition Entry
+  RECEIPTS-E     -> Receive Purchase Orders
+  POPRICE-E      -> PO Pricing Entry
+  CONTAINER-E    -> Container/Shipment Tracking
+  DMR-E          -> Debit Memo Request
+  VENDOR-E       -> Vendor Master (in AP module)
+  PTAX-E         -> Purchase Tax Setup
+
+INVENTORY MANAGEMENT:
+  INV-CONTROL    -> Inventory Control/Setup
+  IT-E           -> Inventory Transactions (1-6)
+  BIN-E          -> Bin Setup
+  LOT-E          -> Lot Number Tracking
+  PHYS-E         -> Physical Inventory Counts
+  CYCLE-E        -> Cycle Counting
+  INVLOC-E       -> Inventory Location Setup
+  INVREQ-E       -> Inventory Requisition
+  COSTADJ-E      -> Inventory Cost Adjustments
+  SHORTS-E       -> Shortage Tracking
+
+ENGINEERING & MANUFACTURING PLANNING:
+  PARTS-E        -> Parts Master Entry (1-11)
+  BOM-E          -> Bill of Material Entry
+  ECN-E          -> Engineering Change Notices (1-4)
+  COST-E         -> Product Cost Entry
+  PARTCHANGE-E   -> Mass BOM Changes (1-7)
+  PRODCON-E      -> Product Configurator (1-7)
+  PLAN-E         -> Planning Entry (MFG)
+  PLAN-CONTROL   -> Planning Control (MFG)
+  FORECAST-E     -> Demand Forecast Entry
+  MS-E           -> Master Schedule Entry
+  MRP/CRP        -> Planning Processes (MRP-P1, CRP-P1)
+
+SALES & MARKETING:
+  SO-E           -> Sales Order Entry (1-9, plus SO-E2, SO-NOTES)
+  QUOTE-E        -> Quote Entry (1-5)
+  SOQUOTE-E      -> Sales Quote Entry (1-6)
+  SHIP-E         -> Shipment Entry (1-6 variations)
+  RMA-E          -> Return/RMA Entry (1-5)
+  RMAREC-E       -> RMA Receipt (1-4 variations)
+  PROSPECT-E     -> Prospect Entry (1-5)
+  CAMPAIGN-E     -> Campaign Entry
+  PRICE-E        -> Pricing Entry (1-2)
+  COMM-E         -> Commission Entry (1-2)
+  REP-E          -> Sales Rep Entry (1-4)
+  ROUTE-E        -> Route Setup (1-2)
+  MSHIP-E        -> Membership Entry (1-5)
+
+PRODUCTION:
+  WO-E           -> Work Order Entry (1-11, plus E2-E5)
+  LABOR-E        -> Labor Entry (1-3)
+  EMPTIME-E      -> Employee Time Entry (1-7)
+  QC-E           -> Quality Control (1-5)
+  ST-E           -> Shop Traveler (1-8)
+  NCMR-E         -> Non-Conformance Report (1-3)
+  PICKER-E       -> Picker Entry (1-3 variations)
+  ROUTING-E      -> Routing Entry (1-3)
+  WOBOM-E        -> Work Order BOM
+  WOMATL-E       -> Work Order Material
+  WOOP-E         -> Work Order Operations
+
+FIELD SERVICE:
+  FSO-E          -> Field Service Order (1-7, plus E2 1-5)
+  SERIAL-E       -> Serial Number Tracking (1-5)
+
+PROJECTS:
+  PROJECT-E      -> Project Entry (1-3)
+
+ADMINISTRATION & CONTROL:
+  ACE-CONTROL    -> System Control & Setup (20+ subforms)
+  FDICT-E        -> Field Dictionary (1-6)
+  SECURITY-E     -> User Security (1-7)
+  TERM-CONTROL   -> Terminal Control (1-4)
+  PRINTER-CONTROL-> Printer Control (1-4)
+  DOC-CONTROL    -> Document Control Setup
+  DOC-E          -> Document Entry (1-3, plus E2 1-3)
+
+REPORTS & INQUIRIES:
+  EXEC-Q         -> Executive Queries (Q1-Q12)
+  INV-Q          -> Inventory Queries (Q1-Q9)
+  AR-Q           -> AR Aging Queries
+  CUST-Q         -> Customer Queries
+  MRP-Q          -> MRP Queries (Q1-Q6)
+  CRP-Q          -> CRP Queries (Q1-Q4)
+  MPS-Q          -> MPS Queries (Q1-Q6)
+
+=======================================================================================================
+COMMON TASK LOOKUP
+=======================================================================================================
+
+Creating a Sales Order        -> MRK-ENTRY / SO-E / README.md
+Entering an Invoice (AP)      -> AP-ENTRY / AP-E / README.md
+Receiving POs                 -> PUR-ENTRY / RECEIPTS-E / README.md
+Inventory Transaction         -> INV-ENTRY / IT-E / README.md
+Creating Work Order           -> PRO-ENTRY / WO-E / README.md
+Bill of Material Entry        -> ENG-ENTRY / BOM-E / README.md
+Physical Inventory Count      -> INV-ENTRY / PHYS-E / README.md
+Master Schedule Planning      -> MFG-ENTRY / MS-E / README.md
+Material Requirements (MRP)   -> MFG-PROCESS / MRP-P1 / README.md
+Creating RMA                  -> MRK-ENTRY / RMA-E / README.md
+Labor Entry                   -> PRO-ENTRY / LABOR-E / README.md
+AR Aging Report              -> AR-REPORT / AR-R1 / README.md
+PO Report                    -> PUR-REPORT / PO-R1 / README.md
+Inventory Valuation          -> INV-REPORT / INV-R1 / README.md
+Work Order Costing           -> PRO-REPORT / (labor/overhead reports)
+Engineering Change Notice   -> ENG-ENTRY / ECN-E / README.md
+Customer Master              -> AR-ENTRY / CUST-E / README.md
+Vendor Master                -> AP-ENTRY / VENDOR-E / README.md
+Price List Entry             -> MRK-ENTRY / PRICE-E / README.md
+Lot Number Tracking          -> INV-ENTRY / LOT-E / README.md
+
+=======================================================================================================
+PROCESS FLOWS (Where to find workflow documentation)
+=======================================================================================================
+
+Quote to Cash Flow               -> TRANS-FLOWS / quote-to-cash / README.md
+Procure to Payment Flow          -> TRANS-FLOWS / procure-to-payment / README.md
+Material Planning (PO to Receipt)-> TRANS-FLOWS / material-planning-po-to-receipt / README.md
+
+Module-specific processes:
+  Sales Order Processing         -> MRK-PROCESS / SALES-P1 / README.md
+  Invoice Processing (AP)        -> AP-PROCESS / AP-P1 / README.md
+  Receiving Processing           -> PUR-PROCESS / RECEIPTS-P1 / README.md
+  Physical Inventory Cycle       -> INV-PROCESS / CYCLE-P1 / README.md
+  Work Order Completion          -> PRO-PROCESS / WO-P1 through WO-P7 / README.md
+  MRP Run                        -> MFG-PROCESS / MRP-P1 / README.md
+  RMA Processing                 -> MRK-PROCESS / RMA-P2 / README.md
+  Labor Posting                  -> PRO-PROCESS / LABOR-P1 / README.md
+
+=======================================================================================================
+LOCATION OF ALL DOCUMENTATION
+=======================================================================================================
+
+Base Location: C:\source\internal\docs\site\rover\
+
+Module Documentation:
+  - ACE-OVERVIEW\
+  - AP-OVERVIEW\
+  - AR-OVERVIEW\
+  - DOC-OVERVIEW\
+  - ENG-OVERVIEW\
+  - EXEC-OVERVIEW\
+  - FS-OVERVIEW\
+  - GL-OVERVIEW\
+  - INV-OVERVIEW\
+  - MFG-OVERVIEW\
+  - MRK-OVERVIEW\
+  - PRO-OVERVIEW\
+  - PROJ-OVERVIEW\
+  - PUR-OVERVIEW\
+
+Business Suite:
+  - business-suite\ (40 files including AI, BI, Integrations, Payment, POS)
+
+Administration:
+  - administration\ (Setup and configuration)
+  - cheat-sheet\ (Quick reference)
+  - tips-and-tricks\ (Helpful hints)
+  - workflow-management\ (Workflow setup)
+
+Special Documentation:
+  - TRANS-FLOWS\ (Cross-module business processes)
+
+=======================================================================================================
+HOW TO USE THIS CATALOG
+=======================================================================================================
+
+1. Find your task or module in the "COMMON TASK LOOKUP" section above
+2. Note the location pattern: [MODULE]-[TYPE]/[FORM]/[STEP]/README.md
+   Example: MRK-OVERVIEW/MRK-ENTRY/SO-E/SO-E-1/README.md
+
+3. Full path would be:
+   C:\source\internal\docs\site\rover\MRK-OVERVIEW\MRK-ENTRY\SO-E\SO-E-1\README.md
+
+4. Each README.md contains:
+   - Step-by-step instructions
+   - Field descriptions
+   - Screenshots (.jpg files in the same folder)
+   - Related processes
+   - Links to other forms
+
+5. Each form typically has 1-7 numbered steps (e.g., SO-E-1, SO-E-2, ..., SO-E-9)
+
+=======================================================================================================
+STATISTICS
+=======================================================================================================
+
+Total Documentation Files:  2,989+ markdown files
+Total Supporting Images:    1,500+ screenshot files
+Documentation Modules:      14 primary
+Support Modules:            6 (Business Suite, Admin, Flows, etc.)
+Average Module Size:        ~200 files per module
+Largest Module:             MRK (Sales & Marketing) - 492 files
+Smallest Module:            PROJ (Project Management) - 9 files
+
+Last Updated: Generated 2026-03-07
+
+For the complete detailed list, see: C:\source\internal\docs\ROVER-DOCUMENTATION-CATALOG.txt
+
+=======================================================================================================

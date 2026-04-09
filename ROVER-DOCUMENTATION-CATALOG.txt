@@ -1,0 +1,623 @@
+===============================================================================================
+ROVER ERP - COMPREHENSIVE DOCUMENTATION CATALOG
+===============================================================================================
+Generated: 2026-03-07 06:40:24
+Location: C:\source\internal\docs\site\rover\
+
+===============================================================================================
+EXECUTIVE SUMMARY
+===============================================================================================
+
+Total Documentation: 2,989 markdown files
+Primary Modules: 14
+Business Suite Extensions: 1 module (40 files)
+Administration: 1 section (7 files)
+
+===============================================================================================
+MODULE STATISTICS BY FILE COUNT
+===============================================================================================
+
+1.  MRK (Sales & Marketing)           492 files [LARGEST]
+2.  ACE (Application Control & Entry) 330 files
+3.  AP  (Accounts Payable)            318 files
+4.  INV (Inventory)                   299 files
+5.  AR  (Accounts Receivable)         270 files
+6.  PRO (Production)                  257+ files
+7.  ENG (Engineering)                 229 files
+8.  GL  (General Ledger)              166 files
+9.  PUR (Purchasing/Receiving)        163 files
+10. MFG (Manufacturing Planning)       143 files
+11. FS  (Field Service)                84 files
+12. EXEC (Executive Summary)           38 files
+13. DOC (Document Control)             26 files
+14. PROJ (Project Management)           9 files
+
+===============================================================================================
+DETAILED MODULE OVERVIEW
+===============================================================================================
+
+MODULE: ACE - APPLICATION CONTROL & ENTRY (330 files)
+-------------------------------------------
+Purpose: Controls all data entry screens, menus, security, development tools, terminal/printer definitions, system backups
+Location: C:\source\internal\docs\site\rover\ACE-OVERVIEW\
+
+Key Sections:
+  ACE-ENTRY (Data Entry)
+    - Archive Control (ARCHIVE-CONTROL)
+    - Attachment Control (ATTACHMENT-CONTROL)
+    - Bill of Quantities (BQ-E)
+    - Bill of Sales (BS-E)
+    - Change Control (CHANGE-CONTROL: 20 screens)
+    - Client Control (CLIENT-CONTROL)
+    - Company Control (CO-CONTROL)
+    - Fax Control (FAX-CONTROL)
+    - Field Dictionary (FDICT-E: 6 screens)
+    - Form Control (FORM-CONTROL: 3 screens)
+    - Line Item ID (LIID-E)
+    - Menu Entry (MENU-E)
+    - Module Entry (MOD-E)
+    - Parameter Definition (PADEF-E)
+    - Parameter Alert (PALERT-E)
+    - Print Definition (PD-E: 5 screens + 2 additional)
+    - Printer Control (PRINTER-CONTROL: 4 screens)
+    - Printers (PRINTERS-E: 4 screens)
+    - Purge Control (PURGE-CONTROL)
+    - Report Definition (RD-E)
+    - Reconciliation (REC-E)
+    - Security Control (SECURITY-CONTROL: 3 variations)
+    - Service Control (SERVICE-CONTROL)
+    - Terminal Control (TERM-CONTROL: 4 screens)
+    - Terminal Development (TERMDEV-E: 5 screens)
+    - Transaction Control List (TCL-E)
+    - Web Control (WEB-CONTROL: 2 screens)
+
+  ACE-PROCESS (Batch/Automated Processes)
+    - Archive (ARCHIVE-P1)
+    - Attachment (ATTACHMENT-P1, P2)
+    - Copy Data (COPY-DATA)
+    - Copy DM (COPY-DM)
+    - Full Backup (FULL-BACKUP)
+    - NT Backup (NT-BACKUP)
+    - Print Definition (PD-P1)
+    - SQL (SQ-P1)
+    - User Log (USERLOG-P1)
+
+  ACE-REPORT (Reports & Inquiries)
+    - Module (MOD-R1, R2, R5)
+    - Menu (MENU-R1)
+    - ODBC (ODBC-R1)
+    - Parameter Definition (PADEF-Q)
+    - Parameter Alert (PALERT-Q)
+    - Print Definition (PD-R1, R2)
+    - Reconciliation (REC-R1)
+    - Report Entry (REPORT-E: 2 screens)
+    - Security (SECURITY-R1)
+    - User Log (USERLOG-R1)
+
+
+MODULE: AP - ACCOUNTS PAYABLE (318 files)
+-------------------------------------------
+Purpose: Enter/maintain vendor invoices, process payments, manage payables
+Location: C:\source\internal\docs\site\rover\AP-OVERVIEW\
+
+Key Sections:
+  AP-ENTRY (Data Entry)
+    - Account Control (ACCT-CONTROL: 5 screens)
+    - AP Control (AP-CONTROL: 2 screens)
+    - Invoice Entry (AP-E: 5 screens + 1 additional, AP-E2)
+    - 1099 Entry (AP1099-E)
+    - Approval & Release (APR-E: 2 screens)
+    - Checks (CHECKS-E: 3 screens, plus E2, E3, E4)
+    - Contact Control (CONTACT-CONTROL)
+    - Pre-Checks (PRECHECKS-E)
+    - Pre-Communication (PRECOMM-E)
+    - Terms Entry (TERMS-E)
+    - Vendor Entry (VENDOR-E: 5 screens)
+
+  AP-PROCESS (Batch/Automated Processes)
+    - Invoice Processing (AP-P1, P4, P5, P7)
+    - 1099 Processing (AP1099-P1)
+
+  AP-REPORT (Reports & Inquiries)
+    - Payables Analysis reports
+    - Aging reports
+    - Vendor reports
+    - 1099 reports
+
+
+MODULE: AR - ACCOUNTS RECEIVABLE (270 files)
+-------------------------------------------
+Purpose: Maintain customer invoices, process payments, manage receivables
+Location: C:\source\internal\docs\site\rover\AR-OVERVIEW\
+
+Key Sections:
+  AR-ENTRY (Data Entry)
+    - AR Control (AR-CONTROL)
+    - Invoice Entry (AR-E: 7 screens, AR-E2)
+    - Notes (AR-NOTES)
+    - Recurring Invoices (ARR-E: 4 screens)
+    - Sales Tax (ARTAX-E)
+    - Cash Receipt (CASH-E: 5 screens + 3 variations)
+    - Credit Card Control (CC-CONTROL)
+    - Currency Control (CURRENCY-CONTROL)
+    - Customer Entry (CUST-E: 11 screens)
+    - Export Control (EXPORT-CONTROL: 3 screens)
+    - Reconciliation (RECON-E: 4 screens)
+    - Sales Tax Control (STAX-CONTROL)
+
+  AR-PROCESS (Batch/Automated Processes)
+    - Recurring Invoice Processing
+    - Cash Application
+    - Customer Processing
+    - Collection Processing
+
+  AR-REPORT (Reports & Inquiries)
+    - Aging reports (multiple variations)
+    - Customer queries (12 inquiry types)
+    - Sales analysis
+    - Cash reports
+    - Collections tracking
+
+
+MODULE: DOC - DOCUMENT CONTROL (26 files)
+-------------------------------------------
+Purpose: Track documents/revisions with secure access for editing, approving, viewing
+Location: C:\source\internal\docs\site\rover\DOC-OVERVIEW\
+
+Key Sections:
+  DOC-ENTRY (Data Entry)
+    - Document Control (DOC-CONTROL)
+    - Document Entry (DOC-E: 3 screens, DOC-E2: 3 screens)
+
+  DOC-REPORT (Reports & Inquiries)
+    - Document Inquiry (DOC-Q)
+    - Document Reports (DOC-R1)
+
+
+MODULE: ENG - ENGINEERING (229 files)
+-------------------------------------------
+Purpose: Parts Master, Bill of Material, Product Cost, ECN system, mass changes
+Location: C:\source\internal\docs\site\rover\ENG-OVERVIEW\
+
+Key Sections:
+  ENG-ENTRY (Data Entry)
+    - Bill of Material (BOM-E: 3 screens, BOM-E2: 2 screens)
+    - Category Control (CAT-CONTROL)
+    - Cost Control (COST-CONTROL)
+    - Cost Entry (COST-E: 3 screens)
+    - ECN Control (ECN-CONTROL)
+    - Engineering Change Notice (ECN-E: 4 screens, ECN-E2)
+    - Export Control (EXPORT-CONTROL: 3 screens)
+    - Part Change (PARTCHANGE-E: 7 screens)
+    - Parts Master (PARTS-E: 11 screens)
+    - Product Configurator (PRODCON-E: 7 screens, PRODCON-E2)
+    - Specification Control (SPEC-CONTROL)
+    - Unit of Measure Control (UM-CONTROL)
+
+  ENG-PROCESS (Batch/Automated Processes)
+    - BOM Processing (BOM-P1 through P4)
+    - Cost Analysis (COST-P1, P2)
+    - ECN Processing (ECN-P1)
+    - Parts Processing (PARTS-P1, P2, P4, P5, P6)
+    - Work Unit Processing (WU-P1)
+
+  ENG-REPORT (Reports & Inquiries)
+    - BOM Reports (BOM-R1 through R10)
+    - Category (CAT-R1)
+    - Cost Analysis (COST-R1)
+    - ECN Reports (ECN-F1, ECN-R1, R2)
+    - Parts Lists (PARTS-L1, PARTS-R1 through R3, R5)
+    - Product Configuration (PRODCON-R1, R2, R3)
+    - Work Unit Inquiries (WU-Q, WU-Q2, WU-R1, WU-R2)
+
+
+MODULE: EXEC - EXECUTIVE SUMMARY (38 files)
+-------------------------------------------
+Purpose: Summary financial and inventory data from all modules
+Location: C:\source\internal\docs\site\rover\EXEC-OVERVIEW\
+
+Key Sections:
+  EXEC-ENTRY (Data Entry)
+    - Control Parameters (EXEC-CONTROL)
+
+  EXEC-PROCESS (Batch/Automated Processes)
+    - Executive Processing (EXEC-P1)
+
+  EXEC-REPORT (Reports & Inquiries)
+    - Executive Inquiry (EXEC-Q: 12 different queries)
+    - Executive Reports (EXEC-R1)
+
+
+MODULE: FS - FIELD SERVICE (84 files)
+-------------------------------------------
+Purpose: Service orders, preventive maintenance, warranty, time/materials, invoicing
+Location: C:\source\internal\docs\site\rover\FS-OVERVIEW\
+
+Key Sections:
+  FS-ENTRY (Data Entry)
+    - Field Service Control (FS-CONTROL: 6 screens)
+    - Field Service Order (FSO-E: 7 screens, FSO-E2: 5 screens)
+    - Serial Numbers (SERIAL-E: 5 screens)
+
+  FS-PROCESS (Batch/Automated Processes)
+    - FSO Processing (FSO-P1, P2)
+
+  FS-REPORT (Reports & Inquiries)
+    - Service Order Forms (FSO-F1, F2)
+    - Service Reports (FSO-R1 through R6)
+    - Serial Number Reports (SERIAL-R2)
+
+
+MODULE: GL - GENERAL LEDGER (166 files)
+-------------------------------------------
+Purpose: Financial information capture/reporting, chart of accounts, budgets, fiscal periods, journal entries
+Location: C:\source\internal\docs\site\rover\GL-OVERVIEW\
+
+Key Sections:
+  GL-ENTRY (Data Entry)
+    - Account Flow (GL-ACCOUNT-FLOW)
+    - Fiscal Year (FY-E)
+    - GL Control (GL-CONTROL: 3 screens)
+    - GL Balance (GLBAL-E, GLBAL-E2)
+    - GL Chart of Accounts (GLCHART-E)
+    - GL Recurring (GLRECUR-E)
+    - GL Report Definition (GLRPT-E: 2 screens)
+    - GL Transactions (GLTRANS-E, GLTRANS-E2)
+
+  GL-PROCESS (Batch/Automated Processes)
+    - Fiscal Year (FY-P1, P2, P3)
+    - GL Chart Processing (GLCHART-P2)
+    - GL Integration (GLINT-P1)
+    - GL Recurring (GLRECUR-P1)
+    - GL Transactions (GLTRANS-P1, P2)
+    - Payroll Integration (PAYROLL-P1, P2)
+    - Reconciliation (RECON-P1)
+
+  GL-REPORT (Reports & Inquiries)
+    - Control Reports (CONTROL-R1)
+    - GL Balance (GLBAL-Q, GLBAL-R1 through R5)
+    - GL Chart (GLCHART-R1, R2, R3)
+    - GL Recurring (GLRECUR-R1)
+    - GL Report Definition (GLRPT-R1, R2)
+    - GL Transactions (GLTRANS-R1 through R4)
+    - Inventory Registers (INVREG-R1)
+    - Reconciliation (RECON-Q, RECON-R1)
+    - Registers (REG-R1 through R4, WOREG-R1)
+
+
+MODULE: INV - INVENTORY (299 files)
+-------------------------------------------
+Purpose: Inventory locations, material balances, material movements
+Location: C:\source\internal\docs\site\rover\INV-OVERVIEW\
+
+Key Sections:
+  INV-ENTRY (Data Entry)
+    - Bin Control (BIN-CONTROL: 2 screens)
+    - Bin Entry (BIN-E: 2 screens)
+    - Cost Adjustment (COSTADJ-E)
+    - Cycle Count (CYCLE-E)
+    - Inventory Control (INV-CONTROL: 2 screens)
+    - Inventory Location (INVLOC-E)
+    - Inventory Requisition (INVREQ-E)
+    - Inventory Transaction (IT-E: 6 screens, IT-E2, E3, E4, E5, E6)
+    - Lot Tracking (LOT-E: 7 screens)
+    - Physical Inventory (PHYS-E, PHYS-E2)
+    - Shortage Tracking (SHORTS-E: 2 screens)
+
+  INV-PROCESS (Batch/Automated Processes)
+    - Allocation (ALLOC-P1)
+    - Commitment (COMMIT-P1)
+    - Cost Adjustment (COSTADJ-P1)
+    - Cycle Counting (CYCLE-P1 through P5)
+    - Inventory (INV-P1, P2)
+    - Inventory Register (INVREG-P1)
+    - Inventory Transactions (IT-P1)
+    - Order Processing (ORDER-P1)
+    - Physical Inventory (PHYS-P1 through P5)
+    - Usage (USAGE-P1)
+
+  INV-REPORT (Reports & Inquiries)
+    - Allocation (ALLOC-R1)
+    - Barcode (BARCODE-L1)
+    - Commitment (COMMIT-R1)
+    - Cost Adjustment (COSTADJ-R1, R2)
+    - Cycle Count (CYCLE-R1 through R4)
+    - Inventory (INV-Q1-Q9, INV-Q2, INV-Q3, INV-R1 through R17)
+    - Inventory Locations (INVLOC-R1)
+    - Inventory Requisitions (INVREQ-F1, INVREQ-R1)
+    - Inventory Transactions (IT-Q, IT-R1 through R7)
+    - Lot Tracking (LOT-R1 through R3)
+    - Order (ORDER-R1)
+    - Physical Inventory (PHYS-F1, PHYS-R1 through R6)
+    - Usage (USAGE-R1, R2, R3)
+
+
+MODULE: MFG - MANUFACTURING PLANNING (143 files)
+-------------------------------------------
+Purpose: Master Production Scheduling (MPS), Material Requirements Planning (MRP), Capacity Requirements Planning (CRP)
+Location: C:\source\internal\docs\site\rover\MFG-OVERVIEW\
+
+Key Sections:
+  MFG-ENTRY (Data Entry)
+    - Capacity Requirements (CRP-CONTROL)
+    - Forecast (FORECAST-E)
+    - Interdepartmental (ID-E)
+    - Master Schedule (MS-E)
+    - Planning Bill (PB-E)
+    - Planning Control (PLAN-CONTROL)
+    - Planning Entry (PLAN-E)
+    - Shop Floor (SF-E)
+
+  MFG-PROCESS (Batch/Automated Processes)
+    - CRP Processing (CRP-P1)
+    - ID Processing (ID-P1)
+    - MPS Processing (MPS-P1)
+    - MRP Planning (MRP-P1, P2)
+    - Master Schedule (MS-P1)
+    - Planning Bill (PB-P1, P2, P3)
+    - Shop Floor (SF-P1)
+
+  MFG-REPORT (Reports & Inquiries)
+    - CRP (CRP-Q: 4 queries, CRP-R1, R2)
+    - Forecast (FORECAST-R1)
+    - ID (ID-R1)
+    - Inventory (INV-R5)
+    - MPS (MPS-Q: 6 queries, MPS-R1, R2)
+    - MRP (MRP-Q: 6 queries, MRP-R1 through R5)
+    - Master Schedule (MS-R1)
+    - Planning Bill (PB-R1, R2)
+    - Shop Floor (SF-R1)
+
+
+MODULE: MRK - SALES & MARKETING (492 files) [LARGEST MODULE]
+-------------------------------------------
+Purpose: Sales order entry, shipping, returns, prospect tracking, failure analysis
+Location: C:\source\internal\docs\site\rover\MRK-OVERVIEW\
+
+Key Sections:
+  MRK-ENTRY (Data Entry)
+    - Campaign (CAMPAIGN-E)
+    - Communication (COMM-E: 2 screens)
+    - Coupons (COUPON-E: 2 screens)
+    - Customer Price (CPRICE-E)
+    - DD250 (DD250-E: 2 screens)
+    - Failure Control (FAIL-CONTROL)
+    - Group Control (GROUP-CONTROL)
+    - Lost Sale Control (LOSTSALE-CONTROL)
+    - Lost Sale (LOSTSALE-E)
+    - Mass Email (MASS-EMAIL)
+    - Marketing Control (MRK-CONTROL: 9 screens)
+    - Marketing Code (MRKCODE-E)
+    - Membership (MSHIP-E: 5 screens)
+    - MTBF Control (MTBF-CONTROL)
+    - Pricing Control (PRICE-CONTROL)
+    - Price Entry (PRICE-E: 2 screens, PRICE-E2)
+    - Prospect Control (PROSPECT-CONTROL)
+    - Prospect Entry (PROSPECT-E: 5 screens)
+    - Promotional Sale Order (PSO-E: 3 screens)
+    - Quote Control (QUOTE-CONTROL)
+    - Quote Entry (QUOTE-E: 5 screens)
+    - Rebate Control (REBATE-CONTROL)
+    - Rep Control (REP-CONTROL)
+    - Rep Entry (REP-E: 4 screens)
+    - RMA (RMA-E: 5 screens)
+    - RMA Receipt (RMAREC-E: 2 screens, RMAREC-E2: 7 screens, RMAREC-E3, E4)
+    - Route (ROUTE-E: 2 screens)
+    - Route Shipment (ROUTESHIP-E: 2 screens)
+    - Sales Opportunity Control (SALEOPP-CONTROL)
+    - Sales Opportunity (SALEOPP-E: 2 screens)
+    - Shipping Control (SHIP-CONTROL: 5 screens)
+    - Shipment (SHIP-E: 2 screens, SHIP-E2: 6 screens, SHIP-E3: 2 screens, SHIP-E4, E5, E6)
+    - Sales Order (SO-E: 9 screens, SO-E2, SO-NOTES)
+    - Sales Order Quote (SOQUOTE-E: 6 screens)
+    - State Control (STATE-CONTROL)
+    - Warranty (WARR-E)
+    - Web Cart (WEBCART-E)
+    - Web Sales Order Control (WEBSO-CONTROL)
+
+  MRK-PROCESS (Batch/Automated Processes)
+    - Communication (COMM-P1)
+    - Contact Processing (CONTACT-P1)
+    - Failure (FAIL-P1, P2)
+    - Pricing (PRICE-P1)
+    - Prospect (PROSPECT-P1, P2)
+    - Rep (REP-P2)
+    - RMA (RMA-P2)
+    - RMA Receipt (RMAREC-P1, P2)
+    - Route Shipment (ROUTESHIP-P1)
+    - Sales (SALES-P1, P2)
+    - Shipment (SHIP-P1, P2)
+
+  MRK-REPORT (Reports & Inquiries)
+    - Extensive sales analysis, RMA, prospect, and shipment reports
+
+
+MODULE: PRO - PRODUCTION (257+ files)
+-------------------------------------------
+Purpose: Work orders, picking lists, shortage tracking, labor entry, shop floor control, variance reporting
+Location: C:\source\internal\docs\site\rover\PRO-OVERVIEW\
+
+Key Sections:
+  PRO-ENTRY (Data Entry)
+    - Barcode Control (BAR-CONTROL)
+    - Employee (EMP-E: 5 screens)
+    - Employee Time (EMPTIME-E: 7 screens)
+    - Labor Control (LABOR-CONTROL)
+    - Labor (LABOR-E: 3 screens)
+    - NCMR Control (NCMR-CONTROL)
+    - NCMR (NCMR-E: 3 screens)
+    - Picker (PICKER-E: 2 screens, PICKER-E2: 2 screens, PICKER-E3)
+    - Planning Control (PLAN-CONTROL)
+    - Quality Control (QC-E: 5 screens)
+    - Routing (ROUTING-E: 3 screens)
+    - Shortage (SHORTS-E, SHORTS-E2)
+    - Shop Traveler (ST-E: 8 screens)
+    - Work Center (WC-E: 2 screens)
+    - Work Order Control (WO-CONTROL: 3 screens)
+    - Work Order (WO-E: 11 screens, WO-E2, E3, E4, E5)
+    - Work Order BOM (WOBOM-E)
+    - Work Order Material (WOMATL-E)
+    - Work Order Operation (WOOP-E)
+
+  PRO-PROCESS (Batch/Automated Processes)
+    - Clock Time (CLOCKTIME-P1)
+    - Employee Time (EMPTIME-P1, P2)
+    - Labor (LABOR-P1)
+    - Picker (PICKER-P1)
+    - Routing (ROUTING-P1, P2)
+    - Shop Traveler (ST-P1)
+    - Work Order (WO-P1 through P7)
+    - Work Order BOM (WOBOM-P1)
+    - Work Order Inventory (WOINV-P1)
+
+  PRO-REPORT (Reports & Inquiries)
+    - Labor, QC, work order, and production reports
+
+
+MODULE: PROJ - PROJECT MANAGEMENT (9 files)
+-------------------------------------------
+Purpose: Project planning and tracking, multi-level project structure, budget tracking
+Location: C:\source\internal\docs\site\rover\PROJ-OVERVIEW\
+
+Key Sections:
+  PROJ-ENTRY (Data Entry)
+    - Project Entry (PROJECT-E: 3 screens)
+
+  PROJ-PROCESS (Batch/Automated Processes)
+    - Project Processing (PROJECT-P1)
+
+
+MODULE: PUR - PURCHASING/RECEIVING (163 files)
+-------------------------------------------
+Purpose: Purchase order entry, receipts, vendor rating, procurement management
+Location: C:\source\internal\docs\site\rover\PUR-OVERVIEW\
+
+Key Sections:
+  PUR-ENTRY (Data Entry)
+    - Container Control (CONTAINER-CONTROL)
+    - Container (CONTAINER-E: 3 screens, CONTAINER-E2: 3 screens)
+    - DMR Control (DMR-CONTROL: 2 screens)
+    - Debit Memo Request (DMR-E: 4 screens)
+    - PO Control (PO-CONTROL: 3 screens)
+    - Purchase Order (PO-E: 6 screens)
+    - PO Notes (PO-NOTES)
+    - PO Pricing (POPRICE-E: 3 screens)
+    - Purchase Requisition (POREQ-E: 5 screens)
+    - Purchase Tax (PTAX-E)
+    - Receipts (RECEIPTS-E: 2 screens, RECEIPTS-E2: 3 screens, RECEIPTS-E3: 2 screens)
+
+  PUR-PROCESS (Batch/Automated Processes)
+    - PO Processing (PO-P1, P3, P4)
+    - PO Pricing (POPRICE-P1)
+    - Purchase Requisition (POREQ-P1)
+    - Receipts (RECEIPTS-P1, P2, P3)
+    - Vendor (VENDOR-P3)
+
+  PUR-REPORT (Reports & Inquiries)
+    - Container (CONTAINER-R1 through R5)
+    - DMR (DMR-R1, R2, R3)
+    - PO Forms (PO-F1, F2, F3)
+    - PO Reports (PO-R1 through R12)
+    - PO Book (POBOOK-R1 through R9)
+    - PO Pricing (POPRICE-R1)
+    - Purchase Requisition (POREQ-F1, F2, POREQ-R1)
+    - Purchase Tax (PTAX-R1)
+
+===============================================================================================
+BUSINESS SUITE EXTENSIONS (40 files)
+===============================================================================================
+Location: C:\source\internal\docs\site\rover\business-suite\
+
+- AI Assistant (AI-powered assistance)
+- BI - Business Intelligence (Getting started, reports)
+- Field Services (Field operations)
+- Gateway (System integration)
+- Integrations (AR Control, Contact Control, FDICT, Inventory, POS, Security, Workflow Actions)
+- Inventory (Receiving, Related Parts)
+- Marketplace (Marketplace integration)
+- Pay/Payment Processing
+  * BLAUTH (Authorization)
+  * BLCREDIT (Credit processing)
+  * BLIFRAME (IFrame integration)
+  * BLINQUIRE (Inquiry)
+  * BLSALE (Sale processing)
+  * BLSIGNATURE (Digital signature)
+  * BLTOKENAUTH (Token authorization)
+  * BLTOKENCREDIT (Token credit)
+  * BLTOKENFINAL (Token finalization)
+  * BLTOKENIZE (Tokenization)
+  * BLTOKENREFUND (Token refund)
+  * BLTOKENSALE (Token sale)
+- Portal (Customer/Vendor portal)
+- POS (Point of Sale)
+- Production
+- Sales (Quotes and Orders)
+- Scan (Barcode/RFID)
+- Settings (Configuration)
+- Tickets & Time (Ticketing and time tracking)
+
+===============================================================================================
+ADMINISTRATION DOCUMENTATION (7 files)
+===============================================================================================
+Location: C:\source\internal\docs\site\rover\administration\
+
+- Account Control setup
+- CLI Setup procedures
+- Client Setup (current version)
+- Client Setup pre-2.5.0 (legacy)
+- M3 Services configuration
+- Rover Web setup
+
+===============================================================================================
+TRANSACTION FLOWS (4 files)
+===============================================================================================
+Location: C:\source\internal\docs\site\rover\TRANS-FLOWS\
+
+Business process documentation:
+1. Material Planning (PO to Receipt)
+2. Procure to Payment
+3. Quote to Cash
+
+===============================================================================================
+KEY DOCUMENTATION PATTERNS & NAMING CONVENTIONS
+===============================================================================================
+
+Form/Entry Naming:
+  [MODULE]-E or [FUNCTION]-E      = Data Entry form
+  [MODULE]-E2, E3, E4             = Alternative/additional entry screens
+  
+Process/Batch Naming:
+  [MODULE]-P1, P2, P3             = Batch processes
+  
+Report/Inquiry Naming:
+  [MODULE]-R1, R2, R3             = Reports
+  [MODULE]-Q, Q1, Q2              = Inquiry/Query screens
+  [MODULE]-F1, F2                 = Form reports
+  [MODULE]-L1                     = List reports
+
+File Organization:
+  Each form/process/report has:
+  ├── README.md (Main documentation)
+  └── [FORM]-[NUM]/ (Step/variant folders)
+      └── README.md
+      └── [FORM]-[NUM].jpg (Screenshots)
+
+Documentation includes:
+  - Step-by-step procedures
+  - Field descriptions
+  - Screenshots (.jpg files)
+  - Related processes
+  - Reports available
+  - Control/Setup requirements
+
+===============================================================================================
+TOTAL FILE SUMMARY
+===============================================================================================
+
+Total Markdown Files:     2,989+
+Total Image Files:        1,500+ (approximate)
+Main Modules:             14
+Supporting Areas:         6 (Business Suite, Admin, Flows, etc.)
+Documentation Depth:      3-4 levels (Module > Section > Form > Steps)
+
+===============================================================================================

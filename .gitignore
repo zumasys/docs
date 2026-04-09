@@ -63,5 +63,9 @@ typings/
 # next.js build output
 .next
 
+# VitePress build output and cache
+site/.vitepress/dist
+site/.vitepress/cache
+
 # VS Code files
 .vscode
