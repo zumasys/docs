@@ -8,6 +8,12 @@ These are the release notes for version 2.25.1 (04/09/2026) of the Rover Web app
 
 ## Bug Fixes
 
+### Rover Web
+
+#### Point of Sale
+
+- Adjustments were made to handling of scan part # input to allow for concatenated part values to be handled properly when separated by a defined scanner suffix.
+
 ### Rover Portal
 
 #### General
