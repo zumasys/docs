@@ -42,9 +42,9 @@ These are the release notes for version 2.26.0 (04/21/2026) of the Rover Web app
 
 - Recently viewed tickets that are removed are now persisted correctly. This improves reliability when managing recently viewed tickets across navigation and reloads.
 
-### Production
+### Rover Portal
 
-- Fixed the default insertion/handling of the **Production Date** column on the Production Board when results are returned from lookups.
+- Resolved an issue with invalid credit card on file items were displayed after toggling between eCheck and Credit Card Tender Types.
 
 
 <PageFooter />
