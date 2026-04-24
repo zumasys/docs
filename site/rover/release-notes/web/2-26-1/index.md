@@ -9,6 +9,6 @@ These are the release notes for version 2.26.1 (04/24/2026) of the Rover Web app
 
 ## Bug Fixes
 
-### Point of Sale (Quotes)
+### Point of Sale
 
 - Fixed an issue resulting in inconsistent navigation into the order creation process based on the user selecting a customer from their Recently Viewed Customers list and the Customer Search Results listing.
