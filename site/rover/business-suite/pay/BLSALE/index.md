@@ -2,7 +2,7 @@
 
 <PageHeader />
 
-The BLSALE endpoint authorizes the form of payment and captures the payment. See below for request/response examples.
+The `BLSALE` endpoint authorizes the form of payment and captures the payment. See below for request/response examples.
 
 ## POST Request Format
 
@@ -17,11 +17,12 @@ The BLSALE endpoint authorizes the form of payment and captures the payment. See
 | invoice   | This is the sequential number that will allow INQUIRY based on this ID through blinquire                                                                              |
 | amount    | Amount to be authorized with two implied decimals places (example: to specify "$10.00," use "1000")                                                                   | :heavy_check_mark: |
 | manual    | If flag is set to 0 then it requests an MSR (magnetic stripe), EMV (chip), or NFC (contactless) payment card interaction, else  it will request manually-entered data |
+| level23   | Optional Level 2 / Level 3 transaction data. See [Level 2 / Level 3 Data](../LEVEL23/index.md) for the schema and validation rules                                    |
 | debug     | If flag is set then error messages will be more verbose                                                                                                               |
 
 ## Example Request
 
-```Javascript
+``` javascript
 {
     "atoken": {{atoken}},
     "entity": {{entity}},
@@ -38,18 +39,19 @@ The BLSALE endpoint authorizes the form of payment and captures the payment. See
 
 ## Example Response
 
-| Attribute  | Description                                                                                                   |
-| ---------- | ------------------------------------------------------------------------------------------------------------- |
-| verified   | Flag will be set to 1 if call was successful or 0 if it failed                                                |
-| errorCode  | Error Code                                                                                                    |
-| errMessage | Error Message                                                                                                 |
-| resultId   | If error occurred will be empty, otherwise will hold the reqID that can be used for the BLTOKENREFUND endpoint |
-| ccvRec     | Base 64 Encoded String which holds the Token                                                                  |
-| token      | Token that is represented as a 16 character string                                                            |
-| expiry     | Expiration date for card used formatted as MMYY                                                                |
-| signature  | Base 64 encode GZIPPED BMP FILE                                                                               |
+| Attribute     | Description                                                                                                                       |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| verified      | Flag will be set to 1 if call was successful or 0 if it failed                                                                    |
+| errorCode     | Error Code                                                                                                                        |
+| errMessage    | Error Message                                                                                                                     |
+| resultId      | If error occurred will be empty, otherwise will hold the reqID that can be used for the BLTOKENREFUND endpoint                    |
+| ccvRec        | Base 64 Encoded String which holds the Token                                                                                      |
+| token         | Token that is represented as a 16 character string                                                                                |
+| expiry        | Expiration date for card used formatted as MMYY                                                                                   |
+| signature     | Base 64 encode GZIPPED BMP FILE                                                                                                   |
+| level23Errors | Comma-delimited list of Level 2 / Level 3 validation issues, omitted when none. See [Level 2 / Level 3 Data](../LEVEL23/index.md) |
 
-```Javascript
+``` javascript
 {
     "verified": "1",
     "errorCode": "",

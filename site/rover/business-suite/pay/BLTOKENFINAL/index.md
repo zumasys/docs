@@ -1,28 +1,30 @@
 # BLTOKENFINAL
 
 <PageHeader />
-This endpoint finalizes a transaction on an authorized form of payment.
+
+The `BLTOKENFINAL` endpoint finalizes a transaction on an authorized form of payment.
 
 ## POST Attribute Format
 
-| Attribute | Description                                                                               | Required           |
-| --------- | ----------------------------------------------------------------------------------------- | ------------------ |
-| atoken    | Authorization token to allow access to the service                                        | :heavy_check_mark: |
-| entity    | This tells the api what database to use for your transactions                              | :heavy_check_mark: |
-| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/location | :heavy_check_mark: |
-| reg       | this identifies the POS station, user, terminal or process requesting transaction          | :heavy_check_mark: |
-| date      | Date of the request made to Rover Pay                                                     |
-| tran      | This is the sequential number for the REG requesting the transaction                      |
-| invoice   | Invoice must be unique per card request in order to request Inquiry from blinquire        |
-| ctoken    | This is the token received from BLTOKENIZE                                                | :heavy_check_mark: |
-| expiry    | Credit Card expiration date                                                               | :heavy_check_mark: |
-| amount    | Amount to be credited back to the credit card                                             |
-| reqid     | This is the resultID from the transaction                                                 | :heavy_check_mark: |
-| debug     | If flag is set then error messages will be more verbose                                   |
+| Attribute | Description                                                                                                                        | Required           |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| atoken    | Authorization token to allow access to the service                                                                                 | :heavy_check_mark: |
+| entity    | This tells the api what database to use for your transactions                                                                      | :heavy_check_mark: |
+| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/location                                         | :heavy_check_mark: |
+| reg       | this identifies the POS station, user, terminal or process requesting transaction                                                  | :heavy_check_mark: |
+| date      | Date of the request made to Rover Pay                                                                                              |
+| tran      | This is the sequential number for the REG requesting the transaction                                                               |
+| invoice   | Invoice must be unique per card request in order to request Inquiry from blinquire                                                 |
+| ctoken    | This is the token received from BLTOKENIZE                                                                                         | :heavy_check_mark: |
+| expiry    | Credit Card expiration date                                                                                                        | :heavy_check_mark: |
+| amount    | Amount to be credited back to the credit card                                                                                      |
+| reqid     | This is the resultID from the transaction                                                                                          | :heavy_check_mark: |
+| level23   | Optional Level 2 / Level 3 transaction data. See [Level 2 / Level 3 Data](../LEVEL23/index.md) for the schema and validation rules |                    |
+| debug     | If flag is set then error messages will be more verbose                                                                            |
 
 ## Example Request
 
-```Javascript
+``` javascript
 {
     "atoken": {{atoken}},
     "entity": {{entity}},
@@ -41,15 +43,16 @@ This endpoint finalizes a transaction on an authorized form of payment.
 
 ## Example Response
 
-| Attribute  | Description                                                    |
-| ---------- | -------------------------------------------------------------- |
-| verified   | Flag will be set to 1 if call was successful or 0 if it failed |
-| errorCode  | Error Code                                                     |
-| errMessage | Error Message                                                  |
-| resultId   | Result ID that can be used as the reqIid                       |
-| ccvRec     | Base 64 Encoded String which holds the Token                   |
+| Attribute     | Description                                                                                                                       |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| verified      | Flag will be set to 1 if call was successful or 0 if it failed                                                                    |
+| errorCode     | Error Code                                                                                                                        |
+| errMessage    | Error Message                                                                                                                     |
+| resultId      | Result ID that can be used as the reqIid                                                                                          |
+| ccvRec        | Base 64 Encoded String which holds the Token                                                                                      |
+| level23Errors | Comma-delimited list of Level 2 / Level 3 validation issues, omitted when none. See [Level 2 / Level 3 Data](../LEVEL23/index.md) |
 
-```Javascript
+``` javascript
 {
     "verified": "1",
     "errorCode": "",
