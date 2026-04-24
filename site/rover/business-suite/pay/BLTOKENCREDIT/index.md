@@ -1,22 +1,25 @@
 # BLTOKENCREDIT
 
 <PageHeader />
-This endpoint is used to CREDIT a specified amount to a tokenized form of payment.
+
+The `BLTOKENCREDIT` endpoint is used to **credit** a specified amount to a tokenized form of payment.
+
 ## POST Request Attributes
 
-| Attribute | Description                                                                               | Required           |
-| --------- | ----------------------------------------------------------------------------------------- | ------------------ |
-| atoken    | Authorization token to allow access to the service                                        | :heavy_check_mark: |
-| entity    | This tells the api what database to use for your transactions                              | :heavy_check_mark: |
-| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/location | :heavy_check_mark: |
-| reg       | this identifies the POS station, user, terminal or process requesting transaction          | :heavy_check_mark: |
-| date      | Date of the request made to Rover Pay                                                     |
-| tran      | This is the sequential number for the REG requesting the transaction                      |
-| invoice   | Invoice must be unique per card request in order to request Inquiry from blinquire        |
-| ctoken    | This is the token received from BLTOKENIZE or BLAUTH                                      | :heavy_check_mark: |
-| expiry    | Credit Card expiration date                                                               | :heavy_check_mark: |
-| amount    | Amount to be credited back to the credit card                                             | :heavy_check_mark: |
-| debug     | If flag is set then error messages will be more verbose                                   |
+| Attribute | Description                                                                                                                        | Required           |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
+| atoken    | Authorization token to allow access to the service                                                                                 | :heavy_check_mark: |
+| entity    | This tells the api what database to use for your transactions                                                                      | :heavy_check_mark: |
+| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/location                                         | :heavy_check_mark: |
+| reg       | this identifies the POS station, user, terminal or process requesting transaction                                                  | :heavy_check_mark: |
+| date      | Date of the request made to Rover Pay                                                                                              |
+| tran      | This is the sequential number for the REG requesting the transaction                                                               |
+| invoice   | Invoice must be unique per card request in order to request Inquiry from blinquire                                                 |
+| ctoken    | This is the token received from BLTOKENIZE or BLAUTH                                                                               | :heavy_check_mark: |
+| expiry    | Credit Card expiration date                                                                                                        | :heavy_check_mark: |
+| amount    | Amount to be credited back to the credit card                                                                                      | :heavy_check_mark: |
+| level23   | Optional Level 2 / Level 3 transaction data. See [Level 2 / Level 3 Data](../LEVEL23/index.md) for the schema and validation rules |                    |
+| debug     | If flag is set then error messages will be more verbose                                                                            |
 
 ## Example request
 
@@ -38,15 +41,16 @@ This endpoint is used to CREDIT a specified amount to a tokenized form of paymen
 
 ## Example Response
 
-| Attribute  | Description                                                        |
-| ---------- | ------------------------------------------------------------------ |
-| verified   | Flag will be set to 1 if call was successful or 0 if it failed     |
-| errorCode  | Error Code                                                         |
-| errMessage | Error Message                                                      |
-| resultId   | If error occurred this will be empty, otherwise will hold the reqID |
-| ccvRec     | Base 64 Encoded String which holds the Token                       |
+| Attribute     | Description                                                                                                                       |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| verified      | Flag will be set to 1 if call was successful or 0 if it failed                                                                    |
+| errorCode     | Error Code                                                                                                                        |
+| errMessage    | Error Message                                                                                                                     |
+| resultId      | If error occurred this will be empty, otherwise will hold the reqID                                                               |
+| ccvRec        | Base 64 Encoded String which holds the Token                                                                                      |
+| level23Errors | Comma-delimited list of Level 2 / Level 3 validation issues, omitted when none. See [Level 2 / Level 3 Data](../LEVEL23/index.md) |
 
-```Javascript
+``` javascript
 {
     "verified": "1",
     "errorCode": "",
