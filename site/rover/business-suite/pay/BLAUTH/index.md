@@ -20,19 +20,69 @@ The `BLAUTH` authorizes the form of payment and returns a JSON encoded repsonse.
 | level23   | Optional Level 2 / Level 3 transaction data. See [Level 2 / Level 3 Data](../LEVEL23/index.md) for the schema and validation rules                                    |
 | debug     | If flag is set then error messages will be more verbose                                                                                                               |
 
-## Example Request
+## Example Request (basic)
 
 ``` javascript
 {
-    "atoken" : "atoken",
-    "entity" : "entity",
-    "store" : "store",
-    "reg" : "reg",
-    "date" : "date",
-    "tran" : "transaction",
-    "invoice" : "invoiceId",
+    "atoken": "atoken",
+    "entity": "entity",
+    "store": "store",
+    "reg": "reg",
+    "date": "date",
+    "tran": "transaction",
+    "invoice": "invoiceId",
     "amount": "1000",
     "manual": "0",
+    "debug": "0"
+}
+```
+
+## Example Request (with Level 2 / Level 3 data)
+
+``` javascript
+{
+    "atoken": "atoken",
+    "entity": "entity",
+    "store": "store",
+    "reg": "reg",
+    "date": "date",
+    "tran": "transaction",
+    "invoice": "invoiceId",
+    "amount": "1230",
+    "manual": "0",
+    "level23": {
+        "ponumber": "PO-10042",
+        "taxamnt": "80",
+        "taxexempt": "N",
+        "frtamnt": "150",
+        "dutyamnt": "0",
+        "orderdate": "20260427",
+        "shiptozip": "92614",
+        "shipfromzip": "85284",
+        "shiptocountry": "US",
+        "items": [
+            {
+                "lineno": "1",
+                "material": "WIDGET-100",
+                "description": "Blue widget",
+                "upc": "012345678905",
+                "quantity": "2",
+                "uom": "EA",
+                "unitcost": "500",
+                "netamnt": "1000",
+                "taxamnt": "80"
+            },
+            {
+                "lineno": "2",
+                "description": "Ground shipping",
+                "quantity": "1",
+                "uom": "EA",
+                "unitcost": "150",
+                "netamnt": "150",
+                "taxamnt": "0"
+            }
+        ]
+    },
     "debug": "0"
 }
 ```
