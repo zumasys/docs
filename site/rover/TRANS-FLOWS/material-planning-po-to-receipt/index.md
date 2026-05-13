@@ -110,7 +110,7 @@ Demand Inputs → Plan (MRP / Min-Max / TPOP) → Release to PO → Receive Good
 **How to access:** Purchasing → Purchase Orders → PO.E (see detailed guidance in [Purchasing: Procure-to-Payment](../procure-to-payment/index.md)).
 
 **Key steps:**
-1. Review automatically generated POs, updating pricing or schedules as needed.
+1. Review automatically generated POs, updating pricing or schedules as needed. PLAN.E selects the best vendor price/quantity from **POPRICE.E** at release.
 2. Communicate changes to suppliers and capture acknowledgements via notes.
 3. Print or email the PO to begin the supply execution phase.
 
