@@ -4,7 +4,7 @@
 ## Overview
 The quote-to-cash flow follows a customer commitment from initial pricing through order fulfillment, invoicing, and payment application. Rover ERP supports the process in both the desktop and web clients, ensuring pricing accuracy, shipment control, and timely cash collection.
 
-**Flow Summary:** Quote (SO.Q) → Sales Order (SO.E) → Shipment (SHIP.E / SHIP.EU) → Post Shipment & AR Invoice (SHIP.P1) → Cash Receipt (CASH.E)
+**Flow Summary:** Quote (SO.Q) → Sales Order (SO.E) → Shipment (SHIP.E / SHIP.E2) → Post Shipment & AR Invoice (SHIP.P1) → Cash Receipt (CASH.E)
 
 ## Audience
 - Sales coordinators and order entry specialists
@@ -29,7 +29,7 @@ Customer Quote → Sales Order → Confirm Shipment → Post Shipment & Invoice 
 **Key steps:**
 1. Enter the Customer ID (lookup supports search).
 2. Add line items, scanning or searching for the part.
-3. Review tiered pricing with the Price Break Matrix and adjust quantities as needed.
+3. Review quantity price breaks from matrix pricing and adjust quantities as needed.
 4. Set shipping method, tax, and notes.
 5. Save to generate a quote number and optionally email or print the document.
 
@@ -49,18 +49,28 @@ Customer Quote → Sales Order → Confirm Shipment → Post Shipment & Invoice 
 
 **Key fields:** Quote, Qty Ordered, Required/Ship Date, Credit Hold, Work Order Link.
 
-## SHIP.E / SHIP.EU — Prepare and Confirm Shipment
-**Purpose:** Create and confirm shippers that define what leaves the warehouse.
+## SHIP.E — Create the Shipment
+**Purpose:** Create shippers from sales orders that define what leaves the warehouse.
 
-**How to access:** Desktop client → Shipping → Shippers → SHIP.E (create) and SHIP.EU (update/confirm).
+**How to access:** Desktop client → Shipping → Shippers → SHIP.E.
 
 **Key steps:**
-1. In SHIP.E, enter the Sales Order number to create the shipper.
-2. Print the pack slip or pick list if needed.
-3. In SHIP.EU, review lines, adjust quantities for partial shipments, and set Status to **Shipped**.
-4. Confirm ship method, freight, and documentation before saving.
+1. Enter the Sales Order number to create the shipper.
+2. Print the pick list if needed.
 
-**Key fields:** Sales Order, Shipper ID, Status, Qty to Ship, Ship Via.
+**Key fields:** Sales Order, Shipper ID, Ship Via.
+
+## SHIP.E2 — Update and Confirm Shipment
+**Purpose:** Review, adjust, and confirm shippers before posting.
+
+**How to access:** Desktop client → Shipping → Shippers → SHIP.E2.
+
+**Key steps:**
+1. Review lines and adjust quantities for partial shipments.
+2. Enter freight, miscellaneous charges, serial/lot data, and pick details as needed.
+3. Update the shipment status and confirm ship method and documentation before saving.
+
+**Key fields:** Shipper ID, Status, Qty to Ship, Freight, Ship Via.
 
 ## SHIP.P1 — Post Shipment and Create AR Invoice
 **Purpose:** Post confirmed shippers to relieve inventory and generate the AR invoice.
@@ -81,11 +91,12 @@ Customer Quote → Sales Order → Confirm Shipment → Post Shipment & Invoice 
 
 **Key steps:**
 1. Select the Customer and load open invoices or specify invoice numbers.
-2. Choose the payment type (cash, check, card, ACH) and confirm the cash account.
-3. Enter the payment amount and allocation per invoice.
-4. Set Status to **Posted** and save to finalize the receipt.
+2. Enter the check number or reference and confirm the cash account.
+3. Set the payment type (e.g., ACH) when applicable.
+4. Enter the payment amount and allocation per invoice.
+5. Save to finalize the receipt.
 
-**Key fields:** Customer, Payment Type, Cash Account, Amount, Invoice Selection.
+**Key fields:** Customer, Check/Reference, Payment Type, Cash Account, Amount, Invoice Selection.
 
 ## Web Point of Sale — Quote, Ship, and Pay
 **Purpose:** Provide an accelerated quote-to-cash experience within the Rover web client.
@@ -95,8 +106,8 @@ Customer Quote → Sales Order → Confirm Shipment → Post Shipment & Invoice 
 **Key steps:**
 1. Create a Quote by selecting the customer, adding items, and saving the transaction.
 2. Convert the quote to a Sales Order from the web order tile.
-3. Finalize the order and ship; the web workflow posts the shipment and generates the invoice automatically.
-4. Apply payment immediately via **Pay Invoice Now** to complete the cycle.
+3. Finalize the order and ship; the web workflow handles posting the shipment and generating the invoice.
+4. Apply payment to complete the cycle.
 
 **Key fields:** Customer, Transaction Type, Qty, Payment Method, Invoice Number.
 
@@ -120,6 +131,6 @@ Customer Quote → Sales Order → Confirm Shipment → Post Shipment & Invoice 
 | Order placed on credit hold | Customer exceeds credit limit | Follow credit policy to obtain approval or adjust terms before releasing shipment. |
 | No invoice after shipping | Shipper not posted | Run SHIP.P1 for the shipper to generate the AR invoice. |
 | Cash receipt will not post | Cash account missing | Select the cash account in CASH.E and re-save the receipt. |
-| Web invoice not available | Shipment not finalized in web POS | Use **Finalize & Ship** in the web workflow so posting runs automatically. |
+| Web invoice not available | Shipment not finalized in web POS | Finalize the shipment in the web workflow so posting runs and the invoice is generated. |
 
 <PageFooter />

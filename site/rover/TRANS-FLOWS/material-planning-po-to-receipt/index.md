@@ -4,7 +4,7 @@
 ## Overview
 The material planning flow connects demand signals to purchasing execution and receiving feedback. It guides planners from parameter setup through MRP review, purchase order release, and goods receipt so inventory stays aligned with production and customer demand.
 
-**Flow Summary:** Planning Parameters (PART.E) → MRP / Min-Max Review (MRP.P1, MINMAX.R*) → Release Planned Orders (PLAN.E) → Purchase Order (PO.E) → Receipt Entry (RCV.E) → Inventory Update & MRP Recalculation
+**Flow Summary:** Planning Parameters (PART.E) → MRP / Min-Max Review (MRP.P1, INV.R5) → Release Planned Orders (PLAN.E) → Purchase Order (PO.E) → Receipt Entry (RECEIPTS.E) → Inventory Update & MRP Recalculation
 
 ## Audience
 - Material planners and buyers
@@ -27,24 +27,24 @@ Demand Inputs → Plan (MRP / Min-Max / TPOP) → Release to PO → Receive Good
 **How to access:** Desktop client → Manufacturing → Part Maintenance → PART.E.
 
 **Key steps:**
-1. Navigate to **Material Control** and select a planning method (Min/Max, MRP, or Both).
+1. Navigate to **Material Control** and enable MRP and/or Min/Max flags for the item.
 2. Assign buyer, planner, planning group, and order policy (Discrete or Fixed with multiples).
 3. Define safety stock, maximum stock, order minimums, and lead time.
 4. Set optional scrap factors or pegging preferences and save.
 
-**Key fields:** Planning Method, Buyer/Planner, Safety Stock, Max Stock, Order Policy, Lead Time.
+**Key fields:** MRP Part, Min/Max Part, Buyer/Planner, Safety Stock, Max Stock, Order Policy, Lead Time.
 
-## MINMAX Reports — Monitor Static Reorder Items
+## INV.R5 — Min/Max Listing
 **Purpose:** Identify replenishment needs for items managed via Min/Max control.
 
-**How to access:** Reports → Inventory → Min/Max (e.g., MINMAX.R5).
+**How to access:** Inventory → Reports → INV.R5.
 
 **Key steps:**
-1. Filter by buyer, vendor, or exception type.
-2. Review on-hand, open orders, and usage to prioritize shortages or excess.
-3. Trigger purchase orders or adjustments based on violations.
+1. Filter by part, category, buyer, planner, or vendor.
+2. Review on-hand vs. safety stock (min) and maximum stock to prioritize shortages or excess.
+3. Trigger purchase orders or adjustments based on exceptions.
 
-**Key fields:** Safety (Min), Max, Usage, On-Hand, Open Orders.
+**Key fields:** Safety (Min), Max, On-Hand, Avg Usage.
 
 ## MRP.P1 & MRP.Q — Run and Review Net Planning
 **Purpose:** Net supply and demand to generate planned orders and action messages.
@@ -52,7 +52,7 @@ Demand Inputs → Plan (MRP / Min-Max / TPOP) → Release to PO → Receive Good
 **How to access:** Manufacturing → Planning → MRP.P1 (run) and MRP.Q (inquiry).
 
 **Key steps:**
-1. Execute MRP.P1 (or scheduled MRP.RUN) including safety stock.
+1. Execute MRP.P1 including safety stock.
 2. In MRP.Q, review requirements, receipts, projected balances, and action messages for each item.
 3. Prioritize expedite messages, then new order recommendations, and finally push-outs.
 
@@ -67,7 +67,7 @@ Demand Inputs → Plan (MRP / Min-Max / TPOP) → Release to PO → Receive Good
 1. Set bucket horizons (e.g., daily/weekly/monthly) and included order types.
 2. Save and verify bucket display inside MRP.Q to confirm alignment with planning cadence.
 
-**Key fields:** Bucket Horizons, Included Demand Types, Start Date.
+**Key fields:** Plan Group, MRP Period Size, MPS Period Size, Included SO Types.
 
 ## Time-Phased Order Point (TPOP) — Extend Forecast Demand
 **Purpose:** Layer forecast consumption beyond firm order horizons.
@@ -75,23 +75,22 @@ Demand Inputs → Plan (MRP / Min-Max / TPOP) → Release to PO → Receive Good
 **How to access:** PART.E → Material Control → TPOP fields.
 
 **Key steps:**
-1. Enter monthly TPOP quantity for items requiring long-range coverage.
-2. Set the start offset so TPOP demand begins after firm supply already exists.
-3. Save and confirm future buckets in MRP.Q include the forecast quantities.
+1. Enable the TPOP flag and enter TPOP Days for items requiring long-range coverage.
+2. Save and confirm future buckets in MRP.Q include the forecast quantities.
 
-**Key fields:** TPOP Quantity, Start Offset, Planning Method.
+**Key fields:** TPOP, TPOP Days.
 
-## MRP.R4 / MRP.R5 — Build the Buyer Workbench
-**Purpose:** Summarize planning actions by vendor or part for execution.
+## MRP.R4 / MRP.R5 / MRP.R6 — Planning Action Reports
+**Purpose:** Summarize planning actions for execution by buyers and planners.
 
-**How to access:** Manufacturing → Planning Reports → MRP.R4 (by Vendor) / MRP.R5 (by Part).
+**How to access:** Manufacturing → Planning Reports → MRP.R4 (by Vendor) / MRP.R5 (by Category) / MRP.R6 (by Part).
 
 **Key steps:**
-1. Filter by planner, buyer, vendor, or commodity.
+1. Filter by planner, buyer, vendor, category, or make/buy status.
 2. Export or print the report for supplier communication.
 3. Focus on expedite and new order lines before addressing push-outs.
 
-**Key fields:** Vendor, Part, Required Date, Suggested Quantity, Action Type.
+**Key fields:** Vendor, Part, Category, Required Date, Suggested Quantity, Action Type.
 
 ## PLAN.E — Release Planned Orders
 **Purpose:** Convert approved planned orders into purchase orders.
@@ -117,10 +116,10 @@ Demand Inputs → Plan (MRP / Min-Max / TPOP) → Release to PO → Receive Good
 
 **Key fields:** Part, Vendor, Schedule Dates, Unit Price, Receive-To.
 
-## RCV.E — Receive Goods and Close the Loop
+## RECEIPTS.E — Receive Goods and Close the Loop
 **Purpose:** Record deliveries so inventory and planning data reflect current supply.
 
-**How to access:** Purchasing → Receipts → RCV.E (also referenced in the procure-to-payment flow).
+**How to access:** Purchasing → Receipts → RECEIPTS.E (also referenced in the procure-to-payment flow).
 
 **Key steps:**
 1. Locate the released PO and enter received quantities, lots, or bins.
@@ -130,10 +129,9 @@ Demand Inputs → Plan (MRP / Min-Max / TPOP) → Release to PO → Receive Good
 **Key fields:** PO Number, Qty Received, Lot/Bin, Posting Status.
 
 ## Reports & Controls
-- **MRP.R6** and pegging reports for root-cause analysis of demand drivers.
-- **MINMAX** exception reports to monitor static reorder items.
-- **Planning calendars** maintained in PLAN.CONTROL for synchronized review cycles.
-- **Supplier action logs** documenting expedite or push-out agreements.
+- **MRP.R6** exception report for action items filtered by category, part, and buyer/planner.
+- **MRP.Q** pegging detail for root-cause analysis of demand drivers.
+- **PLAN.CONTROL** period sizes and plan group settings for synchronized review cycles.
 
 ## Best Practices
 - Run MRP daily so buyers act on the latest demand picture.
@@ -149,6 +147,6 @@ Demand Inputs → Plan (MRP / Min-Max / TPOP) → Release to PO → Receive Good
 | Excess inventory accumulating | De-expedite messages not actioned | Review MRP.R4/MRP.R5 push-outs and adjust PO schedules or cancel supply. |
 | Planned orders not creating POs | Release flag not selected in PLAN.E | Mark the planned order for release and save; verify PO creation in PO.E. |
 | PO missing when attempting to receive | Planned order remained unreleased | Release the suggestion in PLAN.E or create a manual PO before receiving. |
-| Duplicate demand in future buckets | TPOP overlapping with firm orders | Extend the TPOP start offset or adjust forecast quantities to remove overlap. |
+| Duplicate demand in future buckets | TPOP overlapping with firm orders | Adjust the TPOP Days value or disable TPOP for items with sufficient firm coverage. |
 
 <PageFooter />
