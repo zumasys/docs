@@ -122,18 +122,6 @@ PO Creation → Receive Goods → Post Receipts → Match Vendor Invoice → Sel
 
 **Key fields:** Check Run, Check Range, Posting Date.
 
-## POSPAY.C1 — Generate Positive Pay (Optional)
-**Purpose:** Produce bank upload files for fraud prevention.
-
-**How to access:** Desktop client → Accounts Payable → Banking → POSPAY.C1.
-
-**Key steps:**
-1. Select the relevant check run and bank format.
-2. Generate the positive pay file.
-3. Upload to the bank prior to the cutoff time.
-
-**Key fields:** Check Run, Bank Code, Transmission File.
-
 ## Reports & Controls
 - **APR1 – Items Awaiting Invoicing** for received-not-invoiced reconciliation.
 - **APR5 – Items Due to be Paid** to drive weekly selections.
@@ -154,7 +142,6 @@ PO Creation → Receive Goods → Post Receipts → Match Vendor Invoice → Sel
 | Cannot change receipt location during receiving | Location is controlled on the PO | Reverse the receipt, adjust the PO location, and re-receive the goods. |
 | Header and line totals mismatch in AP.E | Freight, tax, or price variance not reconciled | Adjust line amounts or add variance/freight entries until the totals balance. |
 | Check numbers out of sequence | Incorrect starting check number entered in CHECKS.P1 | Void the run if necessary, reset the selection, and reprint using the correct starting number. |
-| Positive pay rejected by the bank | File not generated for the posted check run | Re-run POSPAY.C1 for the specific run and resend before cutoff. |
 | Missing PO in receiving worklist | Planned order not released to PO | Release the planned order in PLAN.E or create the PO manually, then reopen RECEIPTS.E. |
 
 <PageFooter />
