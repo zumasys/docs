@@ -8,7 +8,7 @@
 * [Unable To Save Shipper Records In SHIPE2 UPS Shipments](./Unable-to-save-shipper-records-in-SHIPE2-UPS-shipments/index.md)
 * [Unable To Void A Check In CHECKSE2 After Offsetting A Prepayment And Vendor Invoice](./Unable-to-void-a-check-in-CHECKSE2-after-offsetting-a-prepayment-and-vendor-invoice/index.md)
 * [Resolving Unexpected Trakker Menu Display And Slow Remote Login In RoverERP](./Resolving-unexpected-trakker-menu-display-and-slow-remote-login-in-rovererp/index.md)
-* [Unable To Create The Excel File (Legacy Client)](./Unable-to-create-the-excel-file-legacy-client/index.md)
+* [Unable To Create The Excel File (Legacy Client)](./Unable-to-create-the-excel-file-Legacy-client/index.md)
 * [Troubleshooting Rover Disconnects](./Troubleshooting-Rover-Disconnects/index.md)
 * [ACH Payments](./ACH-Payments/index.md) 
 * [AP Check Run Approval Process](./AP-Check-Run-Approval-Process/index.md)
