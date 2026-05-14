@@ -16,6 +16,7 @@ Here's a sneak peek of what's to come in Rover Web as of [v2.12.4](./web/2-12-4/
 
 | Version                               | Date       | Download                                                                         |
 | ------------------------------------- | ---------- | -------------------------------------------------------------------------------- |
+| [v2.7.0](./desktop/2-7-0/index.md)   | 2026-05-01 | [🔗](https://roverdesktop.blob.core.windows.net/apps/rover-installer-2.7.0.zip)  |
 | [v2.6.0](./desktop/2-6-0/index.md)   | 2026-03-09 | [🔗](https://roverdesktop.blob.core.windows.net/apps/rover-installer-2.6.0.zip)  |
 | [v2.5.0](./desktop/2-5-0/index.md)   | 2026-02-17 | [🔗](https://roverdesktop.blob.core.windows.net/apps/rover-installer-2.5.0.zip)  |
 | [v2.4.0](./desktop/2-4-0/index.md)   | 2025-10-08 | [🔗](https://roverdesktop.blob.core.windows.net/apps/rover-installer-2.4.0.zip)  |
@@ -45,6 +46,8 @@ Here's a sneak peek of what's to come in Rover Web as of [v2.12.4](./web/2-12-4/
 
 | Version                           | Date       | Video                                             |
 | --------------------------------- | ---------- | ------------------------------------------------- |
+| [v2.26.2](./web/2-26-2/index.md) | 2026-04-28 | N/A                                               |
+| [v2.26.1](./web/2-26-1/index.md) | 2026-04-24 | N/A                                               |
 | [v2.26.0](./web/2-26-0/index.md) | 2026-04-21 | N/A                                               |
 | [v2.25.1](./web/2-25-1/index.md) | 2026-04-09 | N/A                                               |
 | [v2.25.0](./web/2-25-0/index.md) | 2026-04-07 | N/A                                               |
