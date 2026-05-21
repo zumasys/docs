@@ -26,12 +26,15 @@ These are the release notes for version 2.27.0 (05/19/2026) of the Rover Web app
 ### Production
 
 - Production Board now supports filtering by **Status**.
+![Production Board Status Filter](./production-board-status.png)
 - Added a **pin / sticky filter bar** option on the Production Board so filters can stay visible while scrolling.
+![Production Board Status Filter](./production-sticky-filters.gif)
 - Improved operation splitting workflow by moving split configuration into a dedicated dialog flow.
+- Cleaned up scheduling overlay behavior and popover positioning in the Gantt / scheduling workflow.
+
 
 ### Point of Sale
 
-- Improved the user flow for selection of transaction type after selection of a customer.  
 - Improved shopping / quote / cart handling around quote validation and cost method behavior.
 - Improved payment flow reliability by preserving **PIN re-auth nonce** through dialog interruptions during payment submission.
 - Improved payout / payment flow handling for invoice selections involving credit balances.
@@ -48,8 +51,6 @@ These are the release notes for version 2.27.0 (05/19/2026) of the Rover Web app
 
 ### Production / Scheduling / Scan
 
-- Cleaned up scheduling overlay behavior and popover positioning in the Gantt / scheduling workflow.
-- Improved split operation validation and dialog handling in production scheduling.
 - Fixed Production Board filtering/search behavior to avoid duplicate refresh behavior.
 
 
