@@ -4,10 +4,6 @@
 
 <badge text='Administration' vertical='middle' />
 
----
-
-## Resolution Steps
-
 1. **Access the Main Menu**
 
    Open RoverERP and navigate to the main menu.
@@ -28,20 +24,6 @@
    - Database (QM) version
 
 ![Help](./Help.jpg)
-
----
-
-## Verification
-
-- [ ] Confirm that the dialog box displays all relevant version numbers
-- [ ] Record or screenshot the version information as needed for support or documentation
-
----
-
-## Note
-
-- Always provide complete version information when contacting support or planning upgrades
-- Regularly check for updates to ensure you are running supported versions
 
 ---
 
