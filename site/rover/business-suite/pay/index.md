@@ -20,17 +20,17 @@ Endpoint URL: [https://test-gateway.total-computing.com/api](https://test-gatewa
 
 ## ACH APIs
 
-| Endpoint        | Description                                          |
-| --------------- | ---------------------------------------------------- |
-| BLACHTOKENIZE   | Tokenize _routing_ and _ABA_ (account number) pairs  |
-| BLACHSALE       | ACH Capture (given a `token` or _routing_ and _ABA_) |
-| BLACHREFUND     | ACH Refund (given a `token` and original `reqid`)    |
-| ~~BLACHCREDIT~~ | _NOTE: Forced ACH Credits are not supported_         |
+| Endpoint                                  | Description                                          |
+| ----------------------------------------- | ---------------------------------------------------- |
+| [BLACHTOKENIZE](./BLACHTOKENIZE/index.md) | Tokenize _routing_ and _ABA_ (account number) pairs  |
+| [BLACHSALE](./BLACHSALE/index.md)         | ACH Capture (given a `token` or _routing_ and _ABA_) |
+| [BLACHREFUND](./BLACHREFUND/index.md)     | ACH Refund (given a `token` and original `reqid`)    |
+| ~~BLACHCREDIT~~                           | _NOTE: Forced ACH Credits are not supported_         |
 
 ## Credit Card APIs
 
-| Endpoint                                   | Description                                         |
-| ------------------------------------------ | --------------------------------------------------- |
+| Endpoint                                  | Description                                         |
+| ----------------------------------------- | --------------------------------------------------- |
 | [BLAUTH](./BLAUTH/index.md)               | Credit Card Authorization                           |
 | [BLSALE](./BLSALE/index.md)               | Credit Card Authorization & Capture                 |
 | [BLCREDIT](./BLCREDIT/index.md)           | Credit an amount to a Credit Card                   |
@@ -43,5 +43,9 @@ Endpoint URL: [https://test-gateway.total-computing.com/api](https://test-gatewa
 | [BLSIGNATURE](./BLSIGNATURE/index.md)     | Prompt Bolt Device for signature                    |
 | [BLINQUIRE](./BLINQUIRE/index.md)         | Inquire about an prior transaction using Invoice    |
 | [BLIFRAME](./BLIFRAME/index.md)           | Returns an html file for data capture               |
+
+### Level 2 / Level 3 Data
+
+Several credit card endpoints accept an optional [`level2/3`](./LEVEL23/index.md) object that supplies Level 2 and Level 3 transaction data for reduced interchange rates on qualifying B2B and government cards. It is highly advised to include legitimate transactional data in these fields to ensure you qualify for the best rates possible.
 
 <PageFooter />
