@@ -31,6 +31,8 @@ These are the release notes for version 2.27.0 (05/19/2026) of the Rover Web app
 ![Production Board Status Filter](./production-sticky-filters.gif)
 - Improved operation splitting workflow by moving split configuration into a dedicated dialog flow.
 - Cleaned up scheduling overlay behavior and popover positioning in the Gantt / scheduling workflow.
+- Custom lookup-driven data tabs (assigned in WO.CONTROL) in the Work Order Details screen now support print + export options.
+![Work Order Lookup Export](./wo-lookup-export.png)
 
 
 ### Point of Sale
