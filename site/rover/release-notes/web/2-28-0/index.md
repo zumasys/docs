@@ -13,6 +13,13 @@ These are the release notes for version 2.28.0 (06/03/2026) of the Rover Web app
   - `AR.CONTROL` can be used to disable invoice download links, and to disable the ability for a customer to use a saved credit card or ACH details for payment.
  - Invoice data fetch has been improved to support lazy loading as well as filter and sort logic more consistent with other AR selection logic.
  
+### Rover Web
+
+### Scan / Inventory
+
+- Added a new "Quantity" column for inventory locations in the lots table. This will provide quantity information for locations that are not bin controlled.
+
+
 ## Bug Fixes
 
 ### Customer Inquiry
