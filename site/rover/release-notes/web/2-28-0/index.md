@@ -8,15 +8,11 @@ These are the release notes for version 2.28.0 (06/03/2026) of the Rover Web app
 
 ## Bug Fixes
 
-### Ticketing
-
-- Fixed ticket tab behavior issues where opening, switching, and closing ticket tabs could display stale or incorrect ticket content.
-- Improved ticket navigation/state synchronization to better match the active route and selected tab.
-
 ### Customer Inquiry
 
 - Fixed a contact loading/update issue in Customer Inquiry so contact data is handled correctly when editing or saving contacts.
 - Improved handling of customer contact ID collections for new, edited, and deleted contacts.
+- Improved host side error handling to allow display of custom error messages.
 
 ### Scan / Inventory
 
