@@ -13,7 +13,7 @@
 * [ACH Payments](./ACH-Payments/index.md) 
 * [AP Check Run Approval Process](./AP-Check-Run-Approval-Process/index.md)
 * [Network Power Outage](./Network-Power-Outage/index.md)
-* [Resolving Locked Records In Rover](./Resolving-Locked-Records-In-Rover/index.md)
+* [How To Release A Locked Record](./How-To-Release-A-Locked-Record/index.md)
 * [Rover Support Logs Sop](./Rover-Support-Logs-SOP/index.md)
 * [Missing Usage Data](./Missing-Usage-Data/index.md)
 * [Finding Sales Orders On Hold](./Searching-Sales-Orders-With-DRAFT-Hold-Type/index.md)
