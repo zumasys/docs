@@ -4,24 +4,6 @@
 
 <badge text='Administration' vertical='middle' />
 
-## Problem Statement
-
-Users may need to reset their own passwords or resolve issues where newly added printers in Windows do not appear in RoverERP.
-
----
-
-## Symptoms
-
-- Users are unable to change their own passwords and may receive an authorization error
-- Printers added in Windows are not showing as available in RoverERP
-
----
-
-## Cause
-
-- Password reset permissions may be restricted by system security settings
-- The list of available printers in RoverERP may not update automatically after adding a new printer in Windows
-
 ---
 
 ## Resolution Steps
@@ -57,24 +39,5 @@ Users may need to reset their own passwords or resolve issues where newly added 
 ![Security E2](./Security-E2.jpg)
 
 ---
-
-## Verification
-
-- [ ] Confirm that users can reset their passwords if authorized
-- [ ] Ensure that newly added printers in Windows are visible and selectable in RoverERP after performing a printer reset
-
----
-
-## Note
-
-- Only users with the appropriate permissions can change their own passwords
-- Contact your system administrator if you encounter authorization issues or if printers still do not appear after resetting
-
----
-
-## Additional Information
-
-- For persistent issues with password resets or printer availability, contact RoverERP support
-- Regularly review user permissions and printer configurations to maintain system accessibility
 
 <PageFooter />

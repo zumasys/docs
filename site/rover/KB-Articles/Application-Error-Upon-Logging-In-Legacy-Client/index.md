@@ -4,25 +4,6 @@
 
 <badge text='Administration' vertical='middle' />
 
-## Problem Statement
-
-Users receive the error message "Exception EOleSysError in module M3Comm.exe at 00067CD9. Error accessing the OLE registry." when attempting to log in to M3. This issue may occur after a failed or interrupted Windows Update.
-
----
-
-## Symptoms
-
-- Error message appears upon logging into M3:
-  > Exception EOleSysError in module M3Comm.exe at 00067CD9. Error accessing the OLE registry.
-- The issue may begin following a failed or incomplete Windows Update
-- Users are unable to proceed past the error to access M3
-
----
-
-## Cause
-
-The error is caused by corruption or misconfiguration in the OLE registry entries required by the M3 client, often triggered by a failed or interrupted Windows Update.
-
 ![Application Error Upon Logging In](./Application-Error-Upon-Logging-In.jpg)
 
 ---

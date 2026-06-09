@@ -32,23 +32,4 @@ If the customer is hosted on the  Zumasys cloud, they’ll need to contact us to
 
 ---
 
-## Verification
-
-- [ ] Confirm that users are able to create and print purchase orders without interruption during the editing process
-- [ ] After deployment, verify that the new QC signature appears on all newly printed purchase orders
-
----
-
-> **Note:**  
-> Please note that when updating the form, changes to the rows, columns, cell sizes, etc. should not be made. If they are made, changes to the underlying program may be required. 
-
----
-
-## Additional Information
-
-- If you are unfamiliar with form editing or deployment, consult your system administrator or RoverERP support for assistance
-- Always retain a backup of the original form before making changes
-
----
-
 <PageFooter />

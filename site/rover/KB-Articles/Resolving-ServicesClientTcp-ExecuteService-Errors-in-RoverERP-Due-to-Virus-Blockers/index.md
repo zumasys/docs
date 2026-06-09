@@ -4,24 +4,7 @@
 
 <badge text='Administration' vertical='middle' />
 
-## Problem Statement
-
-Users encounter errors related to ServicesClientTcp.ExecuteService when using RoverERP. This issue may be caused by antivirus or endpoint protection software blocking necessary application components.
-
 ---
-
-## Symptoms
-
-- Error messages referencing ServicesClientTcp.ExecuteService appear during application use
-- RoverERP features may fail to load or function properly
-- The issue may coincide with recent changes or updates to antivirus or endpoint protection software
-
----
-
-## Cause
-
-- Antivirus or endpoint protection software (for example, SentinelOne) is blocking or interfering with RoverERP network or service communication
-- Required application files or network traffic are being quarantined or restricted by security software
 
 ![So E](./So-E.jpg)
 
@@ -51,24 +34,5 @@ Users encounter errors related to ServicesClientTcp.ExecuteService when using Ro
 - If you are unable to modify security settings, contact your IT or security administrator for assistance
 
 ---
-
-## Verification
-
-- [ ] Confirm that ServicesClientTcp.ExecuteService errors no longer appear
-- [ ] Ensure all RoverERP features and services function as expected
-
----
-
-## Note
-
-- Always coordinate with your IT or security team before making changes to antivirus or endpoint protection settings
-- Regularly update both RoverERP and your security software to maintain compatibility
-
----
-
-## Additional Information
-
-- For persistent issues, provide details of the error and security software to RoverERP support for further troubleshooting
-- Document any changes made to security settings for future reference
 
 <PageFooter />

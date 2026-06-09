@@ -2,25 +2,6 @@
 
 <PageHeader />
 
-## Problem Statement
-
-A user needs to update the QC signature on the **PO.F3** purchase order form (for example, replacing an existing signature with a new one). The user wants to ensure that while the form is being edited, other users can continue to create and print purchase orders without interruption.
-
----
-
-## Symptoms
-
-- Request to update the signature on the **PO.F3** form
-- Concern that editing or extracting the form for update may prevent others from using or printing purchase orders
-- User is new to editing forms and requires time to complete the update
-
----
-
-## Cause
-
-- The need to update the signature on a standard purchase order form
-- Uncertainty about whether extracting or editing the form will impact ongoing PO processing for other users
-
 ---
 
 ## Resolution Steps
@@ -48,25 +29,6 @@ A user needs to update the QC signature on the **PO.F3** purchase order form (fo
 
 - The updated form can be uploaded to RoverERP, replacing the previous version
 - After deployment, all new purchase orders will use the updated form with the new signature
-
----
-
-## Verification
-
-- [ ] Confirm that users are able to create and print purchase orders without interruption during the editing process
-- [ ] After deployment, verify that the new QC signature appears on all newly printed purchase orders
-
----
-
-> **Note:**  
-> Editing or extracting a copy of the **PO.F3** form does not impact the ability of others to use the form in RoverERP. Only after the updated form is deployed will the new signature appear on printed purchase orders.
-
----
-
-## Additional Information
-
-- If you are unfamiliar with form editing or deployment, consult your system administrator or RoverERP support for assistance
-- Always retain a backup of the original form before making changes
 
 ---
 

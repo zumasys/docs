@@ -4,23 +4,6 @@
 
 <badge text='Troubleshooting' vertical='middle' />
 
-## Problem Statement
-
-Users are experiencing application crashes in RoverERP and need to gather information to assist support in resolving the issue.
-
----
-
-## Symptoms
-
-- The RoverERP client crashes unexpectedly
-- Crashes may occur in specific modules, for certain users, or with particular records
-
----
-
-## Cause
-
-The cause of application crashes can vary and may be related to software version, user actions, or specific data.
-
 ---
 
 ## Resolution Steps
@@ -55,22 +38,5 @@ The cause of application crashes can vary and may be related to software version
    Once you have gathered the above information, email [help@zumasys.com](mailto:help@zumasys.com) to create a support ticket.
 
 ---
-
-## Verification
-
-- [ ] Confirm that logs and exception data are enabled and available for support
-- [ ] Ensure all relevant details are included in your support request
-
----
-
-## Note
-
-- Keeping your software up to date and providing detailed information helps support resolve issues more efficiently
-
----
-
-## Additional Information
-
-- For persistent or widespread crashing, contact RoverERP support promptly with as much detail as possible
 
 <PageFooter />

@@ -4,25 +4,6 @@
 
 <badge text='Administration' vertical='middle' />
 
-## Problem Statement
-
-Administrators need to understand the available actions that can be performed on services within the RoverERP service management interface, including starting, stopping, pausing, and configuring services.
-
----
-
-## Symptoms
-
-- Uncertainty about which action to use for a specific service management task
-- Need to modify or troubleshoot existing services
-- Requirement to create new batch services
-
----
-
-## Cause
-
-- RoverERP provides multiple service management actions to handle different operational scenarios
-- Understanding each action is essential for effective service administration
-
 ---
 
 ## Available Service Actions
@@ -68,26 +49,5 @@ Select the line that contains the service you want to manage, then choose one of
 ![Service Control](./Service-Control.jpg)
 
 ---
-
-## Verification
-
-- [ ] Confirm that you can successfully start, stop, pause, and resume services
-- [ ] Verify that you can access service properties and modify existing services
-- [ ] Ensure that you can create new batch services using the Add Batch Service action
-
----
-
-## Note
-
-- Always verify service status after performing any action to ensure the desired result was achieved
-- Use the **Restart** action with caution, as it will reset the service completely
-- Use **Refresh** to ensure you are viewing the most current service status
-
----
-
-## Additional Information
-
-- For more detailed configuration options, access the **Service Properties** (**SERVICEPROP.E**) screen
-- Contact your system administrator or RoverERP support for assistance with complex service configurations
 
 <PageFooter />

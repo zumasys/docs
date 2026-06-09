@@ -2,26 +2,6 @@
 
 <PageHeader />
 
-## Problem Statement
-
-A user is unable to log in to RoverERP on a specific PC after a server migration. The error message **"Could Not Connect"** appears, despite confirming that credentials, IP address, port, and server information are correct. The same user can log in successfully from other PCs.
-
----
-
-## Symptoms
-
-- **"Could Not Connect"** error when attempting to log in to RoverERP on one PC
-- The issue occurs only on a specific workstation; other PCs can connect using the same user credentials
-- Network connectivity to the server (ping, DNS, etc.) is confirmed
-- The latest RoverERP client is installed, and the PC has been rebooted multiple times
-
----
-
-## Cause
-
-- The issue is isolated to one PC, indicating a local configuration or network problem
-- Possible causes include firewall or security software blocking the connection, incorrect local configuration, or lingering cached settings from before the server move
-
 ---
 
 ## Resolution Steps
@@ -57,25 +37,6 @@ A user is unable to log in to RoverERP on a specific PC after a server migration
 ### 7. Contact Support if Issue Persists
 
 - If the problem continues after these steps, provide detailed information and error messages to RoverERP support for further troubleshooting
-
----
-
-## Verification
-
-- [ ] The user can log in to RoverERP from the affected PC without receiving the **"Could Not Connect"** error
-- [ ] Network and application settings match PCs that are able to connect successfully
-
----
-
-> **Note:**  
-> Server moves may require updating shortcuts, configuration files, or registry entries on client PCs. Always ensure that security software is not blocking new server connections after infrastructure changes.
-
----
-
-## Additional Information
-
-- For persistent or complex issues, provide support with screenshots, error logs, and a summary of troubleshooting steps already taken
-- Document any changes made to the PC configuration for future reference
 
 ---
 

@@ -12,13 +12,6 @@
 
 ---
 
-## Cause
-
-- The **ACCOUNT.CONTROL** procedure determines whether an account is secured
-- Accounts not listed in **ACCOUNT.CONTROL**, or listed without a **Y**, are considered unsecured and do not require a password for login
-
----
-
 ## Resolution Steps
 
 1. **Access ACCOUNT.CONTROL**
@@ -47,24 +40,5 @@
 ![Account Control](./Account-Control.jpg)
 
 ---
-
-## Verification
-
-- [ ] Confirm that secured accounts require a password for login and log users off upon menu exit
-- [ ] Verify that unsecured accounts do not prompt for a password and leave users at the command prompt upon exit
-
----
-
-## Note
-
-- Securing accounts is generally only required during initial system installation or when updating security policies
-- Regularly review account security settings to maintain system integrity
-
----
-
-## Additional Information
-
-- For assistance with account security configuration, contact your system administrator or RoverERP support
-- Document any changes to account security for audit and compliance purposes
 
 <PageFooter />

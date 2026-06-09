@@ -4,25 +4,6 @@
 
 <badge text='Administration' vertical='middle' />
 
-## Problem Statement
-
-Administrators need to view and update access rights to specific procedures for all users in RoverERP, ensuring appropriate security and user permissions.
-
----
-
-## Symptoms
-
-- Need to review which users have access to a particular procedure
-- Requirement to update, add, or remove user access rights for a procedure
-- Desire to manage user security settings efficiently from a single screen
-
----
-
-## Cause
-
-- Changes in staff roles, responsibilities, or security policies require updates to procedure access rights
-- New users may need to be granted access, or existing users may need their permissions modified
-
 ![Security E3](./Security-E3.jpg)
 
 ---
@@ -52,24 +33,5 @@ Administrators need to view and update access rights to specific procedures for 
    After making the necessary updates, save the procedure. All user security settings for the specified procedure will be updated accordingly.
 
 ---
-
-## Verification
-
-- [ ] Confirm that the updated access rights are reflected for all users
-- [ ] Ensure that only authorized users have access to the specified procedure
-
----
-
-## Note
-
-- Use **SECURITY.E3** to efficiently manage and audit user access to procedures across the organization
-- Regularly review and update access rights to maintain security compliance
-
----
-
-## Additional Information
-
-- For complex security configurations or bulk updates, consult RoverERP support
-- Document changes to user access for audit and compliance purposes
 
 <PageFooter />

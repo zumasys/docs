@@ -4,25 +4,6 @@
 
 <badge text='Inventory' vertical='middle' />
 
-## Problem Statement
-
-Purchase orders (POs) are not appearing or are delayed in the "On Order" tab within the INV.Q screen in RoverERP.
-
----
-
-## Symptoms
-
-- Newly entered POs do not show up immediately in the "On Order" tab of INV.Q
-- There is a noticeable delay before the PO appears
-- Users may have had the part open in INV.Q while the PO was being entered in PO.E
-
----
-
-## Cause
-
-- If the part was open in INV.Q at the same time the PO was being entered in PO.E, the data may not refresh automatically
-- This can result in the "On Order" tab not displaying the most current information
-
 ---
 
 ## Resolution Steps

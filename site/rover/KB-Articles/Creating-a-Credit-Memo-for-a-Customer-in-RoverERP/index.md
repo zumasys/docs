@@ -4,23 +4,6 @@
 
 <badge text='Accounts Receivable' vertical='middle' />
 
-## Problem Statement
-
-A customer claims they were short shipped by 1 piece, and a credit memo needs to be issued for the missing item.
-
----
-
-## Symptoms
-
-- Customer reports a short shipment
-- Need to issue a credit memo to adjust the customer's account for the missing quantity
-
----
-
-## Cause
-
-- Short shipment or fulfillment error resulting in the customer receiving fewer items than invoiced
-
 ---
 
 ## Resolution Steps
@@ -48,27 +31,5 @@ A customer claims they were short shipped by 1 piece, and a credit memo needs to
 6. **Send the Credit Memo to the Customer**
 
    Print or email the credit memo to the customer as confirmation.
-
----
-
-## Verification
-
-- [ ] Confirm that the credit memo appears in the customer's account
-- [ ] Ensure the customer's balance reflects the credited amount
-- [ ] Verify that the credit memo references the correct item and quantity
-
----
-
-## Note
-
-- Always reference the original invoice or shipment when issuing a credit memo for traceability
-- For recurring issues or large discrepancies, review shipping and fulfillment processes
-
----
-
-## Additional Information
-
-- For assistance with credit memo procedures or system navigation, contact RoverERP support
-- Document all credit memos for audit and customer service purposes
 
 <PageFooter />

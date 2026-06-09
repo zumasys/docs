@@ -2,24 +2,6 @@
 
 <PageHeader />
 
-## Problem Statement
-
-Users need to manage credit card payments to vendors and consolidate multiple receipts or invoices into a single accounts payable (AP) invoice in RoverERP.
-
----
-
-## Symptoms
-
-- Difficulty tracking which vendor invoices were paid by credit card
-- Need to create a single AP invoice for multiple receipts or invoices
-- Uncertainty about how to use the **Related AP Items** function in **AP.E**
-
----
-
-## Cause
-
-The **Related AP Items** function in **AP.E** was designed to handle credit card payments and invoice consolidation, but users may not be familiar with its operation or benefits.
-
 ---
 
 ## Resolution Steps
@@ -77,28 +59,8 @@ When the record is saved:
 
 - If the invoice is paid in full, its status will be changed to **"closed."**
 
----
-
-## Verification
-
-- Confirm that all related AP items are flagged as paid and reference the correct consolidated AP ID.
-- Verify that any differences between statement and related amounts are properly expensed to the appropriate GL account.
-- Ensure that the status of fully paid invoices is set to **"closed."**
-
 ![Ap E5](./Ap-E5.jpg)
 
 ---
-
-## Notes
-
-- The **Related AP Items** function streamlines the process of reconciling credit card payments and consolidating multiple receipts or invoices into a single AP record.
-- Always review the amounts and GL postings for accuracy before finalizing.
-
----
-
-## Additional Information
-
-- For further assistance or complex scenarios, contact RoverERP support.
-- Document all consolidated payments and related items for audit and reconciliation purposes.
 
 <PageFooter />

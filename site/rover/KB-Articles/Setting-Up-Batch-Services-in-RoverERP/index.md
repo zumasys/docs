@@ -4,25 +4,6 @@
 
 <badge text='Administration' vertical='middle' />
 
-## Problem Statement
-
-Administrators need to configure batch services in RoverERP to automate scheduled processes, manage job queues, and set up service parameters for optimal system operation.
-
----
-
-## Symptoms
-
-- Need to create or modify batch services for automated job processing
-- Requirement to schedule services to run at specific times or intervals
-- Necessity to configure date parameters and user credentials for batch jobs
-
----
-
-## Cause
-
-- RoverERP batch services require proper configuration to execute scheduled processes efficiently
-- Different batch types serve different operational needs
-
 ---
 
 ## Service Configuration
@@ -86,28 +67,5 @@ This field defines which job queues the service is to process. You may select ex
 ![Bs E](./Bs-E.jpg)
 
 ---
-
-## Verification
-
-- [ ] Confirm that all required service parameters are configured correctly
-- [ ] Verify that the batch type is appropriate for the intended operation
-- [ ] Ensure that date parameters are set up correctly for scheduled jobs
-- [ ] Confirm that the user credentials have the necessary permissions to execute the service
-- [ ] Test the batch service to ensure it executes as expected
-
----
-
-## Note
-
-- Configure **Startup Type** as **Automatic** for services that should run continuously or on a regular schedule
-- Always verify user credentials and permissions before deploying batch services
-- Use date pseudonyms to ensure batch jobs run with the correct date parameters
-
----
-
-## Additional Information
-
-- For issues with batch service configuration, contact your system administrator or RoverERP support
-- Review RoverERP documentation for detailed information on specific batch job requirements
 
 <PageFooter />

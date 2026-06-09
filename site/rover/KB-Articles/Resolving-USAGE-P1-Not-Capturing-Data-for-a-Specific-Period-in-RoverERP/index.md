@@ -4,25 +4,6 @@
 
 <badge text='Troubleshooting' vertical='middle' />
 
-## Problem Statement
-
-USAGE.P1 did not report any data for a previous month or specific period, resulting in missing usage data.
-
----
-
-## Symptoms
-
-- USAGE.P1 reports are blank or missing data for a specific period (e.g., previous month)
-- Usage data is incomplete or not updated as expected
-
----
-
-## Cause
-
-- **USAGE.P1** may not have been scheduled or run as part of the **NIGHTLY** or **MONTHLY** batch process
-- The service responsible for running **USAGE.P1** may not have been started or may have failed during the relevant period
-- If the service was not running, usage data for the missed period will not be captured automatically
-
 ---
 
 ## Resolution Steps
@@ -53,24 +34,5 @@ USAGE.P1 did not report any data for a previous month or specific period, result
 ![Bq E4](./Bq-E4.jpg)
 
 ---
-
-## Verification
-
-- [ ] Confirm that **USAGE.P1** now reports data for the previously missing period(s)
-- [ ] Ensure that usage data is complete and accurate for all required dates
-
----
-
-## Note
-
-- Always verify that batch jobs and services are scheduled and running as intended to prevent missed data in the future
-- Document any manual runs of **USAGE.P1** for audit and tracking purposes
-
----
-
-## Additional Information
-
-- For persistent issues or if you require assistance with batch scheduling, contact RoverERP support
-- Regularly monitor batch job status and service logs to ensure all critical processes are running
 
 <PageFooter />

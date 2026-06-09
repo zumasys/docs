@@ -4,26 +4,6 @@
 
 <badge text='Administration' vertical='middle' />
 
-## Problem Statement
-
-Users are experiencing slowness or are unable to log in to RoverERP. These issues may affect various functions, including running reports, opening screens, performing lookups, or entering and saving data.
-
----
-
-## Symptoms
-
-- Users are unable to log in to RoverERP
-- Users experience slowness when running reports, opening screens, performing lookups, or entering or saving data
-- Errors may be displayed during login attempts
-
----
-
-## Cause
-
-- The system may be running out of available licenses, preventing new logins
-- Performance issues may be related to server load, network latency, or database performance
-- Specific errors or slowness may be tied to certain actions or modules within RoverERP
-
 ---
 
 ## Resolution Steps
@@ -59,24 +39,5 @@ Users are experiencing slowness or are unable to log in to RoverERP. These issue
 - Collect screenshots and detailed descriptions for support
 
 ---
-
-## Verification
-
-- [ ] Confirm that users can log in successfully and that the number of active sessions does not exceed the license limit
-- [ ] Verify that system performance is acceptable for all standard actions, including running reports, opening screens, and saving records
-
----
-
-## Note
-
-- Always monitor license usage to prevent login issues
-- Persistent slowness or login problems should be reported to RoverERP support with detailed information and screenshots
-
----
-
-## Additional Information
-
-- For ongoing issues, review server and network performance, and consult your IT team or RoverERP support
-- Regularly update RoverERP and related infrastructure to maintain optimal performance
 
 <PageFooter />

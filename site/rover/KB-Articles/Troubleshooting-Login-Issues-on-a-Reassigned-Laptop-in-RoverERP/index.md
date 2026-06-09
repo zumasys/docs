@@ -2,27 +2,6 @@
 
 <PageHeader />
 
-## Problem Statement
-
-A user is unable to log in to RoverERP on a laptop that was previously assigned to another user. Attempts to uninstall and reinstall RoverERP have not resolved the issue, and the login process either stalls or displays the same error screens after several minutes.
-
----
-
-## Symptoms
-
-- Unable to log in to RoverERP on a specific laptop
-- The login process hangs or displays error screens after waiting several minutes
-- The issue persists even after uninstalling and reinstalling the RoverERP client
-- The laptop was previously used by a different user
-
----
-
-## Cause
-
-- The laptop may still be associated with the previous user's credentials or configuration
-- Cached credentials, user profiles, or device registration may be causing conflicts
-- There may be network, permissions, or configuration issues specific to the device
-
 ---
 
 ## Resolution Steps
@@ -57,26 +36,6 @@ A user is unable to log in to RoverERP on a laptop that was previously assigned 
 ### 6. Contact Support if the Issue Persists
 
 - If the problem continues after completing the above steps, contact RoverERP support with details of the issue and any error messages encountered
-
----
-
-## Verification
-
-- [ ] Confirm that the new user can successfully log in to RoverERP on the laptop
-- [ ] Ensure that the login process completes without delays or error screens
-- [ ] Verify that all required RoverERP functions are accessible
-
----
-
-> **Note:**  
-> Always ensure that laptops reassigned to new users have all previous user data and credentials cleared to prevent conflicts. Administrative rights may be required for proper installation and configuration of RoverERP.
-
----
-
-## Additional Information
-
-- For persistent or complex login issues, provide support with screenshots and error details to expedite troubleshooting
-- Consult your IT administrator for assistance with device registration or network configuration if needed
 
 ---
 

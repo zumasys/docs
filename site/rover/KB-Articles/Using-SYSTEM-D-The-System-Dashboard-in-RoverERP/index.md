@@ -4,24 +4,6 @@
 
 <badge text='Administration' vertical='middle' />
 
-## Problem Statement
-
-Administrators need a centralized overview of the current and historical state of the RoverERP system, including user activity, resource usage, and system logs.
-
----
-
-## Symptoms
-
-- Need to monitor system health, user activity, and resource utilization
-- Requirement to access logs for troubleshooting or audit purposes
-- Desire to manage user sessions directly from a dashboard
-
----
-
-## Cause
-
-- Ongoing system administration and monitoring require access to real-time and historical system data
-
 ---
 
 ## Resolution Steps
@@ -66,24 +48,5 @@ Administrators need a centralized overview of the current and historical state o
 - Ensure **SYSTEMSTATS** is set up and running continuously to avoid gaps in historical data
 
 ---
-
-## Verification
-
-- [ ] Confirm that real-time and historical system data is displayed accurately
-- [ ] Ensure that user session management functions (logoff, reset, remove, tandem) work as expected
-
----
-
-## Note
-
-- Continuous operation of **SYSTEMSTATS** is essential for complete historical records
-- Use **SYSTEM.D** regularly to maintain system health and respond promptly to issues
-
----
-
-## Additional Information
-
-- For setup or troubleshooting of **SYSTEMSTATS**, consult your system administrator or RoverERP support
-- Document any administrative actions taken for audit and compliance purposes
 
 <PageFooter />
