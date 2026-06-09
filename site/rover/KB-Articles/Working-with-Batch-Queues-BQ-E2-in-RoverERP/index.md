@@ -4,25 +4,6 @@
 
 <badge text='Administration' vertical='middle' />
 
-## Problem Statement
-
-Administrators and users need to define, manage, and troubleshoot batch queues and jobs in RoverERP to automate and schedule background processing tasks.
-
----
-
-## Symptoms
-
-- Need to set up or amend batch queues for automated job processing
-- Requirement to control user access, job concurrency, and job history retention
-- Need to define and add jobs to batch queues for scheduled execution
-
----
-
-## Cause
-
-- Batch queues are used to manage and schedule background jobs and services in RoverERP
-- Proper configuration ensures jobs run as intended and system resources are managed efficiently
-
 ---
 
 ## Resolution Steps
@@ -90,27 +71,5 @@ After entering all required values, save the job run procedure attributes. When 
 ![Receipts P1](./Receipts-P1.jpg)
 
 ---
-
-## Verification
-
-- [ ] Confirm that batch queues and jobs are defined as intended
-- [ ] Ensure users have appropriate access and that jobs run according to schedule
-- [ ] Check job history and status for successful execution
-
----
-
-## Note
-
-- Only system printers can be used as output destinations for batch jobs
-- Use the reset function if a batch queue becomes stuck due to incomplete jobs
-
-![Action](./Action.jpg)
-
----
-
-## Additional Information
-
-- For more details on any field, use the **F1** (help) key while the cursor is in the field
-- Contact RoverERP support for assistance with complex batch queue configurations or troubleshooting
 
 <PageFooter />
