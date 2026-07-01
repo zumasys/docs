@@ -19,7 +19,9 @@ These are the release notes for version 2.30.0 (07/01/2026) of the Rover Web app
   - optional summary screens
   - row highlighting for submitted or skipped items
   - optional auto-mode processing
+  ![Workflow Admin](./web-admin-workflows.gif)
 - Added support for launching configured workflows directly from the **Scan** module when enabled and permitted.
+![Workflows In Scan](./scan-workflows.gif)
 
 ## Bug Fixes
 
