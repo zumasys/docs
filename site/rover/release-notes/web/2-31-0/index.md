@@ -10,10 +10,10 @@ These are the release notes for version 2.31.0 (07/08/2026) of the Rover Web app
 ### Rover Portal
 - Added optional support for self registration via data validation.  Users can be prompted for various account details and registered only when providing valid data.
 > Only supported by select ERPs
-![Self Registration](./self-registration.png)
+![Self Registration](./self-registration.gif)
 - Added optional support for self association via data validation.  Users can be prompted for various account details to associate their existing portal account with additional customers.
 > Only supported by select ERPs
-![Self Association](./self-association.png)
+![Self Association](./self-association.gif)
 
 ### Rover Web
 
