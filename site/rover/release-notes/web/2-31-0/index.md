@@ -7,6 +7,15 @@
 These are the release notes for version 2.31.0 (07/08/2026) of the Rover Web application and can be made available to customers running _Rover ERP_, _IMACS_ and other non-Zumasys owned systems. Contact your _Client Success Manager_, [Sales](mailto:sales@zumasys.com?subject=Rover%20Web%20v2.31.0) or [Support](mailto:help@zumasys.com?subject=Rover%20Web%20v2.31.0) today!
 
 ## New Features
+### Rover Portal
+- Added optional support for self registration via data validation.  Users can be prompted for various account details and registered only when providing valid data.
+> Only supported by select ERPs
+![Self Registration](./self-registration.png)
+- Added optional support for self association via data validation.  Users can be prompted for various account details to associate their existing portal account with additional customers.
+> Only supported by select ERPs
+![Self Association](./self-association.png)
+
+### Rover Web
 
 ### Production
 
