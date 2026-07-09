@@ -9,6 +9,10 @@ These are the release notes for version 2.32.0 (07/10/2026) of the Rover Web app
 ## New Features
 ### Rover Web
 
+### General
+
+ - Multiselect filters now support a "(Blanks)" option to filter for items with no assigned value.
+ ![Blank Filters](./blank-filter.png)
 ### Point of Sale
 
  - Improved handling of underlying payment gateway origins to improve reliability.
@@ -16,7 +20,7 @@ These are the release notes for version 2.32.0 (07/10/2026) of the Rover Web app
 ### Production
 
  - Production board now supports linking to WO detail at the column level rather than row level.  This avoids inadvertant clicks on the row opening WO detail unexpectedly, and for more granular access to WO detail when there are more than one WO related columns visible.
- 
+
 ## Bug Fixes
 
 ### Point of Sale
