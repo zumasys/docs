@@ -11,7 +11,7 @@ These are the release notes for version 2.32.0 (07/10/2026) of the Rover Web app
 
 ### General
 
- - Multiselect filters now support a "(Blanks)" option to filter for items with no assigned value.
+ - Multiselect filters now support a "(Blank)" option to filter for items with no assigned value.
  ![Blank Filters](./blank-filter.png)
 ### Point of Sale
 
