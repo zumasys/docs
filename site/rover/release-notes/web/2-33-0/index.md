@@ -32,6 +32,7 @@ These are the release notes for version 2.33.0 of the Rover Web application and 
 ### Point of Sale
 
 - Fixed several responsive layout issues in **Point of Sale** screens, including customer, order, payment, and receipt history views.
+- Fixed issues with dialog display of existing sales order.
 
 ### Scan 
 
