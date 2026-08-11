@@ -32,6 +32,7 @@ These are the release notes for version 2.34.0 (TBD) of the Rover Web applicatio
 ### Web Admin
 
 - Added a Formsdef administration screen to create, edit, duplicate, enable/disable, and delete Formsdef records.
+![formsdef-admin](./formsdef-admin.gif)
 
 ## Bug Fixes
 
