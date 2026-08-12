@@ -21,9 +21,7 @@ These are the release notes for version 2.34.0 (TBD) of the Rover Web applicatio
 
 ### Point of Sale
 
-- Added an improved Accounts Receivable payment flow and confirmation experience.
-- Added improved ACH account selection and entry workflows in payment dialogs.
-- Added support for sending receipts to additional email recipients.
+- Added support for mulitple receipts for a single payment.  Supports split tender scenarios where each tender is a distinct receipt.
 
 ### Production
 
