@@ -8,15 +8,23 @@ These are the release notes for version 2.34.2 (08/18/2026) of the Rover Web app
 
 ## Bug Fixes
 
-### General Payment Processing
-
-- Added context for module source on payment requests being forwarded to backend host.
-
 ### Customer Inquiry
 
 - Addressed an issue with ACH payment failures from Customer Inquiry when using an existing account/routing value on file.
 - Addressed an issue with reuse of a newly added ACH payment method saved during a payment.
 
+### General Payment Processing
 
+- Added context for module source on payment requests being forwarded to backend host.
+
+### Point of Sale
+
+- Addresses issue with printer selection dialog not properly persisting selected printer.
+> Only supported by select ERPs
+
+### Settings
+
+- Addresses issue with Pick Ticket Printer selection not populating on load unless a register is in use.
+> Only supported by select ERPs
 
 <PageFooter />
