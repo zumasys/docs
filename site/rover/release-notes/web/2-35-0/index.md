@@ -20,8 +20,6 @@ These are the release notes for version 2.35.0 (08/30/2026) of the Rover Web app
 ### Point of Sale
 - Improved part search behavior when no matching results are found.
 - Kept remaining balance information visible during payment and confirmation flows.
-
-### Offline / Parts
 - Improved offline category filtering so parent categories include their descendants.
 > Only supported by select ERPs
 - Improved offline price record handling for campaign-specific items.
@@ -37,8 +35,6 @@ These are the release notes for version 2.35.0 (08/30/2026) of the Rover Web app
 ### Point of Sale
 - Fixed the search input to reset properly when a lookup returns no parts.
 - Fixed remaining balance display logic for payment and confirmation screens.
-
-### Offline / Parts
 - Fixed offline category matching when selecting a parent category.
 > Only supported by select ERPs
 - Fixed campaign matching for cached price records when the campaign value is stored as `0`.
