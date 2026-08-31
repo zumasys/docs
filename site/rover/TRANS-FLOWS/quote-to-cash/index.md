@@ -61,7 +61,7 @@ Customer Quote → Sales Order → Pick/Pack/Ship → Confirm Shipment → Post 
 **Key fields:** Sales Order, Shipper ID.
 
 ## SHIP.E2 — Confirm Shipment
-**Purpose:** Review, adjust, and confirm shippers before posting.
+**Purpose:** Review, adjust, and confirm shippers by setting Status to **S** (Shipped) before posting.
 
 **How to access:** Desktop client → Shipping → Shippers → SHIP.E2.
 
@@ -74,7 +74,7 @@ Customer Quote → Sales Order → Pick/Pack/Ship → Confirm Shipment → Post 
 **Key fields:** Shipper ID, Status, Qty to Ship, Freight, Ship Via, Tracking.
 
 ## SHIP.P1 — Post Shipment and Create AR Invoice
-**Purpose:** Post confirmed shippers (Status=S) to relieve inventory and generate the AR invoice.
+**Purpose:** Post confirmed shippers (Status=S), move them to posted status, and generate the AR invoice.
 
 **How to access:** Desktop client → Shipping → Postings → SHIP.P1.
 

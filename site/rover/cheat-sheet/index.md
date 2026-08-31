@@ -128,7 +128,7 @@ This cheat sheet provides a list of commonly used processes, reports, and entry 
 |---------------|-------------|------------------|-------|
 |Create SHIP record (allocate) | MRK/MRK.ENTRY | [SHIP.E](../MRK-OVERVIEW/MRK-ENTRY/SHIP-E/index.md) | This optional step can generate the SHIP record and will allocate the parts in inventory. Print ship pick list ([SHIP.R1](../MRK-OVERVIEW/MRK-REPORT/SHIP-R1/index.md)).
 |Get parts from shelves  | | |Material is retrieved by inventory personnel
-|Ship confirmation | MRK/MRK.ENTRY | [SHIP.E2](../MRK-OVERVIEW/MRK-ENTRY/SHIP-E2/index.md) | To create a new shipment, skip the shipment number field, change status to “S” and enter the SO number. Data will load from UPS/Fedex if applicable. Inventory for end item will be relieved when saved. Print packing slip ([SHIP.F6](../MRK-OVERVIEW/MRK-REPORT/SHIP-F6/index.md)). Print Invoice ([SHIP.F5](../MRK-OVERVIEW/MRK-REPORT/SHIP-F5/index.md)).
+|Ship confirmation | MRK/MRK.ENTRY | [SHIP.E2](../MRK-OVERVIEW/MRK-ENTRY/SHIP-E2/index.md) | To create a new shipment, skip the shipment number field, change status to “S” and enter the SO number. Data will load from UPS/Fedex if applicable. Inventory for end item will be relieved when saved. Print packing slip ([SHIP.F6](../MRK-OVERVIEW/MRK-REPORT/SHIP-F6/index.md)). Run [SHIP.P1](../MRK-OVERVIEW/MRK-PROCESS/SHIP-P1/index.md) to move the shipment from shipped to posted and create the invoice form ([SHIP.F5](../MRK-OVERVIEW/MRK-REPORT/SHIP-F5/index.md)).
 |Reverse a posted shipment | MRK/MRK.ENTRY | [SHIP.E3](../MRK-OVERVIEW/MRK-ENTRY/SHIP-E3/index.md) | Creates a credit memo and reopens the sales order
 
 #### Nightly Procedures
