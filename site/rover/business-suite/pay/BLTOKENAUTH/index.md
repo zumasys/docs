@@ -1,23 +1,24 @@
 # BLTOKENAUTH
 
 <PageHeader />
-This endpoint authorizes a tokenized form of payment for a specified amount.
+This endpoint authorizes the form of payment as auth-only.  Use 'BLTOKENFINAL' to capture the payment or 'BLTOKENREFUND' to release the authorization.
 
 ## POST Request Attributes
 
 | Attribute | Description                                                                                                                                                           | Required           |
 | --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
 | atoken    | Authorization token to allow access to the service                                                                                                                    | :heavy_check_mark: |
-| entity    | This tells the api what database to use for your transactions                                                                                                          | :heavy_check_mark: |
-| store     | The unique assignment for you location(s) Merchant accounts are assigned by store/location                                                                             | :heavy_check_mark: |
-| reg       | this identifies the POS station, user, terminal or process requesting transaction                                                                                      | :heavy_check_mark: |
-| date      | Date of the request made to Rover Pay                                                                                                                                 |
-| tran      | This is the sequential number for the REG requesting the transaction                                                                                                  |
-| invoice   | Invoice must be unique per card request in order to request Inquiry from blinquire                                                                                    |
+| entity    | This tells the API what database to use for your transactions.                                                                                                        | :heavy_check_mark: |
+| store     | The unique assignment for your location(s). Merchant accounts are assigned by store/location. Defaults to `1` if not provided                                         |                    |
+| reg       | This identifies the POS station, user, terminal or process requesting transaction. Defaults to `1` if not provided                                                    |                    |
+| date      | Date of the request made to Rover Pay. Supports `MM/DD/YYYY` or `YYYY-MM-DD` formats. Defaults to current date if not provided                                        |                    |
+| tran      | This is the sequential number for the REG requesting the transaction. Defaults to current time (in seconds) if not provided                                           |                    |
+| invoice   | Invoice must be unique per card request in order to request Inquiry from `BLINQUIRE`                                                                                  |                    |
+| amount    | Amount to be authorized with two implied decimal places (example: to specify "$10.00," use "1000").                                                                   | :heavy_check_mark: |
 | ctoken    | This is the token received from BLTOKENIZE                                                                                                                            | :heavy_check_mark: |
-| amount    | Amount to be authorized with two implied decimal places (example: to specify "$10.00," use "1000")                                                                    | :heavy_check_mark: |
-| manual    | If flag is set to 0 then it requests an MSR (magnetic stripe), EMV (chip), or NFC (contactless) payment card interaction, else  it will request manually-entered data |
-| debug     | If flag is set then error messages will be more verbose                                                                                                               |
+| expiry    | Expiration date of the card in MMYY format                                                                                                                            | :heavy_check_mark: |
+| avs       | Optional AVS data. See [AVS Data](../AVS/index.md) for the schema and validation rules                                                                                |                    |
+| debug     | If flag is set then error messages will be more verbose                                                                                                               |                    |
 
 ## Example Request
 
@@ -28,32 +29,51 @@ This endpoint authorizes a tokenized form of payment for a specified amount.
     "store": {{store}},
     "reg": {{reg}},
     "date": "",
-    "tran": "",
-    "invoice": "",
-    "ctoken": "",
-    "expiry": "",
-    "amount": "",
+    "tran": "rc783",
+    "invoice": "rc783.4",
+    "ctoken": "9478848718650076",
+    "expiry": "1222",
+    "amount": "200",
     "debug": {{debug}}
 }
 ```
 
 ## Example Response
 
-| Attribute  | Description                                                    |
-| ---------- | -------------------------------------------------------------- |
-| verified   | Flag will be set to 1 if call was successful or 0 if it failed |
-| errorCode  | Error Code                                                     |
-| errMessage | Error Message                                                  |
-| resultId   | Result ID that can be used as the reqID field                  |
-| ccvRec     | Base 64 Encoded String which holds the Token                   |
+| Attribute     | Description                                                                                                                       |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| verified      | Flag will be set to `1` if call was successful or `0` if it failed                                                                |
+| errorCode     | Error code, empty if call was successful                                                                                          |
+| errorMessage  | Error message, empty if call was successful                                                                                       |
+| resultId      | Result ID that can be used as the `reqid` field in `BLTOKENREFUND`                                                                |
+| auth          | Authorization code returned from the processor                                                                                    |
+| reference     | Authorization reference number returned from the processor                                                                        |
+| cardType      | Card type code (e.g., `V` for Visa, `M` for Mastercard)                                                                           |
+| cardDesc      | Card type description (e.g., `Visa`, `Mastercard`)                                                                                |
+| name          | Cardholder name returned from the processor                                                                                       |
+| avsCode       | Address Verification Service (AVS) response code                                                                                  |
+| fee_amount    | Surcharge fee amount (if applicable)                                                                                              |
+| fee_authcode  | Fee authorization code (if applicable)                                                                                            |
+| fee_format    | Fee format (if applicable)                                                                                                        |
+| fee_merchid   | Fee merchant ID (if applicable)                                                                                                   |
+| fee_retref    | Fee retrieval reference (if applicable)                                                                                           |
+| fee_type      | Fee type (if applicable)                                                                                                          |
+| fee_value     | Fee value (if applicable)                                                                                                         |
+| ccvRec        | Base64 encoded string containing the full CCV record                                                                              |
 
-```Javascript
+``` javascript
 {
     "verified": "1",
     "errorCode": "",
     "errorMessage": "",
-    "resultId": "1*19562*110*41642*1",
-    "ccvRec": "NCoqKioqKioqMDA3Nv4xMjIy/v5QUFM4ODn+MjAzNzg0MDQ4ODQz/v5FTkNSWVBURUT+Vv5WaXNh/v5Q/v5bRDIwXSBDaGFyZ2UgQWNjZXB0ZWQu/v7+/v7+MSoxOTU2MioxMTAqNDE2NDIqMf7+/v7+/v7+/v7+/jEwMDD+/v7+/v7+/lRPS0VOLUFWU/45NDc4ODQ4NzE4NjUwMDc2/kJPTFT+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v4g/lj+/kg0c0lDQUFBQUFBQy8xTkpSeTVDVFZBQTdNc3hFY0pBQUFEQmV4ZEl5S1NLQWdyNmVFQUI2aUlJSjA5RFFVK1JHZGh0Yis2MlA5YXF1bFpMOVJ4MVZLTlIxZmJ1bithY0FRQUFBQURudXB6MGJsKzg5ejk3QVFBQUFBQit3V3NBQ09Jb1ZHNHFBQUE9"
+    "resultId": "1*19562*110*rc783*4",
+    "auth": "123456",
+    "reference": "203563747337",
+    "cardType": "V",
+    "cardDesc": "Visa",
+    "name": "JOHN DOE",
+    "avsCode": "Y",
+    "ccvRec": "NCoqKioqKioqMDA3Nv4xMjIy/v5QUFMxNTL+MjAzNTYzNzQ3MzM3/v5FTkNSWVBURUT+Vv5WaXNh/v5Q/v5bRDIwXSBDaGFyZ2UgQWNjZXB0ZWQu/v7+/v7+MSoxOTU2MioxMTAqcmM3ODMqNP7+/v7+/v7+/v7+/jEwMDD+/v7+/v7+/kNDLUFVVEj+OTQ3ODg0ODcxODY1MDA3Nv5CT0xU/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+/v7+IP5Y/nJjNzAz/kg0c0lDQUFBQUFBQy8xTkpSeTVDVFZBQTdNdWhFY0pBQUFEQmUwOGhURlFxUU9CcGhlcFNFR1hnUGlZaUhrSEVycjI1NSt1OVZOV2p1bGVmVVZzMUdsV3RSeitiY3dZQUFBQUFBQUJjMSsySDkvdW5Gd0FBZ0d2YUJ3QkVwc1JXYmlvQUFBPT0="
 }
 ```
 
