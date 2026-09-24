@@ -13,10 +13,6 @@ These are the release notes for version 2.36.0 (09/24/2026) of the Rover Web app
 - Added support for authorized first-party embedded applications to use the active Rover Web session without requiring a second sign-in, when enabled for the subscription.
 > Only supported by select ERPs
 
-### Command Runner
-
-- Added a Favorites menu for suggested commands so users can save, launch, and remove frequently used commands. Favorites are stored in the current browser.
-
 ### Production
 
 - Added improved conflict handling when scheduling an operation inside another scheduled operation.
@@ -29,19 +25,18 @@ These are the release notes for version 2.36.0 (09/24/2026) of the Rover Web app
 - Added support for customer-specific default part lists in offline results while preserving the configured order.
 - Added support for customer-specific part specifications in product details, with automatic fallback to standard specifications when needed.
 - Added per-data-group progress updates during offline refresh so users can more clearly track in-progress, completed, and failed steps.
-> Only supported by select ERPs
+> Offline search only supported by select ERPs
+
+- Improved Point of Sale layout and usability with better order and cart scrolling, sticky summary behavior, mobile action placement, customer action button sizing, parts search spacing, and dialog keyboard shortcut cleanup.
 
 ## Bug Fixes
-
-### Accounting
-
-- Improved the Accounts Receivable payment and order summary side panel so it stays visible and scrolls more predictably on desktop.
 
 ### General
 
 - Improved handling for corrupted or unavailable browser storage values to reduce client-side errors.
 - Fixed duplicated background timers and listeners that could build up during navigation or repeated module use.
 - Improved online and offline status updates so connection changes are reflected more reliably.
+- Improved saved column preferences so they stay available for the same user while remaining separated between users and subscribers on shared browsers.
 
 ### Production
 
@@ -57,13 +52,7 @@ These are the release notes for version 2.36.0 (09/24/2026) of the Rover Web app
 - Fixed customer default-part and product-detail matching issues, including customer-specific specification fallback behavior.
 - Fixed campaign-based offline searches so eligible campaign items remain available.
 - Fixed repeated stale-cache confirmation prompts during offline workflows.
-> Only supported by select ERPs
-
-- Improved Point of Sale layout and usability with better order and cart scrolling, sticky summary behavior, mobile action placement, customer action button sizing, parts search spacing, and dialog keyboard shortcut cleanup.
-
-### Reports / Print / Export
-
-- Fixed saved column preferences so they stay available for the same user while remaining separated between users and subscribers on shared browsers.
+> Offline search only supported by select ERPs
 
 ### Tickets and Time
 
