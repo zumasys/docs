@@ -11,17 +11,12 @@ These are the release notes for version 2.37.0 (10/04/2026) of the Rover Web app
 ### General
 
 - Added an **Open Source Licenses** link to the application footer so users can review attribution and license information for the third-party software included with Rover Web.
+- Rover Web and Rover Portal now share a common set of components and utilities, so features such as attachments and sales order handling behave more consistently across both applications.
 
 ### Document Processing
 
 - Added support for submitting DWF design and plan files in addition to PDF files when sending documents for automated processing.
 > Only supported by select subscriptions
-
-## Improvements
-
-### General
-
-- Rover Web and Rover Portal now share a common set of components and utilities, so features such as attachments and sales order handling behave more consistently across both applications.
 
 ### Production
 
