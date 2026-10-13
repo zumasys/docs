@@ -35,6 +35,11 @@ These are the release notes for version 2.38.0 (10/12/2026) of the Rover Web app
 - Open tabs, including print and export tabs, now share refreshed credentials so every tab stays signed in.
 - Logging out in one tab now signs out all other open tabs in the same session.
 
+### Rover Portal
+
+- Category selection in the Orders module now uses the same shared category dialog as Rover Web, for a consistent browsing experience.
+- Ticket lists in Billing now use the same lazy-loading pagination as Rover Web.
+
 ## Bug Fixes
 
 ### General
