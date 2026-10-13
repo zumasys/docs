@@ -11,7 +11,6 @@ These are the release notes for version 2.38.0 (10/12/2026) of the Rover Web app
 ### General
 
 - Dashboard tabs now scroll when they overflow and collapse into a menu on smaller screens.
-- The **Open Source Licenses** link in the footer is now styled as a link.
 
 ### Point of Sale
 
