@@ -10,61 +10,53 @@ These are the release notes for version 2.38.0 (10/12/2026) of the Rover Web app
 
 ### General
 
-- Updated the application to use shared Zumasys component and composable libraries for common UI patterns, pagination, category navigation, and recently viewed record handling.
-
-- Improved responsive tab behavior so overflowing dashboard tabs stay usable on smaller screens and collapse into a menu when appropriate.
-
-- Added better selection-cell behavior in data tables so clicking a selection cell toggles the checkbox more naturally.
+- Dashboard tabs now scroll when they overflow and collapse into a menu on smaller screens.
+- The **Open Source Licenses** link in the footer is now styled as a link.
 
 ### Point of Sale
 
-- Replaced the category picker dialog with a shared category selection component for a more consistent browsing experience.
-- Improved category filtering and navigation logic within POS.
-- Added support for newly created tickets and customers to appear in recently viewed lists.
+- The category picker now uses the shared Zumasys category selection dialog, including the search box and breadcrumb navigation, for a consistent browsing experience.
 
-### Accounting
+### Billing
 
-- Recently viewed Accounts Payable and Accounts Receivable records now use record IDs instead of row indices when removing items, improving reliability when lists are reloaded or compacted.
-- Recently viewed records now preserve recency order more consistently when refreshed.
+- Clicking anywhere in a ticket's selection cell now toggles its checkbox.
 
 ### Ticketing
 
-- Newly created tickets are now added to recently viewed tickets.
-- Recently viewed tickets now refresh and display in the correct recency order.
-- Improved ticket navigation and removal behavior in the recently viewed list.
+- Newly created tickets are now added to the Recently Viewed tab.
+- Recently viewed tickets show a loading indicator while opening a ticket, and rows show a pointer cursor on hover.
+
+### Customers
+
+- Newly created customers are now added to the Recently Viewed tab.
 
 ### Session Management
 
-- Improved session token synchronization across open tabs so refreshed credentials stay aligned between tabs.
-- Reduced the chance of an idle tab trying to use an expired refresh token.
-- Improved logout behavior so other open tabs are notified when a session ends.
-- Added safer handling for transient refresh failures so network issues do not immediately force a full session logout.
+- Open tabs, including print and export tabs, now share refreshed credentials so every tab stays signed in.
+- Logging out in one tab now signs out all other open tabs in the same session.
 
 ## Bug Fixes
 
 ### General
 
-- Fixed several cases where UI state could become stale after refactoring shared components and composables.
-- Improved error handling when creating customers so failures are surfaced more clearly.
-
-### Point of Sale
-
-- Fixed category dialog behavior after moving it into a shared component.
-- Fixed some tab and scroll behavior in dashboard-style views.
+- Fixed an issue where an idle tab, such as a print or export view, could try to use an expired refresh token and fail.
+- Fixed a missing error message when creating a customer failed.
 
 ### Accounting
 
-- Fixed recently viewed list removal to target the correct record even when display order and stored order differ.
+- Fixed removal from the Recently Viewed Accounts Payable and Accounts Receivable lists so the correct record is removed even when the list order has changed or been compacted.
+- Fixed the order of recently viewed Accounts Receivable records so re-viewing a record moves it to the top.
 
 ### Ticketing
 
-- Fixed a race condition where out-of-order refresh responses could re-add removed tickets.
-- Fixed recently viewed ticket deletion to operate by ticket ID rather than display index.
+- Fixed a race condition where out-of-order refresh responses could re-add removed tickets to the Recently Viewed tab.
+- Fixed the Recently Viewed Tickets order so the most recently viewed ticket appears first.
+- Fixed an issue where text typed into a new quick ticket before it finished loading could be lost.
+- Fixed part filtering for customers with no matching customer-type items.
 
 ### Session Management
 
-- Fixed an issue where one tab’s refresh could overwrite another tab’s newer credentials.
-- Fixed cross-tab session logout handling so open tabs are kept in sync.
-- Fixed refresh handling so transient network/server errors do not masquerade as session expiration.
+- Fixed an issue where temporary network or server errors during a token refresh logged users out of every tab. Users are now signed out only when the server rejects the refresh token.
+- Fixed multiple "valid RoverJWT is required" notifications appearing at once when a session expires.
 
 <PageFooter />
