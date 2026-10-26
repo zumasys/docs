@@ -40,7 +40,7 @@
 import { ref } from 'vue'
 
 const isOpen = ref(false)
-const assistantUrl = 'https://manager.rovergo.ai/assistants/zumasys%3Arover-ai-support-assistant/chat?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJjMjgwYjE1YS0xY2U1LTQ5ZjQtYTI5Zi0yMDNmYTljYWY3NzMiLCJpYXQiOjE3OTMwMzQxMzN9.bHvlxgjG10HLawDlFLZlJmyOIB03iWMzsSbtUcxWRzI'
+const assistantUrl = 'https://manager.rovergo.ai/assistants/zumasys%3Arover-ai-support-assistant-new/chat?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJkYjQ4NGU4ZS0wYWE0LTQyODUtOGVjNS1lMTM0ODY2MDhlNWUiLCJpYXQiOjE3OTMwMzQ1NDN9.2Je4BAh8wNSjZlps0vO4LEcdlTeybljU_u2gBCXZAws'
 
 function toggleAssistant() {
   isOpen.value = !isOpen.value
